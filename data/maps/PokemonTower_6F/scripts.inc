@@ -169,7 +169,7 @@ PokemonTower_6F_Combate_Fuji_Texto_4:
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
 .string "RECLUTAS: E{PAUSE 15}-{PAUSE 15}-{PAUSE 15}Espere anciano, no\n"
-	.string "hay necesidad de{PAUSE 15}…$"
+	.string "hay necesidad de{PAUSE 15}…{PAUSE 5}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
 .string "RECLUTAS: ¡¡ALTO RANGO {PLAYER}!!\n"
@@ -187,7 +187,7 @@ PokemonTower_6F_Combate_Fuji_Texto_8:
 	.string "socios{PAUSE 25}…{PAUSE 25}por la paz de este lugar.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_9:
-.string "Te he fallado CUBONE, perdóname…$"
+.string "Te he fallado CUBONE, perdóname{PAUSE 5}…{PAUSE 5}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
 .string "({PLAYER} le entregó a FUJI el\n"
@@ -333,7 +333,7 @@ PokemonTower_6F_Cultistas_Texto_1:
 	.string "alboroto en este lugar sagrado.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 PokemonTower_6F_Cultistas_Texto_3:
 .string "Hmm{PAUSE 25}…{PAUSE 25} Ciertamente, esperaba otra cosa.\n"

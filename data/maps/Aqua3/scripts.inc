@@ -456,7 +456,7 @@ Aqua3_Combate_Aquiles_Texto_27:
 	.string "porqué de sus derrotas ante ti,\l"
 	.string "creían en la perfección de KYOGRE\l"
 	.string "y GROUDON, sin embargo, sus\l"
-	.string "poderes son incompletos…$"
+	.string "poderes son incompletos{PAUSE 5}…{PAUSE 5}$"
 
 Aqua3_Combate_Aquiles_Texto_28:
 .string "Nada me retiene ya aquí, debo ir\n"

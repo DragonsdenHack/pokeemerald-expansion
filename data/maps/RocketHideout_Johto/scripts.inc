@@ -262,7 +262,7 @@ RocketHideoutJohto_Text_15:
 .string "Así que un pedido con 1000 MALLA\n"
 .string "BALLS, 200 PROTEINAS+ZINC, 400\l"
 .string "RESTAURA.TODOS y 3000 GALLETAS\l"
-.string "LAVA…$"
+.string "LAVA{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -363,7 +363,7 @@ RocketHideoutJohto_Text_21:
 .string "elevando los stats de los\l"
 .string "originales en +100 de BASE en\l"
 .string "lugar de los +110 del RHYPERIOR de\l"
-.string "GIOVANNI…$"
+.string "GIOVANNI{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -473,7 +473,7 @@ RocketHideoutJohto_Text_26:
 .string "entre las dos regiones, el primer\l"
 .string "paso es abrir las fronteras\l"
 .string "asentadas en RUTA 26 y al pie del\l"
-.string "MONTE PLATEADO…$"
+.string "MONTE PLATEADO{PAUSE 5}…{PAUSE 5}$"
 
 
 

@@ -81,7 +81,7 @@ end
 Route40_Text_11:
 .string "Hicimos bien en venir aquí, me lo\n"
 .string "estoy pasando mejor que en CABO\l"
-.string "CELESTE…$"
+.string "CELESTE…{PAUSE 5}$"
 
 
 
@@ -93,7 +93,7 @@ release
 end
 
 Route40_Text_12:
-.string "Qué atardecer más bonito…$"
+.string "Qué atardecer más bonito…{PAUSE 5}$"
 
 
 

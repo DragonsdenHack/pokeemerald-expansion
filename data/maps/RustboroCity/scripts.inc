@@ -1138,7 +1138,7 @@ RustboroCity_Text_MayHiLetsRegister:
 	.string "on your POKéNAV!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 RustboroCity_Text_RegisteredMay:
 	.string "Registered MAY\n"
@@ -1185,7 +1185,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
 	.string "on your POKéNAV! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 RustboroCity_Text_RegisteredBrendan:
 	.string "Registered BRENDAN\n"
@@ -1230,7 +1230,7 @@ RustboroCity_Text_TunnelNearingCompletion:
 	.string	"terminado!”\p"
 	.string	"Eso pone en el cartel, pero también\n"
 	.string	"hay una gran “X” roja\l"
-	.string	"pintada encima…$"
+	.string	"pintada encima…{PAUSE 5}$"
 
 RustboroCity_Text_DevonCorpSign:
 	.string	"DEVON S.A.\p"

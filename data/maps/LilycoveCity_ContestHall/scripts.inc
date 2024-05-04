@@ -340,7 +340,7 @@ LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
 	.string	"el CONCURSO de BELLEZA…\p"
 	.string	"¿Y sabes qué? ¡Hoy ha ganado\n"
 	.string	"el CONCURSO de INGENIO!\p"
-	.string	"Soy tan bueno que no me lo creo…$"
+	.string	"Soy tan bueno que no me lo creo{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 	.string	"He entrado en un montón de CONCURSOS\n"
@@ -349,7 +349,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 	.string	"usa movimientos carismáticos para\l"
 	.string	"ganar más puntos.\p"
 	.string	"Vamos, que los movimientos ingeniosos\n"
-	.string	"o dulces no servirán de gran cosa…$"
+	.string	"o dulces no servirán de gran cosa{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
 	.string	"Ese jovencito que ganó antes tenía\n"
@@ -361,7 +361,7 @@ LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
 	.string	"Guau… Este sitio es gigantesco…\p"
 	.string	"Se respira tanta tensión… No es en\n"
 	.string	"absoluto como esas SALAS de CONCURSO\l"
-	.string	"perdidas en medio de la nada…$"
+	.string	"perdidas en medio de la nada{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
 	.string	"PRESENTADORA: Muy bien. POKéMON\n"
@@ -423,7 +423,7 @@ LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
 	.string	"Por mucho que venga, estos CONCURSOS\n"
 	.string	"de INGENIO me siguen encantando.\p"
 	.string	"Ese color verde es tan… agudo…\n"
-	.string	"Es tan, tan… intelectual…$"
+	.string	"Es tan, tan… intelectual{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
 	.string	"PRESENTADORA: ¿Tú también participas\n"
@@ -493,7 +493,7 @@ LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
 	.string	"Oh, no, un POKéMON ha distraído\n"
-	.string	"a mi dulce AZURILL…$"
+	.string	"a mi dulce AZURILL{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
 	.string	"Mi POKéMON nunca ha vencido luchando,\n"

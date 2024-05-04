@@ -30,11 +30,11 @@ MtPyre_6F_Text_ValerieIntro:
 	.string "poder dentro de mí.$"
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "Pues esta vez no lo he sentido mucho…$"
+	.string "Pues esta vez no lo he sentido mucho…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValeriePostBattle:
 	.string "Quizás provenga del espíritu de los\n"
-	.string "POKéMON que a veces acuden aquí…$"
+	.string "POKéMON que a veces acuden aquí…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValerieRegister:
 	.string "Fufufu… I lost the match, but…\n"
@@ -44,24 +44,24 @@ MtPyre_6F_Text_ValerieRegister:
 
 MtPyre_6F_Text_ValerieRematchIntro:
 	.string "Behind you…\n"
-	.string "What is it…$"
+	.string "What is it…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValerieRematchDefeat:
-	.string "Something faded away…$"
+	.string "Something faded away…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValeriePostRematch:
 	.string "The POKéMON at rest here…\n"
-	.string "Sometimes, they play…$"
+	.string "Sometimes, they play…{PAUSE 5}$"
 
 MtPyre_6F_Text_CedricIntro:
 	.string "¿Te has perdido?\n"
 	.string "¿Tienes miedo?$"
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Entonces no te perdiste…$"
+	.string "Entonces no te perdiste…{PAUSE 5}$"
 
 MtPyre_6F_Text_CedricPostBattle:
 	.string "Pensé que un entrenador asustado\n"
 	.string "tendría pánico y sería fácil de ganar.\p"
-	.string "Me arrepiento de haber intentado eso…$"
+	.string "Me arrepiento de haber intentado eso…{PAUSE 5}$"
 

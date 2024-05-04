@@ -12,7 +12,7 @@ PetalburgCity_House1_EventScript_Woman::
 PetalburgCity_House1_Text_TravelingIsWonderful:
 	.string	"¡Viajar es maravilloso!\p"
 	.string	"Cuando era un pimpollo, me recorrí\n"
-	.string	"el planeta de cabo a rabo…$"
+	.string	"el planeta de cabo a rabo…{PAUSE 5}$"
 
 
 PetalburgCity_House1_Text_GoOnAdventure:

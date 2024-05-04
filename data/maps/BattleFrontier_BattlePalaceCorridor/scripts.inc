@@ -147,5 +147,5 @@ BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
 	.string "Ah… I see a strong, heartfelt bond\n"
-	.string "between you and your POKéMON…$"
+	.string "between you and your POKéMON…{PAUSE 5}$"
 

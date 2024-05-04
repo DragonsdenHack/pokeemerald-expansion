@@ -375,7 +375,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_3:
 	.string "para la mejora.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_4:
-.string "Pero…$"
+.string "Pero{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_5:
 .string "Yo daría todo para preservar las\n"
@@ -506,7 +506,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_27:
 	.string "permanecer anclados a la tierra.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
-.string "ANDRA: Oh…$"
+.string "ANDRA: Oh{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
 .string "En cuanto a la forma\n"

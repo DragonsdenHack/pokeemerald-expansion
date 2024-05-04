@@ -132,7 +132,7 @@ MeteorFalls_1F_2R_Text_JayDefeat:
 MeteorFalls_1F_2R_Text_JayPostBattle:
 	.string "JAY: Fifty years of marriage…\p"
 	.string "If we ever argued, we always settled\n"
-	.string "it with a POKéMON battle…$"
+	.string "it with a POKéMON battle…{PAUSE 5}$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
 	.string "JAY: Well, well, aren't you a young\n"
@@ -152,7 +152,7 @@ MeteorFalls_1F_2R_Text_JohnRematchDefeat:
 MeteorFalls_1F_2R_Text_JohnPostRematch:
 	.string "JOHN: Married for fifty years…\p"
 	.string "On reflection, the dear wife and I,\n"
-	.string "we battled day in and day out…$"
+	.string "we battled day in and day out…{PAUSE 5}$"
 
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
 	.string "JOHN: Well, well, what a young TRAINER!\p"

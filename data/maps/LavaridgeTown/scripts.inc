@@ -342,7 +342,7 @@ LavaridgeTown_Text_ReceivedTheEgg:
 
 LavaridgeTown_Text_NoRoomForThisEgg:
 	.string "Oh? You've too many POKéMON.\n"
-	.string "There's no room for this EGG…$"
+	.string "There's no room for this EGG{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_AsYouWishThen:
 	.string "As you wish, then…\p"

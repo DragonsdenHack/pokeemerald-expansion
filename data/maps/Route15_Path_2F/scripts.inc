@@ -78,7 +78,7 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_1:
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "Es el último aviso.\n"

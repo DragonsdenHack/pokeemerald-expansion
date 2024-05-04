@@ -235,7 +235,7 @@ Route14_Combate_Azul_Texto_2:
 	.string "antes que vosotros, mi BLASTOISE\l"
 	.string "está hecho a medida para ese\l"
 	.string "POKÉMON, aunque sea un\l"
-	.string "LEGENDARIO…$"
+	.string "LEGENDARIO{PAUSE 5}…{PAUSE 5}$"
 
 Route14_Combate_Azul_Texto_3:
 .string "ANDRA es la que debería de andarse\n"
@@ -260,7 +260,7 @@ Route14_Combate_Azul_Texto_4:
 	.string "del resto-.$"
 
 Route14_Combate_Azul_Texto_5:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route14_Combate_Azul_Texto_6:
 .string "Qué tontería, para qué quieres\n"
@@ -278,7 +278,7 @@ Route14_Combate_Azul_Texto_6:
 	.string "punto de que puedan competir de tú\l"
 	.string "a tú con lo místico y sagrado de\l"
 	.string "esta región convertido en POKÉMON\l"
-	.string "LEGENDARIO…$"
+	.string "LEGENDARIO{PAUSE 5}…{PAUSE 5}$"
 
 Route14_Combate_Azul_Texto_7:
 .string "Quería hablar contigo antes de\n"

@@ -15,7 +15,7 @@ end
 
 Route51_Text_2:
 .string "Siento que ya estuve antes en este\n"
-.string "lugar…en un sueño…$"
+.string "lugar{PAUSE 5}…{PAUSE 5}en un sueño{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -129,7 +129,7 @@ Route51_Combate_Chica_Texto_6:
 
 Route51_Combate_Chica_Texto_7:
 .string "Sí…\n"
-	.string "Eso es…$"
+	.string "Eso es{PAUSE 5}…{PAUSE 5}$"
 
 Route51_Combate_Chica_Texto_8:
 .string "Así es, no existe ingrediente\n"

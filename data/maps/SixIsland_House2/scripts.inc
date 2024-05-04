@@ -14,7 +14,7 @@ release
 end
 
 SixIsland_House2_Text_2:
-.string "Debería escribir alguna CARTA…$"
+.string "Debería escribir alguna CARTA{PAUSE 5}…{PAUSE 5}$"
 
 
 

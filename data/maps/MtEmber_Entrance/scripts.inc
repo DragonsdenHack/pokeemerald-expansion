@@ -40,7 +40,7 @@ MtEmberEntrance_12_Texto_1:
 .string "Bien{PAUSE 15}…{PAUSE 15}\n"
 	.string "TATIANO debe de estar al caer con\l"
 	.string "el material necesario para\l"
-	.string "encontrar el RUBY…$"
+	.string "encontrar el RUBY{PAUSE 5}…{PAUSE 5}$"
 
 
 

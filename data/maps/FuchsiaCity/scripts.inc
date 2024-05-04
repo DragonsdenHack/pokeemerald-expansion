@@ -173,7 +173,7 @@ msgbox NeoFuchsiaCityDocumento_Texto_2, MSGBOX_SIGN
 end
 
 NeoFuchsiaCityDocumento_Text_105:
-.string "Aquí hay una nota…$"
+.string "Aquí hay una nota{PAUSE 5}…{PAUSE 5}$"
 
 NeoFuchsiaCityDocumento_Texto_2:
 .string "El PUESTO GUARDA DE LA ZONA SAFARI\n"
@@ -346,7 +346,7 @@ FuchsiaCity_Encuentro_Koga_Texto_4:
 	.string "puedes alegar al guarda que es un\l"
 	.string "cosplay que usas para ridiculizar\l"
 	.string "al TEAM ROCKET, este estará\l"
-	.string "obligado a dejarte pasar…$"
+	.string "obligado a dejarte pasar{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Encuentro_Koga_Texto_5:
 .string "KOGA: ¿Cómo?\n"
@@ -529,11 +529,11 @@ end
 
 FuchsiaCity_Estafado_Texto_1:
 .string "Estoy acabado, en la ruina…\n"
-	.string "Y todo por esos estafadores…$"
+	.string "Y todo por esos estafadores{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_3:
 .string "¡Eh, espera ROCKET!\n"
@@ -643,7 +643,7 @@ FuchsiaCity_Estafado_Texto_15:
 	.string "descarte es el último lugar que\l"
 	.string "les queda, ya han actuado en\l"
 	.string "FUCSIA, AZULONA, al pie del\l"
-	.string "MT.MOON…$"
+	.string "MT.MOON{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_16:
 .string "Espero que seas un gran\n"
@@ -737,7 +737,7 @@ FuchsiaCity_Entrenador_Especial_Texto_1:
 
 FuchsiaCity_Entrenador_Especial_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Entrenador_Especial_Texto_3:
 .string "Vaya, parece que necesitas algo\n"
@@ -784,7 +784,7 @@ FuchsiaCity_Entrenador_Especial_Texto_9:
 FuchsiaCity_Entrenador_Especial_Texto_10:
 .string "Un ENTRENADOR que se precie jamás\n"
 	.string "huye de un gran combate cuando se\l"
-	.string "le presenta…$"
+	.string "le presenta{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Basura::
 lock

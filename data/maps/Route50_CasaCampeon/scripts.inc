@@ -137,4 +137,4 @@ Route50_CasaCampeon_Combate_Campeon_Texto_10:
 	.string "solemos caer en la monotonía y el\l"
 	.string "aburrimiento. Por unos momentos tú me\l"
 	.string "has hecho sentir lo que es ser un\l"
-	.string "verdadero ENTRENADOR, como antaño…$"
+	.string "verdadero ENTRENADOR, como antaño…{PAUSE 5}$"

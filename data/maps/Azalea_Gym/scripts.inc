@@ -128,7 +128,7 @@ AzaleaGym_Combate_Cesar_Texto_3:
 	.string "equipo como para mí.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 AzaleaGym_Combate_Cesar_Texto_5:
 .string "MIRTO me ha demostrado que siempre\n"

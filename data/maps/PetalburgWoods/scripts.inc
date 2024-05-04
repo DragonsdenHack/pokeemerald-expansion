@@ -315,7 +315,7 @@ PetalburgWoods_EventScript_JamesRematch::
 
 PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
+	.string "Not a one to be found…{PAUSE 5}$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen any POKéMON\n"
@@ -385,7 +385,7 @@ PetalburgWoods_Text_GoBugPokemonTeam:
 
 PetalburgWoods_Text_ICouldntWin:
 	.string "A pesar de tener todos estos Pokémon,\n"
-	.string "he perdido miserablemente…$"
+	.string "he perdido miserablemente…{PAUSE 5}$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
 	.string "Como he atrapado tantísimos Pokémon,\n"

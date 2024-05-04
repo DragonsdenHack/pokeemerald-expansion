@@ -65,7 +65,7 @@ BillGarden_House1_Bill_Combate_Text_3:
 	.string "aunque consigas derrotarme, toda\l"
 	.string "la policía de CELESTE está de\l"
 	.string "camino, has actuado\l"
-	.string "precipitadamente…$"
+	.string "precipitadamente{PAUSE 5}…{PAUSE 5}$"
 
 BillGarden_House1_Bill_Combate_Text_4:
 .string "No obstante, no es muy común ver a\n"

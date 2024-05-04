@@ -538,7 +538,7 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "Fufufu…{PAUSE 5}$"
 
 MtChimney_Text_MaxieIntro:
 	.string "MAXIE: Hm?\n"
@@ -579,7 +579,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "you've seen of TEAM MAGMA.\p"
 	.string "Fufufu…\p"
 	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "obtain that ORB… Fufufu…{PAUSE 5}$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
@@ -591,12 +591,12 @@ MtChimney_Text_TabithaIntro:
 MtChimney_Text_TabithaDefeat:
 	.string "Hehehe…\p"
 	.string "Even though I've lost, if our leader\n"
-	.string "awakens that thing…$"
+	.string "awakens that thing…{PAUSE 5}$"
 
 MtChimney_Text_TabithaPostBattle:
 	.string "BOSS, hurry!\n"
 	.string "Give it the METEORITE's energy!\p"
-	.string "Hehehe…$"
+	.string "Hehehe…{PAUSE 5}$"
 
 MtChimney_Text_Grunt2Intro:
 	.string "We of TEAM MAGMA are working hard for\n"
@@ -621,7 +621,7 @@ MtChimney_Text_Grunt1Intro:
 	.string "I'm going to build it on hardened lava!$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "My dream of a big house…$"
+	.string "My dream of a big house…{PAUSE 5}$"
 
 MtChimney_Text_Grunt1PostBattle:
 	.string "A kid like you, you ought to be\n"
@@ -714,7 +714,7 @@ MtChimney_Text_YouveNotGotTheMoney:
 	.string	"no puedes comprar nada de nada.$"
 
 MtChimney_Text_OhFineThen:
-	.string	"Bueno. Tú te lo pierdes…$"
+	.string	"Bueno. Tú te lo pierdes…{PAUSE 5}$"
 
 MtChimney_Text_MetoriteFittedOnMachine:
 	.string "A METEORITE is fitted on a mysterious\n"
@@ -754,7 +754,7 @@ MtChimney_Text_ShelbyDefeat:
 
 MtChimney_Text_ShelbyPostBattle:
 	.string "Soy una Pokéabu con mucha experiencia,\n"
-	.string "pero aún me pueden dar una lección…$"
+	.string "pero aún me pueden dar una lección{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_ShelbyRegister:
 	.string "Thank you, child. It was fun, as if\n"
@@ -780,7 +780,7 @@ MtChimney_Text_MelissaIntro:
 	.string "descargar adrenalina. ¡Vamos a luchar!$"
 
 MtChimney_Text_MelissaDefeat:
-	.string "Me he quedado la mar de tranquila…$"
+	.string "Me he quedado la mar de tranquila{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_MelissaPostBattle:
 	.string "No hay nada como un poco de ejercicio\n"
@@ -811,7 +811,7 @@ MtChimney_Text_ShirleyDefeat:
 MtChimney_Text_ShirleyPostBattle:
 	.string "Mejor me vuelvo a los baños… ¿Te\n"
 	.string "apuntas? Ya, ya sé que tienes cosas más\l"
-	.string "importantes que hacer…$"
+	.string "importantes que hacer{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_SawyerIntro:
 	.string "This is one fine mountain! Plenty of\n"
@@ -909,7 +909,7 @@ end
 MtChimney_NPC29_Cientifico_Texto_1:
 	.string "Me pregunto qué pasaría si arrojáramos\n"
 	.string "al volcán todo el combustible para\l"
-	.string "cohetes de la ESTACIÓN ESPACIAL…$"
+	.string "cohetes de la ESTACIÓN ESPACIAL{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_NPC10_Policia::
 lock
@@ -1095,7 +1095,7 @@ MtChimney_Doctor_Rasmus_Texto_2:
 	.string "reacciona.$"
 
 MtChimney_Doctor_Rasmus_Texto_3:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MtChimney_Doctor_Rasmus_Texto_4:
 	.string "Ningún ENTRENADOR de por aquí debería\n"
@@ -1104,7 +1104,7 @@ MtChimney_Doctor_Rasmus_Texto_4:
 	.string "¿quién eres tú?$"
 
 MtChimney_Doctor_Rasmus_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MtChimney_Doctor_Rasmus_Texto_6:
 	.string "Entonces eres ese ADMIN ROCKET, no es\n"
@@ -1114,7 +1114,7 @@ MtChimney_Doctor_Rasmus_Texto_6:
 	.string "tener plena confianza en tus POKÉMON.$"
 
 MtChimney_Doctor_Rasmus_Texto_7:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MtChimney_Doctor_Rasmus_Texto_8:
 	.string "¿Quieres saber qué hacemos aquí? …\n"

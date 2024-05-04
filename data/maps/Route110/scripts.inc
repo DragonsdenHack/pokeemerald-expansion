@@ -954,7 +954,7 @@ Route110_Text_BestRecord:
 Route110_Text_ThereIsNoRecord:
 	.string "THE BEST RECORD TO DATE…\p"
 	.string "No one seems to have taken the\n"
-	.string "challenge. There is no record…$"
+	.string "challenge. There is no record{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_ImagineSeeingYouHere:
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
@@ -971,7 +971,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "my POKéNAV as well.\p"
 	.string "That way, even when we're apart,\n"
 	.string "I can rate your POKéDEX anytime.\p"
-	.string "… … … … … …$"
+	.string "… … … … … {PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_RegisteredBirchInPokenav:
 	.string "Registered PROF. BIRCH\n"

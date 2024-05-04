@@ -348,7 +348,7 @@ SsAnne_8F_Capitan_Text_19:
 	.string "conectan las 7 grandes islas\l"
 	.string "existen ciertos islotes,\l"
 	.string "inexplorados pero habitados por\l"
-	.string "ciertas tribus, y no solo eso…$"
+	.string "ciertas tribus, y no solo eso{PAUSE 5}…{PAUSE 5}$"
 
 SsAnne_8F_Capitan_Text_20:
 .string "Los mapas topográficos contemplan\n"

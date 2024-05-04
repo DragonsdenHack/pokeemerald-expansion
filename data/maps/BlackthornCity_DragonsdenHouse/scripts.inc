@@ -14,7 +14,7 @@ release
 end
 
 DragonsdenHouse2_Text_2:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -26,7 +26,7 @@ release
 end
 
 DragonsdenHouse2_Text_3:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -38,7 +38,7 @@ release
 end
 
 DragonsdenHouse2_Text_4:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -50,7 +50,7 @@ release
 end
 
 DragonsdenHouse2_Text_5:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 DragonsdenHouse_Anciano_Trampilla::
 lock

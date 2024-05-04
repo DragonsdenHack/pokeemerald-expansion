@@ -265,31 +265,31 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
 	.string "You are currently in\n"
-	.string "the 1st room…$"
+	.string "the 1st room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
 	.string "You are currently in\n"
-	.string "the 3rd room…$"
+	.string "the 3rd room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
 	.string "You are currently in\n"
-	.string "the 5th room…$"
+	.string "the 5th room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
 	.string "You are currently in\n"
-	.string "the 7th room…$"
+	.string "the 7th room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
 	.string "You are currently in\n"
-	.string "the 9th room…$"
+	.string "the 9th room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
 	.string "You are currently in\n"
-	.string "the 11th room…$"
+	.string "the 11th room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
 	.string "You are currently in\n"
-	.string "the 13th room…$"
+	.string "the 13th room…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
 	.string "Will you continue with\n"
@@ -306,19 +306,19 @@ BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
 	.string "We've been awaiting your return…\p"
 	.string "Before resuming your Battle Choice\n"
-	.string "challenge, let me save the game…$"
+	.string "challenge, let me save the game…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
 	.string "Please do enjoy your Battle Choice\n"
-	.string "challenge…$"
+	.string "challenge…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
 	.string "I am saving your data…\n"
-	.string "A little time, please…$"
+	.string "A little time, please…{PAUSE 5}$"
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
 	.string "The path is blocked!\n"
-	.string "And there is no turning back…$"
+	.string "And there is no turning back…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
 	.string "I beg your pardon, but…\p"
@@ -327,43 +327,43 @@ BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
 	.string "I see…\n"
-	.string "I apologize for my impertinence…$"
+	.string "I apologize for my impertinence…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
 	.string "Ah, let me see… There is something\n"
-	.string "about the path on the right…$"
+	.string "about the path on the right…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
 	.string "Ah, let me see… There is something\n"
-	.string "about the path in the center…$"
+	.string "about the path in the center…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
 	.string "Ah, let me see… There is something\n"
-	.string "about the path on the left…$"
+	.string "about the path on the left…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
 	.string "It seems to have the distinct aroma\n"
-	.string "of POKéMON wafting around it…$"
+	.string "of POKéMON wafting around it…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
 	.string "Is it… A TRAINER?\n"
-	.string "I sense the presence of people…$"
+	.string "I sense the presence of people…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
 	.string "I seem to have heard something…\n"
-	.string "It may have been whispering…$"
+	.string "It may have been whispering…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
 	.string "For some odd reason, I felt a wave\n"
-	.string "of nostalgia coming from it…$"
+	.string "of nostalgia coming from it…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
 	.string "I am sorry to say…\p"
 	.string "A terrifying event, yes, a horrible one,\n"
 	.string "is about to befall you…\p"
 	.string "I urge you to pay the utmost care\n"
-	.string "and prepare for the worst…$"
+	.string "and prepare for the worst…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
 	.string "From every path I sense a dreadful\n"
-	.string "presence…$"
+	.string "presence…{PAUSE 5}$"

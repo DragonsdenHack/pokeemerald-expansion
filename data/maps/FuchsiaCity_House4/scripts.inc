@@ -134,7 +134,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_2:
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_4:
 .string "¿Cómo dices?\n"
@@ -218,7 +218,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
 	.string "victorioso frente a nosotros dos\l"
 	.string "juntos. Sea como sea, nadie te\l"
 	.string "creerá ROCKET, nadie ha visto\l"
-	.string "estos combat…$"
+	.string "estos combat{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
 .string "¡Guau!\n"

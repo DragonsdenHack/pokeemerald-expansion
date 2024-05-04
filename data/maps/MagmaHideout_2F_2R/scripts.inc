@@ -26,7 +26,7 @@ MagmaHideout_2F_2R_Text_Grunt15Intro:
 	.string "I'm just following orders!$"
 
 MagmaHideout_2F_2R_Text_Grunt15Defeat:
-	.string "I may have lost, but…$"
+	.string "I may have lost, but…{PAUSE 5}$"
 
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 	.string "We dug up something beyond belief!\n"
@@ -36,11 +36,11 @@ MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 
 MagmaHideout_2F_2R_Text_Grunt6Intro:
 	.string "I can't stand heat. Maybe I should've\n"
-	.string "joined TEAM AQUA instead…$"
+	.string "joined TEAM AQUA instead…{PAUSE 5}$"
 
 MagmaHideout_2F_2R_Text_Grunt6Defeat:
 	.string "Yeah, I really may not be right for\n"
-	.string "TEAM MAGMA…$"
+	.string "TEAM MAGMA…{PAUSE 5}$"
 
 MagmaHideout_2F_2R_Text_Grunt6PostBattle:
 	.string "Don't you get lonely for the sea\n"
@@ -70,9 +70,9 @@ MagmaHideout_2F_2R_Text_Grunt8Intro:
 	.string "Was it you who found it?$"
 
 MagmaHideout_2F_2R_Text_Grunt8Defeat:
-	.string "I'm having trouble believing this…$"
+	.string "I'm having trouble believing this…{PAUSE 5}$"
 
 MagmaHideout_2F_2R_Text_Grunt8PostBattle:
 	.string "I'm getting this feeling that our plan\n"
-	.string "is going to end in failure…$"
+	.string "is going to end in failure…{PAUSE 5}$"
 

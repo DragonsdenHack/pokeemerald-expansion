@@ -388,7 +388,7 @@ MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 	.string	"Ojalá la gente normal pudiera ir\n"
-	.string	"al espacio de excursión…$"
+	.string	"al espacio de excursión…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
 	.string "TEAM MAGMA…\n"
@@ -425,7 +425,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "That's what we should've done…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
 	.string "Three of us here, and look at the sorry\n"
@@ -478,10 +478,10 @@ MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
 	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "I just want to expand the land mass…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-	.string "I'm with our leader…$"
+	.string "I'm with our leader…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "MAXIE: We failed to make the volcano\n"
@@ -502,7 +502,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "MAXIE: All right…\n"
 	.string "We will give up on the fuel…\p"
 	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "matters that I must examine…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "STEVEN: Whew, that was too tense.\n"

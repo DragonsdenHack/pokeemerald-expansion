@@ -113,7 +113,7 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
 	.string "WALLY's gone away…\n"
-	.string "He slipped off on his own…$"
+	.string "He slipped off on his own…{PAUSE 5}$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "UNCLE: Is that right?\n"
@@ -159,7 +159,7 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 	.string "If anything were to happen to WALLY,\n"
 	.string "I would never be able to look his\l"
-	.string "parents in PETALBURG in the eye…$"
+	.string "parents in PETALBURG in the eye…{PAUSE 5}$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
 	.string "WALLY was in EVER GRANDE?\p"

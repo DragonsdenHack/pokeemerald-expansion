@@ -15,7 +15,7 @@ ThreeIsland_House2_Text_1:
 .string "¡No consigo doblar la cuchara\l"
 .string "con la mente!\p"
 .string "A ver si va a resultar que no\n"
-.string "tengo poderes psíquicos…$"
+.string "tengo poderes psíquicos{PAUSE 5}…{PAUSE 5}$"
 
 
 

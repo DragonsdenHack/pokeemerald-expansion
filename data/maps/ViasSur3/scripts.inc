@@ -209,5 +209,5 @@ ViasSur3_Primer_Obrero_Texto_1:
 	.string "Y yo que me sentía seguro con mis TIPO\l"
 	.string "ROCA, no quiero imaginar qué hubiera\l"
 	.string "pasado en caso de aparecer ese otro\l"
-	.string "ave que andamos buscando…$"
+	.string "ave que andamos buscando{PAUSE 5}…{PAUSE 5}$"
 

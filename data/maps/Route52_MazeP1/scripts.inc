@@ -319,7 +319,7 @@ Route52_MazeP1_Combates_Finales_Texto_3:
 	.string "a esos EJECUTIVOS de TRIGAL.$"
 
 Route52_MazeP1_Combates_Finales_Texto_4:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route52_MazeP1_Combates_Finales_Texto_5:
 .string "¿Cómo sé que el TEAM ROCKET está\n"
@@ -514,7 +514,7 @@ end
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
 .string "Bien…\n"
 	.string "Con esta máquina podremos seguir\l"
-	.string "lavando dinero más fácilmente…$"
+	.string "lavando dinero más fácilmente{PAUSE 5}…{PAUSE 5}$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
 .string "¿Quién eres tú?\n"
@@ -607,7 +607,7 @@ step_end
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
 .string "Transacción de 4 millones de pokés\n"
 	.string "por un CHARMANDER cerrada, esto va\l"
-	.string "como la seda…$"
+	.string "como la seda{PAUSE 5}…{PAUSE 5}$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
 .string "¿Cómo has llegado hasta aquí?\n"

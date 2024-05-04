@@ -517,7 +517,7 @@ LavenderRadioP6_Combate_Bill_Texto_2:
 LavenderRadioP6_Combate_Bill_Texto_3:
 .string "Eso quiere decir que estás obligado a\n"
 	.string "pasar por aquí para subir a la azotea,\l"
-	.string "pero también…$"
+	.string "pero también{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Combate_Bill_Texto_4:
 .string "¡Que estás obligado a combatir conmigo\n"
@@ -533,7 +533,7 @@ LavenderRadioP6_Combate_Bill_Texto_6:
 	.string "después en la práctica no ocurre así?$"
 
 LavenderRadioP6_Combate_Bill_Texto_7:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Combate_Bill_Texto_8:
 .string "¡¿El POKÉMON ESENCIA era real y yo\n"
@@ -670,7 +670,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_1:
 .string "ANDRA: Por una vez llegas antes.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.1:
 .string "He hablado con GIOVANNI y no hay\n"
@@ -689,7 +689,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.3:
 	.string "cambios tan repentinos nos están\l"
 	.string "cegando un poco a todos. Y todo esto\l"
 	.string "de las ondas de radio, a mí me genera\l"
-	.string "inquietud…$"
+	.string "inquietud{PAUSE 5}…{PAUSE 5}$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
@@ -697,14 +697,14 @@ LavenderRadioP6_Encuentro_Andra_Texto_3:
 	.string "muchas veces, {PLAYER}. Estar\l"
 	.string "expectante, apunto de vivir algo sin\l"
 	.string "tener ni idea de qué ocurrirá, esa\l"
-	.string "incertidumbre…$"
+	.string "incertidumbre{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_4:
 .string "Pero esta vez presiento que será\n"
 	.string "diferente, al menos para mí.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_5:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_6:
 .string "No estoy segura de querer ver lo que\n"

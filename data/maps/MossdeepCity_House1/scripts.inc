@@ -23,7 +23,7 @@ MossdeepCity_House1_EventScript_Woman::
 
 MossdeepCity_House1_Text_HmmYourPokemon:
 	.string	"¡Ajá!\n"
-	.string	"Tu {STR_VAR_1} lo tiene claro…$"
+	.string	"Tu {STR_VAR_1} lo tiene claro{PAUSE 5}…{PAUSE 5}$"
 
 MossdeepCity_House1_Text_ItLikesXPokeblocks:
 	.string	"Lo que más le gusta en el mundo\n"

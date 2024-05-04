@@ -514,11 +514,11 @@ BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 	.string "In all honesty, what I have heard does\n"
 	.string "not seem attractive in any way…\p"
 	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
+	.string "Well, there is but one reason…{PAUSE 5}$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
 	.string "Let me see your talent in\n"
-	.string "its entirety…$"
+	.string "its entirety…{PAUSE 5}$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
 	.string "ANABEL: Fufufu, nicely done…\p"
@@ -536,7 +536,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "I urge you to keep battling and\n"
 	.string "keep on winning.\p"
 	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
+	.string "Until the next time we meet…{PAUSE 5}$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
 	.string "ANABEL: You really did come back to\n"
@@ -546,14 +546,14 @@ BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
 	.string "I won't have to hold back against you…\p"
 	.string "It's been too long now…\p"
 	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
+	.string "without thinking about anything…{PAUSE 5}$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
 	.string "Let's begin, shall we?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
 	.string "ANABEL: Fufu, congratulations…\n"
-	.string "Your FRONTIER PASS, please…$"
+	.string "Your FRONTIER PASS, please…{PAUSE 5}$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
 	.string "The Ability Symbol took on\n"
@@ -563,5 +563,5 @@ BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
 	.string "That was fun…\p"
 	.string "I have never had a POKéMON battle\n"
 	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
+	.string "I wish I could battle with you again…{PAUSE 5}$"
 

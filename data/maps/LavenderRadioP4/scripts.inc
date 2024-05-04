@@ -904,7 +904,7 @@ LavenderRadioP4_Devon_Combates_Texto_6:
 	.string "real.$"
 
 LavenderRadioP4_Devon_Combates_Texto_7:
-.string "BILL: …$"
+.string "BILL: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_8:
 .string "ELM: Aquí, por supuesto, vamos tras\n"
@@ -983,7 +983,7 @@ LavenderRadioP4_Devon_Combates_Texto_17:
 .string "ELM: Fin de la presentación. Hagamos\n"
 	.string "una pequeña demostración de su\l"
 	.string "funcionamiento, solo necesitamos\l"
-	.string "activar el ordenador, y…$"
+	.string "activar el ordenador, y{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_18:
 .string "????: Ejecutivos, recopilad toda\n"
@@ -1102,7 +1102,7 @@ LavenderRadioP4_Devon_Combates_Texto_39:
 	.string "ondas de radio.$"
 
 LavenderRadioP4_Devon_Combates_Texto_40:
-.string "OAK: …$"
+.string "OAK: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_41:
 .string "EJECUTIVO: Ya hemos transferido todos\n"
@@ -1115,7 +1115,7 @@ LavenderRadioP4_Devon_Combates_Texto_42:
 
 LavenderRadioP4_Devon_Combates_Texto_43:
 .string "????: La operación ha sido un éxito. Es\n"
-	.string "hora de…$"
+	.string "hora de{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_44:
 .string "MIGUEL: ¡NO!$"
@@ -1175,10 +1175,10 @@ LavenderRadioP4_Devon_Combates_Texto_58:
 .string "¿Por qué no caes, haga lo que haga?$"
 
 LavenderRadioP4_Devon_Combates_Texto_59:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_60:
-.string "Je{PAUSE 25}…{PAUSE 25} Jejeje{PAUSE 25}…$"
+.string "Je{PAUSE 25}…{PAUSE 25} Jejeje{PAUSE 25}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_61:
 .string "En el fondo debo darte las gracias. A\n"
@@ -1248,7 +1248,7 @@ LavenderRadioP4_Devon_Combates_Texto_68:
 	.string "Eso es lo importante, BILL.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68.1:
-.string "BILL: …$"
+.string "BILL: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_69:
 .string "OAK: Así es, DEVON estará al tanto de\n"
@@ -1264,7 +1264,7 @@ LavenderRadioP4_Devon_Combates_Texto_70:
 	.string "DEVON.$"
 
 LavenderRadioP4_Devon_Combates_Texto_71:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_72:
 .string "OAK: BILL, ELM, esto no puede hacer más\n"
@@ -1276,7 +1276,7 @@ LavenderRadioP4_Devon_Combates_Texto_73:
 .string "ANDRA: ¿Qué te ha parecido, {PLAYER}?$"
 
 LavenderRadioP4_Devon_Combates_Texto_74:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_75:
 .string "No{PAUSE 25}…{PAUSE 25} no me refería al ataque de DEVON,\n"
@@ -1293,14 +1293,14 @@ LavenderRadioP4_Devon_Combates_Texto_76:
 	.string "nuestros equipos continuarían\l"
 	.string "mejorando de forma -natural-, que\l"
 	.string "nuestra progresión lineal y constante\l"
-	.string "seguiría…$"
+	.string "seguiría{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_77:
 .string "Pero todo…todo lo que temía se ha\n"
 	.string "hecho evidente en esta reunión. La\l"
 	.string "realidad actual de KANTO, nuestros\l"
 	.string "propios límites, lo expuesto aquí como\l"
-	.string "única salida para llegar más allá…$"
+	.string "única salida para llegar más allá{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_78:
 .string "Si te digo la verdad, choca\n"
@@ -1313,13 +1313,13 @@ LavenderRadioP4_Devon_Combates_Texto_79:
 	.string "forjando con los tuyos, debería ser el\l"
 	.string "elemento más importante a la hora de\l"
 	.string "determinar el rendimiento de tu equipo,\l"
-	.string "sin embargo…$"
+	.string "sin embargo{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_80:
 .string "El futuro nos impulsa a esa dictadura\n"
 	.string "de lo mecánico, el rendimiento de un\l"
 	.string "POKÉMON va a estar programado de\l"
-	.string "antemano, y lo que es peor…$"
+	.string "antemano, y lo que es peor{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_81:
 .string "Anulará completamente a cualquier otro\n"
@@ -1351,7 +1351,7 @@ LavenderRadioP4_Devon_Combates_Texto_84:
 	.string "VÍNCULO.$"
 
 LavenderRadioP4_Devon_Combates_Texto_85:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_86:
 .string "Si existe o no un poder mayor, accesible\n"

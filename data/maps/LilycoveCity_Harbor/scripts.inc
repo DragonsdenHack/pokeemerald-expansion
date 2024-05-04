@@ -544,7 +544,7 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 LilycoveCity_Harbor_Text_FerryUnavailable:
 	.string	"Disculpa, ¿estás buscando el barco?\p"
 	.string	"Lo siento, pero el servicio de ferry\n"
-	.string	"todavía no está en funcionamiento…$"
+	.string	"todavía no está en funcionamiento{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
 	.string	"Buenas, ¿vienes para coger el ferry?\n"
@@ -581,7 +581,7 @@ LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 	.string	"Hasta que terminen de construir\n"
 	.string	"el ferry, estamos de brazos cruzados…\p"
 	.string	"A ver si los chicos de los ASTILLEROS\n"
-	.string	"de CIUDAD PORTUAL se dan prisa…$"
+	.string	"de CIUDAD PORTUAL se dan prisa{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
 	.string	"El ferry S.S. MAREA ya está\n"

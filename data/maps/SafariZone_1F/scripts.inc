@@ -156,7 +156,7 @@ SafariZone_1F_Escena_3_Andra_Texto_2:
 SafariZone_1F_Escena_3_Andra_Texto_3:
 .string "Y buen trabajo, TEDDIURSA. Has\n"
 	.string "demostrado gran valor enfrentándote a\l"
-	.string "POKÉMON evolucionados sin tú…$"
+	.string "POKÉMON evolucionados sin tú{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_4:
 .string "CIENTÍFICO: Vaya{PAUSE 25}…{PAUSE 25} no todos los días ve\n"
@@ -221,7 +221,7 @@ SafariZone_1F_Escena_3_Andra_Texto_14:
 	.string "un 6 a 0 en stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_16:
 .string "CIENTÍFICO: No te ofendas, URSARING\n"
@@ -235,14 +235,14 @@ SafariZone_1F_Escena_3_Andra_Texto_17:
 
 SafariZone_1F_Escena_3_Andra_Texto_18:
 .string "CIENTÍFICO: No solo por eso, también\n"
-	.string "por…$"
+	.string "por{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_19:
 .string "ANDRA: Me niego a creer que mi URSARING\n"
 	.string "ya será por decreto peor que un\l"
 	.string "DRAGONITE en todo, en mi cabeza este\l"
 	.string "URSARING es capaz de superar esa base\l"
-	.string "en ATAQUE…y tal vez más…$"
+	.string "en ATAQUE…y tal vez más{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
 .string "CIENTÍFICO: Los STATS BASE son\n"
@@ -270,7 +270,7 @@ SafariZone_1F_Escena_3_Andra_Texto_22:
 	.string "Fuera de eso, es imposible.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_23:
-.string "ANDRA: Quién sabe…$"
+.string "ANDRA: Quién sabe{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Move_1:
 walk_in_place_right

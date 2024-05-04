@@ -69,7 +69,7 @@ Magma1_Combate_Admin_Texto_2:
 	.string "encontrar esta ubicación.$"
 
 Magma1_Combate_Admin_Texto_3:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Magma1_Combate_Admin_Texto_4:
 .string "Creo que todavía no me has\n"

@@ -39,7 +39,7 @@ Route110_TrickHousePuzzle8_Text_VincentIntro:
 	.string "this far.$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
-	.string "That must mean you're tough, too…$"
+	.string "That must mean you're tough, too…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
 	.string "You've beaten the POKéMON LEAGUE\n"

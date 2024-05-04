@@ -146,7 +146,7 @@ LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
 	.string	"Siempre que vengo al CENTRO COMERCIAL,\n"
-	.string	"acabo comprando algo que no necesito…$"
+	.string	"acabo comprando algo que no necesito{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 	.string	"¡Mi madre va a comprarme muebles!\n"

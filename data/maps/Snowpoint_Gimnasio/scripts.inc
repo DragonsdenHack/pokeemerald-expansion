@@ -74,7 +74,7 @@ Snowpoint_Gimnasio_Lider_Texto_6:
 
 Snowpoint_Gimnasio_Lider_Texto_7:
 	.string "¡Espera, que casi me olvido! ¡Tengo que\n"
-	.string "darte una cosa!…$"
+	.string "darte una cosa!{PAUSE 5}…{PAUSE 5}$"
 
 Snowpoint_Gimnasio_Lider_Texto_8:
 	.string "¿Crees que debería actuar un poco más\n"
@@ -83,7 +83,7 @@ Snowpoint_Gimnasio_Lider_Texto_8:
 Snowpoint_Gimnasio_Lider_Texto_9:
 	.string "O sea. ¿Crees que debería intentar ser\n"
 	.string "más… fría y distante? Es que eso no se\l"
-	.string "me da muy bien…$"
+	.string "me da muy bien{PAUSE 5}…{PAUSE 5}$"
 
 Snowpoint_Gimnasio_Lider_Texto_10:
 	.string "GIOVANNI: Hemos llegado {PLAYER}, te\n"
@@ -108,8 +108,8 @@ Snowpoint_Gimnasio_Dude_Texto_1:
 Snowpoint_Gimnasio_Dude_Texto_2:
 	.string "¿Qué ha sido eso? ¡Has ganado en un\n"
 	.string "abrir y cerrar de ojos! ¿Eres el CAMPEÓN\l"
-	.string "de una región lejana? … … ¿Mejor aún\l"
-	.string "dices? … ¿El LÍDER de la organización\l"
-	.string "criminal más importante del mundo? … …\l"
-	.string "Oh…$"
+	.string "de una región lejana? {PAUSE 15}…{PAUSE 15} …{PAUSE 15} ¿Mejor aún\l"
+	.string "dices? {PAUSE 15}…{PAUSE 15} ¿El LÍDER de la organización\l"
+	.string "criminal más importante del mundo? {PAUSE 5}…{PAUSE 5} …{PAUSE 5}\l"
+	.string "Oh{PAUSE 5}…{PAUSE 5}$"
 

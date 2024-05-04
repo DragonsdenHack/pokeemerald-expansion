@@ -562,7 +562,7 @@ RuinsOfAlph_S5_Final_Texto_17:
 	.string "luchar contra algo inalcanzable.$"
 
 RuinsOfAlph_S5_Final_Texto_18:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S5_Final_Texto_19:
 .string "Los 3 juntos, unidos entre ellos\n"
@@ -601,9 +601,9 @@ RuinsOfAlph_S5_Final_Texto_24:
 .string "¡k4nv%bjs&!$"
 
 RuinsOfAlph_S5_Final_Texto_25:
-.string "A…\n"
-	.string "Ahora lo entiendo…\l"
-	.string "He sido yo el que ha fallado…$"
+.string "A{PAUSE 15}…{PAUSE 15}\n"
+	.string "Ahora lo entiendo{PAUSE 15}…{PAUSE 15}\l"
+	.string "He sido yo el que ha fallado{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S5_Final_Texto_26:
 .string "Supongo que la perfección es\n"
@@ -768,7 +768,7 @@ release
 end
 
 RuinsOfAlph_S5_Combate_Unown_Texto_2:
-.string "… … … …$"
+.string "… … … …{PAUSE 5}$"
 
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
 .string "(La energía misteriosa se ha\n"

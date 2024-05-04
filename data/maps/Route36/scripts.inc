@@ -71,7 +71,7 @@ Route36_Text_8:
 .string "puro de verdad, rápido, con un\l"
 .string "gran ATAQUE y sólida DEFENSA. Lo\l"
 .string "único que le falla es la\l"
-.string "DEF.ESPECIAL…$"
+.string "DEF.ESPECIAL…{PAUSE 5}$"
 
 
 
@@ -188,4 +188,4 @@ Route36_Llamada_Giovanni_Texto_2:
 	.string "ROCKET, tendrás el honor de\l"
 	.string "asistir. Se requerirá pues de tu\l"
 	.string "presencia en la TORRE RADIO a su\l"
-	.string "debido tiempo…$"
+	.string "debido tiempo{PAUSE 5}…{PAUSE 5}$"

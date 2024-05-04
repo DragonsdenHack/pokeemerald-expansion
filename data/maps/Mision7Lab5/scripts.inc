@@ -67,4 +67,4 @@ Mision7Lab5_Documento_Text_101:
 	.string "a la especial, no obstante, ciertas\l"
 	.string "pruebas indican que aquí puede estar su\l"
 	.string "mayor capacidad destructora{PAUSE 25}…{PAUSE 25} con el\l"
-	.string "complemento adecuado…$"
+	.string "complemento adecuado{PAUSE 5}…{PAUSE 5}$"

@@ -248,7 +248,7 @@ Route128_Text_ArchieWhatHappened:
 
 Route128_Text_ArchieIOnlyWanted:
 	.string "I…\n"
-	.string "I only wanted…$"
+	.string "I only wanted{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
 	.string "MAXIE: Do you understand now,\n"
@@ -269,13 +269,13 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "But neither can we stand by and\n"
 	.string "just watch helplessly.\p"
 	.string "The responsibility for putting an end\n"
-	.string "to this falls to ARCHIE and me…$"
+	.string "to this falls to ARCHIE and me{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_MaxieThisDefiesBelief:
 	.string "MAXIE: This defies belief…\p"
 	.string "Those super-ancient POKéMON…\p"
 	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "They've upset the balance of nature{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_StevenWhatIsHappening:
 	.string "STEVEN: {PLAYER}{KUN}!\n"
@@ -291,7 +291,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "from above SOOTOPOLIS…\p"
 	.string "What in the world is taking place there?\p"
 	.string "There's no point arguing here…\n"
-	.string "SOOTOPOLIS might provide answers…$"
+	.string "SOOTOPOLIS might provide answers{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_StevenImGoingToSootopolis:
 	.string "{PLAYER}{KUN}…\n"

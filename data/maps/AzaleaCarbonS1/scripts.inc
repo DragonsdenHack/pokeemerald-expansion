@@ -318,7 +318,7 @@ AzaleaCarbonS1_Segundo_Combate_Texto_1:
 .string "¿De dónde sales tú? Ya tenemos\n"
 	.string "abogados y representantes de sobra,\l"
 	.string "este caso ya está lo suficientemente\l"
-	.string "atado como para…$"
+	.string "atado como para{PAUSE 5}…{PAUSE 5}$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_2:
 .string "¿Vienes de parte de los antiguos\n"
@@ -330,7 +330,7 @@ AzaleaCarbonS1_Segundo_Combate_Texto_3:
 	.string "lugar ya es oficialmente nuestro.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_4:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_5:
 .string "Así que te niegas. Te diré algo: aunque\n"

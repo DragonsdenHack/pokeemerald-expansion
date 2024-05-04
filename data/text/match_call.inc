@@ -93,7 +93,7 @@ MatchCall_WildBattleText11::
 	.string "How are things with you?\p"
 	.string "I tried to catch a wild {STR_VAR_2}\n"
 	.string "earlier, but it managed to flee.\p"
-	.string "I feel defeated…$"
+	.string "I feel defeated…{PAUSE 5}$"
 
 MatchCall_WildBattleText12::
 	.string "Hello, {PLAYER}{KUN}.\n"
@@ -731,7 +731,7 @@ MatchCall_PersonalizedText9::
 	.string "You should walk away quickly and\n"
 	.string "never once look back…\p"
 	.string "Giggle…\n"
-	.string "Farewell…$"
+	.string "Farewell…{PAUSE 5}$"
 
 MatchCall_PersonalizedText10::
 	.string "This is {STR_VAR_1}.\n"
@@ -837,7 +837,7 @@ MatchCall_PersonalizedText18::
 	.string "Why can't I be you, {STR_VAR_2}?\l"
 	.string "Lala, {STR_VAR_2} and {STR_VAR_1},\l"
 	.string "{STR_VAR_1} and {STR_VAR_2}…\p"
-	.string "Repeat chorus, fade…$"
+	.string "Repeat chorus, fade…{PAUSE 5}$"
 
 MatchCall_PersonalizedText19::
 	.string "I'm {STR_VAR_1}, you know,\n"
@@ -867,7 +867,7 @@ MatchCall_PersonalizedText21::
 	.string "It's {STR_VAR_1}…\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
-	.string "That's all today…$"
+	.string "That's all today…{PAUSE 5}$"
 
 MatchCall_PersonalizedText22::
 	.string "This is {STR_VAR_1}. Today, I had\n"
@@ -995,7 +995,7 @@ MatchCall_PersonalizedText31::
 	.string "since we met, but you're still\l"
 	.string "the best of the lot.\p"
 	.string "I imagine you'll become an EXPERT\n"
-	.string "in your old age! Ohohoho…$"
+	.string "in your old age! Ohohoho…{PAUSE 5}$"
 
 MatchCall_PersonalizedText32::
 	.string "Yay! This is {STR_VAR_1}!\n"
@@ -1071,7 +1071,7 @@ MatchCall_PersonalizedText36::
 	.string "It's inspiring!\p"
 	.string "Gasp… Chatting while running…\n"
 	.string "I'm getting run down…\l"
-	.string "Gasp… Have…to…go…$"
+	.string "Gasp… Have…to…go…{PAUSE 5}$"
 
 MatchCall_PersonalizedText37::
 	.string "Hi, it's {STR_VAR_1}.\n"
@@ -2254,7 +2254,7 @@ MatchCall_Text_Juan4::
 	.string "we wage together strike chords\l"
 	.string "of inspiration in my heart…\p"
 	.string "When I close my eyes, I see visions\n"
-	.string "of you soaring with the melody…$"
+	.string "of you soaring with the melody…{PAUSE 5}$"
 
 MatchCall_Text_Sidney::
 	.string "SIDNEY: Yo, {PLAYER}!\p"
@@ -2278,7 +2278,7 @@ MatchCall_Text_Glacia::
 	.string "complacent with your power?\p"
 	.string "If you feel the need to cool your\n"
 	.string "hot emotions just a little, do come\l"
-	.string "to the POKéMON LEAGUE…$"
+	.string "to the POKéMON LEAGUE…{PAUSE 5}$"
 
 MatchCall_Text_Drake::
 	.string "DRAKE: That voice… {PLAYER}, is it?\n"
@@ -2304,7 +2304,7 @@ MatchCall_Text_Wallace::
 	.string "I'm sure he's digging in a cave or\n"
 	.string "a craggy mountain somewhere.\p"
 	.string "But what is a rare stone exactly?\n"
-	.string "All I can think of is a METEORITE…$"
+	.string "All I can think of is a METEORITE…{PAUSE 5}$"
 
 MatchCall_Text_MayRayquazaCall:
 	.string "… … … … … …\n"
@@ -2442,7 +2442,7 @@ MatchCall_Text_May13::
 	.string "I heard a rumor that there are\n"
 	.string "super-ancient POKéMON out there.\l"
 	.string "And there are three of them!\p"
-	.string "I would love to see even one…$"
+	.string "I would love to see even one…{PAUSE 5}$"
 
 MatchCall_Text_May14::
 	.string "MAY: {PLAYER}{KUN}!\n"
@@ -2569,7 +2569,7 @@ MatchCall_Text_Brendan13::
 	.string "I heard a rumor that there are\n"
 	.string "super-ancient POKéMON out there.\l"
 	.string "And not just one--three!\p"
-	.string "I'd love to catch even one…$"
+	.string "I'd love to catch even one…{PAUSE 5}$"
 
 MatchCall_Text_Brendan14::
 	.string "BRENDAN: {PLAYER}!\n"
@@ -2629,7 +2629,7 @@ MatchCall_Text_Wally6::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "WALLY appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "the POKéNAV's service area…{PAUSE 5}$"
 
 MatchCall_Text_Wally7::
 	.string "WALLY: Oh, {PLAYER}!\p"
@@ -2638,7 +2638,7 @@ MatchCall_Text_Wally7::
 	.string "But now, I'm on an adventure with\n"
 	.string "my very own POKéMON…\p"
 	.string "{PLAYER}…\n"
-	.string "Thank you…$"
+	.string "Thank you…{PAUSE 5}$"
 
 MatchCall_Text_Scott1::
 	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
@@ -2676,7 +2676,7 @@ MatchCall_Text_Scott4::
 	.string "I think they were.\p"
 	.string "I would think there'd be some\n"
 	.string "skilled TRAINERS among them.\p"
-	.string "…But if they're thugs…$"
+	.string "…But if they're thugs…{PAUSE 5}$"
 
 MatchCall_Text_Scott5::
 	.string "SCOTT: Oh, hi, {PLAYER}{KUN}.\p"
@@ -2684,7 +2684,7 @@ MatchCall_Text_Scott5::
 	.string "at the bottom of the sea?\p"
 	.string "I can't go check for myself.\n"
 	.string "I can't swim, for one.\l"
-	.string "And I don't raise POKéMON…$"
+	.string "And I don't raise POKéMON…{PAUSE 5}$"
 
 MatchCall_Text_Scott6::
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
@@ -2707,7 +2707,7 @@ MatchCall_Text_Scott7::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "SCOTT appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "the POKéNAV's service area…{PAUSE 5}$"
 
 MatchCall_Text_Norman1::
 	.string "DAD: In RUSTBORO, there's a man\n"
@@ -2821,7 +2821,7 @@ MatchCall_Text_Steven5::
 MatchCall_Text_Steven6::
 	.string "… … … … … …\p"
 	.string "STEVEN appears not to be getting\n"
-	.string "the call…$"
+	.string "the call…{PAUSE 5}$"
 
 MatchCall_Text_Steven7::
 	.string "STEVEN: {PLAYER}{KUN}… Congratulations\n"
@@ -2840,7 +2840,7 @@ MatchCall_Text_BirchRegisterCall:
 	.string "That way, I'd be able to examine\n"
 	.string "your POKéDEX even while you're\l"
 	.string "out in the field.\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 MatchCall_Text_RegisteredBirch:
 	.string "Registered PROF. BIRCH\n"
@@ -2926,14 +2926,14 @@ MatchCall_Text_MrStone8::
 	.string "GROU… Yes? …DON?\p"
 	.string "You're breaking up…\n"
 	.string "…can't hear…\p"
-	.string "BZZZZ…$"
+	.string "BZZZZ…{PAUSE 5}$"
 
 MatchCall_Text_MrStone9::
 	.string "…Huh? …What's that?\p"
 	.string "Seaflo… Yes? …Caver…?\p"
 	.string "You're breaking up…\n"
 	.string "…can't hear…\p"
-	.string "BZZZZ…$"
+	.string "BZZZZ…{PAUSE 5}$"
 
 MatchCall_Text_MrStone10::
 	.string "MR. STONE: {PLAYER}{KUN}! It's me!\p"

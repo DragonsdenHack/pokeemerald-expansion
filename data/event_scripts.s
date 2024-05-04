@@ -871,7 +871,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "A POKéMON may learn up to four moves.\p"
 	.string "A TRAINER's expertise is tested on the\n"
 	.string "move sets chosen for POKéMON.\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 gText_PlayerHouseBootPC::
 	.string "{PLAYER} booted up the PC.$"
@@ -925,7 +925,7 @@ gText_SorryWirelessClubAdjustments::
 
 gText_UndergoingAdjustments::
 	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "adjustments{PAUSE 5}…{PAUSE 5}$"
 
 @ Unused
 gText_SorryTradeCenterInspections::

@@ -625,7 +625,7 @@ BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
 	.string "I ran into one of the tournament\n"
 	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "Of course I got trashed…{PAUSE 5}$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
 	.string "I would've won if I'd kept this POKéMON\n"

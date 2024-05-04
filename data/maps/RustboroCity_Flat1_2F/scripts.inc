@@ -84,7 +84,7 @@ RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
 	.string	"¿Hace falta preguntar?\p"
 	.string	"Pues levantarse para ir\n"
 	.string	"a trabajar, claro.\p"
-	.string	"Llevo fatal lo de madrugar…$"
+	.string	"Llevo fatal lo de madrugar…{PAUSE 5}$"
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string	"¡Anda, hola!\n"
@@ -133,7 +133,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
 	.string	"{STR_VAR_1}.\n"
 	.string	"{STR_VAR_1}.\p"
 	.string	"Mmmm… No le hace ni pizca de gracia.\n"
-	.string	"Puede que ANAPEL sea una niña seria…$"
+	.string	"Puede que ANAPEL sea una niña seria…{PAUSE 5}$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string	"Así que no se te ocurre nada.\n"
@@ -146,7 +146,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
 	.string	"{STR_VAR_1}.\n"
 	.string	"{STR_VAR_1}.\p"
 	.string	"Mmmm… No le hace ni pizca de gracia.\n"
-	.string	"Puede que ANAPEL sea una niña seria…$"
+	.string	"Puede que ANAPEL sea una niña seria…{PAUSE 5}$"
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 	.string	"Así que no se te ocurre nada.\n"

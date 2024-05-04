@@ -169,10 +169,10 @@ Route109_SeashoreHouse_Text_SimonIntro:
 	.string "tienen rival. ¡Luego no te quejes!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
-	.string "He perdido, pero no me quejo…$"
+	.string "He perdido, pero no me quejo{PAUSE 5}…{PAUSE 5}$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
 	.string "Si alguno de mis POKÉMON supiera el\n"
 	.string "movimiento que te transporta por el\l"
-	.string "agua, podría olvidarme del flotador…$"
+	.string "agua, podría olvidarme del flotador{PAUSE 5}…{PAUSE 5}$"
 

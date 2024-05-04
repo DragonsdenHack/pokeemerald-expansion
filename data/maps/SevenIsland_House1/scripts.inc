@@ -144,7 +144,7 @@ release
 end
 
 Isla_Setima_Activador_Entrada_Texto_1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Isla_Setima_Activador_Entrada_Pasa_Text_YesNo:
 .string "Hay una pequeña trampilla bajo las\n"

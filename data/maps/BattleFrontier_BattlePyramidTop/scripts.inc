@@ -254,7 +254,7 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 	.string "Your own strength!\p"
 	.string "Your own POKéMON!\p"
 	.string "And, above all, only your own courage\n"
-	.string "to lead you through unknown worlds…$"
+	.string "to lead you through unknown worlds…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Aah, yes, indeed this life is grand!\n"
@@ -299,7 +299,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "The dangerous!\p"
 	.string "The desperate!\p"
 	.string "Those days of death-defying,\n"
-	.string "life-affirming adventures are back…$"
+	.string "life-affirming adventures are back…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
 	.string "Now, then!\p"

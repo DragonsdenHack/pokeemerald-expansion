@@ -142,7 +142,7 @@ MagmaHideout_4F_Text_Grunt11Intro:
 
 MagmaHideout_4F_Text_Grunt11Defeat:
 	.string "I guess it's impossible to win if one\n"
-	.string "doesn't have a calm mind…$"
+	.string "doesn't have a calm mind…{PAUSE 5}$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
 	.string "I wonder if GROUDON even has a tail?$"
@@ -168,7 +168,7 @@ MagmaHideout_4F_Text_Grunt13Defeat:
 	.string "Was I that easy to knock down?$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "C-come on, one more match…$"
+	.string "C-come on, one more match…{PAUSE 5}$"
 
 MagmaHideout_4F_Text_TabithaIntro:
 	.string "Hehehe!\n"
@@ -182,11 +182,11 @@ MagmaHideout_4F_Text_TabithaIntro:
 
 MagmaHideout_4F_Text_TabithaDefeat:
 	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "Hehe…{PAUSE 5}$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "MAXIE should have awakened GROUDON…{PAUSE 5}$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "MAXIE: GROUDON…\p"
@@ -204,7 +204,7 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 	.string "What's wrong?\p"
 	.string "Wasn't the BLUE ORB the key?\p"
 	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+	.string "Where have you gone…{PAUSE 5}$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "MAXIE: Oh, so it was you?\p"
@@ -435,7 +435,7 @@ MagmaHideout_4F_Encuentro_Amatista_Texto_8:
 	.string "de primera mano.$"
 
 MagmaHideout_4F_Encuentro_Amatista_Texto_9:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MagmaHideout_4F_Encuentro_Amatista_Texto_10:
 	.string "Este no parece el caso.$"

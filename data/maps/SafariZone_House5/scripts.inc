@@ -59,7 +59,7 @@ SafariZone_House5_Combate_Domador_Texto_1:
 
 SafariZone_House5_Combate_Domador_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_House5_Combate_Domador_Texto_3:
 .string "¿Sigues insistiendo?\n"

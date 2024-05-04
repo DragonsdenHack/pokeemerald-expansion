@@ -38,7 +38,7 @@ end
 
 MahoganyTown_NinjaBase_Text_3:
 .string "Pues esos CARAMELOSFURIA no tienen\n"
-.string "mala pinta, la verdad…$"
+.string "mala pinta, la verdad{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -52,7 +52,7 @@ end
 MahoganyTown_NinjaBase_Text_4:
 .string "Esos ninjas…\n"
 .string "Con las trampas que han puesto, es\l"
-.string "imposible adentrarse en la BASE…$"
+.string "imposible adentrarse en la BASE{PAUSE 5}…{PAUSE 5}$"
 
 Ninja_Base_Poster::
 msgbox Ninja_Base_Poster_Texto_1 MSGBOX_AUTOCLOSE

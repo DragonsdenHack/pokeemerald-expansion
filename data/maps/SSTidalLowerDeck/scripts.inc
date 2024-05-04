@@ -143,7 +143,7 @@ end
 SSTidalLowerDeck_Submarino_Texto_1:
 	.string "ARIANA: Esto no debería estar aquí.\n"
 	.string "Parece que conecta con algo ajeno al\l"
-	.string "barco. Qué extraño…$"
+	.string "barco. Qué extraño{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalLowerDeck_Submarino_Texto_2:
 	.string "????: Muy bien. Ahora, empieza el\n"

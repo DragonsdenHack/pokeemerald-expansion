@@ -55,7 +55,7 @@ OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
 	.string	"Empezaron a construir el CLUB del CABLE\n"
 	.string	"POKéMON del segundo piso hace poco.\p"
 	.string	"Y cualquiera sabe cuándo\n"
-	.string	"acabarán las obras…$"
+	.string	"acabarán las obras{PAUSE 5}…{PAUSE 5}$"
 
 OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
 	.string	"Acabaron de construir el CLUB del CABLE\n"

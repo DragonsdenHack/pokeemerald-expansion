@@ -155,7 +155,7 @@ SnowpointCity_Templo_Texto_2:
 	.string "Lo siento, a nosotros no nos han dicho\n"
 	.string "eso. El TEMPLO PUNTANEVA es muy\l"
 	.string "estricto con los permisos que concede,\l"
-	.string "tendrá que esper…$"
+	.string "tendrá que esper{PAUSE 5}…{PAUSE 5}$"
 
 SnowpointCity_Templo_Texto_3:
 	.string "ARIANA: ¿Esperar? ¡Hemos venido desde\n"
@@ -220,7 +220,7 @@ SnowpointCity_Salida_Texto_6:
 	.string "¡¿GIOVANNI está de camino?!$"
 
 SnowpointCity_Salida_Texto_7:
-	.string "Hmph, entonces, así va a ser…$"
+	.string "Hmph, entonces, así va a ser{PAUSE 5}…{PAUSE 5}$"
 
 SnowpointCity_Salida_Texto_8:
 	.string "Estaré en el CENTRO POKÉMON. Si te\n"

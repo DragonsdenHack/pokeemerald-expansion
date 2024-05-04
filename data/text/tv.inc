@@ -442,7 +442,7 @@ gTVFanClubText00::
 	.string "beloved {STR_VAR_2}.\p"
 	.string "Let's see how passionately our writer\n"
 	.string "can express love for the {STR_VAR_2}!\l"
-	.string "Hmhm…$"
+	.string "Hmhm…{PAUSE 5}$"
 
 gTVFanClubText01::
 	.string "Whoah!\n"
@@ -528,7 +528,7 @@ gTVRecentHappeningsText00::
 	.string "of the TRAINER {STR_VAR_1}.\p"
 	.string "What did {STR_VAR_1} experience recently?\n"
 	.string "Let's find out.\p"
-	.string "Let's see…$"
+	.string "Let's see…{PAUSE 5}$"
 
 gTVRecentHappeningsText01::
 	.string "Wasn't that enlightening?\p"
@@ -581,7 +581,7 @@ gTV3CheersForPokeblocksText00::
 	.string "Without any delay, let me feed it\n"
 	.string "to my gourmet POKéMON GULPIN.\p"
 	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 gTV3CheersForPokeblocksText01::
 	.string "GULPIN: Gubi! Gubii!\p"
@@ -600,7 +600,7 @@ gTV3CheersForPokeblocksText03::
 	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
 	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
 	.string "It looks like {STR_VAR_3}'s errors\n"
-	.string "hurt the blending quality…$"
+	.string "hurt the blending quality…{PAUSE 5}$"
 
 gTV3CheersForPokeblocksText04::
 	.string "It's too bad that {STR_VAR_1}'s\n"
@@ -717,7 +717,7 @@ gTVNameRaterText00::
 	.string "POKéMON {STR_VAR_2}.\p"
 	.string "Hmhm…\p"
 	.string "Hmm…\n"
-	.string "This nickname is…$"
+	.string "This nickname is…{PAUSE 5}$"
 
 gTVNameRaterText01::
 	.string "A nickname that hints at talent in many\n"
@@ -892,7 +892,7 @@ gTVPokemonTodayFailedText01::
 	.string "{STR_VAR_2}.\p"
 	.string "That's when I happened to come across\n"
 	.string "{STR_VAR_1}, who was trying to catch the\l"
-	.string "POKéMON {STR_VAR_3}, but…$"
+	.string "POKéMON {STR_VAR_3}, but…{PAUSE 5}$"
 
 gTVPokemonTodayFailedText02::
 	.string "The POKéMON managed to get away!\p"
@@ -930,7 +930,7 @@ gTVPokemonTodayFailedText05::
 	.string "Honestly, I didn't!\p"
 	.string "Oh, poor {STR_VAR_1}.\n"
 	.string "What a shame!\p"
-	.string "BIG BRO: …$"
+	.string "BIG BRO: …{PAUSE 5}$"
 
 gTVPokemonTodayFailedText06::
 	.string "BIG SIS: That's enough silliness!\n"
@@ -1067,7 +1067,7 @@ SmartShopper_Text_RandomComment3::
 	.string "I didn't think there would be anyone\n"
 	.string "buying that many.\p"
 	.string "My goodness, I can only afford one or\n"
-	.string "two at a time…$"
+	.string "two at a time…{PAUSE 5}$"
 
 SmartShopper_Text_RandomComment4::
 	.string "INTERVIEWER: One time, I bought\n"
@@ -1136,7 +1136,7 @@ SmartShopper_Text_OutroMax::
 	.string "The mystery deepens, but this is all\n"
 	.string "the time we have today.\l"
 	.string "See you on our next broadcast!\p"
-	.string "Still, {STR_VAR_1} is certainly an enigma…$"
+	.string "Still, {STR_VAR_1} is certainly an enigma…{PAUSE 5}$"
 
 gTVWorldOfMastersText00::
 	.string "THE WORLD OF MASTERS\p"
@@ -1249,18 +1249,18 @@ TrendWatcher_Text_Intro::
 	.string "did get popular at all.\p"
 	.string "Would you like to hear about it?\p"
 	.string "MC: Uh, no. What we want to know is\n"
-	.string "what's the in thing of the moment…$"
+	.string "what's the in thing of the moment…{PAUSE 5}$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTaughtMePhrase::
 	.string "Old man: {STR_VAR_1} {STR_VAR_2}\n"
 	.string "was what {STR_VAR_3} from LITTLEROOT\l"
-	.string "taught me as being trendy…$"
+	.string "taught me as being trendy…{PAUSE 5}$"
 
 TrendWatcher_Text_FemaleTaughtMePhrase::
 	.string "Old man: {STR_VAR_1} {STR_VAR_2}\n"
 	.string "was what {STR_VAR_3} from LITTLEROOT\l"
-	.string "taught me as being trendy…$"
+	.string "taught me as being trendy…{PAUSE 5}$"
 
 TrendWatcher_Text_PhraseWasHopeless::
 	.string "But it was utterly hopeless.\p"
@@ -1271,7 +1271,7 @@ TrendWatcher_Text_PhraseWasHopeless::
 	.string "Perhaps the {STR_VAR_1} part just\n"
 	.string "wasn't right…\p"
 	.string "MC: Uh, excuse me, compadre, I need\n"
-	.string "to hear about what's in now…$"
+	.string "to hear about what's in now…{PAUSE 5}$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTellMeBigger::
@@ -1418,7 +1418,7 @@ gTVBreakingNewsText07::
 	.string "The TRAINER made the {STR_VAR_2}\n"
 	.string "use the move {STR_VAR_1}.\p"
 	.string "Without meaning to, the TRAINER\n"
-	.string "made the rare POKéMON faint…$"
+	.string "made the rare POKéMON faint…{PAUSE 5}$"
 
 gTVBreakingNewsText12::
 	.string "However, {STR_VAR_1} panicked at\n"
@@ -1431,7 +1431,7 @@ gTVBreakingNewsText12::
 gTVBreakingNewsText08::
 	.string "In that instant, {STR_VAR_2}\n"
 	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "frustration…{PAUSE 5}$"
 
 gTVBreakingNewsText09::
 	.string "However, {STR_VAR_1} seemed to run\n"
@@ -1440,14 +1440,14 @@ gTVBreakingNewsText09::
 	.string "the battle with the rare {STR_VAR_2}.\p"
 	.string "In that instant, {STR_VAR_3}\n"
 	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "frustration…{PAUSE 5}$"
 
 gTVBreakingNewsText10::
 	.string "However, the {STR_VAR_2} fled without\n"
 	.string "warning.\p"
 	.string "In that instant, {STR_VAR_3}\n"
 	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "frustration…{PAUSE 5}$"
 
 gTVBreakingNewsText11::
 	.string "I must say I feel for {STR_VAR_1}.\n"
@@ -1464,7 +1464,7 @@ gTVSecretBaseVisitText00::
 	.string "How has {STR_VAR_1} personalized\n"
 	.string "the SECRET BASE?\p"
 	.string "Let's find out!\n"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 gTVSecretBaseVisitText01::
 	.string "Oh!\n"
@@ -1523,7 +1523,7 @@ gTVSecretBaseVisitText08::
 	.string "Here comes {STR_VAR_1}!\l"
 	.string "Let's challenge the TRAINER!\p"
 	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 gTVSecretBaseVisitText09::
 	.string "Sigh…\n"
@@ -1617,7 +1617,7 @@ gTVThePokemonBattleSeminarText00::
 	.string "Today's case study is on {STR_VAR_1}'s\n"
 	.string "battle.\p"
 	.string "{STR_VAR_1}'s {STR_VAR_2} was\n"
-	.string "battling one {STR_VAR_3}…$"
+	.string "battling one {STR_VAR_3}…{PAUSE 5}$"
 
 gTVThePokemonBattleSeminarText01::
 	.string "And it used the move {STR_VAR_3}\n"
@@ -2106,7 +2106,7 @@ TVSecretBaseSecrets_Text_TookXStepsBeforeLeaving::
 TVSecretBaseSecrets_Text_BaseFailedToInterestPlayer::
 	.string "Hmm…\p"
 	.string "It appears as if {STR_VAR_1}'s SECRET\n"
-	.string "BASE failed to interest {STR_VAR_2}…$"
+	.string "BASE failed to interest {STR_VAR_2}…{PAUSE 5}$"
 
 TVSecretBaseSecrets_Text_PlayerEnjoyedBase::
 	.string "{STR_VAR_2} appears to have enjoyed\n"
@@ -2179,7 +2179,7 @@ TVSecretBaseSecrets_Text_UsedGlassOrnament::
 	.string "Oh, no!\p"
 	.string "The visitor is touching it!\p"
 	.string "It's getting covered with\n"
-	.string "fingerprints…$"
+	.string "fingerprints…{PAUSE 5}$"
 
 TVSecretBaseSecrets_Text_UsedTV::
 	.string "The visitor is watching television!\p"
@@ -2200,7 +2200,7 @@ TVSecretBaseSecrets_Text_UsedBag::
 	.string "It's like a TV commercial!$"
 
 TVSecretBaseSecrets_Text_UsedCushion::
-	.string "The visitor grabs a cushion and…$"
+	.string "The visitor grabs a cushion and…{PAUSE 5}$"
 
 TVSecretBaseSecrets_Text_HitCushion::
 	.string "…begins hitting it!\p"
@@ -2338,7 +2338,7 @@ TVSecretBaseSecrets_Text_BrokeDoor::
 
 TVSecretBaseSecrets_Text_UsedDoll::
 	.string "The visitor is talking to a DOLL!\p"
-	.string "…It's a little creepy…$"
+	.string "…It's a little creepy…{PAUSE 5}$"
 
 TVSecretBaseSecrets_Text_UsedSlide::
 	.string "The visitor is climbing the ladder\n"
@@ -2573,7 +2573,7 @@ ContestLiveUpdates_Text_TalkAboutAnotherMon::
 	.string "I should also mention that another\n"
 	.string "POKéMON, {STR_VAR_2}'s {STR_VAR_3}, \l"
 	.string "caught my eye.\p"
-	.string "{STR_VAR_2}'s {STR_VAR_3}…$"
+	.string "{STR_VAR_2}'s {STR_VAR_3}…{PAUSE 5}$"
 
 ContestLiveUpdates_Text_FailedToAppeal::
 	.string "It failed to make a single appeal during\n"
@@ -2822,7 +2822,7 @@ GabbyAndTy_Text_TyNotEnoughMons:
 	.string "TY: Do you only have the one POKéMON\n"
 	.string "and that's it?\p"
 	.string "If you had more POKéMON, it'd make for\n"
-	.string "better footage, but…$"
+	.string "better footage, but…{PAUSE 5}$"
 
 GabbyAndTy_Text_TyDefeatFirstTime:
 	.string "TY: Yep, we sure spotted a hot TRAINER.\n"

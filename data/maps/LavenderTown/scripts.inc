@@ -102,7 +102,7 @@ end
 
 LavenderTown_3_Text_3Yes:
     .string "¿En serio?\n"
-	.string "Hay quien no cree…$"
+	.string "Hay quien no cree…{PAUSE 5}$"
 
 
 
@@ -474,7 +474,7 @@ LavenderTown_Cierre_Torre_Texto_11:
 
 LavenderTown_Cierre_Torre_Texto_12:
 .string "AGATHA: Así que{PAUSE 25}…{PAUSE 25} No queda ya nada para\n"
-	.string "mí en esta región pues…$"
+	.string "mí en esta región pues{PAUSE 5}…{PAUSE 5}$"
 
 LavenderTown_Cierre_Torre_Texto_13:
 .string "AGATHA: Adiós, FUJI.$"
@@ -490,7 +490,7 @@ LavenderTown_Cierre_Torre_Texto_15:
 	.string "LAVANDA, FUJI.$"
 
 LavenderTown_Cierre_Torre_Texto_16:
-.string "FUJI: …$"
+.string "FUJI: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderTown_Cierre_Torre_Texto_17:
 .string "BILL: ¡Si esa anciana supiera lo que\n"

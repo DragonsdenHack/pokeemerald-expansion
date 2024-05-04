@@ -274,13 +274,13 @@ RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 	.string	"Estamos desarrollando un dispositivo\n"
 	.string	"para hablar con los POKéMON.\p"
 	.string	"Bueno, la verdad es que todavía no\n"
-	.string	"hemos conseguido gran cosa…$"
+	.string	"hemos conseguido gran cosa…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
 	.string	"Estoy desarrollando nuevos tipos\n"
 	.string	"de POKé BALLS…\p"
 	.string	"En fin, lo cierto es que aún no he\n"
-	.string	"descubierto nada que funcione…$"
+	.string	"descubierto nada que funcione…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string	"¡Por fin hemos creado nuevos tipos\n"
@@ -314,7 +314,7 @@ RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string	"Estoy intentando desarrollar un\n"
 	.string	"dispositivo que reproduzca una imagen\l"
 	.string	"de los sueños de los POKéMON.\p"
-	.string	"Por ahora no he avanzado mucho…$"
+	.string	"Por ahora no he avanzado mucho…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string	"Llevo siglos intentando crear\n"
@@ -332,7 +332,7 @@ RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 	.string	"¿No quieres?\p"
 	.string	"Mira que la tecnología DEVON\n"
-	.string	"es algo nunca visto…$"
+	.string	"es algo nunca visto…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string	"¡Guau, esto sí que es excepcional!\n"

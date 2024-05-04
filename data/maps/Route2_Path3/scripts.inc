@@ -68,7 +68,7 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_1:
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_3:
 .string "¿Osas cruzar tu mirada con un\n"

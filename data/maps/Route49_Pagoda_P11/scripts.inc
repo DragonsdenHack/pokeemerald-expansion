@@ -103,7 +103,7 @@ Route49_Pagoda_P11_Combate_Maestro_Texto_6:
 	.string "con tu equipo POKÉMON?$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_7:
-.string "Oh{PAUSE 25}…{PAUSE 25} ya lo veo…$"
+.string "Oh{PAUSE 25}…{PAUSE 25} ya lo veo{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_8:
 .string "A pesar de tu corta edad, veo que has\n"

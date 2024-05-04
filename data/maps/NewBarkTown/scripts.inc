@@ -95,7 +95,7 @@ NewBarkTown_Encuentro_Elm_Texto_2:
 	.string "se han mantenido lejos del\l"
 	.string "contacto humano por años,\l"
 	.string "exceptuando los pocos que ya\l"
-	.string "vivían allí…$"
+	.string "vivían allí{PAUSE 5}…{PAUSE 5}$"
 
 NewBarkTown_Encuentro_Elm_Texto_3:
 .string "Aunque tú eres diferente, supongo\n"

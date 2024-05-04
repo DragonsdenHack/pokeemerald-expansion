@@ -46,5 +46,5 @@ Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
 	.string	"¿Seguro?\n"
-	.string	"Yo que tú me lo pensaría dos veces…$"
+	.string	"Yo que tú me lo pensaría dos veces{PAUSE 5}…{PAUSE 5}$"
 

@@ -153,8 +153,8 @@ FortreeCity_Gym_Text_JaredIntro:
 	.string	"mi POKéMON PÁJARO!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
-	.string	"Tú…\n"
-	.string	"eres muy fuerte…$"
+	.string	"Tú{PAUSE 5}…{PAUSE 5}\n"
+	.string	"eres muy fuerte{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
 	.string	"Un ENTRENADOR ha de ser listo y saber\n"
@@ -170,7 +170,7 @@ FortreeCity_Gym_Text_EdwardoIntro:
 
 FortreeCity_Gym_Text_EdwardoDefeat:
 	.string	"Era una carga demasiado pesada\n"
-	.string	"para mí…$"
+	.string	"para mí{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string	"El mundo es enorme y hay montones\n"
@@ -190,14 +190,14 @@ FortreeCity_Gym_Text_FlintDefeat:
 FortreeCity_Gym_Text_FlintPostBattle:
 	.string	"ALANA es la LÍDER definitiva:\n"
 	.string	"¡tiene fuerza y carácter!\p"
-	.string	"Ella no va a dejarse ganar…$"
+	.string	"Ella no va a dejarse ganar{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_AshleyIntro:
 	.string	"ALANA me enseñó todo lo que sé,\n"
-	.string	"no te pienses que será tan fácil…$"
+	.string	"no te pienses que será tan fácil{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_AshleyDefeat:
-	.string	"Me han derrotado…$"
+	.string	"Me han derrotado{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_AshleyPostBattle:
 	.string	"La gente de ARBORADA vive mucho\n"
@@ -265,7 +265,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "TM40 contains AERIAL ACE.\p"
 	.string "Its speed…\n"
 	.string "No POKéMON should be able to avoid it.\p"
-	.string "… … … … … …$"
+	.string "… … … … … {PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
 	.string "Registered GYM LEADER WINONA\n"
@@ -294,7 +294,7 @@ FortreeCity_Gym_Text_WinonaPreRematch:
 	.string "at full flight!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
-	.string	"Esta nueva victoria te ha dado alas…$"
+	.string	"Esta nueva victoria te ha dado alas{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
 	.string	"No… aunque he perdido,\n"
@@ -374,7 +374,7 @@ FortreeCity_Gym_Text_Alana_Texto_1:
 	.string "de todo?$"
 
 FortreeCity_Gym_Text_Alana_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 FortreeCity_Gym_Text_Alana_Texto_3:
 	.string "Oh… así que os conocéis… no me extraña;\n"

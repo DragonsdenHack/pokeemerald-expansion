@@ -222,7 +222,7 @@ JaggedPass_Text_EthanRematchDefeat:
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "in MAUVILLE CITY…{PAUSE 5}$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"
@@ -233,7 +233,7 @@ JaggedPass_Text_GruntIntro:
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
 	.string "I should've ducked into our HIDEOUT\n"
-	.string "right away…$"
+	.string "right away…{PAUSE 5}$"
 
 JaggedPass_Text_GoWhereverYouWant:
 	.string "Okay, oh-kay!\n"
@@ -250,7 +250,7 @@ JaggedPass_Text_JulioIntro:
 	.string "aparecer de repente, sin avisar!$"
 
 JaggedPass_Text_JulioDefeat:
-	.string "Me has desinflado…$"
+	.string "Me has desinflado…{PAUSE 5}$"
 
 JaggedPass_Text_JulioPostBattle:
 	.string "Tengo el trasero hecho polvo por culpa\n"

@@ -579,12 +579,12 @@ Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string	"los que poder montarte.\p"
 	.string	"¡Pero resulta que hay un movimiento\n"
 	.string	"de MO llamado VUELO!\p"
-	.string	"Si lo hubiera sabido antes…$"
+	.string	"Si lo hubiera sabido antes{PAUSE 5}…{PAUSE 5}$"
 
 Route119_Text_TallGrassSnaresBikeTires:
 	.string	"Uf… No hay nada que hacer…\p"
 	.string	"La hierba alta se enreda en las ruedas\n"
-	.string	"de la BICI. No se puede seguir…$"
+	.string	"de la BICI. No se puede seguir{PAUSE 5}…{PAUSE 5}$"
 
 Route119_Text_CanYourMonMakeSecretBase:
 	.string	"¿Tu POKéMON puede usar DAÑO\n"
@@ -636,7 +636,7 @@ release
 end
 
 Route119_Norman_Texto_9:
-	.string "NORMAN: … …$"
+	.string "NORMAN: {PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
 
 Route119_Norman_Texto_10:
 	.string "Así que me entiendes.$"
@@ -647,7 +647,7 @@ Route119_Norman_Texto_11:
 	.string "eres de HOENN, ¿verdad?$"
 
 Route119_Norman_Texto_12:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
 
 Route119_Norman_Texto_13:
 	.string "KANTO… así que el TEAM ROCKET y DEVON\n"
@@ -657,7 +657,7 @@ Route119_Norman_Texto_14:
 	.string "Pero, ¿por qué me cuentas esto?$"
 
 Route119_Norman_Texto_15:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 5}$"
 
 Route119_Norman_Texto_16:
 	.string "Crees que tenemos intereses comunes,\n"
@@ -671,7 +671,7 @@ Route119_Norman_Texto_17:
 
 Route119_Norman_Texto_18:
 	.string "Oh{PAUSE 25}…{PAUSE 25} Vuestro LÍDER también{PAUSE 15}…{PAUSE 15} En ese\n"
-	.string "caso{PAUSE 15}…$"
+	.string "caso{PAUSE 15}…{PAUSE 5}$"
 
 Route119_Norman_Texto_19:
 	.string "No puedo prometerte nada ni estoy en\n"

@@ -51,7 +51,7 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 	.string	"Parece que no venden por ningún lado\n"
 	.string	"libros de estrategia para ganar\l"
 	.string	"en la TIENDA de BATALLA…\p"
-	.string	"Habrá que fiarse del instinto de una…$"
+	.string	"Habrá que fiarse del instinto de una{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
 	.string	"La NIDO BALL funciona mejor\n"

@@ -377,7 +377,7 @@ VermilioCity_Motorista_Text_3:
 	.string "frasco del CAPITÁN, lo\l"
 	.string "encontraremos{PAUSE 15}…{PAUSE 15}\l"
 	.string "Me pregunto si podremos llegar a\l"
-	.string "ver a GIOVANNI en pers…$"
+	.string "ver a GIOVANNI en pers…{PAUSE 5}$"
 
 VermilioCity_Motorista_Text_4:
 .string "Vosotros debéis de ser los ALTOS\n"
@@ -405,7 +405,7 @@ VermilioCity_Motorista_Text_7:
 VermilioCity_Motorista_Text_8:
 .string "TETSUO: Cuando os dé la orden\n"
 	.string "avanzad y entrad rápidamente al\l"
-	.string "barco, el resto dejádmelo a mí…$"
+	.string "barco, el resto dejádmelo a mí…{PAUSE 5}$"
 
 VermilioCity_Motorista_Text_9:
 .string "TETSUO: ¡EH, TÚ!$"
@@ -761,7 +761,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_1:
 
 VermilionCity_Secundaria_AncianoMachop_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_3:
 .string "Tú no pareces tener tampoco la\n"

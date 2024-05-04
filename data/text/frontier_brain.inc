@@ -1,15 +1,15 @@
 @ Battle Tower
 gText_AnabelWonSilver::
-	.string "It's very disappointing…$"
+	.string "It's very disappointing…{PAUSE 5}$"
 
 gText_AnabelDefeatSilver::
-	.string "Okay, I understand…$"
+	.string "Okay, I understand…{PAUSE 5}$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "I'm terribly sorry…{PAUSE 5}$"
 
 gText_AnabelDefeatGold::
-	.string "Thank you…$"
+	.string "Thank you…{PAUSE 5}$"
 
 @ Battle Dome
 gText_TuckerWonSilver::
@@ -18,7 +18,7 @@ gText_TuckerWonSilver::
 
 gText_TuckerDefeatSilver::
 	.string "Grr…\n"
-	.string "What the…$"
+	.string "What the…{PAUSE 5}$"
 
 gText_TuckerWonGold::
 	.string "My DOME ACE title isn't just for show!$"
@@ -45,10 +45,10 @@ gText_NolandDefeatGold::
 
 @ Battle Pike
 gText_LucyWonSilver::
-	.string "Humph…$"
+	.string "Humph…{PAUSE 5}$"
 
 gText_LucyDefeatSilver::
-	.string "Urk…$"
+	.string "Urk…{PAUSE 5}$"
 
 gText_LucyWonGold::
 	.string "Hah!$"
@@ -80,7 +80,7 @@ gText_SpenserWonSilver::
 
 gText_SpenserDefeatSilver::
 	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "Now this is something else…{PAUSE 5}$"
 
 gText_SpenserWonGold::
 	.string "Gwahahaha!\n"

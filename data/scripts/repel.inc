@@ -24,7 +24,7 @@ EventScript_RepelWoreOff_End:
 	end
 
 Text_RepelWoreOff:
-	.string "El efecto del REPELENTE se agotó…$"
+	.string "El efecto del REPELENTE se agotó{PAUSE 5}…{PAUSE 5}$"
 
 Text_RepelWoreOff_UseAnother:
 	.string "El efecto del REPELENTE se agotó…\n"

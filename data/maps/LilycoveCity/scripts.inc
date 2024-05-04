@@ -429,7 +429,7 @@ LilycoveCity_Text_MayNotRaisingPokemon:
 	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
 	.string "been raising your POKéMON?\p"
 	.string "That's not a very good showing as a\n"
-	.string "TRAINER…$"
+	.string "TRAINER…{PAUSE 5}$"
 
 LilycoveCity_Text_MayBattleMe:
 	.string "MAY: Come on, battle with me, so I can\n"
@@ -506,7 +506,7 @@ LilycoveCity_Text_BrendanDefeat:
 	.string "Humph…\n"
 	.string "You've done a lot of raising.\p"
 	.string "That stings a bit--I had a head start\n"
-	.string "on you as a TRAINER…$"
+	.string "on you as a TRAINER…{PAUSE 5}$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
 	.string "BRENDAN: I…\n"
@@ -636,7 +636,7 @@ LilycoveCity_Text_ImArtDealer:
 	.string	"Compro y vendo arte del bueno,\n"
 	.string	"sobre todo cuadros.\p"
 	.string	"Me han dicho que el MUSEO de aquí\n"
-	.string	"expone unas obras magníficas…$"
+	.string	"expone unas obras magníficas…{PAUSE 5}$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
 	.string	"Nosotros envejecemos y nos arrugamos,\n"
@@ -648,7 +648,7 @@ LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
 	.string	"Hace sesenta años que mi marido se me\n"
 	.string	"declaró aquí… El mar sigue tan hermoso\l"
 	.string	"como en aquel entonces…\p"
-	.string	"Ay, que me emociono…$"
+	.string	"Ay, que me emociono…{PAUSE 5}$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string	"Dime, ¿has oído hablar de esa gruta\n"
@@ -659,7 +659,7 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string	"¡Y se atreven a llamarse el “equipo\n"
 	.string	"amante de la naturaleza”!\p"
 	.string	"Lo que dicen no tiene nada que ver\n"
-	.string	"con lo que hacen en realidad…$"
+	.string	"con lo que hacen en realidad…{PAUSE 5}$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
@@ -708,7 +708,7 @@ LilycoveCity_Text_HarborSign:
 LilycoveCity_Text_TrainerFanClubSign:
 	.string	"CLUB de FANS de ENTRENADORES POKéMON\p"
 	.string	"En el cartel hay garabateados un\n"
-	.string	"montón de nombres de ENTRENADORES…$"
+	.string	"montón de nombres de ENTRENADORES…{PAUSE 5}$"
 
 LilycoveCity_Text_DepartmentStoreSign:
 	.string	"CENTRO COMERCIAL de CALAGUA\p"

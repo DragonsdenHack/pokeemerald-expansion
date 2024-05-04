@@ -196,7 +196,7 @@ RocketHideoutViridian_Combate_Proton_Texto_2:
 	.string "en este caso la tuya es la más\l"
 	.string "complicada de todas, y eso\l"
 	.string "requiere medidas de prueba\l"
-	.string "extremas…$"
+	.string "extremas{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Combate_Proton_Texto_3:
 .string "Los LÍDERES DE GIMNASIO son una\n"
@@ -224,7 +224,7 @@ RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "ADMINISTRADORES que quedan son más\l"
 	.string "poderosos que yo, apuesto que\l"
 	.string "saltarán chispas en esos\l"
-	.string "combates…$"
+	.string "combates{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Combate_Proton_Move_1:
 walk_up
@@ -554,7 +554,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "esperar lo peor una vez entres en\l"
 	.string "la LIGA POKÉMON, no dejarán que un\l"
 	.string "extraño se alze con el título tan\l"
-	.string "fácilmente…$"
+	.string "fácilmente{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:
 .string "Vuelvo a ISLA INTA {PLAYER}, tal\n"
@@ -731,7 +731,7 @@ RocketHideoutViridian_Escena_8_Texto_3:
 .string "PROTÓN: Se lo ha puesto demasiado\n"
 	.string "fácil, ¿no cree? Siquiera se ha dignado\l"
 	.string "a usar un RHYDON, mucho menos a su\l"
-	.string "RHYPER…$"
+	.string "RHYPER{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_8_Texto_4:
 .string "GIOVANNI: No merece ver el menor atisbo\n"
@@ -757,7 +757,7 @@ RocketHideoutViridian_Escena_8_Texto_6:
 
 RocketHideoutViridian_Escena_8_Texto_7:
 .string "PROTÓN: Está todo dispuesto señor. En\n"
-	.string "cuanto a lo de su…$"
+	.string "cuanto a lo de su{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_8_Texto_8:
 .string "GIOVANNI: Lo sé, debo salir\n"

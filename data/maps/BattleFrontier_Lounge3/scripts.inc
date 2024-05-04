@@ -220,7 +220,7 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 	.string "the best record takes all the Battle\l"
 	.string "Points in the pool.\p"
 	.string "Sounds simple, huh?\n"
-	.string "So, anyway…$"
+	.string "So, anyway…{PAUSE 5}$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
 	.string "What I'm looking for is a TRAINER who's\n"
@@ -446,17 +446,17 @@ BattleFrontier_Lounge3_Text_NotInterested::
 	.string "so afraid to take a chance!$"
 
 BattleFrontier_Lounge3_Text_Oh::
-	.string "Oh…$"
+	.string "Oh…{PAUSE 5}$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
 	.string "I backed the wrong TRAINER again!\p"
 	.string "Maybe I should be battling normally\n"
-	.string "like everyone else…$"
+	.string "like everyone else…{PAUSE 5}$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
 	.string "That TRAINER…\p"
 	.string "He's good, but he gets rattled too\n"
-	.string "easily to survive the BATTLE DOME…$"
+	.string "easily to survive the BATTLE DOME…{PAUSE 5}$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
 	.string "Giggle!\n"

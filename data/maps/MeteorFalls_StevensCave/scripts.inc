@@ -43,7 +43,7 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 
 MeteorFalls_StevensCave_Text_StevenDefeat:
 	.string "You…\n"
-	.string "I had no idea you'd become so strong…$"
+	.string "I had no idea you'd become so strong{PAUSE 5}…{PAUSE 5}$"
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "STEVEN: Come to think of it, ever since\n"

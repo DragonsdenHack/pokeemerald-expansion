@@ -120,7 +120,7 @@ step_end
 MisionTrigal4_Primer_Encuentro_Texto_1:
 .string "Como te decía, mis colegas de KANTO\n"
 	.string "dicen que en la MANSIÓN CANELA hay\l"
-	.string "muchos POKÉM…$"
+	.string "muchos POKÉM{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Primer_Encuentro_Texto_2:
 .string "Perdona, ¿te has perdido?$"
@@ -159,10 +159,10 @@ MisionTrigal4_Primer_Encuentro_Texto_9:
 	.string "puedas huir!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_10:
-.string "Yo he sido aplastado…$"
+.string "Yo he sido aplastado{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Primer_Encuentro_Texto_11:
-.string "Esto no le va a gustar al JEFE…$"
+.string "Esto no le va a gustar al JEFE{PAUSE 5}…{PAUSE 5}$"
 
 
 MisionTrigal4_Segundo_Encuentro_Arriba::
@@ -254,13 +254,13 @@ step_end
 MisionTrigal4_Segundo_Encuentro_Texto_1:
 .string "Según nuestras últimas estimaciones,\n"
 	.string "facturaremos un 28% más este mes que\l"
-	.string "el anterior. Todo va rodado, hoh…$"
+	.string "el anterior. Todo va rodado, hoh{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_2:
 .string "¿Qué se supone que haces aquí?$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_3:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_4:
 .string "Ya veo, esos incompetentes no son\n"
@@ -443,14 +443,14 @@ MisionTrigal4_Tercer_Encuentro_Texto_2:
 	.string "siento, mala suerte.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_3:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_4:
 .string "Entonces quieres cerrar este negocio…\n"
 	.string "¿sabes con quién estás hablando?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_5:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_6:
 .string "¡¿Si lo sé yo?!$"
@@ -469,7 +469,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_8:
 	.string "COMERCIAL. Ahora fuera de mi vista.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_9:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_10:
 .string "Muy bien, los necios aprenden por las\n"
@@ -489,7 +489,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_12:
 	.string "nuestra mercancía?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_13:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_14:
 .string "Espera{PAUSE 25}…{PAUSE 25} ¿El TEAM ROCKET? ¡¿Eres el gran\n"
@@ -498,7 +498,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_14:
 
 MisionTrigal4_Tercer_Encuentro_Texto_15:
 .string "Oh{PAUSE 25}…{PAUSE 25} Eso explica todo, ruego que nos\n"
-	.string "perdones, no volverá a…$"
+	.string "perdones, no volverá a{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_16:
 .string "¿El SNUBBULL de un ex-empleado?\n"
@@ -537,7 +537,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_24:
 .string "Grrrrr{PAUSE 25}…{PAUSE 25} Maldición{PAUSE 25}…{PAUSE 25} Con el TEAM ROCKET\n"
 	.string "no se juega{PAUSE 25}…{PAUSE 25} No nos queda más remedio\l"
 	.string "que huir de la región y buscar relanzar\l"
-	.string "el negocio lejos de aquí…$"
+	.string "el negocio lejos de aquí{PAUSE 5}…{PAUSE 5}$"
 
 
 Mision_Trigal4_Calvo::

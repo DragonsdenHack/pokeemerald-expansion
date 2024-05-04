@@ -51,7 +51,7 @@ AbandonedShip_Rooms2_1F_Text_DanIntro:
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
 	.string	"FITO: A pesar de luchar a dúo,\n"
-	.string	"hemos perdido…$"
+	.string	"hemos perdido{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
 	.string	"FITO: No encontramos ni una baratija…\n"
@@ -59,11 +59,11 @@ AbandonedShip_Rooms2_1F_Text_DanPostBattle:
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
 	.string	"FITO: Pero si no tienes dos POKéMON…\n"
-	.string	"Así no ganas ni en sueños…$"
+	.string	"Así no ganas ni en sueños{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
 	.string	"LUCI: ¡Anda! Buscábamos tesoros\n"
-	.string	"y nos encontramos con un combate…$"
+	.string	"y nos encontramos con un combate{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
 	.string	"LUCI: ¡Guau, qué fuerte eres!$"
@@ -96,11 +96,11 @@ AbandonedShip_Rooms2_1F_Text_DanPostRematch:
 	.string	"FITO: No encontramos ningún tesoro,\n"
 	.string	"perdemos en los combates POKéMON…\p"
 	.string	"Yo me voy a casa… Bueno, quiero irme,\n"
-	.string	"pero no creo que ella me deje…$"
+	.string	"pero no creo que ella me deje{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
 	.string	"FITO: Pero si no tienes dos POKéMON…\n"
-	.string	"Así no ganas ni en sueños…$"
+	.string	"Así no ganas ni en sueños{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
 	.string "KIRA: Oh? We meet again!\p"
@@ -110,7 +110,7 @@ AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
 	.string "to give up searching?$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-	.string "KIRA: Oh, we lost again…$"
+	.string "KIRA: Oh, we lost again{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
 	.string "KIRA: We're not leaving until we raise\n"
@@ -127,7 +127,7 @@ AbandonedShip_Rooms2_1F_Text_JaniIntro:
 
 AbandonedShip_Rooms2_1F_Text_JaniDefeat:
 	.string	"Ay, ay, ay…\n"
-	.string	"Esto no ha salido bien…$"
+	.string	"Esto no ha salido bien{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
 	.string	"Andar descalza por este barco\n"

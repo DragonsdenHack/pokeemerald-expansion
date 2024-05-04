@@ -164,7 +164,7 @@ Route29_Text_16:
 .string "RUTA 26, dicen que es de las más\l"
 .string "bonitas de la región. Esperemos\l"
 .string "que pronto la reabran para toda la\l"
-.string "población…$"
+.string "población{PAUSE 5}…{PAUSE 5}$"
 
 
 

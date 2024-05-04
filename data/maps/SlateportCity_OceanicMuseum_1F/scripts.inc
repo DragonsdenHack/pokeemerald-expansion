@@ -234,7 +234,7 @@ SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
 
 SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
 	.string	"Vaya, lo siento, pero parece que\n"
-	.string	"no tienes bastante dinero…$"
+	.string	"no tienes bastante dinero…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
 	.string	"¿Ah, sí? ¿Vienes con el grupo\n"
@@ -258,7 +258,7 @@ SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
 	.string	"Todo lo que aprenda aquí puedo\n"
-	.string	"aplicarlo con fines malvados…$"
+	.string	"aplicarlo con fines malvados…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
 	.string	"¡Si nuestro matón no la hubiera\n"
@@ -289,7 +289,7 @@ SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
 SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
 	.string	"Quiero un POKéMON marino.\p"
 	.string	"Abrazarlo resultaría tan\n"
-	.string	"fresquito y agradable…$"
+	.string	"fresquito y agradable…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
 	.string	"¡Aaaaah!\n"
@@ -386,7 +386,7 @@ SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
 	.string	"Una extraña máquina está rotando\n"
 	.string	"bajo una cúpula de cristal.\p"
 	.string	"Quizás sirva para medir la\n"
-	.string	"profundidad de algo…$"
+	.string	"profundidad de algo…{PAUSE 5}$"
 
 SlateportCity_Entrevista_Presidente::
 lock

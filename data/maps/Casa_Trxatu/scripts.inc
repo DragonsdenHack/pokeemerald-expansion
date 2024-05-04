@@ -159,7 +159,7 @@ CasaTrxatu_Combate_Texto_8:
 .string "Debes de ser alguien digno de\n"
 	.string "conocer, derrotaste a LANCE,\l"
 	.string "descubriste el culto más sagrado\l"
-	.string "de KANTO y lograste salir airoso…$"
+	.string "de KANTO y lograste salir airoso{PAUSE 5}…{PAUSE 5}$"
 
 CasaTrxatu_Combate_Texto_9:
 .string "Siempre digo que las comparaciones\n"

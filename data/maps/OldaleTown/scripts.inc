@@ -383,7 +383,7 @@ OldaleTown_Text_FinishedSketchingFootprints:
 	.string	"Ya he acabado el bosquejo de las\n"
 	.string	"huellas del POKéMON raro.\p"
 	.string	"Y ahora me doy cuenta de que…\n"
-	.string	"eran mis propias huellas, snif…$"
+	.string	"eran mis propias huellas, snif{PAUSE 5}…{PAUSE 5}$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string	"AURA: ¡{PLAYER}{KUN}!\n"

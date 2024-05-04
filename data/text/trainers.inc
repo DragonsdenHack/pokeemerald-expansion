@@ -5,7 +5,7 @@ Route102_Text_CalvinIntro:
 
 Route102_Text_CalvinDefeated:
 	.string "Aaaargh, he perdido… Debería haber\n"
-	.string "entrenado más…$"
+	.string "entrenado más…{PAUSE 5}$"
 
 Route102_Text_CalvinPostBattle:
 	.string "Vamos a ver, si eres tan fuerte,\n"
@@ -40,11 +40,11 @@ Route102_Text_AllenIntro:
 
 Route102_Text_AllenDefeated:
 	.string "Te he desafiado porque pensé que\n"
-	.string "podría vencerte fácilmente…$"
+	.string "podría vencerte fácilmente…{PAUSE 5}$"
 
 Route102_Text_AllenPostBattle:
 	.string "Todavía no he ganado ni una vez… Ojalá\n"
-	.string "gane algún combate pronto…$"
+	.string "gane algún combate pronto…{PAUSE 5}$"
 
 Route102_Text_RickIntro:
 	.string "¡Ajajá! ¡Me estabas mirando! ¡Te\n"
@@ -63,7 +63,7 @@ Route102_Text_TianaIntro:
 	.string "vas a ayudarme!$"
 
 Route102_Text_TianaDefeated:
-	.string "Mi carrera está estancada…$"
+	.string "Mi carrera está estancada…{PAUSE 5}$"
 
 Route102_Text_TianaPostBattle:
 	.string "Para seguir avanzando, tengo que\n"
@@ -74,7 +74,7 @@ Route103_Text_DaisyIntro:
 	.string "emanamos?$"
 
 Route103_Text_DaisyDefeated:
-    .string "Pues no ha debido de ser el aroma…$"
+    .string "Pues no ha debido de ser el aroma…{PAUSE 5}$"
 
 Route103_Text_DaisyPostBattle:
 	.string "La aromaterapia es una técnica de\n"
@@ -103,12 +103,12 @@ Route103_Text_LivIntro:
 	.string "team.$"
 
 Route103_Text_LivDefeated:
-	.string "LIV: Oh, we lost, big sister…$"
+	.string "LIV: Oh, we lost, big sister…{PAUSE 5}$"
 
 Route103_Text_LivPostBattle:
 	.string "LIV: We work perfectly together,\n"
 	.string "me and my big sister…\p"
-	.string "But we still lost…$"
+	.string "But we still lost…{PAUSE 5}$"
 
 Route103_Text_AmyLivRegister:
 	.string "LIV: Really, we're a lot better…\n"
@@ -126,7 +126,7 @@ Route103_Text_AmyRematchIntro:
 
 Route103_Text_AmyRematchDefeated:
 	.string "AMY: Aww, boo!\n"
-	.string "We couldn't win again…$"
+	.string "We couldn't win again…{PAUSE 5}$"
 
 Route103_Text_AmyRematchPostBattle:
 	.string "AMY: You have to think about all\n"
@@ -144,7 +144,7 @@ Route103_Text_LivRematchIntro:
 
 Route103_Text_LivRematchDefeated:
 	.string "LIV: Awww, we lost again…\n"
-	.string "Big sister…$"
+	.string "Big sister…{PAUSE 5}$"
 
 Route103_Text_LivRematchPostBattle:
 	.string "LIV: We work perfectly together,\n"
@@ -212,7 +212,7 @@ Route103_Text_IsabelleIntro:
 	.string "¡Mira por dónde vas! ¡Colisión!$"
 
 Route103_Text_IsabelleDefeated:
-	.string "Glu, glu, glu…$"
+	.string "Glu, glu, glu{PAUSE 5}…{PAUSE 5}$"
 
 Route103_Text_IsabellePostBattle:
 	.string "Yo sólo estaba haciendo unos largos…\n"
@@ -233,13 +233,13 @@ Route103_Text_MarcosIntro:
 	.string "gente. ¡La prueba eres tú!$"
 
 Route103_Text_MarcosDefeated:
-	.string "Has arruinado mi espectáculo…$"
+	.string "Has arruinado mi espectáculo{PAUSE 5}…{PAUSE 5}$"
 
 Route103_Text_MarcosPostBattle:
 	.string "Siempre busco lugares solitarios para\n"
 	.string "tocar, pero al final acabo rodeado de\l"
 	.string "gente. Voy a tener que hacerme\l"
-	.string "profesional…$"
+	.string "profesional{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_GinaIntro:
 	.string "GINA: Okay, let's battle with our\n"
@@ -264,7 +264,7 @@ Route104_Text_MiaIntro:
 
 Route104_Text_MiaDefeat:
 	.string "MIA: We battled together, but we\n"
-	.string "both lost…$"
+	.string "both lost{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_MiaPostBattle:
 	.string "MIA: We will train our POKéMON more\n"
@@ -283,7 +283,7 @@ Route104_Text_IvanIntro:
 
 Route104_Text_IvanDefeat:
 	.string "Pensaba que no era muy malo, pero me\n"
-	.string "temo que debo mejorar…$"
+	.string "temo que debo mejorar{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_IvanPostBattle:
 	.string "He estado pescando demasiado. Debería\n"
@@ -299,19 +299,19 @@ Route104_Text_BillyDefeat:
 
 Route104_Text_BillyPostBattle:
 	.string "Estoy dejando muchas huellas en la\n"
-	.string "arena, pero enseguida desaparecen…$"
+	.string "arena, pero enseguida desaparecen{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_HaleyIntro:
 	.string "¿Debería… ? ¿O no debería… ? ¡Venga,\n"
 	.string "sí, vamos a luchar!$"
 
 Route104_Text_HaleyDefeat:
-	.string "No hubiera debido…$"
+	.string "No hubiera debido{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_HaleyPostBattle:
 	.string "Si te enfrentas a una decisión y dejas\n"
 	.string "que alguien la tome por ti, siempre te\l"
-	.string "arrepentirás del resultado…$"
+	.string "arrepentirás del resultado{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_HaleyRegister1:
 	.string "You're strong, but should I register\n"
@@ -330,7 +330,7 @@ Route104_Text_HaleyRematchIntro:
 
 Route104_Text_HaleyRematchDefeat:
 	.string "Ohh…\n"
-	.string "I thought I could win…$"
+	.string "I thought I could win{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_HaleyPostRematch:
 	.string "I made the decision to battle, so\n"
@@ -371,14 +371,14 @@ Route104_Text_WinstonRematchDefeat:
 Route104_Text_WinstonPostRematch:
 	.string "I'm fabulously wealthy, but I can't\n"
 	.string "seem to win at POKéMON…\p"
-	.string "It's so deep, the world of POKéMON…$"
+	.string "It's so deep, the world of POKéMON{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_CindyIntro:
 	.string "El destino ha hecho que nos cruzáramos\n"
 	.string "¿Quieres luchar contra mí?$"
 
 Route104_Text_CindyDefeat:
-	.string "Ooooh…$"
+	.string "Ooooh{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_CindyPostBattle:
 	.string "'Hola' siempre precede a 'adiós'. Espero\n"
@@ -401,7 +401,7 @@ Route104_Text_CindyRematchIntro:
 
 Route104_Text_CindyRematchDefeat:
 	.string "Oh, my…\n"
-	.string "I did the best that I could…$"
+	.string "I did the best that I could{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_CindyPostRematch:
 	.string "“Hello” is the beginning of “good-bye.”\n"
@@ -413,7 +413,7 @@ Route104_Text_DarianIntro:
 	.string "¡Da miedo!$"
 
 Route104_Text_DarianDefeat:
-	.string "Pero…$"
+	.string "Pero{PAUSE 5}…{PAUSE 5}$"
 
 Route104_Text_DarianPostBattle:
 	.string "Vaya, Magikarp, lo tuyo es mucho ruido y\n"
@@ -425,7 +425,7 @@ Route105_Text_FosterIntro:
 
 Route105_Text_FosterDefeated:
 	.string "Tenía la mente en esa roca y he dejado\n"
-	.string "que mis POKEMON se debilitaran…$"
+	.string "que mis POKEMON se debilitaran{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_FosterPostBattle:
 	.string "Me puedo pasar la horas muertas mirando\n"
@@ -438,7 +438,7 @@ Route105_Text_LuisIntro:
 	.string "echar un combate?$"
 
 Route105_Text_LuisDefeated:
-	.string "Glub… Glub…$"
+	.string "Glub… Glub{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_LuisPostBattle:
 	.string "Si te estás ahogando, tienes que agitar\n"
@@ -450,19 +450,19 @@ Route105_Text_DominikIntro:
 	.string "en una piscina!$"
 
 Route105_Text_DominikDefeated:
-	.string "He perdido… Que depre…$"
+	.string "He perdido… Que depre{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_DominikPostBattle:
 	.string "¿por que el mar es azul? Leí la\n"
 	.string "explicación en el MUSEO de CIUDAD\l"
-	.string "PORTUAL, pero no me acuerdo…$"
+	.string "PORTUAL, pero no me acuerdo{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_BeverlyIntro:
 	.string "Mi cuerpo es más ligero en el agua ¡Es\n"
 	.string "como si no pesara nada!$"
 
 Route105_Text_BeverlyDefeated:
-	.string "Me has dejado flotando…$"
+	.string "Me has dejado flotando{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_PostBattle:
 	.string "El peso de tu cuerpo es nueve veces más\n"
@@ -486,7 +486,7 @@ Route105_Text_AndresIntro:
 
 Route105_Text_AndresDefeated:
 	.string "Has descubierto mi secreto… No sé\n"
-	.string "luchar…$"
+	.string "luchar{PAUSE 5}…{PAUSE 5}$"
 
 Route105_Text_AndresPostBattle:
 	.string "Tengo la certeza de que el mar guarda\n"
@@ -530,7 +530,7 @@ Route106_Text_ElliotIntro:
 
 Route106_Text_ElliotDefeated:
 	.string "Los POKéMON se me dan tan mal como la\n"
-	.string "pesca en alta mar…$"
+	.string "pesca en alta mar{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Text_ElliotPostBattle:
 	.string "La pesca es un deporte genial, ya sea en\n"
@@ -557,7 +557,7 @@ Route106_Text_NedIntro:
 	.string "ir al servicio? ¿Qué pasa si un pez\l"
 	.string "gordo pica en mi CAÑA cuando justo\l"
 	.string "estoy en servicio? Tengo que\l"
-	.string "aguantarme…$"
+	.string "aguantarme{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Text_NedDefeated:
 	.string "He perdido porque tengo ganas de ir al\n"
@@ -575,7 +575,7 @@ Route106_Text_DouglasDefeated:
 	.string "¡Me rindo!$"
 
 Route106_Text_DouglasPostBattle:
-	.string "Seguro que no pierdo en una carrera…$"
+	.string "Seguro que no pierdo en una carrera{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Text_KylaIntro:
 	.string "Si te adentras en el mar,\n"
@@ -583,7 +583,7 @@ Route106_Text_KylaIntro:
 
 Route106_Text_KylaDefeated:
 	.string "Creo que llevo demasiado tiempo\n"
-	.string "en el mar…$"
+	.string "en el mar{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Text_KylaPostBattle:
 	.string "Adentrarte en el vasto mar…\n"
@@ -592,16 +592,16 @@ Route106_Text_KylaPostBattle:
 Route107_Text_DarrinIntro:
 	.string "Auaaaa… Debo de haberme dormido\n"
 	.string "mientras me hacía el muerto entre las\l"
-	.string "olas…$"
+	.string "olas{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_DarrinDefeated:
 	.string "Bueno, he perdido… Pues nada, a dormir\n"
-	.string "otra vez…$"
+	.string "otra vez{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_DarrinPostBattle:
 	.string "Flotar entre las olas arrullado por el\n"
 	.string "mar es como dormir en una cama muy\l"
-	.string "cómoda y blandita…$"
+	.string "cómoda y blandita{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_TonyIntro:
 	.string "En el mar soy un as. ¡Vamos a ver si me\n"
@@ -617,7 +617,7 @@ Route107_Text_TonyPostBattle:
 
 Route107_Text_TonyRegister:
 	.string "You've shocked me to the bone!\n"
-	.string "Well, so you won't forget me…$"
+	.string "Well, so you won't forget me{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_TonyRematchIntro:
 	.string "Swimming in the big, wide sea,\n"
@@ -648,7 +648,7 @@ Route107_Text_BethIntro:
 	.string "¿Buscas pelea? ¡Pues encantada!$"
 
 Route107_Text_BethDefeated:
-	.string "No he estado a la altura…$"
+	.string "No he estado a la altura{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_BethPostBattle:
 	.string "Apuesto lo que sea a que vas a seguir\n"
@@ -694,7 +694,7 @@ Route107_Text_CamronIntro:
 	.string "me quedan fuerzas!$"
 
 Route107_Text_CamronDefeated:
-	.string "Me has dejado sin fuerzas…$"
+	.string "Me has dejado sin fuerzas{PAUSE 5}…{PAUSE 5}$"
 
 Route107_Text_CamronPostBattle:
 	.string "Todavía tengo que completar dos\n"
@@ -704,7 +704,7 @@ Route108_Text_JeromeIntro:
 	.string "Mi sueño es nadar en los siete mares.$"
 
 Route108_Text_JeromeDefeated:
-	.string "Así no llego ni al río de la esquina…$"
+	.string "Así no llego ni al río de la esquina{PAUSE 5}…{PAUSE 5}$"
 
 Route108_Text_JeromePostBattle:
 	.string "Lo mejor de nadar es que puedes jugar\n"
@@ -715,11 +715,11 @@ Route108_Text_MatthewIntro:
 	.string "Abandonada?$"
 
 Route108_Text_MatthewDefeated:
-	.string "Me hundo… Glu… Glu…$"
+	.string "Me hundo… Glu… Glu{PAUSE 5}…{PAUSE 5}$"
 
 Route108_Text_MatthewPostBattle:
 	.string "Creo que hay gente que se atreve a\n"
-	.string "entrar en la Nao Abandonada…$"
+	.string "entrar en la Nao Abandonada{PAUSE 5}…{PAUSE 5}$"
 
 Route108_Text_TaraIntro:
 	.string "No hay nada más cómodo que un bikini\n"
@@ -730,7 +730,7 @@ Route108_Text_TaraDefeated:
 
 Route108_Text_TaraPostBattle:
 	.string "Bueno, quizás esté bien para tomar el\n"
-	.string "sol, pero no para combatir…$"
+	.string "sol, pero no para combatir{PAUSE 5}…{PAUSE 5}$"
 
 Route108_Text_MissyIntro:
 	.string "¡Me encanta el mar! ¡Cuando nado, se me\n"
@@ -813,29 +813,29 @@ Route109_Text_HueyDefeated:
 
 Route109_Text_HueyPostBattle:
 	.string "Quien mejor sabe entrenar POKéMON está\n"
-	.string "en el mejor puerto…$"
+	.string "en el mejor puerto{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_EdmondIntro:
 	.string "Ayyyy… ¿Combate? ¿Tú y yo?$"
 
 Route109_Text_EdmondDefeated:
-	.string "Ay… Ooooooh… Ayyyyyyyyy…$"
+	.string "Ay… Ooooooh… Ayyyyyyyyy{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_EdmondPostBattle:
 	.string "Normalmente soy más fuerte… Pero\n"
 	.string "tengo un mareo… Ayyyy… Ya sé que soy\l"
-	.string "MARINERO, ya…$"
+	.string "MARINERO, ya{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyIntro:
 	.string "I'm thirsty… I could go for a SODA POP\n"
-	.string "at the SEASHORE HOUSE…$"
+	.string "at the SEASHORE HOUSE{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyDefeated:
-	.string "Groan…$"
+	.string "Groan{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyPostBattle:
 	.string "I'm getting famished… My inner tube\n"
-	.string "looks like a giant doughnut…$"
+	.string "looks like a giant doughnut{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyRegister:
 	.string "Will you have another match with me\n"
@@ -847,7 +847,7 @@ Route109_Text_RickyRematchIntro:
 
 Route109_Text_RickyRematchDefeated:
 	.string "I lost…\n"
-	.string "It's because I'm hungry…$"
+	.string "It's because I'm hungry{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyRematchPostBattle:
 	.string "When you eat on a beach, everything\n"
@@ -906,7 +906,7 @@ Route109_Text_CarterIntro:
 
 Route109_Text_CarterDefeated:
 	.string "Ejem… Mi menda se ha dado un buen\n"
-	.string "batacazo…$"
+	.string "batacazo{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_CarterPostBattle:
 	.string "Mi menda lerenda opina que llegarás\n"
@@ -955,13 +955,13 @@ Route109_Text_ChandlerDefeated:
 
 Route109_Text_ChandlerPostBattle:
 	.string "Y eso que te había enseñado mi flotador\n"
-	.string "y todo…$"
+	.string "y todo{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_HaileyIntro:
 	.string "No sé nadar, sólo finjo que sé.$"
 
 Route109_Text_HaileyDefeated:
-	.string "¡Si ya lo sabía yo! Como no sé nadar…$"
+	.string "¡Si ya lo sabía yo! Como no sé nadar{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_HaileyPostBattle:
 	.string "Cuando aprenda a nadar no habrá rival\n"
@@ -1000,7 +1000,7 @@ Route110_Text_AnthonyDefeated:
 
 Route110_Text_AnthonyPostBattle:
 	.string "No basta sólo la velocidad para ganar\n"
-	.string "en los combates POKÉMON, está claro…$"
+	.string "en los combates POKÉMON, está claro{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_BenjaminIntro:
 	.string "¡No tengas miedo si tu BICI corre\n"
@@ -1012,7 +1012,7 @@ Route110_Text_BenjaminDefeated:
 
 Route110_Text_BenjaminPostBattle:
 	.string "No hay por qué tener miedo de nada.\n"
-	.string "Tómate las cosas con calma…$"
+	.string "Tómate las cosas con calma{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_BenjaminRegister:
 	.string "I'll keep chugging on without stressing.\n"
@@ -1023,7 +1023,7 @@ Route110_Text_BenjaminRematchIntro:
 	.string "Take it easy and let's battle.$"
 
 Route110_Text_BenjaminRematchDefeated:
-	.string "I didn't panic, but I still lost…$"
+	.string "I didn't panic, but I still lost{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_BenjaminRematchPostBattle:
 	.string "There's no need to panic or stress.\n"
@@ -1064,7 +1064,7 @@ Route110_Text_JasmineIntro:
 	.string "una piedra!$"
 
 Route110_Text_JasmineDefeated:
-	.string "Creo que me ha dado un calambre…$"
+	.string "Creo que me ha dado un calambre{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_JasminePostBattle:
 	.string "Así que tienes MEDALLAS de GIMNASIO…\n"
@@ -1076,18 +1076,18 @@ Route110_Text_EdwardIntro:
 
 Route110_Text_EdwardDefeated:
 	.string "No he sabido predecir mi propia\n"
-	.string "derrota…$"
+	.string "derrota{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwardPostBattle:
 	.string "Puedo ver tu futuro… Veo, veo… Mmm…\n"
-	.string "Una luz muy brillante…$"
+	.string "Una luz muy brillante{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_JaclynIntro:
 	.string "¡Ja, ja, ja, ja!\n"
-	.string "Te voy a dejar de piedra…$"
+	.string "Te voy a dejar de piedra{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_JaclynDefeated:
-	.string "Ahora yo estoy patidifusa…$"
+	.string "Ahora yo estoy patidifusa{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_JaclynPostBattle:
 	.string "¡Esta vez has ganado de milagro! ¡Ha\n"
@@ -1096,10 +1096,10 @@ Route110_Text_JaclynPostBattle:
 
 Route110_Text_EdwinIntro:
 	.string "¿Puedo ver tus POKÉMON? Sólo una\n"
-	.string "miradita…$"
+	.string "miradita{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwinDefeated:
-	.string "Yo sólo quería completar mi colección…$"
+	.string "Yo sólo quería completar mi colección{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwinPostBattle:
 	.string "Cuando veo un POKÉMON que no conozco,\n"
@@ -1107,7 +1107,7 @@ Route110_Text_EdwinPostBattle:
 
 Route110_Text_EdwinRegister:
 	.string "I like collecting MATCH CALL\n"
-	.string "registrations, too…$"
+	.string "registrations, too{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwinRematchIntro:
 	.string "Hi, have you caught any new POKéMON?\p"
@@ -1141,7 +1141,7 @@ Route110_Text_IsabelIntro:
 
 Route110_Text_IsabelDefeated:
 	.string "Ésta no era precisamente la idea que\n"
-	.string "tenía yo…$"
+	.string "tenía yo{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_IsabelPostBattle:
 	.string "Más que luchar, debería presumir de\n"
@@ -1171,11 +1171,11 @@ Route110_Text_TimmyIntro:
 
 Route110_Text_TimmyDefeated:
 	.string "Que tengan carisma no basta para\n"
-	.string "ganar…$"
+	.string "ganar{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_TimmyPostBattle:
 	.string "Lo que pasa es que cuesta controlar a\n"
-	.string "los POKÉMON que acabas de atrapar…$"
+	.string "los POKÉMON que acabas de atrapar{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_AlyssaIntro:
 	.string "Me he caído del CARRIL de BICIS…\n"
@@ -1194,7 +1194,7 @@ Route110_Text_JosephIntro:
 	.string "ritmo de mis POKÉMON!$"
 
 Route110_Text_JosephDefeated:
-	.string "Tu ritmo es imparable…$"
+	.string "Tu ritmo es imparable{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_JosephPostBattle:
 	.string "¡No voy a venirme abajo por haber\n"
@@ -1202,7 +1202,7 @@ Route110_Text_JosephPostBattle:
 
 Route110_Text_KalebIntro:
 	.string "No hay imagen más encantadora que ver\n"
-	.string "a unos POKÉMON ayudándose entre sí…$"
+	.string "a unos POKÉMON ayudándose entre sí{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_KalebDefeated:
 	.string "¿Pero tú no tienes corazón o qué?$"
@@ -1246,7 +1246,7 @@ Route111_Text_BeauIntro:
 	.string "Right now, nobody can beat me!$"
 
 Route111_Text_BeauDefeat:
-	.string "I can't win on spirit alone…$"
+	.string "I can't win on spirit alone{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_BeauPostBattle:
 	.string "I'm going to be a real hero one day.\n"
@@ -1258,7 +1258,7 @@ Route111_Text_BeckyIntro:
 	.string "in the desert. Where could they be?$"
 
 Route111_Text_BeckyDefeat:
-	.string "I came up short…$"
+	.string "I came up short{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_BeckyPostBattle:
 	.string "If they can find fossils in the desert,\n"
@@ -1293,7 +1293,7 @@ Route111_Text_DustyRematchIntro:
 
 Route111_Text_DustyRematchDefeat:
 	.string "I've found no ruins, nor have I found\n"
-	.string "any strong POKéMON…$"
+	.string "any strong POKéMON{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_DustyPostRematch:
 	.string "For thirty years I have searched for\n"
@@ -1309,24 +1309,24 @@ Route111_Text_TravisIntro:
 
 Route111_Text_TravisDefeat:
 	.string "Mi Pokémon ya no va a querer salir ni a\n"
-	.string "la vuelta de la esquina…$"
+	.string "la vuelta de la esquina{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_TravisPostBattle:
 	.string "Cuando veo a un entrenador que está en\n"
-	.string "racha, tengo que desafiarle…$"
+	.string "racha, tengo que desafiarle{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_IreneIntro:
 	.string "No sé quién eres ni adónde vas, pero sé\n"
-	.string "que vamos a enfrentarnos…$"
+	.string "que vamos a enfrentarnos…{PAUSE 5}$"
 
 Route111_Text_IreneDefeat:
 	.string "Tu técnica es tan buena que estoy\n"
-	.string "muerta de envidia…$"
+	.string "muerta de envidia…{PAUSE 5}$"
 
 Route111_Text_IrenePostBattle:
 	.string "Pensaba yo que debería ir al Monte\n"
 	.string "Cenizo a disfrutar de las vistas, pero\l"
-	.string "aquí tampoco se está mal…$"
+	.string "aquí tampoco se está mal…{PAUSE 5}$"
 
 Route111_Text_DaisukeIntro:
 	.string "¡Hay que entrenar, así que desafío a\n"
@@ -1374,7 +1374,7 @@ Route111_Text_WiltonPostRematch:
 
 Route111_Text_BrookeIntro:
 	.string "Eh, tus Pokémon tienen pinta de tomarse\n"
-	.string "esto muy en serio…$"
+	.string "esto muy en serio…{PAUSE 5}$"
 
 Route111_Text_BrookeDefeat:
 	.string "No es que tengan pinta de tomárselo muy\n"
@@ -1402,7 +1402,7 @@ Route111_Text_BrookeRematchDefeat:
 Route111_Text_BrookePostRematch:
 	.string "Maybe I should have stopped my\n"
 	.string "POKéMON from evolving until they\l"
-	.string "learned better moves…$"
+	.string "learned better moves…{PAUSE 5}$"
 
 Route111_Text_CeliaIntro:
 	.string "I shouldn't have come to a place like\n"
@@ -1415,7 +1415,7 @@ Route111_Text_CeliaDefeat:
 Route111_Text_CeliaPostBattle:
 	.string "In a sandstorm like this, I can't set\n"
 	.string "the places for a picnic even with my\l"
-	.string "GO-GOGGLES on…$"
+	.string "GO-GOGGLES on…{PAUSE 5}$"
 
 Route111_Text_BryanIntro:
 	.string "How tough are you?\n"
@@ -1435,7 +1435,7 @@ Route111_Text_BrandenIntro:
 
 Route111_Text_BrandenDefeat:
 	.string "Tch! I thought a sandwich would be\n"
-	.string "enough of a bribe…$"
+	.string "enough of a bribe…{PAUSE 5}$"
 
 Route111_Text_BrandenPostBattle:
 	.string "My SANDSHREW loves eating\n"
@@ -1471,11 +1471,11 @@ Route111_Text_HaydenIntro:
 	.string "como yo, pelea de forma temible!$"
 
 Route111_Text_HaydenDefeat:
-	.string "Ah, desfallezco…$"
+	.string "Ah, desfallezco…{PAUSE 5}$"
 
 Route111_Text_HaydenPostBattle:
 	.string "¡Me rugen las tripas! Será mejor engullir\n"
-	.string "unas bayas…$"
+	.string "unas bayas…{PAUSE 5}$"
 
 Route111_Text_BiancaIntro:
 	.string "¿Vienes de Malvalona? ¡Pues debes de\n"
@@ -1582,7 +1582,7 @@ Route112_Text_ShaylaDefeat:
 Route112_Text_ShaylaPostBattle:
 	.string "¿Tienes un momento? Estaba pensando\n"
 	.string "que quizás podríamos volver a luchar ya\l"
-	.string "mismo… Pero si tienes cosas que hacer…$"
+	.string "mismo… Pero si tienes cosas que hacer…{PAUSE 5}$"
 
 Route113_Text_JaylenIntro:
 	.string "¿Sabes por qué es tan chachi vivir\n"
@@ -1607,7 +1607,7 @@ Route113_Text_DillonDefeat:
 Route113_Text_DillonPostBattle:
 	.string "Me has extinguido… ¿Lo pillas? Tú eres\n"
 	.string "un volcán activo y yo uno extinguido,\l"
-	.string "je, je, je. Vale, sí, no tiene gracia…$"
+	.string "je, je, je. Vale, sí, no tiene gracia…{PAUSE 5}$"
 
 Route113_Text_MadelineIntro:
 	.string "Este parasol protege a mi querido NUMEL\n"
@@ -1642,7 +1642,7 @@ Route113_Text_LaoIntro:
 	.string "desafío?$"
 
 Route113_Text_LaoDefeat:
-	.string "Acepto mi derrota…$"
+	.string "Acepto mi derrota…{PAUSE 5}$"
 
 Route113_Text_LaoPostBattle:
 	.string "Tengo que perfeccionar mi técnica de\n"
@@ -1718,7 +1718,7 @@ Route113_Text_CobyDefeat:
 
 Route113_Text_CobyPostBattle:
 	.string "Que me derroten con tanta facilidad me\n"
-	.string "deja sin palabras…$"
+	.string "deja sin palabras…{PAUSE 5}$"
 
 Route113_Text_SophieIntro:
 	.string "Este color me da sueño. Lucha conmigo, a\n"
@@ -1731,7 +1731,7 @@ Route113_Text_SophieDefeat:
 Route113_Text_SophiePostBattle:
 	.string "Perder me quema mucho… y lo único que\n"
 	.string "me relaja es echar una siestecita, así\l"
-	.string "que zzzzz…$"
+	.string "que zzzzz…{PAUSE 5}$"
 
 Route113_Text_LawrenceIntro:
 	.string "¿Es posible que estés recogiendo\n"
@@ -1776,12 +1776,12 @@ Route114_Text_LucasIntro:
 	.string "ocurra hacer montañismo.$"
 
 Route114_Text_LucasDefeat:
-	.string "Las montañas son traicioneras…$"
+	.string "Las montañas son traicioneras…{PAUSE 5}$"
 
 Route114_Text_LucasPostBattle:
 	.string "En invierno las montañas encierran\n"
 	.string "trampas mortales: tormentas de nieve,\l"
-	.string "avalanchas…$"
+	.string "avalanchas…{PAUSE 5}$"
 
 Route114_Text_ShaneIntro:
 	.string "¡Acampar es la caña! ¡Puedes pescar,\n"
@@ -1805,14 +1805,14 @@ Route114_Text_NancyDefeat:
 
 Route114_Text_NancyPostBattle:
 	.string "Creo que he comido demasiado… Me esta\n"
-	.string "entrando sueño…$"
+	.string "entrando sueño…{PAUSE 5}$"
 
 Route114_Text_SteveIntro:
 	.string "¡Jua, jua, jua, jua! ¿Quieres luchar\n"
 	.string "contra mi POKÉMON?$"
 
 Route114_Text_SteveDefeat:
-	.string "Mi pobre POKÉMON…$"
+	.string "Mi pobre POKÉMON…{PAUSE 5}$"
 
 Route114_Text_StevePostBattle:
 	.string "Yo sé muy bien qué POKÉMON quiero… ¡Uno\n"
@@ -1825,20 +1825,20 @@ Route114_Text_SteveRegister:
 
 Route114_Text_SteveRematchIntro:
 	.string "Ufufufufufu…\n"
-	.string "Come on, battle my POKéMON…$"
+	.string "Come on, battle my POKéMON…{PAUSE 5}$"
 
 Route114_Text_SteveRematchDefeat:
 	.string "I feel so lucky getting to see your\n"
-	.string "POKéMON…$"
+	.string "POKéMON…{PAUSE 5}$"
 
 Route114_Text_StevePostRematch:
 	.string "Ufufufufufu…\p"
 	.string "When I see POKéMON battling, I get all\n"
-	.string "shivery and shaky…$"
+	.string "shivery and shaky…{PAUSE 5}$"
 
 Route114_Text_BernieIntro:
 	.string "Si vas a encender una fogata, ten agua\n"
-	.string "cerca por si acaso…$"
+	.string "cerca por si acaso…{PAUSE 5}$"
 
 Route114_Text_BernieDefeat:
 	.string "¿Ves? ¡Casi me quemo la mano!$"
@@ -1873,13 +1873,13 @@ Route114_Text_ClaudeIntro:
 
 Route114_Text_ClaudeDefeat:
 	.string "En una competición de pesca, te hubiera\n"
-	.string "dado mil vueltas…$"
+	.string "dado mil vueltas…{PAUSE 5}$"
 
 Route114_Text_ClaudePostBattle:
 	.string "Creo que voy a probar suerte en la\n"
 	.string "CASCADA METEORO, a ver si pican. Estoy\l"
 	.string "convencido de que hay peces muy gordos\l"
-	.string "por allí…$"
+	.string "por allí…{PAUSE 5}$"
 
 Route114_Text_NolanIntro:
 	.string "Me gusta pescar, ¡pero también me gusta\n"
@@ -1888,7 +1888,7 @@ Route114_Text_NolanIntro:
 
 Route114_Text_NolanDefeat:
 	.string "Me gusta luchar, pero eso no quiere\n"
-	.string "decir que se me dé bien en absoluto…$"
+	.string "decir que se me dé bien en absoluto…{PAUSE 5}$"
 
 Route114_Text_NolanPostBattle:
 	.string "¡La próxima vez verás! Es lo que siempre\n"
@@ -2055,7 +2055,7 @@ Route115_Text_CyndyRematchIntro:
 	.string "Okay, let's get this battle on!$"
 
 Route115_Text_CyndyRematchDefeat:
-	.string "I can battle but my POKéMON…$"
+	.string "I can battle but my POKéMON…{PAUSE 5}$"
 
 Route115_Text_CyndyPostRematch:
 	.string "Even when I lose, I still get some\n"
@@ -2079,13 +2079,13 @@ Route115_Text_KyraIntro:
 	.string "aguantas el ritmo!$"
 
 Route115_Text_KyraDefeat:
-	.string "Ah, que me ahogo…$"
+	.string "Ah, que me ahogo…{PAUSE 5}$"
 
 Route115_Text_KyraPostBattle:
 	.string "¡Intentar luchar y correr al mismo\n"
 	.string "tiempo ha sido un error! Será mejor que\l"
 	.string "haga unos estiramientos para\l"
-	.string "relajarme…$"
+	.string "relajarme…{PAUSE 5}$"
 
 Route115_Text_JaidenIntro:
 	.string "¡Toma ya! ¡Ataque ninja POKéMON en\n"
@@ -2124,14 +2124,14 @@ Route115_Text_AlixPostBattle:
 
 Route115_Text_MarleneIntro:
 	.string "Has interrumpido mi meditación… Y vas a\n"
-	.string "pagar por esa afrenta…$"
+	.string "pagar por esa afrenta…{PAUSE 5}$"
 
 Route115_Text_MarleneDefeat:
 	.string "¡Me has roto la concentración!$"
 
 Route115_Text_MarlenePostBattle:
 	.string "Quisiera meditar junto a mis POKéMON,\n"
-	.string "pero este lugar no se presta a ello…$"
+	.string "pero este lugar no se presta a ello…{PAUSE 5}$"
 
 Route116_Text_ClarkIntro:
 	.string "Si no acaban el tunel, no importa: en\n"
@@ -2139,7 +2139,7 @@ Route116_Text_ClarkIntro:
 	.string "escalaré.$"
 
 Route116_Text_ClarkDefeat:
-	.string "Uf… Uf… Me he quedado sin aliento…$"
+	.string "Uf… Uf… Me he quedado sin aliento…{PAUSE 5}$"
 
 Route116_Text_ClarkPostBattle:
 	.string "¡Que más da haya túnel o no! Los\n"
@@ -2174,7 +2174,7 @@ Route116_Text_JaniceIntro:
 	.string "Pokémon del alma!$"
 
 Route116_Text_JaniceDefeat:
-	.string "Eres un pelín mejor que yo…$"
+	.string "Eres un pelín mejor que yo…{PAUSE 5}$"
 
 Route116_Text_JanicePostBattle:
 	.string "Los Pokémon que son dulces y fuertes\n"
@@ -2187,12 +2187,12 @@ Route116_Text_JerryIntro:
 
 Route116_Text_JerryDefeat:
 	.string "He estado ganduleando en clase, por eso\n"
-	.string "he perdido…$"
+	.string "he perdido…{PAUSE 5}$"
 
 Route116_Text_JerryPostBattle:
 	.string "Voy a tener que repetir el curso en la\n"
 	.string "ESCUELA de ENTRENADORES. Si no, PETRA\l"
-	.string "va ha echar humo…$"
+	.string "va ha echar humo…{PAUSE 5}$"
 
 Route116_Text_JerryRegister1:
 	.string "I learned at the TRAINER'S SCHOOL\n"
@@ -2222,7 +2222,7 @@ Route116_Text_JerryPostRematch:
 
 Route116_Text_KarenIntro:
 	.string "Yo estudio en la escuela, en casa, en el\n"
-	.string "camino de la escuela a casa…$"
+	.string "camino de la escuela a casa…{PAUSE 5}$"
 
 Route116_Text_KarenDefeat:
 	.string "No me lo puedo creer… ¿He perdido?$"
@@ -2306,7 +2306,7 @@ Route117_Text_IsaacIntro:
 
 Route117_Text_IsaacDefeat:
 	.string "Los tuyos sí que han recibido un buen\n"
-	.string "entrenamiento…$"
+	.string "entrenamiento…{PAUSE 5}$"
 
 Route117_Text_IsaacPostBattle:
 	.string "No todo es cuestión de fuerza en lo que\n"
@@ -2324,7 +2324,7 @@ Route117_Text_IsaacRematchIntro:
 
 Route117_Text_IsaacRematchDefeat:
 	.string "You know how to raise them properly.\n"
-	.string "You might have DAY CARE skills…$"
+	.string "You might have DAY CARE skills…{PAUSE 5}$"
 
 Route117_Text_IsaacPostRematch:
 	.string "Your POKéMON are growing good!\n"
@@ -2366,7 +2366,7 @@ Route117_Text_DylanDefeat:
 Route117_Text_DylanPostBattle:
 	.string "Esta vez la he pifiado… Creo que voy a\n"
 	.string "quedar el último en la carrera por culpa\l"
-	.string "de este combate…$"
+	.string "de este combate…{PAUSE 5}$"
 
 Route117_Text_DylanRegister:
 	.string "POKéMON have to be strong, too?\n"
@@ -2391,7 +2391,7 @@ Route117_Text_MariaIntro:
 
 Route117_Text_MariaDefeat:
 	.string "Creo que tengo que practicar un poco\n"
-	.string "más…$"
+	.string "más…{PAUSE 5}$"
 
 Route117_Text_MariaPostBattle:
 	.string "Un entrenamiento sólo sirve si lo haces\n"
@@ -2423,7 +2423,7 @@ Route117_Text_DerekIntro:
 
 Route117_Text_DerekDefeat:
 	.string "Y sigo siendo un inepto total, como\n"
-	.string "siempre…$"
+	.string "siempre…{PAUSE 5}$"
 
 Route117_Text_DerekPostBattle:
 	.string "Algunos piensan que un bichomaníaco es\n"
@@ -2459,7 +2459,7 @@ Route117_Text_MegIntro:
 
 Route117_Text_MegDefeat:
 	.string "MEG: Oh, no!\n"
-	.string "I'm sorry, ANNA! I let you down…$"
+	.string "I'm sorry, ANNA! I let you down…{PAUSE 5}$"
 
 Route117_Text_MegPostBattle:
 	.string "MEG: I dragged ANNA down…\n"
@@ -2496,7 +2496,7 @@ Route117_Text_MegRematchDefeat:
 Route117_Text_MegPostRematch:
 	.string "MEG: I battled together with my\n"
 	.string "senior partner, but we lost…\p"
-	.string "That's so discouraging…$"
+	.string "That's so discouraging…{PAUSE 5}$"
 
 Route117_Text_MegRematchNotEnoughMons:
 	.string "MEG: Do you only have one POKéMON?\n"
@@ -2543,12 +2543,12 @@ Route118_Text_RoseIntro:
 
 Route118_Text_RoseDefeat:
 	.string "Huy, mira tú por dónde… Parece que he\n"
-	.string "perdido…$"
+	.string "perdido…{PAUSE 5}$"
 
 Route118_Text_RosePostBattle:
 	.string "Las flores, los Pokémon… Me gusta todo\n"
 	.string "lo que huele bien. Paso de cosas\l"
-	.string "apestosas…$"
+	.string "apestosas…{PAUSE 5}$"
 
 Route118_Text_RoseRegister:
 	.string "Sniff… That odor--it's a POKéNAV!\n"
@@ -2572,7 +2572,7 @@ Route118_Text_PerryIntro:
 
 Route118_Text_PerryDefeat:
 	.string "Argh…\n"
-	.string "He caído en picado…$"
+	.string "He caído en picado…{PAUSE 5}$"
 
 Route118_Text_PerryPostBattle:
 	.string "Tus Pokémon son muy buenos. Yo tengo\n"
@@ -2583,11 +2583,11 @@ Route118_Text_ChesterIntro:
 	.string "¡Alzad el vuelo!$"
 
 Route118_Text_ChesterDefeat:
-	.string "Se han largado volando…$"
+	.string "Se han largado volando…{PAUSE 5}$"
 
 Route118_Text_ChesterPostBattle:
 	.string "Si mis Pokémon fueran más fuertes,\n"
-	.string "podrían volar con más libertad…$"
+	.string "podrían volar con más libertad…{PAUSE 5}$"
 
 Route118_Text_BarnyIntro:
 	.string "Soy pescador, además de entrenador.\n"
@@ -2595,7 +2595,7 @@ Route118_Text_BarnyIntro:
 
 Route118_Text_BarnyDefeat:
 	.string "Creía que mi método de entrenamiento\n"
-	.string "era infalible…$"
+	.string "era infalible…{PAUSE 5}$"
 
 Route118_Text_BarnyPostBattle:
 	.string "Entrenar Pokémon no es fácil cuando\n"
@@ -2621,7 +2621,7 @@ Route118_Text_DaltonIntro:
 	.string "ritmo!$"
 
 Route118_Text_DaltonDefeat:
-	.string "La-lalala…$"
+	.string "La-lalala…{PAUSE 5}$"
 
 Route118_Text_DaltonPostBattle:
 	.string "Una guitarra eléctrica no tiene por qué\n"
@@ -2638,11 +2638,11 @@ Route118_Text_DaltonRematchIntro:
 	.string "Let us deliver it to your soul.$"
 
 Route118_Text_DaltonRematchDefeat:
-	.string "La-lalala…$"
+	.string "La-lalala…{PAUSE 5}$"
 
 Route118_Text_DaltonPostRematch:
 	.string "When I play, my emotions should reach\n"
-	.string "you through my electric guitar…$"
+	.string "you through my electric guitar…{PAUSE 5}$"
 
 Route118_Text_DeandreIntro:
 	.string "¡Adelante, Pokémon! ¡A la de 1, a la de 2\n"
@@ -2650,7 +2650,7 @@ Route118_Text_DeandreIntro:
 
 Route118_Text_DeandreDefeat:
 	.string "Venid, Pokémon… ¿Estáis bien? A la de 1,\n"
-	.string "a la de 2 y a la de 3…$"
+	.string "a la de 2 y a la de 3…{PAUSE 5}$"
 
 Route118_Text_DeandrePostBattle:
 	.string "¿No es maravilloso tener un equipo de\n"
@@ -2667,14 +2667,14 @@ Route119_Text_BrentDefeat:
 Route119_Text_BrentPostBattle:
 	.string "¿Que por qué mola imitar a la gente? Je,\n"
 	.string "je, je… Nunca lo entenderías,\l"
-	.string "mequetrefe…$"
+	.string "mequetrefe…{PAUSE 5}$"
 
 Route119_Text_DonaldIntro:
 	.string "¡Por fin nos conocemos! ¡Mis Pokémon de\n"
 	.string "tipo bicho están encantados!$"
 
 Route119_Text_DonaldDefeat:
-	.string "Ojalá no te hubiera conocido nunca…$"
+	.string "Ojalá no te hubiera conocido nunca…{PAUSE 5}$"
 
 Route119_Text_DonaldPostBattle:
 	.string "Quiero seguir imitando a gente… ¿Te\n"
@@ -2685,11 +2685,11 @@ Route119_Text_TaylorIntro:
 	.string "retrocedes, nosotros también.$"
 
 Route119_Text_TaylorDefeat:
-	.string "Pero, si tú ganas, nosotros perdemos…$"
+	.string "Pero, si tú ganas, nosotros perdemos…{PAUSE 5}$"
 
 Route119_Text_TaylorPostBattle:
 	.string "No puedo imitarte ganando un combate,\n"
-	.string "es imposible. Qué frustrante es esto…$"
+	.string "es imposible. Qué frustrante es esto…{PAUSE 5}$"
 
 Route119_Text_DougIntro:
 	.string "¡Sí, por fin me has encontrado! ¿O más\n"
@@ -2783,7 +2783,7 @@ Route119_Text_CatherineRematchIntro:
 	.string "going?$"
 
 Route119_Text_CatherineRematchDefeat:
-	.string "I'm still missing something…$"
+	.string "I'm still missing something…{PAUSE 5}$"
 
 Route119_Text_CatherinePostRematch:
 	.string "In the same way that you, as a TRAINER,\n"
@@ -2796,7 +2796,7 @@ Route119_Text_HughIntro:
 	.string "hermoso que volar!$"
 
 Route119_Text_HughDefeat:
-	.string "He caído en picado…$"
+	.string "He caído en picado…{PAUSE 5}$"
 
 Route119_Text_HughPostBattle:
 	.string "¡Gracias a mis Pokémon pájaro, mi sueño\n"
@@ -2807,11 +2807,11 @@ Route119_Text_PhilIntro:
 	.string "de mi Pokémon pájaro!$"
 
 Route119_Text_PhilDefeat:
-	.string "Todavía nos falta un hervor…$"
+	.string "Todavía nos falta un hervor…{PAUSE 5}$"
 
 Route119_Text_PhilPostBattle:
 	.string "Desde que era pequeñito, siempre he\n"
-	.string "querido tener Pokémon pájaro…$"
+	.string "querido tener Pokémon pájaro…{PAUSE 5}$"
 
 Route119_Text_YasuIntro:
 	.string "Acechar entre las sombras, vivir en la\n"
@@ -2824,7 +2824,7 @@ Route119_Text_YasuDefeat:
 Route119_Text_YasuPostBattle:
 	.string "Aquellos que pierden un combate han de\n"
 	.string "volver silenciosos a las sombras… El\l"
-	.string "destino lo quiere así…$"
+	.string "destino lo quiere así…{PAUSE 5}$"
 
 Route119_Text_TakashiIntro:
 	.string "¡Si no estás en guardia, te espera una\n"
@@ -2834,7 +2834,7 @@ Route119_Text_TakashiDefeat:
 	.string "¡Me has dejado patidifuso!$"
 
 Route119_Text_TakashiPostBattle:
-	.string "Mi ataque sorpresa ha sido un fiasco…$"
+	.string "Mi ataque sorpresa ha sido un fiasco…{PAUSE 5}$"
 
 Route119_Text_HideoIntro:
 	.string "El mejor lugar para esconder un árbol\n"
@@ -2842,7 +2842,7 @@ Route119_Text_HideoIntro:
 
 Route119_Text_HideoDefeat:
 	.string "Me inclino ante tu superioridad en\n"
-	.string "combate…$"
+	.string "combate…{PAUSE 5}$"
 
 Route119_Text_HideoPostBattle:
 	.string "El mejor lugar para esconder un árbol\n"
@@ -2922,7 +2922,7 @@ Route120_Text_RobertIntro:
 .string "Mi Pokémon es fuerte. ¿Y los tuyos?$"
 
 Route120_Text_RobertDefeat:
-	.string "Tus Pokémon son más fuertes…$"
+	.string "Tus Pokémon son más fuertes…{PAUSE 5}$"
 
 Route120_Text_RobertPostBattle:
 	.string "Se puede confiar en los Pokémon que\n"
@@ -2945,7 +2945,7 @@ Route120_Text_RobertPostRematch:
 
 Route120_Text_LorenzoIntro:
 	.string "Voy a ver si tus Pokémon están\n"
-	.string "preparados para vivir al aire libre…$"
+	.string "preparados para vivir al aire libre…{PAUSE 5}$"
 
 Route120_Text_LorenzoDefeat:
 	.string "¡Con unos Pokémon tan fuertes, no\n"
@@ -2962,7 +2962,7 @@ Route120_Text_JennaIntro:
 	.string "complique.$"
 
 Route120_Text_JennaDefeat:
-	.string "Yo estaba en forma, pero…$"
+	.string "Yo estaba en forma, pero…{PAUSE 5}$"
 
 Route120_Text_JennaPostBattle:
 	.string "Salgo a correr cada día para estar en\n"
@@ -2974,12 +2974,12 @@ Route120_Text_JeffreyIntro:
 	.string "¿Quieres luchar?$"
 
 Route120_Text_JeffreyDefeat:
-	.string "Perdí…$"
+	.string "Perdí…{PAUSE 5}$"
 
 Route120_Text_JeffreyPostBattle:
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
-	.string "Entrenaré más…$"
+	.string "Entrenaré más…{PAUSE 5}$"
 
 Route120_Text_JeffreyRegister:
 	.string "… … … … … …\n"
@@ -2993,13 +2993,13 @@ Route120_Text_JeffreyRematchIntro:
 
 Route120_Text_JeffreyRematchDefeat:
 	.string "… … … … … …\n"
-	.string "I lost again…$"
+	.string "I lost again…{PAUSE 5}$"
 
 Route120_Text_JeffreyPostRematch:
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
 	.string "I'll try harder…\l"
-	.string "For my precious BUG POKéMON…$"
+	.string "For my precious BUG POKéMON…{PAUSE 5}$"
 
 Route120_Text_JenniferIntro:
 	.string "Los Pokémon tienen muchas habilidades\n"
@@ -3022,7 +3022,7 @@ Route120_Text_ChipIntro:
 	.string "leyendas?$"
 
 Route120_Text_ChipDefeat:
-	.string "Qué revés tan desafortunado…$"
+	.string "Qué revés tan desafortunado…{PAUSE 5}$"
 
 Route120_Text_ChipPostBattle:
 	.string "Esa roca gigantesca… quizás contenga\n"
@@ -3035,7 +3035,7 @@ Route120_Text_ClarissaIntro:
 
 Route120_Text_ClarissaDefeat:
 	.string "Un parasol no puede parar los ataques\n"
-	.string "Pokémon…$"
+	.string "Pokémon…{PAUSE 5}$"
 
 Route120_Text_ClarissaPostBattle:
 	.string "No creo que este sol tan fuerte sea\n"
@@ -3060,11 +3060,11 @@ Route120_Text_KeigoIntro:
 
 Route120_Text_KeigoDefeat:
 	.string "Me temo que he estado soñando\n"
-	.string "despierto…$"
+	.string "despierto…{PAUSE 5}$"
 
 Route120_Text_KeigoPostBattle:
 	.string "Quizás debería ir a estudiar bajo las\n"
-	.string "órdenes de un maestro ninja…$"
+	.string "órdenes de un maestro ninja…{PAUSE 5}$"
 
 Route120_Text_RileyIntro:
 	.string "Los ninjas nos ocultamos usando una\n"
@@ -3121,7 +3121,7 @@ Route121_Text_WalterIntro:
 	.string "posibilidades.$"
 
 Route121_Text_WalterDefeat:
-	.string "Has luchado muy bien…$"
+	.string "Has luchado muy bien…{PAUSE 5}$"
 
 Route121_Text_WalterPostBattle:
 	.string "Tus Pokémon realizan proezas\n"
@@ -3147,10 +3147,10 @@ Route121_Text_WalterPostRematch:
 
 Route121_Text_TammyIntro:
 	.string "En este mundo hay poderes que\n"
-	.string "sobrepasan nuestro entendimiento…$"
+	.string "sobrepasan nuestro entendimiento…{PAUSE 5}$"
 
 Route121_Text_TammyDefeat:
-	.string "Me han derrotado…$"
+	.string "Me han derrotado…{PAUSE 5}$"
 
 Route121_Text_TammyPostBattle:
 	.string "El Monte Pírico… Allí se siente la\n"
@@ -3163,12 +3163,12 @@ Route121_Text_KateIntro:
 
 Route121_Text_KateDefeat:
 	.string "KATE: I blew it in front of my junior\n"
-	.string "student partner…$"
+	.string "student partner…{PAUSE 5}$"
 
 Route121_Text_KatePostBattle:
 	.string "KATE: When someone's relying on me,\n"
 	.string "I get this urge to look cool in front\l"
-	.string "of them…$"
+	.string "of them…{PAUSE 5}$"
 
 Route121_Text_KateNotEnoughMons:
 	.string "KATE: If you've only got one POKéMON,\n"
@@ -3247,7 +3247,7 @@ Route121_Text_CristinRematchDefeat:
 Route121_Text_CristinPostRematch:
 	.string "An opponent I just can't beat…\n"
 	.string "Snivel…\l"
-	.string "I can't believe this is happening…$"
+	.string "I can't believe this is happening…{PAUSE 5}$"
 
 Route121_Text_CaleIntro:
 	.string "¿No ves que voy cargado como una mula?\n"
@@ -3307,7 +3307,7 @@ Route123_Text_WendyDefeat:
 
 Route123_Text_WendyPostBattle:
 	.string "Tu fuerza es impresionante… Me has\n"
-	.string "vencido nada menos que a mí…$"
+	.string "vencido nada menos que a mí…{PAUSE 5}$"
 
 Route123_Text_BraxtonIntro:
 	.string "Parece que tienes una gran colección de\n"
@@ -3327,7 +3327,7 @@ Route123_Text_VioletIntro:
 
 Route123_Text_VioletDefeat:
 	.string "Puaj…\n"
-	.string "Huelo el amargo aroma de la derrota…$"
+	.string "Huelo el amargo aroma de la derrota…{PAUSE 5}$"
 
 Route123_Text_VioletPostBattle:
 	.string "El jardín del bayólogo está repleto de\n"
@@ -3340,12 +3340,12 @@ Route123_Text_CameronIntro:
 	.string "soy fuerte!$"
 
 Route123_Text_CameronDefeat:
-	.string "Qué tristeza más grande…$"
+	.string "Qué tristeza más grande…{PAUSE 5}$"
 
 Route123_Text_CameronPostBattle:
 	.string "Los poderes psíquicos dependen mucho\n"
 	.string "de la fuerza de voluntad. Nunca creí\l"
-	.string "que perdería…$"
+	.string "que perdería…{PAUSE 5}$"
 
 Route123_Text_CameronRegister:
 	.string "I sense it!\n"
@@ -3358,11 +3358,11 @@ Route123_Text_CameronRematchIntro:
 	.string "lose anymore. That makes me strong!$"
 
 Route123_Text_CameronRematchDefeat:
-	.string "I feel sad…$"
+	.string "I feel sad…{PAUSE 5}$"
 
 Route123_Text_CameronPostRematch:
 	.string "I should train at MT. PYRE…\n"
-	.string "I'll never beat you this way…$"
+	.string "I'll never beat you this way…{PAUSE 5}$"
 
 Route123_Text_JackiIntro:
 	.string "¿Has despertado los poderes psíquicos\n"
@@ -3426,13 +3426,13 @@ Route123_Text_KindraIntro:
 	.string "partido… ¿Los tuyos también duermen?$"
 
 Route123_Text_KindraDefeat:
-.string "Pues no: están la mar de despiertos…$"
+.string "Pues no: están la mar de despiertos…{PAUSE 5}$"
 
 Route123_Text_KindraPostBattle:
 	.string "El Monte Pírico… Donde duermen los\n"
 	.string "espíritus de los Pokémon que han\l"
 	.string "partido… Debe de contener un poder que\l"
-	.string "sosiega el alma…$"
+	.string "sosiega el alma…{PAUSE 5}$"
 
 Route123_Text_FernandoIntro:
 	.string "¡Mi canto de guerra te va a\n"
@@ -3480,12 +3480,12 @@ Route123_Text_JazmynIntro:
 	.string "ganaré en confianza.$"
 
 Route123_Text_JazmynDefeat:
-		.string "Adiós a la confianza en mí misma…$"
+		.string "Adiós a la confianza en mí misma…{PAUSE 5}$"
 
 Route123_Text_JazmynPostBattle:
 	.string "Todos dicen que no se puede juzgar a\n"
 	.string "nadie por su aspecto. Pero a veces el\l"
-	.string "aspecto lo dice todo…$"
+	.string "aspecto lo dice todo…{PAUSE 5}$"
 
 Route123_Text_FrederickIntro:
 	.string "¡Hola, joven! \n"
@@ -3566,20 +3566,20 @@ Route124_Text_RolandIntro:
 
 Route124_Text_RolandDefeat:
 	.string "¡Oh!\n"
-	.string "No puedo…$"
+	.string "No puedo…{PAUSE 5}$"
 
 Route124_Text_RolandPostBattle:
 	.string "Me están entrando escalofríos… he\n"
 	.string "pasado mucho tiempo en el agua…\l"
 	.string "desearía poder surfear en un Pokémon\l"
-	.string "como tú…$"
+	.string "como tú…{PAUSE 5}$"
 
 Route124_Text_JennyIntro:
 	.string "Si te quedas flotando en el mar así, los\n"
 	.string "POKéMON vienen a jugar contigo.$"
 
 Route124_Text_JennyDefeat:
-	.string "Oh… Perdida en el mar…$"
+	.string "Oh… Perdida en el mar…{PAUSE 5}$"
 
 Route124_Text_JennyPostBattle:
 	.string "Nadando, nadando, me he dado cuenta de\n"
@@ -3598,7 +3598,7 @@ Route124_Text_JennyRematchIntro:
 
 Route124_Text_JennyRematchDefeat:
 	.string "That's strange…\n"
-	.string "I lost again…$"
+	.string "I lost again…{PAUSE 5}$"
 
 Route124_Text_JennyPostRematch:
 	.string "This has nothing to do with anything,\n"
@@ -3621,12 +3621,12 @@ Route124_Text_ChadIntro:
 	.string "que nadie me vea. ¡Soy un as del buceo!$"
 
 Route124_Text_ChadDefeat:
-	.string "Glu, glu, glu… Me hundo…$"
+	.string "Glu, glu, glu… Me hundo…{PAUSE 5}$"
 
 Route124_Text_ChadPostBattle:
 	.string "Sé de buena tinta que hay un lugar\n"
 	.string "donde hacer buceo por aquí. Me están\l"
-	.string "entrando ganas de ir allí…$"
+	.string "entrando ganas de ir allí…{PAUSE 5}$"
 
 Route124_Text_LilaIntro:
 	.string "LILA: Sigh…\p"
@@ -3642,7 +3642,7 @@ Route124_Text_LilaDefeat:
 Route124_Text_LilaPostBattle:
 	.string "LILA: Sigh…\p"
 	.string "If only it wasn't my little brother\n"
-	.string "next to me, but a nice boyfriend…$"
+	.string "next to me, but a nice boyfriend…{PAUSE 5}$"
 
 Route124_Text_LilaNotEnoughMons:
 	.string "LILA: You're planning to battle us?\n"
@@ -3654,7 +3654,7 @@ Route124_Text_RoyIntro:
 
 Route124_Text_RoyDefeat:
 	.string "ROY: Uh-oh…\n"
-	.string "My big sister will chew me out…$"
+	.string "My big sister will chew me out…{PAUSE 5}$"
 
 Route124_Text_RoyPostBattle:
 	.string "ROY: My big sister is really scary\n"
@@ -3685,7 +3685,7 @@ Route124_Text_LilaRematchDefeat:
 Route124_Text_LilaPostRematch:
 	.string "LILA: Sigh…\p"
 	.string "If I had a nice boyfriend, we'd beat\n"
-	.string "anyone with lovely combinations…$"
+	.string "anyone with lovely combinations…{PAUSE 5}$"
 
 Route124_Text_LilaRematchNotEnoughMons:
 	.string "LILA: You're planning to battle us?\n"
@@ -3703,7 +3703,7 @@ Route124_Text_RoyPostRematch:
 	.string "ROY: My big sister is really scary\n"
 	.string "when she gets angry.\p"
 	.string "She's going to make me train really\n"
-	.string "hard with POKéMON later…$"
+	.string "hard with POKéMON later…{PAUSE 5}$"
 
 Route124_Text_RoyRematchNotEnoughMons:
 	.string "ROY: Did you want to battle us?\n"
@@ -3717,7 +3717,7 @@ Route124_Text_DeclanIntro:
 
 Route124_Text_DeclanDefeat:
 	.string "Qué depre tengo… Más vasta que el\n"
-	.string "vasto mar…$"
+	.string "vasto mar…{PAUSE 5}$"
 
 Route124_Text_DeclanPostBattle:
 	.string "Voy a buscar a alguna nadadora que\n"
@@ -3750,7 +3750,7 @@ Route125_Text_StanIntro:
 	.string "tengo!$"
 
 Route125_Text_StanDefeat:
-	.string "No he luchado con ganas…$"
+	.string "No he luchado con ganas…{PAUSE 5}$"
 
 Route125_Text_StanPostBattle:
 	.string "Me he dejado engatusar por el encanto\n"
@@ -3772,7 +3772,7 @@ Route125_Text_SharonIntro:
 	.string "Pokémon tipo AGUA?$"
 
 Route125_Text_SharonDefeat:
-	.string "Perdí…$"
+	.string "Perdí…{PAUSE 5}$"
 
 Route125_Text_SharonPostBattle:
 	.string "Tu poder… No vi nada igual.\n"
@@ -3897,11 +3897,11 @@ Route126_Text_NikkiIntro:
 
 Route126_Text_NikkiDefeat:
 	.string "Me has dejado más chafada que un\n"
-	.string "lenguado… Glu, glu, glu…$"
+	.string "lenguado… Glu, glu, glu…{PAUSE 5}$"
 
 Route126_Text_NikkiPostBattle:
 	.string "Vaya paliza me has dado… Quisiera que\n"
-	.string "me tragara el mar…$"
+	.string "me tragara el mar…{PAUSE 5}$"
 
 Route126_Text_BrendaIntro:
 	.string "¡Hola, mequetrefe! ¿Luchas contra mí?$"
@@ -3911,7 +3911,7 @@ Route126_Text_BrendaDefeat:
 
 Route126_Text_BrendaPostBattle:
 	.string "Me encanta jugar con los Pokémon\n"
-	.string "saltando entre las olas…$"
+	.string "saltando entre las olas…{PAUSE 5}$"
 
 Route126_Text_PabloIntro:
 	.string "¡Admira mi escultural cuerpo! ¡Tengo más\n"
@@ -3979,14 +3979,14 @@ Route126_Text_SiennaPostBattle:
 
 Route127_Text_CamdenIntro:
 	.string "Se te ve en la cara. Tú quieres\n"
-	.string "desafiarme…$"
+	.string "desafiarme…{PAUSE 5}$"
 
 Route127_Text_CamdenDefeat:
-	.string "Uy, ay, uy, ay, uy…$"
+	.string "Uy, ay, uy, ay, uy…{PAUSE 5}$"
 
 Route127_Text_CamdenPostBattle:
 	.string "Cuando un combate ha sido bueno, me\n"
-	.string "quedo la mar de a gusto…$"
+	.string "quedo la mar de a gusto…{PAUSE 5}$"
 
 Route127_Text_DonnyIntro:
 	.string "¿No te pasa a ti que te da mogollón de\n"
@@ -4002,11 +4002,11 @@ Route127_Text_DonnyPostBattle:
 
 Route127_Text_JonahIntro:
 	.string "Pescar me da una paz y una serenidad\n"
-	.string "increíbles… Mira, vas a ver…$"
+	.string "increíbles… Mira, vas a ver…{PAUSE 5}$"
 
 Route127_Text_JonahDefeat:
 	.string "Vale, he perdido, pero sigo tan 'zen'\n"
-	.string "como siempre…$"
+	.string "como siempre…{PAUSE 5}$"
 
 Route127_Text_JonahPostBattle:
 	.string "Me importa un pepino si pesco algo o no,\n"
@@ -4021,7 +4021,7 @@ Route127_Text_HenryDefeat:
 
 Route127_Text_HenryPostBattle:
 	.string "Tus Pokémon parecen bastante fuertes.\n"
-	.string "Me vendría de vicio pescar unos así…$"
+	.string "Me vendría de vicio pescar unos así…{PAUSE 5}$"
 
 Route127_Text_RogerIntro:
 	.string "¡Eh, tú! ¡Éste es un reto entre un fan de\n"
@@ -4091,11 +4091,11 @@ Route127_Text_AthenaPostBattle:
 
 Route128_Text_IsaiahIntro:
 	.string "Ciudad Colosalia todavía está muy\n"
-	.string "lejos…$"
+	.string "lejos…{PAUSE 5}$"
 
 Route128_Text_IsaiahDefeat:
 	.string "Mi primera victoria también parece\n"
-	.string "estar muy lejos…$"
+	.string "estar muy lejos…{PAUSE 5}$"
 
 Route128_Text_IsaiahPostBattle:
 	.string "Creo que no he ganado nunca ni de\n"
@@ -4111,11 +4111,11 @@ Route128_Text_IsaiahRematchIntro:
 	.string "swimming to EVER GRANDE CITY.$"
 
 Route128_Text_IsaiahRematchDefeat:
-	.string "I've yet to taste my first victory…$"
+	.string "I've yet to taste my first victory…{PAUSE 5}$"
 
 Route128_Text_IsaiahPostRematch:
 	.string "I'll eventually reach EVER GRANDE CITY\n"
-	.string "where I can eventually win…$"
+	.string "where I can eventually win…{PAUSE 5}$"
 
 Route128_Text_KatelynIntro:
 	.string "En un triatlón tienes que nadar, montar\n"
@@ -4124,11 +4124,11 @@ Route128_Text_KatelynIntro:
 	.string "modalidades.$"
 
 Route128_Text_KatelynDefeat:
-	.string "Un combate Pokémon también es feroz…$"
+	.string "Un combate Pokémon también es feroz…{PAUSE 5}$"
 
 Route128_Text_KatelynPostBattle:
 	.string "Ahora me toca montar en bici, pero…\n"
-	.string "estoy por tirar la toalla…$"
+	.string "estoy por tirar la toalla…{PAUSE 5}$"
 
 Route128_Text_KatelynRegister:
 	.string "Well, I may as well make the best\n"
@@ -4141,7 +4141,7 @@ Route128_Text_KatelynRematchIntro:
 
 Route128_Text_KatelynRematchDefeat:
 	.string "A POKéMON battle really is harsh\n"
-	.string "and unforgiving…$"
+	.string "and unforgiving…{PAUSE 5}$"
 
 Route128_Text_KatelynPostRematch:
 	.string "You should give serious thought to\n"
@@ -4169,12 +4169,12 @@ Route128_Text_RubenDefeat:
 
 Route128_Text_RubenPostBattle:
 	.string "Probablemente no hay entrenador que\n"
-	.string "pueda compararse contigo…$"
+	.string "pueda compararse contigo…{PAUSE 5}$"
 
 Route128_Text_WayneIntro:
 	.string "Quiero visitar Colosalia, así que he\n"
 	.string "atrapado un Pokémon que conoce el\l"
-	.string "movimiento cascada…$"
+	.string "movimiento cascada…{PAUSE 5}$"
 
 Route128_Text_WayneDefeat:
 	.string "¡Me la he pegado buena!$"
@@ -4210,7 +4210,7 @@ Route128_Text_CarleePostBattle:
 
 Route129_Text_ChaseIntro:
 	.string "Éste es mi primer triatlón. Huy, qué\n"
-	.string "nervioso estoy…$"
+	.string "nervioso estoy…{PAUSE 5}$"
 
 Route129_Text_ChaseDefeat:
 	.string "¡Buaaaaaa!\n"
@@ -4218,11 +4218,11 @@ Route129_Text_ChaseDefeat:
 
 Route129_Text_ChasePostBattle:
 	.string "Estoy tan, tan nervioso que no voy a\n"
-	.string "poder dar lo mejor de mí…$"
+	.string "poder dar lo mejor de mí…{PAUSE 5}$"
 
 Route129_Text_AllisonIntro:
 	.string "Estoy en medio de un triatlón, pero me\n"
-	.string "puedo parar a luchar un rato…$"
+	.string "puedo parar a luchar un rato…{PAUSE 5}$"
 
 Route129_Text_AllisonDefeat:
 	.string "¡Pensé que sería coser y cantar!$"
@@ -4247,15 +4247,15 @@ Route129_Text_ReedPostBattle:
 
 Route129_Text_TishaIntro:
 	.string "¿A qué viene tanta prisa? Las cosas se\n"
-	.string "hacen despacito y con calma…$"
+	.string "hacen despacito y con calma…{PAUSE 5}$"
 
 Route129_Text_TishaDefeat:
 	.string "Vaya… Yo que estaba aquí tan a\n"
-	.string "gustito…$"
+	.string "gustito…{PAUSE 5}$"
 
 Route129_Text_TishaPostBattle:
 	.string "¿No te fastidia hacer las cosas deprisa\n"
-	.string "y mal? Por eso me tomo mi tiempo…$"
+	.string "y mal? Por eso me tomo mi tiempo…{PAUSE 5}$"
 
 Route129_Text_ClarenceIntro:
 	.string "Hacer SURF no es tan fácil como parece,\n"
@@ -4274,7 +4274,7 @@ Route130_Text_RodneyIntro:
 	.string "para celebrarlo!$"
 
 Route130_Text_RodneyDefeat:
-	.string "Uf… Eres fuerte, ya lo creo…$"
+	.string "Uf… Eres fuerte, ya lo creo…{PAUSE 5}$"
 
 Route130_Text_RodneyPostBattle:
 	.string "Tus ojos tienen ese brillo propio de los\n"
@@ -4284,11 +4284,11 @@ Route130_Text_RodneyPostBattle:
 Route130_Text_KatieIntro:
 	.string "Mi corazón se regocija cuando floto\n"
 	.string "entre las suaves olas del ancho y\l"
-	.string "profundo mar…$"
+	.string "profundo mar…{PAUSE 5}$"
 
 Route130_Text_KatieDefeat:
 	.string "La amplitud de mi derrota se pierde en\n"
-	.string "el horizonte…$"
+	.string "el horizonte…{PAUSE 5}$"
 
 Route130_Text_KatiePostBattle:
 	.string "Todos los niños del mundo sueñan con\n"
@@ -4304,15 +4304,15 @@ Route130_Text_SantiagoDefeat:
 
 Route130_Text_SantiagoPostBattle:
 	.string "Nadar, luchar; luchar, nadar… No sé qué\n"
-	.string "me gusta más…$"
+	.string "me gusta más…{PAUSE 5}$"
 
 Route131_Text_RichardIntro:
 	.string "El mar está plagado de Pokémon. Así no\n"
-	.string "hay quien nade, uf…$"
+	.string "hay quien nade, uf…{PAUSE 5}$"
 
 Route131_Text_RichardDefeat:
 	.string "Los Pokémon que entrenas tú mismo\n"
-	.string "siempre son los más fuertes…$"
+	.string "siempre son los más fuertes…{PAUSE 5}$"
 
 Route131_Text_RichardPostBattle:
 	.string "Uf… Uf… No puedo ni con mi alma… La ida\n"
@@ -4364,7 +4364,7 @@ Route131_Text_ReliIntro:
 
 Route131_Text_ReliDefeat:
 	.string "RELI: We couldn't win even though we\n"
-	.string "worked together…$"
+	.string "worked together…{PAUSE 5}$"
 
 Route131_Text_ReliPostBattle:
 	.string "RELI: The people of PACIFIDLOG are\n"
@@ -4381,7 +4381,7 @@ Route131_Text_IanIntro:
 
 Route131_Text_IanDefeat:
 	.string "IAN: I did my best with my sis,\n"
-	.string "but we still couldn't win…$"
+	.string "but we still couldn't win…{PAUSE 5}$"
 
 Route131_Text_IanPostBattle:
 	.string "IAN: You know how PACIFIDLOG is\n"
@@ -4426,7 +4426,7 @@ Route132_Text_GilbertIntro:
 	.string "no pillo ni uno.$"
 
 Route132_Text_GilbertDefeat:
-	.string "Ojalá fuera más fuerte que esto…$"
+	.string "Ojalá fuera más fuerte que esto…{PAUSE 5}$"
 
 Route132_Text_GilbertPostBattle:
 	.string "Los entrenadores viajan por valles y\n"
@@ -4441,7 +4441,7 @@ Route132_Text_DanaDefeat:
 
 Route132_Text_DanaPostBattle:
 	.string "Si se me llevara la corriente, creo que\n"
-	.string "pasaría un mal rato…$"
+	.string "pasaría un mal rato…{PAUSE 5}$"
 
 Route132_Text_RonaldIntro:
 	.string "Victoria o derrota… ¡Si no lo intentas,\n"
@@ -4453,7 +4453,7 @@ Route132_Text_RonaldDefeat:
 Route132_Text_RonaldPostBattle:
 	.string "Nunca lucho si tengo claro que voy a\n"
 	.string "ganar. Lo que me gusta es la emoción de\l"
-	.string "la incertidumbre…$"
+	.string "la incertidumbre…{PAUSE 5}$"
 
 Route132_Text_KiyoIntro:
 	.string "Estoy con mi Pokémon las 24 horas del\n"
@@ -4461,7 +4461,7 @@ Route132_Text_KiyoIntro:
 
 Route132_Text_KiyoDefeat:
 	.string "¿He perdido…? Vaya ridículo que he\n"
-	.string "hecho…$"
+	.string "hecho…{PAUSE 5}$"
 
 Route132_Text_KiyoPostBattle:
 	.string "Brrr… Tú eres un fan de los Pokémon,\n"
@@ -4495,7 +4495,7 @@ Route132_Text_JonathanPostBattle:
 Route132_Text_PaxtonIntro:
 	.string "¿Adónde se habrá ido mi mujercita?\n"
 	.string "Siempre luchamos juntos. Me pregunto si\l"
-	.string "podré ganar yo solo…$"
+	.string "podré ganar yo solo…{PAUSE 5}$"
 
 Route132_Text_PaxtonDefeat:
 	.string "Ya veo que yo solo no llego a ninguna\n"
@@ -4527,14 +4527,14 @@ Route133_Text_FranklinDefeat:
 Route133_Text_FranklinPostBattle:
 	.string "Sólo a mí me tenía que tocar alguien\n"
 	.string "tan fuerte como tú en un combate…\l"
-	.string "Estoy gafado…$"
+	.string "Estoy gafado…{PAUSE 5}$"
 
 Route133_Text_DebraIntro:
 	.string "Llevo una vida de trotamundos… Al final\n"
-	.string "he acabado en este lugar…$"
+	.string "he acabado en este lugar…{PAUSE 5}$"
 
 Route133_Text_DebraDefeat:
-	.string "Vaya, me has derrotado…$"
+	.string "Vaya, me has derrotado…{PAUSE 5}$"
 
 Route133_Text_DebraPostBattle:
 	.string "Vagando, siempre vagando… ¡Creo que\n"
@@ -4548,7 +4548,7 @@ Route133_Text_LindaDefeat:
 
 Route133_Text_LindaPostBattle:
 	.string "Alguien tan joven y tan fuerte… Me\n"
-	.string "entra la depre…$"
+	.string "entra la depre…{PAUSE 5}$"
 
 Route133_Text_WarrenIntro:
 	.string "Yo nado como todo quisqui, pero soy el\n"
@@ -4605,11 +4605,11 @@ Route134_Text_JackDefeat:
 
 Route134_Text_JackPostBattle:
 	.string "Los Pokémon disfrutan en los rápidos,\n"
-	.string "pero las corrientes son peligrosas…$"
+	.string "pero las corrientes son peligrosas…{PAUSE 5}$"
 
 Route134_Text_LaurelIntro:
 	.string "Mis Luvdisc buscan un rival divertido.\n"
-	.string "¿Serás tú?…$"
+	.string "¿Serás tú?…{PAUSE 5}$"
 
 Route134_Text_LaurelDefeat:
 	.string "¡Oy, oy, oy!$"
@@ -4623,11 +4623,11 @@ Route134_Text_AlexIntro:
 	.string "¡Hay que ponerse a luchar!$"
 
 Route134_Text_AlexDefeat:
-	.string "Me han dejado para el arrastre…$"
+	.string "Me han dejado para el arrastre…{PAUSE 5}$"
 
 Route134_Text_AlexPostBattle:
 	.string "Mi Pokémon pájaro se cansa mucho cada\n"
-	.string "vez que vuela una gran distancia…$"
+	.string "vez que vuela una gran distancia…{PAUSE 5}$"
 
 Route134_Text_HitoshiIntro:
 	.string "Tú entrenas Pokémon. No digas nada.\n"
@@ -4635,11 +4635,11 @@ Route134_Text_HitoshiIntro:
 
 Route134_Text_HitoshiDefeat:
 	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 Route134_Text_HitoshiPostBattle:
 	.string "Te he desafiado yo y sin embargo he\n"
-	.string "perdido. Una vergüenza…$"
+	.string "perdido. Una vergüenza…{PAUSE 5}$"
 
 Route134_Text_AaronIntro:
 	.string "La fuerte marea de esta zona te ayuda a\n"
@@ -5015,7 +5015,7 @@ LostCaveLadderRoom1_Text_HikerPostBattle:
 	.string "pero siempre acabo en el mismo\l"
 	.string "lugar, quizás el número de rocas\l"
 	.string "que hay en cada sala quiera decir\l"
-	.string "algo…$"
+	.string "algo…{PAUSE 5}$"
 
 
 LostCaveB1FPath3_Text_MediumIntro:
@@ -5076,7 +5076,7 @@ Route6_Text_Chica1Intro:
 
 
 Route6_Text_Chica1Defeated:
-	.string "No me salieron las cosas…$"
+	.string "No me salieron las cosas…{PAUSE 5}$"
 
 
 Route6_Text_Chica1PostBattle:
@@ -5110,7 +5110,7 @@ Route6_Text_Chica2Defeated:
 
 Route6_Text_Chica2PostBattle:
 	.string "Suspiro…\n"
-	.string "Suspiro…$"
+	.string "Suspiro…{PAUSE 5}$"
 
 
 Route6_Text_Joven2Intro:
@@ -5124,7 +5124,7 @@ Route6_Text_Joven2Defeated:
 
 Route6_Text_Joven2PostBattle:
 	.string "Suspiro…\n"
-	.string "Suspiro…$"
+	.string "Suspiro…{PAUSE 5}$"
 
 
 Route6_Text_Cazabichos2Intro:
@@ -5153,7 +5153,7 @@ MtMoon1F_Text_HikerIntro:
 
 
 MtMoon1F_Text_HikerDefeated:
-	.string "Un ROCKET dándome lecciones…$"
+	.string "Un ROCKET dándome lecciones…{PAUSE 5}$"
 
 
 MtMoon1F_Text_HikerPostBattle:
@@ -5222,7 +5222,7 @@ MtMoon1F_Text_Chica2PostBattle:
 	.string "Algunos ROCKET abusan de los\n"
 	.string "entrenadores derrotados robándoles\l"
 	.string "todos sus POKÉMON, al menos no\l"
-	.string "todos sois iguales…$"
+	.string "todos sois iguales…{PAUSE 5}$"
 
 
 MtMoon1F_Text_CientificoIntro:
@@ -5249,7 +5249,7 @@ MtMoon1F_Text_Cazabichos2Intro:
 
 
 MtMoon1F_Text_Cazabichos2Defeated:
-	.string "Solo tenía curiosidad…$"
+	.string "Solo tenía curiosidad…{PAUSE 5}$"
 
 
 MtMoon1F_Text_Cazabichos2PostBattle:
@@ -5429,7 +5429,7 @@ Route25_Text_ChicaIntro:
 
 
 Route25_Text_ChicaDefeated:
-    .string "No estaba en forma…$"
+    .string "No estaba en forma…{PAUSE 5}$"
 
 
 
@@ -5461,12 +5461,12 @@ Route25_Text_Chico3Intro:
 
 
 Route25_Text_Chico3Defeated:
-	.string "Aww, maldito…$"
+	.string "Aww, maldito…{PAUSE 5}$"
 
 
 Route25_Text_Chico3PostBattle:
 	.string "Mi novia me regañará por perder\n"
-	.string "con un simple ROCKET…$"
+	.string "con un simple ROCKET…{PAUSE 5}$"
 
 
 Route25_Text_Chico4Intro:
@@ -5603,11 +5603,11 @@ Route11_Text_Mecanico2PostBattle:
 
 
 Route11_Text_Anciano3Intro:
-	.string "Nunca he ganado…$"
+	.string "Nunca he ganado…{PAUSE 5}$"
 
 
 Route11_Text_Anciano3Defeated:
-	.string "Se veía venir…$"
+	.string "Se veía venir…{PAUSE 5}$"
 
 
 Route11_Text_Anciano3PostBattle:
@@ -5947,12 +5947,12 @@ Route9_Text_CazabichosDefeated:
 
 Route9_Text_CazabichosPostBattle:
 	.string "Deberé de atrapar algo más que\n"
-	.string "insectos para hacerme más fuerte…$"
+	.string "insectos para hacerme más fuerte…{PAUSE 5}$"
 
 
 Route9_Text_Chico2Intro:
 	.string "Tomaré el TÚNEL ROCA para llegar a\n"
-	.string "LAVANDA…$"
+	.string "LAVANDA…{PAUSE 5}$"
 
 
 Route9_Text_Chico2Defeated:
@@ -5971,7 +5971,7 @@ Route9_Text_Cazabichos2Intro:
 
 
 Route9_Text_Cazabichos2Defeated:
-	.string "Mis bichos…$"
+	.string "Mis bichos…{PAUSE 5}$"
 
 
 Route9_Text_Cazabichos2PostBattle:
@@ -6042,7 +6042,7 @@ Route10_Text_ChicaDefeated:
 
 Route10_Text_ChicaPostBattle:
 	.string "Siempre que he estado en GIMNASIOS\n"
-	.string "POKÉMON he acabado perdiendo…$"
+	.string "POKÉMON he acabado perdiendo…{PAUSE 5}$"
 
 
 Route10_Text_HikerIntro:
@@ -6195,7 +6195,7 @@ Route8_Text_Necio3Defeated:
 
 Route8_Text_Necio3PostBattle:
 	.string "Ve con GRIMER primero y…\n"
-	.string "…y…entonces…$"
+	.string "…y…entonces…{PAUSE 5}$"
 
 
 Route8_Text_Anciano2Intro:
@@ -6302,7 +6302,7 @@ Route10_Text_Chica2PostBattle:
 
 RockTunnel1F_Text_HikerIntro:
 	.string "Hmm.\n"
-	.string "Puede que me haya perdido…$"
+	.string "Puede que me haya perdido…{PAUSE 5}$"
 
 
 RockTunnel1F_Text_HikerDefeated:
@@ -6401,7 +6401,7 @@ RockTunnel1F_Text_Chica3Intro:
 
 
 RockTunnel1F_Text_Chica3Defeated:
-	.string "Estaba demasiado oscuro…$"
+	.string "Estaba demasiado oscuro…{PAUSE 5}$"
 
 
 RockTunnel1F_Text_Chica3PostBattle:
@@ -6478,7 +6478,7 @@ RockTunnel2F_Text_Necio2Intro:
 
 
 RockTunnel2F_Text_Necio2Defeated:
-	.string "Así que eso fue todo…$"
+	.string "Así que eso fue todo…{PAUSE 5}$"
 
 
 RockTunnel2F_Text_Necio2PostBattle:
@@ -6487,7 +6487,7 @@ RockTunnel2F_Text_Necio2PostBattle:
 	.string "¿Que no te interesan esas\l"
 	.string "tonterías?\l"
 	.string "…\l"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 
 RockTunnel2F_Text_Necio3Intro:
@@ -6497,7 +6497,7 @@ RockTunnel2F_Text_Necio3Intro:
 
 RockTunnel2F_Text_Necio3Defeated:
 	.string "Whew…\n"
-	.string "Estoy exhausto…$"
+	.string "Estoy exhausto…{PAUSE 5}$"
 
 
 RockTunnel2F_Text_Necio3PostBattle:
@@ -6563,7 +6563,7 @@ PokemonTower3F_Text_Channeler2PostBattle:
 
 PokemonTower3F_Text_Channeler3Intro:
 	.string "Urrg… Awaa…\n"
-	.string "Huhu… Graa…$"
+	.string "Huhu… Graa…{PAUSE 5}$"
 
 
 PokemonTower3F_Text_Channeler3Defeated:
@@ -6595,7 +6595,7 @@ PokemonTower4F_Text_Channeler2Intro:
 
 
 PokemonTower4F_Text_Channeler2Defeated:
-	.string "Mi voluntad…se apaga…$"
+	.string "Mi voluntad…se apaga…{PAUSE 5}$"
 
 
 PokemonTower4F_Text_Channeler2PostBattle:
@@ -6631,7 +6631,7 @@ PokemonTower5F_Text_ChannelerPostBattle:
 
 PokemonTower5F_Text_Channeler2Intro:
 	.string "Urgah…\n"
-	.string "Urff…$"
+	.string "Urff…{PAUSE 5}$"
 
 
 PokemonTower5F_Text_Channeler2Defeated:
@@ -6641,7 +6641,7 @@ PokemonTower5F_Text_Channeler2Defeated:
 PokemonTower5F_Text_Channeler2PostBattle:
 	.string "He caído ante los espíritus\n"
 	.string "malignos a pesar de mi\l"
-	.string "entrenamiento en las montañas…$"
+	.string "entrenamiento en las montañas…{PAUSE 5}$"
 
 
 PokemonTower5F_Text_Channeler3Intro:
@@ -6654,7 +6654,7 @@ PokemonTower5F_Text_Channeler3Defeated:
 
 
 PokemonTower5F_Text_Channeler3PostBattle:
-	.string "Me…estoy…uniendo…a ellos…$"
+	.string "Me…estoy…uniendo…a ellos…{PAUSE 5}$"
 
 
 PokemonTower5F_Text_Channeler4Intro:
@@ -6668,7 +6668,7 @@ PokemonTower5F_Text_Channeler4Defeated:
 
 
 PokemonTower5F_Text_Channeler4PostBattle:
-	.string "Mi…alma…$"
+	.string "Mi…alma…{PAUSE 5}$"
 
 
 PokemonTower6F_Text_ChannelerIntro:
@@ -6987,7 +6987,7 @@ Route12_Text_PescadorIntro:
 
 
 Route12_Text_PescadorDefeated:
-	.string "Solo me faltó un poco más…$"
+	.string "Solo me faltó un poco más…{PAUSE 5}$"
 
 
 Route12_PescadorPostBattle:
@@ -7066,7 +7066,7 @@ Route12_Text_Chico2Defeated:
 
 
 Route12_Chico2PostBattle:
-	.string "Así que PIEDRA LUNAR, entiendo…$"
+	.string "Así que PIEDRA LUNAR, entiendo…{PAUSE 5}$"
 
 
 Route12_Text_Pescador5Intro:
@@ -7232,7 +7232,7 @@ Route13_Text_Ornitologo3Defeated:
 
 Route13_Ornitologo3PostBattle:
 	.string "Me encantaría poder volar como\n"
-	.string "PIDGEY o PIDGEOTTO…$"
+	.string "PIDGEY o PIDGEOTTO…{PAUSE 5}$"
 
 
 Route14_Text_OrnitologoIntro:
@@ -7242,7 +7242,7 @@ Route14_Text_OrnitologoIntro:
 
 Route14_Text_OrnitologoDefeated:
 	.string "Aún no soy lo suficientemente\n"
-	.string "bueno…$"
+	.string "bueno…{PAUSE 5}$"
 
 
 Route14_OrnitologoPostBattle:
@@ -7916,7 +7916,7 @@ Route19_Text_Nadador7Defeated:
 Route19_Nadador7PostBattle:
 	.string "¡M-mis piernas!\n"
 	.string "¡Se han quedado enganchadas!\l"
-	.string "Glub, glub…$"
+	.string "Glub, glub…{PAUSE 5}$"
 
 
 Route19_Text_NadadoraIntro:
@@ -7931,7 +7931,7 @@ Route19_Text_NadadoraDefeated:
 Route19_NadadoraPostBattle:
 	.string "Aún queda mucho para llegar a las\n"
 	.string "ISLAS ESPUMA…\l"
-	.string "Creo que me volveré a FUCSIA…$"
+	.string "Creo que me volveré a FUCSIA…{PAUSE 5}$"
 
 
 Route19_Text_Nadadora2Intro:
@@ -7942,7 +7942,7 @@ Route19_Text_Nadadora2Intro:
 
 
 Route19_Text_Nadadora2Defeated:
-	.string "Estoy exhausta…$"
+	.string "Estoy exhausta…{PAUSE 5}$"
 
 
 Route19_Nadadora2PostBattle:
@@ -8082,7 +8082,7 @@ PowerPlant_Text_Policia4Intro:
 
 
 PowerPlant_Text_Policia4Defeated:
-	.string "Así que te resistes…$"
+	.string "Así que te resistes…{PAUSE 5}$"
 
 
 PowerPlant_Policia4PostBattle:
@@ -8467,7 +8467,7 @@ Silph8F_Text_Policia2Intro:
 
 
 Silph8F_Text_Policia2Defeated:
-	.string "Me he quedado sin energías…$"
+	.string "Me he quedado sin energías…{PAUSE 5}$"
 
 
 Silph8F_Policia2PostBattle:
@@ -8533,7 +8533,7 @@ Silph9F_Text_Policia2Defeated:
 
 Silph9F_Policia2PostBattle:
 	.string "Si hubiera empezado a entrenar a\n"
-	.string "tu edad…$"
+	.string "tu edad…{PAUSE 5}$"
 
 
 Silph10F_Text_CientificoIntro:
@@ -8617,7 +8617,7 @@ Route21_Text_PescadorIntro:
 
 Route21_Text_PescadorDefeated:
 	.string "Algún día tendré el equipo más\n"
-	.string "temido…$"
+	.string "temido…{PAUSE 5}$"
 
 
 Route21_PescadorPostBattle:
@@ -8714,7 +8714,7 @@ CinnabarPath_Text_Nadador3Intro:
 
 CinnabarPath_Text_Nadador3Defeated:
 	.string "Pant…\n"
-	.string "Pant… Pant…$"
+	.string "Pant… Pant…{PAUSE 5}$"
 
 
 CinnabarPath_Nadador3PostBattle:
@@ -9069,7 +9069,7 @@ CeladonCityGym_Text_Chica4Defeated:
 
 CeladonCityGym_Text_Chica4PostBattle:
 	.string "Así que buscabas a ERIKA, no a\n"
-	.string "mi…$"
+	.string "mi…{PAUSE 5}$"
 
 
 CeladonCityGym_Text_Chica5Intro:
@@ -9210,7 +9210,7 @@ FuchsiaCityGym_Text_Chico6Intro:
 
 FuchsiaCityGym_Text_Chico6Defeated:
 	.string "Eres más fuerte de lo que\n"
-	.string "pensaba…$"
+	.string "pensaba…{PAUSE 5}$"
 
 
 FuchsiaCityGym_Text_Chico6PostBattle:
@@ -9354,7 +9354,7 @@ CinnabarIslandGym_Text_CientificoDefeated:
 CinnabarIslandGym_Text_CientificoPostBattle:
 	.string "Fuego o, para ser más preciso,\n"
 	.string "combustión…\p"
-	.string "¡Bla, bla, bla, bla!…$"
+	.string "¡Bla, bla, bla, bla!…{PAUSE 5}$"
 
 
 CinnabarIslandGym_Text_Cientifico2Intro:
@@ -9475,7 +9475,7 @@ ViridianCityGym_Text_KaratekaDefeated:
 
 ViridianCityGym_Text_KaratekaPostBattle:
 	.string "Si mis POKéMON fueran buenos\n"
-	.string "karatekas…$"
+	.string "karatekas…{PAUSE 5}$"
 
 
 ViridianCityGym_Text_Karateka2Intro:
@@ -10015,7 +10015,7 @@ VictoryRoad1F_Text_Guay2Intro:
 
 
 VictoryRoad1F_Text_Guay2Defeated:
-	.string "He perdido la oportunidad…$"
+	.string "He perdido la oportunidad…{PAUSE 5}$"
 
 
 VictoryRoad1F_Text_Guay2PostBattle:
@@ -10150,7 +10150,7 @@ VictoryRoad3F_Text_Guay4PostBattle:
 
 
 KindleRoad_Text_ChicaIntro:
-	.string "Me estoy empezando a quemar…$"
+	.string "Me estoy empezando a quemar…{PAUSE 5}$"
 
 
 KindleRoad_Text_ChicaDefeated:
@@ -10159,7 +10159,7 @@ KindleRoad_Text_ChicaDefeated:
 
 KindleRoad_Text_ChicaPostBattle:
 	.string "Me gusta la ropa que llevas. Igual\n"
-	.string "me convendría ponerme algo…$"
+	.string "me convendría ponerme algo…{PAUSE 5}$"
 
 
 KindleRoad_Text_Chica2Intro:
@@ -10269,7 +10269,7 @@ KindleRoad_Text_Karateka2Intro:
 
 KindleRoad_Text_Karateka2Defeated:
 	.string "Agggg…\n"
-	.string "Agggg…$"
+	.string "Agggg…{PAUSE 5}$"
 
 
 KindleRoad_Text_Karateka2PostBattle:
@@ -10365,12 +10365,12 @@ MtEmberEntrance_Text_LuchadoraIntro:
 
 
 MtEmberEntrance_Text_LuchadoraDefeated:
-	.string "Creo que he exagerado…$"
+	.string "Creo que he exagerado…{PAUSE 5}$"
 
 
 MtEmberEntrance_Text_LuchadoraPostBattle:
 	.string "Luchando me recuerdas a mi antiguo\n"
-	.string "noviete…$"
+	.string "noviete…{PAUSE 5}$"
 
 
 MtEmberB1F_Text_SoldadoIntro:
@@ -10537,7 +10537,7 @@ WaterPath_Text_NadadorDefeated:
 
 WaterPath_Text_NadadorPostBattle:
 	.string "Vaya, no he conseguido dejar alto\n"
-	.string "el pabellón de natación…$"
+	.string "el pabellón de natación…{PAUSE 5}$"
 
 
 WaterPath_Text_NadadoraIntro:
@@ -10589,7 +10589,7 @@ RuinValley_Text_MontaneroIntro:
 
 RuinValley_Text_MontaneroDefeated:
 	.string "No soporto el sabor de la derrota\n"
-	.string "ante ti…$"
+	.string "ante ti…{PAUSE 5}$"
 
 
 RuinValley_Text_MontaneroPostBattle:
@@ -10602,7 +10602,7 @@ RuinValley_Text_Montanero2Intro:
 
 
 RuinValley_Text_Montanero2Defeated:
-	.string "Mmmm…$"
+	.string "Mmmm…{PAUSE 5}$"
 
 
 RuinValley_Text_Montanero2PostBattle:
@@ -10617,7 +10617,7 @@ RuinValley_Text_Montanero3Intro:
 
 RuinValley_Text_Montanero3Defeated:
 	.string "Llevo tanto sin luchar que no\n"
-	.string "tengo reflejos…$"
+	.string "tengo reflejos…{PAUSE 5}$"
 
 
 RuinValley_Text_Montanero3PostBattle:
@@ -10673,7 +10673,7 @@ PatternBush_Text_ChicoPostBattle:
 	.string "La gente de ciudad siempre viene\n"
 	.string "dándose demasiados aires…\p"
 	.string "Aunque a mí no me vendrían\n"
-	.string "mal unos pocos…$"
+	.string "mal unos pocos…{PAUSE 5}$"
 
 
 PatternBush_Text_CazabichosIntro:
@@ -10745,7 +10745,7 @@ PatternBush_Text_Chico3Intro:
 
 
 PatternBush_Text_Chico3Defeated:
-	.string "Qué paliza…$"
+	.string "Qué paliza…{PAUSE 5}$"
 
 
 PatternBush_Text_Chico3PostBattle:
@@ -10771,23 +10771,23 @@ PatternBush_Text_ChicaPostBattle:
 PatternBush_Text_Chica2Intro:
 	.string "Me encantan los POKéMON del tipo\n"
 	.string "BICHO. Por eso estoy siempre aquí.\p"
-	.string "Supongo que no seré la única…$"
+	.string "Supongo que no seré la única…{PAUSE 5}$"
 
 
 PatternBush_Text_Chica2Defeated:
 	.string "No pienso perder la sonrisa.\n"
-	.string "Supongo que no soy la única…$"
+	.string "Supongo que no soy la única…{PAUSE 5}$"
 
 
 PatternBush_Text_Chica2PostBattle:
 	.string "Voy a seguir coleccionando\n"
 	.string "POKéMON del tipo BICHO.\p"
-	.string "Supongo que no soy la única…$"
+	.string "Supongo que no soy la única…{PAUSE 5}$"
 
 
 PatternBush_Text_Chica3Intro:
 	.string "¡Ay!\n"
-	.string "Creo que me ha picado algo…$"
+	.string "Creo que me ha picado algo…{PAUSE 5}$"
 
 
 PatternBush_Text_Chica3Defeated:
@@ -10819,7 +10819,7 @@ PatternBush_Text_Chica4PostBattle:
 
 PatternBush_Text_Chica5Intro:
 	.string "¡Mmmm, respira hondo!\n"
-	.string "Qué aire tan puro…$"
+	.string "Qué aire tan puro…{PAUSE 5}$"
 
 
 PatternBush_Text_Chica5Defeated:
@@ -10865,7 +10865,7 @@ GreenPath_Text_ChicaDefeated:
 GreenPath_Text_ChicaPostBattle:
 	.string "No sé muy bien dónde estoy…\p"
 	.string "Debo centrarme en TELETRANSPORTE\n"
-	.string "para volver a mi casa…$"
+	.string "para volver a mi casa…{PAUSE 5}$"
 
 
 OutcastIsland_Text_ChicaIntro:
@@ -10891,12 +10891,12 @@ OutcastIsland_Text_NadadorIntro:
 
 OutcastIsland_Text_NadadorDefeated:
 	.string "Ufff…\n"
-	.string "Ufff…$"
+	.string "Ufff…{PAUSE 5}$"
 
 
 OutcastIsland_Text_NadadorPostBattle:
 	.string "Voy por la mitad…\n"
-	.string "Y ya no puedo más…$"
+	.string "Y ya no puedo más…{PAUSE 5}$"
 
 
 OutcastIsland_Text_PescadorIntro:
@@ -10943,7 +10943,7 @@ CanyonEntrance_Text_ChicoPostBattle:
 	.string "Oye el boom, boom…\p"
 	.string "Oye el boom, boom, boom, de mis\n"
 	.string "POKéMON, ven y dime tú, no me\l"
-	.string "digas no…$"
+	.string "digas no…{PAUSE 5}$"
 
 
 CanyonEntrance_Text_Chico2Intro:
@@ -10952,7 +10952,7 @@ CanyonEntrance_Text_Chico2Intro:
 
 
 CanyonEntrance_Text_Chico2Defeated:
-	.string "Vaya…$"
+	.string "Vaya…{PAUSE 5}$"
 
 
 CanyonEntrance_Text_Chico2PostBattle:
@@ -10983,7 +10983,7 @@ SevaultCanyon_Text_DomadorIntro:
 
 
 SevaultCanyon_Text_DomadorDefeated:
-	.string "Sabes bien lo que haces…$"
+	.string "Sabes bien lo que haces…{PAUSE 5}$"
 
 
 SevaultCanyon_Text_DomadorPostBattle:
@@ -11067,12 +11067,12 @@ SevaultCanyon_Text_LuchadoraIntro:
 
 SevaultCanyon_Text_LuchadoraDefeated:
 	.string "¿Mmm?\n"
-	.string "Aquí hay algo que falla…$"
+	.string "Aquí hay algo que falla…{PAUSE 5}$"
 
 
 SevaultCanyon_Text_LuchadoraPostBattle:
 	.string "Así no puedo presentarme a la\n"
-	.string "TORRE DESAFÍO…$"
+	.string "TORRE DESAFÍO…{PAUSE 5}$"
 
 
 TanobyRuins_Text_DomadorIntro:
@@ -11098,14 +11098,14 @@ TanobyRuins_Text_CaballeroIntro:
 
 
 TanobyRuins_Text_CaballeroDefeated:
-	.string "Qué barbaridad…$"
+	.string "Qué barbaridad…{PAUSE 5}$"
 
 
 TanobyRuins_Text_CaballeroPostBattle:
 	.string "Así que tú estudias a los POKéMON\n"
 	.string "por tu cuenta…\p"
 	.string "La verdad es que es digno\n"
-	.string "de admiración…$"
+	.string "de admiración…{PAUSE 5}$"
 
 
 TanobyRuins_Text_PintoraIntro:
@@ -11160,7 +11160,7 @@ TrainerTower_Text_ChicoIntro:
 
 
 TrainerTower_Text_ChicoDefeated:
-	.string "Me rindo…$"
+	.string "Me rindo…{PAUSE 5}$"
 
 
 TrainerTower_Text_ChicoPostBattle:
@@ -11262,7 +11262,7 @@ SilphS2_Text_Policia2Intro:
 
 
 SilphS2_Text_Policia2Defeated:
-	.string "Entonces ese es tu poder…$"
+	.string "Entonces ese es tu poder…{PAUSE 5}$"
 
 
 SilphS2_Text_Policia2PostBattle:
@@ -11298,7 +11298,7 @@ SilphS2_Text_Policia3Intro:
 
 
 SilphS2_Text_Policia3Defeated:
-	.string "Ya veo…$"
+	.string "Ya veo…{PAUSE 5}$"
 
 
 SilphS2_Text_Policia3PostBattle:
@@ -11392,7 +11392,7 @@ Culto2_Text_Medium2Intro:
 
 
 Culto2_Text_Medium2Defeated:
-	.string "Bien, si así lo deseas…$"
+	.string "Bien, si así lo deseas…{PAUSE 5}$"
 
 
 Culto2_Text_Medium2PostBattle:
@@ -11581,7 +11581,7 @@ WestBirthIsland_Text_MontaneroPostBattle:
 	.string "estrecha relación con las RUINAS\l"
 	.string "ALFA de JOHTO, tal vez este lugar\l"
 	.string "sea la llave para liberar un poder\l"
-	.string "indescriptible y ancestral…$"
+	.string "indescriptible y ancestral…{PAUSE 5}$"
 
 
 CinnabarMansionS1_Text_CientificoIntro:
@@ -11807,7 +11807,7 @@ VioletSprotTower_Text_PensadorIntro:
 
 
 VioletSprotTower_Text_PensadorDefeated:
-	.string "Oh, sí, estás para cotas elevadas…$"
+	.string "Oh, sí, estás para cotas elevadas…{PAUSE 5}$"
 
 
 VioletSprotTower_Text_PensadorPostBattle:
@@ -11837,7 +11837,7 @@ VioletSprotTowerP1_Text_PensadorPostBattle:
 
 VioletSprotTowerP1_Text_Pensador2Intro:
 	.string "Muévete como las hojas del\n"
-	.string "viento…$"
+	.string "viento…{PAUSE 5}$"
 
 
 VioletSprotTowerP1_Text_Pensador2Defeated:
@@ -11934,7 +11934,7 @@ Route32_Text_ChicaIntro:
 
 
 Route32_Text_ChicaDefeated:
-	.string "Oh, mis pobres POKÉMON…$"
+	.string "Oh, mis pobres POKÉMON…{PAUSE 5}$"
 
 
 Route32_Text_ChicaPostBattle:
@@ -12146,7 +12146,7 @@ UnionCaveS2_Text_GuayDefeated:
 UnionCaveS2_Text_GuayPostBattle:
 	.string "Hay un POKÉMON que viene cada\n"
 	.string "semana hasta la orilla. Me\l"
-	.string "gustaría tanto verlo…$"
+	.string "gustaría tanto verlo…{PAUSE 5}$"
 
 
 UnionCaveS2_Text_NadadorIntro:
@@ -12197,7 +12197,7 @@ Route33_Text_GuayIntro:
 
 
 Route33_Text_GuayDefeated:
-	.string "Y aún así he perdido…$"
+	.string "Y aún así he perdido…{PAUSE 5}$"
 
 
 Route33_Text_GuayPostBattle:
@@ -12221,7 +12221,7 @@ Route33_Text_SabioIntro:
 
 Route33_Text_SabioDefeated:
 	.string "Ah…\n"
-	.string "La juventud…$"
+	.string "La juventud…{PAUSE 5}$"
 
 
 Route33_Text_SabioPostBattle:
@@ -12270,7 +12270,7 @@ AzaleaGym_Text_Cazabichos2PostBattle:
 	.string "con una extraña forma de PINSIR,\l"
 	.string "la potencia y velocidad de sus\l"
 	.string "ataques daban mucho miedo y\l"
-	.string "respeto, la verdad…$"
+	.string "respeto, la verdad…{PAUSE 5}$"
 
 
 AzaleaGym_Text_SabioIntro:
@@ -12469,7 +12469,7 @@ GoldenrodUnderground_Text_NecioIntro:
 
 GoldenrodUnderground_Text_NecioDefeated:
 	.string "Parece que a ti no te hacen falta\n"
-	.string "POKÉMON fuertes…$"
+	.string "POKÉMON fuertes…{PAUSE 5}$"
 
 
 GoldenrodUnderground_Text_NecioPostBattle:
@@ -12657,7 +12657,7 @@ Route35_Text_ChicoIntro:
 
 Route35_Text_ChicoDefeated:
 	.string "Los tuyos sí que han recibido un\n"
-	.string "buen entrenamiento…$"
+	.string "buen entrenamiento…{PAUSE 5}$"
 
 
 Route35_Text_ChicoPostBattle:
@@ -12732,7 +12732,7 @@ Route37_Text_JuglarIntro:
 
 Route37_Text_JuglarDefeated:
 	.string "El plan era dar yo el\n"
-	.string "espectáculo…$"
+	.string "espectáculo…{PAUSE 5}$"
 
 
 Route37_Text_JuglarPostBattle:
@@ -13021,7 +13021,7 @@ OliivineLighthouse_Text_ChicoIntro:
 
 
 OliivineLighthouse_Text_ChicoDefeated:
-	.string "Se me cruzaron los cables…$"
+	.string "Se me cruzaron los cables…{PAUSE 5}$"
 
 
 OliivineLighthouse_Text_ChicoPostBattle:
@@ -13112,7 +13112,7 @@ Route51_Text_PescadorIntro:
 	.string "Con todas estas rocas es imposible\n"
 	.string "meter barcos aquí, este lugar está\l"
 	.string "condenado al olvido, aunque para\l"
-	.string "pescar…$"
+	.string "pescar…{PAUSE 5}$"
 
 
 Route51_Text_PescadorDefeated:
@@ -13309,7 +13309,7 @@ OlivineBoat2_Text_MarineroIntro:
 
 
 OlivineBoat2_Text_MarineroDefeated:
-	.string "He perdido en mi propio campo…$"
+	.string "He perdido en mi propio campo…{PAUSE 5}$"
 
 
 OlivineBoat2_Text_MarineroPostBattle:
@@ -13430,7 +13430,7 @@ Route41_Text_Nadadora2Defeated:
 Route41_Text_Nadadora2PostBattle:
 	.string "Dicen que hay un gran POKÉMON\n"
 	.string "bajo las ISLAS REMOLINO. Me\l"
-	.string "pregunto cómo será…$"
+	.string "pregunto cómo será…{PAUSE 5}$"
 
 
 Route41_Text_Nadadora3Intro:
@@ -13439,7 +13439,7 @@ Route41_Text_Nadadora3Intro:
 
 
 Route41_Text_Nadadora3Defeated:
-	.string "He perdido…$"
+	.string "He perdido…{PAUSE 5}$"
 
 
 Route41_Text_Nadadora3PostBattle:
@@ -13483,7 +13483,7 @@ Route41_Text_Nadador2Intro:
 
 
 Route41_Text_Nadador2Defeated:
-	.string "Uf, uf…$"
+	.string "Uf, uf…{PAUSE 5}$"
 
 
 Route41_Text_Nadador2PostBattle:
@@ -13530,7 +13530,7 @@ CianwoodGym_Text_KaratekaIntro:
 
 
 CianwoodGym_Text_KaratekaDefeated:
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 
 CianwoodGym_Text_KaratekaPostBattle:
@@ -13654,7 +13654,7 @@ Route52_Text_Nadador2Intro:
 	.string "evitar esos sustos creo que\l"
 	.string "cerrarán esta ruta que conecta con\l"
 	.string "TRIGAL, que de todos modos no es\l"
-	.string "navegable…$"
+	.string "navegable…{PAUSE 5}$"
 
 
 Route52_Text_Nadador2Defeated:
@@ -13738,7 +13738,7 @@ Route27_Text_GuayDefeated:
 
 Route27_Text_GuayPostBattle:
 	.string "Ojalá pudiera entrar al MONTE\n"
-	.string "PLATEADO…$"
+	.string "PLATEADO…{PAUSE 5}$"
 
 
 Route26_Text_PescadorIntro:
@@ -13823,7 +13823,7 @@ Route26_Text_ChicoPostBattle:
 	.string "de BRAVIARY, y el único que tiene\l"
 	.string "la DEFENSA suficiente como para\l"
 	.string "aguantarlas es GLISCOR. Aunque si\l"
-	.string "tuviera un SKARMORY…$"
+	.string "tuviera un SKARMORY…{PAUSE 5}$"
 
 
 Route26_Text_Guay2Intro:
@@ -13840,7 +13840,7 @@ Route26_Text_Guay2PostBattle:
 	.string "Para poder explorar el MONTE\n"
 	.string "PLATEADO necesitas ser EX-CAMPEÓN\l"
 	.string "de la LIGA, o tener un permiso\l"
-	.string "especial, casi nada…$"
+	.string "especial, casi nada…{PAUSE 5}$"
 
 
 TinTowerP2_Text_MonjeIntro:
@@ -13850,7 +13850,7 @@ TinTowerP2_Text_MonjeIntro:
 
 
 TinTowerP2_Text_MonjeDefeated:
-	.string "Ah, si…$"
+	.string "Ah, si…{PAUSE 5}$"
 
 
 TinTowerP2_Text_MonjePostBattle:
@@ -13902,7 +13902,7 @@ TinTowerP5_Text_MonjeIntro:
 
 
 TinTowerP5_Text_MonjeDefeated:
-	.string "Mi entrenamiento es incompleto…$"
+	.string "Mi entrenamiento es incompleto…{PAUSE 5}$"
 
 
 TinTowerP5_Text_MonjePostBattle:
@@ -13978,7 +13978,7 @@ TinTowerP8_Text_MonjeIntro:
 
 
 TinTowerP8_Text_MonjeDefeated:
-	.string "Ya veo, ya…$"
+	.string "Ya veo, ya…{PAUSE 5}$"
 
 
 TinTowerP8_Text_MonjePostBattle:
@@ -14051,7 +14051,7 @@ Route43_Text_ChicaIntro:
 
 
 Route43_Text_ChicaDefeated:
-	.string "Mis POKÉMON no pudieron más…$"
+	.string "Mis POKÉMON no pudieron más…{PAUSE 5}$"
 
 
 Route43_Text_ChicaPostBattle:
@@ -14078,7 +14078,7 @@ Route43_Text_PescadorDefeated:
 Route43_Text_PescadorPostBattle:
 	.string "El LAGO DE LA FURIA destaca por\n"
 	.string "sus MAGIKARP, por lo que de furia\l"
-	.string "tiene poco…$"
+	.string "tiene poco…{PAUSE 5}$"
 
 
 LakeofRage_Text_PescadorIntro:
@@ -14217,7 +14217,7 @@ NinjaBaseS2_Text_Ladron2Defeated:
 
 NinjaBaseS2_Text_Ladron2PostBattle:
 	.string "Como esto salga mal tendré que\n"
-	.string "volver al SUBTERRÁNEO de TRIGAL…$"
+	.string "volver al SUBTERRÁNEO de TRIGAL…{PAUSE 5}$"
 
 
 NinjaBaseS2_Text_Ninja2Intro:
@@ -14449,7 +14449,7 @@ Route44_Text_OrnitologoPostBattle:
 	.string "destino de las 2 regiones?\l"
 	.string "¿Y me cuentas todo esto porque de\l"
 	.string "todas formas nadie me creerá?\l"
-	.string "Oh…$"
+	.string "Oh…{PAUSE 5}$"
 
 
 DragonsdenS2_Text_GuayIntro:
@@ -14606,11 +14606,11 @@ SouthRoute45_Text_MontaneroPostBattle:
 CultoS4_Text_CultistaIntro:
 	.string "Así que has vuelto…me temo que no\n"
 	.string "seremos tan hospitalarios como la\l"
-	.string "primera vez…$"
+	.string "primera vez…{PAUSE 5}$"
 
 
 CultoS4_Text_CultistaDefeated:
-	.string "Tu equipo ha cambiado…tú has cambiado…$"
+	.string "Tu equipo ha cambiado…tú has cambiado…{PAUSE 5}$"
 
 
 CultoS4_Text_CultistaPostBattle:
@@ -14657,7 +14657,7 @@ CultoS6_Text_CultistaIntro:
 
 
 CultoS6_Text_CultistaDefeated:
-	.string "Tal vez algo sí que has aprendido…$"
+	.string "Tal vez algo sí que has aprendido…{PAUSE 5}$"
 
 
 CultoS6_Text_CultistaPostBattle:
@@ -14690,7 +14690,7 @@ Route47_Text_MontaneroIntro:
 
 
 Route47_Text_MontaneroDefeated:
-	.string "Vaya con los pijos de TRIGAL…$"
+	.string "Vaya con los pijos de TRIGAL…{PAUSE 5}$"
 
 
 Route47_Text_MontaneroPostBattle:
@@ -14742,7 +14742,7 @@ Route48_Text_MontaneroIntro:
 
 Route48_Text_MontaneroDefeated:
 	.string "Con esos POKÉMON, puede que no sea tan\n"
-	.string "peligroso…$"
+	.string "peligroso…{PAUSE 5}$"
 
 
 Route48_Text_MontaneroPostBattle:
@@ -14788,7 +14788,7 @@ Route49MazeP1_Text_SabioIntro:
 
 Route49MazeP1_Text_SabioDefeated:
 	.string "Sigo esperando la llegada de la\n"
-	.string "primavera…$"
+	.string "primavera…{PAUSE 5}$"
 
 
 Route49MazeP1_Text_SabioPostBattle:
@@ -14896,28 +14896,28 @@ Route111_Text_ChicoIntro:
 
 Route111_Text_ChicoDefeated:
 	.string "Mis POKÉMON ya no va a querer salir ni a\n"
-	.string "la vuelta de la esquina…$"
+	.string "la vuelta de la esquina…{PAUSE 5}$"
 
 
 Route111_Text_ChicoPostBattle:
 	.string "Cuando veo a un ENTRENADOR que está en\n"
-	.string "racha, tengo que desafiarle…$"
+	.string "racha, tengo que desafiarle…{PAUSE 5}$"
 
 
 Route111_Text_ChicaIntro:
 	.string "No sé quién eres ni adónde vas, pero sé\n"
-	.string "que vamos a enfrentarnos…$"
+	.string "que vamos a enfrentarnos…{PAUSE 5}$"
 
 
 Route111_Text_ChicaDefeated:
 	.string "Tu técnica es tan buena que estoy\n"
-	.string "muerta de envidia…$"
+	.string "muerta de envidia…{PAUSE 5}$"
 
 
 Route111_Text_ChicaPostBattle:
 	.string "Pensaba yo que debería ir al MONTE\n"
 	.string "CENIZO a disfrutar de las vistas, pero\l"
-	.string "aquí tampoco se está mal…$"
+	.string "aquí tampoco se está mal…{PAUSE 5}$"
 
 
 Route111_Text_Montanero2Intro:
@@ -15070,7 +15070,7 @@ ViasTren3_Text_Obrero2Intro:
 
 
 ViasTren3_Text_Obrero2Defeated:
-	.string "Si que eres fuerte…$"
+	.string "Si que eres fuerte…{PAUSE 5}$"
 
 
 ViasTren3_Text_Obrero2PostBattle:
@@ -15107,7 +15107,7 @@ ViasTren5_Text_ObreroPostBattle:
 	.string "A pesar de estar ya en territorio de\n"
 	.string "KANTO, por esta zona se mezclan\l"
 	.string "POKÉMON de KANTO y JOHTO. Ellos no\l"
-	.string "entienden de fronteras como nosotros…$"
+	.string "entienden de fronteras como nosotros…{PAUSE 5}$"
 
 
 ViasTren5_Text_Obrero2Intro:
@@ -15153,7 +15153,7 @@ NeoCinnabarVolcan_Text_Ladron2Defeated:
 
 NeoCinnabarVolcan_Text_Ladron2PostBattle:
 	.string "Algunos se han metido más adentro del\n"
-	.string "volcán, a mí me da miedo, la verdad…$"
+	.string "volcán, a mí me da miedo, la verdad…{PAUSE 5}$"
 
 
 Mision7Lab3_Text_LadronIntro:
@@ -15184,7 +15184,7 @@ Mision7Lab2_Text_LadronDefeated:
 Mision7Lab2_Text_LadronPostBattle:
 	.string "Voy a tardar mucho en movilizar todo\n"
 	.string "esto, y me da palo tener que volver a\l"
-	.string "bajar aquí…$"
+	.string "bajar aquí…{PAUSE 5}$"
 
 
 Mision7Lab4_Text_CientificoIntro:
@@ -15201,7 +15201,7 @@ Mision7Lab4_Text_CientificoPostBattle:
 	.string "¿Qué? No trabajo para nadie, solo vine\n"
 	.string "por interés puramente académico, pero\l"
 	.string "creo que no estoy a la altura de esos\l"
-	.string "POKÉMON tan fuertes…$"
+	.string "POKÉMON tan fuertes…{PAUSE 5}$"
 
 
 LavenderRadioP1_Text_CientificoIntro:
@@ -15311,7 +15311,7 @@ NeoLavandaCementerioS1_Text_Exorcista3Intro:
 
 
 NeoLavandaCementerioS1_Text_Exorcista3Defeated:
-	.string "Esperar… Seguiré esperando…$"
+	.string "Esperar… Seguiré esperando…{PAUSE 5}$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista3PostBattle:
@@ -15429,7 +15429,7 @@ GimnasioAnciana_Text_Anciano2Intro:
 
 
 GimnasioAnciana_Text_Anciano2Defeated:
-	.string "Mmmm… no veo esa decadencia…$"
+	.string "Mmmm… no veo esa decadencia…{PAUSE 5}$"
 
 
 GimnasioAnciana_Text_Anciano2PostBattle:
@@ -15506,7 +15506,7 @@ MisionTrigal2_Text_Motero2Intro:
 
 
 MisionTrigal2_Text_Motero2Defeated:
-	.string "Los de arriba se enfadarán…$"
+	.string "Los de arriba se enfadarán…{PAUSE 5}$"
 
 
 MisionTrigal2_Text_Motero2PostBattle:
@@ -15650,7 +15650,7 @@ CuevaTesoro2_Text_PoliciaIntro:
 
 
 CuevaTesoro2_Text_PoliciaDefeated:
-	.string "Así es…$"
+	.string "Así es…{PAUSE 5}$"
 
 
 CuevaTesoro2_Text_PoliciaPostBattle:
@@ -15697,7 +15697,7 @@ CuevaTesoro3_Text_Policia2Intro:
 
 
 CuevaTesoro3_Text_Policia2Defeated:
-	.string "Sigue… sigue…$"
+	.string "Sigue… sigue…{PAUSE 5}$"
 
 
 CuevaTesoro3_Text_Policia2PostBattle:
@@ -15713,7 +15713,7 @@ CuevaTesoro4_Text_PoliciaIntro:
 
 
 CuevaTesoro4_Text_PoliciaDefeated:
-	.string "Tú no estarías de POLICÍA…$"
+	.string "Tú no estarías de POLICÍA…{PAUSE 5}$"
 
 
 CuevaTesoro4_Text_PoliciaPostBattle:
@@ -15738,7 +15738,7 @@ CuevaTesoro4_Text_Policia2PostBattle:
 	.string "dilatada charla sobre el principio de\l"
 	.string "antifragilidad. También nos regaló a\l"
 	.string "todos un libro sobre ello, tenía como\l"
-	.string "600 páginas…$"
+	.string "600 páginas…{PAUSE 5}$"
 
 
 CuevaTesoro4_Text_CientificoIntro:
@@ -15766,7 +15766,7 @@ CuevaTesoro4_Text_Cientifico2Intro:
 
 CuevaTesoro4_Text_Cientifico2Defeated:
 	.string "Tienes especies muy curiosas en tu\n"
-	.string "equipo, también…$"
+	.string "equipo, también…{PAUSE 5}$"
 
 
 CuevaTesoro4_Text_Cientifico2PostBattle:
@@ -15814,7 +15814,7 @@ AzaleaCarbonS1_Text_ObreroIntro:
 
 
 AzaleaCarbonS1_Text_ObreroDefeated:
-	.string "Qué equipo tan preparado…$"
+	.string "Qué equipo tan preparado…{PAUSE 5}$"
 
 
 AzaleaCarbonS1_Text_ObreroPostBattle:
@@ -15894,7 +15894,7 @@ Route8_Text_Gemela1Intro:
 
 
 Route8_Text_Gemela1Defeated:
-    .string "ANNE: El poder de nuestra unión…$"
+    .string "ANNE: El poder de nuestra unión…{PAUSE 5}$"
 
 
 
@@ -15913,7 +15913,7 @@ Route8_Text_Gemela2Intro:
 Route8_Text_Gemela2Defeated:
 .string "ELI: Pero…\n"
 	.string "Usamos nuestra conexión entre\l"
-	.string "gemelas…$"
+	.string "gemelas…{PAUSE 5}$"
 
 
 
@@ -16010,7 +16010,7 @@ Route15_Text_Pareja1Defeated:
 
 Route15_Text_Pareja1PostBattle:
     .string "RON: Si tuviera una hermana\n"
-	.string "mejor…$"
+	.string "mejor…{PAUSE 5}$"
 
 
 
@@ -16135,7 +16135,7 @@ VictoryRoad3F_Text_Pareja2Intro:
 
 
 VictoryRoad3F_Text_Pareja2Defeated:
-	.string "TULA: Eh…, en fin…$"
+	.string "TULA: Eh…, en fin…{PAUSE 5}$"
 
 
 
@@ -16185,7 +16185,7 @@ BondBridge_Text_Pareja1Intro:
 
 
 BondBridge_Text_Pareja1Defeated:
-	.string "FELI: Oh…, MATI…$"
+	.string "FELI: Oh…, MATI…{PAUSE 5}$"
 
 
 
@@ -16200,7 +16200,7 @@ BondBridge_Text_Pareja2Intro:
 
 
 BondBridge_Text_Pareja2Defeated:
-	.string "MATI: Oh…, FELI…$"
+	.string "MATI: Oh…, FELI…{PAUSE 5}$"
 
 
 BondBridge_Text_Pareja2PostBattle:
@@ -16259,7 +16259,7 @@ WaterPath_Text_Pareja1Defeated:
 
 WaterPath_Text_Pareja1PostBattle:
 	.string "MARU: Cuando pierdo me pongo\n"
-	.string "muy triste…$"
+	.string "muy triste…{PAUSE 5}$"
 
 
 
@@ -16277,7 +16277,7 @@ WaterPath_Text_Pareja2Defeated:
 
 WaterPath_Text_Pareja2PostBattle:
 	.string "MÍA: Ooooh…\n"
-	.string "Lo siento, queridos POKéMON…$"
+	.string "Lo siento, queridos POKéMON…{PAUSE 5}$"
 
 
 
@@ -16361,7 +16361,7 @@ SevaultCanyon_Text_Pareja1Intro:
 
 SevaultCanyon_Text_Pareja1Defeated:
 	.string "LINO: Me parece que he bajado\n"
-	.string "la guardia…$"
+	.string "la guardia…{PAUSE 5}$"
 
 
 
@@ -16378,14 +16378,14 @@ SevaultCanyon_Text_Pareja2Intro:
 
 
 SevaultCanyon_Text_Pareja2Defeated:
-	.string "ABA: Oooh… Lo siento…$"
+	.string "ABA: Oooh… Lo siento…{PAUSE 5}$"
 
 
 
 SevaultCanyon_Text_Pareja2PostBattle:
 	.string "ABA: Creo que voy a necesitar que\n"
 	.string "LINO me tutele y me oriente más…\p"
-	.string "LINO, ¿te parece bien?…$"
+	.string "LINO, ¿te parece bien?…{PAUSE 5}$"
 
 
 
@@ -16417,7 +16417,7 @@ Route36_Text_Pareja2Intro:
 
 
 Route36_Text_Pareja2Defeated:
-	.string "Todo se ha echado a perder…$"
+	.string "Todo se ha echado a perder…{PAUSE 5}$"
 
 
 
@@ -16597,7 +16597,7 @@ Aqua1_Text_Aqua_1Defeated:
 
 Aqua1_Aqua_1PostBattle:
 .string "¿Contrarrestar potencia con velocidad\n"
-	.string "y estrategia? Tal vez…$"
+	.string "y estrategia? Tal vez…{PAUSE 5}$"
 
 
 
@@ -16622,7 +16622,7 @@ Aqua1_Text_Aqua_3Intro:
 
 Aqua1_Text_Aqua_3Defeated:
 .string "Quién diría de la existencia de\n"
-	.string "entrenadores como tú por aquí…$"
+	.string "entrenadores como tú por aquí…{PAUSE 5}$"
 
 Aqua1_Aqua_3PostBattle:
 .string "¿Habrá más lugares como este en las\n"
@@ -16635,7 +16635,7 @@ Aqua1_Text_Aqua_4Intro:
 	.string "estábais acabados?$"
 
 Aqua1_Text_Aqua_4Defeated:
-.string "Parece que no…$"
+.string "Parece que no…{PAUSE 5}$"
 
 Aqua1_Aqua_4PostBattle:
 .string "Se nota que no eres un cualquiera, aquí\n"
@@ -16855,7 +16855,7 @@ TwoIsland_Torre_P4_Text_Rocket2Intro:
 	.string "¿Y la seguridad?$"
 
 TwoIsland_Torre_P4_Text_Rocket2Defeated:
-.string "Ya veo…$"
+.string "Ya veo…{PAUSE 5}$"
 
 TwoIsland_Torre_P4_Text_Rocket2PostBattle:
 .string "Pareces alguien importante, nuestro\n"
@@ -16882,7 +16882,7 @@ NeoLavanda_Ruta_Oeste_Text_Motorista_2Defeated:
 .string "¡P-perdóname!$"
 
 NeoLavanda_Ruta_Oeste_Text_Motorista_2PostBattle:
-.string "¡Destruido por alguien trajeado!…$"
+.string "¡Destruido por alguien trajeado!…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Oeste_Text_Motorista_3Intro:
 .string "Somos la FEDERACION POKÉMON de KANTO.\n"
@@ -16899,7 +16899,7 @@ NeoLavanda_Ruta_Oeste_Text_Necio_1Intro:
 	.string "¿Cómo funciona el MAGNETOTREN?$"
 
 NeoLavanda_Ruta_Oeste_Text_Necio_1Defeated:
-.string "Quiero ver el MAGNETOTREN…$"
+.string "Quiero ver el MAGNETOTREN…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Oeste_Text_Necio_1PostBattle:
 .string "¡El poder de los imanes es inmenso!$"
@@ -16936,7 +16936,7 @@ NeoLavanda_Ruta_Norte_Text_JugadorDefeated:
 
 NeoLavanda_Ruta_Norte_Text_JugadorPostBattle:
 .string "Mira lo que le has hecho a mi POKéMON. No\n"
-	.string "lo olvidaré…$"
+	.string "lo olvidaré…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Norte_Text_MontaneroIntro:
 .string "¡Ja, ja, ja!$"
@@ -16967,7 +16967,7 @@ NeoLavanda_Ruta_Sur_Text_Pescador_2Defeated:
 .string "¡Guaaa!$"
 
 NeoLavanda_Ruta_Sur_Text_Pescador_2PostBattle:
-.string "No tengo paciencia para la pesca…$"
+.string "No tengo paciencia para la pesca…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Sur_Text_Pescador_3Intro:
 .string "Me gusta pescar mientras escucho\n"
@@ -17010,7 +17010,7 @@ NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Intro:
 	.string "pájaro.$"
 
 NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Defeated:
-.string "Me venciste con tu velocidad…$"
+.string "Me venciste con tu velocidad…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2PostBattle:
 .string "Tus POKéMON están muy bien entrenados.$"
@@ -17041,7 +17041,7 @@ NeoLavanda_Ruta_Sur_2_Text_MontaneroIntro:
 	.string "un ONIX.$"
 
 NeoLavanda_Ruta_Sur_2_Text_MontaneroDefeated:
-.string "He perdido…$"
+.string "He perdido…{PAUSE 5}$"
 
 NeoLavanda_Ruta_Sur_2_Text_MontaneroPostBattle:
 .string "Parece que las formas geológicas no\n"
@@ -17054,7 +17054,7 @@ LavenderRadioP8_Text_PoliciaIntro:
 	.string "¿quieres verlos?$"
 
 LavenderRadioP8_Text_PoliciaDefeated:
-.string "Creí que te sorprendería…$"
+.string "Creí que te sorprendería…{PAUSE 5}$"
 
 LavenderRadioP8_Text_PoliciaPostBattle:
 .string "Si seguimos este ritmo, SILVALLY\n"
@@ -17142,7 +17142,7 @@ UndergroundPath_7F_Text_Cuarto_MoteroIntro:
 
 UndergroundPath_7F_Text_Cuarto_MoteroDefeated:
 .string "Para envenenar primero tengo que\n"
-	.string "atacar…$"
+	.string "atacar…{PAUSE 5}$"
 
 UndergroundPath_7F_Text_Cuarto_MoteroPostBattle:
 .string "Nos quedaremos aquí pegados como\n"
@@ -17171,7 +17171,7 @@ UndergroundPath_7F_Text_Sexto_MoteroIntro:
 
 UndergroundPath_7F_Text_Sexto_MoteroDefeated:
 .string "No sabía que los títeres pegaran tan\n"
-	.string "fuerte…$"
+	.string "fuerte…{PAUSE 5}$"
 
 UndergroundPath_7F_Text_Sexto_MoteroPostBattle:
 .string "Nosotros al menos somos fieles a\n"
@@ -17256,7 +17256,7 @@ UndergroundPath_7F_Text_Duodecimo_MoteroIntro:
 	.string "contigo!$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroDefeated:
- .string "Por algo llegaste tan lejos…$"
+ .string "Por algo llegaste tan lejos…{PAUSE 5}$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
 .string "Las pequeñas asociaciones siempre\n"
@@ -17399,7 +17399,7 @@ Route49_Pagoda_P7_Text_Pensador1Intro:
 	.string "es algo muy raro.$"
 
 Route49_Pagoda_P7_Text_Pensador1Defeated:
-.string "Tan raro como la flor perfecta…$"
+.string "Tan raro como la flor perfecta…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Text_Pensador1PostBattle:
 .string "El paso del tiempo ha degradado el lugar\n"
@@ -17465,7 +17465,7 @@ NeoRoute15_Text_Profesora2Intro:
 	.string "estar en clase.$"
 
 NeoRoute15_Text_Profesora2Defeated:
-.string "No quería perder…$"
+.string "No quería perder…{PAUSE 5}$"
 
 NeoRoute15_Profesora2PostBattle:
 .string "Es importante estudiar, pero hacer\n"
@@ -17492,7 +17492,7 @@ NeoRoute14_Text_PokefanDefeated:
 
 NeoRoute14_PokefanPostBattle:
 .string "Si hubiera un sistema fácil de\n"
-	.string "identificar dónde obtuve mi POKéMON…$"
+	.string "identificar dónde obtuve mi POKéMON…{PAUSE 5}$"
 
 NeoRoute14_Text_Pokefan2Intro:
 .string "Que sepas que me costó mucho atrapar a\n"
@@ -17542,7 +17542,7 @@ NeoRoute1_Text_GuayIntro:
 .string "¡Estás ahí! ¿Quieres luchar?$"
 
 NeoRoute1_Text_GuayDefeated:
-.string "He perdido…$"
+.string "He perdido…{PAUSE 5}$"
 
 NeoRoute1_GuayPostBattle:
 .string "Eres fuerte. Seguro que te has\n"
@@ -17553,7 +17553,7 @@ NeoRoute2_Text_CazabichosIntro:
 	.string "¡Prepárate para perder!$"
 
 NeoRoute2_Text_CazabichosDefeated:
-.string "Me vencieron…$"
+.string "Me vencieron…{PAUSE 5}$"
 
 NeoRoute2_CazabichosPostBattle:
 .string "Voy a buscar a Pokémon bicho más\n"
@@ -17618,7 +17618,7 @@ NeoRoute19_Text_NadadoraIntro:
 	.string "¡No me gustan los peques!$"
 
 NeoRoute19_Text_NadadoraDefeated:
-.string "Podría ganarte nadando…$"
+.string "Podría ganarte nadando…{PAUSE 5}$"
 
 NeoRoute19_NadadoraPostBattle:
 .string "No hay que nadar mucho desde CIUDAD\n"
@@ -17627,14 +17627,14 @@ NeoRoute19_NadadoraPostBattle:
 
 NeoRoute19_Text_Nadador2Intro:
 	.string "Un… poco más… y… llegaré… a\n"
-	.string "CIUDAD FUCSIA…$"
+	.string "CIUDAD FUCSIA…{PAUSE 5}$"
 
 NeoRoute19_Text_Nadador2Defeated:
 .string "¡Me ahogo!$"
 
 NeoRoute19_Nadador2PostBattle:
 .string "Le… pedí a mi novia que nadara a CIUDAD\n"
-	.string "FUCSIA…$"
+	.string "FUCSIA…{PAUSE 5}$"
 
 NeoRoute19_Text_Nadador3Intro:
 .string "Soy malísimo nadando. Sólo estoy\n"
@@ -17662,17 +17662,17 @@ NeoRoute21_Text_PescadorIntro:
 .string "Estoy aburrido de pescar. ¡Luchemos!$"
 
 NeoRoute21_Text_PescadorDefeated:
-.string "Qué fracaso…$"
+.string "Qué fracaso…{PAUSE 5}$"
 
 NeoRoute21_PescadorPostBattle:
-.string "Voy a volver a pescar…$"
+.string "Voy a volver a pescar…{PAUSE 5}$"
 
 NeoRoute21_Text_NadadoraIntro:
 .string "¡Si gano, tienes que ayudarme con la\n"
 	.string "loción solar!$"
 
 NeoRoute21_Text_NadadoraDefeated:
-.string "No quiero quemarme…$"
+.string "No quiero quemarme…{PAUSE 5}$"
 
 NeoRoute21_NadadoraPostBattle:
 .string "Debería tener cuidado con las manchas\n"
@@ -17696,7 +17696,7 @@ MtChimney_Text_SegundoPoliciaIntro:
 	.string "molestarlo?$"
 
 MtChimney_Text_SegundoPoliciaDefeat:
-	.string "Estás avisado…$"
+	.string "Estás avisado…{PAUSE 5}$"
 
 MtChimney_Text_SegundoPoliciaPostBattle:
 	.string "Al DOCTOR no le gusta ser interrumpido\n"
@@ -17759,7 +17759,7 @@ GameCorner_Mauville_Text_PrimerPoliciaDefeat:
 GameCorner_Mauville_Text_PrimerPoliciaPostBattle:
 	.string "Nuestra LÍDER es muy estricta. Que\n"
 	.string "haya perdido con tanta facilidad no le\l"
-	.string "va a gustar…$"
+	.string "va a gustar…{PAUSE 5}$"
 
 GameCorner_Mauville_Text_SegundoPoliciaIntro:
 	.string "¡Seguridad! ¡Ni un paso más! ¡Manos\n"
@@ -17814,7 +17814,7 @@ NewMauville_Inside_Text_PrimerPoliciaIntro:
 	.string "ellos.$"
 
 NewMauville_Inside_Text_PrimerPoliciaDefeat:
-	.string "Insolidario…$"
+	.string "Insolidario…{PAUSE 5}$"
 
 NewMauville_Inside_Text_PrimerPoliciaPostBattle:
 	.string "El mundo de las grandes empresas se\n"
@@ -17837,7 +17837,7 @@ NewMauville_Inside_Text_TercerCientificoIntro:
 	.string "alegado.$"
 
 NewMauville_Inside_Text_TercerCientificoDefeat:
-	.string "Nadie lo sabrá…$"
+	.string "Nadie lo sabrá…{PAUSE 5}$"
 
 NewMauville_Inside_Text_TercerCientificoPostBattle:
 	.string "Cuidar la imagen de nuestra empresa es\n"
@@ -17851,7 +17851,7 @@ AbandonedShip_Text_PrimerPoliciaIntro:
 	.string "eres tú?$"
 
 AbandonedShip_Text_PrimerPoliciaDefeat:
-	.string "Eres ese ROCKET…$"
+	.string "Eres ese ROCKET…{PAUSE 5}$"
 
 AbandonedShip_Text_PrimerPoliciaPostBattle:
 	.string "Si sigues molestando a DEVON vas a\n"
@@ -17959,7 +17959,7 @@ Snowpoint_Gimnasio_Text_QuintoIntro:
 	.string "víctima de ella!$"
 
 Snowpoint_Gimnasio_Text_QuintoDefeated:
-	.string "Ni has pestañeado…$"
+	.string "Ni has pestañeado…{PAUSE 5}$"
 
 Snowpoint_Gimnasio_Text_QuintoPostBattle:
 	.string "He luchado contra numerosos\n"
@@ -17972,7 +17972,7 @@ Snowpoint_Gimnasio_Text_SextoIntro:
 	.string "se encuentre bien o no.$"
 
 Snowpoint_Gimnasio_Text_SextoDefeated:
-	.string "Me encuentro mal…$"
+	.string "Me encuentro mal…{PAUSE 5}$"
 
 Snowpoint_Gimnasio_Text_SextoPostBattle:
 	.string "Los sentimientos del entrenador y los\n"
@@ -18020,7 +18020,7 @@ Snowpoint_Templo_S4_Text_PoliciaIntro:
 	.string "para seguirnos?$"
 
 Snowpoint_Templo_S4_Text_PoliciaDefeat:
-	.string "Derrotado en HOENN y ahora en SINNOH…$"
+	.string "Derrotado en HOENN y ahora en SINNOH…{PAUSE 5}$"
 
 Snowpoint_Templo_S4_Text_PoliciaPostBattle:
 	.string "¿De verdad te colaste en nuestro\n"
@@ -18034,7 +18034,7 @@ Route119_Text_CientificoIntro:
 
 Route119_Text_CientificoDefeat:
 	.string	"Era de esperar…\n"
-	.string	"Me has vencido, maldito…$"
+	.string	"Me has vencido, maldito…{PAUSE 5}$"
 
 Route119_CientificoPostBattle:
 	.string	"No hay nada que nuestro\n"
@@ -18054,7 +18054,7 @@ Route119_Text_PrimerPoliciaPostBattle:
 	.string	"Oh, no…\n"
 	.string	"Qué bronca me va a caer…\p"
 	.string	"Creo que voy a echarme una siesta\n"
-	.string	"para olvidar todo esto…$"
+	.string	"para olvidar todo esto…{PAUSE 5}$"
 
 Route119_Text_SegundoPoliciaIntro:
 	.string	"¡DEVON siempre va en busca\n"

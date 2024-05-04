@@ -465,7 +465,7 @@ MauvilleCity_EventScript_RegisterWallyCall::
 MauvilleCity_Text_UncleHesTooPeppy:
 	.string "UNCLE: It's because of POKéMON that\n"
 	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "But he's become a bit too peppy…{PAUSE 5}$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
 	.string "WALLY: Aww, UNCLE, please?\p"
@@ -517,11 +517,11 @@ MauvilleCity_Text_WallyHereICome:
 MauvilleCity_Text_WallyDefeat:
 	.string "WALLY: … … … … … … …\p"
 	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "I lost…{PAUSE 5}$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+	.string "I'll go back to VERDANTURF…{PAUSE 5}$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, thank you.\n"

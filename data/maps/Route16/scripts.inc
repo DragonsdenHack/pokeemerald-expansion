@@ -49,7 +49,7 @@ release
 end
 
 Route16_Text_11:
-.string "Ese HITMONLEE pegaba durísimo…$"
+.string "Ese HITMONLEE pegaba durísimo{PAUSE 5}…{PAUSE 5}$"
 
 
 Route16_12::
@@ -60,7 +60,7 @@ end
 
 Route16_Text_12:
 .string "Ha acabado con nosotros 4 usando\n"
-.string "solo a 2 POKÉMON…$"
+.string "solo a 2 POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -74,7 +74,7 @@ Route16_Text_13:
 .string "Ilusos…\n"
 .string "Nadie que desafíe a un miembro de\l"
 .string "la ÉLITE 4 puede salir bien\l"
-.string "parado…$"
+.string "parado{PAUSE 5}…{PAUSE 5}$"
 
 
 Route16_14::
@@ -85,7 +85,7 @@ end
 
 Route16_Text_14:
 .string "Así que este es el poder de la\n"
-.string "ÉLITE 4…$"
+.string "ÉLITE 4{PAUSE 5}…{PAUSE 5}$"
 
 Route16_15::
 lock        
@@ -105,7 +105,7 @@ release
 end
 
 Route16_Text_16:
-.string "Ya los tenemos donde queríamos…$"
+.string "Ya los tenemos donde queríamos{PAUSE 5}…{PAUSE 5}$"
 
 
 Route16_17::
@@ -117,7 +117,7 @@ end
 Route16_Text_17:
 .string "Maldición…\n"
 	.string "Mi WEEZING no pudo siquiera tocar\l"
-	.string "a esa enorme serpiente de acero…$"
+	.string "a esa enorme serpiente de acero{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -353,7 +353,7 @@ Route16_Combate_Bruno_Texto_1:
 	.string "fueran rival para los míos, ahora\l"
 	.string "que estáis más calmados y no os\l"
 	.string "quedan POKÉMON os diré lo que\l"
-	.string "vamos a hacer…$"
+	.string "vamos a hacer{PAUSE 5}…{PAUSE 5}$"
 
 Route16_Combate_Bruno_Texto_2:
 .string "Váis a hablar con el resto de\n"
@@ -367,7 +367,7 @@ Route16_Combate_Bruno_Texto_2:
 	.string "hacerlo se os perdonarán vuestros\l"
 	.string "crímenes y podréis seguir en\l"
 	.string "libertad paseando por este lugar,\l"
-	.string "si os negáis…$"
+	.string "si os negáis{PAUSE 5}…{PAUSE 5}$"
 
 Route16_Combate_Bruno_Texto_3:
 .string "Dad por seguro que destruiré uno\n"
@@ -439,7 +439,7 @@ Route16_Combate_Bruno_Texto_12:
 
 Route16_Combate_Bruno_Texto_13:
 .string "BRUNO: En cuanto a ti, ROCKET…\n"
-	.string "Nos volveremos a ver…$"
+	.string "Nos volveremos a ver{PAUSE 5}…{PAUSE 5}$"
 
 Route16_Combate_Bruno_Texto_14:
 .string "¡Aún no puedo creer lo que ven mis\n"

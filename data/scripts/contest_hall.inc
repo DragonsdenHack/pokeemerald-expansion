@@ -1461,7 +1461,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon1:
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
 	.string "I'm terribly sorry, but your POKéMON\n"
 	.string "is not qualified to compete at this\l"
-	.string "Rank yet…$"
+	.string "Rank yet…{PAUSE 5}$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 	.string "I'm sorry, but an EGG cannot take part\n"
@@ -1469,7 +1469,7 @@ LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
 	.string "Your POKéMON appears to be in no\n"
-	.string "condition to take part in a CONTEST…$"
+	.string "condition to take part in a CONTEST…{PAUSE 5}$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
 	.string "Oh, but that RIBBON…\p"
@@ -1529,7 +1529,7 @@ ContestHall_Text_SeenContestantsAudienceWillVote:
 	.string "voting begin!$"
 
 ContestHall_Text_VotingUnderWay:
-	.string "Voting under way…$"
+	.string "Voting under way…{PAUSE 5}$"
 
 ContestHall_Text_VotingCompleteLetsAppeal:
 	.string "Voting is now complete!\p"
@@ -1630,10 +1630,10 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon2:
 	.string "Which POKéMON would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_Transmitting:
-	.string "Transmitting…$"
+	.string "Transmitting…{PAUSE 5}$"
 
 LilycoveCity_ContestLobby_Text_TransmissionError:
-	.string "Transmission error…$"
+	.string "Transmission error…{PAUSE 5}$"
 
 LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest:
 	.string "You may have chosen a different\n"
@@ -1682,7 +1682,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
 	.string "Your POKéMON appears to be in no\n"
-	.string "condition to take part in a CONTEST…$"
+	.string "condition to take part in a CONTEST…{PAUSE 5}$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
 	.string "I'm sorry, but an EGG cannot take part\n"

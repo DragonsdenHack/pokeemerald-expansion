@@ -144,7 +144,7 @@ UnionCave_Combate_Elm_Texto_1:
 .string "Tal y como pensaba, decepcionante.$"
 
 UnionCave_Combate_Elm_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UnionCave_Combate_Elm_Texto_3:
 .string "ELM: Ah, {PLAYER}.\n"
@@ -184,7 +184,7 @@ UnionCave_Combate_Elm_Texto_8:
 	.string "quizás ahí esté su poder, al igual\l"
 	.string "que el fenómeno del FUERTE\l"
 	.string "VÍNCULO, su MEGAEVOLUCIÓN se\l"
-	.string "activa por mecanismos similares…$"
+	.string "activa por mecanismos similares…{PAUSE 5}$"
 
 UnionCave_Combate_Elm_Texto_9:
 .string "Tengo curiosidad.\n"

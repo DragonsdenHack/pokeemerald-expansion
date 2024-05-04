@@ -59,7 +59,7 @@ VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
 	.string "I found out you can put POKéMON in\n"
 	.string "a CONTEST for cuteness!\p"
 	.string "I'm so glad I raised my POKéMON with\n"
-	.string "loving care…$"
+	.string "loving care…{PAUSE 5}$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:

@@ -59,7 +59,7 @@ VictoryRoad_B2F_Text_OwenPostBattle:
 
 VictoryRoad_B2F_Text_CarolineIntro:
 	.string "Yo creo que ya debes de estar\n"
-	.string "cansándote con tanta lucha…$"
+	.string "cansándote con tanta lucha…{PAUSE 5}$"
 
 VictoryRoad_B2F_Text_CarolineDefeat:
 	.string "¡Pues no!$"
@@ -86,11 +86,11 @@ VictoryRoad_B2F_Text_JuliePostBattle:
 
 VictoryRoad_B2F_Text_FelixIntro:
 	.string "He llegado hasta aquí, pero tanta\n"
-	.string "tensión me destroza el estómago…$"
+	.string "tensión me destroza el estómago…{PAUSE 5}$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
 	.string "Ayyyy…\n"
-	.string "Qué dolor…$"
+	.string "Qué dolor…{PAUSE 5}$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
 	.string "No puedo evitar ponerme tenso al saber\n"

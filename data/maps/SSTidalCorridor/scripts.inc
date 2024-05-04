@@ -325,7 +325,7 @@ SSTidalCorridor_Text_BrineyWelcomeAboard:
 	.string "soul as a sailor!$"
 
 SSTidalCorridor_Text_Peeko:
-	.string "PEEKO: Pihyo pihyohyo…$"
+	.string "PEEKO: Pihyo pihyohyo…{PAUSE 5}$"
 
 SSTidalCorridor_Text_Cabin1:
 	.string "Cabin 1$"
@@ -367,7 +367,7 @@ end
 
 SSTidalCorridor_4_NPC_Texto_1:
 	.string "Estas colas{PAUSE 10}…{PAUSE 10} siempre hay alguien que\n"
-	.string "llega antes que tú…$"
+	.string "llega antes que tú…{PAUSE 5}$"
 
 SSTidalCorridor_6_NPC::
 lock
@@ -421,7 +421,7 @@ end
 
 SSTidalCorridor_12_NPC_Texto_1:
 	.string "Espero que no me echen atrás por llevar\n"
-	.string "pantalones cortos…$"
+	.string "pantalones cortos{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalCorridor_13_NPC::
 lock
@@ -497,7 +497,7 @@ end
 
 SSTidalCorridor_20_NPC_Texto_1:
 	.string "Tengo que conseguir esa firma del\n"
-	.string "PRESIDENTE para mi hermana…$"
+	.string "PRESIDENTE para mi hermana{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalCorridor_21_NPC::
 lock

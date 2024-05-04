@@ -171,7 +171,7 @@ Route50_Encuentro_Dunsparce_Texto_3:
 .string "¡¡¡GROAAAAAAAAR!!!$"
 
 Route50_Encuentro_Dunsparce_Texto_4:
-.string "Groarr…$"
+.string "Groarr{PAUSE 5}…{PAUSE 5}$"
 
 Route50_Encuentro_Dunsparce_Texto_5:
 .string "ANDRA: ¡Eso es! ¡Has repetido mi\n"
@@ -184,7 +184,7 @@ Route50_Encuentro_Dunsparce_Texto_6:
 
 Route50_Encuentro_Dunsparce_Texto_7:
 .string "ANDRA: Nos{PAUSE 25}…{PAUSE 25} nos está observando\n"
-	.string "detenidamente…$"
+	.string "detenidamente{PAUSE 5}…{PAUSE 5}$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
 	.string "¡¡{PLAYER} obtuvo una PIEDRA DORADA!!$"
@@ -432,7 +432,7 @@ Route50_Miguel_Texto_15:
 Route50_Miguel_Texto_16:
 .string "Este POKÉMON, yo{PAUSE 25}…{PAUSE 25} jamás fuimos tenidos\n"
 	.string "en cuenta, fuimos subestimados,\l"
-	.string "derrotados, pasados por alto…$"
+	.string "derrotados, pasados por alto{PAUSE 5}…{PAUSE 5}$"
 
 Route50_Miguel_Texto_17:
 .string "Pero juntos{PAUSE 25}…{PAUSE 25} lograremos sacar la mejor\n"

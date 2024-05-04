@@ -370,7 +370,7 @@ BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
 	.string "I wanted to take a challenge as soon\n"
 	.string "as I arrived here.\p"
 	.string "But on the way, I got seasick…\n"
-	.string "Urrrrp…$"
+	.string "Urrrrp…{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "It's not as if just anyone can come\n"
@@ -403,12 +403,12 @@ BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
 	.string "PIKE because of SEVIPER…\p"
 	.string "B-but I came all the way here, so I will\n"
 	.string "try to conquer everything!\l"
-	.string "…Shudder…$"
+	.string "…Shudder…{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 	.string "Let's play rock, paper, scissors!\n"
 	.string "One, two, three!\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 	.string "Yay! I won!\n"
@@ -426,7 +426,7 @@ BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
 	.string "for some unknown reason, would choose\l"
 	.string "fishing over battling.\p"
 	.string "Huh? You can't catch anything here?\n"
-	.string "That's disappointing…$"
+	.string "That's disappointing…{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 	.string "Today, I'm going to keep battling, no\n"
@@ -465,7 +465,7 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 	.string "Munch, munch…\p"
 	.string "It looks like this square's filled with\n"
 	.string "tough people.\p"
-	.string "Munch, munch…$"
+	.string "Munch, munch…{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "Crunch, munch…\p"
@@ -478,7 +478,7 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "eating!” Then she whaled on me.\p"
 	.string "It was a hair-raising kind of\n"
 	.string "scary experience, sure enough.\p"
-	.string "Crunch, munch…$"
+	.string "Crunch, munch…{PAUSE 5}$"
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
 	.string "Huh? Will you listen to yourself?\n"

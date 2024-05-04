@@ -112,7 +112,7 @@ Text_TerminateLinkPleaseWait:
 
 CableClub_Text_TooBusyToNotice:
 	.string "This TRAINER is too busy to\n"
-	.string "notice…$"
+	.string "notice…{PAUSE 5}$"
 
 CableClub_Text_GotToLookAtTrainerCard:
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
@@ -145,7 +145,7 @@ CableClub_Text_NotSetUpForFarAwayRegion:
 	.string "I'm awfully sorry.\p"
 	.string "We're not set up to conduct trades\n"
 	.string "with TRAINERS far away in another\l"
-	.string "region yet…$"
+	.string "region yet…{PAUSE 5}$"
 
 CableClub_Text_OtherTrainerNotReady:
 	.string "The other TRAINER is not ready.$"

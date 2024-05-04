@@ -120,11 +120,11 @@ step_end
 
 Route52_Maze_Combate_1_Texto_1:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route52_Maze_Combate_1_Texto_2:
 .string "Este ordenador es un tanto\n"
-	.string "extraño…$"
+	.string "extraño{PAUSE 5}…{PAUSE 5}$"
 
 Route52_Maze_Combate_1_Texto_3:
 .string "¡Eh, tú!\n"

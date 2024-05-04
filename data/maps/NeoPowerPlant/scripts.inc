@@ -70,7 +70,7 @@ end
 NeoPowerPlant_Text_8:
 .string "Ese POKÉMON{PAUSE 25}…{PAUSE 25} parecía hecho para\n"
 .string "generar descargas eléctricas, no me\l"
-.string "gustaría recibir un RAYO suyo…$"
+.string "gustaría recibir un RAYO suyo{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -195,7 +195,7 @@ NeoPowerPlant_Presidente_Texto_3:
 	.string "último en tecnología, gracias a ello\l"
 	.string "hemos podido acelerar la unión entre\l"
 	.string "KANTO y JOHTO. Pero parece que también\l"
-	.string "ha atraído a…$"
+	.string "ha atraído a{PAUSE 5}…{PAUSE 5}$"
 
 NeoPowerPlant_Presidente_Texto_4:
 .string "Si continúa así, producirá una\n"
@@ -274,7 +274,7 @@ NeoPowerPlant_Combate_Zapdos_Texto_1:
 .string "¡Zap!$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_2:
-.string "Zap…$"
+.string "Zap{PAUSE 5}…{PAUSE 5}$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
 .string "(¡El ZAPDOS-P se consumió por\n"

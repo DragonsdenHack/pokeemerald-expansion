@@ -113,7 +113,7 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 	.string "It's bright and shiny!\n"
-	.string "But it's just trash…$"
+	.string "But it's just trash{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_EventScript_Primer_Policia::
 	trainerbattle_single TRAINER_TRAINER_601, AbandonedShip_Text_PrimerPoliciaIntro, AbandonedShip_Text_PrimerPoliciaDefeat

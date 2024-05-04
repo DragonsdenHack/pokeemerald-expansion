@@ -1992,10 +1992,10 @@ BaseRocketHoenn_Encuentro_Oak_Texto_8:
 	.string "de nacimiento será mucho mayor.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_9:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_10:
-.string "OAK: Ahh… La voluntad… ¡Qué fácil de\n"
+.string "OAK: Ahh{PAUSE 15}…{PAUSE 15} La voluntad{PAUSE 15}…{PAUSE 15} ¡Qué fácil de\n"
 	.string "torcer ante los estímulos y\l"
 	.string "contratiempos adecuados!$"
 

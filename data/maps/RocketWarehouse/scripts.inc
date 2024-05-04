@@ -17,7 +17,7 @@ RocketWarehouse_Text_3:
 .string "Por la energía que desprende esta\n"
 .string "POKÉ BALL, se ve a leguas que hay\l"
 .string "un POKÉMON bastante potente en su\l"
-.string "interior…$"
+.string "interior{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -273,7 +273,7 @@ RocketWarehouse_Text_13:
 .string "Por la energía que desprende esta\n"
 .string "POKÉ BALL, se ve a leguas que hay\l"
 .string "un POKÉMON bastante potente en su\l"
-.string "interior…$"
+.string "interior{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -369,7 +369,7 @@ RocketWarehouseDocumento_Text_100:
 	.string "Por la energía que desprende esta\n"
 	.string "POKÉ BALL, se ve a leguas que hay\l"
 	.string "un POKÉMON bastante potente en su\l"
-	.string "interior…$"
+	.string "interior{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -381,7 +381,7 @@ RocketWarehouseDocumento_Text_101:
 	.string "Por la energía que desprende esta\n"
 	.string "POKÉ BALL, se ve a leguas que hay\l"
 	.string "un POKÉMON bastante potente en su\l"
-	.string "interior…$"
+	.string "interior{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketWarehouseDocumento_102::
@@ -395,7 +395,7 @@ RocketWarehouseDocumento_Text_102:
 	.string "magnéticas en la evolución de los\l"
 	.string "POKéMON - …\p"
 	.string "… … … … … …\p"
-	.string "Cualquiera entiende esto…$"
+	.string "Cualquiera entiende esto{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -720,7 +720,7 @@ RocketWarehouse_Text_MisionAtlas10:
 	.string "necesitáis tener un POKÉMON con\l"
 	.string "SURF, es sabido que los SENTRET\l"
 	.string "del prado son famosos por conocer\l"
-	.string "este movimiento…$"
+	.string "este movimiento{PAUSE 5}…{PAUSE 5}$"
 
 RocketWarehouse_Text_MisionAtlas10_1:
 .string "Antiguamente, los ROCKET atrapaban uno\n"
@@ -737,7 +737,7 @@ RocketWarehouse_Text_MisionAtlas10_3:
 .string "En un inicio por ser ineficiente: podían\n"
 	.string "atraparse ingentes cantidades de\l"
 	.string "SENTRET a la vez y usarlas como\l"
-	.string "reserva para nuevos reclutas, pero…$"
+	.string "reserva para nuevos reclutas, pero{PAUSE 5}…{PAUSE 5}$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
 .string "El principal motivo son las nuevas\n"

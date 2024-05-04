@@ -43,4 +43,4 @@ RuinsOfAlph_Cave2_Text_3:
 .string "No podrían haber dejado claro lo\l"
 .string "que sea que guarda este lugar,\l"
 .string "ahora tengo que estar jugando a\l"
-.string "descifrar jeroglíficos…$"
+.string "descifrar jeroglíficos{PAUSE 5}…{PAUSE 5}$"

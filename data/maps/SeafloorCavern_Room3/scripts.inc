@@ -34,7 +34,7 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 	.string "not a TEAM AQUA member.\p"
 	.string "You could have enjoyed the fabulous\n"
 	.string "world our BOSS has promised as\l"
-	.string "one of us…$"
+	.string "one of us{PAUSE 5}…{PAUSE 5}$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
 	.string "For our dream to become real, we need\n"
@@ -54,5 +54,5 @@ SeafloorCavern_Room3_Text_Grunt5PostBattle:
 	.string "But here you are, just some punk,\n"
 	.string "going up against our BOSS.\p"
 	.string "Maybe…\n"
-	.string "You must be something…$"
+	.string "You must be something{PAUSE 5}…{PAUSE 5}$"
 

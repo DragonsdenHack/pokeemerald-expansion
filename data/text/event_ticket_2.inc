@@ -5,7 +5,7 @@ EventTicket_Text_OldSeaMapTooFar:
     .string "Let's have a look.\n"
     .string "… … … … … …\p"
     .string "Boy, this is quite a ways away.\n"
-    .string "I'm afraid I can't help you…$"
+    .string "I'm afraid I can't help you…{PAUSE 5}$"
 
 EventTicket_Text_BrineyHoldOnASecond:
     .string "BRINEY: Hold on a second!\p"
@@ -68,4 +68,4 @@ FarawayIsland_Entrance_Text_Sign:
     .string "…ith that hope, I depar…”$"
 
 FarawayIsland_Interior_Text_Mew:
-    .string "Myuu…$"
+    .string "Myuu…{PAUSE 5}$"

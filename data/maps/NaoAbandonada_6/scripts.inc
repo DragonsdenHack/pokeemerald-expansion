@@ -144,7 +144,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_5:
 	.string "Así es, hace años, cuando buscábamos\n"
 	.string "por primera vez las formas primigenias\l"
 	.string "de KYOGRE y GROUDON. Fue aquí donde\l"
-	.string "tuvimos la primera toma de contacto…$"
+	.string "tuvimos la primera toma de contacto{PAUSE 5}…{PAUSE 5}$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_6:
 	.string "Pero…aún estábamos muy verdes. Sí,\n"
@@ -214,7 +214,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_16:
 	.string "Pero ahora, has dejado claras tus\n"
 	.string "intenciones. Esta vez vas a presenciar\l"
 	.string "algunos de nuestros avances\l"
-	.string "tecnológicos, pero sobre todo…$"
+	.string "tecnológicos, pero sobre todo…{PAUSE 5}$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_17:
 	.string "¡Vas a ver el verdadero poder que\n"
@@ -249,7 +249,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_23:
 	.string "localizar las esferas ROJA y AZUL. No\l"
 	.string "obstante, haciéndole unos ajustes,\l"
 	.string "podremos también localizar un objeto\l"
-	.string "aún más antiguo…$"
+	.string "aún más antiguo{PAUSE 5}…{PAUSE 5}$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_24:
 	.string "Sería una lástima que el verdadero\n"

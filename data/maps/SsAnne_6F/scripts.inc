@@ -132,7 +132,7 @@ SsAnne6F_Text_10:
 .string "Puafff…\n"
 .string "Ni se te ocurra aceptar el licor\l"
 .string "extraño que sirve ese camarero de\l"
-.string "ahí, creo que voy a vomitar…$"
+.string "ahí, creo que voy a vomitar{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -149,7 +149,7 @@ SsAnne6F_Text_11:
 .string "Aún no logro comprender cuál es la\l"
 .string "esencia última que me proporcione\l"
 .string "la fórmula exacta para exprimir al\l"
-.string "máximo eventos así…$"
+.string "máximo eventos así{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -300,12 +300,12 @@ SSAnne6F_Lance_Surge_Text_4:
 	.string "la economía de nuestra región está\l"
 	.string "experimentando un repunte sin\l"
 	.string "precedentes, y el nivel de vida\l"
-	.string "aquí cada vez es más elevado…$"
+	.string "aquí cada vez es más elevado{PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_5:
 .string "LANCE: Pero esa no era la\n"
 	.string "respuesta que estaba buscando\l"
-	.string "SURGE. Me preguntaba más bien…$"
+	.string "SURGE. Me preguntaba más bien{PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_6:
 .string "LANCE: Cómo lleva la gente el\n"
@@ -327,7 +327,7 @@ SSAnne6F_Lance_Surge_Text_7:
 	.string "vidas como si nada hubiera pasado.\l"
 	.string "Tal vez siga existiendo cierto\l"
 	.string "recelo por parte de ciertos\l"
-	.string "sectores de la población…$"
+	.string "sectores de la población{PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_8:
 .string "LANCE: ¿Te refieres al TEAM\n"

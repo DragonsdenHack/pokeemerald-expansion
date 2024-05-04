@@ -45,7 +45,7 @@ FiveIsland_PokemonCenter_Text_3:
 .string "habitantes.\p"
 .string "En el mismo cabo vive una señora\n"
 .string "mayor.\p"
-.string "Lleva allí ni se sabe…$"
+.string "Lleva allí ni se sabe{PAUSE 5}…{PAUSE 5}$"
 
 
 

@@ -654,7 +654,7 @@ Route111_Text_VickyIntro:
 
 Route111_Text_VickyDefeat:
 	.string	"¡Jarl! Eres fuerte…\n"
-	.string	"Los demás tenían razón…$"
+	.string	"Los demás tenían razón{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_VickyPostBattle:
 	.string	"¡Pero aún no has ganado!\n"
@@ -672,7 +672,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
 Route111_Text_WinstrateFamilyDestroyedMe:
 	.string	"He retado a la familia ESTRATEGA,\n"
 	.string	"pero cinco combates seguidos son\l"
-	.string	"muchos combates para mí. Uf…$"
+	.string	"muchos combates para mí. Uf{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_RouteSignMauville:
 	.string	"RUTA 111\n"
@@ -716,7 +716,7 @@ Route111_Text_MirageTowerClearlyVisible:
 	.string	"por un espejismo está visible!\p"
 	.string	"Pero parece tan frágil…\n"
 	.string	"Se podría caer con un soplo…\p"
-	.string	"Quiero entrar, pero me falta valor…$"
+	.string	"Quiero entrar, pero me falta valor{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
 	.string	"Guau…\n"
@@ -730,15 +730,15 @@ Route111_Text_MirageTowerHasntBeenSeenSince:
 	.string	"Desde que hablé contigo,\n"
 	.string	"nadie ha vuelto a ver la torre de arena.\p"
 	.string	"Puede que se tratara realmente\n"
-	.string	"de la TORRE ESPEJISMO…$"
+	.string	"de la TORRE ESPEJISMO{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_ClawFossilDisappeared:
 	.string	"El FÓSIL GARRA ha desaparecido\n"
-	.string	"en la arena…$"
+	.string	"en la arena{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_RootFossilDisappeared:
 	.string	"El FÓSIL RAÍZ ha desaparecido\n"
-	.string	"en la arena…$"
+	.string	"en la arena{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string	"¡Se equivocó!\p"
@@ -892,7 +892,7 @@ end
 Ruta_111_Cientificos_Texto_1:
 	.string "MALVALANOVA será nuestro próximo\n"
 	.string "objetivo, pero primero debemos esperar\l"
-	.string "al doctor…$"
+	.string "al doctor{PAUSE 5}…{PAUSE 5}$"
 
 
 

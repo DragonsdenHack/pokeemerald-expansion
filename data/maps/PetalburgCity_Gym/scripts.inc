@@ -1145,7 +1145,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "Um… I…\n"
-	.string "I'd like to get a POKéMON, please…$"
+	.string "I'd like to get a POKéMON, please…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 	.string "DAD: Hm? You're… Uh… Oh, right.\n"
@@ -1157,7 +1157,7 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "I thought I would be lonely by myself,\n"
 	.string "so I wanted to take a POKéMON along.\p"
 	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…$"
+	.string "I don't know how…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_DadHmISee:
 	.string "DAD: Hm. I see.$"
@@ -1291,7 +1291,7 @@ PetalburgCity_Gym_Text_DadHappyAndSad:
 	.string "DAD: As the GYM LEADER, I can't\n"
 	.string "express how upset I am…\p"
 	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+	.string "happy and a little sad. It's odd…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"
@@ -1397,7 +1397,7 @@ PetalburgCity_Gym_Text_GeorgeIntro:
 PetalburgCity_Gym_Text_GeorgeDefeat:
 	.string	"No conseguí restaurar\n"
 	.string	"suficientes PS…\p"
-	.string	"Vaya potencia de ATAQUE…$"
+	.string	"Vaya potencia de ATAQUE…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string	"¡Hay que esforzarse!\n"
@@ -1442,7 +1442,7 @@ PetalburgCity_Gym_Text_MaryIntro:
 	.string	"den en el blanco.$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-	.string	"Eres muy superior a mí…$"
+	.string	"Eres muy superior a mí…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
 	.string	"Hay ENTRENADORES aún\n"
@@ -1466,7 +1466,7 @@ PetalburgCity_Gym_Text_AlexiaIntro:
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
 	.string	"Nuestras defensas no han sido\n"
-	.string	"suficientes…$"
+	.string	"suficientes…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string	"Creo que me has enseñado\n"
@@ -1504,7 +1504,7 @@ PetalburgCity_Gym_Text_JodyPostBadge:
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "This door appears to be locked\n"
-	.string "right now…$"
+	.string "right now…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
 	.string	"En el cartel pone: “SALA\n"
@@ -1513,7 +1513,7 @@ PetalburgCity_Gym_Text_EnterSpeedRoom:
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-	.string	"Parece que esta puerta está cerrada…$"
+	.string	"Parece que esta puerta está cerrada…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
 	.string	"En el cartel pone: “SALA\n"
@@ -1573,7 +1573,7 @@ PetalburgCity_Gym_Text_NormanPreRematch:
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
 	.string "Uh… Haha…\n"
-	.string "Maybe that was going too hard…$"
+	.string "Maybe that was going too hard…{PAUSE 5}$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
 	.string "DAD: {PLAYER}…\n"

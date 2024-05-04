@@ -10,7 +10,7 @@ end
 Route32_Text_1:
 .string "Maldición…\n"
 .string "Espero que pronto abran las\l"
-.string "fronteras de RUTA 26…$"
+.string "fronteras de RUTA 26…{PAUSE 5}$"
 
 
 
@@ -210,7 +210,7 @@ end
 
 Curacion_Curacion_Curacion_Route32_Texto_1:
 .string "Tus POKÉMON parecen muy cansados, deja\n"
-	.string "que los cure…$"
+	.string "que los cure…{PAUSE 5}$"
 
 Curacion_Centros_Johto_Texto_2:
 .string "¡Ahora están radiantes de vida! ¡Igual\n"

@@ -205,7 +205,7 @@ Route4_Evento_Karatekas_Text_9:
 
 Route4_Evento_Karatekas_Text_10:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route4_Evento_Karatekas_Text_11:
 .string "Gracias por ayudarnos a poner en\n"

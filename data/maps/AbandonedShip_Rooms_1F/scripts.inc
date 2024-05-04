@@ -33,14 +33,14 @@ AbandonedShip_Rooms_1F_Text_TakingALookAround:
 	.string	"Los barcos de este tipo son poco\n"
 	.string	"comunes, así que estoy de inspección.\p"
 	.string	"Mmmm…\n"
-	.string	"Parece que hay muchos camarotes…$"
+	.string	"Parece que hay muchos camarotes{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
 	.string	"¿Qué ha podido impulsarte a venir\n"
 	.string	"hasta aquí? ¡Será la curiosidad!$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
-	.string	"La fuerza es otra de tus cualidades…$"
+	.string	"La fuerza es otra de tus cualidades{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 	.string	"¿Ves al hombre de ahí al lado?\p"

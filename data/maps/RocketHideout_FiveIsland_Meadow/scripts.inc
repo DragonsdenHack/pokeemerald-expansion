@@ -184,7 +184,7 @@ RocketHideoutFiveIslandMeadow_Text_12:
 .string "desde ISLA INTA hemos llegado a\l"
 .string "conclusiones muy interesantes\l"
 .string "respecto a la manipulación de las\l"
-.string "ondas de radio…$"
+.string "ondas de radio{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideoutFiveIslanMeadow10::
@@ -418,7 +418,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas2:
 	.string "conlleva, yo soy ATLAS, la mano\l"
 	.string "derecha de GIOVANNI, el\l"
 	.string "ADMINISTRADOR principal y LÍDER\l"
-	.string "aquí en ISLAS SETE…$"
+	.string "aquí en ISLAS SETE{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -451,7 +451,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas4:
 	.string "ello?\l"
 	.string "No es por criticar, pero un ZUBAT\l"
 	.string "no es una buena herramienta\l"
-	.string "precisamente, tal vez un NIDOR…$"
+	.string "precisamente, tal vez un NIDOR{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas5:
@@ -1162,5 +1162,5 @@ end
 
 Curacion_Curacion_Guarida_Rocket_Texto_1:
 .string "Bienvenido al CENTRO ROCKET de\n"
-	.string "curación exprés…$"
+	.string "curación exprés{PAUSE 5}…{PAUSE 5}$"
 

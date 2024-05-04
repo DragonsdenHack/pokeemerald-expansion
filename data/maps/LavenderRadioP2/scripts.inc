@@ -30,7 +30,7 @@ LavenderRadioP2_Text_2:
 .string "controlar el poder que estamos\l"
 .string "creando? Si ese tal MEWTWO escapó hace\l"
 .string "años, en la actualidad, con un poder\l"
-.string "mayor, no sé…$"
+.string "mayor, no sé{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -220,7 +220,7 @@ LavenderRadioP2_Evento_Fuji_Texto_3:
 	.string "LAVANDA. Aunque solo será perceptible\l"
 	.string "para los que trabajemos aquí, el resto\l"
 	.string "no podrá pasar de la primera planta, y\l"
-	.string "con motivo…$"
+	.string "con motivo{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP2_Evento_Fuji_Texto_4:
 .string "BILL y ELM conocen mejor su\n"
@@ -231,7 +231,7 @@ LavenderRadioP2_Evento_Fuji_Texto_4:
 	.string "encargaremos de seleccionar ese 0,1%\l"
 	.string "restante, el que nos puede ser útil\l"
 	.string "para producir incrementos en el poder\l"
-	.string "de un POKÉMON…$"
+	.string "de un POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP2_Evento_Fuji_Texto_5:
 .string "Este tipo de cuestiones a mí ya no me\n"
@@ -246,7 +246,7 @@ LavenderRadioP2_Evento_Fuji_Texto_6:
 	.string "mayoría desconozca su propósito.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_7:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP2_Evento_Fuji_Texto_8:
 .string "Me haría especial ilusión que visitases\n"

@@ -17,7 +17,7 @@ BerryBlender_Text_Excellent:
 
 BerryBlender_Text_MadeOldTimerSad:
 	.string "Oh…\n"
-	.string "You've made this old-timer sad…$"
+	.string "You've made this old-timer sad…{PAUSE 5}$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks:
 	.string "Do you know how to make a {POKEBLOCK}?$"

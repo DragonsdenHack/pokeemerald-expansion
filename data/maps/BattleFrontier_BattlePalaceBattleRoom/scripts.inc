@@ -484,7 +484,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
 	.string "Saving the data.\n"
-	.string "Have patience…$"
+	.string "Have patience…{PAUSE 5}$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
 	.string "Do you wish to record your latest\n"
@@ -494,7 +494,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
 	.string "And now…\p"
 	.string "By winning consistently, you have\n"
 	.string "earned the privilege of challenging\l"
-	.string "our master, the PALACE MAVEN…$"
+	.string "our master, the PALACE MAVEN…{PAUSE 5}$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
 	.string "I shall send for the PALACE MAVEN.\n"

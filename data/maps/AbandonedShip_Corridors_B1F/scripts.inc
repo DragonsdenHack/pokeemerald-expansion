@@ -64,7 +64,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 	.string	"El barco está casi tocando fondo.\p"
 	.string	"Si un POKéMON supiera bucear,\n"
-	.string	"quizás podríamos avanzar…$"
+	.string	"quizás podríamos avanzar{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
 	.string	"¡Barco a la vista!$"

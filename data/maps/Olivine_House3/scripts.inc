@@ -16,7 +16,7 @@ OlivineCity_House3_Text_1:
 .string "¡Eso es imposible!\l"
 .string "Debería hacer como yo y entrenar a\l"
 .string "cualquier POKÉMON mientras sea\l"
-.string "fuerte…$"
+.string "fuerte{PAUSE 5}…{PAUSE 5}$"
 
 
 

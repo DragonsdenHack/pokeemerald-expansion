@@ -191,7 +191,7 @@ Magma3_Combate_Magno_Texto_1:
 	.string "de tu causa, gracias a la ESFERA\l"
 	.string "ROJA puedo controlarte, pero no\l"
 	.string "temas, no haré más que cumplir tu\l"
-	.string "voluntad de expandir la tierra…$"
+	.string "voluntad de expandir la tierra{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_2:
 .string "Así que mi fiel COMANDANTE TATIANO\n"
@@ -310,7 +310,7 @@ Magma3_Combate_Magno_Texto_17:
 	.string "nos han hablado de un tal GROUDON,\l"
 	.string "y de una ESFERA AZUL que lo\l"
 	.string "despierta, pero eso está en\l"
-	.string "HOENN…$"
+	.string "HOENN{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_18:
 .string "MAGNO: ¡GROUDON sí!\n"
@@ -333,7 +333,7 @@ Magma3_Combate_Magno_Texto_19:
 	.string "vuelve a tener un objetivo claro,\l"
 	.string "y esta vez no pondrá a nadie en\l"
 	.string "peligro, aunque llegara a hacerse\l"
-	.string "con la ESFERA AZUL…$"
+	.string "con la ESFERA AZUL{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_20:
 .string "De nuevo me has impresionado\n"

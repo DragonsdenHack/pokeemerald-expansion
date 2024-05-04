@@ -1446,17 +1446,17 @@ SootopolisCity_Text_TwoPokemonArentAngry:
 	.string	"Yo creo que esos dos POKéMON\n"
 	.string	"en realidad no están furiosos.\p"
 	.string	"Creo que lo que pasa… es que no\n"
-	.string	"pueden controlar su poder…$"
+	.string	"pueden controlar su poder…{PAUSE 5}$"
 
 SootopolisCity_Text_FlyingMonStoppedRampage:
 	.string	"Ese POKéMON volador bajó del\n"
 	.string	"cielo y detuvo a los dos POKéMON\l"
-	.string	"que se peleaban…$"
+	.string	"que se peleaban…{PAUSE 5}$"
 
 SootopolisCity_Text_WonderWhatWorldIsLike:
 	.string	"Nunca he salido de la ciudad.\p"
 	.string	"Me pregunto cómo será el mundo\n"
-	.string	"lejos de aquí…$"
+	.string	"lejos de aquí…{PAUSE 5}$"
 
 SootopolisCity_Text_ThisIsWicked:
 	.string	"¡Halaaaa!\n"
@@ -1506,7 +1506,7 @@ SootopolisCity_Text_BigPokemonFighting:
 
 SootopolisCity_Text_PrettyMonCameFromSky:
 	.string	"Un POKéMON muy bonito ha bajado\n"
-	.string	"volando del cielo…$"
+	.string	"volando del cielo…{PAUSE 5}$"
 
 SootopolisCity_Text_SootopolisWillBeWrecked:
 	.string	"¡Oh, no!\n"
@@ -1520,10 +1520,10 @@ SootopolisCity_Text_NoOrdinaryTourist:
 	.string	"desde tan lejos a ARRECÍPOLIS?\l"
 	.string	"Pero tú no vienes de turismo…\p"
 	.string	"Pero tampoco vienes a nada\n"
-	.string	"interesante, ¿no?…$"
+	.string	"interesante, ¿no?…{PAUSE 5}$"
 
 SootopolisCity_Text_CityRegainedCalm:
-	.string	"La ciudad ha recuperado la calma…$"
+	.string	"La ciudad ha recuperado la calma…{PAUSE 5}$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string	"¿Tú quién eres?\p"
@@ -1546,13 +1546,13 @@ SootopolisCity_Text_AwakenedPokemonClash:
 	.string	"Oh, asombroso…\p"
 	.string	"El enfrentamiento entre los dos\n"
 	.string	"POKéMON ha sido sofocado por\l"
-	.string	"un tercer POKéMON…$"
+	.string	"un tercer POKéMON…{PAUSE 5}$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo:
 	.string	"Ésta es la CUEVA ANCESTRAL…\p"
 	.string	"Cuando la crisis haya tocado a su fin,\n"
 	.string	"la cueva también caerá en un\l"
-	.string	"profundo sueño…$"
+	.string	"profundo sueño…{PAUSE 5}$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
 	.string	"ARRECÍPOLIS es una ciudad que nació\n"
@@ -1577,7 +1577,7 @@ SootopolisCity_Text_NightSkyFavoriteScenery:
 	.string	"por el cráter del volcán…\p"
 	.string	"Y, en él, titilan las estrellas como si\n"
 	.string	"estuvieran vivas…\l"
-	.string	"Me encanta este paisaje…$"
+	.string	"Me encanta este paisaje…{PAUSE 5}$"
 
 SootopolisCity_Text_WeatherWentWild:
 	.string	"El tiempo estaba despejado\n"
@@ -1609,7 +1609,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string	"de resolver la crisis sin esfuerzos\l"
 	.string	"y en menos que canta un gallo…\p"
 	.string	"Jua…\n"
-	.string	"Jua, jua, jua, jua…$"
+	.string	"Jua, jua, jua, jua…{PAUSE 5}$"
 
 SootopolisCity_Text_KyogreCalmDown:
 	.string	"AQUILES: ¡KYOGRE! ¡¿Qué ocurre?!\n"
@@ -1630,7 +1630,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string	"Ja, ja, ja, ja…\p"
 	.string	"Puede que nuestras maquinaciones\n"
 	.string	"fueran pequeñeces carentes de sentido\l"
-	.string	"para los POKéMON…$"
+	.string	"para los POKéMON…{PAUSE 5}$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string	"MÁXIMO: Esos dos POKéMON…\n"
@@ -1661,11 +1661,11 @@ SootopolisCity_Text_HereWereAreHelpWallace:
 	.string	"Dentro encontrarás a alguien que\n"
 	.string	"responde al nombre de PLUBIO.\p"
 	.string	"Creo que tú tienes las cualidades\n"
-	.string	"necesarias para ayudarle…$"
+	.string	"necesarias para ayudarle…{PAUSE 5}$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
 	.string	"MÁXIMO: Creo que tú tienes las\n"
-	.string	"cualidades necesarias para ayudarle…$"
+	.string	"cualidades necesarias para ayudarle…{PAUSE 5}$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
 	.string	"MÁXIMO: El PILAR CELESTE…\p"
@@ -1675,13 +1675,13 @@ SootopolisCity_Text_NeverBeenToSkyPillar:
 SootopolisCity_Text_SoThatsRayquaza:
 	.string	"MÁXIMO: Así que ése es RAYQUAZA…\p"
 	.string	"Es increíble cómo los dos POKéMON\n"
-	.string	"que se peleaban han huido al verlo…$"
+	.string	"que se peleaban han huido al verlo…{PAUSE 5}$"
 
 SootopolisCity_Text_MaxieArchieLeft:
 	.string	"MÁXIMO: Parece que tanto MAGNO\n"
 	.string	"como AQUILES se han marchado.\p"
 	.string	"Puede que hayan vuelto al MONTE\n"
-	.string	"PÍRICO a devolver las ESFERAS…$"
+	.string	"PÍRICO a devolver las ESFERAS…{PAUSE 5}$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string	"PLUBIO: ¿Eh?\n"
@@ -1689,14 +1689,14 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string	"¿Todavía no has subido a lo\n"
 	.string	"alto del PILAR CELESTE?\p"
 	.string	"Estoy seguro de que puedes\n"
-	.string	"llegar hasta allí arriba…$"
+	.string	"llegar hasta allí arriba…{PAUSE 5}$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string	"PLUBIO: {PLAYER}{KUN}…\p"
 	.string	"No creo que los líderes de los EQUIPOS\n"
 	.string	"MAGMA y AQUA tengan malas intenciones.\p"
 	.string	"No haría daño a nadie oír lo\n"
-	.string	"que tienen que decir…$"
+	.string	"que tienen que decir…{PAUSE 5}$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string	"PLUBIO: {PLAYER}{KUN}…\n"
@@ -1792,7 +1792,7 @@ SootopolisCity_Andra_Texto_10:
 	.string "ANDRA: Ya los conozco. La batalla entre\n"
 	.string "KYOGRE y GROUDON. No me despierta el\l"
 	.string "más mínimo interés, dioses jugando\l"
-	.string "entre ellos a ver quien…$"
+	.string "entre ellos a ver quien{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_Andra_Texto_11:
 	.string "GALANO: No tan rápido chica, yo hablaba\n"
@@ -1806,7 +1806,7 @@ SootopolisCity_Andra_Texto_13:
 	.string "es conocida por los líderes de\l"
 	.string "ARRECÍPOLIS y los guardianes de CUEVA\l"
 	.string "ANCESTRAL, no debería hacer esto,\l"
-	.string "pero…$"
+	.string "pero{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_Andra_Texto_14:
 	.string "MILOTIC siempre ha sido un POKÉMON muy\n"

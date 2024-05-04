@@ -297,7 +297,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_2:
 	.string "LEGENDARIOS les es devuelta.\l"
 	.string "KYOGRE, GROUDON…es lo que andaba\l"
 	.string "buscando, pero aún más\l"
-	.string "importante…$"
+	.string "importante{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_3:
 .string "KYUREM, la cáscara vacía del\n"
@@ -320,7 +320,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_6:
 RuinsOfAlph_S4_Combate_Zeus_Texto_7:
 .string "Los 3 juntos formarán al DRAGÓN\n"
 	.string "ORIGINAL, la perfección, el\l"
-	.string "equilibrio univers…$"
+	.string "equilibrio univers{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_8:
 .string "¡Al fin!$"
@@ -387,7 +387,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_19:
 	.string "viviendo.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_20:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 .string "Ese estúpido ha muerto sin saber\n"

@@ -420,17 +420,17 @@ Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 	.string "These are BLACKGLASSES.\l"
 	.string "They're not what I'm looking for…\p"
 	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
+	.string "here{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_CantFindGlassesNotHere:
 	.string "Hmm…\n"
 	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
+	.string "Maybe they're not around here{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_NotWhatImLookingFor:
 	.string "Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "They're not what I'm looking for{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"

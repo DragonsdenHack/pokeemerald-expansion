@@ -342,7 +342,7 @@ Route49_MazeP4_Combate_Maestro_Texto_2:
 	.string "a cómo entrenas.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_3:
-.string "ANDRA: Estuve tan cerca…$"
+.string "ANDRA: Estuve tan cerca{PAUSE 5}…{PAUSE 5}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_4:
 .string "G.MAESTRO: El combate nunca peligró\n"
@@ -369,7 +369,7 @@ Route49_MazeP4_Combate_Maestro_Texto_8:
 	.string "con los tuyos.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_9:
-.string "¡Oh! Qué maestría…$"
+.string "¡Oh! Qué maestría{PAUSE 5}…{PAUSE 5}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_10:
 .string "G.MAESTRO: Ahora comprendo porqué el\n"
@@ -400,7 +400,7 @@ Route49_MazeP4_Combate_Maestro_Texto_13:
 Route49_MazeP4_Combate_Maestro_Texto_14:
 .string "Vuestro caso es un ejemplo de las\n"
 	.string "posibilidades infinitas que existen\l"
-	.string "para cada POKÉMON, tal y como…$"
+	.string "para cada POKÉMON, tal y como{PAUSE 5}…{PAUSE 5}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_15:
 .string "ANDRA: ¿Sus FUERTE VÍNCULO de\n"

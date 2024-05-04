@@ -106,7 +106,7 @@ SSTidalRooms_Text_JedIntro:
 	.string "We'll show you our lovey-dovey power!$"
 
 SSTidalRooms_Text_JedDefeat:
-	.string "JED: Sigh…$"
+	.string "JED: Sigh{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalRooms_Text_JedPostBattle:
 	.string "JED: It's the first time that our lovey-\n"
@@ -131,7 +131,7 @@ SSTidalRooms_Text_LeaPostBattle:
 
 SSTidalRooms_Text_LeaNotEnoughMons:
 	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two POKéMON…$"
+	.string "But you don't even have two POKéMON{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalRooms_Text_GarretIntro:
 	.string "Ah, you've come just in time.\p"

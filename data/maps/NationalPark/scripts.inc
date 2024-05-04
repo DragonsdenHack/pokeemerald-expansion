@@ -36,7 +36,7 @@ end
 NationalPark_Text_6:
 .string "Estoy harto de andar…\n"
 .string "Deberían de poner unos cuantos\l"
-.string "bancos por esta zona…$"
+.string "bancos por esta zona{PAUSE 5}…{PAUSE 5}$"
 
 
 

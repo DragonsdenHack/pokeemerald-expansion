@@ -260,12 +260,12 @@ MtEmber_B5F_Encuentro_Magno_Texto_5:
 .string "Si juntamos ambos objetos, la\n"
 	.string "ESFERA ROJA y el RUBÍ, dentro de\l"
 	.string "este lugar, la reacción es la\l"
-	.string "siguiente…$"
+	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
 .string "Al fin, ya queda poco GROUDON, tu\n"
 	.string "poder ha sido contenido por mucho\l"
-	.string "tiempo, pero ya no más…$"
+	.string "tiempo, pero ya no más{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 .string "Todos adentro, ¡ya!$"

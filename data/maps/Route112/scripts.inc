@@ -127,7 +127,7 @@ Route112_Text_CantLetAnyonePassUntilTheyreBack:
 Route112_Text_NotEasyToGetBackToLavaridge:
 	.string	"Me gustaría ir a MALVALONA, pero si\n"
 	.string	"salto por aquí luego no podré volver\l"
-	.string	"a LAVACALDA tan fácilmente…$"
+	.string	"a LAVACALDA tan fácilmente{PAUSE 5}…{PAUSE 5}$"
 
 Route112_Text_MtChimneyCableCarSign:
 	.string	"TELEFÉRICO del MONTE CENIZO\n"

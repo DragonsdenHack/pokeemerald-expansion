@@ -519,7 +519,7 @@ Route109_Text_LittleKidsDartAround:
 	.string "You don't dare take your eyes off them\n"
 	.string "for an instant. It's very taxing.\p"
 	.string "Mine are with my POKéMON, so they\n"
-	.string "should be okay, but…$"
+	.string "should be okay, but{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_SandCastleTakingLongTime:
 	.string "Our sand castle's taking a long time\n"

@@ -54,4 +54,4 @@ BlackthornCity_Shop_Text_4:
 .string "el desfiladero del sur, me ha\l"
 .string "costado mucho llegar a CIUDAD\l"
 .string "ENDRINO, y tampoco tengo ningún\l"
-.string "POKÉMON VOLADOR para volver…$"
+.string "POKÉMON VOLADOR para volver{PAUSE 5}…{PAUSE 5}$"

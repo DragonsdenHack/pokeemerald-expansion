@@ -96,7 +96,7 @@ NeoLavandaCementerio_Dialogo_Fuji_Texto_2:
 .string "Debo decirte que estoy muy contento\n"
 	.string "con el resultado final del CEMENTERIO,\l"
 	.string "todas las almas han sido trasladadas\l"
-	.string "con éxito, el problema es que…$"
+	.string "con éxito, el problema es que{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_3:
 .string "Parece que no todas han visto con\n"
@@ -110,7 +110,7 @@ NeoLavandaCementerio_Dialogo_Fuji_Texto_4:
 	.string "muy poderosa.$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_5:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_6:
 .string "Observa, si interactúas con el\n"

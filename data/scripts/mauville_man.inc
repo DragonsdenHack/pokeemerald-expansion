@@ -92,7 +92,7 @@ MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor:
 
 MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues:
 	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "You've left me feeling the blues…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeveAlreadyTraded:
 	.string "But we've traded decorations already,\n"
@@ -104,7 +104,7 @@ MauvilleCity_PokemonCenter_1F_Text_PickADecorItem:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything:
 	.string "You don't want anything?\n"
-	.string "I feel unwanted…$"
+	.string "I feel unwanted…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_OnceBelongedToPlayerDoYouWantIt:
 	.string "That decorative item once belonged\n"
@@ -121,7 +121,7 @@ MauvilleCity_PokemonCenter_1F_Text_PickTheDecorToTrade:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantToTrade:
 	.string "You won't trade with me?\n"
-	.string "I feel unwanted…$"
+	.string "I feel unwanted…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouveNoRoomForThis:
 	.string "You've got all the {STR_VAR_2}S that can\n"
@@ -240,7 +240,7 @@ MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues:
 	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "You've left me feeling the blues…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
 	.string "I know of these legends.\n"
@@ -862,10 +862,10 @@ MauvilleCity_PokemonCenter_1F_Text_HearMyStory:
 
 MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues:
 	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "You've left me feeling the blues…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_AlsoIWasThinking:
-	.string "Also, I was thinking…$"
+	.string "Also, I was thinking…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeShouldChatAgain:
 	.string "That's about it, I think…\p"
@@ -924,11 +924,11 @@ MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong:
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
 	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "You've left me feeling the blues…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 	.string "Oh, what a moving song…\n"
-	.string "I wish I could play it for others…$"
+	.string "I wish I could play it for others…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
 	.string "So?\n"
@@ -940,7 +940,7 @@ MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2:
 	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "You've left me feeling the blues…{PAUSE 5}$"
 
 MauvilleCity_PokemonCenter_1F_Text_LetMeSingItForYou:
 	.string "Thank you kindly!\n"

@@ -273,12 +273,12 @@ ViasTren5_Combate_Atlas_Texto_5:
 
 ViasTren5_Combate_Atlas_Texto_6:
 .string "La II reunión de TRIGAL es inminente,\n"
-	.string "he venido a avisarte, pero también…$"
+	.string "he venido a avisarte, pero también{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_7:
 .string "Oí rumores acerca de este POKÉMON, el\n"
 	.string "último de los 3 PRIMIGENIOS sin un\l"
-	.string "ENTRENADOR…$"
+	.string "ENTRENADOR{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_8:
 .string "Un POKÉMON así encajaría a la\n"
@@ -310,7 +310,7 @@ ViasTren5_Combate_Atlas_Texto_11:
 ViasTren5_Combate_Atlas_Texto_12:
 .string "Hemos alcanzado enormes cotas de\n"
 	.string "poder aquí, ZAPDOS-P estará\l"
-	.string "impresionado…$"
+	.string "impresionado{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_13:
 .string "ATLAS: Bien{PAUSE 25}…{PAUSE 25} Así ha de ser{PAUSE 25}…{PAUSE 25} Ya me lo\n"
@@ -357,13 +357,13 @@ ViasTren5_Combate_Atlas_Texto_15:
 	.string "lo que hablar allí.$"
 
 ViasTren5_Combate_Atlas_Texto_16:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_17:
 .string "(El ZAPDOS-P voló a gran velocidad)$"
 
 ViasTren5_Combate_Atlas_Texto_18:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_19:
 .string "¡Este es un momento único en la \n"
@@ -377,7 +377,7 @@ ViasTren5_Combate_Atlas_Texto_21:
 .string "Esto estaba destinado a ocurrir, antes\n"
 	.string "o después. Ni los MOTORISTAS, ni los\l"
 	.string "subterráneos de KANTO, que serán\l"
-	.string "cerrados en breve, ni ZAPD…$"
+	.string "cerrados en breve, ni ZAPD{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_22:
 .string "{PAUSE 25}…{PAUSE 25}$"

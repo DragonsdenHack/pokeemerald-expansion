@@ -436,7 +436,7 @@ MtPyre_Summit_Text_Grunt1Intro:
 
 MtPyre_Summit_Text_Grunt1Defeat:
 	.string "I thought you were one of the MAGMAS\n"
-	.string "who happened to come back…$"
+	.string "who happened to come back…{PAUSE 5}$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
 	.string "Yeah, so you are strong…\n"
@@ -452,7 +452,7 @@ MtPyre_Summit_Text_Grunt2Intro:
 
 MtPyre_Summit_Text_Grunt2Defeat:
 	.string "Urgh… I should've let you take on\n"
-	.string "TEAM MAGMA first…$"
+	.string "TEAM MAGMA first…{PAUSE 5}$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
 	.string "You don't know anything!\n"
@@ -466,7 +466,7 @@ MtPyre_Summit_Text_Grunt3Intro:
 
 MtPyre_Summit_Text_Grunt3Defeat:
 	.string "If you're going to mess with anyone,\n"
-	.string "let it be TEAM MAGMA…$"
+	.string "let it be TEAM MAGMA…{PAUSE 5}$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
 	.string "Heh, it doesn't matter!\n"
@@ -483,7 +483,7 @@ MtPyre_Summit_Text_Grunt4Intro:
 
 MtPyre_Summit_Text_Grunt4Defeat:
 	.string "If you want to join TEAM AQUA that\n"
-	.string "badly, we can consider it…$"
+	.string "badly, we can consider it…{PAUSE 5}$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "We have a great combination going\n"
@@ -523,7 +523,7 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "The BLUE ORB and RED ORB taken by\n"
 	.string "those sinister men…\p"
 	.string "They must never be apart…\n"
-	.string "I fear something terrible will happen…$"
+	.string "I fear something terrible will happen…{PAUSE 5}$"
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
@@ -543,7 +543,7 @@ MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
 	.string "The two men who took the ORBS came\n"
 	.string "back to return them on their own.\p"
 	.string "Those men…\n"
-	.string "Perhaps they are not so evil after all…$"
+	.string "Perhaps they are not so evil after all…{PAUSE 5}$"
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "The embodiments of the land, sea,\n"
@@ -554,7 +554,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "POKéMON have life, our world, too,\l"
 	.string "is alive…\p"
 	.string "The super-ancient POKéMON have\n"
-	.string "taught us that…$"
+	.string "taught us that…{PAUSE 5}$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "MT. PYRE is where we calm the spirits\n"
@@ -585,16 +585,16 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "becalmed the enraged adversaries.\p"
 	.string "The pair, made docile, dove deep into\n"
 	.string "the sea where eventually they\l"
-	.string "disappeared…$"
+	.string "disappeared…{PAUSE 5}$"
 
 MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "I see…\n"
-	.string "Well, that, too, is fine…$"
+	.string "Well, that, too, is fine…{PAUSE 5}$"
 
 MtPyre_Summit_Text_MaxieSilence:
 	.string "MAXIE: {PLAYER}…\p"
 	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "It is my role to pass on the legends\n"
@@ -621,5 +621,5 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "The POKéMON, shining a vivid green,\n"
 	.string "becalmed the two enraged POKéMON.\p"
 	.string "Then, its duty done, the green POKéMON\n"
-	.string "flew off into the wild blue yonder…$"
+	.string "flew off into the wild blue yonder…{PAUSE 5}$"
 

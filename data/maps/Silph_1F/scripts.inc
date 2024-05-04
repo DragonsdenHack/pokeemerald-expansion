@@ -224,7 +224,7 @@ Silph1F_Text_15:
 .string "Si todo sale bien estaremos una\n"
 .string "temporada en la sombra, pero\l"
 .string "volviéndonos cada vez más\l"
-.string "fuertes…$"
+.string "fuertes{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -426,7 +426,7 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
 .string "¡Ah, sí!\n"
@@ -440,7 +440,7 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
 	.string "entrado jamás, y solo nuestros\l"
 	.string "empleados más destacados tienen\l"
 	.string "acceso a ella, pero nuestro\l"
-	.string "PRESIDENTE…$"
+	.string "PRESIDENTE{PAUSE 5}…{PAUSE 5}$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
 .string "Me ha hecho saber expresamente su\n"
@@ -498,6 +498,6 @@ end
 
 Silph_1F_Activador_Entrada_Texto_1:
 .string "Este ordenador parece que cumple\n"
-	.string "una función de gran importancia…$"
+	.string "una función de gran importancia{PAUSE 5}…{PAUSE 5}$"
 
 

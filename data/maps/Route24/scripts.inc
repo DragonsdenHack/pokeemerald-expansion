@@ -119,7 +119,7 @@ Route24_Recluta_text_1:
 
 
 Route24_Recluta_text_2:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route24_Recluta_text_3:
 .string "¿Te han encomendado una misión por\n"

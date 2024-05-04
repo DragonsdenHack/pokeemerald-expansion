@@ -81,7 +81,7 @@ OlivineCity_LightHouse_Text_9:
 .string "Me encantaría poder ver en persona\n"
 .string "al poderoso POKÉMON que ilumina el\l"
 .string "FARO, pero no sé cómo subir hasta\l"
-.string "arriba…$"
+.string "arriba{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -97,7 +97,7 @@ release
 end
 
 OliivineLighthouse11_Texto_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -307,7 +307,7 @@ Olivine_Lighthouse_Combate_Farero_Texto_4:
 .string "FARERO: Al LÍDER lo tienes justo\n"
 	.string "ahí, estábamos debatiendo el\l"
 	.string "futuro de CIUDAD OLIVO, su PUERTO,\l"
-	.string "su FARO, su GIMNASIO…$"
+	.string "su FARO, su GIMNASIO{PAUSE 5}…{PAUSE 5}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_5:
 .string "CROM: Pronto vendrán muchos\n"
@@ -335,7 +335,7 @@ Olivine_Lighthouse_Combate_Farero_Texto_7:
 	.string "MAGNEMITE, así que imaginate.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_8:
-.string "Aunque…$"
+.string "Aunque{PAUSE 25}…{PAUSE 15}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_9:
 .string "Me agrada la idea de un último\n"
@@ -485,7 +485,7 @@ Olivine_Lighthouse_Ampharosita_Texto_3:
 	.string "De los pocos capaces de pegar duro\l"
 	.string "y aguantar bien los golpes al\l"
 	.string "mismo tiempo, aunque esa VELOCIDAD\l"
-	.string "a veces le condene…$"
+	.string "a veces le condene{PAUSE 5}…{PAUSE 5}$"
 
 
 

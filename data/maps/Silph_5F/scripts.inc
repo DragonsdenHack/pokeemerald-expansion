@@ -27,7 +27,7 @@ end
 
 Text_3:
 .string "Nuestra seguridad se encargará de\n"
-.string "todos vosotros sabandijas…$"
+.string "todos vosotros sabandijas{PAUSE 5}…{PAUSE 5}$"
 
 
 

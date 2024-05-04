@@ -194,7 +194,7 @@ AbandonedShip_Miguel_Texto_4:
 AbandonedShip_Miguel_Texto_5:
 	.string "C.MIGUEL: Qué pudo haber pasado para\n"
 	.string "que un barco así quedara en este\l"
-	.string "estado…$"
+	.string "estado{PAUSE 5}…{PAUSE 5}$"
 
 AbandonedShip_Miguel_Texto_6:
 	.string "DR.RASMUS: Las fuerzas de la\n"

@@ -295,14 +295,14 @@ Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
 	.string "It took me all night polishing floors…\p"
 	.string "You're above me in greatness!\n"
-	.string "Possibly…$"
+	.string "Possibly{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 	.string "Wh-what should I do?\n"
 	.string "My fountain of ideas for tricks has\l"
 	.string "run dry…\p"
 	.string "Perhaps it is time I toured the country\n"
-	.string "on a quest to devise new tricks…$"
+	.string "on a quest to devise new tricks{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "I hate to admit defeat, but you have\n"

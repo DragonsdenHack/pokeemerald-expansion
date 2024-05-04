@@ -237,7 +237,7 @@ SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
 	.string "See how beautiful it is, the sleeping\n"
 	.string "form of the ancient POKéMON KYOGRE!\p"
 	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "come…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "ARCHIE: It surprises me, how you've\n"
@@ -256,7 +256,7 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this RED ORB, I can make KYOGRE…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
 	.string "The RED ORB suddenly began shining\n"
@@ -270,7 +270,7 @@ SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
 	.string "ARCHIE: Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "members outside…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "ARCHIE: Yes, what is it?\p"
@@ -303,7 +303,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
 	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "the deepening sea…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "ARCHIE: W-what?!\n"
@@ -312,7 +312,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "infuriated GROUDON?\p"
 	.string "So long as I have this RED ORB,\n"
 	.string "I should be able to control KYOGRE…\p"
-	.string "I should be able to control it…$"
+	.string "I should be able to control it…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 	.string "MAXIE: We don't have the time to\n"

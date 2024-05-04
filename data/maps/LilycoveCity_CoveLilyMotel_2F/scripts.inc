@@ -88,7 +88,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 	.string	"¿Eh? ¿Me hablas a mí?\n"
 	.string	"Soy el PROGRAMADOR.\p"
 	.string	"Me pregunto cómo serán las\n"
-	.string	"TRAGAPERRAS por aquí…$"
+	.string	"TRAGAPERRAS por aquí{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 	.string	"Soy el DISEÑADOR GRÁFICO.\n"

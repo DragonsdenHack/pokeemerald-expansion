@@ -20,7 +20,7 @@ Goldenrod_ShopP2_Text_2:
 .string "comprados…\l"
 .string "Espero que pierda todos sus\l"
 .string "combates por tenerlos a 0 en\l"
-.string "puntos de esfuerzo…$"
+.string "puntos de esfuerzo{PAUSE 5}…{PAUSE 5}$"
 
 
 

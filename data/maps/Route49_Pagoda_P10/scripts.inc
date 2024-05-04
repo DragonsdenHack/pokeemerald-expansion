@@ -102,7 +102,7 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_6:
 	.string "preguntas, jamás podrás derrotarme.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_7:
-.string "Excelente…$"
+.string "Excelente{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_8:
 .string "Así es, cuando nos reducimos a un único\n"
@@ -120,7 +120,7 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_10:
 .string "Cuando tú y tus POKÉMON reconozcáis la\n"
 	.string "realidad presente, recreándose a sí\l"
 	.string "misma perpetuamente, inmersa en una\l"
-	.string "danza de movimiento inexorable…$"
+	.string "danza de movimiento inexorable{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_11:
 .string "…cuando lleguéis a ese punto,vuestras\n"

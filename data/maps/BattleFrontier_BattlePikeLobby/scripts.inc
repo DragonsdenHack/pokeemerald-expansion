@@ -271,7 +271,7 @@ BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
 	.string "Where the luck of TRAINERS\n"
 	.string "is put to the test…\p"
 	.string "Welcome to the BATTLE PIKE…\p"
-	.string "I am your guide to the BATTLE PIKE…$"
+	.string "I am your guide to the BATTLE PIKE…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
 	.string "Would you like to take the Battle\n"
@@ -298,7 +298,7 @@ BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
 	.string "We look forward to seeing you\n"
-	.string "on another occasion…$"
+	.string "on another occasion…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
 	.string "You have the choice of two courses,\n"
@@ -315,7 +315,7 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
 	.string "kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "you are ready…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "I beg your pardon, but…\p"
@@ -327,11 +327,11 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "you are ready…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
 	.string "Please choose the three POKéMON\n"
-	.string "you wish to enter in the challenge…$"
+	.string "you wish to enter in the challenge…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
 	.string "Before starting your Battle Choice\n"
@@ -339,49 +339,49 @@ BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
 	.string "Is that acceptable?$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
-	.string "Please step this way…$"
+	.string "Please step this way…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
 	.string "Your challenge has ended…\p"
 	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "Please wait…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
 	.string "You have completed the challenge…\p"
 	.string "I must say… You seem to possess luck\n"
-	.string "in abundance…$"
+	.string "in abundance…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "Please wait…{PAUSE 5}$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
 	.string "To commemorate your completion of\n"
 	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "you these Battle Point(s)…{PAUSE 5}$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
 	.string "You appear to have reached the limit\n"
 	.string "for Battle Points…\pPlease exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "for prizes, then return…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
 	.string "I beg your pardon, but…\p"
 	.string "You failed to save before you quit\n"
 	.string "your challenge the last time.\p"
 	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. I am sorry…$"
+	.string "has been disqualified. I am sorry…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
 	.string "Congratulations…\p"
 	.string "You have snatched victory from the\n"
-	.string "PIKE QUEEN and cleared the event…$"
+	.string "PIKE QUEEN and cleared the event…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
 	.string "In recognition of your amazing luck,\n"
-	.string "we award you these Battle Point(s)…$"
+	.string "we award you these Battle Point(s)…{PAUSE 5}$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
 	.string "Arrgh! I blew my chance!\n"

@@ -61,13 +61,13 @@ SSGiovanni_Rescate_Escena_Texto_5:
 	.string "sin entender el mundo que le rodea.$"
 
 SSGiovanni_Rescate_Escena_Texto_6:
-	.string "Hasta hace poco… tú misma tenías una\n"
+	.string "Hasta hace poco{PAUSE 15}…{PAUSE 15} tú misma tenías una\n"
 	.string "visión totalmente alejada de la\l"
 	.string "realidad respecto a HOENN y DEVON, ¿no\l"
 	.string "es así?$"
 
 SSGiovanni_Rescate_Escena_Texto_7:
-	.string "ARIANA: … …$"
+	.string "ARIANA: {PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 SSGiovanni_Rescate_Escena_Texto_8:
 	.string "GIOVANNI: Sé lo que pretenden, ¿sabes\n"
@@ -130,7 +130,7 @@ SSGiovanni_Rescate_Escena_Texto_20:
 
 SSGiovanni_Rescate_Escena_Texto_21:
 	.string "Sé que lleva meses sin dar señales de\n"
-	.string "vida, pero…$"
+	.string "vida, pero{PAUSE 5}…{PAUSE 5}$"
 
 SSGiovanni_Rescate_Escena_Texto_22:
 	.string "Su FICHA de ENTRENADORA sigue\n"
@@ -146,7 +146,7 @@ SSGiovanni_Rescate_Escena_Texto_24:
 
 SSGiovanni_Rescate_Escena_Texto_25:
 	.string "ARRECÍPOLIS, ALGARIA{PAUSE 25}…{PAUSE 25} esta última de\n"
-	.string "hace solo unos días…$"
+	.string "hace solo unos días{PAUSE 5}…{PAUSE 5}$"
 
 SSGiovanni_Rescate_Escena_Texto_26:
 	.string "Únicamente le queda una MEDALLA por\n"
@@ -231,9 +231,9 @@ end
 
 SSGiovanni_Rescate_Tercer_Recluta_Texto_1:
 	.string "¡SIR, se ha vengado de ANDRA\n"
-	.string "derrotando al ADMIN.AMATISTA! …\l"
-	.string "¿Cómo? ¿No estaba usando sus POKÉMON\l"
-	.string "más fuertes? Oh…$"
+	.string "derrotando al ADMIN.AMATISTA! {PAUSE 15}…{PAUSE 15}\l"
+	.string "¿Cómo? ¿Él estaba usando sus POKÉMON\l"
+	.string "más fuertes? Oh{PAUSE 5}…{PAUSE 5}$"
 
 
 SSGiovanni_Rescate_Cuarto_Recluta::

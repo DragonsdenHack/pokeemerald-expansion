@@ -228,7 +228,7 @@ ViridianCity_Entrenador_Especial_Texto_1:
 
 ViridianCity_Entrenador_Especial_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
 .string "¡JAH!\n"

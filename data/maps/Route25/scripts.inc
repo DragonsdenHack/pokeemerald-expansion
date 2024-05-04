@@ -28,7 +28,7 @@ Route25_Text_2:
 .string "…\l"
 .string "…\l"
 .string "Bueno, se supone que a este lugar\l"
-.string "se viene en pareja…$"
+.string "se viene en pareja{PAUSE 5}…{PAUSE 5}$"
 
 
 Route25_3::

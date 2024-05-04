@@ -20,7 +20,7 @@ PacifidlogTown_House5_EventScript_Gentleman::
 	end
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
-	.string	"Hoy no se ve la ISLA ESPEJISMO…$"
+	.string	"Hoy no se ve la ISLA ESPEJISMO…{PAUSE 5}$"
 
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday:
 	.string	"¡Ay, ay, ay! ¡Sí, la veo!\n"
@@ -32,5 +32,5 @@ PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
 	.string	"las condiciones meteorológicas que\l"
 	.string	"provocan la aparición de espejismos.\p"
 	.string	"¿O quizás es que aparece y\n"
-	.string	"desaparece así, sin más?…$"
+	.string	"desaparece así, sin más?…{PAUSE 5}$"
 

@@ -103,7 +103,7 @@ Route53_8_Texto_1:
 .string "Este jefe…\n"
 	.string "Si él también se pusiera a picar\l"
 	.string "piedra con nosotros quizás iríamos\l"
-	.string "más rápido…$"
+	.string "más rápido{PAUSE 5}…{PAUSE 5}$"
 
 
 Route53_9::

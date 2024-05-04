@@ -127,7 +127,7 @@ walk_slow_left
 step_end
 
 ViasSur5_Combate_Pegaso_Texto_13.1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 ViasTren3_Rastro_Zapdos_Move_10:
 walk_in_place_right
@@ -174,7 +174,7 @@ step_end
 
 ViasSur5_Combate_Pegaso_Texto_1:
 .string "Mis sospechas se confirmaron, así que\n"
-	.string "estabas aquí…$"
+	.string "estabas aquí{PAUSE 5}…{PAUSE 5}$"
 
 ViasSur5_Combate_Pegaso_Texto_2:
 .string "Te has bastado para poner en apuros a 6\n"

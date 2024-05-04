@@ -36,15 +36,15 @@ Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother:
 	.string "He loves digging holes, too…\n"
 	.string "He dug this hole by himself…\p"
 	.string "You can have this, so you can DIG\n"
-	.string "holes just like my big brother…$"
+	.string "holes just like my big brother{PAUSE 5}…{PAUSE 5}$"
 
 Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance:
 	.string "If you make a POKéMON DIG inside a\n"
-	.string "cave, you're returned to the entrance…$"
+	.string "cave, you're returned to the entrance{PAUSE 5}…{PAUSE 5}$"
 
 Route114_FossilManiacsHouse_Text_RocksFillDisplayCase:
 	.string "Rocks in peculiar shapes fill\n"
-	.string "the display case…$"
+	.string "the display case{PAUSE 5}…{PAUSE 5}$"
 
 Route114_FossilManiacsHouse_Text_CrammedWithBooks:
 	.string "THE COMPOSITION OF STRATA…\n"

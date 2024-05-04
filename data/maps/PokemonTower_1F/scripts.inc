@@ -20,7 +20,7 @@ end
 PokemonTower1F_Text_1:
 .string "Soy una exorcista, siento la\n"
 .string "presencia de espíritus malvados en\l"
-.string "lo alto de esta torre…$"
+.string "lo alto de esta torre{PAUSE 5}…{PAUSE 5}$"
 
 
 

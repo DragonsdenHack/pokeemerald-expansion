@@ -101,7 +101,7 @@ AquaHideout_B2F_Text_MattIntro:
 
 AquaHideout_B2F_Text_MattDefeat:
 	.string "Hehehe…\n"
-	.string "So, I lost, too…$"
+	.string "So, I lost, too…{PAUSE 5}$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
 	.string "Hehehe!\p"
@@ -124,7 +124,7 @@ AquaHideout_B2F_Text_Grunt4Intro:
 
 AquaHideout_B2F_Text_Grunt4Defeat:
 	.string "Tired of waiting…\n"
-	.string "Lost and dazed…$"
+	.string "Lost and dazed…{PAUSE 5}$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
 	.string "BOSS…\n"
@@ -146,7 +146,7 @@ AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "That reminds me… I can't remember\n"
 	.string "where I put the MASTER BALL.\p"
 	.string "If I fail to guard it, our BOSS will\n"
-	.string "chew me out…$"
+	.string "chew me out…{PAUSE 5}$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
 	.string "When I joined TEAM AQUA, the first\n"
@@ -155,8 +155,8 @@ AquaHideout_B2F_Text_Grunt8Intro:
 
 AquaHideout_B2F_Text_Grunt8Defeat:
 	.string "I was too occupied thinking about\n"
-	.string "the warp panels…$"
+	.string "the warp panels…{PAUSE 5}$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
 	.string "I'll have to learn about how I can\n"
-	.string "battle more effectively…$"
+	.string "battle more effectively…{PAUSE 5}$"

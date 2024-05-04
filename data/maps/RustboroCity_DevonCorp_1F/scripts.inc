@@ -102,7 +102,7 @@ RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 	.string	"es muy importante, cierto, pero no es\n"
 	.string	"algo que pueda usar cualquiera.\p"
 	.string	"En mi opinión, ese ladrón no era\n"
-	.string	"muy listo que digamos…$"
+	.string	"muy listo que digamos{PAUSE 5}…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string	"Parece que alguien ha recuperado\n"

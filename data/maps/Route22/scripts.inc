@@ -109,10 +109,10 @@ Route22_Combate_Azul_Texto_1:
 Route22_Combate_Azul_Texto_2:
 .string "Acabo de volver de entrenar en la\n"
 	.string "CALLE VICTORIA, aún no me atrevo a\l"
-	.string "entrar al ALTO MANDO…$"
+	.string "entrar al ALTO MANDO{PAUSE 5}…{PAUSE 5}$"
 
 Route22_Combate_Azul_Texto_3:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route22_Combate_Azul_Texto_4:
 .string "La verdad es que ROJO ha vuelto a\n"
@@ -432,7 +432,7 @@ RocketHideoutViridian_Escena_9_Texto_4.1:
 	.string "obedecen a un fin mayor, son imposibles\l"
 	.string "de comprender si los ves uno por uno\l"
 	.string "desde fuera, como un mero espectador,\l"
-	.string "pero en su conjunto…$"
+	.string "pero en su conjunto{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_9_Texto_5:
 .string "El mejor…¡Dijiste que querías ser el\n"
@@ -443,12 +443,12 @@ RocketHideoutViridian_Escena_9_Texto_6:
 .string "¿Y qué piensas hacer entonces?$"
 
 RocketHideoutViridian_Escena_9_Texto_7:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_9_Texto_8:
 .string "GIOVANNI: Un hombre que no sabe\n"
 	.string "reconocer la derrota es incapaz de\l"
-	.string "progresar…$"
+	.string "progresar{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_9_Texto_9:
 .string "Debo estar solo un tiempo para poder\n"
@@ -471,7 +471,7 @@ RocketHideoutViridian_Escena_9_Texto_12:
 
 RocketHideoutViridian_Escena_9_Texto_13:
 .string "Yo no he sabido aprovechar el potencial\n"
-	.string "de mis subordinados…$"
+	.string "de mis subordinados{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Escena_9_Texto_14:
 .string "¡Juro que un día resucitaré al TEAM\n"

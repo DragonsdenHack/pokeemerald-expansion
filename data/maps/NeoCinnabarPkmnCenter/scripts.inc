@@ -38,4 +38,4 @@ NeoCinnabarPkmnCenter_Text_3:
 .string "BLAINE: ¿Y ahora, qué? Creo que\n"
 .string "reabriré mi GIMNASIO en ISLAS ESPUMA,\l"
 .string "ahí seguro que no estalla ningún\l"
-.string "volcán…$"
+.string "volcán{PAUSE 5}…{PAUSE 5}$"

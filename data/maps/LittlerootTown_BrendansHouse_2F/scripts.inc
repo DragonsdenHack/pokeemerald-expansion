@@ -292,7 +292,7 @@ PlayersHouse_2F_Text_Notebook:
 	.string "Open the MENU with START.\p"
 	.string "ADVENTURE RULE NO. 2\n"
 	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "The remaining pages are blank…{PAUSE 5}$"
 
 Common_Text_LookCloserAtMap:
 	.string "{PLAYER} echó un vistazo\n"

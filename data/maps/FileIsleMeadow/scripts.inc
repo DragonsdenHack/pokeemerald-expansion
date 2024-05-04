@@ -335,7 +335,7 @@ FileIsleMeadow_Recluta_Balls_Text_Yes:
 	.string "futuro ALTO RANGO!$"
 
 FileIsleMeadow_Recluta_Balls_Text_2:
-    .string "Tienes madera…$"
+    .string "Tienes madera{PAUSE 5}…{PAUSE 5}$"
 
 FileIsleMeadow_Recluta_Balls_Text_3:
 	.string "Tienes un gran potencial camarada,\n"

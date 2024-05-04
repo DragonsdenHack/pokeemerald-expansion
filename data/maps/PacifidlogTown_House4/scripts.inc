@@ -43,11 +43,11 @@ PacifidlogTown_House4_Text_WhereDidYouComeFrom:
 PacifidlogTown_House4_Text_YesTown:
 	.string	"¿Ah, sí?\n"
 	.string	"¿Del PUEBLO SÍ?\p"
-	.string	"Qué nombre tan raro para un pueblo…$"
+	.string	"Qué nombre tan raro para un pueblo…{PAUSE 5}$"
 
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
 	.string	"¿De NO? ¿No qué? No entiendo nada…\n"
 	.string	"Tendrás que venir de algún sitio, ¿no?\p"
 	.string	"A ver… No irás a meterme el rollo de que\n"
-	.string	"naciste en el fondo del mar, matarile…$"
+	.string	"naciste en el fondo del mar, matarile…{PAUSE 5}$"
 

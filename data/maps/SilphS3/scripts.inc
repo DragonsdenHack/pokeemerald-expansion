@@ -756,7 +756,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_3:
 	.string "-POKÉMON ESENCIA-, si la leyenda\l"
 	.string "es cierta, dicho culto aún existe,\l"
 	.string "oculto en algún rincón de PUEBLO\l"
-	.string "LAVANDA…$"
+	.string "LAVANDA{PAUSE 5}…{PAUSE 5}$"
 
 SilphS3_Sotano::
 lock

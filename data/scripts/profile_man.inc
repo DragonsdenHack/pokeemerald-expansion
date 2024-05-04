@@ -127,7 +127,7 @@ ProfileMan_Text_LetsSeeItThen:
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
 	.string "Oh, no, really?\p"
 	.string "I imagine someone like you would have\n"
-	.string "a wonderful profile…$"
+	.string "a wonderful profile{PAUSE 5}…{PAUSE 5}$"
 
 ProfileMan_Text_NotIntoItRightNow:
 	.string "Oh? You're not into it right now?\p"

@@ -132,7 +132,7 @@ Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife:
 	.string "Joy never goes out of my life!$"
 
 Route123_BerryMastersHouse_Text_Ah:
-	.string "Ah…$"
+	.string "Ah…{PAUSE 5}$"
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
 	.string "Hello!\p"
@@ -231,4 +231,4 @@ SootopolisCity_Text_ThenILoveAutumn:
 SootopolisCity_Text_OhDoesntMatter:
 	.string "Oh…\n"
 	.string "It doesn't matter…\p"
-	.string "There's so much that I want to know…$"
+	.string "There's so much that I want to know…{PAUSE 5}$"

@@ -19,4 +19,4 @@ Text_1:
 .string "MEDALLAS para campar a tus anchas\l"
 .string "usando todas las MOs?\l"
 .string "…\l"
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"

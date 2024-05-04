@@ -122,11 +122,11 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_1:
 .string "Esos CIENTÍFICOS{PAUSE 25}…{PAUSE 25} venían de otra\n"
 	.string "región, nos prometieron solo investigar\l"
 	.string "nuestros FÓSILES, pero han\l"
-	.string "desaparecido sin apenas dejar rastro…$"
+	.string "desaparecido sin apenas dejar rastro{PAUSE 5}…{PAUSE 5}$"
 
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}… {PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_3:
 .string "¿Quieres ayudarme?$"
@@ -150,7 +150,7 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_6:
 	.string "IRIS.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_7:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_8:
 .string "¡Guau! ¡Tú solo pudiste con ellos! Debes\n"

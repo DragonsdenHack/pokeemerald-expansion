@@ -37,7 +37,7 @@ Goldenrod_House1_Text_2:
 .string "humildes pescadores, aún recuerdo\l"
 .string "como los STARMIE se amontonaban en\l"
 .string "la orilla, hoy ver uno es casi\l"
-.string "imposible, incluso mar adentro…$"
+.string "imposible, incluso mar adentro{PAUSE 5}…{PAUSE 5}$"
 
 
 

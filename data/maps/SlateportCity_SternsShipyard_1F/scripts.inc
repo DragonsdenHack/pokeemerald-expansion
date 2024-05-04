@@ -97,7 +97,7 @@ SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
 	.string	"Hay muchas cosas que no\n"
 	.string	"se pueden calcular sin más.\p"
 	.string	"Cómo me gustaría que algún\n"
-	.string	"lobo de mar me aconsejase…$"
+	.string	"lobo de mar me aconsejase…{PAUSE 5}$"
 
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
 	.string	"MUÉLLEZ: ¡Hola! El SR. ARENQUE\n"

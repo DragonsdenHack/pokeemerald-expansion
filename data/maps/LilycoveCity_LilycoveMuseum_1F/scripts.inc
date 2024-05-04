@@ -196,7 +196,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
 
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
 	.string	"Éste es un cuadro muy antiguo.\n"
-	.string	"Necesita una buena restauración…$"
+	.string	"Necesita una buena restauración{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
 	.string	"Plasma un paisaje de tiempos antiguos.\n"
@@ -240,7 +240,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
 	.string	"Hmmm…\n"
-	.string	"What works of great magnificence…$"
+	.string	"What works of great magnificence{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string	"Combatir con POKéMON es\n"

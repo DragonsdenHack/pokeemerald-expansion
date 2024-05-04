@@ -77,11 +77,11 @@ Route12_House_1_Secundaria_Squirtle_Texto_1:
 .string "Jamás alcanzaré ese nivel de\n"
 	.string "reconocimiento y popularidad, no\l"
 	.string "puede ser{PAUSE 15}…{PAUSE 15}\l"
-	.string "Tengo que hacer algo…$"
+	.string "Tengo que hacer algo{PAUSE 5}…{PAUSE 5}$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_3:
 .string "¡TÚ! ¡ROCKET!\n"
@@ -193,7 +193,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_11:
 	.string "que sé que estoy a su altura,\l"
 	.string "nadie se fijará en mi hasta que no\l"
 	.string "vean que mi hermano también es\l"
-	.string "humano y puede tener derrotas{PAUSE 15}…$"
+	.string "humano y puede tener derrotas{PAUSE 15}…{PAUSE 5}$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_12:
 .string "Es aquí donde entras tú ROCKET, si\n"

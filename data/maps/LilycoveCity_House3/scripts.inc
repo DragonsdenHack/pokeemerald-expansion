@@ -148,7 +148,7 @@ LilycoveCity_House3_Text_HappyToHaveQuadruplets:
 	.string	"Cuando mi mujer tuvo cuatrillizos,\n"
 	.string	"casi me dio un ataque…\p"
 	.string	"Pero ahora, cuando los veo jugar\n"
-	.string	"juntos, me siento tan feliz…$"
+	.string	"juntos, me siento tan feliz{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
 	.string	"Estamos entablando COMBATES\n"

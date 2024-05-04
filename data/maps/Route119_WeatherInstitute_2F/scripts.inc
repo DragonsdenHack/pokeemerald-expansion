@@ -249,7 +249,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 	.string "Humph, so what?\n"
 	.string "What we want…\p"
 	.string "What we really want isn't here…\n"
-	.string "Ihihihihi…$"
+	.string "Ihihihihi{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "Ahahahaha!\p"
@@ -315,7 +315,7 @@ Route119_WeatherInstitute_2F_Text_GroudonWeather:
 	.string "Presently, a drought has been recorded\n"
 	.string "in {STR_VAR_1}.\p"
 	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "{STR_VAR_1}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "I track weather patterns over\n"
@@ -323,7 +323,7 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "Presently, heavy rainfall has been\n"
 	.string "recorded over {STR_VAR_1}.\p"
 	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "{STR_VAR_1}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "Abnormal weather conditions are\n"

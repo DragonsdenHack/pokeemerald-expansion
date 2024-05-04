@@ -143,7 +143,7 @@ RustboroCity_Gym_Text_JoshIntro:
 	.string "la ligera… ¡Ahora verás por qué!$"
 
 RustboroCity_Gym_Text_JoshDefeat:
-	.string "Me has dejado a cuadros…$"
+	.string "Me has dejado a cuadros…{PAUSE 5}$"
 
 RustboroCity_Gym_Text_JoshPostBattle:
 	.string "¡Todavía no has visto ni una pizca del\n"
@@ -154,7 +154,7 @@ RustboroCity_Gym_Text_TommyIntro:
 	.string "olvidarte de vencer a PETRA!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
-	.string "Vaya se diría que tienes potencial…$"
+	.string "Vaya se diría que tienes potencial…{PAUSE 5}$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
 	.string "Pero PETRA es mucho más fuerte que yo\n"
@@ -262,7 +262,7 @@ RustboroCity_Gym_Text_RoxannePreRematch:
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
 	.string "Grr…\n"
-	.string "Again, I have lost…$"
+	.string "Again, I have lost…{PAUSE 5}$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
 	.string "ROXANNE: I still have much to learn\n"

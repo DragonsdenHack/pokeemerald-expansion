@@ -50,7 +50,7 @@ Roulette_Text_YouveWonXCoins::
 	.string "You've won {STR_VAR_1} COINS!$"
 
 Roulette_Text_NoCoinsLeft::
-	.string "No COINS left…$"
+	.string "No COINS left{PAUSE 5}…{PAUSE 5}$"
 
 Roulette_Text_KeepPlaying::
 	.string "Keep playing?$"

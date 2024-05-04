@@ -62,7 +62,7 @@ MtPyre_2F_Text_MarkDefeat:
 
 MtPyre_2F_Text_MarkPostBattle:
 	.string "Aquí no hay ni un alma, así que pensé\n"
-	.string "que encontraría Pokémon raros…$"
+	.string "que encontraría Pokémon raros…{PAUSE 5}$"
 
 MtPyre_2F_Text_LukeIntro:
 	.string "LUKE: We're here on a dare.\p"
@@ -116,7 +116,7 @@ MtPyre_2F_Text_LeahDefeat:
 
 MtPyre_2F_Text_LeahPostBattle:
 	.string "Mi entrenamiento en las montañas me\n"
-	.string "ayuda a combatir las malas presencias…$"
+	.string "ayuda a combatir las malas presencias…{PAUSE 5}$"
 
 MtPyre_2F_Text_ZanderIntro:
 	.string "¡Kiyaaaaah!\n"

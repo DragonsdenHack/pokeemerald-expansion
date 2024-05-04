@@ -260,7 +260,7 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
-	.string "stopped…$"
+	.string "stopped…{PAUSE 5}$"
 
 NewMauville_Inside_NPC9_Cientifico::
 lock
@@ -271,7 +271,7 @@ end
 
 NewMauville_Inside_NPC9_Cientifico_Texto_1:
 	.string "La tecnología de esta CENTRAL es tan\n"
-	.string "precaria comparada con la nuestra…$"
+	.string "precaria comparada con la nuestra{PAUSE 5}…{PAUSE 5}$"
 
 NewMauville_Inside_NPC12_Cientifico::
 lock
@@ -325,13 +325,13 @@ NewMauville_Inside_Encuentro_Rasmus_Texto_4:
 	.string "Al final los ADMIN de DEVON tendrán\n"
 	.string "razón, la verdadera base para lograr\l"
 	.string "STATS que se acerquen al límite\l"
-	.string "absoluto está en los…$"
+	.string "absoluto está en los{PAUSE 15}…{PAUSE 15}$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_5:
 	.string "Tú de nuevo.$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_6:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_7:
 	.string "Reconozco que esa insistencia en\n"
@@ -366,18 +366,18 @@ NewMauville_Inside_Encuentro_Rasmus_Texto_12:
 	.string "nuestros recursos?$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_13:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_14:
 	.string "Déjame comprobar eso que acabas de\n"
 	.string "decir.$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_15:
-	.string "No es para tanto…$"
+	.string "No es para tanto{PAUSE 5}…{PAUSE 5}$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_16:
 	.string "Tu nivel de combate es admirable, no\n"
-	.string "discutiré eso, pero…$"
+	.string "discutiré eso, pero{PAUSE 25}…{PAUSE 15}$"
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_17:
 	.string "Sin todos los elementos necesarios en\n"

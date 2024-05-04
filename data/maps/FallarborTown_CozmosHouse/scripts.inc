@@ -70,7 +70,7 @@ FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
 	.string "conned into telling TEAM MAGMA where\l"
 	.string "you can find METEORITES…\p"
 	.string "That METEORITE from METEOR FALLS…\n"
-	.string "It's never going to be mine now…$"
+	.string "It's never going to be mine now…{PAUSE 5}$"
 
 FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
 	.string "Oh!\n"
@@ -95,7 +95,7 @@ FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
 
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
 	.string "PROF. COZMO: Oh, but…\n"
-	.string "I'm crushed with disappointment…$"
+	.string "I'm crushed with disappointment…{PAUSE 5}$"
 
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 	.string "PROF. COZMO: Please, may I have that\n"

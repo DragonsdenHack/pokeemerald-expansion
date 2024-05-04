@@ -711,7 +711,7 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 	.string "Welcome…\p"
 	.string "I shall be pleased to tell you what\n"
-	.string "misfortunes await in the PYRAMID…$"
+	.string "misfortunes await in the PYRAMID…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_Aah:
 	.string "… … … … … …\n"
@@ -722,17 +722,17 @@ BattleFrontier_BattlePyramidLobby_Text_Aah:
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
 	.string "I see a shower of sparks…\p"
 	.string "…And in it, I see your POKéMON\n"
-	.string "struggling with paralysis…$"
+	.string "struggling with paralysis…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
 	.string "I see poison…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from the effects of poison…$"
+	.string "from the effects of poison…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
 	.string "I see bright red flames…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from burns…$"
+	.string "from burns…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 	.string "I sense the tremendous pressure of\n"
@@ -740,44 +740,44 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 	.string "It is a curse…\p"
 	.string "…And, I see your POKéMON drained of\n"
 	.string "Power Points and having no recourse\l"
-	.string "but to use STRUGGLE…$"
+	.string "but to use STRUGGLE…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 	.string "I see POKéMON loftily airborne…\p"
 	.string "…And, I see your POKéMON frustrated\n"
-	.string "by powerless GROUND-type moves…$"
+	.string "by powerless GROUND-type moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
 	.string "I sense terrific energy rising from\n"
 	.string "the ground below…\p"
 	.string "…And, I see your POKéMON unable to\n"
-	.string "escape the power's clutches…$"
+	.string "escape the power's clutches…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
 	.string "I see ICE-type POKéMON…\p"
 	.string "…And, I see your POKéMON fighting\n"
-	.string "the freezing effects of ice…$"
+	.string "the freezing effects of ice…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
 	.string "I see a flurry of moves that imperil\n"
 	.string "the user…\p"
 	.string "…And, I see your POKéMON falling\n"
-	.string "to them…$"
+	.string "to them…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
 	.string "I see PSYCHIC-type POKéMON…\p"
 	.string "…And, I see your POKéMON in torment\n"
-	.string "from PSYCHIC moves…$"
+	.string "from PSYCHIC moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
 	.string "I see ROCK-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from ROCK moves…$"
+	.string "from ROCK moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
 	.string "I see FIGHTING-type POKéMON…\p"
 	.string "…And, I see your POKéMON pummeled\n"
-	.string "by FIGHTING moves…$"
+	.string "by FIGHTING moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
 	.string "RAIN DANCE… SUNNY DAY…\n"
@@ -785,37 +785,37 @@ BattleFrontier_BattlePyramidLobby_Text_HintWeather:
 	.string "I see POKéMON that become stronger\n"
 	.string "with the weather…\p"
 	.string "…And, I see your POKéMON confounded\n"
-	.string "by different types of moves…$"
+	.string "by different types of moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
 	.string "I see BUG-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from different kinds of attacks…$"
+	.string "from different kinds of attacks…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
 	.string "I see DARK-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from DARK-type moves…$"
+	.string "from DARK-type moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
 	.string "I see WATER-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from WATER-type moves…$"
+	.string "from WATER-type moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
 	.string "I see GHOST-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from GHOST-type moves…$"
+	.string "from GHOST-type moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
 	.string "I see STEEL-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "from enormously powerful moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
 	.string "I see flying POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "from enormously powerful moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
 	.string "I see those that have evolved from\n"
@@ -823,18 +823,18 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
 	.string "I also sense fire, water,\n"
 	.string "and electricity…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from those three powers…$"
+	.string "from those three powers…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
 	.string "I see NORMAL-type POKéMON…\p"
 	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
+	.string "from enormously powerful moves…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
 	.string "Whether you believe my fortunes\n"
 	.string "or not, the choice is yours…\p"
 	.string "The future can be changed anytime…\n"
-	.string "I wish you safe passage…$"
+	.string "I wish you safe passage…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 	.string "Did you know?\p"

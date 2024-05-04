@@ -1653,7 +1653,7 @@ RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
 	.string "me equivoco, es ahí donde\l"
 	.string "confinaron a ROJO. Tengo\l"
 	.string "curiosidad por ver qué pasa si le\l"
-	.string "hacemos una visita…$"
+	.string "hacemos una visita{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
 .string "En fin, deberías terminar de\n"

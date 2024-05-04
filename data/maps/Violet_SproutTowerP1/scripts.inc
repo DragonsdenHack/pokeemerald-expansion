@@ -23,7 +23,7 @@ VioletCity_SproutTowerP1_Text_3:
 .string "pagodas de CIUDAD IRIS y CIUDAD\l"
 .string "MALVA, aunque de eso hace ya\l"
 .string "tiempo, hasta que no abran las\l"
-.string "fronteras no podré volver…$"
+.string "fronteras no podré volver…{PAUSE 5}$"
 
 
 

@@ -14,9 +14,9 @@ MtPyre_5F_Text_AtsushiIntro:
 
 MtPyre_5F_Text_AtsushiDefeat:
 	.string "El espíritu de mi maestro me observa… Y\n"
-	.string "me has dejado hecho un guiñapo…$"
+	.string "me has dejado hecho un guiñapo…{PAUSE 5}$"
 
 MtPyre_5F_Text_AtsushiPostBattle:
 	.string "Debo mejorar para que el espíritu de mi\n"
-	.string "maestro pueda descansar en paz…$"
+	.string "maestro pueda descansar en paz…{PAUSE 5}$"
 

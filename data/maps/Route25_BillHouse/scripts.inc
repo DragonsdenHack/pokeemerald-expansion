@@ -159,7 +159,7 @@ Route25_BillHouse_Evento_Policia_text_4:
 	.string "teletransportes a largas\l"
 	.string "distancias?\l"
 	.string "Buena jugada, pero,\l"
-	.string "lamentablemente para ti…$"
+	.string "lamentablemente para ti{PAUSE 5}…{PAUSE 5}$"
 
 Route25_BillHouse_Evento_Policia_text_5:
 .string "El gobierno de la ÉLITE 4 ya me ha\n"
@@ -342,7 +342,7 @@ release
 end
 
 Route25_BillHouse_Warp_text_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route25_BillHouse_Warp_Text_YesNo:
     .string "…\n"

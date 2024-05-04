@@ -27,7 +27,7 @@ SootopolisCity_House3_Text_JuanHasManyFansDoYou:
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:
 	.string	"Vaya, pues entonces debes de ser\n"
-	.string	"tremendamente fuerte…$"
+	.string	"tremendamente fuerte{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
 	.string	"Oh, qué pena… Todos necesitamos\n"

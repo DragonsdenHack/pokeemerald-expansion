@@ -44,7 +44,7 @@ BaseRocketHoennS4_Carta_Andra_Text_YesNo:
 	.string "¿Quieres leerla?$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_1:
-	.string "…$"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_2:
 	.string "{PLAYER}, si lees esto, quiere\n"
@@ -66,7 +66,7 @@ BaseRocketHoennS4_Carta_Andra_Texto_4:
 	.string "que decidí dejar a mi ELECTIVIRE-X.\l"
 	.string "Ahora me arrepiento de haberle dado esa\l"
 	.string "PIEDRA ROCKET al que fue mi cuarto\l"
-	.string "POKÉMON, pero…$"
+	.string "POKÉMON, pero{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_5:
 	.string "…si quiero llegar al final de este\n"
@@ -96,10 +96,10 @@ BaseRocketHoennS4_Carta_Andra_Texto_7:
 BaseRocketHoennS4_Carta_Andra_Texto_7.1:
 	.string "Con estos 'ORBES' activarás sus formas\n"
 	.string "primigenias, obteniendo así datos para\l"
-	.string "lograr clonarlas en un futuro, también…$"
+	.string "lograr clonarlas en un futuro, también{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_8:
-	.string "… …$"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_9:
 	.string "Espero, {PLAYER}, que la próxima vez\n"

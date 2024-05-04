@@ -73,7 +73,7 @@ LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband:
 	.string	"Hoy es el cumpleaños de mi marido\n"
 	.string	"y todavía no he encontrado ningún\l"
-	.string	"regalo que me guste…$"
+	.string	"regalo que me guste{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 	.string	"Me voy de viaje muy pronto y tengo\n"

@@ -390,7 +390,7 @@ SlateportCity_Harbor_Text_FerryServiceUnavailable:
 	.string "I beg your pardon?\n"
 	.string "You're looking for a ship?\p"
 	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…$"
+	.string "available at present{PAUSE 5}…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
 	.string "Hello, are you here for the ferry?\n"
@@ -444,7 +444,7 @@ SlateportCity_Harbor_Text_SubTooSmallForMe:
 	.string "the ocean floor exploration.\p"
 	.string "But the sub's too small for me.\p"
 	.string "If I squeezed in, there wouldn't be\n"
-	.string "any room for the CAPTAIN…$"
+	.string "any room for the CAPTAIN{PAUSE 5}…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 	.string "CAPT. STERN: Those thugs…\p"
@@ -460,7 +460,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "No one can stop us! No one!\p"
 	.string "Or, will you follow us back to our\n"
 	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
+	.string "Fwahahahaha…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "CAPT. STERN: Why…\p"
@@ -469,7 +469,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "They can't be after the slumbering\n"
 	.string "POKéMON at the bottom of the sea…\p"
 	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
+	.string "I don't stand a chance against them…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
@@ -484,7 +484,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "someone might teach you…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "CAPT. STERN: Trying to catch a\n"
@@ -494,7 +494,7 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "someone might teach you…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
 	.string "CAPT. STERN: Oh, yes.\n"

@@ -1770,7 +1770,7 @@ BaseRocketHoennS2_Dialogo_Andra_Texto_2:
 	.string "disponemos de una gran base de datos,\l"
 	.string "sobre la que poder crear mejores\l"
 	.string "prototipos a partir de los POKÉMON más\l"
-	.string "fuertes que existen…$"
+	.string "fuertes que existen{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_3:
 .string "Mira, también hemos incluido esto.$"
@@ -1789,7 +1789,7 @@ BaseRocketHoennS2_Dialogo_Andra_Texto_5:
 	.string "si lo vuelves a ver.$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_6:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_7:
 .string "¿Sabes, {PLAYER}? Me gustaría\n"

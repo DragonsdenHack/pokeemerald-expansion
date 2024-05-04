@@ -374,7 +374,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "the rocket fuel!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat:
-	.string "Ran out of fuel…$"
+	.string "Ran out of fuel…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle:
 	.string "Don't think you're on a roll just\n"
@@ -386,7 +386,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat:
 	.string "Grrr…\n"
-	.string "We should've used sneaky treachery…$"
+	.string "We should've used sneaky treachery…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
 	.string "Okay, I get it already! The next time,\n"
@@ -417,7 +417,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 	.string "Please, tell our leader that\n"
 	.string "I never abandoned my post.\l"
-	.string "That I stayed to the bitter end…$"
+	.string "That I stayed to the bitter end…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "This is…\n"

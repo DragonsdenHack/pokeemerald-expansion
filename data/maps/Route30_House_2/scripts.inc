@@ -37,7 +37,7 @@ Route30_House_2_Documento_Texto_1:
 	.string "ESCAMA ROJA.$"
 
 Route30_House_2_Documento_Texto_2:
-	.string "… … … … … … … …$"
+	.string "… … … … … … … …{PAUSE 5}$"
 
 Route30_House_2_Documento_Texto_3:
 	.string "Aún desconocemos su naturaleza, pero\n"

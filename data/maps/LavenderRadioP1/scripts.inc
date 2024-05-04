@@ -119,7 +119,7 @@ LavenderRadioP1_Text_7:
 .string "su máximo potencial, gracias a sus\l"
 .string "formas X e Y. Tal vez si uniéramos sus\l"
 .string "genes podríamos lograr algo incluso\l"
-.string "mejor…$"
+.string "mejor{PAUSE 5}…{PAUSE 5}$"
 
 
 

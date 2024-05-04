@@ -299,7 +299,7 @@ SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
 	.string	"Ay, ay, ay, qué desastre…\n"
-	.string	"El JEFE se va a mosquear…$"
+	.string	"El JEFE se va a mosquear…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
 	.string	"¡Apártate, llorica!\n"
@@ -393,7 +393,7 @@ SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
 	.string	"La etiqueta dice: “MUESTRA de CALIDAD\n"
 	.string	"de AGUA 2”.\p"
 	.string	"Es posible que la salinidad del agua sea\n"
-	.string	"diferente de un mar a otro…$"
+	.string	"diferente de un mar a otro…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string	"Una bola de goma se hincha y deshincha.\p"

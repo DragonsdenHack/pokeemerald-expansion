@@ -103,7 +103,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_3:
 	.string "así!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_4:
-.string "Así que hay relevo, ya era hora…$"
+.string "Así que hay relevo, ya era hora{PAUSE 5}…{PAUSE 5}$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_5:
 .string "¡Jah! ¡Ese ATLAS! ¡Cómo se la tenía\n"

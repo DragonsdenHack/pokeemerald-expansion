@@ -231,7 +231,7 @@ Snowpoint_Templo_S5_Amatista_Texto_11:
 	.string "hallar a los 3 REGIS necesarios para\l"
 	.string "despertarlo, y donde para entrar a este\l"
 	.string "TEMPLO es necesario ser ALTO MANDO,\l"
-	.string "CAMPEÓN o…$"
+	.string "CAMPEÓN o{PAUSE 5}…{PAUSE 5}$"
 
 Snowpoint_Templo_S5_Amatista_Texto_12:
 	.string "Traer un permiso especial con fines\n"

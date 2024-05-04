@@ -206,7 +206,7 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_1:
 	.string "para empezar.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
 .string "¿Ganarme tú a mi?\n"

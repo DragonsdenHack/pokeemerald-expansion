@@ -185,27 +185,27 @@ BattleFrontier_Lounge1_Text_OutstandingAbility:
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its HP…$"
+	.string "I would say, is its HP…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_BestAspectAtk:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its ATTACK…$"
+	.string "I would say, is its ATTACK…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_BestAspectDef:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its DEFENSE…$"
+	.string "I would say, is its DEFENSE…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL ATTACK…$"
+	.string "I would say, is its SPECIAL ATTACK…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL DEFENSE…$"
+	.string "I would say, is its SPECIAL DEFENSE…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPEED…$"
+	.string "I would say, is its SPEED…{PAUSE 5}$"
 
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
 	.string "That stat is relatively good.\n"
@@ -254,5 +254,5 @@ BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
 	.string "He said my POKéMON is outstanding!\n"
 	.string "But I didn't do anything special\l"
-	.string "raising it…$"
+	.string "raising it…{PAUSE 5}$"
 

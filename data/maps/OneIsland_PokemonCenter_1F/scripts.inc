@@ -44,7 +44,7 @@ end
 OneIsland_PokemonCenter_Text_3:
 .string "Ojalá pudiera intercambiar POKéMON\n"
 .string "con mi chico, que vive muy lejos\l"
-.string "de aquí…$"
+.string "de aquí{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -99,7 +99,7 @@ OneIsland_PokemonCenter_Text_6:
 .string "ISLAS SETE, sin embargo, jamás\l"
 .string "pudimos encontrarlos, y no nos\l"
 .string "quedó más remedio que pedirle un\l"
-.string "préstamo a BILL…$"
+.string "préstamo a BILL{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -122,7 +122,7 @@ end
 
 OneIsland_PokemonCenter_Text_8:
 .string "No puedo esperar a ver qué esconde ese\n"
-	.string "recóndito lugar…$"
+	.string "recóndito lugar{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -156,7 +156,7 @@ OneIsland_PokemonCenter_Text_9:
 	.string "submarina. Una suerte para nosotros\l"
 	.string "que haya permanecido tan bien\l"
 	.string "escondida entre las rocas del sur de\l"
-	.string "PLAYA TESORO…$"
+	.string "PLAYA TESORO{PAUSE 5}…{PAUSE 5}$"
 
 
 CuevaTesoro_Activador_Entrada::
@@ -180,7 +180,7 @@ release
 end
 
 CuevaTesoro_Activador_Entrada_Texto_1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 CuevaTesoro_Activador_Entrada_Pasa_Text_YesNo:
 .string "Hay una pequeña endidura entre las\n"

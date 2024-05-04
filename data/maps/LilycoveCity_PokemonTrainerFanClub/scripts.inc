@@ -603,12 +603,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
 	.string	"ENTRENADOR que está en boca\l"
 	.string	"de todos es {STR_VAR_1}, eso está claro.\p"
 	.string	"La fuerza de ese ENTRENADOR…\n"
-	.string	"es algo que no es normal…$"
+	.string	"es algo que no es normal{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
 	.string	"Qué pesadez… He estado diciendo\n"
 	.string	"a todos que el mejor es {STR_VAR_1}…\p"
-	.string	"Pero nadie me escucha…$"
+	.string	"Pero nadie me escucha{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
 	.string	"He estado oyendo algo de un nuevo\n"
@@ -633,7 +633,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan:
 
 LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
 	.string	"No puedo evitarlo, sólo me gusta\n"
-	.string	"MARCIAL…$"
+	.string	"MARCIAL{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
 	.string	"Nadie comprende lo bueno\n"
@@ -710,7 +710,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
 	.string	"superguay…,\p"
 	.string	"superfuerte…\p"
 	.string	"y supersimpático.\p"
-	.string	"Ojalá existiera de verdad…$"
+	.string	"Ojalá existiera de verdad{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
 	.string	"¡Eh! ¡Es {PLAYER}!\n"
@@ -726,7 +726,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou:
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
 	.string	"{STR_VAR_1} es tan guay…\n"
-	.string	"Ojalá me dejara darle la mano…$"
+	.string	"Ojalá me dejara darle la mano{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 	.string	"Aunque sea el único…,\p"
@@ -739,7 +739,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
 	.string	"¡Eres increíble!\p"
 	.string	"Desde que te vi, supe que eras\n"
 	.string	"alguien realmente grande.\p"
-	.string	"Yo nunca me equivoco…$"
+	.string	"Yo nunca me equivoco{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
 	.string	"¿A quién le importa lo que piensen\n"

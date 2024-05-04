@@ -34,21 +34,21 @@ MtPyre_3F_Text_WilliamIntro:
 	.string "¡El fresco aire de la montaña ha\n"
 	.string "potenciado mis poderes psíquicos!\l"
 	.string "Alguien tan pequeño como tú… No tienes\l"
-	.string "ni medio movimiento…$"
+	.string "ni medio movimiento…{PAUSE 5}$"
 
 MtPyre_3F_Text_WilliamDefeat:
-	.string "Qué vergüenza más grande…$"
+	.string "Qué vergüenza más grande…{PAUSE 5}$"
 
 MtPyre_3F_Text_WilliamPostBattle:
 	.string "Quizás todavía pueda potenciar mis\n"
-	.string "poderes psíquicos una pizquita…$"
+	.string "poderes psíquicos una pizquita…{PAUSE 5}$"
 
 MtPyre_3F_Text_KaylaIntro:
 	.string "¡Ja, ja, ja, ja! Éste no es lugar para\n"
 	.string "críos… ¡y menos aún para ti!$"
 
 MtPyre_3F_Text_KaylaDefeat:
-	.string "Es evidente que he perdido…$"
+	.string "Es evidente que he perdido…{PAUSE 5}$"
 
 MtPyre_3F_Text_KaylaPostBattle:
 	.string "Está claro que tengo que entrenarme\n"
@@ -64,7 +64,7 @@ MtPyre_3F_Text_GabrielleDefeat:
 
 MtPyre_3F_Text_GabriellePostBattle:
 	.string "Me gustaría volver a ver a tus Pokémon\n"
-	.string "cuando hayan crecido un poco…$"
+	.string "cuando hayan crecido un poco…{PAUSE 5}$"
 
 MtPyre_3F_Text_GabrielleRegister:
 	.string "I would like to see your POKéMON\n"

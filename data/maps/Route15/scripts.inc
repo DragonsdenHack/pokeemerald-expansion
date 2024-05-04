@@ -286,7 +286,7 @@ Route15_Koga_Bruno_Texto_7:
 	.string "lavarte las manos con todo este\l"
 	.string "asunto, un ALTO MANDO como yo no\l"
 	.string "viaja a un lugar como este a no\l"
-	.string "ser que tenga un motivo de peso…$"
+	.string "ser que tenga un motivo de peso{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_8:
 .string "BRUNO: {PAUSE 15}…{PAUSE 15}y tengo órdenes directas\n"
@@ -318,7 +318,7 @@ Route15_Koga_Bruno_Texto_12:
 	.string "subido los humos desde que forma\l"
 	.string "parte de la ÉLITE 4, no es ni la\l"
 	.string "sombra de aquel que llevaba el\l"
-	.string "DOJO en AZAFRÁN…$"
+	.string "DOJO en AZAFRÁN{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_13:
 .string "{PLAYER}, ¿me equivoco?\n"
@@ -348,7 +348,7 @@ Route15_Koga_Bruno_Texto_15:
 	.string "dictadura impuesta por la fuerza y\l"
 	.string "además venida de alguien de fuera\l"
 	.string "como LANCE nunca contará con mi\l"
-	.string "apoyo…$"
+	.string "apoyo{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_16:
 .string "BRUNO va directo al CAMINO BICIS,\n"
@@ -359,7 +359,7 @@ Route15_Koga_Bruno_Texto_16:
 	.string "prisión, si eso ocurre están\l"
 	.string "perdidos, sus POKÉMON están a años\l"
 	.string "luz tanto en fuerza como en\l"
-	.string "nivel…$"
+	.string "nivel{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_17:
 .string "Yo no puedo oponerme por obvias\n"
@@ -370,7 +370,7 @@ Route15_Koga_Bruno_Texto_17:
 	.string "y futuro, BRUNO forma parte de la\l"
 	.string "ÉLITE, sí, pero dudo que vaya con\l"
 	.string "sus mejores POKÉMON, si alguien\l"
-	.string "puede detenerlo eres tú…$"
+	.string "puede detenerlo eres tú{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_18:
 .string "Estaré en mi GIMNASIO {PLAYER}, por\n"

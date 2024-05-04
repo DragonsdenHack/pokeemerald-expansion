@@ -403,7 +403,7 @@ MossdeepCity_Gym_Text_VirgilPostBattle:
 	.string	"Las maravillas humanas de este mundo\n"
 	.string	"son los LÍDERES de GIMNASIO.\p"
 	.string	"Pero es posible que puedas demostrar\n"
-	.string	"que vales incluso más que ellos…$"
+	.string	"que vales incluso más que ellos{PAUSE 5}…{PAUSE 5}$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
 	.string	"Ommmmm… Mira cómo hago levitar\n"
@@ -431,7 +431,7 @@ MossdeepCity_Gym_Text_HannahIntro:
 	.string	"soy superfuerte!$"
 
 MossdeepCity_Gym_Text_HannahDefeat:
-	.string	"Ejem… TÚ eres superfuerte…$"
+	.string	"Ejem… TÚ eres superfuerte{PAUSE 5}…{PAUSE 5}$"
 
 MossdeepCity_Gym_Text_HannahPostBattle:
 	.string	"Pero no pienso deprimirme por esta\n"
@@ -477,12 +477,12 @@ MossdeepCity_Gym_Text_SylviaIntro:
 
 MossdeepCity_Gym_Text_SylviaDefeat:
 	.string	"Tu forma de luchar…\n"
-	.string	"es aterradora…$"
+	.string	"es aterradora{PAUSE 5}…{PAUSE 5}$"
 
 MossdeepCity_Gym_Text_SylviaPostBattle:
 	.string	"¿Cómo osas derrotarme?\p"
 	.string	"No será culpa mía si te ocurre\n"
-	.string	"algo malo muy pronto…$"
+	.string	"algo malo muy pronto{PAUSE 5}…{PAUSE 5}$"
 
 MossdeepCity_Gym_Text_NateIntro:
 	.string	"Jo, jo, jo…\p"
@@ -583,7 +583,7 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
 	.string "LIZA: It raises SP. DEF!\p"
 	.string "TATE: It's a move that's perfect…\n"
 	.string "LIZA: For PSYCHIC POKéMON!\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 	.string "Registered GYM LEADERS TATE & LIZA\n"

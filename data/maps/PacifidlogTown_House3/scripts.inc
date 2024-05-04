@@ -78,11 +78,11 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 	.string	"Ya sé que podía haber ido yo\n"
 	.string	"a buscarlo…\p"
 	.string	"Pero es que quería un BAGON\n"
-	.string	"que hubiera atrapado otro ENTRENADOR…$"
+	.string	"que hubiera atrapado otro ENTRENADOR…{PAUSE 5}$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
 	.string	"¿Eso es una POKéDEX?\p"
 	.string	"¿Has encontrado muchos tipos\n"
 	.string	"diferentes de POKéMON?\p"
-	.string	"Ojalá fuera como tú…$"
+	.string	"Ojalá fuera como tú…{PAUSE 5}$"
 

@@ -285,7 +285,7 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 	.string	"puede curarse a sí mismo.\p"
 	.string	"Hay muchos tipos de objeto que\n"
 	.string	"se pueden dar a los POKéMON.\p"
-	.string	"Uf, qué cansado es coger apuntes…$"
+	.string	"Uf, qué cansado es coger apuntes…{PAUSE 5}$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
 	.string	"Es un cuaderno de un alumno…\p"

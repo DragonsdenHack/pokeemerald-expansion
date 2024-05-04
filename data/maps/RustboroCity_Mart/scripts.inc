@@ -72,7 +72,7 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
 	.string	"Estoy comprando ANTIPARALIZACIÓN\n"
 	.string	"y ANTÍDOTOS.\p"
 	.string	"Por si acaso caigo sobre un SHROOMISH\n"
-	.string	"en el BOSQUE PETALIA…$"
+	.string	"en el BOSQUE PETALIA…{PAUSE 5}$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
 	.string	"Mi POKéMON ha evolucionado y ahora\n"

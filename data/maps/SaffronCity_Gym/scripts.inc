@@ -302,7 +302,7 @@ Vermilion_City_Gym_Guy_Texto_1:
 	.string "Es cierto que tienes una LICENCIA,\l"
 	.string "pero aún así tu presencia aquí se\l"
 	.string "me hace rara.\l"
-	.string "Te estaré vigilando…$"
+	.string "Te estaré vigilando{PAUSE 5}…{PAUSE 5}$"
 
 Vermilion_City_Gym_Guy_Texto_2:
 .string "¡Definitivamente no eres un\n"
@@ -556,7 +556,7 @@ Pewter_City_Lider_Gimnasio_Texto_3:
 	.string "parece que tienes talento chico,\l"
 	.string "si lo pones al servicio del bien\l"
 	.string "podrás hacer de esta región un\l"
-	.string "lugar mucho mejor para vivir…$"
+	.string "lugar mucho mejor para vivir{PAUSE 5}…{PAUSE 5}$"
 
 Pewter_City_Lider_Gimnasio_Texto_4:
 .string "¡Espera!\n"

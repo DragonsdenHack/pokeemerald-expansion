@@ -12,11 +12,11 @@ Text_PokemonCenterBookShelf:
 
 Text_Vase:
 	.string "Qué combinación de números\n"
-	.string "y letras más complicada…$"
+	.string "y letras más complicada…{PAUSE 5}$"
 
 Text_EmptyTrashCan:
 	.string "Cuántas lucecitas de colores\n"
-	.string "que se encienden y se apagan…$"
+	.string "que se encienden y se apagan…{PAUSE 5}$"
 
 Text_ShopShelf:
 	.string "Qué foto más bonita.\n"

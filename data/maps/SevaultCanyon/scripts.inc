@@ -241,7 +241,7 @@ SevaultCanyon_Combate_Andra_Texto_2:
 	.string "algo.$"
 
 SevaultCanyon_Combate_Andra_Texto_3:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_4:
 .string "Todavía me cuesta creer que\n"
@@ -255,7 +255,7 @@ SevaultCanyon_Combate_Andra_Texto_4:
 	.string "de verdad, mi equipo jamás había\l"
 	.string "alcanzado tal nivel y aún me\l"
 	.string "quedaban fuerzas, pensé incluso en\l"
-	.string "entrar a ayudarte con ROJO, pero…$"
+	.string "entrar a ayudarte con ROJO, pero{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_5:
 .string "Justo en ese momento apareció\n"
@@ -268,7 +268,7 @@ SevaultCanyon_Combate_Andra_Texto_5:
 	.string "POKÉMON sin que pudieran hacer\l"
 	.string "nada, solo mi CROBAT pudo llegar a\l"
 	.string "tocarle antes de caer igualmente\l"
-	.string "de un solo ENFADO…$"
+	.string "de un solo ENFADO{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_6:
 .string "Después de presenciar ese poder\n"

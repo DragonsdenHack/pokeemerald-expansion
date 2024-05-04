@@ -75,7 +75,7 @@ PowerPlant13_Texto_1:
 .string "Ya estás al límite chiquilla,\n"
 	.string "cuando el LT.SURGE llegue no le\l"
 	.string "tomará más de un POKÉMON\l"
-	.string "rematarte…$"
+	.string "rematarte{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -91,7 +91,7 @@ PowerPlant14_Texto_1:
 	.string "Ya he derrotado a 7 POLICÍAS que\l"
 	.string "han huido para avisar al LT.SURGE{PAUSE 25}…\l"
 	.string "Date prisa{PAUSE 25}…\l"
-	.string "Mi equipo no aguantará mucho más{PAUSE 25}…$"
+	.string "Mi equipo no aguantará mucho más{PAUSE 25}…{PAUSE 5}$"
 
 
 
@@ -124,7 +124,7 @@ PowerPlant17_Texto_1:
 	.string "de LANCE de usar el 100% de mi\l"
 	.string "capacidad en derrotarte, nadie\l"
 	.string "saldrá de aquí sin mi\l"
-	.string "consentimiento…$"
+	.string "consentimiento{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -139,7 +139,7 @@ PowerPlant18_Texto_1:
 	.string "mediocres ENTRENADORES que abundan\l"
 	.string "por aquí LORELEI, tampoco un LÍDER\l"
 	.string "DE GIMNASIO, vas a tener que\l"
-	.string "hacerlo mejor si quieres batirme…$"
+	.string "hacerlo mejor si quieres batirme{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -217,7 +217,7 @@ PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "intervenir{PAUSE 25}…{PAUSE 25}ATLAS ahora mismo está\l"
 	.string "combatiendo con ella, me ha pedido\l"
 	.string "que te encontrara y te contara el\l"
-	.string "plan{PAUSE 25}…$"
+	.string "plan{PAUSE 25}…{PAUSE 5}$"
 
 PowerPlant_Encuentro_Petrel_Texto_2:
 .string "PETREL: ATLAS ahora mismo está\n"
@@ -348,7 +348,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_1:
 .string "¡Zap!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_2:
-.string "Zap…$"
+.string "Zap{PAUSE 5}…{PAUSE 5}$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_3:
 .string "¡Obtuviste una pluma del\n"
@@ -451,7 +451,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_14:
 	.string "legendarios y cumplir no solo tu\l"
 	.string "misión, sino esta también, no\l"
 	.string "quiero imaginarme cómo te recibirá\l"
-	.string "nuestro líder…$"
+	.string "nuestro líder{PAUSE 5}…{PAUSE 5}$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_15:
 .string "ATLAS: Vámonos ya {PLAYER}, este\n"

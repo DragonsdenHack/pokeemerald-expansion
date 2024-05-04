@@ -145,14 +145,14 @@ UndergroundPath_12F_Combates_Moteros_Texto_2:
 .string "Jamás podrán llegar hasta nuestros\n"
 	.string "LÍDERES, la única LLAVE que abre la\l"
 	.string "puerta principal la tenemos nosotros,\l"
-	.string "y…$"
+	.string "y{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_3:
 .string "¿Quién eres tú? Esta zona de los\n"
 	.string "refugios debería estar sellada.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_4:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
 .string "S{PAUSE 15}…{PAUSE 15}señor{PAUSE 25}…{PAUSE 25} es {PLAYER}, uno de los\n"
@@ -168,7 +168,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_7:
 	.string "es lo que haré.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_8:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_9:
 .string "Así que has derrotado a los 4\n"
@@ -186,7 +186,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_11:
 	.string "tendremos piedad contigo!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_12:
-.string "Has seguido mejorando…$"
+.string "Has seguido mejorando{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_13:
 .string "Creímos que el TEAM ROCKET nos\n"
@@ -195,7 +195,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_13:
 	.string "ante el NUEVO ORDEN!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_14:
-.string "Al final, JOHTO sigue dándonos órdenes…$"
+.string "Al final, JOHTO sigue dándonos órdenes{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_15:
 .string "¡Ya es suficiente! Si quiero algo bien\n"
@@ -215,7 +215,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_18:
 
 UndergroundPath_12F_Combates_Moteros_Texto_19:
 .string "Con ella podrás entrar a la CABINA\n"
-	.string "principal…$"
+	.string "principal{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_20:
 .string "Pero te lo advierto: puede que no te\n"
@@ -277,7 +277,7 @@ release
 end
 
 UndergroundPath_7F_Tercero_Motorista_Texto_1:
-.string "Al final, JOHTO sigue dándonos órdenes…$"
+.string "Al final, JOHTO sigue dándonos órdenes{PAUSE 5}…{PAUSE 5}$"
 
 Pokedex_Set::
 lock

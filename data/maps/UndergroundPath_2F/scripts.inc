@@ -398,7 +398,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_1:
 .string "Eso, eso…\n"
 	.string "Todos a la cola…\l"
 	.string "No os preocupéis…\l"
-	.string "Habrá para todos…$"
+	.string "Habrá para todos{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_2:
 .string "Tenlo en cuenta ROCKET, solo has\n"
@@ -409,7 +409,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_2:
 
 UndergroundPath2F_Secundaria_Eevees_Texto_3:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
 .string "¿Qué problema tienes ROCKET?\n"
@@ -417,7 +417,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_4:
 	.string "cola como todos, espero que tengas\l"
 	.string "el millón de POKÉS que cuesta.\l"
 	.string "De lo contrario, no me hagas perder\l"
-	.string "más el tiempo y regresa a tu…$"
+	.string "más el tiempo y regresa a tu{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_5:
 .string "¿Te envía ese ingenuo CIENTÍFICO\n"

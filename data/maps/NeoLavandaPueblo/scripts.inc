@@ -194,7 +194,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_4:
 	.string "día!$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_5:
-.string "No en vano derrotaste al GRAN MAESTRO…$"
+.string "No en vano derrotaste al GRAN MAESTRO{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_6:
 .string "EUSINE: Así es, ya hemos logrado\n"
@@ -214,10 +214,10 @@ NeoLavandaPueblo_Combate_Eusine_Texto_7:
 	.string "si es solo por la leyenda que te\l"
 	.string "alimenta, o si realmente caerías una\l"
 	.string "vez que nuestras mayores creaciones\l"
-	.string "estén completas…$"
+	.string "estén completas{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_8:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_9:
 .string "Entonces{PAUSE 35}…{PAUSE 35} ¿crees que he abandonado\n"
@@ -512,10 +512,10 @@ NeoLavandaPueblo_Policía_Texto_8:
 	.string "con el PRESIDENTE, exigimos refuerz…!$"
 
 NeoLavandaPueblo_Policía_Texto_9:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 NeoLavandaPueblo_Policía_Texto_11:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 NeoLavandaPueblo_Policía_Texto_12:
 .string "Oh{PAUSE 25}…{PAUSE 25} Usted{PAUSE 25}…{PAUSE 25} Señor{PAUSE 25}…{PAUSE 25}$"

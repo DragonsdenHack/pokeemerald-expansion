@@ -281,7 +281,7 @@ Route23_Combate_Andra_Texto_7:
 	.string "que nos encontramos con él en el\l"
 	.string "MT.MOON, pero sigue siendo el\l"
 	.string "único al que yo haya visto\l"
-	.string "derrotarte…$"
+	.string "derrotarte{PAUSE 5}…{PAUSE 5}$"
 
 Route23_Combate_Andra_Texto_8:
 .string "En fin {PLAYER}, te deseo suerte,\n"

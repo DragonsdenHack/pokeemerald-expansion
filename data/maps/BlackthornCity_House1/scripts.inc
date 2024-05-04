@@ -15,7 +15,7 @@ BlackthornCityHouse1_1_Texto_1:
 	.string "cuando tenga un KINGDRA y un\l"
 	.string "DRAGONITE habrá resuelto todos los\l"
 	.string "misterios del TIPO DRAGÓN. Si viera los\l"
-	.string "POKÉMON más fuertes del maestro…$"
+	.string "POKÉMON más fuertes del maestro{PAUSE 5}…{PAUSE 5}$"
 
 
 BlackthornCityHouse1_2::
@@ -32,4 +32,4 @@ BlackthornCity_House1_Text_2:
 .string "superior al de cualquier\l"
 .string "LEGENDARIO. Tan extraordinario que\l"
 .string "ni el propio TIPO DRAGÓN le\l"
-.string "afecta…$"
+.string "afecta{PAUSE 5}…{PAUSE 5}$"

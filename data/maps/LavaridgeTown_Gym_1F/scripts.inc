@@ -252,7 +252,7 @@ LavaridgeTown_Gym_B1F_Text_JaceIntro:
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
 	.string "It's so hot, and yet my heart is\n"
-	.string "clutched by ice…$"
+	.string "clutched by ice{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 	.string "The way the battling spirit burns\n"
@@ -269,7 +269,7 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 	.string "Bueno, ¿y qué? ¡Da igual lo que dijera!\n"
 	.string "¡Si quiero, puedo caminar sobre brasas!\l"
-	.string "¡Pero ni se te ocurra intentarlo a ti!…$"
+	.string "¡Pero ni se te ocurra intentarlo a ti!{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
 	.string "Me gustan todas las montañas, pero mi\n"

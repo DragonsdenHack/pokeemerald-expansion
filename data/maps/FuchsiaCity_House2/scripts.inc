@@ -14,7 +14,7 @@ FuchsiaCity_House2_Text_1:
 .string "¡Es mi nieto!\l"
 .string "Siempre le ha gustado coleccionar\l"
 .string "cosas, desde que es un niño ve a\l"
-.string "los POKÉMON como trofeos…$"
+.string "los POKÉMON como trofeos{PAUSE 5}…{PAUSE 5}$"
 
 
 

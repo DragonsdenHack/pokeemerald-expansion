@@ -336,7 +336,7 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 
 RivalsHouse_2F_Text_MayGettingReady:
 	.string "POKéMON fully restored!\n"
-	.string "Items ready, and…$"
+	.string "Items ready, and…{PAUSE 5}$"
 
 RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Hey!\n"
@@ -360,7 +360,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 
 RivalsHouse_2F_Text_BrendanGettingReady:
 	.string "POKéMON fully restored…\n"
-	.string "Items all packed, and…$"
+	.string "Items all packed, and…{PAUSE 5}$"
 
 RivalsHouse_2F_Text_ItsRivalsPokeBall:
 	.string "It's {RIVAL}'s POKé BALL!\p"

@@ -484,7 +484,7 @@ PokemonLeague_6F_Final_Texto_26:
 PokemonLeague_6F_Final_Texto_27:
 .string "OAK: Oh{PAUSE 25},{PAUSE 25} LANCE{PAUSE 25}…{PAUSE 15}\n"
 	.string "Y{PAUSE 25}-{PAUSE 25}yo{PAUSE 25}…{PAUSE 25}\l"
-	.string "Estab…$"
+	.string "Estab{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_28:
 .string "LANCE: -Un ENTRENADOR inabordable,\n"
@@ -540,7 +540,7 @@ PokemonLeague_6F_Final_Texto_31:
 PokemonLeague_6F_Final_Texto_32:
 .string "OAK: Déjeme explicarle LANCE, ROJO\n"
 	.string "aún no estaba listo, necesita\l"
-	.string "exponerse a…$"
+	.string "exponerse a{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_33:
 .string "LANCE: Ya estoy harto de oirte\n"
@@ -628,7 +628,7 @@ PokemonLeague_6F_Final_Texto_43:
 	.string "obligó a LANCE I a hacer uso de\l"
 	.string "sus sagrados POKÉMON justo antes\l"
 	.string "de que diera inicio la nueva fase\l"
-	.string "de su reinado…$"
+	.string "de su reinado{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_44:
 .string "LANCE: {PAUSE 15}…{PAUSE 15}$"

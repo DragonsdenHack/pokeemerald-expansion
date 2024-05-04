@@ -630,7 +630,7 @@ SilphS2_Text_34:
 .string "He oído que en la TORRE RADIO de\n"
 .string "CIUDAD TRIGAL apenas cuentan con\l"
 .string "seguridad, algún día se\l"
-.string "arrepentirán de ello…$"
+.string "arrepentirán de ello…{PAUSE 5}$"
 
 
 

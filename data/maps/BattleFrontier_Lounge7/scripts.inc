@@ -376,7 +376,7 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 	.string "grown even more polished.\p"
 	.string "But… For some reason, I can't help\n"
 	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "Time is so cruel…{PAUSE 5}$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
 	.string "Recovers up to\n"

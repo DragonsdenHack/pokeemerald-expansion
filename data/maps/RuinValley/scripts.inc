@@ -48,7 +48,7 @@ RuinValley10_Texto_1:
 	.string "El ALMIRANTE TOLO debe de saber\l"
 	.string "cómo pasar por aquí, es lo único\l"
 	.string "que nos separa del preciado\l"
-	.string "ZAFIRO…$"
+	.string "ZAFIRO…{PAUSE 5}$"
 
 
 RuinValley11::

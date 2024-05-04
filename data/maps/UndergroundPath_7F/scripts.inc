@@ -111,7 +111,7 @@ UndergroundPath_7F_Cajas_Texto_2:
 	.string "valiosos).$"
 
 UndergroundPath_7F_Cajas_Texto_1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Motero_Llave_Texto_1:
 .string "¿Ves esas cajas? Es lo que queda del\n"
@@ -120,7 +120,7 @@ UndergroundPath_7F_Motero_Llave_Texto_1:
 	.string "interior, al noreste de aquí creo\l"
 	.string "recordar que había otro mercado negro,\l"
 	.string "pero me da un palo ir hasta allí para\l"
-	.string "examinar las cajas…$"
+	.string "examinar las cajas{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -281,7 +281,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_1:
 	.string "moveremos de aqu…!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_3:
 .string "¡Es el ADMIN.JEFE {PLAYER}!$"
@@ -310,7 +310,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_8:
 .string "¿Decides irte?$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_9:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_10:
 .string "Entonces{PAUSE 25}…{PAUSE 25} No nos queda más remedio que\n"
@@ -321,7 +321,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_11:
 .string "¡En guardia!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_12:
-.string "Era esperable…$"
+.string "Era esperable{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_13:
 .string "No vamos a tener contemplaciones, ¡es\n"
@@ -335,7 +335,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_15:
 	.string "notando el cansancio, ¿no?$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_16:
-.string "Parece que no…$"
+.string "Parece que no{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_17:
 .string "Se acabó, lo siento ADMIN.JEFE. Debo\n"
@@ -349,7 +349,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_19:
 .string "Maldición{PAUSE 25}…{PAUSE 25} Era de esperar que alguien\n"
 	.string "que derrotó a las BESTIAS de JOHTO y a\l"
 	.string "los 3 DRAGONITE pudiera con nosotros\l"
-	.string "cuatro…$"
+	.string "cuatro{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_20:
 .string "Pero este lugar es un inmenso laberinto,\n"
@@ -670,7 +670,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_6:
 	.string "bélica que siempre tuve.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_7:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_8:
 .string "He de admitir que los habitantes de\n"
@@ -689,7 +689,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_9:
 	.string "¿no?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_10:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_11:
 .string "Jah, ¿derrotarme fácilmente?$"
@@ -706,11 +706,11 @@ UndergroundPath_7F_Combate_LtSurge_Texto_14:
 .string "¡Es una guerra de guerrillas!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_15:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_16:
 .string "¿Qué te ha parecido esa pequeña\n"
-	.string "escaramuza? Ahora…$"
+	.string "escaramuza? Ahora{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_17:
 .string "¡Empieza la guerra de verdad!$"
@@ -749,13 +749,13 @@ UndergroundPath_7F_Combate_LtSurge_Texto_22:
 	.string "todo.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_23:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_24:
 .string "¿De verdad estás ya dentro?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_25:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
 .string "Ese SURGE{PAUSE 25}…{PAUSE 25} Escucha, {PLAYER}. Debe\n"
@@ -1305,7 +1305,7 @@ UndergroundPath_7F_Escena_Final_Texto_10:
 	.string "visitarse!$"
 
 UndergroundPath_7F_Escena_Final_Texto_65:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_66:
 .string "LT.SURGE: ¿Hablar a solas con PETREL?\n"
@@ -1315,7 +1315,7 @@ UndergroundPath_7F_Escena_Final_Texto_67:
 .string "¡Jah! ¿Qué te has creído chico? Las\n"
 	.string "condiciones aquí las ponemos\l"
 	.string "nosotros, no vas a volver a campar a\l"
-	.string "tus anch…$"
+	.string "tus anch{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_68:
 .string "PETREL: ¡SURGE!$"
@@ -1333,7 +1333,7 @@ UndergroundPath_7F_Escena_Final_Texto_70:
 	.string "que consideréis.$"
 
 UndergroundPath_7F_Escena_Final_Texto_71:
-	.string "LT.SURGE: …$"
+	.string "LT.SURGE: {PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_11:
 .string "PETREL: Escucha, {PLAYER}. Que KANTO\n"
@@ -1361,7 +1361,7 @@ UndergroundPath_7F_Escena_Final_Texto_12:
 UndergroundPath_7F_Escena_Final_Texto_13:
 .string "Es cierto que GIOVANNI tiene mil cosas\n"
 	.string "en la cabeza, y no le dio la importancia\l"
-	.string "que en otra situación hubiera tenido…$"
+	.string "que en otra situación hubiera tenido{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_14:
 .string "PETREL: Y para eso estamos nosotros,\n"
@@ -1380,7 +1380,7 @@ UndergroundPath_7F_Escena_Final_Texto_15:
 	.string "¿{PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_16:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_17:
 .string "Ya veo. Quieres que primero nos\n"
@@ -1428,7 +1428,7 @@ UndergroundPath_7F_Escena_Final_Texto_22:
 
 UndergroundPath_7F_Escena_Final_Texto_23:
 .string "WEEZING{PAUSE 25}…{PAUSE 25} defendiste el honor de los\n"
-	.string "tuyos…$"
+	.string "tuyos{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_24:
 .string "PETREL: Ya veo, tu habilidad en combate\n"
@@ -1450,7 +1450,7 @@ UndergroundPath_7F_Escena_Final_Texto_27:
 	.string "váis a dejarle ir ahora?$"
 
 UndergroundPath_7F_Escena_Final_Texto_28:
-.string "KOGA: SURGE, es suficien…$"
+.string "KOGA: SURGE, es suficien{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_29:
 .string "LT.SURGE: ¡No! ¡Ahora es la ocasión de\n"
@@ -1471,7 +1471,7 @@ UndergroundPath_7F_Escena_Final_Texto_33:
 
 UndergroundPath_7F_Escena_Final_Texto_34:
 .string "KOGA: No hay vuelta atrás, asumiremos\n"
-	.string "nuestras acciones y…$"
+	.string "nuestras acciones y{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_35:
 .string "ANDRA: Esperad.$"
@@ -1549,7 +1549,7 @@ UndergroundPath_7F_Escena_Final_Texto_49.1:
 	.string "AGATHA en el ALTO MANDO.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.2:
-.string "KOGA: Oh…$"
+.string "KOGA: Oh{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
 .string "Ya sabéis que contáis con la palabra de\n"

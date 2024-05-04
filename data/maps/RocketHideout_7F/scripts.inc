@@ -340,7 +340,7 @@ RocketHideout7F_Text_18:
 .string "No sabemos dónde está el límite de\n"
 .string "poder base alcanzable por un\l"
 .string "POKÉMON, pero si sabemos dónde no\l"
-.string "está…$"
+.string "está{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -2800,7 +2800,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_27:
 .string "Eso es todo, tendrás noticias mías\n"
 	.string "más pronto que tarde {PLAYER}, hay\l"
 	.string "importantes negocios y acuerdos\l"
-	.string "que cerrar en JOHTO también…$"
+	.string "que cerrar en JOHTO también{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_28:
 .string "{PAUSE 15}…{PAUSE 15}$"

@@ -242,7 +242,7 @@ PewterCity_Petrel_Texto_2:
 	.string "haciendo un buen trabajo allí.$"
 
 PewterCity_Petrel_Texto_3:
-.string "… … … … … … …$"
+.string "… … … … … … …{PAUSE 5}$"
 
 PewterCity_Petrel_Texto_4:
 .string "PETREL: -¡Aviso! Unos ladrones han\n"

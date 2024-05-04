@@ -313,7 +313,7 @@ ViridianCity_Gym_Explicacion_Base_Texto_1:
 .string "EJECUTIVO: Le estábamos esperando,\n"
 	.string "EJECUTIVO {PLAYER}, veo que tiene las 7\l"
 	.string "MEDALLAS, GIOVANNI no esperaba\l"
-	.string "menos de usted, sin embargo…$"
+	.string "menos de usted, sin embargo…{PAUSE 5}$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_2:
 .string "Deberá de subir un poco más el\n"

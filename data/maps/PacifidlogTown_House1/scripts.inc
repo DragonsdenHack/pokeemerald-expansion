@@ -21,5 +21,5 @@ PacifidlogTown_House1_Text_RegiStory:
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
 	.string	"“Seis puntos abren tres puertas.”\p"
 	.string	"Es lo que repetía mi abuelo, pero no\n"
-	.string	"tengo ni idea de qué quería decir…$"
+	.string	"tengo ni idea de qué quería decir…{PAUSE 5}$"
 

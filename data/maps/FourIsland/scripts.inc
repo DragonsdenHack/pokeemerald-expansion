@@ -147,7 +147,7 @@ end
 
 FourIsland_Encuentro_Zeus_Texto_1:
 .string "????: Maldición, dónde las habrá\n"
-	.string "guardado…$"
+	.string "guardado{PAUSE 5}…{PAUSE 5}$"
 
 FourIsland_Encuentro_Zeus_Texto_2:
 .string "No pareces ser de por aquí,\n"
@@ -430,7 +430,7 @@ face_player
 step_end
 
 Isla_Cuarta_Activador_Entrada_Texto_1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo:
 .string "Esta roca está prácticamente hundida,\n"

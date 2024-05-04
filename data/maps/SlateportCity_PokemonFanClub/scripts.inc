@@ -272,7 +272,7 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
 	.string	"Ya me gustaría ver al POKéMON de algún\n"
 	.string	"ENTRENADOR que haya participado\l"
-	.string	"en algún CONCURSO POKéMON…$"
+	.string	"en algún CONCURSO POKéMON…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string	"Ejem, ejem… ¡Ya veo que has\n"
@@ -294,11 +294,11 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
 	.string	"¿Qué tal está creciendo tu\n"
-	.string	"POKéMON? Déjame examinarlo…$"
+	.string	"POKéMON? Déjame examinarlo…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
 	.string	"Ajá… Muy bien…\n"
-	.string	"Ya veo…$"
+	.string	"Ya veo…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 	.string	"Mmmm… No está mal, pero\n"
@@ -313,7 +313,7 @@ SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
 	.string	"Tu POKéMON está creciendo\n"
 	.string	"muy bien. ¡Te mereces un premio!\p"
 	.string	"Lástima que no tengas sitio\n"
-	.string	"en la MOCHILA…$"
+	.string	"en la MOCHILA…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
 	.string	"¡Tu {STR_VAR_1} está creciendo\n"
@@ -390,10 +390,10 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 	.string	"contentos cuando les di PROTEÍNA.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string	"SKITTY: Skitiiiiii…$"
+	.string	"SKITTY: Skitiiiiii…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string	"ZIGZAGOON: Zigzaaaa…$"
+	.string	"ZIGZAGOON: Zigzaaaa…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
 	.string	"AZUMARILL: ¿Marimari?$"

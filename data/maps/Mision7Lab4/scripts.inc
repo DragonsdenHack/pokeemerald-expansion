@@ -296,7 +296,7 @@ Mision7Lab4_Dialogo_Oak_Texto_2:
 
 Mision7Lab4_Dialogo_Oak_Texto_3:
 .string "En total hay 5 cabinas similares a\n"
-	.string "estas, una vez desactivadas todas…$"
+	.string "estas, una vez desactivadas todas{PAUSE 5}…{PAUSE 5}$"
 
 Mision7Lab4_Dialogo_Oak_Texto_4:
 .string "Esta puerta se abrirá automáticamente.$"
@@ -329,7 +329,7 @@ Mision7Lab4_Dialogo_Oak_Texto_9:
 	.string "mucho más eficiente.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_10:
-.string "C.MIGUEL: … …$"
+.string "C.MIGUEL: {PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Mision7Lab4_Dialogo_Oak_Texto_11:
 .string "ELM: Tampoco exageres, BILL. Tú mismo\n"
@@ -366,7 +366,7 @@ Mision7Lab4_Dialogo_Oak_Texto_15:
 	.string "sea.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_16:
-.string "Es decir, si todos son extraordinarios…$"
+.string "Es decir, si todos son extraordinarios…{PAUSE 5}$"
 
 Mision7Lab4_Dialogo_Oak_Texto_17:
 .string "…ya ninguno lo será.$"
@@ -1032,7 +1032,7 @@ Mision7Lab4_Documento_Texto_3:
 	.string "¡Tiene más de 1000 páginas!$"
 
 Mision7Lab4_Documento_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Mision7Lab4_Documento_Texto_1:
 	.string "-Cómo obtener mayores ganancias de\n"

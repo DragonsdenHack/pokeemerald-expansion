@@ -643,7 +643,7 @@ MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
 
 MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
 	.string "Um… Parece que no tienes\n"
-	.string "suficiente dinero…$"
+	.string "suficiente dinero{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_GameCorner_Text_CoinCaseIsFull:
 	.string "¿Oh?\n"
@@ -804,7 +804,7 @@ MauvilleCity_GameCorner_Tristana_Texto_3:
 	.string "No preguntes cómo, pero sé también\n"
 	.string "cómo acceder a todos esos pisos\l"
 	.string "inferiores, es como una ciudad en\l"
-	.string "ruinas, aunque…$"
+	.string "ruinas, aunque{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_GameCorner_Tristana_Texto_4:
 	.string "Lo cierto es que no hay nada\n"
@@ -820,7 +820,7 @@ MauvilleCity_GameCorner_Tristana_Texto_5:
 	.string "fondo este CASINO.$"
 
 MauvilleCity_GameCorner_Tristana_Texto_6:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MauvilleCity_GameCorner_Tristana_Texto_7:
 	.string "Oh… parece que no te ha sorprendido lo\n"

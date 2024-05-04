@@ -56,12 +56,12 @@ SootopolisCity_Gym_B1F_Text_AndreaIntro:
 	.string	"lo que he aprendido con GALANO.$"
 
 SootopolisCity_Gym_B1F_Text_AndreaDefeat:
-	.string	"GALANO no va a estar contento…$"
+	.string	"GALANO no va a estar contento{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
 	.string	"Te sugiero que intentes caminar sobre\n"
 	.string	"todas las baldosas. Pero sobre toditas,\l"
-	.string	"todas. Podría pasar algo interesante…$"
+	.string	"todas. Podría pasar algo interesante…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
 	.string	"Has venido desde muy lejos, pero no\n"
@@ -70,7 +70,7 @@ SootopolisCity_Gym_B1F_Text_CrissyIntro:
 
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
 	.string	"¡Qué fuerte eres!\n"
-	.string	"Me he dejado engañar por tu aspecto…$"
+	.string	"Me he dejado engañar por tu aspecto…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
 	.string	"Puede que tú sí seas capaz\n"
@@ -84,20 +84,20 @@ SootopolisCity_Gym_B1F_Text_DaphneIntro:
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
 	.string	"Has luchado con mucha más gracia\n"
-	.string	"y elegancia que yo…$"
+	.string	"y elegancia que yo…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
 	.string	"Tu estilo combatiendo es inigualable.\p"
 	.string	"Y yo soy tan feliz de poder disfrutar\n"
-	.string	"de la belleza de los POKéMON…$"
+	.string	"de la belleza de los POKéMON…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
 	.string	"Vas a aprender lo duro que puede\n"
-	.string	"ser un combate…$"
+	.string	"ser un combate…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_ConnieDefeat:
 	.string	"Ejem…\n"
-	.string	"Más bien lo he aprendido yo…$"
+	.string	"Más bien lo he aprendido yo…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_ConniePostBattle:
 	.string	"Te voy a decir algo…\p"
@@ -124,7 +124,7 @@ SootopolisCity_Gym_B1F_Text_OliviaIntro:
 	.string	"¡No será tan fácil vencerme!$"
 
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
-	.string	"Me han derrotado…$"
+	.string	"Me han derrotado…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
 	.string	"Creo que tienes potencial.\n"
@@ -168,7 +168,7 @@ SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
 	.string	"Vine a este GIMNASIO porque GALANO\n"
 	.string	"alabó encarecidamente a mis POKéMON.\p"
 	.string	"Oh, ojalá hubiera conocido a GALANO\n"
-	.string	"hace años, cuando era joven…$"
+	.string	"hace años, cuando era joven…{PAUSE 5}$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
 	.string	"Ji, ji, ji…\n"
@@ -180,5 +180,5 @@ SootopolisCity_Gym_B1F_Text_BriannaDefeat:
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
 	.string	"Estoy segura de que GALANO no dejará\n"
-	.string	"que le pongas un dedo encima. Ji, ji…$"
+	.string	"que le pongas un dedo encima. Ji, ji…{PAUSE 5}$"
 

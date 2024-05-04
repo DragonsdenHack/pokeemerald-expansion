@@ -29,14 +29,14 @@ VictoryRoad_B1F_EventScript_Halle::
 VictoryRoad_B1F_Text_SamuelIntro:
 	.string "Pensar que estoy cada vez más cerca de\n"
 	.string "la LIGA POKéMON{PAUSE 25}…{PAUSE 25} me entra miedo\l"
-	.string "escénico…$"
+	.string "escénico…{PAUSE 5}$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "No me he dado ni cuenta…$"
+	.string "No me he dado ni cuenta…{PAUSE 5}$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
 	.string "La LIGA POKéMON vuelve a estar lejos,\n"
-	.string "lejos…Qué depresión…$"
+	.string "lejos…Qué depresión…{PAUSE 5}$"
 
 VictoryRoad_B1F_Text_ShannonIntro:
 	.string "Para ganar en la LIGA POKéMON, debes\n"

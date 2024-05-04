@@ -33,7 +33,7 @@ OlivineCity_PkmnCenter_Text_2:
 .string "Pero creo que el paisaje mejoraría\l"
 .string "aún más si se encontrara al borde\l"
 .string "de un acantilado a 200m de\l"
-.string "altura…$"
+.string "altura{PAUSE 5}…{PAUSE 5}$"
 
 
 

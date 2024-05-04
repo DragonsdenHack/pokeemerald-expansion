@@ -99,7 +99,7 @@ end
 SsAnne4F_Text_7:
 .string "De modo que le gusta apostar\n"
 	.string "fuerte señor FUJITA, le haré una\l"
-	.string "oferta que no podrá rechazar…$"
+	.string "oferta que no podrá rechazar{PAUSE 5}…{PAUSE 5}$"
 
 
 

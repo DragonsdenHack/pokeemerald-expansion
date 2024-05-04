@@ -215,7 +215,7 @@ walk_in_place_down
 step_end
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_1:
-.string "????: Como si fuera TORRE POKÉMON…$"
+.string "????: Como si fuera TORRE POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_2:
 .string "AZUL: {PLAYER}. Que estés en PUEBLO\n"
@@ -230,12 +230,12 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_3:
 	.string "hacer allí?$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_4:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_5:
 .string "Ya veo, hace un año hubiera ido contigo\n"
 	.string "sin dudarlo, ahora mis prioridades son\l"
-	.string "otras, aunque…$"
+	.string "otras, aunque{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_6:
 .string "Hace mucho que no nos encontramos así,\n"
@@ -625,7 +625,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_1:
 	.string "ataca)$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_2:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_3:
 .string "(¡La energía parece haberse alterado\n"
@@ -638,10 +638,10 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_4:
 	.string "CEMENTERIO, ni TORRE POKÉMON!$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_5:
-.string "GHOST: …$"
+.string "GHOST: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_6:
-.string "MEW: …$"
+.string "MEW: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_7:
 .string "(MEW apaciguó al espíritu)$"
@@ -650,10 +650,10 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_8:
 .string "FUJI: Después de tanto tiempo.$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_9:
-.string "MEW: …$"
+.string "MEW: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_10:
-.string "FUJI: …$"
+.string "FUJI: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
 .string "¿Crees que MEW es también\n"

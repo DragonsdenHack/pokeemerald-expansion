@@ -59,7 +59,7 @@ PokemonMansion4FDocumento_Text_100:
 	.string "Diario: 1 de Septiembre\n"
 	.string "Mewtwo es demasiado poderoso, no\l"
 	.string "hemos podido contener sus malos\l"
-	.string "instintos…$"
+	.string "instintos{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji::
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Blaine_Fuji_Move_1
@@ -166,7 +166,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_3:
 	.string "informado de lo que acaba de\l"
 	.string "ocurrir allí, al parecer GIOVANNI\l"
 	.string "ha convencido al PRESIDENTE de\l"
-	.string "rebelarse contra LAN…$"
+	.string "rebelarse contra LAN{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
 .string "BLAINE: ¡Ilusos!\n"
@@ -207,7 +207,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_6:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_7:
 .string "BLAINE: Así que las AVES\n"
-	.string "LEGENDARIAS también…$"
+	.string "LEGENDARIAS también{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_8:
 .string "BLAINE: Veré qué puedo hacer FUJI,\n"
@@ -215,7 +215,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_8:
 	.string "recomendable que te vean por aquí,\l"
 	.string "podrían sospechar, dos\l"
 	.string "ex-científicos como nosotros\l"
-	.string "reunidos…$"
+	.string "reunidos{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_9:
 .string "FUJI: ¡Por fin has entrado en\n"
@@ -225,7 +225,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_9:
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
 .string "BLAINE: Tendrás noticias mías en\n"
 	.string "las próximas horas, hasta\l"
-	.string "entonces…$"
+	.string "entonces{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_11:
 .string "BLAINE: ¡MAGMAR, TELETRANSPORTE!$"
@@ -234,7 +234,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_12:
 .string "¡Mag!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_13:
-.string "FUJI: …$"
+.string "FUJI: {PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_14:
 .string "(FUJI USÓ CUERDA HUIDA)$"
@@ -401,4 +401,4 @@ end
 PokemonMansion_4F_PC_PC_Texto_1:
 .string "No parece una máquina como las otras,\n"
 	.string "parece que cumple una función más\l"
-	.string "importante…$"
+	.string "importante{PAUSE 5}…{PAUSE 5}$"

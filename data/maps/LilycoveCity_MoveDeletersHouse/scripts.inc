@@ -85,7 +85,7 @@ LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
 	.string "{STR_VAR_1} solo conoce un movimiento,\n"
-	.string "no puede olvidarlo…$"
+	.string "no puede olvidarlo{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
 	.string "¡Hmm! ¿El {STR_VAR_2} de {STR_VAR_1}?\n"

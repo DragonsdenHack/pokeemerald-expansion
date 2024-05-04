@@ -16,10 +16,10 @@ release
 end
 
 NaoAbandonada_3_Naufragio_Texto_1:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 NaoAbandonada_3_Naufragio_Texto_2:
-	.string "Es una hoja de papel muy desgastada\n"
+	.string "Es una diario muy desgastado\n"
 	.string "por el paso del tiempo.$"
 
 NaoAbandonada_3_Naufragio_Texto_3:
@@ -30,7 +30,7 @@ NaoAbandonada_3_Naufragio_Texto_4:
 	.string "Con el mar en plena calma el viaje hacia\l"
 	.string "PORTUAL estaba siendo muy placentero.\l"
 	.string "Nada podía hacernos presagiar lo que\l"
-	.string "estábamos a punto de vivir…$"
+	.string "estábamos a punto de vivir{PAUSE 5}…{PAUSE 5}$"
 
 NaoAbandonada_3_Naufragio_Texto_5:
 	.string "¿Seguir leyendo?$"
@@ -41,12 +41,12 @@ NaoAbandonada_3_Naufragio_Texto_6:
 	.string "le siguió un resplandor azul que, en\l"
 	.string "contraste con la ausencia de luz,\l"
 	.string "iluminó todo el cielo y dejó a todos los\l"
-	.string "presentes impresionados…$"
+	.string "presentes impresionados{PAUSE 5}…{PAUSE 5}$"
 
 NaoAbandonada_3_Naufragio_Texto_7:
 	.string "…segundos después el resplandor azul\n"
 	.string "desapareció, y de nuevo se hizo el\l"
-	.string "silencio absoluto, pero eso duró poco…$"
+	.string "silencio absoluto, pero eso duró poco{PAUSE 5}…{PAUSE 5}$"
 
 NaoAbandonada_3_Naufragio_Texto_8:
 	.string "…de repente, el grito del POKÉMON se\n"
@@ -62,4 +62,4 @@ NaoAbandonada_3_Naufragio_Texto_9:
 	.string "El POKÉMON sacudía el barco con una\l"
 	.string "fuerza que ni un WAILORD adulto\l"
 	.string "tendría. Quedamos encallados,\l"
-	.string "atrapados aquí…$"
+	.string "atrapados aquí{PAUSE 5}…{PAUSE 5}$"

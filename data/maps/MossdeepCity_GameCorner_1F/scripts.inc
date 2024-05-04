@@ -56,7 +56,7 @@ RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
 	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
+	.string "that I can't see you battle…{PAUSE 5}$"
 
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
 	.string "Oh, good, good!\p"

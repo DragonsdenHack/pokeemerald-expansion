@@ -214,7 +214,7 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_1:
 	.string "parte del devenir de KANTO.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
-.string "AGATHA: …$"
+.string "AGATHA: {PAUSE 5}…{PAUSE 5}$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
 .string "Ah{PAUSE 25}…{PAUSE 25} Eras {PLAYER}, ¿no?$"
@@ -307,7 +307,7 @@ ViasTrenCasaCampeon_Combate_Campeona_Texto_3:
 	.string "POKÉMON. ¡Veamos de qué están hechos!$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_4:
-.string "No todo lo nuevo es decadente…$"
+.string "No todo lo nuevo es decadente{PAUSE 5}…{PAUSE 5}$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_5:
 .string "AGATHA no exageraba contigo. Tienes el\n"

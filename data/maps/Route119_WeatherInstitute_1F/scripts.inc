@@ -78,7 +78,7 @@ Route119_WeatherInstitute_1F_Text_Grunt1Intro:
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
 	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "Blasted by a kid{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
 	.string "Our BOSS knows everything.\p"
@@ -96,7 +96,7 @@ Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 	.string "Oh, no…\n"
 	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "I should just take a nap in the bed{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
 	.string "While I was sleeping, everyone went\n"
@@ -120,7 +120,7 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string	"estudiamos los fenómenos atmosféricos\l"
 	.string	"de la región de HOENN.\p"
 	.string	"Últimamente, estamos detectando casos\n"
-	.string	"aislados de sequía e inundaciones…$"
+	.string	"aislados de sequía e inundaciones{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "Hello!\n"

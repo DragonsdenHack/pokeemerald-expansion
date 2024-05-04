@@ -957,7 +957,7 @@ SlateportCity_Text_EnergyGuruSellWhatYouNeed:
 
 SlateportCity_Text_OhYourPokemon:
 	.string	"¿Eh?\n"
-	.string	"Tu {STR_VAR_1}…$"
+	.string	"Tu {STR_VAR_1}…{PAUSE 5}$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
 	.string	"¡Se esfuerza cantidad, sí, señor!\p"
@@ -983,7 +983,7 @@ SlateportCity_Text_EffortRibbonLooksGoodOnIt:
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
 	.string	"La luz del faro llega lejísimos…\p"
 	.string	"Me pregunto si no ciega a los\n"
-	.string	"POKéMON que viven en el mar…$"
+	.string	"POKéMON que viven en el mar…{PAUSE 5}$"
 
 SlateportCity_Text_SeaweedFullOfLife:
 	.string	"¡Eh, mira esto!\p"
@@ -1016,14 +1016,14 @@ SlateportCity_Text_GoingToCompeteInBattleTent:
 	.string	"¡Toma ya! ¡Yo también voy a competir\n"
 	.string	"en la TIENDA de BATALLA!\p"
 	.string	"Pero antes tengo que atrapar\n"
-	.string	"algunos POKéMON…$"
+	.string	"algunos POKéMON…{PAUSE 5}$"
 
 SlateportCity_Text_BushedHikingFromMauville:
 	.string	"Uf… Esto es impresionante…\p"
 	.string	"He venido a patita desde CIUDAD\n"
 	.string	"MALVALONA, pero este sitio es enorme…\p"
 	.string	"Si lo hubiera sabido, me habría\n"
-	.string	"traído la BICI…$"
+	.string	"traído la BICI…{PAUSE 5}$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
 	.string	"BABOR, el hombre que fundó el MUSEO,\n"
@@ -1033,13 +1033,13 @@ SlateportCity_Text_EveryoneCallsHimCaptStern:
 
 SlateportCity_Text_WhatsLongLineOverThere:
 	.string	"¿Qué es eso de allí?\n"
-	.string	"Esa cola tan larga…$"
+	.string	"Esa cola tan larga…{PAUSE 5}$"
 
 SlateportCity_Text_VisitedMuseumOften:
 	.string	"Cuando era pequeña, venía mucho\n"
 	.string	"al MUSEO.\p"
 	.string	"Después de ver las colecciones, soñaba\n"
-	.string	"despierta con los misterios del mar…$"
+	.string	"despierta con los misterios del mar…{PAUSE 5}$"
 
 SlateportCity_Text_QuitPushing:
 	.string	"¡Oye, tú! ¡No te cueles!\n"
@@ -1096,7 +1096,7 @@ SlateportCity_Text_ShouldveBroughtMyGameBoy:
 	.string	"Ufff…\p"
 	.string	"Cómo me aburro… Debería haberme\n"
 	.string	"traído mi consola Game Boy Advance.\p"
-	.string	"Dónde tendré la cabeza…$"
+	.string	"Dónde tendré la cabeza…{PAUSE 5}$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
 	.string	"¡Cuando esto acabe, el JEFE\n"
@@ -1175,7 +1175,7 @@ SlateportCity_Text_BigSmileForCamera:
 
 SlateportCity_Text_MostInvaluableExperience:
 	.string	"GABI: Ya veo… Ha sido una\n"
-	.string	"experiencia inolvidable…$"
+	.string	"experiencia inolvidable…{PAUSE 5}$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
 	.string	"CAP. BABOR: Así es. Y queremos seguir\n"
@@ -1213,13 +1213,13 @@ SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string	"¡Confiamos en que coopere!\p"
 	.string	"¡Jua, jua, jua!\n"
 	.string	"Mire lo que ha planeado\l"
-	.string	"el EQUIPO AQUA…$"
+	.string	"el EQUIPO AQUA…{PAUSE 5}$"
 
 SlateportCity_Text_SternWhatWasAllThat:
 	.string	"CAP. BABOR: ¿De qué va todo esto?\p"
 	.string	"Parece como si alguien estuviera\n"
 	.string	"hablando por un megáfono…\p"
-	.string	"¿De dónde viene esa voz?…$"
+	.string	"¿De dónde viene esa voz?…{PAUSE 5}$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
 	.string	"¡Viene del PUERTO!\p"
@@ -1354,14 +1354,14 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
+	.string "Maybe, just maybe, this TRAINER…{PAUSE 5}$"
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "SCOTT: All right! I think you're going\n"
 	.string "to become a good friend.\p"
 	.string "So, let's register each other in our\n"
 	.string "POKéNAVS.\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 SlateportCity_Text_RegisteredScott:
 	.string "Registered this SCOTT person\n"
@@ -1460,7 +1460,7 @@ SlateportCity_Llamada_Giovanni_Texto_1:
 	.string "estás en CIUDAD PORTUAL.$"
 
 SlateportCity_Llamada_Giovanni_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 SlateportCity_Llamada_Giovanni_Texto_3:
 	.string "Hemos recibido los datos de tu combate\n"
@@ -1472,7 +1472,7 @@ SlateportCity_Llamada_Giovanni_Texto_4:
 	.string "ciudades marítimas de HOENN. Podrías\l"
 	.string "tomar un barco rumbo a ALGARIA, y\l"
 	.string "buscar también a KYOGRE PRIMIGENIO,\l"
-	.string "pero…$"
+	.string "pero{PAUSE 5}…{PAUSE 5}$"
 
 SlateportCity_Llamada_Giovanni_Texto_5:
 	.string "Quiero que vayas a CUEVA GRANITO,\n"
@@ -1486,7 +1486,7 @@ SlateportCity_Llamada_Giovanni_Texto_6:
 	.string "¿hay algo que quieras decirme?$"
 
 SlateportCity_Llamada_Giovanni_Texto_7:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 SlateportCity_Llamada_Giovanni_Texto_8:
 	.string "¡¿El CASINO de MALVALONA cuenta con\n"
@@ -1499,7 +1499,7 @@ SlateportCity_Llamada_Giovanni_Texto_9:
 	.string "puedas lo que has descubierto allí.$"
 
 SlateportCity_Llamada_Giovanni_Texto_10:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 SlateportCity_Llamada_Giovanni_Texto_11:
 	.string "Muy bien… {PLAYER}, el plan se\n"

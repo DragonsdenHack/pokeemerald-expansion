@@ -51,7 +51,7 @@ release
 end
 
 Route106_Tristana_Texto_1:
-	.string "Está durmiendo…$"
+	.string "Está durmiendo{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Ariana::
 lock
@@ -99,7 +99,7 @@ Route106_Ariana_Texto_6:
 	.string "C.DEVON: Esto es para usted.$"
 
 Route106_Ariana_Texto_7:
-	.string "ARIANA: Hum… jamás había visto un\n"
+	.string "ARIANA: Hum{PAUSE 15}…{PAUSE 15} jamás había visto un\n"
 	.string "POKÉMON así.$"
 
 Route106_Ariana_Texto_8:
@@ -110,12 +110,12 @@ Route106_Ariana_Texto_8:
 	.string "ello queremos donar este POKÉMON.$"
 
 Route106_Ariana_Texto_9:
-	.string "ARIANA: Es un POKÉMON muy curioso, sí…$"
+	.string "ARIANA: Es un POKÉMON muy curioso, sí{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Ariana_Texto_10:
 	.string "C.DEVON: Puede hacer con él lo que le\n"
 	.string "plazca: subastarlo en el CASINO,\l"
-	.string "quedárselo y entrenarlo…$"
+	.string "quedárselo y entrenarlo{PAUSE 5}…{PAUSE 5}$"
 
 Route106_Ariana_Texto_11:
 	.string "ARIANA: Muchas gracias. Dele de mi\n"
@@ -125,7 +125,7 @@ Route106_Ariana_Texto_12:
 	.string "C.DEVON: Así se lo haré saber.$"
 
 Route106_Ariana_Texto_13:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route106_Ariana_Texto_14:
 	.string "ARIANA: Mmm… vaya… parece ser un\n"
@@ -140,10 +140,10 @@ Route106_Ariana_Texto_16:
 	.string "¿Sí? ¿Quién es?$"
 
 Route106_Ariana_Texto_17:
-	.string "????: … … Ha pasado mucho tiempo.$"
+	.string "????: {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Ha pasado mucho tiempo.$"
 
 Route106_Ariana_Texto_18:
-	.string "ARIANA: … …$"
+	.string "ARIANA: {PAUSE 5}…{PAUSE 5} {PAUSE 5}…{PAUSE 5}$"
 
 Route106_Ariana_Despues::
 lock

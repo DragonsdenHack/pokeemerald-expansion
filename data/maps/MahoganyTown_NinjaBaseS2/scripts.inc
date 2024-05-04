@@ -39,7 +39,7 @@ MahoganyTown_NinjaBaseS2_Text_4:
 .string "son tan bonitos y característicos\l"
 .string "de JOHTO…\l"
 .string "Aunque no sé si es un POKÉMON\l"
-.string "adecuado para una ROCKET…$"
+.string "adecuado para una ROCKET{PAUSE 5}…{PAUSE 5}$"
 
 
 

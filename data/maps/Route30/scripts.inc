@@ -100,7 +100,7 @@ Route30_Text_12:
 	.string "un HERACROSS salvaje…\l"
 	.string "Aunque creo que esto no funciona,\l"
 	.string "debería hacerlo un POKÉMON, no\l"
-	.string "yo…$"
+	.string "yo{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -214,7 +214,7 @@ Route30_Anciano_Togepi_Texto_1:
 
 Route30_Anciano_Togepi_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route30_Anciano_Togepi_Texto_3:
 .string "¿Cómo?\n"

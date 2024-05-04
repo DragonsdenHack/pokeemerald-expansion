@@ -10,7 +10,7 @@ gBirchDexRatingText_Cancel:
 gBirchDexRatingText_SoYouveSeenAndCaught::
 	.string "Hmhm…\p"
 	.string "So, you've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "and you've caught {STR_VAR_2} POKéMON…{PAUSE 5}$"
 
 gBirchDexRatingText_LessThan10::
 	.string "Go into grassy areas more and look\n"
@@ -112,4 +112,4 @@ gBirchDexRatingText_OnANationwideBasis::
 	.string "Hmhm…\n"
 	.string "On a nationwide basis…\p"
 	.string "You've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "and you've caught {STR_VAR_2} POKéMON…{PAUSE 5}$"

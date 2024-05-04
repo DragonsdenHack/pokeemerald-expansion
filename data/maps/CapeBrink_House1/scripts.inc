@@ -57,7 +57,7 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_4:
 	.string "jovencito.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_5:
-.string "Así que aún queda un largo camino…$"
+.string "Así que aún queda un largo camino{PAUSE 5}…{PAUSE 5}$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_6:
 .string "Se ve que eres muy cuidadoso con tu\n"

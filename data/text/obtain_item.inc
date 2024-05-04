@@ -2,7 +2,7 @@ gText_ObtainedTheItem::
 	.string "¡Obtuviste {STR_VAR_2}!$"
 
 gText_TheBagIsFull::
-	.string "MOCHILA llena…$"
+	.string "MOCHILA llena…{PAUSE 5}$"
 
 gText_PutItemInPocket::
 	.string "{PLAYER} colocó {STR_VAR_2}\n"
@@ -13,7 +13,7 @@ gText_PlayerFoundOneItem::
 
 gText_TooBadBagIsFull::
 	.string "¡Oh, no!\n"
-	.string "La MOCHILA está llena…$"
+	.string "La MOCHILA está llena…{PAUSE 5}$"
 
 gText_PlayerPutItemInBag::
 	.string "{PLAYER} colocó {STR_VAR_2}\n"
@@ -24,7 +24,7 @@ gText_ObtainedTheDecor::
 
 gText_NoRoomLeftForAnother::
 	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "another {STR_VAR_2}…{PAUSE 5}$"
 
 gText_TheDecorWasTransferredToThePC::
 	.string "The {STR_VAR_2} was transferred\n"

@@ -73,7 +73,7 @@ Aqua2_Combate_Admin_Texto_2:
 	.string "renacer de KYOGRE.$"
 
 Aqua2_Combate_Admin_Texto_3:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Aqua2_Combate_Admin_Texto_4:
 .string "Me parece que aún no eres\n"
@@ -90,7 +90,7 @@ Aqua2_Combate_Admin_Texto_4:
 	.string "todos, nosotros conocemos bien a\l"
 	.string "KYOGRE, y solo lo usaremos en su\l"
 	.string "justa medida para que todo vuelva\l"
-	.string "a su cauce original…$"
+	.string "a su cauce original{PAUSE 5}…{PAUSE 5}$"
 
 Aqua2_Combate_Admin_Texto_5:
 .string "Lo que acabo de contarte sigue sin\n"

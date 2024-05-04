@@ -574,15 +574,15 @@ BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
 	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "You don't have enough Battle Points…{PAUSE 5}$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
 	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "Your PC appears to be full…{PAUSE 5}$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
 	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "You don't have space to hold it…{PAUSE 5}$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
 	.string "Thank you very much.\p"

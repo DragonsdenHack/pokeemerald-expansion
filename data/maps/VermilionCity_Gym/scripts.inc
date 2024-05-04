@@ -378,7 +378,7 @@ PewterCityGym_CanPass_Texto_1:
 .string "Este lugar no es para ladrones y\n"
 	.string "mendigos como vosotros ROCKET. Vuelve\l"
 	.string "de la cloaca de dónde procedes si no\l"
-	.string "quieres…$"
+	.string "quieres{PAUSE 5}…{PAUSE 5}$"
 
 PewterCityGym_CanPass_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"

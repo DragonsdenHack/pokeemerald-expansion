@@ -335,15 +335,15 @@ Route110_TrickHousePuzzle7_Text_JoshuaPostBattle:
 
 Route110_TrickHousePuzzle7_Text_PatriciaIntro:
 	.string "Going around the same spot…\n"
-	.string "It begets ill fortune…$"
+	.string "It begets ill fortune{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaDefeat:
 	.string "Defeated!\n"
-	.string "It's a bad sign…$"
+	.string "It's a bad sign{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaPostBattle:
 	.string "I've circled the same spot over ten\n"
-	.string "times now… It's ill fortune…$"
+	.string "times now… It's ill fortune{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle7_Text_AlexisIntro:
 	.string "Whoever wins will get through here\n"
@@ -372,7 +372,7 @@ Route110_TrickHousePuzzle7_Text_AlvaroIntro:
 	.string "I ever so closely watched you coming!$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
-	.string "This outcome I didn't see coming…$"
+	.string "This outcome I didn't see coming{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
 	.string "Well, anyway, we both picked a weird\n"
@@ -381,12 +381,12 @@ Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
 	.string "let's do our best!$"
 
 Route110_TrickHousePuzzle7_Text_EverettIntro:
-	.string "It's awfully cramped in here…$"
+	.string "It's awfully cramped in here{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat:
 	.string "Oh, yes, strong you are.$"
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
 	.string "I was hoping to switch places with you\n"
-	.string "when I beat you, but…$"
+	.string "when I beat you, but{PAUSE 5}…{PAUSE 5}$"
 

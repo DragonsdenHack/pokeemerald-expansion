@@ -84,7 +84,7 @@ SlowpokeWellS1_Combate_Texto_2:
 
 SlowpokeWellS1_Combate_Texto_3:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 SlowpokeWellS1_Combate_Texto_4:
 .string "¿Te envía CÉSAR para combatir\n"

@@ -29,7 +29,7 @@ Route2_Path_Text_2:
 .string "pueda interesar a una ENTRENADORA\l"
 .string "GUAY como yo, salvo esas leyendas\l"
 .string "que dicen de la existencia de un\l"
-.string "PINSIR salvaje…$"
+.string "PINSIR salvaje{PAUSE 5}…{PAUSE 5}$"
 
 
 

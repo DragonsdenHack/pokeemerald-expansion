@@ -282,7 +282,7 @@ Route49_Combate_Andra_Texto_5:
 	.string "ese objeto.$"
 
 Route49_Combate_Andra_Texto_6:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Combate_Andra_Texto_7:
 .string "¿Qué? ¿Tú también derrotaste al\n"
@@ -301,7 +301,7 @@ Route49_Combate_Andra_Texto_9:
 	.string "honor de entrar a este sagrado lugar.$"
 
 Route49_Combate_Andra_Texto_10:
-.string "ANDRA: De modo que así va a ser…$"
+.string "ANDRA: De modo que así va a ser{PAUSE 15}…{PAUSE 5}$"
 
 Route49_Combate_Andra_Texto_11:
 .string "No creas que combatiré porque ha sido\n"

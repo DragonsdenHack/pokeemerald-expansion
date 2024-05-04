@@ -161,7 +161,7 @@ MtSilver_Combate_Andra_Texto_13:
 	.string "vuelto a saber nada de lo\l"
 	.string "ocurrido, ni ver a LUGIA o a\l"
 	.string "HO-OH. Menos a ese POKÉMON\l"
-	.string "ESENCIA…$"
+	.string "ESENCIA{PAUSE 5}…{PAUSE 5}$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark

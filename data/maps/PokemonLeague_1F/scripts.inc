@@ -105,5 +105,5 @@ PokemonLeague_1F_Combate_Lorelei_Texto_2:
 	.string "¿Comenzamos?$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_4:
-.string "¡Esto no debería ser así!…$"
+.string "¡Esto no debería ser así!{PAUSE 5}…{PAUSE 5}$"
 

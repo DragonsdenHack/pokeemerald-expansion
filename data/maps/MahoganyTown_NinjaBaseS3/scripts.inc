@@ -26,7 +26,7 @@ end
 
 MahoganyTown_NinjaBaseS3_Text_2:
 .string "Si te digo la verdad…\n"
-.string "No entiendo nada de estos planos…$"
+.string "No entiendo nada de estos planos{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -199,7 +199,7 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_1:
 	.string "estimaciones, la venta de\l"
 	.string "CARAMELOSFURIA no sale rentable,\l"
 	.string "creo que deberíamos probar con\l"
-	.string "algo más contundente, las COLASL…$"
+	.string "algo más contundente, las COLASL{PAUSE 5}…{PAUSE 5}$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2:
 .string "¿Quién eres tú?$"

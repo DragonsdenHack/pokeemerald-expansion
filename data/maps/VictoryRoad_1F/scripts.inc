@@ -159,10 +159,10 @@ VictoryRoad_1F_Text_WallyPostBattle:
 
 VictoryRoad_1F_Text_EdgarIntro:
 	.string "He llegado hasta aquí un par de veces,\n"
-	.string "pero el último tramo es tan difícil…$"
+	.string "pero el último tramo es tan difícil…{PAUSE 5}$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-	.string "Mi sueño acaba aquí…$"
+	.string "Mi sueño acaba aquí…{PAUSE 5}$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
 	.string "Has llegado muy lejos, ¡si te\n"
@@ -179,11 +179,11 @@ VictoryRoad_1F_Text_AlbertDefeat:
 VictoryRoad_1F_Text_AlbertPostBattle:
 	.string "He perdido este combate…\p"
 	.string "Eso quiere decir que no estoy\n"
-	.string "cualificado para ser CAMPEÓN…$"
+	.string "cualificado para ser CAMPEÓN…{PAUSE 5}$"
 
 VictoryRoad_1F_Text_HopeIntro:
 	.string "El camino hacia la victoria es largo y\n"
-	.string "tortuoso, como esta calle…$"
+	.string "tortuoso, como esta calle…{PAUSE 5}$"
 
 VictoryRoad_1F_Text_HopeDefeat:
 	.string "¡Tú sí que sabes combatir!$"
@@ -211,7 +211,7 @@ VictoryRoad_1F_Text_KatelynnIntro:
 	.string "llegado tan lejos. ¡Adelante!$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "Qué vergüenza más grande…$"
+	.string "Qué vergüenza más grande…{PAUSE 5}$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "Humph, sigue adelante.\n"

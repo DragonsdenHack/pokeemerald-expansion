@@ -61,7 +61,7 @@ end
 NewMap2_Chico_Texto_1:
 	.string "Cuando JIGGLYPUFF canta, los POKÉMON\n"
 	.string "se duermen y… también los humanos. Qué\l"
-	.string "sueño…$"
+	.string "sueño…{PAUSE 5}$"
 
 NewMap2_Chica_Personalidades::
 lock

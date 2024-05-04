@@ -263,7 +263,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8:
 	.string "razón ya le enseñaba a combatir,\l"
 	.string "pareciera como si fuera su\l"
 	.string "elegido, el destinado a hacer la\l"
-	.string "voluntad de mi abuelo…$"
+	.string "voluntad de mi abuelo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9:
 .string "AZUL: No puedo darle información\n"
@@ -289,7 +289,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10:
 	.string "créeme, aquí estás en tu casa.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_11:
-.string "AZUL: G{PAUSE 15}-{PAUSE 15}gracias señor…$"
+.string "AZUL: G{PAUSE 15}-{PAUSE 15}gracias señor{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12:
 .string "GIOVANNI: Bien, os he hecho venir\n"
@@ -346,7 +346,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "cabo: robar, ya sea x objeto o x\l"
 	.string "POKÉMON{PAUSE 15}…{PAUSE 15}\l"
 	.string "Una vez sabido esto, podemos\l"
-	.string "comenzar…$"
+	.string "comenzar{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17:
 .string "GIOVANNI: ¿Recuerdas, ANDRA, esa\n"
@@ -421,7 +421,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23:
 	.string "con un BLASTOISE en tu equipo,\l"
 	.string "confío en que sea suficiente para\l"
 	.string "apagar la salvaje llama del\l"
-	.string "LEGENDARIO de fuego…$"
+	.string "LEGENDARIO de fuego{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24:
 .string "GIOVANNI: En cuanto a ti {PLAYER},\n"
@@ -448,7 +448,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25:
 	.string "deseamos para así poder reproducir\l"
 	.string "bajo condiciones controladas el\l"
 	.string "poder de estos POKÉMON sin que otros\l"
-	.string "noten la ausencia de las aves…$"
+	.string "noten la ausencia de las aves{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26:
 .string "GIOVANNI: Confío en que seáis\n"
@@ -459,7 +459,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26:
 	.string "eso afianzará aún más nuestra\l"
 	.string "posición como principal\l"
 	.string "resistencia ante las élites de\l"
-	.string "esta región…$"
+	.string "esta región{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27:
 .string "GIOVANNI: Poco más tengo que\n"
@@ -1018,7 +1018,7 @@ RocketHideout_8F_Mision_Silph_text_7:
 RocketHideout_8F_Mision_Silph_text_8:
 .string "GIOVANNI: En cuanto a ti {PLAYER},\n"
 	.string "acorde con tus resultados, las dos\l"
-	.string "AVES LEGENDARIAS, BRUNO…$"
+	.string "AVES LEGENDARIAS, BRUNO{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_9:
 .string "GIOVANNI: Esta es tu recompensa.$"
@@ -1074,7 +1074,7 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "era un excepcional ENTRENADOR, y\l"
 	.string "no podía ser menos, ya que como\l"
 	.string "descendiente directo de la estirpe\l"
-	.string "de domadragones más prestigiosa…$"
+	.string "de domadragones más prestigiosa{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_17.1:
 	.string "…se le educó desde pequeño en el\n"
@@ -1112,7 +1112,7 @@ RocketHideout_8F_Mision_Silph_text_18.1:
 	.string "otro pasaba a ocupar el actual\l"
 	.string "puesto de BRUNO en la ÉLITE 4,\l"
 	.string "especializándome yo en el TIPO\l"
-	.string "TIERRA y OAK en el NORMAL…$"
+	.string "TIERRA y OAK en el NORMAL{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_19:
 .string "LANCE sabía que con nosotros dos\n"
@@ -1121,7 +1121,7 @@ RocketHideout_8F_Mision_Silph_text_19:
 	.string "dragones, fue ahí cuando empezó a\l"
 	.string "buscar ese poder que no podía\l"
 	.string "lograr en lo divino, en lo\l"
-	.string "sagrado…$"
+	.string "sagrado{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_20:
 .string "Se informó acerca de los\n"
@@ -1179,7 +1179,7 @@ RocketHideout_8F_Mision_Silph_text_24:
 	.string "asunto, viendo que era imposible\l"
 	.string "apaciguar la furia de esas\l"
 	.string "criaturas con los medios de los\l"
-	.string "que disponíamos…$"
+	.string "que disponíamos{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_25:
 .string "Yo en ese momento era el hombre de\n"
@@ -1188,13 +1188,13 @@ RocketHideout_8F_Mision_Silph_text_25:
 	.string "decidimos juntar todos nuestros\l"
 	.string "recursos, con el único afán de ir\l"
 	.string "tras esa leyenda{PAUSE 25}…{PAUSE 25}ese mítico\l"
-	.string "POKÉMON llamado MEW…$"
+	.string "POKÉMON llamado MEW{PAUSE 5}…{PAUSE 5}$"
 	
 RocketHideout_8F_Mision_Silph_text_25.1:
 .string "La iniciativa fue de FUJI, quien\n"
 	.string "conocía más que nadie al POKÉMON.\l"
 	.string "Gracias a él pudimos llegar a ISLA\l"
-	.string "SUPREMA, y capturar a MEW…$"
+	.string "SUPREMA, y capturar a MEW{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_25.2:
 .string "Pero MEW por sí solo no iba a darnos la\n"
@@ -1252,7 +1252,7 @@ RocketHideout_8F_Mision_Silph_text_27:
 	.string "que LANCE nunca pudo encontrar. Y\l"
 	.string "unas capacidades mentales que no\l"
 	.string "se parecían a nada de lo que\l"
-	.string "habíamos visto…$"
+	.string "habíamos visto{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_28:
 .string "Con MEWTWO, podíamos acabar con\n"
@@ -1267,7 +1267,7 @@ RocketHideout_8F_Mision_Silph_text_29:
 	.string "donde llevamos a cabo este\l"
 	.string "desesperado plan en la sombra\l"
 	.string "quedó destruido, y MEWTWO escapó\l"
-	.string "perdiéndose para siempre…$"
+	.string "perdiéndose para siempre{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_30:
 .string "Poco después a KANTO no le quedó\n"
@@ -1276,7 +1276,7 @@ RocketHideout_8F_Mision_Silph_text_30:
 	.string "campeón de JOHTO y KANTO\l"
 	.string "simultáneamente. Entonces, llegó\l"
 	.string "el momento de quitarse del medio\l"
-	.string "todas sus posibles amenazas…$"
+	.string "todas sus posibles amenazas{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_31:
 .string "Sin embargo, para mi sorpresa, OAK\n"
@@ -1285,7 +1285,7 @@ RocketHideout_8F_Mision_Silph_text_31:
 	.string "poder, ofreciéndole todos sus\l"
 	.string "conocimientos sobre los POKÉMON\l"
 	.string "prometiendo ayudar al nuevo\l"
-	.string "gobierno. Lo peor es que…$"
+	.string "gobierno. Lo peor es que{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_32:
 .string "…me señaló a mí como el principal\n"
@@ -1411,7 +1411,7 @@ RocketHideout_8F_Mision_Silph_text_43:
 	.string "sabe de su existencia, nosotros\l"
 	.string "tenemos ciertas sospechas de dónde\l"
 	.string "puede estar después de que\l"
-	.string "escapara de ISLA CANELA…$"
+	.string "escapara de ISLA CANELA{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_44:
 .string "Pero ese no es el objetivo más\n"
@@ -1421,7 +1421,7 @@ RocketHideout_8F_Mision_Silph_text_44:
 	.string "población el TEAM ROCKET sea\l"
 	.string "derrotado, que nos pierdan de\l"
 	.string "vista justo en el momento que más\l"
-	.string "fuertes estamos…$"
+	.string "fuertes estamos{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_45:
 .string "Para cuando esto ocurra, yo ya le\n"
@@ -1475,7 +1475,7 @@ RocketHideout_8F_Mision_Silph_text_48:
 	.string "ALTOS RANGOS ROCKET, y dejaréis el\l"
 	.string "edificio con nuestros soldados más\l"
 	.string "mediocres, sin apenas protección\l"
-	.string "para llegar hasta mí…$"
+	.string "para llegar hasta mí{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_49:
 .string "Si todo sigue lo planeado, ese\n"
@@ -1487,7 +1487,7 @@ RocketHideout_8F_Mision_Silph_text_49:
 	.string "podré perder y acto seguido irme\l"
 	.string "de ahí y desaparecer antes de que\l"
 	.string "se corra la voz y aparezca la\l"
-	.string "policía…$"
+	.string "policía{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_50:
 .string "Una vez aquí, mataremos 3\n"
@@ -1778,7 +1778,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_2:
 	.string "MASTER BALL en nuestro poder, con\l"
 	.string "ella podremos capturar a cualquier\l"
 	.string "POKÉMON, incluido{PAUSE 25}…{PAUSE 25}quien ya\l"
-	.string "sabéis…$"
+	.string "sabéis{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_3:
 .string "Más aún, gracias a las muestras de\n"
@@ -1793,7 +1793,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_4:
 	.string "corriente, BLAINE fue uno de los\l"
 	.string "científicos que trabajó en el\l"
 	.string "proyecto MEW, y creemos que tiene\l"
-	.string "idea de dónde puede estar MEWTWO…$"
+	.string "idea de dónde puede estar MEWTWO{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_5:
 .string "AZUL: Disculpe GIOVANNI, ¿MEWTWO?\n"
@@ -1817,7 +1817,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_7:
 	.string "acusado de colaborar con nosotros.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_8:
-.string "GIOVANNI: No puede ser…$"
+.string "GIOVANNI: No puede ser{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_9:
 .string "Ese BLAINE{PAUSE 25}…{PAUSE 25}\n"
@@ -1974,7 +1974,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_29:
 	.string "esas 7 MEDALLAS de GIMNASIO cuanto\l"
 	.string "antes, en cuanto a ti AZUL, ya que\l"
 	.string "te falta una, creo que eso tiene\l"
-	.string "solución…$"
+	.string "solución{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_30:
 .string "(GIOVANNI LE ENTREGÓ A AZUL LA\n"
@@ -2237,7 +2237,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
 	.string "curiosamente ha desaparecido\l"
 	.string "también. Y mientras…{PAUSE 25} FUJI aún entre\l"
 	.string "rejas, afortunadamente queda poco\l"
-	.string "para su vuelta…$"
+	.string "para su vuelta{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 .string "Pero no he hecho regresar a mi\n"
@@ -2245,7 +2245,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 	.string "el encargo que estoy apunto de\l"
 	.string "darte es mucho más trascendental\l"
 	.string "para la historia de nuestra\l"
-	.string "región, escucha…$"
+	.string "región, escucha{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 .string "Desde siempre, aquellos ciudadanos\n"
@@ -2262,7 +2262,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 	.string "Un patrón que se repite en todas\l"
 	.string "las regiones conocidas sin\l"
 	.string "excepción, quitando KANTO claro,\l"
-	.string "algo curioso…$"
+	.string "algo curioso{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 .string "Surgieron muchas teorías que\n"
@@ -2273,7 +2273,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 	.string "podemos meter a MEW en el mismo\l"
 	.string "saco que RAYQUAZA, o LUGIA,\l"
 	.string "entraría más en el perfil de un\l"
-	.string "JIRACHI en HOENN o…$"
+	.string "JIRACHI en HOENN o{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
@@ -2297,7 +2297,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
 	.string "HO-OH, en ese sentido puede ser\l"
 	.string "una cuestión de mero azar, que\l"
 	.string "quedaría en una curiosa\l"
-	.string "coincidencia, sin embargo…$"
+	.string "coincidencia, sin embargo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
 .string "Un último grupo de investigadores\n"
@@ -2343,7 +2343,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
 	.string "varias veces con su PRESIDENTE\l"
 	.string "{PLAYER}, el caso es que en nuestra\l"
 	.string "última reunión, salió precisamente\l"
-	.string "este tema y…$"
+	.string "este tema y{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
 .string "Resulta que SILPH cuenta con una\n"
@@ -2357,7 +2357,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
 	.string "precisamente de la existencia de\l"
 	.string "un POKÉMON que podría encajar con\l"
 	.string "la jerarquía de un LUGIA o un\l"
-	.string "HO-OH, o incluso más…$"
+	.string "HO-OH, o incluso más{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
 .string "Tu misión es muy simple {PLAYER},\n"
@@ -2472,7 +2472,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4:
 	.string "acceder, excepto para aquellos que\l"
 	.string "ya saben donde está, si fuera el\l"
 	.string "caso, nos quedaríamos sin saber la\l"
-	.string "verdad…$"
+	.string "verdad{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5:
 .string "GIOVANNI: ¡{PLAYER}!\n"
@@ -2515,7 +2515,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8:
 	.string "nuevas páginas escritas en la\l"
 	.string "historia reciente de KANTO, quizá\l"
 	.string "destapemos algo que hace mucho\l"
-	.string "debió de saberse…$"
+	.string "debió de saberse{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_1:
 walk_up
@@ -2685,7 +2685,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10:
 	.string "más fuertes de todas las ISLAS\l"
 	.string "SETE, sería correr demasiados\l"
 	.string "riesgos el tratar de pasar por\l"
-	.string "ahí, sin embargo…$"
+	.string "ahí, sin embargo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11:
 .string "ATLAS descubrió una ruta\n"
@@ -2878,7 +2878,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_9:
 	.string "honor como la lealtad, si OAK te\l"
 	.string "ha retado personalmente y\l"
 	.string "consideras que debes ir por tu\l"
-	.string "cuenta, deberías hacerlo…$"
+	.string "cuenta, deberías hacerlo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_10:
 .string "Pero{PAUSE 25}…{PAUSE 25}dada la importancia\n"
@@ -2901,7 +2901,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_12:
 	.string "contábais con el mínimo de nivel\l"
 	.string "para abordar la LIGA POKÉMON, esta\l"
 	.string "situación requiere de la prueba\l"
-	.string "máxima…$"
+	.string "máxima{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_13:
 .string "Yo, GIOVANNI, LÍDER DEL TEAM\n"
@@ -3975,7 +3975,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_3:
 	.string "igual con su equipo, podría llegar a\l"
 	.string "batirles aún siendo un combate\l"
 	.string "POKÉMON. Tú eras el único que podía\l"
-	.string "hacerlo, {PLAYER}…$"
+	.string "hacerlo, {PLAYER}{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
 .string "Como ya es habitual, después de cada\n"
@@ -4266,7 +4266,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
 	.string "recogido información muy valiosa de\l"
 	.string "vuestras expediciones, pero me\l"
 	.string "gustaría oíros a vosotros. Contadme\l"
-	.string "todos los detalles…$"
+	.string "todos los detalles{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
 .string "Ya veo{PAUSE 25}…{PAUSE 25} Así que JOHTO cuenta con\n"
@@ -4323,7 +4323,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_7:
 RocketHideout_8F_Mision_Base_Hoenn_Texto_8:
 .string "ANDRA: Yo también me crucé con\n"
 	.string "personajes así en HOENN, en plena\l"
-	.string "búsqueda de los REGIS…$"
+	.string "búsqueda de los REGIS{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_9:
 .string "GIOVANNI: Tal y como temía, todo apunta\n"
@@ -4377,7 +4377,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_17:
 RocketHideout_8F_Mision_Base_Hoenn_Texto_18:
 .string "ANDRA: ¡Wow! Ahora que KANTO y JOHTO\n"
 	.string "están a punto de lograr la unión que se\l"
-	.string "propuso en la I GRAN REUNIÓN…$"
+	.string "propuso en la I GRAN REUNIÓN{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_19:
 .string "GIOVANNI: Tenemos todo para convertir\n"
@@ -4851,7 +4851,7 @@ RocketHideout_8F_Final_DLC_Texto_3:
 	.string "búsqueda concluya en un\l"
 	.string "descubrimiento más importante que\l"
 	.string "todas las investigaciones que estamos\l"
-	.string "llevando a cabo…$"
+	.string "llevando a cabo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Final_DLC_Texto_4:
 .string "Por otro lado, DEVON ha movido ficha.\n"

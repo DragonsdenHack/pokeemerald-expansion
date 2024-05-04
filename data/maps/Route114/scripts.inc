@@ -176,7 +176,7 @@ Route114_Text_AllMyMonDoesIsRoarTakeThis:
 	.string "All my POKéMON does is ROAR…\n"
 	.string "No one dares to come near me…\p"
 	.string "Sigh… If you would, please take\n"
-	.string "this TM away…$"
+	.string "this TM away{PAUSE 5}…{PAUSE 5}$"
 
 Route114_Text_ExplainRoar:
 	.string "TM05 contains ROAR.\n"

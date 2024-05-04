@@ -99,7 +99,7 @@ PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
 
 PacifidlogTown_House2_Text_AhYourPokemon:
 	.string	"¡Ah!\n"
-	.string	"Tu POKéMON…$"
+	.string	"Tu POKéMON…{PAUSE 5}$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
 	.string	"te quiere mucho. Salta a la vista.\p"
@@ -131,14 +131,14 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 	.string	"a tu POKéMON.$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string	"AZURILL: Azu, azuriril…$"
+	.string	"AZURILL: Azu, azuriril…{PAUSE 5}$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 	.string	"Parece que se lleva muy bien\n"
 	.string	"con su ENTRENADOR.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string	"AZURILL: Azuzú, azuzuzú…$"
+	.string	"AZURILL: Azuzú, azuzuzú…{PAUSE 5}$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 	.string	"Parece que no se lleva muy bien\n"

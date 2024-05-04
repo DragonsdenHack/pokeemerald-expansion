@@ -487,7 +487,7 @@ BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "I lost on the REFEREE's decision…\p"
 	.string "I don't think it was a good idea to only\n"
-	.string "use defensive moves and not attack…$"
+	.string "use defensive moves and not attack…{PAUSE 5}$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
 	.string "I won in judging!\p"

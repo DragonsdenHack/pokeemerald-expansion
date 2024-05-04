@@ -63,11 +63,11 @@ RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 	.string	"¿Eh? ¿Qué eso es un {STR_VAR_1}?\n"
-	.string	"Pues a mí no me lo parece en absoluto…$"
+	.string	"Pues a mí no me lo parece en absoluto…{PAUSE 5}$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string	"Ah, pues si no quieres, peor para ti.\n"
-	.string	"Porque mi POKéMON es una monada…$"
+	.string	"Porque mi POKéMON es una monada…{PAUSE 5}$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
 	.string	"Cualquier POKéMON puede ser mono\n"

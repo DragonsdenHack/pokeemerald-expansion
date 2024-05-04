@@ -29,7 +29,7 @@ Silph11F_Text_2:
 .string "lo que este gobierno ha hecho por\l"
 .string "la región, aunque no podamos\l"
 .string "agadecerte de forma pública, tal\l"
-.string "vez llegue el día…$"
+.string "vez llegue el día{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -436,7 +436,7 @@ Silph_11F_Bill_Presidente_Texto_12:
 	.string "admito que te subestimé la primera\l"
 	.string "vez que entraste por la fuerza a\l"
 	.string "mi casa en RUTA 25, pensé que eras\l"
-	.string "otro pobre RECLUTA sin más…$"
+	.string "otro pobre RECLUTA sin más{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Texto_13:
 .string "Sin embargo, tu error es pensar\n"
@@ -651,7 +651,7 @@ Silph_11F_Bill_Presidente_Texto_37:
 	.string "POKÉMON antes que vosotros.$"
 
 Silph_11F_Bill_Presidente_Texto_37.1:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Texto_38:
 .string "Bien, podéis retiraros, os avisaré\n"
@@ -668,7 +668,7 @@ Silph_11F_Bill_Presidente_Texto_39:
 	.string "mismos POKÉMON que ese prepotente\l"
 	.string "con aires elitistas de BILL, me\l"
 	.string "pensaré mejor cuál será el último\l"
-	.string "POKÉMON que incluya en mi equipo…$"
+	.string "POKÉMON que incluya en mi equipo{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Texto_40:
 .string "ANDRA: ¡Ah, sí!\n"
@@ -687,7 +687,7 @@ Silph_11F_Bill_Presidente_Texto_41:
 	.string "GIOVANNI en cuanto ROJO llegue a\l"
 	.string "su zona, no hay nada de que\l"
 	.string "preocuparse {PLAYER}, está todo\l"
-	.string "controlado…$"
+	.string "controlado{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Move_1:
 walk_up
@@ -968,7 +968,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_2:
 .string "PRESIDENTE: Oh, no me malinterprete,\n"
 	.string "CAMPEÓN LANCE. Nos sentimos honrados\l"
 	.string "por servir de sostén a nuestra querida\l"
-	.string "región, solo que…$"
+	.string "región, solo que{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_3:
 .string "LANCE: Entiendo, es usted un acérrimo\n"
@@ -979,7 +979,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_3:
 	.string "¿Verdad, PRESIDENTE?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_4:
-.string "PRESIDENTE: No quería decir…$"
+.string "PRESIDENTE: No quería decir{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_5:
 .string "LANCE: Déjeme recordarle quién está en\n"

@@ -259,7 +259,7 @@ Route49_MazeP3_Encuentro_Eusine_Texto_3:
 .string "Antes no te lo dije, porque pensé que no\n"
 	.string "volveríamos a vernos, al menos no de\l"
 	.string "esta forma, contigo en la cima de este\l"
-	.string "lugar, pero…$"
+	.string "lugar, pero{PAUSE 5}…{PAUSE 5}$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_4:
 .string "Uno de los motivos por los que estoy\n"

@@ -79,7 +79,7 @@ msgbox Route4PokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route4PokemonCenterDocumento_Text_100:
-.string "Un periódico…$"
+.string "Un periódico{PAUSE 5}…{PAUSE 5}$"
 
 Route4_PokemonCenter_1F_Estafa::
 lock

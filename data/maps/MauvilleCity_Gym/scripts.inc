@@ -292,7 +292,7 @@ MauvilleCity_Gym_Text_ShawnIntro:
 	.string "puedo perder!$"
 
 MauvilleCity_Gym_Text_ShawnDefeat:
-	.string "Me has desenchufado…$"
+	.string "Me has desenchufado{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle:
 	.string "Nuestro LÍDER de GIMNASIO, ERICO, está\n"
@@ -305,7 +305,7 @@ MauvilleCity_Gym_Text_BenIntro:
 	.string "que mola?$"
 
 MauvilleCity_Gym_Text_BenDefeat:
-	.string "Soy muy mal perdedor…$"
+	.string "Soy muy mal perdedor{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
 	.string "ERICO dice que le encanta poner\n"
@@ -329,7 +329,7 @@ MauvilleCity_Gym_Text_AngeloIntro:
 	.string "¡Me encanta todo lo que brilla!$"
 
 MauvilleCity_Gym_Text_AngeloDefeat:
-	.string "Oh… Me has deslumbrado…$"
+	.string "Oh… Me has deslumbrado{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle:
 	.string "A ERICO, del GIMNASIO de MALVALONA le\n"
@@ -371,7 +371,7 @@ MauvilleCity_Gym_Text_ExplainShockWave:
 	.string "That TM34 there contains SHOCK WAVE.\p"
 	.string "It's a trustworthy move that never\n"
 	.string "misses! You can count on it!\p"
-	.string "… … … … … …$"
+	.string "… … … … … {PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
 	.string "Registered GYM LEADER WATTSON\n"
@@ -403,7 +403,7 @@ MauvilleCity_Gym_Text_WattsonPreRematch:
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat:
 	.string	"Uf…\n"
-	.string	"Me he quedado sin pilas…$"
+	.string	"Me he quedado sin pilas{PAUSE 5}…{PAUSE 5}$"
 
 MauvilleCity_Gym_Text_WattsonPostRematch:
 	.string "WATTSON: We'll have to recharge our\n"

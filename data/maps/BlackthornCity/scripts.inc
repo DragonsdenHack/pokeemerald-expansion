@@ -55,7 +55,7 @@ BlackthornCity_Text_4:
 .string "Ah…\n"
 .string "Si yo te dijera la cantidad de\l"
 .string "POKÉMON sagrados que he visto\l"
-.string "nadar aquí…$"
+.string "nadar aquí{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -141,7 +141,7 @@ BlackthornCity_Text_11:
 .string "visitantes, pues el conocimiento\l"
 .string "último acerca del tipo más\l"
 .string "poderoso y sagrado espera para\l"
-.string "quienes estén preparados…$"
+.string "quienes estén preparados{PAUSE 5}…{PAUSE 5}$"
 
 
 

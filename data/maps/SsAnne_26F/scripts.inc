@@ -31,4 +31,4 @@ SsAnne26F_1_Texto_2:
 SsAnne26F_1_Texto_3:
 .string "Oh, perdona por molestarte, me has\n"
 	.string "recordado tanto a mi hermano\l"
-	.string "pequeño…$"
+	.string "pequeño{PAUSE 5}…{PAUSE 5}$"

@@ -16,7 +16,7 @@ end
 
 RocketHideout5F_2_Texto_1:
 .string "Bienvenido al CENTRO de curación\n"
-	.string "exprés…$"
+	.string "exprés{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout5F_2_Texto_2:
 .string "¡Y listo!\n"
@@ -501,7 +501,7 @@ RocketHideout5F_Text_32:
 .string "atrapar al legendario MEW, el\l"
 .string "ancestro de todos los Pokémon allá\l"
 .string "por 1975, si viera todo lo logrado\l"
-.string "hasta ahora…$"
+.string "hasta ahora{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -611,7 +611,7 @@ RocketHideout5F_Text_36:
 .string "perspectiva, psicológicamente da\l"
 .string "la impresión de que pueda\l"
 .string "progresarse hasta el infinito\l"
-.string "aunque en la práctica no sea así…$"
+.string "aunque en la práctica no sea así{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -757,7 +757,7 @@ RocketHideout5F_Text_45:
 .string "construir una aún más grande con\l"
 .string "tal de quedar mejor, aunque sea\l"
 .string "colocándola en la azotea, pero la\l"
-.string "construiría…$"
+.string "construiría{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -832,7 +832,7 @@ RocketHideout5F_Text_50:
 .string "con 600 de base, la única arma que\l"
 .string "puede emplear KANTO para competir\l"
 .string "en ese sentido con otras regiones\l"
-.string "es el uso de su tecnología…$"
+.string "es el uso de su tecnología{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -1507,7 +1507,7 @@ RocketHideout5FDocumento_Text_115:
 	.string "excediéramos{PAUSE 25}…{PAUSE 25}\l"
 	.string "Todo tiende a la homeostáis…\l"
 	.string "A pesar de ello, es solo una\l"
-	.string "piedra más en nuestro camino…$"
+	.string "piedra más en nuestro camino{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -1919,7 +1919,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
 	.string "iceberg.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
-.string "{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}…$"
+.string "{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}…{PAUSE 5}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
 .string "Quiero que hagas una visita a\n"

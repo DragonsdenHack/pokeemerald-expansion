@@ -100,7 +100,7 @@ FortreeCity_Text_SomethingBlockingGym:
 	.string	"pero hay algo bloqueando el camino.\p"
 	.string	"Después de todas las molestias que me\n"
 	.string	"he tomado, he tenido que ir a entrenar\l"
-	.string	"a la RUTA 120…$"
+	.string	"a la RUTA 120{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string	"Tengo junto a mí a mi POKéMON favorito.\n"

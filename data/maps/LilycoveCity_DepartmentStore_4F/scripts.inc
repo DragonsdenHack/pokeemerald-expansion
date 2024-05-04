@@ -58,7 +58,7 @@ LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string	"Un movimiento de ATAQUE…\n"
 	.string	"Un movimiento de DEFENSA…\p"
 	.string	"No es fácil decidir qué movimientos de\n"
-	.string	"MT hay que enseñar a un POKéMON…$"
+	.string	"MT hay que enseñar a un POKéMON{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
 	.string	"Hay tantos movimientos de MT…\p"

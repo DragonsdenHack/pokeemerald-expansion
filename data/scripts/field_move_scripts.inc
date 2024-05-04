@@ -204,7 +204,7 @@ EventScript_EndWaterfall::
 
 Text_CantWaterfall:
 	.string	"Un muro de agua cae\n"
-	.string	"con un estruendo estremecedor…$"
+	.string	"con un estruendo estremecedor{PAUSE 5}…{PAUSE 5}$"
 
 Text_WantToWaterfall:
 	.string	"Es una gran catarata.\n"
@@ -284,4 +284,4 @@ EventScript_FailSweetScent::
 	end
 
 Text_FailSweetScent:
-	.string	"Parece que aquí no hay nada…$"
+	.string	"Parece que aquí no hay nada{PAUSE 5}…{PAUSE 5}$"

@@ -152,15 +152,15 @@ Olivine_Pub_Mision_Secundaria_Texto_1:
 .string "Estoy tratando de reconducir mi vida,\n"
 	.string "después de haber escogido por años la\l"
 	.string "senda rápida y placentera. Ahora me\l"
-	.string "toca recuperar el tiempo perdido…$"
+	.string "toca recuperar el tiempo perdido{PAUSE 5}…{PAUSE 5}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_2:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
 .string "Oh…{PAUSE 35} Entonces eres algo más que uno de\n"
 	.string "esos ejecutivos de TRIGAL, tal vez tú\l"
-	.string "puedas…$"
+	.string "puedas{PAUSE 5}…{PAUSE 5}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
 .string "Escucha, TRIGAL es muy grande. Hace\n"
@@ -192,7 +192,7 @@ Olivine_Pub_Mision_Secundaria_Texto_7:
 	.string "MOTORISTA.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_8:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_9:
 .string "{PLAYER} entregó el SNUBBULL a\n"

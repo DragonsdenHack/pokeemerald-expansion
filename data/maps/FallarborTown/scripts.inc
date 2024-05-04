@@ -55,13 +55,13 @@ FallarborTown_Text_ShadyCharactersCozmosHome:
 	.string	"¿Qué pasa, qué pasa?\p"
 	.string	"He visto a un tipo muy sospechoso\n"
 	.string	"merodeando por el LABORATORIO del\l"
-	.string	"PROF. COZMO…$"
+	.string	"PROF. COZMO…{PAUSE 5}$"
 
 FallarborTown_Text_RegionKnownForMeteors:
 	.string	"Esta región es conocida por sus\n"
 	.string	"lluvias de meteoritos.\p"
 	.string	"Dicen que la CASCADA METEORO se creó\n"
-	.string	"hace siglos, a causa de un meteorito…$"
+	.string	"hace siglos, a causa de un meteorito…{PAUSE 5}$"
 
 FallarborTown_Text_MyPreciousAzurill:
 	.string	"¡Mira! ¡Pero mira bien!\n"
@@ -70,7 +70,7 @@ FallarborTown_Text_MyPreciousAzurill:
 	.string	"suave y blandita del mundo?$"
 
 FallarborTown_Text_Azurill:
-	.string	"AZURILL: Azu, azuuuu…$"
+	.string	"AZURILL: Azu, azuuuu…{PAUSE 5}$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
 	.string	"¿Ya has desafiado a CANDELA, la\n"

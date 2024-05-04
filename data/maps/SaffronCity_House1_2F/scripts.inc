@@ -115,7 +115,7 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_1:
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_3:
 .string "Lo siento, pensé que tú podrías\n"
@@ -160,4 +160,4 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_9:
 SaffronCity_House1_2F_Entrenador_Especial_Texto_10:
 .string "Oh…\n"
 	.string "Qué pena…\l"
-	.string "Pensé que quizás…$"
+	.string "Pensé que quizás{PAUSE 5}…{PAUSE 5}$"

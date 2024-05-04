@@ -204,7 +204,7 @@ BerryForest_Evento_Hypno_Texto_4:
 .string "¿Q-qué ha sido eso?$"
 
 BerryForest_Evento_Hypno_Texto_5:
-.string "PEDRITA: Buuuua…. ¡BUAAAA! {PAUSE 15}…$"
+.string "PEDRITA: Buuuua…. ¡BUAAAA! {PAUSE 15}…{PAUSE 5}$"
 
 BerryForest_Evento_Hypno_Texto_6:
 .string "Teno miedo…{PAUSE 15} Quiedo id a casa…{PAUSE 15}$"
@@ -221,7 +221,7 @@ BerryForest_Evento_Hypno_Texto_9:
 
 BerryForest_Evento_Hypno_Texto_10:
 .string "????: Ha estado cerca, esto no puede\n"
-	.string "seguir así…$"
+	.string "seguir así{PAUSE 5}…{PAUSE 5}$"
 
 BerryForest_Paso_Cueva_Hypno::
 delay 15

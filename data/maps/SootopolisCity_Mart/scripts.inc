@@ -72,5 +72,5 @@ SootopolisCity_Mart_Text_FullRestoreItemOfDreams:
 
 SootopolisCity_Mart_Text_DidSomethingAwaken:
 	.string	"Vaya tiempecito…\p"
-	.string	"Mmmm… Aquí ha pasado algo…$"
+	.string	"Mmmm… Aquí ha pasado algo…{PAUSE 5}$"
 

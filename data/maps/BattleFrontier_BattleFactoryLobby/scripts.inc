@@ -483,7 +483,7 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
 	.string "I swapped for a weak POKéMON…\n"
 	.string "I thought it was a good kind to have…\p"
-	.string "They wiped the floor with us…$"
+	.string "They wiped the floor with us…{PAUSE 5}$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
 	.string "Things haven't been going my way\n"

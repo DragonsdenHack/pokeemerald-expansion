@@ -576,7 +576,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
 	.string "Is that right? Hmm…\n"
-	.string "Hmhm…$"
+	.string "Hmhm…{PAUSE 5}$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
 	.string "I don't know how to say it, but…\n"

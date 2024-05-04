@@ -247,7 +247,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_10:
 	.string "nuevo.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_11:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_12:
 .string "GIOVANNI: Yo no estaba pensando\n"
@@ -300,7 +300,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_18:
 	.string "ha llevado hasta él.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
-.string "M.ANCIANO: …$"
+.string "M.ANCIANO: {PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
 .string "ANDRA: El eterno debate, ¿eh?\n"

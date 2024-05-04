@@ -70,7 +70,7 @@ Route16_House1_Combate_Vuelo_Texto_1:
 
 Route16_House1_Combate_Vuelo_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route16_House1_Combate_Vuelo_Texto_3:
 .string "Mira, si quieres puedo enseñarte a\n"

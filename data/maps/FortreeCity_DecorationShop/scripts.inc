@@ -61,7 +61,7 @@ FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
 	.string	"Lo que compras aquí se envía\n"
 	.string	"a tu PC.\p"
 	.string	"¡Es superpráctico! Ojalá me pudieran\n"
-	.string	"enviar a mí también a mi casita…$"
+	.string	"enviar a mí también a mi casita{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
 	.string	"He comprado una bonita mesa para\n"

@@ -707,7 +707,7 @@ PetalburgCity_EventScript_GymBoy::
 PetalburgCity_Text_WhereIsWally:
 	.string	"¿Adónde se ha ido BLASCO?\p"
 	.string	"Tenemos que irnos a PUEBLO\n"
-	.string	"VERDEGAL muy pronto…$"
+	.string	"VERDEGAL muy pronto…{PAUSE 5}$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string	"¡Hola, caracola! Tú… no llevas mucho\n"
@@ -715,7 +715,7 @@ PetalburgCity_Text_AreYouRookieTrainer:
 	.string	"¿Sabes lo que hacen los ENTRENADORES\n"
 	.string	"POKéMON cuando cambian de ciudad?\p"
 	.string	"Comprueban qué tipo de GIMNASIO\n"
-	.string	"hay allí…$"
+	.string	"hay allí…{PAUSE 5}$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
 	.string	"¿Ves? Éste es el GIMNASIO\n"

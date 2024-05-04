@@ -52,7 +52,7 @@ VioletTrainerSchool5_Texto_1:
 	.string "RUTA 13 de KANTO, ningún\l"
 	.string "ORNITÓLOGO de allí creerá que pude\l"
 	.string "asistir a una clase del mismísimo\l"
-	.string "PEGASO en persona…$"
+	.string "PEGASO en persona…{PAUSE 5}$"
 
 
 VioletTrainerSchool6::
@@ -63,7 +63,7 @@ end
 
 VioletTrainerSchool6_Texto_1:
 .string "No sabía que NOCTOWL era TIPO\n"
-	.string "PSÍQUICO también…$"
+	.string "PSÍQUICO también…{PAUSE 5}$"
 
 
 
@@ -77,7 +77,7 @@ VioletTrainerSchool7_Texto_1:
 .string "No puede ser…\n"
 	.string "El más débil de sus POKÉMON es\l"
 	.string "mucho más fuerte que el mejor de\l"
-	.string "mis POKÉMON…$"
+	.string "mis POKÉMON…{PAUSE 5}$"
 
 
 
@@ -123,7 +123,7 @@ end
 VioletTrainerSchool11_Texto_1:
 .string "Qué aburridas que son estas\n"
 	.string "clases, PEGASO seguro que las\l"
-	.string "haría más divertidas…$"
+	.string "haría más divertidas…{PAUSE 5}$"
 
 
 
@@ -441,7 +441,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_14:
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_15:
 .string "PEGASO: Algún día el GIMNASIO de\n"
-	.string "MALVA será tuyo, hijo…$"
+	.string "MALVA será tuyo{PAUSE 5}…{PAUSE 5}$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_16:
 .string "Vaya, tenemos un alumno curioso.\n"

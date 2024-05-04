@@ -43,7 +43,7 @@ end
 SsAnne7F_Text_4:
 .string "Enrólate de marinero decían…\n"
 .string "Vivirás grandes aventuras\l"
-.string "decían…$"
+.string "decían{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -57,7 +57,7 @@ end
 SsAnne7F_Text_5:
 .string "Sniff…\n"
 .string "Sniff…\l"
-.string "Yo solo pelo cebolla…$"
+.string "Yo solo pelo cebolla{PAUSE 5}…{PAUSE 5}$"
 
 
 

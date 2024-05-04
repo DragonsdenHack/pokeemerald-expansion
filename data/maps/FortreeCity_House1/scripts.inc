@@ -92,7 +92,7 @@ FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
 	.string	"Cambiar POKéMON…\p"
 	.string	"Para mí es como dar parte de ti\n"
-	.string	"a otra persona…$"
+	.string	"a otra persona{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_House1_Text_Zigzagoon:
 	.string	"ZIGZAGOON: ¿Gungún?$"

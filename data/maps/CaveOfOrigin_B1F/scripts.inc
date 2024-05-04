@@ -83,7 +83,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "becalmed the two combatants in\l"
 	.string "the distant past.\p"
 	.string "But even I have no clue as to\n"
-	.string "RAYQUAZA's whereabouts…$"
+	.string "RAYQUAZA's whereabouts{PAUSE 5}…{PAUSE 5}$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
 	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"

@@ -299,7 +299,7 @@ Route10_Combate_Andra_Texto_6:
 	.string "un POKÉMON ELÉCTRICO de esas\l"
 	.string "características?\l"
 	.string "Si tan solo hubiera podido\l"
-	.string "adentrarme un poco más…$"
+	.string "adentrarme un poco más{PAUSE 5}…{PAUSE 5}$"
 
 Route10_Combate_Andra_Texto_7:
 .string "Podríamos proponerle a GIOVANNI un\n"

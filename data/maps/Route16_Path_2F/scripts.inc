@@ -107,7 +107,7 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "…{PAUSE 5}$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "Fuera de mi vista, no quiero\n"

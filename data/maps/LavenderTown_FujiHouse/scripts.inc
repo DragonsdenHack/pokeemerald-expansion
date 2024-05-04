@@ -320,7 +320,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_7:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_8:
 .string "Rezaré en TORRE POKÉMON por el futuro\n"
-	.string "de KANTO, si todo va b…$"
+	.string "de KANTO, si todo va b{PAUSE 5}…{PAUSE 5}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_9:
 .string "????: Ya tendrás tiempo de rezar en la\n"
@@ -364,7 +364,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_18:
 	.string "tenéis elección.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_19:
-.string "O venís por las buenas o entonc…$"
+.string "O venís por las buenas o entonc{PAUSE 5}…{PAUSE 5}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 .string "PROTÓN: ¡SLOWBRO! ¡TELETRANSPORTE!$"
@@ -380,4 +380,4 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 	.string "¿verdad?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_23:
-.string "FUJI: … …$"
+.string "FUJI: {PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"

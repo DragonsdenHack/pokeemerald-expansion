@@ -63,7 +63,7 @@ Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
 
 Route110_TrickHousePuzzle6_Text_BennyIntro:
 	.string "Maybe I could get my BIRD POKéMON\n"
-	.string "to fly over the wall…$"
+	.string "to fly over the wall{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
 	.string "Gwaaah! I blew it!$"
@@ -74,11 +74,11 @@ Route110_TrickHousePuzzle6_Text_BennyPostBattle:
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro:
 	.string "I'm getting dizzy from these rotating\n"
-	.string "doors…$"
+	.string "doors{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle6_Text_SebastianDefeat:
 	.string "Everything's spinning around and\n"
-	.string "around. I can't take this anymore…$"
+	.string "around. I can't take this anymore{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle:
 	.string "You don't seem to be affected at all.\n"

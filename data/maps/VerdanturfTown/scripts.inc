@@ -194,7 +194,7 @@ VerdanturfTown_Escena_Tristana_Texto_2:
 	.string "PETALIA.$"
 
 VerdanturfTown_Escena_Tristana_Texto_3:
-	.string "BLASCO: Vale…$"
+	.string "BLASCO: Vale{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_4:
 	.string "Has estado algo raro estos días, ¿hay\n"
@@ -203,7 +203,7 @@ VerdanturfTown_Escena_Tristana_Texto_4:
 VerdanturfTown_Escena_Tristana_Texto_5:
 	.string "BLASCO: Bueno{PAUSE 15}…{PAUSE 15} Están restaurando el\n"
 	.string "GIMNASIO de CIUDAD PETALIA, pensaba\l"
-	.string "que podría ir a ver al nuevo LÍDER para…$"
+	.string "que podría ir a ver al nuevo LÍDER para…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_6:
 	.string "¿Hacerte ENTRENADOR? ¿Sabes lo\n"
@@ -231,7 +231,7 @@ VerdanturfTown_Escena_Tristana_Texto_10:
 
 VerdanturfTown_Escena_Tristana_Texto_11:
 	.string "Oye chica, ¿quién eres tú? No te metas\n"
-	.string "en la educación de nuestro sobrin…$"
+	.string "en la educación de nuestro sobrin{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_12:
 	.string "TRISTANA: Tenéis razón.$"
@@ -256,7 +256,7 @@ VerdanturfTown_Escena_Tristana_Texto_15:
 	.string "extraordinarias condiciones de base.$"
 
 VerdanturfTown_Escena_Tristana_Texto_16:
-	.string "BLASCO: Oh…$"
+	.string "BLASCO: Oh{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_17:
 	.string "Sin esas condiciones, todos sus logros\n"
@@ -272,10 +272,10 @@ VerdanturfTown_Escena_Tristana_Texto_18:
 	.string "realidad de la naturaleza.$"
 
 VerdanturfTown_Escena_Tristana_Texto_19:
-	.string "BLASCO: Entonces…$"
+	.string "BLASCO: Entonces{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_20:
-	.string "TRISTANA: Pero…$"
+	.string "TRISTANA: Pero{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_21:
 	.string "…el combate POKÉMON puede ser lo más\n"
@@ -298,7 +298,7 @@ VerdanturfTown_Escena_Tristana_Texto_23:
 	.string "eso?$"
 
 VerdanturfTown_Escena_Tristana_Texto_24:
-	.string "BLASCO: Yo…$"
+	.string "BLASCO: Yo{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Escena_Tristana_Texto_25:
 	.string "TRISTANA: Esa elección sí que está en\n"

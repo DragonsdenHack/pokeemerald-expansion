@@ -487,7 +487,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 RusturfTunnel_Text_ToGetToVerdanturf:
 	.string "To get from RUSTBORO to VERDANTURF,\n"
 	.string "you need to go to DEWFORD, then pass\l"
-	.string "through SLATEPORT and MAUVILLE…$"
+	.string "through SLATEPORT and MAUVILLE…{PAUSE 5}$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "Wow! You shattered that boulder\n"
@@ -524,7 +524,7 @@ RusturfTunnel_Text_MikeIntro:
 
 RusturfTunnel_Text_MikeDefeat:
 	.string "Mis POKéMON… se han quedado sin\n"
-	.string "fuerzas…$"
+	.string "fuerzas…{PAUSE 5}$"
 
 RusturfTunnel_Text_MikePostBattle:
 	.string "Aquí decidieron detener el avance del\n"

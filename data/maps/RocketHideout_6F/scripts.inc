@@ -463,7 +463,7 @@ RocketHideout_6F_Petrel_Text_Mision_2:
 	.string "a la práctica, todo con el fin de\l"
 	.string "llevar dinero a las\l"
 	.string "investigaciones realmente\l"
-	.string "trascendentales…$"
+	.string "trascendentales{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Text_Mision_3:
 .string "He oído que vuestro rendimiento\n"
@@ -764,7 +764,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 	.string "de tu intervención silenciando a\l"
 	.string "la CÓNSUL del lugar, es cuestión\l"
 	.string "de tiempo que nos corten el\l"
-	.string "chiringito por esa vía…$"
+	.string "chiringito por esa vía{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_11:
 .string "Y es aquí donde entra tu misión,\n"
@@ -1214,7 +1214,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 	.string "nuestro LÍDER GIOVANNI, así como\l"
 	.string "acceso a cierta información\l"
 	.string "privilegiada, pero todo eso a su\l"
-	.string "tiempo…$"
+	.string "tiempo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
 .string "¡¡{PLAYER} fue ascendido a RECLUTA\n"
@@ -1231,7 +1231,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "compensación por dejarte antes a 0\l"
 	.string "POKÉS después de la misión del\l"
 	.string "MT.MOON, te corresponde lo\l"
-	.string "siguiente…$"
+	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
 .string "¡Acabas de facturar 125000 POKÉS!$"
@@ -1259,7 +1259,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_22:
 .string "PETREL: Exacto. Es tradición el\n"
 	.string "celebrar una gran fiesta en el\l"
 	.string "crucero antes de su partida\l"
-	.string "definitiva de CARMÍN…$"
+	.string "definitiva de CARMÍN{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_23:
 .string "PETREL: No quiero que aprovechéis\n"
@@ -1316,7 +1316,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_30:
 .string "PETREL: Debéis saber que esta\n"
 	.string "misión es una petición expresa del\l"
-	.string "mismísimo GIOVANNI…$"
+	.string "mismísimo GIOVANNI{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_31:
 .string "PETREL: Nuestro LÍDER cree que\n"

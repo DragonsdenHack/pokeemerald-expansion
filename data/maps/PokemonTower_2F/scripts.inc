@@ -145,7 +145,7 @@ release
 end
 
 PokemonTower2F_Azul_Texto_1:
-.string "AZUL: Así que ya estás aquí…$"
+.string "AZUL: Así que ya estás aquí{PAUSE 5}…{PAUSE 5}$"
 
 PokemonTower2F_Azul_Texto_2:
 .string "Los otros ROCKET están ya en los\n"
@@ -179,7 +179,7 @@ PokemonTower2F_Azul_Texto_5:
 PokemonTower2F_Azul_Texto_6:
 .string "Esa es la única manera de\n"
 	.string "demostrar de una vez por todas que\l"
-	.string "soy mejor que ROJO, ese ROJO…$"
+	.string "soy mejor que ROJO, ese ROJO{PAUSE 5}…{PAUSE 5}$"
 
 PokemonTower2F_Azul_Texto_7:
 .string "Mi abuelo OAK siempre ha tenido\n"

@@ -104,7 +104,7 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1:
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
 .string "No, tú tampoco pareces tenerlos,\n"
@@ -162,4 +162,4 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_10:
 	.string "espero que cuando te golpeen con\l"
 	.string "RAYO o PSÍQUICO te tumben de un\l"
 	.string "solo golpe por haberme negado este\l"
-	.string "combate…$"
+	.string "combate{PAUSE 5}…{PAUSE 5}$"

@@ -132,7 +132,7 @@ release
 end
 
 RuinsOfAlphS3_Evento_Final_Texto_1:
-.string "GIOVANNI: …$"
+.string "GIOVANNI: {PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_2:
 .string "¿Pero, cómo tú?$"
@@ -163,7 +163,7 @@ RuinsOfAlphS3_Evento_Final_Texto_6:
 RuinsOfAlphS3_Evento_Final_Texto_7:
 .string "GIOVANNI: Así es, esa magia solo\n"
 	.string "debe estar a su alcance, me\l"
-	.string "pregunto si…$"
+	.string "pregunto si{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_8:
 .string "ANDRA: ¡No podrá con {PLAYER}!\n"
@@ -184,7 +184,7 @@ RuinsOfAlphS3_Evento_Final_Texto_11:
 RuinsOfAlphS3_Evento_Final_Texto_12:
 .string "ANDRA: Toda esa energía, esa\n"
 	.string "tensión en el ambiente, se ha…\l"
-	.string "esfumado…$"
+	.string "esfumado{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
 .string "GIOVANNI: Entonces…\n"
@@ -204,10 +204,10 @@ RuinsOfAlphS3_Evento_Final_Texto_13:
 	.string "cielo?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_15:
-.string "Mucho nos queda aún por aprender…$"
+.string "Mucho nos queda aún por aprender{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Move_1:
 walk_slow_right
@@ -321,10 +321,10 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_1:
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
 .string "Antes fue el HO-OH dorado,\n"
-	.string "ahora debe de venir…$"
+	.string "ahora debe de venir{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 .string "No podré continuar. Si la leyenda\n"
@@ -336,7 +336,7 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 	.string "le queda corta. Si tan solo\l"
 	.string "hubiéramos podido acelerar un poco\l"
 	.string "más las últimas versiones de\l"
-	.string "MEWTWO…$"
+	.string "MEWTWO{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
 .string "Ahora depende de ti, {PLAYER}.\n"
@@ -432,7 +432,7 @@ release
 end
 
 RuinsOfAlphS3_Combate_Unown_Texto_2:
-.string "… … … …$"
+.string "… … … …{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_4:
 .string "GIOVANNI: ¡Lo sabía, sabía que tú\n"
@@ -459,7 +459,7 @@ RuinsOfAlphS3_Combate_Unown_Texto_6:
 	.string "a KYUREM su forma original, ya\l"
 	.string "tendremos tiempo de investigarlo,\l"
 	.string "{PLAYER}, cuando toda JOHTO y KANTO\l"
-	.string "estén a salvo…$"
+	.string "estén a salvo{PAUSE 5}…{PAUSE 5}$"
 
 
 RuinsOfAlphS3_Combate_Unown_Move_1:

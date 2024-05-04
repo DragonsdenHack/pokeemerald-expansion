@@ -79,7 +79,7 @@ Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
 	.string	"Cuando se trata de combates POKéMON,\n"
-	.string	"tendemos a tomárnoslo muy en serio…$"
+	.string	"tendemos a tomárnoslo muy en serio{PAUSE 5}…{PAUSE 5}$"
 
 Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
 	.string	"Mamá es más fuerte que papá.\p"

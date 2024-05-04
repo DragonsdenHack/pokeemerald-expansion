@@ -11,7 +11,7 @@ SecretBase_Text_Trainer0AcceptBattle:
 
 SecretBase_Text_Trainer0DeclineBattle:
     .string "Hunh?\n"
-    .string "Oh, you can't now…$"
+    .string "Oh, you can't now…{PAUSE 5}$"
 
 SecretBase_Text_Trainer0Defeated::
     .string "Waaargh! You're too strong!\n"
@@ -155,10 +155,10 @@ SecretBase_Text_Trainer7AcceptBattle:
 
 SecretBase_Text_Trainer7DeclineBattle:
     .string "Oh.\n"
-    .string "How disappointing…$"
+    .string "How disappointing…{PAUSE 5}$"
 
 SecretBase_Text_Trainer7Defeated::
-    .string "I concede…$"
+    .string "I concede…{PAUSE 5}$"
 
 SecretBase_Text_Trainer7PostBattle:
     .string "That was all in good fun!\n"
@@ -185,7 +185,7 @@ SecretBase_Text_Trainer3DeclineBattle:
     .string "for this place?$"
 
 SecretBase_Text_Trainer3Defeated::
-    .string "I went down…$"
+    .string "I went down…{PAUSE 5}$"
 
 SecretBase_Text_Trainer3PostBattle:
     .string "Where's your SECRET BASE?\n"
@@ -271,7 +271,7 @@ SecretBase_Text_Trainer9DeclineBattle:
 
 SecretBase_Text_Trainer9Defeated::
     .string "You're supremely talented!\n"
-    .string "Your power seems to be limitless…$"
+    .string "Your power seems to be limitless…{PAUSE 5}$"
 
 SecretBase_Text_Trainer9PostBattle:
     .string "What did you think of my style?\n"

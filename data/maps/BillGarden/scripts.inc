@@ -53,7 +53,7 @@ release
 end
 
 Bill_Garden_Warp_text_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Bill_Garden_Warp_Text_YesNo:
     .string "…\n"
@@ -182,7 +182,7 @@ Bill_Garden_Policia_Atlas_text_3:
 .string "????: Te equivocas.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: ADMINISTRADOR JEFE ATLAS…$"
+.string "BILL: ADMINISTRADOR JEFE ATLAS{PAUSE 5}…{PAUSE 5}$"
 
 Bill_Garden_Policia_Atlas_text_5:
 .string "ATLAS: No he podido evitar oír\n"

@@ -91,7 +91,7 @@ Route11_Path_2F_Combate_Ayudante_Oak_Texto_1:
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "¿Quieres perder la poca capacidad\n"

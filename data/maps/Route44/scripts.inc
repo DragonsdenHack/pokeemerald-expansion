@@ -266,7 +266,7 @@ Route44_Combate_Mirto_Texto_5:
 	.string "singular.$"
 
 Route44_Combate_Mirto_Texto_5.1:
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route44_Combate_Mirto_Texto_5.2:
 	.string "El CAMPEÓN de una región es el\n"

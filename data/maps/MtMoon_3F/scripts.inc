@@ -48,7 +48,7 @@ MtMoon3F_Text_6:
 .string "ANDRA: Parece que aquí no hay nada\n"
 .string "importante, tal vez en las\l"
 .string "escaleras que llevan a otra\l"
-.string "entrada…$"
+.string "entrada{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -78,7 +78,7 @@ MtMoon3F_Text_9:
 	.string "tratado de pararle los pies pero\l"
 	.string "mi equipo ha quedado hecho añicos.\l"
 	.string "Solo puedo permanecer aquí parado\l"
-	.string "mirando…$"
+	.string "mirando{PAUSE 5}…{PAUSE 5}$"
 
 
 MtMoon3F_Text_9_2:
@@ -592,7 +592,7 @@ MtMoon_3F_Miguel_Rojo_text_10:
 	.string "Tú no eres un ROCKET normal, no me\l"
 	.string "gusta nada la gente que se sale de\l"
 	.string "las estadísticas. En cuanto los\l"
-	.string "FÓSILES…$"
+	.string "FÓSILES{PAUSE 5}…{PAUSE 5}$"
 
 MtMoon_3F_Miguel_Rojo_text_11:
 .string "¡¡Llamando a {PLAYER}!!\n"
@@ -842,7 +842,7 @@ MtMoon_3F_Pelea_Frank_texto2:
 .string "…\n"
 	.string "…\l"
 	.string "…\l"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 MtMoon_3F_Pelea_Frank_texto3:
 .string "¡¡TUVISTE 2 FÓSILES EN TU MANO!!\n"
@@ -931,7 +931,7 @@ MtMoon_3F_Pelea_Frank_texto9:
 	.string "por un novato?$"
 
 MtMoon_3F_Pelea_Frank_texto10:
-.string "Esto es inadmisible…$"
+.string "Esto es inadmisible…{PAUSE 5}$"
 
 MtMoon_3F_Pelea_Frank_texto11:
 .string "Suficiente. Esta misión se da por\n"
