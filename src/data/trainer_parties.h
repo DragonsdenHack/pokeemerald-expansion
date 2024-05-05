@@ -37636,17 +37636,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER635[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_GOLEM,
     },
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .species = SPECIES_GOLEM,
     },
     {
     .iv = 0,
     .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .species = SPECIES_TORKOAL,
     }
     
 };

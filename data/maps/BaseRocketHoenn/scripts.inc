@@ -2415,6 +2415,7 @@ applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_7
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 removeobject 46
+setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 setflag FLAG_HOENN_700
 setflag FLAG_HOENN_699
 setflag FLAG_HOENN_698

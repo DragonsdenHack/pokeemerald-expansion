@@ -511,9 +511,7 @@ MtChimney_EventScript_Grunt1::
 	end
 
 MtChimney_EventScript_Sawyer::
-	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, MtChimney_EventScript_SawyerDefeated
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MtChimney_EventScript_SawyerRematch
+	trainerbattle_single TRAINER_TRAINER_635, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat,
 	msgbox MtChimney_Text_SawyerPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -732,16 +730,16 @@ MtChimney_Text_PlayerRemovedMeteorite:
 	.string "the mysterious machine.$"
 
 MtChimney_Text_PlayerLeftMeteorite:
-	.string "{PLAYER} left the METEORITE where\n"
-	.string "it was.$"
+	.string	"{PLAYER} dejó el METEORITO\n"
+	.string	"donde estaba.$"
 
 MtChimney_Text_MachineMakesNoResponse:
-	.string "This mysterious machine…\n"
-	.string "It makes no response whatsoever.$"
+	.string	"Esta extraña máquina…\n"
+	.string	"No responde…$"
 
 MtChimney_Text_RouteSign:
-	.string "{DOWN_ARROW} JAGGED PATH\n"
-	.string "LAVARIDGE TOWN AHEAD$"
+	.string	"{DOWN_ARROW} DESFILADERO\n"
+	.string	"PUEBLO LAVACALDA MÁS ADELANTE$"
 
 MtChimney_Text_ShelbyIntro:
 	.string "He estado en las fuentes termales y he\n"
@@ -814,15 +812,15 @@ MtChimney_Text_ShirleyPostBattle:
 	.string "importantes que hacer{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_SawyerIntro:
-	.string "This is one fine mountain! Plenty of\n"
-	.string "hot people around for company!$"
+	.string	"¡Esta montaña está que arde! ¡Está\n"
+	.string	"llena de gente impetuosa y apasionada!$"
 
 MtChimney_Text_SawyerDefeat:
-	.string "Oh, you're a real firebrand, too!$"
+	.string	"¡Me has dejado echando humo!$"
 
 MtChimney_Text_SawyerPostBattle:
-	.string "I think I need a dip in LAVARIDGE\n"
-	.string "HOT SPRING with the locals!$"
+	.string	"¡Debería ir a los BAÑOS TERMALES\n"
+	.string	"de LAVACALDA, como hacen todos!$"
 
 MtChimney_Text_SawyerRegister:
 	.string "I like little fireballs like you.\n"
@@ -923,7 +921,7 @@ MtChimney_NPC10_Policia_Texto_1:
 	.string "volcán, hasta entonces los pasos están\l"
 	.string "cortados.$"
 
-MtChimney_Doctor_Rasmus::
+MtChimney_Doctor_Rasmus_Arriba::
 lock
 playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
 playse SE_FALL
@@ -932,9 +930,26 @@ waitmovement 0x0
 delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
 waitse
-msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE 
 applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2
 waitmovement 0x0
+goto MtChimney_Doctor_Rasmus
+
+MtChimney_Doctor_Rasmus_Abajo::
+lock
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+playse SE_FALL
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+waitse
+msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE 
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2.1
+waitmovement 0x0
+goto MtChimney_Doctor_Rasmus
+
+MtChimney_Doctor_Rasmus::
 msgbox MtChimney_Doctor_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
@@ -963,27 +978,34 @@ msgbox MtChimney_Doctor_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_7
 waitmovement 0x0
+delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
-applymovement 2, MtChimney_Doctor_Rasmus_Move_8
+applymovement 2, MtChimney_Doctor_Rasmus_Move_8.1
 waitmovement 0x0
+delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 2, MtChimney_Doctor_Rasmus_Move_9
 waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
 applymovement 2, MtChimney_Doctor_Rasmus_Move_1
 waitmovement 0x0
 waitmoncry
 playse SE_FAINT
+delay 15
 msgbox MtChimney_Doctor_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_11
-applymovement 2, MtChimney_Doctor_Rasmus_Move_10
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_10
+applymovement 2, MtChimney_Doctor_Rasmus_Move_11
 waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 2, MtChimney_Doctor_Rasmus_Move_12
 applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_13
 waitmovement 0x0
+delay 20
+applymovement 2, MtChimney_Doctor_Rasmus_Move_12.1
 msgbox MtChimney_Doctor_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 2, MtChimney_Doctor_Rasmus_Move_14
 waitmovement 0x0
 clearflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
@@ -1016,7 +1038,6 @@ end
 MtChimney_Doctor_Rasmus_Move_14:
 walk_left
 walk_left
-walk_down
 walk_left
 walk_down
 walk_down
@@ -1039,6 +1060,12 @@ walk_left
 walk_left
 step_end
 
+MtChimney_Doctor_Rasmus_Move_12.1:
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
 MtChimney_Doctor_Rasmus_Move_11:
 walk_in_place_up
 step_end
@@ -1055,8 +1082,14 @@ MtChimney_Doctor_Rasmus_Move_8:
 face_down
 step_end
 
+MtChimney_Doctor_Rasmus_Move_8.1:
+face_up
+step_end
+
 MtChimney_Doctor_Rasmus_Move_7:
+delay_8
 emote_exclamation_mark
+delay_8
 step_end
 
 MtChimney_Doctor_Rasmus_Move_6:
@@ -1079,6 +1112,11 @@ delay_8
 step_end
 
 MtChimney_Doctor_Rasmus_Move_2:
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_2.1:
+walk_up
 walk_right
 step_end
 

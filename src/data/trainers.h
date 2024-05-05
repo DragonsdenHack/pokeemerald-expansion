@@ -12756,7 +12756,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_53] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("MARC"),
@@ -12784,7 +12784,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_55] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("ELORE"),
@@ -12798,7 +12798,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_56] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("FUGUI"),
@@ -14436,7 +14436,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_173] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("ROGER"),
@@ -14562,7 +14562,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_182] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("PEPIN"),
@@ -17222,7 +17222,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_372] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("CARLO"),
@@ -17250,7 +17250,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_374] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("DEVAN"),
@@ -17692,7 +17692,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_406] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("LUCAS"),
@@ -17718,7 +17718,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_408] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("LUCIANO"),
@@ -18212,7 +18212,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_446] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("EVARISTO"),
@@ -18225,9 +18225,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_447] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_CAMPER,
+        .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .trainerPic = TRAINER_PIC_CAMPER,
+        .trainerPic = TRAINER_PIC_PICNICKER,
         .trainerName = _("DIANA"),
         .items = {},
         .doubleBattle = FALSE,
@@ -19356,7 +19356,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_534] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("MIGUE"),
@@ -20669,10 +20669,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_635] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_KARATEKA_HOENN,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
+        .trainerPic = TRAINER_PIC_HIKER,
+        .trainerName = _("MIKEL"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
