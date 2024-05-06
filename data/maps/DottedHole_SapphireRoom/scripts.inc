@@ -63,6 +63,7 @@ playse SE_M_DETECT
 waitse
 dofieldeffectsparkle 7, 4, 0
 waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 0
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect

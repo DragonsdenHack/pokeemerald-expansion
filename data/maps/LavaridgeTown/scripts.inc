@@ -245,7 +245,7 @@ LavaridgeTown_EventScript_EggWoman::
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedTheEgg
 	waitfanfare
-	giveegg SPECIES_WYNAUT
+	giveegg SPECIES_MUDKIP
 	release
 	end
 
@@ -321,33 +321,32 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "See you around!$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
-	.string "I have here an EGG.\p"
-	.string "I'd hoped to hatch it by covering it in\n"
-	.string "hot sand by the hot springs.\l"
-	.string "But that doesn't seem to be enough…\p"
-	.string "I've heard it would be best if it were\n"
-	.string "kept together with POKéMON and\l"
-	.string "carried about.\p"
-	.string "You are a TRAINER, yes?\n"
-	.string "And your POKéMON radiate vitality.\p"
-	.string "So, what say you?\n"
-	.string "Will you take this EGG to hatch?$"
+	.string	"Tengo un HUEVO.\p"
+	.string	"Pensé que cubriéndolo con arena\n"
+	.string	"caliente en los baños termales se\l"
+	.string	"abriría, pero qué va…\p"
+	.string	"Me han dicho que sería mejor que\n"
+	.string	"estuviera con otros POKéMON.\p"
+	.string	"Tú entrenas POKéMON, ¿no? Y tus\n"
+	.string	"POKéMON parecen estar en forma.\p"
+	.string	"Así que ¿qué me dices?\n"
+	.string	"¿Llevarías este HUEVO contigo?$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
-	.string "Good! I hope you'll walk plenty with\n"
-	.string "this here EGG!$"
+	.string	"¡Bien! ¡Espero que corras muchas\n"
+	.string	"aventuras junto a mi HUEVO!$"
 
 LavaridgeTown_Text_ReceivedTheEgg:
-	.string "{PLAYER} received the EGG.$"
+	.string	"{PLAYER} recibió un HUEVO.$"
 
 LavaridgeTown_Text_NoRoomForThisEgg:
-	.string "Oh? You've too many POKéMON.\n"
-	.string "There's no room for this EGG{PAUSE 5}…{PAUSE 5}$"
+	.string	"Oooh… Tienes demasiados POKéMON.\n"
+	.string	"No te queda sitio para este HUEVO…$"
 
 LavaridgeTown_Text_AsYouWishThen:
-	.string "As you wish, then…\p"
-	.string "If you have a change of heart about\n"
-	.string "hatching this EGG, I will be here.$"
+	.string	"Como desees…\p"
+	.string	"Pero si cambias de opinión sobre el\n"
+	.string	"HUEVO, ven a verme.$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "De vez en cuando, aparece un HUEVO\n"
@@ -355,13 +354,13 @@ LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "Vamos, eso dicen por ahí{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
-	.string "We draw as much hot water as we need,\n"
-	.string "and yet the hot springs never run dry.\p"
-	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+	.string	"Extraemos toda el agua caliente que\n"
+	.string	"necesitamos, pero la fuente no se seca.\p"
+	.string	"¿A que parece magia?\p"
+	.string	"Estos baños termales parecen casi\n"
+	.string	"volcanes. Los canales de agua\l"
+	.string	"subterránea se calientan con el\l"
+	.string	"magma y luego salen a la superficie.$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
 	.string	"Aquí enterradito en la arena caliente\n"

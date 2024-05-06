@@ -7,7 +7,16 @@
 .set LOCALID_GROUDON_SLEEPING, 7
 
 MagmaHideout_4F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, MagmaHideout_4F_OnResume
 	.byte 0
+
+MagmaHideout_4F_OnResume:
+	call MagmaHideout_4F_SetupEscapeWarp
+	end
+
+MagmaHideout_4F_SetupEscapeWarp::
+	setescapewarp MAP_JAGGED_PASS, 16, 20
+	return
 
 MagmaHideout_4F_EventScript_Maxie::
 	lockall
@@ -336,7 +345,9 @@ end
 MagmaHideout_4F_Encuentro_Move_9:
 delay_8
 delay_8
+delay_8
 face_left
+delay_8
 delay_8
 delay_8
 face_up
@@ -355,7 +366,11 @@ step_end
 
 MagmaHideout_4F_Encuentro_Move_7:
 delay_8
+delay_8
+delay_8
 face_right
+delay_8
+delay_8
 delay_8
 face_up
 step_end
@@ -375,7 +390,9 @@ step_end
 
 MagmaHideout_4F_Encuentro_Move_4:
 delay_8
+delay_8
 face_left
+delay_8
 delay_8
 step_end
 
@@ -440,16 +457,42 @@ MagmaHideout_4F_Encuentro_Amatista_Texto_9:
 MagmaHideout_4F_Encuentro_Amatista_Texto_10:
 	.string "Este no parece el caso.$"
 
+MagmaHideout_4F_Move_1.10:
+delay_8
+walk_in_place_up
+delay_8
+delay_8
+step_end
+
+Magma3_Combate_Magno_Move_9.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Magma3_Combate_Magno_Move_9.2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
 
 MagmaHideout_4F_Encuentro_Groudon::
 lock
 clearflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.10
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Groudon_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_M_DETECT
 waitse
-dofieldeffectsparkle 17, 42, 0
+dofieldeffectsparkle 16, 21, 0
 waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 1
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect
@@ -458,6 +501,10 @@ waitstate
 delay 60
 special FadeOutOrbEffect
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.1
+waitmovement 0x0
+special RemoveCameraObject
 delay 75
 addobject 1
 waitfanfare
@@ -490,9 +537,10 @@ waitmovement 0
 MagmaHideout_4F_Encuentro_Groudon_2::
 special SpawnCameraObject
 applymovement 1, TerraCave_End_Movement_GroudonApproach
-applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.2
 waitmovement 0x0
 special RemoveCameraObject
+delay 200
 trainerbattle_no_intro TRAINER_TRAINER_625, NavelRock_Bottom_Combate_Lugia_Texto_2
 playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
 waitmoncry

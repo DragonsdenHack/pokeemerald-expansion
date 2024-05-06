@@ -35,7 +35,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 5,
+      "x": 4,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -158,7 +158,7 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_MART",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 10,
@@ -185,7 +185,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 6,
+      "x": 5,
       "y": 3,
       "elevation": 3,
       "var": "0",

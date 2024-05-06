@@ -56,6 +56,7 @@ static void AnimWishStar_Step(struct Sprite *);
 static void AnimMiniTwinklingStar(struct Sprite *);
 static void AnimMiniTwinklingStar_Step(struct Sprite *);
 static void AnimSwallowBlueOrb(struct Sprite *);
+static void AnimSwallowRedOrb(struct Sprite *);
 static void AnimGreenStar(struct Sprite *);
 static void AnimGreenStar_Step1(struct Sprite *);
 static void AnimGreenStar_Step2(struct Sprite *);
@@ -575,6 +576,17 @@ const union AffineAnimCmd gSpitUpDeformMonAffineAnimCmds[] =
 };
 
 const struct SpriteTemplate gSwallowBlueOrbSpriteTemplate =
+{
+    .tileTag = ANIM_TAG_BLUE_ORB,
+    .paletteTag = ANIM_TAG_BLUE_ORB,
+    .oam = &gOamData_AffineOff_ObjNormal_8x8,
+    .anims = gDummySpriteAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = AnimSwallowBlueOrb,
+};
+
+const struct SpriteTemplate gSwallowRedOrbSpriteTemplate =
 {
     .tileTag = ANIM_TAG_BLUE_ORB,
     .paletteTag = ANIM_TAG_BLUE_ORB,

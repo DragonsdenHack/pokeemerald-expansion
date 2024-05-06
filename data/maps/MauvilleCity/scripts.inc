@@ -662,6 +662,20 @@ msgbox MauvilleCity_Devon_Malvalanova_Texto_1 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_Devon_Malvalanova_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_Devon_Malvalanova_Texto_3 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_Devon_Malvalanova_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_10 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_11 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_12 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_13 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_2
+removeobject 8
+removeobject 7
+removeobject 6
+setvar VAR_UNUSED_0x40F7, 224
 release
 end
 
@@ -682,6 +696,47 @@ MauvilleCity_Devon_Malvalanova_Texto_4:
 	.string "ERICO: No hay prisa, estaré en mi\n"
 	.string "GIMNASIO para cualquier cosa que\l"
 	.string "necesitéis.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_5:
+	.string "¡Oh! ¡ Jo, jo, jo! Eres nuevo aquí,\n"
+	.string "¿verdad?$"
+
+MauvilleCity_Devon_Malvalanova_Texto_6:
+	.string "Ese traje tan elegante… me trae\n"
+	.string "recuerdos de mi juventud. Antaño tenía\l"
+	.string "grandes proyectos para esta ciudad.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_7:
+	.string "Aunque a veces uno debe abandonar sus\n"
+	.string "sueños… y buscarse otros jo, jo, jo…$"
+
+MauvilleCity_Devon_Malvalanova_Texto_8:
+	.string "Disfruta de MALVALONA, joven. Aunque si\n"
+	.string "quieres retarme o ir al CASINO, deberás\l"
+	.string "esperar un poco.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_9:
+	.string "DEVON está haciendo operaciones al sur\n"
+	.string "de aquí, y por seguridad los principales\l"
+	.string "focos energéticos de la ciudad\l"
+	.string "permanecerán apagados.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_10:
+	.string "¿No sabes a dónde ir?$"
+
+MauvilleCity_Devon_Malvalanova_Texto_11:
+	.string "¡Jua, jua, jua!$"
+
+MauvilleCity_Devon_Malvalanova_Texto_12:
+	.string "Hay un pueblecito muy encantador al\n"
+	.string "oeste de aquí. El lugar perfecto para\l"
+	.string "que un joven como tú pueda recargar\l"
+	.string "pilas.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_13:
+	.string "Cuando estés lleno de energía y el\n"
+	.string "GIMNASIO abra, ¡vuelve aquí para que te\l"
+	.string "dé una buena descarga! ¡Jo, jo, jo!$"
 
 MauvilleCity_Bloqueo_Casino::
 lock

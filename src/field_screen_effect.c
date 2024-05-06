@@ -1088,9 +1088,11 @@ static void LoadOrbEffectPalette(bool8 blueOrb)
     u16 color[1];
 
     if (!blueOrb)
-        color[0] = RGB_RED;
-    else
         color[0] = RGB_BLUE;
+    if (blueOrb)
+        color[0] = RGB_BLUE;
+    else
+        color[0] = RGB_RED;
 
     for (i = 0; i < 16; i++)
     {
@@ -1132,6 +1134,7 @@ static bool8 UpdateOrbEffectBlend(u16 shakeDir)
 #define tBldAlpha    data[8]
 #define tWinIn       data[9]
 #define tWinOut      data[10]
+#define tRedOrb     data[11]
 
 static void Task_OrbEffect(u8 taskId)
 {
@@ -1227,17 +1230,17 @@ void DoOrbEffect(void)
 
     if (gSpecialVar_Result == 0)
     {
-        tBlueOrb = FALSE;
+        tBlueOrb = TRUE;
         tCenterX = 104;
     }
     else if (gSpecialVar_Result == 1)
     {
-        tBlueOrb = TRUE;
+        tBlueOrb = FALSE;
         tCenterX = 136;
     }
     else if (gSpecialVar_Result == 2)
     {
-        tBlueOrb = FALSE;
+        tRedOrb = TRUE;
         tCenterX = 120;
     }
     else
@@ -1265,6 +1268,7 @@ void FadeOutOrbEffect(void)
 #undef tBldAlpha
 #undef tWinIn
 #undef tWinOut
+#undef tRedOrb
 
 void Script_FadeOutMapMusic(void)
 {

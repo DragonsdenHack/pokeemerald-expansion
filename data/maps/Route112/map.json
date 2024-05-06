@@ -243,14 +243,14 @@
     },
     {
       "x": 6,
-      "y": 46,
+      "y": 47,
       "elevation": 3,
       "dest_map": "MAP_JAGGED_PASS",
       "dest_warp_id": 0
     },
     {
       "x": 7,
-      "y": 46,
+      "y": 47,
       "elevation": 3,
       "dest_map": "MAP_JAGGED_PASS",
       "dest_warp_id": 1

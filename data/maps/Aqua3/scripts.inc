@@ -35,13 +35,12 @@ special RemoveCameraObject
 playbgm MUS_ENCOUNTER_AQUA, FALSE
 msgbox Aqua3_Combate_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
-setvar VAR_RESULT, 1
 playse SE_M_DETECT
 waitse
 dofieldeffectsparkle 17, 42, 0
 waitfieldeffect FLDEFF_SPARKLE
 closemessage
-setvar VAR_RESULT, 1
+setvar VAR_RESULT, 0
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect

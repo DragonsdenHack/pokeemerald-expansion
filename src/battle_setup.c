@@ -949,6 +949,9 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_6)
         return B_TRANSITION_ANDRA4;
 
+    if (gTrainerBattleOpponent_A == TRAINER_CANDELA)
+        return B_TRANSITION_CANDELA;
+
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_7)
         return B_TRANSITION_ANDRA5;
 
