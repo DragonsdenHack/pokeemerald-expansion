@@ -254,11 +254,11 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "on your adventure!$"
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
-	.string "I'm learning about BIKES while\n"
-	.string "I work here.\p"
-	.string "If you need advice on how to ride your\n"
-	.string "BIKE, there're a couple handbooks in\l"
-	.string "the back.$"
+	.string	"Trabajar aquí me está enseñando\n"
+	.string	"un montón sobre BICIS.\p"
+	.string	"Si quieres saber todos los secretos\n"
+	.string	"de tu BICI, echa un vistazo\l"
+	.string	"a los manuales que hay ahí detrás.$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
 	.string "It's a handbook on the MACH BIKE.\p"
@@ -317,4 +317,18 @@ MauvilleCity_BikeShop_Text_Jumps:
 	.string "Press it backwards to make the BIKE\n"
 	.string "change directions while jumping.\p"
 	.string "Want to read a different page?$"
+
+
+MauvilleCity_BikeShop_Anacleto::
+lock
+faceplayer
+msgbox MauvilleCity_BikeShop_Anacleto_Texto_1 MSGBOX_NPC
+release
+end
+
+MauvilleCity_BikeShop_Anacleto_Texto_1:
+	.string "Ehmmm... Lo siento, me temo que poco\n"
+	.string "puedo aportarle a alguien tan\l"
+	.string "adinerado. Alguien como tú seguro que\l"
+	.string "va en moto, ¿no?$"
 

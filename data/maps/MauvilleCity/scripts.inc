@@ -1,25 +1,12 @@
-.set LOCALID_WALLY, 6
-.set LOCALID_WALLYS_UNCLE, 7
-.set LOCALID_SCOTT, 11
-
 MauvilleCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_OnTransition
 	.byte 0
 
 MauvilleCity_OnTransition:
 	setflag FLAG_VISITED_MAUVILLE_CITY
-	clearflag FLAG_FORCE_MIRAGE_TOWER_VISIBLE
-	clearflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
-	setflag FLAG_SYS_TV_START
-	clearflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
-	setvar VAR_MAUVILLE_GYM_STATE, 0
-	call_if_set FLAG_GOT_TM24_FROM_WATTSON, MauvilleCity_EventScript_MoveWattsonBackToGym
 	end
 
 MauvilleCity_EventScript_MoveWattsonBackToGym::
-	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
-	setflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
-	setflag FLAG_WATTSON_REMATCH_AVAILABLE
 	return
 
 MauvilleCity_EventScript_Boy::
@@ -68,113 +55,6 @@ MauvilleCity_EventScript_TVExplained::
 	release
 	end
 
-MauvilleCity_EventScript_WallysUncle::
-	lock
-	faceplayer
-	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_UncleAskPlayerToBattleWally
-	msgbox MauvilleCity_Text_UncleHesTooPeppy, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
-
-MauvilleCity_EventScript_UncleAskPlayerToBattleWally::
-	msgbox MauvilleCity_Text_UncleCanYouBattleWally, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
-
-MauvilleCity_EventScript_Wally::
-	lockall
-	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_WallyRequestBattleAgain
-	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	msgbox MauvilleCity_Text_WallyWantToChallengeGym, MSGBOX_DEFAULT
-	msgbox MauvilleCity_Text_UncleYourePushingIt, MSGBOX_DEFAULT
-	msgbox MauvilleCity_Text_WallyWeCanBeatAnyone, MSGBOX_DEFAULT
-	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
-	waitmovement 0
-	playse SE_PIN
-	applymovement LOCALID_WALLY, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_WALLY, Common_Movement_Delay48
-	waitmovement 0
-	msgbox MauvilleCity_Text_WallyWillYouBattleMe, MSGBOX_YESNO
-	goto MauvilleCity_EventScript_BattleWallyPrompt
-	end
-
-MauvilleCity_EventScript_BattleWallyPrompt::
-	call_if_eq VAR_RESULT, YES, MauvilleCity_EventScript_BattleWally
-	goto_if_eq VAR_RESULT, NO, MauvilleCity_EventScript_DeclineWallyBattle
-	closemessage
-	switch VAR_FACING
-	case DIR_NORTH, MauvilleCity_EventScript_WallyAndUncleExitNorth
-	case DIR_EAST, MauvilleCity_EventScript_WallyAndUncleExitEast
-	end
-
-MauvilleCity_EventScript_WallyAndUncleExitNorth::
-	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth1
-	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitNorth1
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitNorth1
-	waitmovement 0
-	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 30
-	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerFaceUncleNorth
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerNorth
-	waitmovement 0
-	msgbox MauvilleCity_Text_UncleVisitUsSometime, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth2
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitNorth2
-	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitNorth2
-	waitmovement 0
-	goto MauvilleCity_EventScript_DefeatedWally
-	end
-
-MauvilleCity_EventScript_WallyAndUncleExitEast::
-	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast1
-	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitEast1
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitEast1
-	waitmovement 0
-	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 30
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerEast
-	waitmovement 0
-	msgbox MauvilleCity_Text_UncleVisitUsSometime, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast2
-	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitEast2
-	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitEast2
-	waitmovement 0
-	goto MauvilleCity_EventScript_DefeatedWally
-	end
-
-MauvilleCity_EventScript_DefeatedWally::
-	removeobject LOCALID_WALLY
-	removeobject LOCALID_WALLYS_UNCLE
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
-	setflag FLAG_DEFEATED_WALLY_MAUVILLE
-	setvar VAR_WALLY_CALL_STEP_COUNTER, 0
-	setflag FLAG_ENABLE_FIRST_WALLY_POKENAV_CALL
-	call_if_eq VAR_FACING, DIR_NORTH, MauvilleCity_EventScript_ScottApproachPlayerNorth
-	call_if_eq VAR_FACING, DIR_EAST, MauvilleCity_EventScript_ScottApproachPlayerEast
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	msgbox MauvilleCity_Text_ScottYouDidntHoldBack, MSGBOX_DEFAULT
-	closemessage
-	addvar VAR_SCOTT_STATE, 1
-	call_if_eq VAR_FACING, DIR_NORTH, MauvilleCity_EventScript_ScottExitNorth
-	call_if_eq VAR_FACING, DIR_EAST, MauvilleCity_EventScript_ScottExitEast
-	removeobject LOCALID_SCOTT
-	releaseall
-	end
-
 MauvilleCity_EventScript_ScottApproachPlayerNorth::
 	addobject LOCALID_SCOTT
 	applymovement LOCALID_SCOTT, MauvilleCity_Movement_ScottApproachPlayerNorth
@@ -218,13 +98,6 @@ MauvilleCity_EventScript_DeclineWallyBattle::
 	setflag FLAG_DECLINED_WALLY_BATTLE_MAUVILLE
 	msgbox MauvilleCity_Text_WallyMyUncleWontKnowImStrong, MSGBOX_DEFAULT
 	release
-	end
-
-MauvilleCity_EventScript_WallyRequestBattleAgain::
-	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox MauvilleCity_Text_WallyPleaseBattleMe, MSGBOX_YESNO
-	goto MauvilleCity_EventScript_BattleWallyPrompt
 	end
 
 MauvilleCity_Movement_WallyExitNorth1:
@@ -656,21 +529,180 @@ MauvilleCity_Text_ExplainTV:
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hola. ¿Has estado viendo la tele?$"
 
+
+MauvilleCity_Devon_Izq_1_Malvalanova::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_2
+waitmovement 0x0
+goto MauvilleCity_Devon_Malvalanova
+
+MauvilleCity_Devon_Izq_2_Malvalanova::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_3
+waitmovement 0x0
+goto MauvilleCity_Devon_Malvalanova
+
+MauvilleCity_Devon_Centro_Malvalanova::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_4
+waitmovement 0x0
+goto MauvilleCity_Devon_Malvalanova
+
+MauvilleCity_Devon_Der_1_Malvalanova::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_5
+waitmovement 0x0
+goto MauvilleCity_Devon_Malvalanova
+
+MauvilleCity_Devon_Move_6.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+MauvilleCity_Devon_Move_6:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+
+MauvilleCity_Devon_Move_5:
+walk_down
+walk_in_place_right
+step_end
+
+MauvilleCity_Devon_Move_4:
+walk_down
+walk_right
+step_end
+
+MauvilleCity_Devon_Move_1:
+emote_exclamation_mark
+delay_8
+walk_in_place_down
+delay_8
+delay_8
+step_end
+
+MauvilleCity_Devon_Move_2:
+walk_down
+walk_right
+walk_right
+walk_right
+step_end
+
+MauvilleCity_Devon_Move_3:
+walk_down
+walk_right
+walk_right
+step_end
+
+
+
 MauvilleCity_Devon_Malvalanova::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MauvilleCity_Devon_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 7, MauvilleCity_Devon_Move_7
+applymovement 6, MauvilleCity_Devon_Move_7
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MauvilleCity_Devon_Malvalanova_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, MauvilleCity_Devon_Move_8
+applymovement 6, MauvilleCity_Devon_Move_9
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MauvilleCity_Devon_Move_10
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, MauvilleCity_Devon_Move_8.1
+applymovement 6, MauvilleCity_Devon_Move_9.1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement 8, MauvilleCity_Devon_Move_11
+applymovement OBJ_EVENT_ID_CAMERA, MauvilleCity_Devon_Move_6.1
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
+applymovement 8, MauvilleCity_Devon_Move_12
+waitmovement 0x0
+playse SE_PIN
+applymovement 8, MauvilleCity_Devon_Move_13
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_17
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_14
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_15
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_16
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_17
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_9 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Devon_Move_10
+waitmovement 0x0
+delay 10
+applymovement 8, MauvilleCity_Devon_Move_16
+waitmovement 0x0
+delay 10
 msgbox MauvilleCity_Devon_Malvalanova_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MauvilleCity_Devon_Malvalanova_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_18
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_7
+waitmovement 0x0
 msgbox MauvilleCity_Devon_Malvalanova_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 8, MauvilleCity_Devon_Move_19
+waitmovement 0x0
+playse SE_SLIDING_DOOR
+waitse
 setflag FLAG_HOENN_2
 removeobject 8
 removeobject 7
@@ -678,6 +710,131 @@ removeobject 6
 setvar VAR_UNUSED_0x40F7, 224
 release
 end
+
+MauvilleCity_Devon_Move_19:
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+MauvilleCity_Devon_Move_18:
+walk_left
+step_end
+
+MauvilleCity_Devon_Move_17:
+face_down
+step_end
+
+MauvilleCity_Devon_Move_16:
+delay_8
+face_up
+delay_8
+step_end
+
+MauvilleCity_Devon_Move_15:
+delay_8
+face_left
+delay_8
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+
+MauvilleCity_Devon_Move_14:
+walk_up
+step_end
+
+MauvilleCity_Devon_Move_13:
+emote_exclamation_mark
+step_end
+
+MauvilleCity_Devon_Move_12:
+delay_8
+face_up
+delay_8
+delay_8
+step_end
+
+MauvilleCity_Devon_Move_11:
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+MauvilleCity_Devon_Move_10:
+walk_in_place_down
+step_end
+
+MauvilleCity_Devon_Move_9:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+walk_in_place_up
+delay_8
+step_end
+
+MauvilleCity_Devon_Move_9.1:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+walk_in_place_down
+delay_8
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+MauvilleCity_Devon_Move_8:
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+walk_in_place_up
+delay_8
+step_end
+
+MauvilleCity_Devon_Move_8.1:
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+walk_in_place_down
+delay_8
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+MauvilleCity_Devon_Move_7:
+walk_in_place_up
+step_end
 
 MauvilleCity_Devon_Malvalanova_Texto_1:
 	.string "Gracias por su colaboración.$"
@@ -737,6 +894,18 @@ MauvilleCity_Devon_Malvalanova_Texto_13:
 	.string "Cuando estés lleno de energía y el\n"
 	.string "GIMNASIO abra, ¡vuelve aquí para que te\l"
 	.string "dé una buena descarga! ¡Jo, jo, jo!$"
+
+MauvilleCity_Bloqueo_Gimnasio::
+lock
+msgbox MauvilleCity_Bloqueo_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_Bloqueo_Gimnasio_Texto_1:
+	.string "El GIMNASIO está cerrado debido a su alto\n"
+	.string "consumo energético, por seguridad no\l"
+	.string "abrirá hasta que DEVON termine sus\l"
+	.string "pruebas en MALVALANOVA.$"
 
 MauvilleCity_Bloqueo_Casino::
 lock

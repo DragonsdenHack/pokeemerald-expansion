@@ -1,6 +1,13 @@
 MauvilleCity_House2_MapScripts::
 	.byte 0
 
+MauvilleCity_House2_EventScript_Chica::
+lock
+faceplayer
+msgbox MauvilleCity_House2_Text_BuyHarborMailAtSlateport MSGBOX_AUTOCLOSE
+release
+end
+
 MauvilleCity_House2_EventScript_Woman::
 	lock
 	faceplayer
@@ -41,10 +48,10 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 	end
 
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
-	.string "If I had a BIKE, it'd be easy to cycle to\n"
-	.string "SLATEPORT for some shopping.\p"
-	.string "I'd be able to buy HARBOR MAIL at the\n"
-	.string "POKéMON MART in SLATEPORT{PAUSE 5}…{PAUSE 5}$"
+	.string	"Si tuviera una BICI, sería facilísimo\n"
+	.string	"ir de compras por CIUDAD PORTUAL.\p"
+	.string	"Podría comprar una CARTA PUERTO en\n"
+	.string	"la TIENDA POKéMON de CIUDAD PORTUAL.$"
 
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
 	.string "Oh! You have HARBOR MAIL?\n"

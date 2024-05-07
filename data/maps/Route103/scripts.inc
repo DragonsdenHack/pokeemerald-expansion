@@ -207,10 +207,13 @@ Route103_EventScript_Daisy::
 	end
 
 Route103_EventScript_Amy::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon, Route102_EventScript_AmyRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_AmyRematch
+	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon,
 	msgbox Route103_Text_AmyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route103_EventScript_Liv::
+	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon,
+	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_AmyRegisterMatchCallAfterBattle::
@@ -222,13 +225,6 @@ Route102_EventScript_AmyRegisterMatchCallAfterBattle::
 Route102_EventScript_AmyRematch::
 	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyRematchIntro, Route103_Text_AmyRematchDefeated, Route103_Text_AmyRematchNotEnoughPokemon
 	msgbox Route103_Text_AmyRematchPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route103_EventScript_Liv::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon, Route102_EventScript_LivRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_LivRematch
-	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_LivRegisterMatchCallAfterBattle::
@@ -339,15 +335,15 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION{PAUSE 5}…{PAUSE 5}$"
+	.string	"Mi POKéMON está agotado…\n"
+	.string	"Debería haber traído una POCIÓN…$"
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that's useful, isn't it?$"
+	.string	"Si atraviesas el mar por aquí,\n"
+	.string	"atajas para ir a PUEBLO ESCASO.\p"
+	.string	"Je, je, je, es práctico, ¿verdad?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string	"RUTA 103\n"
+	.string	"{DOWN_ARROW} PUEBLO ESCASO$"
 

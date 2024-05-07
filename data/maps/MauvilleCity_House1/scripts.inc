@@ -1,6 +1,23 @@
 MauvilleCity_House1_MapScripts::
 	.byte 0
 
+MauvilleCity_House1_Cientifico::
+lock
+faceplayer
+msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis MSGBOX_AUTOCLOSE
+delay 15
+msgbox MauvilleCity_House1_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_House1_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_House1_Cientifico_Texto_1:
+	.string "¡Espera!$"
+
+MauvilleCity_House1_Cientifico_Texto_2:
+	.string "¡Ya tienes esa MO!$"
+
+
 MauvilleCity_House1_EventScript_RockSmashDude::
 	lock
 	faceplayer
@@ -19,16 +36,16 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 	end
 
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
-	.string "Woohoo!\p"
-	.string "I hear people call me the ROCK SMASH\n"
-	.string "GUY, but I find that sort of degrading.\p"
-	.string "I think I deserve a bit more respect,\n"
-	.string "like maybe the ROCK SMASH DUDE.\p"
-	.string "Woohoo!\p"
-	.string "Anyways, your POKéMON look pretty\n"
-	.string "strong.\p"
-	.string "I like that!\n"
-	.string "Here, take this HIDDEN MACHINE!$"
+	.string	"¡Chubidubidú!\p"
+	.string	"Algunos me llaman el “MACHACARROCAS”,\n"
+	.string	"pero me parece que no es respetuoso.\p"
+	.string	"Merezco más consideración. Algo así\n"
+	.string	"como el “MAESTRO GOLPE ROCA”.\p"
+	.string	"¡Chubidubidú!\p"
+	.string	"Guau, tus POKéMON parecen bastante\n"
+	.string	"fuertes.\p"
+	.string	"¡Así me gusta! ¡Como premio te doy\n"
+	.string	"esta MÁQUINA OCULTA!$"
 
 MauvilleCity_House1_Text_ExplainRockSmash:
 	.string "That HM contains ROCK SMASH.\p"

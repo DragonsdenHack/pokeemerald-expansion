@@ -21,7 +21,7 @@
 #define SE_BALL_OPEN                15 // SE_BOWA2
 #define SE_FAINT                    16 // SE_POKE_DEAD
 #define SE_FLEE                     17 // SE_NIGERU
-#define SE_SLIDING_DOOR             18 // SE_JIDO_DOA
+#define SE_SLIDING_DOOR             18 // SE_JIDO_DOA // Puerta de gimnasios, centros pkmn...
 #define SE_SHIP                     19 // SE_NAMINORI // SONIDOS INSECTOS REVOLOTEANDO
 #define SE_BANG                     20 // SE_BAN // cueva enorme y misteriosa abriéndose
 #define SE_PIN                      21 // SE_PIN (General "good", commonly for "!")
