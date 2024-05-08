@@ -352,7 +352,7 @@ static void CB2_LoadCableCar(void)
         break;
     case 8:
         BeginNormalPaletteFade(PALETTES_ALL, 3, 16, 0, RGB(0, 0, 0));
-        FadeInNewBGM(MUS_CABLE_CAR, 1);
+        FadeInNewBGM(MUS_ROUTE113, 1);
         SetBgRegs(TRUE);
         gMain.state++;
         break;
@@ -801,17 +801,21 @@ static void CreateCableCarSprites(void)
     u8 i;
 
     //u8 playerGraphicsIds[2] = {
-    u16 playerGraphicsIds[2] = {    
-        [MALE]   = OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL,
-        [FEMALE] = OBJ_EVENT_GFX_RIVAL_MAY_NORMAL
+    u16 playerGraphicsIds[] = {    
+        [ADMIN_JEFE]   = OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,
+		[ADMIN]  = OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,
+		[EJECUTIVO] = OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,
+		[MALE] = OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,
+		[FEMALE]= OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,
+        [ADMIN_JEFE2] = OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE
     };
     u16 rval = Random();
     //u8 hikerGraphicsIds[4] = {
     u16 hikerGraphicsIds[4] = {    
-        OBJ_EVENT_GFX_HIKER,
-        OBJ_EVENT_GFX_CAMPER,
-        OBJ_EVENT_GFX_PICNICKER,
-        OBJ_EVENT_GFX_ZIGZAGOON_1
+        OBJ_EVENT_GFX_ZEUS,
+        OBJ_EVENT_GFX_JONES,
+        OBJ_EVENT_GFX_ROJO,
+        OBJ_EVENT_GFX_GIOVANNI
     };
     s16 hikerCoords[2][2] = {
         {   0,  80 }, // Going up
@@ -890,7 +894,7 @@ static void CreateCableCarSprites(void)
     }
 
     // 1/64 chance for an NPC to appear hiking on the ground below the Cable Car
-    if ((rval % 64) == 0)
+    if ((rval % 5) == 0)
     {
         // Unclear if this was intentional, but the - 1 in the below ARRAY_COUNT means the Zigzagoon is never used
         spriteId = CreateObjectGraphicsSprite(hikerGraphicsIds[rval % (ARRAY_COUNT(hikerGraphicsIds) - 1)], hikerCallbacks[GOING_DOWN], hikerCoords[GOING_DOWN][0], hikerCoords[GOING_DOWN][1], 106);

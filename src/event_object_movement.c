@@ -733,6 +733,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Regigigas, OBJ_EVENT_PAL_TAG_REGIGIGAS},
 	{gObjectEventPal_Inverna, OBJ_EVENT_PAL_TAG_INVERNA},
 	{gObjectEventPal_Oro, OBJ_EVENT_PAL_TAG_ORO},
+	{gObjectEventPal_Ariana, OBJ_EVENT_PAL_TAG_ARIANA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

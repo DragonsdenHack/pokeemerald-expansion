@@ -1091,7 +1091,9 @@ static void LoadOrbEffectPalette(bool8 blueOrb)
         color[0] = RGB_BLUE;
     if (blueOrb)
         color[0] = RGB_BLUE;
-    else
+    if (!blueOrb && gSpecialVar_Result == 3)
+		color[0] = RGB_PURPLE;
+	else
         color[0] = RGB_RED;
 
     for (i = 0; i < 16; i++)
@@ -1241,6 +1243,12 @@ void DoOrbEffect(void)
     else if (gSpecialVar_Result == 2)
     {
         tRedOrb = TRUE;
+        tCenterX = 120;
+    }
+	else if (gSpecialVar_Result == 3)
+    {
+        tRedOrb = FALSE;
+		tBlueOrb = FALSE;
         tCenterX = 120;
     }
     else
