@@ -114,7 +114,14 @@ static void Task_Drake(u8);
 static void Task_Champion(u8);
 static void Task_Surge(u8);
 static void Task_Brock(u8);
+static void Task_Petra(u8);
+static void Task_Marcial(u8);
+static void Task_Erico(u8);
 static void Task_Candela(u8);
+static void Task_Norman(u8);
+static void Task_Alana(u8);
+static void Task_Vito(u8);
+static void Task_Galano(u8);
 static void Task_Misty(u8);
 static void Task_Erika(u8);
 static void Task_Koga(u8);
@@ -414,7 +421,14 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_CONSUL] = Task_Phoebe,
     [B_TRANSITION_SURGE] = Task_Surge,
     [B_TRANSITION_BROCK] = Task_Brock,
+    [B_TRANSITION_PETRA] = Task_Petra,
+    [B_TRANSITION_MARCIAL] = Task_Marcial,
+    [B_TRANSITION_ERICO] = Task_Erico,
     [B_TRANSITION_CANDELA] = Task_Candela,
+    [B_TRANSITION_NORMAN] = Task_Norman,
+    [B_TRANSITION_ALANA] = Task_Alana,
+    [B_TRANSITION_VITO] = Task_Vito,
+    [B_TRANSITION_GALANO] = Task_Galano,
     [B_TRANSITION_MISTY] = Task_Misty,
     [B_TRANSITION_ERIKA] = Task_Erika,
     [B_TRANSITION_KOGA] = Task_Koga,
@@ -648,7 +662,14 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_CONSUL] = TRAINER_PIC_LADY,
     [MUGSHOT_SURGE] = TRAINER_PIC_LEADER_LT_SURGE,
     [MUGSHOT_BROCK] = TRAINER_PIC_LEADER_BROCK,
+    [MUGSHOT_PETRA] = TRAINER_PIC_LEADER_ROXANNE,
+    [MUGSHOT_MARCIAL] = TRAINER_PIC_LEADER_BRAWLY,
+    [MUGSHOT_ERICO] = TRAINER_PIC_LEADER_WATTSON,
     [MUGSHOT_CANDELA] = TRAINER_PIC_LEADER_FLANNERY,
+    [MUGSHOT_NORMAN] = TRAINER_PIC_LEADER_NORMAN,
+    [MUGSHOT_ALANA] = TRAINER_PIC_LEADER_WINONA,
+    [MUGSHOT_VITO] = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+    [MUGSHOT_GALANO] = TRAINER_PIC_LEADER_JUAN,
     [MUGSHOT_MISTY] = TRAINER_PIC_LEADER_MISTY,
     [MUGSHOT_ERIKA] = TRAINER_PIC_LEADER_ERIKA,
     [MUGSHOT_KOGA] = TRAINER_PIC_LEADER_KOGA,
@@ -705,7 +726,14 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_CONSUL] = {0x200, 0x200},
     [MUGSHOT_SURGE] = {0x200, 0x200},
     [MUGSHOT_BROCK] = {0x200, 0x200},
+    [MUGSHOT_PETRA] = {0x200, 0x200},
+    [MUGSHOT_MARCIAL] = {0x200, 0x200},
+    [MUGSHOT_ERICO] = {0x200, 0x200},
     [MUGSHOT_CANDELA] = {0x200, 0x200},
+    [MUGSHOT_NORMAN] = {0x200, 0x200},
+    [MUGSHOT_ALANA] = {0x200, 0x200},
+    [MUGSHOT_VITO] = {0x200, 0x200},
+    [MUGSHOT_GALANO] = {0x200, 0x200},
     [MUGSHOT_MISTY] = {0x200, 0x200},
     [MUGSHOT_ERIKA] = {0x200, 0x200},
     [MUGSHOT_KOGA] = {0x200, 0x200},
@@ -762,7 +790,14 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_CONSUL] = {0,  7},
     [MUGSHOT_SURGE] =   { -8,  5},
     [MUGSHOT_BROCK] =    { 0,  5},
+    [MUGSHOT_PETRA] =    { 0,  5},
+    [MUGSHOT_MARCIAL] =    { 0,  5},
+    [MUGSHOT_ERICO] =    { 0,  5},
     [MUGSHOT_CANDELA] =    { 0,  5},
+    [MUGSHOT_NORMAN] =    { 0,  5},
+    [MUGSHOT_ALANA] =    { 0,  5},
+    [MUGSHOT_VITO] =    { 0,  5},
+    [MUGSHOT_GALANO] =    { 0,  5},
     [MUGSHOT_MISTY] =    { 0,  5},
     [MUGSHOT_ERIKA] =    { 0,  5},
     [MUGSHOT_KOGA] =    { -27,  0},
@@ -1148,7 +1183,14 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_CONSUL] = sMugshotPal_Phoebe,
     [MUGSHOT_SURGE] = sMugshotPal_Champion,
     [MUGSHOT_BROCK] = sMugshotPal_Phoebe,
+    [MUGSHOT_PETRA] = sMugshotPal_Phoebe,
+    [MUGSHOT_MARCIAL] = sMugshotPal_Drake,
+    [MUGSHOT_ERICO] = sMugshotPal_Champion,
     [MUGSHOT_CANDELA] = sMugshotPal_Drake,
+    [MUGSHOT_NORMAN] = sMugshotPal_Drake,
+    [MUGSHOT_ALANA] = sMugshotPal_Sidney,
+    [MUGSHOT_VITO] = sMugshotPal_Glacia,
+    [MUGSHOT_GALANO] = sMugshotPal_Drake,
     [MUGSHOT_MISTY] = sMugshotPal_Drake,
     [MUGSHOT_ERIKA] = sMugshotPal_Phoebe,
     [MUGSHOT_KOGA] = sMugshotPal_Sidney,
@@ -2605,9 +2647,51 @@ static void Task_Brock(u8 taskId)
     DoMugshotTransition(taskId);
 }
 
+static void Task_Petra(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_PETRA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Marcial(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_MARCIAL;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Erico(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ERICO;
+    DoMugshotTransition(taskId);
+}
+
 static void Task_Candela(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_CANDELA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Norman(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_NORMAN;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Alana(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ALANA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Vito(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_VITO;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Galano(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_GALANO;
     DoMugshotTransition(taskId);
 }
 

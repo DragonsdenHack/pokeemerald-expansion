@@ -148,12 +148,12 @@ Route114_EventScript_Nolan::
 	end
 
 Route114_EventScript_Tyra::
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_641, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
 	msgbox Route114_Text_TyraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Ivy::
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_641, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
 	msgbox Route114_Text_IvyPostBattle, MSGBOX_AUTOCLOSE
 	end
 

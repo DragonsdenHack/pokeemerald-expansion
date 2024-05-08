@@ -7774,6 +7774,14 @@ u16 GetBattleBGM(void)
             return 622;
         case TRAINER_CLASS_ELM:
             return 578;
+        case TRAINER_CLASS_SWIMMER_M:
+        case TRAINER_CLASS_SWIMMER_F:
+        case TRAINER_CLASS_DRAGON_TAMER:
+        case TRAINER_CLASS_OLD_COUPLE:
+        case TRAINER_CLASS_SR_AND_JR:
+        case TRAINER_CLASS_YOUNG_COUPLE:
+        case TRAINER_CLASS_SIS_AND_BRO:
+        case TRAINER_CLASS_TWINS:
         case TRAINER_CLASS_YOUNGSTER:
         case TRAINER_CLASS_COLLECTOR:
         case TRAINER_CLASS_GUITARIST:

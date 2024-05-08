@@ -207,12 +207,12 @@ Route103_EventScript_Daisy::
 	end
 
 Route103_EventScript_Amy::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon,
+	trainerbattle_double TRAINER_TRAINER_636, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon,
 	msgbox Route103_Text_AmyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route103_EventScript_Liv::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon,
+	trainerbattle_double TRAINER_TRAINER_636, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon,
 	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -346,4 +346,60 @@ Route103_Text_ShortcutToOldale:
 Route103_Text_RouteSign:
 	.string	"RUTA 103\n"
 	.string	"{DOWN_ARROW} PUEBLO ESCASO$"
+
+Route103_Abedul::
+compare VAR_UNUSED_0x40F7, 230
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 11, Route103_Abedul_Move_2
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 11, Route103_Abedul_Move_3
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 11, Route103_Abedul_Move_3
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_4
+waitmovement 0x0
+release
+end
+
+Route103_Abedul_Move_4:
+delay_8
+walk_slow_up
+step_end
+
+Route103_Abedul_Move_3:
+walk_in_place_up
+step_end
+
+Route103_Abedul_Move_2:
+face_up
+emote_exclamation_mark
+step_end
+
+Route103_Abedul_Move_1:
+delay_8
+walk_in_place_down
+delay_16
+step_end
+
+Route103_Abedul_Texto_1:
+	.string "????: Disculpa, ¿quieres ir hacia\n"
+	.string "PUEBLO ESCASO?$"
+
+Route103_Abedul_Texto_2:
+	.string "Estamos haciendo unas investigaciones\n"
+	.string "allí, ¿te importaría pasarte en otro\l"
+	.string "momento?$"
+
+Route103_Abedul_Texto_3:
+	.string "CIUDAD PORTUAL seguro que es un\n"
+	.string "destino mucho más atractivo para\l"
+	.string "alguien como tú.$"
+
+
 

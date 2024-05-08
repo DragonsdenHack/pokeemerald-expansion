@@ -143,7 +143,11 @@ VerdanturfTown_Policia_Bloqueo_Texto_1:
 
 VerdanturfTown_Escena_Tristana::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_1
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_2
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_2 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_3 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_4 MSGBOX_AUTOCLOSE
@@ -180,8 +184,17 @@ msgbox VerdanturfTown_Escena_Tristana_Texto_34 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_35 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_36 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_37 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 225
 release
 end
+
+VerdanturfTown_Move_2:
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_1:
+walk_in_place_left
+step_end
 
 VerdanturfTown_Escena_Tristana_Texto_1:
 	.string "Vamos a mandarte de vuelta a PETALIA,\n"

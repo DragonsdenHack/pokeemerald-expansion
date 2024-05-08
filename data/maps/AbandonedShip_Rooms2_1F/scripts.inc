@@ -2,7 +2,7 @@ AbandonedShip_Rooms2_1F_MapScripts::
 	.byte 0
 
 AbandonedShip_Rooms2_1F_EventScript_Dan::
-	trainerbattle_double TRAINER_TRAINER_597, AbandonedShip_Rooms2_1F_Text_DanIntro, AbandonedShip_Rooms2_1F_Text_DanDefeat, AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons,
+	trainerbattle_double TRAINER_TRAINER_651, AbandonedShip_Rooms2_1F_Text_DanIntro, AbandonedShip_Rooms2_1F_Text_DanDefeat, AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons,
 	msgbox AbandonedShip_Rooms2_1F_Text_DanPostBattle, MSGBOX_AUTOCLOSE
 	release
 	end
@@ -19,7 +19,7 @@ AbandonedShip_Rooms2_1F_EventScript_DanRematch::
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_Kira::
-	trainerbattle_double TRAINER_TRAINER_597, AbandonedShip_Rooms2_1F_Text_KiraIntro, AbandonedShip_Rooms2_1F_Text_KiraDefeat, AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons,
+	trainerbattle_double TRAINER_TRAINER_651, AbandonedShip_Rooms2_1F_Text_KiraIntro, AbandonedShip_Rooms2_1F_Text_KiraDefeat, AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons,
 	msgbox AbandonedShip_Rooms2_1F_Text_KiraPostBattle, MSGBOX_DEFAULT
 	release
 	end

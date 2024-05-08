@@ -23,12 +23,12 @@ MtPyre_2F_EventScript_Mark::
 	end
 
 MtPyre_2F_EventScript_Luke::
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_650, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
 	msgbox MtPyre_2F_Text_LukePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_2F_EventScript_Dez::
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_650, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
 	msgbox MtPyre_2F_Text_DezPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -65,50 +65,49 @@ MtPyre_2F_Text_MarkPostBattle:
 	.string "que encontraría Pokémon raros…{PAUSE 5}$"
 
 MtPyre_2F_Text_LukeIntro:
-	.string "LUKE: We're here on a dare.\p"
-	.string "Heheh, if I show her how cool I am,\n"
-	.string "she'll fall for me. I know it!\p"
-	.string "I know! I'll cream you and show her\n"
-	.string "how cool I am!$"
+	.string	"LEO: Mi chica me ha lanzado un reto.\p"
+	.string	"Je, je, je… Tengo que demostrarle\n"
+	.string	"lo fuerte que soy derrotándote.\p"
+	.string	"¡Esto está hecho! La voy a dejar\n"
+	.string	"impresionada.$"
 
 MtPyre_2F_Text_LukeDefeat:
-	.string "LUKE: Whoopsie!$"
+	.string	"LEO: Ejem, ejem…$"
 
 MtPyre_2F_Text_LukePostBattle:
-	.string "LUKE: Well, we lost but that's okay!\n"
-	.string "I'm right here by your side.\l"
-	.string "We'll make it through this dare!$"
+	.string	"LEO: Vale, he perdido, pero da igual.\n"
+	.string	"Tengo muchas otras cualidades…\l"
+	.string	"¡Y pronto seré más fuerte que tú!$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more POKéMON.\p"
-	.string "If you don't, I won't be able to show\n"
-	.string "off to my girl how cool I am!$"
+	.string	"LEO: Si quieres enfrentarte a mí,\n"
+	.string	"trae más POKéMON.\p"
+	.string	"¡Si no lo haces, no podré fardar\n"
+	.string	"un poco delante de mi chica!$"
 
 MtPyre_2F_Text_DezIntro:
-	.string "DEZ: I came here on a dare with my\n"
-	.string "boyfriend.\p"
-	.string "It's really scary, but I'm with my\n"
-	.string "boyfriend. It's okay.\p"
-	.string "I know! I'll get my boyfriend to look\n"
-	.string "cool by beating you!$"
+	.string	"DULCE: Le he lanzado un desafío.\p"
+	.string	"Quizás no debería ponerle a prueba,\n"
+	.string	"pero me gusta verle en acción.\p"
+	.string	"Es que ni me preocupo, ¡mi chico\n"
+	.string	"se encarga de ti en un santiamén!$"
 
 MtPyre_2F_Text_DezDefeat:
-	.string "DEZ: Waaaah! I'm scared!$"
+	.string	"DULCE: Pues qué decepción…$"
 
 MtPyre_2F_Text_DezPostBattle:
-	.string "DEZ: We're lovey-dovey, so we don't\n"
-	.string "care if we lose!$"
+	.string	"DULCE: Qué más da ganar o perder…\n"
+	.string	"Lo importante es quererse mucho.$"
 
 MtPyre_2F_Text_DezNotEnoughMons:
-	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two POKéMON.\p"
-	.string "My boyfriend's strong.\n"
-	.string "Just one POKéMON won't do at all.$"
+	.string	"DULCE: Si quieres desafiarnos, tendrás\n"
+	.string	"que traer al menos dos POKéMON.\p"
+	.string	"Con lo fuerte que es mi chico,\n"
+	.string	"un POKéMON no basta.$"
 
 MtPyre_2F_Text_LeahIntro:
-	.string "Tienes una extraña mirada…\n"
-	.string "¡Vete antes de que suceda algo!$"
+	.string	"Es la primera vez que te veo…\n"
+	.string	"¡Vete antes de que lo lamentes!$"
 
 MtPyre_2F_Text_LeahDefeat:
 	.string "Hmm…\n"

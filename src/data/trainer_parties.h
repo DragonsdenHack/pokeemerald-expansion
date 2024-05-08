@@ -37654,18 +37654,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER635[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER636[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 95,
+    .species = SPECIES_PLUSLE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 95,
+    .species = SPECIES_MINUN,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 97,
+    .species = SPECIES_RAICHU,
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_RAICHU,
     }
     
 };
@@ -37673,18 +37678,33 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER636[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER637[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 91,
+    .species = SPECIES_BEAUTIFLY,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 91,
+    .species = SPECIES_DUSTOX,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 93,
+    .species = SPECIES_DELCATTY,
+    },
+    {
+    .iv = 0,
+    .lvl = 93,
+    .species = SPECIES_DELCATTY,
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_LUDICOLO,
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_SHIFTRY,
     }
     
 };
@@ -37692,18 +37712,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER637[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER638[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 94,
+    .species = SPECIES_TENTACRUEL,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_SEAKING,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_PELIPPER,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_WAILORD,
     }
     
 };
@@ -37711,18 +37736,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER638[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER639[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_DUSTOX,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_BEAUTIFLY,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_LINOONE,
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_MANECTRIC,
     }
     
 };
@@ -37730,18 +37760,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER639[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER640[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 100,
+    .species = SPECIES_EXPLOUD,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_EXPLOUD,
     }
     
 };
@@ -37749,18 +37774,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER640[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER641[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 94,
+    .species = SPECIES_GRAVELER,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 94,
+    .species = SPECIES_ROSELIA,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_GOLEM,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_ROSERADE,
     }
     
 };
@@ -37768,52 +37798,47 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER641[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER642[] = {
     {
     .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 93,
+    .species = SPECIES_LINOONE,
     },
     {
     .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 95,
+    .species = SPECIES_HARIYAMA,
     },
     {
     .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 95,
+    .species = SPECIES_DELCATTY,
     },
     {
     .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 97,
+    .species = SPECIES_MACHAMP,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER643[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 94,
+    .species = SPECIES_SPINDA,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_VIGOROTH,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_ZANGOOSE,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_SLAKING,
     }
     
 };
@@ -37821,75 +37846,95 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER643[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER644[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_DUSTOX,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_BEAUTIFLY,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_MASQUERAIN,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER645[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 94,
+    .species = SPECIES_LUVDISC,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_AZUMARILL,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_SHARPEDO,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_LANTURN,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER646[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 94,
+    .species = SPECIES_NOSEPASS,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_TORKOAL,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_ALTARIA,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_CAMERUPT,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER647[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 94,
+    .species = SPECIES_PELIPPER,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_AZUMARILL,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 96,
+    .species = SPECIES_HUNTAIL,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_GOREBYSS,
     }
     
 };
@@ -37897,18 +37942,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER647[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER648[] = {
     {
     .iv = 0,
-    .lvl = 87,
+    .lvl = 97,
     .species = SPECIES_HARIYAMA,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 97,
+    .species = SPECIES_MEDICHAM,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_FLYGON,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_SALAMENCE,
     }
     
 };
@@ -37916,56 +37966,66 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER648[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER649[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 95,
+    .species = SPECIES_ALTARIA,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 95,
+    .species = SPECIES_ALTARIA,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_SALAMENCE,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER650[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 96,
+    .species = SPECIES_DELCATTY,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_MANECTRIC,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_BANETTE,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_DUSCLOPS,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER651[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 96,
+    .species = SPECIES_ILLUMISE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_VOLBEAT,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_GOREBYSS,
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_HUNTAIL,
     }
     
 };

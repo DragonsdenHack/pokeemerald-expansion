@@ -36,12 +36,12 @@ Route131_EventScript_Kara::
 	end
 
 Route131_EventScript_Reli::
-	trainerbattle_double TRAINER_RELI_AND_IAN, Route131_Text_ReliIntro, Route131_Text_ReliDefeat, Route131_Text_ReliNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_647, Route131_Text_ReliIntro, Route131_Text_ReliDefeat, Route131_Text_ReliNotEnoughMons
 	msgbox Route131_Text_ReliPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route131_EventScript_Ian::
-	trainerbattle_double TRAINER_RELI_AND_IAN, Route131_Text_IanIntro, Route131_Text_IanDefeat, Route131_Text_IanNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_647, Route131_Text_IanIntro, Route131_Text_IanDefeat, Route131_Text_IanNotEnoughMons
 	msgbox Route131_Text_IanPostBattle, MSGBOX_AUTOCLOSE
 	end
 

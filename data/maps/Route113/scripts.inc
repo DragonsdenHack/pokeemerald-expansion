@@ -100,12 +100,12 @@ Route113_EventScript_Lung::
 	end
 
 Route113_EventScript_Tori::
-	trainerbattle_double TRAINER_TORI_AND_TIA, Route113_Text_ToriIntro, Route113_Text_ToriDefeat, Route113_Text_ToriNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_640, Route113_Text_ToriIntro, Route113_Text_ToriDefeat, Route113_Text_ToriNotEnoughMons
 	msgbox Route113_Text_ToriPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Tia::
-	trainerbattle_double TRAINER_TORI_AND_TIA, Route113_Text_TiaIntro, Route113_Text_TiaDefeat, Route113_Text_TiaNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_640, Route113_Text_TiaIntro, Route113_Text_TiaDefeat, Route113_Text_TiaNotEnoughMons
 	msgbox Route113_Text_TiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

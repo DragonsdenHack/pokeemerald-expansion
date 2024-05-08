@@ -50,10 +50,14 @@ Route124_EventScript_Chad::
 	end
 
 Route124_EventScript_Lila::
-	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_LilaIntro, Route124_Text_LilaDefeat, Route124_Text_LilaNotEnoughMons, Route124_EventScript_RegisterLila
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route124_EventScript_RematchLila
+	trainerbattle_double TRAINER_TRAINER_645, Route124_Text_LilaIntro, Route124_Text_LilaDefeat, Route124_Text_LilaNotEnoughMons,
 	msgbox Route124_Text_LilaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route124_EventScript_Roy::
+	trainerbattle_double TRAINER_TRAINER_645, Route124_Text_RoyIntro, Route124_Text_RoyDefeat, Route124_Text_RoyNotEnoughMons,
+	msgbox Route124_Text_RoyPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
@@ -64,16 +68,8 @@ Route124_EventScript_RegisterLila::
 	end
 
 Route124_EventScript_RematchLila::
-	trainerbattle_rematch_double TRAINER_LILA_AND_ROY_1, Route124_Text_LilaRematchIntro, Route124_Text_LilaRematchDefeat, Route124_Text_LilaRematchNotEnoughMons
+	trainerbattle_rematch_double TRAINER_TRAINER_645, Route124_Text_LilaRematchIntro, Route124_Text_LilaRematchDefeat, Route124_Text_LilaRematchNotEnoughMons
 	msgbox Route124_Text_LilaPostRematch, MSGBOX_AUTOCLOSE
-	end
-
-Route124_EventScript_Roy::
-	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_RoyIntro, Route124_Text_RoyDefeat, Route124_Text_RoyNotEnoughMons, Route124_EventScript_RegisterRoy
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route124_EventScript_RematchRoy
-	msgbox Route124_Text_RoyPostBattle, MSGBOX_DEFAULT
-	release
 	end
 
 Route124_EventScript_RegisterRoy::

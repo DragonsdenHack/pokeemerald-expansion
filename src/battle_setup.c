@@ -949,8 +949,29 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_6)
         return B_TRANSITION_ANDRA4;
 
+    if (gTrainerBattleOpponent_A == TRAINER_PETRA)
+        return B_TRANSITION_PETRA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_MARCIAL)
+        return B_TRANSITION_MARCIAL;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ERICO)
+        return B_TRANSITION_ERICO;
+
     if (gTrainerBattleOpponent_A == TRAINER_CANDELA)
         return B_TRANSITION_CANDELA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_NORMAN)
+        return B_TRANSITION_NORMAN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ALANA)
+        return B_TRANSITION_ALANA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_VITOLETI)
+        return B_TRANSITION_VITO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_GALANO)
+        return B_TRANSITION_GALANO;
 
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_7)
         return B_TRANSITION_ANDRA5;
