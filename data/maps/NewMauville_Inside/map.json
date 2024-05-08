@@ -325,11 +325,11 @@
     },
     {
       "type": "trigger",
-      "x": 35,
-      "y": 4,
+      "x": 37,
+      "y": 5,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "225",
       "script": "NewMauville_Inside_Encuentro_Rasmus"
     }
   ],

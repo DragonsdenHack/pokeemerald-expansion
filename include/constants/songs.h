@@ -34,7 +34,7 @@
 #define SE_E                        28 // SE_E
 #define SE_O                        29 // SE_O
 #define SE_N                        30 // SE_N
-#define SE_SUCCESS                  31 // SE_SEIKAI
+#define SE_SUCCESS                  31 // SE_SEIKAI // Acertar algo importante, respuesta correcta, algo tecnológico desactivado
 #define SE_FAILURE                  32 // SE_HAZURE
 #define SE_EXP                      33 // SE_EXP
 #define SE_BIKE_HOP                 34 // SE_JITE_PYOKO
@@ -63,8 +63,8 @@
 #define SE_BALL_BOUNCE_2            57 // SE_KON2
 #define SE_BALL_BOUNCE_3            58 // SE_KON3
 #define SE_BALL_BOUNCE_4            59 // SE_KON4
-#define SE_BALL_TRADE               60 // SE_SUIKOMU
-#define SE_BALL_THROW               61 // SE_NAGERU
+#define SE_BALL_TRADE               60 // SE_SUIKOMU // Sonido al recoger un pokémon
+#define SE_BALL_THROW               61 // SE_NAGERU // Sonido al lanzar poké ball
 #define SE_NOTE_C                   62 // SE_TOY_C
 #define SE_NOTE_D                   63 // SE_TOY_D
 #define SE_NOTE_E                   64 // SE_TOY_E

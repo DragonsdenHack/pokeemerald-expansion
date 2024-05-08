@@ -149,13 +149,28 @@ msgbox VerdanturfTown_Escena_Tristana_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 6, VerdanturfTown_Move_2
 waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_3
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox VerdanturfTown_Escena_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_4
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_5
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_6
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_3
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_7
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_9 MSGBOX_AUTOCLOSE
+opendoor 12, 6
 msgbox VerdanturfTown_Escena_Tristana_Texto_10 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_11 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_12 MSGBOX_AUTOCLOSE
@@ -187,6 +202,35 @@ msgbox VerdanturfTown_Escena_Tristana_Texto_37 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 225
 release
 end
+
+VerdanturfTown_Move_7:
+delay_8
+delay_8
+face_up
+delay_8
+delay_8
+face_left
+step_end
+
+VerdanturfTown_Move_6:
+walk_in_place_down
+step_end
+
+VerdanturfTown_Move_5:
+emote_exclamation_mark
+step_end
+
+VerdanturfTown_Move_4:
+face_down
+step_end
+
+VerdanturfTown_Move_3:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+step_end
 
 VerdanturfTown_Move_2:
 walk_in_place_up

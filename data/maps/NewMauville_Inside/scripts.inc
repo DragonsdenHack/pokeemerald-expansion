@@ -284,27 +284,210 @@ NewMauville_Inside_NPC12_Cientifico_Texto_1:
 	.string "La verdad es que, salvo su generador,\n"
 	.string "hay muy poco rescatable de este lugar.$"
 
+NewMauville_Inside_Move_1:
+walk_in_place_up
+step_end
+
+NewMauville_Inside_Move_2:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+face_up
+delay_8
+step_end
+
+NewMauville_Inside_Move_3:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+walk_slow_up
+delay_8
+step_end
+
+NewMauville_Inside_Move_4:
+delay_8
+delay_8
+face_left
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+NewMauville_Inside_Move_5:
+delay_8
+face_down
+delay_8
+delay_8
+step_end
+
+NewMauville_Inside_Move_6:
+delay_8
+walk_slow_down
+step_end
+
+NewMauville_Inside_Move_7:
+walk_left
+walk_up
+step_end
+
+NewMauville_Inside_Move_8:
+delay_8
+face_left
+step_end
+
+NewMauville_Inside_Move_9:
+delay_8
+walk_in_place_down
+delay_8
+face_left
+step_end
+
+NewMauville_Inside_Move_10:
+face_down
+step_end
+
+NewMauville_Inside_Move_11:
+walk_slow_up
+step_end
+
+NewMauville_Inside_Move_12:
+walk_in_place_down
+step_end
+
+NewMauville_Inside_Move_13:
+walk_in_place_up
+step_end
+
+NewMauville_Inside_Move_14:
+walk_down
+step_end
+
+NewMauville_Inside_Move_15:
+delay_8
+delay_8
+walk_slow_right
+delay_8
+walk_in_place_right
+step_end
+
+NewMauville_Inside_Move_16:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+NewMauville_Inside_Move_16.1:
+delay_16
+face_right
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+delay_16
+face_left
+step_end
+
 
 NewMauville_Inside_Encuentro_Rasmus::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, NewMauville_Inside_Move_1
+waitmovement 0x0
+delay 15
+playmoncry SPECIES_XURKITREE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FALL
+delay 15
+playse SE_PC_OFF
+waitse
+delay 15
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_2
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_3
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_4
+waitmovement 0x0
+playmoncry SPECIES_XURKITREE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_BALL_TRADE
+delay 15
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_5
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 16, NewMauville_Inside_Move_6
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NewMauville_Inside_Move_7
+waitmovement 0x0
+applymovement 16, NewMauville_Inside_Move_8
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_9
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_10
+waitmovement 0x0
+delay 10
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 16, NewMauville_Inside_Move_11
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_12
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NewMauville_Inside_Move_13
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
-msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_14
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_TRAINER_591, NewMauville_Inside_Encuentro_Rasmus_Texto_15
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_15
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_14
+waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 16, NewMauville_Inside_Move_16
+waitmovement 0x0
+setflag FLAG_HOENN_3
+fadescreen 1
+removeobject 16
+removeobject 13
+removeobject 14
+removeobject 11
+removeobject 9
+removeobject 12
+removeobject 15
+removeobject 10
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 226
 release
 end
 

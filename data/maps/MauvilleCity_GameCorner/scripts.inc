@@ -778,6 +778,8 @@ MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 MauvilleCity_GameCorner_Tristana::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 226
+goto_if_gt MauvilleCity_GameCorner_Tristana_Despues
 msgbox MauvilleCity_GameCorner_Tristana_Texto_1 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_3 MSGBOX_AUTOCLOSE
@@ -786,8 +788,19 @@ msgbox MauvilleCity_GameCorner_Tristana_Texto_5 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_6 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_7 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_8 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 227
 release
 end
+
+MauvilleCity_GameCorner_Tristana_Despues::
+msgbox MauvilleCity_GameCorner_Tristana_Texto_8.1 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Move_1
+release
+end
+
+MauvilleCity_GameCorner_Move_1:
+face_left
+step_end
 
 MauvilleCity_GameCorner_Tristana_Texto_1:
 	.string "TRISTANA: ¡{PLAYER}! Por lo que sé,\n"
@@ -831,3 +844,52 @@ MauvilleCity_GameCorner_Tristana_Texto_8:
 	.string "Entonces, si alguna vez voy a KANTO,\n"
 	.string "¡miraré detrás de todos los carteles del\l"
 	.string "CASINO AZULONA!$"
+
+MauvilleCity_GameCorner_Tristana_Texto_8.1:
+	.string "Si alguna vez voy a KANTO, ¡miraré\n"
+	.string "detrás de todos los carteles del\l"
+	.string "CASINO AZULONA!$"
+
+MauvilleCity_GameCorner_Cartel::
+lock
+compare VAR_UNUSED_0x40F7, 226
+goto_if_gt MauvilleCity_GameCorner_Cartel_Despues
+release
+end
+
+MauvilleCity_GameCorner_Cartel_Despues::
+delay 15
+msgbox MauvilleCity_GameCorner_Cartel_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_GameCorner_Cartel_Move_1
+waitmovement 0x0
+msgbox MauvilleCity_GameCorner_Cartel_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox MauvilleCity_GameCorner_Cartel_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+setmetatile 22, 9, 0x25F, TRUE
+setmetatile 21, 9, 0x25E, TRUE
+setmetatile 20, 9, 0x25D, FALSE
+setmetatile 20, 10, 0x265, FALSE
+setmetatile 21, 10, 0x266, TRUE
+setmetatile 22, 10, 0x267, TRUE
+special DrawWholeMapView
+delay 60
+release
+end
+
+MauvilleCity_GameCorner_Cartel_Move_1:
+emote_exclamation_mark
+step_end
+
+MauvilleCity_GameCorner_Cartel_Texto_1:
+	.string "… …$"
+
+MauvilleCity_GameCorner_Cartel_Texto_2:
+	.string "En este cartel hay un botón.$"
+
+MauvilleCity_GameCorner_Cartel_Texto_3:
+	.string "¿Pulsarlo?$"
+

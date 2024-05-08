@@ -56,3 +56,37 @@ NewMauville_Entrance_Text_UsedBasementKey:
 	.string "{PLAYER} used the BASEMENT KEY.\p"
 	.string "The door opened!$"
 
+NewMauville_Entrance_Llave::
+lock
+compare VAR_UNUSED_0x40F7, 224
+goto_if_gt NewMauville_Entrance_Llave_Abierto
+msgbox NewMauville_Entrance_Llave_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NewMauville_Entrance_Llave_Abierto::
+msgbox NewMauville_Entrance_Llave_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 30
+playse SE_CLICK
+delay 20
+playse SE_ICE_CRACK
+delay 20
+playse SE_SUCCESS
+delay 20
+playse SE_SLIDING_DOOR
+setmetatile 20, 10, 0x265, TRUE
+setmetatile 21, 10, 0x266, TRUE
+setmetatile 22, 10, 0x267, TRUE
+special DrawWholeMapView
+release
+end
+
+NewMauville_Entrance_Llave_Texto_1:
+	.string "Se necesita una llave para poder\n"
+	.string "entrar.$"
+
+NewMauville_Entrance_Llave_Texto_2:
+	.string "¿Quieres usar la LLAVE SÓTANO?$"
+
