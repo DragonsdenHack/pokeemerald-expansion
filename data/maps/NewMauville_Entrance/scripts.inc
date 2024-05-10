@@ -75,13 +75,22 @@ playse SE_ICE_CRACK
 delay 20
 playse SE_SUCCESS
 delay 20
-playse SE_SLIDING_DOOR
-setmetatile 20, 10, 0x265, TRUE
-setmetatile 21, 10, 0x266, TRUE
-setmetatile 22, 10, 0x267, TRUE
-special DrawWholeMapView
+opendoor 3, 1
+waitdooranim
+opendoor 4, 1
+waitdooranim
+opendoor 5, 1
+waitdooranim
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, NewMauville_Move_1
+waitmovement 0x0
+warp MAP_NEW_MAUVILLE_INSIDE, 31, 33
 release
 end
+
+NewMauville_Move_1:
+walk_slow_up
+step_end
 
 NewMauville_Entrance_Llave_Texto_1:
 	.string "Se necesita una llave para poder\n"

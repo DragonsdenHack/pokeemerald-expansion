@@ -36534,7 +36534,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {100, 100, 100, 252, 252, 100},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_VOLT_SWITCH, MOVE_EARTH_POWER, MOVE_CLOSE_COMBAT, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_VOLT_SWITCH, MOVE_EARTH_POWER, MOVE_THUNDERBOLT, MOVE_FLASH_CANNON}
     },
     {
     .iv = 255,
@@ -36557,11 +36557,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     {
     .iv = 255,
     .lvl = 111,
-    .species = SPECIES_ARMALDO,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {100, 252, 100, 252, 100, 100},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_FIRST_IMPRESSION, MOVE_HEAT_WAVE, MOVE_DARK_PULSE, MOVE_FOUL_PLAY}
+    .species = SPECIES_XURKITREE,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .evs = {100, 100, 100, 252, 252, 100},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_THUNDERBOLT, MOVE_THUNDERBOLT, MOVE_THUNDERBOLT, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,

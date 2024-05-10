@@ -143,8 +143,11 @@ VerdanturfTown_Policia_Bloqueo_Texto_1:
 
 VerdanturfTown_Escena_Tristana::
 lock
+special SpawnCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, VerdanturfTown_Move_8
 waitmovement 0x0
+special RemoveCameraObject
 msgbox VerdanturfTown_Escena_Tristana_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 6, VerdanturfTown_Move_2
 waitmovement 0x0
@@ -164,44 +167,297 @@ msgbox VerdanturfTown_Escena_Tristana_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 7, VerdanturfTown_Move_6
 waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+playse SE_SLIDING_DOOR
+opendoor 12, 6
+waitdooranim
+addobject 8
+applymovement 8, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 12, 6
+waitdooranim
 applymovement 6, VerdanturfTown_Move_3
 waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 6, VerdanturfTown_Move_7
 waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_9 MSGBOX_AUTOCLOSE
-opendoor 12, 6
+delay 10
 msgbox VerdanturfTown_Escena_Tristana_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_11
+applymovement 7, VerdanturfTown_Move_11
+waitmovement 0x0
+applymovement 7, VerdanturfTown_Move_12
+applymovement 8, VerdanturfTown_Move_10
+waitmovement 0x0
+applymovement 6, VerdanturfTown_Move_13
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VerdanturfTown_Escena_Tristana_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 7, VerdanturfTown_Move_14
+waitmovement 0x0
+delay 10
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_16
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_17
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VerdanturfTown_Escena_Tristana_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_6
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VerdanturfTown_Escena_Tristana_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_18
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_18
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_19
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VerdanturfTown_Escena_Tristana_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VerdanturfTown_Escena_Tristana_Texto_26 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_21
+applymovement 7, VerdanturfTown_Move_20
+waitmovement 0x0
+playse SE_DOOR
+opendoor 11, 13
+waitdooranim
+applymovement 7, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 7
+closedoor 11, 13
+waitdooranim
 msgbox VerdanturfTown_Escena_Tristana_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_23
+waitmovement 0x0
+playse SE_DOOR
+opendoor 11, 13
+waitdooranim
+applymovement 6, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 6
+closedoor 11, 13
+waitdooranim
+applymovement 8, VerdanturfTown_Move_24
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_25
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_29 MSGBOX_AUTOCLOSE
 msgbox VerdanturfTown_Escena_Tristana_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_17
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_26
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_27
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_33 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Escena_Tristana_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_28
+waitmovement 0x0
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox VerdanturfTown_Escena_Tristana_Texto_34 MSGBOX_DEFAULT
+waitse
 msgbox VerdanturfTown_Escena_Tristana_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_25
+waitmovement 0x0
+delay 10
 msgbox VerdanturfTown_Escena_Tristana_Texto_36 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_29
+waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_37 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 8
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HOENN_1
+setflag FLAG_HOENN_5
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VerdanturfTown_Move_8.1
+waitmovement 0x0
+special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 225
 release
 end
+
+VerdanturfTown_Move_29:
+walk_slow_left
+step_end
+
+VerdanturfTown_Move_28:
+walk_in_place_right
+step_end
+
+VerdanturfTown_Move_27:
+walk_right
+step_end
+
+VerdanturfTown_Move_26:
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+VerdanturfTown_Move_25:
+walk_in_place_left
+step_end
+
+VerdanturfTown_Move_24:
+delay_16
+walk_up
+walk_right
+delay_8
+step_end
+
+VerdanturfTown_Move_23:
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_22:
+walk_up
+step_end
+
+VerdanturfTown_Move_21:
+emote_exclamation_mark
+delay_16
+face_right
+delay_16
+face_down
+delay_16
+face_left
+step_end
+
+VerdanturfTown_Move_20:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_19:
+delay_8
+face_left
+delay_8
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+
+VerdanturfTown_Move_18:
+delay_8
+delay_8
+face_down
+delay_8
+delay_8
+face_right
+step_end
+
+
+VerdanturfTown_Move_17:
+face_up
+step_end
+
+VerdanturfTown_Move_16:
+walk_in_place_down
+step_end
+
+VerdanturfTown_Move_15:
+face_right
+step_end
+
+VerdanturfTown_Move_14:
+emote_exclamation_mark
+step_end
+
+VerdanturfTown_Move_13:
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_12:
+delay_16
+walk_right
+walk_in_place_left
+step_end
+
+VerdanturfTown_Move_11:
+emote_exclamation_mark
+delay_8
+delay_8
+face_up
+step_end
+
+VerdanturfTown_Move_10:
+walk_down
+walk_right
+walk_down
+walk_right
+walk_down
+delay_8
+step_end
+
+VerdanturfTown_Move_9:
+walk_down
+step_end
+
+VerdanturfTown_Move_8.1:
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+step_end
+
+VerdanturfTown_Move_8:
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+step_end
 
 VerdanturfTown_Move_7:
 delay_8

@@ -389,9 +389,7 @@ MauvilleCity_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de CIUDAD MALVALONA$"
 
 MauvilleCity_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de CIUDAD MALVALONA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD MALVALONA$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:
 	.string "WATTSON: Ah-ha! Here at last!\n"
@@ -428,7 +426,7 @@ lock
 faceplayer
 goto_if_set FLAG_UNUSED_8, MauvilleCity_Gym_Combate_Erico_Despues
 msgbox MauvilleCity_Gym_Text_WattsonIntro
-trainerbattle_no_intro TRAINER_ANDRA_1, MauvilleCity_Gym_Text_WattsonRematchDefeat
+trainerbattle_no_intro TRAINER_ERICO, MauvilleCity_Gym_Text_WattsonRematchDefeat
 msgbox MauvilleCity_Gym_Text_WattsonDefeat MSGBOX_AUTOCLOSE
 setflag FLAG_UNUSED_8
 delay 10

@@ -227,9 +227,7 @@ RustboroCity_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de CIUDAD FÉRRICA$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de CIUDAD FÉRRICA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD FÉRRICA$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"

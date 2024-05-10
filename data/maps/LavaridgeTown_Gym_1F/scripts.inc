@@ -344,9 +344,7 @@ LavaridgeTown_Gym_1F_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de PUEBLO LAVACALDA$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de PUEBLO LAVACALDA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de PUEBLO LAVACALDA$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 	.string "FLANNERY: Losing a battle isn't going\n"

@@ -1,5 +1,35 @@
 BaseRocketHoennS4_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoennS4_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
 	.byte 0
+
+BaseRocketHoennS4_OnFrame:
+map_script_2 VAR_UNUSED_0x40FA, 21, BaseRocketHoennS4_Disguise_Player_3
+	.2byte 0
+
+BaseRocketHoennS4_Disguise_Player_OnResume:
+map_script_2 VAR_UNUSED_0x40FA, 20, BaseRocketHoennS4_Disguise_Player_2
+	.2byte 0
+
+BaseRocketHoennS4_Disguise_Player_2::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.5
+setvar VAR_UNUSED_0x40FA, 21
+end
+
+BaseRocketHoennS4_Disguise_Player_3::
+delay 40
+playfanfare MUS_OBTAIN_SYMBOL
+msgbox BaseRocketHoennS4_Mision_Johto_Text_29.1 MSGBOX_DEFAULT
+waitfanfare
+setvar VAR_UNUSED_0x40FA, 0
+release
+end
+
+BaseRocketHoennS4_Mision_Johto_Text_29.1:
+.string "¡¡{PLAYER} fue ascendido a ADMIN\n"
+	.string "JEFE DE JOHTO Y HOENN!!$"
+
 
 BaseRocketHoennS4_Carta_Andra::
 lock
@@ -250,4 +280,38 @@ end
 Base_Hoenn_Esfera_Roja_Texto_1:
 	.string "¡{PLAYER} obtuvo un\n"
 	.string "ORBE ROJA!$"
+
+Base_Hoenn_Ascenso::
+lock
+msgbox Base_Hoenn_Ascenso_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Ascenso_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Ascenso_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_30
+removeobject 5
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 100
+changeavatar 5
+setvar VAR_UNUSED_0x40FA, 20
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 8, 7
+release
+end
+
+Base_Hoenn_Ascenso_Texto_1:
+	.string "Es un uniforme especial, viene con una\n"
+	.string "carta de GIOVANNI.$"
+
+Base_Hoenn_Ascenso_Texto_2:
+	.string "{PLAYER}, ahora no solo comandas\n"
+	.string "JOHTO. También HOENN.$"
+
+Base_Hoenn_Ascenso_Texto_3:
+	.string "Por ello decidí mandar un nuevo\n"
+	.string "uniforme para celebrarlo. Espero que\l"
+	.string "sirva de motivación para lo que viene.$"
+
 

@@ -423,9 +423,7 @@ DewfordTown_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de PUEBLO AZULIZA$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de PUEBLO AZULIZA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de PUEBLO AZULIZA$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
 	.string "BRAWLY: A wave may draw back, but it\n"

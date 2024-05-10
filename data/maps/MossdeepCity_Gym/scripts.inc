@@ -609,9 +609,7 @@ MossdeepCity_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de CIUDAD ALGARIA$"
 
 MossdeepCity_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de CIUDAD ALGARIA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD ALGARIA$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
 	.string "TATE: POKéMON…\n"

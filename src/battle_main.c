@@ -5073,6 +5073,7 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_DEVON_CIENTIFICO:
         case TRAINER_CLASS_MIGUEL_1:
         case TRAINER_CLASS_MIGUEL_2:
+        case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_ADMINDEVON:
         case TRAINER_CLASS_POLICIA_DEVON:
             PlayBGM(637);
@@ -5112,6 +5113,7 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_GIOVANNI:
         case TRAINER_CLASS_OAK:
         case TRAINER_CLASS_ATLAS:
+        case TRAINER_CLASS_PROPIETARIA:
             PlayBGM(MUS_RG_VICTORY_GYM_LEADER);
             break;
         default:

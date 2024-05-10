@@ -633,6 +633,8 @@
 #define TRAINER_CLASS_ELECTRICISTA_HOENN 0xC4
 #define TRAINER_CLASS_KARATEKA_HOENN     0xC5
 #define TRAINER_CLASS_LEADER_HOENN       0xC6
+#define TRAINER_CLASS_DOCTOR             0xC7
+#define TRAINER_CLASS_PROPIETARIA        0xC8
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music - sr aroma, dama parasol

@@ -1677,7 +1677,7 @@
 #define FLAG_HOENN_27 (TRAINER_FLAGS_END + 27) // NORMAN RUTA 119
 #define FLAG_HOENN_28 (TRAINER_FLAGS_END + 28) // DEVON INSTITUTO METEOROLOGICO
 #define FLAG_HOENN_29 (TRAINER_FLAGS_END + 29) // ABEDUL BLOQUEO RUTA 103
-#define FLAG_HOENN_30 (TRAINER_FLAGS_END + 30)
+#define FLAG_HOENN_30 (TRAINER_FLAGS_END + 30) // ROPA ASCENSO ADMIN JEFE JEFE
 #define FLAG_HOENN_31 (TRAINER_FLAGS_END + 31)
 #define FLAG_HOENN_32 (TRAINER_FLAGS_END + 32)
 #define FLAG_HOENN_33 (TRAINER_FLAGS_END + 33)
@@ -2338,7 +2338,7 @@
 #define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691) // Karateka túnel Ferdegal // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692) // Entrenador Guay Estratega Ruta 111 // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693) // Mujer Estratega Ruta 111 // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // Chica Estratega // En modo Setflag por defecto desde fin DLC

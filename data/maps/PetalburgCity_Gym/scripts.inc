@@ -1555,9 +1555,7 @@ PetalburgCity_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de CIUDAD PETALIA$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de CIUDAD PETALIA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD PETALIA$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "DAD: {PLAYER}…\n"

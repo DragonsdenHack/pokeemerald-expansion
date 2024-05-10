@@ -7641,6 +7641,7 @@ u16 GetBattleBGM(void)
             return 636;
         case TRAINER_CLASS_MIGUEL_2:
             return 629;
+        case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_MIGUEL_1:
             return 631;
         case TRAINER_CLASS_MIRTO:
@@ -7671,6 +7672,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_ELITE_FOUR:
         case TRAINER_CLASS_CAPITAN:
             return MUS_VS_ELITE_FOUR;
+        case TRAINER_CLASS_PROPIETARIA:
         case TRAINER_CLASS_ATLAS:
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:

@@ -278,9 +278,7 @@ SootopolisCity_Gym_1F_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de ARRECÍPOLIS$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de ARRECÍPOLIS\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de ARRECÍPOLIS$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
 	.string "JUAN: Ah, this GYM had returned to its\n"

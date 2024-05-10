@@ -176,7 +176,7 @@ NewMauville_Inside_EventScript_GeneratorOff::
 NewMauville_Inside_EventScript_Voltorb1::
 	lock
 	faceplayer
-	setwildbattle SPECIES_VOLTORB, 25, ITEM_NONE
+	setwildbattle SPECIES_VOLTORB, 100, ITEM_NONE
 	waitse
 	playmoncry SPECIES_VOLTORB, CRY_MODE_ENCOUNTER
 	delay 40
@@ -200,7 +200,7 @@ NewMauville_Inside_EventScript_DefeatedVoltorb1::
 NewMauville_Inside_EventScript_Voltorb2::
 	lock
 	faceplayer
-	setwildbattle SPECIES_VOLTORB, 25, ITEM_NONE
+	setwildbattle SPECIES_VOLTORB, 100, ITEM_NONE
 	waitse
 	playmoncry SPECIES_VOLTORB, CRY_MODE_ENCOUNTER
 	delay 40
@@ -224,7 +224,7 @@ NewMauville_Inside_EventScript_DefeatedVoltorb2::
 NewMauville_Inside_EventScript_Voltorb3::
 	lock
 	faceplayer
-	setwildbattle SPECIES_VOLTORB, 25, ITEM_NONE
+	setwildbattle SPECIES_VOLTORB, 100, ITEM_NONE
 	waitse
 	playmoncry SPECIES_VOLTORB, CRY_MODE_ENCOUNTER
 	delay 40
@@ -294,6 +294,7 @@ delay_8
 face_left
 delay_8
 delay_8
+delay_8
 face_up
 delay_8
 step_end
@@ -304,6 +305,7 @@ delay_8
 face_left
 delay_8
 delay_8
+delay_8
 walk_slow_up
 delay_8
 step_end
@@ -312,6 +314,7 @@ NewMauville_Inside_Move_4:
 delay_8
 delay_8
 face_left
+delay_8
 delay_8
 walk_in_place_left
 delay_8
@@ -412,11 +415,12 @@ waitmovement 0x0
 delay 15
 playmoncry SPECIES_XURKITREE, CRY_MODE_ENCOUNTER
 waitmoncry
-playse SE_FALL
-delay 15
+playse SE_FAINT
+waitse
+delay 25
 playse SE_PC_OFF
 waitse
-delay 15
+delay 25
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 16, NewMauville_Inside_Move_2
 waitmovement 0x0
@@ -474,6 +478,7 @@ msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 16, NewMauville_Inside_Move_14
 waitmovement 0x0
 msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NewMauville_Inside_Move_16.1
 applymovement 16, NewMauville_Inside_Move_16
 waitmovement 0x0
 setflag FLAG_HOENN_3
@@ -486,6 +491,7 @@ removeobject 9
 removeobject 12
 removeobject 15
 removeobject 10
+delay 20
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 226
 release
@@ -564,7 +570,7 @@ NewMauville_Inside_Encuentro_Rasmus_Texto_16:
 
 NewMauville_Inside_Encuentro_Rasmus_Texto_17:
 	.string "Sin todos los elementos necesarios en\n"
-	.string "la ecuación, tú nivel eventualmente\l"
+	.string "la ecuación, tu nivel eventualmente\l"
 	.string "quedará relegado. Solo tienes que echar\l"
 	.string "un vistazo al progreso de los últimos 3\l"
 	.string "años, ahora todos se ríen de ese LANCE\l"

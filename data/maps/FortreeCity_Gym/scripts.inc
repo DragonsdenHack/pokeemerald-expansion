@@ -279,9 +279,7 @@ FortreeCity_Gym_Text_GymStatue:
 	.string	"GIMNASIO POKéMON de CIUDAD ARBORADA$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string	"GIMNASIO POKéMON de CIUDAD ARBORADA\p"
-	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
-	.string	"{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD ARBORADA$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
 	.string "WINONA: We humans can never escape\n"
