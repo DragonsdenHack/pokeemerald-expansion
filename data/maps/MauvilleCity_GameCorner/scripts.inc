@@ -12,6 +12,18 @@ MauvilleCity_GameCorner_MapScripts::
 	.set COINS_PRICE_50,  1000
 	.set COINS_PRICE_500, 10000
 
+MauvilleCity_GameCorner_EventScript_Malvalona_CoinsClerk::
+	lock
+	faceplayer
+	checkitem ITEM_COIN_CASE
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NeedCoinCase
+	msgbox MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner_Malvalona, MSGBOX_DEFAULT
+	message MauvilleCity_GameCorner_Text_WereYouLookingForCoins
+	waitmessage
+	showmoneybox 0, 0
+	showcoinsbox 1, 6
+	goto MauvilleCity_GameCorner_EventScript_ChooseCoinsDefault50
+
 MauvilleCity_GameCorner_EventScript_CoinsClerk::
 	lock
 	faceplayer
@@ -626,6 +638,9 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase::
 	releaseall
 	end
 
+MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner_Malvalona:
+	.string "Este es el CASINO MALVALONA.$"
+
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
 	.string "Este es el CASINO TRIGAL.$"
 
@@ -654,23 +669,23 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 	.string "¡Suerte en tu viaje!$"
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
-	.string "Welcome.\p"
-	.string "You can exchange your COINS for\n"
-	.string "prizes here.$"
+	.string	"Hola. Aquí puedes canjear\n"
+	.string	"tus FICHAS por premios.$"
 
 MauvilleCity_GameCorner_Text_WhichPrize:
-	.string "Which prize would you like?$"
+	.string	"¿Qué premio te gustaría?$"
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
-	.string "So your choice is\n"
-	.string "the {STR_VAR_1} {STR_VAR_2}?$"
+	.string	"¿Así que quieres\n"
+	.string	"{STR_VAR_1} {STR_VAR_2}?$"
 
 MauvilleCity_GameCorner_Text_SendToYourHomePC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string	"Estupendo. El envío llegará\n"
+	.string	"directamente a tu PC.$"
 
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
-	.string "You don't have enough COINS.$"
+	.string	"Lo siento, pero no tienes\n"
+	.string	"bastantes FICHAS.$"
 
 @ Unused
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
@@ -783,21 +798,79 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40F7, 226
 goto_if_gt MauvilleCity_GameCorner_Tristana_Despues
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_2
+waitmovement 0x0
+delay 10
 msgbox MauvilleCity_GameCorner_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_3
+waitmovement 0x0
 msgbox MauvilleCity_GameCorner_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MauvilleCity_GameCorner_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_4
+waitmovement 0x0
 msgbox MauvilleCity_GameCorner_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_5
+waitmovement 0x0
 msgbox MauvilleCity_GameCorner_Tristana_Texto_5 MSGBOX_AUTOCLOSE
 msgbox MauvilleCity_GameCorner_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_6
+waitmovement 0x0
 msgbox MauvilleCity_GameCorner_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_5
+waitmovement 0x0
 msgbox MauvilleCity_GameCorner_Tristana_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, MauvilleCity_GameCorner_Tristana_Move_6
+waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 227
 release
 end
 
+MauvilleCity_GameCorner_Tristana_Move_6:
+face_left
+step_end
+
+MauvilleCity_GameCorner_Tristana_Move_5:
+delay_8
+face_player
+delay_8
+step_end
+
+MauvilleCity_GameCorner_Tristana_Move_4:
+face_left
+delay_8
+delay_8
+delay_8
+walk_in_place_left
+delay_16
+step_end
+
+MauvilleCity_GameCorner_Tristana_Move_3:
+face_left
+delay_8
+delay_8
+delay_8
+face_player
+delay_16
+step_end
+
+MauvilleCity_GameCorner_Tristana_Move_2:
+emote_exclamation_mark
+step_end
+
+MauvilleCity_GameCorner_Tristana_Move_1:
+delay_16
+face_player
+delay_8
+step_end
+
 MauvilleCity_GameCorner_Tristana_Despues::
 msgbox MauvilleCity_GameCorner_Tristana_Texto_8.1 MSGBOX_AUTOCLOSE
 applymovement 13, MauvilleCity_GameCorner_Move_1
+waitmovement 0x0
 release
 end
 
@@ -872,14 +945,15 @@ delay 10
 msgbox MauvilleCity_GameCorner_Cartel_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_4F_Warp_No
-setmetatile 22, 9, 0x25F, TRUE
-setmetatile 21, 9, 0x25E, TRUE
-setmetatile 20, 9, 0x25D, FALSE
-setmetatile 20, 10, 0x265, FALSE
-setmetatile 21, 10, 0x266, TRUE
-setmetatile 22, 10, 0x267, TRUE
+playse SE_SWITCH
+delay 30
+playse SE_TRUCK_DOOR
+delay 30
 special DrawWholeMapView
-delay 60
+setmetatile 20, 2, 0x29D, FALSE
+setmetatile 21, 2, 0x29F, TRUE
+special DrawWholeMapView
+delay 30
 release
 end
 

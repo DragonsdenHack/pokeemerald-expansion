@@ -30,7 +30,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 16,
-      "y": 5,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MauvilleCity_GameCorner_EventScript_CoinsClerk",
+      "script": "MauvilleCity_GameCorner_EventScript_Malvalona_CoinsClerk",
       "flag": "0"
     },
     {
@@ -82,7 +82,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
       "x": 19,
-      "y": 4,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -200,14 +200,14 @@
       "dest_warp_id": 5
     },
     {
-      "x": 19,
-      "y": 1,
+      "x": 20,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_GAME_CORNER_MAUVILLE_HIDEOUT_S1",
       "dest_warp_id": 2
     },
     {
-      "x": 18,
+      "x": 19,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_GAME_CORNER",
@@ -372,11 +372,11 @@
     },
     {
       "type": "sign",
-      "x": 11,
-      "y": 0,
+      "x": 13,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Roulette_EventScript_Table2"
+      "script": "Roulette_EventScript_Table1"
     },
     {
       "type": "sign",
@@ -409,6 +409,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Roulette_EventScript_Table1"
     }
   ]
 }

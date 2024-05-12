@@ -40,8 +40,17 @@ GameCorner_Mauville_Hideout_S1_NPC6_Cientifico_Texto_1:
 	.string "en uno de los negocios más rentables de\l"
 	.string "HOENN.$"
 
-GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico::
+Mauville_Hideout_S1_Move_1:
+walk_slow_left
+step_end
+
+GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Derecha::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Mauville_Hideout_S1_Move_1
+waitmovement 0x0
+goto GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico
+
+GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico::
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_3 MSGBOX_AUTOCLOSE
@@ -52,6 +61,7 @@ msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_7 MSGBOX_AUTO
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_8 MSGBOX_AUTOCLOSE
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_9 MSGBOX_AUTOCLOSE
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 228
 release
 end
 
@@ -112,6 +122,36 @@ GameCorner_Mauville_EventScript_Segundo_Domador::
 	trainerbattle_single TRAINER_TRAINER_581, GameCorner_Mauville_Text_SegundoDomadorIntro, GameCorner_Mauville_Text_SegundoDomadorDefeat
 	msgbox GameCorner_Mauville_Text_SegundoDomadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+GameCorner_Mauville_Hideout_S1_NPC11_Domador::
+lock
+faceplayer
+msgbox GameCorner_Mauville_Hideout_S1_NPC11_Domador_Texto_1 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_Hideout_S1_NPC11_Domador_Texto_1:
+	.string "Los dueños de la GUARDERÍA están\n"
+	.string "mayores ya. Es por ello que les ayudamos\l"
+	.string "a criar varios de sus POKÉMON, por un\l"
+	.string "módico precio. Con lo ambiciosa que es\l"
+	.string "la dueña del CASINO, no me extrañaría\l"
+	.string "que acabara comprando también la\l"
+	.string "GUARDERÍA.$"
+
+
+
+GameCorner_Mauville_Hideout_S1_NPC12_Cientifico::
+lock
+faceplayer
+msgbox GameCorner_Mauville_Hideout_S1_NPC12_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_Hideout_S1_NPC12_Cientifico_Texto_1:
+	.string "Dicen que los casinos de KANTO y JOHTO\n"
+	.string "están bien, ¡pero no creo que tengan\l"
+	.string "una base secreta como la nuestra!$"
 
 
 

@@ -7776,6 +7776,7 @@ u16 GetBattleBGM(void)
             return 622;
         case TRAINER_CLASS_ELM:
             return 578;
+        case TRAINER_CLASS_DOMADOR_HOENN:
         case TRAINER_CLASS_BUG_MANIAC:
         case TRAINER_CLASS_BATTLE_GIRL:
         case TRAINER_CLASS_PKMN_BREEDER:

@@ -38,7 +38,7 @@
 #define SE_FAILURE                  32 // SE_HAZURE
 #define SE_EXP                      33 // SE_EXP
 #define SE_BIKE_HOP                 34 // SE_JITE_PYOKO
-#define SE_SWITCH                   35 // SE_MU_PACHI
+#define SE_SWITCH                   35 // SE_MU_PACHI // presionando botón secreto
 #define SE_CLICK                    36 // SE_TK_KASYA
 #define SE_FU_ZAKU                  37 // SE_FU_ZAKU (Unknown purpose, unused)
 #define SE_CONTEST_CONDITION_LOSE   38 // SE_FU_ZAKU2
@@ -55,7 +55,7 @@
 #define SE_TRUCK_MOVE               49 // SE_TRACK_MOVE
 #define SE_TRUCK_STOP               50 // SE_TRACK_STOP
 #define SE_TRUCK_UNLOAD             51 // SE_TRACK_HAIKI
-#define SE_TRUCK_DOOR               52 // SE_TRACK_DOOR
+#define SE_TRUCK_DOOR               52 // SE_TRACK_DOOR // posible puerta giratoria-secreta
 #define SE_BERRY_BLENDER            53 // SE_MOTER
 #define SE_CARD                     54 // SE_CARD (Unused, different from the RS card SE)
 #define SE_SAVE                     55 // SE_SAVE

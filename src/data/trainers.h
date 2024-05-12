@@ -19954,9 +19954,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_580] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_COOLTRAINER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        .trainerClass = TRAINER_CLASS_DOMADOR_HOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_TAMER,
         .trainerName = _("ARNAU"),
         .items = {},
         .doubleBattle = FALSE,
@@ -19967,9 +19967,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_581] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_COOLTRAINER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        .trainerClass = TRAINER_CLASS_DOMADOR_HOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_TAMER,
         .trainerName = _("PATRICK"),
         .items = {},
         .doubleBattle = FALSE,

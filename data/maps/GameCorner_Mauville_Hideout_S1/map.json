@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "GameCorner_Mauville_Hideout_S1_NPC11_Domador",
       "flag": "0"
     },
     {
@@ -167,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "GameCorner_Mauville_Hideout_S1_NPC12_Cientifico",
       "flag": "0"
     }
   ],
@@ -195,7 +195,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "227",
+      "script": "GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "227",
+      "script": "GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Derecha"
+    }
   ],
   "bg_events": [
 
