@@ -469,20 +469,95 @@ walk_right
 step_end
 
 SlateportCity_Dialogo_Norman_Move_1.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
 walk_up
 walk_up
 walk_up
 walk_up
 walk_up
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_2:
+walk_in_place_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_3:
+delay_16
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_4:
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+SlateportCity_Dialogo_Norman_Move_5:
+walk_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_6:
 walk_left
 step_end
+
+SlateportCity_Dialogo_Norman_Move_7:
+face_up
+step_end
+
+SlateportCity_Dialogo_Norman_Move_8:
+face_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_9:
+walk_in_place_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_10:
+walk_slow_up
+walk_slow_up
+step_end
+
+SlateportCity_Dialogo_Norman_Move_11:
+face_down
+step_end
+
+SlateportCity_Dialogo_Norman_Move_12:
+walk_down
+walk_down
+face_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_13:
+emote_exclamation_mark
+step_end
+
+SlateportCity_Dialogo_Norman_Move_14.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+
 
 SlateportCity_Dialogo_Norman::
 lock
@@ -491,30 +566,113 @@ applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Dialogo_Norman_Move_1
 waitmovement 0x0
 special RemoveCameraObject
 msgbox SlateportCity_Dialogo_Norman_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_3
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_4
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_5
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_6
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Dialogo_Norman_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Dialogo_Norman_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_7
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Dialogo_Norman_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_10
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_7
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_11
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+applymovement 4, SlateportCity_Dialogo_Norman_Move_12
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, SlateportCity_Dialogo_Norman_Move_13
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Dialogo_Norman_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_14
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
 msgbox SlateportCity_Dialogo_Norman_Texto_23 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 2, SlateportCity_Dialogo_Norman_Move_14.1
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Dialogo_Norman_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Dialogo_Norman_Move_15
+applymovement 2, SlateportCity_Dialogo_Norman_Move_16
+waitmovement 0x0
+removeobject 2
+playse SE_EXIT
+setflag FLAG_HOENN_10
+setvar VAR_UNUSED_0x40F7, 233
 release
 end
+
+SlateportCity_Dialogo_Norman_Move_16:
+delay_16
+delay_8
+walk_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+walk_up
+step_end
+
+
+SlateportCity_Dialogo_Norman_Move_15:
+walk_right
+face_up
+delay_16
+face_left
+delay_16
+step_end
+
+
+SlateportCity_Dialogo_Norman_Move_14:
+face_left
+step_end
 
 SlateportCity_Dialogo_Norman_Texto_1:
 	.string "SR.PEÑAS: Entonces su familia también\n"
@@ -621,7 +779,7 @@ SlateportCity_Dialogo_Norman_Texto_18:
 
 SlateportCity_Dialogo_Norman_Texto_19:
 	.string "NORMAN: Lo prefiero así, al menos por\n"
-	.string "ahora. Pero no dé tanto por hecho,\l"
+	.string "ahora. Pero{PAUSE 15}…{PAUSE 15} no dé tanto por hecho,\l"
 	.string "SR.PEÑAS. Sé reconocer el talento, y mi\l"
 	.string "hijo lo tiene. No creo que le baste solo\l"
 	.string "con obtener un par de MEDALLAS y\l"
@@ -648,4 +806,32 @@ SlateportCity_Dialogo_Norman_Texto_23:
 	.string "espectadores. Será la mejor forma de\l"
 	.string "disfrutar del devenir de nuestros\l"
 	.string "hijos.$"
+
+SlateportCity_Dialogo_Presidente::
+lock
+faceplayer
+msgbox SlateportCity_Dialogo_Presidente_Texto_1 MSGBOX_NPC
+release
+end
+
+
+SlateportCity_Dialogo_Presidente_Texto_1:
+	.string "SR.PEÑAS: Para un sistema, lo\n"
+	.string "importante no es funcionar a la\l"
+	.string "perfección, sino que exista confianza\l"
+	.string "en la perfección de su funcionamiento.$"
+
+SlateportCity_OceanicMuseum_2F_Babor::
+lock
+faceplayer
+msgbox SlateportCity_OceanicMuseum_2F_Babor_Texto_1 MSGBOX_NPC
+release
+end
+
+SlateportCity_OceanicMuseum_2F_Babor_Texto_1:
+	.string "El mar es tan inmenso y profundo, que\n"
+	.string "conocemos más sobre el espacio que de\l"
+	.string "nuestros propios océanos, ¿lo sabías?\l"
+	.string "Por ello haré varias expediciones con mi\l"
+	.string "submarino.$"
 

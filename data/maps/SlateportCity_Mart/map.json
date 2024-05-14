@@ -56,14 +56,14 @@
   ],
   "warp_events": [
     {
-      "x": 3,
+      "x": 4,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY",
       "dest_warp_id": 1
     },
     {
-      "x": 4,
+      "x": 3,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY",

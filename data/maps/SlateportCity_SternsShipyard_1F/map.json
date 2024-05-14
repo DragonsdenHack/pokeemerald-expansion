@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_SternsShipyard_1F_EventScript_Dock",
+      "script": "SlateportCity_Muellez",
       "flag": "0"
     },
     {
@@ -79,8 +79,8 @@
       "x": 2,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_SLATEPORT_CITY",
-      "dest_warp_id": 2
+      "dest_map": "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
+      "dest_warp_id": 1
     },
     {
       "x": 3,

@@ -270,7 +270,7 @@ SlateportCity_EventScript_Woman1::
 	lock
 	faceplayer
 	goto_if_set FLAG_DOCK_REJECTED_DEVON_GOODS, SlateportCity_EventScript_Woman1AquaGone
-	msgbox SlateportCity_Text_WhatsLongLineOverThere, MSGBOX_DEFAULT
+	msgbox SlateportCity_Text_VisitedMuseumOften, MSGBOX_DEFAULT
 	release
 	end
 
@@ -1563,3 +1563,37 @@ end
 SlateportCity_Bloqueo_Puerto_Texto_1:
 	.string "El puerto ahora mismo no está abierto al\n"
 	.string "público. Disculpe las molestias.$"
+
+
+SlateportCity_39_NPC::
+lock
+msgbox SlateportCity_39_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SlateportCity_39_NPC_Texto_1:
+	.string "¡Y tened cuidado con los accesorios\n"
+	.string "para bases secretas!$"
+
+SlateportCity_36_NPC::
+lock
+msgbox SlateportCity_36_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SlateportCity_36_NPC_Texto_1:
+	.string "¡Quiero toda la mercancía fuera en dos\n"
+	.string "horas!$"
+
+
+SlateportCity_38_NPC::
+lock
+msgbox SlateportCity_38_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SlateportCity_38_NPC_Texto_1:
+	.string "No tuvimos suerte como marineros en el\n"
+	.string "PUERTO OLIVO, pero ahora es nuestra\l"
+	.string "oportunidad. ¡Vamos a descargar toda\l"
+	.string "esa mercancía en un periquete!$"

@@ -142,3 +142,16 @@ SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily:
 	.string	"Me entra mareo con nada…, así que\n"
 	.string	"me han destinado a este puesto.$"
 
+SlateportCity_Muellez::
+lock
+faceplayer
+msgbox SlateportCity_Muellez_Texto_1 MSGBOX_NPC
+release
+end
+
+SlateportCity_Muellez_Texto_1:
+	.string "Al parecer, el CAP. BABOR quiere\n"
+	.string "investigar la NAO ABANDONADA, que\l"
+	.string "naufragó hace años en el mar del sur.\l"
+	.string "Cree que hay objetos valiosos dentro.$"
+

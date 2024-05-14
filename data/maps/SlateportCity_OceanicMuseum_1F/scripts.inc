@@ -499,7 +499,12 @@ msgbox SlateportCity_Entrevista_Presidente_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 14, SlateportCity_Entrevista_Move_1
 waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_10 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
 fadescreen 1
+addobject 10
+addobject 11
+addobject 12
+removeobject 3
 removeobject 8
 removeobject 14
 removeobject 13

@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_OceanicMuseum_2F_EventScript_CaptStern",
+      "script": "SlateportCity_OceanicMuseum_2F_Babor",
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
+      "script": "SlateportCity_Dialogo_Presidente",
       "flag": "FLAG_HOENN_11"
     },
     {
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron1",
-      "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
@@ -193,16 +193,16 @@
     },
     {
       "type": "sign",
-      "x": 15,
-      "y": 7,
+      "x": 4,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_OceanicMuseum_2F_EventScript_SSAnneReplica"
     },
     {
       "type": "sign",
-      "x": 14,
-      "y": 7,
+      "x": 8,
+      "y": 4,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_OceanicMuseum_2F_EventScript_SSAnneReplica"

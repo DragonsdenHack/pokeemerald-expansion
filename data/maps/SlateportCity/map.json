@@ -484,6 +484,84 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_Quinto_Bloqueo",
       "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+      "x": 17,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_36_NPC",
+      "flag": "FLAG_HOENN_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MACHOKE",
+      "x": 33,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "AzaleaTownDocumento_131",
+      "flag": "FLAG_HOENN_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
+      "x": 32,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_38_NPC",
+      "flag": "FLAG_HOENN_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
+      "x": 18,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_39_NPC",
+      "flag": "FLAG_HOENN_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
+      "x": 18,
+      "y": 59,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
+      "x": 17,
+      "y": 59,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_10"
     }
   ],
   "warp_events": [
@@ -568,8 +646,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 12,
-      "y": 5,
+      "x": 17,
+      "y": 58,
       "elevation": 3,
       "var": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
       "var_value": "2",
@@ -619,6 +697,33 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 58,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
     }
   ],
   "bg_events": [
