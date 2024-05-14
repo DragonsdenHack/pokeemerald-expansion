@@ -32,8 +32,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 21,
-      "y": 11,
+      "x": 13,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -580,8 +580,8 @@
       "x": 19,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
     },
     {
@@ -589,8 +589,8 @@
       "x": 18,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
     },
     {
@@ -598,8 +598,8 @@
       "x": 17,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
     },
     {
@@ -607,8 +607,8 @@
       "x": 16,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
     },
     {
@@ -616,8 +616,8 @@
       "x": 20,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "230",
       "script": "SlateportCity_Llamada_Giovanni"
     }
   ],

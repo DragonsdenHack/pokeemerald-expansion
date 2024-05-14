@@ -1440,20 +1440,62 @@ SlateportCity_Quinto_Bloqueo_Texto_1:
 
 SlateportCity_Llamada_Giovanni::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
 msgbox SlateportCity_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Llamada_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Llamada_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Llamada_Giovanni_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
 msgbox SlateportCity_Llamada_Giovanni_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Llamada_Giovanni_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Llamada_Move_2
+waitmovement 0x0
 msgbox SlateportCity_Llamada_Giovanni_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SlateportCity_Llamada_Giovanni_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+delay 15
+setvar VAR_UNUSED_0x40F7, 231
 release
 end
+
+SlateportCity_Llamada_Move_2:
+delay_8
+walk_slow_right
+delay_16
+walk_in_place_right
+delay_16
+walk_slow_down
+delay_16
+walk_slow_left
+delay_16
+walk_in_place_left
+delay_8
+step_end
+
+SlateportCity_Llamada_Move_1:
+delay_8
+walk_slow_down
+delay_8
+walk_in_place_down
+delay_16
+step_end
 
 SlateportCity_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: ¿{PLAYER}? Así que ya\n"

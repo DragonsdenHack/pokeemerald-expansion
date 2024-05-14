@@ -94,31 +94,220 @@ GameCorner_Mauville_NPC12_Cientifico_Texto_1:
 	.string "cada vez nos exige un algoritmo más\l"
 	.string "pulido para maximizar ganancias.$"
 
+GameCorner_Mauville_NPC5_Electricista::
+lock
+compare VAR_UNUSED_0x40F7, 228
+goto_if_gt GameCorner_Mauville_NPC5_Electricista_Despues
+delay 10
+msgbox GameCorner_Mauville_NPC5_Electricista_Texto_1 MSGBOX_DEFAULT
+delay 10
+msgbox GameCorner_Mauville_NPC5_Electricista_Texto_2 MSGBOX_DEFAULT
+delay 10
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox GameCorner_Mauville_NPC5_Electricista_Texto_3 MSGBOX_DEFAULT
+waitse
+setvar VAR_UNUSED_0x40F7, 229
+release
+end
+
+GameCorner_Mauville_NPC5_Electricista_Despues:
+msgbox GameCorner_Mauville_NPC5_Electricista_Texto_4 MSGBOX_DEFAULT
+release
+end
+
+
+GameCorner_Mauville_NPC5_Electricista_Texto_1:
+	.string "… …$"
+
+GameCorner_Mauville_NPC5_Electricista_Texto_2:
+	.string "(Está echando la siesta, parece que se\n"
+	.string "le ha caído algo)$"
+
+GameCorner_Mauville_NPC5_Electricista_Texto_3:
+	.string "¡OBTUVISTE LLAVE S2!$"
+
+GameCorner_Mauville_NPC5_Electricista_Texto_4:
+	.string "(Sigue echando la siesta.)$"
+
+GameCorner_Mauville_Ariana_Move_1:
+walk_in_place_right
+step_end
+
+GameCorner_Mauville_Ariana_Move_2:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_right
+step_end
+
+GameCorner_Mauville_Ariana_Move_3:
+walk_slow_right
+walk_slow_right
+step_end
+
+GameCorner_Mauville_Ariana_Move_4:
+walk_left
+delay_16
+walk_in_place_left
+step_end
+
+GameCorner_Mauville_Ariana_Move_5:
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+step_end
+
+GameCorner_Mauville_Ariana_Move_6:
+walk_fast_left
+step_end
+
+GameCorner_Mauville_Ariana_Move_7:
+emote_exclamation_mark
+step_end
+
+GameCorner_Mauville_Ariana_Move_8:
+delay_8
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+walk_slow_up
+delay_8
+step_end
+
+GameCorner_Mauville_Ariana_Move_9:
+face_left
+step_end
+
+GameCorner_Mauville_Ariana_Move_10:
+walk_slow_left
+step_end
+
+GameCorner_Mauville_Ariana_Move_11:
+delay_8
+walk_slow_down
+delay_16
+face_left
+delay_16
+walk_in_place_down
+step_end
+
+GameCorner_Mauville_Ariana_Move_12:
+face_right
+step_end
+
+GameCorner_Mauville_Ariana_Move_13:
+walk_slow_right
+step_end
+
+GameCorner_Mauville_Ariana_Move_14:
+walk_slow_up
+delay_16
+face_right
+delay_16
+walk_in_place_right
+delay_8
+step_end
+
+GameCorner_Mauville_Ariana_Move_15:
+walk_slow_right
+delay_8
+face_left
+delay_8
+step_end
+
 GameCorner_Mauville_Encuentro_Ariana::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_1
+waitmovement 0x0
+fadeoutbgm 0
+playse 0
+delay 20
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_2
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_3
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_3 MSGBOX_AUTOCLOSE
-msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_593, GameCorner_Mauville_Encuentro_Ariana_Texto_4
+applymovement 1, GameCorner_Mauville_Ariana_Move_5
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, GameCorner_Mauville_Ariana_Move_6
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_1
+waitmovement 0x0
+delay 10
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_1
+waitmovement 0x0
+delay 10
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 1, GameCorner_Mauville_Ariana_Move_7
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_8
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_9
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_10
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_11
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_11
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_12
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_13
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_14
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, GameCorner_Mauville_Ariana_Move_1
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_18 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, GameCorner_Mauville_Ariana_Move_7
+waitmovement 0x0
+applymovement 1, GameCorner_Mauville_Ariana_Move_9
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_10
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 1, GameCorner_Mauville_Ariana_Move_15
+waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+setvar VAR_UNUSED_0x40F7, 230
+setflag FLAG_HOENN_6
+release
+end
+
+GameCorner_Mauville_Ariana_Despues::
+lock
+faceplayer
+msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_23 MSGBOX_NPC
 release
 end
 
@@ -155,7 +344,7 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_7:
 	.string "verte en este CASINO, ¿me oyes?$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_8:
-	.string "{PAUSE 35}…{PAUSE 25} …{PAUSE 15}$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_9:
 	.string "¿La LIGA POKÉMON? ¿Controláis KANTO y\n"
@@ -243,3 +432,36 @@ GameCorner_Mauville_EventScript_Primer_Electricista::
 	trainerbattle_single TRAINER_TRAINER_585, GameCorner_Mauville_Text_PrimerElectricistaIntro, GameCorner_Mauville_Text_PrimerElectricistaDefeat
 	msgbox GameCorner_Mauville_Text_PrimerElectricistaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+GameCorner_Mauville_Llave_S2::
+lock
+compare VAR_UNUSED_0x40F7, 228
+goto_if_gt GameCorner_Mauville_Llave_S2_Despues
+msgbox GameCorner_Mauville_Llave_S2_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+GameCorner_Mauville_Llave_S2_Despues::
+msgbox GameCorner_Mauville_Llave_S2_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+playse SE_SWITCH
+delay 30
+playse SE_TRUCK_DOOR
+delay 30
+special DrawWholeMapView
+setmetatile 6, 12, 0x2A9, FALSE
+setmetatile 6, 13, 0x2A9, FALSE
+setmetatile 7, 12, 0x2A8, FALSE
+setmetatile 7, 13, 0x2A8, FALSE
+special DrawWholeMapView
+delay 15
+release
+end
+
+GameCorner_Mauville_Llave_S2_Texto_1:
+	.string "Parece que estas verjas pueden abrirse\n"
+	.string "usando algún tipo de llave.$"
+
+GameCorner_Mauville_Llave_S2_Texto_2:
+	.string "¿Quieres usar la LLAVE S2?$"

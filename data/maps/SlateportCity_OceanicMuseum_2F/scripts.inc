@@ -4,7 +4,12 @@
 .set LOCALID_GRUNT_2, 4
 
 SlateportCity_OceanicMuseum_2F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_OceanicMuseum_2F_OnFrame
 	.byte 0
+
+SlateportCity_OceanicMuseum_2F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 232, SlateportCity_Dialogo_Norman
+	.2byte 0
 
 SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	lock
@@ -447,8 +452,44 @@ SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
 	.string	"“Una réplica de un transatlántico de\n"
 	.string	"lujo que navega por todo el mundo.”$"
 
+SlateportCity_Dialogo_Norman_Move_1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_1.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
 SlateportCity_Dialogo_Norman::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Dialogo_Norman_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SlateportCity_Dialogo_Norman_Texto_1 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Dialogo_Norman_Texto_2 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Dialogo_Norman_Texto_3 MSGBOX_AUTOCLOSE

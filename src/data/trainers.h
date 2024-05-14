@@ -19993,8 +19993,8 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_583] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POLICIA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
+        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_HGSS_OFFICER,
         .trainerName = _("KEVIN"),
         .items = {},
@@ -20006,8 +20006,8 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_584] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POLICIA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
+        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_HGSS_OFFICER,
         .trainerName = _("AXEL"),
         .items = {},
@@ -20123,7 +20123,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_593] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_KARATEKA_HOENN,
+        .trainerClass = TRAINER_CLASS_PROPIETARIA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .trainerName = _("ARIANA"),

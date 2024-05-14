@@ -238,6 +238,24 @@
       "var": "VAR_SLATEPORT_MUSEUM_1F_STATE",
       "var_value": "0",
       "script": "SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFeeRight"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "231",
+      "script": "SlateportCity_Entrevista_Presidente"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "231",
+      "script": "SlateportCity_Entrevista_Presidente"
     }
   ],
   "bg_events": [

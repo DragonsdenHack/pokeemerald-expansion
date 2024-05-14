@@ -44,6 +44,55 @@ Mauville_Hideout_S1_Move_1:
 walk_slow_left
 step_end
 
+Mauville_Hideout_S1_Move_2:
+walk_in_place_left
+step_end
+
+Mauville_Hideout_S1_Move_3:
+face_down
+step_end
+
+Mauville_Hideout_S1_Move_4:
+walk_down
+walk_down
+delay_8
+face_right
+delay_8
+step_end
+
+Mauville_Hideout_S1_Move_5:
+walk_left
+walk_up
+walk_left
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+Mauville_Hideout_S1_Move_6:
+emote_exclamation_mark
+step_end
+
+Mauville_Hideout_S1_Move_7:
+walk_right
+step_end
+
+Mauville_Hideout_S1_Move_8:
+walk_in_place_right
+step_end
+
+Mauville_Hideout_S1_Move_9:
+lock_facing_direction
+walk_left
+unlock_facing_direction
+step_end
+
+Mauville_Hideout_S1_Move_10:
+walk_up
+walk_up
+face_right
+step_end
+
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Derecha::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Mauville_Hideout_S1_Move_1
@@ -51,16 +100,40 @@ waitmovement 0x0
 goto GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico
 
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico::
+applymovement 7, Mauville_Hideout_S1_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Mauville_Hideout_S1_Move_2
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 7, Mauville_Hideout_S1_Move_4
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Mauville_Hideout_S1_Move_5
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 7, Mauville_Hideout_S1_Move_6
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Mauville_Hideout_S1_Move_2
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, Mauville_Hideout_S1_Move_7
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, Mauville_Hideout_S1_Move_8
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_7 MSGBOX_AUTOCLOSE
-msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_582, GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_8
+playse SE_PIN
+applymovement 7, Mauville_Hideout_S1_Move_6
+waitmovement 0x0
+delay 10
+applymovement 7, Mauville_Hideout_S1_Move_9
+waitmovement 0x0
 msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_9 MSGBOX_AUTOCLOSE
-msgbox GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 7, Mauville_Hideout_S1_Move_10
+waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 228
 release
 end

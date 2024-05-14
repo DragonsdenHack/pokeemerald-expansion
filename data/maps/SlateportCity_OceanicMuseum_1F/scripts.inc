@@ -388,20 +388,146 @@ SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
 	.string	"Quizás sirva para medir la\n"
 	.string	"profundidad de algo…{PAUSE 5}$"
 
+SlateportCity_Entrevista_Move_1:
+walk_in_place_up
+step_end
+
+SlateportCity_Entrevista_Move_2:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+SlateportCity_Entrevista_Move_2.1:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+SlateportCity_Entrevista_Move_3:
+walk_in_place_down
+step_end
+
+SlateportCity_Entrevista_Move_4:
+walk_in_place_right
+step_end
+
+SlateportCity_Entrevista_Move_5:
+delay_8
+face_down
+delay_8
+step_end
+
+SlateportCity_Entrevista_Move_6:
+face_up
+step_end
+
+SlateportCity_Entrevista_Move_7:
+walk_right
+walk_up
+walk_right
+step_end
+
+SlateportCity_Entrevista_Move_8:
+face_left
+step_end
+
+SlateportCity_Entrevista_Move_9:
+delay_16
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+SlateportCity_Entrevista_Move_10:
+walk_down
+face_up
+delay_16
+walk_right
+walk_right
+walk_up
+walk_up
+step_end
+
+
+
+
 SlateportCity_Entrevista_Presidente::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Entrevista_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Entrevista_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 14, SlateportCity_Entrevista_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 9, SlateportCity_Entrevista_Move_3
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 9, SlateportCity_Entrevista_Move_4
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 9, SlateportCity_Entrevista_Move_5
+applymovement 14, SlateportCity_Entrevista_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Entrevista_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 14, SlateportCity_Entrevista_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Entrevista_Presidente_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 14, SlateportCity_Entrevista_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 9, SlateportCity_Entrevista_Move_6
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 14, SlateportCity_Entrevista_Move_1
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_10 MSGBOX_AUTOCLOSE
+fadescreen 1
+removeobject 8
+removeobject 14
+removeobject 13
+removeobject 5
+removeobject 6
+removeobject 2
+delay 20
+fadescreen 0
+delay 10
+applymovement 4, SlateportCity_Entrevista_Move_7
+waitmovement 0x0
+applymovement 4, SlateportCity_Entrevista_Move_4
+applymovement 9, SlateportCity_Entrevista_Move_8
+waitmovement 0x0
 msgbox SlateportCity_Entrevista_Presidente_Texto_11 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Entrevista_Presidente_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 9, SlateportCity_Entrevista_Move_10
+applymovement 4, SlateportCity_Entrevista_Move_9
+waitmovement 0x0
+removeobject 9
+removeobject 4
+playse SE_EXIT
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Entrevista_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setflag FLAG_HOENN_9
+setvar VAR_UNUSED_0x40F7, 232
 release
 end
 
