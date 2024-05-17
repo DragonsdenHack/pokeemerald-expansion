@@ -252,6 +252,11 @@
 #define TRAINER_PIC_DEVON4 232
 #define TRAINER_PIC_ORO 233
 #define TRAINER_PIC_INVERNA 234
+#define TRAINER_PIC_PLATA 235
+#define TRAINER_PIC_KYOGRE 236
+#define TRAINER_PIC_GROUDON 237
+#define TRAINER_PIC_RAYQUAZA 238
+#define TRAINER_PIC_SACHIKO 239
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
