@@ -453,6 +453,9 @@ $(OBJEVENTGFXDIR)/people/Arceusp.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/Ariana.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/sachiko.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Artistajohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4

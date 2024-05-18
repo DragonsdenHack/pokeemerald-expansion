@@ -235,6 +235,11 @@ const struct MonCoords gTrainerFrontPicCoords[] =
 	[TRAINER_PIC_PRESIDENTE] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_INVERNA] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_ORO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_PLATA] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_KYOGRE] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_GROUDON] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_RAYQUAZA] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_SACHIKO] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -476,6 +481,11 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
 	TRAINER_SPRITE(MIGUEL, gTrainerFrontPic_Miguel, 0x800),
 	TRAINER_SPRITE(ORO, gTrainerFrontPic_Oro, 0x800),
 	TRAINER_SPRITE(INVERNA, gTrainerFrontPic_Inverna, 0x800),
+	TRAINER_SPRITE(PLATA, gTrainerFrontPic_Plata, 0x800),
+	TRAINER_SPRITE(KYOGRE, gTrainerFrontPic_Kyogre, 0x800),
+	TRAINER_SPRITE(GROUDON, gTrainerFrontPic_Groudon, 0x800),
+	TRAINER_SPRITE(RAYQUAZA, gTrainerFrontPic_Rayquaza, 0x800),
+	TRAINER_SPRITE(SACHIKO, gTrainerFrontPic_Sachiko, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -717,4 +727,9 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(PRESIDENTE, gTrainerPalette_Presidente),
 	TRAINER_PAL(INVERNA, gTrainerPalette_Inverna),
 	TRAINER_PAL(ORO, gTrainerPalette_Oro),
+	TRAINER_PAL(PLATA, gTrainerPalette_Plata),
+	TRAINER_PAL(KYOGRE, gTrainerPalette_Kyogre),
+	TRAINER_PAL(GROUDON, gTrainerPalette_Groudon),
+	TRAINER_PAL(RAYQUAZA, gTrainerPalette_Rayquaza),
+	TRAINER_PAL(SACHIKO, gTrainerPalette_Sachiko),
 };
