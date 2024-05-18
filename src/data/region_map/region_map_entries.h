@@ -3,7 +3,7 @@
 
 static const u8 sMapName_LittlerootTown[] = _("VILLA RAÍZ");
 static const u8 sMapName_OldaleTown[] = _("PUEBLO ESCASO");
-static const u8 sMapName_DewfordTown[] = _("PUEBLO AZULINA");
+static const u8 sMapName_DewfordTown[] = _("PUEBLO AZULIZA");
 static const u8 sMapName_LavaridgeTown[] = _("PUEBLO LAVACALDA");
 static const u8 sMapName_FallarborTown[] = _("PUEBLO PARDAL");
 static const u8 sMapName_VerdanturfTown[] = _("PUEBLO VERDEGAL");

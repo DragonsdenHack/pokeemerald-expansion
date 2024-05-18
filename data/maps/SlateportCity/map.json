@@ -649,9 +649,9 @@
       "x": 17,
       "y": 58,
       "elevation": 3,
-      "var": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
-      "var_value": "2",
-      "script": "SlateportCity_EventScript_ScottBattleTentScene"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "233",
+      "script": "SlateportCity_Escena_Andra"
     },
     {
       "type": "trigger",
@@ -703,27 +703,27 @@
       "x": 18,
       "y": 58,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "233",
+      "script": "SlateportCity_Escena_Andra"
     },
     {
       "type": "trigger",
       "x": 32,
       "y": 58,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "233",
+      "script": "SlateportCity_Escena_Andra"
     },
     {
       "type": "trigger",
       "x": 33,
       "y": 58,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "233",
+      "script": "SlateportCity_Escena_Andra"
     }
   ],
   "bg_events": [

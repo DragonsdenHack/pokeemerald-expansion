@@ -1597,3 +1597,17 @@ SlateportCity_38_NPC_Texto_1:
 	.string "PUERTO OLIVO, pero ahora es nuestra\l"
 	.string "oportunidad. ¡Vamos a descargar toda\l"
 	.string "esa mercancía en un periquete!$"
+
+SlateportCity_Escena_Andra::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Move_2
+setvar VAR_UNUSED_0x40F7, 234
+warpsilent MAP_SOOTOPOLIS_CITY, 31, 29
+delay 120
+release
+end
+
+SlateportCity_Move_2:
+walk_in_place_down
+step_end
+

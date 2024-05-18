@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KYOGRE_SIDE",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RAYQUAZA",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
@@ -210,9 +210,9 @@
       "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
-      "x": 29,
-      "y": 33,
+      "graphics_id": "OBJ_EVENT_GFX_JUAN",
+      "x": 31,
+      "y": 32,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -220,12 +220,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SootopolisCity_EventScript_Maxie",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE"
+      "flag": "FLAG_HOENN_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
       "x": 31,
-      "y": 33,
+      "y": 32,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -233,7 +233,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SootopolisCity_EventScript_Archie",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WALLACE",

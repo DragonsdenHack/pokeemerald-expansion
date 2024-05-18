@@ -35650,6 +35650,204 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_GUARDIA_CAVE_2",
+          "base_label": "gGuardia_Cave_20",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 50,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_GUARDIA_CAVE",
+          "base_label": "gGuardia_Cave0",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_CUBONE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_KANGASKHAN"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 50,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GOLEM"
+              }
+            ]
+          }
         }
       ]
     },

@@ -2887,3 +2887,9 @@ Text_EVChecker_3:
 	.include "data/maps/Neo_TunelRoca_1F/scripts.inc"
 
 	.include "data/maps/Neo_TunelRoca_2F/scripts.inc"
+
+	.include "data/maps/Guardia_Cave/scripts.inc"
+
+	.include "data/maps/Guardia_Cave_2/scripts.inc"
+
+	.include "data/maps/Sootopolis_Secret_Cave/scripts.inc"

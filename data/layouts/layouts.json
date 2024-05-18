@@ -14796,6 +14796,42 @@
       "secondary_tileset": "gTileset_rock_tunnel",
       "border_filepath": "data/layouts/Neo_TunelRoca_2F/border.bin",
       "blockdata_filepath": "data/layouts/Neo_TunelRoca_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GUARDIA_CAVE",
+      "name": "Guardia_Cave_Layout",
+      "width": 84,
+      "height": 79,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_rock_tunnel",
+      "border_filepath": "data/layouts/Guardia_Cave/border.bin",
+      "blockdata_filepath": "data/layouts/Guardia_Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_GUARDIA_CAVE_2",
+      "name": "Guardia_Cave_2_Layout",
+      "width": 84,
+      "height": 79,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_rock_tunnel",
+      "border_filepath": "data/layouts/Guardia_Cave_2/border.bin",
+      "blockdata_filepath": "data/layouts/Guardia_Cave_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_SECRET_CAVE",
+      "name": "Sootopolis_Secret_Cave_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Sootopolis_Secret_Cave/border.bin",
+      "blockdata_filepath": "data/layouts/Sootopolis_Secret_Cave/map.bin"
     }
   ]
 }

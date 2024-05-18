@@ -17,54 +17,20 @@
 .set LOCALID_WALLACE, 18
 
 SootopolisCity_MapScripts::
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_OnFrame
 	map_script MAP_SCRIPT_ON_LOAD, SootopolisCity_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, SootopolisCity_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SootopolisCity_OnWarp
 	.byte 0
 
+SootopolisCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 234, SootopolisCity_Andra
+	.2byte 0
+
+
 SootopolisCity_OnLoad:
-	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockGymDoor
-	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
-	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockHouseDoors
 	end
 
 SootopolisCity_EventScript_LegendariesNotArrived::
-	end
-
-SootopolisCity_EventScript_LockHouseDoors::
-	setmetatile 9, 6, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 9, 17, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 9, 26, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 44, 17, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 8, 35, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 53, 28, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 45, 6, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 48, 25, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 51, 36, METATILE_Sootopolis_Door_Closed, TRUE
-	return
-
-SootopolisCity_EventScript_LockGymDoor::
-	setmetatile 31, 32, METATILE_Sootopolis_GymDoor_Closed, TRUE
-	return
-
-SootopolisCity_OnTransition:
-	setflag FLAG_VISITED_SOOTOPOLIS_CITY
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_HideMapNamePopup
-	call_if_eq VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_HideMapNamePopup
-	call SootopolisCity_EventScript_SetWeather
-	call SootopolisCity_EventScript_SetLayout
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_SetExitCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_SetOutsideGymObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_SetExpertBlockCaveEntrance
 	end
 
 SootopolisCity_EventScript_HideMapNamePopup::
@@ -158,10 +124,6 @@ SootopolisCity_EventScript_SetExpertBlockCaveEntrance::
 	setobjectxyperm LOCALID_EXPERT, 31, 18
 	return
 
-SootopolisCity_OnWarp:
-	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_PlayerFaceLegendaries
-	.2byte 0
-
 SootopolisCity_EventScript_PlayerFaceLegendaries::
 	call_if_eq VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_PlayerFaceLegendaries1
 	call_if_eq VAR_SKY_PILLAR_STATE, 2, SootopolisCity_EventScript_PlayerFaceLegendaries2
@@ -179,11 +141,6 @@ SootopolisCity_EventScript_PlayerFaceLegendaries2::
 SootopolisCity_OnResume:
 	setdivewarp MAP_UNDERWATER_SOOTOPOLIS_CITY, 9, 6
 	end
-
-SootopolisCity_OnFrame:
-	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_StartLegendariesScene
-	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartRayquazaScene
-	.2byte 0
 
 @ If not at PokeCenter, assumed to have arrived via Dive
 SootopolisCity_EventScript_StartLegendariesScene::
@@ -1725,24 +1682,143 @@ SootopolisCity_Text_DazzledByMentor:
 	.string	"el impresionantemente elegante estilo\l"
 	.string	"de lucha de mi mentor te asombrará.$"
 
+SootopolisCity_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+SootopolisCity_Move_2:
+walk_slow_left
+delay_16
+face_right
+step_end
+
+SootopolisCity_Move_3:
+walk_in_place_right
+step_end
+
+SootopolisCity_Move_4:
+delay_16
+face_left
+delay_16
+face_down
+delay_16
+step_end
+
+SootopolisCity_Move_5:
+face_left
+step_end
+
+SootopolisCity_Move_6:
+walk_slow_down
+step_end
+
+SootopolisCity_Move_7:
+face_down
+step_end
+
+SootopolisCity_Move_8:
+walk_in_place_down
+step_end
+
+SootopolisCity_Move_9:
+face_right
+step_end
+
+SootopolisCity_Move_10:
+face_up
+step_end
+
+SootopolisCity_Move_11:
+walk_right
+face_down
+step_end
+
+SootopolisCity_Move_12:
+emote_exclamation_mark
+step_end
+
 SootopolisCity_Andra::
 lock
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_SLIDING_DOOR
+opendoor 31, 32
+waitdooranim
+addobject 16
+applymovement 16, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 31, 32
+waitdooranim
+delay 10
+applymovement 16, SootopolisCity_Move_2
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 40
+playse SE_SLIDING_DOOR
+opendoor 31, 32
+waitdooranim
+delay 45
+addobject 17
+delay 45
+applymovement 17, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 31, 32
+waitdooranim
+delay 15
+applymovement 17, SootopolisCity_Move_4
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_5
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_7
+applymovement 17, SootopolisCity_Move_6
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_8
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_9
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_10
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_11
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, SootopolisCity_Move_12
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_9
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_8
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_5
+waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
 msgbox SootopolisCity_Andra_Texto_16 MSGBOX_AUTOCLOSE
+warpsilent MAP_CAVE_OF_ORIGIN_B1F, 16, 2
+delay 120
 release
 end
 
@@ -1757,8 +1833,8 @@ SootopolisCity_Andra_Texto_2:
 	.string "ganarías!$"
 
 SootopolisCity_Andra_Texto_3:
-	.string "ANDRA: No está entre mis objetivos,\n"
-	.string "pero gracias por el cumplido.$"
+	.string "ANDRA: Gracias pero{PAUSE 25}…{PAUSE 25}\n"
+	.string "No es algo que esté entre mis objetivos.$"
 
 SootopolisCity_Andra_Texto_4:
 	.string "GALANO: Y ese MILOTIC tuyo{PAUSE 25}…{PAUSE 25} Creí que\n"

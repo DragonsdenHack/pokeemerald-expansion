@@ -559,7 +559,9 @@
     "LavenderRadioP9",
     "LavenderRadioP10",
     "Neo_TunelRoca_1F",
-    "Neo_TunelRoca_2F"
+    "Neo_TunelRoca_2F",
+    "Guardia_Cave",
+    "Guardia_Cave_2"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
@@ -1119,7 +1121,8 @@
     "SootopolisCity_House7",
     "SootopolisCity_LotadAndSeedotHouse",
     "SootopolisCity_MysteryEventsHouse_1F",
-    "SootopolisCity_MysteryEventsHouse_B1F"
+    "SootopolisCity_MysteryEventsHouse_B1F",
+    "Sootopolis_Secret_Cave"
   ],
   "gMapGroup_IndoorEverGrande": [
     "EverGrandeCity_SidneysRoom",

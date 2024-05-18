@@ -3342,7 +3342,7 @@ RocketHideout8F_Mision_Johto_Text_22:
 .string "ANDRA: Supongo que se refiere a\n"
 	.string "esas RUINAS que pueden verse en el\l"
 	.string "DESIERTO, al norte de PUEBLO\l"
-	.string "AZULINA, y en RUTA 120.$"
+	.string "AZULIZA, y en RUTA 120.$"
 
 RocketHideout8F_Mision_Johto_Text_23:
 .string "GIOVANNI: Veo que no hace falta\n"
