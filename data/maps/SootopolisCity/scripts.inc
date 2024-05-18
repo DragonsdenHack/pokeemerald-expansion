@@ -1817,6 +1817,8 @@ waitmovement 0x0
 msgbox SootopolisCity_Andra_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox SootopolisCity_Andra_Texto_16 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+setvar VAR_UNUSED_0x40F7, 235
 warpsilent MAP_CAVE_OF_ORIGIN_B1F, 15, 3
 delay 120
 release

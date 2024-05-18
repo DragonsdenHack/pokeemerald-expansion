@@ -822,35 +822,35 @@ Route109_Text_EdmondPostBattle:
 	.string "MARINERO, ya{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_RickyIntro:
-	.string "I'm thirsty… I could go for a SODA POP\n"
-	.string "at the SEASHORE HOUSE{PAUSE 5}…{PAUSE 5}$"
+	.string	"Qué sed tengo… Creo que iré a por\n"
+	.string	"un REFRESCO a la CASA de la PLAYA.$"
 
 Route109_Text_RickyDefeated:
-	.string "Groan{PAUSE 5}…{PAUSE 5}$"
+	.string	"Aaaaargh…$"
 
 Route109_Text_RickyPostBattle:
-	.string "I'm getting famished… My inner tube\n"
-	.string "looks like a giant doughnut{PAUSE 5}…{PAUSE 5}$"
+	.string	"Me muero de hambre… Hasta\n"
+	.string	"el flotador tiene buena pinta…$"
 
 Route109_Text_RickyRegister:
-	.string "Will you have another match with me\n"
-	.string "when I'm not all thirsty?$"
+	.string	"Cuando ya no tenga tanta sed,\n"
+	.string	"¿vendrás a luchar contra mí?$"
 
 Route109_Text_RickyRematchIntro:
-	.string "I'm hungry, but I've got enough pep in\n"
-	.string "me for a battle!$"
+	.string	"Qué hambre tengo… ¡Pero todavía\n"
+	.string	"me quedan energías para un combate!$"
 
 Route109_Text_RickyRematchDefeated:
-	.string "I lost…\n"
-	.string "It's because I'm hungry{PAUSE 5}…{PAUSE 5}$"
+	.string	"He perdido…\n"
+	.string	"Seguro que es por el hambre que tengo…$"
 
 Route109_Text_RickyRematchPostBattle:
-	.string "When you eat on a beach, everything\n"
-	.string "seems to taste a little better.$"
+	.string	"Cuando haces un picnic en la playa,\n"
+	.string	"todo parece saber mejor…$"
 
 Route109_Text_LolaIntro:
-	.string "¿A que las sombrillas de playa parecen\n"
-	.string "flores gigantes?$"
+	.string	"¿A que las sombrillas de playa parecen\n"
+	.string	"flores gigantes?$"
 
 Route109_Text_LolaDefeated:
 	.string "¡Aaaah!$"
