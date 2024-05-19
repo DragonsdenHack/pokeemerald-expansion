@@ -1,25 +1,245 @@
 NaoAbandonada_6_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, NaoAbandonada_6_OnFrame
 	.byte 0
+
+NaoAbandonada_6_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 237, NaoAbandonada_6_Primal_Kyogre
+	.2byte 0
+
+NaoAbandonada_6_Move_1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_right
+walk_slow_right
+step_end
+
+NaoAbandonada_6_Move_2:
+walk_in_place_left
+step_end
+
+NaoAbandonada_6_Move_3:
+face_right
+step_end
+
+NaoAbandonada_6_Move_4:
+walk_in_place_right
+step_end
+
+NaoAbandonada_6_Move_5:
+face_up
+step_end
+
+NaoAbandonada_6_Move_6:
+face_down
+step_end
+
+NaoAbandonada_6_Move_7:
+delay_8
+face_up
+delay_16
+walk_in_place_up
+step_end
+
+NaoAbandonada_6_Move_8:
+face_left
+step_end
+
+NaoAbandonada_6_Move_9:
+emote_exclamation_mark
+step_end
 
 NaoAbandonada_6_Primal_Kyogre::
 lock
+delay 15
+addobject 3
+addobject 1
+call Script_SetGrayscaleTint
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NaoAbandonada_6_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, NaoAbandonada_6_Move_2
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, NaoAbandonada_6_Move_3
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, NaoAbandonada_6_Move_4
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_6_Move_5
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, NaoAbandonada_6_Move_6
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, NaoAbandonada_6_Move_7
+waitmovement 0x0
+playse SE_PC_ON
+waitse
+playse SE_PC_LOGIN
+waitse
+delay 20
+playse SE_MUGSHOT
+waitse
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_8 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 20
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 8, 6, 0
+waitfieldeffect FLDEFF_SPARKLE
+closemessage
+setvar VAR_RESULT, 2
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 400
+special FadeOutOrbEffect
+playmoncry SPECIES_KYOGRE_PRIMAL, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 3, NaoAbandonada_6_Move_8
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_PIN
+applymovement 1, NaoAbandonada_6_Move_9
+applymovement 3, NaoAbandonada_6_Move_9
+waitmovement 0x0
+playmoncry SPECIES_KYOGRE_PRIMAL, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_INTRO_BLAST
+waitse
+playse SE_M_EXPLOSION
+applymovement 1, NaoAbandonada_6_Move_10
+applymovement 3, NaoAbandonada_6_Move_11
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_6_Move_9
+applymovement 3, NaoAbandonada_6_Move_9
+waitmovement 0x0
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_12 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_KYOGRE_PRIMAL, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 3, NaoAbandonada_6_Move_12
+waitmovement 0x0
+playse SE_PC_ON
+waitse
+playse SE_FAILURE
+waitse
+applymovement 3, NaoAbandonada_6_Move_10
+waitmovement 0x0
+delay 20
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+applymovement 1, NaoAbandonada_6_Move_13
+applymovement 3, NaoAbandonada_6_Move_6
+waitmovement 0x0
 msgbox NaoAbandonada_6_Primal_Kyogre_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_6_Move_14
+applymovement 3, NaoAbandonada_6_Move_14
+waitmovement 0x0
+removeobject 3
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 238
+call Script_RemoveTint
+delay 20
+warp MAP_NAO_ABANDONADA_6, 3, 13
 release
 end
+
+NaoAbandonada_6_Move_14:
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+NaoAbandonada_6_Move_13:
+walk_in_place_up
+step_end
+
+NaoAbandonada_6_Move_12:
+walk_fast_left
+face_up
+step_end
+
+NaoAbandonada_6_Move_11:
+lock_facing_direction
+walk_right
+unlock_facing_direction
+step_end
+
+NaoAbandonada_6_Move_10:
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
 
 NaoAbandonada_6_Primal_Kyogre_Texto_1:
 	.string "DR.RASMUS: Hoy es un gran día para\n"
@@ -45,8 +265,8 @@ NaoAbandonada_6_Primal_Kyogre_Texto_4:
 	.string "estos POKÉMON ancestrales.$"
 
 NaoAbandonada_6_Primal_Kyogre_Texto_5:
-	.string "DR.RASMUS: Así es, y mientras regiones\n"
-	.string "como la de KANTO y JOHTO están en plena\l"
+	.string "DR.RASMUS: Mientras que regiones como\n"
+	.string "la de KANTO y JOHTO están en plena\l"
 	.string "guerra, nosotros hemos ido aún más\l"
 	.string "allá: con esta ESFERA AZUL, podremos\l"
 	.string "obtener la FORMA PRIMIGENIA de KYOGRE.$"
@@ -88,34 +308,177 @@ NaoAbandonada_6_Primal_Kyogre_Texto_14:
 NaoAbandonada_6_Primal_Kyogre_Texto_15:
 	.string "ADM.ZAFIRO: ¡Salgamos de aquí, rápido!$"
 
+NaoAbandonada_7_Move_1:
+walk_in_place_up
+step_end
+
+NaoAbandonada_7_Move_2:
+emote_exclamation_mark
+step_end
+
+NaoAbandonada_7_Move_3:
+face_down
+delay_16
+walk_right
+face_down
+step_end
+
+NaoAbandonada_7_Move_4:
+walk_up
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+step_end
+
+NaoAbandonada_7_Move_5:
+walk_in_place_down
+step_end
+
+NaoAbandonada_7_Move_6:
+face_right
+step_end
+
+NaoAbandonada_7_Move_7:
+face_up
+step_end
+
+NaoAbandonada_7_Move_8:
+walk_slow_left
+step_end
+
+NaoAbandonada_7_Move_9:
+face_left
+step_end
+
+NaoAbandonada_7_Move_10:
+walk_slow_up
+step_end
+
+NaoAbandonada_7_Move_11:
+walk_in_place_up
+step_end
+
+NaoAbandonada_7_Move_12:
+face_right
+step_end
+
+NaoAbandonada_7_Move_13:
+walk_in_place_right
+step_end
+
+NaoAbandonada_7_Move_14:
+walk_up
+walk_up
+walk_up
+face_left
+delay_16
+delay_8
+walk_in_place_left
+step_end
+
+NaoAbandonada_7_Move_15:
+face_down
+step_end
+
+
+
 NaoAbandonada_7_Encuentro_Zafiro::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_2
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_1 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+addobject 1
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_3
+applymovement 1, NaoAbandonada_7_Move_4
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_5
+waitmovement 0x0
+delay 25
+applymovement 1, NaoAbandonada_7_Move_6
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_7
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_2
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_9
+applymovement 1, NaoAbandonada_7_Move_8
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_10
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_11
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_12
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, NaoAbandonada_7_Move_7
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_11
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_12
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_13
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_17 MSGBOX_AUTOCLOSE
-msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_18 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_606, NaoAbandonada_7_Encuentro_Zafiro_Texto_18
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_20 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NaoAbandonada_7_Move_7
+applymovement 1, NaoAbandonada_7_Move_14
+waitmovement 0x0
+setflag FLAG_HOENN_32
+removeobject 2
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_21 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_15
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_8
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, NaoAbandonada_7_Move_15
+waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_1
+fadescreen 1
+removeobject 1
+playse SE_WARP_IN
+waitse
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 239
 release
 end
 
@@ -141,7 +504,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_4:
 	.string "nuestra, de DEVON.$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_5:
-	.string "Así es, hace años, cuando buscábamos\n"
+	.string "Así es. Hace años, cuando investigábamos\n"
 	.string "por primera vez las formas primigenias\l"
 	.string "de KYOGRE y GROUDON. Fue aquí donde\l"
 	.string "tuvimos la primera toma de contacto{PAUSE 5}…{PAUSE 5}$"
@@ -240,9 +603,9 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_21:
 NaoAbandonada_7_Encuentro_Zafiro_Texto_22:
 	.string "Desde que escuchamos que ese\n"
 	.string "CAP.BABOR quería realizar una\l"
-	.string "expedición aquí para recuperar objetos\l"
-	.string "valiosos, nos vimos obligados a actuar\l"
-	.string "rápido.$"
+	.string "expedición a la NAO para recuperar\l"
+	.string "objetos perdidos, nos vimos obligados\l"
+	.string "a actuar rápido.$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_23:
 	.string "Este ESCÁNER fue el que nos ayudó a\n"

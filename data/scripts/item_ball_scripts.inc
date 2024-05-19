@@ -431,7 +431,7 @@ AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall::
 	end
 
 AbandonedShip_Room_B1F_EventScript_ItemTM13::
-	finditem ITEM_TM13
+	finditem ITEM_HM08
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_ItemRevive::

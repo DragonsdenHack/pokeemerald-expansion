@@ -4,13 +4,23 @@ NaoAbandonada_3_MapScripts::
 NaoAbandonada_3_Naufragio::
 lock
 msgbox NaoAbandonada_3_Naufragio_Texto_1 MSGBOX_SIGN
+delay 15
 msgbox NaoAbandonada_3_Naufragio_Texto_2 MSGBOX_SIGN
-msgbox NaoAbandonada_3_Naufragio_Texto_3 MSGBOX_SIGN
+delay 15
+msgbox NaoAbandonada_3_Naufragio_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
 msgbox NaoAbandonada_3_Naufragio_Texto_4 MSGBOX_SIGN
-msgbox NaoAbandonada_3_Naufragio_Texto_5 MSGBOX_SIGN
+delay 15
+msgbox NaoAbandonada_3_Naufragio_Texto_5 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
 msgbox NaoAbandonada_3_Naufragio_Texto_6 MSGBOX_SIGN
+delay 15
 msgbox NaoAbandonada_3_Naufragio_Texto_7 MSGBOX_SIGN
+delay 15
 msgbox NaoAbandonada_3_Naufragio_Texto_8 MSGBOX_SIGN
+delay 15
 msgbox NaoAbandonada_3_Naufragio_Texto_9 MSGBOX_SIGN
 release
 end
@@ -23,7 +33,7 @@ NaoAbandonada_3_Naufragio_Texto_2:
 	.string "por el paso del tiempo.$"
 
 NaoAbandonada_3_Naufragio_Texto_3:
-	.string "¿Quieres leerla?$"
+	.string "¿Quieres leerlo?$"
 
 NaoAbandonada_3_Naufragio_Texto_4:
 	.string "…la noche era tranquila y estrellada.\n"

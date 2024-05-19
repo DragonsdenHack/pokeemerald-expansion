@@ -1087,14 +1087,12 @@ static void LoadOrbEffectPalette(bool8 blueOrb)
     int i;
     u16 color[1];
 
-    if (!blueOrb)
-        color[0] = RGB_BLUE;
-    if (blueOrb)
-        color[0] = RGB_BLUE;
     if (!blueOrb && gSpecialVar_Result == 3)
 		color[0] = RGB_PURPLE;
-	else
-        color[0] = RGB_RED;
+    if (!blueOrb && gSpecialVar_Result == 1)
+		color[0] = RGB_RED;
+    if (!blueOrb && gSpecialVar_Result == 2)
+		color[0] = RGB_BLUE;
 
     for (i = 0; i < 16; i++)
     {
