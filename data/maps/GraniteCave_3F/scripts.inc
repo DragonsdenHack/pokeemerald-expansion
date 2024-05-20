@@ -1,39 +1,262 @@
 GraniteCave_3F_MapScripts::
 	.byte 0
 
+GraniteCave_Encuentro_Esmeralda_Move_1:
+walk_in_place_up
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_2:
+delay_16
+face_down
+delay_16
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_3:
+walk_in_place_down
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_4:
+delay_16
+face_right
+delay_16
+face_up
+delay_16
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_5:
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_6:
+walk_right
+face_left
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_7:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_7.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_8:
+delay_16
+face_right
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_9:
+walk_in_place_left
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_10:
+emote_exclamation_mark
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_11:
+delay_16
+walk_up
+walk_right
+walk_right
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_12:
+walk_up
+face_down
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_16.1:
+walk_left
+step_end
+
 GraniteCave_Encuentro_Esmeralda::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_1
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_2
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_3
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_4
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_2
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_5
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_5
+waitmovement 0x0
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, GraniteCave_Encuentro_Esmeralda_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_8 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, GraniteCave_Encuentro_Esmeralda_Move_7.1
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_8
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_9
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_10
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_11
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_12
+waitmovement 0x0
+delay 50
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_13
+waitmovement 0x0
+delay 20
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_14
+waitmovement 0x0
+delay 10
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_9
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_15
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_16
+waitmovement 0x0
+delay 20
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_16 MSGBOX_AUTOCLOSE
-msgbox GraniteCave_Encuentro_Esmeralda_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_16.1
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_TRAINER_607, GraniteCave_Encuentro_Esmeralda_Texto_17
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_17
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_19 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_10
+waitmovement 0x0
+delay 15
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_13
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_9
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_22 MSGBOX_AUTOCLOSE
-msgbox GraniteCave_Encuentro_Esmeralda_Texto_23 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_GALARICA_CUFF
+msgbox GraniteCave_Encuentro_Esmeralda_Texto_23 MSGBOX_DEFAULT
+waitfanfare
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_24 MSGBOX_AUTOCLOSE
+delay 20
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_9
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_10
+waitmovement 0x0
+delay 35
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_13
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_27 MSGBOX_AUTOCLOSE
+delay 35
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_18
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Encuentro_Esmeralda_Move_19
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Encuentro_Esmeralda_Move_13
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_18
+waitmovement 0x0
+msgbox GraniteCave_Encuentro_Esmeralda_Texto_28.1 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_16
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Esmeralda_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 2, GraniteCave_Encuentro_Esmeralda_Move_20
+waitmovement 0x0
+playse SE_FALL
+setflag FLAG_HOENN_13
+removeobject 2
+waitse
+setvar VAR_UNUSED_0x40F7, 242
+delay 15
 release
 end
+
+GraniteCave_Encuentro_Esmeralda_Move_20:
+walk_down
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_left
+walk_up
+walk_left
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_19:
+walk_right
+walk_up
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_18:
+face_right
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_17:
+face_up
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_16:
+walk_in_place_right
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_15:
+walk_slow_down
+face_left
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_14:
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
+GraniteCave_Encuentro_Esmeralda_Move_13:
+face_left
+step_end
 
 GraniteCave_Encuentro_Esmeralda_Texto_1:
 	.string "TRISTANA: ¿Lo ves? ¿Qué esperabas?\n"
@@ -83,13 +306,13 @@ GraniteCave_Encuentro_Esmeralda_Texto_10:
 	.string "prueba a tu equipo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_11:
-	.string "Y de nuevo, si te he enseñado este lugar\n"
-	.string "no es porque yo quiera: nuestro 2do\l"
-	.string "ADMIN en jerarquía quiere tener unas\l"
+	.string "De igual forma, si te he enseñado este\n"
+	.string "lugar no es porque yo quiera: nuestro\l"
+	.string "2do ADMIN en jerarquía quiere tener unas\l"
 	.string "palabras contigo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_12:
-	.string "ADM.ESMERALDA: Así que ADMIN. JEFE\n"
+	.string "ADM.ESMERALDA: ADMINISTRADOR JEFE\n"
 	.string "{PLAYER}. Ya tuvimos el placer de\l"
 	.string "vernos en TORRE LAVANDA, aunque… tu\l"
 	.string "presencia me recuerda a la de un\l"
@@ -127,7 +350,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_18:
 	.string "entre los ROCKET, ¿o no? Seguro que\l"
 	.string "podrías haberle dado más pelea a\l"
 	.string "nuestro ADMIN.AMATISTA de lo que la\l"
-	.string "otra ADMIN.JEFA hizo.$"
+	.string "otra ADMIN hizo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_19:
 	.string "Dejando eso de lado, me gustaría que\n"
@@ -175,9 +398,12 @@ GraniteCave_Encuentro_Esmeralda_Texto_27:
 GraniteCave_Encuentro_Esmeralda_Texto_28:
 	.string "Chico, si quisiéramos encerrarte, ya lo\n"
 	.string "hubiéramos hecho, ahora mismo no tienes\l"
-	.string "adónde ir. No hay ninguna fosa llena\l"
-	.string "de SHARPEDO debajo de ese agujero, ni\l"
-	.string "nada parecido.$"
+	.string "adónde ir.$"
+
+GraniteCave_Encuentro_Esmeralda_Texto_28.1:
+	.string "Tranquilízate, {PLAYER}.\n"
+	.string "No hay ninguna fosa llena de SHARPEDO\l"
+	.string "en el fondo de ese agujero.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_29:
 	.string "TRISTANA: De todos modos yo ya me iba.\n"

@@ -1,5 +1,10 @@
 Route106_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route106_OnFrame
 	.byte 0
+
+Route106_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 243, Route106_Ariana_Despues
+	.2byte 0
 
 Route106_EventScript_TrainerTipsSign::
 	msgbox Route106_Text_TrainerTips, MSGBOX_SIGN
@@ -53,35 +58,196 @@ end
 Route106_Tristana_Texto_1:
 	.string "Está durmiendo{PAUSE 5}…{PAUSE 5}$"
 
-Route106_Ariana::
+Route106_Ariana_Activacion::
 lock
-msgbox Route106_Ariana_Texto_1 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_2 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_3 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_4 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_5 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_6 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_7 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_9 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_10 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_11 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_12 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_13 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_14 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_15 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_16 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_17 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Texto_18 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+warpsilent MAP_GAME_CORNER_MAUVILLE_HIDEOUT_S2, 30, 13
+waitmovement 0x0
 release
 end
+
+Route106_Ariana_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_left
+walk_slow_left
+step_end
+
+Route106_Ariana_Move_2:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+Route106_Ariana_Move_3:
+delay_16
+walk_in_place_right
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Route106_Ariana_Move_4:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_right
+step_end
+
+Route106_Ariana_Move_5:
+walk_in_place_right
+step_end
+
+Route106_Ariana_Move_6:
+emote_exclamation_mark
+step_end
+
+Route106_Ariana_Move_7:
+walk_slow_right
+delay_16
+walk_in_place_right
+delay_16
+step_end
+
+Route106_Ariana_Move_8:
+walk_slow_left
+step_end
+
+Route106_Ariana::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route106_Ariana_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+applymovement 4, Route106_Ariana_Move_2
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route106_Ariana_Texto_2 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+addobject 13
+applymovement 4, Route106_Ariana_Move_3
+waitmovement 0x0
+applymovement 13, Route106_Ariana_Move_4
+waitmovement 0x0
+delay 15
+msgbox Route106_Ariana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 13, Route106_Ariana_Move_5
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Route106_Ariana_Move_6
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 13, Route106_Ariana_Move_7
+waitmovement 0x0
+playmoncry SPECIES_XURKITREE, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox Route106_Ariana_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Route106_Ariana_Move_6
+waitmovement 0x0
+applymovement 1, Route106_Ariana_Move_8
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, Route106_Ariana_Move_5
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, Route106_Ariana_Move_9
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, Route106_Ariana_Move_10
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, Route106_Ariana_Move_11
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route106_Ariana_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 13, Route106_Ariana_Move_3
+waitmovement 0x0
+msgbox Route106_Ariana_Texto_13 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_XURKITREE, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox Route106_Ariana_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, Route106_Ariana_Move_12
+waitmovement 0x0
+delay 15
+msgbox Route106_Ariana_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_POKENAV_CALL
+waitse
+playse SE_PIN
+applymovement 1, Route106_Ariana_Move_6
+waitmovement 0x0
+applymovement 1, Route106_Ariana_Move_13
+waitmovement 0x0
+delay 15
+playse SE_POKENAV_HANG_UP
+waitse
+delay 15
+msgbox Route106_Ariana_Texto_16 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route106_Ariana_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route106_Ariana_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+setvar VAR_UNUSED_0x40F7, 240
+warpsilent MAP_GRANITE_CAVE_1F, 27, 7
+release
+end
+
+Route106_Ariana_Move_13:
+walk_up
+walk_up
+step_end
+
+Route106_Ariana_Move_12:
+walk_slow_down
+step_end
+
+Route106_Ariana_Move_11:
+walk_in_place_left
+step_end
+
+Route106_Ariana_Move_10:
+face_left
+step_end
+
+Route106_Ariana_Move_9:
+face_up
+step_end
 
 Route106_Ariana_Texto_1:
 	.string "POLICÍA: Un científico de DEVON desea\n"
 	.string "verla, MADAME ARIANA.$"
 
 Route106_Ariana_Texto_2:
-	.string "ARIANA: Que pase.$"
+	.string "ARIANA: Hacédle pasar.$"
 
 Route106_Ariana_Texto_3:
 	.string "¿A qué se debe esta visita?$"
@@ -137,7 +303,7 @@ Route106_Ariana_Texto_15:
 	.string "qué más da.$"
 
 Route106_Ariana_Texto_16:
-	.string "¿Sí? ¿Quién es?$"
+	.string "¿Quién es?$"
 
 Route106_Ariana_Texto_17:
 	.string "????: {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Ha pasado mucho tiempo.$"
@@ -145,35 +311,150 @@ Route106_Ariana_Texto_17:
 Route106_Ariana_Texto_18:
 	.string "ARIANA: {PAUSE 5}…{PAUSE 5} {PAUSE 5}…{PAUSE 5}$"
 
+Route106_Ariana_Despues_Move_1:
+emote_exclamation_mark
+step_end
+
+Route106_Ariana_Despues_Move_2:
+face_right
+step_end
+
+Route106_Ariana_Despues_Move_3:
+walk_slow_left
+step_end
+
+Route106_Ariana_Despues_Move_4:
+delay_16
+face_down
+delay_16
+step_end
+
+Route106_Ariana_Despues_Move_5:
+delay_16
+delay_16
+face_left
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+step_end
+
+Route106_Ariana_Despues_Move_6:
+walk_in_place_left
+step_end
+
+
+
 Route106_Ariana_Despues::
 lock
+delay 25
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route106_Ariana_Despues_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Route106_Ariana_Despues_Move_2
+applymovement 7, Route106_Ariana_Despues_Move_3
+waitmovement 0x0
+delay 15
 msgbox Route106_Ariana_Despues_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_3
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_4
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_5
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_6
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_3
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_7 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Despues_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Despues_Texto_9 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Despues_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 7, Route106_Ariana_Despues_Move_6
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 244
+msgbox Route106_Ariana_Despues_Texto_8 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route106_Ariana_No
+goto Route106_Ariana_Si
+
+Route106_Ariana_Si::
 msgbox Route106_Ariana_Despues_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Route106_Ariana_Si_Move_1
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Route106_Ariana_Si_Move_1
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Route106_Ariana_Si_Move_1
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Route106_Ariana_Si_Move_1
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Route106_Ariana_Si_Move_1
+waitmovement 0x0
 msgbox Route106_Ariana_Despues_Texto_22 MSGBOX_AUTOCLOSE
-msgbox Route106_Ariana_Despues_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox Route106_Ariana_Despues_Texto_23 MSGBOX_DEFAULT
+waitfanfare
+delay 15
 msgbox Route106_Ariana_Despues_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route106_Ariana_Despues_Texto_25 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_690
+playmoncry SPECIES_HONCHKROW, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 7
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HOENN_14
 release
 end
+
+Route106_Ariana_No::
+msgbox Route106_Ariana_Despues_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+Route106_Ariana_NPC::
+lock
+faceplayer
+msgbox Route106_Ariana_Despues_Texto_9 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route106_Ariana_No
+goto Route106_Ariana_Si
+
+Route106_Ariana_Si_Move_1:
+face_up
+delay_16
+face_player
+step_end
+
 
 Route106_Ariana_Despues_Texto_1:
 	.string "ARIANA: Estás aquí, lo sabía.$"

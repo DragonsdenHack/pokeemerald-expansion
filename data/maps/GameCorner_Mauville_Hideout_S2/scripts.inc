@@ -1,5 +1,10 @@
 GameCorner_Mauville_Hideout_S2_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, GameCorner_Mauville_Hideout_S2_OnFrame
 	.byte 0
+
+GameCorner_Mauville_Hideout_S2_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 239, Route106_Ariana
+	.2byte 0
 
 
 GameCorner_Mauville_NPC2_Cientifico::

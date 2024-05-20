@@ -119,17 +119,113 @@ GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"
 	.string "That's too bad, then.$"
 
+GraniteCave_Tristana_Move_1:
+walk_in_place_down
+delay_16
+walk_slow_down
+walk_slow_right
+face_down
+delay_8
+walk_in_place_down
+step_end
+
+GraniteCave_Tristana_Move_1.1:
+walk_in_place_down
+delay_16
+walk_slow_down
+face_down
+delay_8
+walk_in_place_down
+step_end
+
+GraniteCave_Tristana_Move_2:
+emote_exclamation_mark
+step_end
+
+GraniteCave_Tristana_Move_3:
+face_up
+step_end
+
+GraniteCave_Tristana_Move_4:
+walk_slow_left
+walk_slow_up
+step_end
+
+GraniteCave_Tristana_Move_5:
+walk_down
+step_end
+
+GraniteCave_Encuentro_Tristana_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Tristana_Move_1
+waitmovement 0x0
+goto GraniteCave_Encuentro_Tristana
+
+GraniteCave_Encuentro_Tristana_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Tristana_Move_1.1
+waitmovement 0x0
+goto GraniteCave_Encuentro_Tristana
+
 GraniteCave_Encuentro_Tristana::
 lock
+playse SE_PIN
+applymovement 1, GraniteCave_Tristana_Move_2
+waitmovement 0x0
+delay 15
+applymovement 1, GraniteCave_Tristana_Move_3
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Tristana_Move_4
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_Tristana_Move_5
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, GraniteCave_Tristana_Move_2
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Tristana_Move_6
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Tristana_Move_3
+waitmovement 0x0
 msgbox GraniteCave_Encuentro_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Tristana_Move_7
+waitmovement 0x0
+delay 20
+playse SE_M_ROCK_THROW
+delay 30
+playse SE_TRUCK_DOOR
+delay 30
+special DrawWholeMapView
+setmetatile 5, 11, 0x285, FALSE
+special DrawWholeMapView
 msgbox GraniteCave_Encuentro_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, GraniteCave_Tristana_Move_8
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_11
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 241
 release
 end
+
+GraniteCave_Tristana_Move_8:
+walk_left
+walk_down
+step_end
+
+GraniteCave_Tristana_Move_7:
+walk_down
+delay_16
+walk_in_place_down
+step_end
+
+GraniteCave_Tristana_Move_6:
+face_right
+step_end
 
 GraniteCave_Encuentro_Tristana_Texto_1:
 	.string "TRISTANA: Emm… ¿{PLAYER}? ¿Cómo tú\n"
@@ -157,4 +253,25 @@ GraniteCave_Encuentro_Tristana_Texto_6:
 
 GraniteCave_Encuentro_Tristana_Texto_7:
 	.string "Te espero abajo.$"
+
+GraniteCave_Base_Secreta::
+lock
+msgbox GraniteCave_Base_Secreta_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 20
+playse SE_M_ROCK_THROW
+delay 30
+playse SE_TRUCK_DOOR
+delay 30
+special DrawWholeMapView
+setmetatile 5, 11, 0x285, FALSE
+special DrawWholeMapView
+delay 30
+release
+end
+
+GraniteCave_Base_Secreta_Texto_1:
+	.string "Esta roca está hueca, ¿quieres\n"
+	.string "presionarla?$"
 

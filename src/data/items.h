@@ -2490,7 +2490,7 @@ const struct Item gItems[] =
 
     [ITEM_GALARICA_CUFF] = // Todo
     {
-        .name = _("????????"),
+        .name = _("Piedra Devon"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
