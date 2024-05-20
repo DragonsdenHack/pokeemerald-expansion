@@ -79,7 +79,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "239",
+      "script": "Route106_Ariana_Activacion"
+    }
   ],
   "bg_events": [
 

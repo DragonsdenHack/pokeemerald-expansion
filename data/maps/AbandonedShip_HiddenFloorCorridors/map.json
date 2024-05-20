@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "AbandonedShip_EventScript_Primer_Policia",
-      "flag": "FLAG_HOENN_11"
+      "flag": "FLAG_HOENN_32"
     }
   ],
   "warp_events": [
