@@ -20906,7 +20906,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerName = _("SALVAJE"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN,
@@ -20915,7 +20915,7 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_654] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
@@ -20924,11 +20924,11 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER654),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER654},
+        .party = {.ItemCustomMoves = sParty_TRAINER654},
     },
     [TRAINER_TRAINER_655] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
@@ -20937,7 +20937,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER655),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER655},
+        .party = {.ItemCustomMoves = sParty_TRAINER655},
     },
     [TRAINER_TRAINER_656] =
     {

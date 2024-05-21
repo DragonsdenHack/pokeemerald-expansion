@@ -8512,13 +8512,13 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DELCATTY] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 65,
-        .baseDefense   = 65,
+        .baseHP        = 90,
+        .baseAttack    = 85,
+        .baseDefense   = 75,
         .baseSpAttack  = 55,
-        .baseSpDefense = 55,
+        .baseSpDefense = 65,
         #if P_UPDATED_STATS >= GEN_7
-            .baseSpeed     = 90,
+            .baseSpeed     = 100,
         #else
             .baseSpeed     = 70,
         #endif
@@ -20691,12 +20691,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TOUCANNON] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 120,
-        .baseDefense   = 75,
-        .baseSpeed     = 60,
+        .baseDefense   = 85,
+        .baseSpeed     = 70,
         .baseSpAttack  = 75,
-        .baseSpDefense = 75,
+        .baseSpDefense = 85,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
@@ -20710,7 +20710,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_SKILL_LINK, ABILITY_SHEER_FORCE},
+            .abilities = {ABILITY_SKILL_LINK, ABILITY_SKILL_LINK, ABILITY_SKILL_LINK},
         #else
             .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
         #endif
