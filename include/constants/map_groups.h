@@ -935,6 +935,7 @@
 #define MAP_VERDANTURF_TOWN_WANDAS_HOUSE            (6 | (40 << 8))
 #define MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE (7 | (40 << 8))
 #define MAP_VERDANTURF_TOWN_HOUSE                   (8 | (40 << 8))
+#define MAP_VERDANTUR_MUSEO_S1                      (9 | (40 << 8))
 
 // gMapGroup_IndoorPacifidlog
 #define MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F (0 | (41 << 8))
@@ -1431,6 +1432,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 34, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 10, 17, 10, 23, 13, 16, 15, 108, 61, 89, 62, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 34, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 13, 16, 15, 108, 61, 89, 62, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

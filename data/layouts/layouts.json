@@ -4600,11 +4600,11 @@
     {
       "id": "LAYOUT_BATTLE_TENT_LOBBY",
       "name": "BattleTentLobby_Layout",
-      "width": 12,
+      "width": 13,
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/BattleTentLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentLobby/map.bin"
@@ -14832,6 +14832,18 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Sootopolis_Secret_Cave/border.bin",
       "blockdata_filepath": "data/layouts/Sootopolis_Secret_Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTUR_MUSEO_S1",
+      "name": "Verdantur_Museo_S1_Layout",
+      "width": 16,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/Verdantur_Museo_S1/border.bin",
+      "blockdata_filepath": "data/layouts/Verdantur_Museo_S1/map.bin"
     }
   ]
 }

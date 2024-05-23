@@ -13444,9 +13444,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_STURDY, ABILITY_MAGNET_PULL, ABILITY_SAND_FORCE},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY, ABILITY_STURDY},
         #else
-            .abilities = {ABILITY_STURDY, ABILITY_MAGNET_PULL},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY},
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -28719,9 +28719,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LATIAS_MEGA] =
     {
         .baseHP        = 80,
-        .baseAttack    = 100,
+        .baseAttack    = 90,
         .baseDefense   = 120,
-        .baseSpeed     = 110,
+        .baseSpeed     = 120,
         .baseSpAttack  = 140,
         .baseSpDefense = 150,
         .type1 = TYPE_DRAGON,
@@ -28743,11 +28743,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LATIOS_MEGA] =
     {
         .baseHP        = 80,
-        .baseAttack    = 130,
-        .baseDefense   = 100,
-        .baseSpeed     = 110,
+        .baseAttack    = 100,
+        .baseDefense   = 110,
+        .baseSpeed     = 120,
         .baseSpAttack  = 160,
-        .baseSpDefense = 120,
+        .baseSpDefense = 130,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
