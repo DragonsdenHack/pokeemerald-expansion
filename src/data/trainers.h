@@ -20916,10 +20916,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_654] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .trainerClass = TRAINER_CLASS_POKEFAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerPic = TRAINER_PIC_POKEFAN_M,
+        .trainerName = _("SR. MARINO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -20929,10 +20929,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_655] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .trainerClass = TRAINER_CLASS_SCHOOL_KID,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerPic = TRAINER_PIC_SCHOOL_KID_F,
+        .trainerName = _("SAM"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

@@ -2,7 +2,12 @@
 @  These are labeled in DewfordTown/scripts.inc
 
 Route109_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route109_OnFrame
 	.byte 0
+
+Route109_OnFrame:
+map_script_2 VAR_ROUTE118_STATE, 4, Route109_Nina_Final
+	.2byte 0
 
 Route109_EventScript_StartDepartForDewford::
 	call EventScript_BackupMrBrineyLocation
@@ -561,3 +566,285 @@ Route109_Text_TrainerTipsSign:
 	.string	"Dicen que los POKéMON entrenados por\n"
 	.string	"ENTRENADORES se vuelven más fuertes\l"
 	.string	"que los POKéMON salvajes.$"
+
+Route109_Nina::
+lock
+faceplayer
+compare VAR_ROUTE118_STATE, 1
+goto_if_gt Route109_Nina_Despues
+msgbox Route109_Text_ChillAtMyPapasSpot, MSGBOX_NPC
+release
+end
+
+Route109_Nina_Despues::
+msgbox Route109_Text_ChillAtMyPapasSpot, MSGBOX_NPC
+delay 15
+msgbox Route109_Nina_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, Route109_Nina_Despues_Move_1
+waitmovement 0x0
+msgbox Route109_Nina_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route109_Nina_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_2
+waitmovement 0x0
+msgbox Route109_Nina_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_3
+waitmovement 0x0
+opendoor 11, 5
+waitdooranim
+delay 10
+msgbox Route109_Nina_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_4
+waitmovement 0x0
+setflag FLAG_HOENN_33
+removeobject 7
+closedoor 11, 5
+waitdooranim
+setvar VAR_ROUTE118_STATE, 3
+release
+end
+
+Route109_Nina_Despues_Move_4:
+walk_up
+step_end
+
+Route109_Nina_Despues_Move_3:
+face_up
+delay_16
+walk_in_place_up
+step_end
+
+Route109_Nina_Despues_Move_2:
+walk_in_place_down
+step_end
+
+Route109_Nina_Despues_Move_1:
+emote_exclamation_mark
+step_end
+
+Route109_Nina_Texto_1:
+	.string "… …$"
+
+Route109_Nina_Texto_2:
+	.string "¿Tú ganarle a mi padre?$"
+
+Route109_Nina_Texto_3:
+	.string "¡Jajajaja! Escuchame.$"
+
+Route109_Nina_Texto_4:
+	.string "Ya seas pobre o rico, vistas de traje o\n"
+	.string "en bañador… ¡Mi padre te da mil vueltas!$"
+
+Route109_Nina_Texto_5:
+	.string "¡ENTRENADORES, oíd! ¡Tenemos a otro\n"
+	.string "iluso que va a ser derrotado!$"
+
+Route109_Nina_Final_Move_1:
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Route109_Nina_Final_Move_2:
+walk_left
+face_right
+step_end
+
+Route109_Nina_Final_Move_3:
+walk_left
+walk_left
+walk_up
+step_end
+
+Route109_Nina_Final_Move_4:
+walk_up
+step_end
+
+Route109_Nina_Final::
+delay 15
+msgbox Route109_Nina_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 29, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 29, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 29, Route109_Nina_Final_Move_1
+waitmovement 0x0
+removeobject 29
+applymovement OBJ_EVENT_ID_PLAYER, Route109_Nina_Final_Move_2
+applymovement 28, Route109_Nina_Final_Move_3
+waitmovement 0x0
+opendoor 11, 5
+waitdooranim
+applymovement 28, Route109_Nina_Final_Move_4
+waitmovement 0x0
+removeobject 28
+closedoor 11, 5
+waitdooranim
+delay 15
+msgbox Route109_Nina_Final_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Final_Move_5
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route109_Nina_Final_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 26, Route109_Nina_Despues_Move_1
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_7
+applymovement 26, Route109_Nina_Despues_Move_7
+waitmovement 0x0
+delay 10
+applymovement 26, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox Route109_Nina_Final_Texto_10 MSGBOX_DEFAULT
+givemon SPECIES_ANORITH, 60, ITEM_NONE
+waitfanfare
+delay 15
+playse SE_LEDGE
+applymovement 26, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 26, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Despues_Move_9
+applymovement 27, Route109_Nina_Final_Move_5
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Final_Move_10
+applymovement 27, Route109_Nina_Final_Move_11
+waitmovement 0x0
+delay 10
+removeobject 26
+removeobject 27
+setflag FLAG_HOENN_689
+clearflag FLAG_HOENN_35
+setvar VAR_ROUTE118_STATE, 5
+release
+end
+
+Route109_Nina_Final_Move_11:
+walk_right
+walk_up
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+
+Route109_Nina_Final_Move_10:
+delay_16
+face_down
+delay_16
+walk_down
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Route109_Nina_Despues_Move_9:
+face_down
+step_end
+
+Route109_Nina_Despues_Move_8:
+walk_in_place_left
+step_end
+
+Route109_Nina_Despues_Move_7:
+walk_up
+walk_up
+walk_left
+walk_left
+step_end
+
+Route109_Nina_Final_Move_6:
+walk_right
+walk_down
+walk_right
+walk_right
+step_end
+
+Route109_Nina_Final_Move_5:
+face_up
+step_end
+
+Route109_Nina_Final_Texto_1:
+	.string "¡Y se acabaron también los helados\n"
+	.string "después del cole!$"
+
+Route109_Nina_Final_Texto_2:
+	.string "¡Bua, bua!$"
+
+Route109_Nina_Final_Texto_3:
+	.string "Vaya, sí que le ha regañado bien.$"
+
+Route109_Nina_Final_Texto_4:
+	.string "¡Y te has perdido lo mejor! ¡Los\n"
+	.string "combates han sido increíbles!$"
+
+Route109_Nina_Final_Texto_5:
+	.string "¡Aún no me lo creo, lo has conseguido!$"
+
+Route109_Nina_Final_Texto_6:
+	.string "Cuando entraste a la CASA de la PLAYA,\n"
+	.string "mi amigo estuvo todo el rato pendiente\l"
+	.string "tras las ventanillas. No daba crédito a\l"
+	.string "lo que estaba viendo, me insistió tanto\l"
+	.string "que al final me hizo venir con el barco\l"
+	.string "de mi padre.$"
+
+Route109_Nina_Final_Texto_7:
+	.string "¡Señor, es usted increíble!$"
+
+Route109_Nina_Final_Texto_8:
+	.string "Después de esto, dejará de ser tan\n"
+	.string "presumida en el colegio.$"
+
+Route109_Nina_Final_Texto_9:
+	.string "Sin ti hubiera sido imposible. Este\n"
+	.string "POKÉMON es para ti.$"
+
+Route109_Nina_Final_Texto_10:
+	.string "¡{PLAYER} obtuvo un ANORITH al nv.60!$"
+
+Route109_Nina_Final_Texto_11:
+	.string "Ahora sí, ¡vuelvo a AZULIZA!$"
+
+Route109_Nina_Final_Texto_12:
+	.string "¡Nos vemos en el cole!$"

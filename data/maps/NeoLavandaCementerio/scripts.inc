@@ -170,3 +170,65 @@ NeoLavandaCementerio_Fuji_Texto_1:
 	.string "es TORRE RADIO, para los que lleguen de\l"
 	.string "fuera, este lugar y sus pisos\l"
 	.string "subterráneos no existen.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues::
+lock
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_3 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_4 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_5 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_7 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_8 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_1:
+	.string "FUJI: Echando la vista atrás, veo todo\n"
+	.string "lo que KANTO ha cambiado en muy poco\l"
+	.string "tiempo.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_2:
+	.string "No solo PUEBLO LAVANDA, ¿has visto el\n"
+	.string "TÚNEL ROCA?$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_3:
+	.string "Desde que los CUBONE empezaron a\n"
+	.string "emigrar allí, su interior ha cambiado\l"
+	.string "considerablemente.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_4:
+	.string "La verdad es que… hay algo que me\n"
+	.string "inquieta. Aunque, a mi pesar, soy\l"
+	.string "demasiado viejo como para ponerme a\l"
+	.string "investigar solo.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_5:
+	.string "Sé que eres un hombre ocupado, y no\n"
+	.string "merezco pedirte más. Pero si tienes un\l"
+	.string "hueco, me haría muy feliz que\l"
+	.string "acompañaras a este anciano en una\l"
+	.string "última aventura.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_6:
+	.string "Háblame cuando tengas tiempo,\n"
+	.string "{PLAYER}.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_7:
+	.string "Dime, ¿acompañarías a este pobre\n"
+	.string "anciano en su última aventura?$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_8:
+	.string "No te preocupes, seguiré esperando. Es\n"
+	.string "algo que he aprendido a hacer muy bien.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9:
+	.string "Oh, {PLAYER}. ¡No sabes lo feliz que me\n"
+	.string "haces!$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10:
+	.string "Te espero al pie del TÚNEL ROCA\n"
+	.string "entonces. Allí nos vemos.$"

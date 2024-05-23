@@ -482,3 +482,378 @@ DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
 	.string	"que saben el movimiento\l"
 	.string	"“{STR_VAR_1}”.$"
 
+DewfordTown_Hall_Secundaria::
+lock
+faceplayer
+compare VAR_ROUTE118_STATE, 4
+goto_if_gt DewfordTown_Hall_Secundaria_Final
+compare VAR_ROUTE118_STATE, 1
+goto_if_gt DewfordTown_Hall_Secundaria_Despues
+msgbox DewfordTown_Hall_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_7 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq DewfordTown_Hall_Secundaria_No
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+setvar VAR_ROUTE118_STATE, 2
+release
+end
+
+DewfordTown_Hall_Secundaria_Despues::
+msgbox DewfordTown_Hall_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+
+DewfordTown_Hall_Secundaria_No::
+msgbox DewfordTown_Hall_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+
+DewfordTown_Hall_Secundaria_Texto_1:
+	.string "Esa niña de la CASA de la PLAYA, en\n"
+	.string "CIUDAD PORTUAL, es muy pesada…$"
+
+DewfordTown_Hall_Secundaria_Texto_2:
+	.string "En el colegio está siempre presumiendo\n"
+	.string "de que su padre nos da mil vueltas a\l"
+	.string "todos entrenando POKÉMÓN.$"
+
+DewfordTown_Hall_Secundaria_Texto_3:
+	.string "Es una engreída que se cree la mejor,\n"
+	.string "cómo me gustaría que alguien le diera\l"
+	.string "una buena lección.$"
+
+DewfordTown_Hall_Secundaria_Texto_4:
+	.string "… …$"
+
+DewfordTown_Hall_Secundaria_Texto_5:
+	.string "¿Tú crees que podrías derrotar a su\n"
+	.string "padre?$"
+
+DewfordTown_Hall_Secundaria_Texto_6:
+	.string "Dicen que es más fuerte que un LÍDER de\n"
+	.string "GIMNASIO, nadie le ha visto perder.$"
+
+DewfordTown_Hall_Secundaria_Texto_7:
+	.string "¿Estás seguro?$"
+
+DewfordTown_Hall_Secundaria_Texto_8:
+	.string "Entiendo… no queda otra que seguir\n"
+	.string "soportándola en el colegio.$"
+
+DewfordTown_Hall_Secundaria_Texto_9:
+	.string "¿De verdad? ¡Guau!$"
+
+DewfordTown_Hall_Secundaria_Texto_10:
+	.string "Pero tiene que haber testigos, avisaré\n"
+	.string "a un amigo de PORTUAL que suele jugar\l"
+	.string "en la playa.$"
+
+DewfordTown_Hall_Secundaria_Texto_11:
+	.string "Me encantaría que pudieras derrotar a\n"
+	.string "su padre delante de todos. Si logras\l"
+	.string "hacerlo, ¡te daré algo muy guay!$"
+
+DewfordTown_Hall_Secundaria_Texto_12:
+	.string "La CASA de la PLAYA no tiene pérdida, es\n"
+	.string "la única que hay en la playa de CIUDAD\l"
+	.string "PORTUAL. Esa niña siempre está en la\l"
+	.string "puerta riéndose de todos, ¡es odiosa!$"
+
+DewfordTown_Hall_Secundaria_Final::
+lock
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_1
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+addobject 11
+clearflag FLAG_HOENN_688
+playse SE_DOOR
+waitse
+delay 15
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Hall_Secundaria_Final_Move_3
+waitmovement 0x0
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_4
+waitmovement 0x0
+playse SE_PIN
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Hall_Secundaria_Final_Move_5
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_6
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_7
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_7
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_8
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_9
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_7
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_2
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_10
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_11
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_2
+waitmovement 0x0
+delay 15
+playse SE_LEDGE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_12
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_12
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_7
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_9
+waitmovement 0x0
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_13
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_13
+waitmovement 0x0
+delay 15
+msgbox DewfordTown_Hall_Secundaria_Final_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 10, DewfordTown_Hall_Secundaria_Final_Move_14.1
+applymovement 11, DewfordTown_Hall_Secundaria_Final_Move_14
+waitmovement 0x0
+playse SE_EXIT
+removeobject 10
+removeobject 11
+setflag FLAG_HOENN_688
+setflag FLAG_HOENN_36
+release
+end
+
+DewfordTown_Hall_Secundaria_Final_Move_14.1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+face_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_14:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+face_down
+walk_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_13:
+jump_in_place_up
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_12:
+jump_in_place_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_11:
+face_up
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_10:
+face_left
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_9:
+walk_in_place_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_8:
+walk_slow_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_7:
+walk_in_place_up
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_6:
+walk_up
+walk_up
+walk_up
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_5:
+delay_16
+walk_slow_right
+face_left
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_4:
+walk_slow_up
+delay_16
+face_left
+delay_16
+delay_16
+walk_slow_right
+walk_slow_right
+delay_16
+delay_16
+face_up
+delay_16
+delay_16
+walk_slow_right
+walk_slow_right
+delay_16
+delay_16
+face_up
+delay_16
+delay_16
+walk_slow_right
+walk_slow_right
+delay_16
+delay_16
+face_up
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_3:
+face_down
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_2:
+emote_exclamation_mark
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Move_1:
+face_right
+step_end
+
+DewfordTown_Hall_Secundaria_Final_Texto_1:
+	.string "¡No sabía que en HOENN había\n"
+	.string "entrenadores tan fuertes como tú! Mi\l"
+	.string "amigo me dijo que todos los demás\l"
+	.string "parecían novatos a tu lado.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_2:
+	.string "Aunque… a decir verdad… la niña acabó\n"
+	.string "dándome un poco de pena. Todo se le\l"
+	.string "vino arriba de repente, tal vez…$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_3:
+	.string "¿Q-qué haces aquí?$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_4:
+	.string "M-mi padre me ha hecho pedir perdón a\n"
+	.string "todos los que molestaba en el cole.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_5:
+	.string "Oh.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_6:
+	.string "L-lo siento. Solo quería que todos\n"
+	.string "supieran lo guay que era mi padre y\l"
+	.string "parecerme a él.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_7:
+	.string "N-no te preocupes. Creímos que eras\n"
+	.string "una fanfarrona y nos sorprendiste.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_8:
+	.string "Mi amigo me dijo que eres casi tan\n"
+	.string "fuerte como tu padre, ¿de verdad tienes\l"
+	.string "una MEGAPIEDRA?$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_9:
+	.string "¡Sí! Bueno… La encontramos en el MONTE\n"
+	.string "PÍRICO, en la lápida de mi mami… Desde\l"
+	.string "entonces la llevo siempre conmigo.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_10:
+	.string "Oh, no lo sabía… lo siento mucho…$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_11:
+	.string "No pasa nada. Esta MEGAPIEDRA me\n"
+	.string "protege, estoy segura.$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_12:
+	.string "¿Sabes una cosa? Con mi BANNETE\n"
+	.string "podremos explorar la CUEVA GRANITO sin\l"
+	.string "miedo, ¡puede aprender DESTELLO!$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_13:
+	.string "¡Guau! ¡Me encantaría! ¡Siempre quise\n"
+	.string "explorarla pero me da miedo la\l"
+	.string "oscuridad!$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_14:
+	.string "¿Entonces te apuntas?$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_15:
+	.string "¡Sí! ¡Vamos a explorarla!$"
+
+DewfordTown_Hall_Secundaria_Final_Texto_16:
+	.string "¡A lo mejor hasta encontramos una\n"
+	.string "MEGAPIEDRA para ti!$"
+
+

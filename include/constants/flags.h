@@ -1680,11 +1680,11 @@
 #define FLAG_HOENN_30 (TRAINER_FLAGS_END + 30) // ROPA ASCENSO ADMIN JEFE JEFE
 #define FLAG_HOENN_31 (TRAINER_FLAGS_END + 31) // PEEKO BLOQUEO BOSQUE PETALIA
 #define FLAG_HOENN_32 (TRAINER_FLAGS_END + 32) // ESCANER VERDADERO - TRISTANA BLOQUEO CUEVA GRANITO - NAO ABANDONADA DEVON
-#define FLAG_HOENN_33 (TRAINER_FLAGS_END + 33)
-#define FLAG_HOENN_34 (TRAINER_FLAGS_END + 34)
-#define FLAG_HOENN_35 (TRAINER_FLAGS_END + 35)
-#define FLAG_HOENN_36 (TRAINER_FLAGS_END + 36)
-#define FLAG_HOENN_37 (TRAINER_FLAGS_END + 37)
+#define FLAG_HOENN_33 (TRAINER_FLAGS_END + 33) // CHICA CASA PLAYA RUTA 109
+#define FLAG_HOENN_34 (TRAINER_FLAGS_END + 34) // CHICA DENTRO CASA PLAYA RUTA 109
+#define FLAG_HOENN_35 (TRAINER_FLAGS_END + 35) // PADRE CASA PLAYA RUTA 109
+#define FLAG_HOENN_36 (TRAINER_FLAGS_END + 36) // NINO CASA AZULINA FINAL SECUNDARIA CASA PLAYA
+#define FLAG_HOENN_37 (TRAINER_FLAGS_END + 37) 
 #define FLAG_HOENN_38 (TRAINER_FLAGS_END + 38)
 #define FLAG_HOENN_39 (TRAINER_FLAGS_END + 39)
 #define FLAG_HOENN_40 (TRAINER_FLAGS_END + 40)
@@ -2335,8 +2335,8 @@
 #define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // Nina casa azuliza final secundaria casa playa // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // Ninos ruta 109 secundaria casa playa // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690) // Ariana Salida Cueva Granito // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691) // Karateka túnel Ferdegal // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692) // Entrenador Guay Estratega Ruta 111 // En modo Setflag por defecto desde fin DLC

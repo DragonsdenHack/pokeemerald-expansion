@@ -38131,10 +38131,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER654[] = {
     },
     {
     .iv = 255,
-    .lvl = 110,
+    .lvl = 112,
     .species = SPECIES_TOUCANNON,
     .heldItem = ITEM_LIFE_ORB,
-    .evs = {60, 252, 60, 252, 60, 60},
+    .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_BEAK_BLAST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_TAILWIND}
     },

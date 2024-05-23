@@ -1217,3 +1217,123 @@ Vermilion_Motorista_Texto_1:
 	.string "¡Voy a fundir a todos tus POKÉMON\l"
 	.string "acuáticos solo con ese bendito\l"
 	.string "movimiento!$"
+
+Vermilion_Anciano_Bill::
+lock
+msgbox Vermilion_Anciano_Bill_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_23 MSGBOX_AUTOCLOSE
+release
+end
+
+Vermilion_Anciano_Bill_Texto_1:
+	.string "Ha sido duro, MACHOP, pero ya tenemos\n"
+	.string "todo listo para iniciar la construcción.$"
+
+Vermilion_Anciano_Bill_Texto_2:
+	.string "¡Vamos a honrar la región de KANTO y el\n"
+	.string "ARCHI7 como ningún otro lugar lo hizo\l"
+	.string "antes!$"
+
+Vermilion_Anciano_Bill_Texto_3:
+	.string "¡Chop!$"
+
+Vermilion_Anciano_Bill_Texto_4:
+	.string "POLICÍA de MESETA AÑIL.$"
+
+Vermilion_Anciano_Bill_Texto_5:
+	.string "¿Q-qué ocurre?$"
+
+Vermilion_Anciano_Bill_Texto_6:
+	.string "Hemos identificado irregularidades en\n"
+	.string "este terreno. No es apto para la\l"
+	.string "construcción, y está usted incurriendo\l"
+	.string "en un delito.$"
+
+Vermilion_Anciano_Bill_Texto_7:
+	.string "Eso… ¡eso es imposible! Me dijeron que\n"
+	.string "todo estaba en regla, íbamos a empezar\l"
+	.string "a construir mañana.$"
+
+Vermilion_Anciano_Bill_Texto_8:
+	.string "La legislatura ha cambiado.$"
+
+Vermilion_Anciano_Bill_Texto_9:
+	.string "No… ¡no podéis hacerme esto!$"
+
+Vermilion_Anciano_Bill_Texto_10:
+	.string "¿Tenéis idea de todo lo que he pasado\n"
+	.string "para llegar hasta aquí? ¿La cantidad de\l"
+	.string "trabajo y dinero que he invertido para\l"
+	.string "ello?$"
+
+Vermilion_Anciano_Bill_Texto_11:
+	.string "¡Llevo toda la vida trabajando por este\n"
+	.string "sueño!$"
+
+Vermilion_Anciano_Bill_Texto_12:
+	.string "Los sueños a veces no se cumplen,\n"
+	.string "anciano. De hecho, lo normal, es que no\l"
+	.string "lo hagan. Bienvenido al mundo real.$"
+
+Vermilion_Anciano_Bill_Texto_13:
+	.string "¡No! ¡No tenéis derecho!$"
+
+Vermilion_Anciano_Bill_Texto_14:
+	.string "¡Lleváoslo de aquí!$"
+
+Vermilion_Anciano_Bill_Texto_15:
+	.string "¡Chop!$"
+
+Vermilion_Anciano_Bill_Texto_16:
+	.string "El COMITÉ de la LIGA POKÉMON se\n"
+	.string "encargará de ti.$"
+
+Vermilion_Anciano_Bill_Texto_17:
+	.string "????: ¿Y bien?$"
+
+Vermilion_Anciano_Bill_Texto_18:
+	.string "SR.BILL. Misión cumplida, el ANCIANO y\n"
+	.string "su MACHOP no interferirán en su\l"
+	.string "proyecto.$"
+
+Vermilion_Anciano_Bill_Texto_19:
+	.string "BILL: Perfecto.$"
+
+Vermilion_Anciano_Bill_Texto_20:
+	.string "¿Quiere que eliminemos también el claro\n"
+	.string "de tierra?$"
+
+Vermilion_Anciano_Bill_Texto_21:
+	.string "BILL: No, es irrelevante. Jamás hizo\n"
+	.string "pública la naturaleza de su proyecto.$"
+
+Vermilion_Anciano_Bill_Texto_22:
+	.string "BILL: Quedará como un vestigio de lo\n"
+	.string "que una vez pudo ser. La gente\l"
+	.string "inventará divertidas historias,\l"
+	.string "elucubrará teorías… y yo me reiré de\l"
+	.string "todas ellas desde arriba.$"
+
+Vermilion_Anciano_Bill_Texto_23:
+	.string "Como usted guste, SR.BILL.$"
