@@ -405,3 +405,92 @@ end
 VerdanturfTown_Artista_Texto_1:
 	.string "Creí que solo CALAGUA contaba con un\n"
 	.string "MUSEO. ¡Qué sorpresa!$"
+
+VerdanturfTown_Dueno::
+lock
+msgbox VerdanturfTown_Dueno_Texto_1 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_2 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_3 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_4 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_5 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_6 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_7 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_8 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_9 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_10 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_11 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Dueno_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+VerdanturfTown_Dueno_Texto_1:
+	.string "¿Quién eres tú?$"
+
+VerdanturfTown_Dueno_Texto_2:
+	.string "¿KANTO?$"
+
+VerdanturfTown_Dueno_Texto_3:
+	.string "Alguien que no sea de HOENN jamás podrá\n"
+	.string "apreciar la verdadera belleza de este\l"
+	.string "museo, ¡largo de aquí!$"
+
+VerdanturfTown_Dueno_Texto_4:
+	.string "… …$"
+
+VerdanturfTown_Dueno_Texto_5:
+	.string "¡¿Tener yo una obra del MUSEO PORTUAL?!$"
+
+VerdanturfTown_Dueno_Texto_6:
+	.string "¿De qué me estás hablando?$"
+
+VerdanturfTown_Dueno_Texto_7:
+	.string "Joven insolente, no es culpa mía que el\n"
+	.string "dueño de ese museo sea incapaz de\l"
+	.string "mantener sus asuntos en orden.$"
+
+VerdanturfTown_Dueno_Texto_8:
+	.string "Pensaba llamar a seguridad, pero tu\n"
+	.string "actitud me irrita. Voy a encargarme en\l"
+	.string "persona de que no vuelvas a pisar más\l"
+	.string "PUEBLO VERDEGAL.$"
+
+VerdanturfTown_Dueno_Texto_9:
+	.string "¡Contempla el verdadero poder de un\n"
+	.string "artista de HOENN!$"
+
+VerdanturfTown_Dueno_Texto_10:
+	.string "¿Quién eres tú?$"
+
+VerdanturfTown_Dueno_Texto_11:
+	.string "Maldito… perder ante esos POKÉMON\n"
+	.string "carentes de alma y esencia, ¡qué\l"
+	.string "deshonra para el arte!$"
+
+VerdanturfTown_Dueno_Texto_12:
+	.string "No creas que te vas a salir con la tuya.$"
+
+VerdanturfTown_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_658, VerdanturfTown_Text_PrimerPoliciaIntro, VerdanturfTown_Text_PrimerPoliciaDefeat
+	msgbox VerdanturfTown_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfTown_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_659, VerdanturfTown_Text_SegundoPoliciaIntro, VerdanturfTown_Text_SegundoPoliciaDefeat
+	msgbox VerdanturfTown_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfTown_EventScript_Tercer_Policia::
+	trainerbattle_single TRAINER_TRAINER_660, VerdanturfTown_Text_TercerPoliciaIntro, VerdanturfTown_Text_TercerPoliciaDefeat
+	msgbox VerdanturfTown_Text_TercerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfTown_EventScript_Cuarto_Policia::
+	trainerbattle_single TRAINER_TRAINER_661, VerdanturfTown_Text_CuartoPoliciaIntro, VerdanturfTown_Text_CuartoPoliciaDefeat
+	msgbox VerdanturfTown_Text_CuartoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VerdanturfTown_EventScript_Quinto_Policia::
+	trainerbattle_single TRAINER_TRAINER_662, VerdanturfTown_Text_QuintoPoliciaIntro, VerdanturfTown_Text_QuintoPoliciaDefeat
+	msgbox VerdanturfTown_Text_QuintoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+

@@ -6021,11 +6021,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHUCKLE] =
     {
-        .baseHP        = 20,
-        .baseAttack    = 10,
+        .baseHP        = 30,
+        .baseAttack    = 5,
         .baseDefense   = 230,
         .baseSpeed     = 5,
-        .baseSpAttack  = 10,
+        .baseSpAttack  = 5,
         .baseSpDefense = 230,
         .type1 = TYPE_BUG,
         .type2 = TYPE_ROCK,
@@ -6042,9 +6042,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_STURDY, ABILITY_GLUTTONY, ABILITY_CONTRARY},
+            .abilities = {ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK},
         #else
-            .abilities = {ABILITY_STURDY, ABILITY_NONE},
+            .abilities = {ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK},
         #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
@@ -26649,13 +26649,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SERPERIOR_BOND] =
     {
         .baseHP        = 85,
-        .baseAttack    = 65,
+        .baseAttack    = 75,
         .baseDefense   = 105,
-        .baseSpeed     = 133,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 125,
+        .baseSpeed     = 163,
+        .baseSpAttack  = 105,
+        .baseSpDefense = 105,
         .type1 = TYPE_GRASS,
-        .type2 = TYPE_GRASS,
+        .type2 = TYPE_DRAGON,
         .catchRate = 45,
         .expYield = 288,
         .evYield_Speed     = 3,

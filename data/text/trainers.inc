@@ -18076,6 +18076,64 @@ Route119_Text_SegundoCientificoPostBattle:
 	.string	"controlar el tiempo a voluntad,\l"
 	.string	"eso puede ser útil para DEVON!$"
 
+VerdanturfTown_Text_PrimerPoliciaIntro:
+	.string "Más adelante está la galería privada,\n"
+	.string "nadie debe pasar de este punto.$"
+
+VerdanturfTown_Text_PrimerPoliciaDefeat:
+	.string "Pero… ¿qué?$"
+
+VerdanturfTown_Text_PrimerPoliciaPostBattle:
+	.string "Si cruzas esta línea roja no hay vuelta\n"
+	.string "atrás, estás avisado.$"
+
+VerdanturfTown_Text_SegundoPoliciaIntro:
+	.string "¿Quién va? ¡No deberías estar aquí!$"
+
+VerdanturfTown_Text_SegundoPoliciaDefeat:
+	.string "¿Quién eres tú?$"
+
+VerdanturfTown_Text_SegundoPoliciaPostBattle:
+	.string "El dueño del museo es muy estricto,\n"
+	.string "esto no le gustará nada.$"
+
+VerdanturfTown_Text_TercerPoliciaIntro:
+	.string "El verdadero arte solo lo pueden\n"
+	.string "apreciar unos pocos, no pareces ser uno\l"
+	.string "de ellos.$"
+
+VerdanturfTown_Text_TercerPoliciaDefeat:
+	.string "Parece que sabes apreciar el arte de\n"
+	.string "combatir…$"
+
+VerdanturfTown_Text_TercerPoliciaPostBattle:
+	.string "HOENN tiene unas condiciones únicas, es\n"
+	.string "normal que aquí florezca el arte como\l"
+	.string "en ningún otro lugar.$"
+
+VerdanturfTown_Text_CuartoPoliciaIntro:
+	.string "¿Eres un inversor privado? Nadie nos\n"
+	.string "avisó de tu llegada, ¡en guardia!$"
+
+VerdanturfTown_Text_CuartoPoliciaDefeat:
+	.string "¡No pude detenerte!$"
+
+VerdanturfTown_Text_CuartoPoliciaPostBattle:
+	.string "La fama de HOENN en el ámbito artístico\n"
+	.string "puede ser explotada fuera de sus\l"
+	.string "fronteras.$"
+
+VerdanturfTown_Text_QuintoPoliciaIntro:
+	.string "¡Alto ahí! Todo lo que hay a partir de\n"
+	.string "este punto ya ha sido vendido.$"
+
+VerdanturfTown_Text_QuintoPoliciaDefeat:
+	.string "¡Esto es un ultraje!$"
+
+VerdanturfTown_Text_QuintoPoliciaPostBattle:
+	.string "Nadie va a interferir en este negocio,\n"
+	.string "quieras o no.$"
+
 
 
 

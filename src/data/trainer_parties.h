@@ -38419,21 +38419,60 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER662[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER663[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER663[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 111,
+    .species = SPECIES_SANDACONDA,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .evs = {252, 120, 120, 120, 120, 252},
+    .nature = NATURE_IMPISH,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_GLARE, MOVE_EARTHQUAKE, MOVE_REST}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 112,
+    .species = SPECIES_SHUCKLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 0, 252, 0, 0, 252},
+    .nature = NATURE_CAREFUL,
+    .moves = {MOVE_TOXIC, MOVE_REST, MOVE_PROTECT, MOVE_DEFENSE_CURL}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 113,
+    .species = SPECIES_GYARADOS,
+    .heldItem = ITEM_CHOICE_BAND,
+    .evs = {120, 252, 120, 252, 120, 120},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_OUTRAGE, MOVE_OUTRAGE, MOVE_OUTRAGE, MOVE_OUTRAGE}
+    },
+    {
+    .iv = 255,
+    .lvl = 113,
+    .species = SPECIES_MILOTIC,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .evs = {120, 120, 120, 252, 252, 120},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_MOONBLAST, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 114,
+    .species = SPECIES_SEVIPER,
+    .heldItem = ITEM_LIFE_ORB,
+    .evs = {252, 252, 252, 252, 252, 252},
+    .nature = NATURE_NAUGHTY,
+    .moves = {MOVE_SLUDGE_WAVE, MOVE_GIGA_DRAIN, MOVE_FLAMETHROWER, MOVE_SUCKER_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 114,
+    .species = SPECIES_SERPERIOR,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {120, 120, 120, 252, 252, 120},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_DRACO_METEOR, MOVE_LEAF_STORM, MOVE_GIGA_DRAIN, MOVE_DRAGON_PULSE}
     }
     
 };

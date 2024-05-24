@@ -880,7 +880,7 @@ step_end
 
 MauvilleCity_GameCorner_Tristana_Texto_1:
 	.string "TRISTANA: ¡{PLAYER}! Por lo que sé,\n"
-	.string "has hecho algo de ruído en\l"
+	.string "has hecho algo de ruido en\l"
 	.string "MALVALANOVA, ¿no?$"
 
 MauvilleCity_GameCorner_Tristana_Texto_2:
