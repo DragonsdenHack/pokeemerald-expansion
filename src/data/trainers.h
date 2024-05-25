@@ -21033,9 +21033,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_663] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .trainerClass = TRAINER_CLASS_PIKE_QUEEN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
+        .trainerPic = TRAINER_PIC_PIKE_QUEEN_LUCY,
         .trainerName = _("FORTUNIA"),
         .items = {},
         .doubleBattle = FALSE,

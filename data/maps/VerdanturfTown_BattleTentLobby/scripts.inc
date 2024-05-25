@@ -389,6 +389,19 @@ VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 	.string "of seeing tough TRAINERS in action\l"
 	.string "in whatever the situation.$"
 
+Slateport_Dependienta::
+lock
+faceplayer
+msgbox Slateport_Dependienta_Texto_1 MSGBOX_NPC
+release
+end
+
+Slateport_Dependienta_Texto_1:
+	.string	"Hola. Estás en el MUSEO de PORTUAL.\p"
+	.string	"Te rogamos que entres y disfrutes\n"
+	.string	"de nuestra extraordinaria colección\l"
+	.string	"de arte sobre temática POKéMON.$"
+
 
 VerdanturfTown_Dependienta::
 lock
@@ -587,4 +600,16 @@ VerdanturfTown_EventScript_Quinto_Policia::
 	trainerbattle_single TRAINER_TRAINER_662, VerdanturfTown_Text_QuintoPoliciaIntro, VerdanturfTown_Text_QuintoPoliciaDefeat
 	msgbox VerdanturfTown_Text_QuintoPoliciaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+VerdanturfTown_Policia_Fin::
+lock
+faceplayer
+msgbox VerdanturfTown_Policia_Fin_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VerdanturfTown_Policia_Fin_Texto_1:
+	.string "El acceso a esta zona solo queda\n"
+	.string "reservado para el personal del museo.\l"
+	.string "Espero que lo entienda.$"
 

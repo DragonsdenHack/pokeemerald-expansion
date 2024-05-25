@@ -167,6 +167,7 @@ static void Task_Andra4(u8);
 static void Task_Andra5(u8);
 static void Task_Andra6(u8);
 static void Task_LiderSete(u8);
+static void Task_Fortunia(u8);
 static void Task_Aqua(u8);
 static void Task_Magma(u8);
 static void Task_Regice(u8);
@@ -474,6 +475,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_ANDRA5] = Task_Andra5,
     [B_TRANSITION_ANDRA6] = Task_Andra6,
     [B_TRANSITION_LIDERSETE] = Task_LiderSete,
+    [B_TRANSITION_FORTUNIA] = Task_Fortunia,
     [B_TRANSITION_AQUA] = Task_Aqua,
     [B_TRANSITION_MAGMA] = Task_Magma,
     [B_TRANSITION_REGICE] = Task_Regice,
@@ -715,6 +717,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA5] = TRAINER_PIC_ANDRA_ADMIN,
     [MUGSHOT_ANDRA6] = TRAINER_PIC_ANDRA_ADMIN_JEFE,
     [MUGSHOT_LIDERSETE] = TRAINER_PIC_LIDERSETE,
+    [MUGSHOT_FORTUNIA] = TRAINER_PIC_PIKE_QUEEN_LUCY,
 };
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 {
@@ -778,6 +781,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA5] = {0x200, 0x200},
     [MUGSHOT_ANDRA6] = {0x200, 0x200},
     [MUGSHOT_LIDERSETE] = {0x200, 0x200},
+    [MUGSHOT_FORTUNIA] = {0x200, 0x200},
     [MUGSHOT_CAPITAN] = {0x200, 0x200},
 };
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
@@ -842,6 +846,7 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA5] =    { -20,  0},
     [MUGSHOT_ANDRA6] =    { -8,  0},
     [MUGSHOT_LIDERSETE] =    { -8,  0},
+    [MUGSHOT_FORTUNIA] =    { -18,  0},
     [MUGSHOT_CAPITAN] =    { -8,  0},
 };
 
@@ -1235,6 +1240,7 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA5] = sMugshotPal_Sidney,
     [MUGSHOT_ANDRA6] = sMugshotPal_Champion,
     [MUGSHOT_LIDERSETE] = sMugshotPal_Glacia,
+    [MUGSHOT_FORTUNIA] = sMugshotPal_Sidney,
     [MUGSHOT_CAPITAN] = sMugshotPal_Drake,
 };
 
@@ -2956,6 +2962,12 @@ static void Task_Andra6(u8 taskId)
 static void Task_LiderSete(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_LIDERSETE;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Fortunia(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_FORTUNIA;
     DoMugshotTransition(taskId);
 }
 

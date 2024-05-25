@@ -103,7 +103,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_ROUTE117_STATE",
+      "var_value": "6",
+      "script": "Verdantur_Museo_S1_Fortunia"
+    }
   ],
   "bg_events": [
 

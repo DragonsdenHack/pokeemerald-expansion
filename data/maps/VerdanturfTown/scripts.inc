@@ -89,8 +89,8 @@ VerdanturfTown_Text_AirCleanHere:
 
 VerdanturfTown_Text_MakeBattleTentDebut:
 	.string	"Mis POKéMON y yo estamos de racha.\p"
-	.string	"Así que he decidido probar suerte en\n"
-	.string	"la TIENDA de BATALLA que hay aquí.$"
+	.string	"Un descanso en el MUSEO VERDEGAL\n"
+	.string	"no nos vendrá mal.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string	"¿Has visto la cueva que hay cerca de\n"

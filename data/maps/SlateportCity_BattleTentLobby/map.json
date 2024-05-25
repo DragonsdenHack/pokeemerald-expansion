@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_BattleTentLobby_EventScript_Attendant",
-      "flag": "0"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Slateport_Dependienta",
       "flag": "0"
     },
     {
@@ -117,6 +117,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_Museo_Secundaria_Caballero",
       "flag": "FLAG_HOENN_39"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "VerdanturfTown_Policia_Fin",
+      "flag": "FLAG_HOENN_686"
     }
   ],
   "warp_events": [
@@ -142,10 +155,74 @@
     {
       "type": "sign",
       "x": 4,
-      "y": 5,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SlateportCity_BattleTentLobby_EventScript_RulesBoard"
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_GrassPokemonPainting"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 13,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_EventScript_BirdSculpture"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_WomanPainting"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_BerryPainting"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_BerryPainting"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_PokeBallSculpture"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_PokeBallSculpture"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_PokeBallSculpture"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_WomanPainting"
     }
   ]
 }
