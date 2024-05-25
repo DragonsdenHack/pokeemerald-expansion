@@ -216,6 +216,7 @@ msgbox Route106_Ariana_Texto_17 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route106_Ariana_Texto_18 MSGBOX_AUTOCLOSE
 delay 15
+setflag FLAG_HOENN_1
 setvar VAR_UNUSED_0x40F7, 240
 warpsilent MAP_GRANITE_CAVE_1F, 27, 7
 release

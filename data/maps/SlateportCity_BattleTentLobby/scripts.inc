@@ -307,32 +307,131 @@ SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
 	.string "Wouldn't it be nice if they had more of\n"
 	.string "a selection?$"
 
+SlateportCity_Museo_Secundaria_Caballero::
+lock
+msgbox SlateportCity_Museo_Caballero_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SlateportCity_Museo_Caballero_Texto_1:
+	.string "… …$"
+
+
+SlateportCity_Museo_Move_2:
+walk_in_place_down
+step_end
+
+SlateportCity_Museo_Move_1:
+walk_in_place_up
+step_end
+
+SlateportCity_Museo_Move_3:
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+SlateportCity_Museo_Move_4:
+face_player
+step_end
+
+SlateportCity_Museo_Move_5:
+emote_exclamation_mark
+step_end
+
 SlateportCity_Museo_Secundaria::
 lock
+compare VAR_ROUTE117_STATE, 4
+goto_if_gt SlateportCity_Museo_Secundaria_Despues
+compare VAR_ROUTE117_STATE, 3
+goto_if_gt SlateportCity_Museo_Secundaria_No_2
+applymovement 8, SlateportCity_Museo_Move_1
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 7, SlateportCity_Museo_Move_2
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 8, SlateportCity_Museo_Move_1
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 8, SlateportCity_Museo_Move_3
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_39
+removeobject 8
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, SlateportCity_Museo_Move_4
+waitmovement 0x0
 msgbox SlateportCity_Museo_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, SlateportCity_Museo_Move_5
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
-msgbox SlateportCity_Museo_Secundaria_Texto_13 MSGBOX_AUTOCLOSE
-msgbox SlateportCity_Museo_Secundaria_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+setvar VAR_ROUTE117_STATE, 4
+msgbox SlateportCity_Museo_Secundaria_Texto_13 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SlateportCity_Museo_Secundaria_No
+goto SlateportCity_Museo_Secundaria_Si
+
+SlateportCity_Museo_Secundaria_Si::
+delay 15
+playse SE_PIN
+applymovement 7, SlateportCity_Museo_Move_5
+waitmovement 0x0
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_Museo_Secundaria_Texto_23 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 5
+release
+end
+
+SlateportCity_Museo_Secundaria_Despues::
 msgbox SlateportCity_Museo_Secundaria_Texto_24 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Museo_Secundaria_Final::
 msgbox SlateportCity_Museo_Secundaria_Texto_25 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Museo_Secundaria_Texto_26 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Museo_Secundaria_Texto_27 MSGBOX_AUTOCLOSE
@@ -343,7 +442,22 @@ msgbox SlateportCity_Museo_Secundaria_Texto_31 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Museo_Secundaria_Texto_32 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Museo_Secundaria_Texto_33 MSGBOX_AUTOCLOSE
 msgbox SlateportCity_Museo_Secundaria_Texto_34 MSGBOX_AUTOCLOSE
-setvar VAR_ROUTE117_STATE, 3
+playse SE_EXIT
+setflag FLAG_HOENN_38
+removeobject 7
+release
+end
+
+SlateportCity_Museo_Secundaria_No_2::
+faceplayer
+msgbox SlateportCity_Museo_Secundaria_Texto_13.1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SlateportCity_Museo_Secundaria_No
+goto SlateportCity_Museo_Secundaria_Si
+
+
+SlateportCity_Museo_Secundaria_No::
+msgbox SlateportCity_Museo_Secundaria_Texto_14 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -395,6 +509,10 @@ SlateportCity_Museo_Secundaria_Texto_12:
 
 SlateportCity_Museo_Secundaria_Texto_13:
 	.string "¿Me ayudarías?$"
+
+SlateportCity_Museo_Secundaria_Texto_13.1:
+	.string "¿Te lo has pensado mejor?\n"
+	.string "¿Me ayudarías entonces?$"
 
 SlateportCity_Museo_Secundaria_Texto_14:
 	.string "Oh… Después de esto, tendré que\n"

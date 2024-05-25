@@ -28,6 +28,7 @@ delay 10
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_1F_Encuentro_Madre_Move_2
 waitmovement 0x0
 warp MAP_PALLET_TOWN, 6, 8
+delay 50
 release
 end
 

@@ -2334,7 +2334,7 @@
 #define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // Fortunia y Dueno Museo Secundaria // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // Nina casa azuliza final secundaria casa playa // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // Ninos ruta 109 secundaria casa playa // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690) // Ariana Salida Cueva Granito // En modo Setflag por defecto desde fin DLC

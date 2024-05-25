@@ -2,6 +2,10 @@
 
 VerdanturfTown_BattleTentLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentLobby_OnWarp
 	.byte 0
 
@@ -20,6 +24,10 @@ VerdanturfTown_BattleTentLobby_OnFrame:
 	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_PAUSED, VerdanturfTown_BattleTentLobby_EventScript_ResumeChallenge
 	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_WON, VerdanturfTown_BattleTentLobby_EventScript_WonChallenge
 	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_LOST, VerdanturfTown_BattleTentLobby_EventScript_LostChallenge
+	map_script_2 VAR_ROUTE117_STATE, 0, VerdanturfTown_Dueno
+	map_script_2 VAR_ROUTE117_STATE, 1, VerdanturfTown_Dueno
+	map_script_2 VAR_ROUTE117_STATE, 4, VerdanturfTown_Dueno
+	map_script_2 VAR_ROUTE117_STATE, 5, VerdanturfTown_Dueno
 	.2byte 0
 
 VerdanturfTown_BattleTentLobby_EventScript_GetChallengeStatus::
@@ -406,22 +414,108 @@ VerdanturfTown_Artista_Texto_1:
 	.string "Creí que solo CALAGUA contaba con un\n"
 	.string "MUSEO. ¡Qué sorpresa!$"
 
+VerdanturfTown_Dueno_Move_1:
+delay_16
+face_down
+delay_16
+step_end
+
+VerdanturfTown_Dueno_Move_2:
+emote_exclamation_mark
+delay_16
+step_end
+
+VerdanturfTown_Dueno_Move_3:
+walk_slow_down
+step_end
+
+VerdanturfTown_Dueno_Move_4:
+walk_in_place_up
+step_end
+
+VerdanturfTown_Dueno_Move_5:
+walk_in_place_down
+step_end
+
+VerdanturfTown_Dueno_Move_6:
+delay_8
+face_down
+step_end
+
+VerdanturfTown_Dueno_Move_7:
+walk_down
+step_end
+
 VerdanturfTown_Dueno::
 lock
+applymovement 7, VerdanturfTown_Dueno_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 7, VerdanturfTown_Dueno_Move_2
+waitmovement 0x0
 msgbox VerdanturfTown_Dueno_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Dueno_Move_3
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Dueno_Move_4
+waitmovement 0x0
+delay 10
 msgbox VerdanturfTown_Dueno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Dueno_Move_5
+waitmovement 0x0
 msgbox VerdanturfTown_Dueno_Texto_3 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_4 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_5 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_6 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_7 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_8 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_9 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_10 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_11 MSGBOX_AUTOCLOSE
-msgbox VerdanturfTown_Dueno_Texto_12 MSGBOX_AUTOCLOSE
+compare VAR_ROUTE117_STATE, 4
+goto_if_gt VerdanturfTown_Dueno_Despues
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Dueno_Move_6
+waitmovement 0x0
+warp MAP_VERDANTURF_TOWN, 7, 8
+delay 30
 release
 end
+
+
+VerdanturfTown_Dueno_Despues::
+delay 15
+msgbox VerdanturfTown_Dueno_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, VerdanturfTown_Dueno_Move_2
+waitmovement 0x0
+msgbox VerdanturfTown_Dueno_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Dueno_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Dueno_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Dueno_Move_7
+waitmovement 0x0
+msgbox VerdanturfTown_Dueno_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Dueno_Move_5
+waitmovement 0x0
+msgbox VerdanturfTown_Dueno_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_657, VerdanturfTown_Dueno_Texto_10
+msgbox VerdanturfTown_Dueno_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Dueno_Texto_12 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Dueno_Move_9
+applymovement 7, VerdanturfTown_Dueno_Move_8
+waitmovement 0x0
+setflag FLAG_HOENN_37
+removeobject 7
+playse SE_EXIT
+setvar VAR_ROUTE117_STATE, 6
+delay 15
+release
+end
+
+VerdanturfTown_Dueno_Move_9:
+delay_16
+face_right
+step_end
+
+VerdanturfTown_Dueno_Move_8:
+walk_right
+walk_down
+step_end
 
 VerdanturfTown_Dueno_Texto_1:
 	.string "¿Quién eres tú?$"

@@ -42,7 +42,7 @@ playse 414
 delay 40
 msgbox Olivine_Gym_Combate_Crom_Texto_5 MSGBOX_NPC
 delay 20
-msgbox Olivine_Gym_Combate_Crom_Texto_6 MSGBOX_NPC
+msgbox Olivine_Gym_Combate_Crom_Texto_6 MSGBOX_NPC 
 trainerbattle_no_intro TRAINER_CROM, Olivine_Gym_Combate_Crom_Texto_7
 msgbox Olivine_Gym_Combate_Crom_Texto_8 MSGBOX_NPC
 msgbox Olivine_Gym_Combate_Crom_Texto_9 MSGBOX_NPC
