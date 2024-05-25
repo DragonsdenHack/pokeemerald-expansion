@@ -907,7 +907,7 @@
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360 // BALL DEOXYS
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361 // BALL REGIS
 #define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362 // BLOQUEO PUEBLO CAOBA
-#define FLAG_UNKNOWN_0x363                                          0x363 // LIBRE CLEARFLAG
+#define FLAG_UNKNOWN_0x363                                          0x363 // FUJI NEO RUTA 10 SECUNDARIA MTMOON
 #define FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN                           0x364 // ROCKET PUEBLO CAOBA // clears ninjas base
 #define FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY          0x365 // BLOQUEO GYM CAOBA Y FREDO LAGO
 #define FLAG_HIDE_LANETTES_HOUSE_LANETTE                            0x366 // INVASORES BASE CAOBA // DRAGON INCOMPLETO
@@ -937,7 +937,7 @@
 #define FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND                        0x37E // REUNION P6 RADIO LAVANDA
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F // BILL P6 RADIO LAVANDA
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380 // libre
-#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381 // libre clearflag
+#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381 // FUJI DENTRO TUNEL ROCA
 #define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382 // libre clearflag
 #define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383 // MORFEO CUEVA 4
 #define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 // MORFEO GYM 1
