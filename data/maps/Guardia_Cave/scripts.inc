@@ -88,6 +88,7 @@ step_end
 
 Guardia_Cave_Sachiko_Move_2:
 delay_16
+face_up
 step_end
 
 Guardia_Cave_Sachiko_Move_3:
@@ -190,20 +191,76 @@ delay 25
 applymovement 14, Guardia_Cave_Sachiko_Move_10
 waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_14 MSGBOX_AUTOCLOSE
+delay 25
+msgbox Guardia_Cave_Sachiko_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 25
+applymovement OBJ_EVENT_ID_PLAYER, Guardia_Cave_Sachiko_Move_11
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, Guardia_Cave_Sachiko_Move_7
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_Sachiko_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 14, Guardia_Cave_Sachiko_Move_8
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 14, Guardia_Cave_Sachiko_Move_9
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 14, Guardia_Cave_Sachiko_Move_10
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_Sachiko_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 14, Guardia_Cave_Sachiko_Move_4
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 14, Guardia_Cave_Fuji_Move_1
+waitmovement 0x0
 msgbox Guardia_Cave_Sachiko_Texto_23 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Guardia_Cave_Sachiko_Move_12
+applymovement 14, Guardia_Cave_Sachiko_Move_13
+waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 removeobject 14
 setvar VAR_ROUTE120_STATE, 8
 release
 end
+
+Guardia_Cave_Sachiko_Move_13:
+delay_16
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Guardia_Cave_Sachiko_Move_12:
+walk_left
+face_right
+delay_16
+face_down
+step_end
+
+Guardia_Cave_Sachiko_Move_11:
+delay_16
+face_right
+delay_16
+delay_8
+walk_in_place_right
+delay_16
+face_up
+delay_16
+walk_in_place_up
+delay_16
+step_end
 
 Guardia_Cave_Sachiko_Texto_14.1:
 	.string "… … … …$"
@@ -345,4 +402,28 @@ Guardia_Cave_Combate_Taaban_Texto_1:
 
 Guardia_Cave_Combate_Taaban_Texto_3:
 .string "Khan{PAUSE 5}…{PAUSE 5}$"
+
+Guardia_Cave_Combate_Marowak::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_Kabutops_Move_1
+delay 20
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_Combate_Taaban_Texto_1 MSGBOX_DEFAULT
+waitmoncry
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+trainerbattle_no_intro TRAINER_TRAINER_653, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Guardia_Cave_Combate_Taaban_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_FAINT
+setvar VAR_ROUTE120_STATE, 9
+release
+end
 

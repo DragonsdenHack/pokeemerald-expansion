@@ -777,6 +777,17 @@ end
 Maquina_Primavera_Cura_YesNo:
 .string "¿Quieres curar a tu equipo?$"
 
+Kangaskhan_Cry::
+lock    
+faceplayer  
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+msgbox Kangaskhan_Cry_Text_1, MSGBOX_NPC
+release     
+end
+
+Kangaskhan_Cry_Text_1:
+.string "¡Kan!$"
+
 
 
 
