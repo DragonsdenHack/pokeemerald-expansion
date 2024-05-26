@@ -15,14 +15,46 @@ NeoLavanda_Ruta_Norte_EventScript_Montanero::
 
 NeoLavanda_Ruta_Norte_Fuji::
 lock
+faceplayer
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 3, Norte_Fuji_Move_1
+waitmovement 0x0
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, Norte_Fuji_Move_2
+waitmovement 0x0
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, Norte_Fuji_Move_1
+waitmovement 0x0
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 3, Norte_Fuji_Move_2
+waitmovement 0x0
 msgbox NeoLavanda_Ruta_Norte_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, Norte_Fuji_Move_3
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_UNKNOWN_0x363
+clearflag FLAG_HIDE_ROUTE_101_BIRCH
+setvar VAR_ROUTE120_STATE, 4
+removeobject 3
 release
 end
+
+Norte_Fuji_Move_3:
+walk_up
+step_end
+
+Norte_Fuji_Move_2:
+delay_16
+face_player
+step_end
+
+Norte_Fuji_Move_1:
+delay_16
+face_up
+delay_16
+step_end
 
 NeoLavanda_Ruta_Norte_Fuji_Texto_1:
 	.string "El TÚNEL ROCA se ha vuelto ahora un\n"

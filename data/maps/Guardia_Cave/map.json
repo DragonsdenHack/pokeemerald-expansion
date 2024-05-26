@@ -2,11 +2,11 @@
   "id": "MAP_GUARDIA_CAVE",
   "name": "Guardia_Cave",
   "layout": "LAYOUT_GUARDIA_CAVE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "595",
   "region_map_section": "MAPSEC_ROCK_TUNNEL",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
   "allow_running": true,
@@ -175,15 +175,80 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MR_FUJI",
+      "x": 58,
+      "y": 35,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_40"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SACHIKO",
+      "x": 39,
+      "y": 57,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     }
   ],
   "warp_events": [
-
+    {
+      "x": 82,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_GUARDIA_CAVE",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 57,
+      "y": 32,
+      "elevation": 0,
+      "var": "VAR_ROUTE120_STATE",
+      "var_value": "5",
+      "script": "Guardia_Cave_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 60,
+      "elevation": 0,
+      "var": "VAR_ROUTE120_STATE",
+      "var_value": "7",
+      "script": "Guardia_Cave_Sachiko"
+    },
+    {
+      "type": "trigger",
+      "x": 48,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_ROUTE120_STATE",
+      "var_value": "6",
+      "script": "Guardia_Cave_Combate_Taaban"
+    }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 83,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Guardia_Cave_Activador_Entrada_Pasa"
+    }
   ]
 }

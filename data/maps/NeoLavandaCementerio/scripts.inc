@@ -55,6 +55,8 @@ NeoLavandaCementerio_Text_3:
 NeoLavandaCementerio_Dialogo_Fuji::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 217
+goto_if_gt NeoLavandaCementerio_Dialogo_Fuji_Despues
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_1 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_2 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_3 MSGBOX_AUTOCLOSE
@@ -173,18 +175,54 @@ NeoLavandaCementerio_Fuji_Texto_1:
 
 NeoLavandaCementerio_Dialogo_Fuji_Despues::
 lock
+compare VAR_ROUTE120_STATE, 1
+goto_if_gt Fuji_Despues_2
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 4, Fuji_Despues_Move_1
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 4, Fuji_Despues_Move_2
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_6 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_7 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_8 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE120_STATE, 2
 release
 end
+
+Fuji_Despues_2::
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_7 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Fuji_Despues_2_No
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10 MSGBOX_AUTOCLOSE
+clearflag FLAG_UNKNOWN_0x363
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+fadescreen 1
+delay 20
+removeobject 4
+fadescreen 0
+setvar VAR_ROUTE120_STATE, 3
+release
+end
+
+Fuji_Despues_2_No::
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+Fuji_Despues_Move_2:
+face_player
+step_end
+
+Fuji_Despues_Move_1:
+face_up
+step_end
 
 NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_1:
 	.string "FUJI: Echando la vista atrás, veo todo\n"
