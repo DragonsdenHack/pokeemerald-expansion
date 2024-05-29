@@ -270,3 +270,93 @@ NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9:
 NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10:
 	.string "Te espero al pie del TÚNEL ROCA\n"
 	.string "entonces. Allí nos vemos.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final::
+lock
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_3 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_4 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_5 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_7 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_8 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_9 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_10 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_11 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_12 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_13 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_14 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_15 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_1:
+	.string "No me equivoqué al pedirte ayuda.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_2:
+	.string "Sin tu combate con GUARDIA, mi MAROWAK\n"
+	.string "no hubiera tenido ninguna oportunidad\l"
+	.string "de hacerle entrar en razón.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_3:
+	.string "Y no solo eso. Con tus acciones, KANTO\n"
+	.string "ha ganado una joven y magnífica LÍDER.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_4:
+	.string "… …$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_5:
+	.string "Es un secreto pero… yo destapé sin\n"
+	.string "querer uno de vuestros secretos\l"
+	.string "también.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_6:
+	.string "Me siento en deuda contigo, y lo más\n"
+	.string "valioso que tengo para darte es esto.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_7:
+	.string "¡¡{PLAYER} obtuvo un MEW al nv.90!!$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_8:
+	.string "Tampoco te vuelvas loco, {PLAYER}.\n"
+	.string "Por supuesto que no es el MEW\l"
+	.string "auténtico, ¡jo, jo, jo!$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_9:
+	.string "En muestra de gratitud por construir el\n"
+	.string "CEMENTERIO, GIOVANNI me regaló este\l"
+	.string "clon.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_10:
+	.string "Con MEWTWO como opción, hacer un clon\n"
+	.string "de MEW no tiene mucho sentido.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_11:
+	.string "Pero GIOVANNI sabía que, para mí, el\n"
+	.string "valor simbólico y sentimental de MEW\l"
+	.string "pesaba mucho más que el valor\l"
+	.string "competitivo que pueda tener MEWTWO.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_12:
+	.string "Tener este clon me ha traído\n"
+	.string "agradables recuerdos del pasado. Pero\l"
+	.string "un POKÉMON así como más feliz está es\l"
+	.string "viviendo aventuras.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_13:
+	.string "Sería un pecado por mi parte mantener\n"
+	.string "este MEW enjaulado en PUEBLO LAVANDA.\l"
+	.string "Aunque sea una copia, el original\l"
+	.string "estaría de acuerdo conmigo…$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_14:
+	.string "Un ENTRENADOR como tú, que sabe\n"
+	.string "apreciar a toda clase de POKÉMON, podrá\l"
+	.string "hacerse cargo de esta leyenda.$"
+
+NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_15:
+	.string "FUJI: Y ahora, ¿qué? Solo me queda ver\n"
+	.string "cómo todas las semillas que he ido\l"
+	.string "plantando estos años dan brotes\l"
+	.string "verdes, ¡jo, jo, jo!$"

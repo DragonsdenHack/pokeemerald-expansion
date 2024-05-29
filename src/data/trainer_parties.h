@@ -38033,7 +38033,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER651[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     {
     .iv = 255,
-    .lvl = 103,
+    .lvl = 105,
     .species = SPECIES_ARIADOS,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {100, 252, 100, 252, 100, 100},
@@ -38042,7 +38042,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     },
     {
     .iv = 255,
-    .lvl = 104,
+    .lvl = 106,
     .species = SPECIES_GLISCOR,
     .heldItem = ITEM_TOXIC_ORB,
     .evs = {252, 100, 100, 100, 100, 252},
@@ -38051,7 +38051,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     },
     {
     .iv = 255,
-    .lvl = 104,
+    .lvl = 106,
     .species = SPECIES_WEEZING,
     .heldItem = ITEM_CONDENSADOR_GAS,
     .evs = {252, 100, 252, 100, 100, 100},
@@ -38060,7 +38060,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     },
     {
     .iv = 255,
-    .lvl = 105,
+    .lvl = 107,
     .species = SPECIES_CROBAT,
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {100, 100, 100, 252, 252, 100},
@@ -38069,7 +38069,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     },
     {
     .iv = 255,
-    .lvl = 106,
+    .lvl = 108,
     .species = SPECIES_VENOMOTH,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {100, 100, 100, 252, 252, 100},
@@ -38078,9 +38078,9 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     },
     {
     .iv = 255,
-    .lvl = 107,
-    .species = SPECIES_BUTTERFREE,
-    .heldItem = ITEM_BUTTERFRITA,
+    .lvl = 109,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_KANGASKHANITE,
     .evs = {100, 100, 100, 252, 252, 100},
     .nature = NATURE_MODEST,
     .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_QUIVER_DANCE}
@@ -38477,78 +38477,153 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER663[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER664[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER664[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 106,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 106,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 106,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER665[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER665[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 107,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 107,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 107,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER666[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER666[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 108,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 108,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 108,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER667[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER667[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 109,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 109,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 109,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
+    },
+    {
+    .iv = 255,
+    .lvl = 109,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
+    },
+    {
+    .iv = 255,
+    .lvl = 109,
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_THICK_CLUB,
+    .evs = {100, 252, 100, 100, 100, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BONEMERANG, MOVE_STONE_EDGE, MOVE_POLTERGEIST, MOVE_FACADE}
+    },
+    {
+    .iv = 255,
+    .lvl = 110,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 252, 252, 252, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH}
     }
     
 };

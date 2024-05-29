@@ -233,7 +233,7 @@
       "x": 50,
       "y": 67,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -246,7 +246,7 @@
       "x": 62,
       "y": 52,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -270,7 +270,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SACHIKO",
       "x": 53,
-      "y": 68,
+      "y": 67,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -285,7 +285,7 @@
       "x": 46,
       "y": 68,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -296,7 +296,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
       "x": 19,
-      "y": 53,
+      "y": 51,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -309,7 +309,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_FUJI",
       "x": 53,
-      "y": 67,
+      "y": 68,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -334,10 +334,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
-      "x": 33,
+      "x": 30,
       "y": 71,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -347,8 +347,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 22,
-      "y": 55,
+      "x": 23,
+      "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -387,7 +387,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SACHIKO",
       "x": 20,
-      "y": 55,
+      "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -400,7 +400,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_FUJI",
       "x": 18,
-      "y": 55,
+      "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -409,10 +409,133 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_HOENN_43"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 19,
+      "y": 52,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_43"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CUBONE",
+      "x": 17,
+      "y": 52,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_42"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 3,
+      "y": 55,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 19,
+      "y": 64,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 4,
+      "y": 65,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 75,
+      "y": 36,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 8,
+      "y": 60,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "FLAG_HIDE_ROUTE_101_BIRCH"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "x": 8,
+      "y": 59,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Kangaskhan_Cry",
+      "flag": "FLAG_HIDE_ROUTE_101_BIRCH"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 18,
+      "y": 52,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_42"
     }
   ],
   "warp_events": [
-
+    {
+      "x": 1,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_SAFARI",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
     {
@@ -431,7 +554,7 @@
       "elevation": 0,
       "var": "VAR_ROUTE120_STATE",
       "var_value": "11",
-      "script": "NULL"
+      "script": "Guardia_Cave_2_Combate_Sachiko"
     },
     {
       "type": "trigger",
@@ -441,6 +564,24 @@
       "var": "VAR_ROUTE120_STATE",
       "var_value": "10",
       "script": "Guardia_Cave_Combate_Marowak_2"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 66,
+      "elevation": 0,
+      "var": "VAR_ROUTE120_STATE",
+      "var_value": "12",
+      "script": "Guardia_Cave_Combate_Marowak_3"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 56,
+      "elevation": 0,
+      "var": "VAR_ROUTE120_STATE",
+      "var_value": "13",
+      "script": "Guardia_Cave_2_Combate_Guardia"
     }
   ],
   "bg_events": [

@@ -417,7 +417,7 @@ playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
 msgbox Guardia_Cave_Combate_Taaban_Texto_1 MSGBOX_DEFAULT
 waitmoncry
 playse MUS_RG_ENCOUNTER_GYM_LEADER
-trainerbattle_no_intro TRAINER_TRAINER_653, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+trainerbattle_no_intro TRAINER_TRAINER_664, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
 playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 10

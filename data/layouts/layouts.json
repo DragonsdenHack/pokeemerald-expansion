@@ -14844,6 +14844,18 @@
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/Verdantur_Museo_S1/border.bin",
       "blockdata_filepath": "data/layouts/Verdantur_Museo_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_SAFARI",
+      "name": "NeoSafari_Layout",
+      "width": 48,
+      "height": 36,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_fuchsia_city",
+      "border_filepath": "data/layouts/NeoSafari/border.bin",
+      "blockdata_filepath": "data/layouts/NeoSafari/map.bin"
     }
   ]
 }

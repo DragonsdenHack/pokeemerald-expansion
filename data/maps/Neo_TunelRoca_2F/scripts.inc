@@ -82,3 +82,4 @@ goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
 warp MAP_NEO_TUNEL_ROCA_2F, 1, 18
 release
 end
+

@@ -616,7 +616,8 @@
     "NeoRoute15_Path",
     "NeoRoute14",
     "NeoFuchsiaGym",
-    "NeoRoute19_Path"
+    "NeoRoute19_Path",
+    "NeoSafari"
   ],
   "gMapGroup_IndoorCinnabarIsland": [
     "CinnabarIsland_Gym",

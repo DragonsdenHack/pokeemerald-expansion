@@ -1901,5 +1901,3 @@ SootopolisCity_Andra_Texto_16:
 
 
 
-
-	

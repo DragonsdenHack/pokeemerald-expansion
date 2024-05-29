@@ -2895,3 +2895,5 @@ Text_EVChecker_3:
 	.include "data/maps/Sootopolis_Secret_Cave/scripts.inc"
 
 	.include "data/maps/Verdantur_Museo_S1/scripts.inc"
+
+	.include "data/maps/NeoSafari/scripts.inc"
