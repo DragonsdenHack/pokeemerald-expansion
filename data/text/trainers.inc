@@ -2876,8 +2876,8 @@ Route119_Text_FabianPostBattle:
 	.string "por mi derrota!$"
 
 Route119_Text_DaytonIntro:
-	.string "¡Jo, jo, jo!\n"
-	.string "¡Me gusta luchar con las nuevas generaciones!\l"
+	.string "¡Me gusta luchar con\n"
+	.string "las nuevas generaciones!\l"
 	.string "¡Vamos allá!$"
 
 Route119_Text_DaytonDefeat:

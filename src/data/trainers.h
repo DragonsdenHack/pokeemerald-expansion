@@ -16102,7 +16102,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_292] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("JONAS"),
@@ -16424,7 +16424,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_315] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("TSUNAO"),
@@ -16494,7 +16494,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_320] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("KEIGO"),
@@ -16704,7 +16704,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_335] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("TAKASHI"),
@@ -16746,7 +16746,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_338] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("YASU"),
@@ -16760,7 +16760,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_339] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("HIDEO"),
@@ -17418,7 +17418,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_386] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("JAIDEN"),
@@ -17460,7 +17460,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_389] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("LUNG"),
@@ -17516,7 +17516,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_393] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_NINJA,
+        .trainerClass = TRAINER_CLASS_NINJA_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("LAO"),

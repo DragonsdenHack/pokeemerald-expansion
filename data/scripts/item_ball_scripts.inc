@@ -459,7 +459,7 @@ AbandonedShip_HiddenFloorRooms_EventScript_ItemTM18::
 	end
 
 ScorchedSlab_EventScript_ItemTM11::
-	finditem ITEM_TM11
+	finditem ITEM_LATIASITE
 	end
 
 SafariZone_Northwest_EventScript_ItemTM22::

@@ -99,13 +99,13 @@ Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 	.string "I should just take a nap in the bed{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string	"¡Mientras dormía, alguien se coló\n"
+	.string	"arriba!$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string	"¡Pareces muy fuerte!\p"
+	.string	"¡Ojalá pudiera ser un ENTRENADOR\n"
+	.string	"POKéMON!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
 	.string	"Al PROFESOR le encanta la lluvia.\n"
@@ -123,10 +123,10 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string	"aislados de sequía e inundaciones{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string	"¡Hola!\n"
+	.string	"¿Eres otro de esos científicos?\p"
+	.string	"No logro entender a qué\n"
+	.string	"ha venido DEVON…$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
 	.string	"Mira, una cama…\n"
@@ -136,4 +136,16 @@ Route119_EventScript_Cientifico::
 	trainerbattle_single TRAINER_TRAINER_631, Route119_Text_CientificoIntro, Route119_Text_CientificoDefeat
 	msgbox Route119_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route119_WeatherInstitute_1F_Tipo::
+lock
+faceplayer
+msgbox Route119_WeatherInstitute_1F_Tipo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route119_WeatherInstitute_1F_Tipo_Texto_1:
+	.string	"DEVON parece estar interesada en la\n"
+	.string	"investigación que están realizando\l"
+	.string	"aquí.$"
 
