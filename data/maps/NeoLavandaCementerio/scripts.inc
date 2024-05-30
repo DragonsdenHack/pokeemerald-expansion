@@ -175,6 +175,10 @@ NeoLavandaCementerio_Fuji_Texto_1:
 
 NeoLavandaCementerio_Dialogo_Fuji_Despues::
 lock
+compare VAR_ROUTE120_STATE, 15
+goto_if_gt NeoLavandaCementerio_Mew
+compare VAR_ROUTE120_STATE, 14
+goto_if_gt NeoLavandaCementerio_Dialogo_Fuji_Despues_Final
 compare VAR_ROUTE120_STATE, 1
 goto_if_gt Fuji_Despues_2
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_1 MSGBOX_AUTOCLOSE
@@ -271,22 +275,56 @@ NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10:
 	.string "Te espero al pie del TÚNEL ROCA\n"
 	.string "entonces. Allí nos vemos.$"
 
+Fuji_S_Move_1:
+face_up
+step_end
+
+Fuji_S_Move_2:
+face_player
+step_end
+
 NeoLavandaCementerio_Dialogo_Fuji_Despues_Final::
 lock
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 4, Fuji_S_Move_1
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 4, Fuji_S_Move_2
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_6 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_7 MSGBOX_DEFAULT
+givemon SPECIES_MEW, 90, ITEM_NONE
+waitfanfare
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+setvar VAR_ROUTE120_STATE, 16
+release
+end
+
+
+
+NeoLavandaCementerio_Mew::
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Despues_Final_Texto_15 MSGBOX_AUTOCLOSE
 release
 end

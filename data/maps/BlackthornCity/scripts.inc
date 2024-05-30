@@ -242,8 +242,6 @@ BlackthornCity_EventScript_ReceiveSwablu::
 	release
 	end
 
-
-
 BlackthornCity_Swablu_EventScript_TakeNosepass::
 lock
 faceplayer
@@ -256,8 +254,6 @@ faceplayer
 	release
 	end 
 
-
-
 BlackthornCity_Swablu_Text_TakeNosepass:
 	.string "Esta ciudad es conocida como la cuna de\n"
 	.string "los DOMADRAGONES, vienen de todas las\l"
@@ -265,17 +261,12 @@ BlackthornCity_Swablu_Text_TakeNosepass:
 	.string "respetos dejando un POKÉMON con\l"
 	.string "potencial de ser un dragón.$"
 
-
-
 BlackthornCity_Swablu_Text_TakeNosepass2:
 	.string "¿Quieres contar con uno de esos\n"
 	.string "POKÉMON? Toma.$"
 
-
-
 BlackthornCity_Swablu_Text_MensajeNosepass:
 .string "¡OBTUVISTE UN SWABLU AL NV.25!$"
-
 
 BlackthornCity_Swablu_Text_1:
 	.string "La línea evolutiva de SWABLU no cuenta\n"

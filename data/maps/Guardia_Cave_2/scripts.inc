@@ -752,7 +752,27 @@ delay_16
 step_end
 
 Combate_Guardia_Move_10:
+walk_fast_up
+lock_facing_direction
+walk_fast_down
+unlock_facing_direction
+step_end
 
+Combate_Guardia_Move_11:
+walk_fast_down
+lock_facing_direction
+walk_fast_up
+unlock_facing_direction
+step_end
+
+Combate_Guardia_Move_12:
+walk_in_place_left
+step_end
+
+Combate_Guardia_Move_13:
+walk_fast_up
+face_left
+step_end
 
 Guardia_Cave_2_Combate_Guardia::
 lock
@@ -812,16 +832,16 @@ msgbox Guardia_Cave_2_Combate_Guardia_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 30, Combate_Guardia_Move_9
 waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_12 MSGBOX_AUTOCLOSE
-applymovement 30, Combate_Guardia_Move_10
+applymovement 30, Combate_Guardia_Move_1
 waitmovement 0x0
-addobject 30
+addobject 39
 playse SE_BALL_THROW
 waitse 
 playse SE_BALL
 waitse 
 delay 15
 playse SE_BALL_OPEN
-removeobject 30
+removeobject 39
 waitse
 addobject 32
 delay 10
@@ -829,43 +849,375 @@ msgbox Guardia_Cave_2_Combate_Guardia_Texto_13 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_14 MSGBOX_AUTOCLOSE
 waitmoncry
-msgbox Guardia_Cave_2_Combate_Guardia_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+waitmoncry
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+waitmoncry
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+waitmoncry
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_15.1 MSGBOX_DEFAULT
+waitmoncry
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_15 MSGBOX_DEFAULT
+waitmoncry
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+delay 10
+applymovement 29, Combate_Guardia_Move_12
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_16 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 30, Combate_Guardia_Move_1
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 29, Combate_Guardia_Move_2
+waitmovement 0x0
+delay 15
+applymovement 29, Combate_Guardia_Move_5
+waitmovement 0x0
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_18 MSGBOX_AUTOCLOSE
-msgbox Guardia_Cave_2_Combate_Guardia_Texto_19 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_19 MSGBOX_DEFAULT
+waitmoncry
+applymovement 32, Combate_Guardia_Move_10
+playse SE_EFFECTIVE
+waitse
+waitmovement 0x0
+waitmoncry
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+waitmoncry
+applymovement 32, Combate_Guardia_Move_10
+playse SE_NOT_EFFECTIVE
+waitse
+waitmovement 0x0
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_5 MSGBOX_DEFAULT
+waitmoncry
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 22, Combate_Guardia_Move_11
+playse SE_SUPER_EFFECTIVE
+waitse
+waitmovement 0x0
+applymovement 29, Combate_Guardia_Move_13
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_21 MSGBOX_AUTOCLOSE
-msgbox Guardia_Cave_2_Combate_Guardia_Texto_22 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_22 MSGBOX_DEFAULT
+waitmoncry
+playse SE_PIN
+applymovement 29, Combate_Guardia_Move_2
+waitmovement 0x0
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_23 MSGBOX_AUTOCLOSE
-msgbox Guardia_Cave_2_Combate_Guardia_Texto_24 MSGBOX_AUTOCLOSE
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+delay 5
+removeobject 40
+addobject 32
+delay 5
+removeobject 32
+addobject 40
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+msgbox Guardia_Cave_2_Combate_Guardia_Texto_24 MSGBOX_DEFAULT
+waitmoncry
+playse SE_PIN
+applymovement 22, Combate_Guardia_Move_2
+waitmovement 0x0
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_25 MSGBOX_AUTOCLOSE
+delay 30
+applymovement 30, Combate_Guardia_Move_14
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_1
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_29 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 29, Combate_Guardia_Move_2
+waitmovement 0x0
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_1
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_9
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_5
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_1
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_5
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_36 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_15
+waitmovement 0x0
+playse SE_BALL_OPEN
+removeobject 40
+addobject 39
+waitse
+delay 15
+playse SE_BALL
+waitse
+delay 15
+removeobject 39
+delay 15
+applymovement 30, Combate_Guardia_Move_5
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_37 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 29, Combate_Guardia_Move_2
+waitmovement 0x0
+delay 15
+applymovement 29, Combate_Guardia_Move_16
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_39 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_5
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_40 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_41 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_1
+waitmovement 0x0
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_42 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_16
+waitmovement 0x0
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_43 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_9
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_44 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_45 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_17
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_46 MSGBOX_AUTOCLOSE
+applymovement 29, Combate_Guardia_Move_12
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_47 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Combate_Guardia_Move_19
+applymovement 30, Combate_Guardia_Move_19
+applymovement 29, Combate_Guardia_Move_18
+waitmovement 0x0
 msgbox Guardia_Cave_2_Combate_Guardia_Texto_48 MSGBOX_AUTOCLOSE
+applymovement 30, Combate_Guardia_Move_20
+waitmovement 0x0
+setflag FLAG_HOENN_43
+removeobject 30
+removeobject 29
 setvar VAR_ROUTE120_STATE, 14
 release
 end
+
+Combate_Guardia_Move_20:
+walk_left
+walk_left
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Combate_Guardia_Move_19:
+face_right
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+face_left
+step_end
+
+
+Combate_Guardia_Move_18:
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+step_end
+
+
+Combate_Guardia_Move_17:
+delay_16
+face_down
+delay_16
+face_left
+delay_16
+walk_in_place_left
+step_end
+
+Combate_Guardia_Move_16:
+face_left
+step_end
+
+Combate_Guardia_Move_15:
+walk_in_place_right
+step_end
+
+Combate_Guardia_Move_14:
+walk_slow_up
+face_right
+step_end
 
 Guardia_Cave_2_Combate_Guardia_Texto_1:
 	.string "SACHIKO: ¡Oh! KANGASKHAN…$"
@@ -927,13 +1279,22 @@ Guardia_Cave_2_Combate_Guardia_Texto_14:
 Guardia_Cave_2_Combate_Guardia_Texto_15:
 	.string "¡Guar!$"
 
+Guardia_Cave_2_Combate_Guardia_Texto_15.1:
+	.string "Mar…$"
+
+Guardia_Cave_2_Combate_Guardia_Texto_15.2:
+	.string "¡Mar!$"
+
 Guardia_Cave_2_Combate_Guardia_Texto_16:
 	.string "SACHIKO: ¡{PLAYER}, haz algo! ¡El\n"
 	.string "MAROWAK de FUJI va a quedar seriamente\l"
 	.string "dañado si no intervenimos!$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_17:
-	.string "FUJI: ¡No! Mi MAROWAK se ha expuesto a\n"
+	.string "FUJI: ¡No!$"
+	
+Guardia_Cave_2_Combate_Guardia_Texto_17.1:
+	.string "Mi MAROWAK se ha expuesto a\n"
 	.string "situaciones extremas desde que nació\l"
 	.string "y, a pesar de ello, sigue aquí, con\l"
 	.string "nosotros.$"
@@ -1098,6 +1459,13 @@ delay 10
 msgbox Guardia_Cave_Combate_Taaban_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_FAINT
 setvar VAR_ROUTE120_STATE, 13
+release
+end
+
+Guardia_Cave_2_Dialogo_Guardia::
+lock
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+waitmoncry
 release
 end
 
