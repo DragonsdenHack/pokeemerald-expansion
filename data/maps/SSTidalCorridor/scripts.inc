@@ -342,11 +342,30 @@ SSTidalCorridor_Text_Cabin4:
 
 SSTidalCorridor_Ariana::
 lock
+faceplayer
 msgbox SSTidalCorridor_Ariana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_1
+waitmovement 0x0
 msgbox SSTidalCorridor_Ariana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_2
+waitmovement 0x0
 msgbox SSTidalCorridor_Ariana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_1
+waitmovement 0x0
+setflag 
+removeobject 11
+playse SE_EXIT
 release
 end
+
+Corridor_Ariana_Move_2:
+face_player
+step_end
+
+Corridor_Ariana_Move_1:
+face_right
+delay_16
+step_end
 
 SSTidalCorridor_Ariana_Texto_1:
 	.string "Tal y como esperaba. Con toda esta\n"
@@ -513,7 +532,7 @@ SSTidalCorridor_21_NPC_Texto_1:
 SSTidalCorridor_22_NPC::
 lock
 faceplayer
-msgbox SSTidalCorridor_21_NPC_Texto_1 MSGBOX_NPC
+msgbox SSTidalCorridor_22_NPC_Texto_1 MSGBOX_NPC
 release
 end
 

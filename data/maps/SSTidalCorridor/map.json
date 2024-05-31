@@ -9,7 +9,7 @@
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": false,
+  "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
@@ -149,13 +149,13 @@
       "x": 16,
       "y": 2,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSTidalCorridor_Ariana",
+      "flag": "FLAG_HOENN_45"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -352,11 +352,11 @@
       "dest_warp_id": 10
     },
     {
-      "x": 13,
-      "y": 4,
+      "x": 1,
+      "y": 11,
       "elevation": 3,
-      "dest_map": "MAP_SS_TIDAL_ROOMS",
-      "dest_warp_id": 11
+      "dest_map": "MAP_SLATEPORT_CITY_HARBOR",
+      "dest_warp_id": 2
     },
     {
       "x": 16,
