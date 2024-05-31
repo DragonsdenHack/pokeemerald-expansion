@@ -352,7 +352,7 @@ waitmovement 0x0
 msgbox SSTidalCorridor_Ariana_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 11, Corridor_Ariana_Move_1
 waitmovement 0x0
-setflag 
+setflag FLAG_HOENN_45
 removeobject 11
 playse SE_EXIT
 release
