@@ -542,4 +542,17 @@ SSTidalCorridor_22_NPC_Texto_1:
 	.string "otros barcos como el SS.ANNE. Espera,\l"
 	.string "¿tú también?$"
 
+Warp_Cascada_Move_1:
+walk_in_place_right
+step_end
+
+SSTidalCorridor_Warp_Cascada::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Warp_Cascada_Move_1
+warpsilent MAP_METEOR_FALLS_STEVENS_CAVE, 4, 3
+waitmovement 0x0
+delay 50
+release
+end
+
 

@@ -1,7 +1,12 @@
 .set LOCALID_STEVEN, 1
 
 MeteorFalls_StevensCave_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, MeteorFalls_StevensCave_OnFrame
 	.byte 0
+
+MeteorFalls_StevensCave_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 40, MeteorFalls_StevensCave_Andra
+	.2byte 0
 
 MeteorFalls_StevensCave_EventScript_Steven::
 	lock
