@@ -1106,7 +1106,8 @@
     "MossdeepCity_SpaceCenter_1F",
     "MossdeepCity_SpaceCenter_2F",
     "MossdeepCity_GameCorner_1F",
-    "MossdeepCity_GameCorner_B1F"
+    "MossdeepCity_GameCorner_B1F",
+    "Mosdeep_Jirachi"
   ],
   "gMapGroup_IndoorSootopolis": [
     "SootopolisCity_Gym_1F",
@@ -1124,7 +1125,8 @@
     "SootopolisCity_LotadAndSeedotHouse",
     "SootopolisCity_MysteryEventsHouse_1F",
     "SootopolisCity_MysteryEventsHouse_B1F",
-    "Sootopolis_Secret_Cave"
+    "Sootopolis_Secret_Cave",
+    "Arrecipolis_Antigua"
   ],
   "gMapGroup_IndoorEverGrande": [
     "EverGrandeCity_SidneysRoom",

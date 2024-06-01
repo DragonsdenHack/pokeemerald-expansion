@@ -2897,3 +2897,7 @@ Text_EVChecker_3:
 	.include "data/maps/Verdantur_Museo_S1/scripts.inc"
 
 	.include "data/maps/NeoSafari/scripts.inc"
+
+	.include "data/maps/Mosdeep_Jirachi/scripts.inc"
+
+	.include "data/maps/Arrecipolis_Antigua/scripts.inc"

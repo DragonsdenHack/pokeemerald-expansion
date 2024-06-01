@@ -7,7 +7,12 @@
 
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_OnFrame
 	.byte 0
+
+MossdeepCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 247, MossdeepCity_Andra
+	.2byte 0
 
 MossdeepCity_OnTransition:
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_1
@@ -433,3 +438,96 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string	"Al parecer, el nuevo LÍDER fue\n"
 	.string	"el mentor de PLUBIO en su día.$"
 
+MossdeepCity_Andra_Move_1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+
+MossdeepCity_Andra::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Andra_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox MossdeepCity_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
+warpsilent MAP_MOSDEEP_JIRACHI, 76, 13
+delay 100
+release
+end
+
+MossdeepCity_Andra_Texto_1:
+	.string "ANDRA: Entonces, ese es el famoso\n"
+	.string "CENTRO ESPACIAL de ALGARIA.$"
+
+MossdeepCity_Andra_Texto_2:
+	.string "… …$"
+
+MossdeepCity_Andra_Texto_3:
+	.string "No me interesa.$"
+
+MossdeepCity_Andra_Texto_4:
+	.string "¿Y esta roca? ¿Qué hace aquí?$"
+
+MossdeepCity_Andra_Texto_5:
+	.string	"Esta roca tiene un significado especial\n"
+	.string	"para la gente del CENTRO ESPACIAL.\p"
+	.string	"Es como un talismán para que los\n"
+	.string	"cohetes despeguen sin problemas.$"
+
+MossdeepCity_Andra_Texto_6:
+	.string "ANDRA: Interesante.$"
+
+MossdeepCity_Andra_Texto_7:
+	.string "Ahí arriba debe haber unas vistas al\n"
+	.string "mar impresionantes. Iré a ver.$"
+
+MossdeepCity_Andra_Texto_8:
+	.string "¿Q…qué ha sido eso?$"
+
+MossdeepCity_Andra_Texto_9:
+	.string "¿Lo has escuchado?$"
+
+MossdeepCity_Andra_Texto_10:
+	.string "????: Ahora mismo no puede oírte.$"
+
+MossdeepCity_Andra_Texto_11:
+	.string "ANDRA: ¿¡Quién eres tú!? ¡Muéstrate!$"

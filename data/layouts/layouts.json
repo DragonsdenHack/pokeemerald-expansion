@@ -14856,6 +14856,30 @@
       "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/NeoSafari/border.bin",
       "blockdata_filepath": "data/layouts/NeoSafari/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOSDEEP_JIRACHI",
+      "name": "Mosdeep_Jirachi_Layout",
+      "width": 11,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_MtMoon",
+      "border_filepath": "data/layouts/Mosdeep_Jirachi/border.bin",
+      "blockdata_filepath": "data/layouts/Mosdeep_Jirachi/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARRECIPOLIS_ANTIGUA",
+      "name": "Arrecipolis_Antigua_Layout",
+      "width": 60,
+      "height": 60,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Arrecipolis_Antigua/border.bin",
+      "blockdata_filepath": "data/layouts/Arrecipolis_Antigua/map.bin"
     }
   ]
 }

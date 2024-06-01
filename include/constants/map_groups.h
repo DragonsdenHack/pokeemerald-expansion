@@ -1054,6 +1054,7 @@
 #define MAP_MOSSDEEP_CITY_SPACE_CENTER_2F   (10 | (48 << 8))
 #define MAP_MOSSDEEP_CITY_GAME_CORNER_1F    (11 | (48 << 8))
 #define MAP_MOSSDEEP_CITY_GAME_CORNER_B1F   (12 | (48 << 8))
+#define MAP_MOSDEEP_JIRACHI                 (13 | (48 << 8))
 
 // gMapGroup_IndoorSootopolis
 #define MAP_SOOTOPOLIS_CITY_GYM_1F                   (0 | (49 << 8))
@@ -1072,6 +1073,7 @@
 #define MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F  (13 | (49 << 8))
 #define MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F (14 | (49 << 8))
 #define MAP_SOOTOPOLIS_SECRET_CAVE                   (15 | (49 << 8))
+#define MAP_ARRECIPOLIS_ANTIGUA                      (16 | (49 << 8))
 
 // gMapGroup_IndoorEverGrande
 #define MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM      (0 | (50 << 8))
@@ -1433,6 +1435,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 34, 20, 12, 18, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 13, 16, 15, 108, 61, 89, 62, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 34, 20, 12, 18, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 14, 17, 15, 108, 61, 89, 62, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
