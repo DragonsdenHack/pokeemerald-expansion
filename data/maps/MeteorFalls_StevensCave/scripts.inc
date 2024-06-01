@@ -5,7 +5,7 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, MeteorFalls_StevensCave_OnFrame
 	.byte 0
 
 MeteorFalls_StevensCave_OnFrame:
-map_script_2 VAR_UNUSED_0x40F7, 40, MeteorFalls_StevensCave_Andra
+map_script_2 VAR_UNUSED_0x40F7, 244, MeteorFalls_StevensCave_Andra
 	.2byte 0
 
 MeteorFalls_StevensCave_EventScript_Steven::
@@ -62,49 +62,287 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "… … … … … …\p"
 	.string "Fufufu, even I couldn't tell you that.$"
 
+StevensCave_Andra_Move_1:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+StevensCave_Andra_Move_1.1:
+walk_down
+walk_down
+step_end
+
+StevensCave_Andra_Move_2:
+emote_exclamation_mark
+step_end
+
+StevensCave_Andra_Move_3:
+face_down
+step_end
+
+StevensCave_Andra_Move_4:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_up
+step_end
+
+StevensCave_Andra_Move_5:
+face_right
+step_end
+
+StevensCave_Andra_Move_6:
+face_up
+step_end
+
+StevensCave_Andra_Move_7:
+walk_in_place_down
+step_end
+
+StevensCave_Andra_Move_8:
+face_left
+step_end
+
+StevensCave_Andra_Move_9:
+walk_in_place_left
+step_end
+
+StevensCave_Andra_Move_10:
+walk_down
+walk_down
+walk_right
+walk_down
+step_end
+
+StevensCave_Andra_Move_11:
+walk_in_place_right
+step_end
+
+StevensCave_Andra_Move_12:
+walk_slow_up
+walk_slow_up
+step_end
+
+StevensCave_Andra_Move_13:
+delay_16
+delay_8
+face_up
+step_end
+
+StevensCave_Andra_Move_14:
+walk_down
+walk_down
+face_right
+step_end
+
+StevensCave_Andra_Move_15:
+delay_16
+face_left
+step_end
+
 MeteorFalls_StevensCave_Andra::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, StevensCave_Andra_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
 msgbox MeteorFalls_StevensCave_Andra_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, StevensCave_Andra_Move_2
+waitmovement 0x0
+delay 10
+applymovement 1, StevensCave_Andra_Move_3
+waitmovement 0x0
+applymovement 2, StevensCave_Andra_Move_4
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, StevensCave_Andra_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox MeteorFalls_StevensCave_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_5
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_6
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, StevensCave_Andra_Move_2
+waitmovement 0x0
+applymovement 2, StevensCave_Andra_Move_6
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_3
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, StevensCave_Andra_Move_2
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_7
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_8
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_9
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_3
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, StevensCave_Andra_Move_2
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_7
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_10
+waitmovement 0x0
+applymovement 2, StevensCave_Andra_Move_5
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, StevensCave_Andra_Move_8
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_11
+waitmovement 0x0
+delay 10
 msgbox MeteorFalls_StevensCave_Andra_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_12
+applymovement 1, StevensCave_Andra_Move_13
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_3
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_20 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 1, StevensCave_Andra_Move_3
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, StevensCave_Andra_Move_7
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_14
+applymovement 1, StevensCave_Andra_Move_15
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_13
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_16
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 1, StevensCave_Andra_Move_8
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_17
+playse SE_PIN
+applymovement 1, StevensCave_Andra_Move_2
+waitmovement 0x0
+applymovement 1, StevensCave_Andra_Move_3
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_7
+waitmovement 0x0
 msgbox MeteorFalls_StevensCave_Andra_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 2, StevensCave_Andra_Move_5
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_35 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
 msgbox MeteorFalls_StevensCave_Andra_Texto_36 MSGBOX_AUTOCLOSE
+waitmoncry
+applymovement 2, StevensCave_Andra_Move_18
+waitmovement 0x0
+delay 15
 msgbox MeteorFalls_StevensCave_Andra_Texto_37 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, StevensCave_Andra_Move_5
+waitmovement 0x0
+delay 10
 msgbox MeteorFalls_StevensCave_Andra_Texto_38 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 msgbox MeteorFalls_StevensCave_Andra_Texto_39 MSGBOX_AUTOCLOSE
+waitmoncry
+setvar VAR_UNUSED_0x40F7, 245
+applymovement 1, StevensCave_Andra_Move_19
+waitmovement 0x0
+warpsilent MAP_SS_TIDAL_CORRIDOR, 3, 11
+delay 50
 release
 end
+
+StevensCave_Andra_Move_19:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+StevensCave_Andra_Move_18:
+walk_down
+walk_right
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+StevensCave_Andra_Move_17:
+walk_down
+step_end
+
+StevensCave_Andra_Move_16:
+walk_in_place_up
+step_end
 
 MeteorFalls_StevensCave_Andra_Texto_1:
 	.string "????: Interesante lugar, ¿no?$"
@@ -166,7 +404,7 @@ MeteorFalls_StevensCave_Andra_Texto_16:
 	.string "TRISTANA: Un momento.$"
 
 MeteorFalls_StevensCave_Andra_Texto_17:
-	.string "ANDRA: ????$"
+	.string "ANDRA: Qué quieres.$"
 
 MeteorFalls_StevensCave_Andra_Texto_18:
 	.string "TRISTANA: Es cierto que trabajo para\n"
@@ -253,8 +491,8 @@ MeteorFalls_StevensCave_Andra_Texto_37:
 	.string "ANDRA: Qué impertinente.$"
 
 MeteorFalls_StevensCave_Andra_Texto_38:
-	.string "CROBAT. Si volvemos a cruzarnos con ese\n"
-	.string "SALAMENCE, ya sabes qué hacer.$"
+	.string "Si volvemos a cruzarnos con ese\n"
+	.string "SALAMENCE, ya sabes qué hacer CROBAT.$"
 
 MeteorFalls_StevensCave_Andra_Texto_39:
 	.string "¡bat!$"

@@ -1,33 +1,256 @@
 SSTidal_Submarino_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidal_Submarino_OnFrame
 	.byte 0
+
+SSTidal_Submarino_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 247, SSTidal_Submarino_Primera_Escena
+	.2byte 0
+
+
+Submarino_Primera_Escena_Move_1:
+face_down
+step_end
+
+Submarino_Primera_Escena_Move_2:
+face_up
+step_end
+
+Submarino_Primera_Escena_Move_3:
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_right
+step_end
+
+Submarino_Primera_Escena_Move_4:
+delay_16
+delay_16
+face_left
+step_end
+
+Submarino_Primera_Escena_Move_5:
+walk_in_place_left
+step_end
+
+Submarino_Primera_Escena_Move_6:
+walk_in_place_right
+step_end
+
+Submarino_Primera_Escena_Move_7:
+face_down
+step_end
+
+Submarino_Primera_Escena_Move_8:
+face_right
+step_end
+
+Submarino_Primera_Escena_Move_9:
+face_left
+step_end
 
 
 SSTidal_Submarino_Primera_Escena::
 lock
+playse SE_LAVARIDGE_FALL_WARP
+waitse
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_1
+applymovement 10, Submarino_Primera_Escena_Move_2
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Primera_Escena_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_3
+waitmovement 0x0
+applymovement 10, Submarino_Primera_Escena_Move_5
+waitmovement 0x0
+playse SE_LAVARIDGE_FALL_WARP
+applymovement 10, Submarino_Primera_Escena_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_2
+waitmovement 0x0
+delay 170
+applymovement 10, Submarino_Primera_Escena_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_8
+waitmovement 0x0
+msgbox SSTidal_Submarino_Primera_Escena_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox SSTidal_Submarino_Primera_Escena_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_6
+waitmovement 0x0
+delay 15
+applymovement 10, Submarino_Primera_Escena_Move_7
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Primera_Escena_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_9
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Submarino_Primera_Escena_Move_10
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, Submarino_Primera_Escena_Move_5
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_M_DIVE
+waitse
+delay 20
+playse SE_SHIP
+waitse
+delay 20
 msgbox SSTidal_Submarino_Primera_Escena_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Submarino_Primera_Escena_Move_7
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, Submarino_Primera_Escena_Move_2
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, Submarino_Primera_Escena_Move_7
+applymovement 3, Submarino_Primera_Escena_Move_11
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Submarino_Primera_Escena_Move_12
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 10, Submarino_Primera_Escena_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_8
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, Submarino_Primera_Escena_Move_7
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Primera_Escena_Move_13
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_M_THUNDERBOLT2
+waitse
+delay 15
+playse SE_PIN
+applymovement 10, Submarino_Primera_Escena_Move_14
+waitmovement 0x0
+applymovement 10, Submarino_Primera_Escena_Move_9
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Primera_Escena_Move_5
+waitmovement 0x0
 msgbox SSTidal_Submarino_Primera_Escena_Texto_19 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_15
+waitmovement 0x0
+warpsilent MAP_MOSSDEEP_CITY, 76, 13
+delay 100
 release
 end
 
+Submarino_Primera_Escena_Move_15:
+walk_slow_down
+walk_slow_right
+walk_slow_right
+face_left
+step_end
+
+Submarino_Primera_Escena_Move_14:
+emote_exclamation_mark
+step_end
+
+Submarino_Primera_Escena_Move_13:
+walk_in_place_down
+step_end
+
+Submarino_Primera_Escena_Move_12:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+step_end
+
+
+Submarino_Primera_Escena_Move_11:
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+face_left
+step_end
+
+Submarino_Primera_Escena_Move_10:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+step_end
+
 SSTidal_Submarino_Primera_Escena_Texto_1:
 	.string "ARIANA: ¡Por aquí, {PLAYER}!$"
+
+SSTidal_Submarino_Primera_Escena_Texto_1.1:
+	.string "Por unos segundos. Parece que al final\n"
+	.string "sí pondremos nuestra vida en juego.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_2:
 	.string "Este lugar parece ser ajeno al SS.MAREA.\n"

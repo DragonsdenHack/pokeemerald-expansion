@@ -37205,7 +37205,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER612[] = {
     },
     {
     .iv = 20,
-    .lvl = 75,
+    .lvl = 100,
     .species = SPECIES_TENTACRUEL,
     },
     {
