@@ -144,6 +144,8 @@ msgbox SSTidal_Submarino_Primera_Escena_Texto_16 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SSTidal_Submarino_Primera_Escena_Texto_17 MSGBOX_AUTOCLOSE
 delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Primera_Escena_Move_16
+waitmovement 0x0
 playse SE_M_THUNDERBOLT2
 waitse
 delay 15
@@ -162,6 +164,11 @@ warpsilent MAP_MOSSDEEP_CITY, 76, 13
 delay 100
 release
 end
+
+Submarino_Primera_Escena_Move_16:
+walk_in_place_fast_right
+walk_in_place_fast_right
+step_end
 
 Submarino_Primera_Escena_Move_15:
 walk_slow_down

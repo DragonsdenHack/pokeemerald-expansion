@@ -1,50 +1,160 @@
 Mosdeep_Jirachi_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Mosdeep_Jirachi_OnFrame
 	.byte 0
+
+Mosdeep_Jirachi_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 247, MossdeepCity_Jirachi
+	.2byte 0
+
+MossdeepCity_Jirachi_Move_2:
+walk_up
+step_end
+
+MossdeepCity_Jirachi_Move_3:
+walk_in_place_up
+step_end
+
+MossdeepCity_Jirachi_Move_4:
+walk_down
+step_end
+
+MossdeepCity_Jirachi_Move_5:
+face_down
+step_end
+
+MossdeepCity_Jirachi_Move_6:
+walk_down
+walk_down
+walk_down
+step_end
+
+MossdeepCity_Jirachi_Move_7:
+face_up
+step_end
 
 MossdeepCity_Jirachi::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Jirachi_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox MossdeepCity_Jirachi_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, MossdeepCity_Jirachi_Move_2
+waitmovement 0x0
+msgbox MossdeepCity_Jirachi_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, MossdeepCity_Jirachi_Move_2
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_3
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, MossdeepCity_Jirachi_Move_4
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_5
+waitmovement 0x0
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_6
+waitmovement 0x0
+applymovement 2, MossdeepCity_Jirachi_Move_4
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_17 MSGBOX_AUTOCLOSE
+delay 35
 msgbox MossdeepCity_Jirachi_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, MossdeepCity_Jirachi_Move_7
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_8
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_22 MSGBOX_AUTOCLOSE
+delay 35
 msgbox MossdeepCity_Jirachi_Texto_23 MSGBOX_AUTOCLOSE
+delay 35
 msgbox MossdeepCity_Jirachi_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_7
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, MossdeepCity_Jirachi_Move_2
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, MossdeepCity_Jirachi_Move_2
+waitmovement 0x0
+delay 15
 msgbox MossdeepCity_Jirachi_Texto_30 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, MossdeepCity_Jirachi_Move_9
+waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_31 MSGBOX_AUTOCLOSE
 warpsilent MAP_ARRECIPOLIS_ANTIGUA, 76, 13
+delay 150
 release
 end
 
+MossdeepCity_Jirachi_Move_9:
+emote_exclamation_mark
+step_end
+
+MossdeepCity_Jirachi_Move_8:
+face_left
+step_end
+
+MossdeepCity_Jirachi_Move_1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
 MossdeepCity_Jirachi_Texto_1:
-	.string "????: Llevaba tiempo buscándote. Soy\n"
-	.string "JIRACHI, un antiguo POKÉMON\l"
-	.string "LEGENDARIO.$"
+	.string "????: Llevaba tiempo buscándote.$"
 
 MossdeepCity_Jirachi_Texto_2:
-	.string "ANDRA: ¿Dónde estoy? ¿Qué has hecho?$"
+	.string "ANDRA: JIRACHI…$"
+
+MossdeepCity_Jirachi_Texto_2.1:
+	.string "¡¿Dónde estoy? ¿Qué has hecho?!$"
 
 MossdeepCity_Jirachi_Texto_3:
 	.string "JIRACHI: Te he teletransportado a mi\n"
@@ -79,13 +189,12 @@ MossdeepCity_Jirachi_Texto_9:
 
 MossdeepCity_Jirachi_Texto_10:
 	.string "Tu fé plena en que, pase lo que pase,\n"
-	.string "siempre podrás alcanzar cotas, no ha\l"
-	.string "pasado inadvertida para mí. Llevaba\l"
-	.string "siglos y siglos sin sentir algo así.$"
+	.string "siempre podrás alcanzar cotas mayores\l"
+	.string "no ha pasado inadvertida.$"
 
 MossdeepCity_Jirachi_Texto_11:
-	.string "Llevaba siglos y siglos sin sentir algo\n"
-	.string "así.$"
+	.string "Llevaba siglos y siglos sin sentir una\n"
+	.string "energía así.$"
 
 MossdeepCity_Jirachi_Texto_12:
 	.string "En tus palabras y decisiones hay\n"

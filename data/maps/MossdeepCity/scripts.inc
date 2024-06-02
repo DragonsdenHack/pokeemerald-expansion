@@ -471,6 +471,33 @@ walk_left
 walk_left
 step_end
 
+MossdeepCity_Andra_Move_2:
+face_left
+step_end
+
+MossdeepCity_Andra_Move_3:
+walk_slow_left
+delay_16
+delay_8
+walk_slow_up
+delay_16
+step_end
+
+MossdeepCity_Andra_Move_4:
+emote_exclamation_mark
+step_end
+
+MossdeepCity_Andra_Move_5:
+walk_up
+walk_up
+walk_up
+step_end
+
+MossdeepCity_Andra_Move_6:
+face_down
+step_end
+
+
 
 MossdeepCity_Andra::
 lock
@@ -479,20 +506,127 @@ applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Andra_Move_1
 waitmovement 0x0
 special RemoveCameraObject
 msgbox MossdeepCity_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_2
+waitmovement 0x0
 msgbox MossdeepCity_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 18, MossdeepCity_Andra_Move_4
+waitmovement 0x0
+applymovement 18, MossdeepCity_Andra_Move_5
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Andra_Move_5
+waitmovement 0x0
+special RemoveCameraObject
 msgbox MossdeepCity_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MossdeepCity_Andra_Move_6
+waitmovement 0x0
 msgbox MossdeepCity_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MossdeepCity_Andra_Move_8
+applymovement 18, MossdeepCity_Andra_Move_7
+waitmovement 0x0
+delay 35
 msgbox MossdeepCity_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_2
+waitmovement 0x0
+delay 15
 msgbox MossdeepCity_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 18, MossdeepCity_Andra_Move_9
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Andra_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_M_DETECT
+dofieldeffectsparkle 57, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement 18, MossdeepCity_Andra_Move_4
+waitmovement 0x0
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_8
+waitmovement 0x0
 msgbox MossdeepCity_Andra_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_M_DETECT
+dofieldeffectsparkle 57, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 18, MossdeepCity_Andra_Move_10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Andra_Move_10
+waitmovement 0x0
+special RemoveCameraObject
+fadeoutbgm 0
+playse 0
 msgbox MossdeepCity_Andra_Texto_9 MSGBOX_AUTOCLOSE
+call Script_SetGrayscaleTint
+playse SE_PIN
+applymovement 18, MossdeepCity_Andra_Move_4
+waitmovement 0x0
+delay 15
 msgbox MossdeepCity_Andra_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 18, MossdeepCity_Andra_Move_4
+waitmovement 0x0
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_11
+waitmovement 0x0
 msgbox MossdeepCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
-warpsilent MAP_MOSDEEP_JIRACHI, 76, 13
+delay 15
+applymovement 18, MossdeepCity_Andra_Move_4
+dofieldeffectsparkle 57, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+call Script_RemoveTint
+warpsilent MAP_MOSDEEP_JIRACHI, 10, 8
 delay 100
 release
 end
+
+MossdeepCity_Andra_Move_11:
+walk_fast_right
+walk_fast_right
+face_up
+step_end
+
+MossdeepCity_Andra_Move_10:
+walk_down
+walk_right
+walk_right
+walk_down
+walk_right
+step_end
+
+MossdeepCity_Andra_Move_9:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_left
+walk_left
+walk_up
+step_end
+
+MossdeepCity_Andra_Move_8:
+face_right
+step_end
+
+MossdeepCity_Andra_Move_7:
+walk_up
+step_end
 
 MossdeepCity_Andra_Texto_1:
 	.string "ANDRA: Entonces, ese es el famoso\n"

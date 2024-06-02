@@ -14865,7 +14865,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_MtMoon",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Mosdeep_Jirachi/border.bin",
       "blockdata_filepath": "data/layouts/Mosdeep_Jirachi/map.bin"
     },
