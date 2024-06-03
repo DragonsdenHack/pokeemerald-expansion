@@ -34,10 +34,12 @@ step_end
 
 MossdeepCity_Jirachi::
 lock
+delay 30
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Jirachi_Move_1
 waitmovement 0x0
 special RemoveCameraObject
+delay 30
 msgbox MossdeepCity_Jirachi_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MossdeepCity_Jirachi_Texto_2 MSGBOX_AUTOCLOSE
@@ -118,14 +120,70 @@ applymovement 1, MossdeepCity_Jirachi_Move_2
 waitmovement 0x0
 delay 15
 msgbox MossdeepCity_Jirachi_Texto_30 MSGBOX_AUTOCLOSE
+playse SE_M_DETECT
+dofieldeffectsparkle 57, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
 playse SE_PIN
 applymovement 1, MossdeepCity_Jirachi_Move_9
 waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_31 MSGBOX_AUTOCLOSE
-warpsilent MAP_ARRECIPOLIS_ANTIGUA, 76, 13
+applymovement 1, MossdeepCity_Jirachi_Move_10
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+warpsilent MAP_ARRECIPOLIS_ANTIGUA, 45, 5
 delay 150
 release
 end
+
+MossdeepCity_Jirachi_Move_10:
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+walk_in_place_fast_left
+step_end
 
 MossdeepCity_Jirachi_Move_9:
 emote_exclamation_mark

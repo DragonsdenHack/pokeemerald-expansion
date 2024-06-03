@@ -2,7 +2,7 @@
   "id": "MAP_MOSDEEP_JIRACHI",
   "name": "Mosdeep_Jirachi",
   "layout": "LAYOUT_MOSDEEP_JIRACHI",
-  "music": "560",
+  "music": "623",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_FOG_HORIZONTAL",

@@ -469,6 +469,7 @@ walk_left
 walk_left
 walk_left
 walk_left
+walk_down
 step_end
 
 MossdeepCity_Andra_Move_2:
@@ -582,8 +583,11 @@ waitmovement 0x0
 msgbox MossdeepCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 18, MossdeepCity_Andra_Move_4
+playse SE_M_DETECT
 dofieldeffectsparkle 57, 21, 0
 waitfieldeffect FLDEFF_SPARKLE
+waitse
+applymovement 18, MossdeepCity_Jirachi_Move_10
 playse SE_ORB
 special DoOrbEffect
 delay 150

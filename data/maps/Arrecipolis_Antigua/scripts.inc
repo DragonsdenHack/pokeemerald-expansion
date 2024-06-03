@@ -1,31 +1,509 @@
 Arrecipolis_Antigua_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Arrecipolis_Antigua_OnFrame
 	.byte 0
+
+Arrecipolis_Antigua_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 247, Arrecipolis_Antigua_Andra
+	.2byte 0
+
+Arrecipolis_Antigua_Andra_Move_1:
+emote_exclamation_mark
+step_end
+
+Arrecipolis_Antigua_Andra_Move_2:
+face_up
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_3:
+face_up
+step_end
+
+Arrecipolis_Antigua_Andra_Move_4:
+face_right
+step_end
+
+Arrecipolis_Antigua_Andra_Move_5:
+face_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_6:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Arrecipolis_Antigua_Andra_Move_7:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+step_end
+
+Arrecipolis_Antigua_Andra_Move_8:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_8.3:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_8.4:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
+
+Arrecipolis_Antigua_Andra_Move_8.2:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+step_end
+
+Arrecipolis_Antigua_Andra_Move_8.1:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_up
+walk_fast_up
+step_end
+
+Arrecipolis_Antigua_Andra_Move_9:
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+step_end
+
+Arrecipolis_Antigua_Andra_Move_9.1:
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_10:
+walk_in_place_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_11:
+lock_facing_direction
+walk_fast_up
+unlock_facing_direction
+step_end
+
+Arrecipolis_Antigua_Andra_Move_12:
+walk_fast_down
+step_end
+
+Arrecipolis_Antigua_Andra_Move_13:
+walk_in_place_left
+step_end
+
+Arrecipolis_Antigua_Andra_Move_14:
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+face_up
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+face_left
+step_end
+
 
 Arrecipolis_Antigua_Andra::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PIN
+applymovement 13, Arrecipolis_Antigua_Andra_Move_1
+waitmovement 0x0
+delay 10
+playse SE_M_TRI_ATTACK2
+applymovement 13, Arrecipolis_Antigua_Andra_Move_2
+waitmovement 0x0
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, Arrecipolis_Antigua_Andra_Move_3
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, Arrecipolis_Antigua_Andra_Move_4
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_3 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_TRI_ATTACK2
+applymovement 13, Arrecipolis_Antigua_Andra_Move_5
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, Arrecipolis_Antigua_Andra_Move_7
+applymovement 13, Arrecipolis_Antigua_Andra_Move_7
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_7
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	waitse
 msgbox Arrecipolis_Antigua_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_8 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_11
+addobject 8
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 18, Arrecipolis_Antigua_Andra_Move_10
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_9 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_KINGDRA, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox Arrecipolis_Antigua_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_HYDRO_PUMP
+waitse
+delay 5
+applymovement 8, Arrecipolis_Antigua_Andra_Move_11
+waitmovement 0x0
+playse SE_EFFECTIVE
+waitse
+playse SE_M_WHIRLPOOL
+waitse
+delay 5
+applymovement 8, Arrecipolis_Antigua_Andra_Move_11
+waitmovement 0x0
+playse SE_SUPER_EFFECTIVE
+waitse
+delay 5
+playmoncry SPECIES_KINGDRA, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+waitse
+setflag FLAG_HOENN_11
+removeobject 8
+delay 15
+applymovement 18, Arrecipolis_Antigua_Andra_Move_12
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_13 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_9.1
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	waitse
+special SpawnCameraObject
+removeobject 7
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_8.2
+waitmovement 0x0
+clearflag FLAG_HOENN_10
+addobject 21
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_8.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Arrecipolis_Antigua_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 21, Arrecipolis_Antigua_Andra_Move_4
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 21, Arrecipolis_Antigua_Andra_Move_1
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 21, Arrecipolis_Antigua_Andra_Move_5
+applymovement 14, Arrecipolis_Antigua_Andra_Move_13
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 21, Arrecipolis_Antigua_Andra_Move_14
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 21, Arrecipolis_Antigua_Andra_Move_13
+waitmovement 0x0
 msgbox Arrecipolis_Antigua_Andra_Texto_18 MSGBOX_AUTOCLOSE
+addobject 20
+clearflag FLAG_HOENN_5
+playse SE_BALL_THROW
+applymovement 20, Arrecipolis_Antigua_Andra_Move_15.1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_8.3
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_BALL_OPEN
+setflag FLAG_HOENN_5
+removeobject 20
+clearflag FLAG_HOENN_6
+addobject 17
+playmoncry SPECIES_MILOTIC, CRY_MODE_ENCOUNTER
+waitmoncry
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_8.4
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Arrecipolis_Antigua_Andra_Texto_19 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_WHIRLPOOL
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17
+waitmovement 0x0
+waitse
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	waitse
+playse SE_M_HYDRO_PUMP
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16.1
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17.1
+waitmovement 0x0
+waitse
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_21 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_MILOTIC, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_WHIRLPOOL
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17
+waitmovement 0x0
+waitse
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	waitse
+playse SE_M_HYDRO_PUMP
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16.1
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17.1
+waitmovement 0x0
+waitse
+delay 15
+msgbox Arrecipolis_Antigua_Andra_Texto_21.1 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_MILOTIC, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_ABSORB_2
+waitse
+playse SE_M_WHIRLPOOL
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17
+waitmovement 0x0
+waitse
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	waitse
+playse SE_M_HYDRO_PUMP
+applymovement 1, Arrecipolis_Antigua_Andra_Move_16.1
+applymovement 17, Arrecipolis_Antigua_Andra_Move_17.1
+waitmovement 0x0
+waitse
+delay 15
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_SNORE
+waitse
+delay 15
+playse SE_M_ABSORB_2
+waitse
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_23 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 200
+fadescreen 0
 msgbox Arrecipolis_Antigua_Andra_Texto_24 MSGBOX_AUTOCLOSE
 msgbox Arrecipolis_Antigua_Andra_Texto_25 MSGBOX_AUTOCLOSE
 msgbox Arrecipolis_Antigua_Andra_Texto_26 MSGBOX_AUTOCLOSE
@@ -53,8 +531,59 @@ msgbox Arrecipolis_Antigua_Andra_Texto_47 MSGBOX_AUTOCLOSE
 msgbox Arrecipolis_Antigua_Andra_Texto_48 MSGBOX_AUTOCLOSE
 msgbox Arrecipolis_Antigua_Andra_Texto_49 MSGBOX_AUTOCLOSE
 msgbox Arrecipolis_Antigua_Andra_Texto_50 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 248
 release
 end
+
+Arrecipolis_Antigua_Andra_Move_17:
+walk_fast_left
+walk_fast_left
+step_end
+
+Arrecipolis_Antigua_Andra_Move_17.1:
+lock_facing_direction
+walk_right
+walk_right
+unlock_facing_direction
+step_end
+
+Arrecipolis_Antigua_Andra_Move_16:
+walk_fast_right
+walk_fast_right
+step_end
+
+Arrecipolis_Antigua_Andra_Move_16.1:
+lock_facing_direction
+walk_left
+walk_left
+unlock_facing_direction
+step_end
+
+Arrecipolis_Antigua_Andra_Move_15:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
+
+Arrecipolis_Antigua_Andra_Move_15.1:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
 
 Arrecipolis_Antigua_Andra_Texto_1:
 	.string "ANDRA: No puedo creerlo, ¿de verdad…\n"
@@ -127,6 +656,9 @@ Arrecipolis_Antigua_Andra_Texto_20:
 
 Arrecipolis_Antigua_Andra_Texto_21:
 	.string "¡MILOTIC, HYDROBOMBA!$"
+
+Arrecipolis_Antigua_Andra_Texto_21.1:
+	.string "¡Sigue! ¡Otra vez! ¡RECUPERACIÓN!$"
 
 Arrecipolis_Antigua_Andra_Texto_22:
 	.string "Oh, no… DESCANSO…$"

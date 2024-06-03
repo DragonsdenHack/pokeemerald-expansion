@@ -304,6 +304,7 @@ applymovement 1, GameCorner_Mauville_Ariana_Move_15
 waitmovement 0x0
 msgbox GameCorner_Mauville_Encuentro_Ariana_Texto_23 MSGBOX_AUTOCLOSE
 delay 10
+setflag FLAG_HOENN_4
 setvar VAR_UNUSED_0x40F7, 230
 setflag FLAG_HOENN_6
 release
