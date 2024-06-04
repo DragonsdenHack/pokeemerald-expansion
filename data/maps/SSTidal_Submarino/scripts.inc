@@ -1,9 +1,11 @@
 SSTidal_Submarino_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidal_Submarino_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidal_Submarino_OnFrame
 	.byte 0
 
 SSTidal_Submarino_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 247, SSTidal_Submarino_Primera_Escena
+map_script_2 VAR_UNUSED_0x40F7, 248, SSTidal_Submarino_Segunda_Escena
 	.2byte 0
 
 
@@ -338,9 +340,40 @@ SSTidal_Submarino_Primera_Escena_Texto_19:
 	.string "mientras estaré atenta a lo que puedan\l"
 	.string "decir.$"
 
+Submarino_Segunda_Escena_Move_1:
+face_right
+step_end
+
+Submarino_Segunda_Escena_Move_2:
+emote_exclamation_mark
+step_end
+
+Submarino_Segunda_Escena_Move_3:
+delay_16
+face_down
+delay_16
+delay_16
+face_up
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+face_left
+delay_16
+step_end
+
 SSTidal_Submarino_Segunda_Escena::
 lock
+applymovement 10, Submarino_Segunda_Escena_Move_1
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Segunda_Escena_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Segunda_Escena_Move_3
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_2 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_3 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_4 MSGBOX_AUTOCLOSE
@@ -360,7 +393,7 @@ release
 end
 
 SSTidal_Submarino_Segunda_Escena_Texto_1:
-	.string "????: {PAUSE 35}…{PAUSE 35} ¿{PLAYER}? {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Vuelve a la\n"
+	.string "ARIANA: {PAUSE 35}…{PAUSE 35} ¿{PLAYER}? {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Vuelve a la\n"
 	.string "realidad.$"
 
 SSTidal_Submarino_Segunda_Escena_Texto_2:

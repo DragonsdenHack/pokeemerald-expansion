@@ -588,6 +588,7 @@ dofieldeffectsparkle 57, 21, 0
 waitfieldeffect FLDEFF_SPARKLE
 waitse
 applymovement 18, MossdeepCity_Jirachi_Move_10
+setvar VAR_RESULT, 4
 playse SE_ORB
 special DoOrbEffect
 delay 150

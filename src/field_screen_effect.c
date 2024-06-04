@@ -1087,6 +1087,8 @@ static void LoadOrbEffectPalette(bool8 blueOrb)
     int i;
     u16 color[1];
 
+    if (!blueOrb && gSpecialVar_Result == 4)
+		color[0] = RGB_WHITE;
     if (!blueOrb && gSpecialVar_Result == 3)
 		color[0] = RGB_PURPLE;
     if (!blueOrb && gSpecialVar_Result == 1)

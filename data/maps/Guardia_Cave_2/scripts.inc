@@ -1180,7 +1180,6 @@ delay_16
 face_left
 step_end
 
-
 Combate_Guardia_Move_18:
 walk_down
 walk_down
@@ -1195,7 +1194,6 @@ walk_left
 walk_left
 walk_left
 step_end
-
 
 Combate_Guardia_Move_17:
 delay_16
