@@ -1,6 +1,7 @@
 SSTidal_Submarino_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidal_Submarino_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidal_Submarino_OnFrame
+map_script MAP_SCRIPT_ON_TRANSITION, SSTidal_Submarino_OnTransition
 	.byte 0
 
 SSTidal_Submarino_OnFrame:
@@ -8,6 +9,9 @@ map_script_2 VAR_UNUSED_0x40F7, 247, SSTidal_Submarino_Primera_Escena
 map_script_2 VAR_UNUSED_0x40F7, 248, SSTidal_Submarino_Segunda_Escena
 	.2byte 0
 
+SSTidal_Submarino_OnTransition:
+	setrespawn HEAL_LOCATION_SS_TIDAL_SUBMARINO
+	end
 
 Submarino_Primera_Escena_Move_1:
 face_down
@@ -363,6 +367,30 @@ face_left
 delay_16
 step_end
 
+Submarino_Segunda_Escena_Move_4:
+face_left
+step_end
+
+Submarino_Segunda_Escena_Move_5:
+walk_in_place_left
+step_end
+
+Submarino_Segunda_Escena_Move_6:
+delay_16
+face_down
+delay_16
+face_right
+delay_8
+step_end
+
+Submarino_Segunda_Escena_Move_7:
+walk_slow_left
+step_end
+
+Submarino_Segunda_Escena_Move_8:
+face_down
+step_end
+
 SSTidal_Submarino_Segunda_Escena::
 lock
 applymovement 10, Submarino_Segunda_Escena_Move_1
@@ -375,22 +403,134 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Submarino_Segunda_Escena_Move_3
 waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_4
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_5
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_6
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_7
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_8
+waitmovement 0x0
+delay 10
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_8 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_PIN
+applymovement 10, Submarino_Segunda_Escena_Move_9
+playse SE_ELEVATOR
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Segunda_Escena_Move_9
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_9 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Submarino_Primera_Escena_Move_10
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Submarino_Segunda_Escena_Move_10
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_DING_DONG
+waitse
+delay 15
+applymovement 1, Submarino_Segunda_Escena_Move_5
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 3, Submarino_Segunda_Escena_Move_11
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_13 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+playse SE_EXIT
+waitse
+removeobject 2
+removeobject 8
+removeobject 9
+removeobject 7
+removeobject 6
+removeobject 4
+removeobject 5
+fadescreen 0
+applymovement 3, Submarino_Segunda_Escena_Move_5
+applymovement 1, Submarino_Segunda_Escena_Move_1
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 3, Submarino_Segunda_Escena_Move_12
+waitmovement 0x0
+setflag FLAG_HOENN_15
+removeobject 3
+playse SE_EXIT
+waitse
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Submarino_Primera_Escena_Move_12
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 10, Submarino_Segunda_Escena_Move_1
+waitmovement 0x0
 msgbox SSTidal_Submarino_Segunda_Escena_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 10, Submarino_Segunda_Escena_Move_13
+waitmovement 0x0
+setflag FLAG_HOENN_49
+clearflag FLAG_HOENN_1
+removeobject 10
+addobject 11
+setvar VAR_UNUSED_0x40F7, 249
 release
 end
+
+Submarino_Segunda_Escena_Move_13:
+walk_left
+walk_left
+walk_up
+walk_left
+walk_left
+walk_up
+walk_up
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+step_end
+
+Submarino_Segunda_Escena_Move_12:
+walk_up
+walk_up
+step_end
+
+Submarino_Segunda_Escena_Move_11:
+walk_in_place_down
+step_end
+
+Submarino_Segunda_Escena_Move_10:
+face_down
+step_end
+
+Submarino_Segunda_Escena_Move_9:
+emote_exclamation_mark
+face_left
+step_end
 
 SSTidal_Submarino_Segunda_Escena_Texto_1:
 	.string "ARIANA: {PAUSE 35}…{PAUSE 35} ¿{PLAYER}? {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Vuelve a la\n"
@@ -469,15 +609,86 @@ SSTidal_Submarino_Segunda_Escena_Texto_16:
 	.string "ALTO MANDO. Es nuestro momento de\l"
 	.string "salir.$"
 
+Submarino_Dracon_Move_1:
+face_left
+step_end
+
+Submarino_Dracon_Move_2:
+face_right
+delay_16
+walk_in_place_right
+step_end
+
+Submarino_Dracon_Move_3:
+face_right
+step_end
+
+Submarino_Dracon_Move_4:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Submarino_Dracon_Move_5:
+walk_left
+step_end
+
+Submarino_Dracon_Move_6:
+walk_up
+face_left
+step_end
+
+Submarino_Dracon_Move_7:
+emote_exclamation_mark
+face_left
+step_end
+
+Submarino_Dracon_Move_8:
+walk_right
+step_end
+
+Submarino_Dracon_Move_9:
+walk_in_place_left
+step_end
+
+
 SSTidal_Submarino_Dracon::
 lock
+applymovement 1, Submarino_Dracon_Move_3
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_1
+applymovement 11, Submarino_Dracon_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_4
+applymovement 11, Submarino_Dracon_Move_4
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_5
+applymovement 11, Submarino_Dracon_Move_6
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Submarino_Dracon_Move_7
+waitmovement 0x0
+playse 603
 msgbox SSTidal_Submarino_Dracon_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_5
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, Submarino_Dracon_Move_8
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Dracon_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_9
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Dracon_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_8
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_8 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Dracon_Texto_9 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Dracon_Texto_10 MSGBOX_AUTOCLOSE
@@ -489,11 +700,12 @@ msgbox SSTidal_Submarino_Dracon_Texto_15 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Dracon_Texto_16 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Dracon_Texto_17 MSGBOX_AUTOCLOSE
 msgbox SSTidal_Submarino_Dracon_Texto_18 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 250
 release
 end
 
 SSTidal_Submarino_Dracon_Texto_1:
-	.string "ARIANA: ¡Manos arriba anciano!$"
+	.string "ARIANA: ¡Manos arriba, anciano!$"
 
 SSTidal_Submarino_Dracon_Texto_2:
 	.string "????: Pero{PAUSE 25}…{PAUSE 25} ¿¡De dónde habéis salido!?$"
