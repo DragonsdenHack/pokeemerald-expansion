@@ -88,6 +88,13 @@ SnowpointCity_Quinto_Npc_Texto_1:
 
 SnowpointCity_Sexto_Npc::
 lock
+compare VAR_UNUSED_0x40F7, 256
+goto_if_gt SnowpointCity_Sexto_Npc_Despues
+msgbox SnowpointCity_Templo_Texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+SnowpointCity_Sexto_Npc_Despues::
 faceplayer
 msgbox SnowpointCity_Sexto_Npc_Texto_1, MSGBOX_NPC
 release  
@@ -102,13 +109,54 @@ SnowpointCity_Sexto_Npc_Texto_1:
 
 SnowpointCity_Entrada::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Templo_Move_1
+applymovement 11, SnowpointCity_Entrada_Move_1
+waitmovement 0x0
 msgbox SnowpointCity_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SnowpointCity_Entrada_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SnowpointCity_Entrada_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, SnowpointCity_Entrada_Move_2
+waitmovement 0x0
 msgbox SnowpointCity_Entrada_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 11, SnowpointCity_Entrada_Move_3
+waitmovement 0x0
 msgbox SnowpointCity_Entrada_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, SnowpointCity_Entrada_Move_4
+waitmovement 0x0
+msgbox SnowpointCity_Entrada_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 11, SnowpointCity_Entrada_Move_5
+waitmovement 0x0
+setflag FLAG_HOENN_18
+removeobject 11
+setvar VAR_UNUSED_0x40F7, 251
 release
 end
+
+SnowpointCity_Entrada_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+SnowpointCity_Entrada_Move_4:
+walk_up
+step_end
+
+SnowpointCity_Entrada_Move_3:
+walk_in_place_left
+step_end
+
+SnowpointCity_Entrada_Move_2:
+face_left
+step_end
+
+SnowpointCity_Entrada_Move_1:
+face_down
+step_end
 
 SnowpointCity_Entrada_Texto_1:
 	.string "ARIANA: Le he preguntado al marinero:\n"
@@ -126,26 +174,105 @@ SnowpointCity_Entrada_Texto_3:
 SnowpointCity_Entrada_Texto_4:
 	.string "Solo nos queda explorar la ciudad,\n"
 	.string "parece que la respuesta está en el\l"
-	.string "TEMPLO PUNTANEVA, al norte de la\l"
-	.string "ciudad.$"
+	.string "TEMPLO PUNTANEVA, al norte.$"
 
 SnowpointCity_Entrada_Texto_5:
 	.string "Seguro que están allí. Yo me adelantaré,\n"
 	.string "{PLAYER}. Tú deberías curar antes a\l"
 	.string "tus POKÉMON.$"
 
+SnowpointCity_Entrada_Texto_6:
+	.string "Por muy buen ENTRENADOR que seas, un\n"
+	.string "ALTO MANDO es un ALTO MANDO, ¿no?$"
+
+SnowpointCity_Templo_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Templo_Move_1
+waitmovement 0x0
+goto SnowpointCity_Templo
+
+SnowpointCity_Templo_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Templo_Move_1.1
+waitmovement 0x0
+goto SnowpointCity_Templo
+
+SnowpointCity_Templo_Move_3:
+walk_in_place_up
+step_end
+
+SnowpointCity_Templo_Move_4:
+delay_16
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+step_end
+
+
 SnowpointCity_Templo::
 lock
 msgbox SnowpointCity_Templo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Templo_Move_2
+waitmovement 0x0
 msgbox SnowpointCity_Templo_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 13, SnowpointCity_Templo_Move_3
+waitmovement 0x0
 msgbox SnowpointCity_Templo_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SnowpointCity_Templo_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 13, SnowpointCity_Templo_Move_4
+waitmovement 0x0
 msgbox SnowpointCity_Templo_Texto_5 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_ARBOK, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement 9, SnowpointCity_Templo_Move_5
+waitmovement 0x0
 msgbox SnowpointCity_Templo_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SnowpointCity_Templo_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, SnowpointCity_Templo_Move_6
+waitmovement 0x0
 msgbox SnowpointCity_Templo_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, SnowpointCity_Templo_Move_7
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 252
 release
 end
+
+SnowpointCity_Templo_Move_7:
+face_up
+step_end
+
+SnowpointCity_Templo_Move_6:
+face_down
+step_end
+
+SnowpointCity_Templo_Move_5:
+emote_exclamation_mark
+step_end
+
+SnowpointCity_Templo_Move_2:
+walk_up
+walk_up
+walk_up
+step_end
+
+SnowpointCity_Templo_Move_1.1:
+walk_left
+face_up
+step_end
+
+SnowpointCity_Templo_Move_1:
+walk_in_place_up
+step_end
 
 SnowpointCity_Templo_Texto_1:
 	.string "ARIANA: Pero le he dicho que venimos\n"
@@ -180,6 +307,13 @@ SnowpointCity_Templo_Texto_7:
 SnowpointCity_Templo_Texto_8:
 	.string "¡{PLAYER}! Tú adelántate, no podemos\n"
 	.string "darle más ventaja a DEVON.$"
+
+
+SnowpointCity_Templo_Ariana_Arbok::
+lock
+msgbox SnowpointCity_Templo_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
 
 SnowpointCity_Salida::
 lock
@@ -227,5 +361,38 @@ SnowpointCity_Salida_Texto_8:
 	.string "aburres, puedes intentar ganar la\l"
 	.string "medalla de este GIMNASIO. Yo necesito\l"
 	.string "descansar.$"
+
+SnowpointCity_Barrera_Gimnasio_Move_1:
+walk_in_place_up
+step_end
+
+SnowpointCity_Barrera_Gimnasio_Move_2:
+walk_slow_down
+step_end
+
+SnowpointCity_Barrera_Gimnasio::
+lock
+compare VAR_UNUSED_0x40F7, 252
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Barrera_Gimnasio_Move_1
+waitmovement 0x0
+msgbox SnowpointCity_Barrera_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Barrera_Gimnasio_Move_2
+waitmovement 0x0
+release
+end
+
+SnowpointCity_Barrera_Gimnasio_Texto_1:
+	.string "No es momento de perder el tiempo\n"
+	.string "retando a un LÍDER de GIMNASIO.$"
+
+SnowpointCity_Templo_Sign::
+lock
+msgbox SnowpointCity_Templo_Sign_Texto_1 MSGBOX_SIGN
+release
+end
+
+SnowpointCity_Templo_Sign_Texto_1:
+	.string "TEMPLO PUNTANEVA$"
 
 

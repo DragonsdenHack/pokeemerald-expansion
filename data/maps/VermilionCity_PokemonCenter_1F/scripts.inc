@@ -3,7 +3,7 @@ VermilionCity_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 VermilionCity_PokemonCenter_1F_OnTransition:
-	setrespawn HEAL_LOCATION_VERMILION_CITY
+	setrespawn HEAL_LOCATION_SNOWPOINT_CITY
 	end
 
 VermilionCity_PokemonCenter_1F_EventScript_Nurse::

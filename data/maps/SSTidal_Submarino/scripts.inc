@@ -643,7 +643,7 @@ step_end
 
 Submarino_Dracon_Move_7:
 emote_exclamation_mark
-face_left
+face_right
 step_end
 
 Submarino_Dracon_Move_8:
@@ -687,22 +687,104 @@ waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SSTidal_Submarino_Dracon_Texto_7 MSGBOX_AUTOCLOSE
-applymovement 11, Submarino_Dracon_Move_8
+applymovement 11, Submarino_Dracon_Move_9
 waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_11
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_10
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 11, Submarino_Dracon_Move_12
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_13
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 11, Submarino_Dracon_Move_14
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, Submarino_Dracon_Move_16
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_16
+applymovement 11, Submarino_Dracon_Move_15
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_1
+removeobject 11
+fadeoutbgm 0
+delay 15
+playse 430
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_1
+applymovement 1, Submarino_Dracon_Move_3
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Submarino_Dracon_Move_6
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_14 MSGBOX_AUTOCLOSE
-msgbox SSTidal_Submarino_Dracon_Texto_15 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+trainerbattle_no_intro TRAINER_TRAINER_610, SSTidal_Submarino_Dracon_Texto_15
+delay 15
 msgbox SSTidal_Submarino_Dracon_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSTidal_Submarino_Dracon_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, Submarino_Dracon_Move_1
+waitmovement 0x0
 msgbox SSTidal_Submarino_Dracon_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, Submarino_Dracon_Move_17
+waitmovement 0x0
+setflag FLAG_HOENN_1
 setvar VAR_UNUSED_0x40F7, 250
 release
 end
+
+Submarino_Dracon_Move_17:
+walk_left
+step_end
+
+Submarino_Dracon_Move_16:
+delay_16
+face_up
+step_end
+
+Submarino_Dracon_Move_15:
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Submarino_Dracon_Move_14:
+delay_16
+face_down
+delay_16
+face_up
+step_end
+
+Submarino_Dracon_Move_13:
+delay_16
+face_left
+delay_16
+delay_16
+face_right
+delay_16
+step_end
+
+Submarino_Dracon_Move_12:
+emote_exclamation_mark
+step_end
+
+Submarino_Dracon_Move_11:
+delay_16
+face_down
+step_end
+
+Submarino_Dracon_Move_10:
+walk_left
+face_up
+delay_16
+walk_in_place_up
+delay_16
+step_end
 
 SSTidal_Submarino_Dracon_Texto_1:
 	.string "ARIANA: ¡Manos arriba, anciano!$"
@@ -787,3 +869,18 @@ faceplayer
 msgbox SSTidal_Submarino_Dracon_Texto_18 MSGBOX_NPC
 release
 end
+
+Snowpoint_Dialogo_Marinero::
+lock
+faceplayer
+msgbox Snowpoint_Dialogo_Marinero_Texto_1 MSGBOX_NPC
+msgbox Snowpoint_Dialogo_Marinero_Texto_2 MSGBOX_NPC
+release
+end
+
+Snowpoint_Dialogo_Marinero_Texto_2:
+	.string "¿No tienes frío? ¡Deberías abrigarte\n"
+	.string "más!$"
+
+Snowpoint_Dialogo_Marinero_Texto_1:
+	.string "¡Bienvenido a CIUDAD PUNTANEVA!$"

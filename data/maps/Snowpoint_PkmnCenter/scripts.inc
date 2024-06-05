@@ -1,5 +1,18 @@
 Snowpoint_PkmnCenter_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Snowpoint_PkmnCenter_OnTransition
 	.byte 0
+
+Snowpoint_PkmnCenter_OnTransition:
+	setrespawn HEAL_LOCATION_VERMILION_CITY
+	end
+
+Snowpoint_PkmnCenter_EventScript_Nurse::
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
 
 Snowpoint_PkmnCenter_Primer_Npc::
 lock

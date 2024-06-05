@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Snowpoint_Dialogo_Marinero",
       "flag": "0"
     },
     {
@@ -159,8 +159,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
-      "x": 10,
-      "y": 59,
+      "x": 4,
+      "y": 60,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SnowpointCity_Templo_Ariana_Arbok",
       "flag": "FLAG_HOENN_19"
     },
     {
@@ -258,39 +258,48 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 13,
-      "y": 49,
+      "x": 16,
+      "y": 50,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "250",
       "script": "SnowpointCity_Entrada"
     },
     {
       "type": "trigger",
-      "x": 14,
-      "y": 49,
+      "x": 17,
+      "y": 50,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "250",
       "script": "SnowpointCity_Entrada"
     },
     {
       "type": "trigger",
-      "x": 12,
-      "y": 19,
+      "x": 17,
+      "y": 13,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "SnowpointCity_Templo"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "251",
+      "script": "SnowpointCity_Templo_Der"
     },
     {
       "type": "trigger",
-      "x": 12,
-      "y": 20,
+      "x": 16,
+      "y": 13,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "251",
+      "script": "SnowpointCity_Templo_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 34,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "SnowpointCity_Templo"
+      "script": "SnowpointCity_Barrera_Gimnasio"
     }
   ],
   "bg_events": [
@@ -301,6 +310,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SnowpointCityDocumento_104"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SnowpointCity_Templo_Sign"
     }
   ]
 }
