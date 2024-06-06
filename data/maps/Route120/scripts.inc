@@ -351,7 +351,7 @@ Route120_EventScript_Riley::
 	end
 
 Route120_EventScript_Leonel::
-	trainerbattle_single TRAINER_LEONEL, Route120_Text_LeonelIntro, Route120_Text_LeonelDefeat
+	trainerbattle_single TRAINER_TRAINER_668, Route120_Text_LeonelIntro, Route120_Text_LeonelDefeat
 	msgbox Route120_Text_LeonelPostBattle, MSGBOX_AUTOCLOSE
 	end
 

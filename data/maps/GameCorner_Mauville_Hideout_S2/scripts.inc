@@ -362,7 +362,7 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_10:
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_11:
 	.string "Debes ser ADMINISTRADOR, ¿me\n"
-	.string "equivoco?. Viendo cómo combates, tu\l"
+	.string "equivoco? Viendo cómo combates, tu\l"
 	.string "JEFE ha debido de aprovechar esa baza\l"
 	.string "como solo él sabría hacer.$"
 

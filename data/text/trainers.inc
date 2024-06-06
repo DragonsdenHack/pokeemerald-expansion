@@ -3084,18 +3084,19 @@ Route120_Text_CallieDefeat:
 
 Route120_Text_CalliePostBattle:
 	.string "Me pregunto… ¿Hice bien al\n"
-	.string "evolucionar mis POKÉMON?.$"
+	.string "evolucionar mis POKÉMON?$"
 
 Route120_Text_LeonelIntro:
-	.string "Your party POKéMON…\n"
-	.string "Do you have different types?$"
+	.string	"Dime, ¿tienes diferentes tipos\n"
+	.string	"de POKéMON en tu equipo?$"
 
 Route120_Text_LeonelDefeat:
-	.string "I've seen your policy in action!$"
+	.string	"¡Acabo de ver cómo llevas\n"
+	.string	"la teoría a la práctica!$"
 
 Route120_Text_LeonelPostBattle:
-	.string "I think it's awesome you're so strong\n"
-	.string "battling with your favorite POKéMON.$"
+	.string	"Creo que es genial que luches tan\n"
+	.string	"bien con tus POKéMON favoritos.$"
 
 Route121_Text_VanessaIntro:
 	.string "¿Quieres jugar con mi Pokémon, que es\n"

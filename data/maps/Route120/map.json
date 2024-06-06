@@ -340,7 +340,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 9,
-      "y": 60,
+      "y": 63,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -783,6 +783,33 @@
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "6",
       "script": "Route120_House1_Warp"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 71,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "7",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 71,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "7",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 71,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "7",
+      "script": "NULL"
     }
   ],
   "bg_events": [

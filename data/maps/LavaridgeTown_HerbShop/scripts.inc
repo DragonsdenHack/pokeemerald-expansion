@@ -113,5 +113,5 @@ LavaridgeTown_Torchic_Text_1:
 	.string "La línea evolutiva de TORCHIC es cada\n"
 	.string "vez más escasa. Que sepas que acabo de\l"
 	.string "darte el último. Al siguiente forastero\l"
-	.string "que venga, ¡solo podré darle CARBÓN!.$"
+	.string "que venga, ¡solo podré darle CARBÓN!$"
 
