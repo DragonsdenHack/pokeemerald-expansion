@@ -35,7 +35,7 @@ Snowpoint_Gimnasio_EventScript_Sexto_Entrenador::
 Snowpoint_Gimnasio_Lider::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F7, 255
+compare VAR_UNUSED_0x40F8, 2
 goto_if_gt Snowpoint_Gimnasio_Lider_Despues
 msgbox Snowpoint_Gimnasio_Lider_Texto_1 MSGBOX_NPC
 delay 15
@@ -58,8 +58,8 @@ msgbox Snowpoint_Gimnasio_Lider_Texto_10 MSGBOX_NPC
 playse SE_POKENAV_OFF
 setflag FLAG_HOENN_697
 clearflag FLAG_HOENN_699
-setvar VAR_UNUSED_0x40F7, 256
-DELAY 20
+setvar VAR_UNUSED_0x40F8, 3
+delay 20
 release
 end
 

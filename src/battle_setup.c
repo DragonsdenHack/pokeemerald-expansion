@@ -997,6 +997,9 @@ u8 GetTrainerBattleTransition(void)
      if (gTrainerBattleOpponent_A == TRAINER_TRAINER_609)
         return B_TRANSITION_AMATISTA;
 
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_608)
+        return B_TRANSITION_INVERNA;
+
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_152)
         return B_TRANSITION_FRANK2;
 

@@ -161,21 +161,21 @@
     },
     {
       "type": "trigger",
-      "x": 15,
-      "y": 8,
+      "x": 8,
+      "y": 11,
       "elevation": 3,
-      "var": "VAR_SLATEPORT_HARBOR_STATE",
-      "var_value": "1",
-      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger1"
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Slateport_Bloqueo_Barco_Post_Mision_6"
     },
     {
       "type": "trigger",
-      "x": 16,
-      "y": 8,
+      "x": 7,
+      "y": 11,
       "elevation": 3,
-      "var": "VAR_SLATEPORT_HARBOR_STATE",
-      "var_value": "1",
-      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger2"
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Slateport_Bloqueo_Barco_Post_Mision_6"
     },
     {
       "type": "trigger",

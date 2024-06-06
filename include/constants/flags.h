@@ -2330,8 +2330,8 @@
 #define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_681 (TRAINER_FLAGS_END + 681) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_682 (TRAINER_FLAGS_END + 682) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683) // GIOVANNI AVISO FIN TRAYECTO MISION 6 // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684) // ARIANA DURMIENDO SS GIOVANNI // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // ARIANA RASMUS ETC TEMPLO PUNTANEVA DESPUES // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686) // Policias Secundaria Museo Despues // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // Fortunia y Dueno Museo Secundaria // En modo Setflag por defecto desde fin DLC

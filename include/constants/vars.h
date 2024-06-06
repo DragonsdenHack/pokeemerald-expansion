@@ -264,7 +264,7 @@
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER       0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
 #define VAR_UNUSED_0x40F7                    0x40F7 // Unused Var // EVENTOS 
-#define VAR_UNUSED_0x40F8                    0x40F8 // Unused Var // PILAR RECUERDO
+#define VAR_UNUSED_0x40F8                    0x40F8 // Unused Var // PILAR RECUERDO // EVENTOS DESPUES DE VALOR 255 en VAR_UNUSED_0x40F7
 #define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var // GIMNASIOS
 #define VAR_UNUSED_0x40FA                    0x40FA // Unused Var // WARPS Y TRAMPILLAS (0)
 #define VAR_UNUSED_0x40FB                    0x40FB // Unused Var // Evento Karatekas en ruta 4 (0)

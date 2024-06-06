@@ -1,46 +1,289 @@
 SSGiovanni_Rescate_MapScripts::
 	.byte 0
 
+SSGiovanni_Rescate_Escena_Move_1:
+walk_in_place_right
+step_end
+
+SSGiovanni_Rescate_Escena_Move_2:
+walk_in_place_up
+step_end
+
+SSGiovanni_Rescate_Escena_Move_3:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+step_end
+
+SSGiovanni_Rescate_Escena_Move_3.1:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_down
+walk_slow_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_4:
+face_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_5:
+face_right
+step_end
+
+SSGiovanni_Rescate_Escena_Move_6:
+walk_slow_right
+step_end
+
+SSGiovanni_Rescate_Escena_Move_7:
+face_left
+step_end
+
+SSGiovanni_Rescate_Escena_Move_8:
+walk_slow_left
+step_end
+
+SSGiovanni_Rescate_Escena_Move_9:
+walk_in_place_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_10:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+SSGiovanni_Rescate_Escena_Move_11:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+face_left
+step_end
+
+SSGiovanni_Rescate_Escena_Move_12:
+face_up
+step_end
+
+SSGiovanni_Rescate_Escena_Move_13:
+walk_slow_up
+step_end
+
+SSGiovanni_Rescate_Escena_Move_14:
+walk_slow_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_15:
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+face_right
+step_end
+
+SSGiovanni_Rescate_Escena_Move_16:
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+face_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_17:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_18:
+walk_up
+step_end
 
 SSGiovanni_Rescate_Escena::
 lock
+playse SE_BREAKABLE_DOOR
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_1
+applymovement 2, SSGiovanni_Rescate_Escena_Move_1
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SSGiovanni_Rescate_Escena_Move_3
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SSGiovanni_Rescate_Escena_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 2, SSGiovanni_Rescate_Escena_Move_2
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_4
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, SSGiovanni_Rescate_Escena_Move_5
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_6
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_6
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_7
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_8
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, SSGiovanni_Rescate_Escena_Move_7
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, SSGiovanni_Rescate_Escena_Move_5
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_9
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_14 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SSGiovanni_Rescate_Escena_Move_3.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_10
+waitmovement 0x0
+applymovement 1, SSGiovanni_Rescate_Escena_Move_7
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_11
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_12
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_13
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_19 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_14.1
+waitmovement 0x0
+delay 10
 msgbox SSGiovanni_Rescate_Escena_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_14
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_21 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_16
+applymovement 2, SSGiovanni_Rescate_Escena_Move_16
+applymovement 1, SSGiovanni_Rescate_Escena_Move_15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SSGiovanni_Rescate_Escena_Move_17
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SSGiovanni_Rescate_Escena_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 20
+playse SE_SELECT
+delay 10
 msgbox SSGiovanni_Rescate_Escena_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_26 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_14.1
+waitmovement 0x0
+delay 10
+applymovement 1, SSGiovanni_Rescate_Escena_Move_18
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 1, SSGiovanni_Rescate_Escena_Move_18
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Rescate_Escena_Move_7
+applymovement 1, SSGiovanni_Rescate_Escena_Move_7
+applymovement 2, SSGiovanni_Rescate_Escena_Move_14
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 2, SSGiovanni_Rescate_Escena_Move_19
+waitmovement 0x0
 msgbox SSGiovanni_Rescate_Escena_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SSGiovanni_Rescate_Escena_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 2, SSGiovanni_Rescate_Escena_Move_20
+applymovement 1, SSGiovanni_Rescate_Escena_Move_21
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SSGiovanni_Rescate_Escena_Move_17.1
+waitmovement 0x0
+special RemoveCameraObject
+clearflag FLAG_HOENN_684
+setflag FLAG_HOENN_7
+removeobject 2
+addobject 8
+setvar VAR_UNUSED_0x40F8, 4
 release
 end
 
+SSGiovanni_Rescate_Escena_Move_21:
+walk_right
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+face_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_20:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_17.1:
+delay_16
+delay_8
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+SSGiovanni_Rescate_Escena_Move_19:
+walk_right
+walk_down
+walk_down
+step_end
+
+SSGiovanni_Rescate_Escena_Move_14.1:
+emote_exclamation_mark
+step_end
+
 SSGiovanni_Rescate_Escena_Texto_1:
-	.string "ARIANA: ¡Dijiste que te ocuparías de\n"
-	.string "PLATA!$"
+	.string "ARIANA: ¡Dijiste que te\n"
+	.string "encargarías de él!$"
 
 SSGiovanni_Rescate_Escena_Texto_2:
 	.string "GIOVANNI: Eso dije, pero en última\n"
@@ -84,8 +327,8 @@ SSGiovanni_Rescate_Escena_Texto_10:
 	.string "cuentas contigo?$"
 
 SSGiovanni_Rescate_Escena_Texto_11:
-	.string "Ya no tienes nada que temer. La guerra\n"
-	.string "terminó hace años.$"
+	.string "Ya no tienes nada que temer. La\n"
+	.string "guerra acabó hace años.$"
 
 SSGiovanni_Rescate_Escena_Texto_12:
 	.string "ARIANA: No para ti. En tu posición,\n"
@@ -133,7 +376,7 @@ SSGiovanni_Rescate_Escena_Texto_21:
 	.string "vida, pero{PAUSE 5}…{PAUSE 5}$"
 
 SSGiovanni_Rescate_Escena_Texto_22:
-	.string "Su FICHA de ENTRENADORA sigue\n"
+	.string "Su FICHA de ENTRENADOR sigue\n"
 	.string "vinculada a nuestra base de datos.$"
 
 SSGiovanni_Rescate_Escena_Texto_23:
@@ -232,7 +475,7 @@ end
 SSGiovanni_Rescate_Tercer_Recluta_Texto_1:
 	.string "¡SIR, se ha vengado de ANDRA\n"
 	.string "derrotando al ADMIN.AMATISTA! {PAUSE 15}…{PAUSE 15}\l"
-	.string "¿Cómo? ¿Él estaba usando sus POKÉMON\l"
+	.string "¿No estaba usando sus POKÉMON\l"
 	.string "más fuertes? Oh{PAUSE 5}…{PAUSE 5}$"
 
 
@@ -259,3 +502,135 @@ SSGiovanni_Rescate_Quinto_Recluta_Texto_1:
 	.string "SUBMARINO de DEVON y perseguirlos\l"
 	.string "hasta SINNOH, ¡su aventura será\l"
 	.string "recordada por todos!$"
+
+SSGiovanni_Llegada_Portual_Move_1:
+face_up
+step_end
+
+SSGiovanni_Llegada_Portual_Move_5:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+
+SSGiovanni_Llegada_Portual::
+lock
+setflag FLAG_HOENN_7
+setflag FLAG_HOENN_684
+clearflag FLAG_HOENN_683
+fadescreen 1
+delay 40
+removeobject 8
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 60
+addobject 9
+playse SE_DING_DONG
+waitse
+delay 40
+fadescreen 0
+applymovement 9, SSGiovanni_Llegada_Portual_Move_5
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, SSGiovanni_Llegada_Portual_Move_1
+waitmovement 0x0
+msgbox SSGiovanni_Llegada_Portual_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SSGiovanni_Llegada_Portual_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SSGiovanni_Llegada_Portual_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 9, SSGiovanni_Llegada_Portual_Move_2
+waitmovement 0x0
+msgbox SSGiovanni_Llegada_Portual_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SSGiovanni_Llegada_Portual_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SSGiovanni_Llegada_Portual_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 9, SSGiovanni_Llegada_Portual_Move_3
+waitmovement 0x0
+msgbox SSGiovanni_Llegada_Portual_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 9, SSGiovanni_Llegada_Portual_Move_4
+waitmovement 0x0
+msgbox SSGiovanni_Llegada_Portual_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+warp MAP_SLATEPORT_CITY_HARBOR, 7, 12
+release
+end
+
+SSGiovanni_Llegada_Portual_Move_4:
+face_up
+step_end
+
+SSGiovanni_Llegada_Portual_Move_3:
+walk_in_place_down
+step_end
+
+SSGiovanni_Llegada_Portual_Move_2:
+face_right
+step_end
+
+SSGiovanni_Llegada_Portual_Texto_1:
+	.string "GIOVANNI: {PLAYER}, hemos llegado a\n"
+	.string "CIUDAD PORTUAL.$"
+
+SSGiovanni_Llegada_Portual_Texto_2:
+	.string "Para llegar a CIUDAD ARBORADA, deberás\n"
+	.string "tomar la RUTA 118, al este de CIUDAD\l"
+	.string "MALVALONA.$"
+
+SSGiovanni_Llegada_Portual_Texto_3:
+	.string "… …$"
+
+SSGiovanni_Llegada_Portual_Texto_4:
+	.string "Ese REGIGIGAS… nadie despierta a un\n"
+	.string "POKÉMON así por fines arqueológicos.$"
+
+SSGiovanni_Llegada_Portual_Texto_5:
+	.string "Hasta ahora únicamente hemos dado\n"
+	.string "palos de ciego respecto a DEVON.$"
+
+SSGiovanni_Llegada_Portual_Texto_6:
+	.string "Pero… presiento que eso cambiará\n"
+	.string "pronto.$"
+
+SSGiovanni_Llegada_Portual_Texto_7:
+	.string "De una vez por todas, averiguaremos sus\n"
+	.string "verdaderas intenciones.$"
+
+SSGiovanni_Llegada_Portual_Texto_8:
+	.string "Y encontrar a ANDRA será vital para\n"
+	.string "ello, solo tú puedes convencerla de que\l"
+	.string "vuelva al TEAM ROCKET.$"
+
+Post_Mision_6_Move_1:
+walk_in_place_up
+step_end
+
+Post_Mision_6_Move_2:
+walk_slow_down
+step_end
+
+
+Slateport_Bloqueo_Barco_Post_Mision_6::
+lock
+compare VAR_UNUSED_0x40F8, 2
+goto_if_lt LavenderTown_Barrera_Mision_Kangaskhan_2
+compare VAR_UNUSED_0x40F8, 3
+goto_if_gt Slateport_Bloqueo_Barco_Post_Mision_6_2
+release
+end
+
+Slateport_Bloqueo_Barco_Post_Mision_6_2::
+applymovement OBJ_EVENT_ID_PLAYER, Post_Mision_6_Move_1
+waitmovement 0x0
+msgbox Slateport_Bloqueo_Barco_Post_Mision_6_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Post_Mision_6_Move_2
+waitmovement 0x0
+release
+end
+
+Slateport_Bloqueo_Barco_Post_Mision_6_Texto_1:
+	.string "Viajar en barco a CIUDAD CALAGUA no es\n"
+	.string "una prioridad en este momento.$"

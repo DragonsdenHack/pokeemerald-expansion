@@ -306,8 +306,8 @@
       "x": 4,
       "y": 58,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "256",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "3",
       "script": "SnowpointCity_Entrada_Barco"
     }
   ],
