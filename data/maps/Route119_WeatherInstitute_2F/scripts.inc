@@ -426,7 +426,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route119_Rasmus_Move_2.1
 waitmovement 0x0
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40F7, 241
+setvar VAR_UNUSED_0x40F8, 6
 release
 end
 

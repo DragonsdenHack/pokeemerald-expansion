@@ -438,8 +438,6 @@ walk_left
 step_end
 
 Route120_House1_Warp::
-compare VAR_UNUSED_0x40F7, 250
-goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, Route120_House1_Warp_Move_1
 waitmovement 0x0
 msgbox Route120_House1_Warp_Texto_1 MSGBOX_AUTOCLOSE

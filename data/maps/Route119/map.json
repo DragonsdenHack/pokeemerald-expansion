@@ -326,8 +326,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 13,
-      "y": 33,
+      "x": 14,
+      "y": 34,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -663,50 +663,50 @@
     },
     {
       "type": "weather",
-      "x": 15,
-      "y": 133,
+      "x": 13,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 16,
-      "y": 132,
+      "x": 25,
+      "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 17,
-      "y": 131,
+      "x": 12,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 18,
-      "y": 130,
+      "x": 12,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 19,
-      "y": 131,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 20,
-      "y": 132,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 21,
-      "y": 133,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
@@ -740,35 +740,35 @@
     },
     {
       "type": "weather",
-      "x": 16,
+      "x": 12,
+      "y": 138,
+      "elevation": 3,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 12,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 17,
+      "x": 12,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 18,
-      "y": 137,
+      "x": 23,
+      "y": 138,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 19,
-      "y": 137,
-      "elevation": 3,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 20,
+      "x": 22,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
@@ -785,17 +785,17 @@
       "x": 24,
       "y": 84,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "4",
       "script": "Route119_Norman_Arriba"
     },
     {
       "type": "trigger",
-      "x": 25,
-      "y": 84,
+      "x": 24,
+      "y": 85,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "4",
       "script": "Route119_Norman_Abajo"
     }
   ],

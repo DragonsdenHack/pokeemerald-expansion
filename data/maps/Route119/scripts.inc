@@ -704,7 +704,7 @@ applymovement 44, Route119_Norman_Move_18
 waitmovement 0x0
 setflag FLAG_HOENN_27
 removeobject 44
-setvar VAR_UNUSED_0x40F7, 241
+setvar VAR_UNUSED_0x40F8, 5
 release
 end
 

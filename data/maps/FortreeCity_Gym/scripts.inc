@@ -341,6 +341,7 @@ msgbox FortreeCity_Gym_Text_Alana_Texto_5 MSGBOX_AUTOCLOSE
 msgbox FortreeCity_Gym_Text_Alana_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox FortreeCity_Gym_Text_Alana_Texto_7 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 7
 release
 end
 
