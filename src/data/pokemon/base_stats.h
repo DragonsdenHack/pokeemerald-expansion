@@ -13711,7 +13711,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SLOW_START, ABILITY_NONE},
+            .abilities = {ABILITY_MOLD_BREAKER, ABILITY_NONE},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif

@@ -1,5 +1,14 @@
 Snowpoint_Templo_S1_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Snowpoint_Templo_S1_OnResume
 	.byte 0
+
+Snowpoint_Templo_S1_OnResume:
+	call Snowpoint_Templo_S1_SetupEscapeWarp
+	end
+
+Snowpoint_Templo_S1_SetupEscapeWarp::
+	setescapewarp MAP_SNOWPOINT_CITY, 16, 8
+	return
 
 Snowpoint_Templo_S1_EventScript_Cientifico::
 	trainerbattle_single TRAINER_TRAINER_616, Snowpoint_Templo_S1_Text_CientificoIntro, Snowpoint_Templo_S1_Text_CientificoDefeat

@@ -48,3 +48,13 @@ end
 Snowpoint_PkmnCenter_Segundo_Npc_Texto_1:
 	.string "La nieve amortigua el sonido. Por eso\n"
 	.string "hay tanto silencio aquí.$"
+
+Snowpoint_PkmnCenter_Ariana::
+lock
+msgbox Snowpoint_PkmnCenter_Ariana_Texto_1 MSGBOX_NPC
+release
+end
+
+Snowpoint_PkmnCenter_Ariana_Texto_1:
+	.string "Ahora mismo necesito estar sola con mis\n"
+	.string "pensamientos. Déjame, por favor.$"

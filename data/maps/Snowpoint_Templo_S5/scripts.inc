@@ -1,10 +1,19 @@
 Snowpoint_Templo_S5_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Snowpoint_Templo_S5_OnFrame
+map_script MAP_SCRIPT_ON_RESUME, Snowpoint_Templo_S5_OnResume
 	.byte 0
 
 Snowpoint_Templo_S5_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 252, Snowpoint_Templo_S5_Rasmus
 	.2byte 0
+
+Snowpoint_Templo_S5_OnResume:
+	call Snowpoint_Templo_S5_SetupEscapeWarp
+	end
+
+Snowpoint_Templo_S5_SetupEscapeWarp::
+	setescapewarp MAP_SNOWPOINT_CITY, 16, 8
+	return
 
 Templo_S5_Rasmus_Move_1:
 walk_left
@@ -365,13 +374,27 @@ Templo_S5_Amatista_Move_9:
 walk_down
 step_end
 
+Templo_S5_Amatista_Move_10:
+face_left
+step_end
+
+Templo_S5_Amatista_Move_11:
+walk_slow_down
+step_end
+
+Templo_S5_Amatista_Move_12:
+walk_in_place_down
+step_end
+
 Snowpoint_Templo_S5_Amatista::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_1
 waitmovement 0x0
+delay 15
 playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_FAINT
+delay 15
 removeobject 1
 delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_1 MSGBOX_AUTOCLOSE
@@ -421,17 +444,66 @@ waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_15 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_609, Snowpoint_Templo_S5_Amatista_Texto_16
 msgbox Snowpoint_Templo_S5_Amatista_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_10
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_3
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_1
+waitmovement 0x0
+clearflag FLAG_HOENN_17
+addobject 1
+playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_4
+waitmovement 0x0
+delay 10
 msgbox Snowpoint_Templo_S5_Amatista_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_2
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_11
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_24 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_16
+setflag FLAG_HOENN_685
+setflag FLAG_HOENN_51
+fadescreen 1
+delay 10
+removeobject 2
+removeobject 7
+removeobject 8
+removeobject 9
+removeobject 10
+removeobject 5
+removeobject 3
+removeobject 4
+delay 10
+fadescreen 0
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+playse SE_POKENAV_CALL
 msgbox Snowpoint_Templo_S5_Amatista_Texto_25 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_HANG_UP
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_26 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 40
+fadescreen 0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_12
+waitmovement 0x0
+playse SE_POKENAV_OFF
+delay 15
+clearflag FLAG_HOENN_698
 setvar VAR_UNUSED_0x40F7, 254
 release
 end
@@ -526,13 +598,13 @@ Snowpoint_Templo_S5_Amatista_Texto_16:
 
 Snowpoint_Templo_S5_Amatista_Texto_17:
 	.string "Este equipo ganaría facilmente la LIGA\n"
-	.string "POKÉMON de HOENN, sin embargo esperaba\l"
-	.string "perder contra ti.$"
+	.string "POKÉMON de HOENN. Pero perder contra\l"
+	.string "ti no es ninguna sorpresa.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_18:
 	.string "Así es la brecha actual que separa\n"
 	.string "ambos mundos: el real y el de los niños\l"
-	.string "de 10 años que inician su aventura.$"
+	.string "de 10 años que inician su 'aventura'.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_19:
 	.string "En SINNOH no parecen aún haberse dado\n"
@@ -560,7 +632,7 @@ Snowpoint_Templo_S5_Amatista_Texto_23:
 Snowpoint_Templo_S5_Amatista_Texto_24:
 	.string "El falso REGIGIGAS será totalmente\n"
 	.string "inofensivo, por lo que, en el fondo, les\l"
-	.string "estamos haciendo un favor.$"
+	.string "estamos haciendo un favor. ¿No crees?$"
 
 Snowpoint_Templo_S5_Amatista_Texto_25:
 	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"

@@ -37007,7 +37007,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     {
     .iv = 255,
-    .lvl = 109,
+    .lvl = 111,
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {128, 0, 0, 0, 252, 128},
@@ -37016,7 +37016,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     },
     {
     .iv = 255,
-    .lvl = 110,
+    .lvl = 112,
     .species = SPECIES_WEAVILE,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -37025,7 +37025,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     },
     {
     .iv = 255,
-    .lvl = 110,
+    .lvl = 112,
     .species = SPECIES_MAMOSWINE,
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -37034,7 +37034,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     },
     {
     .iv = 255,
-    .lvl = 110,
+    .lvl = 112,
     .species = SPECIES_LAPRAS,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 0, 0, 252, 0, 6},
@@ -37043,7 +37043,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     },
     {
     .iv = 255,
-    .lvl = 111,
+    .lvl = 113,
     .species = SPECIES_FROSLASS,
     .heldItem = ITEM_WIDE_LENS,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -37052,7 +37052,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
     },
     {
     .iv = 255,
-    .lvl = 112,
+    .lvl = 114,
     .species = SPECIES_ABOMASNOW,
     .heldItem = ITEM_ABOMASITE,
     .evs = {120, 252, 120, 252, 120, 120},

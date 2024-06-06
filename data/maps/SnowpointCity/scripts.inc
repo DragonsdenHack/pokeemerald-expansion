@@ -1,5 +1,10 @@
 SnowpointCity_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, SnowpointCity_OnFrame
 	.byte 0
+
+SnowpointCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 254, SnowpointCity_Salida
+	.2byte 0
 
 
 SnowpointCity_Cartel::
@@ -317,16 +322,86 @@ end
 
 SnowpointCity_Salida::
 lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Salida_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Salida_Move_2
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, SnowpointCity_Salida_Move_3
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SnowpointCity_Salida_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 14, SnowpointCity_Salida_Move_4
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Salida_Move_5
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 14, SnowpointCity_Salida_Move_6
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, SnowpointCity_Salida_Move_7
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 14, SnowpointCity_Salida_Move_5
+waitmovement 0x0
 msgbox SnowpointCity_Salida_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 14, SnowpointCity_Salida_Move_8
+waitmovement 0x0
+setflag FLAG_HOENN_19
+clearflag FLAG_HOENN_697
+setflag FLAG_HOENN_698
+removeobject 14
+setvar VAR_UNUSED_0x40F7, 255
 release
 end
+
+SnowpointCity_Salida_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+SnowpointCity_Salida_Move_7:
+face_right
+delay_16
+delay_16
+walk_in_place_down
+step_end
+
+SnowpointCity_Salida_Move_6:
+emote_exclamation_mark
+face_up
+step_end
+
+SnowpointCity_Salida_Move_5:
+walk_slow_down
+step_end
+
+SnowpointCity_Salida_Move_4:
+walk_slow_left
+step_end
+
+SnowpointCity_Salida_Move_3:
+face_down
+step_end
+
+SnowpointCity_Salida_Move_2:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+SnowpointCity_Salida_Move_1:
+emote_exclamation_mark
+step_end
 
 SnowpointCity_Salida_Texto_1:
 	.string "ARIANA: ¿Derrotaste al\n"
@@ -372,7 +447,7 @@ step_end
 
 SnowpointCity_Barrera_Gimnasio::
 lock
-compare VAR_UNUSED_0x40F7, 252
+compare VAR_UNUSED_0x40F7, 254
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Barrera_Gimnasio_Move_1
 waitmovement 0x0
@@ -394,5 +469,17 @@ end
 
 SnowpointCity_Templo_Sign_Texto_1:
 	.string "TEMPLO PUNTANEVA$"
+
+SnowpointCity_Entrada_Barco_Move_1:
+walk_in_place_down
+step_end
+
+SnowpointCity_Entrada_Barco::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Entrada_Barco_Move_1
+waitmovement 0x0
+warp MAP_SSGIOVANNI_RESCATE, 2, 2
+release
+end
 
 

@@ -35,16 +35,37 @@ Snowpoint_Gimnasio_EventScript_Sexto_Entrenador::
 Snowpoint_Gimnasio_Lider::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 255
+goto_if_gt Snowpoint_Gimnasio_Lider_Despues
 msgbox Snowpoint_Gimnasio_Lider_Texto_1 MSGBOX_NPC
+delay 15
 msgbox Snowpoint_Gimnasio_Lider_Texto_2 MSGBOX_NPC
+delay 15
 msgbox Snowpoint_Gimnasio_Lider_Texto_3 MSGBOX_NPC
+delay 15
 msgbox Snowpoint_Gimnasio_Lider_Texto_4 MSGBOX_NPC
-msgbox Snowpoint_Gimnasio_Lider_Texto_5 MSGBOX_NPC
+trainerbattle_no_intro TRAINER_TRAINER_608, Snowpoint_Gimnasio_Lider_Texto_5
 msgbox Snowpoint_Gimnasio_Lider_Texto_6 MSGBOX_NPC
 msgbox Snowpoint_Gimnasio_Lider_Texto_7 MSGBOX_NPC
+playfanfare MUS_OBTAIN_BADGE
+msgbox Snowpoint_Gimnasio_Lider_Texto_7.1 MSGBOX_NPC
+waitfanfare
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+msgbox Snowpoint_Gimnasio_Lider_Texto_10 MSGBOX_NPC
+playse SE_POKENAV_OFF
+setflag FLAG_HOENN_697
+clearflag FLAG_HOENN_699
+setvar VAR_UNUSED_0x40F7, 256
+DELAY 20
+release
+end
+
+Snowpoint_Gimnasio_Lider_Despues::
 msgbox Snowpoint_Gimnasio_Lider_Texto_8 MSGBOX_NPC
 msgbox Snowpoint_Gimnasio_Lider_Texto_9 MSGBOX_NPC
-msgbox Snowpoint_Gimnasio_Lider_Texto_10 MSGBOX_NPC
 release
 end
 
@@ -75,6 +96,10 @@ Snowpoint_Gimnasio_Lider_Texto_6:
 Snowpoint_Gimnasio_Lider_Texto_7:
 	.string "¡Espera, que casi me olvido! ¡Tengo que\n"
 	.string "darte una cosa!{PAUSE 5}…{PAUSE 5}$"
+
+Snowpoint_Gimnasio_Lider_Texto_7.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA MINERAL.$"
 
 Snowpoint_Gimnasio_Lider_Texto_8:
 	.string "¿Crees que debería actuar un poco más\n"
