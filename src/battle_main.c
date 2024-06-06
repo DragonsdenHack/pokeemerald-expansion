@@ -5076,6 +5076,7 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_ADMINDEVON:
         case TRAINER_CLASS_POLICIA_DEVON:
+        case TRAINER_CLASS_AMATISTA:
             PlayBGM(637);
             break;
         case TRAINER_CLASS_CULTISTA:

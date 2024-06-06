@@ -1698,7 +1698,7 @@
 #define FLAG_HOENN_48 (TRAINER_FLAGS_END + 48) // ARIANA SOTANO SS TIDAL 2
 #define FLAG_HOENN_49 (TRAINER_FLAGS_END + 49) // ARIANA SUBMARINO DEVON
 #define FLAG_HOENN_50 (TRAINER_FLAGS_END + 50) // ANDRA CIUDAD ALGARIA
-#define FLAG_HOENN_51 (TRAINER_FLAGS_END + 51)
+#define FLAG_HOENN_51 (TRAINER_FLAGS_END + 51) // RASMUS PUNTANEVA S5 PRINCIPIO
 #define FLAG_HOENN_52 (TRAINER_FLAGS_END + 52)
 #define FLAG_HOENN_53 (TRAINER_FLAGS_END + 53)
 #define FLAG_HOENN_54 (TRAINER_FLAGS_END + 54)
@@ -2332,7 +2332,7 @@
 #define FLAG_HOENN_682 (TRAINER_FLAGS_END + 682) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // ARIANA RASMUS ETC TEMPLO PUNTANEVA DESPUES // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686) // Policias Secundaria Museo Despues // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // Fortunia y Dueno Museo Secundaria // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // Nina casa azuliza final secundaria casa playa // En modo Setflag por defecto desde fin DLC

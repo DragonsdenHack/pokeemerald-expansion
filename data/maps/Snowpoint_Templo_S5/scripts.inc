@@ -1,35 +1,225 @@
 Snowpoint_Templo_S5_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Snowpoint_Templo_S5_OnFrame
 	.byte 0
 
+Snowpoint_Templo_S5_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 252, Snowpoint_Templo_S5_Rasmus
+	.2byte 0
+
+Templo_S5_Rasmus_Move_1:
+walk_left
+walk_left
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_down
+step_end
+
+Templo_S5_Rasmus_Move_1.1:
+walk_right
+walk_right
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+Templo_S5_Rasmus_Move_2:
+emote_exclamation_mark
+step_end
+
+Templo_S5_Rasmus_Move_3:
+face_left
+step_end
+
+Templo_S5_Rasmus_Move_4:
+walk_up
+walk_up
+walk_right
+walk_right
+step_end
+
+Templo_S5_Rasmus_Move_5:
+face_right
+step_end
+
+Templo_S5_Rasmus_Move_6:
+face_down
+step_end
+
+Templo_S5_Rasmus_Move_7:
+walk_left
+walk_down
+step_end
+
+Templo_S5_Rasmus_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Templo_S5_Rasmus_Move_8.1:
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+step_end
+
+Templo_S5_Rasmus_Move_9:
+walk_in_place_right
+step_end
+
+Templo_S5_Rasmus_Move_10:
+walk_right
+walk_right
+step_end
 
 Snowpoint_Templo_S5_Rasmus::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Rasmus_Move_3
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Templo_S5_Rasmus_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 3, Templo_S5_Rasmus_Move_2
+waitmovement 0x0
+applymovement 5, Templo_S5_Rasmus_Move_5
+applymovement 3, Templo_S5_Rasmus_Move_4
+applymovement 4, Templo_S5_Rasmus_Move_4
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Templo_S5_Rasmus_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 3, Templo_S5_Rasmus_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Rasmus_Move_7
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Rasmus_Move_2
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Templo_S5_Rasmus_Move_8
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Templo_S5_Rasmus_Move_8.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 3, Templo_S5_Rasmus_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Rasmus_Move_3
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 3, Templo_S5_Rasmus_Move_9
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 4, Templo_S5_Rasmus_Move_10
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
-msgbox Snowpoint_Templo_S5_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_618, Snowpoint_Templo_S5_Rasmus_Texto_11
+applymovement 5, Templo_S5_Rasmus_Move_10
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
-msgbox Snowpoint_Templo_S5_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_615, Snowpoint_Templo_S5_Rasmus_Texto_13
+applymovement 5, Templo_S5_Rasmus_Move_11
+applymovement 4, Templo_S5_Rasmus_Move_11
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 3, Templo_S5_Rasmus_Move_12
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+clearflag FLAG_HOENN_700
+addobject 6
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, Templo_S5_Rasmus_Move_2
+applymovement 4, Templo_S5_Rasmus_Move_2
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 6, Templo_S5_Rasmus_Move_13
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 3, Templo_S5_Rasmus_Move_3
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 6, Templo_S5_Rasmus_Move_13
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Rasmus_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 3, Templo_S5_Rasmus_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Rasmus_Move_14
+applymovement 6, Templo_S5_Rasmus_Move_15
+waitmovement 0x0
+setflag FLAG_HOENN_19
+setflag FLAG_HOENN_700
+setflag FLAG_HOENN_51
+clearflag FLAG_HOENN_685
+setvar VAR_UNUSED_0x40F7, 253
 release
 end
+
+Templo_S5_Rasmus_Move_15:
+walk_left
+walk_down
+face_left
+step_end
+
+Templo_S5_Rasmus_Move_14:
+lock_facing_direction
+walk_right
+unlock_facing_direction
+step_end
+
+Templo_S5_Rasmus_Move_13:
+walk_in_place_left
+step_end
+
+Templo_S5_Rasmus_Move_12:
+walk_right
+step_end
+
+Templo_S5_Rasmus_Move_11:
+lock_facing_direction
+walk_left
+unlock_facing_direction
+step_end
 
 Snowpoint_Templo_S5_Rasmus_Texto_1:
 	.string "DR.RASMUS: Todo está saliendo según el\n"
@@ -59,7 +249,7 @@ Snowpoint_Templo_S5_Rasmus_Texto_6:
 	.string "REGIS sí que han demostrado tener un\l"
 	.string "potencial de alcanzar estadísticas\l"
 	.string "extremas y, como consecuencia de ello,\l"
-	.string "ser extremadamente eficientes en\l"
+	.string "poder ser sumamente eficientes en\l"
 	.string "combate.$"
 
 Snowpoint_Templo_S5_Rasmus_Texto_7:
@@ -138,25 +328,98 @@ Snowpoint_Templo_S5_Rasmus_Texto_23:
 Snowpoint_Templo_S5_Rasmus_Texto_24:
 	.string "ARIANA: ¡Eso lo veremos!$"
 
+Templo_S5_Amatista_Move_1:
+walk_in_place_up
+step_end
+
+Templo_S5_Amatista_Move_2:
+face_down
+step_end
+
+Templo_S5_Amatista_Move_3:
+walk_slow_up
+step_end
+
+Templo_S5_Amatista_Move_4:
+emote_exclamation_mark
+step_end
+
+Templo_S5_Amatista_Move_5:
+face_right
+step_end
+
+Templo_S5_Amatista_Move_6:
+walk_in_place_right
+step_end
+
+Templo_S5_Amatista_Move_7:
+walk_slow_left
+step_end
+
+Templo_S5_Amatista_Move_8:
+walk_right
+face_down
+step_end
+
+Templo_S5_Amatista_Move_9:
+walk_down
+step_end
 
 Snowpoint_Templo_S5_Amatista::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_1
+waitmovement 0x0
+playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+removeobject 1
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_1 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Snowpoint_Templo_S5_Amatista_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, Templo_S5_Amatista_Move_2
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_3
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_4
+waitmovement 0x0
+delay 10
 msgbox Snowpoint_Templo_S5_Amatista_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_5
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 2, Templo_S5_Amatista_Move_6
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_2
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_7
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Snowpoint_Templo_S5_Amatista_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Templo_S5_Amatista_Move_4
+waitmovement 0x0
+delay 10
 msgbox Snowpoint_Templo_S5_Amatista_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_8
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, Templo_S5_Amatista_Move_9
+waitmovement 0x0
 msgbox Snowpoint_Templo_S5_Amatista_Texto_15 MSGBOX_AUTOCLOSE
-msgbox Snowpoint_Templo_S5_Amatista_Texto_16 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_609, Snowpoint_Templo_S5_Amatista_Texto_16
 msgbox Snowpoint_Templo_S5_Amatista_Texto_17 MSGBOX_AUTOCLOSE
 msgbox Snowpoint_Templo_S5_Amatista_Texto_18 MSGBOX_AUTOCLOSE
 msgbox Snowpoint_Templo_S5_Amatista_Texto_19 MSGBOX_AUTOCLOSE
@@ -169,6 +432,7 @@ msgbox Snowpoint_Templo_S5_Amatista_Texto_25 MSGBOX_AUTOCLOSE
 msgbox Snowpoint_Templo_S5_Amatista_Texto_26 MSGBOX_AUTOCLOSE
 msgbox Snowpoint_Templo_S5_Amatista_Texto_27 MSGBOX_AUTOCLOSE
 msgbox Snowpoint_Templo_S5_Amatista_Texto_28 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 254
 release
 end
 
@@ -178,8 +442,8 @@ Snowpoint_Templo_S5_Amatista_Texto_1:
 	.string "abiertos.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_2:
-	.string "Es poco honorable espiar a espaldas de\n"
-	.string "tus enemigos desde la distancia,\l"
+	.string "Es poco honorable espiar a\n"
+	.string "espaldas de tus enemigos,\l"
 	.string "{PLAYER}.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_3:
@@ -221,9 +485,9 @@ Snowpoint_Templo_S5_Amatista_Texto_9:
 	.string "forma.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_10:
-	.string "No leerás esto en ningún libro, pero es\n"
-	.string "la realidad. Lo confinaron aquí por\l"
-	.string "miedo a ese poder, y lo hicieron muy\l"
+	.string "No leerás esto en ningún libro de SINNOH,\n"
+	.string "pero es la realidad. Lo confinaron aquí\l"
+	.string "por miedo a ese poder, y lo hicieron muy\l"
 	.string "bien.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_11:
@@ -312,3 +576,54 @@ Snowpoint_Templo_S5_Amatista_Texto_27:
 
 Snowpoint_Templo_S5_Amatista_Texto_28:
 	.string "Estaré ahí en unas horas.$"
+
+Templo_S5_Cientifico::
+lock
+msgbox Templo_S5_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Templo_S5_Cientifico_Texto_1:
+	.string "Cuando analizemos al rey de los REGIS,\n"
+	.string "seremos invencibles.$"
+
+Templo_S5_Policia::
+lock
+msgbox Templo_S5_Policia_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Templo_S5_Policia_Texto_1:
+	.string "Nuestro ADMIN. lleva tiempo esperando\n"
+	.string "este momento, ¡nadie va a interponerse\l"
+	.string "ahora que estamos tan cerca!$"
+
+Templo_S5_Doctor::
+lock
+msgbox Templo_S5_Doctor_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Templo_S5_Doctor_Texto_1:
+	.string "Si un POKÉMON así es digno\n"
+	.string "de pertenecer a tu equipo, tus\l"
+	.string "opciones de victoria son nulas.$"
+
+Templo_S5_Ariana::
+lock
+msgbox Templo_S5_Ariana_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Templo_S5_Ariana_Texto_1:
+	.string "ARIANA: ¡Eso lo veremos!$"
+
+Snowpoint_Templo_S5_Regigigas::
+lock
+msgbox Snowpoint_Templo_S5_Regigigas_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Snowpoint_Templo_S5_Regigigas_Texto_1:
+	.string "Es el clon de REGIGIGAS que DEVON dejó\n"
+	.string "en el lugar del auténtico.$"

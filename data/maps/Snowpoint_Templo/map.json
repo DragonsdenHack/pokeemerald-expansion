@@ -2,16 +2,16 @@
   "id": "MAP_SNOWPOINT_TEMPLO",
   "name": "Snowpoint_Templo",
   "layout": "LAYOUT_SNOWPOINT_TEMPLO",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "638",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": false,
-  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "battle_scene": "MAP_BATTLE_SCENE_GLACIA",
   "connections": 0,
   "object_events": [
 
@@ -22,7 +22,7 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_SNOWPOINT_CITY",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 12,

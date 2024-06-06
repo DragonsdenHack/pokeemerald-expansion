@@ -20331,13 +20331,13 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_609] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ADMINDEVON,
+        .trainerClass = TRAINER_CLASS_AMATISTA,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_DEVON1,
+        .trainerPic = TRAINER_PIC_DEVON2,
         .trainerName = _("AMATISTA"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_TRAINER609),
         .party = {.ItemCustomMoves = sParty_TRAINER609},
     },
