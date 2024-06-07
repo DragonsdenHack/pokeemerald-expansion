@@ -41,8 +41,6 @@ Route120_OnLoad:
 	end
 
 Route120_EventScript_CloseAncientTomb::
-	setmetatile 7, 54, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 7, 55, METATILE_General_RockWall_SandBase, TRUE
 	return
 
 Route120_EventScript_SetBridgeClearMetatiles::
@@ -300,9 +298,7 @@ Route120_EventScript_Jenna::
 	end
 
 Route120_EventScript_Jeffrey::
-	trainerbattle_single TRAINER_TRAINER_319, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat, Route120_EventScript_RegisterJeffrey
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route120_EventScript_RematchJeffrey
+	trainerbattle_single TRAINER_TRAINER_319, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat,
 	msgbox Route120_Text_JeffreyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -449,3 +445,173 @@ end
 Route120_House1_Warp_Texto_1:
 	.string "Debería antes pasarme por el GIMNASIO\n"
 	.string "ARBORADA y preguntar por ANDRA.$"
+
+Route120_Devon_Move_1:
+emote_exclamation_mark
+walk_in_place_left
+step_end
+
+Route120_Devon_Move_2:
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+step_end
+
+Route120_Devon_Move_2.1:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+Route120_Devon_Move_3:
+walk_in_place_right
+step_end
+
+Route120_Devon_Move_4:
+face_down
+step_end
+
+Route120_Devon_Move_5:
+face_right
+step_end
+
+Route120_Devon_Move_6:
+walk_slow_down
+walk_slow_down
+step_end
+
+Route120_Devon::
+lock
+playse SE_BANG
+applymovement OBJ_EVENT_ID_PLAYER, Route120_Devon_Move_1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route120_Devon_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Route120_Devon_Texto_1 MSGBOX_AUTOCLOSE 
+applymovement 40, Route120_Devon_Move_4
+applymovement 31, Route120_Devon_Move_3
+waitmovement 0x0
+msgbox Route120_Devon_Texto_2 MSGBOX_AUTOCLOSE 
+delay 15
+msgbox Route120_Devon_Texto_3 MSGBOX_AUTOCLOSE 
+applymovement 40, Route120_Devon_Move_5
+waitmovement 0x0
+delay 10
+msgbox Route120_Devon_Texto_4 MSGBOX_AUTOCLOSE 
+delay 20
+msgbox Route120_Devon_Texto_5 MSGBOX_AUTOCLOSE 
+applymovement 40, Route120_Devon_Move_4
+waitmovement 0x0
+msgbox Route120_Devon_Texto_6 MSGBOX_AUTOCLOSE 
+delay 15
+msgbox Route120_Devon_Texto_7 MSGBOX_AUTOCLOSE 
+applymovement 41, Route120_Devon_Move_4
+waitmovement 0x0
+msgbox Route120_Devon_Texto_8 MSGBOX_AUTOCLOSE 
+applymovement 31, Route120_Devon_Move_4
+applymovement 40, Route120_Devon_Move_6
+waitmovement 0x0
+msgbox Route120_Devon_Texto_9 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_52
+fadescreen 1
+delay 20
+removeobject 40
+removeobject 31
+removeobject 41
+fadescreen 0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route120_Devon_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F8, 8
+release
+end
+
+Route120_Devon_Texto_1:
+	.string "SR.PEÑAS: Después de todo, los REGIS\n"
+	.string "no son ya un misterio para nosotros.$"
+
+Route120_Devon_Texto_2:
+	.string "ADM.ESMERALDA: Han sido muchos años,\n"
+	.string "pero al fin empezaremos a ver los\l"
+	.string "frutos de tantas investigaciones.$"
+
+Route120_Devon_Texto_3:
+	.string "DOC.RASMUS: Así es, se avecinan tiempos\n"
+	.string "interesantes.$"
+
+Route120_Devon_Texto_4:
+	.string "SR.PEÑAS: Dígame una cosa, doctor.\n"
+	.string "¿Cómo va el WRONGSPARCE de MIGUEL?$"
+
+Route120_Devon_Texto_5:
+	.string "DOC.RASMUS: Sigue en el mismo estado.$"
+
+Route120_Devon_Texto_6:
+	.string "SR.PEÑAS: Entiendo.$"
+
+Route120_Devon_Texto_7:
+	.string "Como pieza clave en nuestro plan… si se\n"
+	.string "le agota el tiempo nos veremos\l"
+	.string "obligados a intervenir.$"
+
+Route120_Devon_Texto_8:
+	.string "DOC.RASMUS: Con gusto lo haré,\n"
+	.string "PRESIDENTE. Sé de sobra cuáles son los\l"
+	.string "mecanismos que le harían reaccionar.$"
+
+Route120_Devon_Texto_9:
+	.string "SR.PEÑAS: Pero es pronto para hablar de\n"
+	.string "eso. Por el momento, tenemos una cita\l"
+	.string "con REGIGIGAS.$"

@@ -339,8 +339,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 9,
-      "y": 63,
+      "x": 11,
+      "y": 81,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -417,16 +417,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DEVON1",
-      "x": 7,
-      "y": 58,
+      "x": 6,
+      "y": 57,
       "elevation": 4,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Steven",
-      "flag": "FLAG_HIDE_ROUTE_120_STEVEN"
+      "flag": "FLAG_HOENN_52"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -534,29 +534,29 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
-      "x": 8,
+      "x": 7,
       "y": 56,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon5",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_5"
+      "flag": "FLAG_HOENN_52"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_DEVON3",
-      "x": 7,
-      "y": 56,
+      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "x": 8,
+      "y": 57,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon4",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_4"
+      "flag": "FLAG_HOENN_52"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
@@ -601,7 +601,7 @@
   "warp_events": [
     {
       "x": 7,
-      "y": 55,
+      "y": 54,
       "elevation": 0,
       "dest_map": "MAP_ANCIENT_TOMB",
       "dest_warp_id": 0
@@ -791,7 +791,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "7",
-      "script": "NULL"
+      "script": "Route120_Devon"
     },
     {
       "type": "trigger",
@@ -800,7 +800,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "7",
-      "script": "NULL"
+      "script": "Route120_Devon"
     },
     {
       "type": "trigger",
@@ -809,7 +809,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "7",
-      "script": "NULL"
+      "script": "Route120_Devon"
     }
   ],
   "bg_events": [

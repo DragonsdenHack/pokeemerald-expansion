@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_121",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -184,7 +184,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -197,7 +197,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -210,7 +210,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -453,6 +453,33 @@
       "var": "VAR_ROUTE121_STATE",
       "var_value": "0",
       "script": "Route121_EventScript_AquaGruntsMoveOut"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "8",
+      "script": "Route121_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "8",
+      "script": "Route121_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "8",
+      "script": "Route121_Bloqueo"
     }
   ],
   "bg_events": [

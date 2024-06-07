@@ -12966,7 +12966,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_68] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("PATRICIO"),
@@ -12980,7 +12980,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_69] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("MAGDA"),
@@ -12994,7 +12994,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_70] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("BLAKE"),
@@ -13008,7 +13008,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_71] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("SAMANTA"),
@@ -13036,7 +13036,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_73] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("NICONO"),
@@ -13050,7 +13050,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_74] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("MACEI"),
@@ -16088,7 +16088,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_291] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("SILVIO"),
@@ -16214,7 +16214,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_300] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("JADE"),
@@ -16914,7 +16914,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_350] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_PSYCHIC,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("JACINTA"),
@@ -17362,7 +17362,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_382] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_PSYCHIC,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("MARLENE"),
@@ -17446,7 +17446,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_388] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_PSYCHIC,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("ALIX"),
@@ -19421,7 +19421,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_539] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_PSYCHIC,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("CELIA"),
@@ -19772,7 +19772,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_566] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("VIRGILIO"),
@@ -19811,7 +19811,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_569] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MEDIUM,
+        .trainerClass = TRAINER_CLASS_MEDIUM_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
         .trainerName = _("ANA"),

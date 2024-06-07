@@ -7778,6 +7778,8 @@ u16 GetBattleBGM(void)
             return 578;
         case TRAINER_CLASS_AMATISTA:
             return 410;
+        case TRAINER_CLASS_MEDIUM_HOENN:
+        case TRAINER_CLASS_HEX_MANIAC:
         case TRAINER_CLASS_NINJA_HOENN:
         case TRAINER_CLASS_PARASOL_LADY:
         case TRAINER_CLASS_PKMN_RANGER:

@@ -171,16 +171,38 @@ Route121_Text_OkayMoveOutToMtPyre:
 	.string "We're to move out to MT. PYRE!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON{PAUSE 5}…{PAUSE 5}$"
+	.string	"Más adelante se alza el MONTE PÍRICO…\p"
+	.string	"Es un monumento natural a los espíritus\n"
+	.string	"de los POKéMON que nos han dejado.$"
 
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible{PAUSE 5}…{PAUSE 5}$"
+	.string	"MUELLE del MONTE PÍRICO\p"
+	.string	"El cartel está viejo y desgastado.\n"
+	.string	"Apenas se puede leer nada…$"
 
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare POKéMON!”\n"
-	.string "SAFARI ZONE$"
+	.string	"ZONA SAFARI\n"
+	.string	"“¡Llenita de POKéMON raros!”$"
+
+Route121_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route121_Bloqueo_Move_1
+waitmovement 0x0
+msgbox Route121_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route121_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+Route121_Bloqueo_Move_2:
+walk_slow_left
+step_end
+
+Route121_Bloqueo_Move_1:
+walk_in_place_right
+step_end
+
+Route121_Bloqueo_Texto_1:
+	.string "Debería primero buscar a ANDRA\n"
+	.string "en el MONTE PÍRICO.$"
 
