@@ -623,3 +623,272 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "Then, its duty done, the green POKéMON\n"
 	.string "flew off into the wild blue yonder…{PAUSE 5}$"
 
+MtPyre_Summit_Andra_Izquierda_move_0:
+walk_in_place_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_1:
+emote_exclamation_mark
+walk_up
+walk_right
+face_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_1.1:
+emote_exclamation_mark
+walk_up
+walk_left
+face_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_1.2:
+emote_exclamation_mark
+walk_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
+msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_1
+waitmovement 0x0
+goto MtPyre_Summit_Andra_Centro
+
+MtPyre_Summit_Andra_Derecha::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
+msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_1.1
+waitmovement 0x0
+goto MtPyre_Summit_Andra
+
+MtPyre_Summit_Andra_Centro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
+msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_1.2
+waitmovement 0x0
+goto MtPyre_Summit_Andra
+
+MtPyre_Summit_Andra_Izquierda_move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+
+MtPyre_Summit_Andra::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MtPyre_Summit_Andra_Izquierda_move_2
+waitmovement 0x0
+special RemoveCameraObject
+msgbox MtPyre_Summit_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_16 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_17 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_18 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_19 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_20 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_21 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_22 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_23 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_24 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_25 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_26 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_27 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_28 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_29 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_30 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_31 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_32 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_33 MSGBOX_AUTOCLOSE
+msgbox MtPyre_Summit_Andra_Texto_34 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 8
+release
+end
+
+MtPyre_Summit_Andra_Texto_1:
+	.string "????: Es asombroso.$"
+
+MtPyre_Summit_Andra_Texto_2:
+	.string "Los entrenadores de carácter inclinan\n"
+	.string "las circunstancias a su albedrío.$"
+
+MtPyre_Summit_Andra_Texto_3:
+	.string "Logran que la naturaleza se comporte\n"
+	.string "de tal modo que se cumpla su voluntad\l"
+	.string "sobre esta tierra, desafían a los\l"
+	.string "elementos, e incluso desafían a su\l"
+	.string "propia naturaleza más abyecta, por ver\l"
+	.string "triunfar sus ideales ante sus propios\l"
+	.string "ojos.$"
+
+MtPyre_Summit_Andra_Texto_4:
+	.string "Tú, ANDRA, cumples con todas y cada una\n"
+	.string "de estas virtudes. Las has puesto en\l"
+	.string "práctica y llevado a cotas impensables.$"
+
+MtPyre_Summit_Andra_Texto_5:
+	.string "En consecuencia, has establecido un\n"
+	.string "poderoso vínculo con uno de los\l"
+	.string "POKÉMON más esquivos para los humanos:\l"
+	.string "JIRACHI.$"
+
+MtPyre_Summit_Andra_Texto_6:
+	.string "Fue aquí, en el MONTE PÍRICO, donde\n"
+	.string "surgieron las ESFERAS de aquellos\l"
+	.string "antiguos y sagrados POKÉMON de HOENN.$"
+
+MtPyre_Summit_Andra_Texto_7:
+	.string "De todas ellas, la que se ha guardado\n"
+	.string "con mayor secretismo y discreción es la\l"
+	.string "ESFERA BLANCA.$"
+
+MtPyre_Summit_Andra_Texto_8:
+	.string "Jamás pensé que mi generación sería la\n"
+	.string "afortunada, pero… es el momento de\l"
+	.string "hacerla brillar.$"
+
+MtPyre_Summit_Andra_Texto_9:
+	.string "ANDRA: {PLAYER}... me has encontrado.$"
+
+MtPyre_Summit_Andra_Texto_10:
+	.string "Ha pasado mucho tiempo.$"
+
+MtPyre_Summit_Andra_Texto_11:
+	.string "Por un momento, te he vislumbrado como\n"
+	.string "recluta normal, tal y como empezamos.$"
+
+MtPyre_Summit_Andra_Texto_12:
+	.string "En esa época, mi impulso hubiera sido\n"
+	.string "combatir de nuevo contigo.$"
+
+MtPyre_Summit_Andra_Texto_13:
+	.string "Así es. Una vez más, para así confirmar\n"
+	.string "y corroborar todo lo que habíamos\l"
+	.string "mejorado, de mostrar los nuevos\l"
+	.string "POKÉMON que habíamos capturado o las\l"
+	.string "nuevas evoluciones de los que ya\l"
+	.string "teníamos.$"
+
+MtPyre_Summit_Andra_Texto_14:
+	.string "Era una bonita forma de honrar nuestra\n"
+	.string "evolución, una oda a nuestro progreso.$"
+
+MtPyre_Summit_Andra_Texto_15:
+	.string "Pero también… era la forma que\n"
+	.string "teníamos de verificar que todo el\l"
+	.string "tiempo que había pasado desde nuestro\l"
+	.string "anterior encuentro no había sido en\l"
+	.string "vano, ¿verdad?$"
+
+MtPyre_Summit_Andra_Texto_16:
+	.string "Asegurarnos de que nuestro camino\n"
+	.string "seguía en constante y lineal evolución,\l"
+	.string "y así lograr que nuestros egos y\l"
+	.string "expectativas no resultaran dañados.$"
+
+MtPyre_Summit_Andra_Texto_17:
+	.string "Porque, de lo contrario, nuestro mayor\n"
+	.string "miedo se confirmaría. El progreso se\l"
+	.string "detendría y, como consecuencia,\l"
+	.string "cualquier viaje o nueva experiencia\l"
+	.string "dejaría de tener sentido, ¿no?$"
+
+MtPyre_Summit_Andra_Texto_18:
+	.string "Ahora… es diferente, no necesito\n"
+	.string "combatir contigo. Me basta con tu mera\l"
+	.string "presencia aquí.$"
+
+MtPyre_Summit_Andra_Texto_19:
+	.string "Creo que los dos estaremos de acuerdo\n"
+	.string "en que hemos llegado más lejos de lo que\l"
+	.string "hubiéramos podido imaginar.$"
+
+MtPyre_Summit_Andra_Texto_20:
+	.string "Solo párate un momento y mira dónde\n"
+	.string "estás… estás en la cima del MONTE\l"
+	.string "PÍRICO, a cientos de kilómetros de\l"
+	.string "ISLAS SETE, de KANTO, de JOHTO… lejos\l"
+	.string "de todo lo que era nuestro mundo\l"
+	.string "conocido.$"
+
+MtPyre_Summit_Andra_Texto_21:
+	.string "Tal escenario era inconcebible y, aún\n"
+	.string "así, parece seguir siendo insuficiente.$"
+
+MtPyre_Summit_Andra_Texto_22:
+	.string "Dime, {PLAYER}. ¿Por qué estás aquí?$"
+
+MtPyre_Summit_Andra_Texto_23:
+	.string "… …$"
+
+MtPyre_Summit_Andra_Texto_24:
+	.string "REGIGIGAS… CIUDAD PUNTANEVA… DEVON…$"
+
+MtPyre_Summit_Andra_Texto_25:
+	.string "Estás en lo cierto, sé cuál puede ser el\n"
+	.string "próximo movimiento de DEVON.$"
+
+MtPyre_Summit_Andra_Texto_26:
+	.string "Pero… si quieres que te ayude, deberás\n"
+	.string "hacer algo por mí, {PLAYER}. Algo a lo\l"
+	.string "que, desde la I CONFERENCIA de TRIGAL,\l"
+	.string "le he estado dando muchas vueltas.$"
+
+MtPyre_Summit_Andra_Texto_27:
+	.string "Necesito tu palabra.$"
+
+MtPyre_Summit_Andra_Texto_28:
+	.string "Una vez acabemos con DEVON y\n"
+	.string "REGIGIGAS, ¿harás cualquier cosa que\l"
+	.string "te pida, aún pudiendo ir en contra de\l"
+	.string "tus principios?$"
+
+MtPyre_Summit_Andra_Texto_29:
+	.string "… …$"
+
+MtPyre_Summit_Andra_Texto_30:
+	.string "¿Confías en que nada de lo que pueda\n"
+	.string "pedirte lo haga, aunque en un principio\l"
+	.string "pudiera parecerlo?$"
+
+MtPyre_Summit_Andra_Texto_31:
+	.string "Una respuesta digna de mi mejor rival.\n"
+	.string "Aunque… eso se verá una vez sepas lo\l"
+	.string "que quiero. Por el momento…$"
+
+MtPyre_Summit_Andra_Texto_32:
+	.string "…tenemos un trato, ¿no es así,\n"
+	.string "{PLAYER}?$"
+
+MtPyre_Summit_Andra_Texto_33:
+	.string "Te espero entonces en CIUDAD ALGARIA,\n"
+	.string "ahí trazaremos el plan que tengo en\l"
+	.string "mente.$"
+
+MtPyre_Summit_Andra_Texto_34:
+	.string "Entretanto, disfruta de CIUDAD\n"
+	.string "CALAGUA. Solo hay una única\l"
+	.string "oportunidad para poder visitar un lugar\l"
+	.string "por primera vez. Haz que cuente.$"
+

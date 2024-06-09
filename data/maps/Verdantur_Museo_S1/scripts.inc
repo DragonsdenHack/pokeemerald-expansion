@@ -215,19 +215,19 @@ Verdantur_Museo_S1_Fortunia_Texto_4:
 	.string "que mi suerte cambie ahora.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_5:
-	.string "????: Suerte… algo que muchos ilusos no\n"
-	.string "terminan de comprender.$"
+	.string "????: Suerte… algo que muchos ilusos\n"
+	.string "no acaban de comprender.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_6:
-	.string "FORTUNIA: Lo cierto es que...cada uno\n"
-	.string "busca su propia fortuna.$"
+	.string "FORTUNIA: La verdad es que...cada\n"
+	.string "uno busca su propia fortuna.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_7:
-	.string "Yo creo en mi propia suerte. Dime, chico,\n"
-	.string "¿tú crees en la tuya?$"
+	.string "Yo creo en la mía propia.\n"
+	.string "Dime, chico, ¿crees tú en la tuya?$"
 
 Verdantur_Museo_S1_Fortunia_Texto_8:
-	.string "¡Porque parece haberse agotado!$"
+	.string "¡Porque parece habérsete agotado!$"
 
 Verdantur_Museo_S1_Fortunia_Texto_9:
 	.string "Mmm…$"
