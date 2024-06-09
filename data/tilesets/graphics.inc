@@ -3129,3 +3129,43 @@ gTilesetPalettes_Slateport2::
 	.align 2
 gTilesetTiles_Slateport2::
 	.incbin "data/tilesets/secondary/slateport2/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/sootopolis2/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr2/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/tiles.4bpp.lz"

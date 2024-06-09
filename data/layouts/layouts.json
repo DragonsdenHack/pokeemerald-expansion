@@ -20,7 +20,7 @@
       "height": 60,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_gTileset_General_fr2",
       "secondary_tileset": "gTileset_Slateport2",
       "border_filepath": "data/layouts/SlateportCity/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity/map.bin"
@@ -57,7 +57,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_fuchsia_city",
+      "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FortreeCity/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
     },
@@ -93,7 +93,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_NavelRock",
+      "secondary_tileset": "gTileset_Sootopolis2",
       "border_filepath": "data/layouts/SootopolisCity/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity/map.bin"
     },
@@ -189,7 +189,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_45",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/PacifidlogTown/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown/map.bin"
     },
@@ -296,8 +296,8 @@
       "height": 63,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_vermilion_city",
+      "primary_tileset": "gTileset_gTileset_General_fr2",
+      "secondary_tileset": "gTileset_Slateport2",
       "border_filepath": "data/layouts/Route109/border.bin",
       "blockdata_filepath": "data/layouts/Route109/map.bin"
     },
@@ -561,7 +561,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_45",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131/border.bin",
       "blockdata_filepath": "data/layouts/Route131/map.bin"
     },
@@ -573,7 +573,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_45",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route132/border.bin",
       "blockdata_filepath": "data/layouts/Route132/map.bin"
     },

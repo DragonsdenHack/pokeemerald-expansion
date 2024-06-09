@@ -1043,3 +1043,17 @@ gMetatiles_Slateport2::
 	.align 1
 gMetatileAttributes_Slateport2::
 	.incbin "data/tilesets/secondary/slateport2/metatile_attributes.bin"
+	.align 1
+gMetatiles_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/metatile_attributes.bin"
+	.align 1
+gMetatiles_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/metatile_attributes.bin"

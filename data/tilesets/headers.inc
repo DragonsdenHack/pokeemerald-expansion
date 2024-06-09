@@ -1589,3 +1589,25 @@ gTileset_Slateport2::
 	.4byte gMetatiles_Slateport2
 	.4byte gMetatileAttributes_Slateport2
 	.4byte NULL
+
+	.align 2
+gTileset_Sootopolis2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Sootopolis2
+	.4byte gTilesetPalettes_Sootopolis2
+	.4byte gMetatiles_Sootopolis2
+	.4byte gMetatileAttributes_Sootopolis2
+	.4byte NULL
+
+	.align 2
+gTileset_gTileset_General_fr2::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_gTileset_General_fr2
+	.4byte gTilesetPalettes_gTileset_General_fr2
+	.4byte gMetatiles_gTileset_General_fr2
+	.4byte gMetatileAttributes_gTileset_General_fr2
+	.4byte NULL
