@@ -644,6 +644,8 @@
 #define TRAINER_CLASS_NINJA_HOENN        0xCA
 #define TRAINER_CLASS_AMATISTA           0xCB
 #define TRAINER_CLASS_MEDIUM_HOENN       0xCC
+#define TRAINER_CLASS_POKEMANIACO_HOENN  0xCD
+
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music - sr aroma, dama parasol

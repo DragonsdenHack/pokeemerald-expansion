@@ -122,21 +122,21 @@
   "warp_events": [
     {
       "x": 22,
-      "y": 31,
+      "y": 33,
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_EXTERIOR",
       "dest_warp_id": 1
     },
     {
       "x": 23,
-      "y": 31,
+      "y": 33,
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_EXTERIOR",
       "dest_warp_id": 1
     },
     {
       "x": 24,
-      "y": 31,
+      "y": 33,
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_EXTERIOR",
       "dest_warp_id": 1
@@ -145,30 +145,21 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 28,
-      "y": 7,
+      "x": 24,
+      "y": 31,
       "elevation": 3,
-      "var": "VAR_MT_PYRE_STATE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger0"
+      "script": "MtPyre_Summit_Warp_Der"
     },
     {
       "type": "trigger",
-      "x": 28,
-      "y": 7,
+      "x": 23,
+      "y": 31,
       "elevation": 3,
-      "var": "VAR_MT_PYRE_STATE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger1"
-    },
-    {
-      "type": "trigger",
-      "x": 28,
-      "y": 7,
-      "elevation": 3,
-      "var": "VAR_MT_PYRE_STATE",
-      "var_value": "0",
-      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger2"
+      "script": "MtPyre_Summit_Warp_Izq"
     },
     {
       "type": "trigger",
@@ -196,6 +187,15 @@
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "8",
       "script": "MtPyre_Summit_Andra_Izquierda"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 31,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "MtPyre_Summit_Warp_Izq"
     }
   ],
   "bg_events": [

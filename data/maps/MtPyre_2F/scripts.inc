@@ -43,14 +43,14 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string	"Cómo recuerdo a mi querido SKITTY…\n"
+	.string	"Es que se me saltan las lágrimas…$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-	.string "Ooch, ouch… There are holes in the\n"
-	.string "ground here and there.\p"
-	.string "I didn't notice and took a tumble from\n"
-	.string "the floor above.$"
+	.string	"Huy, huy… Este sitio está más\n"
+	.string	"agujereado que un queso gruyer.\p"
+	.string	"No me di cuenta antes y me caí desde\n"
+	.string	"el piso de arriba.$"
 
 MtPyre_2F_Text_MarkIntro:
 	.string "¡Eh! ¿Buscas Pokémon? ¡Me has estado\n"

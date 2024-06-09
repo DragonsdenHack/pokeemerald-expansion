@@ -499,7 +499,7 @@ MtPyre_5F_EventScript_ItemLaxIncense::
 	end
 
 MtPyre_6F_EventScript_ItemTM30::
-	finditem ITEM_TM30
+	finditem ITEM_SABLENITE
 	end
 
 MtPyre_Exterior_EventScript_ItemMaxPotion::
@@ -507,7 +507,7 @@ MtPyre_Exterior_EventScript_ItemMaxPotion::
 	end
 
 MtPyre_Exterior_EventScript_ItemTM48::
-	finditem ITEM_TM48
+	finditem ITEM_DUSK_BALL
 	end
 
 AquaHideout_B1F_EventScript_ItemMasterBall::

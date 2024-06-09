@@ -17488,7 +17488,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_391] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POKEMANIAC,
+        .trainerClass = TRAINER_CLASS_POKEMANIACO_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .trainerName = _("GUANE"),
@@ -17653,7 +17653,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_403] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POKEMANIAC,
+        .trainerClass = TRAINER_CLASS_POKEMANIACO_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .trainerName = _("ESTEBAN"),
@@ -19369,7 +19369,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_535] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POKEMANIAC,
+        .trainerClass = TRAINER_CLASS_POKEMANIACO_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .trainerName = _("MARCO"),
