@@ -653,7 +653,7 @@ msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_1
 waitmovement 0x0
-goto MtPyre_Summit_Andra_Centro
+goto MtPyre_Summit_Andra
 
 MtPyre_Summit_Andra_Derecha::
 lock
@@ -682,6 +682,50 @@ walk_slow_up
 walk_slow_up
 step_end
 
+MtPyre_Summit_Andra_Izquierda_move_2.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_3:
+face_right
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_4:
+face_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_5:
+walk_in_place_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_6:
+face_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_7:
+walk_slow_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_8:
+delay_16
+walk_in_place_up
+delay_16
+delay_16
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_9:
+emote_exclamation_mark
+face_right
+step_end
+
 
 MtPyre_Summit_Andra::
 lock
@@ -690,12 +734,315 @@ applymovement OBJ_EVENT_ID_CAMERA, MtPyre_Summit_Andra_Izquierda_move_2
 waitmovement 0x0
 special RemoveCameraObject
 msgbox MtPyre_Summit_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_3
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_4
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_5
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_6
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_7
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, MtPyre_Summit_Andra_Izquierda_move_8
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_M_DETECT
+dofieldeffectsparkle 23, 4, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
+setvar VAR_RESULT, 4
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HOENN_2
+clearflag FLAG_HOENN_1
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_9
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+delay 5
+removeobject 7
+addobject 6
+delay 5
+removeobject 6
+addobject 7
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 50
+playse SE_PIN
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_10
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MtPyre_Summit_Andra_Izquierda_move_2.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox MtPyre_Summit_Andra_Texto_9 MSGBOX_AUTOCLOSE
 msgbox MtPyre_Summit_Andra_Texto_10 MSGBOX_AUTOCLOSE
 msgbox MtPyre_Summit_Andra_Texto_11 MSGBOX_AUTOCLOSE
@@ -725,6 +1072,14 @@ msgbox MtPyre_Summit_Andra_Texto_34 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F8, 8
 release
 end
+
+
+
+MtPyre_Summit_Andra_Izquierda_move_10:
+emote_exclamation_mark
+delay_16
+face_down
+step_end
 
 MtPyre_Summit_Andra_Texto_1:
 	.string "????: Es asombroso.$"
@@ -766,7 +1121,7 @@ MtPyre_Summit_Andra_Texto_7:
 MtPyre_Summit_Andra_Texto_8:
 	.string "Jamás pensé que mi generación sería la\n"
 	.string "afortunada, pero… es el momento de\l"
-	.string "hacerla brillar.$"
+	.string "hacerla brillar en este lugar.$"
 
 MtPyre_Summit_Andra_Texto_9:
 	.string "ANDRA: {PLAYER}... me has encontrado.$"
