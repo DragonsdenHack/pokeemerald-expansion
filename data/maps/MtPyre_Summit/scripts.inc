@@ -546,46 +546,46 @@ MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
 	.string "Perhaps they are not so evil after all…{PAUSE 5}$"
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
-	.string "The embodiments of the land, sea,\n"
-	.string "and the sky…\p"
-	.string "That is said to be the identities of\n"
-	.string "the super-ancient POKéMON…\p"
-	.string "In the same way that we humans and\n"
-	.string "POKéMON have life, our world, too,\l"
-	.string "is alive…\p"
-	.string "The super-ancient POKéMON have\n"
-	.string "taught us that…{PAUSE 5}$"
+	.string	"Nada menos que la personificación\n"
+	.string	"de la tierra, el mar y el cielo…\p"
+	.string	"Ésa es la identidad de los POKéMON\n"
+	.string	"más antiguos…\p"
+	.string	"Del mismo modo que los humanos\n"
+	.string	"y los POKéMON estamos vivos,\l"
+	.string	"nuestro mundo también lo está…\p"
+	.string	"Es la lección que nos enseñaron\n"
+	.string	"los POKéMON más antiguos…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "MT. PYRE is where we calm the spirits\n"
-	.string "of POKéMON that have passed on…\p"
-	.string "This is a high place where one can\n"
-	.string "see all of HOENN…\p"
-	.string "The disembodied spirits of POKéMON\n"
-	.string "must find solace here…\p"
-	.string "Is it coincidence that you are here…\p"
-	.string "Will you hear out my tale? A tale long\n"
-	.string "told in the HOENN region?$"
+	.string	"El MONTE PÍRICO es donde descansan\n"
+	.string	"los espíritus de los POKéMON\l"
+	.string	"que han partido…\p"
+	.string	"Desde aquí se puede ver todo HOENN.\p"
+	.string	"Eso debe de ayudar a las almas\n"
+	.string	"de los POKéMON a encontrar reposo.\p"
+	.string	"Qué coincidencia que estés aquí…\p"
+	.string	"¿Quieres oír un cuento muy antiguo\n"
+	.string	"de la región de HOENN?$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
-	.string "It happened long, long ago…\p"
-	.string "The world was wracked by a ferocious\n"
-	.string "clash between the POKéMON of the land\l"
-	.string "and the POKéMON of the sea…\p"
-	.string "The POKéMON of the land raised\n"
-	.string "mountains and created continents…\p"
-	.string "The POKéMON of the sea raised huge\n"
-	.string "waves and carved out oceans…\p"
-	.string "Their fierce duel raged without end.\p"
-	.string "The world was engulfed in massive\n"
-	.string "infernos and vicious storms.\p"
-	.string "The BLUE ORB and the RED ORB brought\n"
-	.string "an end to the calamity.\p"
-	.string "Light poured from the two ORBS and\n"
-	.string "becalmed the enraged adversaries.\p"
-	.string "The pair, made docile, dove deep into\n"
-	.string "the sea where eventually they\l"
-	.string "disappeared…{PAUSE 5}$"
+	.string	"Érase una vez, hace mucho tiempo…,\p"
+	.string	"el mundo estaba devastado por el feroz\n"
+	.string	"enfrentamiento entre los POKéMON\l"
+	.string	"terrestres y los POKéMON marinos…\p"
+	.string	"Los POKéMON terrestres creaban\n"
+	.string	"montañas y continentes…\p"
+	.string	"Los POKéMON marinos creaban\n"
+	.string	"grandes olas y océanos…\p"
+	.string	"Su violento duelo parecía eterno…\p"
+	.string	"El mundo se vio asolado por terribles\n"
+	.string	"tormentas y colosales incendios.\p"
+	.string	"La ESFERA ROJA y la ESFERA AZUL\n"
+	.string	"pusieron fin a esta desgracia.\p"
+	.string	"La luz que emanó de ambas ESFERAS\n"
+	.string	"calmó la fiereza de los adversarios.\p"
+	.string	"Éstos, amansados, se adentraron\n"
+	.string	"en las profundidades de la tierra\l"
+	.string	"hasta desaparecer…$"
 
 MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "I see…\n"
@@ -597,31 +597,31 @@ MtPyre_Summit_Text_MaxieSilence:
 	.string "… … … … … …{PAUSE 5}$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
-	.string "It is my role to pass on the legends\n"
-	.string "of HOENN to future generations.\p"
-	.string "And the crisis that just ended in\n"
-	.string "SOOTOPOLIS rewrote a legend…\p"
-	.string "Have you the time to hear the new\n"
-	.string "legend of HOENN?$"
+	.string	"Mi deber es transmitir las leyendas\n"
+	.string	"de HOENN a las futuras generaciones.\p"
+	.string	"Y la crisis que acabamos de superar en\n"
+	.string	"ARRECÍPOLIS ha reescrito la leyenda…\p"
+	.string	"¿Tienes tiempo para oír\n"
+	.string	"la nueva leyenda de HOENN?$"
 
 MtPyre_Summit_Text_HoennTrioTale:
-	.string "It happened long, long ago…\p"
-	.string "The world was wracked by a ferocious\n"
-	.string "clash between the POKéMON of the land\l"
-	.string "and the POKéMON of the sea…\p"
-	.string "The POKéMON of the land raised\n"
-	.string "mountains and created continents…\p"
-	.string "The POKéMON of the sea raised huge\n"
-	.string "waves and carved out oceans…\p"
-	.string "Their fierce duel raged without end.\p"
-	.string "The world was engulfed in massive\n"
-	.string "fires and vicious storms.\p"
-	.string "It was then that the POKéMON of\n"
-	.string "the sky descended from a storm.\p"
-	.string "The POKéMON, shining a vivid green,\n"
-	.string "becalmed the two enraged POKéMON.\p"
-	.string "Then, its duty done, the green POKéMON\n"
-	.string "flew off into the wild blue yonder…{PAUSE 5}$"
+	.string	"Érase una vez, hace mucho tiempo…,\p"
+	.string	"el mundo estaba devastado por el feroz\n"
+	.string	"enfrentamiento entre los POKéMON\l"
+	.string	"terrestres y los POKéMON marinos…\p"
+	.string	"Los POKéMON terrestres creaban\n"
+	.string	"montañas y continentes…\p"
+	.string	"Los POKéMON marinos creaban\n"
+	.string	"grandes olas y océanos…\p"
+	.string	"Su violento duelo parecía eterno…\p"
+	.string	"El mundo se vio asolado por terribles\n"
+	.string	"tormentas y colosales incendios.\p"
+	.string	"Fue entonces cuando los POKéMON\n"
+	.string	"aéreos bajaron a lomos de una tormenta.\p"
+	.string	"Estos POKéMON, de un verde intenso,\n"
+	.string	"calmaron a los enfurecidos POKéMON.\p"
+	.string	"Hecho esto, los POKéMON verdes\n"
+	.string	"se perdieron entre las nubes…$"
 
 MtPyre_Summit_Andra_Izquierda_move_0:
 walk_in_place_up
@@ -764,7 +764,6 @@ special DoOrbEffect
 delay 150
 waitstate
 delay 60
-special FadeOutOrbEffect
 setflag FLAG_HOENN_2
 clearflag FLAG_HOENN_1
 applymovement 8, MtPyre_Summit_Andra_Izquierda_move_9
@@ -831,6 +830,7 @@ delay 5
 removeobject 6
 addobject 7
 delay 5
+special FadeOutOrbEffect
 removeobject 7
 addobject 6
 delay 5
@@ -992,44 +992,6 @@ addobject 6
 delay 5
 removeobject 6
 addobject 7
-delay 5
-removeobject 7
-addobject 6
-removeobject 7
-addobject 6
-delay 5
-removeobject 6
-addobject 7
-delay 5
-removeobject 7
-addobject 6
-delay 5
-removeobject 6
-addobject 7
-delay 5
-removeobject 7
-addobject 6
-delay 5
-removeobject 6
-addobject 7
-delay 5
-removeobject 7
-addobject 6
-delay 5
-removeobject 7
-addobject 6
-delay 5
-removeobject 6
-addobject 7
-delay 5
-removeobject 7
-addobject 6
-delay 5
-removeobject 6
-addobject 7
-delay 5
-removeobject 7
-addobject 6
 delay 5
 removeobject 6
 addobject 7
@@ -1044,36 +1006,217 @@ applymovement OBJ_EVENT_ID_CAMERA, MtPyre_Summit_Andra_Izquierda_move_2.1
 waitmovement 0x0
 special RemoveCameraObject
 msgbox MtPyre_Summit_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_11
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_12
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_13
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_15
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_16
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_16
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_17
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_13
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_18
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_19
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_19
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_20
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_20
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_21
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_12
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
+waitmovement 0x0
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MtPyre_Summit_Andra_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_22
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_14
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_32 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_24
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_23
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_33 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_25
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_26
+waitmovement 0x0
 msgbox MtPyre_Summit_Andra_Texto_34 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40F8, 8
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_26
+waitmovement 0x0
+delay 15
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_27
+waitmovement 0x0
+setflag FLAG_HOENN_53
+setflag FLAG_HOENN_1
+delay 15
+playse SE_M_HEAL_BELL
+waitse
+fadescreen 1
+playse SE_M_MOONLIGHT
+removeobject 7
+removeobject 8
+delay 30
+fadescreen 0
+setvar VAR_UNUSED_0x40F8, 9
 release
 end
 
+MtPyre_Summit_Andra_Izquierda_move_27:
+emote_exclamation_mark
+face_up
+step_end
 
+MtPyre_Summit_Andra_Izquierda_move_26:
+walk_down
+walk_down
+walk_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_25:
+delay_16
+delay_16
+face_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_24:
+delay_16
+face_left
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_23:
+walk_left
+walk_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_22:
+face_left
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_21:
+lock_facing_direction
+walk_slow_up
+unlock_facing_direction
+delay_16
+delay_16
+face_up
+delay_16
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_20:
+face_up
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_19:
+face_right
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_18:
+walk_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_17:
+face_down
+delay_16
+delay_16
+face_up
+delay_16
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_16:
+walk_slow_right
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_15:
+face_right
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+walk_in_place_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_14:
+face_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_13:
+walk_slow_left
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_12:
+walk_slow_down
+step_end
+
+MtPyre_Summit_Andra_Izquierda_move_11:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
 
 MtPyre_Summit_Andra_Izquierda_move_10:
 emote_exclamation_mark

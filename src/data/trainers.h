@@ -13064,7 +13064,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_75] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+        .trainerClass = TRAINER_CLASS_GENTLEMAN_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("CLIFO"),
@@ -16312,7 +16312,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_307] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+        .trainerClass = TRAINER_CLASS_GENTLEMAN_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("GABINO"),
@@ -19785,7 +19785,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_567] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+        .trainerClass = TRAINER_CLASS_GENTLEMAN_HOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("NATE"),

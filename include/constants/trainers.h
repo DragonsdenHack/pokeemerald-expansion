@@ -645,6 +645,7 @@
 #define TRAINER_CLASS_AMATISTA           0xCB
 #define TRAINER_CLASS_MEDIUM_HOENN       0xCC
 #define TRAINER_CLASS_POKEMANIACO_HOENN  0xCD
+#define TRAINER_CLASS_GENTLEMAN_HOENN    0xCE
 
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
