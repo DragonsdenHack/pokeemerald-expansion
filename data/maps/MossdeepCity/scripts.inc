@@ -670,3 +670,53 @@ MossdeepCity_Andra_Texto_10:
 
 MossdeepCity_Andra_Texto_11:
 	.string "ANDRA: ¿¡Quién eres tú!? ¡Muéstrate!$"
+
+MossdeepCity_Devon::
+lock
+msgbox MossdeepCity_Devon_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_10 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_11 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_Devon_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_55
+setvar VAR_UNUSED_0x40F8, 11
+release
+end
+
+MossdeepCity_Devon_Texto_1:
+	.string "¿{PLAYER}?$"
+
+MossdeepCity_Devon_Texto_2:
+	.string "Te dije que te lo tomaras con calma.$"
+
+MossdeepCity_Devon_Texto_3:
+	.string "Has pasado corriendo CIUDAD CALAGUA\n"
+	.string "sin pasar siquiera a curar, ¿verdad?\l"
+	.string "¡Eres incorregible!$"
+
+MossdeepCity_Devon_Texto_4:
+	.string "Pues ahora deberás esperar: tal y como\n"
+	.string "imaginaba, tenemos tiempo. Mira.$"
+
+MossdeepCity_Devon_Texto_5:
+
+MossdeepCity_Devon_Texto_6:
+
+MossdeepCity_Devon_Texto_7:
+
+MossdeepCity_Devon_Texto_8:
+
+MossdeepCity_Devon_Texto_9:
+
+MossdeepCity_Devon_Texto_10:
+
+MossdeepCity_Devon_Texto_11:
+
+MossdeepCity_Devon_Texto_12:

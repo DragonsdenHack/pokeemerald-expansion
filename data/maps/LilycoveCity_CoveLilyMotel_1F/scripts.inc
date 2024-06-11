@@ -131,3 +131,40 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string	"¡Huy, huy, creo que tengo que irme\n"
 	.string	"a prepararles la cena!$"
 
+LilycoveCity_Aquiles::
+lock
+msgbox LilycoveCity_Aquiles_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_Aquiles_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_682
+clearflag FLAG_HOENN_681
+setflag FLAG_HOENN_54
+setvar VAR_UNUSED_0x40F8, 10
+release
+end
+
+LilycoveCity_Aquiles_Texto_1:
+	.string "ADM.TOLO: Es el lugar perfecto, señor.$"
+
+LilycoveCity_Aquiles_Texto_2:
+	.string "Tenemos todo listo para establecer\n"
+	.string "nuestra base.$"
+
+LilycoveCity_Aquiles_Texto_3:
+	.string "AQUILES: ¡Buen trabajo, TOLO! ¡Desde\n"
+	.string "ahí llevaremos a cabo toda la operación\l"
+	.string "para despertar a KYOGRE!$"
+
+LilycoveCity_Aquiles_Texto_4:
+	.string "Le robaremos el submarino a ese\n"
+	.string "estúpido CAP.BABOR, y frustraremos los\l"
+	.string "planes de esos miserables que se hacen\l"
+	.string "llamar EQUIPO MAGMA.$"
+
+LilycoveCity_Aquiles_Texto_5:
+	.string "Cuando obtengamos la ESFERA ROJA, ¡no\n"
+	.string "les quedará más remedio que\l"
+	.string "arrodillarse! ¡Jua, jua, jua!$"
+

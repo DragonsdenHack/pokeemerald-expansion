@@ -314,7 +314,7 @@ ViasTren5_Combate_Atlas_Texto_12:
 
 ViasTren5_Combate_Atlas_Texto_13:
 .string "ATLAS: Bien{PAUSE 25}…{PAUSE 25} Así ha de ser{PAUSE 25}…{PAUSE 25} Ya me lo\n"
-	.string "dijo ANDRA, mejorar tu equipo POKÉMON\l"
+	.string "dijo ANDRA: mejorar tu equipo POKÉMON\l"
 	.string "más y más no es suficiente contigo. Se\l"
 	.string "necesita algo más para romper ese aura\l"
 	.string "que has construido en torno a los\l"
@@ -322,7 +322,7 @@ ViasTren5_Combate_Atlas_Texto_13:
 
 ViasTren5_Combate_Atlas_Texto_14:
 .string "Que este ZAPDOS-P colabore en tu\n"
-	.string "eterno viaje, {PLAYER}, solo espero\l"
+	.string "eterno viaje, {PLAYER}. Solo espero\l"
 	.string "que no te acomodes al verte con\l"
 	.string "tremendo POKÉMON bajo tu poder.$"
 

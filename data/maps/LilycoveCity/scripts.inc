@@ -608,10 +608,11 @@ LilycoveCity_Text_ImFromKanto:
 	.string	"que sólo vivan aquí?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM AQUA's been training their\n"
-	.string "WAILMER in the cove.\p"
-	.string "We SAILORS can't get our boats out\n"
-	.string "to sea with them in the way!$"
+	.string	"Esos granujas del EQUIPO AQUA no\n"
+	.string	"paran de rondar la cueva del noreste.\p"
+	.string	"Lo siguiente será impedir que\n"
+	.string	"nosotros, los MARINEROS, saquemos\l"
+	.string	"nuestras barcas al mar.$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
