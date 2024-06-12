@@ -7,6 +7,17 @@ LilycoveCity_DepartmentStore_1F_EventScript_Greeter::
 	msgbox LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore, MSGBOX_NPC
 	end
 
+LilycoveCity_Loteria::
+lock
+msgbox LilycoveCity_Loteria_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Loteria_Texto_1:
+	.string "Lo sentimos, el sorteo de la\n"
+	.string "LOTERÍA no está disponible.$"
+
+
 LilycoveCity_DepartmentStore_1F_EventScript_LotteryClerk::
 	lock
 	faceplayer

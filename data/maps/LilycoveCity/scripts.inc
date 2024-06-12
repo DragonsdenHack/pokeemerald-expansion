@@ -19,18 +19,6 @@ LilycoveCity_OnLoad:
 	end
 
 LilycoveCity_EventScript_SetWailmerMetatiles::
-	setmetatile 76, 12, METATILE_Lilycove_Wailmer0, TRUE
-	setmetatile 77, 12, METATILE_Lilycove_Wailmer1, TRUE
-	setmetatile 76, 13, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 77, 13, METATILE_Lilycove_Wailmer3, TRUE
-	setmetatile 76, 14, METATILE_Lilycove_Wailmer0_Alt, TRUE
-	setmetatile 77, 14, METATILE_Lilycove_Wailmer1_Alt, TRUE
-	setmetatile 76, 15, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 77, 15, METATILE_Lilycove_Wailmer3, TRUE
-	setmetatile 77, 16, METATILE_Lilycove_Wailmer0_Alt, TRUE
-	setmetatile 78, 16, METATILE_Lilycove_Wailmer1_Alt, TRUE
-	setmetatile 77, 17, METATILE_Lilycove_Wailmer2, TRUE
-	setmetatile 78, 17, METATILE_Lilycove_Wailmer3, TRUE
 	return
 
 LilycoveCity_EventScript_BerryGentleman::
@@ -546,30 +534,31 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
-	.string "Fufufu…\p"
-	.string "We moved more loot into our secret\n"
-	.string "HIDEOUT today…\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string	"Jua, jua, jua…\p"
+	.string	"Llevaremos todo nuestro botín\n"
+	.string	"a la nueva GUARIDA secreta…\p"
+	.string	"¡¿Qui-quién eres tú?!\n"
+	.string	"¡Yo no he dicho nada!$"
 
 LilycoveCity_Text_ChanceToDoBigThings:
-	.string "I'm just a GRUNT, so I don't know what\n"
-	.string "the BOSS is thinking…\p"
-	.string "But being on TEAM AQUA, I know I'll get\n"
-	.string "the chance to do big things!\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string	"Soy sólo un SOLDADO, así que no sé\n"
+	.string	"nada de los planes del JEFE…\p"
+	.string	"¡Pero, siendo parte del EQUIPO AQUA,\n"
+	.string	"sé que vamos a hacer grandes cosas!\p"
+	.string	"¡¿Qui-quién eres tú?!\n"
+	.string	"¡Yo no he dicho nada!$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-	.string "Hey, you!\p"
-	.string "Don't go near the cave in the cove!\p"
-	.string "Why? You don't need a reason why!\n"
-	.string "I'm an adult, so you just listen to me!$"
+	.string	"¡Eh, tú!\p"
+	.string	"¡Ni se te ocurra acercarte a la cueva\n"
+	.string	"que hay en la ensenada!\p"
+	.string	"¿Por qué? ¡Porque lo digo yo!\n"
+	.string	"¡Soy del EQUIPO AQUA, así que obedece!$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
-	.string "If this whole wide world becomes ours,\n"
-	.string "TEAM AQUA's, it will be a happier\l"
-	.string "place for POKéMON, too.$"
+	.string	"Si los del EQUIPO AQUA nos apoderamos\n"
+	.string	"del mundo entero, será un lugar mejor\l"
+	.string	"para todos, POKéMON incluidos.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
 	.string "There! WAILMER!\n"
@@ -622,15 +611,16 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "so we can get our boats out again.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
-	.string "I was taking a relaxing snooze at the\n"
-	.string "seaside inn to the sound of waves…\p"
-	.string "When someone stole my POKéMON!\p"
-	.string "Who's the abductor?\n"
-	.string "TEAM AQUA? Is it TEAM AQUA?$"
+	.string	"Estaba echándome una siestecita\n"
+	.string	"en la posada de la costa, arrullada\l"
+	.string	"por el sonido de las olas…\p"
+	.string	"¡cuando alguien robó mi POKéMON!\p"
+	.string	"¿Quién ha sido, quién?\n"
+	.string	"¿El EQUIPO AQUA? ¿Serán ellos?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
-	.string "My missing POKéMON…\n"
-	.string "It came back without me noticing!$"
+	.string	"Mi pobre POKéMON desaparecido…\n"
+	.string	"Volvió solito cuando no lo esperaba.$"
 
 LilycoveCity_Text_ImArtDealer:
 	.string	"Soy un MARCHANTE de ARTE.\p"
@@ -663,11 +653,15 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string	"con lo que hacen en realidad…{PAUSE 5}$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
-	.string "That cave in the cove…\p"
-	.string "I didn't notice it right away,\n"
-	.string "but it's completely empty now.\p"
-	.string "That TEAM AQUA lot, they must\n"
-	.string "have gone away for good.$"
+	.string	"Dime, ¿has oído hablar de esa gruta\n"
+	.string	"que hay en la ensenada?\p"
+	.string	"Se ha creado de forma natural,\n"
+	.string	"pero el dichoso EQUIPO AQUA llegó\l"
+	.string	"y tuvo que hacer reformas, claro.\p"
+	.string	"¡Y se atreven a llamarse el “equipo\n"
+	.string	"amante de la naturaleza”!\p"
+	.string	"Lo que dicen no tiene nada que ver\n"
+	.string	"con lo que hacen en realidad…{PAUSE 5}$"
 
 LilycoveCity_Text_CitySign:
 	.string	"CIUDAD CALAGUA\p"
@@ -763,4 +757,23 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string	"Por eso nos alegró tanto ver a ese\n"
 	.string	"extraño POKéMON nada más llegar.\p"
 	.string	"¡Ha sido muy emocionante!$"
+
+
+
+LilycoveCity_Bloqueo_Aqua::
+lock
+faceplayer
+msgbox LilycoveCity_Bloqueo_Aqua_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Bloqueo_Aqua_Texto_1:
+	.string	"¿Qué haces aquí? ¿Por qué vienes\n"
+	.string	"a dar la lata al EQUIPO AQUA?\p"
+	.string	"¿Nuestro JEFE?\n"
+	.string	"¡Jamás hablaría con alguien como tú!\p"
+	.string	"¿Qué?\n"
+	.string	"¿Que tú le derrotaste?\p"
+	.string	"¡Jua, jua, jua! ¿Pero tú quién te\n"
+	.string	"crees que eres renacuajo?$"
 

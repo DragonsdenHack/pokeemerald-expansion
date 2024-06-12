@@ -131,16 +131,104 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string	"¡Huy, huy, creo que tengo que irme\n"
 	.string	"a prepararles la cena!$"
 
+LilycoveCity_Aquiles_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+LilycoveCity_Aquiles_Move_1.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+step_end
+
+LilycoveCity_Aquiles_Move_2:
+emote_exclamation_mark
+walk_in_place_right
+step_end
+
+LilycoveCity_Aquiles_Move_3:
+walk_in_place_right
+step_end
+
+LilycoveCity_Aquiles_Move_4:
+face_up
+delay_16
+delay_16
+walk_in_place_up
+delay_16
+face_right
+step_end
+
+LilycoveCity_Aquiles_Move_5:
+walk_in_place_left
+step_end
+
+LilycoveCity_Aquiles_Move_6:
+face_down
+step_end
+
+LilycoveCity_Aquiles_Move_7:
+walk_in_place_down
+delay_16
+delay_16
+face_left
+step_end
+
+LilycoveCity_Aquiles_Move_8:
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
 LilycoveCity_Aquiles::
 lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_Aquiles_Move_2
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LilycoveCity_Aquiles_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+playse MUS_ENCOUNTER_AQUA
+applymovement 10, LilycoveCity_Aquiles_Move_3
+waitmovement 0x0
 msgbox LilycoveCity_Aquiles_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 10, LilycoveCity_Aquiles_Move_4
+waitmovement 0x0
 msgbox LilycoveCity_Aquiles_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_5
+waitmovement 0x0
 msgbox LilycoveCity_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_6
+waitmovement 0x0
 msgbox LilycoveCity_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_7
+waitmovement 0x0
 msgbox LilycoveCity_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_8
+applymovement 10, LilycoveCity_Aquiles_Move_8
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LilycoveCity_Aquiles_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+playse MUS_LILYCOVE
 clearflag FLAG_HOENN_682
 clearflag FLAG_HOENN_681
 setflag FLAG_HOENN_54
+removeobject 10
+removeobject 23
 setvar VAR_UNUSED_0x40F8, 10
 release
 end

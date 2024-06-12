@@ -45,6 +45,17 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
 	release
 	end
 
+LilycoveCity_DepartmentStore_5F_No_Oferta::
+lock
+faceplayer
+msgbox LilycoveCity_DepartmentStore_5F_No_Oferta_Texto_1 MSGBOX_NPC
+release
+end
+
+LilycoveCity_DepartmentStore_5F_No_Oferta_Texto_1:
+	.string "Actualmente no disponemos de oferta en\n"
+	.string "esta sección. Disculpe las molestias.$"
+
 LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft::
 	lock
 	faceplayer
