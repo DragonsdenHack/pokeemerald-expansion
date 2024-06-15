@@ -29,7 +29,7 @@
   ],
   "warp_events": [
     {
-      "x": 38,
+      "x": 34,
       "y": 26,
       "elevation": 3,
       "dest_map": "MAP_UNDERWATER_SEAFLOOR_CAVERN",
@@ -42,7 +42,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 38,
+      "x": 34,
       "y": 19,
       "elevation": 3,
       "item": "ITEM_PROTEIN",
@@ -50,7 +50,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 69,
+      "x": 65,
       "y": 18,
       "elevation": 3,
       "item": "ITEM_PEARL",
