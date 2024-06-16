@@ -1077,7 +1077,22 @@ $(OBJEVENTGFXDIR)/people/lidersete.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/zinnia.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/rasmus.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/jirachi.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/milotic.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/kingdra.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/kyogreprimal.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8	
 
 $(OBJEVENTGFXDIR)/pokemon/azumarill.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2

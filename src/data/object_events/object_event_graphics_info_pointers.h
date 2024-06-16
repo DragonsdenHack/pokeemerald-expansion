@@ -520,6 +520,16 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Inverna;
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Oro;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rasmus;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jirachi;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Milotic;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kyogre_Primal;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kingdra;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -1031,6 +1041,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_INVERNA] = &gObjectEventGraphicsInfo_Inverna,
 	[OBJ_EVENT_GFX_ORO] = &gObjectEventGraphicsInfo_Oro,
 	[OBJ_EVENT_GFX_SACHIKO] = &gObjectEventGraphicsInfo_Sachiko,
+	[OBJ_EVENT_GFX_RASMUS] = &gObjectEventGraphicsInfo_Rasmus,
+	[OBJ_EVENT_GFX_JIRACHI] = &gObjectEventGraphicsInfo_Jirachi,
+	[OBJ_EVENT_GFX_MILOTIC] = &gObjectEventGraphicsInfo_Milotic,
+	[OBJ_EVENT_GFX_KYOGRE_PRIMAL] = &gObjectEventGraphicsInfo_Kyogre_Primal,
+	[OBJ_EVENT_GFX_KINGDRA] = &gObjectEventGraphicsInfo_Kingdra,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

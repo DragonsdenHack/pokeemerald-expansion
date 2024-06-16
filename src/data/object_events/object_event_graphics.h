@@ -668,6 +668,11 @@ const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_Regigigas[] = INCBIN_U16("graphics/object_events/pics/people/regigigas.4bpp");
 const u16 gObjectEventPic_Inverna[] = INCBIN_U16("graphics/object_events/pics/people/inverna.4bpp");
 const u16 gObjectEventPic_Oro[] = INCBIN_U16("graphics/object_events/pics/people/oro.4bpp");
+const u16 gObjectEventPic_Rasmus[] = INCBIN_U16("graphics/object_events/pics/people/rasmus.4bpp");
+const u16 gObjectEventPic_Jirachi[] = INCBIN_U16("graphics/object_events/pics/people/jirachi.4bpp");
+const u16 gObjectEventPic_Milotic[] = INCBIN_U16("graphics/object_events/pics/people/milotic.4bpp");
+const u16 gObjectEventPic_Kyogre_Primal[] = INCBIN_U16("graphics/object_events/pics/people/kyogreprimal.4bpp");
+const u16 gObjectEventPic_Kingdra[] = INCBIN_U16("graphics/object_events/pics/people/kingdra.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -816,3 +821,9 @@ const u16 gObjectEventPal_Regigigas[] = INCBIN_U16("graphics/object_events/palet
 const u16 gObjectEventPal_Inverna[] = INCBIN_U16("graphics/object_events/palettes/inverna.gbapal");
 
 const u16 gObjectEventPal_Oro[] = INCBIN_U16("graphics/object_events/palettes/oro.gbapal");
+
+const u16 gObjectEventPal_Rasmus[] = INCBIN_U16("graphics/object_events/palettes/rasmus.gbapal");
+const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");
+const u16 gObjectEventPal_Milotic[] = INCBIN_U16("graphics/object_events/palettes/milotic.gbapal");
+const u16 gObjectEventPal_Kyogre_Primal[] = INCBIN_U16("graphics/object_events/palettes/kyogreprimal.gbapal");
+const u16 gObjectEventPal_Kingdra[] = INCBIN_U16("graphics/object_events/palettes/kingdra.gbapal");
