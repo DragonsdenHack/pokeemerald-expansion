@@ -93,7 +93,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CELEBI",
+      "graphics_id": "OBJ_EVENT_GFX_JIRACHI",
       "x": 49,
       "y": 17,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_KINGDRA",
       "x": 28,
       "y": 36,
       "elevation": 3,
@@ -223,7 +223,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_MILOTIC",
       "x": 31,
       "y": 43,
       "elevation": 3,
@@ -249,11 +249,11 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_KYOGRE_PRIMAL",
       "x": 26,
-      "y": 43,
+      "y": 44,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -288,7 +288,7 @@
       "flag": "FLAG_HOENN_10"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CELEBI",
+      "graphics_id": "OBJ_EVENT_GFX_JIRACHI",
       "x": 42,
       "y": 40,
       "elevation": 3,
