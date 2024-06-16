@@ -10904,4 +10904,52 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+	
+	[NATIONAL_DEX_GOROCHU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gGorochuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+	[NATIONAL_DEX_WARTILLERY] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWartilleryPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	
+	[NATIONAL_DEX_QWOLTFISH] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gQwoltfishPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	
+	[NATIONAL_DEX_GUARDIA] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gGuardiaPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

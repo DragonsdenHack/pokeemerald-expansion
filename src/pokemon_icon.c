@@ -1414,6 +1414,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_GOROCHU] = gMonIcon_Gorochu,
     [SPECIES_WARTILLERY] = gMonIcon_Wartillery,
     [SPECIES_QWOLTFISH] = gMonIcon_Qwoltfish,
+    [SPECIES_GUARDIA] = gMonIcon_Guardia,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2785,6 +2786,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_GOROCHU] = 0,
     [SPECIES_WARTILLERY] = 0,
     [SPECIES_QWOLTFISH] = 0,
+	[SPECIES_GUARDIA] = 0,
     [SPECIES_EGG] = 1,
 };
 
