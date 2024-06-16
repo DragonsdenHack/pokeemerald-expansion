@@ -1325,7 +1325,7 @@ const u32 gMonFrontPic_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunspar
 const u32 gMonFrontPic_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/front.4bpp.lz");
 const u32 gMonFrontPic_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/front.4bpp.lz");
 const u32 gMonFrontPic_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/front.4bpp.lz");
-const u32 gMonFrontPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/front.4bpp.lz");
+const u32 gMonFrontPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");

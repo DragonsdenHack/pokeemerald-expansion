@@ -2786,7 +2786,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_GOROCHU] = 0,
     [SPECIES_WARTILLERY] = 0,
     [SPECIES_QWOLTFISH] = 0,
-	[SPECIES_GUARDIA] = 0,
+	[SPECIES_GUARDIA] = 1,
     [SPECIES_EGG] = 1,
 };
 
