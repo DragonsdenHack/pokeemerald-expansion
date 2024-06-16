@@ -5624,6 +5624,10 @@ Cry_Wartillery::
 	.align 2
 Cry_Qwoltfish::
 	.incbin "sound/direct_sound_samples/cries/qwoltfish.bin"
+	
+	.align 2
+Cry_Guardia::
+	.incbin "sound/direct_sound_samples/cries/guardia.bin"
 
 	.align 2
 DirectSoundWaveData_register_noise::

@@ -10408,6 +10408,12 @@ static const union AnimCmd sAnim_QWOLTFISH_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_GUARDIA_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -16670,6 +16676,11 @@ static const union AnimCmd *const sAnims_QWOLTFISH[] ={
     sAnim_QWOLTFISH_1,
 };
 
+static const union AnimCmd *const sAnims_GUARDIA[] ={
+    sAnim_GeneralFrame0,
+    sAnim_GUARDIA_1,
+};
+
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
 #define ANIM_CMD_FULL(name, anims) [SPECIES_##name] = anims
 
@@ -18064,6 +18075,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD_FULL(GOROCHU, sAnims_GOROCHU),
     ANIM_CMD_FULL(WARTILLERY, sAnims_WARTILLERY),
     ANIM_CMD_FULL(QWOLTFISH, sAnims_QWOLTFISH),
+	ANIM_CMD_FULL(GUARDIA, sAnims_GUARDIA),
     ANIM_CMD(EGG),
 };
 

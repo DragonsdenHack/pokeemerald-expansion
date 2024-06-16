@@ -39091,4 +39091,32 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
+	[SPECIES_GUARDIA] =
+    {
+        .baseHP        = 95,
+        .baseAttack    = 65,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 85,
+        #if P_UPDATED_STATS >= GEN_7
+            .baseDefense   = 85,
+        #else
+            .baseDefense   = 85,
+        #endif
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_ELECTRIC,
+        .catchRate = 45,
+        .expYield = 195,
+        .evYield_Attack    = 1,
+        .item2 = ITEM_POISON_BARB,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_WATER_2,
+        .eggGroup2 = EGG_GROUP_WATER_2,
+        .abilities = {ABILITY_ELECTRIC_SURGE, ABILITY_ELECTRIC_SURGE, ABILITY_ELECTRIC_SURGE},
+        .bodyColor = BODY_COLOR_GRAY,
+        .noFlip = FALSE,
+    },
 };

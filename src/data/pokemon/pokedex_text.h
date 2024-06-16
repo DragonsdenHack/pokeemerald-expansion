@@ -5142,7 +5142,7 @@ const u8 gPurakkusuPokedexText[] = _(
     "bruta e impenetrable exoesqueleto.");
 
 const u8 gTaabanPokedexText[] = _(
-    "Se cree que acabó comiéndose al SLOBRO\n"
+    "Se cree que acabó comiéndose al SLOWBRO\n"
     "con el que establecía simbiosis. Como\n"
     "consecuencia, absorbió muchas de\n"
     "sus habilidades.");
@@ -5504,3 +5504,9 @@ const u8 gQwoltfishPokedexText[] = _(
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
+
+const u8 gGuardiaPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");	

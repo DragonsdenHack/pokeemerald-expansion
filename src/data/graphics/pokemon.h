@@ -1325,6 +1325,7 @@ const u32 gMonFrontPic_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunspar
 const u32 gMonFrontPic_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/front.4bpp.lz");
 const u32 gMonFrontPic_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/front.4bpp.lz");
 const u32 gMonFrontPic_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/front.4bpp.lz");
+const u32 gMonFrontPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2654,6 +2655,7 @@ const u32 gMonBackPic_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparc
 const u32 gMonBackPic_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/back.4bpp.lz");
 const u32 gMonBackPic_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/back.4bpp.lz");
 const u32 gMonBackPic_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/back.4bpp.lz");
+const u32 gMonBackPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -4006,6 +4008,7 @@ const u32 gMonPalette_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparc
 const u32 gMonPalette_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/normal.gbapal.lz");
 const u32 gMonPalette_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/normal.gbapal.lz");
 const u32 gMonPalette_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/normal.gbapal.lz");
+const u32 gMonPalette_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -5353,6 +5356,7 @@ const u32 gMonShinyPalette_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudun
 const u32 gMonShinyPalette_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -6690,6 +6694,7 @@ const u8 gMonIcon_DudunsparceEvo[] = INCBIN_U8("graphics/pokemon/dudunsparce_evo
 const u8 gMonIcon_Gorochu[] = INCBIN_U8("graphics/pokemon/gorochu/icon.4bpp");
 const u8 gMonIcon_Wartillery[] = INCBIN_U8("graphics/pokemon/wartillery/icon.4bpp");
 const u8 gMonIcon_Qwoltfish[] = INCBIN_U8("graphics/pokemon/qwoltfish/icon.4bpp");
+const u8 gMonIcon_Guardia[] = INCBIN_U8("graphics/pokemon/guardia/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -7596,3 +7601,4 @@ const u8 gMonFootprint_DudunsparceEvo[] = INCBIN_U8("graphics/pokemon/dudunsparc
 const u8 gMonFootprint_Gorochu[] = INCBIN_U8("graphics/pokemon/gorochu/footprint.1bpp");
 const u8 gMonFootprint_Wartillery[] = INCBIN_U8("graphics/pokemon/wartillery/footprint.1bpp");
 const u8 gMonFootprint_Qwoltfish[] = INCBIN_U8("graphics/pokemon/qwoltfish/footprint.1bpp");
+const u8 gMonFootprint_Guardia[] = INCBIN_U8("graphics/pokemon/guardia/footprint.1bpp");
