@@ -511,8 +511,14 @@
 #define OBJ_EVENT_GFX_INVERNA 507
 #define OBJ_EVENT_GFX_ORO 508
 #define OBJ_EVENT_GFX_SACHIKO 509
+#define OBJ_EVENT_GFX_RASMUS 510
+#define OBJ_EVENT_GFX_JIRACHI 511
+#define OBJ_EVENT_GFX_MILOTIC 512
+#define OBJ_EVENT_GFX_KYOGRE_PRIMAL 513
+#define OBJ_EVENT_GFX_KINGDRA 514
 
-#define NUM_OBJ_EVENT_GFX                        510                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+
+#define NUM_OBJ_EVENT_GFX                        515                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

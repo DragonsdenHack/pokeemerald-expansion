@@ -564,6 +564,11 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_INVERNA 0x11A2
 #define OBJ_EVENT_PAL_TAG_ORO 0x11A3
 #define OBJ_EVENT_PAL_TAG_SACHIKO 0X11A4
+#define OBJ_EVENT_PAL_TAG_RASMUS 0x11A5
+#define OBJ_EVENT_PAL_TAG_JIRACHI 0x11A6
+#define OBJ_EVENT_PAL_TAG_MILOTIC 0x11A7
+#define OBJ_EVENT_PAL_TAG_KYOGRE_PRIMAL 0x11A8
+#define OBJ_EVENT_PAL_TAG_KINGDRA 0x11A9
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -736,6 +741,11 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Oro, OBJ_EVENT_PAL_TAG_ORO},
 	{gObjectEventPal_Ariana, OBJ_EVENT_PAL_TAG_ARIANA},
 	{gObjectEventPal_Sachiko, OBJ_EVENT_PAL_TAG_SACHIKO},
+	{gObjectEventPal_Rasmus, OBJ_EVENT_PAL_TAG_RASMUS},
+	{gObjectEventPal_Jirachi, OBJ_EVENT_PAL_TAG_JIRACHI},
+	{gObjectEventPal_Milotic, OBJ_EVENT_PAL_TAG_MILOTIC},
+	{gObjectEventPal_Kyogre_Primal, OBJ_EVENT_PAL_TAG_KYOGRE_PRIMAL},
+	{gObjectEventPal_Kingdra, OBJ_EVENT_PAL_TAG_KINGDRA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
