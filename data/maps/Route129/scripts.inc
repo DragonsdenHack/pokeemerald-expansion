@@ -49,3 +49,28 @@ Route129_EventScript_Clarence::
 	msgbox Route129_Text_ClarencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route129_Barrera::
+compare VAR_UNUSED_0x40F8, 13
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Route129_Barrera_Move_1
+waitmovement 0x0
+msgbox Route129_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route129_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Route129_Barrera_Move_1:
+walk_in_place_left
+step_end
+
+Route129_Barrera_Move_2:
+walk_slow_right
+step_end
+
+Route129_Barrera_Texto_1:
+	.string "Esta ruta se aleja de mis próximos\n"
+	.string "objetivos: encontrar a KYOGRE en la\l"
+	.string "CAVERNA ABISAL y esperar a ANDRA en\l"
+	.string "CIUDAD ALGARIA.$"
+

@@ -348,7 +348,7 @@ Route103_Text_RouteSign:
 	.string	"{DOWN_ARROW} PUEBLO ESCASO$"
 
 Route103_Abedul::
-compare VAR_UNUSED_0x40F7, 250
+compare VAR_UNUSED_0x40F8, 25
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_1
 waitmovement 0x0

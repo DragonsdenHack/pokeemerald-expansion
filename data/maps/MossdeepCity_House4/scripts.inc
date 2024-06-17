@@ -17,9 +17,6 @@ MossdeepCity_House4_EventScript_CanBattleAtSecretBases::
 MossdeepCity_House4_EventScript_NinjaBoy::
 	lock
 	faceplayer
-	special CheckPlayerHasSecretBase
-	goto_if_eq VAR_RESULT, FALSE, MossdeepCity_House4_EventScript_NoSecretBase
-	special GetSecretBaseNearbyMapName
 	msgbox MossdeepCity_House4_Text_YouMadeSecretBaseNearX, MSGBOX_DEFAULT
 	release
 	end
@@ -50,8 +47,9 @@ MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
 	.string	"ENTRENADORES y desafiarlos.$"
 
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
-	.string	"¿Tú tienes una BASE SECRETA\n"
-	.string	"en la {STR_VAR_1}?$"
+	.string	"Tú tienes una BASE SECRETA\n"
+	.string	"en... ¡Oh! ¡4 regiones diferentes!\l"
+	.string	"¡Eres todo un hombre de negocios!$"
 
 MossdeepCity_House4_Text_MakeSecretBase:
 	.string	"Deberías crear una BASE SECRETA\n"

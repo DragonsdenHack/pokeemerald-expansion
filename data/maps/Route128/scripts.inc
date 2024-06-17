@@ -300,3 +300,26 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "Okay.\n"
 	.string "I'm going to SOOTOPOLIS.$"
 
+Route128_Barrera::
+compare VAR_UNUSED_0x40F8, 25
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Route128_Barrera_Move_1
+waitmovement 0x0
+msgbox Route128_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route128_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Route128_Barrera_Move_1:
+walk_in_place_right
+step_end
+
+Route128_Barrera_Move_2:
+walk_slow_left
+step_end
+
+Route128_Barrera_Texto_1:
+	.string "Más al este solo está la LIGA POKÉMON\n"
+	.string "de HOENN. Por ahora no necesito ir allí.$"
+

@@ -377,7 +377,7 @@
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_MART",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 49,
@@ -418,8 +418,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 16,
-      "y": 39,
+      "x": 26,
+      "y": 25,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -427,8 +427,8 @@
     },
     {
       "type": "trigger",
-      "x": 15,
-      "y": 39,
+      "x": 32,
+      "y": 28,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -436,8 +436,8 @@
     },
     {
       "type": "trigger",
-      "x": 16,
-      "y": 38,
+      "x": 25,
+      "y": 25,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -445,8 +445,8 @@
     },
     {
       "type": "trigger",
-      "x": 17,
-      "y": 38,
+      "x": 33,
+      "y": 28,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",

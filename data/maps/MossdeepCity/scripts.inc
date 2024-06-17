@@ -685,6 +685,7 @@ msgbox MossdeepCity_Devon_Texto_9 MSGBOX_AUTOCLOSE
 msgbox MossdeepCity_Devon_Texto_10 MSGBOX_AUTOCLOSE
 msgbox MossdeepCity_Devon_Texto_11 MSGBOX_AUTOCLOSE
 msgbox MossdeepCity_Devon_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_50
 setflag FLAG_HOENN_55
 setvar VAR_UNUSED_0x40F8, 11
 release

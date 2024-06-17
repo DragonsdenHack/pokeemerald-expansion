@@ -1110,6 +1110,7 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_27
 waitmovement 0x0
+setflag FLAG_HOENN_50
 setflag FLAG_HOENN_53
 setflag FLAG_HOENN_1
 delay 15
