@@ -1256,7 +1256,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/LilycoveCity_ContestLobby/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestLobby/map.bin"

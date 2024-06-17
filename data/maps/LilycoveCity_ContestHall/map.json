@@ -434,28 +434,28 @@
   "warp_events": [
     {
       "x": 19,
-      "y": 31,
+      "y": 32,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
       "dest_warp_id": 2
     },
     {
       "x": 30,
-      "y": 31,
+      "y": 32,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
       "dest_warp_id": 3
     },
     {
       "x": 20,
-      "y": 31,
+      "y": 32,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
       "dest_warp_id": 2
     },
     {
       "x": 31,
-      "y": 31,
+      "y": 32,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
       "dest_warp_id": 3

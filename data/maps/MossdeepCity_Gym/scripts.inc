@@ -266,7 +266,7 @@ MossdeepCity_Gym_EventScript_Kathleen::
 MossdeepCity_Gym_EventScript_GymGuide::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_MOSSDEEP_GYM, MossdeepCity_Gym_EventScript_GymGuidePostVictory
+	goto_if_set FLAG_UNUSED_0x2D9, MossdeepCity_Gym_EventScript_GymGuidePostVictory
 	msgbox MossdeepCity_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
 	release
 	end
@@ -546,24 +546,24 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
 	.string	"¡Te daré jarabe de POKéMON del bueno!$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-	.string "TATE: Hehehe… Were you surprised?\p"
-	.string "LIZA: Fufufu… Were you surprised?\p"
-	.string "TATE: That there are two GYM LEADERS?\n"
-	.string "LIZA: That there are two GYM LEADERS?\p"
-	.string "TATE: We're twins!\n"
-	.string "LIZA: We're twins!\p"
-	.string "TATE: We don't need to talk because…\n"
-	.string "LIZA: We can each determine what…\p"
-	.string "TATE: The other is thinking…\n"
-	.string "LIZA: All in our minds!\p"
-	.string "TATE: This combination of ours…\n"
-	.string "LIZA: Can you beat it?$"
+	.string	"VITO: Je, je, je, ¿no lo esperabas?\p"
+	.string	"LETI: Ji, ji, ji, ¿no lo esperabas?\p"
+	.string	"VITO: ¡Somos dos LÍDERES de GIMNASIO!\n"
+	.string	"LETI: ¡Somos dos LÍDERES de GIMNASIO!\p"
+	.string	"VITO: ¡Somos mellizos!\n"
+	.string	"LETI: ¡Somos mellizos!\p"
+	.string	"VITO: No necesitamos hablar porque…\n"
+	.string	"LETI: los dos siempre sabemos lo que…\p"
+	.string	"VITO: el otro piensa.\n"
+	.string	"LETI: ¡Es telepatía!\p"
+	.string	"VITO: Los dos juntos…\n"
+	.string	"LETI: ¡somos invencibles!$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
-	.string "TATE: What?! Our combination…\n"
-	.string "LIZA: Was shattered!\p"
-	.string "TATE: It can't be helped. You've won…\n"
-	.string "LIZA: So, in recognition, take this.$"
+	.string	"VITO: ¡¿Pe-pero…?! Los dos juntos…\n"
+	.string	"LETI: ¡nos hemos dejado derrotar!\p"
+	.string	"VITO: La vida es así. Has ganado…\n"
+	.string	"LETI: Y también te has ganado esto…$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
 	.string	"{PLAYER} recibió la MEDALLA MENTE\n"
@@ -612,35 +612,56 @@ MossdeepCity_Gym_Text_GymStatueCertified:
 	.string	"GIMNASIO POKéMON de CIUDAD ALGARIA$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
-	.string "TATE: POKéMON…\n"
-	.string "LIZA: POKéMON…\p"
-	.string "TATE: By changing the party's mix…\n"
-	.string "LIZA: The battle style changes.\p"
-	.string "TATE: But me…\n"
-	.string "LIZA: But me…\p"
-	.string "TATE: I'll always be with LIZA!\n"
-	.string "LIZA: I'll always be with TATE!\p"
-	.string "TATE: Our combination…\n"
-	.string "LIZA: We'll show you again and again!$"
+	.string	"VITO: POKéMON por aquí…\n"
+	.string	"LETI: POKéMON por allá…\p"
+	.string	"VITO: Cambia la composición del equipo…\n"
+	.string	"LETI: y cambiarás tu estilo de lucha.\p"
+	.string	"VITO: Pero yo…\n"
+	.string	"LETI: Pero yo…\p"
+	.string	"VITO: ¡siempre estaré con LETI!\n"
+	.string	"LETI: ¡siempre estaré con VITO!\p"
+	.string	"VITO: Los dos juntos…\n"
+	.string	"LETI: ¡somos invencibles!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
-	.string "TATE: You and your POKéMON…\n"
-	.string "LIZA: It's as if you were siblings!$"
+	.string	"VITO: Tus POKéMON y tú…\n"
+	.string	"LETI: ¡estáis muy unidos!$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
-	.string "TATE: You can knock us down,\n"
-	.string "but we'll never stay down!\p"
-	.string "LIZA: Because the two of us,\n"
-	.string "we always support each other!$"
+	.string	"VITO: ¡Podrás derrotarnos,\n"
+	.string	"pero nunca achantarnos!\p"
+	.string	"LIZA: ¡Porque nos apoyamos\n"
+	.string	"y animamos mutuamente!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
-	.string "TATE: You're back again…\n"
-	.string "LIZA: You're back again…\p"
-	.string "TATE: To give us a rematch.\n"
-	.string "LIZA: To give us a rematch.\p"
-	.string "TATE: But…\n"
-	.string "LIZA: For our match…\p"
-	.string "TATE: You brought just one POKéMON!\n"
-	.string "LIZA: You brought just one POKéMON!\p"
-	.string "TATE: We need you to bring at least…\n"
-	.string "LIZA: Two POKéMON when you come back.$"
+	.string	"VITO: Así que has vuelto…\n"
+	.string	"LETI: Ya sabemos por qué…\p"
+	.string	"VITO: Quieres luchar con nosotros.\n"
+	.string	"LETI: No lo niegues.\p"
+	.string	"VITO: Pero…,\n"
+	.string	"LETI: si quieres pelea…,\p"
+	.string	"VITO: ¡no basta con un POKéMON!\n"
+	.string	"LETI: ¡Y sólo tienes uno!\p"
+	.string	"VITO: Necesitas…\n"
+	.string	"LETI: al menos dos POKéMON.$"
+
+
+MossdeepCity_Gym_Combate_Candela::
+lock
+faceplayer
+goto_if_set FLAG_UNUSED_0x2D9, MossdeepCity_Gym_Combate_Candela_Despues
+msgbox MossdeepCity_Gym_Text_TateAndLizaIntro MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_VITOLETI, MossdeepCity_Gym_Text_TateAndLizaDefeat
+msgbox MossdeepCity_Gym_Text_TateAndLizaRematchDefeat MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_0x2D9
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox MossdeepCity_Gym_Text_ReceivedMindBadge MSGBOX_DEFAULT
+waitfanfare
+release
+end
+
+MossdeepCity_Gym_Combate_Candela_Despues::
+msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch MSGBOX_AUTOCLOSE
+release
+end
