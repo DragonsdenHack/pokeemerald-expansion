@@ -274,11 +274,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "MossdeepCity_Andra_Caverna",
       "flag": "FLAG_HOENN_682"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 65,
       "y": 20,
       "elevation": 3,
@@ -287,11 +287,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "MossdeepCity_Cientificos",
       "flag": "FLAG_HOENN_681"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 64,
       "y": 20,
       "elevation": 3,
@@ -300,11 +300,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "MossdeepCity_Cientificos",
       "flag": "FLAG_HOENN_681"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 63,
       "y": 20,
       "elevation": 3,
@@ -313,7 +313,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "MossdeepCity_Cientificos",
       "flag": "FLAG_HOENN_681"
     },
     {
@@ -454,57 +454,21 @@
     },
     {
       "type": "trigger",
-      "x": 37,
-      "y": 22,
+      "x": 57,
+      "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "10",
+      "script": "MossdeepCity_Devon"
     },
     {
       "type": "trigger",
-      "x": 37,
-      "y": 22,
+      "x": 58,
+      "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 37,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 36,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 38,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 38,
-      "y": 22,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "10",
+      "script": "MossdeepCity_Devon"
     }
   ],
   "bg_events": [

@@ -2347,3 +2347,128 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_88:
 	.string "{PAUSE 15}…{PAUSE 15}TORRE DE RADIO LAVANDA. Se hará\n"
 	.string "extraño no volver a ver la original, ¿no\l"
 	.string "crees?$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion::
+lock
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_10 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_11 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_12 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_13 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_14 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_15 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_16 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_17 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_18 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_19 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_20 MSGBOX_AUTOCLOSE
+msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_21 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 12
+release
+end
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1:
+	.string "GIOVANNI: …Y hemos llegado más lejos de\n"
+	.string "lo que cualquiera de nosotros pudiera\l"
+	.string "imaginar. De eso no tengo duda alguna.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2:
+	.string "Tal y como se ha expuesto: nuestro\n"
+	.string "prototipo de nivel III, si bien no podrá\l"
+	.string "acercarse en poder bruto a ese total de\l"
+	.string "900 STATS BASE que son el límite\l"
+	.string "conocido…$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_3:
+	.string "…sí que lo hará en lo que a eficiencia\n"
+	.string "dentro de un combate POKÉMON se\l"
+	.string "refiere. Y esto caballeros, al final del\l"
+	.string "día, es lo que nos interesa.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_4:
+	.string "OAK: Y pensar que hace 3 años veíamos a\n"
+	.string "MEWTWO como un POKÉMON insuperable…$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_5:
+	.string "GIOVANNI: El MEWTWO original era bueno,\n"
+	.string "pero no ha acabado siendo el mejor. El\l"
+	.string "tiempo lo ha demostrado.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_6:
+	.string "Ahora, me gustaría anunciar que el\n"
+	.string "proceso de construcción de la nueva\l"
+	.string "ZONA SAFARI en JOHTO ya está en\l"
+	.string "marcha.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_7:
+	.string "¿No es así, EUSINE?$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_8:
+	.string "EUSINE: Exacto. Ya he hablado con el\n"
+	.string "GRAN MAESTRO.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_9:
+	.string "La ruta que lleva a la TORRE DUN y la\n"
+	.string "zona alrededor del PILAR DUN\l"
+	.string "permanecerán ocultas a ojos de JOHTO…\l"
+	.string "para siempre.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_10:
+	.string "GIOVANNI: No será muy difícil.\n"
+	.string "Destruyendo el actual sendero y\l"
+	.string "construyendo uno único que se desvíe\l"
+	.string "más al noreste bastará.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_11:
+	.string "Con ello, el dinero con el que financiar\n"
+	.string "todos nuestros proyectos será el menor\l"
+	.string "de los problemas.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_12:
+	.string "Eso es todo, damos por finaliz…$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_13:
+	.string "LANCE: U…un momento.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_14:
+	.string "GIOVANNI: ¿Qué no ha quedado claro,\n"
+	.string "LANCE?$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_15:
+	.string "LANCE: No… no alcanzo a comprender lo\n"
+	.string "expuesto al comenzar la reunión.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_16:
+	.string "Todo ese despliegue de recursos, ¿para\n"
+	.string "qué? ¿cuál es su propósito cuando\l"
+	.string "ahora mismo somos mucho más poderosos\l"
+	.string "que todo eso?$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_17:
+	.string "GIOVANNI: No necesitas entender nada,\n"
+	.string "LANCE. Solo debes ceñirte con absoluta\l"
+	.string "precisión a tu papel.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_18:
+	.string "LANCE: … …$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_19:
+	.string "GIOVANNI: Ha sido el primer tema a\n"
+	.string "tratar en esta reunión precisamente\l"
+	.string "por ser el más importante.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_20:
+	.string "Y ahora, es inminente. Todo está\n"
+	.string "preparado. Ya no hay vuelta atrás.$"
+
+GoldenrodRadioTowerP5_Tercera_Reunion_Texto_21:
+	.string "Después de esto, las regiones de KANTO\n"
+	.string "y JOHTO nunca volverán a ser las mismas.$"

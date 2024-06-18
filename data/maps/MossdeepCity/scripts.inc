@@ -1,10 +1,3 @@
-.set LOCALID_GRUNT_1, 10
-.set LOCALID_GRUNT_2, 11
-.set LOCALID_GRUNT_3, 12
-.set LOCALID_GRUNT_4, 13
-.set LOCALID_MAXIE, 14
-.set LOCALID_SCOTT, 16
-
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
     map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_OnFrame
@@ -15,11 +8,6 @@ map_script_2 VAR_UNUSED_0x40F7, 247, MossdeepCity_Andra
 	.2byte 0
 
 MossdeepCity_OnTransition:
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_1
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_2
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_3
-	clearflag FLAG_MOSSDEEP_GYM_SWITCH_4
-	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
 	end
 
 MossdeepCity_EventScript_PokefanF::
@@ -85,145 +73,6 @@ MossdeepCity_EventScript_VisitedMossdeep::
 	setvar VAR_TEMP_1, 1
 	end
 
-MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter::
-	lockall
-	applymovement LOCALID_MAXIE, MossdeepCity_Movement_MaxieGestureToSpaceCenter
-	waitmovement 0
-	applymovement LOCALID_GRUNT_1, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_2, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_3, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_4, MossdeepCity_Movement_GruntFaceSpaceCenter
-	waitmovement 0
-	applymovement LOCALID_MAXIE, MossdeepCity_Movement_MaxieEnterSpaceCenter
-	applymovement LOCALID_GRUNT_1, MossdeepCity_Movement_Grunt1EnterSpaceCenter
-	applymovement LOCALID_GRUNT_2, MossdeepCity_Movement_Grunt2EnterSpaceCenter
-	applymovement LOCALID_GRUNT_3, MossdeepCity_Movement_Grunt3EnterSpaceCenter
-	applymovement LOCALID_GRUNT_4, MossdeepCity_Movement_Grunt4EnterSpaceCenter
-	waitmovement 0
-	removeobject LOCALID_MAXIE
-	removeobject LOCALID_GRUNT_1
-	removeobject LOCALID_GRUNT_2
-	removeobject LOCALID_GRUNT_3
-	removeobject LOCALID_GRUNT_4
-	delay 30
-	setvar VAR_MOSSDEEP_CITY_STATE, 2
-	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
-	releaseall
-	end
-
-MossdeepCity_Movement_MaxieGestureToSpaceCenter:
-	delay_16
-	face_right
-	delay_16
-	delay_16
-	delay_16
-	delay_16
-	face_left
-	delay_16
-	delay_16
-	step_end
-
-MossdeepCity_Movement_GruntFaceSpaceCenter:
-	face_right
-	delay_16
-	delay_16
-	delay_16
-	step_end
-
-MossdeepCity_Movement_MaxieEnterSpaceCenter:
-	walk_down
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-MossdeepCity_Movement_Grunt1EnterSpaceCenter:
-	delay_16
-	delay_8
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-MossdeepCity_Movement_Grunt2EnterSpaceCenter:
-	delay_16
-	delay_8
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-MossdeepCity_Movement_Grunt3EnterSpaceCenter:
-	delay_16
-	delay_8
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-MossdeepCity_Movement_Grunt4EnterSpaceCenter:
-	delay_16
-	delay_8
-	walk_right
-	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
 MossdeepCity_EventScript_Man::
 	lock
 	faceplayer
@@ -267,8 +116,6 @@ MossdeepCity_EventScript_Scott::
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_EventScript_ScottExitNorth
 	call_if_eq VAR_FACING, DIR_EAST, MossdeepCity_EventScript_ScottExitEast
-	addvar VAR_SCOTT_STATE, 1
-	removeobject LOCALID_SCOTT
 	release
 	end
 
@@ -671,25 +518,148 @@ MossdeepCity_Andra_Texto_10:
 MossdeepCity_Andra_Texto_11:
 	.string "ANDRA: ¿¡Quién eres tú!? ¡Muéstrate!$"
 
+MossdeepCity_Devon_Move_1:
+walk_in_place_up
+step_end
+
+MossdeepCity_Devon_Move_2:
+emote_exclamation_mark
+delay_16
+face_down
+delay_16
+walk_slow_down
+step_end
+
+MossdeepCity_Devon_Move_3:
+face_right
+step_end
+
+MossdeepCity_Devon_Move_4:
+walk_slow_down
+step_end
+
+MossdeepCity_Devon_Move_5:
+walk_in_place_down
+step_end
+
+MossdeepCity_Devon_Move_6:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+step_end
+
+MossdeepCity_Devon_Move_6.1:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+MossdeepCity_Devon_Move_1.1:
+walk_up
+walk_up
+walk_up
+step_end
+
 MossdeepCity_Devon::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Move_1.1
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 19, MossdeepCity_Devon_Move_2
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_3
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_4
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_3 MSGBOX_AUTOCLOSE
-msgbox MossdeepCity_Devon_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_5
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Move_3
+applymovement 19, MossdeepCity_Devon_Move_3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Move_6
+waitmovement 0x0
+special RemoveCameraObject
 msgbox MossdeepCity_Devon_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Devon_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MossdeepCity_Devon_Texto_8 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Move_6.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Move_7
+applymovement 19, MossdeepCity_Devon_Move_5
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_8
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_9
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_7
+waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_10
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Move_11
+waitmovement 0x0
 setflag FLAG_HOENN_50
 setflag FLAG_HOENN_55
 setvar VAR_UNUSED_0x40F8, 11
 release
 end
+
+MossdeepCity_Devon_Move_11:
+walk_up
+step_end
+
+MossdeepCity_Devon_Move_10:
+walk_slow_up
+step_end
+
+MossdeepCity_Devon_Move_9:
+face_down
+step_end
+
+MossdeepCity_Devon_Move_8:
+face_left
+step_end
+
+MossdeepCity_Devon_Move_7:
+face_up
+step_end
 
 MossdeepCity_Devon_Texto_1:
 	.string "¿{PLAYER}?$"
@@ -702,22 +672,69 @@ MossdeepCity_Devon_Texto_3:
 	.string "sin pasar siquiera a curar, ¿verdad?\l"
 	.string "¡Eres incorregible!$"
 
-MossdeepCity_Devon_Texto_4:
-	.string "Pues ahora deberás esperar: tal y como\n"
-	.string "imaginaba, tenemos tiempo. Mira.$"
-
 MossdeepCity_Devon_Texto_5:
+	.string "Pues ahora deberás esperar porque… tal\n"
+	.string "y como imaginaba, tenemos tiempo. Mira.$"
 
 MossdeepCity_Devon_Texto_6:
+	.string "DEVON es omnipresente en HOENN. Quién\n"
+	.string "sabe qué clase de pactos y planes\l"
+	.string "estarán haciendo en la ESTACIÓN\l"
+	.string "ESPACIAL…$"
 
 MossdeepCity_Devon_Texto_7:
+	.string "Lo que sí sabemos es que, de todos los\n"
+	.string "ADMINISTRADORES, AMATISTA es el\l"
+	.string "principal interesado en REGIGIGAS.$"
 
 MossdeepCity_Devon_Texto_8:
+	.string "Mientras siga en la ciudad, no harán su\n"
+	.string "próximo movimiento.$"
 
 MossdeepCity_Devon_Texto_9:
+	.string "Yo me quedaré. Este lugar me da paz, y\n"
+	.string "no me importa permanecer aquí el tiempo\l"
+	.string "que haga falta.$"
 
 MossdeepCity_Devon_Texto_10:
+	.string "En cuanto a ti… podrías visitar el\n"
+	.string "GIMNASIO de esta ciudad o…$"
 
 MossdeepCity_Devon_Texto_11:
+	.string "…si tienes BUCEO, puedes ir a por\n"
+	.string "KYOGRE.$"
 
 MossdeepCity_Devon_Texto_12:
+	.string "El mar al sur de aquí es muy profundo.\n"
+	.string "KYOGRE duerme en un lugar llamado\l"
+	.string "CAVERNA ABISAL.$"
+
+MossdeepCity_Devon_Texto_13:
+	.string "Así podrás hacer tiempo y además\n"
+	.string "completar otro objetivo más del TEAM\l"
+	.string "ROCKET, porque… sigues trabajando para\l"
+	.string "GIOVANNI, ¿no?$"
+
+MossdeepCity_Andra_Caverna::
+lock
+faceplayer
+msgbox MossdeepCity_Devon_Texto_12 MSGBOX_NPC
+delay 10
+msgbox MossdeepCity_Devon_Texto_13 MSGBOX_NPC
+applymovement 19, MossdeepCity_Devon_Move_7
+waitmovement 0x0
+setflag FLAG_HOENN_50
+release
+end
+
+MossdeepCity_Cientificos::
+lock
+msgbox MossdeepCity_Cientificos_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+MossdeepCity_Cientificos_Texto_1:
+	.string "La ESTACIÓN ESPACIAL está cerrada al\n"
+	.string "público en este momento. DEVON ha\l"
+	.string "organizado un importante evento\l"
+	.string "privado en su interior.$"
