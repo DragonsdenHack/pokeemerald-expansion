@@ -1,5 +1,10 @@
 Goldenrod_RadioTowerP5_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Goldenrod_RadioTowerP5_OnFrame
 	.byte 0
+
+Goldenrod_RadioTowerP5_OnFrame:
+map_script_2 VAR_UNUSED_0x40F8, 11, GoldenrodRadioTowerP5_Tercera_Reunion
+	.2byte 0
 
 RadioTowerP5_15::
 lock
@@ -2348,9 +2353,53 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_88:
 	.string "extraño no volver a ver la original, ¿no\l"
 	.string "crees?$"
 
+Tercera_Reunion_Move_1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Tercera_Reunion_Move_1.1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
 GoldenrodRadioTowerP5_Tercera_Reunion::
 lock
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+addobject 1
+addobject 2
+addobject 5
+addobject 13
+addobject 14
+addobject 12
+removeobject 16
+removeobject 11
+addobject 10
+addobject 9
+addobject 8
+addobject 7
+addobject 6
+removeobject 4
+removeobject 3
+addobject 18
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Tercera_Reunion_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+clearflag FLAG_RECEIVED_SHOAL_SHELL_4
+addobject 17
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Tercera_Reunion_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2 MSGBOX_AUTOCLOSE
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_3 MSGBOX_AUTOCLOSE
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_4 MSGBOX_AUTOCLOSE
@@ -2376,12 +2425,12 @@ release
 end
 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1:
-	.string "GIOVANNI: …Y hemos llegado más lejos de\n"
+	.string "????: …Y hemos llegado más lejos de\n"
 	.string "lo que cualquiera de nosotros pudiera\l"
 	.string "imaginar. De eso no tengo duda alguna.$"
 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2:
-	.string "Tal y como se ha expuesto: nuestro\n"
+	.string "GIOVANNI: Tal y como se ha expuesto: el\n"
 	.string "prototipo de nivel III, si bien no podrá\l"
 	.string "acercarse en poder bruto a ese total de\l"
 	.string "900 STATS BASE que son el límite\l"

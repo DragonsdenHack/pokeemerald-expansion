@@ -188,7 +188,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "11",
+      "script": "SeafloorCavern_Room8_Warp"
+    }
   ],
   "bg_events": [
 

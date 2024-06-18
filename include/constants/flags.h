@@ -746,7 +746,7 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon //clear blaine b.rocket 
 #define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon// clear marineros ssanne //clear cultistas torre pkmn// clear Ruby //clear zeus magno aquiles
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
-#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador//clear PROTON casa fuji// clear Andra admin rocket f8
+#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador//clear PROTON casa fuji// clear Andra admin rocket f8 // clear Ariana III reun.trigal
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL // clear andra b.rocket //clear guarda casa pescador//clear giovanni y plata ruta 22
 #define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SET PATENTE BILL // clear lance b.rocket //clear Lance y polis Silph
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F

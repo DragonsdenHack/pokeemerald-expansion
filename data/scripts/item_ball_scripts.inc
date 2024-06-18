@@ -563,7 +563,7 @@ ShoalCave_LowTideIceRoom_EventScript_ItemNeverMeltIce::
 	end
 
 SeafloorCavern_Room9_EventScript_ItemTM26::
-	finditem ITEM_TM26
+	finditem ITEM_LATIOSITE
 	end
 
 Route110_TrickHousePuzzle1_EventScript_ItemOrangeMail::
