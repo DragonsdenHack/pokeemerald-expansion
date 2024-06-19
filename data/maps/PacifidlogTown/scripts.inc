@@ -52,21 +52,21 @@ PacifidlogTown_Text_TownSign:
 	.string	"“Donde el radiante sol ilumina\n"
 	.string	"las aguas cada día.”$"
 
-PacifidlogTown_Barrera_Texto_1:
+PacifidlogTown_Barrera_Move_1:
 walk_in_place_left
 step_end
 
-PacifidlogTown_Barrera_Texto_2:
+PacifidlogTown_Barrera_Move_2:
 walk_slow_right
 step_end
 
 
 PacifidlogTown_Barrera::
 lock
-applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Texto_1
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Move_1
 waitmovement 0x0
 msgbox PacifidlogTown_Barrera_Texto_1 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Texto_2
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Move_2
 waitmovement 0x0
 release
 end
