@@ -52,3 +52,48 @@ PacifidlogTown_Text_TownSign:
 	.string	"“Donde el radiante sol ilumina\n"
 	.string	"las aguas cada día.”$"
 
+PacifidlogTown_Barrera_Texto_1:
+walk_in_place_left
+step_end
+
+PacifidlogTown_Barrera_Texto_2:
+walk_slow_right
+step_end
+
+
+PacifidlogTown_Barrera::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Texto_1
+waitmovement 0x0
+msgbox PacifidlogTown_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Texto_2
+waitmovement 0x0
+release
+end
+
+PacifidlogTown_Barrera_Texto_1:
+	.string "No puedo irme de PUEBLO OROMAR sin\n"
+	.string "hablar con ANDRA.$"
+
+PacifidlogTown_Rubi::
+lock
+msgbox PacifidlogTown_Rubi_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+PacifidlogTown_Rubi_Texto_1:
+	.string "Muy bien… todo al sur… y antes de llegar\n"
+	.string "a CIUDAD PORTUAL…$"
+
+PacifidlogTown_Valente::
+lock
+msgbox PacifidlogTown_Valente_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+PacifidlogTown_Valente_Texto_1:
+	.string "Deberá poner cuidado al final de RUTA\n"
+	.string "133. En ese punto, colóquese unos 4\l"
+	.string "pasos por encima del claro de tierra en\l"
+	.string "el que se halle.$"
+

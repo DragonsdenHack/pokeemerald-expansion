@@ -560,8 +560,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr2",
+      "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route131/border.bin",
       "blockdata_filepath": "data/layouts/Route131/map.bin"
     },
