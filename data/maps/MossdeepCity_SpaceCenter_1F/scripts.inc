@@ -47,7 +47,6 @@ MossdeepCity_SpaceCenter_1F_OnLoad:
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_SetMagmaNote::
-	setmetatile 2, 5, METATILE_Facility_DataPad, TRUE
 	return
 
 MossdeepCity_SpaceCenter_1F_EventScript_RocketLaunchCounter::
@@ -430,3 +429,20 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let there be more land!\n"
 	.string "                                          TEAM MAGMA”$"
+
+MossdeepCity_SpaceCenter_1F_Despegues::
+lock
+faceplayer
+msgbox MossdeepCity_SpaceCenter_1F_Despegues_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MossdeepCity_SpaceCenter_1F_Despegues_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+MossdeepCity_SpaceCenter_1F_Despegues_Texto_1:
+	.string "Aún no hemos realizado ningún despegue\n"
+	.string "con éxito, pero…$"
+
+MossdeepCity_SpaceCenter_1F_Despegues_Texto_2:
+	.string "¡esperamos que eso cambie pronto!$"
+
+

@@ -738,3 +738,433 @@ MossdeepCity_Cientificos_Texto_1:
 	.string "público en este momento. DEVON ha\l"
 	.string "organizado un importante evento\l"
 	.string "privado en su interior.$"
+
+MossdeepCity_Devon_Tristana_Move_1:
+walk_up
+walk_up
+walk_up
+step_end
+
+MossdeepCity_Devon_Tristana_Move_1.1:
+walk_up
+walk_up
+walk_left
+walk_up
+step_end
+
+MossdeepCity_Devon_Tristana_Move_1.2:
+walk_slow_down
+step_end
+
+MossdeepCity_Devon_Tristana_Despues_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_1
+waitmovement 0x0
+goto MossdeepCity_Devon_Tristana_Despues
+
+MossdeepCity_Devon_Tristana_Despues_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_1.1
+waitmovement 0x0
+goto MossdeepCity_Devon_Tristana_Despues
+
+MossdeepCity_Devon_Tristana_Move_2:
+emote_exclamation_mark
+delay_16
+face_up
+walk_in_place_down
+step_end
+
+MossdeepCity_Devon_Tristana_Move_3:
+delay_16
+face_left
+delay_16
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+step_end
+
+MossdeepCity_Devon_Tristana_Move_4:
+walk_in_place_down
+step_end
+
+MossdeepCity_Devon_Tristana_Move_5:
+delay_16
+walk_in_place_right
+step_end
+
+MossdeepCity_Devon_Tristana_Move_6:
+walk_up
+walk_up
+face_right
+step_end
+
+MossdeepCity_Devon_Tristana_Move_7:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+MossdeepCity_Devon_Tristana_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+face_left
+step_end
+
+MossdeepCity_Devon_Tristana_Move_9:
+emote_exclamation_mark
+step_end
+
+MossdeepCity_Devon_Tristana_Move_10:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+MossdeepCity_Devon_Tristana_Move_11:
+walk_left
+walk_left
+step_end
+
+MossdeepCity_Devon_Tristana_Despues::
+lock
+playse SE_PIN
+applymovement 19, MossdeepCity_Devon_Tristana_Move_2
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_3
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_4
+waitmovement 0x0
+applymovement 19, MossdeepCity_Devon_Tristana_Move_1.2
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Tristana_Move_7
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_5 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_679
+playse SE_SLIDING_DOOR
+opendoor 64, 15
+waitdooranim
+addobject 25
+applymovement 25, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 64, 15
+waitdooranim
+delay 15
+playse SE_PIN
+delay 15
+applymovement 25, MossdeepCity_Devon_Tristana_Move_8
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Tristana_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PIN
+applymovement 25, MossdeepCity_Devon_Tristana_Move_9
+waitmovement 0x0
+applymovement 25, MossdeepCity_Devon_Tristana_Move_10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Tristana_Move_10
+waitmovement 0x0
+special RemoveCameraObject
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Devon_Tristana_Move_11
+waitmovement 0x0
+special RemoveCameraObject
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_12
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 25, MossdeepCity_Devon_Tristana_Move_9
+waitmovement 0x0
+delay 15
+applymovement 25, MossdeepCity_Devon_Tristana_Move_13
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 25, MossdeepCity_Devon_Tristana_Move_14
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_5
+applymovement 25, MossdeepCity_Devon_Tristana_Move_15
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 25, MossdeepCity_Devon_Tristana_Move_16
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 25, MossdeepCity_Devon_Tristana_Move_17
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 25, MossdeepCity_Devon_Tristana_Move_15
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_19
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_19
+applymovement 25, MossdeepCity_Devon_Tristana_Move_18
+waitmovement 0x0
+removeobject 25
+applymovement 19, MossdeepCity_Devon_Tristana_Move_14
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_16
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_3
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_4
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_20
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_21 MSGBOX_AUTOCLOSE
+delay 25
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_21.1 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 19, MossdeepCity_Devon_Tristana_Move_4
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_22 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_9
+waitmovement 0x0
+delay 15
+applymovement 19, MossdeepCity_Devon_Tristana_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_21
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_24 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Devon_Tristana_Move_16
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 19, MossdeepCity_Devon_Tristana_Move_15
+waitmovement 0x0
+msgbox MossdeepCity_Devon_Tristana_Despues_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_682
+setflag FLAG_HOENN_679
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 19
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setvar VAR_UNUSED_0x40F8, 14
+release
+end
+
+MossdeepCity_Devon_Tristana_Move_21:
+delay_8
+face_down
+step_end
+
+MossdeepCity_Devon_Tristana_Move_20:
+face_right
+step_end
+
+MossdeepCity_Devon_Tristana_Move_19:
+delay_16
+delay_16
+face_down
+step_end
+
+MossdeepCity_Devon_Tristana_Move_18:
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+MossdeepCity_Devon_Tristana_Move_16:
+face_up
+step_end
+
+MossdeepCity_Devon_Tristana_Move_17:
+walk_in_place_up
+step_end
+
+MossdeepCity_Devon_Tristana_Move_15:
+face_left
+step_end
+
+MossdeepCity_Devon_Tristana_Move_14:
+face_down
+step_end
+
+MossdeepCity_Devon_Tristana_Move_13:
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+step_end
+
+MossdeepCity_Devon_Tristana_Move_12:
+walk_right
+step_end
+
+MossdeepCity_Devon_Tristana_Despues_Texto_1:
+	.string "ANDRA: {PLAYER}. ¿Entonces has\n"
+	.string "bajado hasta la CAVERNA ABISAL?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_2:
+	.string "Parece que KYOGRE te ha retrasado un\n"
+	.string "poco, ¿siguen vigentes los POKÉMON\l"
+	.string "SAGRADOS?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_3:
+	.string "Tengo la impresión de que en estado\n"
+	.string "salvaje, son más poderosos que en\l"
+	.string "manos de un ENTRENADOR.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_4:
+	.string "Sea como sea, mira.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_5:
+	.string "DEVON se fue hace un poco. Ahora es\n"
+	.string "cuando te contar…$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_6:
+	.string "TRISTANA: Vaya, vaya. La parejita\n"
+	.string "ROCKET más famosa.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_7:
+	.string "Pensaba que os habíais peleado, ¿ya\n"
+	.string "volvéis a ser amigos?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_8:
+	.string "ANDRA: No te incumben nuestros\n"
+	.string "asuntos.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_9:
+	.string "TRISTANA: Tienes razón. Pero dime,\n"
+	.string "¿encontraste lo que buscabas aquí?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_10:
+	.string "ANDRA: Lo encontré.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_11:
+	.string "TRISTANA: Oh… asombroso…$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_12:
+	.string "Dime, {PLAYER}. ¿Eres consciente de\n"
+	.string "que tu querida ANDRA es ahora más\l"
+	.string "fuerte que tú?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_13:
+	.string "Debe ser duro de asumir para alguien\n"
+	.string "que lleva tanto tiempo en la cima. Ver\l"
+	.string "cómo quedas relegado… cómo bajas del\l"
+	.string "trono para no volver… ¿no?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_14:
+	.string "ANDRA: ¿Trono, cima? Deja de decir\n"
+	.string "estupideces. En un combate , los\l"
+	.string "números nunca son redondos.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_15:
+	.string "TRISTANA: No, pero tampoco cuadrados.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_16:
+	.string "¡Bah! ¡¿Qué importa?!\n"
+	.string "Los planes de DEVON van más allá\l"
+	.string "de lo que podéis lograr por vuestra\l"
+	.string "cuenta.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_17:
+	.string "Estéis aquí por coincidencia o no, os lo\n"
+	.string "advierto: si intentáis ir tras DEVON,\l"
+	.string "esta vez usaremos toda nuestra fuerza\l"
+	.string "para aplastaros.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_18:
+	.string "ANDRA: Está claro, {PLAYER}. Con esa\n"
+	.string "actitud acaba de confirmarnos que van\l"
+	.string "tras algo serio, tal y como me dijiste.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_19:
+	.string "¿Sabes una cosa? Ir tras el misterio de\n"
+	.string "los REGIS fue una de las mejores\l"
+	.string "experiencias que tuve, cuando era\l"
+	.string "ADMIN.JEFE de HOENN.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_20:
+	.string "Te envié clones de ellos cuando tú aún\n"
+	.string "explorabas los misterios de JOHTO,\l"
+	.string "¿recuerdas?$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_21:
+	.string "No fue fácil, aparte de las 3 ruinas que\n"
+	.string "todos conocen… hay otro lugar… mucho\l"
+	.string "más oculto.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_21.1:
+	.string "… …$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_22:
+	.string "Te espero en PUEBLO OROMAR, {PLAYER}.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_23:
+	.string "Para llegar, debes cruzar todo el mar\n"
+	.string "del sur y después seguir recto en\l"
+	.string "dirección oeste. No tiene pérdida.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_24:
+	.string "Si es donde creo, DEVON tardará en\n"
+	.string "llegar.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_25:
+	.string "En PUEBLO OROMAR podremos\n"
+	.string "organizarnos, te espero dentro de su\l"
+	.string "CENTRO PKMN.$"
+
+MossdeepCity_Devon_Tristana_Despues_Texto_26:
+	.string "Ahí trazaremos el plan de acción y te\n"
+	.string "daré los detalles. No tardes.$"

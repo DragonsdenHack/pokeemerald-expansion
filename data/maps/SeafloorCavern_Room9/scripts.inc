@@ -42,9 +42,9 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	msgbox SeafloorCavern_Room9_Text_RedOrbShinesByItself, MSGBOX_DEFAULT
 	special WaitWeather
 	waitstate
-	setvar VAR_RESULT, 1
+	setvar VAR_RESULT, 2
 	playse SE_M_DETECT
-	dofieldeffectsparkle 16, 42, 0
+	dofieldeffectsparkle 17, 42, 0
 	waitfieldeffect FLDEFF_SPARKLE
 	closemessage
 	setvar VAR_RESULT, 0
@@ -324,3 +324,85 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"
+
+
+MagmaHideout_4F_Encuentro_Kyogre::
+lock
+clearflag FLAG_HOENN_680
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.10
+waitmovement 0x0
+msgbox MagmaHideout_4F_Encuentro_Kyogre_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 16, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 2
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.1
+waitmovement 0x0
+special RemoveCameraObject
+delay 75
+addobject 1
+waitfanfare
+removeobject 7
+setflag FLAG_HOENN_56
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
+goto MagmaHideout_4F_Encuentro_Kyogre_2
+delay 150
+removeobject LOCALID_KYOGRE_SLEEPING
+addobject LOCALID_KYOGRE
+waitstate
+delay 60
+applymovement 1, MagmaHideout_4F_Movement_GroudonApproach
+waitmovement 0
+special FadeOutOrbEffect
+waitstate
+setvar VAR_0x8004, 1  @ vertical pan
+setvar VAR_0x8005, 1  @ horizontal pan
+setvar VAR_0x8006, 8  @ num shakes
+setvar VAR_0x8007, 5  @ shake delay
+special ShakeCamera
+waitstate
+applymovement 1, MagmaHideout_4F_Movement_GroudonExit
+waitmovement 0
+
+MagmaHideout_4F_Encuentro_Kyogre_2::
+special SpawnCameraObject
+applymovement 1, TerraCave_End_Movement_GroudonApproach
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.2
+waitmovement 0x0
+special RemoveCameraObject
+delay 200
+trainerbattle_no_intro TRAINER_TRAINER_669, NavelRock_Bottom_Combate_Lugia_Texto_2
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 1
+setflag FLAG_HOENN_680
+playse SE_FAINT
+waitse
+msgbox MagmaHideout_4F_Encuentro_Kyogre_Texto_2 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_681
+setvar VAR_UNUSED_0x40F8, 13
+release
+end
+
+MagmaHideout_4F_Encuentro_Kyogre_Texto_2:
+	.string "(La batalla con KYOGRE-P ha sido\n"
+	.string "registrada en la base de datos del TEAM\l"
+	.string "ROCKET).$"
+
+MagmaHideout_4F_Encuentro_Kyogre_Texto_1:
+	.string "{PLAYER} activó la ESFERA AZUL.$"

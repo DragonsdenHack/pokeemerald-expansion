@@ -2358,6 +2358,7 @@ walk_slow_up
 walk_slow_up
 walk_slow_up
 walk_slow_up
+walk_slow_up
 step_end
 
 Tercera_Reunion_Move_1.1:
@@ -2365,6 +2366,47 @@ walk_slow_up
 walk_slow_up
 walk_slow_up
 walk_slow_up
+step_end
+
+Tercera_Reunion_Move_2:
+face_up
+step_end
+
+Tercera_Reunion_Move_3:
+walk_slow_left
+step_end
+
+Tercera_Reunion_Move_4:
+walk_in_place_up
+step_end
+
+Tercera_Reunion_Move_5:
+face_down
+step_end
+
+Tercera_Reunion_Move_6:
+walk_slow_right
+delay_16
+walk_in_place_down
+step_end
+
+Tercera_Reunion_Move_7:
+face_left
+step_end
+
+Tercera_Reunion_Move_8:
+walk_in_place_right
+step_end
+
+Tercera_Reunion_Move_9:
+face_right
+step_end
+
+Tercera_Reunion_Move_10:
+walk_slow_right
+step_end
+
+Tercera_Reunion_Move_11:
 walk_slow_up
 step_end
 
@@ -2395,39 +2437,87 @@ waitmovement 0x0
 special RemoveCameraObject
 clearflag FLAG_RECEIVED_SHOAL_SHELL_4
 addobject 17
+removeobject 3
+addobject 5
+addobject 18
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Tercera_Reunion_Move_1.1
 waitmovement 0x0
 special RemoveCameraObject
+applymovement 2, Tercera_Reunion_Move_2
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_3
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, Tercera_Reunion_Move_4
+applymovement 2, Tercera_Reunion_Move_5
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_6
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_7
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, Tercera_Reunion_Move_8
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, Tercera_Reunion_Move_7
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 17, Tercera_Reunion_Move_9
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_10
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_5
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_3
+applymovement 6, Tercera_Reunion_Move_8
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_5
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, Tercera_Reunion_Move_2
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 2, Tercera_Reunion_Move_11
+waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_20 MSGBOX_AUTOCLOSE
+delay 30
 msgbox GoldenrodRadioTowerP5_Tercera_Reunion_Texto_21 MSGBOX_AUTOCLOSE
+delay 30
 setvar VAR_UNUSED_0x40F8, 12
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+setflag FLAG_RECEIVED_SHOAL_SHELL_4
+warpsilent MAP_SEAFLOOR_CAVERN_ROOM8, 5, 3
+delay 100
 release
 end
-
+ 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1:
 	.string "????: …Y hemos llegado más lejos de\n"
 	.string "lo que cualquiera de nosotros pudiera\l"
-	.string "imaginar. De eso no tengo duda alguna.$"
+	.string "imaginar. De eso no me cabe duda.$"
 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2:
 	.string "GIOVANNI: Tal y como se ha expuesto: el\n"

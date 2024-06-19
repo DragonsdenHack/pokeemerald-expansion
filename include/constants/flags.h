@@ -1702,8 +1702,8 @@
 #define FLAG_HOENN_52 (TRAINER_FLAGS_END + 52) // DEVON RUTA 120
 #define FLAG_HOENN_53 (TRAINER_FLAGS_END + 53) // ANDRA MONTE PIRICO
 #define FLAG_HOENN_54 (TRAINER_FLAGS_END + 54) // AQUILES Y TOLO CIUDAD CALAGUA
-#define FLAG_HOENN_55 (TRAINER_FLAGS_END + 55) 
-#define FLAG_HOENN_56 (TRAINER_FLAGS_END + 56)
+#define FLAG_HOENN_55 (TRAINER_FLAGS_END + 55) // ????
+#define FLAG_HOENN_56 (TRAINER_FLAGS_END + 56) // KYOGRE ASLEEP SEAFLOOR 9
 #define FLAG_HOENN_57 (TRAINER_FLAGS_END + 57)
 #define FLAG_HOENN_58 (TRAINER_FLAGS_END + 58)
 #define FLAG_HOENN_59 (TRAINER_FLAGS_END + 59)
@@ -2326,8 +2326,8 @@
 #define FLAG_HOENN_676 (TRAINER_FLAGS_END + 676) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_677 (TRAINER_FLAGS_END + 677) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_678 (TRAINER_FLAGS_END + 678) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_679 (TRAINER_FLAGS_END + 679) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_679 (TRAINER_FLAGS_END + 679) // TRISTANA CALAGUA // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680) // KYOGRE NORMAL SEAFLOOR 9 // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_681 (TRAINER_FLAGS_END + 681) // DEVON CIUDAD ALGARIA MISION 8 // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_682 (TRAINER_FLAGS_END + 682) // ANDRA CIUDAD ALGARIA MISION 8 // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683) // GIOVANNI AVISO FIN TRAYECTO MISION 6 // En modo Setflag por defecto desde fin DLC
