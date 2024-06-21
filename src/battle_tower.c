@@ -3080,6 +3080,11 @@ static void FillPartnerParty(u16 trainerId)
             case F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM:
             {
                 const struct TrainerMonItemCustomMoves *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.ItemCustomMoves;
+				
+				do
+				{
+					j = Random32();
+				} while (partyData[i].nature != GetNatureFromPersonality(j));
 
                 CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
 
