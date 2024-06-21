@@ -1,2 +1,22 @@
 Cave_Regigigas_S1_MapScripts::
 	.byte 0
+
+Cave_Regigigas_EventScript_Devon_1::
+	trainerbattle_single TRAINER_TRAINER_670, Cave_Regigigas_Devon_1_Text_PoliciaIntro, Cave_Regigigas_Devon_1_Text_PoliciaDefeat
+	msgbox Cave_Regigigas_Devon_1_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Cave_Regigigas_EventScript_Devon_2::
+	trainerbattle_single TRAINER_TRAINER_671, Cave_Regigigas_Devon_2_Text_PoliciaIntro, Cave_Regigigas_Devon_2_Text_PoliciaDefeat
+	msgbox Cave_Regigigas_Devon_2_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Cave_Regigigas_EventScript_Devon_3::
+	trainerbattle_single TRAINER_TRAINER_672, Cave_Regigigas_Devon_3_Text_PoliciaIntro, Cave_Regigigas_Devon_3_Text_PoliciaDefeat
+	msgbox Cave_Regigigas_Devon_3_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Cave_Regigigas_EventScript_Devon_4::
+	trainerbattle_single TRAINER_TRAINER_673, Cave_Regigigas_Devon_4_Text_PoliciaIntro, Cave_Regigigas_Devon_4_Text_PoliciaDefeat
+	msgbox Cave_Regigigas_Devon_4_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end

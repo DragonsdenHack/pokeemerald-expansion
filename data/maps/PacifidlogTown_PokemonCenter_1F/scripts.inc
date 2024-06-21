@@ -63,17 +63,81 @@ msgbox PacifidlogTown_PokemonCenter_Andra_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 6, PacifidlogTown_PokemonCenter_Move_2
 waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_PokemonCenter_Move_4
+waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_PokemonCenter_Move_6
+applymovement 6, PacifidlogTown_PokemonCenter_Move_5
+waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_PokemonCenter_Move_4
+waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_PokemonCenter_Move_10
+applymovement 6, PacifidlogTown_PokemonCenter_Move_7
+waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_PokemonCenter_Move_8
+waitmovement 0x0
 msgbox PacifidlogTown_PokemonCenter_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_PokemonCenter_Move_9
+waitmovement 0x0
+playse SE_EXIT
+removeobject 6
 setflag FLAG_HOENN_57
+clearflag FLAG_HOENN_678
 setvar VAR_UNUSED_0x40F8, 15
 release
 end
+
+PacifidlogTown_PokemonCenter_Move_10:
+delay_16
+delay_16
+face_left
+step_end
+
+PacifidlogTown_PokemonCenter_Move_9:
+walk_left
+walk_left
+face_down
+step_end
+
+PacifidlogTown_PokemonCenter_Move_8:
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+face_left
+delay_16
+delay_16
+walk_in_place_left
+delay_16
+delay_16
+step_end
+
+PacifidlogTown_PokemonCenter_Move_7:
+walk_slow_left
+delay_16
+walk_slow_left
+delay_16
+step_end
+
+PacifidlogTown_PokemonCenter_Move_6:
+delay_16
+delay_16
+face_down
+step_end
+
+PacifidlogTown_PokemonCenter_Move_5:
+walk_left
+walk_left
+face_up
+step_end
 
 PacifidlogTown_PokemonCenter_Move_4:
 face_left
@@ -114,15 +178,15 @@ PacifidlogTown_PokemonCenter_Andra_Texto_4:
 	.string "puede bucear.$"
 
 PacifidlogTown_PokemonCenter_Andra_Texto_5:
-	.string "Debajo de ese lugar está… el secreto de\n"
-	.string "los REGIS. Ese lugar está conectado con\l"
-	.string "las ruinas de los 3 REGIS de HOENN o…\l"
-	.string "más bien…$"
+	.string "En el fondo de ese lugar está… la CÁMARA\n"
+	.string "SELLADA, que guarda el secreto de los\l"
+	.string "REGIS. Conecta con las ruinas de los 3\l"
+	.string "REGIS de HOENN o… más bien…$"
 
 PacifidlogTown_PokemonCenter_Andra_Texto_6:
 	.string "Son esos 3 lugares los que conectan con\n"
-	.string "la cámara subacuática del oeste, ya que\l"
-	.string "es esta la que permite abrirlos.$"
+	.string "la CÁMARA SELLADA, ya que es esta la\l"
+	.string "que permite abrirlos.$"
 
 PacifidlogTown_PokemonCenter_Andra_Texto_7:
 	.string "Lo que quiero decir es que…$"

@@ -18135,6 +18135,56 @@ VerdanturfTown_Text_QuintoPoliciaPostBattle:
 	.string "Nadie va a interferir en este negocio,\n"
 	.string "quieras o no.$"
 
+Cave_Regigigas_Devon_1_Text_PoliciaIntro:
+	.string "Estamos en el último rincón de HOENN, ¿y\n"
+	.string "seguís apareciendo? ¡No tenéis perdón!$"
+
+Cave_Regigigas_Devon_1_Text_PoliciaDefeat:
+	.string "DEVON nunca caerá.$"
+
+Cave_Regigigas_Devon_1_Text_PoliciaPostBattle:
+	.string "El TEAM ROCKET se supone que solo opera\n"
+	.string "en KANTO y JOHTO, ¡no podéis abarcarlo\l"
+	.string "todo!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaIntro:
+	.string "La CÁMARA SELLADA al fin ha sido\n"
+	.string "abierta, ¡la grandeza nos espera!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaDefeat:
+	.string "¡Perdóname DEVON!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaPostBattle:
+	.string "Sigues sin entender la grandeza de\n"
+	.string "nuestros planes, y así debe seguir\l"
+	.string "siendo.$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaIntro:
+	.string "Ya nos advirtieron de que podían\n"
+	.string "colarse algunas ratas en esta\l"
+	.string "expedición. DEVON es precavida, por eso\l"
+	.string "estamos aquí.$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaDefeat:
+	.string "¡Solo eres una variable más!$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaPostBattle:
+	.string "Es imposible que llegues a nuestros\n"
+	.string "superiores facilmente, antes tendrás\l"
+	.string "que pasar por encima de nosotros.$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaIntro:
+	.string "Pareces muy perdido. ¿Me equivoco,\n"
+	.string "espía ROCKET?$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaDefeat:
+	.string "Yo estoy aún más perdido…$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaPostBattle:
+	.string "El interior de CÁMARA SELLADA es\n"
+	.string "inmenso. Muchas zonas, como esta, no\l"
+	.string "llevan a nada.$"
+
 
 
 

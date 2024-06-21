@@ -2901,3 +2901,13 @@ Text_EVChecker_3:
 	.include "data/maps/Mosdeep_Jirachi/scripts.inc"
 
 	.include "data/maps/Arrecipolis_Antigua/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S4/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5_2/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S6/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S7/scripts.inc"

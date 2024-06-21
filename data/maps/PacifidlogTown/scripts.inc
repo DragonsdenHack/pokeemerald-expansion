@@ -1,6 +1,7 @@
 PacifidlogTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PacifidlogTown_OnFrame
 	.byte 0
 
 PacifidlogTown_OnTransition:
@@ -10,6 +11,10 @@ PacifidlogTown_OnTransition:
 PacifidlogTown_OnResume:
 	setstepcallback STEP_CB_PACIFIDLOG_BRIDGE
 	end
+
+PacifidlogTown_OnFrame:
+map_script_2 VAR_UNUSED_0x40F8, 15, PacifidlogTown_Andra
+	.2byte 0
 
 PacifidlogTown_EventScript_NinjaBoy::
 	msgbox PacifidlogTown_Text_NeatHousesOnWater, MSGBOX_NPC
@@ -96,4 +101,76 @@ PacifidlogTown_Valente_Texto_1:
 	.string "133. En ese punto, colóquese unos 4\l"
 	.string "pasos por encima del claro de tierra en\l"
 	.string "el que se halle.$"
+
+PacifidlogTown_Andra_Move_1:
+face_right
+step_end
+
+PacifidlogTown_Andra_Move_2:
+walk_in_place_right
+step_end
+
+PacifidlogTown_Andra_Move_3:
+face_left
+step_end
+
+PacifidlogTown_Andra_Move_4:
+walk_in_place_left
+step_end
+
+PacifidlogTown_Andra::
+lock
+delay 15
+msgbox PacifidlogTown_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_Andra_Move_1
+waitmovement 0x0
+msgbox PacifidlogTown_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_Andra_Move_2
+waitmovement 0x0
+msgbox PacifidlogTown_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_Andra_Move_3
+waitmovement 0x0
+msgbox PacifidlogTown_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PacifidlogTown_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, PacifidlogTown_Andra_Move_4
+waitmovement 0x0
+msgbox PacifidlogTown_Andra_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_678
+fadescreen 1
+delay 20
+removeobject 6
+playmoncry SPECIES_MILOTIC, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_DIVE
+waitse
+delay 20
+fadescreen 0
+setvar VAR_UNUSED_0x40F8, 16
+release
+end
+
+PacifidlogTown_Andra_Texto_1:
+	.string "Pues… parece que está despejado.$"
+
+PacifidlogTown_Andra_Texto_2:
+	.string "Seguramente toda DEVON esté ya en la\n"
+	.string "CÁMARA SELLADA.$"
+
+PacifidlogTown_Andra_Texto_3:
+	.string "Llegó la hora de la verdad, {PLAYER}.$"
+
+PacifidlogTown_Andra_Texto_4:
+	.string "Sea lo que sea que intenten, nosotros\n"
+	.string "apareceremos en el momento idóneo.$"
+
+PacifidlogTown_Andra_Texto_5:
+	.string "Nuestra llegada les pillará por\n"
+	.string "sorpresa: muy pocos conocen ese\l"
+	.string "lugar.$"
+
+PacifidlogTown_Andra_Texto_6:
+	.string "Allí podremos demostrarle a TRISTANA\n"
+	.string "que se equivoca. Espero que tu equipo\l"
+	.string "esté preparado.$"
 

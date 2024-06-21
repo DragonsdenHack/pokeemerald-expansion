@@ -560,8 +560,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr2",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131/border.bin",
       "blockdata_filepath": "data/layouts/Route131/map.bin"
     },
@@ -14709,7 +14709,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_NavelRock",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/Cave_Regigigas_S1/border.bin",
       "blockdata_filepath": "data/layouts/Cave_Regigigas_S1/map.bin"
     },
@@ -14880,6 +14880,66 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Arrecipolis_Antigua/border.bin",
       "blockdata_filepath": "data/layouts/Arrecipolis_Antigua/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S4",
+      "name": "Cave_Regigigas_S4_Layout",
+      "width": 32,
+      "height": 51,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S4/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S4/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S5",
+      "name": "Cave_Regigigas_S5_Layout",
+      "width": 35,
+      "height": 60,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S5/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S5/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S5_2",
+      "name": "Cave_Regigigas_S5_2_Layout",
+      "width": 45,
+      "height": 29,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S5_2/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S5_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S6",
+      "name": "Cave_Regigigas_S6_Layout",
+      "width": 20,
+      "height": 25,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S6/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S6/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S7",
+      "name": "Cave_Regigigas_S7_Layout",
+      "width": 36,
+      "height": 64,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S7/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S7/map.bin"
     }
   ]
 }
