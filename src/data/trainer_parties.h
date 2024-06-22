@@ -38652,71 +38652,61 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER669[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER670[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 101,
+    .species = SPECIES_ELECTRODE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 103,
+    .species = SPECIES_RELICANTH,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 105,
+    .species = SPECIES_CLAYDOL,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER671[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_AGGRON,
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 102,
+    .species = SPECIES_CRADILY,
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 102,
+    .species = SPECIES_ARMALDO,
+    },
+    {
+    .iv = 255,
+    .lvl = 103,
+    .species = SPECIES_WAILORD,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER672[] = {
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+     {
+    .iv = 0,
+    .lvl = 103,
+    .species = SPECIES_SOLROCK,
     },
     {
     .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 103,
+    .species = SPECIES_WOBBUFFET,
     },
     {
     .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 0,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .lvl = 103,
+    .species = SPECIES_TROPIUS,
     }
     
 };
@@ -38724,37 +38714,71 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER672[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER673[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 106,
+    .species = SPECIES_SALAMENCE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 106,
+    .species = SPECIES_MILOTIC,
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER674[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER674[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 116,
+    .species = SPECIES_REGIROCK,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {50, 252, 50, 50, 50, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_STONE_EDGE, MOVE_HEAVY_SLAM, MOVE_STEALTH_ROCK, MOVE_DRAIN_PUNCH}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 118,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_BLAZIKENITE,
+    .evs = {80, 252, 80, 252, 80, 80},
+    .nature = NATURE_JOLLY,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_PROTECT, MOVE_STONE_EDGE}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 118,
+    .species = SPECIES_LATIAS,
+    .heldItem = ITEM_DRAGON_GEM,
+    .evs = {50, 50, 50, 252, 252, 50},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_PSYSHOCK, MOVE_SURF, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 255,
+    .lvl = 119,
+    .species = SPECIES_ARMALDO,
+    .heldItem = ITEM_LIFE_ORB,
+    .evs = {50, 252, 50, 252, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FIRST_IMPRESSION, MOVE_STONE_EDGE, MOVE_AQUA_JET, MOVE_SUPERPOWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 117,
+    .species = SPECIES_METAGROSS,
+    .heldItem = ITEM_AIR_BALLOON,
+    .evs = {50, 252, 50, 252, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_AGILITY, MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
+    },
+    {
+    .iv = 255,
+    .lvl = 120,
+    .species = SPECIES_GROUDON_PRIMAL,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {90, 252, 90, 252, 90, 90},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_PRECIPICE_BLADES, MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ROCK_POLISH}
     }
     
 };
