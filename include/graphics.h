@@ -8329,6 +8329,7 @@ extern const u32 gTrainerBackPicPalette_Ejecutivo[];
 extern const u32 gTrainerBackPicPalette_Admin[];
 extern const u32 gTrainerBackPicPalette_AdminJefe[];
 extern const u32 gTrainerBackPicPalette_AdminJefe2[];
+extern const u32 gTrainerBackPicPalette_AndraAdminJefe[];
 
 // pokeblock
 extern const u32 gMenuPokeblock_Gfx[];

@@ -759,3 +759,4 @@ const u32 gTrainerBackPicPalette_Ejecutivo[] = INCBIN_U32("graphics/trainers/pal
 const u32 gTrainerBackPicPalette_Admin[] = INCBIN_U32("graphics/trainers/palettes/backsprite_admin.gbapal.lz");
 const u32 gTrainerBackPicPalette_AdminJefe[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe.gbapal.lz");
 const u32 gTrainerBackPicPalette_AdminJefe2[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe2.gbapal.lz");
+const u32 gTrainerBackPicPalette_AndraAdminJefe[] = INCBIN_U32("graphics/trainers/palettes/backsprite_andraadminjefe.gbapal.lz");
