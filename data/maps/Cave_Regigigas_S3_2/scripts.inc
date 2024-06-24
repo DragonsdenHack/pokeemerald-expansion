@@ -46,8 +46,8 @@ end
 
 Cave_Regigigas_S3_2_Ruby_Move_7:
 face_right
-delay 16
-delay 16
+delay_16
+delay_16
 walk_in_place_right
 delay_16
 step_end
