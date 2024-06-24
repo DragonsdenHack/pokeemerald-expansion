@@ -1033,7 +1033,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_MILOTIC_MEGA] = _("Milotic"),
     [SPECIES_PORYGON_Z_MEGA] = _("Porygon-Z"),
     [SPECIES_COFAGRIGUS_MEGA] = _("Cofagrigus"),
-    [SPECIES_DURALUDON_MEGA] = _("Duraludon"),
+    [SPECIES_DURALUDON_MEGA] = _("Archaludon"),
     [SPECIES_TOXTRICITY_MEGA] = _("Toxtricity"),
 
     // Special Mega + Primals
@@ -1427,7 +1427,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_BRUTE_BONNET] = _("BruteBonne"),
     [SPECIES_FLUTTER_MANE] = _("FlutterMan"),
     [SPECIES_SLITHER_WING] = _("SlitherWin"),
-    [SPECIES_SANDY_SHOCKS] = _("SandyShock"),
+    [SPECIES_SANDY_SHOCKS] = _("Pelarena"),
     [SPECIES_IRON_TREADS] = _("IronTreads"),
     [SPECIES_IRON_BUNDLE] = _("IronBundle"),
     [SPECIES_IRON_HANDS] = _("IronHands"),
@@ -1438,7 +1438,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CHIEN_PAO] = _("ChienPao"),
     [SPECIES_TING_LU] = _("TingLu"),
     [SPECIES_CHI_YU] = _("ChiYu"),
-    [SPECIES_ROARING_MOON] = _("RoaringMoo"),
+    [SPECIES_ROARING_MOON] = _("Bramaluna"),
     [SPECIES_IRON_VALIANT] = _("IronValian"),
     [SPECIES_KORAIDON] = _("Koraidon"),
     [SPECIES_MIRAIDON] = _("Miraidon"),

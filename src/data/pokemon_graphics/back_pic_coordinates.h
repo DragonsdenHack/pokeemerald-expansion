@@ -6862,7 +6862,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_SANDY_SHOCKS] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 7,
     },
     [SPECIES_IRON_TREADS] =
     {
@@ -6917,7 +6917,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ROARING_MOON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 10,
     },
     [SPECIES_IRON_VALIANT] =
     {
