@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cave_Regigigas_EventScript_Devon_7",
+      "flag": "FLAG_HOENN_59"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -128,8 +128,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cave_Regigigas_EventScript_Devon_6",
+      "flag": "FLAG_HOENN_59"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
@@ -141,8 +141,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cave_Regigigas_EventScript_Devon_5",
+      "flag": "FLAG_HOENN_59"
     }
   ],
   "warp_events": [
@@ -169,7 +169,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "17",
-      "script": "NULL"
+      "script": "Cave_Regigigas_S4_Valente"
     }
   ],
   "bg_events": [

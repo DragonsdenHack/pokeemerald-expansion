@@ -14921,7 +14921,7 @@
       "id": "LAYOUT_CAVE_REGIGIGAS_S6",
       "name": "Cave_Regigigas_S6_Layout",
       "width": 20,
-      "height": 25,
+      "height": 26,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
@@ -14940,6 +14940,54 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Cave_Regigigas_S7/border.bin",
       "blockdata_filepath": "data/layouts/Cave_Regigigas_S7/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_REGIGIGAS_S8",
+      "name": "Cave_Regigigas_S8_Layout",
+      "width": 30,
+      "height": 70,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Cave_Regigigas_S8/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_Regigigas_S8/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S1",
+      "name": "PalletTown_Laboratorio_Secreto_S1_Layout",
+      "width": 56,
+      "height": 26,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S1/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "name": "PalletTown_Laboratorio_Secreto_S2_Layout",
+      "width": 55,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S2/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S2/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S3",
+      "name": "PalletTown_Laboratorio_Secreto_S3_Layout",
+      "width": 55,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/map.bin"
     }
   ]
 }

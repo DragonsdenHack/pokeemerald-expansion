@@ -18185,6 +18185,123 @@ Cave_Regigigas_Devon_4_Text_PoliciaPostBattle:
 	.string "inmenso. Muchas zonas, como esta, no\l"
 	.string "llevan a nada.$"
 
+Cave_Regigigas_Devon_5_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_5_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_5_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaPostBattle:
+	.string "…$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaIntro:
+	.string "…$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaDefeat:
+	.string "…$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaPostBattle:
+	.string "…$"
+
 
 
 

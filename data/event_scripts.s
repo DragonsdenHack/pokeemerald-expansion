@@ -2911,3 +2911,11 @@ Text_EVChecker_3:
 	.include "data/maps/Cave_Regigigas_S6/scripts.inc"
 
 	.include "data/maps/Cave_Regigigas_S7/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S8/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S1/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S2/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S3/scripts.inc"
