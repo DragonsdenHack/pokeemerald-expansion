@@ -484,7 +484,9 @@
     "NeoPalletTown",
     "PalletTown_Laboratorio_Secreto_S1",
     "PalletTown_Laboratorio_Secreto_S2",
-    "PalletTown_Laboratorio_Secreto_S3"
+    "PalletTown_Laboratorio_Secreto_S3",
+    "PalletTown_Laboratorio_Secreto_S4",
+    "PalletTown_Laboratorio_Secreto_S5"
   ],
   "gMapGroup_IndoorViridianCity": [
     "ViridianCity_House1",

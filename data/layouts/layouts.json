@@ -14988,6 +14988,30 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S4",
+      "name": "PalletTown_Laboratorio_Secreto_S4_Layout",
+      "width": 24,
+      "height": 19,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S4/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S4/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S5",
+      "name": "PalletTown_Laboratorio_Secreto_S5_Layout",
+      "width": 40,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/map.bin"
     }
   ]
 }

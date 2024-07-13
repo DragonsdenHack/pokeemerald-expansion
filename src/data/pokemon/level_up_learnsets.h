@@ -15,6 +15,8 @@ static const struct LevelUpMove sBulbasaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE(31, MOVE_WORRY_SEED),
     LEVEL_UP_MOVE(33, MOVE_SYNTHESIS),
     LEVEL_UP_MOVE(37, MOVE_SEED_BOMB),
+    LEVEL_UP_MOVE(115, MOVE_STRENGTH_SAP),
+    LEVEL_UP_MOVE(125, MOVE_SAPPY_SEED),
     LEVEL_UP_END
 };
 
@@ -35,6 +37,8 @@ static const struct LevelUpMove sIvysaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_WORRY_SEED),
     LEVEL_UP_MOVE(39, MOVE_SYNTHESIS),
     LEVEL_UP_MOVE(44, MOVE_SOLAR_BEAM),
+    LEVEL_UP_MOVE(115, MOVE_STRENGTH_SAP),
+    LEVEL_UP_MOVE(125, MOVE_SAPPY_SEED),
     LEVEL_UP_END
 };
 
@@ -60,6 +64,8 @@ static const struct LevelUpMove sVenusaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE(53, MOVE_SOLAR_BEAM),
     LEVEL_UP_MOVE(70, MOVE_EARTH_POWER),
     LEVEL_UP_MOVE(101, MOVE_FRENZY_PLANT),
+    LEVEL_UP_MOVE(115, MOVE_STRENGTH_SAP),
+    LEVEL_UP_MOVE(125, MOVE_SAPPY_SEED),
     LEVEL_UP_END
 };
 
@@ -76,6 +82,7 @@ static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_FLAMETHROWER),
     LEVEL_UP_MOVE(43, MOVE_FIRE_SPIN),
     LEVEL_UP_MOVE(46, MOVE_INFERNO),
+    LEVEL_UP_MOVE(115, MOVE_NASTY_PLOT),
     LEVEL_UP_END
 };
 

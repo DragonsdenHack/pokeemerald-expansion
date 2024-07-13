@@ -4,8 +4,20 @@ Cave_Regigigas_S4_MapScripts::
 
 Cave_Regigigas_S4_Valente::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S4_Valente_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 3, Cave_Regigigas_S4_Valente_Move_2
+waitmovement 0x0
+delay 10
 msgbox Cave_Regigigas_S4_Valente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S4_Valente_Move_3
+waitmovement 0x0
+applymovement 3, Cave_Regigigas_S4_Valente_Move_4
+waitmovement 0x0
 msgbox Cave_Regigigas_S4_Valente_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S4_Valente_Move_5
+waitmovement 0x0
 msgbox Cave_Regigigas_S4_Valente_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S4_Valente_Texto_4 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S4_Valente_Texto_5 MSGBOX_AUTOCLOSE
@@ -37,8 +49,36 @@ msgbox Cave_Regigigas_S4_Valente_Texto_30 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S4_Valente_Texto_31 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S4_Valente_Texto_32 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S4_Valente_Texto_33 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 18
 release
 end
+
+Cave_Regigigas_S4_Valente_Move_5:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Cave_Regigigas_S4_Valente_Move_4:
+walk_in_place_down
+step_end
+
+Cave_Regigigas_S4_Valente_Move_3:
+walk_slow_up
+step_end
+
+Cave_Regigigas_S4_Valente_Move_2:
+emote_exclamation_mark
+step_end
+
+Cave_Regigigas_S4_Valente_Move_1:
+walk_in_place_up
+step_end
 
 Cave_Regigigas_S4_Valente_Texto_1:
 	.string "ANDRA: ¡{PLAYER}!$"
@@ -47,8 +87,8 @@ Cave_Regigigas_S4_Valente_Texto_2:
 	.string "Adelántate, esto no es nada para mí.$"
 
 Cave_Regigigas_S4_Valente_Texto_3:
-	.string "????: Parece que esta expedición trae\n"
-	.string "sorpresas inesperadas.$"
+	.string "????: Parece que esta expedición\n"
+	.string "trae sorpresas inesperadas.$"
 
 Cave_Regigigas_S4_Valente_Texto_4:
 	.string "VALENTE: ¡Ja, ja, ja, ja! ¡Esto promete!$"
