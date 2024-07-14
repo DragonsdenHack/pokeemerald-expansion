@@ -10952,4 +10952,26 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+	[NATIONAL_DEX_ARMALDO_PRIMAL] =
+	{
+		.categoryName=_("ARMADURA"),
+        .height = 15,
+        .weight = 682,
+        .description = gArmaldoPrimalPokedexText,
+        .pokemonScale = 312,
+        .pokemonOffset = 3,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+	[NATIONAL_DEX_RELICANTH_PRIMAL] =
+	{
+		.categoryName=_("LONGEVO"),
+		.height = 10,
+		.weight = 234,
+		.description = gRelicanthPrimalPokedexText,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+    },
 };

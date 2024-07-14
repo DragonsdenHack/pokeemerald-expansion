@@ -697,6 +697,10 @@ const u32 gTrainerFrontPic_Rayquaza[] = INCBIN_U32("graphics/trainers/front_pics
 
 const u32 gTrainerFrontPic_Sachiko[] = INCBIN_U32("graphics/trainers/front_pics/sachiko_front_pic.4bpp.lz");
 
+const u32 gTrainerFrontPic_Tristana[] = INCBIN_U32("graphics/trainers/front_pics/tristana_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/front.4bpp.lz");
+
 const u32 gTrainerPalette_Devon1[] = INCBIN_U32("graphics/trainers/palettes/devon1.gbapal.lz");
 const u32 gTrainerPalette_Devon2[] = INCBIN_U32("graphics/trainers/palettes/devon2.gbapal.lz");
 const u32 gTrainerPalette_Devon3[] = INCBIN_U32("graphics/trainers/palettes/devon3.gbapal.lz");
@@ -719,6 +723,10 @@ const u32 gTrainerPalette_Groudon[] = INCBIN_U32("graphics/trainers/palettes/gro
 const u32 gTrainerPalette_Rayquaza[] = INCBIN_U32("graphics/trainers/palettes/rayquaza.gbapal.lz");
 
 const u32 gTrainerPalette_Sachiko[] = INCBIN_U32("graphics/trainers/palettes/sachiko.gbapal.lz");
+
+const u32 gTrainerPalette_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/normal.gbapal.lz");
+
+const u32 gTrainerPalette_Tristana[] = INCBIN_U32("graphics/trainers/palettes/tristana.gbapal.lz");
 ///////////////////////
 
 const u32 gTrainerFrontPic_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_player_front_pic.4bpp.lz");

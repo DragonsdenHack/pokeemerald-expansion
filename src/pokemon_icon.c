@@ -1415,6 +1415,8 @@ const u8 *const gMonIconTable[] =
     [SPECIES_WARTILLERY] = gMonIcon_Wartillery,
     [SPECIES_QWOLTFISH] = gMonIcon_Qwoltfish,
     [SPECIES_GUARDIA] = gMonIcon_Guardia,
+	[SPECIES_ARMALDO_PRIMAL] = gMonIcon_ArmaldoPrimal,
+	[SPECIES_RELICANTH_PRIMAL] = gMonIcon_RelicanthPrimal,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2334,12 +2336,12 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_EONEON] = 1,
     [SPECIES_TRXATU] = 1,
     [SPECIES_ELECTRODE_Y] = 0,
-    [SPECIES_TAUROS_X] = 2,
+    [SPECIES_TAUROS_X] = 1,
     [SPECIES_PORYGON3] = 0,
     [SPECIES_ELECTIVIRE_X] = 1,
     [SPECIES_MAGMORTAR_Y] = 0,
-    [SPECIES_NIDOQUEEN_Y] = 2,
-    [SPECIES_NIDOKING_X] = 2,
+    [SPECIES_NIDOQUEEN_Y] = 3,
+    [SPECIES_NIDOKING_X] = 5,
     [SPECIES_PORYGONZ_X] = 0,
     [SPECIES_PORYGONZ_Y] = 0,
     [SPECIES_NIDOGOD] = 2,
@@ -2426,7 +2428,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_MEWTWO_MEGA_Y] = 2,
     [SPECIES_AMPHAROS_MEGA] = 0,
     [SPECIES_STEELIX_MEGA] = 0,
-    [SPECIES_SCIZOR_MEGA] = 0,
+    [SPECIES_SCIZOR_MEGA] = 1,
     [SPECIES_HERACROSS_MEGA] = 0,
     [SPECIES_HOUNDOOM_MEGA] = 0,
     [SPECIES_TYRANITAR_MEGA] = 1,
@@ -2469,12 +2471,12 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_GALLADE_MEGA] = 1,
     [SPECIES_AUDINO_MEGA] = 1,
     [SPECIES_DIANCIE_MEGA] = 0,
-    [SPECIES_DUSKNOIR_MEGA] = 2,
+    [SPECIES_DUSKNOIR_MEGA] = 3,
     [SPECIES_FLYGON_MEGA] = 1,
-    [SPECIES_STARMIE_MEGA] = 2,
-    [SPECIES_BUTTERFREE_MEGA] = 0,
-    [SPECIES_NOIVERN_MEGA] = 2,
-    [SPECIES_MILOTIC_MEGA] = 2,
+    [SPECIES_STARMIE_MEGA] = 5,
+    [SPECIES_BUTTERFREE_MEGA] = 3,
+    [SPECIES_NOIVERN_MEGA] = 0,
+    [SPECIES_MILOTIC_MEGA] = 4,
     [SPECIES_PORYGON_Z_MEGA] = 0,
     [SPECIES_COFAGRIGUS_MEGA] = 1,
     [SPECIES_DURALUDON_MEGA] = 0,
@@ -2787,6 +2789,8 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_WARTILLERY] = 0,
     [SPECIES_QWOLTFISH] = 4,
 	[SPECIES_GUARDIA] = 1,
+	[SPECIES_ARMALDO_PRIMAL] = 2,
+	[SPECIES_RELICANTH_PRIMAL] = 2,
     [SPECIES_EGG] = 1,
 };
 
@@ -2811,6 +2815,7 @@ const struct SpritePalette gMonIconPaletteTable[] =
     { gMonIconPalettes[3], POKE_ICON_BASE_PAL_TAG + 3 },
     { gMonIconPalettes[4], POKE_ICON_BASE_PAL_TAG + 4 },
     { gMonIconPalettes[5], POKE_ICON_BASE_PAL_TAG + 5 },
+	{ gMonIconPalettes[6], POKE_ICON_BASE_PAL_TAG + 6 },
 };
 
 static const struct OamData sMonIconOamData =

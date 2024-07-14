@@ -14880,6 +14880,54 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Arrecipolis_Antigua/border.bin",
       "blockdata_filepath": "data/layouts/Arrecipolis_Antigua/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_SAFFRON_HOUSE1_1F",
+      "name": "NeoSaffron_House1_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_1",
+      "border_filepath": "data/layouts/NeoSaffron_House1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NeoSaffron_House1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_SAFFRON_HOUSE1_2F",
+      "name": "NeoSaffron_House1_2F_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_1",
+      "border_filepath": "data/layouts/NeoSaffron_House1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/NeoSaffron_House1_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_ROUTE10_POKEMON_CENTER_1F",
+      "name": "NeoRoute10_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NeoRoute10_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NeoRoute10_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_UNDERGROUND_PATH_6F",
+      "name": "NeoUndergroundPath_6F_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_2",
+      "border_filepath": "data/layouts/NeoUndergroundPath_6F/border.bin",
+      "blockdata_filepath": "data/layouts/NeoUndergroundPath_6F/map.bin"
     }
   ]
 }

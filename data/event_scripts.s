@@ -2901,3 +2901,11 @@ Text_EVChecker_3:
 	.include "data/maps/Mosdeep_Jirachi/scripts.inc"
 
 	.include "data/maps/Arrecipolis_Antigua/scripts.inc"
+
+	.include "data/maps/NeoSaffron_House1_1F/scripts.inc"
+
+	.include "data/maps/NeoSaffron_House1_2F/scripts.inc"
+
+	.include "data/maps/NeoRoute10_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/NeoUndergroundPath_6F/scripts.inc"

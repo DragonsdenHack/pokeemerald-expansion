@@ -593,6 +593,7 @@ const u16 gObjectEventPic_Lapras[] = INCBIN_U16("graphics/object_events/pics/pok
 const u16 gObjectEventPic_Zapdos[] = INCBIN_U16("graphics/object_events/pics/pokemon/zapdos.4bpp");
 const u16 gObjectEventPic_Zapdos2[] = INCBIN_U16("graphics/object_events/pics/people/zapdos2.4bpp");
 const u16 gObjectEventPic_Moltres[] = INCBIN_U16("graphics/object_events/pics/pokemon/moltres.4bpp");
+const u16 gObjectEventPic_Whismur[] = INCBIN_U16("graphics/object_events/pics/pokemon/whismur.4bpp");
 //misc
 
 const u16 gObjectEventPic_Fossil2[] = INCBIN_U16("graphics/object_events/pics/misc/fossil2.4bpp");
@@ -673,6 +674,9 @@ const u16 gObjectEventPic_Jirachi[] = INCBIN_U16("graphics/object_events/pics/pe
 const u16 gObjectEventPic_Milotic[] = INCBIN_U16("graphics/object_events/pics/people/milotic.4bpp");
 const u16 gObjectEventPic_Kyogre_Primal[] = INCBIN_U16("graphics/object_events/pics/people/kyogreprimal.4bpp");
 const u16 gObjectEventPic_Kingdra[] = INCBIN_U16("graphics/object_events/pics/people/kingdra.4bpp");
+const u16 gObjectEventPic_Jirachi2[] = INCBIN_U16("graphics/object_events/pics/people/jirachi2.4bpp");
+const u16 gObjectEventPic_MiloticP[] = INCBIN_U16("graphics/object_events/pics/people/miloticp.4bpp");
+const u16 gObjectEventPic_RegigigasP[] = INCBIN_U16("graphics/object_events/pics/people/regigigasp.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -827,3 +831,7 @@ const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palette
 const u16 gObjectEventPal_Milotic[] = INCBIN_U16("graphics/object_events/palettes/milotic.gbapal");
 const u16 gObjectEventPal_Kyogre_Primal[] = INCBIN_U16("graphics/object_events/palettes/kyogreprimal.gbapal");
 const u16 gObjectEventPal_Kingdra[] = INCBIN_U16("graphics/object_events/palettes/kingdra.gbapal");
+const u16 gObjectEventPal_Jirachi2[] = INCBIN_U16("graphics/object_events/palettes/jirachi2.gbapal");
+const u16 gObjectEventPal_MiloticP[] = INCBIN_U16("graphics/object_events/palettes/miloticp.gbapal");
+const u16 gObjectEventPal_RegigigasP[] = INCBIN_U16("graphics/object_events/palettes/regigigasp.gbapal");
+const u16 gObjectEventPal_Whismur[] = INCBIN_U16("graphics/object_events/palettes/whismur.gbapal");

@@ -4632,7 +4632,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ULTIMATE_PROYECT] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 1,
     },
     [SPECIES_POLIWRATH_BOND] =
     {
@@ -6592,7 +6592,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_AERODACTYL_PRIMAL] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 4,
     },
     [SPECIES_CROBAT_BOND] =
     {
@@ -7015,6 +7015,16 @@ const struct MonCoords gMonBackPicCoords[] =
         .y_offset = 7,
     },
 	[SPECIES_GUARDIA] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+	[SPECIES_RELICANTH_PRIMAL] =
+    {
+        .size = MON_COORDS_SIZE(64, 40),
+        .y_offset = 12,
+    },
+	[SPECIES_ARMALDO_PRIMAL] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,

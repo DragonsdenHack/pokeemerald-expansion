@@ -3143,12 +3143,24 @@ static const struct SpriteFrameImage sPicTable_Milotic[] = {
     overworld_frame(gObjectEventPic_Milotic, 4, 4, 8),
 };
 
+static const struct SpriteFrameImage sPicTable_MiloticP[] = {
+    overworld_frame(gObjectEventPic_Milotic, 4, 4, 0),
+};
+
 static const struct SpriteFrameImage sPicTable_Kingdra[] = {
     overworld_frame(gObjectEventPic_Kingdra, 4, 4, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_Kyogre_Primal[] = {
     overworld_frame(gObjectEventPic_Kyogre_Primal, 8, 8, 0),
+};
+
+static const struct SpriteFrameImage sPicTable_RegigigasP[] = {
+    overworld_frame(gObjectEventPic_RegigigasP, 8, 8, 0),
+};
+
+static const struct SpriteFrameImage sPicTable_Jirachi2[] = {
+    overworld_frame(gObjectEventPic_Jirachi2, 8, 8, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_Gyaradosrojo[] = {
@@ -4938,6 +4950,18 @@ static const struct SpriteFrameImage sPicTable_Pidgeot[] = {
     overworld_frame(gObjectEventPic_Pidgeot, 2, 2, 1),
     overworld_frame(gObjectEventPic_Pidgeot, 2, 2, 2),
     overworld_frame(gObjectEventPic_Pidgeot, 2, 2, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_Whismur[] = {
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 3),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 4),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 5),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 6),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 7),
+    overworld_frame(gObjectEventPic_Whismur, 2, 2, 8),
 };
 
 static const struct SpriteFrameImage sPicTable_Omanyte[] = {

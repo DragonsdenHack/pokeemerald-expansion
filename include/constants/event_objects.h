@@ -516,9 +516,12 @@
 #define OBJ_EVENT_GFX_MILOTIC 512
 #define OBJ_EVENT_GFX_KYOGRE_PRIMAL 513
 #define OBJ_EVENT_GFX_KINGDRA 514
+#define OBJ_EVENT_GFX_JIRACHI2 515
+#define OBJ_EVENT_GFX_WHISMUR 516
+#define OBJ_EVENT_GFX_REGIGIGASP 517
+#define OBJ_EVENT_GFX_MILOTICP 518
 
-
-#define NUM_OBJ_EVENT_GFX                        515                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        519                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

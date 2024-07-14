@@ -1454,6 +1454,8 @@ gCryTable::
 	cry Cry_Wartillery
 	cry Cry_Qwoltfish
 	cry Cry_Guardia
+	cry Cry_ArmaldoPrimal
+	cry Cry_RelicanthPrimal
 
 	.align 2
 gCryTable_Reverse::
@@ -2911,3 +2913,5 @@ gCryTable_Reverse::
 	cry_reverse Cry_Wartillery
 	cry_reverse Cry_Qwoltfish
 	cry_reverse Cry_Guardia
+	cry_reverse Cry_ArmaldoPrimal
+	cry_reverse Cry_RelicanthPrimal

@@ -3115,6 +3115,8 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_WARTILLERY - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_QWOLTFISH - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
 	[SPECIES_GUARDIA - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_ARMALDO_PRIMAL - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_RELICANTH_PRIMAL - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

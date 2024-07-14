@@ -5509,4 +5509,16 @@ const u8 gGuardiaPokedexText[] = _(
     "Calyrex is a merciful Pokémon, capable of\n"
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
-    "of yore.");	
+    "of yore.");
+	
+const u8 gArmaldoPrimalPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");
+	
+const u8 gRelicanthPrimalPokedexText[] = _(
+    "Parece un Relicanth.\n"
+	"Debe de tratarse de un ejemplar\n"
+	"incluso más antiguo que este.\n"
+	"Se desconoce más datos sobre él.");	

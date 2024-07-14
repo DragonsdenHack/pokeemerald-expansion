@@ -5628,6 +5628,14 @@ Cry_Qwoltfish::
 	.align 2
 Cry_Guardia::
 	.incbin "sound/direct_sound_samples/cries/guardia.bin"
+	
+	.align 2
+Cry_ArmaldoPrimal::
+	.incbin "sound/direct_sound_samples/cries/armaldo.bin"
+
+	.align 2
+Cry_RelicanthPrimal::
+	.incbin "sound/direct_sound_samples/cries/relicanth.bin"	
 
 	.align 2
 DirectSoundWaveData_register_noise::

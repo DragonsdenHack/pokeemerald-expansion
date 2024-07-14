@@ -597,7 +597,9 @@
     "SaffronCity_House3",
     "SaffronCity_House4",
     "NeoSaffronCity",
-    "NeoSaffron_TrainStation"
+    "NeoSaffron_TrainStation",
+    "NeoSaffron_House1_1F",
+    "NeoSaffron_House1_2F"
   ],
   "gMapGroup_IndoorFuchsiaCity": [
     "FuchsiaCity_Path",
@@ -718,7 +720,9 @@
     "UndergroundPath_9F",
     "UndergroundPath_10F",
     "UndergroundPath_11F",
-    "UndergroundPath_12F"
+    "UndergroundPath_12F",
+    "NeoRoute10_PokemonCenter_1F",
+    "NeoUndergroundPath_6F"
   ],
   "gMapGroup_IndoorKANTO2": [
     "NewMap4",

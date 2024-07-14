@@ -932,6 +932,7 @@ static void LoadCurrentMapData(void)
 		
 		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE8){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 25);
+			gMapHeader.region = REGION_KANTO;
 		}
 		
 		
