@@ -424,11 +424,16 @@
 #define MAP_ROUTE49_PAGODA_P12             (97 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
-#define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
-#define MAP_PALLET_TOWN_RED_HOUSE_2F  (1 | (14 << 8))
-#define MAP_PALLET_TOWN_BLUE_HOUSE_1F (2 | (14 << 8))
-#define MAP_PALLET_TOWN_PROFESSOR_LAB (3 | (14 << 8))
-#define MAP_NEO_PALLET_TOWN           (4 | (14 << 8))
+#define MAP_PALLET_TOWN_RED_HOUSE_1F           (0 | (14 << 8))
+#define MAP_PALLET_TOWN_RED_HOUSE_2F           (1 | (14 << 8))
+#define MAP_PALLET_TOWN_BLUE_HOUSE_1F          (2 | (14 << 8))
+#define MAP_PALLET_TOWN_PROFESSOR_LAB          (3 | (14 << 8))
+#define MAP_NEO_PALLET_TOWN                    (4 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S1 (5 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2 (6 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S3 (7 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S4 (8 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S5 (9 | (14 << 8))
 
 // gMapGroup_IndoorViridianCity
 #define MAP_VIRIDIAN_CITY_HOUSE1            (0 | (15 << 8))
@@ -1423,6 +1428,12 @@
 #define MAP_CAVE_REGIGIGAS_S3_2                          (59 | (54 << 8))
 #define MAP_SS_TIDAL_SUBMARINO                           (60 | (54 << 8))
 #define MAP_SSGIOVANNI_RESCATE                           (61 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S4                            (62 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S5                            (63 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S5_2                          (64 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S6                            (65 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S7                            (66 | (54 << 8))
+#define MAP_CAVE_REGIGIGAS_S8                            (67 | (54 << 8))
 
 // gMapGroup_IndoorSnowPoint
 #define MAP_SNOWPOINT_PKMN_CENTER (0 | (55 << 8))
@@ -1439,6 +1450,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 34, 20, 14, 18, 21, 2, 74, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 14, 17, 15, 108, 61, 89, 62, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 10, 10, 8, 10, 8, 34, 20, 12, 18, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 14, 17, 15, 108, 61, 89, 73, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

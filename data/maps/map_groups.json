@@ -481,7 +481,12 @@
     "PalletTown_RedHouse_2F",
     "PalletTown_BlueHouse_1F",
     "PalletTown_ProfessorLab",
-    "NeoPalletTown"
+    "NeoPalletTown",
+    "PalletTown_Laboratorio_Secreto_S1",
+    "PalletTown_Laboratorio_Secreto_S2",
+    "PalletTown_Laboratorio_Secreto_S3",
+    "PalletTown_Laboratorio_Secreto_S4",
+    "PalletTown_Laboratorio_Secreto_S5"
   ],
   "gMapGroup_IndoorViridianCity": [
     "ViridianCity_House1",
@@ -1475,7 +1480,13 @@
     "Cave_Regigigas_S3",
     "Cave_Regigigas_S3_2",
     "SSTidal_Submarino",
-    "SSGiovanni_Rescate"
+    "SSGiovanni_Rescate",
+    "Cave_Regigigas_S4",
+    "Cave_Regigigas_S5",
+    "Cave_Regigigas_S5_2",
+    "Cave_Regigigas_S6",
+    "Cave_Regigigas_S7",
+    "Cave_Regigigas_S8"
   ],
   "gMapGroup_IndoorSnowPoint": [
     "Snowpoint_PkmnCenter",

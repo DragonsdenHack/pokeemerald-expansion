@@ -2909,3 +2909,25 @@ Text_EVChecker_3:
 	.include "data/maps/NeoRoute10_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/NeoUndergroundPath_6F/scripts.inc"
+	
+	.include "data/maps/Cave_Regigigas_S4/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5_2/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S6/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S7/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S8/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S1/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S2/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S3/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S4/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S5/scripts.inc"
