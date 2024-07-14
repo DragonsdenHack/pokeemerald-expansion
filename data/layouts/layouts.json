@@ -14928,6 +14928,8 @@
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/NeoUndergroundPath_6F/border.bin",
       "blockdata_filepath": "data/layouts/NeoUndergroundPath_6F/map.bin"
+	},
+	{
       "id": "LAYOUT_CAVE_REGIGIGAS_S4",
       "name": "Cave_Regigigas_S4_Layout",
       "width": 32,
