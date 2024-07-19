@@ -5433,7 +5433,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_POISON_TAIL] =
     {
         .effect = EFFECT_POISON_HIT,
-        .power = 50,
+        .power = 90,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 25,
@@ -11474,7 +11474,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_DUAL_WINGBEAT] =
     {
         .effect = EFFECT_DOUBLE_HIT,
-        .power = 40,
+        .power = 50,
         .type = TYPE_FLYING,
         .accuracy = 90,
         .pp = 10,
