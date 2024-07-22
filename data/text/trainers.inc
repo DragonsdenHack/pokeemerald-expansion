@@ -18186,121 +18186,174 @@ Cave_Regigigas_Devon_4_Text_PoliciaPostBattle:
 	.string "llevan a nada.$"
 
 Cave_Regigigas_Devon_5_Text_PoliciaIntro:
-	.string "…$"
+	.string "¿¡Quién te crees que eres para\n"
+	.string "profanar este lugar sagrado!?$"
 
 Cave_Regigigas_Devon_5_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Mmm… eres muy fuerte.$"
 
 Cave_Regigigas_Devon_5_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Este lugar es tan inmenso que es fácil\n"
+	.string "perderse, ¡no podrás profanarlo tan\l"
+	.string "fácilmente!$"
 
 Cave_Regigigas_Devon_6_Text_PoliciaIntro:
-	.string "…$"
+	.string "¡Alto ahí! Voy a derrotarte aquí mismo y\n"
+	.string "llevarte en presencia de AMATISTA.\l"
+	.string "¡Después de eso me ascenderán a JEFE\l"
+	.string "de POLICÍA!$"
 
 Cave_Regigigas_Devon_6_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Mi plan perfecto fracasó…$"
 
 Cave_Regigigas_Devon_6_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Puaf, vaya chasco. Espero que al menos\n"
+	.string "no me degraden.$"
 
 Cave_Regigigas_Devon_7_Text_PoliciaIntro:
-	.string "…$"
+	.string "Si no tienes ni idea de por qué hacemos\n"
+	.string "lo que hacemos, ¿por qué te empeñas en\l"
+	.string "interponerte en nuestro camino?$"
 
 Cave_Regigigas_Devon_7_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Ah, ya veo el porqué…$"
 
 Cave_Regigigas_Devon_7_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Te interpones en nuestro camino porque\n"
+	.string "tu ego es incapaz de soportar que\l"
+	.string "exista una organización superior a la\l"
+	.string "vuestra, ¿verdad?$"
 
 Cave_Regigigas_Devon_8_Text_PoliciaIntro:
-	.string "…$"
+	.string "¡No permitiré que interfieras en los\n"
+	.string "planes de DEVON!$"
 
 Cave_Regigigas_Devon_8_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Si no tuvieras un don para el combate…$"
 
 Cave_Regigigas_Devon_8_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "La grandeza espera a DEVON. A ti\n"
+	.string "únicamente te espera el olvido.$"
 
 Cave_Regigigas_Devon_9_Text_PoliciaIntro:
-	.string "…$"
+	.string "¡AMATISTA está a punto de hacer algo\n"
+	.string "espectacular! ¡Tú no te entrometas!$"
 
 Cave_Regigigas_Devon_9_Text_PoliciaDefeat:
-	.string "…$"
+	.string "¡Qué sacrilegio!$"
 
 Cave_Regigigas_Devon_9_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "¿No reconoces a lo sagrado cuando lo\n"
+	.string "tienes delante? ¡Respeta un poco este\l"
+	.string "lugar!$"
 
 Cave_Regigigas_Devon_10_Text_PoliciaIntro:
-	.string "…$"
+	.string "Puede que no pueda derrotarte, ¡pero sí\n"
+	.string "retrasarte y darle un tiempo precioso a\l"
+	.string "nuestro ADMIN!$"
 
 Cave_Regigigas_Devon_10_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Aghhh… he durado aún\n"
+	.string "menos de lo que esperaba.$"
 
 Cave_Regigigas_Devon_10_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "¿Desde cuándo llevas con tus POKÉMON?\n"
+	.string "¿Solo 3 años? ¡Cualquiera diría que\l"
+	.string "lleváis toda la vida juntos!$"
 
 Cave_Regigigas_Devon_11_Text_PoliciaIntro:
-	.string "…$"
+	.string "Lo que hoy tendrá lugar aquí removerá\n"
+	.string "para siempre los pilares del mundo que\l"
+	.string "conocemos, ¿estás preparado?$"
 
 Cave_Regigigas_Devon_11_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Puede que sí…$"
 
 Cave_Regigigas_Devon_11_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Aún sabemos muy poco sobre los\n"
+	.string "verdaderos límites de poder que un\l"
+	.string "POKÉMON puede alcanzar.$"
 
 Cave_Regigigas_Devon_12_Text_PoliciaIntro:
-	.string "…$"
+	.string "He oído hablar de ti... dicen que eres un\n"
+	.string "privilegiado para el combate, ¿pero\l"
+	.string "sabes lo que también dicen?$"
 
 Cave_Regigigas_Devon_12_Text_PoliciaDefeat:
-	.string "…$"
+	.string "No hay duda, tienes talento, pero…$"
 
 Cave_Regigigas_Devon_12_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Incluso el mayor de los talentos nada\n"
+	.string "puede hacer sin los estímulos\l"
+	.string "adecuados.$"
 
 Cave_Regigigas_Devon_13_Text_PoliciaIntro:
-	.string "…$"
+	.string "AMATISTA lleva años trabajando por\n"
+	.string "este momento. ¡Tiene calculado hasta el\l"
+	.string "más mínimo detalle y la más absurda de\l"
+	.string "las variables!$"
 
 Cave_Regigigas_Devon_13_Text_PoliciaDefeat:
-	.string "…$"
+	.string "¡Tú también estás dentro\n"
+	.string "de sus cálculos!$"
 
 Cave_Regigigas_Devon_13_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Incluso la intervención de mequetrefes\n"
+	.string "que creen que pueden deshacer en\l"
+	.string "cuestión de segundos un plan\l"
+	.string "orquestado por años está contemplada\l"
+	.string "por AMATISTA.$"
 
 Cave_Regigigas_Devon_14_Text_PoliciaIntro:
-	.string "…$"
+	.string "¿¡Cómo un vulgar ROCKET nacido en esa\n"
+	.string "pequeña isla ha llegado tan lejos!?$"
 
 Cave_Regigigas_Devon_14_Text_PoliciaDefeat:
-	.string "…$"
+	.string "¡Es imposible!$"
 
 Cave_Regigigas_Devon_14_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Tu caso desafía las leyes de la\n"
+	.string "estadística y la probabilidad.$"
 
 Cave_Regigigas_Devon_15_Text_PoliciaIntro:
-	.string "…$"
+	.string "Se está liando una muy gorda más\n"
+	.string "adelante. Por gente como tú debo\l"
+	.string "quedarme en retaguardia en lugar de\l"
+	.string "presenciar el espectáculo en primera\l"
+	.string "fila. ¡No tienes perdón!$"
 
 Cave_Regigigas_Devon_15_Text_PoliciaDefeat:
-	.string "…$"
+	.string "¡Maldito! ¡No te saldrás con la tuya!$"
 
 Cave_Regigigas_Devon_15_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Gracias a nosotros, nuestros LÍDERES\n"
+	.string "disponen del tiempo necesario para\l"
+	.string "llevar a cabo sus planes. Aunque llegues\l"
+	.string "hasta ellos, ya no hay vuelta atrás.$"
 
 Cave_Regigigas_Devon_16_Text_PoliciaIntro:
-	.string "…$"
+	.string "Si aspiras a hacer algo grande aquí, me\n"
+	.string "temo que te llevarás una desilusión. ¡Tu\l"
+	.string "aventura acaba conmigo!$"
 
 Cave_Regigigas_Devon_16_Text_PoliciaDefeat:
-	.string "…$"
+	.string "Si sigues, acabarás chocando\n"
+	.string "contra un muro.$"
 
 Cave_Regigigas_Devon_16_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "¿CAMPEÓN de KANTO? Este lugar queda\n"
+	.string "demasiado grande incluso para ellos.$"
 
 Cave_Regigigas_Devon_17_Text_PoliciaIntro:
-	.string "…$"
+	.string "¡No dejaremos que te interpongas en el\n"
+	.string "destino de HOENN!$"
 
 Cave_Regigigas_Devon_17_Text_PoliciaDefeat:
-	.string "…$"
+	.string "¿El destino cambió de parecer?$"
 
 Cave_Regigigas_Devon_17_Text_PoliciaPostBattle:
-	.string "…$"
+	.string "Uno hace lo que puede… hasta que su\n"
+	.string "destino le es revelado.$"
 
 
 
