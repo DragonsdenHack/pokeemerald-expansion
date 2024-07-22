@@ -2,7 +2,7 @@
   "id": "MAP_CAVE_REGIGIGAS_S7",
   "name": "Cave_Regigigas_S7",
   "layout": "LAYOUT_CAVE_REGIGIGAS_S7",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "638",
   "region_map_section": "MAPSEC_SEALED_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

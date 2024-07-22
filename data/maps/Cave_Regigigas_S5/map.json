@@ -2,7 +2,7 @@
   "id": "MAP_CAVE_REGIGIGAS_S5",
   "name": "Cave_Regigigas_S5",
   "layout": "LAYOUT_CAVE_REGIGIGAS_S5",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_SEALED_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -98,7 +98,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "18",
-      "script": "NULL"
+      "script": "Cave_Regigigas_S5_Andra"
     },
     {
       "type": "trigger",
@@ -107,7 +107,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "18",
-      "script": "NULL"
+      "script": "Cave_Regigigas_S5_Andra"
     },
     {
       "type": "trigger",

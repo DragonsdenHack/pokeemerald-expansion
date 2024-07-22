@@ -44,7 +44,7 @@ msgbox Cave_Regigigas_S4_Valente_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 6, Cave_Regigigas_S4_Valente_Move_12
 waitmovement 0x0
 msgbox Cave_Regigigas_S4_Valente_Texto_9 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Cave_Regigigas_S4_Valente_Texto_10
+trainerbattle_no_intro TRAINER_TRAINER_675, Cave_Regigigas_S4_Valente_Texto_10
 setflag FLAG_HOENN_63
 removeobject 5
 removeobject 2
