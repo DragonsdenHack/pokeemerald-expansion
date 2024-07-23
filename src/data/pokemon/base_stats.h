@@ -29204,12 +29204,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DURALUDON_MEGA] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 50,
-        .baseDefense   = 145,
-        .baseSpeed     = 105,
-        .baseSpAttack  = 170,
-        .baseSpDefense = 95,
+        .baseHP        = 90,
+        .baseAttack    = 105,
+        .baseDefense   = 130,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 65,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_DRAGON,
         .catchRate = 45,

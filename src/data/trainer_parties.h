@@ -38863,7 +38863,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER676[] = {
     {
     .iv = 255,
     .lvl = 122,
-    .species = SPECIES_RAYQUAZA,
+    .species = SPECIES_RAYQUAZA_MEGA,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {90, 252, 90, 252, 90, 90},
     .nature = NATURE_ADAMANT,

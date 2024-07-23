@@ -209,7 +209,13 @@ delay 15
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_35 MSGBOX_AUTOCLOSE
 applymovement 1, Cave_Regigigas_S5_2_Move_22
 waitmovement 0x0
+setflag FLAG_HOENN_61
+setflag FLAG_HOENN_1
 clearflag FLAG_HOENN_65
+removeobject 7
+removeobject 8
+removeobject 6
+removeobject 1
 setvar VAR_UNUSED_0x40F8, 20
 release
 end
@@ -266,7 +272,6 @@ step_end
 
 Cave_Regigigas_S5_2_Move_14:
 face_up
-walk_up
 delay_8
 step_end
 
@@ -359,7 +364,7 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_20:
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_21:
 	.string "ADM.ZAFIRO: Después de todo, te queda\n"
-	.string "algo de lealtad hacIa el TEAM ROCKET o…$"
+	.string "algo de lealtad hacia el TEAM ROCKET o…$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_22:
 	.string "ADM.ESMERALDA: Más bien, lealtad hacia\n"
