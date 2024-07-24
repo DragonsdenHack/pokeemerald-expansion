@@ -209,6 +209,7 @@ delay 15
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_35 MSGBOX_AUTOCLOSE
 applymovement 1, Cave_Regigigas_S5_2_Move_22
 waitmovement 0x0
+special HealPlayerParty
 setflag FLAG_HOENN_61
 setflag FLAG_HOENN_1
 clearflag FLAG_HOENN_65

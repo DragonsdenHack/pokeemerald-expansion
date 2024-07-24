@@ -1,52 +1,465 @@
 Cave_Regigigas_S8_MapScripts::
 	.byte 0
 
+Cave_Regigigas_S8_Amatista_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_1
+waitmovement 0x0
+goto Cave_Regigigas_S8_Amatista
+
+Cave_Regigigas_S8_Amatista_Centro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_1.1
+waitmovement 0x0
+goto Cave_Regigigas_S8_Amatista
+
+Cave_Regigigas_S8_Amatista_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_1.2
+waitmovement 0x0
+goto Cave_Regigigas_S8_Amatista
+
+Cave_Regigigas_S8_Amatista_Move_1.2:
+walk_slow_up
+walk_slow_left
+walk_slow_up
+walk_slow_left
+walk_slow_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_1.1:
+walk_slow_up
+walk_slow_left
+walk_slow_up
+walk_slow_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_2:
+face_down
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_3:
+walk_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_4:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
+step_end
+
 Cave_Regigigas_S8_Amatista::
 lock
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_4 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Cave_Regigigas_S8_Amatista_Texto_5 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Cave_Regigigas_S8_Amatista_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_2
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_3
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Cave_Regigigas_S8_Amatista_Move_4
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_DETECT
+dofieldeffectsparkle 13, 17, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
+setvar VAR_RESULT, 4
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+setflag FLAG_HOENN_67
+clearflag FLAG_HOENN_3
+applymovement 8, MtPyre_Summit_Andra_Izquierda_move_9
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+special FadeOutOrbEffect
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 6
+addobject 2
+delay 5
+removeobject 2
+addobject 6
+delay 5
+removeobject 2
+addobject 6
+playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 50
+playse SE_PIN
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_5
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_6.1
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_6
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_9 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Cave_Regigigas_S8_Amatista_Move_4.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_14 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Cave_Regigigas_S8_Amatista_Texto_15 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_5
+waitmovement 0x0
+delay 15
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_9
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_10
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_11
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_20 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_5
+waitmovement 0x0
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_12
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_13
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_14
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_33 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_34 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_15
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Cave_Regigigas_S8_Amatista_Move_4.2
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Cave_Regigigas_S8_Amatista_Texto_35 MSGBOX_AUTOCLOSE
-msgbox Cave_Regigigas_S8_Amatista_Texto_36 MSGBOX_AUTOCLOSE
+choose_mons
+multi_2_vs_1 1536, Cave_Regigigas_S8_Amatista_Texto_36, 1557, 6
 msgbox Cave_Regigigas_S8_Amatista_Texto_37 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_39 MSGBOX_AUTOCLOSE
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_15
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_40 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_18
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_17
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_16
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_41 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Cave_Regigigas_S8_Amatista_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_43 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_17
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_44 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_5
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_5
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S8_Amatista_Move_7
+applymovement 3, Cave_Regigigas_S8_Amatista_Move_7
+waitmovement 0x0
+delay 15
+clearflag FLAG_HOENN_1
+addobject 4
+applymovement 4, Cave_Regigigas_S8_Amatista_Move_19
+waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_45 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S8_Amatista_Texto_46 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S8_Amatista_Texto_47 MSGBOX_AUTOCLOSE
@@ -88,9 +501,104 @@ msgbox Cave_Regigigas_S8_Amatista_Texto_82 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S8_Amatista_Texto_83 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S8_Amatista_Texto_84 MSGBOX_AUTOCLOSE
 msgbox Cave_Regigigas_S8_Amatista_Texto_85 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_1
+removeobject 4
 setvar VAR_UNUSED_0x40F8, 23
 release
 end
+
+Cave_Regigigas_S8_Amatista_Move_4.2:
+walk_fast_down
+walk_fast_down
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_19:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_18:
+face_right
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_17:
+walk_in_place_left
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_16:
+walk_down
+delay_16
+face_right
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_15:
+walk_in_place_down
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_14:
+face_right
+delay_16
+delay_8
+walk_in_place_right
+walk_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_13:
+face_left
+delay_16
+delay_8
+walk_in_place_left
+delay_16
+face_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_12:
+walk_fast_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_11:
+walk_in_place_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_10:
+face_left
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_9:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_8:
+face_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_7:
+face_down
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_4.1:
+walk_down
+walk_down
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_5:
+emote_exclamation_mark
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_6:
+walk_up
+walk_up
+step_end
+
+Cave_Regigigas_S8_Amatista_Move_6.1:
+walk_up
+step_end
 
 Cave_Regigigas_S8_Amatista_Texto_1:
 	.string "ADM.AMATISTA: Qué interesante...$"
@@ -144,7 +652,7 @@ Cave_Regigigas_S8_Amatista_Texto_11:
 
 Cave_Regigigas_S8_Amatista_Texto_12:
 	.string "ADM.AMATISTA: Como no puede ser de\n"
-	.string "otra forma, el mundo tal y como lo\l"
+	.string "otro modo; el mundo tal y como lo\l"
 	.string "conocemos fue moldeado por REGIGIGAS.$"
 
 Cave_Regigigas_S8_Amatista_Texto_13:

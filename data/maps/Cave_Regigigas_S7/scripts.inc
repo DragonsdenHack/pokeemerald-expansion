@@ -421,6 +421,7 @@ waitmovement 0x0
 msgbox Cave_Regigigas_S7_Doctor_Texto_78 MSGBOX_AUTOCLOSE
 applymovement 3, Cave_Regigigas_S7_Doctor_Move_31.1
 waitmovement 0x0
+special HealPlayerParty
 playse SE_EXIT
 setflag FLAG_HOENN_1
 removeobject 1

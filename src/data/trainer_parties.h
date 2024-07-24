@@ -39511,21 +39511,33 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER698[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER699[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER699[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 123,
+    .species = SPECIES_HERACROSS,
+    .heldItem = ITEM_HERACRONITE,
+    .evs = {252, 252, 100, 100, 100, 100},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}
     },
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 124,
+    .species = SPECIES_MILOTIC_MEGA,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 100, 252, 100, 100, 100},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_MOONBLAST, MOVE_RECOVER, MOVE_THUNDER_CAGE}
     },
     {
     .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 125,
+    .species = SPECIES_CROBAT2_BOND,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {120, 252, 252, 120, 120, 120},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_BEHEMOTH_BLADE, MOVE_LEECH_LIFE}
     }
     
 };
