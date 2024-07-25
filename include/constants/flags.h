@@ -2324,7 +2324,7 @@
 #define FLAG_HOENN_674 (TRAINER_FLAGS_END + 674) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_675 (TRAINER_FLAGS_END + 675) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_676 (TRAINER_FLAGS_END + 676) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_677 (TRAINER_FLAGS_END + 677) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_677 (TRAINER_FLAGS_END + 677) // ANDRA DESPACHO H0ENN DESPUES EVENTO REGIGIGAS // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_678 (TRAINER_FLAGS_END + 678) // ANDRA PUEBLO OROMAR (FUERA CENTRO PKMN DEPSUES) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_679 (TRAINER_FLAGS_END + 679) // TRISTANA CALAGUA // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680) // KYOGRE NORMAL SEAFLOOR 9 // En modo Setflag por defecto desde fin DLC

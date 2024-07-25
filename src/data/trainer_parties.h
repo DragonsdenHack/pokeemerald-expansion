@@ -38953,10 +38953,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER678[] = {
     .iv = 255,
     .lvl = 125,
     .species = SPECIES_REGIGIGAS,
-    .heldItem = ITEM_WHITE_HERB,
-    .evs = {120, 120, 120, 252, 252, 120},
-    .nature = NATURE_TIMID,
-    .moves = {MOVE_OVERHEAT, MOVE_DRACO_METEOR, MOVE_DISCHARGE, MOVE_REFLECT}
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 252, 110, 110, 110, 110},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FISSURE, MOVE_DRAIN_PUNCH, MOVE_DOUBLE_EDGE, MOVE_ROCK_SLIDE}
     }
     
 };
