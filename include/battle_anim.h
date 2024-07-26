@@ -205,13 +205,16 @@ u8 GetSubstituteSpriteDefault_Y(u8 battlerId);
 #define STAT_ANIM_MULTIPLE_MINUS1 57
 #define STAT_ANIM_MULTIPLE_MINUS2 58
 void LaunchStatusAnimation(u8 battlerId, u8 statusAnimId);
+extern const union AnimCmd *const gAnims_SpinningSparkle[];
 
 // battle_anim_ground.c
 void AnimTask_HorizontalShake(u8 taskId);
 void AnimMudSportDirt(struct Sprite *sprite);
 void AnimDirtScatter(struct Sprite *sprite);
 void AnimMudSportDirtRising(struct Sprite *sprite);
+void AnimDirtPlumeParticle(struct Sprite *);
 extern const union AffineAnimCmd *const gAffineAnims_SpinningBone[];
+
 
 // battle_anim_throw.c
 void TryShinyAnimation(u8 battler, struct Pokemon *mon);
@@ -272,6 +275,9 @@ extern const union AnimCmd *const gScratchAnimTable[];
 extern const union AnimCmd *const gIngrainRootAnimTable[];
 extern const union AffineAnimCmd *const gSwiftStarAffineAnimTable[];
 extern const union AnimCmd *const gMetronomeThroughtBubbleAnimTable[];
+extern const union AffineAnimCmd *const gStockpileAbsorptionOrbAffineAnimTable[];
+void AnimBounceBallLand(struct Sprite *);
+void AnimEllipticalGust(struct Sprite *);
 
 // battle_anim_effects_2.c
 void AnimUproarRing(struct Sprite *sprite);
@@ -289,14 +295,20 @@ extern const union AffineAnimCmd *const gWaterPulseRingAffineAnimTable[];
 extern const union AffineAnimCmd *const gHyperVoiceRingAffineAnimTable[];
 extern const union AnimCmd *const gCoinAnimTable[];
 extern const union AffineAnimCmd *const gHiddenPowerOrbAffineAnimTable[];
+void AnimMagentaHeart(struct Sprite *);
 
 // battle_anim_effects_3.c
 void AnimBlackSmoke(struct Sprite *sprite);
 void AnimSweetScentPetal(struct Sprite *sprite);
 void AnimTealAlert(struct Sprite *sprite);
 void AnimBlockX(struct Sprite *sprite);
+void AnimFlatterSpotlight_Step(struct Sprite *);
+void AnimAssistPawprint(struct Sprite *);
+void AnimReversalOrb(struct Sprite *);
+void AnimFlatterSpotlight_Step(struct Sprite *sprite);
 extern const union AnimCmd *const gOpeningEyeAnimTable[];
 extern const union AnimCmd *const gEclipsingOrbAnimTable[];
+extern const union AffineAnimCmd *const gSpotlightAffineAnimTable[];
 
 // battle_anim_water.c
 void AnimWaterPulseRing(struct Sprite *sprite);
@@ -317,6 +329,7 @@ void AnimFlyBallUp_Step(struct Sprite *sprite);
 extern const union AnimCmd *const gAffineAnims_AirWaveCrescent[];
 extern const union AffineAnimCmd *const gAffineAnims_FlyBallUp[];
 extern const union AffineAnimCmd *const gAffineAnims_FlyBallAttack[];
+extern const union AffineAnimCmd *const gAffineAnims_BounceBallLand[];
 
 // battle_anim_poison.c
 void AnimSludgeBombHitParticle(struct Sprite *);
@@ -324,6 +337,8 @@ void AnimAcidPoisonBubble_Step(struct Sprite *sprite);
 extern const union AffineAnimCmd *const gAffineAnims_PoisonProjectile[];
 extern const union AnimCmd *const gAnims_PoisonProjectile[];
 extern const union AnimCmd *const gAnims_AcidPoisonDroplet[];
+void AnimBubbleEffect(struct Sprite *);
+extern const union AffineAnimCmd *const gAffineAnims_Bubble[];
 
 // battle_anim_ghost.c
 void AnimGhostStatusSprite(struct Sprite *sprite);
@@ -419,6 +434,12 @@ void AnimSparkElectricity(struct Sprite *sprite);
 void AnimElectricPuff(struct Sprite *sprite);
 void AnimSparkElectricityFlashing(struct Sprite *sprite);
 void AnimGrowingShockWaveOrb(struct Sprite *sprite);
+void AnimElectricity(struct Sprite *);
+void AnimSuperpowerFireball(struct Sprite *);
+void AnimEllipticalGust(struct Sprite *);
+
+
+
 extern const union AffineAnimCmd *const gAffineAnims_GrowingElectricOrb[];
 extern const union AffineAnimCmd *const gAffineAnims_FlashingSpark[];
 extern const union AnimCmd *const gAnims_ThunderboltOrb[];
@@ -449,6 +470,7 @@ void AnimRaiseSprite(struct Sprite *sprite);
 void AnimFallingRock_Step(struct Sprite *sprite);
 void AnimFlyingSandCrescent(struct Sprite *sprite);
 void AnimRockFragment(struct Sprite *);
+extern const union AnimCmd *const gAnims_FlyingRock[];
 
 // battle_anim_dark.c
 void AnimClawSlash(struct Sprite *sprite);
@@ -478,6 +500,12 @@ extern const union AnimCmd *const gAnims_BlizzardIceCrystal[];
 void AnimFireSpread(struct Sprite *sprite);
 void AnimFireSpiralOutward(struct Sprite *sprite);
 extern const union AnimCmd *const gAnims_FireBlastCross[];
+void AnimWillOWispOrb(struct Sprite *);
+void AnimEruptionFallingRock(struct Sprite *);
+void AnimFireCross(struct Sprite *);
+void AnimFirePlume(struct Sprite *);
+extern const union AnimCmd *const gAnims_WillOWispOrb[];
+extern const union AnimCmd *const gAnims_FirePlume[];
 
 // battle_anim_dragon.c
 extern const union AnimCmd *const gAnims_DragonBreathFire[];

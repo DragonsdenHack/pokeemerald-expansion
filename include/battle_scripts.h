@@ -416,4 +416,13 @@ extern const u8 BattleScript_BothCanNoLongerEscape[];
 extern const u8 BattleScript_OctolockEndTurn[];
 extern const u8 BattleScript_NeutralizingGasExits[];
 
+// zmoves
+extern const u8 BattleScript_ZMoveActivateDamaging[];
+extern const u8 BattleScript_ZMoveActivateStatus[];
+extern const u8 BattleScript_ZEffectPrintString[];
+extern const u8 BattleScript_RecoverHPZMove[];
+extern const u8 BattleScript_StatUpZMove[];
+extern const u8 BattleScript_HealReplacementZMove[];
+extern const u8 BattleScript_EffectExtremeEvoboost[];
+
 #endif // GUARD_BATTLE_SCRIPTS_H

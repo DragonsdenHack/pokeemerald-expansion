@@ -1,4 +1,5 @@
 #include "global.h"
+#include "battle_z_move.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -714,16 +715,24 @@ static bool32 AI_GetIfCrit(u32 move, u8 battlerAtk, u8 battlerDef)
     return isCrit;
 }
 
-s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef)
+s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef, u8 *typeEffectiveness, bool32 considerZPower)
 {
     s32 dmg, moveType, critDmg, normalDmg;
     s8 critChance;
 
-    SaveBattlerData(battlerAtk);
+    if (considerZPower && IsViableZMove(battlerAtk, move))
+    {
+        //temporarily enable z moves for damage calcs
+        gBattleStruct->zmove.baseMoves[battlerAtk] = move;
+        gBattleStruct->zmove.active = TRUE;
+    }
+	
+	SaveBattlerData(battlerAtk);
     SaveBattlerData(battlerDef);
 
     SetBattlerData(battlerAtk);
     SetBattlerData(battlerDef);
+
 
     gBattleStruct->dynamicMoveType = 0;
     SetTypeBeforeUsingMove(move, battlerAtk);
@@ -779,6 +788,9 @@ s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef)
 
     RestoreBattlerData(battlerAtk);
     RestoreBattlerData(battlerDef);
+	
+	gBattleStruct->zmove.active = FALSE;
+    gBattleStruct->zmove.baseMoves[battlerAtk] = MOVE_NONE;
 
     return dmg;
 }
@@ -1039,7 +1051,7 @@ bool32 CanTargetFaintAi(u8 battlerDef, u8 battlerAtk)
     for (i = 0; i < MAX_MON_MOVES; i++)
     {
         if (moves[i] != MOVE_NONE && moves[i] != 0xFFFF && !(unusable & gBitTable[i])
-            && AI_CalcDamage(moves[i], battlerDef, battlerAtk) >= gBattleMons[battlerAtk].hp)
+            && AI_THINKING_STRUCT->simulatedDmg[battlerAtk][battlerDef][moves[i]] >= gBattleMons[battlerAtk].hp)
         {
             return TRUE;
         }
@@ -1077,9 +1089,10 @@ bool32 CanAIFaintTarget(u8 battlerAtk, u8 battlerDef, u8 numHits)
 bool32 CanMoveFaintBattler(u16 move, u8 battlerDef, u8 battlerAtk, u8 nHits)
 {
     s32 i, dmg;
+	u8 effectiveness;
     u32 unusable = CheckMoveLimitations(battlerDef, 0, MOVE_LIMITATIONS_ALL);
 
-    if (move != MOVE_NONE && move != 0xFFFF && !(unusable & gBitTable[i]) && AI_CalcDamage(move, battlerDef, battlerAtk) >= gBattleMons[battlerAtk].hp)
+    if (move != MOVE_NONE && move != 0xFFFF && !(unusable & gBitTable[i]) && AI_CalcDamage(move, battlerDef, battlerAtk, &effectiveness, FALSE) >= gBattleMons[battlerAtk].hp)
         return TRUE;
 
     return FALSE;
@@ -3242,13 +3255,14 @@ s32 AI_CalcPartyMonDamage(u16 move, u8 battlerAtk, u8 battlerDef, struct Pokemon
 {
     s32 dmg;
     u32 i;
+	u8 effectiveness;
     struct BattlePokemon *battleMons = Alloc(sizeof(struct BattlePokemon) * MAX_BATTLERS_COUNT);
 
     for (i = 0; i < MAX_BATTLERS_COUNT; i++)
         battleMons[i] = gBattleMons[i];
 
     PokemonToBattleMon(mon, &gBattleMons[battlerAtk]);
-    dmg = AI_CalcDamage(move, battlerAtk, battlerDef);
+    dmg = AI_CalcDamage(move, battlerAtk, battlerDef, &effectiveness, FALSE);
 
     for (i = 0; i < MAX_BATTLERS_COUNT; i++)
         gBattleMons[i] = battleMons[i];
@@ -3626,5 +3640,40 @@ bool32 AI_MoveMakesContact(u32 ability, u32 holdEffect, u16 move)
       && ability != ABILITY_LONG_REACH
       && holdEffect != HOLD_EFFECT_PROTECTIVE_PADS)
         return TRUE;
+    return FALSE;
+}
+
+
+//TODO - this could use some more sophisticated logic
+bool32 ShouldUseZMove(u8 battlerAtk, u8 battlerDef, u32 chosenMove)
+{
+    // simple logic. just upgrades chosen move to z move if possible, unless regular move would kill opponent
+    if ((gBattleTypeFlags & BATTLE_TYPE_DOUBLE) && battlerDef == BATTLE_PARTNER(battlerAtk))
+        return FALSE; //don't use z move on partner
+    if (gBattleStruct->zmove.used[battlerAtk])
+        return FALSE;   //cant use z move twice
+
+    if (IsViableZMove(battlerAtk, chosenMove))
+    {
+        u8 effectiveness;
+
+        #ifdef POKEMON_EXPANSION
+        if (gBattleMons[battlerDef].ability == ABILITY_DISGUISE && gBattleMons[battlerDef].species == SPECIES_MIMIKYU)
+            return FALSE; // Don't waste a Z-Move busting disguise
+        if (gBattleMons[battlerDef].ability == ABILITY_ICE_FACE && gBattleMons[battlerDef].species == SPECIES_EISCUE && IS_MOVE_PHYSICAL(chosenMove))
+            return FALSE; // Don't waste a Z-Move busting Ice Face
+        #endif
+
+        if (IS_MOVE_STATUS(chosenMove) && !IS_MOVE_STATUS(gBattleStruct->zmove.chosenZMove))
+            return FALSE;
+        else if (!IS_MOVE_STATUS(chosenMove) && IS_MOVE_STATUS(gBattleStruct->zmove.chosenZMove))
+            return FALSE;
+
+        if (!IS_MOVE_STATUS(chosenMove) && AI_CalcDamage(chosenMove, battlerAtk, battlerDef, &effectiveness, FALSE) >= gBattleMons[battlerDef].hp)
+            return FALSE;   // don't waste damaging z move if can otherwise faint target
+
+        return TRUE;
+    }
+
     return FALSE;
 }
