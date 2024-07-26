@@ -3086,15 +3086,22 @@ static void FillPartnerParty(u16 trainerId)
 					j = Random32();
 				} while (partyData[i].nature != GetNatureFromPersonality(j));
 
-                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, partyData[i].iv * 31 / 255, TRUE, j, TRUE, otID);
+                CreateMon(&gPlayerParty[i + 3],
+				partyData[i].species,
+				partyData[i].lvl,
+				partyData[i].iv * 31 / 255,
+				TRUE,
+				j, OT_ID_PRESET, otID);
+				for (j = 0; j < PARTY_SIZE; j++)
+							SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_HP_EV + j, &partyData[i].evs[j]);
 
                 SetMonData(&gPlayerParty[i + 3], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
-
-                for (j = 0; j < 4; j++)
-                {
-                    SetMonData(&gPlayerParty[i + 3], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
-                    SetMonData(&gPlayerParty[i + 3], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
-                }
+				for (j = 0; j < MAX_MON_MOVES; j++)
+				SetMonMoveSlot(&gPlayerParty[MULTI_PARTY_SIZE + i], partyData[i].moves[j], j);
+				SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_OT_NAME, gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].trainerName);
+				j = MALE;
+				SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_OT_GENDER, &j);
+				CalculateMonStats(&gPlayerParty[MULTI_PARTY_SIZE + i]);
                 break;
             }
             }
