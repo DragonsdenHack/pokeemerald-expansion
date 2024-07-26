@@ -21522,7 +21522,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER700),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER700},
+        .party = {.ItemCustomMoves = sParty_TRAINER700},
     },
     [TRAINER_TRAINER_701] =
     {
@@ -21535,7 +21535,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER701),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER701},
+        .party = {.ItemCustomMoves = sParty_TRAINER701},
     },
     [TRAINER_TRAINER_702] =
     {
@@ -21548,7 +21548,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER702),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER702},
+        .party = {.ItemCustomMoves = sParty_TRAINER702},
     },
     [TRAINER_TRAINER_703] =
     {

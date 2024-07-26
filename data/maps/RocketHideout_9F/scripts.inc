@@ -69,12 +69,51 @@ msgbox RocketHideout_9F_Presentacion_Sala_Texto_5 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_9F_Presentacion_Sala_Move_4
 applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5
 waitmovement 0x0
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_9 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_10 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_11 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_12 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_EXIT
 setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
 removeobject 10
 setvar VAR_UNUSED_0x40F7, 93
 release
 end
+
+RocketHideout_9F_Presentacion_Sala_Texto_6:
+	.string "Nunca pongas a tu enemigo entre la\n"
+	.string "espada y la pared, sacará lo mejor de sí.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_7:
+	.string "Hasta ahora, nos hemos guiado por esa\n"
+	.string "máxima en lo que a ROJO se refiere.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_8:
+	.string "Pero ha llegado el momento de mostrar\n"
+	.string "todas las cartas, somos nosotros los\l"
+	.string "que hemos llegado a esa situación.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_9:
+	.string "¡No te contengas, {PLAYER}!$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_10:
+	.string "¡Da lo mejor de ti en la LIGA POKÉMON!$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_11:
+	.string "¡Pon a ROJO entre la espada y la pared,\n"
+	.string "muéstrale algo que jamás ha visto, y\l"
+	.string "entonces…!$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_12:
+	.string "Entonces…$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_13:
+	.string "…será incapaz de reaccionar a\n"
+	.string "tiempo, de dar lo mejor de sí.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
 .string "GIOVANNI: Bien, ya estás aquí,\n"
@@ -107,8 +146,8 @@ RocketHideout_9F_Presentacion_Sala_Texto_5:
 	.string "mantener la cabeza fría y sacar a\l"
 	.string "relucir lo mejor de tu equipo.\l"
 	.string "Desde aquí estaremos atentos a lo\l"
-	.string "que ocurra {PLAYER}, no estarás\l"
-	.string "solo enfrentando a la ÉLITE 4.$"
+	.string "que ocurra. No estarás solo\l"
+	.string "enfrentando a la ÉLITE 4.$"
 
 RocketHideout_9F_Presentacion_Sala_Move_1:
 walk_up

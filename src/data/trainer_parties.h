@@ -444,7 +444,7 @@ static const struct TrainerMonItemCustomMoves sParty_Guru[] = {
 static const struct TrainerMonItemCustomMoves sParty_Vero[] = {
     {
     .iv = 0,
-    .lvl = 24,
+    .lvl = 26,
     .species = SPECIES_NIDORINA,
     .heldItem = ITEM_POISON_BARB,
     .evs = {0, 0, 0, 0, 0, 0},
@@ -453,7 +453,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vero[] = {
     },
     {
     .iv = 0,
-    .lvl = 23,
+    .lvl = 25,
     .species = SPECIES_PONYTA,
     .heldItem = ITEM_CHARCOAL,
     .evs = {0, 0, 0, 0, 0, 0},
@@ -462,7 +462,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vero[] = {
     },
     {
     .iv = 0,
-    .lvl = 25,
+    .lvl = 27,
     .species = SPECIES_CLEFABLE,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {0, 0, 0, 0, 0, 0},
@@ -562,7 +562,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ghost[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_GruntMuseum2[] = {
     {
-    .iv = 255,
+    .iv = 180,
     .lvl = 32,
     .species = SPECIES_MISDREAVUS,
     .evs = {0, 0, 0, 0, 0, 0},
@@ -570,15 +570,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntMuseum2[] = {
     .moves = {MOVE_PSYBEAM, MOVE_SHADOW_BALL, MOVE_CONFUSE_RAY, MOVE_HYPNOSIS}
     },
     {
-    .iv = 255,
+    .iv = 180,
     .lvl = 33,
     .species = SPECIES_XATU,
-    .evs = {50, 50, 50, 50, 50, 50},
+    .evs = {32, 32, 32, 32, 32, 32},
     .nature = NATURE_MODEST,
     .moves = {MOVE_PSYBEAM, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_REFLECT}
     },
     {
-    .iv = 255,
+    .iv = 180,
     .lvl = 34,
     .species = SPECIES_DUSCLOPS,
     .evs = {6, 0, 252, 0, 0, 252},
@@ -39542,59 +39542,77 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER699[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER700[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER700[] = {
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 100,
+    .lvl = 23,
+    .species = SPECIES_EEVEE,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_QUICK_ATTACK, MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE}
     },
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 125,
+    .lvl = 24,
+    .species = SPECIES_DRATINI,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_DRAGON_RAGE, MOVE_THUNDER_WAVE, MOVE_SLAM, MOVE_NONE}
     },
     {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 150,
+    .lvl = 25,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SLUDGE, MOVE_HORN_ATTACK, MOVE_DOUBLE_KICK, MOVE_NONE}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER701[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER701[] = {
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 0,
+    .lvl = 23,
+    .species = SPECIES_KRABBY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_DRAGON_RAGE, MOVE_THUNDER_WAVE, MOVE_SLAM, MOVE_NONE}
     },
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 0,
+    .lvl = 24,
+    .species = SPECIES_MACHOKE,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS, MOVE_FOCUS_ENERGY, MOVE_NONE}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER702[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER702[] = {
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 0,
+    .lvl = 22,
+    .species = SPECIES_MAGNEMITE,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_THUNDER_SHOCK, MOVE_SONIC_BOOM, MOVE_MAGNET_BOMB, MOVE_NONE}
     },
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 0,
+    .lvl = 23,
+    .species = SPECIES_SLOWPOKE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_YAWN, MOVE_WATER_GUN, MOVE_CONFUSION, MOVE_NONE}
     }
     
 };
