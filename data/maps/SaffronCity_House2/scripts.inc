@@ -1,5 +1,19 @@
 SaffronCity_House2_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_House2_WarpDinamica
 	.byte 0
+
+SaffronCity_House2_WarpDinamica:
+goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_House2_NeoSaffron
+setdynamicwarp MAP_SAFFRON_CITY, 22, 15
+end	
+
+SaffronCity_House2_NeoSaffron::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 26, 14
+end
+	
+
+
+
 
 SaffronCityHouse2_1::
 lock     
