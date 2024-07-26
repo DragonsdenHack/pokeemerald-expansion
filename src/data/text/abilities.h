@@ -93,7 +93,7 @@
     static const u8 sAdaptabilityDescription[] = _("Potencia mov. mismo tipo.");
     static const u8 sSkillLinkDescription[] = _("Siempre pot. mult. golpe.");
     static const u8 sHydrationDescription[] = _("Cura estado si llueve.");
-    static const u8 sSolarPowerDescription[] = _("Sube el Ataque con sol.");
+    static const u8 sSolarPowerDescription[] = _("Sube el At.Especial con sol.");
     static const u8 sQuickFeetDescription[] = _("Sube Vel. con prob. est.");
     static const u8 sNormalizeDescription[] = _("Mov. vuelven tipo Normal.");
     static const u8 sSniperDescription[] = _("Potencia mov. críticos.");

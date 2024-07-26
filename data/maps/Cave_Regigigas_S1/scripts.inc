@@ -37,12 +37,12 @@ Cave_Regigigas_EventScript_Devon_7::
 	end
 
 Cave_Regigigas_EventScript_Devon_8::
-	trainerbattle_single TRAINER_TRAINER_683, Cave_Regigigas_Devon_8_Text_PoliciaIntro, Cave_Regigigas_Devon_8_Text_PoliciaDefeat
+	trainerbattle_single TRAINER_TRAINER_693, Cave_Regigigas_Devon_8_Text_PoliciaIntro, Cave_Regigigas_Devon_8_Text_PoliciaDefeat
 	msgbox Cave_Regigigas_Devon_8_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Cave_Regigigas_EventScript_Devon_9::
-	trainerbattle_single TRAINER_TRAINER_684, Cave_Regigigas_Devon_9_Text_PoliciaIntro, Cave_Regigigas_Devon_9_Text_PoliciaDefeat
+	trainerbattle_single TRAINER_TRAINER_694, Cave_Regigigas_Devon_9_Text_PoliciaIntro, Cave_Regigigas_Devon_9_Text_PoliciaDefeat
 	msgbox Cave_Regigigas_Devon_9_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

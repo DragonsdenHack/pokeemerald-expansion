@@ -2,10 +2,10 @@
   "id": "MAP_CAVE_REGIGIGAS_S6",
   "name": "Cave_Regigigas_S6",
   "layout": "LAYOUT_CAVE_REGIGIGAS_S6",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "638",
   "region_map_section": "MAPSEC_SEALED_CHAMBER",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S6_Primer_NPC",
       "flag": "FLAG_HOENN_62"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S6_Segundo_NPC",
       "flag": "FLAG_HOENN_62"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S6_Tercer_NPC",
       "flag": "FLAG_HOENN_62"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S6_Cuarto_NPC",
       "flag": "FLAG_HOENN_62"
     },
     {
@@ -71,7 +71,7 @@
       "x": 14,
       "y": 20,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",

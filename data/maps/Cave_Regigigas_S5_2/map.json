@@ -2,7 +2,7 @@
   "id": "MAP_CAVE_REGIGIGAS_S5_2",
   "name": "Cave_Regigigas_S5_2",
   "layout": "LAYOUT_CAVE_REGIGIGAS_S5_2",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_SEALED_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
       "x": 16,
-      "y": 12,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S5_2_Post_Zafiro",
       "flag": "FLAG_HOENN_59"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S5_2_Post_Esmeralda",
       "flag": "FLAG_HOENN_59"
     },
     {
@@ -89,15 +89,15 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cave_Regigigas_S5_2_NPC_Sexto",
       "flag": "FLAG_HOENN_61"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 41,
-      "y": 10,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -108,7 +108,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
       "x": 40,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -129,7 +129,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "19",
+      "script": "Cave_Regigigas_S5_2_Esmeralda_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "19",
+      "script": "Cave_Regigigas_S5_2_Esmeralda_Izq"
+    }
   ],
   "bg_events": [
 

@@ -356,8 +356,8 @@ static const u8 sEarthquakeDescription[] = _(
     "contra voladores.");
 
 static const u8 sFissureDescription[] = _(
-    "Ataque de tierra.\n"
-    "Fulmina en 1 golpe.");
+    "Ataque tierra devastador.\n"
+    "Baja At y Def del usuario.");
 
 static const u8 sDigDescription[] = _(
     "1.{SUPER_ER} turno: cava.\n"
