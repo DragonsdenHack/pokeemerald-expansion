@@ -314,4 +314,205 @@ Base_Hoenn_Ascenso_Texto_3:
 	.string "uniforme para celebrarlo. Espero que\l"
 	.string "sirva de motivación para lo que viene.$"
 
+Base_Hoenn_Andra::
+lock
+msgbox Base_Hoenn_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_23 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_24 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_25 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_26 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_27 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_28 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_29 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_30 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_31 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_32 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_33 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_34 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_35 MSGBOX_AUTOCLOSE
+msgbox Base_Hoenn_Andra_Texto_36 MSGBOX_AUTOCLOSE
+release
+end
+
+Base_Hoenn_Andra_Texto_1:
+	.string "Dime, {PLAYER}.$"
+
+Base_Hoenn_Andra_Texto_2:
+	.string "¿No has tenido nunca la sensación de\n"
+	.string "estar… perdiéndote algo?$"
+
+Base_Hoenn_Andra_Texto_3:
+	.string "¿De tener una corazonada e ignorarla\n"
+	.string "porque, en caso de ser cierta,\l"
+	.string "desmoronaría los pilares del mundo que\l"
+	.string "crees conocer?$"
+
+Base_Hoenn_Andra_Texto_4:
+	.string "Echo la vista atrás y me doy cuenta de\n"
+	.string "lo intensos que han sido estos tres\l"
+	.string "años.$"
+
+Base_Hoenn_Andra_Texto_5:
+	.string "Demasiados eventos como para no pasar\n"
+	.string "por alto muchos de sus matices.$"
+
+Base_Hoenn_Andra_Texto_6:
+	.string "Estuvimos en la caída de LANCE, vimos\n"
+	.string "las dos caras de PUEBLO LAVANDA, los\l"
+	.string "últimos grandes maestros de JOHTO…$"
+
+Base_Hoenn_Andra_Texto_7:
+	.string "Participamos también en las primeras\n"
+	.string "reuniones de CIUDAD TRIGAL…$"
+
+Base_Hoenn_Andra_Texto_8:
+	.string "…ahí vimos de primera mano cómo hay\n"
+	.string "secretos que las masas jamás\l"
+	.string "conocerán, y tal vez no deban conocer.$"
+
+Base_Hoenn_Andra_Texto_9:
+	.string "Muchos de esos secretos, enfrente de\n"
+	.string "sus narices. Conviven con ellos en su\l"
+	.string "día a día.$"
+
+Base_Hoenn_Andra_Texto_10:
+	.string "Eso me llevó a preguntarme…$"
+
+Base_Hoenn_Andra_Texto_11:
+	.string "¿No habremos estado nosotros también\n"
+	.string "pasando por alto el verdadero devenir\l"
+	.string "de esta región?$"
+
+Base_Hoenn_Andra_Texto_12:
+	.string "La KANTO-JOHTO que conocemos se\n"
+	.string "acerca mucho más a la realidad que la\l"
+	.string "KANTO-JOHTO que cree conocer el\l"
+	.string "ciudadano medio, no hay duda.$"
+
+Base_Hoenn_Andra_Texto_13:
+	.string "Pero…$"
+
+Base_Hoenn_Andra_Texto_14:
+	.string "¿Es nuestra visión de KANTO-JOHTO\n"
+	.string "totalmente fiel a la verdad? ¿O estamos\l"
+	.string "aún en una capa inferior de esta?$"
+
+Base_Hoenn_Andra_Texto_15:
+	.string "Superior a otras capas tal vez, pero\n"
+	.string "insuficiente como para asomarnos a la\l"
+	.string "superficie.$"
+
+Base_Hoenn_Andra_Texto_16:
+	.string "De ser así, y teniendo ya el mundo a tus\n"
+	.string "pies ¿arriesgarías tu posición solo\l"
+	.string "para poner a prueba la realidad? ¿Para\l"
+	.string "confirmar que no vives más que en una\l"
+	.string "feliz ignorancia?$"
+
+Base_Hoenn_Andra_Texto_17:
+	.string "Lo que voy a proponerte te parecerá\n"
+	.string "una locura, pero…$"
+
+Base_Hoenn_Andra_Texto_18:
+	.string "El único rincón de toda KANTO y JOHTO\n"
+	.string "que aún no hemos explorado a fondo es…$"
+
+Base_Hoenn_Andra_Texto_19:
+	.string "… …$"
+
+Base_Hoenn_Andra_Texto_20:
+	.string "PUEBLO PALETA.$"
+
+Base_Hoenn_Andra_Texto_21:
+	.string "¿No lo recuerdas? Una de tus primeras\n"
+	.string "misiones al mando de GIOVANNI.$"
+
+Base_Hoenn_Andra_Texto_22:
+	.string "En ese lugar viste algo… viste cómo OAK\n"
+	.string "se esfumaba en tus narices.$"
+
+Base_Hoenn_Andra_Texto_23:
+	.string "Eso bastó para confirmar las sospechas\n"
+	.string "de GIOVANNI y dar por concluída tu\l"
+	.string "búsqueda. Pero jamás profundizamos en\l"
+	.string "ello.$"
+
+Base_Hoenn_Andra_Texto_24:
+	.string "La euforia por ir tras las AVES\n"
+	.string "LEGENDARIAS acaparó toda nuestra\l"
+	.string "atención.$"
+
+Base_Hoenn_Andra_Texto_25:
+	.string "Y así, nuevos y nuevos eventos, en una\n"
+	.string "gran cadena que se extiende hasta hoy\l"
+	.string "y que jamás nos ha dejado echar la\l"
+	.string "vista atrás.$"
+
+Base_Hoenn_Andra_Texto_26:
+	.string "Lo que te pido es muy simple.$"
+
+Base_Hoenn_Andra_Texto_27:
+	.string "Hace 3 años dejaste esa misión a\n"
+	.string "medias; y vas a venir conmigo, a PUEBLO\l"
+	.string "PALETA, para completarla al 100% y\l"
+	.string "desvelar todos sus secretos.$"
+
+Base_Hoenn_Andra_Texto_28:
+	.string "… …$"
+
+Base_Hoenn_Andra_Texto_29:
+	.string "¿OAK?$"
+
+Base_Hoenn_Andra_Texto_30:
+	.string "No te preocupes. El EJECUTIVO de la\n"
+	.string "base me ha puesto al día.$"
+
+Base_Hoenn_Andra_Texto_31:
+	.string "Hace poco celebraron la III REUNIÓN de\n"
+	.string "CIUDAD TRIGAL.$"
+
+Base_Hoenn_Andra_Texto_32:
+	.string "Después, fueron a PUEBLO CAOBA. Parece\n"
+	.string "que la tecnología de ondas de radio\l"
+	.string "mencionada en la II REUNIÓN ha pasado\l"
+	.string "al siguiente nivel.$"
+
+Base_Hoenn_Andra_Texto_33:
+	.string "Ahora, están en la BASE CAOBA\n"
+	.string "realizando más pruebas.$"
+
+Base_Hoenn_Andra_Texto_34:
+	.string "GIOVANNI, OAK, ATLAS, ELM… y parece que\n"
+	.string "ahí seguirán por un buen tiempo.$"
+
+Base_Hoenn_Andra_Texto_35:
+	.string "Es el momento perfecto: PUEBLO PALETA\n"
+	.string "estará desierto.$"
+
+Base_Hoenn_Andra_Texto_36:
+	.string "Ahí te espero. Veremos… si hay un último\n"
+	.string "misterio escondido tras el velo.$"
+
+
 
