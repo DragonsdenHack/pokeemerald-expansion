@@ -1,12 +1,22 @@
 SaffronCity_Gym_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_Gym_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_Gym_OnFrame
+map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_Gym_OnTransition
     .byte 0
 
 SaffronCity_Gym_OnFrame:
 map_script_2 VAR_ROUTE105_STATE, 0, SaffronCity_No_Pass_Gym
 map_script_2 VAR_ROUTE105_STATE, 1, SaffronCity_Can_Pass_Gym
 	.2byte 0
+	
+SaffronCity_Gym_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_Gym_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 46, 12
+end
+
+SaffronCity_Gym_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 46, 12
+end	
 
 SaffronCityGym_EventScript_Exorcista::
 	trainerbattle_single TRAINER_JENNY_2, SaffronCityGym_Text_ExorcistaIntro, SaffronCityGym_Text_ExorcistaDefeated
@@ -63,7 +73,7 @@ waitmovement 0x0
 msgbox SaffronCity_No_Pass_Gym_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_No_Pass_Gym_move1
 waitmovement 0x0
-warp MAP_SAFFRON_CITY, 46, 13
+warp MAP_SAFFRON_CITY, 46, 12
 release
 end
 

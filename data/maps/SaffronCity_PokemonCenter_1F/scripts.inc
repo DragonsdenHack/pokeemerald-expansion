@@ -4,7 +4,13 @@ map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_PokemonCenter_1F_OnTransition
 
 SaffronCity_PokemonCenter_1F_OnTransition:
 	setrespawn HEAL_LOCATION_SAFFRON_CITY
+	goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_PokemonCenter_1F_WarpDinamica
+	setdynamicwarp MAP_SAFFRON_CITY, 24, 38
 	end
+	
+SaffronCity_PokemonCenter_1F_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 24, 38
+end		
 
 SaffronCity_PokemonCenter_1F_EventScript_Nurse::
     setvar VAR_0x800B, 1

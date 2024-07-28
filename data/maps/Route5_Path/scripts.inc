@@ -1,5 +1,15 @@
 Route5_Path_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, Route5Path_OnTransition
 	.byte 0
+	
+Route5Path_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, Route5_Path_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 34, 5
+end
+
+Route5_Path_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 34, 5
+end		
 
 Route5Path_1::
 lock

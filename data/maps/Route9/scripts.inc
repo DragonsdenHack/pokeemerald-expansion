@@ -1,5 +1,11 @@
 Route9_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, Route9_OnResume
 	.byte 0
+	
+Route9_OnResume:
+	removeobject 11, MAP_CERULEAN_CITY
+	hideobjectat 11, MAP_CERULEAN_CITY
+	end		
 
 Route9_1::
 end

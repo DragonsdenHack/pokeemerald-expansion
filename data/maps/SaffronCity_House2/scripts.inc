@@ -4,7 +4,7 @@ map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_House2_WarpDinamica
 
 SaffronCity_House2_WarpDinamica:
 goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_House2_NeoSaffron
-setdynamicwarp MAP_SAFFRON_CITY, 22, 15
+setdynamicwarp MAP_SAFFRON_CITY, 22, 14
 end	
 
 SaffronCity_House2_NeoSaffron::
