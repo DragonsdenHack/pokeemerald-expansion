@@ -1256,6 +1256,12 @@ $(OBJEVENTGFXDIR)/pokemon/wigglytuff.4bpp: %.4bpp: %.png
 	
 $(OBJEVENTGFXDIR)/pokemon/whismur.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2	
+
+$(OBJEVENTGFXDIR)/pokemon/teddiursa.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/pokemon/ursaring.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
 	
 $(OBJEVENTGFXDIR)/pokemon/zapdos.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4

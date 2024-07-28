@@ -594,6 +594,8 @@ const u16 gObjectEventPic_Zapdos[] = INCBIN_U16("graphics/object_events/pics/pok
 const u16 gObjectEventPic_Zapdos2[] = INCBIN_U16("graphics/object_events/pics/people/zapdos2.4bpp");
 const u16 gObjectEventPic_Moltres[] = INCBIN_U16("graphics/object_events/pics/pokemon/moltres.4bpp");
 const u16 gObjectEventPic_Whismur[] = INCBIN_U16("graphics/object_events/pics/pokemon/whismur.4bpp");
+const u16 gObjectEventPic_Teddiursa[] = INCBIN_U16("graphics/object_events/pics/pokemon/teddiursa.4bpp");
+const u16 gObjectEventPic_Ursaring[] = INCBIN_U16("graphics/object_events/pics/pokemon/ursaring.4bpp");
 //misc
 
 const u16 gObjectEventPic_Fossil2[] = INCBIN_U16("graphics/object_events/pics/misc/fossil2.4bpp");
@@ -835,3 +837,5 @@ const u16 gObjectEventPal_Jirachi2[] = INCBIN_U16("graphics/object_events/palett
 const u16 gObjectEventPal_MiloticP[] = INCBIN_U16("graphics/object_events/palettes/miloticp.gbapal");
 const u16 gObjectEventPal_RegigigasP[] = INCBIN_U16("graphics/object_events/palettes/regigigasp.gbapal");
 const u16 gObjectEventPal_Whismur[] = INCBIN_U16("graphics/object_events/palettes/whismur.gbapal");
+const u16 gObjectEventPal_Teddiursa[] = INCBIN_U16("graphics/object_events/palettes/teddiursa.gbapal");
+const u16 gObjectEventPal_Ursaring[] = INCBIN_U16("graphics/object_events/palettes/ursaring.gbapal");

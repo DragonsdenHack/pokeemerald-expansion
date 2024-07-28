@@ -538,7 +538,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegigigasP;
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MiloticP;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teddiursa;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ursaring;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -1060,6 +1062,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_WHISMUR] = &gObjectEventGraphicsInfo_Whismur,
 	[OBJ_EVENT_GFX_REGIGIGASP] = &gObjectEventGraphicsInfo_RegigigasP,
 	[OBJ_EVENT_GFX_MILOTICP] = &gObjectEventGraphicsInfo_MiloticP,
+	[OBJ_EVENT_GFX_TEDDIURSA] = &gObjectEventGraphicsInfo_Teddiursa,
+	[OBJ_EVENT_GFX_URSARING] = &gObjectEventGraphicsInfo_Ursaring,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
