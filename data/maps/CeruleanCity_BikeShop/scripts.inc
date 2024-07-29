@@ -27,10 +27,9 @@ release
 end
 
 CeruleanCity_BikeShop_Text_3:
-.string "No one will let you buy a BICYCLE with\n"
-	.string "your dirty money obtained\l"
-	.string "dishonorably, get away before I call\l"
-	.string "POLICE!$"
+	.string "No one'll sell you a BICYCLE here with\n"
+	.string "your dirty blood money. Now scat before\l"
+	.string "I call the POLICE!$"
 
 
 
@@ -83,25 +82,25 @@ release
 end
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
-.string "This place is not for beggar people like\n"
-	.string "you that can barely pay for your own\l"
-	.string "existence, if you don't have the million\l"
-	.string "POKÉ that cost the BICYCLE, this is\l"
-	.string "not your place.$"
+	.string "This isn't the place for beggars like\n"
+	.string "you who can hardly afford their own\l"
+	.string "existence. If you aren't stacked with\l"
+	.string "the millions of POKÉ that BICYCLEs\l"
+	.string "cost, you just don't belong.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
-.string "I will have a conversation with that\n"
-	.string "FANS CLUB CHAIRMAN, you are the third\l"
-	.string "that comes asking for a new free BIKE\l"
-	.string "due to that BIKE VOUCHER, I don't care\l"
-	.string "about if he paid it before. Do you know\l"
-	.string "how my business reputation goes down\l"
-	.string "when people notice that 2 beggar kids\l"
-	.string "and a ROCKET goes with my trademark\l"
-	.string "BIKES? That affects the final decision\l"
-	.string "of those who really buy it, they will\l"
-	.string "just buy the BIKE if they know that is\l"
-	.string "a product that not many have!$"
+	.string "I'll be having a chat with that FAN CLUB\n"
+	.string "CHAIRMAN later. You're the third punk in\l"
+	.string "a row to waltz on in for a free BICYCLE\l"
+	.string "with that BIKE VOUCHER of his. I don't\l"
+	.string "give a flying RATTATA about him paying\l"
+	.string "the cost for it! You see how my\l"
+	.string "business's rep tanks when people catch\l"
+	.string "wind about two brats and a ROCKET\l"
+	.string "walking out with my trademark BIKEs?\l"
+	.string "That plays into the final decision of my\l"
+	.string "buyers. They'll buy me out if it's a\l"
+	.string "product of prestige and scarcity!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}\n"
@@ -112,18 +111,17 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
 	.string "you get it from?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
-.string "The FANS CLUB CHAIRMAN from\n"
-	.string "VERMILION? And who is he to decide\l"
-	.string "that is valid in my shop? I lead a\l"
-	.string "serious business not an asylum, do you\l"
-	.string "get it? I can't let that people come\l"
-	.string "often with a gift VOUCHER, that means\l"
-	.string "a one million POKÉ lose, so much money\l"
-	.string "that you will never be able to have it,\l"
-	.string "if this shop is successfully it is\l"
-	.string "because rich people that doesn't know\l"
-	.string "the real value of things and they would\l"
-	.string "pay any price for any product, not for\l"
+	.string "That FAN CLUB CHAIRMAN in VERMILION?\n"
+	.string "And who is he to decide if that's valid\l"
+	.string "in my shop? I lead a serious business,\l"
+	.string "not some dingey asylum. Do you get it? I\l"
+	.string "can't just let people barge in with a\l"
+	.string "gift VOUCHER. That's one million down\l"
+	.string "the drain-so many fat stacks that\l"
+	.string "someone like you couldn't ever dream of.\l"
+	.string "If this shop sees any success, it's\l"
+	.string "'cause of rich dummies who'd pay any\l"
+	.string "price in their blissful ignorance, not\l"
 	.string "thieves like you.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:

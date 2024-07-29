@@ -9,6 +9,7 @@ release
 end
 
 VermilionCity_House2_Text_1:
-.string "My poor FARFETCH'D! I would never let it\n"
-	.string "on a ROCKET hands! Even if you offer me\l"
-	.string "a powerful and majestic PIDGEOT!$"
+	.string "My poor FARFETCH'D! I'd never let it\n"
+	.string "touch a ROCKET's hand! Not even if you\l"
+	.string "offered me a powerful and majestic\l"
+	.string "PIDGEOT!$"

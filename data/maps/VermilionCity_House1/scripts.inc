@@ -70,55 +70,54 @@ end
 
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_1:
-.string "Damn it TAMER{PAUSE 15}…{PAUSE 15} It's his fault everybody\n"
-	.string "makes fun of my OLD ROD. I can't let it\l"
-	.string "stay like this, my brothers will take all\l"
-	.string "the profits…$"
+	.string "Darn that TAMER… Because of him,\n"
+	.string "everybody makes fun of my OLD ROD. I\l"
+	.string "can't let things stay like this, or my\l"
+	.string "brothers'll hog all the glory…$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_2:
 .string "…\n"
 	.string "…$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_3:
-.string "You're a ROCKET! Won't be hard for you\n"
-	.string "giving what a scoundrel deserves who\l"
-	.string "is destroying my reputation! Right?$"
+	.string "You're a ROCKET! It shouldn't be a\n"
+	.string "challenge for you to give a scoundrel\l"
+	.string "what he deserves for ruining my\l"
+	.string "reputation! Isn't that right?$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_4:
-.string "If you take care of MAGIKARP, soon you\n"
-	.string "will have a POKÉMON that everyone in\l"
-	.string "your organization will envy and they\l"
-	.string "will respect you, it will give you\l"
-	.string "hierarchy into battles, maybe and you\l"
-	.string "will get ascended!$"
+	.string "Take good care of that MAGIKARP, and\n"
+	.string "soon, you and it will be the envy of your\l"
+	.string "whole organization. They'll respect you!\l"
+	.string "You'll haul in some major wins, and who\l"
+	.string "knows? Maybe you'll get promoted!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_5:
-.string "For real you teached him a lesson? And\n"
-	.string "was so scared of your menaces that will\l"
-	.string "never talk back again about my OLD\l"
-	.string "ROD? You should be a very important\l"
-	.string "person inside TEAM ROCKET if you were\l"
-	.string "able to defeat those POKÉMON, for sure\l"
-	.string "this POKÉMON will help you a lot.$"
+	.string "For real?! You taught him a lesson? And\n"
+	.string "you shook him up enough that he'll\l"
+	.string "never talk smack about my OLD ROD?\l"
+	.string "You've gotta be a big shot in TEAM\l"
+	.string "ROCKET if you could handle his POKÉMON.\l"
+	.string "Say, this whopper'll help out a lot.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_6:
 .string "YOU RECEIVED A MAGIKARP AT LV:5!!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7:
-.string "What? Did you expect something better?\n"
-	.string "Let me tell you ROCKET, this POKÉMON is\l"
-	.string "one of the best KANTO POKÉMONS, a real\l"
-	.string "DRAGON type that LANCE himself has in\l"
-	.string "his own team. Not even enough, I gave\l"
-	.string "you a RARE CANDY equipped in the\l"
-	.string "MAGIKARP for easier training, not many\l"
-	.string "people have that detail, eh? Use it on\l"
-	.string "LEVEL 19 and enjoy the most radical\l"
-	.string "evolution that you could see!$"
+	.string "What? Did you expect a better haul?\n"
+	.string "Lemme tell you, ROCKET. This is one of\l"
+	.string "the best catches in all of KANTO. A real\l"
+	.string "DRAGON even LANCE himself fields in his\l"
+	.string "own team. On top of that, that\l"
+	.string "MAGIKARP's got a RARE CANDY for easy\l"
+	.string "training. Not many people have that\l"
+	.string "attention to detail, eh? Use it when\l"
+	.string "it's LEVEL 19 and enjoy the most radical\l"
+	.string "evolution you'll ever get to see!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_8:
 .string "Did you find that TAMER?\n"
-	.string "Remember! He lives in CELADON MANSION!$"
+	.string "Remember-he's in CELADON MANSION!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 .string "Would you be willing to make a small\n"
@@ -127,40 +126,38 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 	.string "can't find anywhere!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_10:
-.string "Alright! Look ROCKET, not long ago a\n"
-	.string "TAMER came here and asked for an OLD\l"
-	.string "ROD, he wanted to fish a KINGLER for\l"
-	.string "his spectacle, but when he saw it just\l"
-	.string "catches MAGIKARP, he began to defame\l"
-	.string "me saying my OLD ROD doesn't work and it\l"
-	.string "was a scam.$"
+	.string "All right! Look here, ROCKET. Not even a\n"
+	.string "few days ago, a TAMER came by and\l"
+	.string "bought an OLD ROD. He wanted to make a\l"
+	.string "spectacle of fishing up a KINGLER, but\l"
+	.string "when he hauled only MAGIKARP, he\l"
+	.string "started trashing me, saying my OLD\l"
+	.string "ROD's just a scam.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_11:
-.string "I won't lie that it just works to catch\n"
-	.string "MAGIKARP, but that's exactly its\l"
-	.string "function, that rod allows you to fish\l"
-	.string "that common POKÉMON with that high\l"
-	.string "potential, that TAMER misrepresented\l"
-	.string "my OLD ROD use and made people think\l"
-	.string "that I am a joke compared to my\l"
-	.string "brothers.$"
+	.string "I won't lie. It catches just MAGIKARP.\n"
+	.string "But that's the point. It lets you haul\l"
+	.string "that common POKÉMON that's got big\l"
+	.string "potential. But that TAMER\l"
+	.string "misrepresented my OLD ROD's use and\l"
+	.string "made people think I'm just a joke\l"
+	.string "compared to my brothers.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_12:
-.string "I want you to go CELADON CITY, where he\n"
-	.string "lives and you teach him a lesson from\l"
-	.string "VERMILION CITY's FISHING GURU, that\l"
-	.string "should be good enough for him to stop\l"
-	.string "saying trash about my OLD ROD, be clear\l"
-	.string "about that TEAM ROCKET doesn't warn\l"
-	.string "twice, the next time you will ruin his\l"
-	.string "business or something like that. When\l"
-	.string "you finish the task, come back here and\l"
-	.string "I will give you a fantastic POKÉMON.$"
+	.string "I want you to head over to CELADON\n"
+	.string "CITY-that's where he lives. Just teach\l"
+	.string "him a lesson from VERMILION CITY's\l"
+	.string "FISHING GURU. That ought'a make him cut\l"
+	.string "the trash talk about my OLD ROD. Just\l"
+	.string "be clear that TEAM ROCKET doesn't give\l"
+	.string "second warnings-maybe threaten to make\l"
+	.string "him go under or something. When you\l"
+	.string "finish up, come on back, and I'll give\l"
+	.string "you a fantastic POKÉMON.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_13:
-.string "No?\n"
-.string "I thought that ROCKETS loved this kind\l"
-	.string "of jobs.$"
+	.string "No? I thought that ROCKETs loved this\n"
+	.string "sort of work.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Move_1:
 emote_exclamation_mark

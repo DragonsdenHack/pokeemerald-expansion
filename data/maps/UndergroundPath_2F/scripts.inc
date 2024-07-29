@@ -34,10 +34,9 @@ release
 end
 
 UndergroundPath2F_4_Texto_1:
-.string "The speculation with EEVEE is growing,\n"
-	.string "if I buy 5 and I keep them for a lot of\l"
-	.string "years, I can earn the double that I\l"
-	.string "inverted.$"
+	.string "The speculative EEVEE market's growing.\n"
+	.string "If I buy five and hold them for years,\l"
+	.string "I'll earn double my investment.$"
 
 
 
@@ -48,10 +47,10 @@ release
 end
 
 UndergroundPath2F_5_Texto_1:
-.string "A VAPOREON is all that I need to\n"
-	.string "complete my spectaculous, when\l"
-	.string "VAPOREON uses ACID ARMOR in the water,\l"
-	.string "everyone will be shocked.$"
+	.string "A VAPOREON's all I need to complete my\n"
+	.string "show. When it dissipates with ACID\l"
+	.string "ARMOR in the water, everyone'll be\l"
+	.string "shocked.$"
 
 UndergroundPath2F_Andra::
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath2F_Andra_move_1
@@ -88,60 +87,56 @@ release
 end
 
 UndergroundPath2F_Andra_Text_1:
-.string "ANDRA: {PLAYER}! Excuse me for going\n"
-	.string "further than you, but I wanted to\l"
-	.string "hatch my egg as soon as possible\l"
-	.string "after ARCHER gave it to us after completing\l"
-	.string "our CHRONO ISLAND mission. So that way\l"
-	.string "I can begin to train it.$"
+	.string "ANDRA: {PLAYER}! Excuse me for going\n"
+	.string "on ahead, but I wanted to hatch the egg\l"
+	.string "that ARCHER gave me after the mission\l"
+	.string "on FIVE ISLAND ASAP. That way, I can\l"
+	.string "start on training it.$"
 
 UndergroundPath2F_Andra_Text_2:
-    .string "In the rush I forgot to inform you\n"
-	.string "about the place that has assigned us\l"
-	.string "for the next missions, there are\l"
-	.string "several topics that seem to require\l"
-	.string "our intervention.$"
+	.string "In my rush, I forgot to inform you of\n"
+	.string "our newly assigned base for the\l"
+	.string "upcoming missions. There's a few things\l"
+	.string "that seem to require our intervention.$"
 
 UndergroundPath2F_Andra_Text_3:
-    .string "Meanwhile, what do you think about\n"
-	.string "KANTO people? Seems like they don't\l"
-	.string "like us too much, eh? It looks like\l"
-	.string "ELITE FOUR started a discredit\l"
-	.string "campaign against our organization, a\l"
-	.string "bit later than war happened.$"
+	.string "By the way, what're your thoughts on\n"
+	.string "the KANTO folks? Seems like they don't\l"
+	.string "like us all that much, eh? It looks like\l"
+	.string "the ELITE FOUR started a campaign to\l"
+	.string "discredit our organization a bit after\l"
+	.string "the war.$"
 
 UndergroundPath2F_Andra_Text_4:
-    .string "I have had time since my defeat against\n"
-	.string "the CONSUL to improve my POKÉMON TEAM,\l"
-	.string "I very much doubt that she can beat me\l"
-	.string "now, however, I want to test if the\l"
-	.string "outcome of our first fight in the\l"
-	.string "presence of ARCHER was a coincidence\l"
-	.string "or not, get ready, I will go all out!$"
+	.string "I've had some time since my loss against\n"
+	.string "the CONSUL to improve my POKÉMON. I\l"
+	.string "very much doubt she could beat me now.\l"
+	.string "But I want to test if the results of our\l"
+	.string "first battle before ARCHER was just a\l"
+	.string "coincidence. Get ready. I'm going all\l"
+	.string "out!$"
 
 UndergroundPath2F_Andra_Text_5:
-    .string "So it was no coincidence, you are truly\n"
+	.string "So it was no coincidence. You truly are\n"
 	.string "a remarkable TRAINER.$"
 
 UndergroundPath2F_Andra_Text_6:
-    .string "So you are going hard, uh? I should be\n"
-	.string "happy, I prefer someone like you at my\l"
-	.string "side on future missions than someone\l"
-	.string "mediocre, but don't fool yourself. I'm\l"
-	.string "going to surpass your level at any\l"
-	.string "moment. I will become the strongest\l"
-	.string "and most efficient GRUNT in the whole\l"
+	.string "So you're serious. I ought to be\n"
+	.string "happy-I'd rather someone on my level\l"
+	.string "watch my back, rather than someone\l"
+	.string "mediocre. But don't get complacent. I'm\l"
+	.string "gonna surpass your level any time now.\l"
+	.string "I'll become the strongest, most\l"
+	.string "efficient GRUNT in the whole\l"
 	.string "organization.$"
 
 UndergroundPath2F_Andra_Text_7:
 	.string "A messenger told me that the ROCKET\n"
-	.string "ADMINISTRATOR of this area, PETREL,\l"
-	.string "has summoned us to the POKÉMON DAY\l"
-	.string "CARE center that is across this\l"
-	.string "underground, he said that we should\l"
-	.string "enter the place secretly and without\l"
-	.string "being seen, that's all. So see you\l"
-	.string "there. Don't be late, okay!$"
+	.string "ADMINISTRATOR here, PETREL, has\l"
+	.string "summoned us to the POKÉMON DAY CARE\l"
+	.string "just across this path. He said to enter\l"
+	.string "discreetly-no witnesses. That's all, so\l"
+	.string "see you there. Hey, don't be late!$"
 
 UndergroundPath2F_Andra_move_1:
 walk_in_place_up
@@ -385,48 +380,48 @@ face_player
 step_end
 
 UndergroundPath2F_Secundaria_Eevees_Texto_1:
-.string "That's it{PAUSE 15}…{PAUSE 15} Everyone in line{PAUSE 15}…{PAUSE 15} Do not\n"
-	.string "worry{PAUSE 15}…{PAUSE 15} There will be for everyone…$"
+	.string "That's it… Everyone in line… Don't you\n"
+	.string "worry… There will be enough for\l"
+	.string "everyone…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_2:
-.string "Keep it in mind ROCKET, you have only\n"
-	.string "managed to delay the date on which\l"
-	.string "those subways will close, in 3 years\l"
-	.string "there will be no trace of them.$"
+	.string "Bear in mind, ROCKET. You've only\n"
+	.string "managed to delay the closure of the\l"
+	.string "subways. In three years, there'll be no\l"
+	.string "trace of them.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
-.string "What's your problem, ROCKET? If you\n"
+	.string "What's your problem, ROCKET? If you\n"
 	.string "want an EEVEE, get in line like everyone\l"
-	.string "else, I hope you have the million POKÉ\l"
-	.string "that it costs. Otherwise, don't waste\l"
-	.string "my time anymore and go back to your…$"
+	.string "else. I hope you've got the million-POKÉ\l"
+	.string "fee. Otherwise, quit wasting my time and\l"
+	.string "go back to your…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_5:
-.string "That naive SCIENTIST sends you to\n"
-	.string "retrieve these EEVEES? I don't know\l"
-	.string "what you're talking about ROCKET,\l"
-	.string "nobody here cares about the origin of\l"
-	.string "the EEVEES, the only thing that\l"
-	.string "matters is that they are here and they\l"
-	.string "have a price, quite juicy by the way.$"
+	.string "That naive SCIENTIST sent you to\n"
+	.string "retrieve these EEVEE? I don't know\l"
+	.string "what you're talking about, ROCKET. No\l"
+	.string "one here cares about where they came\l"
+	.string "from. The only thing that matters is\l"
+	.string "that they're here and that they've got\l"
+	.string "a price. A juicy one, at that.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_6:
-.string "Enough! I'm at the end of my rope! What\n"
-	.string "a pity that the only thing that poor\l"
-	.string "fool can aspire to is to hire the\l"
-	.string "services of a mediocre GRUNT ROCKET\l"
-	.string "who can do nothing in the face of the\l"
-	.string "category of POKÉMON that are the\l"
-	.string "evolutions of EEVEE!$"
+	.string "Enough! I'm at the end of my rope! What\n"
+	.string "a pity the only thing that poor sap can\l"
+	.string "do is hire the services of a mediocre\l"
+	.string "ROCKET GRUNT who can do nothing in the\l"
+	.string "face of the category of POKÉMON that\l"
+	.string "are the evolutions of EEVEE!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_7:
-.string "But who are you? Wait! You weren't the\n"
-	.string "one who knocked down lonely to all the\l"
-	.string "security of SILPH?!$"
+	.string "But who're you? Wait! Weren't you the\n"
+	.string "one who toppled all of SILPH security\l"
+	.string "by his lonesome?!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_8:
 .string "It's {PLAYER}! One of the most\n"
@@ -441,15 +436,13 @@ UndergroundPath2F_Secundaria_Eevees_Texto_10:
 	.string "stolen EEVEES!).$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_11:
-.string "Stupid ROCKET! I thought this black\n"
-	.string "market stuff was your kind of things\l"
-	.string "too! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Are you now working together\l"
-	.string "with SILPH? What's the difference!\l"
-	.string "Anyway, I have already managed to sell\l"
-	.string "7 EEVEES, with the 7 million I've got,\l"
-	.string "I'll be able to finally escape from this\l"
+	.string "… … Are you partnered with SILPH now?\n"
+	.string "What's the difference?! Anyway, I've\l"
+	.string "already pawned off seven EEVEE, and\l"
+	.string "with this seven million I'd just made,\l"
+	.string "I'll finally get to jump ship from this\l"
 	.string "decadent region.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_12:
-.string "Good luck to those of you who stay in\n"
-	.string "KANTO! You will need it!$"
+	.string "Good luck to you all staying in KANTO!\n"
+	.string "You'll need it!$"

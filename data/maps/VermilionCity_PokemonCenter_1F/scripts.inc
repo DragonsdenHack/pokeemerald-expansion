@@ -41,10 +41,10 @@ release
 end
 
 VermilionCity_PokemonCenter_Text_3:
-.string "Health is considered essential in any\n"
-	.string "region, that's why you, the ROCKETS,\l"
-	.string "can freely enter to heal at POKÉMON\l"
-	.string "CENTERS.$"
+	.string "Health is considered essential in any\n"
+	.string "region. That's why you ROCKETs can\l"
+	.string "freely come in and heal at POKÉMON\l"
+	.string "CENTERs.$"
 
 
 

@@ -14,12 +14,12 @@ release
 end
 
 CeruleanCity_Text1:
-.string "This is the CERULEAN CAVE. A very\n"
-	.string "powerful POKÉMON resides here. Entry\l"
-	.string "is prohibited for the entire population\l"
-	.string "of KANTO, just the ELITE 4 has\l"
-	.string "permission to enter here. Better you\l"
-	.string "keep the distances!$"
+	.string "This is CERULEAN CAVE. A dangerous\n"
+	.string "POKÉMON resides here. Entry's\l"
+	.string "prohibited for the entire population of\l"
+	.string "KANTO. Only the ELITE FOUR has\l"
+	.string "permission to enter. You'd better keep\l"
+	.string "your distance!$"
 
 
 CeruleanCity2::
@@ -38,13 +38,13 @@ release
 end
 
 CeruleanCity_Text4:
-.string "You are incredible, {PLAYER}! Did you\n"
-	.string "see his face when you defeated his\l"
-	.string "elite POKÉMON with DIG? I hope that\l"
-	.string "our reward would be enough of your\l"
-	.string "grace, I will stay here for a bit longer.\l"
-	.string "Be careful, no one will take off me this\l"
-	.string "TM DIG!$"
+	.string "You're incredible, {PLAYER}! Did you\n"
+	.string "see his face when you curbstomped his\l"
+	.string "elite POKÉMON and their DIG? I hope\l"
+	.string "this reward suffices your grace. I'll\l"
+	.string "stick around a bit longer myself.\l"
+	.string "Careful now. No one's taking this TM DIG\l"
+	.string "off my hands!$"
 
 
 CeruleanCity5::
@@ -153,9 +153,9 @@ release
 end
 
 CeruleanCity_Text_Izq:     
-.string "(ANDRA is waiting for me in ROUTE 5\n"
-	.string "DAYCARE to see what PETREL wants from\l"
-	.string "us, I can't leave her now).$"
+	.string "(ANDRA's waiting for me in the DAYCARE\n"
+	.string "on ROUTE 5 to see what PETREL needs.\l"
+	.string "Can't be abandoning her now.)$"
 
 
 CeruleanCityIzqMove1:
@@ -182,15 +182,11 @@ end
 
 
 CeruleanCity_Rocket_Excavar_Text_1:
-.string "Hey, ROCKET! Would you like to do a good\n"
-	.string "deal? PETREL ordered me and another\l"
-	.string "GRUNT a mission on CERULEAN CITY and\l"
-	.string "we thought that would be good having\l"
-	.string "some extra help, are you in?\l"
-	.string "{PAUSE 10}…{PAUSE 10}\l"
-	.string "{PAUSE 10}…{PAUSE 10}\l"
-	.string "Nice!\l"
-	.string "Let's go!$"
+	.string "Hey, ROCKET! You want in on a good deal?\n"
+	.string "PETREL sent me and another GRUNT on a\l"
+	.string "mission in CERULEAN CITY, and we\l"
+	.string "thought an extra hand would do some\l"
+	.string "good. You in?$"
 
 CeruleanCity_Rocket_Excavar_move1:
 walk_in_place_up
@@ -218,9 +214,9 @@ release
 end
 
 CeruleanCity_Text_Abajo:     
-.string "(My mission is going to MT.MOON to\n"
-	.string "collect FOSSILS, not walking around\l"
-	.string "CERULEAN CITY).$"
+	.string "(My mission's going to MT. MOON to\n"
+	.string "collect FOSSILs, not roaming CERULEAN\l"
+	.string "CITY.)$"
 
 
 CeruleanCityAbajoMove1:
@@ -241,8 +237,8 @@ release
 end
 
 CeruleanCity_Text_Abajo_2:
-.string "(PETREL wants you on his office, where\n"
-	.string "are you going?).$"
+	.string "(PETREL wants me in his office.\n"
+	.string "Where exactly am I off to?)$"
 
 CeruleanCity_Nino::
 lock
@@ -252,8 +248,8 @@ release
 end
 
 CeruleanCity_Nino_Texto_1:
-.string "My mom said that men like you that have\n"
-	.string "a R on your clothes are bad people.$"
+	.string "My momma said men like you with an\n"
+	.string "R on your clothes are baddies.$"
 
 CeruleanCity_Bayas::
 lock
@@ -263,10 +259,10 @@ release
 end
 
 CeruleanCity_Bayas_Texto_1:
-.string "Brave and daring. Did you know this city has\n"
-	.string "the biggest police base in KANTO?\l"
-	.string "Come on…{PAUSE 20} ROCKET, just give me an\l"
-	.string "excuse to call them here.$"
+	.string "Bold of you. Did you know this city's got\n"
+	.string "the biggest police station in KANTO?\l"
+	.string "C'mon… Just land me the excuse to phone\l"
+	.string "over the boys, ROCKET.$"
 
 CeruleanCity_Nina::
 lock
@@ -276,6 +272,7 @@ release
 end
 
 CeruleanCity_Nina_Texto_1:
-.string "My SLOWBRO is a lazy POKÉMON. A bit of\n"
-	.string "curtness would work, you ROCKET\l"
-	.string "probably are experts, aren't you.$"
+	.string "My SLOWBRO's pretty lazy. I'd bet some\n"
+	.string "discipline would shape it up, but I don't\l"
+	.string "suppose you ROCKETs would have any\l"
+	.string "experience with that, now would you?$"
