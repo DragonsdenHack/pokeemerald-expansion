@@ -1,5 +1,16 @@
 Route6_Path_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route6_Path_OnTransition
 	.byte 0
+
+Route6_Path_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, Route6_Path_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 33, 30
+end
+
+Route6_Path_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 33, 30
+end
+
 
 Route6Path_1::
 end

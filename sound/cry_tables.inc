@@ -1456,6 +1456,7 @@ gCryTable::
 	cry Cry_Guardia
 	cry Cry_ArmaldoPrimal
 	cry Cry_RelicanthPrimal
+	cry Cry_MiloticBond
 
 	.align 2
 gCryTable_Reverse::
@@ -2915,3 +2916,4 @@ gCryTable_Reverse::
 	cry_reverse Cry_Guardia
 	cry_reverse Cry_ArmaldoPrimal
 	cry_reverse Cry_RelicanthPrimal
+	cry_reverse Cry_MiloticBond

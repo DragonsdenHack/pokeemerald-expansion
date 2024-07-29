@@ -5143,7 +5143,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_BUTTERFREE_MEGA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 5,
+        .y_offset = 0,
     },
     [SPECIES_NOIVERN_MEGA] =
     {

@@ -8,7 +8,7 @@ setdynamicwarp MAP_SAFFRON_CITY, 58, 27
 end
 
 Route8_Path_WarpDinamica::
-setdynamicwarp MAP_NEO_SAFFRON_CITY, 58, 27
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 8, 27
 end	
 
 Route8Path_1::

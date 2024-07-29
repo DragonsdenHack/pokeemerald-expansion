@@ -1417,6 +1417,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_GUARDIA] = gMonIcon_Guardia,
 	[SPECIES_ARMALDO_PRIMAL] = gMonIcon_ArmaldoPrimal,
 	[SPECIES_RELICANTH_PRIMAL] = gMonIcon_RelicanthPrimal,
+	[SPECIES_MILOTICBOND] = gMonIcon_MiloticBond,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2791,6 +2792,7 @@ const u8 gMonIconPaletteIndices[] =
 	[SPECIES_GUARDIA] = 1,
 	[SPECIES_ARMALDO_PRIMAL] = 2,
 	[SPECIES_RELICANTH_PRIMAL] = 2,
+	[SPECIES_MILOTICBOND] = 2,
     [SPECIES_EGG] = 1,
 };
 
