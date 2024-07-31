@@ -18,10 +18,9 @@ release
 end
 
 IllexForest_Text_1:
-	.string "AZALEA TOWN has always obtained the\n"
-	.string "wood that we use for charcoal\l"
-	.string "production from this forest. We are\l"
-	.string "very thankful for it.$"
+	.string "AZALEA TOWN's always obtained the wood\n"
+	.string "we use for charcoal production from\l"
+	.string "this forest. We're very thankful for it.$"
 
 
 
@@ -38,9 +37,10 @@ release
 end
 
 IllexForest_Text_3:
-	.string "Damn trees… Why do they regenerate if I\n"
-	.string "just cut them a moment ago? Do I really\l"
-	.string "have to go back to AZALEA for CUT?$"
+	.string "Damn trees… How're they regenerating\n"
+	.string "when I'd just lopped them a moment ago?\l"
+	.string "Do I really have to trek back to AZALEA\l"
+	.string "for CUT?$"
 
 
 
@@ -77,9 +77,9 @@ release
 end
 
 IllexForest_Text_9:
-	.string "So, FARFETCH'D is weak, but there is not\n"
-	.string "any other POKÉMON that chop down trees\l"
-	.string "as it…$"
+	.string "So-FARFETCH'D is pretty weak, but no\n"
+	.string "other POKÉMON's as handy at chopping\l"
+	.string "up trees.$"
 
 
 
@@ -126,31 +126,33 @@ release
 end
 
 IlexForest_Llamada_Giovanni_Texto_1:
-	.string "GIOVANNI: {PLAYER}? The sound\n"
-	.string "quality is poor, you must be on the ILEX\l"
-	.string "FOREST, aren't you? That place brings\l"
-	.string "back great memories{PAUSE 15}…{PAUSE 15} We have the\l"
-	.string "information on KURT's DEEP BOND\l"
-	.string "BUTTERFREE. The most extraordinary\l"
-	.string "thing isn't its 505 BASE STATS, but its\l"
-	.string "unmatched distribution of useful\l"
-	.string "STATS. It has just{PAUSE 15}…{PAUSE 15} 5 BASE in ATTACK!\l"
-	.string "Considering this and its ADAPTABILITY\l"
-	.string "ability, practically, it becomes a much\l"
-	.string "more dangerous POKÉMON than most\l"
-	.string "PSEUDO-LEGENDARIES. It's incredible\l"
-	.string "what a POKÉMON like BUTTERFREE,\l"
-	.string "initially destined to be mediocre with\l"
-	.string "its 395 BASE, how dangerous can it\l"
-	.string "become, don't you think?$"
+	.string "GIOVANNI: {PLAYER}? This poor sound\n"
+	.string "quality… You'd already arrived in ILEX\l"
+	.string "FOREST, haven't you? That name makes\l"
+	.string "me wax nostalgic. Regardless, we've\l"
+	.string "acquired intel on KURT's DEEP BOND\l"
+	.string "BUTTERFREE. Its most extraordinary\l"
+	.string "aspect isn't the combined total of its\l"
+	.string "STATS at 505, but rather, how finely\l"
+	.string "they'd been distributed. Like its\l"
+	.string "ATTACK pushed to the extreme minimum\l"
+	.string "of… five. Together with its\l"
+	.string "ADAPTABILITY, it's orders more\l"
+	.string "dangerous than than most\l"
+	.string "PSEUDO-LEGENDARIES on a practical\l"
+	.string "level. Isn't it incredible to see the\l"
+	.string "heights an otherwise mediocre POKÉMON\l"
+	.string "doomed to its 395-BASE STATS can\l"
+	.string "achieve? Just how terrifying such a\l"
+	.string "thing can become?$"
 
 IlexForest_Llamada_Giovanni_Texto_2:
-	.string "However, I've sent ARCHER to GOLDENROD\n"
-	.string "CITY. I require you to meet up with him\l"
-	.string "at the RADIO TOWER. ARCHER will provide\l"
-	.string "you with the details upon your\l"
-	.string "encounter. I anticipate further\l"
-	.string "communication from you, {PLAYER}.$"
+	.string "That aside, I've sent ARCHER ahead to\n"
+	.string "GOLDENROD CITY. You're required to meet\l"
+	.string "him at the RADIO TOWER. He'll present\l"
+	.string "you the details there. I anticipate\l"
+	.string "further communication from you,\l"
+	.string "{PLAYER}.$"
 
 
 IlexForestDocumento_100::
@@ -194,4 +196,4 @@ IlexForest_Texto_1:
 IlexForest_Texto_2:
 	.string "You're going to have the most elusive\n"
 	.string "and unpredictable POKÉMON thanks to\l"
-	.string "U-TURN, you'll see!$"
+	.string "U-TURN. You'll see!$"

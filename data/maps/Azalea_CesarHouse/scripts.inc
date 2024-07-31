@@ -30,10 +30,10 @@ fadescreen 0
 end
 
 AzaleaCesarHouse_1_Texto_1:
-	.string "You can encounter him in the SLOWPOKE\n"
-	.string "WELL. If you defeat him, come back here\l"
-	.string "with the item it gives you, and there\l"
-	.string "will be a battle.$"
+	.string "You'll find him in the SLOWPOKE WELL. If\n"
+	.string "you defeat him, head back here with the\l"
+	.string "item he'll hand you. Then I'll give you\l"
+	.string "your battle.$"
 
 AzaleaCesarHouse_1_Texto_2:
 .string "And so?$"
@@ -48,10 +48,10 @@ AzaleaCesarHouse_1_Texto_4:
 	.string "expanding a POKÉMON's limits is sacred.$"
 
 AzaleaCesarHouse_1_Texto_5:
-	.string "Once I said that, I'll be waiting for you\n"
+	.string "Having said that, I'll be waiting for you\n"
 	.string "at the GYM. I'll keep my word and battle\l"
-	.string "you, so I hope you do your 100%. You'll\l"
-	.string "need it.$"
+	.string "you, so I hope you'll give it your all.\l"
+	.string "You'll need it.$"
 
 
 
@@ -137,7 +137,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_1:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_2:
 	.string "????: I'm afraid they can't be compared,\n"
-	.string "ALDER, they're two BUG types, yes, and\l"
+	.string "ALDER. They're two BUG types, yes, and\l"
 	.string "both have been affected by the DEEP\l"
 	.string "BOND with their TRAINER.$"
 
@@ -157,7 +157,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_5:
 	.string "already had 550 BASE STATS even before\l"
 	.string "experiencing the DEEP BOND. What has\l"
 	.string "resulted from combining a POKÉMON like\l"
-	.string "yours, which at its base can rival a\l"
+	.string "yours, already comparable to a\l"
 	.string "LEGENDARY, and the DEEP BOND, is\l"
 	.string "something that has reached unknown\l"
 	.string "limits for a mortal POKÉMON. An\l"
@@ -170,8 +170,8 @@ Azalea_CesarHouse_Evento_Mirto_Texto_6:
 	.string "Your POKÉMON has been bestowed with\l"
 	.string "the ability to shine brighter than any\l"
 	.string "other non-legendary, yet it's also\l"
-	.string "fated to diminish sooner, one\l"
-	.string "inevitably follows the other.$"
+	.string "fated to dim sooner, as one inevitably\l"
+	.string "follows the other.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_7:
 .string "ALDER: …"
@@ -180,7 +180,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_8:
 .string "Isn't there{PAUSE 20}…{PAUSE 20} anything{PAUSE 20}…{PAUSE 20} that I can do?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
-	.string "????: I can't help you, I'm sorry. But…$"
+	.string "????: I can't help you. I'm sorry. But…$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_10:
 	.string "There are many wise people in JOHTO. I'm\n"
@@ -191,9 +191,9 @@ Azalea_CesarHouse_Evento_Mirto_Texto_10:
 	.string "there who would help you.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_11:
-	.string "ALDER: Thank you so much KURT, I won't\n"
-	.string "waste any second. I will reach every\l"
-	.string "corner of JOHTO if necessary.$"
+	.string "ALDER: Thank you so much, KURT. I won't\n"
+	.string "waste a single second. I'll scour every\l"
+	.string "corner of JOHTO, if necessary.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_12:
 	.string "KURT: Well, guy, you look very\n"
@@ -209,9 +209,8 @@ Azalea_CesarHouse_Evento_Mirto_Texto_13:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_14:
 	.string "You must understand that it would be\n"
-	.string "unfair if I accepted to fight against\l"
-	.string "you when I rejected the rest of the\l"
-	.string "challengers.$"
+	.string "unfair if I accepted your battle after\l"
+	.string "rejecting every other challenger.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
 	.string "But{PAUSE 15}…{PAUSE 15} You look like you came from far\n"
@@ -225,21 +224,21 @@ Azalea_CesarHouse_Evento_Mirto_Texto_16:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_17:
 	.string "A good friend loves strolling around\n"
-	.string "the SLOWPOKE WELLl. He's usually deep in\l"
-	.string "the place, an expert on SLOWPOKE and\l"
-	.string "its entire evolutionary line, he knows\l"
+	.string "the SLOWPOKE WELL. He's usually deep in\l"
+	.string "there, an expert on SLOWPOKE and its\l"
+	.string "entire evolutionary line. He knows\l"
 	.string "everything about that POKÉMON.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_18:
-	.string "He is also a good TRAINER, the only one\n"
-	.string "who I can battle kinda seriously on the\l"
-	.string "around.$"
+	.string "He's also a good TRAINER, the only one I\n"
+	.string "can battle pretty seriously around\l"
+	.string "these parts.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_19:
-	.string "If you really want to fight against me,\n"
-	.string "you should defeat him first, tell him\l"
-	.string "you're sent by me, if you can defeat him,\l"
-	.string "he'll reward you with a special item.$"
+	.string "If you really want to battle me, you\n"
+	.string "should defeat him first. Tell him I sent\l"
+	.string "you. If you can win, he'll reward you\l"
+	.string "with a special item.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_20:
 	.string "Simply bring back the item here as\n"

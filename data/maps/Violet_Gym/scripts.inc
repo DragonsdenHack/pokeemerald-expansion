@@ -54,10 +54,11 @@ release
 end
 
 VioletGym_Frontera_Texto_1:
-	.string "Hey! Where are you going? Our LEADER is\n"
-	.string "no longer accepting challenges from\l"
-	.string "aspiring trainers. If you wish to have a\l"
-	.string "chance to fight, try to convince him.$"
+	.string "Hey! Where do you think you're headed?\n"
+	.string "Our LEADER's no longer accepting\l"
+	.string "challenges from aspiring trainers. If\l"
+	.string "you wish to battle, you'll have to\l"
+	.string "change his mind.$"
 
 VioletGym_Frontera_Move_1:
 face_up
@@ -140,22 +141,20 @@ VioletGym_Gym_Dude_Texto_2:
 VioletGym_Gym_Dude_Texto_3:
 	.string "I can't believe it! A challenger! The GYM\n"
 	.string "will have a high-flying battle again\l"
-	.string "after so long! Let me advise you\l"
-	.string "something, listen: FALKNER knows\l"
-	.string "everything about the FLYING TYPE. He\l"
-	.string "knows how to defend himself from its\l"
-	.string "weaknesses, but even so, his whole team\l"
-	.string "is weak to the ROCK TYPE. You can do a\l"
-	.string "lot of damage with those moves, if you\l"
-	.string "manage to hit them first, because his\l"
-	.string "birds, carefully chosen from all the\l"
-	.string "regions he's been to, have a SPEED and\l"
-	.string "overall offense that can make you lose\l"
-	.string "before you realize it. A strong ROCK\l"
-	.string "TYPE equipped with the ASSAULT VEST,\l"
-	.string "as well as very fast ELECTRIC TYPE\l"
-	.string "POKÉMON, I would say those are your\l"
-	.string "best options. Good luck!$"
+	.string "after so long! Listen, let me give you\l"
+	.string "some advice. FALKNER knows everything\l"
+	.string "about FLYING TYPEs, even how to defend\l"
+	.string "against its weaknesses. But still, his\l"
+	.string "whole team's weak to ROCK. You'll put\l"
+	.string "the hurt on him if you manage to\l"
+	.string "outspeed him. But watch out unless you\l"
+	.string "wanna suddenly be six down out of the\l"
+	.string "blue. The birds he's assembled across\l"
+	.string "various regions are built to maximize\l"
+	.string "speed and offense. I'd say to take a\l"
+	.string "ROCK TYPE wearing an ASSAULT VEST and\l"
+	.string "some ELECTRIC speedsters for the best\l"
+	.string "odds of success. Good luck!$"
 
 Violet_Gym_Conversacion_Pegaso::
 lock
@@ -193,7 +192,7 @@ release
 end
 
 Violet_Gym_Conversacion_Pegaso_Texto_1:
-	.string "FALKNER: Come on, dad! I want to know\n"
+	.string "FALKNER: Come on, Dad! I want to know\n"
 	.string "how you've reached the point of being\l"
 	.string "able to have that POKÉMON on your team!\l"
 	.string "It wasn't destined to be a FLYING TYPE,\l"
@@ -201,29 +200,28 @@ Violet_Gym_Conversacion_Pegaso_Texto_1:
 	.string "purest FLYING TYPE I know.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_2:
-	.string "SR.FALKNER: You can't articulate such a\n"
-	.string "process; you have to be there to\l"
+	.string "FALKNER SR.: It's a process words can't\n"
+	.string "describe. You have to be there to\l"
 	.string "experience it firsthand.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_3:
-	.string "I knew that in that specimen beat the\n"
-	.string "unyielding will to fly; we both shared\l"
+	.string "I knew in that specimen beat the\n"
+	.string "unyielding will to fly. We both shared\l"
 	.string "that passion for the sky, and thanks to\l"
-	.string "it, we were able to reach higher heights\l"
-	.string "together than we ever could have\l"
-	.string "separately.$"
+	.string "that, we soared ever higher together\l"
+	.string "than we ever could've separately.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_4:
-	.string "Now, return to SPROUT TOWER, I have a\n"
+	.string "Now, return to SPROUT TOWER. I have a\n"
 	.string "pending battle.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_5:
-.string "FALKNER: But, dad!\n"
+.string "FALKNER: But, Dad!\n"
 	.string "I want to see that battle!$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_6:
-	.string "SR.FALKNER: You are not ready yet, and\n"
-	.string "I won't argue about this with you.$"
+	.string "FALKNER SR.: You aren't ready yet, and I\n"
+	.string "won't argue about this with you.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_7:
 .string "FALKNER: …$"
@@ -288,19 +286,18 @@ release
 end
 
 Violet_Gym_Combate_Pegaso_Texto_11.3:
-	.string "With ROOST, flying-type POKÉMON can\n"
-	.string "regain health during battle. During\l"
-	.string "that turn, they will lose all their\l"
-	.string "resistances and weaknesses of their\l"
-	.string "FLYING TYPE, so use it wisely to take\l"
-	.string "advantage.$"
+	.string "With ROOST, FLYING POKÉMON perch\n"
+	.string "themselves for a quick rest during\l"
+	.string "battle. They'll drop all their FLYING\l"
+	.string "resistances and weaknesses, so plan\l"
+	.string "ahead to make the best of it.$"
 
 Violet_Gym_Combate_Pegaso_Texto_11.1:
 	.string "Wait, I want you to take this with you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_11.2:
-	.string "{PLAYER} obtained the TM61 ROOST\n"
-	.string "from FALKNER!!$"
+	.string "{PLAYER} obtained TM61 ROOST from\n"
+	.string "FALKNER!!$"
 
 
 
@@ -312,26 +309,26 @@ release
 end
 
 Violet_Gym_Combate_Pegaso_Texto_1:
-	.string "FALKNER: Excuse me, but I take the\n"
-	.string "education of my son seriously, someday\l"
-	.string "he will be the one who manages this GYM,\l"
-	.string "and I want him to be ready.$"
+	.string "FALKNER: Excuse me, but I take my son's\n"
+	.string "education seriously. Someday, he'll be\l"
+	.string "the one to manage this GYM, and I want\l"
+	.string "him to be ready.$"
 
 Violet_Gym_Combate_Pegaso_Texto_2:
-	.string "However, they must forge their own\n"
-	.string "path, grasp the fundamentals of\l"
-	.string "POKÉMON training, and then carve out\l"
-	.string "their own story. That's why I don't want\l"
-	.string "him to see a battle like this, at a level\l"
-	.string "that will only lead to confusion and a\l"
-	.string "deluge of unnecessary questions.$"
+	.string "However, he must create his own path,\n"
+	.string "learn the fundamentals of POKÉMON\l"
+	.string "training, and then forge his own story.\l"
+	.string "That's why I don't want him to see a\l"
+	.string "battle like this, at a level that would\l"
+	.string "only create confusion and a rain of\l"
+	.string "unnecessary questions.$"
 
 Violet_Gym_Combate_Pegaso_Texto_3:
-	.string "But now let's talk about you, I must\n"
-	.string "admit that I feel curious about what\l"
-	.string "you are capable of, I never thought\l"
-	.string "that upon my return to VIOLET, I would\l"
-	.string "encounter a TRAINER like you.$"
+	.string "But now, let's talk about you. I must\n"
+	.string "admit I feel curious about what you're\l"
+	.string "capable of. I'd never thought on my\l"
+	.string "return to VIOLET, I'd encounter a\l"
+	.string "TRAINER like you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15}$"
@@ -353,8 +350,8 @@ Violet_Gym_Combate_Pegaso_Texto_7:
 	.string "Even more, you are so young.$"
 
 Violet_Gym_Combate_Pegaso_Texto_8:
-	.string "No one had been able to defeat my\n"
-	.string "beloved RAPIDASH, only a true TRAINER\l"
+	.string "No one has been able to defeat my\n"
+	.string "beloved RAPIDASH. Only a true TRAINER\l"
 	.string "could break the bond that unites us.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9:

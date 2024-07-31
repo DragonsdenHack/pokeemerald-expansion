@@ -41,15 +41,13 @@ release
 end
 
 Goldenrod_RadioTowerP4_Text_4:
-	.string "It's quite striking to see a building of\n"
-	.string "these dimensions right next to the sea,\l"
-	.string "don't you think? If by any chance it\l"
-	.string "collapsed westward, the towering\l"
-	.string "height of the RADIO TOWER would cause\l"
-	.string "those on the upper floors, like us, to\l"
-	.string "fall right into the open sea. I just\l"
-	.string "thought about it, and it's\l"
-	.string "mind-boggling!$"
+	.string "This is mind-blowing! A building this\n"
+	.string "size that close to the sea. Don't you\l"
+	.string "think? In case this building goes down,\l"
+	.string "its height would make whoever is on the\l"
+	.string "top floors would end up right over the\l"
+	.string "sea. I just thought about it and it's\l"
+	.string "like WOW!$"
 
 
 
@@ -106,9 +104,9 @@ end
 RadioTowerP4_7_Texto_3:
 	.string "Time flies so fast, don't you think so?\n"
 	.string "It feels as if it were just yesterday\l"
-	.string "when we held the I GOLDENROD\l"
-	.string "CONFERENCE, but the political situation\l"
-	.string "between KANTO and JOHTO has undergone\l"
+	.string "when we held the GOLDENROD CONFERENCE\l"
+	.string "I, but the political situation between\l"
+	.string "KANTO and JOHTO has undergone\l"
 	.string "significant changes since then.$"
 
 RadioTowerP4_7_Texto_1:
@@ -119,8 +117,9 @@ RadioTowerP4_7_Texto_1:
 
 RadioTowerP4_7_Texto_2:
 	.string "So, it will be that way… We have a lot of\n"
-	.string "work to do in the next 2 years. For then,\l"
-	.string "KANTO and JOHTO will form a unique bond.$"
+	.string "work to do in the next two years. For\l"
+	.string "then, KANTO and JOHTO will form a unique\l"
+	.string "bond.$"
 
 RadioTowerP4_9::
 end
@@ -257,31 +256,32 @@ Goldenrod_RadioTower_P4_Reunion_Texto_4:
 .string "ARCHER: {PLAYER}, just in time.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_5:
-.string "DIRECTOR: Is him?$"
+.string "DIRECTOR: Is that him?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_6:
-	.string "ARCHER: That's right, {PLAYER} was\n"
+	.string "ARCHER: That's right. {PLAYER} was\n"
 	.string "the one who defeated LANCE in a\l"
 	.string "POKÉMON battle, compelling him to\l"
 	.string "relinquish his powers to prevent the\l"
 	.string "truth from emerging.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-	.string "DIRECTOR: Impressive accomplishment,\n"
-	.string "guy, especially considering your age.\l"
-	.string "However, I'm not sure if you're aware\l"
-	.string "that in JOHTO, there are several\l"
-	.string "TRAINERS who would put LANCE to shame.\l"
-	.string "The distinction with that mediocre\l"
-	.string "DRAGON TAMER is that they don't go\l"
-	.string "around bragging about their strength;\l"
-	.string "they are more concerned with attaining\l"
-	.string "excellence than with worldly matters.$"
+	.string "DIRECTOR: Quite the impressive feat,\n"
+	.string "sir, especially considering your age.\l"
+	.string "But are you aware that in JOHTO, there\l"
+	.string "are yet more TRAINERs who would put\l"
+	.string "LANCE to shame? You know the saying:\l"
+	.string "the nail that sticks up is the one to be\l"
+	.string "hammered. The other DRAGON TAMERs\l"
+	.string "don't give two HOOTHOOTs about glory\l"
+	.string "the way LANCE does, but are more\l"
+	.string "focused on attaining excellence in\l"
+	.string "itself.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_8:
 	.string "ARCHER: We are aware about that,\n"
 	.string "DIRECTOR. {PLAYER} is actually here\l"
-	.string "primarily to learn from those trainers.$"
+	.string "primarily to learn from those TRAINERs.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_9:
 	.string "DIRECTOR: Then he had better hurry, as\n"
@@ -293,15 +293,16 @@ Goldenrod_RadioTower_P4_Reunion_Texto_9:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_10:
 	.string "ARCHER: We know that, and we wish to\n"
-	.string "document the heights they reached,\l"
-	.string "before it gets too late.$"
+	.string "document the heights they reached\l"
+	.string "before it's too late.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_11:
-	.string "DIRECTOR: Hah! Surely it's purely for\n"
-	.string "academic interest, don't make me laugh,\l"
-	.string "ARCHER. In exchange, you'll get\l"
-	.string "invaluable information about the limits\l"
-	.string "a POKÉMON can reach.$"
+	.string "DIRECTOR: Hah! Oh, indeed. It's purely\n"
+	.string "for academic interest, eh? Don't make\l"
+	.string "me laugh, ARCHER. In exchange for your\l"
+	.string "efforts, you'll get invaluable\l"
+	.string "information about the limits a POKÉMON\l"
+	.string "can reach.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_12:
 	.string "ARCHER: The fair price for such work,\n"
@@ -313,12 +314,12 @@ Goldenrod_RadioTower_P4_Reunion_Texto_13:
 	.string "DIRECTOR: What do you want?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_14:
-	.string "ARCHER: The same thing you want,\n"
+	.string "ARCHER: The same thing you want:\n"
 	.string "ensuring that another LANCE doesn't\l"
-	.string "emerge, laying the groundwork for the\l"
-	.string "union between KANTO and JOHTO. For\l"
-	.string "that we'll gather the most influential\l"
-	.string "people from both regions in the last\l"
+	.string "emerge and laying the groundwork for\l"
+	.string "the union between KANTO and JOHTO. For\l"
+	.string "that, we'll gather the most influential\l"
+	.string "people from both regions in recent\l"
 	.string "years, and we'll tell everyone the\l"
 	.string "actions we'll take.$"
 
@@ -329,7 +330,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_15:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_16:
 	.string "ARCHER: That's exactly what GIOVANNI\n"
-	.string "wanted, we have the power and the\l"
+	.string "wanted. We have the power and the\l"
 	.string "anonymity to pull the strings without\l"
 	.string "anyone bothering us.$"
 
@@ -339,19 +340,19 @@ Goldenrod_RadioTower_P4_Reunion_Texto_17:
 	.string "did?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_18:
-	.string "ARCHER: You don't know it, but after\n"
-	.string "holding the great meeting proposed by\l"
-	.string "our LEADER, you will have no doubt that\l"
+	.string "ARCHER: You might not know it yet, but\n"
+	.string "after holding the conference proposed\l"
+	.string "by our LEADER, you'll have no doubt that\l"
 	.string "we only want the best for both regions.\l"
-	.string "We have long learned that the win-win is\l"
-	.string "the only business that works in the\l"
-	.string "long run.$"
+	.string "We've long since learned that only\l"
+	.string "mutual growth is the only business that\l"
+	.string "works in the long run.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_19:
 .string "DIRECTOR: {PAUSE 15}…{PAUSE 15} $"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
-	.string "DIRECTOR: You'll have that meeting, I\n"
+	.string "DIRECTOR: You'll have that meeting. I\n"
 	.string "will be in contact with GIOVANNI for the\l"
 	.string "details of this. Thank you both for\l"
 	.string "coming.$"
@@ -361,12 +362,13 @@ Goldenrod_RadioTower_P4_Reunion_Texto_21:
 	.string "region, DIRECTOR.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_22:
-	.string "ARCHER: Great security of RADIO TOWER,\n"
-	.string "but I don't know if you know that SILPH\l"
-	.string "had a similar one, and yet it couldn't\l"
-	.string "prevent a 10-year-old kid from\l"
-	.string "reaching its PRESIDENT just because he\l"
-	.string "had a good POKÉMON team.$"
+	.string "ARCHER: Excellent security detail here\n"
+	.string "in the RADIO TOWER. I don't suppose\l"
+	.string "you've heard, but SILPH had a similar\l"
+	.string "one, just to be breached by some\l"
+	.string "decade-old kid who'd climbed all the way\l"
+	.string "to its PRESIDENT. All because he had a\l"
+	.string "good POKÉMON team.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_23:
 	.string "DIRECTOR: And what did you do to get\n"
@@ -393,7 +395,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_26:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_27:
 	.string "I hope to see you again in the great\n"
-	.string "meeting {PLAYER}. Keep exploring\l"
+	.string "meeting, {PLAYER}. Keep exploring\l"
 	.string "every corner of JOHTO.$"
 
 Goldenrod_RadioTower_P4_Reunion_Move_1:
@@ -599,28 +601,28 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2:
 	.string "those in SEVII ISLAND.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3:
-	.string "I see that you've risen as well. We're no\n"
-	.string "longer part of the ELITE of TEAM\l"
-	.string "ROCKET, {PLAYER}, we're the TEAM\l"
-	.string "ROCKET.$"
+	.string "I see that you've risen as well. We're not\n"
+	.string "just part of the ELITE of TEAM ROCKET,\l"
+	.string "{PLAYER}. We -are- TEAM ROCKET.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
-	.string "Only GIOVANNI and ARCHER will attend\n"
-	.string "this meeting besides us. Our good work\l"
-	.string "and combat skills have taken us to the\l"
-	.string "top, now is when we can use our position\l"
-	.string "to solve the mysteries of thi…$"
+	.string "Aside from us, it'll just be GIOVANNI\n"
+	.string "and ARCHER at this meeting. The work\l"
+	.string "we've put in and the skills we have to\l"
+	.string "show for it took us right to the top. I'd\l"
+	.string "say we can finally leverage our current\l"
+	.string "positions to solve the mysteries of thi-$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
-	.string "You're the CHIEF.ADMIN {PLAYER}, and\n"
-	.string "the CHIEF.ADMIN ANDRA from TEAM\l"
-	.string "ROCKET, right?$"
+	.string "You're CHIEF ADMIN. {PLAYER}, and\n"
+	.string "CHIEF ADMIN. ANDRA from TEAM ROCKET,\l"
+	.string "right?$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6:
 .string "ANDRA: Yes.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7:
-	.string "You must come in now, the meeting is\n"
+	.string "You must come in now. The meeting is\n"
 	.string "about to begin.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
@@ -631,14 +633,14 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
 	.string "Did you really think that the most\n"
 	.string "important meeting of the last three\l"
 	.string "years would be in a place like this? Any\l"
-	.string "10-year-old kid could sneak into this\l"
+	.string "ten-year-old kid could sneak into this\l"
 	.string "office. A meeting of this magnitude\l"
 	.string "requires maximum discretion and\l"
 	.string "security. Take these.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
 	.string "Now, interact with the computer in the\n"
-	.string "corner, you'll be able to enter the true\l"
+	.string "corner. You'll be able to enter the true\l"
 	.string "meeting room of RADIO TOWER.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:

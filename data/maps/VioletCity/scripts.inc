@@ -18,16 +18,15 @@ release
 end
 
 VioletCity_Text_2:
-	.string "This temple was erected by my\n"
-	.string "ancestors 1000 years ago to honor the\l"
-	.string "resilience of BELLSPROUT. The current\l"
-	.string "ELDER of the SPROUT TOWER still\l"
-	.string "possesses the last specimen of that\l"
-	.string "sacred BELLSPROUT lineage. Yes, his\l"
-	.string "BELLSPROUT is the strongest in the\l"
-	.string "world, and only those deserving will\l"
-	.string "witness something that many believe to\l"
-	.string "be impossible.$"
+	.string "My ancestors built this temple 1000\n"
+	.string "years ago to honor the resilience of\l"
+	.string "BELLSPROUT.. The current ELDER of the\l"
+	.string "SPROUT TOWER still possesses the last\l"
+	.string "specimen of that sacred BELLSPROUT\l"
+	.string "lineage. Yes, his BELLSPROUT is the\l"
+	.string "strongest in the world, and only those\l"
+	.string "who deserve it will witness something\l"
+	.string "that many believe to be impossible.$"
 
 
 
@@ -55,7 +54,7 @@ end
 
 VioletCity_Text_4:
 	.string "FALKNER's father is super cool! He has\n"
-	.string "some POKÉMON I've never seen before, I\l"
+	.string "some POKÉMON I've never seen before. I\l"
 	.string "think some of them are even\l"
 	.string "LEGENDARIES from other regions!$"
 
@@ -69,7 +68,7 @@ end
 
 VioletCity_Text_5:
 	.string "You're not from around here, are you? I\n"
-	.string "recommend visiting the Trainer School.\l"
+	.string "recommend visiting the TRAINER SCHOOL.\l"
 	.string "Our SPROUT TOWER is also very famous.$"
 
 
@@ -83,8 +82,8 @@ end
 VioletCity_Text_6:
 	.string "These flowers only grow in VIOLET CITY,\n"
 	.string "contributing to the characteristic\l"
-	.string "nostalgic fragrance that pervades the\l"
-	.string "area.$"
+	.string "fragrance of nostalgia that pervades\l"
+	.string "the area.$"
 
 
 VioletCity7::
@@ -104,7 +103,7 @@ end
 
 VioletCity_Text_9:
 	.string "A POKÉMON under a TRAINER's care is far\n"
-	.string "stronger than its wild counterpart of\l"
+	.string "stronger than the wild counterpart of\l"
 	.string "the same species. This serves as\l"
 	.string "evidence that the harmony between\l"
 	.string "humans and POKÉMON is beneficial.$"
@@ -118,11 +117,9 @@ release
 end
 
 VioletCity_Text_18:
-	.string "FALKNER senior plans to hand over the\n"
-	.string "GYM to his son, also named FALKNER. I\l"
-	.string "hope he does a good job when that\l"
-	.string "occurs.$"
-
+	.string "FALKNER SR. plans to hand over the GYM\n"
+	.string "to his son, also named FALKNER. I hope\l"
+	.string "he does a good job when that occurs.$"
 
 VioletCity11::
 end
@@ -189,9 +186,10 @@ VioletCity_Chicos_Escuela_Texto_1:
 	.string "FLYING TYPE POKÉMON.$"
 
 VioletCity_Chicos_Escuela_Texto_2:
-	.string "We can't miss this opportunity, who\n"
+	.string "We can't miss this opportunity. Who\n"
 	.string "knows how much longer he'll be in VIOLET\l"
-	.string "CITY before embarking on a new journey!$"
+	.string "CITY before embarking on a new\l"
+	.string "journey?!$"
 
 VioletCity_Chicos_Escuela_Move_1:
 walk_in_place_up

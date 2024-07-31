@@ -123,7 +123,7 @@ MisionTrigal4_Primer_Encuentro_Texto_1:
 	.string "MANSION, there are many POKÉM…$"
 
 MisionTrigal4_Primer_Encuentro_Texto_2:
-.string "Excuse me, have you got lost?$"
+.string "Excuse me. Are you lost?$"
 
 MisionTrigal4_Primer_Encuentro_Texto_3:
 	.string "I know you haven't gotten lost; nobody\n"
@@ -149,14 +149,14 @@ MisionTrigal4_Primer_Encuentro_Texto_7:
 .string "So strong!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_8:
-	.string "You're above all those charges at the\n"
-	.string "RADIO TOWER?!$"
+	.string "You're above all those in charge\n"
+	.string "at the RADIO TOWER?!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_9:
 	.string "That's enough! No matter how mighty and\n"
-	.string "significant you may be, you've fought 2\l"
-	.string "battles consecutively. I'll crush you\l"
-	.string "before you can flee!$"
+	.string "significant you may be, you've fought\l"
+	.string "two battles consecutively. I'll crush\l"
+	.string "you before you can flee!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_10:
 .string "I got smashed…$"
@@ -265,7 +265,7 @@ MisionTrigal4_Segundo_Encuentro_Texto_3:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_4:
-	.string "I see, those incompetents aren't\n"
+	.string "I see. Those incompetents aren't\n"
 	.string "capable of handling a problem when it\l"
 	.string "appears.$"
 
@@ -275,7 +275,7 @@ MisionTrigal4_Segundo_Encuentro_Texto_5:
 	.string "range of POKÉMON at our disposal.$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_6:
-	.string "No matter who you are, or what you want.\n"
+	.string "No matter who you are or what you want,\n"
 	.string "I just know that you will be destroyed!$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_7:
@@ -387,7 +387,7 @@ release
 end
 
 MisionTrigal4_Tercer_Encuentro_Texto_20.1:
-.string "Do you give us a second chance?$"
+.string "Are you giving us a second chance?$"
 
 MisionTrigal4_Tercer_Encuentro_No::
 setvar VAR_EVER_GRANDE_CITY_STATE, 4
@@ -440,7 +440,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_1:
 MisionTrigal4_Tercer_Encuentro_Texto_2:
 	.string "Complaints aren't handled here; if\n"
 	.string "you've received a POKÉMON with bad IVs\l"
-	.string "or an unfavorable nature, I'm sorry, you\l"
+	.string "or an unfavorable nature, I'm sorry. You\l"
 	.string "are unlucky.$"
 
 
@@ -456,10 +456,10 @@ MisionTrigal4_Tercer_Encuentro_Texto_5:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_6:
-.string "If I know who I am talking with?!$"
+	.string "Do I know who I am talking to, you ask?!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_7:
-	.string "Watch your tone, man. My POKÉMON could\n"
+	.string "Watch your tone, runt. My POKÉMON could\n"
 	.string "crush your entire team without\l"
 	.string "hesitation. If you continue on this\l"
 	.string "path, I'll use all my influence to ruin\l"
@@ -477,34 +477,34 @@ MisionTrigal4_Tercer_Encuentro_Texto_9:
 MisionTrigal4_Tercer_Encuentro_Texto_10:
 	.string "Okay, fools like you must learn the hard\n"
 	.string "way. What a shame you won't get a\l"
-	.string "second chance; after this, I'll make\l"
-	.string "sure you're a social outcast!$"
+	.string "second chance; after this, I'll ensure\l"
+	.string "you're a social outcast!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_11:
 .string "This is just not possible! Who the hell are you?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_12:
 	.string "No one else in the city has the\n"
-	.string "MEGA-EVOLUTION of a PSEUDOLEGENDARY\l"
-	.string "on the city, I only know of ELM with\l"
-	.string "another one! How did you manage to\l"
+	.string "MEGA-EVOLUTION of a\l"
+	.string "PSEUDO-LEGENDARY. I only know of ELM\l"
+	.string "with another one! How did you manage to\l"
 	.string "defeat our top-tier merchandise?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_13:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_14:
-	.string "Wait{PAUSE 25}…{PAUSE 25} The TEAM ROCKET? You're the\n"
-	.string "famous {PLAYER}?! The leader in JOHTO\l"
-	.string "and right-hand man of none other than\l"
+	.string "Wait... TEAM ROCKET? You're the famous\n"
+	.string "{PLAYER}?! The leader in JOHTO and\l"
+	.string "right-hand man of none other than\l"
 	.string "GIOVANNI himself?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_15:
-	.string "Oh… That explains it, I beg you to\n"
-	.string "forgive us, this won't happen agai…$"
+	.string "Oh… That explains it. I beg you to\n"
+	.string "forgive us; this won't happen agai…$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_16:
-.string "A SNUBBULL of an ex-employed?\n"
+.string "The SNUBBULL of an ex-employee?\n"
 	.string "Right now.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_17:
@@ -518,25 +518,25 @@ MisionTrigal4_Tercer_Encuentro_Texto_19:
 .string "YOU OBTAINED A CHIMCHAR AT LV.15!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_20:
-	.string "I beg you, don't force us to close the\n"
-	.string "business; we supply the vast majority\l"
-	.string "of the city. I promise to improve our\l"
-	.string "policies regarding POKÉMON care.$"
+	.string "Please don't force us to close the\n"
+	.string "business; we supply most of the city. I\l"
+	.string "promise to improve our policies\l"
+	.string "regarding POKÉMON care.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_21:
-	.string "Oh! Thank you so much, CHIEF.BOSS\n"
-	.string "{PLAYER}! Accept this as a gesture of\l"
-	.string "appreciation.$"
+	.string "Oh! Thank you so much, CHIEF ADMIN.\n"
+	.string "{PLAYER}! Accept this as a sign of\l"
+	.string "gratitude.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_22:
-	.string "You obtained 2,25 MILLION POKÉ!$"
+	.string "You obtained 2.25 MILLION POKÉ!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_23:
 	.string "You won't regret giving us another\n"
 	.string "chance; we won't forget this favor.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_24:
-	.string "Grrrrr… Damn… The TEAM ROCKET can't be\n"
+	.string "Grrrrr… Damn… TEAM ROCKET can't be\n"
 	.string "fooled… We have no other option than to\l"
 	.string "escape this region and try to redo the\l"
 	.string "business far away from here…$"

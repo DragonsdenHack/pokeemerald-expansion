@@ -342,8 +342,8 @@ PokemonLeague_6F_Final_Texto_8:
 
 PokemonLeague_6F_Final_Texto_9:
 	.string "Is not that much better than depending\n"
-	.string "on just one POKÉMON hyperpowerfull,\l"
-	.string "that would be managed by the clumsy\l"
+	.string "on just one overpowered POKÉMON.\l"
+	.string "That would be managed by the clumsy\l"
 	.string "hands of a human susceptible to\l"
 	.string "failure?$"
 
@@ -379,7 +379,7 @@ PokemonLeague_6F_Final_Texto_12:
 	.string "has the power to change everything, to\l"
 	.string "adapt to any situation, and ultimately\l"
 	.string "emerge victorious at the end of the\l"
-	.string "day. There is no possibility of escape.$"
+	.string "day. There is no escape possibility.$"
 
 PokemonLeague_6F_Final_Texto_13:
 	.string "Don't you notice? No one, not even\n"
@@ -579,7 +579,7 @@ PokemonLeague_6F_Final_Texto_41:
 	.string "compassion, who better than me, LANCE,\l"
 	.string "the greatest expert in the most sacred\l"
 	.string "and powerful type that exists: the\l"
-	.string "DRAGON, to assume that role.$"
+	.string "DRAGON TYPE, to assume that role.$"
 
 PokemonLeague_6F_Final_Texto_42:
 	.string "Concerning you, after crushing you like\n"
@@ -592,8 +592,8 @@ PokemonLeague_6F_Final_Texto_42:
 
 PokemonLeague_6F_Final_Texto_43:
 	.string "Be positive, ROCKET, you shall be\n"
-	.string "remembered as the one that made LANCE\l"
-	.string "THE FIRST used his sacred POKÉMON just\l"
+	.string "remembered as the one that made\l"
+	.string "'LANCE I' use his sacred POKÉMON just\l"
 	.string "before the dawn of the new era of his\l"
 	.string "reign…$"
 
@@ -619,7 +619,7 @@ PokemonLeague_6F_Final_Texto_47:
 
 PokemonLeague_6F_Final_Texto_48:
 	.string "LANCE: This can't be, no one had stood a\n"
-	.string "chance against my best POKÉMONs; they\l"
+	.string "chance against my best POKÉMON; they\l"
 	.string "are the best around! There's nothing\l"
 	.string "better to be found in all of KANTO!$"
 

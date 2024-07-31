@@ -9,9 +9,8 @@ release
 end
 
 Pass_NationalPark_Text_1:
-	.string "If you need to clear your mind from your\n"
-	.string "busy life, the NATIONAL PARK is the\l"
-	.string "perfect place.$"
+	.string "The NATIONAL PARK is the perfect place\n"
+	.string "to clear your mind from your busy life.$"
 
 
 
@@ -23,11 +22,12 @@ release
 end
 
 Pass_NationalPark_Text_2:
-	.string "Once I heard KURT talk about a BUG TYPE\n"
-	.string "POKÉMON even more powerful than\l"
-	.string "HERACROSS, PINSIR, or SCIZOR. It was\l"
-	.string "from a distant region, very slow, but\l"
-	.string "outstanding in everything else.$"
+	.string "Once, I heard KURT talk about a BUG\n"
+	.string "TYPE POKÉMON, which is even more potent\l"
+	.string "than HERACROSS, PINSIR, or SCIZOR. It\l"
+	.string "was from a distant region. It has a very\l"
+	.string "slow speed but is outstanding in\l"
+	.string "everything else.$"
 
 
 

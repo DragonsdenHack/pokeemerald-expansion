@@ -280,7 +280,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_7:
 	.string "But you're probably asking yourself,\n"
 	.string "what am I doing here? I'll be clear:\l"
 	.string "we're going to transform this place into\l"
-	.string "the new ARCHI7 GAME CORNER.$"
+	.string "the new SEVII GAME CORNER.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_8:
 	.string "Considering all the islands from SEVII,\n"
@@ -302,7 +302,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_10:
 	.string "the same system of COINS and games as\l"
 	.string "the CELADON CITY GAME CORNER. We will\l"
 	.string "turn this place into the new capital of\l"
-	.string "ARCHI7.$"
+	.string "SEVII.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_11:
 	.string "This building is just the beginning;\n"
@@ -379,7 +379,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_23:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_24:
 	.string "TWO ISLAND is ours, we're going to be\n"
-	.string "the new SILPH of ARCHI7!$"
+	.string "the new SILPH of SEVII!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_25:
 	.string "SILPH didn't fall, and we won't either!$"

@@ -65,7 +65,7 @@ release
 end
 
 GoldenrodGym_Encuentro_Valeria_Texto_1:
-	.string "????: You won't need to kick me out, I\n"
+	.string "????: You won't need to kick me out. I\n"
 	.string "resign myself.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_2:
@@ -77,30 +77,30 @@ GoldenrodGym_Encuentro_Valeria_Texto_2:
 
 GoldenrodGym_Encuentro_Valeria_Texto_3:
 	.string "????: That's not possible. Every cause\n"
-	.string "has a consequence, and my DARK-TYPE\l"
-	.string "POKÉMON require the right environment\l"
-	.string "to continue growing. Without that,\l"
-	.string "they'll lose part of what they are, and I\l"
-	.string "won't tolerate the degradation of my\l"
-	.string "team just for a passing urban trend\l"
-	.string "towards NORMAL-TYPE. Farewell.$"
+	.string "has a consequence, and my DARK POKÉMON\l"
+	.string "require the right environment to\l"
+	.string "continue growing. Without that, they'll\l"
+	.string "lose part of what they are, and I won't\l"
+	.string "tolerate the degradation of my team\l"
+	.string "just for a passing urban trend toward\l"
+	.string "NORMAL. Farewell.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_4:
-.string "O-okay…\n"
-	.string "However you want…$"
+.string "O-Okay…\n"
+	.string "Whatever you want…$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_5:
 .string "????: A challenger?\n"
-	.string "I'm sorry but this is not the\l"
-	.string "right moment.$"
+	.string "I'm sorry, but this isn't the right\l"
+	.string "moment.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_6:
 	.string "Under normal circumstances, I would\n"
 	.string "tell you that my name is VALERIA. I\l"
 	.string "specialize in the DARK TYPE and so on.\l"
-	.string "But it's been a long time since this GYM\l"
-	.string "no longer focuses on its main function:\l"
-	.string "POKÉMON battles.$"
+	.string "But it's been long since this GYM's\l"
+	.string "ceased focusing on its primary\l"
+	.string "function: POKÉMON battles.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_7:
 	.string "VALERIA: For now, I'll retire to a\n"
@@ -208,7 +208,7 @@ TrigalGym_Gym_Dude_Texto_1:
 TrigalGym_Gym_Dude_Texto_2:
 	.string "Don't think I missed it! I saw you\n"
 	.string "defeat VALERIA! The girls who come\l"
-	.string "after her; will have to improve a lot to\l"
+	.string "after her will have to improve a lot to\l"
 	.string "reach your level!$"
 
 

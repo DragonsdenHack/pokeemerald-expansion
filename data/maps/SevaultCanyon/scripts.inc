@@ -350,8 +350,8 @@ SevaultCanyon_Combate_Andra_Texto_15:
 SevaultCanyon_Combate_Andra_Texto_16:
 	.string "We must be close to reaching the\n"
 	.string "southern ruins. It's no surprise they\l"
-	.string "erected them here the pure natural vibe\l"
-	.string "is spectacular.$"
+	.string "erected them here: the pure natural\l"
+	.string "vibe is spectacular.$"
 
 SevaultCanyon_Combate_Andra_Texto_17:
 	.string "If you're looking for me, I'll likely be\n"

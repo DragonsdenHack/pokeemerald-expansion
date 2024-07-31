@@ -106,7 +106,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20}$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
-	.string "You came for a POKÉMON battle and you\n"
+	.string "You came for a POKÉMON battle, and you\n"
 	.string "will have it.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_6:
@@ -119,11 +119,11 @@ Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "Was my loyal KINGDRA defeated?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-	.string "Oh{PAUSE 15}…{PAUSE 15} You've stunned me, I thought\n"
+	.string "Oh… You've stunned me. I thought\n"
 	.string "nobody could match the power and\l"
 	.string "explosiveness of my KINGDRA. When it\l"
 	.string "transformed one last time after a\l"
-	.string "lifetime together, and I witnessed the\l"
+	.string "lifetime together and I witnessed the\l"
 	.string "tremendous energy it unleashed, I\l"
 	.string "thought it was unbeatable. You've\l"
 	.string "proven me wrong.$"
@@ -164,8 +164,8 @@ Cueva_Gimnasio_Trigal_Combate_Texto_11:
 	.string "It is great, isn't it?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_12:
-	.string "I'm enjoying this place for now, it gives\n"
-	.string "me the peace I'm looking for. I'll\l"
+	.string "I'm enjoying this place for now. It\n"
+	.string "gives me the peace I'm looking for. I'll\l"
 	.string "recharge my energy here before\l"
 	.string "starting a new journey. Pleasure to\l"
 	.string "meet you, {PLAYER}!$"

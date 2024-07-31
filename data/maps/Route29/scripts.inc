@@ -58,15 +58,15 @@ release
 end
 
 Route29_Text_9:
-	.string "This area is under supervision of\n"
-	.string "PROF.ELM and his assistants; they are\l"
-	.string "doing tests here, no one can enter\l"
-	.string "without their consent. Anyway, there is\l"
-	.string "nothing to see here, kid. Further east\l"
-	.string "is the border with KANTO, and no one can\l"
-	.string "pass beyond there without consent, at\l"
-	.string "least until the relationship between\l"
-	.string "KANTO and JOHTO improves.$"
+	.string "This area's under the supervision of\n"
+	.string "PROF. ELM and his assistants. They're\l"
+	.string "conducting tests here, so no one can\l"
+	.string "enter without their consent. Anyway,\l"
+	.string "there's nothing to see here, kid.\l"
+	.string "Further east is the border of KANTO,\l"
+	.string "and no one's getting by without\l"
+	.string "consent. Not ‘til the relationship\l"
+	.string "between KANTO and JOHTO improves.$"
 
 
 
@@ -118,10 +118,10 @@ release
 end
 
 Route29_Text_14:
-	.string "The PROF.ELM is a renowned figure in the\n"
+	.string "PROF. ELM's a renowned figure in the\n"
 	.string "world of POKÉMON investigation. He's\l"
-	.string "setting up his research laboratory to\l"
-	.string "the east of here.$"
+	.string "setting up his research laboratory just\l"
+	.string "east of here.$"
 
 
 
@@ -133,15 +133,15 @@ release
 end
 
 Route29_Text_15:
-	.string "This area is under supervision of\n"
-	.string "PROF.ELM and his assistants; they are\l"
-	.string "doing tests here, no one can enter\l"
-	.string "without their consent. Anyway, there is\l"
-	.string "nothing to see here, kid. Further east\l"
-	.string "is the border with KANTO, and no one can\l"
-	.string "pass beyond there without consent, at\l"
-	.string "least until the relationship between\l"
-	.string "KANTO and JOHTO improves.$"
+	.string "This area's under the supervision of\n"
+	.string "PROF. ELM and his assistants. They're\l"
+	.string "conducting tests here, so no one can\l"
+	.string "enter without their consent. Anyway,\l"
+	.string "there's nothing to see here, kid.\l"
+	.string "Further east is the border of KANTO,\l"
+	.string "and no one's getting by without\l"
+	.string "consent. Not ‘til the relationship\l"
+	.string "between KANTO and JOHTO improves.$"
 
 
 

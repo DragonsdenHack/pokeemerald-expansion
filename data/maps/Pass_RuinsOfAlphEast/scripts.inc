@@ -10,7 +10,7 @@ end
 
 RuinsOfAlphEast_Text_1:
 	.string "Those researchers at the RUINS OF ALPH\n"
-	.string "are incompetent, they could spend 10\l"
+	.string "are incompetent. They could spend 10\l"
 	.string "years researching without reaching any\l"
 	.string "conclusion.$"
 

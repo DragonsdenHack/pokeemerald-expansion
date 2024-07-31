@@ -9,7 +9,7 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_1:
-	.string "The RADIO TOWER, the MAGNETRAIN, the\n"
+	.string "The RADIO TOWER, the MAGNET TRAIN, the\n"
 	.string "OLIVINE PORT… Globalization is coming\l"
 	.string "to JOHTO, and it's here to stay.$"
 
@@ -28,7 +28,7 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_3:
-	.string "That's what we need here, important and\n"
+	.string "That's what we need here-important and\n"
 	.string "well-dressed people like you, not those\l"
 	.string "thugs from the underground.$"
 
@@ -42,11 +42,10 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_4:
-	.string "GOLDENROD CITY is not only the most\n"
-	.string "populated city of JOHTO, in KANTO\l"
-	.string "there's no city with this amount of\l"
-	.string "habitants. This RADIO TOWER is a very\l"
-	.string "important reason.$"
+	.string "GOLDENROD CITY isn't just the most\n"
+	.string "populated city of JOHTO-no city in KANTO\l"
+	.string "could even match its numbers. And this\l"
+	.string "RADIO TOWER is a key element in that.$"
 
 
 
@@ -59,7 +58,8 @@ end
 
 Goldenrod_RadioTowerP3_Text_5:
 	.string "We broadcast entertainment programs\n"
-	.string "24 hours a day. We'll try to do our best!$"
+	.string "twenty-four hours a day. We'll try to do\l"
+	.string "our best!$"
 
 
 
@@ -77,7 +77,7 @@ end
 
 Goldenrod_RadioTowerP3_Text_7:
 	.string "MARY: Creating a program together with\n"
-	.string "PROF.OAK… That would give us great\l"
+	.string "PROF. OAK… That would give us great\l"
 	.string "visibility in KANTO as well, don't you\l"
 	.string "think?$"
 
@@ -111,7 +111,7 @@ end
 
 Goldenrod_RadioTowerP3_Text_10:
 	.string "Not from here, but it's said that from\n"
-	.string "the top floor you can see both the\l"
+	.string "the top floor, you can see both the\l"
 	.string "ECRUTEAK CITY BELL TOWER and the\l"
 	.string "OLIVINE CITY LIGHTHOUSE.$"
 
@@ -125,7 +125,7 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_11:
-	.string "We are working hard so that soon you\n"
+	.string "We are working hard so that soon, you\n"
 	.string "can listen to the radio anywhere. Tune\l"
 	.string "in!$"
 

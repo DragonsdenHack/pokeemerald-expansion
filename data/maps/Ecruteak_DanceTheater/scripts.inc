@@ -43,8 +43,8 @@ end
 Ecruteak_DanceTheater_Text_3:
 .string "Huh?\n"
 .string "Ah, yeah!\l"
-	.string "We have several evolutions of EEVEE,\l"
-	.string "and depending on the opponent, we use\l"
+	.string "We have several Eeveelutions.\l"
+	.string "Depending on the opponent, we use\l"
 	.string "the best or worst trained ones.\l"
 	.string "Additionally, some get upset if they\l"
 	.string "lose, but we're not interested in those\l"

@@ -14,8 +14,8 @@ release
 end
 
 Route34_Text_2:
-	.string "The caretakers of the DAYCARE are on\n"
-	.string "vacation, they say they won't return\l"
+	.string "The DAYCARE's caretakers are on\n"
+	.string "vacation. They say they won't return\l"
 	.string "until the KANTO-JOHTO political\l"
 	.string "situation is clarified.$"
 
@@ -34,8 +34,8 @@ release
 end
 
 Route34_Text_9:
-	.string "The fishing has been terrible lately!\n"
-	.string "It's like all the aquatic POKÉMON are\l"
+	.string "Fishing's just been terrible lately! It's\n"
+	.string "like all the aquatic POKÉMON are\l"
 	.string "avoiding GOLDENROD like the plague!$"
 
 

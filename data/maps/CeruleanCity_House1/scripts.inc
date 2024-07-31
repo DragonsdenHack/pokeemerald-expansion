@@ -9,12 +9,7 @@ release
 end
 
 Text_1:
-.string "I will never tell a ROCKET\n"
-.string "like you about the GYM BADGES.\l"
-.string "…\l"
-.string "…\l"
-.string "What?\l"
-.string "You do not need those stupid\l"
-.string "BADGES to walk around using all HMs?\l"
-.string "…\l"
-.string "…$"
+	.string "I'll never expose the valuable secrets\n"
+	.string "of the GYM BADGEs to a ROCKET. … …\l"
+	.string "What? You don't need those stupid\l"
+	.string "BADGEs to walk around using any HM?$"

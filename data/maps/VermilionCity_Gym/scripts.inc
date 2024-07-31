@@ -380,7 +380,7 @@ PewterCityGym_CanPass_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCityGym_CanPass_Texto_3:
-	.string "A TRAINER LICENSE? … … SIgned and\n"
+	.string "A TRAINER LICENSE? … … Signed and\n"
 	.string "approved by the POKÉMON LEAGUE\l"
 	.string "MINISTRY itself… Excuse me, sir. With\l"
 	.string "the failed SILPH raid, it's hard to\l"

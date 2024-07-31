@@ -130,7 +130,7 @@ Route22_Combate_Azul_Texto_6:
 	.string "I am just in search of extra training.\n"
 	.string "VICTORY ROAD TRAINERS are not\l"
 	.string "enough, I need something else, come\l"
-	.string "one, we are on the same side, I want to\l"
+	.string "on, we are on the same side, I want to\l"
 	.string "see how much you are prepared to\l"
 	.string "afront this challenge!$"
 
@@ -138,9 +138,9 @@ Route22_Combate_Azul_Texto_7:
 .string "It can't be, you too!$"
 
 Route22_Combate_Azul_Texto_8:
-	.string "This can't be, my POKÉMONS need a higher\n"
+	.string "This can't be, my POKÉMON need a higher\n"
 	.string "level, I won't stop until they exceed 60,\l"
-	.string "with that no one could cough me.$"
+	.string "with that no one could catch me.$"
 
 Route22_Combate_Azul_Texto_9:
 	.string "By the way, don't you know where your\n"

@@ -48,7 +48,7 @@ end
 RocketHideout_10F_Primer_Cientifico_Texto_1:
 	.string "It was a horrific task to connect the\n"
 	.string "JOHTO BASE with the KANTO one by\l"
-	.string "teleport, but we've made it.$"
+	.string "teleportation, but we've made it.$"
 
 
 RocketHideout_10F_Segundo_Cientifico::

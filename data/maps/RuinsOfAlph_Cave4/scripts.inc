@@ -203,56 +203,56 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_1:
 	.string "arrive, huh, {PLAYER}?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_2:
-	.string "ANDRA: That's right, that door wasn't\n"
+	.string "ANDRA: That's right. That door wasn't\n"
 	.string "there before. It's like what happened\l"
 	.string "back on SEVEN ISLAND, but this seems\l"
 	.string "more serious now.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
-	.string "GIOVANNI, ARCHER and a lot of our best\n"
-	.string "ROCKETS are coming right now, I\l"
+	.string "GIOVANNI, ARCHER, and a lot of our best\n"
+	.string "ROCKETS are coming right now. I\l"
 	.string "informed them already.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:
-	.string "These UNOWN{PAUSE 15}…{PAUSE 15} There's something about\n"
-	.string "their appearance{PAUSE 15}…{PAUSE 15} They seem\l"
-	.string "incomplete, being part of something\l"
-	.string "major, don't you think so?$"
+	.string "These UNOWN… There's something about\n"
+	.string "their appearance… They seem\l"
+	.string "incomplete, as if part of something\l"
+	.string "major. Don't you think so?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_5:
 	.string "????: They are the RUINS OF ALPH\n"
 	.string "guardians.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_6:
-	.string "ELDER.M: And they will do whatever so\n"
-	.string "nobody discovers these chambers\l"
-	.string "secrets.$"
+	.string "ELDER.M: And they will do whatever they\n"
+	.string "must so nobody discovers these\l"
+	.string "chambers' secrets.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_7:
-	.string "ANDRA: So, what is going to happen if we\n"
-	.string "cross in this door?$"
+	.string "ANDRA: So, what's gonna happen if we\n"
+	.string "cross through this door?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_8:
 	.string "ELDER.M: All the ancestral power\n"
-	.string "contained on these ruins will pounce\l"
+	.string "contained in these ruins will pounce\l"
 	.string "over you.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_9:
 	.string "????: We have no other option though.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_10:
-	.string "ELDER.M: That's right, the ORIGINAL\n"
-	.string "DRAGON can't be fusionated again.$"
+	.string "ELDER.M: That's right. The ORIGINAL\n"
+	.string "DRAGON is impossible to fuse once more.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_11:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_12:
-	.string "GIOVANNI: I was not thinking about\n"
-	.string "exactly that, ELDER MASTER.$"
+	.string "GIOVANNI: That wasn't necessarily my\n"
+	.string "aim, ELDER MASTER.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_13:
-.string "Everyone go in!\n"
+.string "All hands, advance!\n"
 	.string "Come on!$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_14:
@@ -271,11 +271,10 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_15:
 	.string "possible.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_16:
-	.string "ELDER.M: Don't be a stupid, GIOVANNI;\n"
-	.string "that POKÉMON is beyond all the\l"
-	.string "estimations you can make; the priority\l"
-	.string "should be to prevent that ZEUS from\l"
-	.string "forming it.$"
+	.string "ELDER.M: Don't be foolish, GIOVANNI!\n"
+	.string "That POKÉMON is beyond any and all of\l"
+	.string "your estimations! The priority should\l"
+	.string "be to prevent ZEUS from creating it.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_17:
 	.string "GIOVANNI: We'll see, ELDER MASTER. How\n"
@@ -295,7 +294,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
 	.string "ANDRA: It's the eternal debate, isn't\n"
 	.string "it? That's why I decided not to train\l"
-	.string "LEGENDARIES. I'm with GIOVANNI, no\l"
+	.string "LEGENDARIES. I'm with GIOVANNI-no\l"
 	.string "ORIGINAL DRAGON is going to tell me how\l"
 	.string "far I can or can't go.$"
 

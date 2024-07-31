@@ -137,7 +137,7 @@ Indigo_Johto_Atlas_Texto_4:
 	.string "deserves to enter here twice over.$"
 
 Indigo_Johto_Atlas_Texto_5:
-	.string "I'm really sorry for the misunderstood,\n"
+	.string "I'm really sorry for the misunderstanding,\n"
 	.string "mister ARCHER, this won't happen again.$"
 
 Indigo_Johto_Atlas_Texto_6:

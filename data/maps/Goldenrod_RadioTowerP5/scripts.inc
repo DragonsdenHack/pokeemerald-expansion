@@ -414,46 +414,47 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_2:
 	.string "along with his UNDERGROUND WAREHOUSE.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_3:
-	.string "I already told you, {PLAYER}, your\n"
-	.string "destiny is to explore new regions,\l"
-	.string "become the best TRAINER possible, and\l"
-	.string "finally, here you are, also challenging\l"
-	.string "the limits of JOHTO. If by any chance\l"
-	.string "you pass through MT. SILVER, I hope you\l"
-	.string "defeat RED again, just in case.$"
+	.string "I already told you, {PLAYER}. Your\n"
+	.string "destiny's to explore new regions and\l"
+	.string "become the best TRAINER possible. And\l"
+	.string "at long last, here you are, also\l"
+	.string "challenging the limits of JOHTO. If, by\l"
+	.string "any chance, you hop by MT. SILVER, I\l"
+	.string "hope you whoop RED good again, just in\l"
+	.string "case.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_4:
-	.string "FUJI: {PLAYER}, right? Yes, I've been\n"
-	.string "released now. I wanted to talk to you.\l"
-	.string "What you did in the POKÉMON TOWER,\l"
-	.string "handing me over to the CUBONE, was very\l"
-	.string "noble of you. Due to that gesture; it\l"
-	.string "changed the opinion I had of TEAM\l"
-	.string "ROCKET. I saw that those poor devils\l"
-	.string "who killed MAROWAK were only victims of\l"
-	.string "their ignorance; GIOVANNI made it clear\l"
-	.string "to me that he imposed an exemplary\l"
-	.string "punishment on them for such atrocity.\l"
-	.string "In contrast, those of you upstairs\l"
-	.string "know the true purpose of TEAM ROCKET;\l"
-	.string "now I know it too.$"
+	.string "FUJI: {PLAYER}, right? Yes, I've\n"
+	.string "finally been released. I wanted to talk\l"
+	.string "to you. What you did in the POKÉMON\l"
+	.string "TOWER-handing the CUBONE over to me-was\l"
+	.string "very noble of you. That gesture\l"
+	.string "reshaped my opinion of TEAM ROCKET.\l"
+	.string "Those poor devils who slew MAROWAK were\l"
+	.string "just victims of their own ignorance.\l"
+	.string "GIOVANNI made it clear to me he imposed\l"
+	.string "an exemplary punishment for such an\l"
+	.string "atrocity. In contrast, you higher-ups\l"
+	.string "know TEAM ROCKET's true purpose. And\l"
+	.string "now I know too.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_5:
 	.string "BILL: Well, well, well. Look who it is.\n"
 	.string "From a lowly thief to a high-ranking\l"
-	.string "ROCKET, EXECUTIVE, ADMIN.CHIEF, and\l"
-	.string "now rubbing shoulders with the 15 most\l"
-	.string "influential people in all of\l"
-	.string "KANTO-JOHTO. I have a rematch planned\l"
-	.string "with you, {PLAYER}. This time, my new\l"
-	.string "toys will be too much, even for you.$"
+	.string "ROCKET, then an EXECUTIVE, and now an\l"
+	.string "ADMIN. CHIEF rubbing shoulders with the\l"
+	.string "fifteen most influential people in all\l"
+	.string "of KANTO-JOHTO. I've planned my\l"
+	.string "rematch with you, {PLAYER}. This time,\l"
+	.string "my new toys will be too much, even for\l"
+	.string "you.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_6:
-	.string "OAK: Hey! {PLAYER}! Welcome to\n"
-	.string "POKÉMON world! Didnt you want to\l"
-	.string "discover this world? Then this is the\l"
-	.string "reality! 15 individuals dividing 2\l"
-	.string "regions like pieces of a cake!$"
+	.string "OAK: Hey! {PLAYER}! Welcome to the\n"
+	.string "world of POKÉMON! Didn't you want to\l"
+	.string "discover this world? This is the reality\l"
+	.string "of it! Fifteen individuals dividing two\l"
+	.string "regions like slices of a cake!$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_7:
 	.string "You have dishonored our clan, LANCE. I\n"
@@ -468,9 +469,9 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_8:
 .string "LANCE: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_9:
-.string "ANDRA: Come on, {PLAYER}!\n"
-	.string "Always late, Just like in\l"
-	.string "ARCHER' first speech!$"
+	.string "ANDRA: C'mon, {PLAYER}! Always keeping\n"
+	.string "that late streak. Just like with\l"
+	.string "ARCHER's first speech way back when!$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_10:
 	.string "DIRECTOR: All right, ladies and\n"
@@ -484,75 +485,75 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_11:
 	.string "GIOVANNI, TEAM ROCKET'S LEADER, the\n"
 	.string "organization currently controlling the\l"
 	.string "government of KANTO and the POKÉMON\l"
-	.string "LEAGUE championship, and former\l"
-	.string "champion of KANTO.$"
+	.string "LEAGUE championship. And also former\l"
+	.string "KANTO's CHAMPION.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_12:
 	.string "ARCHER, TEAM ROCKET'S CHIEF\n"
-	.string "ADMINISTRATOR, GIOVANNI's right hand\l"
-	.string "and ROCKET ADMIN. on SEVII ISLANDS.$"
+	.string "ADMINISTRATOR, GIOVANNI's right hand,\l"
+	.string "and ROCKET SEVII ISLANDS. ADMIN.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_13:
 	.string "The PRESIDENT of SILPH, the most\n"
-	.string "successful corporation in KANTO, which\l"
-	.string "collaborates with TEAM ROCKET.$"
+	.string "successful corporation in KANTO, and\l"
+	.string "TEAM ROCKET's collaborator.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_14:
 	.string "PROFESSOR ELM, the most prominent\n"
-	.string "researcher in JOHTO, knowledgeable\l"
-	.string "about all its fauna and flora.$"
+	.string "researcher in JOHTO, knowledgeable in\l"
+	.string "all its fauna and flora.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_15:
 	.string "PRYCE, the eternal LEADER of MAHOGANY\n"
 	.string "TOWN and its secrets.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_16:
-	.string "JADEN, master of BELL TOWER and\n"
-	.string "ECRUTEAK CITY'S LEADER, the HO-OH'S\l"
-	.string "chosen one.$"
+	.string "JADEN, BELL TOWER's master and\n"
+	.string "ECRUTEAK CITY's LEADER, as well as\l"
+	.string "HO-OH's chosen one.$"
 
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_17:
 	.string "BLUE, OAK's grandson, TEAM ROCKET's\n"
-	.string "collaborator and temporary CHAMPION\l"
-	.string "waiting for new decisions.$"
+	.string "collaborator, and KANTO's temporary\l"
+	.string "CHAMPION awaiting orders.$"
 
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_18:
 	.string "FUJI, former ROCKET scientist, pivotal\n"
-	.string "in the creation of MEWTWO, now the most\l"
-	.string "influential individual in LAVENDER TOWN.$"
+	.string "in the creation of MEWTWO, and LAVENDER\l"
+	.string "TOWN's most important individual.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_19:
 	.string "BILL, the world's most famous POKÉ\n"
-	.string "MANIAC, a SILPH's scientist. He has\l"
-	.string "optimized the evolutionary line of\l"
-	.string "PORYGON to its limits.$"
+	.string "MANIAC and a scientist of SILPH. He has\l"
+	.string "optimized PORYGON's evolution line to\l"
+	.string "its limits.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_20:
-	.string "SAMUEL OAK, the most prominent\n"
-	.string "researcher in KANTO, former champion of\l"
-	.string "KANTO.$"
+	.string "SAMUEL OAK, KANTO's most prominent\n"
+	.string "researcher, and KANTO's former\l"
+	.string "champion.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_21:
 	.string "LANCE, former CHAMPION and former\n"
 	.string "GOVERNOR of KANTO-JOHTO.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_22:
-	.string "ELDER MASTER SALAZAR, from BLACKTHORN\n"
-	.string "CITY, the considered most powerful\l"
-	.string "TRAINER in JOHTO, a masterful expert in\l"
-	.string "the DRAGON TYPE.$"
+	.string "BLACKTHORN CITY's ELDER MASTER\n"
+	.string "SALAZAR, considered the most powerful\l"
+	.string "TRAINER in JOHTO and an expert of the\l"
+	.string "DRAGON TYPE.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_23:
 	.string "ANDRA, TEAM ROCKET'S CHIEF\n"
-	.string "ADMINISTRATOR, and ROCKET BOSS on\l"
+	.string "ADMINISTRATOR and ROCKET ADMIN. of\l"
 	.string "HOENN.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_24:
 	.string "Finally, {PLAYER}, TEAM ROCKET'S\n"
-	.string "CHIEF ADMINISTRATOR, ROCKET BOSS on\l"
-	.string "JOHTO, and actual CHAMPION of KANTO by\l"
+	.string "CHIEF ADMINISTRATOR, ROCKET ADMIN. of\l"
+	.string "JOHTO, and actual KANTO's CHAMPION by\l"
 	.string "his own merits.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_25:
@@ -561,38 +562,38 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_25:
 	.string "GIOVANNI, the floor is yours.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_26:
-	.string "GIOVANNI: I have assembled you all here\n"
-	.string "with the aim of witnessing a genuinely\l"
-	.string "united KANTO and JOHTO at last. Until\l"
-	.string "now, we have each been going our own\l"
-	.string "way, when the majority of us were, after\l"
-	.string "all, chasing the same goals.$"
+	.string "GIOVANNI: I have gathered all of you\n"
+	.string "here with the purpose of witnessing a\l"
+	.string "genuinely united KANTO and JOHTO at\l"
+	.string "last. Until now, we have each been going\l"
+	.string "our own way, when the majority of us\l"
+	.string "were, after all, chasing the same goals.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_27:
-	.string "The purpose of this gathering is to\n"
+	.string "The purpose of this meeting is to\n"
 	.string "secure a prosperous future for both\l"
 	.string "regions, while establishing a strong\l"
 	.string "system where our respective interests\l"
 	.string "do not oppose each other.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_28:
-	.string "However, it's not just that; now we have\n"
-	.string "no problem stating that several of\l"
-	.string "those present here were involved in the\l"
-	.string "creation of MEWTWO, alongside LUGIA\l"
-	.string "and HO-OH. In response to LANCE's\l"
-	.string "attacks, the unity between KANTO and\l"
-	.string "JOHTO wouldn't just be about a\l"
-	.string "non-aggression pact to prevent\l"
-	.string "further catastrophe among us, but\l"
-	.string "would also allow us to collaborate\l"
-	.string "closely in creating prototypes even\l"
-	.string "more powerful than MEWTWO, protecting\l"
-	.string "both regions in case of an attack.$"
+	.string "Yet that's not our only aim here. Now,\n"
+	.string "we've no problem in stating that\l"
+	.string "several in our presence were involved in\l"
+	.string "the creation of MEWTWO, alongside\l"
+	.string "LUGIA and HO-OH. In response to\l"
+	.string "LANCE's attacks, the unity between\l"
+	.string "KANTO and JOHTO wouldn't just be about\l"
+	.string "a non-aggression pact to prevent\l"
+	.string "further catastrophe among us. It would\l"
+	.string "also allow us to collaborate closely in\l"
+	.string "creating prototypes even more powerful\l"
+	.string "than MEWTWO to defend both regions in\l"
+	.string "the event of an attack.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_29:
-	.string "BILL: I agree, not exploring the limits\n"
-	.string "of this world would be a sin.$"
+	.string "BILL: Agreed. Not exploring the limits\n"
+	.string "of this world would be a travesty.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_30:
 	.string "ELDER.M: And how do we know you won't\n"
@@ -612,24 +613,24 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_31:
 	.string "knowledge is never in vain.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_32:
-	.string "DIRECTOR: So what are you going to\n"
-	.string "propose, GIOVANNI?$"
+	.string "DIRECTOR: So what do you propose,\n"
+	.string "GIOVANNI?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_33:
 	.string "GIOVANNI: The first step will be to\n"
-	.string "open the borders of ROUTE 26 and 27.\l"
+	.string "open the borders of ROUTEs 26 and 27.\l"
 	.string "Something that, I understand, will be\l"
 	.string "done shortly.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_34:
-	.string "Then, we will announce the return of the\n"
+	.string "Then we will announce the return of the\n"
 	.string "POKÉMON LEAGUE CHAMPIONSHIP to JOHTO\l"
-	.string "as well, making the 8 region BADGES\l"
-	.string "valid.$"
+	.string "as well, making the region's eight\l"
+	.string "BADGES valid.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_35:
-	.string "The creation of the MAGNETRAIN and the\n"
-	.string "expansion of OLIVINE PORT will\l"
+	.string "The creation of the MAGNET TRAIN and\n"
+	.string "the expansion of OLIVINE PORT will\l"
 	.string "complete the connection between KANTO\l"
 	.string "and JOHTO.$"
 
@@ -641,28 +642,28 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_37:
 	.string "LEAGUE, this is what we can offer.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_38:
-	.string "LANCE, you will have the opportunity to\n"
-	.string "compete for the title of CHAMPION once\l"
-	.string "more if you wish, and your status as a\l"
-	.string "DRAGON TAMER will remain unquestioned.\l"
-	.string "Please don't assume I'm doing this out\l"
-	.string "of any special favoritism towards you;\l"
-	.string "I'm simply acting because your\l"
-	.string "involvement in JOHTO would expedite\l"
-	.string "the unification process if you are\l"
-	.string "genuinely engaged in events from both\l"
-	.string "regions.$"
+	.string "LANCE, you'll have the chance to dispute\n"
+	.string "for the CHAMPION's title once again,\l"
+	.string "should you wish, and your fame as\l"
+	.string "DRAGON TAMER won't be doubted. Don't\l"
+	.string "assume I'm doing this out of any special\l"
+	.string "favoritism towards you. I'm just doing\l"
+	.string "this because your presence in JOHTO's\l"
+	.string "future would speed up the unification\l"
+	.string "process if you are seen as genuinely\l"
+	.string "engaged in the events of both regions.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_39:
-	.string "OAK, you will be able to continue all\n"
-	.string "your research, this time making all your\l"
-	.string "findings public to those present here.\l"
-	.string "You will be able to work with the finest\l"
-	.string "minds from both regions, alongside ELM,\l"
-	.string "BILL, and also BLAINE. All your work will\l"
-	.string "be put to the service of KANTO-JOHTO.\l"
-	.string "That's what you wanted, isn't it? The\l"
-	.string "means are insignificant.$"
+	.string "As for you, OAK, you'll be able to\n"
+	.string "continue all of your research, but this\l"
+	.string "time you'll have to make your results\l"
+	.string "public for those present here. You'd be\l"
+	.string "able to work along with the most\l"
+	.string "brilliant minds from both regions; ELM,\l"
+	.string "BILL and also BLAINE. Your work will\l"
+	.string "contribute to the development of KANTO\l"
+	.string "and JOHTO. That's what you wanted, isn't\l"
+	.string "it? The means are insignificant.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_40:
 .string "OAK: {PAUSE 25}…{PAUSE 25}$"
@@ -676,15 +677,15 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_41:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_42:
 	.string "I know that to you, esteemed masters\n"
 	.string "of BLACKTHORN CITY and ECRUTEAK CITY,\l"
-	.string "these matters hold little interest, but\l"
+	.string "these matters may seem trifling, but\l"
 	.string "TEAM ROCKET knows how to respect\l"
-	.string "traditions, and surely every inhabitant\l"
-	.string "arriving from KANTO will appreciate\l"
-	.string "landmarks like the BELL TOWER or the\l"
-	.string "DRAGON'S DEN, just as we will strive to\l"
-	.string "keep JOHTO as rural as it has always\l"
-	.string "been, except for major cities like\l"
-	.string "GOLDENROD.$"
+	.string "traditions, and every new inhabitant\l"
+	.string "arriving from KANTO will undoubtedly\l"
+	.string "appreciate landmarks like the BELL\l"
+	.string "TOWER or the DRAGON'S DEN. At the same\l"
+	.string "time, we will work to preserve JOHTO's\l"
+	.string "rural charm as it has always been,\l"
+	.string "except in major cities like GOLDENROD.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_43:
 	.string "DIRECTOR: And how do you intend to\n"
@@ -693,7 +694,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_43:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_44:
 	.string "GIOVANNI: This is where FUJI and\n"
 	.string "LAVENDER TOWN come into play, dear\l"
-	.string "friend.$"
+	.string "fellow.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_45:
 .string "FUJI: {PAUSE 25}…{PAUSE 25}$"
@@ -705,31 +706,31 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_46:
 	.string "few remaining CUBONE, who will be\l"
 	.string "relocated to ROCK TUNNEL, which is more\l"
 	.string "suitable for them. Meanwhile, a new\l"
-	.string "underground GRAVEYARD will be built\l"
+	.string "underground cemetery will be built\l"
 	.string "south of the town to hold all the\l"
-	.string "graves from LAVENDER TOWN TOWER.$"
+	.string "graves from LAVENDER TOWN's POKÉMON\l"
+	.string "TOWER.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_47:
-.string "DIRECTOR: But…\n"
-	.string "And LAVENDER TOWER?$"
+.string "DIRECTOR: And…\n"
+	.string "The POKÉMON TOWER?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_48:
 	.string "GIOVANNI: It will be converted into the\n"
-	.string "KANTO RADIO TOWER, where it will also be\l"
-	.string "able to broadcast its programs,\l"
-	.string "DIRECTOR. Are we on the same page?$"
+	.string "LAVENDER RADIO TOWER, where you will\l"
+	.string "also be able to broadcast your\l"
+	.string "programs, PRESIDENT. Capisci?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_49:
-	.string "DIRECTOR: We are exactly on the same\n"
-	.string "page.$"
+	.string "DIRECTOR: Capisco.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_50:
 	.string "GIOVANNI: Some may find it\n"
 	.string "controversial, but it's the best\l"
 	.string "decision in the long term. It not only\l"
-	.string "promotes unity between the 2 regions\l"
-	.string "but also allows us to finance many of\l"
-	.string "our projects with the profits.$"
+	.string "promotes unity between the two\l"
+	.string "regions, but also allows us to finance\l"
+	.string "many of our projects with profits.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_51:
 	.string "We must make tough decisions,\n"
@@ -760,13 +761,13 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_53:
 	.string "of both regions.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_54:
-	.string "SILPH and the KANTO RADIO TOWER will\n"
-	.string "stay closed to the public. The reason?\l"
-	.string "The TEAM ROCKET will work directly in\l"
-	.string "these places alongside their workers.\l"
-	.string "Publicly, we will claim security reasons\l"
-	.string "because, of course, who wants a repeat\l"
-	.string "of the horrific assault on the SILPH CO.\l"
+	.string "SILPH and the LAVENDER RADIO TOWER\n"
+	.string "will stay closed to the public. The\l"
+	.string "reason? TEAM ROCKET will work directly\l"
+	.string "in these places alongside their\l"
+	.string "workers. Publicly, we will claim security\l"
+	.string "reasons because, of course, who wants a\l"
+	.string "repeat of the assault on the SILPH CO.\l"
 	.string "headquarters by the same TEAM ROCKET?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_55:
@@ -776,20 +777,21 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_55:
 	.string "are related to radio.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_56:
-	.string "ELM: That's correct, we've identified a\n"
+	.string "ELM: That's correct. We've identified a\n"
 	.string "correlation between specific radio\l"
 	.string "frequencies and POKÉMON growth;\l"
 	.string "there's a chance they could experience\l"
 	.string "certain mutations.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_57:
-	.string "So, the LAVENDER RADIO TOWER and also\n"
-	.string "this one will have own research rooms,\l"
-	.string "unavailable to most of population, while\l"
-	.string "we trust that you, PRYCE, provide us\l"
-	.string "that old ninja base at MAHOGANY to\l"
-	.string "build this extensive network of\l"
-	.string "research and business center.$"
+	.string "So the LAVENDER RADIO TOWER and also\n"
+	.string "this one will have their own research\l"
+	.string "rooms, unavailable to most of the\l"
+	.string "population, while we trust that you,\l"
+	.string "PRYCE, provide us that old ninja base at\l"
+	.string "MAHOGANY to build this extensive\l"
+	.string "network of research and business\l"
+	.string "centers.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_58:
 	.string "PRYCE: Count on that, GIOVANNI.$"
@@ -799,27 +801,26 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_59:
 	.string "title of GOVERNOR will be abolished.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_60:
-	.string "GIOVANNI: Only SILPH, the RADIO TOWER,\n"
+	.string "GIOVANNI: Only SILPH CO, RADIO TOWER,\n"
 	.string "TEAM ROCKET, and other companies like\l"
-	.string "OLIVINE PORT, MAGNETRAIN, or the GAME\l"
-	.string "CORNERS will exist.$"
+	.string "OLIVINE PORT, MAGNET TRAIN, or the\l"
+	.string "GAME CORNERS will keep operating.$"
 
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_61:
-.string "Any doubt?$"
+.string "Any doubts?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_62:
-	.string "BILL: All of that sounds great, but as\n"
-	.string "he mentioned, what really matters in\l"
-	.string "the end is the power that can be\l"
-	.string "generated from this system. What\l"
-	.string "numbers do you expect the new\l"
-	.string "prototypes to reach?$"
+	.string "BILL: All that sounds great, but as you\n"
+	.string "mentioned, what matters in the end is\l"
+	.string "the power that can be gathered from\l"
+	.string "this system. What numbers do you\l"
+	.string "expect the new prototypes to reach?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_63:
-	.string "GIOVANNI: Calm down, BILL, you will have\n"
-	.string "a chance to work for that directly\l"
-	.string "together with OAK and ELM.$"
+	.string "GIOVANNI: Calm down, BILL. You'll have\n"
+	.string "the chance to work on that directly,\l"
+	.string "alongside OAK and ELM.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_64:
 	.string "It's known that with MEWTWO, we reached\n"
@@ -832,48 +833,48 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_66:
 .string "OAK: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_67:
-	.string "GIOVANNI: Suggest that it's possible\n"
-	.string "to comfortably exceed the 700 base\l"
-	.string "limit, and even breach the 800 mark.$"
+	.string "GIOVANNI: … suggest that it's possible\n"
+	.string "to easily exceed the 700 base limit, and\l"
+	.string "even breach the 800 mark.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_68:
-	.string "BILL: That's insane!! Do you realize the\n"
-	.string "numbers that you are talking about? A\l"
-	.string "POKÉMON's body can't withstand such\l"
+	.string "BILL: You've gone mad!! Do you realize\n"
+	.string "the numbers that you're talking about?\l"
+	.string "A POKÉMON's body can't withstand such\l"
 	.string "high stats.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_69:
 	.string "GIOVANNI: I certainly believe it can,\n"
-	.string "and when you see the resources we have\l"
-	.string "at our disposal, you'll believe it too.$"
+	.string "and once you see the resources we have\l"
+	.string "at our disposal, you'll feel it too.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_70:
 .string "BILL: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_71:
 	.string "That's all, gentleman. As you can see, if\n"
-	.string "we all work together, we can transform\l"
-	.string "these two regions into the greatest\l"
-	.string "powerhouse the world has ever known,\l"
-	.string "benefiting everyone from the most\l"
-	.string "venerable and ancient residents to the\l"
-	.string "brightest scientists and\l"
-	.string "entrepreneurs.$"
+	.string "we all work together, we can turn these\l"
+	.string "two regions into the biggest power in\l"
+	.string "the world ever known, benefiting\l"
+	.string "everyone, even from the most venerable\l"
+	.string "and ancient residents to the brightest\l"
+	.string "scientists and businessmen.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_72:
 	.string "DIRECTOR: Any question?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_73:
-	.string "We hereby conclude the I GOLDENROD\n"
-	.string "CONFERENCE. Soon, each of you present\l"
-	.string "here will receive the actions to take to\l"
-	.string "fulfill each of the points discussed\l"
-	.string "here. For now, I announce that the\l"
-	.string "borders with KANTO will reopen.$"
+	.string "We at this moment conclude the\n"
+	.string "GOLDENROD CONFERENCE I. Each of you\l"
+	.string "present here will soon receive the\l"
+	.string "actions to be taken to fulfill each of\l"
+	.string "the points made here. For the time\l"
+	.string "being, I will announce that the\l"
+	.string "borderlines with KANTO will reopen.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_74:
-	.string "Very interesting times are coming for\n"
-	.string "all of us. That's it, gentlemen.$"
+	.string "Interesting times are ahead for all of\n"
+	.string "us. That's it, gentlemen.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_75:
 .string "ANDRA: An intense meeting, huh?$"
@@ -881,8 +882,8 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_75:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_76:
 	.string "GIOVANNI: ANDRA, {PLAYER}, it's a\n"
 	.string "pleasure to see you both together\l"
-	.string "again. You've brought much joy to TEAM\l"
-	.string "ROCKET through your teamwork.$"
+	.string "again. You've brought many joys to TEAM\l"
+	.string "ROCKET due to your teamwork.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_77:
 	.string "You're doing an excellent job in HOENN,\n"
@@ -890,19 +891,19 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_77:
 	.string "STATS distribution of those REGIS.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_78:
-	.string "{PLAYER}, if I'm not wrong, you\n"
-	.string "already have 5 JOHTO BADGES. The latest\l"
-	.string "data on that DEEP BOND POLIWRATH has\l"
+	.string "{PLAYER}, if I'm not wrong, you've 5\n"
+	.string "JOHTO BADGES now. The latest data you\l"
+	.string "got about DEEP BOND POLIWRATH has\l"
 	.string "been very useful to us; that POKÉMON is\l"
-	.string "a powerhouse in every sense. It\l"
+	.string "a tough rock in every aspect. It\l"
 	.string "outperforms MACHAMP in all 6 STATS, and\l"
 	.string "with IRON FIST supported by its huge\l"
 	.string "defenses and a BASE ATTACK of 145, it's\l"
-	.string "a true life-draining and\l"
+	.string "a really life-draining and\l"
 	.string "self-recovering machine.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_79:
-	.string "I want both of you to take a short\n"
+	.string "I want you both to take a short\n"
 	.string "vacation; you've earned it.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_80:
@@ -913,7 +914,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_80:
 	.string "that we've achieved.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_81:
-	.string "GIOVANNI: Yeah, I think you'll enjoy\n"
+	.string "GIOVANNI: Surely, I think you'll enjoy\n"
 	.string "visiting that place, just like you did\l"
 	.string "for the first time with the DEEP ROCKET\l"
 	.string "BASE.$"
@@ -924,18 +925,19 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_82:
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_83:
 	.string "GIOVANNI: What did you think of the\n"
-	.string "meeting, {PLAYER}? To the eyes of the\l"
-	.string "population, this has never happened, it\l"
-	.string "doesn't exist, and yet, it has laid the\l"
+	.string "meeting, {PLAYER}? In the eyes of\l"
+	.string "people, this has never happened; it\l"
+	.string "doesn't exist, and yet it has laid the\l"
 	.string "groundwork for their lives in the coming\l"
 	.string "years. Let's hope for the best…$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_84:
 	.string "Look at this magnificent landscape,\n"
-	.string "{PLAYER}, from here we have a view of\l"
+	.string "{PLAYER}. From here, we have a view of\l"
 	.string "the OLIVINE CITY LIGHTHOUSE, the BELL\l"
-	.string "TOWER of ECRUTEAK CITY, JOHTO, right at\l"
-	.string "our fingertips.$"
+	.string "TOWER of ECRUTEAK CITY, and\l"
+	.string "essentially all of JOHTO, right at our\l"
+	.string "fingertips.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_85:
 .string "GIOVANNI: {PAUSE 25}…{PAUSE 25}$"
@@ -947,24 +949,25 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_86:
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_87:
 	.string "Alongside PRYCE and the GREAT MASTER\n"
-	.string "from ECRUTEAK CITY, they are the 3 most\l"
-	.string "powerful LEADERS in JOHTO, especially\l"
-	.string "the DRAGON MASTER. I suspect he has a\l"
-	.string "DEEP BOND PSEUDO-LEGENDARY on his\l"
-	.string "team. If this were to be true, knowing\l"
-	.string "its data would be crucial.$"
+	.string "from ECRUTEAK CITY, they are the three\l"
+	.string "most powerful LEADERS in JOHTO,\l"
+	.string "especially the DRAGON MASTER. I\l"
+	.string "suspect he has a DEEP BOND\l"
+	.string "PSEUDO-LEGENDARY on his team. If this\l"
+	.string "were true, knowing its data would be\l"
+	.string "crucial.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_88:
 	.string "The three are living legends of the\n"
-	.string "region, they are part of a dying breed\l"
+	.string "region. They are part of a dying breed\l"
 	.string "and have shown that training POKÉMON\l"
 	.string "is a true art. Despite our efforts to\l"
 	.string "bring everything to our laboratories, I\l"
 	.string "want to unite the best of both worlds\l"
-	.string "before it's too late. In about 3 years,\l"
-	.string "it will be impossible to find TRAINERS\l"
-	.string "like them, even in this rural and\l"
-	.string "traditional JOHTO.$"
+	.string "before it's too late. It will be\l"
+	.string "impossible to find TRAINERS like them in\l"
+	.string "about three years, even in this rural\l"
+	.string "and traditional JOHTO.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_89:
 	.string "But don't worry, {PLAYER}, time is\n"
@@ -975,12 +978,12 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_89:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_90:
 	.string "For now, ANDRA is waiting for you to\n"
 	.string "visit the upper floors of the JOHTO\l"
-	.string "BASE. There, you'll see some of the\l"
-	.string "progress we've made.$"
+	.string "BASE. There, you'll see some of our\l"
+	.string "progress.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_91:
 	.string "That's all, {PLAYER}. I'm glad to see\n"
-	.string "you again, it's evident that your skills\l"
+	.string "you again. It's evident that your skills\l"
 	.string "have improved.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_move_1:

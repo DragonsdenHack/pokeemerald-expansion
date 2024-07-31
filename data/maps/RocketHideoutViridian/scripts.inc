@@ -190,9 +190,9 @@ RocketHideoutViridian_Combate_Proton_Texto_1:
 
 RocketHideoutViridian_Combate_Proton_Texto_2:
 	.string "As you already know, in this\n"
-	.string "organization, one must demonstrate\l"
-	.string "that they are up to the task and\l"
-	.string "deserving of the missions entrusted to\l"
+	.string "organization. One must perform\l"
+	.string "according to the task and deserving\l"
+	.string "of the missions entrusted to\l"
 	.string "them. In your case, yours is the most\l"
 	.string "complicated of all, and that requires\l"
 	.string "extreme testing measures…$"
@@ -207,8 +207,8 @@ RocketHideoutViridian_Combate_Proton_Texto_3:
 	.string "believe me? I'll prove it to you!$"
 
 RocketHideoutViridian_Combate_Proton_Texto_4:
-	.string "You didn't make a mistake with\n"
-	.string "{PLAYER}.$"
+	.string "We didn't make a mistake\n"
+	.string "with you, {PLAYER}.$"
 
 RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "Moving to our base in CELADON CITY was\n"
@@ -310,8 +310,8 @@ RocketHideoutViridian_Combate_Petrel_Texto_4:
 
 RocketHideoutViridian_Combate_Petrel_Texto_5:
 	.string "HAH! Marvelous! I didn't expect less\n"
-	.string "than the one who defeated BRUNO and\l"
-	.string "saved my BIKERS colleagues! I'm happy\l"
+	.string "coming from the one who defeated BRUNO\l"
+	.string "and saved my BIKERS colleagues! I'm happy\l"
 	.string "to see you're on our side, {PLAYER}, if\l"
 	.string "you happen to encounter that guy\l"
 	.string "named RED, you know, the one who thinks\l"
@@ -442,7 +442,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_2:
 	.string "comfortable.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_3:
-	.string "It is a curious constrans between this\n"
+	.string "It is a curious contrast between this\n"
 	.string "small space regarding the rest of the\l"
 	.string "BASE, right? I wasn't in favor of\l"
 	.string "building it like that, however they said\l"
@@ -505,8 +505,8 @@ RocketHideoutViridian_Combate_Atlas_Texto_10:
 	.string "EARTH BADGE.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_11:
-	.string "Impressive, just in a few period of time\n"
-	.string "you have reached an extraordinary\l"
+	.string "Impressive, just in a short period of\n"
+	.string "time, you have reached an extraordinary\l"
 	.string "skill, and the best part about it is that\l"
 	.string "you havent reached your limits yet.$"
 
@@ -523,12 +523,12 @@ RocketHideoutViridian_Combate_Atlas_Texto_12:
 
 RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "Obtaining the championship of the\n"
-	.string "LEAGUE gives to CHAMP a power that not\l"
+	.string "LEAGUE gives the CHAMP a power that not\l"
 	.string "even LANCE nor his government could\l"
 	.string "dispute against, that is the reason why\l"
 	.string "you should expect the worse once you\l"
 	.string "enter to the POKÉMON LEAGUE, they\l"
-	.string "won't let a strange obtain the title so\l"
+	.string "won't let a stranger obtain the title so\l"
 	.string "easily…$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:

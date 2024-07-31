@@ -36,11 +36,11 @@ end
 
 Goldenrod_ShopP1_Text_4:
 	.string "I bought a LARVITAR at the GAME\n"
-	.string "CORNER, now I'm paying an expert to\l"
+	.string "CORNER, and now, I'm paying an expert to\l"
 	.string "turn it into a TYRANITAR. They say it's\l"
-	.string "the strongest POKÉMON in JOHTO,\l"
-	.string "without considering LEGENDARIES.\l"
-	.string "Everyone will respect me!$"
+	.string "the strongest POKÉMON in JOHTO-barring\l"
+	.string "LEGENDARIES, of course. Everyone will\l"
+	.string "respect me!$"
 
 
 

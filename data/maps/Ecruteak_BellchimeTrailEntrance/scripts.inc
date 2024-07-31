@@ -45,7 +45,7 @@ end
 
 Ecruteak_Bellchimetrailentrance_Text_4:
 	.string "BELLCHIME TRAIL is behind these stairs\n"
-	.string "and, further, BELL TOWER.$"
+	.string "and, further beyond that, BELL TOWER.$"
 
 
 
@@ -63,7 +63,7 @@ end
 
 Ecruteak_Bellchimetrailentrance_Text_6:
 	.string "BELLCHIME TRAIL is behind these stairs\n"
-	.string "and, further, BELL TOWER.$"
+	.string "and, further beyond that, BELL TOWER.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto::
 lockall
@@ -232,8 +232,8 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
 	.string "The GRAND MASTER of BELL TOWER is one\n"
 	.string "the person that could help me. He saw\l"
-	.string "the LEGENDARY HO-OH and masters\l"
-	.string "perfectly the healing properties of its\l"
+	.string "the LEGENDARY HO-OH and perfectly\l"
+	.string "mastered the healing properties of its\l"
 	.string "SACRED ASH, but to speak with him, I\l"
 	.string "have to climb to the top of BELL TOWER…$"
 
@@ -254,25 +254,24 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_9:
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_10:
 	.string "ALDER: The KANTO-JOHTO CHAMPION is\n"
-	.string "one of those individuals, right?. Here in\l"
+	.string "one of those individuals, right? Here in\l"
 	.string "front of you is the true KANTO\l"
 	.string "CHAMPION: {PLAYER}.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
-.string "{PLAYER}?\n"
-	.string "I apologize, but without evidence to\l"
-	.string "support your claim, you won't be allowed\l"
-	.string "to proceed. The current state of the\l"
-	.string "POKÉMON LEAGUE is in turmoil. I've heard\l"
-	.string "that a person named RED won the\l"
-	.string "championship, but he's being\l"
-	.string "substituted by BLUE. Additionally,\l"
-	.string "ELITE FOUR member AGATHA has recently\l"
-	.string "just resigne…$"
+	.string "{PLAYER}? I'm afraid you have no\n"
+	.string "evidence to prove your claim, so you\l"
+	.string "won't be allowed to proceed. The\l"
+	.string "current state of the POKÉMON LEAGUE is\l"
+	.string "in turmoil. I've heard that a TRAINER\l"
+	.string "named RED won the championship, but\l"
+	.string "BLUE is substituting him. Additionally,\l"
+	.string "the ELITE FOUR member AGATHA has\l"
+	.string "recently just resigne…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
-.string "????: {PLAYER}!\n"
-	.string "It is a pleasure to see you again!$"
+	.string "????: {PLAYER}! It's a pleasure to\n"
+	.string "see you again!.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
 	.string "E…ELITE FOUR AGATHA, it is an honor to\n"

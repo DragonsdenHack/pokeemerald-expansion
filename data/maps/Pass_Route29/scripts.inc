@@ -14,9 +14,9 @@ release
 end
 
 Pass_Route29_Text_1:
-	.string "I must be honest, the entire terrain\n"
-	.string "from here to KANTO is precious, I wonder\l"
-	.string "why something hasn't been built yet.$"
+	.string "I must be honest. The whole land from\n"
+	.string "here to KANTO is precious. I wonder why\l"
+	.string "nothing's been built here yet.$"
 
 
 
@@ -28,8 +28,8 @@ release
 end
 
 Pass_Route29_Text_3:
-	.string "There is nothing better than going to\n"
-	.string "collect berries in nature!$"
+	.string "There's nothing better than going out\n"
+	.string "to gather berries in nature!$"
 
 
 
@@ -98,87 +98,84 @@ Pass_Route29_Encuentro_Elm_Texto_1:
 	.string "end.$"
 
 Pass_Route29_Encuentro_Elm_Texto_2:
-	.string "I know, I'm asking you to block that\n"
-	.string "zone just for a while, me and my aides\l"
-	.string "are going to do an important\l"
-	.string "investigation there, anyway there is\l"
-	.string "nothing to see at east of ROUTE 29, you\l"
-	.string "still can go to any town or city of\l"
-	.string "JOHTO with that route closed.$"
+	.string "I know. I'm asking you to blockade that\n"
+	.string "zone for a while. My aides and I will\l"
+	.string "have an important investigation there.\l"
+	.string "There's nothing to see east of ROUTE 29\l"
+	.string "anyway. Anyone could still make it to\l"
+	.string "any town or city, even with that route\l"
+	.string "closed.$"
 
 Pass_Route29_Encuentro_Elm_Texto_3:
-	.string "O-Okay professor, I will send two cops\n"
-	.string "immediately to block that route.$"
+	.string "O-okay, professor. I'll send over two\n"
+	.string "cops immediately to block off that\l"
+	.string "route.$"
 
 Pass_Route29_Encuentro_Elm_Texto_4:
 .string "All right.$"
 
 Pass_Route29_Encuentro_Elm_Texto_5:
-	.string "????: You must be {PLAYER}, aren't\n"
-	.string "you? GIOVANNI already told me of your\l"
-	.string "arrive, my name is ELM, I have dedicated\l"
-	.string "my entire life to understand how does\l"
-	.string "the evolution system of POKÉMON works,\l"
-	.string "and right now, due to TEAM ROCKET\l"
-	.string "invests, finally I am getting some\l"
-	.string "results, proof of that, is the object\l"
-	.string "that I will give you.$"
+	.string "????: You're {PLAYER}, aren't you?\n"
+	.string "GIOVANNI's already told me of your\l"
+	.string "arrival. My name is ELM. I've dedicated\l"
+	.string "my entire life to understanding the\l"
+	.string "workings of POKÉMON evolution, and\l"
+	.string "right now, thanks to TEAM ROCKET's\l"
+	.string "investments, I'm finally achieving\l"
+	.string "results. The proof is in the object I'll\l"
+	.string "give you.$"
 
 Pass_Route29_Encuentro_Elm_Texto_6:
 	.string "{PLAYER} received a MEGA RING from\n"
 	.string "PROF.ELM.$"
 
 Pass_Route29_Encuentro_Elm_Texto_7:
-	.string "I promised GIOVANNI that I will give a\n"
-	.string "MEGA RING to each one CHIEF ADMIN. I\l"
-	.string "hope you are conscious about the\l"
-	.string "technology that you have now, with the\l"
-	.string "MEGA RING you will be able to control a\l"
-	.string "so unstable and uncontrolled process\l"
-	.string "as the MEGA EVOLUTION is, if you have\l"
-	.string "the correct one MEGA STONE, of course.$"
+	.string "I promised GIOVANNI I'd give a MEGA\n"
+	.string "RING to each of his CHIEF ADMINs. Keep\l"
+	.string "conscious of the technology in your\l"
+	.string "hands now. With the MEGA RING, you'll\l"
+	.string "rein in the wild and unwieldy process\l"
+	.string "known as MEGA EVOLUTION-if you have the\l"
+	.string "right MEGA STONE, of course.$"
 
 Pass_Route29_Encuentro_Elm_Texto_8:
 .string "ELM: …$"
 
 Pass_Route29_Encuentro_Elm_Texto_9:
-	.string "If I'm not wrong, you are here to\n"
-	.string "compile info about the POKÉMON of the\l"
-	.string "best trainers in this region, and to\l"
-	.string "understand it better about that\l"
-	.string "phenomenon that you call DEEP BOND,\l"
-	.string "don't you?$"
+	.string "If I'm not wrong, you're here to compile\n"
+	.string "data on the POKÉMON of the best\l"
+	.string "trainers in the region. And to better\l"
+	.string "grasp the phenomenon you call DEEP\l"
+	.string "BOND, no?$"
 
 Pass_Route29_Encuentro_Elm_Texto_10:
-	.string "Let me advise you this, the JOHTO's\n"
-	.string "GYMS are not as the KANTO ones, no one\l"
-	.string "is obligated to accept challenges, the\l"
-	.string "most of the LEADERS today in JOHTO are\l"
-	.string "about to retire or are too busy in other\l"
-	.string "things, they are very powerful trainers,\l"
-	.string "of course, and very clever, they\l"
-	.string "consider the war topic as a trivial\l"
-	.string "event that they don't care about, they\l"
-	.string "just are ignoring that, focusing on\l"
-	.string "their own and their POKÉMON, and\l"
-	.string "improving their magnificent technique.$"
+	.string "Let me advise you on this-JOHTO's GYMs\n"
+	.string "aren't the same as KANTO's. No one's\l"
+	.string "obligated to take on challengers. Most\l"
+	.string "LEADERs here these days are ready to\l"
+	.string "retire, or they're knee-deep in other\l"
+	.string "matters. They're still incredibly\l"
+	.string "powerful, of course, and also clever.\l"
+	.string "The war's just some small thing they're\l"
+	.string "uninterested in. Instead, they focus on\l"
+	.string "their own and their POKÉMON to improve\l"
+	.string "their magnificent technique.$"
 
 Pass_Route29_Encuentro_Elm_Texto_11:
-	.string "What I mean is you need to get their\n"
-	.string "attention enough to; they give you the\l"
-	.string "chance to fight against them, but\l"
-	.string "GIOVANNI knows why he sent you and no\l"
-	.string "one else, after all, you are the true\l"
-	.string "KANTO CHAMPION.$"
+	.string "That's to say-you'll have to catch their\n"
+	.string "eye to have them give you the\l"
+	.string "opportunity for a battle. But that's\l"
+	.string "why GIOVANNI sent only you-after all,\l"
+	.string "you're the true CHAMPION of KANTO.$"
 
 Pass_Route29_Encuentro_Elm_Texto_12:
-	.string "If you have success, and you can\n"
-	.string "compile data about the characteristic\l"
-	.string "POKÉMON of each LEADER, we will have\l"
-	.string "invaluable information that can expand\l"
-	.string "a POKÉMON's potential to unimaginable\l"
-	.string "limits. Good luck, {PLAYER}, the region\l"
-	.string "of JOHTO awaits you.$"
+	.string "If you're successful in compiling data\n"
+	.string "on the characteristic POKÉMON of each\l"
+	.string "LEADER, we'll have invaluable\l"
+	.string "information that can expand a POKÉMON's\l"
+	.string "potential to unimaginable limits. Good\l"
+	.string "luck, {PLAYER}. The region of JOHTO\l"
+	.string "awaits you.$"
 
 Pass_Route29_Encuentro_Elm_Move_1:
 walk_down

@@ -13,7 +13,7 @@ Goldenrod_ShopP5_Text_1:
 	.string "competitive trainers; I think they\l"
 	.string "should relax and enjoy all the\l"
 	.string "possibilities that GOLDENROD allows,\l"
-	.string "and that's all. But we have the complete\l"
+	.string "that's all. But we have the complete\l"
 	.string "opposite with the snobs who have\l"
 	.string "ruined the GYM, of course…$"
 
@@ -28,10 +28,9 @@ end
 
 Goldenrod_ShopP5_Text_2:
 	.string "I'm going to have an amazing camping\n"
-	.string "trip in the ILEX FOREST. I've been\l"
-	.string "spending the last half hour just taking\l"
-	.string "out sodas and lemonades one by one to\l"
-	.string "save money!$"
+	.string "trip in ILEX FOREST. I've been spending\l"
+	.string "the last half hour buying soda and\l"
+	.string "lemonade one by one to save money!$"
 
 
 

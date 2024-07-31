@@ -396,7 +396,7 @@ FileIsleMeadow_Combate_Azul_Texto_1:
 	.string "roots, huh?$"
 
 FileIsleMeadow_Combate_Azul_Texto_2:
-	.string "ARCHER has been telling me about all\n"
+	.string "ARCHER has been telling me all about\n"
 	.string "the cool stuff to check out on these\l"
 	.string "islands. This place is awesome for\l"
 	.string "taking a break from all the POKÉMON\l"

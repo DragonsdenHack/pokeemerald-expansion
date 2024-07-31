@@ -9,7 +9,7 @@ release
 end
 
 VioletCity_House1_Text_1:
-	.string "Recently, FALKNER senior, the LEADER of\n"
+	.string "Recently, FALKNER SR., the LEADER of\n"
 	.string "VIOLET CITY, demonstrated his skills.\l"
 	.string "It's a privilege to have a TRAINER of\l"
 	.string "his caliber here. Whenever he returns\l"
@@ -26,6 +26,6 @@ release
 end
 
 VioletCity_House1_Text_2:
-	.string "I've seen FALKNER senior's FLYING-TYPE\n"
-	.string "POKÉMON! One of them was able to absorb\l"
-	.string "ELECTRIC-TYPE attacks!$"
+	.string "I've seen FALKNER SR.'s FLYING POKÉMON!\n"
+	.string "One of them was able to absorb\l"
+	.string "ELECTRIC attacks!$"

@@ -14,11 +14,10 @@ release
 end
 
 AzaleaShop_Text_2:
-	.string "In AZALEA TOWN we specialize in\n"
-	.string "CHARCOAL production. It's kinda funny\l"
-	.string "because it strengthens the FIRE moves,\l"
-	.string "to which our GRASS and BUG TYPES are\l"
-	.string "most vulnerable!$"
+	.string "In AZALEA TOWN, we specialize in\n"
+	.string "CHARCOAL production. No, the irony of\l"
+	.string "selling something to help flambé our\l"
+	.string "GYM's POKÉMON isn't lost on us.$"
 
 
 
@@ -30,11 +29,11 @@ release
 end
 
 AzaleaShop_Text_3:
-	.string "The SACRED ASH is the most powerful\n"
-	.string "healing item existent, so much that it\l"
-	.string "restores the health of all fainted\l"
-	.string "POKÉMON. It originates from ECRUTEAK\l"
-	.string "CITY.$"
+	.string "The SACRED ASH is the most potent\n"
+	.string "healing item in existence, capable of\l"
+	.string "fully restoring even every fainted\l"
+	.string "POKÉMON on the team. Its origins lie in\l"
+	.string "ECRUTEAK CITY.$"
 
 
 
@@ -46,6 +45,6 @@ release
 end
 
 AzaleaShop_Text_4:
-	.string "I love the peace and tranquility that is\n"
-	.string "felt around here! GOLDENROD CITY is\l"
+	.string "I love the peace and tranquility around\n"
+	.string "these parts! GOLDENROD CITY's\l"
 	.string "overwhelming in comparison!$"

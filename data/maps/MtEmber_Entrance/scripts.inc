@@ -151,7 +151,7 @@ MtEmberEntrance_Encuentro_Magno_Texto_4:
 MtEmberEntrance_Encuentro_Magno_Texto_5:
 	.string "However, I am not here for Moltres; this\n"
 	.string "place conceals something far more\l"
-	.string "valuable and powerful within than we\l"
+	.string "valuable and powerful which we\l"
 	.string "could ever imagine just by taking a\l"
 	.string "simple glance at its surface.$"
 

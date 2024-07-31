@@ -27,7 +27,7 @@ SsAnne10F_Text_4:
 .string "SS.ANNE is supposed to travel between\n"
 	.string "regions carrying trainers from\l"
 	.string "everywhere. And yet, I've only seen\l"
-	.string "KANTO's POKÉMONS!$"
+	.string "KANTO's POKÉMON!$"
 
 
 

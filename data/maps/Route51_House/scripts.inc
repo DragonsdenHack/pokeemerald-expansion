@@ -292,7 +292,7 @@ Route51HouseDocumento_Text_100Yes13:
 	.string "witnessing all reality, but both equally\l"
 	.string "representatives of the essence that\l"
 	.string "surrounds POKÉMON battles, engage in a\l"
-	.string "duel for the title of CHAMPION. The\l"
+	.string "duel for the CHAMPION title. The\l"
 	.string "combination of actions resulting from\l"
 	.string "the free will of the young GRUNT of\l"
 	.string "TEAM ROCKET triumphs over the perfect\l"

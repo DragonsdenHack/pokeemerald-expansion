@@ -50,7 +50,7 @@ end
 
 SouthRoute45_Text_9:
 .string "My mission is to make sure no one\n"
-.string "passes this point by chance, In case a\l"
+.string "passes this point by chance. In case a\l"
 .string "lost hiker shows up, the ROAR of my\l"
 .string "GRANBULL will quickly put an end to\l"
 .string "that chance encounter and make them\l"
@@ -179,5 +179,5 @@ end
 SouthRoute45_SudowoodoRest_Text:
 	.string "…\n"
 	.string "…\l"
-	.string "(It's a POKÉMON, it seems\l"
-	.string "to be resting)$"
+	.string "(It's a POKÉMON. It\l"
+	.string "seems to be resting)$"

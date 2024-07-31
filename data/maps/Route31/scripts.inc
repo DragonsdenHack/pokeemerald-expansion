@@ -9,11 +9,10 @@ release
 end
 
 Route31_Text_1:
-	.string "The access to the cave is currently\n"
-	.string "blocked; there has been a small\l"
-	.string "landslide inside, and we are ensuring\l"
-	.string "that everything is in order. We\l"
-	.string "apologize for the inconvenience.$"
+	.string "Cave access is currently barred due to\n"
+	.string "a small landslide inside. We're ensuring\l"
+	.string "everything's in order. We apologize for\l"
+	.string "the inconvenience.$"
 
 
 
@@ -30,7 +29,7 @@ release
 end
 
 Route31_Text_3:
-	.string "You are not from around here, right? Do\n"
+	.string "You aren't from around here, right? Do\n"
 	.string "you come from OLIVINE CITY? KANTO?!\l"
 	.string "How did you cross the borders?!$"
 

@@ -31,7 +31,7 @@ end
 Goldenrod_ShopP3_Text_3:
 	.string "I'll try to scam one of those rich folks\n"
 	.string "who don't understand the real worth of\l"
-	.string "a POKÉMONn in a trade.$"
+	.string "a POKÉMON in a trade.$"
 
 
 

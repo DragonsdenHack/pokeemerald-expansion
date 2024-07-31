@@ -53,10 +53,10 @@ release
 end
 
 Goldenrod_TrainStation_Text_4:
-	.string "The MAGNETRAIN will levitate through\n"
+	.string "The MAGNET TRAIN will levitate through\n"
 	.string "magnetism, reaching speeds of up to 310\l"
-	.string "mph. It will arrive in SAFFRON in a\l"
-	.string "matter of minutes!$"
+	.string "mph. It'll arrive in SAFFRON in a matter\l"
+	.string "of minutes!$"
 
 
 
@@ -98,7 +98,7 @@ release
 end
 
 Goldenrod_TrainStation_Frontera_Texto_1:
-	.string "I apologize, youngster, only authorized\n"
+	.string "I apologize, youngster. Only authorized\n"
 	.string "personnel are permitted entry from this\l"
 	.string "point onward. I hope you understand.$"
 
@@ -107,17 +107,16 @@ Goldenrod_TrainStation_Frontera_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_TrainStation_Frontera_Texto_3:
-	.string "Hold on a moment, that's the RADIO PASS.\n"
-	.string "Your PRESIDENT has funded a good\l"
-	.string "portion of the project connecting\l"
-	.string "GOLDENROD with CELADON. You say you\l"
-	.string "just want to take a look beyond the\l"
-	.string "tracks? As an honorary member of the\l"
-	.string "RADIO TOWER, you could be considered\l"
-	.string "authorized personnel, so you may\l"
-	.string "proceed. But proceed with caution;\l"
-	.string "we're in the midst of constructing the\l"
-	.string "tracks.$"
+	.string "Hold on a moment. That's the RADIO PASS.\n"
+	.string "Your PRESIDENT's funded a good portion\l"
+	.string "of the project connecting GOLDENROD\l"
+	.string "with CELADON. You say you just want to\l"
+	.string "take a look beyond the tracks? As an\l"
+	.string "honorary member of the RADIO TOWER,\l"
+	.string "you could be considered authorized\l"
+	.string "personnel, so you may proceed. But\l"
+	.string "proceed with caution; we're in the midst\l"
+	.string "of constructing the tracks.$"
 
 
 Goldenrod_TrainStation_Frontera_Move_1:

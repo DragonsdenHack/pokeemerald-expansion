@@ -9,11 +9,11 @@ release
 end
 
 AzaleaHouse1_Text_1:
-	.string "Recently, someone from SILPH came, all\n"
-	.string "dressed up. He spent quite some time at\l"
-	.string "KURT's house. I think they're interested\l"
-	.string "in the variety of POKÉ BALLS that can\l"
-	.string "be made with the APRICORNS.$"
+	.string "Recently, someone from SILPH came by,\n"
+	.string "all dressed up. He spent quite some time\l"
+	.string "at KURT's house. I think they're\l"
+	.string "interested in the variety of POKÉ BALLS\l"
+	.string "that can be made with APRICORNS.$"
 
 
 
@@ -28,7 +28,7 @@ AzaleaHouse1_Text_2:
 	.string "In the past, everyone used homemade\n"
 	.string "APRICORN-based POKÉ BALLS to catch\l"
 	.string "POKÉMON. KURT has already said that\l"
-	.string "soon he will leave the GYM to focus on\l"
+	.string "soon, he'll leave the GYM to focus on\l"
 	.string "elaborating APRICORNS.$"
 
 
@@ -63,7 +63,7 @@ Azalea_House1_Anciano_Texto_2:
 .string "YOU OBTAINED A LV.70 MADAAMU!$"
 
 Azalea_House1_Anciano_Texto_3:
-	.string "It's one of those ancient POKÉMON,\n"
+	.string "It's one of those ancient POKÉMON\n"
 	.string "native to old rural JOHTO. Nowadays,\l"
 	.string "they're extinct in the wild. We know it's\l"
 	.string "the evolution of FARFETCH'D, but no one\l"
@@ -207,27 +207,28 @@ Azalea_House1_Activacion_Sotano_Texto_1.2:
 
 Azalea_House1_Activacion_Sotano_Texto_1.1:
 	.string "(There's something unusual about this\n"
-	.string "painting, it doesn't seem like an\l"
+	.string "painting. It doesn't seem like an\l"
 	.string "ordinary one…)$"
 
 Azalea_House1_Activacion_Sotano_Texto_1:
 	.string "Hey, you! What are you doing?$"
 
 Azalea_House1_Activacion_Sotano_Texto_2:
-	.string "First you enter someone else's property,\n"
-	.string "and then you try to rob us? There is no\l"
-	.string "forgiveness for you!$"
+	.string "First, you enter someone else's\n"
+	.string "property, and then you try to rob us?\l"
+	.string "There is no forgiveness for you!$"
 
 Azalea_House1_Activacion_Sotano_Texto_3:
 .string "You're not a common TRAINER!$"
 
 Azalea_House1_Activacion_Sotano_Texto_4:
-	.string "Can I know why so much insistence?\n"
-	.string "There's nothing here! Can't you see?$"
+	.string "Can I at least know why you're so\n"
+	.string "insistent? There's nothing here! Can't\l"
+	.string "you see?$"
 
 Azalea_House1_Activacion_Sotano_Texto_5:
 	.string "What are you trying to prove with this?\n"
-	.string "Yes, you and your team are strong, what\l"
+	.string "Yes, you and your team are strong. What\l"
 	.string "does it matte…?$"
 
 Azalea_House1_Activacion_Sotano_Texto_6:
@@ -245,13 +246,13 @@ Azalea_House1_Activacion_Sotano_Texto_8:
 Azalea_House1_Activacion_Sotano_Texto_9:
 	.string "We've completely rebuilt the small\n"
 	.string "basement where they used to forge the\l"
-	.string "CHARCOAL, now it's a large underground\l"
+	.string "CHARCOAL. Now, it's a large underground\l"
 	.string "ship that will produce the mineral on an\l"
 	.string "industrial scale.$"
 
 Azalea_House1_Activacion_Sotano_Texto_10:
-	.string "Be glad, we will supply the entire\n"
-	.string "region. Whether you like it or not!$"
+	.string "Be glad! We'll supply the entire region.\n"
+	.string "Whether you like it or not!$"
 
 Azalea_House1_Primer_Empresario::
 compare VAR_FORTREE_CITY_STATE, 2
@@ -268,13 +269,13 @@ release
 end
 
 Azalea_House1_Primer_Empresario_Texto_1:
-	.string "Everything is signed, officially this\n"
+	.string "Everything's signed. Officially, this\n"
 	.string "place belongs to us.$"
 
 Azalea_House1_Primer_Empresario_Texto_2:
-	.string "If you enter there, you'll be used as raw\n"
-	.string "material for CHARCOAL production.\l"
-	.string "You've been warned.$"
+	.string "Step inside, and you'll find yourself as\n"
+	.string "part of the next batch of stock. You've\l"
+	.string "been warned.$"
 
 
 
@@ -293,12 +294,13 @@ release
 end
 
 Azalea_House1_Segundo_Empresario_Texto_1:
-	.string "We are going to make millions down here,\n"
-	.string "it was lucky for us to take advantage\l"
-	.string "of that legal loophole.$"
+	.string "We'll be raking in millions down here.\n"
+	.string "Pretty fortunate of us to have that\l"
+	.string "teensy legal loophole under our belts.$"
 
 Azalea_House1_Segundo_Empresario_Texto_2:
-	.string "You better not anger our BOSS, one\n"
-	.string "wrong word and you'll be in boiling water\l"
-	.string "with all your POKÉMON behind you.$"
+	.string "Don't get on our BOSS's bad side. One\n"
+	.string "slip-up, and you'll find yourself in hot\l"
+	.string "water with all your POKÉMON right\l"
+	.string "behind you.$"
 

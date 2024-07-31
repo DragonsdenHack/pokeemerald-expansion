@@ -159,12 +159,12 @@ UnionCave_Combate_Elm_Texto_4:
 
 UnionCave_Combate_Elm_Texto_5:
 	.string "It was just a LAPRAS. Don't get me\n"
-	.string "wrong, it is a good POKÉMON, but my\l"
+	.string "wrong. It is a good POKÉMON, but my\l"
 	.string "expectations were higher.$"
 
 UnionCave_Combate_Elm_Texto_6:
 	.string "For real!? Did you fight against\n"
-	.string "FALKNER senior himself?!$"
+	.string "FALKNER SR. himself?!$"
 
 UnionCave_Combate_Elm_Texto_7:
 	.string "Well, so he agreed to fight you.$"
@@ -177,25 +177,25 @@ UnionCave_Combate_Elm_Texto_8:
 	.string "generation are the same: they live like\l"
 	.string "hermits, oblivious to everything\l"
 	.string "happening in the world. Maybe that's\l"
-	.string "where his power lies, just like the DEEP\l"
+	.string "where his power lies. Just like the DEEP\l"
 	.string "BOND phenomenon, his MEGA EVOLUTION is\l"
 	.string "activated in a similar way.$"
 
 UnionCave_Combate_Elm_Texto_9:
 	.string "I'm curious about that. You didn't just\n"
-	.string "battle against him, but you were able to\l"
-	.string "defeat him as well. Maybe I'm facing an\l"
-	.string "even more fascinating subject for\l"
-	.string "study than those old LEADERS, who will\l"
-	.string "soon become outdated in JOHTO.$"
+	.string "face off against him. You thoroughly\l"
+	.string "trounced him too. Maybe I'm facing an\l"
+	.string "even more fascinating object of study\l"
+	.string "than those old LEADERS, soon to be\l"
+	.string "obsolete in JOHTO.$"
 
 UnionCave_Combate_Elm_Texto_10:
 	.string "Show me your POKÉMON, CHIEF\n"
 	.string "ADMINISTRATOR ROCKET!$"
 
 UnionCave_Combate_Elm_Texto_11:
-.string "Hmmm…\n"
-	.string "Very interesting, I take notes.$"
+	.string "Hmmm… Very interesting. I'll\n"
+	.string "be sure to take notes.$"
 
 UnionCave_Combate_Elm_Texto_12:
 	.string "Now I understand why you're one of the\n"
@@ -205,8 +205,8 @@ UnionCave_Combate_Elm_Texto_12:
 	.string "those singular POKÉMON.$"
 
 UnionCave_Combate_Elm_Texto_13:
-	.string "Now I'm off, {PLAYER}, thanks for the\n"
-	.string "combat.$"
+	.string "Now I'm off, {PLAYER}. Thank you\n"
+	.string "kindly for the battle.$"
 
 UnionCave_Combate_Elm_Texto_14:
 	.string "Oh, and by the way, there's an upcoming\n"
@@ -292,22 +292,22 @@ end
 UnionCave_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: {PLAYER}? We've received\n"
 	.string "the data on FALKNER's DEEP BOND\l"
-	.string "RAPIDASH. It must have been a tough\l"
+	.string "RAPIDASH. It must've been a tough\l"
 	.string "opponent, managing to compensate for\l"
-	.string "its x4 weakness to ROCK TYPE with the\l"
+	.string "its x4 weakness to ROCK TYPEs with the\l"
 	.string "ability FUR COAT. Very impressive,\l"
-	.string "especially with that ATTACK and SPEED\l"
-	.string "of 130-135 BASE as well. You know you\l"
-	.string "can drop by the DEEP BASE room where\l"
-	.string "we'll study and update all the\l"
-	.string "information about this kind of POKÉMON.\l"
-	.string "And one more thing, have you visited\l"
-	.string "the RUINS OF ALPH? That's correct, we\l"
-	.string "haven't discovered anything yet, but\l"
-	.string "don't fret, {PLAYER}. Right now,\l"
+	.string "especially with that 130-135 BASE\l"
+	.string "ATTACK and SPEED as well. You're free to\l"
+	.string "drop by the DEEP BASE room where we'll\l"
+	.string "study and update all the information\l"
+	.string "about this kind of POKÉMON. And one\l"
+	.string "more thing. Have you visited the RUINS\l"
+	.string "OF ALPH? That's correct. We haven't\l"
+	.string "discovered anything yet, but don't\l"
+	.string "fret, {PLAYER}. Right now,\l"
 	.string "concentrate on gathering data about\l"
-	.string "the DEEP BOND POKÉMON. We have plenty\l"
-	.string "of time to uncover the secrets of the\l"
-	.string "RUINS. As for the GYM LEADERS{PAUSE 25}…{PAUSE 25} who\l"
-	.string "knows how long they'll endure in this\l"
-	.string "dynamic JOHTO.$"
+	.string "DEEP BOND POKÉMON. We've plenty of time\l"
+	.string "to uncover the secrets of the RUINS. As\l"
+	.string "for the GYM LEADERS… Who knows how\l"
+	.string "long they'll endure in this dynamic\l"
+	.string "JOHTO.$"

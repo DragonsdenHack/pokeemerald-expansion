@@ -409,7 +409,7 @@ Silph_7F_Encuentro_Azul_Texto_8:
 	.string "Don't worry ROCKETS, nothing would be\n"
 	.string "better for you more than having a CHAMP\l"
 	.string "related to your organization instead of\l"
-	.string "LANCE, don't you?$"
+	.string "LANCE, don't you think?$"
 
 Silph_7F_Encuentro_Azul_Texto_9:
 	.string "If everything goes well, this region\n"
@@ -422,10 +422,9 @@ Silph_7F_Encuentro_Azul_Texto_10:
 	.string "keep defeating all the rest of the\l"
 	.string "security for your LEADER have free way\l"
 	.string "to talk with the PRESIDENT instantly\l"
-	.string "when arrives, I will be stay here,\l"
-	.string "waiting that you give me the signal to\l"
-	.string "drop the CARD KEY once the negotiation\l"
-	.string "finishes.$"
+	.string "when arrives, I'll stay here...\l"
+	.string "waiting your signal to drop the CARD KEY\l"
+	.string "once the negotiation finishes.$"
 
 
 Silph7F_12_Texto_1:

@@ -206,7 +206,7 @@ end
 PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "PETREL: {PLAYER}! Where were you?\n"
 	.string "ARCHER and I had to go in without you…\l"
-	.string "we saw as LORELEI of the ELITE FOUR\l"
+	.string "we saw how LORELEI of the ELITE FOUR\l"
 	.string "arrived at the CENTRAL to stop ANDRA\l"
 	.string "and we had to intervene{PAUSE 25}…{PAUSE 25} ARCHER is\l"
 	.string "currently battling her, he asked me to\l"

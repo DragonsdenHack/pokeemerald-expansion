@@ -114,22 +114,22 @@ AzaleaCarbonS2_Primer_Combate_Texto_2:
 	.string "ruined by sentimentality.$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_3:
-	.string "No matter who you are, anyway there is\n"
-	.string "no possible way for you to win. Neither\l"
-	.string "legally nor force!$"
+	.string "No matter who you are, there isn't a\n"
+	.string "ghost's chance you'd ever win. Neither\l"
+	.string "legally nor through force!$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_4:
-.string "Oh… By the force it seems so…$"
+.string "Oh… By force, yup, you sure can…$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_5:
-	.string "Huh, it doesn't matter, keep walking\n"
-	.string "around here, is the only thing that you\l"
-	.string "can do…$"
+	.string "Bah! It doesn't matter. Trotting\n"
+	.string "around's the only thing you can still\l"
+	.string "do…$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_6:
-	.string "The only thing you can do is to lurk\n"
-	.string "around here, take it as a touristic\l"
-	.string "route if you prefer.$"
+	.string "All you can do is skulk around. Just\n"
+	.string "take it like a scenic tour, if that's\l"
+	.string "what helps you get by.$"
 
 AzaleaCarbonS2_Segundo_Combate::
 lock
@@ -178,7 +178,7 @@ step_end
 
 AzaleaCarbonS2_Segundo_Combate_Texto_5:
 	.string "If you want to see my BOSS, go ahead.\n"
-	.string "You are inoffensive to us.$"
+	.string "You're an inoffensive mote to us.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_1:
 	.string "Even if you manage to defeat us all, we\n"
@@ -197,7 +197,7 @@ AzaleaCarbonS2_Segundo_Combate_Texto_3:
 	.string "moral code has no value here anymore.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_4:
-	.string "People like you, or those elders, are\n"
+	.string "People like you and those elders are\n"
 	.string "condemned to extinction.$"
 
 AzaleaCarbonS2_Combate_Final_Izq::
@@ -290,9 +290,9 @@ release
 end
 
 AzaleaCarbonS2_Jefe_Despues_Combate_Texto_1:
-	.string "Do you believe that those elders will\n"
-	.string "forget this and let me see that so\l"
-	.string "special POKÉMON?$"
+	.string "Do you honestly believe that those\n"
+	.string "elders will forget this and let me see\l"
+	.string "that oh so special POKÉMON?$"
 
 
 AzaleaCarbonS2_Combate_Final_Move_8:
@@ -367,8 +367,8 @@ AzaleaCarbonS2_Combate_Final_Texto_7:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_8:
-	.string "You are still trying to defend them, I\n"
-	.string "understand, for you morals are more\l"
+	.string "You're still trying to defend them. I\n"
+	.string "understand. For you, morals are more\l"
 	.string "important than business.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_9:
@@ -383,19 +383,19 @@ AzaleaCarbonS2_Combate_Final_Texto_10:
 
 AzaleaCarbonS2_Combate_Final_Texto_11:
 	.string "No street TRAINER could beat me in a\n"
-	.string "duel… Who are you?$"
+	.string "battle… Who are you?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_12:
-	.string "One moment{PAUSE 25}…{PAUSE 25} You're more than just a high\n"
-	.string "ranking official from GOLDENROD, with\l"
-	.string "POKÉMON acquired from the checkbook,\l"
+	.string "Just a moment… You're not just some\n"
+	.string "snobby official from GOLDENROD with\l"
+	.string "POKÉMON bought with a pretty penny,\l"
 	.string "aren't you?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_13:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_14:
-	.string "The TEAM ROCKET!? The highest ranking\n"
+	.string "TEAM ROCKET!? The highest ranking\n"
 	.string "ADMIN. CHIEF and LEADER in JOHTO!?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_15:
@@ -406,8 +406,8 @@ AzaleaCarbonS2_Combate_Final_Texto_16:
 	.string "would be able to undo the contract.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_17:
-	.string "But{PAUSE 15}…{PAUSE 15} I'm not stupid, being your enemy\n"
-	.string "would eventually destroy this place,\l"
+	.string "But… I'm not stupid. Being your enemy\n"
+	.string "would eventually destroy this place, so\l"
 	.string "that's why I propose an agreement.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_18:
@@ -424,13 +424,14 @@ AzaleaCarbonS2_Combate_Final_Texto_19:
 	.string "that we are unaware of.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_20:
-	.string "And it's not just to try to look good, my\n"
-	.string "SIRFETCHD felt the presence of a\l"
-	.string "POKÉMON{PAUSE 15}…{PAUSE 15} It must be its counterpart…\l"
-	.string "Maybe it can even cut wood better.$"
+	.string "And it's not just to try to look good\n"
+	.string "either. My SIRFETCHD felt the presence\l"
+	.string "of a POKÉMON… It must be its\l"
+	.string "counterpart… Maybe it can even cut\l"
+	.string "wood better.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_21:
-	.string "I personally will send messengers, the\n"
+	.string "I will personally send messengers. The\n"
 	.string "elders will be able to live here again.\l"
 	.string "Take this POKÉMON as a gesture of good\l"
 	.string "faith.$"

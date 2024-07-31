@@ -28,13 +28,11 @@ release
 end
 
 SlowpokeWell_Text_3:
-	.string "Do not be fooled, SLOWPOKE TAIL have\n"
-	.string "hardly any value, and SLOWPOKE\l"
-	.string "regenerates them shortly after losing\l"
-	.string "them. The only way to make someone\l"
-	.string "believe they are valuable is for\l"
-	.string "everyone around them to agree to\l"
-	.string "deceive them.$"
+	.string "Don't be fooled. SLOWPOKE TAIL's cheap,\n"
+	.string "in part to the POKÉMON regenerating it\l"
+	.string "pretty quickly. The only way to sucker\l"
+	.string "someone into buying high is for\l"
+	.string "everyone around to be in on the scam.$"
 
 
 

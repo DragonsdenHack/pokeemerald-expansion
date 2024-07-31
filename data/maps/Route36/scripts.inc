@@ -29,9 +29,9 @@ release
 end
 
 Route36_Text_5:
-	.string "My NIDORINO loves to walk around these\n"
-	.string "routes, sometimes we go to the ILEX\l"
-	.string "FOREST to relax.$"
+	.string "My NIDORINO loves to stroll these\n"
+	.string "routes; sometimes, we relax at the ILEX\l"
+	.string "FOREST.$"
 
 
 
@@ -48,11 +48,11 @@ release
 end
 
 Route36_Text_7:
-	.string "Apparently there are a lot of POKÉMON\n"
-	.string "that no one could have imagined that\l"
-	.string "evolves, but they do, as GLIGAR or\l"
-	.string "AIPOM. What other POKÉMON can evolve\l"
-	.string "without most people knowing?$"
+	.string "There are a lot of POKÉMON that no one\n"
+	.string "could have imagined to evolve, but they\l"
+	.string "do, such as GLIGAR or AIPOM. What other\l"
+	.string "POKÉMON can evolve without most people\l"
+	.string "knowing?$"
 
 
 
@@ -66,8 +66,9 @@ end
 Route36_Text_8:
 	.string "I love PINSIR. Unlike SCYTHER or\n"
 	.string "HERACROSS, it's a genuine BUG, fast,\l"
-	.string "with great ATTACK, and solid DEFENSE.\l"
-	.string "The only thing lacking is SPECIAL DEF…$"
+	.string "with great ATTACK and solid DEFENSE.\l"
+	.string "The only thing lacking is SPECIAL\l"
+	.string "DEFENSE…$"
 
 
 
@@ -106,8 +107,8 @@ end
 
 Route36Documento_Text_100:
 	.string "SCYTHER and PINSIR are the best\n"
-	.string "POKÉMON that you can catch on the\l"
-	.string "NATIONAL PARK!$"
+	.string "POKEMON you can catch in the NATIONAL\l"
+	.string "PARK!$"
 
 
 
@@ -118,8 +119,8 @@ end
 Route36_SudowoodoRest_Text:
 	.string "…\n"
 	.string "…\l"
-	.string "(It is a POKÉMON, seems\l"
-	.string "like it is resting)$"
+	.string "(It's a POKÉMON; it seems\l"
+	.string "like it's resting.)$"
 
 
 
@@ -129,7 +130,7 @@ end
 
 Route36Documento_Text_101:
 	.string "ROUTE 36\n"
-	.string "Further the east VIOLET CITY$"
+	.string "Further east is VIOLET CITY.$"
 
 
 
@@ -160,13 +161,13 @@ release
 end
 
 Route36_Llamada_Giovanni_Texto_1:
-	.string "GIOVANNI: Great job, {PLAYER}, that\n"
+	.string "GIOVANNI: Good job, {PLAYER}. That\n"
 	.string "KINGDRA's balanced total of 650 BASE\l"
-	.string "stats is surprising our scientists. Did\l"
-	.string "you know that 5 out of its 6 STATS have\l"
-	.string "a base of 115? The JOHTO beasts you\l"
-	.string "faced only had 2 115 as their best BASE\l"
-	.string "STATS.$"
+	.string "STATS surprises our scientists. Did you\l"
+	.string "know five out of its six STATS have a\l"
+	.string "base of 115? The JOHTO beasts you\l"
+	.string "faced had only two of 115 as their best\l"
+	.string "BASE STATS.$"
 
 Route36_Llamada_Giovanni_Texto_2:
 	.string "Now that you've seen GOLDENROD CITY, I\n"
@@ -175,7 +176,7 @@ Route36_Llamada_Giovanni_Texto_2:
 	.string "opportunity to investigate the\l"
 	.string "legendary HO-OH. Meanwhile, the grand\l"
 	.string "meeting at the RADIO TOWER is becoming\l"
-	.string "a reality, the question is when it will\l"
+	.string "a reality. The question is when it will\l"
 	.string "take place. As one of the pillars of\l"
 	.string "TEAM ROCKET, you will have the honor of\l"
 	.string "attending. Your presence at the RADIO\l"

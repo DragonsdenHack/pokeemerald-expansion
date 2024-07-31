@@ -61,9 +61,9 @@ Goldenrod_RadioTowerP1_Text_5:
 	.string "This building reflects GOLDENROD's\n"
 	.string "current position as the capital of\l"
 	.string "JOHTO. The comparisons with the SILPH\l"
-	.string "building in SAFFRON are unavoidable,\l"
-	.string "although the latter is wider, our TORRE\l"
-	.string "RADIO is taller.$"
+	.string "building in SAFFRON are unavoidable.\l"
+	.string "Although the latter is wider, our RADIO\l"
+	.string "TOWER is taller.$"
 
 
 
@@ -75,8 +75,7 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_6:
-	.string "The radio waves are the future, trust\n"
-	.string "me!$"
+	.string "Radio waves are the future. Trust me!$"
 
 
 
@@ -88,8 +87,8 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_7:
-	.string "I love MARY, from POKÉMON TALK. I only\n"
-	.string "know what she sounds like, though.$"
+	.string "I love MARY from POKÉMON TALK. I only\n"
+	.string "know what she sounds like though.$"
 
 
 
@@ -101,13 +100,13 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_8:
-	.string "They sell very good POKÉMON at the GAME\n"
-	.string "CORNER, but there's a guy in the\l"
-	.string "underground who sells POKÉMON from\l"
-	.string "other regions, including PSEUDO\l"
-	.string "LEGENDARY ones from there. I think I\l"
-	.string "should take a look there before they\l"
-	.string "run out.$"
+	.string "The GAME CORNER sells some top-notch\n"
+	.string "POKÉMON, but a guy in the underground's\l"
+	.string "been selling some exotic stuff from\l"
+	.string "foreign regions like hot cakes-even\l"
+	.string "PSEUDO-LEGENDARY ones! I ought'a take\l"
+	.string "a quick peek there before they're all\l"
+	.string "gone.$"
 
 
 

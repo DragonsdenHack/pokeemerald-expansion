@@ -345,18 +345,18 @@ Route16_Combate_Bruno_Texto_1:
 	.string "my powerful steel, even more stupid\l"
 	.string "believing your FIGHT type were enough\l"
 	.string "good rivals for mine, now that you are\l"
-	.string "calmed down and you have no more left\l"
-	.string "POKÉMON I will tell you what are we\l"
+	.string "calmed down and you have no more POKÉMON\l"
+	.string "left. I will tell you what are we\l"
 	.string "going to do now…$"
 
 Route16_Combate_Bruno_Texto_2:
 	.string "You are going to talk to the rest of\n"
 	.string "your colleagues and convincing them\l"
-	.string "that the LANCE government is the good\l"
+	.string "that LANCE government is the good\l"
 	.string "future for KANTO, the TEAM ROCKET will\l"
 	.string "be doomed, and you will obey LANCE,\l"
 	.string "giving us all the TEAM ROCKET info\l"
-	.string "about that you know, if you do it all\l"
+	.string "about what you know, if you do it all\l"
 	.string "your faults will be forgiven and you\l"
 	.string "could keep walking around here,\l"
 	.string "otherwise you don't want to…$"
@@ -375,7 +375,7 @@ Route16_Combate_Bruno_Texto_4:
 
 Route16_Combate_Bruno_Texto_5:
 	.string "We will never follow orders from someone\n"
-	.string "that is an outsider as LANCE!$"
+	.string "from an outsider as LANCE!$"
 
 Route16_Combate_Bruno_Texto_6:
 	.string "BRUNO: So I will take it as a no, you\n"
@@ -426,7 +426,7 @@ Route16_Combate_Bruno_Texto_13:
 	.string "again…$"
 
 Route16_Combate_Bruno_Texto_14:
-	.string "I can't believe what I saw yet! It was\n"
+	.string "I can't believe what I just saw! It was\n"
 	.string "the most impressive fight that I had\l"
 	.string "seen in my entire life, you teached a\l"
 	.string "lesson to an ELITE 4 member!$"

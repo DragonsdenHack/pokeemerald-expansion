@@ -104,11 +104,12 @@ release
 end
 
 Text_9:
-	.string "Here you can find even more interesting\n"
-	.string "items than in the GAME CORNER and the\l"
-	.string "DEPARTMENT STORE. That's the great\l"
-	.string "thing about the black market, you never\l"
-	.string "know what you might find down here!$"
+	.string "Here, you can find even more\n"
+	.string "interesting items than in the GAME\l"
+	.string "CORNER and the DEPARTMENT STORE.\l"
+	.string "That's the great thing about the black\l"
+	.string "market. You never know what you might\l"
+	.string "find down here!$"
 
 
 
@@ -178,15 +179,15 @@ face_up
 step_end
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_1:
-	.string "Do you have a problem? Get out of here,\n"
-	.string "this place isn't for snobs like you!$"
+	.string "Got a problem? Get outta here! This\n"
+	.string "ain't the place for snobs like you!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_3:
-	.string "You wanna fight? Those bought POKÉMON\n"
-	.string "won't be of any use to you!$"
+	.string "You wanna fight? My team'll rough up\n"
+	.string "those purchased pets of yours good!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_4:
 .string "Who sold you those POKÉMON?$"
@@ -215,13 +216,13 @@ end
 
 
 Goldenrod_Underground_Tienda_Pokemon_Texto_1:
-	.string "I'm in the business of bringing rare and\n"
-	.string "powerful POKÉMON from other regions,\l"
+	.string "I'm in the business of importing rare and\n"
+	.string "powerful POKÉMON from other regions\l"
 	.string "and selling them here at a good price.$"
 
 Goldenrod_Underground_Tienda_Pokemon_Texto_2:
-	.string "This is my offer, you won't find anything\n"
-	.string "similar in all JOHTO.$"
+	.string "This is my offer. You won't find a better\n"
+	.string "sell in all JOHTO.$"
 
 EventScript_Trapinch::
 lock

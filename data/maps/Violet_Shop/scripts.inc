@@ -28,9 +28,9 @@ release
 end
 
 VioletCity_Shop_Text_3:
-	.string "The ROCK POKÉMON have a great\n"
-	.string "advantage against the FLYING, but still\l"
-	.string "FALKNER destroyed my team!$"
+	.string "ROCK POKÉMON tend to crush FLYING\n"
+	.string "TYPEs, but FALKNER still destroyed my\l"
+	.string "team!$"
 
 
 

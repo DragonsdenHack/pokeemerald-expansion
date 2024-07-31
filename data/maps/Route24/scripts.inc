@@ -125,7 +125,7 @@ Route24_Recluta_text_3:
 	.string "No one in TEAM ROCKET can't stand BILL,\l"
 	.string "he's an egocentric spoiled elitist that\l"
 	.string "think about himself as a superior\l"
-	.string "because he has some rare POKÉMONS that\l"
+	.string "because he has some rare POKÉMON that\l"
 	.string "only a few can afford. Beat him up on\l"
 	.string "our part!$"
 
@@ -136,7 +136,7 @@ Route24_Recluta_text_4:
 	.string "ROCKET can't stand BILL, he's an\l"
 	.string "egocentric spoiled elitist that think\l"
 	.string "about himself as a superior because he\l"
-	.string "has some rare POKÉMONS that only a few\l"
+	.string "has some rare POKÉMON that only a few\l"
 	.string "can afford. Beat him up on our part!$"
 
 Route24_Recluta_text_5:

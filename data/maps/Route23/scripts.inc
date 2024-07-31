@@ -115,14 +115,14 @@ Route23_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: {PLAYER}? So you have\n"
 	.string "already the 8 GYM BADGES, ARCHER has\l"
 	.string "informed me about your fight on the\l"
-	.string "BASE at VIRIDIAN CITY, you're ready to\l"
+	.string "at VIRIDIAN CITY BASE. You're ready to\l"
 	.string "challenge the POKÉMON LEAGUE.$"
 
 Route23_Llamada_Giovanni_Texto_2:
 	.string "However, there is something else that\n"
 	.string "you should see before entering that\l"
-	.string "place, I will be waiting for you at the\l"
-	.string "special trainment room, that one which\l"
+	.string "place. I will be waiting for you at the\l"
+	.string "special training room, that one which\l"
 	.string "is beside my private office, so don't be\l"
 	.string "late.$"
 
@@ -280,7 +280,7 @@ Route23_Combate_Andra_Texto_8:
 
 Route23_Combate_Andra_Texto_9:
 	.string "Make the most of your latest training\n"
-	.string "on VICTORY ROAD, the next time we meet\l"
+	.string "on VICTORY ROAD. The next time we meet\l"
 	.string "will be on the battlefield.$"
 
 Route23_Combate_Andra_Move_1:

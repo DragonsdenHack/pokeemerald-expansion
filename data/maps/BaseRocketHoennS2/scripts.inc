@@ -1522,7 +1522,7 @@ BaseRocketHoennS2Documento_Text_132:
 	.string "immunities. Coupled with its dual 115\l"
 	.string "BASE defenses and 80 HP, it can\l"
 	.string "withstand attacks very well, especially\l"
-	.string "when equipped with LEFTOVERS. Despite\l"
+	.string "when holding LEFTOVERS. Despite\l"
 	.string "this, its offensive power is not\l"
 	.string "lacking, with two STAB moves boasting\l"
 	.string "130 and 140 power, such as FLEUR\l"

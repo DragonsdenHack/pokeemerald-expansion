@@ -26,7 +26,6 @@ release
 end
 
 CherryHouse3_Text_2:
-.string "Hmm?\n"
-.string "NEW BARK TOWN?\l"
-.string "I have never heard of that place and\l"
-.string "I have been living here for 50 years!$"
+	.string "Hmm? NEW BARK TOWN? I've never heard of\n"
+	.string "that place, and I've lived here for\l"
+	.string "fifty years!$"

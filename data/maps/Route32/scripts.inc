@@ -23,9 +23,9 @@ end
 Route32_Text_2:
 	.string "I've already mentioned this, but\n"
 	.string "RHYHORN are exclusive to KANTO. You'll\l"
-	.string "have to wait for the political\l"
-	.string "conditions to improve before you can\l"
-	.string "capture one there.$"
+	.string "have to wait for political conditions to\l"
+	.string "improve before you can capture one\l"
+	.string "there.$"
 
 
 
@@ -42,8 +42,9 @@ release
 end
 
 Route32_Text_4:
-	.string "SANDSLASH? Here we have DONPHAN, which\n"
-	.string "is much stronger and resistant!$"
+	.string "SANDSLASH? Here, we have DONPHAN,\n"
+	.string "which is much stronger and more\l"
+	.string "resilient!$"
 
 
 
@@ -208,7 +209,7 @@ release
 end
 
 Curacion_Curacion_Curacion_Route32_Texto_1:
-	.string "Your POKÉMON seems very tired, let me\n"
+	.string "Your POKÉMON seems very tired. Let me\n"
 	.string "heal them…$"
 
 Curacion_Centros_Johto_Texto_2:

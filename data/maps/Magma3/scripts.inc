@@ -184,8 +184,8 @@ emote_question_mark
 step_end
 
 Magma3_Combate_Magno_Texto_1:
-	.string "MAXIE: You have waited for GROUDON for\n"
-	.string "too long, but finally, I present myself\l"
+	.string "MAXIE: We have waited for this for\n"
+	.string "too long. But finally, I present myself\l"
 	.string "as a humble servant of your cause.\l"
 	.string "Thanks to the RED ORB, I can control\l"
 	.string "you, but fear not, I will do nothing but\l"

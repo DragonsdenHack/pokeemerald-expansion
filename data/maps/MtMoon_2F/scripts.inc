@@ -81,28 +81,27 @@ MtMoon_2F_AltoRango_Text_2:
 	.string "GRUNT!$"
 
 MtMoon_2F_AltoRango_Text_3:
-.string "The fact that you have helped other\n"
-	.string "GRUNTS with their mission doesn't\l"
-	.string "release you from completing your own\l"
-	.string "mission. You better compensate this\l"
+	.string "Helping other GRUNTs with their mission\n"
+	.string "doesn't relieve you of your own duties.\l"
+	.string "You'd better compensate for this\l"
 	.string "insubordination with a good\l"
-	.string "performance in this mission, lucky for\l"
-	.string "you we are still in the middle of it.$"
+	.string "performance on this mission. Luckily\l"
+	.string "for you, we're still in the middle of it.$"
 
 MtMoon_2F_AltoRango_Text_4:
-.string "OK. Let's recap:We have collected one\n"
-	.string "FOSSIL so far, found by GRUNT ANDRA.\l"
-	.string "Our priority is finding more while we\l"
-	.string "prevent that trainer from messing with\l"
-	.string "us again. If you find him, tell me so\l"
-	.string "I can beat him.$"
+	.string "Okay-recap. We've snagged one FOSSIL so\n"
+	.string "far, thanks to GRUNT ANDRA. Our\l"
+	.string "priority's tracking more while keeping\l"
+	.string "that trainer with the WARTORTLE from\l"
+	.string "messing with us again. If you see him,\l"
+	.string "get me so I can take him.$"
 
 MtMoon_2F_AltoRango_Text_5:
 .string "ROGER THAT, HIGH RANK FRANK!!$"
 
 MtMoon_2F_AltoRango_Text_6:
-.string "Well then. Get moving, you stack of\n"
-	.string "useless bones!$"
+	.string "Well then. Get moving, you\n"
+	.string "shambling pile of bones.$"
 
 MtMoon_2F_AltoRango_Text_7:
 .string "I'm remembering both your name and your\n"
@@ -111,16 +110,14 @@ MtMoon_2F_AltoRango_Text_7:
 	.string "is non-negotiable.$"
 
 MtMoon_2F_AltoRango_Text_8:
-.string "Hey, don't take him that seriously, he's\n"
-	.string "just frustrated ‘cause he has just\l"
-	.string "assigned some successful missions as a\l"
-	.string "HIGH RANK and suddenly the situation\l"
-	.string "has been compromised ‘cause of a\l"
-	.string "10-year-old dude. I haven't seen that\l"
-	.string "kid yet, but if I see him, I'll show no\l"
-	.string "mercy! Let's show everyone how powerful\l"
-	.string "we are, CHRONO ISLAND GRUNTS. Good luck\l"
-	.string "on your search, by the way.$"
+	.string "Hey, don't you worry about that guy.\n"
+	.string "He's just peeved ‘cause his clean\l"
+	.string "mission record's just been smashed by\l"
+	.string "some ten-year-old. I haven't seen that\l"
+	.string "kid yet, but if we meet, he's getting no\l"
+	.string "mercy! Let's show everyone how strong\l"
+	.string "we CHRONO ISLAND GRUNTS are. Here's to\l"
+	.string "a successful search too!$"
 
 MtMoon_2F_AltoRango_move1:
 walk_in_place_left

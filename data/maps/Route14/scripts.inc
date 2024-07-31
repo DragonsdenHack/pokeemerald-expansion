@@ -299,9 +299,9 @@ Route14_Combate_Azul_Texto_10:
 	.string "will go to KNOT ISLAND at once, that\l"
 	.string "MOLTRES better be resistant to a\l"
 	.string "super-effective SURF from a BLASTOISE\l"
-	.string "equipped with the ASSAULT VEST, which\l"
-	.string "will withstand any special Fire-type\l"
-	.string "move, not any divinity or supreme\l"
+	.string "holding the ASSAULT VEST, which'll\l"
+	.string "withstand any special Fire-type\l"
+	.string "move; not any divinity or supreme\l"
 	.string "genetics will save it from this fact.$"
 
 Route14_Combate_Azul_Texto_11:

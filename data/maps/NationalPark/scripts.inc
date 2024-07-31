@@ -72,9 +72,9 @@ release
 end
 
 NationalPark_Text_10:
-	.string "I really enjoy walking around here, this\n"
-	.string "place is such a grand inspiration place\l"
-	.string "for me.$"
+	.string "I really enjoy strolling around here.\n"
+	.string "This place is such a grand,\l"
+	.string "inspirational place for me.$"
 
 
 
@@ -91,8 +91,8 @@ release
 end
 
 NationalPark_Text_12:
-	.string "If you look down at the tall grass from\n"
-	.string "above, it looks like a POKÉ BALL!$"
+	.string "Looking down at the tall grass from\n"
+	.string "above, it seems like a POKÉ BALL!$"
 
 
 
@@ -148,5 +148,5 @@ msgbox NationalParkDocumento_Text_102, MSGBOX_SIGN
 end
 
 NationalParkDocumento_Text_102:
-	.string "In honor to all the BUG TYPES of KANTO\n"
-	.string "and JOHTO.$"
+	.string "In honor of all the BUG TYPES\n"
+	.string "of KANTO and JOHTO.$"

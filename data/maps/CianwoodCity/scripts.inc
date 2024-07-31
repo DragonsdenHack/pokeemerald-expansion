@@ -351,7 +351,7 @@ CianwoodCity_Esposa_Anibal_Heracrosita_Texto_1:
 CianwoodCity_Esposa_Anibal_Heracrosita_Texto_2:
 	.string "My husband said he had never seen such\n"
 	.string "brute force as that of a HERACROSS\l"
-	.string "equipped with that item, although he\l"
+	.string "holding that item, although he\l"
 	.string "also mentioned it made it slower. He\l"
 	.string "preferred that samurai POKÉMON from a\l"
 	.string "distant region.$"

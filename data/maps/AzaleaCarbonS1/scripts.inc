@@ -36,10 +36,10 @@ release
 end
 
 AzaleaCarbonS1_Text_3:
-	.string "This place belonged to two elders,\n"
-	.string "traditionally they were dedicated to\l"
+	.string "This place once belonged to two elders.\n"
+	.string "Traditionally, they were dedicated to\l"
 	.string "this. I wonder if we did right in\l"
-	.string "dismissing them so lightly, they surely\l"
+	.string "dismissing them so lightly. They surely\l"
 	.string "had things to contribute.$"
 
 AzaleaCarbonS1_4::
@@ -69,7 +69,7 @@ AzaleaCarbonS1_Text_5:
 	.string "Everything, sooner or later, will be\l"
 	.string "destroyed by the passage of time. What\l"
 	.string "difference does it make whether it\l"
-	.string "happens in 1 year or 100?$"
+	.string "happens in one year or one hundred?$"
 
 
 
@@ -81,10 +81,10 @@ release
 end
 
 AzaleaCarbonS1_Text_7:
-	.string "Which THUNDERBOLT is stronger,\n"
-	.string "RAIKOU's or an AMPHAROS? It is said\l"
+	.string "Which THUNDERBOLT is stronger, a\n"
+	.string "RAIKOU's or an AMPHAROS's? It's said\l"
 	.string "that the owner of the LIGHTHOUSE has\l"
-	.string "an AMPHAROS that ends that debate.$"
+	.string "an AMPHAROS that finishes that debate.$"
 
 
 
@@ -97,8 +97,8 @@ release
 end
 
 AzaleaCarbonS1_Text_8:
-	.string "Soon we'll have all the ovens working at\n"
-	.string "full capacity! And you won't be able to\l"
+	.string "Soon, we'll have all the ovens working at\n"
+	.string "full firepower! And you won't be able to\l"
 	.string "do anything to stop it! Hohoho!$"
 
 
@@ -111,9 +111,9 @@ release
 end
 
 AzaleaCarbonS1_Text_13:
-	.string "It's odd…The old furnace we destroyed\n"
-	.string "to rebuild this place and modernize\l"
-	.string "it…produced a higher quality CHARCOAL\l"
+	.string "It's odd… The old furnace we destroyed\n"
+	.string "to rebuild this place and modernize it…\l"
+	.string "produced a higher quality CHARCOAL\l"
 	.string "than our industrial furnaces. Have we\l"
 	.string "ignored something?$"
 
@@ -129,8 +129,8 @@ end
 AzaleaCarbonS1_Text_14:
 	.string "I really don't agree with the way this is\n"
 	.string "being handled, but the high amount of\l"
-	.string "money they're paying me for it makes it\l"
-	.string "worth it.$"
+	.string "money they're paying me makes it worth\l"
+	.string "it.$"
 
 
 
@@ -170,12 +170,12 @@ AzaleaCarbonS1_EventScript_TakeHelioptile::
 
 AzaleaCarbonS1_Text_TakeHelioptile:
 	.string "I come from a distant region; JOHTO\n"
-	.string "keeps hiring specialists from outside,\l"
-	.string "in all fields. Look, I'll give you this\l"
-	.string "POKÉMON as proof.$"
+	.string "keeps hiring foreign specialists in all\l"
+	.string "fields. Look, I'll give you this POKÉMON\l"
+	.string "as proof.$"
 
 AzaleaCarbonS1_Text_MensajeHelioptile:
-.string "YOU OBTAINED AN HELIOPTILE AT LV.15!$"
+.string "YOU OBTAINED A HELIOPTILE AT LV.15!$"
 
 AzaleaCarbonS1_Text_6:
 	.string "HELIOPTILE is one of my favorite work\n"
@@ -237,11 +237,11 @@ face_player
 step_end
 
 AzaleaCarbonS1_Primer_Combate_Texto_1:
-.string "Who is here?$"
+.string "Who is…?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_2:
-	.string "You are on private property, you know\n"
-	.string "it, right?$"
+	.string "You do realize you're on private\n"
+	.string "property, right?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_3:
 	.string "I'll kick you out of here immediately,\n"
@@ -251,8 +251,8 @@ AzaleaCarbonS1_Primer_Combate_Texto_4:
 .string "Where do you come from?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_5:
-	.string "We won't abandon this place, its\n"
-	.string "location is ideal, we have all the\l"
+	.string "We won't abandon this place. Its\n"
+	.string "location is ideal, as we've all the\l"
 	.string "required raw materials here.$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_6:
@@ -309,8 +309,8 @@ release
 end
 
 AzaleaCarbonS1_Segundo_Combate_Texto_8.1:
-	.string "And that's why I have no problem\n"
-	.string "opening you the doors.$"
+	.string "And that's why I've no problem\n"
+	.string "opening up the doors for you.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_1:
 	.string "Where do you come from? We already have\n"
@@ -323,8 +323,8 @@ AzaleaCarbonS1_Segundo_Combate_Texto_2:
 	.string "you help them?$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_3:
-	.string "It doesn't care, you can't do anything.\n"
-	.string "This place is officially ours.$"
+	.string "Not that it matters. You can't do a\n"
+	.string "thing. This place is legally ours.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -342,16 +342,16 @@ AzaleaCarbonS1_Segundo_Combate_Texto_6:
 	.string "the black market!$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_7:
-	.string "Huh, what do you say? Don't make me\n"
-	.string "laugh this hard, nowadays no one\l"
-	.string "bothers to train their team on their\l"
-	.string "own, it's inefficient and boring.$"
+	.string "Huh? What'd you say? Don't make me\n"
+	.string "laugh! Nowadays, no one ever bothers\l"
+	.string "training their team on their own. It's\l"
+	.string "just wasteful tedium.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_8:
 	.string "But it doesn't matter where you got\n"
-	.string "them from, not even with all the\l"
-	.string "LEGENDARIES in the world can you take\l"
-	.string "away our ownership of this factory.$"
+	.string "them. Not even with all the LEGENDARIES\l"
+	.string "of the world could you wrest away our\l"
+	.string "ownership of this factory.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_9:
 	.string "The most you can aspire to is reaching\n"

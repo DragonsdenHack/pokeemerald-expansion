@@ -117,20 +117,18 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_1:
 .string "????: You have disappointed me, old man.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_2:
-	.string "ZEUS: I came here thinking that this\n"
-	.string "place held some valuable information\l"
-	.string "about the two LEGENDARIES of JOHTO,\l"
-	.string "which would help me delve deeper into\l"
-	.string "the history of this region. And all I\l"
-	.string "find is a group of sages who do nothing\l"
-	.string "but honor the mediocrity of\l"
-	.string "BELLSPROUT.$"
+	.string "ZEUS: I'd arrived believing this place\n"
+	.string "would reveal invaluable information on\l"
+	.string "the two LEGENDARIES of JOHTO-allow me\l"
+	.string "to glean the history of this region. Yet\l"
+	.string "only doddering, old men are here, bowing\l"
+	.string "to the mediocrity of BELLSPROUT.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_3:
-	.string "Why waste your life dedicating yourself\n"
-	.string "to something like this, when the most\l"
-	.string "you can aspire to is being slightly less\l"
-	.string "bad than the rest of BELLSPROUT?$"
+	.string "What's the purpose in dedicating one's\n"
+	.string "whole life to such worship in being\l"
+	.string "marginally less weaker than the\l"
+	.string "bog-standard BELLSPROUT?$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_4:
 	.string "I trust that the BELL TOWER in\n"
@@ -145,22 +143,21 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_5:
 	.string "and SEVII.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_6:
-	.string "But to be honest, this pagoda will suit\n"
-	.string "someone like you quite nicely. It's\l"
-	.string "really beneficial for anyone\l"
-	.string "constrained by the laws of mortal\l"
-	.string "POKÉMON, if you want to push your\l"
-	.string "limited margin of improvement just a bit\l"
-	.string "further. But that's not why I'm here.$"
+	.string "But if I'm honest, you truly are suited\n"
+	.string "to this pagoda. For those constrained\l"
+	.string "by the boundaries of mortal POKÉMON,\l"
+	.string "eking out the barest mote of\l"
+	.string "improvement might be possible. But\l"
+	.string "that's neither here nor there.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_7:
 	.string "All of your POKÉMON are just shadows\n"
 	.string "and ashes. Nevertheless…$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_8:
-	.string "That TRAINER…. He was heading to\n"
-	.string "AZALEA TOWN. Had a POKÉMON, a very\l"
-	.string "special POKÉMON although not being a\l"
+	.string "That TRAINER… He was headed to AZALEA\n"
+	.string "TOWN. Had a POKÉMON with him. A very\l"
+	.string "special one, despite not being a\l"
 	.string "LEGENDARY one.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_9:
@@ -183,8 +180,7 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_11:
 	.string "a sacred POKÉMON into a mortal one:\l"
 	.string "their body can't withstand it. It's still\l"
 	.string "an anomaly, further evidence that\l"
-	.string "playing gods without being one is\l"
-	.string "costly.$"
+	.string "playing god without being one is costly.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_12:
 	.string "I hope this serves as an example of\n"
@@ -300,23 +296,23 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1:
 	.string "ELDER!!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_1:
-	.string "That guy is going to end up in trouble,\n"
-	.string "he's blinded by just one of the\l"
-	.string "qualities that define a POKÉMON: the\l"
-	.string "BASE STATS. And that prevents him from\l"
+	.string "That man will one day find himself in\n"
+	.string "trouble. He's blinded by just one of the\l"
+	.string "qualities that define a POKÉMON: BASE\l"
+	.string "STATS. And that prevents him from\l"
 	.string "seeing the other virtues that each\l"
 	.string "POKÉMON has.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
-	.string "A misconception about power. Real power\n"
+	.string "A misconception of power. Real power\n"
 	.string "can come from any POKÉMON if you're\l"
-	.string "able to understand it enough. And\l"
-	.string "knowing how to arrange the infinite\l"
-	.string "combinations you can make with it\l"
-	.string "properly can overcome anyone. Isn't\l"
-	.string "that power, then? Within each POKÉMON\l"
-	.string "lies the potential to be excellent, only\l"
-	.string "some are unable to develop it.$"
+	.string "willing to understand it. And knowing to\l"
+	.string "properly arrange its infinite\l"
+	.string "combinations can allow it to overcome\l"
+	.string "any hurdle. Isn't that power then?\l"
+	.string "Within each POKÉMON lies the potential\l"
+	.string "to be excellent. Only few are unable to\l"
+	.string "develop it.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}\n"
@@ -327,9 +323,10 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
 	.string "seen something special in you to send\l"
 	.string "you here. Knowing that I'll be your trial\l"
 	.string "to access something as special as\l"
-	.string "battling PEGASO, I have no other choice\l"
-	.string "than to use my best POKÉMON. Show me\l"
-	.string "the bond you hold with your team!$"
+	.string "battling FALKNER, I have no other\l"
+	.string "choice than to use my best POKÉMON.\l"
+	.string "Show me the bond you hold with your\l"
+	.string "team!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
 .string "Oh!\n"
@@ -355,8 +352,8 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_9:
 .string "(FALKNER USED ESCAPE ROPE).$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_10:
-	.string "And take this. With this HM you could\n"
-	.string "flash even the darkest caves.$"
+	.string "And take this. With this HM, you could\n"
+	.string "FLASH even the darkest caves.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_11:
 	.string "No matter what happens, don't forget to\n"

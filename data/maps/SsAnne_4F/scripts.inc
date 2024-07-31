@@ -214,7 +214,7 @@ end
 SsAnne_4F_Combate_Azul_text_1:
 .string "????: These parties are always so\n"
 	.string "boring. I came here so I could fight\l"
-	.string "against everyone's POKÉMONS and I\l"
+	.string "against everyone's POKÉMON and I\l"
 	.string "ended up finding the usual: RATATTA,\l"
 	.string "PIDGEY, NIDORAN… Even the sailors have\l"
 	.string "TENTACOOL as best! I feel scammed.$"

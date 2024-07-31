@@ -420,8 +420,8 @@ Silph_11F_Bill_Presidente_Texto_12:
 Silph_11F_Bill_Presidente_Texto_13:
 	.string "However, your mistake is believing that\n"
 	.string "a ROCKET, no matter who, has chances\l"
-	.string "against BILL, the best POKÉMONS\l"
-	.string "collectionist in the world.$"
+	.string "against BILL; the POKÉ MANIAC number\l"
+	.string "one in the world.$"
 
 Silph_11F_Bill_Presidente_Texto_14:
 	.string "ANDRA: You're just a spoiled kid who's\n"
@@ -441,8 +441,8 @@ Silph_11F_Bill_Presidente_Texto_15:
 
 Silph_11F_Bill_Presidente_Texto_16:
 	.string "As one of the main investors of SILPH, I\n"
-	.string "demand you to move away, if you don't\l"
-	.string "cause trouble maybe I let you escape\l"
+	.string "demand you to move away. If you don't\l"
+	.string "cause trouble, I maybe let you escape\l"
 	.string "from here, so you can extend your\l"
 	.string "wretched existence a bit further.$"
 
@@ -451,7 +451,7 @@ Silph_11F_Bill_Presidente_Texto_17:
 	.string "want, imagine it, the LEGENDARY BIRDS,\l"
 	.string "even that myth of MEW, could be catched\l"
 	.string "and admired within my vast collection,\l"
-	.string "the only POKÉMONS I'm missing to\l"
+	.string "the only POKÉMON I'm missing to\l"
 	.string "complete it.$"
 
 Silph_11F_Bill_Presidente_Texto_18:
@@ -459,11 +459,11 @@ Silph_11F_Bill_Presidente_Texto_18:
 	.string "puppets obstructing my path to\l"
 	.string "PRESIDENT and me, your mediocrity won't\l"
 	.string "prevent me from talking with him, move\l"
-	.string "aside, this is your last warning!$"
+	.string "aside, this is our last warning!$"
 
 Silph_11F_Bill_Presidente_Texto_19:
 	.string "ANDRA: Nor you nor your bought\n"
-	.string "POKÉMONS intimidate us, our LEADER is in\l"
+	.string "POKÉMON intimidate us, our LEADER is at\l"
 	.string "an important meeting right now with the\l"
 	.string "PRESIDENT, you are not going anywhere,\l"
 	.string "don't care if you want to or not.$"
@@ -591,7 +591,7 @@ Silph_11F_Bill_Presidente_Texto_37:
 	.string "It's a PORYGON, the first POKÉMON\n"
 	.string "created by a man, which is sold at the\l"
 	.string "price of gold in our GAME CORNER. the\l"
-	.string "PRESIDENT has kindly equipped yours\l"
+	.string "PRESIDENT has kindly held yours\l"
 	.string "with the UPGRADE, an enhancement\l"
 	.string "they've been developing for years to\l"
 	.string "improve it. You just need to use this\l"
@@ -971,8 +971,8 @@ Silph_11F_Reunión_Presidente_Lance_Texto_13:
 
 Silph_11F_Reunión_Presidente_Lance_Texto_14:
 	.string "The KANTO's flagship POKÉMON has always\n"
-	.string "been and it continues to be RHYDON,\l"
-	.string "that's why its figure appears on all the\l"
+	.string "been and still being RHYDON.\l"
+	.string "That's why its figure appears on all the\l"
 	.string "statues in the region.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_15:
@@ -1101,7 +1101,7 @@ Silph_11F_Presidente_Charlas_Texto_2:
 Silph_11F_Presidente_Charlas_Texto_3:
 	.string "PRESIDENT: Yes, 5 MASTER BALL, use\n"
 	.string "them only with those POKÉMON that are\l"
-	.string "really hard to capture with the rest of\l"
+	.string "really hard to catch with the rest of\l"
 	.string "the balls. We gave one MASTER BALL to\l"
 	.string "RED after believing he had won for the\l"
 	.string "sake of justice, just to convince him\l"

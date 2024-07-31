@@ -180,7 +180,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_5:
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_6:
 	.string "Take this, EXECUTIVE {PLAYER}, you\n"
-	.string "deserve that I give you 5 of these 60\l"
+	.string "deserve that: I'll give you 5 of these 60\l"
 	.string "EEVEE, you will take a better advantage\l"
 	.string "than those dirty that bought the other\l"
 	.string "10 EEVEE,I am pretty sure.$"
@@ -214,7 +214,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 	.string "you it will be worthwhile.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
-	.string "Always able for everything! That is the\n"
+	.string "Always able for everything! This is the\n"
 	.string "aptitude! I count on you EXECUTIVE\l"
 	.string "{PLAYER}! Both my colleague and I\l"
 	.string "were given a large number of EEVEE\l"

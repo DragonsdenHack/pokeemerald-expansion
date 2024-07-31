@@ -113,7 +113,7 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_4:
 	.string "The ASSAULT VEST boosts a 50% the\n"
 	.string "SPECIAL DEFENSE of the POKÉMON that\l"
-	.string "has equipped it, but it only allows the\l"
+	.string "helds it. But it only allows the\l"
 	.string "use of direct damage moves, making it a\l"
 	.string "perfect item to stop special attackers\l"
 	.string "in their tracks, it works very well with\l"

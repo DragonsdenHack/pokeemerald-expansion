@@ -39,7 +39,7 @@ end
 
 RuinsOfAlph_House1_Text_3:
 	.string "The ruins are approximately 1500 years\n"
-	.string "old. Yet, we have no clue as to why or by\l"
+	.string "old. Yet we have no clue as to why or by\l"
 	.string "whom they were constructed.$"
 
 RuinsOfAlph_House_Mision_Secundaria::
@@ -114,8 +114,8 @@ face_player
 step_end
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_1:
-	.string "Those SCIENTISTS{PAUSE 15}…{PAUSE 15} they came from a\n"
-	.string "different region, promising to only\l"
+	.string "Those SCIENTISTS… They came from a\n"
+	.string "different region, promising only to\l"
 	.string "research our FOSSILS, but they've\l"
 	.string "disappeared without a trace…$"
 
@@ -133,13 +133,13 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_4:
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_5:
 	.string "We know they have a small LABORATORY in\n"
-	.string "some city in JOHTO, I think they meant\l"
-	.string "ECRUTEAK CITY. That's where they must\l"
-	.string "have our FOSSILS. If you bring them\l"
-	.string "back, I'll reward you properly.$"
+	.string "some city in JOHTO. I think they meant\l"
+	.string "ECRUTEAK CITY. That must be where they\l"
+	.string "have our FOSSILs. If you retrieve them,\l"
+	.string "I'll reward you properly.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_6:
-	.string "Any new? Remember, they should have\n"
+	.string "Any news? Remember: they should have\n"
 	.string "their LABORATORY in ECRUTEAK CITY.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_7:
@@ -153,16 +153,16 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_8:
 RuinsOfAlph_House_Mision_Secundaria_Texto_9:
 	.string "You deserve to be properly rewarded for\n"
 	.string "your efforts. Look, we discovered this\l"
-	.string "specimen of FOSSIL, it comes from a\l"
+	.string "specimen of FOSSIL. It comes from a\l"
 	.string "distant region. Our studies indicate\l"
 	.string "that it is a distant relative of\l"
 	.string "AERODACTYL, possibly with greater\l"
-	.string "potential. Take it, it's yours.$"
+	.string "potential. Take it. It's yours.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_10:
 .string "YOU OBTAINED A LV.35 ARCHEN!!$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_11:
 	.string "If you need something someday, do not\n"
-	.string "hesitate to contact us. Here you have\l"
+	.string "hesitate to contact us. Here, you have\l"
 	.string "allies.$"

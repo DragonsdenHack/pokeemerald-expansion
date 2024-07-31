@@ -416,7 +416,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_6:
 	.string "do is hire the services of a mediocre\l"
 	.string "ROCKET GRUNT who can do nothing in the\l"
 	.string "face of the category of POKÉMON that\l"
-	.string "are the evolutions of EEVEE!$"
+	.string "are the Eeveelutions!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_7:
 	.string "But who're you? Wait! Weren't you the\n"

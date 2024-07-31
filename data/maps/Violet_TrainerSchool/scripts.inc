@@ -46,10 +46,10 @@ release
 end
 
 VioletTrainerSchool5_Texto_1:
-	.string "You'll see, once I can go back to ROUTE\n"
-	.string "13 in KANTO, no BIRDKEEPER there will\l"
-	.string "believe I could attend a class with the\l"
-	.string "real FALKNER personally…$"
+	.string "You'll see. Once I'm back on ROUTE 13 in\n"
+	.string "KANTO, no BIRDKEEPER there will believe\l"
+	.string "I managed to attend a class led by\l"
+	.string "FALKNER himself…$"
 
 
 VioletTrainerSchool6::
@@ -60,7 +60,7 @@ end
 
 VioletTrainerSchool6_Texto_1:
 	.string "I didn't know that NOCTOWL is a PSYCHIC\n"
-	.string "TYPE also…$"
+	.string "TYPE too…$"
 
 
 
@@ -84,9 +84,9 @@ release
 end
 
 VioletTrainerSchool8_Texto_1:
-	.string "Everything is okay, but… Where did you\n"
-	.string "get that powerful bird? It's far\l"
-	.string "superior to PIDGEOT.$"
+	.string "Everything is great, but… Where did you\n"
+	.string "find such bird? PIDGEOT doesn't compare\l"
+	.string "with it.$"
 
 
 
@@ -102,9 +102,9 @@ release
 end
 
 VioletTrainerSchool10_Texto_1:
-	.string "And keep this in your minds, to awaken a\n"
+	.string "And keep this in mind. To awaken a\n"
 	.string "POKÉMON, we only need to use an\l"
-	.string "AWAKENING on it, or have a POKÉ FLUTE.$"
+	.string "AWAKENING on it or have a POKÉ FLUTE.$"
 
 
 
@@ -115,7 +115,7 @@ release
 end
 
 VioletTrainerSchool11_Texto_1:
-	.string "These classes are so boring, I'm sure\n"
+	.string "These classes are so boring. I'm sure\n"
 	.string "that FALKNER could make it more\l"
 	.string "interesting…$"
 
@@ -129,8 +129,7 @@ end
 
 VioletTrainerSchool12_Texto_1:
 	.string "I know that I need an ANTIDOTE to heal\n"
-	.string "the POISON. Can you teach something\l"
-	.string "else?$"
+	.string "POISON. Can you teach something else?$"
 
 
 
@@ -159,27 +158,26 @@ VioletTrainerSchool_EventScript_TakeStarly::
 
 
 VioletTrainerSchool_Text_TakeStarly:
-	.string "You were also in FALKNER's class,\n"
-	.string "weren't you?$"
+	.string "You were in FALKNER's class too, weren't\n"
+	.string "you?$"
 
 
 
 
 VioletTrainerSchool_Text_TakeStarly2:
-	.string "It's amazing how knowledgeable he is\n"
-	.string "about the FLYING TYPE. Additionally, he\l"
-	.string "always seeks to resolve inquiries in the\l"
-	.string "most practical way.$"
+	.string "It's pretty rad how much he knows about\n"
+	.string "FLYING TYPEs. Plus, he always solves\l"
+	.string "questions in a practical way.$"
 
 
 
 VioletTrainerSchool_Text_TakeStarly3:
-	.string "He even gave me a bird from some\n"
-	.string "distant region when he saw my interest\l"
-	.string "in them. You know what? I paired it with\l"
-	.string "my PIDGEOT, and it laid several eggs\l"
-	.string "that hatched. I'll give you one of the\l"
-	.string "ones that came out!$"
+	.string "Heck, he even gave me a bird from some\n"
+	.string "far-off region when he saw me\l"
+	.string "interested in them. You know what? I've\l"
+	.string "still got some chicks that hatched from\l"
+	.string "when I paired it with my PIDGEOT. I'll\l"
+	.string "give you one!$"
 
 
 
@@ -323,59 +321,57 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_2:
 Violet_TrainerSchool_Discurso_Pegaso_Texto_3:
 	.string "Is there anyone here who knows how a\n"
 	.string "FLYING TYPE can effectively deal with\l"
-	.string "the ELECTRIC TYPE or the ROCK TYPE?$"
+	.string "ELECTRIC or ROCK TYPEs?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_4:
 	.string "????: There's a move called MUD-SLAP\n"
 	.string "that most birds can learn, and it's\l"
-	.string "super effective against these types.$"
+	.string "Super Effective against these types.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_5:
 	.string "FALKNER: We've already discussed this,\n"
-	.string "son, the power of MUD-SLAP is very poor,\l"
-	.string "and the decrease in accuracy it offers\l"
-	.string "makes us fall into the traps of chance,\l"
-	.string "losing control of the battle. I'm not\l"
-	.string "talking about turning this into a\l"
-	.string "gamble, and seeing if we can survive by\l"
-	.string "sheer luck; I'm talking about taking\l"
-	.string "down these types decisively with\l"
-	.string "FLYING TYPE POKÉMON.$"
+	.string "son. MUD-SLAP's power is dirt-poor, and\l"
+	.string "taking a gamble on misses-well, you know\l"
+	.string "the saying with hitting two birds with\l"
+	.string "one Stone Edge. But instead of betting\l"
+	.string "it all on coin flips, I mean ending the\l"
+	.string "battle in one fell swoop with FLYING\l"
+	.string "POKÉMON.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_6:
 	.string "In this case, the best defense is a\n"
-	.string "good offense. A trained and equipped\l"
-	.string "DODRIO with a FOCUS SASH will knock out\l"
-	.string "100% of ELECTRIC TYPES with a single\l"
-	.string "STOMPING TANTRUM hit, only outsped by\l"
-	.string "a few like JOLTEON or ELECTRODE, for\l"
-	.string "which we have the CHOICE SCARF.$"
+	.string "good offense. A well-trained DODRIO\l"
+	.string "wearing a FOCUS SASH will knock out any\l"
+	.string "ELECTRIC TYPE in a single STOMPING\l"
+	.string "TANTRUM. Only the likes of JOLTEON or\l"
+	.string "ELECTRODE could outspeed it, but we\l"
+	.string "have CHOICE SCARF for that.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_7:
-	.string "FEAROW with DRILL RUN or PIDGEOT with\n"
-	.string "CLOSE COMBAT will also hit super\l"
-	.string "effectively, taking advantage of the\l"
-	.string "low SPEED of ROCK TYPES to attack\l"
-	.string "first, or the low DEFENSE of ELECTRIC\l"
-	.string "TYPES to knock them out in one hit.$"
+	.string "A FEAROW's DRILL RUN or a PIDGEOT's\n"
+	.string "CLOSE COMBAT can get the drop on ROCK\l"
+	.string "POKÉMON in part to their low SPEED. And\l"
+	.string "they'll make short work of ELECTRIC\l"
+	.string "TYPEs thanks to their low DEFENSE too.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_8:
-	.string "This teaches us that in a POKÉMON\n"
-	.string "battle, there are countless variables\l"
-	.string "at play, and any POKEMON, with the right\l"
-	.string "moves, items, and training, is capable of\l"
-	.string "taking down any other.$"
+	.string "And these are just a few examples\n"
+	.string "showing that any POKÉMON can rise to\l"
+	.string "meet any challenge with the right\l"
+	.string "moves, items, and training. That\l"
+	.string "countless variables can shift the\l"
+	.string "course of battle so readily.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_9:
-	.string "Note that we have barely scratched the\n"
-	.string "surface of the resources we have at\l"
-	.string "our disposal to counter type\l"
-	.string "disadvantages. A GLIGAR or GLISCOR will\l"
-	.string "be directly immune to ELECTRIC TYPE\l"
-	.string "and will resist ROCK TYPE neutrally,\l"
-	.string "while also hitting by STAB both types\l"
-	.string "super effectively with EARTHQUAKE due\l"
-	.string "to being both FLYING and GROUND TYPE.$"
+	.string "Note that we've only scratched the\n"
+	.string "surface of the tools at our disposal in\l"
+	.string "dealing with TYPE disadvantages. A\l"
+	.string "GLIGAR or GLISCOR won't be fried by\l"
+	.string "ELECTRIC TYPEs, and ROCK POKÉMON won't\l"
+	.string "crush them as easily. But this line can\l"
+	.string "also shake their world with EARTHQUAKE\l"
+	.string "without any risk of hitting each other\l"
+	.string "in return.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_10:
 	.string "That's all for today's lesson. In our\n"
@@ -389,14 +385,13 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_10:
 	.string "coming.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_11:
-	.string "FALKNER: FALKNER, return to SPROUT\n"
+	.string "FALKNER SR.: FALKNER, return to SPROUT\n"
 	.string "TOWER immediately to continue your\l"
 	.string "training.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_12:
-.string "But{PAUSE 15}…{PAUSE 15} dad{PAUSE 15}…\n"
-	.string "I want to start training\l"
-	.string "a PIDGEY!$"
+	.string "But… Dad… I wanna start training a\n"
+	.string "PIDGEY!$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_13:
 	.string "FALKNER: You're not ready yet. Before\n"
@@ -407,55 +402,52 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_13:
 	.string "you take flight, you'll touch the sky.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_14:
-.string "Mphf!\n"
-	.string "I'm so tired of seeing BELLSPROUTS!$"
+	.string "Hmph! I'm so tired of seeing\n"
+	.string "BELLSPROUT!$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_15:
-	.string "FALKNER: Someday the VIOLET CITY GYM\n"
+	.string "FALKNER: Someday, the VIOLET CITY GYM\n"
 	.string "will be yours, son…$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_16:
 	.string "Well, we have a curious student. Do you\n"
-	.string "wanna ask me something? I will be\l"
-	.string "pleased to reply to it.$"
+	.string "wanna ask me something? I'll be more\l"
+	.string "than happy to answer.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_17:
 	.string "Battle with me? You seem like a good\n"
-	.string "trainer, but I decided to step away\l"
-	.string "from POKÈMON battles as they are\l"
-	.string "conceived today a long time ago.\l"
-	.string "Besides, the badges of JOHTO currently\l"
-	.string "hold no significance. From what I've\l"
-	.string "seen, the POKÈMON LEAGUE has returned,\l"
-	.string "but only for KANTO.$"
+	.string "trainer, but a long time ago, I decided\l"
+	.string "to step away from POKÉMON battles as\l"
+	.string "they are known now. Besides, the badges\l"
+	.string "of JOHTO are currently useless. I've\l"
+	.string "seen that the POKÉMON LEAGUE has\l"
+	.string "returned, but only for KANTO.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_18:
-	.string "Is it the desire to improve as a\n"
-	.string "TRAINER, to discover new POKÉMON, and\l"
-	.string "to continue your own journey that\l"
-	.string "leads you to request this battle? And\l"
-	.string "not just to hang a BADGE to show off to\l"
-	.string "everyone?$"
+	.string "Is it because of the desire to improve\n"
+	.string "as a TRAINER, to discover new POKÉMON,\l"
+	.string "and to continue your journey that you\l"
+	.string "want to request this battle? And not\l"
+	.string "just to hang an insignificant BADGE to\l"
+	.string "show off to everyone?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_19:
-.string "Interesting…\n"
-	.string "Are you {PLAYER}?\l"
-	.string "If you complete the challenge\l"
-	.string "I'm about to propose, I'll grant\l"
-	.string "you that battle.$"
+	.string "Interesting… Are you {PLAYER}? If\n"
+	.string "you complete the challenge I'm about to\l"
+	.string "propose, I'll battle you.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_20:
 	.string "Climb to the top of the SPROUT TOWER\n"
-	.string "and speak with the ELDER. Tell him I\l"
-	.string "sent you.$"
+	.string "and speak with the ELDER MASTER. Tell\l"
+	.string "him I sent you.$"
 
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_21:
-	.string "If you defeat him, I'll battle you, and\n"
-	.string "I'll use my best POKÉMON. Whatever\l"
-	.string "happens, I hope the experience of\l"
-	.string "visiting such a sacred place enriches\l"
-	.string "you. That's also part of your journey,\l"
+	.string "If you defeat him, I'll battle you and\n"
+	.string "use my best POKÉMON. Whatever happens,\l"
+	.string "I hope the experience of visiting such\l"
+	.string "a sacred place will improve you even\l"
+	.string "more. That's also part of your journey,\l"
 	.string "isn't it?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Move_1:

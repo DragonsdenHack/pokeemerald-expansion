@@ -154,7 +154,7 @@ SaffronCity_Dojo_Combate_Maestro_Texto_3:
 
 SaffronCity_Dojo_Combate_Maestro_Texto_4:
 	.string "The BLACK BELT increases the power of\n"
-	.string "FIGHTING moves by 20%, Equipped on\l"
+	.string "FIGHTING moves by 20%, Holding on\l"
 	.string "POKÉMON with already high physical\l"
 	.string "attack, such as HITMONLEE or MACHAMP,\l"
 	.string "their FIGHTING moves will destroy\l"

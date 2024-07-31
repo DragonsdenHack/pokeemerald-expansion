@@ -22,4 +22,4 @@ SevaultCanyonHouse1_3_Texto_1:
 	.string "My CHANSEY loves helping out tired\n"
 	.string "travelers who make it here. This\l"
 	.string "island's the biggest one in the whole\l"
-	.string "ARCHI7.$"
+	.string "SEVII ISLANDS.$"

@@ -28,7 +28,7 @@ end
 
 GoldenrodCity_Text_2:
 	.string "CLEFAIRY will be the roster of the new\n"
-	.string "GYM, it is so cute.$"
+	.string "GYM. It's just so cute.$"
 
 
 
@@ -85,10 +85,9 @@ release
 end
 
 GoldenrodCity_Text_6:
-	.string "I want to get into the GAME CORNER,\n"
-	.string "they sell some amazing POKÉMON, but…\l"
-	.string "They won't let me in because I'm too\l"
-	.string "young!$"
+	.string "I wanna get into the GAME CORNER. They\n"
+	.string "sell some amazing POKÉMON, but… they\l"
+	.string "won't let me in ‘cuz I'm too young!$"
 
 
 
@@ -102,8 +101,9 @@ end
 GoldenrodCity_Text_7:
 	.string "There's nothing like watering your\n"
 	.string "plants on a hot summer day, but be\l"
-	.string "careful. If you water a SUDOWOODO, it\l"
-	.string "will become angry and attack!$"
+	.string "careful. Watering a SUDOWOODO's a\l"
+	.string "surefire way to find yourself in a\l"
+	.string "fight.$"
 
 
 
@@ -160,10 +160,10 @@ end
 
 GoldenrodCity_Text_13:
 	.string "Look, CLEFAIRY, when I come back from\n"
-	.string "MOO-MOO FARM, we will become GYM\l"
-	.string "LEADERS. GOLDENROD wants a cool and\l"
-	.string "powerful leader. You're cool, but we\l"
-	.string "need something powerful.$"
+	.string "MOO-MOO FARM, we'll be GYM LEADERs.\l"
+	.string "GOLDENROD wants a cool and powerful\l"
+	.string "LEADER. You're cool, but we need\l"
+	.string "something powerful.$"
 
 
 
@@ -195,8 +195,8 @@ end
 
 GoldenrodCity_Text_16:
 	.string "This city has changed so much in such a\n"
-	.string "short period that I no longer know\l"
-	.string "where anything is!$"
+	.string "short period that I don't even know\l"
+	.string "where anything is anymore!$"
 
 
 
@@ -209,10 +209,11 @@ release
 end
 
 GoldenrodCity_Text_17:
-	.string "In 3 years, we've turned GOLDENROD CITY\n"
-	.string "into the economic and\l"
+	.string "In three years, we've turned GOLDENROD\n"
+	.string "CITY into the economic and\l"
 	.string "telecommunications hub of all JOHTO.\l"
-	.string "Just imagine what we can do in other 3!$"
+	.string "Just imagine what we can do in another\l"
+	.string "three!$"
 
 
 

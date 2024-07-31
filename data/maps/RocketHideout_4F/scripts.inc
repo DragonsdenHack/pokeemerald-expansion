@@ -1550,7 +1550,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
 	.string "GRUNT: Sir orders! All of us are falling\n"
 	.string "as dominoes tokens against their\l"
-	.string "POKÉMONs power!$"
+	.string "POKÉMON power!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
 	.string "PROTON: Call all HIGH RANK GRUNTS and\n"
@@ -1966,7 +1966,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
 	.string "ROCKET I'm rewarding you with one of the\l"
 	.string "CUBONES that were stolen from the\l"
 	.string "POKÉMON TOWER. But this is not an usual\l"
-	.string "one, this CUBONE has equipped the\l"
+	.string "one. This CUBONE has holding the\l"
 	.string "THICK CLUB, an object that duplicates\l"
 	.string "it's physical attack when evolved into\l"
 	.string "MAROWAK. It's certainly a proper gift\l"
@@ -2430,7 +2430,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2:
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3:
 .string "Cause the resignation of RED from the\n"
-	.string "title of CHAMPION, and wipe him from the\l"
+	.string "CHAMPION title, and wipe him from the\l"
 	.string "map, I want that crazy experiment of\l"
 	.string "OAK of the game, take him to an isolated\l"
 	.string "place and tell the media he is realizing\l"
@@ -2562,11 +2562,11 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23:
 	.string "has reached.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24:
-.string "Of course, we still have MEWTWO as an\n"
-	.string "objective in the horizon, it still is a\l"
-	.string "danger that we have to take care of,\l"
-	.string "but I don't want to involve you in a\l"
-	.string "mission like that for the moment.$"
+.string "Of course, we still have MEWTWO as a\n"
+	.string "milestone; still is a danger that\l"
+	.string "we have to take care of.\l"
+	.string "But... I don't want to involve you in\l"
+	.string "a mission like that for the moment.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25:
 .string "After what you have done, you deserve\n"
@@ -2581,11 +2581,11 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26:
 	.string "ISLANDS, your natal place, again, and\l"
 	.string "explore the islands in peace, I've heard\l"
 	.string "there's very good TRAINERS, as well as\l"
-	.string "plants and animals very similar to JOHTO.$"
+	.string "kind of POKÉMON very similar to JOHTO ones.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27:
 .string "With this you can travel legally by\n"
-	.string "taking the ferry in VERMILION.$"
+	.string "taking the VERMILION FERRY.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28:
 .string "{PLAYER} received the RAINBOW PASS.$"

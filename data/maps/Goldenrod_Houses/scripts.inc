@@ -9,14 +9,14 @@ release
 end
 
 Goldenrod_House1_Text_1:
-	.string "So, you've met my grandson, BILL.\n"
-	.string "Confidentially… He loves to show off\l"
-	.string "rare POKÉMON, like EEVEE, when they're\l"
-	.string "quite common in ECRUTEAK CITY. All he\l"
-	.string "does is travel to places to bring back\l"
-	.string "the exotic from there and pay whoever\l"
-	.string "he needs to pay to get the POKÉMON, but\l"
-	.string "that's enough in today's world!$"
+	.string "So, you've met my grandson, BILL. Just\n"
+	.string "between you and me… He loves to show\l"
+	.string "off rare POKÉMON like EEVEE when\l"
+	.string "they're quite common in ECRUTEAK CITY.\l"
+	.string "All he does is travel to places to bring\l"
+	.string "back the exotic from there and pay\l"
+	.string "whoever he needs to get the POKÉMON,\l"
+	.string "but that's enough in today's world!$"
 
 
 
@@ -28,7 +28,7 @@ release
 end
 
 Goldenrod_House1_Text_2:
-	.string "50 years ago, GOLDENROD, just like\n"
+	.string "Fifty years ago, GOLDENROD, just like\n"
 	.string "OLIVINE, consisted of four houses of\l"
 	.string "humble fishermen. I still remember how\l"
 	.string "the STARMIE would gather along the\l"
@@ -56,8 +56,8 @@ end
 
 Goldenrod_House1_Text_5:
 	.string "I'm fed up with the bureaucracy of this\n"
-	.string "city. A retreat to MT.MORTAR is what I\l"
-	.string "need! All the great FIGHT-TYPE masters\l"
+	.string "city. A retreat to MT. MORTAR is what I\l"
+	.string "need! All the great FIGHTING masters\l"
 	.string "have gone there to train.$"
 
 

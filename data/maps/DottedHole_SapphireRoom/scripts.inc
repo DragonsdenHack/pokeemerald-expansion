@@ -208,12 +208,12 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7:
 	.string "appreciate, I won't prolong the\l"
 	.string "awakening of Kyogre because someone\l"
 	.string "like you has decided to cause a\l"
-	.string "commotion. HIGH RANK SILVINE!\l"
+	.string "commotion. HIGH RANK SHELLY!\l"
 	.string "Demonstrate this trash how we operate\l"
 	.string "here in TEAM AQUA!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_8:
-	.string "HR.SILVINE: With pleasure, sir.$"
+	.string "HR.SHELLY: With pleasure, sir.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_9:
 	.string "ARCHIE: I hope you don't make the\n"

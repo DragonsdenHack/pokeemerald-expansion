@@ -630,7 +630,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_2:
 RocketHideout_6F_Petrel_Text_Mision_2_3:
 	.string "I could just leave you to rot in prison,\n"
 	.string "long enough for you to think about what\l"
-	.string "you'd done. Or worse yet, I could just\l"
+	.string "you'd done. Or even worse, I could just\l"
 	.string "expel you from TEAM ROCKET altogether.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_4:

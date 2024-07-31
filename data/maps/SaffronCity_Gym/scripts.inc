@@ -515,7 +515,7 @@ Pewter_City_Lider_Gimnasio_Texto_1:
 	.string "ROCKET also passed by, it seems like\l"
 	.string "it's fashionable to mock their failure\l"
 	.string "at SILPH. Anyway, my ROCK-TYPE\l"
-	.string "POKÉMONS are the most resilient you'll\l"
+	.string "POKÉMON are the most resilient you'll\l"
 	.string "see, are you still sure about\l"
 	.string "challenging me knowing you'll lose?$"
 
@@ -791,7 +791,7 @@ Fuchsia_City_Lider_Gimnasio_Texto_1:
 	.string "challenging the POKÉMON LEAGUE! From\l"
 	.string "here you have all my support,\l"
 	.string "{PLAYER}, I will never forget what you\l"
-	.string "did for the BIKERS and KANTO also.$"
+	.string "did for the BIKERS and KANTO.$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_1.1:
 	.string "I won't make it easy for you {PLAYER},\n"

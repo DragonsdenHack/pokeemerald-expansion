@@ -209,7 +209,7 @@ ViridianCity_Gym_Pase_Texto_3:
 	.string "through here not long ago. I apologize\l"
 	.string "for the impertinence, sir, but this joke\l"
 	.string "of dressing as a ROCKET is not pleasing\l"
-	.string "the higher-ups in CERULEAN CAVE. It's\l"
+	.string "the higher-ups in INDIGO PLATEAU. It's\l"
 	.string "not wise to anger them.$"
 
 
@@ -321,7 +321,7 @@ ViridianCity_Gym_Explicacion_Base_Texto_3:
 	.string "Right below the EARTH BADGE insignia,\n"
 	.string "where the LEADER usually stands,\l"
 	.string "there's a small trapdoor leading to our\l"
-	.string "BASE in VERMILION CITY.$"
+	.string "real VIRIDIAN CITY BASE.$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_4:
 	.string "To obtain the GYM BADGE, you'll have\n"

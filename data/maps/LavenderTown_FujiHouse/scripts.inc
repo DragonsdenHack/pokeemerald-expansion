@@ -325,7 +325,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_9:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_10:
 	.string "LT. SURGE: Even though it won't be\n"
-	.string "needed, KANTO is in good hands already.$"
+	.string "needed, KANTO is in good hands yet.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_11:
 	.string "PROTON: SURGE! What are you doing\n"

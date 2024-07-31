@@ -28,13 +28,12 @@ release
 end
 
 RocketHideoutJohto_Text_2:
-	.string "Is in this base where we gather all the\n"
-	.string "resources that JOHTO offers, and we\l"
+	.string "It's in this BASE here where we gather\n"
+	.string "up all of JOHTO's resources and\l"
 	.string "transform them into all kinds of POKÉ\l"
-	.string "BALLS, POTIONS and other items. That's\l"
-	.string "right! From here is where all the\l"
-	.string "products that you buy in the CELADON\l"
-	.string "BASE come from!$"
+	.string "BALLs, POTIONs, and other goods. That's\l"
+	.string "right! This is where all the products in\l"
+	.string "the CELADON BASE come from!$"
 
 
 
@@ -64,9 +63,9 @@ RocketHideoutJohto_Text_4:
 	.string "the outside. Nonetheless, despite\l"
 	.string "having dimensions similar to the\l"
 	.string "POKÉMON TOWER of LAVENDER TOWN,\l"
-	.string "there's no need to worry. We are in the\l"
+	.string "there's no need to worry. We're in the\l"
 	.string "middle of the mountains, in a hidden\l"
-	.string "area far from all civilization.$"
+	.string "area far from all of civilization.$"
 
 
 
@@ -112,14 +111,14 @@ release
 end
 
 RocketHideoutJohto_Text_8:
-	.string "HP of 125 BASE{PAUSE 15}…{PAUSE 15} PHYSICAL ATTACK of\n"
-	.string "175{PAUSE 15}…{PAUSE 15} PHYSICAL DEFENSE of 155{PAUSE 15}…{PAUSE 15} An\l"
+	.string "HP of 125 BASE… PHYSICAL ATTACK of\n"
+	.string "175… PHYSICAL DEFENSE of 155… An\l"
 	.string "average of 151.6666 BASE among the\l"
-	.string "first 3 STATS{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} No, I'm not making up\l"
+	.string "first 3 STATS… … … No, I'm not making up\l"
 	.string "this POKÉMON, I'm talking about the\l"
-	.string "RHYPERIOR-Z of our LEADER GIOVANNI.\l"
+	.string "RHYPERIOR-& of our LEADER GIOVANNI.\l"
 	.string "It's hard for me to believe that there's\l"
-	.string "another POKÉMON with a similar physical\l"
+	.string "another POKÉMON with such a physical\l"
 	.string "power. Not even the LEGENDARY GROUDON\l"
 	.string "comes close!$"
 
@@ -133,16 +132,14 @@ release
 end
 
 RocketHideoutJohto_Text_9:
-	.string "That BILL has become a complete\n"
-	.string "pessimist, as well as arrogant,\l"
-	.string "believing he has reached the limit just\l"
-	.string "because he can't keep further improving\l"
-	.string "his PORYGON. If he saw our last\l"
-	.string "discoveries, the expression of\l"
-	.string "disbelief on his face as he sees that\l"
-	.string "some ROCKETS have surpassed him would\l"
-	.string "be legendary, while he would suffer a\l"
-	.string "hard blow to his ego as a scientist.$"
+	.string "That BILL's become some bigheaded\n"
+	.string "pessimist. He thinks he's hit the limit\l"
+	.string "just because he can't improve his\l"
+	.string "PORYGON further. If he saw our latest\l"
+	.string "discoveries and the ROCKETs who've\l"
+	.string "surpassed him, his jaw would drop, and\l"
+	.string "his ego would crack wide open. Now\l"
+	.string "that'd be a legendary sight!$"
 
 
 
@@ -155,14 +152,12 @@ end
 
 RocketHideoutJohto_Text_10:
 	.string "If we know all the possible conditions\n"
-	.string "of a physic system, we can, in theory,\l"
-	.string "its behavior into the future. But this\l"
-	.string "only applies with inanimate objects.\l"
-	.string "With social questions, we find a\l"
-	.string "problem. Projecting the future when\l"
-	.string "human beings are involved is radically\l"
-	.string "different if we consider they are living\l"
-	.string "beings endowed with free will.$"
+	.string "that surround a physical system, we may\l"
+	.string "predict future behaviors. However, this\l"
+	.string "only works on non-living things. In a\l"
+	.string "society, when humans are involved and\l"
+	.string "we consider those humans as creatures\l"
+	.string "with a free will, things get a 180º turn.$"
 
 
 
@@ -174,10 +169,10 @@ release
 end
 
 RocketHideoutJohto_Text_11:
-	.string "The work in the shadows always gives\n"
-	.string "big results. when we show ourselves to\l"
-	.string "the world they won't recognize what\l"
-	.string "they are seeing!$"
+	.string "Working in the shadows always returns\n"
+	.string "better results. Whenever we reveal\l"
+	.string "ourselves to the world, we won't be\l"
+	.string "recognised!$"
 
 
 
@@ -205,12 +200,12 @@ release
 end
 
 RocketHideoutJohto_Text_13:
-	.string "Accessing places where no one else has\n"
-	.string "reached demands a huge deployment of\l"
-	.string "energy and resources, which is why TEAM\l"
-	.string "ROCKET gives an enormous importance to\l"
-	.string "its scientific team, knowing the\l"
-	.string "invaluable potential that a new\l"
+	.string "Delving into uncharted lands demands a\n"
+	.string "massive investment of energy and\l"
+	.string "resources. That's why TEAM ROCKET puts\l"
+	.string "an enormous importance to its\l"
+	.string "scientific branches, knowing full-well\l"
+	.string "the invaluable potential a new\l"
 	.string "discovery can have.$"
 
 
@@ -225,7 +220,7 @@ end
 RocketHideoutJohto_Text_14:
 	.string "The consumption level in JOHTO is much\n"
 	.string "lower than that of KANTO, but its\l"
-	.string "resources are incomparable.We make\l"
+	.string "resources are incomparable. We make\l"
 	.string "sure to make good use of them here!$"
 
 
@@ -239,7 +234,7 @@ end
 
 RocketHideoutJohto_Text_15:
 	.string "So an order with 1000 NET BALLS, 200\n"
-	.string "PROTEINS + ZINC, 400 FULL RESTORE and\l"
+	.string "PROTEINS + ZINC, 400 FULL RESTORES and\l"
 	.string "3000 LAVA COOKIES…$"
 
 
@@ -268,7 +263,7 @@ end
 
 RocketHideoutJohto_Text_17:
 	.string "GIOVANNI holds you, ADMIN.BOSS\n"
-	.string "{PLAYER} in a very high regard. With\l"
+	.string "{PLAYER}, in very high regard. With\l"
 	.string "people like ANDRA and you, TEAM ROCKET\l"
 	.string "has a brilliant future.$"
 
@@ -311,8 +306,8 @@ release
 end
 
 RocketHideoutJohto_Text_20:
-	.string "The ADMIN.BOSS ANDRA will ensure that\n"
-	.string "we are also recognized in HOENN.\l"
+	.string "ADMIN.BOSS ANDRA will ensure that we\n"
+	.string "are also recognized in HOENN.\l"
 	.string "Eventually, the entire POKÉMON WORLD\l"
 	.string "will be under our control!$"
 
@@ -327,13 +322,13 @@ end
 
 RocketHideoutJohto_Text_21:
 	.string "No one knows the precise moment when\n"
-	.string "our LEADER's RHYPERIOR reached that\l"
-	.string "point which made it evolve once again,\l"
-	.string "however, thanks to being able to study\l"
-	.string "it, we were able to create NIDOKING-X\l"
-	.string "and NIDOQUEEN-Y, although raising\l"
-	.string "their stats by +100 BASE instead of the\l"
-	.string "+110 of GIOVANNI's RHYPERIOR…$"
+	.string "our LEADER's RHYPERIOR reached the\l"
+	.string "point that allowed it to evolve once\l"
+	.string "more. However, thanks to studying it, we\l"
+	.string "created NIDOKING-X and NIDOQUEEN-Y.\l"
+	.string "Though their STATs only rose by 100, as\l"
+	.string "opposed to the 110 of GIOVANNI's\l"
+	.string "RHYPERIOR…$"
 
 
 
@@ -345,13 +340,13 @@ release
 end
 
 RocketHideoutJohto_Text_22:
-	.string "Excuse me sir, the access to the upper\n"
+	.string "Pardon me, sir. Access to the upper\n"
 	.string "floors is restricted to personnel\l"
-	.string "directly involved in the ongoing\l"
-	.string "projects, I've heard that GIOVANNI\l"
-	.string "intends to introduce you to them, but\l"
-	.string "in due time. Until then, good luck during\l"
-	.string "your time in JOHTO!$"
+	.string "directly tied to ongoing projects. I've\l"
+	.string "heard GIOVANNI intends to introduce\l"
+	.string "you to them someday, but all in due time.\l"
+	.string "Until then, good luck during your time in\l"
+	.string "JOHTO!$"
 
 
 
@@ -413,15 +408,15 @@ end
 RocketHideoutJohto_Text_26:
 	.string "Despite winning the war, much of\n"
 	.string "JOHTO's population has continued to\l"
-	.string "live with the simplicity and frugality\l"
-	.string "that characterizes them. To be honest,\l"
-	.string "the only one who forced that war was\l"
-	.string "LANCE, and the people here know it,\l"
-	.string "perhaps due to that, the process of\l"
-	.string "unification between the two regions\l"
-	.string "will be faster, the first step is to open\l"
-	.string "the borders settled in ROUTE 26 and at\l"
-	.string "the base of MT. SILVER…$"
+	.string "live with their characteristic\l"
+	.string "simplicity and frugality. Honestly, the\l"
+	.string "only one who'd forced that war was\l"
+	.string "LANCE, and the people here know that.\l"
+	.string "Perhaps because of it, unification\l"
+	.string "between the two regions will be\l"
+	.string "smoother. The first step is to open the\l"
+	.string "borders settled in ROUTE 26 and at the\l"
+	.string "base of MT. SILVER…$"
 
 
 
@@ -434,7 +429,7 @@ end
 
 RocketHideoutJohto_Text_27:
 	.string "Everything's under control, sir! It's a\n"
-	.string "pleasure to have you on JOHTO!$"
+	.string "pleasure to have you in JOHTO!$"
 
 
 
@@ -480,8 +475,9 @@ release
 end
 
 RocketHideoutJohto_Text_30:
-	.string "JOHTO is yours, sir! Show all them, the\n"
-    .string "TEAM ROCKET power!$"
+	.string "JOHTO is yours, sir! Show all them the\n"
+    .string "power of TEAM ROCKET!$"
+
 
 
 
@@ -509,8 +505,8 @@ end
 
 RocketHideoutJohto_Text_32:
 .string "Working outside the law makes me feel\n"
-.string "so alive! Nobody cares about the limits,\l"
-.string "from here we'll build whatever we want!$"
+.string "so alive! Nobody cares about restrictions.\l"
+.string "From here, we'll build whatever we want!$"
 
 
 
@@ -523,7 +519,7 @@ end
 
 RocketHideoutJohto_Text_33:
 .string "Our own work! Our own work for and by\n"
-	.string "the TEAM ROCKET! That is the right way\l"
+	.string "TEAM ROCKET! This is the right way\l"
 	.string "to work!$"
 
 
@@ -536,16 +532,17 @@ release
 end
 
 RocketHideoutJohto_Text_34:
-.string "We've achieved that NON-LEGENDARY\n"
-	.string "POKÉMON, such as NIDOKING and\l"
-	.string "NIDOQUEEN, easily surpass the 600 BASE\l"
-	.string "STATS, a figure that was considered\l"
-	.string "impossible to exceed for any mortal\l"
+.string "We've made NON-LEGENDARY\n"
+	.string "POKÉMON like NIDOKING and\l"
+	.string "NIDOQUEEN exceed the 600-BASE\l"
+	.string "STAT limit, a figure once considered\l"
+	.string "impossible for any mortal\l"
 	.string "POKÉMON. The truth is that with\l"
-	.string "NIDOKING-X we did an extraordinary job,\l"
-	.string "thanks to its ADAPTABILITY, an ATTACK\l"
+	.string "NIDOKING-X, we did an extraordinary job.\l"
+	.string "Thanks to its ADAPTABILITY, an ATTACK\l"
 	.string "of 142 BASE and a SPEED of 125, it is a\l"
 	.string "true enemy-shredding machine.$"
+
 
 
 
@@ -609,7 +606,7 @@ RocketHideoutJohto_Text_TakeRalts3:
 .string "However, a colleague of mine who works\n"
 .string "at DEVON gave me a pair of PSYCHIC\l"
 .string "POKÉMON from HOENN. He said it was the\l"
-.string "ALAKAZAM from that region, I'd like a\l"
+.string "ALAKAZAM from that region. I'd like a\l"
 .string "ROCKET like you to have one.$"
 
 
@@ -622,7 +619,7 @@ RocketHideoutJohto_Text_MensajeRalts:
 RocketHideoutJohto_Text_19:
 .string "I've heard that RALTS has 2 final\n"
 .string "evolutions, a PHYSICAL offensive one\l"
-.string "and an SPECIAL offensive one.$"
+.string "and a SPECIAL offensive one.$"
 
 BaseRocketJohto_Tienda_Pokemon::
 lock

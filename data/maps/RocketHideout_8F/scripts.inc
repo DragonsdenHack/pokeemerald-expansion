@@ -998,7 +998,7 @@ RocketHideout_8F_Mision_Silph_text_10:
 
 RocketHideout_8F_Mision_Silph_text_11:
 	.string "Take this too, someone of your level\n"
-	.string "should be able to capture any POKÉMON\l"
+	.string "should be able to catch any POKÉMON\l"
 	.string "whenever you want: 50 ULTRA BALLS!$"
 
 RocketHideout_8F_Mision_Silph_text_12:
@@ -1041,7 +1041,7 @@ RocketHideout_8F_Mision_Silph_text_17:
 RocketHideout_8F_Mision_Silph_text_17.1:
 	.string "…since young, he was educated in the\n"
 	.string "art of training, for many, the strongest\l"
-	.string "and holiest type, showed an huge talent\l"
+	.string "and holiest type, showed a huge talent\l"
 	.string "for unleashing the maximum power of\l"
 	.string "DRAGONITE, considered the most\l"
 	.string "powerful NON-LEGENDARY POKÉMON,\l"
@@ -1078,9 +1078,9 @@ RocketHideout_8F_Mision_Silph_text_19:
 	.string "sacred and divine…$"
 
 RocketHideout_8F_Mision_Silph_text_20:
-	.string "He received information about the\n"
+	.string "He was warned about the\n"
 	.string "legendary LUGIA and HO-OH, possessing\l"
-	.string "a power nonexistent here in KANTO, but\l"
+	.string "a nonexistent power here in KANTO, but\l"
 	.string "he never even came close to finding\l"
 	.string "them.$"
 
@@ -1107,13 +1107,13 @@ RocketHideout_8F_Mision_Silph_text_22:
 	.string "POKÉMON.$"
 
 RocketHideout_8F_Mision_Silph_text_23:
-	.string "You know the rest of the history; with\n"
+	.string "The rest of the history is well known; with\n"
 	.string "the JOHTO BEASTS under his command, he\l"
 	.string "set out to invade KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_23.1:
 	.string "He brought on board an expert in\n"
-	.string "military tactics: LT. SURGE.The\l"
+	.string "military tactics: LT. SURGE. The\l"
 	.string "combination of these factors resulted\l"
 	.string "in unparalleled chaos in KANTO, those\l"
 	.string "beasts, now under LANCE's command,\l"
@@ -1163,7 +1163,7 @@ RocketHideout_8F_Mision_Silph_text_25.4:
 	.string "It was not easy, the results left\n"
 	.string "anomalies and deformities from what\l"
 	.string "was initially MEW. Retaining only 48% of\l"
-	.string "its overall base power, they only\l"
+	.string "its overall base power, it only\l"
 	.string "inherited the transformation ability of\l"
 	.string "the LEGENDARY POKÉMON, which proved\l"
 	.string "insufficient and led us to discard\l"
@@ -1409,10 +1409,10 @@ RocketHideout_8F_Mision_Silph_text_50:
 	.string "that we are finished.$"
 
 RocketHideout_8F_Mision_Silph_text_51:
-	.string "PROTON: a brilliant plan, sir.$"
+	.string "PROTON: A brilliant plan, sir.$"
 
 RocketHideout_8F_Mision_Silph_text_52:
-	.string "GIOVANNI: That is already in motion. At\n"
+	.string "GIOVANNI: Which is already in motion. At\n"
 	.string "this moment, the checkpoints with\l"
 	.string "SAFFRON will have been taken, leaving\l"
 	.string "our way to the city clear. You should\l"
@@ -1677,11 +1677,11 @@ RocketHideout_8F_Mision_Gimnasios_texto_1:
 	.string "BLUE: So you too, GIOVANNI has also\n"
 	.string "called ANDRA and me to be here. I hope\l"
 	.string "it's important because I only need one\l"
-	.string "more GYM BADGE to complete the 8.$"
+	.string "more GYM BADGE to have all of them.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_2:
 	.string "GIOVANNI: Alright, ANDRA, {PLAYER},\n"
-	.string "BLUE, as you know, we have the MASTER\l"
+	.string "As you know, we have the MASTER\l"
 	.string "BALL in our possession. With it, we can\l"
 	.string "capture any POKÉMON, including…{PAUSE 25} you\l"
 	.string "know who…$"
@@ -1777,7 +1777,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_16:
 RocketHideout_8F_Mision_Gimnasios_texto_17:
 	.string "Having been pushed to this extreme, all\n"
 	.string "that's left is to settle this by the\l"
-	.string "old-fashioned way, so a LEAGUE without\l"
+	.string "old school way. So a LEAGUE without\l"
 	.string "LEGENDARIES…$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_18:
@@ -1880,9 +1880,9 @@ RocketHideout_8F_Mision_Gimnasios_texto_33:
 
 RocketHideout_8F_Mision_Gimnasios_texto_34:
 	.string "ANDRA, {PLAYER}, show how far a\n"
-	.string "dedicated, disciplined, and committed a\l"
-	.string "ROCKET can go with their POKÉMON,\l"
-	.string "defeat all the KANTO GYM LEADERS, and I\l"
+	.string "dedicated, disciplined, and committed\l"
+	.string "ROCKET can go with their POKÉMON.\l"
+	.string "Defeat all the KANTO GYM LEADERS, and I\l"
 	.string "will give you the last BADGE just like I\l"
 	.string "did with BLUE.$"
 
@@ -2471,7 +2471,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6:
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7:
 	.string "Theoretically, there are 7 islands,\n"
-	.string "hence the name SEVEN ISLANDS. However,\l"
+	.string "hence the name 'SEVII'. However,\l"
 	.string "practically speaking, one could count\l"
 	.string "10 substantial landmasses. The eighth\l"
 	.string "is just south of TWO ISLAND, a ninth is\l"
@@ -2647,7 +2647,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_3:
 RocketHideout8F_Mision_Mansion_Oak_Text_4:
 	.string "EXECUTIVE PROTON, ADMIN. ANDRA, I need\n"
 	.string "to speak privately with {PLAYER}.\l"
-	.string "Step outside for a moment$"
+	.string "Step outside for a moment.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_5:
 	.string "GIOVANNI: So, OAK has challenged you to\n"
@@ -3106,7 +3106,7 @@ RocketHideout8F_Mision_Johto_Text_20:
 
 RocketHideout8F_Mision_Johto_Text_21:
 .string "I know you love mythology and\n"
-	.string "ANCESTRAL POKÉMONS, ANDRA, which is\l"
+	.string "ANCESTRAL POKÉMON, ANDRA, which is\l"
 	.string "why I am sending you to HOENN, we will\l"
 	.string "dust off that region's mysteries, which\l"
 	.string "are probably a lot.$"
@@ -3434,69 +3434,68 @@ end
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1:
 	.string "GIOVANNI: As I told you, ANDRA, the\n"
 	.string "RUINS OF ALPH must be under strict\l"
-	.string "vigilance, from right now.$"
+	.string "vigilance, as of now.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2:
 	.string "GIOVANNI: Do you realize the kind of\n"
 	.string "POKÉMON you've just faced? Our\l"
-	.string "scientists have estimated its SPECIAL\l"
-	.string "ATTACK to be at 190 BASE. Until now, we\l"
-	.string "believed that the DEOXYS' 180 were the\l"
-	.string "highest point possible, and not only\l"
-	.string "that, with just 50 in PHYSICAL ATTACK\l"
-	.string "it achieves around 660 BASE. There's no\l"
-	.string "doubt that this POKÉMON even\l"
-	.string "surpasses LEGENDARY POKÉMON like\l"
-	.string "LUGIA and HO-OH in numbers. The limits\l"
-	.string "we thought conventional POKÉMON could\l"
-	.string "reach have just expanded. The\l"
-	.string "information we'll obtain from this\l"
-	.string "POKÉMON will help us further perfect\l"
-	.string "the SPECIAL ATTACK of new MEWTWO\l"
-	.string "prototypes. Perhaps we'll even manage\l"
-	.string "to surpass those 190 BASE.$"
+	.string "scientists have estimated it to have\l"
+	.string "190 BASE SPECIAL ATTACK-far\l"
+	.string "outstripping that of the highest\l"
+	.string "recorded, DEOXYS' 180. Together with\l"
+	.string "its other STATS, it achieves a total of\l"
+	.string "660. There isn't a shred of doubt this\l"
+	.string "POKÉMON surpasses even LEGENDARY\l"
+	.string "POKÉMON like LUGIA and HO-OH in\l"
+	.string "numbers. The limits of conventional\l"
+	.string "POKÉMON have just been shattered, and\l"
+	.string "the information from this POKÉMON will\l"
+	.string "allow us to further perfect the\l"
+	.string "SPECIAL ATTACK of newer MEWTWO\l"
+	.string "prototypes. Perhaps, we'll even surpass\l"
+	.string "that BASE of 190 too.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_3:
 	.string "But we're not here for that. I've\n"
-	.string "already briefed ANDRA, and I've asked\l"
-	.string "her to be attentive to any strange\l"
-	.string "movements that may occur in RUINS OF\l"
-	.string "ALPH.$"
+	.string "already briefed ANDRA and asked her to\l"
+	.string "be keen to any peculiar activities in\l"
+	.string "the RUINS OF ALPH.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_4:
-	.string "We don't know what that TRAINER is\n"
-	.string "trying to do, but what he looks for must\l"
-	.string "be in that place.$"
+	.string "We don't know that TRAINER's aims, but\n"
+	.string "whatever he's after must be in there.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_5:
-	.string "However, we still need information, this\n"
+	.string "However, we still need information. This\n"
 	.string "is where I need your help, {PLAYER}.\l"
-	.string "You must visit the LAVENDER TOWN's cult\l"
-	.string "again, and explain the situation to the\l"
-	.string "LEADER. Perhaps he'll know what to do.$"
+	.string "You must pay a visit to that cult in\l"
+	.string "LAVENDER TOWN again and explain the\l"
+	.string "situation to the LEADER. Perhaps he'll\l"
+	.string "know what to do.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6:
-	.string "That's all for now, ARCHER and I are very\n"
-	.string "busy with all the points discussed in\l"
-	.string "GOLDENROD, but we won't hesitate to\l"
-	.string "intervene if necessary. I'll wait for\l"
-	.string "your results.$"
+	.string "That's all for now. ARCHER and I are\n"
+	.string "really busy with all the stuff that we\l"
+	.string "discussed back in GOLDENROD, although\l"
+	.string "we won't hesitate to intervene if\l"
+	.string "necessary. I'll be eager to hear about\l"
+	.string "you.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7:
-.string "ANDRA: At your command, sir!$"
+.string "ANDRA: Sir, yes, sir!$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
 	.string "You didn't tell me that guy had KYOGRE,\n"
-	.string "GROUDON and RAYQUAZA {PLAYER}, did\l"
-	.string "you really fight the three LEGENDARY\l"
+	.string "GROUDON, and RAYQUAZA, {PLAYER}! Did\l"
+	.string "you really face three LEGENDARY\l"
 	.string "POKÉMON from HOENN at once? Be really\l"
-	.string "careful, I've been studying the HOENN's\l"
-	.string "mythology, and the legend speaks of\l"
-	.string "even more powerful PRIMAL FORMS of\l"
-	.string "these LEGENDARIES, the ones that truly\l"
-	.string "created the land and the sea. I don't\l"
-	.string "know if that guy wants to see if the\l"
-	.string "legend is true, but keep it in mind.$"
+	.string "careful. I've been studying HOENN's\l"
+	.string "mythology, and there are legends about\l"
+	.string "even more powerful forms-the ones that\l"
+	.string "truly created the land and the sea-the\l"
+	.string "PRIMAL FORMs. I don't know if that guy\l"
+	.string "wants to see if the legend is true, but\l"
+	.string "keep it in mind.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1:
 face_right
@@ -3815,7 +3814,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_21:
 	.string "sent to our database, it will also be\l"
 	.string "recorded for your own use. You'll even\l"
 	.string "be able to see the BASE STATS if you\l"
-	.string "manage to capture the POKÉMON.$"
+	.string "manage to catch the POKÉMON.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_22:
 	.string "ANDRA: So this is what that spoiled\n"
@@ -4416,8 +4415,8 @@ RocketHideout_8F_Mision_Central_Energia_Texto_5:
 
 RocketHideout_8F_Mision_Central_Energia_Texto_6:
 	.string "It seems it can change its type\n"
-	.string "depending on the object it is equipped\l"
-	.string "with. Inside the top floors of KANTO\l"
+	.string "depending on the object it is holding\l"
+	.string "it. Inside the top floors of KANTO\l"
 	.string "RADIO TOWER, they will be sold, very\l"
 	.string "soon you will be able to enter,\l"
 	.string "{PLAYER}.$"

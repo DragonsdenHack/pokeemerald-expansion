@@ -65,19 +65,19 @@ emote_exclamation_mark
 step_end
 
 SlowpokeWellS1_Combate_Texto_1:
-	.string "SLOWBRO is an amazing POKÉMON, its\n"
-	.string "PHYSICAL DEFENSE is good, but did you\l"
-	.string "know that it can match CLOYSTER in\l"
-	.string "that regard? Few know because almost\l"
-	.string "no one is able to train a SLOWBRO to\l"
-	.string "that point.$"
+	.string "SLOWBRO's an amazing POKÉMON. It's\n"
+	.string "PHYSICAL DEFENSE is top-notch, but did\l"
+	.string "you know it can even match CLOYSTER\l"
+	.string "there? Few know because almost no one\l"
+	.string "is able to train a SLOWBRO to that\l"
+	.string "point.$"
 
 SlowpokeWellS1_Combate_Texto_2:
-	.string "It's a SLOWBRONITE, they are extremely\n"
-	.string "rare to see. If you have a SLOWBRO, this\l"
-	.string "item will unlock its full potential, and\l"
-	.string "it will match CLOYSTER in PHYSICAL\l"
-	.string "DEFENSE!$"
+	.string "It's a SLOWBRONITE. You'll find one once\n"
+	.string "in a blue moon, but if you have a\l"
+	.string "SLOWBRO, this'll unlock its full\l"
+	.string "potential. That's how it'll match\l"
+	.string "CLOYSTER's PHYSICAL DEFENSE!$"
 
 SlowpokeWellS1_Combate_Texto_3:
 .string "{PAUSE 15}…\n"
@@ -85,33 +85,33 @@ SlowpokeWellS1_Combate_Texto_3:
 
 SlowpokeWellS1_Combate_Texto_4:
 	.string "Did KURT send you to battle me? If you\n"
-	.string "defeat me, will you be able to face him?\l"
-	.string "It's strange, KURT is increasingly\l"
-	.string "disinterested in POKÉMON battles. He\l"
-	.string "must have seen something in you. My\l"
-	.string "POKÉMON team is simple, but very solid.$"
+	.string "defeat me, will he let you challenge him?\l"
+	.string "How curious. KURT's been steadily more\l"
+	.string "uninterested in battles. So he must've\l"
+	.string "seen something in you. My team's simple,\l"
+	.string "but I assure you it's fairly solid.$"
 
 SlowpokeWellS1_Combate_Texto_5:
 .string "So, are you ready?$"
 
 SlowpokeWellS1_Combate_Texto_6:
-	.string "Alright! You are going to need\n"
-	.string "something more than hitting hard to\l"
-	.string "break the shell of my POKÉMON.$"
+	.string "All right! You'll need more than just\n"
+	.string "brute strength to crack open my\l"
+	.string "POKÉMON's shell!$"
 
 SlowpokeWellS1_Combate_Texto_7:
 	.string "KURT wasn't wrong with you, that's for\n"
 	.string "sure.$"
 
 SlowpokeWellS1_Combate_Texto_8:
-	.string "Impressive,to be honest I'm grateful\n"
-	.string "that sometimes people like you appear,\l"
-	.string "despite KURT I had forgotten what a\l"
-	.string "real POKÉMON battle was like. I want you\l"
-	.string "to have this stone, I hope you\l"
-	.string "appreciate it. It's the third one I found\l"
-	.string "in the SLOWPOKE WELL in over 10 years!$"
+	.string "Impressive! To be honest, I'm grateful\n"
+	.string "people like you sometimes pop up. Like\l"
+	.string "KURT, I'd forgotten what a real POKÉMON\l"
+	.string "battle's like. I want you to have this\l"
+	.string "stone-and I hope you appreciate it. It's\l"
+	.string "only the third one I've found in the\l"
+	.string "past decade!$"
 
 SlowpokeWellS1_Combate_Texto_9:
-	.string "I understand, don't worry. I'll continue\n"
-	.string "here, watching SLOWPOKE.$"
+	.string "I understand. Don't you worry. I'll\n"
+	.string "continue here, watching SLOWPOKE.$"

@@ -14,10 +14,10 @@ release
 end
 
 Goldenrod_ShopP2_Text_2:
-	.string "That spoiled brat from the downstairs\n"
-	.string "apartment… All the POKÉMON he has are\l"
+	.string "That spoiled brat from the apartment\n"
+	.string "downstairs… All the POKÉMON he has are\l"
 	.string "bought… I hope he loses all his battles\l"
-	.string "for having them at 0 in EVs…$"
+	.string "for having them at 0 EVs…$"
 
 
 

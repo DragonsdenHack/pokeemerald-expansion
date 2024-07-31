@@ -44,5 +44,5 @@ end
 SevenIsland_Mart_Text_4:
 	.string "I have to fish on SEVEN ISLAND. It's the\n"
 	.string "one I need to complete my route\l"
-	.string "through ARCHI7. But first, I'm going to\l"
+	.string "through SEVII. But first, I'm going to\l"
 	.string "get a few POKé BALLS.$"

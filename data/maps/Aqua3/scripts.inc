@@ -308,7 +308,7 @@ Aqua3_Combate_Aquiles_Texto_8:
 	.string "my 20 years of travels. Where did you\l"
 	.string "find the strength to deal with this\l"
 	.string "ancestral power? My entire plan can't\l"
-	.string "fall apart just like this!$"
+	.string "fall apart just like that!$"
 
 Aqua3_Combate_Aquiles_Texto_9:
 	.string "????: It's already ruined, ARCHIE. You'll\n"

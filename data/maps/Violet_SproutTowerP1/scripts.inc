@@ -20,9 +20,9 @@ end
 VioletCity_SproutTowerP1_Text_3:
 	.string "I came from LAVENDER TOWN to pay my\n"
 	.string "respects at the towers of ECRUTEAK\l"
-	.string "CITY and VIOLET CITY, although it's\l"
-	.string "been a while; I won't be able to return\l"
-	.string "until the borders open…$"
+	.string "CITY and VIOLET CITY, though it's been\l"
+	.string "a while. I won't be able to return until\l"
+	.string "the borders open…$"
 
 
 

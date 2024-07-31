@@ -274,7 +274,7 @@ RockTunnel_2F_Combate_Miguel_Texto_6:
 	.string "wants, but he's socially inept, he would\l"
 	.string "accept any ideal you propose without\l"
 	.string "denying it, despite having the power of\l"
-	.string "his POKÉMONS, fortunately just a few\l"
+	.string "his POKÉMON, fortunately just a few\l"
 	.string "words claiming my ownership of those\l"
 	.string "two FOSSILS were enough, along with\l"
 	.string "telling him a few useful hints like where\l"
@@ -326,7 +326,7 @@ RockTunnel_2F_Combate_Miguel_Texto_13:
 	.string "knows all the tricks.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_14:
-	.string "(PROTON TOOK ALL POKÉMONS FROM\n"
+	.string "(PROTON TOOK ALL POKÉMON FROM\n"
 	.string "SCIENTIST MIGUEL).$"
 
 RockTunnel_2F_Combate_Miguel_Texto_15:

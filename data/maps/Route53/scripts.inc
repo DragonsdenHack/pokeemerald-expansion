@@ -14,9 +14,10 @@ release
 end
 
 Route53_Text_1:
-	.string "SAFFRON CITY is ridiculously far away,\n"
-	.string "the worst part will be when we have to\l"
-	.string "cross the mountains of ROUTE 26 and 27.$"
+	.string "SAFFRON CITY is ridiculously far away.\n"
+	.string "The worst part will be when we have to\l"
+	.string "cross the mountains of ROUTEs 26 and\l"
+	.string "27.$"
 
 
 
@@ -84,7 +85,7 @@ end
 
 Route53_7_Texto_1:
 	.string "There is still a lot of work to do to\n"
-	.string "reach SAFFRON! Come on, keep working!$"
+	.string "reach SAFFRON! Come on. Keep working!$"
 
 
 Route53_8::
@@ -106,11 +107,10 @@ release
 end
 
 Route53_9_Texto_1:
-.string "One… two…\n"
-	.string "One… two…\l"
-	.string "Patience and perseverance, you lower\l"
-	.string "your head, start digging, and boom!\l"
-	.string "SAFFRON in sight!$"
+	.string "One… two… One… two… Patience and\n"
+	.string "perseverance! You lower your head,\l"
+	.string "start digging, and boom! SAFFRON in\l"
+	.string "sight!$"
 
 
 Route53_EventScript_Obrero::

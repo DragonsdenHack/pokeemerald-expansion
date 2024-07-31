@@ -4884,7 +4884,7 @@ ResortGorgeus_Text_Pintora1Defeated:
 ResortGorgeus_Text_Pintora1PostBattle:
 	.string "The sky and the ocean are quite\n"
     .string "unstable. Their shifting expressions\l"
-    .string "are quite challenging to capture.$"
+    .string "are quite challenging to catch.$"
 
 
 ResortGorgeus_Text_Rica1Intro:
@@ -7923,8 +7923,8 @@ PowerPlant_Policia2PostBattle:
 
 
 PowerPlant_Text_Policia3Intro:
-	.string "All the traitors to the new order will be\n"
-	.string "silenced!$"
+	.string "All the new world order\n"
+	.string "traitors will be silenced!$"
 
 
 PowerPlant_Text_Policia3Defeated:
@@ -9454,7 +9454,7 @@ RocketHideoutViridian_Text_Rocket5Intro:
 	.string "From here, we control everything that\n"
 	.string "happens in the southwest of KANTO,\l"
 	.string "especially the new contenders for the\l"
-	.string "title of CHAMPION.$"
+	.string "CHAMPION title.$"
 
 
 RocketHideoutViridian_Text_Rocket5Defeated:
@@ -15335,7 +15335,7 @@ AzaleaCarbonS1_Text_ObreroIntro:
 
 
 AzaleaCarbonS1_Text_ObreroDefeated:
-	.string "Such a well-equipped team...$"
+	.string "Such a well-trained team...$"
 
 
 AzaleaCarbonS1_Text_ObreroPostBattle:
@@ -16640,7 +16640,7 @@ UndergroundPath_7F_Text_Septimo_MoteroPostBattle:
 	.string "pleased!$"
 
 UndergroundPath_7F_Text_Octavo_MoteroIntro:
-	.string "Respectfully, someone from ARCHI7\n"
+	.string "Respectfully, someone from SEVII\n"
 	.string "could never comprehend why we fight\l"
 	.string "for this place. I'll turn you into mush!$"
 
@@ -16938,7 +16938,7 @@ NeoRoute14_PokefanPostBattle:
 
 NeoRoute14_Text_Pokefan2Intro:
 	.string "Be aware that it was quite challenging\n"
-	.string "for me to capture my dear POKÉMON.$"
+	.string "for me to catch my dear POKÉMON.$"
 
 NeoRoute14_Text_Pokefan2Defeated:
 	.string "Auuuu!$"

@@ -9,7 +9,7 @@ release
 end
 
 SafariZone_House3_Text_1:
-	.string "How? Me giving for free the MT29,\n"
+	.string "How? Me giving for free the TM29,\n"
 	.string "PSYCHIC, to one of the very ROCKETS\l"
 	.string "who invaded us? In what world are you\l"
 	.string "living?$"

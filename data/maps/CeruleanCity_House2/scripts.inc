@@ -79,31 +79,30 @@ release
 end
 
 CeruleanCity_House2_Batalla_Montañero_Text_1:
-.string "It's over HIKER, this is what happens\n"
-	.string "when you are going to show off about\l"
-	.string "your exclusive TMs. Unfortunately for\l"
-	.string "you, that TM DIG would be pretty useful\l"
-	.string "for us. If you had been nice we wouldn't\l"
-	.string "have messed up your house. Now for\l"
-	.string "being like that we will steal all those\l"
-	.string "TMs. You are so possessive that you\l"
-	.string "don't want to share a few with us\l"
-	.string "when we asked gently.$"
+	.string "It's over, HIKER. This is just what\n"
+	.string "happens you go around showing off your\l"
+	.string "exclusive TMs. Too bad for you that TM\l"
+	.string "DIG happens to be pretty useful for us.\l"
+	.string "If you'd played nice, we wouldn't have\l"
+	.string "messed up your house. Now, for playing\l"
+	.string "hard to get, we'll just be taking all\l"
+	.string "those TMs you were being stingy with\l"
+	.string "when we'd asked nicely.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_2:
-.string "HIKER: I won't give you even one TM. If\n"
-	.string "we are nice with you, you abuse us, we\l"
-	.string "already know how you spend them. You\l"
-	.string "are not going to find the TMs because I\l"
-	.string "have them, you must beat me in combat.\l"
-	.string "What a pity that you are such weaklings,\l"
-	.string "my DIG will crush your poor EKANS and\l"
-	.string "RATTATA. Come on!$"
+	.string "HIKER: I won't hand over even a single\n"
+	.string "TM. If we go along with your words,\l"
+	.string "you'll abuse our kindness. We already\l"
+	.string "know how you'll use them. You won't find\l"
+	.string "the TMs because they're with me. You'll\l"
+	.string "have to beat me in battle. What a pity\l"
+	.string "you're such weaklings! My DIG will bury\l"
+	.string "your poor EKANS and RATTATA. C'mon!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_3:
-.string "And this street trash? Who are you?\n"
-	.string "Do you want to challenge me?\l"
-	.string "You will regret it!!$"
+	.string "And this street RATTATA? Who are you?\n"
+	.string "Wanna step up and face me? You'll\l"
+	.string "regret it!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
 .string "Oh…{PAUSE 20} No…{PAUSE 20} Please…{PAUSE 20}$"
@@ -114,30 +113,27 @@ CeruleanCity_House2_Batalla_Montañero_Text_5:
 	.string "your arrogance.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
-.string "What is your name?\n"
-	.string "{PLAYER}?\l"
-	.string "Wow!\l"
-	.string "This HIKER had 20 TMs DIG!\l"
-	.string "And he wanted it all for himself!\l"
-    .string "Due to you we were able to get them. Be\l"
-	.string "sure that I will talk to PETREL about\l"
-	.string "this. Take this, you deserve it.$"
+	.string "What's your name again? {PLAYER}?\n"
+	.string "Wow! This HIKER had twenty TM DIGs! And\l"
+	.string "he was gonna hog it all! Thanks to you,\l"
+	.string "we got to nab ‘em. Know that we'll put in\l"
+	.string "a good word with PETREL about this.\l"
+	.string "Take this. You deserve it.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_7:
-.string "He had this other item, which seems to\n"
-	.string "be to raise the power of GROUN TYPE\l"
-	.string "moves. That rascal for sure used it to\l"
-	.string "do more damage with DIG. Take it for\l"
-	.string "yourself.$"
+	.string "He had this other item too-seemed to\n"
+	.string "give more oomph to GROUND moves. That\l"
+	.string "little rascal definitely used it to\l"
+	.string "strengthen his DIG. Here. Take it.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_8:
-.string "That's all comrade, with these TMs we\n"
-	.string "will be able to do improvements on our\l"
-	.string "investigations in closed places and get\l"
-	.string "out from caves in an easy way. You\l"
-	.string "collaborated by supplying resources to\l"
-	.string "our organization. Good Job. See you\l"
-	.string "later in the BARRACK, you know where.$"
+	.string "That's all for now, comrade. With these\n"
+	.string "TMs, we'll be able to dig deeper in\l"
+	.string "enclosed spaces and bail out of caves\l"
+	.string "pretty handily. You collaborated in\l"
+	.string "supplying resources to our\l"
+	.string "organization. Good job. Catch you in the\l"
+	.string "BARRACKs. You know the one.$"
 
 CeruleanCity_House2_Batalla_Montañero_move1:
 walk_in_place_right

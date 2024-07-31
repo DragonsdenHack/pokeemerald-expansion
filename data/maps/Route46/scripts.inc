@@ -19,10 +19,9 @@ release
 end
 
 Route46_Text_3:
-	.string "There are a big variety of POKÉMON\n"
-	.string "around these routes, you should be\l"
-	.string "alert if you want to see all the\l"
-	.string "POKÉMON.$"
+	.string "There are a wide variety of POKÉMON\n"
+	.string "around these routes. Stay keen if you\l"
+	.string "want to see them all.$"
 
 
 
@@ -72,7 +71,7 @@ end
 Route46_SudowoodoRest_Text:
 	.string "…\n"
 	.string "…\l"
-	.string "(It's a POKÉMON, it seems\l"
+	.string "(It's a POKÉMON. It seems\l"
 	.string "to be resting)$"
 
 

@@ -24,7 +24,7 @@ end
 
 Pass_Route36_Text_2:
 	.string "It is said that a contest will be\n"
-	.string "organized here, will it be fun?$"
+	.string "organized here. Will it be fun?$"
 
 
 
@@ -36,7 +36,6 @@ release
 end
 
 Pass_Route36_Text_3:
-	.string "The POKÉMON world is so big. And there\n"
-	.string "are still a lot of things that we are\l"
-	.string "ignoring. But I know more things than\l"
-	.string "you do!$"
+	.string "The POKÉMON world is significant, and we\n"
+	.string "still ignore many things. But I know\l"
+	.string "more stuff than you do!$"

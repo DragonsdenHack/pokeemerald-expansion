@@ -49,7 +49,7 @@ SafariZone_House5_Combate_Domador_Texto_1:
 	.string "it is just for the ones who paid the\l"
 	.string "entrance. Anyway, I would never give\l"
 	.string "the SAFARI prize to someone who wears\l"
-	.string "as a TEAM ROCKET member, moreover, if I\l"
+	.string "a team rocket cosplay. Moreover, if I\l"
 	.string "were the man in charge I would have\l"
 	.string "forbidden you to enter here even if you\l"
 	.string "pay the entrance, there is your answer\l"

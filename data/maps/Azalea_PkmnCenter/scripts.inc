@@ -29,9 +29,9 @@ end
 AzaleaPkmnCenter_Text_2:
 	.string "KURT doesn't want to admit it, but he's\n"
 	.string "by far the greatest BUG-TYPE\l"
-	.string "specialist in JOHTO. Unlike that young\l"
-	.string "kid BUGSY, he prefers to keep hidden his\l"
-	.string "skills as a TRAINER.$"
+	.string "specialist in JOHTO. Unlike that\l"
+	.string "youngster BUGSY, he's not all showy\l"
+	.string "with his prowess as a TRAINER.$"
 
 
 
@@ -78,21 +78,21 @@ AzaleaPkmnCenter_EventScript_TakeWimpod::
 
 
 AzaleaPkmnCenter_Text_TakeWimpod:
-   .string "A newcomer, welcome!$"
+   .string "A newcomer. Welcome!$"
 
 AzaleaPkmnCenter_Text_TakeWimpod2:
-	.string "You must know that this place and the\n"
-	.string "ILEX FOREST were once united. It was\l"
-	.string "all vegetation, children played and\l"
-	.string "lived in the midst of the forest,\l"
-	.string "surrounded by BUG-TYPE POKÉMON.$"
+	.string "You must know that this place and ILEX\n"
+	.string "FOREST were once united. It was all\l"
+	.string "vegetation. Children played and lived in\l"
+	.string "the midst of the forest, surrounded by\l"
+	.string "BUG-TYPE POKÉMON.$"
 
 AzaleaPkmnCenter_Text_TakeWimpod3:
-	.string "In that environment, KURT grew up, who\n"
-	.string "still remains active in his GYM past 60\l"
-	.string "years old. Thanks to his travels he\l"
+	.string "KURT grew in that environment, and now\n"
+	.string "he's still active in his GYM in his senior\l"
+	.string "years. Thanks to his travels, he's\l"
 	.string "brought several POKÉMON from other\l"
-	.string "regions, and gave some to his closest\l"
+	.string "regions and given some to his closest\l"
 	.string "associates. I want you to have one too.$"
 
 AzaleaPkmnCenter_Text_MensajeWimpod:

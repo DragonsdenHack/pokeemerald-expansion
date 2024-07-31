@@ -40,6 +40,5 @@ release
 end
 
 PassIlexForest_Text_3:
-.string "The ILEX FOREST is very big.\n"
-.string "Be careful!\l"
-.string "Don't get lost!$"
+	.string "ILEX FOREST is very big. Be careful!\n"
+	.string "Don't get lost!$"

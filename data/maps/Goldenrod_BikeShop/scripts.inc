@@ -9,9 +9,9 @@ release
 end
 
 Goldenrod_bikeshop_Text_1:
-	.string "Bikes? I'm sorry sir, we just opened and\n"
-	.string "we don't have a lot of inventory. For now\l"
-	.string "we only sell motorcycles.$"
+	.string "Bikes? I'm sorry, sir. We just opened and\n"
+	.string "we don't have a lot of inventory. For\l"
+	.string "now, we only sell motorcycles.$"
 
 
 
@@ -24,7 +24,7 @@ end
 
 Goldenrod_bikeshop_Text_2:
 	.string "I hope they open a CYCLING ROAD in\n"
-	.string "JOHTO, can you imagine?$"
+	.string "JOHTO. Can you imagine it?$"
 
 
 

@@ -9,9 +9,9 @@ release
 end
 
 CeruleanCity_House3_Text_1:
-.string "Be careful with what you're doing,\n"
-	.string "ROCKET. Here in CERULEAN CITY, we have\l"
-	.string "the police just around the corner.$"
+	.string "Watch what you do, ROCKET. Here in\n"
+	.string "CERULEAN CITY, we've got POLICE around\l"
+	.string "every corner.$"
 
 
 
@@ -23,11 +23,11 @@ release
 end
 
 CeruleanCity_House3_Text_2:
-.string "Long ago, far away from here, in FLOE\n"
-	.string "ISLAND, you could capture JYNX inside\l"
-	.string "the ICEFALL CAVE. Now, I would trade\l"
-	.string "one of those for a POLIWHIRL. I know\l"
-	.string "it's a bad deal, but I no longer have the\l"
-	.string "energy to capture a POLIWAG and evolve\l"
-	.string "it on my own {PAUSE 15}…{PAUSE 15}…{PAUSE 15} …{PAUSE 15} How? You? I would\l"
-	.string "never do business with a ROCKET!$"
+	.string "Long ago, far off in FLOE ISLAND, you\n"
+	.string "could capture JYNX in ICEFALL CAVE.\l"
+	.string "Nowadays, I'd trade one of those for a\l"
+	.string "POLIWHIRL. It's a bad deal, I know, but I\l"
+	.string "just don't have the energy to catch a\l"
+	.string "POLIWAG and evolve it myself… … … How?\l"
+	.string "You? I'd never do business with a\l"
+	.string "ROCKET!$"

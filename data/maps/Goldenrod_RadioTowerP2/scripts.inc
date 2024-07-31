@@ -10,7 +10,7 @@ end
 
 Goldenrod_RadioTowerP2_Text_1:
 	.string "Our work will even affect the color of\n"
-	.string "POKÉMON, mark my words!$"
+	.string "POKÉMON. Mark my words!$"
 
 
 
@@ -38,7 +38,7 @@ end
 Goldenrod_RadioTowerP2_Text_3:
 	.string "The radio still has a long way to go to\n"
 	.string "be heard throughout JOHTO and KANTO,\l"
-	.string "but mark my words, we'll do it!$"
+	.string "but mark my words. We'll do it!$"
 
 
 
@@ -77,10 +77,10 @@ end
 Goldenrod_RadioTowerP2_Text_7:
 	.string "Thanks to the MAGNET TRAIN, we'll be\n"
 	.string "able to cross JOHTO and reach the\l"
-	.string "center of KANTO in just 15 minutes.\l"
-	.string "Imagine it! From the RADIO TOWER to the\l"
-	.string "SILPH CO. headquarters in a quarter of\l"
-	.string "an hour!$"
+	.string "center of KANTO in just fifteen\l"
+	.string "minutes. Imagine it! From the RADIO\l"
+	.string "TOWER to the SILPH CO. headquarters in\l"
+	.string "a quarter of an hour!$"
 
 
 

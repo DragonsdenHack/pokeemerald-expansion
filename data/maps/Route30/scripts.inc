@@ -24,10 +24,9 @@ release
 end
 
 Route30_Text_4:
-	.string "I would really like that the GYM LEADERS\n"
-	.string "of JOHTO back to be valid for the\l"
-	.string "POKÉMON LEAGUE, since the war, they can\l"
-	.string "barely be seen.$"
+	.string "I'd like the GYM LEADERs of JOHTO to be\n"
+	.string "valid for the POKÉMON LEAGUE. Yet since\l"
+	.string "the war, they're hardly around.$"
 
 
 
@@ -39,9 +38,9 @@ release
 end
 
 Route30_5_Texto_1:
-	.string "I will train my PIDGEY and someday I will\n"
-	.string "be able to fight in this route against a\l"
-	.string "TRAINER.$"
+	.string "I'll train my PIDGEY, and someday, I'll be\n"
+	.string "able to battle against another TRAINER\l"
+	.string "here.$"
 
 
 
@@ -65,7 +64,7 @@ end
 Route30_Text_8:
 .string "The DARK CAVE…\n"
 .string "If any of my POKÉMON could\l"
-.string "use flash, I would explore it.$"
+.string "use FLASH, I'd explore it.$"
 
 
 
@@ -91,11 +90,10 @@ release
 end
 
 Route30_Text_12:
-	.string "It is said that if you butt your head to\n"
-	.string "the trees, a wild HERACROSS would\l"
-	.string "appear…{PAUSE 25} But I think this is not working.\l"
-	.string "Maybe a POKÉMON should do it instead of\l"
-	.string "me…$"
+	.string "People've been saying if you HEADBUTT a\n"
+	.string "tree, a wild HERACROSS would drop… But\l"
+	.string "my head's saying I oughta get a POKÉMON\l"
+	.string "to do it instead of me…$"
 
 
 
@@ -112,10 +110,10 @@ release
 end
 
 Route30_Text_14:
-	.string "I love walking around here in the\n"
-	.string "morning, this place's tranquility is\l"
-	.string "unique. My husband prefers to\l"
-	.string "contemplate the landscape from above.$"
+	.string "I love taking a stroll here in the\n"
+	.string "morning. This place has a unique\l"
+	.string "tranquility. My husband prefers to mull\l"
+	.string "over the landscape from above.$"
 
 
 
@@ -202,28 +200,25 @@ release
 end
 
 Route30_Anciano_Togepi_Texto_1:
-	.string "I love to move up here, and watch all\n"
-	.string "everything that happens on the ROUTE\l"
-	.string "since this position.$"
+	.string "I love heading up here and watching all\n"
+	.string "the bustling across the ROUTE.$"
 
 Route30_Anciano_Togepi_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route30_Anciano_Togepi_Texto_3:
-.string "Hmm?\n"
-	.string "Nothing is happening here right now?\l"
-	.string "Take a look, younger!$"
+	.string "Hmm? Nothing's happening here now? Take\n"
+	.string "a closer look, youngster!$"
 
 Route30_Anciano_Togepi_Texto_4:
 	.string "Witness the gradual growth of new\n"
 	.string "fruits on the KELPSY BERRY plant.$"
 
 Route30_Anciano_Togepi_Texto_5:
-	.string "How that SPEAROW tries to search for\n"
-	.string "prey in the midst of tall grass, and how\l"
-	.string "the WEEDLE and CATERPIE disappear\l"
-	.string "around it.$"
+	.string "How that SPEAROW predates in the midst\n"
+	.string "of the tall grass and how the WEEDLE\l"
+	.string "and CATERPIE tuck themselves away.$"
 
 Route30_Anciano_Togepi_Texto_6:
 	.string "See how the young TRAINER and his\n"

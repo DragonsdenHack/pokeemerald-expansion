@@ -18,10 +18,11 @@ release
 end
 
 VioletCity_SproutTower_Text_1:
-	.string "Legend has it that the pillar\n"
-	.string "supporting this tower is the stem of an\l"
-	.string "enormous BELLSPROUT that measured 100\l"
-	.string "feets in height. Do you think it is true?$"
+	.string "In this place, we venerate not only\n"
+	.string "BELLSPROUT, but also the art of\l"
+	.string "POKÉMON battling. If you think you have\l"
+	.string "what is needed, climb to the top floor\l"
+	.string "and see for yourself.$"
 
 
 
@@ -89,9 +90,8 @@ release
 end
 
 VioletCity_SproutTower_Text_6:
-	.string "The enormous pillar that holds this\n"
-	.string "tower is based on a BELLSPROUT's stem,\l"
-	.string "its grand flexibility protects the\l"
-	.string "TOWER, even from earthquakes. If this\l"
-	.string "tower is still standing up today, it is\l"
-	.string "due to that.$"
+	.string "The enormous pillar holding this tower\n"
+	.string "is based on a BELLSPROUT's stem. Its\l"
+	.string "grand flexibility protects the TOWER\l"
+	.string "even from earthquakes. If this tower is\l"
+	.string "still standing today, it's due to that.$"

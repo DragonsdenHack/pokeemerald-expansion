@@ -146,7 +146,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_1:
 	.string "????: This is our last chance BLAINE,\n"
 	.string "you know where it hides, now the TEAM\l"
 	.string "ROCKET has the MASTER BALL, only left\l"
-	.string "to capture it and we will finish this!$"
+	.string "to catch it and we will finish this!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_2:
 	.string "BLAINE: It is not that easy, FUJI, OAK\n"
@@ -154,14 +154,13 @@ PokemonMansion_4F_Blaine_Fuji_Texto_2:
 	.string "he wont tell LANCE that the TEAM\l"
 	.string "ROCKET plans something, when he\l"
 	.string "discovers that you are going in search\l"
-	.string "of our creation? Also, I had understood\l"
-	.string "that the invasion at SILPH was a\l"
-	.string "failure.$"
+	.string "of our creation? Also, I thought SILPH\l"
+	.string "invasion at SILPH was a failure.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_3:
 	.string "FUJI: That is what they had made\n"
 	.string "believe to the people, one of the\l"
-	.string "ROCKET EXECUTIVES; PROTON has\l"
+	.string "ROCKET EXECUTIVES; PROTON, has\l"
 	.string "informed me about what just happened\l"
 	.string "there, apparently GIOVANNI had\l"
 	.string "convinced the PRESIDENT to rebel\l"
@@ -184,15 +183,15 @@ PokemonMansion_4F_Blaine_Fuji_Texto_4:
 PokemonMansion_4F_Blaine_Fuji_Texto_5:
 	.string "BLAINE: Everybody who wants to rebel\n"
 	.string "against LANCE right now is a suicide, he\l"
-	.string "has too much power despite he doesnt\l"
-	.string "know about MEWTWO's existence, he has\l"
-	.string "made honor to his SACRED POKÉMONS\l"
-	.string "TRAINER.$"
+	.string "has too much power despite he doesn't\l"
+	.string "know about MEWTWO's existence; he has\l"
+	.string "made honor to his SACRED POKÉMON\l"
+	.string "TRAINER fame.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_6:
 	.string "FUJI: GIOVANNI has technology to clone\n"
-	.string "the KANTO's BIRDS, also BLAINE, maybe\l"
-	.string "we wouldn't have a chance like this in a\l"
+	.string "the KANTO's BIRDS. Maybe we wouldn't\l"
+	.string "have a chance like this in a\l"
 	.string "long time, you've always been someone\l"
 	.string "who can be reasoned with, what's\l"
 	.string "holding you back from trying?$"

@@ -54,10 +54,10 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_4:
-.string "If that would depend on me, I would ban\n"
-	.string "you from even entering POKÉMON\l"
-	.string "CENTERS, you ROCKETs don't deserve\l"
-	.string "even essential services.$"
+	.string "If it were up to me, I'd ban you from\n"
+	.string "stepping foot in POKÉMON CENTERs. You\l"
+	.string "ROCKETs don't deserve even essential\l"
+	.string "services.$"
 
 
 

@@ -261,7 +261,7 @@ PewterCity_Museum_1F_Miguel_Texto_10:
 	.string "to suffer {PLAYER}!$"
 
 PewterCity_Museum_1F_Miguel_Texto_11:
-	.string "But my POKÉMONS are even stronger!!$"
+	.string "But my POKÉMON are even stronger!!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
 	.string "S.MIGUEL: Grrrr…{PAUSE 15} So it was not enough, I\n"
@@ -269,14 +269,14 @@ PewterCity_Museum_1F_Miguel_Texto_12:
 	.string "time.$"
 
 PewterCity_Museum_1F_Miguel_Texto_13:
-	.string "PETREL: Take away his POKÉMONS!$"
+	.string "PETREL: Take away his POKÉMON!$"
 
 PewterCity_Museum_1F_Miguel_Texto_14:
 .string "S.MIGUEL USED ESCAPE ROPE!$"
 
 PewterCity_Museum_1F_Miguel_Texto_15:
 	.string "PETREL: Damn scientist. The next time\n"
-	.string "we won't take away his POKÉMONS, we will\l"
+	.string "we won't take away his POKÉMON, we will\l"
 	.string "take him directly to the jail so that\l"
 	.string "way he doesn't cause any more trouble.$"
 
@@ -456,8 +456,8 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_3:
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_4:
 	.string "The CHOICE BAND boosts a 50% the\n"
-	.string "physical attack of the POKÉMON that it\l"
-	.string "is equipped with, but at the cost of\l"
+	.string "physical attack of the POKÉMON that\l"
+	.string "it's holding it. But at the cost of\l"
 	.string "restricting it to a single move, anyway,\l"
 	.string "who cares about that restriction when\l"
 	.string "it allows you to sweep everything in one\l"

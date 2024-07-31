@@ -772,7 +772,7 @@ Culto_S3_Batalla_Texto_8:
 Culto_S3_Batalla_Texto_9:
 	.string "I am aware of what happens on the\n"
 	.string "outside, CHAMPION. From here, we see\l"
-	.string "everything. We are cognizant of the\l"
+	.string "everything. We are aware about the\l"
 	.string "situation through which KANTO has\l"
 	.string "passed and of LANCE's downfall. What\l"
 	.string "you cannot see is your limited mindset.$"

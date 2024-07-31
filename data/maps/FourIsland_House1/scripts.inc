@@ -67,7 +67,7 @@ FourIsland_House1_Entrenador_Especial_Texto_3:
 	.string "The ROCKY HELMET subtracts 1/6 of HP\n"
 	.string "from any opposing POKÉMON that strikes\l"
 	.string "us with contact moves while we have\l"
-	.string "this item equipped. When combined with\l"
+	.string "this item holding. When combined with\l"
 	.string "abilities like ROUGH SKIN or IRON BARBS,\l"
 	.string "it generates quite substantial damage\l"
 	.string "simply for enduring the hit. Can you\l"

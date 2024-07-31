@@ -76,8 +76,8 @@ UnionCave_Salmuera_Texto_1.1:
 	.string "BRINE from the fisherman!!$"
 
 UnionCave_Salmuera_Texto_2:
-	.string "When the opponent's HP falls below half,\n"
-	.string "BRINE even surpasses HYDRO PUMP\l"
-	.string "potency. Use it wisely!$"
+	.string "When the opponent's HP splashes below\n"
+	.string "half, BRINE even washes out HYDRO\l"
+	.string "PUMP's potency. Use it wisely!$"
 
 

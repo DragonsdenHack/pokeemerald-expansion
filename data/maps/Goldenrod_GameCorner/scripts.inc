@@ -73,7 +73,7 @@ end
 
 Goldenrod_GameCorner_Text_7:
 	.string "Damn… CYNDAQUIL keeps increasing its\n"
-	.string "value in COINS, I think it's because\l"
+	.string "value in COINS. I think it's because\l"
 	.string "there are fewer and fewer in the wild.$"
 
 
@@ -86,7 +86,7 @@ release
 end
 
 Goldenrod_GameCorner_Text_8:
-.string "Living is a game.\n"
+.string "Life is a game.\n"
 .string "And I'll play until I can't anymore!$"
 
 
@@ -100,7 +100,7 @@ release
 end
 
 Goldenrod_GameCorner_Text_9:
-	.string "I don't care if I win or lose, I have so\n"
+	.string "I don't care if I win or lose. I have so\n"
 	.string "much money that I don't care anymore. I\l"
 	.string "can buy everything, but nothing at the\l"
 	.string "same time!$"

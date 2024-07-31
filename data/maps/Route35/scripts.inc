@@ -14,9 +14,9 @@ release
 end
 
 Route35_Text_2:
-	.string "This route is often used for training by\n"
-	.string "the GOLDENROD police. Those KANTO\l"
-	.string "ARCANINE are quite imposing!$"
+	.string "GOLDENROD police often use this route\n"
+	.string "for training. Those KANTO ARCANINE are\l"
+	.string "pretty imposing!$"
 
 
 

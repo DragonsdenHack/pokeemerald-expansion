@@ -14,8 +14,9 @@ release
 end
 
 Goldenrod_RadioTower_Text_1:
-	.string "Welcome to RADIO TOWER, gentleman. The\n"
-	.string "LUCKY NUMBER SHOW is not available yet.$"
+	.string "Welcome to the RADIO TOWER, gentleman.\n"
+	.string "The LUCKY NUMBER SHOW is not available\l"
+	.string "yet.$"
 
 
 
@@ -40,8 +41,8 @@ release
 end
 
 Goldenrod_RadioTower_Text_3:
-	.string "The RADIO TOWER is enormous, but it is\n"
-	.string "hard to get lost here, everything is so\l"
+	.string "The RADIO TOWER is enormous, but it's\n"
+	.string "hard to get lost here. Everything is so\l"
 	.string "well-organized.$"
 
 
@@ -69,11 +70,11 @@ release
 end
 
 Goldenrod_RadioTower_Text_5:
-	.string "We have learned from what happened to\n"
+	.string "We've learned from what happened to\n"
 	.string "SILPH. An assault like the one that\l"
 	.string "occurred there will not happen in a\l"
-	.string "place like this. And certainly not by\l"
-	.string "those ROCKET!$"
+	.string "place like this. And certainly not at\l"
+	.string "the hands of those ROCKETs!$"
 
 
 
@@ -99,7 +100,7 @@ release
 end
 
 Goldenrod_RadioTower_Text_7:
-	.string "The radio shows… The POKÉMON TALK… The\n"
+	.string "The radio shows… POKÉMON TALK… The\n"
 	.string "songs from some DJ… All of that is just\l"
 	.string "a facade, trust me. In this building, we\l"
 	.string "deal with much more important matters\l"
@@ -115,7 +116,7 @@ release
 end
 
 Goldenrod_RadioTower_Text_8:
-	.string "The stocks of RADIO TOWER will rise\n"
+	.string "The stocks of the RADIO TOWER will rise\n"
 	.string "exponentially in the next two years,\l"
 	.string "trust me. Invest in them!$"
 
@@ -131,8 +132,8 @@ end
 Goldenrod_RadioTower_Text_9:
 	.string "They say there's a BIKE SHOP in KANTO\n"
 	.string "that sells them for 1 MILLION POKÉ. I'd\l"
-	.string "like to go there and get one, it would\l"
-	.string "make me stand out from the crowd.$"
+	.string "like to go there and get one. It'd make\l"
+	.string "me stand out from the crowd.$"
 
 
 
@@ -248,24 +249,24 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_1:
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_2:
 	.string "I see you're in great shape, though I'm\n"
-	.string "not surprised, strolling around JOHTO\l"
+	.string "not surprised. Strolling around JOHTO\l"
 	.string "does everyone good.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_3:
 	.string "There's a lot to do in GOLDENROD CITY,\n"
 	.string "isn't there? The truth is, it offers\l"
 	.string "more possibilities than any other city\l"
-	.string "in KANTO, and it's because of that, and\l"
+	.string "in KANTO, and it's because of that and\l"
 	.string "your great service already providing\l"
-	.string "data on 2 DEEP BOND POKÉMON, that\l"
+	.string "data on two DEEP BOND POKÉMON that\l"
 	.string "GIOVANNI has asked me to give you this.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_4:
-	.string "(YOU HAVE JUST EARNED 500000 POKÉ)$"
+	.string "(YOU HAVE JUST EARNED 500,000 POKÉ)$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_5:
-	.string "We're not in CELADON, here you can buy\n"
-	.string "and spend COINS, a ROCKET of your\l"
+	.string "We're not in CELADON. Here, you can buy\n"
+	.string "and spend COINS. A ROCKET of your\l"
 	.string "hierarchy should have access to all the\l"
 	.string "offerings of GOLDENROD.$"
 
@@ -275,9 +276,9 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_6:
 	.string "with me.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_7:
-	.string "ARCHER: Okay, with this, you'll be able\n"
+	.string "ARCHER: Okay. With this, you'll be able\n"
 	.string "to go up to the upper floors and gain\l"
-	.string "access to the DIRECTOR'S office, which\l"
+	.string "access to the DIRECTOR's office, which\l"
 	.string "is why we're here.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_8:
@@ -290,11 +291,11 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_8:
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_9:
 	.string "GIOVANNI wants us to brief the\n"
-	.string "DIRECTOR on the real situation in\l"
-	.string "KANTO, and thereby convince him to call\l"
-	.string "for a large meeting to address once and\l"
-	.string "for all what to do with the destiny of\l"
-	.string "these two regions.$"
+	.string "DIRECTOR on the real situation in KANTO\l"
+	.string "and thereby convince him to call for a\l"
+	.string "large meeting to address once and for\l"
+	.string "all what to do with the destiny of these\l"
+	.string "two regions.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_10:
 	.string "You made the current situation\n"
@@ -303,9 +304,9 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_10:
 	.string "importance.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_11:
-	.string "I'll be waiting for you in the DIRECTOR'S\n"
+	.string "I'll be waiting for you in the DIRECTOR's\n"
 	.string "office. Pleasure to see you again,\l"
-	.string "ADMIN.CHIEF {PLAYER}.$"
+	.string "CHIEF ADMIN. {PLAYER}.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Move_1:
 emote_exclamation_mark

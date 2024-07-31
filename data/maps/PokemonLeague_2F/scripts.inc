@@ -85,7 +85,7 @@ PokemonLeague_2F_Combate_Bruno_Texto_1:
 	.string "the CHAMPION title, someone like you\l"
 	.string "will never be a CHAMP, all you've done\l"
 	.string "with this battle is delaying the\l"
-	.string "inevitable, keep going ahead, every\l"
+	.string "inevitable. Keep going ahead, every\l"
 	.string "step you take gets you closer to your\l"
 	.string "end, ROCKET.$"
 

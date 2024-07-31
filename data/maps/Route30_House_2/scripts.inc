@@ -41,7 +41,7 @@ Route30_House_2_Documento_Texto_2:
 Route30_House_2_Documento_Texto_3:
 	.string "We still don't know its nature, but it\n"
 	.string "has been shown to increase GYARADOS's\l"
-	.string "base power when used as an equipped\l"
+	.string "base power when used as an held\l"
 	.string "item.$"
 
 Ruta_Sur_Malva_Gordo::

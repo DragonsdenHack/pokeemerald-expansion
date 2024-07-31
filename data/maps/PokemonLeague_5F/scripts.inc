@@ -402,8 +402,8 @@ PokemonLeague_5F_Azul_Rojo_Texto_22:
 	.string "shame to OAK and your family.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_23:
-	.string "COP: BRUNO has informed us that who\n"
-	.string "you two are, both things, the POKÉMON\l"
+	.string "COP: BRUNO has informed us about who\n"
+	.string "you truly are. Both things, the POKÉMON\l"
 	.string "LEAGUE and your freedom, ends right\l"
 	.string "here and now, we have more than enough\l"
 	.string "evidence to prosecute you for life for\l"

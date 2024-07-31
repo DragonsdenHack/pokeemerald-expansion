@@ -864,7 +864,7 @@ release
 end
 
 BillGarden_Poste_Texto_2:
-	.string "It is not allowed to capture POKÉMON\n"
+	.string "It is not allowed to catch POKÉMON\n"
 	.string "without explicit permission from\l"
 	.string "MR.BILL.$"
 
