@@ -138,3 +138,77 @@ CinnabarIsland_Escena_8_Texto_2:
 	.string "momentos está muy ocupado, no puedo\l"
 	.string "darte detalles, pero debes dirigirte al\l"
 	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"
+
+CinnabarIsland_Oak::
+lock
+msgbox CinnabarIsland_Oak_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_10 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_11 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_12 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Oak_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+CinnabarIsland_Oak_Texto_1:
+	.string "… …$"
+
+CinnabarIsland_Oak_Texto_2:
+	.string "Me alegra ver a jóvenes aspirantes que\n"
+	.string "llenan de vida esta región.$"
+
+CinnabarIsland_Oak_Texto_3:
+	.string "El mundo es vuestro; tienes todo lo\n"
+	.string "necesario para competir en la actual\l"
+	.string "LIGA de KANTO : ignorancia e inmadurez.$"
+
+CinnabarIsland_Oak_Texto_4:
+	.string "La ignorancia es un privilegio\n"
+	.string "a día de hoy.$"
+
+CinnabarIsland_Oak_Texto_5:
+	.string "Sin ella, sería imposible conservar la\n"
+	.string "cordura en los tiempos que corren,\l"
+	.string "¡menos aún presentarse al CAMPEONATO\l"
+	.string "de la LIGA!$"
+
+CinnabarIsland_Oak_Texto_6:
+	.string "Y la inmadurez... ¡con la voluntad de la\n"
+	.string "inmadurez se pueden lograr grandes\l"
+	.string "cosas!$"
+
+CinnabarIsland_Oak_Texto_7:
+	.string "… …$"
+
+CinnabarIsland_Oak_Texto_8:
+	.string "¿Burlarme de ti? Hablaba en serio.$"
+
+CinnabarIsland_Oak_Texto_9:
+	.string "Mmm...$"
+
+CinnabarIsland_Oak_Texto_10:
+	.string "Así que 6 medallas. Experiencia\n"
+	.string "suficiente como para no desmoralizarte\l"
+	.string "si soy algo más explícito.$"
+
+CinnabarIsland_Oak_Texto_11:
+	.string "En tu faceta de ENTRENADOR, te envidio.\n"
+	.string "Sabiendo lo que yo sé, jamás habrías\l"
+	.string "emprendido este viaje.$"
+
+CinnabarIsland_Oak_Texto_12:
+	.string "El no saberlo es lo que aún te mantiene\n"
+	.string "vivo, lo hace que tus opciones no sean\l"
+	.string "nulas.$"
+
+CinnabarIsland_Oak_Texto_13:
+	.string "Y así debe ser. Las nuevas\n"
+	.string "generaciones merecen la oportunidad,\l"
+	.string "aunque no sea más que una ilusión.$"

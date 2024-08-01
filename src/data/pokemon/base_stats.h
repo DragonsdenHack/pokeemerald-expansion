@@ -29484,12 +29484,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_REGIGIGAS_PRIMAL] =
     {
-        .baseHP        = 110,
-        .baseAttack    = 250,
-        .baseDefense   = 125,
-        .baseSpeed     = 110,
+        .baseHP        = 165,
+        .baseAttack    = 255,
+        .baseDefense   = 150,
+        .baseSpeed     = 50,
         .baseSpAttack  = 50,
-        .baseSpDefense = 125,
+        .baseSpDefense = 150,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_GROUND,
         .catchRate = 3,
@@ -39118,11 +39118,11 @@ const struct BaseStats gBaseStats[] =
 	[SPECIES_ARMALDO_PRIMAL] =
     {
         .baseHP        = 75,
-        .baseAttack    = 125,
-        .baseDefense   = 100,
-        .baseSpeed     = 45,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 80,
+        .baseAttack    = 155,
+        .baseDefense   = 110,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 125,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_BUG,
         .catchRate = 45,
@@ -39140,12 +39140,12 @@ const struct BaseStats gBaseStats[] =
     },
 	[SPECIES_RELICANTH_PRIMAL] =
     {
-		.baseHP        = 100,
-        .baseAttack    = 90,
-        .baseDefense   = 130,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 65,
+		.baseHP        = 110,
+        .baseAttack    = 110,
+        .baseDefense   = 140,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 55,
+        .baseSpDefense = 75,
         .type1 = TYPE_WATER,
         .type2 = TYPE_ROCK,
         .catchRate = 25,

@@ -2931,3 +2931,9 @@ Text_EVChecker_3:
 	.include "data/maps/PalletTown_Laboratorio_Secreto_S4/scripts.inc"
 
 	.include "data/maps/PalletTown_Laboratorio_Secreto_S5/scripts.inc"
+
+	.include "data/maps/PokemonTower_S1/scripts.inc"
+
+	.include "data/maps/PokemonTower_S2/scripts.inc"
+
+	.include "data/maps/PokemonTower_S3/scripts.inc"

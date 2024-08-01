@@ -21552,16 +21552,16 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_703] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ESENCIA,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_GHOST,
+        .trainerName = _("GHOST"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_TRAINER703),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER703},
+        .party = {.ItemCustomMoves = sParty_TRAINER703},
     },
     [TRAINER_TRAINER_704] =
     {

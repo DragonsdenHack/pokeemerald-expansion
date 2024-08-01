@@ -526,3 +526,185 @@ LavenderTown_Dialogo_Obrero_Texto_1:
 	.string "TORRE POKÉMON pasó. Ahora solo podrá\l"
 	.string "ser vista a través de los libros de\l"
 	.string "historia.$"
+
+LavenderTown_Entrevista_Oak::
+lock
+msgbox LavenderTown_Entrevista_Oak_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_10 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_11 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_12 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_13 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_14 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_15 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_16 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_17 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_18 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_19 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_20 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_21 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_22 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_23 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_24 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_25 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_26 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_27 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_28 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_29 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_30 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_31 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Entrevista_Oak_Texto_32 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderTown_Entrevista_Oak_Texto_1:
+	.string "PERIODISTA: Estamos con SAMUEL OAK; 7\n"
+	.string "veces CAMPEÓN de la LIGA POKÉMON de\l"
+	.string "KANTO durante las décadas de 1970 y\l"
+	.string "1980.$"
+
+LavenderTown_Entrevista_Oak_Texto_2:
+	.string "Más tarde su figura fue crucial para\n"
+	.string "alcanzar la paz con JOHTO.$"
+
+LavenderTown_Entrevista_Oak_Texto_3:
+	.string "Investigador de renombre, brillante\n"
+	.string "entrenador; para muchos la mayor leyenda\l"
+	.string "viva de esta región.$"
+
+LavenderTown_Entrevista_Oak_Texto_4:
+	.string "Dígame. Alguien como usted,\n"
+	.string "¿qué espera de KANTO?$"
+
+LavenderTown_Entrevista_Oak_Texto_5:
+	.string "OAK: Verá, me he llevado muchas\n"
+	.string "desilusiones esperando cosas a lo largo\l"
+	.string "de estos años.$"
+
+LavenderTown_Entrevista_Oak_Texto_6:
+	.string "A estas alturas, si alguien espera algo,\n"
+	.string "es la propia KANTO la que espera algo de\l"
+	.string "mí.$"
+
+LavenderTown_Entrevista_Oak_Texto_7:
+	.string "Ahora trato de servirle humildemente, y\n"
+	.string "lo que tenga que venir vendrá.$"
+
+LavenderTown_Entrevista_Oak_Texto_8:
+	.string "PERIODISTA: No le ha ido mal con esa\n"
+	.string "forma de pensar, recientemente inventó\l"
+	.string "la POKÉDEX.$"
+
+LavenderTown_Entrevista_Oak_Texto_9:
+	.string "OAK: Así es. El inventar la POKÉDEX para\n"
+	.string "jóvenes entrenadores y reabrir el\l"
+	.string "campeonato de la liga son dos\l"
+	.string "iniciativas de las que me siento muy\l"
+	.string "orgulloso.$"
+
+LavenderTown_Entrevista_Oak_Texto_10:
+	.string "PERIODISTA: Aún así, muchos dicen que\n"
+	.string "ya no es el mismo, que se ha acomodado.\l"
+	.string "¿Qué les diría?$"
+
+LavenderTown_Entrevista_Oak_Texto_11:
+	.string "OAK: Que el mundo es mucho más amplio\n"
+	.string "que un simple combate entre dos\l"
+	.string "equipos de seis POKÉMON.$"
+
+LavenderTown_Entrevista_Oak_Texto_12:
+	.string "PERIODISTA: Entiendo, estos años ha\n"
+	.string "estado con otros menesteres. Una\l"
+	.string "última pregunta, esta es un tanto…$"
+
+LavenderTown_Entrevista_Oak_Texto_13:
+	.string "OAK: ¿Un tanto?$"
+
+LavenderTown_Entrevista_Oak_Texto_14:
+	.string "PERIODISTA: No sé si usted puede\n"
+	.string "ayudarnos.$"
+
+LavenderTown_Entrevista_Oak_Texto_15:
+	.string "Al consultar los archivos dentro del CG\n"
+	.string "de la LIGA POKÉMON, vimos que el título\l"
+	.string "de CAMPEÓN figuraba con una 'X' hasta\l"
+	.string "en 8 ocasiones durante las décadas de\l"
+	.string "1970 y 1980.$"
+
+LavenderTown_Entrevista_Oak_Texto_16:
+	.string "¿Sabe usted el motivo? ¿Hay algún\n"
+	.string "nombre detrás de esa 'X'?$"
+
+LavenderTown_Entrevista_Oak_Texto_17:
+	.string "OAK: Verá, tengo la mala costumbre de\n"
+	.string "olvidar todo nombre que no merezca la\l"
+	.string "pena ser recordado.$"
+
+LavenderTown_Entrevista_Oak_Texto_18:
+	.string "Pero, hablando en serio…$"
+
+LavenderTown_Entrevista_Oak_Texto_19:
+	.string "...veo ya tan lejana, tan borrosa la\n"
+	.string "KANTO del pasado, que a veces pienso\l"
+	.string "que no es más que un sueño. Un sueño\l"
+	.string "pavoroso.$"
+
+LavenderTown_Entrevista_Oak_Texto_20:
+	.string "Puede haber mil motivos: Datos que se\n"
+	.string "perdieron tras la guerra, años en los\l"
+	.string "que no se celebró, victorias de\l"
+	.string "entrenadores extranjeros…$"
+
+LavenderTown_Entrevista_Oak_Texto_21:
+	.string "PERIODISTA: Entiendo. Pero no deja de\n"
+	.string "ser un misterio fascinante.$"
+
+LavenderTown_Entrevista_Oak_Texto_22:
+	.string "OAK: ¡Oh, desde luego!$"
+
+LavenderTown_Entrevista_Oak_Texto_23:
+	.string "Cuestionar la realidad e imaginar un\n"
+	.string "mundo que va más allá de lo que ven\l"
+	.string "nuestros ojos, es un gran ejercicio.$"
+
+LavenderTown_Entrevista_Oak_Texto_24:
+	.string "Yo también soy un soñador, ¿sabe? Y a\n"
+	.string "veces creo en imposibles.$"
+
+LavenderTown_Entrevista_Oak_Texto_25:
+	.string "'El ENTRENADOR -X- que ganó 8\n"
+	.string "campeonatos de la liga y fue borrado de\l"
+	.string "la historia '.$"
+
+LavenderTown_Entrevista_Oak_Texto_26:
+	.string "Sería una agradable ficción.$"
+
+LavenderTown_Entrevista_Oak_Texto_27:
+	.string "Pero yo estuve ahí, y lamento decirle\n"
+	.string "que ese entrenador no existe.$"
+
+LavenderTown_Entrevista_Oak_Texto_28:
+	.string "PERIODISTA: Muchas gracias por su\n"
+	.string "tiempo.$"
+
+LavenderTown_Entrevista_Oak_Texto_29:
+	.string "Ahora nos espera su antigua amiga,\n"
+	.string "AGATHA, dentro de TORRE POKÉMON. ¿No\l"
+	.string "nos acompaña?$"
+
+LavenderTown_Entrevista_Oak_Texto_30:
+	.string "OAK: … …$"
+
+LavenderTown_Entrevista_Oak_Texto_31:
+	.string "Aún es pronto para eso.$"
+
+LavenderTown_Entrevista_Oak_Texto_32:
+	.string "PERIODISTA: Oh, vaya. Como usted\n"
+	.string "quiera.$"
