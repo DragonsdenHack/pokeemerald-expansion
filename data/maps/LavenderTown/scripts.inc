@@ -708,3 +708,71 @@ LavenderTown_Entrevista_Oak_Texto_31:
 LavenderTown_Entrevista_Oak_Texto_32:
 	.string "PERIODISTA: Oh, vaya. Como usted\n"
 	.string "quiera.$"
+
+LavenderTown_Agatha::
+lock
+msgbox LavenderTown_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_11 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Agatha_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderTown_Agatha_Texto_1:
+	.string "¡{PLAYER}! ¡Obraste el milagro!$"
+
+LavenderTown_Agatha_Texto_2:
+	.string "¡Tu gesta en la LIGA POKÉMON es lo más\n"
+	.string "grande que he presenciado en décadas!$"
+
+LavenderTown_Agatha_Texto_3:
+	.string "Ahora, cada vez que paseo por estas\n"
+	.string "calles, no veo más que brotes verdes y\l"
+	.string "rayos de esperanza para KANTO.$"
+
+LavenderTown_Agatha_Texto_4:
+	.string "Y esa paz, aunque provisional, es\n"
+	.string "gracias a ti.$"
+
+LavenderTown_Agatha_Texto_5:
+	.string "Que estemos atravesando tiempos tan\n"
+	.string "inciertos me ha hecho más consciente\l"
+	.string "de lo afortunados que somos.$"
+
+LavenderTown_Agatha_Texto_6:
+	.string "Solo... mira TORRE POKÉMON.$"
+
+LavenderTown_Agatha_Texto_7:
+	.string "Yo crecí en este lugar. Después de\n"
+	.string "tantos años, vuelvo a valorarla como\l"
+	.string "merece.$"
+
+LavenderTown_Agatha_Texto_8:
+	.string "Aquí aprendí todo lo que sé sobre el\n"
+	.string "tipo fantasma, y si algo me quedó claro,\l"
+	.string "es que los grandes misterios del mundo\l"
+	.string "van más allá de lo que podemos ver con\l"
+	.string "los ojos.$"
+
+LavenderTown_Agatha_Texto_9:
+	.string "Pero no has venido hasta aquí para oír\n"
+	.string "los arrebatos de nostalgia de una\l"
+	.string "anciana como yo, ¿verdad?$"
+
+LavenderTown_Agatha_Texto_10:
+	.string "… …$"
+
+LavenderTown_Agatha_Texto_11:
+	.string "¡Oh, vas tras más misterios! En ese caso\n"
+	.string "quizás pueda ayudarte.$"
+
+LavenderTown_Agatha_Texto_12:
+	.string "Acompáñame.$"
