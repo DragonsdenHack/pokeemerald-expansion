@@ -429,7 +429,7 @@ end
 
 RocketHideoutJohto_Text_27:
 	.string "Everything's under control, sir! It's a\n"
-	.string "pleasure to have you in JOHTO!$"
+	.string "It's a pleasure to have you in JOHTO!$"
 
 
 
@@ -481,6 +481,7 @@ RocketHideoutJohto_Text_30:
 
 
 
+
 RocketHideoutJohto31::
 lock     
 faceplayer     
@@ -519,7 +520,7 @@ end
 
 RocketHideoutJohto_Text_33:
 .string "Our own work! Our own work for and by\n"
-	.string "TEAM ROCKET! This is the right way\l"
+	.string "TEAM ROCKET! That is the right way\l"
 	.string "to work!$"
 
 
@@ -822,3 +823,4 @@ EventScript_Mudbray_Texto_1:
 EventScript_Fletching_Texto_1:
 .string "Are you sure you want FLETCHLING?\n"
 	.string "It will cost 18,000 POKÉ.$"
+
