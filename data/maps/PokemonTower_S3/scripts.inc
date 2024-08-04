@@ -15,6 +15,8 @@ msgbox PokemonTower_S3_Tumba_Texto_9 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_10 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_11 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_12 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_703, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+setvar VAR_UNUSED_0x40F9, 2
 release
 end
 

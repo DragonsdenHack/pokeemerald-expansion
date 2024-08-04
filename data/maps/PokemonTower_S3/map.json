@@ -26,9 +26,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F9",
+      "var_value": "0",
+      "script": "PokemonTower_S2_Combate_Gengar_2"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F9",
+      "var_value": "0",
+      "script": "PokemonTower_S3_Tumba"
+    }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

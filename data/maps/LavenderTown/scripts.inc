@@ -711,20 +711,109 @@ LavenderTown_Entrevista_Oak_Texto_32:
 
 LavenderTown_Agatha::
 lock
-msgbox LavenderTown_Agatha_Texto_1 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_2 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_3 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_4 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_5 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_6 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_7 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_8 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 17, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_3
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_4
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_5
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Agatha_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+msgbox LavenderTown_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Agatha_Move_6.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+msgbox LavenderTown_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 17, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Agatha_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_5
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Agatha_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_7
+waitmovement 0x0
+setflag FLAG_HOENN_676
+removeobject 17
+playse SE_EXIT
+waitse
+setvar VAR_UNUSED_0x40F9, 2
+delay 15
 release
 end
+
+LavenderTown_Agatha_Move_7:
+walk_up
+step_end
+
+LavenderTown_Agatha_Move_6.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderTown_Agatha_Move_6:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+LavenderTown_Agatha_Move_5:
+walk_in_place_up
+step_end
+
+LavenderTown_Agatha_Move_4:
+face_up
+step_end
+
+LavenderTown_Agatha_Move_3:
+delay_16
+walk_in_place_up
+delay_16
+face_player
+step_end
+
+LavenderTown_Agatha_Move_2:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Agatha_Move_1:
+face_player
+step_end
 
 LavenderTown_Agatha_Texto_1:
 	.string "¡{PLAYER}! ¡Obraste el milagro!$"

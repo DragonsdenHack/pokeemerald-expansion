@@ -140,20 +140,73 @@ end
 
 PokemonTower1F_Agatha::
 lock
+delay 10
 msgbox PokemonTower1F_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower1F_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_1
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_2
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_3
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_4
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PokemonTower1F_Agatha_Move_1
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_3
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_1
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_5
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_1
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower1F_Agatha_Move_4
+waitmovement 0x0
 msgbox PokemonTower1F_Agatha_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_675
+fadescreen 1
+delay 20
+removeobject 6
+fadescreen 0
+setvar VAR_UNUSED_0x40F9, 2
 release
 end
+
+PokemonTower1F_Agatha_Move_5:
+face_right
+step_end
+
+PokemonTower1F_Agatha_Move_3:
+face_up
+step_end
+
+PokemonTower1F_Agatha_Move_4:
+walk_in_place_up
+step_end
+
+PokemonTower1F_Agatha_Move_2:
+delay_16
+face_left
+delay_16
+face_player
+delay_16
+step_end
+
+PokemonTower1F_Agatha_Move_1:
+face_player
+step_end
 
 PokemonTower1F_Agatha_Texto_1:
 	.string "La historia de TORRE POKÉMON es casi\n"
@@ -189,8 +242,8 @@ PokemonTower1F_Agatha_Texto_7:
 	.string "secreto cuanto se te cruce.$"
 
 PokemonTower1F_Agatha_Texto_8:
-	.string "Si pones atención, verás que esta tumba\n"
-	.string "está hueca. Debajo hay unas escaleras\l"
+	.string "Si pones atención, verás que este pilar\n"
+	.string "está hueco. Debajo hay unas escaleras\l"
 	.string "que conducen al sótano.$"
 
 PokemonTower1F_Agatha_Texto_9:
@@ -208,4 +261,28 @@ PokemonTower1F_Agatha_Texto_12:
 	.string "Después de todo, vivimos confinados en\n"
 	.string "una pequeña parcela, ya de por sí\l"
 	.string "inabarcable. ¡Jo, jo, jo!$"
+
+PokemonTower1F_Activador_Entrada::
+compare VAR_UNUSED_0x40F9, 2
+goto_if_gt PokemonTower1F_Activador_Entrada_Pasa
+release
+end
+
+PokemonTower1F_Activador_Entrada_Pasa::
+delay 15
+msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, CuevaTesoro_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+warp MAP_POKEMON_TOWER_S1, 20, 8
+release
+end
+
+PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
+	.string "Este pilar está hueco. Debajo hay unas\n"
+	.string "escaleras que llevan a pisos inferiores.\l"
+	.string "¿Quieres pasar?$"
 

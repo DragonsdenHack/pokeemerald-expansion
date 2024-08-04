@@ -39630,21 +39630,24 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER703[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER704[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER704[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 75,
+    .species = SPECIES_GENGAR,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {128, 128, 128, 252, 252, 128},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 75,
+    .species = SPECIES_MAROGHOST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 128, 128, 128, 128},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_SHADOW_BONE, MOVE_EARTHQUAKE, MOVE_NONE, MOVE_NONE}
     }
     
 };
