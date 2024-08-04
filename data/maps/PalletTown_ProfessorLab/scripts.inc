@@ -347,3 +347,124 @@ PalletTown_ProfessorLab_Genesect_Texto_1:
 	.string "raro experimento de una región lejana.\l"
 	.string "Nadie la necesita ya, ¿quieres\l"
 	.string "quedarte con el pOKÉMON?$"
+
+PalletTown_ProfessorLab_Andra::
+lock
+msgbox PalletTown_ProfessorLab_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_16 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_17 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_18 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_19 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_20 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_21 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_22 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_23 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_24 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_25 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_Andra_Texto_26 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_ProfessorLab_Andra_Texto_1:
+	.string "No te preocupes, ya les he dicho a los\n"
+	.string "CIENTÍFICOS que somos también\l"
+	.string "ayudantes.$"
+
+PalletTown_ProfessorLab_Andra_Texto_2:
+	.string "Mmm…$"
+
+PalletTown_ProfessorLab_Andra_Texto_3:
+	.string "Hay que admitir que OAK ha sido alguien\n"
+	.string "muy importante para KANTO.$"
+
+PalletTown_ProfessorLab_Andra_Texto_4:
+	.string "¿Y has visto esto?$"
+
+PalletTown_ProfessorLab_Andra_Texto_5:
+	.string "Un e-mail del CG de la LIGA POKÉMON.$"
+
+PalletTown_ProfessorLab_Andra_Texto_6:
+	.string "Visítenos por favor…\n"
+	.string "Cuánta hipocresía.$"
+
+PalletTown_ProfessorLab_Andra_Texto_7:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_8:
+	.string "Datos sobre su POKÉDEX…$"
+
+PalletTown_ProfessorLab_Andra_Texto_9:
+	.string "No parece haber nada sospechoso, todo\n"
+	.string "lo que cabría esperar de un laboratorio\l"
+	.string "clandestino.$"
+
+PalletTown_ProfessorLab_Andra_Texto_10:
+	.string "Hmmm…$"
+
+PalletTown_ProfessorLab_Andra_Texto_11:
+	.string "Nada…$"
+
+PalletTown_ProfessorLab_Andra_Texto_12:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_13:
+	.string "Esta máquina tiene una opción para\n"
+	.string "introducir cuatro dígitos.$"
+
+PalletTown_ProfessorLab_Andra_Texto_14:
+	.string "Tal vez, si ponemos el número total de\n"
+	.string "POKÉMON en la primera POKÉDEX de\l"
+	.string "KANTO…$"
+
+PalletTown_ProfessorLab_Andra_Texto_15:
+	.string "'0151'$"
+
+PalletTown_ProfessorLab_Andra_Texto_16:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_17:
+	.string "Nada.$"
+
+PalletTown_ProfessorLab_Andra_Texto_18:
+	.string "Probemos con los STATS BASE de MEWTWO.$"
+
+PalletTown_ProfessorLab_Andra_Texto_19:
+	.string "'0680'$"
+
+PalletTown_ProfessorLab_Andra_Texto_20:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_21:
+	.string "Quizás… el año en el que la\n"
+	.string "GUERRA de KANTO terminó.$"
+
+PalletTown_ProfessorLab_Andra_Texto_22:
+	.string "'1994'$"
+
+PalletTown_ProfessorLab_Andra_Texto_23:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_24:
+	.string "Tampoco.$"
+
+PalletTown_ProfessorLab_Andra_Texto_25:
+	.string "Es absurdo, pueden ser tantas cosas… y\n"
+	.string "ni siquiera tenemos la certeza de que\l"
+	.string "sea lo que andamos buscando.$"
+
+PalletTown_ProfessorLab_Andra_Texto_26:
+	.string "Necesito salir fuera un momento.$"

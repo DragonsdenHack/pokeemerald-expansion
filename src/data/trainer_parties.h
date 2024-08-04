@@ -36929,7 +36929,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER606[] = {
     {
     .iv = 255,
     .lvl = 112,
-    .species = SPECIES_RELICANTH,
+    .species = SPECIES_RELICANTH_PRIMAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 50, 50, 50, 50},
     .nature = NATURE_ADAMANT,
@@ -37075,7 +37075,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     {
     .iv = 255,
     .lvl = 114,
-    .species = SPECIES_RELICANTH,
+    .species = SPECIES_RELICANTH_PRIMAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {50, 252, 50, 252, 50, 50},
     .nature = NATURE_ADAMANT,
@@ -38756,7 +38756,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER674[] = {
     {
     .iv = 255,
     .lvl = 119,
-    .species = SPECIES_ARMALDO,
+    .species = SPECIES_ARMALDO_PRIMAL,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {50, 252, 50, 252, 50, 50},
     .nature = NATURE_ADAMANT,
@@ -39400,7 +39400,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER695[] = {
     {
     .iv = 255,
     .lvl = 120,
-    .species = SPECIES_RELICANTH,
+    .species = SPECIES_RELICANTH_PRIMAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 80, 80, 80, 80},
     .nature = NATURE_ADAMANT,
@@ -39617,40 +39617,37 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER702[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER703[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER703[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 80,
+    .species = SPECIES_GHOST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {128, 128, 128, 252, 252, 128},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_SHADOW_BALL, MOVE_HYPER_VOICE, MOVE_HYPNOSIS, MOVE_DREAM_EATER}
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER704[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER704[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 75,
+    .species = SPECIES_GENGAR,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {128, 128, 128, 252, 252, 128},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 75,
+    .species = SPECIES_MAROGHOST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {252, 252, 128, 128, 128, 128},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_SHADOW_BONE, MOVE_EARTHQUAKE, MOVE_NONE, MOVE_NONE}
     }
     
 };

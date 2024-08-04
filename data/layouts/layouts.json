@@ -15060,6 +15060,42 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_TOWER_S1",
+      "name": "PokemonTower_S1_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/PokemonTower_S1/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonTower_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_TOWER_S2",
+      "name": "PokemonTower_S2_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/PokemonTower_S2/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonTower_S2/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_TOWER_S3",
+      "name": "PokemonTower_S3_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/PokemonTower_S3/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonTower_S3/map.bin"
     }
   ]
 }

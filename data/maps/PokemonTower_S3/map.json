@@ -1,0 +1,58 @@
+{
+  "id": "MAP_POKEMON_TOWER_S3",
+  "name": "PokemonTower_S3",
+  "layout": "LAYOUT_POKEMON_TOWER_S3",
+  "music": "MUS_RG_POKE_TOWER",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_PHOEBE",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_POKEMON_TOWER_S2",
+      "dest_warp_id": 1
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F9",
+      "var_value": "0",
+      "script": "PokemonTower_S2_Combate_Gengar_2"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F9",
+      "var_value": "0",
+      "script": "PokemonTower_S3_Tumba"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
+  ]
+}

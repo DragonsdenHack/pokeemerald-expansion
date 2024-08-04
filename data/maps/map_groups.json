@@ -566,7 +566,10 @@
     "Neo_TunelRoca_1F",
     "Neo_TunelRoca_2F",
     "Guardia_Cave",
-    "Guardia_Cave_2"
+    "Guardia_Cave_2",
+    "PokemonTower_S1",
+    "PokemonTower_S2",
+    "PokemonTower_S3"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
