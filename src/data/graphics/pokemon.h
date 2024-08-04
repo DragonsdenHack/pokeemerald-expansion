@@ -4017,7 +4017,7 @@ const u32 gMonPalette_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/norma
 const u32 gMonPalette_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/normal.gbapal.lz");
 const u32 gMonPalette_ArmaldoPrimal[] = INCBIN_U32("graphics/pokemon/armaldo_p/normal.gbapal.lz");
 const u32 gMonPalette_RelicanthPrimal[] = INCBIN_U32("graphics/pokemon/relicanth_p/normal.gbapal.lz");
-const u32 gMonPalette_MiloticBond[] = INCBIN_U32("graphics/pokemon/relicanth_p/normal.gbapal.lz");
+const u32 gMonPalette_MiloticBond[] = INCBIN_U32("graphics/pokemon/milotic_bond/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");

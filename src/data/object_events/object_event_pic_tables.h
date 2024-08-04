@@ -3144,7 +3144,15 @@ static const struct SpriteFrameImage sPicTable_Milotic[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_MiloticP[] = {
-    overworld_frame(gObjectEventPic_Milotic, 4, 4, 0),
+    overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 1),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 0),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 1),
+	overworld_frame(gObjectEventPic_MiloticP, 4, 4, 1),
 };
 
 static const struct SpriteFrameImage sPicTable_Kingdra[] = {
