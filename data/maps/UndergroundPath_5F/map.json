@@ -55,7 +55,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
-      "x": 28,
+      "x": 34,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -68,7 +68,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
-      "x": 26,
+      "x": 32,
       "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -81,7 +81,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
-      "x": 28,
+      "x": 34,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -94,7 +94,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVO2JOHTO",
-      "x": 19,
+      "x": 25,
       "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -107,7 +107,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
-      "x": 17,
+      "x": 23,
       "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -120,7 +120,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
-      "x": 18,
+      "x": 24,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -164,6 +164,42 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Subterraneo_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "1",
+      "script": "UndergroundPath_5F_Arriba_2"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "1",
+      "script": "UndergroundPath_5F_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "1",
+      "script": "UndergroundPath_5F_Centro"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "1",
+      "script": "UndergroundPath_5F_Abajo"
     }
   ],
   "bg_events": [

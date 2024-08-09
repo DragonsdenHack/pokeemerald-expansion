@@ -165,7 +165,7 @@ ResortGeorgeous_House1_Text_Consul_8:
 	.string "la clase traicionándonos cuando te\l"
 	.string "convenía y ahora lo pagarás, un\l"
 	.string "período de reflexión en la CUEVA\l"
-	.string "CAMBIANTE no te vendrá mal.$"
+	.string "PERDIDA no te vendrá mal.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
 .string "CÓNSUL: {PAUSE 15}…{PAUSE 15}$"

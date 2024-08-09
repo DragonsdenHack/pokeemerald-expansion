@@ -693,7 +693,7 @@ face_player
 step_end
 
 SaffronCity_Secundaria_Motorista_Texto_1:
-.string "Ese vegestorio…\n"
+.string "Ese vejestorio…\n"
 	.string "Va lograr que todo KANTO odie a\l"
 	.string "los MOTORISTAS{PAUSE 5}…{PAUSE 5}$"
 

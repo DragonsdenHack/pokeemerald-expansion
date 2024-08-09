@@ -96,7 +96,7 @@
 #define VAR_POKELOT_PRIZE_PLACE              0x404D
 #define VAR_UNUSED_0x404E                    0x404E // SECUNDARIA FRANK
 #define VAR_LOTAD_SIZE_RECORD                0x404F
-#define VAR_LITTLEROOT_TOWN_STATE            0x4050
+#define VAR_LITTLEROOT_TOWN_STATE            0x4050 
 #define VAR_OLDALE_TOWN_STATE                0x4051
 #define VAR_DEWFORD_TOWN_STATE               0x4052 // SECUNDARIA HYPNO ISLA TERA
 #define VAR_LAVARIDGE_TOWN_STATE             0x4053
@@ -271,7 +271,7 @@
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Este Carmin// (0) //Frontera Celeste (1) // Frontera Celeste antes de Petrel post Mt.moon (2)
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var // Policías Azafrán Fronteras (1), Pegaso entrenando (2)
 #define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Encuentro Mirto (1) // 4 
-#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento
+#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento // Escenas añadidas post dlc
 
 #define VARS_END                             0x40FF
 #define VARS_COUNT                           (VARS_END - VARS_START + 1)

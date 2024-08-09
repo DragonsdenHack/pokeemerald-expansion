@@ -46,22 +46,153 @@ UndergroundPath_5F_Entrada_Pasa_Text_YesNo:
 .string "La entrada a los refugios parece ser\n"
 	.string "por aquí. ¿Quieres pasar?$"
 
+UndergroundPath_5F_Emboscada_Move_1:
+walk_in_place_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_2:
+walk_down
+walk_down
+walk_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_2.1:
+walk_down
+walk_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_2.2:
+walk_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_2.3:
+walk_up
+walk_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_3:
+walk_in_place_down
+step_end
+
+UndergroundPath_5F_Emboscada_Move_4:
+emote_exclamation_mark
+step_end
+
+UndergroundPath_5F_Emboscada_Move_5:
+face_left
+step_end
+
+UndergroundPath_5F_Emboscada_Move_6:
+walk_down
+walk_down
+face_left
+step_end
+
+UndergroundPath_5F_Emboscada_Move_7:
+delay_16
+face_up
+delay_8
+step_end
+
+UndergroundPath_5F_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_1
+waitmovement 0x0
+delay 10
+msgbox UndergroundPath_5F_Emboscada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_2
+waitmovement 0x0
+goto UndergroundPath_5F_Emboscada
+
+UndergroundPath_5F_Arriba_2::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_1
+waitmovement 0x0
+delay 10
+msgbox UndergroundPath_5F_Emboscada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_2.1
+waitmovement 0x0
+goto UndergroundPath_5F_Emboscada
+
+UndergroundPath_5F_Centro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_1
+waitmovement 0x0
+delay 10
+msgbox UndergroundPath_5F_Emboscada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_2.2
+waitmovement 0x0
+goto UndergroundPath_5F_Emboscada
+
+UndergroundPath_5F_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_1
+waitmovement 0x0
+delay 10
+msgbox UndergroundPath_5F_Emboscada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_2.3
+waitmovement 0x0
+goto UndergroundPath_5F_Emboscada
+
+
 UndergroundPath_5F_Emboscada::
 lock
-msgbox UndergroundPath_5F_Emboscada_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, UndergroundPath_5F_Emboscada_Move_3
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 9, UndergroundPath_5F_Emboscada_Move_4
+waitmovement 0x0
+delay 15
+applymovement 9, UndergroundPath_5F_Emboscada_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, UndergroundPath_5F_Emboscada_Move_5
+applymovement 8, UndergroundPath_5F_Emboscada_Move_5
+applymovement 9, UndergroundPath_5F_Emboscada_Move_6
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_5F_Emboscada_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 9, UndergroundPath_5F_Emboscada_Move_7
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 9, UndergroundPath_5F_Emboscada_Move_8
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 7, UndergroundPath_5F_Emboscada_Move_4
+waitmovement 0x0
+delay 10
+applymovement 7, UndergroundPath_5F_Emboscada_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 7, UndergroundPath_5F_Emboscada_Move_10
+applymovement 9, UndergroundPath_5F_Emboscada_Move_11
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_9 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_13
+applymovement 8, UndergroundPath_5F_Emboscada_Move_12
+waitmovement 0x0
+playse 495
 msgbox UndergroundPath_5F_Emboscada_Texto_10 MSGBOX_AUTOCLOSE
-msgbox UndergroundPath_5F_Emboscada_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_702, UndergroundPath_5F_Emboscada_Texto_11
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_15
+applymovement 7, UndergroundPath_5F_Emboscada_Move_14
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_12 MSGBOX_AUTOCLOSE
+playse 597
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_5F_Emboscada_Move_17
+applymovement 7, UndergroundPath_5F_Emboscada_Move_16
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_13 MSGBOX_AUTOCLOSE
-msgbox UndergroundPath_5F_Emboscada_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_701, UndergroundPath_5F_Emboscada_Texto_14
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 7, UndergroundPath_5F_Emboscada_Move_18
+waitmovement 0x0
 msgbox UndergroundPath_5F_Emboscada_Texto_15 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_5F_Emboscada_Texto_16 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_5F_Emboscada_Texto_17 MSGBOX_AUTOCLOSE
@@ -84,8 +215,66 @@ msgbox UndergroundPath_5F_Emboscada_Texto_33 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_5F_Emboscada_Texto_34 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_5F_Emboscada_Texto_35 MSGBOX_AUTOCLOSE
 setflag FLAG_HOENN_300
+removeobject 5
+removeobject 6
+removeobject 4
+setvar VAR_UNUSED_0x40FF, 2
 release
 end
+
+UndergroundPath_5F_Emboscada_Move_18:
+walk_in_place_up
+step_end
+
+UndergroundPath_5F_Emboscada_Move_17:
+delay_16
+face_down
+step_end
+
+UndergroundPath_5F_Emboscada_Move_16:
+walk_left
+walk_left
+face_up
+step_end
+
+UndergroundPath_5F_Emboscada_Move_15:
+face_right
+step_end
+
+UndergroundPath_5F_Emboscada_Move_14:
+walk_left
+step_end
+
+UndergroundPath_5F_Emboscada_Move_13:
+delay_16
+delay_8
+face_up
+step_end
+
+UndergroundPath_5F_Emboscada_Move_12:
+walk_left
+walk_left
+face_down
+step_end
+
+UndergroundPath_5F_Emboscada_Move_11:
+walk_in_place_left
+step_end
+
+UndergroundPath_5F_Emboscada_Move_10:
+walk_down
+walk_down
+walk_left
+walk_left
+step_end
+
+UndergroundPath_5F_Emboscada_Move_9:
+walk_fast_down
+step_end
+
+UndergroundPath_5F_Emboscada_Move_8:
+walk_in_place_up
+step_end
 
 UndergroundPath_5F_Emboscada_Texto_1:
 	.string "Ese nuevo PORYGON del CASINO es una\n"
@@ -107,7 +296,7 @@ UndergroundPath_5F_Emboscada_Texto_4:
 
 UndergroundPath_5F_Emboscada_Texto_5:
 	.string "Luces diferente a los otros, ¿no\n"
-	.string "serás...?$"
+	.string "serás…?$"
 
 UndergroundPath_5F_Emboscada_Texto_6:
 	.string "Debe ser algún alto cargo, ¿sabéis cómo\n"
@@ -145,9 +334,9 @@ UndergroundPath_5F_Emboscada_Texto_14:
 	.string "¡Ríndete ya!$"
 
 UndergroundPath_5F_Emboscada_Texto_15:
-	.string "¡Maldito! ¡Debe ser un pez gordo! ¡Si lo\n"
-	.string "llevamos al CG de la LIGA POKÉMON\l"
-	.string "seremos ricos!$"
+	.string "¡Maldito! ¡Debe ser un pez gordo!\n"
+	.string "¡Si lo llevamos hasta el CG de la\l"
+	.string "LIGA POKÉMON seremos ricos!$"
 
 UndergroundPath_5F_Emboscada_Texto_16:
 	.string "Tranquilos, yo podré con él. Está\n"
