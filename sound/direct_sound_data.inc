@@ -5639,7 +5639,15 @@ Cry_RelicanthPrimal::
 
 	.align 2
 Cry_MiloticBond::
-	.incbin "sound/direct_sound_samples/cries/milotic.bin"		
+	.incbin "sound/direct_sound_samples/cries/milotic.bin"	
+
+	.align 2
+Cry_GyaradosZ::
+	.incbin "sound/direct_sound_samples/cries/gyarados.bin"
+
+	.align 2
+Cry_Porygon31::
+	.incbin "sound/direct_sound_samples/cries/porygon_z.bin"		
 
 	.align 2
 DirectSoundWaveData_register_noise::
