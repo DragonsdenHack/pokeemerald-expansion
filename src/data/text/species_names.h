@@ -1459,5 +1459,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_QWOLTFISH] = _("Shibirefug"),
 	[SPECIES_GUARDIA] = _("Guardia"),
 	[SPECIES_ARMALDO_PRIMAL] = _("Armaldo-p"),
-	[SPECIES_RELICANTH_PRIMAL] = _("Relicant-p"),
+	[SPECIES_RELICANTH_PRIMAL] = _("Relicant-X"),
+	[SPECIES_MILOTICBOND] = _("Milotic&"),
+	[SPECIES_GYARADOSZ] = _("Gyarados-Z"),
+	[SPECIES_PORYGON31] = _("Porygon3.1"),
 };

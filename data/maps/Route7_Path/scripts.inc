@@ -1,5 +1,15 @@
 Route7_Path_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, Route7_Path_OnTransition
 	.byte 0
+	
+Route7_Path_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, Route7_Path_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 8, 27
+end
+
+Route7_Path_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 8, 27
+end	
 
 Route7Path_1::
 end

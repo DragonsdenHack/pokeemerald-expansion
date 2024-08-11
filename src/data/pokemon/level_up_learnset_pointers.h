@@ -1457,4 +1457,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_GUARDIA] = sGuardiaLevelUpLearnset,
 	[SPECIES_ARMALDO_PRIMAL] = sArmaldoPrimalLevelUpLearnset,
 	[SPECIES_RELICANTH_PRIMAL] = sRelicanthPrimalLevelUpLearnset,
+	[SPECIES_MILOTICBOND] = sGyaradosZLevelUpLearnset,
+	[SPECIES_GYARADOSZ] = sMiloticBondLevelUpLearnset,
+	[SPECIES_PORYGON31] = sPorygon31LevelUpLearnset,
 };

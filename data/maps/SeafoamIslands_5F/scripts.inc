@@ -42,10 +42,20 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40F7, 68
 goto_if_gt SeafoamIslands_5F_Combate_Articuno_Derrotado
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@msgbox SeafoamIslands_5F_Combate_Articuno_Texto_1 MSGBOX_DEFAULT
+@closemessage
+@playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
+@waitmoncry
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+waitse
 playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
-msgbox SeafoamIslands_5F_Combate_Articuno_Texto_1 MSGBOX_DEFAULT
+message SeafoamIslands_5F_Combate_Articuno_Texto_1
+waitmessage
 waitmoncry
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
+waitbuttonpress
 trainerbattle_no_intro TRAINER_ARTICUNO, SeafoamIslands_5F_Combate_Articuno_Texto_2
 playse MUS_RG_OBTAIN_KEY_ITEM
 msgbox SeafoamIslands_5F_Combate_Articuno_Texto_3 MSGBOX_DEFAULT

@@ -1,2 +1,7 @@
 NeoRoute10_PokemonCenter_1F_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, NeoRoute10_PokemonCenter_1F_OnTransition
 	.byte 0
+
+NeoRoute10_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_NEO_ROUTE10
+	end

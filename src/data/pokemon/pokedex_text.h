@@ -5521,4 +5521,16 @@ const u8 gRelicanthPrimalPokedexText[] = _(
     "Parece un Relicanth.\n"
 	"Debe de tratarse de un ejemplar\n"
 	"incluso más antiguo que este.\n"
+	"Se desconoce más datos sobre él.");
+
+const u8 gGyaradosZPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");
+	
+const u8 gPorygon31PokedexText[] = _(
+    "Parece un Relicanth.\n"
+	"Debe de tratarse de un ejemplar\n"
+	"incluso más antiguo que este.\n"
 	"Se desconoce más datos sobre él.");	

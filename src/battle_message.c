@@ -2703,7 +2703,9 @@ void BufferStringBattle(u16 stringID)
             }
             else
             {
-                if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_AVES || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ANCIENT || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ESENCIA)
+					stringPtr = sText_EmptyString8;
+				else if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
                     stringPtr = sText_Trainer1SentOutPkmn;
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
                     stringPtr = sText_Trainer1SentOutPkmn;
