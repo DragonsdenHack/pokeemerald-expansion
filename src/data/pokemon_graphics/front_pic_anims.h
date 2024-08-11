@@ -10432,6 +10432,18 @@ static const union AnimCmd sAnim_MILOTIC_BOND_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_GYARADOSZ_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_PORYGON31_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -16709,6 +16721,16 @@ static const union AnimCmd *const sAnims_RELICANTH_PRIMAL[] ={
     sAnim_RELICANTH_PRIMAL_1,
 };
 
+static const union AnimCmd *const sAnims_GYARADOSZ[] ={
+    sAnim_GeneralFrame0,
+    sAnim_GYARADOSZ_1,
+};
+
+static const union AnimCmd *const sAnims_PORYGON31[] ={
+    sAnim_GeneralFrame0,
+    sAnim_PORYGON31_1,
+};
+
 static const union AnimCmd *const sAnims_MILOTIC_BOND[] ={
     sAnim_GeneralFrame0,
     sAnim_MILOTIC_BOND_1,
@@ -18112,6 +18134,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 	ANIM_CMD_FULL(ARMALDO_PRIMAL, sAnims_ARMALDO_PRIMAL),
 	ANIM_CMD_FULL(RELICANTH_PRIMAL, sAnims_RELICANTH_PRIMAL),
 	ANIM_CMD_FULL(MILOTICBOND, sAnims_MILOTIC_BOND),
+	ANIM_CMD_FULL(GYARADOSZ, sAnims_GYARADOSZ),
+	ANIM_CMD_FULL(PORYGON31, sAnims_PORYGON31),
     ANIM_CMD(EGG),
 };
 

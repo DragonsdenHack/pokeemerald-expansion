@@ -1396,6 +1396,8 @@ extern const u32 gMonFrontPic_Guardia[];
 extern const u32 gMonFrontPic_ArmaldoPrimal[];
 extern const u32 gMonFrontPic_RelicanthPrimal[];
 extern const u32 gMonFrontPic_MiloticBond[];
+extern const u32 gMonFrontPic_GyaradosZ[];
+extern const u32 gMonFrontPic_Porygon31[];
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2729,6 +2731,8 @@ extern const u32 gMonBackPic_Guardia[];
 extern const u32 gMonBackPic_ArmaldoPrimal[];
 extern const u32 gMonBackPic_RelicanthPrimal[];
 extern const u32 gMonBackPic_MiloticBond[];
+extern const u32 gMonBackPic_GyaradosZ[];
+extern const u32 gMonBackPic_Porygon31[];
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -4085,6 +4089,8 @@ extern const u32 gMonPalette_Guardia[];
 extern const u32 gMonPalette_ArmaldoPrimal[];
 extern const u32 gMonPalette_RelicanthPrimal[];
 extern const u32 gMonPalette_MiloticBond[];
+extern const u32 gMonPalette_GyaradosZ[];
+extern const u32 gMonPalette_Porygon31[];
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -5437,6 +5443,8 @@ extern const u32 gMonShinyPalette_Guardia[];
 extern const u32 gMonShinyPalette_ArmaldoPrimal[];
 extern const u32 gMonShinyPalette_RelicanthPrimal[];
 extern const u32 gMonShinyPalette_MiloticBond[];
+extern const u32 gMonShinyPalette_GyaradosZ[];
+extern const u32 gMonShinyPalette_Porygon31[];
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -6778,6 +6786,8 @@ extern const u8 gMonIcon_Guardia[];
 extern const u8 gMonIcon_ArmaldoPrimal[];
 extern const u8 gMonIcon_RelicanthPrimal[];
 extern const u8 gMonIcon_MiloticBond[];
+extern const u8 gMonIcon_GyaradosZ[];
+extern const u8 gMonIcon_Porygon31[];
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -7688,6 +7698,8 @@ extern const u8 gMonFootprint_Guardia[];
 extern const u8 gMonFootprint_ArmaldoPrimal[];
 extern const u8 gMonFootprint_RelicanthPrimal[];
 extern const u8 gMonFootprint_MiloticBond[];
+extern const u8 gMonFootprint_GyaradosZ[];
+extern const u8 gMonFootprint_Porygon31[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_AquaLeaderArchie[];

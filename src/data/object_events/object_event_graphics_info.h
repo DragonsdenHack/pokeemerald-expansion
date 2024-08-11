@@ -512,6 +512,24 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ursaring = {
      sPicTable_Ursaring,
      gDummySpriteAffineAnimTable,
 };
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scyther = {
+     TAG_NONE,
+     OBJ_EVENT_PAL_TAG_SCYTHER,
+     OBJ_EVENT_PAL_TAG_NONE,
+     512,
+     32,
+     32,
+     6,
+     SHADOW_SIZE_M,
+     FALSE,
+     FALSE,
+     TRACKS_FOOT,
+     &gObjectEventBaseOam_32x32,
+     sOamTables_32x32,
+     sAnimTable_Standard,
+     sPicTable_Scyther,
+     gDummySpriteAffineAnimTable,
+};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Whismur = {
      TAG_NONE,
      OBJ_EVENT_PAL_TAG_WHISMUR,

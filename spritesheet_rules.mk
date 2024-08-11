@@ -1261,7 +1261,10 @@ $(OBJEVENTGFXDIR)/pokemon/teddiursa.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 	
 $(OBJEVENTGFXDIR)/pokemon/ursaring.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 4 -mheight 4	
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/pokemon/scyther.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4		
 	
 $(OBJEVENTGFXDIR)/pokemon/zapdos.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4

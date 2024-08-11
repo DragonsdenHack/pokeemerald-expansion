@@ -10985,4 +10985,26 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 360,
         .trainerOffset = 7,
     },
+	[NATIONAL_DEX_GYARADOSZ] =
+	{
+		.categoryName=_("LONGEVO"),
+		.height = 10,
+		.weight = 234,
+		.description = gGyaradosZPokedexText,
+		.pokemonScale = 316,
+		.pokemonOffset = 7,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+    },
+	[NATIONAL_DEX_PORYGON31] =
+	{
+		.categoryName=_("TIERNO"),
+        .height = 62,
+        .weight = 1620,
+        .description = gPorygon31PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 360,
+        .trainerOffset = 7,
+    },
 };

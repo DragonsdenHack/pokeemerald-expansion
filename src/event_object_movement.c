@@ -575,6 +575,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_WHISMUR 0x11AD
 #define OBJ_EVENT_PAL_TAG_TEDDIURSA 0x11AE
 #define OBJ_EVENT_PAL_TAG_URSARING 0x11AF
+#define OBJ_EVENT_PAL_TAG_SCYTHER 0x11B0
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -758,6 +759,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Whismur, OBJ_EVENT_PAL_TAG_WHISMUR},
 	{gObjectEventPal_Teddiursa, OBJ_EVENT_PAL_TAG_TEDDIURSA},
 	{gObjectEventPal_Ursaring, OBJ_EVENT_PAL_TAG_URSARING},
+	{gObjectEventPal_Scyther, OBJ_EVENT_PAL_TAG_SCYTHER},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

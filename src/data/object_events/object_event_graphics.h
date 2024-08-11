@@ -596,6 +596,7 @@ const u16 gObjectEventPic_Moltres[] = INCBIN_U16("graphics/object_events/pics/po
 const u16 gObjectEventPic_Whismur[] = INCBIN_U16("graphics/object_events/pics/pokemon/whismur.4bpp");
 const u16 gObjectEventPic_Teddiursa[] = INCBIN_U16("graphics/object_events/pics/pokemon/teddiursa.4bpp");
 const u16 gObjectEventPic_Ursaring[] = INCBIN_U16("graphics/object_events/pics/pokemon/ursaring.4bpp");
+const u16 gObjectEventPic_Scyther[] = INCBIN_U16("graphics/object_events/pics/pokemon/scyther.4bpp");
 //misc
 
 const u16 gObjectEventPic_Fossil2[] = INCBIN_U16("graphics/object_events/pics/misc/fossil2.4bpp");
@@ -839,3 +840,4 @@ const u16 gObjectEventPal_RegigigasP[] = INCBIN_U16("graphics/object_events/pale
 const u16 gObjectEventPal_Whismur[] = INCBIN_U16("graphics/object_events/palettes/whismur.gbapal");
 const u16 gObjectEventPal_Teddiursa[] = INCBIN_U16("graphics/object_events/palettes/teddiursa.gbapal");
 const u16 gObjectEventPal_Ursaring[] = INCBIN_U16("graphics/object_events/palettes/ursaring.gbapal");
+const u16 gObjectEventPal_Scyther[] = INCBIN_U16("graphics/object_events/palettes/scyther.gbapal");

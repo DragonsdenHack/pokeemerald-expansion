@@ -908,5 +908,7 @@ const u8 *const gMonFootprintTable[] =
 	[SPECIES_ARMALDO_PRIMAL] = gMonFootprint_ArmaldoPrimal,
 	[SPECIES_RELICANTH_PRIMAL] = gMonFootprint_RelicanthPrimal,
 	[SPECIES_MILOTICBOND] = gMonFootprint_MiloticBond,
+	[SPECIES_GYARADOSZ] = gMonFootprint_GyaradosZ,
+	[SPECIES_PORYGON31] = gMonFootprint_Porygon31,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };
