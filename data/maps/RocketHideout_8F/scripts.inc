@@ -1050,7 +1050,7 @@ RocketHideout_8F_Mision_Silph_text_14:
 RocketHideout_8F_Mision_Silph_text_15:
 .string "GIOVANNI: Os dije que a su debido\n"
 	.string "tiempo os contaría los origenes\l"
-	.string "del TEAM ROCKET y porqué hoy es\l"
+	.string "del TEAM ROCKET y por qué hoy es\l"
 	.string "tal y como lo conocéis, ahora que\l"
 	.string "habéis acumulado cierta\l"
 	.string "experiencia en esta región, y ante\l"

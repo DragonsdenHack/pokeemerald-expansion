@@ -527,40 +527,246 @@ LavenderTown_Dialogo_Obrero_Texto_1:
 	.string "ser vista a través de los libros de\l"
 	.string "historia.$"
 
+LavenderTown_Entrevista_Oak_Move_1:
+walk_in_place_right
+step_end
+
+LavenderTown_Entrevista_Oak_Move_1.1:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Entrevista_Oak_Move_2:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_2.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_3:
+walk_in_place_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_4:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_5:
+face_left
+delay_16
+delay_16
+face_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_6:
+face_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_7:
+face_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_8:
+walk_in_place_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_9:
+face_left
+step_end
+
+LavenderTown_Entrevista_Oak_Move_10:
+walk_down
+face_right
+step_end
+
+LavenderTown_Entrevista_Oak_Move_11:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
 LavenderTown_Entrevista_Oak::
 lock
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 18
+addobject 20
+addobject 19
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Entrevista_Oak_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Entrevista_Oak_Move_1.1
+waitmovement 0x0
+waitse
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Entrevista_Oak_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_4
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_5
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 20, LavenderTown_Entrevista_Oak_Move_7
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_4
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_7
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_8
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Entrevista_Oak_Texto_31 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 18, LavenderTown_Entrevista_Oak_Move_1.1
+waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+applymovement 19, LavenderTown_Entrevista_Oak_Move_10
+applymovement 18, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 20
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+applymovement 19, LavenderTown_Entrevista_Oak_Move_11
+applymovement 18, LavenderTown_Entrevista_Oak_Move_11
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Entrevista_Oak_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 18
+removeobject 20
+removeobject 19
+setvar VAR_UNUSED_0x40FF, 3
 release
 end
 
@@ -651,7 +857,7 @@ LavenderTown_Entrevista_Oak_Texto_18:
 	.string "Pero, hablando en serio…$"
 
 LavenderTown_Entrevista_Oak_Texto_19:
-	.string "...veo ya tan lejana, tan borrosa la\n"
+	.string "…veo ya tan lejana, tan borrosa la\n"
 	.string "KANTO del pasado, que a veces pienso\l"
 	.string "que no es más que un sueño. Un sueño\l"
 	.string "pavoroso.$"
@@ -706,8 +912,8 @@ LavenderTown_Entrevista_Oak_Texto_31:
 	.string "Aún es pronto para eso.$"
 
 LavenderTown_Entrevista_Oak_Texto_32:
-	.string "PERIODISTA: Oh, vaya. Como usted\n"
-	.string "quiera.$"
+	.string "PERIODISTA: Oh, vaya.\n"
+	.string "Como usted quiera.$"
 
 LavenderTown_Agatha::
 lock
@@ -771,7 +977,7 @@ setflag FLAG_HOENN_676
 removeobject 17
 playse SE_EXIT
 waitse
-setvar VAR_UNUSED_0x40F9, 2
+setvar VAR_UNUSED_0x40FF, 2
 delay 15
 release
 end

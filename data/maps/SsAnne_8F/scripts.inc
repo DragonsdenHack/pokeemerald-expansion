@@ -344,7 +344,7 @@ SsAnne_8F_Capitan_Text_19:
 .string "Tal vez tengas razón. ISLAS\n"
 	.string "SETE es una materia que aún tengo\l"
 	.string "pendiente por explorar al 100%. He\l"
-	.string "oido que entre las aguas que\l"
+	.string "oído que entre las aguas que\l"
 	.string "conectan las 7 grandes islas\l"
 	.string "existen ciertos islotes,\l"
 	.string "inexplorados pero habitados por\l"

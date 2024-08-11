@@ -540,9 +540,8 @@ Silph_11F_Bill_Presidente_Texto_25:
 Silph_11F_Bill_Presidente_Texto_26:
 .string "ANDRA: ¡Jah!\n"
 	.string "¡Esos FÓSILES no son suficientes\l"
-	.string "para tumbar a mi equipo\l"
-	.string "científico, aunque te los haya\l"
-	.string "dado BILL!$"
+	.string "para tumbar a mi equipo!\l"
+	.string "¡Aunque te los haya dado BILL!$"
 
 Silph_11F_Bill_Presidente_Texto_27:
 .string "BILL: No es posible…\n"

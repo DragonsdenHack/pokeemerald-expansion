@@ -29120,10 +29120,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_MILOTIC_MEGA] =
     {
         .baseHP        = 105,
-        .baseAttack    = 60,
-        .baseDefense   = 109,
-        .baseSpeed     = 91,
-        .baseSpAttack  = 140,
+        .baseAttack    = 65,
+        .baseDefense   = 99,
+        .baseSpeed     = 81,
+        .baseSpAttack  = 135,
         .baseSpDefense = 185,
         .type1 = TYPE_WATER,
         .type2 = TYPE_FAIRY,
