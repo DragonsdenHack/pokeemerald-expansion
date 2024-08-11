@@ -19750,9 +19750,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_MONSTER,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_REFRIGERATE, ABILITY_NONE, ABILITY_SNOW_WARNING},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_SNOW_WARNING},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -19778,9 +19778,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_CUTE_CHARM, ABILITY_PIXILATE},
+            .abilities = {ABILITY_PIXILATE, ABILITY_PIXILATE, ABILITY_PIXILATE},
         #else
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_CUTE_CHARM},
+            .abilities = {ABILITY_PIXILATE, ABILITY_PIXILATE},
         #endif
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = TRUE,
