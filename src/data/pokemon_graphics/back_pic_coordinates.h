@@ -4582,7 +4582,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_TYRANTRUM_X] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 11,
     },
     [SPECIES_ARCHEOPS_X] =
     {
