@@ -38,10 +38,10 @@ end
 CapeBrinkHouse1_Entrenador_Especial_Texto_1:
 .string "Oh, vaya. Parece que eres de esos\n"
 	.string "entrenadores a los que no les han\l"
-	.string "regalado nada, hay mucho crío que Se\l"
+	.string "regalado nada, hay mucho crío que se\l"
 	.string "cree especial solo porque ha recibido\l"
 	.string "algún POKÉMON raro o poderoso sin\l"
-	.string "haber hecho nada para Merecerlo, no\l"
+	.string "haber hecho nada para merecerlo, no\l"
 	.string "parece ser tu caso, me gustaría\l"
 	.string "comprobarlo.$"
 

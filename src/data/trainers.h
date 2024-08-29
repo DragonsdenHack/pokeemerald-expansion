@@ -21513,11 +21513,11 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_700] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_GUAY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
+        .trainerPic = TRAINER_PIC_FR_COOL_TRAINER_M,
+        .trainerName = _("EFRAN"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -21526,11 +21526,11 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_701] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_CALVO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerPic = TRAINER_PIC_CUE_BALL,
+        .trainerName = _("DIONI"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -21539,11 +21539,11 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_702] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_SUPERNECIO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerPic = TRAINER_PIC_SUPER_NERD,
+        .trainerName = _("GREG"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -22172,7 +22172,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER750),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER750},
+        .party = {.ItemCustomMoves = sParty_TRAINER750},
     },
     [TRAINER_TRAINER_751] =
     {

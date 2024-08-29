@@ -1899,7 +1899,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
 	.string "juego, puede ir de héroe o lo que\l"
 	.string "quiera pero lo cierto es que no\l"
 	.string "sigue ningún tipo de principios ni\l"
-	.string "persige algo en concreto, siquiera\l"
+	.string "persigue algo en concreto, siquiera\l"
 	.string "ha entrado a nuestra base para\l"
 	.string "-detener nuestros malvados\l"
 	.string "planes-, solo lo ha hecho porque\l"

@@ -40507,21 +40507,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER749[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER750[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER750[] = {
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 0,
+    .lvl = 22,
+    .species = SPECIES_MAGNEMITE,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_THUNDER_SHOCK, MOVE_SONIC_BOOM, MOVE_MAGNET_BOMB, MOVE_NONE}
     },
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 0,
+    .lvl = 23,
+    .species = SPECIES_SLOWPOKE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_YAWN, MOVE_WATER_GUN, MOVE_CONFUSION, MOVE_NONE}
     }
     
 };

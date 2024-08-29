@@ -558,6 +558,7 @@ NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
 givemon SPECIES_DUNSPARCE_OLD, 5, ITEM_TART_APPLE
+changeavatar 1
 release
 end
 
