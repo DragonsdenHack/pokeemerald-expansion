@@ -208,6 +208,7 @@ additem 586
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40FF, 1
 setflag FLAG_BADGE06_GET
 settrainerflag TRAINER_JENNY_2
 settrainerflag TRAINER_CARLEE
@@ -386,6 +387,7 @@ additem 616
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40FF, 1
 setflag FLAG_BADGE03_GET
 settrainerflag TRAINER_WINSTON_5
 settrainerflag TRAINER_ETHAN_4
@@ -527,6 +529,7 @@ additem 621
 msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40FF, 1
 setvar VAR_ROUTE111_STATE, 3
 setflag FLAG_BADGE01_GET
 settrainerflag TRAINER_STEVE_1
@@ -671,6 +674,7 @@ msgbox Cerulean_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 additem 585
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
+addvar VAR_UNUSED_0x40FF, 1
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
 setflag FLAG_BADGE02_GET
@@ -803,6 +807,7 @@ additem 588
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40FF, 1
 setflag FLAG_BADGE05_GET
 settrainerflag TRAINER_MIGUEL_1
 settrainerflag TRAINER_ANNA_AND_MEG_3
@@ -1073,6 +1078,7 @@ additem 601
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40FF, 1
 setflag FLAG_BADGE04_GET
 setvar VAR_ROUTE107_STATE, 3
 settrainerflag TRAINER_JESSICA_3

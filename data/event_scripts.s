@@ -2937,3 +2937,7 @@ Text_EVChecker_3:
 	.include "data/maps/PokemonTower_S2/scripts.inc"
 
 	.include "data/maps/PokemonTower_S3/scripts.inc"
+
+	.include "data/maps/LavenderTown_Pasado/scripts.inc"
+
+	.include "data/maps/LavenderTown_Pasado_Gym/scripts.inc"

@@ -569,7 +569,9 @@
     "Guardia_Cave_2",
     "PokemonTower_S1",
     "PokemonTower_S2",
-    "PokemonTower_S3"
+    "PokemonTower_S3",
+    "LavenderTown_Pasado",
+    "LavenderTown_Pasado_Gym"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",

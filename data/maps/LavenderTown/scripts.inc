@@ -652,7 +652,7 @@ msgbox LavenderTown_Entrevista_Oak_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 18, LavenderTown_Entrevista_Oak_Move_3
 waitmovement 0x0
 msgbox LavenderTown_Entrevista_Oak_Texto_4 MSGBOX_AUTOCLOSE
-delay 15
+delay 25
 msgbox LavenderTown_Entrevista_Oak_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 20, LavenderTown_Entrevista_Oak_Move_4
 waitmovement 0x0
@@ -737,11 +737,13 @@ delay 15
 delay 10
 applymovement 20, LavenderTown_Entrevista_Oak_Move_6
 waitmovement 0x0
-delay 10
+delay 20
 msgbox LavenderTown_Entrevista_Oak_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
 playse SE_PIN
 applymovement 18, LavenderTown_Entrevista_Oak_Move_1.1
 waitmovement 0x0
+delay 15
 msgbox LavenderTown_Entrevista_Oak_Texto_32 MSGBOX_AUTOCLOSE
 applymovement 18, LavenderTown_Entrevista_Oak_Move_3
 waitmovement 0x0
@@ -782,8 +784,8 @@ LavenderTown_Entrevista_Oak_Texto_2:
 
 LavenderTown_Entrevista_Oak_Texto_3:
 	.string "Investigador de renombre, brillante\n"
-	.string "entrenador; para muchos la mayor leyenda\l"
-	.string "viva de esta región.$"
+	.string "entrenador; para muchos, la mayor\l"
+	.string "leyenda viva de esta región.$"
 
 LavenderTown_Entrevista_Oak_Texto_4:
 	.string "Dígame. Alguien como usted,\n"
@@ -821,7 +823,7 @@ LavenderTown_Entrevista_Oak_Texto_10:
 	.string "¿Qué les diría?$"
 
 LavenderTown_Entrevista_Oak_Texto_11:
-	.string "OAK: Que el mundo es mucho más amplio\n"
+	.string "OAK: El mundo es mucho más amplio\n"
 	.string "que un simple combate entre dos\l"
 	.string "equipos de seis POKÉMON.$"
 
