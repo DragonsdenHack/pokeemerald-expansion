@@ -161,7 +161,7 @@ end
 
 MtMortar4_Encuentro_Anibal_Texto_1:
 .string "????: Come on, MACHOKE!\n"
-	.string "Don't hesitate, try to do your best!$"
+	.string "Don't hesitate. Try to do your best!$"
 
 MtMortar4_Encuentro_Anibal_Texto_2:
 .string "Choke!$"
@@ -170,7 +170,7 @@ MtMortar4_Encuentro_Anibal_Texto_3:
 .string "Enough.$"
 
 MtMortar4_Encuentro_Anibal_Texto_4:
-	.string "We've been fighting for hours, it's time\n"
+	.string "We've been fighting for hours. It's time\n"
 	.string "for the recovery phase under the\l"
 	.string "waterfall.$"
 
@@ -179,11 +179,11 @@ MtMortar4_Encuentro_Anibal_Texto_5:
 
 MtMortar4_Encuentro_Anibal_Texto_6:
 .string "Who's there?\n"
-	.string "Come on, don't hide!$"
+	.string "Come on. Don't hide!$"
 
 MtMortar4_Encuentro_Anibal_Texto_7:
 .string "So you are searching for LEADER CHUCK.\n"
-	.string "Well, is in front of you right now.$"
+	.string "Well, you're chatting him up right now.$"
 
 MtMortar4_Encuentro_Anibal_Texto_8:
 .string "CHUCK: My wife wants me to\n"

@@ -25,4 +25,4 @@ end
 OlivineCity_House1_Text_2:
 	.string "My daughter loves the beach. Just wait\n"
 	.string "until I take her to the festivals in\l"
-	.string "CIANWOOD CITY, she'll have a blast.$"
+	.string "CIANWOOD CITY. She'll have a blast.$"

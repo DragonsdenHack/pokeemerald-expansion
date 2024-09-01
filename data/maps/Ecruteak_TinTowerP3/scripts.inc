@@ -61,7 +61,7 @@ Ecruteak_TinTowerp3_Text_5:
 	.string "It is essential to understand that, in\n"
 	.string "any situation, there are many factors\l"
 	.string "beyond your control, and even if you do\l"
-	.string "your best, you are just a part of the\l"
+	.string "your best, you are just part of the\l"
 	.string "whole. Ruminating on everything beyond\l"
 	.string "our control is simply a distraction and\l"
 	.string "a waste of energy; the only thing that\l"

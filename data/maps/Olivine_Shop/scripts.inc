@@ -31,8 +31,8 @@ release
 end
 
 OlivineCity_Shop_Text_3:
-	.string "Buy MYSTIC WATER and you'll see how hard\n"
-	.string "WATER-TYPE POKÉMON hit!$"
+	.string "Buy MYSTIC WATER, and you'll see how\n"
+	.string "hard WATER-TYPE POKÉMON hit!$"
 
 
 
@@ -44,8 +44,8 @@ release
 end
 
 OlivineCity_Shop_Text_4:
-	.string "2 years ago, they used to sell SACRED\n"
-	.string "ASH. Now ECRUTEAK CITY is the only one\l"
+	.string "Two years ago, they used to sell SACRED\n"
+	.string "ASH. Now, ECRUTEAK CITY is the only one\l"
 	.string "that keeps selling it. It's\l"
 	.string "understandable, since they are limited.\l"
 	.string "Within another couple of years, they\l"

@@ -39,8 +39,8 @@ release
 end
 
 TinTowerP4_4_Texto_1:
-	.string "A good rest wouldn't hurt, BELL TOWER is\n"
-	.string "long and tough.$"
+	.string "A good rest wouldn't hurt.\n"
+	.string "BELL TOWER is arduous.$"
 
 TinTowerP4_4_Texto_2:
 	.string "Your POKÉMON are ready to continue\n"
@@ -102,7 +102,7 @@ TinTowerP4_EventScript_TakeHonedge::
 
 
 TinTowerP4_Text_TakeHonedge:
-	.string "Is not very common to see youngsters\n"
+	.string "It's not very common to see youngsters\n"
 	.string "like you these days.$"
 
 
@@ -129,6 +129,6 @@ TinTowerP4_Text_MensajeHonedge:
 
 TinTowerP4_Text_4:
 	.string "HONEDGE can serve as a shield against\n"
-	.string "the most adverse situations, something\l"
-	.string "to consider given the environment you\l"
-	.string "navigate.$"
+	.string "the most adverse situations. It\l"
+	.string "depends on how you navigate it under\l"
+	.string "those situations.$"

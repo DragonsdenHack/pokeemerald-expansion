@@ -11,7 +11,7 @@ end
 OlivineBoat_Text_1:
 	.string "The first connection point with\n"
 	.string "OLIVINE PORT, obviously, will be\l"
-	.string "VERMILLION CITY.$"
+	.string "VERMILION CITY.$"
 
 
 
@@ -87,7 +87,7 @@ release
 end
 
 OlivineBoat_Text_7:
-	.string "I think I'm getting dizzy, these parties\n"
+	.string "I think I'm getting dizzy. These parties\n"
 	.string "are not for me.$"
 
 

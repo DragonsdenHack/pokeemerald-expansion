@@ -9,12 +9,12 @@ release
 end
 
 OlivineBoat4_Text_1:
-	.string "Remember, {PLAYER}, we've only just\n"
+	.string "Remember, {PLAYER}, we've just barely\n"
 	.string "scratched the surface when it comes to\l"
-	.string "mysteries of the POKÉMON WORLD.\l"
-	.string "Perhaps your journey through JOHTO will\l"
-	.string "allow us to see a bit more of that\l"
-	.string "iceberg.$"
+	.string "mysteries surrounding the POKÉMON\l"
+	.string "WORLD. Perhaps your journey through\l"
+	.string "JOHTO will allow us to witness a bit more\l"
+	.string "of that iceberg.$"
 
 Olivine_Boat4_Combate_Capitan::
 lock
@@ -56,7 +56,7 @@ release
 end
 
 Olivine_Boat4_Combate_Capitan_Texto_11.1:
-.string "You obtained a WHIRLWIND PASSER\n"
+.string "You obtained a WHIRLWIND CROSSER\n"
 	.string "from the CAPTAIN!!$"
 
 Olivine_Boat4_Combate_Capitan_Texto_1:
@@ -68,42 +68,41 @@ Olivine_Boat4_Combate_Capitan_Texto_2:
 	.string "LT. SURGE told me about you all, and he\n"
 	.string "didn't have very kind words for TEAM\l"
 	.string "ROCKET. He warned me about some of the\l"
-	.string "worst thieves, the shame of KANTO,\l"
+	.string "worst thieves-the shame of KANTO,\l"
 	.string "according to him.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_3:
 	.string "That's what I thought too, until\n"
 	.string "GIOVANNI himself, your LEADER,\l"
 	.string "contacted me shortly after all the\l"
-	.string "commotion of the POKÉMON LEAGUE,\l"
-	.string "letting me know, just as your colleague\l"
+	.string "commotion of the POKÉMON LEAGUE. He\l"
+	.string "let me know, just as your colleague\l"
 	.string "said, the purpose of that mysterious\l"
 	.string "stone: it was nothing more than a part\l"
-	.string "of that POKÉMON called DEOXYS. With a\l"
-	.string "DNA impossible to replicate and\l"
-	.string "unmatched PSYCHIC powers. I was\l"
-	.string "stunned when he sent me its complete\l"
-	.string "data.$"
+	.string "of that POKÉMON called DEOXYS. With DNA\l"
+	.string "impossible to replicate and unmatched\l"
+	.string "PSYCHIC powers. I was stunned when he\l"
+	.string "sent me its complete data.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_4:
-	.string "But that's not all, he also told me about\n"
-	.string "the MEGA STONES, and some\l"
+	.string "But that's not all. He also told me about\n"
+	.string "the MEGA STONES and some\l"
 	.string "PSEUDO-LEGENDARIES that could\l"
-	.string "benefit from them, reaching the, until\l"
-	.string "recently, impossible 700 BASE.$"
+	.string "benefit from them, reaching\l"
+	.string "the-impossible until recently-700 BASE.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_5:
 	.string "After everything that's happened, it's\n"
-	.string "clear to me that TEAM ROCKET knows how\l"
-	.string "to repay a favor and by a far way\l"
-	.string "better. Know that you have a friend and\l"
-	.string "ally here for whatever you may need.$"
+	.string "clear to me TEAM ROCKET knows how to\l"
+	.string "repay a favor and in spades. Know that\l"
+	.string "you have a friend and ally here for\l"
+	.string "whatever you may need.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_6:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Boat4_Combate_Capitan_Texto_7:
-.string "And a last thing.$"
+.string "And one last thing.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_8:
 	.string "I still remember our battle; you only\n"

@@ -19,8 +19,8 @@ end
 
 Ecruteak_TinTower_Text_1:
 	.string "Here we learn the unity of opposites.\n"
-	.string "You must be mobile and also immobile,\l"
-	.string "defensive and offensive.$"
+	.string "You must be mobile and also immobile.\l"
+	.string "Defensive and offensive.$"
 
 
 
@@ -97,7 +97,5 @@ end
 Ecruteak_TinTower_Text_6:
 	.string "Among the LEGENDARY POKÉMON, it's said\n"
 	.string "that SUICUNE is the closest to HO-OH.\l"
-	.string "Also, I've heard there might be a\l"
-	.string "connection with the UNOWN POKÉMON. The\l"
-	.string "UNOWN POKÉMON must have some\l"
-	.string "connection with SUICUNE.$"
+	.string "I've also heard SUICUNE might have a\l"
+	.string "connection with the POKÉMON UNOWN.$"

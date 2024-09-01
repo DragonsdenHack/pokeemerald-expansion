@@ -28,9 +28,10 @@ release
 end
 
 NewBarkTown_Text_2:
-	.string "And in less than 3 years, everything's\n"
-	.string "ready to start THE TRUMAN SHOW! Oops!\l"
-	.string "Sorry! I shouldn't have said that!$"
+	.string "And in less than three years,\n"
+	.string "everything's ready to start THE TRUMAN\l"
+	.string "SHOW! Oops! Sorry! I shouldn't have said\l"
+	.string "that!$"
 
 NewBarkTown3::
 end
@@ -88,24 +89,23 @@ NewBarkTown_Encuentro_Elm_Texto_1:
 
 NewBarkTown_Encuentro_Elm_Texto_2:
 	.string "With the borders just recently opened\n"
-	.string "and this area is filled with curious\l"
+	.string "and this area filled with curious\l"
 	.string "individuals eager to be the first to\l"
-	.string "visit routes 26 and 27, which have\l"
-	.string "remained untouched by human contact\l"
-	.string "for years, except for the few who\l"
-	.string "already lived there…$"
+	.string "visit ROUTEs 26 and 27, untouched by\l"
+	.string "human contact for years except for the\l"
+	.string "few who already lived there…$"
 
 NewBarkTown_Encuentro_Elm_Texto_3:
 	.string "You're unlike the others, aren't you? I\n"
 	.string "assume you're not venturing to ROUTE\l"
-	.string "26 or 27, instead you are going to MT.\l"
+	.string "26 or 27. Instead, you are going to MT.\l"
 	.string "SILVER, right?$"
 
 NewBarkTown_Encuentro_Elm_Texto_4:
-	.string "I must admit, you've surprised me, 5\n"
-	.string "JOHTO LEADERS already{PAUSE 25}…{PAUSE 25} When GIOVANNI\l"
+	.string "I must admit, you've surprised me. Five\n"
+	.string "JOHTO LEADERS already… When GIOVANNI\l"
 	.string "talked to me about you, I thought he\l"
-	.string "was exaggerating. Now I see there's no\l"
+	.string "was exaggerating. Now, I see there's no\l"
 	.string "one better than you to travel through\l"
 	.string "JOHTO and face its past LEADERS before\l"
 	.string "their legacies are lost forever.$"

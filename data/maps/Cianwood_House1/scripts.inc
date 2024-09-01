@@ -17,8 +17,8 @@ Cianwood_House1_Text_1:
 	.string "maintain his physical peak well into his\l"
 	.string "forties, but time catches up with\l"
 	.string "everyone sooner or later… Now that he's\l"
-	.string "passed 50 years old, he'll have to make\l"
-	.string "a decision regarding his faithful\l"
+	.string "passed fifty years old, he'll have to\l"
+	.string "make a decision regarding his faithful\l"
 	.string "POKÉMON.$"
 
 
@@ -34,8 +34,8 @@ Cianwood_House1_Text_2:
 	.string "One of the three roaming beasts\n"
 	.string "blessed this city with the fruits of the\l"
 	.string "sea. It had been over half a decade\l"
-	.string "since I last spotted the lord of the\l"
-	.string "northern winds until finally, one fine\l"
+	.string "since I last spotted the LORD OF THE\l"
+	.string "NORTHERN WINDS until finally, one fine\l"
 	.string "morning, days after all the commotion\l"
 	.string "at the POKÉMON LEAGUE, I saw him return\l"
 	.string "to his beloved CIANWOOD CITY.$"

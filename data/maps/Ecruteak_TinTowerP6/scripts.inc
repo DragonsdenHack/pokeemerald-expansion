@@ -45,7 +45,7 @@ end
 Ecruteak_TinTowerp6_Text_4:
 	.string "From our GRAND MASTER's EEVEE, all\n"
 	.string "other EEVEE descend. That EEVEE\l"
-	.string "masters all types and is as ancient as\l"
+	.string "masters all TYPEs and is as ancient as\l"
 	.string "ECRUTEAK CITY itself.$"
 
 

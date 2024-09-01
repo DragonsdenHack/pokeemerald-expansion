@@ -9,9 +9,9 @@ release
 end
 
 OlivineCity_Pub_Text_1:
-	.string "This place is open 24 hours a day. It\n"
-	.string "was very popular among sailors to come\l"
-	.string "here at 5-6 am, until it became a\l"
+	.string "This place is open twenty-four hours a\n"
+	.string "day. It was very popular among sailors\l"
+	.string "to come here at 5-6AM, until it became a\l"
 	.string "meeting point for retired sailors or\l"
 	.string "those returning from work. The\l"
 	.string "tradition has persisted to this day.$"
@@ -32,9 +32,9 @@ end
 
 OlivineCity_Pub_Text_3:
 	.string "The CELADON CITY restaurant is a joke\n"
-	.string "compared to this place. Here they bring\l"
+	.string "compared to this place. Here, they bring\l"
 	.string "you everything freshly caught from the\l"
-	.string "sea, I'm going to feast!$"
+	.string "sea. I'm going to feast!$"
 
 
 
@@ -47,7 +47,7 @@ end
 
 OlivineCity_Pub_Text_4:
 .string "In the sea, you can only trust yourself!\n"
-.string "And I'm in my best!$"
+.string "And I'm in top form!$"
 
 
 
@@ -146,20 +146,20 @@ step_end
 Olivine_Pub_Mision_Secundaria_Texto_1:
 	.string "I'm trying to get my life back on track\n"
 	.string "after years of choosing the fast and\l"
-	.string "easy path. Now It's time for me to make\l"
+	.string "easy path. Now, it's time for me to make\l"
 	.string "up for lost time…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_2:
 .string "{PAUSE 20} …{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
-	.string "Oh{PAUSE 15}…{PAUSE 15} So you're something more than those\n"
-	.string "GOLDENROD executives, maybe you can…$"
+	.string "Oh… So you're something more than those\n"
+	.string "GOLDENROD EXECUTIVES. Maybe you can…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
-	.string "Listen, GOLDENROD is very big. I used to\n"
+	.string "Listen. GOLDENROD is very big. I used to\n"
 	.string "be part of a large network of POKÉMON\l"
-	.string "trafficking. Eventually, I left, I\l"
+	.string "trafficking. Eventually, I left-I\l"
 	.string "couldn't stand some of their practices.\l"
 	.string "Now I'm here, trying to become a SAILOR.$"
 
@@ -172,16 +172,16 @@ Olivine_Pub_Mision_Secundaria_Texto_5:
 	.string "back to me.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_6:
-	.string "The network of POKÉ-TRAFFICKING is on\n"
-	.string "the GOLDENROD underground, it's always\l"
+	.string "The network of POKÉ-TRAFFICKING is in\n"
+	.string "the GOLDENROD UNDERGROUND. It's always\l"
 	.string "protected by some BIKER. The only way\l"
 	.string "to reach the boss is fighting. There's no\l"
 	.string "other option. I trust you.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_7:
-	.string "Have you been able to get in? remember\n"
-	.string "the POKÉ-TRAFFICKING is on the\l"
-	.string "GOLDENROD underground, always\l"
+	.string "Have you been able to get in? Remember\n"
+	.string "that the POKÉ-TRAFFICKING is in the\l"
+	.string "GOLDENROD UNDERGROUND, always\l"
 	.string "protected by some BIKER.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_8:
@@ -196,14 +196,14 @@ Olivine_Pub_Mision_Secundaria_Texto_10:
 	.string "I thought I'd never see it again.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_11:
-	.string "You're amazing, {PLAYER}? You must be\n"
+	.string "You're amazing. {PLAYER}? You must be\n"
 	.string "one of the most powerful TRAINERS in\l"
 	.string "this region, if not the most powerful.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_12:
 	.string "I know this isn't a lot for someone like\n"
 	.string "you, but I rescued this strange\l"
-	.string "POKÉMON from being selled in the black\l"
+	.string "POKÉMON from being sold on the black\l"
 	.string "market. It's yours.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_13:
@@ -211,13 +211,13 @@ Olivine_Pub_Mision_Secundaria_Texto_13:
 
 Olivine_Pub_Mision_Secundaria_Texto_14:
 	.string "I think it's the starter from some\n"
-	.string "distant region. it can change type\l"
+	.string "distant region. It can change type\l"
 	.string "depending on the move it executes. It's\l"
 	.string "very versatile!$"
 
 Olivine_Pub_Mision_Secundaria_Texto_15:
 	.string "Following an honest life will give you\n"
 	.string "more satisfaction than a cheating life.\l"
-	.string "Even with all the rewards in the word,\l"
+	.string "Even with all the rewards in the world,\l"
 	.string "the latter won't provide it. Keep that in\l"
 	.string "mind.$"

@@ -117,7 +117,7 @@ msgbox Route42Documento_Text_100, MSGBOX_SIGN
 end
 
 Route42Documento_Text_100:
-	.string "MT.MORTAR\n"
+	.string "MT. MORTAR\n"
 	.string "WATERFALL CAVE INSIDE$"
 
 

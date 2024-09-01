@@ -128,5 +128,5 @@ end
 
 Route39Documento_Text_101:
 	.string "MOOMOO FARM\n"
-	.string "Try our fresh delicious milk,\l"
-	.string "at the best price!$"
+	.string "Try our fresh delicious\l"
+	.string "milk-at the best price!$"

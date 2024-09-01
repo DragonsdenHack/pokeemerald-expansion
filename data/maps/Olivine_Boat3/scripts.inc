@@ -9,9 +9,9 @@ end
 
 OlivineBoat3_1_Texto_1:
 	.string "Some people say that the CAPTAIN is\n"
-	.string "the same that the S.S.ANNE, since that\l"
-	.string "incident in VERMILLION I don't trust him\l"
-	.string "at all.$"
+	.string "the same as that of the S.S. ANNE. Since\l"
+	.string "that incident in VERMILLION, I don't\l"
+	.string "trust him at all.$"
 
 
 
@@ -23,8 +23,9 @@ release
 end
 
 OlivineBoat3_2_Texto_1:
-	.string "In 3 years, no one will remember what\n"
-	.string "happened 5 years ago. For the future!$"
+	.string "In three years, no one will remember\n"
+	.string "what happened five years ago. For the\l"
+	.string "future!$"
 
 
 
@@ -35,9 +36,9 @@ release
 end
 
 OlivineBoat3_3_Texto_1:
-	.string "It's said that, in a distant region,\n"
-	.string "there's a bull even stronger and bulker\l"
-	.string "that TAUROS, but slower.$"
+	.string "They say that, in a distant region,\n"
+	.string "there's a bull even stronger and bulkier\l"
+	.string "than TAUROS, but slower.$"
 
 
 OlivineBoat3_5::
@@ -49,8 +50,8 @@ end
 
 OlivineBoat3_Text_5:
 .string "Easy!\n"
-.string "There's enough for everyone,\l"
-.string "everything is under control!$"
+.string "There's enough for everyone!\l"
+.string "Everything is under control!$"
 
 
 
@@ -62,9 +63,9 @@ end
 
 OlivineBoat3_Text_6:
 	.string "Come on, nobody knows aquatic POKÉMON\n"
-	.string "and PSEUDOLEGENDARY like the CAPTAIN\l"
+	.string "and PSEUDO-LEGENDARY like the CAPTAIN\l"
 	.string "does. Although I couldn't identify one\l"
-	.string "of his POKÉMON, it looked like a huge\l"
+	.string "of his POKÉMON. It looked like a huge\l"
 	.string "dragonfly with dragon features.$"
 
 OlivineBoat3_7::
@@ -75,10 +76,10 @@ end
 
 OlivineBoat3_7_Texto_1:
 	.string "Does the PORYGON at the KANTO GAME\n"
-	.string "CORNER cost 9999 COINS? We'll get 10 of\l"
-	.string "them, and maybe a couple of those bikes\l"
-	.string "in CERULEAN CITY, I heard they're quite\l"
-	.string "exclusive.$"
+	.string "CORNER cost 9999 COINS? We'll get ten\l"
+	.string "of them-and maybe a couple of those\l"
+	.string "bikes in CERULEAN CITY. I heard they're\l"
+	.string "quite exclusive.$"
 
 
 
@@ -116,9 +117,9 @@ release
 end
 
 OlivineBoat3_10_Texto_1:
-	.string "Why do you want 10 PORYGON if you're\n"
+	.string "Why do you want ten PORYGON if you're\n"
 	.string "not going to train any of them\l"
-	.string "afterward, and you don't even know how\l"
+	.string "afterward? And you don't even know how\l"
 	.string "to ride a bike.$"
 
 
@@ -163,12 +164,12 @@ release
 end
 
 OlivineBoat3_Text_15:
-	.string "Don't get fooled; the only aquatic\n"
+	.string "Don't be fooled; the only aquatic\n"
 	.string "POKÉMON deserving of a COOL TRAINER\l"
 	.string "like me are GYARADOS, KINGDRA,\l"
 	.string "FERALIGATR, and BLASTOISE. The rest\l"
 	.string "are just chump change for lower-class\l"
-	.string "TRAINERS. … … WISHIWASHI, KYOGRE and\l"
+	.string "TRAINERS. … … WISHIWASHI, KYOGRE, and\l"
 	.string "SUICUNE? What are you talking about!?$"
 
 
@@ -182,7 +183,7 @@ end
 
 OlivineBoat3_Text_16:
 	.string "They served delicious bivalves on the\n"
-	.string "SS. ANNE, what were they called?\l"
+	.string "S.S. ANNE. What were they called?\l"
 	.string "CLOYSTER! Are there none here in\l"
 	.string "JOHTO?$"
 
@@ -249,16 +250,17 @@ Olivine_Boat_3_Ceremonia_Texto_1:
 	.string "from KANTO in its PORT, and vice versa.\l"
 	.string "Is there a greater reason for\l"
 	.string "celebration than the union between two\l"
-	.string "sister regions like KANTO and JOHTO,\l"
-	.string "which, due to an unfortunate series of\l"
+	.string "sister regions like KANTO and JOHTO?\l"
+	.string "They'd ended up in conflict due to an\l"
+	.string "unfortunate series of\l"
 	.string "misunderstandings and individual\l"
 	.string "initiatives that didn't represent the\l"
-	.string "global interest, ended up in conflict\l"
-	.string "and now rediscovers peace? Let's\l"
-	.string "celebrate, for this is just the first\l"
-	.string "step; in 3 years, no one will remember\l"
-	.string "what happened 5 years ago! Hooray\l"
-	.string "OLIVINE CITY! Hooray the KANTO-JOHTO\l"
+	.string "global interest, but now they've\l"
+	.string "rediscovered peace. Let's celebrate,\l"
+	.string "for this is just the first step; in three\l"
+	.string "years, no one will remember what\l"
+	.string "happened five years ago! Hooray,\l"
+	.string "OLIVINE CITY! Hooray, the KANTO-JOHTO\l"
 	.string "union!$"
 
 Olivine_Boat_3_Ceremonia_Texto_2:
@@ -347,17 +349,15 @@ Olivine_Boat3_Capitan_Texto_1:
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Boat3_Capitan_Texto_2:
-	.string "Can't a person even sleep peacefully on\n"
+	.string "Can't a person sleep peacefully even in\n"
 	.string "their own shi…!?$"
 
 Olivine_Boat3_Capitan_Texto_3:
-.string "Huh…\n"
-	.string "What do I see!?\l"
-	.string "{PLAYER}!\l"
-	.string "It is you, brave daring!\l"
-	.string "Do you remember me?\l"
-	.string "I'm the S.S. ANNE's CAPTAIN, I got\l"
-	.string "assigned to manage this ship now.$"
+	.string "Huh… What do my eyes witness!?\n"
+	.string "{PLAYER}! It is you, daring brave!\l"
+	.string "Don't you remember me? I'm the S.S. ANNE's\l"
+	.string "CAPTAIN. I got assigned to manage this\l"
+	.string "ship now.$"
 
 Olivine_Boat3_Capitan_Texto_4:
 	.string "Why don't you come by my cabin? I trust\n"

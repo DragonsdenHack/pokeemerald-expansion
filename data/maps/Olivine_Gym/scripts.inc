@@ -9,13 +9,13 @@ release
 end
 
 OlivineCity_Gym_Text_2:
-	.string "I see CROM at such a distant level, and\n"
-	.string "here I am with my ONIX and MAGNEMITE.\l"
-	.string "He says not to worry and to focus on\l"
-	.string "the process, but I believe there are\l"
-	.string "TRAINERS and generations that are\l"
-	.string "unique. This one, unfortunately, is\l"
-	.string "living his last stand.$"
+	.string "I see CROM so far above everyone, but\n"
+	.string "here I am with just my ONIX and\l"
+	.string "MAGNEMITE. He says not to worry-just\l"
+	.string "focus on the process-but I believe each\l"
+	.string "generation and their TRAINERs are\l"
+	.string "unique. Unfortunately though, this\l"
+	.string "one's on its last legs.$"
 
 
 
@@ -76,9 +76,9 @@ release
 end
 
 Olivine_Gym_Combate_Crom_Texto_11.3:
-	.string "With ROCK POLISH you'll unleash the\n"
+	.string "With ROCK POLISH, you'll unleash the\n"
 	.string "offensive potential of many ROCK and\l"
-	.string "STEEL TYPE POKÉMON. RHYPERIOR and\l"
+	.string "STEEL POKÉMON. RHYPERIOR and\l"
 	.string "METAGROSS will be real threats.$"
 
 Olivine_Gym_Combate_Crom_Texto_11.10:
@@ -103,18 +103,19 @@ Olivine_Gym_Combate_Crom_Texto_1:
 
 Olivine_Gym_Combate_Crom_Texto_2:
 	.string "You know the STEEL TYPE, right? This\n"
-	.string "gym specializes in it, no other type has\l"
+	.string "GYM specializes in it. No other TYPE has\l"
 	.string "as many resistances. When combined\l"
-	.string "with types like FLYING or PSYCHIC, the\l"
+	.string "with TYPEs like FLYING or PSYCHIC, the\l"
 	.string "advantage becomes absurd.$"
 
 Olivine_Gym_Combate_Crom_Texto_3:
-	.string "Many in JOHTO still don't know it; some\n"
-	.string "still believe that MAGNEMITE is a pure\l"
-	.string "ELECTRIC TYPE, especially in KANTO. But\l"
-	.string "my work in OLIVINE CITY has helped\l"
-	.string "raise awareness of this type. JASMINE\l"
-	.string "will surely bring it even more into the\l"
+	.string "Many in JOHTO still don't know about the\n"
+	.string "STEEL TYPE; some still believe that\l"
+	.string "MAGNEMITE is a pure ELECTRIC TYPE,\l"
+	.string "especially in KANTO. But my work in\l"
+	.string "OLIVINE CITY has helped raise\l"
+	.string "awareness of this TYPE. JASMINE will\l"
+	.string "surely bring it even more into the\l"
 	.string "spotlight.$"
 
 Olivine_Gym_Combate_Crom_Texto_4:
@@ -128,11 +129,11 @@ Olivine_Gym_Combate_Crom_Texto_5:
 Olivine_Gym_Combate_Crom_Texto_6:
 	.string "Despite your youth, you've already seen\n"
 	.string "many things and visited many places,\l"
-	.string "and there's still more ahead{PAUSE 15}…{PAUSE 15} Battles\l"
+	.string "and there's still more ahead… Battles\l"
 	.string "like these are what give meaning to\l"
 	.string "your journey through JOHTO, right? Well\l"
-	.string "then, let's not waste any more time,\l"
-	.string "let's see if you can even slightly bend\l"
+	.string "then, let's not waste any more time.\l"
+	.string "Let's see if you can even slightly bend\l"
 	.string "the will of my resilient POKÉMON!$"
 
 Olivine_Gym_Combate_Crom_Texto_7:
@@ -145,14 +146,14 @@ Olivine_Gym_Combate_Crom_Texto_8:
 	.string "SKARMORY since that day, long ago, when\l"
 	.string "it transformed for the last time. I\l"
 	.string "thought I had already discovered the\l"
-	.string "secret of steel that day, but it seems\l"
+	.string "secret of STEEL that day, but it seems\l"
 	.string "there is always something new to learn.$"
 
 Olivine_Gym_Combate_Crom_Texto_9:
 	.string "I will be eternally grateful to you, as I\n"
 	.string "have just concluded my time in OLIVINE\l"
 	.string "CITY with a battle worthy of being\l"
-	.string "witnessed in the POKÉMON OLYMPUS.\l"
+	.string "witnessed in the OLYMPUS of POKÉMON.\l"
 	.string "Therefore, I want you to take care of\l"
 	.string "this little one.$"
 
@@ -169,16 +170,16 @@ Olivine_Gym_Combate_Crom_Texto_10:
 
 Olivine_Gym_Combate_Crom_Texto_11:
 	.string "Its evolution is one of my favorite\n"
-	.string "POKÉMON, its profile as a STEEL TYPE is\l"
-	.string "unique. Thanks to FIGHTING TYPE and\l"
-	.string "its ability to concentrate, it will\l"
+	.string "POKÉMON. Its profile as a STEEL TYPE is\l"
+	.string "unique. Thanks to its FIGHTING TYPE\l"
+	.string "and its ability to concentrate, it will\l"
 	.string "master STEEL like few others. I've\l"
 	.string "taken the trouble to equip it with a\l"
 	.string "little gift that will enhance its power\l"
 	.string "even more.$"
 
 Olivine_Gym_Combate_Crom_Texto_12:
-	.string "And one last thing, you should attend\n"
+	.string "And one last thing-you should attend\n"
 	.string "the opening event of OLIVINE PORT.\l"
 	.string "Take this.$"
 
@@ -191,7 +192,7 @@ Olivine_Gym_Combate_Crom_Texto_13:
 Olivine_Gym_Combate_Crom_Texto_14:
 	.string "I don't have much left to do here. I'll\n"
 	.string "pack my bags soon and leave OLIVINE\l"
-	.string "CITY, maybe once the buzz from the\l"
+	.string "CITY. Maybe once the buzz from the\l"
 	.string "PORT opening settles.$"
 
 
@@ -217,22 +218,22 @@ release
 end
 
 OlivineGym_Gym_Dude_Texto_1:
-	.string "Our LEADER is not here right now, saying\n"
-	.string "he wanted to discuss some things with\l"
-	.string "his old friend: the LIGHTHOUSE owner.$"
+	.string "Our LEADER went outside, he said he\n"
+	.string "wanted to discuss some things with his\l"
+	.string "old friend: the LIGHTHOUSE owner.$"
 
 OlivineGym_Gym_Dude_Texto_2:
-	.string "I can't believe it yet, you've defeated\n"
+	.string "I still can't believe it. You've defeated\n"
 	.string "CROM! You possess the required\l"
 	.string "determination to master the STEEL\l"
 	.string "TYPE! Don't let anyone bend it!$"
 
 OlivineGym_Gym_Dude_Texto_3:
-	.string "It's said CROM was the one who created\n"
+	.string "They say CROM was the one who created\n"
 	.string "the STEEL TYPE, becoming its god. It is\l"
 	.string "just beliefs, but… Can you defeat the\l"
-	.string "myth? Neither FIRE nor GROUND TYPE will\l"
-	.string "give you a clear advantage, man!$"
+	.string "myth? Neither FIRE nor GROUND TYPEs\l"
+	.string "will give you a clear advantage, man!$"
 
 
 

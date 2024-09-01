@@ -35,8 +35,8 @@ release
 end
 
 Ecruteak_TinTowerp9_Text_4:
-	.string "Honor lies in beautifying that which\n"
-	.string "one is obligated to perform.$"
+	.string "Honor is but making the most beautiful\n"
+	.string "of what you must do.$"
 
 
 
@@ -55,9 +55,9 @@ end
 Ecruteak_TinTowerp9_Text_7:
 	.string "The wonderful thing about fighting\n"
 	.string "against an imaginary opponent is that\l"
-	.string "it always proves skillful, yet easy to\l"
-	.string "defeat. It's the pride of victory\l"
-	.string "without the risk of defeat.$"
+	.string "it always proves to be skillful, yet\l"
+	.string "easy to defeat. It's the pride of\l"
+	.string "victory without the risk of defeat.$"
 
 
 
@@ -129,7 +129,7 @@ Ecruteak_TinTowerP9_Combate_Agatha_Texto_3:
 	.string "considered, {PLAYER}?$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_4:
-	.string "You're right, that you were able to climb\n"
+	.string "You're right. That you were able to climb\n"
 	.string "up here, and as proof of your skill, you\l"
 	.string "succeeded in defeating a former member\l"
 	.string "of the ELITE FOUR again.$"
@@ -141,7 +141,7 @@ Ecruteak_TinTowerP9_Combate_Agatha_Texto_5:
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_6:
 	.string "I've told you before, and I'll say it\n"
-	.string "again, you are prodigious for battles.\l"
+	.string "again. You are prodigious for battles.\l"
 	.string "We'll see how far you go.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_7:
@@ -153,7 +153,7 @@ Ecruteak_TinTowerP9_Combate_Agatha_Texto_7:
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_8:
 	.string "The GRAND MASTER of BELL TOWER awaits\n"
-	.string "you. Be careful, {PLAYER}, there are\l"
+	.string "you. Be careful, {PLAYER}. There are\l"
 	.string "forces in this world that would make\l"
 	.string "any TRAINER tremble, even someone like\l"
 	.string "you. As challenges become increasingly\l"

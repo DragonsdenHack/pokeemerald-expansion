@@ -27,12 +27,11 @@ release
 end
 
 OlivineCity_PkmnCenter_Text_2:
-.string "Hmmm…\n"
-	.string "That LIGHTHOUSE, with the sunshine in\l"
-	.string "the background… But I think the\l"
-	.string "landscape would improve even more if it\l"
-	.string "were on the edge of a 650 fts high\l"
-	.string "cliff.$"
+	.string "Hmmm… That LIGHTHOUSE, with the\n"
+	.string "sunshine in the background… But I\l"
+	.string "think the landscape would improve even\l"
+	.string "more if it were on the edge of a 650-ft\l"
+	.string "high cliff.$"
 
 
 
@@ -62,5 +61,5 @@ end
 OlivineCity_PkmnCenter_Text_4:
 	.string "No more causing trouble on the streets\n"
 	.string "of GOLDENROD. From now on, I'll become an\l"
-	.string "honest sailor in the service of the\l"
-	.string "S.S.AQUA.$"
+	.string "honest sailor in the service of the S.S.\l"
+	.string "AQUA.$"

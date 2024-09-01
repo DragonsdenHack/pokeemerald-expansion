@@ -15,7 +15,7 @@ end
 
 Ecruteak_ShopText_2:
 	.string "ECRUTEAK CITY is the only place that\n"
-	.string "still sells SACRED ASH, it costs 14000\l"
+	.string "still sells SACRED ASH. It costs 14000\l"
 	.string "POKÉ, but I can tell you that this item\l"
 	.string "would cost much more in KANTO.$"
 
@@ -31,9 +31,9 @@ end
 Ecruteak_ShopText_3:
 	.string "Can you imagine witnessing the entire\n"
 	.string "region from the top of BELL TOWER?\l"
-	.string "Although that's impossible, I can't even\l"
-	.string "cross the door that leads to BELLCHIME\l"
-	.string "TRAIL.$"
+	.string "Although that's impossible for me. I\l"
+	.string "can't even cross the door that leads to\l"
+	.string "BELLCHIME TRAIL.$"
 
 
 

@@ -24,11 +24,11 @@ release
 end
 
 Ecruteak_Gym_Text_4:
-	.string "Our LEADER? I'm sorry, but JOHTO is not\n"
-	.string "anymore part of the POKÉMON LEAGUE,\l"
-	.string "our LEADER isn't obligated to be here.\l"
-	.string "That's why he spends day and night at\l"
-	.string "BELL TOWER.$"
+	.string "Our LEADER? I'm sorry, but JOHTO is no\n"
+	.string "longer part of the POKÉMON LEAGUE. As\l"
+	.string "such, our LEADER isn't obligated to be\l"
+	.string "here. That's why he spends day and\l"
+	.string "night at BELL TOWER.$"
 
 
 
@@ -40,7 +40,7 @@ release
 end
 
 Ecruteak_Gym_Text_5:
-	.string "Ah, hello, young aspirant! Or so I should\n"
+	.string "Ah, hello, young aspirant! Or so I would\n"
 	.string "say if you could challenge our LEADER.\l"
 	.string "Only disciples remain. Our LEADER has\l"
 	.string "been the most influential SAGE in JOHTO\l"

@@ -162,6 +162,9 @@ msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_10
 waitmovement 0x0
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21.1 MSGBOX_AUTOCLOSE
+delay 15
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
@@ -201,25 +204,26 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_2:
 .string "Don!$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_3:
-	.string "ZEUS: I was expecting to find\n"
-	.string "something interesting here, but the\l"
-	.string "LEGENDARY LUGIA left this place long\l"
-	.string "ago, never to return.$"
+	.string "ZEUS: I'd expected to find something\n"
+	.string "truly extraordinary in this place, yet\l"
+	.string "the LEGENDARY LUGIA has long since\l"
+	.string "vacated this domain and has not once\l"
+	.string "graced this ground since.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_4:
-	.string "Here is where HO-OH saved 3 POKÉMON\n"
-	.string "from a cruel fate, turning them into the\l"
-	.string "3 wandering beasts.$"
+	.string "It's stated that HO-OH had rebirthed\n"
+	.string "three POKÉMON from an untimely demise\l"
+	.string "here by transfiguring them into a trio\l"
+	.string "of roaming beasts.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5:
-	.string "Nothing could be further from the\n"
-	.string "truth; the power of those 3 POKÉMON is\l"
-	.string "mediocre. They don't even come close to\l"
-	.string "reaching the lowest stats of the\l"
-	.string "creator of all. LANCE believed he\l"
-	.string "wielded great power with them under\l"
-	.string "control, but he was merely another\l"
-	.string "misguided soul.$"
+	.string "Yet nothing is further from the truth.\n"
+	.string "Mediocrity is the utmost those three\l"
+	.string "POKÉMON could achieve. They're far\l"
+	.string "beneath even the lowest thresholds of\l"
+	.string "a creator of all. LANCE had believed his\l"
+	.string "power through them was almighty, yet he\l"
+	.string "was merely another misguided soul.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
 	.string "Instead, HO-OH{PAUSE 15}…{PAUSE 15} BELL TOWER{PAUSE 15}…{PAUSE 15} I have a\n"
@@ -230,41 +234,43 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
 	.string "different now.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_7:
-	.string "I thought our brief meeting at SPROUT\n"
-	.string "TOWER was just a coincidence. Yet, here\l"
-	.string "you are again, coincidentally, while I\l"
-	.string "was attempting to see if this place\l"
-	.string "concealed anything intriguing.$"
+	.string "I'd considered our brief encounter at\n"
+	.string "SPROUT TOWER to be but a mere\l"
+	.string "coincidence. Yet that same coincidence\l"
+	.string "has joined our paths here as I'd\l"
+	.string "attempted to unearth anything\l"
+	.string "worthwhile here.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_8:
-	.string "I already warned you that I wouldn't\n"
-	.string "hesitate to take you down if you are on\l"
-	.string "my way. It appears you need a reminder\l"
-	.string "of the vast power I wield. 50% wasn't\l"
-	.string "enough, was it?$"
+	.string "I'd already warned I'd strike you down\n"
+	.string "should you bar my path. Yet it appears\l"
+	.string "you need a reminder of the vast power I\l"
+	.string "wield. I suppose half won't do for you,\l"
+	.string "no.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9:
-	.string "Let's see then, what you can do against\n"
+	.string "Let's see what you can do against\n"
 	.string "65% of my power.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10:
-	.string "So, three MAJOR LEGENDARIES aren't\n"
-	.string "enough, how interesting.$"
+	.string "Curiouser and curiouser. Even three\n"
+	.string "GREATER LEGENDARIES can't halt your\l"
+	.string "advance.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11:
-	.string "I must applaud you, {PLAYER}, you're\n"
-	.string "one of those who brings out the best in\l"
-	.string "each of your 6 POKÉMON and clings to\l"
-	.string "the battle until you win. People like you\l"
-	.string "must be crushed with a single blow\l"
-	.string "before you have time to react.$"
+	.string "I must applaud you, {PLAYER}. You're\n"
+	.string "among the handful to call on the\l"
+	.string "pinnacle of your six POKÉMON to endure\l"
+	.string "the hardship of battle and seize\l"
+	.string "victory. Only a singular, decisive strike\l"
+	.string "could topple those like you.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_12:
-	.string "Unfortunately for you and your\n"
-	.string "POKÉMON, you have reached your limit. My\l"
-	.string "team, on the other hand, is not even a\l"
-	.string "crude sketch of what it will be when I\l"
-	.string "achieve my goal.$"
+	.string "But that said, you and your POKÉMON\n"
+	.string "have hit your potential's ceiling. The\l"
+	.string "team I'd displayed here is but chicken\l"
+	.string "scratch to what it can achieve once my\l"
+	.string "goal's been met.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13:
 	.string "For your own good, I hope there are no\n"
@@ -273,19 +279,19 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13:
 	.string "further.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_14:
-.string "(ZEUS used ESCAPE ROPE).$"
+.string "(ZEUS used ESCAPE ROPE.)$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
 	.string "????: Who is the one who has been\n"
 	.string "causing all this rampage?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
-	.string "MASTER JAREN, on the contrary, this\n"
-	.string "TRAINER just defeated the lunatic in a\l"
-	.string "battle…$"
+	.string "MASTER JAREN. Please stay your hand.\n"
+	.string "This TRAINER just defeated the lunatic\l"
+	.string "in a battle…$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-	.string "JAREN: Hmmm{PAUSE 15}…{PAUSE 15} You must be {PLAYER},\n"
+	.string "JAREN: Hmmm{PAUSE 15}…{PAUSE 15} You must be {PLAYER}.\n"
 	.string "AGATHA has already told me about you.\l"
 	.string "On behalf of ECRUTEAK CITY, I thank you\l"
 	.string "for what you've done.$"
@@ -296,7 +302,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_18:
 	.string "need to be extended a little longer.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_19:
-	.string "I am intrigued by your friend ALDER, his\n"
+	.string "I am intrigued by your friend ALDER. His\n"
 	.string "DEEP BOND POKÉMON is so interesting,\l"
 	.string "and I will be quite occupied studying it\l"
 	.string "in detail.$"
@@ -310,10 +316,12 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20:
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21:
 	.string "No more talk. BURNED TOWER still stands,\n"
-	.string "and the energy of the 3 wandering\l"
-	.string "beasts, which I can perceive in this\l"
-	.string "room, remains intact! Let's go back to\l"
-	.string "BELL TOWER.$"
+	.string "and the energy of the three wandering\l"
+	.string "beasts I'd perceived here remains\l"
+	.string "intact!$"
+
+Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21.1:
+	.string "Let's go back to BELL TOWER.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Move_1:
 walk_in_place_up

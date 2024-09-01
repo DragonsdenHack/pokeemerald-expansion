@@ -64,7 +64,7 @@ end
 
 Route40_Text_10:
 	.string "Here, I don't catch even half the\n"
-	.string "number of pieces than I did 10 years\l"
+	.string "number of pieces than I did ten years\l"
 	.string "ago. I'll have to head to WHIRL ISLANDS\l"
 	.string "to catch something!$"
 
@@ -78,7 +78,7 @@ release
 end
 
 Route40_Text_11:
-	.string "We did well to come here, I'm having a\n"
+	.string "We did well to come here. I'm having a\n"
 	.string "better time than in CERULEAN CAPE…$"
 
 

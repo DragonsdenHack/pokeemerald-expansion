@@ -22,5 +22,5 @@ end
 
 Cianwood_House2_Text_2:
 	.string "Look how tan I am from soaking up the\n"
-	.string "sun; sometimes STARYU even stick to my\l"
+	.string "sun; sometimes, STARYU even stick to my\l"
 	.string "body!$"

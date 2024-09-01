@@ -22,7 +22,7 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_2:
-	.string "Encase the bird's wings in gold and it\n"
+	.string "Encase the bird's wings in gold, and it\n"
 	.string "will never soar to the sky again.$"
 
 
@@ -60,10 +60,10 @@ end
 Ecruteak_TinTowerp5_Text_6:
 	.string "The plan we've set for a battle is rarely\n"
 	.string "executed as intended; unexpected\l"
-	.string "events always arise, and therein lies\l"
-	.string "the brilliance of POKÉMON battles,\l"
-	.string "turning them into something magical,\l"
-	.string "into art.$"
+	.string "events always arise. And it is right\l"
+	.string "there where the brilliance of a POKÉMON\l"
+	.string "battle lies. It turns into something\l"
+	.string "magical-into art.$"
 
 
 
@@ -100,9 +100,9 @@ TinTowerP5_Foco_Texto_1.1:
 	.string "FLASH CANNON from the SAGE!!$"
 
 TinTowerP5_Foco_Texto_2:
-	.string "FLASH CANNON brings out the special\n"
+	.string "FLASH CANNON brings out the SPECIAL\n"
 	.string "side that even STEEL-TYPE POKÉMON\l"
-	.string "possess.$"
+	.string "possesses.$"
 
 
 

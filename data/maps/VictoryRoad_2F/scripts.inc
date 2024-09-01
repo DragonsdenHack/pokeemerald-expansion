@@ -179,4 +179,5 @@ VictoryRoad_2F_Entrenador_Especial_Texto_7:
 	.string "Alright, I hear ya. Not everyone's got\n"
 	.string "what it takes to go up against a real\l"
 	.string "COOLTRAINER, y'know.$"
+
 	

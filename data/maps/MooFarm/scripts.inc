@@ -131,10 +131,10 @@ face_player
 step_end
 
 MooFarm_Combate_Scizorita_Texto_1:
-	.string "Here we take care of TAUROS and\n"
+	.string "Here, we take care of TAUROS and\n"
 	.string "MILTANK that get sick. We have about a\l"
 	.string "dozen that are almost completely\l"
-	.string "recovered, all they need is to test\l"
+	.string "recovered. All they need is to test\l"
 	.string "their health in a battle!$"
 
 MooFarm_Combate_Scizorita_Texto_2:
@@ -148,13 +148,13 @@ MooFarm_Combate_Scizorita_Texto_3:
 
 MooFarm_Combate_Scizorita_Texto_4:
 .string "All right!\n"
-	.string "I hope you can endure the assaults!$"
+	.string "I hope you can endure the assault!$"
 
 MooFarm_Combate_Scizorita_Texto_5:
-.string "Sudden stopping.$"
+.string "A sudden stop!$"
 
 MooFarm_Combate_Scizorita_Texto_6:
-	.string "Now it's my turn, MILTANK doesn't\n"
+	.string "Now it's my turn. MILTANK doesn't\n"
 	.string "charge with as much force, but it will be\l"
 	.string "hard to knock down!$"
 
@@ -169,8 +169,8 @@ MooFarm_Combate_Scizorita_Texto_8:
 	.string "infirmary!$"
 
 MooFarm_Combate_Scizorita_Texto_9:
-	.string "Ignore him, it was a joke. You've\n"
-	.string "impressed us; trainers usually flee in\l"
+	.string "Ignore him. It was a joke. You've\n"
+	.string "impressed us; TRAINERs usually flee in\l"
 	.string "terror at just one of our TAUROS, but\l"
 	.string "you… You've dealt with a dozen TAUROS\l"
 	.string "and MILTANK!$"
@@ -188,7 +188,7 @@ MooFarm_Combate_Scizorita_Texto_11:
 	.string "steal at the booth next door!$"
 
 MooFarm_Combate_Scizorita_Texto_12:
-	.string "I understand, the charges of a TAUROS\n"
+	.string "I understand. The charges of a TAUROS\n"
 	.string "are quite intimidating.$"
 
 Johto_MuMu_Mercado_EventScript_Clerk::
@@ -216,9 +216,9 @@ release
 end
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_1:
-	.string "We sell a dozen of MOOMOO MILK for 5,000\n"
-	.string "POKÉ, saving you 1,000 compared to\l"
-	.string "anywhere else. Do you buy?$"
+	.string "We sell a dozen MOOMOO MILK for 5,000\n"
+	.string "POKÉ, saving you 1000 POKÉ compared to\l"
+	.string "anywhere else. Will you buy?$"
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_2:
 .string "Please come again!$"

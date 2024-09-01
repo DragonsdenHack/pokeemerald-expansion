@@ -23,12 +23,12 @@ end
 
 OlivineCity_Port_Text_2:
 	.string "Our kind of TRAINER will disappear soon\n"
-	.string "in JOHTO. There's no CYCLING ROAD here,\l"
+	.string "in JOHTO. There's no CYCLING ROAD here.\l"
 	.string "And the OLIVINE PORT tempts us a lot to\l"
 	.string "work as sailors. For example, I stroll\l"
 	.string "around here every day to see if someone\l"
-	.string "finally give me some work. And from\l"
-	.string "there, to the S.S.AQUA!$"
+	.string "would finally give me some work. And\l"
+	.string "from there, to the S.S. AQUA!$"
 
 
 
@@ -79,8 +79,8 @@ release
 end
 
 OlivineCity_Port_Text_7:
-	.string "OLIVINE CITY is larger every time,\n"
-	.string "that's why the OLIVINE PORT must grow\l"
+	.string "OLIVINE CITY gets larger every time.\n"
+	.string "That's why the OLIVINE PORT must grow\l"
 	.string "too. Soon, we'll connect with KANTO and\l"
 	.string "HOENN.$"
 
@@ -148,16 +148,16 @@ release
 end
 
 OlivinePort_Barrera_Texto_1:
-	.string "I'm sorry, but without the PARTYCKET\n"
+	.string "I'm sorry, but without the PARTYCKET,\n"
 	.string "you cannot pass.$"
 
 OlivinePort_Barrera_Texto_2:
-	.string "The party is over, thank you for coming.$"
+	.string "The party is over. Thank you for coming.$"
 
 OlivinePort_Barrera_Texto_3:
 .string "Ah!\n"
 	.string "I see you have the PARTYCKET!\l"
-	.string "Come in, you're arriving at the perfect time!$"
+	.string "Come in. You're arriving at the perfect time!$"
 
 OlivinePort_Barrera_Move_1.1:
 walk_in_place_up

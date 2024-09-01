@@ -131,21 +131,21 @@ Route52_Maze_Combate_1_Texto_3:
 
 Route52_Maze_Combate_1_Texto_4:
 	.string "That PC has very important private\n"
-	.string "information, do not even try to touch\l"
+	.string "information. Do not even try to touch\l"
 	.string "it!$"
 
 Route52_Maze_Combate_1_Texto_5:
-	.string "Oh hell, you have discovered the ruse!$"
+	.string "Oh hell, you've uncovered the ruse!$"
 
 Route52_Maze_Combate_1_Texto_6:
 	.string "Beware of the consequences if you\n"
-	.string "decide to touch that computer, you've\l"
+	.string "decide to touch that computer. You've\l"
 	.string "been warned.$"
 
 Route52_Maze_Combate_1_Texto_7:
 .string "There is a function named\n"
 	.string "-reverse arrow-.\l"
-	.string "Do I push it?$"
+	.string "Do you push it?$"
 
 Route52_Maze_Cientifico_1::
 lock
@@ -187,7 +187,7 @@ Route52_Maze_Cientifico_1_Texto_2:
 Route52_Maze_Cientifico_1_Texto_3:
 	.string "We can see the OLIVINE LIGHTHOUSE\n"
 	.string "from here, but the OLIVINE LIGHTHOUSE\l"
-	.string "cant see us!$"
+	.string "can't see us!$"
 
 Route52_Maze_Combate_2::
 playse SE_PIN
@@ -254,17 +254,17 @@ end
 
 Route52_Maze_Segundo_Cientifico_Texto_1:
 	.string "What? Why are we in the middle of\n"
-	.string "nowhere? Don't misunderstand, we're not\l"
+	.string "nowhere? Don't misunderstand. We're not\l"
 	.string "fleeing from justice or anything like\l"
 	.string "that; it's just that we enjoy exotic\l"
-	.string "places, yeah, that's all, yeah.$"
+	.string "places. Yeah, that's all. Yeah.$"
 
 Route52_Maze_Segundo_Cientifico_Texto_2:
 	.string "What? Why are we in the middle of\n"
-	.string "nowhere? Don't misunderstand, we're not\l"
+	.string "nowhere? Don't misunderstand. We're not\l"
 	.string "fleeing from justice or anything like\l"
 	.string "that; it's just that we enjoy exotic\l"
-	.string "places, yeah, that's all, yeah.$"
+	.string "places. Yeah, that's all. Yeah.$"
 
 
 
@@ -308,8 +308,8 @@ release
 end
 
 Route52_Maze_Electricista_Texto_1:
-	.string "The lesser questions you do; the\n"
-	.string "better, I just know that I am well-paid\l"
+	.string "The fewer questions you ask, the\n"
+	.string "better. I just know that I am well-paid\l"
 	.string "here.$"
 
 Route52_Maze_Electricista_Texto_2:

@@ -76,10 +76,10 @@ end
 
 Ecruteak_DanceTheater_Text_5:
 	.string "According to legend, each evolution of\n"
-	.string "the 7 EEVEEs represents one of the 7\l"
-	.string "colors of HO-OH's rainbow, although I\l"
-	.string "suspect there are more than 7 distinct\l"
-	.string "EEVEE evolutions.$"
+	.string "the seven EEVEEs represents one of the\l"
+	.string "swven colors of HO-OH's rainbow,\l"
+	.string "although I suspect there are more than\l"
+	.string "seven distinct EEVEE evolutions.$"
 
 
 
@@ -91,11 +91,11 @@ release
 end
 
 Ecruteak_DanceTheater_Text_6:
-	.string "The KIMONO GIRLS not only dance, they\n"
-	.string "are also exceptional TRAINERS. I always\l"
-	.string "challenge them but have never even\l"
-	.string "scratched them… I wish my POKÉMON were\l"
-	.string "as graceful as the KIMONO GIRLS…$"
+	.string "The KIMONO GIRLS not only dance, but\n"
+	.string "they are also exceptional TRAINERS. I\l"
+	.string "always challenge them but have never\l"
+	.string "even scratched them… I wish my POKÉMON\l"
+	.string "were as graceful as the KIMONO GIRLS…$"
 
 
 
@@ -107,9 +107,10 @@ release
 end
 
 Ecruteak_DanceTheater_Text_7:
-	.string "Each KIMONO GIRL represents a form of\n"
-	.string "EEVEE, but also its specific TYPE. This\l"
-	.string "is reflected in their dancing style.$"
+	.string "Each KIMONO GIRL represents not only a\n"
+	.string "form of EEVEE, but also its specific\l"
+	.string "TYPE. This is reflected in their dancing\l"
+	.string "style.$"
 
 
 
@@ -121,9 +122,8 @@ release
 end
 
 Ecruteak_DanceTheater_Text_8:
-	.string "These girls have the dance art in their\n"
-	.string "blood. I will immortalize them in my next\l"
-	.string "painting!$"
+	.string "These girls have the art of dancing.\l"
+	.string "I will immortalize them in my next painting!$"
 
 
 
@@ -338,7 +338,7 @@ Ecruteak_DanceTheater_Batallas_Texto_1:
 	.string "with no consequences!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_2:
-	.string "If you step onto the stage you will\n"
+	.string "If you step onto the stage, you will\n"
 	.string "have to dance with all of us and our\l"
 	.string "POKÈMON. Do you have the courage to do\l"
 	.string "it?$"
@@ -356,7 +356,7 @@ Ecruteak_DanceTheater_Batallas_Texto_5:
 
 Ecruteak_DanceTheater_Batallas_Texto_6:
 	.string "Did you say that you are from KANTO?\n"
-	.string "Enjoy ECRUTEAK CITY, then. On KANTO\l"
+	.string "Enjoy ECRUTEAK CITY, then. In KANTO,\l"
 	.string "you can't see places like this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_7:
@@ -378,11 +378,11 @@ Ecruteak_DanceTheater_Batallas_Texto_10:
 
 
 Ecruteak_DanceTheater_Batallas_Texto_11:
-.string "Cof, cof…\n"
+.string "Cough, cough…\n"
 	.string "It is my turn…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_12:
-	.string "You are offering a great show, can you\n"
+	.string "You are offering a great show! Can you\n"
 	.string "see the audience? It's not time to let\l"
 	.string "your arms rest!$"
 
@@ -391,8 +391,8 @@ Ecruteak_DanceTheater_Batallas_Texto_13:
 	.string "It was a great battle!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_14:
-	.string "Someone like you deserves entrance at\n"
-	.string "BELL TOWER, there is no doubt about it.$"
+	.string "Someone like you deserves entry to\n"
+	.string "BELL TOWER. There's no doubt about it.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_15:
 .string "The dance is not over yet.$"
@@ -415,8 +415,8 @@ Ecruteak_DanceTheater_Batallas_Texto_19:
 
 Ecruteak_DanceTheater_Batallas_Texto_20:
 	.string "After dancing with all my sisters,\n"
-	.string "victory will be sweeter, or defeat more\l"
-	.string "bitter!$"
+	.string "victory will be all the sweeter… or\l"
+	.string "defeat, all the more bitter!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_21:
 .string "You have a special talent.$"
@@ -426,8 +426,8 @@ Ecruteak_DanceTheater_Batallas_Texto_22:
 	.string "with your courage and bravery!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_23:
-	.string "Come, good sir, let us present you with\n"
-	.string "this item, so you can quickly recover\l"
+	.string "Come, good sir. Let us present you with\n"
+	.string "this item, so you can quickly restore\l"
 	.string "your entire team of POKÉMON.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_24:
@@ -435,8 +435,8 @@ Ecruteak_DanceTheater_Batallas_Texto_24:
 	.string "the LEGENDARY HO-OH, before burning in\l"
 	.string "flames to rise again from its ashes.\l"
 	.string "They could always be found throughout\l"
-	.string "the region of JOHTO, although it\l"
-	.string "becomes increasingly difficult.$"
+	.string "the region of JOHTO, although it's\l"
+	.string "become increasingly difficult.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_25:
 	.string "ALDER: I'm sorry to interrupt, ladies,\n"
@@ -447,8 +447,8 @@ Ecruteak_DanceTheater_Batallas_Texto_26:
 
 Ecruteak_DanceTheater_Batallas_Texto_27:
 	.string "ALDER: I had understood that you can\n"
-	.string "access at the BELL TOWER and to the\l"
-	.string "GRAND MASTER of ECRUTEAK CITY.$"
+	.string "access the BELL TOWER and therefore\l"
+	.string "the GRAND MASTER of ECRUTEAK CITY.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_28:
 .string "Indeed.$"
@@ -466,7 +466,7 @@ Ecruteak_DanceTheater_Batallas_Texto_30:
 	.string "THEATER, we can visit BELL TOWER, but\l"
 	.string "the privilege of bringing companions is\l"
 	.string "only reserved for the GYM LEADER of\l"
-	.string "ECRUTEAK CITY and the JOHTO-KANTO\l"
+	.string "ECRUTEAK CITY and the KANTO-JOHTO\l"
 	.string "CHAMPION. The rest of the GYM LEADERS\l"
 	.string "and the ELITE 4 can enter as well, but\l"
 	.string "without bringing companions.$"
@@ -478,7 +478,7 @@ Ecruteak_DanceTheater_Batallas_Texto_31:
 	.string "that the actual CHAMP…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_32:
-	.string "ALDER: You are the real CHAMPION!!?$"
+	.string "ALDER: You are the real CHAMPION!?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_33:
 	.string "ALDER: This can't be true. In that case,\n"
@@ -487,7 +487,7 @@ Ecruteak_DanceTheater_Batallas_Texto_33:
 
 Ecruteak_DanceTheater_Batallas_Texto_34:
 	.string "ALDER: I have no words of gratitude,\n"
-	.string "truly {PLAYER}. I won't forget this.$"
+	.string "truly, {PLAYER}. I won't forget this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_35:
 	.string "ALDER: I will be waiting for you at the\n"

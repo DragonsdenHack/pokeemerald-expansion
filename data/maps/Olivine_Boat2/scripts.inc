@@ -10,8 +10,8 @@ end
 OlivineBoat2_Text_1:
 	.string "Can we stop talking about\n"
 	.string "FIGHTING-TYPE just for a moment? Have\l"
-	.string "you seen WEEZING? With that DEFENSE it\l"
-	.string "withstands all your attacks.$"
+	.string "you seen WEEZING? With that DEFENSE,\l"
+	.string "it withstands all your attacks.$"
 
 
 
@@ -23,7 +23,7 @@ end
 
 OlivineBoat2_Text_2:
 	.string "They said that CHUCK would come to the\n"
-	.string "party. I knew it, he's probably training\l"
+	.string "party. I knew it. He's probably training\l"
 	.string "right now.$"
 
 
@@ -35,11 +35,11 @@ release
 end
 
 OlivineBoat2_Text_3:
-	.string "ROXANNE'S ACADEMY? How boring! I prefer\n"
-	.string "the SILPH scientists to teach me! They\l"
-	.string "really know about strong POKÉMON and\l"
-	.string "how to manipulate them! Just look at\l"
-	.string "BILL!$"
+	.string "ROXANNE's ACADEMY? How boring! I'd\n"
+	.string "rather the SILPH scientists teach me!\l"
+	.string "They really know about strong POKÉMON\l"
+	.string "and how to manipulate them! Just look\l"
+	.string "at BILL!$"
 
 
 
@@ -50,9 +50,9 @@ release
 end
 
 OlivineBoat2_Text_4:
-	.string "50 years ago, in this city there were no\n"
-	.string "more than 4 or 5 families of humble\l"
-	.string "fishermen. Look at us now.$"
+	.string "Fifty years ago, in this city, there were\n"
+	.string "no more than four or five families of\l"
+	.string "humble fishermen. Look at us now.$"
 
 
 
@@ -64,7 +64,7 @@ end
 
 OlivineBoat2_Text_5:
 	.string "How OLIVINE CITY has changed. And what\n"
-	.string "we have yet to see, isn't that right,\l"
+	.string "we have yet to see. Isn't that right,\l"
 	.string "dear?$"
 
 
@@ -79,7 +79,7 @@ OlivineBoat2_Text_6:
 	.string "Have you heard? In a couple of months,\n"
 	.string "the OLIVINE-SLATEPORT line will be\l"
 	.string "ready. You'll go to RUSTBORO CITY to\l"
-	.string "study in the ROXANNE'S ACADEMY.$"
+	.string "study in ROXANNE's ACADEMY.$"
 
 
 
@@ -91,11 +91,12 @@ release
 end
 
 OlivineBoat2_Text_7:
-	.string "Do you know WHIRL ISLANDS? Ships avoid\n"
-	.string "getting close to them, not only because\l"
-	.string "of all the rocks that protrude from the\l"
-	.string "surface, but also because of the\l"
-	.string "strong tides that surround them.$"
+	.string "Do you know about the WHIRL ISLANDS?\n"
+	.string "Ships avoid getting close to them, not\l"
+	.string "only because of all the rocks that\l"
+	.string "protrude from the surface, but also\l"
+	.string "because of the strong tides that\l"
+	.string "surround them.$"
 
 
 
@@ -167,7 +168,7 @@ release
 end
 
 OlivineBoat2_Text_13:
-	.string "I know, a BUG CATCHER like me has\n"
+	.string "I know. A BUG CATCHER like me has\n"
 	.string "nothing to do in a place like this. I only\l"
 	.string "came because there are some rumors\l"
 	.string "that the CAPTAIN has an extremely\l"
@@ -245,20 +246,20 @@ release
 end
 
 Olivine_Llamada_Giovanni_Texto_1:
-	.string "GIOVANNI: So you've defeated 4 of the 8\n"
-	.string "LEADERS, huh, {PLAYER}? We've\l"
-	.string "analyzed the data of OLIVINE's LEADER's\l"
-	.string "SKARMORY: They are astonishing. Its\l"
-	.string "PHYSICAL DEFENSE, despite being\l"
-	.string "FLYING TYPE, is close to CLOYSTER's. Not\l"
-	.string "to mention its immunity to the ELECTRIC\l"
-	.string "TYPE, according to our scientists due\l"
-	.string "to the stainless steel layer that\l"
-	.string "covers it. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} I'm on my way to\l"
+	.string "GIOVANNI: So you've defeated four of\n"
+	.string "the eight LEADERS, huh, {PLAYER}?\l"
+	.string "We've analyzed the data of the OLIVINE\l"
+	.string "LEADER's SKARMORY: they are\l"
+	.string "astonishing. Its PHYSICAL DEFENSE,\l"
+	.string "despite being FLYING TYPE, is close to\l"
+	.string "CLOYSTER's. Not to mention its immunity\l"
+	.string "to the ELECTRIC TYPE-according to our\l"
+	.string "scientists-due to the stainless steel\l"
+	.string "layer that covers it. … … I'm on my way to\l"
 	.string "GOLDENROD, {PLAYER}. I'll be busy\l"
 	.string "sorting out the meeting at RADIO TOWER,\l"
 	.string "but I'll send someone to inform you when\l"
 	.string "you must be present in GOLDENROD.\l"
 	.string "That's all for now. There's another GYM in\l"
-	.string "CIANWOOD, maybe you'll find another\l"
+	.string "CIANWOOD. Maybe you'll find another\l"
 	.string "DEEP BOND POKÉMON there.$"

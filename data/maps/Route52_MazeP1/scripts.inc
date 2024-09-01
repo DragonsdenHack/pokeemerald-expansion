@@ -108,19 +108,18 @@ end
 
 Route52_MazeP1_Combate_Ladron_Texto_1:
 	.string "These programs are always the same. I\n"
-	.string "reckon I'll spend some time in the pool..$"
+	.string "reckon I'll spend some time in the pool…$"
 
 Route52_MazeP1_Combate_Ladron_Texto_2:
 .string "But what?!\n"
 	.string "Who are you?$"
 
 Route52_MazeP1_Combate_Ladron_Texto_3:
-.string "Hold on!\n"
-	.string "You that ROCKET, right? the one who\l"
-	.string "tried to stop us just before we moved\l"
-	.string "onto JOHTO, seems like you are very\l"
-	.string "different since then, but we also are\l"
-	.string "not the same.$"
+	.string "Hold on! You that ROCKET, right? The\n"
+	.string "one who tried to stop us just before we\l"
+	.string "moved onto JOHTO. Seems like you're very\l"
+	.string "different since then, but we also aren't\l"
+	.string "the same.$"
 
 Route52_MazeP1_Combate_Ladron_Texto_4:
 	.string "You won't escape this time. Several of\n"
@@ -301,7 +300,7 @@ Route52_MazeP1_Combates_Finales_Texto_2:
 	.string "millions, right?$"
 
 Route52_MazeP1_Combates_Finales_Texto_3:
-	.string "I must thank you, {PLAYER}, without\n"
+	.string "I must thank you, {PLAYER}. Without\n"
 	.string "all the efforts of TEAM ROCKET to\l"
 	.string "modernize JOHTO in these past months,\l"
 	.string "we would have never achieved such\l"
@@ -315,27 +314,28 @@ Route52_MazeP1_Combates_Finales_Texto_4:
 Route52_MazeP1_Combates_Finales_Texto_5:
 	.string "How do I know that the TEAM ROCKET is\n"
 	.string "behind everything? I have my own\l"
-	.string "connections, and I also hire scientists\l"
-	.string "who worked for you. Several of them\l"
-	.string "have introduced us to MEGA EVOLUTION.\l"
-	.string "When you have money, you can buy\l"
-	.string "anything, isn't that right, {PLAYER}?$"
+	.string "connections, and I also hired\l"
+	.string "scientists who worked for you. Several\l"
+	.string "of them have introduced us to MEGA\l"
+	.string "EVOLUTION. When you have money, you\l"
+	.string "can buy anything. Isn't that right,\l"
+	.string "{PLAYER}?$"
 
 Route52_MazeP1_Combates_Finales_Texto_6:
 	.string "Now is when we both make peace,\n"
 	.string "{PLAYER}. It's beneficial for both of\l"
-	.string "us, there's no need to confront our\l"
-	.string "interests, don't you think so?$"
+	.string "us. There's no need for our interests to\l"
+	.string "conflict. Don't you think so?$"
 
 Route52_MazeP1_Combates_Finales_Texto_7:
-	.string "Don't you negotiate with scammers? Who\n"
+	.string "You don't negotiate with scammers? Who\n"
 	.string "do you think we are? Now you'll learn\l"
 	.string "some manners; you're still nothing but a\l"
-	.string "common ROCKET no matter how well\l"
-	.string "dressed you are!$"
+	.string "common ROCKET no matter how\l"
+	.string "well-dressed you are!$"
 
 Route52_MazeP1_Combates_Finales_Texto_8:
-	.string "Wrong answer, {PLAYER}. Now you'll\n"
+	.string "Wrong answer, {PLAYER}. Now, you'll\n"
 	.string "agree to our terms the hard way.$"
 
 Route52_MazeP1_Combates_Finales_Texto_9:
@@ -364,11 +364,11 @@ Route52_MazeP1_Combates_Finales_Texto_13:
 
 Route52_MazeP1_Combates_Finales_Texto_14:
 	.string "It has cost us millions to replicate\n"
-	.string "MEGA EVOLUTION, how is it not enough to\l"
-	.string "knock you down after 2 battles?$"
+	.string "MEGA EVOLUTION. How is it not enough to\l"
+	.string "knock you down after two battles?$"
 
 Route52_MazeP1_Combates_Finales_Texto_15:
-.string "Okay {PLAYER}, you win.$"
+.string "Okay {PLAYER}. You win.$"
 
 Route52_MazeP1_Combates_Finales_Texto_16:
 	.string "I understand that TEAM ROCKET wants\n"
@@ -398,8 +398,8 @@ Route52_MazeP1_Combates_Finales_Texto_20:
 	.string "too?$"
 
 Route52_MazeP1_Combates_Finales_Texto_21:
-	.string "So you don't yield an inch, huh? Alright,\n"
-	.string "we'll leave, but remember this,\l"
+	.string "So you don't yield an inch, huh? All\n"
+	.string "right, we'll leave, but remember this,\l"
 	.string "{PLAYER}! With your actions, TEAM\l"
 	.string "ROCKET has just gained an enemy. I'll\l"
 	.string "make sure everyone knows who's pulling\l"
@@ -491,10 +491,9 @@ Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
 	.string "continue laundering money easier…$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
-.string "Who are you?\n"
-	.string "I already handle the audits for this\l"
-	.string "place, we don't need anyone in a suit to\l"
-	.string "do them.$"
+	.string "Who are you? I already handle the\n"
+	.string "audits for this place. We don't need\l"
+	.string "anyone in a suit to do them.$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_3:
 .string "What a mess!$"
@@ -579,7 +578,8 @@ step_end
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
 	.string "A 4 MILLION POKÉ transaction for a\n"
-	.string "CHARMANDER done, this goes smoothly…$"
+	.string "CHARMANDER done. This is going\l"
+	.string "smoothly…$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
 	.string "How did you manage to reach this point?\n"
@@ -649,7 +649,7 @@ Route52_Maze_Dialogo_Segundo_Cientifico_Texto_1:
 
 Route52_Maze_Dialogo_Segundo_Cientifico_Texto_2:
 	.string "So you're now one of our primary\n"
-	.string "shareholders, I guess that means I'm\l"
+	.string "shareholders. I guess that means I'm\l"
 	.string "working for you as well.$"
 
 
@@ -721,7 +721,7 @@ end
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
 .string "…\n"
 	.string "…\l"
-	.string "(He is slept!)$"
+	.string "(He is asleep!)$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:
 .string "Where the heck did you come from?\n"

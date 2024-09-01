@@ -61,4 +61,4 @@ Cianwood_PkmnCenter_Text_4:
 	.string "The WHIRL ISLANDS have always been a\n"
 	.string "mystery; they say everything changed\l"
 	.string "there on the day of the BRASS TOWER\l"
-	.string "burn.$"
+	.string "burned…$"

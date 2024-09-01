@@ -25,11 +25,11 @@ end
 BurnedTower2_Texto_1:
 .string "Ahh!\n"
 	.string "I came down out of curiosity to see\l"
-	.string "what was happening, I only saw a huge\l"
+	.string "what was happening. I only saw a huge\l"
 	.string "POKÉMON with immense strength. It\l"
-	.string "knocked down all the POKÉMON of our\l"
-	.string "SAGES with a single blow! I wanted to\l"
-	.string "help, but that POKÉMON is terrifying.$"
+	.string "knocked down all of our SAGES' POKÉMON\l"
+	.string "with a single blow! I wanted to help, but\l"
+	.string "that POKÉMON is terrifying.$"
 
 
 BurnedTower3::
@@ -66,7 +66,7 @@ end
 
 BurnedTower7_Texto_1:
 	.string "The SAGES of BELL TOWER are very\n"
-	.string "skilled TRAINERS, I hope they can stop\l"
+	.string "skilled TRAINERS. I hope they can stop\l"
 	.string "that lunatic.$"
 
 

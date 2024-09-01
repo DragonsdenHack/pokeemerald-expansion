@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_1:
-	.string "Avoiding giving signals of weakness, is\n"
-	.string "a signal of weakness.$"
+	.string "Avoiding giving signs of weakness is, in\n"
+	.string "itself, a sign of weakness.$"
 
 
 
@@ -27,8 +27,8 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_3:
-	.string "The truth triumphs by itself, the lies\n"
-	.string "always need a complicity.$"
+	.string "The truth triumphs by itself. The lie\n"
+	.string "always need an accomplice.$"
 
 
 
@@ -55,7 +55,7 @@ end
 
 Ecruteak_TinTowerp8_Text_5:
 	.string "The important thing isn't what a person\n"
-	.string "possesses or lacks, it's about what\l"
+	.string "possesses or lacks. It's about what\l"
 	.string "they fear losing.$"
 
 

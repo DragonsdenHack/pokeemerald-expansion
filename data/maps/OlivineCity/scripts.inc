@@ -20,10 +20,10 @@ end
 
 OlivineCity_Text_2:
 	.string "The OLIVINE maritime tradition is the\n"
-	.string "oldest one in KANTO-JOHTO, the\l"
+	.string "oldest one in KANTO-JOHTO. The\l"
 	.string "LIGHTHOUSE was built a long time ago\l"
-	.string "due to the multiple rocks in these seas,\l"
-	.string "now it has been expanded and will also\l"
+	.string "due to multiple rocks in these seas.\l"
+	.string "Now, it has been expanded and will also\l"
 	.string "serve as a guide for ships from other\l"
 	.string "regions.$"
 
@@ -52,8 +52,8 @@ end
 
 OlivineCity_Text_4:
 	.string "Tourism is increasingly present in\n"
-	.string "OLIVINE CITY, even in CIANWOOD. Now\l"
-	.string "with the expansion of the PORT it will\l"
+	.string "OLIVINE CITY, even in CIANWOOD. Now,\l"
+	.string "with the expansion of the PORT, it will\l"
 	.string "be even more so.$"
 
 

@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_1:
-	.string "The real TRAINER is not immune against\n"
-	.string "the fear. He fights despite it.$"
+	.string "A real TRAINER is not immune to fear.\n"
+	.string "He fights despite it.$"
 
 
 
@@ -22,9 +22,8 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_2:
-	.string "The more data we have, the more\n"
-	.string "possibilities we have of drowning in\l"
-	.string "them.$"
+	.string "The more data we have, the greater our\n"
+	.string "risk of drowning in it.$"
 
 
 
@@ -53,13 +52,13 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_4:
-	.string "Pressure is a double-edged sword; it\n"
-	.string "keeps you alert, with all your senses\l"
-	.string "awake, but it can also block you and\l"
-	.string "lead to anxiety. However, it remains a\l"
-	.string "privilege, another sign that we are\l"
-	.string "alive, and that we are fighting for the\l"
-	.string "things that matter to us.$"
+	.string "Pressure is a double-edged sword. It\n"
+	.string "heightens your senses to their peak,\l"
+	.string "but it's also a great source of tunnel\l"
+	.string "vision and ultimately anxiety. Yet it's\l"
+	.string "still a privilege and another sign we\l"
+	.string "still live-and that we're fighting for\l"
+	.string "the things that matter to us.$"
 
 
 
@@ -77,8 +76,8 @@ end
 
 Ecruteak_TinTowerp2_Text_6:
 	.string "You have nothing to prove except to\n"
-	.string "yourself. As long as you have a little\l"
-	.string "breath left, you have a chance.$"
+	.string "yourself. So long as you still draw\l"
+	.string "breath, you have a chance.$"
 
 
 

@@ -28,8 +28,8 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Text_3:
-.string "Oh, you must be {PLAYER}. aren't you?\n"
-.string "How does it feel to stay in front of OAK?$"
+.string "Oh, you must be {PLAYER}, aren't you?\n"
+.string "How does it feel to stay ahead of OAK?$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm::
 lock
@@ -80,13 +80,13 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_2:
 	.string "achieved?$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3:
-	.string "What is going to happen now? Let's get\n"
-	.string "to work on the future, in 2 years, we\l"
+	.string "What's going to happen now? Let's get to\n"
+	.string "work on the future. In two years, we\l"
 	.string "won't recognize the land we walk on\l"
 	.string "today!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_4:
-	.string "I didn't expect less, my prototypes\n"
+	.string "I didn't expect less. My prototype\n"
 	.string "army is ready!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_5:

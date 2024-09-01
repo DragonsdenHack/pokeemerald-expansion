@@ -14,7 +14,7 @@ release
 end
 
 OlivineCity_NormanHouse_Text_2:
-.string "In a few years I will be a TRAINER!$"
+.string "In a few years, I'll be a TRAINER too!$"
 
 
 
@@ -65,7 +65,7 @@ OlivineNormanHouse_Text_TakeSlakoth:
 
 OlivineNormanHouse_Text_TakeSlakoth2:
 	.string "You too should visit that region\n"
-	.string "someday, it has some exceptional\l"
+	.string "someday. It has some exceptional\l"
 	.string "POKÉMON that you won't find in any\l"
 	.string "other region, like this one.$"
 
@@ -74,10 +74,10 @@ OlivineNormanHouse_Text_MensajeSlakoth:
 
 OlivineNormanHouse_Text_6:
 	.string "SLAKOTH harbors an unparalleled\n"
-	.string "potential within, even the LEGENDARIES\l"
+	.string "potential within. Even the LEGENDARIES\l"
 	.string "fear its evolved form. But the immense\l"
 	.string "vigor with which it attacks plunges it\l"
-	.string "into a lethargy the next turn, the cost\l"
+	.string "into a lethargy the next turn-the cost\l"
 	.string "for wielding such brute force…$"
 
 OlivineNormanHouse_Text_6b:

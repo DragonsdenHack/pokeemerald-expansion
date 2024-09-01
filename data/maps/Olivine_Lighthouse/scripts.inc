@@ -53,7 +53,7 @@ end
 
 OlivineCity_LightHouse_Text_6:
 	.string "NOCTOWL is a common POKÉMON among the\n"
-	.string "sailors of JOHTO; it's great sense of\l"
+	.string "sailors of JOHTO; its great sense of\l"
 	.string "direction and nocturnal vision are of\l"
 	.string "great help to us.$"
 
@@ -79,7 +79,7 @@ end
 OlivineCity_LightHouse_Text_9:
 	.string "I'd really like to witness the mighty\n"
 	.string "POKÉMON that illuminates the\l"
-	.string "lighthouse firsthand, but I'm not sure\l"
+	.string "LIGHTHOUSE firsthand, but I'm not sure\l"
 	.string "how to reach the top…$"
 
 
@@ -115,7 +115,7 @@ end
 OlivineCity_LightHouse_Text_13:
 	.string "The OLIVINE-GOLDENROD sea route is\n"
 	.string "full of rocks, making it impassable.\l"
-	.string "Otherwise,GOLDENROD would have long\l"
+	.string "Otherwise, GOLDENROD would have long\l"
 	.string "established a huge port to further\l"
 	.string "expand its connections.$"
 
@@ -290,26 +290,26 @@ end
 
 Olivine_Lighthouse_Combate_Farero_Texto_1:
 	.string "????: The expansion of the PORT to\n"
-	.string "other regions will be a great success,\l"
-	.string "just wait and see.$"
+	.string "other regions will be a great\l"
+	.string "success-just wait and see.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_2:
 .string "????: Can I help you?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_3:
 	.string "????: Ah, so you want to challenge the\n"
-	.string "OLIVINE LEARD. I am the LIGHTHOUSE\l"
+	.string "OLIVINE LEADER. I am the LIGHTHOUSE\l"
 	.string "KEEPER.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_4:
 	.string "LIGHTHOUSE KEEPER: The LEADER is\n"
-	.string "literally there, we are debating about\l"
-	.string "the OLIVINE CITY future, its PORT, its\l"
+	.string "literally there. We are debating the\l"
+	.string "future of OLIVINE CITY, its PORT, its\l"
 	.string "LIGHTHOUSE, its GYM…$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_5:
-	.string "CROM: Many changes are coming soon,\n"
-	.string "let's hope for the best. My old friend\l"
+	.string "CROM: Many changes are coming soon.\n"
+	.string "Let's hope for the best. My old friend\l"
 	.string "and I will try to leave this city in the\l"
 	.string "best possible condition before we\l"
 	.string "depart.$"
@@ -334,26 +334,26 @@ Olivine_Lighthouse_Combate_Farero_Texto_8:
 Olivine_Lighthouse_Combate_Farero_Texto_9:
 	.string "I like the idea of a last great battle\n"
 	.string "before I leave; it would be the perfect\l"
-	.string "culmination of my time in OLIVINE CITY.\l"
-	.string "The matter is{PAUSE 15}…{PAUSE 15} Are you ready for that\l"
-	.string "ultimate showdown?$"
+	.string "culmination of my stay in OLIVINE CITY.\l"
+	.string "The question is… Are you up to the task\l"
+	.string "for that ultimate fight?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_10:
 	.string "LIGHTHOUSE KEEPER: We can verify it\n"
 	.string "right here and now.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_11:
-.string "CROM: All right.$"
+.string "CROM: Certainly.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_12:
-	.string "My old friend and the current owner of\n"
-	.string "this LIGHTHOUSE is the best judge of\l"
-	.string "skill around here. This is your only\l"
-	.string "opportunity to face me. Seize it now or\l"
-	.string "let it slip away forever.$"
+	.string "I know no better judge of skill around\n"
+	.string "here other than my old friend and\l"
+	.string "current owner of this LIGHTHOUSE. This\l"
+	.string "is your only opportunity to face me.\l"
+	.string "Seize it now or let it slip away forever.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_13:
-.string "Very good, enough talking.$"
+.string "Very good. Enough talk.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_14:
 	.string "LIGHTHOUSE KEEPER: I'll use all the\n"
@@ -362,22 +362,22 @@ Olivine_Lighthouse_Combate_Farero_Texto_14:
 	.string "stake. Get ready!$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_15:
-.string "Did my Ampharos's tail lose its light?$"
+.string "Did my AMPHAROS's tail lose its light?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_16:
-	.string "LIGHTHOUSE KEEPER: Excuse me, I must\n"
-	.string "go to the POKÉMON CENTER as soon I can,\l"
+	.string "LIGHTHOUSE KEEPER: Excuse me. I must\n"
+	.string "go to the POKÉMON CENTER as soon I can.\l"
 	.string "I didn't expect that you were able to\l"
 	.string "faint all of my POKÉMON, and the last\l"
 	.string "thing that we want in this LIGHTHOUSE\l"
 	.string "is an AMPHAROS without energy.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_17:
-	.string "CROM: Ha! Magnificent, man,\n"
-	.string "magnificent! You have shocked us!\l"
+	.string "CROM: Ha! Magnificent, man.\n"
+	.string "Magnificent! You have shocked us!\l"
 	.string "TRAINERS like you are becoming\l"
 	.string "increasingly rare these days; I'll be\l"
-	.string "waiting for you at the gym for our\l"
+	.string "waiting for you at the GYM for our\l"
 	.string "battle. The die is cast!$"
 
 Olivine_Lighthouse_Combate_Farero_Move_1:
@@ -450,24 +450,23 @@ release
 end
 
 Olivine_Lighthouse_Ampharosita_Texto_1:
-.string "LIGHTHOUSE KEEPER: Ah!\n"
-	.string "{PLAYER}!\l"
-	.string "You're back!\l"
-	.string "CROM told me about your battle; I can't\l"
-	.string "believe you ended up defeating him. You\l"
-	.string "have no idea how many times my\l"
-	.string "ELECTRIC TYPE POKÉMON have bitten the\l"
-	.string "dust against that SKARMORY immune to\l"
-	.string "their attacks. You've restored our\l"
-	.string "enthusiasm and eagerness to battle\l"
-	.string "again, so I want you to accept this.$"
+	.string "LIGHTHOUSE KEEPER: Ah! {PLAYER}!\n"
+	.string "You're back! CROM told me about your\l"
+	.string "battle; I can't believe you ended up\l"
+	.string "defeating him. You have no idea how\l"
+	.string "many times my ELECTRIC-TYPE POKÉMON\l"
+	.string "have bitten the dust to that SKARMORY\l"
+	.string "immune to their attacks. You've\l"
+	.string "restored our enthusiasm and eagerness\l"
+	.string "to battle again, so I want you to\l"
+	.string "accept this.$"
 
 Olivine_Lighthouse_Ampharosita_Texto_2:
 .string "You obtained an AMPHAROSITE\n"
 	.string "from the LIGHTHOUSE KEEPER!!$"
 
 Olivine_Lighthouse_Ampharosita_Texto_3:
-	.string "AMPHAROS is a great POKÉMON, don't you\n"
+	.string "AMPHAROS is a great POKÉMON. Don't you\n"
 	.string "think so? One of the few capable of\l"
 	.string "hitting hard and enduring powerful hits\l"
 	.string "at the same time, although that SPEED\l"
@@ -499,14 +498,14 @@ Faro_Voltiocambio_Texto_1.1:
 
 Faro_Voltiocambio_Texto_1:
 	.string "I've been working here since the\n"
-	.string "LIGHTHOUSE opened, I know perfectly\l"
+	.string "LIGHTHOUSE opened. I know perfectly\l"
 	.string "well how the electrical connections in\l"
 	.string "this place work.$"
 
 Faro_Voltiocambio_Texto_2:
 	.string "If you use the CHOICE SPECS, not only\n"
 	.string "will you confuse the opponent with the\l"
-	.string "switches, and you'll also boost the\l"
+	.string "switches, but you'll also boost the\l"
 	.string "damage dealt. But be careful not to get\l"
-	.string "trapped by GROUND TYPE moves or the\l"
+	.string "trapped by GROUND-TYPE moves or the\l"
 	.string "ABILITY VOLT ABSORB!$"

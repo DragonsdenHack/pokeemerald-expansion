@@ -9,9 +9,9 @@ release
 end
 
 OlivineCity_House2_Text_1:
-	.string "There is no will like that of our LEADER,\n"
-	.string "unbreakable, yeah… Worthy of wielding\l"
-	.string "the STEEL TYPE.$"
+	.string "There is no will like that of our\n"
+	.string "LEADER-unbreakable, yes… Worthy of\l"
+	.string "wielding the STEEL TYPE.$"
 
 
 

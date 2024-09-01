@@ -42,8 +42,8 @@ release
 end
 
 WhirIslands_Evento_Cascada_Texto_1:
-.string "(Apparently a fierce battle occurred here,\n"
-	.string "just a few moments ago).$"
+	.string "(Apparently a fierce battle occurred\n"
+	.string "here just a few moments ago.)$"
 
 WhirIslands_Evento_Cascada_Move_1:
 emote_exclamation_mark

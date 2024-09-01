@@ -28,7 +28,7 @@ release
 end
 
 Pass_Route38_Text_3:
-	.string "Be careful on the next route, TAUROS\n"
+	.string "Be careful on the next route. TAUROS\n"
 	.string "roam freely and charge at anyone they\l"
 	.string "see as a threat!$"
 

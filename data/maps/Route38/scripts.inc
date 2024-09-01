@@ -14,11 +14,11 @@ release
 end
 
 Route37_Text_2:
-	.string "DODRIO is my favorite bird, I love it\n"
-	.string "because it attacks without any fear,\l"
-	.string "without any kind of shame. Its\l"
-	.string "combination of ATTACK-SPEED is unique\l"
-	.string "among birds.$"
+	.string "DODRIO is my favorite bird. I love it\n"
+	.string "because it attacks without any\l"
+	.string "fear-without any kind of shame. Its\l"
+	.string "combination of ATTACK and SPEED is\l"
+	.string "unique among birds.$"
 
 
 

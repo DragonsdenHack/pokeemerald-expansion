@@ -34,9 +34,9 @@ end
 
 CianwoodCity_Text_2:
 	.string "CHUCK's POLIWRATH has something\n"
-	.string "special. I know POLIWRATH, by itself, is\l"
-	.string "tough, but his one, is made of a\l"
-	.string "different stuff, no doubt.$"
+	.string "special. I know POLIWRATH by itself is\l"
+	.string "tough, but his is made of different\l"
+	.string "stuff, no doubt.$"
 
 
 
@@ -98,8 +98,8 @@ release
 end
 
 CianwoodCity_Text_9:
-	.string "The rocks to the north can be broken,\n"
-	.string "some people have encountered POKÉMON\l"
+	.string "The rocks to the north can be broken.\n"
+	.string "Some people have encountered POKÉMON\l"
 	.string "that were hidden underneath them.$"
 
 
@@ -153,7 +153,7 @@ end
 
 CianwoodCityDocumento_Text_102:
 	.string "CIANWOOD CITY\n"
-	.string "A Port Surrounded by rough seas$"
+	.string "A port surrounded by rough seas$"
 
 
 
@@ -251,7 +251,7 @@ CianwoodCity_Evento_Mirto_Texto_5:
 
 CianwoodCity_Evento_Mirto_Texto_6:
 	.string "Many desire to have the strongest\n"
-	.string "POKÉMON, they speak of power as if they\l"
+	.string "POKÉMON. They speak of power as if they\l"
 	.string "were mere numbers tossed in the air, but\l"
 	.string "they fail to realize the enormous cost\l"
 	.string "involved in reaching certain levels for\l"
@@ -278,17 +278,17 @@ CianwoodCity_Evento_Mirto_Texto_8:
 	.string "ECRUTEAK CITY mentioned him to me; he's\l"
 	.string "the only one with a DEEP BOND POKÉMON\l"
 	.string "of greater overall power than my\l"
-	.string "VOLCARONA, even though his is a\l"
-	.string "PSEUDOLEGENDARY and we can't assess it\l"
-	.string "in the same way. Maybe he knows\l"
+	.string "VOLCARONA. Even if his is a\l"
+	.string "PSEUDO-LEGENDARY and we can't assess\l"
+	.string "it in the same way. Maybe he knows\l"
 	.string "something we've missed.$"
 
 CianwoodCity_Evento_Mirto_Texto_9:
 	.string "Good bye, {PLAYER}. If I hurry up,\n"
 	.string "maybe I can see the sunset in ECRUTEAK\l"
-	.string "CITY, who knows how long I will\l"
+	.string "CITY. Who knows how long I will\l"
 	.string "contemplate this beautiful world with\l"
-	.string "VOLCARONA by my side.$"
+	.string "VOLCARONA by my side?$"
 
 CianwoodCity_Evento_Mirto_Move_1:
 jump_special_down
@@ -343,7 +343,7 @@ CianwoodCity_Esposa_Anibal_Heracrosita_Texto_1:
 	.string "Thank you for letting my husband know;\n"
 	.string "he's arrived just in time to celebrate\l"
 	.string "the city's festivities and be with his\l"
-	.string "family. Take this, CHUCK said he\l"
+	.string "family. Take this. CHUCK said he\l"
 	.string "wouldn't be using it anymore. He found\l"
 	.string "it once when he got lost in the ILEX\l"
 	.string "FOREST.$"
@@ -387,11 +387,11 @@ step_end
 
 CianwoodCity_Recluta_Texto_1:
 	.string "I've been looking for you, sir! GIOVANNI\n"
-	.string "sends an urgent message; the meeting\l"
-	.string "you know about is going to take place in\l"
+	.string "sends an urgent message; the scheduled\l"
+	.string "meeting is going to take place in\l"
 	.string "GOLDENROD CITY. Right now, he's too\l"
-	.string "busy to call you, but he told me he'd\l"
-	.string "find you in CIANWOOD CITY…$"
+	.string "busy to call you, but he told me I'd find\l"
+	.string "you in CIANWOOD CITY…$"
 
 CianwoodCity_Recluta_Texto_2:
 	.string "Our LEADER wants you to go to\n"

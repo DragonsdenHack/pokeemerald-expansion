@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_1:
-	.string "Whoever chases the truth has the risk\n"
-	.string "to find it.$"
+	.string "Whoever seeks the truth takes\n"
+	.string "the risk of finding it.$"
 
 
 
@@ -22,8 +22,7 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_2:
-	.string "Don't fight for the power, do it for the\n"
-	.string "virtue.$"
+	.string "Don't fight for power, but for virtue.$"
 
 
 

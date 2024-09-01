@@ -118,17 +118,17 @@ release
 end
 
 Cianwood_Gym_Combate_Anibal_Texto_11.1:
-.string "Hah! Take this TM with you also!$"
+.string "Hah! Take this TM with you too!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11.2:
 	.string "{PLAYER} obtained the TM65 LOW SWEEP\n"
 	.string "from CHUCK!!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11.3:
-	.string "FIGHT- TYPE POKÉMON usually don't have\n"
-	.string "a good SPEED. With this move, not only\l"
-	.string "will you deal damage, but you'll also\l"
-	.string "slow down your opponents!$"
+	.string "FIGHTING-TYPE POKÉMON usually don't\n"
+	.string "have good SPEED. With this move, not\l"
+	.string "only will you deal damage, but you'll\l"
+	.string "also slow down your opponents!$"
 
 Cianwood_Gym_Combate_Anibal_2::
 msgbox Cianwood_Gym_Combate_Anibal_Texto_12 MSGBOX_NPC
@@ -180,14 +180,14 @@ Cianwood_Gym_Combate_Anibal_3_Texto_1:
 	.string "again, I'm afraid it's already too late.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
-	.string "Yeah{PAUSE 15}…{PAUSE 15} a few days ago I freed my\n"
-	.string "POKÉMON, as I told you after our battle,\l"
-	.string "almost 1 year ago…$"
+	.string "Yeah… a few days ago, I freed my\n"
+	.string "POKÉMON, as I told you after our battle\l"
+	.string "almost a year ago…$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_3:
 	.string "Well, everything has its time, don't you\n"
-	.string "think so? Now, I'm humbly raising two\l"
-	.string "little POLIWAG and MANKEY, without any\l"
+	.string "think? Now, I'm humbly raising two little\l"
+	.string "POLIWAG and MANKEY without any\l"
 	.string "competitive aspirations.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_4:
@@ -198,21 +198,22 @@ Cianwood_Gym_Combate_Anibal_3_Texto_5:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_6:
-	.string "Mmm, I see, what you're saying is true,\n"
-	.string "that place exists. It was discovered by\l"
-	.string "the most skilled HIKERS of this city.\l"
-	.string "But the history of the origin of that\l"
-	.string "place is much older.$"
+	.string "Mmm, I see. What you're saying is\n"
+	.string "true-that place exists. It was\l"
+	.string "discovered by the most skilled HIKERS\l"
+	.string "of this city. But the history of the\l"
+	.string "origin of that place is much older.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_7:
-	.string "In the past, I explored it myself,\n"
-	.string "decades ago, I wouldn't be able to tell\l"
-	.string "you the exact location now. However, I\l"
-	.string "know someone who knows it perfectly.$"
+	.string "In the past, I explored it\n"
+	.string "myself-decades ago. I wouldn't be able\l"
+	.string "to tell you the exact location now.\l"
+	.string "However, I know someone who knows it\l"
+	.string "perfectly.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_8:
 	.string "The inhabitant of the small house north\n"
-	.string "of the city has returned, he often\l"
+	.string "of the city has returned. He often\l"
 	.string "visits the area. I'm certain he'd be\l"
 	.string "pleased to join you, once he gets to\l"
 	.string "know you better. Good luck, {PLAYER}!$"
@@ -259,8 +260,8 @@ Cianwood_Gym_Combate_Anibal_Texto_7:
 	.string "reach this level once again!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_8:
-	.string "You're a great TRAINER, {PLAYER},\n"
-	.string "just the challenge I needed to know\l"
+	.string "You're a great TRAINER, {PLAYER}.\n"
+	.string "Just the challenge I needed to know\l"
 	.string "exactly what my skill level is now.\l"
 	.string "You've shown me that I can still hold on\l"
 	.string "a little longer before my best POKÉMON\l"
@@ -279,7 +280,7 @@ Cianwood_Gym_Combate_Anibal_Texto_9.2:
 	.string "has great fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_10:
-.string "YOU OBTAINED AN STUFFUL AT LV.25!!$"
+.string "YOU OBTAINED A LV.25 STUFFUL!!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11:
 	.string "You won't find a FIGHTING TYPE POKÉMON\n"
@@ -292,7 +293,7 @@ Cianwood_Gym_Combate_Anibal_Texto_12:
 	.string "I think I can hold on for one more year;\n"
 	.string "after that, I'll release my POKÉMON and\l"
 	.string "start fresh with a MANKEY and a\l"
-	.string "POLIWAG, without any pretensions or\l"
+	.string "POLIWAG-without any pretenses or\l"
 	.string "pressure.$"
 
 CianwoodGym_Gym_Dude::
@@ -320,9 +321,9 @@ CianwoodGym_Gym_Dude_Texto_1:
 	.string "INTIMIDATE, ROCKY HELMET, and\l"
 	.string "significant physical resilience will\l"
 	.string "help you better counter the formidable\l"
-	.string "force of his expertly trained FIGHTING\l"
-	.string "TYPE POKÉMON. I hope you make a great\l"
-	.string "show!$"
+	.string "force of his expertly trained\l"
+	.string "FIGHTING-TYPE POKÉMON. I hope you\l"
+	.string "make a great show!$"
 
 CianwoodGym_Gym_Dude_Texto_2:
 	.string "What an intense battle! CHUCK's\n"

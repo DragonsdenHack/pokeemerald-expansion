@@ -274,25 +274,25 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
 	.string "see you again!.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
-	.string "E…ELITE FOUR AGATHA, it is an honor to\n"
+	.string "E-ELITE FOUR AGATHA, it's an honor to\n"
 	.string "see you again.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14:
 	.string "AGATHA: Who would have thought you'd\n"
 	.string "end up visiting JOHTO? At this rate,\l"
-	.string "you'll end up exploring every corner of\l"
-	.string "the POKÉMON world. So active and\l"
-	.string "willing, blessed youth.$"
+	.string "you'll explore every corner of the\l"
+	.string "POKÉMON world. You're such an active,\l"
+	.string "willing, and blessed youth.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15:
 	.string "AGATHA: They're telling the truth. I\n"
-	.string "know that the BELL TOWER and you, its\l"
+	.string "know that the BELL TOWER and you,\l"
 	.string "SAGES, are discreet. Therefore, you\l"
-	.string "should know that you're facing the true\l"
-	.string "CHAMPION of KANTO.$"
+	.string "should know that you're facing the\l"
+	.string "actual CHAMPION of KANTO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16:
-	.string "Please accept my apologies, it's truly\n"
+	.string "Please accept my apologies; it's truly\n"
 	.string "an honor for someone of your stature\l"
 	.string "to grace our temple with your presence.$"
 
@@ -309,7 +309,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
 .string "ALDER: But…\n"
-	.string "My POKÉMON is sick, your GRAND MASTER\l"
+	.string "My POKÉMON is sick. Your GRAND MASTER\l"
 	.string "could help to heal it.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
@@ -333,7 +333,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_22:
 .string "ALDER: Thank you so much.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_23:
-	.string "AGATHA: Don't worry, {PLAYER}, I will\n"
+	.string "AGATHA: Don't worry, {PLAYER}. I will\n"
 	.string "speak with the GRAND MASTER, and he will\l"
 	.string "understand perfectly. You will be able\l"
 	.string "to enter BELL TOWER once this matter is\l"
@@ -365,7 +365,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "In this case, we must tell to the GRAND\l"
+	.string "In this case, we must tell the GRAND\l"
 	.string "MASTER. Climb up to BELL TOWER and tell\l"
 	.string "him what just happened.\l"
 	.string "Hurry up!$"

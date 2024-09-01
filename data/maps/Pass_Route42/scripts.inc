@@ -9,7 +9,7 @@ release
 end
 
 Pass_Route42_Text_1:
-	.string "I saw how the grand ANÍBAL was training\n"
+	.string "I saw how the grand CHUCK was training\n"
 	.string "deep within MT. MORTAR. His POKÉMON\l"
 	.string "possess impressive strength!$"
 

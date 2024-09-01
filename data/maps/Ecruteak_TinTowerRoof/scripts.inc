@@ -236,30 +236,30 @@ Ecruteak_TinTowerRoof_Zeus_Texto_11.2:
 	.string "PSYSHOCK from JADEN!!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_11.1:
-	.string "And this TM also, you will know how to\n"
+	.string "And this TM too. You will know how to\n"
 	.string "take advantage of this.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_1:
-	.string "????: Come closer, {PLAYER}, I was\n"
-	.string "waiting for you.$"
+	.string "????: Draw nearer, {PLAYER}. I\n"
+	.string "awaited your arrival.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_2:
-	.string "ECRUTEAK.M: Once upon a time, this\n"
+	.string "ECRUTEAK M.: Once upon a time, this\n"
 	.string "place was the nest of HO-OH, the\l"
 	.string "highest point in JOHTO along with BRASS\l"
-	.string "TOWER, both points of connection for\l"
+	.string "TOWER. Both, points of connection for\l"
 	.string "the two legends of our region.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_3:
-	.string "I know what you're seeking; you want to\n"
+	.string "I know what you seek. You want to\n"
 	.string "battle me to test yourself and your\l"
-	.string "POKÉMON. TRAINERS live for battles,\l"
-	.string "don't they?, to reach greater heights.\l"
-	.string "That's why we're here, and not confined\l"
-	.string "to the GYM in ECRUTEAK CITY.$"
+	.string "POKÉMON. TRAINERs live for battles,\l"
+	.string "don't they? To reach greater heights.\l"
+	.string "That's why we're here, not confined to\l"
+	.string "the GYM in ECRUTEAK CITY.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_4:
-	.string "Here is where I, one of the 2 GRAND\n"
+	.string "Here is where I, one of the two GRAND\n"
 	.string "MASTERS of JOHTO, agree to battle you,\l"
 	.string "with the ashes of what once was a\l"
 	.string "majestic HO-OH as the ground upon\l"
@@ -268,19 +268,19 @@ Ecruteak_TinTowerRoof_Zeus_Texto_4:
 	.string "its essence!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_5:
-	.string "The gods have witnessed this fight, do\n"
-	.string "not doubt about it.$"
+	.string "Make no mistake-the gods have\n"
+	.string "witnessed this battle.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_6:
-	.string "I have to thank you, {PLAYER}, your\n"
+	.string "I have to thank you, {PLAYER}. Your\n"
 	.string "unyielding spirit has honored this\l"
 	.string "place with a battle for the ages. No,\l"
-	.string "AGATHA or ALDER didn't misjudge you…$"
+	.string "AGATHA and ALDER didn't misjudge you…$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_7:
-	.string "I'm truly impressed, the exchange of\n"
+	.string "I'm truly impressed. The exchange of\n"
 	.string "power and energy that occurred here\l"
-	.string "has touched perfection, it has even\l"
+	.string "has touched perfection. It has even\l"
 	.string "been worthy of witnessing from even\l"
 	.string "HO-…$"
 
@@ -293,28 +293,28 @@ Ecruteak_TinTowerRoof_Zeus_Texto_9:
 
 Ecruteak_TinTowerRoof_Zeus_Texto_10:
 	.string "The clash of our POKÉMON has caught\n"
-	.string "the attention of HO-OH, it has\l"
+	.string "the attention of HO-OH. It has\l"
 	.string "interpreted it as a manifestation of\l"
-	.string "the lofty, the eternal. Drawn by this, it\l"
+	.string "the lofty-the eternal. Drawn by this, it\l"
 	.string "has returned to BELL TOWER once again.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_11:
-	.string "This is the proof, {PLAYER}, the proof\n"
-	.string "that mortals like us can mingle with the\l"
+	.string "This is proof, {PLAYER}. Proof that\n"
+	.string "mortals like us can mingle with the\l"
 	.string "greater forces of this world and, along\l"
 	.string "with their mortal POKÉMON, ascend to\l"
-	.string "the olympus as well.$"
+	.string "OLYMPUS as well.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_12:
 	.string "I always had my doubts, but now I'm\n"
-	.string "sure, with HO-OH in front of me, I can\l"
+	.string "sure. With HO-OH in front of me, I can\l"
 	.string "perceive the greatness and unique\l"
-	.string "potential of each of the POKÉMON on\l"
-	.string "thi…$"
+	.string "potential of each of the POKÉMON on thi-$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_13:
-	.string "????: Don't make me laugh, you are not\n"
-	.string "more than dust, you and your POKÉMON.$"
+	.string "????: How morbidly hilarious. You and\n"
+	.string "your POKÉMON alike are but stardust in\l"
+	.string "the cosmos.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_14:
 .string "Don!$"
@@ -324,68 +324,72 @@ Ecruteak_TinTowerRoof_Zeus_Texto_15:
 	.string "STONE EDGE!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_16:
-.string "ECRUTEAK.M: You scoundrel! \n"
+.string "ECRUTEAK M.: You scoundrel! \n"
 	.string "How dare you do that\l"
 	.string "to something so pure?$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_17:
-	.string "You're just a mercenary who dedicates\n"
-	.string "to collecting legendaries by exploiting\l"
-	.string "others' talents! How convenient of you\l"
-	.string "to appear right after our infernal\l"
-	.string "battle! If {PLAYER} or I had our\l"
-	.string "POKÉMON fresh, we'd give you a good\l"
-	.string "lesson! No matter how many LEGENDARIES\l"
-	.string "you use, a rogue like you will never\l"
+	.string "You're just some mercenary obsessed\n"
+	.string "with collecting legendaries by\l"
+	.string "exploiting others' talents! How\l"
+	.string "convenient of you to appear right\l"
+	.string "after our infernal battle! If either my\l"
+	.string "or {PLAYER}'s POKÉMON were still\l"
+	.string "fresh, we'd give you a good lesson! No\l"
+	.string "matter how many LEGENDARIES come into\l"
+	.string "your hands, a rogue like you will never\l"
 	.string "connect with that kind of POKÉMON!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_18:
-	.string "ZEUS: I haven't come all the way here\n"
-	.string "for an old geezer from BELL TOWER to\l"
-	.string "give me moral lessons.$"
+	.string "ZEUS: I hadn't gone to these lengths to\n"
+	.string "be preached at by some aged dullard\l"
+	.string "rotting in BELL TOWER.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_19:
-	.string "I've only come to reclaim what\n"
-	.string "rightfully belongs to me, do you think I\l"
-	.string "need you, or {PLAYER}, to achieve it?\l"
-	.string "Do you really think I need your teams to\l"
-	.string "be exhausted? I could crush both of\l"
-	.string "you and your POKÉMON at their peak\l"
-	.string "without blinking. Want a little\l"
-	.string "demonstration? You'll have it.$"
+	.string "My arrival here is for the express\n"
+	.string "purpose of reclaiming my birthright.\l"
+	.string "Pray tell-are you or {PLAYER} truly\l"
+	.string "necessary to achieve that? Or that I\l"
+	.string "couldn't quash either of your teams at\l"
+	.string "the full breadth of their might? Even\l"
+	.string "at their peak, I could shatter them in\l"
+	.string "the span of a mere blink. Are you still\l"
+	.string "not convinced? Then break in twain.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_20:
-	.string "The games are over, {PLAYER}. With\n"
-	.string "your actions, you have made it clear\l"
-	.string "that you interfere with my purpose. You\l"
-	.string "leave me no choice but to force myself\l"
-	.string "to use 80% of my power. No one will save\l"
-	.string "you, the gods that this old man talks\l"
-	.string "about{PAUSE 20}…{PAUSE 20} I have those gods!$"
+	.string "The time for pity has passed,\n"
+	.string "{PLAYER}. Your intent is clear-you\l"
+	.string "intend to be my stumbling block to the\l"
+	.string "end. Then no other recourse remains-you\l"
+	.string "shall bear the brunt of four-fifths of\l"
+	.string "my might. No god in this world or the\l"
+	.string "next shall grant your last rites. They\l"
+	.string "shall smite you in my stead!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_21:
 .string "How is this possible?$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_22:
 .string "ZEUS: This…\n"
-	.string "My team is still incomplete, but it\l"
-	.string "should be more than enough to crush\l"
-	.string "any TRAINER, I don't understand…$"
+	.string "My team, however fragmented it may be,\l"
+	.string "ought to have rent any TRAINER\l"
+	.string "asunder. I don't understand…$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_23:
 .string "No{PAUSE 35}…{PAUSE 35}\n"
-	.string "The difference between 80% and 100%\l"
-	.string "isn't 20%, it's{PAUSE 15}…{PAUSE 15} everything{PAUSE 15}…{PAUSE 15} An\l"
-	.string "unapproachable and undeniable power.\l"
-	.string "That's it, now I just need one piece to\l"
-	.string "bring it together, and I know who has it.$"
+	.string "The remaining border isn't merely that\l"
+	.string "last fifth… It's… everything… An\l"
+	.string "omnipotence infinitely beyond and\l"
+	.string "supreme to every other force. That's it.\l"
+	.string "Only a single key remains to bind it\l"
+	.string "whole, and I know who holds it.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_24:
-	.string "ECRUTEAK.M: This is terrible{PAUSE 25}…{PAUSE 25} We need to\n"
-	.string "notify the DRAGON MASTER of\l"
+	.string "ECRUTEAK M.: This is terrible… We need\n"
+	.string "to notify the DRAGON MASTER of\l"
 	.string "BLACKTHORN CITY. It's only a matter of\l"
-	.string "time before that lunatic finds the ice\l"
-	.string "path to the hidden city among the\l"
+	.string "time before that lunatic finds the ICE\l"
+	.string "PATH to the hidden city among the\l"
 	.string "mountains.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_25:
@@ -393,13 +397,13 @@ Ecruteak_TinTowerRoof_Zeus_Texto_25:
 	.string "what I was referring to when HO-OH\l"
 	.string "appeared! No matter how much he wants\l"
 	.string "to deny it, you've shown him that brute\l"
-	.string "power and base stats aren't everything.\l"
-	.string "Your mortals POKÉMON can compete\l"
+	.string "power and BASE STATs aren't everything.\l"
+	.string "Your mortal POKÉMON can compete\l"
 	.string "against the greatest gods of this\l"
 	.string "world!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_26:
-	.string "Here you are, {PLAYER}, I want you to\n"
+	.string "Here you are, {PLAYER}. I want you to\n"
 	.string "have this POKÉMON. I brought it from a\l"
 	.string "far region, but it loves the ambience of\l"
 	.string "ECRUTEAK CITY.$"
