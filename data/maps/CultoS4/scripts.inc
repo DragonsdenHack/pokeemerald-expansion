@@ -37,7 +37,7 @@ end
 CultoS4_Text_5:
 	.string "Your primary task is not to seek\n"
 	.string "salvation through the creation of a\l"
-	.string "better world, your primary task is to\l"
+	.string "better world. Your primary task is to\l"
 	.string "awaken from identification with form.$"
 
 
@@ -50,11 +50,10 @@ release
 end
 
 CultoS4_Text_6:
-	.string "The ESSENCE POKÉMON{PAUSE 15}…{PAUSE 15} Will it have a\n"
-	.string "defined type? Some say that by\l"
-	.string "definition it must be GHOST, perhaps\l"
-	.string "it's a combination of this and another\l"
-	.string "one…$"
+	.string "The ESSENCE POKÉMON… Will it have a\n"
+	.string "defined TYPE? Some say that by\l"
+	.string "definition it must be GHOST. Perhaps\l"
+	.string "it's a combination of this and another…$"
 
 
 
@@ -169,26 +168,26 @@ step_end
 
 CultoS4_Rezando_Esencia_Texto_1:
 	.string "Our essence is to lack essence and, at\n"
-	.string "the same time, to be able to build it\l"
-	.string "potentially. We are pure possibility,\l"
-	.string "that is, a nothingness that is\l"
-	.string "potentially everything.$"
+	.string "the same time, potentially to be able to\l"
+	.string "build it. We are pure possibility-that is,\l"
+	.string "a nothingness that is potentially\l"
+	.string "everything.$"
 
 CultoS4_Rezando_Esencia_Texto_2:
 	.string "While others merely seek to extend\n"
-	.string "their gaze or subdue their senses, here\l"
-	.string "we rely on a higher, true, and concrete\l"
-	.string "thought, the cornerstone of this world.\l"
-	.string "The ESSENCE POKÉMON.$"
+	.string "their gaze or subdue their senses, here,\l"
+	.string "we rely on a higher, truer, and more\l"
+	.string "concrete thought, the cornerstone of\l"
+	.string "this world. The ESSENCE POKÉMON.$"
 
 CultoS4_Rezando_Esencia_Texto_3:
 	.string "The word POKÉMON is limiting when\n"
 	.string "referring to IT, not only because of\l"
 	.string "millennia of misconception and misuse\l"
 	.string "of the term but also because it implies\l"
-	.string "that it is a separate entity from us.\l"
-	.string "The ESSENCE POKÉMON is not a being; it\l"
-	.string "is BEING itself.$"
+	.string "that IT is a separate entity from us.\l"
+	.string "The ESSENCE POKÉMON is not a being; IT\l"
+	.string "itself is TO BE.$"
 
 CultoS4_Huevo::
 lock

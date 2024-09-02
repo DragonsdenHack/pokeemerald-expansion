@@ -273,7 +273,7 @@ release
 end
 
 Route27_Cartel_Texto_2:
-.string "(This last thing is strikethrough).$"
+.string "(This last thing is striken through.)$"
 
 Route27_Cartel_Texto_1:
 .string "KANTO BORDER: FORBIDDEN TO\n"

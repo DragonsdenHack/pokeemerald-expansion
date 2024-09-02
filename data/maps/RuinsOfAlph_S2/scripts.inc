@@ -153,11 +153,11 @@ RuinsOfAlphS2_Combate_Real_Unown_Texto_3:
 	.string "(The mysterious energy has dissipated)$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_4:
-	.string "ELDER.M: Amazing, you've just defeated\n"
-	.string "the golden HO-OH.$"
+	.string "ELDER M.: Commendable. You've just\n"
+	.string "defeated the golden HO-OH.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_5:
-	.string "My dragons couldn't do anything\n"
+	.string "My DRAGONs couldn't do anything\n"
 	.string "against the purity of its FAIRY TYPE;\l"
 	.string "that ZEUS knew that HO-OH serves as a\l"
 	.string "key to keep advancing to the last room.\l"
@@ -165,11 +165,11 @@ RuinsOfAlphS2_Combate_Real_Unown_Texto_5:
 	.string "place has made it regain its primordial\l"
 	.string "form. That's exactly what he's seeking\l"
 	.string "with KYUREM. You must prevent that,\l"
-	.string "{PLAYER}, no one is prepared for the\l"
+	.string "{PLAYER}. No one is prepared for the\l"
 	.string "return of the ORIGINAL DRAGON.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_6:
-	.string "You'll do fine, {PLAYER}, you have\n"
+	.string "You'll do fine, {PLAYER}. You have\n"
 	.string "something that can't be bought with\l"
 	.string "any LEGENDARY and that ZEUS lacks: an\l"
 	.string "unbreakable bond with your POKÉMON.\l"

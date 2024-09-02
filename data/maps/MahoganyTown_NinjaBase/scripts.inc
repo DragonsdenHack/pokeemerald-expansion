@@ -22,10 +22,10 @@ release
 end
 
 MahoganyTown_NinjaBase_Text_2:
-	.string "You arrive at just the right moment, sir.\n"
-	.string "I heard GIOVANNI was going to notify\l"
-	.string "the other CHIEF ADMINS., but with you\l"
-	.string "here, it won't be necessary.$"
+	.string "You've arrived at just the right moment,\n"
+	.string "sir. I heard GIOVANNI was going to\l"
+	.string "notify the other CHIEF ADMINS., but\l"
+	.string "with you here, it won't be necessary.$"
 
 
 

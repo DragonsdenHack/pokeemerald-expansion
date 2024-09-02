@@ -133,12 +133,12 @@ MahoganyTown_Encuentro_Rocket_Texto_1:
 	.string "How timely!$"
 
 MahoganyTown_Encuentro_Rocket_Texto_2:
-	.string "Cof{PAUSE 15}…{PAUSE 15} Listen. Just as GIOVANNI ordered\n"
-	.string "us, PRYCE has handed over the old NINJA\l"
-	.string "HIDDEN BASE in MAHOGANY for our\l"
-	.string "research. We've already installed some\l"
-	.string "of the equipment and adapted the base\l"
-	.string "to the ROCKET style.$"
+	.string "Cough… Listen. Just as GIOVANNI\n"
+	.string "ordered us, PRYCE has handed over the\l"
+	.string "old NINJA HIDDEN BASE in MAHOGANY for\l"
+	.string "our research. We've already installed\l"
+	.string "some of the equipment and remodeled it\l"
+	.string "after our ROCKET BASEs.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_3:
 	.string "However, in PRYCE's absence, the base\n"
@@ -159,7 +159,7 @@ MahoganyTown_Encuentro_Rocket_Texto_5:
 MahoganyTown_Encuentro_Rocket_Texto_6:
 	.string "It's here. We have the exterior\n"
 	.string "surrounded, but we're struggling to\l"
-	.string "breach the inner sanctum of the base.$"
+	.string "breach the inner sanctum of the BASE.$"
 
 MahoganyTown_Encuentro_Rocket_Move_1:
 walk_in_place_right

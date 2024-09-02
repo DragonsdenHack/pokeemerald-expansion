@@ -5,35 +5,36 @@ RocketHideout_JohtoP2_MapScripts::
 RocketHideoutJohtoP2Documento_100::
 lock        
 msgbox RocketHideoutJohtoP2Documento_Text_100, MSGBOX_DEFAULT
+msgbox RocketHideoutJohtoP2Documento_Text_100.1, MSGBOX_DEFAULT
 msgbox RocketHideoutJohtoP2Documento_Text_101, MSGBOX_DEFAULT
 release     
 end
 
 RocketHideoutJohtoP2Documento_Text_100:
 	.string "(It appears to be a document written\n"
-	.string "and signed by GIOVANNI himself). Dear\l"
-	.string "{PLAYER}, we haven't been idle either.\l"
-	.string "From the DEEP BASE, our top scientists\l"
-	.string "have finally managed to develop the\l"
-	.string "ultimate POKÉMON STONE, one that allows\l"
-	.string "for a final evolution of POKÉMON that\l"
-	.string "naturally shouldn't be able to evolve\l"
-	.string "further. In other words, it allows us\l"
-	.string "access to all experiments and\l"
-	.string "prototypes created by both us and our\l"
-	.string "former enemies. The creation of a single\l"
-	.string "stone, however, comes at an immense\l"
-	.string "economic cost. That's why only the 3\l"
-	.string "LEADERS of JOHTO, HOENN, and the SEVII\l"
-	.string "ISLANDS have been given one unit.\l"
-	.string "Compatible POKÉMON will have their BASE\l"
-	.string "STATS boosted by 100, similar to MEGA\l"
-	.string "EVOLUTION, but allowing the use of an\l"
-	.string "item. Thanks to the collaboration of\l"
-	.string "BILL, BLAINE, OAK, and ELM, we have a\l"
-	.string "wide variety of POKÉMON that will\l"
-	.string "respond to the STONE. They are as\l"
-	.string "follows:$"
+	.string "and signed by GIOVANNI himself.)$"
+
+RocketHideoutJohtoP2Documento_Text_100.1:
+	.string "Dear {PLAYER}, we haven't been idle\n"
+	.string "either. Our top scientists within the\l"
+	.string "DEEP BASE have at long last created the\l"
+	.string "POKÉMON STONE-an item that can evolve a\l"
+	.string "POKÉMON past its natural limit. In\l"
+	.string "short, we can recreate any experiment\l"
+	.string "or prototype developed at our hands or\l"
+	.string "those of our former foes. The creation\l"
+	.string "of a single stone, however, comes at an\l"
+	.string "immense economic cost. That's why only\l"
+	.string "the three ADMINs of JOHTO, HOENN, and\l"
+	.string "the SEVII ISLANDS have been given one\l"
+	.string "unit each. Compatible POKÉMON will gain\l"
+	.string "100 BASE STATs, much like MEGA\l"
+	.string "EVOLUTION, but without the drawback of\l"
+	.string "having no item. Thanks to the\l"
+	.string "collaboration of BILL, BLAINE, OAK, and\l"
+	.string "ELM, we have a wide variety of POKÉMON\l"
+	.string "that will respond to the STONE. They are\l"
+	.string "as follows:$"
 
 RocketHideoutJohtoP2Documento_Text_101:
 .string "- ELECTRODE\n"
@@ -57,7 +58,7 @@ end
 RocketHideoutJohtoP2Documento_Text_102:
 	.string "-This place belongs to the TRAINER\n"
 	.string "where the old and the new have come\l"
-	.string "together-.$"
+	.string "together-$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys::
 lock
@@ -75,8 +76,8 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_1:
-.string "(There is a text written on the POKÉ BALL,\n"
-	.string "is redacted by GIOVANNI)$"
+	.string "(Some text has been etched on the POKÉ\n"
+	.string "BALL by GIOVANNI.)$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2:
 	.string "-{PLAYER}, the services you have\n"
@@ -118,25 +119,22 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_1:
-	.string "(There is a message written in the POKÉ\n"
-	.string "BALL, it is redacted by ANDRA)$"
+	.string "(Some text has been etched on\n"
+	.string "the POKÉ BALL by ANDRA.)$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
-	.string "-{PLAYER}, GIOVANNI sent me to HOENN\n"
-	.string "to find the equivalent of the\l"
-	.string "LEGENDARY BIRDS of KANTO in that\l"
-	.string "region. After much research, I managed\l"
-	.string "to locate the chambers housing the\l"
-	.string "so-called REGIS and decipher the\l"
-	.string "puzzles leading to them. Our scientists\l"
-	.string "handled the rest, and just like the\l"
-	.string "LEGENDARIES of KANTO and JOHTO, they\l"
-	.string "were able to clone their genetic\l"
-	.string "material. Here are 3 of the first\l"
-	.string "successfully replicated specimens.\l"
-	.string "Someone like you will surely know how to\l"
-	.string "make the most of their unique STAT\l"
-	.string "combinations.-$"
+	.string "-Hey, {PLAYER}. GIOVANNI had sent me\n"
+	.string "to HOENN to seek out its equivalent to\l"
+	.string "KANTO's LEGENDARY BIRDs. It took a ton\l"
+	.string "of research, but I tracked the\l"
+	.string "chambers housing the so-called REGIs\l"
+	.string "and cracked the puzzles hiding them.\l"
+	.string "Then our scientists managed to clone\l"
+	.string "their genetic material-just like the\l"
+	.string "LEGENDARIES of KANTO and JOHTO. Here\l"
+	.string "are three of the first successful\l"
+	.string "replicas. If anyone can maximize their\l"
+	.string "unique STAT combinations, it's you.-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_3:
 .string "YOU OBTAINED A LV.20 REGIROCK!!$"

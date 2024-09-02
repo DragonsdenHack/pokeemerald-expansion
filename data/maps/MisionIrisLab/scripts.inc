@@ -101,9 +101,9 @@ MisionIrisLab_Primer_Cientifico_Texto_1:
 
 MisionIrisLab_Primer_Cientifico_Texto_2:
 	.string "Where do you come from? You don't seem\n"
-	.string "to be from DEVON C.O., you must be one\l"
-	.string "of those executives from GOLDENROD\l"
-	.string "who only care about money.$"
+	.string "to be from DEVON CO. You must be one of\l"
+	.string "those EXECUTIVEs from GOLDENROD who\l"
+	.string "only care about money.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_3:
 	.string "Here, we deal with serious matters. Tell\n"
@@ -139,12 +139,11 @@ MisionIrisLab_Primer_Cientifico_Texto_9:
 	.string "This makes no sense. I've heard that\n"
 	.string "JOHTO LEADERS possess exceptional\l"
 	.string "power, more due to their extensive\l"
-	.string "experience than to actually train\l"
-	.string "efficiently.$"
+	.string "experience than any efficient training.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_10:
-	.string "But you{PAUSE 15}…{PAUSE 15} you're not one of them, maybe\n"
-	.string "you're not just a GOLDENROD executive\l"
+	.string "But you… you're not one of them. Maybe\n"
+	.string "you're not just a GOLDENROD EXECUTIVE\l"
 	.string "either.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_11:
@@ -236,14 +235,14 @@ MisionIrisLab_Segundo_Cientifico_Texto_3:
 	.string "the best company in HOENN? Or in\l"
 	.string "scientists who wouldn't make the\l"
 	.string "slightest progress in that place even\l"
-	.string "in 10 years?$"
+	.string "in ten years?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
-	.string "So, that's irrelevant{PAUSE 15}…{PAUSE 15} form is the\n"
-	.string "unique that matters?$"
+	.string "So, that's irrelevant… The form\n"
+	.string "is what matters?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_6:
 	.string "Wouldn't you be as foolish as them?\n"
@@ -261,7 +260,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_8:
 
 MisionIrisLab_Segundo_Cientifico_Texto_9:
 	.string "A warning is not treachery. For your own\n"
-	.string "good, I hope this was a mistake, and\l"
+	.string "good, I hope this was a mistake and\l"
 	.string "that you quickly experience regression\l"
 	.string "to the mean.$"
 

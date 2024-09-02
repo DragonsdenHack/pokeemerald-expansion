@@ -34,7 +34,7 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_4:
-	.string "I'd like to train a STANTLER, they're so\n"
+	.string "I'd like to train a STANTLER. They're so\n"
 	.string "magnificent and characteristic of\l"
 	.string "JOHTO… Although I'm not sure if it's a\l"
 	.string "suitable POKÉMON for a ROCKET…$"
@@ -49,14 +49,14 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_5:
-	.string "Have you heard about the SHINY\n"
-	.string "POKÉMON? Well, better! They have\l"
-	.string "nothing special other than a different\l"
-	.string "color than the one that should have!\l"
-	.string "It's just a gimmick to waste the time of\l"
-	.string "those who want to show off their odd\l"
-	.string "collection! The only thing that matters\l"
-	.string "in a POKÉMON is its genetic potential!$"
+	.string "Ever heard of SHINY POKÉMON? Well, all\n"
+	.string "the better! The only thing special\l"
+	.string "about 'em's the weird color they've got\l"
+	.string "compared to usual! It's just some\l"
+	.string "gimmick to eat up time from people who'd\l"
+	.string "gloat about their weird collection! The\l"
+	.string "only thing that matters in a POKÉMON is\l"
+	.string "its genetic potential!$"
 
 
 
@@ -110,7 +110,7 @@ end
 MahoganyTown_NinjaBaseS2_Text_12:
 	.string "ROUTE 5 BASE, VIRIDIAN CITY BASE,\n"
 	.string "CELADON BASE, CHRONO ISLAND\l"
-	.string "WAREHOUSE, MAHOGANY BASE and ROUTE 45\l"
+	.string "WAREHOUSE, MAHOGANY BASE, and ROUTE 45\l"
 	.string "BASE. We are omnipresent!$"
 
 
@@ -203,5 +203,5 @@ NinjaBaseS2_Charizardita_X_Texto_3:
 
 NinjaBaseS2_Charizardita_X_Texto_2:
 	.string "You obtained a CHARIZARDITE-X from\n"
-	.string "ROCKET SCIENTIST!!$"
+	.string "the ROCKET SCIENTIST!!$"
 

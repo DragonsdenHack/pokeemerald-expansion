@@ -77,14 +77,14 @@ MtSilver3_Combate_Rojo_Texto_2:
 .string "¡…!$"
 
 MtSilver3_Combate_Rojo_Texto_3:
-.string "????: {PLAYER}, am I wrong?\n"
+.string "????: {PLAYER}? Am I wrong?\n"
 	.string "We already know each other.$"
 
 MtSilver3_Combate_Rojo_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilver3_Combate_Rojo_Texto_5:
-	.string "DRAGON.M: Your friends should know\n"
+	.string "DRAGON M.: Your friends should know\n"
 	.string "that MT. SILVER is not the place to\l"
 	.string "dispose of their failed experiments;\l"
 	.string "they'll end up linking this imitation\l"
@@ -105,8 +105,8 @@ MtSilver3_Combate_Rojo_Texto_7:
 
 MtSilver3_Combate_Rojo_Texto_8:
 	.string "It was a historic act, no doubt, but the\n"
-	.string "real question is: Did you do it for the\l"
-	.string "benefit of KANTO, or to swap one\l"
+	.string "real question is: did you do it for the\l"
+	.string "benefit of KANTO-or to swap one\l"
 	.string "dictatorship for another?$"
 
 MtSilver3_Combate_Rojo_Texto_9:
@@ -127,7 +127,7 @@ MtSilver3_Combate_Rojo_Texto_10:
 MtSilver3_Combate_Rojo_Texto_11:
 	.string "Maybe my old buddy will be up for giving\n"
 	.string "you a few pointers on battling.\l"
-	.string "Someone's gotta carry on our technique\l"
+	.string "Someone must carry on our technique\l"
 	.string "once we're gone. Don't you agree?\l"
 	.string "CHAMPION?$"
 

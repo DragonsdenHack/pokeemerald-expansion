@@ -43,12 +43,12 @@ end
 DragonsdenS1_Text_4:
 	.string "Who are you? If you're not a DRAGON\n"
 	.string "TYPE specialist, you shouldn't be here.\l"
-	.string "Ha, I bet none of your POKÉMON even\l"
-	.string "surpass the hierarchy of a KINGDRA, we\l"
-	.string "won't even talk about a PSEUDO\l"
-	.string "LEGENDARY like DRAGONITE! The POKÉMON\l"
-	.string "world outside of the DRAGON TYPE is so\l"
-	.string "mediocre!$"
+	.string "Ha, I bet none of your POKÉMON would\l"
+	.string "even overthrow the hierarchy of a\l"
+	.string "KINGDRA. We won't even talk about a\l"
+	.string "PSEUDO-LEGENDARY like DRAGONITE! The\l"
+	.string "POKÉMON world beyond DRAGON TYPEs is\l"
+	.string "so mediocre!$"
 
 
 
@@ -86,10 +86,10 @@ DragonsdenS1_Text_MensajeDrampa:
 .string "YOU OBTAINED A LV.50 DRAMPA!$"
 
 DragonsdenS1_Text_2:
-	.string "DRAMPA is a very unique dragon. It\n"
+	.string "DRAMPA is a very unique DRAGON. It\n"
 	.string "focuses on SPECIAL ATTACK, a symbol of\l"
 	.string "its great wisdom. It's very slow but\l"
-	.string "also has good defenses. The DRAGON'S\l"
+	.string "also has good DEFENSEs. The DRAGON'S\l"
 	.string "DEN has always had some specimens in\l"
 	.string "its deepest caves. I hope you can keep\l"
 	.string "the secret.$"

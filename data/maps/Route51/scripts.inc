@@ -96,25 +96,26 @@ Route51_Combate_Chica_Texto_1:
 	.string "physics.$"
 
 Route51_Combate_Chica_Texto_2:
-	.string "Tell me, do you think that a strong\n"
-	.string "POKÉMON can originate from anywhere?$"
+	.string "Tell me. Do you think that a strong\n"
+	.string "POKÉMON can originate anywhere?$"
 
 Route51_Combate_Chica_Texto_3:
-	.string "Oh, no! Applying the same rules you saw\n"
-	.string "in my POKÉMON with LEGENDARIES or\l"
-	.string "POKÉMON with higher BASE power? That's\l"
-	.string "not possible! They start from a\l"
-	.string "different base, but the process is also\l"
-	.string "different, and if you do it right, they\l"
-	.string "all end up reaching a similar point!$"
+	.string "Oh, heavens no! Applying the same\n"
+	.string "conditions you saw in my POKÉMON with\l"
+	.string "LEGENDARIES or POKÉMON with higher\l"
+	.string "BASE power? That's not possible! They\l"
+	.string "start from a different base and follow\l"
+	.string "a different process, and if you do it\l"
+	.string "right, they all end up reaching a similar\l"
+	.string "point!$"
 
 Route51_Combate_Chica_Texto_4:
 	.string "And would you be willing to take that\n"
 	.string "belief into the arena of combat?$"
 
 Route51_Combate_Chica_Texto_5:
-	.string "In that case, I can't teach you\n"
-	.string "something new, have a nice day.$"
+	.string "So in that case, there's nothing new\n"
+	.string "that I can teach you. Have a nice day.$"
 
 Route51_Combate_Chica_Texto_6:
 .string "Cool!\n"
@@ -135,9 +136,9 @@ Route51_Combate_Chica_Texto_8:
 
 Route51_Combate_Chica_Texto_9:
 	.string "I found it on one of my journeys along\n"
-	.string "the beach, I'm sure it'll be more useful\l"
-	.string "to you than to me.$"
+	.string "the beach. I'm sure it'll be more useful\l"
+	.string "to you than me.$"
 
 Route51_Combate_Chica_Texto_10:
-	.string "I understand, not everyone is prepared\n"
-	.string "to trespassing the reality limits.$"
+	.string "I understand. Not everyone is prepared\n"
+	.string "to trespass the limits of reality.$"

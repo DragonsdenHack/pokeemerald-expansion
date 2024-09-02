@@ -88,8 +88,8 @@ end
 
 MahoganyTown_NinjaBaseS1_Text_9:
 	.string "The POKÉMON that inhabit the LAKE OF\n"
-	.string "RAGE will be, from right now, very\l"
-	.string "interesting study subjects.$"
+	.string "RAGE will be, as of now, very interesting\l"
+	.string "subjects of study.$"
 
 
 
@@ -111,9 +111,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_12:
-.string "You're the best one, sir!\n"
-.string "Not even 20 TRAINERS together\l"
-.string "were enough to stop you!$"
+	.string "You're the best, sir! Not even twenty\n"
+	.string "TRAINERS together were enough to stop\l"
+	.string "you!$"
 
 
 
@@ -243,7 +243,7 @@ NinjaBaseS1_Primera_Trampa_Texto_2:
 .string "We have a rebel.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_3:
-.string "You will fall, as everyone.$"
+.string "You will fall, as do all.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_4:
 	.string "This base belonged to my ancestors; I'm\n"
@@ -363,8 +363,8 @@ NinjaBaseS1_Segunda_Trampa_Texto_2:
 .string "I think it is time to disappear.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_3:
-	.string "You won't be able to invade this base,\n"
-	.string "we are too many.$"
+	.string "You won't be able to invade\n"
+	.string "this base-we are too many.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_4:
 	.string "Looks like we'll have to kick you from\n"
@@ -452,12 +452,12 @@ NinjaBaseS1_Tercera_Trampa_Texto_1:
 	.string "may have already experienced.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_2:
-.string "My ninjas POKÉMON!$"
+.string "My ninja POKÉMON!$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_3:
 	.string "I should have brought a POKÉMON with\n"
-	.string "TOXIC, that way I could prolong your\l"
-	.string "agony even further.$"
+	.string "TOXIC, so as to prolong your agony even\l"
+	.string "further.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_4:
 	.string "Isn't TEAM ROCKET already too\n"
@@ -503,12 +503,12 @@ NinjaBaseS1_Cuarta_Trampa_Texto_1:
 	.string "you to a POKÉMON CENTER.$"
 
 NinjaBaseS1_Cuarta_Trampa_Texto_2:
-	.string "Keep, keep ahead, the harder will be\n"
-	.string "your downfall.$"
+	.string "The further and further you go, the\n"
+	.string "harder your downfall.$"
 
 NinjaBaseS1_Cuarta_Trampa_Texto_3:
-	.string "You have no way to heal your team here,\n"
-	.string "we've made sure of that personally.$"
+	.string "You have no way to heal your team here.\n"
+	.string "We've personally ensured that.$"
 
 NinjaBaseS1_Cuarta_Trampa_Move_1:
 emote_exclamation_mark
@@ -549,8 +549,8 @@ NinjaBaseS1_Quinta_Trampa_Texto_1:
 	.string "My ninja techniques will make you cry!$"
 
 NinjaBaseS1_Quinta_Trampa_Texto_2:
-.string "I need more poison in my team.$"
+.string "I need more POISON in my team.$"
 
 NinjaBaseS1_Quinta_Trampa_Texto_3:
 	.string "We're going to take care of you\n"
-	.string "together, we never said we'd play fair.$"
+	.string "together-we never said we'd play fair.$"

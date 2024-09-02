@@ -441,7 +441,7 @@ RuinsOfAlph_S5_Final_Texto_1:
 	.string "are, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Texto_2:
-	.string "That's correct, at this very moment\n"
+	.string "That's correct. At this very moment,\n"
 	.string "we're buried hundreds of yards below\l"
 	.string "ECRUTEAK CITY, right between BELL\l"
 	.string "TOWER and the misnamed BURNT TOWER,\l"
@@ -449,12 +449,12 @@ RuinsOfAlph_S5_Final_Texto_2:
 
 RuinsOfAlph_S5_Final_Texto_3:
 	.string "As you can see, there are no accidents,\n"
-	.string "{PLAYER}, everything has a reason. Do\l"
+	.string "{PLAYER}. Everything has a reason. Do\l"
 	.string "you now understand why LUGIA and\l"
 	.string "HO-OH were needed to get here?$"
 
 RuinsOfAlph_S5_Final_Texto_4:
-	.string "Both towers are 700 years stand on{PAUSE 25}…{PAUSE 25} A\n"
+	.string "Both towers have stood 700 years… A\n"
 	.string "small fraction compared to the time our\l"
 	.string "cult has been in existence. It was here\l"
 	.string "that the ESSENCE POKÉMON migrated\l"
@@ -466,7 +466,7 @@ RuinsOfAlph_S5_Final_Texto_5:
 	.string "The ESSENCE POKÉMON!$"
 
 RuinsOfAlph_S5_Final_Texto_6:
-	.string "Watch closely, {PLAYER}, the greatest\n"
+	.string "Watch closely, {PLAYER}. The greatest\n"
 	.string "forces in the universe are about to\l"
 	.string "appear!$"
 
@@ -475,39 +475,38 @@ RuinsOfAlph_S5_Final_Texto_7:
 
 RuinsOfAlph_S5_Final_Texto_8:
 	.string "My cult has awaited this for millennia,\n"
-	.string "and now I have the honor of not only\l"
+	.string "and now, I have the honor of not only\l"
 	.string "witnessing but also using the ESSENCE\l"
 	.string "POKÉMON!$"
 
 RuinsOfAlph_S5_Final_Texto_9:
-.string "3…\n"
-	.string "Three are the POKÉMON that, together,\l"
-	.string "have shaped everything there is, was,\l"
-	.string "and will be, with their differences,\l"
-	.string "equal in overall power. Of the three, the\l"
-	.string "most important is the ESSENCE POKÉMON,\l"
-	.string "because thanks to it the other two can\l"
-	.string "reclaim their PRIMAL ESSENCE.$"
+	.string "Three… Three are the POKÉMON that,\n"
+	.string "together, have shaped everything there\l"
+	.string "is, was, and will be with their\l"
+	.string "differences and equal in overall power.\l"
+	.string "Of the three, the most important is the\l"
+	.string "ESSENCE POKÉMON, because thanks to it,\l"
+	.string "the other two can reclaim their PRIMAL\l"
+	.string "ESSENCE.$"
 
 RuinsOfAlph_S5_Final_Texto_10:
-	.string "The ORIGINAL DRAGON represents\n"
-	.string "perfect balance, perfection. IT is the\l"
-	.string "ancestor of all the dragons, existing\l"
+	.string "The ORIGINAL DRAGON represents true\n"
+	.string "equilibrium and perfection. IT is the\l"
+	.string "ancestor of all DRAGONs, existing\l"
 	.string "before the other creator god hatched\l"
 	.string "from the egg that gave birth to this\l"
 	.string "universe.$"
 
 RuinsOfAlph_S5_Final_Texto_11:
 	.string "That fool thought that simply uniting\n"
-	.string "the 3 UNOVA DRAGONS would be enough,\l"
-	.string "but only the ESSENCE POKÉMON can\l"
-	.string "restore it to its original form,\l"
-	.string "predating the BIG-BANG.\l"
-	.string "Watch!$"
+	.string "the three UNOVA DRAGONS would be\l"
+	.string "enough, but only the ESSENCE POKÉMON\l"
+	.string "can restore it to its original form\l"
+	.string "predating the BIG BANG. Watch!$"
 
 RuinsOfAlph_S5_Final_Texto_12:
-	.string "Its offense is incomparable, master of\n"
-	.string "the ELEMENTAL TYPES, MEGA RAYQUAZA is\l"
+	.string "Its offense is incomparable. Master of\n"
+	.string "the ELEMENTAL TYPES. MEGA RAYQUAZA is\l"
 	.string "just a crude lizard compared to it.$"
 
 RuinsOfAlph_S5_Final_Texto_13:
@@ -525,7 +524,7 @@ RuinsOfAlph_S5_Final_Texto_14:
 RuinsOfAlph_S5_Final_Texto_15:
 	.string "And finally, the ESSENCE POKÉMON,\n"
 	.string "intermediary between the other two\l"
-	.string "deities, its realm is dark matter, the\l"
+	.string "deities. Its realm is dark matter, the\l"
 	.string "mold from which all creation processes\l"
 	.string "must pass. We all are part of IT, that's\l"
 	.string "why it's omnipresent, and its only\l"
@@ -553,34 +552,35 @@ RuinsOfAlph_S5_Final_Texto_18:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S5_Final_Texto_19:
-	.string "The 3 of them together, united, already\n"
+	.string "The three of them together, already\n"
 	.string "form the perfect synergy. Adding any\l"
-	.string "other POKÉMON to this team of 3 would\l"
-	.string "break that perfection. I need nothing\l"
-	.string "more than these 3 POKÉMON to crown\l"
+	.string "other POKÉMON to this team would break\l"
+	.string "this perfection. I need nothing more\l"
+	.string "than these three POKÉMON to crown\l"
 	.string "myself as the most powerful TRAINER of\l"
 	.string "all time; the rest are light-years\l"
 	.string "behind.$"
 
 RuinsOfAlph_S5_Final_Texto_20:
-	.string "There's no chance of escape, you're\n"
+	.string "There's no chance of escape. You're\n"
 	.string "just a part of the whole you're about to\l"
 	.string "face.$"
 
 RuinsOfAlph_S5_Final_Texto_21:
-	.string "I'm sorry, {PLAYER}, you would have\n"
-	.string "been a great member of our cult and\l"
+	.string "I'm sorry, {PLAYER}. You'd have been a\n"
+	.string "great member of our cult and\l"
 	.string "appreciated the ESSENCE POKÉMON, but…\l"
-	.string "THE IMMORTALITY IS MINE!!$"
+	.string "IMMORTALITY AWAITS ONLY ME!!$"
 
 RuinsOfAlph_S5_Final_Texto_22:
-	.string "This makes no sense, everything was\n"
-	.string "perfect!$"
+	.string "This makes no sense. Everything\n"
+	.string "was perfect!$"
 
 RuinsOfAlph_S5_Final_Texto_23:
-	.string "It can't be, these 3 POKÉMON can only\n"
-	.string "defeat each other. Together, they form\l"
-	.string "an unbeatable team. What went wrong?$"
+	.string "This can't be! These three POKÉMON can\n"
+	.string "only defeat each other. Together, they\l"
+	.string "form an unbeatable team. What went\l"
+	.string "wrong?$"
 
 RuinsOfAlph_S5_Final_Texto_24:
 .string "k4nv%bjs&!$"

@@ -10,7 +10,7 @@ end
 
 Route44_Text_1:
 	.string "The ICE PATH is closed until further\n"
-	.string "notice, sorry, it's been last-minute\l"
+	.string "notice. Sorry, it's been last-minute\l"
 	.string "orders from ECRUTEAK CITY.$"
 
 
@@ -233,17 +233,17 @@ Route44_Combate_Mirto_Texto_1:
 
 Route44_Combate_Mirto_Texto_2:
 	.string "I figured I'd find you here. You've\n"
-	.string "taken down 7 of the top 8 TRAINERS in\l"
-	.string "JOHTO, haven't you? You're only left\l"
-	.string "with the last and toughest one: the\l"
-	.string "DRAGON MASTER of BLACKTHORN. That's\l"
-	.string "why you're heading towards the ICE\l"
-	.string "PATH.$"
+	.string "taken down seven of the top eight\l"
+	.string "TRAINERS in JOHTO, haven't you? You're\l"
+	.string "only left with the last and toughest\l"
+	.string "one: the DRAGON MASTER of BLACKTHORN.\l"
+	.string "That's why you're heading toward the\l"
+	.string "ICE PATH.$"
 
 Route44_Combate_Mirto_Texto_3:
-	.string "I come to say goodbye, {PLAYER}.\n"
-	.string "Indeed, soon I will go back to UNOVA, my\l"
-	.string "original region.$"
+	.string "I came to say goodbye, {PLAYER}.\n"
+	.string "Indeed, soon, I will go back to UNOVA, my\l"
+	.string "homeland.$"
 
 Route44_Combate_Mirto_Texto_4:
 	.string "I want my POKÉMON to see the region\n"
@@ -319,16 +319,16 @@ Route44_Combate_Mirto_Texto_6:
 	.string "his prime.$"
 
 Route44_Combate_Mirto_Texto_7:
-	.string "No matter if it's 5 or 50 years from now,\n"
-	.string "nothing can rob us of what we've lived\l"
-	.string "through today, nor the LEGENDARY\l"
-	.string "status we've achieved!$"
+	.string "No matter if it's five or fifty years\n"
+	.string "from now, nothing can rob us of what\l"
+	.string "we've lived through today, nor the\l"
+	.string "LEGENDARY status we've achieved!$"
 
 Route44_Combate_Mirto_Texto_8:
 .string "I will never forget this battle.$"
 
 Route44_Combate_Mirto_Texto_9:
-	.string "You're a legendary trainer, {PLAYER}.\n"
+	.string "You're a LEGENDARY TRAINER, {PLAYER}.\n"
 	.string "I reckon this battle will mark the end\l"
 	.string "of a chapter on my journey.$"
 

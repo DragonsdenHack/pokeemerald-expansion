@@ -45,9 +45,9 @@ CultoS8_Combate_Lider_Texto_1:
 .string "{PLAYER}, you are back.$"
 
 CultoS8_Combate_Lider_Texto_2:
-	.string "Don't say a word, let your POKÉMON team\n"
-	.string "talk by itself. This time I will really\l"
-	.string "test you.$"
+	.string "Don't say a word. Let your POKÉMON\n"
+	.string "speak for themselves. This time, I will\l"
+	.string "truly test you.$"
 
 CultoS8_Combate_Lider_Texto_3:
 	.string "I hope you are prepared enough to see\n"
@@ -61,7 +61,7 @@ CultoS8_Combate_Lider_Texto_5:
 	.string "I'm not used to flattering people, but I\n"
 	.string "must admit, the journey you've\l"
 	.string "undertaken to reach this point, in this\l"
-	.string "state, is impressive, so much so that\l"
+	.string "state, is impressive. So much so that\l"
 	.string "you've nearly reached the limits allowed\l"
 	.string "by the laws of this world.$"
 
@@ -81,29 +81,29 @@ CultoS8_Combate_Lider_Texto_8:
 CultoS8_Combate_Lider_Texto_9:
 	.string "No, he can't refer to the ESSENCE\n"
 	.string "POKÉMON. Whatever it is, {PLAYER},\l"
-	.string "what it's looking for has nothing to do\l"
+	.string "what he's looking for has nothing to do\l"
 	.string "with us, and its power is inferior to\l"
 	.string "that of the ESSENCE POKÉMON, since the\l"
 	.string "latter is truly everything.$"
 
 CultoS8_Combate_Lider_Texto_10:
-	.string "So now, the RUINS OF ALPH keep several\n"
-	.string "secrets, maybe he knows some legend\l"
+	.string "So now, the RUINS OF ALPH hold several\n"
+	.string "secrets. Maybe he knows some legend\l"
 	.string "that I don't. But you, {PLAYER},\l"
-	.string "seeing how you've battled{PAUSE 25}…{PAUSE 25} Someone like\l"
+	.string "seeing how you've battled… Someone like\l"
 	.string "you can only be defeated in battle by\l"
 	.string "the ESSENCE POKÉMON.$"
 
 CultoS8_Combate_Lider_Texto_11:
-	.string "All I can say is, take the challenge as\n"
-	.string "just another one. No LEGENDARY or\l"
-	.string "ANCESTRAL POKÉMON, no matter how\l"
-	.string "strong, can completely disable the rest\l"
-	.string "of the POKÉMON, despite what that\l"
-	.string "charlatan may say. LUGIA and HO-OH\l"
-	.string "haven't been caught for the ESSENCE\l"
-	.string "POKÉMON; he simply did it to complete\l"
-	.string "his team of powerful POKÉMON.$"
+	.string "All I can say is: take the challenge as\n"
+	.string "it were routine. No LEGENDARY or\l"
+	.string "ANCESTRAL POKÉMON-regardless of\l"
+	.string "strength-can completely defeat every\l"
+	.string "other, despite what that charlatan may\l"
+	.string "say. LUGIA and HO-OH haven't been\l"
+	.string "caught for the ESSENCE POKÉMON; he\l"
+	.string "simply did it to complete his team of\l"
+	.string "powerful POKÉMON.$"
 
 CultoS8_Combate_Lider_Texto_12:
 	.string "There's still time to learn about the\n"
@@ -163,19 +163,19 @@ release
 end
 
 CultoS8_Llamada_Giovanni_Texto_2:
-	.string "Do you want to return to ROCKET BASE in\n"
-	.string "JOHTO?$"
+	.string "Do you want to return to the ROCKET\n"
+	.string "BASE in JOHTO?$"
 
 CultoS8_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: Have you discovered\n"
-	.string "something, {PLAYER}? {PAUSE 15}…{PAUSE 15} …{PAUSE 15}RUINS OF\l"
-	.string "ALPH? Just as we suspected, if a NATU\l"
-	.string "sneezes in its tall grass, we'll be aware.\l"
-	.string "We're keeping the entire area under\l"
-	.string "surveillance.{PAUSE 15} …{PAUSE 15} …{PAUSE 15} You say lUGIA and\l"
-	.string "HO-OH have nothing to do with that\l"
+	.string "something, {PLAYER}? … … The RUINS OF\l"
+	.string "ALPH? Just as we suspected. If even a\l"
+	.string "NATU sneezes in the tall grass, we'll be\l"
+	.string "aware. We're keeping the entire area\l"
+	.string "under surveillance. … … You say LUGIA\l"
+	.string "and HO-OH have nothing to do with that\l"
 	.string "TRAINER's purpose? That's better. Now,\l"
-	.string "head to BLACKTHORN CITY, {PLAYER},\l"
-	.string "the DRAGON MASTER should be there,\l"
+	.string "head to BLACKTHORN CITY, {PLAYER}.\l"
+	.string "The DRAGON MASTER should be there,\l"
 	.string "possibly with the strongest DEEP BOND\l"
 	.string "POKÉMON.$"

@@ -9,9 +9,9 @@ release
 end
 
 IndigoJohto_Text_1:
-	.string "I'm so sorry, CHIEF ADMIN. {PLAYER}, I\n"
-	.string "didn't know you were someone\l"
-	.string "thisimportant.$"
+	.string "I'm so sorry, CHIEF ADMIN. {PLAYER}. I\n"
+	.string "didn't know you were someone this\l"
+	.string "important.$"
 
 
 
@@ -24,7 +24,7 @@ end
 
 IndigoJohto_Text_2:
 	.string "KANTO and JOHTO collaborating for a\n"
-	.string "single POKÉMON LEAGUE, can you imagine\l"
+	.string "single POKÉMON LEAGUE-can you imagine\l"
 	.string "it?$"
 
 
@@ -117,45 +117,48 @@ release
 end
 
 Indigo_Johto_Atlas_Texto_1:
-	.string "Only former champions or individuals\n"
+	.string "Only former CHAMPIONs or individuals\n"
 	.string "directly involved with this place are\l"
 	.string "allowed to pass from here; those are\l"
 	.string "the rules.$"
 
 Indigo_Johto_Atlas_Texto_2:
-	.string "Watch your tone, POLICE, you are\n"
-	.string "talking to the real KANTO CHAMPION.$"
+	.string "Watch your tone, POLICE. You are\n"
+	.string "speaking with the real KANTO CHAMPION.$"
 
 Indigo_Johto_Atlas_Texto_3:
 .string "A-ARCHER, I didn't kn…$"
 
 Indigo_Johto_Atlas_Texto_4:
-	.string "ARCHER: Now you know it, do I also need\n"
-	.string "to remind you that the three CHIEF\l"
+	.string "ARCHER: Now you're aware. Need I also\n"
+	.string "remind you that the three CHIEF\l"
 	.string "ADMINS. of TEAM ROCKET have free\l"
 	.string "access to this place? {PLAYER} thus\l"
 	.string "deserves to enter here twice over.$"
 
 Indigo_Johto_Atlas_Texto_5:
-	.string "I'm really sorry for the misunderstanding,\n"
-	.string "mister ARCHER, this won't happen again.$"
+	.string "I'm really sorry for the\n"
+	.string "misunderstanding, MR. ARCHER. This\l"
+	.string "won't happen again.$"
 
 Indigo_Johto_Atlas_Texto_6:
 	.string "I see that you are not wasting your\n"
-	.string "time, {PLAYER}, there is a chance that\l"
-	.string "you find more than a surprise here.$"
+	.string "time, {PLAYER}. There is a chance that\l"
+	.string "you'll find more than a mere surprise\l"
+	.string "here.$"
 
 Indigo_Johto_Atlas_Texto_7:
 	.string "You're probably aware, but we're mere\n"
 	.string "meters away from the entrance to the\l"
-	.string "KANTO POKÉMON LEAGUE. Giovanni intends\l"
-	.string "to combine this checkpoint with the one\l"
-	.string "in KANTO to establish a unified POKÉMON\l"
-	.string "LEAGUE for both regions.$"
+	.string "KANTO POKÉMON LEAGUE. GIOVANNI\l"
+	.string "intends to combine this checkpoint\l"
+	.string "with the one in KANTO to establish a\l"
+	.string "unified POKÉMON LEAGUE for both\l"
+	.string "regions.$"
 
 Indigo_Johto_Atlas_Texto_8:
 	.string "We are in the midst of a transition\n"
-	.string "period, {PLAYER}, experiencing it from\l"
+	.string "period, {PLAYER}. Experiencing it from\l"
 	.string "our perspective will be crucial to\l"
 	.string "understanding the reasons behind many\l"
 	.string "things in the future.$"

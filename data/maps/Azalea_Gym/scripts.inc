@@ -160,8 +160,8 @@ AzaleaGym_Combate_Cesar_Texto_9.1:
 
 AzaleaGym_Combate_Cesar_Texto_9.2:
 	.string "I also want you to keep this POKÉMON. I\n"
-	.string "obtained several specimens a long time\l"
-	.string "ago, during one of my many journeys.$"
+	.string "obtained several specimens long ago\l"
+	.string "during one of my many journeys.$"
 
 AzaleaGym_Combate_Cesar_Texto_10:
 .string "YOU OBTAINED A LV.25 GRUBBIN!!$"

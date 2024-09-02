@@ -57,14 +57,14 @@ IcePath_Llamada_Giovanni_Texto_1:
 IcePath_Llamada_Giovanni_Texto_1.1:
 	.string "PRYCE's MAMOSWINE-& is extraordinary,\n"
 	.string "boasting the same ATTACK and better\l"
-	.string "SPEED than MEGA GARCHOMP, with similar\l"
-	.string "defenses. In useful stats, it's\l"
-	.string "completely comparable to the MEGA of a\l"
-	.string "PSEUDO LEGENDARY.$"
+	.string "SPEED than MEGA GARCHOMP-and with\l"
+	.string "similar defenses. In its useful STATs,\l"
+	.string "it's completely comparable to the MEGA\l"
+	.string "of a PSEUDO-LEGENDARY.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:
-	.string "But{PAUSE 35}…{PAUSE 35} the POKÉMON you just battled goes\n"
-	.string "even further, its special prowess is\l"
+	.string "But… the POKÉMON you just battled goes\n"
+	.string "even further. Its SPECIAL prowess is\l"
 	.string "unparalleled, something really unique.$"
 
 
@@ -78,8 +78,8 @@ IcePath_Llamada_Giovanni_Texto_2:
 	.string "be waiting for you here, {PLAYER}.$"
 
 IcePath_Llamada_Giovanni_Texto_3:
-.string "Do you want to return to\n"
-	.string "the KANTO ROCKET BASE?$"
+	.string "Do you want to return to the\n"
+	.string "ROCKET BASE in KANTO?$"
 
 IcePath_Bloqueo::
 compare VAR_UNUSED_0x40F7, 170
@@ -93,8 +93,8 @@ release
 end
 
 IcePath_Bloqueo_Texto_1:
-.string "(GIOVANNI told me to go immediately\n"
-	.string "to his private office)$"
+	.string "(GIOVANNI told me to go immediately\n"
+	.string "to his private office.)$"
 
 IcePath_Bloqueo_Move_1:
 walk_in_place_left

@@ -31,9 +31,9 @@ release
 end
 
 BlackthornCity_Text_2:
-.string "{PLAYER}, right?\n"
-.string "Our GRAND MASTER told us about you,\l"
-.string "you are pretty welcome in this place.$"
+	.string "{PLAYER}, right? Our GRAND MASTER\n"
+	.string "told us about you. You're pretty welcome\l"
+	.string "in this place.$"
 
 
 
@@ -82,7 +82,7 @@ release
 end
 
 BlackthornCity_Text_8:
-	.string "A dragon that other dragons cannot\n"
+	.string "A DRAGON that other DRAGONs cannot\n"
 	.string "touch! I witnessed how OUTRAGE and\l"
 	.string "DRAGON RUSH had no effect on that\l"
 	.string "MASTER's POKÉMON!$"
@@ -98,9 +98,9 @@ end
 
 BlackthornCity_Text_9:
 	.string "I came here to better understand the\n"
-	.string "origin of the brute force of dragons.\l"
-	.string "They and the FIGHTING TYPE have much\l"
-	.string "in common. Both possess devastating\l"
+	.string "origin of the brute force of DRAGONs.\l"
+	.string "They and FIGHTING TYPEs have much in\l"
+	.string "common. Both possess devastating\l"
 	.string "physical power!$"
 
 
@@ -113,9 +113,9 @@ release
 end
 
 BlackthornCity_Text_10:
-	.string "Be careful with the southern cliffs;\n"
-	.string "many can't return to BLACKTHORN once\l"
-	.string "they realize!$"
+	.string "Be wary of the southern cliffs; many\n"
+	.string "realize too late that they can't return\l"
+	.string "to BLACKTHORN!$"
 
 
 
@@ -128,12 +128,12 @@ end
 
 BlackthornCity_Text_11:
 	.string "BLACKTHORN CITY has always been\n"
-	.string "JOHTO's most inaccessible place,\l"
-	.string "surrounded by mountains, with the ICE\l"
-	.string "PATH as the only access route, but it\l"
-	.string "rewards its visitors with the ultimate\l"
+	.string "JOHTO's most inaccessible place. Only\l"
+	.string "the ICE PATH takes people through the\l"
+	.string "mountains barricading it. But it rewards\l"
+	.string "its visitors with the ultimate\l"
 	.string "knowledge about the most powerful and\l"
-	.string "sacred type for those who are prepared.$"
+	.string "sacred TYPE for those who are prepared.$"
 
 
 
@@ -219,9 +219,9 @@ face_left
 step_end
 
 BlackthornCity_Anciano_Paso_Texto_1:
-.string "{PLAYER}, right?\n"
-	.string "Our GRAND MASTER told us about you, you\l"
-	.string "are pretty welcome in this place.$"
+	.string "{PLAYER}, right? Our GRAND MASTER\n"
+	.string "told us about you. You're pretty welcome\l"
+	.string "in this place.$"
 
 BlackthornCity_EventScript_ReceiveSwablu::
     lock

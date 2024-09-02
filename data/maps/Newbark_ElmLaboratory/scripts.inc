@@ -90,8 +90,8 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_4:
 	.string "army is ready!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_5:
-	.string "You combine the technology with\n"
-	.string "technique, it is pretty interesting.$"
+	.string "You combined technology with\n"
+	.string "technique. That's pretty interesting.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
 	.string "When everyone contributes a little,\n"
@@ -112,7 +112,7 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
 	.string "He told me to give you one if I saw you.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8:
-	.string "Hmphf, it is your choice, I thought you\n"
+	.string "Hmph, that's your choice. I thought you\n"
 	.string "were interested in extraordinary\l"
 	.string "things.$"
 

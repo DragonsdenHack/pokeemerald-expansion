@@ -124,14 +124,14 @@ MahoganyTown_Gym_Combate_Fredo_Texto_1:
 
 MahoganyTown_Gym_Combate_Fredo_Texto_2:
 	.string "Let me tell you, I've been involved in\n"
-	.string "the world of ICE TYPE POKÉMON for 50\l"
+	.string "the world of ICE TYPE POKÉMON for fifty\l"
 	.string "years. That ELITE FOUR MEMBER LORELEI\l"
 	.string "you have in KANTO hasn't even\l"
 	.string "scratched the surface of what I've\l"
 	.string "seen, you know?$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_3:
-	.string "Many changes are coming to JOHTO, I\n"
+	.string "Many changes are coming to JOHTO. I\n"
 	.string "just hope I can rise to the occasion\l"
 	.string "and adapt to them. I hope to see the\l"
 	.string "region thrive alongside KANTO at least.$"
@@ -143,8 +143,8 @@ MahoganyTown_Gym_Combate_Fredo_Texto_5:
 	.string "{PLAYER}, you must have done\n"
 	.string "something right to hold the position\l"
 	.string "you do in TEAM ROCKET at such a young\l"
-	.string "age. You deserve nothing less than I do\l"
-	.string "my best.$"
+	.string "age. You deserve nothing less than my\l"
+	.string "best.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_6:
 	.string "No one in decades has been able to\n"
@@ -167,9 +167,9 @@ MahoganyTown_Gym_Combate_Fredo_Texto_8:
 	.string "thought.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9:
-	.string "I've had this gathering dust for years,\n"
-	.string "I thought I'd never give another one\l"
-	.string "again.$"
+	.string "Take this POKÉMON. You won't find it\n"
+	.string "anywhere in KANTO or JOHTO, and it may\l"
+	.string "be useful to you.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
 	.string "Take it, here is the\n"
@@ -218,13 +218,13 @@ MahoganyGym_Gym_Dude_Texto_1:
 	.string "in a real battle? Let me give you some\l"
 	.string "advice: attack first before he does.\l"
 	.string "The offense of his ICE TYPE POKÉMON is\l"
-	.string "relentless. You'll need to use FIRE,\l"
-	.string "FIGHTING, or ROCK TYPES moves,\l"
-	.string "combining speed and power. Good luck!$"
+	.string "relentless. You'll need to blast him hard\l"
+	.string "and fast with FIRE, FIGHTING, and ROCK\l"
+	.string "moves. Good luck!$"
 
 MahoganyGym_Gym_Dude_Texto_2:
 	.string "You did it! You have defeated the\n"
-	.string "iceman, I thought that no one could\l"
+	.string "ICE-man. I thought that no one could\l"
 	.string "defeat that special ARTICUNO!$"
 
 

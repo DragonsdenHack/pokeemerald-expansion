@@ -173,7 +173,7 @@ end
 
 MtSilver_PkmnCenter_Text_4:
 .string "Hohoho!\n"
-.string "Me a JOHTO ex-champion?\l"
+.string "Me? An ex-CHAMPION?\l"
 .string "I slipped in here by coming around the\l"
 .string "other side of the mountain, but keep\l"
 .string "between us!$"

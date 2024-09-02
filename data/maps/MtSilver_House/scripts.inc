@@ -55,9 +55,9 @@ MtSilverHouse_Text_TakeDarumaka:
 MtSilverHouse_Text_TakeDarumaka2:
 	.string "Among all my POKÉMON, there was one\n"
 	.string "that pushed that fighting style to the\l"
-	.string "extreme like no other, recently I had\l"
-	.string "several offspring from it, would you\l"
-	.string "like to keep one? Here!$"
+	.string "extreme like no other. It had some\l"
+	.string "offspring recently too. Would you like\l"
+	.string "one? Here!$"
 
 MtSilverHouse_Text_MensajeDarumaka:
 .string "YOU OBTAINED A DARUMAKA AT LV.25!$"
@@ -65,5 +65,5 @@ MtSilverHouse_Text_MensajeDarumaka:
 MtSilverHouse_Text_1:
 	.string "The FLARE BLITZ of a well-trained\n"
 	.string "DARMANITAN is the most devastating\l"
-	.string "move I know, TAUROS's charging power is\l"
+	.string "move I know. TAUROS's charging power is\l"
 	.string "a joke in comparison.$"

@@ -23,8 +23,8 @@ release
 end
 
 RuinsOfAlphS1_Atlas_Piedra_Texto_1:
-	.string "(The CHIEF ADMIN. ARCHER is completely\n"
-	.string "petrified)$"
+	.string "(CHIEF ADMIN. ARCHER\n"
+	.string "is completely petrified.)$"
 
 RuinsOfAlphS1_Andra::
 lock
@@ -39,9 +39,9 @@ RuinsOfAlphS1_Andra_Texto_1:
 	.string "this before; several of ours have\l"
 	.string "already fallen. Those horrible\l"
 	.string "skeletons must have had something to\l"
-	.string "do with it{PAUSE 15}…{PAUSE 15} We must be careful,\l"
-	.string "{PLAYER}, the DRAGON MASTER was\l"
-	.string "right, this place is dangerous.$"
+	.string "do with it… We must be careful,\l"
+	.string "{PLAYER}. The DRAGON MASTER was\l"
+	.string "right-this place is dangerous.$"
 
 RuinsOfAlphS1_Unown_Despues::
 lock
@@ -143,7 +143,7 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
 .string "…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
-	.string "(The mysterious energy has dissipated).$"
+	.string "(The mysterious energy has dissipated.)$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_4:
 	.string "ANDRA: Was that the UNOWN causing all\n"

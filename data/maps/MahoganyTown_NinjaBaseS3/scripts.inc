@@ -10,7 +10,7 @@ end
 
 MahoganyTown_NinjaBaseS3_Text_1:
 	.string "It is said that PRYCE possesses a\n"
-	.string "unique form of ARTICUNO, its primal\l"
+	.string "unique form of ARTICUNO-its PRIMAL\l"
 	.string "form, I guess. I wonder if there are\l"
 	.string "equivalents for ZAPDOS and MOLTRES…$"
 
@@ -82,10 +82,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_9:
-	.string "No one is so powerful as TEAM ROCKET is.\n"
+	.string "No one is as powerful as TEAM ROCKET is.\n"
 	.string "Three bases in KANTO, two bases in\l"
 	.string "JOHTO, one in HOENN, and another one in\l"
-	.string "SEVII ISLANDS! We are omnipresent!$"
+	.string "the SEVII ISLANDS! We are omnipresent!$"
 
 
 
@@ -200,11 +200,11 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2:
 .string "Who are you?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3:
-	.string "How did a ROCKET reach until here?\n"
-	.string "Reclaim the MAHOGANY BASE? It was\l"
-	.string "never yours; we simply took advantage\l"
-	.string "of PRYCE's negligence to set up our\l"
-	.string "operations center here.$"
+	.string "How did a ROCKET reach here? Reclaim\n"
+	.string "the MAHOGANY BASE? It was never yours;\l"
+	.string "we simply took advantage of PRYCE's\l"
+	.string "negligence to set up our operational\l"
+	.string "center here.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4:
 	.string "You shouldn't have interrupted this\n"
@@ -214,21 +214,21 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4:
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5:
 .string "TARO!\n"
-	.string "Disappear him!$"
+	.string "Make him disappear!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6:
 	.string "Your POKÉMON lack the freshness\n"
-	.string "needed to face my team anymore. On\l"
-	.string "guard!$"
+	.string "needed to face my team anymore. En\l"
+	.string "garde!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7:
-.string "Can't be!$"
+.string "It can't be!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8:
 	.string "So, you're still standing. I see you're\n"
 	.string "not like the other ROCKETS. The notion\l"
 	.string "that your strength lies only in numbers\l"
-	.string "is false, after all.$"
+	.string "is false after all.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9:
 .string "Maybe you're the best TRAINER\n"
@@ -247,7 +247,7 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
 	.string "How dare you!?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12:
-	.string "I'm so tired of you, do you think you can\n"
+	.string "I'm so tired of you. Do you think you can\n"
 	.string "come to JOHTO and do whatever you\l"
 	.string "want?$"
 
@@ -263,10 +263,10 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15:
 .string "No…\n"
 	.string "This wasn't in our plans…\l"
 	.string "After all, we won't be able to start\l"
-	.string "here once again, you win, right?$"
+	.string "here once again. You win, right?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16:
-	.string "I hope you at least put it to good use.$"
+	.string "I hope you'll at least put it to good use.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Move_1:
 walk_up
@@ -345,10 +345,10 @@ MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
 	.string "So you've defeated the GRAND MASTER of\n"
 	.string "ECRUTEAK CITY? His EEVEE seems to be\l"
 	.string "the ancestor of all EEVEEs, capable of\l"
-	.string "transforming into each type of move it\l"
-	.string "executes. It must have given you some\l"
-	.string "trouble, {PLAYER}. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Did HO-OH\l"
-	.string "appear!? In the peak of BELL TOWER? {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
+	.string "transforming into the TYPE of the move\l"
+	.string "it performs. It must have given you\l"
+	.string "some trouble, {PLAYER}. … … Did HO-OH\l"
+	.string "appear!? At the peak of BELL TOWER? … …\l"
 	.string "A TRAINER who only uses MAJOR\l"
 	.string "LEGENDARIES appeared and captured it?\l"
 	.string "And he had LUGIA too!?$"
@@ -363,7 +363,7 @@ MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
 	.string "the RUINS OF ALPH.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
-	.string "Stay alert, {PLAYER}, we must act\n"
+	.string "Stay alert, {PLAYER}. We must act\n"
 	.string "accordingly. We'll be in touch again\l"
 	.string "soon.$"
 
@@ -394,12 +394,12 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_1:
-	.string "You're the core of TEAM ROCKET, I'll\n"
-	.string "finish you off!$"
+	.string "You're the core of TEAM ROCKET.\n"
+	.string "I'll finish you off!$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_2:
 .string "Damn it!$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_3:
 	.string "Not even a TEAM ROCKET officer can kick\n"
-	.string "us out of here, unity is strength.$"
+	.string "us out of here. Unity is strength.$"

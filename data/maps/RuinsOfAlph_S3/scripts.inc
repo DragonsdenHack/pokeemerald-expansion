@@ -135,20 +135,20 @@ RuinsOfAlphS3_Evento_Final_Texto_1:
 .string "GIOVANNI: {PAUSE 35}…{PAUSE 35}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_2:
-.string "But, how did you?$"
+.string "But how did you?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_3:
 	.string "ANDRA: Another golden UNOWN? This\n"
 	.string "place never ends, does it?! You won't\l"
 	.string "defeat me! I don't care if I have to\l"
-	.string "spend 10 or 20 hours in here fighting,\l"
-	.string "I'll make it to the end!$"
+	.string "spend ten or twenty hours in here\l"
+	.string "fighting-I'll make it to the end!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_4:
 .string "GIOVANNI: Wait!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_5:
-	.string "That{PAUSE 15}…{PAUSE 15} TRAINER, have you seen him? He\n"
+	.string "That… TRAINER. Have you seen him? He\n"
 	.string "must have been the LEADER of the\l"
 	.string "LAVENDER sect.$"
 
@@ -159,13 +159,13 @@ RuinsOfAlphS3_Evento_Final_Texto_6:
 	.string "tests without fighting.$"
 
 RuinsOfAlphS3_Evento_Final_Texto_7:
-	.string "GIOVANNI: Indeed, that magic must only\n"
+	.string "GIOVANNI: Indeed. That magic must only\n"
 	.string "be within his reach. I wonder if…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_8:
 	.string "ANDRA: He won't stand a chance against\n"
-	.string "{PLAYER}! We have to catch up to him,\l"
-	.string "we still have time!$"
+	.string "{PLAYER}! We gotta catch up to him.\l"
+	.string "We've still got time!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_9:
 .string "GIOVANNI: ANDRA!\n"
@@ -176,15 +176,15 @@ RuinsOfAlphS3_Evento_Final_Texto_10:
 .string "ANDRA: What was that?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: H{PAUSE 15}…{PAUSE 15}he did it?$"
+.string "GIOVANNI: H-he did it?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
-	.string "ANDRA: All that energy, that tension in\n"
-	.string "the air, it's{PAUSE 15}…{PAUSE 15} gone…$"
+	.string "ANDRA: All that energy and tension\n"
+	.string "in the air… It's all gone…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-	.string "GIOVANNI: So{PAUSE 25}…{PAUSE 25} {PLAYER}, the DEEP\n"
-	.string "BOND, have succeeded? Does it mean\l"
+	.string "GIOVANNI: So… {PLAYER}, the DEEP\n"
+	.string "BOND-has it succeeded? Does it mean\l"
 	.string "that the teachings of the sages of\l"
 	.string "JOHTO were true? Can a mortal POKÉMON\l"
 	.string "achieve immortality if we are willing to\l"
@@ -310,8 +310,8 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_1:
 	.string "{PLAYER}. I can feel it.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
-	.string "Before, there was the golden HO-OH, now\n"
-	.string "it must come…$"
+	.string "Before, it was the golden HO-OH.\n"
+	.string "Now, it must be…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}$"
@@ -320,23 +320,23 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 	.string "I won't be able to continue. If the\n"
 	.string "legend is true, PRIMAL LUGIA regains all\l"
 	.string "the power from the depths of the ocean.\l"
-	.string "My GROUND TYPE Pokémon won't stand a\l"
-	.string "chance against such a Pokémon, the\l"
-	.string "label of LEGENDARY ELDER falls short.\l"
-	.string "If only we could have accelerated the\l"
-	.string "latest versions of MEWTWO a bit more…$"
+	.string "My GROUND TYPE POKÉMON won't stand a\l"
+	.string "chance against such a POKÉMON. The\l"
+	.string "label of LEGENDARY ELDER doesn't do it\l"
+	.string "justice. If only we could have\l"
+	.string "accelerated the latest versions of\l"
+	.string "MEWTWO a bit more…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
-	.string "Now it's up to you, {PLAYER}. The\n"
-	.string "dragons flee from the golden HO-OH as\l"
-	.string "soon as they see it, and the GROUND\l"
-	.string "TYPE Pokémon can do nothing against\l"
-	.string "the beast of the seas. We have\l"
-	.string "definitely underestimated this place,\l"
-	.string "but you are the closest to the\l"
-	.string "achievable limit for a TRAINER that I\l"
-	.string "know. If we have options, they depend\l"
-	.string "on you.$"
+	.string "Now it's up to you, {PLAYER}. DRAGONs\n"
+	.string "flee the golden HO-OH on sight, and\l"
+	.string "GROUND POKÉMON are impotent against\l"
+	.string "the BEAST OF THE SEAS. We'd absolutely\l"
+	.string "underestimated this place, but you're\l"
+	.string "the only one I know is closest to\l"
+	.string "approaching the limit achievable by any\l"
+	.string "TRAINER. Any and all stratagems require\l"
+	.string "you.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_6:
 	.string "That's all I can do for you now. Your\n"
@@ -421,14 +421,14 @@ RuinsOfAlphS3_Combate_Unown_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_4:
-	.string "GIOVANNI: I knew it, I knew you could do\n"
-	.string "it!$"
+	.string "GIOVANNI: I knew it! I knew\n"
+	.string "you could do it!$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_5:
 	.string "Now I understand the words of the\n"
 	.string "ELDER MASTER better. He doesn't want\l"
 	.string "to see the region at the mercy of a\l"
-	.string "Pokémon with uncontrolled power. If the\l"
+	.string "POKÉMON with uncontrolled power. If the\l"
 	.string "PRIMAL FORMS of LUGIA and HO-OH are\l"
 	.string "just the tests, I don't want to imagine\l"
 	.string "the power of that ORIGINAL DRAGON.\l"

@@ -102,5 +102,5 @@ CultoS7_Escena_Esencia_Texto_2:
 	.string "actions, although{PAUSE 25}…$"
 
 CultoS7_Escena_Esencia_Texto_3:
-	.string "{PAUSE 25}…{PAUSE 25} that doesn't mean a loss of its\n"
-	.string "potential.$"
+	.string "{PAUSE 25}…{PAUSE 25} … that doesn't mean the\n"
+	.string "loss of its potential.$"

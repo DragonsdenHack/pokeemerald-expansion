@@ -72,8 +72,8 @@ release
 end
 
 MahoganyHouseCarbon_Secundaria_Texto_1:
-	.string "Those damn businessmen{PAUSE 15}…{PAUSE 15} they've\n"
-	.string "betrayed us, me and my wife.$"
+	.string "Those damn businessmen… They've\n"
+	.string "betrayed us-me and my wife.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -82,7 +82,7 @@ MahoganyHouseCarbon_Secundaria_Texto_3:
 .string "Would you help us?$"
 
 MahoganyHouseCarbon_Secundaria_Texto_4:
-.string "I understand, it is very risky.$"
+.string "I understand. It's very risky.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_5:
 	.string "We are the former coal manufacturers in\n"
@@ -138,7 +138,7 @@ MahoganyHouseCarbon_Secundaria_Texto_12:
 MahoganyHouseCarbon_Secundaria_Texto_13:
 	.string "Were you able to enter? Our home in\n"
 	.string "AZALEA TOWN is located right beside the\l"
-	.string "GYM, on the east side of town. You\l"
+	.string "GYM, on the east side of town. You can\l"
 	.string "activate our secret entrance with a\l"
 	.string "button behind the painting next to the\l"
 	.string "window.$"
