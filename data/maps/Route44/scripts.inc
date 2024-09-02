@@ -264,31 +264,31 @@ Route44_Combate_Mirto_Texto_5.1:
 	.string "…$"
 
 Route44_Combate_Mirto_Texto_5.2:
-	.string "The CHAMPION of a region is the\n"
-	.string "strongest trainer there, you know what\l"
-	.string "I mean, right?$"
+	.string "The region's CHAMPION is the strongest\n"
+	.string "trainer there. You know what I mean,\l"
+	.string "right?$"
 
 Route44_Combate_Mirto_Texto_5.3:
 	.string "We also represent the limit of what a\n"
-	.string "TRAINER has been able to achieve, the\l"
-	.string "closest to greater forces that only\l"
-	.string "ancient LEGENDARIES reach.$"
+	.string "TRAINER has achieved, the closest to\l"
+	.string "the greater forces that only ancient\l"
+	.string "LEGENDARIES reach.$"
 
 Route44_Combate_Mirto_Texto_5.4:
 	.string "However, we achieve this thanks to our\n"
 	.string "effort, development, and interactions\l"
-	.string "we maintain with other POKÉMON, mortals\l"
-	.string "like us, throughout our lives.$"
+	.string "we maintain with other POKÉMON-mortals\l"
+	.string "like us-throughout our lives.$"
 
 Route44_Combate_Mirto_Texto_5.5:
-	.string "I have no doubt, those kinds of acts\n"
-	.string "leave a mark. Its potential is limitless,\l"
-	.string "sacred.$"
+	.string "I have no doubt those kinds of acts\n"
+	.string "leave a mark. Its potential is limitless\l"
+	.string "and sacred.$"
 
 Route44_Combate_Mirto_Texto_5.6:
-	.string "Meanwhile, POKÉMON WORLD GODS{PAUSE 35}…{PAUSE 35} Do you\n"
-	.string "know what I think about that blessed\l"
-	.string "POKÉMON?$"
+	.string "Meanwhile, the gods of the POKÉMON\n"
+	.string "WORLD… Do you know what I think about\l"
+	.string "them?$"
 
 Route44_Combate_Mirto_Texto_5.7:
 	.string "They envy us, {PLAYER}.$"
@@ -296,8 +296,8 @@ Route44_Combate_Mirto_Texto_5.7:
 Route44_Combate_Mirto_Texto_5.8:
 	.string "They'll never know what it's like to\n"
 	.string "start from zero and gradually rise,\l"
-	.string "climbing step by step, facing\l"
-	.string "difficulties, and learning from defeats.$"
+	.string "climbing, facing difficulties, and\l"
+	.string "learning from defeats.$"
 
 Route44_Combate_Mirto_Texto_5.9:
 	.string "They envy us because, after all, we are\n"
@@ -307,7 +307,7 @@ Route44_Combate_Mirto_Texto_5.9:
 	.string "{PLAYER}.$"
 
 Route44_Combate_Mirto_Texto_5.10:
-	.string "Do you notice? The value lies in the\n"
+	.string "Did you notice? The value lies in the\n"
 	.string "ephemeral nature of our existence.$"
 
 Route44_Combate_Mirto_Texto_6:

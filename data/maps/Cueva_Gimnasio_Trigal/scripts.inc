@@ -142,7 +142,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9:
 	.string "for you.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
-	.string "Take this, there you have\n"
+	.string "Take this. There you have\n"
 	.string "the PLAINBADGE.$"
 	
 Cueva_Gimnasio_Trigal_Combate_Texto_9.2:

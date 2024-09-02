@@ -14,9 +14,10 @@ release
 end
 
 SsAnne3F_Text_2:
-.string "Come on, relax, you are here to have\n"
-	.string "fun! It is not like you were here as an\l"
-	.string "infiltrator in a top secret mission.$"
+	.string "C'mon! Chill, man! We're here for some\n"
+	.string "fun! I mean, not like you're some\l"
+	.string "infiltrator on a top-secret mission,\l"
+	.string "right?$"
 
 
 
@@ -41,7 +42,7 @@ end
 
 SsAnne3F_Text_4:
 .string "Come on, POLIWHIRL!\n"
-	.string "Keep high our fleet name!$"
+	.string "Fly our fleet's flag!$"
 
 
 
@@ -69,8 +70,8 @@ release
 end
 
 SsAnne3F_Text_7:
-.string "Amateurs! If I send my PINSIR this\n"
-	.string "match will be over right now!$"
+	.string "Amateurs! If I send out my PINSIR, this\n"
+	.string "match'd be over instantly!$"
 
 SsAnne3F_Andra::
 lock
@@ -86,11 +87,11 @@ release
 end
 
 SsAnne3F_Andra_Text_1:
-.string "ANDRA: Seems like this is the CAPTAIN\n"
-	.string "cabin. PETREL asked me to wait a bit\l"
-	.string "before giving us last indications, take\l"
-	.string "advantage if you wanna go around for\l"
-	.string "the ship and train a bit more.$"
+	.string "ANDRA: Seems like this is the CAPTAIN's\n"
+	.string "cabin. PETREL wanted us to hold up a\l"
+	.string "sec before he gives us our last signal.\l"
+	.string "Wouldn't hurt to roam a bit and get some\l"
+	.string "training in.$"
 
 SsAnne3F_Andra_move_1:
 walk_in_place_up
@@ -121,9 +122,9 @@ release
 end
 
 SsAnne3F_Andra_lista_Text_1:
-.string "{PLAYER}! It is all ready to enter!\n"
-	.string "Let's teach that CAPTAIN how we cope\l"
-	.string "here on KANTO!$"
+	.string "{PLAYER}! We're good to go! Let's show\n"
+	.string "that CAPTAIN how ROCKET handles\l"
+	.string "things here in KANTO!$"
 
 SsAnne3F_Andra_lista_move1:
 walk_up

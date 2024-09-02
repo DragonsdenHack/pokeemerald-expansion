@@ -158,8 +158,8 @@ Olivine_Gym_Combate_Crom_Texto_9:
 	.string "this little one.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.1:
-	.string "Here it is the MINERALBADGE,\n"
-	.string "take it.$"
+	.string "Here it is the MINERALBADGE.\n"
+	.string "Take it.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.2:
 	.string "And also, I want you to take\n"

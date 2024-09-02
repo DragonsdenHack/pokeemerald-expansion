@@ -272,12 +272,12 @@ Cianwood_Gym_Combate_Anibal_Texto_9:
 	.string "great fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.1:
-	.string "Take this, here you have\n"
+	.string "Take this. Here you have\n"
 	.string "the STORMBADGE.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.2:
 	.string "I'd like you to keep this POKÉMON. It\n"
-	.string "has great fighting abilities.$"
+	.string "has excellent fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_10:
 .string "YOU OBTAINED A LV.25 STUFFUL!!$"

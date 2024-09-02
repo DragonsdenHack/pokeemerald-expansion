@@ -9,9 +9,10 @@ release
 end
 
 SsAnne2F_Text_1:
-.string "It is not common to see people around\n"
-	.string "here with those clothes. Is it some kind\l"
-	.string "of habit in any town in this region?$"
+	.string "It's pretty uncommon to see people with\n"
+	.string "those clothes around here. Is it a\l"
+	.string "custom of any town in this region at\l"
+	.string "all?$"
 
 
 
@@ -23,4 +24,4 @@ release
 end
 
 SsAnne2F_Text_2:
-.string "The SS.ANNE luxury party is matchless.$"
+.string "The S.S. ANNE luxury party is matchless.$"

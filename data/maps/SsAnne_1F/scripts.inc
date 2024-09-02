@@ -20,16 +20,15 @@ release
 end
 
 SsAnne_1F_Andra_Ida_Text_1:
-.string "ANDRA: It was easier to enter than it\n"
-	.string "seemed, eh?$"
+	.string "ANDRA: It sure was easier to waltz\n"
+	.string "on in than it looked, eh?$"
 
 SsAnne_1F_Andra_Ida_Text_2:
-.string "Most of this luxury cruise passengers\n"
-	.string "are not from KANTO, that will give us\l"
-	.string "some advantage of going unnoticed and\l"
-	.string "entering CAPTAIN's cabin with no\l"
-	.string "suspicions, once there we will identify\l"
-	.string "the jar and we will take it.$"
+	.string "Most of this luxury cruise's passengers\n"
+	.string "are foreigners. It'll be easier to blend\l"
+	.string "in and hop into the CAPTAIN's cabin\l"
+	.string "without getting side-eyed. Once we get\l"
+	.string "in, we'll track the jar and sneak it off.$"
 
 SsAnne_1F_Andra_Ida_Text_3:
 .string "Let's go.$"
@@ -83,26 +82,25 @@ release
 end
 
 SsAnne_1F_Andra_Vuelta_Text_1:
-.string "ANDRA: We did it, {PLAYER}! That\n"
-	.string "CAPTAIN was a rock, eh. I have never\l"
-	.string "seen POKÉMON like those, they should be\l"
-	.string "from other regions. Anyways, we have\l"
-	.string "that relic…$"
+	.string "ANDRA: We did it, {PLAYER}! That\n"
+	.string "CAPTAIN was sturdy, eh? Never seen\l"
+	.string "POKÉMON like those. Probably from\l"
+	.string "abroad. Anyway, we're got that relic…$"
 
 SsAnne_1F_Andra_Vuelta_Text_2:
-.string "SS.ANNE: Notice to all ship's crew. Party\n"
-	.string "finished, please everyone go back to\l"
-	.string "their cabins to facilitate staff\l"
-	.string "cleaning tables and other things.$"
+	.string "S. S. ANNE: Notice to the passengers.\n"
+	.string "The party is now over. Please return to\l"
+	.string "your cabins to allow the crew to\l"
+	.string "commence cleanup.$"
 
 SsAnne_1F_Andra_Vuelta_Text_3:
-.string "ANDRA: We better go away now. By the\n"
-	.string "way I found a lot of these on the\l"
-	.string "CAPTAIN board, I am sure it would be\l"
-	.string "helpful for you too.$"
+	.string "ANDRA: Guess that's our cue too. By the\n"
+	.string "by, I found a bunch of this here on the\l"
+	.string "CAPTAIN's table. I'd bet it'll be a good\l"
+	.string "help for you too.$"
 
 SsAnne_1F_Andra_Vuelta_Text_4:
-	.string "See you in the HQ {PLAYER}..$"
+	.string "Catch you in the barracks, {PLAYER}.$"
 
 SsAnne_1F_Andra_Vuelta_move_1:
 walk_up
@@ -143,7 +141,7 @@ release
 end
 
 SsAnne_1F_Acabado_Text_1:
-.string "(I have nothing else to do here).$"
+.string "(I have nothing else to do here.)$"
 
 
 SsAnne_1F_Acabado_move_1:

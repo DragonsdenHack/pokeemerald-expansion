@@ -151,23 +151,24 @@ walk_in_place_up
 step_end
 
 Bill_Garden_Policia_Atlas_text_1:
-.string "You're under arrest, ROCKET. You have\n"
+	.string "You're under arrest, ROCKET. You have\n"
 	.string "committed multiple crimes and resisted\l"
-	.string "against authority. Now, give us back\l"
-	.string "the stolen patent.$"
+	.string "authority. Now, give us back the stolen\l"
+	.string "patent.$"
 
 Bill_Garden_Policia_Atlas_text_2:
-.string "BILL: Too bad that this has to end like\n"
-	.string "this, you should've been informed about\l"
-	.string "the consequences of messing up with\l"
-	.string "BILL in this region. It's a shame that a\l"
-	.string "TRAINER like you end up like this, your\l"
-	.string "ADMINISTRATORS and EXECUTIVES aren't\l"
-	.string "as good at making decisions. How is the\l"
-	.string "feeling of being sent to die by your own\l"
-	.string "superiors? It's OK, in the end you are\l"
-	.string "just a bunch of moral-less thieves with\l"
-	.string "no criteria. Now you're alon…!$"
+	.string "BILL: A real shame it all ends this way.\n"
+	.string "You should've been better informed of\l"
+	.string "the consequences of getting tangled\l"
+	.string "with BILL of KANTO. A darned shame,\l"
+	.string "truly, that a TRAINER like you ends\l"
+	.string "here. All thanks to the shoddy\l"
+	.string "decision-making of your ADMINs and\l"
+	.string "EXECUTIVEs. So how's that death\l"
+	.string "sentence your superiors've given you\l"
+	.string "feel now? Doesn't matter, you're just\l"
+	.string "a pack of immoral crooks without any\l"
+	.string "standards. Now, you're alon-$"
 
 Bill_Garden_Policia_Atlas_text_3:
 .string "????: You're wrong.$"
@@ -176,14 +177,13 @@ Bill_Garden_Policia_Atlas_text_4:
 .string "BILL: BOSS ADMIN ARCHER…$"
 
 Bill_Garden_Policia_Atlas_text_5:
-.string "ARCHER: I couldn't prevent myself from\n"
-	.string "hearing some attacks against our\l"
-	.string "organization. As you can see, I'm here.\l"
-	.string "You're wrong, in TEAM ROCKET we never\l"
-	.string "leave alone anyone who deserves it.\l"
-	.string "Lack of principles? Thieves? I'm afraid\l"
-	.string "that terms are not big enough to\l"
-	.string "describe what you're doing to the\l"
+	.string "ARCHER: I couldn't help hearing that\n"
+	.string "smear against our organization. As you\l"
+	.string "can see, I'm here. So you're wrong:\l"
+	.string "TEAM ROCKET never abandons those who\l"
+	.string "require aid. Unprincipled? Thieving? I'm\l"
+	.string "afraid those terms don't quite live up\l"
+	.string "to the damage you're doing to the\l"
 	.string "region.$"
 
 Bill_Garden_Policia_Atlas_text_6:

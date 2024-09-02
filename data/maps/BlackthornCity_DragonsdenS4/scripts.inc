@@ -217,8 +217,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9:
 	.string "jealously guarded DRAGONs.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1:
-	.string "Here is the\n"
-	.string "RISINGBADGE.$"
+	.string "Have this. It's\n"
+	.string "the RISINGBADGE.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.2:
 	.string "Take this POKÉMON, it is one of our most\n"

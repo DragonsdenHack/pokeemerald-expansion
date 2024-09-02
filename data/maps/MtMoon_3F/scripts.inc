@@ -880,31 +880,30 @@ MtMoon_3F_Pelea_Frank_texto10:
 .string "This is inadmissible…$"
 
 MtMoon_3F_Pelea_Frank_texto11:
-.string "Enough. The mission is over. The balance\n"
-	.string "is of 2 FOSSILS, present yourselves in\l"
-	.string "ROUTE 5 BASE to be held accountable\l"
-	.string "with PETREL. Also you will be given your\l"
-	.string "next mission. Smoke Bomb!!$"
+	.string "Enough. The mission's over. Your balance\n"
+	.string "is down two FOSSILs. You'll be held\l"
+	.string "accountable by PETREL, so present\l"
+	.string "yourselves to him in the ROUTE 5 BASE.\l"
+	.string "And there, you'll be given your next\l"
+	.string "mission. Smoke bomb, go!!$"
 
 MtMoon_3F_Pelea_Frank_texto12:
-.string "ANDRA: Wow, have you seen that!? Every\n"
-	.string "one is astonished, HIGH RANK FRANK is\l"
-	.string "famous for being bloodthirsty and\l"
-	.string "impatience with newbies, but you faced\l"
-	.string "him with no regrets and maintained\l"
-	.string "steady your position!$"
+	.string "ANDRA: Wow, you see that? Everyone's\n"
+	.string "just stunned. HIGH RANK FRANK's\l"
+	.string "downright notorious for hazing the\l"
+	.string "newbies, but you held your ground and\l"
+	.string "faced him head on!$"
 
 MtMoon_3F_Pelea_Frank_texto13:
-.string "I didn't cross paths with that\n"
-	.string "mysterious TRAINER, did he have a\l"
-	.string "CHARMELEON? It seems that there are\l"
-	.string "some really strong people around here,\l"
-	.string "we must train so that that kid doesn't\l"
-	.string "defeat us as easy as today. What will\l"
-	.string "PETREL say? I don't think that FRANK\l"
-	.string "will speak good things of you in his\l"
-	.string "report, you should go quickly to the\l"
-	.string "quarters and tell him your version.$"
+	.string "Couldn't get a hold of that mysterious\n"
+	.string "TRAINER. Did he have a CHARMELEON?\l"
+	.string "Looks like we've got ourselves a tough\l"
+	.string "crowd here. We'd better train up so that\l"
+	.string "kid won't take us down like today. But\l"
+	.string "what'll PETREL say? FRANK's probably\l"
+	.string "smeared you in the report, so you'd\l"
+	.string "better share your side of things in the\l"
+	.string "quarters quick.$"
 
 MtMoon_3F_Pelea_Frank_texto14:
 	.string "PETREL: Calling up GRUNT ANDRA.$"
@@ -913,10 +912,10 @@ MtMoon_3F_Pelea_Frank_texto15:
 	.string "ANDRA: Right here, sir. What is it?$"
 
 MtMoon_3F_Pelea_Frank_texto16:
-.string "PETREL: You were given a mission\n"
-	.string "alongside with 6 GRUNTS, I want you to\l"
-	.string "depart to VERMILION CITY immediately,\l"
-	.string "details will be given on your way. Is\l"
+	.string "PETREL: You were given a mission\n"
+	.string "alongside six GRUNTs. Depart for\l"
+	.string "VERMILION CITY immediately. Details\l"
+	.string "will be provided on the way. Is\l"
 	.string "{PLAYER} there?$"
 
 MtMoon_3F_Pelea_Frank_texto17:
@@ -928,14 +927,14 @@ MtMoon_3F_Pelea_Frank_texto18:
 	.string "right now. You're dismissed.$"
 
 MtMoon_3F_Pelea_Frank_texto19:
-.string "ANDRA: Well, you've heard it, looks like\n"
-	.string "this time we won't have the same mission.$"
+	.string "ANDRA: Well, you heard him. Looks like\n"
+	.string "our missions are different this time.$"
 
 MtMoon_3F_Pelea_Frank_texto20:
-.string "Next time we see each other, I hope\n"
-	.string "your team will become unrecognizable.\l"
-	.string "Furthermore, mine will be much stronger.\l"
-	.string "See ya, CHRONO ISLAND comrade.$"
+	.string "Next we meet, I hope your team's\n"
+	.string "unrecognizable. But y' know, mine'll be\l"
+	.string "way tougher too. See ya, CHRONO ISLAND\l"
+	.string "comrade.$"
 
 MtMoon_3F_Pelea_Frank_move1:
 walk_down

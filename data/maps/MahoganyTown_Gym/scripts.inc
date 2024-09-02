@@ -172,7 +172,7 @@ MahoganyTown_Gym_Combate_Fredo_Texto_9:
 	.string "be useful to you.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
-	.string "Take it, here is the\n"
+	.string "Take it. This is the\n"
 	.string "GLACIERBADGE.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.2:

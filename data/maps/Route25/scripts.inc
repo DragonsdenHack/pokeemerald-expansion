@@ -9,8 +9,8 @@ release
 end
 
 Route25_Text_1:
-.string "This cape is a nice place to come with\n"
-	.string "your mate. MISTY, our GYM LEADER comes\l"
+	.string "This cape is a nice place to come with\n"
+	.string "your mate. MISTY, our GYM LEADER, comes\l"
 	.string "here often.$"
 
 

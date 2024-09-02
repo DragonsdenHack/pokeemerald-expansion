@@ -106,44 +106,44 @@ end
 
 
 Route24_Recluta_text_1:
-.string "Not bad for a ROCKET, so bad that this\n"
-	.string "challenge is not for you…{PAUSE 25} I'm also a\l"
-	.string "ROCKET, all this thing on NUGGET BRIDGE\l"
-	.string "is for recruiting, those dumb TRAINERS\l"
-	.string "over there think this is some kind of\l"
-	.string "social initiative. How dumb!$"
+	.string "Not bad for a ROCKET. Too bad this\n"
+	.string "challenge doesn't apply to you… I'm also\l"
+	.string "a ROCKET. This whole spectacle on\l"
+	.string "NUGGET BRIDGE is recruitment. Those\l"
+	.string "gullible TRAINERs over there think it's\l"
+	.string "just some social initiative. How dumb!$"
 
 
 Route24_Recluta_text_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Route24_Recluta_text_3:
-.string "You were given a mission? Steal some\n"
-	.string "patents from BILL? His place is at the\l"
-	.string "end of CERULEAN CAPE, at the east of\l"
-	.string "ROUTE 25. I hope you'll succeed, comrade.\l"
-	.string "No one in TEAM ROCKET can't stand BILL,\l"
-	.string "he's an egocentric spoiled elitist that\l"
-	.string "think about himself as a superior\l"
-	.string "because he has some rare POKÉMON that\l"
-	.string "only a few can afford. Beat him up on\l"
-	.string "our part!$"
+	.string "You were given a mission? Steal some\n"
+	.string "patents from BILL? You'll find him at\l"
+	.string "the end of CERULEAN CAPE, just east of\l"
+	.string "ROUTE 25. Here's to your success,\l"
+	.string "comrade. None of us at TEAM ROCKET can\l"
+	.string "stand BILL's guts, egotistical, elitist\l"
+	.string "brat that he is. Got himself a swelled\l"
+	.string "head just 'cuz he's dropped the dosh for\l"
+	.string "rare POKÉMON. Knock him down a peg for\l"
+	.string "us!$"
 
 Route24_Recluta_text_4:
-.string "BILL's house is at the end of CERULEAN\n"
-	.string "CAPE, at the east of ROUTE 25. I hope\l"
-	.string "you'll succeed, comrade. No one in TEAM\l"
-	.string "ROCKET can't stand BILL, he's an\l"
-	.string "egocentric spoiled elitist that think\l"
-	.string "about himself as a superior because he\l"
-	.string "has some rare POKÉMON that only a few\l"
-	.string "can afford. Beat him up on our part!$"
+	.string "You'll find him at the end of CERULEAN\n"
+	.string "CAPE, just east of ROUTE 25. Here's to\l"
+	.string "your success, comrade. None of us at\l"
+	.string "TEAM ROCKET can stand BILL's guts,\l"
+	.string "egotistical, elitist brat that he is. Got\l"
+	.string "himself a swelled head just 'cuz he's\l"
+	.string "dropped the dosh for rare POKÉMON.\l"
+	.string "Knock him down a peg for us!$"
 
 Route24_Recluta_text_5:
-.string "You did it! I would have paid to see\n"
-	.string "BILL's face when him and his purchased\l"
-	.string "PKÉMONS got beaten up by a ROCKET. You\l"
-	.string "have honored pur name!$"
+	.string "You did it! I'd have paid good money to\n"
+	.string "see BILL's face as his prized purchases\l"
+	.string "got trounced by a ROCKET. You've\l"
+	.string "honored our name!$"
 
 
 Route24_Recluta_move1:

@@ -55,35 +55,36 @@ BillGarden_House1_Bill_Combate_Text_1:
 .string "BILL: Stop right there, ROCKET.$"
 
 BillGarden_House1_Bill_Combate_Text_2:
-	.string "It should have been more than\n"
-	.string "sufficient with three police officers.\l"
-	.string "Perhaps my mistake was not hiring\l"
-	.string "twenty instead of three.$"
+	.string "Three cops ought to have done the job.\n"
+	.string "But maybe my restraint in taking three\l"
+	.string "was a mistake, as opposed to the twenty\l"
+	.string "I should've done from the start.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
-	.string "Anyway, you have no way out. Even if you\n"
-	.string "defeat me, all the police in CERULEAN\l"
-	.string "are coming. You acted hastily…{PAUSE 20}$"
+	.string "Either way, there's no exit. Say you\n"
+	.string "beat me. The whole of CERULEAN law\l"
+	.string "enforcement's on its way now. You were\l"
+	.string "just too brash…$"
 
 BillGarden_House1_Bill_Combate_Text_4:
-	.string "But you know, it's not exactly normal to\n"
-	.string "see someone challenge and take down\l"
-	.string "three cops all at once.$"
+	.string "Still, it's not all that common to see\n"
+	.string "someone successfully defy three\l"
+	.string "officers.$"
 
 BillGarden_House1_Bill_Combate_Text_5:
-	.string "Since you're going to spend a lot of\n"
-	.string "time reflecting in jail, I'll at\l"
-	.string "least grant you the honor of battling\l"
-	.string "with me. Consider yourself fortunate.\l"
-	.string "Not everyone gets the chance to\l"
-	.string "witness the great collection of BILL,\l"
-	.string "the number 1 POKÉMANIAC!$"
+	.string "But since you'll be sitting in the clank\n"
+	.string "for a long time, I'll at least give you\l"
+	.string "the honor of battling me. Lucky you. Not\l"
+	.string "every day does anyone have the\l"
+	.string "opportunity to witness the great\l"
+	.string "collection of BILL, number one\l"
+	.string "POKÉMANIAC!$"
 
 BillGarden_House1_Bill_Combate_Text_6:
 	.string "This must be a joke.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-	.string "({PLAYER} stole the patent).$"
+	.string "({PLAYER} stole the patent.)$"
 
 BillGarden_House1_Bill_Combate_Text_8:
 	.string "CERULEAN POLICE: MR.BILL, we inform you\n"
@@ -92,15 +93,15 @@ BillGarden_House1_Bill_Combate_Text_8:
 	.string "ROCKET has no way out.$"
 
 BillGarden_House1_Bill_Combate_Text_9:
-	.string "BILL: Cool. Just snatch the patent\n"
-	.string "before you take him.$"
-
+	.string "BILL: Perfect. Make sure to take the\n"
+	.string "patent off his hands before you take\l"
+	.string "him away.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-	.string "Well, that's it. Do whatever you want.\n"
-	.string "Your only way out is to leave and give\l"
-	.string "up. Enjoy your last moments with the\l"
-	.string "patent.$"
+	.string "It's over. Do whatever you want. Your\n"
+	.string "sole option's to go out and submit.\l"
+	.string "Enjoy your last moments with the\l"
+	.string "patent in your hands.$"
 
 BillGarden_House1_Bill_Combate_move1:
 walk_in_place_up
@@ -151,7 +152,7 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-	.string "Well, that's it. Do whatever you want.\n"
-	.string "Your only way out is to leave and give\l"
-	.string "up. Enjoy your last moments with the\l"
-	.string "patent.$"
+	.string "It's over. Do whatever you want. Your\n"
+	.string "sole option's to go out and submit.\l"
+	.string "Enjoy your last moments with the\l"
+	.string "patent in your hands.$"

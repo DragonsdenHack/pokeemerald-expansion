@@ -9,8 +9,8 @@ release
 end
 
 SsAnne4F_Text_1:
-.string "The party is going\n"
-.string "well!$"
+.string "The party's a\n"
+.string "total success!$"
 
 
 
@@ -34,9 +34,8 @@ release
 end
 
 SsAnne4F_Text_3:
-.string "We will make the time we have been given\n"
-	.string "something unique, who cares how long it\l"
-	.string "is?$"
+	.string "We'll make our allotted time something\n"
+	.string "unique. Who cares how long it is?$"
 
 SsAnne4F_4::
 lock         
