@@ -95,7 +95,7 @@
   ],
   "warp_events": [
     {
-      "x": 2,
+      "x": 3,
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_ROUTE12",
@@ -103,7 +103,7 @@
     },
     {
       "x": 21,
-      "y": 3,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_CULTO_S1",
       "dest_warp_id": 0

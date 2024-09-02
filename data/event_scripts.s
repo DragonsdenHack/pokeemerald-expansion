@@ -2941,3 +2941,7 @@ Text_EVChecker_3:
 	.include "data/maps/LavenderTown_Pasado/scripts.inc"
 
 	.include "data/maps/LavenderTown_Pasado_Gym/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo_2/scripts.inc"

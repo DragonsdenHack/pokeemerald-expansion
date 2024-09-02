@@ -234,7 +234,7 @@ step_end
 
 MtEmber_B5F_Encuentro_Magno_Texto_1:
 .string "MAGNO: Este es el lugar, la\n"
-	.string "ubicación del RUBY no engaña,\l"
+	.string "ubicación del RUBÍ no engaña,\l"
 	.string "detrás de estas paredes\l"
 	.string "descansa GROUDON.$"
 
@@ -272,7 +272,7 @@ MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 .string "Todos adentro, ¡ya!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-.string "MAGNO: Tú otra vez, ya te avisé\n"
+.string "MAGNO: ¿Tú otra vez? Ya te avisé\n"
 	.string "una vez, y no volveré a hacerlo,\l"
 	.string "tengo cosas más importantes que\l"
 	.string "hacer que ocuparme de ti.\l"
@@ -280,8 +280,8 @@ MtEmber_B5F_Encuentro_Magno_Texto_7:
 	.string "¡Que no pase de este lugar!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_8:
-.string "AR KAREN: No permitiré que le\n"
-	.string "ponga la mano encima señor.$"
+.string "A.R. KAREN: No permitiré que\n"
+	.string "le ponga la mano encima, señor.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_9:
 .string "MAGNO: Ahí te quedas, GROUDON\n"
