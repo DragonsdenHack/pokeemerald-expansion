@@ -18,23 +18,191 @@ LavenderTown_PasadoDocumento_Text_101:
 
 LavenderTown_Pasado_Agatha::
 lock
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 5
+addobject 6
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Agatha_Move_1
+waitmovement 0x0
+playmoncry SPECIES_DROWZEE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Agatha_Move_2
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_M_PSYBEAM
+waitse
+delay 15
+playse SE_SUPER_EFFECTIVE
+waitse
+delay 15
+playmoncry SPECIES_GASTLY, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+waitse
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 6, LavenderTown_Pasado_Agatha_Move_4
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, LavenderTown_Pasado_Agatha_Move_6
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, LavenderTown_Pasado_Agatha_Move_5
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, LavenderTown_Pasado_Agatha_Move_7
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, LavenderTown_Pasado_Agatha_Move_8
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, LavenderTown_Pasado_Agatha_Move_4
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, LavenderTown_Pasado_Agatha_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_PIN
+applymovement 5, LavenderTown_Pasado_Agatha_Move_2.1
+applymovement 6, LavenderTown_Pasado_Agatha_Move_2.1
 msgbox LavenderTown_Pasado_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 1, LavenderTown_Pasado_Agatha_Move_10
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_11
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_LEDGE
+applymovement 5, LavenderTown_Pasado_Agatha_Move_12
+waitmovement 0x0
+playse SE_LEDGE
+applymovement 5, LavenderTown_Pasado_Agatha_Move_12
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Agatha_Move_13
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 5, LavenderTown_Pasado_Agatha_Move_15
+applymovement 6, LavenderTown_Pasado_Agatha_Move_14
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_13 MSGBOX_AUTOCLOSE
 msgbox LavenderTown_Pasado_Agatha_Texto_14 MSGBOX_AUTOCLOSE
 msgbox LavenderTown_Pasado_Agatha_Texto_15 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 5
+removeobject 6
 release
 end
+
+LavenderTown_Pasado_Agatha_Move_15:
+walk_slow_right
+delay_16
+walk_slow_right
+delay_16
+face_up
+step_end
+
+LavenderTown_Pasado_Agatha_Move_14:
+walk_right
+walk_right
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+
+LavenderTown_Pasado_Agatha_Move_13:
+walk_in_place_up
+step_end
+
+LavenderTown_Pasado_Agatha_Move_12:
+jump_in_place_down
+step_end
+
+LavenderTown_Pasado_Agatha_Move_11:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+LavenderTown_Pasado_Agatha_Move_10:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+LavenderTown_Pasado_Agatha_Move_9:
+face_left
+step_end
+
+LavenderTown_Pasado_Agatha_Move_8:
+face_up
+step_end
+
+LavenderTown_Pasado_Agatha_Move_7:
+walk_right
+step_end
+
+LavenderTown_Pasado_Agatha_Move_6:
+walk_left
+step_end
+
+LavenderTown_Pasado_Agatha_Move_5:
+walk_in_place_left
+step_end
+
+LavenderTown_Pasado_Agatha_Move_4:
+walk_in_place_right
+step_end
+
+LavenderTown_Pasado_Agatha_Move_3:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_left
+walk_slow_left
+step_end
+
+LavenderTown_Pasado_Agatha_Move_2.1:
+face_down
+emote_exclamation_mark
+step_end
+
+LavenderTown_Pasado_Agatha_Move_2:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Pasado_Agatha_Move_1:
+walk_in_place_down
+step_end
 
 LavenderTown_Pasado_Agatha_Texto_1:
 	.string "¡DROWZEE! ¡CONFUSIÓN!$"
@@ -69,7 +237,7 @@ LavenderTown_Pasado_Agatha_Texto_9:
 	.string "¡Claro que no!$"
 
 LavenderTown_Pasado_Agatha_Texto_10:
-	.string "¡Niños! ¡Ya está aquí!$"
+	.string "????: ¡Niños! ¡Ya está aquí!$"
 
 LavenderTown_Pasado_Agatha_Texto_11:
 	.string "¡Sí! ¡Mi maestra! ¡Lo ha logrado!$"
