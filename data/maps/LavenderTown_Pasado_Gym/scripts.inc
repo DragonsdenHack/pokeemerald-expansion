@@ -1,89 +1,538 @@
 LavenderTown_Pasado_Gym_MapScripts::
 	.byte 0
 
+LavenderTown_Pasado_Gym_Move_1:
+walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_2:
+face_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_3:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Pasado_Gym_Move_4:
+face_down
+emote_exclamation_mark
+step_end
+
+LavenderTown_Pasado_Gym_Move_5:
+delay_16
+delay_16
+face_right
+step_end
+
+LavenderTown_Pasado_Gym_Move_6:
+delay_16
+delay_16
+face_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_7:
+walk_up
+walk_up
+walk_up
+face_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_8:
+walk_in_place_right
+step_end
+
+LavenderTown_Pasado_Gym_Move_9:
+face_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_10:
+face_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_11:
+face_up
+delay_16
+delay_8
+face_right
+step_end
+
+LavenderTown_Pasado_Gym_Move_12:
+walk_in_place_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_13:
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_14:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_14.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_15:
+walk_right
+face_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_16:
+walk_slow_left
+walk_slow_left
+face_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_17:
+walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_18:
+walk_slow_up
+walk_slow_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_19:
+walk_in_place_up
+walk_slow_down
+walk_slow_right
+walk_slow_right
+face_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_20:
+walk_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_21:
+face_left
+delay_16
+face_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_22:
+jump_in_place_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_23:
+emote_exclamation_mark
+delay_16
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+face_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_24:
+walk_up
+face_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_25:
+walk_in_place_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_26:
+walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_27:
+walk_fast_up
+step_end
+
+LavenderTown_Pasado_Gym_Move_28:
+delay_16
+face_left
+delay_16
+face_right
+delay_16
+face_up
+step_end
+
 LavenderTown_Pasado_Gym::
 lock
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_2
+waitmovement 0x0
+waitse
+delay 5
+playse SE_EXIT
+removeobject 10
+clearflag FLAG_HOENN_70
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_3
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Gym_Move_4
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Gym_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_6
+applymovement 10, LavenderTown_Pasado_Gym_Move_7
+waitmovement 0x0
+applymovement 9, LavenderTown_Pasado_Gym_Move_8
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Gym_Move_8
+applymovement 10, LavenderTown_Pasado_Gym_Move_10
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 9, LavenderTown_Pasado_Gym_Move_8
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Gym_Move_11
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_3
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Gym_Move_8
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_12
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 4, LavenderTown_Pasado_Gym_Move_13
+waitmovement 0x0
+applymovement 9, LavenderTown_Pasado_Gym_Move_9
+applymovement 10, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_13 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 4, LavenderTown_Pasado_Gym_Move_10
+applymovement 10, LavenderTown_Pasado_Gym_Move_15
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Gym_Move_14
+waitmovement 0x0
+special RemoveCameraObject
 msgbox LavenderTown_Pasado_Gym_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, LavenderTown_Pasado_Gym_Move_16
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 2, LavenderTown_Pasado_Gym_Move_2
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, LavenderTown_Pasado_Gym_Move_13
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, LavenderTown_Pasado_Gym_Move_17
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_18 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_3
+waitmovement 0x0
+delay 15
+applymovement 2, LavenderTown_Pasado_Gym_Move_18
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_13
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 2, LavenderTown_Pasado_Gym_Move_19
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_20
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_10
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_13
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_21
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_32 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_23
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_24
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_35 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_37 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_2
+applymovement 10, LavenderTown_Pasado_Gym_Move_25
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_39 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_26
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_40 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_41 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_10
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_13
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_43 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_24
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_44 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_45 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_46 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_25
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_47 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_3
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_48 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_2
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_49 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_50 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_10
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_51 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_12
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_52 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_2
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_53 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_54 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_22
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_55 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_56 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, LavenderTown_Pasado_Gym_Move_27
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_57 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_28
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_58 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_59 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_28
+waitmovement 0x0
+delay 10
+applymovement 10, LavenderTown_Pasado_Gym_Move_25
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_60 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_29
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_61 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_62 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_3
+waitmovement 0x0
+delay 10
+applymovement 10, LavenderTown_Pasado_Gym_Move_30
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_63 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, LavenderTown_Pasado_Gym_Move_2
+applymovement 9, LavenderTown_Pasado_Gym_Move_25
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_64 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_65 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_31
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_66 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Gym_Move_9
+waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_67 MSGBOX_AUTOCLOSE
+applymovement 1, LavenderTown_Pasado_Gym_Move_32
+waitmovement 0x0
+removeobject 1
+playse SE_EXIT
+waitse
+applymovement 9, LavenderTown_Pasado_Gym_Move_33
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_68 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, LavenderTown_Pasado_Gym_Move_34
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_69 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_70 MSGBOX_AUTOCLOSE
+applymovement 4, LavenderTown_Pasado_Gym_Move_12
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_71 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Pasado_Gym_Texto_72 MSGBOX_AUTOCLOSE
-msgbox LavenderTown_Pasado_Gym_Texto_73 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_70
+setflag FLAG_HOENN_71
+fadescreen 0
+delay 20
+removeobject 1
+removeobject 2
+removeobject 3
+removeobject 4
+removeobject 5
+removeobject 6
+removeobject 7
+removeobject 8
+removeobject 9
+removeobject 10
+fadescreen 1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Gym_Move_14.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F9, 5
 release
 end
+
+LavenderTown_Pasado_Gym_Move_34:
+walk_down
+walk_left
+step_end
+
+LavenderTown_Pasado_Gym_Move_33:
+walk_up
+walk_right
+step_end
+
+LavenderTown_Pasado_Gym_Move_32:
+walk_up
+walk_right
+walk_up
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+step_end
+
+
+LavenderTown_Pasado_Gym_Move_31:
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_30:
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
+
+LavenderTown_Pasado_Gym_Move_29:
+walk_left
+walk_up
+walk_up
+step_end
 
 LavenderTown_Pasado_Gym_Texto_1:
 	.string "????: Justo a tiempo.$"
 
 LavenderTown_Pasado_Gym_Texto_2:
-	.string "AGATHA: ¡Tú! ¿Qué haces aquí?$"
+	.string "AGATHA: ¡Tú! ¡¿Qué haces aquí?!$"
 
 LavenderTown_Pasado_Gym_Texto_3:
 	.string "Nunca te has interesado por PUEBLO\n"
@@ -179,8 +628,8 @@ LavenderTown_Pasado_Gym_Texto_24:
 
 LavenderTown_Pasado_Gym_Texto_25:
 	.string "No podemos verlo, tal vez siquiera\n"
-	.string "comprenderlo. Pero no podemos ignorar\l"
-	.string "su poder.$"
+	.string "comprenderlo. Pero resulta imposible\l"
+	.string "ignorar su poder.$"
 
 LavenderTown_Pasado_Gym_Texto_26:
 	.string "Esa fuerza fue la que ayudó a mi\n"
@@ -245,7 +694,7 @@ LavenderTown_Pasado_Gym_Texto_40:
 	.string "de ese tipo en su interior.$"
 
 LavenderTown_Pasado_Gym_Texto_41:
-	.string "Ese pequeño se convirtió en el\n"
+	.string "Ese VULPIX se convirtió en el\n"
 	.string "NINETALES más fuerte que mis ojos\l"
 	.string "hayan visto.$"
 
@@ -274,23 +723,23 @@ LavenderTown_Pasado_Gym_Texto_46:
 	.string "ahí.$"
 
 LavenderTown_Pasado_Gym_Texto_47:
-	.string "Ahora podía verse, olerse y tocarse: el\n"
-	.string "TIPO FANTASMA que mi pequeño VULPIX\l"
-	.string "siempre tuvo dentro se materializó.$"
+	.string "Ahora podía verse, olerse y tocarse:\n"
+	.string "¡el TIPO FANTASMA que ese VULPIX\l"
+	.string "siempre tuvo dentro se materializó!$"
 
 LavenderTown_Pasado_Gym_Texto_48:
 	.string "AGATHA: ¡Guau!$"
 
 LavenderTown_Pasado_Gym_Texto_49:
-	.string "C. FRIDA: Al principio creyeron que era\n"
+	.string "C. FRIDA: Al principio, creyeron que era\n"
 	.string "una estrategia. Pensaron que estaba\l"
 	.string "nublando sus sentidos por medio de la\l"
 	.string "hipnosis.$"
 
 LavenderTown_Pasado_Gym_Texto_50:
-	.string "Pero no, era real. Esa sería la forma que\n"
-	.string "mi NINETALES tendrá por el resto de sus\l"
-	.string "días.$"
+	.string "Pero no, era real. Y esa será la forma\n"
+	.string "que mi NINETALES tendrá por el resto\l"
+	.string "de sus días.$"
 
 LavenderTown_Pasado_Gym_Texto_51:
 	.string "Su pelaje se volvió duro como\n"
@@ -370,19 +819,13 @@ LavenderTown_Pasado_Gym_Texto_68:
 	.string "AGATHA: ¡Maestra, espere!$"
 
 LavenderTown_Pasado_Gym_Texto_69:
-	.string "????: Déjale descansar. El combate por\n"
-	.string "el título ha sido duro, y el viaje desde\l"
-	.string "JOHTO ha sido largo.$"
+	.string "Déjale descansar. El combate por el\n"
+	.string "título ha sido duro, y el viaje\l"
+	.string "desde JOHTO largo.$"
 
 LavenderTown_Pasado_Gym_Texto_70:
 	.string "AGATHA: Jo… Quería que viera lo mucho\n"
 	.string "que ha crecido mi GASTLY.$"
 
 LavenderTown_Pasado_Gym_Texto_71:
-	.string "????: Mañana podrás enseñárselo.$"
-
-LavenderTown_Pasado_Gym_Texto_72:
-	.string "OAK, ¡vamos!$"
-
-LavenderTown_Pasado_Gym_Texto_73:
-	.string "OAK: Ya voy.$"
+	.string "Mañana podrás enseñárselo.$"

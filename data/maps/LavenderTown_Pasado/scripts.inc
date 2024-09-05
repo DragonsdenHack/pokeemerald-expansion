@@ -101,6 +101,7 @@ msgbox LavenderTown_Pasado_Agatha_Texto_15 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 removeobject 5
 removeobject 6
+setvar VAR_UNUSED_0x40F9, 3
 release
 end
 
@@ -325,9 +326,26 @@ waitmovement 0x0
 removeobject 7
 playse SE_EXIT
 delay 30
+applymovement 8, LavenderTown_Pasado_Lider_Move_14
+waitmovement 0x0
+removeobject 8
+closedoor 9, 16
+waitdooranim
 setflag FLAG_HOENN_70
+setvar VAR_UNUSED_0x40F9, 4
 release
 end
+
+LavenderTown_Pasado_Lider_Move_14:
+face_up
+delay_16
+delay_8
+walk_slow_up
+delay_16
+walk_left
+walk_left
+walk_up
+step_end
 
 LavenderTown_Pasado_Lider_Move_13:
 walk_left
