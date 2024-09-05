@@ -258,20 +258,144 @@ LavenderTown_Pasado_Agatha_Texto_15:
 
 LavenderTown_Pasado_Lider::
 lock
+delay 10
+applymovement 8, LavenderTown_Pasado_Lider_Move_1
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Lider_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_2
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, LavenderTown_Pasado_Lider_Move_1
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Lider_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_3
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, LavenderTown_Pasado_Lider_Move_4
+waitmovement 0x0
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_5
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, LavenderTown_Pasado_Lider_Move_1
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Lider_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Lider_Move_6
 msgbox LavenderTown_Pasado_Lider_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_7
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_8
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_9
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, LavenderTown_Pasado_Lider_Move_10
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderTown_Pasado_Lider_Move_11
+waitmovement 0x0
+playse SE_DOOR
+opendoor 9, 16
+waitdooranim
+applymovement 9, LavenderTown_Pasado_Lider_Move_12
+waitmovement 0x0
+removeobject 9
+playse SE_EXIT
+delay 10
+applymovement 7, LavenderTown_Pasado_Lider_Move_1
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 7, LavenderTown_Pasado_Lider_Move_13
+waitmovement 0x0
+removeobject 7
+playse SE_EXIT
+delay 30
+setflag FLAG_HOENN_70
 release
 end
+
+LavenderTown_Pasado_Lider_Move_13:
+walk_left
+walk_left
+walk_up
+step_end
+
+LavenderTown_Pasado_Lider_Move_12:
+walk_up
+step_end
+
+LavenderTown_Pasado_Lider_Move_11:
+walk_in_place_up
+step_end
+
+LavenderTown_Pasado_Lider_Move_10:
+walk_slow_up
+step_end
+
+LavenderTown_Pasado_Lider_Move_9:
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+LavenderTown_Pasado_Lider_Move_8:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+LavenderTown_Pasado_Lider_Move_7:
+walk_in_place_right
+step_end
+
+LavenderTown_Pasado_Lider_Move_6:
+walk_down
+face_right
+step_end
+
+LavenderTown_Pasado_Lider_Move_5:
+face_down
+step_end
+
+LavenderTown_Pasado_Lider_Move_3:
+face_up
+step_end
+
+LavenderTown_Pasado_Lider_Move_4:
+walk_slow_left
+step_end
+
+LavenderTown_Pasado_Lider_Move_2:
+delay_8
+face_up
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+LavenderTown_Pasado_Lider_Move_1:
+walk_in_place_left
+step_end
 
 LavenderTown_Pasado_Lider_Texto_1:
 	.string "¿Es cierto que dejará pronto\n"

@@ -2945,3 +2945,5 @@ Text_EVChecker_3:
 	.include "data/maps/Lavender_Secta_Pasadizo/scripts.inc"
 
 	.include "data/maps/Lavender_Secta_Pasadizo_2/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo_3/scripts.inc"

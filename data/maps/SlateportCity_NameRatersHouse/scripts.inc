@@ -107,3 +107,100 @@ SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 	.string "Espera, espera…\n"
 	.string "¡Esto es solo un HUEVO!$"
 
+SlateportCity_NameRatersHouse_Trampilla::
+lock
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_12 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_13 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_14 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_15 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_16 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_17 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_18 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_1:
+	.string "¡Je, je! ¡Hola!\n"
+	.string "¡Soy el INSPECTOR de los MOTES!\p"
+	.string "Estaré encantado de evaluar\n"
+	.string "el nombre de tu POKÉMON, je, je.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_2:
+	.string "… …$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_3:
+	.string "¿Quieres hablar conmigo?\n"
+	.string "Claro, dime, jovencito.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_4:
+	.string "… …$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_5:
+	.string "Oh… ¿Dónde has escuchado eso?$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_6:
+	.string "Llevo aquí más de 30 años, y nadie jamás\n"
+	.string "se ha vuelto a interesar por ese lugar.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_7:
+	.string "… …$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_8:
+	.string "¡AGATHA! Entiendo.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_9:
+	.string "Entonces, tú eras ese ENTRENADOR tan\n"
+	.string "extraordinario del que hablaba.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_10:
+	.string "Tenemos mucho por lo que estar\n"
+	.string "agradecidos contigo.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_11:
+	.string "Si puedo hacer algo por\n"
+	.string "ayudarte lo haré, observa.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_12:
+	.string "Ese pequeño CEMENTERIO se cerró hace\n"
+	.string "más de cuatro décadas, cuando el primer\l"
+	.string "INSPECTOR de MOTES llegó.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_13:
+	.string "Las escaleras que llevan a él se\n"
+	.string "ocultaron bajo una trampilla, tras\l"
+	.string "derribar el GIMNASIO.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_14:
+	.string "Ahora están justo debajo\n"
+	.string "del MAPA de KANTO.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_15:
+	.string "A mi llegada, me dejaron a cargo de la\n"
+	.string "LLAVE para abrir la trampilla.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_16:
+	.string "Jamás la utilicé ni me interesé por\n"
+	.string "saber qué había debajo, pero veo que a\l"
+	.string "ti sí te interesa. Toma.$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_17:
+	.string "¡{PLAYER} obtuvo la LLAVE TRAMPILLA!$"
+
+SlateportCity_NameRatersHouse_Trampilla_Texto_18:
+	.string "Ahora es tuya; puedes entrar y salir\n"
+	.string "cuando quieras. Es lo menos que puedo\l"
+	.string "hacer por ti.$"
+
+
+

@@ -340,7 +340,7 @@ SevaultCanyon_Combate_Andra_Texto_11:
 
 SevaultCanyon_Combate_Andra_Texto_12:
 .string "En cualquier caso, ¡no he venido\n"
-	.string "hasta aquí para filosofear sobre\l"
+	.string "hasta aquí para filosofar sobre\l"
 	.string "el uso o no uso de LEGENDARIOS!\l"
 	.string "¡Mi objetivo primordial aquí es\l"
 	.string "descubrir a qué diablos pertenece\l"

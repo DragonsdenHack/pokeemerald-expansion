@@ -2340,9 +2340,9 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_12:
 RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
 .string "Desde que SILPH es aliada nuestra,\n"
 	.string "he tenido ocasión de reunirme\l"
-	.string "varias veces con su PRESIDENTE\l"
-	.string "{PLAYER}, el caso es que en nuestra\l"
-	.string "última reunión, salió precisamente\l"
+	.string "varias veces con su PRESIDENTE.\l"
+	.string "El caso es que en nuestra última \l"
+	.string "reunión, salió precisamente\l"
 	.string "este tema y{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:

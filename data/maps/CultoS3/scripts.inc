@@ -908,7 +908,7 @@ Culto_S3_Batalla_Texto_19:
 
 Culto_S3_Batalla_Texto_20:
 .string "En cuanto al POKÉMON ESENCIA, aquí\n"
-	.string "le rendimos culto, si, el\l"
+	.string "le rendimos culto, sí. El\l"
 	.string "sacrificio que acabas de ver ha\l"
 	.string "sido en su honor, sin embargo, no\l"
 	.string "pretendemos ni podemos -ver- o\l"

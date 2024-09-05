@@ -68,6 +68,14 @@ msgbox LavenderTown_Pasado_Gym_Texto_62 MSGBOX_AUTOCLOSE
 msgbox LavenderTown_Pasado_Gym_Texto_63 MSGBOX_AUTOCLOSE
 msgbox LavenderTown_Pasado_Gym_Texto_64 MSGBOX_AUTOCLOSE
 msgbox LavenderTown_Pasado_Gym_Texto_65 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_66 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_67 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_68 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_69 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_70 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_71 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_72 MSGBOX_AUTOCLOSE
+msgbox LavenderTown_Pasado_Gym_Texto_73 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -347,5 +355,34 @@ LavenderTown_Pasado_Gym_Texto_64:
 LavenderTown_Pasado_Gym_Texto_65:
 	.string "OAK: ¡Bah, tonterías! Solo fue\n"
 	.string "casualidad. Subió de nivel en el momento\l"
-	.string "justo, este mundo no tiene tantos\l"
-	.string "misterios.$"
+	.string "justo, no hay misterio en eso.$"
+
+LavenderTown_Pasado_Gym_Texto_66:
+	.string "C. FRIDA: Al contrario, joven. A veces,\n"
+	.string "los mayores misterios se encuentran\l"
+	.string "camuflados en lo más ordinario, en lo\l"
+	.string "que está a la vista de todos.$"
+
+LavenderTown_Pasado_Gym_Texto_67:
+	.string "Si me disculpáis.$"
+
+LavenderTown_Pasado_Gym_Texto_68:
+	.string "AGATHA: ¡Maestra, espere!$"
+
+LavenderTown_Pasado_Gym_Texto_69:
+	.string "????: Déjale descansar. El combate por\n"
+	.string "el título ha sido duro, y el viaje desde\l"
+	.string "JOHTO ha sido largo.$"
+
+LavenderTown_Pasado_Gym_Texto_70:
+	.string "AGATHA: Jo… Quería que viera lo mucho\n"
+	.string "que ha crecido mi GASTLY.$"
+
+LavenderTown_Pasado_Gym_Texto_71:
+	.string "????: Mañana podrás enseñárselo.$"
+
+LavenderTown_Pasado_Gym_Texto_72:
+	.string "OAK, ¡vamos!$"
+
+LavenderTown_Pasado_Gym_Texto_73:
+	.string "OAK: Ya voy.$"
