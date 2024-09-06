@@ -216,6 +216,7 @@ Base_Profunda_Mercado_7_Pokemart:
 	.2byte 624
 	.2byte 611
 	.2byte 636
+	.2byte 599
 	.2byte 215
 	.2byte 218
 	.2byte 219

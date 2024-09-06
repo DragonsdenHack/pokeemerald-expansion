@@ -4249,9 +4249,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_INSOMNIA, ABILITY_INSOMNIA, ABILITY_INSOMNIA},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #else
-            .abilities = {ABILITY_INSOMNIA, ABILITY_INSOMNIA},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
@@ -31819,11 +31819,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DEOXYS_ATTACK] =
     {
         .baseHP        = 100,
-        .baseAttack    = 20,
-        .baseDefense   = 75,
+        .baseAttack    = 70,
+        .baseDefense   = 50,
         .baseSpeed     = 150,
         .baseSpAttack  = 180,
-        .baseSpDefense = 75,
+        .baseSpDefense = 50,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -31836,7 +31836,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE},
+        .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
@@ -31869,10 +31869,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DEOXYS_SPEED] =
     {
         .baseHP        = 100,
-        .baseAttack    = 20,
-        .baseDefense   = 95,
+        .baseAttack    = 50,
+        .baseDefense   = 90,
         .baseSpeed     = 180,
-        .baseSpAttack  = 125,
+        .baseSpAttack  = 100,
         .baseSpDefense = 90,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,

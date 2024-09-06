@@ -459,8 +459,6 @@
 #define METATILE_Pacifidlog_SubmergedLogs_HorizontalRight      0x255
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x262
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x25A
-#define METATILE_Pacifidlog_SkyPillar_DoorOpen_Bottom  0x2B2
-#define METATILE_Pacifidlog_SkyPillar_DoorOpen_Top     0x2AA
 
 // gTileset_PalletTown
 #define METATILE_PalletTown_Door         0x2A3
