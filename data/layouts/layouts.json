@@ -15156,6 +15156,30 @@
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/Lavender_Secta_Pasadizo_3/border.bin",
       "blockdata_filepath": "data/layouts/Lavender_Secta_Pasadizo_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_SECUNDARIA",
+      "name": "VermilionCity_Secundaria_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/VermilionCity_Secundaria/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_Secundaria/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_JARDIN",
+      "name": "VermilionCity_Jardin_Layout",
+      "width": 24,
+      "height": 16,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_vermilion_city",
+      "border_filepath": "data/layouts/VermilionCity_Jardin/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_Jardin/map.bin"
     }
   ]
 }

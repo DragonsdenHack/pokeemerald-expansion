@@ -448,6 +448,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BillGarden_Poste"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_CAREFUL_MINT",
+      "flag": "FLAG_HOENN_73"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_MODEST_MINT",
+      "flag": "FLAG_HOENN_72"
     }
   ]
 }

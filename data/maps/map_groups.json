@@ -530,7 +530,9 @@
     "VermilionCity_House2",
     "VermilionCity_Mart",
     "VermilionCity_Gym",
-    "VermilionCity_House3"
+    "VermilionCity_House3",
+    "VermilionCity_Secundaria",
+    "VermilionCity_Jardin"
   ],
   "gMapGroup_IndoorLavenderTown": [
     "LavenderTown_PokemonCenter_1F",

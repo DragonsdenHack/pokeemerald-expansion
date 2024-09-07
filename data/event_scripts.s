@@ -2947,3 +2947,7 @@ Text_EVChecker_3:
 	.include "data/maps/Lavender_Secta_Pasadizo_2/scripts.inc"
 
 	.include "data/maps/Lavender_Secta_Pasadizo_3/scripts.inc"
+
+	.include "data/maps/VermilionCity_Secundaria/scripts.inc"
+
+	.include "data/maps/VermilionCity_Jardin/scripts.inc"
