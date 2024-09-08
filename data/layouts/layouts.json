@@ -15172,14 +15172,38 @@
     {
       "id": "LAYOUT_VERMILION_CITY_JARDIN",
       "name": "VermilionCity_Jardin_Layout",
-      "width": 24,
-      "height": 16,
+      "width": 33,
+      "height": 25,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_vermilion_city",
       "border_filepath": "data/layouts/VermilionCity_Jardin/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_Jardin/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILPH_S2_2",
+      "name": "SilphS2_2_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SilphS2_2/border.bin",
+      "blockdata_filepath": "data/layouts/SilphS2_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILPH_S2_3",
+      "name": "SilphS2_3_Layout",
+      "width": 22,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SilphS2_3/border.bin",
+      "blockdata_filepath": "data/layouts/SilphS2_3/map.bin"
     }
   ]
 }

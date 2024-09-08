@@ -2951,3 +2951,7 @@ Text_EVChecker_3:
 	.include "data/maps/VermilionCity_Secundaria/scripts.inc"
 
 	.include "data/maps/VermilionCity_Jardin/scripts.inc"
+
+	.include "data/maps/SilphS2_2/scripts.inc"
+
+	.include "data/maps/SilphS2_3/scripts.inc"

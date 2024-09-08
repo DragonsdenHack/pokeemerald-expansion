@@ -14,15 +14,180 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORJOHTO",
+      "x": 14,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
+      "x": 7,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
+      "x": 8,
+      "y": 18,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
+      "x": 12,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_84"
+    }
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_VERMILION_CITY_JARDIN",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HOENN_83"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HOENN_82"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HOENN_81"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HOENN_80"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_TAMATO_BERRY",
+      "flag": "FLAG_HOENN_79"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_GREPA_BERRY",
+      "flag": "FLAG_HOENN_78"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_HONDEW_BERRY",
+      "flag": "FLAG_HOENN_77"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_HOENN_76"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_KELPSY_BERRY",
+      "flag": "FLAG_HOENN_75"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_POMEG_BERRY",
+      "flag": "FLAG_HOENN_74"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 14,
+      "elevation": 3,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    }
   ]
 }

@@ -2320,9 +2320,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY, ABILITY_ANALYTIC},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY, ABILITY_STURDY},
         #else
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY},
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -13036,9 +13036,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY, ABILITY_ANALYTIC},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY, ABILITY_STURDY},
         #else
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY},
+            .abilities = {ABILITY_STURDY, ABILITY_STURDY},
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
