@@ -125,6 +125,7 @@ msgbox PewterCity_3_Text_3YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq PewterCity_3No
 msgbox PewterCity_3_Text_3Yes, MSGBOX_DEFAULT
+goto PewterCity_3_Cazabichos
 release
 end
 
@@ -137,6 +138,7 @@ PewterCity_3_Text_3YesNo:
 
 PewterCity_3No::
 msgbox PewterCity_3_Text_3No, MSGBOX_DEFAULT
+goto PewterCity_3_Cazabichos
 release
 end
 
@@ -152,27 +154,86 @@ PewterCity_3_Text_3No:
 	.string "mantener a los Pokémon salvajes\l"
 	.string "alejados de mi jardín!$"
 
+PewterCity_3_Cazabichos_Texto_1:
+emote_exclamation_mark
+step_end
+
+PewterCity_3_Cazabichos_Texto_2:
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
+PewterCity_3_Cazabichos_Texto_3:
+face_up
+step_end
+
+PewterCity_3_Cazabichos_Texto_4:
+delay_16
+face_player
+delay_16
+face_up
+delay_16
+delay_8
+walk_in_place_up
+step_end
+
+PewterCity_3_Cazabichos_Texto_5:
+face_player
+step_end
+
 PewterCity_3_Cazabichos::
 lock
+delay 15
 msgbox PewterCity_3_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PewterCity_3_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, PewterCity_3_Cazabichos_Texto_1
+waitmovement 0x0
 msgbox PewterCity_3_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox PewterCity_3_Texto_4 MSGBOX_AUTOCLOSE
-msgbox PewterCity_3_Texto_5 MSGBOX_AUTOCLOSE
-msgbox PewterCity_3_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_5, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PewterCity_3_Cazabichos_No
 msgbox PewterCity_3_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, PewterCity_3_Cazabichos_Texto_2
+waitmovement 0x0
 msgbox PewterCity_3_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Texto_3
+waitmovement 0x0
+delay 10
 msgbox PewterCity_3_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Texto_4
+waitmovement 0x0
+delay 10
 msgbox PewterCity_3_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PewterCity_3_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Texto_5
+waitmovement 0x0
+delay 10
 msgbox PewterCity_3_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PewterCity_3_Texto_13 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_86
 fadescreen 1
 delay 20
 removeobject 3
 fadescreen 0
-setflag FLAG_HOENN_86
 clearflag FLAG_HOENN_673
+setvar VAR_SCOTT_STATE, 1
+release
+end
+
+PewterCity_3_Cazabichos_No::
+msgbox PewterCity_3_Texto_6 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -197,8 +258,8 @@ PewterCity_3_Texto_6:
 	.string "que una sola persona pueda.$"
 
 PewterCity_3_Texto_7:
-	.string "¡¿De verdad?! No puedo creerlo, ahora\n"
-	.string "vuelvo a tener esperanzas.$"
+	.string "¿De verdad? No puedo creerlo,\n"
+	.string "ahora vuelvo a tener esperanzas.$"
 
 PewterCity_3_Texto_8:
 	.string "La cuestión es la siguiente: yo antes\n"

@@ -1,19 +1,166 @@
 VermilionCity_Secundaria_MapScripts::
 	.byte 0
 
+VermilionCity_Secundaria_Moteros_Move_1:
+walk_in_place_left
+delay_16
+face_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_2:
+walk_in_place_right
+delay_16
+face_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_3:
+walk_slow_down
+walk_slow_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_4:
+walk_in_place_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_5:
+walk_in_place_left
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_6:
+walk_right
+walk_right
+face_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_7:
+emote_exclamation_mark
+face_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_8:
+walk_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_9:
+face_left
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_10:
+emote_exclamation_mark
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_11:
+walk_down
+walk_right
+walk_right
+walk_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_12:
+walk_up
+walk_up
+walk_left
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_13:
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_down
+walk_left
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_14:
+delay_16
+face_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_15:
+walk_up
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_16:
+walk_in_place_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_17:
+face_up
+step_end
+
+
 VermilionCity_Secundaria_Moteros::
 lock
+faceplayer
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_2
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Secundaria_Moteros_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_4
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_7
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_7
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_6
 msgbox VermilionCity_Secundaria_Moteros_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_8
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_9
+waitmovement 0x0
+playse SE_PIN
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_10
+waitmovement 0x0
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_14
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_11
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_12
+applymovement 5, VermilionCity_Secundaria_Moteros_Move_13
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_16
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_14
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_17
+waitmovement 0x0
+playse 597
+applymovement 5, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_12 MSGBOX_AUTOCLOSE
 msgbox VermilionCity_Secundaria_Moteros_Texto_13 MSGBOX_AUTOCLOSE
 msgbox VermilionCity_Secundaria_Moteros_Texto_14 MSGBOX_AUTOCLOSE
@@ -68,14 +215,14 @@ VermilionCity_Secundaria_Moteros_Texto_5:
 	.string "esas mentas.$"
 
 VermilionCity_Secundaria_Moteros_Texto_6:
-	.string "Así es, en JOHTO apenas existen, y\n"
-	.string "nosotros nos aprovechamos de ello.$"
+	.string "En JOHTO apenas existen, y nosotros\n"
+	.string "nos aprovechamos de ello.$"
 
 VermilionCity_Secundaria_Moteros_Texto_7:
-	.string "¿Quién está ahí?$"
+	.string "¿Quién anda ahí?$"
 
 VermilionCity_Secundaria_Moteros_Texto_8:
-	.string "Jo, jo, jo. Algo de diversión por fin.$"
+	.string "Jo, jo, jo. Algo de diversión al fin.$"
 
 VermilionCity_Secundaria_Moteros_Texto_9:
 	.string "Oh, no… Hay más de los que pensaba.$"
@@ -85,7 +232,7 @@ VermilionCity_Secundaria_Moteros_Texto_10:
 	.string "encargamos del CAZABICHOS.$"
 
 VermilionCity_Secundaria_Moteros_Texto_11:
-	.string "Vosotros ocuparos del ROCKET.$"
+	.string "Vosotros encargaos del ROCKET.$"
 
 VermilionCity_Secundaria_Moteros_Texto_12:
 	.string "¡Al fin! ¡Ya estaba harto de leer\n"

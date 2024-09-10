@@ -1403,16 +1403,73 @@ Vermilion_Anciano_Bill_Texto_23:
 
 Vermilion_Cazabichos::
 lock
+delay 15
 msgbox Vermilion_Cazabichos_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, Vermilion_Cazabichos_Move_2
+waitmovement 0x0
 msgbox Vermilion_Cazabichos_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, Vermilion_Cazabichos_Move_3
+waitmovement 0x0
 msgbox Vermilion_Cazabichos_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Vermilion_Cazabichos_Move_5
+applymovement 13, Vermilion_Cazabichos_Move_4
+waitmovement 0x0
+delay 15
 msgbox Vermilion_Cazabichos_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Vermilion_Cazabichos_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Vermilion_Cazabichos_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Vermilion_Cazabichos_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, Vermilion_Cazabichos_Move_6
+waitmovement 0x0
 msgbox Vermilion_Cazabichos_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, Vermilion_Cazabichos_Move_1
+waitmovement 0x0
+setflag FLAG_HOENN_673
+removeobject 13
+playse SE_EXIT
+setvar VAR_SCOTT_STATE, 2
 release
 end
+
+Vermilion_Cazabichos_Move_6:
+face_down
+step_end
+
+Vermilion_Cazabichos_Move_5:
+walk_down
+walk_left
+walk_left
+face_up
+step_end
+
+Vermilion_Cazabichos_Move_4:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+face_right
+step_end
+
+Vermilion_Cazabichos_Move_3:
+face_left
+step_end
+
+Vermilion_Cazabichos_Move_2:
+face_player
+step_end
+
+Vermilion_Cazabichos_Move_1:
+face_right
+delay_16
+walk_in_place_right
+step_end
 
 Vermilion_Cazabichos_Texto_1:
 	.string "Fíjate, malditos…$"
@@ -1446,3 +1503,33 @@ Vermilion_Cazabichos_Texto_8:
 	.string "Pero ahora, al verte, me he dado cuenta\n"
 	.string "de que queda una última opción: usar la\l"
 	.string "fuerza.$"
+
+
+Vermilion_Activador_Entrada::
+compare VAR_SCOTT_STATE, 1
+goto_if_gt Vermilion_Activador_Entrada_Pasa
+release
+end
+
+Vermilion_Activador_Entrada_Pasa::
+delay 15
+msgbox Vermilion_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Vermilion_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Vermilion_Activador_Entrada_Pasa_No
+warp MAP_VERMILION_CITY_SECUNDARIA, 0, 2
+release
+end
+
+Vermilion_Activador_Entrada_Texto_1:
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
+
+Vermilion_Activador_Entrada_Pasa_Text_YesNo:
+.string "Hay una pequeña endidura entre las\n"
+	.string "rocas, parece que se alarga varios\l"
+	.string "metros. ¿Quieres cruzarla?$"
+
+Vermilion_Activador_Entrada_Pasa_No::
+release
+end
