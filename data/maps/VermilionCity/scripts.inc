@@ -291,9 +291,9 @@ end
 VermilionCity_Text_Surge:
     .string "????: Ándate con cuidado chaval,\n"
 	.string "más te vale respetar la\l"
-	.string "tranquilidad de este lugar si no\l"
-	.string "quieres problemas. Advertido\l"
-	.string "quedas.$"
+	.string "tranquilidad de este lugar\l"
+	.string "si no quieres problemas.\l"
+	.string "Advertido quedas.$"
 
 VermilionCitySurge_move1:
 emote_exclamation_mark

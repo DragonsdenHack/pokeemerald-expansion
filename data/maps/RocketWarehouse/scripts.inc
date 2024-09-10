@@ -104,6 +104,7 @@ msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 6, Atlas_Move_1
 waitmovement 0x0
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_673
 setvar VAR_ROUTE108_STATE, 7
 release
 end

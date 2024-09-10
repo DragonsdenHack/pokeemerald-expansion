@@ -95,99 +95,211 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 14,
-      "y": 8,
-      "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_HOENN_83"
-    },
-    {
-      "type": "hidden_item",
-      "x": 12,
-      "y": 8,
-      "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_HOENN_82"
-    },
-    {
-      "type": "hidden_item",
-      "x": 10,
-      "y": 8,
-      "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_HOENN_81"
-    },
-    {
-      "type": "hidden_item",
-      "x": 8,
-      "y": 8,
-      "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_HOENN_80"
-    },
-    {
-      "type": "hidden_item",
-      "x": 17,
-      "y": 6,
-      "elevation": 3,
-      "item": "ITEM_TAMATO_BERRY",
-      "flag": "FLAG_HOENN_79"
-    },
-    {
-      "type": "hidden_item",
       "x": 15,
       "y": 6,
       "elevation": 3,
-      "item": "ITEM_GREPA_BERRY",
-      "flag": "FLAG_HOENN_78"
+      "item": "ITEM_TIMID_MINT",
+      "flag": "FLAG_HOENN_94"
     },
     {
       "type": "hidden_item",
       "x": 13,
       "y": 6,
       "elevation": 3,
-      "item": "ITEM_HONDEW_BERRY",
-      "flag": "FLAG_HOENN_77"
+      "item": "ITEM_CALM_MINT",
+      "flag": "FLAG_HOENN_93"
     },
     {
       "type": "hidden_item",
       "x": 11,
       "y": 6,
       "elevation": 3,
+      "item": "ITEM_MODEST_MINT",
+      "flag": "FLAG_HOENN_92"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_LONELY_MINT",
+      "flag": "FLAG_HOENN_90"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_TAMATO_BERRY",
+      "flag": "FLAG_HOENN_79"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_GREPA_BERRY",
+      "flag": "FLAG_HOENN_78"
+    },
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_HONDEW_BERRY",
+      "flag": "FLAG_HOENN_77"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 8,
+      "elevation": 3,
       "item": "ITEM_QUALOT_BERRY",
       "flag": "FLAG_HOENN_76"
     },
     {
       "type": "hidden_item",
-      "x": 9,
-      "y": 6,
+      "x": 10,
+      "y": 8,
       "elevation": 3,
       "item": "ITEM_KELPSY_BERRY",
       "flag": "FLAG_HOENN_75"
     },
     {
       "type": "hidden_item",
-      "x": 7,
-      "y": 6,
+      "x": 8,
+      "y": 8,
       "elevation": 3,
       "item": "ITEM_POMEG_BERRY",
       "flag": "FLAG_HOENN_74"
     },
     {
       "type": "hidden_item",
-      "x": 22,
-      "y": 9,
+      "x": 9,
+      "y": 6,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_BOLD_MINT",
+      "flag": "FLAG_HOENN_91"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_RELAXED_MINT",
+      "flag": "FLAG_HOENN_96"
+    },
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_NAIVE_MINT",
+      "flag": "FLAG_HOENN_99"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_SASSY_MINT",
+      "flag": "FLAG_HOENN_98"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_QUIET_MINT",
+      "flag": "FLAG_HOENN_97"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_BRAVE_MINT",
+      "flag": "FLAG_HOENN_95"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_RASH_MINT",
+      "flag": "FLAG_HOENN_647"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_LAX_MINT",
+      "flag": "FLAG_HOENN_646"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_NAUGHTY_MINT",
+      "flag": "FLAG_HOENN_645"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_HASTY_MINT",
+      "flag": "FLAG_HOENN_644"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_GENTLE_MINT",
+      "flag": "FLAG_HOENN_643"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_MILD_MINT",
+      "flag": "FLAG_HOENN_642"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_IMPISH_MINT",
+      "flag": "FLAG_HOENN_641"
     },
     {
       "type": "hidden_item",
       "x": 7,
-      "y": 14,
+      "y": 6,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_ADAMANT_MINT",
+      "flag": "FLAG_HOENN_640"
+    },
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_JOLLY_MINT",
+      "flag": "FLAG_HOENN_649"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_CAREFUL_MINT",
+      "flag": "FLAG_HOENN_648"
     }
   ]
 }

@@ -379,6 +379,7 @@ msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_1F_Recepcionista_Pisos_Inferiores_Move_6
 waitmovement 0x0
 msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_85
 setvar VAR_UNUSED_0x40F7, 103
 release
 end

@@ -167,6 +167,12 @@ msgbox PewterCity_3_Texto_10 MSGBOX_AUTOCLOSE
 msgbox PewterCity_3_Texto_11 MSGBOX_AUTOCLOSE
 msgbox PewterCity_3_Texto_12 MSGBOX_AUTOCLOSE
 msgbox PewterCity_3_Texto_13 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+setflag FLAG_HOENN_86
+clearflag FLAG_HOENN_673
 release
 end
 

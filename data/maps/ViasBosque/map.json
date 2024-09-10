@@ -119,8 +119,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 21,
-      "y": 60,
+      "x": 10,
+      "y": 66,
       "elevation": 3,
       "item": "ITEM_MARANGA_BERRY",
       "flag": "FLAG_TEMP_1"

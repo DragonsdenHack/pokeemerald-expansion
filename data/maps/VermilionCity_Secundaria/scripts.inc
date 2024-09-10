@@ -41,6 +41,7 @@ msgbox VermilionCity_Secundaria_Moteros_Texto_35 MSGBOX_AUTOCLOSE
 msgbox VermilionCity_Secundaria_Moteros_Texto_36 MSGBOX_AUTOCLOSE
 msgbox VermilionCity_Secundaria_Moteros_Texto_37 MSGBOX_AUTOCLOSE
 msgbox VermilionCity_Secundaria_Moteros_Texto_38 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_87
 release
 end
 
