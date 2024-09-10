@@ -1400,3 +1400,49 @@ Vermilion_Anciano_Bill_Texto_22:
 
 Vermilion_Anciano_Bill_Texto_23:
 	.string "Como usted guste, SR.BILL.$"
+
+Vermilion_Cazabichos::
+lock
+msgbox Vermilion_Cazabichos_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Cazabichos_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+Vermilion_Cazabichos_Texto_1:
+	.string "Fíjate, malditos…$"
+
+Vermilion_Cazabichos_Texto_2:
+	.string "Han ocultado la puerta para que todos\n"
+	.string "se olviden de este lugar, y nadie haga\l"
+	.string "preguntas.$"
+
+Vermilion_Cazabichos_Texto_3:
+	.string "Pero conozco mi casa mejor que ellos.\n"
+	.string "Seguro que la otra entrada…$"
+
+Vermilion_Cazabichos_Texto_4:
+	.string "Como imaginé. Esos gorilas son tan\n"
+	.string "descuidados que la han olvidado.$"
+
+Vermilion_Cazabichos_Texto_5:
+	.string "… …$"
+
+Vermilion_Cazabichos_Texto_6:
+	.string "No soy el mejor ENTRENADOR, pero\n"
+	.string "ayudaré en todo lo que pueda, si con\l"
+	.string "ello nuestras posibilidades aumentan.$"
+
+Vermilion_Cazabichos_Texto_7:
+	.string "Los últimos anuncios de LANCE hicieron\n"
+	.string "que me hicieron perder la fe.$"
+
+Vermilion_Cazabichos_Texto_8:
+	.string "Pero ahora, al verte, me he dado cuenta\n"
+	.string "de que queda una última opción: usar la\l"
+	.string "fuerza.$"

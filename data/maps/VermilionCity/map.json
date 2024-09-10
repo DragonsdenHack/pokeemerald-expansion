@@ -191,7 +191,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Vermilion_Cazabichos",
       "flag": "0"
     }
   ],
@@ -274,8 +274,8 @@
       "dest_warp_id": 1
     },
     {
-      "x": 27,
-      "y": 7,
+      "x": 24,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY_SECUNDARIA",
       "dest_warp_id": 0
@@ -553,6 +553,14 @@
       "type": "sign",
       "x": 51,
       "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"

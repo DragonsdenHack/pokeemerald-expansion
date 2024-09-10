@@ -152,6 +152,79 @@ PewterCity_3_Text_3No:
 	.string "mantener a los Pokémon salvajes\l"
 	.string "alejados de mi jardín!$"
 
+PewterCity_3_Cazabichos::
+lock
+msgbox PewterCity_3_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_12 MSGBOX_AUTOCLOSE
+msgbox PewterCity_3_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+PewterCity_3_Texto_1:
+	.string "… …$"
+
+PewterCity_3_Texto_2:
+	.string "Oh, espera.$"
+
+PewterCity_3_Texto_3:
+	.string "¡Tú eres del TEAM ROCKET!$"
+
+PewterCity_3_Texto_4:
+	.string "Por tu apariencia debes\n"
+	.string "ser un pez gordo. ¿Verdad?$"
+
+PewterCity_3_Texto_5:
+	.string "¿Me ayudarías con algo muy importante?$"
+
+PewterCity_3_Texto_6:
+	.string "Mmm, vaya. De todos modos, no creo\n"
+	.string "que una sola persona pueda.$"
+
+PewterCity_3_Texto_7:
+	.string "¡¿De verdad?! No puedo creerlo, ahora\n"
+	.string "vuelvo a tener esperanzas.$"
+
+PewterCity_3_Texto_8:
+	.string "La cuestión es la siguiente: yo antes\n"
+	.string "trabajaba en CIUDAD CARMÍN. Tenía un\l"
+	.string "gran jardín, mucho mejor que este y en\l"
+	.string "el que crecían bayas y especias de lo\l"
+	.string "más raras.$"
+
+PewterCity_3_Texto_9:
+	.string "Yo las vendía a muy buen precio, y todos\n"
+	.string "estaban contentos; los entrenadores\l"
+	.string "apreciaban mucho mi trabajo.$"
+
+PewterCity_3_Texto_10:
+	.string "Pero todo eso se acabó al poco de\n"
+	.string "entrar LANCE al poder.$"
+
+PewterCity_3_Texto_11:
+	.string "Me expropió las tierras, y puso a unos\n"
+	.string "matones de JOHTO a su cargo.$"
+
+PewterCity_3_Texto_12:
+	.string "Ahora se dedican a recolectar los\n"
+	.string "frutos de mi jardín, y venderlos a\l"
+	.string "precio de oro fuera de KANTO.$"
+
+PewterCity_3_Texto_13:
+	.string "Te espero en CIUDAD CARMÍN. El lugar no\n"
+	.string "tiene pérdida, es una de las casas que\l"
+	.string "conectan con RUTA 6.$"
+
+
 PewterCity_Petrel_2::
 lockall
 applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
