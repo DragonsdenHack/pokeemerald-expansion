@@ -16,7 +16,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
-      "x": 2,
+      "x": 8,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -25,11 +25,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SABRINA",
-      "x": 12,
+      "x": 11,
       "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -60,12 +60,12 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 4,
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Lavender_Secta_Pasadizo_Oak"
     }
   ],
   "bg_events": [

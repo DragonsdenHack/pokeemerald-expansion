@@ -1,20 +1,105 @@
 Lavender_Secta_Pasadizo_MapScripts::
 	.byte 0
 
+Lavender_Secta_Pasadizo_Oak_Move_1:
+face_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_2:
+walk_right
+walk_down
+walk_right
+walk_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_3:
+walk_up
+walk_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_4:
+face_up
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_5:
+face_up
+delay_8
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_6:
+walk_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_7:
+face_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_8:
+delay_16
+face_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_9:
+walk_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_10:
+emote_exclamation_mark
+step_end
+
 
 Lavender_Secta_Pasadizo_Oak::
 lock
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_1 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_EXIT
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+addobject 1
+waitse
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Oak_Move_1
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_1
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_2
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_3
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Oak_Move_5
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_6
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_6
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_4
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_8
+waitmovement 0x0
+delay 20
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_7
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_9
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_10
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_12 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_13 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_14 MSGBOX_AUTOCLOSE
@@ -61,6 +146,8 @@ msgbox Lavender_Secta_Pasadizo_Oak_Texto_54 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_55 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_56 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_57 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+removeobject 1
 release
 end
 
