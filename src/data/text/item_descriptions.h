@@ -3451,6 +3451,11 @@ static const u8 sTM119Desc[] = _( // Todo
     "Cubre campo con\n"
    	"niebla por 5 turnos.\n"
    	"Evita estados.");
+	
+static const u8 sTM120Desc[] = _( // Todo
+    "Hace más daño si\n"
+	"el usuario pesa más\n"
+    "que el enemigo.");	
 
 static const u8 sHM01Desc[] = _(
    	"Corta con finas\n"

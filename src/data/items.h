@@ -8395,6 +8395,17 @@ const struct Item gItems[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
+	
+	[ITEM_TM120_HEAVY_SLAM] =
+    {
+        .name = _("MT120"),
+        .itemId = ITEM_TM120_HEAVY_SLAM,
+        .price = 30000,
+        .description = sTM120Desc,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
 
     [ITEM_HM01_CUT] =
     {
