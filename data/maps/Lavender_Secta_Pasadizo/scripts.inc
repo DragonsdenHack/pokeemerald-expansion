@@ -50,6 +50,53 @@ Lavender_Secta_Pasadizo_Oak_Move_10:
 emote_exclamation_mark
 step_end
 
+Lavender_Secta_Pasadizo_Oak_Move_11:
+walk_in_place_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_12:
+walk_slow_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_13:
+face_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_14:
+walk_fast_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_15:
+face_down
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_16:
+walk_down
+face_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_17:
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_18:
+delay_8
+face_right
+delay_16
+delay_16
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_19:
+delay_8
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
 
 Lavender_Secta_Pasadizo_Oak::
 lock
@@ -103,54 +150,217 @@ waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_12 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_4
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_11
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_1
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_12
+waitmovement 0x0
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_13
+waitmovement 0x0
+delay 20
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_4
+waitmovement 0x0
+delay 30
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_14
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_11
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_15
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_16
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_17
+waitmovement 0x0
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_27 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_10
+waitmovement 0x0
+waitse
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_18
+waitmovement 0x0
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_29 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_10
+waitmovement 0x0
+waitse
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_7
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_32 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_4
+waitmovement 0x0
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_33 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_34 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_35 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_36 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_10
+waitmovement 0x0
+waitse
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_13
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_38 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_19
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_39 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_11
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_40 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_14
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_41 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_43 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_19
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_44 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_45 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_4
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_46 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_47 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_11
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_48 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_49 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_20
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_50 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_51 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_21
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_52 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_22
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_53 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_24
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_23
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_54 MSGBOX_AUTOCLOSE
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_25
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_81
+removeobject 2
+waitse
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_55 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_56 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_7
+waitmovement 0x0
+delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_57 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_26
+waitmovement 0x0
+playse SE_EXIT
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 removeobject 1
 release
 end
+
+Lavender_Secta_Pasadizo_Oak_Move_26:
+walk_left
+walk_left
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_up
+walk_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_25:
+walk_right
+walk_down
+walk_right
+walk_down
+walk_down
+face_right
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_24:
+lock_facing_direction
+walk_left
+walk_left
+unlock_facing_direction
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_23:
+walk_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_22:
+walk_down
+face_left
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_21:
+delay_8
+face_down
+delay_16
+step_end
+
+Lavender_Secta_Pasadizo_Oak_Move_20:
+walk_slow_up
+step_end
 
 Lavender_Secta_Pasadizo_Oak_Texto_1:
 	.string "C. FRIDA: … …$"
@@ -263,7 +473,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_27:
 	.string "OAK: Si no puedo verlo. Muéstramelo.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_28:
-	.string "Muéstrame ese POKÉMON, la prueba de\n"
+	.string "Muéstrame ese POKÉMON; la prueba de\n"
 	.string "que todo lo que dices es cierto.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_29:
@@ -374,7 +584,8 @@ Lavender_Secta_Pasadizo_Oak_Texto_53:
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
 	.string "Morirás sin haber descorrido\n"
-	.string "la verdad tras el velo.$"
+	.string "la verdad tras el velo.\l"
+	.string "El tiempo pasa, ¿lo entiendes?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_55:
 	.string "OAK: … …$"
