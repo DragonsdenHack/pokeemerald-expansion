@@ -389,7 +389,7 @@ CinnabarIsland_Oak_Texto_12:
 CinnabarIsland_Oak_Texto_13:
 	.string "Y así debe ser. Las nuevas\n"
 	.string "generaciones merecen la oportunidad.\l"
-	.string "La oportundiad de perder, de ver\l"
+	.string "La oportunidad de perder, de ver\l"
 	.string "la cruda realidad o{PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_13.1:

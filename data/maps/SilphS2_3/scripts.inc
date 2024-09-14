@@ -3,24 +3,204 @@ SilphS2_3_MapScripts::
 
 SilphS2_3_Presidente::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, SilphS2_3_Presidente_Move_1
+waitmovement 0x0
 msgbox SilphS2_3_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SilphS2_3_Presidente_Move_2
+waitmovement 0x0
+applymovement 1, SilphS2_3_Presidente_Move_3
+waitmovement 0x0
 msgbox SilphS2_3_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_4
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_3
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_5
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS2_3_Presidente_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_6
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_7
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS2_3_Presidente_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_3
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_8
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, SilphS2_3_Presidente_Move_10
+applymovement 1, SilphS2_3_Presidente_Move_9
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS2_3_Presidente_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_5
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, SilphS2_3_Presidente_Move_11
+applymovement 1, SilphS2_3_Presidente_Move_12
+waitmovement 0x0
+delay 10
 msgbox SilphS2_3_Presidente_Texto_15 MSGBOX_AUTOCLOSE
-msgbox SilphS2_3_Presidente_Texto_16 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_707, SilphS2_3_Presidente_Texto_16
+msgbox SilphS2_3_Presidente_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Presidente_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, SilphS2_3_Presidente_Move_13
+waitmovement 0x0
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_RAINBOW_PASS
+msgbox SilphS2_3_Presidente_Texto_19 MSGBOX_DEFAULT
+waitfanfare
+msgbox SilphS2_3_Presidente_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, SilphS2_3_Presidente_Move_14
+waitmovement 0x0
+delay 10
+msgbox SilphS2_3_Presidente_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_5
+waitmovement 0x0
+delay 10
+msgbox SilphS2_3_Presidente_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, SilphS2_3_Presidente_Move_16
+applymovement 1, SilphS2_3_Presidente_Move_15
+waitmovement 0x0
+delay 20
+msgbox SilphS2_3_Presidente_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, SilphS2_3_Presidente_Move_17
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_80
+clearflag FLAG_HOENN_85
+removeobject 1
 release
 end
+
+SilphS2_3_Presidente_Move_17:
+walk_slow_down
+walk_slow_down
+walk_slow_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+
+SilphS2_3_Presidente_Move_16:
+delay_16
+delay_8
+face_down
+step_end
+
+SilphS2_3_Presidente_Move_15:
+walk_slow_down
+walk_slow_down
+step_end
+
+SilphS2_3_Presidente_Move_14:
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+step_end
+
+SilphS2_3_Presidente_Move_13:
+walk_in_place_right
+step_end
+
+SilphS2_3_Presidente_Move_12:
+walk_down
+face_right
+step_end
+
+SilphS2_3_Presidente_Move_11:
+delay_16
+face_left
+step_end
+
+SilphS2_3_Presidente_Move_10:
+delay_16
+delay_8
+face_up
+step_end
+
+SilphS2_3_Presidente_Move_9:
+walk_slow_right
+walk_slow_up
+delay_16
+delay_8
+step_end
+
+SilphS2_3_Presidente_Move_8:
+walk_in_place_right
+step_end
+
+SilphS2_3_Presidente_Move_7:
+face_up
+step_end
+
+SilphS2_3_Presidente_Move_6:
+walk_slow_right
+step_end
+
+SilphS2_3_Presidente_Move_5:
+face_down
+step_end
+
+SilphS2_3_Presidente_Move_4:
+walk_slow_down
+step_end
+
+SilphS2_3_Presidente_Move_3:
+face_right
+step_end
+
+SilphS2_3_Presidente_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+face_left
+step_end
+
+SilphS2_3_Presidente_Move_1:
+walk_in_place_up
+step_end
 
 SilphS2_3_Presidente_Texto_1:
 	.string "Burlando de nuevo a mi seguridad,\n"
@@ -96,4 +276,38 @@ SilphS2_3_Presidente_Texto_15:
 	.string "KANTO, y también de la nueva!$"
 
 SilphS2_3_Presidente_Texto_16:
-	.string "Definitivamente tienes algo especial.$"
+	.string "Otra vez… me has devuelto al pasado.$"
+
+SilphS2_3_Presidente_Texto_17:
+	.string "Has demostrado tu talento una vez más,\n"
+	.string "{PLAYER}. Espero que lo pongas al\l"
+	.string "servicio de una KANTO mejor.$"
+
+SilphS2_3_Presidente_Texto_18:
+	.string "En cuanto a mí respecta, tienes\n"
+	.string "todo el apoyo de SILPH.$"
+
+SilphS2_3_Presidente_Texto_19:
+	.string "¡{PLAYER} obtuvo la LLAVE SILPH S3!$"
+
+SilphS2_3_Presidente_Texto_20:
+	.string "Con esto podrás seguir explorando la\n"
+	.string "biblioteca, ten algo en cuenta: muchas\l"
+	.string "cosas se han perdido con el paso del\l"
+	.string "tiempo.$"
+
+SilphS2_3_Presidente_Texto_21:
+	.string "Puede que allí abajo encuentres lo que\n"
+	.string "buscas, pero… quizás sea imposible de\l"
+	.string "demostrar; la historia es implacable,\l"
+	.string "capaz de enterrar todo lo que una vez\l"
+	.string "fue evidente y estaba a la vista de\l"
+	.string "todos.$"
+
+SilphS2_3_Presidente_Texto_22:
+	.string "La cuestión es, ¿serás capaz de\n"
+	.string "desenterrar algo que siquiera sabemos\l"
+	.string "de su existencia?$"
+
+SilphS2_3_Presidente_Texto_23:
+	.string "KANTO te observa, ¡jo, jo, jo!$"

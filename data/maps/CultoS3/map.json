@@ -771,10 +771,10 @@
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 59,
+      "x": 2,
+      "y": 58,
       "elevation": 0,
-      "dest_map": "MAP_CULTO_S1",
+      "dest_map": "MAP_CULTO2",
       "dest_warp_id": 1
     },
     {

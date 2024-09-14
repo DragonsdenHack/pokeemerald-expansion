@@ -101,6 +101,7 @@ playse SE_PIN
 applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_10
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_13 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_14 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_15 MSGBOX_AUTOCLOSE
@@ -256,8 +257,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_25:
 Lavender_Secta_Pasadizo_Oak_Texto_26:
 	.string "Eres un joven inteligente. Pero tu\n"
 	.string "apego por la razón y el mundo que\l"
-	.string "conoces te impide ver más allá de tus\l"
-	.string "narices.$"
+	.string "conoces te impide ver más allá.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_27:
 	.string "OAK: Si no puedo verlo. Muéstramelo.$"
