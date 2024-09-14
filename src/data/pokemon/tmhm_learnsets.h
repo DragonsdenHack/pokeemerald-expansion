@@ -1,4 +1,15 @@
-#define TMHM_LEARNSET(moves, moves2, moves3) {(u32)(moves), ((u64)(moves) >> 32), (u32)(moves2), ((u64)(moves2) >> 32), (u32)(moves3), ((u64)(moves3) >> 32)}
+// Despachador que selecciona la versión correcta de TMHM_LEARNSET según el número de argumentos
+#define TMHM_LEARNSET(...) GET_TMHM_LEARNSET(__VA_ARGS__, TMHM_LEARNSET_3, TMHM_LEARNSET_2)(__VA_ARGS__)
+
+// Obtener la cantidad de argumentos y seleccionar la macro correspondiente
+#define GET_TMHM_LEARNSET(_1, _2, _3, NAME, ...) NAME
+
+// Implementación cuando se pasan 3 argumentos
+#define TMHM_LEARNSET_3(moves, moves2, moves3) {(u32)(moves), ((u64)(moves) >> 32), (u32)(moves2), ((u64)(moves2) >> 32), (u32)(moves3), ((u64)(moves3) >> 32)}
+
+// Implementación cuando se pasan solo 2 argumentos, se rellena moves3 con 0
+#define TMHM_LEARNSET_2(moves, moves2) TMHM_LEARNSET_3(moves, moves2, 0)
+
 #define TMHM(tmhm) ((u64)1 << (ITEM_##tmhm - ITEM_TM01_FOCUS_PUNCH))
 #define TMHM1(tmhm) ((u64)1 << (ITEM_##tmhm - ITEM_TM65_LOW_SWEEP))
 #define TMHM2(tmhm) ((u64)1 << (ITEM_##tmhm - ITEM_TM120_HEAVY_SLAM))
@@ -38,7 +49,10 @@ TMHM1(TM66_ECHOED_VOICE)
 | TMHM1(TM89_SWAGGER)
 | TMHM1(TM92_SUBSTITUTE)
 | TMHM1(TM117_GRASSY_TERRAIN)
-,TMHM2(HM01_CUT)
+| TMHM1(TM118_PSYCHIC_TERRAIN)
+| TMHM1(TM119_MISTY_TERRAIN)
+,TMHM2(TM120_HEAVY_SLAM)
+| TMHM2(HM01_CUT)
 | TMHM2(HM04_STRENGTH)
 | TMHM2(HM05_FLASH)
 | TMHM2(HM06_ROCK_SMASH)),
@@ -9265,7 +9279,7 @@ TMHM1(TM67_ENERGY_BALL)
 | TMHM1(TM106_POWER_UP_PUNCH)
 | TMHM1(TM108_THUNDER_PUNCH)
 | TMHM1(TM117_GRASSY_TERRAIN)
-,TMHM2(HM01_CUT)
+,TMHM2(TM120_HEAVY_SLAM)
 | TMHM2(HM04_STRENGTH)
 | TMHM2(HM05_FLASH)
 | TMHM2(HM06_ROCK_SMASH)),
@@ -25677,7 +25691,7 @@ TMHM1(TM85_ROCK_SLIDE)
 | TMHM1(TM89_SWAGGER)
 | TMHM1(TM92_SUBSTITUTE)
 | TMHM1(TM99_DRAGON_PULSE)
-| TMHM1(TM104_INFESTATION)),
+| TMHM1(TM104_INFESTATION), 0),
 
 [SPECIES_GOODRA]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
 | TMHM(TM03_WATER_PULSE)
