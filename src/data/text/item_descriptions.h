@@ -3457,6 +3457,546 @@ static const u8 sTM120Desc[] = _( // Todo
 	"el usuario pesa más\n"
     "que el enemigo.");	
 
+static const u8 sTM121Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM122Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM123Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM124Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM125Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM126Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM127Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM128Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM129Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM130Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM131Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM132Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM133Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM134Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM135Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM136Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM137Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM138Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM139Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM140Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM141Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM142Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM143Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM144Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM145Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM146Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM147Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM148Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM149Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM150Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM151Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM152Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM153Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM154Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM155Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM156Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM157Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM158Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM159Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM160Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM161Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM162Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM163Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM164Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM165Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM166Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM167Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM168Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM169Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM170Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM171Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM172Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM173Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM174Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM175Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM176Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM177Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM178Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM179Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM180Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM181Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM182Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM183Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM184Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM185Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM186Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM187Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM188Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM189Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM190Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM191Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM192Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM193Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM194Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM195Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM196Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM197Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM198Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM199Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM200Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM201Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM202Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM203Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM204Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM205Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM206Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM207Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM208Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM209Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM210Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM211Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM212Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM213Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM214Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM215Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM216Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM217Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM218Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM219Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM220Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM221Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM222Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM223Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM224Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM225Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM226Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM227Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM228Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM229Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM230Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM231Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM232Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM233Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM234Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM235Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM236Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM237Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM238Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM239Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM240Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM241Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM242Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM243Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM244Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM245Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM246Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM247Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM248Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM249Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM250Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM251Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM252Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM253Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM254Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM255Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM256Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM257Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM258Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM259Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM260Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM261Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM262Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM263Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM264Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM265Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM266Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM267Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM268Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM269Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM270Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM271Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM272Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM273Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM274Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM275Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM276Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM277Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM278Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM279Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM280Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM281Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM282Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM283Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM284Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM285Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM286Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM287Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM288Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM289Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM290Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM291Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM292Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM293Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM294Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM295Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM296Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM297Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM298Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM299Desc[] = _( // Todo
+    "placeholder");
+
+static const u8 sTM300Desc[] = _( // Todo
+    "placeholder");
+
 static const u8 sHM01Desc[] = _(
    	"Corta con finas\n"
    	"cuchillas, afiladas\n"
