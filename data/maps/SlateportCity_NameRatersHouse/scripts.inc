@@ -203,7 +203,6 @@ special RemoveCameraObject
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_16 MSGBOX_AUTOCLOSE
 delay 10
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-additem ITEM_RAINBOW_PASS
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_17 MSGBOX_DEFAULT
 waitfanfare
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_18 MSGBOX_AUTOCLOSE

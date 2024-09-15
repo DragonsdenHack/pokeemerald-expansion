@@ -78,7 +78,6 @@ applymovement 1, SilphS2_3_Presidente_Move_13
 waitmovement 0x0
 delay 10
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-additem ITEM_RAINBOW_PASS
 msgbox SilphS2_3_Presidente_Texto_19 MSGBOX_DEFAULT
 waitfanfare
 msgbox SilphS2_3_Presidente_Texto_20 MSGBOX_AUTOCLOSE
