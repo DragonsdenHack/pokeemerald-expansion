@@ -314,7 +314,7 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda_Texto_1:
-	.string "That meeting with Mr. Fuji is crucial for\n"
+	.string "That meeting with MR. FUJI is crucial for\n"
 	.string "our goals, {PLAYER}. Once you arrive\l"
 	.string "to the POKÉMON TOWER, Blue will secure\l"
 	.string "the lower floors. You will stand guard\l"
@@ -1164,13 +1164,13 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11:
 	.string "However, this is merely the cover story,\n"
 	.string "the distraction everyone will focus on\l"
 	.string "given our reputation. The true\l"
-	.string "objective is to lure Mr. Fuji to\l"
+	.string "objective is to lure MR. FUJI to\l"
 	.string "Lavender Tower at exactly the right\l"
 	.string "moment...$"
 
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_12:
-	.string "Fuji was one of the greatest scientists\n"
+	.string "FUJI was one of the greatest scientists\n"
 	.string "ever under our command. He's the only\l"
 	.string "one who knows the crucial details of\l"
 	.string "one of our greatest projects,\l"

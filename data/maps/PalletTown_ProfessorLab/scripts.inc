@@ -145,59 +145,58 @@ release
 end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
-.string "????: Hmm, isn't here OAK?\n"
-	.string "Maybe he is at the ZONE 0.$"
+.string "????: Hm, OAK's not here?\n"
+	.string "He could be at ZONE 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-	.string "????: Wanna something, kid? I am\n"
-	.string "OAK's granddaughter, and BLUE's\l"
-	.string "older sister…$"
+	.string "????: Do you need something, sir? I'm\n"
+	.string "OAK's granddaughter and BLUE's big\l"
+	.string "sister...$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
-	.string "So you know my brother! He is a good\n"
-	.string "boy, although sometimes is a bit\l"
-	.string "arrogant and competitive, goes directly\l"
-	.string "and says what he has to say to your\l"
-	.string "face; I just hope he isn't influenced\l"
-	.string "by…$"
+	.string "So you know my brother! He's a good boy,\n"
+	.string "though he's got a bit of an ego and a\l"
+	.string "competitive streak. If he's got\l"
+	.string "something to say, he'll say it to your\l"
+	.string "face. I just hope he's not influenced\l"
+	.string "by...$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DAISY: The last OAK's POKÉMON!\n"
-	.string "It was you, ROCKET!$"
+.string "DAISY: GRANDPA's last POKÉMON!\n"
+	.string "I was right to suspect that uniform!$"
 
 PalletTown_ProfessorLab_Lab_Texto_6:
-	.string "What? You don't want to get in any\n"
-	.string "trouble, that you just wanted to come\l"
-	.string "to visit OAK?$"
+	.string "What?\n"
+	.string "You didn't want any trouble? You just\l"
+	.string "wanted to pay GRANDPA a visit?$"
 
 PalletTown_ProfessorLab_Lab_Texto_7:
-	.string "DAISY: Nothing excuses you from\n"
-	.string "stealing someone else's Pokémon,\l"
-	.string "ROCKET! I'm going to make you pay for\l"
-	.string "it, right now!$"
+	.string "DAISY: Nothing'll excuse stealing\n"
+	.string "someone else's POKÉMON, ROCKET! I'll make\l"
+	.string "you pay for that right now!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:
 	.string "Oh! And in our own house!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9:
-	.string "DAISY: I can't believe this, so this is\n"
-	.string "the kind of friends that my lil brother\l"
-	.string "is making, he's always been a rebel,\l"
-	.string "wanting to do everything his own way,\l"
-	.string "we suggested he to make friends as\l"
-	.string "BILL, the president of SILPH, LANCE,\l"
-	.string "and other ELITE members, you will see\l"
-	.string "how OAK will be furious when he hears\l"
+	.string "DAISY: I can't believe this. This is the\n"
+	.string "kind of friend my little brother's been\l"
+	.string "making. He's always been a rebel. Always\l"
+	.string "doing everything his own way. We wanted\l"
+	.string "him to get in good with BILL, the SILPH\l"
+	.string "president, and LANCE and the other\l"
+	.string "ELITE FOUR members. Oh, you'll see just\l"
+	.string "how livid GRANDPA'll be when he hears\l"
 	.string "about this.$"
 
 PalletTown_ProfessorLab_Lab_Texto_10:
-	.string "DAISY: Enjoy that poor BULBASAUR at\n"
-	.string "level 15, ROCKET. If you didn't know this,\l"
-	.string "OAK has tens of them at his personal\l"
-	.string "collection.$"
+	.string "DAISY: You'd better enjoy that\n"
+	.string "level-five BULBASAUR, ROCKET. Just so\l"
+	.string "you know, GRANDPA's still got tens of\l"
+	.string "them in his personal collection.$"
 
 PalletTown_ProfessorLab_Lab_Move_1:
 walk_in_place_down
@@ -286,10 +285,10 @@ release
 end
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1:
-	.string "Apparently this POKÉ BALL contains the\n"
-	.string "uncommon and powerful BULBASAUR, it\l"
-	.string "doesn't seem like it will be used, do you\l"
-	.string "wanna steal it?$"
+	.string "This POKÉ BALL apparently contains the\n"
+	.string "uncommon and powerful BULBASAUR. It\l"
+	.string "seems like it'll just collect dust. Do you\l"
+	.string "want to steal it?$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2:
 	.string "This POKÉMON is really quite energetic!$"
@@ -298,12 +297,12 @@ PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_3:
 .string "{PLAYER} stole the BULBASAUR!$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4:
-	.string "PROTON: {PLAYER}! How is your mission\n"
-	.string "going at PALLET TOWN, did you discover\l"
+	.string "PROTON: {PLAYER}! How's the mission at\n"
+	.string "PALLET TOWN? Did you discover\l"
 	.string "something? GIOVANNI requires your\l"
-	.string "presence right now, and will be waiting\l"
-	.string "for you at his private office inside the\l"
-	.string "DEEP BASE ROCKET.$"
+	.string "immediate presence. He'll be waiting in\l"
+	.string "his private office in the ROCKET DEEP\l"
+	.string "BASE.$"
 
 
 PalletTown_ProfessorLab_Genesect::
@@ -334,5 +333,5 @@ end
 PalletTown_ProfessorLab_Genesect_Texto_1:
 	.string "This POKÉBALL contains a GENESECT, an\n"
 	.string "unusual experiment from a distant\l"
-	.string "region. No one needs it anymore, do you\l"
+	.string "region. No one needs it anymore. Do you\l"
 	.string "want to take the POKÉMON?$"

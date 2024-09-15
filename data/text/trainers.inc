@@ -5214,7 +5214,7 @@ MtMoon1F_Text_Cazabichos2PostBattle:
 
 
 Route24_Text_CazabichosIntro:
-	.string "ROCKETs are not entitled to the PEPITA\n"
+	.string "ROCKETs are not entitled to the NUGGET\n"
 	.string "BRIDGE challenge. Turn around!$"
 
 
