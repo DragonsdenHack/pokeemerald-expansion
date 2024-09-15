@@ -107,28 +107,145 @@ SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 	.string "Espera, espera…\n"
 	.string "¡Esto es solo un HUEVO!$"
 
+NameRatersHouse_Trampilla_Move_1:
+walk_up
+walk_up
+step_end
+
+NameRatersHouse_Trampilla_Move_2:
+emote_exclamation_mark
+step_end
+
+NameRatersHouse_Trampilla_Move_3:
+delay_16
+delay_16
+face_right
+step_end
+
+NameRatersHouse_Trampilla_Move_4:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+face_left
+step_end
+
+NameRatersHouse_Trampilla_Move_5:
+walk_in_place_left
+step_end
+
+NameRatersHouse_Trampilla_Move_6:
+walk_in_place_right
+step_end
+
 SlateportCity_NameRatersHouse_Trampilla::
 lock
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, NameRatersHouse_Trampilla_Move_1
+waitmovement 0x0
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_3
+waitmovement 0x0
+delay 10
+applymovement 1, NameRatersHouse_Trampilla_Move_5
+waitmovement 0x0
+delay 35
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_4 MSGBOX_AUTOCLOSE
+delay 35
+playse SE_PIN
+applymovement 1, NameRatersHouse_Trampilla_Move_2
+waitmovement 0x0
+delay 10
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_6
+waitmovement 0x0
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_6 MSGBOX_AUTOCLOSE
+delay 25
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_7 MSGBOX_AUTOCLOSE
+delay 25
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, NameRatersHouse_Trampilla_Move_2
+waitmovement 0x0
+delay 10
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_6
+waitmovement 0x0
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, NameRatersHouse_Trampilla_Move_7
+applymovement OBJ_EVENT_ID_CAMERA, NameRatersHouse_Trampilla_Move_8
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_6
+waitmovement 0x0
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_15 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NameRatersHouse_Trampilla_Move_10
+applymovement 1, NameRatersHouse_Trampilla_Move_9
+waitmovement 0x0
+special RemoveCameraObject
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_16 MSGBOX_AUTOCLOSE
-msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_RAINBOW_PASS
+msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_17 MSGBOX_DEFAULT
+waitfanfare
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, NameRatersHouse_Trampilla_Move_11
+waitmovement 0x0
 release
 end
+
+NameRatersHouse_Trampilla_Move_11:
+walk_left
+walk_left
+walk_left
+walk_down
+face_right
+step_end
+
+NameRatersHouse_Trampilla_Move_10:
+walk_left
+walk_left
+walk_down
+walk_down
+step_end
+
+NameRatersHouse_Trampilla_Move_9:
+walk_up
+walk_right
+walk_right
+walk_right
+face_down
+step_end
+
+NameRatersHouse_Trampilla_Move_8:
+walk_slow_right
+walk_slow_up
+walk_slow_up
+walk_slow_right
+step_end
+
+NameRatersHouse_Trampilla_Move_7:
+delay_16
+face_up
+step_end
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_1:
 	.string "¡Je, je! ¡Hola!\n"
