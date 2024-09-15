@@ -18,8 +18,8 @@ release
 end
 
 RocketHideout1F_Text_1:
-.string "What about you?\n"
-.string "How did you ended up recruited?\l"
+.string "And you?\n"
+.string "What made you want to join our ranks?\l"
 .string "…\l"
 .string "…\l"
 .string "I see…$"
@@ -34,10 +34,10 @@ release
 end
 
 RocketHideout1F_Text_2:
-.string "You shouldn't worry. No one will find our\n"
-	.string "BASE. Those people outside are as blind\l"
-	.string "as hey wouldn't see even a ZAPDOS using\l"
-	.string "it's THUNDER right in front of them.$"
+	.string "Don't worry about this base being\n"
+	.string "discovered. The people out there are so\l"
+	.string "blind, they wouldn't notice a Zapdos\l"
+	.string "using Thunder right in front of them.$"
 
 
 
@@ -49,12 +49,11 @@ release
 end
 
 RocketHideout1F_Text_3:
-.string "That CASINO up there is our main income\n"
-	.string "source. The best part about it is that\l"
-	.string "everything is based on the awful\l"
-	.string "criteria of people, who yet play games\l"
-	.string "that they know that statistically won't\l"
-	.string "benefit them.$"
+	.string "The casino upstairs is our main cash\n"
+	.string "flow. The best part? We count on\l"
+	.string "people's poor judgment to play a game\l"
+	.string "they know they're statistically doomed\l"
+	.string "to lose.$"
 
 
 
@@ -84,9 +83,9 @@ release
 end
 
 RocketHideout1F_Text_6:
-.string "We only show our enemies what we want\n"
-	.string "them to see. Make sure you learn it,\l"
-	.string "you'll need it to succeed.$"
+	.string "Only show your enemy what you want\n"
+	.string "them to see. Burn that into your memory,\l"
+	.string "young Rocket-that's the key to success.$"
 
 
 
@@ -98,8 +97,8 @@ release
 end
 
 RocketHideout1F_Text_7:
-.string "So, CHRONO ISLAND huh. Are there rare\n"
-	.string "POKÉMON over there or what?$"
+	.string "So, CHRONO ISLAND, huh. Are there rare\n"
+	.string "POKÉMON there or what?$"
 
 RocketHideout1F_Barrera::
 compare VAR_UNUSED_0x40F7, 38
@@ -122,9 +121,9 @@ end
 
 
 RocketHideout1F_Barrera_Texto_1:
-.string "I think our leader is waiting for you, or\n"
-	.string "maybe you'd like to ignore orders on\l"
-	.string "your first day over here?$"
+	.string "I heard the boss wants to see you.\n"
+	.string "You're not planning to start off by\l"
+	.string "ignoring a direct order, are you?$"
 
 RocketHideout1F_Barrera_Move_1:
 face_up

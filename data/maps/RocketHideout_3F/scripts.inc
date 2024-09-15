@@ -9,11 +9,9 @@ release
 end
 
 RocketHideout3F_Text_1:
-.string "In CELADON we're being accused of\n"
-	.string "contaminating the city, if they know\l"
-	.string "how right they were! If they knew what\l"
-	.string "we have here, under the ground they\l"
-	.string "walk on every day!$"
+	.string "In Celadon, they say we're polluting the\n"
+	.string "city. They're not wrong, ha! If they only\l"
+	.string "knew what was right under their feet!$"
 
 
 
@@ -25,11 +23,11 @@ release
 end
 
 RocketHideout3F_Text_2:
-.string "Our job here is simple: to create the\n"
-	.string "highest production capacity, optimize\l"
-	.string "and automate as much as we can in every\l"
-	.string "process, what you did at BILL's helped a\l"
-	.string "lot, obviously.$"
+	.string "Our job here is simple: increase\n"
+	.string "production, optimize, and automate as\l"
+	.string "much as possible. What you did at Bill's\l"
+	.string "has helped significantly, there's no\l"
+	.string "doubt about that.$"
 
 
 
@@ -41,17 +39,15 @@ release
 end
 
 RocketHideout3F_Text_3:
-.string "-You'll never be a true ROCKET until you\n"
-	.string "leave apart your feelings and turn\l"
-	.string "yourself into a cold and bloodlusted\l"
-	.string "machine whose only objective is to\l"
-	.string "steal from trainers and ruin them.-\l"
-	.string "That was the usual vision of the normal\l"
-	.string "ROCKET, nothing further from reality,\l"
-	.string "and simple propaganda pushed by today's\l"
-	.string "government. With every stealing we're\l"
-	.string "doing, we're just recovering what was\l"
-	.string "taken of us before.$"
+	.string "-You'll never be a real Rocket until you\n"
+	.string "set your emotions aside and become a\l"
+	.string "cold, ruthless machine.- That was the\l"
+	.string "old view of the average Rocket Grunt.\l"
+	.string "Nothing could be further from the\l"
+	.string "truth. That's just propaganda pushed by\l"
+	.string "the current government. Every time we\l"
+	.string "steal, we're just taking back what was\l"
+	.string "taken from us in the first place.$"
 
 
 
@@ -76,9 +72,9 @@ release
 end
 
 RocketHideout_3F_Maquina_Teletransporte_YesNo:
-.string "The machine is ready to be used. Do you\n"
-	.string "want to be teleported to the BASE of\l"
-	.string "ROUTE 5?$"
+.string "The machine is ready.\n"
+	.string "Want to teleport to\l"
+	.string "the base on Route 5?$"
 
 RocketHideout_3F_Maquina_Teletransporte_No::
 release
@@ -113,32 +109,31 @@ release
 end
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_1:
-.string "Wow! You must be {PLAYER}! You need\n"
-	.string "your guts to mess up with someone as\l"
-	.string "protected as BILL and emerge\l"
-	.string "victorious!$"
+	.string "Wow! You must be {PLAYER}. It takes guts to mess\n"
+	.string "with someone as well-protected as Bill\l"
+	.string "and come out on top!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_2:
-.string "Our LEADER GIOVANNI is waiting for you\n"
-	.string "in his office, on FLOOR -4, on a lower\l"
-	.string "floor. Don't keep him waiting!$"
+	.string "The big boss, Giovanni, is in his office\n"
+	.string "on the -4th floor, one level down from\l"
+	.string "here. He wanted to see you the second\l"
+	.string "you arrived. Don't keep him waiting!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
-.string "Also, you can't go to his office by\n"
-	.string "stairs, for extra protection, the only\l"
-	.string "way in and out is by elevator. You can\l"
-	.string "find it on the upper floor. Take these\l"
-	.string "keys, you need them to access the\l"
-	.string "elevator.$"
+	.string "One more thing: to reach his office, you\n"
+	.string "can't use the regular stairs. For\l"
+	.string "security, the only way in is through the\l"
+	.string "elevator on the floor above. You'll need\l"
+	.string "this key to get it working.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1:
-.string "You obtained the LIFT KEY from the\n"
-	.string "ROCKET SCIENTIST!$"
+.string "Obtained the ELEVATOR KEY\n"
+	.string "from the ROCKET SCIENTIST!$"
 
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
-.string "That's all {PLAYER}, GIOVANNI is\n"
-	.string "awaiting you.$"
+	.string "Go, {PLAYER}. Giovanni is\n"
+	.string "waiting for you.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Move_1:
 emote_exclamation_mark

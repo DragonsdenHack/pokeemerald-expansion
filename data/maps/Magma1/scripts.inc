@@ -68,7 +68,7 @@ Magma1_Combate_Admin_Texto_3:
 Magma1_Combate_Admin_Texto_4:
 	.string "ROCKET, I believe you still haven't\n"
 	.string "understood. In your region, there are\l"
-	.string "no Pokémon of the caliber of GROUDON;\l"
+	.string "no POKÉMON of the caliber of GROUDON;\l"
 	.string "those LEGENDARY BIRDS don't even\l"
 	.string "compare in hierarchy and raw power. It's\l"
 	.string "a force of nature in its purest state\l"

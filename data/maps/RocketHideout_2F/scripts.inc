@@ -9,8 +9,8 @@ release
 end
 
 RocketHideout2F_Text_1:
-.string "If you serve justice,\n"
-.string "you'll be betraying TEAM ROCKET!!$"
+.string "If you side with the law,\n"
+.string "you're betraying TEAM ROCKET!$"
 
 
 
@@ -22,12 +22,11 @@ release
 end
 
 RocketHideout2F_Text_2:
-.string "The main rule in this business of ours\n"
-	.string "called CASINO is: never consume\l"
-	.string "anything you sell, our scientists\l"
-	.string "designed the slots so the odds are with\l"
-	.string "us. Never forget this: the house always\l"
-	.string "wins!$"
+	.string "Rule number one in the casino: never\n"
+	.string "touch what you're selling. Our\l"
+	.string "scientists rigged the slot machines so\l"
+	.string "the odds are always in our favor. The\l"
+	.string "house always wins-don't forget it!$"
 
 
 
@@ -63,9 +62,8 @@ end
 
 
 RocketHideout2F_Barrera_Texto_1:
-.string "(GIOVANNI himself wants to see me, I\n"
-	.string "can't leave without even knowing what\l"
-	.string "to do).$"
+	.string "(Giovanni himself wants\n"
+	.string "to see me first.)$"
 
 RocketHideout2F_Barrera_Move_1:
 walk_in_place_right

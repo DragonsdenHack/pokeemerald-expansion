@@ -664,7 +664,7 @@ CinnabarMansionS2_Oak_Texto_5:
 
 CinnabarMansionS2_Oak_Texto_6:
 	.string "On the flip side, we have the future:\n"
-	.string "Pokémon created to order, which will\l"
+	.string "POKÉMON created to order, which will\l"
 	.string "highlight the imperfections of the\l"
 	.string "rest, even showing that the LEGENDARIES\l"
 	.string "themselves are simply POKÉMON with\l"
@@ -730,7 +730,7 @@ CinnabarMansionS2_Oak_Texto_10:
 
 CinnabarMansionS2_Oak_Texto_11:
 	.string "I want you to be the first to see the\n"
-	.string "new breed of Pokémon, ones that can\l"
+	.string "new breed of POKÉMON, ones that can\l"
 	.string "push that limiting factor to\l"
 	.string "unimaginable levels.$"
 

@@ -151,7 +151,7 @@ LavenderRadioP6Documento_Text_102:
 	.string "compared to PORYGON-Z, this will be its\l"
 	.string "best offensive option, thanks to the\l"
 	.string "miracle of injecting POWER into a\l"
-	.string "Pokémon of these characteristics\l"
+	.string "POKÉMON of these characteristics\l"
 	.string "without causing its entire being to\l"
 	.string "collapse completely. It manages to\l"
 	.string "further improve the extraordinary\l"
@@ -524,7 +524,7 @@ LavenderRadioP6_Combate_Bill_Texto_5:
 
 LavenderRadioP6_Combate_Bill_Texto_6:
 	.string "BILL: What kind of power do you have?\n"
-	.string "Why do my Pokémon crush yours in tests\l"
+	.string "Why do my POKÉMON crush yours in tests\l"
 	.string "and reports, but then in practice it\l"
 	.string "doesn't happen like that?$"
 

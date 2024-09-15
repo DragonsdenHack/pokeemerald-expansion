@@ -9,11 +9,10 @@ release
 end
 
 Route11_Text_1:
-.string "The way that leads to ROUTE 11 and\n"
-	.string "DIGLETT'S CAVE is blocked due to repair\l"
-	.string "works. Turn back, ROCKET, turn back\l"
-	.string "before we find the perfect excuse for\l"
-	.string "detaining you.$"
+	.string "Route 11 and Diglett Cave are closed\n"
+	.string "for repairs. Get out of here, Rocket,\l"
+	.string "before you give us the perfect excuse\l"
+	.string "to arrest you.$"
 
 
 
@@ -180,10 +179,11 @@ end
 
 
 Route11_Policias_Text:
-.string "You take us for fools? You really think\n"
-	.string "that using SURF will make you invisible?\l"
-	.string "Turn back now if you don't want me to\l"
-	.string "call up LANCE himself!$"
+	.string "Do you think we're idiots? Did you really\n"
+	.string "think we wouldn't catch you trying to\l"
+	.string "sneak by using SURF? Turn around\l"
+	.string "unless you want me to call Lance\l"
+	.string "himself!$"
 
 Route11_Policias_move1:
 face_down
@@ -210,5 +210,5 @@ release
 end
 
 Route11_Frontera_Tunel_Texto_1:
-.string "(No missions over here, better not to\n"
-	.string "lose any time)$"
+	.string "(No missions this way. I'd better\n"
+	.string "not waste time.)$"

@@ -826,7 +826,7 @@ Culto_S3_Batalla_Texto_15:
 
 Culto_S3_Batalla_Texto_16:
 	.string "I will not employ my most advanced arts,\n"
-	.string "nor my Pokémon that have come closest\l"
+	.string "nor my POKÉMON that have come closest\l"
 	.string "to supreme knowledge: It won't take me\l"
 	.string "more than 50% of my power to determine\l"
 	.string "if you have what it takes.$"
@@ -844,7 +844,7 @@ Culto_S3_Batalla_Texto_19:
 	.string "the surrounding circumstances. Without\l"
 	.string "a doubt, you are a special case. I don't\l"
 	.string "believe more than 2 or 3 individuals\l"
-	.string "from outside Kanto, including you, could\l"
+	.string "from outside KANTO, including you, could\l"
 	.string "emerge successfully against the team\l"
 	.string "I've just displayed. You have earned\l"
 	.string "the right to return to the outside, with\l"
@@ -873,7 +873,7 @@ Culto_S3_Batalla_Texto_22:
 	.string "together. These two POKÉMON cannot be\l"
 	.string "found in KANTO, but their origins,\l"
 	.string "history, and tradition are closely\l"
-	.string "connected to Kanto and the ESSENCE\l"
+	.string "connected to KANTO and the ESSENCE\l"
 	.string "POKÉMON.$"
 
 Culto_S3_Batalla_Texto_23:

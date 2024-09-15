@@ -26,7 +26,7 @@ end
 RocketHideout7F_Text_2:
 	.string "In this region, there is a cult that\n"
 	.string "believes in the non-existence of a\l"
-	.string "Pokémon with 680 BASE STATS. They\l"
+	.string "POKÉMON with 680 BASE STATS. They\l"
 	.string "attribute this to the undiscovered\l"
 	.string "latent power of MEW, which they worship.\l"
 	.string "According to them, this power, if gets\l"
@@ -59,7 +59,7 @@ end
 RocketHideout7F_Text_4:
 	.string "The rest of regions sees KANTO like a\n"
 	.string "technological potence according to\l"
-	.string "artificial Pokémon development:\l"
+	.string "artificial POKÉMON development:\l"
 	.string "PORYGON, MEWTWO, DITTO or even\l"
 	.string "PORYGON2 have been developed at our\l"
 	.string "region, usually they give the credit to\l"
@@ -123,7 +123,7 @@ RocketHideout7F_Text_8:
 	.string "highest legendaries number are, It's\l"
 	.string "the one we know the least about due how\l"
 	.string "far is and a poor connection, but many\l"
-	.string "of the Pokémon that are there are\l"
+	.string "of the POKÉMON that are there are\l"
 	.string "really interesting, seems like -150- is\l"
 	.string "the ensign of the region legendaries, it\l"
 	.string "repeats in the GROUDON attack, the\l"
@@ -262,7 +262,7 @@ end
 
 RocketHideout7F_Text_15:
 	.string "We didn't believe that in nature there\n"
-	.string "could exist a Pokémon that matched\l"
+	.string "could exist a POKÉMON that matched\l"
 	.string "MEWTWO in sheer power, but it turns out\l"
 	.string "that JOHTO has two with those\l"
 	.string "characteristics. We've tried multiple\l"
@@ -385,7 +385,7 @@ end
 RocketHideout7F_Text_22:
 	.string "You don't stop, sir! At this rate, you'll\n"
 	.string "travel through all the regions of the\l"
-	.string "Pokémon world!$"
+	.string "POKÉMON world!$"
 
 
 
@@ -868,7 +868,7 @@ RocketHideout7FDocumento_Text_115:
 	.string "A legend of the vast seas of HOENN. Due\n"
 	.string "to its power, there is controversy\l"
 	.string "about whether to classify it as a\l"
-	.string "common Pokémon or a species of minor\l"
+	.string "common POKÉMON or a species of minor\l"
 	.string "legendary. Its origins as FEEBAS shows\l"
 	.string "that it is indeed non-legendary,\l"
 	.string "therefore being the most powerful ever\l"
@@ -983,7 +983,7 @@ RocketHideout7FDocumento_Text_119:
 	.string "TOTAL: 600\p"
 	.string "The offensive version of DRAGONITE in\n"
 	.string "HOENN. It is feared by the greatest\l"
-	.string "part of Pokémon in that region due to\l"
+	.string "part of POKÉMON in that region due to\l"
 	.string "its powerful Outrages combined with\l"
 	.string "Flamethrowers, backed by a base Special\l"
 	.string "Attack of 110 and a Speed of 100, give\l"

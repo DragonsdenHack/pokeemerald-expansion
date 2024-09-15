@@ -44,14 +44,16 @@ release
 end
 
 SsAnne4F_Text_4:
-.string "Let's drink to everything we have lived\n"
-	.string "for these long 70 years, and for all we\l"
-	.string "still have left. Who would say that\l"
-	.string "after all we have been through, we would\l"
-	.string "be here sitting in 1996, with every\l"
-	.string "luxury and convenience at our reach,\l"
-	.string "and most importantly, being able to\l"
-	.string "keep acting and dreaming.$"
+	.string "A toast! To everything we've\n"
+	.string "experienced over these long 70 years,\l"
+	.string "and to everything that still lies ahead.\l"
+	.string "Who would have thought that after\l"
+	.string "everything we've been through, we'd be\l"
+	.string "sitting here in 1996, with all this\l"
+	.string "luxury and all these opportunities at\l"
+	.string "our fingertips? And most importantly -\l"
+	.string "the ability to keep on living and\l"
+	.string "dreaming!$"
 
 SsAnne4F_5::
 lock          
@@ -60,10 +62,10 @@ release
 end
 
 SsAnne4F_Text_5:
-.string "Experiences are priceless, dear, there\n"
-	.string "is not enough money in the world that\l"
-	.string "could buy this moment, so let's take\l"
-	.string "advantage of it.$"
+	.string "Experiences are priceless, my dear.\n"
+	.string "There isn't any amount of money in the\l"
+	.string "world that could buy the value of this\l"
+	.string "moment, so let's make the most of it.$"
 
 
 
@@ -74,8 +76,8 @@ release
 end
 
 SsAnne4F_Text_6:
-.string "Oh… Are you sure that we can afford\n"
-	.string "this meal?$"
+.string "Oh… Are you sure we\n"
+	.string "can afford this meal?$"
 
 
 
@@ -86,9 +88,9 @@ release
 end
 
 SsAnne4F_Text_7:
-.string "So you like to bet hard mister FUJITA, I\n"
-	.string "will make you an offer that you will not\l"
-	.string "reject…$"
+	.string "So, you like to make bold bets, Mr.\n"
+	.string "FUJITA. I'll make you an offer you can't\l"
+	.string "refuse…$"
 
 
 
@@ -99,11 +101,11 @@ release
 end
 
 SsAnne4F_Text_8:
-.string "Let's be clear, mister NOMURA, I can buy\n"
-	.string "20% of your actions or I can buy all of\l"
-	.string "them, or I can enter by myself to this\l"
-	.string "business and bury you, it is your\l"
-	.string "choice.$"
+	.string "Let us be perfectly clear, Mr. NOMURA. I\n"
+	.string "can buy 20% of your shares or I can buy\l"
+	.string "all of them. Or I can enter this\l"
+	.string "business myself and bury you. The\l"
+	.string "choice is yours.$"
 
 
 
@@ -116,7 +118,7 @@ release
 end
 
 SsAnne4F_Text_9:
-.string "Is all right, sir?$"
+.string "Is everything all right, sir?$"
 
 
 
@@ -127,10 +129,10 @@ release
 end
 
 SsAnne4F_Text_10:
-.string "The best part about these kinds of\n"
-	.string "parties is the food. I recommend you\l"
-	.string "try salting SHARPEDO; it is exquisite,\l"
-	.string "and you won't find it anywhere in KANTO.$"
+	.string "The best thing about this kind of party\n"
+	.string "is the food. I highly recommend the\l"
+	.string "salted SHARPEDO - it's exquisite, and\l"
+	.string "you won't find it anywhere else in KANTO!$"
 
 
 
@@ -141,9 +143,9 @@ release
 end
 
 SsAnne4F_Text_11:
-.string "Hurry up or the best plates will\n"
-	.string "disappear! You have to be quick off the\l"
-	.string "mark!$"
+.string "Hurry up, or the best\n"
+	.string "dishes will be gone!\l"
+	.string "You snooze, you lose!$"
 
 
 
@@ -159,8 +161,8 @@ release
 end
 
 SsAnne4F_Text_13:
-.string "From my point of view, TAUROS tail is the\n"
-	.string "best plate here.$"
+	.string "In my opinion, the TAUROS tail stew is\n"
+	.string "the best dish there is.$"
 
 
 
@@ -171,13 +173,14 @@ release
 end
 
 SsAnne4F_Text_14:
-.string "Oh, always the same. You already\n"
-	.string "eat that all days at CELADON CITY\l"
-	.string "restaurant, you should try new plates.\l"
-	.string "The grilled HUNTAIL that I order is\l"
-	.string "delicious for example. They say HOENN\l"
-	.string "seas have the most diverse species and\l"
-	.string "unparalleled flora and fauna.$"
+	.string "Oh, you're always the same. You eat that\n"
+	.string "same meal every day at the restaurant\l"
+	.string "in CELADON. You should take this\l"
+	.string "opportunity to try something new! The\l"
+	.string "grilled HUNTAIL I ordered is delicious,\l"
+	.string "for example. They say the seas of HOENN\l"
+	.string "have the most diverse species, and\l"
+	.string "unparalleled flora and fauna!$"
 
 SsAnne_4F_Combate_Azul::
 msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_DEFAULT
@@ -211,47 +214,52 @@ release
 end
 
 SsAnne_4F_Combate_Azul_text_1:
-.string "????: These parties are always so\n"
-	.string "boring. I came here so I could fight\l"
-	.string "against everyone's POKÉMON and I\l"
-	.string "ended up finding the usual: RATATTA,\l"
-	.string "PIDGEY, NIDORAN… Even the sailors have\l"
-	.string "TENTACOOL as best! I feel scammed.$"
+	.string "????: These parties always end up being\n"
+	.string "a drag. I came here to battle Pokémon\l"
+	.string "from all over the world, but all I find\l"
+	.string "are the same old PIDGEY, RATTATA, and\l"
+	.string "NIDORAN. Even the so-called sailors\l"
+	.string "from the SS ANNE only ever bring out\l"
+	.string "TENTACOOL! This is a scam.$"
 
 SsAnne_4F_Combate_Azul_text_2:
-.string "You are the ROCKET that I gave a\n"
-	.string "FOSSIL on MT.MOON. I won't ask you why\l"
-	.string "someone like you is in a place like this,\l"
-	.string "I guess that you entered in an\l"
-	.string "Illegitimate way, but honestly I don't\l"
-	.string "really care.$"
+	.string "So, you're the ROCKET I handed that\n"
+	.string "FOSSIL to on MT. MOON. I won't bother\l"
+	.string "asking how someone like you managed to\l"
+	.string "get into a place like this - I can easily\l"
+	.string "guess you sneaked in somehow.\l"
+	.string "Honestly, I couldn't care less.$"
 
 SsAnne_4F_Combate_Azul_text_3:
-.string "On MT.MOON, I turned a blind eye to the\n"
-	.string "mediocrity of you, ROCKETs, but you\l"
-	.string "dared to give me moral lessons. You know\l"
-	.string "what that means, don't you? It is time\l"
-	.string "to see if you are just one more of the\l"
-	.string "pile or if you have something to say! On\l"
-	.string "guard, ROCKET!$"
+	.string "On MT. MOON, I turned a blind eye to the\n"
+	.string "mediocrity of you ROCKETs, and you had\l"
+	.string "the audacity to lecture me on morality.\l"
+	.string "Do you even realize what that means?\l"
+	.string "Let's see if you're just another\l"
+	.string "worthless grunt or if you actually have\l"
+	.string "something worthwhile to show. Get\l"
+	.string "ready, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
-	.string "Seriously, I just lost against a ROCKET?$"
+	.string "…Did I seriously just lose to a ROCKET?$"
 
 SsAnne_4F_Combate_Azul_text_5:
 .string "{PAUSE 20}…{PAUSE 20}\n"
 	.string "{PAUSE 20}…{PAUSE 20}\l"
-.string "So, you're not a simple ROCKET{PAUSE 20}…{PAUSE 20} a HIGH\l"
-	.string "RANK GRUNT, you say? To me, you all look\l"
-	.string "the same! Anyway, you're the only one\l"
-	.string "who was able to defeat me besides that\l"
-	.string "hick RED. I'll keep an eye on you from\l"
-	.string "now on.$"
+	.string "So, you're not just another ROCKET\l"
+	.string "grunt… High-ranking, are you? Honestly,\l"
+	.string "you all look the same to me! But I'll give\l"
+	.string "you this - you're the only one who's\l"
+	.string "managed to defeat me besides that\l"
+	.string "backwoods bumpkin, RED. I suppose I'll\l"
+	.string "have to keep an eye on you from now on.$"
 
 SsAnne_4F_Combate_Azul_text_6:
-.string "????: Bah. I will take a look around for\n"
-	.string "the cabins if someone else is a worthy\l"
-	.string "opponent, but I doubt that.$"
+	.string "????: Bah. I suppose I'll wander around\n"
+	.string "the cabins and see if anyone else here\l"
+	.string "can manage to give me a remotely\l"
+	.string "interesting battle - though I seriously\l"
+	.string "doubt it.$"
 
 SsAnne_4F_Combate_Azul_move1:
 emote_exclamation_mark

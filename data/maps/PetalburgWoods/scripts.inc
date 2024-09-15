@@ -379,20 +379,20 @@ PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "I can't give you this GREAT BALL.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
-	.string "¡He atrapado un montón de Pokémon!\n"
+	.string "¡He atrapado un montón de POKÉMON!\n"
 	.string "¡Adelante, vosotros podéis! ¡Vivan los\l"
-	.string "Pokémon bicho!$"
+	.string "POKÉMON bicho!$"
 
 PetalburgWoods_Text_ICouldntWin:
-	.string "A pesar de tener todos estos Pokémon,\n"
+	.string "A pesar de tener todos estos POKÉMON,\n"
 	.string "he perdido miserablemente…$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
-	.string "Como he atrapado tantísimos Pokémon,\n"
+	.string "Como he atrapado tantísimos POKÉMON,\n"
 	.string "ya no me queda ni una POKÉ BALL.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
-	.string "Si llevas Pokémon bicho a la escuela, te\n"
+	.string "Si llevas POKÉMON bicho a la escuela, te\n"
 	.string "haces con un club de fans.$"
 
 PetalburgWoods_Text_CantBePopularIfILose:
@@ -400,7 +400,7 @@ PetalburgWoods_Text_CantBePopularIfILose:
 	.string "puedo perder!$"
 
 PetalburgWoods_Text_PeopleRespectYou:
-	.string "Si tienes un Pokémon bicho, la gente\n"
+	.string "Si tienes un POKÉMON bicho, la gente\n"
 	.string "parece que te respeta más.$"
 
 PetalburgWoods_Text_IWantRematch1:

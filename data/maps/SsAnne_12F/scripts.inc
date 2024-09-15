@@ -9,5 +9,5 @@ release
 end
 
 SsAnne12F_Text_1:
-.string "Waiter, Ill have a grilled TAUROS steak,\n"
-	.string "followed by MAGIKARP's sushi.$"
+	.string "Waiter, I'd like a grilled Tauros steak,\n"
+	.string "followed by the Magikarp sushi.$"

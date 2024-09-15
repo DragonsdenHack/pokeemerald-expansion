@@ -14,7 +14,7 @@ release
 end
 
 SsAnne7F_Text_2:
-.string "Going the galician OCTILLERY!$"
+.string "Order up! Galician-style Octillery!$"
 
 
 
@@ -26,8 +26,8 @@ release
 end
 
 SsAnne7F_Text_3:
-.string "Our CAPTAIN loves HOENN POKÉMON,\n"
-	.string "especially water type!$"
+	.string "Our CAPTAIN loves HOENN POKÉMON,\n"
+	.string "especially Water types!$"
 
 
 
@@ -39,8 +39,8 @@ release
 end
 
 SsAnne7F_Text_4:
-.string "Enlist as a sailor, they said… It will be\n"
-	.string "so fun, they said…$"
+.string "'Join as a sailor,' they said…\n"
+	.string "'You'll have grand adventures,' they said…$"
 
 
 
@@ -54,7 +54,7 @@ end
 SsAnne7F_Text_5:
 .string "Sniff…\n"
 .string "Sniff…\l"
-.string "I only get to peel onions…$"
+.string "Look man, I'm just peeling onions…$"
 
 
 
@@ -80,14 +80,15 @@ release
 end
 
 SsAnne7F_Text_7:
-.string "Yo should be in the party, but since you\n"
-	.string "came here, I'll tell you a secret: the\l"
-	.string "true party is over here, without our\l"
-	.string "work that outside celebration wouldn't\l"
-	.string "be possible, it feels better the fact\l"
-	.string "that it's enjoyable the process that\l"
-	.string "allows something to be ended than the\l"
-	.string "end itself.$"
+	.string "You should be at the party, but since\n"
+	.string "you're here, I'll let you in on a secret:\l"
+	.string "the real party is happening right here.\l"
+	.string "Without our work, that celebration out\l"
+	.string "there wouldn't even be possible.\l"
+	.string "Honestly, I find it way more satisfying\l"
+	.string "to enjoy the process that makes things\l"
+	.string "happen rather than just reaching the\l"
+	.string "end goal.$"
 
 
 
@@ -99,5 +100,5 @@ release
 end
 
 SsAnne7F_Text_8:
-.string "We're really busy! We gotta serve\n"
-	.string "everyone around here in a record time!$"
+	.string "We're swamped! We've got to serve all the\n"
+	.string "party guests in record time!$"

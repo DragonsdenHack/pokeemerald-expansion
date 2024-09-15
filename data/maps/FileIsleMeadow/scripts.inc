@@ -296,7 +296,7 @@ FileIsleMeadow_Recluta_Balls_AltoRango_texto_9:
 	.string "suitable BALL for someone of your\l"
 	.string "expertise, but it will save you from\l"
 	.string "having to waste ULTRA BALLs or MASTER\l"
-	.string "BALLs on Pokémon that aren't worthy!$"
+	.string "BALLs on POKÉMON that aren't worthy!$"
 
 FileIsleMeadow_Recluta_Balls_Debil::
 msgbox FileIsleMeadow_Recluta_Balls_Debil_Texto_1 MSGBOX_AUTOCLOSE

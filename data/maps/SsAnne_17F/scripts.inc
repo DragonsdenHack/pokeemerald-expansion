@@ -9,8 +9,8 @@ release
 end
 
 SsAnne_17F_Text_1:
-.string "The party is about to start. It's a\n"
-	.string "unique event!$"
+.string "The party must be about to start.\n"
+	.string "It's a one-of-a-kind event!$"
 
 
 
@@ -22,5 +22,5 @@ release
 end
 
 SsAnne_17F_Text_2:
-.string "SS.ANNE is also known for its held\n"
-	.string "parties.$"
+	.string "The SS Anne is famous for the\n"
+	.string "extraordinary parties held on board!$"

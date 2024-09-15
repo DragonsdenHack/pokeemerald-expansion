@@ -482,7 +482,7 @@ SilphS3_Bill_Batalla_Texto_8:
 SilphS3_Bill_Batalla_Texto_9:
 	.string "Do you really think, ROCKET, that if I\n"
 	.string "thought there was a chance of such a\l"
-	.string "Pokémon existing, I wouldn't be out\l"
+	.string "POKÉMON existing, I wouldn't be out\l"
 	.string "there looking for it? I've read the\l"
 	.string "documents about that invention, and\l"
 	.string "I've checked with my own hands that\l"
@@ -543,7 +543,7 @@ SilphS3_Bill_Batalla_Texto_16:
 
 SilphS3_Bill_Batalla_Texto_17:
 	.string "Dude, I never thought I'd lay eyes on a\n"
-	.string "Pokémon like PORYGON3, not even in my\l"
+	.string "POKÉMON like PORYGON3, not even in my\l"
 	.string "craziest dreams. It's{PAUSE 20}…{PAUSE 20} almost perfect,\l"
 	.string "with its type combination giving it\l"
 	.string "three immunities, insane offense, and\l"
@@ -640,7 +640,7 @@ release
 end
 
 SilphS3_Documento_Pokemon_Esencia_Texto_1:
-	.string "The legend of the Essence Pokémon, the\n"
+	.string "The legend of the Essence POKÉMON, the\n"
 	.string "one that gives meaning to KANTO:\l"
 	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
 	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
@@ -672,7 +672,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_3:
 	.string "and for some, also omnipotent, could\l"
 	.string "not be categorized within the\l"
 	.string "parameters that govern the rest of\l"
-	.string "Pokémon. The mere act of\l"
+	.string "POKÉMON. The mere act of\l"
 	.string "categorization would automatically\l"
 	.string "result in a reduction of the authentic\l"
 	.string "complexity of such a being. However,\l"

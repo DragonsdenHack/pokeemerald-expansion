@@ -14,6 +14,6 @@ release
 end
 
 SsAnne15F_1_Texto_1:
-.string "Even I have made countless travels, I've\n"
-	.string "never saw such a big POKÉMON. It was\l"
-	.string "like this big.$"
+	.string "I've travelled the world far and wide,\n"
+	.string "and I've never seen a POKÉMON so huge.\l"
+	.string "It was THIS big!$"

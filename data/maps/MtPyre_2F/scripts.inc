@@ -53,7 +53,7 @@ MtPyre_2F_Text_TumbledFromFloorAbove:
 	.string "the floor above.$"
 
 MtPyre_2F_Text_MarkIntro:
-	.string "¡Eh! ¿Buscas Pokémon? ¡Me has estado\n"
+	.string "¡Eh! ¿Buscas POKÉMON? ¡Me has estado\n"
 	.string "siguiendo! ¡Eso no se hace!$"
 
 MtPyre_2F_Text_MarkDefeat:
@@ -62,7 +62,7 @@ MtPyre_2F_Text_MarkDefeat:
 
 MtPyre_2F_Text_MarkPostBattle:
 	.string "Aquí no hay ni un alma, así que pensé\n"
-	.string "que encontraría Pokémon raros…$"
+	.string "que encontraría POKÉMON raros…$"
 
 MtPyre_2F_Text_LukeIntro:
 	.string "LUKE: We're here on a dare.\p"

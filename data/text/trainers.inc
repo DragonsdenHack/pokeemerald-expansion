@@ -1,6 +1,6 @@
 Route102_Text_CalvinIntro:
 	.string "Si llevas algún POKÉMON contigo,\n"
-	.string "oficialmente entrenas Pokémon. No\l"
+	.string "oficialmente entrenas POKÉMON. No\l"
 	.string "puedes negarte a luchar conmigo!$"
 
 Route102_Text_CalvinDefeated:
@@ -205,7 +205,7 @@ Route103_Text_PeteDefeated:
 
 Route103_Text_PetePostBattle:
 	.string "Ah, claro, ya entiendo. Si tuviera un\n"
-	.string "Pokémon como el tuyo, yo también haría\l"
+	.string "POKÉMON como el tuyo, yo también haría\l"
 	.string "SURF!$"
 
 Route103_Text_IsabelleIntro:
@@ -278,7 +278,7 @@ Route104_Text_MiaNotEnoughMons:
 
 Route104_Text_IvanIntro:
 	.string "¿Por qué negarlo? Soy experto en\n"
-	.string "Pokémon de tipo AGUA! ¿Eh? ¿Que no\l"
+	.string "POKÉMON de tipo AGUA! ¿Eh? ¿Que no\l"
 	.string "sabes quién soy?$"
 
 Route104_Text_IvanDefeat:
@@ -346,7 +346,7 @@ Route104_Text_WinstonDefeat:
 
 Route104_Text_WinstonPostBattle:
 	.string "Hay cosas que el dinero no puede\n"
-	.string "comprar. Por ejemplo, los Pokémon.$"
+	.string "comprar. Por ejemplo, los POKÉMON.$"
 
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"
@@ -708,7 +708,7 @@ Route108_Text_JeromeDefeated:
 
 Route108_Text_JeromePostBattle:
 	.string "Lo mejor de nadar es que puedes jugar\n"
-	.string "con los Pokémon marinos.$"
+	.string "con los POKÉMON marinos.$"
 
 Route108_Text_MatthewIntro:
 	.string "¡Hola, hola! ¿Tú también vas a la Nao\n"
@@ -745,7 +745,7 @@ Route108_Text_MissyPostBattle:
 	.string "remedio mejor!$"
 
 Route108_Text_CoryIntro:
-	.string "Me gustan los Pokémon de tipo agua.\n"
+	.string "Me gustan los POKÉMON de tipo agua.\n"
 	.string "¡Pero no les hago ascos a los demás!$"
 
 Route108_Text_CoryDefeated:
@@ -772,7 +772,7 @@ Route108_Text_CoryRematchPostBattle:
 	.string "try shouting at the sea!$"
 
 Route108_Text_CarolinaIntro:
-	.string "Estoy muy orgullosa de mis Pokémon.\n"
+	.string "Estoy muy orgullosa de mis POKÉMON.\n"
 	.string "¡Vas a ver lo que es luchar con rapidez!$"
 
 Route108_Text_CarolinaDefeated:
@@ -792,7 +792,7 @@ Route109_Text_DavidDefeated:
 Route109_Text_DavidPostBattle:
 	.string "¡Ja, ja, ja! ¡Mis abdominales son de\n"
 	.string "nadar, no de luchar en combates\l"
-	.string "Pokémon!$"
+	.string "POKÉMON!$"
 
 Route109_Text_AliceIntro:
 	.string "¿Te has puesto crema protectora antes\n"
@@ -881,7 +881,7 @@ Route109_Text_LolaRematchPostBattle:
 
 Route109_Text_AustinaIntro:
 	.string "No puedo nadar sin mi flotador, ¡pero a\n"
-	.string "los Pokémon no me ganan!$"
+	.string "los POKÉMON no me ganan!$"
 
 Route109_Text_AustinaDefeated:
 	.string "¿Habré perdido por culpa del flotador?$"
@@ -968,11 +968,11 @@ Route109_Text_HaileyPostBattle:
 	.string "digno para mis POKÉMON.$"
 
 Route109_Text_ElijahIntro:
-	.string "Estos Pokémon están hechos a medida de\n"
+	.string "Estos POKÉMON están hechos a medida de\n"
 	.string "los chicos molones como yo.$"
 
 Route109_Text_ElijahDefeated:
-	.string "Estos Pokémon están hechos a medida de\n"
+	.string "Estos POKÉMON están hechos a medida de\n"
 	.string "los chicos molones como yo.$"
 
 Route109_Text_ElijahPostBattle:
@@ -1305,10 +1305,10 @@ Route111_Text_DustyPostRematch:
 
 Route111_Text_TravisIntro:
 	.string "¡Estoy en racha!\n"
-	.string "¡Y mi Pokémon también!$"
+	.string "¡Y mi POKÉMON también!$"
 
 Route111_Text_TravisDefeat:
-	.string "Mi Pokémon ya no va a querer salir ni a\n"
+	.string "Mi POKÉMON ya no va a querer salir ni a\n"
 	.string "la vuelta de la esquina…$"
 
 Route111_Text_TravisPostBattle:
@@ -1342,14 +1342,14 @@ Route111_Text_DaisukePostBattle:
 
 Route111_Text_WiltonIntro:
 	.string "Muéstrame cuánto han mejorado tus\n"
-	.string "Pokémon, anda.$"
+	.string "POKÉMON, anda.$"
 
 Route111_Text_WiltonDefeat:
 	.string "Pues sí, lo que es mejorar, han\n"
 	.string "mejorado.$"
 
 Route111_Text_WiltonPostBattle:
-	.string "Los Pokémon y los entrenadores\n"
+	.string "Los POKÉMON y los entrenadores\n"
 	.string "aprenden mucho en cada combate. Lo que\l"
 	.string "importa no es ganar, sino intentarlo y\l"
 	.string "seguir esforzándose.$"
@@ -1373,7 +1373,7 @@ Route111_Text_WiltonPostRematch:
 	.string "aim for the POKÉMON LEAGUE.$"
 
 Route111_Text_BrookeIntro:
-	.string "Eh, tus Pokémon tienen pinta de tomarse\n"
+	.string "Eh, tus POKÉMON tienen pinta de tomarse\n"
 	.string "esto muy en serio…$"
 
 Route111_Text_BrookeDefeat:
@@ -1382,7 +1382,7 @@ Route111_Text_BrookeDefeat:
 
 Route111_Text_BrookePostBattle:
 	.string "Yo pensaba que me estaba tomando en\n"
-	.string "serio entrenar mis Pokémon, pero está\l"
+	.string "serio entrenar mis POKÉMON, pero está\l"
 	.string "visto que me queda mucho que aprender.$"
 
 Route111_Text_BrookeRegister:
@@ -1442,15 +1442,15 @@ Route111_Text_BrandenPostBattle:
 	.string "my sandwiches.$"
 
 Route111_Text_TyronIntro:
-	.string "Éste es mi tipo preferido de Pokémon.$"
+	.string "Éste es mi tipo preferido de POKÉMON.$"
 
 Route111_Text_TyronDefeat:
 	.string "¡No te vayas todavía! ¿Qué piensas de\n"
-	.string "mi Pokémon?$"
+	.string "mi POKÉMON?$"
 
 Route111_Text_TyronPostBattle:
 	.string "No pierdo ocasión de presumir de\n"
-	.string "Pokémon en todos mis combates. ¡Pero\l"
+	.string "POKÉMON en todos mis combates. ¡Pero\l"
 	.string "estoy convencido de que todo el mundo\l"
 	.string "hace lo mismo!$"
 
@@ -1556,11 +1556,11 @@ Route112_Text_CarolDefeat:
 
 Route112_Text_CarolPostBattle:
 	.string "No importa lo bueno que seas cantando o\n"
-	.string "entrenando Pokémon. ¡La cosa está en\l"
+	.string "entrenando POKÉMON. ¡La cosa está en\l"
 	.string "divertirse!$"
 
 Route112_Text_BryantIntro:
-	.string "¡He atrapado unos Pokémon alucinantes\n"
+	.string "¡He atrapado unos POKÉMON alucinantes\n"
 	.string "en la Senda Ígnea! ¡Mira, mira!$"
 
 Route112_Text_BryantDefeat:
@@ -2171,13 +2171,13 @@ Route116_Text_JosePostBattle:
 
 Route116_Text_JaniceIntro:
 	.string "¡Déjame mostrarte lo fuerte que es mi\n"
-	.string "Pokémon del alma!$"
+	.string "POKÉMON del alma!$"
 
 Route116_Text_JaniceDefeat:
 	.string "Eres un pelín mejor que yo…$"
 
 Route116_Text_JanicePostBattle:
-	.string "Los Pokémon que son dulces y fuertes\n"
+	.string "Los POKÉMON que son dulces y fuertes\n"
 	.string "son los mejores, en mi opinión.$"
 
 Route116_Text_JerryIntro:
@@ -2263,11 +2263,11 @@ Route116_Text_SarahPostBattle:
 	.string "Llevo un tren de vida muy lujoso. Puedo\n"
 	.string "tener todo lo que deseo. Pero mi riqueza\l"
 	.string "de poco sirve en lo que respecta a los\l"
-	.string "Pokémon.$"
+	.string "POKÉMON.$"
 
 Route116_Text_DawsonIntro:
 	.string "¡Cuando veas la maravillosa piel de mis\n"
-	.string "Pokémon, caeras ante su belleza y la\l"
+	.string "POKÉMON, caeras ante su belleza y la\l"
 	.string "victoria será mía!$"
 
 Route116_Text_DawsonDefeat:
@@ -2275,7 +2275,7 @@ Route116_Text_DawsonDefeat:
 
 Route116_Text_DawsonPostBattle:
 	.string "¡No, no, no y no! ¡Has destrozado la piel\n"
-	.string "a mis Pokémon! ¡Y además me has\l"
+	.string "a mis POKÉMON! ¡Y además me has\l"
 	.string "despeinado! ¡Te pienso enviar la\l"
 	.string "factura!$"
 
@@ -2287,7 +2287,7 @@ Route116_Text_DevanDefeat:
 
 Route116_Text_DevanPostBattle:
 	.string "Debería probar con distintos tipos de\n"
-	.string "Pokémon. Creo que me iría mejor.$"
+	.string "POKÉMON. Creo que me iría mejor.$"
 
 Route116_Text_JohnsonIntro:
 	.string "Por aquí no se llega a ningún sitio. Me\n"
@@ -2302,7 +2302,7 @@ Route116_Text_JohnsonPostBattle:
 
 Route117_Text_IsaacIntro:
 	.string "Dime, ¿quieres luchar contra los\n"
-	.string "Pokémon que estoy entrenando?$"
+	.string "POKÉMON que estoy entrenando?$"
 
 Route117_Text_IsaacDefeat:
 	.string "Los tuyos sí que han recibido un buen\n"
@@ -2310,7 +2310,7 @@ Route117_Text_IsaacDefeat:
 
 Route117_Text_IsaacPostBattle:
 	.string "No todo es cuestión de fuerza en lo que\n"
-	.string "respecta a los Pokémon. También hay que\l"
+	.string "respecta a los POKÉMON. También hay que\l"
 	.string "preocuparse de potenciar algún\l"
 	.string "aspecto concreto de su personalidad.$"
 
@@ -2332,13 +2332,13 @@ Route117_Text_IsaacPostRematch:
 
 Route117_Text_LydiaIntro:
 	.string "Perdona, pero quisiera ver si sabes\n"
-	.string "entrenar a tus Pokémon como se debe.$"
+	.string "entrenar a tus POKÉMON como se debe.$"
 
 Route117_Text_LydiaDefeat:
 	.string "Pues sí, los entrenas muy bien.$"
 
 Route117_Text_LydiaPostBattle:
-	.string "Hay que criar a los Pokémon teniendo en\n"
+	.string "Hay que criar a los POKÉMON teniendo en\n"
 	.string "cuenta su personalidad.$"
 
 Route117_Text_LydiaRegister:
@@ -2387,7 +2387,7 @@ Route117_Text_DylanPostRematch:
 
 Route117_Text_MariaIntro:
 	.string "Hago mi entrenamiento en triatlón con\n"
-	.string "los Pokémon. ¡Verás qué velocidad!$"
+	.string "los POKÉMON. ¡Verás qué velocidad!$"
 
 Route117_Text_MariaDefeat:
 	.string "Creo que tengo que practicar un poco\n"
@@ -2418,7 +2418,7 @@ Route117_Text_MariaPostRematch:
 
 Route117_Text_DerekIntro:
 	.string "Yo solía ser un cazabichos. Ahora soy\n"
-	.string "un bichomaníaco. ¡Pero los Pokémon me\l"
+	.string "un bichomaníaco. ¡Pero los POKÉMON me\l"
 	.string "siguen gustando tanto como siempre!$"
 
 Route117_Text_DerekDefeat:
@@ -2428,7 +2428,7 @@ Route117_Text_DerekDefeat:
 Route117_Text_DerekPostBattle:
 	.string "Algunos piensan que un bichomaníaco es\n"
 	.string "un chalado de la vida… Pero yo soy un\l"
-	.string "experto en Pokémon de tipo bicho, así\l"
+	.string "experto en POKÉMON de tipo bicho, así\l"
 	.string "que es lógico que me llamen\l"
 	.string "bichomaníaco ¿o no?$"
 
@@ -2516,13 +2516,13 @@ Route117_Text_MelinaPostBattle:
 
 Route117_Text_BrandiIntro:
 	.string "Quisiera mostrarte el poder oculto en\n"
-	.string "un Pokémon psíquico.$"
+	.string "un POKÉMON psíquico.$"
 
 Route117_Text_BrandiDefeat:
 	.string "¡Eres sorprendente!$"
 
 Route117_Text_BrandiPostBattle:
-	.string "Los Pokémon psíquicos son complejos.\n"
+	.string "Los POKÉMON psíquicos son complejos.\n"
 	.string "Atrapa uno y lo comprobarás.$"
 
 Route117_Text_AishaIntro:
@@ -2546,7 +2546,7 @@ Route118_Text_RoseDefeat:
 	.string "perdido…$"
 
 Route118_Text_RosePostBattle:
-	.string "Las flores, los Pokémon… Me gusta todo\n"
+	.string "Las flores, los POKÉMON… Me gusta todo\n"
 	.string "lo que huele bien. Paso de cosas\l"
 	.string "apestosas…$"
 
@@ -2567,7 +2567,7 @@ Route118_Text_RosePostRematch:
 	.string "POKÉMON will be attracted by it.$"
 
 Route118_Text_PerryIntro:
-	.string "Los Pokémon pájaro vuelan con\n"
+	.string "Los POKÉMON pájaro vuelan con\n"
 	.string "elegancia en el cielo. ¡Qué bonito…!$"
 
 Route118_Text_PerryDefeat:
@@ -2575,30 +2575,30 @@ Route118_Text_PerryDefeat:
 	.string "He caído en picado…$"
 
 Route118_Text_PerryPostBattle:
-	.string "Tus Pokémon son muy buenos. Yo tengo\n"
+	.string "Tus POKÉMON son muy buenos. Yo tengo\n"
 	.string "que entrenar más a los míos.$"
 
 Route118_Text_ChesterIntro:
-	.string "¡Pokémon pájaro!\n"
+	.string "¡POKÉMON pájaro!\n"
 	.string "¡Alzad el vuelo!$"
 
 Route118_Text_ChesterDefeat:
 	.string "Se han largado volando…$"
 
 Route118_Text_ChesterPostBattle:
-	.string "Si mis Pokémon fueran más fuertes,\n"
+	.string "Si mis POKÉMON fueran más fuertes,\n"
 	.string "podrían volar con más libertad…$"
 
 Route118_Text_BarnyIntro:
 	.string "Soy pescador, además de entrenador.\n"
-	.string "Atrapo Pokémon y los entreno yo mismo.$"
+	.string "Atrapo POKÉMON y los entreno yo mismo.$"
 
 Route118_Text_BarnyDefeat:
 	.string "Creía que mi método de entrenamiento\n"
 	.string "era infalible…$"
 
 Route118_Text_BarnyPostBattle:
-	.string "Entrenar Pokémon no es fácil cuando\n"
+	.string "Entrenar POKÉMON no es fácil cuando\n"
 	.string "estás ocupado pescándolos… ¿Habré\l"
 	.string "pecado de hacer las cosas a medias?$"
 
@@ -2606,7 +2606,7 @@ Route118_Text_WadeIntro:
 	.string "Cuando eres pescador, tienes que estar\n"
 	.string "bien equipado. Pero cuando eres\l"
 	.string "entrenador, tienes que tener buen\l"
-	.string "corazón y amor por los Pokémon, por\l"
+	.string "corazón y amor por los POKÉMON, por\l"
 	.string "supuesto.$"
 
 Route118_Text_WadeDefeat:
@@ -2614,7 +2614,7 @@ Route118_Text_WadeDefeat:
 
 Route118_Text_WadePostBattle:
 	.string "Ahora que lo pienso, la pesca es un\n"
-	.string "combate entre pescadores y Pokémon.$"
+	.string "combate entre pescadores y POKÉMON.$"
 
 Route118_Text_DaltonIntro:
 	.string "¡Te voy a hacer mover los pies a mi\n"
@@ -2645,16 +2645,16 @@ Route118_Text_DaltonPostRematch:
 	.string "you through my electric guitar…$"
 
 Route118_Text_DeandreIntro:
-	.string "¡Adelante, Pokémon! ¡A la de 1, a la de 2\n"
+	.string "¡Adelante, POKÉMON! ¡A la de 1, a la de 2\n"
 	.string "y a la de 3!$"
 
 Route118_Text_DeandreDefeat:
-	.string "Venid, Pokémon... ¿Estáis bien? A la de 1,\n"
+	.string "Venid, POKÉMON... ¿Estáis bien? A la de 1,\n"
 	.string "a la de 2 y a la de 3...$"
 
 Route118_Text_DeandrePostBattle:
 	.string "¿No es maravilloso tener un equipo de\n"
-	.string "combate Pokémon? Cópiame si quieres.\l"
+	.string "combate POKÉMON? Cópiame si quieres.\l"
 	.string "¡No me importa!$"
 
 Route119_Text_BrentIntro:
@@ -2670,7 +2670,7 @@ Route119_Text_BrentPostBattle:
 	.string "mequetrefe…$"
 
 Route119_Text_DonaldIntro:
-	.string "¡Por fin nos conocemos! ¡Mis Pokémon de\n"
+	.string "¡Por fin nos conocemos! ¡Mis POKÉMON de\n"
 	.string "tipo bicho están encantados!$"
 
 Route119_Text_DonaldDefeat:
@@ -2734,7 +2734,7 @@ Route119_Text_JacksonIntro:
 
 Route119_Text_JacksonDefeat:
 	.string "Todavía tengo mucho que aprender\n"
-	.string "sobre los Pokémon, por lo que se ve.$"
+	.string "sobre los POKÉMON, por lo que se ve.$"
 
 Route119_Text_JacksonPostBattle:
 	.string "Tenemos un sueño: alejarnos de la\n"
@@ -2799,19 +2799,19 @@ Route119_Text_HughDefeat:
 	.string "He caído en picado…$"
 
 Route119_Text_HughPostBattle:
-	.string "¡Gracias a mis Pokémon pájaro, mi sueño\n"
+	.string "¡Gracias a mis POKÉMON pájaro, mi sueño\n"
 	.string "de surcar los aires es realidad!$"
 
 Route119_Text_PhilIntro:
 	.string "¡Te voy a enseñar la fuerza del ataque\n"
-	.string "de mi Pokémon pájaro!$"
+	.string "de mi POKÉMON pájaro!$"
 
 Route119_Text_PhilDefeat:
 	.string "Todavía nos falta un hervor…$"
 
 Route119_Text_PhilPostBattle:
 	.string "Desde que era pequeñito, siempre he\n"
-	.string "querido tener Pokémon pájaro…$"
+	.string "querido tener POKÉMON pájaro…$"
 
 Route119_Text_YasuIntro:
 	.string "Acechar entre las sombras, vivir en la\n"
@@ -2847,8 +2847,8 @@ Route119_Text_HideoDefeat:
 Route119_Text_HideoPostBattle:
 	.string "El mejor lugar para esconder un árbol\n"
 	.string "es… ¡un bosque! Y el mejor para\l"
-	.string "esconder un Pokémon es… ¡otro\l"
-	.string "Pokémon! ¿Tú entiendes lo que acabo de\l"
+	.string "esconder un POKÉMON es… ¡otro\l"
+	.string "POKÉMON! ¿Tú entiendes lo que acabo de\l"
 	.string "decir? ¡Yo tampoco, ja, ja, ja!$"
 
 Route119_Text_ChrisIntro:
@@ -2862,7 +2862,7 @@ Route119_Text_ChrisDefeat:
 	.string "para ganar.$"
 
 Route119_Text_ChrisPostBattle:
-	.string "Haz surf sobre un Pokémon... y pesca\n"
+	.string "Haz surf sobre un POKÉMON... y pesca\n"
 	.string "desde su lomo… ¡Es bestial! ¡Te lo\l"
 	.string "recomiendo!$"
 
@@ -2908,24 +2908,24 @@ Route119_Text_RachelPostBattle:
 
 Route120_Text_ColinIntro:
 	.string "¿Tienes algún movimiento que puedas\n"
-	.string "usar contra Pokémon que usen vuelo?$"
+	.string "usar contra POKÉMON que usen vuelo?$"
 
 Route120_Text_ColinDefeat:
 	.string "¡Vuelas más alto que yo!$"
 
 Route120_Text_ColinPostBattle:
 	.string "El movimiento vuelo es muy práctico, ¿a\n"
-	.string "que sí? Cuando un Pokémon vuela, puede\l"
+	.string "que sí? Cuando un POKÉMON vuela, puede\l"
 	.string "escapar de cualquier ataque.$"
 
 Route120_Text_RobertIntro:
-.string "Mi Pokémon es fuerte. ¿Y los tuyos?$"
+.string "Mi POKÉMON es fuerte. ¿Y los tuyos?$"
 
 Route120_Text_RobertDefeat:
-	.string "Tus Pokémon son más fuertes…$"
+	.string "Tus POKÉMON son más fuertes…$"
 
 Route120_Text_RobertPostBattle:
-	.string "Se puede confiar en los Pokémon que\n"
+	.string "Se puede confiar en los POKÉMON que\n"
 	.string "crecen de forma continua.$"
 
 Route120_Text_RobertRegister:
@@ -2944,16 +2944,16 @@ Route120_Text_RobertPostRematch:
 	.string "I have to grow stronger, too.$"
 
 Route120_Text_LorenzoIntro:
-	.string "Voy a ver si tus Pokémon están\n"
+	.string "Voy a ver si tus POKÉMON están\n"
 	.string "preparados para vivir al aire libre…$"
 
 Route120_Text_LorenzoDefeat:
-	.string "¡Con unos Pokémon tan fuertes, no\n"
+	.string "¡Con unos POKÉMON tan fuertes, no\n"
 	.string "necesitas que nadie te rescate!$"
 
 Route120_Text_LorenzoPostBattle:
 	.string "Viajar a donde tu corazón te lleve en\n"
-	.string "compañía de tus Pokémon... ¡Es lo mejor\l"
+	.string "compañía de tus POKÉMON... ¡Es lo mejor\l"
 	.string "de ser entrenador!$"
 
 Route120_Text_JennaIntro:
@@ -2966,7 +2966,7 @@ Route120_Text_JennaDefeat:
 
 Route120_Text_JennaPostBattle:
 	.string "Salgo a correr cada día para estar en\n"
-	.string "forma, ¡siempre con mis Pokémon!$"
+	.string "forma, ¡siempre con mis POKÉMON!$"
 
 Route120_Text_JeffreyIntro:
 	.string "… … … … … …\n"
@@ -3002,7 +3002,7 @@ Route120_Text_JeffreyPostRematch:
 	.string "For my precious BUG POKÉMON…$"
 
 Route120_Text_JenniferIntro:
-	.string "Los Pokémon tienen muchas habilidades\n"
+	.string "Los POKÉMON tienen muchas habilidades\n"
 	.string "especiales. Si quieres estar entre los\l"
 	.string "grandes entrenadores, estúdialas bien.$"
 
@@ -3012,7 +3012,7 @@ Route120_Text_JenniferDefeat:
 
 Route120_Text_JenniferPostBattle:
 	.string "Las habilidades especiales de los\n"
-	.string "Pokémon pueden cambiar el resultado de\l"
+	.string "POKÉMON pueden cambiar el resultado de\l"
 	.string "un combate.$"
 
 Route120_Text_ChipIntro:
@@ -3035,15 +3035,15 @@ Route120_Text_ClarissaIntro:
 
 Route120_Text_ClarissaDefeat:
 	.string "Un parasol no puede parar los ataques\n"
-	.string "Pokémon…$"
+	.string "POKÉMON…$"
 
 Route120_Text_ClarissaPostBattle:
 	.string "No creo que este sol tan fuerte sea\n"
-	.string "bueno para mis Pokémon… Por eso los\l"
+	.string "bueno para mis POKÉMON… Por eso los\l"
 	.string "cubro con este parasol.$"
 
 Route120_Text_AngelicaIntro:
-	.string "Mi Pokémon, mi parasol y yo… Juntos\n"
+	.string "Mi POKÉMON, mi parasol y yo… Juntos\n"
 	.string "formamos el cuadro perfecto.$"
 
 Route120_Text_AngelicaDefeat:
@@ -3056,7 +3056,7 @@ Route120_Text_AngelicaPostBattle:
 
 Route120_Text_KeigoIntro:
 	.string "Crearé nuevas técnicas ninjas a partir\n"
-	.string "de los movimientos de los Pokémon.$"
+	.string "de los movimientos de los POKÉMON.$"
 
 Route120_Text_KeigoDefeat:
 	.string "Me temo que he estado soñando\n"
@@ -3103,7 +3103,7 @@ Route120_Text_LeonelPostBattle:
 	.string "battling with your favorite POKÉMON.$"
 
 Route121_Text_VanessaIntro:
-	.string "¿Quieres jugar con mi Pokémon, que es\n"
+	.string "¿Quieres jugar con mi POKÉMON, que es\n"
 	.string "más bonito que un sol?$"
 
 Route121_Text_VanessaDefeat:
@@ -3111,12 +3111,12 @@ Route121_Text_VanessaDefeat:
 
 Route121_Text_VanessaPostBattle:
 	.string "Voy a un concurso en Calagua. Mi\n"
-	.string "Pokémon debería poder superar el nivel\l"
+	.string "POKÉMON debería poder superar el nivel\l"
 	.string "experto sin problemas.$"
 
 Route121_Text_WalterIntro:
 	.string "Me he recorrido el mundo de cabo a rabo\n"
-	.string "en compañía de mi Pokémon. Te\l"
+	.string "en compañía de mi POKÉMON. Te\l"
 	.string "imaginarás que confío bastante en mis\l"
 	.string "posibilidades.$"
 
@@ -3124,7 +3124,7 @@ Route121_Text_WalterDefeat:
 	.string "Has luchado muy bien…$"
 
 Route121_Text_WalterPostBattle:
-	.string "Tus Pokémon realizan proezas\n"
+	.string "Tus POKÉMON realizan proezas\n"
 	.string "memorables. ¡Permíteme registrarte!$"
 
 Route121_Text_WalterRegister:
@@ -3192,14 +3192,14 @@ Route121_Text_JoyNotEnoughMons:
 
 Route121_Text_JessicaIntro:
 	.string "¡Alto ahí! ¡Echa una miradita a mis\n"
-	.string "preciosísimos Pokémon!$"
+	.string "preciosísimos POKÉMON!$"
 
 Route121_Text_JessicaDefeat:
 	.string "¡Oh! ¿Cómo osas? ¡No se puede ir\n"
 	.string "arrollando al personal!$"
 
 Route121_Text_JessicaPostBattle:
-	.string "Creo que voy a ir a atrapar más Pokémon\n"
+	.string "Creo que voy a ir a atrapar más POKÉMON\n"
 	.string "al Safari.$"
 
 Route121_Text_JessicaRegister:
@@ -3265,29 +3265,29 @@ Route121_Text_CalePostBattle:
 
 Route121_Text_MylesIntro:
 	.string "¡No hay nada que me guste más que ver\n"
-	.string "los Pokémon de los demás!$"
+	.string "los POKÉMON de los demás!$"
 
 Route121_Text_MylesDefeat:
 	.string "¡Flipo en colores!$"
 
 Route121_Text_MylesPostBattle:
-	.string "¡Tus Pokémon son tremendos! ¿Cómo los\n"
+	.string "¡Tus POKÉMON son tremendos! ¿Cómo los\n"
 	.string "has criado?$"
 
 Route121_Text_PatIntro:
 	.string "¡Quiero que todo el mundo vea los\n"
-	.string "Pokémon que he criado!$"
+	.string "POKÉMON que he criado!$"
 
 Route121_Text_PatDefeat:
 	.string "¡Guau!\n"
 	.string "¡Epectacular!$"
 
 Route121_Text_PatPostBattle:
-	.string "Crío a todos mis Pokémon por igual. No\n"
+	.string "Crío a todos mis POKÉMON por igual. No\n"
 	.string "tengo ningún favorito.$"
 
 Route121_Text_MarcelIntro:
-	.string "¡Mis Pokémon desconocen la derrota! La\n"
+	.string "¡Mis POKÉMON desconocen la derrota! La\n"
 	.string "próxima vez que ganen, los llevaré a un\l"
 	.string "concurso.$"
 
@@ -3422,7 +3422,7 @@ Route123_Text_YukiNotEnoughMons:
 
 Route123_Text_KindraIntro:
 	.string "El Monte Pírico… Donde duermen los\n"
-	.string "espíritus de los Pokémon que han\l"
+	.string "espíritus de los POKÉMON que han\l"
 	.string "partido… ¿Los tuyos también duermen?$"
 
 Route123_Text_KindraDefeat:
@@ -3430,7 +3430,7 @@ Route123_Text_KindraDefeat:
 
 Route123_Text_KindraPostBattle:
 	.string "El Monte Pírico… Donde duermen los\n"
-	.string "espíritus de los Pokémon que han\l"
+	.string "espíritus de los POKÉMON que han\l"
 	.string "partido… Debe de contener un poder que\l"
 	.string "sosiega el alma…$"
 
@@ -3464,7 +3464,7 @@ Route123_Text_FernandoPostRematch:
 	.string "by my tune, you'd lose.$"
 
 Route123_Text_DavisIntro:
-	.string "Éste es mi imponente Pokémon bicho. Me\n"
+	.string "Éste es mi imponente POKÉMON bicho. Me\n"
 	.string "lo ha dado mi hermano.$"
 
 Route123_Text_DavisDefeat:
@@ -3500,26 +3500,26 @@ Route123_Text_FrederickPostBattle:
 	.string "¿La de antes no te ha bastado?$"
 
 Route123_Text_AlbertoIntro:
-	.string "Debo reconocerlo: ¡los Pokémon pájaro\n"
+	.string "Debo reconocerlo: ¡los POKÉMON pájaro\n"
 	.string "son mi obsesión! ¡Los pájaros molan!\l"
 	.string "¡Son lo mejor que hay!$"
 
 Route123_Text_AlbertoDefeat:
-	.string "¡Los Pokémon pájaro molan incluso en la\n"
+	.string "¡Los POKÉMON pájaro molan incluso en la\n"
 	.string "derrota!$"
 
 Route123_Text_AlbertoPostBattle:
-	.string "Recojo las plumas que los Pokémon\n"
+	.string "Recojo las plumas que los POKÉMON\n"
 	.string "pájaro sueltan durante los combates.\l"
 	.string "Me voy a hacer un sombrero con ellas.$"
 
 Route123_Text_EdIntro:
 	.string "Cuando no me encuentro con ningún\n"
-	.string "entrenador, dejo a mis Pokémon luchar\l"
+	.string "entrenador, dejo a mis POKÉMON luchar\l"
 	.string "entre sí. Yo los observo.$"
 
 Route123_Text_EdDefeat:
-.string "Me gustan tus Pokémon.$"
+.string "Me gustan tus POKÉMON.$"
 
 Route123_Text_EdPostBattle:
 	.string "¡Je, je, pienso usar tus tácticas! Creo\n"
@@ -3550,7 +3550,7 @@ Route123_Text_KayleyPostBattle:
 
 Route124_Text_SpencerIntro:
 	.string "Oye, ¿te has perdido? Si logras vencer a\n"
-	.string "mis Pokémon, te ayudaré a encontrar el\l"
+	.string "mis POKÉMON, te ayudaré a encontrar el\l"
 	.string "norte.$"
 
 Route124_Text_SpencerDefeat:
@@ -3560,7 +3560,7 @@ Route124_Text_SpencerPostBattle:
 	.string "Mucha gente se pierde en el mar.$"
 
 Route124_Text_RolandIntro:
-	.string "Mmm. Estás surfeando en un Pokémon en\n"
+	.string "Mmm. Estás surfeando en un POKÉMON en\n"
 	.string "vez de nadar por tu cuenta. ¡Qué\l"
 	.string "envidia!$"
 
@@ -3571,7 +3571,7 @@ Route124_Text_RolandDefeat:
 Route124_Text_RolandPostBattle:
 	.string "Me están entrando escalofríos… he\n"
 	.string "pasado mucho tiempo en el agua…\l"
-	.string "desearía poder surfear en un Pokémon\l"
+	.string "desearía poder surfear en un POKÉMON\l"
 	.string "como tú…$"
 
 Route124_Text_JennyIntro:
@@ -3769,7 +3769,7 @@ Route125_Text_TanyaPostBattle:
 
 Route125_Text_SharonIntro:
 	.string "¿Estás de humor para enfrentarte a mi\n"
-	.string "Pokémon tipo AGUA?$"
+	.string "POKÉMON tipo AGUA?$"
 
 Route125_Text_SharonDefeat:
 	.string "Perdí…$"
@@ -3910,7 +3910,7 @@ Route126_Text_BrendaDefeat:
 	.string "¡Oh, nooooo!$"
 
 Route126_Text_BrendaPostBattle:
-	.string "Me encanta jugar con los Pokémon\n"
+	.string "Me encanta jugar con los POKÉMON\n"
 	.string "saltando entre las olas…$"
 
 Route126_Text_PabloIntro:
@@ -4014,18 +4014,18 @@ Route127_Text_JonahPostBattle:
 
 Route127_Text_HenryIntro:
 	.string "¡Hala! ¡No me digas que ha picado nada\n"
-	.string "menos que un Pokémon que hace SURF!$"
+	.string "menos que un POKÉMON que hace SURF!$"
 
 Route127_Text_HenryDefeat:
-	.string "¡No puedo con estos Pokémon!$"
+	.string "¡No puedo con estos POKÉMON!$"
 
 Route127_Text_HenryPostBattle:
-	.string "Tus Pokémon parecen bastante fuertes.\n"
+	.string "Tus POKÉMON parecen bastante fuertes.\n"
 	.string "Me vendría de vicio pescar unos así…$"
 
 Route127_Text_RogerIntro:
 	.string "¡Eh, tú! ¡Éste es un reto entre un fan de\n"
-	.string "los Pokémon y un pescador aficionado!$"
+	.string "los POKÉMON y un pescador aficionado!$"
 
 Route127_Text_RogerDefeat:
 	.string "¡Oh, no! ¡Se me ha enredado el sedal! ¡Se\n"
@@ -4036,7 +4036,7 @@ Route127_Text_RogerPostBattle:
 	.string "del enredo! ¡Ja, ja, ja!$"
 
 Route127_Text_AidanIntro:
-	.string "Los Pokémon pájaro son capaces de ver\n"
+	.string "Los POKÉMON pájaro son capaces de ver\n"
 	.string "a sus presas desde gran altura.$"
 
 Route127_Text_AidanDefeat:
@@ -4050,7 +4050,7 @@ Route127_Text_AidanPostBattle:
 
 Route127_Text_KojiIntro:
 	.string "Te voy a mostrar lo que he aprendido en\n"
-	.string "el gimnasio Pokémon de Azuliza.$"
+	.string "el gimnasio POKÉMON de Azuliza.$"
 
 Route127_Text_KojiDefeat:
 	.string "¡Au, au, au! ¡Se me ha metido una\n"
@@ -4124,7 +4124,7 @@ Route128_Text_KatelynIntro:
 	.string "modalidades.$"
 
 Route128_Text_KatelynDefeat:
-	.string "Un combate Pokémon también es feroz…$"
+	.string "Un combate POKÉMON también es feroz…$"
 
 Route128_Text_KatelynPostBattle:
 	.string "Ahora me toca montar en bici, pero…\n"
@@ -4149,7 +4149,7 @@ Route128_Text_KatelynPostRematch:
 
 Route128_Text_AlexaIntro:
 	.string "Hemos estado trabajando duro para\n"
-	.string "organizar una Liga Pokémon... ¡No\l"
+	.string "organizar una Liga POKÉMON... ¡No\l"
 	.string "podemos perder ahora!$"
 
 Route128_Text_AlexaDefeat:
@@ -4173,14 +4173,14 @@ Route128_Text_RubenPostBattle:
 
 Route128_Text_WayneIntro:
 	.string "Quiero visitar Colosalia, así que he\n"
-	.string "atrapado un Pokémon que conoce el\l"
+	.string "atrapado un POKÉMON que conoce el\l"
 	.string "movimiento cascada...$"
 
 Route128_Text_WayneDefeat:
 	.string "¡Me la he pegado buena!$"
 
 Route128_Text_WaynePostBattle:
-	.string "¡Aaaaay! ¿Por qué yoooo? ¡Mi Pokémon\n"
+	.string "¡Aaaaay! ¿Por qué yoooo? ¡Mi POKÉMON\n"
 	.string "conoce cascada, pero no tengo la\l"
 	.string "medalla del gimnasio de Arrecípolis!$"
 
@@ -4265,7 +4265,7 @@ Route129_Text_ClarenceDefeat:
 	.string "Ganar tampoco es fácil.$"
 
 Route129_Text_ClarencePostBattle:
-	.string "¿Que planeas llegar a la liga Pokémon?\n"
+	.string "¿Que planeas llegar a la liga POKÉMON?\n"
 	.string "¡Pues entonces mucha suerte!$"
 
 Route130_Text_RodneyIntro:
@@ -4292,7 +4292,7 @@ Route130_Text_KatieDefeat:
 
 Route130_Text_KatiePostBattle:
 	.string "Todos los niños del mundo sueñan con\n"
-	.string "convertirse en campeones Pokémon\l"
+	.string "convertirse en campeones POKÉMON\l"
 	.string "algún día. ¡Lógico!$"
 
 Route130_Text_SantiagoIntro:
@@ -4307,11 +4307,11 @@ Route130_Text_SantiagoPostBattle:
 	.string "me gusta más…$"
 
 Route131_Text_RichardIntro:
-	.string "El mar está plagado de Pokémon. Así no\n"
+	.string "El mar está plagado de POKÉMON. Así no\n"
 	.string "hay quien nade, uf…$"
 
 Route131_Text_RichardDefeat:
-	.string "Los Pokémon que entrenas tú mismo\n"
+	.string "Los POKÉMON que entrenas tú mismo\n"
 	.string "siempre son los más fuertes…$"
 
 Route131_Text_RichardPostBattle:
@@ -4456,7 +4456,7 @@ Route132_Text_RonaldPostBattle:
 	.string "la incertidumbre...$"
 
 Route132_Text_KiyoIntro:
-	.string "Estoy con mi Pokémon las 24 horas del\n"
+	.string "Estoy con mi POKÉMON las 24 horas del\n"
 	.string "día. ¿Cómo pretendes que pierda?$"
 
 Route132_Text_KiyoDefeat:
@@ -4464,9 +4464,9 @@ Route132_Text_KiyoDefeat:
 	.string "hecho...$"
 
 Route132_Text_KiyoPostBattle:
-	.string "Brrr... Tú eres un fan de los Pokémon,\n"
+	.string "Brrr... Tú eres un fan de los POKÉMON,\n"
 	.string "¿eh? Tú sí que pasas cada segundo del\l"
-	.string "día con tus Pokémon, ¿eh?$"
+	.string "día con tus POKÉMON, ¿eh?$"
 
 Route132_Text_MakaylaIntro:
 	.string "Siempre lucho junto a mi marido, pero\n"
@@ -4552,7 +4552,7 @@ Route133_Text_LindaPostBattle:
 
 Route133_Text_WarrenIntro:
 	.string "Yo nado como todo quisqui, pero soy el\n"
-	.string "más original entrenando Pokémon.$"
+	.string "más original entrenando POKÉMON.$"
 
 Route133_Text_WarrenDefeat:
 	.string "¡Jarl! ¡Estoy en la cuerda floja!$"
@@ -4564,7 +4564,7 @@ Route133_Text_WarrenPostBattle:
 
 Route133_Text_BeckIntro:
 	.string "He llegado hasta aquí a lomos de mi\n"
-	.string "Pokémon pájaro.$"
+	.string "POKÉMON pájaro.$"
 
 Route133_Text_BeckDefeat:
 	.string "Tu estilo… ¡es asombrosamente guay!$"
@@ -4597,14 +4597,14 @@ Route133_Text_ConorPostBattle:
 	.string "coherente con tus convicciones.$"
 
 Route134_Text_JackIntro:
-	.string "Incluso los Pokémon que saben nadar\n"
+	.string "Incluso los POKÉMON que saben nadar\n"
 	.string "son arrastrados por las corrientes.$"
 
 Route134_Text_JackDefeat:
 	.string "¡La marea me arrastra!$"
 
 Route134_Text_JackPostBattle:
-	.string "Los Pokémon disfrutan en los rápidos,\n"
+	.string "Los POKÉMON disfrutan en los rápidos,\n"
 	.string "pero las corrientes son peligrosas...$"
 
 Route134_Text_LaurelIntro:
@@ -4626,11 +4626,11 @@ Route134_Text_AlexDefeat:
 	.string "Me han dejado para el arrastre…$"
 
 Route134_Text_AlexPostBattle:
-	.string "Mi Pokémon pájaro se cansa mucho cada\n"
+	.string "Mi POKÉMON pájaro se cansa mucho cada\n"
 	.string "vez que vuela una gran distancia…$"
 
 Route134_Text_HitoshiIntro:
-	.string "Tú entrenas Pokémon. No digas nada.\n"
+	.string "Tú entrenas POKÉMON. No digas nada.\n"
 	.string "Sólo pelea.$"
 
 Route134_Text_HitoshiDefeat:
@@ -4663,12 +4663,12 @@ Route134_Text_KelvinDefeat:
 
 Route134_Text_KelvinPostBattle:
 	.string "Si no podemos hacer SURF, ¿cómo vamos a\n"
-	.string "volver a casa? Creo que un Pokémon\l"
+	.string "volver a casa? Creo que un POKÉMON\l"
 	.string "debilitado aún puede surfear, pero me\l"
 	.string "parece un abuso.$"
 
 Route134_Text_MarleyIntro:
-	.string "¿Crees que tus Pokémon podrán evitar\n"
+	.string "¿Crees que tus POKÉMON podrán evitar\n"
 	.string "nuestros velocísimos ataques?$"
 
 Route134_Text_MarleyDefeat:
@@ -4680,7 +4680,7 @@ Route134_Text_MarleyPostBattle:
 	.string "entrenaré con más ardor.$"
 
 Route134_Text_ReynaIntro:
-	.string "¡No se puede derrotar a mis Pokémon\n"
+	.string "¡No se puede derrotar a mis POKÉMON\n"
 	.string "fácilmente!$"
 
 Route134_Text_ReynaDefeat:
@@ -6779,7 +6779,7 @@ Route3_Text_Cazabichos3Defeated:
 
 Route3_Text_Cazabichos3PostBattle:
 	.string "Maybe I should focus on strengthening\n"
-	.string "a few Pokémon rather than attempting\l"
+	.string "a few POKÉMON rather than attempting\l"
 	.string "to train them all simultaneously.$"
 
 
@@ -9382,7 +9382,7 @@ RocketHideoutViridian_Text_RocketDefeated:
 
 RocketHideoutViridian_Text_RocketPostBattle:
 	.string "An underground base situated just\n"
-	.string "below a Pokémon League-approved GYM,\l"
+	.string "below a POKÉMON League-approved GYM,\l"
 	.string "quite ingenious, don't you think?$"
 
 
@@ -11866,13 +11866,13 @@ UnionCaveS1_Text_MontaneroPostBattle:
 
 UnionCaveS2_Text_GuayIntro:
 	.string "I'll go wherever it takes to catch the\n"
-	.string "Pokémon I like. That's what a great\l"
+	.string "POKÉMON I like. That's what a great\l"
 	.string "trainer does.$"
 
 
 
 UnionCaveS2_Text_GuayDefeated:
-	.string "I'd prefer caring my Pokémon rather\n"
+	.string "I'd prefer caring my POKÉMON rather\n"
 	.string "than making them battle!$"
 
 
@@ -12364,7 +12364,7 @@ Route36_Text_ChicaPostBattle:
 	.string "Those girls have ruined the GOLDENROD\n"
 	.string "GYM; that LEADER taught me many useful\l"
 	.string "things for battle. Now, they'll only talk\l"
-	.string "about cute and cool Pokémon in that\l"
+	.string "about cute and cool POKÉMON in that\l"
 	.string "GYM; I don't think I'll go back.$"
 
 
@@ -13252,7 +13252,7 @@ Route52_Text_NadadorIntro:
 	.string "Forgive me, I thought you were another\n"
 	.string "one of those executives from RADIO\l"
 	.string "TOWER. I see you know how to train your\l"
-	.string "Pokémon well.$"
+	.string "POKÉMON well.$"
 
 
 Route52_Text_NadadorDefeated:
@@ -14836,7 +14836,7 @@ NeoLavandaCementerioS1_Text_Exorcista2PostBattle:
 	.string "FUJI has done a commendable job;\n"
 	.string "without him, it would have taken much\l"
 	.string "longer to establish this extensive\l"
-	.string "CEMETERY.$"
+	.string "GRAVEYARD.$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista3Intro:
@@ -16051,10 +16051,10 @@ Magma2_Magma_6PostBattle:
 	.string "especially RHYPERIOR, have an\l"
 	.string "extraordinary ratio between HEALTH,\l"
 	.string "ATTACK, and DEFENSE for non-legendary\l"
-	.string "Pokémon. RHYPERIOR falls short by only\l"
+	.string "POKÉMON. RHYPERIOR falls short by only\l"
 	.string "5 points in the sum of these three\l"
 	.string "compared to GROUDON. Although many\l"
-	.string "here may dismiss KANTO Pokémon, none\l"
+	.string "here may dismiss KANTO POKÉMON, none\l"
 	.string "from other regions come close to such\l"
 	.string "physical power, highly valued here.$"
 
@@ -16129,7 +16129,7 @@ Aqua1_Text_Aqua_5Defeated:
 	.string "How powerful!$"
 
 Aqua1_Aqua_5PostBattle:
-	.string "MEWTWO!? Don't invent Pokémon; in\n"
+	.string "MEWTWO!? Don't invent POKÉMON; in\n"
 	.string "KANTO, only GENGAR and ALAKAZAM are\l"
 	.string "significant special attackers, far from\l"
 	.string "KYOGRE's BASE 150.$"
@@ -16868,7 +16868,7 @@ NeoRoute15_Text_Colegial2Defeated:
 	.string "Oh no! How could I have lost?$"
 
 NeoRoute15_Colegial2PostBattle:
-	.string "If Pokémon were a subject, I would be\n"
+	.string "If POKÉMON were a subject, I would be\n"
 	.string "the best!$"
 
 NeoRoute15_Text_Colegial3Intro:

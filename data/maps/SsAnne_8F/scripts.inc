@@ -9,9 +9,9 @@ release
 end
 
 SsAnne8F_Text_2:
-.string "ANDRA: Be sure that you block any\n"
-	.string "possible scape routes for the CAPTAIN.\l"
-	.string "We're gonna have a little chat with him.$"
+	.string "ANDRA: {PLAYER}, make sure the\n"
+	.string "Captain can't escape. Let's you and I\l"
+	.string "have a little chat with him.$"
 
 
 
@@ -36,7 +36,7 @@ end
 
 SsAnne8FDocumento_Text_100:
 .string "Eww!\n"
-	.string "I shouldn't have looked!$"
+	.string "Shouldn't have looked!$"
 
 
 
@@ -203,226 +203,222 @@ release
 end
 
 SsAnne_8F_Capitan_Text_1:
-.string "CAPTAIN: Is there anything I may do,\n"
-	.string "for you young ones?$"
+	.string "Is there something I can help\n"
+	.string "you with, kids?$"
 
 SsAnne_8F_Capitan_Text_2:
-.string "ANDRA: Indeed there is, CAPTAIN. It's\n"
-	.string "said that you have sailed around the 7\l"
-	.string "seas, you are a legend among sailors\l"
-	.string "because of the rare POKÉMON that you\l"
-	.string "have seen.$"
+	.string "ANDRA: Actually, there is. You see,\n"
+	.string "Captain, you're known as a living legend\l"
+	.string "in the seafaring world; you've sailed the\l"
+	.string "seven seas and seen many rare POKÉMON,\l"
+	.string "isn't that right?$"
 
 SsAnne_8F_Capitan_Text_3:
-.string "We were just wondering if you could give\n"
-	.string "us prove of all those voyages by\l"
-	.string "letting us take a look on the famous\l"
-	.string "jar of yours, which contains one of\l"
-	.string "the biggest mysteries of our world.$"
+	.string "We were wondering if you might show us a\n"
+	.string "glimpse of all those travels by letting\l"
+	.string "us see that famous jar - the jar that is\l"
+	.string "said to hold one of the greatest\l"
+	.string "mysteries in the world…$"
 
 SsAnne_8F_Capitan_Text_4:
-.string "CAPTAIN: You mean this.$"
+	.string "CAPTAIN: You mean, this jar here?$"
 
 SsAnne_8F_Capitan_Text_5:
-.string "ANDRA: Wow, it is{PAUSE 25}…{PAUSE 25} enigmatic.$"
+.string "ANDRA: Wow, it's so… mysterious.$"
 
 SsAnne_8F_Capitan_Text_6:
-.string "CAPTAIN: Sure it is, young one, the\n"
-	.string "POKÉMON that left this fragment is not\l"
-	.string "as anything that we have ever seen.\l"
-	.string "Have you heard about the\l"
-	.string "PSEUDO-LEGENDARIES legends?$"
+	.string "CAPTAIN: That's right, kid. The POKÉMON\n"
+	.string "this fragment belongs to is unlike\l"
+	.string "anything you've ever seen before. Have\l"
+	.string "you heard of the legend of the\l"
+	.string "Pseudo-Legendary POKÉMON?$"
 
 SsAnne_8F_Capitan_Text_7:
-	.string "ANDRA: Not so much, CAPTAIN..$"
+	.string "ANDRA: Pseudo-Legendary POKÉMON, sir?$"
 
 SsAnne_8F_Capitan_Text_8:
-.string "CAPTAIN: I supposed that. In this\n"
-	.string "region you can see LANCE's DRAGONITE,\l"
-	.string "for example.$"
+	.string "CAPTAIN: In this region, you have\n"
+	.string "Lance's Dragonite, for example.$"
 
 SsAnne_8F_Capitan_Text_9:
-.string "CAPTAIN: These POKÉMON that, without\n"
-	.string "being born with the features which\l"
-	.string "LEGENDARIES were gifted with by\l"
-	.string "nature, are able to grow and develop so\l"
-	.string "that, after a long process, their\l"
-	.string "capacities are as high or more than\l"
-	.string "LEGENDARIES. PSEUDO-LEGENDARIES\l"
-	.string "POKÉMON usually represent their region\l"
-	.string "nature. keeping stored inside\l"
-	.string "themselves that essence gave by their\l"
-	.string "region which will allow them to reach\l"
-	.string "their whole potential.$"
+	.string "CAPTAIN: These are POKÉMON that, while\n"
+	.string "not born with the natural qualities of\l"
+	.string "Legendaries, can grow and evolve to a\l"
+	.string "point where, after a long process, they\l"
+	.string "become as powerful-or even superior to- a\l"
+	.string "typical Legendary. Pseudo-Legendary\l"
+	.string "POKÉMON often represent the unique\l"
+	.string "flora and fauna of their region. From\l"
+	.string "their earliest stages, they carry within\l"
+	.string "them the essence of their homeland,\l"
+	.string "which allows them to reach their full\l"
+	.string "potential later on.$"
 
 SsAnne_8F_Capitan_Text_10:
-.string "CAPTAIN: POKÉMON chosen among the\n"
-	.string "mortals, who are gifted with the\l"
-	.string "opportunity of entering divine terrain,\l"
-	.string "that is what defines a\l"
-	.string "PSEUDO-LEGENDARY.$"
+	.string "CAPTAIN: POKÉMON chosen from among\n"
+	.string "the mortals, given the potential\l"
+	.string "opportunity to tread into divine\l"
+	.string "territory-that's what\l"
+	.string "Pseudo-Legendaries are.$"
 
 SsAnne_8F_Capitan_Text_11:
-.string "CAPTAIN: All the scientists that have\n"
-	.string "researched about the POKÉMON that\l"
-	.string "this fragment belongs to, say that they\l"
-	.string "has many of the features that define a\l"
-	.string "PSEUDO-LEGENDARY, but also shares\l"
-	.string "aspects of pure LEGENDARIES. It's a\l"
-	.string "unique case.$"
+	.string "CAPTAIN: Scientists who have studied\n"
+	.string "this fragment say the POKÉMON it\l"
+	.string "belongs to has many of the traits\l"
+	.string "usually associated with\l"
+	.string "Pseudo-Legendaries, but it also shares\l"
+	.string "characteristics with true Legendaries.\l"
+	.string "It's truly one of a kind.$"
 
 SsAnne_8F_Capitan_Text_12:
-.string "ANDRA: It's impressive. You look like a\n"
-	.string "really cultured man, and you may have\l"
-	.string "more than a thousand stories to tell.$"
+	.string "ANDRA: Impressive. You really are a man\n"
+	.string "of wisdom, Captain, with a thousand\l"
+	.string "stories to tell.$"
 
 SsAnne_8F_Capitan_Text_13:
-.string "CAPTAIN: And you two look like two\n"
-	.string "younglings who want to learn. I'd be glad\l"
-	.string "to teach you anything, nevertheless…$"
+	.string "CAPTAIN: And you two seem like young\n"
+	.string "people eager to learn. I'd be happy to\l"
+	.string "teach you, if it weren't for the fact\l"
+	.string "that…$"
 
 SsAnne_8F_Capitan_Text_14:
-.string "CAPTAIN: I know who you are and why you\n"
-	.string "are here. A crew member warned us about\l"
-	.string "certain organization that answers to\l"
-	.string "the name of TEAM ROCKET, and your\l"
-	.string "clothing matches exactly the\l"
-	.string "description.$"
+	.string "CAPTAIN: I know who you are and why\n"
+	.string "you're here. One of the crew members\l"
+	.string "already alerted us about a certain\l"
+	.string "criminal organization called Team\l"
+	.string "Rocket, and your outfits match their\l"
+	.string "description exactly.$"
 
 SsAnne_8F_Capitan_Text_15:
-	.string "You know, among all the seas that I've\n"
-	.string "sailed across, HOENN's are, with no\l"
-	.string "doubt, the wadest, wildest and with the\l"
-	.string "hugest diversity, but those were the\l"
-	.string "only ones that could give me a true\l"
-	.string "feeling of freedom. The feeling of\l"
-	.string "knowing that you are far, far away from\l"
-	.string "the darn corruption; a paradise gifted\l"
-	.string "by nature with millennia of history,\l"
-	.string "still to be discovered.$"
+	.string "You know, I've sailed many seas, but\n"
+	.string "none compare to Hoenn's-vast, wild, and\l"
+	.string "full of life. They're the only ones that\l"
+	.string "truly make you feel free, like you've\l"
+	.string "left all the corruption of this world\l"
+	.string "far behind. It's a paradise shaped by\l"
+	.string "nature over millennia, with so much still\l"
+	.string "waiting to be discovered.$"
 
 SsAnne_8F_Capitan_Text_16:
-.string "And now, you come to tell me that two\n"
-	.string "criminals, who came from a region whose\l"
-	.string "water is polluted by the POWER PLANT\l"
-	.string "and the CYCLING ROAD, are coming to\l"
-	.string "steal from ME an unique item that\l"
-	.string "reflects my labor as a sailor for the\l"
-	.string "last 30 years. Oh, no, you don't have an\l"
-	.string "enough level nor experience to do such\l"
-	.string "thing.$"
+	.string "And now you're telling me that two\n"
+	.string "criminals from a region where the\l"
+	.string "waters are polluted by the Power Plant\l"
+	.string "and Cycling Road are going to just\l"
+	.string "waltz in here and steal from me-a\l"
+	.string "one-of-a-kind item that reflects my 30\l"
+	.string "years of work as a sailor? Oh no, you\l"
+	.string "don't have the skill or experience to\l"
+	.string "pull that off.$"
 
 SsAnne_8F_Capitan_Text_17:
-.string "ANDRA: I'm sorry, CAPTAIN, but I\n"
-	.string "disagree. There aren't seas as SEVII\l"
-	.string "ISLANDS, which are truly enigmatic.$"
+	.string "ANDRA: Excuse me, Captain, but I must\n"
+	.string "disagree. No seas compare to those of\l"
+	.string "the Sevii Islands, and there is nowhere\l"
+	.string "else in the world with more secrets than\l"
+	.string "on the Sevii shores.$"
 
 SsAnne_8F_Capitan_Text_18:
-.string "CAPTAIN: Well, I'll admit you have a good\n"
-	.string "taste. I supose that both of you come\l"
-	.string "from there.$"
+	.string "CAPTAIN: Well, you've got good taste,\n"
+	.string "girl. I take it you both come from there.$"
 
 SsAnne_8F_Capitan_Text_19:
-.string "And you may be right. SEVII ISLANDS is a\n"
-	.string "place that I still have to fully explore.\l"
-	.string "I've heard that among the waters that\l"
-	.string "connect those 7 islands, there are a\l"
-	.string "few pieces of land, non-explored, but\l"
-	.string "inhabited by certain tribes, and as if it\l"
-	.string "wasn't enough…$"
+	.string "You might be right. The Sevii Islands\n"
+	.string "are still on my list to fully explore. I've\l"
+	.string "heard that among the waters\l"
+	.string "connecting the seven main islands,\l"
+	.string "there are some islets-unexplored but\l"
+	.string "home to certain tribes. And that's not\l"
+	.string "all…$"
 
 SsAnne_8F_Capitan_Text_20:
-.string "Topographic maps suggest that there\n"
-	.string "may be 8, 9 or maybe 10 islands on the\l"
-	.string "surroundings. The name SEVII is just a\l"
-	.string "formality due to the fact that only 7\l"
-	.string "islands are inhabited.$"
+	.string "Topographic maps show 8, 9, and maybe\n"
+	.string "even up to 10 islands in the area. The\l"
+	.string "name Sevii is just a formality since\l"
+	.string "only 7 of those islands are actually\l"
+	.string "inhabited.$"
 
 SsAnne_8F_Capitan_Text_21:
-.string "But{PAUSE 15}…{PAUSE 15} let's stop talking about\n"
-	.string "geography, this is not a class. I'd be\l"
-	.string "glad to keep talking for the rest of the\l"
-	.string "day, but unluckily for you, you have\l"
-	.string "come here to steal me something that I\l"
-	.string "appreciate, and I won't let that happen.$"
+	.string "CAPTAIN: But this isn't a geography\n"
+	.string "lesson. I'd love to stay and chat about\l"
+	.string "all this, but the truth is, you came here\l"
+	.string "to steal something precious to me, and\l"
+	.string "I'm not about to let that happen.$"
 
 SsAnne_8F_Capitan_Text_22:
-.string "CAPTAIN: SAILORS, YOU TAKE CARE THE\n"
-	.string "GIRL!$"
+.string "CAPTAIN: SAILORS!\n"
+	.string "Take care of the girl!$"
 
 SsAnne_8F_Capitan_Text_23:
-.string "ANDRA: Don't bother! It's ME who's gonna\n"
-	.string "take care of YOU!$"
+.string "ANDRA: It's going to be ME\n"
+	.string "taking care of YOU!$"
 
 SsAnne_8F_Capitan_Text_24:
-.string "CAPTAIN: I'll take care of you. Got any\n"
-	.string "idea of what will happen to you? Sure\l"
-	.string "don't, vile scoundrel. Your POKÉMON won't\l"
-	.string "be able to scratch even a little my\l"
-	.string "precious crew, which have been trained\l"
-	.string "in the sea for years! I'll cut you in half\l"
-	.string "and serve what's left of you in the bow's\l"
-	.string "party!$"
+	.string "CAPTAIN: I'll deal with you. You have no\n"
+	.string "idea what you're in for, you villain. Your\l"
+	.string "POKÉMON are no match for my crew,\l"
+	.string "hardened by years at sea! I'm going to\l"
+	.string "cut you in half and serve what's left of\l"
+	.string "you at the party abovedeck!$"
 
 SsAnne_8F_Capitan_Text_25:
-.string "Who the hell are you?!$"
+.string "Who the hell are you people?!$"
 
 SsAnne_8F_Capitan_Text_26:
-.string "ANDRA: GOLBAT, finish this! WING\n"
-	.string "ATTACK!$"
+.string "ANDRA: GOLBAT, finish this!\n"
+	.string "WING ATTACK!$"
 
 SsAnne_8F_Capitan_Text_27:
-.string "(ANDRA took the jar from the\n"
-	.string "CAPTAIN).$"
+.string "(ANDRA took the jar\n"
+	.string "from the CAPTAIN).$"
 
 SsAnne_8F_Capitan_Text_28:
-.string "CAPTAIN: This can't be happening. My\n"
-	.string "crew{PAUSE 15}…{PAUSE 15} you made fun of them, you made\l"
-	.string "them look ridiculous and you are just\l"
-	.string "two young grunts of a local gang. How\l"
-	.string "dishonoring!$"
+	.string "CAPTAIN: This can't be happening. My\n"
+	.string "crew, outdone and humiliated by a\l"
+	.string "couple of young grunts from a local\l"
+	.string "gang. What a disgrace!$"
 
 SsAnne_8F_Capitan_Text_29:
-.string "ANDRA: HIGH RANK grunts, CAPTAIN. I've\n"
-	.string "respected your rank, so please, do the\l"
-	.string "same with ours.$"
+	.string "ANDRA: High-ranking grunts, Captain.\n"
+	.string "I've respected your rank, so you should\l"
+	.string "respect ours.$"
 
 SsAnne_8F_Capitan_Text_30:
-.string "ANDRA: Moreover, we're going to make\n"
-	.string "good use of this jar. We are going to\l"
-	.string "investigate the darn POKÉMON that\l"
-	.string "matches with the sample, instead of\l"
-	.string "leaving it for being watched ‘till the\l"
-	.string "end of times for remembering your good\l"
-	.string "old days. Don't take it personally, we'll\l"
-	.string "be sending you a letter with the\l"
-	.string "results of our research, is it OK? That\l"
-	.string "intel may be worthed few million bucks.$"
+	.string "ANDRA: Besides, look on the bright side.\n"
+	.string "We'll actually put that jar to good use\l"
+	.string "and figure out exactly which POKÉMON it\l"
+	.string "came from, instead of just letting it\l"
+	.string "gather dust and remind everyone of\l"
+	.string "some old has-been's glory days. Don't\l"
+	.string "take it personally. As a thank you for\l"
+	.string "your cooperation, we'll send you a letter\l"
+	.string "with the results of our research. How\l"
+	.string "does that sound? That information\l"
+	.string "could be worth millions, you know.$"
 
 SsAnne_8F_Capitan_Text_31:
-.string "CAPTAIN: You insolent young one! No\n"
-	.string "one is getting out of here!$"
+.string "CAPTAIN: You insolent brat!\n"
+	.string "No one is leaving this cabin!$"
 
 SsAnne_8F_Capitan_Text_32:
-.string "ANDRA: TENTACOOL! Use Poison sting\n"
-	.string "against the CAPTAIN!$"
+.string "ANDRA: TENTACOOL!\n"
+	.string "POISON STING!$"
 
 SsAnne_8F_Capitan_Text_33:
 .string "cool!$"
 
 SsAnne_8F_Capitan_Text_34:
-.string "CAPTAIN: Ugh!$"
+.string "CAPTAIN: Hnrgh!$"
 
 SsAnne_8F_Capitan_Text_35:
-.string "CAPTAIN: My head{PAUSE 25}…{PAUSE 25} Damn you, you\n"
-	.string "poisoned me!$"
+.string "CAPTAIN: My head…\n"
+	.string "That thug poisoned me!$"
 
 SsAnne_8F_Capitan_Text_36:
-	.string "SAILORS: CAPTAIN! You OK?$"
+	.string "SAILORS: CAPTAIN!$"
 
 SsAnne_8F_Capitan_Text_37:
-.string "{PLAYER}! Now! This is the perfect\n"
-	.string "moment for us to flee!$"
+.string "ANDRA: {PLAYER}! Now!\n"
+	.string "We need to get out of here, fast!$"
 
 SsAnne_8F_Capitan_move_1:
 face_up
@@ -560,11 +556,11 @@ release
 end
 
 SsAnne_8F_Capitan_Papelera_Texto_1:
-.string "It's a trash can, pretty clean by the\n"
-	.string "way.$"
+.string "This trash can is\n"
+	.string "shiny and clean.$"
 
 SsAnne_8F_Capitan_Papelera_Texto_2:
-	.string "Eww! I shouldn't have looked.$"
+	.string "Gross! Shouldn't have looked!$"
 
 SsAnne_8F_Capitan_Marineros::
 msgbox SsAnne_8F_Capitan_Marineros_Text_1 MSGBOX_SIGN
@@ -573,5 +569,5 @@ end
 
 
 SsAnne_8F_Capitan_Marineros_Text_1:
-.string "You OK, CAPTAIN?! We'll bring you\n"
-	.string "something for the headache!$"
+.string "CAPTAIN! Are you hurt?\n"
+	.string "We'll bring you an ANTIDOTE!$"

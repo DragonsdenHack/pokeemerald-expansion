@@ -14,8 +14,8 @@ release
 end
 
 SsAnne11F_Text_2:
-.string "Whoooaaa!\n"
-.string "SAFARI ZONE! Here we go!$"
+.string "Woooooo!\n"
+.string "Safari Zone, here I come!$"
 
 
 
@@ -27,8 +27,7 @@ release
 end
 
 SsAnne11F_Text_3:
-.string "I can feel some feeling of superiority\n"
-	.string "from some of the guests, when they're\l"
-	.string "not more than a bunch of spoiled kids.\l"
-	.string "My daughter didn't receive such\l"
-	.string "education.$"
+	.string "Some of the other guests have behaved\n"
+	.string "terribly on this cruise, like spoiled\l"
+	.string "brats. I'm proud to say I've raised my\l"
+	.string "daughter better than that.$"

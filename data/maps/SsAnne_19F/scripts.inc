@@ -9,8 +9,8 @@ release
 end
 
 SsAnne_19F_Text_1:
-.string "For you and your kind, you may deserve a\n"
-	.string "reflection period somewhere far away!$"
+	.string "People like you could use some time to\n"
+	.string "reflect on your actions-behind bars!$"
 
 
 
@@ -22,5 +22,5 @@ release
 end
 
 SsAnne_19F_Text_2:
-.string "My dad says you're the bad guys and\n"
-	.string "should be in jail. Is that true?$"
+	.string "My dad says you're bad people and should\n"
+	.string "be in jail. Is that true?$"

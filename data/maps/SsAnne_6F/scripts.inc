@@ -8,8 +8,8 @@ release
 end
 
 SsAnne6F_Text_1:
-.string "I am the coolest guy here… and you know\n"
-	.string "that.$"
+.string "I'm the coolest guy around\n"
+	.string "here… and you know it.$"
 
 
 
@@ -20,7 +20,7 @@ release
 end
 
 SsAnne6F_Text_2:
-.string "Oh…, what a COOL TRAINER so… cool!$"
+.string "Oh… what a COOL TRAINER so… cool!$"
 
 
 
@@ -42,12 +42,11 @@ release
 end
 
 SsAnne6F_Text_5:
-.string "I am one of those who like to witness\n"
-	.string "these kinds of events as a mere\l"
-	.string "observer, you can know more about a\l"
-	.string "person by observing their attitude at\l"
-	.string "parties than by talking to them for\l"
-	.string "hours.$"
+	.string "I'm the type who prefers to observe at\n"
+	.string "events like these. You learn more about\l"
+	.string "someone by watching them at a party\l"
+	.string "like this one than by talking to them\l"
+	.string "for hours.$"
 
 
 
@@ -61,7 +60,7 @@ end
 SsAnne6F_Text_6:
 .string "HAHAHA!\n"
 .string "Waiter!\l"
-.string "Another SHUCKLE's liqueur!$"
+.string "Get me another SHUCKLE brandy!$"
 
 
 
@@ -73,11 +72,12 @@ release
 end
 
 SsAnne6F_Text_7:
-.string "HA, HA! Do you know why people like this\n"
-	.string "party? … … Because for a few hours,\l"
-	.string "they evade all their problems and\l"
-	.string "deficiencies of their miserable lives!\l"
-	.string "Ha! Waiter, another SHUCKLE's liqueur.$"
+	.string "HA, HA! Y'know why… people love to party\n"
+	.string "so much? … … ‘Cause for a few hours… it\l"
+	.string "lets ‘em escape all the problems… and\l"
+	.string "shortcomings of their miserable lives!\l"
+	.string "HA! Waiter! Get me another CACTURNE\l"
+	.string "tequila!$"
 
 
 
@@ -89,12 +89,12 @@ release
 end
 
 SsAnne6F_Text_8:
-.string "So after all that effort and discipline,\n"
-	.string "this was supposed to be the final prize.\l"
-	.string "Huh, ironically I felt more fulfilled in\l"
-	.string "my whole way here than now that I'm\l"
-	.string "here. Fridays are always disappointing,\l"
-	.string "young one!$"
+	.string "So after all that effort and discipline,\n"
+	.string "this was supposed to be the grand\l"
+	.string "prize. Funny enough, I found more joy in\l"
+	.string "the journey than in finally getting\l"
+	.string "here. The finish line is always a let\l"
+	.string "down, kid!$"
 
 
 
@@ -106,9 +106,9 @@ release
 end
 
 SsAnne6F_Text_9:
-.string "Everything was going perfectly until\n"
-	.string "that couple appeared with their kitsch.\l"
-	.string "They ruined my landscape!$"
+	.string "Ugh, I was having a lovely time until\n"
+	.string "that lovey-dovey couple showed up\l"
+	.string "being all sappy and gross. Get a room!$"
 
 
 
@@ -120,9 +120,10 @@ release
 end
 
 SsAnne6F_Text_10:
-.string "Ugh… Do not even dare to try that weird\n"
-	.string "liquor that the waiter serves, I am\l"
-	.string "going to vomit…$"
+	.string "Ugh… Don't even think about trying any\n"
+	.string "of that weird drink the waiter over\l"
+	.string "there is serving. I think I'm gonna throw\l"
+	.string "up…$"
 
 
 
@@ -134,12 +135,10 @@ release
 end
 
 SsAnne6F_Text_11:
-.string "The uncertainty of the moment, being\n"
-	.string "carried by intuition… I can't\l"
-	.string "understand yet what is the last\l"
-	.string "essence that gives me the exact\l"
-	.string "formula to squeeze this to the maximum\l"
-	.string "in events like now…$"
+	.string "The uncertainty of the moment, just\n"
+	.string "going with your gut… I still can't quite\l"
+	.string "grasp the key to getting the most out\l"
+	.string "of events like this one…$"
 
 
 
@@ -150,9 +149,10 @@ release
 end
 
 SsAnne6F_Text_12:
-.string "Am I in a dream? I had the honor to see\n"
-	.string "the majestic and legendary LANCE's\l"
-	.string "DRAGONITE overflying the SS.ANNE!$"
+	.string "Am I dreaming? I just had the incredible\n"
+	.string "honor of seeing LANCE's majestic,\l"
+	.string "legendary DRAGONITE flying over the SS\l"
+	.string "ANNE!$"
 
 
 
@@ -163,7 +163,7 @@ release
 end
 
 SsAnne6F_Text_13:
-	.string "That was LANCE himself in the flesh!!$"
+	.string "That was LANCE himself, in the flesh!$"
 
 SsAnne6F_EventScript_Marinero::
 	trainerbattle_single TRAINER_JESSICA_5, SsAnne6F_Text_MarineroIntro, SsAnne6F_Text_MarineroDefeated
@@ -251,107 +251,106 @@ release
 end
 
 SSAnne6F_Lance_Surge_Text_1:
-.string "???: It is a pleasure to see you again,\n"
-	.string "LANCE, the new KANTO'S CHAMPION. Why\l"
-	.string "did you call me here on a special day\l"
-	.string "like this, the annual return of SS.ANNE?$"
+	.string "????: It's a pleasure to see you again,\n"
+	.string "LANCE, Champion of the new KANTO. What\l"
+	.string "brings you here today, on such a special\l"
+	.string "occasion as the annual return of the SS\l"
+	.string "ANNE?$"
 
 
 SSAnne6F_Lance_Surge_Text_2:
-.string "LANCE: I'll be quick, LT.SURGE. All major\n"
-	.string "cities are being subjected to\l"
-	.string "inspection and control routines to\l"
-	.string "guarantee the security and comfort of\l"
-	.string "our citizens and ensure that the\l"
-	.string "machinery that moves this region works\l"
-	.string "correctly. How are the people of\l"
-	.string "VERMILION, SURGE?$"
+	.string "LANCE: I'll be brief, LT. SURGE. All major\n"
+	.string "cities are undergoing routine\l"
+	.string "inspections and controls to ensure the\l"
+	.string "safety and comfort of our citizens, and\l"
+	.string "to confirm that the mechanisms driving\l"
+	.string "this region are operating flawlessly.\l"
+	.string "How are the people of Vermilion, Surge?$"
 
 SSAnne6F_Lance_Surge_Text_3:
-.string "LT.SURGE: Everything is going\n"
-	.string "correctly, SIR LANCE. VERMILION's\l"
-	.string "harbor exponentially amplifies their\l"
-	.string "contact networks with other regions,\l"
-	.string "and I have understood that other\l"
-	.string "cities, like CELADON with their big DEPT.\l"
-	.string "STORE or FUCHSIA with the SAFARI ZONE,\l"
-	.string "do the same with their own assets.$"
+	.string "LT.SURGE: Everything is running\n"
+	.string "smoothly, sir. Vermilion's harbor has\l"
+	.string "significantly expanded its network of\l"
+	.string "contacts with other regions, and I\l"
+	.string "understand that other cities, like\l"
+	.string "Celadon with its massive Department\l"
+	.string "Store or Fuchsia with the Safari Zone,\l"
+	.string "are doing the same with their\l"
+	.string "respective assets.$"
 
 SSAnne6F_Lance_Surge_Text_4:
-.string "LANCE: All this is great SURGE, our\n"
-	.string "region's economy is experiencing an\l"
-	.string "unprecedented upturn, and quality of\l"
-	.string "life is higher.$"
+	.string "LANCE: That's great to hear, Surge. The\n"
+	.string "economy of our region is experiencing\l"
+	.string "an unprecedented boom, and the\l"
+	.string "standard of living here continues\l"
+	.string "rising steadily…$"
 
 SSAnne6F_Lance_Surge_Text_5:
-.string "LANCE But this is not the answer I was\n"
-	.string "expecting, SURGE. I was wondering…$"
+	.string "LANCE: But that's not the question I\n"
+	.string "was asking, Surge. What I really want to\l"
+	.string "know is…$"
 
 SSAnne6F_Lance_Surge_Text_6:
-.string "LANCE: How are people managing the\n"
-	.string "fact that one of the officials in\l"
-	.string "charge at the enemy region during the\l"
-	.string "BIG WAR. now is the GYM LEADER and\l"
-	.string "VERMILION's main icon. Have people\l"
-	.string "already accepted your role change?$"
+	.string "LANCE: How are people handling the fact\n"
+	.string "that one of the enemy's commanding\l"
+	.string "officers during the Great War is now a\l"
+	.string "Gym Leader and the main icon of\l"
+	.string "Vermilion? Have they accepted your\l"
+	.string "change of role?$"
 
 SSAnne6F_Lance_Surge_Text_7:
-.string "LT.SURGE: I am afraid the war topic\n"
-	.string "keeps being a taboo topic for the\l"
-	.string "entire KANTO and specially here SIR\l"
-	.string "LANCE. People prefer not to talk about\l"
-	.string "it, keep it in the past, and continue\l"
-	.string "their lives as if nothing happened.\l"
-	.string "Maybe there would be some mistrust\l"
-	.string "from some population sectors.$"
+	.string "LT.SURGE: I'm afraid the war is still a\n"
+	.string "taboo topic throughout KANTO,\l"
+	.string "especially here, sir. People prefer not\l"
+	.string "to talk about it, to leave it behind and\l"
+	.string "move on with their lives as if nothing\l"
+	.string "ever happened. There might still be\l"
+	.string "some lingering resentment from certain\l"
+	.string "factions…$"
 
 SSAnne6F_Lance_Surge_Text_8:
-.string "LANCE: Are you referring to TEAM\n"
-	.string "ROCKET?$"
+	.string "LANCE: By certain factions, do\n"
+	.string "you mean TEAM ROCKET?$"
 
 SSAnne6F_Lance_Surge_Text_9:
-.string "LT.SURGE: I was not talking about\n"
-	.string "someone specially, but they could be a\l"
-	.string "perfect example. They started as a\l"
-	.string "protestant and non conformist\l"
-	.string "organization for the new postwar\l"
-	.string "government, due to their criminal acts\l"
-	.string "and a correct desprestige campaign by\l"
-	.string "your government caused that public\l"
-	.string "opinion to TEAM ROCKET to be bad,\l"
-	.string "though. Still exists some guilds that\l"
-	.string "support them and feel identified with\l"
-	.string "their patriotic feeling, as example\l"
-	.string "motorists from CYCLING ROAD.$"
+	.string "LT.SURGE: I wasn't referring to anyone\n"
+	.string "specific, but they're probably the best\l"
+	.string "example. They started out as a protest\l"
+	.string "group, unhappy with the new post-war\l"
+	.string "government. But with their criminal\l"
+	.string "activities, their extreme ideas, and the\l"
+	.string "effective smear campaign in recent\l"
+	.string "years, public opinion on the Rockets is\l"
+	.string "what it is today. There are still some\l"
+	.string "groups that sympathize with them and\l"
+	.string "share their anti-patriotic views, like\l"
+	.string "the bikers on Cycling Road, for example.$"
 
 SSAnne6F_Lance_Surge_Text_10:
-.string "LANCE: I see. The POKÉMON LEAGUE\n"
-	.string "COMMITTEE will take some actions about\l"
-	.string "this. Meanwhile, keep doing your job and\l"
-	.string "maintain order and discipline in\l"
-	.string "VERMILION. If people keep seeing\l"
-	.string "improvements, they will definitely\l"
-	.string "accept you as the place's SHERIFF.\l"
-	.string "People have short memories, and good\l"
-	.string "actions can overshadow the wrong ones\l"
-	.string "(for them). So, be patient; we just need\l"
-	.string "time, adequate stabilization, and\l"
-	.string "progression. KANTO will accept this NEW\l"
-	.string "WORLD ORDER almost without noticing.$"
+	.string "LANCE: … I see. The Pokémon League\n"
+	.string "Committee will take the necessary\l"
+	.string "steps regarding this. In the meantime,\l"
+	.string "keep maintaining order and discipline in\l"
+	.string "Vermilion. If people see progress,\l"
+	.string "they'll accept you as the sheriff here.\l"
+	.string "People have short memories, Surge -\l"
+	.string "good deeds can overshadow the past. So\l"
+	.string "be patient; we just need time. With the\l"
+	.string "right progress, KANTO will accept the\l"
+	.string "New World Order without even realizing\l"
+	.string "it.$"
 
 SSAnne6F_Lance_Surge_Text_11:
-.string "LT.SURGE: At your order SIR LANCE.$"
+.string "LT.SURGE: Sir yes sir.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-.string "LANCE: That's all for now SURGE. I hope\n"
-	.string "you have fun at this party on SS.ANNE,\l"
-	.string "which is one of the best progress\l"
-	.string "indicators.$"
+	.string "LANCE: That's all for now, Surge. Enjoy\n"
+	.string "the party here on the SS ANNE - it's one\l"
+	.string "of the best markers of progress.$"
 
 SSAnne6F_Lance_Surge_Text_13:
-.string "LT:SURGE: These sort of parties were\n"
-	.string "never my thing. ELECTABUZZ use\l"
-	.string "TELEPORT!$"
+	.string "LT. SURGE: This kind of party was never\n"
+	.string "really my thing. Electabuzz! Teleport!$"
 
 SSAnne6F_Lance_Surge_move1:
 walk_in_place_left

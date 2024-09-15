@@ -9,8 +9,8 @@ release
 end
 
 SsAnne_20F_Text_1:
-.string "It's not OK to spy on a girl while getting\n"
-	.string "dressed up. Get out!$"
+	.string "It's rude to spy on a girl while she's\n"
+	.string "getting ready. Get out of here!$"
 
 
 
@@ -23,6 +23,6 @@ end
 
 SsAnne_20F_Text_2:
 .string "…\n"
-.string "We're getting dressed up\l"
-.string "for the great party!!\l"
-.string "Get out, you busybody!$"
+.string "We're getting ready\l"
+.string "for the big party!\l"
+.string "Get out of here, you snoop!$"

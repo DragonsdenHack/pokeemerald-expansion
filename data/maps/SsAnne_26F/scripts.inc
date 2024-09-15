@@ -22,11 +22,11 @@ end
 
 SsAnne26F_1_Texto_1:
 .string "You look tired.\n"
-	.string "Would you like to rest a bit?$"
+	.string "Would you like to rest for a bit?$"
 
 SsAnne26F_1_Texto_2:
-.string "I'm glad to see that you're now full of\n"
-	.string "energy.$"
+	.string "Oh, sorry to bother you. You reminded me\n"
+	.string "so much of my little brother…$"
 
 SsAnne26F_1_Texto_3:
 .string "Oh, sorry for bothering you, you look a\n"
