@@ -1060,3 +1060,8 @@ Silph_S2_Discoxtrano_Text_1:
 	.string "a PORYGON2 en PORYGON-Z, una versión\l"
 	.string "algo más vulnerable a los ataques, pero\l"
 	.string "con una ofensiva extraordinaria.$"
+
+Silph_S2_Llave::
+lock
+release
+end

@@ -1,10 +1,17 @@
 IlexForest_MapScripts::
 map_script MAP_SCRIPT_ON_RESUME, IlexForest_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, IlexForest_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, IlexForest_OnFrame
 	.byte 0
 
 IlexForest_OnResume:
 	call IlexForest_SetupEscapeWarp
 	end
+
+IlexForest_OnFrame:
+map_script_2 VAR_UNUSED_0x40FF, 20, IlexForest_Escena
+map_script_2 VAR_UNUSED_0x40FF, 22, IlexForest_Escena_Despues
+	.2byte 0
 
 IlexForest_SetupEscapeWarp::
 	setescapewarp MAP_AZALEA_TOWN, 7, 11
@@ -218,9 +225,6 @@ walk_up
 walk_up
 walk_up
 walk_up
-walk_up
-walk_right
-walk_right
 walk_right
 walk_right
 step_end
@@ -228,7 +232,7 @@ step_end
 IlexForest_Escena_Move_2:
 walk_fast_down
 lock_facing_direction
-walk_down
+walk_up
 unlock_facing_direction
 step_end
 
@@ -281,12 +285,15 @@ lock
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 setflag FLAG_HOENN_674
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 removeobject 19
 removeobject 20
 removeobject 3
 removeobject 12
 removeobject 13
 removeobject 16
+addobject 15
+addobject 14
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, IlexForest_Escena_Move_1
 waitmovement 0x0
@@ -296,15 +303,19 @@ msgbox IlexForest_Escena_Texto_1 MSGBOX_AUTOCLOSE
 waitmoncry
 applymovement 14, IlexForest_Escena_Move_2
 delay 10
-dofieldeffect FLDEFF_USE_CUT_ON_TREE
-waitstate
 applymovement VAR_LAST_TALKED, Movement_CutTreeDown
 waitmovement 0
 removeobject VAR_LAST_TALKED
-delay 15
+playse SE_M_CUT
+waitse
+removeobject 2
+delay 75
+applymovement 14, IlexForest_Escena_Move_3
 applymovement 15, IlexForest_Escena_Move_3
 waitmovement 0x0
+delay 15
 msgbox IlexForest_Escena_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 addobject 18
 applymovement 18, IlexForest_Escena_Move_4
@@ -322,6 +333,7 @@ applymovement 18, IlexForest_Escena_Move_7
 waitmovement 0x0
 msgbox IlexForest_Escena_Texto_6 MSGBOX_AUTOCLOSE
 delay 10
+applymovement 14, IlexForest_Escena_Move_3
 applymovement 15, IlexForest_Escena_Move_3
 waitmovement 0x0
 msgbox IlexForest_Escena_Texto_7 MSGBOX_AUTOCLOSE
@@ -331,6 +343,7 @@ waitmovement 0x0
 msgbox IlexForest_Escena_Texto_8 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 15, IlexForest_Escena_Move_10
+applymovement 14, IlexForest_Escena_Move_10
 applymovement 18, IlexForest_Escena_Move_9
 waitmovement 0x0
 msgbox IlexForest_Escena_Texto_9 MSGBOX_AUTOCLOSE
@@ -371,22 +384,22 @@ waitmovement 0x0
 msgbox IlexForest_Escena_Texto_18 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 18, IlexForest_Escena_Move_16
-delay 50
+delay 250
 applymovement 15, IlexForest_Escena_Move_6
-waitmovement 0x0
+delay 15
 msgbox IlexForest_Escena_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
 delay 15
 msgbox IlexForest_Escena_Texto_20 MSGBOX_AUTOCLOSE
-waitmoncry
+delay 15
 clearflag FLAG_HOENN_674
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
-removeobject 15
-removeobject 18
-removeobject 14
 delay 15
+setvar VAR_UNUSED_0x40FF, 21
 warpsilent MAP_SOUTH_ROUTE45, 5, 82
 delay 100
 release
@@ -400,10 +413,16 @@ walk_slow_left
 walk_slow_left
 walk_slow_left
 walk_slow_left
+walk_slow_left
+walk_slow_left
 step_end
 
 IlexForest_Escena_Move_15:
 jump_in_place_left
+step_end
+
+IlexForest_Escena_Move_15.1:
+jump_in_place_down
 step_end
 
 IlexForest_Escena_Move_14:
@@ -514,7 +533,7 @@ step_end
 
 IlexForest_Escena_Despues_Move_2:
 lock_facing_direction
-walk_down
+walk_up
 unlock_facing_direction
 step_end
 
@@ -530,7 +549,99 @@ face_left
 delay_16
 delay_8
 face_down
+step_end
 
+IlexForest_Escena_Despues_Move_5:
+delay_8
+face_left
+step_end
+
+IlexForest_Escena_Despues_Move_6:
+walk_slow_down
+step_end
+
+IlexForest_Escena_Despues_Move_7:
+face_left
+step_end
+
+IlexForest_Escena_Despues_Move_8:
+emote_exclamation_mark
+step_end
+
+IlexForest_Escena_Despues_Move_9:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+IlexForest_Escena_Despues_Move_10:
+walk_left
+step_end
+
+IlexForest_Escena_Despues_Move_11:
+walk_in_place_right
+step_end
+
+IlexForest_Escena_Despues_Move_12:
+delay_16
+face_left
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+IlexForest_Escena_Despues_Move_13:
+walk_in_place_left
+step_end
+
+IlexForest_Escena_Despues_Move_14:
+walk_right
+step_end
+
+IlexForest_Escena_Despues_Move_15:
+delay_8
+face_down
+step_end
+
+IlexForest_Escena_Despues_Move_16:
+walk_in_place_up
+step_end
+
+IlexForest_Escena_Despues_Move_17:
+delay_16
+face_left
+delay_16
+delay_16
+face_down
+step_end
+
+IlexForest_Escena_Despues_Move_7.1:
+emote_question_mark
+step_end
+
+IlexForest_Escena_Despues_Move_18:
+delay_16
+delay_8
+lock_facing_direction
+walk_slow_up
+unlock_facing_direction
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+delay_16
+face_down
+step_end
 
 IlexForest_Escena_Despues::
 lock
@@ -540,6 +651,7 @@ addobject 15
 addobject 14
 removeobject 20
 removeobject 19
+special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, IlexForest_Escena_Move_1
 waitmovement 0x0
 special RemoveCameraObject
@@ -547,74 +659,397 @@ applymovement 15, IlexForest_Escena_Despues_Move_1
 waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_1 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
-msgbox IlexForest_Escena_Despues_Texto_2 MSGBOX_AUTOCLOSE
 waitmoncry
+msgbox IlexForest_Escena_Despues_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 14, IlexForest_Escena_Move_2
 delay 10
-dofieldeffect FLDEFF_USE_CUT_ON_TREE
-waitstate
 applymovement VAR_LAST_TALKED, Movement_CutTreeDown
 waitmovement 0
 removeobject VAR_LAST_TALKED
-delay 15
+playse SE_M_CUT
+waitse
+removeobject 2
+delay 75
 msgbox IlexForest_Escena_Despues_Texto_3 MSGBOX_AUTOCLOSE
-delay 15
+delay 35
 applymovement 14, IlexForest_Escena_Despues_Move_3
 applymovement 15, IlexForest_Escena_Despues_Move_2
 waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 15, IlexForest_Escena_Despues_Move_3
 waitmovement 0x0
+delay 35
 msgbox IlexForest_Escena_Despues_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 15, IlexForest_Escena_Despues_Move_4
 waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, IlexForest_Escena_Despues_Move_5
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 15, IlexForest_Escena_Despues_Move_4
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 15, IlexForest_Escena_Despues_Move_6
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 14, IlexForest_Escena_Despues_Move_7.1
+waitmovement 0x0
+delay 35
+msgbox IlexForest_Escena_Despues_Texto_2 MSGBOX_AUTOCLOSE
+delay 25
 msgbox IlexForest_Escena_Despues_Texto_10 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 15, IlexForest_Escena_Despues_Move_7
+applymovement 14, IlexForest_Escena_Despues_Move_7
+waitmovement 0x0
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_11 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 15, IlexForest_Escena_Despues_Move_8
+waitmovement 0x0
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 12
+addobject 13
+applymovement 12, IlexForest_Escena_Despues_Move_9
+applymovement 13, IlexForest_Escena_Despues_Move_9
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 15, IlexForest_Escena_Despues_Move_10
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 13, IlexForest_Escena_Despues_Move_11
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 12, IlexForest_Escena_Despues_Move_12
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, IlexForest_Escena_Despues_Move_13
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_16 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 12, IlexForest_Escena_Despues_Move_8
+waitmovement 0x0
+applymovement 15, IlexForest_Escena_Despues_Move_15
+applymovement 12, IlexForest_Escena_Despues_Move_14
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_17 MSGBOX_AUTOCLOSE
+delay 5
+playse SE_PIN
+applymovement 15, IlexForest_Escena_Despues_Move_8
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 12, IlexForest_Escena_Despues_Move_3
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 12, IlexForest_Escena_Despues_Move_16
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_21 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 15, IlexForest_Escena_Despues_Move_8
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, IlexForest_Escena_Despues_Move_14
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, IlexForest_Escena_Despues_Move_17
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 12, IlexForest_Escena_Despues_Move_11
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_25 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 15, IlexForest_Escena_Despues_Move_8
+waitmovement 0x0
+delay 10
 msgbox IlexForest_Escena_Despues_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, IlexForest_Escena_Despues_Move_3
+waitmovement 0x0
+delay 10
 msgbox IlexForest_Escena_Despues_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, IlexForest_Escena_Despues_Move_3
+applymovement 15, IlexForest_Escena_Despues_Move_18
+waitmovement 0x0
+delay 10
 msgbox IlexForest_Escena_Despues_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 12, IlexForest_Escena_Despues_Move_16
+waitmovement 0x0
+msgbox IlexForest_Escena_Despues_Texto_28.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, IlexForest_Escena_Despues_Move_3
+applymovement 15, IlexForest_Escena_Despues_Move_19
+waitmovement 0x0
+delay 10
 msgbox IlexForest_Escena_Despues_Texto_29 MSGBOX_AUTOCLOSE
+playse SE_LEDGE
+applymovement 15, IlexForest_Escena_Move_15.1
+waitmovement 0x0
+waitse
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 14, IlexForest_Escena_Despues_Move_20
+applymovement 15, IlexForest_Escena_Despues_Move_21
+applymovement 12, IlexForest_Escena_Despues_Move_22
+applymovement 13, IlexForest_Escena_Despues_Move_22
+waitmovement 0x0
+removeobject 15
+removeobject 12
+removeobject 13
+applymovement 14, IlexForest_Escena_Despues_Move_23
+waitmovement 0x0
+playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox IlexForest_Escena_Despues_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+addobject 16
+applymovement 16, IlexForest_Escena_Despues_Move_24
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 14, IlexForest_Escena_Despues_Move_26
+applymovement 16, IlexForest_Escena_Despues_Move_25
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, IlexForest_Escena_Despues_Move_27
+applymovement 16, IlexForest_Escena_Despues_Move_16
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_33 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, IlexForest_Escena_Despues_Move_28
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_BALL_THROW
+waitse
+delay 15
+playse SE_BALL_TRADE
+waitse
+addobject 17
+delay 15
+playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox IlexForest_Escena_Despues_Texto_34 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 16, IlexForest_Escena_Despues_Move_29
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_35 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_38 MSGBOX_AUTOCLOSE
+applymovement 16, IlexForest_Escena_Despues_Move_16
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_39 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_40 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox IlexForest_Escena_Despues_Texto_41 MSGBOX_AUTOCLOSE
+playse SE_LEDGE
+applymovement 16, IlexForest_Escena_Despues_Move_31
+applymovement 14, IlexForest_Escena_Despues_Move_30
+waitmovement 0x0
+delay 45
 msgbox IlexForest_Escena_Despues_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_43 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox IlexForest_Escena_Despues_Texto_44 MSGBOX_AUTOCLOSE
+playse SE_LEDGE
+applymovement 14, IlexForest_Escena_Despues_Move_30
+waitmovement 0x0
+playse SE_LEDGE
+applymovement 14, IlexForest_Escena_Despues_Move_30
+waitmovement 0x0
+delay 15
 msgbox IlexForest_Escena_Despues_Texto_45 MSGBOX_AUTOCLOSE
+applymovement 16, IlexForest_Escena_Despues_Move_32
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_46 MSGBOX_AUTOCLOSE
+applymovement 16, IlexForest_Escena_Despues_Move_33
+waitmovement 0x0
+playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox IlexForest_Escena_Despues_Texto_47 MSGBOX_AUTOCLOSE
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_M_FLAME_WHEEL2
+applymovement 17, IlexForest_Escena_Despues_Move_34
+waitmovement 0x0
+delay 15
+playse SE_SUPER_EFFECTIVE
+waitse
+playmoncry SPECIES_SCYTHER, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+removeobject 14
+waitse
+delay 25
 msgbox IlexForest_Escena_Despues_Texto_48 MSGBOX_AUTOCLOSE
+delay 25
 msgbox IlexForest_Escena_Despues_Texto_49 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 16, IlexForest_Escena_Despues_Move_35
+waitmovement 0x0
 msgbox IlexForest_Escena_Despues_Texto_50 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+setvar VAR_UNUSED_0x40FF, 23
+warpsilent MAP_ROUTE27, 74, 8
 release
 end
+
+IlexForest_Escena_Despues_Move_35:
+face_up
+delay_16
+step_end
+
+IlexForest_Escena_Despues_Move_34:
+walk_fast_down
+walk_fast_down
+step_end
+
+IlexForest_Escena_Despues_Move_33:
+walk_in_place_down
+step_end
+
+IlexForest_Escena_Despues_Move_32:
+face_right
+delay_16
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+step_end
+
+IlexForest_Escena_Despues_Move_31:
+delay_16
+face_down
+step_end
+
+IlexForest_Escena_Despues_Move_30:
+jump_in_place_up
+step_end
+
+IlexForest_Escena_Despues_Move_29:
+face_left
+delay_16
+delay_16
+face_up
+delay_16
+step_end
+
+IlexForest_Escena_Despues_Move_28:
+walk_fast_up
+walk_fast_up
+step_end
+
+IlexForest_Escena_Despues_Move_27:
+delay_8
+face_up
+step_end
+
+IlexForest_Escena_Despues_Move_26:
+delay_16
+face_left
+step_end
+
+IlexForest_Escena_Despues_Move_25:
+walk_slow_up
+step_end
+
+IlexForest_Escena_Despues_Move_24:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+IlexForest_Escena_Despues_Move_23:
+face_left
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+face_up
+step_end
+
+
+IlexForest_Escena_Despues_Move_22:
+walk_in_place_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+IlexForest_Escena_Despues_Move_21:
+delay_16
+delay_8
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+IlexForest_Escena_Despues_Move_20:
+delay_16
+delay_16
+face_left
+delay_16
+delay_16
+emote_question_mark
+step_end
+
+IlexForest_Escena_Despues_Move_19:
+walk_down
+step_end
 
 IlexForest_Escena_Despues_Texto_1:
 	.string "¡SCYTHER! ¡Otra vez!$"
@@ -727,6 +1162,10 @@ IlexForest_Escena_Despues_Texto_28:
 	.string "Tenéis razón… el mundo ha cambiado. Si\n"
 	.string "no aprovecho estas herramientas, ¡me\l"
 	.string "quedaré atrás!$"
+
+IlexForest_Escena_Despues_Texto_28.1:
+	.string "Así se habla.\n"
+	.string "Serás tan guay como cualquiera.$"
 
 IlexForest_Escena_Despues_Texto_29:
 	.string "Espera aquí, SCYTHER. ¿O tal vez\n"

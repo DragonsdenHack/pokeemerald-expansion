@@ -782,6 +782,70 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SilphS2_Sotano"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 33,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 33,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 33,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 33,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Silph_S2_Llave"
     }
   ]
 }
