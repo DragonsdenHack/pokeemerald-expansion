@@ -279,3 +279,13 @@ Route27_Cartel_Texto_2:
 Route27_Cartel_Texto_1:
 .string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"
 	.string "PARTIR DE ESTE PUNTO$"
+
+
+Route27_Evento_Encinar::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+warpsilent MAP_ILEX_FOREST, 15, 53
+waitmovement 0x0
+delay 100
+release
+end

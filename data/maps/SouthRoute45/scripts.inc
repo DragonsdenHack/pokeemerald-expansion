@@ -189,3 +189,12 @@ SouthRoute45_SudowoodoRest_Text:
 	.string "…\l"
 	.string "(Es un POKÉMON, parece estar\l"
 	.string "reposando)$"
+
+SouthRoute45_Evento_Encinar::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+warpsilent MAP_ILEX_FOREST, 15, 53
+waitmovement 0x0
+delay 100
+release
+end
