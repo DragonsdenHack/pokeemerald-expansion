@@ -3655,9 +3655,9 @@ static const struct WindowTemplate sWindowTemplate_GiftSelect = {
 static const struct WindowTemplate sWindowTemplate_ThreeOptions = {
     .bg = 0,
     .tilemapLeft = 8,
-    .tilemapTop = 6,
+    .tilemapTop = 4,
     .width = 14,
-    .height = 8,
+    .height = 12,
     .paletteNum = 12,
     .baseBlock = 0x0155
 };
@@ -3717,6 +3717,8 @@ static const struct ListMenuItem sListMenuItems_CardsOrNews[] = {
     { gText_WonderCards,  0 },
     { gText_WonderNews,   1 },
 	{ gText_Dlc,          2 },
+	{ gText_Hoenn2,       3 },
+	{ gText_Hoenn3,       4 },
     { gText_Exit3,        LIST_CANCEL }
 };
 
@@ -3730,8 +3732,8 @@ static const struct ListMenuTemplate sListMenuTemplate_ThreeOptions = {
     .items = NULL,
     .moveCursorFunc = ListMenuDefaultCursorMoveFunc,
     .itemPrintFunc = NULL,
-    .totalItems = 4,
-    .maxShowed = 4,
+    .totalItems = 6,
+    .maxShowed = 6,
     .windowId = 0,
     .header_X = 0,
     .item_X = 8,
@@ -6042,6 +6044,11 @@ enum {
 	JOHTO4,
 	JOHTO5,
 	JOHTO6,
+	HOENN,
+	HOENN_2,
+	HOENN_3,
+	HOENN_4,
+	HOENN2,
 	MG_INFORMACION_1,
 	MG_INFORMACION_2,
 	MG_INFORMACION_3,
@@ -6091,11 +6098,44 @@ static void Task_MysteryGift(u8 taskId)
 		case 2: //JOHTO
 			data->state = JOHTO;
 				break;
+		case 3: //HOENN
+			data->state = HOENN;
+				break;		
         case LIST_CANCEL:
             data->state = MG_STATE_EXIT;
             break;
         }
         break;
+	case HOENN:
+		if(PrintMysteryGiftMenuMessage2(&data->textState, gText_PostgameKanto9)){
+			data->state = HOENN_2;
+		}
+	break;
+	case HOENN_2:
+		if(PrintMysteryGiftMenuMessage2(&data->textState, gText_PostgameKanto2)){
+			data->state = HOENN_3;
+		}
+	break;
+	case HOENN_3:
+		if(PrintMysteryGiftMenuMessage2(&data->textState, gText_PostgameKanto10)){
+			data->state = HOENN_4;
+		}
+	break;
+	case HOENN_4:
+		switch (AskDiscardGift(&data->textState, &data->var, data->isWonderNews))
+        {
+        case 0: // Yes
+            if (!data->isWonderNews && IsSavedWonderCardGiftNotReceived() == TRUE)
+                data->state = MG_STATE_EXIT;
+            else
+                data->state = MG_STATE_EXIT;
+            break;
+        case 1: // No
+        case MENU_B_PRESSED:
+            data->state = MG_STATE_EXIT;
+            break;
+        }
+	break;
 	case SEVII1:
 		if(PrintMysteryGiftMenuMessage2(&data->textState, gText_PostgameKanto5)){
 			data->state = SEVII2;
