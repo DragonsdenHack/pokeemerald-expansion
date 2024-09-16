@@ -8075,6 +8075,51 @@ static const u16 sWooperTeachableLearnset[] = {
     MOVE_NONE,
 };
 
+static const u16 sWooperPaldeaTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_BLIZZARD,
+    MOVE_DIG,
+    MOVE_DIVE,
+    MOVE_DOUBLE_TEAM,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_HAIL,
+    MOVE_HIDDEN_POWER,
+    MOVE_ICE_BEAM,
+    MOVE_IRON_TAIL,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROCK_SMASH,
+    MOVE_SAFEGUARD,
+    MOVE_SANDSTORM,
+    MOVE_SECRET_POWER,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SURF,
+    MOVE_TOXIC,
+    MOVE_WATERFALL,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DEFENSE_CURL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    MOVE_ICE_PUNCH,
+    MOVE_ICY_WIND,
+    MOVE_MIMIC,
+    MOVE_MUD_SLAP,
+    MOVE_ROLLOUT,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_NONE,
+};
+
 static const u16 sQuagsireTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
@@ -16203,8 +16248,6 @@ static const u16 sDeoxysTeachableLearnset[] = {
     MOVE_NONE,
 };
 
-#if P_NEW_POKEMON == TRUE
-
 static const u16 sTurtwigTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
@@ -19899,7 +19942,107 @@ static const u16 sDialgaTeachableLearnset[] = {
     MOVE_NONE,
 };
 
+static const u16 sDialgaOriginTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_BLIZZARD,
+    MOVE_BRICK_BREAK,
+    MOVE_BULK_UP,
+    MOVE_CUT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_DRAGON_CLAW,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_FIRE_BLAST,
+    MOVE_FLAMETHROWER,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_HIDDEN_POWER,
+    MOVE_HYPER_BEAM,
+    MOVE_ICE_BEAM,
+    MOVE_IRON_TAIL,
+    MOVE_OVERHEAT,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROAR,
+    MOVE_ROCK_SMASH,
+    MOVE_ROCK_TOMB,
+    MOVE_SAFEGUARD,
+    MOVE_SANDSTORM,
+    MOVE_SECRET_POWER,
+    MOVE_SHOCK_WAVE,
+    MOVE_STRENGTH,
+    MOVE_SUNNY_DAY,
+    MOVE_THUNDER,
+    MOVE_THUNDERBOLT,
+    MOVE_TOXIC,
+    MOVE_ENDURE,
+    MOVE_FURY_CUTTER,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_THUNDER_WAVE,
+    MOVE_NONE,
+};
+
 static const u16 sPalkiaTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_BLIZZARD,
+    MOVE_BRICK_BREAK,
+    MOVE_BULK_UP,
+    MOVE_CUT,
+    MOVE_DIVE,
+    MOVE_DOUBLE_TEAM,
+    MOVE_DRAGON_CLAW,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_FIRE_BLAST,
+    MOVE_FLAMETHROWER,
+    MOVE_FOCUS_PUNCH,
+    MOVE_FRUSTRATION,
+    MOVE_HAIL,
+    MOVE_HIDDEN_POWER,
+    MOVE_HYPER_BEAM,
+    MOVE_ICE_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROAR,
+    MOVE_ROCK_SMASH,
+    MOVE_ROCK_TOMB,
+    MOVE_SAFEGUARD,
+    MOVE_SANDSTORM,
+    MOVE_SECRET_POWER,
+    MOVE_SHOCK_WAVE,
+    MOVE_STRENGTH,
+    MOVE_SUNNY_DAY,
+    MOVE_SURF,
+    MOVE_THUNDER,
+    MOVE_THUNDERBOLT,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_ENDURE,
+    MOVE_FURY_CUTTER,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_THUNDER_WAVE,
+    MOVE_NONE,
+};
+
+static const u16 sPalkiaOriginTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
@@ -22164,6 +22307,64 @@ static const u16 sBasculinTeachableLearnset[] = {
     MOVE_NONE,
 };
 
+static const u16 sBasculinWhiteStripedTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_CUT,
+    MOVE_DIVE,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FRUSTRATION,
+    MOVE_HAIL,
+    MOVE_HIDDEN_POWER,
+    MOVE_ICE_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SECRET_POWER,
+    MOVE_SURF,
+    MOVE_TAUNT,
+    MOVE_TOXIC,
+    MOVE_WATERFALL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_ICY_WIND,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_NONE,
+};
+
+static const u16 sBasculegionTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_CUT,
+    MOVE_DIVE,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FRUSTRATION,
+    MOVE_HAIL,
+    MOVE_HIDDEN_POWER,
+    MOVE_ICE_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SECRET_POWER,
+    MOVE_SURF,
+    MOVE_TAUNT,
+    MOVE_TOXIC,
+    MOVE_WATERFALL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_ICY_WIND,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_NONE,
+};
+
 static const u16 sSandileTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_CUT,
@@ -22845,7 +23046,76 @@ static const u16 sZoruaTeachableLearnset[] = {
     MOVE_NONE,
 };
 
+static const u16 sZoruaHisuiTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_ATTRACT,
+    MOVE_CALM_MIND,
+    MOVE_CUT,
+    MOVE_DIG,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FRUSTRATION,
+    MOVE_HIDDEN_POWER,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROAR,
+    MOVE_SECRET_POWER,
+    MOVE_SHADOW_BALL,
+    MOVE_SNATCH,
+    MOVE_SUNNY_DAY,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_TORMENT,
+    MOVE_TOXIC,
+    MOVE_COUNTER,
+    MOVE_PSYCH_UP,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWORDS_DANCE,
+    MOVE_NONE,
+};
+
 static const u16 sZoroarkTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_ATTRACT,
+    MOVE_CALM_MIND,
+    MOVE_CUT,
+    MOVE_DIG,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLAMETHROWER,
+    MOVE_FRUSTRATION,
+    MOVE_HIDDEN_POWER,
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROAR,
+    MOVE_ROCK_SMASH,
+    MOVE_SECRET_POWER,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SNATCH,
+    MOVE_SUNNY_DAY,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_TORMENT,
+    MOVE_TOXIC,
+    MOVE_PSYCH_UP,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWORDS_DANCE,
+    MOVE_NONE,
+};
+
+static const u16 sZoroarkHisuiTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_ATTRACT,
     MOVE_CALM_MIND,
@@ -24702,6 +24972,46 @@ static const u16 sBraviaryTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_NONE,
+};
+
+static const u16 sBraviaryHisuiTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_ATTRACT,
+    MOVE_BULK_UP,
+    MOVE_CUT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLY,
+    MOVE_FRUSTRATION,
+    MOVE_HIDDEN_POWER,
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROCK_SMASH,
+    MOVE_ROCK_TOMB,
+    MOVE_SECRET_POWER,
+    MOVE_STEEL_WING,
+    MOVE_STRENGTH,
+    MOVE_SUNNY_DAY,
+    MOVE_TOXIC,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_NONE,
+};
+
+static const u16 sEnamorusTeachableLearnset[] = {
+	MOVE_BULK_UP,
+	MOVE_NONE,
+};
+
+static const u16 sEnamorusTherianTeachableLearnset[] = {
+	MOVE_BULK_UP,
+	MOVE_NONE,
 };
 
 static const u16 sVullabyTeachableLearnset[] = {
@@ -32931,8 +33241,6 @@ static const u16 sStunfiskGalarianTeachableLearnset[] = {
     MOVE_NONE,
 };
 
-#endif
-
 static const u16 sDeoxysAttackTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
@@ -33053,7 +33361,7 @@ static const u16 sDeoxysSpeedTeachableLearnset[] = {
     MOVE_NONE,
 };
 
-#if P_NEW_POKEMON == TRUE
+
 
 static const u16 sBurmySandyCloakTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
@@ -33461,4 +33769,712 @@ static const u16 sCalyrexShadowRiderTeachableLearnset[] = {
     MOVE_NONE,
 };
 
-#endif
+static const u16 sEoneonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTrxatuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sElectrodeYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTaurosXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPorygon3TeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sElectivireXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMagmortarYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sNidoqueenYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sNidokingXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPorygonzXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPorygonzYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sNidogodTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAerodactylSkelTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sCradilyYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRampardosXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sBastiodonXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTyrantrumXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sArcheopsXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRegirockXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRegiceYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRegisteelZTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDeoxysAttackYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDeoxysSpeedYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMewtwoArmTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGenesectXTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGenesectYTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sUltimateProyectTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPoliwrathBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sButterfreeBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFeraligatrBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRapidashBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKingdraBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSkarmoryBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sEeveeBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sHypnoBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDunsparceOldPreevoTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDunsparceOldTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDelphoxBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRhyperiorBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sLaprasBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sEmpoleonBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sInfernapeBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMespritBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSerperiorBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sHaxorusBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWeavileBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAegislashBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sVolcaronaBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGoodraBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sHydreigonBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDragoniteBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMaroghostTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKabutopsSkelTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDudunsparceTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sDudunsparceEvoTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGhostTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sUnownGoldTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sUnownKingTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sArticunoPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sZapdosPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMoltresPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRaikouBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sEnteiBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSuicuneBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKurusuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAkuaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAkueriaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sBoohooTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIkaryTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPurakkusuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTaabanTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sBomushikaaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMadaamuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSuiTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRaiTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sEnTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSacredDragonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sOriginalDragonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sArceusPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMissingnoTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAerodactylPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sCrobatBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sCrobatBond2TeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKabutopsPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWyrdeerTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKleavorTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sOverqwilTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sUrsalunaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSneaslerTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sClodsireTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sAnnihilapeTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFarigirafTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sToedscoolTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sToedscruelTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWiglettTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWugtrioTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKingambitTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFrigibaxTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sArctibaxTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sBaxcaliburTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGreatTuskTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sScreamTailTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sBruteBonnetTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFlutterManeTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSlitherWingTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sSandyShocksTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronTreadsTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronBundleTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronHandsTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronJugulisTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronMothTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronThornsTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWoChienTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sChienPaoTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTingLuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sChiYuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRoaringMoonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronValiantTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sKoraidonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMiraidonTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWalkingWakeTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sIronLeavesTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sOgerponTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sOkidogiTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMunkidoriTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFezandipitiTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTerapagosTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sNinetalesBondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sFinizenTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPalafinTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGorochuTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sWartilleryTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sQwoltfishTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGuardiaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sArmaldoPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sRelicanthPrimalTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sMiloticbondTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sPorygon31TeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sGyaradoszTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTaurosPaldeaCombatTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTaurosPaldeaAquaTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
+
+static const u16 sTaurosPaldeaBlazeTeachableLearnset[] = {
+    MOVE_POUND,
+    MOVE_NONE,
+};
