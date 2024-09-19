@@ -3458,124 +3458,200 @@ static const u8 sTM120Desc[] = _( // Todo
     "que el enemigo.");	
 
 static const u8 sTM121Desc[] = _( // Todo
-    "placeholder");
+    "Causa daño y\n"
+   	"atraviesa\n"
+   	"sustitutos.");
 
 static const u8 sTM122Desc[] = _( // Todo
-    "placeholder");
+    "Baja en 2 niveles\n"
+   	"la DEF.ESP del.\n"
+   	"enemigo.");
 
 static const u8 sTM123Desc[] = _( // Todo
-    "placeholder");
+	"1.{SUPER_ER} turno: toma\n"
+	"luz.\n"
+	"2.º turno: ataca.");
 
 static const u8 sTM124Desc[] = _( // Todo
-    "placeholder");
+    "Mordisco eléctrico.\n"
+    "10% retroceder.\n"
+    "10% paralizar.");
 
 static const u8 sTM125Desc[] = _( // Todo
-    "placeholder");
+    "Mordisco helado.\n"
+    "10% retroceder.\n"
+    "10% congelar.");
 
 static const u8 sTM126Desc[] = _( // Todo
-    "placeholder");
+    "Mordisco ardiente.\n"
+    "10% retroceder.\n"
+    "10% quemar.");
 
 static const u8 sTM127Desc[] = _( // Todo
-    "placeholder");
+    "Atrapa al enemigo\n"
+   	"en una red eléc.\n"
+   	"Baja Velocidad.");
 
 static const u8 sTM128Desc[] = _( // Todo
-    "placeholder");
+    "Ataque devastador.\n"
+   	"Baja Ataque y\n"
+   	"Defensa al usarlo.");
 
 static const u8 sTM129Desc[] = _( // Todo
-    "placeholder");
+    "Coletazo que\n"
+   	"puede envenenar.\n"
+   	"+1 índice crit.");
 
 static const u8 sTM130Desc[] = _( // Todo
-    "placeholder");
+    "Dispara 3 tipos\n"
+   	"de rayos a la vez.");
 
 static const u8 sTM131Desc[] = _( // Todo
-    "placeholder");
+    "Gran erupción que\n"
+   	"puede bajar la\n"
+   	"Def.Esp rival.");
 
 static const u8 sTM132Desc[] = _( // Todo
-    "placeholder");
+    "Sube en 2 niveles\n"
+   	"el At.Esp.");
 
 static const u8 sTM133Desc[] = _( // Todo
-    "placeholder");
+    "Hace más daño si\n"
+	"el usuario pesa más\n"
+    "que el enemigo.");	
 
 static const u8 sTM134Desc[] = _( // Todo
-    "placeholder");
+    "+At, +Def, -Vel.\n"
+   	"Efecto distinto en.\n"
+   	"Tipo Fantasma.");
 
 static const u8 sTM135Desc[] = _( // Todo
-    "placeholder");
+    "Ondas creadas\n"
+   	"con puños que.\n"
+   	"golpean primero.");
 
 static const u8 sTM136Desc[] = _( // Todo
-    "placeholder");
+    "El tipo y la\n"
+   	"fuerza varían.\n"
+   	"según clima.");
 
 static const u8 sTM137Desc[] = _( // Todo
-    "placeholder");
+    "Bajan siempre\n"
+   	"a la mitad la\n"
+   	"salud del rival.");
 
 static const u8 sTM138Desc[] = _( // Todo
-    "placeholder");
+    "Embiste al\n"
+   	"enemigo con todo\n"
+   	"el cuerpo.");
 
 static const u8 sTM139Desc[] = _( // Todo
-    "placeholder");
+    "Lanza arena\n"
+   	"ardiente.\n"
+   	"30% quemar.");
 
 static const u8 sTM140Desc[] = _( // Todo
-    "placeholder");
+    "Usa el objeto\n"
+   	"del enemigo en\n"
+   	"su contra.");
 
 static const u8 sTM141Desc[] = _( // Todo
-    "placeholder");
+    "Rayo fulgurante.\n"
+   	"Resta el 50% de\n"
+   	"salud al usuario.");
 
 static const u8 sTM142Desc[] = _( // Todo
-    "placeholder");
+    "Cambia su objeto\n"
+   	"con el del rival.");
 
 static const u8 sTM143Desc[] = _( // Todo
-    "placeholder");
+    "Absorbe la\n"
+   	"mitad del daño.\n"
+   	"producido.");
 
 static const u8 sTM144Desc[] = _( // Todo
-    "placeholder");
+    "Golpea de 2\n"
+   	"a 5 veces\n"
+   	"consecutivas.");
 
 static const u8 sTM145Desc[] = _( // Todo
-    "placeholder");
+    "+20 de potencia\n"
+   	"por cada nivel de\n"
+   	"stat aumentado.");
 
 static const u8 sTM146Desc[] = _( // Todo
-    "placeholder");
+    "Absorbe el 75%\n"
+   	"del daño que\n"
+   	"produce.");
 
 static const u8 sTM147Desc[] = _( // Todo
-    "placeholder");
+    "Restaura la mitad\n"
+   	"de la salud al\n"
+   	"usuario.");
 
 static const u8 sTM148Desc[] = _( // Todo
-    "placeholder");
+    "Golpea a rivales\n"
+   	"dormidos. Absorbe\n"
+   	"el 50% del daño.");
 
 static const u8 sTM149Desc[] = _( // Todo
-    "placeholder");
+    "Potente ataque\n"
+   	"eléctrico.\n"
+   	"Siempre paraliza.");
 
 static const u8 sTM150Desc[] = _( // Todo
-    "placeholder");
+    "Ataque corporal.\n"
+   	"30% paralizar.");
 
 static const u8 sTM151Desc[] = _( // Todo
-    "placeholder");
+    "Golpea de 2\n"
+   	"a 5 veces\n"
+   	"consecutivas.");
 
 static const u8 sTM152Desc[] = _( // Todo
-    "placeholder");
+    "Fuego mágico.\n"
+   	"Siempre baja el\n"
+   	"At.Esp del rival.");
 
 static const u8 sTM153Desc[] = _( // Todo
-    "placeholder");
+    "Cuchillas psí-\n"
+   	"quicas.\n"
+   	"+1 índice crit.");
 
 static const u8 sTM154Desc[] = _( // Todo
-    "placeholder");
+    "Ventisca polar.\n"
+   	"Baja en 2 niveles\n"
+   	"el At.Esp usuario.");
 
 static const u8 sTM155Desc[] = _( // Todo
-    "placeholder");
+    "Doble de daño\n"
+   	"si el rival está\n"
+   	"envenenado.");
 
 static const u8 sTM156Desc[] = _( // Todo
-    "placeholder");
+    "Deja inmovil al\n"
+   	"atacante un\n"
+   	"turno.");
 
 static const u8 sTM157Desc[] = _( // Todo
-    "placeholder");
+    "Golpea de 2\n"
+   	"a 5 veces\n"
+   	"consecutivas.");
 
 static const u8 sTM158Desc[] = _( // Todo
-    "placeholder");
+    "Esparce un ácido\n"
+   	"derretido.\n"
+   	"Baja mucho D.Esp.");
 
 static const u8 sTM159Desc[] = _( // Todo
-    "placeholder");
+    "Usa el Ataque\n"
+   	"del rival para\n"
+   	"golpear.");
 
 static const u8 sTM160Desc[] = _( // Todo
-    "placeholder");
+    "Ataque taladro.\n"
+   	"Daña al usuario\n"
+   	"con 1/2 del daño.");
 
 static const u8 sTM161Desc[] = _( // Todo
     "placeholder");

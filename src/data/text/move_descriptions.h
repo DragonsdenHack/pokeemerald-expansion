@@ -126,8 +126,8 @@ static const u8 sFuryAttackDescription[] = _(
     "de 2 a 5 veces.");
 
 static const u8 sHornDrillDescription[] = _(
-    "Ataque taladro.\n"
-    "Fulmina en 1 golpe.");
+    "Ataque taladro. Daña al usua-\n"
+    "rio con 1/2 del daño causado.");
 
 static const u8 sTackleDescription[] = _(
     "Embiste con todo\n"
@@ -1312,8 +1312,8 @@ static const u8 sSandTombDescription[] = _(
     "de arena de 2 a 5 turnos.");
 
 static const u8 sSheerColdDescription[] = _(
-    "Ataque polar que debilita\n"
-    "al rival si le alcanza.");
+    "Ventisca polar y fulgurante.\n"
+    "Baja mucho el At.Esp.");
 
 static const u8 sMuddyWaterDescription[] = _(
     "Ataque con agua lodosa que\n"
@@ -2304,8 +2304,8 @@ static const u8 sWaterShurikenDescription[] = _(
     "siempre golpean primero.");
 
 static const u8 sMysticalFireDescription[] = _(
-    "Aliento de fuego que puede\n"
-    "bajar el At. Esp.");
+    "Fuego mágico que siempre\n"
+    "baja el At. Esp del rival.");
 
 static const u8 sSpikyShieldDescription[] = _(
     "Evita el ataque y hiere al\n"
