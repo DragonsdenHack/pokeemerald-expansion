@@ -1061,7 +1061,44 @@ Silph_S2_Discoxtrano_Text_1:
 	.string "algo más vulnerable a los ataques, pero\l"
 	.string "con una ofensiva extraordinaria.$"
 
+Silph_S2_Llave_Texto_1:
+	.string "Se requiere de una llave especial.$"
+
+Silph_S2_Llave_Texto_2:
+	.string "¿Quieres usar la LLAVE SILPH S3?$"
+
 Silph_S2_Llave::
+compare VAR_UNUSED_0x40FF, 11
+goto_if_gt Silph_S2_Llave_Despues
+delay 10
+msgbox Silph_S2_Llave_Texto_1 MSGBOX_AUTOCLOSE
 lock
+release
+end
+
+Silph_S2_Llave_Despues::
+delay 10
+msgbox Silph_S2_Llave_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 11, 32, 0x334, FALSE
+setmetatile 11, 33, 0x334, FALSE
+setmetatile 11, 34, 0x334, FALSE
+setmetatile 12, 32, 0x334, FALSE
+setmetatile 12, 33, 0x334, FALSE
+setmetatile 12, 34, 0x334, FALSE
+setmetatile 13, 32, 0x334, FALSE
+setmetatile 13, 33, 0x334, FALSE
+setmetatile 13, 34, 0x334, FALSE
+setmetatile 10, 32, 0x335, FALSE
+setmetatile 10, 33, 0x335, FALSE
+special DrawWholeMapView
+delay 20
 release
 end

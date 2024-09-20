@@ -2628,4 +2628,12 @@ Underground7F_EventScript_Toxtricitita::
 finditem ITEM_TOXTRICITIT
     end
 
+SilphSotano_EventScript_Master::
+finditem ITEM_MASTER_BALL
+    end
+
+SilphSotano_EventScript_PiedraLink::
+finditem ITEM_CRACKED_POT
+    end
+
 

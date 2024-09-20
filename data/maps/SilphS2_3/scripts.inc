@@ -103,6 +103,7 @@ playse SE_EXIT
 setflag FLAG_HOENN_80
 clearflag FLAG_HOENN_85
 removeobject 1
+setvar VAR_UNUSED_0x40FF, 12
 release
 end
 
@@ -257,13 +258,13 @@ SilphS2_3_Presidente_Texto_11:
 	.string "KANTO mantendrá su esencia.$"
 
 SilphS2_3_Presidente_Texto_12:
-	.string "Pero… también convertiremos esta\n"
+	.string "Pero{PAUSE 15}…{PAUSE 15} también convertiremos esta\n"
 	.string "región en la mayor potencia\l"
 	.string "tecnológica. Lo que estás viendo aquí\l"
 	.string "es solo el principio.$"
 
 SilphS2_3_Presidente_Texto_13:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 SilphS2_3_Presidente_Texto_14:
 	.string "Déjame mostrarte un poco de lo que\n"
@@ -297,16 +298,155 @@ SilphS2_3_Presidente_Texto_20:
 
 SilphS2_3_Presidente_Texto_21:
 	.string "Puede que allí abajo encuentres lo que\n"
-	.string "buscas, pero… quizás sea imposible de\l"
+	.string "buscas, pero{PAUSE 15}…{PAUSE 15} quizás sea imposible de\l"
 	.string "demostrar; la historia es implacable,\l"
-	.string "capaz de enterrar todo lo que una vez\l"
-	.string "fue evidente y estaba a la vista de\l"
+	.string "capaz de enterrar lo que una vez fue\l"
+	.string "evidente y estaba a la vista de\l"
 	.string "todos.$"
 
 SilphS2_3_Presidente_Texto_22:
 	.string "La cuestión es, ¿serás capaz de\n"
-	.string "desenterrar algo que siquiera sabemos\l"
-	.string "de su existencia?$"
+	.string "desenterrar algo que siquiera\l"
+	.string "sabemos de su existencia?$"
 
 SilphS2_3_Presidente_Texto_23:
 	.string "KANTO te observa, ¡jo, jo, jo!$"
+
+SilphS2_3_Carta_No::
+release
+end
+
+SilphS2_3_Carta::
+lock
+msgbox SilphS2_3_Carta_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SilphS2_3_Carta_No
+delay 15
+msgbox SilphS2_3_Carta_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS2_3_Carta_Texto_16 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SilphS2_3_Carta_No
+delay 15
+msgbox SilphS2_3_Carta_Texto_17 MSGBOX_AUTOCLOSE
+release
+end
+
+SilphS2_3_Carta_Texto_1:
+	.string "Es una carta. Lleva la\n"
+	.string "firma de GIOVANNI.$"
+
+SilphS2_3_Carta_Texto_2:
+	.string "¿Quieres leerla?$"
+
+SilphS2_3_Carta_Texto_3:
+	.string "Estimado PRESIDENTE.$"
+
+SilphS2_3_Carta_Texto_4:
+	.string "Tal y como le dije. Le confirmo que\n"
+	.string "muchos de los POKÉMON de KANTO\l"
+	.string "guardaban aún potencial natural por\l"
+	.string "descubrir.$"
+
+SilphS2_3_Carta_Texto_5:
+	.string "Vivir ajenos al resto del mundo nos ha\n"
+	.string "impedido darnos cuenta antes: un hecho\l"
+	.string "que es sabido por otras regiones.$"
+
+SilphS2_3_Carta_Texto_6:
+	.string "Sin embargo, los medios por los que este\n"
+	.string "poder puede obtenerse siempre han sido\l"
+	.string "muy dispares. Nunca han estado claros\l"
+	.string "ni estandarizados.$"
+
+SilphS2_3_Carta_Texto_7:
+	.string "Ahora contamos con una ventaja\n"
+	.string "elemental respecto a esas lejanas\l"
+	.string "regiones: haber podido sintetizar una\l"
+	.string "piedra capaz de evolucionar estos\l"
+	.string "Pokemon por el medio más eficiente\l"
+	.string "posible.$"
+
+SilphS2_3_Carta_Texto_8:
+	.string "La hemos bautizado como PIEDRA LINK.$"
+
+SilphS2_3_Carta_Texto_9:
+	.string "Su precio de mercado\n"
+	.string "sería de 9800 POKÉ.$"
+
+SilphS2_3_Carta_Texto_10:
+	.string "Sin embargo, al igual que la MÁSTER BALL,\n"
+	.string "jamás saldrá. Su existencia tampoco se\l"
+	.string "hará pública.$"
+
+SilphS2_3_Carta_Texto_11:
+	.string "Confío en que lo entienda, y sea\n"
+	.string "consciente del poder que implica esta\l"
+	.string "herramienta.$"
+
+SilphS2_3_Carta_Texto_12:
+	.string "Una gran era de progreso e innovación\n"
+	.string "se avecina.$"
+
+SilphS2_3_Carta_Texto_13:
+	.string "La PIEDRA LINK es solo el comienzo, el\n"
+	.string "primero de muchos avances que\l"
+	.string "cambiarán para siempre la forma en la\l"
+	.string "que concebimos el arte de combatir.$"
+
+SilphS2_3_Carta_Texto_14:
+	.string "Fdo. GIOVANNI. A 5 de Abril de 1997.$"
+
+SilphS2_3_Carta_Texto_15:
+	.string "Pd. Le adjunto la lista de todos los\n"
+	.string "POKÉMON probados que reaccionan a la\l"
+	.string "PIEDRA LINK.$"
+
+SilphS2_3_Carta_Texto_16:
+	.string "¿Quieres leer la lista?$"
+
+SilphS2_3_Carta_Texto_17:
+.string "- SLOWPOKE a SLOWKING\n"
+	.string "- MAGNETON a MAGNEZONE\l"
+	.string "- ONIX a STEELIX\l"
+	.string "- LICKITUNG a LICKILICKY\l"
+	.string "- RHYDON a RHYPERIOR\l"
+	.string "- TANGELA a TANGROWTH\l"
+	.string "- SEADRA a KINGDRA\l"
+	.string "- SCYTHER a SCIZOR\l"
+	.string "- ELECTABUZZ a ELECTIVIRE\l"
+	.string "- MAGMAR a MAGMORTAR\l"
+	.string "- GLIGAR a GLISCOR\l"
+	.string "- SNEASEL a WEAVILE\l"
+	.string "- PILOSWINE a MAMOSWINE\l"
+	.string "- DUSCLOPS a DUSKNOIR\l"
+	.string "- GURDURR a CONKELDURR\l"
+	.string "- KARRABLAST a ESCAVALIER\l"
+	.string "- SHELMET a ACCELGOR\l"
+	.string "- SPRITZEE a AROMATISSE$"

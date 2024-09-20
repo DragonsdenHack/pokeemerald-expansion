@@ -114,7 +114,7 @@
     },
     {
       "type": "trigger",
-      "x": 17,
+      "x": 20,
       "y": 5,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",

@@ -1753,7 +1753,7 @@ delay 60
 release
 end
 
-Llave_Despacho_Warp_Text_YesNo:
+Llave_Despacho_Warp_Text_YesNo: 
 .string "¿Quieres entrar a tu despacho?$"
 
 Llave_Despacho_2_Warp::
