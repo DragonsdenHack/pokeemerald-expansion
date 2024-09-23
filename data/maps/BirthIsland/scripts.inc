@@ -197,7 +197,7 @@ BirthIsland_Blaine_Texto_10:
 	.string "la tecnología y la ciencia, antes\l"
 	.string "de mostrárselo al mundo,\l"
 	.string "demostrarte que tus victorias ante\l"
-	.string "RED y LANCE no fueron más que\l"
+	.string "ROJO y LANCE no fueron más que\l"
 	.string "simples errores, ahora que ha\l"
 	.string "encontrado la fórmula para contar\l"
 	.string "con un equipo perfecto, nada podrá\l"

@@ -171,7 +171,7 @@ Pass_Route29_Encuentro_Elm_Texto_10:
 	.string "guerra es un asunto trivial, que\l"
 	.string "no les incumbe, viven al margen de\l"
 	.string "ello, centrándose en sus POKÉMON,\l"
-	.string "y en depurar su ya de por si\l"
+	.string "y en depurar su ya de por sí\l"
 	.string "exquisita técnica.$"
 
 Pass_Route29_Encuentro_Elm_Texto_11:

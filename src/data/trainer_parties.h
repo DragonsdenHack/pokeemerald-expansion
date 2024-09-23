@@ -2170,7 +2170,7 @@ static const struct TrainerMonItemCustomMoves sParty_Charlie[] = {
 static const struct TrainerMonItemCustomMoves sParty_Cmiguel3[] = {
     {
     .iv = 210,
-    .lvl = 68,
+    .lvl = 69,
     .species = SPECIES_RELICANTH,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {88, 94, 88, 88, 64, 88},
@@ -2179,12 +2179,12 @@ static const struct TrainerMonItemCustomMoves sParty_Cmiguel3[] = {
     },
     {
     .iv = 210,
-    .lvl = 69,
-    .species = SPECIES_KABUTOPS,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .evs = {88, 94, 88, 88, 64, 88},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 70,
+    .species = SPECIES_YANMEGA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {88, 64, 88, 88, 94, 88},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_BUG_BUZZ, MOVE_ANCIENT_POWER, MOVE_AIR_SLASH, MOVE_PROTECT}
     },
     {
     .iv = 210,
@@ -2197,30 +2197,30 @@ static const struct TrainerMonItemCustomMoves sParty_Cmiguel3[] = {
     },
     {
     .iv = 210,
-    .lvl = 69,
-    .species = SPECIES_ARMALDO,
-    .heldItem = ITEM_ASSAULT_VEST,
+    .lvl = 70,
+    .species = SPECIES_FLYGON,
+    .heldItem = ITEM_LIFE_ORB,
     .evs = {88, 88, 88, 94, 64, 88},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_LEECH_LIFE, MOVE_ROCK_SLIDE, MOVE_KNOCK_OFF, MOVE_EARTHQUAKE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH}
     },
     {
     .iv = 210,
-    .lvl = 69,
-    .species = SPECIES_CRADILY,
-    .heldItem = ITEM_LEFTOVERS,
-    .evs = {88, 64, 88, 94, 88, 88},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_INGRAIN, MOVE_NONE}
+    .lvl = 71,
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_FLYING_GEM,
+    .evs = {88, 88, 88, 94, 64, 88},
+    .nature = NATURE_JOLLY,
+    .moves = {MOVE_ACROBATICS, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_NONE}
     },
     {
     .iv = 255,
-    .lvl = 70,
-    .species = SPECIES_AERODACTYL,
-    .heldItem = ITEM_FLYING_GEM,
-    .evs = {0, 252, 0, 252, 0, 6},
-    .nature = NATURE_JOLLY,
-    .moves = {MOVE_ACROBATICS, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_NONE}
+    .lvl = 72,
+    .species = SPECIES_DUDUNSPARCE,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 0, 6, 0, 0, 252},
+    .nature = NATURE_CAREFUL,
+    .moves = {MOVE_COIL, MOVE_ROOST, MOVE_BODY_SLAM, MOVE_DRAGON_RUSH}
     }
 };
 

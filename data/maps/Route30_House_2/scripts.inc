@@ -9,8 +9,8 @@ release
 end
 
 Route30_House_2_Dialogo_Texto_1:
-.string "Cómo dices chico? ¿Darte yo un HUEVO\n"
-	.string "MISTERIOSO? Déjame darte un consjeo,\l"
+.string "¿Cómo dices chico? ¿Darte yo un HUEVO\n"
+	.string "MISTERIOSO? Déjame darte un consejo,\l"
 	.string "tienes pinta de haber visto ya\l"
 	.string "bastante mundo y ocupar una posición\l"
 	.string "de privilegio, deberías de ser el\l"

@@ -17,9 +17,9 @@ end
 CinnabarMansionS1_Text_1:
 .string "Este lugar quedó reducido a añicos\n"
 .string "después de que MEWTWO escapara,\l"
-.string "muchas cosas se perdieron aquí,\l"
-.string "pero la grandeza de lo aquí\l"
-.string "acontecido sigue viva en nuestras\l"
+.string "muchas cosas se perdieron, pero\l"
+.string "la grandeza de lo aquí acontecido\l"
+.string "sigue viva en nuestras\l"
 .string "mentes.$"
 
 

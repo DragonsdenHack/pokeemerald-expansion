@@ -481,7 +481,7 @@ CinnabarMansionS2_Blaine_Texto_5:
 	.string "el poder de controlar este mundo.\l"
 	.string "Algunos, como LANCE, se rinden a\l"
 	.string "los POKÉMON divinos, buscan que la\l"
-	.string "naturaleza les de todo hecho, sin\l"
+	.string "naturaleza les dé todo hecho, sin\l"
 	.string "embargo, nosotros vamos más allá.$"
 
 CinnabarMansionS2_Blaine_Texto_6:
