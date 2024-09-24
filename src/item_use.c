@@ -18,6 +18,7 @@
 #include "field_effect.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
+#include "field_specials.h"
 #include "field_weather.h"
 #include "item.h"
 #include "item_menu.h"
@@ -674,6 +675,12 @@ void ItemUseOutOfBattle_CoinCase(u8 taskId)
     {
         DisplayItemMessageOnField(taskId, gStringVar4, Task_CloseCantUseKeyItemMessage);
     }
+}
+
+void ItemUseOutOfBattle_TownMap(u8 taskId)
+{
+        FadeInFromBlack();
+		FieldShowRegionMap();
 }
 
 void ItemUseOutOfBattle_PowderJar(u8 taskId)
