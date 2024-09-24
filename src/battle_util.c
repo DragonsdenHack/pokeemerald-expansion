@@ -10055,3 +10055,14 @@ bool32 IsBattlerWeatherAffected(u8 battlerId, u32 weatherFlags)
     }
     return FALSE;
 }
+
+// Gets move target before redirection effects etc. are applied
+// Possible return values are defined in battle.h following MOVE_TARGET_SELECTED
+u32 GetBattlerMoveTargetType(u32 battler, u32 move)
+{
+    if (move == MOVE_CURSE
+        && !IS_BATTLER_OF_TYPE(battler, TYPE_GHOST))
+        return MOVE_TARGET_USER;
+
+    return gBattleMoves[move].target;
+}

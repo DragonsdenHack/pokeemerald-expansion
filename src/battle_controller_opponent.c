@@ -9,6 +9,7 @@
 #include "battle_setup.h"
 #include "battle_tower.h"
 #include "battle_tv.h"
+#include "battle_util.h"
 #include "bg.h"
 #include "data.h"
 #include "frontier_util.h"
@@ -1585,15 +1586,12 @@ static void OpponentHandleChooseMove(void)
                 BtlController_EmitTwoReturnValues(BUFFER_B, 15, gBattlerTarget);
                 break;
             default:
-                if (gBattleMoves[moveInfo->moves[chosenMoveId]].target & (MOVE_TARGET_USER_OR_SELECTED | MOVE_TARGET_USER))
-                    gBattlerTarget = gActiveBattler;
-                if (gBattleMoves[moveInfo->moves[chosenMoveId]].target & MOVE_TARGET_BOTH)
-                {
+			{
                     u16 chosenMove = moveInfo->moves[chosenMoveId];
-
-                    if (gBattleMoves[chosenMove].target & (MOVE_TARGET_USER_OR_SELECTED | MOVE_TARGET_USER))
+					
+					if (GetBattlerMoveTargetType(gActiveBattler, chosenMove) & (MOVE_TARGET_USER_OR_SELECTED | MOVE_TARGET_USER))
                         gBattlerTarget = gActiveBattler;
-                    if (gBattleMoves[chosenMove].target & MOVE_TARGET_BOTH)
+                    if (GetBattlerMoveTargetType(gActiveBattler, chosenMove) & MOVE_TARGET_BOTH)
                     {
                         gBattlerTarget = GetBattlerAtPosition(B_POSITION_PLAYER_LEFT);
                         if (gAbsentBattlerFlags & gBitTable[gBattlerTarget])
