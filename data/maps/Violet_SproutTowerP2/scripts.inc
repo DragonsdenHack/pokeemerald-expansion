@@ -121,7 +121,7 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_2:
 	.string "lugar contaba con algún tipo de\l"
 	.string "información valiosa sobre los 2\l"
 	.string "LEGENDARIOS de JOHTO, que me\l"
-	.string "ayudara a indagar más en la\l"
+	.string "ayudaría a indagar más en la\l"
 	.string "historia de esta región.\l"
 	.string "Y lo único que encuentro es un\l"
 	.string "grupo de pensadores que no hacen\l"

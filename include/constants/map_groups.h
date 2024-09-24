@@ -773,6 +773,7 @@
 #define MAP_POKEMON_LEAGUE_ESCENALANCE    (83 | (26 << 8))
 #define MAP_SILPH_S2_2                    (84 | (26 << 8))
 #define MAP_SILPH_S2_3                    (85 | (26 << 8))
+#define MAP_ROCKET_HIDEOUT_5F_2           (86 | (26 << 8))
 
 // gMapGroup_IndoorOneIsland
 #define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (27 << 8))
@@ -1462,6 +1463,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 10, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 86, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 14, 17, 15, 108, 61, 89, 68, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 10, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 87, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 23, 14, 17, 15, 108, 61, 89, 68, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

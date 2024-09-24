@@ -5,7 +5,7 @@ Lavender_Secta_Pasadizo_2_MapScripts::
 Lavender_Secta_Pasadizo_2_Esencia::
 lock
 playse SE_EXIT
-clearflag FLAG_HOENN_83
+clearflag FLAG_HIDE_ROUTE_119_SCOTT
 addobject 1
 applymovement OBJ_EVENT_ID_PLAYER, CultoS7_Escena_Esencia_Move_2
 waitmovement 0x0
@@ -32,7 +32,7 @@ msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_11 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_12 MSGBOX_AUTOCLOSE
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_13 MSGBOX_AUTOCLOSE
-setflag FLAG_HOENN_83
+setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 1
 release
 end

@@ -15204,6 +15204,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/SilphS2_3/border.bin",
       "blockdata_filepath": "data/layouts/SilphS2_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_5F_2",
+      "name": "RocketHideout_5F_2_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/RocketHideout_5F_2/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_5F_2/map.bin"
     }
   ]
 }
