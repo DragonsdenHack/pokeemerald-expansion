@@ -263,10 +263,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 29,
-      "y": 53,
+      "x": 27,
+      "y": 52,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -328,10 +328,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 12,
-      "y": 46,
+      "x": 1,
+      "y": 42,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -342,7 +342,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
       "x": 6,
-      "y": 46,
+      "y": 47,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -354,10 +354,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 23,
-      "y": 43,
+      "x": 24,
+      "y": 55,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -368,7 +368,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
       "x": 14,
-      "y": 41,
+      "y": 42,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -380,8 +380,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 12,
-      "y": 37,
+      "x": 10,
+      "y": 36,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -393,10 +393,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 18,
-      "y": 36,
+      "x": 25,
+      "y": 46,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -547,7 +547,7 @@
     {
       "type": "sign",
       "x": 25,
-      "y": 40,
+      "y": 41,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RocketHideoutJohtoP1Documento_100"
@@ -867,7 +867,7 @@
     {
       "type": "hidden_item",
       "x": 26,
-      "y": 53,
+      "y": 55,
       "elevation": 3,
       "item": "ITEM_ABILITY_CAPSULE",
       "flag": "FLAG_NUEVA_526"
