@@ -38,8 +38,8 @@
       "x": 11,
       "y": 3,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "13",
       "script": "PokemonTower_S2_Combate_Gengar"
     }
   ],

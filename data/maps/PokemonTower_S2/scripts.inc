@@ -21,7 +21,7 @@ delay 10
 playse SE_FAINT
 waitse
 msgbox RuinsOfAlph_S1_Combate_Kabutops_Texto_3 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40F9, 2
+setvar VAR_UNUSED_0x40FF, 14
 release
 end
 
@@ -45,6 +45,6 @@ delay 10
 playse SE_FAINT
 waitse
 msgbox RuinsOfAlph_S1_Combate_Kabutops_Texto_3 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40F9, 2
+setvar VAR_UNUSED_0x40FF, 15
 release
 end

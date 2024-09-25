@@ -273,10 +273,10 @@ dofieldeffectsparkle 6, 4, 0
 waitfieldeffect FLDEFF_SPARKLE
 waitse
 playse SE_PIN
-applymovement 1, MossdeepCity_Jirachi_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_9
 waitmovement 0x0
 msgbox MossdeepCity_Jirachi_Texto_31 MSGBOX_AUTOCLOSE
-applymovement 1, MossdeepCity_Jirachi_Move_10
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_10
 playse SE_ORB
 special DoOrbEffect
 delay 150

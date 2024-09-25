@@ -206,7 +206,7 @@ clearflag FLAG_HOENN_646
 clearflag FLAG_HOENN_647
 clearflag FLAG_HOENN_648
 clearflag FLAG_HOENN_649
-setvar VAR_UNUSED_0x40F9, 2
+setvar VAR_UNUSED_0x40FF, 13
 release
 end
 
@@ -219,7 +219,9 @@ face_up
 step_end
 
 PokemonTower1F_Agatha_Move_4:
-walk_in_place_up
+delay_16
+face_up
+delay_16
 step_end
 
 PokemonTower1F_Agatha_Move_2:
@@ -289,7 +291,7 @@ PokemonTower1F_Agatha_Texto_12:
 	.string "inabarcable. ¡Jo, jo, jo!$"
 
 PokemonTower1F_Activador_Entrada::
-compare VAR_UNUSED_0x40F9, 2
+compare VAR_UNUSED_0x40FF, 12
 goto_if_gt PokemonTower1F_Activador_Entrada_Pasa
 release
 end

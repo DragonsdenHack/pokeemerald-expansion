@@ -1,6 +1,44 @@
 Lavender_Secta_Pasadizo_2_MapScripts::
 	.byte 0
 
+Lavender_Secta_Pasadizo_2_Esencia_Move_1:
+delay_16
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_2:
+face_left
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_3:
+face_down
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_4:
+walk_in_place_down
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_5:
+face_up
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_6:
+walk_slow_down
+step_end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_7:
+lock_facing_direction
+walk_slow_up
+unlock_facing_direction
+step_end
+
 
 Lavender_Secta_Pasadizo_2_Esencia::
 lock
@@ -20,22 +58,61 @@ applymovement OBJ_EVENT_ID_PLAYER, CultoS7_Escena_Esencia_Move_4
 waitmovement 0x0
 delay 40
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_2
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_3
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_5
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_6
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_4
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Lavender_Secta_Pasadizo_2_Esencia_Texto_9
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_7
+waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_10 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_11 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_5
+waitmovement 0x0
+delay 15
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_M_FAINT_ATTACK
 setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 1
+waitse
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_8
+waitmovement 0x0
 release
 end
+
+Lavender_Secta_Pasadizo_2_Esencia_Move_8:
+emote_exclamation_mark
+step_end
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_1:
 	.string "Entonces{PAUSE 15}…{PAUSE 15} mantuviste tu voluntad\n"

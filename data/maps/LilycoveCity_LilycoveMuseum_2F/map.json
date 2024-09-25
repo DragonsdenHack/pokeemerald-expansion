@@ -74,6 +74,13 @@
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
       "dest_warp_id": 2
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_LILYCOVE_CITY_MUSEO_3F",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

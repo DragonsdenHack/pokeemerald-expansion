@@ -4,17 +4,45 @@ PokemonTower_S3_MapScripts::
 PokemonTower_S3_Tumba::
 lock
 msgbox PokemonTower_S3_Tumba_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonTower_S3_Tumba_Texto_12 MSGBOX_AUTOCLOSE
+delay 50
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
 msgbox PokemonTower_S3_Tumba_Texto_13 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_14 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_15 MSGBOX_AUTOCLOSE
@@ -27,7 +55,27 @@ msgbox PokemonTower_S3_Tumba_Texto_20 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_21 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_22 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_S3_Tumba_Texto_23 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40F9, 2
+setvar VAR_UNUSED_0x40FF, 15
+setflag FLAG_HOENN_675
+delay 20
+playse SE_M_DETECT
+dofieldeffectsparkle 6, 4, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_9
+waitmovement 0x0
+msgbox MossdeepCity_Jirachi_Texto_31 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_10
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+warpsilent MAP_LAVENDER_TOWN_PASADO, 8, 0
+delay 150
+release
 release
 end
 

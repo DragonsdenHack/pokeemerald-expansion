@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_675"
     }
   ],
   "warp_events": [
@@ -43,8 +43,8 @@
       "x": 8,
       "y": 14,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "14",
       "script": "PokemonTower_S2_Combate_Gengar_2"
     },
     {
@@ -52,8 +52,8 @@
       "x": 11,
       "y": 9,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "15",
       "script": "PokemonTower_S3_Tumba"
     }
   ],

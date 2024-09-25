@@ -931,9 +931,24 @@ delay 10
 msgbox LavenderTown_Agatha_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox LavenderTown_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 15
+msgbox LavenderTown_Agatha_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 17, LavenderTown_Agatha_Move_3
 waitmovement 0x0
 delay 10
+msgbox LavenderTown_Agatha_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, LavenderTown_Agatha_Move_3
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_2.4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Agatha_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderTown_Agatha_Move_4
 waitmovement 0x0
@@ -976,10 +991,11 @@ msgbox LavenderTown_Agatha_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderTown_Agatha_Move_7
 waitmovement 0x0
 setflag FLAG_HOENN_676
+clearflag FLAG_HOENN_675
 removeobject 17
 playse SE_EXIT
 waitse
-setvar VAR_UNUSED_0x40FF, 2
+setvar VAR_UNUSED_0x40FF, 12
 delay 15
 release
 end
@@ -1010,8 +1026,10 @@ step_end
 
 LavenderTown_Agatha_Move_3:
 delay_16
-walk_in_place_up
+delay_8
+face_up
 delay_16
+delay_8
 face_player
 step_end
 
@@ -1022,6 +1040,23 @@ step_end
 LavenderTown_Agatha_Move_1:
 face_player
 step_end
+
+LavenderTown_Agatha_Texto_2.1:
+	.string "… …$"
+
+LavenderTown_Agatha_Texto_2.2:
+	.string "¿Cómo lo sé?$"
+
+LavenderTown_Agatha_Texto_2.3:
+	.string "Jovencito, tú aún no habías nacido\n"
+	.string "cuando yo ya llevaba décadas\l"
+	.string "entrenando mis POKÉMON en este pueblo.$"
+
+LavenderTown_Agatha_Texto_2.4:
+	.string "Conozco esta región y a su gente lo\n"
+	.string "suficiente como para enterarme de la\l"
+	.string "verdad. Y sé lo que pasó ese día tras\l"
+	.string "los muros del HALL de la FAMA.$"
 
 LavenderTown_Agatha_Texto_1:
 	.string "¡{PLAYER}! ¡Obraste el milagro!$"

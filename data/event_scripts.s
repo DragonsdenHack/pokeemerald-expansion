@@ -2957,3 +2957,5 @@ Text_EVChecker_3:
 	.include "data/maps/SilphS2_3/scripts.inc"
 
 	.include "data/maps/RocketHideout_5F_2/scripts.inc"
+
+	.include "data/maps/LilycoveCity_Museo_3F/scripts.inc"

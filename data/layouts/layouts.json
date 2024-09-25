@@ -1244,7 +1244,7 @@
       "height": 13,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_2F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_2F/map.bin"
@@ -15216,6 +15216,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_5F_2/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_5F_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LILYCOVE_CITY_MUSEO_3F",
+      "name": "LilycoveCity_Museo_3F_Layout",
+      "width": 40,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LilycoveCity_Museo_3F/border.bin",
+      "blockdata_filepath": "data/layouts/LilycoveCity_Museo_3F/map.bin"
     }
   ]
 }
