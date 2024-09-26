@@ -1,8 +1,24 @@
 LavenderTown_Pasado_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LavenderTown_Pasado_OnResume
 	.byte 0
+
+LavenderTown_Pasado_OnResume:
+map_script_2 VAR_UNUSED_0x40FF, 15, LavenderTown_Pasado_Gray
+	.2byte 0
+
+LavenderTown_Pasado_Gray::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40FF, 16
+end
 
 LavenderTown_PasadoDocumento_100::
 msgbox LavenderTown_PasadoDocumento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderTown_Pasado_Pantalla_Gris::
+lock
+call Script_SetGrayscaleTint
+release
 end
 
 LavenderTown_PasadoDocumento_Text_100:
@@ -42,6 +58,9 @@ waitse
 delay 15
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_3
+waitmovement 0x0
+call Script_SetGrayscaleTint
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_3.1
 waitmovement 0x0
 special RemoveCameraObject
 applymovement 6, LavenderTown_Pasado_Agatha_Move_4
@@ -95,15 +114,66 @@ msgbox LavenderTown_Pasado_Agatha_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 5, LavenderTown_Pasado_Agatha_Move_15
 applymovement 6, LavenderTown_Pasado_Agatha_Move_14
 waitmovement 0x0
+delay 10
+applymovement 1, LavenderTown_Pasado_Agatha_Move_16
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Agatha_Texto_13 MSGBOX_AUTOCLOSE
+delay 35
 msgbox LavenderTown_Pasado_Agatha_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LavenderTown_Pasado_Agatha_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LavenderTown_Pasado_Agatha_Move_17
+waitmovement 0x0
+delay 10
+applymovement 5, LavenderTown_Pasado_Agatha_Move_18
+waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 removeobject 5
 removeobject 6
-setvar VAR_UNUSED_0x40F9, 3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_11.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40FF, 17
 release
 end
+
+LavenderTown_Pasado_Agatha_Move_18:
+walk_slow_up
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+face_up
+delay_16
+delay_16
+face_down
+delay_16
+walk_slow_down
+delay_16
+delay_16
+walk_slow_down
+walk_slow_right
+walk_slow_down
+walk_down
+walk_down
+walk_fast_down
+walk_fast_down
+step_end
+
+
+LavenderTown_Pasado_Agatha_Move_17:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LavenderTown_Pasado_Agatha_Move_16:
+walk_in_place_up
+step_end
 
 LavenderTown_Pasado_Agatha_Move_15:
 walk_slow_right
@@ -138,6 +208,19 @@ step_end
 
 LavenderTown_Pasado_Agatha_Move_12:
 jump_in_place_down
+step_end
+
+LavenderTown_Pasado_Agatha_Move_11.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
 step_end
 
 LavenderTown_Pasado_Agatha_Move_11:
@@ -183,6 +266,9 @@ step_end
 LavenderTown_Pasado_Agatha_Move_3:
 walk_slow_down
 walk_slow_down
+step_end
+
+LavenderTown_Pasado_Agatha_Move_3.1:
 walk_slow_down
 walk_slow_down
 walk_slow_down
