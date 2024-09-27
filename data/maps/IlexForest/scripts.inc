@@ -9,8 +9,8 @@ IlexForest_OnResume:
 	end
 
 IlexForest_OnFrame:
-map_script_2 VAR_UNUSED_0x40FF, 20, IlexForest_Escena
-map_script_2 VAR_UNUSED_0x40FF, 22, IlexForest_Escena_Despues
+map_script_2 VAR_UNUSED_0x40FF, 29, IlexForest_Escena
+map_script_2 VAR_UNUSED_0x40FF, 31, IlexForest_Escena_Despues
 	.2byte 0
 
 IlexForest_SetupEscapeWarp::
@@ -141,10 +141,10 @@ IlexForest_Llamada_Giovanni_Texto_1:
 	.string "Grandes recuerdos me trae ese\l"
 	.string "lugar, sí{PAUSE 25}…{PAUSE 25}\l"
 	.string "Ya tenemos la información del\l"
-	.string "BUTTERFREE FUERTE VÍNCULO de\l"
-	.string "CÉSAR. Lo más extraordinario no\l"
-	.string "son sus 505 STATS BASE, es\l"
-	.string "su insuperable reparto de STATS\l"
+	.string "BUTTERFREE-& de CÉSAR.\l"
+	.string "Lo más extraordinario no son\l"
+	.string "sus 505 STATS BASE, es su\l"
+	.string "insuperable reparto de STATS\l"
 	.string "útiles. Tiene{PAUSE 25}…{PAUSE 25} ¡solo 5 de BASE en\l"
 	.string "ATAQUE!\l"
 	.string "Entre esto y su HABILIDAD\l"
@@ -399,7 +399,7 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 delay 15
-setvar VAR_UNUSED_0x40FF, 21
+setvar VAR_UNUSED_0x40FF, 30
 warpsilent MAP_SOUTH_ROUTE45, 5, 82
 delay 100
 release
@@ -459,10 +459,10 @@ IlexForest_Escena_Texto_4:
 	.string "aún perduran!$"
 
 IlexForest_Escena_Texto_5:
-	.string "Gracias, pero... yo lo sigo viendo igual.$"
+	.string "Gracias, pero{PAUSE 25}…{PAUSE 25} yo lo sigo viendo igual.$"
 
 IlexForest_Escena_Texto_6:
-	.string "Ah... Sí... Tú lo ves todo el tiempo. No\n"
+	.string "Ah{PAUSE 25}…{PAUSE 25} Sí{PAUSE 25}…{PAUSE 25} Tú lo ves todo el tiempo. No\n"
 	.string "puedes apreciarlo, pero con cada nueva\l"
 	.string "acción, cada combate, tu POKÉMON está\l"
 	.string "cambiando.$"
@@ -482,7 +482,7 @@ IlexForest_Escena_Texto_9:
 	.string "antes.$"
 
 IlexForest_Escena_Texto_10:
-	.string "Pero… yo aún no he llegado siquiera a\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} yo aún no he llegado siquiera a\n"
 	.string "desvelar los secretos del ENCINAR…\l"
 	.string "¿cómo podré llegar a eso?$"
 
@@ -506,7 +506,7 @@ IlexForest_Escena_Texto_14:
 	.string "Oh…$"
 
 IlexForest_Escena_Texto_15:
-	.string "Tú, jovencita… tienes todo lo que hace\n"
+	.string "Tú, jovencita{PAUSE 25}…{PAUSE 25} tienes todo lo que hace\n"
 	.string "falta: tiempo y talento.$"
 
 IlexForest_Escena_Texto_16:
@@ -517,7 +517,7 @@ IlexForest_Escena_Texto_17:
 	.string "¡Claro que acudiré!$"
 
 IlexForest_Escena_Texto_18:
-	.string "En ese caso… ¡JOHTO te observa!\n"
+	.string "En ese caso{PAUSE 35}…{PAUSE 35} ¡JOHTO te observa!\n"
 	.string "¡Jo, jo, jo!$"
 
 IlexForest_Escena_Texto_19:
@@ -922,7 +922,7 @@ msgbox IlexForest_Escena_Despues_Texto_50 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
-setvar VAR_UNUSED_0x40FF, 23
+setvar VAR_UNUSED_0x40FF, 32
 warpsilent MAP_ROUTE27, 74, 8
 release
 end
@@ -1058,7 +1058,7 @@ IlexForest_Escena_Despues_Texto_2:
 	.string "¡Ther!$"
 
 IlexForest_Escena_Despues_Texto_3:
-	.string "Maldita sea…$"
+	.string "Maldita sea{PAUSE 25}…{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_4:
 	.string "¿Por qué estoy ahora empeorando? ¿Y\n"
@@ -1076,17 +1076,17 @@ IlexForest_Escena_Despues_Texto_6:
 	.string "estancada.$"
 
 IlexForest_Escena_Despues_Texto_7:
-	.string "Las cuentas no salen…$"
+	.string "Las cuentas no salen{PAUSE 25}…{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_8:
 	.string "¿Será una prueba?$"
 
 IlexForest_Escena_Despues_Texto_9:
-	.string "Pero… si de verdad JOHTO está\n"
+	.string "Pero{PAUSE 35}…{PAUSE 35} si de verdad JOHTO está\n"
 	.string "observándome, no se siente.$"
 
 IlexForest_Escena_Despues_Texto_10:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_11:
 	.string "¡Ey, chica!$"
@@ -1120,7 +1120,7 @@ IlexForest_Escena_Despues_Texto_18:
 	.string "¡¿De verdad?!$"
 
 IlexForest_Escena_Despues_Texto_19:
-	.string "Aunque… he visto varios SCIZOR;\n"
+	.string "Aunque{PAUSE 15}…{PAUSE 15} he visto varios SCIZOR;\n"
 	.string "KLEAVOR, únicamente el de CÉSAR.$"
 
 IlexForest_Escena_Despues_Texto_20:
@@ -1159,7 +1159,7 @@ IlexForest_Escena_Despues_Texto_27:
 	.string "nivel considerable.$"
 
 IlexForest_Escena_Despues_Texto_28:
-	.string "Tenéis razón… el mundo ha cambiado. Si\n"
+	.string "Tenéis razón{PAUSE 35}…{PAUSE 35} el mundo ha cambiado. Si\n"
 	.string "no aprovecho estas herramientas, ¡me\l"
 	.string "quedaré atrás!$"
 
@@ -1175,7 +1175,7 @@ IlexForest_Escena_Despues_Texto_30:
 	.string "¡TRIGAL! ¡Allá vamos!$"
 
 IlexForest_Escena_Despues_Texto_31:
-	.string "????: Así que EL ENCINAR…$"
+	.string "????: Así que EL ENCINAR{PAUSE 15}…{PAUSE 15}$"
 
 IlexForest_Escena_Despues_Texto_32:
 	.string "La leyenda dice que un poderoso\n"
@@ -1189,14 +1189,14 @@ IlexForest_Escena_Despues_Texto_34:
 	.string "¡Ram!$"
 
 IlexForest_Escena_Despues_Texto_35:
-	.string "Aunque, pensándolo mejor…$"
+	.string "Aunque, pensándolo mejor{PAUSE 15}…{PAUSE 15}$"
 
 IlexForest_Escena_Despues_Texto_36:
 	.string "Las leyendas acaban decepcionando.$"
 
 IlexForest_Escena_Despues_Texto_37:
 	.string "La gran mayoría sangra como todos. Solo\n"
-	.string "que… tuvieron la suerte de no llegar a\l"
+	.string "que{PAUSE 25}…{PAUSE 25} tuvieron la suerte de no llegar a\l"
 	.string "hacerlo en presencia de otros.$"
 
 IlexForest_Escena_Despues_Texto_38:
@@ -1227,7 +1227,7 @@ IlexForest_Escena_Despues_Texto_44:
 	.string "¡Ther!$"
 
 IlexForest_Escena_Despues_Texto_45:
-	.string "De modo que… ¿te empeñas en ignorar\n"
+	.string "De modo que{PAUSE 25}…{PAUSE 25} ¿te empeñas en ignorar\n"
 	.string "tus propios límites?$"
 
 IlexForest_Escena_Despues_Texto_46:
@@ -1245,6 +1245,6 @@ IlexForest_Escena_Despues_Texto_49:
 	.string "Tal es la fragilidad de los mortales.$"
 
 IlexForest_Escena_Despues_Texto_50:
-	.string "Ya va siendo hora… de visitar los\n"
+	.string "Ya va siendo hora{PAUSE 35}…{PAUSE 35} de visitar los\n"
 	.string "lugares de JOHTO que de verdad\l"
 	.string "importan.$"

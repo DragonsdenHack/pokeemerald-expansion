@@ -84,7 +84,7 @@ delay 15
 applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_4
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_2_Esencia_Texto_8 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Lavender_Secta_Pasadizo_2_Esencia_Texto_9
+trainerbattle_no_intro TRAINER_TRAINER_706, Lavender_Secta_Pasadizo_2_Esencia_Texto_9
 delay 15
 applymovement 1, Lavender_Secta_Pasadizo_2_Esencia_Move_7
 waitmovement 0x0
@@ -103,10 +103,11 @@ playse SE_M_FAINT_ATTACK
 setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 1
 waitse
-delay 15
+delay 35
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_8
 waitmovement 0x0
+setvar VAR_UNUSED_0x40FF, 27
 release
 end
 

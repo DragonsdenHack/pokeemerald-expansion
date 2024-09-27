@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_SECTA_PASADIZO",
   "name": "Lavender_Secta_Pasadizo",
   "layout": "LAYOUT_LAVENDER_SECTA_PASADIZO",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "623",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_FOG_HORIZONTAL",
@@ -53,8 +53,8 @@
       "x": 2,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_TOWN_PASADO_GYM",
-      "dest_warp_id": 1
+      "dest_map": "MAP_LAVENDER_TOWN_HOUSE2",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [
@@ -63,9 +63,27 @@
       "x": 10,
       "y": 4,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "21",
       "script": "Lavender_Secta_Pasadizo_Oak"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "21",
+      "script": "Lavender_Secta_Pasadizo_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "22",
+      "script": "Lavender_Secta_Pasadizo_Bloqueo"
     }
   ],
   "bg_events": [

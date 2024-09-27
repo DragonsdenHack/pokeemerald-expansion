@@ -300,17 +300,42 @@ PokemonTower1F_Activador_Entrada_Pasa::
 delay 15
 msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
-applymovement OBJ_EVENT_ID_PLAYER, CuevaTesoro_Activador_Entrada_Pasa_Move_1
-waitmovement 0x0
 msgbox PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+delay 10
 warp MAP_POKEMON_TOWER_S1, 20, 8
+delay 10
 release
 end
 
 PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
 	.string "Este pilar está hueco. Debajo hay unas\n"
 	.string "escaleras que llevan a pisos inferiores.\l"
+	.string "¿Quieres pasar?$"
+
+PokemonTowerS3_Activador_Entrada_Pasa::
+delay 15
+msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTowerS3_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox PokemonTowerS3_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+delay 15
+warp MAP_LAVENDER_SECTA_PASADIZO_2 , 4, 3
+delay 50
+release
+end
+
+PokemonTowerS3_Activador_Entrada_Pasa_Move_1:
+emote_exclamation_mark
+step_end
+
+PokemonTowerS3_Activador_Entrada_Pasa_Text_YesNo:
+	.string "Esta tumba esconde algo. Debajo hay unas\n"
+	.string "antiguas escaleras que llevan más abajo.\l"
 	.string "¿Quieres pasar?$"
 

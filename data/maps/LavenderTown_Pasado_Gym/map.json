@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_TOWN_PASADO_GYM",
   "name": "LavenderTown_Pasado_Gym",
   "layout": "LAYOUT_LAVENDER_TOWN_PASADO_GYM",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_POKE_TOWER",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -159,6 +159,13 @@
       "elevation": 0,
       "dest_map": "MAP_LAVENDER_SECTA_PASADIZO",
       "dest_warp_id": 1
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_TOWN_PASADO_GYM",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

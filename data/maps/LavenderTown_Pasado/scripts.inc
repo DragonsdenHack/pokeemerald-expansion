@@ -386,8 +386,9 @@ applymovement 9, LavenderTown_Pasado_Lider_Move_8
 waitmovement 0x0
 msgbox LavenderTown_Pasado_Lider_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
-applymovement 9, LavenderTown_Pasado_Lider_Move_9
+applymovement 9, LavenderTown_Pasado_Lider_Move_7
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Pasado_Lider_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 9, LavenderTown_Pasado_Lider_Move_10
@@ -402,11 +403,12 @@ applymovement 9, LavenderTown_Pasado_Lider_Move_12
 waitmovement 0x0
 removeobject 9
 playse SE_EXIT
-delay 10
+delay 20
 applymovement 7, LavenderTown_Pasado_Lider_Move_1
 waitmovement 0x0
+delay 20
 msgbox LavenderTown_Pasado_Lider_Texto_12 MSGBOX_AUTOCLOSE
-delay 10
+delay 20
 applymovement 7, LavenderTown_Pasado_Lider_Move_13
 waitmovement 0x0
 removeobject 7
@@ -418,7 +420,7 @@ removeobject 8
 closedoor 9, 16
 waitdooranim
 setflag FLAG_HOENN_70
-setvar VAR_UNUSED_0x40F9, 4
+setvar VAR_UNUSED_0x40FF, 18
 release
 end
 
@@ -428,7 +430,6 @@ delay_16
 delay_8
 walk_slow_up
 delay_16
-walk_left
 walk_left
 walk_up
 step_end

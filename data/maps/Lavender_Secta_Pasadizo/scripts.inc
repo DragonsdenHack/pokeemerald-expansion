@@ -1,5 +1,15 @@
 Lavender_Secta_Pasadizo_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Lavender_Secta_Pasadizo_OnResume
 	.byte 0
+
+Lavender_Secta_Pasadizo_OnResume:
+map_script_2 VAR_UNUSED_0x40FF, 20, Lavender_Secta_Pasadizo_Gray
+	.2byte 0
+
+Lavender_Secta_Pasadizo_Gray::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40FF, 21
+end
 
 Lavender_Secta_Pasadizo_Oak_Move_1:
 face_left
@@ -113,6 +123,7 @@ applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_1
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
+call Script_SetGrayscaleTint
 applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_2
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_3 MSGBOX_AUTOCLOSE
@@ -151,17 +162,18 @@ msgbox Lavender_Secta_Pasadizo_Oak_Texto_12 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_13 MSGBOX_AUTOCLOSE
 delay 10
-applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_4
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_4
 waitmovement 0x0
+delay 25
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_14 MSGBOX_AUTOCLOSE
-applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_11
-applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_1
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_11
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_1
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_15 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_16 MSGBOX_AUTOCLOSE
 delay 10
-applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_12
+applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_12
 waitmovement 0x0
 delay 10
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_17 MSGBOX_AUTOCLOSE
@@ -274,6 +286,7 @@ waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_48 MSGBOX_AUTOCLOSE
 delay 25
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_49 MSGBOX_AUTOCLOSE
+applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_20.1
 applymovement 2, Lavender_Secta_Pasadizo_Oak_Move_20
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_50 MSGBOX_AUTOCLOSE
@@ -297,9 +310,9 @@ playse SE_EXIT
 setflag FLAG_HOENN_81
 removeobject 2
 waitse
-delay 10
+delay 30
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_55 MSGBOX_AUTOCLOSE
-delay 15
+delay 30
 msgbox Lavender_Secta_Pasadizo_Oak_Texto_56 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, Lavender_Secta_Pasadizo_Oak_Move_7
@@ -312,11 +325,17 @@ waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 removeobject 1
+setflag FLAG_HOENN_80
+setvar VAR_UNUSED_0x40FF, 22
 release
 end
 
+Lavender_Secta_Pasadizo_Oak_Move_20.1:
+delay_16
+walk_slow_right
+step_end
+
 Lavender_Secta_Pasadizo_Oak_Move_26:
-walk_left
 walk_left
 walk_left
 walk_down
@@ -583,7 +602,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_53:
 	.string "harás.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
-	.string "Morirás sin haber descorrido\n"
+	.string "Vivirás sin jamás descorrer\n"
 	.string "la verdad tras el velo.\l"
 	.string "El tiempo pasa, ¿lo entiendes?$"
 
@@ -597,3 +616,25 @@ Lavender_Secta_Pasadizo_Oak_Texto_56:
 Lavender_Secta_Pasadizo_Oak_Texto_57:
 	.string "El mundo verá el resultado\n"
 	.string "de mis investigaciones.$"
+
+Lavender_Secta_Pasadizo_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Bloqueo_Move_1
+waitmovement 0x0
+msgbox Lavender_Secta_Pasadizo_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+Lavender_Secta_Pasadizo_Bloqueo_Move_1:
+walk_in_place_left
+step_end
+
+Lavender_Secta_Pasadizo_Bloqueo_Move_2:
+walk_slow_right
+step_end
+
+Lavender_Secta_Pasadizo_Bloqueo_Texto_1:
+	.string "Una energía misteriosa te impide\n"
+	.string "volver.$"

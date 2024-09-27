@@ -2,14 +2,14 @@
   "id": "MAP_LAVENDER_SECTA_PASADIZO_3",
   "name": "Lavender_Secta_Pasadizo_3",
   "layout": "LAYOUT_LAVENDER_SECTA_PASADIZO_3",
-  "music": "MUS_ABANDONED_SHIP",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "music": "623",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": false,
+  "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HOENN_81"
+      "flag": "FLAG_HOENN_83"
     }
   ],
   "warp_events": [
@@ -74,6 +74,13 @@
       "elevation": 0,
       "dest_map": "MAP_LAVENDER_SECTA_PASADIZO",
       "dest_warp_id": 0
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_3",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -82,9 +89,18 @@
       "x": 5,
       "y": 5,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "23",
+      "script": "Lavender_Secta_Pasadizo_Lider"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "23",
+      "script": "Lavender_Secta_Pasadizo_Bloqueo"
     }
   ],
   "bg_events": [
@@ -94,7 +110,7 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "PokemonTowerS3_Activador_Entrada_Pasa"
     }
   ]
 }

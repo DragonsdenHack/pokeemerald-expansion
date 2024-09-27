@@ -1,5 +1,15 @@
 Lavender_Secta_Pasadizo_3_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Lavender_Secta_Pasadizo_3_OnResume
 	.byte 0
+
+Lavender_Secta_Pasadizo_3_OnResume:
+map_script_2 VAR_UNUSED_0x40FF, 22, Lavender_Secta_Pasadizo_3_Gray
+	.2byte 0
+
+Lavender_Secta_Pasadizo_3_Gray::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40FF, 23
+end
 
 Lavender_Secta_Pasadizo_Lider_Move_1:
 walk_in_place_right
@@ -71,13 +81,24 @@ walk_down
 walk_right
 step_end
 
+Lavender_Secta_Pasadizo_Lider_Move_12.1:
+walk_down
+walk_right
+walk_right
+walk_right
+step_end
+
 Lavender_Secta_Pasadizo_Lider::
 lock
+call Script_SetGrayscaleTint
 applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Lider_Move_1
 waitmovement 0x0
 playse SE_EXIT
+setflag FLAG_HOENN_83
 clearflag FLAG_HOENN_81
+removeobject 4
 addobject 2
+call Script_SetGrayscaleTint
 applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Lider_Move_2
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_1 MSGBOX_AUTOCLOSE
@@ -180,32 +201,39 @@ waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HOENN_81
 removeobject 2
-delay 15
+delay 35
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_29 MSGBOX_AUTOCLOSE
-delay 15
+delay 35
 special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Lider_Move_12.1
 applymovement 1, Lavender_Secta_Pasadizo_Lider_Move_12
 applymovement OBJ_EVENT_ID_CAMERA, Lavender_Secta_Pasadizo_Lider_Move_12
 waitmovement 0x0
 special RemoveCameraObject
-delay 10
+delay 50
 applymovement 1, Lavender_Secta_Pasadizo_Lider_Move_6
 waitmovement 0x0
-clearflag FLAG_HOENN_81
+delay 50
+clearflag FLAG_HOENN_83
 addobject 4
+call Script_SetGrayscaleTint
 playse SE_BALL_THROW
 waitse
-delay 30
+delay 50
 playse SE_BALL_TRADE
-setflag FLAG_HOENN_81
+setflag FLAG_HOENN_83
 removeobject 4
 clearflag FLAG_HOENN_80
 addobject 3
+call Script_SetGrayscaleTint
 waitse
-delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_Lider_Move_9
+waitmovement 0x0
+delay 35
 playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER
 waitmoncry
-delay 10
+delay 25
 applymovement 1, Lavender_Secta_Pasadizo_Lider_Move_7
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_30 MSGBOX_AUTOCLOSE
@@ -269,13 +297,13 @@ setflag FLAG_HOENN_82
 setflag FLAG_HOENN_81
 setflag FLAG_HOENN_80
 playse SE_M_DETECT
-dofieldeffectsparkle 6, 4, 0
+dofieldeffectsparkle 9, 5, 0
 waitfieldeffect FLDEFF_SPARKLE
 waitse
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_9
 waitmovement 0x0
-msgbox MossdeepCity_Jirachi_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Jirachi_Move_10
 playse SE_ORB
 special DoOrbEffect
@@ -283,19 +311,15 @@ delay 150
 waitstate
 delay 60
 special FadeOutOrbEffect
+setvar VAR_UNUSED_0x40FF, 24
 warpsilent MAP_POKEMON_TOWER_S3, 11, 9
 delay 150
 release
 end
 
-
 Lavender_Secta_Pasadizo_Lider_Move_15:
 walk_fast_left
 walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_up
 walk_fast_up
 walk_fast_up
 step_end
@@ -310,7 +334,6 @@ face_right
 delay_16
 delay_16
 step_end
-
 
 Lavender_Secta_Pasadizo_Lider_Move_13:
 jump_in_place_down

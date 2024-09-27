@@ -39657,10 +39657,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER705[] = {
     .iv = 230,
     .lvl = 72,
     .species = SPECIES_JOLTEON,
-    .heldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_FOCUS_SASH,
     .evs = {100, 4, 100, 100, 106, 100},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_VOLT_SWITCH, MOVE_SHADOW_BALL, MOVE_VOLT_SWITCH, MOVE_VOLT_SWITCH}
+    .moves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_HYPER_VOICE, MOVE_SIGNAL_BEAM}
     },
     {
     .iv = 230,

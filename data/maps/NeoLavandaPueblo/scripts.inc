@@ -557,9 +557,7 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-setvar VAR_UNUSED_0x40FF, 10
-setvar VAR_UNUSED_0x40F7, 103
-changeavatar 3 
+changeavatar 4 
 release
 end
 

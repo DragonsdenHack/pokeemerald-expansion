@@ -1,5 +1,15 @@
 PokemonTower_S3_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonTower_S3_OnResume
 	.byte 0
+
+PokemonTower_S3_OnResume:
+map_script_2 VAR_UNUSED_0x40FF, 24, PokemonTower_S3_Gray
+	.2byte 0
+
+PokemonTower_S3_Gray::
+call Script_RemoveTint
+setvar VAR_UNUSED_0x40FF, 25
+end
 
 PokemonTower_S3_Tumba_Move_1:
 emote_exclamation_mark
@@ -199,6 +209,7 @@ delay 150
 waitstate
 delay 60
 special FadeOutOrbEffect
+special HealPlayerParty
 warpsilent MAP_LAVENDER_TOWN_PASADO, 8, 0
 delay 150
 release
@@ -303,7 +314,7 @@ PokemonTower_S3_Tumba_Texto_22:
 	.string "… …$"
 
 PokemonTower_S3_Tumba_Texto_23:
-	.string "Retrocedamos 60 años en el tiempo.$"
+	.string "Retrocedamos 50 años en el tiempo.$"
 
 PokemonTower_S3_Epitafio::
 lock

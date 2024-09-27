@@ -152,8 +152,10 @@ delay 15
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 1, NameRatersHouse_Trampilla_Move_3
 waitmovement 0x0
-delay 10
-applymovement 1, NameRatersHouse_Trampilla_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, NameRatersHouse_Trampilla_Move_4
+waitmovement 0x0
+delay 30
+applymovement OBJ_EVENT_ID_PLAYER, NameRatersHouse_Trampilla_Move_5
 waitmovement 0x0
 delay 35
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_4 MSGBOX_AUTOCLOSE
@@ -208,6 +210,7 @@ waitfanfare
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, NameRatersHouse_Trampilla_Move_11
 waitmovement 0x0
+setvar VAR_UNUSED_0x40FF, 26
 release
 end
 
@@ -276,12 +279,12 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_8:
 	.string "¡AGATHA! Entiendo.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_9:
-	.string "Entonces, tú eras ese ENTRENADOR tan\n"
-	.string "extraordinario del que hablaba.$"
+	.string "Entonces, tú eras ese ENTRENADOR\n"
+	.string "que tanto aprecia.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_10:
-	.string "Tenemos mucho por lo que estar\n"
-	.string "agradecidos contigo.$"
+	.string "AGATHA confía en ti,\n"
+	.string "yo también lo haré.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_11:
 	.string "Si puedo hacer algo por\n"
@@ -289,7 +292,7 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_11:
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_12:
 	.string "Ese pequeño CEMENTERIO se cerró hace\n"
-	.string "más de cuatro décadas, cuando el primer\l"
+	.string "más de tres décadas, cuando el primer\l"
 	.string "INSPECTOR de MOTES llegó.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_13:
@@ -306,9 +309,9 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_15:
 	.string "LLAVE para abrir la trampilla.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_16:
-	.string "Jamás la utilicé ni me interesé por\n"
-	.string "saber qué había debajo, pero veo que a\l"
-	.string "ti sí te interesa. Toma.$"
+	.string "Jamás la use, tampoco me interesé por\n"
+	.string "saber qué había debajo. Veo que a ti\l"
+	.string "sí que te interesa. Toma.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_17:
 	.string "¡{PLAYER} obtuvo la LLAVE TRAMPILLA!$"
@@ -318,5 +321,28 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_18:
 	.string "cuando quieras. Es lo menos que puedo\l"
 	.string "hacer por ti.$"
 
+Lavender_Motes_Activador_Entrada::
+compare VAR_UNUSED_0x40FF, 25
+goto_if_gt Lavender_Motes_Activador_Entrada_Pasa
+release
+end
+
+Lavender_Motes_Activador_Entrada_Pasa::
+delay 15
+msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Lavender_Motes_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+delay 10
+warp MAP_LAVENDER_SECTA_PASADIZO, 2, 4
+delay 10
+release
+end
+
+Lavender_Motes_Activador_Entrada_Pasa_Text_YesNo:
+	.string "Debajo del MAPA está\n"
+	.string "el antiguo CEMENTERIO.\l"
+	.string "¿Quieres usar la LLAVE TRAMPILLA?$"
 
 

@@ -219,6 +219,7 @@ msgbox CinnabarMansionS1_Dalia_Texto_34 MSGBOX_AUTOCLOSE
 applymovement 5, CinnabarMansionS1_Dalia_Move_16
 waitmovement 0x0
 msgbox CinnabarMansionS1_Dalia_Texto_35 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40FF, 28
 release
 end
 
@@ -404,7 +405,37 @@ msgbox CinnabarMansionS1_Dalia_Texto_35 MSGBOX_AUTOCLOSE
 release
 end
 
-CinnabarMansionS1_Activador::
+Cinnabar_S1_Llave::
+compare VAR_UNUSED_0x40FF, 27
+goto_if_gt Cinnabar_S1_Llave_Despues
+delay 10
+msgbox Cinnabar_S1_Llave_Texto_1 MSGBOX_AUTOCLOSE
 lock
 release
 end
+
+Cinnabar_S1_Llave_Despues::
+delay 10
+msgbox Cinnabar_S1_Llave_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 6, 12, 0x284, FALSE
+setmetatile 6, 13, 0x284, FALSE
+setmetatile 7, 13, 0x284, FALSE
+setmetatile 7, 12, 0x2C8, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+Cinnabar_S1_Llave_Texto_2:
+	.string "¿Quieres usar la LLAVE S1 MANSIÓN?$"
+
+Cinnabar_S1_Llave_Texto_1:
+	.string "Se requiere de una llave especial.$"
+
+

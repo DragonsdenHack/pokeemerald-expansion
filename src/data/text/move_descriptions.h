@@ -127,7 +127,7 @@ static const u8 sFuryAttackDescription[] = _(
 
 static const u8 sHornDrillDescription[] = _(
     "Ataque taladro.\n"
-    "Fulmina en 1 golpe.");
+    "50% daño retroceso.");
 
 static const u8 sTackleDescription[] = _(
     "Embiste con todo\n"

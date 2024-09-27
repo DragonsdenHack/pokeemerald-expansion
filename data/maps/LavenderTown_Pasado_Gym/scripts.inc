@@ -1,8 +1,27 @@
 LavenderTown_Pasado_Gym_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, LavenderTown_Pasado_Gym_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LavenderTown_Pasado_Gym_OnResume
 	.byte 0
+
+LavenderTown_Pasado_Gym_OnResume:
+map_script_2 VAR_UNUSED_0x40FF, 18, LavenderTown_Pasado_Gym_Gray
+	.2byte 0
+
+LavenderTown_Pasado_Gym_Gray::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40FF, 19
+end
+
+LavenderTown_Pasado_Gym_OnFrame:
+map_script_2 VAR_UNUSED_0x40FF, 19, LavenderTown_Pasado_Gym
+	.2byte 0
 
 LavenderTown_Pasado_Gym_Move_1:
 walk_slow_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_1.1:
+walk_slow_up
 step_end
 
 LavenderTown_Pasado_Gym_Move_2:
@@ -70,11 +89,9 @@ LavenderTown_Pasado_Gym_Move_14:
 walk_slow_up
 walk_slow_up
 walk_slow_up
-walk_slow_up
 step_end
 
 LavenderTown_Pasado_Gym_Move_14.1:
-walk_slow_down
 walk_slow_down
 walk_slow_down
 walk_slow_down
@@ -159,10 +176,15 @@ delay_16
 face_up
 step_end
 
+LavenderTown_Pasado_Gym_Move_9.1:
+face_up
+jump_in_place_up
+step_end
+
 LavenderTown_Pasado_Gym::
 lock
 delay 15
-applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_1.1
 waitmovement 0x0
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_2
@@ -170,7 +192,7 @@ waitmovement 0x0
 waitse
 delay 5
 playse SE_EXIT
-removeobject 10
+addobject 10
 clearflag FLAG_HOENN_70
 waitse
 playse SE_PIN
@@ -178,8 +200,11 @@ applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_3
 waitmovement 0x0
 delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
 applymovement 9, LavenderTown_Pasado_Gym_Move_4
 waitmovement 0x0
+waitse
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 9, LavenderTown_Pasado_Gym_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_6
@@ -190,7 +215,9 @@ waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 10, LavenderTown_Pasado_Gym_Move_9
 waitmovement 0x0
+delay 15
 msgbox LavenderTown_Pasado_Gym_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 9, LavenderTown_Pasado_Gym_Move_8
 applymovement 10, LavenderTown_Pasado_Gym_Move_10
 waitmovement 0x0
@@ -223,6 +250,10 @@ applymovement 9, LavenderTown_Pasado_Gym_Move_9
 applymovement 10, LavenderTown_Pasado_Gym_Move_9
 waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_LEDGE
+applymovement 9, LavenderTown_Pasado_Gym_Move_9.1
+applymovement 10, LavenderTown_Pasado_Gym_Move_9.1
+waitmovement 0x0
 special SpawnCameraObject
 applymovement 4, LavenderTown_Pasado_Gym_Move_10
 applymovement 10, LavenderTown_Pasado_Gym_Move_15
@@ -310,7 +341,7 @@ msgbox LavenderTown_Pasado_Gym_Texto_33 MSGBOX_AUTOCLOSE
 applymovement 10, LavenderTown_Pasado_Gym_Move_9
 waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_34 MSGBOX_AUTOCLOSE
-applymovement 10, LavenderTown_Pasado_Gym_Move_24
+applymovement 1, LavenderTown_Pasado_Gym_Move_24
 waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_35 MSGBOX_AUTOCLOSE
 delay 15
@@ -412,6 +443,8 @@ waitmovement 0x0
 delay 10
 msgbox LavenderTown_Pasado_Gym_Texto_58 MSGBOX_AUTOCLOSE
 delay 15
+applymovement 6, LavenderTown_Pasado_Gym_Move_25
+waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_59 MSGBOX_AUTOCLOSE
 applymovement 10, LavenderTown_Pasado_Gym_Move_28
 waitmovement 0x0
@@ -443,11 +476,15 @@ msgbox LavenderTown_Pasado_Gym_Texto_65 MSGBOX_AUTOCLOSE
 applymovement 1, LavenderTown_Pasado_Gym_Move_31
 waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_66 MSGBOX_AUTOCLOSE
-delay 15
+playse SE_PIN
+applymovement 10, LavenderTown_Pasado_Gym_Move_3
+waitse
+delay 25
 applymovement 1, LavenderTown_Pasado_Gym_Move_9
 waitmovement 0x0
-delay 15
+delay 25
 msgbox LavenderTown_Pasado_Gym_Texto_67 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderTown_Pasado_Gym_Move_32.1
 applymovement 1, LavenderTown_Pasado_Gym_Move_32
 waitmovement 0x0
 removeobject 1
@@ -467,8 +504,8 @@ waitmovement 0x0
 msgbox LavenderTown_Pasado_Gym_Texto_71 MSGBOX_AUTOCLOSE
 setflag FLAG_HOENN_70
 setflag FLAG_HOENN_71
-fadescreen 0
-delay 20
+fadescreen 1
+delay 40
 removeobject 1
 removeobject 2
 removeobject 3
@@ -479,12 +516,13 @@ removeobject 7
 removeobject 8
 removeobject 9
 removeobject 10
-fadescreen 1
+delay 40
+fadescreen 0
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Gym_Move_14.1
 waitmovement 0x0
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40F9, 5
+setvar VAR_UNUSED_0x40FF, 20
 release
 end
 
@@ -508,6 +546,15 @@ walk_right
 walk_down
 walk_down
 walk_down
+step_end
+
+LavenderTown_Pasado_Gym_Move_32.1:
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_right
 step_end
 
 
@@ -747,7 +794,7 @@ LavenderTown_Pasado_Gym_Texto_51:
 
 LavenderTown_Pasado_Gym_Texto_52:
 	.string "Sus poderes mentales se dispararon.\n"
-	.string "También su agilidad.$"
+	.string "También su agilidad y fluidez en combate.$"
 
 LavenderTown_Pasado_Gym_Texto_53:
 	.string "Tal evento sorprendió al CAMPEÓN que, a\n"

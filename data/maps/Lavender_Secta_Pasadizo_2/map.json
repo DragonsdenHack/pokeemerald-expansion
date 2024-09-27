@@ -2,10 +2,10 @@
   "id": "MAP_LAVENDER_SECTA_PASADIZO_2",
   "name": "Lavender_Secta_Pasadizo_2",
   "layout": "LAYOUT_LAVENDER_SECTA_PASADIZO_2",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "638",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": false,
   "allow_escaping": true,
@@ -34,7 +34,7 @@
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_3",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 28,
@@ -148,8 +148,8 @@
       "x": 68,
       "y": 9,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "26",
       "script": "Lavender_Secta_Pasadizo_2_Esencia"
     }
   ],

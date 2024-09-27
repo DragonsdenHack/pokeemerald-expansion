@@ -196,7 +196,7 @@ setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 setflag FLAG_HOENN_674
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
-setvar VAR_UNUSED_0x40FF, 20
+setvar VAR_UNUSED_0x40FF, 29
 waitmovement 0x0
 warpsilent MAP_ILEX_FOREST, 17, 52
 waitmovement 0x0
