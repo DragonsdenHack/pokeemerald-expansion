@@ -39931,12 +39931,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER712[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER713[] = {
     {
     .iv = 255,
-    .lvl = 31,
+    .lvl = 29,
     .species = SPECIES_SNUBBULL,
     },
     {
     .iv = 255,
-    .lvl = 31,
+    .lvl = 33,
     .species = SPECIES_SNEASEL,
     }
     

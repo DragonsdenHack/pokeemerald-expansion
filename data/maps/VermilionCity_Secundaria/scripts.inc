@@ -18,6 +18,11 @@ walk_slow_down
 walk_slow_down
 step_end
 
+VermilionCity_Secundaria_Moteros_Move_3.1:
+walk_up
+walk_up
+step_end
+
 VermilionCity_Secundaria_Moteros_Move_4:
 walk_in_place_right
 step_end
@@ -93,6 +98,10 @@ VermilionCity_Secundaria_Moteros_Move_17:
 face_up
 step_end
 
+VermilionCity_Secundaria_Moteros_Move_18:
+face_down
+step_end
+
 
 VermilionCity_Secundaria_Moteros::
 lock
@@ -159,38 +168,259 @@ msgbox VermilionCity_Secundaria_Moteros_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 3, VermilionCity_Secundaria_Moteros_Move_17
 waitmovement 0x0
 playse 597
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_18
 applymovement 5, VermilionCity_Secundaria_Moteros_Move_5
 waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 5, VermilionCity_Secundaria_Moteros_Move_5
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_13 MSGBOX_AUTOCLOSE
-msgbox VermilionCity_Secundaria_Moteros_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_712, VermilionCity_Secundaria_Moteros_Texto_14
+delay 15
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_17
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Secundaria_Moteros_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 5, VermilionCity_Secundaria_Moteros_Move_19
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_18.1
+waitmovement 0x0
+delay 15
+playse SE_BREAKABLE_DOOR
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_20
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_21
+waitmovement 0x0
+delay 20
 msgbox VermilionCity_Secundaria_Moteros_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_25
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_22
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, VermilionCity_Secundaria_Moteros_Move_24
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_23
+waitmovement 0x0
+delay 30
+playse SE_BREAKABLE_DOOR
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_16
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_18
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_19 MSGBOX_AUTOCLOSE
+playse 597
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_16
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_20 MSGBOX_AUTOCLOSE
-msgbox VermilionCity_Secundaria_Moteros_Texto_21 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_713, VermilionCity_Secundaria_Moteros_Texto_21
+applymovement 4, VermilionCity_Secundaria_Moteros_Move_20
+waitmovement 0x0
+playmoncry SPECIES_BEEDRILL, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+waitse
+delay 10
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_26
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_23 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_27
+waitmovement 0x0
+playse SE_PIN
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_28
+waitmovement 0x0
+delay 10
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_29
+waitmovement 0x0
+delay 10
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_4
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_24 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_4
+waitmovement 0x0
+waitse
+delay 15
+playse 597
+delay 10
 msgbox VermilionCity_Secundaria_Moteros_Texto_25 MSGBOX_AUTOCLOSE
-msgbox VermilionCity_Secundaria_Moteros_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
+trainerbattle_no_intro TRAINER_TRAINER_711, VermilionCity_Secundaria_Moteros_Texto_26
+delay 15
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_24
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_27 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_27
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_28
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_31
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_29
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, VermilionCity_Secundaria_Moteros_Move_4
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_33 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 5
+removeobject 4
+removeobject 3
+removeobject 2
+delay 10
+fadescreen 0
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Secundaria_Moteros_Move_3.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_26
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_17
+waitmovement 0x0
+delay 5
 msgbox VermilionCity_Secundaria_Moteros_Texto_34 MSGBOX_AUTOCLOSE
+playse SE_USE_ITEM
+special HealPlayerParty
+waitse
+delay 20
 msgbox VermilionCity_Secundaria_Moteros_Texto_35 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_29
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Secundaria_Moteros_Move_29.1
+waitmovement 0x0
 msgbox VermilionCity_Secundaria_Moteros_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Secundaria_Moteros_Texto_38 MSGBOX_AUTOCLOSE
+applymovement 1, VermilionCity_Secundaria_Moteros_Move_32
+waitmovement 0x0
+playse SE_EXIT
+removeobject 1
+waitse
 setflag FLAG_HOENN_87
+setvar VAR_SCOTT_STATE, 3
 release
 end
+
+VermilionCity_Secundaria_Moteros_Move_32:
+walk_right
+walk_down
+walk_right
+walk_right
+walk_right
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_31:
+delay_16
+face_left
+delay_16
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_30:
+walk_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_29.1:
+delay_16
+delay_8
+face_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_29:
+face_right
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_28:
+emote_exclamation_mark
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_27:
+walk_left
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_26:
+walk_in_place_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_25:
+delay_16
+face_down
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_24:
+face_right
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_23:
+delay_8
+walk_slow_up
+walk_slow_up
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_22:
+walk_slow_up
+delay_16
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_21:
+emote_exclamation_mark
+delay_8
+face_left
+step_end
+
+
+VermilionCity_Secundaria_Moteros_Move_20:
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_19:
+face_down
+delay_16
+face_left
+delay_16
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+step_end
+
+VermilionCity_Secundaria_Moteros_Move_18.1:
+walk_left
+face_up
+step_end
 
 VermilionCity_Secundaria_Moteros_Texto_1:
 	.string "¡Buah! ¡Qué asco! Estar aquí\n"

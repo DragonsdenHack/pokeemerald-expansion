@@ -18355,6 +18355,29 @@ Cave_Regigigas_Devon_17_Text_PoliciaPostBattle:
 	.string "Uno hace lo que puede… hasta que su\n"
 	.string "destino le es revelado.$"
 
+VermilionCity_Jardin_Text_CriadorIntro:
+	.string "¿Quién eres tú? ¿No habrás venido a\n"
+	.string "quitarnos el trabajo?$"
+
+VermilionCity_Jardin_Text_CriadorDefeated:
+	.string "Derrotado por alguien de KANTO…$"
+
+VermilionCity_Jardin_Text_CriadorPostBattle:
+	.string "Esta tierra tiene algo especial. Todo\n"
+	.string "florece más rápido en ella.$"
+
+VermilionCity_Jardin_Text_CriadoraIntro:
+	.string "Aquí cultivamos bayas y hierbas muy\n"
+	.string "especiales. ¡No puedes pasar!$"
+
+VermilionCity_Jardin_Text_CriadoraDefeated:
+	.string "Nuestro JEFE se va a enfadar.$"
+
+VermilionCity_Jardin_Text_CriadoraPostBattle:
+	.string "Con las mentas podemos darle cualquier\n"
+	.string "personalidad a nuestros POKÉMON. Son\l"
+	.string "un objeto muy preciado.$"
+
 
 
 

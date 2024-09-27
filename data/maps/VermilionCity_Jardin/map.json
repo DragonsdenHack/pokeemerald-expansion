@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_VERMILION_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_CITY",
+  "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "VermilionCity_Jardin_EventScript_Criador",
       "flag": "FLAG_HOENN_84"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
-      "script": "NULL",
+      "script": "VermilionCity_Jardin_EventScript_Criadora",
       "flag": "FLAG_HOENN_84"
     },
     {
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "VermilionCity_Jardin_Cazabichos_Pelea",
+      "flag": "FLAG_HOENN_84"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",

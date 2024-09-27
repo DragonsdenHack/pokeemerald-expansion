@@ -1496,8 +1496,8 @@ Vermilion_Cazabichos_Texto_6:
 	.string "ello nuestras posibilidades aumentan.$"
 
 Vermilion_Cazabichos_Texto_7:
-	.string "Los últimos anuncios de LANCE hicieron\n"
-	.string "que me hicieron perder la fe.$"
+	.string "Los últimos anuncios de LANCE\n"
+	.string "me hicieron perder la fe.$"
 
 Vermilion_Cazabichos_Texto_8:
 	.string "Pero ahora, al verte, me he dado cuenta\n"
@@ -1526,9 +1526,9 @@ Vermilion_Activador_Entrada_Texto_1:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Vermilion_Activador_Entrada_Pasa_Text_YesNo:
-.string "Hay una pequeña endidura entre las\n"
-	.string "rocas, parece que se alarga varios\l"
-	.string "metros. ¿Quieres cruzarla?$"
+.string "Por aquí se puede entrar\n"
+	.string "a esta casa.\l"
+	.string "¿Quieres pasar?$"
 
 Vermilion_Activador_Entrada_Pasa_No::
 release
