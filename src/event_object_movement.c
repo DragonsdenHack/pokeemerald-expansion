@@ -576,6 +576,12 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_TEDDIURSA 0x11AE
 #define OBJ_EVENT_PAL_TAG_URSARING 0x11AF
 #define OBJ_EVENT_PAL_TAG_SCYTHER 0x11B0
+#define OBJ_EVENT_PAL_TAG_AGATHA3 0x11B1
+#define OBJ_EVENT_PAL_TAG_EXCHAMP 0x11B2
+#define OBJ_EVENT_PAL_TAG_MORFEO2 0x11B3
+#define OBJ_EVENT_PAL_TAG_OAK2 0x11B4
+#define OBJ_EVENT_PAL_TAG_GHOST 0x11B5
+#define OBJ_EVENT_PAL_TAG_NINETALESBOND 0x11B6
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -760,6 +766,12 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Teddiursa, OBJ_EVENT_PAL_TAG_TEDDIURSA},
 	{gObjectEventPal_Ursaring, OBJ_EVENT_PAL_TAG_URSARING},
 	{gObjectEventPal_Scyther, OBJ_EVENT_PAL_TAG_SCYTHER},
+	{gObjectEventPal_Agatha3, OBJ_EVENT_PAL_TAG_AGATHA3},
+	{gObjectEventPal_Exchamp, OBJ_EVENT_PAL_TAG_EXCHAMP},
+	{gObjectEventPal_Morfeo2, OBJ_EVENT_PAL_TAG_MORFEO2},
+	{gObjectEventPal_Oak2, OBJ_EVENT_PAL_TAG_OAK2},
+	{gObjectEventPal_Ghost, OBJ_EVENT_PAL_TAG_GHOST},
+	{gObjectEventPal_Ninetalesbond, OBJ_EVENT_PAL_TAG_NINETALESBOND},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

@@ -523,8 +523,14 @@
 #define OBJ_EVENT_GFX_TEDDIURSA 519
 #define OBJ_EVENT_GFX_URSARING 520
 #define OBJ_EVENT_GFX_SCYTHER 521
+#define OBJ_EVENT_GFX_AGATHA3 522
+#define OBJ_EVENT_GFX_EXCHAMP 523
+#define OBJ_EVENT_GFX_MORFEO2 524
+#define OBJ_EVENT_GFX_OAK2 525
+#define OBJ_EVENT_GFX_GHOST 526
+#define OBJ_EVENT_GFX_NINETALESBOND 527
 
-#define NUM_OBJ_EVENT_GFX                        522                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        528                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

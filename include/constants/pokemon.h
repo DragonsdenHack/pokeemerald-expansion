@@ -183,6 +183,7 @@
 #define MON_DATA_SPATK2            87
 #define MON_DATA_SPDEF2            88
 #define MON_DATA_HIDDEN_NATURE     89
+#define MON_DATA_PREVIOUS_FORM     90
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0

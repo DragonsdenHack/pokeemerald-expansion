@@ -544,6 +544,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ursaring;
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scyther;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha3;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Exchamp;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Morfeo2;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Oak2;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ghost;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ninetalesbond;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -1067,6 +1079,12 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_TEDDIURSA] = &gObjectEventGraphicsInfo_Teddiursa,
 	[OBJ_EVENT_GFX_URSARING] = &gObjectEventGraphicsInfo_Ursaring,
 	[OBJ_EVENT_GFX_SCYTHER] = &gObjectEventGraphicsInfo_Scyther,
+	[OBJ_EVENT_GFX_AGATHA3] = &gObjectEventGraphicsInfo_Agatha3,
+	[OBJ_EVENT_GFX_EXCHAMP] = &gObjectEventGraphicsInfo_Exchamp,
+	[OBJ_EVENT_GFX_MORFEO2] = &gObjectEventGraphicsInfo_Morfeo2,
+	[OBJ_EVENT_GFX_OAK2] = &gObjectEventGraphicsInfo_Oak2,
+	[OBJ_EVENT_GFX_GHOST] = &gObjectEventGraphicsInfo_Ghost,
+	[OBJ_EVENT_GFX_NINETALESBOND] = &gObjectEventGraphicsInfo_Ninetalesbond,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

@@ -20,8 +20,21 @@ FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
-	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove2
 	end
+	
+FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove2::
+    msgbox FallarborTown_MoveRelearnersHouse_Text_EggMove, MSGBOX_YESNO
+	switch VAR_RESULT
+	case YES, FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove
+	clearflag FLAG_HOENN_639
+    goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove::
+    setflag FLAG_HOENN_639
+    goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+    end 	
 
 FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
@@ -41,6 +54,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
 	removeitem ITEM_TINY_MUSHROOM
+	clearflag FLAG_HOENN_639
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	end
 
@@ -74,6 +88,11 @@ FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 	.string "MINI SETA!\p"
 	.string "Déjame adivinar, ¿quieres que enseñe\n"
 	.string "algún movimiento a tus POKÉMON?$"
+	
+FallarborTown_MoveRelearnersHouse_Text_EggMove:
+	.string "Me sé todos los movimientos\n"
+	.string "huevo que aprenden los POKéMON.\p"
+	.string "¿Te interesa ó continúamos?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
 	.string "¿A qué POKÉMON debería enseñárselo?$"
@@ -95,6 +114,6 @@ FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 	.string "a algún POKÉMON, traéme una MINI SETA.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
+	.string "¿Qué? No puedo enseñar nada\n"
+	.string "a un HUEVO.$"
 
