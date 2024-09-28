@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS2",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
       "x": 11,
       "y": 10,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER2",
+      "graphics_id": "OBJ_EVENT_GFX_MORFEO2",
       "x": 5,
       "y": 10,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS2",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
       "x": 11,
       "y": 17,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "FLAG_HOENN_70"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER2",
+      "graphics_id": "OBJ_EVENT_GFX_MORFEO2",
       "x": 11,
       "y": 18,
       "elevation": 3,
@@ -303,6 +303,15 @@
       "var": "VAR_TEMP_0",
       "var_value": "0",
       "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Blanco"
     }
   ],
   "bg_events": [

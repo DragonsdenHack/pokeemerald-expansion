@@ -141,9 +141,9 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_6:
 	.string "como CAMPEÓN.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_7:
-	.string "Vamos, {PLAYER}. Haz que se ruboricen\n"
-	.string "al ver de lo que eres capaz con las\l"
-	.string "mismas reglas que ellos crearon.$"
+	.string "Vamos, {PLAYER}. Haz que se ruboricen,\n"
+	.string "¡que vean lo que eres capaz de hacer\l"
+	.string "con las reglas que ellos mismos crearon!$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_8:
 	.string "¡Honra a este lugar con\n"

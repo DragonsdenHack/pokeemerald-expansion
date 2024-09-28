@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CRIADORJOHTO",
       "x": 14,
-      "y": 15,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -30,7 +30,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
       "x": 7,
-      "y": 15,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -50,13 +50,13 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "VermilionCity_Jardin_Final",
       "flag": "FLAG_HOENN_84"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
       "x": 10,
-      "y": 21,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -69,7 +69,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
       "x": 11,
-      "y": 21,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -78,25 +78,46 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "NULL",
       "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
+      "x": 19,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "VermilionCity_Jardin_Cazabichos_Despues",
+      "flag": "0"
     }
   ],
   "warp_events": [
     {
       "x": 7,
-      "y": 21,
+      "y": 25,
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY_SECUNDARIA",
       "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "VermilionCity_Jardin_Warp"
+    }
   ],
   "bg_events": [
     {
       "type": "hidden_item",
       "x": 15,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_TIMID_MINT",
       "flag": "FLAG_HOENN_94"
@@ -104,7 +125,7 @@
     {
       "type": "hidden_item",
       "x": 13,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_CALM_MINT",
       "flag": "FLAG_HOENN_93"
@@ -112,7 +133,7 @@
     {
       "type": "hidden_item",
       "x": 11,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_MODEST_MINT",
       "flag": "FLAG_HOENN_92"
@@ -120,7 +141,7 @@
     {
       "type": "hidden_item",
       "x": 7,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_LONELY_MINT",
       "flag": "FLAG_HOENN_90"
@@ -128,7 +149,7 @@
     {
       "type": "hidden_item",
       "x": 13,
-      "y": 9,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_TAMATO_BERRY",
       "flag": "FLAG_HOENN_79"
@@ -136,7 +157,7 @@
     {
       "type": "hidden_item",
       "x": 9,
-      "y": 9,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_GREPA_BERRY",
       "flag": "FLAG_HOENN_78"
@@ -144,7 +165,7 @@
     {
       "type": "hidden_item",
       "x": 14,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "item": "ITEM_HONDEW_BERRY",
       "flag": "FLAG_HOENN_77"
@@ -152,7 +173,7 @@
     {
       "type": "hidden_item",
       "x": 12,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "item": "ITEM_QUALOT_BERRY",
       "flag": "FLAG_HOENN_76"
@@ -160,7 +181,7 @@
     {
       "type": "hidden_item",
       "x": 10,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "item": "ITEM_KELPSY_BERRY",
       "flag": "FLAG_HOENN_75"
@@ -168,7 +189,7 @@
     {
       "type": "hidden_item",
       "x": 8,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "item": "ITEM_POMEG_BERRY",
       "flag": "FLAG_HOENN_74"
@@ -176,7 +197,7 @@
     {
       "type": "hidden_item",
       "x": 9,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_BOLD_MINT",
       "flag": "FLAG_HOENN_91"
@@ -184,7 +205,7 @@
     {
       "type": "hidden_item",
       "x": 19,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_RELAXED_MINT",
       "flag": "FLAG_HOENN_96"
@@ -192,7 +213,7 @@
     {
       "type": "hidden_item",
       "x": 25,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_NAIVE_MINT",
       "flag": "FLAG_HOENN_99"
@@ -200,7 +221,7 @@
     {
       "type": "hidden_item",
       "x": 23,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_SASSY_MINT",
       "flag": "FLAG_HOENN_98"
@@ -208,7 +229,7 @@
     {
       "type": "hidden_item",
       "x": 21,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_QUIET_MINT",
       "flag": "FLAG_HOENN_97"
@@ -216,7 +237,7 @@
     {
       "type": "hidden_item",
       "x": 17,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_BRAVE_MINT",
       "flag": "FLAG_HOENN_95"
@@ -224,7 +245,7 @@
     {
       "type": "hidden_item",
       "x": 21,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_RASH_MINT",
       "flag": "FLAG_HOENN_647"
@@ -232,7 +253,7 @@
     {
       "type": "hidden_item",
       "x": 19,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_LAX_MINT",
       "flag": "FLAG_HOENN_646"
@@ -240,7 +261,7 @@
     {
       "type": "hidden_item",
       "x": 17,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_NAUGHTY_MINT",
       "flag": "FLAG_HOENN_645"
@@ -248,7 +269,7 @@
     {
       "type": "hidden_item",
       "x": 15,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_HASTY_MINT",
       "flag": "FLAG_HOENN_644"
@@ -256,7 +277,7 @@
     {
       "type": "hidden_item",
       "x": 13,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_GENTLE_MINT",
       "flag": "FLAG_HOENN_643"
@@ -264,7 +285,7 @@
     {
       "type": "hidden_item",
       "x": 11,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_MILD_MINT",
       "flag": "FLAG_HOENN_642"
@@ -272,7 +293,7 @@
     {
       "type": "hidden_item",
       "x": 9,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_IMPISH_MINT",
       "flag": "FLAG_HOENN_641"
@@ -280,7 +301,7 @@
     {
       "type": "hidden_item",
       "x": 7,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_ADAMANT_MINT",
       "flag": "FLAG_HOENN_640"
@@ -288,7 +309,7 @@
     {
       "type": "hidden_item",
       "x": 25,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_JOLLY_MINT",
       "flag": "FLAG_HOENN_649"
@@ -296,7 +317,7 @@
     {
       "type": "hidden_item",
       "x": 23,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "item": "ITEM_CAREFUL_MINT",
       "flag": "FLAG_HOENN_648"

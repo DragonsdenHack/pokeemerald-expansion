@@ -15,6 +15,12 @@ LavenderTown_PasadoDocumento_100::
 msgbox LavenderTown_PasadoDocumento_Text_100, MSGBOX_SIGN   
 end
 
+LavenderTown_Pasado_Pantalla_Blanco::
+lock
+call Script_RemoveTint
+release
+end
+
 LavenderTown_Pasado_Pantalla_Gris::
 lock
 call Script_SetGrayscaleTint
@@ -417,6 +423,7 @@ delay 30
 applymovement 8, LavenderTown_Pasado_Lider_Move_14
 waitmovement 0x0
 removeobject 8
+playse SE_EXIT
 closedoor 9, 16
 waitdooranim
 setflag FLAG_HOENN_70

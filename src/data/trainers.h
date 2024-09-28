@@ -21566,7 +21566,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_704] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ESENCIA,
+        .trainerClass = TRAINER_CLASS_ANCIENT,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_GHOST,
         .trainerName = _("GHOST"),

@@ -67,7 +67,11 @@ playse SE_THUNDERSTORM_STOP
 	delay 30
 	delay 50
 	waitse
-delay 20
+playse SE_SWITCH
+animateflash 2
+setflashlevel 2
+waitse
+delay 30
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_PIN
@@ -102,9 +106,6 @@ removeobject 1
 delay 10
 addobject 1
 delay 10
-removeobject 1
-delay 10
-addobject 1
 delay 50
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -141,6 +142,8 @@ waitmovement 0x0
 special RemoveCameraObject
 delay 50
 msgbox PokemonTower_S3_Tumba_Texto_20 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
 delay 15
 addobject 1
 delay 50
@@ -164,16 +167,15 @@ removeobject 1
 delay 10
 addobject 1
 delay 10
-removeobject 1
-delay 10
-addobject 1
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
 msgbox PokemonTower_S3_Tumba_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_S3_Tumba_Move_1
 waitmovement 0x0
-delay 15
+delay 45
 msgbox PokemonTower_S3_Tumba_Texto_23 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry

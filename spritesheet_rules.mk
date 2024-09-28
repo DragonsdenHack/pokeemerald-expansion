@@ -430,7 +430,7 @@ $(OBJEVENTGFXDIR)/people/agatha2.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/Ampharos.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 	
-$(OBJEVENTGFXDIR)/people/Ninetalesbond.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/ninetalesbond.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/ancianajohto.4bpp: %.4bpp: %.png

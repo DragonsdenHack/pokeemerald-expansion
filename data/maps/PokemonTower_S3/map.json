@@ -2,9 +2,9 @@
   "id": "MAP_POKEMON_TOWER_S3",
   "name": "PokemonTower_S3",
   "layout": "LAYOUT_POKEMON_TOWER_S3",
-  "music": "MUS_NONE",
+  "music": "560",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
-  "requires_flash": false,
+  "requires_flash": true,
   "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
@@ -15,7 +15,7 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_KYOGRE_FRONT",
+      "graphics_id": "OBJ_EVENT_GFX_GHOST",
       "x": 11,
       "y": 5,
       "elevation": 3,

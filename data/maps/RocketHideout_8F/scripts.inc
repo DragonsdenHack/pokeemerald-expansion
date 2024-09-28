@@ -2440,9 +2440,15 @@ applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_676
+setflag FLAG_HOENN_675
+clearflag FLAG_HOENN_70
+clearflag FLAG_HOENN_71
 setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+clearflag FLAG_HOENN_81
+clearflag FLAG_HOENN_82
+setvar VAR_UNUSED_0x40FF, 11
 setvar VAR_UNUSED_0x40F7, 107
 release
 end

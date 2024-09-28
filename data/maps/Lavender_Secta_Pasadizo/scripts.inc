@@ -326,6 +326,7 @@ playse SE_EXIT
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 removeobject 1
 setflag FLAG_HOENN_80
+setflag FLAG_HOENN_83
 setvar VAR_UNUSED_0x40FF, 22
 release
 end

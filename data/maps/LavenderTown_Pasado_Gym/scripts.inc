@@ -1,20 +1,14 @@
 LavenderTown_Pasado_Gym_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, LavenderTown_Pasado_Gym_OnFrame
-map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LavenderTown_Pasado_Gym_OnResume
 	.byte 0
 
-LavenderTown_Pasado_Gym_OnResume:
-map_script_2 VAR_UNUSED_0x40FF, 18, LavenderTown_Pasado_Gym_Gray
+LavenderTown_Pasado_Gym_OnFrame:
+map_script_2 VAR_UNUSED_0x40FF, 18, LavenderTown_Pasado_Gym
 	.2byte 0
 
 LavenderTown_Pasado_Gym_Gray::
-call Script_SetGrayscaleTint
 setvar VAR_UNUSED_0x40FF, 19
 end
-
-LavenderTown_Pasado_Gym_OnFrame:
-map_script_2 VAR_UNUSED_0x40FF, 19, LavenderTown_Pasado_Gym
-	.2byte 0
 
 LavenderTown_Pasado_Gym_Move_1:
 walk_slow_down
@@ -181,8 +175,44 @@ face_up
 jump_in_place_up
 step_end
 
+LavenderTown_Pasado_Gym_Izq_Move_1:
+walk_slow_right
+step_end
+
+LavenderTown_Pasado_Gym_Der_Move_1:
+walk_slow_left
+step_end
+
+LavenderTown_Pasado_Gym_Cen_Move_1:
+walk_slow_up
+step_end
+
+LavenderTown_Pasado_Gym_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Izq_Move_1
+waitmovement 0x0
+call Script_SetGrayscaleTint
+goto LavenderTown_Pasado_Gym
+
+LavenderTown_Pasado_Gym_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Der_Move_1
+waitmovement 0x0
+call Script_SetGrayscaleTint
+goto LavenderTown_Pasado_Gym
+
+LavenderTown_Pasado_Gym_Cen::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Cen_Move_1
+waitmovement 0x0
+call Script_SetGrayscaleTint
+goto LavenderTown_Pasado_Gym
+
+
+
 LavenderTown_Pasado_Gym::
 lock
+call Script_SetGrayscaleTint
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Pasado_Gym_Move_1.1
 waitmovement 0x0
@@ -193,6 +223,7 @@ waitse
 delay 5
 playse SE_EXIT
 addobject 10
+call Script_SetGrayscaleTint
 clearflag FLAG_HOENN_70
 waitse
 playse SE_PIN
