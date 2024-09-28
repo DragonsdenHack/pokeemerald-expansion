@@ -375,7 +375,7 @@ end
 
 PewterCity_Petrel_Texto_1:
 .string "PETREL: ¡Qué sorpresa verte por\n"
-	.string "aquí {PLAYER}!$"
+	.string "aquí, {PLAYER}!$"
 
 PewterCity_Petrel_Texto_2:
 .string "Así que una importante misión en\n"
@@ -396,7 +396,7 @@ PewterCity_Petrel_Texto_4:
 PewterCity_Petrel_Texto_5:
 .string "Obvio que con -ladrones- se\n"
 	.string "refiere a nosotros, tiene gracia\l"
-	.string "la cosa, me encanta el doble\l"
+	.string "la cosa. Me encanta el doble\l"
 	.string "rasero de esta región.$"
 
 PewterCity_Petrel_Texto_6:

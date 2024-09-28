@@ -34,41 +34,270 @@ VermilionCity_Jardin_Warp_Move_1:
 face_down
 step_end
 
+VermilionCity_Jardin_Final_Move_2:
+walk_in_place_up
+step_end
+
+VermilionCity_Jardin_Final_Move_1:
+emote_exclamation_mark
+step_end
+
+VermilionCity_Jardin_Final_Move_3:
+walk_in_place_down
+step_end
+
+VermilionCity_Jardin_Final_Move_3.1:
+walk_in_place_fast_down
+step_end
+
+VermilionCity_Jardin_Final_Move_4:
+delay_16
+face_right
+delay_16
+face_down
+delay_16
+walk_in_place_fast_down
+step_end
+
+VermilionCity_Jardin_Final_Move_5:
+delay_8
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+VermilionCity_Jardin_Final_Move_6:
+face_left
+lock_facing_direction
+walk_right
+unlock_facing_direction
+delay_16
+delay_8
+face_down
+step_end
+
+VermilionCity_Jardin_Final_Move_7:
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
 VermilionCity_Jardin_Final::
 lock
+faceplayer
+delay 10
+playse SE_PIN
+applymovement 3, VermilionCity_Jardin_Final_Move_1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_2
+waitmovement 0x0
+delay 20
 msgbox VermilionCity_Jardin_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Jardin_Final_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 3, VermilionCity_Jardin_Final_Move_3
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_2
+waitmovement 0x0
+delay 40
+playse SE_PIN
+applymovement 3, VermilionCity_Jardin_Final_Move_1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Jardin_Final_Texto_6 MSGBOX_AUTOCLOSE
+playse 597
+delay 10
+applymovement 3, VermilionCity_Jardin_Final_Move_3
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_7 MSGBOX_AUTOCLOSE
-msgbox VermilionCity_Jardin_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+trainerbattle_no_intro TRAINER_TRAINER_708, VermilionCity_Jardin_Final_Texto_8
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_2
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+delay 10
+playse SE_PIN
+applymovement 3, VermilionCity_Jardin_Final_Move_1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_2
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Jardin_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 35
+playse SE_PIN
+applymovement 3, VermilionCity_Jardin_Final_Move_1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 3, VermilionCity_Jardin_Final_Move_3.1
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 3, VermilionCity_Jardin_Final_Move_3.1
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, VermilionCity_Jardin_Final_Move_4
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_16 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_2
+waitmovement 0x0
+delay 30
+playse SE_PIN
+applymovement 3, VermilionCity_Jardin_Final_Move_1
+waitmovement 0x0
+delay 20
+applymovement 3, VermilionCity_Jardin_Final_Move_3.1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Jardin_Final_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+setflag FLAG_HOENN_84
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_6
+applymovement 3, VermilionCity_Jardin_Final_Move_5
+waitmovement 0x0
+removeobject 3
+removeobject 1
+removeobject 2
+removeobject 5
+delay 40
+applymovement 4, VermilionCity_Jardin_Final_Move_7
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_18 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_9
+applymovement 4, VermilionCity_Jardin_Final_Move_8
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 4, VermilionCity_Jardin_Final_Move_10
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_10
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilionCity_Jardin_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 4, VermilionCity_Jardin_Final_Move_11
+waitmovement 0x0
+delay 15
 msgbox VermilionCity_Jardin_Final_Texto_23 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_13
+applymovement 4, VermilionCity_Jardin_Final_Move_12
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 4, VermilionCity_Jardin_Final_Move_10
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 4, VermilionCity_Jardin_Final_Move_12
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 4, VermilionCity_Jardin_Final_Move_10
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 4, VermilionCity_Jardin_Final_Move_12
+waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_15
+applymovement 4, VermilionCity_Jardin_Final_Move_14
+waitmovement 0x0
+removeobject 4
+setvar VAR_SCOTT_STATE, 4
 release
 end
 
+VermilionCity_Jardin_Final_Move_15:
+delay_16
+face_down
+step_end
+
+VermilionCity_Jardin_Final_Move_14:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+VermilionCity_Jardin_Final_Move_13:
+delay_8
+face_left
+step_end
+
+VermilionCity_Jardin_Final_Move_12:
+walk_in_place_right
+step_end
+
+VermilionCity_Jardin_Final_Move_11:
+emote_exclamation_mark
+delay_16
+delay_8
+face_right
+delay_16
+face_up
+delay_16
+face_up
+delay_16
+face_right
+step_end
+
+VermilionCity_Jardin_Final_Move_10:
+delay_8
+face_up
+delay_16
+step_end
+
+VermilionCity_Jardin_Final_Move_9:
+delay_16
+delay_16
+face_left
+step_end
+
+VermilionCity_Jardin_Final_Move_8:
+walk_up
+walk_up
+walk_up
+face_right
+step_end
+
 VermilionCity_Jardin_Final_Texto_1:
-	.string "¿Quién eres tú?$"
+	.string "¿Y tú de dónde has salido?$"
 
 VermilionCity_Jardin_Final_Texto_2:
 	.string "La explotación de estas tierras a\n"

@@ -346,8 +346,8 @@ LavenderTown_Pasado_Agatha_Texto_14:
 	.string "Solo miraba TORRE POKÉMON.$"
 
 LavenderTown_Pasado_Agatha_Texto_15:
-	.string "¡Oh, jovencita! ¡Tendrás toda\n"
-	.string "la vida para admirarla!$"
+	.string "¡Oh, jovencita! ¡Tienes toda\n"
+	.string "la vida para verla!$"
 
 LavenderTown_Pasado_Lider::
 lock

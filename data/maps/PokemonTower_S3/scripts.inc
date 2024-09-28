@@ -316,7 +316,7 @@ PokemonTower_S3_Tumba_Texto_22:
 	.string "… …$"
 
 PokemonTower_S3_Tumba_Texto_23:
-	.string "Retrocedamos 50 años en el tiempo.$"
+	.string "Echemos la vista… 50 años atrás…$"
 
 PokemonTower_S3_Epitafio::
 lock
