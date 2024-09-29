@@ -55,12 +55,6 @@ static const struct FormChange sShayminSkyFormChangeTable[] = {
     {FORM_CHANGE_END},
 };
 
-static const struct FormChange sGyaradosZFormChangeTable[] = {
-    {FORM_ITEM_HOLD, SPECIES_GYARADOSZ, ITEM_NONE},
-	{FORM_ITEM_HOLD, SPECIES_GYARADOS,  ITEM_GRISEOUS_ORB},
-    {FORM_CHANGE_END},
-};
-
 static const struct FormChange sArceusFormChangeTable[] = {
     {FORM_ITEM_HOLD_ABILITY, SPECIES_ARCEUS,          ITEM_NONE,         ABILITY_MULTITYPE},
     {FORM_ITEM_HOLD_ABILITY, SPECIES_ARCEUS_FIGHTING, ITEM_FIST_PLATE,   ABILITY_MULTITYPE},

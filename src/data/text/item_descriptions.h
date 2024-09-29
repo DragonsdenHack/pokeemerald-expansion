@@ -3811,4 +3811,9 @@ static const u8 sSapphireDesc[] = _(
 
 static const u8 sMintDesc[] = _(
     "Mint for to change\n"
-    "nature's POKéMON.");	
+    "nature's POKéMON.");
+
+static const u8 sWeirdCostumeDesc[] = _(
+	"Traje caótico que\n"
+    "varía el aspecto de\n"
+	"ciertos POKÉMON.");	

@@ -48,6 +48,7 @@
 #include "constants/songs.h"
 #include "constants/battle_config.h"
 #include "constants/flags.h"
+#include "data/pokemon/weird_costume.h"
 
 
 enum {
@@ -3990,10 +3991,23 @@ static void SwapMovesTypeSprites(u8 moveIndex1, u8 moveIndex2)
     sprite2->animEnded = FALSE;
 }
 
+static const struct WeirdCostume* GetWeirdCostume(u16 species)
+{
+	u8 i;
+	 for (i = 0; i < ARRAY_COUNT(gWeirdCostume); i++)
+	 {
+        if (gWeirdCostume[i].species == species)
+            return &gWeirdCostume[i];
+	 }
+		return NULL;
+}
+
 static u8 LoadMonGfxAndSprite(struct Pokemon *mon, s16 *state)
 {
     const struct CompressedSpritePalette *pal;
     struct PokeSummary *summary = &sMonSummaryScreen->summary;
+	const struct WeirdCostume *changeTo = GetWeirdCostume(summary->species2);
+	bool8 hadWeirdCostumeItem = (GetMonData(mon, MON_DATA_HELD_ITEM) == ITEM_WEIRD_COSTUME);
 
     switch (*state)
     {
@@ -4002,32 +4016,68 @@ static u8 LoadMonGfxAndSprite(struct Pokemon *mon, s16 *state)
     case 0:
         if (gMain.inBattle)
         {
-            HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+			if (hadWeirdCostumeItem && changeTo != NULL)
+			{
+				HandleLoadSpecialPokePic(&gMonFrontPicTable[changeTo->changeSpecies],
                                      gMonSpritesGfxPtr->sprites.ptr[B_POSITION_OPPONENT_LEFT],
                                      summary->species2,
                                      summary->pid);
+			}
+			else
+			{
+				HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+                                     gMonSpritesGfxPtr->sprites.ptr[B_POSITION_OPPONENT_LEFT],
+                                     summary->species2,
+                                     summary->pid);
+			}						 
         }
         else
         {
             if (gMonSpritesGfxPtr != NULL)
-            {
-                HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+            {	
+				if (hadWeirdCostumeItem && changeTo != NULL)
+				{
+					HandleLoadSpecialPokePic(&gMonFrontPicTable[changeTo->changeSpecies],
                                          gMonSpritesGfxPtr->sprites.ptr[B_POSITION_OPPONENT_LEFT],
                                          summary->species2,
                                          summary->pid);
+				}else
+				{
+					HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+                                         gMonSpritesGfxPtr->sprites.ptr[B_POSITION_OPPONENT_LEFT],
+                                         summary->species2,
+                                         summary->pid);
+				}						 
             }
             else
             {
-                HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+				if (hadWeirdCostumeItem && changeTo != NULL)
+				{
+					HandleLoadSpecialPokePic(&gMonFrontPicTable[changeTo->changeSpecies],
                                          MonSpritesGfxManager_GetSpritePtr(MON_SPR_GFX_MANAGER_A, B_POSITION_OPPONENT_LEFT),
                                          summary->species2,
                                          summary->pid);
+				}						 
+				else
+				{
+					HandleLoadSpecialPokePic(&gMonFrontPicTable[summary->species2],
+                                         MonSpritesGfxManager_GetSpritePtr(MON_SPR_GFX_MANAGER_A, B_POSITION_OPPONENT_LEFT),
+                                         summary->species2,
+                                         summary->pid);
+				}							 
             }
         }
         (*state)++;
         return 0xFF;
     case 1:
-        pal = GetMonSpritePalStructFromOtIdPersonality(summary->species2, summary->OTID, summary->pid);
+		if (hadWeirdCostumeItem && changeTo != NULL)
+		{
+			pal = GetMonSpritePalStructFromOtIdPersonality(changeTo->changeSpecies, summary->OTID, summary->pid);
+		}
+		else
+		{
+			pal = GetMonSpritePalStructFromOtIdPersonality(summary->species2, summary->OTID, summary->pid);	
+		}
         LoadCompressedSpritePalette(pal);
         SetMultiuseSpriteTemplateToPokemon(pal->tag, B_POSITION_OPPONENT_LEFT);
         (*state)++;
