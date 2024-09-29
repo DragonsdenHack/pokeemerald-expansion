@@ -685,7 +685,7 @@ const u16 gObjectEventPic_Jirachi2[] = INCBIN_U16("graphics/object_events/pics/p
 const u16 gObjectEventPic_MiloticP[] = INCBIN_U16("graphics/object_events/pics/people/miloticp.4bpp");
 const u16 gObjectEventPic_RegigigasP[] = INCBIN_U16("graphics/object_events/pics/people/regigigasp.4bpp");
 const u16 gObjectEventPic_Ghost[] = INCBIN_U16("graphics/object_events/pics/people/ghost.4bpp");
-const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/pics/people/Ninetalesbond.4bpp");
+const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/pics/people/ninetalesbond.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");

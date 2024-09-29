@@ -283,12 +283,12 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_9:
 	.string "que tanto aprecia.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_10:
-	.string "AGATHA confía en ti,\n"
-	.string "yo también lo haré.$"
+	.string "AGATHA confía en ti, y\n"
+	.string "no lo hace con cualquiera.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_11:
-	.string "Si puedo hacer algo por\n"
-	.string "ayudarte lo haré, observa.$"
+	.string "Si puedo ayudarte en algo\n"
+	.string "lo haré, observa.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_12:
 	.string "Ese pequeño CEMENTERIO se cerró hace\n"

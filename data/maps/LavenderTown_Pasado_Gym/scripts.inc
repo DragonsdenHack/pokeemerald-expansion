@@ -700,7 +700,7 @@ LavenderTown_Pasado_Gym_Texto_23:
 	.string "potencial como LÍDER de GIMNASIO.$"
 
 LavenderTown_Pasado_Gym_Texto_24:
-	.string "Este lugar… todos lo conocéis. Emana\n"
+	.string "Este lugar{PAUSE 15}…{PAUSE 15} todos lo conocéis. Emana\n"
 	.string "una energía diferente, hay algo\l"
 	.string "espiritual en él.$"
 
@@ -724,7 +724,7 @@ LavenderTown_Pasado_Gym_Texto_28:
 	.string "pueden provenir de cualquier lugar.$"
 
 LavenderTown_Pasado_Gym_Texto_29:
-	.string "OAK: … …$"
+	.string "OAK: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Pasado_Gym_Texto_30:
 	.string "AGATHA: ¡Maestra, maestra! ¡Cuéntenos!$"
@@ -766,7 +766,7 @@ LavenderTown_Pasado_Gym_Texto_39:
 	.string "C. FRIDA: No, no lo es.$"
 
 LavenderTown_Pasado_Gym_Texto_40:
-	.string "Pero… yo siempre supe que ese pequeño,\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} yo siempre supe que ese pequeño,\n"
 	.string "aquel que encontré revolviéndose sobre\l"
 	.string "una misteriosa tumba, guardaba mucho\l"
 	.string "de ese tipo en su interior.$"
@@ -782,7 +782,7 @@ LavenderTown_Pasado_Gym_Texto_42:
 
 LavenderTown_Pasado_Gym_Texto_43:
 	.string "Gracias a mi habilidad pude contenerlos.\n"
-	.string "Pero el último de sus dragones… su\l"
+	.string "Pero el último de sus dragones{PAUSE 15}…{PAUSE 15} su\l"
 	.string "poder era tal, que resultaba\l"
 	.string "incontrolable.$"
 
@@ -797,7 +797,7 @@ LavenderTown_Pasado_Gym_Texto_45:
 LavenderTown_Pasado_Gym_Texto_46:
 	.string "De algún modo, todo ese potencial,\n"
 	.string "todos esos intangibles que siempre\l"
-	.string "supe que existían, de repente… estaban\l"
+	.string "supe que existían, de repente{PAUSE 15}…{PAUSE 15} estaban\l"
 	.string "ahí.$"
 
 LavenderTown_Pasado_Gym_Texto_47:
@@ -840,7 +840,7 @@ LavenderTown_Pasado_Gym_Texto_55:
 	.string "AGATHA: Es increíble.$"
 
 LavenderTown_Pasado_Gym_Texto_56:
-	.string "C. FRIDA: Puede que, sin saberlo…\n"
+	.string "C. FRIDA: Puede que, sin saberlo{PAUSE 15}…{PAUSE 15}\n"
 	.string "lleváramos toda la vida preparándonos\l"
 	.string "para ese momento.$"
 
@@ -902,8 +902,8 @@ LavenderTown_Pasado_Gym_Texto_69:
 	.string "desde JOHTO largo.$"
 
 LavenderTown_Pasado_Gym_Texto_70:
-	.string "AGATHA: Jo… Quería que viera lo mucho\n"
+	.string "AGATHA: Jo{PAUSE 15}…{PAUSE 15} Quería que viera lo mucho\n"
 	.string "que ha crecido mi GASTLY.$"
 
 LavenderTown_Pasado_Gym_Texto_71:
-	.string "Mañana podrás enseñárselo.$"
+	.string "Mañana podrás enseñárselo.$"  

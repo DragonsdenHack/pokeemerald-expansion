@@ -383,7 +383,7 @@ walk_slow_up
 step_end
 
 Lavender_Secta_Pasadizo_Oak_Texto_1:
-	.string "C. FRIDA: … …$"
+	.string "C. FRIDA: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_2:
 	.string "????: No estoy de acuerdo.$"
@@ -456,7 +456,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_18:
 	.string "vez más y más posibilidad.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_19:
-	.string "Además…$"
+	.string "Además{PAUSE 35}…{PAUSE 35}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_20:
 	.string "La luz puede hallarse incluso, o tal vez,\n"
@@ -519,7 +519,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_34:
 	.string "título, no tendrás opción.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_35:
-	.string "C. FRIDA: … …$"
+	.string "C. FRIDA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_36:
 	.string "Me temo que no va a ser posible. Yo y mis\n"
@@ -535,8 +535,8 @@ Lavender_Secta_Pasadizo_Oak_Texto_38:
 	.string "que tenía que demostrar.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_39:
-	.string "OAK: No… Es imposible… Un CAMPEÓN de\n"
-	.string "verdad jamás haría eso…$"
+	.string "OAK: No{PAUSE 25}…{PAUSE 25} Es imposible{PAUSE 25}…{PAUSE 25} Un CAMPEÓN de\n"
+	.string "verdad jamás haría eso{PAUSE 25}…$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_40:
 	.string "Es todo una farsa.$"
@@ -554,7 +554,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_43:
 	.string "C. FRIDA: ¿Eso crees?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_44:
-	.string "OAK: Pero… La historia te olvidará, solo\n"
+	.string "OAK: Pero{PAUSE 25}…{PAUSE 25} La historia te olvidará, solo\n"
 	.string "has ganado el título una vez.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_45:
@@ -595,11 +595,11 @@ Lavender_Secta_Pasadizo_Oak_Texto_51:
 	.string "vez con mi NINETALES.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_52:
-	.string "Tú… tienes herramientas para hallarlo.$"
+	.string "Tú{PAUSE 25}…{PAUSE 25} tienes herramientas para hallarlo.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_53:
-	.string "Pero… si solo aspiras a alargar la vista\n"
-	.string "y subyugar los sentidos… jamás lo\l"
+	.string "Pero{PAUSE 25}…{PAUSE 25} si solo aspiras a alargar la vista\n"
+	.string "y subyugar los sentidos{PAUSE 25}…{PAUSE 25} jamás lo\l"
 	.string "harás.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
@@ -608,7 +608,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_54:
 	.string "El tiempo pasa, ¿lo entiendes?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_55:
-	.string "OAK: … …$"
+	.string "OAK: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_56:
 	.string "Ese ideal no existe. Solo existe lo que\n"

@@ -318,13 +318,13 @@ LavenderTown_Pasado_Agatha_Texto_6:
 	.string "tus ataques!$"
 
 LavenderTown_Pasado_Agatha_Texto_7:
-	.string "Sí, pero… GENGAR es el mejor fantasma\n"
+	.string "Sí, pero{PAUSE 15}…{PAUSE 15} GENGAR es el mejor fantasma\n"
 	.string "de toda KANTO y JOHTO. Entrenaré lo que\l"
 	.string "haga falta para que este pequeño se\l"
 	.string "convierta en uno.$"
 
 LavenderTown_Pasado_Agatha_Texto_8:
-	.string "Hmmm… ¿HYPNO no puede evolucionar más?$"
+	.string "Hmmm{PAUSE 15}…{PAUSE 15} ¿HYPNO no puede evolucionar más?$"
 
 LavenderTown_Pasado_Agatha_Texto_9:
 	.string "¡Claro que no!$"
@@ -518,14 +518,14 @@ LavenderTown_Pasado_Lider_Texto_2:
 	.string "mudamos el año que viene.$"
 
 LavenderTown_Pasado_Lider_Texto_3:
-	.string "MORFEO: He aprendido mucho con usted\n"
+	.string "MORFEO: He aprendido mucho con usted.\n"
 	.string "¡Seguiré sus pasos!$"
 
 LavenderTown_Pasado_Lider_Texto_4:
 	.string "Algún día, chico. Algún día.$"
 
 LavenderTown_Pasado_Lider_Texto_5:
-	.string "MORFEO: Pero… Dicen que las ciudades\n"
+	.string "MORFEO: Pero{PAUSE 25}…{PAUSE 25} Dicen que las ciudades\n"
 	.string "están cada vez más interesadas en\l"
 	.string "combatir.$"
 

@@ -252,18 +252,26 @@ msgbox Lavender_Secta_Pasadizo_Lider_Texto_34 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_35 MSGBOX_AUTOCLOSE
 delay 15
-playse SE_LEDGE
-applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
 waitmovement 0x0
-waitse
-playse SE_LEDGE
-applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
-waitmovement 0x0
-waitse
-delay 10
 playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER
 waitmoncry
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
+playse SE_LEDGE
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
+waitmovement 0x0
+waitse
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
 delay 10
+playse SE_LEDGE
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
+waitmovement 0x0
+waitse
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
+delay 30
 applymovement 1, Lavender_Secta_Pasadizo_Lider_Move_6
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_36 MSGBOX_AUTOCLOSE
@@ -288,6 +296,23 @@ applymovement 1, Lavender_Secta_Pasadizo_Lider_Move_14
 waitmovement 0x0
 msgbox Lavender_Secta_Pasadizo_Lider_Texto_43 MSGBOX_AUTOCLOSE
 delay 15
+playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
+playse SE_LEDGE
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
+waitmovement 0x0
+waitse
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
+delay 10
+playse SE_LEDGE
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13
+waitmovement 0x0
+waitse
+applymovement 3, Lavender_Secta_Pasadizo_Lider_Move_13.1
+waitmovement 0x0
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Lavender_Secta_Pasadizo_Lider_Move_15
 waitmovement 0x0
@@ -339,6 +364,10 @@ Lavender_Secta_Pasadizo_Lider_Move_13:
 jump_in_place_down
 step_end
 
+Lavender_Secta_Pasadizo_Lider_Move_13.1:
+walk_in_place_down
+step_end
+
 Lavender_Secta_Pasadizo_Lider_Texto_1:
 	.string "????: ¿Puedo?$"
 
@@ -367,7 +396,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_8:
 	.string "????: Lo hará.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_9:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_10:
 	.string "Parecía imposible, pero ni siquiera este\n"
@@ -421,11 +450,11 @@ Lavender_Secta_Pasadizo_Lider_Texto_22:
 	.string "????: Con sus motes.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_23:
-	.string "C. FRIDA: Ja… No sé por qué me\n"
+	.string "C. FRIDA: Jah{PAUSE 15}…{PAUSE 15} No sé por qué me\n"
 	.string "sorprende, estúpidas modas pasajeras.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_24:
-	.string "Y… ¿este pequeño CEMENTERIO?$"
+	.string "Y{PAUSE 25}…{PAUSE 25} ¿este pequeño CEMENTERIO?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_25:
 	.string "????: Quedará al cuidado del encargado\n"
@@ -434,7 +463,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_25:
 	.string "perderá.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_26:
-	.string "C. FRIDA: Ya veo. Al menos… un poco de\n"
+	.string "C. FRIDA: Ya veo. Al menos{PAUSE 15}…{PAUSE 15} un poco de\n"
 	.string "este GIMNASIO seguirá vivo, bajo los\l"
 	.string "pies de nuevas generaciones.$"
 
@@ -446,7 +475,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_28:
 	.string "ha sido un día largo.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_29:
-	.string "C. FRIDA: … …$"
+	.string "C. FRIDA: {PAUSE 35}…{PAUSE 35} …{PAUSE 35}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_30:
 	.string "Parece que fue ayer, ¿verdad\n"
@@ -464,7 +493,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_33:
 	.string "VULPIX había llegado hasta aquí.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_34:
-	.string "Fue entonces… cuando me di cuenta.\n"
+	.string "Fue entonces{PAUSE 15}…{PAUSE 15} cuando me di cuenta.\n"
 	.string "Esta tumba, olvidada y maltratada por\l"
 	.string "el tiempo, escondía algo.$"
 
@@ -483,7 +512,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_37:
 	.string "ese lugar te da pavor.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_38:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_39:
 	.string "Mi curiosidad es grande, pero mi respeto\n"

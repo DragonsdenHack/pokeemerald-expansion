@@ -1042,7 +1042,7 @@ face_player
 step_end
 
 LavenderTown_Agatha_Texto_2.1:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Agatha_Texto_2.2:
 	.string "¿Cómo lo sé?$"
@@ -1080,7 +1080,7 @@ LavenderTown_Agatha_Texto_5:
 	.string "de lo afortunados que somos.$"
 
 LavenderTown_Agatha_Texto_6:
-	.string "Solo... mira TORRE POKÉMON.$"
+	.string "Solo{PAUSE 25}…{PAUSE 25} mira TORRE POKÉMON.$"
 
 LavenderTown_Agatha_Texto_7:
 	.string "Yo crecí en este lugar. Después de\n"
@@ -1091,8 +1091,8 @@ LavenderTown_Agatha_Texto_8:
 	.string "Aquí aprendí todo lo que sé sobre el\n"
 	.string "tipo fantasma, y si algo me quedó claro,\l"
 	.string "es que los grandes misterios del mundo\l"
-	.string "van más allá de lo que podemos ver con\l"
-	.string "los ojos.$"
+	.string "van más allá de lo que uno puede ver y\l"
+	.string "tocar.$"
 
 LavenderTown_Agatha_Texto_9:
 	.string "Pero no has venido hasta aquí para oír\n"
@@ -1100,7 +1100,7 @@ LavenderTown_Agatha_Texto_9:
 	.string "anciana como yo, ¿verdad?$"
 
 LavenderTown_Agatha_Texto_10:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Agatha_Texto_11:
 	.string "¡Oh, vas tras más misterios! En ese caso\n"
