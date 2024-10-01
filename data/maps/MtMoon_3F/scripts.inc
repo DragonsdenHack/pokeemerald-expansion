@@ -818,6 +818,10 @@ delay 20
 applymovement 17, MtMoon_3F_Pelea_Frank_move12
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtMoon_3F_Pelea_Frank_texto19.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtMoon_3F_Pelea_Frank_texto19.2 MSGBOX_AUTOCLOSE
 applymovement 17, MtMoon_3F_Pelea_Frank_move13
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto20 MSGBOX_AUTOCLOSE
@@ -883,41 +887,37 @@ MtMoon_3F_Pelea_Frank_texto6:
 .string "Debiste de haber recogido los\n"
 	.string "FÓSILES rápidamente y haber\l"
 	.string "desaparecido de escena usando una\l"
-	.string "CUERDA HUIDA nada más recibir mi\l"
-	.string "mensaje, en lugar de eso te\l"
-	.string "quedaste como un estúpido\l"
-	.string "inconsciente a pelear de tú a tú\l"
+	.string "CUERDA HUIDA, nada más recibir mi\l"
+	.string "mensaje. Pero te quedaste como un\l"
+	.string "estúpido a pelear de tú a tú\l"
 	.string "contra un ENTRENADOR del que ya\l"
-	.string "estabas avisado estaba a otro\l"
-	.string "nivel, y no solo eso, descuidaste\l"
-	.string "a ese científico y acabó\l"
-	.string "jugándotela también. El muy\l"
-	.string "canalla debió de largarse\l"
-	.string "rápidamente con uno de esos dos\l"
-	.string "FÓSILES. Has quedado como el más\l"
-	.string "tonto de la clase {PLAYER}. Tu\l"
-	.string "negligencia va a costarle cientos\l"
-	.string "de miles de POKÉS a nuestra\l"
-	.string "organización, ¿tienes idea de\l"
-	.string "cuántos años de tu sueldo son eso?$"
+	.string "conocías su nivel.\l"
+	.string "No solo eso, descuidaste a ese\l"
+	.string "necio y acabó jugándotela también.\l"
+	.string "El muy canalla debió de largarse\l"
+	.string "con uno de esos dos FÓSILES, seguro.\l"
+	.string "Has quedado como el más tonto\l"
+	.string "de la clase {PLAYER}.\l"
+	.string "Tu negligencia va a costarle más\l"
+	.string "de 600.000¥ al TEAM ROCKET.\l"
+	.string "¿Tienes idea de cuántos\l"
+	.string "meses de tu sueldo es eso?$"
 
 MtMoon_3F_Pelea_Frank_texto7:
-.string "A.R FRANK: ¿Cómo?\n"
-	.string "¿Que el código de honor del TEAM\l"
+.string "A.R FRANK: ¡¿Qué?!\n"
+	.string "¿El código de honor del TEAM\l"
 	.string "ROCKET dice que nunca debe de\l"
-	.string "darse la espalda a un enemigo,\l"
-	.string "huir de la situación mostraría\l"
-	.string "debilidad y falta de valores por\l"
-	.string "nuestra parte, lo que debió de\l"
-	.string "hacerse en esta situación era\l"
+	.string "darse la espalda a un enemigo?\l"
+	.string "¿Huir solo indicaría debilidad\l"
+	.string "y falta de valores?\l"
+	.string "¿Lo que debimos haber hecho es\l"
 	.string "someter a ese ENTRENADOR entre\l"
 	.string "todos?$"
 
 MtMoon_3F_Pelea_Frank_texto8:
-.string "A.R FRANK: Esto es el colmo, no\n"
-	.string "necesito que un novato venido de\l"
-	.string "una perdida isla me hable del\l"
-	.string "código de honor ROCKET.\l"
+.string "A.R FRANK: Esto es el colmo.\n"
+	.string "¡Un novato como tú hablándome\l"
+	.string "a mí del código de honor ROCKET!\l"
 	.string "Vas a arrepentirte de haberlo\l"
 	.string "mencionado, ¡la gente como tú\l"
 	.string "necesita ser instruida por las\l"
@@ -927,7 +927,7 @@ MtMoon_3F_Pelea_Frank_texto8:
 	.string "después de esto!$"
 
 MtMoon_3F_Pelea_Frank_texto9:
-.string "¿Un ALTO RANGO como yo derrotado\n"
+.string "¿Un ALTO RANGO derrotado\n"
 	.string "por un novato?$"
 
 MtMoon_3F_Pelea_Frank_texto10:
@@ -936,18 +936,18 @@ MtMoon_3F_Pelea_Frank_texto10:
 MtMoon_3F_Pelea_Frank_texto11:
 .string "Suficiente. Esta misión se da por\n"
 	.string "terminada. El balance total ha\l"
-	.string "sido de 2 FÓSILES encontrados,\l"
-	.string "presentaos en la BASE de RUTA 5\l"
+	.string "sido de 2 FÓSILES.\l"
+	.string "Presentaos en la BASE de RUTA 5\l"
 	.string "para rendir cuentas a PETREL y\l"
 	.string "conocer vuestra próxima misión.\l"
 	.string "¡Bomba de humo!$"
 
 MtMoon_3F_Pelea_Frank_texto12:
-.string "ANDRA: ¡Guau, viste eso!\n"
-	.string "¡Se han quedado todos atónitos, el\l"
+.string "ANDRA: ¡Guau! ¿Viste eso?\n"
+	.string "¡Se han quedado todos atónitos! El\l"
 	.string "ALTO RANGO FRANK tiene fama de ser\l"
 	.string "muy sanguinario y poco paciente\l"
-	.string "con los nuevos, pero tú no te has\l"
+	.string "con los nuevos, ¡pero tú no te has\l"
 	.string "amedrentado y has mantenido firme\l"
 	.string "tu versión!$"
 
@@ -955,15 +955,14 @@ MtMoon_3F_Pelea_Frank_texto13:
 .string "Yo no me he cruzado con ese\n"
 	.string "misterioso ENTRENADOR, ¿llevaba un\l"
 	.string "CHARMELEON? Parece que aquí hay\l"
-	.string "gente verdaderamente fuerte,\l"
-	.string "debemos de mejorar más y\l"
+	.string "gente verdaderamente fuerte.\l"
+	.string "Debemos de mejorar más y\l"
 	.string "prepararnos para que ese tipo no\l"
-	.string "vuelva a derrotarnos tan\l"
-	.string "fácilmente.\l"
+	.string "vuelva a derrotarnos así.\l"
 	.string "¿Qué dirá PETREL de todo esto?\l"
 	.string "No creo que FRANK hable muy bien\l"
-	.string "de ti en su informe de la misión,\l"
-	.string "deberías de ir rápidamente al\l"
+	.string "de ti en su informe.\l"
+	.string "Deberías de ir rápidamente al\l"
 	.string "CUARTEL y explicar tu versión de\l"
 	.string "los hechos.$"
 
@@ -977,15 +976,15 @@ MtMoon_3F_Pelea_Frank_texto15:
 
 MtMoon_3F_Pelea_Frank_texto16:
 .string "PETREL: Se te ha encomendado una\n"
-	.string "misión junto con otros 6 RECLUTAS,\l"
-	.string "quiero que partas inmediatamente\l"
+	.string "misión junto con otros 6 RECLUTAS.\l"
+	.string "Quiero que partas inmediatamente\l"
 	.string "hacia CIUDAD CARMÍN, los detalles\l"
 	.string "de la misión se te irán dando\l"
 	.string "sobre la marcha.\l"
 	.string "¿Está {PLAYER} ahí?$"
 
 MtMoon_3F_Pelea_Frank_texto17:
-.string "ANDRA: A la orden, {PLAYER} está\n"
+.string "ANDRA: A la orden. {PLAYER} está\n"
 	.string "aquí, sir.$"
 
 MtMoon_3F_Pelea_Frank_texto18:
@@ -997,6 +996,14 @@ MtMoon_3F_Pelea_Frank_texto19:
 .string "ANDRA: Ya lo has oído, parece que\n"
 	.string "esta vez nos adjudicarán misiones\l"
 	.string "diferentes.$"
+
+MtMoon_3F_Pelea_Frank_texto19.1:
+	.string "... ...$"
+
+MtMoon_3F_Pelea_Frank_texto19.2:
+	.string "Tranquilo, {PLAYER}. No creo que te\n"
+	.string "expulsen, sabes combatir; todos lo\l"
+	.string "hemos visto.$"
 
 MtMoon_3F_Pelea_Frank_texto20:
 .string "La próxima vez que nos veamos,\n"

@@ -401,7 +401,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_1:
 	.string "Habrá para todos{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_2:
-.string "Tenlo en cuenta ROCKET, solo has\n"
+.string "Tenlo en cuenta, ROCKET. Solo has\n"
 	.string "logrado retrasar la fecha en la\l"
 	.string "que esos subterráneos se cerrarán,\l"
 	.string "dentro de 3 años no quedará ni\l"
@@ -412,20 +412,19 @@ UndergroundPath2F_Secundaria_Eevees_Texto_3:
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
-.string "¿Qué problema tienes ROCKET?\n"
+.string "¿Qué problema tienes, ROCKET?\n"
 	.string "¡Si quieres un EEVEE ponte a la\l"
 	.string "cola como todos, espero que tengas\l"
-	.string "el millón de POKÉS que cuesta.\l"
+	.string "los 1.000.000¥ que cuestan.\l"
 	.string "De lo contrario, no me hagas perder\l"
-	.string "más el tiempo y regresa a tu{PAUSE 5}…{PAUSE 5}$"
+	.string "más el tiempo y regresa a{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_5:
 .string "¿Te envía ese ingenuo CIENTÍFICO\n"
-	.string "para recuperar estos EEVEES?\l"
-	.string "No sé de que me hablas ROCKET, a\l"
-	.string "nadie le importa aquí la\l"
-	.string "procedencia de los EEVEES, lo\l"
-	.string "único que importa es que están\l"
+	.string "para recuperar los EEVEES?\l"
+	.string "No sé de que me hablas, a nadie\l"
+	.string "le importa aquí la procedencia.\l"
+	.string "Lo único que importa es que están\l"
 	.string "aquí y tienen un precio, bastante\l"
 	.string "jugoso por cierto.$"
 
@@ -434,10 +433,10 @@ UndergroundPath2F_Secundaria_Eevees_Texto_6:
 	.string "¡Qué pena que lo único a lo que\l"
 	.string "puede aspirar ese pobre iluso es a\l"
 	.string "contratar los servicios de un\l"
-	.string "mediocre RECLUTA ROCKET que nada\l"
-	.string "puede hacer ante la categoría de\l"
-	.string "POKÉMON que son las evoluciones de\l"
-	.string "EEVEE!$"
+	.string "mediocre RECLUTA ROCKET!\l"
+	.string "¡No puedes hacer nada ante POKÉMON\l"
+	.string "de las élites como lo son las\l"
+	.string "evoluciones de EEVEE!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_7:
 .string "¿Pero quién eres tú?\n"
@@ -448,17 +447,17 @@ UndergroundPath2F_Secundaria_Eevees_Texto_7:
 
 UndergroundPath2F_Secundaria_Eevees_Texto_8:
 .string "¡Es {PLAYER}!\n"
-	.string "¡Uno de los EJECUTIVOS ROCKET\l"
+	.string "¡Uno de los ALTOS CARGOS ROCKET\l"
 	.string "más poderosos!\l"
 	.string "¡Larguémonos de aquí!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_9:
-.string "¡¿Tienes idea de lo que acabas de\n"
-	.string "hacer?!$"
+.string "¡¿Tienes idea de lo que\n"
+	.string "acabas de hacer?!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_10:
-.string "(¡{PLAYER} recuperó 60 de los 70\n"
-	.string "EEVEES robados!).$"
+.string "¡{PLAYER} recuperó 60 de los 70\n"
+	.string "EEVEES robados!.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_11:
 .string "¡Estúpido ROCKET!\n"
@@ -475,6 +474,6 @@ UndergroundPath2F_Secundaria_Eevees_Texto_11:
 	.string "abocada al desastre.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_12:
-.string "¡Suerte para quienes os quedéis en\n"
-	.string "KANTO!\l"
+.string "¡Suerte para quienes os\n"
+	.string "quedéis en KANTO!\l"
 	.string "¡Os hará falta!$"

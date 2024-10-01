@@ -584,9 +584,9 @@ PokemonMansion_1F_Ladrones_Texto_4:
 
 PokemonMansion_1F_Ladrones_Texto_5:
 .string "¿Cómo dices?\n"
-	.string "¿Quieres recuperar 2 millones de\l"
-	.string "POKÉS que cobramos a un científico\l"
-	.string "por un METEORITO?$"
+	.string "¿Quieres recuperar los 2.000.000¥\l"
+	.string "que cobramos a ese científico\l"
+	.string "por el METEORITO falso?$"
 
 PokemonMansion_1F_Ladrones_Texto_6:
 .string "Eso ya pasó, debió de darse cuenta\n"
@@ -724,10 +724,9 @@ PokemonMansion_1F_Ladrones_Texto_27:
 
 PokemonMansion_1F_Ladrones_Texto_28:
 .string "¡¡NO!!\n"
-	.string "¡El CHARMANDER que iba a vender en\l"
-	.string "JOHTO!\l"
-	.string "¡En ese lugar dan 4 millones de\l"
-	.string "POKÉS por él!$"
+	.string "¡El CHARMANDER que íbamos\l"
+	.string "a vender en JOHTO!\l"
+	.string "¡Allí ofrecen 400.000¥!$"
 
 PokemonMansion_1F_Ladrones_Texto_29:
 .string "¿¡Qué crees que estás haciendo\n"
@@ -735,8 +734,8 @@ PokemonMansion_1F_Ladrones_Texto_29:
 	.string "¡Detente y…!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
-.string "¡{PLAYER} encontró los 2 millones\n"
-	.string "de POKÉS robados al científico!$"
+.string "¡{PLAYER} encontró los 2.000.000¥\n"
+	.string "robados al científico!$"
 
 PokemonMansion_1F_Ladrones_Texto_31:
 .string "¡Ya es suficiente!\n"

@@ -1169,7 +1169,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 	.string "merece una buena recompensa.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3:
-.string "¡Acabas de facturar 95000 POKÉS!$"
+	.string "¡Te has embolsado 95.000¥!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4:
 .string "GIOVANNI: Y aún más, para celebrar\n"
@@ -1180,10 +1180,9 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4:
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 .string "Técnicamente estás recuperando el\n"
 	.string "FÓSIL DOMO que te fue arrebatado\l"
-	.string "en su momento, y con intereses, ya\l"
-	.string "convertido en KABUTO y criado\l"
-	.string "hasta el nivel 28 si no recuerdo\l"
-	.string "mal.\l"
+	.string "en su momento, y con intereses. Ya\l"
+	.string "convertido en KABUTO y criado hasta\l"
+	.string "el nivel 28, si no recuerdo mal.\l"
 	.string "¡PROTÓN!\l"
 	.string "¡Entrégale el KABUTO robado a\l"
 	.string "{PLAYER}!$"
@@ -1196,10 +1195,10 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
 .string "GIOVANNI: Técnicamente su valor es\n"
-	.string "de varios cientos de miles de\l"
-	.string "POKÉS en el mercado negro, pero tu\l"
+	.string "de varios cientos de miles en\l"
+	.string "el mercado negro, pero tu\l"
 	.string "historia con este FÓSIL vale más\l"
-	.string "que eso{PAUSE 5}…{PAUSE 5}$"
+	.string "que todo eso{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8:
 .string "Dicho esto, este tema queda\n"
@@ -2067,7 +2066,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2:
 	.string "recompensa.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_3:
-.string "¡Acabas de facturar 40000 POKÉS!$"
+	.string "¡Te has embolsado 40.000¥!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
 .string "GIOVANNI: Y otra cosa más, en\n"
@@ -2705,8 +2704,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
 	.string "comprar con dinero.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17:
-.string "¡¡ACABAS DE FACTURAR 1 MILLÓN DE\n"
-	.string "POKÉS!!$"
+	.string "¡Te has embolsado 1.000.000¥!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 .string "Además de ello, como ya sabes\n"

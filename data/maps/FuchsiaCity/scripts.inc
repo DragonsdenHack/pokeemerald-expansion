@@ -541,14 +541,12 @@ FuchsiaCity_Estafado_Texto_3:
 	.string "¡Escúchame!\l"
 	.string "He sido víctima de un engaño,\l"
 	.string "invertí todos los ahorros que me\l"
-	.string "quedaban: 2 millones de POKÉS, en\l"
-	.string "comprar un auténtio METEORITO\l"
-	.string "proveniente de la CASCADA METEORO,\l"
-	.string "en HOENN, ese METEORITO\l"
-	.string "confirmaría la teoría en la que\l"
-	.string "todo mi proyecto se ha basado, y\l"
-	.string "daría por finalizado dicho proyecto,\l"
-	.string "en el que llevo años trabajando.\l"
+	.string "quedaban: 2.000.000¥, en comprar\l"
+	.string "un auténtio METEORITO proveniente\l"
+	.string "de la CASCADA METEORO.\l"
+	.string "Tal objeto confirmaría la teoría en\l"
+	.string "la que todo mi proyecto se ha basado,\l"
+	.string "el cual daría por finalizado.\l"
 	.string "Pero resulta que esos estafadores\l"
 	.string "me vendieron a precio de oro una\l"
 	.string "de las tantas rocas que puedes\l"
@@ -565,8 +563,8 @@ FuchsiaCity_Estafado_Texto_4:
 	.string "invertí en mi proyecto!$"
 
 FuchsiaCity_Estafado_Texto_5:
-.string "({PLAYER} entregó los 2 millones de\n"
-	.string "POKÉS al científico).$"
+.string "¡{PLAYER} entregó los 2000000¥\n"
+	.string "al científico!$"
 
 FuchsiaCity_Estafado_Texto_6:
 .string "No puedo creer que haya recuperado\n"
@@ -585,7 +583,7 @@ FuchsiaCity_Estafado_Texto_7:
 	.string "acordado ROCKET.$"
 
 FuchsiaCity_Estafado_Texto_8:
-.string "(Acabas de facturar 200000 POKÉS).$"
+	.string "¡Te has embolsado 200.000¥!$"
 
 FuchsiaCity_Estafado_Texto_9:
 .string "Y el POKÉMON que te prometí.\n"

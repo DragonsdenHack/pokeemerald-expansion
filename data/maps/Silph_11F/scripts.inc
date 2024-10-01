@@ -621,8 +621,7 @@ Silph_11F_Bill_Presidente_Texto_33:
 	.string "comprar, aceptadla.$"
 
 Silph_11F_Bill_Presidente_Texto_34:
-.string "¡¡Acabas de facturar 400000\n"
-	.string "POKÉS!!$"
+	.string "¡Te has embolsado 400.000¥!$"
 
 Silph_11F_Bill_Presidente_Texto_35:
 .string "Y esto es de parte del PRESIDENTE,\n"

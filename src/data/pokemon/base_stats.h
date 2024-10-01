@@ -11574,12 +11574,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHIELDON] =
     {
-        .baseHP        = 30,
-        .baseAttack    = 42,
+        .baseHP        = 40,
+        .baseAttack    = 52,
         .baseDefense   = 118,
-        .baseSpeed     = 30,
-        .baseSpAttack  = 42,
-        .baseSpDefense = 88,
+        .baseSpeed     = 20,
+        .baseSpAttack  = 22,
+        .baseSpDefense = 98,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_STEEL,
         .catchRate = 45,
@@ -11598,12 +11598,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BASTIODON] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 52,
+        .baseHP        = 70,
+        .baseAttack    = 62,
         .baseDefense   = 168,
-        .baseSpeed     = 30,
-        .baseSpAttack  = 47,
-        .baseSpDefense = 138,
+        .baseSpeed     = 20,
+        .baseSpAttack  = 27,
+        .baseSpDefense = 148,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_STEEL,
         .catchRate = 45,
@@ -11615,7 +11615,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_STURDY, ABILITY_NONE, ABILITY_SOUNDPROOF},
+        .abilities = {ABILITY_STEELWORKER, ABILITY_STEELWORKER, ABILITY_STEELWORKER},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },

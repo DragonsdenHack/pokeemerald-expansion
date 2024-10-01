@@ -14033,8 +14033,8 @@ Route43_Text_GuardaPostBattle:
 	.string "Perdóname por ser brusco, pero\n"
 	.string "algunos no respetan lugares como\l"
 	.string "este. Hasta pondrían una caseta\l"
-	.string "solo para cobrar 1000 míseros\l"
-	.string "POKÉS por el acceso al LAGO DE LA\l"
+	.string "solo para cobrar 1000 míseros ¥\l"
+	.string "por el acceso al LAGO DE LA\l"
 	.string "FURIA. Tú no pareces ser de esos.$"
 
 

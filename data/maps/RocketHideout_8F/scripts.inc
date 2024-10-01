@@ -301,7 +301,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12:
 	.string "información.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13:
-.string "¡Acabas de facturar 140000 POKÉS!$"
+	.string "¡Te has embolsado 140.000¥!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14:
 .string "GIOVANNI: Además, ten esto, AZUL y\n"
@@ -623,8 +623,8 @@ end
 
 RocketHideout_8F_Mision_Silph_No_Texto_1:
 	.string "(Has sido ascendido a EJECUTIVO y\n"
-	.string "recibido 50 ULTRA BALL, un Aerodactyl y\l"
-	.string "500000 POKÉ. Tu próxima misión está en\l"
+	.string "recibido 50 ULTRA BALL, un AAERODACTYL y\l"
+	.string "500.000¥. Tu próxima misión está en\l"
 	.string "CIUDAD AZAFRÁN -SEDE SILPH-. Para ver\l"
 	.string "el cambio de skin, sal del despacho de\l"
 	.string "GIOVANNI).$"
@@ -1024,8 +1024,7 @@ RocketHideout_8F_Mision_Silph_text_9:
 .string "GIOVANNI: Esta es tu recompensa.$"
 
 RocketHideout_8F_Mision_Silph_text_10:
-.string "(¡ACABAS DE FACTURAR 500000\n"
-	.string "POKÉS!)$"
+	.string "¡Te has embolsado 500.000¥!$"
 
 RocketHideout_8F_Mision_Silph_text_11:
 .string "Toma esto también, alguien de tu\n"
@@ -3235,8 +3234,7 @@ RocketHideout8F_Mision_Johto_Text_2:
 	.string "Vuestras recompensas.$"
 
 RocketHideout8F_Mision_Johto_Text_3:
-.string "¡¡ACABAS DE FACTURAR 1,5 MILLONES\n"
-	.string "DE POKÉS!!$"
+	.string "¡Te has embolsado 1.500.000¥!$"
 
 RocketHideout8F_Mision_Johto_Text_4:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
@@ -3994,7 +3992,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_7:
 .string "Antes de nada, vuestras recompensas.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_8:
-.string "¡¡OBTUVISTE 2 MILLONES DE POKÉS!!$"
+	.string "¡Te has embolsado 2.000.000¥!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 .string "Y no solo eso, gracias a todo el revuelo\n"
@@ -4667,8 +4665,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_2:
 	.string "tantos de ellos.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_3:
-.string "¡{PLAYER} OBTUVO 2 MILLONES DE\n"
-	.string "POKÉS!$"
+	.string "¡Te has embolsado 2.000.000¥!$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_4:
 .string "Toma esto también, es un proyecto\n"

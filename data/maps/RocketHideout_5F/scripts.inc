@@ -214,7 +214,7 @@ RocketHideout5F_Text_17:
 .string "ciencia, sea como sea, debemos\l"
 .string "aceptar las reglas del juego, y si\l"
 .string "tenemos que vender PORYGONS a\l"
-.string "200000 POKÉS el ejemplar se\l"
+.string "200.000¥ el ejemplar se\l"
 .string "venden.$"
 
 
@@ -2414,27 +2414,27 @@ Text_CompraPokemon_Base_Profunda:
 
 EventScript_Sneasel_Texto_1:
 .string "¿Seguro que quieres a SNEASEL?\n"
-	.string "Costará 55000 POKÉS.$"
+	.string "Costará 55.000¥.$"
 
 EventScript_Electabuzz_Texto_1:
 .string "¿Seguro que quieres a ELECTABUZZ?\n"
-	.string "Costará 80000 POKÉS.$"
+	.string "Costará 80.000¥.$"
 
 EventScript_Nidorino_Texto_1:
 .string "¿Seguro que quieres a NIDORINO?\n"
-	.string "Costará 42000 POKÉS.$"
+	.string "Costará 42.000¥.$"
 
 EventScript_Rhyhorn_Texto_1:
 .string "¿Seguro que quieres a RHYHORN?\n"
-	.string "Costará 35000 POKÉS.$"
+	.string "Costará 35.000¥.$"
 
 EventScript_Shellder_Texto_1:
 .string "¿Seguro que quieres a SHELLDER?\n"
-	.string "Costará 17500 POKÉS.$"
+	.string "Costará 17.500¥.$"
 
 EventScript_NidoranF_Texto_1:
 .string "¿Seguro que quieres a NIDORAN♀?\n"
-	.string "Costará 12000 POKÉS.$"
+	.string "Costará 12.000¥.$"
 
 
 RocketHideout5F_64_NPC::

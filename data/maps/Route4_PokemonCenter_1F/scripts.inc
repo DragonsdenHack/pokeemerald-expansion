@@ -130,8 +130,8 @@ Route4_PokemonCenter_1F_Estafa_Texto_1:
 Route4_PokemonCenter_1F_Estafa_Texto_2:
 .string "¿Te gustaría adquirir un\n"
 	.string "extraordinario POKÉMON que hará\l"
-	.string "que todos te teman y respeten por\l"
-	.string "solo 500 POKÉS?\l"
+	.string "que todos te teman y respeten?\l"
+	.string "¡Solo cuesta 500¥!\l"
 	.string "¡Nadie más que yo te hará una\l"
 	.string "oferta como esta!$"
 
@@ -147,7 +147,7 @@ Route4_PokemonCenter_1F_Estafa_Texto_4:
 	.string "inútil.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_5:
-.string "Es más, eres un ROCKET, no tengo\n"
+.string "Es más, eres un ROCKET. No tengo\n"
 	.string "porqué entregarte nada, quien\l"
 	.string "estafa a un ladrón tiene 1000 años\l"
 	.string "de perdón o algo así dice el\l"
@@ -158,13 +158,13 @@ Route4_PokemonCenter_1F_Estafa_Texto_6:
 	.string "POLICÍA, ya que van tras vuestra,\l"
 	.string "y nadie te hará caso, o siquiera\l"
 	.string "creerá. Es el negocio perfecto,\l"
-	.string "vender aire por 500 POKÉS.\l"
+	.string "vender aire por 500¥.\l"
 	.string "¡Jojojojo!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_7:
-.string "Ahí te quedas ROCKET, jamás podrás\n"
+.string "Ahí te quedas, ROCKET. Jamás podrás\n"
 	.string "encontrarme, la próxima vez\l"
-	.string "piénsate dos veces con quien haces\l"
+	.string "piénsate dos veces con quién haces\l"
 	.string "negocios.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_8:

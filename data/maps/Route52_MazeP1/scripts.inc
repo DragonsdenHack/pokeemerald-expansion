@@ -302,15 +302,15 @@ Route52_MazeP1_Combates_Finales_Texto_1:
 .string "Así que ADMIN.JEFE {PLAYER}, ¿no?$"
 
 Route52_MazeP1_Combates_Finales_Texto_2:
-.string "Vamos pasa, después de todo los\n"
+.string "Vamos, pasa. Después de todo los\n"
 	.string "dos somos hombres de negocios, no\l"
-	.string "me guardas rencor por esos 500\l"
-	.string "pokés que te estafé ahora que\l"
-	.string "tienes millones, ¿verdad?$"
+	.string "me guardas rencor por esos 500¥\l"
+	.string "que te estafé ahora que tienes\l"
+	.string "millones, ¿verdad?$"
 
 Route52_MazeP1_Combates_Finales_Texto_3:
-.string "Debo darte las gracias {PLAYER},\n"
-	.string "sin todos los esfuerzos del TEAM\l"
+.string "Debo darte las gracias, {PLAYER}.\n"
+	.string "Sin todos los esfuerzos del TEAM\l"
 	.string "ROCKET por modernizar JOHTO en\l"
 	.string "estos últimos meses, nunca\l"
 	.string "hubiéramos llegado a tener tanto\l"
@@ -330,20 +330,20 @@ Route52_MazeP1_Combates_Finales_Texto_5:
 	.string "de ellos nos han introducido en la\l"
 	.string "MEGA-EVOLUCIÓN.\l"
 	.string "Cuando tienes dinero, puedes\l"
-	.string "comprar cualquier cosa, ¿no es así\l"
-	.string "{PLAYER}?$"
+	.string "comprar cualquier cosa, tú lo\l"
+	.string "sabes bien.$"
 
 Route52_MazeP1_Combates_Finales_Texto_6:
 .string "Ahora es cuando ambos hacemos las\n"
-	.string "paces, a los dos nos va bien\l"
-	.string "{PLAYER}, no hay necesidad de\l"
-	.string "confrontar nuestros intereses, ¿no\l"
-	.string "crees?$"
+	.string "paces, a los dos nos va bien,\l"
+	.string "{PLAYER}. No hay necesidad de\l"
+	.string "confrontar nuestros intereses,\l"
+	.string "¿verdad?$"
 
 Route52_MazeP1_Combates_Finales_Texto_7:
 .string "¿No negocias con estafadores?\n"
 	.string "¿Por quién nos tomas?\l"
-	.string "¡Ahora aprenderas modales, no\l"
+	.string "¡Ahora aprenderás modales, no\l"
 	.string "sigues siendo más que un vulgar\l"
 	.string "ROCKET por mucho que vayas\l"
 	.string "trajeado!$"
@@ -357,25 +357,24 @@ Route52_MazeP1_Combates_Finales_Texto_9:
 .string "Esto entraba en nuestros planes.$"
 
 Route52_MazeP1_Combates_Finales_Texto_10:
-.string "Muy bien {PLAYER}, veo que no has\n"
-	.string "perdido facultades, pero hemos\l"
-	.string "sido nosotros los que más han\l"
-	.string "mejorado, aunque sea a puro golpe\l"
-	.string "de talonario.$"
+.string "Muy bien, {PLAYER}.\n"
+	.string "No has perdido facultades, pero\l"
+	.string "nosotros hemos ganado, ¡aunque\l"
+	.string "sea a puro golpe de talonario!$"
 
 Route52_MazeP1_Combates_Finales_Texto_11:
-.string "Ahora llegó la hora de verdad, te\n"
-	.string "ofrecí educadamente negociar\l"
+.string "Llegó la hora de verdad.\n"
+	.string "Te ofrecí educadamente negociar\l"
 	.string "condiciones para la convivencia de\l"
 	.string "nuestras dos empresas.\l"
-	.string "¡Ahora por negarte aceptarás\l"
-	.string "cualquier condición después de\l"
-	.string "acabar con tu equipo!$"
+	.string "Ahora, después de acabar con\l"
+	.string "tus POKÉMON, ¡aceptarás\l"
+	.string "cualquier condición!$"
 
 Route52_MazeP1_Combates_Finales_Texto_12:
 .string "¿Cómo es posible?\n"
-	.string "¿¡Puedes seguir derrotándonos a la\l"
-	.string "vez?!$"
+	.string "¿¡Puedes seguir derrotándonos\l"
+	.string "a la vez?!$"
 
 Route52_MazeP1_Combates_Finales_Texto_13:
 .string "¡NO!$"
@@ -387,15 +386,15 @@ Route52_MazeP1_Combates_Finales_Texto_14:
 	.string "de 2 combates?$"
 
 Route52_MazeP1_Combates_Finales_Texto_15:
-.string "Muy bien {PLAYER}, tú ganas.$"
+.string "Muy bien, {PLAYER}. Tú ganas.$"
 
 Route52_MazeP1_Combates_Finales_Texto_16:
 .string "Entiendo que el TEAM ROCKET quiera\n"
 	.string "tener el monopolio y control\l"
 	.string "absoluto de las dos regiones, no\l"
 	.string "me opondré, es por ello que mi\l"
-	.string "oferta es la siguiente: 2 MILLONES\l"
-	.string "DE POKÉS, en efectivo para ti en\l"
+	.string "oferta es la siguiente:\l"
+	.string "2.000.000¥ en efectivo para ti en\l"
 	.string "este momento, y el 10% de nuestros\l"
 	.string "beneficios irán para vuestra\l"
 	.string "sucursal en JOHTO.$"
@@ -411,8 +410,7 @@ Route52_MazeP1_Combates_Finales_Texto_18:
 	.string "¡Aquí tienes!$"
 
 Route52_MazeP1_Combates_Finales_Texto_19:
-.string "¡Acabas de facturar 2 MILLONES DE\n"
-	.string "POKÉS!$"
+	.string "¡Te has embolsado 2.000.000¥!$"
 
 Route52_MazeP1_Combates_Finales_Texto_20:
 .string "Ahora, si nos disculpas, tenemos\n"
@@ -423,9 +421,9 @@ Route52_MazeP1_Combates_Finales_Texto_20:
 
 Route52_MazeP1_Combates_Finales_Texto_21:
 .string "Así que no cedes ni un ápice, ¿eh?\n"
-	.string "Está bien, nos iremos,\l"
-	.string "¡pero recuerda esto {PLAYER}!\l"
-	.string "Con tus acciones el TEAM ROCKET\l"
+	.string "Está bien, nos iremos.\l"
+	.string "¡Pero recuerda esto, {PLAYER}!\l"
+	.string "Con tus acciones, el TEAM ROCKET\l"
 	.string "acaba de ganar un enemigo, ¡me\l"
 	.string "encargaré de que todos sepan\l"
 	.string "quienes son los que manejan los\l"
@@ -605,8 +603,8 @@ step_end
 
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
-.string "Transacción de 4 millones de pokés\n"
-	.string "por un CHARMANDER cerrada, esto va\l"
+.string "Transacción de 400.000¥ por\n"
+	.string "un CHARMANDER cerrada, esto va\l"
 	.string "como la seda{PAUSE 5}…{PAUSE 5}$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
@@ -708,8 +706,8 @@ Route52_Maze_Dialogo_Primer_Trabajador_Texto_2:
 .string "El otro día vendimos a nuestro\n"
 	.string "TYRANITAR más poderoso a un tipo\l"
 	.string "que al parecer está subiendo\l"
-	.string "rápido en el TEAM ROCKET, pagó\l"
-	.string "1,25 millones de pokés por él.$"
+	.string "rápido en el TEAM ROCKET.\l"
+	.string "¡Pagó 1.250.000¥ por él!$"
 
 Route52_Maze_Dialogo_Segundo_Trabajador::
 lock

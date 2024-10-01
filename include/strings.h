@@ -3063,6 +3063,14 @@ extern const u8 gText_Oshawott[];
 extern const u8 gText_Chimchar[];
 extern const u8 gText_Jangmo[];
 
+// Venta Base Kanto Sala Ejecutivos
+extern const u8 gText_Buneary[];
+extern const u8 gText_Croagunk[];
+extern const u8 gText_Budew[];
+extern const u8 gText_Hippopotas[];
+extern const u8 gText_Shieldon[];
+extern const u8 gText_Larvitar[];
+
 // Venta Base Johto
 extern const u8 gText_Fletching[];
 extern const u8 gText_Mudbray[];
@@ -3112,7 +3120,7 @@ extern const u8 gText_Teddiursa[];
 extern const u8 gText_Shuckle[];
 extern const u8 gText_Sudowoodo[];
 extern const u8 gText_Cyndaquil[];
-extern const u8 gText_Larvitar[];
+extern const u8 gText_Hitmontop[];
 
 // Islas
 extern const u8 gText_Carmin[];

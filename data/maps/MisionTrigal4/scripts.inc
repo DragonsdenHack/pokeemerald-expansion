@@ -526,7 +526,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_21:
 	.string "Toma esto en señal de agradecimiento.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_22:
-.string "¡Obtuviste 2,25 MILLONES DE POKÉS!$"
+.string "¡Te has embolsado 2.250.000¥!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_23:
 .string "No te arrepentirás de habernos dado\n"

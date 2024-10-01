@@ -222,9 +222,9 @@ end
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1:
 .string "Me especializo en entrenar la\n"
-	.string "EXPERIENCIA, por 5000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+	.string "EXPERIENCIA, por 5000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_2:
 .string "Bien, vamos a ello.$"
@@ -251,9 +251,9 @@ end
 
 RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1:
 .string "Me especializo en entrenar el\n"
-	.string "AT.ESPECIAL, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+	.string "AT.ESPECIAL, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Defensa::
 lock
@@ -273,10 +273,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Texto_1:
-.string "Me especializo en entrenar la\n"
-	.string "DEFENSA, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+.string "Me especializo en entrenar el\n"
+	.string "DEFENSA, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Velocidad::
 lock
@@ -296,10 +296,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Velocidad_Texto_1:
-.string "Me especializo en entrenar la\n"
-	.string "VELOCIDAD, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+.string "Me especializo en entrenar el\n"
+	.string "VELOCIDAD, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Ataque::
 lock
@@ -319,9 +319,9 @@ end
 
 RocketHideout_9F_Entrenador_Ataque_Texto_1:
 .string "Me especializo en entrenar el\n"
-	.string "ATAQUE, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+	.string "ATAQUE, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 
 
@@ -343,10 +343,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
-.string "Me especializo en entrenar la\n"
-	.string "DEF.ESPECIAL, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+.string "Me especializo en entrenar el\n"
+	.string "DEF.ESPECIAL, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Salud::
 lock
@@ -365,7 +365,7 @@ release
 end
 
 RocketHideout_9F_Entrenador_Salud_Texto_1:
-.string "Me especializo en entrenar la\n"
-	.string "SALUD, por 2000 POKÉS\l"
-	.string "tendrás una sesión completa de\l"
-	.string "entreno, ¿aceptas?$"
+.string "Me especializo en entrenar el\n"
+	.string "PUNTOS DE SALUD, por 2000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"

@@ -89,10 +89,9 @@ end
 
 OneIsland_PokemonCenter_Text_6:
 .string "Mi maestro CELIO pagó muchos\n"
-.string "millones de POKÉS en el mercado\l"
-.string "negro para poder tener tanto el\l"
-.string "RUBÍ como el ZAFIRO que necesitaba\l"
-.string "para su gran proyecto.\l"
+.string "millones en el mercado negro\l"
+.string "para poder tener tanto el RUBÍ\l"
+.string "como el ZAFIRO.\l"
 .string "Instalamos nuestra máquina aquí\l"
 .string "precisamente por la supuesta\l"
 .string "existencia de estos minerales en\l"

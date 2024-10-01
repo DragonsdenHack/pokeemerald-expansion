@@ -126,9 +126,9 @@ release
 end
 
 CeladonCity_Shop5F_Text_Oak_1:
-.string "SUPERNECIO: ¡¿9800 POKÉS?! ¡Esto es un\n"
-	.string "atraco! ¡Hace 1 mes costaban 7000! ¡Y\l"
-	.string "hace un año 3000!$"
+.string "SUPERNECIO: ¡¿9800¥?! ¡Esto es un\n"
+	.string "atraco! ¡Hace 1 mes costaban 7000¥! ¡Y\l"
+	.string "hace un año 3000¥!$"
 
 
 CeladonCity_Shop5F_Text_Oak_2:

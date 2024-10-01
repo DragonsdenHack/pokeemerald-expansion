@@ -2293,39 +2293,39 @@ end
 
 EventScript_Jangmo_Texto_1:
 .string "¿Seguro que quiere a JANGMO-O?\n"
-	.string "Costará 168000 POKÉS.$"
+	.string "Costará 168000¥.$"
 
 EventScript_Poplio_Texto_1:
 .string "¿Seguro que quiere a POPLIO?\n"
-	.string "Costará 76000 POKÉS.$"
+	.string "Costará 76000¥.$"
 
 EventScript_Chimchar_Texto_1:
 .string "¿Seguro que quiere a CHIMCHAR?\n"
-	.string "Costará 82000 POKÉS.$"
+	.string "Costará 82000¥.$"
 
 EventScript_Oshawott_Texto_1:
 .string "¿Seguro que quiere a OSHAWOTT?\n"
-	.string "Costará 68000 POKÉS.$"
+	.string "Costará 68000¥.$"
 
 EventScript_Bouffalant_Texto_1:
 .string "¿Seguro que quiere a BOUFFALANT?\n"
-	.string "Costará 60000 POKÉS.$"
+	.string "Costará 60000¥.$"
 
 EventScript_Frosmoth_Texto_1:
 .string "¿Seguro que quiere a FROSMOTH?\n"
-	.string "Costará 48000 POKÉS.$"
+	.string "Costará 48000¥.$"
 
 EventScript_Timburr_Texto_1:
 .string "¿Seguro que quiere a TIMBURR?\n"
-	.string "Costará 30000 POKÉS.$"
+	.string "Costará 30000¥.$"
 
 EventScript_Drilbur_Texto_1:
 .string "¿Seguro que quiere a DRILBUR?\n"
-	.string "Costará 22500 POKÉS.$"
+	.string "Costará 22500¥.$"
 
 EventScript_Rockruff_Texto_1:
 .string "¿Seguro que quiere a ROCKRUFF?\n"
-	.string "Costará 15000 POKÉS.$"
+	.string "Costará 15000¥.$"
 
 BaseRocketHoenn_Potencial_Sinohh::
 lock

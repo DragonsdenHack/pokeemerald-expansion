@@ -166,11 +166,11 @@ end
 
 EventScript_MasterBall_Texto_1:
 .string "¿Seguro que quiere una MASTER BALL?\n"
-	.string "Costará 300 K POKÉS.$"
+	.string "Costará 300.000¥.$"
 
 EventScript_PiedraRocket_Texto_1:
 .string "¿Seguro que quiere una PIEDRA ROCKET?\n"
-	.string "Costará 2,5 M POKÉS.$"
+	.string "Costará 2.500.000¥.$"
 
 
 LavenderRadioP3_Tienda_Pokemon::
@@ -346,35 +346,35 @@ end
 
 EventScript_Cryogonal_Texto_1:
 .string "¿Seguro que quiere a CRYOGONAL?\n"
-	.string "Costará 105000 POKÉS.$"
+	.string "Costará 105.000¥.$"
 
 EventScript_Cramorant_Texto_1:
 .string "¿Seguro que quiere a CRAMORANT?\n"
-	.string "Costará 110000 POKÉS.$"
+	.string "Costará 110.000¥.$"
 
 EventScript_Gible_Texto_1:
 .string "¿Seguro que quiere a GIBLE?\n"
-	.string "Costará 175000 POKÉS.$"
+	.string "Costará 175.000¥.$"
 
 EventScript_Grookey_Texto_1:
 .string "¿Seguro que quiere a GROOKEY?\n"
-	.string "Costará 80000 POKÉS.$"
+	.string "Costará 80.000¥.$"
 
 EventScript_Ferroseed_Texto_1:
 .string "¿Seguro que quiere a FERROSEED?\n"
-	.string "Costará 60000 POKÉS.$"
+	.string "Costará 60.000¥.$"
 
 EventScript_Toxel_Texto_1:
-.string "¿Seguro que quiere a TOXEL? Costará\n"
-	.string "57000 POKÉS.$"
+.string "¿Seguro que quiere a TOXEL?\n"
+	.string "Costará 57.000¥.$"
 
 EventScript_Wooloo_Texto_1:
-.string "¿Seguro que quiere a WOOLOO? Costará\n"
-	.string "40000 POKÉS.$"
+.string "¿Seguro que quiere a WOOLOO?\n"
+	.string "Costará 40.000¥.$"
 
 EventScript_Espurr_Texto_1:
-.string "¿Seguro que quiere a ESPURR? Costará\n"
-	.string "30000 POKÉS.$"
+.string "¿Seguro que quiere a ESPURR?\n"
+	.string "Costará 30.000¥.$"
 
 Text_CompraPokemon:
 .string "Bienvenido señor, ¿en qué puedo\n"

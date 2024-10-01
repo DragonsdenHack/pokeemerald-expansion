@@ -208,10 +208,10 @@ release
 end
 
 RocketHideout6F_Text_18:
-.string "(Parece que contiene un SCYTHER,\n"
-.string "deben de sacar como mínimo 110000\l"
-.string "POKÉS con la venta de este POKÉMON\l"
-.string "en el CASINO)$"
+.string "Parece que contiene un SCYTHER,\n"
+.string "deben sacar como mínimo 110.000¥\l"
+.string "con la venta de este POKÉMON en\l"
+.string "el CASINO AZULONA.$"
 
 
 
@@ -223,10 +223,10 @@ release
 end
 
 RocketHideout6F_Text_19:
-.string "(Parece que contiene un DRATINI,\n"
-.string "deben de sacar como mínimo 53000\l"
-.string "POKÉS con la venta de este POKÉMON\l"
-.string "en el CASINO)$"
+.string "Parece que contiene un DRATINI,\n"
+.string "deben sacar como mínimo 53.000¥\l"
+.string "con la venta de este POKÉMON\l"
+.string "en el CASINO AZULONA.$"
 
 
 
@@ -292,10 +292,9 @@ release
 end
 
 RocketHideout6F_Text_24:
-.string "Esta BASE recauda más de 1000000\n"
-.string "POKÉS por semana en concepto de\l"
-.string "pago por el cuidado de\l"
-.string "POKÉMON.\l"
+.string "Esta BASE recauda más de 1.000.000¥\n"
+.string "por semana en concepto de pago por\l"
+.string "el cuidado de POKÉMON.\l"
 .string "¡Lo que nadie de fuera sabe es que\l"
 .string "se trata de la mera tapadera para\l"
 .string "el negocio de verdad!\l"
@@ -351,10 +350,10 @@ release
 end
 
 RocketHideout6FDocumento_Text_100:
-.string "(Parece que contiene un DRATINI,\n"
-	.string "deben de sacar como mínimo 53000\l"
-	.string "POKÉS con la venta de este POKÉMON\l"
-	.string "en el CASINO).$"
+.string "Parece que contiene un DRATINI,\n"
+	.string "deben sacar como mínimo 53.000¥\l"
+	.string "con la venta de este POKÉMON\l"
+	.string "en el CASINO AZULONA.$"
 
 
 
@@ -364,10 +363,10 @@ release
 end
 
 RocketHideout6FDocumento_Text_101:
-.string "(Parece que contiene un SCYTHER,\n"
-	.string "deben de sacar como mínimo 110000\l"
-	.string "POKÉS con la venta de este POKÉMON\l"
-	.string "en el CASINO).$"
+.string "Parece que contiene un SCYTHER,\n"
+	.string "deben sacar como mínimo 110.000¥\l"
+	.string "con la venta de este POKÉMON\l"
+	.string "en el CASINO AZULONA.$"
 
 
 
@@ -392,9 +391,9 @@ RocketHideout6FDocumento_Text_102:
 	.string "- MT.BOLA SOMBRA: 4500\l"
 	.string "- SCYTHER (NV:25): 5500\l"
 	.string "- PORYGON (NV:26): 9999\l"
-	.string "- FÓSIL DOMO/HÉLIX: 15000\l"
-	.string "- ÁMBAR VIEJO: 22500\p"
-	.string "Nota: 1 ficha equivale a 20 POKÉS.$"
+	.string "- FÓSIL DOMO/HÉLIX: 15.000\l"
+	.string "- ÁMBAR VIEJO: 22.500\p"
+	.string "Nota: 1 ficha equivale a 20¥.$"
 
 RocketHideout_6F_Petrel_Mision_1::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move1
@@ -666,8 +665,10 @@ msgbox RocketHideout_6F_Petrel_Text_Mision_2_11, MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_12, MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_13, MSGBOX_AUTOCLOSE
 setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT, 1
 setvar VAR_UNUSED_0x40F7, 19
@@ -726,81 +727,73 @@ RocketHideout_6F_Petrel_Text_Mision_2_6:
 
 RocketHideout_6F_Petrel_Text_Mision_2_7:
 .string "Pero antes debes de\n"
-	.string "responsabilizarte de tu deficiente\l"
-	.string "rendimiento en la última misión.\l"
-	.string "Has de saber que el valor estimado\l"
-	.string "de los FÓSILES que has dejado\l"
-	.string "escapar es de 600000 POKÉS en el\l"
-	.string "mercado negro, como consecuencia,\l"
-	.string "y para enmendar en parte esas\l"
-	.string "posibles ganancias potenciales,\l"
-	.string "abonarás al TEAM ROCKET todo el\l"
-	.string "dinero físico del que dispones en\l"
-	.string "este momento. Como castigo y\l"
+	.string "responsabilizarte por tu deficiente\l"
+	.string "rendimiento.\l"
+	.string "En el mercado negro, el valor\l"
+	.string "estimado de los FÓSILES perdidos\l"
+	.string "es mayor que todo lo que has aportado\l"
+	.string "al TEAM ROCKET hasta ahora.\l"
+	.string "Por ello, para enmendar esas\l"
+	.string "ganancias potenciales, abonarás\l"
+	.string "al TEAM ROCKET todo el dinero\l"
+	.string "físico del que dispones.\l"
+	.string "Como castigo y\l"
 	.string "prueba de lealtad.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_8:
-.string "(Te has quedado con 0 POKÉS).$"
+.string "Te has quedado con 0¥.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_9:
 .string "PETREL: El pago justo por una\n"
 	.string "nueva oportunidad, ¿no crees? Te\l"
 	.string "aseguro que si cumples con éxito\l"
-	.string "el encargo que te asignaré, el\l"
-	.string "dinero será el menor de tus\l"
-	.string "problemas, pues su cumplimiento\l"
-	.string "nos ahorraría unos costes enormes.$"
+	.string "este encargo, el dinero será el\l"
+	.string "menor de tus problemas; de lograrlo\l"
+	.string "el TEAM ROCKET se ahorraría una\l"
+	.string "fortuna en transporte y logística.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_10:
-.string "Como sabrás, siempre hemos hecho\n"
-	.string "uso del puerto de CARMÍN como eje\l"
-	.string "conector entre KANTO e ISLA INTA,\l"
-	.string "sin embargo la policía de KANTO\l"
-	.string "está cada vez más al acecho y se\l"
-	.string "hace más y más difícil y caro\l"
+.string "Y es que, como sabrás, el PUERTO de\n"
+	.string "CIUDAD CARMÍN ha sido nuestro eje\l"
+	.string "conector entre KANTO y el ARCHI7.\l"
+	.string "Pero... la policía de KANTO está\l"
+	.string "cada vez más pendiente.\l"
+	.string "Se hace más y más difícil y caro\l"
 	.string "sobornar a los marineros para\l"
 	.string "importar nuestras mercancías y\l"
-	.string "soldados desde ISLA INTA. A pesar\l"
-	.string "de tu intervención silenciando a\l"
-	.string "la CÓNSUL del lugar, es cuestión\l"
+	.string "reclutas desde ISLA INTA.\l"
+	.string "Tu intervención silenciando a la\l"
+	.string "CÓNSUL frenó esto, pero es cuestión\l"
 	.string "de tiempo que nos corten el\l"
-	.string "chiringito por esa vía{PAUSE 5}…{PAUSE 5}$"
+	.string "chiringito{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_11:
-.string "Y es aquí donde entra tu misión,\n"
-	.string "nos han llegado rumores de que\l"
-	.string "BILL, ese estúpido que solo ve a\l"
-	.string "los POKÉMON como cromos\l"
+.string "Ahora, ¿cuál es tu misión?\n"
+	.string "Nos han llegado rumores de que\l"
+	.string "BILL: ese estúpido que solo ve\l"
+	.string "a los POKÉMON como cromos\l"
 	.string "coleccionables, ha desarrollado un\l"
 	.string "sistema de teletransporte capaz de\l"
-	.string "cubrir grandes distancias. Tu\l"
-	.string "misión será hacerle una visita a\l"
-	.string "su casa al norte de CIUDAD\l"
-	.string "CELESTE, al final de RUTA 25, y\l"
-	.string "hacerte con la patente o toda\l"
-	.string "información respecto a ese\l"
-	.string "novedoso sistema de\l"
-	.string "teletransportación.$"
+	.string "cubrir grandes distancias.\l"
+	.string "Tu misión será hacerle una visita,\l"
+	.string "en su casa al norte de CIUDAD\l"
+	.string "CELESTE. Vive al final de RUTA 25,\l"
+	.string "allí te harás con la patente o toda\l"
+	.string "información respecto a ese novedoso\l"
+	.string "sistema de teletransporte.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_12:
 .string "Si finalmente consigues obtener\n"
-	.string "información útil que nuestros\l"
-	.string "científicos puedan emplear para\l"
-	.string "desarrollar puntos de conexión vía\l"
-	.string "teletransportación entre ISLA INTA\l"
-	.string "y KANTO, ahorrarías millones de\l"
-	.string "POKÉS en gastos de transporte. He\l"
-	.string "aquí la oportunidad que te doy de\l"
-	.string "enmendar tu falta en el MT.MOON.$"
+	.string "información útil, nuestros\l"
+	.string "científicos podrán desarrollar\l"
+	.string "puntos de conexión a larga distancia\l"
+	.string "entre ISLA INTA y KANTO.\l"
+	.string "Ello nos ahorraría millones, y\l"
+	.string "dejaríamos de depender de otros.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_13:
-.string "Eso es todo por ahora, BILL\n"
-	.string "tratará de proteger su patente a\l"
-	.string "todo costo, por lo que debes de\l"
-	.string "estar alerta y mantener fuertes a\l"
-	.string "tus POKÉMON para someterlo. Más te\l"
-	.string "vale que tu victoria ante FRANK no\l"
-	.string "haya sido casualidad.$"
+	.string "Aquí tienes tu oportunidad, {PLAYER}.\n"
+	.string "No vuelvas a decepcionarme.$"
 
 RocketHideout_6F_Petrel_Mision_2_move1:
 walk_right
@@ -1100,7 +1093,7 @@ delay_8
 step_end
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_1:
-.string "ATLAS: Es inadmisible PETREL.$"
+.string "ATLAS: Es inadmisible, PETREL.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_2:
 .string "Deberías de saber que BILL es\n"
@@ -1135,7 +1128,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_5:
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_6:
 .string "PETREL: Tengo que disculparme\n"
-	.string "contigo {PLAYER}, no fui consciente\l"
+	.string "contigo, {PLAYER}. No fui consciente\l"
 	.string "del riesgo que corrías y debí\l"
 	.string "suponer que una personalidad como\l"
 	.string "BILL estaría más protegida. Me\l"
@@ -1153,34 +1146,31 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_7:
 	.string "ISLAS SETE.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_8:
-.string "ATLAS: Y así es PETREL, ANDRA se\n"
+.string "ATLAS: Y lo sigo siendo. ANDRA se\n"
 	.string "enteró de la misión y me avisó\l"
-	.string "inmediatamente. Mi SKARMORY hizo\l"
-	.string "el resto, aunque visto lo visto\l"
-	.string "tal vez no haga más falta hacer\l"
-	.string "uso de VUELO.$"
+	.string "inmediatamente.\l"
+	.string "Mi SKARMORY hizo el resto.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_9:
 .string "ATLAS: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_10:
 .string "Bien. Yo me retiro, hay\n"
-	.string "mucho trabajo por hacer en las\l"
-	.string "islas.$"
+	.string "mucho trabajo por hacer\l"
+	.string "en las islas.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_11:
 .string "¡PETREL!\n"
 	.string "Procura recompensar como es debido\l"
-	.string "a estos 2 reclutas. Sus\l"
-	.string "actuaciones van a partir de ahora\l"
-	.string "ahorrarnos un tiempo precioso y\l"
-	.string "millones de POKÉS.$"
+	.string "a estos 2 reclutas. Sus actuaciones\l"
+	.string "van a partir de ahora ahorrarnos un\l"
+	.string "tiempo precioso y millones.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
 .string "ATLAS: No creas que te he salvado\n"
 	.string "por sentir especial predilección\l"
 	.string "hacia ti. Eres un activo valioso\l"
-	.string "para nuestra organización, y has\l"
+	.string "para nuestra organización y has\l"
 	.string "actuado acorde a nuestros valores,\l"
 	.string "con eso basta{PAUSE 15}…{PAUSE 15}\l"
 	.string "Os veré a los dos en próximos\l"
@@ -1197,22 +1187,22 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_14:
 	.string "de nuevo, especialmente contigo,\l"
 	.string "{PLAYER}. Muchos pensaban que en\l"
 	.string "ISLA INTA solo había debiluchos e\l"
-	.string "incompetentes ROCKET. Habéis\l"
-	.string "demostrado que no.$"
+	.string "incompetentes.\l"
+	.string "Habéis demostrado que no.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 .string "Por el desempeño y lealtad\n"
-	.string "mostrados hacia el EQUIPO ROCKET,\l"
+	.string "mostrados hacia el TEAM ROCKET,\l"
 	.string "ambos sois ascendidos.\l"
 	.string "Pasáis de ser unos soldados rasos\l"
 	.string "comunes, a RECLUTAS DE ALTO RANGO.\l"
 	.string "Eso os dará potestad para dirigir\l"
 	.string "ciertas misiones, como hizo FRANK\l"
 	.string "con vosotros en el MT.MOON, además\l"
-	.string "de el rango suficiente para\l"
+	.string "de el rango suficiente como para\l"
 	.string "asistir a reuniones privadas con\l"
-	.string "nuestro LÍDER GIOVANNI, así como\l"
-	.string "acceso a cierta información\l"
+	.string "nuestro LÍDER GIOVANNI.\l"
+	.string "También acceso a cierta información\l"
 	.string "privilegiada, pero todo eso a su\l"
 	.string "tiempo{PAUSE 5}…{PAUSE 5}$"
 
@@ -1221,28 +1211,25 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
 	.string "DE ALTO RANGO!!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
-.string "PETREL: Para celebrar vuestro\n"
-	.string "nuevo estatus aquí, y como\l"
-	.string "pago por el éxito en\l"
-	.string "vuestras respectivas misiones,\l"
+.string "PETREL: Para celebrar vuestro nuevo\n"
+	.string "rango, y como pago por por el éxito\l"
+	.string "en vuestras respectivas misiones,\l"
 	.string "aquí tenéis vuestras recompensas{PAUSE 15}…{PAUSE 15}\l"
 	.string "A ti {PLAYER}, dado el ahorro que\l"
-	.string "supondrá esa patente, y en\l"
-	.string "compensación por dejarte antes a 0\l"
-	.string "POKÉS después de la misión del\l"
-	.string "MT.MOON, te corresponde lo\l"
-	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
+	.string "supondrá esa patente, y para compensar\l"
+	.string "el dejarte antes a 0¥{PAUSE 5}…{PAUSE 5}\l"
+	.string "Te corresponde lo siguiente{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
-.string "¡Acabas de facturar 125000 POKÉS!$"
+	.string "¡Te has embolsado 125.000¥!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
-.string "PETREL: Por tu parte ANDRA, tu\n"
+.string "PETREL: Por tu parte, ANDRA. El\n"
 	.string "aviso a ATLAS también fue crucial,\l"
 	.string "y cumpliste con el encargo que te\l"
-	.string "di en CIUDAD CARMÍN. En tu caso la\l"
-	.string "recompensa total es de 75000\l"
-	.string "POKÉS.$"
+	.string "di en CIUDAD CARMÍN.\l"
+	.string "En tu caso la recompensa\l"
+	.string "es de 75000¥.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_20:
 .string "PETREL: Y ahora{PAUSE 25}…{PAUSE 25}\n"
@@ -1264,9 +1251,9 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_22:
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_23:
 .string "PETREL: No quiero que aprovechéis\n"
 	.string "el momento para robar POKÉMON ni\l"
-	.string "mercancías, lo que os voy a pedir\l"
-	.string "es mucho más pequeño y mucho más\l"
-	.string "valioso que todo eso{PAUSE 25}…{PAUSE 25}un frasco.$"
+	.string "mercancías.\l"
+	.string "Lo que quiero es mucho más pequeño y\l"
+	.string "mucho más valioso{PAUSE 25}…{PAUSE 25}un frasco.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_24:
 .string "ANDRA: ¿Un frasco?$"
@@ -1275,25 +1262,24 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_25:
 .string "PETREL: El CAPITÁN del SS.ANNE ha\n"
 	.string "recorrido incontables regiones y\l"
 	.string "realizado innumerables viajes por\l"
-	.string "el mundo a lo largo de 3 décadas.\l"
-	.string "En uno de sus viajes, hallándose\l"
-	.string "en una isla desierta alejada de\l"
-	.string "toda civilización, encontró lo que\l"
-	.string "parece ser el fragmento de un\l"
-	.string "POKÉMON singular, que no se\l"
-	.string "corresponde con ningún POKÉMON que\l"
-	.string "conozcamos.$"
+	.string "el mundo.\l"
+	.string "En uno de ellos, hallándose en una\l"
+	.string "isla desierta, alejada de toda ci-\l"
+	.string "vilización, encontró lo que parece\l"
+	.string "ser el fragmento de un POKÉMON.\l"
+	.string "Algo que no se corresponde\l"
+	.string "con nada que conozcamos$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_26:
 .string "PETREL: Sabemos que dicho\n"
 	.string "fragmento lo guarda en un frasco.\l"
 	.string "Ya lo ha mostrado en múltiples\l"
-	.string "entrevistas, y siempre lo lleva\l"
-	.string "consigo. Deberéis de entrar en su\l"
-	.string "camarote y robárselo por la\l"
-	.string "fuerza, no os quedará otra y por\l"
-	.string "ello os encomiendo a vosotros esta\l"
-	.string "misión.$"
+	.string "entrevistas; siempre lo lleva\l"
+	.string "consigo, jamás se separa de él.\l"
+	.string "Así que entraréis a su camarote y\l"
+	.string "se lo quitaréis por la fuerza.\l"
+	.string "No os queda otra que combatir, por\l"
+	.string "eso os envío a vosotros.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_27:
 .string "ANDRA: ¿Y cómo nos infiltraremos\n"
@@ -1305,8 +1291,8 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_28:
 .string "PETREL: He preparado una maniobra\n"
 	.string "de evasión, algo rudimentaria pero\l"
 	.string "efectiva. Vuestro socio os estará\l"
-	.string "esperando en el puerto de CARMÍN.\l"
-	.string "No os preocupéis sabréis\l"
+	.string "esperando en el PUERTO de CARMÍN.\l"
+	.string "No os preocupéis, sabréis\l"
 	.string "distinguirlo rápidamente sobre el\l"
 	.string "resto.$"
 
@@ -1314,17 +1300,17 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
 .string "PETREL: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_30:
-.string "PETREL: Debéis saber que esta\n"
-	.string "misión es una petición expresa del\l"
-	.string "mismísimo GIOVANNI{PAUSE 5}…{PAUSE 5}$"
+.string "PETREL: Otra cosa.\n"
+	.string "Sabed que esta es una misión a\l"
+	.string "petición expresa de GIOVANNI{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_31:
 .string "PETREL: Nuestro LÍDER cree que\n"
 	.string "esos fragmentos podrían pertenecer\l"
 	.string "a un POKÉMON LEGENDARIO\l"
-	.string "extremadamente poderoso, y no\l"
-	.string "quiere perder la oportunidad de\l"
-	.string "hacerse con ellos para\l"
+	.string "extremadamente poderoso.\l"
+	.string "No quiere perder la oportunidad\l"
+	.string "de hacerse con ellos para\l"
 	.string "investigarlos, antes de que el\l"
 	.string "SS.ANNE desaparezca de KANTO hasta\l"
 	.string "el año siguiente.$"
@@ -1342,18 +1328,18 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_33:
 	.string "POKÉMON para desarmarlo.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_34:
-.string "ANDRA: No lo dude.$"
+.string "ANDRA: ¡No lo dude!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_35:
-.string "PETREL: Eso es todo caballeros,\n"
-	.string "daos prisa, cuanto antes lleguéis\l"
-	.string "al SS.ANNE de más tiempo\l"
+.string "PETREL: Eso es todo, caballeros.\n"
+	.string "Cuanto antes lleguéis\l"
+	.string "al SS.ANNE, de más tiempo\l"
 	.string "dispondréis hasta que zarpe,\l"
 	.string "buenas tardes.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_36:
-.string "ANDRA: Vamos allá {PLAYER}, el\n"
-	.string "SS.ANNE es nuestro.$"
+.string "ANDRA: Vamos allá, {PLAYER}.\n"
+	.string "¡El SS.ANNE es nuestro!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_move_1:
 walk_in_place_right
@@ -1590,7 +1576,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_2:
 	.string "recompensa.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
-.string "¡Acabas de facturar 80000 POKÉS!$"
+	.string "¡Te has embolsado 80.000¥!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
 .string "PETREL: Además tomad esto, 20\n"
@@ -2182,19 +2168,19 @@ Text_CompraPokemon_Ruta_5:
 
 EventScript_Voltorb_Texto_1:
 .string "¿Seguro que quieres a VOLTORB?\n"
-	.string "Costará 9000 POKÉS.$"
+	.string "Costará 9000¥.$"
 
 EventScript_Koffing_Texto_1:
 .string "¿Seguro que quieres a KOFFING?\n"
-	.string "Costará 11000 POKÉS.$"
+	.string "Costará 11.000¥.$"
 
 EventScript_Mankey_Texto_1:
 .string "¿Seguro que quieres a MANKEY?\n"
-	.string "Costará 8000 POKÉS.$"
+	.string "Costará 8000¥.$"
 
 EventScript_Rattata_Texto_1:
 .string "¿Seguro que quieres a RATTATA?\n"
-	.string "Costará 3000 POKÉS.$"
+	.string "Costará 3000¥.$"
 
 RocketHideout_6F_Petrel::
 lock
@@ -2293,8 +2279,8 @@ SeteoIvs_No_Texto_1:
 	.string "Como usted guste, ADMIN.JEFE.$"
 
 SeteoIvs_Texto_3:
-	.string "El coste será de solo 100000 POKÉS. ¿Le\n"
-	.string "interesa?$"
+	.string "El coste será de solo 100.000¥.\n"
+	.string "¿Le interesa?$"
 
 SeteoIvs_Texto_1:
 	.string "Hemos logrado la tecnología capaz de\n"

@@ -398,7 +398,7 @@ SilphS2_3_Carta_Texto_8:
 
 SilphS2_3_Carta_Texto_9:
 	.string "Su precio de mercado\n"
-	.string "sería de 9800 POKÉ.$"
+	.string "sería de 9800¥.$"
 
 SilphS2_3_Carta_Texto_10:
 	.string "Sin embargo, al igual que la MÁSTER BALL,\n"

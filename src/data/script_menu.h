@@ -820,6 +820,18 @@ static const struct MenuAction MultichoiceList_VentaPokesBaseHoenn[] =
     
 };
 
+static const struct MenuAction MultichoiceList_VentaPokesSalaEjecutivos[] =
+{
+    {gText_Buneary},
+    {gText_Croagunk},
+    {gText_Budew},
+    {gText_Hippopotas},
+    {gText_Shieldon},
+    {gText_Larvitar},
+    {gText_Exit},
+    
+};
+
 
 static const struct MenuAction MultichoiceList_VentaPokesBaseJohto[] =
 {
@@ -895,7 +907,7 @@ static const struct MenuAction MultichoiceList_PokemonTrigal[] =
     {gText_Shuckle},
     {gText_Sudowoodo},
     {gText_Cyndaquil},
-    {gText_Larvitar},
+    {gText_Hitmontop},
     {gText_Exit},
 
 
@@ -1170,6 +1182,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_VENTA_POKEMON_RADIO]        = MULTICHOICE(MultichoiceList_VentaPokesTorreRadio),
     [MULTI_VENTA_MASTER_RADIO]        = MULTICHOICE(MultichoiceList_VentaMasterTorreRadio),
     [MULTI_VENTA_BASE_HOENN]           = MULTICHOICE(MultichoiceList_VentaPokesBaseHoenn),
+    [MULTI_VENTA_BASE_EJECUTIVA]       = MULTICHOICE(MultichoiceList_VentaPokesSalaEjecutivos),
     [MULTI_VENTA_BASE_JOHTO]           = MULTICHOICE(MultichoiceList_VentaPokesBaseJohto),
     [MULTI_VENTA_BASE_RUTA_5]          = MULTICHOICE(MultichoiceList_VentaPokesBaseRuta5),
     [MULTI_VENTA_BASE_PROFUNDA]        = MULTICHOICE(MultichoiceList_VentaPokesBaseProfunda),

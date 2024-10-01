@@ -476,10 +476,9 @@ end
 SilphS2_Text_24:
 .string "Lo cierto es que estábamos hartos\n"
 .string "de las condiciones impuestas por\l"
-.string "el gobierno de LANCE, por cada 10\l"
-.string "POKÉS que ganábamos, entre una\l"
-.string "cosa y otra 8 iban para el\l"
-.string "gobierno de LANCE.\l"
+.string "el gobierno de LANCE, por cada 10¥\l"
+.string "que ganábamos, entre una cosa y otra\l"
+.string "8¥ iban para el gobierno de LANCE.\l"
 .string "¿En qué cabeza cabe semejante\l"
 .string "presión fiscal?$"
 

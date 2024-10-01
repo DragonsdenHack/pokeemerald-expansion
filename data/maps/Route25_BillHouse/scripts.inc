@@ -136,12 +136,12 @@ release
 end
 
 Route25_BillHouse_Evento_Policia_text_1:
-.string "BILL: Esta SILPH, le dejé claro\n"
+.string "BILL: Esta SILPH. Le dejé claro\n"
 	.string "que quería lista la MEJORA para\l"
-	.string "PORYGON cuanto antes. Voy a ser la\l"
-	.string "primera persona de KANTO en contar\l"
-	.string "con un PORYGON2, lo último en\l"
-	.string "tecnología.$"
+	.string "PORYGON cuanto antes.\l"
+	.string "Voy a ser la primera persona de\l"
+	.string "KANTO en contar con un PORYGON2,\l"
+	.string "lo último en tecnología.$"
 
 Route25_BillHouse_Evento_Policia_text_2:
 .string "¿Qué clase de broma es esta?\n"
@@ -156,24 +156,22 @@ Route25_BillHouse_Evento_Policia_text_3:
 
 Route25_BillHouse_Evento_Policia_text_4:
 .string "¿Quieres mi patente para realizar\n"
-	.string "teletransportes a largas\l"
-	.string "distancias?\l"
-	.string "Buena jugada, pero,\l"
-	.string "lamentablemente para ti{PAUSE 5}…{PAUSE 5}$"
+	.string "teletransportes a largas distancias?\l"
+	.string "Buena jugada. Pero, para\l"
+	.string "desgracia tuya{PAUSE 5}…{PAUSE 5}$"
 
 Route25_BillHouse_Evento_Policia_text_5:
 .string "El gobierno de la ÉLITE 4 ya me ha\n"
-	.string "hecho una oferta por la patente,\l"
-	.string "20 millones de POKÉS y licencia\l"
+	.string "hecho una oferta por la patente:\l"
+	.string "20.000.000¥, además de licencia\l"
 	.string "para investigar a las AVES\l"
-	.string "LEGENDARIAS. Vuestra organización\l"
-	.string "está cada vez más en decadencia.\l"
-	.string "¿De verdad pretendían que un pobre\l"
-	.string "ROCKET robase al gran BILL la\l"
+	.string "LEGENDARIAS.\l"
+	.string "Me sorprende vuestra ingenuidad.\l"
+	.string "¿De verdad pretendíais que un pobre\l"
+	.string "RECLUTA ROCKET robase al gran BILL la\l"
 	.string "propiedad intelectual de uno de\l"
 	.string "sus grandes inventos?\l"
-	.string "Esto queda demasiado grande para\l"
-	.string "ti, ROCKET.$"
+	.string "Esto te queda demasiado grande.$"
 
 Route25_BillHouse_Evento_Policia_text_6:
 .string "¡GUARDIAS!\n"
@@ -181,11 +179,10 @@ Route25_BillHouse_Evento_Policia_text_6:
 	.string "quiero volver a verla!$"
 
 Route25_BillHouse_Evento_Policia_text_7:
-.string "Quedas detenido ROCKET. Vas a\n"
+.string "Quedas detenido, ROCKET. Vas a\n"
 	.string "pasar el resto de tus días en\l"
 	.string "prisión por atentar contra la\l"
-	.string "propiedad intelectual de nuestra\l"
-	.string "región.\l"
+	.string "propiedad intelectual de KANTO.\l"
 	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿Te resistes?\l"
@@ -223,23 +220,23 @@ Route25_BillHouse_Evento_Policia_text_13:
 	.string "¡No vas a salirte con la tuya!$"
 
 Route25_BillHouse_Evento_Policia_text_14:
-.string "¡Llamando a todas las unidades\n"
-	.string "repito llamando a todas las\l"
+.string "¡Llamando a todas las unidades!\n"
+	.string "¡Repito! ¡Llamando a todas las\l"
 	.string "unidades de CIUDAD CELESTE!\l"
 	.string "¡Tenemos un ROCKET rebelde\l"
-	.string "contenido en la casa de BILL,\l"
-	.string "pretendía robar una patente\l"
-	.string "valorada en millones. Los 3\l"
-	.string "policías que estamos hemos caído,\l"
-	.string "exigimos refuerzos inmediatamente!$"
+	.string "contenido en la casa de BILL!\l"
+	.string "¡Pretendía robar una patente\l"
+	.string "valorada en millones! ¡Los 3\l"
+	.string "policías que estamos hemos caído!\l"
+	.string "¡Exigimos refuerzos inmediatamente!$"
 
 Route25_BillHouse_Evento_Policia_text_15:
 .string "Se acabó. Los refuerzos están al\n"
 	.string "caer, y tu equipo POKÉMON mermado.\l"
 	.string "No vamos a dejar que salgas de\l"
-	.string "aquí, haz lo que quieras. La única\l"
-	.string "forma que tienes de salir de casa\l"
-	.string "de BILL es detenido.$"
+	.string "aquí, haz lo que quieras.\l"
+	.string "La única forma que tienes de salir\l"
+	.string "de este lugar es detenido.$"
 
 Route25_BillHouse_Evento_Policia_move1:
 walk_up
@@ -355,3 +352,4 @@ Route25_BillHouse_Warp_Text_YesNo:
 Route25_BillHouse_Warp_move1:
 emote_exclamation_mark
 step_end
+

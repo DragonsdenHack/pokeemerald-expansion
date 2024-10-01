@@ -226,7 +226,7 @@ end
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_1:
 .string "Vendemos una docena de LECHE MU-MU\n"
-	.string "por 5000 POKÉS, ahorras 1000\l"
+	.string "por 5000¥, ahorras 1000¥\l"
 	.string "respecto a cualquier otro lugar.\l"
 	.string "¿Compras?$"
 

@@ -40,10 +40,8 @@ end
 UnionCave_Text_5:
 .string "El otro día decidí meterme en lo\n"
 .string "más profundo de la cueva, y\l"
-.string "encontré a un tipo que enseñaba un\l"
-.string "movimiento muy potente a\l"
-.string "cualquiera que pudiera aprenderlo.\l"
-.string "¡Pero pedía 10000 POKÉS!$"
+.string "encontré a un tipo que regala\l"
+.string "la MT de un movimiento de TIPO AGUA.$"
 
 
 

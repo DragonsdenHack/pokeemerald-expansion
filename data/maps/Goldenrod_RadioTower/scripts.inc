@@ -139,8 +139,7 @@ end
 
 Goldenrod_RadioTower_Text_9:
 .string "Dicen que en KANTO hay una TIENDA\n"
-.string "DE BICIS que las vende a 1 MILLÓN\l"
-.string "de POKÉS.\l"
+.string "BICIS que las vende a 1.000.000¥.\l"
 .string "Me gustaría ir allí a comprarme\l"
 .string "una, eso me distinguiría de los\l"
 .string "demás.$"
@@ -276,8 +275,7 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_3:
 	.string "de esto.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_4:
-.string "(¡ACABAS DE FACTURAR 500000\n"
-	.string "POKÉS!).$"
+	.string "¡Te has embolsado 500.000¥!$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_5:
 .string "No estamos en AZULONA, aquí podras\n"

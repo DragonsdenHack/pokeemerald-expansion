@@ -865,28 +865,28 @@ end
 
 EventScript_Axew_Texto_1:
 .string "¿Seguro que quiere a AXEW?\n"
-	.string "Costará 140000 POKÉS.$"
+	.string "Costará 140.000¥.$"
 
 EventScript_Spiritomb_Texto_1:
 .string "¿Seguro que quiere a SPIRITOMB?\n"
-	.string "Costará 108108 POKÉS.$"
+	.string "Costará 108.108¥.$"
 
 EventScript_Turtwig_Texto_1:
 .string "¿Seguro que quiere a TURTWIG?\n"
-	.string "Costará 75000 POKÉS.$"
+	.string "Costará 75.000¥.$"
 
 EventScript_Pawniard_Texto_1:
 .string "¿Seguro que quiere a PAWNIARD?\n"
-	.string "Costará 65000 POKÉS.$"
+	.string "Costará 65.000¥.$"
 
 EventScript_Pincurchin_Texto_1:
 .string "¿Seguro que quiere a PINCURCHIN?\n"
-	.string "Costará 52000 POKÉS.$"
+	.string "Costará 52.000¥.$"
 
 EventScript_Mudbray_Texto_1:
 .string "¿Seguro que quiere a MUDBRAY?\n"
-	.string "Costará 32000 POKÉS.$"
+	.string "Costará 32.000¥.$"
 
 EventScript_Fletching_Texto_1:
 .string "¿Seguro que quiere a FLETCHLING?\n"
-	.string "Costará 18000 POKÉS.$"
+	.string "Costará 18.000¥.$"
