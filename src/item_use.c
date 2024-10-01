@@ -809,6 +809,55 @@ void ItemUseOutOfBattle_RareCandy(u8 taskId)
     SetUpItemUseCallback(taskId);
 }
 
+void ItemUseOutOfBattle_CandyXS(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXS;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyS(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyS;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyXM(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXM;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyM(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyM;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyL(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyL;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyXL(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXL;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyDynamax(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyDynamax;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyDynamax2(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyDynamax2;
+    SetUpItemUseCallback(taskId);
+}
+
+
 void ItemUseOutOfBattle_TMHM(u8 taskId)
 {
     if (gSpecialVar_ItemId >= ITEM_HM01_CUT)
@@ -1159,6 +1208,14 @@ void ItemUseOutOfBattle_EnigmaBerry(u8 taskId)
     case ITEM_EFFECT_RAISE_LEVEL:
         gTasks[taskId].tEnigmaBerryType = ITEM_USE_PARTY_MENU;
         ItemUseOutOfBattle_RareCandy(taskId);
+		ItemUseOutOfBattle_CandyXS(taskId);
+		ItemUseOutOfBattle_CandyS(taskId);
+		ItemUseOutOfBattle_CandyXM(taskId);
+		ItemUseOutOfBattle_CandyM(taskId);
+		ItemUseOutOfBattle_CandyL(taskId);
+		ItemUseOutOfBattle_CandyXL(taskId);
+		ItemUseOutOfBattle_CandyDynamax(taskId);
+		ItemUseOutOfBattle_CandyDynamax2(taskId);
         break;
     case ITEM_EFFECT_PP_UP:
     case ITEM_EFFECT_PP_MAX:

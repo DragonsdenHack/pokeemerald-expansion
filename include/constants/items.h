@@ -1034,8 +1034,10 @@
 #define ITEM_SAPPHIRE 778
 
 #define ITEM_WEIRD_COSTUME 793
+#define ITEM_EXP_CANDY_XM 794
+#define ITEM_DYNAMAX_CANDY2 795
 
-#define ITEMS_COUNT 794
+#define ITEMS_COUNT 796
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

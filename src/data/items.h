@@ -1049,68 +1049,90 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_XS] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Caramelo-XS"),
+        .itemId = ITEM_EXP_CANDY_XS,
+        .price = 10000,
+        .description = sExpCandyXSDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyXS,
     },
 
     [ITEM_EXP_CANDY_S] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Caramelo-S"),
+        .itemId = ITEM_EXP_CANDY_S,
+        .price = 10000,
+        .description = sExpCandySDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyS,
+    },
+	
+	[ITEM_EXP_CANDY_XM] = // Todo
+    {
+        .name = _("Caramelo-XM"),
+        .itemId = ITEM_EXP_CANDY_XM,
+        .price = 10000,
+        .description = sExpCandyXMDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyXM,
     },
 
     [ITEM_EXP_CANDY_M] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Caramelo-M"),
+        .itemId = ITEM_EXP_CANDY_M,
+        .price = 10000,
+        .description = sExpCandyMDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyM,
     },
 
     [ITEM_EXP_CANDY_L] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Caramelo-L"),
+        .itemId = ITEM_EXP_CANDY_L,
+        .price = 10000,
+        .description = sExpCandyLDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyL,
     },
 
     [ITEM_EXP_CANDY_XL] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Caramelo-XL"),
+        .itemId = ITEM_EXP_CANDY_XL,
+        .price = 10000,
+        .description = sExpCandyXLDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyXL,
     },
 
     [ITEM_DYNAMAX_CANDY] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Súpercaramelo"),
+        .itemId = ITEM_DYNAMAX_CANDY,
+        .price = 10000,
+        .description = sDynamaxCandyDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyDynamax,
+    },
+	
+	[ITEM_DYNAMAX_CANDY2] = // Todo
+    {
+        .name = _("Hipercaramelo"),
+        .itemId = ITEM_DYNAMAX_CANDY2,
+        .price = 10000,
+        .description = sDynamaxCandy2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CandyDynamax2,
     },
 
 // Medicinal Flutes

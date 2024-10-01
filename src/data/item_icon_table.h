@@ -111,12 +111,14 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_SERIOUS_MINT] = {gItemIcon_PowerHerb, gItemIconPalette_InsectPlate}, // Todo
     // Candy
     [ITEM_RARE_CANDY] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
-    [ITEM_EXP_CANDY_XS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_EXP_CANDY_S] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_EXP_CANDY_M] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_EXP_CANDY_L] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_EXP_CANDY_XL] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_DYNAMAX_CANDY] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
+    [ITEM_EXP_CANDY_XS] = {gItemIcon_EXPCandyXS, gItemIconPalette_EXPCandyXS}, // Todo
+    [ITEM_EXP_CANDY_S] = {gItemIcon_EXPCandyS, gItemIconPalette_EXPCandyS}, // Todo
+	[ITEM_EXP_CANDY_XM] = {gItemIcon_EXPCandyXM, gItemIconPalette_EXPCandyXM}, // Todo
+    [ITEM_EXP_CANDY_M] = {gItemIcon_EXPCandyM, gItemIconPalette_EXPCandyM}, // Todo
+    [ITEM_EXP_CANDY_L] = {gItemIcon_EXPCandyL, gItemIconPalette_EXPCandyL}, // Todo
+    [ITEM_EXP_CANDY_XL] = {gItemIcon_EXPCandyXL, gItemIconPalette_EXPCandyXL}, // Todo
+    [ITEM_DYNAMAX_CANDY] = {gItemIcon_DynamaxCandy, gItemIconPalette_DynamaxCandy}, // Todo
+	[ITEM_DYNAMAX_CANDY2] = {gItemIcon_DynamaxCandy2, gItemIconPalette_DynamaxCandy2}, // Todo
     // Medicinal Flutes
     [ITEM_BLUE_FLUTE] = {gItemIcon_Flute, gItemIconPalette_BlueFlute},
     [ITEM_YELLOW_FLUTE] = {gItemIcon_Flute, gItemIconPalette_YellowFlute},

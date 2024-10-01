@@ -132,6 +132,12 @@ static const u8 sTorreIrisPreviewTilemap[] = INCBIN_U8("graphics/map_preview/tor
 static const u8 sTorreQuemadaPreviewTiles[] = INCBIN_U8("graphics/map_preview/torrequemada2.4bpp.lz");
 static const u8 sTorreQuemadaPreviewPalette[] = INCBIN_U8("graphics/map_preview/torrequemada2.gbapal");
 static const u8 sTorreQuemadaPreviewTilemap[] = INCBIN_U8("graphics/map_preview/torrequemada2.bin.lz");
+static const u8 sFaroOlivoPreviewTiles[] = INCBIN_U8("graphics/map_preview/lighthouse.4bpp.lz");
+static const u8 sFaroOlivoPreviewPalette[] = INCBIN_U8("graphics/map_preview/lighthouse.gbapal");
+static const u8 sFaroOlivoPreviewTilemap[] = INCBIN_U8("graphics/map_preview/lighthouse.bin.lz");
+static const u8 sMtSilverPreviewTiles[] = INCBIN_U8("graphics/map_preview/mt_silver.4bpp.lz");
+static const u8 sMtSilverPreviewPalette[] = INCBIN_U8("graphics/map_preview/mt_silver.gbapal");
+static const u8 sMtSilverPreviewTilemap[] = INCBIN_U8("graphics/map_preview/mt_silver.bin.lz");
 
 static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
 {
@@ -468,18 +474,18 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
         .mapsec = MAPSEC_FARO_OLIVO,
         .type = MPS_TYPE_CAVE,
         //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
-        .tilesptr = sPokemonTowerMapPreviewTiles,
-        .tilemapptr = sPokemonTowerMapPreviewTilemap,
-        .palptr = sPokemonTowerMapPreviewPalette
+        .tilesptr = sFaroOlivoPreviewTiles,
+        .tilemapptr = sFaroOlivoPreviewTilemap,
+        .palptr = sFaroOlivoPreviewPalette
     },
 	[MPS_MT_SILVER] = 
     {
         .mapsec = MAPSEC_MT_SILVER,
         .type = MPS_TYPE_CAVE,
         //.flagId = FLAG_WORLD_MAP_SIX_ISLAND_DOTTED_HOLE_1F,
-        .tilesptr = sDottedHoleMapPreviewTiles,
-        .tilemapptr = sDottedHoleMapPreviewTilemap,
-        .palptr = sDottedHoleMapPreviewPalette
+        .tilesptr = sMtSilverPreviewTiles,
+        .tilemapptr = sMtSilverPreviewTilemap,
+        .palptr = sMtSilverPreviewPalette
     },
 	[MPS_LAVENDER_RADIO_TOWER] = 
     {

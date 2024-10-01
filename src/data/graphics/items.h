@@ -309,23 +309,29 @@ const u32 gItemIconPalette_AbilityCapsule[] = INCBIN_U32("graphics/items/icon_pa
 const u32 gItemIcon_RareCandy[] = INCBIN_U32("graphics/items/icons/rare_candy.4bpp.lz");
 const u32 gItemIconPalette_RareCandy[] = INCBIN_U32("graphics/items/icon_palettes/rare_candy.gbapal.lz");
 
-//const u32 gItemIcon_EXPCandyXS[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_EXPCandyXS[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyXS[] = INCBIN_U32("graphics/items/icons/exp_candy_xs.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyXS[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xs.gbapal.lz");
 
-//const u32 gItemIcon_EXPCandyS[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_EXPCandyS[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyS[] = INCBIN_U32("graphics/items/icons/exp_candy_s.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyS[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xs.gbapal.lz");
 
-//const u32 gItemIcon_EXPCandyM[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_EXPCandyM[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyXM[] = INCBIN_U32("graphics/items/icons/exp_candy_xm.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyXM[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xm.gbapal.lz");
 
-//const u32 gItemIcon_EXPCandyL[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_EXPCandyL[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyM[] = INCBIN_U32("graphics/items/icons/exp_candy_m.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyM[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xs.gbapal.lz");
 
-//const u32 gItemIcon_EXPCandyXL[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_EXPCandyXL[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyL[] = INCBIN_U32("graphics/items/icons/exp_candy_l.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyL[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xs.gbapal.lz");
 
-//const u32 gItemIcon_DynamaxCandy[] = INCBIN_U32("graphics/items/icons/question_mark.4bpp.lz");
-//const u32 gItemIconPalette_DynamaxCandy[] = INCBIN_U32("graphics/items/icon_palettes/question_mark.gbapal.lz");
+const u32 gItemIcon_EXPCandyXL[] = INCBIN_U32("graphics/items/icons/exp_candy_xl.4bpp.lz");
+const u32 gItemIconPalette_EXPCandyXL[] = INCBIN_U32("graphics/items/icon_palettes/exp_candy_xs.gbapal.lz");
+
+const u32 gItemIcon_DynamaxCandy[] = INCBIN_U32("graphics/items/icons/dynamax_candy.4bpp.lz");
+const u32 gItemIconPalette_DynamaxCandy[] = INCBIN_U32("graphics/items/icon_palettes/dynamax_candy.gbapal.lz");
+
+const u32 gItemIcon_DynamaxCandy2[] = INCBIN_U32("graphics/items/icons/dynamax_candy2.4bpp.lz");
+const u32 gItemIconPalette_DynamaxCandy2[] = INCBIN_U32("graphics/items/icon_palettes/dynamax_candy2.gbapal.lz");
 
 // Medicinal Flutes
 
