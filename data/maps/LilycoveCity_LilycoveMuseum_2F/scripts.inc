@@ -322,3 +322,47 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
 	.string	"Ésa debe de ser la mayor alegría que\n"
 	.string	"pueden dar a cualquier ENTRENADOR.$"
 
+LilycoveCity_LilycoveMuseum_2F_Secundaria::
+lock
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1:
+	.string "Sí… Ahora mismo va.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2:
+	.string "Tiene pinta de haber viajado mucho,\n"
+	.string "¿me equivoco?$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3:
+	.string "HOENN es una región fascinante.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4:
+	.string "Habrá estado en muchas regiones,\n"
+	.string "imagino. Pero seguro que ninguna con\l"
+	.string "esta fauna y flora, este perfecto…\l"
+	.string "equilibrio.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5:
+	.string "Todas estas pinturas, este lujo, no\n"
+	.string "serían nada sin él.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6:
+	.string "Ahora, déjeme mostrarle algo.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7:
+	.string "La mayor accionista de este MUSEO\n"
+	.string "quiere agradecerle en persona su\l"
+	.string "actuación.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8:
+	.string "Está esperándole en la sala de juntas.$"
+

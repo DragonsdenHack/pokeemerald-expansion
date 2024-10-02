@@ -236,4 +236,24 @@ EventScript_Larvitar_Texto_1.1:
 .string "¿Seguro que quiere a LARVITAR?\n"
 	.string "Costará 170.000¥.$"
 
+Base_Profunda_Mercado_Ejecutivos_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Base_Profunda_Mercado_Ejecutivos_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Base_Profunda_Mercado_Ejecutivos_Pokemart:
+    .2byte 794
+    .2byte 612
+	.2byte 618
+	.2byte 32
+	.2byte ITEM_NONE
+	release
+	end
+
 

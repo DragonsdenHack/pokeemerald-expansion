@@ -604,8 +604,7 @@ SlateportCity_Museo_Secundaria_Texto_27:
 	.string "acepta este dinero.$"
 
 SlateportCity_Museo_Secundaria_Texto_28:
-	.string "¡¡{PLAYER} facturó 1,000,000 de\n"
-	.string "POKÉ!!$"
+	.string "¡Te has embolsado 1,000,000¥!$"
 
 SlateportCity_Museo_Secundaria_Texto_29:
 	.string "Toma este POKÉMON también, es\n"

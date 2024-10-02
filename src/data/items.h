@@ -1051,7 +1051,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-XS"),
         .itemId = ITEM_EXP_CANDY_XS,
-        .price = 10000,
+        .price = 1500,
         .description = sExpCandyXSDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1062,7 +1062,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-S"),
         .itemId = ITEM_EXP_CANDY_S,
-        .price = 10000,
+        .price = 3000,
         .description = sExpCandySDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1073,7 +1073,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-XM"),
         .itemId = ITEM_EXP_CANDY_XM,
-        .price = 10000,
+        .price = 4500,
         .description = sExpCandyXMDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1084,7 +1084,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-M"),
         .itemId = ITEM_EXP_CANDY_M,
-        .price = 10000,
+        .price = 6500,
         .description = sExpCandyMDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1095,7 +1095,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-L"),
         .itemId = ITEM_EXP_CANDY_L,
-        .price = 10000,
+        .price = 7500,
         .description = sExpCandyLDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1106,7 +1106,7 @@ const struct Item gItems[] =
     {
         .name = _("Caramelo-XL"),
         .itemId = ITEM_EXP_CANDY_XL,
-        .price = 10000,
+        .price = 8500,
         .description = sExpCandyXLDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1117,7 +1117,7 @@ const struct Item gItems[] =
     {
         .name = _("Súpercaramelo"),
         .itemId = ITEM_DYNAMAX_CANDY,
-        .price = 10000,
+        .price = 9500,
         .description = sDynamaxCandyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1128,7 +1128,7 @@ const struct Item gItems[] =
     {
         .name = _("Hipercaramelo"),
         .itemId = ITEM_DYNAMAX_CANDY2,
-        .price = 10000,
+        .price = 10500,
         .description = sDynamaxCandy2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,

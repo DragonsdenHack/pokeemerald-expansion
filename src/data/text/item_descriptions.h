@@ -483,12 +483,12 @@ static const u8 sExpCandyXSDesc[] = _( // Todo
 static const u8 sExpCandySDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.45.");
+	"hasta el Nv.30.");
 
 static const u8 sExpCandyXMDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.65.");
+	"hasta el Nv.45.");
 
 static const u8 sExpCandyMDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
@@ -498,22 +498,22 @@ static const u8 sExpCandyMDesc[] = _( // Todo
 static const u8 sExpCandyLDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.85.");
+	"hasta el Nv.75.");
 
 static const u8 sExpCandyXLDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.95.");
+	"hasta el Nv.85.");
 
 static const u8 sDynamaxCandyDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.100.");
+	"hasta el Nv.95.");
 	
 static const u8 sDynamaxCandy2Desc[] = _( // Todo
     "Aumenta 1 nivel\n"
 	"a un POKéMON\n"
-	"hasta el Nv.100.");	
+	"hasta el Nv.105.");	
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _(

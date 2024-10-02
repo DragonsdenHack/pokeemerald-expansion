@@ -124,7 +124,7 @@
 #define ITEM_NAIVE_MINT 100
 #define ITEM_SERIOUS_MINT 101
 
-// Candy
+// Candy 
 #define ITEM_RARE_CANDY 102
 #define ITEM_EXP_CANDY_XS 103
 #define ITEM_EXP_CANDY_S 104

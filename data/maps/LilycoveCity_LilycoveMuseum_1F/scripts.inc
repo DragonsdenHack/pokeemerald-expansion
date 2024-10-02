@@ -291,3 +291,64 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string	"Y me han dicho que un ENTRENADOR\n"
 	.string	"ha sido quien ha conseguido las obras.$"
 
+
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria::
+lock
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1:
+	.string "No puede ser… esto es inadmisible.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2:
+	.string "Tal y como se lo he contado. Ese hombre\n"
+	.string "no puede seguir al mando del MUSEO.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3:
+	.string "Puede estar tranquilo,\n"
+	.string "pondremos fin a esto.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4:
+	.string "… …$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5:
+	.string "Un momento, ¡es él!$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_6:
+	.string "¡Gracias a este ENTRENADOR pudimos\n"
+	.string "descubrir la trama de corrupción!$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_7:
+	.string "Todo esto es gracias a usted, entonces.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8:
+	.string "De parte del MUSEO CALAGUA, se lo\n"
+	.string "agradezco. Aquí valoramos mucho a los\l"
+	.string "buenos entrenadores.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9:
+	.string "Yo vuelvo al MUSEO PORTUAL. No sabe lo\n"
+	.string "tranquilo que me quedo al saber que\l"
+	.string "todo está bien.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10:
+	.string "Será lo mejor.\n"
+	.string "Tendrá noticias nuestras muy pronto.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11:
+	.string "Un momento, caballero. ¿Podríamos\n"
+	.string "hablar en privado? No le he agradecido\l"
+	.string "como es debido su intervención.$"
+	
