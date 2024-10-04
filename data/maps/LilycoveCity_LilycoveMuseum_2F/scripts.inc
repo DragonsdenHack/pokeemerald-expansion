@@ -29,6 +29,7 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_CheckToughPainting::
 	goto_if_set FLAG_TOUGH_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_SetToughPainting
 	end
 
+
 LilycoveCity_LilycoveMuseum_2F_EventScript_SetCoolPainting::
 	setmetatile 10, 6, METATILE_LilycoveMuseum_Painting2_Left, TRUE
 	setmetatile 11, 6, METATILE_LilycoveMuseum_Painting2_Right, TRUE
@@ -60,6 +61,7 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_SetToughPainting::
 
 LilycoveCity_LilycoveMuseum_2F_OnFrame:
 	map_script_2 VAR_LILYCOVE_MUSEUM_2F_STATE, 0, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall
+	map_script_2 VAR_ROUTE117_STATE, 9, LilycoveCity_LilycoveMuseum_2F_Secundaria
 	.2byte 0
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall::
@@ -322,16 +324,125 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
 	.string	"Ésa debe de ser la mayor alegría que\n"
 	.string	"pueden dar a cualquier ENTRENADOR.$"
 
+LilycoveMuseum_2F_Secundaria_Move_1:
+walk_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_2:
+delay_16
+face_up
+delay_16
+delay_8
+walk_right
+face_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_3:
+walk_in_place_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_4:
+walk_down
+walk_down
+walk_down
+face_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_5:
+delay_16
+delay_16
+face_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_6:
+walk_in_place_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_7:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+delay_8
+face_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_8:
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_9:
+delay_16
+face_up
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_10:
+delay_16
+delay_16
+face_left
+delay_16
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_11:
+delay_16
+walk_in_place_right
+step_end
+
+
+
 LilycoveCity_LilycoveMuseum_2F_Secundaria::
 lock
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_1
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_2
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_3
+waitmovement 0x0
+delay 15
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_4
+waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_6
+waitmovement 0x0
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_7
+waitmovement 0x0
+delay 30
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_8
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_9
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_11
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 10
 release
 end
 
@@ -341,6 +452,9 @@ LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1:
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2:
 	.string "Tiene pinta de haber viajado mucho,\n"
 	.string "¿me equivoco?$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2.1:
+	.string "Venga conmigo.$"
 
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3:
 	.string "HOENN es una región fascinante.$"

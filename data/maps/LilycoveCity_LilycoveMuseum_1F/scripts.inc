@@ -336,6 +336,48 @@ LilycoveMuseum_1F_Secundaria_Move_5:
 walk_in_place_down
 step_end
 
+LilycoveMuseum_1F_Secundaria_Move_6:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_7:
+emote_exclamation_mark
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_8:
+walk_slow_up
+walk_slow_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_9:
+face_left
+delay_16
+walk_in_place_left
+delay_16
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_10:
+face_left
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_11:
+walk_left
+face_down
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_12:
+face_right
+delay_16
+delay_8
+face_down
+step_end
+
 LilycoveCity_LilycoveMuseum_1F_Secundaria::
 applymovement 8, LilycoveMuseum_1F_Secundaria_Move_4
 waitmovement 0x0
@@ -345,17 +387,90 @@ delay 10
 applymovement 2, LilycoveMuseum_1F_Secundaria_Move_5
 waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_7
+waitmovement 0x0
+delay 10
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_8
+waitmovement 0x0
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_9
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_10
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_11
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_12
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_13
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_14
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_15
+waitmovement 0x0
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_16
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_88
+setflag FLAG_HOENN_651
+removeobject 8
+removeobject 2
 setvar VAR_ROUTE117_STATE, 9
+waitse
 release
 end
+
+LilycoveMuseum_1F_Secundaria_Move_16:
+walk_right
+walk_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_15:
+delay_8
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_14:
+walk_down
+walk_down
+delay_8
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_13:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+step_end
+
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1:
 	.string "No puede ser… esto es inadmisible.$"
@@ -396,9 +511,13 @@ LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10:
 	.string "Tendrá noticias nuestras muy pronto.$"
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11:
-	.string "Un momento, caballero. ¿Podríamos\n"
-	.string "hablar en privado? No le he agradecido\l"
-	.string "como es debido su intervención.$"
+	.string "Un momento, caballero.$" 
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_12:
+	.string "¿Podríamos hablar en privado? No le he\n"
+	.string "agradecido como es debido su\l"
+	.string "intervención.$"
+
 
 
 LilycoveCity_Museo_Director::
