@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_Curator",
-      "flag": "FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR"
+      "script": "LilycoveCity_Museo_Director",
+      "flag": "FLAG_HOENN_88"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LilycoveCity_LilycoveMuseum_1F_EventScript_Artist2",
-      "flag": "FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4"
+      "script": "LilycoveCity_Museo_Portual",
+      "flag": "FLAG_HOENN_651"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
@@ -169,7 +169,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_ROUTE117_STATE",
+      "var_value": "8",
+      "script": "LilycoveCity_LilycoveMuseum_1F_Secundaria_Abajo"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ROUTE117_STATE",
+      "var_value": "8",
+      "script": "LilycoveCity_LilycoveMuseum_1F_Secundaria_Arriba"
+    }
   ],
   "bg_events": [
     {

@@ -1128,7 +1128,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CROM"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN | AI_FLAG_SMART_SWITCHING,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Crom),
         .party = {.ItemCustomMoves = sParty_Crom},
     },
@@ -21704,7 +21704,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER714),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER714},
+        .party = {.ItemCustomMoves = sParty_TRAINER714},
     },
     [TRAINER_TRAINER_715] =
     {
@@ -21717,7 +21717,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER715),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER715},
+        .party = {.ItemCustomMoves = sParty_TRAINER715},
     },
     [TRAINER_TRAINER_716] =
     {

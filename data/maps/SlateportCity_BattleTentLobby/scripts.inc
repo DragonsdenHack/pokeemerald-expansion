@@ -464,6 +464,7 @@ msgbox SlateportCity_Museo_Secundaria_Texto_34 MSGBOX_AUTOCLOSE
 delay 15
 setflag FLAG_HOENN_38
 clearflag FLAG_HOENN_686
+clearflag FLAG_HOENN_651
 fadescreen 1
 delay 20
 removeobject 7

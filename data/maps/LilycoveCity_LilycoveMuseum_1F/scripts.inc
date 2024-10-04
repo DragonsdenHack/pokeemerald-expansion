@@ -291,12 +291,59 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string	"Y me han dicho que un ENTRENADOR\n"
 	.string	"ha sido quien ha conseguido las obras.$"
 
+LilycoveMuseum_1F_Secundaria_Move_1:
+walk_in_place_right
+step_end
 
+LilycoveMuseum_1F_Secundaria_Move_2:
+walk_slow_right
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_3:
+walk_slow_right
+walk_slow_up
+step_end
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_1
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_2
+waitmovement 0x0
+goto LilycoveCity_LilycoveMuseum_1F_Secundaria
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_1
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_3
+waitmovement 0x0
+goto LilycoveCity_LilycoveMuseum_1F_Secundaria
+
+
+LilycoveMuseum_1F_Secundaria_Move_4:
+walk_in_place_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_5:
+walk_in_place_down
+step_end
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria::
-lock
-msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_4
+waitmovement 0x0
+delay 10
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
@@ -306,6 +353,7 @@ msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 9
 release
 end
 
@@ -351,4 +399,32 @@ LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11:
 	.string "Un momento, caballero. ¿Podríamos\n"
 	.string "hablar en privado? No le he agradecido\l"
 	.string "como es debido su intervención.$"
+
+
+LilycoveCity_Museo_Director::
+lock
+compare VAR_ROUTE117_STATE, 7
+goto_if_gt LilycoveCity_Museo_Director_2
+faceplayer
+msgbox LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings MSGBOX_NPC
+release
+end
+
+LilycoveCity_Museo_Director_2::
+msgbox LilycoveCity_Museo_Director_2_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Museo_Director_2_Texto_1:
+	.string "… …$"
+
+LilycoveCity_Museo_Portual::
+lock
+msgbox LilycoveCity_Museo_Portual_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Museo_Portual_Texto_1:
+	.string "Sí, sí… Eso mismo…$"
+
 	

@@ -10974,7 +10974,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TORTERRA] =
     {
-        .baseHP        = 95,
+        .baseHP        = 105,
         .baseAttack    = 109,
         .baseDefense   = 105,
         .baseSpeed     = 56,
@@ -11056,7 +11056,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_INFERNAPE] =
     {
-        .baseHP        = 76,
+        .baseHP        = 77,
         .baseAttack    = 104,
         .baseDefense   = 71,
         .baseSpeed     = 108,
@@ -11143,8 +11143,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_EMPOLEON] =
     {
         .baseHP        = 84,
-        .baseAttack    = 86,
-        .baseDefense   = 88,
+        .baseAttack    = 76,
+        .baseDefense   = 103,
         .baseSpeed     = 60,
         .baseSpAttack  = 111,
         .baseSpDefense = 101,

@@ -155,7 +155,7 @@ MisionIrisLab_Primer_Cientifico_Texto_12:
 .string "Quédate con los FÓSILES si lo deseas,\n"
 	.string "ya tenemos copias y clones de sobra.\l"
 	.string "Tómalo como una recompensa por tu\l"
-	.string "menos malo hacer que el resto de\l"
+	.string "menos mal hacer que el resto de\l"
 	.string "mediocres.$"
 
 

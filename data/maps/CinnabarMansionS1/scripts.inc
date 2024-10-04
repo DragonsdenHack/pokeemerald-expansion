@@ -364,7 +364,7 @@ CinnabarMansionS1_Dalia_Texto_27:
 CinnabarMansionS1_Dalia_Texto_28:
 	.string "…la competición era ahora por algo\n"
 	.string "mucho más grande que un título: el\l"
-	.string "futuro de una región.$"
+	.string "destino de una región estaba en juego.$"
 
 CinnabarMansionS1_Dalia_Texto_29:
 	.string "Ahora que ya lo han logrado,\n"
