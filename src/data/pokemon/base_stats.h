@@ -29222,9 +29222,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FILTER, ABILITY_FILTER, ABILITY_FILTER},
+            .abilities = {ABILITY_STAMINA, ABILITY_STAMINA, ABILITY_STAMINA},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_STAMINA, ABILITY_STAMINA},
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,

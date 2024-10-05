@@ -168,6 +168,7 @@ static void Task_Andra5(u8);
 static void Task_Andra6(u8);
 static void Task_LiderSete(u8);
 static void Task_Fortunia(u8);
+static void Task_Destra(u8);
 static void Task_Valente(u8);
 static void Task_Sachiko(u8);
 static void Task_Dracon(u8);
@@ -481,6 +482,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_ANDRA6] = Task_Andra6,
     [B_TRANSITION_LIDERSETE] = Task_LiderSete,
     [B_TRANSITION_FORTUNIA] = Task_Fortunia,
+    [B_TRANSITION_DESTRA] = Task_Destra,
     [B_TRANSITION_VALENTE] = Task_Valente,
     [B_TRANSITION_SACHIKO] = Task_Sachiko,
     [B_TRANSITION_DRACON] = Task_Dracon,
@@ -728,6 +730,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA6] = TRAINER_PIC_ANDRA_ADMIN_JEFE,
     [MUGSHOT_LIDERSETE] = TRAINER_PIC_LIDERSETE,
     [MUGSHOT_FORTUNIA] = TRAINER_PIC_PIKE_QUEEN_LUCY,
+    [MUGSHOT_DESTRA] = TRAINER_PIC_SALON_MAIDEN_ANABEL,
     [MUGSHOT_VALENTE] = TRAINER_PIC_PYRAMID_KING_BRANDON,
     [MUGSHOT_SACHIKO] = TRAINER_PIC_SACHIKO,
     [MUGSHOT_DRACON] = TRAINER_PIC_ELITE_FOUR_DRAKE,
@@ -797,6 +800,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA6] = {0x200, 0x200},
     [MUGSHOT_LIDERSETE] = {0x200, 0x200},
     [MUGSHOT_FORTUNIA] = {0x200, 0x200},
+    [MUGSHOT_DESTRA] = {0x200, 0x200},
     [MUGSHOT_VALENTE] = {0x200, 0x200},
     [MUGSHOT_SACHIKO] = {0x200, 0x200},
     [MUGSHOT_DRACON] = {0x200, 0x200},
@@ -867,6 +871,7 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA6] =    { -8,  0},
     [MUGSHOT_LIDERSETE] =    { -8,  0},
     [MUGSHOT_FORTUNIA] =    { -18,  0},
+    [MUGSHOT_DESTRA] =    { -18,  0},
     [MUGSHOT_VALENTE] =    { -18,  0},
     [MUGSHOT_SACHIKO] =    { -32,  0},
     [MUGSHOT_DRACON] =    { -20,  0},
@@ -1266,6 +1271,7 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA6] = sMugshotPal_Champion,
     [MUGSHOT_LIDERSETE] = sMugshotPal_Glacia,
     [MUGSHOT_FORTUNIA] = sMugshotPal_Sidney,
+    [MUGSHOT_DESTRA] = sMugshotPal_Glacia,
     [MUGSHOT_VALENTE] = sMugshotPal_Drake,
     [MUGSHOT_SACHIKO] = sMugshotPal_Sidney,
     [MUGSHOT_DRACON] = sMugshotPal_Drake,
@@ -2998,6 +3004,12 @@ static void Task_LiderSete(u8 taskId)
 static void Task_Fortunia(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_FORTUNIA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Destra(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_DESTRA;
     DoMugshotTransition(taskId);
 }
 

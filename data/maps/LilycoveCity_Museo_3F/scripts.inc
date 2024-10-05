@@ -337,6 +337,8 @@ face_left
 step_end
 
 Museo_3F_Secundaria_Move_22:
+delay_16
+delay_8
 walk_left
 walk_left
 walk_left
@@ -350,6 +352,73 @@ walk_left
 walk_left
 walk_left
 walk_down
+step_end
+
+Museo_3F_Secundaria_Move_23:
+walk_slow_down
+step_end
+
+Museo_3F_Secundaria_Move_24:
+delay_16
+face_up
+step_end
+
+Museo_3F_Secundaria_Move_26:
+walk_down
+walk_down
+walk_left
+face_up
+step_end
+
+Museo_3F_Secundaria_Move_25:
+walk_down
+walk_down
+walk_down
+face_up
+step_end
+
+Museo_3F_Secundaria_Move_27:
+walk_right
+walk_down
+walk_down
+face_left
+step_end
+
+Museo_3F_Secundaria_Move_28:
+delay_16
+delay_8
+face_right
+step_end
+
+Museo_3F_Secundaria_Move_12.1:
+walk_in_place_right
+step_end
+
+Museo_3F_Secundaria_Move_28.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Museo_3F_Secundaria_Move_28.2:
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Museo_3F_Secundaria_Move_29:
+delay_16
+face_right
+delay_16
+delay_8
+walk_up
+walk_up
+walk_up
+face_down
 step_end
 
 
@@ -480,6 +549,7 @@ waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_28 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement 4, Museo_3F_Secundaria_Move_20
+applymovement 8, Museo_3F_Secundaria_Move_28.1
 applymovement 6, Museo_3F_Secundaria_Move_21
 applymovement 5, Museo_3F_Secundaria_Move_22
 applymovement OBJ_EVENT_ID_CAMERA, Museo_3F_Secundaria_Move_15.4
@@ -495,43 +565,221 @@ waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_30 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_31 MSGBOX_AUTOCLOSE
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_33 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_34 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_24
+applymovement 5, Museo_3F_Secundaria_Move_23
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_35 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_28
+applymovement 4, Museo_3F_Secundaria_Move_26
+applymovement 6, Museo_3F_Secundaria_Move_25
+applymovement 5, Museo_3F_Secundaria_Move_27
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_36 MSGBOX_AUTOCLOSE
+applymovement 5, Museo_3F_Secundaria_Move_12
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_12.1
+waitmovement 0x0
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 4, Museo_3F_Secundaria_Move_9
+applymovement 6, Museo_3F_Secundaria_Move_9
+waitmovement 0x0
+waitse
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_39 MSGBOX_AUTOCLOSE
+applymovement 5, Museo_3F_Secundaria_Move_29
+applymovement 8, Museo_3F_Secundaria_Move_28.2
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_40 MSGBOX_AUTOCLOSE
+applymovement 8, Museo_3F_Secundaria_Move_30
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_41 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_31
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_43 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_9
+waitmovement 0x0
+waitse
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_32
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_44 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_45 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_33
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_46 MSGBOX_AUTOCLOSE
+applymovement 8, Museo_3F_Secundaria_Move_12
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_47 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_48 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_34
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_49 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_35
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_50 MSGBOX_AUTOCLOSE
+applymovement 8, Museo_3F_Secundaria_Move_36
+waitmovement 0x0
+msgbox LilycoveCity_Museo_3F_Secundaria_Texto_50.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LilycoveCity_Museo_3F_Secundaria_Texto_50.2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_12
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_51 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_12.1
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_52 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 4, Museo_3F_Secundaria_Move_9
+applymovement 5, Museo_3F_Secundaria_Move_9
+applymovement 6, Museo_3F_Secundaria_Move_9
+waitmovement 0x0
+waitse
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_53 MSGBOX_AUTOCLOSE
+applymovement 8, Museo_3F_Secundaria_Move_37
+waitmovement 0x0
+delay 15
+applymovement 5, Museo_3F_Secundaria_Move_38
+waitmovement 0x0
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_39
+waitmovement 0x0
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_54 MSGBOX_AUTOCLOSE
-msgbox LilycoveCity_Museo_3F_Secundaria_Texto_55 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_656, LilycoveCity_Museo_3F_Secundaria_Texto_55
+delay 10
+playse SE_PIN
+applymovement 4, Museo_3F_Secundaria_Move_9
+applymovement 5, Museo_3F_Secundaria_Move_9
+applymovement 6, Museo_3F_Secundaria_Move_9
+waitmovement 0x0
+waitse
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_56 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_40
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_57 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_58 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_59 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Museo_3F_Secundaria_Move_9
+waitmovement 0x0
+waitse
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_39
+waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_60 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_61 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_62 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_63 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_64 MSGBOX_AUTOCLOSE
+delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_65 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, Museo_3F_Secundaria_Move_34
+waitmovement 0x0
+delay 10
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_66 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_652
+setflag FLAG_HOENN_651
 setvar VAR_ROUTE117_STATE, 11
+delay 20
+warpsilent MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F, 16, 4
 release
 end
+
+Museo_3F_Secundaria_Move_40:
+face_right
+step_end
+
+Museo_3F_Secundaria_Move_39:
+face_left
+step_end
+
+Museo_3F_Secundaria_Move_38:
+walk_in_place_down
+step_end
+
+Museo_3F_Secundaria_Move_37:
+face_up
+step_end
+
+Museo_3F_Secundaria_Move_36:
+walk_down
+face_left
+step_end
+
+Museo_3F_Secundaria_Move_35:
+delay_8
+face_down
+delay_16
+delay_8
+step_end
+
+Museo_3F_Secundaria_Move_34:
+delay_8
+walk_slow_up
+delay_16
+step_end
+
+Museo_3F_Secundaria_Move_33:
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
+Museo_3F_Secundaria_Move_32:
+walk_left
+walk_down
+walk_down
+face_left
+step_end
+
+Museo_3F_Secundaria_Move_31:
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
+Museo_3F_Secundaria_Move_30:
+walk_slow_left
+step_end
 
 LilycoveCity_Museo_3F_Secundaria_Texto_1:
 	.string "Por aquí.$"
@@ -714,10 +962,17 @@ LilycoveCity_Museo_3F_Secundaria_Texto_49:
 	.string "inmutables de los negocios.$"
 
 LilycoveCity_Museo_3F_Secundaria_Texto_50:
-	.string "El mundo{PAUSE 35}…{PAUSE 35} es un negocio, {PLAYER}.$"
+	.string "El mundo{PAUSE 35}…{PAUSE 35}$"
+
+LilycoveCity_Museo_3F_Secundaria_Texto_50.1:
+.string "…es un negocio, {PLAYER}.$"
+
+LilycoveCity_Museo_3F_Secundaria_Texto_50.2:
+	.string "Ha sido así siempre.\n"
+	.string "Y en el fondo, tú también lo sabes.$"
 
 LilycoveCity_Museo_3F_Secundaria_Texto_51:
-	.string "Y ahora, solo te pido que formes parte\n"
+	.string "Ahora, solo te pido que formes parte\n"
 	.string "de la élite en ese mundo perfecto.$"
 
 LilycoveCity_Museo_3F_Secundaria_Texto_52:
@@ -748,10 +1003,10 @@ LilycoveCity_Museo_3F_Secundaria_Texto_58:
 
 LilycoveCity_Museo_3F_Secundaria_Texto_59:
 	.string "Perfectas para dar espectáculo, para\n"
-	.string "dar a la masa lo que quiere ver. Y por\l"
-	.string "ello, incapaces de reproducir el\l"
-	.string "verdadero esplendor de un combate en\l"
-	.string "su estado más puro.$"
+	.string "dar a la masa lo que quiere ver.\l"
+	.string "También, y como consecuencia, incapaces\l"
+	.string "de reproducir el verdadero esplendor de\l"
+	.string "un combate en su estado más puro.$"
 
 LilycoveCity_Museo_3F_Secundaria_Texto_60:
 	.string "Así es. No importan tus planes,\n"
@@ -779,4 +1034,15 @@ LilycoveCity_Museo_3F_Secundaria_Texto_66:
 	.string "partir de ahora, {PLAYER}. Si te\l"
 	.string "niegas a predicar con esto, tampoco\l"
 	.string "podrás silenciarlo.$"
+
+LilycoveCity_Museo_3F_Secundaria_Despues::
+lock
+faceplayer
+msgbox LilycoveCity_Museo_3F_Secundaria_Despues_Texto_1 MSGBOX_NPC
+release
+end
+
+LilycoveCity_Museo_3F_Secundaria_Despues_Texto_1:
+	.string "Esta zona es para clientes exclusivos.\n"
+	.string "Lo sentimos.$"
 	

@@ -38243,7 +38243,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER656[] = {
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_DAZZLING_GLEAM, MOVE_ICE_BEAM}
+    .moves = {MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_DAZZLING_GLEAM, MOVE_REFLECT}
     },
     {
     .iv = 255,
@@ -38258,17 +38258,17 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER656[] = {
     .iv = 255,
     .lvl = 115,
     .species = SPECIES_RAIKOU,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .evs = {50, 50, 50, 50, 50, 252},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_THUNDERBOLT, MOVE_THUNDERBOLT, MOVE_NONE, MOVE_NONE}
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 50, 50, 50, 50, 252},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_THUNDERBOLT, MOVE_CALM_MIND, MOVE_EXTRASENSORY, MOVE_AURA_SPHERE}
     },
     {
     .iv = 255,
     .lvl = 117,
     .species = SPECIES_LATIOS,
     .heldItem = ITEM_LATIOSITE,
-    .evs = {120, 252, 120, 252, 120, 120},
+    .evs = {120, 120, 120, 252, 252, 120},
     .nature = NATURE_BOLD,
     .moves = {MOVE_CALM_MIND, MOVE_LUSTER_PURGE, MOVE_RECOVER, MOVE_DRAGON_PULSE}
     }

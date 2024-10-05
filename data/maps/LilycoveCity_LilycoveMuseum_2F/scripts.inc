@@ -513,7 +513,7 @@ face_left
 step_end
 
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1:
-	.string "Sí{PAUSE 25}…{PAUSE 25} Ahora mismo va.$"
+	.string "Sí{PAUSE 25}…{PAUSE 25} Entendido{PAUSE 25}…{PAUSE 25} Ahora mismo va.$"
 
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2:
 	.string "Tiene pinta de haber viajado mucho,\n"
