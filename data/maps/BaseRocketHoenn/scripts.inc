@@ -2143,9 +2143,8 @@ playse SE_SHOP
 removemoney 168000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_JANGMO_O, 32, ITEM_NONE
 release
 end
@@ -2163,9 +2162,8 @@ playse SE_SHOP
 removemoney 82000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_CHIMCHAR, 12, ITEM_NONE
 release
 end
@@ -2183,9 +2181,8 @@ playse SE_SHOP
 removemoney 68000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_OSHAWOTT, 16, ITEM_NONE
 release
 end
@@ -2203,9 +2200,8 @@ playse SE_SHOP
 removemoney 60000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BOUFFALANT, 60, ITEM_NONE
 release
 end
@@ -2224,9 +2220,8 @@ playse SE_SHOP
 removemoney 48000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_FROSMOTH, 55, ITEM_NONE
 release
 end
@@ -2244,9 +2239,8 @@ playse SE_SHOP
 removemoney 30000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_TIMBURR, 24, ITEM_NONE
 release
 end
@@ -2264,9 +2258,8 @@ playse SE_SHOP
 removemoney 22500 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_DRILBUR, 25, ITEM_NONE
 release
 end
@@ -2284,9 +2277,8 @@ playse SE_SHOP
 removemoney 15000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_ROCKRUFF, 15, ITEM_NONE
 release
 end

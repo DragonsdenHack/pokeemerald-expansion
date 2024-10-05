@@ -236,9 +236,8 @@ playse SE_SHOP
 removecoins TRAPINCH_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_TRAPINCH, 32, ITEM_NONE
 release
 end
@@ -351,9 +350,8 @@ playse SE_SHOP
 removecoins BAGON_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BAGON, 20, ITEM_NONE
 release
 end
@@ -372,9 +370,8 @@ playse SE_SHOP
 removecoins DEINO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_DEINO, 20, ITEM_NONE
 release
 end
@@ -393,9 +390,8 @@ playse SE_SHOP
 removecoins BELDUM_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BELDUM, 20, ITEM_NONE
 release
 end
@@ -414,9 +410,8 @@ playse SE_SHOP
 removecoins WISHIWASHI_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_WISHIWASHI, 50, ITEM_NONE
 release
 end
@@ -457,9 +452,8 @@ playse SE_SHOP
 removecoins LLAMASFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_FLAME_ORB
 release
 end
@@ -478,9 +472,8 @@ playse SE_SHOP
 removecoins C.XPERTO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_EXPERT_BELT
 release
 end
@@ -499,9 +492,8 @@ playse SE_SHOP
 removecoins CHAL.ASALTO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_ASSAULT_VEST
 release
 end
@@ -520,9 +512,8 @@ playse SE_SHOP
 removecoins GAF.ELEGID_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_CHOICE_SPECS
 release
 end

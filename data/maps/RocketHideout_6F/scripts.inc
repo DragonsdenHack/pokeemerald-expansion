@@ -649,9 +649,8 @@ delay 80
 playse SE_M_EMBER
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_8, MSGBOX_AUTOCLOSE
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move6
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_9, MSGBOX_AUTOCLOSE
@@ -985,9 +984,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_18 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_15
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_19 MSGBOX_AUTOCLOSE
@@ -1492,9 +1490,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_3 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_ITEM
@@ -2095,9 +2092,8 @@ playse SE_SHOP
 removemoney 9000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_VOLTORB, 12, ITEM_NONE
 release
 end
@@ -2115,9 +2111,8 @@ playse SE_SHOP
 removemoney 11000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_KOFFING, 13, ITEM_NONE
 release
 end
@@ -2135,9 +2130,8 @@ playse SE_SHOP
 removemoney 8000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_MANKEY, 12, ITEM_NONE
 release
 end
@@ -2155,9 +2149,8 @@ playse SE_SHOP
 removemoney 3000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_RATTATA, 9, ITEM_NONE
 release
 end

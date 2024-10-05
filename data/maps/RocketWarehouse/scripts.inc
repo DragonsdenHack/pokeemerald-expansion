@@ -853,9 +853,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas2 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas3 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2
 waitmovement 0x0

@@ -216,7 +216,6 @@ end
 RocketHideout_9F_Entrenador_Experiencia_No::
 delay 40
 hidemoneybox
-delay 40
 release
 end
 

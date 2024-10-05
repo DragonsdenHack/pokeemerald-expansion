@@ -148,9 +148,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_EVIOLITE
@@ -722,8 +721,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Silph_text_10 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Silph_text_11 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_ULTRA_BALL, 50
@@ -3033,9 +3032,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout8F_Mision_Johto_Text_3 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketHideout8F_Mision_Johto_Text_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Johto_move_6
@@ -3814,8 +3812,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_8 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
@@ -4585,8 +4583,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_3 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_4 MSGBOX_AUTOCLOSE

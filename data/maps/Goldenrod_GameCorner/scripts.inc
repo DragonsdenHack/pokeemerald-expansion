@@ -150,9 +150,8 @@ playse SE_SHOP
 removecoins LUPA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_WIDE_LENS
 release
 end
@@ -171,9 +170,8 @@ playse SE_SHOP
 removecoins TOXISFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_TOXIC_ORB
 release
 end
@@ -192,9 +190,8 @@ playse SE_SHOP
 removecoins CASCO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_ROCKY_HELMET
 release
 end
@@ -213,9 +210,8 @@ playse SE_SHOP
 removecoins VIDASFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 25
 hidemoneybox
-delay 20
 additem ITEM_LIFE_ORB
 release
 end
@@ -234,9 +230,8 @@ playse SE_SHOP
 removecoins CINTA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_CHOICE_BAND
 release
 end
@@ -273,9 +268,8 @@ playse SE_SHOP
 removecoins TEDDIURSA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_TEDDIURSA, 28, ITEM_NONE
 release
 end
@@ -294,9 +288,8 @@ playse SE_SHOP
 removecoins SHUCKLE_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SHUCKLE, 40, ITEM_NONE
 release
 end
@@ -315,9 +308,8 @@ playse SE_SHOP
 removecoins SUDOWOODO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SUDOWOODO, 50, ITEM_NONE
 release
 end
@@ -336,9 +328,8 @@ playse SE_SHOP
 removecoins CYNDAQUIL_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_CYNDAQUIL, 12, ITEM_NONE
 release
 end
@@ -357,9 +348,8 @@ playse SE_SHOP
 removecoins LARVITAR_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_LARVITAR, 28, ITEM_NONE
 release
 end
@@ -380,12 +370,11 @@ playse SE_SHOP
 removemoney 220000 0
 updatemoneybox
 delay 80
+hidemoneybox
 playfanfare MUS_OBTAIN_TMHM
 msgbox EventScript_Compra_Porygon_Texto_6 MSGBOX_DEFAULT
 givemon SPECIES_PORYGON, 60, ITEM_NONE
 waitfanfare
-hidemoneybox
-delay 20
 msgbox EventScript_Compra_Porygon_Texto_7 MSGBOX_NPC
 release
 end
@@ -393,7 +382,6 @@ end
 EventScript_Compra_Porygon_No::
 delay 10
 hidemoneybox
-delay 10
 msgbox EventScript_Compra_Porygon_Texto_5 MSGBOX_NPC
 release
 end

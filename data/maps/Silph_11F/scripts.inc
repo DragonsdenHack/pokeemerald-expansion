@@ -241,8 +241,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox Silph_11F_Bill_Presidente_Texto_34 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox Silph_11F_Bill_Presidente_Texto_35 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM

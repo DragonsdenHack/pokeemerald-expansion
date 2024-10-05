@@ -2302,9 +2302,8 @@ playse SE_SHOP
 removemoney 55000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SNEASEL, 26, ITEM_NONE
 release
 end
@@ -2322,9 +2321,8 @@ playse SE_SHOP
 removemoney 80000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_ELECTABUZZ, 30, ITEM_NONE
 release
 end
@@ -2342,9 +2340,8 @@ playse SE_SHOP
 removemoney 42000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_NIDORINO, 23, ITEM_NONE
 release
 end
@@ -2362,9 +2359,8 @@ playse SE_SHOP
 removemoney 35000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_RHYHORN, 23, ITEM_NONE
 release
 end
@@ -2382,9 +2378,8 @@ playse SE_SHOP
 removemoney 17500 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SHELLDER, 18, ITEM_NONE
 release
 end
@@ -2402,9 +2397,8 @@ playse SE_SHOP
 removemoney 12000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_NIDORAN_F, 15, ITEM_NONE
 release
 end

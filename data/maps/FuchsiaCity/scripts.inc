@@ -503,9 +503,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox FuchsiaCity_Estafado_Texto_8 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox FuchsiaCity_Estafado_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox FuchsiaCity_Estafado_Texto_10 MSGBOX_DEFAULT

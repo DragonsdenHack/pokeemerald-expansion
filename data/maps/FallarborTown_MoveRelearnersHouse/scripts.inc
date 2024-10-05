@@ -6,6 +6,7 @@ FallarborTown_MoveRelearnersHouse_MapScripts::
 FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
 	faceplayer
+	clearflag FLAG_HOENN_639
 	applymovement LOCALID_MOVE_RELEARNER, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
@@ -24,15 +25,12 @@ FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
 	end
 	
 FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove2::
-    msgbox FallarborTown_MoveRelearnersHouse_Text_EggMove, MSGBOX_YESNO
-	switch VAR_RESULT
 	case YES, FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove
-	clearflag FLAG_HOENN_639
-    goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+    release
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove::
-    setflag FLAG_HOENN_639
+    clearflag FLAG_HOENN_639
     goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
     end 	
 
@@ -53,8 +51,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	waitstate
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
-	removeitem ITEM_TINY_MUSHROOM
-	clearflag FLAG_HOENN_639
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	end
 
@@ -92,7 +88,7 @@ FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 FallarborTown_MoveRelearnersHouse_Text_EggMove:
 	.string "Me sé todos los movimientos\n"
 	.string "huevo que aprenden los POKéMON.\p"
-	.string "¿Te interesa ó continúamos?$"
+	.string "¿Te interesa?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
 	.string "¿A qué POKÉMON debería enseñárselo?$"
@@ -116,4 +112,65 @@ FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "¿Qué? No puedo enseñar nada\n"
 	.string "a un HUEVO.$"
+
+Sala_Ejecutiva_MoveRelearnersHouse_EventScript_MoveRelearner::
+lock
+setflag FLAG_HOENN_639
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_1, MSGBOX_AUTOCLOSE
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Sala_Ejecutiva_No
+goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2
+
+Sala_Ejecutiva_MoveRelearner_Texto_4:
+		.string "Vuelva cuando guste, SIR.$"
+	
+Sala_Ejecutiva_MoveRelearner_Texto_3:
+		.string "Como usted guste, SIR.$"
+
+Sala_Ejecutiva_MoveRelearner_Texto_2:
+	.string "Costará 5000¥ el movimiento.\n"
+	.string "¿Te interesa?$"
+
+Sala_Ejecutiva_MoveRelearner_Texto_1:
+	.string "Hemos desarrollado tecnología capaz de\n"
+	.string "hacer recordar forzosamente\l"
+	.string "MOVIMIENTOS HUEVO a los POKÉMON.$"
+
+
+Sala_Ejecutiva_No::
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Sala_Ejecutiva_Despues::
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
+	special ChooseMonForMoveRelearner
+	waitstate
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Sala_Ejecutiva_No
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg
+	goto_if_eq VAR_0x8005, 0, FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
+	special TeachMoveRelearnerMove
+	waitstate
+			showmoneybox 0, 0
+delay 15
+playse SE_SHOP
+removemoney 5000 0
+updatemoneybox
+delay 50
+hidemoneybox
+	clearflag FLAG_HOENN_639
+	goto Sala_Ejecutiva_Despues
+	end
 

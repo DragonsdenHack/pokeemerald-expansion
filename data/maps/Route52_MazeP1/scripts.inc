@@ -270,9 +270,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox Route52_MazeP1_Combates_Finales_Texto_19 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox Route52_MazeP1_Combates_Finales_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_12
 applymovement 4, Route52_MazeP1_Combates_Finales_Move_13

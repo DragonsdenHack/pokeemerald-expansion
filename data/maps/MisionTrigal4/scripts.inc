@@ -370,9 +370,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox MisionTrigal4_Tercer_Encuentro_Texto_22 MSGBOX_DEFAULT
 waitse
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox MisionTrigal4_Tercer_Encuentro_Texto_23 MSGBOX_AUTOCLOSE
 setvar VAR_EVER_GRANDE_CITY_STATE, 4
 release

@@ -202,9 +202,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_4 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0

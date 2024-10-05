@@ -211,9 +211,8 @@ playse SE_SHOP
 removemoney 5000 0
 updatemoneybox
 additem ITEM_MOOMOO_MILK, 12
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox Johto_MuMu_Mercado_EventScript_Clerk_Texto_2 MSGBOX_AUTOCLOSE
 release
 end

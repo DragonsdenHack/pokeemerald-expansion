@@ -445,8 +445,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox SlateportCity_Museo_Secundaria_Texto_28 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox SlateportCity_Museo_Secundaria_Texto_29 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox SlateportCity_Museo_Secundaria_Texto_30 MSGBOX_DEFAULT

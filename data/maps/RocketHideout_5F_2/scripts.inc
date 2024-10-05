@@ -104,9 +104,8 @@ playse SE_SHOP
 removemoney 14000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BUNEARY, 30, ITEM_NONE
 release
 end
@@ -124,9 +123,8 @@ playse SE_SHOP
 removemoney 25000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_CROAGUNK, 32, ITEM_NONE
 release
 end
@@ -144,9 +142,8 @@ playse SE_SHOP
 removemoney 29000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BUDEW, 15, ITEM_NONE
 release
 end
@@ -164,9 +161,8 @@ playse SE_SHOP
 removemoney 33000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_HIPPOPOTAS, 33, ITEM_NONE
 release
 end
@@ -185,9 +181,8 @@ playse SE_SHOP
 removemoney 110000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SHIELDON, 35, ITEM_NONE
 release
 end
@@ -205,9 +200,8 @@ playse SE_SHOP
 removemoney 170000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_LARVITAR, 28, ITEM_NONE
 release
 end
@@ -255,5 +249,62 @@ Base_Profunda_Mercado_Ejecutivos_Pokemart:
 	.2byte ITEM_NONE
 	release
 	end
+
+RocketHideout_5F_2_Quinto_Ejecutivo::
+lock
+faceplayer
+msgbox RocketHideout_5F_2_Quinto_Ejecutivo_Texto_1 MSGBOX_NPC
+release
+end
+
+RocketHideout_5F_2_Quinto_Ejecutivo_Texto_1:
+	.string "Si fuera tú, comprobaría en el puesto\n"
+	.string "de arriba todos los MOVIMIENTOS HUEVO\l"
+	.string "que pueden aprender tus POKÉMON. Más\l"
+	.string "de un EJECUTIVO se ha llevado una grata\l"
+	.string "sorpresa.$"
+
+RocketHideout_5F_2_Cartel::
+lock
+msgbox RocketHideout_5F_2_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+RocketHideout_5F_2_Cartel_Texto_1:
+	.string "ZONA VIP EXCLUSIVA PARA EJECUTIVOS.$"
+
+RocketHideout_5F_2_Llave::
+compare VAR_UNUSED_0x40F7, 78
+goto_if_gt RocketHideout_5F_2_Despues
+delay 10
+msgbox RocketHideout_5F_2_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+RocketHideout_5F_2_Despues::
+delay 10
+msgbox RocketHideout_5F_2_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 7, 7, 0x335, FALSE
+setmetatile 7, 6, 0x335, FALSE
+setmetatile 8, 8, 0x334, FALSE
+setmetatile 8, 7, 0x334, FALSE
+setmetatile 8, 8, 0x334, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+RocketHideout_5F_2_Texto_2:
+	.string "¿Quieres usar la LLAVE SALA VIP?$"
+
+RocketHideout_5F_2_Texto_1:
+	.string "Se requiere de una llave especial.$"
 
 
