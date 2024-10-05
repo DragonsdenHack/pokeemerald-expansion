@@ -473,7 +473,7 @@ step_end
 
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1:
-	.string "No puede ser… esto es inadmisible.$"
+	.string "No puede ser{PAUSE 15}…{PAUSE 15} esto es inadmisible.$"
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2:
 	.string "Tal y como se lo he contado. Ese hombre\n"
@@ -484,7 +484,7 @@ LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3:
 	.string "pondremos fin a esto.$"
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5:
 	.string "Un momento, ¡es él!$"

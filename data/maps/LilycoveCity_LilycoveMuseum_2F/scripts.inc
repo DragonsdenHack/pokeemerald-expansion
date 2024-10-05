@@ -344,7 +344,6 @@ step_end
 LilycoveMuseum_2F_Secundaria_Move_4:
 walk_down
 walk_down
-walk_down
 face_left
 step_end
 
@@ -390,6 +389,10 @@ face_up
 delay_16
 step_end
 
+LilycoveMuseum_2F_Secundaria_Move_9.1:
+walk_in_place_up
+step_end
+
 LilycoveMuseum_2F_Secundaria_Move_10:
 delay_16
 delay_16
@@ -401,6 +404,22 @@ step_end
 LilycoveMuseum_2F_Secundaria_Move_11:
 delay_16
 walk_in_place_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_12:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+face_up
 step_end
 
 
@@ -436,18 +455,65 @@ msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_10
 applymovement 1, LilycoveMuseum_2F_Secundaria_Move_9
 waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_9.1
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, LilycoveMuseum_2F_Secundaria_Move_11
 waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_12
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_12
+waitmovement 0x0
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_14
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_13
+waitmovement 0x0
+delay 15
 msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_16
+waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_11
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_17
+waitmovement 0x0
+warp MAP_LILYCOVE_CITY_MUSEO_3F, 36, 15
 setvar VAR_ROUTE117_STATE, 10
 release
 end
 
+LilycoveMuseum_2F_Secundaria_Move_17:
+walk_slow_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_16:
+delay_16
+walk_slow_up
+delay_16
+delay_8
+face_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_15:
+walk_up
+face_right
+step_end
+
+
+LilycoveMuseum_2F_Secundaria_Move_13:
+face_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_14:
+face_left
+step_end
+
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1:
-	.string "Sí… Ahora mismo va.$"
+	.string "Sí{PAUSE 25}…{PAUSE 25} Ahora mismo va.$"
 
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2:
 	.string "Tiene pinta de haber viajado mucho,\n"
@@ -462,7 +528,7 @@ LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3:
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4:
 	.string "Habrá estado en muchas regiones,\n"
 	.string "imagino. Pero seguro que ninguna con\l"
-	.string "esta fauna y flora, este perfecto…\l"
+	.string "esta fauna y flora, este perfecto{PAUSE 15}…{PAUSE 15}\l"
 	.string "equilibrio.$"
 
 LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5:

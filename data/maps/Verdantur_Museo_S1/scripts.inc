@@ -215,7 +215,7 @@ Verdantur_Museo_S1_Fortunia_Texto_4:
 	.string "que mi suerte cambie ahora.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_5:
-	.string "????: Suerte… algo que muchos ilusos\n"
+	.string "????: Suerte{PAUSE 35}…{PAUSE 35} algo que muchos ilusos\n"
 	.string "no acaban de comprender.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_6:
@@ -251,7 +251,7 @@ Verdantur_Museo_S1_Fortunia_Texto_13:
 	.string "desgracia.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_14:
-	.string "Ten esto presente… no te olvidaré…$"
+	.string "Ten esto presente{PAUSE 25}…{PAUSE 25} no te olvidaré…$"
 
 Verdantur_Museo_S1_Fortunia_Texto_15:
 	.string "¡{PLAYER} recuperó la pintura del\n"

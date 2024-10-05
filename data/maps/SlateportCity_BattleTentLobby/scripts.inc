@@ -501,7 +501,7 @@ SlateportCity_Museo_Secundaria_Texto_3:
 	.string "garantizo.$"
 
 SlateportCity_Museo_Secundaria_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 SlateportCity_Museo_Secundaria_Texto_5:
 	.string "Estoy acabado…$"
@@ -541,7 +541,7 @@ SlateportCity_Museo_Secundaria_Texto_13.1:
 	.string "¿Me ayudarías entonces?$"
 
 SlateportCity_Museo_Secundaria_Texto_14:
-	.string "Oh… Después de esto, tendré que\n"
+	.string "Oh{PAUSE 15}…{PAUSE 15} Después de esto, tendré que\n"
 	.string "renunciar a mi puesto…$"
 
 SlateportCity_Museo_Secundaria_Texto_15:
@@ -563,7 +563,7 @@ SlateportCity_Museo_Secundaria_Texto_18:
 	.string "contemplar sus obras.$"
 
 SlateportCity_Museo_Secundaria_Texto_19:
-	.string "Pero… yo creo que todo eso es una\n"
+	.string "Pero{PAUSE 15}…{PAUSE 15} yo creo que todo eso es una\n"
 	.string "fachada, y que en ese lugar hay toda\l"
 	.string "una red de contrabando de obras.$"
 
@@ -574,7 +574,7 @@ SlateportCity_Museo_Secundaria_Texto_20:
 
 SlateportCity_Museo_Secundaria_Texto_21:
 	.string "Sospecho que en esa galería está mi\n"
-	.string "obra… si no ha sido vendida en el\l"
+	.string "obra{PAUSE 15}…{PAUSE 15} si no ha sido vendida en el\l"
 	.string "mercado negro ya.$"
 
 SlateportCity_Museo_Secundaria_Texto_22:
@@ -616,7 +616,7 @@ SlateportCity_Museo_Secundaria_Texto_30:
 	.string "nv.60!!$"
 
 SlateportCity_Museo_Secundaria_Texto_31:
-	.string "Y ahora… cuéntame, ¿qué ocurrió allí?$"
+	.string "Y ahora{PAUSE 15}…{PAUSE 15} cuéntame, ¿qué ocurrió allí?$"
 
 SlateportCity_Museo_Secundaria_Texto_32:
 	.string "Esto no puede quedar así.$"
