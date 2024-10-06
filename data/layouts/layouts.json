@@ -15009,7 +15009,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S1/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S1/map.bin"
     },
@@ -15021,7 +15021,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S2/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S2/map.bin"
     },
@@ -15033,7 +15033,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S3/map.bin"
     },
@@ -15045,7 +15045,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S4/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S4/map.bin"
     },
@@ -15057,7 +15057,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S5/map.bin"
     },
