@@ -563,9 +563,25 @@ delay 15
 applymovement 4, Museo_3F_Secundaria_Move_12
 waitmovement 0x0
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_30 MSGBOX_AUTOCLOSE
-msgbox LilycoveCity_Museo_3F_Secundaria_Texto_31 MSGBOX_AUTOCLOSE
-msgbox LilycoveCity_Museo_3F_Secundaria_Texto_32 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 9
+setflag FLAG_HOENN_651
+setflag FLAG_HOENN_652
+clearflag FLAG_HOENN_89
+    trainerbattle TRAINER_BATTLE_SET_TRAINER_A, TRAINER_TRAINER_714,0, OliivineLighthouse_Text_MarineroIntro, LilycoveCity_Museo_3F_Secundaria_Texto_31
+    trainerbattle TRAINER_BATTLE_SET_TRAINER_B, TRAINER_TRAINER_715,0, OliivineLighthouse_Text_MarineroIntro, LilycoveCity_Museo_3F_Secundaria_Texto_32
+    setvar VAR_0x8004, SPECIAL_BATTLE_CUSTOM
+    setvar VAR_0x8005, 0
+    special DoSpecialTrainerBattle
+	waitstate
+        switch VAR_RESULT
+    case 1, LilycoveCity_Museo_3F_Secundaria_Ganas
+        fadescreen FADE_TO_BLACK
+    special SetCB2WhiteOut
+    waitstate
 delay 15
+
+
+LilycoveCity_Museo_3F_Secundaria_Ganas::
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_33 MSGBOX_AUTOCLOSE
 delay 15
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_34 MSGBOX_AUTOCLOSE
@@ -710,6 +726,7 @@ delay 10
 msgbox LilycoveCity_Museo_3F_Secundaria_Texto_66 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_652
 setflag FLAG_HOENN_651
+setflag FLAG_HOENN_89
 setvar VAR_ROUTE117_STATE, 11
 delay 20
 warpsilent MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F, 16, 4
