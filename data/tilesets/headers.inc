@@ -1611,3 +1611,14 @@ gTileset_gTileset_General_fr2::
 	.4byte gMetatiles_gTileset_General_fr2
 	.4byte gMetatileAttributes_gTileset_General_fr2
 	.4byte NULL
+
+	.align 2
+gTileset_silph_co2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_silph_co2
+	.4byte gTilesetPalettes_silph_co2
+	.4byte gMetatiles_silph_co2
+	.4byte gMetatileAttributes_silph_co2
+	.4byte NULL

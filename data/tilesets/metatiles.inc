@@ -1057,3 +1057,10 @@ gMetatiles_gTileset_General_fr2::
 	.align 1
 gMetatileAttributes_gTileset_General_fr2::
 	.incbin "data/tilesets/primary/gtileset_general_fr2/metatile_attributes.bin"
+	.align 1
+gMetatiles_silph_co2::
+	.incbin "data/tilesets/secondary/silph_co2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_silph_co2::
+	.incbin "data/tilesets/secondary/silph_co2/metatile_attributes.bin"
