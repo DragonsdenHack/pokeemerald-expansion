@@ -2140,6 +2140,12 @@ void DoSpecialTrainerBattle(void)
         PlayMapChosenOrBattleBGM(0);
         BattleTransition_StartOnField(B_TRANSITION_MAGMA);
         break;
+	case SPECIAL_BATTLE_CUSTOM: // Player against two trainers
+		gBattleTypeFlags = BATTLE_TYPE_TRAINER | BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TWO_OPPONENTS;
+        CreateTask(Task_StartBattleAfterTransition, 1);
+        PlayMapChosenOrBattleBGM(0);
+		BattleTransition_StartOnField(GetTrainerBattleTransition());
+		break;
     case SPECIAL_BATTLE_MULTI:
         if (gSpecialVar_0x8005 & MULTI_BATTLE_2_VS_WILD) // Player + AI against wild mon
         {

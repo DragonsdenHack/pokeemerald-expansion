@@ -163,13 +163,14 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
 	special TeachMoveRelearnerMove
 	waitstate
-			showmoneybox 0, 0
-delay 15
-playse SE_SHOP
-removemoney 5000 0
-updatemoneybox
-delay 50
-hidemoneybox
+	goto_if_eq VAR_0x8004, 0, Sala_Ejecutiva_No
+	showmoneybox 0, 0
+	delay 15
+	playse SE_SHOP
+	removemoney 5000 0
+	updatemoneybox
+	delay 50
+	hidemoneybox
 	clearflag FLAG_HOENN_639
 	goto Sala_Ejecutiva_Despues
 	end

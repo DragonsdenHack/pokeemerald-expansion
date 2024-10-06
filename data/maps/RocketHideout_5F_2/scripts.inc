@@ -293,6 +293,7 @@ delay 40
 playse SE_UNLOCK
 setmetatile 7, 7, 0x335, FALSE
 setmetatile 7, 6, 0x335, FALSE
+setmetatile 8, 6, 0x334, FALSE
 setmetatile 8, 8, 0x334, FALSE
 setmetatile 8, 7, 0x334, FALSE
 setmetatile 8, 8, 0x334, FALSE
