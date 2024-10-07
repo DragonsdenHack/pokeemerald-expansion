@@ -287,8 +287,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 8,
-      "y": 18,
+      "x": 7,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -853,7 +853,7 @@
     },
     {
       "type": "secret_base",
-      "x": 40,
+      "x": 38,
       "y": 70,
       "elevation": 3,
       "secret_base_id": "SECRET_BASE_SHRUB4_1"
@@ -874,8 +874,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 16,
-      "y": 82,
+      "x": 6,
+      "y": 89,
       "elevation": 3,
       "item": "ITEM_CALCIUM",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM"
