@@ -321,6 +321,7 @@ delay 10
 setflag FLAG_HOENN_82
 setflag FLAG_HOENN_81
 setflag FLAG_HOENN_80
+clearflag FLAG_HOENN_163
 playse SE_M_DETECT
 dofieldeffectsparkle 9, 5, 0
 waitfieldeffect FLDEFF_SPARKLE

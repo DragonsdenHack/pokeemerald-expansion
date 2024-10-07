@@ -2636,4 +2636,80 @@ SilphSotano_EventScript_PiedraLink::
 finditem ITEM_CRACKED_POT
     end
 
+NaoAbandonada6_EventScript_MT120::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+LaboratorioSecreto_EventScript_MT122::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+ScorchedSlab_EventScript_MT123::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+MagmaHideout_4F_EventScript_MT128::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Casino_Malvalona_S2_EventScript_MT129::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Cueva_Regigigas_EventScript_MT131::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Torre_Pokemon_S3_EventScript_MT134::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Desierto_Hoenn_S3_EventScript_MT139::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+MtPyre_6F_EventScript_MT140::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+CinnabarLab_S2_EventScript_MT141::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Vermilion_Jardin_EventScript_MT143::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+GraniteCave_B2F_EventScript_MT144::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Lavender_Secta_EventScript_MT145::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Lavender_Secta_EventScript_MT148::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Malvalanova_EventScript_MT149::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Templo_Puntaneva_EventScript_MT151::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+MtPyre_Cima_EventScript_MT152::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Caverna_Abisal_EventScript_MT154::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+Neo_Fucsia_EventScript_MT155::
+finditem ITEM_TM50_OVERHEAT
+    end
+
 

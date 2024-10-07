@@ -140,6 +140,7 @@ removeobject 6
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_11.1
 waitmovement 0x0
+setflag FLAG_HOENN_163
 special RemoveCameraObject
 setvar VAR_UNUSED_0x40FF, 17
 release
