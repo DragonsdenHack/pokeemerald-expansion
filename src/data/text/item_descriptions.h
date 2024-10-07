@@ -1745,94 +1745,94 @@ static const u8 sFairyGemDesc[] = _(
 
 // Z-Crystals
 static const u8 sNormaliumZDesc[] = _(
-    "Upgrade Normal-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO NORMAL en\n"
+    "movimientos Z.");
 
 static const u8 sFiriumZDesc[] = _(
-    "Upgrade Fire-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO FUEGO en\n"
+    "movimientos Z.");
 
 static const u8 sWateriumZDesc[] = _(
-    "Upgrade Water-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO AGUA en\n"
+    "movimientos Z.");
 
 static const u8 sElectriumZDesc[] = _(
-    "Upgrade Electric-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO ELÉCTRICO en\n"
+    "movimientos Z.");
 
 static const u8 sGrassiumZDesc[] = _(
-    "Upgrade Grass-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO PLANTA en\n"
+    "movimientos Z.");
 
 static const u8 sIciumZDesc[] = _(
-    "Upgrade Ice-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO HIELO en\n"
+    "movimientos Z.");
 
 static const u8 sFightiniumZDesc[] = _(
-    "Upgrade Fighting-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO LUCHA en\n"
+    "movimientos Z.");
 
 static const u8 sPoisoniumZDesc[] = _(
-    "Upgrade Poison-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO VENENO en\n"
+    "movimientos Z.");
 
 static const u8 sGroundiumZDesc[] = _(
-    "Upgrade Ground-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO TIERRA en\n"
+    "movimientos Z.");
 
 static const u8 sFlyiniumZDesc[] = _(
-    "Upgrade Flying-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO VOLADOR en\n"
+    "movimientos Z.");
 
 static const u8 sPsychiumZDesc[] = _(
-    "Upgrade Psychic-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO PSÍQUICO en\n"
+    "movimientos Z.");
 
 static const u8 sBuginiumZDesc[] = _(
-    "Upgrade Bug-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO BICHO en\n"
+    "movimientos Z.");
 
 static const u8 sRockiumZDesc[] = _(
-    "Upgrade Rock-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO ROCA en\n"
+    "movimientos Z.");
 
 static const u8 sGhostiumZDesc[] = _(
-    "Upgrade Ghost-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO FANTASMA en\n"
+    "movimientos Z.");
 
 static const u8 sDragoniumZDesc[] = _(
-    "Upgrade Dragon-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO DRAGÓN en\n"
+    "movimientos Z.");
 
 static const u8 sDarkiniumZDesc[] = _(
-    "Upgrade Dark-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO SINIESTRO en\n"
+    "movimientos Z.");
 
 static const u8 sSteeliumZDesc[] = _(
-    "Upgrade Steel-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO ACERO en\n"
+    "movimientos Z.");
 
 static const u8 sFairiumZDesc[] = _(
-    "Upgrade Fairy-\n"
-    "type moves into\n"
-    "Z-Moves.");
+    "Transforma ataques\n"
+    "TIPO HADA en\n"
+    "movimientos Z.");
 
 static const u8 sPikaniumZDesc[] = _(
     "Upgrade Pikachu's\n"

@@ -4245,7 +4245,7 @@ const struct Item gItems[] =
 
     [ITEM_NORMALIUM_Z] =
     {
-        .name = _("Normalium Z"),
+        .name = _("Normastal Z"),
         .itemId = ITEM_NORMALIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4258,7 +4258,7 @@ const struct Item gItems[] =
 
     [ITEM_FIRIUM_Z] =
     {
-        .name = _("Firium Z"),
+        .name = _("Pirostal Z"),
         .itemId = ITEM_FIRIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4271,7 +4271,7 @@ const struct Item gItems[] =
 
     [ITEM_WATERIUM_Z] =
     {
-        .name = _("Waterium Z"),
+        .name = _("Hidrostal Z"),
         .itemId = ITEM_WATERIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4284,7 +4284,7 @@ const struct Item gItems[] =
 
     [ITEM_ELECTRIUM_Z] =
     {
-        .name = _("Electrium Z"),
+        .name = _("Electrostal Z"),
         .itemId = ITEM_ELECTRIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4297,7 +4297,7 @@ const struct Item gItems[] =
 
     [ITEM_GRASSIUM_Z] =
     {
-        .name = _("Grassium Z"),
+        .name = _("Fitostal Z"),
         .itemId = ITEM_GRASSIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4310,7 +4310,7 @@ const struct Item gItems[] =
 
     [ITEM_ICIUM_Z] =
     {
-        .name = _("Icium Z"),
+        .name = _("Criostal Z"),
         .itemId = ITEM_ICIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4323,7 +4323,7 @@ const struct Item gItems[] =
 
     [ITEM_FIGHTINIUM_Z] =
     {
-        .name = _("Fightinium Z"),
+        .name = _("Lizastal Z"),
         .itemId = ITEM_FIGHTINIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4336,7 +4336,7 @@ const struct Item gItems[] =
 
     [ITEM_POISONIUM_Z] =
     {
-        .name = _("Poisinium Z"),
+        .name = _("Toxistal Z"),
         .itemId = ITEM_POISONIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4349,7 +4349,7 @@ const struct Item gItems[] =
 
     [ITEM_GROUNDIUM_Z] =
     {
-        .name = _("Groundium Z"),
+        .name = _("Geostal Z"),
         .itemId = ITEM_GROUNDIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4362,7 +4362,7 @@ const struct Item gItems[] =
 
     [ITEM_FLYINIUM_Z] =
     {
-        .name = _("Flyinium Z"),
+        .name = _("Aerostal Z"),
         .itemId = ITEM_FLYINIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4375,7 +4375,7 @@ const struct Item gItems[] =
 
     [ITEM_PSYCHIUM_Z] =
     {
-        .name = _("Psychium Z"),
+        .name = _("Psicostal Z"),
         .itemId = ITEM_PSYCHIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4388,7 +4388,7 @@ const struct Item gItems[] =
 
     [ITEM_BUGINIUM_Z] =
     {
-        .name = _("Buginium Z"),
+        .name = _("Insectostal Z"),
         .itemId = ITEM_BUGINIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4401,7 +4401,7 @@ const struct Item gItems[] =
 
     [ITEM_ROCKIUM_Z] =
     {
-        .name = _("Rockium Z"),
+        .name = _("Litostal Z"),
         .itemId = ITEM_ROCKIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4414,7 +4414,7 @@ const struct Item gItems[] =
 
     [ITEM_GHOSTIUM_Z] =
     {
-        .name = _("Ghostium Z"),
+        .name = _("Espectrstal Z"),
         .itemId = ITEM_GHOSTIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4427,7 +4427,7 @@ const struct Item gItems[] =
 
     [ITEM_DRAGONIUM_Z] =
     {
-        .name = _("Dragonium Z"),
+        .name = _("Dracostal Z"),
         .itemId = ITEM_DRAGONIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4440,7 +4440,7 @@ const struct Item gItems[] =
 
     [ITEM_DARKINIUM_Z] =
     {
-        .name = _("Darkinium Z"),
+        .name = _("Nictostal Z"),
         .itemId = ITEM_DARKINIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4453,7 +4453,7 @@ const struct Item gItems[] =
 
     [ITEM_STEELIUM_Z] =
     {
-        .name = _("Steelium Z"),
+        .name = _("Metalostal Z"),
         .itemId = ITEM_STEELIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
@@ -4466,7 +4466,7 @@ const struct Item gItems[] =
 
     [ITEM_FAIRIUM_Z] =
     {
-        .name = _("Fairium Z"),
+        .name = _("Feeristal Z"),
         .itemId = ITEM_FAIRIUM_Z,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,

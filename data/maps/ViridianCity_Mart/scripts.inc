@@ -1255,3 +1255,37 @@ Johto_Centro_Mercado_6_Pokemart:
 	release
 	end
 
+Torre_Radio_Lavanda_Mercado_Z_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_Z_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_Z_Pokemart:
+    .2byte 358
+	.2byte 359
+	.2byte 360
+	.2byte 361
+	.2byte 362
+	.2byte 363
+	.2byte 364
+	.2byte 365
+	.2byte 366
+	.2byte 367
+	.2byte 368
+	.2byte 369
+	.2byte 370
+	.2byte 371
+	.2byte 372
+	.2byte 373
+	.2byte 374
+	.2byte 375
+	.2byte ITEM_NONE
+	release
+	end
+

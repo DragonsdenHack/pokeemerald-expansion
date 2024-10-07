@@ -356,3 +356,411 @@ LavenderRadioP2_Text_11:
 .string "Ningún RECLUTA común tiene acceso a\n"
 	.string "los pisos superiores, como mínimo\l"
 	.string "debes ser ALTO RANGO.$"
+
+LavenderRadioP2_Evento_Elm_Move_1:
+walk_in_place_up
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_2:
+walk_slow_up
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_2.1:
+walk_slow_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_3:
+walk_slow_left
+walk_slow_up
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_4:
+face_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_5:
+emote_exclamation_mark
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_6:
+walk_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Izq::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_1
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_2
+waitmovement 0x0
+goto LavenderRadioP2_Evento_Elm
+
+LavenderRadioP2_Evento_Elm_Der::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_1
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_3
+waitmovement 0x0
+goto LavenderRadioP2_Evento_Elm
+
+LavenderRadioP2_Evento_Elm::
+lock
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_4
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_4
+waitmovement 0x0
+playse SE_PIN
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_5
+waitmovement 0x0
+waitse
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_6
+waitmovement 0x0
+msgbox LavenderRadioP2_Evento_Elm_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_7
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_8
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_10
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_9
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_8
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_7
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_11
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_12
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_15 MSGBOX_AUTOCLOSE
+delay 30
+msgbox LavenderRadioP2_Evento_Elm_Texto_16 MSGBOX_AUTOCLOSE
+delay 30
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_14
+applymovement 12, LavenderRadioP2_Evento_Elm_Move_13
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Elm_Move_11
+waitmovement 0x0
+msgbox LavenderRadioP2_Evento_Elm_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_2.1
+waitmovement 0x0
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_10
+waitmovement 0x0
+msgbox LavenderRadioP2_Evento_Elm_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_4
+waitmovement 0x0
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_15
+waitmovement 0x0
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_16
+waitmovement 0x0
+msgbox LavenderRadioP2_Evento_Elm_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_6
+waitmovement 0x0
+msgbox LavenderRadioP2_Evento_Elm_Texto_23 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox LavenderRadioP2_Evento_Elm_Texto_24 MSGBOX_DEFAULT
+waitfanfare
+additem ITEM_Z_POWER_RING
+msgbox LavenderRadioP2_Evento_Elm_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_14
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_16
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_11
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_17
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP2_Evento_Elm_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderRadioP2_Evento_Elm_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_18
+waitmovement 0x0
+delay 25
+msgbox LavenderRadioP2_Evento_Elm_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 13, LavenderRadioP2_Evento_Elm_Move_19
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_102
+removeobject 12
+removeobject 13
+setvar VAR_UNUSED_0x40FF, 33
+waitse
+release
+end
+
+LavenderRadioP2_Evento_Elm_Move_19:
+walk_up
+walk_right
+walk_up
+face_right
+delay_8
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_18:
+walk_up
+walk_up
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_17:
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_16:
+walk_in_place_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_15:
+face_left
+delay_16
+delay_8
+face_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_13:
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_14:
+delay_16
+delay_8
+face_right
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_12:
+walk_right
+face_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_11:
+delay_16
+face_up
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_10:
+delay_16
+delay_16
+face_left
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_9:
+walk_down
+walk_left
+walk_left
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_8:
+face_down
+step_end
+
+LavenderRadioP2_Evento_Elm_Move_7:
+face_left
+step_end
+
+LavenderRadioP2_Evento_Elm_Texto_1:
+	.string "ATLAS: Será algo revolucionario,\n"
+	.string "no hay duda.$"
+
+LavenderRadioP2_Evento_Elm_Texto_2:
+	.string "ELM: ¡Ah, {PLAYER}!\n"
+	.string "Ya has llegado.$"
+
+LavenderRadioP2_Evento_Elm_Texto_3:
+	.string "ATLAS: Me alegra verte por aquí,\n"
+	.string "{PLAYER}.$"
+
+LavenderRadioP2_Evento_Elm_Texto_4:
+	.string "Tal vez tu cabeza no terminaba de\n"
+	.string "creerlo, pero ahora tus ojos los ven y lo\l"
+	.string "confirman: la TORRE RADIO ha llegado a\l"
+	.string "PUEBLO LAVANDA.$"
+
+LavenderRadioP2_Evento_Elm_Texto_5:
+	.string "Una nueva era en el entendimiento de\n"
+	.string "cómo funciona un POKÉMON se avecina.$"
+
+LavenderRadioP2_Evento_Elm_Texto_6:
+	.string "Íbamos a celebrar su inauguración en la\n"
+	.string "azotea, con una pequeña demostración\l"
+	.string "de nuestra tecnología de ondas de\l"
+	.string "radio más puntera.$"
+
+LavenderRadioP2_Evento_Elm_Texto_7:
+	.string "Pero el incidente con los MOTORISTAS ha\n"
+	.string "trastocado estos planes.$"
+
+LavenderRadioP2_Evento_Elm_Texto_8:
+	.string "La ceremonia se mantendrá, pero solo\n"
+	.string "para unos pocos.$"
+
+LavenderRadioP2_Evento_Elm_Texto_9:
+	.string "ANDRA y tú aún no habéis visto este\n"
+	.string "lugar al completo, de modo que\l"
+	.string "asistiréis a su inauguración.$"
+
+LavenderRadioP2_Evento_Elm_Texto_10:
+	.string "GIOVANNI, PETREL, KOGA y yo estaremos\n"
+	.string "ocupados; nos reuniremos con los\l"
+	.string "MOTORISTAS en ZONA SAFARI.$"
+
+LavenderRadioP2_Evento_Elm_Texto_11:
+	.string "Hemos acordado adaptar el lugar a las\n"
+	.string "nuevas condiciones que aún están por\l"
+	.string "negociar.$"
+
+LavenderRadioP2_Evento_Elm_Texto_12:
+	.string "… …$"
+
+LavenderRadioP2_Evento_Elm_Texto_13:
+	.string "Tal vez… dimos por sentado que esta era\n"
+	.string "la KANTO perfecta, la que todos\l"
+	.string "querían.$"
+
+LavenderRadioP2_Evento_Elm_Texto_14:
+	.string "Puede que, desde lo alto de esta torre,\n"
+	.string "o a decenas de metros bajo tierra, nos\l"
+	.string "sea más difícil ver la realidad a pie de\l"
+	.string "calle.$"
+
+LavenderRadioP2_Evento_Elm_Texto_15:
+	.string "No obstante, nada de lo dicho anula una\n"
+	.string "verdad elemental, más poderosa que\l"
+	.string "cualquier conjetura.$"
+
+LavenderRadioP2_Evento_Elm_Texto_16:
+	.string "El progreso es imposible sin cambio.$"
+
+LavenderRadioP2_Evento_Elm_Texto_17:
+	.string "ELM: ATLAS tiene razón. Todo lo que\n"
+	.string "aquí hemos logrado no hubiera sido\l"
+	.string "posible sin sacrificios.$"
+
+LavenderRadioP2_Evento_Elm_Texto_18:
+	.string "¿Recuerdas el día que nos conocimos?\n"
+	.string "Acababas de pisar JOHTO por primera\l"
+	.string "vez.$"
+
+LavenderRadioP2_Evento_Elm_Texto_19:
+	.string "Ya tenías muchas vivencias y\n"
+	.string "experiencias a tus espaldas.$"
+
+LavenderRadioP2_Evento_Elm_Texto_20:
+	.string "A pesar de ello, has seguido creciendo\n"
+	.string "más y más.$"
+
+LavenderRadioP2_Evento_Elm_Texto_21:
+	.string "Es sorprendente, pero… tu progreso\n"
+	.string "como ENTRENADOR ha sido proporcional\l"
+	.string "al de todos nuestros avances.$"
+
+LavenderRadioP2_Evento_Elm_Texto_22:
+	.string "Ese día te di la MEGAPULSERA,\n"
+	.string "¿recuerdas? En ese entonces, era lo\l"
+	.string "último en tecnología.$"
+
+LavenderRadioP2_Evento_Elm_Texto_23:
+	.string "Ahora, poco más de un año después, me\n"
+	.string "complace volver a hacerte entrega de lo\l"
+	.string "más puntero del momento.$"
+
+LavenderRadioP2_Evento_Elm_Texto_24:
+	.string "¡Has obtenido una PULSERA Z!$"
+
+LavenderRadioP2_Evento_Elm_Texto_25:
+	.string "Imita los efectos de un poderoso\n"
+	.string "artefacto, característico de una\l"
+	.string "lejana región. Con él podrás ejecutar\l"
+	.string "una fabulosa mecánica en combate.$"
+
+LavenderRadioP2_Evento_Elm_Texto_26:
+	.string "Me consta que DEVON ya había logrado\n"
+	.string "sintetizarla antes.$"
+
+LavenderRadioP2_Evento_Elm_Texto_27:
+	.string "Gracias a la PULSERA Z, y llevando el\n"
+	.string "respectivo CRISTAL Z equipado en tu\l"
+	.string "POKÉMON, podrás ejecutar un movimiento\l"
+	.string "de una potencia excepcional.$"
+
+LavenderRadioP2_Evento_Elm_Texto_28:
+	.string "En el piso de arriba podrás comprar\n"
+	.string "todos los movimientos Z elementales.$"
+
+LavenderRadioP2_Evento_Elm_Texto_29:
+	.string "A partir de ahora, será una nueva\n"
+	.string "variable a tener en cuenta.$"
+
+LavenderRadioP2_Evento_Elm_Texto_30:
+	.string "Algo… peligroso e impredecible, capaz de\n"
+	.string "abrir huecos en muchos equipos que\l"
+	.string "hasta ahora considerábamos sólidos.$"
+
+LavenderRadioP2_Evento_Elm_Texto_31:
+	.string "Solo espero que… tal y como has hecho\n"
+	.string "hasta ahora, no te quedes atrás, que\l"
+	.string "seas capaz de adaptarte. Me entiendes,\l"
+	.string "¿verdad?$"
