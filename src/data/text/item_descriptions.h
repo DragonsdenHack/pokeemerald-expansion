@@ -1175,89 +1175,89 @@ static const u8 sPurpleNectarDesc[] = _(
 
 // Plates
 static const u8 sFlamePlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Fire-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO FUEGO.");
 
 static const u8 sSplashPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Water-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO AGUA.");
 
 static const u8 sZapPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of Elec-\n"
-    "tric-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO ELÉCTRICO.");
 
 static const u8 sMeadowPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Grass-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO PLANTA.");
 
 static const u8 sIciclePlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Ice-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO HIELO.");
 
 static const u8 sFistPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of Fight-\n"
-    "ing-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO LUCHA.");
 
 static const u8 sToxicPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Poison-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO VENENO.");
 
 static const u8 sEarthPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Ground-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO TIERRA.");
 
 static const u8 sSkyPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Flying-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO VOLADOR.");
 
 static const u8 sMindPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of Psy\n"
-    "chic-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO PSÍQUICO.");
 
 static const u8 sInsectPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Bug-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO BICHO.");
 
 static const u8 sStonePlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Rock-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO ROCA.");
 
 static const u8 sSpookyPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Ghost-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO FANTASMA.");
 
 static const u8 sDracoPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Dragon-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO DRAGÓN.");
 
 static const u8 sDreadPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Dark-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO SINIESTRO.");
 
 static const u8 sIronPlateDesc[] = _(
-    "A tablet that ups\n"
-    "the power of\n"
-    "Steel-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO ACERO.");
 
 static const u8 sPixiePlateDesc[] = _(
-    "A stone tablet that\n"
-    "boosts the power of\n"
-    "Fairy-type moves.");
+    "Lámina antigua, de\n"
+    "origen desconocido.\n"
+    "+30% TIPO HADA.");
 
 // Drives
 static const u8 sDouseDriveDesc[] = _(

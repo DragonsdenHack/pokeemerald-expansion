@@ -2831,11 +2831,11 @@ const struct Item gItems[] =
 
     [ITEM_FLAME_PLATE] =
     {
-        .name = _("Flame Plate"),
+        .name = _("Tabla Llama"),
         .itemId = ITEM_FLAME_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sFlamePlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2845,11 +2845,11 @@ const struct Item gItems[] =
 
     [ITEM_SPLASH_PLATE] =
     {
-        .name = _("Splash Plate"),
+        .name = _("Tabla Linfa"),
         .itemId = ITEM_SPLASH_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sSplashPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2859,11 +2859,11 @@ const struct Item gItems[] =
 
     [ITEM_ZAP_PLATE] =
     {
-        .name = _("Zap Plate"),
+        .name = _("Tabla Trueno"),
         .itemId = ITEM_ZAP_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sZapPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2873,11 +2873,11 @@ const struct Item gItems[] =
 
     [ITEM_MEADOW_PLATE] =
     {
-        .name = _("Meadow Plate"),
+        .name = _("Tabla Pradal"),
         .itemId = ITEM_MEADOW_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sMeadowPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2887,11 +2887,11 @@ const struct Item gItems[] =
 
     [ITEM_ICICLE_PLATE] =
     {
-        .name = _("Icicle Plate"),
+        .name = _("Tabla Helada"),
         .itemId = ITEM_ICICLE_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sIciclePlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2901,11 +2901,11 @@ const struct Item gItems[] =
 
     [ITEM_FIST_PLATE] =
     {
-        .name = _("Fist Plate"),
+        .name = _("Tabla Fuerte"),
         .itemId = ITEM_FIST_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sFistPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2915,11 +2915,11 @@ const struct Item gItems[] =
 
     [ITEM_TOXIC_PLATE] =
     {
-        .name = _("Toxic Plate"),
+        .name = _("Tabla Tóxica"),
         .itemId = ITEM_TOXIC_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sToxicPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2929,11 +2929,11 @@ const struct Item gItems[] =
 
     [ITEM_EARTH_PLATE] =
     {
-        .name = _("Earth Plate"),
+        .name = _("Tabla Terrax"),
         .itemId = ITEM_EARTH_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sEarthPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2943,11 +2943,11 @@ const struct Item gItems[] =
 
     [ITEM_SKY_PLATE] =
     {
-        .name = _("Sky Plate"),
+        .name = _("Tabla Cielo"),
         .itemId = ITEM_SKY_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sSkyPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2957,11 +2957,11 @@ const struct Item gItems[] =
 
     [ITEM_MIND_PLATE] =
     {
-        .name = _("Mind Plate"),
+        .name = _("Tabla Mental"),
         .itemId = ITEM_MIND_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sMindPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2971,11 +2971,11 @@ const struct Item gItems[] =
 
     [ITEM_INSECT_PLATE] =
     {
-        .name = _("Insect Plate"),
+        .name = _("Tabla Bicho"),
         .itemId = ITEM_INSECT_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sInsectPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2985,11 +2985,11 @@ const struct Item gItems[] =
 
     [ITEM_STONE_PLATE] =
     {
-        .name = _("Stone Plate"),
+        .name = _("Tabla Pétrea"),
         .itemId = ITEM_STONE_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sStonePlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2999,11 +2999,11 @@ const struct Item gItems[] =
 
     [ITEM_SPOOKY_PLATE] =
     {
-        .name = _("Spooky Plate"),
+        .name = _("Tabla Terror"),
         .itemId = ITEM_SPOOKY_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sSpookyPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -3013,11 +3013,11 @@ const struct Item gItems[] =
 
     [ITEM_DRACO_PLATE] =
     {
-        .name = _("Draco Plate"),
+        .name = _("Tabla Draco"),
         .itemId = ITEM_DRACO_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sDracoPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -3027,11 +3027,11 @@ const struct Item gItems[] =
 
     [ITEM_DREAD_PLATE] =
     {
-        .name = _("Dread Plate"),
+        .name = _("Tabla Oscura"),
         .itemId = ITEM_DREAD_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sDreadPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -3041,11 +3041,11 @@ const struct Item gItems[] =
 
     [ITEM_IRON_PLATE] =
     {
-        .name = _("Iron Plate"),
+        .name = _("Tabla Acero"),
         .itemId = ITEM_IRON_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sIronPlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -3055,11 +3055,11 @@ const struct Item gItems[] =
 
     [ITEM_PIXIE_PLATE] =
     {
-        .name = _("Pixie Plate"),
+        .name = _("Tabla Duende"),
         .itemId = ITEM_PIXIE_PLATE,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
-        .holdEffectParam = 20,
+        .holdEffectParam = 30,
         .description = sPixiePlateDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
