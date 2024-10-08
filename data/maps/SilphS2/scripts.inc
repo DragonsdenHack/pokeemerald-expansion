@@ -413,6 +413,38 @@ SilphS2_Text_20:
 .string "{PAUSE 15}…{PAUSE 15}\l"
 .string "¡Estás en lo cierto!$"
 
+SilphS2_Text_20_EventScript_TM132::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_171, SilphS2_Text_20_EventScript_ReceivedTM33
+	msgbox SilphS2_Text_20_Text_TM33, MSGBOX_DEFAULT
+	giveitem ITEM_TM33
+	setflag FLAG_HOENN_171
+	msgbox SilphS2_Text_20_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+SilphS2_Text_20_EventScript_ReceivedTM33::
+	msgbox SilphS2_Text_20_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+SilphS2_Text_20_Text_TM33:
+.string "¿Crees que estoy maquinando algún\n"
+.string "plan maléfico?\l"
+.string "¿O creando algún Pokémon\l"
+.string "invencible desde mi computadora?\l"
+.string "{PAUSE 15}…{PAUSE 15}\l"
+.string "¡Estás en lo cierto!$"
+
+SilphS2_Text_20_Text_ExplainTM33:
+	.string "Con MAQUINACIÓN elevarás\n"
+	.string "drásticamente el ATAQUE ESPECIAL\l"
+	.string "del POKÉMON que lo ejecute.\l"
+	.string "Es sorprendente lo que puede\l"
+	.string "lograr uno por su propia cuenta.\l"
+	.string "¿No crees?$"
+
 
 
 SilphS2_21::

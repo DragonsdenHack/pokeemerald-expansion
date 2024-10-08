@@ -149,3 +149,33 @@ Route119_WeatherInstitute_1F_Tipo_Texto_1:
 	.string	"investigación que están realizando\l"
 	.string	"aquí.$"
 
+Route119_WeatherInstitute_1F_EventScript_TM136::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_173, Route119_WeatherInstitute_1F_EventScript_ReceivedTM136
+	msgbox Route119_WeatherInstitute_1F_Text_TM136, MSGBOX_DEFAULT
+	giveitem ITEM_TM33
+	setflag FLAG_HOENN_173
+	msgbox Route119_WeatherInstitute_1F_Text_ExplainTM136, MSGBOX_DEFAULT
+	release
+	end
+
+Route119_WeatherInstitute_1F_EventScript_ReceivedTM136::
+	msgbox Route119_WeatherInstitute_1F_Text_ExplainTM136, MSGBOX_DEFAULT
+	release
+	end
+
+Route119_WeatherInstitute_1F_Text_TM136:
+.string "Sería todo un logro usar a nuestro\n"
+.string "favor los fenómenos metereológicos, ¿no?\l"
+.string "Lo cierto es que esto, de forma\l"
+.string "parcial, lo hemos logrado.\l"
+.string "¡Mira!$"
+
+Route119_WeatherInstitute_1F_Text_ExplainTM136:
+	.string "METEOROBOLA es un movimiento\n"
+	.string "mediocre por sí sola.\l"
+	.string "Sin embargo, bajo condiciones\l"
+	.string "climáticas, dobla su poder y se\l"
+	.string "adapta al tipo del clima en cuestión.$"
+

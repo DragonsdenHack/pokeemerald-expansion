@@ -85,3 +85,45 @@ RS_MysteryEventsHouse_Text_BattleLost:
 	.string "Ah, too bad for you!\p"
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"
+
+Mossdeep_EventScript_TM153::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_175, Mossdeep_EventScript_ReceivedTM153
+	msgbox Mossdeep_Text_TM153, MSGBOX_DEFAULT
+	giveitem ITEM_TM33
+	setflag FLAG_HOENN_175
+	msgbox Mossdeep_Text_ExplainTM153, MSGBOX_DEFAULT
+	release
+	end
+
+Mossdeep_EventScript_ReceivedTM153::
+	msgbox Mossdeep_Text_ExplainTM153, MSGBOX_DEFAULT
+	release
+	end
+
+Mossdeep_Text_TM153:
+.string "Este lugar ofrecía antes fabulosos\n"
+.string "premios, antes de que el CASINO\l"
+.string "MALVALONA acabara con la competencia.\l"
+.string "Aún conservo algunos de ellos.\l"
+.string "¡Te daré este!$"
+
+Mossdeep_Text_ExplainTM153:
+	.string "PSICO CORTE es de los pocos\n"
+	.string "movimientos PSÍQUICO que no\l"
+	.string "son especiales.\l"
+	.string "Pero aún siendo físico, no\l"
+	.string "establece contacto con el rival.$"
+
+Mossdeep_Casino::
+lock
+msgbox Mossdeep_Casino_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Mossdeep_Casino_Texto_1:
+	.string "¡Buenas tardes! Ahora mismo el\n"
+	.string "lugar está cerrado, los últimos\l"
+	.string "tiempos nos han obligado a\l"
+	.string "replantear nuestro negocio.$"

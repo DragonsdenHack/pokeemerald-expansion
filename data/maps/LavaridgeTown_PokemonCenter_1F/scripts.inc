@@ -49,3 +49,33 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string	"Los POKéMON descansan, ¿no?\n"
 	.string	"Pues los ENTRENADORES también.$"
 
+LavaridgeTown_PokemonCenter_1F_EventScript_TM133::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_172, LavaridgeTown_PokemonCenter_1F_EventScript_ReceivedTM133
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TM133, MSGBOX_DEFAULT
+	giveitem ITEM_TM33
+	setflag FLAG_HOENN_172
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133, MSGBOX_DEFAULT
+	release
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_ReceivedTM133::
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133, MSGBOX_DEFAULT
+	release
+	end
+
+LavaridgeTown_PokemonCenter_1F_Text_TM133:
+.string "¡Ouch!\n"
+.string "¡Creo que me ha dado un\l"
+.string "golpe de calor!\l"
+.string "¡Ten cuidado con los baños\l"
+.string "termales, jovencito!$"
+
+LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133:
+	.string "GOLPE CALOR hará daño en\n"
+	.string "en función del peso de tu\l"
+	.string "POKÉMON y el de tu rival.\l"
+	.string "Cuanto más pesado sea el tuyo,\l"
+	.string "¡más daño hará!$"
+

@@ -2712,4 +2712,12 @@ Neo_Fucsia_EventScript_MT155::
 finditem ITEM_TM50_OVERHEAT
     end
 
+SafariZone_Northwest_EventScript_MT157::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+SafariZone_Northwest_EventScript_MT160::
+finditem ITEM_TM50_OVERHEAT
+    end
+
 
