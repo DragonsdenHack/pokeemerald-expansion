@@ -2720,4 +2720,72 @@ SafariZone_Northwest_EventScript_MT160::
 finditem ITEM_TM50_OVERHEAT
     end
 
+CultoS8_EventScript_TablaOscura::
+finditem ITEM_DREAD_PLATE
+    end
+
+Volcan_EventScript_TablaFuego::
+finditem ITEM_FLAME_PLATE
+    end
+
+Nao_EventScript_TablaAgua::
+finditem ITEM_SPLASH_PLATE
+    end
+
+Malvalanova_EventScript_TablaElectrica::
+finditem ITEM_ZAP_PLATE
+    end
+
+Ruta26_EventScript_TablaPlanta::
+finditem ITEM_MEADOW_PLATE
+    end
+
+Puntaneva_EventScript_TablaHielo::
+finditem ITEM_ICICLE_PLATE
+    end
+
+MtMortero_EventScript_TablaLucha::
+finditem ITEM_FIST_PLATE
+    end
+
+ExCampeonVeneno_EventScript_TablaVeneno::
+finditem ITEM_TOXIC_PLATE
+    end
+
+Fosa_Wrongsparce_EventScript_TablaTierra::
+finditem ITEM_EARTH_PLATE
+    end
+
+Pilar_Celeste_EventScript_TablaVolador::
+finditem ITEM_SKY_PLATE
+    end
+
+Pilar_Dun_EventScript_TablaPsiquico::
+finditem ITEM_MIND_PLATE
+    end
+
+ViasTren_EventScript_TablaBicho::
+finditem ITEM_INSECT_PLATE
+    end
+
+CuevaGranito_EventScript_TablaRoca::
+finditem ITEM_STONE_PLATE
+    end
+
+CultoLavanda_EventScript_TablaFantasma::
+finditem ITEM_SPOOKY_PLATE
+    end
+
+GuaridaDragon_EventScript_TablaDragon::
+finditem ITEM_DRACO_PLATE
+    end
+
+Ruta120_EventScript_TablaAcero::
+finditem ITEM_IRON_PLATE
+    end
+
+Cerezo_EventScript_TablaHada::
+finditem ITEM_PIXIE_PLATE
+    end
+
 

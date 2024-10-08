@@ -1923,10 +1923,10 @@ const u8 gText_Carmin[] = _("CIUDAD CARMIN");
 const u8 gText_Mas2[] = _("MAS DESTINOS");	
 const u8 gText_MasterBall[] = _("MASTER BALL           300000¥");
 const u8 gText_PiedraRocket[] = _("PIEDRA ROCKET     2500000¥");
-const u8 gText_Buneary[] = _("BUNEARY       14000¥");
+const u8 gText_Buneary[] = _("BUNEARY        14000¥");
 const u8 gText_Croagunk[] = _("CROAGUNK      25000¥");
-const u8 gText_Budew[] = _("BUDEW          29000¥");
-const u8 gText_Hippopotas[] = _("HIPPOPOTAS 33000¥");
-const u8 gText_Shieldon[] = _("SHIELDON     110000¥");
-const u8 gText_Larvitar[] = _("LARVITAR     170000¥");
+const u8 gText_Budew[] = _("BUDEW            29000¥");
+const u8 gText_Hippopotas[] = _("HIPPOPOTAS  33000¥");
+const u8 gText_Shieldon[] = _("SHIELDON      110000¥");
+const u8 gText_Larvitar[] = _("LARVITAR      170000¥");
 //#endif
