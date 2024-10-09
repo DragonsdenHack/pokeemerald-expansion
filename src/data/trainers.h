@@ -19954,9 +19954,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_580] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_DOMADOR_HOENN,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .trainerPic = TRAINER_PIC_TAMER,
+        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
+        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
         .trainerName = _("ARNAU"),
         .items = {},
         .doubleBattle = FALSE,

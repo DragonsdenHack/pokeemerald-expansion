@@ -333,8 +333,8 @@ EventScript_Cyndaquil_Texto_1:
 	.string "Costará 4.200 FICHAS.$"
 
 EventScript_Larvitar_Texto_1:
-.string "¿Quieres un LARVITAR?\n"
-	.string "Costará 5.500 FICHAS.$"
+.string "¿Quieres un HITMONTOP?\n"
+	.string "Costará 4.500 FICHAS.$"
 
 EventScript_Bagon::
 lock

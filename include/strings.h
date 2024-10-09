@@ -3122,6 +3122,14 @@ extern const u8 gText_Sudowoodo[];
 extern const u8 gText_Cyndaquil[];
 extern const u8 gText_Hitmontop[];
 
+// Venta Pokemon Malvalona
+extern const u8 gText_Trubbish[];
+extern const u8 gText_Glameow[];
+extern const u8 gText_Stunky[];
+extern const u8 gText_Blitzle[];
+extern const u8 gText_Purrloin[];
+extern const u8 gText_Treecko[];
+
 // Islas
 extern const u8 gText_Carmin[];
 extern const u8 gText_Prima[];

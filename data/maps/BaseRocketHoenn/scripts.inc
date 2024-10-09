@@ -2103,6 +2103,7 @@ setmetatile 18, 21, 0x335, FALSE
 setmetatile 18, 22, 0x335, FALSE
 setmetatile 19, 22, 0x334, FALSE
 setmetatile 19, 21, 0x334, FALSE
+setmetatile 19, 23, 0x281, FALSE
 special DrawWholeMapView
 delay 60
 release

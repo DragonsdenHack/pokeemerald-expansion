@@ -8,6 +8,12 @@ MauvilleCity_GameCorner_MapScripts::
 	.set TM24_COINS,  4000
 	.set TM13_COINS,  4000
 	.set DOLL_COINS,  1000
+	.set TRUBBISH_COINS,       1200
+	.set GLAMEOW_COINS,        1500
+	.set STUNKY_COINS,         1800
+	.set BLITZLE_COINS,        2500
+	.set PURRLOIN_COINS,       3000
+	.set TREECKO_COINS,        8000
 
 	.set COINS_PRICE_50,  1000
 	.set COINS_PRICE_500, 10000
@@ -969,4 +975,167 @@ MauvilleCity_GameCorner_Cartel_Texto_2:
 
 MauvilleCity_GameCorner_Cartel_Texto_3:
 	.string "¿Pulsarlo?$"
+
+Mauville_Pokemon_Items::
+lock
+faceplayer
+checkitem ITEM_COIN_CASE
+goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NeedCoinCase
+msgbox Goldenrod_Underground_Items_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Goldenrod_Underground_Items_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_POKEMON_MALVALONA, 0
+switch VAR_RESULT
+case 0, EventScript_Trubbish
+case 1, EventScript_Glameow
+case 2, EventScript_Stunky
+case 3, EventScript_Blitzle
+case 4, EventScript_Purrloin
+case 5, EventScript_Treecko
+release
+end
+
+EventScript_Trubbish::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 6
+msgbox EventScript_Trubbish_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, TRUBBISH_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins TRUBBISH_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_TRUBBISH, 29, ITEM_NONE
+release
+end
+
+EventScript_Glameow::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 7
+msgbox EventScript_Shuckle_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, GLAMEOW_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins GLAMEOW_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_GLAMEOW, 32, ITEM_NONE
+release
+end
+
+EventScript_Stunky::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 8
+msgbox EventScript_Stunky_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, STUNKY_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins STUNKY_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_STUNKY, 33, ITEM_NONE
+release
+end
+
+EventScript_Blitzle::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 9
+msgbox EventScript_Blitzle_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, BLITZLE_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins BLITZLE_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_BLITZLE, 26, ITEM_NONE
+release
+end
+
+EventScript_Purrloin::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 10
+msgbox EventScript_Purrloin_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, PURRLOIN_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins PURRLOIN_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_PURRLOIN, 19, ITEM_NONE
+release
+end
+
+EventScript_Treecko::
+lock
+showcoinsbox 0, 0
+setvar VAR_TEMP_1, 10
+msgbox EventScript_Treecko_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Fichas_No
+checkcoins VAR_TEMP_2
+goto_if_lt VAR_TEMP_2, TREECKO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
+delay 15
+playse SE_SHOP
+removecoins TREECKO_COINS
+updatecoinsbox 1, 1
+waitse
+delay 50
+hidemoneybox
+givemon SPECIES_TREECKO, 15, ITEM_NONE
+release
+end
+
+EventScript_Trubbish_Texto_1:
+.string "¿Quieres un TRUBBISH?\n"
+	.string "Costará 1.200 FICHAS.$"
+
+EventScript_Glameow_Texto_1:
+.string "¿Quieres un GLAMEOW?\n"
+	.string "Costará 1.500 FICHAS.$"
+
+EventScript_Stunky_Texto_1:
+.string "¿Quieres un STUNKY?\n"
+	.string "Costará 1.800 FICHAS.$"
+
+EventScript_Blitzle_Texto_1:
+.string "¿Quieres un BLITZLE?\n"
+	.string "Costará 2.500 FICHAS.$"
+
+EventScript_Purrloin_Texto_1:
+.string "¿Quieres un PURRLOIN?\n"
+	.string "Costará 3.000 FICHAS.$"
+
+EventScript_Treecko_Texto_1:
+.string "¿Quieres un TREECKO?\n"
+	.string "Costará 8.000 FICHAS.$"
 

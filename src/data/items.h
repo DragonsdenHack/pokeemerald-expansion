@@ -1560,7 +1560,7 @@ const struct Item gItems[] =
     {
         .name = _("Polvoestelar"),
         .itemId = ITEM_STARDUST,
-        .price = 3000,
+        .price = 5000,
         .description = sStardustDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -1745,7 +1745,7 @@ const struct Item gItems[] =
 
     [ITEM_RELIC_VASE] = // Todo
     {
-        .name = _("Anfora"),
+        .name = _("Ánf.Antigua"),
         .itemId = ITEM_RELIC_VASE,
         .price = 50000,
         .description = sRelicVaseDesc,
@@ -1756,7 +1756,7 @@ const struct Item gItems[] =
 
     [ITEM_RELIC_BAND] = // Todo
     {
-        .name = _("Brazal"),
+        .name = _("B.Antiguo"),
         .itemId = ITEM_RELIC_BAND,
         .price = 60000,
         .description = sRelicBandDesc,
@@ -1767,7 +1767,7 @@ const struct Item gItems[] =
 
     [ITEM_RELIC_STATUE] = // Todo
     {
-        .name = _("Efigie Ant"),
+        .name = _("Efig.Antigua"),
         .itemId = ITEM_RELIC_STATUE,
         .price = 64000,
         .description = sRelicStatueDesc,

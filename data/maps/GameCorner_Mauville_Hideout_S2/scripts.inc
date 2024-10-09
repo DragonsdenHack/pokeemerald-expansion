@@ -471,3 +471,53 @@ GameCorner_Mauville_Llave_S2_Texto_1:
 
 GameCorner_Mauville_Llave_S2_Texto_2:
 	.string "¿Quieres usar la LLAVE S2?$"
+
+GameCorner_Mauville_NPC16_Cientifico::
+lock
+faceplayer
+msgbox GameCorner_Mauville_NPC16_Cientifico_Texto_1 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_NPC16_Cientifico_Texto_2 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_NPC16_Cientifico_Texto_3 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_NPC16_Cientifico_Texto_1:
+	.string "El modelo de ventas que la dueña del\n"
+	.string "CASINO MALVALONA planteó es genial.$"
+
+GameCorner_Mauville_NPC16_Cientifico_Texto_2:
+	.string "Por un lado POKÉMON exóticos, que en\n"
+	.string "HOENN no existen ni en la ZONA SAFARI.$"
+
+GameCorner_Mauville_NPC16_Cientifico_Texto_3:
+	.string "Por otro, nuestro POKÉMON estrella es\n"
+	.string "endémico y a la vez extremadamente\l"
+	.string "raro de conseguir en la región: TREECKO.$"
+
+GameCorner_Mauville_NPC17_Electricista::
+lock
+faceplayer
+msgbox GameCorner_Mauville_NPC17_Electricista_Texto_1 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_NPC17_Electricista_Texto_2 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_NPC17_Electricista_Texto_3 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_NPC17_Electricista_Texto_1:
+	.string "Algunos críticos de este CASINO dicen\n"
+	.string "que solo vendemos basura.$"
+
+GameCorner_Mauville_NPC17_Electricista_Texto_2:
+	.string "Técnicamente están en lo cierto, pero\n"
+	.string "TRUBBISH puede convertirse en un buen\l"
+	.string "POKÉMON.$"
+
+GameCorner_Mauville_NPC17_Electricista_Texto_3:
+	.string "Lo que en realidad ocurre es que muchos\n"
+	.string "están en contra de meter nuevas\l"
+	.string "especies en HOENN, ya que podría\l"
+	.string "afectar a su fauna y flora.$"

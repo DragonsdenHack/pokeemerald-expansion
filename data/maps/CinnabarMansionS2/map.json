@@ -117,6 +117,58 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CinnabarLab_S2_EventScript_MT141",
       "flag": "FLAG_HOENN_159"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 30,
+      "y": 25,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Mansion_S2_EventScript_MasterBall",
+      "flag": "FLAG_HOENN_257"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 9,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Mansion_S2_EventScript_PiedraLink",
+      "flag": "FLAG_HOENN_258"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 14,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Mansion_S2_EventScript_MaxPP",
+      "flag": "FLAG_HOENN_259"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 1,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Mansion_S2_EventScript_RestauraTodo",
+      "flag": "FLAG_HOENN_260"
     }
   ],
   "warp_events": [
@@ -212,6 +264,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CinnabarMansionS2Documento_105"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 24,
+      "elevation": 3,
+      "item": "ITEM_BIG_NUGGET",
+      "flag": "FLAG_HOENN_261"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 24,
+      "elevation": 3,
+      "item": "ITEM_ELIXIR",
+      "flag": "FLAG_HOENN_262"
     }
   ]
 }

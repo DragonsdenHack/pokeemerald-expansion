@@ -16,7 +16,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_CRIADORJOHTO",
-      "x": 14,
+      "x": 12,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -29,7 +29,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
-      "x": 7,
+      "x": 5,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -42,7 +42,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
-      "x": 10,
+      "x": 8,
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -55,8 +55,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
-      "x": 10,
-      "y": 15,
+      "x": 8,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -68,7 +68,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
-      "x": 11,
+      "x": 9,
       "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -81,7 +81,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
-      "x": 22,
+      "x": 20,
       "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
@@ -94,7 +94,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 26,
+      "x": 24,
       "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -104,11 +104,24 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Vermilion_Jardin_EventScript_MT143",
       "flag": "FLAG_HOENN_160"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 5,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Vermilion_Secundaria_EventScript_PiedraSolar",
+      "flag": "FLAG_HOENN_273"
     }
   ],
   "warp_events": [
     {
-      "x": 7,
+      "x": 5,
       "y": 25,
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY_SECUNDARIA",
@@ -118,7 +131,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 7,
+      "x": 5,
       "y": 25,
       "elevation": 0,
       "var": "VAR_TEMP_0",
@@ -129,7 +142,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 15,
+      "x": 13,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_TIMID_MINT",
@@ -137,7 +150,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 13,
+      "x": 11,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_CALM_MINT",
@@ -145,7 +158,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 11,
+      "x": 9,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_MODEST_MINT",
@@ -153,7 +166,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 7,
+      "x": 5,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_LONELY_MINT",
@@ -161,7 +174,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 13,
+      "x": 11,
       "y": 10,
       "elevation": 3,
       "item": "ITEM_TAMATO_BERRY",
@@ -169,7 +182,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 9,
+      "x": 7,
       "y": 10,
       "elevation": 3,
       "item": "ITEM_GREPA_BERRY",
@@ -177,7 +190,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
+      "x": 12,
       "y": 9,
       "elevation": 3,
       "item": "ITEM_HONDEW_BERRY",
@@ -185,7 +198,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 12,
+      "x": 10,
       "y": 9,
       "elevation": 3,
       "item": "ITEM_QUALOT_BERRY",
@@ -193,7 +206,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 10,
+      "x": 8,
       "y": 9,
       "elevation": 3,
       "item": "ITEM_KELPSY_BERRY",
@@ -201,7 +214,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 8,
+      "x": 6,
       "y": 9,
       "elevation": 3,
       "item": "ITEM_POMEG_BERRY",
@@ -209,7 +222,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 9,
+      "x": 7,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_BOLD_MINT",
@@ -217,7 +230,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 19,
+      "x": 17,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_RELAXED_MINT",
@@ -225,7 +238,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 25,
+      "x": 23,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_NAIVE_MINT",
@@ -233,7 +246,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 23,
+      "x": 21,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_SASSY_MINT",
@@ -241,7 +254,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 21,
+      "x": 19,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_QUIET_MINT",
@@ -249,7 +262,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 17,
+      "x": 15,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_BRAVE_MINT",
@@ -257,7 +270,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 21,
+      "x": 19,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_RASH_MINT",
@@ -265,7 +278,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 19,
+      "x": 17,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_LAX_MINT",
@@ -273,7 +286,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 17,
+      "x": 15,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_NAUGHTY_MINT",
@@ -281,7 +294,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 15,
+      "x": 13,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_HASTY_MINT",
@@ -289,7 +302,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 13,
+      "x": 11,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_GENTLE_MINT",
@@ -297,7 +310,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 11,
+      "x": 9,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_MILD_MINT",
@@ -305,7 +318,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 9,
+      "x": 7,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_IMPISH_MINT",
@@ -313,7 +326,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 7,
+      "x": 5,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_ADAMANT_MINT",
@@ -321,7 +334,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 25,
+      "x": 23,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_JOLLY_MINT",
@@ -329,7 +342,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 23,
+      "x": 21,
       "y": 7,
       "elevation": 3,
       "item": "ITEM_CAREFUL_MINT",

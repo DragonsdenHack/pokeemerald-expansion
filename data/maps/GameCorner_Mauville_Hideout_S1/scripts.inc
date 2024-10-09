@@ -209,8 +209,7 @@ GameCorner_Mauville_Hideout_S1_NPC11_Domador_Texto_1:
 	.string "a criar varios de sus POKÉMON, por un\l"
 	.string "módico precio. Con lo ambiciosa que es\l"
 	.string "la dueña del CASINO, no me extrañaría\l"
-	.string "que acabara comprando también la\l"
-	.string "GUARDERÍA.$"
+	.string "que acabara comprándola.$"
 
 
 
@@ -225,6 +224,45 @@ GameCorner_Mauville_Hideout_S1_NPC12_Cientifico_Texto_1:
 	.string "Dicen que los casinos de KANTO y JOHTO\n"
 	.string "están bien, ¡pero no creo que tengan\l"
 	.string "una base secreta como la nuestra!$"
+
+GameCorner_Mauville_Hideout_S1_NPC16_Domador::
+lock
+faceplayer
+msgbox GameCorner_Mauville_Hideout_S1_NPC16_Domador_Texto_1 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_Hideout_S1_NPC16_Domador_Texto_1:
+	.string "Nuestra JEFA tiene fijación por los\n"
+	.string "tipos VENENO y SINIESTRO. Es por eso\l"
+	.string "que varios de los premios en el CASINO\l"
+	.string "lo son.$"
+
+GameCorner_Mauville_Hideout_S1_NPC17_Cientifico::
+lock
+faceplayer
+msgbox GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_1 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_2 MSGBOX_NPC
+delay 10
+msgbox GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_3 MSGBOX_NPC
+release
+end
+
+GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_1:
+	.string "Esos estúpidos investigadores están\n"
+	.string "en contra de que un POKÉMON como\l"
+	.string "TREECKO se venda en un CASINO.$"
+
+GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_2:
+	.string "Pero lo que no dicen es que solo lo\n"
+	.string "quieren para ellos y para los niños\l"
+	.string "mimados con privilegios.$"
+
+GameCorner_Mauville_Hideout_S1_NPC17_Cientifico_Texto_3:
+	.string "La realidad es que el negocio manda. Si\n"
+	.string "puedes pagar lo que vale, ¿por qué no\l"
+	.string "habrías de tenerlo?$"
 
 
 

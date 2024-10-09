@@ -909,9 +909,19 @@ static const struct MenuAction MultichoiceList_PokemonTrigal[] =
     {gText_Cyndaquil},
     {gText_Hitmontop},
     {gText_Exit},
-
-
     
+};
+
+static const struct MenuAction MultichoiceList_PokemonMalvalona[] =
+{
+    {gText_Trubbish},
+    {gText_Glameow},
+    {gText_Stunky},
+    {gText_Blitzle},
+    {gText_Purrloin},
+    {gText_Treecko},
+    {gText_Exit},
+
 };
 
 static const struct MenuAction MultichoiceList_Islas[] =
@@ -1204,6 +1214,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_CELADON_ASCENSOR]                     = MULTICHOICE(MultichoiceList_CeladonAscensor),
 	[MULTI_SILPH_ASCENSOR2]                     = MULTICHOICE(MultichoiceList_SilphAscensor2),
 	[MULTI_SILPH_ASCENSOR3]                     = MULTICHOICE(MultichoiceList_SilphAscensor3),
+    [MULTI_POKEMON_MALVALONA]              = MULTICHOICE(MultichoiceList_PokemonMalvalona),
 };
 
 const u8 *const gStdStrings[] =

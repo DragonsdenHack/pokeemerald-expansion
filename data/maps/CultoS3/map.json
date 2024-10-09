@@ -81,16 +81,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 13,
-      "y": -5,
+      "x": 43,
+      "y": 52,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Culto_S3_EventScript_RealCobre",
+      "flag": "FLAG_HOENN_244"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -419,16 +419,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 75,
-      "y": 66,
+      "x": 25,
+      "y": 27,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Culto_S3_EventScript_MaxRevivir",
+      "flag": "FLAG_HOENN_247"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -509,17 +509,17 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_TRAINER_TOWER_DUDE",
-      "x": 76,
-      "y": 66,
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 74,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Culto_S3_EventScript_BrazalAntiguo",
+      "flag": "FLAG_HOENN_248"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEDIUMFJOHTO",
@@ -600,22 +600,22 @@
       "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
-      "x": 82,
-      "y": 8,
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 25,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE"
+      "script": "Culto_S3_EventScript_RealOro",
+      "flag": "FLAG_HOENN_245"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
       "x": 82,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -652,22 +652,22 @@
       "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 94,
-      "y": 8,
+      "y": 56,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE"
+      "script": "Culto_S3_EventScript_PEspiritu",
+      "flag": "FLAG_HOENN_246"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
       "x": 94,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,

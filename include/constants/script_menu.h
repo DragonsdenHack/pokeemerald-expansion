@@ -148,6 +148,7 @@
 #define MULTI_SILPH_ASCENSOR3              137	
 #define MULTI_VENTA_MASTER_RADIO           138
 #define MULTI_VENTA_BASE_EJECUTIVA         139
+#define MULTI_POKEMON_MALVALONA            140
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

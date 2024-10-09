@@ -11,7 +11,7 @@ Goldenrod_GameCorner_MapScripts::
 	.set SHUCKLE_COINS,         1250
 	.set SUDOWOODO_COINS,       2400
 	.set CYNDAQUIL_COINS,       4200
-	.set LARVITAR_COINS,        5500
+	.set LARVITAR_COINS,        4500
 
 GoldenrodGameCorner1::
 end
@@ -350,7 +350,7 @@ updatecoinsbox 1, 1
 waitse
 delay 50
 hidemoneybox
-givemon SPECIES_LARVITAR, 28, ITEM_NONE
+givemon SPECIES_HITMONTOP, 50, ITEM_NONE
 release
 end
 
@@ -409,3 +409,5 @@ EventScript_Compra_Porygon_Texto_2:
 EventScript_Compra_Porygon_Texto_1:
 	.string "Traigo lo último en tecnología,\n"
 	.string "importado directamente desde KANTO.$"
+
+
