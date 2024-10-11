@@ -189,20 +189,93 @@ Pueblo_Paleta_Barrera_Sur_Move_2:
 walk_slow_up
 step_end
 
+PalletTown_Andra_Move_1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_16
+step_end
+
+PalletTown_Andra_Move_2:
+face_up
+step_end
+
+PalletTown_Andra_Move_3:
+delay_8
+face_player
+delay_8
+step_end
+
+PalletTown_Andra_Move_4:
+walk_in_place_up
+step_end
+
 PalletTown_Andra::
 lock
+faceplayer
+delay 10
 msgbox PalletTown_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_1
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_2
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_3
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_2
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_3
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 30
 msgbox PalletTown_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_1
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Andra_Move_1
+waitmovement 0x0
+delay 10
+applymovement 3, PalletTown_Andra_Move_4
+waitmovement 0x0
+playse SE_DOOR
+opendoor 6, 7
+waitdooranim
+applymovement 3, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 3
+closedoor 6, 7
+waitdooranim
+clearflag FLAG_HOENN_654
+setflag FLAG_HOENN_653
+waitse
+delay 10
+setvar VAR_UNUSED_0x40FA, 1
 release
 end
 
@@ -227,8 +300,8 @@ PalletTown_Andra_Texto_4:
 PalletTown_Andra_Texto_5:
 	.string "Pero recuerda, {PLAYER}: si queremos\n"
 	.string "acercarnos a la verdad, nadie en este\l"
-	.string "pueblo debe pensar que tratamos de\l"
-	.string "acercarnos a ella.$"
+	.string "pueblo debe pensar que justamente eso\l"
+	.string "es lo que tratamos de hacer.$"
 
 PalletTown_Andra_Texto_6:
 	.string "De lo contrario… es de esperar que\n"
@@ -254,7 +327,7 @@ PalletTown_Andra_Texto_9:
 PalletTown_Andra_Texto_10:
 	.string "A la espera de volver a reunirnos con\n"
 	.string "GIOVANNI, nos tomamos unas merecidas\l"
-	.string "vacaciones, que incluyen visitar PUEBLO\l"
+	.string "vacaciones; ello incluye visitar PUEBLO\l"
 	.string "PALETA, la 'cuna de campeones'.$"
 
 PalletTown_Andra_Texto_11:

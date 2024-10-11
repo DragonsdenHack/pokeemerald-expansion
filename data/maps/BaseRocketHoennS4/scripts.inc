@@ -316,44 +316,235 @@ Base_Hoenn_Ascenso_Texto_3:
 	.string "uniforme para celebrarlo. Espero que\l"
 	.string "sirva de motivación para lo que viene.$"
 
+Base_Hoenn_Andra_Move_1:
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+step_end
+
+Base_Hoenn_Andra_Move_2:
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
+Base_Hoenn_Andra_Move_3:
+emote_exclamation_mark
+step_end
+
+Base_Hoenn_Andra_Move_4:
+face_up
+delay_16
+step_end
+
+Base_Hoenn_Andra_Move_5:
+walk_in_place_left
+step_end
+
+Base_Hoenn_Andra_Move_6:
+walk_in_place_up
+step_end
+
+Base_Hoenn_Andra_Move_7:
+walk_slow_left
+step_end
+
+Base_Hoenn_Andra_Move_8:
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+Base_Hoenn_Andra_Move_9:
+walk_in_place_right
+step_end
+
+Base_Hoenn_Andra_Move_10:
+delay_8
+face_down
+delay_8
+step_end
+
+Base_Hoenn_Andra_Move_11:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Base_Hoenn_Andra_Move_12:
+delay_16
+face_down
+step_end
+
+Base_Hoenn_Andra_Move_13:
+delay_8
+walk_slow_down
+delay_8
+step_end
+
 Base_Hoenn_Andra::
 lock
+delay 10
 msgbox Base_Hoenn_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Base_Hoenn_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Base_Hoenn_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 5
+applymovement 6, Base_Hoenn_Andra_Move_1
+waitmovement 0x0
+delay 5
 msgbox Base_Hoenn_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Base_Hoenn_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, Base_Hoenn_Andra_Move_1
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Base_Hoenn_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_3
+waitmovement 0x0
+waitse
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_4
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 30
 msgbox Base_Hoenn_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_3
+waitmovement 0x0
+waitse
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_4
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 5
+applymovement 6, Base_Hoenn_Andra_Move_1
+waitmovement 0x0
+delay 5
 msgbox Base_Hoenn_Andra_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_20 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_3
+waitmovement 0x0
+waitse
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_5
+waitmovement 0x0
 msgbox Base_Hoenn_Andra_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Base_Hoenn_Andra_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_4
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_6
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_8
+applymovement 6, Base_Hoenn_Andra_Move_7
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_9
+waitmovement 0x0
+delay 15
 msgbox Base_Hoenn_Andra_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_10
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_5
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_32 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_10
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_33 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Base_Hoenn_Andra_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_2
+waitmovement 0x0
+delay 10
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_8
+applymovement 6, Base_Hoenn_Andra_Move_7
+waitmovement 0x0
+delay 10
 msgbox Base_Hoenn_Andra_Texto_35 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, Base_Hoenn_Andra_Move_10
+waitmovement 0x0
+delay 15
 msgbox Base_Hoenn_Andra_Texto_36 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Base_Hoenn_Andra_Move_12
+applymovement 6, Base_Hoenn_Andra_Move_13
+waitmovement 0x0
+delay 15
+msgbox Base_Hoenn_Andra_Texto_37 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, Base_Hoenn_Andra_Move_11
+waitmovement 0x0
+delay 10
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
 clearflag FLAG_HOENN_76
@@ -403,6 +594,13 @@ clearflag FLAG_NUEVA_629
 clearflag FLAG_NUEVA_630
 clearflag FLAG_NUEVA_631
 clearflag FLAG_NUEVA_632
+clearflag FLAG_HOENN_653
+setflag FLAG_HOENN_677
+removeobject 6
+playse SE_EXIT
+waitse
+clearflag FLAG_HOENN_653
+setvar VAR_UNUSED_0x40F8, 24
 release
 end
 
@@ -411,7 +609,7 @@ Base_Hoenn_Andra_Texto_1:
 
 Base_Hoenn_Andra_Texto_2:
 	.string "¿No has tenido nunca la sensación de\n"
-	.string "estar… perdiéndote algo?$"
+	.string "estar{PAUSE 15}…{PAUSE 15} perdiéndote algo?$"
 
 Base_Hoenn_Andra_Texto_3:
 	.string "¿De tener una corazonada e ignorarla\n"
@@ -448,7 +646,7 @@ Base_Hoenn_Andra_Texto_9:
 	.string "día a día.$"
 
 Base_Hoenn_Andra_Texto_10:
-	.string "Eso me llevó a preguntarme…$"
+	.string "Eso me llevó a preguntarme{PAUSE 15}…{PAUSE 15}$"
 
 Base_Hoenn_Andra_Texto_11:
 	.string "¿No habremos estado nosotros también\n"
@@ -462,7 +660,7 @@ Base_Hoenn_Andra_Texto_12:
 	.string "ciudadano medio, no hay duda.$"
 
 Base_Hoenn_Andra_Texto_13:
-	.string "Pero…$"
+	.string "Pero{PAUSE 25}…{PAUSE 25}$"
 
 Base_Hoenn_Andra_Texto_14:
 	.string "¿Es nuestra visión de KANTO-JOHTO\n"
@@ -471,26 +669,26 @@ Base_Hoenn_Andra_Texto_14:
 
 Base_Hoenn_Andra_Texto_15:
 	.string "Superior a otras capas tal vez, pero\n"
-	.string "insuficiente como para asomarnos a la\l"
-	.string "superficie.$"
+	.string "insuficiente como para alcanzar a ver\l"
+	.string "el verdadero núcleo.$"
 
 Base_Hoenn_Andra_Texto_16:
 	.string "De ser así, y teniendo ya el mundo a tus\n"
-	.string "pies ¿arriesgarías tu posición solo\l"
+	.string "pies, ¿arriesgarías tu posición solo\l"
 	.string "para poner a prueba la realidad? ¿Para\l"
 	.string "confirmar que no vives más que en una\l"
 	.string "feliz ignorancia?$"
 
 Base_Hoenn_Andra_Texto_17:
 	.string "Lo que voy a proponerte te parecerá\n"
-	.string "una locura, pero…$"
+	.string "una locura, pero es un hecho que{PAUSE 15}…{PAUSE 15}$"
 
 Base_Hoenn_Andra_Texto_18:
-	.string "El único rincón de toda KANTO y JOHTO\n"
-	.string "que aún no hemos explorado a fondo es…$"
+	.string "{PAUSE 15}…{PAUSE 15}el único rincón de toda KANTO y JOHTO\n"
+	.string "que aún no hemos explorado a fondo es{PAUSE 15}…{PAUSE 15}$"
 
 Base_Hoenn_Andra_Texto_19:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Base_Hoenn_Andra_Texto_20:
 	.string "PUEBLO PALETA.$"
@@ -500,7 +698,7 @@ Base_Hoenn_Andra_Texto_21:
 	.string "misiones al mando de GIOVANNI.$"
 
 Base_Hoenn_Andra_Texto_22:
-	.string "En ese lugar viste algo… viste cómo OAK\n"
+	.string "En ese lugar viste algo{PAUSE 15}…{PAUSE 15} viste cómo OAK\n"
 	.string "se esfumaba en tus narices.$"
 
 Base_Hoenn_Andra_Texto_23:
@@ -530,7 +728,7 @@ Base_Hoenn_Andra_Texto_27:
 	.string "desvelar todos sus secretos.$"
 
 Base_Hoenn_Andra_Texto_28:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Base_Hoenn_Andra_Texto_29:
 	.string "¿OAK?$"
@@ -554,16 +752,20 @@ Base_Hoenn_Andra_Texto_33:
 	.string "realizando más pruebas.$"
 
 Base_Hoenn_Andra_Texto_34:
-	.string "GIOVANNI, OAK, ATLAS, ELM… y parece que\n"
-	.string "ahí seguirán por un buen tiempo.$"
+	.string "GIOVANNI, OAK, ATLAS, ELM…\n"
+	.string "Seguirán allí por un buen tiempo.$"
 
 Base_Hoenn_Andra_Texto_35:
 	.string "Es el momento perfecto: PUEBLO PALETA\n"
 	.string "estará desierto.$"
 
 Base_Hoenn_Andra_Texto_36:
-	.string "Ahí te espero. Veremos… si hay un último\n"
-	.string "misterio escondido tras el velo.$"
+	.string "Ahí te espero.$"
+	
+Base_Hoenn_Andra_Texto_37:
+	.string "Al fin veremos{PAUSE 25}…{PAUSE 25} si de verdad\n"
+	.string "quedaba un último misterio\l"
+	.string "escondido tras el velo.$"
 
 Base_Hoenn_Andra_Epitafio::
 lock

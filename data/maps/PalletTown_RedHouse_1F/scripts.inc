@@ -1,11 +1,12 @@
 PalletTown_RedHouse_1F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_RedHouse_1F_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_RedHouse_1F_OnFrame
     .byte 0
 
 PalletTown_RedHouse_1F_OnFrame:
 map_script_2 VAR_UNUSED_0x40FA, 0, PalletTown_RedHouse_1F_Encuentro_Madre
+map_script_2 VAR_UNUSED_0x40F8, 24, PalletTown_RedHouse_Andra
 	.2byte 0
-
 
 PalletTown_RedHouse_1F_Encuentro_Madre::
 lockall
@@ -94,6 +95,7 @@ msgbox PalletTown_RedHouse_Andra_Texto_22 MSGBOX_AUTOCLOSE
 msgbox PalletTown_RedHouse_Andra_Texto_23 MSGBOX_AUTOCLOSE
 msgbox PalletTown_RedHouse_Andra_Texto_24 MSGBOX_AUTOCLOSE
 msgbox PalletTown_RedHouse_Andra_Texto_25 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 25
 release
 end
 

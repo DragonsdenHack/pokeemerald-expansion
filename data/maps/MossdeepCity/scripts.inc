@@ -635,6 +635,7 @@ waitmovement 0x0
 msgbox MossdeepCity_Devon_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 19, MossdeepCity_Devon_Move_11
 waitmovement 0x0
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setflag FLAG_HOENN_50
 setflag FLAG_HOENN_55
 setvar VAR_UNUSED_0x40F8, 11

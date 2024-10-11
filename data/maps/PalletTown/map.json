@@ -54,7 +54,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_6",
       "x": 3,
-      "y": 10,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
