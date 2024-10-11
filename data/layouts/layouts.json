@@ -2913,7 +2913,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_safari_zone_building",
+      "secondary_tileset": "gTileset_SeashoreHouse",
       "border_filepath": "data/layouts/Route109_SeashoreHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route109_SeashoreHouse/map.bin"
     },
