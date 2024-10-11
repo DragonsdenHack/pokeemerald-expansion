@@ -43,7 +43,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 26,
-      "y": 17,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BaseHoenn_S2_EventScript_Carburante",
-      "flag": "FLAG_HOENN_271"
+      "flag": "FLAG_HOENN_298"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
@@ -521,7 +521,7 @@
       "x": 37,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_POKEMON_TOWER_S3",
+      "dest_map": "MAP_BASE_ROCKET_HOENN_S4",
       "dest_warp_id": 0
     }
   ],

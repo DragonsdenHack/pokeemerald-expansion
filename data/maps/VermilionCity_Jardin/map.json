@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_VERMILION_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Vermilion_Secundaria_EventScript_PiedraSolar",
-      "flag": "FLAG_HOENN_273"
+      "flag": "FLAG_HOENN_299"
     }
   ],
   "warp_events": [

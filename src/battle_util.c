@@ -8508,7 +8508,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         break;
     case HOLD_EFFECT_DEEP_SEA_SCALE:
         if (gBattleMons[battlerAtk].species == SPECIES_GOREBYSS && IS_MOVE_SPECIAL(move))
-            MulModifier(&modifier, UQ_4_12(2.0));
+            MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_DEEP_SEA_TOOTH:
         if (gBattleMons[battlerAtk].species == SPECIES_HUNTAIL && IS_MOVE_PHYSICAL(move))
@@ -8518,9 +8518,13 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].species == SPECIES_MAGMORTAR && IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_ODD:
+        if (gBattleMons[battlerAtk].species == SPECIES_SPIRITOMB && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
     case HOLD_EFFECT_WHIPPED_DREAM:
         if (gBattleMons[battlerAtk].species == SPECIES_SLURPUFF && IS_MOVE_SPECIAL(move))
-            MulModifier(&modifier, UQ_4_12(2.0));
+            MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_UPGRADE:
         if (gBattleMons[battlerAtk].species == SPECIES_PORYGON2 && IS_MOVE_SPECIAL(move))
@@ -8706,6 +8710,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         break;
     case HOLD_EFFECT_MAGMARIZER:
         if (gBattleMons[battlerDef].species == SPECIES_MAGMORTAR && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_ODD:
+        if (gBattleMons[battlerDef].species == SPECIES_SPIRITOMB && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_BLACK_AUGURITE:

@@ -190,6 +190,7 @@ removeobject 1
 removeobject 2
 removeobject 5
 delay 40
+addobject 4
 applymovement 4, VermilionCity_Jardin_Final_Move_7
 waitmovement 0x0
 msgbox VermilionCity_Jardin_Final_Texto_18 MSGBOX_AUTOCLOSE
@@ -233,6 +234,32 @@ applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Jardin_Final_Move_15
 applymovement 4, VermilionCity_Jardin_Final_Move_14
 waitmovement 0x0
 removeobject 4
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+clearflag FLAG_HOENN_90
+clearflag FLAG_HOENN_91
+clearflag FLAG_HOENN_92
+clearflag FLAG_HOENN_93
+clearflag FLAG_HOENN_94
+clearflag FLAG_HOENN_95
+clearflag FLAG_HOENN_96
+clearflag FLAG_HOENN_97
+clearflag FLAG_HOENN_98
+clearflag FLAG_HOENN_99
+setflag FLAG_HOENN_640
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_649
 setvar VAR_SCOTT_STATE, 4
 release
 end

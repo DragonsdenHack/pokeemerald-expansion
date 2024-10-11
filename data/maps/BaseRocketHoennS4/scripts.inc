@@ -284,7 +284,9 @@ Base_Hoenn_Esfera_Roja_Texto_1:
 Base_Hoenn_Ascenso::
 lock
 msgbox Base_Hoenn_Ascenso_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Base_Hoenn_Ascenso_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Base_Hoenn_Ascenso_Texto_3 MSGBOX_AUTOCLOSE
 setflag FLAG_HOENN_30
 removeobject 5
@@ -562,6 +564,16 @@ Base_Hoenn_Andra_Texto_35:
 Base_Hoenn_Andra_Texto_36:
 	.string "Ahí te espero. Veremos… si hay un último\n"
 	.string "misterio escondido tras el velo.$"
+
+Base_Hoenn_Andra_Epitafio::
+lock
+msgbox Base_Hoenn_Andra_Epitafio_Texto_1 MSGBOX_SIGN
+release
+end
+
+Base_Hoenn_Andra_Epitafio_Texto_1:
+	.string "Este lugar pertenece a la ENTRENADORA\n"
+	.string "cuyo espíritu se mantuvo indómito.$"
 
 
 
