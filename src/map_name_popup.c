@@ -388,13 +388,362 @@ static void LoadMapNamePopUpWindowBg(void)
     u8 popUpThemeId;
     u8 popupWindowId = GetMapNamePopUpWindowId();
     u16 regionMapSectionId = gMapHeader.regionMapSectionId;
+	u16 mapPopUpWood;
+	u16 mapPopUpMarble;
+	u16 mapPopUpStone;
+	u16 mapPopUpStone2;
+	u16 mapPopUpUnderwater;
+	u16 mapPopUpBrick;
 
     if (regionMapSectionId >= KANTO_MAPSEC_START)
     {
         if (regionMapSectionId > KANTO_MAPSEC_END)
-            regionMapSectionId -= KANTO_MAPSEC_COUNT;
+		{
+			 regionMapSectionId -= KANTO_MAPSEC_COUNT;
+		}
         else
-            regionMapSectionId = 0; // Discard kanto region sections;
+		{
+			mapPopUpWood = 0;
+			mapPopUpMarble = 7;
+			mapPopUpStone = 50;
+			mapPopUpStone2 = 20;
+			mapPopUpUnderwater = 37;
+			mapPopUpBrick = 11;
+            switch(regionMapSectionId)
+			{
+			case MAPSEC_PALLET_TOWN:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_VIRIDIAN_CITY:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_PEWTER_CITY:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_CERULEAN_CITY:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_LAVENDER_TOWN:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_VERMILION_CITY:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_CELADON_CITY:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_FUCHSIA_CITY:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_CINNABAR_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_INDIGO_PLATEAU:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_SAFFRON_CITY:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_ROUTE_4_FLYDUP:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_10_FLYDUP:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_1:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_2:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_3:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_4:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_5:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_6:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_7:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_8:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_9:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_10:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_11:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_12:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_13:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_14:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_15:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_16:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_17:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_18:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_19:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_20:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_21:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_22:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_23:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_24:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ROUTE_25:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_VIRIDIAN_FOREST:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_MT_MOON:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_S_S_ANNE:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_UNDERGROUND_PATH:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_UNDERGROUND_PATH_2:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_DIGLETTS_CAVE:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_KANTO_VICTORY_ROAD:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_ROCKET_HIDEOUT:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_SILPH_CO:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_POKEMON_MANSION:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_KANTO_SAFARI_ZONE:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_POKEMON_LEAGUE:
+				regionMapSectionId = mapPopUpMarble;
+				break;
+			case MAPSEC_ROCK_TUNNEL:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_SEAFOAM_ISLANDS:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_POKEMON_TOWER:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_CERULEAN_CAVE:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_POWER_PLANT:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_ONE_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_TWO_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_THREE_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_FOUR_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_FIVE_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SIX_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVEN_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_KINDLE_ROAD:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_TREASURE_BEACH:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_CAPE_BRINK:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_BOND_BRIDGE:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_THREE_ISLE_PORT:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_6:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_7:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_8:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_9:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_RESORT_GORGEOUS:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_WATER_LABYRINTH:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_FIVE_ISLE_MEADOW:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_MEMORIAL_PILLAR:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_OUTCAST_ISLAND:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_GREEN_PATH:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_WATER_PATH:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_RUIN_VALLEY:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_TRAINER_TOWER:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_CANYON_ENTRANCE:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_SEVAULT_CANYON:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_TANOBY_RUINS:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_SEVII_ISLE_22:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_23:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SEVII_ISLE_24:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_NAVEL_ROCK_FRLG:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_MT_EMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_BERRY_FOREST:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_ICEFALL_CAVE:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_ROCKET_WAREHOUSE:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_TRAINER_TOWER_2:
+				regionMapSectionId = mapPopUpBrick;
+				break;
+			case MAPSEC_DOTTED_HOLE:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_LOST_CAVE:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_PATTERN_BUSH:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_ALTERING_CAVE_FRLG:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_TANOBY_CHAMBERS:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_THREE_ISLE_PATH:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_TANOBY_KEY:
+				regionMapSectionId = mapPopUpStone2;
+				break;
+			case MAPSEC_BIRTH_ISLAND_FRLG:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_MONEAN_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_LIPTOO_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_WEEPTH_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_DILFORD_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_SCUFIB_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_RIXY_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_VIAPOIS_CHAMBER:
+				regionMapSectionId = mapPopUpStone;
+				break;
+			case MAPSEC_EMBER_SPA:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			case MAPSEC_SPECIAL_AREA:
+				regionMapSectionId = mapPopUpWood;
+				break;
+			default:
+				// Manejo del caso por defecto si es necesario
+				regionMapSectionId = mapPopUpWood;
+				break;
+			}
+		}
     }
     popUpThemeId = sRegionMapSectionId_To_PopUpThemeIdMapping[regionMapSectionId];
 
