@@ -7714,7 +7714,11 @@ u16 GetBattleBGM(void)
             return MUS_RG_SILPH;
         case TRAINER_CLASS_GIOVANNI:
             return 583;
-         case TRAINER_CLASS_ANDRA:
+        case TRAINER_CLASS_ANDRA:
+        case TRAINER_CLASS_ANDRA_ALTORANGO:
+        case TRAINER_CLASS_ANDRA_EJECUTIVA:
+        case TRAINER_CLASS_ANDRA_ADMIN:
+        case TRAINER_CLASS_ANDRA_ADMINJEFE:
             return 569;
         case TRAINER_CLASS_MIGUEL:
             return 574;

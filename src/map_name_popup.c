@@ -427,7 +427,7 @@ static void LoadMapNamePopUpWindowBg(void)
 				regionMapSectionId = mapPopUpMarble;
 				break;
 			case MAPSEC_VERMILION_CITY:
-				regionMapSectionId = mapPopUpWood;
+				regionMapSectionId = mapPopUpMarble;
 				break;
 			case MAPSEC_CELADON_CITY:
 				regionMapSectionId = mapPopUpBrick;

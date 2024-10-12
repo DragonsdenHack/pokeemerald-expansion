@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_CONEXION_HOENN",
   "name": "RocketHideout_Conexion_Hoenn",
   "layout": "LAYOUT_ROCKET_HIDEOUT_CONEXION_HOENN",
-  "music": "MUS_RG_POKE_MANSION",
+  "music": "MUS_B_FACTORY",
   "region_map_section": "MAPSEC_ROCKET_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

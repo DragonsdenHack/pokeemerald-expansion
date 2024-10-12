@@ -198,7 +198,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ALTORANGO,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ANDRA_ALTO_RANGO,
         .trainerName = _("ANDRA"),
@@ -394,7 +394,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ALTORANGO,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ANDRA_ALTO_RANGO,
         .trainerName = _("ANDRA"),
@@ -660,7 +660,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_EJECUTIVA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_ANDRA_EJECUTIVA,
         .trainerName = _("ANDRA"),
@@ -828,7 +828,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_7] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ADMIN,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_ANDRA_ADMIN,
         .trainerName = _("ANDRA"),
@@ -5126,7 +5126,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_6] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_EJECUTIVA,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ANDRA_EJECUTIVA,
         .trainerName = _("ANDRA"),
@@ -6148,7 +6148,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_8] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ADMINJEFE,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_ANDRA_ADMIN_JEFE,
         .trainerName = _("ANDRA"),
@@ -11482,7 +11482,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANDRA_9] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ADMINJEFE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_ANDRA_ADMIN_JEFE,
         .trainerName = _("ANDRA"),
@@ -21462,7 +21462,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_696] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ADMINJEFE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_ANDRA_ADMIN_JEFE,
         .trainerName = _("ANDRA"),
@@ -21475,7 +21475,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_697] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ANDRA,
+        .trainerClass = TRAINER_CLASS_ANDRA_ADMINJEFE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_ANDRA_ADMIN_JEFE,
         .trainerName = _("ANDRA"),

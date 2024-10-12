@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE51",
   "name": "Route51",
   "layout": "LAYOUT_ROUTE51",
-  "music": "623",
+  "music": "MUS_END",
   "region_map_section": "MAPSEC_WEEPTH_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
