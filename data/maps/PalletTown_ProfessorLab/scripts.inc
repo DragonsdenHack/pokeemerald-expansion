@@ -348,21 +348,144 @@ PalletTown_ProfessorLab_Genesect_Texto_1:
 	.string "Nadie la necesita ya, ¿quieres\l"
 	.string "quedarte con el pOKÉMON?$"
 
+PalletTown_ProfessorLab_Andra_Move_1:
+delay_8
+face_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_2:
+emote_exclamation_mark
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_3:
+face_right
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_4:
+face_right
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_5:
+walk_right
+walk_right
+face_up
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_6:
+face_right
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_7:
+face_left
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_8:
+face_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_9:
+delay_16
+delay_8
+face_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_10:
+walk_slow_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_11:
+face_up
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_12:
+walk_slow_left
+walk_slow_up
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_13:
+delay_16
+delay_8
+face_left
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_14:
+delay_8
+face_right
+step_end
+
 PalletTown_ProfessorLab_Andra::
 lock
+faceplayer
 msgbox PalletTown_ProfessorLab_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_1
+waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_3
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_2
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_4
+waitmovement 0x0
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_5
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_5 MSGBOX_AUTOCLOSE
-msgbox PalletTown_ProfessorLab_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_ProfessorLab_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_ProfessorLab_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_7
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_9
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_10
+waitmovement 0x0
+delay 75
 msgbox PalletTown_ProfessorLab_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_11
+waitmovement 0x0
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_13
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 45
+playse SE_PIN
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_2
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_14
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_14 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Andra_Texto_15 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Andra_Texto_16 MSGBOX_AUTOCLOSE
@@ -376,6 +499,7 @@ msgbox PalletTown_ProfessorLab_Andra_Texto_23 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Andra_Texto_24 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Andra_Texto_25 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Andra_Texto_26 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 26
 release
 end
 
@@ -392,13 +516,13 @@ PalletTown_ProfessorLab_Andra_Texto_3:
 	.string "muy importante para KANTO.$"
 
 PalletTown_ProfessorLab_Andra_Texto_4:
-	.string "¿Y has visto esto?$"
+	.string "¿Y has visto eso?$"
 
 PalletTown_ProfessorLab_Andra_Texto_5:
 	.string "Un e-mail del CG de la LIGA POKÉMON.$"
 
 PalletTown_ProfessorLab_Andra_Texto_6:
-	.string "Visítenos por favor…\n"
+	.string "'Visítenos por favor…'\n"
 	.string "Cuánta hipocresía.$"
 
 PalletTown_ProfessorLab_Andra_Texto_7:

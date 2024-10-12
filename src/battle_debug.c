@@ -2052,6 +2052,7 @@ static const u8 sText_HoldEffectBlackaugurite[] = _("Mineral Negro");
 static const u8 sText_HoldEffectRedscale[] = _("Escama Roja");
 static const u8 sText_HoldEffectCondensadorgas[] = _("Condensad.Gas");
 static const u8 sText_HoldEffectGenloco[] = _("Gen Loco");
+static const u8 sText_HoldEffectOdd[] = _("P.Espíritu");
 static const u8 *const sHoldEffectNames[] = 
 {
     [HOLD_EFFECT_NONE] = sText_HoldEffectNone,
@@ -2207,6 +2208,7 @@ static const u8 *const sHoldEffectNames[] =
     [HOLD_EFFECT_RED_SCALE] = sText_HoldEffectRedscale,
     [HOLD_EFFECT_CONDENSADOR_GAS] = sText_HoldEffectCondensadorgas,
     [HOLD_EFFECT_GEN_LOCO] = sText_HoldEffectGenloco,
+    [HOLD_EFFECT_ODD] = sText_HoldEffectOdd,
 };
 static const u8 *GetHoldEffectName(u16 holdEffect)
 {

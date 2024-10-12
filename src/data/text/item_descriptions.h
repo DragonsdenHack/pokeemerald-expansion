@@ -739,9 +739,9 @@ static const u8 sRareBoneDesc[] = _(
     "a un alto precio.");
 
 static const u8 sOddKeystoneDesc[] = _(
-    "Pueden oírse voces\n"
-    "en el interior de\n"
-    "esta piedra.");
+    "Fortalece en un 30%\n"
+   	"AT.ESP y DEF.ESP de\n"
+   	"SPIRITOMB.");
 
 static const u8 sPrettyFeatherDesc[] = _(
     "A beautiful yet\n"

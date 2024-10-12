@@ -1692,7 +1692,8 @@ const struct Item gItems[] =
     {
         .name = _("P.Espíritu"),
         .itemId = ITEM_ODD_KEYSTONE,
-        .price = 2100,
+        .price = 12000,
+        .holdEffect = HOLD_EFFECT_ODD,
         .description = sOddKeystoneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,

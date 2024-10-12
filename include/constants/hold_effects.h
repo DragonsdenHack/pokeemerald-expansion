@@ -82,7 +82,9 @@
 #define HOLD_EFFECT_BLACK_AUGURITE 186
 #define HOLD_EFFECT_RED_SCALE      187
 #define HOLD_EFFECT_CONDENSADOR_GAS 188
-#define HOLD_EFFECT_GEN_LOCO     189
+#define HOLD_EFFECT_GEN_LOCO        189
+#define HOLD_EFFECT_ODD             190
+
 
 // Gen4 hold effects.
 #define HOLD_EFFECT_CHOICE_SCARF   67

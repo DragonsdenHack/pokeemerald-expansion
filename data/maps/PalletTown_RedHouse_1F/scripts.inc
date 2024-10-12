@@ -1,11 +1,12 @@
 PalletTown_RedHouse_1F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_RedHouse_1F_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_RedHouse_1F_OnFrame
     .byte 0
 
 PalletTown_RedHouse_1F_OnFrame:
 map_script_2 VAR_UNUSED_0x40FA, 0, PalletTown_RedHouse_1F_Encuentro_Madre
+map_script_2 VAR_UNUSED_0x40F8, 24, PalletTown_RedHouse_Andra
 	.2byte 0
-
 
 PalletTown_RedHouse_1F_Encuentro_Madre::
 lockall
@@ -67,35 +68,249 @@ PalletTown_RedHouse_1F_Encuentro_Madre_Move_4:
 walk_down
 step_end
 
+PalletTown_RedHouse_Andra_Move_1:
+delay_8
+face_down
+delay_16
+step_end
+
+PalletTown_RedHouse_Andra_Move_2:
+walk_in_place_up
+step_end
+
+PalletTown_RedHouse_Andra_Move_3:
+walk_in_place_down
+step_end
+
+PalletTown_RedHouse_Andra_Move_4:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+PalletTown_RedHouse_Andra_Move_5:
+walk_up
+walk_right
+walk_right
+walk_right
+face_up
+step_end
+
+PalletTown_RedHouse_Andra_Move_6:
+walk_in_place_up
+step_end
+
+PalletTown_RedHouse_Andra_Move_7:
+face_down
+step_end
+
+PalletTown_RedHouse_Andra_Move_8:
+walk_in_place_down
+step_end
+
+PalletTown_RedHouse_Andra_Move_9:
+face_left
+step_end
+
+PalletTown_RedHouse_Andra_Move_10:
+walk_slow_up
+step_end
+
+PalletTown_RedHouse_Andra_Move_11:
+delay_8
+face_down
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+step_end
+
+PalletTown_RedHouse_Andra_Move_12:
+emote_exclamation_mark
+step_end
+
+PalletTown_RedHouse_Andra_Move_13:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+
 PalletTown_RedHouse_Andra::
 lock
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_1
+waitmovement 0x0
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_Andra_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_Andra_Move_5
+applymovement 2, PalletTown_RedHouse_Andra_Move_4
+waitmovement 0x0
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_6
+waitmovement 0x0
+applymovement 1, PalletTown_RedHouse_Andra_Move_7
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_RedHouse_Andra_Move_8
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_RedHouse_Andra_Move_9
+waitmovement 0x0
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_10
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_11
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_6
+waitmovement 0x0
+delay 10
 msgbox PalletTown_RedHouse_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, PalletTown_RedHouse_Andra_Move_7
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, PalletTown_RedHouse_Andra_Move_12
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_RedHouse_Andra_Move_9
+waitmovement 0x0
+delay 10
 msgbox PalletTown_RedHouse_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, PalletTown_RedHouse_Andra_Move_7
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, PalletTown_RedHouse_Andra_Move_7
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, PalletTown_RedHouse_Andra_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_Andra_Move_12
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, PalletTown_RedHouse_Andra_Move_13
+waitmovement 0x0
+delay 10
 msgbox PalletTown_RedHouse_Andra_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_RedHouse_Andra_Move_9
+waitmovement 0x0
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, PalletTown_RedHouse_Andra_Move_14
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 2, PalletTown_RedHouse_Andra_Move_16
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_Andra_Move_15
+waitmovement 0x0
 msgbox PalletTown_RedHouse_Andra_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, PalletTown_RedHouse_Andra_Move_17
+waitmovement 0x0
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, PalletTown_RedHouse_Andra_Move_18
+waitmovement 0x0
+delay 15
 msgbox PalletTown_RedHouse_Andra_Texto_25 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_Andra_Move_20
+applymovement 2, PalletTown_RedHouse_Andra_Move_19
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_654
+clearflag FLAG_HOENN_655
+removeobject 2
+setvar VAR_UNUSED_0x40F8, 25
 release
 end
+
+PalletTown_RedHouse_Andra_Move_20:
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+step_end
+
+PalletTown_RedHouse_Andra_Move_19:
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+face_down
+step_end
+
+PalletTown_RedHouse_Andra_Move_18:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+walk_in_place_left
+step_end
+
+PalletTown_RedHouse_Andra_Move_17:
+delay_8
+face_down
+delay_16
+step_end
+
+PalletTown_RedHouse_Andra_Move_16:
+walk_down
+walk_down
+face_left
+step_end
+
+PalletTown_RedHouse_Andra_Move_15:
+delay_16
+face_right
+step_end
+
+PalletTown_RedHouse_Andra_Move_14:
+walk_up
+step_end
 
 PalletTown_RedHouse_Andra_Texto_1:
 	.string "ANDRA: Es usted la madre de ROJO,\n"
@@ -185,3 +400,18 @@ PalletTown_RedHouse_Andra_Texto_24:
 
 PalletTown_RedHouse_Andra_Texto_25:
 	.string "Nos vemos en el LABORATORIO de OAK.$"
+
+PalletTown_RedHouse_Madre_Move_1:
+face_left
+step_end
+
+PalletTown_RedHouse_Madre::
+lock
+faceplayer
+msgbox PalletTown_RedHouse_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PalletTown_RedHouse_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PalletTown_RedHouse_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_RedHouse_Madre_Move_1
+waitmovement 0x0
+release
+end
