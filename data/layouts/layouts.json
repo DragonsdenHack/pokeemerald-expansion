@@ -15228,6 +15228,66 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LilycoveCity_Museo_3F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_Museo_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_RADIO_TOWER_P6",
+      "name": "Goldenrod_RadioTowerP6_Layout",
+      "width": 17,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Goldenrod_RadioTowerP6/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP6/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_RADIO_TOWER_P7",
+      "name": "Goldenrod_RadioTowerP7_Layout",
+      "width": 17,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Goldenrod_RadioTowerP7/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP7/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_RADIO_TOWER_P8",
+      "name": "Goldenrod_RadioTowerP8_Layout",
+      "width": 17,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Goldenrod_RadioTowerP8/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP8/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_RADIO_TOWER_P9",
+      "name": "Goldenrod_RadioTowerP9_Layout",
+      "width": 17,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Goldenrod_RadioTowerP9/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP9/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_RADIO_TOWER_P10",
+      "name": "Goldenrod_RadioTowerP10_Layout",
+      "width": 17,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Goldenrod_RadioTowerP10/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP10/map.bin"
     }
   ]
 }

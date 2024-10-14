@@ -2959,3 +2959,13 @@ Text_EVChecker_3:
 	.include "data/maps/RocketHideout_5F_2/scripts.inc"
 
 	.include "data/maps/LilycoveCity_Museo_3F/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP6/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP7/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP8/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP9/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP10/scripts.inc"

@@ -164,8 +164,8 @@
       "x": 11,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P5",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P6",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

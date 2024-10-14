@@ -302,7 +302,12 @@
     "Goldenrod_UndergroundSouth",
     "Goldenrod_Underground",
     "Goldenrod_Houses",
-    "Goldenrod_Gym"
+    "Goldenrod_Gym",
+    "Goldenrod_RadioTowerP6",
+    "Goldenrod_RadioTowerP7",
+    "Goldenrod_RadioTowerP8",
+    "Goldenrod_RadioTowerP9",
+    "Goldenrod_RadioTowerP10"
   ],
   "gMapGroup_IndoorEcruteakCity": [
     "Ecruteak_PkmnCenter",
