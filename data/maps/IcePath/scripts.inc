@@ -48,21 +48,21 @@ end
 
 IcePath_Llamada_Giovanni_Texto_1:
 .string "GIOVANNI: {PLAYER}, hemos\n"
-	.string "registrado los datos del MAMOSWINE\l"
-	.string "FUERTE VÍNCULO de FREDO, pero,\l"
-	.string "¿con qué clase de POKÉMON acabas\l"
-	.string "de combatir?\l"
+	.string "registrado los datos del\l"
+	.string "MAMOSWINE-& de FREDO, pero{PAUSE 25}…{PAUSE 25}\l"
+	.string "¿con qué clase de POKÉMON\l"
+	.string "acabas de combatir?\l"
 	.string "Está rompiendo los esquemas de\l"
 	.string "todos nuestros científicos.$"
 
 IcePath_Llamada_Giovanni_Texto_1.1:
 .string "El MAMOSWINE-& de FREDO es\n"
-	.string "extraordinario, cuenta con el mismo\l"
-	.string "ATAQUE y mejor VELOCIDAD que\l"
-	.string "GARCHOMP-MEGA, y defensas similares,\l"
-	.string "en stats útiles es completamente\l"
-	.string "equiparable a la MEGA de un\l"
-	.string "PSEUDOLEGENDARIO.$"
+	.string "extraordinario; cuenta con el mismo\l"
+	.string "ATAQUE, mejor VELOCIDAD y defensas\l"
+	.string "similares a GARCHOMP-MEGA.\l"
+	.string "En otras palabras, sus stats útiles\l"
+	.string "son comparables a  la MEGA de todo\l"
+	.string "un PSEUDOLEGENDARIO.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:
 .string "Pero{PAUSE 25}…{PAUSE 25} el POKÉMON con el que acabas de\n"
@@ -72,7 +72,7 @@ IcePath_Llamada_Giovanni_Texto_1.2:
 
 
 IcePath_Llamada_Giovanni_Texto_2:
-.string "Cambiando de tema, te he llamado\n"
+.string "Por desgracia, te he llamado\n"
 	.string "por otra razón. Quiero que vengas\l"
 	.string "a mi despacho de la BASE ROCKET\l"
 	.string "PROFUNDA. Hay que tomar cartas en\l"

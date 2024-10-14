@@ -362,7 +362,7 @@ RocketHideoutJohto_Text_21:
 .string "NIDOKING-X y NIDOQUEEN-Y, aunque\l"
 .string "elevando los stats de los\l"
 .string "originales en +100 de BASE en\l"
-.string "lugar de los +110 del RHYPERIOR de\l"
+.string "lugar de los +125 del RHYPERIOR de\l"
 .string "GIOVANNI{PAUSE 5}…{PAUSE 5}$"
 
 

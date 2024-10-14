@@ -955,9 +955,9 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_78:
 .string "{PLAYER}, si no me equivoco,\n"
 	.string "cuentas ya con 5 MEDALLAS de\l"
 	.string "JOHTO. Los últimos datos sobre ese\l"
-	.string "POLIWRATH FUERTE VÍNCULO nos han\l"
-	.string "sido de gran utilidad, ese POKÉMON\l"
-	.string "es una roca en todos los sentidos.\l"
+	.string "POLIWRATH-& nos han sido de gran\l"
+	.string "utilidad.\l"
+	.string "Es una roca en todos los sentidos.\l"
 	.string "Supera a MACHAMP en los 6 STATS, y\l"
 	.string "con PUÑO FERREO apoyado en sus\l"
 	.string "enormes defensas y ATAQUE de 145\l"
@@ -2156,7 +2156,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_61:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_62:
-.string "GIOVANNI: Esto supone un +110 en\n"
+.string "GIOVANNI: Esto supone un +125 en\n"
 	.string "STATS BASE, lo que les mete de lleno en\l"
 	.string "los prototipos de nivel II, con un total\l"
 	.string "de 690, pero{PAUSE 15}…{PAUSE 15}$"

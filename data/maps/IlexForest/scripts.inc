@@ -143,7 +143,7 @@ IlexForest_Llamada_Giovanni_Texto_1:
 	.string "Ya tenemos la información del\l"
 	.string "BUTTERFREE-& de CÉSAR.\l"
 	.string "Lo más extraordinario no son\l"
-	.string "sus 505 STATS BASE, es su\l"
+	.string "sus 520 STATS BASE, es su\l"
 	.string "insuperable reparto de STATS\l"
 	.string "útiles. Tiene{PAUSE 25}…{PAUSE 25} ¡solo 5 de BASE en\l"
 	.string "ATAQUE!\l"

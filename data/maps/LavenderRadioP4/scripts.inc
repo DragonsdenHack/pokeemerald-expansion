@@ -11,12 +11,12 @@ end
 LavenderRadioP4_Text_1:
 .string "La MEGAEVOLUCIÓN incrementa en 100 los\n"
 .string "STATS BASE de un POKÉMON. El FUERTE\l"
-.string "VÍNCULO en 110, además de, por lo\l"
+.string "VÍNCULO en 125, además de, por lo\l"
 .string "general, un mejor reparto. Con las\l"
 .string "modificaciones vía ondas de radio no\l"
 .string "hay límite, pueden incrementarse en\l"
 .string "menos de 100, pero es posible que\l"
-.string "podamos sobrepasar esos +110 del\l"
+.string "podamos sobrepasar esos +125 del\l"
 .string "FUERTE VÍNCULO.$"
 
 
@@ -946,7 +946,7 @@ LavenderRadioP4_Devon_Combates_Texto_12:
 	.string "convencionales han supuesto un\l"
 	.string "incremento de +100 respecto a los\l"
 	.string "originales. El FUERTE VÍNCULO supone\l"
-	.string "un +110{PAUSE 25}…{PAUSE 25} ¿Qué podemos esperar de esta\l"
+	.string "un +125{PAUSE 25}…{PAUSE 25} ¿Qué podemos esperar de esta\l"
 	.string "nueva tecnología, ELM?$"
 
 LavenderRadioP4_Devon_Combates_Texto_13:

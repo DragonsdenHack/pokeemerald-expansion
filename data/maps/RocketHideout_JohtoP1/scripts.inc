@@ -95,7 +95,7 @@ RocketHideoutP1_Text_6:
 .string "FUERTE VÍNCULO produce una mejora\l"
 .string "del rendimiento aún más drástica\l"
 .string "que la MEGAEVOLUCIÓN. Entre sus\l"
-.string "+110 de BASE y solo 5 en ATAQUE\l"
+.string "+125 de BASE y solo 5 en ATAQUE\l"
 .string "FÍSICO, el BUTTERFREE de CÉSAR\l"
 .string "supera en 20 puntos de BASE a la\l"
 .string "MEGA de BUTTERFREE. Es mucho más\l"

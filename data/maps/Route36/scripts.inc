@@ -164,12 +164,12 @@ release
 end
 
 Route36_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: Gran trabajo, {PLAYER}, el\n"
-	.string "equilibrio y total de 650 de BASE\l"
-	.string "de ese KINGDRA está sorprendiendo\l"
-	.string "a nuestros científicos. ¿Sabías\l"
-	.string "que 5 de sus 6 STATS tienen 115 de\l"
-	.string "base?\l"
+.string "GIOVANNI: Gran trabajo, {PLAYER}.\n"
+	.string "El equilibrio y total de 665 STATS\l"
+	.string "BASE de ese KINGDRA-& está ha\l"
+	.string "sorprendido a nuestros científicos.\l"
+	.string "¿Sabías que 4 de sus 6 STATS\l"
+	.string "tienen 120 de base?\l"
 	.string "Las bestias de JOHTO que\l"
 	.string "enfrentaste únicamente contaban\l"
 	.string "con dos 115 de BASE como mejores\l"

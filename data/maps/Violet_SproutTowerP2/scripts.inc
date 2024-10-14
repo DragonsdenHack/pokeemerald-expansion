@@ -182,12 +182,10 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_10:
 .string "Sin embargo, me enteré de que está\n"
 	.string "enfermo. Ese excedente de energía\l"
 	.string "es posiblemente la causa de su\l"
-	.string "enfermedad. Su poder y su\l"
-	.string "maldición caminan juntas de la\l"
-	.string "mano.$"
+	.string "enfermedad.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_11:
-.string "Pero no me sorprende, es lo que\n"
+.string "Y no me sorprende, es lo que\n"
 	.string "ocurre cuando a un POKÉMON mortal\l"
 	.string "le colocas el motor de un POKÉMON\l"
 	.string "sagrado: su cuerpo no lo soporta.\l"
