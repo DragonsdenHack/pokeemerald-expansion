@@ -40075,7 +40075,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER717[] = {
     {
     .iv = 255,
     .lvl = 85,
-    .species = SPECIES_ARCANINE,
+    .species = SPECIES_MANECTRIC,
     }
     
 };
@@ -40083,18 +40083,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER717[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER718[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 90,
+    .lvl = 86,
     .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv = 255,
+    .lvl = 86,
+    .species = SPECIES_ARCANINE,
     }
     
 };

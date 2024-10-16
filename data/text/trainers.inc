@@ -18391,6 +18391,20 @@ Goldenrod_RadioTowerP7_Text_PoliciaPostBattle:
 	.string "Dicen que tú solo destrozaste toda la\n"
 	.string "seguridad de SILPH. ¿Es cierto?$"
 
+Goldenrod_RadioTowerP9_Text_PoliciaIntro:
+	.string "El LÍDER ROCKET y su mano derecha\n"
+	.string "acaban de subir. Aún hay tiempo para\l"
+	.string "combatir con el supuesto salvador de\l"
+	.string "KANTO.$"
+
+Goldenrod_RadioTowerP9_Text_PoliciaDefeated:
+	.string "Ahora entiendo que pudieras salvar la\n"
+	.string "región.$"
+
+Goldenrod_RadioTowerP9_Text_PoliciaPostBattle:
+	.string "¿De verdad LANCE tenía a las BESTIAS\n"
+	.string "de JOHTO?$"
+
 
 
 
