@@ -2190,7 +2190,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14:
 	.string "¡PROTÓN!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_15:
-.string "PROTÓN: A la orden jefe.$"
+.string "PROTÓN: A la orden, jefe.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16:
 .string "ANDRA: ¡Guau!\n"

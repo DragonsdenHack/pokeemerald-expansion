@@ -181,7 +181,7 @@ release
 end
 
 RocketHideoutViridian_Combate_Proton_Texto_1:
-.string "PROTÓN: Estás aquí {PLAYER}, viendo\n"
+.string "PROTÓN: Estás aquí, {PLAYER}. Viendo\n"
 	.string "tu trayectoria, era de esperar que\l"
 	.string "no tardarías mucho en vencer a los\l"
 	.string "LÍDERES DE GIMNASIO y llegar hasta\l"

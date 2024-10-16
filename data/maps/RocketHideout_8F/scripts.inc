@@ -2946,7 +2946,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_17:
 
 
 RocketHideout8F_Mision_Mansion_Oak_Text_18:
-.string "PROTÓN: ¡A LA ORDEN SEÑOR!$"
+.string "PROTÓN: ¡A LA ORDEN, SEÑOR!$"
 
 
 RocketHideout8F_Mision_Mansion_Oak_Text_19:
