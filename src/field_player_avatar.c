@@ -2423,7 +2423,25 @@ static void CreateStartSurfingTask(u8 direction)
 
     ScriptContext2_Enable();
     Overworld_ClearSavedMusic();
-    Overworld_ChangeMusicTo(MUS_SURF);
+	switch(gMapHeader.region)
+	{
+		case REGION_KANTO:
+		case SEVII_123:
+		case SEVII_45:
+		case SEVII_67:
+			Overworld_ChangeMusicTo(MUS_RG_SURF);
+			break;	
+		case REGION_JOHTO:
+			Overworld_ChangeMusicTo(618);
+			break;
+		case REGION_HOENN:
+			Overworld_ChangeMusicTo(MUS_SURF);
+			break;
+		default:
+			Overworld_ChangeMusicTo(MUS_SURF);
+			break;
+	}
+
     gPlayerAvatar.flags ^= PLAYER_AVATAR_FLAG_ON_FOOT;
     gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_SURFING;
     gPlayerAvatar.preventStep = TRUE;

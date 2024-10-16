@@ -14027,7 +14027,7 @@ SetSteelBeamBgPlayer:
 	fadetobg BG_STEEL_BEAM_PLAYER
 
 Move_EXPANDING_FORCE::
-	end @to do:
+	goto Move_GIGA_IMPACT
 
 Move_STEEL_ROLLER::
 	goto Move_GYRO_BALL
@@ -14036,7 +14036,7 @@ Move_SCALE_SHOT::
 	end @to do:
 
 Move_METEOR_BEAM::
-	end @to do:
+	goto Move_SOLAR_BEAM
 
 Move_SHELL_SIDE_ARM::
 	launchtask AnimTask_ShellSideArm 0x5 0x0
@@ -14091,7 +14091,7 @@ Move_GRASSY_GLIDE::
 	end @to do:
 
 Move_RISING_VOLTAGE::
-	end @to do:
+	goto Move_VOLT_TACKLE
 
 Move_TERRAIN_PULSE::
 	loadspritegfx ANIM_TAG_DRAGON_PULSE

@@ -11239,7 +11239,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_EXPANDING_FORCE] =
     {
-        .effect = EFFECT_PLACEHOLDER,   //TODO
+        .effect = EFFECT_EXPANDING_FORCE,   //TODO
         .power = 80,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
@@ -11281,7 +11281,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_METEOR_BEAM] =
     {
-        .effect = EFFECT_PLACEHOLDER,   //TODO
+        .effect = EFFECT_METEOR_BEAM,   //TODO
         .power = 120,
         .type = TYPE_ROCK,
         .accuracy = 90,
@@ -11337,7 +11337,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_RISING_VOLTAGE] =
     {
-        .effect = EFFECT_PLACEHOLDER,   //TODO
+        .effect = EFFECT_RISING_VOLTAGE,   //TODO
         .power = 70,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,

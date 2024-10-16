@@ -139,7 +139,6 @@ u8 ScriptGiveCustomMon(u16 species, u8 level, u16 item, u8 ball, u8 nature, u8 a
         if (ivs[i] != 32 && ivs[i] != 0xFF)
             SetMonData(&mon, MON_DATA_HP_IV + i, &ivs[i]);
     }
-    CalculateMonStats(&mon);
 	
 	//poner ataques
 	SetMonMoveSlot(&mon, move1, 0);
@@ -166,6 +165,8 @@ u8 ScriptGiveCustomMon(u16 species, u8 level, u16 item, u8 ball, u8 nature, u8 a
     heldItem[1] = item >> 8;
     SetMonData(&mon, MON_DATA_HELD_ITEM, heldItem);
 	SetMonData(&mon, MON_DATA_EVENT_LEGAL, &isEventLegal);
+	
+	CalculateMonStats(&mon);
 	
 	sentToPc = GiveMonToPlayer(&mon);
     nationalDexNum = SpeciesToNationalPokedexNum(species);

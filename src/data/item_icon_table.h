@@ -214,8 +214,8 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_PINK_APRICORN] = {gItemIcon_PinkApricorn, gItemIconPalette_PinkApricorn},
     [ITEM_WHITE_APRICORN] = {gItemIcon_WhiteApricorn, gItemIconPalette_WhiteApricorn},
     [ITEM_BLACK_APRICORN] = {gItemIcon_BlackApricorn, gItemIconPalette_BlackApricorn},
-    [ITEM_WISHING_PIECE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_GALARICA_TWIG] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
+    [ITEM_WISHING_PIECE] = {gItemIcon_RainbowWing, gItemIconPalette_RainbowWing}, // Todo
+    [ITEM_GALARICA_TWIG] = {gItemIcon_SilverWing, gItemIconPalette_SilverWing}, // Todo
     [ITEM_ARMORITE_ORE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_DYNITE_ORE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     // Mail

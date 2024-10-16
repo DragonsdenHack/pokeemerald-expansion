@@ -11575,6 +11575,14 @@ extern const u8 gMailTilemap_Fab[];
 extern const u8 gMailTiles_Retro[];
 extern const u8 gMailTilemap_Retro[];
 
+//rainbow and silver wing
+
+extern const u32 gItemIconPalette_RainbowWing[];
+extern const u32 gItemIcon_RainbowWing[];
+
+extern const u32 gItemIconPalette_SilverWing[];
+extern const u32 gItemIcon_SilverWing[];  
+
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
