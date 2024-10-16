@@ -653,6 +653,7 @@
 #define TRAINER_CLASS_ANDRA_EJECUTIVA    0xD0
 #define TRAINER_CLASS_ANDRA_ADMIN        0xD1
 #define TRAINER_CLASS_ANDRA_ADMINJEFE    0xD2
+#define TRAINER_CLASS_POLICIA_JOHTO      0xD3
 
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music

@@ -7761,6 +7761,7 @@ u16 GetBattleBGM(void)
             return MUS_VS_KYOGRE_GROUDON;
         case TRAINER_CLASS_EXCULTISTA:
             return MUS_VS_REGI;
+        case TRAINER_CLASS_POLICIA_JOHTO:
         case TRAINER_CLASS_NINJA:
         case TRAINER_CLASS_LADRONJOHTO:
         case TRAINER_CLASS_SABIO:

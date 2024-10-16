@@ -21735,10 +21735,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_717] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerClass = TRAINER_CLASS_POLICIA_JOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
+        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerName = _("T.RADIO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

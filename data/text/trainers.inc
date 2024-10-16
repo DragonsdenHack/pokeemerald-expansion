@@ -18378,6 +18378,19 @@ VermilionCity_Jardin_Text_CriadoraPostBattle:
 	.string "personalidad a nuestros POKÉMON. Son\l"
 	.string "un objeto muy preciado.$"
 
+Goldenrod_RadioTowerP7_Text_PoliciaIntro:
+	.string "Debes de ser {PLAYER}. Pero… ¿quién\n"
+	.string "me asegura que no eres un impostor? No\l"
+	.string "tendrás problema en derrotarme si lo\l"
+	.string "eres, ¿verdad?$"
+
+Goldenrod_RadioTowerP7_Text_PoliciaDefeated:
+	.string "No… no lo tuviste.$"
+
+Goldenrod_RadioTowerP7_Text_PoliciaPostBattle:
+	.string "Dicen que tú solo destrozaste toda la\n"
+	.string "seguridad de SILPH. ¿Es cierto?$"
+
 
 
 
