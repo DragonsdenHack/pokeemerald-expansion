@@ -3084,4 +3084,20 @@ Vermilion_Secundaria_EventScript_PiedraSolar::
 finditem ITEM_SUN_STONE
    end
 
+Radio_Tower_P6_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+   end
+
+Radio_Tower_P7_EventScript_MasPP::
+finditem ITEM_PP_UP
+   end
+
+Radio_Tower_P8_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+   end
+
+Radio_Tower_P10_EventScript_TM50::
+finditem ITEM_TM50_OVERHEAT
+   end
+
 

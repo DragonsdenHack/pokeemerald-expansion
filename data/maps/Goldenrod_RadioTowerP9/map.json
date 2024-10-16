@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_103"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ATLAS",
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_103"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANCIANO",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_103"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -91,6 +91,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Goldenrod_RadioTowerP9_NPC7",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -110,7 +123,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "31",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "31",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "31",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
     {
@@ -176,6 +215,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Goldenrod_RadioTowerP9_Llave_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 13,
+      "elevation": 3,
+      "item": "ITEM_MAX_ELIXIR",
+      "flag": "FLAG_HOENN_279"
     }
   ]
 }
