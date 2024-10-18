@@ -47,7 +47,9 @@ msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_1 MSGBOX_NPC
 delay 10
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_2 MSGBOX_NPC
 delay 10
-msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_3 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_3 MSGBOX_DEFAULT
+waitfanfare
 delay 10
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_4 MSGBOX_NPC
 release

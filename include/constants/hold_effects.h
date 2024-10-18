@@ -84,6 +84,7 @@
 #define HOLD_EFFECT_CONDENSADOR_GAS 188
 #define HOLD_EFFECT_GEN_LOCO        189
 #define HOLD_EFFECT_ODD             190
+#define HOLD_EFFECT_ALA_ARCOIRIS    191
 
 
 // Gen4 hold effects.

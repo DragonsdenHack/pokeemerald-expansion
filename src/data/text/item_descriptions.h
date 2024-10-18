@@ -914,8 +914,10 @@ static const u8 sBlackApricornDesc[] = _(
     "It has an inde-\n"
     "scribable scent.");
 
-static const u8 sWishingPieceDesc[] = _( // Todo
-    "?????");
+static const u8 sWishingPieceDesc[] = _(
+    "Fortalece en un 20%\n"
+   	"ATAQUE y DEFENSA de\n"
+   	"HO-OH.");
 
 static const u8 sGalaricaTwigDesc[] = _( // Todo
     "?????");

@@ -596,6 +596,9 @@ msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12 MSGBOX_AUTOCLOSE
 playse SE_EXIT
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_5
 waitmovement 0x0
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
+clearflag FLAG_HOENN_275
+clearflag FLAG_HOENN_277
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 removeobject 10
 setvar VAR_UNUSED_0x40F7, 152

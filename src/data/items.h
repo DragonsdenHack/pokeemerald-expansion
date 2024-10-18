@@ -2167,10 +2167,11 @@ const struct Item gItems[] =
 
     [ITEM_WISHING_PIECE] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("ALA ARCOIRIS"),
+        .itemId = ITEM_WISHING_PIECE,
+        .price = 50000,
+        .holdEffect = HOLD_EFFECT_ALA_ARCOIRIS,
+        .description = sWishingPieceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

@@ -24,7 +24,7 @@ msgbox GoldenrodRadioTowerP5Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP5Documento_Text_100:
-.string "P5 SALA CUMBRE$"
+.string "P10 SALA CUMBRE$"
 
 GoldenrodRadioTowerP5_Primera_Reunion::
 lock
@@ -2611,3 +2611,10 @@ GoldenrodRadioTowerP5_Tercera_Reunion_Texto_20:
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_21:
 	.string "Después de esto, las regiones de KANTO\n"
 	.string "y JOHTO nunca volverán a ser las mismas.$"
+
+GoldenrodRadioTowerP10_Teletransporte::
+msgbox GoldenrodRadioTowerP10_Teletransporte_Texto_1, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP10_Teletransporte_Texto_1:
+.string "TELETRANSPORTE A RECEPCIÓN$"

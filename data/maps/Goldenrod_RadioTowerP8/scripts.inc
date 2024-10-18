@@ -30,15 +30,29 @@ Goldenrod_RadioTowerP8_NPC3_Texto_2:
 	.string "han quitado las ganas de retar a nadie\l"
 	.string "más…$"
 
+
+	
+	msgbox AzaleaPkmnCenter_Text_1, MSGBOX_DEFAULT
+	release
+	end
+
 Goldenrod_RadioTowerP8_NPC4::
-lock
-msgbox Goldenrod_RadioTowerP8_NPC4_Texto_1 MSGBOX_NPC
-delay 10
-msgbox Goldenrod_RadioTowerP8_NPC4_Texto_2 MSGBOX_NPC
-delay 10
+    lock
+    faceplayer
+	checkmoncatch SPECIES_LILLIPUP
+goto_if_eq VAR_RESULT, FALSE, Goldenrod_RadioTowerP8_EventScript_TakeLillipup
 msgbox Goldenrod_RadioTowerP8_NPC4_Texto_3 MSGBOX_NPC
 delay 10
 msgbox Goldenrod_RadioTowerP8_NPC4_Texto_4 MSGBOX_NPC
+release
+end
+
+Goldenrod_RadioTowerP8_EventScript_TakeLillipup::
+msgbox Goldenrod_RadioTowerP8_NPC4_Texto_1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+msgbox Goldenrod_RadioTowerP8_NPC4_Texto_2, MSGBOX_DEFAULT
+givemon SPECIES_LILLIPUP, 15, ITEM_NORMAL_GEM
+waitfanfare
 release
 end
 
@@ -183,7 +197,7 @@ delay 10
 trainerbattle_no_intro TRAINER_TRAINER_716, Goldenrod_RadioTowerP8_Proton_Texto_9
 delay 10
 msgbox Goldenrod_RadioTowerP8_Proton_Texto_10 MSGBOX_AUTOCLOSE
-delay 200
+delay 20
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTowerP8_Proton_Move_9
 waitmovement 0x0
 delay 20
@@ -210,7 +224,6 @@ applymovement 1, Goldenrod_RadioTowerP8_Proton_Move_10
 waitmovement 0x0
 delay 10
 msgbox Goldenrod_RadioTowerP8_Proton_Texto_17 MSGBOX_AUTOCLOSE
-msgbox Goldenrod_RadioTowerP8_Proton_Texto_18 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 setvar VAR_UNUSED_0x40FF, 31
 release

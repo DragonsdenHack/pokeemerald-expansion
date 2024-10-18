@@ -8558,6 +8558,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].species == SPECIES_WEAVILE && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_ALA_ARCOIRIS:
+        if (gBattleMons[battlerAtk].species == SPECIES_HO_OH && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
     case HOLD_EFFECT_REAPER_CLOTH:
         if (gBattleMons[battlerAtk].species == SPECIES_DUSKNOIR && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
@@ -8751,6 +8755,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     case HOLD_EFFECT_RAZOR_CLAW:
         if (gBattleMons[battlerDef].species == SPECIES_WEAVILE && usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_ALA_ARCOIRIS:
+        if (gBattleMons[battlerDef].species == SPECIES_HO_OH && usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case HOLD_EFFECT_ELECTIRIZER:
         if (gBattleMons[battlerDef].species == SPECIES_ELECTIVIRE && !usesDefStat)
