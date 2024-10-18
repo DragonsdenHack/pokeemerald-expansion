@@ -916,11 +916,13 @@ static const u8 sBlackApricornDesc[] = _(
 
 static const u8 sWishingPieceDesc[] = _(
     "Fortalece en un 20%\n"
-   	"ATAQUE y DEFENSA de\n"
-   	"HO-OH.");
+   	"ATAQUE y DEFENSA\n"
+   	"de HO-OH.");
 
 static const u8 sGalaricaTwigDesc[] = _( // Todo
-    "?????");
+    "Fortalece en un 20%\n"
+   	"AT.ESP y DEF.ESP\n"
+   	"de LUGIA.");
 
 static const u8 sArmoriteOreDesc[] = _( // Todo
     "?????");

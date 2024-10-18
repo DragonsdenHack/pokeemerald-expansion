@@ -18388,8 +18388,8 @@ Goldenrod_RadioTowerP7_Text_PoliciaDefeated:
 	.string "No… no lo tuviste.$"
 
 Goldenrod_RadioTowerP7_Text_PoliciaPostBattle:
-	.string "Dicen que tú solo destrozaste toda la\n"
-	.string "seguridad de SILPH. ¿Es cierto?$"
+	.string "Dicen que tú solo destrozaste a toda\n"
+	.string "la seguridad de SILPH. ¿Es cierto?$"
 
 Goldenrod_RadioTowerP9_Text_PoliciaIntro:
 	.string "El LÍDER ROCKET y su mano derecha\n"

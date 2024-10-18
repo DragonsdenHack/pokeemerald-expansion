@@ -8526,6 +8526,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].species == SPECIES_MAGMORTAR && IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_ALA_PLATEADA:
+        if (gBattleMons[battlerAtk].species == SPECIES_LUGIA && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
     case HOLD_EFFECT_ODD:
         if (gBattleMons[battlerAtk].species == SPECIES_SPIRITOMB && IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
@@ -8723,6 +8727,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     case HOLD_EFFECT_MAGMARIZER:
         if (gBattleMons[battlerDef].species == SPECIES_MAGMORTAR && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_ALA_PLATEADA:
+        if (gBattleMons[battlerDef].species == SPECIES_LUGIA && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case HOLD_EFFECT_ODD:
         if (gBattleMons[battlerDef].species == SPECIES_SPIRITOMB && !usesDefStat)

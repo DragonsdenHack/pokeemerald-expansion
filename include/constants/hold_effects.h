@@ -85,6 +85,7 @@
 #define HOLD_EFFECT_GEN_LOCO        189
 #define HOLD_EFFECT_ODD             190
 #define HOLD_EFFECT_ALA_ARCOIRIS    191
+#define HOLD_EFFECT_ALA_PLATEADA    192
 
 
 // Gen4 hold effects.

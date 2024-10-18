@@ -100,8 +100,8 @@ Goldenrod_RadioTowerP7_NPC_6_Texto_1:
 Goldenrod_RadioTowerP7_NPC_6_Texto_2:
 	.string "Están trayendo POKÉMON de otras\n"
 	.string "regiones para mejorar nuestro\l"
-	.string "desempeño, mis favoritos son MANECTRIC\l"
-	.string "y ARCANINE.$"
+	.string "desempeño, mis favoritos son\l"
+	.string "MANECTRIC y ARCANINE.$"
 
 Goldenrod_RadioTowerP7_EventScript_Policia::
 	trainerbattle_single TRAINER_TRAINER_717, Goldenrod_RadioTowerP7_Text_PoliciaIntro, Goldenrod_RadioTowerP7_Text_PoliciaDefeated

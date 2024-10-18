@@ -99,16 +99,21 @@ Goldenrod_RadioTowerP10_NPC_6_Texto_1:
 Goldenrod_RadioTowerP10_NPC_7::
 lock
 faceplayer
+checkitem ITEM_WISHING_PIECE
+goto_if_eq VAR_RESULT, FALSE, Goldenrod_RadioTowerP10_NPC_7_Ala
+msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_4 MSGBOX_NPC
+delay 10
+msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_5 MSGBOX_NPC
+release
+end
+
+Goldenrod_RadioTowerP10_NPC_7_Ala::
 msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_1 MSGBOX_NPC
 delay 10
 msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_2 MSGBOX_NPC
 delay 10
-playfanfare MUS_RG_OBTAIN_KEY_ITEM
-msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_3 MSGBOX_DEFAULT
-waitfanfare
-msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_4 MSGBOX_NPC
+giveitem ITEM_WISHING_PIECE
 delay 10
-msgbox Goldenrod_RadioTowerP10_NPC_7_Texto_5 MSGBOX_NPC
 release
 end
 

@@ -2167,7 +2167,7 @@ const struct Item gItems[] =
 
     [ITEM_WISHING_PIECE] = // Todo
     {
-        .name = _("ALA ARCOIRIS"),
+        .name = _("Ala Arcoíris"),
         .itemId = ITEM_WISHING_PIECE,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_ALA_ARCOIRIS,
@@ -2179,10 +2179,11 @@ const struct Item gItems[] =
 
     [ITEM_GALARICA_TWIG] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Ala Plateada"),
+        .itemId = ITEM_WISHING_PIECE,
+        .price = 50000,
+        .holdEffect = HOLD_EFFECT_ALA_PLATEADA,
+        .description = sGalaricaTwigDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

@@ -40026,7 +40026,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER716[] = {
     .iv = 255,
     .lvl = 85,
     .species = SPECIES_SLOWKING,
-    .heldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_KINGS_ROCK,
     .evs = {252, 0, 252, 0, 0, 6},
     .nature = NATURE_BOLD,
     .moves = {MOVE_PSYSHOCK, MOVE_SCALD, MOVE_FIRE_BLAST, MOVE_ICE_BEAM}
@@ -40043,7 +40043,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER716[] = {
     {
     .iv = 255,
     .lvl = 88,
-    .species = SPECIES_SILVALLY,
+    .species = SPECIES_SILVALLY_STEEL,
     .heldItem = ITEM_STEEL_MEMORY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,

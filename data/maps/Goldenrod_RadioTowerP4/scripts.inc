@@ -834,6 +834,7 @@ setmetatile 11, 9, 0x26F, FALSE
 setmetatile 12, 9, 0x358, TRUE
 setmetatile 11, 10, 0x3A9, FALSE
 setmetatile 12, 10, 0x360, TRUE
+setmetatile 12, 11, 0x33B, FALSE
 special DrawWholeMapView
 delay 60
 release
