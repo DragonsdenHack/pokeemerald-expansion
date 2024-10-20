@@ -23,6 +23,8 @@ CeladonCity3::
 setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT,1 
 special Special_DoPlayerNamingScreen
 waitstate
+special StartWallClock
+waitstate
 callnative ForcedSaveGame
 waitstate  
 end

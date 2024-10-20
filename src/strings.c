@@ -7,6 +7,7 @@
 	ALIGNED(4) const u8 gText_WonderCards[] = _("Archi7");
     ALIGNED(4) const u8 gText_WonderNews[] = _("Johto");
 	ALIGNED(4) const u8 gText_Dlc[] = _("Dlc");
+	ALIGNED(4) const u8 gText_Hoenn2[] = _("Hoenn");
 	ALIGNED(4) const u8 gText_PostgameKanto[] = _("En este punto, los eventos de Kanto han acabado.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto2[] = _("-Entrenadores hasta este punto derrotados.\n-Pokémon obtenibles hasta este punto en PC.");
 	ALIGNED(4) const u8 gText_PostgameKanto3[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 63.");
@@ -15,11 +16,13 @@
 	ALIGNED(4) const u8 gText_PostgameKanto6[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 77.");
 	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Los eventos suceden tras la aventura en Johto.\nDescubriremos una Kanto y Johto diferentes.");
 	ALIGNED(4) const u8 gText_PostgameKanto8[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 98.");
+	ALIGNED(4) const u8 gText_PostgameKanto9[] = _("En este punto, descubriremos la otra Hoenn.\nHe aquí una lista de cambios:");
+	ALIGNED(4) const u8 gText_PostgameKanto10[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 110.");
 	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
 	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");
-	ALIGNED(4) const u8 gText_ComoFunciona3[] = _("Todos los Pokémon han sido escogidos\ncuidadosamente,");
-	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("con un mov. huevo ó especial,\nun mov. por MT,");
-	ALIGNED(4) const u8 gText_ComoFunciona5[] = _("un mov. característico y\nun mov. arriesgado.");
+	ALIGNED(4) const u8 gText_ComoFunciona3[] = _("Todos los Pokémon han sido escogidos\ncuidadosamente para una gran experiencia.");
+	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("Cada uno poseerá un movimiento huevo ó especial, un movimiento por MT,");
+	ALIGNED(4) const u8 gText_ComoFunciona5[] = _("un movimiento característico de su especie y\nun movimiento arriesgado.");
 	ALIGNED(4) const u8 gText_ComoFunciona6[] = _("Además, dependiendo que punto\nselecciones para empezar, los movimientos");
 	ALIGNED(4) const u8 gText_ComoFunciona7[] = _("variarán.\n¡Encuentra tu punto de partida ideal!");
     
@@ -1710,7 +1713,7 @@ ALIGNED(4) const u8 gText_VarietyOfEventsImportedWireless[] = _("Hay una serie d
 ALIGNED(4) const u8 gText_WonderCardsInPossession[] = _("Leer las TARJETAS MISTERIOSAS\nque tienes.");
 ALIGNED(4) const u8 gText_ReadNewsThatArrived[] = _("Leer las NOTICIAS que han llegado.");
 ALIGNED(4) const u8 gText_ReturnToTitle[] = _("Volver a la pantalla del título.Volver a la pantalla del título.");
-ALIGNED(4) const u8 gText_DontHaveCardNewOneInput[] = _("Como no tienes TARJETA MISTERIOSA,\nse usará otra TARJETA.");
+ALIGNED(4) const u8 gText_DontHaveCardNewOneInput[] = _("Bienvenido/a a Efemérides Rocket.\nElige donde comenzar.");
 ALIGNED(4) const u8 gText_DontHaveNewsNewOneInput[] = _("Como no tienes NOTICIAS MISTERIOSAS,\nse usarán otras NOTICIAS.");
 ALIGNED(4) const u8 gText_WhereShouldCardBeAccessed[] = _("¿De dónde quieres tomar la TARJETA\nMISTERIOSA?");
 ALIGNED(4) const u8 gText_WhereShouldNewsBeAccessed[] = _("¿De dónde quieres tomar las NOTICIAS\nMISTERIOSAS?");
