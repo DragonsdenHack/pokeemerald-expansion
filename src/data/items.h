@@ -8938,9 +8938,9 @@ const struct Item gItems[] =
 		.type = ITEM_USE_PARTY_MENU,
 		.fieldUseFunc = ItemUseOutOfBattle_TMHM,
 	},
-	[ITEM_TM_171_] = {
+	[ITEM_TM171_TELEPORT] = {
 		.name = _("MT171"),
-		.itemId = ITEM_TM_171_,
+		.itemId = ITEM_TM171_TELEPORT,
 		.price = 30000,
 		.description = sTM171Desc,
 		.pocket = POCKET_TM_HM,
