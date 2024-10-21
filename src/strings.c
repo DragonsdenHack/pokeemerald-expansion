@@ -307,13 +307,19 @@ const u8 gText_PokeBallsPocket[] = _("Pokéballs");
 const u8 gText_TMHMPocket[] = _("MTs y MOs");
 const u8 gText_BerriesPocket[] = _("Bayas");
 const u8 gText_KeyItemsPocket[] = _("Obj. clave");
+const u8 gText_MedicinePocket[] = _("Medicinas");
+const u8 gText_BattleItemsPocket[] = _("Obj. batalla");
+const u8 gText_TreasuresPocket[] = _("Poten. {PKMN}");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
     [ITEMS_POCKET] = gText_ItemsPocket,
-    [BALLS_POCKET] = gText_PokeBallsPocket,
+	[MEDICINE_POCKET] = gText_MedicinePocket,
+	[BALLS_POCKET] = gText_PokeBallsPocket,
+	[BATTLEITEMS_POCKET] = gText_BattleItemsPocket,
+	[BERRIES_POCKET] = gText_BerriesPocket,
+    [TREASURES_POCKET] = gText_TreasuresPocket,
     [TMHM_POCKET]  = gText_TMHMPocket,
-    [BERRIES_POCKET] = gText_BerriesPocket,
     [KEYITEMS_POCKET] = gText_KeyItemsPocket
 };
 
@@ -747,6 +753,9 @@ const u8 gText_Key_Items[] = _("OBJ. CLAVE");
 const u8 gText_Poke_Balls[] = _("BALLS");
 const u8 gText_TMs_Hms[] = _("MT / MO");
 const u8 gText_Berries2[] = _("BAYAS");
+const u8 gText_Medicine[] = _("MEDICINAS");
+const u8 gText_BattleItems[] = _("OBJ. BATALLA");
+const u8 gText_Treasures[] = _("POT. {PKMN}");
 const u8 gText_SomeonesPC[] = _("Pc de BILL");
 const u8 gText_LanettesPC[] = _("Pc del Team Rocket");
 const u8 gText_PlayersPC[] = _("Pc de {PLAYER}");
@@ -1593,6 +1602,7 @@ const u8 gText_XWillBeSentToY[] = _("{STR_VAR_2} se enviará a {STR_VAR_1}.");
 const u8 gText_ByeByeVar1[] = _("¡Adiós, {STR_VAR_2}!");
 const u8 gText_XSentOverY[] = _("{STR_VAR_1} envió a {STR_VAR_3}.");
 const u8 gText_TakeGoodCareOfX[] = _("¡Cuida bien de {STR_VAR_3}!");
+const u8 gText_Version[] = _("Versión: 2.0.0");
 
 // Easy chat group names
 const u8 gEasyChatGroupName_Pokemon[] = _("POKéMON");
