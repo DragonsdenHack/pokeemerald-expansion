@@ -1564,7 +1564,7 @@ static const u8 sHeartSwapDescription[] = _(
     "estadísticas con el enemigo.");
 
 static const u8 sAquaRingDescription[] = _(
-    "Creo un velo acuoso que\n"
+    "Crea un velo acuoso que\n"
     "restaura PS.");
 
 static const u8 sMagnetRiseDescription[] = _(
@@ -2737,8 +2737,8 @@ static const u8 sClangorousSoulDescription[] = _(
     "todas las estadísticas.");
     
 static const u8 sBodyPressDescription[] = _(
-    "Hace más daño en función\n"
-    "de la Defensa del enemigo.");
+    "Hace daño en función de\n"
+    "la Defensa del usuario.");
     
 static const u8 sDecorateDescription[] = _(
     "Sube muchísimo el Ataque y\n"
