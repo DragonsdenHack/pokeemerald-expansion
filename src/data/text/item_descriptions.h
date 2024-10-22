@@ -3654,49 +3654,78 @@ static const u8 sTM160Desc[] = _( // Todo
    	"con 1/2 del daño.");
 
 static const u8 sTM161Desc[] = _( // Todo
-    "placeholder");
+    "Lluvia de meteoros.\n"
+   	"Baja mucho el\n"
+   	"At.Esp.");
 
 static const u8 sTM162Desc[] = _( // Todo
-    "placeholder");
+    "Vaho ígneo que\n"
+   	"puede quemar\n"
+   	"al rival.");
 
 static const u8 sTM163Desc[] = _( // Todo
-    "placeholder");
+    "Se desliza y\n"
+   	"golpea. Prioridad\n"
+   	"bajo C.Hierba.");
 
 static const u8 sTM164Desc[] = _( // Todo
-    "placeholder");
+    "Su potencia se\n"
+   	"duplica bajo el\n"
+   	"C.Eléctrico.");
 
 static const u8 sTM165Desc[] = _( // Todo
-    "placeholder");
+    "Su potencia se\n"
+   	"duplica bajo el\n"
+   	"C.Psíquico.");
 
 static const u8 sTM166Desc[] = _( // Todo
-    "placeholder");
+    "Olvida algo y\n"
+   	"eleva 2 niveles\n"
+   	"la DEF.ESP.");
 
 static const u8 sTM167Desc[] = _( // Todo
-    "placeholder");
+    "Se intercambia\n"
+   	"con otro después\n"
+   	"de golepar.");
 
 static const u8 sTM168Desc[] = _( // Todo
-    "placeholder");
+    "Ataque helado\n"
+   	"que baja la\n"
+   	"velocidad.");
 
 static const u8 sTM169Desc[] = _( // Todo
-    "placeholder");
+    "Golpea dos\n"
+   	"veces con las\n"
+   	"alas.");
 
 static const u8 sTM170Desc[] = _( // Todo
-    "placeholder");
+    "Mantiene al\n"
+   	"rival atrapado.");
 
 static const u8 sTM171Desc[] = _( // Todo
-    "placeholder");
+    "Huye del\n"
+   	"combate al\n"
+   	"instante.");
 
 static const u8 sTM172Desc[] = _( // Todo
-    "placeholder");
+    "Mientras duerme,\n"
+   	"usa un ataque al\n"
+   	"azar.");
 
 static const u8 sTM173Desc[] = _( // Todo
-    "placeholder");
+    "Ataca con rayos\n"
+   	"de luz como\n"
+   	"diamantes.");
 
 static const u8 sTM174Desc[] = _( // Todo
-    "placeholder");
+    "+Daño cuanto\n"
+   	"menor sean los\n"
+   	"PS del usuario.");
 
 static const u8 sTM175Desc[] = _( // Todo
-    "placeholder");
+    "Ataca sin\n"
+   	"miramientos.\n"
+   	"Baja defensas.");
 
 static const u8 sTM176Desc[] = _( // Todo
     "placeholder");
