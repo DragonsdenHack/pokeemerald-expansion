@@ -49253,3 +49253,1902 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH200[] = {
     
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH201[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH202[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH203[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH204[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH205[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH206[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH207[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH208[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH209[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH210[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH211[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH212[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH213[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH214[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH215[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH216[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH217[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH218[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH219[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH220[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH221[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH222[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH223[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH224[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH225[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH226[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH227[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH228[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH229[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH230[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH231[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH232[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH233[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH234[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH235[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH236[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH237[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH238[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH239[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH240[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH241[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH242[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH243[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH244[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH245[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH246[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH247[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH248[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH249[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH250[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH251[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH252[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH253[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH254[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH255[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH256[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH257[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH258[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH259[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH260[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH261[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH262[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH263[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH264[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH265[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH266[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH267[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH268[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH269[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH270[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH271[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH272[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH273[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH274[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH275[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH276[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH277[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH278[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH279[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH280[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH281[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH282[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH283[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH284[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH285[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH286[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH287[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH288[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH289[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH290[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH291[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH292[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH293[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH294[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH295[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH296[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH297[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH298[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH299[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_SINNOH300[] = {
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 87,
+    .species = SPECIES_HARIYAMA,
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MACHAMP,
+    }
+    
+};
+
