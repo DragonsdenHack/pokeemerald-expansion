@@ -21,7 +21,7 @@
 	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
 	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");
 	ALIGNED(4) const u8 gText_ComoFunciona3[] = _("Todos los Pokémon han sido escogidos\ncuidadosamente para una gran experiencia.");
-	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("Cada uno poseerá un movimiento huevo ó especial, un movimiento por MT,");
+	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("Cada uno poseerá un movimiento\nhuevo ó especial, un movimiento por MT,");
 	ALIGNED(4) const u8 gText_ComoFunciona5[] = _("un movimiento característico de su especie y\nun movimiento arriesgado.");
 	ALIGNED(4) const u8 gText_ComoFunciona6[] = _("Además, dependiendo que punto\nselecciones para empezar, los movimientos");
 	ALIGNED(4) const u8 gText_ComoFunciona7[] = _("variarán.\n¡Encuentra tu punto de partida ideal!");
