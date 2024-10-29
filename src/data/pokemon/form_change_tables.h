@@ -46,7 +46,7 @@ static const struct FormChange sGiratinaFormChangeTable[] = {
 };
 
 static const struct FormChange sShayminFormChangeTable[] = {
-    {FORM_ITEM_USE_TIME, SPECIES_SHAYMIN_SKY, ITEM_GRACIDEA, DAY},
+    {FORM_ITEM_USE_TIME, SPECIES_SHAYMIN_SKY, ITEM_GRACIDEA},
     {FORM_CHANGE_END},
 };
 
