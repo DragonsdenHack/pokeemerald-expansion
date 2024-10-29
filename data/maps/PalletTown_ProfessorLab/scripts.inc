@@ -3,7 +3,9 @@ PalletTown_ProfessorLab_MapScripts::
 
 PalletTownProfessorLab1::
 lock     
-faceplayer     
+faceplayer 
+compare VAR_UNUSED_0x40F7, 152
+goto_if_gt PalletTownProfessorLab1_2
 msgbox PalletTown_ProfessorLab_Text_1, MSGBOX_DEFAULT
 release     
 end
@@ -14,11 +16,21 @@ PalletTown_ProfessorLab_Text_1:
 .string "curiosidad mató al gato chico,\l"
 .string "espero que me hayas entendido.$"
 
+PalletTownProfessorLab1_2::
+msgbox PalletTown_ProfessorLab_Despues_Text_1, MSGBOX_DEFAULT
+release     
+end
 
+PalletTown_ProfessorLab_Despues_Text_1:
+	.string "¿Eres un AYUDANTE de OAK en JOHTO? Es\n"
+	.string "genial que ahora estemos también en\l"
+	.string "esa región.$"
 
 PalletTownProfessorLab2::
 lock     
-faceplayer     
+faceplayer  
+compare VAR_UNUSED_0x40F7, 152
+goto_if_gt PalletTownProfessorLab2_2
 msgbox PalletTown_ProfessorLab_Text_2, MSGBOX_DEFAULT
 release     
 end
@@ -29,11 +41,22 @@ PalletTown_ProfessorLab_Text_2:
 .string "¡Si sigues insistiendo llamaremos\l"
 .string "a la POLICÍA!$"
 
+PalletTownProfessorLab2_2::
+msgbox PalletTown_ProfessorLab_Despues_Text_2, MSGBOX_DEFAULT
+release     
+end
+
+PalletTown_ProfessorLab_Despues_Text_2:
+	.string "OAK va a participar en el programa de\n"
+	.string "radio de CIUDAD TRIGAL. Es toda una\l"
+	.string "eminencia.$"
 
 
 PalletTownProfessorLab3::
 lock     
-faceplayer     
+faceplayer 
+compare VAR_UNUSED_0x40F7, 152
+goto_if_gt PalletTownProfessorLab3_2
 msgbox PalletTown_ProfessorLab_Text_3, MSGBOX_DEFAULT
 release     
 end
@@ -43,7 +66,22 @@ PalletTown_ProfessorLab_Text_3:
 .string "recomiendo largarte antes de que\l"
 .string "el profesor decida acabar contigo.$"
 
+PalletTownProfessorLab3_2::
+msgbox PalletTown_ProfessorLab_Despues_Text_3, MSGBOX_DEFAULT
+msgbox PalletTown_ProfessorLab_Despues_Text_3.1, MSGBOX_DEFAULT
+release     
+end
 
+PalletTown_ProfessorLab_Despues_Text_3:
+	.string "Recientemente expandimos la POKÉDEX a\n"
+	.string "251 POKÉMON.$"
+
+PalletTown_ProfessorLab_Despues_Text_3.1:
+	.string "Aunque sabemos de la existencia de\n"
+	.string "muchos más, cubrirá la inmensa mayoría\l"
+	.string "de POKÉMON que hay en KANTO y JOHTO.\l"
+	.string "Los nuevos niños no necesitan saber\l"
+	.string "más.$"
 
 PalletTownProfessorLabDocumento_100::
 msgbox PalletTownProfessorLabDocumento_Text_100, MSGBOX_SIGN   
@@ -446,9 +484,9 @@ delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_6 MSGBOX_AUTOCLOSE
-delay 15
+delay 25
 msgbox PalletTown_ProfessorLab_Andra_Texto_7 MSGBOX_AUTOCLOSE
-delay 15
+delay 25
 msgbox PalletTown_ProfessorLab_Andra_Texto_8 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 6, PalletTown_ProfessorLab_Andra_Move_6
@@ -474,7 +512,7 @@ delay 10
 applymovement 6, PalletTown_ProfessorLab_Andra_Move_12
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_13
 waitmovement 0x0
-delay 15
+delay 25
 msgbox PalletTown_ProfessorLab_Andra_Texto_12 MSGBOX_AUTOCLOSE
 delay 45
 playse SE_PIN
@@ -487,21 +525,178 @@ applymovement 6, PalletTown_ProfessorLab_Andra_Move_14
 waitmovement 0x0
 delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_15
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_16
+waitmovement 0x0
+delay 10
+playse SE_CLICK
+waitse
+delay 35
 msgbox PalletTown_ProfessorLab_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_FAILURE
+waitse
+delay 25
 msgbox PalletTown_ProfessorLab_Andra_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_17
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_15
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_16
+waitmovement 0x0
+delay 10
+playse SE_CLICK
+waitse
+delay 35
 msgbox PalletTown_ProfessorLab_Andra_Texto_20 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_FAILURE
+waitse
+delay 25
 msgbox PalletTown_ProfessorLab_Andra_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_16
+waitmovement 0x0
+playse SE_CLICK
+waitse
+delay 35
 msgbox PalletTown_ProfessorLab_Andra_Texto_23 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_FAILURE
+waitse
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_18
+waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_Andra_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_19
+waitmovement 0x0
+delay 20
+playse SE_PIN
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_2
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_ProfessorLab_Andra_Texto_25 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PalletTown_ProfessorLab_Andra_Texto_26 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PalletTown_ProfessorLab_Andra_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_20
+waitmovement 0x0
+delay 15
+msgbox PalletTown_ProfessorLab_Andra_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_21
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_Andra_Texto_29 MSGBOX_AUTOCLOSE
+delay 16
+msgbox PalletTown_ProfessorLab_Andra_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_22
+waitmovement 0x0
+delay 15
+msgbox PalletTown_ProfessorLab_Andra_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Andra_Move_24
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_23
+waitmovement 0x0
+delay 15
+playse SE_EXIT
+waitse
+setflag FLAG_HOENN_655
+removeobject 6
+clearflag FLAG_HOENN_677
 setvar VAR_UNUSED_0x40F8, 26
 release
 end
+
+PalletTown_ProfessorLab_Andra_Move_24:
+delay_16
+delay_16
+delay_8
+face_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_23:
+walk_down
+walk_right
+walk_right
+walk_down
+walk_down
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_22:
+delay_16
+face_down
+delay_8
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_21:
+face_right
+delay_16
+walk_slow_right
+delay_8
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_20:
+delay_16
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_19:
+walk_slow_up
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_18:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_17:
+delay_8
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_16:
+walk_in_place_up
+step_end
+
+PalletTown_ProfessorLab_Andra_Move_15:
+delay_8
+face_up
+step_end
 
 PalletTown_ProfessorLab_Andra_Texto_1:
 	.string "No te preocupes, ya les he dicho a los\n"
@@ -586,9 +781,27 @@ PalletTown_ProfessorLab_Andra_Texto_24:
 	.string "Tampoco.$"
 
 PalletTown_ProfessorLab_Andra_Texto_25:
-	.string "Es absurdo, pueden ser tantas cosas… y\n"
-	.string "ni siquiera tenemos la certeza de que\l"
-	.string "sea lo que andamos buscando.$"
+	.string "Oh… Se ha bloqueado la opción.$"
 
 PalletTown_ProfessorLab_Andra_Texto_26:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_27:
+	.string "Pone que ahora deberemos esperar al\n"
+	.string "menos 15 min. Pinta a que, si volvemos a\l"
+	.string "fallar, será mucho más.$"
+
+PalletTown_ProfessorLab_Andra_Texto_28:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_29:
+	.string "Es absurdo. Hay tantas opciones… y ni\n"
+	.string "siquiera tenemos la certeza de que esto\l"
+	.string "sea lo que andamos buscando.$"
+
+PalletTown_ProfessorLab_Andra_Texto_30:
+	.string "… …$"
+
+PalletTown_ProfessorLab_Andra_Texto_31:
 	.string "Necesito salir fuera un momento.$"
+
