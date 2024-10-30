@@ -143,6 +143,33 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "61",
       "script": "PalletTown_ProfessorLab_Lab_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "27",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "27",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "27",
+      "script": "NULL"
     }
   ],
   "bg_events": [

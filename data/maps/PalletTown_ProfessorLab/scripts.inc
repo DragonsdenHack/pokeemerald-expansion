@@ -805,3 +805,90 @@ PalletTown_ProfessorLab_Andra_Texto_30:
 PalletTown_ProfessorLab_Andra_Texto_31:
 	.string "Necesito salir fuera un momento.$"
 
+
+PalletTown_ProfessorLab_ZonaCero::
+lock
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_12 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_13 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_14 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_15 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_16 MSGBOX_AUTOCLOSE
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_17 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_ProfessorLab_ZonaCero_Texto_1:
+ 	.string "Hace 15 años…$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_2:
+	.string "OAK lleva mucho más tiempo como\n"
+	.string "investigador.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_3:
+	.string "Pero fue aquí donde empezó a recoger\n"
+	.string "los frutos de su trabajo, donde se\l"
+	.string "convirtió en el 'Profesor OAK'.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_4:
+	.string "Estamos en 1999, de modo que este\n"
+	.string "laboratorio se fundó en…$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_5:
+	.string "'1984'$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_6:
+	.string "¡Bingo!$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_7:
+	.string "Entonces, el comentario de DALIA\n"
+	.string "no fue algo casual.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_8:
+	.string "Casual…$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_9:
+	.string "¡Jah! ¿Cómo iba a serlo?$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_10:
+	.string "Ahora parece claro. Teníamos la verdad\n"
+	.string "delante, disfrazada de casualidad, y\l"
+	.string "nos fuimos antes de descorrer el velo.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_11:
+	.string "Entonces, OAK contaba con su propia\n"
+	.string "'BASE PROFUNDA'.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_12:
+	.string "La cuestión es… si GIOVANNI y el\n"
+	.string "resto también lo saben.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_13:
+	.string "Porque ahora, después de las reuniones\n"
+	.string "en TRIGAL… deberían… ¿no?$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_14:
+	.string "Mmm…$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_15:
+	.string "Debimos investigarlo antes, {PLAYER}.\n"
+	.string "Pero mejor tarde que nunca.$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_16:
+	.string "Ahora que somos aliados, tenemos la\n"
+	.string "excusa perfecta para hacer una\l"
+	.string "pequeña visita y, tal vez…$"
+
+PalletTown_ProfessorLab_ZonaCero_Texto_17:
+	.string "…ver más allá de lo que\n"
+	.string "supuestamente debíamos ver.$"

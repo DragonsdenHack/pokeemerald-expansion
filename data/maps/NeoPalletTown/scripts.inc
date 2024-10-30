@@ -52,6 +52,53 @@ face_right
 delay_16
 step_end
 
+PalletTown_Andra_Despues_Move_4:
+delay_16
+face_down
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+PalletTown_Andra_Despues_Move_5:
+walk_slow_right
+walk_slow_right
+step_end
+
+PalletTown_Andra_Despues_Move_6:
+walk_left
+walk_left
+walk_left
+walk_up
+step_end
+
+PalletTown_Andra_Despues_Move_7:
+face_up
+step_end
+
+PalletTown_Andra_Despues_Move_8:
+face_down
+step_end
+
+PalletTown_Andra_Despues_Move_9:
+emote_exclamation_mark
+step_end
+
+PalletTown_Andra_Despues_Move_10:
+walk_slow_down
+step_end
+
+PalletTown_Andra_Despues_Move_11:
+face_left
+step_end
+
+PalletTown_Andra_Despues_Move_12:
+walk_in_place_up
+step_end
+
 PalletTown_Andra_Despues::
 lock
 delay 15
@@ -69,32 +116,196 @@ delay 15
 msgbox PalletTown_Andra_Despues_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_Andra_Despues_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, PalletTown_Andra_Despues_Move_4
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, PalletTown_Andra_Despues_Move_5
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, PalletTown_Andra_Despues_Move_6
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_8
+applymovement 1, PalletTown_Andra_Despues_Move_7
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_9
+applymovement 4, PalletTown_Andra_Despues_Move_9
+waitmovement 0x0
+waitse
+delay 10
+applymovement 4, PalletTown_Andra_Despues_Move_7
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, PalletTown_Andra_Despues_Move_10
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Despues_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, PalletTown_Andra_Despues_Move_11
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Andra_Despues_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_Andra_Despues_Move_7
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_Andra_Despues_Move_12
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_13 MSGBOX_AUTOCLOSE
+delay 35
 msgbox PalletTown_Andra_Despues_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_11
+applymovement 4, PalletTown_Andra_Despues_Move_13
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_14
+applymovement 4, PalletTown_Andra_Despues_Move_15
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_20
+applymovement 4, PalletTown_Andra_Despues_Move_8
+waitmovement 0x0
+special SpawnCameraObject
+applymovement 1, PalletTown_Andra_Despues_Move_17
+applymovement 4, PalletTown_Andra_Despues_Move_16
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Andra_Despues_Move_22
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
 msgbox PalletTown_Andra_Despues_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_Andra_Despues_Move_14
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_Andra_Despues_Move_7
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 4, PalletTown_Andra_Despues_Move_15
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PalletTown_Andra_Despues_Move_11
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Andra_Despues_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_Andra_Despues_Move_14
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_21 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, PalletTown_Andra_Despues_Move_9
+waitmovement 0x0
+waitse
+delay 10
 msgbox PalletTown_Andra_Despues_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 4, PalletTown_Andra_Despues_Move_18
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, PalletTown_Andra_Despues_Move_14
+waitmovement 0x0
 msgbox PalletTown_Andra_Despues_Texto_24 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Andra_Despues_Move_22.1
+applymovement 4, PalletTown_Andra_Despues_Move_19
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Andra_Despues_Move_21
+applymovement 4, PalletTown_Andra_Move_4
+waitmovement 0x0
+playse SE_DOOR
+opendoor 16, 13
+waitdooranim
+applymovement 4, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 3
+closedoor 16, 13
+waitdooranim
 setflag FLAG_HOENN_677
+clearflag FLAG_HOENN_655
 removeobject 4
 setvar VAR_UNUSED_0x40F8, 27
 release
 end
+
+PalletTown_Andra_Despues_Move_22.1:
+walk_slow_up
+walk_slow_up
+step_end
+
+PalletTown_Andra_Despues_Move_22:
+walk_slow_down
+walk_slow_down
+step_end
+
+PalletTown_Andra_Despues_Move_21:
+face_right
+step_end
+
+PalletTown_Andra_Despues_Move_20:
+delay_16
+walk_left
+face_down
+step_end
+
+PalletTown_Andra_Despues_Move_19:
+walk_left
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+PalletTown_Andra_Despues_Move_18:
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+PalletTown_Andra_Despues_Move_17:
+delay_16
+delay_16
+face_left
+step_end
+
+PalletTown_Andra_Despues_Move_16:
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+step_end
+
+PalletTown_Andra_Despues_Move_15:
+walk_in_place_right
+step_end
+
+PalletTown_Andra_Despues_Move_14:
+walk_in_place_left
+step_end
+
+PalletTown_Andra_Despues_Move_13:
+face_right
+step_end
 
 PalletTown_Andra_Despues_Texto_1:
 	.string "Este pueblo… sigue igual\n"
