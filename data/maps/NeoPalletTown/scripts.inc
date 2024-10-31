@@ -234,7 +234,7 @@ opendoor 16, 13
 waitdooranim
 applymovement 4, VerdanturfTown_Move_22
 waitmovement 0x0
-removeobject 3
+removeobject 4
 closedoor 16, 13
 waitdooranim
 setflag FLAG_HOENN_677

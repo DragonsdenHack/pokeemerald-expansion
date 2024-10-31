@@ -805,28 +805,283 @@ PalletTown_ProfessorLab_Andra_Texto_30:
 PalletTown_ProfessorLab_Andra_Texto_31:
 	.string "Necesito salir fuera un momento.$"
 
+PalletTown_ProfessorLab_ZonaCero_Move_1:
+walk_in_place_up
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_2:
+walk_right
+face_up
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_3:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_4:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Izq::
+lock
+clearflag FLAG_HOENN_655
+addobject 6
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_1
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_3
+waitmovement 0x0
+goto PalletTown_ProfessorLab_ZonaCero
+
+PalletTown_ProfessorLab_ZonaCero_Centro::
+lock
+clearflag FLAG_HOENN_655
+addobject 6
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_1
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_4
+waitmovement 0x0
+goto PalletTown_ProfessorLab_ZonaCero
+
+PalletTown_ProfessorLab_ZonaCero_Der::
+lock
+clearflag FLAG_HOENN_655
+addobject 6
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_1
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_ZonaCero_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_5
+waitmovement 0x0
+goto PalletTown_ProfessorLab_ZonaCero
+
+
+PalletTown_ProfessorLab_ZonaCero_Move_6:
+face_right
+delay_16
+delay_8
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_7:
+delay_16
+face_up
+delay_16
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_8:
+face_right
+delay_8
+emote_exclamation_mark
+step_end
+
 
 PalletTown_ProfessorLab_ZonaCero::
 lock
-msgbox PalletTown_ProfessorLab_ZonaCero_Texto_1 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_2 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_3 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_6
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_7
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_Andra_Move_16
+waitmovement 0x0
+playse SE_CLICK
+waitse
+delay 35
+msgbox PalletTown_ProfessorLab_Andra_Texto_23 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_SUCCESS
+waitse
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_6 MSGBOX_AUTOCLOSE
+delay 25
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_8
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_8
+waitmovement 0x0
+playse SE_UNLOCK
+setmetatile 11, 0, 0x0DB, TRUE
+setmetatile 11, 1, 0x0E3, TRUE
+setmetatile 11, 2, 0x281, FALSE
+setmetatile 12, 2, 0x281, FALSE
+setmetatile 12, 1, 0x144, FALSE
+setmetatile 12, 0, 0x13C, FALSE
+special DrawWholeMapView
+delay 60
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_9
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_10
+waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_11
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_20
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_12
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_13
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_ZonaCero_Move_19
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_18
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_13 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_14 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_14
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_15
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_16
+waitmovement 0x0
+delay 15
 msgbox PalletTown_ProfessorLab_ZonaCero_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 6, PalletTown_ProfessorLab_ZonaCero_Move_17
+waitmovement 0x0
+setflag FLAG_HOENN_655
+removeobject 6
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F8, 28
 release
 end
+
+PalletTown_ProfessorLab_ZonaCero_Move_20:
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_19:
+delay_16
+face_up
+delay_8
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_18:
+walk_slow_up
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_17:
+walk_up
+walk_up
+face_left
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_16:
+delay_8
+face_up
+delay_16
+delay_8
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_15:
+walk_in_place_down
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_14:
+walk_right
+face_down
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_13:
+delay_16
+face_up
+delay_16
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_12:
+delay_16
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_11:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_10:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+face_up
+step_end
+
+PalletTown_ProfessorLab_ZonaCero_Move_9:
+delay_16
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+face_up
+step_end
 
 PalletTown_ProfessorLab_ZonaCero_Texto_1:
  	.string "Hace 15 años…$"
@@ -866,8 +1121,8 @@ PalletTown_ProfessorLab_ZonaCero_Texto_10:
 	.string "nos fuimos antes de descorrer el velo.$"
 
 PalletTown_ProfessorLab_ZonaCero_Texto_11:
-	.string "Entonces, OAK contaba con su propia\n"
-	.string "'BASE PROFUNDA'.$"
+	.string "Entonces, OAK contaba con\n"
+	.string "su propia 'BASE PROFUNDA'.$"
 
 PalletTown_ProfessorLab_ZonaCero_Texto_12:
 	.string "La cuestión es… si GIOVANNI y el\n"
@@ -892,3 +1147,39 @@ PalletTown_ProfessorLab_ZonaCero_Texto_16:
 PalletTown_ProfessorLab_ZonaCero_Texto_17:
 	.string "…ver más allá de lo que\n"
 	.string "supuestamente debíamos ver.$"
+
+PalletTown_ProfessorLab_ZonaCero_Activador::
+lock
+compare VAR_UNUSED_0x40F8, 27
+goto_if_gt PalletTown_ProfessorLab_ZonaCero_Activador_Despues
+msgbox PalletTown_ProfessorLab_ZonaCero_Activador_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_ProfessorLab_ZonaCero_Activador_Despues::
+msgbox PalletTown_ProfessorLab_ZonaCero_Activador_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 20
+playse SE_CLICK
+delay 40
+playse SE_SUCCESS
+delay 40
+playse SE_UNLOCK
+setmetatile 11, 0, 0x0DB, TRUE
+setmetatile 11, 1, 0x0E3, TRUE
+setmetatile 11, 2, 0x281, FALSE
+setmetatile 12, 2, 0x281, FALSE
+setmetatile 12, 1, 0x144, FALSE
+setmetatile 12, 0, 0x13C, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+PalletTown_ProfessorLab_ZonaCero_Activador_Texto_1:
+	.string "Parece una de tantas otras máquinas.$"
+
+PalletTown_ProfessorLab_ZonaCero_Activador_Texto_2:
+	.string "Es la máquina que lleva a la ZONA 0.\n"
+	.string "¿Quieres poner la contraseña?$"

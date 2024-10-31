@@ -39,13 +39,53 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Laboratorio_S1_EventScript_Restauratodo",
       "flag": "FLAG_HOENN_227"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 9,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_Doc_Gyarados",
+      "flag": "0"
     }
   ],
   "warp_events": [
-
+    {
+      "x": 53,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_LAB",
+      "dest_warp_id": 4
+    }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "28",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Andra"
+    }
   ],
   "bg_events": [
 

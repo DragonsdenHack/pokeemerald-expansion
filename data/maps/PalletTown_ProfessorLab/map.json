@@ -114,6 +114,20 @@
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_LAB",
       "dest_warp_id": 0
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S1",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_LAB",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -151,7 +165,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "27",
-      "script": "NULL"
+      "script": "PalletTown_ProfessorLab_ZonaCero_Izq"
     },
     {
       "type": "trigger",
@@ -160,7 +174,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "27",
-      "script": "NULL"
+      "script": "PalletTown_ProfessorLab_ZonaCero_Der"
     },
     {
       "type": "trigger",
@@ -169,7 +183,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "27",
-      "script": "NULL"
+      "script": "PalletTown_ProfessorLab_ZonaCero_Centro"
     }
   ],
   "bg_events": [
@@ -204,6 +218,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTownProfessorLabDocumento_102"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_ProfessorLab_ZonaCero_Activador"
     }
   ]
 }
