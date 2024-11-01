@@ -16,8 +16,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 42,
-      "y": 21,
+      "x": 52,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_655"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
@@ -65,6 +65,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_Laboratorio_Secreto_Doc_Gyarados",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 42,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Mewtwo",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -74,13 +87,34 @@
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_LAB",
       "dest_warp_id": 4
+    },
+    {
+      "x": 50,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 2,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
       "x": 1,
-      "y": 9,
+      "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "28",

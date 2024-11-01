@@ -95,9 +95,82 @@ PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_5:
 	.string "Entra de lleno en el cuadrante de\n"
 	.string "prototipos nivel II.$"
 
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_1:
+walk_in_place_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_2:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_3:
+walk_in_place_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_4:
+delay_16
+face_up
+delay_8
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_5:
+delay_8
+face_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_6:
+delay_8
+face_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_7:
+delay_16
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_8:
+delay_16
+face_left
+delay_16
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_9:
+delay_8
+face_down
+step_end
+
+
+
 PalletTown_Laboratorio_Secreto_S1_Andra::
 lock
-msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S1_Andra_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1.0 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_655
+addobject 3
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S1_Andra_Move_2
+waitmovement 0x0
+delay 10
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_3
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S1_Andra_Move_4
+waitmovement 0x0
+delay 10
 showmonpic SPECIES_GYARADOSZ, 10, 3  
 playmoncry SPECIES_GYARADOS, CRY_MODE_ENCOUNTER 
 msgbox PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_1, MSGBOX_DEFAULT
@@ -106,23 +179,80 @@ msgbox PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_3, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_4, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_5, MSGBOX_DEFAULT
 hidemonpic
+delay 25
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S1_Andra_Move_5
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_3
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_4
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_6
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_4
+waitmovement 0x0
+delay 20
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_7
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_8
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_9
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S1_Andra_Move_9
+applymovement 3, PalletTown_Laboratorio_Secreto_S1_Andra_Move_10
+waitmovement 0x0
+delay 10
+setflag FLAG_HOENN_655
+removeobject 3
 setvar VAR_UNUSED_0x40F8, 29
 release
 end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Move_10:
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1.0:
+	.string "ANDRA: ¡{PLAYER}! ¡Mira esto!$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1:
 	.string "Es de lo que estaban hablando en la\n"
@@ -131,9 +261,9 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_1:
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_2:
 	.string "Esa tecnología de ondas de radio…\n"
-	.string "parece ser capaz de sumar 150 en lugar\l"
-	.string "de 100 al poder base. Además, en los\l"
-	.string "lugares adecuados.$"
+	.string "Tal y como dijeron: suma 150 en lugar\l"
+	.string "de 100 al poder base.\l"
+	.string "Además, de forma eficiente.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_3:
 	.string "Son números impresionantes, no hay\n"
@@ -202,7 +332,12 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_14:
 	.string "formando parte de una ecuación.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_15:
-	.string "Hicimos bien en venir aquí. Desde la\n"
-	.string "BASE ROCKET PROFUNDA no tengo esta\l"
-	.string "sensación, no puedo esperar para ver\l"
-	.string "qué más hay aquí.$"
+	.string "Hicimos bien en venir.\n"
+	.string "Desde BASE PROFUNDA no tengo esta\l"
+	.string "sensación, no puedo esperar para\l"
+	.string "ver lo que nos depara este lugar.$"
+
+PalletTown_Laboratorio_Secreto_S1_Mewtwo::
+lock
+release
+end
