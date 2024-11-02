@@ -3,8 +3,37 @@ PalletTown_Laboratorio_Secreto_S2_MapScripts::
 
 PalletTown_Laboratorio_Secreto_S2_Diance::
 lock
+msgbox PalletTown_Laboratorio_Secreto_S2_Diance_Texto_1 MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S2_Diance_Texto_2 MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S2_Diance_Texto_3 MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S2_Diance_Texto_4 MSGBOX_SIGN
 release
 end
+
+PalletTown_Laboratorio_Secreto_S2_Diance_Texto_1:
+	.string "Las antiguas escrituras de KALOS\n"
+	.string "estaban en lo cierto: DIANCIE surge a\l"
+	.string "partir de una mutación en CARBINK.$"
+
+PalletTown_Laboratorio_Secreto_S2_Diance_Texto_2:
+	.string "Gracias a las ondas de radio, pudimos\n"
+	.string "demostrarlo y reproducir dicha\l"
+	.string "mutación de forma controlada.$"
+
+PalletTown_Laboratorio_Secreto_S2_Diance_Texto_3:
+	.string "El resultado es que ahora, desde\n"
+	.string "nuestros laboratorios, podemos\l"
+	.string "convertir cualquier CARBINK en DIANCIE\l"
+	.string "de forma óptima, exacta y medida, sin\l"
+	.string "esperar a que surja como milagro de la\l"
+	.string "naturaleza.$"
+
+PalletTown_Laboratorio_Secreto_S2_Diance_Texto_4:
+	.string "Observaciones: La forma base de\n"
+	.string "DIANCIE es mediocre para los\l"
+	.string "estándares actuales. Sin embargo, su\l"
+	.string "MEGAEVOLUCIÓN sigue teniendo valor\l"
+	.string "competitivo.$"
 
 
 PalletTown_ProfessorLab_Diance::
@@ -75,6 +104,8 @@ delay 10
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S2_Estatua_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox PalletTown_Laboratorio_Secreto_S2_Estatua_Texto_6 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -164,11 +195,6 @@ goto_if_gt PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Despues
 msgbox PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
-
-
-PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Texto_1:
-	.string "Puede introducirse una clave en la\n"
-	.string "puerta. ¿Cuál será?$"
 
 PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Texto_2:
 	.string "Introdujiste la clave:\n"

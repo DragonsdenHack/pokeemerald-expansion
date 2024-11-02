@@ -343,22 +343,134 @@ lock
 release
 end
 
+Laboratorio_Secreto_S1_Andra_Despues_Move_2:
+face_down
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_3:
+walk_left
+face_right
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_4:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_5:
+face_left
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_6:
+walk_in_place_right
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_7:
+face_up
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_8:
+face_up
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_9:
+walk_in_place_left
+step_end
+
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S1_Andra_Despues_Move_1
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S1_Andra_Despues_Move_2
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_1 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_655
+addobject 6
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S1_Andra_Despues_Move_3
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_4
+waitmovement 0x0
+delay 10
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 32, 17, 0x282, FALSE
+setmetatile 32, 16, 0x282, FALSE
+special DrawWholeMapView
+delay 20
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_5
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S1_Andra_Despues_Move_6
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_7
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S1_Andra_Despues_Move_6
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_8
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_1
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_5
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10.1 MSGBOX_AUTOCLOSE
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_9
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, Laboratorio_Secreto_S1_Andra_Despues_Move_10
+waitmovement 0x0
 setflag FLAG_HOENN_655
+setflag FLAG_HOENN_282
+removeobject 6
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F8, 32
 release
 end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_10:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Laboratorio_Secreto_S1_Andra_Despues_Move_1:
+walk_in_place_up
+step_end
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_1:
 	.string "A un lado, {PLAYER}.$"
@@ -394,8 +506,10 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_9:
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10:
 	.string "Con esos POKÉMON, ningún ENTRENADOR\n"
-	.string "podría pasar de estas puertas. Pero sí\l"
-	.string "nosotros.$"
+	.string "podría pasar de estas puertas.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10.1:
+	.string "Pero sí nosotros.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_11:
 	.string "Ahora podremos ver qué\n"
@@ -403,10 +517,51 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_11:
 
 PalletTown_Laboratorio_Secreto_S1_Primera_Llave::
 lock
+delay 10
+compare VAR_UNUSED_0x40F8, 30
+goto_if_gt PalletTown_Laboratorio_Secreto_S1_Primera_Llave_Despues
+msgbox PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
 
-PalletTown_Laboratorio_Secreto_S1_Segunda_Llave::
-lock
+
+PalletTown_Laboratorio_Secreto_S2_Primera_Puerta_Texto_1:
+	.string "Puede introducirse una clave en la\n"
+	.string "puerta. ¿Cuál será?$"
+
+PalletTown_Laboratorio_Secreto_S1_Primera_Llave_Texto_1:
+	.string "Introdujiste la clave:\n"
+	.string "'La ignorancia es la fuerza'.$"
+
+PalletTown_Laboratorio_Secreto_S1_Primera_Llave_Despues::
+msgbox PalletTown_Laboratorio_Secreto_S1_Primera_Llave_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 31, 21, 0x282, FALSE
+setmetatile 31, 20, 0x282, FALSE
+setmetatile 32, 22, 0x281, FALSE
+setmetatile 32, 21, 0x281, FALSE
+setmetatile 32, 20, 0x281, FALSE
+special DrawWholeMapView
+delay 20
 release
 end
+
+
+PalletTown_Laboratorio_Secreto_S1_Segunda_Llave::
+lock
+msgbox PalletTown_Laboratorio_Secreto_S1_Segunda_Llave_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 32, 17, 0x282, FALSE
+setmetatile 32, 16, 0x282, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+PalletTown_Laboratorio_Secreto_S1_Segunda_Llave_Texto_1:
+	.string "Introdujiste la clave:\n"
+	.string "'ARCEUS ha muerto'.$"
