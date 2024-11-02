@@ -235,6 +235,7 @@ waitmovement 0x0
 delay 10
 setflag FLAG_HOENN_655
 removeobject 3
+removeobject 6
 setvar VAR_UNUSED_0x40F8, 29
 release
 end
@@ -286,7 +287,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_6:
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_7:
 	.string "Recuerdo a la perfección las palabras\n"
-	.string "de GIOVANNI: '...los PS estuvieron\l"
+	.string "de GIOVANNI: '…los PS estuvieron\l"
 	.string "siempre ligados a lo más profundo del\l"
 	.string "código genético de un POKÉMON, es su\l"
 	.string "columna vertebral, inamovible, la\l"
@@ -338,6 +339,74 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_15:
 	.string "ver lo que nos depara este lugar.$"
 
 PalletTown_Laboratorio_Secreto_S1_Mewtwo::
+lock
+release
+end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues::
+lock
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_655
+release
+end
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_1:
+	.string "A un lado, {PLAYER}.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_2:
+	.string "Veo que encontraste la estatua que\n"
+	.string "abría la puerta de abajo.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_3:
+	.string "¿Cuál era tu clave?$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_4:
+	.string "… …$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_5:
+	.string "Ajá. La mía era: 'ARCEUS ha muerto'.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_6:
+	.string "Entonces, tú luchaste con 2 estatuas.\n"
+	.string "¿Te fijaste en su nivel de dificultad?$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_7:
+	.string "Mmm… 7 y 8.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_8:
+	.string "Parece que yo me topé con la clave más\n"
+	.string "importante, su nivel era de 9.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_9:
+	.string "Clones de LEGENDARIOS mayores,\n"
+	.string "prototipos de nivel I y II, megas de\l"
+	.string "PSEUDOLEGENDARIOS…$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_10:
+	.string "Con esos POKÉMON, ningún ENTRENADOR\n"
+	.string "podría pasar de estas puertas. Pero sí\l"
+	.string "nosotros.$"
+
+PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_11:
+	.string "Ahora podremos ver qué\n"
+	.string "se esconde aquí.$"
+
+PalletTown_Laboratorio_Secreto_S1_Primera_Llave::
+lock
+release
+end
+
+PalletTown_Laboratorio_Secreto_S1_Segunda_Llave::
 lock
 release
 end

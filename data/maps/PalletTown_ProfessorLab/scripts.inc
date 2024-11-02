@@ -384,7 +384,7 @@ PalletTown_ProfessorLab_Genesect_Texto_1:
 .string "Esta POKÉ BALL contiene a GENESECT, un\n"
 	.string "raro experimento de una región lejana.\l"
 	.string "Nadie la necesita ya, ¿quieres\l"
-	.string "quedarte con el pOKÉMON?$"
+	.string "quedarte con el POKÉMON?$"
 
 PalletTown_ProfessorLab_Andra_Move_1:
 delay_8
