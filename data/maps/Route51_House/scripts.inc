@@ -360,8 +360,8 @@ Route51HouseDocumento_Text_100Yes14:
 
 Route51HouseDocumento_Text_100Yes15:
     .string "1 de Mayo de 1997: OAK y BLAINE\n"
-	.string "hallan la ubicación de MEWTWO, lo\l"
-	.string "que, unido a varios experimentos\l"
+	.string "recuperan a MEWTWO.\l"
+	.string "Esto, unido a los experimentos\l"
 	.string "que realizaron a espaldas del\l"
 	.string "Gobierno de LANCE, les lleva a\l"
 	.string "desaparecer, y, ante la incierta\l"

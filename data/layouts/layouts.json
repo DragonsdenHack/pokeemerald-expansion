@@ -15288,6 +15288,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP10/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP10/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S6",
+      "name": "PalletTown_Laboratorio_Secreto_S6_Layout",
+      "width": 24,
+      "height": 36,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co2",
+      "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S6/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S6/map.bin"
     }
   ]
 }

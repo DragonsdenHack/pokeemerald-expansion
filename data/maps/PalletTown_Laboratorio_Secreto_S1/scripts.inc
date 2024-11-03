@@ -565,3 +565,92 @@ end
 PalletTown_Laboratorio_Secreto_S1_Segunda_Llave_Texto_1:
 	.string "Introdujiste la clave:\n"
 	.string "'ARCEUS ha muerto'.$"
+
+Laboratorio_Secreto_S1_Diario_Oak::
+lock
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_1 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_2 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_3 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_4 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_5 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_6 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_7 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_8 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_9 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_10 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_11 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_12 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_13 MSGBOX_SIGN
+msgbox Laboratorio_Secreto_S1_Diario_Oak_Texto_14 MSGBOX_SIGN
+release
+end
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_1:
+	.string "Diario de OAK: 15 de abril de 1997$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_2:
+	.string "La actual ubicación de MEWTWO está en\n"
+	.string "la CUEVA CELESTE.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_3:
+	.string "He usado mis influencias para cercar el\n"
+	.string "lugar. Nadie del actual gobierno sabe lo\l"
+	.string "que habita en lo más profundo de la\l"
+	.string "cueva.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_4:
+	.string "Mucho menos LANCE. Cree que es\n"
+	.string "invencible e inmune a todo lo que no\l"
+	.string "provenga de legendarios.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_5:
+	.string "Lo único que sostiene su autoridad es\n"
+	.string "el poder de sus bestias y dragones. Un\l"
+	.string "poder efímero, que solo es cuestión de\l"
+	.string "tiempo para que sea sobrepasado.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_6:
+	.string "Cualquiera que eche un vistazo a los\n"
+	.string "últimos avances de la ciencia, podrá\l"
+	.string "prever que sus días están contados.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_7:
+	.string "Hay empresas privadas que están ya muy\n"
+	.string "cerca de reproducir poderes similares o\l"
+	.string "superiores a los de LANCE.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_8:
+	.string "La propia SILPH, con el desarrollo de la\n"
+	.string "MASTER BALL, permite capturar y\l"
+	.string "controlar a cualquier POKÉMON vivo.\l"
+	.string "Esto incluye a MEWTWO.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_9:
+	.string "Lo cierto es que nada de esto me\n"
+	.string "importaba, con ROJO era suficiente.\l"
+	.string "Pero su inesperada derrota lo cambió\l"
+	.string "todo.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_10:
+	.string "Ahora, las circunstancias me obligan a\n"
+	.string "recurrir a aquello que creamos bajo lo\l"
+	.string "que aún era 'la vieja KANTO'.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_11:
+	.string "Con MEWTWO y la legión de nuevos\n"
+	.string "experimentos, hemos sobrepasado el\l"
+	.string "poder con el que LANCE sometió a KANTO.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_12:
+	.string "Sin embargo, ya no somos los únicos…$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_13:
+	.string "SILPH, el TEAM ROCKET, DEVON… todo el\n"
+	.string "progreso científico se ha acelerado de\l"
+	.string "forma exponencial, lo que hoy es fuerte\l"
+	.string "podría mañana no serlo.$"
+
+Laboratorio_Secreto_S1_Diario_Oak_Texto_14:
+	.string "Creímos llegar al límite con MEWTWO,\n"
+	.string "cuando no fue más que el punto de\l"
+	.string "inflexión, la mecha que prendió la llama…$"

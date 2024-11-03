@@ -37065,7 +37065,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     {
     .iv = 255,
-    .lvl = 116,
+    .lvl = 117,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_METAGROSSITE,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -37074,7 +37074,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 114,
+    .lvl = 116,
     .species = SPECIES_RELICANTH_PRIMAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {50, 252, 50, 252, 50, 50},
@@ -37083,7 +37083,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 115,
+    .lvl = 116,
     .species = SPECIES_NECROZMA,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 50, 50, 50, 252, 50},
@@ -37092,12 +37092,12 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 117,
-    .species = SPECIES_RAYQUAZA,
-    .heldItem = ITEM_WHITE_HERB,
-    .evs = {252, 50, 50, 252, 50, 50},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_FLASH_CANNON, MOVE_DRACO_METEOR, MOVE_FLAMETHROWER, MOVE_AIR_SLASH}
+    .lvl = 115,
+    .species = SPECIES_GLASTRIER,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {0, 252, 252, 0, 0, 6},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_BODY_PRESS, MOVE_HIGH_HORSEPOWER, MOVE_CRUNCH}
     },
     {
     .iv = 255,
@@ -38933,8 +38933,8 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER678[] = {
     },
     {
     .iv = 255,
-    .lvl = 123,
-    .species = SPECIES_NECROZMA_DAWN_WINGS,
+    .lvl = 124,
+    .species = SPECIES_NECROZMA_ULTRA,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {110, 110, 110, 252, 110, 252},
     .nature = NATURE_TIMID,
@@ -38942,12 +38942,12 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER678[] = {
     },
     {
     .iv = 255,
-    .lvl = 124,
-    .species = SPECIES_DUDUNSPARCE_EVO,
-    .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 100, 100, 100, 100, 252},
+    .lvl = 113,
+    .species = SPECIES_CALYREX_ICE_RIDER,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {0, 252, 252, 0, 0, 6},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_THOUSAND_ARROWS, MOVE_AMNESIA, MOVE_POWER_WHIP, MOVE_ROOST}
+    .moves = {MOVE_ICICLE_CRASH, MOVE_BODY_PRESS, MOVE_HIGH_HORSEPOWER, MOVE_CRUNCH}
     },
     {
     .iv = 255,

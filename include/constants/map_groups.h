@@ -439,6 +439,7 @@
 #define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S3 (7 | (14 << 8))
 #define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S4 (8 | (14 << 8))
 #define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S5 (9 | (14 << 8))
+#define MAP_PALLET_TOWN_LABORATORIO_SECRETO_S6 (10 | (14 << 8))
 
 // gMapGroup_IndoorViridianCity
 #define MAP_VIRIDIAN_CITY_HOUSE1            (0 | (15 << 8))
@@ -1468,7 +1469,5 @@
 #define MAP_SNOWPOINT_GIMNASIO    (10 | (55 << 8))
 
 #define MAP_GROUPS_COUNT 56
-
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 26, 23, 14, 7, 7, 11, 98, 10, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 87, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

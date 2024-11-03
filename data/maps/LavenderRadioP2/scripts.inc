@@ -673,18 +673,18 @@ LavenderRadioP2_Evento_Elm_Texto_11:
 	.string "negociar.$"
 
 LavenderRadioP2_Evento_Elm_Texto_12:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderRadioP2_Evento_Elm_Texto_13:
-	.string "Tal vez… dimos por sentado que esta era\n"
+	.string "Tal vez{PAUSE 25}…{PAUSE 25} dimos por sentado que esta era\n"
 	.string "la KANTO perfecta, la que todos\l"
 	.string "querían.$"
 
 LavenderRadioP2_Evento_Elm_Texto_14:
 	.string "Puede que, desde lo alto de esta torre,\n"
-	.string "o a decenas de metros bajo tierra, nos\l"
-	.string "sea más difícil ver la realidad a pie de\l"
-	.string "calle.$"
+	.string "o en la profundidad de nuestras bases,\l"
+	.string "nos resulte más difícil ver la realidad\l"
+	.string "a pie de calle.$"
 
 LavenderRadioP2_Evento_Elm_Texto_15:
 	.string "No obstante, nada de lo dicho anula una\n"
@@ -700,20 +700,21 @@ LavenderRadioP2_Evento_Elm_Texto_17:
 	.string "posible sin sacrificios.$"
 
 LavenderRadioP2_Evento_Elm_Texto_18:
-	.string "¿Recuerdas el día que nos conocimos?\n"
+	.string "¿Recuerdas nuestro primer encuentro?\n"
 	.string "Acababas de pisar JOHTO por primera\l"
-	.string "vez.$"
+	.string "vez, y era una agradable mañana en\l"
+	.string "RUTA 29.$"
 
 LavenderRadioP2_Evento_Elm_Texto_19:
-	.string "Ya tenías muchas vivencias y\n"
-	.string "experiencias a tus espaldas.$"
+	.string "Ya ahí tenías muchas vivencias\n"
+	.string "y experiencias a tus espaldas.$"
 
 LavenderRadioP2_Evento_Elm_Texto_20:
 	.string "A pesar de ello, has seguido creciendo\n"
 	.string "más y más.$"
 
 LavenderRadioP2_Evento_Elm_Texto_21:
-	.string "Es sorprendente, pero… tu progreso\n"
+	.string "Es sorprendente, pero{PAUSE 25}…{PAUSE 25} tu progreso\n"
 	.string "como ENTRENADOR ha sido proporcional\l"
 	.string "al de todos nuestros avances.$"
 
@@ -755,12 +756,12 @@ LavenderRadioP2_Evento_Elm_Texto_29:
 	.string "variable a tener en cuenta.$"
 
 LavenderRadioP2_Evento_Elm_Texto_30:
-	.string "Algo… peligroso e impredecible, capaz de\n"
+	.string "Algo{PAUSE 15}…{PAUSE 15} peligroso e impredecible, capaz de\n"
 	.string "abrir huecos en muchos equipos que\l"
 	.string "hasta ahora considerábamos sólidos.$"
 
 LavenderRadioP2_Evento_Elm_Texto_31:
-	.string "Solo espero que… tal y como has hecho\n"
+	.string "Solo espero que{PAUSE 25}…{PAUSE 25} tal y como has hecho\n"
 	.string "hasta ahora, no te quedes atrás, que\l"
 	.string "seas capaz de adaptarte. Me entiendes,\l"
 	.string "¿verdad?$"
