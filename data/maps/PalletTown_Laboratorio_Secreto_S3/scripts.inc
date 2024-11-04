@@ -436,8 +436,7 @@ PalletTown_Laboratorio_Secreto_S3_Segunda_Estatua_Texto_8:
 	.string "parece una contraseña.$"
 
 PalletTown_Laboratorio_Secreto_S3_Segunda_Estatua_Texto_9:
-	.string "'Lo especial es mediocre.\n"
-	.string "Lo único es normal.'$"
+	.string "'Lo especial es mediocre.'$"
 
 PalletTown_Laboratorio_Secreto_S3_Segunda_Estatua_Texto_10:
 	.string "Ya peleaste con esta estatua. Su\n"
@@ -678,12 +677,6 @@ PalletTown_Laboratorio_Secreto_S3_Documento_Jerarquias_Texto_20:
 PalletTown_Laboratorio_Secreto_S3_Documento_Jerarquias_Texto_21:
 	.string "¡Esta parte ha sido arrancada!$"
 
-PalletTown_Laboratorio_Secreto_S3_Dalia::
-lock
-setvar VAR_UNUSED_0x40F8, 35
-release
-end
-
 PalletTown_Laboratorio_Secreto_S3_Primera_Puerta::
 delay 10
 compare VAR_UNUSED_0x40F8, 34
@@ -751,7 +744,7 @@ PalletTown_Laboratorio_Secreto_S3_Tercera_Puerta_Texto_1:
 
 PalletTown_Laboratorio_Secreto_S3_Tercera_Puerta_Texto_2:
 	.string "Introdujiste la clave:\n"
-	.string "'Lo especial es mediocre'.$"
+	.string "'KANTO te observa'.$"
 
 PalletTown_Laboratorio_Secreto_S3_Tercera_Puerta_Despues::
 msgbox PalletTown_Laboratorio_Secreto_S3_Tercera_Puerta_Texto_2 MSGBOX_AUTOCLOSE
@@ -777,4 +770,702 @@ end
 PalletTown_Laboratorio_Secreto_S3_Andra_Estatua_Texto_1:
 	.string "Vamos… Sácame a ese GYARADOS-Z… Mi\n"
 	.string "MILOTIC-& está preparada.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_2:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_3:
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_right
+walk_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_4:
+walk_in_place_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_5:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_6:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+face_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_7:
+face_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_8:
+emote_exclamation_mark
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_9:
+delay_16
+face_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_10:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_11:
+delay_16
+delay_16
+walk_in_place_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_12:
+face_left
+delay_16
+delay_8
+walk_in_place_left
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_13:
+walk_slow_down
+walk_slow_left
+walk_slow_left
+walk_slow_left
+face_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_14:
+walk_slow_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_15:
+delay_16
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_down
+delay_16
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_16:
+walk_slow_down
+face_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_17:
+face_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_18:
+walk_in_place_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_19:
+walk_slow_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_20:
+delay_16
+face_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_21:
+walk_slow_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_22:
+face_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_23:
+walk_in_place_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_24:
+face_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_25:
+walk_in_place_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia::
+lock
+setflag FLAG_HOENN_285
+removeobject 11
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_2
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 35, 21, 0x2E7, FALSE
+setmetatile 36, 21, 0x2E6, FALSE
+setmetatile 35, 22, 0x282, FALSE
+setmetatile 36, 22, 0x282, FALSE
+setmetatile 35, 23, 0x2E0, FALSE
+setmetatile 36, 23, 0x2E1, FALSE
+special DrawWholeMapView
+delay 50
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_3
+waitmovement 0x0
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_4
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_5
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_6
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 39, 21, 0x2E7, FALSE
+setmetatile 40, 21, 0x2E6, FALSE
+setmetatile 39, 22, 0x282, FALSE
+setmetatile 40, 22, 0x282, FALSE
+setmetatile 39, 23, 0x2E0, FALSE
+setmetatile 40, 23, 0x2E1, FALSE
+special DrawWholeMapView
+delay 30
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_7
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PC_OFF
+waitse
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_8
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_8
+waitmovement 0x0
+waitse
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_9
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_10
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_11
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_12
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_8
+waitmovement 0x0
+waitse
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_13
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_12 MSGBOX_AUTOCLOSE
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_14
+waitmovement 0x0
+delay 10
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_15
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_16
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_17
+waitmovement 0x0
+delay 20
+playse SE_PIN
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_8
+waitmovement 0x0
+waitse
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_18
+waitmovement 0x0
+setflag FLAG_HOENN_286
+removeobject 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_20
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_19
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_21
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_22
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_23
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_21 MSGBOX_AUTOCLOSE
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_24
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_22
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_19
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_25
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_15
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_29 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_17
+waitmovement 0x0
+delay 20
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_23
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_31 MSGBOX_AUTOCLOSE
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_32 MSGBOX_AUTOCLOSE
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_33 MSGBOX_AUTOCLOSE
+delay 25
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_26
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_17
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_27
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_28
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_37 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_28
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_19
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_39 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_27
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_27
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_29
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_40 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_30
+waitmovement 0x0
+special RemoveCameraObject
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_41 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_42 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_30.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_28
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_28
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_22
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_43 MSGBOX_AUTOCLOSE
+applymovement 10, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_44 MSGBOX_AUTOCLOSE
+delay 16
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_45 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_27
+applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_31
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_46 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_32
+waitmovement 0x0
+setflag FLAG_HOENN_284
+clearflag FLAG_HOENN_285
+removeobject 8
+addobject 11
+setvar VAR_UNUSED_0x40F8, 35
+release
+end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_32:
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_31:
+walk_down
+walk_down
+face_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_30.1:
+walk_left
+walk_left
+walk_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_30:
+walk_right
+walk_right
+walk_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_29:
+walk_right
+delay_16
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_28:
+face_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_27:
+delay_16
+face_right
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_26:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Move_1:
+walk_in_place_down
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_1:
+	.string "'Lo único es normal'$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_2:
+	.string "¿{PLAYER}? ¡Vamos!$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_3:
+	.string "Ya estaba apunto de ir a por ti. Esta\n"
+	.string "vez es tu clave la que falta.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_4:
+	.string "Introdujiste la clave:\n"
+	.string "'Lo especial es mediocre'.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_5:
+	.string "Hmm… Ya veo.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_6:
+	.string "La forma más rápida de matar algo\n"
+	.string "especial es compararlo con otra cosa.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_7:
+	.string "¿Lo has oído?$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_8:
+	.string "Parece… que hay alguien en esta sala.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_9:
+	.string "????: {PLAYER}, cuánto tiempo.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_10:
+	.string "ANDRA: Así que esta es la ZONA 0.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_11:
+	.string "DALIA: Oh. Es sorprendente.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_12:
+	.string "Habéis llegado hasta aquí en base a un\n"
+	.string "comentario, lanzado al aire hace casi 3\l"
+	.string "años.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_13:
+	.string "Debes de ser ANDRA.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_14:
+	.string "ANDRA: ¿Qué es este lugar?$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_15:
+	.string "DALIA: ¿No es evidente?\n"
+	.string "El LABORATORIO de OAK.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_16:
+	.string "Mi abuelo ha pasado mucho tiempo entre\n"
+	.string "estas paredes.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_17:
+	.string "Aquí encerrado, con sus proyectos como\n"
+	.string "única compañía. Algunas veces por\l"
+	.string "voluntad propia; otras por obligación,\l"
+	.string "pero siempre con grandeza de ánimo.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_18:
+	.string "Comenzó como un pequeño sótano,\n"
+	.string "creado poco antes de la guerra.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_19:
+	.string "Después sirvió como apoyo al PROYECTO\n"
+	.string "MEWTWO, aquí hizo avances por cuenta\l"
+	.string "propia.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_20:
+	.string "Tras la victoria de LANCE, expandió el\n"
+	.string "pequeño sótano, con el único propósito\l"
+	.string "de restaurar el poder en KANTO.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_21:
+	.string "A día de hoy, sirve al binomio\n"
+	.string "KANTO-JOHTO. Desde que os reunís en\l"
+	.string "TRIGAL ha sido así.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_22:
+	.string "ANDRA: Entonces, GIOVANNI también\n"
+	.string "sabe de su existencia.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_23:
+	.string "DALIA: Por supuesto. La última\n"
+	.string "expansión, de hecho, fue también\l"
+	.string "financiada por él.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_24:
+	.string "ANDRA: Y ahora su razón de ser son…\n"
+	.string "¿las ondas de radio?$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_25:
+	.string "DALIA: Efectivamente.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_26:
+	.string "ANDRA: En ese caso, no te importará\n"
+	.string "darnos la clave que lleva al S4.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_27:
+	.string "Somos dos ADMINISTRADORES, y\n"
+	.string "deberíamos estar al tanto de los\l"
+	.string "últimos avances.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_28:
+	.string "DALIA: Tienes razón. Pero…$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_29:
+	.string "Todo lo referente a las ondas está ya\n"
+	.string "en estas plantas.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_30:
+	.string "Más abajo solo hay proyectos privados.\n"
+	.string "Me temo que…$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_31:
+	.string "…deberéis esperar a que mi abuelo\n"
+	.string "regrese de PUEBLO CAOBA.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_32:
+	.string "ANDRA: Hmmm…$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_33:
+	.string "… …$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_34:
+	.string "Bueno, si no hay más remedio.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_35:
+	.string "Podemos esperar en la planta alta del\n"
+	.string "LABORATORIO.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_36:
+	.string "Aunque… me gustaría pedirte un favor.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_37:
+	.string "DALIA: ¿El qué?$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_38:
+	.string "ANDRA: Quiero un combate, y quiero que\n"
+	.string "hagas uso de todos los prototipos de\l"
+	.string "nivel II que tengas a tu disposición.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_39:
+	.string "DALIA: Curiosa petición.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_40:
+	.string "Si es lo quieres, puedo combatir con\n"
+	.string "cualquiera de esos POKÉMON.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_41:
+	.string "Son todos clones perfectos,\n"
+	.string "optimizados con las ondas de radio.\l"
+	.string "Forman parte de la colección de OAK.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_42:
+	.string "ANDRA: En ese caso. Quiero que uses a\n"
+	.string "GYARADOS-Z.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_43:
+	.string "DALIA: Como quieras. ¿De verdad crees\n"
+	.string "que puedes ganar?$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_44:
+	.string "Estos POKÉMON son usados en el máximo\n"
+	.string "nivel de dificultad de nuestros\l"
+	.string "simuladores.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_45:
+	.string "ANDRA: Lo veremos. Veremos… hasta\n"
+	.string "dónde llega mi mediocridad.$"
+
+PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_46:
+	.string "{PLAYER}, adelántate tú si quieres.\n"
+	.string "¿De acuerdo?$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi::
+lock
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_10 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_1:
+	.string "… …$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_2:
+	.string "Tranquilo, ENTRENADOR.$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_3:
+	.string "Soy JIRACHI. ANDRA me ha pedido que me\n"
+	.string "comunique contigo por telepatía.$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_4:
+	.string "Quiere enviarte un mensaje:$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_5:
+	.string "-'{PLAYER}, no me creo una sola\n"
+	.string "palabra de lo que dice DALIA.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_6:
+	.string "-Pero sería estúpido usar la fuerza en\n"
+	.string "esta situación, tampoco podemos\l"
+	.string "esperar a que venga OAK; en ambos casos\l"
+	.string "corremos el riesgo de que se nos oculte\l"
+	.string "la verdadera naturaleza de este lugar.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_7:
+	.string "-La razón por la que no he insistido es\n"
+	.string "porque creo haber visto la clave, en ese\l"
+	.string "documento que tanta prisa tenía por\l"
+	.string "ocultar.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_8:
+	.string "-'KANTO te observa' debería abrir la\n"
+	.string "puerta que lleva al S4.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_9:
+	.string "-Tú seguirás abriéndote paso por el\n"
+	.string "laboratorio, mientras yo lidio con\l"
+	.string "DALIA.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_10:
+	.string "-Cuando acabe el combate, usaré\n"
+	.string "HIPNOSIS sobre ella, y te alcanzaré.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_11:
+	.string "-A partir de ese momento… será una\n"
+	.string "contrarreloj por llegar al fondo de\l"
+	.string "esto.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_12:
+	.string "-Suerte, {PLAYER}. Y recuerda:\n"
+	.string "'KANTO te observa'.-$"
 

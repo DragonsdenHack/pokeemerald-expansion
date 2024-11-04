@@ -448,7 +448,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_114:
-    .string "DIANCE-MEGA\p"
+    .string "DIANCIE-MEGA\p"
 	.string "PS: 50\n"
 	.string "ATAQUE: 160\l"
 	.string "DEFENSA: 110\l"

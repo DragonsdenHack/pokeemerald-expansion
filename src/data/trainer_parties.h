@@ -40191,7 +40191,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER721[] = {
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {0, 0, 0, 252, 252, 6},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_STEEL_BEAM}
+    .moves = {MOVE_FLASH_CANNON, MOVE_FLASH_CANNON, MOVE_FLASH_CANNON, MOVE_FLASH_CANNON}
     },
     {
     .iv = 255,

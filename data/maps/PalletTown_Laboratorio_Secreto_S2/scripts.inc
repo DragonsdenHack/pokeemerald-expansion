@@ -211,3 +211,58 @@ special DrawWholeMapView
 delay 20
 release
 end
+
+PalletTown_Laboratorio_Secreto_S2_Clones::
+lock
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_1 MSGBOX_AUTOCLOSE
+delay 25
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_Secreto_S2_Clones_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_1:
+	.string "Sobre los clones de LEGENDARIOS\n"
+	.string "MAYORES.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_2:
+	.string "La expedición a RUINAS ALFA fue un\n"
+	.string "fracaso en términos de costo humano,\l"
+	.string "pero todo un éxito en términos de\l"
+	.string "avances científicos.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_3:
+	.string "Tras la partida del POKÉMON ESENCIA,\n"
+	.string "todos los LEGENDARIOS MAYORES\l"
+	.string "volvieron, presumiblemente, a su lugar\l"
+	.string "de origen.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_4:
+	.string "Sin embargo, su rastro no fue borrado\n"
+	.string "del interior de las ruinas.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_5:
+	.string "Gracias a ello pudimos obtener el ADN de\n"
+	.string "LUGIA-P y HO-OH-P, a partir del cual fue\l"
+	.string "posible crear clones de sus formas\l"
+	.string "base.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_6:
+	.string "Los hallazgos no concluyen aquí. Las\n"
+	.string "formas ORIGEN de DIALGA, PALKIA,\l"
+	.string "GIRATINA y ARCEUS, se unieron a la\l"
+	.string "lista.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_7:
+	.string "Tras muchos esfuerzos, fuimos capaces\n"
+	.string "de engendrar sus formas base.$"
+
+PalletTown_Laboratorio_Secreto_S2_Clones_Texto_8:
+	.string "Las formas originales de todos estos\n"
+	.string "POKÉMON se consideran irreproducibles.$"

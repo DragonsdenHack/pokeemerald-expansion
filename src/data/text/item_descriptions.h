@@ -1613,7 +1613,7 @@ static const u8 sAudiniteDesc[] = _(
 
 static const u8 sDianciteDesc[] = _(
     "Transforma a\n"
-    "DIANCE en su\n"
+    "DIANCIE en su\n"
     "forma MEGA.");
 
 static const u8 sFlygoniteDesc[] = _(

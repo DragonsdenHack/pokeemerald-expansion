@@ -58,8 +58,9 @@ release
 end
 
 RocketHideout_5F_2_Tercer_Ejecutivo_Texto_1:
-	.string "La forma más rápida de matar algo\n"
-	.string "especial es compararlo con otra cosa.$"
+	.string "Una idea no sobrevive porque sea mejor\n"
+	.string "que otra, sino porque ha sobrevivido la\l"
+	.string "persona que cree en ella.$"
 
 RocketHideout_5F_2_Cuarto_Ejecutivo::
 lock

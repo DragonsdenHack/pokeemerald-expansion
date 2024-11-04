@@ -2964,6 +2964,10 @@ Laboratorio_S3_EventScript_Discoxtrano::
 	finditem ITEM_DUBIOUS_DISC
 	end
 
+Laboratorio_S3_EventScript_Diancita::
+	finditem ITEM_DIANCITE
+	end
+
 Laboratorio_S4_EventScript_MaxElixir::
 	finditem ITEM_MAX_ELIXIR
 	end
