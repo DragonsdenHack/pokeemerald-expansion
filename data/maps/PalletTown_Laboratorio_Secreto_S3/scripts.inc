@@ -702,8 +702,8 @@ setmetatile 35, 21, 0x2E7, FALSE
 setmetatile 36, 21, 0x2E6, FALSE
 setmetatile 35, 22, 0x282, FALSE
 setmetatile 36, 22, 0x282, FALSE
-setmetatile 35, 23, 0x2E0, FALSE
-setmetatile 36, 23, 0x2E1, FALSE
+setmetatile 35, 23, 0x2B3, FALSE
+setmetatile 36, 23, 0x2B4, FALSE
 special DrawWholeMapView
 delay 20
 release
@@ -719,8 +719,8 @@ setmetatile 39, 21, 0x2E7, FALSE
 setmetatile 40, 21, 0x2E6, FALSE
 setmetatile 39, 22, 0x282, FALSE
 setmetatile 40, 22, 0x282, FALSE
-setmetatile 39, 23, 0x2E0, FALSE
-setmetatile 40, 23, 0x2E1, FALSE
+setmetatile 39, 23, 0x2B3, FALSE
+setmetatile 40, 23, 0x2B4, FALSE
 special DrawWholeMapView
 delay 20
 release
@@ -957,8 +957,8 @@ setmetatile 35, 21, 0x2E7, FALSE
 setmetatile 36, 21, 0x2E6, FALSE
 setmetatile 35, 22, 0x282, FALSE
 setmetatile 36, 22, 0x282, FALSE
-setmetatile 35, 23, 0x2E0, FALSE
-setmetatile 36, 23, 0x2E1, FALSE
+setmetatile 35, 23, 0x2B3, FALSE
+setmetatile 36, 23, 0x2B4, FALSE
 special DrawWholeMapView
 delay 50
 msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_2 MSGBOX_AUTOCLOSE
@@ -979,8 +979,8 @@ setmetatile 39, 21, 0x2E7, FALSE
 setmetatile 40, 21, 0x2E6, FALSE
 setmetatile 39, 22, 0x282, FALSE
 setmetatile 40, 22, 0x282, FALSE
-setmetatile 39, 23, 0x2E0, FALSE
-setmetatile 40, 23, 0x2E1, FALSE
+setmetatile 39, 23, 0x2B3, FALSE
+setmetatile 40, 23, 0x2B4, FALSE
 special DrawWholeMapView
 delay 30
 msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_5 MSGBOX_AUTOCLOSE
@@ -1156,7 +1156,7 @@ applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_
 applymovement 8, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_31
 waitmovement 0x0
 msgbox PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_46 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_32
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Laboratorio_Secreto_S3_Dalia_Move_32
 waitmovement 0x0
 setflag FLAG_HOENN_284
 clearflag FLAG_HOENN_285
@@ -1400,12 +1400,70 @@ PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_46:
 	.string "{PLAYER}, adelántate tú si quieres.\n"
 	.string "¿De acuerdo?$"
 
+Laboratorio_Secreto_S3_Jirachi_Move_1:
+walk_in_place_left
+step_end
+
+Laboratorio_Secreto_S3_Jirachi_Move_2:
+emote_exclamation_mark
+step_end
+
+Laboratorio_Secreto_S3_Jirachi_Move_3:
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+face_left
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_up
+delay_8
+step_end
+
 PalletTown_Laboratorio_Secreto_S3_Jirachi::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Jirachi_Move_1
+waitmovement 0x0
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Jirachi_Move_2
+waitmovement 0x0
+waitse
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Jirachi_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Jirachi_Move_3
+waitmovement 0x0
+fadescreen 1
+delay 20
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_3 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_4 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_5 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_6 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_7 MSGBOX_AUTOCLOSE
@@ -1413,7 +1471,10 @@ msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_8 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_9 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_10 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_11 MSGBOX_AUTOCLOSE
+delay 25
 msgbox PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_12 MSGBOX_AUTOCLOSE
+fadescreen 0
+setvar VAR_UNUSED_0x40F8, 36
 release
 end
 
@@ -1468,4 +1529,39 @@ PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_11:
 PalletTown_Laboratorio_Secreto_S3_Jirachi_Texto_12:
 	.string "-Suerte, {PLAYER}. Y recuerda:\n"
 	.string "'KANTO te observa'.-$"
+
+PalletTown_Laboratorio_Secreto_S3_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Bloqueo_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+Laboratorio_Secreto_S3_Bloqueo_Move_1:
+walk_in_place_right
+step_end
+
+Laboratorio_Secreto_S3_Bloqueo_Move_2:
+walk_slow_left
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Bloqueo_Texto_1:
+	.string "ANDRA está combatiendo con DALIA, yo\n"
+	.string "debería bajar al S4.$"
+
+PalletTown_Laboratorio_Secreto_S3_Bloqueo_Antes_Texto_1:
+	.string "ANDRA está combatiendo con DALIA.$"
+
+PalletTown_Laboratorio_Secreto_S3_Bloqueo_Antes::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Bloqueo_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_Secreto_S3_Bloqueo_Antes_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
 

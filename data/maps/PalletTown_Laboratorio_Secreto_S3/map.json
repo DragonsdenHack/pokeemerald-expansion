@@ -286,6 +286,60 @@
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "35",
       "script": "PalletTown_Laboratorio_Secreto_S3_Jirachi"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "36",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "36",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "37",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "37",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "35",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo_Antes"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "35",
+      "script": "PalletTown_Laboratorio_Secreto_S3_Bloqueo_Antes"
     }
   ],
   "bg_events": [

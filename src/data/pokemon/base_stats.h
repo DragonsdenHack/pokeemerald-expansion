@@ -26162,14 +26162,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ULTIMATE_PROYECT] =
     {
-        .baseHP        = 106,
-        .baseAttack    = 110,
-        .baseDefense   = 170,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 204,
-        .baseSpDefense = 140,
+        .baseHP        = 126,
+        .baseAttack    = 130,
+        .baseDefense   = 154,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 206,
+        .baseSpDefense = 154,
         .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_PSYCHIC,
+        .type2 = TYPE_STEEL,
         .catchRate = 3,
         .expYield = 456,
         .evYield_SpAttack  = 3,
@@ -26180,9 +26180,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FILTER, ABILITY_FILTER, ABILITY_FILTER},
+            .abilities = {ABILITY_ULTIMATE_ARMOR, ABILITY_ULTIMATE_ARMOR, ABILITY_ULTIMATE_ARMOR},
         #else
-            .abilities = {ABILITY_FILTER, ABILITY_FILTER},
+            .abilities = {ABILITY_ULTIMATE_ARMOR, ABILITY_ULTIMATE_ARMOR},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,

@@ -255,6 +255,7 @@
     static const u8 sGrimNeighDescription[] = _("KOs suben At. Esp.");
     static const u8 sAsOneIceRiderDescription[] = _("Nerv. y Relincho Blanco.");
     static const u8 sAsOneShadowRiderDescription[] = _("Nerv. y Relincho Negro.");
+    static const u8 sUltimateDescription[] = _("x0,5 mov. supereficaces.");
     // TODO: Translate block
     static const u8 sLingeringAromaDescription[] = _("Spreads with contact.");
     static const u8 sSeedSowerDescription[] = _("Affects terrain when hit.");
@@ -544,6 +545,7 @@ static const u8 sNoneDescription[] = _("Ninguna en particular.");
     static const u8 sGrimNeighDescription[] = _("KOs suben At. Esp.");
     static const u8 sAsOneIceRiderDescription[] = _("Nerv. y Relincho Blanco.");
     static const u8 sAsOneShadowRiderDescription[] = _("Nerv. y Relincho Negro.");
+    static const u8 sUltimateDescription[] = _("x0,5 mov. supereficaces.");
 #endif
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -817,6 +819,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
         [ABILITY_GRIM_NEIGH] = _("Relincho Negro"),
         [ABILITY_AS_ONE_ICE_RIDER] = _("Unidad Ecuestre"),
         [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unidad Ecuestre"),
+        [ABILITY_ULTIMATE_ARMOR] = _("Armmadura Ult"),
         // TODO: Translate block
         // [ABILITY_LINGERING_AROMA] = _("Lingering Aroma"),
         // [ABILITY_SEED_SOWER] = _("Seed Sower"),
@@ -1118,6 +1121,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
         [ABILITY_GRIM_NEIGH] = _("Relincho Negro"),
         [ABILITY_AS_ONE_ICE_RIDER] = _("Unidad Ecuestre"),
         [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unidad Ecuestre"),
+        [ABILITY_ULTIMATE_ARMOR] = _("Armmadura Ult"),
 	#endif
 };
 
@@ -1391,4 +1395,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_GRIM_NEIGH] = sGrimNeighDescription,
     [ABILITY_AS_ONE_ICE_RIDER] = sAsOneIceRiderDescription,
     [ABILITY_AS_ONE_SHADOW_RIDER] = sAsOneShadowRiderDescription,
+    [ABILITY_ULTIMATE_ARMOR] = sUltimateDescription,
 };
