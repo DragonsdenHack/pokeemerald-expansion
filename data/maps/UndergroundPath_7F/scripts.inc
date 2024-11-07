@@ -1616,8 +1616,8 @@ UndergroundPath_7F_Escena_Final_Texto_62:
 UndergroundPath_7F_Escena_Final_Texto_63:
 .string "Pero{PAUSE 25}…{PAUSE 25} no es momento de echarse atrás,\n"
 	.string "¿verdad? Hemos llegado demasiado\l"
-	.string "lejos y visto mucho, es solo otro\l"
-	.string "maldito evento más.$"
+	.string "lejos y visto mucho, esto es solo\l"
+	.string "otra parte del camino.$"
 
 UndergroundPath_7F_Escena_Final_Texto_64:
 .string "¡Todo saldrá bien!$"

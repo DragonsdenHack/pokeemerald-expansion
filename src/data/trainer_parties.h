@@ -40294,7 +40294,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER723[] = {
     {
     .iv = 255,
     .lvl = 124,
-    .species = SPECIES_ENTEI,
+    .species = SPECIES_ENTEI_BOND,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 252, 100, 100, 100, 100},
     .nature = NATURE_ADAMANT,
@@ -40303,7 +40303,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER723[] = {
     {
     .iv = 255,
     .lvl = 124,
-    .species = SPECIES_RAIKOU,
+    .species = SPECIES_RAIKOU_BOND,
     .heldItem = ITEM_AIR_BALLOON,
     .evs = {100, 100, 100, 252, 252, 100},
     .nature = NATURE_TIMID,
@@ -40467,21 +40467,33 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER728[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER729[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER729[] = {
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 125,
+    .species = SPECIES_MILOTICBOND,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 100, 252, 100, 100, 100},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_MOONBLAST, MOVE_RECOVER, MOVE_THUNDER_CAGE}
     },
     {
     .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 125,
+    .species = SPECIES_JIRACHI_PRIMAL,
+    .heldItem = ITEM_OCCA_BERRY,
+    .evs = {252, 110, 110, 110, 252, 110},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_FLASH_CANNON, MOVE_ANCIENT_POWER, MOVE_MOONBLAST, MOVE_SHADOW_BALL}
     },
     {
     .iv = 255,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 125,
+    .species = SPECIES_CROBAT2_BOND,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {120, 252, 252, 120, 120, 120},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_BEHEMOTH_BLADE, MOVE_LEECH_LIFE}
     }
     
 };

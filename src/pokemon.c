@@ -7663,6 +7663,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_POLICIA_DEVON:
             return 636;
         case TRAINER_CLASS_MIGUEL_2:
+        case TRAINER_CLASS_EXPERIMENTO_2:
             return 629;
         case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_MIGUEL_1:

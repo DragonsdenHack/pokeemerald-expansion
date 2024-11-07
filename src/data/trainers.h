@@ -21800,7 +21800,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_722] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_EXPERIMENTO,
+        .trainerClass = TRAINER_CLASS_EXPERIMENTO_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_FAKEMON6,
         .trainerName = _("ROCKET"),
@@ -21890,16 +21890,16 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_729] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_ANDRA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
+        .trainerPic = TRAINER_PIC_ANDRA_ADMIN_JEFE,
+        .trainerName = _("ANDRA"),
         .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_TRAINER729),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER729},
+        .party = {.ItemCustomMoves = sParty_TRAINER729},
     },
     [TRAINER_TRAINER_730] =
     {

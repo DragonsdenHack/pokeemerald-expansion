@@ -380,9 +380,9 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_4:
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_5:
 .string "Yo daría todo para preservar las\n"
 	.string "BESTIAS SAGRADAS, LANCE cometió esa\l"
-	.string "atrocidad en la sombra. Mientras, yo\l"
-	.string "creí que era SUICUNE el que nos había\l"
-	.string "abandonado.$"
+	.string "atrocidad en la sombra. Mientras,\l"
+	.string "creí que era SUICUNE el que nos\l"
+	.string "había abandonado.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_6:
 .string "Me has hecho ver que en los tiempos que\n"

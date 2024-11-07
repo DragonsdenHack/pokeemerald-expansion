@@ -116,6 +116,8 @@ applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_9
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+msgbox NeoLavandaPueblo_Combate_Eusine_Texto_14 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 fadescreen 1
@@ -238,9 +240,16 @@ NeoLavandaPueblo_Combate_Eusine_Texto_12:
 
 NeoLavandaPueblo_Combate_Eusine_Texto_13:
 .string "¿Quién no querría una súper BESTIA\n"
-	.string "SAGRADA de 690 STATS BASE, que deja en\l"
-	.string "pañales a los originales LUGIA y HO-OH?$"
+	.string "SAGRADA, que deja en evidencia\l"
+	.string "incluso a LUGIA y HO-OH?$"
 
+NeoLavandaPueblo_Combate_Eusine_Texto_14:
+	.string "Ante esta situación, es inútil\n"
+	.string "aferrarse a los POKÉMON de siempre. El\l"
+	.string "haber trabajado con tu organización me\l"
+	.string "hizo darme cuenta de una dura verdad:\l"
+	.string "todo el que no abrace el cambio está\l"
+	.string "condenado a desaparecer.$"
 
 NeoLavandaPueblo_Primer_Cartel::
 msgbox NeoLavandaPueblo_Primer_Cartel_Texto_1 MSGBOX_SIGN

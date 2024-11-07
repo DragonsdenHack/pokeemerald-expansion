@@ -533,6 +533,7 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_ANDRA_EJECUTIVA, 27},
     {TRAINER_CLASS_ANDRA_ADMIN, 45},
     {TRAINER_CLASS_ANDRA_ADMINJEFE, 54},
+    {TRAINER_CLASS_EXPERIMENTO_2, 0},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 
