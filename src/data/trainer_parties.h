@@ -40378,7 +40378,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER726[] = {
     {
     .iv = 255,
     .lvl = 124,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_GYARADOSZ,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -40472,10 +40472,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER729[] = {
     .iv = 255,
     .lvl = 125,
     .species = SPECIES_MILOTICBOND,
-    .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 100, 252, 100, 100, 100},
-    .nature = NATURE_BOLD,
-    .moves = {MOVE_ORIGIN_PULSE, MOVE_MOONBLAST, MOVE_RECOVER, MOVE_THUNDER_CAGE}
+    .heldItem = ITEM_LIFE_ORB,
+    .evs = {252, 100, 100, 100, 252, 100},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_DAZZLING_GLEAM, MOVE_LUSTER_PURGE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
@@ -40484,7 +40484,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER729[] = {
     .heldItem = ITEM_OCCA_BERRY,
     .evs = {252, 110, 110, 110, 252, 110},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_FLASH_CANNON, MOVE_ANCIENT_POWER, MOVE_MOONBLAST, MOVE_SHADOW_BALL}
+    .moves = {MOVE_FLASH_CANNON, MOVE_ANCIENT_POWER, MOVE_LIGHT_OF_RUIN, MOVE_MOONGEIST_BEAM}
     },
     {
     .iv = 255,

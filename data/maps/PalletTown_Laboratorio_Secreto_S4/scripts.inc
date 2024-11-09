@@ -79,12 +79,12 @@ PalletTown_Laboratorio_Secreto_S4_Primera_Estatua_Texto_8:
 	.string "parece una contraseña.$"
 
 PalletTown_Laboratorio_Secreto_S4_Primera_Estatua_Texto_9:
-	.string "'Ahora eres KANTO.'$"
+	.string "'Lo exclusivo es valioso.'$"
 
 PalletTown_Laboratorio_Secreto_S4_Primera_Estatua_Texto_10:
 	.string "Ya peleaste con esta estatua.\n"
 	.string "Su contraseña era:\l"
-	.string "'Ahora eres KANTO'$"
+	.string "'Lo exclusivo es valioso'$"
 
 PalletTown_Laboratorio_Secreto_S4_Tercera_Puerta::
 delay 10
@@ -100,7 +100,7 @@ PalletTown_Laboratorio_Secreto_S4_Tercera_Puerta_Texto_1:
 
 PalletTown_Laboratorio_Secreto_S4_Tercera_Puerta_Texto_2:
 	.string "Introdujiste la clave:\n"
-	.string "'Ahora eres KANTO'.$"
+	.string "'Lo exclusivo es valioso'.$"
 
 PalletTown_Laboratorio_Secreto_S4_Tercera_Puerta_Despues::
 msgbox PalletTown_Laboratorio_Secreto_S4_Tercera_Puerta_Texto_2 MSGBOX_AUTOCLOSE
@@ -570,8 +570,19 @@ waitmovement 0x0
 waitse
 msgbox Laboratorio_S4_Eusine_Bill_Texto_45 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_242
+setflag FLAG_HOENN_283
+setflag FLAG_HOENN_284
 choose_mons
 multi_2_vs_2 1581, Laboratorio_S4_Eusine_Bill_Texto_46, 1582, Laboratorio_S4_Eusine_Bill_Texto_47, 1587, 6
+switch VAR_RESULT
+case 1, Laboratorio_S4_Eusine_Bill_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Laboratorio_S4_Eusine_Bill_Ganado::
 delay 10
 playse SE_PIN
 applymovement 5, Laboratorio_S4_Eusine_Bill_Move_1
@@ -744,6 +755,7 @@ applymovement 4, Laboratorio_S4_Eusine_Bill_Move_32
 waitmovement 0x0
 setflag FLAG_HOENN_284
 setflag FLAG_HOENN_283
+setflag FLAG_HOENN_285
 removeobject 4
 removeobject 5
 removeobject 6

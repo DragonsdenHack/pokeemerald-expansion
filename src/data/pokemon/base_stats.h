@@ -27147,11 +27147,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_RAIKOU_BOND] =
     {
         .baseHP        = 100,
-        .baseAttack    = 95,
+        .baseAttack    = 100,
         .baseDefense   = 90,
-        .baseSpeed     = 135,
-        .baseSpAttack  = 165,
-        .baseSpDefense = 120,
+        .baseSpeed     = 145,
+        .baseSpAttack  = 155,
+        .baseSpDefense = 115,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 3,

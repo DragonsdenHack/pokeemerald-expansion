@@ -266,3 +266,81 @@ PalletTown_Laboratorio_Secreto_S2_Clones_Texto_7:
 PalletTown_Laboratorio_Secreto_S2_Clones_Texto_8:
 	.string "Las formas originales de todos estos\n"
 	.string "POKÉMON se consideran irreproducibles.$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Raikou::
+lock
+showmonpic SPECIES_RAIKOU_BOND, 10, 3  
+playmoncry SPECIES_RAIKOU, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_1, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_2, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_3, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_1:
+    .string "RAIKOU-&:\p"
+	.string "PS: 100\n"
+	.string "ATAQUE: 100\l"
+	.string "DEFENSA: 90\l"
+	.string "ATAQUE ESPECIAL: 155\l"
+	.string "DEFENSA ESPECIAL: 115\l"
+	.string "VELOCIDAD: 145\l"
+	.string "TOTAL: 705\p"
+	.string "TIPO: ELÉCTRICO/FANTASMA\n"
+	.string "HABILIDAD: MAR DEL ALBOR$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_2:
+	.string "Su estatus de señor del trueno le\n"
+	.string "confiere la habilidad para causar\l"
+	.string "tormentas devastadoras. Las ondas de\l"
+	.string "radio potenciaron esto hasta el\l"
+	.string "extremo, con ello adquirió la misma\l"
+	.string "capacidad destructiva que el MAR del\l"
+	.string "ARBOR de KYOGRE-P.$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_3:
+	.string "Su ratio entre VELOCIDAD y AT.ESP\n"
+	.string "supera al de todos los TIPO ELÉCTRICO\l"
+	.string "conocidos, incluso los de RAI, la\l"
+	.string "antigua forma -&- de JOLTEON, gracias a\l"
+	.string "la cual pudimos crear este POKÉMON.$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Entei::
+lock
+showmonpic SPECIES_ENTEI_BOND, 10, 3  
+playmoncry SPECIES_ENTEI, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_1, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_2, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_3, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_1:
+    .string "ENTEI-&:\p"
+	.string "PS: 125\n"
+	.string "ATAQUE: 175\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 90\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 115\l"
+	.string "TOTAL: 705\p"
+	.string "TIPO: FUEGO/TIERRA\n"
+	.string "HABILIDAD: TIERRA DEL OCASO$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_2:
+	.string "Pusimos a prueba su capacidad de\n"
+	.string "manipular la tierra y los volcanes: la\l"
+	.string "furia que desató superó nuestras\l"
+	.string "expectativas, llegando a ejercer tal\l"
+	.string "control sobre los elementos que\l"
+	.string "adquirió TIERRA del OCASO por habilidad.$"
+
+PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_3:
+	.string "Con 175 en ATAQUE, alcanza el stat más\n"
+	.string "alto de entre las tres formas -&- de las\l"
+	.string "BESTIAS SAGRADAS. A pesar de ello, llega\l"
+	.string "hasta los 115 en VELOCIDAD, el stat más\l"
+	.string "alto del RAIKOU original.$"
+

@@ -21839,7 +21839,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_725] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_EXPERIMENTO,
+        .trainerClass = TRAINER_CLASS_EXPERIMENTO_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_FAKEMON6,
         .trainerName = _("ROCKET"),
@@ -21852,7 +21852,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_726] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_EXPERIMENTO,
+        .trainerClass = TRAINER_CLASS_EXPERIMENTO_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_FAKEMON6,
         .trainerName = _("ROCKET"),
