@@ -15292,8 +15292,8 @@
     {
       "id": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S6",
       "name": "PalletTown_Laboratorio_Secreto_S6_Layout",
-      "width": 24,
-      "height": 36,
+      "width": 30,
+      "height": 100,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",

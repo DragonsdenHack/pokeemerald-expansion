@@ -421,6 +421,7 @@ PalletTown_Laboratorio_Secreto_S5_Andra_Texto_17:
 	.string "Veámoslo.$"
 
 PalletTown_Laboratorio_Secreto_S5_Estatua_Despues::
+setflag FLAG_HOENN_656
 msgbox PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_20 MSGBOX_AUTOCLOSE
 release
 end
@@ -548,6 +549,7 @@ msgbox PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_19.1 MSGBOX_AUTOCLOSE
 applymovement 5, Laboratorio_Secreto_S5_Andra_Estatua_Move_11
 waitmovement 0x0
 playse SE_EXIT
+setflag FLAG_HOENN_656
 setflag FLAG_HOENN_290
 removeobject 5
 waitse
