@@ -1,10 +1,22 @@
 PalletTown_Laboratorio_Secreto_S3_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_Laboratorio_Secreto_S3_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_Laboratorio_Secreto_S3_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PalletTown_Laboratorio_Secreto_S3_OnResume
 	.byte 0
 
 PalletTown_Laboratorio_Secreto_S3_OnFrame:
 map_script_2 VAR_UNUSED_0x40F8, 32, PalletTown_Laboratorio_Secreto_S3_Andra
+map_script_2 VAR_UNUSED_0x40F8, 50, PalletTown_Laboratorio_Secreto_S3_Oak
 	.2byte 0
+
+PalletTown_Laboratorio_Secreto_S3_OnResume:
+map_script_2 VAR_UNUSED_0x40F8, 49, PalletTown_Laboratorio_Secreto_S3_Gray
+	.2byte 0
+
+PalletTown_Laboratorio_Secreto_S3_Gray::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40F8, 50
+end
 
 PalletTown_Laboratorio_Secreto_S3_Primera_Estatua_Despues::
 msgbox PalletTown_Laboratorio_Secreto_S3_Primera_Estatua_Texto_10 MSGBOX_AUTOCLOSE
@@ -1564,4 +1576,206 @@ applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S3_Bloqueo_Move_2
 waitmovement 0x0
 release
 end
+
+Laboratorio_Secreto_S3_Oak_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_2:
+face_up
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_3:
+walk_in_place_down
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_4:
+walk_slow_left
+walk_slow_left
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_5:
+delay_8
+face_down
+delay_8
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_6:
+walk_left
+face_up
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_7:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+face_left
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_8:
+face_down
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_9:
+walk_down
+face_left
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_10:
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_11:
+face_up
+step_end
+
+PalletTown_Laboratorio_Secreto_S3_Oak::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Laboratorio_Secreto_S3_Oak_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox PalletTown_Laboratorio_S6_Final_Texto_48 MSGBOX_AUTOCLOSE
+delay 35
+msgbox PalletTown_Laboratorio_S6_Final_Texto_49 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_50 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_2
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_51 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_52 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_4
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_53 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_5
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_54 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_6
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_55 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_56 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_57 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_58 MSGBOX_AUTOCLOSE
+fadescreen 1
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_7
+waitmovement 0x0
+fadescreen 0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_59 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Final_Texto_60 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_61 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_8
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_62 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_9
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_63 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_10
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_64 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_11
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_65 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_12
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_66 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_13
+waitmovement 0x0
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_14
+waitmovement 0x0
+waitse
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_15
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_67 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Final_Texto_68 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Final_Texto_69 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Final_Texto_70 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, Laboratorio_Secreto_S3_Oak_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Final_Texto_71 MSGBOX_AUTOCLOSE
+delay 30
+setvar VAR_UNUSED_0x40F8, 51
+warpsilent MAP_PALLET_TOWN_LABORATORIO_SECRETO_S6, 14, 6
+delay 100
+release
+end
+
+Laboratorio_Secreto_S3_Oak_Move_15:
+walk_up
+walk_up
+walk_up
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_14:
+emote_exclamation_mark
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_13:
+face_up
+step_end
+
+Laboratorio_Secreto_S3_Oak_Move_12:
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_left
+delay_16
+step_end
+
 

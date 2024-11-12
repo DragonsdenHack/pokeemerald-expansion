@@ -15300,6 +15300,18 @@
       "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S6/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_Laboratorio_Secreto_S6/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_11F",
+      "name": "RocketHideout_11F_Layout",
+      "width": 34,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/RocketHideout_11F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_11F/map.bin"
     }
   ]
 }

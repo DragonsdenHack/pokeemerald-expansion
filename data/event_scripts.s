@@ -2971,3 +2971,5 @@ Text_EVChecker_3:
 	.include "data/maps/Goldenrod_RadioTowerP10/scripts.inc"
 
 	.include "data/maps/PalletTown_Laboratorio_Secreto_S6/scripts.inc"
+
+	.include "data/maps/RocketHideout_11F/scripts.inc"
