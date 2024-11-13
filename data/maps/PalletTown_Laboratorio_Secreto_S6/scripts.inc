@@ -1,10 +1,13 @@
 PalletTown_Laboratorio_Secreto_S6_MapScripts::
 map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PalletTown_Laboratorio_Secreto_S6_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PalletTown_Laboratorio_Secreto_S6_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_Laboratorio_Secreto_S6_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_Laboratorio_Secreto_S6_OnFrame
 	.byte 0
 
 PalletTown_Laboratorio_Secreto_S6_OnResume:
 map_script_2 VAR_UNUSED_0x40F8, 51, PalletTown_Laboratorio_Secreto_S6_Gray
+map_script_2 VAR_UNUSED_0x40F8, 56, PalletTown_Laboratorio_Secreto_S6_Gray_2
 	.2byte 0
 
 PalletTown_Laboratorio_Secreto_S6_Gray::
@@ -13,8 +16,15 @@ applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S6_Gray_Move_1
 setvar VAR_UNUSED_0x40F8, 52
 end
 
+PalletTown_Laboratorio_Secreto_S6_Gray_2::
+call Script_RemoveTint
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S6_Gray_Move_1
+setvar VAR_UNUSED_0x40F8, 57
+end
+
 PalletTown_Laboratorio_Secreto_S6_OnFrame:
 map_script_2 VAR_UNUSED_0x40F8, 52, PalletTown_Laboratorio_Secreto_S6_Despues
+map_script_2 VAR_UNUSED_0x40F8, 57, PalletTown_Laboratorio_Secreto_S6_Final
 	.2byte 0
 
 Laboratorio_Secreto_S6_Gray_Move_1:
@@ -703,10 +713,6 @@ msgbox PalletTown_Laboratorio_S6_Final_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_Laboratorio_S6_Final_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
-applymovement 3, Laboratorio_S6_Final_Move_2
-applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Final_Move_3
-waitmovement 0x0
-delay 15
 msgbox PalletTown_Laboratorio_S6_Final_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 3, Laboratorio_S6_Final_Move_4
@@ -799,7 +805,7 @@ PalletTown_Laboratorio_S6_Final_Texto_15:
 	.string "Solo así podrá confiar en mí.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_16:
-	.string "15 de Octubre de 1993.$"
+	.string "-15 de Octubre de 1993-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_17:
 	.string "Gracias a liberar todos mis POKÉMON, y\n"
@@ -818,7 +824,7 @@ PalletTown_Laboratorio_S6_Final_Texto_19:
 	.string "rompa con todos los paradigmas conocidos.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_20:
-	.string "1 de Diciembre de 1993$"
+	.string "-1 de Diciembre de 1993-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_21:
 	.string "La ingeniería genética podría\n"
@@ -850,7 +856,7 @@ PalletTown_Laboratorio_S6_Final_Texto_27:
 	.string "-PROYECTO ROJO-.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_28:
-	.string "18 de Enero de 1994$"
+	.string "-18 de Enero de 1994-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_29:
 	.string "DITTO fue una muestra de la\n"
@@ -928,7 +934,7 @@ PalletTown_Laboratorio_S6_Final_Texto_41:
 	.string "al -PROYECTO ROJO-.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_42:
-	.string "7 de Febrero de 1994$"
+	.string "-7 de Febrero de 1994-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_43:
 	.string "1 año después del nacimiento de\n"
@@ -958,7 +964,7 @@ PalletTown_Laboratorio_S6_Final_Texto_47:
 	.string "familia.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_48:
-	.string "21 de enero de 1995$"
+	.string "-21 de enero de 1995-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_49:
 	.string "Tras varios meses, he logrado convencer\n"
@@ -1012,7 +1018,7 @@ PalletTown_Laboratorio_S6_Final_Texto_58:
 	.string "de tal.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_59:
-	.string "10 de marzo de 1997$"
+	.string "-10 de marzo de 1997-$"
 
 PalletTown_Laboratorio_S6_Final_Texto_60:
 	.string "Mis pronósticos respecto a\n"
@@ -1069,12 +1075,422 @@ PalletTown_Laboratorio_S6_Final_Texto_71:
 	.string "Y pude verlas, reflejadas\n"
 	.string "en ese ENTRENADOR…$"
 
-PalletTown_Laboratorio_S6_Final_Texto_72:
-	.string "ANDRA: Vaya…$"
+Laboratorio_Secreto_S6_Despues_Move_1:
+delay_8
+face_right
+step_end
+
+Laboratorio_Secreto_S6_Despues_Move_2:
+face_left
+step_end
+
+Laboratorio_Secreto_S6_Despues_Move_3:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
+Laboratorio_Secreto_S6_Despues_Move_4:
+emote_exclamation_mark
+delay_16
+delay_8
+face_up
+step_end
 
 PalletTown_Laboratorio_Secreto_S6_Despues::
-msgbox PalletTown_Laboratorio_S6_Final_Texto_72 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_654
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+clearflag FLAG_HOENN_655
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_Secreto_S6_Despues_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S6_Despues_Move_1
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_Secreto_S6_Despues_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_3 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 3, Laboratorio_Secreto_S6_Despues_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_Secreto_S6_Despues_Move_4
+waitmovement 0x0
+waitse
+delay 25
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Despues_Texto_6 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 53
+warpsilent MAP_PALLET_TOWN_LABORATORIO_SECRETO_S3, 8, 11
+delay 100
+
+PalletTown_Laboratorio_S6_Despues_Texto_1:
+	.string "ANDRA: Vaya…$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_2:
+	.string "Después de la LIGA, supimos lo que era\n"
+	.string "ROJO, pero no con este lujo de detalles.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_3:
+	.string "Que OAK llegara a pensar que tú fueras\n"
+	.string "lo mismo es una muestra más de su\l"
+	.string "arrogancia. No concibe que pueda ser\l"
+	.string "derrotado de igual a igual.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_4:
+	.string "-2 de Julio de 1997-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_5:
+	.string "ANDRA: ¡¿Aún hay más?!$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_6:
+	.string "Sin embargo, el -PROYECTO ROJO-\n"
+	.string "no acaba aquí.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_7:
+	.string "La posterior derrota, ya con MEWTWO en\n"
+	.string "mi poder, corroboró mis sospechas.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_8:
+	.string "Yo había alcanzado la perfección… pero\n"
+	.string "bajo condiciones controladas, en las\l"
+	.string "que intangibles como la -voluntad- o el\l"
+	.string "-vínculo- no estaban contempladas.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_9:
+	.string "Si bien era imposible dotar a ROJO de\n"
+	.string "algo tan abstracto, sería necio\l"
+	.string "desechar el resto de tangibles que sí\l"
+	.string "se pudieron controlar.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_10:
+	.string "Sus aplicaciones para un mayor\n"
+	.string "entendimiento de nuestro mundo\l"
+	.string "podrían ser infinitas.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_11:
+	.string "Con LANCE fuera de juego, GIOVANNI\n"
+	.string "dominando en las sombras y JOHTO como\l"
+	.string "futura aliada…$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_12:
+	.string "La situación es inmejorable\n"
+	.string "para poner esto a prueba.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_13:
+	.string "-10 de julio de 1997-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_14:
+	.string "Un investigador de renombre en JOHTO;\n"
+	.string "el PROFESOR ELM, ha quedado fascinado\l"
+	.string "con mi proposición.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_15:
+	.string "El mundo, nos guste o no, no deja de ser\n"
+	.string "una compleja sucesión de causas y\l"
+	.string "efectos, que vistas desde fuera, con la\l"
+	.string "suficiente perspectiva y entendimiento\l"
+	.string "de las variables, podrían ser\l"
+	.string "completamente predecibles en su\l"
+	.string "mayoría.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_16:
+	.string "Lo que los antiguos llaman voluntad e\n"
+	.string "intención es algo de extrema\l"
+	.string "complejidad, no hay duda.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_17:
+	.string "Pero… si pudiéramos llegar a desgranar\n"
+	.string "una por una todas las situaciones de\l"
+	.string "acción-reacción, hasta llegar al nivel\l"
+	.string "más elemental, encontraríamos que no\l"
+	.string "es más que una ilusión, una ley no\l"
+	.string "reconocida a la que llamamos azar.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_18:
+	.string "Bajo esta premisa fue como\n"
+	.string "nació el -PROYECTO ORO-.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_19:
+	.string "-15 de Octubre de 1997-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_20:
+	.string "La I CONFERENCIA de CIUDAD\n"
+	.string "TRIGAL ha sido un éxito.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_21:
+	.string "Hemos pautado todas las acciones para\n"
+	.string "convertir el binomio KANTO-JOHTO en\l"
+	.string "una gran potencia.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_22:
+	.string "Pero lo más importante es que… todas\n"
+	.string "estas acciones cuentan en su conjunto\l"
+	.string "con un propósito aún más profundo.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_23:
+	.string "Algo que no debe ser revelado ni a los\n"
+	.string "allí presentes, no al menos hasta la\l"
+	.string "III CONFERENCIA.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_24:
+	.string "Para ese entonces, dispondremos ya de\n"
+	.string "las herramientas, el poder y el control\l"
+	.string "necesarios como para llevar a cabo a\l"
+	.string "gran escala algo que únicamente\l"
+	.string "debería ser posible a nivel elemental,\l"
+	.string "atómico.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_25:
+	.string "-2 de Marzo de 1998-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_26:
+	.string "ROJO, a nivel interno, era una máquina\n"
+	.string "perfecta. El problema fue… una inter-\l"
+	.string "acción con las variables externas\l"
+	.string "que excedían su capacidad.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_27:
+	.string "Sin embargo, el resultado de controlar\n"
+	.string "tanto variables internas como externas\l"
+	.string "será, de nuevo, revolucionario…$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_28:
+	.string "ORO no solo contará con un mecanismo\n"
+	.string "para recopilar de forma precisa toda\l"
+	.string "interacción que ejecute.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_29:
+	.string "Sino que todo a su alrededor; su mundo,\n"
+	.string "la realidad a la que se verá expuesta…\l"
+	.string "estará planeada de antemano.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_30:
+	.string "¿Por qué? ¿Con qué finalidad?$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_31:
+	.string "Al final todos, de un modo u otro,\n"
+	.string "estamos limitados.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_32:
+	.string "Qué mejor forma para expandir nuestros\n"
+	.string "propios límites, que establecer uno\l"
+	.string "controlado y aprender de él.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_33:
+	.string "Con nuestra tecnología actual,\n"
+	.string "podremos monitorizar todas las\l"
+	.string "acciones causa-efecto que ORO realice,\l"
+	.string "y en consecuencia recopilar una\l"
+	.string "ingente cantidad de datos que, aplicada\l"
+	.string "a la realidad, revolucionará el combate\l"
+	.string "POKÉMON tal y como lo conocemos.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_34:
+	.string "No solo del combate POKÉMON.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_35:
+	.string "También se podría extrapolar a… simular\n"
+	.string "acciones causa-efecto dentro de\l"
+	.string "nuestro propio mundo, hacer\l"
+	.string "estimaciones no solo de nuestra\l"
+	.string "región,sino de otras.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_36:
+	.string "Llevado a la práctica, estaríamos en\n"
+	.string "disposición de estimar el devenir del\l"
+	.string "mundo POKÉMON con una precisión\l"
+	.string "asombrosa, adentrándonos tanto en el\l"
+	.string "mejor como en el peor de los escenarios\l"
+	.string "posibles.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_37:
+	.string "De este modo, lograríamos comparar\n"
+	.string "ambas realidades: la nuestra y la\l"
+	.string "simulada, y como consecuencia…$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_38:
+	.string "…alcanzaríamos también a ver y\n"
+	.string "asegurarnos de que, a día de hoy,\l"
+	.string "gracias a todos nuestros avances,\l"
+	.string "prototipos, tecnología y cultura en el\l"
+	.string "combate POKÉMON, ninguna de las otras\l"
+	.string "regiones, aún en el mejor de sus\l"
+	.string "pronósticos, pudiera hacernos frente.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_39:
+	.string "En definitiva: certificar, de forma\n"
+	.string "empírica, que el binomio KANTO-JOHTO es\l"
+	.string "y será la principal potencia del mundo\l"
+	.string "POKÉMON.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_40:
+	.string "Aquí radica el verdadero valor del\n"
+	.string "-PROYECTO ORO-, y el por qué merece la\l"
+	.string "pena orquestar toda una región solo\l"
+	.string "para él.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_41:
+	.string "-1 de Enero de 1999-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_42:
+	.string "JOHTO se ha convertido en una\n"
+	.string "región completamente nueva.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_43:
+	.string "La II CONFERENCIA de CIUDAD TRIGAL ha\n"
+	.string "dejado todo el terreno preparado para\l"
+	.string "que el -PROYECTO ORO- pueda ponerse en\l"
+	.string "práctica.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_44:
+	.string "Nuevos LÍDERES de GIMNASIO, eventos\n"
+	.string "programados, LEGENDARIOS clonados que\l"
+	.string "saldrán a su paso, incluso una LIGA\l"
+	.string "POKÉMON hecha a medida.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_45:
+	.string "Visto desde dentro, -ORO-\n"
+	.string "será el elegido.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_46:
+	.string "Ciertamente, su destino será ese, pero\n"
+	.string "no por gracia divina, sino por la\l"
+	.string "nuestra.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_47:
+	.string "Pero… ¿qué diferencia podría haber\n"
+	.string "entre ambos casos? Tal vez, ninguna.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_48:
+	.string "Visto desde fuera, lo que parecía único\n"
+	.string "no será más que una rutina reglada, que\l"
+	.string "cualquier niño de 10 años podría\l"
+	.string "ejecutar, y creyendo por ello, al igual\l"
+	.string "que el propio ORO, ser especial.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_49:
+	.string "Quizás, con el debido entendimiento del\n"
+	.string "mundo, si fuéramos el POKÉMON ESENCIA…\l"
+	.string "también podríamos llegar a ver\l"
+	.string "nuestras propias acciones de igual\l"
+	.string "modo.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_50:
+	.string "Ahora nosotros, por una sola vez,\n"
+	.string "seremos tanto ejecutor como juez y\l"
+	.string "verdugo.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_51:
+	.string "Todas las hazañas de ORO serán inocuas\n"
+	.string "a nuestros ojos, desprovistas de\l"
+	.string "mérito. No son parte de su viaje, son el\l"
+	.string "medio por el que alcanzaremos nuestro\l"
+	.string "fin.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_52:
+	.string "Y el fin de su viaje concluirá\n"
+	.string "en el MONTE PLATEADO.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_53:
+	.string "-12 de Noviembre de 1999-$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_54:
+	.string "La III CONFERENCIA de\n"
+	.string "CIUDAD TRIGAL ha finalizado.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_55:
+	.string "GIOVANNI me ha informado de que\n"
+	.string "{PLAYER} logró localizar a ANDRA.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_55.1:
+	.string "Ambos tratarán de averiguar la\n"
+	.string "verdadera naturaleza de las acciones\l"
+	.string "de DEVON en HOENN.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_55.2:
+	.string "Pero en paralelo, nosotros estamos\n"
+	.string "ocupados con otros asuntos.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_55.3:
+	.string "El -PROYECTO ORO- será puesto en\n"
+	.string "marcha dentro de 3 días.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_55.4:
+	.string "En este preciso instante, me dispongo a\n"
+	.string "acudir a la base de PUEBLO CAOBA, desde\l"
+	.string "allí activaremos todos los protocolos.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_56:
+	.string "Una vez dé comienzo, no se detendrá\n"
+	.string "hasta que ORO sea capaz de cerrar el\l"
+	.string "círculo en el MONTE PLATEADO.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_56.1:
+	.string "Y una vez cerrado, obtendremos\n"
+	.string "lo que buscamos.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_57:
+	.string "Lo necesario para poder elaborar\n"
+	.string "precisas simulaciones de cada una\l"
+	.string "de las regiones conocidas.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_58:
+	.string "Sin el apoyo de GIOVANNI, nada\n"
+	.string "de esto hubiera sido posible.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_59:
+	.string "Ya desde el -PROYECTO ROJO- intuyó\n"
+	.string "la naturaleza de mis acciones.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_60:
+	.string "Gracias a ello pudo, para mi asombro,\n"
+	.string "ganarme la partida en la LIGA POKÉMON.$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_61:
+	.string "Al final de todo, resultó que éramos lo\n"
+	.string "bastante similares como para\l"
+	.string "entendernos el uno al otro con\l"
+	.string "facilidad…$"
+
+PalletTown_Laboratorio_S6_Despues_Texto_62:
+	.string "…pero también lo bastante diferentes\n"
+	.string "como para sorprendernos mutuamente.$"
+
+
+PalletTown_Laboratorio_Secreto_S6_Final::
+msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_5 MSGBOX_AUTOCLOSE
 release
 end
+
+PalletTown_Laboratorio_S6_Combate_Final_Texto_1:
+	.string "ANDRA: 3 días…$"
+
+PalletTown_Laboratorio_S6_Combate_Final_Texto_2:
+	.string "Eso… ¡es hoy! ¡El -PROYECTO ORO-\n"
+	.string "empieza hoy!$"
+
+PalletTown_Laboratorio_S6_Combate_Final_Texto_3:
+	.string "Entonces…$"
+
+PalletTown_Laboratorio_S6_Combate_Final_Texto_4:
+	.string "GIOVANNI sabía todo esto desde el\n"
+	.string "principio, antes incluso de nuestro\l"
+	.string "asalto a la LIGA POKÉMON, ¿por qué\l"
+	.string "entonces no hizo nada?$"
+
+PalletTown_Laboratorio_S6_Combate_Final_Texto_5:
+	.string "????: Por una cuestión de honor.$"
 
 
