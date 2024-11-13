@@ -8610,12 +8610,13 @@ const struct Item gItems[] =
 
     [ITEM_DNA_SPLICERS] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("Punta ADN"),
+        .itemId = ITEM_DNA_SPLICERS,
         .price = 0,
-        .description = sDummyDesc,
+		.importance = 1,
+        .description = sDNASplicersDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
@@ -8665,13 +8666,14 @@ const struct Item gItems[] =
 
     [ITEM_REINS_OF_UNITY] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("Riendas unión"),
+        .itemId = ITEM_REINS_OF_UNITY,
         .price = 0,
-        .description = sDummyDesc,
+		.importance = 1,
+        .description = sReinsOfUnityDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Fusion,
     },
 
 // Battle Mechanic Key Items

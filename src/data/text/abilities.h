@@ -815,8 +815,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
         [ABILITY_DRAGONS_MAW] = _("Mandíbula Dragón"),
         [ABILITY_CHILLING_NEIGH] = _("Relincho Blanco"),
         [ABILITY_GRIM_NEIGH] = _("Relincho Negro"),
-        [ABILITY_AS_ONE_ICE_RIDER] = _("Unidad Ecuestre"),
-        [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unidad Ecuestre"),
+        [ABILITY_AS_ONE_ICE_RIDER] = _("Unid.Ecuestre"),
+        [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unid.Ecuestre"),
         // TODO: Translate block
         // [ABILITY_LINGERING_AROMA] = _("Lingering Aroma"),
         // [ABILITY_SEED_SOWER] = _("Seed Sower"),
@@ -1116,8 +1116,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
         [ABILITY_DRAGONS_MAW] = _("Mandíbula Dragón"),
         [ABILITY_CHILLING_NEIGH] = _("Relincho Blanco"),
         [ABILITY_GRIM_NEIGH] = _("Relincho Negro"),
-        [ABILITY_AS_ONE_ICE_RIDER] = _("Unidad Ecuestre"),
-        [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unidad Ecuestre"),
+        [ABILITY_AS_ONE_ICE_RIDER] = _("Unid. Ecuestre"),
+        [ABILITY_AS_ONE_SHADOW_RIDER] = _("Unid. Ecuestre"),
 	#endif
 };
 

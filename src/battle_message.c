@@ -698,7 +698,7 @@ static const u8 sText_Trainer2LoseText[];
     static const u8 sText_PkmnsWillPerishIn3Turns[] = _("¡Ambos Pokémon se debilitarán\ndentro de tres turnos!");
     static const u8 sText_AbilityRaisedStatDrastically[] = _("¡{B_DEF_ABILITY} ha aumentado mucho\n{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}!");
 
-	static const u8 sText_AsOneEnters[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} has two Abilities!");
+	static const u8 sText_AsOneEnters[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} tienes dos habilidades!");
 	static const u8 sText_CuriousMedicineEnters[] = _("{B_EFF_NAME_WITH_PREFIX}'s\nstat changes were reset!");
 	static const u8 sText_CanActFaster[] = _("{B_ATK_NAME_WITH_PREFIX} can act faster,\nthanks to {B_BUFF1}!");
 	static const u8 sText_MicleBerryActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} boosted the accuracy of its\nnext move using {B_LAST_ITEM}!");
