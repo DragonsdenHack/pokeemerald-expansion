@@ -61,3 +61,87 @@ RocketHideout_11F_Cuarto_Cientifico_Texto_1:
 	.string "naturaleza; una fuerza de energía vital\l"
 	.string "en sí misma.$"
 
+PalletTown_Laboratorio_Secreto_Doc_Regigigas::
+lock
+showmonpic SPECIES_REGIGIGAS_PRIMAL, 10, 3  
+playmoncry SPECIES_REGIGIGAS, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Regigigas_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Regigigas_Texto_1:
+.string "REGIGIGAS-P\p"
+	.string "PS: 165\n"
+	.string "ATAQUE: 255\l"
+	.string "DEFENSA: 150\l"
+	.string "ATAQUE ESPECIAL: 50\l"
+	.string "DEFENSA ESPECIAL: 150\l"
+	.string "VELOCIDAD: 50\l"
+	.string "TOTAL: 820\p"
+	.string "TIPO: NORMAL/TIERRA\n"
+	.string "HABILIDAD: ROMPEMOLDES$"
+
+PalletTown_Laboratorio_Secreto_Doc_Milotic::
+lock
+showmonpic SPECIES_MILOTICBOND, 10, 3  
+playmoncry SPECIES_MILOTICBOND, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Milotic_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Milotic_Texto_1:
+.string "MILOTIC-&\p"
+	.string "PS: 115\n"
+	.string "ATAQUE: 65\l"
+	.string "DEFENSA: 79\l"
+	.string "ATAQUE ESPECIAL: 150\l"
+	.string "DEFENSA ESPECIAL: 195\l"
+	.string "VELOCIDAD: 91\l"
+	.string "TOTAL: 695\p"
+	.string "TIPO: AGUA/PSÍQUICO\n"
+	.string "HABILIDAD: ABS.ELÉCTRICO$"
+
+PalletTown_Laboratorio_Secreto_Doc_Jirachi::
+lock
+showmonpic SPECIES_JIRACHI_PRIMAL, 10, 3  
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Jirachi_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Jirachi_Texto_1:
+.string "JIRACHI-&\p"
+	.string "PS: 110\n"
+	.string "ATAQUE: 50\l"
+	.string "DEFENSA: 155\l"
+	.string "ATAQUE ESPECIAL: 155\l"
+	.string "DEFENSA ESPECIAL: 155\l"
+	.string "VELOCIDAD: 100\l"
+	.string "TOTAL: 725\p"
+	.string "TIPO: ACERO/HADA\n"
+	.string "HABILIDAD: LEVITACIÓN$"
+
+PalletTown_Laboratorio_Secreto_Doc_Relicanth::
+lock
+showmonpic SPECIES_RELICANTH_PRIMAL, 10, 3  
+playmoncry SPECIES_RELICANTH, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Relicanth_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Relicanth_Texto_1:
+.string "RELICANTH-P\p"
+	.string "PS: 110\n"
+	.string "ATAQUE: 110\l"
+	.string "DEFENSA: 140\l"
+	.string "ATAQUE ESPECIAL: 55\l"
+	.string "DEFENSA ESPECIAL: 75\l"
+	.string "VELOCIDAD: 105\l"
+	.string "TOTAL: 585\p"
+	.string "TIPO: AGUA/ROCA\n"
+	.string "HABILIDAD: CABEZA ROCA$"
+

@@ -246,7 +246,7 @@ applymovement 2, PokemonLeague_6F_Final_Move_13
 applymovement 3, PokemonLeague_6F_Final_Move_13
 applymovement 4, PokemonLeague_6F_Final_Move_14
 waitmovement 0x0
-playse MUS_RG_ROCKET_HIDEOUT
+playse 567
 msgbox PokemonLeague_6F_Final_Texto_50 MSGBOX_AUTOCLOSE
 applymovement 4, PokemonLeague_6F_Final_Move_31
 waitmovement 0x0
