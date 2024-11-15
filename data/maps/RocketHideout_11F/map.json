@@ -126,7 +126,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "PalletTown_Laboratorio_Secreto_Doc_Porygon"
     },
     {
       "type": "sign",
@@ -134,7 +134,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "PalletTown_Laboratorio_Secreto_Doc_Ultimate"
     },
     {
       "type": "sign",

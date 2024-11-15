@@ -80,7 +80,7 @@ walk_in_place_right
 step_end
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda_Texto_1:
-	.string "Este lugar parece… el núcleo de las\n"
+	.string "Este lugar parece{PAUSE 15}…{PAUSE 15} el núcleo de las\n"
 	.string "ondas de radio.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda_Texto_2:
@@ -95,7 +95,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda_Texto_4:
 	.string "Si la encuentras, avísame.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda_Texto_6:
 	.string "Bien. Debe ser la llave\n"
@@ -139,7 +139,7 @@ release
 end
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Este_Texto_1:
-	.string "Estamos muy cerca…$"
+	.string "Estamos muy cerca{PAUSE 25}…{PAUSE 25}$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Este_Move_1:
 face_left
@@ -414,7 +414,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_3:
 	.string "LOS 3 GRANDES CREADORES'$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_4:
-	.string "Parece interesante…\n"
+	.string "Parece interesante{PAUSE 15}…{PAUSE 15}\n"
 	.string "Lo leeré en voz alta.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_5:
@@ -457,7 +457,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_12:
 	.string "pueden dar lugar a POKÉMON singulares y\l"
 	.string "poderosos: LEGENDARIO + MEGA, PKMN +\l"
 	.string "PIEDRA ROCKET, PSEUDO + MEGA, PKMN +\l"
-	.string "ONDAS RADIO, PSEUDO + FUERTE VÍNCULO…$"
+	.string "ONDAS RADIO, PSEUDO + FUERTE VÍNCULO{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_13:
 	.string "De todas ellas, la más extrema es la de:\n"
@@ -469,7 +469,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_14:
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_15:
 	.string "A simple vista, tal combinación\n"
-	.string "parecería una quimera, pero… contamos\l"
+	.string "parecería una quimera, pero{PAUSE 15}…{PAUSE 15} contamos\l"
 	.string "con un prototipo base que cumple estos\l"
 	.string "requisitos.$"
 
@@ -496,7 +496,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_18:
 	.string "como 'ULTIMATE PROJECT'.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_19:
-	.string "ANDRA: … …$"
+	.string "ANDRA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_20:
 	.string "Entonces, ¿era este el misterio?$"
@@ -530,7 +530,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_26:
 	.string "parte!$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_27:
-	.string "Ahora… nos queda lo que parece la\n"
+	.string "Ahora{PAUSE 35}…{PAUSE 35} nos queda lo que parece la\n"
 	.string "última zona.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_28:
@@ -698,6 +698,12 @@ walk_slow_down
 unlock_facing_direction
 step_end
 
+Laboratorio_S6_Final_Move_6.1:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
 PalletTown_Laboratorio_S6_Final::
 lock
 setflag FLAG_HOENN_286
@@ -747,10 +753,10 @@ warpsilent MAP_PALLET_TOWN_LABORATORIO_SECRETO_S1, 47, 7
 delay 100
 
 PalletTown_Laboratorio_S6_Final_Texto_1:
-	.string "Una… ¿tele?$"
+	.string "Una{PAUSE 35}…{PAUSE 35} ¿tele?$"
 
 PalletTown_Laboratorio_S6_Final_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_3:
 	.string "Hay un disco, puede conectarse\n"
@@ -760,7 +766,7 @@ PalletTown_Laboratorio_S6_Final_Texto_4:
 	.string "Pone: MEMORIAS DE OAK.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_6:
 	.string "-10 de Septiembre de 1993-$"
@@ -785,8 +791,8 @@ PalletTown_Laboratorio_S6_Final_Texto_10:
 	.string "ser igual.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_11:
-	.string "A pesar de esta aplastante realidad… me\n"
-	.string "niego a pensar que este es el fin.$"
+	.string "A pesar de la aplastante realidad{PAUSE 25}…{PAUSE 25} me\n"
+	.string "niego a pensar que esto es el fin.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_12:
 	.string "Si yo no puedo salvar KANTO, nadie lo\n"
@@ -811,7 +817,7 @@ PalletTown_Laboratorio_S6_Final_Texto_17:
 	.string "Gracias a liberar todos mis POKÉMON, y\n"
 	.string "ofrecerme como investigador para el\l"
 	.string "nuevo gobierno, pude salvar este\l"
-	.string "laboratorio… y con ello el último hilo\l"
+	.string "laboratorio{PAUSE 25}…{PAUSE 25} y con ello el último hilo\l"
 	.string "de esperanza del que pende la región.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_18:
@@ -835,7 +841,7 @@ PalletTown_Laboratorio_S6_Final_Texto_22:
 	.string "logramos crear a MEWTWO.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_23:
-	.string "Pero…$"
+	.string "Pero{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_24:
 	.string "¿Aplicada a los humanos? ¿Qué clase\n"
@@ -844,10 +850,10 @@ PalletTown_Laboratorio_S6_Final_Texto_24:
 PalletTown_Laboratorio_S6_Final_Texto_25:
 	.string "Solemos prestar atención al poder\n"
 	.string "bruto de un POKÉMON, algo\l"
-	.string "absolutamente tangible, pero…$"
+	.string "absolutamente tangible, pero{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_26:
-	.string "…en un combate, el valor de un POKÉMON\n"
+	.string "{PAUSE 15}…{PAUSE 15}en un combate, el valor de un POKÉMON\n"
 	.string "está sujeto, en relación proporcional,\l"
 	.string "al del ENTRENADOR que lo comande.$"
 
@@ -862,10 +868,10 @@ PalletTown_Laboratorio_S6_Final_Texto_29:
 	.string "DITTO fue una muestra de la\n"
 	.string "maleabilidad en los genes de MEW, capaz\l"
 	.string "de transformarse en el POKÉMON\l"
-	.string "más poderoso…$"
+	.string "más poderoso{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_30:
-	.string "…pero también de convertirse en el\n"
+	.string "{PAUSE 15}…{PAUSE 15}pero también de convertirse en el\n"
 	.string "ENTRENADOR más hábil.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_31:
@@ -895,10 +901,10 @@ PalletTown_Laboratorio_S6_Final_Texto_35:
 	.string "código genético le dota de información\l"
 	.string "elemental sobre todos ellos, de la que\l"
 	.string "podrá sacar partido dentro de un\l"
-	.string "combate…$"
+	.string "combate{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_36:
-	.string "…también podrá tomar las mejores\n"
+	.string "{PAUSE 15}…{PAUSE 15}también podrá tomar las mejores\n"
 	.string "decisiones en base a ellas, sin estar\l"
 	.string "sujeto a las limitaciones\l"
 	.string "convencionales de cualquier\l"
@@ -973,7 +979,7 @@ PalletTown_Laboratorio_S6_Final_Texto_49:
 
 PalletTown_Laboratorio_S6_Final_Texto_50:
 	.string "En el estado actual de KANTO, no supone\n"
-	.string "ninguna amenaza para él, o eso cree…$"
+	.string "ninguna amenaza para él, o eso cree{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_51:
 	.string "Sera un gran acontecimiento, evadiendo\n"
@@ -1026,7 +1032,7 @@ PalletTown_Laboratorio_S6_Final_Texto_60:
 
 PalletTown_Laboratorio_S6_Final_Texto_61:
 	.string "Iba a ser suficiente para\n"
-	.string "derrocar a LANCE, pero…$"
+	.string "derrocar a LANCE, pero{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_62:
 	.string "Ese ENTRENADOR lo cambió todo.$"
@@ -1049,20 +1055,20 @@ PalletTown_Laboratorio_S6_Final_Texto_65:
 	.string "imponiéndose sobre la mía.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_66:
-	.string "Pero no… algo se me escapaba.$"
+	.string "Pero no{PAUSE 45}…{PAUSE 45} algo se me escapaba.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_67:
-	.string "Entonces recordé aquel discurso… a\n"
+	.string "Entonces recordé aquel discurso{PAUSE 35}…{PAUSE 35} de\n"
 	.string "aquella antigua CAMPEONA, ya olvidada,\l"
 	.string "varias décadas atrás.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_68:
 	.string "Jamás dudé en tomar como pura\n"
 	.string "charlatanería sus palabras, y a pesar\l"
-	.string "de ello…$"
+	.string "de ello{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_69:
-	.string "…aquellos asertos que parecían\n"
+	.string "{PAUSE 15}…{PAUSE 15}aquellos asertos que parecían\n"
 	.string "repugnar a la razón, 50 años después\l"
 	.string "cobraban cierto sentido.$"
 
@@ -1073,7 +1079,7 @@ PalletTown_Laboratorio_S6_Final_Texto_70:
 
 PalletTown_Laboratorio_S6_Final_Texto_71:
 	.string "Y pude verlas, reflejadas\n"
-	.string "en ese ENTRENADOR…$"
+	.string "en ese ENTRENADOR{PAUSE 35}…{PAUSE 35}$"
 
 Laboratorio_Secreto_S6_Despues_Move_1:
 delay_8
@@ -1132,7 +1138,7 @@ warpsilent MAP_PALLET_TOWN_LABORATORIO_SECRETO_S3, 8, 11
 delay 100
 
 PalletTown_Laboratorio_S6_Despues_Texto_1:
-	.string "ANDRA: Vaya…$"
+	.string "ANDRA: Vaya{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_2:
 	.string "Después de la LIGA, supimos lo que era\n"
@@ -1159,7 +1165,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_7:
 	.string "mi poder, corroboró mis sospechas.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_8:
-	.string "Yo había alcanzado la perfección… pero\n"
+	.string "Yo había alcanzado la perfección{PAUSE 25}…{PAUSE 25} pero\n"
 	.string "bajo condiciones controladas, en las\l"
 	.string "que intangibles como la -voluntad- o el\l"
 	.string "-vínculo- no estaban contempladas.$"
@@ -1178,7 +1184,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_10:
 PalletTown_Laboratorio_S6_Despues_Texto_11:
 	.string "Con LANCE fuera de juego, GIOVANNI\n"
 	.string "dominando en las sombras y JOHTO como\l"
-	.string "futura aliada…$"
+	.string "futura aliada{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_12:
 	.string "La situación es inmejorable\n"
@@ -1207,7 +1213,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_16:
 	.string "complejidad, no hay duda.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_17:
-	.string "Pero… si pudiéramos llegar a desgranar\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} si pudiéramos llegar a desgranar\n"
 	.string "una por una todas las situaciones de\l"
 	.string "acción-reacción, hasta llegar al nivel\l"
 	.string "más elemental, encontraríamos que no\l"
@@ -1231,7 +1237,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_21:
 	.string "una gran potencia.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_22:
-	.string "Pero lo más importante es que… todas\n"
+	.string "Pero lo más importante es que{PAUSE 35}…{PAUSE 35} todas\n"
 	.string "estas acciones cuentan en su conjunto\l"
 	.string "con un propósito aún más profundo.$"
 
@@ -1253,14 +1259,14 @@ PalletTown_Laboratorio_S6_Despues_Texto_25:
 
 PalletTown_Laboratorio_S6_Despues_Texto_26:
 	.string "ROJO, a nivel interno, era una máquina\n"
-	.string "perfecta. El problema fue… una inter-\l"
+	.string "perfecta. El problema fue{PAUSE 15}…{PAUSE 15} una inter-\l"
 	.string "acción con las variables externas\l"
 	.string "que excedían su capacidad.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_27:
 	.string "Sin embargo, el resultado de controlar\n"
 	.string "tanto variables internas como externas\l"
-	.string "será, de nuevo, revolucionario…$"
+	.string "será, de nuevo, revolucionario{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_28:
 	.string "ORO no solo contará con un mecanismo\n"
@@ -1269,7 +1275,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_28:
 
 PalletTown_Laboratorio_S6_Despues_Texto_29:
 	.string "Sino que todo a su alrededor; su mundo,\n"
-	.string "la realidad a la que se verá expuesta…\l"
+	.string "la realidad a la que se verá expuesta{PAUSE 25}…{PAUSE 25}\l"
 	.string "estará planeada de antemano.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_30:
@@ -1297,7 +1303,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_34:
 	.string "No solo del combate POKÉMON.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_35:
-	.string "También se podría extrapolar a… simular\n"
+	.string "También se podría extrapolar a{PAUSE 15}…{PAUSE 15} simular\n"
 	.string "acciones causa-efecto dentro de\l"
 	.string "nuestro propio mundo, hacer\l"
 	.string "estimaciones no solo de nuestra\l"
@@ -1314,10 +1320,10 @@ PalletTown_Laboratorio_S6_Despues_Texto_36:
 PalletTown_Laboratorio_S6_Despues_Texto_37:
 	.string "De este modo, lograríamos comparar\n"
 	.string "ambas realidades: la nuestra y la\l"
-	.string "simulada, y como consecuencia…$"
+	.string "simulada, y como consecuencia{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_38:
-	.string "…alcanzaríamos también a ver y\n"
+	.string "{PAUSE 15}…{PAUSE 15}alcanzaríamos también a ver y\n"
 	.string "asegurarnos de que, a día de hoy,\l"
 	.string "gracias a todos nuestros avances,\l"
 	.string "prototipos, tecnología y cultura en el\l"
@@ -1366,7 +1372,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_46:
 	.string "nuestra.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_47:
-	.string "Pero… ¿qué diferencia podría haber\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} ¿qué diferencia podría haber\n"
 	.string "entre ambos casos? Tal vez, ninguna.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_48:
@@ -1378,7 +1384,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_48:
 
 PalletTown_Laboratorio_S6_Despues_Texto_49:
 	.string "Quizás, con el debido entendimiento del\n"
-	.string "mundo, si fuéramos el POKÉMON ESENCIA…\l"
+	.string "mundo, si fuéramos el POKÉMON ESENCIA{PAUSE 15}…{PAUSE 15}\l"
 	.string "también podríamos llegar a ver\l"
 	.string "nuestras propias acciones de igual\l"
 	.string "modo.$"
@@ -1458,10 +1464,10 @@ PalletTown_Laboratorio_S6_Despues_Texto_61:
 	.string "Al final de todo, resultó que éramos lo\n"
 	.string "bastante similares como para\l"
 	.string "entendernos el uno al otro con\l"
-	.string "facilidad…$"
+	.string "facilidad{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_62:
-	.string "…pero también lo bastante diferentes\n"
+	.string "{PAUSE 25}…{PAUSE 25}pero también lo bastante diferentes\n"
 	.string "como para sorprendernos mutuamente.$"
 
 Laboratorio_Secreto_S6_Final_Move_1:
@@ -1777,11 +1783,6 @@ waitstate
 release
 end
 
-PalletTown_Laboratorio_S6_Combate_Ganado::
-msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_46 MSGBOX_AUTOCLOSE
-release
-end
-
 Laboratorio_Secreto_S6_Final_Move_19:
 delay_16
 face_left
@@ -1836,14 +1837,14 @@ face_up
 step_end
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_1:
-	.string "ANDRA: 3 días…$"
+	.string "ANDRA: 3 días{PAUSE 25}…{PAUSE 25}$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_2:
-	.string "Eso… ¡es hoy! ¡El -PROYECTO ORO-\n"
+	.string "Eso{PAUSE 15}…{PAUSE 15} ¡es hoy! ¡El -PROYECTO ORO-\n"
 	.string "empieza hoy!$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_3:
-	.string "Pero…$"
+	.string "Pero{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_4:
 	.string "GIOVANNI sabía todo esto desde el\n"
@@ -1904,7 +1905,7 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_12:
 PalletTown_Laboratorio_S6_Combate_Final_Texto_13:
 	.string "Sin embargo, todos sus diarios, planos,\n"
 	.string "el -PROYECTO ROJO- en detalle, la\l"
-	.string "ubicación de MEWTWO… todo estaba ahí.$"
+	.string "ubicación de MEWTWO{PAUSE 25}…{PAUSE 25} todo estaba allí.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_14:
 	.string "Fue entonces, al adentrarme e indagar\n"
@@ -1975,7 +1976,7 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_29:
 	.string "también nuestros propios equipos.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_30:
-	.string "ANDRA: Entonces…$"
+	.string "ANDRA: Entonces{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_31:
 	.string "GIOVANNI: Entraremos en ellas, y\n"
@@ -1984,7 +1985,7 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_31:
 	.string "regiones.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_32:
-	.string "ANDRA: Y… si lográis triunfar, con ello\n"
+	.string "ANDRA: Y{PAUSE 15}…{PAUSE 15} si lográis triunfar, con ello\n"
 	.string "os aseguráis de que dichas regiones\l"
 	.string "jamás podrían declararos la guerra con\l"
 	.string "éxito, ¿verdad?$"
@@ -1998,7 +1999,7 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_34:
 	.string "III.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_35:
-	.string "ANDRA: Pues… esos prototipos siquiera\n"
+	.string "ANDRA: Pues esos prototipos siquiera\n"
 	.string "han podido con nosotros.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_36:
@@ -2009,7 +2010,7 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_37:
 	.string "mero hecho de estar aquí lo es.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_38:
-	.string "ANDRA: … …$"
+	.string "ANDRA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_39:
 	.string "Si de verdad vuestro plan tiene éxito,\n"
@@ -2046,11 +2047,552 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_46:
 	.string "ANDRA: Lo averiguaremos.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_47:
-	.string "Parece… que aún quedan\n"
+	.string "Parece que aún quedan\n"
 	.string "aristas por descubrir.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_48:
 	.string "La realidad es asombrosa.$"
+
+Laboratorio_S6_Combate_Ganado_Move_1:
+lock_facing_direction
+walk_slow_down
+unlock_facing_direction
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_2:
+walk_in_place_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_3:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_4:
+emote_exclamation_mark
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_5:
+face_right
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_6:
+walk_in_place_up
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_7:
+walk_in_place_right
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_8:
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_9:
+delay_8
+face_down
+delay_16
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_10:
+walk_slow_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_11:
+delay_16
+delay_16
+face_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_12:
+delay_16
+delay_16
+face_left
+delay_16
+face_down
+delay_8
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_13:
+walk_down
+walk_left
+walk_down
+walk_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_14:
+face_up
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_15:
+face_right
+delay_16
+delay_16
+face_down
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_16:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+PalletTown_Laboratorio_S6_Combate_Ganado::
+delay 30
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_1
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_1 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_2
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_3
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_4
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 15
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_5
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_2
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_6
+waitmovement 0x0
+waitse
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_11 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_7
+waitmovement 0x0
+waitse
+delay 10
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_8
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_6
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_9
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_16 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_2
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_10
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_20 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_4
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 15
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_11
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_13
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_12
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_14
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_2
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_24 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_26 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 15
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_15
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_6
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_16
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29 MSGBOX_AUTOCLOSE
+delay 50
+playse SE_POKENAV_CALL
+delay 20
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 30
+playse SE_POKENAV_HANG_UP
+waitse
+delay 15
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_5
+waitmovement 0x0
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_30 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_POKENAV_OFF
+waitse
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_33 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_34 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Combate_Ganado_Move_4
+waitmovement 0x0
+waitse
+delay 15
+playse SE_BREAKABLE_DOOR
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_6
+waitse
+delay 10
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 1, Laboratorio_S6_Combate_Ganado_Move_18
+applymovement 2, Laboratorio_S6_Combate_Ganado_Move_19
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Combate_Ganado_Move_17
+waitmovement 0x0
+playse SE_PC_LOGIN
+waitse
+delay 30
+playse SE_WIN_OPEN
+waitse
+applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Final_Move_6.1
+waitmovement 0x0
+delay 30
+clearflag FLAG_HOENN_1
+clearflag FLAG_HOENN_681
+warpsilent MAP_MOSSDEEP_CITY, 76, 13
+delay 100
+
+Laboratorio_S6_Combate_Ganado_Move_19:
+walk_right
+walk_up
+walk_up
+walk_up
+face_left
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_18:
+delay_16
+walk_up
+walk_up
+walk_up
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_17:
+walk_up
+walk_up
+delay_16
+delay_8
+walk_in_place_up
+delay_16
+step_end
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_1:
+	.string "GIOVANNI: Los 4{PAUSE 15}…{PAUSE 15}$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_2:
+	.string "ANDRA: ¿Qué?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_3:
+	.string "GIOVANNI: Con este nivel, podríamos\n"
+	.string "haber batido al POKÉMON ESENCIA ese\l"
+	.string "día. Cada uno de los que estamos aquí,\l"
+	.string "no solo {PLAYER}.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_4:
+	.string "Pero{PAUSE 15}…{PAUSE 15} vosotros habéis ido aún más allá.\n"
+	.string "¿Cómo?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_5:
+	.string "ANDRA: El MAESTRO de\n"
+	.string "TORRE DUN lo explicó.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_6:
+	.string "Ese día, los límites de\n"
+	.string "poder se expandieron.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_7:
+	.string "Quizás modificara aspectos de su\n"
+	.string "funcionamiento que aún no podemos\l"
+	.string "contemplar.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_8:
+	.string "Honestamente, no me importa.\n"
+	.string "Ahora ya no.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_9:
+	.string "GIOVANNI: Me sorprende tu actitud.\n"
+	.string "¿Es que no lo ves, ANDRA?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_10:
+	.string "Con esto, podríamos anticiparnos a\n"
+	.string "cualquier posible guerra.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_11:
+	.string "¡Ya no habrá poder en el mundo que\n"
+	.string "pueda emular lo que hizo LANCE!$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_12:
+	.string "ANDRA: Y a su vez, no habrá tampoco\n"
+	.string "fuerza que os impida a vosotros hacer\l"
+	.string "lo mismo.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_13:
+	.string "OAK: Pero{PAUSE 5}…{PAUSE 5} ¿Cómo te atreves? Después\n"
+	.string "de lo que hemos pasado para llegar\l"
+	.string "a esta situación.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_14:
+	.string "¿¡De verdad crees que vamos ahora a\n"
+	.string "tirar todo por la borda!?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_15:
+	.string "ANDRA: Muchas de las mayores\n"
+	.string "atrocidades se han cometido bajo el\l"
+	.string "respaldo de causas nobles.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_16:
+	.string "GIOVANNI: Eso jamás ocurrirá,\n"
+	.string "lucharemos para que el proceso se\l"
+	.string "mantenga fiel a las ideas que lo han\l"
+	.string "construido.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_17:
+	.string "ANDRA: Eso espero.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_18:
+	.string "Porque, además{PAUSE 25}…{PAUSE 25} aún quedan misterios\n"
+	.string "por resolver en el mundo real.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_19:
+	.string "Tenías razón, GIOVANNI.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_20:
+	.string "DEVON iba tras REGIGIGAS; y en CÁMARA\n"
+	.string "SELLADA enfrentamos algo de\l"
+	.string "dimensiones similares a vuestro\l"
+	.string "-PROYECTO ULTIMATE-.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_21:
+	.string "OAK: ¿Dónde vas?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_22:
+	.string "ANDRA: Nada me retiene ya aquí.\n"
+	.string "Seguiré con mi búsqueda.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_23:
+	.string "GIOVANNI: ¿Y este lugar?\n"
+	.string "¿Qué hay de todo lo que has visto?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_24:
+	.string "¡¿No sientes curiosidad por saber qué\n"
+	.string "se siente al manejar este poder?!$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_25:
+	.string "ANDRA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_26:
+	.string "Dime una cosa.\n"
+	.string "¿Dónde ha quedado tu RHYPERIOR-&?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_27:
+	.string "GIOVANNI: No{PAUSE 25}…{PAUSE 25} era{PAUSE 25}…{PAUSE 25} lo bastante fuerte.\n"
+	.string "Se quedó atrás.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28:
+	.string "ANDRA: Ahí tienes la respuesta: no hay\n"
+	.string "lugar aquí para mí.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29:
+	.string "OAK: Puede que esta sea precisamente\n"
+	.string "la forma en la que más puede contribuir\l"
+	.string "a nuestros avances.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_30:
+	.string "GIOVANNI: ¿Sí?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_31:
+	.string "¡¿Qué?!{PAUSE 55}…{PAUSE 55} entendido{PAUSE 45}…{PAUSE 45} inmediatamente{PAUSE 35}…{PAUSE 35}$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_32:
+	.string "OAK: ¿De qué se trata?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_33:
+	.string "GIOVANNI: El PRESIDENTE de DEVON.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_34:
+	.string "Está haciendo un gran anuncio\n"
+	.string "en CIUDAD ALGARIA.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_35:
+	.string "Está en todas partes, ¡rápido, conectad\n"
+	.string "cualquier cadena a la tele!$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_36:
+	.string "A las vísperas del nuevo milenio, me\n"
+	.string "complace anunciar que tenemos todo\l"
+	.string "listo para realizar el primer despegue.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_37:
+	.string "La historia de HOENN se ha escrito en\n"
+	.string "base a un insaciable anhelo por dominar\l"
+	.string "la naturaleza, y alcanzar cotas más y\l"
+	.string "más elevadas.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_38:
+	.string "Ya nos hemos adentrado tanto en las\n"
+	.string "profundidades de la tierra como del\l"
+	.string "océano.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_39:
+	.string "Ahora, continuando el legado que\n"
+	.string "dejaron nuestros antepasados{PAUSE 25}…{PAUSE 25} es\l"
+	.string "momento de adentrarnos en la infinitud\l"
+	.string "del cielo.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_40:
+	.string "Y ello tendrá lugar el 1 de enero del año\n"
+	.string "2000; fecha simbólica que dará pie a\l"
+	.string "una nueva era.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_41:
+	.string "Tiempos interesantes nos ha tocado\n"
+	.string "vivir. Larga vida a HOENN.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_42:
+	.string "D.RASMUS: Traigo una orden de arresto y\n"
+	.string "detención para la dueña del CASINO\l"
+	.string "MALVALONA.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_43:
+	.string "Es una peligrosa criminal, que ha\n"
+	.string "interferido con el progreso de esta\l"
+	.string "región.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_44:
+	.string "Discúlpenos, pero lleva semanas sin\n"
+	.string "aparecer por aquí. No sabemos nada de\l"
+	.string "ella.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_45:
+	.string "D.RASMUS: Lo suponía. En ese caso{PAUSE 15}…{PAUSE 15}$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_46:
+	.string "A partir ahora, el CASINO quedará a\n"
+	.string "cargo de DEVON.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_47:
+	.string "La primera medida será eliminar de la\n"
+	.string "oferta todos esos POKÉMON no\l"
+	.string "autóctonos.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_48:
+	.string "HOENN se mantendrá pura y{PAUSE 15}…{PAUSE 15}\n"
+	.string "bajo control.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_49:
+	.string "Bueno, esto es VILLA RAÍZ.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_50:
+	.string "¿Qué? ¿Te gusta?\n"
+	.string "¡Aquí es donde vamos a vivir!$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_51:
+	.string "Es un lugar pintoresco, pero creo que se\n"
+	.string "puede vivir muy agusto aquí, ¿eh?$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_52:
+	.string "¡Y además tienes tu propio cuarto!\n"
+	.string "¡Entremos en casa!$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_53:
+	.string "Este es mi número de teléfono.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_54:
+	.string "Llámame si surge algo.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_55:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_56:
+	.string "Espero que aprendas y\n"
+	.string "madures con este viaje.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_57:
+	.string "Porque, a pesar de todo{PAUSE 35}…{PAUSE 35} no hay más\n"
+	.string "verdad afuera que en el reducido mundo\l"
+	.string "sobre el que te moverás.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_58:
+	.string "Nada de lo que verás será falso, solo\n"
+	.string "estará{PAUSE 35}…{PAUSE 35} debidamente controlado.$"
 
 
 

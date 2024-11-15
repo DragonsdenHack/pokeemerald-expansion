@@ -487,14 +487,14 @@ end
 PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_1:
 .string "ZAPDOS-Z\p"
 	.string "PS: 110\n"
-	.string "ATAQUE: 105\l"
-	.string "DEFENSA: 80\l"
+	.string "ATAQUE: 115\l"
+	.string "DEFENSA: 130\l"
 	.string "ATAQUE ESPECIAL: 185\l"
-	.string "DEFENSA ESPECIAL: 130\l"
-	.string "VELOCIDAD: 120\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 90\l"
 	.string "TOTAL: 730\p"
-	.string "TIPO: AGUA/VOLADOR\n"
-	.string "HABILIDAD: INTIMIDACIÓN$"
+	.string "TIPO: ELÉCTRICO/ACERO\n"
+	.string "HABILIDAD: LEVITACIÓN$"
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise::
 lock

@@ -1,5 +1,10 @@
 Newbark_ElmLaboratory_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Newbark_ElmLaboratory_OnFrame
 	.byte 0
+
+Newbark_ElmLaboratory_OnFrame:
+map_script_2 VAR_UNUSED_0x40F8, 57, Newbark_ElmLaboratory_Final
+	.2byte 0
 
 ElmLaboratory1::
 end
@@ -119,4 +124,18 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8:
 .string "Pse, tú mismo, creí que te llamaba\n"
 	.string "lo extraordinario.$"
+
+Newbark_ElmLaboratory_Final::
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_53 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_54 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_55 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_56 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_57 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_58 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F8, 58
+setvar VAR_TEMP_1, 1
+call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
+goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
+release
+end
 

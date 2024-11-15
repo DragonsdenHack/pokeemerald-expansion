@@ -6,6 +6,7 @@
 LittlerootTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_OnWarp
 	.byte 0
 
@@ -107,9 +108,10 @@ LittlerootTown_EventScript_SetMomInFrontOfDoorFemale::
 	return
 
 LittlerootTown_OnFrame:
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 1, LittlerootTown_EventScript_StepOffTruckMale
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 2, LittlerootTown_EventScript_StepOffTruckFemale
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_BeginDexUpgradeScene
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_StepOffTruckMale
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_StepOffTruckFemale
+	map_script_2 VAR_UNUSED_0x40F8, 57, LittlerootTown_Final
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_BeginDexUpgradeScene
 	.2byte 0
 
 LittlerootTown_EventScript_StepOffTruckMale::
@@ -1018,4 +1020,14 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
+
+LittlerootTown_Final::
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_49 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_50 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_51 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_52 MSGBOX_AUTOCLOSE
+warpsilent MAP_NEWBARK_ELM_LABORATORY, 6, 0
+delay 100
+release
+end
 

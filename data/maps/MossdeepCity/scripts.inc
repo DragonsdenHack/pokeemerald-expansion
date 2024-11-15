@@ -1,10 +1,12 @@
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
     map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_OnFrame
 	.byte 0
 
 MossdeepCity_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 247, MossdeepCity_Andra
+map_script_2 VAR_UNUSED_0x40F8, 57, MossdeepCity_Final
 	.2byte 0
 
 MossdeepCity_OnTransition:
@@ -1169,3 +1171,17 @@ MossdeepCity_Devon_Tristana_Despues_Texto_25:
 MossdeepCity_Devon_Tristana_Despues_Texto_26:
 	.string "Ahí trazaremos el plan de acción y te\n"
 	.string "daré los detalles. No tardes.$"
+
+
+MossdeepCity_Final::
+lock
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_36 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_37 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_38 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_39 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_40 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_41 MSGBOX_AUTOCLOSE
+warpsilent MAP_MAUVILLE_CITY_GAME_CORNER, 7, 7
+delay 100
+release
+end

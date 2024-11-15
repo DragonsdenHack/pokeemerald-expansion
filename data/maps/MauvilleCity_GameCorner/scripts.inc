@@ -1,5 +1,10 @@
 MauvilleCity_GameCorner_MapScripts::
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, MauvilleCity_GameCorner_OnFrame
 	.byte 0
+
+MauvilleCity_GameCorner_OnFrame:
+map_script_2 VAR_UNUSED_0x40F8, 57, MauvilleCity_GameCorner_Final
+	.2byte 0
 
     @ Game Corner prices
 	.set TM32_COINS,  1500
@@ -1138,4 +1143,17 @@ EventScript_Purrloin_Texto_1:
 EventScript_Treecko_Texto_1:
 .string "¿Quieres un TREECKO?\n"
 	.string "Costará 8.000 FICHAS.$"
+
+MauvilleCity_GameCorner_Final::
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_42 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_43 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_44 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_45 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_46 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_47 MSGBOX_AUTOCLOSE
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_48 MSGBOX_AUTOCLOSE
+warpsilent MAP_LITTLEROOT_TOWN, 1, 9
+delay 100
+release
+end
 

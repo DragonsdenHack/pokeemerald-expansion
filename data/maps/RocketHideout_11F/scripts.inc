@@ -145,3 +145,45 @@ PalletTown_Laboratorio_Secreto_Doc_Relicanth_Texto_1:
 	.string "TIPO: AGUA/ROCA\n"
 	.string "HABILIDAD: CABEZA ROCA$"
 
+PalletTown_Laboratorio_Secreto_Doc_Ultimate::
+lock
+showmonpic SPECIES_ULTIMATE_PROYECT, 10, 3  
+playmoncry SPECIES_GENESECT, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1:
+.string "ULTIMATE PROJECT\p"
+	.string "PS: 126\n"
+	.string "ATAQUE: 110\l"
+	.string "DEFENSA: 154\l"
+	.string "ATAQUE ESPECIAL: 216\l"
+	.string "DEFENSA ESPECIAL: 154\l"
+	.string "VELOCIDAD: 90\l"
+	.string "TOTAL: 830\p"
+	.string "TIPO: PSÍQUICO/ACERO\n"
+	.string "HABILIDAD: ARMADURA ULT.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Porygon::
+lock
+showmonpic SPECIES_ULTIMATE_PROYECT, 10, 3  
+playmoncry SPECIES_GENESECT, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_1:
+.string "PORYGON 3.1\p"
+	.string "PS: 105\n"
+	.string "ATAQUE: 70\l"
+	.string "DEFENSA: 75\l"
+	.string "ATAQUE ESPECIAL: 165\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 145\l"
+	.string "TOTAL: 830\p"
+	.string "TIPO: NORMAL/PSÍQUICO\n"
+	.string "HABILIDAD: PELUCHE$"
+
