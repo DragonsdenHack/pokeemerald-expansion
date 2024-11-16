@@ -14,7 +14,6 @@ RadioTowerP4_1_Texto_1:
 	.string "por la cercanía al mar.$"
 
 
-
 RadioTowerP4_2::
 end
 
