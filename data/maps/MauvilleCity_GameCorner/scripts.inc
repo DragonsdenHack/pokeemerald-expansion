@@ -1145,15 +1145,103 @@ EventScript_Treecko_Texto_1:
 	.string "Costará 8.000 FICHAS.$"
 
 MauvilleCity_GameCorner_Final::
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MauvilleCity_GameCorner_Final_Move_1
+applymovement 16, MauvilleCity_GameCorner_Final_Move_2
+waitmovement 0x0
+special RemoveCameraObject
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_43 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, MauvilleCity_GameCorner_Final_Move_3
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_44 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 16, MauvilleCity_GameCorner_Final_Move_4
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_45 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 16, MauvilleCity_GameCorner_Final_Move_5
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_46 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, MauvilleCity_GameCorner_Final_Move_6
+waitmovement 0x0
+delay 10
+applymovement 9, MauvilleCity_GameCorner_Final_Move_6
+waitmovement 0x0
+delay 10
+applymovement 4, MauvilleCity_GameCorner_Final_Move_6
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_47 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 16, MauvilleCity_GameCorner_Final_Move_7
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_48 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 16, MauvilleCity_GameCorner_Final_Move_8
+waitmovement 0x0
+delay 10
+playse SE_EXIT
+removeobject 16
+delay 30
 warpsilent MAP_LITTLEROOT_TOWN, 1, 9
 delay 100
 release
 end
+
+MauvilleCity_GameCorner_Final_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+MauvilleCity_GameCorner_Final_Move_7:
+face_down
+step_end
+
+MauvilleCity_GameCorner_Final_Move_6:
+emote_exclamation_mark
+step_end
+
+MauvilleCity_GameCorner_Final_Move_5:
+walk_in_place_up
+step_end
+
+MauvilleCity_GameCorner_Final_Move_4:
+delay_8
+face_right
+step_end
+
+MauvilleCity_GameCorner_Final_Move_3:
+walk_in_place_down
+step_end
+
+MauvilleCity_GameCorner_Final_Move_2:
+walk_up
+walk_up
+walk_up
+walk_up
+delay_16
+delay_8
+walk_in_place_up
+step_end
+
+MauvilleCity_GameCorner_Final_Move_1:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+step_end
 

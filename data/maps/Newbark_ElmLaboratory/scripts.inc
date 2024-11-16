@@ -125,13 +125,53 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8:
 .string "Pse, tú mismo, creí que te llamaba\n"
 	.string "lo extraordinario.$"
 
+Newbark_ElmLaboratory_Final_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+Newbark_ElmLaboratory_Final_Move_2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Newbark_ElmLaboratory_Final_Move_3:
+walk_slow_left
+walk_slow_left
+walk_slow_up
+step_end
+
 Newbark_ElmLaboratory_Final::
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Newbark_ElmLaboratory_Final_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_53 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_54 MSGBOX_AUTOCLOSE
+delay 45
+applymovement 4, Newbark_ElmLaboratory_Final_Move_2
+waitmovement 0x0
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_55 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_56 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_57 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_58 MSGBOX_AUTOCLOSE
+applymovement 1, Newbark_ElmLaboratory_Final_Move_3
+setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+clearflag FLAG_NUEVA_292
+setflag FLAG_HOENN_289
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
 setvar VAR_UNUSED_0x40F8, 58
 setvar VAR_TEMP_1, 1
 call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags

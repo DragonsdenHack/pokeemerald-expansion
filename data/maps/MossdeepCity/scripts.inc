@@ -1188,15 +1188,29 @@ walk_left
 walk_down
 walk_down
 walk_down
+walk_down
 step_end
 
 MossdeepCity_Final_Move_2:
 walk_in_place_down
 step_end
 
+MossdeepCity_Final_Move_3:
+face_right
+delay_16
+delay_8
+face_down
+step_end
+
+MossdeepCity_Final_Move_4:
+emote_exclamation_mark
+step_end
+
 
 MossdeepCity_Final::
 lock
+setobjectxy 23, 50, 7
+playse SE_APPLAUSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Final_Move_1
 waitmovement 0x0
@@ -1204,13 +1218,64 @@ special RemoveCameraObject
 delay 10
 applymovement 24, MossdeepCity_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 13, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
+applymovement 14, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
+applymovement 12, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_38 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 24, MossdeepCity_Final_Move_3
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_39 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 13, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
+applymovement 14, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
+applymovement 12, MossdeepCity_Final_Move_4
+waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_40 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_41 MSGBOX_AUTOCLOSE
+applymovement 24, MossdeepCity_Final_Move_6
+waitmovement 0x0
+playse SE_SLIDING_DOOR
+opendoor 64, 15
+waitdooranim
+addobject 25
+applymovement 24, MossdeepCity_Final_Move_5
+waitmovement 0x0
+removeobject 24
+closedoor 64, 15
+waitdooranim
+delay 35
+setflag FLAG_HOENN_4
 warpsilent MAP_MAUVILLE_CITY_GAME_CORNER, 7, 7
 delay 100
 release
 end
+
+MossdeepCity_Final_Move_5:
+walk_up
+step_end
+
+MossdeepCity_Final_Move_6:
+face_up
+delay_16
+step_end

@@ -108,7 +108,7 @@
 #define SE_SHINY                    102 // SE_REAPOKE
 #define SE_INTRO_BLAST              103 // SE_OP_BASYU
 #define SE_MUGSHOT                  104 // SE_BT_START // carga energia, posible uso para ultraentes o pokemon poderoso
-#define SE_APPLAUSE                 105 // SE_DENDOU
+#define SE_APPLAUSE                 105 // SE_DENDOU // Gente aplaudiendo
 #define SE_VEND                     106 // SE_JIHANKI
 #define SE_ORB                      107 // SE_TAMA
 #define SE_DEX_SCROLL               108 // SE_Z_SCROLL

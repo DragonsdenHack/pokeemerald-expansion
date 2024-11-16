@@ -40409,7 +40409,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER727[] = {
     {
     .iv = 255,
     .lvl = 125,
-    .species = SPECIES_ARCHEOPS_X,
+    .species = SPECIES_MEWTWO_ARM,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {252, 0, 0, 252, 0, 6},
     .nature = NATURE_TIMID,
@@ -40418,7 +40418,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER727[] = {
     {
     .iv = 255,
     .lvl = 125,
-    .species = SPECIES_EONEON,
+    .species = SPECIES_MEWTWO,
     .heldItem = ITEM_MEWTWONITE_X,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,

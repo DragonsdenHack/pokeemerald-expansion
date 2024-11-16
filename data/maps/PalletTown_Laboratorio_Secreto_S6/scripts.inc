@@ -2150,6 +2150,7 @@ walk_down
 step_end
 
 PalletTown_Laboratorio_S6_Combate_Ganado::
+playse 564
 delay 30
 applymovement 1, Laboratorio_S6_Combate_Ganado_Move_1
 waitmovement 0x0
@@ -2273,7 +2274,8 @@ waitmovement 0x0
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28 MSGBOX_AUTOCLOSE
 applymovement 3, Laboratorio_S6_Combate_Ganado_Move_16
 waitmovement 0x0
-delay 15
+playse MUS_DUMMY
+delay 64
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29 MSGBOX_AUTOCLOSE
 delay 50
 playse SE_POKENAV_CALL
@@ -2296,9 +2298,9 @@ waitse
 delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_31 MSGBOX_AUTOCLOSE
 delay 10
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
 waitse
-delay 15
+delay 25
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_32 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_33 MSGBOX_AUTOCLOSE
@@ -2321,11 +2323,12 @@ waitmovement 0x0
 playse SE_PC_LOGIN
 waitse
 delay 30
-playse SE_WIN_OPEN
+playse SE_SELECT
 waitse
 applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Final_Move_6.1
 waitmovement 0x0
 delay 30
+setflag FLAG_HOENN_679
 setflag FLAG_HIDE_ROUTE_128_STEVEN
 clearflag FLAG_NUEVA_292
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
@@ -2478,7 +2481,7 @@ PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28:
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29:
 	.string "OAK: Puede que esta sea precisamente\n"
-	.string "la forma en la que más puede contribuir\l"
+	.string "la forma en la que más pueda contribuir\l"
 	.string "a nuestros avances.$"
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_30:
@@ -2504,7 +2507,8 @@ PalletTown_Laboratorio_S6_Combate_Ganado_Texto_35:
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_36:
 	.string "A las vísperas del nuevo milenio, me\n"
 	.string "complace anunciar que tenemos todo\l"
-	.string "listo para realizar el primer despegue.$"
+	.string "listo para realizar el primer despegue\l"
+	.string "hacia la luna.$"
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_37:
 	.string "La historia de HOENN se ha escrito en\n"
