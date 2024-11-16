@@ -1756,8 +1756,8 @@ msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_43 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_44 MSGBOX_AUTOCLOSE
 delay 10
-applymovement 1, Laboratorio_Secreto_S6_Final_Move_16
-applymovement 2, Laboratorio_Secreto_S6_Final_Move_17
+applymovement 2, Laboratorio_Secreto_S6_Final_Move_16
+applymovement 1, Laboratorio_Secreto_S6_Final_Move_17
 waitmovement 0x0
 delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Final_Texto_45 MSGBOX_AUTOCLOSE
@@ -2185,8 +2185,9 @@ waitmovement 0x0
 waitse
 delay 15
 applymovement 2, Laboratorio_S6_Combate_Ganado_Move_5
-applymovement 1, Laboratorio_S6_Combate_Ganado_Move_2
+applymovement 1, Laboratorio_S6_Final_Move_6.1
 waitmovement 0x0
+delay 10
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_10 MSGBOX_AUTOCLOSE
@@ -2267,10 +2268,10 @@ delay 15
 applymovement 1, Laboratorio_S6_Combate_Ganado_Move_15
 waitmovement 0x0
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_27 MSGBOX_AUTOCLOSE
-applymovement 1, Laboratorio_S6_Combate_Ganado_Move_6
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_6
 waitmovement 0x0
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28 MSGBOX_AUTOCLOSE
-applymovement 1, Laboratorio_S6_Combate_Ganado_Move_16
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_16
 waitmovement 0x0
 delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29 MSGBOX_AUTOCLOSE
@@ -2325,8 +2326,13 @@ waitse
 applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Final_Move_6.1
 waitmovement 0x0
 delay 30
+setflag FLAG_HIDE_ROUTE_128_STEVEN
+clearflag FLAG_NUEVA_292
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+setflag FLAG_HOENN_294
 clearflag FLAG_HOENN_1
 clearflag FLAG_HOENN_681
+setvar VAR_UNUSED_0x40F8, 57
 warpsilent MAP_MOSSDEEP_CITY, 76, 13
 delay 100
 

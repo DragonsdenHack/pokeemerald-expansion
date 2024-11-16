@@ -1172,9 +1172,38 @@ MossdeepCity_Devon_Tristana_Despues_Texto_26:
 	.string "Ahí trazaremos el plan de acción y te\n"
 	.string "daré los detalles. No tardes.$"
 
+MossdeepCity_Final_Move_1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+step_end
+
+MossdeepCity_Final_Move_2:
+walk_in_place_down
+step_end
+
 
 MossdeepCity_Final::
 lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MossdeepCity_Final_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
+applymovement 24, MossdeepCity_Final_Move_2
+waitmovement 0x0
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_36 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_37 MSGBOX_AUTOCLOSE
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_38 MSGBOX_AUTOCLOSE

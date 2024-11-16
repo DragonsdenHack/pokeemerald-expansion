@@ -477,9 +477,13 @@ PalletTown_Laboratorio_Secreto_S3_Estatua_Andra_Texto_1:
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos::
 lock
-showmonpic SPECIES_ZAPDOS, 10, 3  
+showmonpic SPECIES_ARCHEOPS_X, 10, 3  
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER 
 msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_1, MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_2, MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_3, MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_4, MSGBOX_SIGN
+msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_5, MSGBOX_SIGN
 hidemonpic
 release
 end
@@ -487,8 +491,8 @@ end
 PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_1:
 .string "ZAPDOS-Z\p"
 	.string "PS: 110\n"
-	.string "ATAQUE: 115\l"
-	.string "DEFENSA: 130\l"
+	.string "ATAQUE: 105\l"
+	.string "DEFENSA: 140\l"
 	.string "ATAQUE ESPECIAL: 185\l"
 	.string "DEFENSA ESPECIAL: 100\l"
 	.string "VELOCIDAD: 90\l"
@@ -496,9 +500,29 @@ PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_1:
 	.string "TIPO: ELÉCTRICO/ACERO\n"
 	.string "HABILIDAD: LEVITACIÓN$"
 
+PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_2:
+	.string "Primer LEGENDARIO expuesto a las ondas\n"
+	.string "de radio con éxito.$"
+
+PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_3:
+	.string "De las 3 AVES, ZAPDOS era el que reunía\n"
+	.string "los ingredientes necesarios para ello.$"
+
+PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_4:
+	.string "El TIPO ACERO le hizo perder algo de\n"
+	.string "VELOCIDAD, pero a cambio su DEFENSA se\l"
+	.string "disparó. Gracias a LEVITACIÓN\l"
+	.string "continuará siendo inmune al TIPO\l"
+	.string "TIERRA.$"
+
+PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_5:
+	.string "Supera en 4 de los 6 STATS a su versión\n"
+	.string "-natural- ZAPDOS-P, siendo más lento y\l"
+	.string "empatando también en DEFENSA ESPECIAL.$"
+
 PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise::
 lock
-showmonpic SPECIES_BLASTOISE, 10, 3  
+showmonpic SPECIES_EONEON, 10, 3  
 playmoncry SPECIES_BLASTOISE, CRY_MODE_ENCOUNTER 
 msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise_Texto_1, MSGBOX_SIGN
 msgbox PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise_Texto_1.1, MSGBOX_SIGN

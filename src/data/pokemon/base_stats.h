@@ -25421,14 +25421,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_EONEON] =
     {
-        .baseHP        = 95,
-        .baseAttack    = 130,
-        .baseDefense   = 80,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 110,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_DRAGON,
+        .baseHP        = 119,
+        .baseAttack    = 113,
+        .baseDefense   = 160,
+        .baseSpeed     = 38,
+        .baseSpAttack  = 145,
+        .baseSpDefense = 38,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_DARK,
         .catchRate = 3,
         .expYield = 188,
         .evYield_SpAttack  = 3,
@@ -25439,9 +25439,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_AS_ONE_SHADOW_RIDER, ABILITY_NONE},
+            .abilities = {ABILITY_MEGA_LAUNCHER, ABILITY_MEGA_LAUNCHER},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_MEGA_LAUNCHER, ABILITY_MEGA_LAUNCHER},
         #endif
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
@@ -25916,14 +25916,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ARCHEOPS_X] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 170,
-        .baseDefense   = 115,
-        .baseSpeed     = 140,
-        .baseSpAttack  = 82,
-        .baseSpDefense = 85,
-        .type1 = TYPE_ROCK,
-        .type2 = TYPE_DRAGON,
+        .baseHP        = 110,
+        .baseAttack    = 115,
+        .baseDefense   = 130,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 185,
+        .baseSpDefense = 100,
+        .type1 = TYPE_ELECTRIC,
+        .type2 = TYPE_STEEL,
         .catchRate = 45,
         .expYield = 257,
         .evYield_Attack    = 2,
@@ -25934,9 +25934,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_INTIMIDATE, ABILITY_NONE},
+            .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
         #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
@@ -39192,10 +39192,10 @@ const struct BaseStats gBaseStats[] =
     {
 		.baseHP        = 105,
         .baseAttack    = 70,
-        .baseDefense   = 75,
+        .baseDefense   = 65,
         .baseSpeed     = 145,
         .baseSpAttack  = 165,
-        .baseSpDefense = 105,
+        .baseSpDefense = 115,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 25,

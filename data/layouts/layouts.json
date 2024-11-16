@@ -15312,6 +15312,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_11F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_11F/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLACKTHORN_CITY_GYM",
+      "name": "BlackthornCity_Gym_Layout",
+      "width": 30,
+      "height": 100,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/BlackthornCity_Gym/map.bin"
     }
   ]
 }

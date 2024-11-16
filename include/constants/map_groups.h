@@ -327,6 +327,7 @@
 #define MAP_BLACKTHORN_CITY_DRAGONSDEN_S2    (8 | (12 << 8))
 #define MAP_BLACKTHORN_CITY_DRAGONSDEN_S3    (9 | (12 << 8))
 #define MAP_BLACKTHORN_CITY_DRAGONSDEN_S4    (10 | (12 << 8))
+#define MAP_BLACKTHORN_CITY_GYM              (11 | (12 << 8))
 
 // gMapGroup_IndoorJOHTO
 #define MAP_MT_SILVER1                     (0 | (13 << 8))
@@ -1471,6 +1472,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 26, 23, 14, 7, 7, 11, 98, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 26, 23, 14, 7, 7, 12, 98, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

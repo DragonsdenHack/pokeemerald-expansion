@@ -15,17 +15,17 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
-      "x": 22,
-      "y": -5,
+      "graphics_id": "OBJ_EVENT_GFX_YASMINA",
+      "x": 7,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Nuevos_Lideres_Johto_Yasmina",
+      "flag": "FLAG_NUEVA_292"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YASMINA",
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OlivineGym2",
-      "flag": "0"
+      "flag": "FLAG_HOENN_294"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CROM",

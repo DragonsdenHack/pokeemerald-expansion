@@ -88,6 +88,7 @@ applymovement 2, Pass_Route29_Encuentro_Elm_Move_9
 waitmovement 0x0
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
 removeobject 2
+setflag FLAG_NUEVA_292
 playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 119
 release
