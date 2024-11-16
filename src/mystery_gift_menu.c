@@ -4618,6 +4618,9 @@ static void DarPokemonSunTeam(u8 opcion)
 
 static void DarPokemonRareTeam(u8 opcion)
 {
+	
+	u8 evs[6] = {0};
+	u8 ivs[6] = {0};
 	switch(opcion){
 		case 0:
 			ScriptGiveCustomMon(SPECIES_DRAGONITE,63,ITEM_DRAGON_FANG,26,NATURE_ADAMANT,0xFF, 0, (u8*)15, MOVE_EXTREME_SPEED, MOVE_ROOST,MOVE_DRAGON_CLAW,MOVE_BARRIER,0);
@@ -4656,7 +4659,9 @@ static void DarPokemonRareTeam(u8 opcion)
 			ScriptGiveCustomMon(SPECIES_DUNSPARCE,98,ITEM_NONE,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_CURSE, MOVE_EARTH_POWER,MOVE_ROOST,MOVE_BOOMBURST,0);
 		break;
 		case 3:
-			ScriptGiveCustomMon(SPECIES_DRAGONITE,100,ITEM_DRAGON_FANG,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_EXTREME_SPEED, MOVE_ROOST,MOVE_DRAGON_CLAW,MOVE_BARRIER,0);
+			memcpy(evs, (u8[]){252, 252, 6, 0, 0, 0}, 6);
+			memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
+			ScriptGiveCustomMon(SPECIES_DRAGONITE,100,ITEM_DRAGON_FANG,26,NATURE_ADAMANT,0xFF, evs, ivs, MOVE_EXTREME_SPEED, MOVE_ROOST,MOVE_DRAGON_CLAW,MOVE_BARRIER,0);
 			ScriptGiveCustomMon(SPECIES_MILOTIC,110,ITEM_LEFTOVERS,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_HYPNOSIS, MOVE_HYDRO_PUMP,MOVE_RECOVER,MOVE_MIRROR_COAT,0);
 			ScriptGiveCustomMon(SPECIES_BLASTOISE,110,ITEM_MYSTIC_WATER,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_MIRROR_COAT, MOVE_AQUA_RING,MOVE_IRON_DEFENSE,MOVE_HYDRO_CANNON,0);
 			ScriptGiveCustomMon(SPECIES_CHARIZARD,110,ITEM_CHARCOAL,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_ANCIENT_POWER, MOVE_DRAGON_PULSE,MOVE_AIR_SLASH,MOVE_BLAST_BURN,0); 
@@ -5603,11 +5608,11 @@ u16 generarSpeciesAleatoria()
 	u16 indice = Random() % (sizeof(species) / sizeof(species[0]));
 	u16 palabra = species[indice];
 	
-	if(palabra == SPECIES_CROBAT)
+	while(palabra != SPECIES_CROBAT || palabra != SPECIES_TRXATU || palabra != SPECIES_AERODACTYL)
 	{
-		palabra = SPECIES_GOLBAT;
-	}
-	return palabra;
+		return palabra;
+	}	
+	return 0;
 }
 
 static void DarPokemonRandomTeam(u8 opcion)
@@ -5649,6 +5654,18 @@ static void DarPokemonRandomTeam(u8 opcion)
 			ScriptGiveMon(generarSpeciesAleatoria(),98,ITEM_NONE,0,0,0);
 			ScriptGiveMon(generarSpeciesAleatoria(),98,ITEM_NONE,0,0,0);
 			ScriptGiveMon(generarSpeciesAleatoria(),98,ITEM_NONE,0,0,0);
+		break;
+		case 3:
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
+			ScriptGiveMon(generarSpeciesAleatoria(),110,ITEM_NONE,0,0,0);
 		break;
 	}
 }
@@ -6298,53 +6315,53 @@ static void Task_MysteryGift(u8 taskId)
 		switch(MenuPersonalizado())
 		{
 			case 0:
-				DarPokemonClassicKanto(1); 
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonClassicKanto(1);
 				data->state = PRUEBA6;
 				break;
 			case 1:
-				DarPokemonRocketGrunt(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonRocketGrunt(1);
 				data->state = PRUEBA6;
 				break;
 			case 2:
+			    DarPokemonBasicosKanto(1); //sevii
 				DarPokemonRocketScientist(1);
-				DarPokemonBasicosKanto(1);	 //sevii
 				data->state = PRUEBA6;
 				break;
 			case 3:
-				DarPokemonRocketAdmin(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonRocketAdmin(1);
 				data->state = PRUEBA6;
 				break;
 			case 4:
-				DarPokemonRainTeam(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonRainTeam(1);
 				data->state = PRUEBA6;
 				break;
 			case 5:
-				DarPokemonSunTeam(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonSunTeam(1);
 				data->state = PRUEBA6;
 				break;
 			case 6:
-				DarPokemonRareTeam(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonRareTeam(1);
 				data->state = PRUEBA6;
 				break;
 			case 7:
+			    DarPokemonBasicosKanto(1);	 //sevii
 				DarPokemonPopularTeam(1);
-				DarPokemonBasicosKanto(1);	 //sevii
 				data->state = PRUEBA6;
 				break;
 			case 8:
-				DarPokemonWeakTeam(1);
 				DarPokemonBasicosKanto(1);	 //sevii
+				DarPokemonWeakTeam(1);
 				data->state = PRUEBA6;
 				break;
 			case 9:
+				DarPokemonBasicosKanto(1);	 //sevii			
 				DarPokemonRandomTeam(1);
-				DarPokemonBasicosKanto(1);	 //sevii
 				data->state = PRUEBA6;
 				break;
 			case 10:
@@ -6403,53 +6420,53 @@ static void Task_MysteryGift(u8 taskId)
 		switch(MenuPersonalizado())
 		{
 			case 0:
-				DarPokemonClassicKanto(2); 
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonClassicKanto(2); 
 				data->state = PRUEBA6;
 				break;
 			case 1:
-				DarPokemonRocketGrunt(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRocketGrunt(2);
 				data->state = PRUEBA6;
 				break;
 			case 2:
-				DarPokemonRocketScientist(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRocketScientist(2);
 				data->state = PRUEBA6;
 				break;
 			case 3:
-				DarPokemonRocketAdmin(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRocketAdmin(2);
 				data->state = PRUEBA6;
 				break;
 			case 4:
-				DarPokemonRainTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRainTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 5:
-				DarPokemonSunTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonSunTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 6:
-				DarPokemonRareTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRareTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 7:
-				DarPokemonPopularTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonPopularTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 8:
-				DarPokemonWeakTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonWeakTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 9:
-				DarPokemonRandomTeam(2);
 				DarPokemonBasicosKanto(2);	 //JOHTO
+				DarPokemonRandomTeam(2);
 				data->state = PRUEBA6;
 				break;
 			case 10:
@@ -6507,53 +6524,53 @@ static void Task_MysteryGift(u8 taskId)
 		switch(MenuPersonalizado())
 		{
 			case 0:
-				DarPokemonClassicKanto(3); 
-				DarPokemonBasicosKanto(3);	
+			    DarPokemonBasicosKanto(3);
+				DarPokemonClassicKanto(3); 			
 				data->state = PRUEBA6;
 				break;
 			case 1:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonRocketGrunt(3);
-				DarPokemonBasicosKanto(3);	
 				data->state = PRUEBA6;
 				break;
 			case 2:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonRocketScientist(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 3:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonRocketAdmin(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 4:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonRainTeam(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 5:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonSunTeam(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 6:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonRareTeam(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 7:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonPopularTeam(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 8:
+			    DarPokemonBasicosKanto(3);
 				DarPokemonWeakTeam(3);
-				DarPokemonBasicosKanto(3);
 				data->state = PRUEBA6;
 				break;
 			case 9:
-				DarPokemonRandomTeam(3);
 				DarPokemonBasicosKanto(3);
+				DarPokemonRandomTeam(3);
 				data->state = PRUEBA6;
 				break;
 			case 10:
@@ -6621,53 +6638,53 @@ static void Task_MysteryGift(u8 taskId)
 		switch(MenuPersonalizado())
 		{
 			case 0:
+				DarPokemonBasicosKanto(0);
 				DarPokemonClassicKanto(0); 
-				DarPokemonBasicosKanto(0);	
 				data->state = PRUEBA6;
 				break;
 			case 1:
-				DarPokemonRocketGrunt(0);
-				DarPokemonBasicosKanto(0);	
+				DarPokemonBasicosKanto(0);
+				DarPokemonRocketGrunt(0);	
 				data->state = PRUEBA6;
 				break;
 			case 2:
+				DarPokemonBasicosKanto(0);			
 				DarPokemonRocketScientist(0);
-				DarPokemonBasicosKanto(0);
 				data->state = PRUEBA6;
 				break;
 			case 3:
+				DarPokemonBasicosKanto(0);			
 				DarPokemonRocketAdmin(0);
-				DarPokemonBasicosKanto(0);
 				data->state = PRUEBA6;
 				break;
 			case 4:
+				DarPokemonBasicosKanto(0);			
 				DarPokemonRainTeam(0);
-				DarPokemonBasicosKanto(0);
 				data->state = PRUEBA6;
 				break;
 			case 5:
-				DarPokemonSunTeam(0);
 				DarPokemonBasicosKanto(0);
+				DarPokemonSunTeam(0);
 				data->state = PRUEBA6;
 				break;
 			case 6:
-				DarPokemonRareTeam(0);
 				DarPokemonBasicosKanto(0);
+				DarPokemonRareTeam(0);
 				data->state = PRUEBA6;
 				break;
 			case 7:
-				DarPokemonPopularTeam(0);
 				DarPokemonBasicosKanto(0);
+				DarPokemonPopularTeam(0);
 				data->state = PRUEBA6;
 				break;
 			case 8:
-				DarPokemonWeakTeam(0);
 				DarPokemonBasicosKanto(0);
+				DarPokemonWeakTeam(0);
 				data->state = PRUEBA6;
 				break;
 			case 9:
-				DarPokemonRandomTeam(0);
 				DarPokemonBasicosKanto(0);
+				DarPokemonRandomTeam(0);
 				data->state = PRUEBA6;
 				break;
 			case 10:

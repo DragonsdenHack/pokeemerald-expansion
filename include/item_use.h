@@ -26,6 +26,7 @@ void ItemUseOutOfBattle_CandyXL(u8);
 void ItemUseOutOfBattle_CandyDynamax(u8);
 void ItemUseOutOfBattle_CandyDynamax2(u8);
 void ItemUseOutOfBattle_TMHM(u8);
+void ItemUseOutOfBattle_Fusion(u8);
 void ItemUseOutOfBattle_Repel(u8);
 void ItemUseOutOfBattle_EscapeRope(u8);
 void ItemUseOutOfBattle_BlackWhiteFlute(u8);

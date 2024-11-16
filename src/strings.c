@@ -21,7 +21,7 @@
 	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
 	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");
 	ALIGNED(4) const u8 gText_ComoFunciona3[] = _("Todos los Pokémon han sido escogidos\ncuidadosamente para una gran experiencia.");
-	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("Cada uno poseerá un movimiento huevo ó especial, un movimiento por MT,");
+	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("Cada uno poseerá un movimiento\nhuevo ó especial, un movimiento por MT,");
 	ALIGNED(4) const u8 gText_ComoFunciona5[] = _("un movimiento característico de su especie y\nun movimiento arriesgado.");
 	ALIGNED(4) const u8 gText_ComoFunciona6[] = _("Además, dependiendo que punto\nselecciones para empezar, los movimientos");
 	ALIGNED(4) const u8 gText_ComoFunciona7[] = _("variarán.\n¡Encuentra tu punto de partida ideal!");
@@ -307,13 +307,19 @@ const u8 gText_PokeBallsPocket[] = _("Pokéballs");
 const u8 gText_TMHMPocket[] = _("MTs y MOs");
 const u8 gText_BerriesPocket[] = _("Bayas");
 const u8 gText_KeyItemsPocket[] = _("Obj. clave");
+const u8 gText_MedicinePocket[] = _("Medicinas");
+const u8 gText_BattleItemsPocket[] = _("Obj. batalla");
+const u8 gText_TreasuresPocket[] = _("Poten. {PKMN}");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
     [ITEMS_POCKET] = gText_ItemsPocket,
-    [BALLS_POCKET] = gText_PokeBallsPocket,
+	[MEDICINE_POCKET] = gText_MedicinePocket,
+	[BALLS_POCKET] = gText_PokeBallsPocket,
+	[BATTLEITEMS_POCKET] = gText_BattleItemsPocket,
+	[BERRIES_POCKET] = gText_BerriesPocket,
+    [TREASURES_POCKET] = gText_TreasuresPocket,
     [TMHM_POCKET]  = gText_TMHMPocket,
-    [BERRIES_POCKET] = gText_BerriesPocket,
     [KEYITEMS_POCKET] = gText_KeyItemsPocket
 };
 
@@ -398,6 +404,7 @@ const u8 gText_HP3[] = _("Ps");
 const u8 gText_SpAtk3[] = _("Atq.Esp.");
 const u8 gText_SpDef3[] = _("Df.Esp.");
 const u8 gText_WontHaveEffect[] = _("No hará ningún efecto.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NextFusionMon[] = _("Elige el {PKMN}.");
 const u8 gText_CantBeUsedOnPkmn[] = _("No puede ser usado en\neste Pokémon.{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnCantSwitchOut[] = _("¡{STR_VAR_1} no puede ser\ncambiado!{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnAlreadyInBattle[] = _("¡{STR_VAR_1} ya está\nluchando!{PAUSE_UNTIL_PRESS}");
@@ -747,6 +754,9 @@ const u8 gText_Key_Items[] = _("OBJ. CLAVE");
 const u8 gText_Poke_Balls[] = _("BALLS");
 const u8 gText_TMs_Hms[] = _("MT / MO");
 const u8 gText_Berries2[] = _("BAYAS");
+const u8 gText_Medicine[] = _("MEDICINAS");
+const u8 gText_BattleItems[] = _("OBJ. BATALLA");
+const u8 gText_Treasures[] = _("POT. {PKMN}");
 const u8 gText_SomeonesPC[] = _("Pc de BILL");
 const u8 gText_LanettesPC[] = _("Pc del Team Rocket");
 const u8 gText_PlayersPC[] = _("Pc de {PLAYER}");
@@ -917,7 +927,7 @@ const u8 gText_PkmnWasReleased[] = _("{DYNAMIC 0} fue liberado.");
 const u8 gText_ByeByePkmn[] = _("¡Adios, {DYNAMIC 0}!");
 const u8 gText_MarkYourPkmn[] = _("Marca tu Pokémon.");
 const u8 gText_ThatsYourLastPkmn[] = _("¡Este es tu último Pokémon!");
-const u8 gText_YourPartysFull[] = _("¡Tu equipo está lleno!");
+const u8 gText_YourPartysFull[] = _("¡Tu equipo está lleno!{PAUSE_UNTIL_PRESS}");
 const u8 gText_YoureHoldingAPkmn[] = _("¡Llevas un Pokémon!");
 const u8 gText_WhichOneWillYouTake[] = _("¿Qué te gustaría agarrar?");
 const u8 gText_YouCantReleaseAnEgg[] = _("No se puede soltar un huevo.");
@@ -1593,6 +1603,7 @@ const u8 gText_XWillBeSentToY[] = _("{STR_VAR_2} se enviará a {STR_VAR_1}.");
 const u8 gText_ByeByeVar1[] = _("¡Adiós, {STR_VAR_2}!");
 const u8 gText_XSentOverY[] = _("{STR_VAR_1} envió a {STR_VAR_3}.");
 const u8 gText_TakeGoodCareOfX[] = _("¡Cuida bien de {STR_VAR_3}!");
+const u8 gText_Version[] = _("Versión: 2.0.0");
 
 // Easy chat group names
 const u8 gEasyChatGroupName_Pokemon[] = _("POKéMON");
