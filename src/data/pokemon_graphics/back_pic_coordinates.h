@@ -4502,7 +4502,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_EONEON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 4,
     },
     [SPECIES_TRXATU] =
     {
@@ -4587,7 +4587,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ARCHEOPS_X] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 3,
     },
     [SPECIES_REGIROCK_X] =
     {
@@ -7037,7 +7037,12 @@ const struct MonCoords gMonBackPicCoords[] =
 	[SPECIES_PORYGON31] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 9,
+        .y_offset = 0,
+    },
+	[SPECIES_MILOTICBOND] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 2,
     },
     // Egg
     [SPECIES_EGG] =

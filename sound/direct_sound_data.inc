@@ -4571,7 +4571,7 @@ Cry_Calyrex::
 
 	.align 2
 Cry_Eoneon::
-	.incbin "sound/direct_sound_samples/cries/eoneon.bin"
+	.incbin "sound/direct_sound_samples/cries/blastoise.bin"
 
 	.align 2
 Cry_Trxatu::
@@ -4639,7 +4639,7 @@ Cry_TyrantrumX::
 
 	.align 2
 Cry_ArcheopsX::
-	.incbin "sound/direct_sound_samples/cries/archeops_x.bin"
+	.incbin "sound/direct_sound_samples/cries/zapdos.bin"
 
 	.align 2
 Cry_RegirockX::

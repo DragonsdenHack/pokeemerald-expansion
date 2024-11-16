@@ -1635,15 +1635,8 @@ u16 SetPacifidlogTMReceivedDay(void)
 
 bool8 MonOTNameNotPlayer(void)
 {
-    if (GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_LANGUAGE) != GAME_LANGUAGE)
-        return TRUE;
 
-    GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_OT_NAME, gStringVar1);
-
-    if (!StringCompare(gSaveBlock2Ptr->playerName, gStringVar1))
-        return FALSE;
-
-    return TRUE;
+    return FALSE;
 }
 
 void BufferLottoTicketNumber(void)
