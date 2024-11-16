@@ -149,6 +149,7 @@ void BattleAI_SetupFlags(void)
 void BattleAI_SetupAIData(u8 defaultScoreMoves)
 {
     s32 i, move, dmg;
+	u8 effectiveness;
     u8 moveLimitations;
 
     // Clear AI data but preserve the flags.
@@ -188,7 +189,7 @@ void BattleAI_SetupAIData(u8 defaultScoreMoves)
             move = gBattleMons[sBattler_AI].moves[i];
             if (gBattleMoves[move].power != 0 && !(moveLimitations & gBitTable[i]))
             {
-                dmg = AI_CalcDamage(move, sBattler_AI, gBattlerTarget);
+                dmg = AI_CalcDamage(move, sBattler_AI, gBattlerTarget, &effectiveness, TRUE);
                 if (dmg == 0)
                     dmg = 1;
             }

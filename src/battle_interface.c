@@ -32,6 +32,7 @@
 #include "constants/songs.h"
 #include "constants/battle_config.h"
 #include "constants/items.h"
+#include "battle_z_move.h"
 
 enum
 {   // Corresponds to gHealthboxElementsGfxTable (and the tables after it) in graphics.c
@@ -1536,6 +1537,12 @@ void HideMegaTriggerSprite(void)
         ChangeMegaTriggerSprite(gBattleStruct->mega.triggerSpriteId, 0);
         gSprites[gBattleStruct->mega.triggerSpriteId].tHide = TRUE;
     }
+}
+
+void HideTriggerSprites(void)
+{
+    HideMegaTriggerSprite();
+    HideZMoveTriggerSprite();
 }
 
 void DestroyMegaTriggerSprite(void)
