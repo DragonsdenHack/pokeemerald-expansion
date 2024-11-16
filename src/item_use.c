@@ -18,6 +18,7 @@
 #include "field_effect.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
+#include "field_specials.h"
 #include "field_weather.h"
 #include "item.h"
 #include "item_menu.h"
@@ -676,6 +677,12 @@ void ItemUseOutOfBattle_CoinCase(u8 taskId)
     }
 }
 
+void ItemUseOutOfBattle_TownMap(u8 taskId)
+{
+        FadeInFromBlack();
+		FieldShowRegionMap();
+}
+
 void ItemUseOutOfBattle_PowderJar(u8 taskId)
 {
     ConvertIntToDecimalStringN(gStringVar1, GetBerryPowder(), STR_CONV_MODE_LEFT_ALIGN, 5);
@@ -776,6 +783,12 @@ void ItemUseOutOfBattle_Medicine(u8 taskId)
 void ItemUseOutOfBattle_AbilityCapsule(u8 taskId)
 {
     gItemUseCB = ItemUseCB_AbilityCapsule;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_AbilityPatch(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_AbilityPatch;
     SetUpItemUseCallback(taskId);
 }
 
