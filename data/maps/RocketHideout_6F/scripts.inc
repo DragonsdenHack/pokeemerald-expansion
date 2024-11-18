@@ -755,7 +755,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 .string "Y es que, como sabrás, el PUERTO de\n"
 	.string "CIUDAD CARMÍN ha sido nuestro eje\l"
 	.string "conector entre KANTO y el ARCHI7.\l"
-	.string "Pero... la policía de KANTO está\l"
+	.string "Pero{PAUSE 15}…{PAUSE 15} la policía de KANTO está\l"
 	.string "cada vez más pendiente.\l"
 	.string "Se hace más y más difícil y caro\l"
 	.string "sobornar a los marineros para\l"

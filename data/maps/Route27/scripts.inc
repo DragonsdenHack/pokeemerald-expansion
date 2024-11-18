@@ -286,7 +286,7 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, Route27_Evento_Encinar_Move_1
 waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
-setvar VAR_UNUSED_0x40FF, 31
+setvar VAR_UNUSED_0x40F8, 34
 warpsilent MAP_ILEX_FOREST, 17, 52
 waitmovement 0x0
 delay 100

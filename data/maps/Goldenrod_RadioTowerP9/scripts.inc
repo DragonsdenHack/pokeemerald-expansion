@@ -125,7 +125,7 @@ playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox Goldenrod_RadioTowerP9_Policia_Llave_Texto_3 MSGBOX_DEFAULT
 waitfanfare
 msgbox Goldenrod_RadioTowerP9_Policia_Llave_Texto_4 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40FF, 32
+setvar VAR_UNUSED_0x40F8, 32
 release
 end
 
@@ -346,7 +346,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Goldenrod_RadioTowerP9_Giovanni_Move_4.1
 waitmovement 0x0
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40FF, 33
+setvar VAR_UNUSED_0x40F8, 33
 release
 end
 
@@ -433,7 +433,7 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_7:
 	.string "motivos para prever lo contrario.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_8:
-	.string "M.DRAGÓN: Fui incapaz de ver… en lo que\n"
+	.string "M.DRAGÓN: Fui incapaz de ver{PAUSE 15}…{PAUSE 15} en lo que\n"
 	.string "se estaba convirtiendo.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_9:
@@ -442,7 +442,7 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_9:
 	.string "permitir a LANCE subir al poder.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_10:
-	.string "Pero… si esta región cae, KANTO tampoco\n"
+	.string "Pero{PAUSE 15}…{PAUSE 15} si esta región cae, KANTO tampoco\n"
 	.string "florecerá.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_11:
@@ -471,11 +471,11 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_16:
 	.string "M.DRAGÓN: La tendrán. Tendrán mi ayuda.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_17:
-	.string "Pero… no a costa de olvidar\n"
+	.string "Pero{PAUSE 15}…{PAUSE 15} no a costa de olvidar\n"
 	.string "quienes somos.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_18:
-	.string "ATLAS: Señor… Puedo entender lo del\n"
+	.string "ATLAS: Señor{PAUSE 25}…{PAUSE 25} Puedo entender lo del\n"
 	.string "M.DRAGÓN. ¡¿Pero LANCE?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_19:
@@ -489,9 +489,9 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_21:
 	.string "ATLAS: ¿Qué quieres decir?$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_22:
-	.string "GIOVANNI: No te preocupes… El\n"
-	.string "verdadero castigo de LANCE está por\l"
-	.string "llegar.$"
+	.string "GIOVANNI: No te preocupes{PAUSE 25}…{PAUSE 25}\n"
+	.string "El verdadero castigo de LANCE\l"
+	.string "está por llegar.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_23:
 	.string "Ahora, subamos. Hay temas más urgentes\n"

@@ -487,7 +487,7 @@ MossdeepCity_Andra_Texto_1:
 	.string "CENTRO ESPACIAL de ALGARIA.$"
 
 MossdeepCity_Andra_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 MossdeepCity_Andra_Texto_3:
 	.string "No me interesa.$"
@@ -676,7 +676,7 @@ MossdeepCity_Devon_Texto_3:
 	.string "¡Eres incorregible!$"
 
 MossdeepCity_Devon_Texto_5:
-	.string "Pues ahora deberás esperar porque… tal\n"
+	.string "Pues ahora deberás esperar porque{PAUSE 15}…{PAUSE 15} tal\n"
 	.string "y como imaginaba, tenemos tiempo. Mira.$"
 
 MossdeepCity_Devon_Texto_6:
@@ -700,7 +700,7 @@ MossdeepCity_Devon_Texto_9:
 	.string "que haga falta.$"
 
 MossdeepCity_Devon_Texto_10:
-	.string "En cuanto a ti… podrías visitar el\n"
+	.string "En cuanto a ti{PAUSE 5}…{PAUSE 5} podrías visitar el\n"
 	.string "GIMNASIO de esta ciudad o…$"
 
 MossdeepCity_Devon_Texto_11:
@@ -715,7 +715,7 @@ MossdeepCity_Devon_Texto_12:
 MossdeepCity_Devon_Texto_13:
 	.string "Así podrás hacer tiempo y además\n"
 	.string "completar otro objetivo más del TEAM\l"
-	.string "ROCKET, porque… sigues trabajando para\l"
+	.string "ROCKET, porque{PAUSE 15}…{PAUSE 15} sigues trabajando para\l"
 	.string "GIOVANNI, ¿no?$"
 
 MossdeepCity_Andra_Caverna::
@@ -1094,7 +1094,7 @@ MossdeepCity_Devon_Tristana_Despues_Texto_10:
 	.string "ANDRA: Lo encontré.$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_11:
-	.string "TRISTANA: Oh… asombroso…$"
+	.string "TRISTANA: Oh{PAUSE 25}…{PAUSE 25} asombroso{PAUSE 10}…{PAUSE 10}$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_12:
 	.string "Dime, {PLAYER}. ¿Eres consciente de\n"
@@ -1104,8 +1104,8 @@ MossdeepCity_Devon_Tristana_Despues_Texto_12:
 MossdeepCity_Devon_Tristana_Despues_Texto_13:
 	.string "Debe ser duro de asumir para alguien\n"
 	.string "que lleva tanto tiempo en la cima. Ver\l"
-	.string "cómo quedas relegado… cómo bajas del\l"
-	.string "trono para no volver… ¿no?$"
+	.string "cómo quedas relegado{PAUSE 15}…{PAUSE 15} cómo bajas del\l"
+	.string "trono para no volver{PAUSE 25}…{PAUSE 15} ¿no?$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_14:
 	.string "ANDRA: ¿Trono, cima? Deja de decir\n"
@@ -1145,11 +1145,11 @@ MossdeepCity_Devon_Tristana_Despues_Texto_20:
 
 MossdeepCity_Devon_Tristana_Despues_Texto_21:
 	.string "No fue fácil, aparte de las 3 ruinas que\n"
-	.string "todos conocen… hay otro lugar… mucho\l"
+	.string "todos conocen{PAUSE 25}…{PAUSE 25} hay otro lugar{PAUSE 15}…{PAUSE 15} mucho\l"
 	.string "más oculto.$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_21.1:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_22:
 	.string "Te espero en PUEBLO OROMAR, {PLAYER}.$"

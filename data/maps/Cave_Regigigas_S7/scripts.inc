@@ -488,7 +488,7 @@ Cave_Regigigas_S7_Doctor_Texto_1:
 	.string "C.MIGUEL: ¡Vosotros! ¡¿Cómo…?!$"
 
 Cave_Regigigas_S7_Doctor_Texto_2:
-	.string "DR.RASMUS: {PLAYER}, {PLAYER}...$"
+	.string "DR.RASMUS: {PLAYER}… {PLAYER}…$"
 
 Cave_Regigigas_S7_Doctor_Texto_3:
 	.string "DR.RASMUS: Te has vuelto todo un\n"
@@ -517,10 +517,10 @@ Cave_Regigigas_S7_Doctor_Texto_8:
 	.string "oportunidad.$"
 
 Cave_Regigigas_S7_Doctor_Texto_9:
-	.string "C.MIGUEL: … …$"
+	.string "C.MIGUEL: {PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Cave_Regigigas_S7_Doctor_Texto_10:
-	.string "ANDRA: MIGUEL… pude ver a ese POKÉMON\n"
+	.string "ANDRA: MIGUEL{PAUSE 15}…{PAUSE 15} pude ver a ese POKÉMON\n"
 	.string "en PUEBLO LAVANDA.$"
 
 Cave_Regigigas_S7_Doctor_Texto_11:
@@ -564,7 +564,7 @@ Cave_Regigigas_S7_Doctor_Texto_19:
 	.string "te ha proporcionado, ¡lo conseguirás!$"
 
 Cave_Regigigas_S7_Doctor_Texto_20:
-	.string "MIGUEL: S… ¡Sí! ¡Tienes razón!$"
+	.string "MIGUEL: S{PAUSE 15}…{PAUSE 15} ¡Sí! ¡Tienes razón!$"
 
 Cave_Regigigas_S7_Doctor_Texto_21:
 	.string "Te confesaré algo, {PLAYER}. Cuando\n"
@@ -579,19 +579,19 @@ Cave_Regigigas_S7_Doctor_Texto_22:
 
 Cave_Regigigas_S7_Doctor_Texto_23:
 	.string "Ese tipo apenas sabía hablar, era nulo\n"
-	.string "en el trato social y… sin embargo…\l"
+	.string "en el trato social y{PAUSE 15}…{PAUSE 15} sin embargo{PAUSE 15}…{PAUSE 15}\l"
 	.string "dominaba con absoluta maestría a sus\l"
 	.string "POKÉMON. No porque hubiera hecho algo\l"
-	.string "diferente al resto, solo por… mero\l"
+	.string "diferente al resto, solo por{PAUSE 15}…{PAUSE 15} mero\l"
 	.string "capricho del destino.$"
 
 Cave_Regigigas_S7_Doctor_Texto_24:
-	.string "Aún así… con el tiempo… tú has llegado a\n"
+	.string "Aún así{PAUSE 25}…{PAUSE 25} con el tiempo{PAUSE 25}…{PAUSE 25} tú has llegado a\n"
 	.string "convertirte en algo incluso más odioso.$"
 
 Cave_Regigigas_S7_Doctor_Texto_25:
-	.string "Tenías también esas cualidades y…\n"
-	.string "además… las has explotado al máximo…\l"
+	.string "Tenías también esas cualidades, y\n"
+	.string "además{PAUSE 15}…{PAUSE 15} las has explotado al máximo{PAUSE 15}…{PAUSE 15}\l"
 	.string "haciendo imposible alcanzarte por\l"
 	.string "medios naturales, ¡hiciera lo que\l"
 	.string "hiciera!$"
@@ -618,7 +618,7 @@ Cave_Regigigas_S7_Doctor_Texto_29:
 	.string "expectativas.$"
 
 Cave_Regigigas_S7_Doctor_Texto_30:
-	.string "Sí… veía esa asquerosa línea que\n"
+	.string "Sí{PAUSE 25}…{PAUSE 25} veía esa asquerosa línea que\n"
 	.string "marcaba una tendencia tan injusta como\l"
 	.string "inexorable.$"
 
@@ -635,9 +635,10 @@ Cave_Regigigas_S7_Doctor_Texto_33:
 	.string "espere? ¿¡A un milagro!?$"
 
 Cave_Regigigas_S7_Doctor_Texto_34:
-	.string "ANDRA: En ocasiones ocurren. Pero… solo\n"
+	.string "ANDRA: En ocasiones ocurren. Pero{PAUSE 15}…{PAUSE 15} solo\n"
 	.string "si esperas hasta el final, cuando todos\l"
-	.string "ya se han ido.$"
+	.string "la música se detiene y todos ya se han\l"
+	.string "ido.$"
 
 Cave_Regigigas_S7_Doctor_Texto_35:
 	.string "MIGUEL: ¡Silencio! ¡No eres más que otra\n"
@@ -668,16 +669,16 @@ Cave_Regigigas_S7_Doctor_Texto_41:
 	.string "Ya veo, aún falta para romper tu límite.$"
 
 Cave_Regigigas_S7_Doctor_Texto_42:
-	.string "MIGUEL: No… esto no debería ser así…\n"
+	.string "MIGUEL: No{PAUSE 25}…{PAUSE 25} esto no debería ser así…\n"
 	.string "se suponía que…$"
 
 Cave_Regigigas_S7_Doctor_Texto_43:
-	.string "DR.RASMUS: MIGUEL…estoy harto de ti.\n"
+	.string "DR.RASMUS: MIGUEL{PAUSE 25}…{PAUSE 25} estoy harto de ti.\n"
 	.string "Eres un fraude, además de un traidor\l"
 	.string "incompente.$"
 
 Cave_Regigigas_S7_Doctor_Texto_44:
-	.string "MIGUEL: ¿Q-qué?$"
+	.string "MIGUEL: ¿Q{PAUSE 15}-{PAUSE 15}qué?$"
 
 Cave_Regigigas_S7_Doctor_Texto_45:
 	.string "Con tu gran habilidad para pertenecer a\n"
@@ -730,7 +731,7 @@ Cave_Regigigas_S7_Doctor_Texto_55:
 	.string "expirado. Ya no nos eres útil.$"
 
 Cave_Regigigas_S7_Doctor_Texto_56:
-	.string "MIGUEL: … …$"
+	.string "MIGUEL: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Cave_Regigigas_S7_Doctor_Texto_57:
 	.string "DR.RASMUS: Ahora, entrégame a\n"
@@ -739,27 +740,27 @@ Cave_Regigigas_S7_Doctor_Texto_57:
 	.string "gracias a nosotros.$"
 
 Cave_Regigigas_S7_Doctor_Texto_58:
-	.string "MIGUEL: Entonces… así va a ser… ¿no?$"
+	.string "MIGUEL: Entonces{PAUSE 15}…{PAUSE 15} así va a ser{PAUSE 15}…{PAUSE 15} ¿no?$"
 
 Cave_Regigigas_S7_Doctor_Texto_59:
-	.string "En ese caso…$"
+	.string "En ese caso{PAUSE 15}…{PAUSE 15}$"
 
 Cave_Regigigas_S7_Doctor_Texto_60:
 	.string "¡Lo lograré yo solo! ¡Tampoco os\n"
 	.string "necesito yo a vosotros!$"
 
 Cave_Regigigas_S7_Doctor_Texto_61:
-	.string "ANDRA: ¡MIGUEL esper…!$"
+	.string "ANDRA: ¡MIGUEL, esper{PAUSE 5}…{PAUSE 5}!$"
 
 Cave_Regigigas_S7_Doctor_Texto_62:
 	.string "DR.RASMUS: ¡No puedes huir, MIGUEL!$"
 
 Cave_Regigigas_S7_Doctor_Texto_63:
 	.string "¡Tu destino está sellado! ¡Te\n"
-	.string "encontraremos y entonces…!$"
+	.string "encontraremos y entonces{PAUSE 5}…{PAUSE 5}!$"
 
 Cave_Regigigas_S7_Doctor_Texto_64:
-	.string "…obtendremos lo que queremos sin\n"
+	.string "{PAUSE 5}…{PAUSE 5}obtendremos lo que queremos sin\n"
 	.string "importar la forma.$"
 
 Cave_Regigigas_S7_Doctor_Texto_65:
@@ -789,25 +790,25 @@ Cave_Regigigas_S7_Doctor_Texto_69:
 
 Cave_Regigigas_S7_Doctor_Texto_70:
 	.string "Tu error es pensar que REGIGIGAS es el\n"
-	.string "final cuando…$"
+	.string "final cuando{PAUSE 15}…{PAUSE 15}$"
 
 Cave_Regigigas_S7_Doctor_Texto_71:
-	.string "…es solo el comienzo.$"
+	.string "{PAUSE 15}…{PAUSE 15}es solo el comienzo.$"
 
 Cave_Regigigas_S7_Doctor_Texto_72:
 	.string "ANDRA: ¿Qué habrá querido decir?$"
 
 Cave_Regigigas_S7_Doctor_Texto_73:
-	.string "Ese DOCTOR… No apruebo lo que ha hecho\n"
+	.string "Ese DOCTOR{PAUSE 15}…{PAUSE 15} No apruebo lo que ha hecho\n"
 	.string "MIGUEL, pero esos niveles de crueldad\l"
 	.string "son demasiado.$"
 
 Cave_Regigigas_S7_Doctor_Texto_74:
-	.string "Crueldad… parece ser lo único válido\n"
+	.string "Crueldad{PAUSE 15}…{PAUSE 15} parece ser lo único válido\n"
 	.string "para mejorar en estos días.$"
 
 Cave_Regigigas_S7_Doctor_Texto_75:
-	.string "Mmm… no importa.$"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} no importa.$"
 
 Cave_Regigigas_S7_Doctor_Texto_76:
 	.string "Hicimos un trato, {PLAYER}.\n"

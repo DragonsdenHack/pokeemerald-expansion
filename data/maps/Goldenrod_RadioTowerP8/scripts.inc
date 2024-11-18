@@ -225,7 +225,7 @@ waitmovement 0x0
 delay 10
 msgbox Goldenrod_RadioTowerP8_Proton_Texto_17 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
-setvar VAR_UNUSED_0x40FF, 31
+setvar VAR_UNUSED_0x40F8, 31
 release
 end
 

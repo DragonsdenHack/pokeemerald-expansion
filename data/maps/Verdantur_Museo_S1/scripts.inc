@@ -219,7 +219,7 @@ Verdantur_Museo_S1_Fortunia_Texto_5:
 	.string "no acaban de comprender.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_6:
-	.string "FORTUNIA: La verdad es que...cada\n"
+	.string "FORTUNIA: La verdad es que{PAUSE 15}…{PAUSE 15} cada\n"
 	.string "uno busca su propia fortuna.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_7:

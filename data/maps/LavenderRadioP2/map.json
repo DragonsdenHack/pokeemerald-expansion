@@ -233,8 +233,8 @@
       "x": 3,
       "y": 8,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
-      "var_value": "32",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "35",
       "script": "LavenderRadioP2_Evento_Elm_Der"
     },
     {
@@ -242,8 +242,8 @@
       "x": 2,
       "y": 8,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
-      "var_value": "32",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "35",
       "script": "LavenderRadioP2_Evento_Elm_Izq"
     }
   ],

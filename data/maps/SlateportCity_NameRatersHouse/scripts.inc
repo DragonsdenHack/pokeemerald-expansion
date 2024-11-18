@@ -210,7 +210,7 @@ waitfanfare
 msgbox SlateportCity_NameRatersHouse_Trampilla_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, NameRatersHouse_Trampilla_Move_11
 waitmovement 0x0
-setvar VAR_UNUSED_0x40FF, 26
+setvar VAR_UNUSED_0x40F8, 26
 release
 end
 
@@ -322,7 +322,7 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_18:
 	.string "hacer por ti.$"
 
 Lavender_Motes_Activador_Entrada::
-compare VAR_UNUSED_0x40FF, 25
+compare VAR_UNUSED_0x40F8, 25
 goto_if_gt Lavender_Motes_Activador_Entrada_Pasa
 release
 end

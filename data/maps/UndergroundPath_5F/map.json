@@ -170,7 +170,7 @@
       "x": 20,
       "y": 3,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "1",
       "script": "UndergroundPath_5F_Arriba_2"
     },
@@ -179,7 +179,7 @@
       "x": 20,
       "y": 2,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "1",
       "script": "UndergroundPath_5F_Arriba"
     },
@@ -188,7 +188,7 @@
       "x": 20,
       "y": 4,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "1",
       "script": "UndergroundPath_5F_Centro"
     },
@@ -197,7 +197,7 @@
       "x": 20,
       "y": 5,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "1",
       "script": "UndergroundPath_5F_Abajo"
     }

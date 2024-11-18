@@ -939,12 +939,12 @@ walk_up
 step_end
 
 Cave_Regigigas_S8_Amatista_Texto_1:
-	.string "ADM.AMATISTA: Qué interesante...$"
+	.string "ADM.AMATISTA: Qué interesante…$"
 
 Cave_Regigigas_S8_Amatista_Texto_2:
 	.string "El misterio, seguir órdenes del TEAM\n"
 	.string "ROCKET, ver de lo que son capaces\l"
-	.string "vuestros POKÉMON...$"
+	.string "vuestros POKÉMON…$"
 
 Cave_Regigigas_S8_Amatista_Texto_3:
 	.string "No importan los motivos que os hayan\n"
@@ -978,14 +978,14 @@ Cave_Regigigas_S8_Amatista_Texto_8:
 	.string "afortunados! ¡Observad!$"
 
 Cave_Regigigas_S8_Amatista_Texto_9:
-	.string "ANDRA: Ese POKÉMON… rebosa un poderío\n"
+	.string "ANDRA: Ese POKÉMON{PAUSE 25}…{PAUSE 25} rebosa un poderío\n"
 	.string "físico inmenso, puede que sea hasta…$"
 
 Cave_Regigigas_S8_Amatista_Texto_10:
 	.string "ADM.AMATISTA: ¿Inmedible?$"
 
 Cave_Regigigas_S8_Amatista_Texto_11:
-	.string "ANDRA: Sí, inmedible o al menos… una\n"
+	.string "ANDRA: Sí, inmedible o al menos{PAUSE 15}…{PAUSE 15} una\n"
 	.string "fuerza bruta mayor a todo lo demás.$"
 
 Cave_Regigigas_S8_Amatista_Texto_12:
@@ -1020,8 +1020,8 @@ Cave_Regigigas_S8_Amatista_Texto_18:
 	.string "controlar y aplicar a tu favor.$"
 
 Cave_Regigigas_S8_Amatista_Texto_19:
-	.string "En este caso… ese poderío… ese ATAQUE\n"
-	.string "FÍSICO… es tan descomunal que, a pesar\l"
+	.string "En este caso{PAUSE 15}…{PAUSE 15} ese poderío{PAUSE 15}…{PAUSE 15} ese ATAQUE\n"
+	.string "FÍSICO{PAUSE 15}…{PAUSE 15} es tan descomunal que, a pesar\l"
 	.string "de ser finito, sus límites superiores\l"
 	.string "son desconocidos para todos nosotros.$"
 
@@ -1097,7 +1097,7 @@ Cave_Regigigas_S8_Amatista_Texto_36:
 	.string "Parece que mis cálculos fallaron.$"
 
 Cave_Regigigas_S8_Amatista_Texto_37:
-	.string "ADM.AMATISTA: Mmm… muy interesante.$"
+	.string "ADM.AMATISTA: Mmm{PAUSE 15}…{PAUSE 15} muy interesante.$"
 
 Cave_Regigigas_S8_Amatista_Texto_38:
 	.string "Felicidades. Acabáis de definir un\n"
@@ -1144,7 +1144,7 @@ Cave_Regigigas_S8_Amatista_Texto_47:
 	.string "posibilidades.$"
 
 Cave_Regigigas_S8_Amatista_Texto_48:
-	.string "ANDRA: Qué curioso… no sabía que\n"
+	.string "ANDRA: Qué curioso{PAUSE 15}…{PAUSE 15} no sabía que\n"
 	.string "fuéramos tan importantes para\l"
 	.string "vosotros.$"
 
@@ -1168,7 +1168,7 @@ Cave_Regigigas_S8_Amatista_Texto_53:
 	.string "si quieres recuperarlos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_54:
-	.string "ANDRA: Maldita… Ya\n"
+	.string "ANDRA: Maldita{PAUSE 15}…{PAUSE 15} Ya\n"
 	.string "ajustaremos cuentas.$"
 
 Cave_Regigigas_S8_Amatista_Texto_55:
@@ -1181,7 +1181,7 @@ Cave_Regigigas_S8_Amatista_Texto_56:
 	.string "Pero tu utilidad acaba aquí.$"
 
 Cave_Regigigas_S8_Amatista_Texto_57:
-	.string "Al final del día… sigues sin tener la\n"
+	.string "Al final del día{PAUSE 15}…{PAUSE 15} sigues sin tener la\n"
 	.string "menor idea de cuál es nuestro propósito\l"
 	.string "y, a pesar de ello, has aportado a su\l"
 	.string "consecución. Felicidades.$"
@@ -1199,7 +1199,7 @@ Cave_Regigigas_S8_Amatista_Texto_60:
 	.string "bailar un poco conmigo?$"
 
 Cave_Regigigas_S8_Amatista_Texto_61:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Cave_Regigigas_S8_Amatista_Texto_62:
 	.string "Aún podrías alcanzar a AMATISTA.\n"
@@ -1210,11 +1210,11 @@ Cave_Regigigas_S8_Amatista_Texto_63:
 	.string "¡Bah! ¡Qué aburrido!$"
 
 Cave_Regigigas_S8_Amatista_Texto_64:
-	.string "Hmm… enfrentar a POKÉMON tan bien\n"
+	.string "Hmm{PAUSE 25}…{PAUSE 25} enfrentar a POKÉMON tan bien\n"
 	.string "cuidados acaba siendo tedioso.$"
 
 Cave_Regigigas_S8_Amatista_Texto_65:
-	.string "Sorprende pero… desmotiva.$"
+	.string "Sorprende pero{PAUSE 15}…{PAUSE 15} desmotiva.$"
 
 Cave_Regigigas_S8_Amatista_Texto_66:
 	.string "Aún mermado has podido con un equipo\n"
@@ -1237,7 +1237,7 @@ Cave_Regigigas_S8_Amatista_Texto_69:
 	.string "equipo…$"
 
 Cave_Regigigas_S8_Amatista_Texto_70:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Cave_Regigigas_S8_Amatista_Texto_71:
 	.string "Yo no he elegido esto, ¿entiendes? Si\n"
@@ -1245,7 +1245,7 @@ Cave_Regigigas_S8_Amatista_Texto_71:
 	.string "adaptarme a los nuevos tiempos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_72:
-	.string "En caso contrario… me convertiré en un\n"
+	.string "En caso contrario{PAUSE 25}…{PAUSE 25} me convertiré en un\n"
 	.string "lastre, y solo espero que…$"
 
 Cave_Regigigas_S8_Amatista_Texto_73:
@@ -1254,19 +1254,19 @@ Cave_Regigigas_S8_Amatista_Texto_73:
 
 Cave_Regigigas_S8_Amatista_Texto_74:
 	.string "La MEGAEVOLUCIÓN de un\n"
-	.string "PSEUDOLEGENDARIO… de mi pequeño\l"
-	.string "BAGON… fuera del equipo por no estar a\l"
+	.string "PSEUDOLEGENDARIO{PAUSE 15}…{PAUSE 15} de mi pequeño\l"
+	.string "BAGON{PAUSE 15}…{PAUSE 15} fuera del equipo por no estar a\l"
 	.string "la altura, ¿puedes imaginártelo?$"
 
 Cave_Regigigas_S8_Amatista_Texto_75:
-	.string "Mmm… yo… no.$"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} yo{PAUSE 15}…{PAUSE 15} no.$"
 
 Cave_Regigigas_S8_Amatista_Texto_76:
 	.string "ANDRA: ¿Derrotaste a TRISTANA?\n"
 	.string "Tenía cara de pocos amigos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_77:
-	.string "Mmm… hubiera preferido que ese WHISMUR\n"
+	.string "Mmm{PAUSE 25}…{PAUSE 25} hubiera preferido que ese WHISMUR\n"
 	.string "robara tus POKÉMON, solo para ser yo\l"
 	.string "quién derrotara a esa lunática.$"
 
@@ -1274,7 +1274,7 @@ Cave_Regigigas_S8_Amatista_Texto_78:
 	.string "Diría que desde el principio todo: la\n"
 	.string "posibilidad de que esto ocurriera,\l"
 	.string "nuestra intervención y cómo usarla a su\l"
-	.string "favor… entraban dentro de sus\l"
+	.string "favor{PAUSE 15}…{PAUSE 15} entraban dentro de sus\l"
 	.string "cálculos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_79:
@@ -1288,7 +1288,7 @@ Cave_Regigigas_S8_Amatista_Texto_80:
 	.string "promesa. Ahora te toca a ti.$"
 
 Cave_Regigigas_S8_Amatista_Texto_81:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Cave_Regigigas_S8_Amatista_Texto_82:
 	.string "Aún conservo una copia de la LLAVE de\n"
@@ -1300,8 +1300,8 @@ Cave_Regigigas_S8_Amatista_Texto_83:
 	.string "del trato, {PLAYER}.$"
 
 Cave_Regigigas_S8_Amatista_Texto_84:
-	.string "Solo espero que… nuestra rivalidad y…\n"
-	.string "amistad… signifique para ti tanto o más\l"
+	.string "Solo espero que{PAUSE 15}…{PAUSE 15} nuestra rivalidad y{PAUSE 5}…{PAUSE 5}\n"
+	.string "amistad, signifique para ti tanto o más\l"
 	.string "que tu lealtad al TEAM ROCKET.$"
 
 Cave_Regigigas_S8_Amatista_Texto_85:

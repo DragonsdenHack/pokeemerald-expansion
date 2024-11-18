@@ -115,7 +115,7 @@
       "x": 12,
       "y": 5,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "30",
       "script": "Goldenrod_RadioTowerP8_Proton_Abajo"
     },
@@ -124,7 +124,7 @@
       "x": 12,
       "y": 4,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "30",
       "script": "Goldenrod_RadioTowerP8_Proton_Arriba"
     }

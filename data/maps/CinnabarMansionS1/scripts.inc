@@ -219,7 +219,7 @@ msgbox CinnabarMansionS1_Dalia_Texto_34 MSGBOX_AUTOCLOSE
 applymovement 5, CinnabarMansionS1_Dalia_Move_16
 waitmovement 0x0
 msgbox CinnabarMansionS1_Dalia_Texto_35 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40FF, 28
+setvar VAR_UNUSED_0x40F8, 28
 release
 end
 
@@ -406,7 +406,7 @@ release
 end
 
 Cinnabar_S1_Llave::
-compare VAR_UNUSED_0x40FF, 27
+compare VAR_UNUSED_0x40F8, 27
 goto_if_gt Cinnabar_S1_Llave_Despues
 delay 10
 msgbox Cinnabar_S1_Llave_Texto_1 MSGBOX_AUTOCLOSE

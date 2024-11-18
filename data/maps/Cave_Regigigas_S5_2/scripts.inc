@@ -277,7 +277,7 @@ delay_8
 step_end
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_1:
-	.string "ADM.ESMERALDA: {PLAYER}...\n"
+	.string "ADM.ESMERALDA: {PLAYER}…\n"
 	.string "Volvemos a vernos.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_2:
@@ -342,7 +342,7 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_14:
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_15:
 	.string "Quiero ver tu evolución como\n"
-	.string "ENTRENADOR… desde una nueva\l"
+	.string "ENTRENADOR{PAUSE 15}…{PAUSE 15} desde una nueva\l"
 	.string "perspectiva.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_16:
@@ -388,11 +388,11 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_25.1:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_26:
-	.string "Muy bien… {PLAYER}, te espero en la\n"
+	.string "Muy bien{PAUSE 15}…{PAUSE 15} {PLAYER}, te espero en la\n"
 	.string "zona del lago.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_27:
-	.string "ADM.ESMERALDA: Sabed que… no importa.$"
+	.string "ADM.ESMERALDA: Sabed que{PAUSE 25}…{PAUSE 25} no importa.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_28:
 	.string "ANDRA: ¿No importa?$"
@@ -410,7 +410,7 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_30:
 	.string "podéis con todo.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_31:
-	.string "Pero… acabaréis chocando contra\n"
+	.string "Pero{PAUSE 15}…{PAUSE 15} acabaréis chocando contra\n"
 	.string "un muro. Antes o después.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_32:

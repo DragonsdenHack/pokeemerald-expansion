@@ -167,7 +167,7 @@ Cave_Regigigas_S5_Andra_Texto_2:
 	.string "avanzar, debe ser por ahí.$"
 
 Cave_Regigigas_S5_Andra_Texto_3:
-	.string "Esto ya lo he visto antes… las cuevas\n"
+	.string "Esto ya lo he visto antes{PAUSE 15}…{PAUSE 15} las cuevas\n"
 	.string "de los regis cuentan con cosas así.$"
 
 Cave_Regigigas_S5_Andra_Texto_4:
@@ -414,11 +414,11 @@ Cave_Regigigas_S5_Andra_Despues_Texto_2:
 	.string "zonas.$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_3:
-	.string "La cuestión es… ¿dónde está\n"
+	.string "La cuestión es{PAUSE 15}…{PAUSE 15} ¿dónde está\n"
 	.string "el punto de inicio?$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_5:
 	.string "Debe ser ese.$"
@@ -442,7 +442,7 @@ Cave_Regigigas_S5_Andra_Despues_Texto_10:
 	.string "Las dejaré aquí grabadas.$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_11:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_12:
 	.string "Este lugar es inmenso. Parece que fue\n"
@@ -454,10 +454,10 @@ Cave_Regigigas_S5_Andra_Despues_Texto_13:
 
 Cave_Regigigas_S5_Andra_Despues_Texto_14:
 	.string "Por aquel entonces, fuiste tú el único\n"
-	.string "que pudo superar todas las pruebas.$"
+	.string "que llegó a superar todas las pruebas.$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_15:
-	.string "Pero ahora… estoy más que preparada\n"
+	.string "Pero ahora{PAUSE 15}…{PAUSE 15} estoy más que preparada\n"
 	.string "para llegar contigo hasta el final.$"
 
 Cave_Regigigas_S5_Cartel::

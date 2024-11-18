@@ -998,7 +998,7 @@ MtMoon_3F_Pelea_Frank_texto19:
 	.string "diferentes.$"
 
 MtMoon_3F_Pelea_Frank_texto19.1:
-	.string "... ...$"
+	.string "… …$"
 
 MtMoon_3F_Pelea_Frank_texto19.2:
 	.string "Tranquilo, {PLAYER}. No creo que te\n"

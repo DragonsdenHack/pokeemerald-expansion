@@ -214,7 +214,7 @@ applymovement 4, SilphS2_2_Lorelei_Move_12
 waitmovement 0x0
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
 removeobject 4
-setvar VAR_UNUSED_0x40FF, 11
+setvar VAR_UNUSED_0x40F8, 11
 release
 end
 

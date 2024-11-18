@@ -18275,7 +18275,7 @@ Cave_Regigigas_Devon_11_Text_PoliciaPostBattle:
 	.string "POKÉMON puede alcanzar.$"
 
 Cave_Regigigas_Devon_12_Text_PoliciaIntro:
-	.string "He oído hablar de ti... dicen que eres un\n"
+	.string "He oído hablar de ti… dicen que eres un\n"
 	.string "privilegiado para el combate, ¿pero\l"
 	.string "sabes lo que también dicen?$"
 

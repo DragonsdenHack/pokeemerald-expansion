@@ -542,7 +542,7 @@ DewfordTown_Hall_Secundaria_Texto_3:
 	.string "una buena lección.$"
 
 DewfordTown_Hall_Secundaria_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 DewfordTown_Hall_Secundaria_Texto_5:
 	.string "¿Tú crees que podrías derrotar a su\n"
@@ -556,7 +556,7 @@ DewfordTown_Hall_Secundaria_Texto_7:
 	.string "¿Estás seguro?$"
 
 DewfordTown_Hall_Secundaria_Texto_8:
-	.string "Entiendo… no queda otra que seguir\n"
+	.string "Entiendo{PAUSE 15}…{PAUSE 15} no queda otra que seguir\n"
 	.string "soportándola en el colegio.$"
 
 DewfordTown_Hall_Secundaria_Texto_9:
@@ -796,7 +796,7 @@ DewfordTown_Hall_Secundaria_Final_Texto_1:
 	.string "parecían novatos a tu lado.$"
 
 DewfordTown_Hall_Secundaria_Final_Texto_2:
-	.string "Aunque… a decir verdad… la niña acabó\n"
+	.string "Aunque{PAUSE 15}…{PAUSE 15} a decir verdad{PAUSE 15}…{PAUSE 15} la niña acabó\n"
 	.string "dándome un poco de pena. Todo se le\l"
 	.string "vino arriba de repente, tal vez…$"
 
@@ -825,12 +825,12 @@ DewfordTown_Hall_Secundaria_Final_Texto_8:
 	.string "una MEGAPIEDRA?$"
 
 DewfordTown_Hall_Secundaria_Final_Texto_9:
-	.string "¡Sí! Bueno… La encontramos en el MONTE\n"
-	.string "PÍRICO, en la lápida de mi mami… Desde\l"
+	.string "¡Sí! Bueno{PAUSE 15}…{PAUSE 15} La encontramos en el MONTE\n"
+	.string "PÍRICO, en la lápida de mi mami{PAUSE 15}…{PAUSE 15} Desde\l"
 	.string "entonces la llevo siempre conmigo.$"
 
 DewfordTown_Hall_Secundaria_Final_Texto_10:
-	.string "Oh, no lo sabía… lo siento mucho…$"
+	.string "Oh, no lo sabía{PAUSE 15}…{PAUSE 15} lo siento mucho…$"
 
 DewfordTown_Hall_Secundaria_Final_Texto_11:
 	.string "No pasa nada. Esta MEGAPIEDRA me\n"

@@ -536,7 +536,7 @@ playse SE_EXIT
 setflag FLAG_HOENN_102
 removeobject 12
 removeobject 13
-setvar VAR_UNUSED_0x40FF, 33
+setvar VAR_UNUSED_0x40F8, 36
 waitse
 release
 end

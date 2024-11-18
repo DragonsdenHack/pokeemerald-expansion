@@ -107,7 +107,7 @@ delay 35
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_8
 waitmovement 0x0
-setvar VAR_UNUSED_0x40FF, 27
+setvar VAR_UNUSED_0x40F8, 27
 release
 end
 

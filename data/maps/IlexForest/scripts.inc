@@ -9,8 +9,8 @@ IlexForest_OnResume:
 	end
 
 IlexForest_OnFrame:
-map_script_2 VAR_UNUSED_0x40FF, 29, IlexForest_Escena
-map_script_2 VAR_UNUSED_0x40FF, 31, IlexForest_Escena_Despues
+map_script_2 VAR_UNUSED_0x40F8, 29, IlexForest_Escena
+map_script_2 VAR_UNUSED_0x40F8, 34, IlexForest_Escena_Despues
 	.2byte 0
 
 IlexForest_SetupEscapeWarp::
@@ -399,7 +399,7 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 delay 15
-setvar VAR_UNUSED_0x40FF, 30
+setvar VAR_UNUSED_0x40F8, 30
 warpsilent MAP_SOUTH_ROUTE45, 5, 82
 delay 100
 release
@@ -922,7 +922,7 @@ msgbox IlexForest_Escena_Despues_Texto_50 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
-setvar VAR_UNUSED_0x40FF, 32
+setvar VAR_UNUSED_0x40F8, 35
 warpsilent MAP_ROUTE27, 74, 8
 release
 end

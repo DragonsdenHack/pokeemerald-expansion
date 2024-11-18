@@ -344,7 +344,7 @@ Cave_Regigigas_S4_Valente_Texto_8:
 
 Cave_Regigigas_S4_Valente_Texto_9:
 	.string "Dudo que sepas apreciar la diferencia,\n"
-	.string "pero… ¡déjame comprobar si tienes la\l"
+	.string "pero{PAUSE 15}…{PAUSE 15} ¡déjame comprobar si tienes la\l"
 	.string "suficiente valentía!$"
 
 Cave_Regigigas_S4_Valente_Texto_10:
@@ -359,7 +359,7 @@ Cave_Regigigas_S4_Valente_Texto_11:
 	.string "ANDRA: Tú…$"
 
 Cave_Regigigas_S4_Valente_Texto_12:
-	.string "Ahora te reconozco… conocías este\n"
+	.string "Ahora te reconozco{PAUSE 15}…{PAUSE 15} conocías este\n"
 	.string "lugar mejor que nadie, gracias a ti pude\l"
 	.string "descubrirlo.$"
 
@@ -383,7 +383,7 @@ Cave_Regigigas_S4_Valente_Texto_16:
 	.string "mismo en KANTO?$"
 
 Cave_Regigigas_S4_Valente_Texto_17:
-	.string "ANDRA: Pero… creí que eras también un\n"
+	.string "ANDRA: Pero{PAUSE 15}…{PAUSE 15} creí que eras también un\n"
 	.string "apasionado del misterio.$"
 
 Cave_Regigigas_S4_Valente_Texto_18:
@@ -421,10 +421,10 @@ Cave_Regigigas_S4_Valente_Texto_24:
 	.string "VALENTE: No hay otro camino. Todo está\n"
 	.string "dispuesto en HOENN, y mi lugar en el\l"
 	.string "nuevo parque de atracciones para\l"
-	.string "niños… garantizado.$"
+	.string "niños{PAUSE 25}…{PAUSE 25} garantizado.$"
 
 Cave_Regigigas_S4_Valente_Texto_25:
-	.string "ANDRA: En ese caso… jamás llegarás a\n"
+	.string "ANDRA: En ese caso{PAUSE 25}…{PAUSE 25} jamás llegarás a\n"
 	.string "ver los verdaderos misterios que la vida\l"
 	.string "tenía reservados para ti.$"
 
@@ -441,7 +441,7 @@ Cave_Regigigas_S4_Valente_Texto_28:
 
 Cave_Regigigas_S4_Valente_Texto_29:
 	.string "El cómo alguien a quién respetaba se\n"
-	.string "acaba corrompiendo de tal modo… esto\l"
+	.string "acaba corrompiendo de tal modo{PAUSE 15}…{PAUSE 15} esto\l"
 	.string "ya lo he vivido.$"
 
 Cave_Regigigas_S4_Valente_Texto_30:

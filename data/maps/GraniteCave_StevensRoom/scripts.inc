@@ -228,7 +228,7 @@ face_right
 step_end
 
 GraniteCave_Encuentro_Tristana_Texto_1:
-	.string "TRISTANA: Emm… ¿{PLAYER}? ¿Cómo tú\n"
+	.string "TRISTANA: Emm{PAUSE 15}…{PAUSE 15} ¿{PLAYER}? ¿Cómo tú\n"
 	.string "por aquí?$"
 
 GraniteCave_Encuentro_Tristana_Texto_2:

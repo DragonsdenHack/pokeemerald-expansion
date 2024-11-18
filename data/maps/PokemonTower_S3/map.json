@@ -65,7 +65,7 @@
       "x": 11,
       "y": 9,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "15",
       "script": "PokemonTower_S3_Tumba"
     }

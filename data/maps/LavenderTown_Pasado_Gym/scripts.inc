@@ -3,11 +3,11 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, LavenderTown_Pasado_Gym_OnFrame
 	.byte 0
 
 LavenderTown_Pasado_Gym_OnFrame:
-map_script_2 VAR_UNUSED_0x40FF, 18, LavenderTown_Pasado_Gym
+map_script_2 VAR_UNUSED_0x40F8, 18, LavenderTown_Pasado_Gym
 	.2byte 0
 
 LavenderTown_Pasado_Gym_Gray::
-setvar VAR_UNUSED_0x40FF, 19
+setvar VAR_UNUSED_0x40F8, 19
 end
 
 LavenderTown_Pasado_Gym_Move_1:
@@ -553,7 +553,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Gym_Move_14.1
 waitmovement 0x0
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40FF, 20
+setvar VAR_UNUSED_0x40F8, 20
 release
 end
 

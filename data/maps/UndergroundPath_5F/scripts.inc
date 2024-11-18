@@ -320,7 +320,7 @@ removeobject 4
 removeobject 7
 removeobject 8
 removeobject 9
-setvar VAR_UNUSED_0x40FF, 2
+setvar VAR_UNUSED_0x40F8, 2
 release
 end
 

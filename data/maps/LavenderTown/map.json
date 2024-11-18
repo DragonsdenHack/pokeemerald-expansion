@@ -391,7 +391,7 @@
       "x": 1,
       "y": 11,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "2",
       "script": "LavenderTown_Entrevista_Oak"
     },
@@ -400,7 +400,7 @@
       "x": 1,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "2",
       "script": "LavenderTown_Entrevista_Oak"
     },
@@ -409,7 +409,7 @@
       "x": 1,
       "y": 9,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FF",
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "2",
       "script": "LavenderTown_Entrevista_Oak"
     }

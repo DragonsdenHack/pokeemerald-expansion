@@ -77,7 +77,7 @@ walk_in_place_left
 step_end
 
 Guardia_Cave_2_Sachiko_Fuji_Texto_1:
-	.string "SACHIKO: Oh… Entonces, por eso ahora\n"
+	.string "SACHIKO: Oh{PAUSE 15}…{PAUSE 15} Entonces, por eso ahora\n"
 	.string "este lugar está lleno de CUBONE,\l"
 	.string "MAROWAK y KANGASKHAN.$"
 
@@ -104,7 +104,7 @@ Guardia_Cave_2_Sachiko_Fuji_Texto_5:
 	.string "fascinante.$"
 
 Guardia_Cave_2_Sachiko_Fuji_Texto_6:
-	.string "Es como si… toda esa línea evolutiva\n"
+	.string "Es como si{PAUSE 15}…{PAUSE 15} toda esa línea evolutiva\n"
 	.string "hubiera desarrollado una especie de\l"
 	.string "mente colectiva, que le impulsara a\l"
 	.string "construir este inmenso túnel.$"
@@ -498,13 +498,13 @@ Guardia_Cave_2_Combate_Sachiko_Texto_2:
 	.string "razón?$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_3:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_4:
-	.string "Ese KANGASKHAN…$"
+	.string "Ese KANGASKHAN{PAUSE 15}…{PAUSE 15}$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_5:
-	.string "FUJI… {PLAYER}... Yo me encargaré de\n"
+	.string "FUJI{PAUSE 15}…{PAUSE 15} {PLAYER}{PAUSE 15}…{PAUSE 15} Yo me encargaré de\n"
 	.string "esto.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_6:
@@ -524,7 +524,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_9:
 	.string "nosotros?$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_10:
-	.string "SACHIKO: ¡No es eso! Es que no puedo…\n"
+	.string "SACHIKO: ¡No es eso! Es que no puedo{PAUSE 15}…{PAUSE 15}\n"
 	.string "¡no puedo dejaros seguir!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_11:
@@ -538,13 +538,13 @@ Guardia_Cave_2_Combate_Sachiko_Texto_13:
 
 Guardia_Cave_2_Combate_Sachiko_Texto_14:
 	.string "No me dejas elección. Hice una promesa,\n"
-	.string "¡y la cumpliré cueste lo que cueste!$"
+	.string "¡y la cumpliré! ¡Cueste lo que cueste!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_15:
-	.string "Perdóname, padre…$"
+	.string "Perdóname, padre{PAUSE 15}…{PAUSE 15}$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_16:
-	.string "No… no puede ser… He fallado.$"
+	.string "No{PAUSE 15}…{PAUSE 15} no puede ser{PAUSE 15}…{PAUSE 15} He fallado.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_17:
 	.string "Si no puedo proteger este lugar, ¿con\n"
@@ -557,23 +557,23 @@ Guardia_Cave_2_Combate_Sachiko_Texto_18:
 	.string "GIMNASIO?$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_19:
-	.string "{PLAYER} es el mejor ENTRENADOR no\n"
+	.string "{PLAYER} es el mejor ENTRENADOR, no\n"
 	.string "solo de KANTO, también de JOHTO. Es más\l"
 	.string "fuerte que el ALTO MANDO y cualquier\l"
 	.string "CAMPEÓN de la LIGA.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_20:
-	.string "SACHIKO: ¡¿C-cómo?!$"
+	.string "SACHIKO: ¡¿C{PAUSE 15}-{PAUSE 15}cómo?!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_21:
 	.string "FUJI: Deberías estar orgullosa de\n"
 	.string "haber plantado cara al mejor\l"
-	.string "ENTRENADOR de nuestra época.$"
+	.string "de nuestra época.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_22:
 	.string "MAROWAK y yo hemos quedado\n"
-	.string "impresionados con tu KANGASKHAN. ¡Qué\l"
-	.string "vigor y poderío!$"
+	.string "impresionados con tu KANGASKHAN.\l"
+	.string "¡Qué vigor y poderío!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_23:
 	.string "Cuando veo jóvenes que cuidan así de\n"
@@ -581,13 +581,13 @@ Guardia_Cave_2_Combate_Sachiko_Texto_23:
 	.string "esperanzas en las nuevas generaciones.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_24:
-	.string "SACHIKO: Todo eso… no importa. Hice una\n"
+	.string "SACHIKO: Todo eso{PAUSE 15}…{PAUSE 15} no importa. Hice una\n"
 	.string "promesa, y he fallado. Ya no puedo\l"
 	.string "evitar que sigáis y mis temores se\l"
 	.string "cumplan.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_25:
-	.string "FUJI: ¿Evitar qué? Chica… {PLAYER}\n"
+	.string "FUJI: ¿Evitar qué? Chica{PAUSE 15}…{PAUSE 15} {PLAYER}\n"
 	.string "es de fiar, sus acciones se mantuvieron\l"
 	.string "puras cuando pudo haber abusado de su\l"
 	.string "poder.$"
@@ -598,19 +598,19 @@ Guardia_Cave_2_Combate_Sachiko_Texto_26:
 	.string "temer.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_27:
-	.string "SACHIKO: {PLAYER}… ¿{PLAYER} es…?\n"
+	.string "SACHIKO: {PLAYER}{PAUSE 15}…{PAUSE 15} ¿{PLAYER} es{PAUSE 15}…{PAUSE 15}?\n"
 	.string "¡¿Es el que derrotó a LANCE?!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_28:
 	.string "FUJI: ¡El mismo!$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_29:
-	.string "SACHIKO: Comprendo… En ese caso… Os\n"
+	.string "SACHIKO: Comprendo{PAUSE 15}…{PAUSE 15} En ese caso{PAUSE 15}…{PAUSE 15} Os\n"
 	.string "contaré lo que sé. De todos modos,\l"
 	.string "no tengo otra opción.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_30:
-	.string "El KANGASKHAN que véis ahí...$"
+	.string "El KANGASKHAN que véis ahí…$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_31:
 	.string "No es un KANGASKHAN que haya\n"
@@ -621,8 +621,8 @@ Guardia_Cave_2_Combate_Sachiko_Texto_32:
 	.string "FUJI: ¿Cómo lo sabes?$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_33:
-	.string "SACHIKO: Porque… ya lo he visto antes.\n"
-	.string "En… la ZONA SAFARI.$"
+	.string "SACHIKO: Porque{PAUSE 15}…{PAUSE 15} ya lo he visto antes.\n"
+	.string "En{PAUSE 15}…{PAUSE 15} la ZONA SAFARI.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_34:
 	.string "FUJI: ¿ZONA SAFARI? ¡¿Cómo es\n"
@@ -630,7 +630,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_34:
 
 Guardia_Cave_2_Combate_Sachiko_Texto_35:
 	.string "SACHIKO: No lo sé, pero ahora que\n"
-	.string "caigo… este túnel ha recorrido ya media\l"
+	.string "caigo{PAUSE 15}…{PAUSE 15} este túnel ha recorrido ya media\l"
 	.string "región al suroeste, no debemos estar\l"
 	.string "tan lejos…$"
 
@@ -677,7 +677,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_44:
 	.string "ese asunto.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_45:
-	.string "Esa chica… se aferra a sus ideales con\n"
+	.string "Esa chica{PAUSE 25}…{PAUSE 25} se aferra a sus ideales con\n"
 	.string "gran tenacidad.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_46:
@@ -695,7 +695,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_48:
 Guardia_Cave_2_Combate_Sachiko_Texto_49:
 	.string "Haber logrado algo como esto, un TÚNEL\n"
 	.string "que duplica en tamaño el de los\l"
-	.string "DIGLETT… es imposible sin una enorme\l"
+	.string "DIGLETT{PAUSE 15}…{PAUSE 15} es imposible sin una enorme\l"
 	.string "fuerza detrás.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_50:
@@ -1254,12 +1254,12 @@ Guardia_Cave_2_Combate_Guardia_Texto_9:
 
 Guardia_Cave_2_Combate_Guardia_Texto_10:
 	.string "FUJI: Parece que al POKÉMON no le\n"
-	.string "quedan fuerzas para combatir, pero… a\l"
+	.string "quedan fuerzas para combatir, pero{PAUSE 15}…{PAUSE 15} a\l"
 	.string "pesar de ello, se niega a rendirse.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_11:
 	.string "Ese característico brillo en los ojos,\n"
-	.string "esa tenacidad… la reconozco muy bien.\l"
+	.string "esa tenacidad{PAUSE 15}…{PAUSE 15} la reconozco muy bien.\l"
 	.string "Luchará por este lugar hasta las\l"
 	.string "últimas consecuencias.$"
 
@@ -1314,7 +1314,7 @@ Guardia_Cave_2_Combate_Guardia_Texto_22:
 	.string "¡Wak!$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_23:
-	.string "Está… ¡¿evolucionando otra vez?!$"
+	.string "Está{PAUSE 15}…{PAUSE 15} ¡¿evolucionando otra vez?!$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_24:
 	.string "¡Guar!$"
@@ -1323,7 +1323,7 @@ Guardia_Cave_2_Combate_Guardia_Texto_25:
 	.string "¿G-Guar?$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_26:
-	.string "FUJI: Uffff… Ha estado cerca, MAROWAK…\n"
+	.string "FUJI: Uffff{PAUSE 15}…{PAUSE 15} Ha estado cerca, MAROWAK…\n"
 	.string "Pero no esta vez.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_27:
@@ -1402,12 +1402,12 @@ Guardia_Cave_2_Combate_Guardia_Texto_41:
 	.string "sentido.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_42:
-	.string "SACHIKO: Supongo que… debería\n"
+	.string "SACHIKO: Supongo que{PAUSE 15}…{PAUSE 15} debería\n"
 	.string "alegrarme. Significa que las crías de\l"
 	.string "KANGASKHAN no sufrirán más.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_43:
-	.string "Aunque… por otro lado, no puedo evitar\n"
+	.string "Aunque{PAUSE 15}…{PAUSE 15} por otro lado, no puedo evitar\n"
 	.string "sentir cierta tristeza. Que un milagro\l"
 	.string "de la naturaleza se pierda sin dejar\l"
 	.string "huella, ¡algunos POKÉMON deberían vivir\l"
@@ -1424,7 +1424,7 @@ Guardia_Cave_2_Combate_Guardia_Texto_45:
 	.string "estos tiempos.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_46:
-	.string "… … Debo daros las gracias, a los dos.\n"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Debo daros las gracias, a los dos.\n"
 	.string "Esta aventura me ha hecho ver claro mi\l"
 	.string "propósito como LÍDER de FUCSIA.$"
 

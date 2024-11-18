@@ -3,12 +3,12 @@ map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonTower_S3_OnResume
 	.byte 0
 
 PokemonTower_S3_OnResume:
-map_script_2 VAR_UNUSED_0x40FF, 24, PokemonTower_S3_Gray
+map_script_2 VAR_UNUSED_0x40F8, 24, PokemonTower_S3_Gray
 	.2byte 0
 
 PokemonTower_S3_Gray::
 call Script_RemoveTint
-setvar VAR_UNUSED_0x40FF, 25
+setvar VAR_UNUSED_0x40F8, 25
 end
 
 PokemonTower_S3_Tumba_Move_1:
@@ -193,7 +193,7 @@ removeobject 1
 delay 10
 addobject 1
 delay 20
-setvar VAR_UNUSED_0x40FF, 15
+setvar VAR_UNUSED_0x40F8, 15
 setflag FLAG_HOENN_675
 delay 20
 playse SE_M_DETECT

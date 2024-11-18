@@ -77,7 +77,7 @@ Guardia_Cave_Fuji_Texto_3:
 
 Guardia_Cave_Fuji_Texto_4:
 	.string "Pero este túnel se extiende hasta\n"
-	.string "mucho más al sur… estoy intrigado.$"
+	.string "mucho más al sur{PAUSE 15}…{PAUSE 15} estoy intrigado.$"
 
 Guardia_Cave_Fuji_Texto_5:
 	.string "¿Por qué hacerlo tan grande?$"
@@ -263,7 +263,7 @@ delay_16
 step_end
 
 Guardia_Cave_Sachiko_Texto_14.1:
-	.string "… … … …$"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 Guardia_Cave_Sachiko_Texto_1:
 	.string "????: ¿Eh? ¿Cómo puede haber alguien\n"
@@ -283,7 +283,7 @@ Guardia_Cave_Sachiko_Texto_4:
 	.string "Dime, ¿quién eres tú?$"
 
 Guardia_Cave_Sachiko_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 Guardia_Cave_Sachiko_Texto_6:
 	.string "¿TEAM ROCKET? Llevo años sin escuchar\n"
@@ -325,12 +325,12 @@ Guardia_Cave_Sachiko_Texto_14:
 	.string "ahora o la de hace 3 años?$"
 
 Guardia_Cave_Sachiko_Texto_15:
-	.string "Mmm… Puedo entenderte. Valoras la\n"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} Puedo entenderte. Valoras la\n"
 	.string "nostalgia, pero no la idealizas, ni dejas\l"
 	.string "que nuble tu presente.$"
 
 Guardia_Cave_Sachiko_Texto_16:
-	.string "Yo sin embargo… yo extraño mucho la\n"
+	.string "Yo sin embargo{PAUSE 15}…{PAUSE 15} yo extraño mucho la\n"
 	.string "KANTO de antes.$"
 
 Guardia_Cave_Sachiko_Texto_17:
@@ -351,8 +351,8 @@ Guardia_Cave_Sachiko_Texto_19:
 	.string "identidad.$"
 
 Guardia_Cave_Sachiko_Texto_20:
-	.string "Ahora…no hay nada… es un lugar\n"
-	.string "desierto… sin expectativas… sin\l"
+	.string "Ahora{PAUSE 15}…{PAUSE 15} no hay nada{PAUSE 15}…{PAUSE 15} es un lugar\n"
+	.string "desierto{PAUSE 15}…{PAUSE 15} sin expectativas{PAUSE 15}…{PAUSE 15} sin\l"
 	.string "esperanzas ni eventos por los que\l"
 	.string "merezca la pena ilusionarse.$"
 
@@ -368,7 +368,7 @@ Guardia_Cave_Sachiko_Texto_22:
 	.string "construyó.$"
 
 Guardia_Cave_Sachiko_Texto_23:
-	.string "Pero mientras, señor ROCKET… más vale\n"
+	.string "Pero mientras, señor ROCKET{PAUSE 15}…{PAUSE 15} más vale\n"
 	.string "mantenernos alerta. ¡Los POKÉMON\l"
 	.string "salvajes no parecen querer humanos\l"
 	.string "aquí!$"

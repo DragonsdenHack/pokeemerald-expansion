@@ -385,10 +385,10 @@ AzaleaCarbonS2_Combate_Final_Texto_10:
 
 AzaleaCarbonS2_Combate_Final_Texto_11:
 .string "Ningún ENTRENADOR de calle podría\n"
-	.string "ganarme en un duelo… ¿Quién eres?$"
+	.string "ganarme en un duelo{PAUSE 15}…{PAUSE 15} ¿Quién eres?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_12:
-.string "Un momento… Eres algo más que un alto\n"
+.string "Un momento{PAUSE 15}…{PAUSE 15} Eres algo más que un alto\n"
 	.string "cargo de TRIGAL, con POKÉMON\l"
 	.string "adquiridos a golpe de talonario,\l"
 	.string "¿verdad?$"
@@ -410,7 +410,7 @@ AzaleaCarbonS2_Combate_Final_Texto_16:
 	.string "contrato.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_17:
-.string "Pero… no soy estúpido, llevarme mal\n"
+.string "Pero{PAUSE 15}…{PAUSE 15} no soy estúpido, llevarme mal\n"
 	.string "contigo a la larga acabaría con este\l"
 	.string "lugar, es por ello que te propongo un\l"
 	.string "acuerdo.$"
@@ -431,7 +431,7 @@ AzaleaCarbonS2_Combate_Final_Texto_19:
 AzaleaCarbonS2_Combate_Final_Texto_20:
 .string "Y no es por tratar de quedar bien, mi\n"
 	.string "SIRFETCHD sintió la presencia de un\l"
-	.string "POKÉMON… debe ser su contraparte… tal\l"
+	.string "POKÉMON{PAUSE 15}…{PAUSE 15} debe ser su contraparte{PAUSE 15}…{PAUSE 15} tal\l"
 	.string "vez corte la madera incluso mejor.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_21:

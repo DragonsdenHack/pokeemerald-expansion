@@ -327,7 +327,7 @@ release
 end
 
 MauvilleCity_BikeShop_Anacleto_Texto_1:
-	.string "Ehmmm... Lo siento, me temo que poco\n"
+	.string "Ehmmm… Lo siento, me temo que poco\n"
 	.string "puedo aportarle a alguien tan\l"
 	.string "adinerado. Alguien como tú seguro que\l"
 	.string "va en moto, ¿no?$"

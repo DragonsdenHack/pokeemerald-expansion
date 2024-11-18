@@ -4100,7 +4100,7 @@ EventScript_SetKanto::
 	setvar VAR_UNUSED_0x40FB, 1
 	setvar VAR_UNUSED_0x40FC, 2
 	setvar VAR_UNUSED_0x40FD, 1
-	setvar VAR_UNUSED_0x40FF, 10
+	setvar VAR_UNUSED_0x40F8, 10
 	setflag FLAG_RECEIVED_SHOAL_SHELL_2
 	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
@@ -4327,7 +4327,7 @@ EventScript_SetSevii::
     setvar VAR_UNUSED_0x40FB, 1
     setvar VAR_UNUSED_0x40FC, 2
     setvar VAR_UNUSED_0x40FD, 1
-    setvar VAR_UNUSED_0x40FF, 28
+    setvar VAR_UNUSED_0x40F8, 28
 	setvar VAR_UNUSED_0x404E, 1
 	setvar VAR_ROUTE103_STATE, 0
 	setvar VAR_ROUTE105_STATE, 4
@@ -4630,7 +4630,7 @@ EventScript_SetJohto::
     setvar VAR_UNUSED_0x40E5, 1
     setvar VAR_UNUSED_0x40FC, 2
     setvar VAR_UNUSED_0x40FD, 1
-    setvar VAR_UNUSED_0x40FF, 32
+    setvar VAR_UNUSED_0x40F8, 35
 	setvar VAR_UNUSED_0x40FE, 6
 	setvar VAR_UNUSED_0x404E, 1
 	setvar VAR_ROUTE103_STATE, 0
@@ -5028,7 +5028,7 @@ EventScript_SetJohto::
     setvar VAR_UNUSED_0x40E5, 1
     setvar VAR_UNUSED_0x40FC, 2
     setvar VAR_UNUSED_0x40FD, 1
-    @setvar VAR_UNUSED_0x40FF, 33
+    @setvar VAR_UNUSED_0x40F8, 33
 	setvar VAR_UNUSED_0x40FE, 6
 	setvar VAR_UNUSED_0x404E, 1
 	setvar VAR_ROUTE103_STATE, 0

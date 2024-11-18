@@ -179,8 +179,8 @@ VerdanturfTown_Blasco_Texto_2:
 	.string "la verdadera enfermedad para mí.$"
 
 VerdanturfTown_Blasco_Texto_1:
-	.string "Esta serenidad...\n"
-	.string "Esta paz...$"
+	.string "Esta serenidad{PAUSE 15}…{PAUSE 15}\n"
+	.string "Esta paz{PAUSE 15}…{PAUSE 15}$"
 
 VerdanturfTown_Tio::
 lock

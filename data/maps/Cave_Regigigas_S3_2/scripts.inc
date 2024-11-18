@@ -88,7 +88,7 @@ Cave_Regigigas_S3_2_Ruby_Texto_2:
 	.string "así pudiera existir en HOENN.$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_3:
-	.string "Y a pesar de ello… parece que aún solo\n"
+	.string "Y a pesar de ello{PAUSE 15}…{PAUSE 15} parece que aún solo\n"
 	.string "estamos rascando en la superficie.$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_4:
@@ -98,7 +98,7 @@ Cave_Regigigas_S3_2_Ruby_Texto_4:
 	.string "encuentro en la CÁMARA de REGIROCK?$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_6:
 	.string "Déjame comprobarlo.$"
@@ -107,7 +107,7 @@ Cave_Regigigas_S3_2_Ruby_Texto_7:
 	.string "Parece que sí.$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_8:
-	.string "Hmmmmm... Después de todo, el\n"
+	.string "Hmmmmm{PAUSE 15}…{PAUSE 15} Después de todo, el\n"
 	.string "ADMIN.AMATISTA tenía razón.$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_9:
@@ -125,8 +125,8 @@ Cave_Regigigas_S3_2_Ruby_Texto_10:
 Cave_Regigigas_S3_2_Ruby_Texto_11:
 	.string "Parece que la naturaleza de este lugar\n"
 	.string "es incluso más antigua y sagrada que la\l"
-	.string "de GROUDON y KYOGRE. ¿Quién lo iba a\l"
-	.string "decir?$"
+	.string "de GROUDON y KYOGRE.\l"
+	.string "¿Quién lo iba a decir?$"
 
 Cave_Regigigas_S3_2_Ruby_Texto_12:
 	.string "Sigue tu camino, un alma inquieta como\n"

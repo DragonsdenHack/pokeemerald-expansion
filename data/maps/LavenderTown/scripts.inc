@@ -768,7 +768,7 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 removeobject 18
 removeobject 20
 removeobject 19
-setvar VAR_UNUSED_0x40FF, 3
+setvar VAR_UNUSED_0x40F8, 3
 release
 end
 
@@ -908,7 +908,7 @@ LavenderTown_Entrevista_Oak_Texto_29:
 	.string "nos acompaña?$"
 
 LavenderTown_Entrevista_Oak_Texto_30:
-	.string "OAK: … …$"
+	.string "OAK: {PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 LavenderTown_Entrevista_Oak_Texto_31:
 	.string "Aún es pronto para eso.$"
@@ -995,7 +995,7 @@ clearflag FLAG_HOENN_675
 removeobject 17
 playse SE_EXIT
 waitse
-setvar VAR_UNUSED_0x40FF, 12
+setvar VAR_UNUSED_0x40F8, 12
 delay 15
 release
 end

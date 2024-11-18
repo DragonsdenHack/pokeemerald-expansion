@@ -3,12 +3,12 @@ map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LavenderTown_Pasado_OnResume
 	.byte 0
 
 LavenderTown_Pasado_OnResume:
-map_script_2 VAR_UNUSED_0x40FF, 15, LavenderTown_Pasado_Gray
+map_script_2 VAR_UNUSED_0x40F8, 15, LavenderTown_Pasado_Gray
 	.2byte 0
 
 LavenderTown_Pasado_Gray::
 call Script_SetGrayscaleTint
-setvar VAR_UNUSED_0x40FF, 16
+setvar VAR_UNUSED_0x40F8, 16
 end
 
 LavenderTown_PasadoDocumento_100::
@@ -142,7 +142,7 @@ applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Pasado_Agatha_Move_11.1
 waitmovement 0x0
 setflag FLAG_HOENN_163
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40FF, 17
+setvar VAR_UNUSED_0x40F8, 17
 release
 end
 
@@ -428,7 +428,7 @@ playse SE_EXIT
 closedoor 9, 16
 waitdooranim
 setflag FLAG_HOENN_70
-setvar VAR_UNUSED_0x40FF, 18
+setvar VAR_UNUSED_0x40F8, 18
 release
 end
 

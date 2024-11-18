@@ -3,12 +3,12 @@ map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Lavender_Secta_Pasadizo_3_OnResume
 	.byte 0
 
 Lavender_Secta_Pasadizo_3_OnResume:
-map_script_2 VAR_UNUSED_0x40FF, 22, Lavender_Secta_Pasadizo_3_Gray
+map_script_2 VAR_UNUSED_0x40F8, 22, Lavender_Secta_Pasadizo_3_Gray
 	.2byte 0
 
 Lavender_Secta_Pasadizo_3_Gray::
 call Script_SetGrayscaleTint
-setvar VAR_UNUSED_0x40FF, 23
+setvar VAR_UNUSED_0x40F8, 23
 end
 
 Lavender_Secta_Pasadizo_Lider_Move_1:
@@ -337,7 +337,7 @@ delay 150
 waitstate
 delay 60
 special FadeOutOrbEffect
-setvar VAR_UNUSED_0x40FF, 24
+setvar VAR_UNUSED_0x40F8, 24
 warpsilent MAP_POKEMON_TOWER_S3, 11, 9
 delay 150
 release

@@ -1961,7 +1961,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_2:
 	.string "como máximos exponentes de ella.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_3:
-.string "ANDRA: Tú… ¿Qué haces aquí?$"
+.string "ANDRA: Tú{PAUSE 25}…{PAUSE 25} ¿Qué haces aquí?$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_4:
 .string "OAK: No deberías dirigirte hacia mí con\n"
@@ -2061,7 +2061,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_21:
 	.string "de TRIGAL como aliados de verdad.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_22:
-.string "ANDRA: Este OAK… nos trata como si aún\n"
+.string "ANDRA: Este OAK{PAUSE 15}…{PAUSE 15} nos trata como si aún\n"
 	.string "fuéramos reclutas recogiendo FÓSILES\l"
 	.string "en el MT.MOON. Deberíamos callarle la\l"
 	.string "boca de nuevo en un combate.$"
@@ -2509,7 +2509,7 @@ walk_up
 step_end
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1:
-	.string "EJECUTIVO ROCKET: Oh… ADMIN.JEFE\n"
+	.string "EJECUTIVO ROCKET: Oh{PAUSE 15}…{PAUSE 15} ADMIN.JEFE\n"
 	.string "{PLAYER}. Le estaba esperando.$"
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2:

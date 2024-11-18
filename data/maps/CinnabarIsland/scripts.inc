@@ -259,7 +259,7 @@ setflag FLAG_HOENN_646
 setflag FLAG_HOENN_647
 setflag FLAG_HOENN_648
 setflag FLAG_HOENN_649
-setvar VAR_UNUSED_0x40FF, 10
+setvar VAR_UNUSED_0x40F8, 10
 release
 end
 

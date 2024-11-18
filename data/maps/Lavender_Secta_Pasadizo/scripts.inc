@@ -3,12 +3,12 @@ map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Lavender_Secta_Pasadizo_OnResume
 	.byte 0
 
 Lavender_Secta_Pasadizo_OnResume:
-map_script_2 VAR_UNUSED_0x40FF, 20, Lavender_Secta_Pasadizo_Gray
+map_script_2 VAR_UNUSED_0x40F8, 20, Lavender_Secta_Pasadizo_Gray
 	.2byte 0
 
 Lavender_Secta_Pasadizo_Gray::
 call Script_SetGrayscaleTint
-setvar VAR_UNUSED_0x40FF, 21
+setvar VAR_UNUSED_0x40F8, 21
 end
 
 Lavender_Secta_Pasadizo_Oak_Move_1:
@@ -327,7 +327,7 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 removeobject 1
 setflag FLAG_HOENN_80
 setflag FLAG_HOENN_83
-setvar VAR_UNUSED_0x40FF, 22
+setvar VAR_UNUSED_0x40F8, 22
 release
 end
 

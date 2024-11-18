@@ -1099,7 +1099,7 @@ Silph_S2_Llave_Texto_2:
 	.string "¿Quieres usar la LLAVE SILPH S3?$"
 
 Silph_S2_Llave::
-compare VAR_UNUSED_0x40FF, 11
+compare VAR_UNUSED_0x40F8, 11
 goto_if_gt Silph_S2_Llave_Despues
 delay 10
 msgbox Silph_S2_Llave_Texto_1 MSGBOX_AUTOCLOSE

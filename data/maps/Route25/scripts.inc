@@ -182,6 +182,6 @@ release
 end
 
 Route25_Azul_Texto_1:
-	.string "Un RATTATA... debe ser una broma. Lo\n"
-	.string "acepté por cortesía pero... no durará\l"
+	.string "Un RATTATA{PAUSE 15}…{PAUSE 15} debe ser una broma. Lo\n"
+	.string "acepté por cortesía pero{PAUSE 15}…{PAUSE 15} no durará\l"
 	.string "mucho en mi equipo.$"

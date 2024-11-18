@@ -283,7 +283,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_2:
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_3:
 	.string "Son números impresionantes, no hay\n"
-	.string "duda. Pero… hay algo más que me llama la\l"
+	.string "duda. Pero{PAUSE 15}…{PAUSE 15} hay algo más que me llama la\l"
 	.string "atención.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_4:
@@ -307,15 +307,15 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_7:
 	.string "código genético de un POKÉMON, es su\l"
 	.string "columna vertebral, inamovible, la\l"
 	.string "esencia que da identidad a dicha\l"
-	.string "especie…'$"
+	.string "especie{PAUSE 15}…{PAUSE 15}'$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_8:
-	.string "'...que el FUERTE VÍNCULO sea capaz de\n"
+	.string "'…que el FUERTE VÍNCULO sea capaz de\n"
 	.string "modificar los PUNTOS DE SALUD rompe con\l"
 	.string "todos nuestros esquemas…'$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_9:
-	.string "Este GYARADOS… los eleva el doble que\n"
+	.string "Este GYARADOS{PAUSE 15}…{PAUSE 15} los eleva el doble que\n"
 	.string "un FUERTE VÍNCULO.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_10:
@@ -337,7 +337,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_12:
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_13:
 	.string "En las manos equivocadas, alguien con\n"
 	.string "este GYARADOS nunca podría ganar a mi\l"
-	.string "MILOTIC, y en las correctas… habría que\l"
+	.string "MILOTIC, y en las correctas{PAUSE 15}…{PAUSE 15} habría que\l"
 	.string "verlo.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_14:
@@ -498,7 +498,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_3:
 	.string "¿Cuál era tu clave?$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_5:
 	.string "Ajá. La mía era: 'ARCEUS ha muerto'.$"
@@ -508,7 +508,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_6:
 	.string "¿Te fijaste en su nivel de dificultad?$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_7:
-	.string "Mmm… 7 y 8.$"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} 7 y 8.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Despues_Texto_8:
 	.string "Parece que yo me topé con la clave más\n"
@@ -660,7 +660,7 @@ Laboratorio_Secreto_S1_Diario_Oak_Texto_12:
 	.string "Sin embargo, ya no somos los únicos…$"
 
 Laboratorio_Secreto_S1_Diario_Oak_Texto_13:
-	.string "SILPH, el TEAM ROCKET, DEVON… todo el\n"
+	.string "SILPH, el TEAM ROCKET, DEVON{PAUSE 15}…{PAUSE 15} todo el\n"
 	.string "progreso científico se ha acelerado de\l"
 	.string "forma exponencial, lo que hoy es fuerte\l"
 	.string "podría mañana no serlo.$"

@@ -236,7 +236,7 @@ Snowpoint_Templo_S5_Rasmus_Texto_1:
 	.string "nuestro.$"
 
 Snowpoint_Templo_S5_Rasmus_Texto_2:
-	.string "{PLAYER}… Estoy impresionado. Si\n"
+	.string "{PLAYER}{PAUSE 15}…{PAUSE 15} Estoy impresionado. Si\n"
 	.string "estás aquí es porque sigues\l"
 	.string "obsesionado en ir tras nuestros\l"
 	.string "movimientos.$"
@@ -504,6 +504,7 @@ waitmovement 0x0
 playse SE_POKENAV_OFF
 delay 15
 clearflag FLAG_HOENN_698
+setvar VAR_UNUSED_0x40F8, 2
 setvar VAR_UNUSED_0x40F7, 254
 release
 end
@@ -553,7 +554,7 @@ Snowpoint_Templo_S5_Amatista_Texto_9:
 	.string "Anularon sus habilidades especiales, y\n"
 	.string "después lo sellaron aquí. Solo la\l"
 	.string "presencia de los 3 REGIS podrá hacer\l"
-	.string "que reaccione… aún en una muy limitada\l"
+	.string "que reaccione{PAUSE 15}…{PAUSE 15} aún en una muy limitada\l"
 	.string "forma.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_10:

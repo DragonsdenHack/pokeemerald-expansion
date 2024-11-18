@@ -1264,11 +1264,11 @@ MtPyre_Summit_Andra_Texto_7:
 
 MtPyre_Summit_Andra_Texto_8:
 	.string "Jamás pensé que mi generación sería la\n"
-	.string "afortunada, pero… es el momento de\l"
+	.string "afortunada, pero{PAUSE 25}…{PAUSE 25} es el momento de\l"
 	.string "hacerla brillar en este lugar.$"
 
 MtPyre_Summit_Andra_Texto_9:
-	.string "ANDRA: {PLAYER}... me has encontrado.$"
+	.string "ANDRA: {PLAYER}{PAUSE 25}…{PAUSE 25} me has encontrado.$"
 
 MtPyre_Summit_Andra_Texto_10:
 	.string "Ha pasado mucho tiempo.$"
@@ -1294,7 +1294,7 @@ MtPyre_Summit_Andra_Texto_14:
 	.string "evolución, una oda a nuestro progreso.$"
 
 MtPyre_Summit_Andra_Texto_15:
-	.string "Pero también… era la forma que\n"
+	.string "Pero también{PAUSE 25}…{PAUSE 25} era la forma que\n"
 	.string "teníamos de verificar que todo el\l"
 	.string "tiempo que había pasado desde nuestro\l"
 	.string "anterior encuentro no había sido en\l"
@@ -1314,7 +1314,7 @@ MtPyre_Summit_Andra_Texto_17:
 	.string "dejaría de tener sentido, ¿no?$"
 
 MtPyre_Summit_Andra_Texto_18:
-	.string "Ahora… es diferente, no necesito\n"
+	.string "Ahora{PAUSE 15}…{PAUSE 15} es diferente, no necesito\n"
 	.string "combatir contigo. Me basta con tu mera\l"
 	.string "presencia aquí.$"
 
@@ -1325,9 +1325,9 @@ MtPyre_Summit_Andra_Texto_19:
 
 MtPyre_Summit_Andra_Texto_20:
 	.string "Solo párate un momento y mira dónde\n"
-	.string "estás… estás en la cima del MONTE\l"
+	.string "estás{PAUSE 35}…{PAUSE 35} en la cima del MONTE\l"
 	.string "PÍRICO, a cientos de kilómetros de\l"
-	.string "ISLAS SETE, de KANTO, de JOHTO… lejos\l"
+	.string "ISLAS SETE, de KANTO, de JOHTO{PAUSE 15}…{PAUSE 15} lejos\l"
 	.string "de todo lo que era nuestro mundo\l"
 	.string "conocido.$"
 
@@ -1339,17 +1339,17 @@ MtPyre_Summit_Andra_Texto_22:
 	.string "Dime, {PLAYER}. ¿Por qué estás aquí?$"
 
 MtPyre_Summit_Andra_Texto_23:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 MtPyre_Summit_Andra_Texto_24:
-	.string "REGIGIGAS… CIUDAD PUNTANEVA… DEVON…$"
+	.string "REGIGIGAS{PAUSE 15}…{PAUSE 15} CIUDAD PUNTANEVA{PAUSE 15}…{PAUSE 15} DEVON{PAUSE 15}…{PAUSE 15}$"
 
 MtPyre_Summit_Andra_Texto_25:
 	.string "Estás en lo cierto, sé cuál puede ser el\n"
 	.string "próximo movimiento de DEVON.$"
 
 MtPyre_Summit_Andra_Texto_26:
-	.string "Pero… si quieres que te ayude, deberás\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} si quieres que te ayude, deberás\n"
 	.string "hacer algo por mí, {PLAYER}. Algo a lo\l"
 	.string "que, desde la I CONFERENCIA de TRIGAL,\l"
 	.string "le he estado dando muchas vueltas.$"
@@ -1364,17 +1364,17 @@ MtPyre_Summit_Andra_Texto_28:
 	.string "tus principios?$"
 
 MtPyre_Summit_Andra_Texto_29:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 MtPyre_Summit_Andra_Texto_30:
-	.string "¿Confías en que nada de lo que pueda\n"
-	.string "pedirte lo haga, aunque en un principio\l"
-	.string "pudiera parecerlo?$"
+	.string "Así que confías en que nada de lo\n"
+	.string "que pueda pedirte lo haga, aunque a\l"
+	.string "simple pudiera parecerlo.$"
 
 MtPyre_Summit_Andra_Texto_31:
 	.string "Una respuesta digna de mi mejor rival.\n"
-	.string "Aunque… eso se verá una vez sepas lo\l"
-	.string "que quiero. Por el momento…$"
+	.string "Aunque{PAUSE 15}…{PAUSE 15} eso se verá una vez sepas lo\l"
+	.string "que quiero. Por el momento{PAUSE 15}…{PAUSE 15}$"
 
 MtPyre_Summit_Andra_Texto_32:
 	.string "…tenemos un trato, ¿no es así,\n"

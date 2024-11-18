@@ -1889,7 +1889,7 @@ SootopolisCity_Andra_Texto_13:
 SootopolisCity_Andra_Texto_14:
 	.string "MILOTIC siempre ha sido un POKÉMON muy\n"
 	.string "venerado aquí, ¿sabes? Que tú tengas\l"
-	.string "uno tan especial… siento que debes\l"
+	.string "uno tan especial{PAUSE 25}…{PAUSE 25} siento que debes\l"
 	.string "saber acerca de estas leyendas.$"
 
 SootopolisCity_Andra_Texto_15:
