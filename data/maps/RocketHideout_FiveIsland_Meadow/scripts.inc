@@ -45,12 +45,11 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_21: 
-
 .string "Así es, nuestra sucursal de ISLA\n"
 .string "INTA cuenta con este sótano oculto.\l"
 .string "Aquí examinamos primero los\l"
-.string "POKÉMON robados antes de\l"
-.string "exportarlos a KANTO.$"
+.string "POKÉMON antes de exportarlos\l"
+.string "a KANTO.$"
 
 
 RocketHideoutFiveIslanMeadow20:: 
@@ -61,7 +60,6 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_20: 
-
 .string "Siéntete afortunado, ¡ahora\n"
 .string "trabajas para el TEAM ROCKET!$"
 
@@ -74,7 +72,6 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_19: 
-
 .string "¿No tienes un trabajo que hacer?\n"
 .string "¿A qué esperas?\l"
 .string "¡Estás perdiendo eficiencia y eso\l"
@@ -91,9 +88,9 @@ end
 RocketHideoutFiveIslandMeadow_Text_15:
 .string "…\n"
 .string "…\l"
-.string "(Contiene un KINGLER en su\l"
+.string "Contiene un KINGLER en su\l"
 .string "interior, mejor no tocarla\l"
-.string "demasiado…)$"
+.string "demasiado…$"
 
 
 RocketHideoutFiveIslanMeadow16::
@@ -161,9 +158,9 @@ end
 RocketHideoutFiveIslandMeadow_Text_17:
 .string "…\n"
 .string "…\l"
-.string "(Contiene un NIDORINO en su\l"
+.string "Contiene un NIDORINO en su\l"
 .string "interior, mejor no tocarla\l"
-.string "demasiado…)$"
+.string "demasiado…$"
 
 
 
@@ -247,9 +244,9 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
     .string "…\n"
 	.string "…\l"
-	.string "(Contiene un NIDORINO en su\l"
+	.string "Contiene un NIDORINO en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado…).$"
+	.string "demasiado…$"
 
 
 
@@ -260,9 +257,9 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
     .string "…\n"
 	.string "…\l"
-	.string "(Contiene un RHYHORN en su\l"
+	.string "Contiene un RHYHORN en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado…).$"
+	.string "demasiado…$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -277,8 +274,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Abajo:     
-    .string "(Todos están en sus puestos, no\n"
-	.string "puedo irme ahora).$"
+    .string "Todos están en sus puestos, no\n"
+	.string "puedo irme ahora.$"
 
 
 
@@ -303,8 +300,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Derecha:     
-    .string "(Todos están en sus puestos, no\n"
-	.string "puedo irme ahora).$"
+    .string "Todos están en sus puestos, no\n"
+	.string "puedo irme ahora.$"
 
 
 Movement_Derecha:
@@ -323,13 +320,21 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Izquierda:     
-    .string "(Todos están en sus puestos, no\n"
-	.string "puedo irme ahora).$"
+    .string "Todos están en sus puestos, no\n"
+	.string "puedo irme ahora.$"
 
 
 
 Movement_Izquierda:
 walk_left
+step_end
+
+RocketHideoutFiveIslandMeadow_Move_1:
+walk_in_place_down
+step_end
+
+RocketHideoutFiveIslandMeadow_Move_2:
+emote_exclamation_mark
 step_end
 
 RocketHideoutFiveIslanMeadowAtlas::     
@@ -348,10 +353,24 @@ applymovement 5, Move3
 applymovement 1, Move4
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas4, MSGBOX_NPC
+delay 10
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas5, MSGBOX_NPC
+playse SE_PIN
+applymovement 5, RocketHideoutFiveIslandMeadow_Move_2
+waitmovement 0x0
+waitse
+delay 15
 applymovement 1, Move5
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas6, MSGBOX_NPC
+delay 10
+applymovement 1, RocketHideoutFiveIslandMeadow_Move_1
+waitmovement 0x0
+playse SE_BREAKABLE_DOOR
+waitse
+delay 10
+msgbox RocketHideoutFiveIslandMeadow_Text_Atlas6.1, MSGBOX_NPC
+delay 10
 applymovement 1, Move6
 waitmovement 0x0
 applymovement 23, Move7
@@ -371,21 +390,51 @@ msgbox RocketHideoutFiveIslandMeadow_Text_Atlas7, MSGBOX_NPC
 applymovement 1, Move10
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas8, MSGBOX_NPC
-applymovement 0x1, Move11
+delay 10
+applymovement 1, Move11.1
 waitmovement 0x0
+delay 10
+msgbox RocketHideoutFiveIslandMeadow_Text_Atlas8.1, MSGBOX_NPC
+delay 10
+applymovement 1, Move11.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideoutFiveIslandMeadow_Text_Atlas8.2, MSGBOX_NPC
+playse SE_BREAKABLE_DOOR
+delay 10
+applymovement 1, Move11.3
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideoutFiveIslandMeadow_Text_Atlas8.3, MSGBOX_NPC
+delay 10
+applymovement 1, Move11
+waitmovement 0x0
+delay 10
 playse SE_EXIT
 applymovement 23, Move12
 applymovement 22, Move12
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas9, MSGBOX_NPC
+delay 15
+applymovement 1, Move11.3
+waitmovement 0x0
+msgbox RocketHideoutFiveIslandMeadow_Text_Atlas9.1, MSGBOX_NPC
+delay 15
 waitmovement 0x0
 applymovement 13, Move13
+waitmovement 0x0
+applymovement 1, Move11.3
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas10, MSGBOX_NPC
 applymovement 12, Move14
 waitmovement 0x0
+applymovement 1, Move11.3
+waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas11, MSGBOX_NPC
 applymovement 10, Move15
+waitmovement 0x0
+applymovement 1, Move11.3
 waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas12, MSGBOX_NPC
 applymovement OBJ_EVENT_ID_PLAYER, Move16
@@ -415,9 +464,9 @@ RocketHideoutFiveIslandMeadow_Text_Atlas2:
     .string "Para quién aún no se haya\n"
 	.string "enterado, ahora formáis parte del\l"
 	.string "TEAM ROCKET, con todo lo que ello\l"
-	.string "conlleva, yo soy ATLAS, la mano\l"
-	.string "derecha de GIOVANNI, el\l"
-	.string "ADMINISTRADOR principal y LÍDER\l"
+	.string "conlleva.\l"
+	.string "Soy ATLAS, mano derecha de GIOVANNI,\l"
+	.string "ADMIN.JEFE principal y LÍDER\l"
 	.string "aquí en ISLAS SETE{PAUSE 5}…{PAUSE 5}$"
 
 
@@ -427,12 +476,12 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
 	.string "trasladados inmediatamente a\l"
 	.string "KANTO, no esperéis un trato\l"
 	.string "amigable por parte de sus\l"
-	.string "ciudadanos, seréis vistos como la\l"
+	.string "ciudadanos; seréis vistos como la\l"
 	.string "mayor escoria de la región.\l"
 	.string "Entretanto, pasemos a la entrega\l"
 	.string "de vuestros POKÉMON, pertenecéis\l"
 	.string "al 4to pelotón, por lo que cada\l"
-	.string "uno de vosotros recibirá un ZUBAT\l"
+	.string "uno de vosotros recibirá un ZUBAT,\l"
 	.string "importado directamente desde el\l"
 	.string "MT.MOON.\l"
 	.string "¿Alguna pregunta?$"
@@ -460,17 +509,18 @@ RocketHideoutFiveIslandMeadow_Text_Atlas5:
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6:
-    .string "ATLAS: Esto es lo que haremos, ya\n"
+    .string "ATLAS: Esto es lo que haremos: ya\n"
 	.string "que has prejuzgado las decisiones\l"
-	.string "de nuestro LÍDER GIOVANNI, y no\l"
-	.string "estás conforme para con la\l"
-	.string "política hacia los nuevos\l"
+	.string "de GIOVANNI, y no estás conforme\l"
+	.string "para con la política hacia nuevos\l"
 	.string "reclutas, no hay ningún motivo\l"
 	.string "para que sigas perteneciendo a\l"
 	.string "nuestra organización{PAUSE 25}…{PAUSE 25}\l"
 	.string "Espero por tu bien que no digas\l"
 	.string "una sola palabra de lo que aquí\l"
-	.string "hayas podido ver.\l"
+	.string "hayas podido ver.$"
+
+RocketHideoutFiveIslandMeadow_Text_Atlas6.1:
 	.string "¡¡GUARDIAS!!\l"
 	.string "¡Lleváoslo fuera de la BASE!$"
 
@@ -488,19 +538,24 @@ RocketHideoutFiveIslandMeadow_Text_Atlas8:
     .string "Un ZUBAT, aunque muchos lo\n"
 	.string "consideréis inútil, puede\l"
 	.string "convertirse en uno de los mejores\l"
-	.string "POKÉMON si lo cuidáis, un GOLBAT\l"
-	.string "es un POKÉMON digno de todo un\l"
-	.string "ADMINISTRADOR ROCKET, que la\l"
+	.string "POKÉMON si lo cuidáis.$"
+	
+RocketHideoutFiveIslandMeadow_Text_Atlas8.1:
+	.string "GOLBAT es ya un POKÉMON digno\n"
+	.string "de todo un ADMIN.ROCKET; la\l"
 	.string "mismísima miembro de la ÉLITE 4,\l"
-	.string "AGATHA, tiene en sus filas, un\l"
-	.string "CROBAT es ya uno de los 5 mejores\l"
-	.string "POKÉMON tipo veneno que existen{PAUSE 25}…{PAUSE 25}\l"
+	.string "AGATHA, lo tiene en sus filas.$"
+	
+RocketHideoutFiveIslandMeadow_Text_Atlas8.2:
+	.string "CROBAT es ya uno de los 5 mejores\n"
+	.string "POKÉMON TIPO VENENO que existen{PAUSE 25}…{PAUSE 25}\l"
 	.string "Ágil como un AERODACTYL,\l"
-	.string "resistente y letal con su BOMBA\l"
-	.string "LODO, ¿y váis a rechazar esa\l"
-	.string "oportunidad por tener que pasar\l"
-	.string "por el proceso de entrenar a un\l"
-	.string "ZUBAT antes?$"
+	.string "resistente pero también letal.$"
+
+RocketHideoutFiveIslandMeadow_Text_Atlas8.3:
+	.string "¿Y váis a rechazar esa oportunidad\n"
+	.string "solo por tener que pasar por el\l"
+	.string "proceso de entrenar a un ZUBAT?$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas9:
@@ -510,10 +565,12 @@ RocketHideoutFiveIslandMeadow_Text_Atlas9:
 	.string "herramientas, esa es la voluntad\l"
 	.string "de GIOVANNI, que aprendáis a\l"
 	.string "escalar comenzando desde lo más\l"
-	.string "bajo, comencemos con la entrega de\l"
-	.string "vuestros iniciales.\l"
-	.string "¡¡RECLUTA NÚMERO 1!!$"
+	.string "bajo.\l"
+	.string "Comencemos con la\l"
+	.string "entrega de iniciales.$"
 
+RocketHideoutFiveIslandMeadow_Text_Atlas9.1:
+    .string "ATLAS: ¡¡RECLUTA NÚMERO 2!!$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas10:
@@ -529,17 +586,30 @@ RocketHideoutFiveIslandMeadow_Text_Atlas12:
     .string "ATLAS: ¡¡RECLUTA NÚMERO 4!!$"
 
 Move1:
-walk_up
-walk_up
-walk_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+delay_16
+delay_8
 face_left
+delay_16
+delay_8
 face_right
+delay_16
+delay_8
 face_down
+delay_16
+delay_8
+walk_in_place_down
 step_end
 
 Move2:
-walk_right
-walk_up
+walk_slow_right
+delay_16
+delay_8
+walk_slow_up
+delay_16
+delay_8
 walk_in_place_slow_down
 step_end
 
@@ -548,7 +618,9 @@ walk_in_place_slow_down
 step_end
 
 Move4:
+delay_16
 walk_in_place_up
+delay_8
 step_end
 
 Move5:
@@ -615,28 +687,39 @@ walk_slow_left
 walk_slow_left
 walk_slow_down
 face_left
-delay_1
-delay_2
-delay_4
+delay_16
 face_right
-delay_1
-delay_2
-delay_4
+delay_16
 walk_in_place_down
+delay_16
 step_end
 
+Move11.1:
+walk_slow_down
+delay_8
+walk_slow_right
+delay_8
+walk_slow_down
+step_end
 
+Move11.2:
+delay_16
+face_left
+delay_16
+delay_8
+walk_slow_down
+walk_slow_down
+delay_16
+face_right
+delay_16
+face_up
+step_end
+
+Move11.3:
+walk_in_place_up
+step_end
 
 Move11:
-walk_slow_down
-walk_slow_right
-walk_slow_down
-face_left
-delay_1
-delay_2
-delay_4
-walk_down
-walk_down
 walk_right
 walk_right
 face_up
@@ -820,6 +903,11 @@ MoveArriba:
 face_up
 step_end
 
+MovePostZubat8.1:
+delay_16
+face_right
+step_end
+
 
 RocketHideoutFiveIslanMeadowZubat::     
 lock        
@@ -877,6 +965,14 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	applymovement 1, MovePostZubat3
     waitmovement 0x0
 	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat3 MSGBOX_NPC
+	delay 15
+	playse SE_BREAKABLE_DOOR
+	applymovement 1, Move17
+	waitmovement 0x0
+	waitse
+	delay 10
+	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat3.1 MSGBOX_NPC
+	delay 5
 	applymovement 3 MovePostZubat4
     applymovement 8 MovePostZubat4
     applymovement 7 MovePostZubat4
@@ -919,6 +1015,8 @@ RocketHideoutFiveIslanMeadowPostZubat::
     playse SE_EXIT
     delay 20
 	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat4 MSGBOX_NPC
+	delay 15
+	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat4.1 MSGBOX_NPC
 	applymovement 1, MovePostZubat7
     waitmovement 0x0
 	playse SE_EXIT
@@ -940,15 +1038,22 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	fadescreen 0
 	delay 20
     applymovement 13, MovePostZubat8
-	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat5 MSGBOX_NPC
+	waitmovement 0x0
+	applymovement OBJ_EVENT_ID_PLAYER, MovePostZubat8.1
+	applymovement 12, MovePostZubat8.1
+	applymovement 10, MovePostZubat8.1
+	waitmovement 0x0
+	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat5 MSGBOX_AUTOCLOSE
 	applymovement 10, MovePostZubat9
-	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat6 MSGBOX_NPC
+	waitmovement 0x0
+	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat6 MSGBOX_AUTOCLOSE
 	fadescreen 1
 	removeobject 13
 	removeobject 10
 	removeobject 12
 	delay 40
 	fadescreen 0
+	setflag FLAG_SYS_B_DASH
 	setflag FLAG_SYS_POKEMON_GET
 	release
 	end
@@ -973,19 +1078,17 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat2:
     .string "Bien, ahora que todos contáis con\n"
 	.string "un POKÉMON, procedamos a explicar\l"
 	.string "cual será vuestra función en\l"
-	.string "nuestra organización, y seré\l"
-	.string "breve, básicamente seréis los que\l"
-	.string "tengan que hacer el trabajo sucio:\l"
+	.string "nuestra organización.\l"
+	.string "Seré breve, básicamente estáis\l"
+	.string "aquí para hacer el trabajo sucio:\l"
 	.string "extorsión, robo, ajustes de\l"
-	.string "cuentas, limpiaréis el terreno y\l"
+	.string "cuentas; limpiaréis el terreno y\l"
 	.string "obtendréis todo el dinero en negro\l"
-	.string "posible para el TEAM ROCKET,\l"
-	.string "colaborando en la financiación de\l"
-	.string "sus proyectos. Hasta que no\l"
-	.string "demostréis lo contrario, para mí\l"
-	.string "y el resto del mundo sois lo más\l"
-	.string "bajo posible, si sois competentes\l"
-	.string "y hacéis bien vuestro trabajo poco\l"
+	.string "posible.\l"
+	.string "Ahora mismo, para mí y el resto del\l"
+	.string "mundo sois lo más bajo posible.\l"
+	.string "Si sois competentes, vais mejorando\l"
+	.string "y hacéis bien vuestro trabajo, poco\l"
 	.string "a poco os ganaréis el respeto, las\l"
 	.string "recompensas y los galones, no\l"
 	.string "antes.$"
@@ -993,22 +1096,26 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat2:
 RocketHideoutFiveIslanMeadow_Text_PostZubat3:
     .string "Reclutas del 5 al 13, las dos\n"
 	.string "últimas filas, seréis trasladados\l"
-	.string "inmediatamente a KANTO, ahora\l"
-	.string "mismo hay un barco en el puerto de\l"
+	.string "inmediatamente a KANTO.\l"
+	.string "Hay un barco en el puerto de\l"
 	.string "ISLA INTA esperando, preparad\l"
-	.string "vuestras cosas, zarpáis en 1H.\l"
+	.string "vuestras cosas, zarpáis en 1H.$"
+
+RocketHideoutFiveIslanMeadow_Text_PostZubat3.1:
 	.string "¡Ahora fuera mi vista!$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat4:
-    .string "Bien, quedáis vosotros 4, es\n"
-	.string "tradición mantener algunos de los\l"
-	.string "soldados que exportamos a Kanto\l"
-	.string "desde ISLA INTA, al menos por un\l"
-	.string "corto período de tiempo, y estáis\l"
+    .string "Bien, quedáis vosotros 4.\n"
+	.string "Es tradición mantener varios de\l"
+	.string "los nuevos ROCKET que exportamos a\l"
+	.string "KANTO desde ISLA INTA, al menos para\l"
+	.string "hacer trabajos aquí; y estáis\l"
 	.string "de suerte, así retrasaréis el\l"
 	.string "presenciar el circo en el que se\l"
-	.string "ha convertido la región.\l"
-	.string "Pasaos por mi despacho y os daré\l"
+	.string "ha convertido esa región.$"
+
+RocketHideoutFiveIslanMeadow_Text_PostZubat4.1:
+	.string "Pasaos por mi despacho y os daré\n"
 	.string "detalles de vuestra misión,\l"
 	.string "mientras, estrenad vuestros\l"
 	.string "POKÉMON, los reclutas del ALMACÉN\l"
@@ -1029,17 +1136,15 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat5:
 
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat6:
-	.string "RECLUTA 3: Dudo mucho que viva,\n"
-	.string "aunque no haya visto mucho, ha\l"
-	.string "visto lo suficiente como para no\l"
-	.string "correr el riesgo, en cuanto\l"
-	.string "nosotros, como ha dicho ATLAS,\l"
-	.string "ahora somos del TEAM ROCKET, más\l"
+	.string "RECLUTA 3: Dudo mucho que viva.\n"
+	.string "Ha visto lo suficiente como para\l"
+	.string "no correr el riesgo.\l"
+	.string "En cuanto nosotros, como ha dicho,\l"
+	.string "ATLAS, ahora somos del TEAM ROCKET, más\l"
 	.string "vale que vayamos pronto a su\l"
-	.string "despacho y ver que quiere\l"
-	.string "exactamente de nosotros, en esta\l"
-	.string "isla no hay muchas cosas por hacer\l"
-	.string "precisamente.$"
+	.string "despacho.\l"
+	.string "En esta isla no hay muchas\l"
+	.string "cosas por hacer, precisamente.$"
 
 
 
@@ -1049,8 +1154,8 @@ RocketHideoutFiveIslanMeadowCajaZubat::
    end
 
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
-    .string "(Esta fue la caja de la que provino mi\n"
-	.string "primer POKÉMON).$"
+    .string "Esta fue la caja de la que\n"
+	.string "provino mi primer POKÉMON.$"
 
 
 MovePostZubat1:
@@ -1134,12 +1239,14 @@ step_end
 
 MovePostZubat8:
 face_left
-delay_1
-walk_in_place_slow_left
+delay_16
+walk_in_place_left
 step_end
 
 MovePostZubat9:
-face_right
+delay_16
+walk_in_place_right
+delay_16
 step_end
 
 MovePostZubat2.1:

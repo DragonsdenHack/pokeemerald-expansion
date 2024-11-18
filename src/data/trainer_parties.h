@@ -4,14 +4,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_Sawyer1[] = {
     .lvl = 9,
     .species = SPECIES_MEOWTH,
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_POUND, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_TAUNT, MOVE_CUT, MOVE_NONE, MOVE_NONE}
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Andra1[] = {
     {
     .iv = 10,
-    .lvl = 8,
+    .lvl = 7,
     .species = SPECIES_ZUBAT,
     }
 };

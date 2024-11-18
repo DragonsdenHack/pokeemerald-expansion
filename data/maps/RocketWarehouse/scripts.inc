@@ -458,15 +458,14 @@ end
 
 
 RocketWarehouseSoldado_Text_Soldado1:
-.string "No tan rápido, ATLAS me ha pedido\n"
-	.string "expresamente que me encargue de los\l"
-	.string "4 RECLUTAS novatos, solo\l"
-	.string "venciéndome te ganarás el derecho\l"
-	.string "de competir por una misión\l"
-	.string "exclusiva, de momento 2 de los 3\l"
-	.string "RECLUTAS ya han perdido esa\l"
-	.string "oportunidad puesto que les he\l"
-	.string "vencido.\l"
+.string "No tan rápido.\n"
+	.string "ATLAS me ha pedido expresamente\l"
+	.string "que me encargue de los 4 RECLUTAS\l"
+	.string "novatos, solo venciéndome podrás\l"
+	.string "acceder a una misión exclusiva.\l"
+	.string "De momento, 2 de los 3 ROCKET ya\l"
+	.string "han perdido esa oportunidad,\l"
+	.string "puesto que les he vencido.\l"
 	.string "¡Tú eres el último por examinar!$"
 
 
@@ -536,8 +535,11 @@ waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas6 MSGBOX_AUTOCLOSE
 lock
 faceplayer
-applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
+delay 10
 applymovement 17, RocketWarehouseMisionAtlasmove7
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
 waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_1, RocketWarehouse_Text_MisionAtlas8
@@ -578,14 +580,18 @@ msgbox RocketWarehouse_Text_MisionAtlas12 MSGBOX_AUTOCLOSE
 applymovement 17, RocketWarehouseMisionAtlasmove10
 waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas13 MSGBOX_AUTOCLOSE
+applymovement 17, RocketWarehouseMisionAtlasmove7.1
+waitmovement 0x0
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
-applymovement 17, RocketWarehouseMisionAtlasmove7
+waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas14 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8.1
+applymovement 17, RocketWarehouseMisionAtlasmove7.2
+waitmovement 0x0
 setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
-fadescreen 1
 delay 30
 removeobject 17
-fadescreen 0
 setflag FLAG_HIDE_ROUTE_101_BIRCH
 setflag FLAG_HIDE_ROUTE_103_BIRCH
 setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2
@@ -597,6 +603,26 @@ clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 setvar VAR_UNUSED_0x40F7, 4
 release
 end
+
+RocketWarehouseMisionAtlasmove7.2:
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+RocketWarehouseMisionAtlasmove8.1:
+delay_16
+face_left
+delay_16
+delay_8
+face_down
+step_end
 
 RocketWarehouseMisionAtlasmove9.5:
 walk_in_place_left
@@ -623,9 +649,9 @@ RocketWarehouse_Text_MisionAtlas1:
 	.string "esperamos a nadie más, seréis\l"
 	.string "vosotros dos los que tendréis la\l"
 	.string "oportunidad de comenzar con buen\l"
-	.string "pie en esta organización, os daré\l"
-	.string "los detalles de vuestra misión,\l"
-	.string "escuchad.$"
+	.string "pie en esta organización.\l"
+	.string "Os daré los detalles de\l"
+	.string "vuestra misión, escuchad.$"
 
 RocketWarehouse_Text_MisionAtlas2:
 .string "Al norte de esta isla, en la ZONA\n"
@@ -649,46 +675,39 @@ RocketWarehouse_Text_MisionAtlas3:
 	.string "y tenemos indicios de que pueda en\l"
 	.string "cualquier momento informar a las\l"
 	.string "autoridades de KANTO de nuestros\l"
-	.string "movimientos en las ISLAS SETE, lo\l"
-	.string "que disminuiría mucho la\l"
-	.string "rentabilidad de nuestro negocio\l"
-	.string "aquí.$"
+	.string "movimientos en las ISLAS SETE.\l"
+	.string "De ser así, reduciría mucho la\l"
+	.string "rentabilidad del negocio.$"
 
 RocketWarehouse_Text_MisionAtlas4:
-.string "Vuestra misión es clara, ir allí y\n"
+.string "Vuestra misión es clara: ir allí y\n"
 	.string "hacerle recordar gracias a quién\l"
-	.string "está donde actualmente está, es\l"
-	.string "decir nosotros.\l"
-	.string "Hacedle ver que tiene nuestro\l"
-	.string "apoyo, ofrecedle ser accionista de\l"
-	.string "nuestra empresa, debido a su\l"
-	.string "posición dejadle claro que\l"
+	.string "está donde actualmente está.\l"
+	.string "Dejadle claro que tiene nuestro\l"
+	.string "apoyo, y que mientras este\l"
+	.string "ALMACÉN siga en ISLA INTA,\l"
 	.string "dispondrá de una serie de\l"
-	.string "privilegios y ofertas\l"
-	.string "especiales.$"
+	.string "privilegios y protección.$"
 
 RocketWarehouse_Text_MisionAtlas5:
-.string "Si aún así se niega, y deja claro\n"
+.string "Si aún así se niega, y da a entender\n"
 	.string "que dará el chivatazo a las\l"
-	.string "autoridades de nuestros\l"
-	.string "movimientos, no le déis cuartel,\l"
-	.string "nadie amenaza al TEAM ROCKET, en\l"
+	.string "autoridades, no le déis cuartel.\l"
+	.string "Nadie amenaza al TEAM ROCKET, en\l"
 	.string "ese caso deberéis silenciarla\l"
-	.string "derrotándola en un combate, acabad\l"
-	.string "con todos sus POKÉMON TIPO AGUA\l"
-	.string "para evitar que huya usando SURF,\l"
-	.string "una vez hecho eso, nosotros nos\l"
-	.string "encargaremos del resto.$"
+	.string "derrotándola en un combate.\l"
+	.string "Debéis derrotar todos sus POKÉMON,\l"
+	.string "para evitar que huya usando SURF.\l"
+	.string "Del resto, otros\l"
+	.string "ROCKET se encargarán.$"
 
 RocketWarehouse_Text_MisionAtlas6:
-.string "Suficiente charla, antes de daros\n"
-	.string "las herramientas para afrontar la\l"
-	.string "misión, quiero veros combatir aquí\l"
-	.string "y ahora, debo asegurarme en\l"
-	.string "persona de que cumplís un nivel\l"
-	.string "mínimo de competencia.\l"
-	.string "¡Mostradme lo que habéis\l"
-	.string "aprendido!$"
+.string "Explicado esto, ahora quiero ver\n"
+.string "cómo combatís; debo asegurarme en\l"
+.string "persona de que cumplís un nivel\l"
+.string "mínimo de competencia.\l"
+	.string "¡Mostradme lo que\l"
+	.string "habéis aprendido!$"
 
 RocketWarehouse_Text_MisionAtlas7:
 .string "Ya he derrotado a los otros dos\n"
@@ -707,12 +726,11 @@ RocketWarehouse_Text_MisionAtlas9:
 	.string "condiciones?$"
 
 RocketWarehouse_Text_MisionAtlas10:
-.string "Suficiente, espero que entrenéis\n"
-	.string "más por los alrededores, os\l"
-	.string "vendría bien otro POKÉMON aparte\l"
-	.string "de ZUBAT si queréis ser\l"
-	.string "competentes. Os informo de que por\l"
-	.string "el prado podréis encontrar\l"
+.string "Suficiente.\n"
+	.string "Os vendría bien otro POKÉMON,\l"
+	.string "aparte de ZUBAT, si queréis ser\l"
+	.string "competentes.\l"
+	.string "En el PRADO podréis encontrar\l"
 	.string "MEOWTH, PIDGEY, RATTATA, SENTRET e\l"
 	.string "incluso VULPIX o PSYDUCK si sabéis\l"
 	.string "buscar, y es aquí donde viene la\l"
@@ -749,31 +767,29 @@ RocketWarehouse_Text_MisionAtlas10_4:
 RocketWarehouse_Text_MisionAtlas10_5:
 .string "Al TEAM ROCKET, como organización que\n"
 	.string "pretende seguir vigente, no le queda\l"
-	.string "más remedio que ceder. Si la gente\l"
-	.string "juzga un libro por su portada, no habrá\l"
-	.string "más remedio que colorearla, aunque sea\l"
-	.string "un poco. Tal vez así aquellos que solo\l"
-	.string "aspiran a alargar la vista, puedan\l"
-	.string "adentrarse en la superficie.$"
+	.string "más remedio que ceder.\l"
+	.string "Así, aquellos que solo aspiran\l"
+	.string "a alargar la vista, tal vez puedan\l"
+	.string "ir más allá.$"
 
 RocketWarehouse_Text_MisionAtlas10_6:
-.string "Dicho esto, aquí tenéis vuestros\n"
-	.string "SENTRET.$"
+.string "Dicho esto, aquí\n"
+	.string "tenéis vuestros SENTRET.$"
 
 RocketWarehouse_Text_MisionAtlas11:
 	.string "No debéis preocuparos por tener\n"
-	.string "problemas al usar SURF, somos del\l"
-	.string "TEAM ROCKET, no estamos sujetos a\l"
-	.string "ese estúpido código de tener\l"
+	.string "problemas al usar SURF; somos del\l"
+	.string "TEAM ROCKET y no estamos sujetos a\l"
+	.string "ese estúpido código de necesitar\l"
 	.string "determinadas medallas para usar\l"
 	.string "MOs, las usaréis cuando lo\l"
 	.string "requiráis y punto.$"
 
 RocketWarehouse_Text_MisionAtlas12:
-.string "Ya no tengo nada más que deciros,\n"
-	.string "volved aquí cuando hayáis cumplido\l"
+.string "Eso es todo.\n"
+	.string "Volved cuando hayáis cumplido\l"
 	.string "la misión y recordad: las\l"
-	.string "oportunidades hay que cogerlas en el\l"
+	.string "oportunidades hay que tomarlas en el\l"
 	.string "momento o perderlas para siempre.\l"
 	.string "Podéis retiraros.$"
 
@@ -819,6 +835,10 @@ step_end
 
 RocketWarehouseMisionAtlasmove7:
 face_down
+step_end
+
+RocketWarehouseMisionAtlasmove7.1:
+walk_in_place_down
 step_end
 
 RocketWarehouseMisionAtlasmove8:
@@ -899,10 +919,10 @@ RocketWarehouse_Text_Vuelta_MisionAtlas1:
 	.string "ya sabréis del discurso de\l"
 	.string "entrada, en el TEAM ROCKET sabemos\l"
 	.string "recompensar la meritocracia, damos\l"
-	.string "prioridad al resultado final y\l"
-	.string "debido a que en este caso el\l"
-	.string "balance ha sido positivo, aquí\l"
-	.string "tenéis vuestra recompensa.$"
+	.string "prioridad al resultado final.\l"
+	.string "Dado que en este caso el balance\l"
+	.string "ha sido positivo, esta\l"
+	.string "es vuestra recompensa.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
@@ -968,8 +988,8 @@ RocketWarehouse_Text_Vuelta_MisionAtlas9:
 .string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
 	.string "Has mostrado valor e iniciativa\l"
 	.string "propias al entrar tú sola, y\l"
-	.string "admitido tu error. Por el momento\l"
-	.string "con eso basta, pero que te sirva\l"
+	.string "admitido tu error.\l"
+	.string "Con eso basta, pero que te sirva\l"
 	.string "de ejemplo y experiencia.$"
 
 
@@ -986,7 +1006,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas11:
 	.string "No quiero que os vayáis de esta\l"
 	.string "isla sin ningún recuerdo que os\l"
 	.string "vincule con vuestra pequeña\l"
-	.string "estancia en ella, es probable que\l"
+	.string "estancia en ella. Es probable que\l"
 	.string "volváis en algún momento, pero\l"
 	.string "mientras tanto, cuidad de esto.$"
 

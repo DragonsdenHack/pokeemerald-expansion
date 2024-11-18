@@ -553,6 +553,5 @@ step_end
 
 FileIsleMeadow_Curacion::
 setrespawn HEAL_LOCATION_FIVE_ISLAND
-setflag FLAG_SYS_B_DASH
 release
 end

@@ -746,7 +746,11 @@ PradoInta_EventScript_ItemMaxpocion::
 finditem ITEM_MAX_POTION
 	end
 
-PradoInta_EventScript_ItemTM07::
+PradoInta_EventScript_ItemTM198::
+finditem ITEM_TM198_MUD_SLAP
+	end
+
+CalleVictoria_EventScript_ItemTM07::
 finditem ITEM_TM07_HAIL
 	end
 
