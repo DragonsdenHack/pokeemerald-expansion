@@ -200,22 +200,52 @@ removeobject 12
 release     
 end
 
+VermilionCitySurge_move_2:
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+face_down
+step_end
+
+VermilionCitySurge_move_3:
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+step_end
+
 VermilionCitySurge:: 
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+opendoor 15, 6
+waitdooranim
 addobject 12
+waitse
 playse SE_PIN
+applymovement 12, VerdanturfTown_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
 waitmovement 0x0
+closedoor 15, 6
+waitdooranim
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 fadeoutbgm 0
 playse 507
 delay 20
 msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move_2
+applymovement 12, VermilionCitySurge_move_3
+waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
-fadescreen 1
-delay 20
 removeobject 12
-fadescreen 0
 delay 10
 fadeoutbgm 0
 playse 525
@@ -297,8 +327,11 @@ VermilionCity_Text_Surge:
 
 VermilionCitySurge_move1:
 emote_exclamation_mark
-jump_special_down
 face_up
+delay_8
+lock_facing_direction
+walk_down
+unlock_facing_direction
 step_end
 
 VermilioCity_Motorista::

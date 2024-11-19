@@ -119,6 +119,7 @@ msgbox CeladonCity_Shop5F_Text_Oak_12, MSGBOX_AUTOCLOSE
 applymovement 7, CeladonCity_Shop_5F_Oak_move_2
 waitmovement 0x0
 msgbox CeladonCity_Shop5F_Text_Oak_13, MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_673
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 warp MAP_VERMILION_CITY, 23, 31
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
@@ -195,7 +196,7 @@ CeladonCity_Shop5F_Text_Oak_10:
 
 
 CeladonCity_Shop5F_Text_Oak_11:
-	.string "¿Diga? SR.LANCE. Sí. Inmediatamente.$"
+	.string "¿Diga? {PAUSE 15}… {PAUSE 35}SR.LANCE.{PAUSE 35} Sí.{PAUSE 35} Inmediatamente.{PAUSE 35}$"
 
 
 CeladonCity_Shop5F_Text_Oak_12:

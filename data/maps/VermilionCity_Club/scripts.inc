@@ -110,7 +110,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_1:
 	.string "distinguida con POKÉMON que valgan\l"
 	.string "la pena. Como ese chico que hace\l"
 	.string "no mucho vino aquí con su\l"
-	.string "WARTORTLE, un gran ejemplar, sí…{PAUSE 5}$"
+	.string "SQUIRTLE, un gran ejemplar, sí…{PAUSE 5}$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
 .string "El mundo de los POKÉMON es\n"
@@ -249,9 +249,9 @@ end
 
 VermilionCity_Cuarto_NPC_Texto_1:
 .string "Espero no tener que recurrir a mi\n"
-	.string "SNORLAX ROCKET, a la mínima\l"
-	.string "acabarás aplastado así que cuida\l"
-	.string "tus modales.$"
+	.string "SNORLAX, ROCKET.\l"
+	.string "A la mínima acabarás aplastado,\l"
+	.string "¡así que cuida tus modales!$"
 
 VermilionCity_Cuarto_NPC_Texto_2:
 .string "Vaya, pensaba que nuestro\n"

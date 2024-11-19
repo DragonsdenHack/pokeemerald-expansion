@@ -58,8 +58,8 @@ static const u8 sSwordsDanceDescription[] = _(
     "el Ataque.");
 
 static const u8 sCutDescription[] = _(
-    "Corta con garras,\n"
-    "guadañas, etc.");
+    "Corta con garras, uñas...\n"
+    "50% de bajar la Defensa.");
 
 static const u8 sGustDescription[] = _(
     "Crea un tornado\n"
@@ -992,8 +992,8 @@ static const u8 sFutureSightDescription[] = _(
     "para golpear a los 2 turnos.");
 
 static const u8 sRockSmashDescription[] = _(
-    "Ataque de fuerza brutal\n"
-    "que puede bajar la Defensa.");
+    "Ataque de fuerza brutal.\n"
+    "50% de bajar la Defensa");
 
 static const u8 sWhirlpoolDescription[] = _(
     "Atrapa y daña al rival de 2 a\n"
@@ -1224,12 +1224,12 @@ static const u8 sCrushClawDescription[] = _(
     "puede bajar la Defensa.");
 
 static const u8 sBlastBurnDescription[] = _(
-    "Es muy eficaz, pero\n"
-    "te inmoviliza 1 turno.");
+    "Potente ataque con +1\n"
+    "en el índice de crítico");
 
 static const u8 sHydroCannonDescription[] = _(
-    "Es muy eficaz, pero\n"
-    "te inmoviliza 1 turno.");
+    "Potente ataque con +1\n"
+    "en el índice de crítico");
 
 static const u8 sMeteorMashDescription[] = _(
     "Impacta como un meteorito\n"
@@ -1348,8 +1348,8 @@ static const u8 sDragonClawDescription[] = _(
     "afiladas.");
 
 static const u8 sFrenzyPlantDescription[] = _(
-    "Es eficaz, pero deja\n"
-    "inmóvil al agresor 1 turno.");
+    "Potente ataque con +1\n"
+    "en el índice de crítico");
 
 static const u8 sBulkUpDescription[] = _(
     "Robustece el cuerpo para\n"

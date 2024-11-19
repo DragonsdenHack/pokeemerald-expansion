@@ -20,28 +20,52 @@ ResortGeorgeousDocumento_Text_100:
 	.string "solo se quita las gafas de sol\l"
 	.string "cuando contesta a preguntas.$"
 
+ResortGeorgeous_House1_Consul_move_1.2:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
 
 ResortGeorgeous_House1_Consul::
 lockall
-applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_1.1
-waitmovement 0x0
+delay 35
 applymovement 1, ResortGeorgeous_House1_Consul_move_1
 waitmovement 0x0
 msgbox ResortGeorgeous_House1_Text_Consul_1, MSGBOX_AUTOCLOSE
 applymovement 2, ResortGeorgeous_House1_Consul_move_2
 waitmovement 0x0
 msgbox ResortGeorgeous_House1_Text_Consul_2, MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, ResortGeorgeous_House1_Consul_move_1.2
+waitmovement 0x0
+delay 15
+msgbox ResortGeorgeous_House1_Text_Consul_3, MSGBOX_AUTOCLOSE
+delay 15
 applymovement 1, ResortGeorgeous_House1_Consul_move_1
 waitmovement 0x0
-msgbox ResortGeorgeous_House1_Text_Consul_3, MSGBOX_AUTOCLOSE
+delay 15
+msgbox ResortGeorgeous_House1_Text_Consul_3.1, MSGBOX_AUTOCLOSE
+delay 15
 applymovement 1, ResortGeorgeous_House1_Consul_move_3
 applymovement 2, ResortGeorgeous_House1_Consul_move_4
 waitmovement 0x0
 playse SE_PIN
 applymovement 1, ResortGeorgeous_House1_Consul_move_5
 applymovement 2, ResortGeorgeous_House1_Consul_move_5
+waitse
+delay 10
 msgbox ResortGeorgeous_House1_Text_Consul_4, MSGBOX_AUTOCLOSE
+delay 15
 msgbox ResortGeorgeous_House1_Text_Consul_5, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, ResortGeorgeous_House1_Consul_move_5.1
+waitmovement 0x0
+delay 10
+msgbox ResortGeorgeous_House1_Text_Consul_5.1, MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_6
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_CONSUL, ResortGeorgeous_House1_Text_Consul_6
@@ -62,11 +86,17 @@ applymovement 3, ResortGeorgeous_House1_Consul_move_8
 applymovement 1, ResortGeorgeous_House1_Consul_move_5
 applymovement 2, ResortGeorgeous_House1_Consul_move_5
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_4
+delay 10
+waitmovement 0x0
+playse SE_DOOR
 addobject 4
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_7
 applymovement 4, ResortGeorgeous_House1_Consul_move_9
+waitmovement 0x0
+delay 15
 msgbox ResortGeorgeous_House1_Text_Consul_8, MSGBOX_AUTOCLOSE
+delay 15
 msgbox ResortGeorgeous_House1_Text_Consul_9, MSGBOX_AUTOCLOSE
 applymovement 3, ResortGeorgeous_House1_Consul_move_10
 waitmovement 0x0
@@ -74,7 +104,7 @@ msgbox ResortGeorgeous_House1_Text_Consul_10, MSGBOX_AUTOCLOSE
 applymovement 3, ResortGeorgeous_House1_Consul_move_10
 waitmovement 0x0
 msgbox ResortGeorgeous_House1_Text_Consul_11, MSGBOX_AUTOCLOSE
-playse SE_EXIT
+delay 15
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 clearflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
@@ -84,7 +114,10 @@ removeobject 1
 removeobject 3
 removeobject 4
 addobject 5
-delay 20
+delay 10
+playse SE_EXIT
+waitse
+delay 10
 fadescreen 0
 fadeoutbgm 0
 playse MUS_RG_SEVII_45
@@ -110,20 +143,20 @@ ResortGeorgeous_House1_Text_Consul_1:
 	.string "vuestras condiciones?\l"
 	.string "Ya le dije a ATLAS que no puede\l"
 	.string "competir con las prestaciones que\l"
-	.string "el GOBIERNO DE KANTO me ofrece.$"
+	.string "el GOBIERNO de KANTO me ofrece.$"
 
 ResortGeorgeous_House1_Text_Consul_2:
 .string "ANDRA: Pensaba que teníamos un\n"
 	.string "trato, ¿dónde queda tu lealtad\l"
 	.string "hacia el TEAM ROCKET?\l"
 	.string "Sin nosotros nunca hubieras sido\l"
-	.string "elegida CÓNSUL del lugar, y ahora\l"
-	.string "quieres lastrar el negocio que te\l"
-	.string "dio esta potestad.$"
+	.string "elegida CÓNSUL.\l"
+	.string "¿Y ahora traicionas a aquellos\l"
+	.string "que te dieron esa potestad?$"
 
 ResortGeorgeous_House1_Text_Consul_3:
 .string "CÓNSUL: Exacto, tú lo has dicho,\n"
-	.string "me dio, a día de hoy ya no os\l"
+	.string "me dieron. A día de hoy ya no os\l"
 	.string "necesito y solo sóis un lastre\l"
 	.string "para mis nuevas aspiraciones, si\l"
 	.string "ATLAS de verdad quiere detenerme\l"
@@ -131,8 +164,10 @@ ResortGeorgeous_House1_Text_Consul_3:
 	.string "mísero ROCKET aparte de él podrá\l"
 	.string "detener a mis POKÉMON importados\l"
 	.string "desde los centros de crianza más\l"
-	.string "selectos.\l"
-	.string "Ahora si me disculpas, tengo que\l"
+	.string "selectos.$"
+
+ResortGeorgeous_House1_Text_Consul_3.1:
+	.string "Ahora si me disculpas, tengo que\n"
 	.string "hablar con el representante de\l"
 	.string "KANTO, ¡hohohoho!$"
 
@@ -142,44 +177,45 @@ ResortGeorgeous_House1_Text_Consul_4:
 ResortGeorgeous_House1_Text_Consul_5:
 .string "CÓNSUL: De modo que aún quedaba\n"
 	.string "basura por recoger, acabemos con\l"
-	.string "esto cuanto antes.\l"
-	.string "¡Espero que tu ZUBAT pueda darle\l"
+	.string "esto cuanto antes.$"
+
+ResortGeorgeous_House1_Text_Consul_5.1:
+	.string "¡Espero que tu ZUBAT pueda darle\n"
 	.string "algo más de diversión a mi MAREEP\l"
 	.string "de lo que le dio el ZUBAT de tu\l"
 	.string "compañera!$"
 
 ResortGeorgeous_House1_Text_Consul_6:
-.string "¿Cómo?\n"
-	.string "¿Mis POKÉMON de clase alta\l"
+.string "¿Mis POKÉMON de clase alta\n"
 	.string "perdieron ante un simple ROCKET?$"
 
 ResortGeorgeous_House1_Text_Consul_7:
 .string "Esto no puede estar pasando.\n"
-	.string "¡Tú no puedes interferir en mi\l"
-	.string "carrera!$"
+	.string "¡Tú no puedes interferir\l"
+	.string "en mi carrera!$"
 
 ResortGeorgeous_House1_Text_Consul_8:
-.string "Se acabó el juego CÓNSUL, has\n"
-	.string "mordido a la mano que te dio de\l"
+.string "Se acabó el juego, CÓNSUL.\n"
+	.string "Mordiste la mano que te dio de\l"
 	.string "comer, te creiste la más lista de\l"
 	.string "la clase traicionándonos cuando te\l"
-	.string "convenía y ahora lo pagarás, un\l"
+	.string "convenía y ahora lo pagarás; un\l"
 	.string "período de reflexión en la CUEVA\l"
 	.string "PERDIDA no te vendrá mal.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
-.string "CÓNSUL: {PAUSE 15}…{PAUSE 15}$"
+.string "CÓNSUL: Oh{PAUSE 15}…{PAUSE 15}no{PAUSE 15}…{PAUSE 15}$"
 
 ResortGeorgeous_House1_Text_Consul_10:
 .string "En cuanto a vosotros, podéis estar\n"
-	.string "orgullosos, se os ha dado una\l"
-	.string "oportunidad y habéis cumplido\l"
-	.string "satisfactoriamente, ATLAS estará\l"
+	.string "orgullosos.\l"
+	.string "Habéis cumplido vuestra primera\l"
+	.string "misión como ROCKET, ATLAS estará\l"
 	.string "en el ALMACÉN esperando a daros la\l"
 	.string "enhorabuena.$"
 
 ResortGeorgeous_House1_Text_Consul_11:
-.string "¡¡¡ANDANDO -CÓNSUL-!!!$"
+.string "¡¡¡ANDANDO, 'CÓNSUL'!!!$"
 
 ResortGeorgeous_House1_Text_Consul_12:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}\n"
@@ -204,11 +240,17 @@ walk_down
 step_end
 
 ResortGeorgeous_House1_Consul_move_4:
+delay_8
 face_down
+delay_8
 step_end
 
 ResortGeorgeous_House1_Consul_move_5:
 emote_exclamation_mark
+step_end
+
+ResortGeorgeous_House1_Consul_move_5.1:
+walk_in_place_down
 step_end
 
 ResortGeorgeous_House1_Consul_move_6:
