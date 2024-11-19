@@ -498,7 +498,9 @@ playse SE_PIN
 applymovement 13, MtMoon_3F_Miguel_Rojo_move3
 waitmovement 0
 msgbox MtMoon_3F_Miguel_Rojo_text_11 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 20
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move12
 waitmovement 0
 delay 40
@@ -815,7 +817,8 @@ msgbox MtMoon_3F_Pelea_Frank_texto15 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto16 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto17 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto18 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 20
 applymovement 17, MtMoon_3F_Pelea_Frank_move12
 waitmovement 0

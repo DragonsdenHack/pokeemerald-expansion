@@ -51,24 +51,28 @@ msgbox Route25_BillHouse_Evento_Policia_text_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route25_BillHouse_Evento_Policia_move2
 waitmovement 0x0
+waitse
 msgbox Route25_BillHouse_Evento_Policia_text_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Route25_BillHouse_Evento_Policia_move3
 waitmovement 0x0
+delay 10
 msgbox Route25_BillHouse_Evento_Policia_text_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route25_BillHouse_Evento_Policia_move4
 waitmovement 0x0
+waitse
 msgbox Route25_BillHouse_Evento_Policia_text_4 MSGBOX_AUTOCLOSE
 applymovement 1, Route25_BillHouse_Evento_Policia_move5
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Route25_BillHouse_Evento_Policia_move6
-waitmovement 0x0
 applymovement 1, Route25_BillHouse_Evento_Policia_move7
 waitmovement 0x0
 delay 20
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 playse SE_EXIT
 addobject 5
+delay 10
 applymovement 5, Route25_BillHouse_Evento_Policia_move8
 waitmovement 0x0
 playse SE_PIN
@@ -78,11 +82,13 @@ waitmovement 0x0
 delay 15
 playse SE_EXIT
 addobject 4
+delay 10
 applymovement 4, Route25_BillHouse_Evento_Policia_move10
 waitmovement 0x0
 delay 15
 playse SE_EXIT
 addobject 3
+delay 10
 applymovement 3, Route25_BillHouse_Evento_Policia_move6
 waitmovement 0x0
 delay 10
@@ -90,8 +96,15 @@ applymovement 1, Route25_BillHouse_Evento_Policia_move7
 applymovement OBJ_EVENT_ID_PLAYER, Route25_BillHouse_Evento_Policia_move6
 waitmovement 0x0
 msgbox Route25_BillHouse_Evento_Policia_text_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Route25_BillHouse_Evento_Policia_move10.1
+waitmovement 0x0
+delay 10
+msgbox Route25_BillHouse_Evento_Policia_text_5.1 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 1, Route25_BillHouse_Evento_Policia_move7
 waitmovement 0x0
+waitse
 msgbox Route25_BillHouse_Evento_Policia_text_6 MSGBOX_AUTOCLOSE
 applymovement 1, Route25_BillHouse_Evento_Policia_move11
 waitmovement 0x0
@@ -127,13 +140,20 @@ playse SE_POKENAV_ON
 delay 15
 msgbox Route25_BillHouse_Evento_Policia_text_14 MSGBOX_AUTOCLOSE
 delay 15
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
 applymovement 3, Route25_BillHouse_Evento_Policia_move15
 waitmovement 0x0
 msgbox Route25_BillHouse_Evento_Policia_text_15 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 21
 release
 end
+
+Route25_BillHouse_Evento_Policia_move10.1:
+face_right
+delay_16
+delay_8
+face_down
+step_end
 
 Route25_BillHouse_Evento_Policia_text_1:
 .string "BILL: Esta SILPH. Le dejé claro\n"
@@ -165,8 +185,10 @@ Route25_BillHouse_Evento_Policia_text_5:
 	.string "hecho una oferta por la patente:\l"
 	.string "20.000.000¥, además de licencia\l"
 	.string "para investigar a las AVES\l"
-	.string "LEGENDARIAS.\l"
-	.string "Me sorprende vuestra ingenuidad.\l"
+	.string "LEGENDARIAS.$"
+
+Route25_BillHouse_Evento_Policia_text_5.1:
+	.string "Me sorprende vuestra ingenuidad.\n"
 	.string "¿De verdad pretendíais que un pobre\l"
 	.string "RECLUTA ROCKET robase al gran BILL la\l"
 	.string "propiedad intelectual de uno de\l"

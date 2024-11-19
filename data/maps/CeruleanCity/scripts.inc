@@ -271,8 +271,8 @@ release
 end
 
 CeruleanCity_Text_Abajo_2:
-.string "(PETREL te quiere ya en su\n"
-	.string "despacho, adónde crees que vas).$"
+.string "-PETREL me quiere ya en su\n"
+.string "despacho, debo ir cuanto antes.-$"
 
 CeruleanCity_Nino::
 lock

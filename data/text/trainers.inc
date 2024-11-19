@@ -5319,7 +5319,7 @@ Route24_Text_Chica2PostBattle:
 
 
 Route24_Text_Chico2Intro:
-	.string "No vas a recibir ningún premio\n"
+	.string "No vas a recibir ningún premio,\n"
 	.string "ROCKET. Este reto no es para ti.\l"
 	.string "…\l"
 	.string "…\l"

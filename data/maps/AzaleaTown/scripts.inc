@@ -677,8 +677,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Kabuto:
-.string "(El POKÉMON parece estar cavando un\n"
-	.string "túnel para escapar)$"
+.string "El POKÉMON parece estar cavando un\n"
+	.string "túnel para intentar escapar.$"
 
 AzaleaTownDocumento_Omanyte::
 lock    
@@ -689,9 +689,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Omanyte:
-.string "(Este POKÉMON está extinto en la\n"
+.string "Este POKÉMON está extinto en la\n"
 	.string "actualidad. No parece estar en su\l"
-	.string "hábitat natural)$"
+	.string "hábitat natural.$"
 
 AzaleaTownDocumento_Machoke::
 lock
@@ -703,8 +703,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Machoke:
-.string "(A este MACHOKE le encanta jugar con\n"
-	.string "esas rocas)$"
+.string "A este MACHOKE le encanta jugar con\n"
+	.string "esas rocas.$"
 
 AzaleaTownDocumento_Lapras::
 lock
@@ -716,9 +716,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Lapras:
-.string "(Este LAPRAS no se mueve con mucha\n"
+.string "Este LAPRAS no se mueve con mucha\n"
 	.string "soltura. Puede que este lugar se le\l"
-	.string "quede pequeño)$"
+	.string "quede pequeño.$"
 
 AzaleaTownDocumento_Pidgeot::
 lock
@@ -730,8 +730,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Pidgeot:
-.string "(Es un PIDGEOT. Se ve sano, atlético,\n"
-	.string "fuerte y de apariencia triunfadora)$"
+.string "Es un PIDGEOT. Se ve sano, atlético,\n"
+	.string "fuerte y de apariencia triunfadora.$"
 
 AzaleaTownDocumento_Chansey::
 lock
@@ -751,8 +751,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Chansey:
-.string "(Este CHANSEY parece querer curar a\n"
-	.string "tus POKÉMON)$"
+.string "Este CHANSEY parece querer curar a\n"
+	.string "tus POKÉMON.$"
 
 AzaleaTownDocumento_Text_Chansey_YesNo:
 .string "¿Dejas al CHANSEY curar a tu equipo?$"

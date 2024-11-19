@@ -26,6 +26,10 @@ applymovement 2, BillGarden_House1_Bill_Combate_move5
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move6
 waitmovement 0x0
 msgbox BillGarden_House1_Bill_Combate_Text_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, BillGarden_House1_Bill_Combate_move5.1
+waitmovement 0x0
+msgbox BillGarden_House1_Bill_Combate_Text_5.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BILL_1, Route25_BillHouse_Evento_Policia_text_10
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move7
 waitmovement 0x0
@@ -56,16 +60,16 @@ BillGarden_House1_Bill_Combate_Text_1:
 
 BillGarden_House1_Bill_Combate_Text_2:
 	.string "Debería de haber sido más que\n"
-	.string "suficiente con 3 policías. Tal vez\l"
-	.string "mi error fue no contratar a 20 en\l"
-	.string "lugar de 3.$"
+	.string "suficiente con 3 policías.\l"
+	.string "Tal vez mi error fue no\l"
+	.string "contratar a 20 en lugar de 3.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
 .string "Sea como sea, no tienes salida,\n"
 	.string "aunque consigas derrotarme, toda\l"
 	.string "la policía de CELESTE está de\l"
-	.string "camino, has actuado\l"
-	.string "precipitadamente{PAUSE 5}…{PAUSE 5}$"
+	.string "camino.\l"
+	.string "Has actuado precipitadamente{PAUSE 5}…{PAUSE 5}$"
 
 BillGarden_House1_Bill_Combate_Text_4:
 .string "No obstante, no es muy común ver a\n"
@@ -76,8 +80,10 @@ BillGarden_House1_Bill_Combate_Text_5:
 .string "Ya que vas a pasar mucho tiempo\n"
 	.string "reflexionando entre rejas, al\l"
 	.string "menos te daré el honor de combatir\l"
-	.string "conmigo, siéntete afortunado.\l"
-	.string "¡No todos los días tiene uno la\l"
+	.string "conmigo, siéntete afortunado.$"
+
+BillGarden_House1_Bill_Combate_Text_5.1:
+	.string "¡No todos los días tiene uno la\n"
 	.string "suerte de presenciar la gran\l"
 	.string "colección de BILL, el POKEMANÍACO\l"
 	.string "número 1!$"
@@ -86,26 +92,26 @@ BillGarden_House1_Bill_Combate_Text_6:
 .string "Esto debe de ser una broma.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-.string "({PLAYER} robó la patente).$"
+.string "{PLAYER} robó la patente.$"
 
 BillGarden_House1_Bill_Combate_Text_8:
 .string "POLICÍA CELESTE: SR.BILL, le\n"
 	.string "informamos de que tenemos\l"
 	.string "completamente rodeada la caseta de\l"
-	.string "su jardín secreto. Ese ROCKET\l"
-	.string "no tiene escapatoria.$"
+	.string "su jardín secreto.\l"
+	.string "Ese ROCKET no tiene escapatoria.$"
 
 BillGarden_House1_Bill_Combate_Text_9:
-.string "BILL: Perfecto. Aseguráos de\n"
-	.string "quitarle la patente antes de\l"
-	.string "llevároslo.$"
+.string "BILL: Perfecto.\n"
+	.string "Aseguráos de arrancarle la patente\l"
+	.string "antes de llevarlo preso.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-.string "Se acabó. Haz lo que quieras. Tu\n"
-	.string "única opción es salir y\l"
+.string "Se acabó. Haz lo que quieras.\n"
+	.string "Tu única opción es salir y\l"
 	.string "entregarte. Disfruta de tus\l"
-	.string "últimos momentos con la patente en\l"
-	.string "tu poder.$"
+	.string "últimos momentos con la\l"
+	.string "patente en tu poder.$"
 
 BillGarden_House1_Bill_Combate_move1:
 walk_in_place_up
@@ -127,6 +133,10 @@ step_end
 BillGarden_House1_Bill_Combate_move5:
 walk_right
 walk_down
+walk_in_place_right
+step_end
+
+BillGarden_House1_Bill_Combate_move5.1:
 walk_in_place_right
 step_end
 

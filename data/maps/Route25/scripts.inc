@@ -147,9 +147,9 @@ release
 end
 
 Route25_Casa_Bill_Text_Abajo:     
-    .string "(Después de todo lo que paso aquí\n"
+    .string "-Después de todo lo que paso aquí\n"
 	.string "más vale no volver a tentar a la\l"
-	.string "suerte).$"
+	.string "suerte.-$"
 
 
 Route25_Casa_Bill_AbajoMove1:

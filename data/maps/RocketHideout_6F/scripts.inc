@@ -709,6 +709,8 @@ applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3
 waitmovement 0x0
 showmoneybox 0, 0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_7, MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_7.1, MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move5
 waitmovement 0x0
 delay 10
@@ -728,12 +730,24 @@ msgbox RocketHideout_6F_Petrel_Text_Mision_2_2, MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_10, MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3.1
+waitmovement 0x0
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_10.1, MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_11, MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_11.1, MSGBOX_AUTOCLOSE
+delay 15
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_12, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4.1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_12.1, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
 waitmovement 0x0
@@ -744,6 +758,20 @@ setvar VAR_UNUSED_0x40F7, 19
 setvar VAR_UNUSED_0x40FC, 2
 release
 end
+
+RocketHideout_6F_Petrel_Mision_2_move4.1:
+delay_8
+face_up
+delay_8
+step_end
+
+RocketHideout_6F_Petrel_Mision_2_move3.1:
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
 
 RocketHideout_6F_Petrel_Text_Mision_2_1:
 .string "PETREL: RECLUTA {PLAYER}, tu\n"
@@ -801,8 +829,10 @@ RocketHideout_6F_Petrel_Text_Mision_2_7:
 	.string "En el mercado negro, el valor\l"
 	.string "estimado de los FÓSILES perdidos\l"
 	.string "es mayor que todo lo que has aportado\l"
-	.string "al TEAM ROCKET hasta ahora.\l"
-	.string "Por ello, para enmendar esas\l"
+	.string "al TEAM ROCKET hasta ahora.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_7.1:
+	.string "Por ello, para enmendar esas\n"
 	.string "ganancias potenciales, abonarás\l"
 	.string "al TEAM ROCKET todo el dinero\l"
 	.string "físico del que dispones.\l"
@@ -830,8 +860,10 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 	.string "Se hace más y más difícil y caro\l"
 	.string "sobornar a los marineros para\l"
 	.string "importar nuestras mercancías y\l"
-	.string "reclutas desde ISLA INTA.\l"
-	.string "Tu intervención silenciando a la\l"
+	.string "reclutas desde ISLA INTA.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_10.1:
+	.string "Tu intervención silenciando a la\n"
 	.string "CÓNSUL frenó esto, pero es cuestión\l"
 	.string "de tiempo que nos corten el\l"
 	.string "chiringito{PAUSE 5}…{PAUSE 5}$"
@@ -843,8 +875,10 @@ RocketHideout_6F_Petrel_Text_Mision_2_11:
 	.string "a los POKÉMON como cromos\l"
 	.string "coleccionables, ha desarrollado un\l"
 	.string "sistema de teletransporte capaz de\l"
-	.string "cubrir grandes distancias.\l"
-	.string "Tu misión será hacerle una visita,\l"
+	.string "cubrir grandes distancias.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_11.1:
+	.string "Tu misión será hacerle una visita,\n"
 	.string "en su casa al norte de CIUDAD\l"
 	.string "CELESTE. Vive al final de RUTA 25,\l"
 	.string "allí te harás con la patente o toda\l"
@@ -856,8 +890,10 @@ RocketHideout_6F_Petrel_Text_Mision_2_12:
 	.string "información útil, nuestros\l"
 	.string "científicos podrán desarrollar\l"
 	.string "puntos de conexión a larga distancia\l"
-	.string "entre ISLA INTA y KANTO.\l"
-	.string "Ello nos ahorraría millones, y\l"
+	.string "entre ISLA INTA y KANTO.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_12.1:
+	.string "Ello nos ahorraría millones, y\n"
 	.string "dejaríamos de depender de otros.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_13:
