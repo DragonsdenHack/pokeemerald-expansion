@@ -147,13 +147,13 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_10:
 .string "¡Bien!\n"
-	.string "Mira ROCKET, hace poco pasó por\l"
+	.string "Mira, ROCKET, hace poco pasó por\l"
 	.string "aquí un DOMADOR, y adquirió mi\l"
 	.string "CAÑA VIEJA esperando poder atrapar\l"
-	.string "a un KINGLER para su espectáculo,\l"
-	.string "pero cuando vio que solo servía\l"
-	.string "para capturar MAGIKARP, empezó a\l"
-	.string "difamarme diciendo que mi CAÑA\l"
+	.string "a un KINGLER para su espectáculo.\l"
+	.string "Cuando vio que solo servía para\l"
+	.string "capturar MAGIKARP, me empezó a\l"
+	.string "difamar, diciendo que mi CAÑA\l"
 	.string "VIEJA no servía para nada, y era\l"
 	.string "una estafa.$"
 
@@ -176,7 +176,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_12:
 	.string "PESCADOR de CIUDAD CARMÍN, con eso\l"
 	.string "debería de ser suficiente para que\l"
 	.string "deje de decir sandeces sobre mi\l"
-	.string "CAÑA VIEJA, déjale claro que el\l"
+	.string "CAÑA VIEJA. Déjale claro que el\l"
 	.string "TEAM ROCKET no avisa dos veces, y\l"
 	.string "a la próxima le arruinaréis el\l"
 	.string "negocio o algo por el estilo.\l"

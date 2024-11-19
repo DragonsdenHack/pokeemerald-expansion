@@ -395,7 +395,7 @@ SsAnne_8F_Capitan_Text_26:
 	.string "¡ATAQUE ALA!$"
 
 SsAnne_8F_Capitan_Text_27:
-.string "(ANDRA robó el frasco al CAPITÁN).$"
+.string "-ANDRA robó el frasco al CAPITÁN.-$"
 
 SsAnne_8F_Capitan_Text_28:
 .string "CAPITÁN: Esto no puede estar\n"

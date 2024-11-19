@@ -31,8 +31,8 @@ end
 Route6_Path_Frontera_Text:
 .string "¿Pero qué clase de broma es esta?\n"
 	.string "A esta ciudad solo entra la élite\l"
-	.string "de la región, desaparece ROCKET si\l"
-	.string "no quieres que te expediente.$"
+	.string "de la región. Desaparece, ROCKET,\l"
+	.string "si no quieres que te expediente.$"
 
 Route6_Path_Frontera_move1:
 emote_exclamation_mark

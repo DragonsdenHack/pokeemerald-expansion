@@ -54,7 +54,7 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_4:
-.string "Si por mi fuera, os prohibiría\n"
+.string "Si por mí fuera, os prohibiría\n"
 .string "entrar incluso a los CENTROS\l"
 .string "POKÉMON, los ROCKET no merecen\l"
 .string "siquiera los servicios de primera\l"

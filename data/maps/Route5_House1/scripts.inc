@@ -16,8 +16,8 @@ end
 Route5House1_1_Texto_1:
 	.string "Lo siento, pero la política del TEAM\n"
 	.string "ROCKET impide meter dentro del negocio\l"
-	.string "a sus propios POKÉMON. Espero que lo\l"
-	.string "entiendas.$"
+	.string "a sus propios POKÉMON.\l"
+	.string "Espero que lo entiendas.$"
 
 Route5_House1_Criador::
 applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.1
@@ -27,33 +27,74 @@ playse SE_PIN
 applymovement 1, Route5_House1_Criador_1_move1
 applymovement 2, Route5_House1_Criador_1_move1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route5_House1_Criador_1, MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Route5_House1_Criador_1_move6.1
+waitmovement 0x0
+delay 15
+msgbox Route5_House1_Criador_1.1, MSGBOX_AUTOCLOSE
 applymovement 2, Route5_House1_Criador_1_move2
 waitmovement 0x0
 msgbox Route5_House1_Criador_2, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, Route5_House1_Criador_1_move3
 applymovement 2, Route5_House1_Criador_1_move4
-waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move5
 waitmovement 0x0
 playse SE_M_VICEGRIP
-msgbox Route5_House1_Criador_3, MSGBOX_AUTOCLOSE
+msgbox Route5_House1_Criador_3, MSGBOX_DEFAULT
+waitse
 delay 10
 applymovement 1, Route5_House1_Criador_1_move6
 waitmovement 0x0
 msgbox Route5_House1_Criador_4, MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, Route5_House1_Criador_1_move6.4
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move6.4
+delay 10
+waitse
+delay 10
+applymovement 1, Route5_House1_Criador_1_move6.1
+waitmovement 0x0
+delay 10
+msgbox Route5_House1_Criador_4.1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route5_House1_Criador_1_move6.2
+waitmovement 0x0
+delay 10
+msgbox Route5_House1_Criador_4.2, MSGBOX_AUTOCLOSE
+applymovement 2, Route5_House1_Criador_1_move6.5
+waitmovement 0x0
+delay 10
 msgbox Route5_House1_Criador_5, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route5_House1_Criador_1_move6.3
+waitmovement 0x0
+delay 10
 msgbox Route5_House1_Criador_6, MSGBOX_AUTOCLOSE
 delay 10
+applymovement 1, Route5_House1_Criador_1_move1.1
+applymovement 2, Route5_House1_Criador_1_move1.5
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.5
+waitmovement 0x0
+delay 10
+msgbox Route5_House1_Criador_6.1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move4.1
+applymovement 2, Route5_House1_Criador_1_move4.1
 applymovement 1, Route5_House1_Criador_1_move4
 waitmovement 0x0
-playse SE_DOOR
+playse SE_ICE_STAIRS
 msgbox Route5_House1_Criador_7, MSGBOX_AUTOCLOSE
+waitse
+delay 10
 applymovement 1, Route5_House1_Criador_1_move7
 waitmovement 0x0
 msgbox Route5_House1_Criador_8, MSGBOX_AUTOCLOSE
 delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.5
 applymovement 2, Route5_House1_Criador_1_move8
 waitmovement 0x0
 delay 10
@@ -68,6 +109,47 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 9
 release
 end
+
+Route5_House1_Criador_1_move4.1:
+delay_16
+face_down
+step_end
+
+Route5_House1_Criador_1_move1.5:
+delay_16
+face_up
+step_end
+
+Route5_House1_Criador_1_move6.5:
+walk_in_place_right
+step_end
+
+Route5_House1_Criador_1_move6.4:
+emote_exclamation_mark
+step_end
+
+Route5_House1_Criador_1_move6.1:
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+Route5_House1_Criador_1_move6.2:
+delay_8
+face_right
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+Route5_House1_Criador_1_move6.3:
+walk_in_place_left
+step_end
+
 
 Route5_CriaPokemon::
 	lock
@@ -238,18 +320,20 @@ Route5_House1_Criador_1:
 	.string "totalmente confidencial, la sola\l"
 	.string "insinuación de dicha información\l"
 	.string "fuera del ámbito ROCKET es\l"
-	.string "castigada con la pena máxima aquí.\l"
-	.string "Ya sois ROCKET por lo que\l"
-	.string "presupongo que estáis dispuestos a\l"
-	.string "aceptar estas condiciones.$"
+	.string "castigada con la pena máxima aquí.$"
+
+Route5_House1_Criador_1.1:
+	.string "Ya sois ROCKET, por lo que\n"
+	.string "presupongo que estáis dispuestos\l"
+	.string "a aceptar estas condiciones.$"
 
 Route5_House1_Criador_2:
     .string "ANDRA: ¡Claro!\n"
 	.string "¡Hable!$"
 
 Route5_House1_Criador_3:
-    .string "(El CRIAPOKÉMON CERRÓ CON CANDADO\n"
-	.string "LA PUERTA).$"
+    .string "(El CRIAPOKÉMON CERRÓ\n"
+	.string "CON CANDADO LA PUERTA).$"
 
 Route5_House1_Criador_4:
     .string "CRIAPOKÉMON: Bien, como\n"
@@ -257,8 +341,10 @@ Route5_House1_Criador_4:
 	.string "guardería normal, se trata de una\l"
 	.string "BASE ROCKET encubierta, uno de\l"
 	.string "nuestros tantos negocios en la\l"
-	.string "sombra.\l"
-	.string "Básicamente sí, hacemos lo que\l"
+	.string "sombra.$"
+
+Route5_House1_Criador_4.1:
+	.string "Básicamente sí, hacemos lo que\n"
 	.string "prometemos, cuidar de los queridos\l"
 	.string "POKÉMON de los entrenadores, no\l"
 	.string "obstante, el contrato no habla de\l"
@@ -268,12 +354,14 @@ Route5_House1_Criador_4:
 	.string "emparejar aquellos POKÉMON cedidos\l"
 	.string "que son de la misma especie para\l"
 	.string "crear HUEVOS POKÉMON, es decir,\l"
-	.string "nuestros beneficios. Algunos de\l"
-	.string "ellos como el caso de CLEFAIRY o\l"
+	.string "nuestros beneficios.$"
+	
+Route5_House1_Criador_4.2:
+	.string "Algunos, como el caso de CLEFAIRY o\n"
 	.string "ABRA son enviados al CASINO, otros\l"
-	.string "directamente vendidos en el\l"
-	.string "mercado negro. Vuestra querida\l"
-	.string "CÓNSUL de INTA, sin ir más\l"
+	.string "directamente vendidos en el mercado\l"
+	.string "negro.\l"
+	.string "Vuestra querida CÓNSUL, sin ir más\l"
 	.string "lejos, compró un MEOWTH proveniente\l"
 	.string "de un HUEVO nacido aquí.$"
 
@@ -290,17 +378,19 @@ Route5_House1_Criador_6:
 	.string "varias cosas más si sigues aquí lo\l"
 	.string "suficiente joven recluta, por el\l"
 	.string "momento, PETREL os está esperando\l"
-	.string "abajo en su despacho. Para bajar\l"
-	.string "solo tenéis que acercaros a la\l"
-	.string "zona superior izquierda de color\l"
-	.string "verde. Si prestáis atención\l"
-	.string "lograréis ver una trampilla que se\l"
-	.string "difumina con el pavimento, esa es\l"
-	.string "la entrada secreta.$"
+	.string "abajo en su despacho.$"
+	
+Route5_House1_Criador_6.1:
+	.string "Para bajar, solo tenéis que acercaros\n"
+	.string "a la zona superior izquierda de color\l"
+	.string "verde.\l"
+	.string "Allí hay una trampilla que se\l"
+	.string "difumina con el pavimento, esa\l"
+	.string "es la entrada secreta.$"
 
 Route5_House1_Criador_7:
-    .string "(EL CRIAPOKÉMON VOLVIÓ A ABRIR LA\n"
-	.string "PUERTA)$"
+    .string "(EL CRIAPOKÉMON VOLVIÓ\n"
+	.string "A ABRIR LA PUERTA)$"
 
 Route5_House1_Criador_8:
     .string "CRIAPOKÉMON: Y ahora, daos prisa,\n"
@@ -339,8 +429,11 @@ face_down
 step_end
 
 Route5_House1_Criador_1_move5:
-walk_slow_right
-walk_slow_up
+delay_16
+delay_8
+walk_right
+walk_up
+delay_8
 walk_in_place_down
 step_end
 

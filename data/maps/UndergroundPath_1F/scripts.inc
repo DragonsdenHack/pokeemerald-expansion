@@ -9,7 +9,7 @@ release
 end
 
 UndergroundPath1F_Text_1:
-.string "¡Oh no!\n"
+.string "¡Oh, no!\n"
 .string "¡Nunca intercambiaría mis POKÉMON\l"
 .string "con alguien como tú!\l"
 .string "¡Seguro que los tratas mal!$"

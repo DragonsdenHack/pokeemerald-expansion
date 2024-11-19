@@ -117,29 +117,28 @@ UndergroundPath2F_Andra_Text_3:
 
 UndergroundPath2F_Andra_Text_4:
     .string "He tenido tiempo desde mi derrota\n"
-	.string "ante la CÓNSUL de mejorar a mi\l"
-	.string "EQUIPO POKÉMON, dudo mucho que\l"
-	.string "ahora pueda vencerme, sin embargo,\l"
-	.string "quiero probar si el desenlace de\l"
-	.string "nuestro primer combate en\l"
+	.string "ante CÓNSUL de mejorar a los míos.\l"
+	.string "Dudo mucho que esa ricachona pueda\l"
+	.string "ahora vencerme.\l"
+	.string "Pero tú{PAUSE 15}…{PAUSE 15} quiero ver si el desenlace\l"
+	.string "de nuestro primer combate en\l"
 	.string "presencia de ATLAS fue casualidad\l"
 	.string "o no, ¡prepárate, iré con todo!$"
 
 UndergroundPath2F_Andra_Text_5:
-    .string "De modo que no era casualidad,\n"
-	.string "realmente eres un ENTRENADOR\l"
-	.string "notable.$"
+    .string "Parece que de verdad eres\n"
+	.string "un ENTRENADOR notable.$"
 
 UndergroundPath2F_Andra_Text_6:
-    .string "Así que vas en serio, debería de\n"
-	.string "alegrarme, prefiero tener a mi\l"
-	.string "lado en futuras misiones a alguien\l"
-	.string "de mi nivel que a alguien\l"
+    .string "Parece que vas en serio.\n"
+	.string "Debería alegrarme, prefiero tener a\l"
+	.string "mi lado en futuras misiones a\l"
+	.string "alguien de mi nivel que a alguien\l"
 	.string "mediocre, pero no te confíes, en\l"
-	.string "cualquier momento voy a superar tu\l"
-	.string "nivel. Me convertiré en la RECLUTA\l"
-	.string "más fuerte y eficiente de toda la\l"
-	.string "organización.$"
+	.string "cualquier momento voy a superarte.\l"
+	.string "¡Me convertiré en la RECLUTA\l"
+	.string "más fuerte y eficiente de toda\l"
+	.string "la organización!$"
 
 UndergroundPath2F_Andra_Text_7:
 	.string "Un mensajero me dijo que el\n"
@@ -149,8 +148,8 @@ UndergroundPath2F_Andra_Text_7:
 	.string "atravesar este subterráneo, dijo\l"
 	.string "que entráramos al lugar\l"
 	.string "disimuladamente y sin ser vistos,\l"
-	.string "eso es todo. De modo que ahí nos\l"
-	.string "vemos.\l"
+	.string "nada más.\l"
+	.string "Ese es nuestro próximo destino.\l"
 	.string "¡No tardes, eh!$"
 
 UndergroundPath2F_Andra_move_1:

@@ -5061,8 +5061,8 @@ Route6_Text_Joven1Defeated:
 
 
 Route6_Text_Joven1PostBattle:
-	.string "¡No vas a robarme los POKÉMON\n"
-	.string "ROCKET!$"
+	.string "¡No vas a robarme\n"
+	.string "los POKÉMON, ROCKET!$"
 
 
 Route6_Text_Chica1Intro:
@@ -5075,14 +5075,14 @@ Route6_Text_Chica1Defeated:
 
 
 Route6_Text_Chica1PostBattle:
-	.string "No es común ver a ROCKETS pelear\n"
-	.string "por gusto en rutas así.$"
+	.string "No es común ver a un ROCKET\n"
+	.string "pelear por gusto en rutas así.$"
 
 
 Route6_Text_CazabichosIntro:
-    .string "Pero qué tenemos aquí, un ROCKET\n"
-	.string "listo para ser liquidado por mi\l"
-	.string "POKÉMON insecto.$"
+    .string "¿Pero qué tenemos aquí?\n"
+	.string "¡Un ROCKET listo para ser liquidado\l"
+	.string "por mi POKÉMON insecto!$"
 
 
 Route6_Text_CazabichosDefeated:
@@ -5109,8 +5109,8 @@ Route6_Text_Chica2PostBattle:
 
 
 Route6_Text_Joven2Intro:
-	.string "¡No te metas con mi chica ROCKET o\n"
-	.string "lo pagarás caro!$"
+	.string "¡No te metas con mi chica,\n"
+	.string "ROCKET, o lo pagarás caro!$"
 
 
 Route6_Text_Joven2Defeated:
@@ -5133,7 +5133,7 @@ Route6_Text_Cazabichos2Defeated:
 
 
 Route6_Text_Cazabichos2PostBattle:
-	.string "He oído que algunos ROCKETS por la\n"
+	.string "He oído que algunos ROCKET por la\n"
 	.string "región de JOHTO usaban POKÉMON\l"
 	.string "como ARIADOS, ¡algunos de KANTO\l"
 	.string "como PINSIR o SCYTHER también\l"

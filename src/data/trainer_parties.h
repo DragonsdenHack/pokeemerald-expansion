@@ -60,7 +60,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra2[] = {
     .evs = {12, 12, 12, 12, 12, 12},
     .heldItem = ITEM_SITRUS_BERRY,
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_WING_ATTACK, MOVE_BITE, MOVE_SUPERSONIC, MOVE_ASTONISH}
+    .moves = {MOVE_ABSORB, MOVE_BITE, MOVE_SUPERSONIC, MOVE_QUICK_ATTACK}
     },
     {
     .iv = 30,

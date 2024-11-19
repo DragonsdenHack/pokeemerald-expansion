@@ -128,10 +128,10 @@ end
 
 Route3_Frontera_Text_1:
 .string "No te recomiendo pasar por aquí si\n"
-	.string "quieres ser libre ROCKET, ¡la\l"
-	.string "policía está llevando no se qué\l"
-	.string "investigación por toda CIUDAD\l"
-	.string "PLATEADA!$"
+	.string "quieres ser libre, ROCKET.\l"
+	.string "¡La policía está llevando no\l"
+	.string "se qué investigación por toda\l"
+	.string "CIUDAD PLATEADA!$"
 
 Route3_Frontera_Move1.1:
 walk_in_place_down

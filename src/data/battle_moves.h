@@ -3385,7 +3385,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
-        .split = SPLIT_SPECIAL,
+        .split = SPLIT_PHYSICAL,
         .zMovePower = 110,
         .zMoveEffect = Z_EFFECT_NONE,
     },

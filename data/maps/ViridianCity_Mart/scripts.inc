@@ -881,7 +881,7 @@ BaseRocket_Ruta5_Mercado_EventScript_Clerk::
 
 	.align 2
 BaseRocket_Ruta5_Mercado_Pokemart:
-    .2byte 103
+    .2byte 102
     .2byte 28
 	.2byte 29
 	.2byte 43
@@ -890,9 +890,6 @@ BaseRocket_Ruta5_Mercado_Pokemart:
 	.2byte 47
 	.2byte 1
 	.2byte 2
-	.2byte 114
-	.2byte 115
-	.2byte 120
 	.2byte ITEM_NONE
 	release
 	end

@@ -109,14 +109,16 @@ faceplayer
 delay 15
 playse SE_PIN
 applymovement 11, MtMoon3F_9_2_move1
-playse MUS_OBTAIN_ITEM
-msgbox MtMoon3F_Text_11_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_ITEM
+msgbox MtMoon3F_Text_11_1, MSGBOX_DEFAULT
 waitfanfare
 msgbox MtMoon3F_Text_11_2, MSGBOX_NPC
 playse SE_POKENAV_ON
-delay 20
+waitse
+delay 10
 msgbox MtMoon3F_Text_11_3, MSGBOX_NPC
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 20
 msgbox MtMoon3F_Text_11_4, MSGBOX_NPC
 setvar VAR_UNUSED_0x40F7, 15
@@ -137,8 +139,8 @@ MtMoon3F_Text_11:
 	.string "mirando por esta zona?$"
 
 MtMoon3F_Text_11_1:
-.string "¡{PLAYER} mostró el FÓSIL a ALTO\n"
-	.string "RANGO FRANK!$"
+.string "¡{PLAYER} mostró el FÓSIL\n"
+	.string "a ALTO RANGO FRANK!$"
 
 MtMoon3F_Text_11_2:
 .string "Mmm{PAUSE 25}…{PAUSE 25}\n"
@@ -151,8 +153,8 @@ MtMoon3F_Text_11_2:
 MtMoon3F_Text_11_3:
 .string "¡¡Llamando a todos los RECLUTAS de\n"
 	.string "la misión MT.MOON!\l"
-	.string "¡Hemos acabado, vuelvan al punto de\l"
-	.string "encuentro!$"
+	.string "¡Hemos acabado, vuelvan al\l"
+	.string "punto de encuentro!$"
 
 MtMoon3F_Text_11_4:
 .string "Perfecto, voy a apurar el tiempo\n"
@@ -163,8 +165,8 @@ MtMoon3F_Text_11_4:
 
 MtMoon3F_Text_11_5:
 .string "¡Ve al punto de encuentro RECLUTA!\n"
-	.string "¡Espero no tener que volver a\l"
-	.string "repetírtelo!$"
+	.string "¡Espero no tener que\l"
+	.string "volver a repetírtelo!$"
 
 
 MtMoon3F_9_2_move1:
@@ -311,9 +313,9 @@ MtMoon_3F_Azul_Text_1:
 .string "????: Vaya, parece que este\n"
 	.string "tampoco es un ÁMBAR VIEJO, voy a\l"
 	.string "tener que conformarme solo con los\l"
-	.string "FÓSILES DOMO Y HELIX. Qué pena,\l"
-	.string "AERODACTYL no sería mal POKÉMON\l"
-	.string "para mi equipo.$"
+	.string "FÓSILES DOMO Y HELIX.\l"
+	.string "Qué pena, AERODACTYL no sería\l"
+	.string "mal POKÉMON para mi equipo.$"
 
 MtMoon_3F_Azul_Text_2:
 .string "¿Otro ROCKET más?\n"
@@ -329,9 +331,9 @@ MtMoon_3F_Azul_Text_3:
 	.string "aquí y no voy a ocupar más espacio\l"
 	.string "en mi mochila con otro igual.\l"
 	.string "Cógelo si así lo deseas, además,\l"
-	.string "quién quiere un OMASTAR o un\l"
+	.string "¿quién quiere un OMASTAR o un\l"
 	.string "KABUTOPS pudiendo tener un\l"
-	.string "BLASTOISE.$"
+	.string "BLASTOISE?$"
 
 MtMoon_3F_Azul_Text_4:
 .string "¿Qué?\n"
@@ -344,8 +346,8 @@ MtMoon_3F_Azul_Text_5:
 	.string "puedas hacer con esos FÓSILES\l"
 	.string "ROCKET, lo único importante es\l"
 	.string "contar con un equipo fuerte,\l"
-	.string "balanceado y poderoso. Eso no\l"
-	.string "tiene precio.$"
+	.string "balanceado y poderoso.\l"
+	.string "Eso no tiene precio.$"
 
 MtMoon_3F_Azul_move1:
 walk_in_place_right
@@ -534,8 +536,8 @@ release
 end
 
 MtMoon_3F_Miguel_Rojo_text_1:
-.string "¿Qué se te ha perdido por aquí,\n"
-	.string "ROCKET?\l"
+.string "¿Qué se te ha perdido,\n"
+	.string "por aquí ROCKET?\l"
 	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
@@ -557,9 +559,9 @@ MtMoon_3F_Miguel_Rojo_text_5:
 .string "Lo que ves ahí es un FÓSIL HELIX,\n"
 	.string "contiene un OMANYTE, un POKÉMON\l"
 	.string "ancestral que vivió hace más de\l"
-	.string "300 millones de años. Estoy\l"
-	.string "dispuesto a apostar en un combate\l"
-	.string "mi FÓSIL contra el tuyo.\l"
+	.string "300 millones de años.\l"
+	.string "Estoy dispuesto a apostar en un\l"
+	.string "combate mi FÓSIL contra el tuyo.\l"
 	.string "Quien gane se quedará con los dos.\l"
 	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "{PAUSE 15}…{PAUSE 15}$"

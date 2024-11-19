@@ -377,7 +377,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "9",
-      "script": "NULL"
+      "script": "CeruleanCityIzq"
     },
     {
       "type": "trigger",
@@ -386,7 +386,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "9",
-      "script": "NULL"
+      "script": "CeruleanCityIzq"
     },
     {
       "type": "trigger",

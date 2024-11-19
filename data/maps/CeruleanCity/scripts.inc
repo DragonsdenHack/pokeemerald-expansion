@@ -168,10 +168,10 @@ release
 end
 
 CeruleanCity_Text_Izq:     
-    .string "(ANDRA me está esperando en la\n"
+    .string "-ANDRA me está esperando en la\n"
 	.string "GUARDERÍA de RUTA 5 para ver qué\l"
 	.string "quiere PETREL, no puedo largarme\l"
-	.string "ahora).$"
+	.string "ahora.-$"
 
 
 CeruleanCityIzqMove1:
@@ -190,6 +190,14 @@ waitmovement 0
 playse SE_PIN
 applymovement 4, CeruleanCity_Rocket_Excavar_move3
 msgbox CeruleanCity_Rocket_Excavar_Text_1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_Rocket_Excavar_move1
+waitmovement 0x0
+delay 10
+msgbox CeruleanCity_Rocket_Excavar_Text_1.1, MSGBOX_AUTOCLOSE
+delay 10
+msgbox CeruleanCity_Rocket_Excavar_Text_1.2, MSGBOX_AUTOCLOSE
+delay 10
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 warp MAP_CERULEAN_CITY_HOUSE2, 5, 5
 release
@@ -204,10 +212,14 @@ CeruleanCity_Rocket_Excavar_Text_1:
 	.string "Nos han encargado a mí y a otro\l"
 	.string "colega una misión en CIUDAD\l"
 	.string "CELESTE y pensamos que nos vendría\l"
-	.string "bien algo de ayuda, ¿qué dices?\l"
-	.string "…\l"
-	.string "…\l"
-	.string "¡Perfecto!\l"
+	.string "bien algo de ayuda, ¿qué dices?$"
+
+CeruleanCity_Rocket_Excavar_Text_1.1:
+	.string "…\n"
+	.string "…$"
+
+CeruleanCity_Rocket_Excavar_Text_1.2:
+	.string "¡Perfecto!\n"
 	.string "¡Allá vamos!$"
 
 CeruleanCity_Rocket_Excavar_move1:
@@ -236,9 +248,9 @@ release
 end
 
 CeruleanCity_Text_Abajo:     
-    .string "(Mi misión es ir al MT.MOON para\n"
+    .string "-Mi misión es ir al MT.MOON para\n"
 	.string "recolectar FÓSILES, no pasearme\l"
-	.string "por CIUDAD CELESTE).$"
+	.string "por CIUDAD CELESTE.-$"
 
 
 CeruleanCityAbajoMove1:

@@ -219,7 +219,7 @@ Route4_Evento_Karatekas_Text_12:
 	.string "pegar aún más duro con nuestros\l"
 	.string "movimientos, aumentará en un 20%\l"
 	.string "la potencia de los movimientos\l"
-	.string "tipo normal. Si alguna vez llegas\l"
+	.string "TIPO NORMAL. Si alguna vez llegas\l"
 	.string "a contar con un TAUROS o un\l"
 	.string "KANGASKHAN, no dudes en equiparles\l"
 	.string "con esto, ¡embestirán con mucha más\l"

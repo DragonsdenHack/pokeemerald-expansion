@@ -1849,7 +1849,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_3:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_4:
 .string "BILL: Espera a que GIOVANNI hable de\n"
 	.string "los nuevos prototipos y los STATS{PAUSE 15}…{PAUSE 15} Si\l"
-	.string "por mi fuera, pasaría directamente a\l"
+	.string "por mí fuera, pasaría directamente a\l"
 	.string "esa parte, ¡el resto son formalidades!$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_5:

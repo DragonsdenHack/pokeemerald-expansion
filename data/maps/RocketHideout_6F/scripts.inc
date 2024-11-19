@@ -51,7 +51,7 @@ RocketHideout6F_Text_2:
 .string "PETREL, el EJECUTIVO que se\n"
 .string "encarga de esta BASE, es de esos\l"
 .string "rivales a los que nadie quiere\l"
-.string "enfrentar, experto en técnicas de\l"
+.string "enfrentar; experto en técnicas de\l"
 .string "envenenamiento y autodestrucción,\l"
 .string "puede poner en aprietos a\l"
 .string "cualquier rival. Su WEEZING es\l"
@@ -120,26 +120,15 @@ release
 end
 
 RocketHideout6F_Text_6:
-.string "Las estadísticas no sirven para\n"
-.string "nada sino podemos sacar lecciones\l"
-.string "prácticas de ellas, se estima que\l"
-.string "de media las personas pierden 4\l"
-.string "horas al día en tareas inútiles,\l"
-.string "ineficientes o directamente en no\l"
-.string "hacer nada. Si consideramos que\l"
-.string "hay que dormir 8 horas, trabajar\l"
-.string "otras 8 y hacer trámites otras 2,\l"
-.string "solo nos quedan 6 hábiles para\l"
-.string "nuestros objetivos personales al\l"
-.string "día, ¡qué desperdicio gastar 4 de\l"
-.string "esas 6 de esa manera!\l"
-.string "¡Por eso el TEAM ROCKET está donde\l"
-.string "está!\l"
-.string "¡Aquí no existe la\l"
-.string "procrastinación!\l"
-.string "¡¿Qué haces, RECLUTA!?\l"
-.string "¡Ve ya a cumplir con tu\l"
-.string "cometido!$"
+	.string "Disponemos de una cantidad finita de\n"
+	.string "fuerza de voluntad que disminuye a\l"
+	.string "medida que la usamos. La voluntad no es\l"
+	.string "una manifestación del carácter, ni un\l"
+	.string "recurso que se pueda desplegar de\l"
+	.string "manera ilimitada; funciona, más bien,\l"
+	.string "como un músculo, que se cansa. Pero\l"
+	.string "como cualquier músculo, puede\l"
+	.string "entrenarse.$"
 
 
 
@@ -405,39 +394,99 @@ applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2, MSGBOX_AUTOCLOSE
 delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_6F_Petrel_Text_Mision_2.1, MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Mision_1_move3
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_3, MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_3.1, MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Mision_1_move4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_6F_Petrel_Text_Mision_4, MSGBOX_AUTOCLOSE
+delay 5
 msgbox RocketHideout_6F_Petrel_Text_Mision_5, MSGBOX_AUTOCLOSE
+delay 15
 applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_6, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2.1
+waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_7, MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_7.1, MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Text_Mision_7.2, MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
 waitmovement 0x0
+waitse
+delay 15
 msgbox RocketHideout_6F_Petrel_Text_Mision_8, MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Text_Mision_9, MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_6F_Petrel_Text_Mision_9.1, MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move5
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_6F_Petrel_Text_Mision_10, MSGBOX_AUTOCLOSE
 delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move7
 applymovement 27, RocketHideout_6F_Petrel_Mision_1_move6
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_11, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move6.2
+applymovement 27, RocketHideout_6F_Petrel_Mision_1_move6.1
+waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
-fadescreen 1
 delay 20
 removeobject 27
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 10
 release
 end
+
+RocketHideout_6F_Petrel_Mision_1_move6.2:
+delay_16
+face_left
+delay_16
+delay_8
+face_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move6.1:
+walk_fast_left
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_up
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
 
 
 
@@ -446,35 +495,37 @@ RocketHideout_6F_Petrel_Text_Mision_1:
 	.string "BASE-GUARDERÍA de ruta 5, nuevos\l"
 	.string "RECLUTAS, sois los últimos en\l"
 	.string "incorporaros a nuestra actividad\l"
-	.string "en KANTO. Yo soy PETREL,\l"
-	.string "ADMINISTRADOR ROCKET y jefe al\l"
-	.string "mando de esta base.$"
+	.string "en KANTO.\l"
+	.string "Yo soy PETREL, ADMIN.ROCKET y\l"
+	.string "jefe al mando de esta base.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2:
-.string "PETREL: Seré muy breve, la\n"
-	.string "principal razón de ser de esta\l"
+.string "PETREL: Seré breve.\n"
+	.string "La principal razón de ser de esta\l"
 	.string "BASE es servir de apoyo financiero\l"
-	.string "para la financiación de nuestros\l"
-	.string "proyectos, aquí únicamente nos\l"
-	.string "limitamos a realizar\l"
+	.string "para nuestros proyectos.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2.1:
+	.string "Aquí nos limitamos a realizar\n"
 	.string "investigaciones sobre posibles\l"
 	.string "negocios rentables, y a llevarlas\l"
 	.string "a la práctica, todo con el fin de\l"
-	.string "llevar dinero a las\l"
-	.string "investigaciones realmente\l"
-	.string "trascendentales{PAUSE 5}…{PAUSE 5}$"
+	.string "llevar dinero a los proyectos\l"
+	.string "realmente trascendentales{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Text_Mision_3:
 .string "He oído que vuestro rendimiento\n"
-	.string "fue aceptable en ISLA INTA, está\l"
-	.string "por ver vuestra evolución en\l"
-	.string "KANTO.\l"
-	.string "Como RECLUTAS novatos que sóis, os\l"
-	.string "reuniréis en vuestra SEGUNDA\l"
-	.string "MISIÓN OFICIAL, la primera en\l"
-	.string "KANTO, con otros reclutas situados\l"
-	.string "en el MT.MOON, al oeste de CIUDAD\l"
-	.string "CELESTE.$"
+	.string "fue aceptable en ISLA INTA,\l"
+	.string "está por ver vuestra\l"
+	.string "evolución en KANTO.$"
+
+RocketHideout_6F_Petrel_Text_Mision_3.1:
+	.string "Como RECLUTAS novatos que sóis,\n"
+	.string "reuniréis en vuestra II MISIÓN\l"
+	.string "OFICIAL, la primera en KANTO,\l"
+	.string "con otros reclutas situados\l"
+	.string "en el MT.MOON, al oeste de\l"
+	.string "CIUDAD CELESTE.$"
 
 RocketHideout_6F_Petrel_Text_Mision_4:
 .string "Una vez allí, limpiaréis el lugar\n"
@@ -506,24 +557,26 @@ RocketHideout_6F_Petrel_Text_Mision_7:
 	.string "RECLUTA competitiva, si lo que te\l"
 	.string "preocupa es la imposibilidad de\l"
 	.string "ascender por quedar opacada entre\l"
-	.string "la actuación de una media,\l"
-	.string "ya deberías saber que prima el\l"
-	.string "colectivo, aún así, te lo dejaré\l"
-	.string "muy claro. Tienes dos formas de\l"
-	.string "escalar aquí:\l"
-	.string "1) Para cada misión grupal\l"
+	.string "la actuación de una media, te lo\l"
+	.string "dejaré muy claro.\l"
+	.string "Tienes dos formas de escalar aquí:$"
+
+RocketHideout_6F_Petrel_Text_Mision_7.1:
+	.string "1 - Para cada misión grupal\n"
 	.string "realizamos evaluaciones de cada\l"
-	.string "rendimiento individual.\l"
-	.string "2) No en todas las misiones\l"
+	.string "rendimiento individual.$"
+
+RocketHideout_6F_Petrel_Text_Mision_7.2:
+	.string "2 - No en todas las misiones\n"
 	.string "enviamos RECLUTAS en masa, algunas\l"
 	.string "son individuales o en pareja, como\l"
-	.string "la vuestra en CASA CÓNSUL, es en\l"
-	.string "esas misiones donde tu mérito, o\l"
-	.string "tu culpa, es mayor.$"
+	.string "la vuestra en CASA CÓNSUL.\l"
+	.string "En estas misiones tu mérito,\l"
+	.string "o tu culpa, es mayor.$"
 
 RocketHideout_6F_Petrel_Text_Mision_8:
-.string "Entendido, ¡no\n"
-	.string "defraudaremos al TEAM ROCKET y a\l"
+.string "Entendido, ¡no defraudaremos\n"
+	.string "al TEAM ROCKET y a\l"
 	.string "sus aspiraciones!$"
 
 RocketHideout_6F_Petrel_Text_Mision_9:
@@ -532,19 +585,21 @@ RocketHideout_6F_Petrel_Text_Mision_9:
 	.string "coincidido y ahora váis a\l"
 	.string "contrareloj, ya habrá tiempo de\l"
 	.string "explicaros cómo funcionan aquí las\l"
-	.string "cosas.\l"
-	.string "¡Traedme a esos FÓSILES y liquidad\l"
+	.string "cosas.$"
+
+RocketHideout_6F_Petrel_Text_Mision_9.1:
+	.string "¡Traedme esos FÓSILES y liquidad\n"
 	.string "a todo el que se oponga!$"
 
 RocketHideout_6F_Petrel_Text_Mision_10:
-.string "ANDRA/{PLAYER}: ¡ENTENDIDO, SIR!$"
+.string "ANDRA: ¡ENTENDIDO, SIR!$"
 
 RocketHideout_6F_Petrel_Text_Mision_11:
-.string "ANDRA: Estamos de suerte {PLAYER},\n"
-	.string "acabamos de llegar y ya tenemos\l"
-	.string "trabajo. Vamos a hacernos con\l"
+.string "ANDRA: Estamos de suerte, {PLAYER}.\n"
+	.string "Acabamos de llegar y ya tenemos\l"
+	.string "trabajo; vamos a hacernos con\l"
 	.string "todos esos FÓSILES sin importar\l"
-	.string "quién se oponga, nos vemos en la\l"
+	.string "quién se oponga; nos vemos en la\l"
 	.string "entrada este del MT.MOON.$"
 
 RocketHideout_6F_Petrel_Mision_1_move1:
@@ -561,6 +616,21 @@ step_end
 
 RocketHideout_6F_Petrel_Mision_1_move2:
 walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move2.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move2.2:
+delay_8
+face_up
+delay_8
 step_end
 
 RocketHideout_6F_Petrel_Mision_1_move3:

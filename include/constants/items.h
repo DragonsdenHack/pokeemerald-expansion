@@ -141,7 +141,7 @@
 
 // Encounter-modifying Flutes
 #define ITEM_BLACK_FLUTE 113
-#define ITEM_WHITE_FLUTE 1145
+#define ITEM_WHITE_FLUTE 114
 
 // Encounter Modifiers
 #define ITEM_REPEL 115
