@@ -244,7 +244,7 @@ release
 end
 
 Goldenrod_RadioTower_P4_Reunion_Texto_1:
-.string "({PLAYER} mostró su PASE RADIO).$"
+.string "-{PLAYER} mostró su PASE RADIO-$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_2:
 .string "PRESIDENTE: Sabes que a la mayoría\n"

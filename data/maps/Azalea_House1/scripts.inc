@@ -210,8 +210,8 @@ Azalea_House1_Activacion_Sotano_Texto_1.2:
 	.string "¿quieres pulsarl…?)$"
 
 Azalea_House1_Activacion_Sotano_Texto_1.1:
-.string "(Este cuadro es un poco raro, no parece\n"
-	.string "un cuadro cualquiera…)$"
+.string "-Este cuadro es un poco raro, no parece\n"
+	.string "un cuadro cualquiera…-$"
 
 Azalea_House1_Activacion_Sotano_Texto_1:
 .string "¡Eh, tú! ¿Qué crees que haces?$"
@@ -234,7 +234,7 @@ Azalea_House1_Activacion_Sotano_Texto_5:
 	.string "combates bien, ¿qué import…?$"
 
 Azalea_House1_Activacion_Sotano_Texto_6:
-.string "({PLAYER} APRETÓ EL BOTÓN SECRETO)$"
+.string "-{PLAYER} APRETÓ EL BOTÓN SECRETO-$"
 
 Azalea_House1_Activacion_Sotano_Texto_7:
 .string "Grrrr…. Maldito, lo sabías desde el\n"

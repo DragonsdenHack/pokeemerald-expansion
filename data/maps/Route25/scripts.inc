@@ -172,8 +172,8 @@ release
 end
 
 Route22_Entrada_Liga_Texto_1::
-	.string "(Este es el lugar con más policía de la\n"
-	.string "región, mejor no tentar a la suerte).$"
+	.string "-Este es el lugar con más policía de la\n"
+	.string "región, mejor no tentar a la suerte.-$"
 
 Route25_Azul::
 lock

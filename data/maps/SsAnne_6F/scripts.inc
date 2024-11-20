@@ -9,7 +9,7 @@ end
 
 SsAnne6F_Text_1:
 .string "Soy el tipo más guay de este\n"
-	.string "lugar{PAUSE 25}…{PAUSE 25}y tú lo sabes.$"
+	.string "lugar{PAUSE 25}…{PAUSE 25} y tú lo sabes.$"
 
 
 
@@ -21,7 +21,7 @@ end
 
 SsAnne6F_Text_2:
 .string "Oh…, ¡qué ENTRENADOR GUAY\n"
-	.string "tan…guay!$"
+	.string "tan{PAUSE 25}…{PAUSE 25} guay!$"
 
 
 
@@ -139,17 +139,29 @@ SsAnne6F_Text_10:
 SsAnne6F_11::
 lock     
 faceplayer     
-msgbox SsAnne6F_Text_11, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_11, MSGBOX_NPC
+delay 10
+msgbox SsAnne6F_Text_11.1, MSGBOX_NPC
+delay 10
+msgbox SsAnne6F_Text_11.2, MSGBOX_NPC
 release     
 end
 
 SsAnne6F_Text_11:
-.string "La incertidumbre del momento,\n"
-.string "dejarse llevar por la intuición…\l"
-.string "Aún no logro comprender cuál es la\l"
-.string "esencia última que me proporcione\l"
-.string "la fórmula exacta para exprimir al\l"
-.string "máximo eventos así{PAUSE 5}…{PAUSE 5}$"
+.string "La incertidumbre del momento, el\n"
+.string "dejarse llevar por la intuición{PAUSE 15}…{PAUSE 15}$"
+
+SsAnne6F_Text_11.1:
+.string "El suceso de una fiesta, la embriaguez\n"
+	.string "de la comunidad en ella, el secreto de la\l"
+	.string "pérdida de la personalidad entre la\l"
+	.string "multitud{PAUSE 15}…{PAUSE 15}$"
+
+SsAnne6F_Text_11.2:
+.string "Aún no logro comprender cuál es la\n"
+.string "esencia última capaz de proporcionar\l"
+.string "la fórmula exacta que me haga al fin\l"
+.string "poder disfrutar de estos eventos{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -195,19 +207,29 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, SSAnne6F_Lance_Surge_move2
 waitmovement 0x0
 special RemoveCameraObject
-delay 20
+delay 10
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
-delay 20
-fadescreen 1
-playse SE_M_FLY
-delay 25
+applymovement 13, SSAnne6F_Lance_Surge_move1.5
+applymovement 12, SSAnne6F_Lance_Surge_move1.5
+applymovement OBJ_EVENT_ID_PLAYER, SSAnne6F_Lance_Surge_move1.5
+waitmoncry
+delay 15
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setfieldeffectargument 1, 1
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 15
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 35
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
+delay 15
 msgbox SSAnne6F_Lance_Surge_Text_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SSAnne6F_Lance_Surge_Text_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_2.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_3 MSGBOX_AUTOCLOSE
@@ -221,6 +243,14 @@ applymovement 15, SSAnne6F_Lance_Surge_move5
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_5 MSGBOX_AUTOCLOSE
 msgbox SSAnne6F_Lance_Surge_Text_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 14, SSAnne6F_Lance_Surge_move3.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_7 MSGBOX_AUTOCLOSE
@@ -290,23 +320,24 @@ release
 end
 
 SSAnne6F_Lance_Surge_Text_1:
-.string "???: Un placer volver a verle,\n"
-	.string "LANCE, CAMPEÓN de la nueva KANTO.\l"
+.string "????: Un placer volver a verle,\n"
+	.string "SR.LANCE, CAMPEÓN de la nueva KANTO.\l"
 	.string "¿Para qué me ha convocado aquí hoy,\l"
 	.string "en un día tan especial como lo es\l"
 	.string "el regreso anual del SS.ANNE?$"
 
 
 SSAnne6F_Lance_Surge_Text_2:
-.string "LANCE: Seré breve, LT.SURGE.\n"
+.string "LANCE: Seré breve, SURGE.\n"
 	.string "Las grandes ciudades están siendo\l"
 	.string "sometidas a una rutina de\l"
 	.string "inspección y control, para\l"
 	.string "asegurarnos de que el engranaje\l"
 	.string "que mueve esta región funciona\l"
-	.string "correctamente.\l"
-	.string "¿Cómo ve a la gente\l"
-	.string "por CARMÍN, SURGE?$"
+	.string "correctamente.$"
+
+SSAnne6F_Lance_Surge_Text_2.1:
+	.string "¿Cómo va todo por CARMÍN, SURGE?$"
 
 SSAnne6F_Lance_Surge_Text_3:
 .string "LT.SURGE: Todo marcha\n"
@@ -340,8 +371,10 @@ SSAnne6F_Lance_Surge_Text_6:
     .string "hecho de que sea uno de los\l"
 	.string "oficiales al mando de la región\l"
 	.string "enemiga, el ahora LÍDER DE GIMNASIO\l"
-	.string "y principal icono de CARMÍN?\l"
-	.string "¿Ha aceptado la gente\l"
+	.string "y principal icono de CARMÍN?$"
+
+SSAnne6F_Lance_Surge_Text_6.1:
+	.string "¿Ha aceptado la gente\n"
 	.string "tu cambio de rol?$"
 
 SSAnne6F_Lance_Surge_Text_7:
@@ -399,21 +432,20 @@ SSAnne6F_Lance_Surge_Text_10.2:
 	.string "presentes pueden hacer que se\l"
 	.string "olvide el verdadero motivo por\l"
 	.string "el que ocupas esa posición, de\l"
-	.string "modo que paciencia.\l"
+	.string "modo que paciencia.$"
 
 SSAnne6F_Lance_Surge_Text_10.3:
-	.string "solo necesitamos tiempo. La\l"
+	.string "Solo necesitamos tiempo. La\n"
 	.string "estabilización y progresión\l"
 	.string "adecuada{PAUSE 25}…{PAUSE 25}y KANTO aceptará el\l"
 	.string "NUEVO ORDEN MUNDIAL casi sin darse\l"
 	.string "cuenta.$"
 
 SSAnne6F_Lance_Surge_Text_11:
-.string "LT.SURGE: A la orden SR.LANCE.$"
+.string "LT.SURGE: A la orden, SR.LANCE.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-	.string "LANCE: Eso es todo por ahora,\n"
-	.string "SURGE.\l"
+	.string "LANCE: Eso es todo, SURGE.\n"
 	.string "Espero que la fiesta sea un\l"
 	.string "éxito, los grandes eventos\l"
 	.string "distraen y evaden a la plebe.$"
@@ -422,6 +454,20 @@ SSAnne6F_Lance_Surge_Text_13:
 .string "LT.SURGE: Estas fiestas nunca\n"
 	.string "fueron lo mío.\l"
 	.string "¡ELECTABUZZ! ¡TELETRANSPORTE!$"
+
+SSAnne6F_Lance_Surge_move1.5:
+emote_exclamation_mark
+delay_16
+delay_8
+face_right
+delay_16
+delay_16
+face_left
+step_end
+
+SSAnne6F_Lance_Surge_move3.2:
+emote_exclamation_mark
+step_end
 
 SSAnne6F_Lance_Surge_move1:
 walk_in_place_left

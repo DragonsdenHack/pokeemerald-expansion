@@ -99,8 +99,8 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_6:
 	.string "¿Quién eres tú?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una TOXISFERA de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "-{PLAYER} robó una TOXISFERA de\n"
+	.string "AYUDANTE DE OAK-$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_8:
 .string "No sabes lo que acabas de hacer\n"

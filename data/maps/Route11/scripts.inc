@@ -214,5 +214,5 @@ release
 end
 
 Route11_Frontera_Tunel_Texto_1:
-.string "(Este lugar no se corresponde con\n"
-	.string "ninguna misión, mejor no perder tiempo).$"
+.string "-Este lugar no se corresponde con\n"
+	.string "ninguna misión, mejor no perder tiempo.-$"

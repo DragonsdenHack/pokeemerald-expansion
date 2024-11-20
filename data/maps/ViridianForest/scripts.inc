@@ -280,7 +280,7 @@ ViridianForest_Combate_Guays_Texto_4:
 
 ViridianForest_Combate_Guays_Texto_5:
 .string "VERO: Así es, debe de ser un\n"
-	.string "comandante o algo así, los ROCKETS\l"
+	.string "comandante o algo así. Los ROCKET\l"
 	.string "normales ni se acercan a su nivel.$"
 
 ViridianForest_Combate_Guays_Texto_6:

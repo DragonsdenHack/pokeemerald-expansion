@@ -67,7 +67,9 @@ delay 20
 applymovement 1, VermilionCity_Club_Secundaria_AncianoMachop_Move_1
 waitmovement 0x0
 msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_4 MSGBOX_DEFAULT
+delay 10
 msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_5 MSGBOX_DEFAULT
+delay 15
 msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_6 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq VermilionCity_Club_Secundaria_AncianoMachop_3
@@ -76,10 +78,18 @@ trainerbattle_no_intro TRAINER_CLUBFANS, VermilionCity_Club_Secundaria_AncianoMa
 delay 15
 playse SE_PIN
 applymovement 2, VermilionCity_Club_Secundaria_AncianoMachop_Move_1
+delay 5
 applymovement 3, VermilionCity_Club_Secundaria_AncianoMachop_Move_1
+delay 5
 applymovement 4, VermilionCity_Club_Secundaria_AncianoMachop_Move_1
 waitmovement 0x0
+waitse
+delay 10
+applymovement 1, VermilionCity_Club_Secundaria_AncianoMachop_Move_1.1
+waitmovement 0x0
+delay 10
 msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_9 MSGBOX_DEFAULT
+delay 10
 msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_10 MSGBOX_DEFAULT
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 giveitem ITEM_BIKE_VOUCHER
@@ -88,6 +98,17 @@ msgbox VermilionCity_Club_Secundaria_AncianoMachop_Texto_11 MSGBOX_DEFAULT
 setvar VAR_UNUSED_0x409B, 2
 release
 end
+
+VermilionCity_Club_Secundaria_AncianoMachop_Move_1.1:
+delay_8
+face_down
+delay_16
+face_right
+delay_16
+face_left
+delay_8
+face_player
+step_end
 
 
 VermilionCity_Club_Secundaria_AncianoMachop_3::
@@ -129,12 +150,12 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_4:
 .string "¿¡Me estás retando a un combate?!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_5:
-.string "Chico no sabes lo que dices, tengo\n"
-	.string "a más de 100 POKÉMON a mi\l"
+.string "Chico, no sabes lo que dices.\n"
+	.string "Tengo a más de 100 POKÉMON a mi\l"
 	.string "disposición, gracias a mis\l"
 	.string "incontables viajes he podido\l"
-	.string "reunir a los mejores ejemplares de\l"
-	.string "esta gran región.$"
+	.string "reunir a los mejores ejemplares\l"
+	.string "de esta gran región.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_6:
 .string "¿Aún así te atreves a desafiarme?$"

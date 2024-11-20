@@ -972,8 +972,8 @@ RocketHideout_8F_Mision_Silph_text_1:
 	.string "esperándote, ¡pasa!$"
 
 RocketHideout_8F_Mision_Silph_text_2:
-.string "({PLAYER} entregó las plumas de\n"
-	.string "ARTICUNO y ZAPDOS).$"
+.string "-{PLAYER} entregó las plumas de\n"
+	.string "ARTICUNO y ZAPDOS-$"
 
 RocketHideout_8F_Mision_Silph_text_3:
 .string "GIOVANNI: ¡Qué extraordinario\n"
@@ -4650,8 +4650,8 @@ walk_slow_left
 step_end
 
 RocketHideout_8F_Mision_Central_Energia_Texto_1:
-.string "({PLAYER} entregó a GIOVANNI el\n"
-	.string "DISCO DURO)$"
+.string "-{PLAYER} entregó a GIOVANNI el\n"
+	.string "DISCO DURO-$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_2:
 .string "GIOVANNI: No esperaba menos de ti,\n"

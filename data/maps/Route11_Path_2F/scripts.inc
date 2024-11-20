@@ -99,7 +99,7 @@ Route11_Path_2F_Combate_Ayudante_Oak_Texto_3:
 	.string "existencia?$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_4:
-.string "Ya verás ROCKET, propondré una\n"
+.string "Ya verás, ROCKET. Propondré una\n"
 	.string "serie de medidas al COMITÉ DE LA\l"
 	.string "LIGA POKÉMON para terminar de\l"
 	.string "aplastaros como a cucarachas, de\l"
@@ -115,11 +115,11 @@ Route11_Path_2F_Combate_Ayudante_Oak_Texto_6:
 	.string "o ZUBAT!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó un BUSCAOBJETOS de\n"
-	.string "AYUDANTE DE OAK)$"
+.string "-{PLAYER} robó un BUSCAOBJETOS de\n"
+	.string "AYUDANTE DE OAK-$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "Ya verás ROCKET, propondré una\n"
+.string "Ya verás, ROCKET. Propondré una\n"
 	.string "serie de medidas al COMITÉ DE LA\l"
 	.string "LIGA POKÉMON para terminar de\l"
 	.string "aplastaros como a cucarachas, de\l"

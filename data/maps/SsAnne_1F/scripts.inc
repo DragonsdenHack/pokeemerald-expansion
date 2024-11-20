@@ -9,9 +9,12 @@ msgbox SsAnne_1F_Andra_Ida_Text_1 MSGBOX_AUTOCLOSE
 applymovement 2, SsAnne_1F_Andra_Ida_move_3
 waitmovement 0x0
 msgbox SsAnne_1F_Andra_Ida_Text_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_1F_Andra_Ida_Text_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SsAnne_1F_Andra_Ida_move_4
 waitmovement 0x0
+delay 10
 playse SE_EXIT
 setflag FLAG_HIDE_ROUTE_103_RIVAL
 removeobject 2
@@ -28,10 +31,10 @@ SsAnne_1F_Andra_Ida_Text_2:
 	.string "crucero de lujo no son de KANTO,\l"
 	.string "eso nos dará la ventaja de pasar\l"
 	.string "desapercibidos y acceder al\l"
-	.string "camarote del CAPITÁN sin levantar\l"
-	.string "sospechas, una vez allí\l"
-	.string "identificamos el frasco y nos lo\l"
-	.string "llevamos.$"
+	.string "camarote del CAPITÁN sin\l"
+	.string "levantar sospechas.\l"
+	.string "Una vez allí, identificamos el\l"
+	.string "frasco y nos lo llevamos.$"
 
 SsAnne_1F_Andra_Ida_Text_3:
 .string "Vamos allá.$"

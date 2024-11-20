@@ -72,8 +72,7 @@ SsAnne4F_Text_5:
 .string "Las experiencias no tienen precio,\n"
 	.string "querida, no hay dinero en el mundo\l"
 	.string "que pueda comprar el valor de este\l"
-	.string "momento, así que\l"
-	.string "aprovechémoslo.$"
+	.string "momento, así que aprovechémoslo.$"
 
 
 
@@ -196,15 +195,26 @@ SsAnne4F_Text_14:
 
 SsAnne_4F_Combate_Azul::
 msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_DEFAULT
+delay 10
+msgbox SsAnne_4F_Combate_Azul_text_1.1 MSGBOX_DEFAULT
 delay 15
 playse SE_PIN
 applymovement 12, SsAnne_4F_Combate_Azul_move1
 waitmovement 0x0
+waitse
 msgbox SsAnne_4F_Combate_Azul_text_2 MSGBOX_DEFAULT
+delay 10
+msgbox SsAnne_4F_Combate_Azul_text_2.1 MSGBOX_DEFAULT
+delay 10
 applymovement 12, SsAnne_4F_Combate_Azul_move2
 waitmovement 0x0
 playse 527
 msgbox SsAnne_4F_Combate_Azul_text_3 MSGBOX_DEFAULT
+delay 10
+applymovement 12, SsAnne_4F_Combate_Azul_move1.1
+waitmovement 0x0
+msgbox SsAnne_4F_Combate_Azul_text_3.1 MSGBOX_DEFAULT
+delay 10
 trainerbattle_no_intro TRAINER_AZUL_1, SsAnne_4F_Combate_Azul_text_4
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_4F_Combate_Azul_move3
 waitmovement 0x0
@@ -219,6 +229,7 @@ applymovement 12, SsAnne_4F_Combate_Azul_move5
 waitmovement 0x0
 playse SE_EXIT
 waitse
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 removeobject 12
 fadedefaultbgm
@@ -231,30 +242,36 @@ SsAnne_4F_Combate_Azul_text_1:
 	.string "para combatir contra POKÉMON de\l"
 	.string "todo el mundo y me encuentro los\l"
 	.string "mismos PIDGEY, RATATTA y\l"
-	.string "NIDORAN de siempre, incluso los\l"
-	.string "supuestos marineros del SS.ANNE no\l"
-	.string "sacan más que TENTACOOL. Esto es\l"
-	.string "un fraude.$"
+	.string "NIDORAN de siempre.$"
+
+SsAnne_4F_Combate_Azul_text_1.1:
+	.string "Incluso los marineros del SS.ANNE no\n"
+	.string "sacan más que TENTACOOL, menudo\l"
+	.string "fraude.$"
 
 SsAnne_4F_Combate_Azul_text_2:
-.string "El ROCKET al que cedí un FÓSIL en\n"
-	.string "el MT.MOON. No voy a preguntarte\l"
-	.string "cómo es que alguien como tú está\l"
+.string "¿Eres ese ROCKET al que cedí\n"
+	.string "un FÓSIL en el MT.MOON?$"
+	
+SsAnne_4F_Combate_Azul_text_2.1:
+ .string "No voy a preguntarte cómo\n"
+	.string "es que alguien como tú está en\l"
 	.string "en un lugar así, ya imagino que\l"
-	.string "has entrado de forma ilegítima,\l"
-	.string "pero sinceramente me da\l"
-	.string "exactamente igual.$"
+	.string "has entrado de forma ilegítima.\l"
+	.string "Sinceramente, me da exactamente\l"
+	.string "igual.$"
 
 SsAnne_4F_Combate_Azul_text_3:
-.string "En el MT.MOON hice la vista gorda\n"
+.string "En el MT.MOON hice la vista gorda,\n"
 	.string "viendo la mediocridad de todos los\l"
-	.string "ROCKET, pero te atreviste a darme\l"
+	.string "ROCKET. Pero te atreviste a darme\l"
 	.string "a mí lecciones morales, ¿sabes lo\l"
-	.string "que eso significa, no?\l"
-	.string "¡Es hora de ver si\l"
-	.string "efectivamente eres uno más del\l"
-	.string "montón o en cambio tienes algo que\l"
-	.string "decir!\l"
+	.string "que eso significa, no?$"
+
+SsAnne_4F_Combate_Azul_text_3.1:
+	.string "¡Es hora de ver si eres uno más\n"
+	.string "del montón, o en cambio tienes\l"
+	.string "algo que decir!\l"
 	.string "¡En guardia, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
@@ -281,6 +298,10 @@ SsAnne_4F_Combate_Azul_text_6:
 SsAnne_4F_Combate_Azul_move1:
 emote_exclamation_mark
 face_down
+step_end
+
+SsAnne_4F_Combate_Azul_move1.1:
+walk_in_place_down
 step_end
 
 SsAnne_4F_Combate_Azul_move2:

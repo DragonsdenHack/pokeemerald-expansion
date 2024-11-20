@@ -129,8 +129,8 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_6:
 	.string "POKÉMON?!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una MON.AMULETO de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "{PLAYER} robó una MON.AMULETO de\n"
+	.string "AYUDANTE DE OAK-$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_8:
 .string "Esto no tiene lógica, se supone\n"

@@ -122,7 +122,7 @@ release
 end
 
 OlivinePort_Barrera_Texto_3.1:
-.string "({PLAYER} mostró su TICKET FIESTA).$"
+.string "-{PLAYER} mostró su TICKET FIESTA-$"
 
 OlivinePort_Barrera_3::
 lock

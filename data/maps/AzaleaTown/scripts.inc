@@ -556,8 +556,8 @@ release
 end
 
 AzaleaTownDocumento_Text_133:
-.string "(Este SNORLAX parece llevar mucho\n"
-	.string "tiempo sin moverse de aquí…)$"
+.string "-Este SNORLAX parece llevar mucho\n"
+	.string "tiempo sin moverse de aquí…-$"
 
 AzaleaTown_Encuentro_Mirto::
 lock

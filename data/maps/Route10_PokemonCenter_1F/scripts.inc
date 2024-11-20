@@ -133,8 +133,8 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_6:
 .string "¡Esto no tiene ningún sentido!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una PIEDRAETERNA de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "-{PLAYER} robó una PIEDRAETERNA de\n"
+	.string "AYUDANTE DE OAK-$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
 .string "¡NO!\n"

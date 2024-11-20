@@ -412,7 +412,7 @@ Silph_7F_Encuentro_Azul_Texto_6:
 	.string "adversarios mucho peores que el ya\l"
 	.string "de por si mediocre equipo que\l"
 	.string "traerá GIOVANNI aquí a SILPH,\l"
-	.string "dejaremos también a los ROCKETS\l"
+	.string "dejaremos también a los ROCKET\l"
 	.string "más débiles para aumentar el\l"
 	.string "contraste de nivel.$"
 

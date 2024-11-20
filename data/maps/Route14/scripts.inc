@@ -297,11 +297,11 @@ Route14_Combate_Azul_Texto_8:
 
 Route14_Combate_Azul_Texto_9:
 .string "Poco a poco vas haciéndote un\n"
-	.string "hueco entre los ROCKETS más\l"
-	.string "fuertes eh, sólamente veo a ATLAS\l"
+	.string "hueco entre los ROCKET más\l"
+	.string "fuertes, ¿eh? Solo veo a ATLAS\l"
 	.string "y al propio GIOVANNI como los\l"
-	.string "ENTRENADORES que claramente\l"
-	.string "podrían hacerte morder el polvo.$"
+	.string "ROCKET que claramente podrían\l"
+	.string "hacerte morder el polvo.$"
 
 
 Route14_Combate_Azul_Texto_10:

@@ -26,3 +26,24 @@ end
 SsAnne2F_Text_2:
 .string "La fiesta de lujo del SS.ANNE es\n"
 .string "incomparable.$"
+
+SsAnne2F_Puerta_Cerrada::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SsAnne2F_Puerta_Cerrada_Move_1
+waitmovement 0x0
+msgbox SsAnne2F_Puerta_Cerrada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SsAnne2F_Puerta_Cerrada_Move_2
+waitmovement 0x0
+release
+end
+
+SsAnne2F_Puerta_Cerrada_Move_1:
+walk_in_place_down
+step_end
+
+SsAnne2F_Puerta_Cerrada_Move_2:
+walk_up
+step_end
+
+SsAnne2F_Puerta_Cerrada_Texto_1:
+	.string "Esta puerta está cerrada.$"

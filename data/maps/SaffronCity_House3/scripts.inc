@@ -19,8 +19,8 @@ release
 end
 
 SafariZone_House3_Text_1:
-.string "¿Cómo?\n"
+.string "¡¿Qué?!\n"
 .string "¿Regalar yo la MT29, PSÍQUICO, a\l"
-.string "precisamente uno de los ROCKETS\l"
+.string "precisamente uno de los ROCKET\l"
 .string "que nos han invadido?\l"
 .string "¿En qué mundo vives?$"

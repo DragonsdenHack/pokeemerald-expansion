@@ -5517,7 +5517,7 @@ Route11_Text_ChicoDefeated:
 
 
 Route11_Text_ChicoPostBattle:
-	.string "Los ROCKETS usan mucho a EKANS.\n"
+	.string "Los ROCKET usan mucho a EKANS.\n"
 	.string "¿Cierto?$"
 
 
@@ -5548,14 +5548,14 @@ Route11_Text_Chico3Defeated:
 
 
 Route11_Text_Chico3PostBattle:
-	.string "A vosotros los ROCKETS os gusta\n"
-	.string "jugar con fuego, un día os\l"
-	.string "atraparán a todos.$"
+	.string "A vosotros, los ROCKET, os\n"
+	.string "gusta jugar con fuego, un\l"
+	.string "día os atraparán a todos.$"
 
 
 Route11_Text_MecanicoIntro:
-	.string "¡Espero que respetes el alumbrado\n"
-	.string "público ROCKET!$"
+	.string "¡Espero que respetes el\n"
+	.string "alumbrado público, ROCKET!$"
 
 
 Route11_Text_MecanicoDefeated:
@@ -6127,7 +6127,7 @@ Route8_Text_ChicaDefeated:
 
 
 Route8_Text_ChicaPostBattle:
-	.string "Los ROCKETS como vosotros jamás\n"
+	.string "Los ROCKET como vosotros jamás\n"
 	.string "podréis acceder a AZAFRÁN, todas\l"
 	.string "las entradas están protegidas por\l"
 	.string "guardias.$"

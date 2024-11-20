@@ -91,8 +91,8 @@ SafariZone_House5_Combate_Domador_Texto_7:
 .string "¡Mis bravos POKÉMON!$"
 
 SafariZone_House5_Combate_Domador_Texto_8:
-.string "({PLAYER} robó una MO03 de\n"
-	.string "DOMADOR SAFARI)$"
+.string "-{PLAYER} robó una MO03 de\n"
+	.string "DOMADOR SAFARI-$"
 
 SafariZone_House5_Combate_Domador_Texto_9:
 .string "Maldición, ¿como te atreves?\n"

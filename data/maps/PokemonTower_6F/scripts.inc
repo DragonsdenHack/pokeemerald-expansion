@@ -190,8 +190,8 @@ PokemonTower_6F_Combate_Fuji_Texto_9:
 .string "Te he fallado CUBONE, perdóname{PAUSE 5}…{PAUSE 5}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
-.string "({PLAYER} le entregó a FUJI el\n"
-	.string "CUBONE).$"
+.string "-{PLAYER} le entregó a\n"
+	.string "FUJI el CUBONE-$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10.1:
 .string "FUJI: Oh{PAUSE 35}…{PAUSE 35} Entonces…{PAUSE 35}, ¿tú{PAUSE 25}…{PAUSE 25}?$"

@@ -86,8 +86,8 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_6:
 .string "¡Imposible!$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó la MT15 HYPERRAYO de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "-{PLAYER} robó la MT15 HYPERRAYO de\n"
+	.string "AYUDANTE DE OAK-$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_8:
 .string "Esto vas a pagármelo ROCKET, voy a\n"
