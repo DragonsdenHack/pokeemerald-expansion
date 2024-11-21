@@ -423,6 +423,12 @@ applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
@@ -432,7 +438,14 @@ fadedefaultbgm
 delay 20
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+opendoor 20, 23
+waitdooranim
+addobject 9
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.2
+waitmovement 0x0
 removeobject 9
+closedoor 20, 23
+waitdooranim
 setvar VAR_UNUSED_0x40F7, 38
 release
 end
@@ -455,6 +468,12 @@ applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
@@ -465,10 +484,30 @@ fadedefaultbgm
 delay 20
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+opendoor 20, 23
+waitdooranim
+addobject 9
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.2
+waitmovement 0x0
 removeobject 9
+closedoor 20, 23
+waitdooranim
 setvar VAR_UNUSED_0x40F7, 38
 release
 end
+
+RocketHideout_4F_Mision_Andra_Fucsia_move_5.3:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+RocketHideout_4F_Mision_Andra_Fucsia_move_5.2:
+walk_up
+step_end
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
 .string "ANDRA: ¡Tarde como siempre!\n"
@@ -497,8 +536,10 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_3:
 .string "Sea como sea, me largo ya, mi\n"
 	.string "primera misión aquí no puede tener\l"
 	.string "ningún fallo, se cumplirá de forma\l"
-	.string "impecable.\l"
-	.string "A propósito, GIOVANNI me ha\l"
+	.string "impecable.$"
+
+RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1:
+	.string "A propósito, GIOVANNI me ha\n"
 	.string "preguntado por ti, deberías de\l"
 	.string "presentarte ya en su despacho,\l"
 	.string "puede que quiera algo concreto de\l"

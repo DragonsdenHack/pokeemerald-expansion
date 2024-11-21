@@ -66,9 +66,9 @@ end
 
 
 RocketHideout2F_Barrera_Texto_1:
-.string "(GIOVANNI en persona quiere verme,\n"
+.string "-GIOVANNI en persona quiere verme,\n"
 	.string "no puedo largarme sin siquiera\l"
-	.string "saber qué hacer aquí)$"
+	.string "saber qué hacer aquí-.$"
 
 RocketHideout2F_Barrera_Move_1:
 walk_in_place_right

@@ -713,11 +713,15 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Rojo_move2
 waitmovement 0x0
 special RemoveCameraObject
-delay 15
+delay 25
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+opendoor 29, 17
+waitdooranim
 addobject 7
-delay 30
+applymovement 7, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 29, 17
+waitdooranim
 applymovement 7, VermilionCity_Rojo_move3
 waitmovement 0x0
 delay 20

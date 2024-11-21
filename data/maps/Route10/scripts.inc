@@ -195,7 +195,9 @@ msgbox Route10_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route10_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 14, Route10_Combate_Andra_move_3
 waitmovement 0x0
+delay 10
 msgbox Route10_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, Route10_Combate_Andra_move_4
 applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_4
 waitmovement 0x0
@@ -205,6 +207,12 @@ waitmovement 0x0
 special RemoveCameraObject
 delay 30
 msgbox Route10_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route10_Combate_Andra_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route10_Combate_Andra_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route10_Combate_Andra_Texto_4.3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route10_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
@@ -223,35 +231,76 @@ applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_1
 waitmovement 0
 playse 559
 msgbox Route10_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route10_Combate_Andra_Texto_8.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_3, Route10_Combate_Andra_Texto_9
 msgbox Route10_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 14, Route10_Combate_Andra_move_3
 waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, Route10_Combate_Andra_move_3.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox Route10_Combate_Andra_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, Route10_Combate_Andra_move_7
 waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_7
-fadescreen 1
 delay 20
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_7.2
+applymovement 14, Route10_Combate_Andra_move_7.1
+waitmovement 0x0
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
 removeobject 14
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 34
 release
 end
 
+Route10_Combate_Andra_move_7.2:
+delay_16
+face_up
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+face_up
+step_end
+
+Route10_Combate_Andra_move_7.1:
+walk_up
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Route10_Combate_Andra_move_3.1:
+walk_in_place_down
+face_player
+step_end
+
 Route10_Combate_Andra_Texto_1:
-.string "ANDRA: ¡Hey {PLAYER}!\n"
+.string "ANDRA: ¡Hey, {PLAYER}!\n"
 	.string "¿Aprovechando tu merecido tiempo\l"
 	.string "libre después de un buen trabajo?$"
 
 Route10_Combate_Andra_Texto_2:
-.string "Al parecer más al sur de esta\n"
+.string "Al parecer, más al sur de esta\n"
 	.string "ruta, cruzando el TÚNEL ROCA, se\l"
-	.string "halla PUEBLO LAVANDA, conocido por\l"
-	.string "su enorme cementerio y sus\l"
-	.string "supuestos espíritus malignos,\l"
+	.string "halla PUEBLO LAVANDA.\l"
+	.string "Es conocido por su gran cementerio\l"
+	.string "y sus supuestos espíritus malignos,\l"
 	.string "¿será cierta la leyenda?$"
 
 Route10_Combate_Andra_Texto_3:
@@ -260,32 +309,35 @@ Route10_Combate_Andra_Texto_3:
 	.string "ir más lejos, mira ese lugar.$"
 
 Route10_Combate_Andra_Texto_4:
-.string "ANDRA: Se hace llamar CENTRAL\n"
-	.string "ENERGÍA, está repleta de POKÉMON\l"
-	.string "ELÉCTRICOS, yo misma he estado\l"
-	.string "entrenando un buen rato allí hasta\l"
-	.string "hace poco, es un lugar\l"
+.string "ANDRA: Se hace llamar CENTRAL ENERGÍA.$"
+
+Route10_Combate_Andra_Texto_4.1:
+	.string "Está repleta de POKÉMON ELÉCTRICO,\n"
+	.string "estuve entrenando un buen rato allí\l"
+	.string "hasta hace poco, es un lugar\l"
 	.string "completamente abandonado, con\l"
-	.string "VOLTORBS que explotan en tu cara,\l"
+	.string "VOLTORB que explotan en tu cara,\l"
 	.string "recipientes de acero con toda la\l"
 	.string "pinta de ser radiactivos,\l"
 	.string "MAGNEMITES y MAGNETON pululando\l"
-	.string "alrededor de ellos{PAUSE 25}…{PAUSE 25}todo indica a\l"
-	.string "que ciertas prácticas poco éticas\l"
-	.string "se llevaron a cabo en este lugar\l"
-	.string "en tiempos pretéritos, a saber con\l"
-	.string "qué fin, sea como sea no he podido\l"
-	.string "averiguar más. La policía llegó\l"
-	.string "hace poco con una orden oficial de\l"
-	.string "protección, guarda y custodia de\l"
-	.string "la CENTRAL firmada por el COMITÉ\l"
-	.string "DE LA LIGA, según ellos -con el\l"
-	.string "fin de proteger los lugares más\l"
-	.string "icónicos y la diversidad de\l"
-	.string "especies de la región-. Tiene\l"
-	.string "gracia, seguro que después dejan\l"
-	.string "campar a sus anchas por el lugar a\l"
-	.string "cualquier crío de 10 años.$"
+	.string "alrededor de ellos{PAUSE 25}…{PAUSE 25}$"
+
+Route10_Combate_Andra_Texto_4.2:
+	.string "Todo apunta a que ciertas prácticas\n"
+	.string "poco éticas se llevaron a cabo en este\l"
+	.string "lugar.\l"
+	.string "Sea como sea, no he podido averiguar\l"
+	.string "más; la policía llegó hace poco con una\l"
+	.string "orden oficial de protección, guarda y\l"
+	.string "custodia firmada por el COMITÉ de la\l"
+	.string "LIGA POKÉMON.$"
+	
+Route10_Combate_Andra_Texto_4.3:
+	.string "Según ellos,'con el fin de proteger los\n"
+	.string "lugares más icónicos y la diversidad de\l"
+	.string "especies de la región'. Tiene gracia,\l"
+	.string "seguro que después dejan campar a sus\l"
+	.string "anchas a cualquier crío de 10 años.$"
 
 Route10_Combate_Andra_Texto_5:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -305,59 +357,58 @@ Route10_Combate_Andra_Texto_7:
 .string "Podríamos proponerle a GIOVANNI un\n"
 	.string "asalto a la CENTRAL, a su debido\l"
 	.string "tiempo claro, primero deberemos de\l"
-	.string "demostrarle lo que valemos, pero\l"
-	.string "un POKÉMON con esa presencia debe\l"
-	.string "de ser muy fuerte, quizás nuestros\l"
-	.string "superiores de KANTO sepan algo\l"
-	.string "más.$"
+	.string "demostrarle lo que valemos.\l"
+	.string "Pero{PAUSE 15}…{PAUSE 15} un POKÉMON con esa presencia\l"
+	.string "debe ser muy fuerte, quizás nuestros\l"
+	.string "superiores de KANTO sepan algo más.$"
 
 Route10_Combate_Andra_Texto_8:
 .string "Ahora que lo pienso, ya ha pasado\n"
 	.string "bastante desde la última vez que\l"
 	.string "combatimos, no hay duda de que has\l"
-	.string "sobrepasado expectativas\l"
-	.string "derrotando a nuestro entonces\l"
-	.string "superior en el MT.MOON, también a\l"
+	.string "superado expectativas, derrotando a\l"
+	.string "nuestro superior en el MT.MOON, a\l"
 	.string "BILL y después a un CAPITÁN con\l"
-	.string "experiencia como el del SS.ANNE,\l"
-	.string "pero{PAUSE 25}…{PAUSE 25}¿sabes qué?\l"
-	.string "Yo no me he quedado atrás {PLAYER},\l"
-	.string "te dije que sería la RECLUTA más\l"
+	.string "experiencia como el del SS.ANNE.$"
+
+Route10_Combate_Andra_Texto_8.1:
+	.string "Pero{PAUSE 25}…{PAUSE 25} ¿sabes qué?\n"
+	.string "Yo no me he quedado atrás, {PLAYER}.\l"
+	.string "Te dije que sería la ROCKET más\l"
 	.string "fuerte de toda la organización y\l"
-	.string "lo mantengo, ya somos RECLUTAS DE\l"
-	.string "ALTO RANGO, la cuestión es, ¿¡qué\l"
-	.string "RECLUTA DE ALTO RANGO es mejor\l"
-	.string "ENTRENADOR?!$"
+	.string "lo mantengo; ya somos RECLUTAS DE\l"
+	.string "ALTO RANGO, la cuestión es{PAUSE 15}…{PAUSE 15}\l"
+	.string "¿¡qué ALTO RANGO es\l"
+	.string "mejor ENTRENADOR?!$"
 
 Route10_Combate_Andra_Texto_9:
-.string "Entonces sigue sin ser suficiente,\n"
-	.string "jejeje, gracias por elevar más el\l"
-	.string "nivel.$"
+.string "Entonces, aún no es suficiente.\n"
+	.string "Jejeje, gracias por elevar más\l"
+	.string "el nivel.$"
 
 Route10_Combate_Andra_Texto_10:
 .string "ANDRA: No me gustaría tenerte como\n"
-	.string "enemigo {PLAYER}, sigo sin entender\l"
-	.string "como ese misterioso entrenador\l"
+	.string "enemigo, {PLAYER}. Sigo sin entender\l"
+	.string "cómo ese misterioso ENTRENADOR\l"
 	.string "vestido de rojo pudo derrotarte en\l"
-	.string "el MT.MOON, debe de ser un\l"
-	.string "auténtico superdotado del combate.$"
+	.string "el MT.MOON, debe ser un auténtico\l"
+	.string "superdotado para el combate.$"
 
 Route10_Combate_Andra_Texto_11:
 .string "Sea como sea, no importa, ese tipo\n"
 	.string "no sabe con quién se mete, ahora\l"
-	.string "que nos trasladan a AZULONA, el\l"
-	.string "centro de operaciones del TEAM\l"
-	.string "ROCKET, vamos a hacernos un lugar\l"
-	.string "entre la élite del TEAM ROCKET.\l"
-	.string "¡Ese pobre chico deseará no\l"
-	.string "haberse metido con nosotros en el\l"
-	.string "MT.MOON!$"
+	.string "que nos trasladan a AZULONA, nos\l"
+	.string "haremos un lugar entre la élite.$"
+
+Route10_Combate_Andra_Texto_11.1:
+	.string "¡Ese pobre chico deseará no\n"
+	.string "haberse metido con nosotros\l"
+	.string "en el MT.MOON!$"
 
 Route10_Combate_Andra_Texto_12:
-.string "ANDRA: Bah, me vuelvo al cuartel\n"
-	.string "{PLAYER}, la máquina\l"
-	.string "teletransportadora debe de estar\l"
-	.string "casi lista, ultima tus\l"
+.string "ANDRA: Bah, me vuelvo al cuartel.\n"
+	.string "La máquina teletransportadora debe\l"
+	.string "estar casi lista, ultima tus\l"
 	.string "preparativos y no tardes:\l"
 	.string "¡CIUDAD AZULONA ESPERA!$"
 
@@ -410,6 +461,7 @@ step_end
 Route10_Combate_Andra_move_7:
 walk_in_place_up
 walk_in_place_right
+face_player
 step_end
 
 Route10_Combate_Andra_move_8:

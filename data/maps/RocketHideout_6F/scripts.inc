@@ -1741,8 +1741,15 @@ waitmovement 0x0
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_7
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_7
+waitmovement 0x0
+waitse
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_7 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_6
@@ -1751,15 +1758,29 @@ msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_7
 applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_7
 waitmovement 0x0
-msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_11 MSGBOX_AUTOCLOSE
+waitse
+delay 10
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_12 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_13.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4.1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_13.3 MSGBOX_AUTOCLOSE
 delay 10
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_8 MSGBOX_AUTOCLOSE
 delay 10
@@ -1772,10 +1793,31 @@ msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_15 MSGBOX_AUTOCLOSE
 applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8.1
+waitmovement 0x0
+delay 15
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4.2
+waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4.3
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_17.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_6
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_18.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4
 waitmovement 0x0
 applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
@@ -1785,6 +1827,7 @@ applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_9
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_10
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_20 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move6.2
 applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_11
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
@@ -1794,13 +1837,41 @@ setvar VAR_UNUSED_0x40F7, 33
 release
 end
 
+RocketHideout_6F_Petrel_Post_SSanne_move_4.2:
+face_up
+step_end
+
+RocketHideout_6F_Petrel_Post_SSanne_move_4.3:
+face_left
+step_end
+
+RocketHideout_6F_Petrel_Post_SSanne_move_4.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+RocketHideout_6F_Petrel_Post_SSanne_move_8.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_1:
-.string "PETREL: Excelente trabajo\n"
-	.string "reclutas, GIOVANNI estará\l"
-	.string "expectante por empezar a\l"
-	.string "investigar el contenido de esa\l"
-	.string "reliquia.$"
+.string "PETREL: Excelente trabajo, reclutas.\n"
+	.string "GIOVANNI estará expectante por\l"
+	.string "empezar a investigar el contenido\l"
+	.string "de esa reliquia.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_2:
 .string "PETREL: Aquí tenéis vuestra\n"
@@ -1810,8 +1881,8 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
 	.string "¡Te has embolsado 80.000¥!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
-.string "PETREL: Además tomad esto, 20\n"
-	.string "SUPERBALLS para cada uno, dos\l"
+.string "PETREL: Además, tomad esto.\n"
+	.string "20 SUPERBALL para cada uno; dos\l"
 	.string "reclutas como vosotros deben de\l"
 	.string "tener medios a su disposición.$"
 
@@ -1838,12 +1909,11 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_8:
 .string "PETREL: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_9:
-.string "PETREL: Cuando llegásteis aquí, en\n"
-	.string "vuestra primera misión del\l"
-	.string "MT.MOON, ya mostrasteis cierta\l"
+.string "PETREL: En vuestra primera misión,\n"
+	.string "ya en el MT.MOON, mostrasteis cierta\l"
 	.string "peculiaridad que se salía del\l"
-	.string "estereotipo del soldado medio, os\l"
-	.string "di una oportunidad con dos\l"
+	.string "estereotipo del soldado medio.\l"
+	.string "Se os dio una oportunidad, con dos\l"
 	.string "misiones de cierta complejidad\l"
 	.string "para poneros a prueba, y habéis\l"
 	.string "cumplido con las expectativas.$"
@@ -1852,70 +1922,71 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_10:
 .string "A la vista de los recientes\n"
 	.string "acontecimientos, el mismo GIOVANNI\l"
 	.string "me informó de que, en caso de\l"
-	.string "cumplir satisfactoriamente con\l"
-	.string "esta misión, seáis trasladados\l"
-	.string "inmediatamente a la base principal\l"
-	.string "en AZULONA, para trabajar\l"
-	.string "directamente bajo sus órdenes.$"
+	.string "cumplir también con el robo en el\l"
+	.string "SS.ANNE, seáis trasladados a la\l"
+	.string "base principal de inmediato.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_11:
-.string "PETREL: O en otras palabras, a\n"
-	.string "partir de ahora formaréis parte de\l"
-	.string "la guardia personal de GIOVANNI,\l"
-	.string "el último escalón en la jerarquía\l"
-	.string "de nuestra organización. Sentíos\l"
-	.string "afortunados y sobre todo dad la\l"
-	.string "talla, ahí trabajaréis con la\l"
-	.string "maldita élite de nuestra\l"
+.string "PETREL: En otras palabras, a partir de\n"
+	.string "ahora formaréis parte de la guardia\l"
+	.string "guardia personal de GIOVANNI.$"
+
+RocketHideout_6F_Petrel_Post_SSanne_Texto_11.1:
+	.string "Sentíos afortunados y sobre todo\n"
+	.string "dad la talla, ahí trabajaréis con\l"
+	.string "la maldita élite de nuestra\l"
 	.string "organización.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_12:
-	.string "ANDRA: ¡Estamos preparados\n"
-	.string "ADMIN.PETREL!$"
+	.string "ANDRA: ¡Estamos preparados,\n"
+	.string "ADMINISTRADOR PETREL!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_13:
-.string "PETREL: Bien, vuestro traslado se\n"
+.string "PETREL: Bien. Vuestro traslado se\n"
 	.string "efectuará cuando terminemos de\l"
-	.string "ajustar las máquinas de\l"
-	.string "teletransporte, de modo que no\l"
-	.string "será necesario ir hasta allí\l"
-	.string "cruzando toda KANTO a pie,\l"
-	.string "mientras tanto, os habéis ganado\l"
-	.string "un merecido descanso, desde\l"
+	.string "ajustar la red de teletransporte.\l"
+	.string "Así, no será necesario ir hasta\l"
+	.string "CIUDAD AZULONA a pie.$"
+
+RocketHideout_6F_Petrel_Post_SSanne_Texto_13.1:
+	.string "Mientras tanto, os habéis ganado\n"
+	.string "un merecido descanso; desde\l"
 	.string "vuestra llegada habéis encadenado\l"
 	.string "tres misiones seguidas a buen\l"
-	.string "rendimiento, de modo que os\l"
-	.string "concedo este periodo hasta vuestro\l"
-	.string "traslado como tiempo libre, os\l"
-	.string "recomiendo relajaros, conocer\l"
-	.string "KANTO ya que no sois de aquí,\l"
-	.string "aprovechad también para entrenar a\l"
+	.string "rendimiento; de modo que os\l"
+	.string "concedo este periodo, hasta vuestro\l"
+	.string "traslado, como tiempo libre.$"
+	
+RocketHideout_6F_Petrel_Post_SSanne_Texto_13.2:
+	.string "Recomiendo que os relajéis y\n"
+	.string "exploréis KANTO.\l"
+	.string "Aprovechad también para entrenar a\l"
 	.string "vuestros POKÉMON, capturar algunos\l"
 	.string "nuevos, y sobretodo prepararos\l"
 	.string "mentalmente para vuestro traslado,\l"
 	.string "deberéis de presentaros en las\l"
 	.string "mejores condiciones posibles ante\l"
-	.string "GIOVANNI, este lugar es un\l"
-	.string "hediondo cobertizo infestado de\l"
-	.string "RATATTAS comparado con las limpias\l"
-	.string "e inmaculadas oficinas de nuestros\l"
-	.string "subterráneos en AZULONA.$"
+	.string "GIOVANNI.$"
+	
+RocketHideout_6F_Petrel_Post_SSanne_Texto_13.3:
+	.string "Esta BASE es un hediondo cobertizo\n"
+	.string "infestado de RATATTAS, comparado con\l"
+	.string "las limpias e inmaculadas oficinas de\l"
+	.string "nuestros subterráneos en AZULONA.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_14:
-.string "Y otra cosa más, a vuestra llegada\n"
-	.string "dije que os daría ciertas nociones\l"
-	.string "generales sobre KANTO, y sobre\l"
-	.string "como comportarse y actuar en las\l"
-	.string "ciudades, pero dada la urgencia de\l"
-	.string "vuestra primera misión en el\l"
-	.string "MT.MOON, al final os quedásteis\l"
-	.string "sin esa formación básica.$"
+.string "Y otra cosa más, a vuestra llegada, os\n"
+	.string "prometí daros ciertas nociones\l"
+	.string "generales sobre KANTO.\l"
+	.string "Pero la urgencia de la misión en\l"
+	.string "el MT.MOON, al final hizo que os\l"
+	.string "quedárais sin esa formación básica.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_15:
 .string "Ahora que ya lleváis cierto tiempo\n"
-	.string "aquí y la cosa está más calmada os\l"
-	.string "pregunto, ¿qué opinión os merece\l"
-	.string "la gente de KANTO?$"
+	.string "aquí, y la cosa está más calmada,\l"
+	.string "os pregunto: ¿Qué opinión os\l"
+	.string "merece la gente de KANTO?$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_16:
 .string "ANDRA: Hay cierta diferencia con\n"
@@ -1924,38 +1995,46 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_16:
 	.string "estigmatizado, la gente te señala\l"
 	.string "con el dedo de forma despectiva,\l"
 	.string "aún sin tú haber dado indicios de\l"
-	.string "hacer algo malo, en general la\l"
-	.string "población de KANTO nos odia, es\l"
+	.string "hacer algo malo.$"
+	
+RocketHideout_6F_Petrel_Post_SSanne_Texto_16.1:
+	.string "En general, KANTO nos odia, es\n"
 	.string "como si{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17:
 .string "PETREL: Les hubieran convencido de\n"
 	.string "que los malos de la película somos\l"
-	.string "nosotros, exacto ANDRA, exacto. Es\l"
-	.string "el poder de una correcta campaña\l"
-	.string "de desprestigio, manipulación de\l"
-	.string "la información y los hechos y\l"
-	.string "demagogia barata. Somos una\l"
-	.string "organización privada a la que no\l"
-	.string "le queda otra opción que recurrir\l"
-	.string "al crimen organizado para\l"
-	.string "recuperar lo que es suyo, no un\l"
-	.string "sindicato del crimen amoral y\l"
-	.string "asesino como quieren hacer ver\l"
+	.string "nosotros. Exacto, ANDRA, exacto.$"
+	
+	
+RocketHideout_6F_Petrel_Post_SSanne_Texto_17.1:
+	.string "LANCE gobierna ahora KANTO, y una\n"
+	.string "consecuencia de ello es que puede\l"
+	.string "manipular el relato a su antojo.$"
+
+RocketHideout_6F_Petrel_Post_SSanne_Texto_17.2:
+	.string "La realidad es que somos una organi-\n"
+	.string "zación privada a la que no le queda\l"
+	.string "más opción que recurrir al crimen\l"
+	.string "organizado para recuperar lo que es\l"
+	.string "suyo; no un sindicato del crimen amoral\l"
+	.string "y asesino como quieren hacer ver\l"
 	.string "desde las puertas de MESETA AÑIL.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_18:
-.string "Ya os iréis enterando de como\n"
+.string "Ya os iréis enterando de cómo\n"
 	.string "funcionan las cosas por aquí,\l"
-	.string "especialmente ahora que iréis a\l"
-	.string "AZULONA, GIOVANNI seguro que\l"
-	.string "estará encantado de dar detalles a\l"
-	.string "dos jóvenes competentes como\l"
-	.string "vosotros, eso es todo por mi parte\l"
-	.string "reclutas, aprovechad este tiempo\l"
-	.string "libre que os habéis ganado, ya os\l"
-	.string "avisaré cuando la máquina esté\l"
-	.string "lista.$"
+	.string "especialmente ahora, que iréis\l"
+	.string "a CIUDAD AZULONA.\l"
+	.string "GIOVANNI estará encantado de dar\l"
+	.string "detalles a dos jóvenes competentes\l"
+	.string "como vosotros.$"
+	
+RocketHideout_6F_Petrel_Post_SSanne_Texto_18.1:
+	.string "Eso es todo. Aprovechad el tiempo\n"
+	.string "libre que os habéis ganado, y\l"
+	.string "cuando la máquina esté lista,\l"
+	.string "recibiréis una llamada.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_19:
 .string "ANDRA: ¡A SUS ÓRDENES ADMIN.PETREL!$"
@@ -1963,10 +2042,10 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_19:
 RocketHideout_6F_Petrel_Post_SSanne_Texto_20:
 .string "¡{PLAYER}!\n"
 	.string "Voy a entrenar por las RUTAS 9 y\l"
-	.string "10 al este de CIUDAD CELESTE,\l"
-	.string "ahora que tenemos CORTE podremos\l"
-	.string "acceder a ellas, si me buscas ahí\l"
-	.string "estaré.$"
+	.string "10, al este de CIUDAD CELESTE.\l"
+	.string "Ahora que tenemos CORTE podremos\l"
+	.string "acceder a ellas, ¡si me buscas ahí\l"
+	.string "estaré!$"
 
 
 RocketHideout_6F_Petrel_Post_SSanne_move_1:
@@ -2173,7 +2252,7 @@ RocketHideout_6F_Escena_Lance_Texto_13:
 	.string "ahora?$"
 
 RocketHideout_6F_Escena_Lance_Texto_14:
-	.string "PETREL: Tranquilízate RECLUTA.\n"
+	.string "PETREL: Tranquilízate, RECLUTA.\n"
 	.string "Tenemos recursos más que de sobra\l"
 	.string "para apañárnoslas solos. Lo único que\l"
 	.string "esto significa es que nos ven como una\l"
@@ -2231,6 +2310,9 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Aviso_Cientifico_Move_2
 waitmovement 0x0
 delay 10
 msgbox RocketHideout_6F_Aviso_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_6F_Aviso_Cientifico_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 26, RocketHideout_6F_Aviso_Cientifico_Move_2
 waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 36
@@ -2244,8 +2326,10 @@ RocketHideout_6F_Aviso_Cientifico_Texto_1:
 	.string "concluir el proyecto de conexión\l"
 	.string "entre bases vía teletransporte,\l"
 	.string "puedes usarlo a partir de ahora\l"
-	.string "cuando quieras, tu compañera\l"
-	.string "ANDRA acaba de teletransportarse a\l"
+	.string "cuando quieras.$"
+
+RocketHideout_6F_Aviso_Cientifico_Texto_1.1:
+	.string "ANDRA acaba de teletransportarse a\n"
 	.string "la base de AZULONA tal como se os\l"
 	.string "ha asignado, están a la espera de\l"
 	.string "tu llegada al cuartel para\l"

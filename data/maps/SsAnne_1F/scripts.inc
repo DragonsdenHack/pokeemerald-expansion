@@ -64,6 +64,7 @@ waitmovement 0x0
 msgbox SsAnne_1F_Andra_Vuelta_Text_1 MSGBOX_DEFAULT
 delay 10
 playse SE_DING_DONG
+waitse
 delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_1F_Andra_Vuelta_move_3
@@ -73,7 +74,9 @@ msgbox SsAnne_1F_Andra_Vuelta_Text_2 MSGBOX_DEFAULT
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_1F_Andra_Vuelta_move_5
 waitmovement 0x0
+delay 10
 msgbox SsAnne_1F_Andra_Vuelta_Text_3 MSGBOX_DEFAULT
+delay 10
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_HM01
 waitfanfare
@@ -88,9 +91,8 @@ release
 end
 
 SsAnne_1F_Andra_Vuelta_Text_1:
-.string "ANDRA: ¡Lo hemos conseguido,\n"
-	.string "{PLAYER}!\l"
-	.string "Ese CAPITÁN era duro, eh. Nunca\l"
+.string "ANDRA: ¡Lo hemos logrado, {PLAYER}!\n"
+	.string "Ese CAPITÁN era duro, ¿eh? Nunca\l"
 	.string "había visto esos POKÉMON, deben de\l"
 	.string "venir de otras regiones. Sea como\l"
 	.string "sea, tenemos esa reliquia{PAUSE 5}…{PAUSE 5}$"
@@ -98,7 +100,7 @@ SsAnne_1F_Andra_Vuelta_Text_1:
 SsAnne_1F_Andra_Vuelta_Text_2:
 .string "SS.ANNE: Aviso para todos los\n"
 	.string "tripulantes del barco. La fiesta\l"
-	.string "se da por finalizada por favor\l"
+	.string "se da por finalizada, por favor\l"
 	.string "vuelvan todos a sus camarotes para\l"
 	.string "facilitar al personal la recogida\l"
 	.string "de mesas y demás material.$"
@@ -110,8 +112,8 @@ SsAnne_1F_Andra_Vuelta_Text_3:
 	.string "son de utilidad a ti también.$"
 
 SsAnne_1F_Andra_Vuelta_Text_4:
-.string "ANDRA: Nos vemos en el cuartel\n"
-	.string "{PLAYER}.$"
+.string "ANDRA: Nos vemos en\n"
+	.string "el cuartel, {PLAYER}.$"
 
 SsAnne_1F_Andra_Vuelta_move_1:
 walk_up

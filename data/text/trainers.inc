@@ -5880,8 +5880,8 @@ SsAnne24F_Text_Marinero2PostBattle:
 
 
 Route9_Text_ChicaIntro:
-	.string "¡Vamos allá pero no robes mis\n"
-	.string "POKÉMON!$"
+	.string "¡Vamos allá, pero no\n"
+	.string "robes mis POKÉMON!$"
 
 
 Route9_Text_ChicaDefeated:
@@ -5914,8 +5914,8 @@ Route9_Text_HikerPostBattle:
 
 Route9_Text_ChicoIntro:
 	.string "No pareces el típico ROCKET que\n"
-	.string "nunca sale del círculo\l"
-	.string "ZUBAT-RATATTA…\l"
+	.string "siempre usa a ZUBAT o RATATTA…\l"
+	.string "\l"
 	.string "¡En guardia!$"
 
 
@@ -5960,9 +5960,7 @@ Route9_Text_Chico2PostBattle:
 
 Route9_Text_Cazabichos2Intro:
 	.string "¡A los ROCKET no les gustan los\n"
-	.string "POKÉMON TIPO BICHO!\l"
-	.string "¡Pero SCYTHER o PINSIR irían\l"
-	.string "perfectos para vuestra élite!$"
+	.string "POKÉMON TIPO BICHO!$"
 
 
 Route9_Text_Cazabichos2Defeated:
@@ -5970,16 +5968,14 @@ Route9_Text_Cazabichos2Defeated:
 
 
 Route9_Text_Cazabichos2PostBattle:
-	.string "¡A los ROCKET no les gustan los\n"
-	.string "POKÉMON TIPO BICHO!\l"
-	.string "¡Pero SCYTHER o PINSIR irían\l"
+	.string "¡Creo que SCYTHER o PINSIR irían\n"
 	.string "perfectos para vuestra élite!$"
 
 
 Route9_Text_Hiker2Intro:
 	.string "¡Hahaha!\n"
-	.string "¡Voy a ajusticiarte pequeño ladrón\l"
-	.string "ROCKET!$"
+	.string "¡Voy a ajusticiarte pequeño\l"
+	.string "ladrón ROCKET!$"
 
 
 Route9_Text_Hiker2Defeated:

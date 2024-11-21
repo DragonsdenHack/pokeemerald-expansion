@@ -104,12 +104,11 @@ release
 end
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
-.string "Aléjate de mí sucio ROCKET, soy\n"
-	.string "ayudante directo del PROFESOR OAK\l"
-	.string "y parte de la élite de esta\l"
-	.string "región, alguien de tu nivel no\l"
-	.string "puede ni cruzar una mirada\l"
-	.string "conmigo.$"
+.string "Aléjate de mí, ROCKET inmundo.\n"
+	.string "Soy ayudante directo del PROF.OAK\l"
+	.string "y parte de la élite de esta región,\l"
+	.string "alguien de tu nivel no puede cruzar\l"
+	.string "una sola mirada conmigo.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_2:
 .string "…\n"
@@ -121,7 +120,7 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_3:
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_4:
 .string "No tienes idea de con quién te\n"
-	.string "estás metiendo ROCKET, cuando OAK\l"
+	.string "estás metiendo, ROCKET. Cuando OAK\l"
 	.string "se entere de esto no volverás a\l"
 	.string "ver la luz del sol.$"
 
@@ -138,15 +137,15 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
 .string "¡NO!\n"
-	.string "¡Un ROCKET no puede ser tan\l"
-	.string "fuerte!\l"
+	.string "¡Un ROCKET no puede\l"
+	.string "ser tan fuerte!\l"
 	.string "¡Cuando avise a las autoridades me\l"
 	.string "devolverás lo que me has robado\l"
 	.string "multiplicado por 10!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_9:
-.string "Eso es, así me gusta. La basura al\n"
-	.string "basurero.$"
+.string "Eso es, así me gusta.\n"
+	.string "La basura al basurero.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

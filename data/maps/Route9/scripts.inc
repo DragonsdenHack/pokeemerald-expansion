@@ -133,9 +133,12 @@ playse SE_PIN
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Route9_Aviso_Petrel_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route9_Aviso_Petrel_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 20
 setvar VAR_UNUSED_0x40F7, 35
 release
@@ -146,11 +149,10 @@ Route9_Aviso_Petrel_Texto_1:
 	.string "El sistema de teletransporte está\l"
 	.string "listo para ser puesto en práctica,\l"
 	.string "vuelve al cuartel inmediatamente y\l"
-	.string "prepárate para tu traslado\l"
-	.string "inmediato a la base de CIUDAD\l"
-	.string "AZULONA.$"
+	.string "prepárate para tu traslado inmediato\l"
+	.string "a la base de CIUDAD AZULONA.$"
 
 Route9_Aviso_Petrel_Move_1:
-emote_exclamation_mark
 walk_in_place_left
+emote_exclamation_mark
 step_end

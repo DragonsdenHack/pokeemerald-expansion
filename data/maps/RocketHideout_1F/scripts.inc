@@ -104,7 +104,7 @@ release
 end
 
 RocketHideout1F_Text_7:
-.string "Así que ISLA INTA eh.\n"
+.string "Así que ISLA INTA, ¿eh?\n"
 .string "¿Hay POKÉMON raros por esos\l"
 .string "lugares o qué?$"
 

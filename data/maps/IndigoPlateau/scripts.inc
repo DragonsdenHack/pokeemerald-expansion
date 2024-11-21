@@ -19,17 +19,23 @@ map_script_2 VAR_UNUSED_0x40DC, 12, IndigoPlateau_Escena_Lance
 	.2byte 0
 
 IndigoPlateau_Lance_Discurso::
+playse SE_APPLAUSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, IndigoPlateau_Lance_Discurso_move_1
 waitmovement 0x0
 special RemoveCameraObject
 delay 50
-playse SE_SLIDING_DOOR
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 addobject 1
-delay 20
-applymovement 1, IndigoPlateau_Lance_Discurso_move_2
+playse SE_SLIDING_DOOR
+opendoor 11, 2
+waitdooranim
+addobject 1
+applymovement 1, VerdanturfTown_Move_9
 waitmovement 0x0
+closedoor 11, 2
+waitdooranim
+delay 20
 msgbox RocketHideout_6F_Escena_Lance_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 1, IndigoPlateau_Lance_Discurso_move_3
 waitmovement 0x0
@@ -56,14 +62,23 @@ waitmovement 0x0
 msgbox RocketHideout_6F_Escena_Lance_Texto_9 MSGBOX_AUTOCLOSE
 delay 40
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
-delay 60
+waitmoncry
+setfieldeffectargument 1, 1
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+addobject 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 35
 playse SE_PIN
 applymovement 5, IndigoPlateau_Lance_Discurso_move_6
 applymovement 6, IndigoPlateau_Lance_Discurso_move_6
+delay 5
 applymovement 21, IndigoPlateau_Lance_Discurso_move_6
 applymovement 3, IndigoPlateau_Lance_Discurso_move_6
+delay 5
 applymovement 2, IndigoPlateau_Lance_Discurso_move_6
 applymovement 10, IndigoPlateau_Lance_Discurso_move_6
+delay 5
 applymovement 4, IndigoPlateau_Lance_Discurso_move_6
 applymovement 7, IndigoPlateau_Lance_Discurso_move_6
 waitmovement 0x0
@@ -75,12 +90,23 @@ delay 30
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+opendoor 11, 2
+waitdooranim
+applymovement 1, IndigoPlateau_Lance_Discurso_move_5.1
+waitmovement 0x0
 removeobject 1
+closedoor 11, 2
+waitdooranim
 setvar VAR_UNUSED_0x40F7, 31
 delay 80
 warpsilent MAP_ROCKET_HIDEOUT_6F, 5, 27
 release
 end
+
+IndigoPlateau_Lance_Discurso_move_5.1:
+walk_up
+step_end
 
 RocketHideout_6F_Escena_Lance_Texto_1:
 .string "LANCE: Población de KANTO, os habla\n"
