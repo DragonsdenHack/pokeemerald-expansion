@@ -24,7 +24,7 @@ end
 
 CeladonCity_Restaurant_Text_2:
 .string "¿MONEDERO?\n"
-.string "¡Cómprate una vida ROCKET!$"
+.string "¡Cómprate una vida, ROCKET!$"
 
 
 

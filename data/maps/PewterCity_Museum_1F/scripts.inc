@@ -304,7 +304,7 @@ PewterCity_Museum_1F_Miguel_Texto_16:
 	.string "agradecimiento joven ROCKET.$"
 
 PewterCity_Museum_1F_Miguel_Texto_17:
-.string "¡HAS RECIBIDO UN OMANYTE AL NV:30!$"
+.string "¡HAS RECIBIDO UN OMANYTE AL NV.30!$"
 
 PewterCity_Museum_1F_Miguel_Texto_18:
 .string "PETREL: Sí que te has hecho más\n"

@@ -619,7 +619,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_11:
 	.string "completo los poderes mentales.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_10:
-.string "¡¡OBTUVISTE UN FENNEKIN AL NV:15!!$"
+.string "¡¡OBTUVISTE UN FENNEKIN AL NV.15!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9:
 	.string "40 años después, de nuevo puedo decir\n"

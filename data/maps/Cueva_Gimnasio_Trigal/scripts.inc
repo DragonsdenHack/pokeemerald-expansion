@@ -154,7 +154,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
 	.string "Este POKÉMON es para ti.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:
-.string "¡¡OBTUVISTE UN VULLABY AL NV:25!!$"
+.string "¡¡OBTUVISTE UN VULLABY AL NV.25!!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11:
 .string "Olvídate del estereotipo de TIPO\n"

@@ -168,7 +168,7 @@ AzaleaGym_Combate_Cesar_Texto_9.2:
 	.string "de mis tantos viajes.$"
 
 AzaleaGym_Combate_Cesar_Texto_10:
-.string "¡¡OBTUVISTE UN GRUBBIN AL NV:25!!$"
+.string "¡¡OBTUVISTE UN GRUBBIN AL NV.25!!$"
 
 AzaleaGym_Combate_Cesar_Texto_11:
 .string "VIKAVOLT es uno de mis TIPO BICHO\n"

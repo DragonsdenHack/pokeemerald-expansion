@@ -52,6 +52,8 @@ delay 20
 playse SE_PIN
 applymovement 1, VermilionCity_House1_Secundaria_Magikarp_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
@@ -59,6 +61,8 @@ msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_6 MSGBOX_DEFAULT
 givemon SPECIES_MAGIKARP, 5, ITEM_RARE_CANDY
 waitfanfare
 msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_7.1 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x409D, 3
 release
 end
@@ -109,8 +113,8 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_5:
 	.string "más.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_6:
-.string "¡¡OBTUVISTE UN MAGIKARP AL\n"
-	.string "NV:5!!$"
+.string "¡¡OBTUVISTE UN MAGIKARP\n"
+	.string "AL NV.5!!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 .string "¿Cómo?\n"
@@ -123,8 +127,10 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 	.string "tendrás a uno de los mejores\l"
 	.string "POKÉMON de todo KANTO, un DRAGÓN\l"
 	.string "en toda regla que el mismísimo\l"
-	.string "LANCE tiene en su equipo.\l"
-	.string "Por si fuera poco, te he dado un\l"
+	.string "LANCE tiene en su equipo.$"
+
+VermilionCity_House1_Secundaria_Magikarp_Texto_7.1:
+	.string "Por si fuera poco, te he dado un\n"
 	.string "CARAMELORARO de regalo equipado en\l"
 	.string "el MAGIKARP para que se te haga\l"
 	.string "menos duro entrenarlo, muy pocos\l"
@@ -136,7 +142,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_8:
 .string "¿Pudiste encontrar a ese DOMADOR?\n"
-	.string "¡Recuerda está en AZULONA!$"
+	.string "¡Recuerda! ¡Está en AZULONA!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 .string "¿Estarías dispuesto a hacer un\n"

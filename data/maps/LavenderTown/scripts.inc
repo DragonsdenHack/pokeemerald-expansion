@@ -140,8 +140,8 @@ release
 end
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
-.string "(GIOVANNI dejó claro que había que\n"
-	.string "alejarse de la TORRE POKÉMON)$"
+.string "-GIOVANNI dejó claro que había que\n"
+	.string "alejarse de la TORRE POKÉMON.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
 .string "(ROJO aún puede estar dentro de\n"
@@ -186,9 +186,9 @@ release
 end
 
 LavenderTown_Barrera_Sur_Texto_1:
-.string "(Esa ruta no se corresponde con\n"
+.string "-Esa ruta no se corresponde con\n"
 	.string "ninguna misión asignada, mejor no\l"
-	.string "perder el tiempo).$"
+	.string "perder el tiempo.-$"
 
 LavenderTown_Barrera_Sur_Move_1:
 walk_in_place_down

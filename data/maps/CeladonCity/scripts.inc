@@ -156,7 +156,7 @@ release
 end
 
 CeladonCity_Text14:
-.string "Nadie os quiere aquí ROCKET.\n"
+.string "Nadie os quiere aquí, ROCKET.\n"
 .string "¡Estáis destruyendo con vuestro\l"
 .string "estúpido CASINO todos nuestros\l"
 .string "intentos por mantener limpia esta\l"
@@ -267,10 +267,10 @@ release
 end
 
 Barrera_Tiendas_Texto_1:
-.string "(Los ROCKET tienen prohibido\n"
+.string "-Los ROCKET tienen prohibido\n"
 	.string "comprar artículos en las tiendas\l"
-	.string "públicas de KANTO. Mejor no tentar\l"
-	.string "a la suerte).$"
+	.string "públicas de KANTO.\l"
+	.string "Mejor no tentar a la suerte.-$"
 
 Barrera_Tiendas_2::
 release

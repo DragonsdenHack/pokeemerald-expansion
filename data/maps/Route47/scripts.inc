@@ -386,7 +386,7 @@ Route47_Dialogo_Maestro_Anciano_2_Texto_2:
 .string "Ten este POKÉMON, te lo has ganado.$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_3:
-.string "¡¡OBTUVISTE UN REGIDRAGO AL NV:90!!$"
+.string "¡¡OBTUVISTE UN REGIDRAGO AL NV.90!!$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_4:
 .string "Uno de mis POKÉMON más fieles, tal vez\n"

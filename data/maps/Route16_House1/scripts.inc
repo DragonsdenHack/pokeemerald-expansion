@@ -38,8 +38,8 @@ release
 end
 
 Route16_House1_Combate_Vuelo_Texto_1.1:
-.string "¡¡Obtuviste la MO02 VUELO de manos de\n"
-	.string "ORNITÓLOGA!!$"
+.string "¡¡Obtuviste la MO02 VUELO\n"
+	.string "de manos de ORNITÓLOGA!!$"
 
 Route16_House1_Combate_Vuelo_2::
 lock
@@ -82,8 +82,8 @@ Route16_House1_Combate_Vuelo_Texto_4:
 .string "Creo que cambiaré de estrategia a\n"
 	.string "partir de ahora, a todo el que\l"
 	.string "encuentre este lugar le daré una\l"
-	.string "MO02 como premio y ya está, mis\l"
-	.string "pájaros POKÉMON no necesitan\l"
+	.string "MO02 como premio y ya está.\l"
+	.string "Mis pájaros POKÉMON no necesitan\l"
 	.string "demostrar lo que valen en un\l"
 	.string "combate, voy a centrarme en mi\l"
 	.string "próximo gran objetivo: evolucionar\l"

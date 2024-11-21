@@ -110,15 +110,15 @@ msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGIROCK, 20, ITEM_NONE
+givemon SPECIES_REGIROCK, 40, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_4 MSGBOX_DEFAULT
-givemon SPECIES_REGISTEEL, 20, ITEM_NONE
+givemon SPECIES_REGISTEEL, 40, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGICE, 20, ITEM_NONE
+givemon SPECIES_REGICE, 40, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2
@@ -150,13 +150,13 @@ RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 	.string "combinaciones de STATS.-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_3:
-.string "¡¡OBTUVISTE UN REGIROCK AL Nv.20!!$"
+.string "¡¡OBTUVISTE UN REGIROCK AL NV.40!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_4:
-.string "¡¡OBTUVISTE UN REGISTEEL AL Nv.20!!$"
+.string "¡¡OBTUVISTE UN REGISTEEL AL NV.40!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_5:
-.string "¡¡OBTUVISTE UN REGICE AL Nv.20!!$"
+.string "¡¡OBTUVISTE UN REGICE AL NV.40!!$"
 
 RocketHideoutJohtoP2_Obtencion_Piedra_Rocket::
 release

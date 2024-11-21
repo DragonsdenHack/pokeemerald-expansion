@@ -376,11 +376,11 @@ static const struct TrainerMonItemCustomMoves sParty_Domador[] = {
     {
     .iv = 0,
     .lvl = 28,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_KINGLER,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_PSYBEAM, MOVE_DRAIN_PUNCH, MOVE_HYPNOSIS, MOVE_CURSE}
+    .moves = {MOVE_STOMP, MOVE_BUBBLE_BEAM, MOVE_ICY_WIND, MOVE_IRON_DEFENSE}
     }
 };
 

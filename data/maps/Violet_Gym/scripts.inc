@@ -420,7 +420,7 @@ Violet_Gym_Combate_Pegaso_Texto_9.2:
 	.string "este POKÉMON.$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:
-.string "¡¡OBTUVISTE UN RUFFLET AL NV:25!!$"
+.string "¡¡OBTUVISTE UN RUFFLET AL NV.25!!$"
 
 Violet_Gym_Combate_Pegaso_Texto_11:
 .string "La línea evolutiva de RUFFLET es\n"

@@ -3266,13 +3266,13 @@ RocketHideout8F_Mision_Johto_Text_9:
 	.string "recuerda que son clones.$"
 
 RocketHideout8F_Mision_Johto_Text_10:
-.string "¡¡OBTUVISTE UN RAIKOU AL NV:25!!$"
+.string "¡¡OBTUVISTE UN RAIKOU AL NV.25!!$"
 
 RocketHideout8F_Mision_Johto_Text_11:
-.string "¡¡OBTUVISTE UN ENTEI AL NV:25!!$"
+.string "¡¡OBTUVISTE UN ENTEI AL NV.25!!$"
 
 RocketHideout8F_Mision_Johto_Text_12:
-.string "¡¡OBTUVISTE UN SUICUNE AL NV:25!!$"
+.string "¡¡OBTUVISTE UN SUICUNE AL NV.25!!$"
 
 RocketHideout8F_Mision_Johto_Text_13:
 .string "Y ahora, ponéos cómodos, tenemos\n"

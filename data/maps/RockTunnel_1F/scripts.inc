@@ -182,6 +182,7 @@ msgbox RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2 MSGBOX_NPC
 msgbox RockTunnel_1F_Combate_Entrenadora_Guay_Texto_4 MSGBOX_NPC
 trainerbattle_no_intro TRAINER_VERO, RockTunnel_1F_Combate_Entrenadora_Guay_Texto_5
 msgbox RockTunnel_1F_Combate_Entrenadora_Guay_Texto_6 MSGBOX_NPC
+setflag FLAG_HOENN_295
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
 clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY
 clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
@@ -201,9 +202,9 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_1:
 	.string "¡lo que faltaba!\l"
 	.string "Mira, no es por desprestigiarte,\l"
 	.string "pero sois pésimos ENTRENADORES,\l"
-	.string "solo sabéis usar ZUBATS y\l"
-	.string "RATATTAS, contigo no tendría ni\l"
-	.string "para empezar.$"
+	.string "solo sabéis usar ZUBAT y\l"
+	.string "RATATTA, contigo no tendría\l"
+	.string "ni para empezar.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -229,11 +230,11 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_5:
 	.string "lección un ROCKET?$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_6:
-.string "Esto ya roza lo ridículo, nuestra\n"
+.string "Esto ya roza lo ridículo. Nuestra\n"
 	.string "reputación como ENTRENADORES se\l"
 	.string "vendría abajo si alguien se\l"
 	.string "enterara de que fui derrotada por\l"
-	.string "un ROCKET, estoy harta de esta\l"
+	.string "un ROCKET. Estoy harta de esta\l"
 	.string "cueva, aquí no hay nada, voy a\l"
 	.string "llamar a mi compañero y largarnos\l"
 	.string "de aquí, total, dicen que hay un\l"

@@ -322,7 +322,7 @@ ViridianForest_Combate_Guays_Texto_11:
 	.string "entiendes.$"
 
 ViridianForest_Combate_Guays_Texto_12:
-.string "¡HAS OBTENIDO UN PINSIR AL NV:15!$"
+.string "¡HAS OBTENIDO UN PINSIR AL NV.15!$"
 
 ViridianForest_Combate_Guays_Texto_13:
 .string "VERO: ¡Tampoco te pases!\n"

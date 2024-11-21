@@ -32,7 +32,9 @@ playse SE_PIN
 applymovement 1, CeladonCity_House1_2F_Secundaria_Magikarp_Move_1
 waitmovement 0x0
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq CeladonCity_House1_2F_Secundaria_Magikarp_3
@@ -53,6 +55,8 @@ delay 20
 playse SE_PIN
 applymovement 1, CeladonCity_House1_2F_Secundaria_Magikarp_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_12 MSGBOX_AUTOCLOSE
@@ -66,14 +70,13 @@ release
 end
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_1:
-.string "¿Tienes algún problema conmigo\n"
-	.string "ROCKET?\l"
+.string "¿Tienes algún problema conmigo?\n"
 	.string "Alguien como tú jamás podrá\l"
 	.string "permitirse estar en una MANSIÓN\l"
 	.string "como esta.\l"
 	.string "¡Largo de aquí antes de que pierda\l"
 	.string "la paciencia y aplaste a tus\l"
-	.string "miserables POKÉMON!$"
+	.string "miserables POKÉMON, ROCKET!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
 .string "Tienes mi palabra, ese GURÚ y esa\n"
@@ -85,9 +88,9 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
 .string "¿¡Te envía el GURÚ PESCADOR de\n"
-	.string "CARMÍN para ajustar cuentas por mi\l"
-	.string "difamación sobre su CAÑA VIEJA?!\l"
-	.string "¿Qué clase de broma es esta?$"
+	.string "CARMÍN!? ¿Quiere ajustar cuentas por\l"
+	.string "mi difamación sobre su CAÑA VIEJA?\l"
+	.string "¡¿Qué clase de broma es esta?!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
 .string "Alguien como tú no tiene nada que\n"
@@ -97,9 +100,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
 	.string "organización.\l"
 	.string "¿Qué vas a hacer?\l"
 	.string "¿Usar MORDISCO con tu ZUBAT de\l"
-	.string "papel que de un solo golpe caerá a\l"
-	.string "poco que ordene a mi SANDSLASH\l"
-	.string "usar CUCHILLADA?$"
+	.string "papel? Mi SANDSLASH de un CUCHILLADA\l"
+	.string "destuye a todos tus POKÉMON.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6:
 .string "Todavía estás a tiempo de\n"
