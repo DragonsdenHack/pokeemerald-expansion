@@ -1837,25 +1837,41 @@ msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2 MSGBOX_AUTOCLOSE
 applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_5
 waitmovement 0x0
 applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_6
 waitmovement 0x0
+waitse
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
 waitmovement 0x0
+waitse
+delay 10
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
 waitmovement 0x0
 delay 15
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_6 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8.2
+waitmovement 0x0
+waitse
+msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8.1
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_9 MSGBOX_AUTOCLOSE
 applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8
 waitmovement 0x0
@@ -1899,6 +1915,8 @@ setmetatile 20, 9, 0x25D, FALSE
 setmetatile 20, 10, 0x265, FALSE
 setmetatile 21, 10, 0x266, TRUE
 setmetatile 22, 10, 0x267, TRUE
+setmetatile 21, 11, 0x299, TRUE
+setmetatile 22, 11, 0x299, TRUE
 special DrawWholeMapView
 delay 60
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_11
@@ -1909,20 +1927,25 @@ setflag FLAG_HIDE_FANCLUB_OLD_LADY
 removeobject 10
 playse SE_EXIT
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17.1 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_FANCLUB_OLD_LADY
-fadescreen 1
 delay 20
 playse SE_EXIT
 addobject 10
+setobjectxy 10, 20, 9
+waitse
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_13
 waitmovement 0x0
-fadescreen 0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_18 MSGBOX_AUTOCLOSE
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_14
 waitmovement 0x0
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
 waitmovement 0x0
 playse SE_EXIT
@@ -1975,6 +1998,14 @@ warp MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
 end
 
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8.2:
+jump_in_place_up
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8.1:
+walk_in_place_up
+step_end
+
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1:
 .string "¡AVISO A TODOS LOS RECLUTAS!\n"
 	.string "¡Un ENTRENADOR misterioso vestido\l"
@@ -1988,7 +2019,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
 	.string "en la boca del lobo.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
-.string "RECLUTA: ¡Señor órdenes!\n"
+.string "RECLUTA: ¡Señor, órdenes!\n"
 	.string "¡Todos nosotros estamos cayendo\l"
 	.string "como fichas de dominó ante la\l"
 	.string "potencia de sus POKÉMON!$"
@@ -1996,9 +2027,9 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
 .string "PROTÓN: ¡Llamad a todos los\n"
 	.string "RECLUTAS DE ALTO RANGO y\l"
-	.string "EJECUTIVOS disponibles en la BASE!\l"
-	.string "¡Proteged el acceso a nuestro\l"
-	.string "LÍDER!\l"
+	.string "EJECUTIVOS disponibles!\l"
+	.string "¡Proteged el acceso a\l"
+	.string "nuestro LÍDER!\l"
 	.string "¡Si fuere necesario, recurrid a\l"
 	.string "nuestra sala de específemenes\l"
 	.string "esp…!$"
@@ -2007,20 +2038,22 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5:
 .string "GIOVANNI: ¡ALTO!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_6:
-.string "GIOVANNI: No vamos a hacer nada de\n"
-	.string "eso PROTÓN.$"
+.string "GIOVANNI: No vamos a hacer nada\n"
+	.string "de eso, PROTÓN.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_7:
-.string "PROTÓN: P{PAUSE 15}-{PAUSE 15}pero señor{PAUSE 5}…{PAUSE 5}$"
+.string "PROTÓN: P{PAUSE 15}-{PAUSE 15}pero señor{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8:
 .string "GIOVANNI: Quiero a todos los\n"
-	.string "EJECUTIVOS y SOLDADOS DE ALTO\l"
-	.string "RANGO dentro de la BASE ROCKET\l"
-	.string "PROFUNDA ya.$"
+	.string "EJECUTIVOS y ROCKET DE ALTO RANGO\l"
+	.string "dentro de la BASE ROCKET PROFUNDA.$"
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8.1:
+	.string "¡YA!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_9:
-.string "RECLUTA: A sus órdenes JEFE.$"
+.string "RECLUTA: ¡A sus órdenes, JEFE!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_10:
 .string "GIOVANNI: PROTÓN, proporcióname\n"
@@ -2030,13 +2063,12 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_10:
 	.string "CIUDAD AZULONA, ERIKA.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_11:
-.string "PROTÓN: Enseguida señor.$"
+.string "PROTÓN: Enseguida, señor.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_12:
-.string "PROTÓN: La LÍDER ERIKA cuenta a\n"
-	.string "día de hoy con un VICTREBEEL al\l"
-	.string "nivel 29, un TANGELA al nivel 24,\l"
-	.string "y un VILEPLUME al nivel 29.$"
+.string "La LÍDER ERIKA cuenta, a día de hoy, con\n"
+	.string "un VICTREBEEL al nv.29, un TANGELA\l"
+	.string "al nv.24, y un VILEPLUME al nv.29.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_13:
 .string "GIOVANNI: Perfecto, ¿a qué nivel\n"
@@ -2044,50 +2076,50 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_13:
 	.string "{PLAYER} atrapó en el TÚNEL ROCA?$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_14:
-.string "PROTÓN: Exactamente al nivel 29,\n"
-	.string "señor.$"
+	.string "PROTÓN: Al nv.29, señor.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_15:
-.string "GIOVANNI: Bien, da el pego\n"
-	.string "perfectamente con la jerarquía que\l"
-	.string "ese infeliz puede esperarse de\l"
-	.string "alguien como yo, traéme a ese\l"
+.string "GIOVANNI: Bien, da el pego con la\n"
+	.string "jerarquía que ese infeliz puede esperar\l"
+	.string "de alguien como yo. Traéme a ese\l"
 	.string "KANGASKHAN y a otros dos POKÉMON\l"
-	.string "de nivel y poder algo inferior,\l"
+	.string "de nivel y poder algo inferior;\l"
 	.string "ONIX y RHYHORN encajarían.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_16:
 .string "PROTÓN: Enseguida, jefe.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17:
-.string "GIOVANNI: Nunca enseñes todas tus\n"
-	.string "cartas a tu enemigo {PLAYER}, por\l"
-	.string "muy fuerte que ese ROJO sea, nunca\l"
-	.string "podrá combatir contra algo que\l"
-	.string "siquiera sabe que existe, para\l"
-	.string "cuando lo sepa, será demasiado\l"
-	.string "tarde para él, pues no habrá\l"
-	.string "dispuesto de tiempo para\l"
-	.string "adaptarse, nunca llegará a nuestro\l"
-	.string "nivel combatiendo con la\l"
-	.string "mediocridad que abunda en los\l"
-	.string "pueblos y ciudades de esta región.$"
+.string "GIOVANNI: Nunca enseñes todas las\n"
+	.string "cartas a tu enemigo, {PLAYER}.\l"
+	.string "Por muy fuerte que ese ROJO sea, nunca\l"
+	.string "podrá combatir contra algo que siquiera\l"
+	.string "sabe de su existencia.$"
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17.1:
+	.string "Para cuando lo sepa, será demasiado\n"
+	.string "tarde para él, pues no habrá dispuesto\l"
+	.string "de tiempo para adaptarse, nunca\l"
+	.string "llegará a nuestro nivel combatiendo con\l"
+	.string "la mediocridad que abunda en los\l"
+	.string "pueblos y ciudades de la KANTO actual.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_18:
-.string "PROTÓN: Aquí tiene señor.$"
+.string "PROTÓN: Aquí tiene, señor.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19:
 .string "GIOVANNI: No quiero que cometas\n"
-	.string "ninguna estupidez {PLAYER}, sé que\l"
-	.string "deseas medir tus fuerzas con ese\l"
-	.string "entrenador después de que te\l"
-	.string "derrotara en el MT.MOON, siendo\l"
-	.string "ahora más fuerte y capaz que en\l"
+	.string "ninguna estupidez, {PLAYER}.\l"
+	.string "Sé que deseas medir fuerzas con ese\l"
+	.string "ENTRENADOR, y vengarte por tu\l"
+	.string "derrota en el MT.MOON.$"
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19.1:
+	.string "Ahora eres más fuerte y capaz que en\n"
 	.string "ese entonces, pero aún no es el\l"
-	.string "momento, lo prioritario ahora es\l"
-	.string "mantener a ese chico en el\l"
-	.string "desconocimiento hasta al menos\l"
-	.string "averiguar sus intenciones{PAUSE 5}…{PAUSE 5}$"
+	.string "momento; lo prioritario ahora es\l"
+	.string "mantener a ese chico en la ignorancia,\l"
+	.string "al menos hasta averiguar sus intenciones{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_20:
 .string "RECLUTA: Señor, acaba de robarle\n"
@@ -2098,7 +2130,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_21:
 .string "GIOVANNI: Espléndido.\n"
 	.string "¡{PLAYER}!\l"
 	.string "¡PROTÓN!\l"
-	.string "¡Adentro ya!\l"
+	.string "¡Adentro, ya!\l"
 	.string "¡Se avisará a todo el personal\l"
 	.string "cuando esto acabe!$"
 
@@ -2191,9 +2223,18 @@ walk_in_place_right
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_13:
+delay_8
+walk_left
+walk_up
+walk_up
+walk_right
+walk_right
+walk_up
 walk_up
 walk_left
 walk_left
+face_up
+delay_16
 walk_in_place_up
 step_end
 
@@ -2259,12 +2300,15 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda::
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1 MSGBOX_AUTOCLOSE
 playse SE_SHOP
+waitse
+delay 20
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_3
 waitmovement 0x0
+delay 10
 showmoneybox 0, 0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2 MSGBOX_AUTOCLOSE
 playse SE_SHOP
-addmoney 40000 0
+addmoney 135000 0
 updatemoneybox
 delay 80
 playfanfare MUS_OBTAIN_ITEM
@@ -2273,6 +2317,8 @@ waitfanfare
 delay 50
 hidemoneybox
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4.1 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 givemon SPECIES_CUBONE, 20, ITEM_THICK_CLUB
@@ -2281,16 +2327,56 @@ waitfanfare
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_8
+waitmovement 0x0
+waitse
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_5
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9 MSGBOX_AUTOCLOSE
-applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_4
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_8
+waitmovement 0x0
+waitse
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.4
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_9
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_11 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_5
 waitmovement 0x0
@@ -2299,6 +2385,14 @@ applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_13 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_7
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_15 MSGBOX_AUTOCLOSE
@@ -2318,17 +2412,25 @@ setmetatile 20, 9, 0x25D, FALSE
 setmetatile 20, 10, 0x265, FALSE
 setmetatile 21, 10, 0x266, TRUE
 setmetatile 22, 10, 0x267, TRUE
+setmetatile 21, 11, 0x299, TRUE
+setmetatile 22, 11, 0x299, TRUE
 special DrawWholeMapView
-delay 60
+delay 45
 playse SE_PIN
 applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_8
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_9
 waitmovement 0x0
+waitse
+delay 15
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16 MSGBOX_AUTOCLOSE
-applymovement 10, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_10
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_10
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_3
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18 MSGBOX_AUTOCLOSE
@@ -2338,8 +2440,14 @@ msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20.1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_BREAKABLE_DOOR
 applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_21 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_1
 waitmovement 0x0
@@ -2354,6 +2462,26 @@ playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 52
 release
 end
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.1:
+face_left
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.2:
+face_down
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.3:
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+delay_16
+walk_in_place_down
+delay_8
+step_end
 
 RocketHideout_4F_PC::
 compare VAR_UNUSED_0x40F7, 51
@@ -2382,6 +2510,8 @@ setmetatile 20, 9, 0x25D, FALSE
 setmetatile 20, 10, 0x265, FALSE
 setmetatile 21, 10, 0x266, TRUE
 setmetatile 22, 10, 0x267, TRUE
+setmetatile 21, 11, 0x299, TRUE
+setmetatile 22, 11, 0x299, TRUE
 special DrawWholeMapView
 delay 60
 release
@@ -2400,146 +2530,157 @@ RocketHideout_4F_Warp_Text_YesNo:
 	.string "secreta?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1:
-.string "GIOVANNI: Excelente trabajo en\n"
-	.string "FUCSIA, ANDRA, los DRATINI y\l"
-	.string "SCYTHER recolectados en la ZONA\l"
-	.string "SAFARI se venderán a precio de oro\l"
-	.string "como premio aquí en nuestro\l"
-	.string "CASINO, aquí tienes tu recompensa.$"
+.string "GIOVANNI: Excelente trabajo, ANDRA.\n"
+	.string "Los DRATINI y SCYTHER recolectados en\l"
+	.string "la ZONA SAFARI se venderán a precio de\l"
+	.string "oro, como premio en el CASINO.\l"
+	.string "Aquí tienes tu recompensa.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2:
 .string "GIOVANNI: Tú también estás de\n"
-	.string "vuelta {PLAYER}, has mantenido en\l"
-	.string "privado tal y como te ordené la\l"
-	.string "conversación entre FUJI y PROTÓN,\l"
-	.string "una negociación clave para\l"
-	.string "nosotros, por ello aquí tienes tu\l"
-	.string "recompensa.$"
+	.string "vuelta, {PLAYER}.\l"
+	.string "Mantuviste en privado, tal y como te\l"
+	.string "ordené, la conversación entre FUJI y\l"
+	.string "PROTÓN; una negociación clave para\l"
+	.string "nosotros, por ello, aquí tienes.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_3:
-	.string "¡Te has embolsado 40.000¥!$"
+	.string "¡Te has embolsado 135.000¥!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
-.string "GIOVANNI: Y otra cosa más, en\n"
-	.string "nombre del TEAM ROCKET te obsequio\l"
-	.string "con uno de los CUBONES robados en\l"
-	.string "la TORRE POKÉMON, pero no un\l"
-	.string "CUBONE cualquiera, este lleva\l"
-	.string "equipado un HUESO GRUESO, objeto\l"
-	.string "que multiplica por 2 su ataque\l"
-	.string "físico y a su evolución MAROWAK,\l"
-	.string "un regalo digno del que hizo\l"
-	.string "posible su captura batiendo a\l"
-	.string "FUJI.$"
+.string "GIOVANNI: Y otra cosa más, en el\n"
+	.string "nombre del TEAM ROCKET, te obsequio\l"
+	.string "con uno de los CUBONE robados en\l"
+	.string "la TORRE POKÉMON.\l"
+	.string "Pero no un CUBONE cualquiera, este\l"
+	.string "lleva equipado un HUESO GRUESO, objeto\l"
+	.string "que multiplica por 2 su ATAQUE, tanto a\l"
+	.string "CUBONE como a su evolución, MAROWAK.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4.1:
+	.string "Un regalo digno de aquel que\n"
+	.string "pudo batir al MAROWAK de FUJI.\l"
+	.string "¿No crees?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_5:
 .string "¡HAS RECIBIDO UN CUBONE AL NV.20!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_6:
 .string "GIOVANNI: Cerrando este tema…\n"
-	.string "Os interesará saber que\l"
-	.string "investigando al KANGASKHAN\l"
-	.string "encontrado en el TÚNEL ROCA, vimos\l"
-	.string "que su fisiología era muy similar\l"
-	.string "a la de la línea evolutiva\l"
-	.string "CUBONE-MAROWAK.$"
+	.string "Os interesará saber que, investigando al\l"
+	.string "KANGASKHAN encontrado en el TÚNEL ROCA,\l"
+	.string "vimos que su fisiología era muy similar\l"
+	.string "al de la línea evolutiva CUBONE-MAROWAK.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7:
-.string "GIOVANNI: En la ZONA SAFARI todos\n"
-	.string "los KANGASKHAN son criados con\l"
-	.string "todo tipo de comodidades, y las\l"
-	.string "crías se desarrollan siempre hasta\l"
-	.string "alcanzar esa fase…\l"
-	.string "La línea evolutiva de\l"
-	.string "CUBONE-MAROWAK no está clara, un\l"
-	.string "CUBONE surge como tal cuando toma\l"
-	.string "el cráneo de su madre fallecida,\l"
-	.string "sin embargo, ¿si su madre no\l"
-	.string "falleciese en qué se convertiría?\l"
-	.string "Según lo que indica nuestro\l"
-	.string "estudio, en un KANGASKHAN.\l"
-	.string "De modo que si de repente en la\l"
-	.string "ZONA SAFARI acabásemos de forma\l"
-	.string "prematura con los KANGASKHAN\l"
-	.string "adultos, las crías por\l"
-	.string "circunstancias acabarían siendo\l"
-	.string "CUBONES{PAUSE 5}…{PAUSE 5}$"
+.string "En la ZONA SAFARI, todos los KANGASKHAN\n"
+	.string "son criados en cautiverio.\l"
+	.string "Con todo tipo de comodidades, es natural\l"
+	.string "que las crías se desarrollen siempre\l"
+	.string "hasta alcanzar esa fase…$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.1:
+	.string "Pero la línea evolutiva CUBONE-MAROWAK\n"
+	.string "no está clara; CUBONE surge como tal\l"
+	.string "en el momento de tomar el cráneo de su\l"
+	.string "madre fallecida.$"
+	
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.2:
+	.string "Sin embargo, ¿y si su madre no fallece?\n"
+	.string "¿En qué se convertiría CUBONE?$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.3:
+	.string "Según lo que indica nuestro\n"
+	.string "estudio, en un KANGASKHAN.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8:
-.string "GIOVANNI: La forma más fiel de\n"
-	.string "probar esto sería derrumbar la\l"
-	.string "TORRE LAVANDA, obligar a los\l"
-	.string "CUBONE de allí a emigrar al TÚNEL\l"
-	.string "ROCA en masa, un lugar más\l"
-	.string "propicio para su reproducción que\l"
-	.string "esa tétrica torre, y ver que\l"
-	.string "ocurre.$"
+.string "Esto es difícilmente demostrable.\n"
+	.string "Solo en el supuesto de que TORRE POKÉMON\l"
+	.string "dejara de existir, se podría ver lo\l"
+	.string "que ocurre con los CUBONE de allí que\l"
+	.string "emigren en masa hacia el TÚNEL ROCA.$"
+
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9:
-.string "GIOVANNI: Si al tiempo comenzaran\n"
-	.string "a aparecer KANGASKHAN de forma\l"
-	.string "frecuente, ello constituiría una\l"
-	.string "prueba definitiva de este vínculo\l"
-	.string "entre especies, tal vez el\l"
-	.string "fenómeno KANGASKHAN del TÚNEL\l"
-	.string "ROCA haya sido un caso aislado de\l"
-	.string "una cría que sin llegar a ser\l"
-	.string "CUBONE emigró al túnel, logró\l"
-	.string "sobrevivir y se convirtió en\l"
-	.string "KANGASKHAN por su cuenta, tal vez\l"
-	.string "un fenómeno que veremos cada vez\l"
-	.string "más con el paso del tiempo, si\l"
-	.string "toda esta hipótesis es cierta\l"
-	.string "claro.$"
+    .string "TÚNEL ROCA es, en realidad, un lugar más\n"
+	.string "propicio para la reproducción y super-\l"
+	.string "vivencia de CUBONE que TORRE POKÉMON.$"
+
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.1:
+.string "Si con el paso de generaciones comenzaran\n"
+	.string "a aparecer también KANGASKHAN, este\l"
+	.string "hecho constituiría una prueba irrefutable\l"
+	.string "del vínculo entre ambas especies.$"
+
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.2:
+.string "Basándonos en esta hipótesis, la\n"
+	.string "presencia del KANGASKHAN que allí\l"
+	.string "capturaste, {PLAYER}, cobra sentido.$"
+
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.3:
+	.string "Así es, tal vez ese KANGASKHAN sea el\n"
+	.string "primer caso de una cría que, sin llegar\l"
+	.string "a ser CUBONE, emigró al túnel, logró\l"
+	.string "sobrevivir y se convirtió en KANGASKHAN\l"
+	.string "por su cuenta.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.4:
+	.string "Tal vez sea un fenómeno que veamos\n"
+	.string "cada vez con más frecuencia, solo\l"
+	.string "tiempo lo dirá.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10:
 .string "GIOVANNI: Dejando esto de lado, y\n"
-	.string "aprovechando que estáis los dos\l"
-	.string "aquí, ambos habéis demostrado ser\l"
-	.string "competentes, lleváis 6 misiones\l"
-	.string "con nosotros habiendo cumplido de\l"
-	.string "forma satisfactoria en 5, algunas\l"
-	.string "de ellas de gran importancia, como\l"
-	.string "la patente robada a BILL y la\l"
-	.string "reliquia del SS.ANNE, lo que os ha\l"
-	.string "procurado una buena cantidad de\l"
-	.string "ingresos.$"
+	.string "aprovechando que ambos estáis aquí, es\l"
+    .string "el momento de dar el siguiente paso.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.1:
+    .string "ANDRA: ¿A qué se refiere?$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.2:
+	.string "GIOVANNI: Los dos habéis demostrado ser\n"
+	.string "competentes y dignos de confianza.\l"
+	.string "Ya lleváis 6 misiones con nosotros,\l"
+	.string "cumpliendo deforma satisfactoria en 5\l"
+	.string "de ellas, muy pocos pueden decir eso\l"
+	.string "en tan poco tiempo.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_11:
-.string "GIOVANNI: Sin embargo, como habéis\n"
-	.string "podido comprobar, el TEAM ROCKET\l"
-	.string "tiene vetada su presencia en\l"
-	.string "cualquier comercio público de la\l"
-	.string "región, incluído el enorme centro\l"
-	.string "comercial de esta ciudad.$"
+.string "Pero, como habréis podido comprobar,\n"
+	.string "el TEAM ROCKET tiene vetada su\l"
+	.string "presencia en cualquier comercio\l"
+	.string "público de la región, incluso del\l"
+	.string "CENTRO COMERCIAL AZULONA.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_12:
-.string "GIOVANNI: Pero no debéis\n"
-	.string "preocuparos, sé que dos\l"
-	.string "entrenadores como vosotros estarán\l"
-	.string "ansiosos de poder invertir ese\l"
-	.string "dinero que buenamente habéis\l"
-	.string "ganado en mejorar aún más a\l"
-	.string "vuestro equipo POKÉMON.$"
+.string "Aún así, no debéis preocuparos.\n"
+	.string "Sé que dos ALTO RANGO en ascenso\l"
+	.string "estarán ansiosos de poder invertir el\l"
+	.string "dinero que buenamente han ganado en\l"
+	.string "mejorar aún más a sus POKÉMON.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_13:
-.string "GIOVANNI: En esta organización\n"
-	.string "nunca dejamos nada al azar, hace\l"
-	.string "ya tiempo que nos procuramos una\l"
-	.string "inmensa red comercial privada,\l"
-	.string "mayor que la propia oferta\l"
-	.string "impuesta y fijada por esas\l"
-	.string "sanguijuelas de la MESETA AÑIL.$"
+.string "En esta organización nunca dejamos\n"
+	.string "nada al azar, hace ya tiempo que\l"
+	.string "nos procuramos una inmensa red comercial\l"
+	.string "privada, mayor que la propia oferta\l"
+	.string "impuesta y fijada por esas sanguijuelas\l"
+	.string "de la MESETA AÑIL.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14:
-.string "GIOVANNI: A vuestra llegada os\n"
-	.string "dije a ambos que poco a poco os\l"
-	.string "iría enseñando algunos de los\l"
-	.string "secretos de nuestra organización,\l"
-	.string "a medida que fuéseis ganando\l"
-	.string "experiencia, pues bien, ha llegado\l"
-	.string "el momento de mostraros uno de\l"
-	.string "ellos…\l"
+.string "A vuestra llegada aquí, se os avisó\n"
+	.string "de que poco a poco iríais descubriendo\l"
+	.string "algunos de los secretos que el TEAM\l"
+	.string "ROCKET guarda.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.1:
+	.string "Pues bien{PAUSE 25}…{PAUSE 25} ha llegado el momento de\n"
+	.string "desvelar uno de ellos.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.2:
 	.string "¡PROTÓN!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_15:
@@ -2552,50 +2693,50 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16:
 	.string "¡Ingenioso!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17:
-.string "GIOVANNI: Así es ANDRA, lo\n"
-	.string "verdaderamente importante de este\l"
-	.string "lugar se encuentra a partir de\l"
-	.string "esas escaleras, muchos piensan que\l"
-	.string "el CASINO es la tapadera de esta\l"
-	.string "base, pero se equivocan…\l"
-	.string "Esta base es la tapadera de lo que\l"
+.string "GIOVANNI: Así es, ANDRA.\n"
+	.string "Lo verdaderamente importante de este\l"
+	.string "lugar se encuentra a partir de esas\l"
+	.string "escaleras, muchos piensan que el\l"
+	.string "CASINO es la tapadera de esta BASE.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17.1:
+	.string "Pero se equivocan…\n"
+	.string "Esta BASE es la tapadera de lo que\l"
 	.string "ahí abajo hay realmente.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18:
-.string "GIOVANNI: Espero que seáis\n"
-	.string "conscientes de lo que os acabo de\l"
-	.string "mostrar, si las autoridades de\l"
-	.string "esta región tuvieran la más mínima\l"
-	.string "idea de la que tenemos aquí\l"
-	.string "montada, no dudarían en bombardear\l"
-	.string "el CASINO y toda CIUDAD AZULONA si\l"
-	.string "fuere necesario.$"
+.string "Espero que seáis conscientes de la\n"
+	.string "magnitud de este secreto.\l"
+	.string "Si las autoridades de KANTO tuvieran\l"
+	.string "la más mínima idea de la que tenemos\l"
+	.string "aquí montada, no dudarían en destinar\l"
+	.string "todos sus recursos en destruirnos.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19:
-.string "GIOVANNI: Solo nuestros\n"
-	.string "científicos y soldados a partir de\l"
-	.string "ALTO RANGO tienen acceso a este\l"
-	.string "lugar, podréis entrar siempre y\l"
-	.string "cuando queráis interactuando con\l"
-	.string "el PC de PROTÓN.$"
+.string "GIOVANNI: Solo nuestros científicos y\n"
+	.string "soldados a partir de ALTO RANGO tienen\l"
+	.string "acceso a este lugar, podréis entrar\l"
+	.string "siempre y cuando queráis, interactuando\l"
+	.string "con el PC de PROTÓN.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20:
-.string "GIOVANNI: Eso es todo por ahora, a\n"
-	.string "falta de nuevas misiones, os\l"
+.string "GIOVANNI: Eso es todo por ahora.\n"
+	.string "A falta de nuevas misiones, os\l"
 	.string "concedo tiempo libre para que\l"
-	.string "exploréis la -BASE ROCKET\l"
-	.string "PROFUNDA-, y os vayáis haciendo\l"
-	.string "una idea de en qué invertimos\l"
-	.string "todos nuestros recursos.$"
+	.string "exploréis la -BASE ROCKET PROFUNDA-.$"
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20.1:
+	.string "Así, os iréis haciendo una idea de en\n"
+	.string "qué invertimos todos nuestros recursos.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_21:
-.string "ANDRA: Todo un honor que deposite\n"
-	.string "su confianza en nosotros GIOVANNI.$"
+.string "ANDRA: ¡Todo un honor que deposite\n"
+	.string "su confianza en nosotros, GIOVANNI!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_22:
-.string "ANDRA: Nos vemos allí abajo\n"
-	.string "{PLAYER}, ¡voy a disfrutar como una\l"
-	.string "niña explorando cada rincón de uno\l"
+.string "ANDRA: Nos vemos allí abajo, {PLAYER}.\n"
+	.string "¡Voy a disfrutar como una niña,\l"
+	.string "explorando cada rincón de uno\l"
 	.string "de los lugares más secretos y\l"
 	.string "confidenciales de esta región!$"
 
@@ -2661,15 +2802,15 @@ face_up
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_11:
-walk_down
-walk_down
-walk_right
+walk_fast_down
+walk_fast_down
+walk_fast_right
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_12:
-walk_down
-walk_right
-walk_right
+walk_fast_down
+walk_fast_right
+walk_fast_right
 step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Izq::
