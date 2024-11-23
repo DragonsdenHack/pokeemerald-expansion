@@ -1248,8 +1248,11 @@ applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2 MSGBOX_AUTOCLOSE
+delay 10
 showmoneybox 0, 0
-delay 15
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2.1 MSGBOX_AUTOCLOSE
+delay 25
 playse SE_SHOP
 addmoney 95000 0
 updatemoneybox
@@ -1261,7 +1264,16 @@ delay 50
 hidemoneybox
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.1
+waitmovement 0x0
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.2
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.3
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_3
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
@@ -1274,18 +1286,45 @@ applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_6
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.4
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_8
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_8.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_6
@@ -1298,41 +1337,146 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.3
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_11
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_11
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
 waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_SILPH_SCOPE
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3 MSGBOX_DEFAULT
+waitfanfare
+delay 30
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
+waitse
+delay 20
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.6
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23 MSGBOX_AUTOCLOSE
-playse MUS_RG_RIVAL_EXIT
+playbgm 528, FALSE
 applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_12
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
 removeobject 8
 delay 15
-playse MUS_RG_ROCKET_HIDEOUT 
+fadedefaultbgm
+delay 55
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.5
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.2 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 44
 release
 end
 
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.6:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.5:
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_8.1:
+walk_in_place_down
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.4:
+delay_8
+walk_slow_left
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+walk_slow_right
+delay_16
+face_down
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.1:
+face_right
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.2:
+walk_in_place_left
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.3:
+delay_16
+face_down
+step_end
+
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
 .string "GIOVANNI: ¡{PLAYER}, qué oportuno!\n"
 	.string "Ya me han informado de tu\l"
-	.string "excelente trabajo quitándole de\l"
+	.string "excelente trabajo, quitándole de\l"
 	.string "las manos a ese oportunista al\l"
 	.string "KANGASKHAN en el último momento.$"
 
@@ -1342,22 +1486,24 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 	.string "situación en el MT.MOON, has de\l"
 	.string "saber que no es la primera vez que\l"
 	.string "nos da problemas, es una especie\l"
-	.string "de carroñero fanático de los\l"
-	.string "POKÉMON raros, que hará todo para\l"
-	.string "obtenerlos sin importar los\l"
-	.string "medios, una especie de BILL pero\l"
-	.string "sin sus recursos económicos, me\l"
-	.string "alegra que hayas puesto en su\l"
+	.string "de carroñero, fanático de los\l"
+	.string "POKÉMON raros.\l"
+	.string "Hará todo para obtenerlos, sin importar\l"
+	.string "los medios, una especie de BILL, pero\l"
+	.string "sin sus recursos económicos.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2.1:
+	.string "Me alegra que hayas puesto en su\n"
 	.string "lugar a ese cobarde en el nombre\l"
-	.string "del TEAM ROCKET, eso, junto a\l"
-	.string "encontrar al famoso KANGASKHAN,\l"
-	.string "merece una buena recompensa.$"
+	.string "del TEAM ROCKET. Eso, junto a encontrar\l"
+	.string "al famoso KANGASKHAN, merecen una buena\l"
+	.string "recompensa.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3:
 	.string "¡Te has embolsado 95.000¥!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4:
-.string "GIOVANNI: Y aún más, para celebrar\n"
+.string "GIOVANNI: Y aún más. Para celebrar\n"
 	.string "tu venganza sobre ese aprovechado,\l"
 	.string "el TEAM ROCKET te recompensará\l"
 	.string "también con un KABUTO.$"
@@ -1367,10 +1513,11 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 	.string "FÓSIL DOMO que te fue arrebatado\l"
 	.string "en su momento, y con intereses. Ya\l"
 	.string "convertido en KABUTO y criado hasta\l"
-	.string "el nivel 28, si no recuerdo mal.\l"
-	.string "¡PROTÓN!\l"
-	.string "¡Entrégale el KABUTO robado a\l"
-	.string "{PLAYER}!$"
+	.string "el nivel 28, si no recuerdo mal.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5.1:
+	.string "¡PROTÓN!\n"
+	.string "¡Entrega el KABUTO a {PLAYER}!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6:
 .string "PROTÓN: Con gusto, jefe.$"
@@ -1379,23 +1526,21 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1:
 .string "¡OBTUVISTE UN KABUTO AL NV.28!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
-.string "GIOVANNI: Técnicamente su valor es\n"
+.string "GIOVANNI: Técnicamente, su valor es\n"
 	.string "de varios cientos de miles en\l"
 	.string "el mercado negro, pero tu\l"
 	.string "historia con este FÓSIL vale más\l"
-	.string "que todo eso{PAUSE 5}…{PAUSE 5}$"
+	.string "que todo eso{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8:
-.string "Dicho esto, este tema queda\n"
-	.string "zanjado, examinaremos a ese\l"
-	.string "KANGASKHAN para determinar su\l"
-	.string "verdadera procedencia, ya que\l"
-	.string "sigue siendo todo un misterio que\l"
-	.string "un POKÉMON así se halle en ese\l"
-	.string "lugar.$"
+.string "Por ahora, el tema queda zanjado.\n"
+	.string "Examinaremos a ese KANGASKHAN, para\l"
+	.string "determinar su procedencia; sigue\l"
+	.string "siendo todo un misterio su presencia\l"
+	.string "en el TÚNEL ROCA.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_9:
-.string "Bien {PLAYER}, en tu última misión\n"
+.string "Bien, {PLAYER}. En tu última misión\n"
 	.string "te recalqué la importancia de no\l"
 	.string "acercarte a la TORRE POKÉMON, ese\l"
 	.string "lugar está muy relacionado con\l"
@@ -1403,97 +1548,105 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_9:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_10:
 .string "Vamos a enviar a un pelotón\n"
-	.string "completo para recolectar el máximo\l"
-	.string "número de cráneos de CUBONE\l"
-	.string "posibles, algo de enorme valor en\l"
-	.string "el mercado negro.$"
+	.string "completo, para recolectar el máximo\l"
+	.string "número de cráneos de CUBONE posible.\l"
+	.string "Algo de gran valor enel mercado negro.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11:
 .string "Sin embargo, esta es solo la\n"
 	.string "tapadera, la excusa hacia la que\l"
 	.string "todos mirarán debido a nuestra\l"
-	.string "fama, el verdadero objetivo es\l"
-	.string "llamar la atención de FUJI para\l"
-	.string "que acuda a la TORRE LAVANDA en el\l"
-	.string "momento exacto{PAUSE 5}…{PAUSE 5}$"
+	.string "fama.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11.1:
+	.string "El verdadero objetivo es llamar la\n"
+	.string "atención de FUJI, para que acuda a\l"
+	.string "TORRE POKÉMON en el momento exacto{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_12:
-.string "FUJI fue uno de los mejores\n"
-	.string "científicos bajo nuestras órdenes\l"
-	.string "que ha habido, él es el único que\l"
-	.string "conoce con todo detalle datos\l"
-	.string "cruciales de uno de nuestros más\l"
-	.string "grandes proyectos {PLAYER}.$"
+.string "FUJI fue uno de nuestros mejores\n"
+	.string "científicos en el pasado.\l"
+	.string "Es el único que conoce en detalle\l"
+	.string "datos cruciales de uno de nuestros\l"
+	.string "más grandes proyectos.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13:
-.string "Tu misión es simple {PLAYER},\n"
-	.string "PROTÓN se encargará de llevar a\l"
+.string "Tu misión es simple, {PLAYER}.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.1:
+	.string "PROTÓN se encargará de llevar a\n"
 	.string "FUJI hasta el último piso para\l"
-	.string "negociar en privado, mientras tú\l"
-	.string "te encargas de garantizar la\l"
-	.string "confidencialidad de dicha\l"
-	.string "conversación, no quiero que\l"
-	.string "absolutamente nadie acceda al\l"
-	.string "último piso de esa TORRE mientras\l"
-	.string "la negociación dure, ¿ha quedado\l"
-	.string "claro?$"
+	.string "negociar en privado.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.2:
+	.string "Mientras, tú te encargarás de garantizar\n"
+	.string "la confidencialidad de dicha reunión;\l"
+	.string "no quiero que absolutamente nadie\l"
+	.string "interceda mientras la negociación dure.\l"
+	.string "¿Ha quedado claro?$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14:
 .string "Perfecto, nada debe de salir mal\n"
-	.string "en esta misión {PLAYER}, es por\l"
-	.string "ello que, junto con el resto de\l"
-	.string "reclutas, formarás equipo con otro\l"
-	.string "ENTRENADOR, creo que ya os\l"
-	.string "conocéis{PAUSE 5}…{PAUSE 5}$"
+	.string "en esta misión.\l"
+	.string "Por ello, además del resto de reclutas,\l"
+	.string "formarás equipo con otro ENTRENADOR.\l"
+	.string "Diría que{PAUSE 15}…{PAUSE 15} ya os conocéis{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15:
 .string "GIOVANNI: ¿Sorprendido?\n"
 	.string "AZUL accedió a aliarse con\l"
 	.string "nosotros en su paso por el PUENTE\l"
-	.string "PEPITA de RUTA 24, después de tu\l"
-	.string "actuación en la casa de BILL, su\l"
-	.string "condición de nieto del PROFESOR\l"
-	.string "OAK, y rival directo de ROJO, si\l"
-	.string "no me equivoco, lo convierten en\l"
-	.string "nuestro agente doble perfecto.$"
+	.string "PEPITA, al tiempo de tu actuación\l"
+	.string "en la casa de BILL.\l"
+	.string "Su condición de nieto del PROF.OAK\l"
+	.string "y rival directo de ROJO, hacen de\l"
+	.string "él un agente doble perfecto.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16:
 .string "AZUL: Así que el ROCKET del\n"
-	.string "SS.ANNE, escondes muy bien a tus\l"
-	.string "soldados más valiosos GIOVANNI, ya\l"
-	.string "podrías soltar a más como {PLAYER}\l"
-	.string "por las RUTAS comunes, es\l"
-	.string "imposible seguir mejorando con\l"
-	.string "ENTRENADORES tan mediocres,\l"
-	.string "¿puedes creerte que algunos de tus\l"
-	.string "RECLUTAS aquí sigan teniendo\l"
-	.string "ZUBATS y RATATTAS al nivel 17?\l"
-	.string "¡Deberías echarlos por\l"
-	.string "incompetentes!$"
+	.string "SS.ANNE{PAUSE 15}…{PAUSE 15}$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16.1:
+	.string "Escondes bien a tus soldados más\n"
+	.string "valiosos, GIOVANNI. Ya podrías soltar\l"
+	.string "a más como {PLAYER} por las rutas, es\l"
+	.string "imposible seguir mejorando con gente\l"
+	.string "tan mediocre deambulando en ellas.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17:
 .string "GIOVANNI: Te queda mucho por ver\n"
-	.string "de esta región joven, si piensas\l"
+	.string "de esta región, jovencito. Si crees\l"
 	.string "que los LÍDERES DE GIMNASIO son lo\l"
-	.string "mejor de por aquí ya te adelanto\l"
-	.string "que no es así, pero no te he\l"
-	.string "llamado para hablar de eso.$"
+	.string "mejor de por aquí, estás muy errado.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.1:
+	.string "Las auténticas leyendas de KANTO, así\n"
+	.string "como las de JOHTO, tienden a permanecer\l"
+	.string "en las sombras.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.2:
+	.string "Pero no te culpo, esta es ahora la\n"
+	.string "nueva KANTO, y la única que gente a\l"
+	.string "partir de tu edad conocerá.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.3:
+	.string "AZUL: Mmm{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18:
-.string "La única variable capaz de torcer\n"
-	.string "este plan es ROJO, mis fuentes lo\l"
-	.string "sitúan actualmente en RUTA 10, al\l"
-	.string "pie del TÚNEL ROCA, tuviste suerte\l"
-	.string "de no cruzarte con él de nuevo en\l"
-	.string "tu última misión {PLAYER}, por su\l"
-	.string "ritmo de avance todo apunta a que\l"
-	.string "llegará a PUEBLO LAVANDA en plena\l"
-	.string "misión, si por algún casual decide\l"
-	.string "colarse en la TORRE LAVANDA, no\l"
-	.string "podemos arriesgarnos a tener un\l"
-	.string "MT.MOON 2.0, y es aquí donde\l"
-	.string "entras tú AZUL.$"
+.string "Volviendo al plan: la única variable\n"
+	.string "capaz de torcerlo es ROJO, mis fuentes\l"
+	.string "lo sitúan en RUTA 10, ya en TÚNEL ROCA.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.1:
+	.string "Por su ritmo de avance, todo apunta\n"
+	.string "a que llegará a PUEBLO LAVANDA en plena\l"
+	.string "misión. Si por algún casual decide\l"
+	.string "colarse en la TORRE LAVANDA, no podemos\l"
+	.string "arriesgarnos a tener un MT.MOON 2.0.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.2:
+	.string "Aquí es donde entras tú, AZUL.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
 .string "Se te avisará de la llegada de\n"
@@ -1502,37 +1655,45 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
 	.string "aparezca, fingirás estar ahí de\l"
 	.string "forma espontánea, sin nombrar\l"
 	.string "nunca al TEAM ROCKET, tratarás de\l"
-	.string "convencerlo para que de media\l"
-	.string "vuelta, háblale de los FANTASMAS\l"
-	.string "de la TORRE, de que necesita un\l"
-	.string "SCOPE SILPH etc.\l"
+	.string "convencerlo para que dé media vuelta.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1:
+	.string "Háblale de los fantasmas, de que\n"
+	.string "necesita un SCOPE SILPH{PAUSE 15}…{PAUSE 15}\l"
 	.string "Si decidiese subir de todos modos,\l"
 	.string "avisa a {PLAYER} inmediatamente.$"
 
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2:
+	.string "Por otro lado, esto es para\n"
+	.string "vosotros, un SCOPE SILPH.\l"
+	.string "Con ello podréis capturar cualquier\l"
+	.string "fantasma dentro de TORRE POKÉMON.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3:
+.string "¡{PLAYER} obtuvo un SCOPE SILPH!$"
+
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20:
-.string "¡{PLAYER}!\n"
+.string "¡{PLAYER}!{PAUSE 35}\n"
 	.string "¡No quiero que busques la revancha\l"
-	.string "con ROJO, en caso de que se te\l"
-	.string "informe de su llegada inminente,\l"
-	.string "subirás al último piso y avisarás\l"
-	.string "a PROTÓN, esa es la única razón\l"
-	.string "para interrumpir su reunión con\l"
-	.string "FUJI!$"
+	.string "con ROJO! ¡En caso de que se te\l"
+	.string "informe de su llegada inminente, subirás\l"
+	.string "al último piso y avisarás a PROTÓN!\l"
+	.string "¡Esa es la única razón para\l"
+	.string "interrumpir la reunión!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_21:
 .string "AZUL: ¡Por qué le das tanta\n"
 	.string "importancia a ROJO!\l"
-	.string "¡Si me uniera con {PLAYER} seguro\l"
-	.string "que lo derrotamos!$"
+	.string "¡Si me uniera con {PLAYER},\l"
+	.string "seguro que lo derrotamos!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22:
 .string "GIOVANNI: La realidad es que nadie\n"
 	.string "ha estado ni cerca de derrotarlo,\l"
-	.string "ante un poder que es incontrolable\l"
-	.string "solo nos queda hacer uso de la\l"
-	.string "astucia para que se manifieste\l"
-	.string "solo donde nos interese{PAUSE 25}…{PAUSE 25}y ganar\l"
-	.string "tiempo.$"
+	.string "ante un poder que es incontrolable,\l"
+	.string "solo nos queda actuar con astucia,\l"
+	.string "para que se manifieste solo donde\l"
+	.string "nos interese{PAUSE 25}…{PAUSE 25} y ganar tiempo.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
 .string "AZUL: ¡Hmph!\n"
@@ -1541,12 +1702,17 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24:
 .string "GIOVANNI: Algo arrogante y\n"
-	.string "prepotente, pero con potencial{PAUSE 25}…{PAUSE 25}\l"
-	.string "PROTÓN se reunirá en breves\l"
-	.string "contigo {PLAYER}, adelántate junto\l"
-	.string "con el resto de RECLUTAS para\l"
-	.string "iniciar el señuelo de los CUBONES\l"
-	.string "y atraer a FUJI, cuento contigo.$"
+	.string "prepotente, pero con potencial{PAUSE 25}…{PAUSE 25}$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.1:
+	.string "PROTÓN se reunirá en breves\n"
+	.string "contigo, {PLAYER}. Adelántate junto\l"
+	.string "con el resto de reclutas para iniciar\l"
+	.string "el señuelo de los CUBONE, y atraer a\l"
+	.string "FUJI.$"
+	
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.2:
+	 .string "Cuento contigo.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1:
 walk_up
@@ -1624,6 +1790,7 @@ face_left
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_12:
+walk_down
 walk_down
 walk_down
 walk_down
@@ -3145,9 +3312,14 @@ waitmovement 0x0
 msgbox PokemonTower5F_Escena_4_Blaine_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_8
 waitmovement 0x0
+playse SE_BREAKABLE_DOOR
+waitse
+delay 10
 msgbox PokemonTower5F_Escena_4_Blaine_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_9
 waitmovement 0x0
+delay 10
 msgbox PokemonTower5F_Escena_4_Blaine_Texto_18 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PokemonTower5F_Escena_4_Blaine_Texto_19 MSGBOX_AUTOCLOSE
@@ -3175,16 +3347,21 @@ applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_13
 waitmovement 0x0
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+opendoor 20, 23
+waitdooranim
+applymovement 12, RocketHideout_4F_Mision_Andra_Fucsia_move_5.2
+waitmovement 0x0
 removeobject 12
-delay 60
+closedoor 20, 23
+waitdooranim
 setvar VAR_UNUSED_0x40F7, 47
 warpsilent MAP_POKEMON_TOWER_5F, 18, 9
 release
 end
 
 PokemonTower5F_Escena_4_Blaine_Texto_1:
-.string "RECLUTA: El LÍDER de ISLA CANELA ha\n"
-	.string "llegado, señor.$"
+.string "RECLUTA: El LÍDER de ISLA CANELA\n"
+	.string "ha llegado, señor.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_2:
 .string "GIOVANNI: Hacedle pasar.$"
@@ -3222,14 +3399,14 @@ PokemonTower5F_Escena_4_Blaine_Texto_8:
 	.string "creado una versión optimizada de\l"
 	.string "PORYGON. La producción del nuevo\l"
 	.string "PORYGON2 cuesta 3 veces la del\l"
-	.string "PORYGON normal, lo cual lo hace inviable\l"
-	.string "como producto de masas.$"
+	.string "PORYGON normal, lo cual lo hace\l"
+	.string "inviable como producto de masas.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_9:
 .string "Su valor competitivo es otra historia,\n"
 	.string "aún está por ver. Según parece,\l"
-	.string "PORYGON2 no es el fin, su potencial es\l"
-	.string "mayor.$"
+	.string "PORYGON2 no es el fin, su potencial\l"
+	.string "es aún mayor.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_10:
 .string "Es por ello que te ofrezco, en\n"
@@ -3287,8 +3464,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_17:
 	.string "¡Estamos a su merced! ¡Pueden arrasar\l"
 	.string "hoy con esta base si la descubriesen o\l"
 	.string "quemar mañana mi laboratorio si\l"
-	.string "hicieran una inspección! ¡Somos\l"
-	.string "prófugos!$"
+	.string "hicieran una inspección!\l"
+	.string "¡Somos prófugos!$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_18:
 .string "GIOVANNI: Hacer menos que todo lo que\n"
@@ -3377,7 +3554,9 @@ walk_fast_up
 step_end
 
 PokemonTower5F_Escena_4_Blaine_Move_9:
-walk_down
+delay_8
+walk_slow_down
+delay_8
 step_end
 
 PokemonTower5F_Escena_4_Blaine_Move_10:

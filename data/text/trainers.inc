@@ -6663,8 +6663,8 @@ PokemonTower5F_Text_Channeler4PostBattle:
 
 
 PokemonTower6F_Text_ChannelerIntro:
-	.string "¡Cielo y tierra pasarán más tu\n"
-	.string "palabra no pasará!$"
+	.string "¡Cielo y tierra pasarán,\n"
+	.string "más tu palabra no pasará!$"
 
 
 PokemonTower6F_Text_ChannelerDefeated:
@@ -6672,7 +6672,7 @@ PokemonTower6F_Text_ChannelerDefeated:
 
 
 PokemonTower6F_Text_ChannelerPostBattle:
-	.string "¡Perdóname FUJI!$"
+	.string "¡Perdóname, FUJI!$"
 
 
 PokemonTower6F_Text_Channeler2Intro:
@@ -6684,11 +6684,11 @@ PokemonTower6F_Text_Channeler2Defeated:
 
 
 PokemonTower6F_Text_Channeler2PostBattle:
-	.string "¡No pude frenarlos FUJI!$"
+	.string "¡No pude frenarlos, FUJI!$"
 
 
 PokemonTower6F_Text_Channeler3Intro:
-	.string "¡El paraíso te será negado ROCKET!$"
+	.string "¡El paraíso te será negado, ROCKET!$"
 
 
 PokemonTower6F_Text_Channeler3Defeated:
@@ -6696,8 +6696,8 @@ PokemonTower6F_Text_Channeler3Defeated:
 
 
 PokemonTower6F_Text_Channeler3PostBattle:
-	.string "¡Pagarás por tus crímenes, en esta\n"
-	.string "vida o en la otra!$"
+	.string "¡Pagarás por tus crímenes,\n"
+	.string "en esta vida o en la otra!$"
 
 
 RocketHideout5F_Text_RocketIntro:

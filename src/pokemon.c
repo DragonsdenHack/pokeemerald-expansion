@@ -7717,11 +7717,10 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CAMPEON:
             return MUS_RG_VS_CHAMPION;
         case TRAINER_CLASS_SINGULAR:
+        case TRAINER_CLASS_FUJI:
             return 579;
         case TRAINER_CLASS_BILL:
             return 551;
-        case TRAINER_CLASS_FUJI:
-            return 434;
         case TRAINER_CLASS_ANCIENT:
             return MUS_VS_KYOGRE_GROUDON;
         case TRAINER_CLASS_EXCULTISTA:

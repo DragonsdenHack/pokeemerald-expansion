@@ -55,31 +55,47 @@ waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 msgbox PokemonTower_6F_Combate_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox PokemonTower_6F_Combate_Fuji_Texto_4 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
 playse SE_PIN
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 delay 20
 msgbox PokemonTower_6F_Combate_Fuji_Texto_5 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_1
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_1
 waitmovement 0x0
+delay 5
 applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_7 MSGBOX_AUTOCLOSE
@@ -96,7 +112,8 @@ applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
 waitmovement 0x0
 delay 20
 playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 7
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_8
@@ -113,6 +130,7 @@ applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 addobject 11
 applymovement 11, PokemonTower_6F_Combate_Fuji_Move_9
@@ -123,6 +141,13 @@ waitmovement 0x0
 applymovement 11, PokemonTower_6F_Combate_Fuji_Move_11
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonTower_6F_Combate_Fuji_Texto_12.1 MSGBOX_AUTOCLOSE
+playse SE_USE_ITEM
+special HealPlayerParty
+waitse
+delay 20
+msgbox PokemonTower_6F_Combate_Fuji_Texto_12.2 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 fadescreen 1
@@ -137,35 +162,43 @@ setvar VAR_UNUSED_0x40F7, 48
 release
 end
 
+PokemonTower_6F_Combate_Fuji_Move_2.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
 PokemonTower_6F_Combate_Fuji_Texto_1:
 .string "RECLUTAS: ¡Vaya con el viejete, no\n"
-	.string "hemos podido abatirte siquiera los\l"
-	.string "3 al mismo tiempo!$"
+	.string "hemos podido abatirte ni entre\l"
+	.string "los 3 al mismo tiempo!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_2:
 .string "FUJI: Inconscientes, le habéis\n"
 	.string "privado a este CUBONE de su figura\l"
-	.string "materna, y todo por dinero, el\l"
-	.string "daño ya es irreparable, abandonad\l"
+	.string "materna, y todo por dinero.\l"
+	.string "El daño es ya irreparable, abandonad\l"
 	.string "este lugar antes de que sea tarde.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
-.string "RECLUTAS: ¡Vamos ese MAROWAK se\n"
-	.string "interpuso en nuestro camino!\l"
-	.string "¡Nos forzó a acabar con su vida,\l"
-	.string "nada más!$"
+.string "RECLUTAS: ¡Vamos!\n"
+	.string "Ese MAROWAK se interpuso en nuestro\l"
+	.string "camino! ¡Nos forzó a acabar con su\l"
+	.string "vida, nada más!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
 .string "FUJI: Ya veo, el resultado es lo\n"
 	.string "único que cuenta, ¿no?\l"
-	.string "Bien, entonces os diré lo que\l"
-	.string "vamos a hacer, mi HAUNTER lanzará\l"
-	.string "su PESADILLA sobre vosotros, al\l"
-	.string "tiempo que os quedáis sin todos\l"
-	.string "los cráneos ya robados, tal vez la\l"
-	.string "única forma de que recapacitéis\l"
-	.string "sea arrebatándoos todo cuanto\l"
-	.string "valoráis.$"
+	.string "Entonces os diré lo que vamos a\l"
+	.string "hacer: mi HAUNTER lanzará su\l"
+	.string "PESADILLA sobre vosotros, al tiempo\l"
+	.string "que os quedáis sin todos los cráneos\l"
+	.string "robados, tal vez la única forma de\l"
+	.string "que recapacitéis sea arrebatándoos\l"
+	.string "todo cuanto valoráis.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
 .string "RECLUTAS: E{PAUSE 15}-{PAUSE 15}-{PAUSE 15}Espere anciano, no\n"
@@ -184,7 +217,7 @@ PokemonTower_6F_Combate_Fuji_Texto_7:
 PokemonTower_6F_Combate_Fuji_Texto_8:
 .string "FUJI: Ya veo, no me queda otra que\n"
 	.string "desarmarte igual que hice con tus\l"
-	.string "socios{PAUSE 25}…{PAUSE 25}por la paz de este lugar.$"
+	.string "socios{PAUSE 25}…{PAUSE 25} por la paz de este lugar.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_9:
 .string "Te he fallado CUBONE, perdóname{PAUSE 5}…{PAUSE 5}$"
@@ -198,17 +231,24 @@ PokemonTower_6F_Combate_Fuji_Texto_10.1:
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 .string "PROTÓN: Sabías que este día iba a\n"
-	.string "llegar FUJI, no puedes huir\l"
+	.string "llegar, FUJI. No puedes huir\l"
 	.string "eternamente de tu pasado.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12:
-.string "PROTÓN: Buen trabajo {PLAYER}, todo\n"
+.string "PROTÓN: Buen trabajo, {PLAYER}. Todo\n"
 	.string "va según lo planeado, FUJI y yo\l"
 	.string "vamos al último piso, donde\l"
-	.string "podamos charlar tranquilamente,\l"
-	.string "confío en ti para que ni la más\l"
+	.string "podamos charlar tranquilamente.\l"
+	.string "Confío en ti para que ni la más\l"
 	.string "mínima mota de polvo se cuele en\l"
 	.string "esa reunión.$"
+
+PokemonTower_6F_Combate_Fuji_Texto_12.1:
+	.string "Para ello, quiero a tus POKÉMON\l"
+	.string "en plena forma, los curaré.$"
+
+PokemonTower_6F_Combate_Fuji_Texto_12.2:
+.string "Confío en ti.$"
 
 PokemonTower_6F_Combate_Fuji_Move_1:
 walk_in_place_left
@@ -304,14 +344,20 @@ waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_USE_ITEM
 special HealPlayerParty
+waitse
 delay 20
 applymovement 12, PokemonTower_6F_Cultistas_Move_2.2
 waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_12 MSGBOX_AUTOCLOSE
-fadescreen 1
-delay 20
+delay 10
+playse SE_M_FAINT_ATTACK
+setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 12
-fadescreen 0
+waitse
+delay 35
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_8
+waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 49
 release
 end
@@ -328,9 +374,9 @@ face_up
 step_end
 
 PokemonTower_6F_Cultistas_Texto_1:
-.string "????: De modo que tú eres el tipo\n"
-	.string "que ha estado causando todo este\l"
-	.string "alboroto en este lugar sagrado.$"
+.string "????: De modo que tú eres quién ha\n"
+	.string "causando todo este alboroto, en\l"
+	.string "un lugar sagrado como TORRE POKÉMON.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -356,7 +402,7 @@ PokemonTower_6F_Cultistas_Texto_6:
 .string "Ya veo{PAUSE 25}…{PAUSE 25} nada es lo que parece.$"
 
 PokemonTower_6F_Cultistas_Texto_7:
-.string "Entonces tus actos responden a un fin\n"
+.string "Entonces, tus actos responden a un fin\n"
 	.string "mayor{PAUSE 25}…{PAUSE 25} No es la primera vez que oigo\l"
 	.string "eso, pero está claro que estás en una\l"
 	.string "capa de la realidad superior a la que\l"
@@ -378,9 +424,9 @@ PokemonTower_6F_Cultistas_Texto_10:
 
 PokemonTower_6F_Cultistas_Texto_11:
 .string "Este mundo es mucho más amplio que los\n"
-	.string "yugos que someten KANTO, solo espero\l"
-	.string "que puedas vivir para verlo. Deja que\l"
-	.string "cure a tu equipo POKÉMON.$"
+	.string "yugos que someten KANTO, espero\l"
+	.string "que puedas vivir para verlo.\l"
+	.string "Ahora, deja que cure a tus POKÉMON.$"
 
 PokemonTower_6F_Cultistas_Texto_12:
 .string "Prosigue tu camino.$"
@@ -503,16 +549,16 @@ PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2:
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
 .string "¡El espíritu de MAROWAK se ha\n"
-	.string "desatado y está plagando de GHOSTS\l"
-	.string "la TORRE!$"
+	.string "desatado y está plagando de GHOST\l"
+	.string "la zona!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4:
 .string "AZUL: ¡{PLAYER}!\n"
 	.string "¡ROJO acaba de derrotarme!\l"
-	.string "¡Oh, pensaba que estaba vez podría\l"
-	.string "maldita sea!\l"
-	.string "¡Avisa a PROTÓN y salid de ahí\l"
-	.string "cuanto antes!$"
+	.string "¡Oh, pensaba que esta vez\l"
+	.string "podría, maldita sea!\l"
+	.string "¡Avisa a PROTÓN y salid de\l"
+	.string "ahí cuanto antes!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Move_1:
 emote_exclamation_mark

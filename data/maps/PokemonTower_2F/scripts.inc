@@ -22,9 +22,8 @@ release
 end
 
 PokemonTower2F_Text_1:
-.string "Ocúpate de tu parte {PLAYER},\n"
-	.string "¡nadie debe acceder al último\l"
-	.string "piso!$"
+.string "Ocúpate de tu parte, {PLAYER}.\n"
+	.string "¡Nadie debe acceder al último piso!$"
 
 PokemonTower2F_Azul::
 lock
@@ -51,6 +50,10 @@ msgbox PokemonTower2F_Azul_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonTower2F_Azul_Move_2
 waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonTower2F_Azul_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonTower2F_Azul_Texto_7.2 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_EXIT
 clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
@@ -111,6 +114,10 @@ applymovement 1, PokemonTower2F_Azul_Move_2.1
 waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
+msgbox PokemonTower2F_Azul_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonTower2F_Azul_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_EXIT
 clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 addobject 3
@@ -145,35 +152,33 @@ release
 end
 
 PokemonTower2F_Azul_Texto_1:
-.string "AZUL: Así que ya estás aquí{PAUSE 5}…{PAUSE 5}$"
+.string "AZUL: Así que ya estás aquí.$"
 
 PokemonTower2F_Azul_Texto_2:
-.string "Los otros ROCKET están ya en los\n"
-	.string "pisos superiores causando\l"
-	.string "disturbios y atrapando CUBONES, si\l"
-	.string "ese tal FUJI adora tanto este\l"
-	.string "lugar no debería tardar en venir.$"
+.string "Los otros ROCKET se encuentran en\n"
+	.string "los pisos superiores, causando\l"
+	.string "disturbios y atrapando CUBONES.\l"
+	.string "Si ese tal FUJI adora tanto este\l"
+	.string "lugar, no debería tardar en venir.$"
 
 PokemonTower2F_Azul_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower2F_Azul_Texto_4:
-.string "Oye no te confundas, no formo\n"
-	.string "parte de vuestra organización,\l"
-	.string "solo soy una especie de\l"
-	.string "colaborador que puede hacer\l"
-	.string "trabajos y favores puntuales, ¿ha\l"
-	.string "quedado claro?$"
+.string "Oye, no te confundas.\n"
+	.string "No formo parte de vuestra organización,\l"
+	.string "solo soy una especie de colaborador,\l"
+	.string "que puede hacer trabajos y favores\l"
+	.string "puntuales, ¿ha quedado claro?$"
 
 PokemonTower2F_Azul_Texto_5:
 .string "Todo lo que quiero es obtener más\n"
 	.string "poder para algún día proclamarme\l"
-	.string "campeón de KANTO, el TEAM\l"
-	.string "ROCKET puede ayudarme a descubrir\l"
-	.string "muchos de los secretos que la\l"
-	.string "región esconde y proporcionarme\l"
-	.string "tecnología, algo que en esta\l"
-	.string "región parece que nadie está\l"
+	.string "campeón de KANTO. El TEAM ROCKET\l"
+	.string "puede ayudarme a descubrir muchos\l"
+	.string "de los secretos que esta región\l"
+	.string "esconde y proporcionarme recursos,\l"
+	.string "dos cosas que nadie parece estar\l"
 	.string "dispuesto a dar.$"
 
 PokemonTower2F_Azul_Texto_6:
@@ -183,29 +188,32 @@ PokemonTower2F_Azul_Texto_6:
 
 PokemonTower2F_Azul_Texto_7:
 .string "Mi abuelo OAK siempre ha tenido\n"
-	.string "predilección por él, a mi sin\l"
-	.string "embargo me da mala espina, nadie\l"
-	.string "puede ser tan rematademente\l"
-	.string "perfecto, parece llevar siempre\l"
+	.string "predilección por él. A mí, sin\l"
+	.string "embargo, me da mala espina.$"
+	
+	
+PokemonTower2F_Azul_Texto_7.1:
+	.string "Nadie puede ser tan rematademente\n"
+	.string "perfecto; parece llevar siempre\l"
 	.string "todo al día, tener en cuenta todas\l"
 	.string "las posibles opciones al combatir,\l"
 	.string "y ese silencio{PAUSE 15}…{PAUSE 15}\l"
 	.string "Eso es lo que más me irrita,\l"
 	.string "siquiera se digna a entablar\l"
-	.string "conversación, llega, te vence y te\l"
+	.string "conversación: llega, te vence y te\l"
 	.string "deja ahí tirado, como si fueras un\l"
-	.string "mero trámite para él antes de\l"
+	.string "mero trámite para él, antes de\l"
 	.string "continuar con su próximo destino,\l"
-	.string "la naturalidad con lo que lo hace\l"
-	.string "me repugna, no sé si se siente\l"
-	.string "superior por actuar de ese modo, o\l"
-	.string "simplemente da por hecho que va ha\l"
-	.string "derrotar a todos y ya está, pero\l"
-	.string "no{PAUSE 15}…{PAUSE 15},{PAUSE 15} me niego a formar parte de\l"
-	.string "su línea preestablecida, ningún\l"
-	.string "entrenador es invencible, y esa\l"
-	.string "tendencia puede revertirse, lo\l"
-	.string "demostraré.$"
+	.string "la naturalidad con la que lo hace\l"
+	.string "me repugna.$"
+	
+PokemonTower2F_Azul_Texto_7.2:
+	.string "Parece{PAUSE 15}…{PAUSE 15} dar por hecho que\n"
+	.string "va a derrotar a todos y ya está, pero\l"
+	.string "no{PAUSE 15}…{PAUSE 15} me niego a formar parte de\l"
+	.string "su ruta preestablecida, ningún\l"
+	.string "ENTRENADORes invencible, y el no\l"
+	.string "es la excepción, lo demostraré.$"
 
 PokemonTower2F_Azul_Texto_8:
 .string "FUJI: Las exorcistas me han\n"
@@ -219,24 +227,24 @@ PokemonTower2F_Azul_Texto_9:
 
 PokemonTower2F_Azul_Texto_10:
 .string "FUJI: Espero que no cometas la\n"
-	.string "estupidez de subir a ayudar a tus\l"
-	.string "compañeros jóven, no tengo nada en\l"
-	.string "contra vuestra, pero no voy a\l"
-	.string "permitir que perturbéis la\l"
-	.string "tranquilidad de este lugar.$"
+	.string "estupidez de subir y unirte a tus\l"
+	.string "compañeros, joven. No tengo nada en\l"
+	.string "contra vuestra, pero no voy a permitir\l"
+	.string "que perturbéis la tranquilidad de\l"
+	.string "este lugar.$"
 
 PokemonTower2F_Azul_Texto_11:
-.string "AZUL: Genial, primera parte de la\n"
-	.string "misión conseguida {PLAYER}, FUJI ha\l"
-	.string "mordido el anzuelo, lo único que\l"
-	.string "tienes que hacer es asegurarte de\l"
-	.string "que no salga de aquí hasta que\l"
-	.string "PROTÓN llegue.$"
+.string "AZUL: Genial. Primera parte de la\n"
+	.string "misión conseguida, {PLAYER}.\l"
+	.string "FUJI ha mordido el anzuelo, lo único\l"
+	.string "que tienes que hacer es asegurarte de\l"
+	.string "que no salga de aquí hasta que PROTÓN\l"
+	.string "llegue.$"
 
 PokemonTower2F_Azul_Texto_12:
-.string "Por mi parte seguiré aquí, como\n"
-	.string "dijo GIOVANNI, os avisaré si ROJO\l"
-	.string "aparece, no te preocupes, ¡lo\l"
+.string "Por mi parte, seguiré aquí.\n"
+	.string "Como dijo GIOVANNI, os avisaré si\l"
+	.string "ROJO aparece. No te preocupes, ¡lo\l"
 	.string "entretendré durante un buen rato!$"
 
 PokemonTower2F_Azul_Move_1:
