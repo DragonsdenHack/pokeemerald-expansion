@@ -152,10 +152,35 @@ goto Route15_Koga_Bruno
 
 Route15_Koga_Bruno::
 msgbox Route15_Koga_Bruno_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 15, Route15_Koga_Bruno_Move_4
+waitmovement 0x0
+waitse
+delay 10
+msgbox Route15_Koga_Bruno_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_1.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route15_Koga_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, Route15_Koga_Bruno_Move_4.1
+waitmovement 0x0
+msgbox Route15_Koga_Bruno_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, Route15_Koga_Bruno_Move_1
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, Route15_Koga_Bruno_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox Route15_Koga_Bruno_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 14, Route15_Koga_Bruno_Move_4.3
+waitmovement 0x0
+waitse
 applymovement 14, Route15_Koga_Bruno_Move_3
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_4 MSGBOX_AUTOCLOSE
@@ -164,11 +189,18 @@ waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_5 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_6 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route15_Koga_Bruno_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement 14, Route15_Koga_Bruno_Move_5
 waitmovement 0x0
-delay 20
+waitse
+delay 10
+msgbox Route15_Koga_Bruno_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_DEFAULT
 delay 20
 msgbox Route15_Koga_Bruno_Texto_10 MSGBOX_AUTOCLOSE
@@ -217,84 +249,110 @@ setvar VAR_UNUSED_0x40F7, 65
 release
 end
 
+Route15_Koga_Bruno_Move_4.3:
+emote_exclamation_mark
+step_end
+
+Route15_Koga_Bruno_Move_4.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+Route15_Koga_Bruno_Move_4.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_8
+step_end
+
 Route15_Koga_Bruno_Texto_1:
 .string "????: Eres una vergüenza para los\n"
-	.string "LÍDERES DE GIMNASIO KOGA, y debes\l"
-	.string "estarme agradecido de que no\l"
-	.string "informe de esto a LANCE, no solo\l"
-	.string "te niegas a prestar tu ayuda para\l"
-	.string "erradicar a los motoristas más\l"
-	.string "radicales que abundan en el CAMINO\l"
-	.string "BICIS, sino que reconoces que\l"
-	.string "entiendes su causa, ¿no habrás\l"
-	.string "tenido tú también contacto con la\l"
-	.string "banda criminal ROCKET?\l"
-	.string "Sabes que eso implicaría tu\l"
-	.string "destitución inmediata como LÍDER\l"
-	.string "DE GIMNASIO, ¿no?$"
+	.string "LÍDERES DE GIMNASIO, KOGA.\l"
+	.string "Y debes estarme agradecido de no informar\l"
+	.string "a LANCE; no solo te niegas a prestar tu\l"
+	.string "ayuda para erradicar a los motoristas\l"
+	.string "más radicales del CAMINO BICIS.$"
+
+Route15_Koga_Bruno_Texto_1.1:
+	.string "¡Sino que reconoces que\n"
+	.string "entiendes su causa!$"
+
+Route15_Koga_Bruno_Texto_1.2:
+	.string "¿No habrás tenido tú también contacto\n"
+	.string "con la banda criminal ROCKET?\l"
+	.string "Sabes que eso implicaría tu destitución\l"
+	.string "inmediata como LÍDER de FUCSIA, ¿no?$"
 
 Route15_Koga_Bruno_Texto_2:
-.string "KOGA: Me insultas BRUNO, sabes tan\n"
-	.string "bien como yo que mi máxima\l"
-	.string "preocupación ha sido siempre el\l"
-	.string "bien de esta región, entiendo que\l"
-	.string "tu posición como miembro de la\l"
-	.string "ÉLITE 4 tenga ciertas exigencias,\l"
-	.string "pero no es mi competencia el\l"
-	.string "obligar a un puñado de motoristas\l"
-	.string "a dejar de ser afines al TEAM\l"
-	.string "ROCKET.$"
+.string "KOGA: Me insultas, BRUNO.\n"
+	.string "Sabes tan bien como yo que mi máxima\l"
+	.string "preocupación ha sido siempre el bien\l"
+	.string "de esta región.$"
+
+Route15_Koga_Bruno_Texto_2.1:
+	.string "Entiendo que tu posición como miembro de\n"
+	.string "la ÉLITE 4 tenga ciertas exigencias,\l"
+	.string "pero no es mi competencia el obligar a\l"
+	.string "a un puñado de motoristas a dejar de\l"
+	.string "ser afines al TEAM ROCKET.$"
 
 Route15_Koga_Bruno_Texto_3:
 .string "BRUNO: Me parece que no me has\n"
-	.string "entendido KOGA, no se trata de si\l"
-	.string "quieren o no ser afines,\l"
-	.string "cualquiera que muestre cualquier\l"
-	.string "signo de colaboración con esos\l"
-	.string "delincuentes debe responder ante\l"
-	.string "la ley, y casualmente aquí, en\l"
-	.string "FUCSIA, es donde está el principal\l"
-	.string "foco de insurrectos, al no hacer\l"
-	.string "nada al respecto serás tratado\l"
-	.string "igualmente como culpable KOGA.$"
+	.string "entendido, KOGA.\l"
+	.string "No se trata de si quieren o no ser\l"
+	.string "afines: cualquiera que muestre un leve\l"
+	.string "indicio de colaboración con esos\l"
+	.string "delincuentes, debe responder ante\l"
+	.string "la ley.$"
+
+Route15_Koga_Bruno_Texto_3.1:
+	.string "Y casualmente aquí, en FUCSIA, es donde\n"
+	.string "está el principal foco de insurrectos.\l"
+	.string "Al no hacer nada al respecto, serás\l"
+	.string "tratado igualmente como culpable, KOGA.$"
 
 Route15_Koga_Bruno_Texto_4:
-.string "KOGA: No me hagas esto BRUNO,\n"
-	.string "sabes que después de la retirada\l"
-	.string "de AGATHA, tú ascenderás un\l"
-	.string "escalón dentro de la ÉLITE 4, y la\l"
-	.string "vacante libre será mía.$"
+.string "KOGA: No me hagas esto, BRUNO{PAUSE 15}…{PAUSE 15}\n"
+	.string "Sabes que después de la retirada de\l"
+	.string "AGATHA, tú ascenderás un escalón en\l"
+	.string "la ÉLITE 4, y la vacante libre será mía.$"
 
 Route15_Koga_Bruno_Texto_5:
-.string "BRUNO: Eso es lo que me preocupa,\n"
-	.string "alguien que muestra tal\l"
-	.string "incapacidad para mantener el orden\l"
-	.string "y la disciplina en FUCSIA no\l"
-	.string "debería formar parte de la ÉLITE\l"
-	.string "de KANTO, o peor aún, te conviene\l"
-	.string "mantener a esos motoristas ahí\l"
-	.string "porque en el fondo los apoyas, ¿o\l"
-	.string "no?$"
+.string "BRUNO: Eso es lo que me preocupa.\n"
+	.string "Alguien que muestra tal incapacidad\l"
+	.string "para mantener el orden y la disciplina\l"
+	.string "en FUCSIA, no debería formar parte de la\l"
+	.string "ÉLITE de KANTO.$"
 
 Route15_Koga_Bruno_Texto_6:
 .string "KOGA: No es delito dejar al pueblo\n"
-	.string "expresar sus ideas BRUNO.$"
+	.string "expresar sus ideas, BRUNO.$"
 
 Route15_Koga_Bruno_Texto_7:
 .string "BRUNO: Por el momento{PAUSE 15}…{PAUSE 15}\n"
 	.string "Por suerte para ti, vas a poder\l"
 	.string "lavarte las manos con todo este\l"
-	.string "asunto, un ALTO MANDO como yo no\l"
+	.string "asunto: un ALTO MANDO como yo no\l"
 	.string "viaja a un lugar como este a no\l"
 	.string "ser que tenga un motivo de peso{PAUSE 5}…{PAUSE 5}$"
 
+Route15_Koga_Bruno_Texto_7.1:
+.string "KOGA: ¿Q-{PAUSE 25}qué{PAUSE 25}…{PAUSE 25} harás?$"
+
 Route15_Koga_Bruno_Texto_8:
-.string "BRUNO: {PAUSE 15}…{PAUSE 15}y tengo órdenes directas\n"
-	.string "de LANCE de entrar al CAMINO BICIS\l"
-	.string "y hacer limpieza de todos aquellos\l"
-	.string "que vayan en contra de nuestro\l"
-	.string "gobierno, serán detenidos y\l"
-	.string "llevados a prisión inmediatamente.$"
+.string "BRUNO: Tengo órdenes directas de LANCE,\n"
+	.string "para entrar ahí y hacer limpieza.$"
+
+Route15_Koga_Bruno_Texto_8.1:
+	.string "Todos los que vayan en contra de nuestro\n"
+	.string "gobierno, serán detenidos y llevados a\l"
+	.string "prisión inmediatamente.$"
 
 Route15_Koga_Bruno_Texto_9:
 .string "KOGA: {PAUSE 15}…{PAUSE 15}$"

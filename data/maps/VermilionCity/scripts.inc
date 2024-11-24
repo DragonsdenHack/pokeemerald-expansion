@@ -64,7 +64,7 @@ release
 end
 
 VermilionCity_Text6:
-.string "A vosotros los ROCKET pronto se\n"
+.string "A vosotros, los ROCKET, pronto se\n"
 .string "os va a acabar el privilegio de\l"
 .string "poder usar nuestro transporte\l"
 .string "marítimo. He oído que el COMITÉ DE\l"

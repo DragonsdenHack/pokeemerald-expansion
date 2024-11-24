@@ -752,7 +752,7 @@ PokemonMansion_1F_Ladrones_Texto_32:
 	.string "JOHTO, de modo que esto es un\l"
 	.string "adios para siempre.\l"
 	.string "¡Disfruta de la pobreza que asola\l"
-	.string "a esta región ROCKET!\l"
+	.string "a esta región, ROCKET!\l"
 	.string "¡Pobreza a la que nosotros hemos\l"
 	.string "contribuido jojojo!$"
 

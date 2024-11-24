@@ -106,6 +106,9 @@ fadescreen 1
 delay 40
 fadescreen 0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_2
 applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
 waitmovement 0x0
@@ -116,7 +119,9 @@ addobject 4
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
@@ -130,6 +135,18 @@ msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.1 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_7
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10 MSGBOX_AUTOCLOSE
@@ -140,9 +157,14 @@ applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12 MSGBOX_AUTOCLOSE
 showmoneybox 0, 0
-delay 15
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 25
 playse SE_SHOP
-addmoney 140000 0
+addmoney 175000 0
 updatemoneybox
 delay 80
 playfanfare MUS_OBTAIN_ITEM
@@ -156,12 +178,28 @@ giveitem ITEM_EVIOLITE
 waitfanfare
 delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.2 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17 MSGBOX_AUTOCLOSE
@@ -172,22 +210,129 @@ applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19 MSGBOX_AUTOCLOSE
 playse SE_PIN
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+addobject 11
+delay 15
+showmonpic SPECIES_ZAPDOS, 17, 1   
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.2 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+playse SE_PIN
 applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
 waitmovement 0x0
+waitse
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+showmonpic SPECIES_ARTICUNO, 17, 1   
+playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.1 MSGBOX_AUTOCLOSE
+delay 10
+showmonpic SPECIES_MOLTRES, 17, 1   
+playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.3 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+removeobject 11
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.3
+waitmovement 0x0
+delay 5
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.3 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.4 MSGBOX_DEFAULT
+waitfanfare
+playse SE_PIN
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.5 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.4
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
@@ -208,279 +353,322 @@ setvar VAR_UNUSED_0x40F7, 63
 release
 end
 
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.4:
+face_right
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2:
+face_down
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.3:
+walk_slow_right
+delay_16
+delay_8
+walk_slow_left
+delay_16
+delay_8
+step_end
+
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_1:
-.string "GIOVANNI: ¿Qué te parece {PLAYER}?\n"
+.string "GIOVANNI: ¿Qué te parece, {PLAYER}?\n"
 	.string "Un lugar de trabajo más apropiado\l"
 	.string "que la tapadera del S4, ¿cierto?\l"
 	.string "¿Has descubierto algo?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
-.string "GIOVANNI: Ya veo, DALIA es también\n"
-	.string "nieta de OAK y hermana de AZUL,\l"
-	.string "por lo que me cuentas algo muy\l"
+.string "Ya veo, DALIA es también nieta de OAK, y\n"
+	.string "hermana de AZUL.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
+	.string "Por lo que me cuentas, algo muy\n"
 	.string "extraño pasa en ese lugar, o OAK\l"
-	.string "se ha teletransportado usando\l"
-	.string "algún POKÉMON o ese LABORATORIO no\l"
-	.string "es tan inocente y caritativo como\l"
-	.string "lo pintan.$"
+	.string "se ha teletransportado usando algún\l"
+	.string "POKÉMON o ese LABORATORIO no es tan\l"
+	.string "inocente y caritativo como lo pintan.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_3:
 .string "ANDRA: ¿Pudiste entonces robar un\n"
 	.string "BULBASAUR?\l"
-	.string "¡Guau que suerte, muy pocos\l"
-	.string "ENTRENADORES tienen acceso a esa\l"
-	.string "clase de POKÉMON, no creas que voy\l"
-	.string "a quedarme atrás!$"
+	.string "¡Guau, que suerte!\l"
+	.string "¡Muy pocos tienen acceso a esa clase de\l"
+	.string "POKÉMON, yo tampoco me quedaré atrás!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4:
-.string "AZUL: ¿Quería verme GIOVANNI?$"
+.string "AZUL: ¿Quería verme, GIOVANNI?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5:
-.string "GIOVANNI: Así es AZUL, {PLAYER} ha\n"
-	.string "estado en tu querido pueblo, ya\l"
-	.string "que tú te negaste a\l"
-	.string "proporcionarnos información sobre\l"
-	.string "aquellas personas con las que has\l"
-	.string "convivido durante toda tu vida.$"
+.string "GIOVANNI: Así es AZUL, {PLAYER} ha estado\n"
+	.string "en tu querido pueblo, ya que tú te\l"
+	.string "negaste a proporcionarnos información\l"
+	.string "sobre aquellas personas con las que\l"
+	.string "has convivido durante toda tu vida.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6:
-.string "AZUL: {PAUSE 15}…{PAUSE 15} …{PAUSE 15} … {PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} … {PAUSE 10}…{PAUSE 10}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_7:
-.string "AZUL: Ya se lo dije GIOVANNI, la\n"
-	.string "relación con mi abuelo es más bien\l"
-	.string "formal, básicamente se ocupó de mi\l"
-	.string "por los lazos familiares que nos\l"
-	.string "unen, me he limitado a vivir con\l"
-	.string "mi hermana DALIA, la cual sí\l"
-	.string "congenia más con OAK.$"
+.string "AZUL: Ya se lo dije, GIOVANNI.\n"
+	.string "La relación con mi abuelo es más bien\l"
+	.string "formal, básicamente se ocupó de mí por\l"
+	.string "los lazos familiares que nos unen; me\l"
+	.string "he limitado a vivir con mi hermana,\l"
+	.string "DALIA, ella sí congenia más con OAK.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8:
-.string "AZUL: En cuanto a ROJO, siempre\n"
-	.string "fue su favorito, su alumno\l"
-	.string "predilecto, desde que tengo uso de\l"
-	.string "razón ya le enseñaba a combatir,\l"
-	.string "pareciera como si fuera su\l"
-	.string "elegido, el destinado a hacer la\l"
-	.string "voluntad de mi abuelo{PAUSE 5}…{PAUSE 5}$"
+.string "En cuanto a ROJO, siempre fue\n"
+	.string "su favorito, su alumno predilecto.\l"
+	.string "Desde el momento que llegó a PUEBLO \l"
+	.string "PALETA, ya le enseñaba a combatir.\l"
+	.string "Pareciera como si fuera su elegido{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9:
-.string "AZUL: No puedo darle información\n"
-	.string "porque no sé nada GIOVANNI, y no\l"
-	.string "quiero volver por ese pueblo ahora\l"
+.string "No puedo darle información\n"
+	.string "porque no sé nada.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.1:
+	.string "Y no quiero volver por ese pueblo, ahora\n"
 	.string "que tengo la libertad que el ser\l"
 	.string "ENTRENADOR me da, lo único que OAK\l"
 	.string "y DALIA querían para mí era\l"
 	.string "posicionarme en un buen puesto\l"
 	.string "para dejar de ser una carga para\l"
 	.string "ellos, me ven como eso, un trámite\l"
-	.string "del que ocuparse, pero no, mi\l"
-	.string "voluntad es otra: ser el mejor por\l"
-	.string "mis propios medios y demostrarles\l"
-	.string "lo mucho que me subestiman, no\l"
-	.string "seré un robot más a las órdenes de\l"
-	.string "la ÉLITE 4.$"
+	.string "más del que ocuparse{PAUSE 10}…{PAUSE 10}$" 
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.2:
+	.string "¡Pero no! Mi voluntad es otra: ser\n"
+	.string "el mejor por mis propios medios y\l"
+	.string "demostrarles lo mucho que me subestiman,\l"
+	.string "¡no seré una marioneta más bajo\l"
+	.string "las órdenes de la ÉLITE 4!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10:
 .string "GIOVANNI: Solo un verdadero ROCKET\n"
-	.string "hablaría así AZUL, no dejaremos\l"
-	.string "que te impongan su voluntad\l"
+	.string "hablaría así, AZUL.\l"
+	.string "No dejaremos que te impongan su voluntad,\l"
 	.string "créeme, aquí estás en tu casa.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_11:
 .string "AZUL: G{PAUSE 15}-{PAUSE 15}gracias señor{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12:
-.string "GIOVANNI: Bien, os he hecho venir\n"
-	.string "a los tres porque considero que ya\l"
-	.string "tenéis el nivel para abordar una\l"
-	.string "misión, tres más bien, de crucial\l"
-	.string "importancia, pero antes {PLAYER},\l"
-	.string "tu recompensa por tan valiosa\l"
-	.string "información.$"
+.string "GIOVANNI: Ahora, es momento de hablar\n"
+	.string "del porqué os he reunido aquí a los 3.\l"
+	.string "Ya tenéis nivel para abordar una misión,\l"
+	.string "tres más bien, de crucial importancia.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12.1:
+	.string "Pero antes, {PLAYER}, debo darte tu\n"
+	.string "recompensa por tan valiosa información.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13:
-	.string "¡Te has embolsado 140.000¥!$"
+	.string "¡Te has embolsado 175.000¥!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14:
-.string "GIOVANNI: Además, ten esto, AZUL y\n"
-	.string "ANDRA ya cuentan con uno, es un\l"
-	.string "insulto que a uno de mis mejores\l"
-	.string "hombres le falte un recurso como\l"
-	.string "este.$"
+.string "GIOVANNI: Además, ten esto, AZUL y ANDRA\n"
+	.string "ya cuentan con uno, es un insulto que a\l"
+	.string "uno de mis mejores hombres le falte un\l"
+	.string "recurso como este.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15:
-.string "GIOVANNI: Un MINERAL EVOLUTIVO,\n"
-	.string "quedan poquísimos en esta región.\l"
-	.string "Incrementará en un 50% ambas\l"
-	.string "defensas, en aquellos POKÉMON que aún\l"
-	.string "pueden evolucionar. Con ello tu GOLBAT\l"
-	.string "aguantará de una forma extraordinaria,\l"
-	.string "no solo GOLBAT; MAGMAR, ELECTABUZZ,\l"
-	.string "SCYTHER o RHYDON son algunos de los\l"
-	.string "mejores usuarios de este objeto. Úsalo\l"
-	.string "sabiamente.$"
+.string "Un MINERAL EVOLUTIVO, quedan\n"
+	.string "muy pocos en esta región.\l"
+	.string "Incrementará en un 50% ambas defensas,\l"
+	.string "en POKÉMON que aún puedan evolucionar.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1:
+	.string "Con ello, tu GOLBAT aguantará golpes\n"
+	.string "de forma extraordinaria.\l"
+	.string "No solo GOLBAT; MAGMAR, RHYDON, SCYTHER\l"
+	.string "o ELECTABUZZ son algunos de los mejores\l"
+	.string "usuarios de este objeto. Úsalo bien.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.2:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
-.string "GIOVANNI: Las misiones que a\n"
-	.string "partir de ahora os asigne en este\l"
-	.string "lugar son totalmente\l"
-	.string "confidenciales para todo ser ajeno\l"
-	.string "al S5 de esta base, eso incluye\l"
-	.string "también a la mayoría de los\l"
-	.string "ROCKET, no debéis hablar de esto\l"
-	.string "fuera con nadie, siempre se habla\l"
-	.string "de que el TEAM ROCKET roba y\l"
-	.string "comete crímenes con el fin de\l"
-	.string "financiar sus proyectos, pues\l"
-	.string "bien, en lugares como este es\l"
-	.string "donde se planifican los proyectos\l"
-	.string "de verdad, si alguien, ROCKET o\l"
-	.string "no, os pregunta qué hacéis,\l"
-	.string "responderéis con el engargo más\l"
-	.string "básico que el ROCKET medio lleva a\l"
-	.string "cabo: robar, ya sea x objeto o x\l"
-	.string "POKÉMON{PAUSE 15}…{PAUSE 15}\l"
-	.string "Una vez sabido esto, podemos\l"
+.string "Debéis saber que a partir de ahora, las\n"
+	.string "misiones asignadas desde BASE PROFUNDA\l"
+	.string "serán totalmente confidenciales para\l"
+	.string "todo ser ajeno a ella.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1:
+	.string "Esto incluye también a la mayoría\n"
+	.string "de ROCKET.\l"
+	.string "Es aquí donde se llevamos a cabo los\l"
+	.string "proyectos de verdad, esos que marcarán\l"
+	.string "una diferencia real, y gran parte de su\l"
+	.string "valor diferencial radica en su secretismo.\l"
+	.string "Por ello, estas misiones y estos planes\l"
+	.string "no existen: solo nos dedicamos a robar y\l"
+	.string "extorsionar, ¿entendido?$"
+
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.2:
+	.string "Una vez sabido esto, podemos\n"
 	.string "comenzar{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17:
-.string "GIOVANNI: ¿Recuerdas, ANDRA, esa\n"
-	.string "CENTRAL ENERGÍA que tanto interés\l"
-	.string "te causaba, y todo lo que me\l"
-	.string "contaste sobre tus sospechas\l"
-	.string "acerca de un POKÉMON de gran poder\l"
-	.string "que allí habitaba?$"
+.string "¿Recuerdas, ANDRA, esa CENTRAL ENERGÍA\n"
+	.string "que tanto interés causaba en ti?\l"
+	.string "¿Todo lo que me contaste sobre tus\l"
+	.string "sospechas acerca de un POKÉMON de\l"
+	.string "gran poder que allí habitaba?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_18:
-.string "ANDRA: ¡Claro señor, no lo olvido!$"
-
+.string "ANDRA: ¡Claro, señor, no lo olvido!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19:
-.string "En ese momento no quise decírtelo,\n"
-	.string "pero hace ya tiempo que llevamos\l"
-	.string "investigando el paradero de las\l"
-	.string "AVES LEGENDARIAS de KANTO, tres de\l"
-	.string "los POKÉMON más antiguos,\l"
-	.string "poderosos y sagrados que esta\l"
-	.string "región conoce, uno de ellos,\l"
-	.string "ZAPDOS, quizás el más peligroso e\l"
-	.string "incontrolable de los tres, del\l"
-	.string "tipo dual ELÉCTRICO-VOLADOR, se\l"
-	.string "halla actualmente en esa CENTRAL\l"
-	.string "ENERGÍA ANDRA, no me extraña que\l"
-	.string "notases su presencia, las\l"
-	.string "descargas eléctricas que emite no\l"
-	.string "se parecen en nada a lo que hayas\l"
-	.string "visto.$"
+.string "GIOVANNI: En ese momento no quise\n"
+	.string "decírtelo, pero hace ya tiempo que\l"
+	.string "llevamos investigando el paradero de las\l"
+	.string "AVES LEGENDARIAS de KANTO.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.1:
+	.string "3 de los POKÉMON más antiguos, poderosos\n"
+	.string "y sagrados que esta región conoce.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.2:
+	.string "Uno de ello es ZAPDOS, quizás el más\n"
+	.string "peligroso e incontrolable de los tres;\l"
+	.string "del tipo dual ELÉCTRICO-VOLADOR, a día\l"
+	.string "de hoy, sabemos que hay uno dentro de\l"
+	.string "esa CENTRAL ENERGÍA.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.3:
+	.string "Así es, ANDRA.\n"
+	.string "No me extraña que notaras su presencia,\l"
+	.string "las descargas eléctricas que emite no\l"
+	.string "se parecen en nada a lo que hayas visto.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20:
-.string "Después tenemos a ARTICUNO, del\n"
-	.string "tipo HIELO-VOLADOR, tal vez el más\l"
-	.string "manejable de los tres pero\l"
-	.string "igualmente peligroso y muy\l"
-	.string "resistente, sabemos que\l"
-	.string "actualmente hay un ejemplar que se\l"
-	.string "encuentra en ISLAS ESPUMA, al\l"
-	.string "oeste de CIUDAD FUCSIA.$"
+.string "Después tenemos a ARTICUNO, del TIPO\n"
+	.string "HIELO-VOLADOR, tal vez el más manejable\l"
+	.string "de los 3, pero también el más resistente.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20.1:
+	.string "Hemos localizado a un ejemplar en las\n"
+	.string "profundidades de ISLAS ESPUMA, al oeste\l"
+	.string "de CIUDAD FUCSIA.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_21:
 .string "AZUL: ¿Un ejemplar?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22:
 .string "GIOVANNI: Así es, no creemos que\n"
-	.string "sean especies únicas sino que\l"
+	.string "sean especies únicas, sino que\l"
 	.string "pueda haber más de un ZAPDOS, o\l"
-	.string "más de un ARTICUNO, lo que no\l"
-	.string "quita que sean POKÉMON\l"
+	.string "más de un ARTICUNO.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.1:
+	.string "Esto no quita que sean POKÉMON\n"
 	.string "excepcionalmente raros, poderosos\l"
-	.string "y escurridizos, el último de\l"
-	.string "ellos, MOLTRES, ha sido localizado\l"
-	.string "en la cima del MT.ASCUAS, un\l"
-	.string "volcán muy emblemático de ISLA\l"
-	.string "PRIMA.$"
+	.string "y escurridizos.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.2:
+	.string "El último de ellos, MOLTRES, ha sido\n"
+	.string "localizado en la cima del MT.ASCUAS,\l"
+	.string "un volcán muy emblemático de ISLA PRIMA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.3:
+	.string "No es tan rápido como ZAPDOS, ni tan\n"
+	.string "resistente como ARTICUNO, pero sus\l"
+	.string "ataques ígneos son los más devastadores.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23:
-.string "GIOVANNI: Vuestra misión es la\n"
-	.string "siguiente caballeros, ANDRA se\l"
-	.string "reunirá con un comité de nuestros\l"
-	.string "mejores científicos y estrategas\l"
-	.string "para estudiar la mejor forma de\l"
-	.string "entrar a la CENTRAL energía sin\l"
-	.string "ser vistos por las autoridades,\l"
-	.string "que vigilan el lugar.\l"
-	.string "Por otro lado, AZUL irá directo a\l"
-	.string "ISLA PRIMA, he dispuesto un\l"
-	.string "transbordo en CARMÍN que te\l"
-	.string "llevará directo a la ISLA, tú irás\l"
-	.string "a por MOLTRES puesto que cuentas\l"
-	.string "con un BLASTOISE en tu equipo,\l"
+.string "Vuestra misión será la siguiente.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.1:
+	.string "ANDRA se reunirá con un comité de\n"
+	.string "expertos, para estudiar la mejor forma\l"
+	.string "de entrar a la CENTRAL ENERGÍA sin ser\l"
+	.string "ser vistos por las autoridades.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2:
+	.string "Por otro lado, AZUL irá directo a\n"
+	.string "ISLA PRIMA; he dispuesto un transbordo\l"
+	.string "en CIUDAD CARMÍN, que te llevará directo\l"
+	.string "a ella; irás a por MOLTRES puesto que ya\l"
+	.string "cuentas con un BLASTOISE en tu equipo,\l"
 	.string "confío en que sea suficiente para\l"
 	.string "apagar la salvaje llama del\l"
 	.string "LEGENDARIO de fuego{PAUSE 5}…{PAUSE 5}$"
 
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.3:
+	.string "Dale esto, y el fuego de MOLTRES no\n"
+	.string "podrá tocar a nuestro inicial insignia.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.4:
+	.string "¡AZUL recibió un CHALECO ASALTO!$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.5:
+	.string "AZUL: ¡Gracias, señor! ¡Ahora sí que mi\n"
+	.string "BLASTOISE será un auténtico tanque!$"
+
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24:
-.string "GIOVANNI: En cuanto a ti {PLAYER},\n"
-	.string "irás a por el LEGENDARIO ARTICUNO\l"
-	.string "en las ISLAS ESPUMA, la seguridad\l"
-	.string "allí no es tan estricta como en la\l"
-	.string "CENTRAL ENERGÍA, te aconsejo tomar\l"
-	.string "la ruta 12, al sur de PUEBLO\l"
-	.string "LAVANDA, será un camino muy largo\l"
-	.string "hasta FUCSIA, y posteriormente el\l"
-	.string "mar que lleva a ISLA ESPUMA, pero\l"
-	.string "te servirá como preparación para\l"
-	.string "hacer frente a tal POKÉMON, confío\l"
-	.string "en tu habilidad como ENTRENADOR\l"
-	.string "para batir a ARTICUNO {PLAYER}.$"
+.string "GIOVANNI: En cuanto a ti, {PLAYER}{PAUSE 15}…{PAUSE 15}\n"
+	.string "Irás a por el ARTICUNO de ISLAS ESPUMA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.1:
+	.string "La seguridad allí no es tan estricta como\n"
+	.string "en la CENTRAL ENERGÍA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.2:
+	.string "Para llegar, te aconsejo tomar la,\n"
+	.string "RUTA 12 al sur de PUEBLO LAVANDA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.3:
+	.string "Será un largo camino hasta FUCSIA, y\n"
+	.string "posteriormente el mar que lleva a ISLAS\l"
+	.string "ESPUMA, pero te servirá como preparación\l"
+	.string "para hacer frente a tal POKÉMON.\l"
+	.string "Confío en que tu habilidad como\l"
+	.string "ENTRENADOR para batir a ARTICUNO.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25:
-.string "GIOVANNI: Dicho esto, no quiero\n"
-	.string "que atrapéis a las aves, solo\l"
-	.string "quiero que las derrotéis para así\l"
-	.string "poder obtener una pluma de estas,\l"
-	.string "más que suficiente para llevar a\l"
-	.string "cabo las investigaciones que\l"
-	.string "deseamos para así poder reproducir\l"
-	.string "bajo condiciones controladas el\l"
-	.string "poder de estos POKÉMON sin que otros\l"
-	.string "noten la ausencia de las aves{PAUSE 5}…{PAUSE 5}$"
+	.string "No quiero que atrapéis a las aves, solo\n"
+	.string "debéis derrotarlas, y obtener una pluma\l"
+	.string "de ellas; más que suficiente para llevar\l"
+	.string "a cabo las investigaciones que deseamos.\l"
+	.string "Además, los de arriba no deben notar su\l"
+	.string "ausencia, o se harán preguntas{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26:
-.string "GIOVANNI: Confío en que seáis\n"
-	.string "conscientes de la importancia de\l"
-	.string "esta misión, vamos a expandir los\l"
-	.string "estándares de poder, sobrepasar\l"
-	.string "los supuestos límites establecidos,\l"
-	.string "eso afianzará aún más nuestra\l"
-	.string "posición como principal\l"
-	.string "resistencia ante las élites de\l"
-	.string "esta región{PAUSE 5}…{PAUSE 5}$"
+.string "Vamos a expandir los estándares de poder\n"
+	.string "y sobrepasar los supuestos límites.\l"
+	.string "Eso afianzará aún más nuestra posición\l"
+	.string "como principal resistencia ante las\l"
+	.string "élites{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27:
-.string "GIOVANNI: Poco más tengo que\n"
-	.string "decir, tenéis mi consentimiento\l"
-	.string "para acceder a la sala contigua a\l"
-	.string "este despacho, allí encontraréis\l"
-	.string "información esencial acerca de las\l"
-	.string "AVES LEGENDARIAS y cualquier\l"
-	.string "POKÉMON LEGENDARIO conocido en\l"
-	.string "general, eso es todo caballeros,\l"
-	.string "os mantendremos informados sobre\l"
-	.string "cualquier detalle que pueda\l"
-	.string "influir en vuestras misiones.$"
+	.string "Ahora, tenéis mi consentimiento para\n"
+	.string "acceder a la sala contigua a mi despacho,\l"
+	.string "la del -MÁXIMO POTENCIAL ALCANZABLE-.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.1:
+	.string "Allí recopilamos información esencial\n"
+	.string "acerca de las AVES LEGENDARIAS y\l"
+	.string "cualquier POKÉMON LEGENDARIO conocido\l"
+	.string "en general.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.2:
+	.string "Eso es todo, y recordad: la historia\n"
+	.string "de KANTO se escribe ahora,\l"
+	.string "con cada paso que déis.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28:
-.string "ANDRA: ¡Aún no me lo creo {PLAYER}!\n"
+.string "ANDRA: ¡Aún no me lo creo, {PLAYER}!\n"
 	.string "¡Vamos a ir tras la pista de un\l"
-	.string "POKÉMON LEGENDARIO cada uno!\l"
-	.string "Esto ya es nivel eh, ¡te mantendré\l"
-	.string "informado de cómo va mi misión con\l"
-	.string "ZAPDOS, espero que hagas tú lo\l"
-	.string "mismo!$"
+	.string "POKÉMON LEGENDARIO!\l"
+	.string "Esto ya es nivel, ¿eh?\l"
+	.string "¡Te mantendré informado de cómo va\l"
+	.string "mi misión con ZAPDOS, espero que\l"
+	.string "hagas tú lo mismo!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Move_1:
 walk_up

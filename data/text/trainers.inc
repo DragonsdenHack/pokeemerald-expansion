@@ -7468,7 +7468,7 @@ Route15_OrnitologoPostBattle:
 
 
 Route15_Text_Ornitologo2Intro:
-	.string "Vosotros los ROCKET no apreciáis\n"
+	.string "Vosotros, los ROCKET, no apreciáis\n"
 	.string "la belleza de los POKÉMON PÁJARO.$"
 
 
@@ -7519,7 +7519,7 @@ Route15_Text_Chica4Defeated:
 
 Route15_Chica4PostBattle:
 	.string "Tú pareces no tener la maldad de\n"
-	.string "otros ROCKET a pesar de ser mucho\l"
+	.string "otros ROCKET, a pesar de ser mucho\l"
 	.string "más fuerte.$"
 
 

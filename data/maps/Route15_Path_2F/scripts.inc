@@ -86,13 +86,13 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_4:
 .string "Ya tenemos planes para el futuro\n"
-	.string "de esta región ROCKET, y en\l"
+	.string "de esta región, ROCKET, y en\l"
 	.string "ninguno de ellos estáis vosotros,\l"
-	.string "vete preparando para la extinción.$"
+	.string "vete preparando para desaparecer.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_5:
-.string "Acabas de firmar tu sentencia\n"
-	.string "ROCKET.$"
+.string "Acabas de firmar tu\n"
+	.string "sentencia, ROCKET.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_6:
 .string "¡Esto es imposible!\n"
