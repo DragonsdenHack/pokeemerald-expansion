@@ -6833,7 +6833,7 @@ Route3_Text_ChicoPostBattle:
 
 
 Route3_Text_Cazabichos2Intro:
-	.string "No suelen verse ROCKETS por estos\n"
+	.string "No suelen verse ROCKET por estos\n"
 	.string "lugares, ¿qué tramas?$"
 
 

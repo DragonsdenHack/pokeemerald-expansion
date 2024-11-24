@@ -106,8 +106,14 @@ delay 20
 applymovement 1, PalletTown_Encuentro_Oak_Move_3
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
-removeobject 1
 playse SE_DOOR
+opendoor 16, 13
+waitdooranim
+applymovement 1, PalletTown_Encuentro_Oak_Move_4.1
+waitmovement 0x0
+removeobject 1
+closedoor 16, 13
+waitdooranim
 delay 25
 applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Encuentro_Oak_Move_4
 waitmovement 0x0
@@ -115,6 +121,10 @@ special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 60
 release
 end
+
+PalletTown_Encuentro_Oak_Move_4.1:
+walk_up
+step_end
 
 PalletTown_Encuentro_Oak_Move_1:
 emote_exclamation_mark
@@ -177,9 +187,9 @@ release
 end
 
 Pueblo_Paleta_Barrera_Sur_Texto_1:
-.string "(No estoy de vacaciones para\n"
+.string "-No estoy de vacaciones para\n"
 	.string "ponerme a explorar KANTO, tengo\l"
-	.string "cosas más importantes que hacer).$"
+	.string "cosas más importantes que hacer.-$"
 
 Pueblo_Paleta_Barrera_Sur_Move_1:
 walk_in_place_down

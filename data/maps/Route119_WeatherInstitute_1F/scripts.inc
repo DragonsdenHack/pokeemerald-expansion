@@ -154,7 +154,7 @@ Route119_WeatherInstitute_1F_EventScript_TM136::
 	faceplayer
 	goto_if_set FLAG_HOENN_173, Route119_WeatherInstitute_1F_EventScript_ReceivedTM136
 	msgbox Route119_WeatherInstitute_1F_Text_TM136, MSGBOX_DEFAULT
-	giveitem ITEM_TM33
+	giveitem ITEM_TM136
 	setflag FLAG_HOENN_173
 	msgbox Route119_WeatherInstitute_1F_Text_ExplainTM136, MSGBOX_DEFAULT
 	release

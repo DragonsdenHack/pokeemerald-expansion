@@ -140,7 +140,7 @@ Route39_EventScript_TM138::
 	msgbox Route39_Text_TM138, MSGBOX_DEFAULT
 	delay 10
 	msgbox Route39_Text_TM138_2, MSGBOX_DEFAULT
-	giveitem ITEM_TM33
+	giveitem ITEM_TM138
 	setflag FLAG_HOENN_174
 	msgbox Route39_Text_ExplainTM138, MSGBOX_DEFAULT
 	release

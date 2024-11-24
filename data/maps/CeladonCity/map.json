@@ -319,6 +319,15 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Barrera_Tiendas"
+    },
+    {
+      "type": "trigger",
+      "x": 40,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "58",
+      "script": "CeladonCity_Bloqueo_Paleta"
     }
   ],
   "bg_events": [

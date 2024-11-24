@@ -394,3 +394,26 @@ CeladonCity_Entrenador_Especial_Texto_9:
 CeladonCity_Entrenador_Especial_Texto_10:
 .string "Reusar un combate a un anciano{PAUSE 10}…{PAUSE 10}\n"
 	.string "Habráse visto{PAUSE 10}…{PAUSE 10}$"
+
+
+CeladonCity_Bloqueo_Paleta::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, CeladonCity_Bloqueo_Paleta_Move_1
+waitmovement 0x0
+msgbox CeladonCity_Bloqueo_Paleta_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CeladonCity_Bloqueo_Paleta_Move_2
+waitmovement 0x0
+release
+end
+
+CeladonCity_Bloqueo_Paleta_Move_1:
+walk_in_place_left
+step_end
+
+CeladonCity_Bloqueo_Paleta_Move_2:
+walk_right
+step_end
+
+CeladonCity_Bloqueo_Paleta_Texto_1:
+	.string "-Debo investigar PUEBLO PALETA antes\n"
+	.string "de volver a la BASE ROCKET.-$"

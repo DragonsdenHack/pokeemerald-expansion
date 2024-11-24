@@ -2641,87 +2641,87 @@ finditem ITEM_CRACKED_POT
     end
 
 NaoAbandonada6_EventScript_MT120::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM120_HEAVY_SLAM
     end
 
 LaboratorioSecreto_EventScript_MT122::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM122_EERIE_IMPULSE
     end
 
 ScorchedSlab_EventScript_MT123::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM123_SOLAR_BLADE
     end
 
 MagmaHideout_4F_EventScript_MT128::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM128_FISSURE
     end
 
 Casino_Malvalona_S2_EventScript_MT129::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM129_POISON_TAIL
     end
 
 Cueva_Regigigas_EventScript_MT131::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM131_EARTH_POWER
     end
 
 Torre_Pokemon_S3_EventScript_MT134::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM134_CURSE
     end
 
 Desierto_Hoenn_S3_EventScript_MT139::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM139_SCORCHING_SANDS
     end
 
 MtPyre_6F_EventScript_MT140::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM140_POLTERGEIST
     end
 
 CinnabarLab_S2_EventScript_MT141::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM141_STEEL_BEAM
     end
 
 Vermilion_Jardin_EventScript_MT143::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM143_LEECH_LIFE
     end
 
 GraniteCave_B2F_EventScript_MT144::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM144_ROCK_BLAST
     end
 
 Lavender_Secta_EventScript_MT145::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM145_STORED_POWER
     end
 
 Lavender_Secta_EventScript_MT148::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM148_DREAM_EATER
     end
 
 Malvalanova_EventScript_MT149::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM149_ZAP_CANNON
     end
 
 Templo_Puntaneva_EventScript_MT151::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM151_ICICLE_SPEAR
     end
 
 MtPyre_Cima_EventScript_MT152::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM152_MYSTICAL_FIRE
     end
 
 Caverna_Abisal_EventScript_MT154::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM154_SHEER_COLD
     end
 
 Neo_Fucsia_EventScript_MT155::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM155_VENOSHOCK
     end
 
 SafariZone_Northwest_EventScript_MT157::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM157_PIN_MISSILE
     end
 
 SafariZone_Northwest_EventScript_MT160::
-finditem ITEM_TM50_OVERHEAT
+finditem ITEM_TM160_HORN_DRILL
     end
 
 CultoS8_EventScript_TablaOscura::
@@ -3104,8 +3104,8 @@ Radio_Tower_P8_EventScript_Restauratodo::
 finditem ITEM_FULL_RESTORE
    end
 
-Radio_Tower_P10_EventScript_TM50::
-finditem ITEM_TM50_OVERHEAT
+Radio_Tower_P10_EventScript_TM170::
+finditem ITEM_TM170_THOUSAND_WAVES
    end
 
 

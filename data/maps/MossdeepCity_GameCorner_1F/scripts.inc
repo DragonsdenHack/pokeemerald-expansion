@@ -91,7 +91,7 @@ Mossdeep_EventScript_TM153::
 	faceplayer
 	goto_if_set FLAG_HOENN_175, Mossdeep_EventScript_ReceivedTM153
 	msgbox Mossdeep_Text_TM153, MSGBOX_DEFAULT
-	giveitem ITEM_TM33
+	giveitem ITEM_TM153
 	setflag FLAG_HOENN_175
 	msgbox Mossdeep_Text_ExplainTM153, MSGBOX_DEFAULT
 	release

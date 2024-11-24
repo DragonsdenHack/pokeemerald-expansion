@@ -189,6 +189,26 @@ ViridianForestDocumento_Text_105:
 	.string "¡Lo conseguirás en las TIENDAS\l"
 	.string "POKéMON!$"
 
+ViridianForest_Combate_Guays_Arriba::
+applymovement OBJ_EVENT_ID_PLAYER, ViridianForest_Combate_Guays_Arriba_Move_1
+waitmovement 0x0
+goto ViridianForest_Combate_Guays
+
+ViridianForest_Combate_Guays_Arriba_Move_1:
+walk_down
+face_left
+step_end
+
+ViridianForest_Combate_Guays_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, ViridianForest_Combate_Guays_Abajo_Move_1
+waitmovement 0x0
+goto ViridianForest_Combate_Guays
+
+ViridianForest_Combate_Guays_Abajo_Move_1:
+walk_up
+face_left
+step_end
+
 ViridianForest_Combate_Guays::
 applymovement 13, ViridianForest_Combate_Guays_Move_2
 waitmovement 0x0
@@ -251,27 +271,26 @@ ViridianForest_Combate_Guays_Texto_1:
 	.string "encontrar a una pareja!$"
 
 ViridianForest_Combate_Guays_Texto_2:
-.string "JUAN: Con este último fichaje\n"
+.string "JUAN: Con este último fichaje,\n"
 	.string "seremos la envidia de todos los\l"
 	.string "entrenadores guay, nadie tiene ya\l"
-	.string "un equipo como el nuestro, el\l"
-	.string "SCYTHER que logramos atrapar en la\l"
-	.string "ZONA SAFARI es el complemento\l"
-	.string "perfecto, dos TIPO BICHO con los\l"
-	.string "que no pueden ni soñar la\l"
-	.string "mediocridad de cazabichos que\l"
-	.string "pululan por aquí.$"
+	.string "un equipo como el nuestro.\l"
+	.string "El SCYTHER que logramos atrapar en\l"
+	.string "la ZONA SAFARI es el complemento\l"
+	.string "perfecto; dos TIPO BICHO con los que\l"
+	.string "todos los cazabichos que pululan\l"
+	.string "por aquí no pueden ni soñar.$"
 
 
 ViridianForest_Combate_Guays_Texto_3:
-.string "VERO: Yo a ti te conozco, estabas\n"
-	.string "en el TÚNEL ROCA, cuando se\l"
+.string "VERO: ¡Yo a ti te conozco!\n"
+	.string "Estabas en el TÚNEL ROCA, cuando se\l"
 	.string "propagó el rumor de que había un\l"
 	.string "KANGASKHAN por estos lugares,\l"
-	.string "parece que solo fue un rumor, este\l"
-	.string "en cambio…\l"
+	.string "parece que solo fue un rumor,\l"
+	.string "este, en cambio…\l"
 	.string "Nadie creía que pudiera quedar\l"
-	.string "algún PINSIR por aquí y resulta\l"
+	.string "algún PINSIR por aquí, y resulta\l"
 	.string "que sí.$"
 
 ViridianForest_Combate_Guays_Texto_4:
@@ -308,18 +327,18 @@ ViridianForest_Combate_Guays_Texto_9:
 ViridianForest_Combate_Guays_Texto_10:
 .string "VERO: Parece que eres muy\n"
 	.string "competente, aunque a veces seamos\l"
-	.string "algo arrogantes sabemos reconocer\l"
+	.string "algo arrogantes, sabemos reconocer\l"
 	.string "cuando alguien nos supera.$"
 
 ViridianForest_Combate_Guays_Texto_11:
 .string "JUAN: Queremos que tengas el otro\n"
 	.string "PINSIR que hemos encontrado, un\l"
 	.string "ENTRENADOR como tú seguro que sabe\l"
-	.string "sacarle más provecho que\l"
-	.string "cualquiera al que podamos dárselo,\l"
-	.string "y no somos tu organización para ir\l"
-	.string "vendiéndolo por ahí, ya me\l"
-	.string "entiendes.$"
+	.string "sacarle más provecho que cualquier\l"
+	.string "otro al que podamos dárselo.\l"
+	.string "Y no te ofendas, pero no somos tu\l"
+	.string "organización para ir vendiéndolo\l"
+	.string "por ahí, ya me entiendes.$"
 
 ViridianForest_Combate_Guays_Texto_12:
 .string "¡HAS OBTENIDO UN PINSIR AL NV.15!$"
@@ -328,8 +347,8 @@ ViridianForest_Combate_Guays_Texto_13:
 .string "VERO: ¡Tampoco te pases!\n"
 	.string "¡No ibamos a darte al otro PINSIR!\l"
 	.string "¡Hemos gastado todos nuestros\l"
-	.string "caramelosraros en ponerlo al nivel\l"
-	.string "del resto de nuestros POKÉMON!$"
+	.string "caramelos en ponerlo al nivel\l"
+	.string "del resto de POKÉMON!$"
 
 ViridianForest_Combate_Guays_Texto_14:
 .string "JUAN: Vámonos ya VERO, he oído que\n"

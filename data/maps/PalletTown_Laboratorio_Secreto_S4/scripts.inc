@@ -400,7 +400,6 @@ setflag FLAG_HOENN_242
 removeobject 3
 delay 10
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM50
 msgbox Laboratorio_S4_Eusine_Bill_Texto_3 MSGBOX_DEFAULT
 waitfanfare
 delay 15
@@ -768,6 +767,7 @@ msgbox Laboratorio_S4_Eusine_Bill_Texto_85 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S4_Eusine_Bill_Move_35
 applymovement 4, Laboratorio_S4_Eusine_Bill_Move_32
 waitmovement 0x0
+additem ITEM_TM130
 setflag FLAG_HOENN_284
 setflag FLAG_HOENN_283
 setflag FLAG_HOENN_285

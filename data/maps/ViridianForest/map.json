@@ -236,7 +236,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x408B",
       "var_value": "0",
-      "script": "ViridianForest_Combate_Guays"
+      "script": "ViridianForest_Combate_Guays_Arriba"
     },
     {
       "type": "trigger",
@@ -254,7 +254,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x408B",
       "var_value": "0",
-      "script": "ViridianForest_Combate_Guays"
+      "script": "ViridianForest_Combate_Guays_Abajo"
     }
   ],
   "bg_events": [

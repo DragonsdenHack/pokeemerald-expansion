@@ -9,9 +9,9 @@ release
 end
 
 Route2_Path3_Text_1:
-.string "A mí no me hables ROCKET, o\n"
-.string "pensarán que tengo algo que ver\l"
-.string "con vosotros.$"
+.string "A mí no me hables, ROCKET,\n"
+.string "o pensarán que tengo algo\l"
+.string "que ver con vosotros.$"
 
 
 
@@ -60,9 +60,9 @@ release
 end
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_1:
-.string "La gente como vosotros que solo\n"
+.string "La gente como vosotros, que solo\n"
 	.string "entorpece el cauce de las cosas y\l"
-	.string "el progreso no debería siquiera\l"
+	.string "el progreso, no debería siquiera\l"
 	.string "existir, fuera de mi vista antes\l"
 	.string "de que tenga que repetírtelo.$"
 
@@ -90,12 +90,12 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_7:
 	.string "AYUDANTE DE OAK-$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_8:
-.string "Esto vas a pagármelo ROCKET, voy a\n"
-	.string "hacer arder a toda tu organización\l"
-	.string "por lo ocurrido aquí.$"
+.string "Esto vas a pagármelo, ROCKET.\n"
+	.string "Voy a hacer arder a toda tu\l"
+	.string "organización por lo ocurrido aquí.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_9:
-.string "Aún estás a tiempo de desaparecer\n"
+.string "Aún estás a tiempo de desaparecer,\n"
 	.string "antes de que me arrepienta.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Move_1:

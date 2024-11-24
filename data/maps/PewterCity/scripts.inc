@@ -354,13 +354,23 @@ msgbox PewterCity_Petrel_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 6, PewterCity_Petrel_Move_4
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, PewterCity_Petrel_Move_7
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_8.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PewterCity_Petrel_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PewterCity_Petrel_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, PewterCity_Petrel_Move_7
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_10 MSGBOX_AUTOCLOSE
@@ -374,7 +384,7 @@ release
 end
 
 PewterCity_Petrel_Texto_1:
-.string "PETREL: ¡Qué sorpresa verte por\n"
+.string "¡Qué sorpresa verte por\n"
 	.string "aquí, {PLAYER}!$"
 
 PewterCity_Petrel_Texto_2:
@@ -384,7 +394,7 @@ PewterCity_Petrel_Texto_2:
 	.string "haciendo un buen trabajo allí.$"
 
 PewterCity_Petrel_Texto_3:
-.string "… … … … … … …{PAUSE 5}$"
+.string "…{PAUSE 5} …{PAUSE 5} …{PAUSE 5} …{PAUSE 5} …{PAUSE 5} …{PAUSE 5} …{PAUSE 5}$"
 
 PewterCity_Petrel_Texto_4:
 .string "PETREL: -¡Aviso! Unos ladrones han\n"
@@ -394,10 +404,9 @@ PewterCity_Petrel_Texto_4:
 	.string "información-.$"
 
 PewterCity_Petrel_Texto_5:
-.string "Obvio que con -ladrones- se\n"
-	.string "refiere a nosotros, tiene gracia\l"
-	.string "la cosa. Me encanta el doble\l"
-	.string "rasero de esta región.$"
+.string "Obvio que con -ladrones- se refiere\n"
+	.string "a nosotros, tiene gracia la cosa.\l"
+	.string "Me encanta el doble rasero de esta región.$"
 
 PewterCity_Petrel_Texto_6:
 .string "Si un científico se queda con\n"
@@ -406,50 +415,56 @@ PewterCity_Petrel_Texto_6:
 
 PewterCity_Petrel_Texto_7:
 .string "Si un par de niños malcriados\n"
-	.string "limpian la cueva de FÓSILES, nadie\l"
-	.string "dice nada, puesto que, por\l"
-	.string "supuesto, no pueden quedarse sin\l"
-	.string "completar sus POKÉDEX, de añadir\l"
-	.string "uno más a su -colección-, como si\l"
-	.string "los POKÉMON fueran cromos\l"
-	.string "intercambiables.$"
+	.string "limpian la cueva de FÓSILES, nadie dice\l"
+	.string "nada, puesto que, por supuesto, no\l"
+	.string "pueden quedarse sin completar sus\l"
+	.string "POKÉDEX, de añadir uno más a su\l"
+	.string "-colección-, como si los POKÉMON fueran\l"
+	.string "cromos intercambiables.$"
+
+PewterCity_Petrel_Texto_7.1:
+    .string "¡Ridículo!$"
 
 PewterCity_Petrel_Texto_8:
-.string "Si un grupo privado como nosotros\n"
+.string "Pero si un grupo privado, como nosotros,\n"
 	.string "decide recolectar FÓSILES para\l"
-	.string "satisfacer una demanda de la\l"
-	.string "población, somos unos ladrones,\l"
-	.string "como si esos FÓSILES perteneciesen\l"
-	.string "a alguien cuando cualquier idiota\l"
-	.string "puede tomarlos en cualquier\l"
-	.string "momento si los encuentra.$"
+	.string "satisfacer una demanda local, somos\l"
+	.string "unos ladrones y la peor escoria.$"
+
+PewterCity_Petrel_Texto_8.1:
+	.string "Como si esos FÓSILES perteneciesen\n"
+	.string "a alguien, cuando cualquier idiota\l"
+	.string "puede tomarlos en cualquier momento\l"
+	.string "si es que los encuentra.$"
 
 PewterCity_Petrel_Texto_9:
 .string "Hablando de FÓSILES, he venido\n"
 	.string "hasta aquí a visitar a un viejo\l"
-	.string "amigo que tiene la suerte de ser\l"
+	.string "amigo, que tiene la suerte de ser\l"
 	.string "uno de los peces gordos del MUSEO\l"
-	.string "DE LA CIENCIA DE CIUDAD PLATEADA,\l"
-	.string "al parecer han encontrado un\l"
+	.string "DE LA CIENCIA DE CIUDAD PLATEADA.$"
+
+PewterCity_Petrel_Texto_9.1:
+	.string "Al parecer han encontrado un\n"
 	.string "ejemplar de ÁMBAR VIEJO, que\l"
 	.string "contiene el FÓSIL más poderoso y\l"
-	.string "valioso de nuestra región, sé que\l"
-	.string "con la correcta negociación puedo\l"
-	.string "convencerlo de que nos lo preste\l"
-	.string "para investigarlo, hemos\l"
-	.string "desarrollado un sistema de\l"
-	.string "clonación que podría replicar ese\l"
-	.string "ÁMBAR VIEJO a un costo inferior a\l"
-	.string "su precio de mercado, por lo que\l"
-	.string "no puedo dejar pasar esta\l"
-	.string "oportunidad.$"
+	.string "valioso de nuestra región.$"
+	
+PewterCity_Petrel_Texto_9.2:
+	.string "Sé que con la correcta negociación,\n"
+	.string "podría convencerlo de que nos lo preste\l"
+	.string "para investigarlo; hemos desarrollado\l"
+	.string "un sistema de clonación que podría\l"
+	.string "replicar ese ÁMBAR VIEJO a un costo\l"
+	.string "inferior a su precio de mercado, así que\l"
+	.string "no podemos dejar pasar esta oportunidad.$"
 
 PewterCity_Petrel_Texto_10:
 .string "Si te animas, estás invitado a esa\n"
-	.string "reunión, estaremos en la caseta\l"
+	.string "reunión: estaremos en la caseta\l"
 	.string "trasera al MUSEO oficial abierto\l"
-	.string "al público, allí te espero si\l"
-	.string "decides venir.$"
+	.string "al público.\l"
+	.string "Allí te espero, si decides venir.$"
 
 PewterCity_Petrel_Move_1:
 walk_in_place_left

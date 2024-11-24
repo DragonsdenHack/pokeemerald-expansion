@@ -3766,11 +3766,21 @@ msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_3
+applymovement 13, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
+applymovement 15, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
+applymovement 13, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
+applymovement 15, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
@@ -3817,13 +3827,19 @@ applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 13, RocketHideout_4F_Giovanni_Mision_1_move_1
+delay 5
 applymovement 14, RocketHideout_4F_Giovanni_Mision_1_move_1
+delay 5
 applymovement 15, RocketHideout_4F_Giovanni_Mision_1_move_1
+delay 5
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 13, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+delay 5
 applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+delay 5
 applymovement 15, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+delay 5
 waitmovement 0x0
 delay 20
 applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_2
@@ -3833,8 +3849,12 @@ removeobject 13
 removeobject 14
 removeobject 15
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 10, RocketHideout_4F_Escena_Castigo_Reclutas_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_4
@@ -3853,6 +3873,18 @@ warpsilent MAP_VIRIDIAN_CITY, 21, 2
 release
 end
 
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_2.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_4.1:
+jump_in_place_up
+step_end
+
 RocketHideout_4F_Escena_Castigo_Reclutas_Move_6.1:
 lock_facing_direction
 walk_down
@@ -3868,7 +3900,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
 .string "GIOVANNI: ¿Y bien?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
-.string "Y{PAUSE 35}…{PAUSE 35} y bien qué, ¿s-señor?$"
+.string "Y{PAUSE 35}…{PAUSE 35} y bien qué, ¿s{PAUSE 15}-{PAUSE 15}señor?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 .string "GIOVANNI: Creí haber dejado claras\n"

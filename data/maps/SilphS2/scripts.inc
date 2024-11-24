@@ -418,7 +418,7 @@ SilphS2_Text_20_EventScript_TM132::
 	faceplayer
 	goto_if_set FLAG_HOENN_171, SilphS2_Text_20_EventScript_ReceivedTM33
 	msgbox SilphS2_Text_20_Text_TM33, MSGBOX_DEFAULT
-	giveitem ITEM_TM33
+	giveitem ITEM_TM132
 	setflag FLAG_HOENN_171
 	msgbox SilphS2_Text_20_Text_ExplainTM33, MSGBOX_DEFAULT
 	release

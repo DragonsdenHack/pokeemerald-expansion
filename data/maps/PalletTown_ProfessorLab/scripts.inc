@@ -158,6 +158,8 @@ applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 applymovement 5, PalletTown_ProfessorLab_Lab_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox PalletTown_ProfessorLab_Lab_Texto_3 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Lab_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
@@ -166,6 +168,7 @@ waitmovement 0x0
 applymovement 5, PalletTown_ProfessorLab_Lab_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_5
 waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_Lab_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 5, PalletTown_ProfessorLab_Lab_Move_6
 waitmovement 0x0
@@ -178,6 +181,14 @@ setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 msgbox PalletTown_ProfessorLab_Lab_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_DALIA, PalletTown_ProfessorLab_Lab_Texto_8
 msgbox PalletTown_ProfessorLab_Lab_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PalletTown_ProfessorLab_Lab_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PalletTown_ProfessorLab_Lab_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_8.1
+waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_Lab_Texto_10 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_7
 waitmovement 0x0
@@ -189,6 +200,13 @@ playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 62
 release
 end
+
+PalletTown_ProfessorLab_Lab_Move_8.1:
+face_up
+delay_16
+delay_8
+face_player
+step_end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
 .string "????: Vaya, ¿no está aquí OAK?\n"
@@ -211,8 +229,8 @@ PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DALIA: ¡El último Pokémon de OAK!\n"
-	.string "¡Has sido tú ROCKET!\l"
+.string "DALIA: ¡El último POKÉMON de OAK!\n"
+	.string "¡Has sido tú, ROCKET!\l"
 	.string "¡Ya veía sospechoso ver a alguien\l"
 	.string "con la gran R merodeando por aquí!$"
 
@@ -223,28 +241,30 @@ PalletTown_ProfessorLab_Lab_Texto_6:
 
 PalletTown_ProfessorLab_Lab_Texto_7:
 .string "DALIA: Nada te exhime de robar un\n"
-	.string "Pokémon ajeno ROCKET, ¡voy a\l"
-	.string "hacerte pagar por ello aquí mismo!$"
+	.string "Pokémon ajeno, ROCKET.\l"
+	.string "¡Vas a pagar por ello!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:
-.string "¡OH!¡Y en nuestra propia casa!$"
+.string "¡OH! ¡Y en nuestra propia casa!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9:
-.string "DALIA: Esto es el colmo, de modo\n"
-	.string "que esta es la clase de amistades\l"
-	.string "que mi hermanito está haciendo,\l"
-	.string "siempre fue un rebelde que quería\l"
-	.string "hacerlo todo por sus propios\l"
-	.string "medios, ya le aconsejamos que se\l"
-	.string "hiciera amigo de BILL, el\l"
-	.string "PRESIDENTE de SILPH, LANCE y demás\l"
-	.string "miembros de la ÉLITE, verás cuando\l"
-	.string "OAK se entere de esto.$"
+.string "Esto es el colmo, de modo que esta es\n"
+	.string "la clase de amistades que mi\l"
+	.string "hermanito está haciendo.$"
+
+PalletTown_ProfessorLab_Lab_Texto_9.1:
+	.string "Siempre fue un rebelde que quería\n"
+	.string "hacerlo todo por sus propios medios,\l"
+	.string "ya le aconsejamos que se hiciera\l"
+	.string "amigo de BILL, el PRESIDENTE de SILPH,\l"
+	.string "LANCE y demás miembros de la ÉLITE.$"
+	
+PalletTown_ProfessorLab_Lab_Texto_9.2:
+	.string "Verás cuando OAK se entere de esto.$"
 
 PalletTown_ProfessorLab_Lab_Texto_10:
-.string "DALIA: Disfruta de ese triste\n"
-	.string "BULBASAUR al nivel quince. Por\l"
-	.string "si no lo sabías, OAK tiene decenas\l"
+.string "Disfruta de ese triste BULBASAUR.\n"
+	.string "Por si no lo sabías, OAK tiene decenas\l"
 	.string "de ellos en su reserva personal.$"
 
 PalletTown_ProfessorLab_Lab_Move_1:
@@ -269,7 +289,6 @@ step_end
 
 PalletTown_ProfessorLab_Lab_Move_3:
 emote_exclamation_mark
-walk_in_place_down
 step_end
 
 PalletTown_ProfessorLab_Lab_Move_4:
@@ -317,10 +336,14 @@ delay 30
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+delay 10
 msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4, MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 20
 setvar VAR_UNUSED_0x40F7, 61
 release
 end
