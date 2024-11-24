@@ -3849,19 +3849,19 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_saffron_city",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Outside/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_1F",
       "name": "SkyPillar_1F_Layout",
-      "width": 16,
-      "height": 15,
+      "width": 14,
+      "height": 14,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin"
     },
@@ -3873,7 +3873,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_2F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F/map.bin"
     },
@@ -3885,7 +3885,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_3F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F/map.bin"
     },
@@ -3897,7 +3897,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_4F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F/map.bin"
     },
@@ -3957,7 +3957,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_5F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F/map.bin"
     },
@@ -3969,7 +3969,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_digletts_cave",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Top/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top/map.bin"
     },

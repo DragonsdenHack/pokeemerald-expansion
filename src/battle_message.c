@@ -436,14 +436,14 @@ static const u8 sText_SpAttack[] = _("AT. ESP.");
 static const u8 sText_SpDefense[] = _("DEF. ESP.");
 static const u8 sText_Accuracy[] = _("PRECISIÓN");
 static const u8 sText_Evasiveness[] = _("EVASIÓN");
-static const u8 sText_ZPowerSurrounds[] = _("{B_ATK_NAME_WITH_PREFIX} surrounds\nitself with its Z-Power!");
-static const u8 sText_ZPowerUnleashed[] = _("{B_ATK_NAME_WITH_PREFIX} unleashes\nits full-force Z-Move!");
-static const u8 sText_ZMoveResetsStats[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} returned its\ndecreased stats to normal using\lits Z-Power!");
-static const u8 sText_ZMoveAllStatsUp[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} boosted all\nof its stats using its Z-Power!");
-static const u8 sText_ZMoveBoostCrit[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} boosted its\ncritical-hit ratio using its Z-Power!");
-static const u8 sText_ZMoveRestoreHp[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} restored its\nHP using its Z-Power!");
-static const u8 sText_ZMoveStatUp[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} boosted\nits stats using its Z-Power!");
-static const u8 sText_ZMoveHpSwitchInTrap[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s HP was restored by the Z-Power!");
+static const u8 sText_ZPowerSurrounds[] = _("¡{B_ATK_NAME_WITH_PREFIX} se envuelve\nen un halo de Poder Z!");
+static const u8 sText_ZPowerUnleashed[] = _("¡{B_ATK_NAME_WITH_PREFIX} despliega toda su fuerza\npara ejecutar un movimiento Z!");
+static const u8 sText_ZMoveResetsStats[] = _("¡Las estadísticas de {B_SCR_ACTIVE_NAME_WITH_PREFIX} regresan\na la normalidad usando su Poder Z!");
+static const u8 sText_ZMoveAllStatsUp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó\ntodas sus estadísticas usando su Poder Z!");
+static const u8 sText_ZMoveBoostCrit[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó su\nratio de crítico usando su Poder Z!");
+static const u8 sText_ZMoveRestoreHp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} restauró sus PS\nusando su Poder Z!");
+static const u8 sText_ZMoveStatUp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó\nsus estadísticas usando su Poder Z!");
+static const u8 sText_ZMoveHpSwitchInTrap[] = _("¡Los PS de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nfueron restaurados usando su Poder Z!");
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
