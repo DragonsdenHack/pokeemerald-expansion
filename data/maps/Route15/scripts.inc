@@ -150,8 +150,16 @@ applymovement OBJ_EVENT_ID_PLAYER, Route15_Koga_Bruno_Move_1.2
 waitmovement 0x0
 goto Route15_Koga_Bruno
 
+
+
 Route15_Koga_Bruno::
 msgbox Route15_Koga_Bruno_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route15_Koga_Bruno_Move_20
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Route15_Koga_Bruno_Texto_1.01 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_BREAKABLE_DOOR
 applymovement 15, Route15_Koga_Bruno_Move_4
@@ -204,19 +212,34 @@ delay 10
 msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_DEFAULT
 delay 20
 msgbox Route15_Koga_Bruno_Texto_10 MSGBOX_AUTOCLOSE
-msgbox Route15_Koga_Bruno_Texto_11 MSGBOX_AUTOCLOSE
-applymovement 15, Route15_Koga_Bruno_Move_6
+delay 10
+applymovement 15, Route15_Koga_Bruno_Move_6.1
 waitmovement 0x0
+delay 10
+msgbox Route15_Koga_Bruno_Texto_11 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 14, Route15_Koga_Bruno_Move_6.1
+applymovement 15, Route15_Koga_Bruno_Move_6
+applymovement OBJ_EVENT_ID_CAMERA, Route15_Koga_Bruno_Move_20.1
+waitmovement 0x0
+special RemoveCameraObject
 removeobject 15
+delay 10
 msgbox Route15_Koga_Bruno_Texto_12 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 14, Route15_Koga_Bruno_Move_6.2
+waitmovement 0x0
+delay 10
 msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
 playse SE_PIN
 applymovement 14, Route15_Koga_Bruno_Move_7
 waitmovement 0x0
 delay 20
 msgbox Route15_Koga_Bruno_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, Route15_Koga_Bruno_Move_8
 waitmovement 0x0
 playfanfare MUS_OBTAIN_TMHM
@@ -230,13 +253,24 @@ delay 20
 applymovement 14, Route15_Koga_Bruno_Move_4
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_15.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, Route15_Koga_Bruno_Move_9
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement 14, Route15_Koga_Bruno_Move_5
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route15_Koga_Bruno_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route15_Koga_Bruno_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 14, Route15_Koga_Bruno_Move_4
 waitmovement 0x0
@@ -248,6 +282,33 @@ setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
 setvar VAR_UNUSED_0x40F7, 65
 release
 end
+
+Route15_Koga_Bruno_Move_20:
+walk_left
+walk_left
+walk_left
+step_end
+
+Route15_Koga_Bruno_Move_20.1:
+walk_right
+walk_right
+walk_right
+step_end
+
+Route15_Koga_Bruno_Move_6.2:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+Route15_Koga_Bruno_Move_6.1:
+delay_16
+delay_8
+face_left
+step_end
 
 Route15_Koga_Bruno_Move_4.3:
 emote_exclamation_mark
@@ -273,8 +334,10 @@ step_end
 
 Route15_Koga_Bruno_Texto_1:
 .string "????: Eres una vergüenza para los\n"
-	.string "LÍDERES DE GIMNASIO, KOGA.\l"
-	.string "Y debes estarme agradecido de no informar\l"
+	.string "LÍDERES DE GIMNASIO, KOGA.$"
+
+Route15_Koga_Bruno_Texto_1.01:
+	.string "Y debes estarme agradecido de no informar\n"
 	.string "a LANCE; no solo te niegas a prestar tu\l"
 	.string "ayuda para erradicar a los motoristas\l"
 	.string "más radicales del CAMINO BICIS.$"
@@ -360,16 +423,15 @@ Route15_Koga_Bruno_Texto_9:
 Route15_Koga_Bruno_Texto_10:
 .string "BRUNO: No te preocupes por el\n"
 	.string "CAMINO BICIS, seguirá contando con\l"
-	.string "motoristas{PAUSE 15}…{PAUSE 15}leales a nosotros,\l"
-	.string "siquiera tendrás que dar\l"
+	.string "MOTORISTAS{PAUSE 15}…{PAUSE 15}leales a nosotros.\l"
+	.string "Y tú no tendrás que dar\l"
 	.string "explicaciones a nadie.$"
 
 Route15_Koga_Bruno_Texto_11:
-.string "BRUNO: No tengo nada más que\n"
-	.string "decirte KOGA, ya que no quieres\l"
-	.string "colaborar, al menos mantente al\l"
-	.string "margen y no estorbes, que tengas\l"
-	.string "un buen día.$"
+.string "No tengo nada más que decirte, KOGA.\n"
+	.string "Ya que no quieres colaborar, al menos\l"
+	.string "mantente al margen y no estorbes.\l"
+	.string "Que tengas un buen día.$"
 
 Route15_Koga_Bruno_Texto_12:
 .string "KOGA: Ese BRUNO{PAUSE 15}…{PAUSE 15}cómo se le han\n"
@@ -380,63 +442,74 @@ Route15_Koga_Bruno_Texto_12:
 
 Route15_Koga_Bruno_Texto_13:
 .string "{PLAYER}, ¿me equivoco?\n"
-	.string "Fuiste tú quien capturó al\l"
-	.string "KANGASKHAN perdido y salvó el\l"
-	.string "negocio de la ZONA SAFARI,\l"
-	.string "GIOVANNI no se equivocaba cuando\l"
-	.string "me dijo que confiara en ti, aquí\l"
-	.string "tienes un pequeño obsequio por mi\l"
-	.string "parte.$"
+	.string "Fuiste tú quien capturó al KANGASKHAN\l"
+	.string "y salvó el negocio de la ZONA SAFARI,\l"
+	.string "¿verdad?$"
+
+Route15_Koga_Bruno_Texto_13.1:
+	.string "GIOVANNI me dijo que confiara en ti,\n"
+	.string "y tuvo razón, aquí tienes un pequeño\l"
+	.string "obsequio por mi parte.$"
 
 Route15_Koga_Bruno_Texto_14:
 .string "Con estas gafas equipadas en\n"
 	.string "cualquier POKÉMON, la potencia de\l"
 	.string "sus movimientos SINIESTRO se verá\l"
-	.string "incrementada en un 20%, si tienes\l"
-	.string "POKÉMON como HOUNDOOM o MURKROW\l"
-	.string "pegarán muy duro con PULSO O TAJO\l"
-	.string "UMBRÍO.$"
+	.string "incrementada en un 20%.\l"
+	.string "HOUNDOOM o MURKROW pegarán muy duro\l"
+	.string "con PULSO O TAJO UMBRÍO.$"
 
 Route15_Koga_Bruno_Texto_15:
-.string "No mentía a BRUNO cuando decía que\n"
-	.string "mi única preocupación ha sido\l"
-	.string "siempre el bien de esta región, el\l"
-	.string "problema es que mi idea de bien\l"
-	.string "dista mucho de la suya, y una\l"
-	.string "dictadura impuesta por la fuerza y\l"
-	.string "además venida de alguien de fuera\l"
-	.string "como LANCE nunca contará con mi\l"
-	.string "apoyo{PAUSE 5}…{PAUSE 5}$"
+.string "No mentía a BRUNO, cuando decía que\n"
+	.string "mi única preocupación ha sido siempre el\l"
+	.string "bien de esta región, el problema es que\l"
+	.string "mi idea de bien dista mucho de la suya.$"
+
+Route15_Koga_Bruno_Texto_15.1:
+	.string "Una dictadura impuesta por la fuerza,\n"
+	.string "y además venida de alguien de fuera\l"
+	.string "como LANCE nunca contará con mi apoyo.$"
+
+Route15_Koga_Bruno_Texto_15.2:
+	.string "La gente parece haberlo olvidado, aunque,\n"
+	.string "más bien, diría que {PAUSE 15}…{PAUSE 15} prefieren fingir\l"
+	.string "haberlo olvidado, algunos incluso puede\l"
+	.string "que realmente quieran hacerlo.$"
+
+Route15_Koga_Bruno_Texto_15.3:
+	.string "Pero no yo.\n"
+	.string "Yo recuerdo cómo era KANTO, y haré todo\l"
+	.string "lo posible como LÍDER para recuperarla.$"
 
 Route15_Koga_Bruno_Texto_16:
 .string "BRUNO va directo al CAMINO BICIS,\n"
-	.string "tratará de convencer a la mayor\l"
-	.string "parte de motoristas de que cambien\l"
-	.string "de bando, sino lo logra usará la\l"
-	.string "fuerza para llevar a todos a\l"
-	.string "prisión, si eso ocurre están\l"
-	.string "perdidos, sus POKÉMON están a años\l"
-	.string "luz tanto en fuerza como en\l"
-	.string "nivel{PAUSE 5}…{PAUSE 5}$"
+	.string "tratará de convencer a la mayor parte de\l"
+	.string "MOTORISTAS para que cambien de bando.$"
+
+Route15_Koga_Bruno_Texto_16.1:
+	.string "Si no lo logra, usará la fuerza para\n"
+	.string "llevar a todos a prisión.\l"
+	.string "En ese caso, están perdidos.$"
 
 Route15_Koga_Bruno_Texto_17:
-.string "Yo no puedo oponerme por obvias\n"
-	.string "razones, pero tú, ¡tú {PLAYER}\l"
-	.string "podrías hacerle frente!\l"
-	.string "GIOVANNI dijo que eras uno de los\l"
-	.string "entrenadores con mayor proyección\l"
-	.string "y futuro, BRUNO forma parte de la\l"
-	.string "ÉLITE, sí, pero dudo que vaya con\l"
-	.string "sus mejores POKÉMON, si alguien\l"
-	.string "puede detenerlo eres tú{PAUSE 5}…{PAUSE 5}$"
+.string "Yo no puedo oponerme, {PLAYER}.\n"
+	.string "Soy mucho más útil para la causa si\l"
+	.string "mantengo mi influencia como LÍDER.$"
+
+Route15_Koga_Bruno_Texto_17.1:
+	.string "Pero tú{PAUSE 15}…{PAUSE 15} GIOVANNI dijo que eras\n"
+	.string "uno de los ROCKET con mayor proyección\l"
+	.string "y futuro. BRUNO forma parte de la ÉLITE,\l"
+	.string "pero dudo que vaya con sus mejores\l"
+	.string "POKÉMON; si alguien puede detenerlo,\l"
+	.string "eres tú.$"
 
 Route15_Koga_Bruno_Texto_18:
-.string "Estaré en mi GIMNASIO {PLAYER}, por\n"
-	.string "desgracia no puedo dejarte entrar\l"
-	.string "por ley, al menos por el momento,\l"
-	.string "pero estaré informado de todo\l"
-	.string "cuanto ocurra en el CAMINO BICIS,\l"
-	.string "no te queda duda.$"
+.string "Estaré en mi GIMNASIO.\n"
+	.string "Lamentablemente, no puedo dejarte entrar\l"
+	.string "por ley, al menos por el momento, pero\l"
+	.string "estaré atento a todo cuanto ocurra en\l"
+	.string "el CAMINO BICIS, no te queda duda.$"
 
 Route15_Koga_Bruno_Texto_19:
 .string "KOGA: Confío en ti, {PLAYER}.$"

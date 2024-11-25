@@ -1936,7 +1936,7 @@ static const u8 sLeekDesc[] = _(
 
 static const u8 sThickClubDesc[] = _(
     "Al llevarlo, CUBONE\n"
-   	"o MAROWAK elevarán su\n"
+   	"o MAROWAK elevan su\n"
    	"ATAQUE en un 100%.");
 
 static const u8 sLuckyPunchDesc[] = _(

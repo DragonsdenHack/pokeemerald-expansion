@@ -895,11 +895,14 @@ waitmovement 0x0
 msgbox Silph_11F_Reunión_Presidente_Lance_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
-delay 60
+waitmoncry
+delay 20
 playse SE_PIN
 applymovement 1, IndigoPlateau_Lance_Discurso_move_6
 applymovement 2, IndigoPlateau_Lance_Discurso_move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_11F_Reunión_Presidente_Lance_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_11F_Reunión_Presidente_Lance_Move_5
 waitmovement 0x0
@@ -916,14 +919,6 @@ msgbox Silph_11F_Reunión_Presidente_Lance_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_8
 waitmovement 0x0
 msgbox Silph_11F_Reunión_Presidente_Lance_Texto_11 MSGBOX_AUTOCLOSE
-setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
-fadescreen 1
-delay 20
-removeobject 10
-removeobject 11
-removeobject 12
-fadescreen 0
-delay 30
 clearflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
 addobject 13
 special SpawnCameraObject
@@ -944,6 +939,12 @@ waitmovement 0x0
 msgbox Silph_11F_Reunión_Presidente_Lance_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+delay 20
+removeobject 10
+removeobject 11
+removeobject 12
+delay 30
 setvar VAR_UNUSED_0x40F7, 68
 fadescreen 1
 playse SE_WARP_IN
@@ -1016,15 +1017,15 @@ Silph_11F_Reunión_Presidente_Lance_Texto_10:
 	.string "jubilará pronto.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_11:
-.string "Hasta otra, señor PRESIDENTE, y\n"
-	.string "recuerde mis palabras.$"
+.string "Ya nos veremos, señor PRESIDENTE,\n"
+	.string "y recuerde mis palabras.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_12:
 .string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_13:
-.string "DRAGONITE no es el POKÉMON insignia de\n"
-	.string "KANTO.$"
+.string "DRAGONITE no es el POKÉMON\n"
+	.string "insignia de KANTO.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_14:
 .string "El POKÉMON insignia de KANTO es y ha\n"

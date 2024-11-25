@@ -9,10 +9,10 @@ release
 end
 
 Route18_Path2F_Text_1:
-.string "Aléjate de mis POKÉMON ROCKET,\n"
-.string "aunque tuvieses un MOLTRES en tu\l"
-.string "poder no te lo cambiaría ni por un\l"
-.string "vulgar MAGIKARP.$"
+.string "Aléjate de mis POKÉMON, ROCKET.\n"
+.string "Aunque tuvieses un MOLTRES en tu\l"
+.string "poder, no te lo cambiaría ni por\l"
+.string "un vulgar MAGIKARP.$"
 
 
 

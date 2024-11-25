@@ -24,10 +24,10 @@ end
 FuchsiaCity_Path_Text_2:
 .string "La ZONA SAFARI fue en origen un\n"
 .string "proyecto financiado conjuntamente\l"
-.string "por KOGA y un inversor\l"
-.string "desconocido, sea quien sea hemos\l"
-.string "de darle gracias por todo lo bueno\l"
-.string "que este lugar ha dado a FUCSIA.$"
+.string "por KOGA y un inversor desconocido.\l"
+.string "Sea quien sea, hemos de darle gracias\l"
+.string "por todo lo bueno que este lugar ha\l"
+.string "dado a CIUDAD FUCSIA.$"
 
 
 FuchsiaCity_Path_Barrera_Der::
@@ -118,15 +118,15 @@ release
 end
 
 FuchsiaCity_Path_Barrera_Texto_1:
-.string "Alto ahí ROCKET, ¿de verdad\n"
-	.string "creíste que ibamos a dejarte\l"
-	.string "entrar?\l"
+.string "Alto ahí, ROCKET.\n"
+	.string "¿De verdad creíste que ibamos\l"
+	.string "a dejarte entrar?\l"
 	.string "Las leyes del COMITÉ de la LIGA\l"
 	.string "son claras: los ROCKET no tienen\l"
-	.string "acceso a ningún servicio\l"
-	.string "exceptuando el CENTRO POKÉMON,\l"
-	.string "¡date media vuelta si no quieres\l"
-	.string "problemas!$"
+	.string "acceso a ningún servicio, a excepción\l"
+	.string "del CENTRO POKÉMON.\l"
+	.string "¡Date media vuelta si no\l"
+	.string "quieres problemas!$"
 
 FuchsiaCity_Path_Barrera_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -140,18 +140,17 @@ FuchsiaCity_Path_Barrera_Texto_4:
 .string "Mmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Firmado por el mismísimo KOGA{PAUSE 15}…{PAUSE 15}\l"
 	.string "Parece que todo está correcto,\l"
-	.string "debes de ser alguien muy\l"
-	.string "influyente para haber obtenido\l"
-	.string "este pase, te recomiendo no ir por\l"
-	.string "ahí así vestido, ni siquiera para\l"
-	.string "hacer la gracia, el gobierno de\l"
-	.string "LANCE está tomando cada vez\l"
+	.string "debes de ser alguien muy influyente\l"
+	.string "para haberlo obtenido.\l"
+	.string "Te recomiendo no ir por ahí así vestido,\l"
+	.string "ni siquiera para hacer la gracia: el\l"
+	.string "gobierno de LANCE está tomando cada vez\l"
 	.string "medidas más restrictivas en cuanto\l"
 	.string "al TEAM ROCKET, y con razón.$"
 
 FuchsiaCity_Path_Barrera_Texto_5:
-.string "Que tenga un buen día y perdone la\n"
-	.string "confusión.$"
+.string "Que tenga un buen día, y\n"
+	.string "perdone la confusión.$"
 
 FuchsiaCity_Path_Barrera_Move_1:
 walk_in_place_left

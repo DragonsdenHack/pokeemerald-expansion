@@ -42,8 +42,7 @@ end
 
 
 Route16_11::
-lock     
-faceplayer     
+lock        
 msgbox Route16_Text_11, MSGBOX_DEFAULT
 release     
 end
@@ -202,7 +201,17 @@ waitmovement 0x0
 applymovement 13, Route16_Combate_Bruno_Move_2
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route16_Combate_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 13, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_3 MSGBOX_AUTOCLOSE
@@ -212,6 +221,10 @@ msgbox Route16_Combate_Bruno_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 17, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, Route16_Combate_Bruno_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox Route16_Combate_Bruno_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_4
 waitmovement 0x0
@@ -223,9 +236,17 @@ msgbox Route16_Combate_Bruno_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 13, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 13, Route16_Combate_Bruno_Move_2
 waitmovement 0x0
-msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+waitse
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox Route16_Combate_Bruno_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_BRUNO_1, Route16_Combate_Bruno_Texto_10
 playse MUS_RG_ROCKET_HIDEOUT
 msgbox Route16_Combate_Bruno_Texto_11 MSGBOX_AUTOCLOSE
@@ -239,7 +260,7 @@ setflag FLAG_HIDE_HO_OH
 fadescreen 1
 delay 20
 removeobject 13
-removeobject 15
+removeobject 14
 removeobject 16
 fadescreen 0
 playse MUS_RG_ROUTE3
@@ -263,7 +284,7 @@ delay 20
 removeobject 17
 removeobject 11
 removeobject 12
-removeobject 14
+removeobject 15
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 66
 release
@@ -276,7 +297,17 @@ waitmovement 0x0
 applymovement 13, Route16_Combate_Bruno_Move_2
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route16_Combate_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 13, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_3 MSGBOX_AUTOCLOSE
@@ -286,6 +317,10 @@ msgbox Route16_Combate_Bruno_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 17, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, Route16_Combate_Bruno_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox Route16_Combate_Bruno_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_4.1
 waitmovement 0x0
@@ -297,9 +332,17 @@ msgbox Route16_Combate_Bruno_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 13, Route16_Combate_Bruno_Move_3
 waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 13, Route16_Combate_Bruno_Move_2
 waitmovement 0x0
-msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+waitse
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox Route16_Combate_Bruno_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_BRUNO_1, Route16_Combate_Bruno_Texto_10
 playse MUS_RG_ROCKET_HIDEOUT
 msgbox Route16_Combate_Bruno_Texto_11 MSGBOX_AUTOCLOSE
@@ -313,7 +356,7 @@ setflag FLAG_HIDE_HO_OH
 fadescreen 1
 delay 20
 removeobject 13
-removeobject 15
+removeobject 14
 removeobject 16
 fadescreen 0
 playse MUS_RG_ROUTE3
@@ -337,7 +380,7 @@ delay 20
 removeobject 17
 removeobject 11
 removeobject 12
-removeobject 14
+removeobject 15
 fadescreen 0
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
@@ -369,79 +412,94 @@ setvar VAR_UNUSED_0x40F7, 66
 release
 end
 
+Route16_Combate_Bruno_Move_2.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
 Route16_Combate_Bruno_Texto_1:
-.string "BRUNO: Fin del juego moteros, ha\n"
-	.string "sido muy estúpido por vuestra\l"
+.string "BRUNO: Fin del juego, moteros.\n"
+	.string "Ha sido muy estúpido por vuestra\l"
 	.string "parte creer que vuestros POKÉMON\l"
 	.string "VENENO pudieran siquiera tocar a\l"
 	.string "mi poderoso acero, más estúpido\l"
-	.string "aún creer que vuestros tipo LUCHA\l"
-	.string "fueran rival para los míos, ahora\l"
-	.string "que estáis más calmados y no os\l"
-	.string "quedan POKÉMON os diré lo que\l"
-	.string "vamos a hacer{PAUSE 5}…{PAUSE 5}$"
+	.string "aún creer que vuestros TIPO LUCHA\l"
+	.string "fueran rival para los míos.$"
+	
+Route16_Combate_Bruno_Texto_1.1:
+	.string "Ahora que estáis más calmados y no os\n"
+	.string "quedan POKÉMON, os diré lo que vamos\l"
+	.string "a hacer{PAUSE 15}…{PAUSE 15}$"
 
 Route16_Combate_Bruno_Texto_2:
-.string "Váis a hablar con el resto de\n"
-	.string "vuestros colegas, y convencerles\l"
-	.string "de que el futuro es el gobierno de\l"
-	.string "LANCE, el TEAM ROCKET es historia,\l"
-	.string "y pasaréis a deber lealtad a\l"
-	.string "LANCE, dándonos por supuesto toda\l"
-	.string "la información sobre el TEAM\l"
-	.string "ROCKET de la que disponéis, de\l"
-	.string "hacerlo se os perdonarán vuestros\l"
-	.string "crímenes y podréis seguir en\l"
-	.string "libertad paseando por este lugar,\l"
-	.string "si os negáis{PAUSE 5}…{PAUSE 5}$"
+.string "Váis a hablar con el resto de vuestros\n"
+	.string "colegas, y convencerles de que el futuro\l"
+	.string "es el gobierno de LANCE: el TEAM ROCKET\l"
+	.string "está acabado, ¿entendido?$"
+
+Route16_Combate_Bruno_Texto_2.1:
+	.string "A partir de ahora, deberéis lealtad a\n"
+	.string "LANCE, y nos daréis toda la información\l"
+	.string "referente al TEAM ROCKET de la que\l"
+	.string "disponéis.$"
+
+Route16_Combate_Bruno_Texto_2.2:
+	.string "Hacédlo y se os perdonarán vuestros\n"
+	.string "crímenes, podréis seguir en paseando\l"
+	.string "libremente por aquí.$"
+
+Route16_Combate_Bruno_Texto_2.3:
+	.string "Si os negáis{PAUSE 15}…{PAUSE 15}$"
 
 Route16_Combate_Bruno_Texto_3:
-.string "Dad por seguro que destruiré uno\n"
-	.string "por uno a todos los motoristas que\l"
+.string "Dad por seguro que destruiré, uno\n"
+	.string "por uno, a todos los motoristas que\l"
 	.string "encuentre por KANTO, y convertiré\l"
 	.string "este lugar en un solar.$"
 
 Route16_Combate_Bruno_Texto_4:
 .string "Todos acabaréis en la cárcel, y me\n"
-	.string "encargaré de que la opinión\l"
-	.string "pública se cebe con vosotros de\l"
-	.string "igual forma que hace con el TEAM\l"
-	.string "ROCKET, vosotros decidís.$"
+	.string "encargaré de que la opinión pública\l"
+	.string "se cebe con vosotros, de igual forma\l"
+	.string "que ya lo hace con el TEAM ROCKET.$"
 
 Route16_Combate_Bruno_Texto_5:
-.string "¡Nunca recibiremos órdenes de\n"
-	.string "alguien de fuera como LANCE!$"
+.string "CALVO: ¡Nunca recibiremos órdenes\n"
+	.string "de alguien de fuera como LANCE!$"
 
 Route16_Combate_Bruno_Texto_6:
-.string "BRUNO: Lo tomaré como un no pues,\n"
-	.string "habéis escogido el camino del\l"
+.string "BRUNO: Lo tomaré como un no, pues.\n"
+	.string "Habéis escogido el camino del\l"
 	.string "sufrimiento, ¡GUARDIAS!\l"
 	.string "¡Preparadad los…!$"
 
 Route16_Combate_Bruno_Texto_7:
-.string "BRUNO: Vaya vaya, parece que\n"
-	.string "tendréis compañía en vuestro viaje\l"
-	.string "a prisión, y además un ROCKET de\l"
-	.string "ALTO RANGO por lo que veo, seguro\l"
-	.string "que podremos sacarte información\l"
-	.string "muy valiosa.$"
+.string "Vaya, vaya{PAUSE 25}…{PAUSE 25} parece que tendréis\n"
+	.string "compañía en vuestro viaje a prisión.\l"
+	.string "Además, un ROCKET de ALTO RANGO, por\l"
+	.string "lo que veo, seguro que podremos sacarte\l"
+	.string "información muy valiosa.$"
 
 Route16_Combate_Bruno_Texto_8:
-.string "Todos los delincuentes sois\n"
-	.string "iguales, creéis que podéis llegar\l"
-	.string "a algún lado solo con vuestro\l"
-	.string "instinto y vuestras sensaciones,\l"
-	.string "tan frágiles y cambiantes.$"
+.string "Todos los delincuentes sois iguales,\n"
+	.string "creéis que podéis llegar a algún lado\l"
+	.string "solo con vuestro instinto y vuestras\l"
+	.string "sensaciones, tan frágiles y cambiantes.$"
+
 
 Route16_Combate_Bruno_Texto_9:
-.string "BRUNO: Te mostraré el arrollador\n"
-	.string "poder de mis POKÉMON entrenados a\l"
-	.string "base de sangre, sudor y lágrimas,\l"
-	.string "algo que ninguno de vosotros\l"
-	.string "siquiera sabéis lo que significa,\l"
-	.string "¡no me tomará más de 3 POKÉMON\l"
-	.string "para borrar a todo tu equipo del\l"
-	.string "mapa!$"
+.string "Te mostraré el arrollador poder de mis\n"
+	.string "POKÉMON entrenados a base de sangre, sudor\l"
+	.string "y lágrimas, algo que ninguno de vosotros\l"
+	.string "siquiera sabe lo que significa.$"
+
+Route16_Combate_Bruno_Texto_9.1:
+	.string "¡No me tomará más de 3 POKÉMON para\n"
+	.string "borrar a todo tu equipo del mapa!$"
 
 Route16_Combate_Bruno_Texto_10:
 .string "¡No puede ser!\n"
@@ -451,37 +509,34 @@ Route16_Combate_Bruno_Texto_11:
 .string "BRUNO: ¡Mmphff!\n"
 	.string "¡Debí de haber traído a mi fiel\l"
 	.string "MACHAMP después de todo!\l"
-	.string "¡Que deshonra perder ante un\l"
-	.string "ROCKET, créeme que vas a pagarlo,\l"
-	.string "te has salvado únicamente por\l"
-	.string "haber sido superior a la\l"
-	.string "mediocridad que esperaba\l"
-	.string "encontrarme aquí!$"
+	.string "¡Que deshonra perder ante un ROCKET!\l"
+	.string "Esto lo pagarás, te has salvado\l"
+	.string "únicamente por haber sido superior a\l"
+	.string "la mediocridad que esperaba encontrar\l"
+	.string "aquí!$"
 
 Route16_Combate_Bruno_Texto_12:
-.string "BRUNO: Ni una palabra de esto a\n"
-	.string "LANCE, abortamos misión por\l"
-	.string "problemas técnicos de última hora.$"
+.string "Ni una palabra de esto a LANCE,\n"
+	.string "abortamos misión por problemas\l"
+	.string "técnicos de última hora.$"
 
 Route16_Combate_Bruno_Texto_13:
-.string "BRUNO: En cuanto a ti, ROCKET…\n"
+.string "En cuanto a ti, ROCKET…\n"
 	.string "Nos volveremos a ver{PAUSE 5}…{PAUSE 5}$"
 
 Route16_Combate_Bruno_Texto_14:
-.string "¡Aún no puedo creer lo que ven mis\n"
-	.string "ojos!\l"
+.string "¡Aún no puedo creerlo!\n"
 	.string "¡Ha sido el combate más\l"
 	.string "impresionante que he visto en mi\l"
 	.string "vida, le has dado una lección a\l"
 	.string "todo un miembro de la ÉLITE 4!$"
 
 Route16_Combate_Bruno_Texto_15:
-.string "Y no solo eso, has salvado este\n"
-	.string "lugar de ser también tragado por\l"
-	.string "esta maldita dictadura\l"
-	.string "encubierta…nuestra lealtad hacia\l"
-	.string "el TEAM ROCKET no ha hecho más que\l"
-	.string "crecer después de esto.$"
+.string "Y no solo eso, has salvado el CAMINO\n"
+	.string "BICIS de ser también tragado por\l"
+	.string "esta maldita dictadura encubierta…\l"
+	.string "Nuestra lealtad hacia el TEAM ROCKET\l"
+	.string "no ha hecho más que crecer.$"
 
 Route16_Combate_Bruno_Texto_16:
 .string "Sé que es poco en comparación con\n"
@@ -493,10 +548,9 @@ Route16_Combate_Bruno_Texto_16:
 	.string "hablar en condiciones.$"
 
 Route16_Combate_Bruno_Texto_17:
-.string "Ahora sí nos retiramos…seguiremos\n"
+.string "Ahora sí, nos retiramos… seguiremos\n"
 	.string "peleando por volver a ver a esta\l"
-	.string "región en las manos que\l"
-	.string "corresponden.$"
+	.string "región en las manos que corresponden.$"
 
 Route16_Combate_Bruno_Move_1:
 walk_in_place_up

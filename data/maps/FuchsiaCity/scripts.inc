@@ -97,12 +97,12 @@ Text_18:
 .string "podréis entrar a la ZONA SAFARI!\l"
 .string "…\l"
 .string "…\l"
-.string "¿Cómo?¿No lo necesitas y ya\l"
+.string "¿Cómo? ¿No lo necesitas y ya\l"
 .string "capturaste un KANGASKHAN en el\l"
 .string "TÚNEL ROCA?\l"
-.string "¡Además de ladrón mentiroso, se\l"
-.string "demostró que la existencia de un\l"
-.string "KANGASKHAN allí era un bulo!$"
+.string "¡Además de ladrón, mentiroso!\l"
+.string "¡Se demostró que la existencia de\l"
+.string "un KANGASKHAN allí era un bulo!$"
 
 NeoFuchsiaCityDocumento_100::
 msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN   
@@ -272,15 +272,29 @@ goto FuchsiaCity_Encuentro_Koga
 
 FuchsiaCity_Encuentro_Koga::
 msgbox FuchsiaCity_Encuentro_Koga_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 playse MUS_RG_OBTAIN_KEY_ITEM
 giveitem ITEM_CONTEST_PASS
 waitse
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
@@ -291,62 +305,103 @@ msgbox FuchsiaCity_Encuentro_Koga_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4
 waitmovement 0x0
 msgbox FuchsiaCity_Encuentro_Koga_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.4
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
-fadescreen 1
-delay 20
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Encuentro_Koga_Move_4.3
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.2
+waitmovement 0x0
 removeobject 15
-fadescreen 0
-delay 20
-playse SE_POKENAV_CALL
-delay 30
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_1
-delay 20
-playse SE_POKENAV_HANG_UP
-msgbox FuchsiaCity_Encuentro_Koga_Texto_8 MSGBOX_AUTOCLOSE
-delay 15
-playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 67
 release
 end
 
+FuchsiaCity_Encuentro_Koga_Move_4.4:
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+
+FuchsiaCity_Encuentro_Koga_Move_4.3:
+delay_16
+delay_8
+face_down
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_4.2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+
+FuchsiaCity_Encuentro_Koga_Move_4.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
 FuchsiaCity_Encuentro_Koga_Texto_1:
 .string "KOGA: ¡{PLAYER}!\n"
-	.string "¡No puedo creer que de verdad\l"
-	.string "hayas echado a BRUNO del CAMINO\l"
-	.string "BICIS!\l"
-	.string "¡No eres consciente de la\l"
-	.string "importancia de lo que has hecho,\l"
-	.string "no dudes de que informaré a\l"
-	.string "GIOVANNI sobre tu hazaña!$"
+	.string "¡No puedo creer que de verdad hayas\l"
+	.string "echado a BRUNO del CAMINO BICIS!$"
+
+FuchsiaCity_Encuentro_Koga_Texto_1.1:
+	.string "¡No eres consciente de la importancia\n"
+	.string "de lo que has hecho, créeme.\l"
+	.string "Informaré a GIOVANNI sobre tu hazaña!$"
 
 FuchsiaCity_Encuentro_Koga_Texto_2:
 .string "KOGA: {PAUSE 15}…{PAUSE 15}$"
 
 FuchsiaCity_Encuentro_Koga_Texto_3:
-.string "Nos ayudaste a mantener el negocio\n"
-	.string "del SAFARI, y ahora gracias a ti\l"
-	.string "la relación entre el TEAM ROCKET y\l"
-	.string "los MOTORISTAS es más fuerte que\l"
-	.string "nunca, te has ganado el mejor\l"
-	.string "regalo que pueda ofrecerte, además\l"
-	.string "de mi respeto.$"
+.string "Nos ayudaste a mantener el negocio del\n"
+	.string "SAFARI, y ahora, gracias a ti, la\l"
+	.string "relación entre el TEAM ROCKET y los\l"
+	.string "MOTORISTAS es más fuerte que nunca.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_3.1:
+	.string "Te has ganado el mejor regalo que pueda\n"
+	.string "ofrecerte, además de mi respeto.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_4:
-.string "Con este pase podrás entrar\n"
-	.string "siempre que quieras a nuestra ZONA\l"
-	.string "SAFARI sin pagar, y usando tus\l"
-	.string "propias POKÉ BALL sin ningún tipo\l"
-	.string "de limitación, es algo a lo que\l"
-	.string "solo tienen acceso los principales\l"
-	.string "accionistas y personalidades como\l"
-	.string "BILL por motivos de\l"
-	.string "investigación{PAUSE 15}…{PAUSE 15}considérate\l"
-	.string "afortunado, y no te preocupes por\l"
-	.string "llevar el uniforme ROCKET, siempre\l"
-	.string "puedes alegar al guarda que es un\l"
-	.string "cosplay que usas para ridiculizar\l"
-	.string "al TEAM ROCKET, este estará\l"
-	.string "obligado a dejarte pasar{PAUSE 5}…{PAUSE 5}$"
+.string "Con este pase podrás entrar siempre\n"
+	.string "que quieras a nuestra ZONA SAFARI.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.1:
+	.string "No necesitarás pagar, y podrás usar tus\n"
+	.string "propias POKÉ BALL, sin ningún tipo de\l"
+	.string "limitación; es algo a lo que solo tienen\l"
+	.string "acceso los principales accionistas y\l"
+	.string "personalidades como BILL por motivos de\l"
+	.string "investigación{PAUSE 15}…{PAUSE 15}$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.2:
+	.string "No te preocupes por llevar el uniforme\n"
+	.string "ROCKET: siempre puedes alegar al guarda\l"
+	.string "que es un cosplay para ridiculizarlos.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.3:
+	.string "Por muy absurdo que suene, es un vacío\n"
+	.string "legal: no hay forma de demostrar lo\l"
+	.string "contrario, y se verá obligado a\l"
+	.string "dejarte pasar.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_5:
 .string "KOGA: ¿Cómo?\n"
@@ -359,28 +414,16 @@ FuchsiaCity_Encuentro_Koga_Texto_6:
 	.string "no tiene pérdida.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_7:
-.string "KOGA: Gracias por todo de nuevo\n"
-	.string "{PLAYER}, ahora me retiro, no es\l"
-	.string "conveniente que me vean con un\l"
-	.string "ROCKET, debo mantener las\l"
-	.string "apariencias si queréis seguir\l"
-	.string "teniendo a uno de los vuestros\l"
-	.string "infiltrado en puestos de\l"
-	.string "privilegio, estaré encantado de\l"
-	.string "combatir contigo{PAUSE 25}…{PAUSE 25}si se da la\l"
-	.string "ocasión.$"
+.string "Gracias por todo de nuevo, {PLAYER}.\n"
+	.string "Ahora me retiro, no es conveniente que\l"
+	.string "me vean con un ROCKET, debo mantener\l"
+	.string "las apariencias si queréis seguir\l"
+	.string "teniendo a uno de los vuestros aquí,\l"
+	.string "infiltrado en puestos de privilegio.$"
 
-FuchsiaCity_Encuentro_Koga_Texto_8:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "¿Cómo va la misión?\l"
-	.string "¿Vas de camino a ISLAS ESPUMA?\l"
-	.string "Perfecto, AZUL tiene todo listo\l"
-	.string "para batir a MOLTRES, y ANDRA ha\l"
-	.string "ultimado los preparativos con\l"
-	.string "nuestros científicos para hacer su\l"
-	.string "equipo más ventajoso frente a\l"
-	.string "ZAPDOS, espero noticias tuyas\l"
-	.string "{PLAYER}.$"
+FuchsiaCity_Encuentro_Koga_Texto_7.1:
+	.string "Estaré encantado de combatir\n"
+	.string "contigo{PAUSE 25}…{PAUSE 25} si se da la ocasión.$"
 
 FuchsiaCity_Encuentro_Koga_Move_1:
 walk_in_place_right

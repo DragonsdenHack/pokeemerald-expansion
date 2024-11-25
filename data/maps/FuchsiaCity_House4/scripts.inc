@@ -60,6 +60,9 @@ applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_House4_Secundaria_Squirtle_Move_1
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_4
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_House4_Secundaria_Squirtle_Move_4
 waitmovement 0x0
@@ -74,6 +77,12 @@ delay 20
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_DOOR
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 addobject 3
@@ -89,6 +98,14 @@ applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_6
 waitmovement 0x0
 delay 20
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, FuchsiaCity_House4_Secundaria_Squirtle_Move_6
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
@@ -105,11 +122,36 @@ delay 15
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.3
+waitmovement 0x0
+waitse
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_2
 waitmovement 0x0
 setvar VAR_UNUSED_0x4083, 2
 release
 end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.3:
+walk_in_place_left
+face_player
+step_end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2:
+walk_in_place_up
+step_end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 FuchsiaCity_House4_Secundaria_Squirtle_3::
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_2 MSGBOX_AUTOCLOSE
@@ -117,20 +159,19 @@ release
 end
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_1:
-.string "La gente como vosotros jamás\n"
-	.string "alcanzará a comprender el arte de\l"
-	.string "la pesca, ni la clase de POKÉMON\l"
-	.string "que pueden crecer en los mares, y\l"
-	.string "suerte que no lo hacéis, lo último\l"
-	.string "que quiero es que metáis vuestras\l"
-	.string "narices en algo tan puro como el\l"
-	.string "agua.$"
+.string "La gente como vosotros jamás alcanzará\n"
+	.string "a comprender el arte de la pesca, ni la\l"
+	.string "clase de POKÉMON que pueden crecer en\l"
+	.string "los mares.\l"
+	.string "Y me alegro por ello, lo último que\l"
+	.string "quiero es que metáis vuestras narices\l"
+	.string "en algo tan puro como el agua.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_2:
 .string "Cuando menos te lo esperes, me\n"
-	.string "vengaré de ti ROCKET, y mi derrota\l"
-	.string "no quedará en más que una\l"
-	.string "anécdota.$"
+	.string "vengaré de ti, ROCKET.\l"
+	.string "Mi derrota no quedará en más\l"
+	.string "que una anécdota.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
 .string "…\n"
@@ -139,29 +180,25 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_4:
 .string "¿Cómo dices?\n"
 	.string "¿Mi hermano mediano te envía para\l"
-	.string "derrotarme y así demostrar que no\l"
-	.string "soy tan buen PESCADOR como todos\l"
-	.string "dicen?$"
+	.string "derrotarme, y así demostrar que no soy\l"
+	.string "tan buen PESCADOR como todos dicen?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_5:
-.string "No sabes donde te metes ROCKET,\n"
-	.string "tus POKÉMON no pueden competir\l"
+.string "No sabes donde te metes, ROCKET.\n"
+	.string "Tus POKÉMON no pueden competir\l"
 	.string "contra las mejores piezas que\l"
-	.string "pueden atraparse por KANTO, aunque\l"
-	.string "seas un ALTO RANGO, o lo que\l"
-	.string "quieras, mis POKÉMON pescados en\l"
-	.string "el mar tienen un furia que no\l"
-	.string "conoces.$"
+	.string "pueden atraparse por KANTO.\l"
+	.string "¡Da igual que seas ALTO RANGO!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_6:
 .string "Tengo cosas más importantes que\n"
 	.string "estar peleando con un ROCKET, si\l"
-	.string "recapacitas y sales de mi casa\l"
-	.string "aquí no ha ocurrido nada,\l"
-	.string "¿de acuerdo?$"
+	.string "recapacitas y sales de mi casa,\l"
+	.string "aquí no ha ocurrido nada.\l"
+	.string "¿De acuerdo?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_7:
-.string "Bien, ahora sal de mi casa.$"
+.string "Bien, ahora, sal de mi casa.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_8:
 .string "Te va el riesgo, ¿ eh, ROCKET?\n"
@@ -175,66 +212,70 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_9:
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
 .string "Esto no tiene sentido, debes de\n"
-	.string "ser algo más dentro del TEAM\l"
-	.string "ROCKET, un EJECUTIVO,\l"
-	.string "ADMINISTRADOR quizás, ¿me\l"
-	.string "equivoco?$"
+	.string "ser algo más dentro del TEAM ROCKET.\l"
+	.string "¿EJECUTIVO, ADMINISTRADOR, quizás?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
 .string "Pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "Lamentablemente para ti, yo nunca\l"
-	.string "pierdo, nunca, como crees que he\l"
-	.string "mantenido mi reputación impoluta\l"
-	.string "hasta ahora, yo siempre guardo mis\l"
-	.string "espaldas.$"
+	.string "pierdo, nunca.\l"
+	.string "¿como crees que he mantenido mi\l"
+	.string "reputación impoluta hasta ahora?\l"
+	.string "Yo siempre guardo mis espaldas.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_12:
-.string "Has hecho demasiado ruido ROCKET,\n"
-	.string "no podemos permitir que salgas\l"
-	.string "ganador de aquí.\l"
-	.string "He oído alboroto en la casa de mi\l"
-	.string "vecino, el mejor de los gurús que\l"
-	.string "tanto público atrae a FUCSIA.\l"
-	.string "Como POKÉGUARDA de la ZONA SAFARI,\l"
+.string "Has hecho demasiado ruido, ROCKET.\n"
+	.string "No podemos permitir que salgas\l"
+	.string "ganador de aquí.$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_12.1:
+	.string "Como POKÉGUARDA de la ZONA SAFARI,\n"
 	.string "entenderás que no puedo permitir\l"
 	.string "que nadie perturbe el orden de\l"
-	.string "esta ciudad, nadie va a salir de\l"
+	.string "esta ciudad; nadie va a salir de\l"
 	.string "aquí diciendo que el mejor gurú de\l"
-	.string "la región salió derrotado por un\l"
-	.string "ROCKET.$"
+	.string "la región, de FUCSIA, salió derrotado\l"
+	.string "por un ROCKET.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_13:
 .string "Ahora que tus POKÉMON están\n"
-	.string "cansados, ¡solo me queda darte el\l"
-	.string "golpe de gracia!$"
+	.string "cansados, ¡solo me queda darte\l"
+	.string "el golpe de gracia!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_14:
 .string "¡No puede ser, mi SLOWKING!\n"
 	.string "¿Quién eres tú?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
-.string "Esto sí que no estaba en nuestros\n"
-	.string "planes, siquiera KOGA podría salir\l"
-	.string "victorioso frente a nosotros dos\l"
-	.string "juntos. Sea como sea, nadie te\l"
-	.string "creerá ROCKET, nadie ha visto\l"
-	.string "estos combat{PAUSE 5}…{PAUSE 5}$"
+.string "Esto sí que no estaba en\n"
+	.string "nuestros planes.\l"
+	.string "¡Ni KOGA podría salir victorioso frente\l"
+	.string "a nosotros dos a la vez!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1:
+	.string "Sea como sea, nadie te creerá,\n"
+	.string "nadie ha visto estos combat{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
 .string "¡Guau!\n"
-	.string "¡Ha sido increíble, un ROCKET le\l"
-	.string "ha dado una lección al gurú de\l"
-	.string "FUCSIA!\l"
-	.string "¡Y aún más!\l"
-	.string "¡También a SLOWPOKE el POKÉGUARDA\l"
-	.string "del SAFARI!\l"
-	.string "¡No puedo esperar a ver la cara de\l"
+	.string "¡Ha sido increíble, un ROCKET le ha\l"
+	.string "dado una lección al gurú de FUCSIA!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1:
+	.string "¡Y aún más!\n"
+	.string "¡También a SLOWPOKE, el\l"
+	.string "POKÉGUARDA del SAFARI!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2:
+	.string "¡No puedo esperar a ver la cara de\n"
 	.string "mis amigos cuando se enteren!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_17:
 .string "¡¿Tienes idea de lo que acabas de\n"
-	.string "hacer ROCKET?!\l"
-	.string "¡Espero que te merezca la pena la\l"
+	.string "hacer, ROCKET?!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_17.1:
+	.string "¡Espero que te merezca la pena la\n"
 	.string "recompensa de mi hermano!\l"
 	.string "¡Acabas de iniciar una guerra!$"
 

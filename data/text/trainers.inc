@@ -7569,7 +7569,7 @@ Route18_Ornitologo3PostBattle:
 
 
 Route17_Text_MotoristaIntro:
-	.string "¡Un honor verle por aquí {PLAYER}!\n"
+	.string "¡Un honor verle por aquí, {PLAYER}!\n"
 	.string "¡Concédame este combate!$"
 
 
@@ -7578,13 +7578,13 @@ Route17_Text_MotoristaDefeated:
 
 
 Route17_MotoristaPostBattle:
-	.string "¡Vas a ser el próximo ADMIN.\n"
-	.string "ROCKET ya lo verás!$"
+	.string "¡Vas a ser el próximo ADMINISTRADOR\n"
+	.string "del TEAM ROCKET, ya lo verás!$"
 
 
 Route17_Text_Motorista2Intro:
 	.string "Los rumores hablan de un nuevo\n"
-	.string "Rocket muy ducho en el combate.$"
+	.string "ROCKET muy ducho en el combate.$"
 
 
 Route17_Text_Motorista2Defeated:
@@ -7837,7 +7837,7 @@ Route19_Nadador2PostBattle:
 
 Route19_Text_Nadador3Intro:
 	.string "Este agua purifica muchas cosas, tus\n"
-	.string "malas acciones pasadas no es una\l"
+	.string "malas acciones pasadas no son una\l"
 	.string "de ellas.$"
 
 
