@@ -460,10 +460,10 @@ Route109_SeashoreHouse_Padre_Texto_18:
 	.string "contigo estarán en buenas manos.$"
 
 Route109_SeashoreHouse_Padre_Texto_19:
-	.string "¡{PLAYER} obtuvo un CHATOT al nv.60!$"
+	.string "¡{PLAYER} obtuvo un CHATOT al NV.60!$"
 
 Route109_SeashoreHouse_Padre_Texto_20:
-	.string "¡{PLAYER} obtuvo un PIKIPEK al nv.60!$"
+	.string "¡{PLAYER} obtuvo un PIKIPEK al NV.60!$"
 
 Route109_SeashoreHouse_Padre_Texto_21:
 	.string "Son aves exóticas de lejanas regiones,\n"

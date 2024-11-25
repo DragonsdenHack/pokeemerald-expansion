@@ -138,12 +138,10 @@ Route12_House_1_Secundaria_Squirtle_Texto_5.1:
 	.string "alegar esa derrota como una mancha\l"
 	.string "imborrable en su carrera!\l"
 	.string "¡Aquí tienes, ROCKET!\l"
-	.string "¡Cuida bien de este POKÉMON,\l"
-	.string "es único!$"
+	.string "¡Cuida bien de este POKÉMON, es único!$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_6:
-.string "¡¡OBTUVISTE UN SQUIRTLE AL\n"
-	.string "NV.5!!$"
+.string "¡¡OBTUVISTE UN SQUIRTLE AL NV.5!!$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_7:
 .string "¡Uno de los últimos SQUIRTLE que\n"
@@ -241,7 +239,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_12.1:
 	.string "para demostrar que también valemos.$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_12.2:
-	.string "Si logras cumplir la misión, vuelve\l"
+	.string "Si logras cumplir la misión, vuelve\n"
 	.string "aquí recibirás algo por lo que cualquier\l"
 	.string "PESCADOR en KANTO daría su brazo derecho.$"
 

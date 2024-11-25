@@ -841,7 +841,7 @@ Route109_Nina_Final_Texto_9:
 	.string "POKÉMON es para ti.$"
 
 Route109_Nina_Final_Texto_10:
-	.string "¡{PLAYER} obtuvo un ANORITH al nv.60!$"
+	.string "¡{PLAYER} obtuvo un ANORITH al NV.60!$"
 
 Route109_Nina_Final_Texto_11:
 	.string "Ahora sí, ¡vuelvo a AZULIZA!$"

@@ -734,8 +734,7 @@ SaffronCity_Secundaria_Motorista_Texto_5:
 	.string "hablé.$"
 
 SaffronCity_Secundaria_Motorista_Texto_6:
-.string "¡¡OBTUVISTE UN HITMONCHAN AL\n"
-	.string "NV.37!!$"
+.string "¡¡OBTUVISTE UN HITMONCHAN AL NV.37!!$"
 
 SaffronCity_Secundaria_Motorista_Texto_7:
 .string "Lo cierto es que fue un regalo de\n"

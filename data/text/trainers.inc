@@ -7996,7 +7996,7 @@ Route20_Text_NadadoraIntro:
 
 
 Route20_Text_NadadoraDefeated:
-	.string "¡Oh!¡Déjame!$"
+	.string "¡Oh! ¡Déjame!$"
 
 
 Route20_NadadoraPostBattle:
@@ -8020,8 +8020,7 @@ Route20_Nadadora2PostBattle:
 
 PowerPlant_Text_PoliciaIntro:
     .string "Ya va siendo hora de que tú y tu\n"
-	.string "amiguita respondáis ante la\l"
-	.string "justicia.$"
+	.string "amiguita respondáis ante la justicia.$"
 
 
 PowerPlant_Text_PoliciaDefeated:
@@ -8029,17 +8028,16 @@ PowerPlant_Text_PoliciaDefeated:
 
 
 PowerPlant_PoliciaPostBattle:
-	.string "Nadie escapa a la policía de\n"
-	.string "KANTO, tarde o temprano acabaréis\l"
-	.string "todos entre rejas.$"
+	.string "Nadie escapa a la policía de KANTO.\n"
+	.string "Tarde o temprano acabaréis entre rejas.$"
 
 
 PowerPlant_Text_Policia2Intro:
     .string "Así que tú eres el que escapó de\n"
 	.string "milagro de la cadena perpetua por\l"
-	.string "robar en casa de BILL, es muy\l"
-	.string "estúpido de tu parte volver a\l"
-	.string "tentar a la suerte.$"
+	.string "robar en casa de BILL.\l"
+	.string "Es muy estúpido de tu parte volver\l"
+	.string "a tentar a la suerte.$"
 
 
 PowerPlant_Text_Policia2Defeated:
@@ -8066,10 +8064,9 @@ PowerPlant_Policia3PostBattle:
 
 PowerPlant_Text_Policia4Intro:
 	.string "Muy bonito por tu parte venir a\n"
-	.string "rescatar a tu compañera, a pesar\l"
-	.string "de que lo único que vas a\l"
-	.string "conseguir va a ser hacerle\l"
-	.string "compañia en la celda.$"
+	.string "rescatar a tu compañera, a pesar de\l"
+	.string "que lo único que vas a conseguir sea\l"
+	.string "hacerle compañia en la celda.$"
 
 
 PowerPlant_Text_Policia4Defeated:
@@ -8077,8 +8074,8 @@ PowerPlant_Text_Policia4Defeated:
 
 
 PowerPlant_Policia4PostBattle:
-	.string "Un buen acto no anula una vida\n"
-	.string "entera de fechorías.$"
+	.string "¡Un buen acto no anula una\n"
+	.string "vida entera de fechorías!$"
 
 
 PowerPlant_Text_Policia5Intro:
@@ -8099,8 +8096,8 @@ PowerPlant_Policia5PostBattle:
 
 
 SaffronCityDojo_Text_KaratekaIntro:
-	.string "¡Estoy harto de ver ROCKETS en\n"
-	.string "AZAFRÁN!$"
+	.string "¡Estoy harto de ver al\n"
+	.string "TEAM ROCKET por AZAFRÁN!$"
 
 
 SaffronCityDojo_Text_KaratekaDefeated:

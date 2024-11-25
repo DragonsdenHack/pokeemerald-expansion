@@ -101,7 +101,7 @@ msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16 MSGBOX_AUTOCLOSE
 delay 10
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1 MSGBOX_AUTOCLOSE
 delay 10
-applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2
+applymovement 3, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2
 waitmovement 0x0
 delay 10
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2 MSGBOX_AUTOCLOSE
@@ -253,7 +253,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
 	.string "a nosotros dos a la vez!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1:
-	.string "Sea como sea, nadie te creerá,\n"
+	.string "Sea como sea, nadie te creerá, porque\n"
 	.string "nadie ha visto estos combat{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:

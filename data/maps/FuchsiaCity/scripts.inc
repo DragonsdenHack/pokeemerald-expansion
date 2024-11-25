@@ -635,8 +635,7 @@ FuchsiaCity_Estafado_Texto_9:
 	.string "del combate!$"
 
 FuchsiaCity_Estafado_Texto_10:
-.string "¡¡OBTUVISTE UN SNORLAX AL\n"
-	.string "NV.30!!$"
+.string "¡¡OBTUVISTE UN SNORLAX AL NV.30!!$"
 
 FuchsiaCity_Estafado_Texto_11:
 .string "Ahora sí me voy, gracias por todo\n"

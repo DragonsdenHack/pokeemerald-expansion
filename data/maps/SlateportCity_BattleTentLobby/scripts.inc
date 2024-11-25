@@ -612,8 +612,7 @@ SlateportCity_Museo_Secundaria_Texto_29:
 	.string "extremadamente raro.$"
 
 SlateportCity_Museo_Secundaria_Texto_30:
-	.string "¡¡{PLAYER} obtuvo un RELICANTH al\n"
-	.string "nv.60!!$"
+	.string "¡¡OBTUVISTE un RELICANTH al NV.60!!$"
 
 SlateportCity_Museo_Secundaria_Texto_31:
 	.string "Y ahora{PAUSE 15}…{PAUSE 15} cuéntame, ¿qué ocurrió allí?$"

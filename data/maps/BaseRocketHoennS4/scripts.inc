@@ -246,8 +246,7 @@ release
 end
 
 Base_Hoenn_Andra_Electivire_Texto_2:
-	.string "¡¡OBTUVISTE UN ELECTIVIRE-X AL\n"
-	.string "NV.108!!$"
+	.string "¡OBTUVISTE UN ELECTIVIRE-X AL NV.108!$"
 
 Base_Hoenn_Andra_Electivire_Texto_1:
 	.string "Es el ELECTIVIRE-X de ANDRA. ¿Quieres\n"

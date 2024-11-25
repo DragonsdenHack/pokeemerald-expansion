@@ -113,8 +113,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_5:
 	.string "más.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_6:
-.string "¡¡OBTUVISTE UN MAGIKARP\n"
-	.string "AL NV.5!!$"
+.string "¡OBTUVISTE UN MAGIKARP AL NV.5!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 .string "¿Cómo?\n"

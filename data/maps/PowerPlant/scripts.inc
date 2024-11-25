@@ -72,10 +72,9 @@ release
 end
 
 PowerPlant13_Texto_1:
-.string "Ya estás al límite chiquilla,\n"
-	.string "cuando el LT.SURGE llegue no le\l"
-	.string "tomará más de un POKÉMON\l"
-	.string "rematarte{PAUSE 5}…{PAUSE 5}$"
+.string "Ya estás al límite, chiquilla.\n"
+	.string "Cuando el LT.SURGE llegue, no le\l"
+	.string "tomará más de un POKÉMON rematarte{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -88,10 +87,10 @@ end
 PowerPlant14_Texto_1:
 .string "¿{PLAYER}?\n"
 	.string "Al fin{PAUSE 25}…\l"
-	.string "Ya he derrotado a 7 POLICÍAS que\l"
-	.string "han huido para avisar al LT.SURGE{PAUSE 25}…\l"
-	.string "Date prisa{PAUSE 25}…\l"
-	.string "Mi equipo no aguantará mucho más{PAUSE 25}…{PAUSE 5}$"
+	.string "Ya he derrotado a 7 POLICÍAS, que\l"
+	.string "han huido para avisar al LT.SURGE{PAUSE 15}…{PAUSE 15}\l"
+	.string "Date prisa{PAUSE 15}…{PAUSE 15}\l"
+	.string "Mis POKÉMON no aguantarán mucho más{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -107,8 +106,8 @@ release
 end
 
 PowerPlant16_Texto_1:
-.string "PETREL: Ocúpate de ZAPDOS {PLAYER},\n"
-	.string "¡rápido!$"
+.string "PETREL: Ocúpate de ZAPDOS, {PLAYER}.\n"
+	.string "¡Rápido!$"
 
 
 
@@ -120,11 +119,10 @@ end
 
 PowerPlant17_Texto_1:
 .string "LORELEI: Entonces tú eres la mano\n"
-	.string "derecha de GIOVANNI, tengo órdenes\l"
-	.string "de LANCE de usar el 100% de mi\l"
-	.string "capacidad en derrotarte, nadie\l"
-	.string "saldrá de aquí sin mi\l"
-	.string "consentimiento{PAUSE 5}…{PAUSE 5}$"
+	.string "derecha de GIOVANNI{PAUSE 5}…{PAUSE 5}\l"
+	.string "Tengo órdenes de LANCE de usar el 100%\l"
+	.string "de mi capacidad en derrotarte, nadie\l"
+	.string "saldrá de aquí sin mi consentimiento{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -137,8 +135,8 @@ end
 PowerPlant18_Texto_1:
 .string "ATLAS: No soy uno de esos\n"
 	.string "mediocres ENTRENADORES que abundan\l"
-	.string "por aquí LORELEI, tampoco un LÍDER\l"
-	.string "DE GIMNASIO, vas a tener que\l"
+	.string "por aquí, LORELEI, tampoco un LÍDER\l"
+	.string "DE GIMNASIO. Vas a tener que\l"
 	.string "hacerlo mejor si quieres batirme{PAUSE 5}…{PAUSE 5}$"
 
 
@@ -194,9 +192,17 @@ playse SE_PIN
 applymovement 19, PowerPlant_Encuentro_Petrel_Move_2
 waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 19, PowerPlant_Encuentro_Petrel_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox PowerPlant_Encuentro_Petrel_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, PowerPlant_Encuentro_Petrel_Move_3
 waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Encuentro_Petrel_Texto_2.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PowerPlant_Encuentro_Petrel_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 19, PowerPlant_Encuentro_Petrel_Move_4
@@ -233,33 +239,42 @@ setvar VAR_UNUSED_0x40F7, 70
 release
 end
 
+PowerPlant_Encuentro_Petrel_Move_2.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
 PowerPlant_Encuentro_Petrel_Texto_1:
-.string "PETREL: ¡{PLAYER}!\n"
-	.string "¿Dónde estabas?\l"
+.string "¡{PLAYER}!\n"
 	.string "ATLAS y yo hemos tenido que entrar\l"
-	.string "sin ti{PAUSE 25}…{PAUSE 25}vimos cómo LORELEI del\l"
-	.string "ALTO MANDO llegaba a la CENTRAL\l"
-	.string "para detener a ANDRA y tuvimos que\l"
-	.string "intervenir{PAUSE 25}…{PAUSE 25}ATLAS ahora mismo está\l"
+	.string "sin ti{PAUSE 25}…{PAUSE 25} vimos cómo LORELEI del\l"
+	.string "ALTO MANDO llegaba a la CENTRAL,\l"
+	.string "y tuvimos que intervenir{PAUSE 25}…{PAUSE 25}$"
+
+PowerPlant_Encuentro_Petrel_Texto_1.1:
+	.string "ATLAS ahora mismo está\n"
 	.string "combatiendo con ella, me ha pedido\l"
 	.string "que te encontrara y te contara el\l"
 	.string "plan{PAUSE 25}…{PAUSE 5}$"
 
 PowerPlant_Encuentro_Petrel_Texto_2:
-.string "PETREL: ATLAS ahora mismo está\n"
-	.string "lidiando con LORELEI, y yo voy a\l"
-	.string "quitarle de encima esos\l"
-	.string "policías a ANDRA, tú mientras\l"
-	.string "tanto irás a por ZAPDOS para\l"
-	.string "cumplir así con la misión, en\l"
-	.string "cuanto obtengas lo que\l"
-	.string "necesitamos y nosotros acabemos\l"
-	.string "con nuestros rivales, nos largamos\l"
-	.string "de aquí antes de que la situación\l"
-	.string "empeore, ¿entendido?$"
+	.string "Yo voy a quitarle de encima esos\n"
+	.string "policías a ANDRA.\l"
+	.string "Tú, mientras tanto, irás a por ZAPDOS\l"
+	.string "para cumplir así con la misión.$"
+
+PowerPlant_Encuentro_Petrel_Texto_2.1:
+	.string "En cuanto obtengas la pluma del AVE, y\n"
+	.string "nosotros acabemos con nuestros rivales,\l"
+	.string "nos largamos de aquí antes de que la\l"
+	.string "situación empeore, ¿entendido?$"
 
 PowerPlant_Encuentro_Petrel_Texto_3:
-.string "PETREL: Perfecto, no tenemos\n"
+.string "Perfecto, no tenemos\n"
 	.string "tiempo que perder.$"
 
 PowerPlant_Encuentro_Petrel_Move_1:
@@ -297,8 +312,11 @@ compare VAR_UNUSED_0x40F7, 70
 goto_if_gt SeafoamIslands_5F_Combate_Articuno_Derrotado
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_1 MSGBOX_DEFAULT
+waitmessage
 waitmoncry
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
+waitbuttonpress
 trainerbattle_no_intro TRAINER_ZAPDOS, PowerPlant_Combate_Zapdos_Surge_Texto_2
 playse MUS_RG_OBTAIN_KEY_ITEM
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_3 MSGBOX_DEFAULT
@@ -313,22 +331,62 @@ msgbox PowerPlant_Combate_Zapdos_Surge_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_2
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_1.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_5.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_5.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_3
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_6.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_1.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_6.3 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_FANCLUB_OLD_LADY
 trainerbattle_no_intro TRAINER_SURGE_1, PowerPlant_Combate_Zapdos_Surge_Texto_7
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_1
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_6
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_5
+waitmovement 0x0
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_10.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_11.2 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_1
 waitmovement 0x0
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_9 MSGBOX_AUTOCLOSE
-applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_5
-waitmovement 0x0
-applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_6
-waitmovement 0x0
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_10 MSGBOX_AUTOCLOSE
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_7
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_12 MSGBOX_AUTOCLOSE
@@ -340,9 +398,15 @@ delay 15
 applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_9
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_10
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_11
 waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_15 MSGBOX_AUTOCLOSE
@@ -370,6 +434,10 @@ setvar VAR_UNUSED_0x40F7, 71
 release
 end
 
+PowerPlant_Combate_Zapdos_Surge_Move_1.1:
+walk_in_place_down
+step_end
+
 PowerPlant_Combate_Zapdos_Surge_Texto_1:
 .string "¡Zap!$"
 
@@ -384,113 +452,132 @@ PowerPlant_Combate_Zapdos_Surge_Texto_4:
 .string "????: ¡¡TÚ!!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_5:
-.string "LT.SURGE: ¡Cómo te atreves a dañar\n"
-	.string "algo tan puro y sagrado como una\l"
-	.string "de nuestras 3 AVES LEGENDARIAS,\l"
-	.string "patrimonio de la región de KANTO!\l"
-	.string "¡Yo mismo me he encargado de\l"
+.string "LT.SURGE: ¡¿Cómo te atreves a dañar\n"
+	.string "algo tan puro y sagrado?!$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_5.1:
+	.string "Yo mismo me he encargado de\n"
 	.string "cuidar y darle un hogar dentro de\l"
-	.string "esta CENTRAL sin uso a ese ZAPDOS!\l"
-	.string "¡Para que ahora venga un mocoso\l"
-	.string "sin escrúpulos a deshacer mi\l"
-	.string "trabajo!\l"
-	.string "¡A ti y tus amigos os caerá la\l"
+	.string "esta CENTRAL sin uso a ese ZAPDOS.\l"
+	.string "¡Para que ahora venga un mocoso sin\l"
+	.string "escrúpulos a deshacer mi trabajo!$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_5.2:
+		.string "¡No tienes perdón!$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_5.3:
+	.string "¡A ti y a tus amigos os caerá la\n"
 	.string "pena máxima después de este\l"
 	.string "atentado contra el patrimonio\l"
 	.string "cultural de nuestra región!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_6:
-.string "LT.SURGE: Tuve que haberte\n"
-	.string "detenido directamente ese día que\l"
-	.string "pasaste por CARMÍN, ya ahí\l"
-	.string "apuntabas maneras de delincuente,\l"
-	.string "pero no te preocupes, tus POKÉMON\l"
-	.string "no podrán responder a mis fieles\l"
-	.string "eléctricos después de tu paliza\l"
-	.string "con ZAPDOS, ¿sabes por qué LANCE\l"
-	.string "me ha enviado a mi y no a otro\l"
-	.string "LÍDER?\l"
-	.string "¡Porque yo sé lo que es ganar una\l"
-	.string "guerra!$"
+.string "Debí haberte detenido ese día, cuando\n"
+	.string "te vi en CIUDAD CARMÍN por primera vez.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_6.1:
+	.string "Ya apuntabas maneras de delincuente,\n"
+	.string "pero no te preocupes, me aseguraré\l"
+	.string "de que recibes un castigo ejemplar.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_6.2:
+	.string "¿Sabes por qué LANCE me ha enviado\n"
+	.string "a mí y no a otro LÍDER de GIMNASIO?$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_6.3:
+	.string "¡Porque yo sé lo que es\n"
+	.string "ganar una guerra!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_7:
 .string "¡Tú no eres un ROCKET corriente!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_8:
-.string "LT.SURGE: Chico insolente, verás\n"
-	.string "cuando LANCE se entere de esto, ni\l"
-	.string "tú ni tu organización tenéis la\l"
-	.string "más mínima idea de las armas que\l"
-	.string "posee, como sigáis con estas\l"
-	.string "escaramuzas va a poneros a todos\l"
-	.string "de rodillas.$"
+.string "Chico insolente{PAUSE 15}…{PAUSE 15}\n"
+	.string "Verás cuando LANCE se entere de esto, ni\l"
+	.string "tú ni tu organización tenéis la más\l"
+	.string "mínima idea de las armas que posee{PAUSE 15}…{PAUSE 15}$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_8.1:
+	.string "Como sigáis con estas escaramuzas,\n"
+	.string "va a poneros a todos de rodillas.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_9:
-.string "????: Ya he oído bastante SURGE,\n"
-	.string "largo de aquí antes de que cambie\l"
-	.string "de opinión.$"
+.string "????: Ya he oído bastante, SURGE.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_9.1:
+	.string "Largo de aquí, antes de\n"
+	.string "que cambie de opinión.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_10:
-.string "ATLAS: Debería de darte vergüenza\n"
-	.string "no ser capaz con uno de los\l"
-	.string "nuestros siquiera después de\l"
-	.string "tener un encuentro legendario, los\l"
-	.string "LÍDERES DE GIMNASIO estáis de capa\l"
-	.string "caída, el acomodaros bajo el\l"
-	.string "gobierno de LANCE parece que no ha\l"
-	.string "sentado muy bien a vuestros\l"
-	.string "POKÉMON.$"
+.string "Debería de darte vergüenza, no ser\n"
+	.string "capaz con uno de los nuestros, incluso\l"
+	.string "tras tener un encuentro legendario.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_10.1:
+	.string "Los LÍDERES DE GIMNASIO estáis de capa\n"
+	.string "caída; el acomodaros bajo el gobierno\l"
+	.string "de LANCE parece que no ha sentado muy\l"
+	.string "bien a vuestros POKÉMON.$"
+
 
 PowerPlant_Combate_Zapdos_Surge_Texto_11:
-.string "LT.SURGE: Tú debes de ser ATLAS,\n"
-	.string "si, LANCE ya me advirtió de que\l"
-	.string "pudieras aparecer por aquí,\l"
-	.string "debería darte vergüenza no apoyar\l"
+.string "LT.SURGE: Tú debes de ser ATLAS{PAUSE 15}…{PAUSE 15}\n"
+	.string "Sí{PAUSE 15}…{PAUSE 15} LANCE ya me advirtió de que\l"
+	.string "podrías aparecer por aquí.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_11.1:
+	.string "Debería darte vergüenza no apoyar\n"
 	.string "a alguien de tu misma región.$"
 
+PowerPlant_Combate_Zapdos_Surge_Texto_11.2:
+	.string "ATLAS: Los actos de LANCE no representan\n"
+	.string "a JOHTO, que te quede claro.$"
+
 PowerPlant_Combate_Zapdos_Surge_Texto_12:
-.string "LT.SURGE: Disfrutad de vuestras\n"
-	.string "últimas bocanadas de libertad\l"
-	.string "antes de que os apresen a todos,\l"
-	.string "no podréis escapar eternamente.$"
+.string "LT.SURGE: ¡Qué más da!\n"
+	.string "Disfrutad de vuestras últimas bocanadas\l"
+	.string "de libertad, antes de que os apresen a\l"
+	.string "todos, no podréis huir eternamente.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_13:
 .string "ATLAS: Así que ZAPDOS y un LÍDER DE\n"
-	.string "GIMNASIO al hilo, ¿eh {PLAYER}?\l"
-	.string "Parece que después de todo\l"
-	.string "estuviste atento y asimilaste mi\l"
-	.string "discurso de bienvenida, puedo\l"
-	.string "decir que has superado cualquier\l"
-	.string "expectativa que tenía sobre tu\l"
-	.string "nivel, has demostrado una gran\l"
-	.string "lealtad al TEAM ROCKET hoy aquí.$"
+	.string "GIMNASIO al hilo, ¿eh, {PLAYER}?\l"
+	.string "Parece que, después de todo, estuviste\l"
+	.string "atento y asimilaste mi discurso de\l"
+	.string "bienvenida.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_13.1:
+	.string "Sin duda, has superado cualquier\n"
+	.string "expectativa que podría tenerse sobre\l"
+	.string "tu nivel, y demostrado una gran\l"
+	.string "lealtad al TEAM ROCKET hoy, aquí.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_14:
-.string "ATLAS: ANDRA ha vuelto a la base\n"
-	.string "ROCKET de AZULONA, y PETREL a la\l"
-	.string "de RUTA 5, después de todo lo que\l"
-	.string "ha ocurrido aquí, GIOVANNI querrá\l"
-	.string "hacer balance de todo ello\l"
-	.string "inmediatamente, deberías\l"
-	.string "presentarte en su despacho cuanto\l"
-	.string "antes, después de derrotar a dos\l"
+.string "ANDRA ha vuelto a la BASE de AZULONA,\n"
+	.string "y PETREL a la de RUTA 5.\l"
+	.string "Después de todo lo ocurrido aquí,\l"
+	.string "GIOVANNI querrá hacer balance de\l"
+	.string "inmediato.$"
+
+PowerPlant_Combate_Zapdos_Surge_Texto_14.1:
+	.string "Deberías presentarte en su despacho\n"
+	.string "cuanto antes; después de derrotar a dos\l"
 	.string "legendarios y cumplir no solo tu\l"
 	.string "misión, sino esta también, no\l"
 	.string "quiero imaginarme cómo te recibirá\l"
-	.string "nuestro líder{PAUSE 5}…{PAUSE 5}$"
+	.string "nuestro LÍDER{PAUSE 5}…{PAUSE 5}$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_15:
-.string "ATLAS: Vámonos ya {PLAYER}, este\n"
-	.string "lugar no tardará en llenarse de\l"
-	.string "policías otra vez.$"
+.string "Este lugar no tardará en llenarse\n"
+	.string "de policías otra vez.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_16:
-.string "ATLAS: Ha sido un placer combatir\n"
-	.string "hoy a tu lado.$"
+.string "Debemos irnos, hoy{PAUSE 15}…{PAUSE 15} hemos\n"
+	.string "dado un gran paso para recuperar KANTO.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_17:
-.string "(Parece que no le quedan fuerzas\n"
-	.string "para combatir).$"
+.string "-Parece que no le quedan fuerzas\n"
+	.string "para combatir.-$"
 
 PowerPlant_Combate_Zapdos_Surge_Move_1:
 emote_exclamation_mark
@@ -513,14 +600,14 @@ face_up
 step_end
 
 PowerPlant_Combate_Zapdos_Surge_Move_5:
-walk_down
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
-walk_left
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
 walk_down
 walk_down
 walk_down
@@ -530,11 +617,18 @@ walk_in_place_left
 step_end
 
 PowerPlant_Combate_Zapdos_Surge_Move_6:
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
 face_right
 step_end
 
 PowerPlant_Combate_Zapdos_Surge_Move_7:
 walk_in_place_down
+delay_16
 walk_in_place_right
 step_end
 
