@@ -1838,23 +1838,60 @@ applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_7
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_5 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_6 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_EXIT
+addobject 2
+setobjectxy 2, 9, 15
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9.3
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
+waitmovement 0x0
+delay 5
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.7
+delay 5
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9.6
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9.7
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9.7
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 addobject 5
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_8
 waitmovement 0x0
-msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
-playse SE_PIN
-applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
-waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_8 MSGBOX_AUTOCLOSE
-playse SE_BREAKABLE_DOOR
-applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_10
-waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_9 MSGBOX_AUTOCLOSE
 applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_7
 waitmovement 0x0
@@ -1874,6 +1911,12 @@ waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 removeobject 5
 playse SE_EXIT
+waitse
+playse SE_BREAKABLE_DOOR
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_13
+waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_15 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
@@ -1881,20 +1924,27 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_16 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_19 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_13
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_21 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_22 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_23 MSGBOX_AUTOCLOSE
 playse MUS_RG_OBTAIN_KEY_ITEM
 addobject ITEM_TRI_PASS
@@ -1905,6 +1955,7 @@ removeobject 6
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_24 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_25 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
@@ -1912,7 +1963,9 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_26 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_27 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_28 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_29 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
@@ -1929,6 +1982,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_31 MSGBOX_AUTOCLOSE
 delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_32 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_33 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_15
 waitmovement 0x0
@@ -1938,12 +1992,18 @@ removeobject 4
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_34 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_35 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_16
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_5.4
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_5.3
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
@@ -1951,8 +2011,23 @@ removeobject 9
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17
 waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_1
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_36 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_36.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_36.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5.2
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_37 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_37.1 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 79
 setvar VAR_ROUTE111_STATE, 1
 setvar VAR_ROUTE107_STATE, 1
@@ -1963,6 +2038,67 @@ setvar VAR_ROUTE105_STATE, 1
 release
 end
 
+RocketHideout_8F_Mision_Gimnasios_move_5.3:
+delay_8
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+face_left
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.4:
+walk_down
+face_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.1:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.2:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.6:
+emote_exclamation_mark
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.7:
+emote_exclamation_mark
+delay_8
+face_down
+delay_16
+delay_8
+face_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.3:
+emote_exclamation_mark
+face_down
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.2:
+walk_in_place_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
 RocketHideout_8F_Mision_Gimnasios_texto_1:
 .string "AZUL: Así que tú también, GIOVANNI\n"
 	.string "nos ha hecho también venir a ANDRA\l"
@@ -1972,12 +2108,11 @@ RocketHideout_8F_Mision_Gimnasios_texto_1:
 	.string "las 8.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_2:
-.string "GIOVANNI: Bien, ANDRA, {PLAYER},\n"
-	.string "AZUL, como sabéis, tenemos la\l"
-	.string "MASTER BALL en nuestro poder, con\l"
-	.string "ella podremos capturar a cualquier\l"
-	.string "POKÉMON, incluido{PAUSE 25}…{PAUSE 25}quien ya\l"
-	.string "sabéis{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: ANDRA, {PLAYER}, AZUL{PAUSE 15}…{PAUSE 15}\n"
+	.string "Como sabéis, tenemos la MASTER BALL en\l"
+	.string "nuestro poder, con ella podremos\l"
+	.string "capturar a cualquier POKÉMON.\l"
+	.string "Incluido{PAUSE 25}…{PAUSE 25} quien ya sabéis{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_3:
 .string "Más aún, gracias a las muestras de\n"
@@ -1999,68 +2134,89 @@ RocketHideout_8F_Mision_Gimnasios_texto_5:
 	.string "Nunca había oído de tal POKÉMON.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6:
-.string "GIOVANNI: Ya habrá tiempo de\n"
-	.string "ponerte al día AZUL, cuanto debes\l"
-	.string "saber ahora es que en el momento\l"
-	.string "en que sepamos su ubicación y le\l"
-	.string "demos captura, tendremos todo lo\l"
-	.string "que necesitamos para invadir la\l"
-	.string "LIGA POKÉMON y derrocar a LANCE de\l"
-	.string "una vez por todas.$"
+.string "GIOVANNI: Ya habrá tiempo de ponerte al\n"
+	.string "día, AZUL. Cuanto debes saber ahora es\l"
+	.string "que en el momento en que se confirme\l"
+	.string "su ubicación y le demos captura,\l"
+	.string "tendremos todo lo que necesitamos\l"
+	.string "para invadir la LIGA POKÉMON y derrocar\l"
+	.string "a LANCE de una vez por{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.1:
+	.string "????: Lo saben.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.2:
+	.string "GIOVANNI: PROTÓN, ¿qué ocurre?$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.3:
+	.string "Fui a seguir negociando con FUJI, tal y\n"
+	.string "como me dijo.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.4:
+	.string "Alguien ha dado el chivatazo, la\n"
+	.string "POLICÍA se presentó en su casa.\l"
+	.string "Él ha sido detenido, yo por suerte\l"
+	.string "pude escapar.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.5:
+	.string "GIOVANNI: No puede ser{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.6:
+	.string "Además, saben lo que nos traemos entre\n"
+	.string "manos con las AVES.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.7:
+	.string "Alguien les informó acerca de los\n"
+	.string "últimos avances en ingeniería genética,\l"
+	.string "y de cómo es posible clonarlas.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_7:
-.string "RECLUTA: Señor perdone que le\n"
-	.string "interrumpa, pero está en todos\l"
-	.string "lados, acaban de detener a FUJI en\l"
-	.string "su casa de PUEBLO LAVANDA, le han\l"
-	.string "acusado de colaborar con nosotros.$"
-
-RocketHideout_8F_Mision_Gimnasios_texto_8:
-.string "GIOVANNI: No puede ser{PAUSE 5}…{PAUSE 5}$"
-
-RocketHideout_8F_Mision_Gimnasios_texto_9:
 .string "Ese BLAINE{PAUSE 25}…{PAUSE 25}\n"
 	.string "Nos ha traicionado, no hay otra\l"
-	.string "explicación, trabaja para LANCE, o\l"
-	.string "peor aún, para OAK.$"
+	.string "explicación, trabaja para LANCE,\l"
+	.string "o peor aún, para OAK.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_8:
+.string "ALTO RANGO: Perdone la intromisión,\n"
+	.string "señor, pero es urgente.\l"
+	.string "El CG de la LIGA ha emitido un\l"
+	.string "comunicado, con los nuevos requisitos\l"
+	.string "para participar, cito textualmente.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_9:
+	.string "-Además de las 8 MEDALLAS DE GIMNASIO,\n"
+	.string "dado que únicamente conocemos de la\l"
+	.string "existencia de tres AVES LEGENDARIAS en\l"
+	.string "en nuestra KANTO, las cuales están\l"
+	.string "celosamente protegidas.\l"
+	.string "Estará, por tanto, terminantemente\l"
+	.string "prohibido participar con cualquiera de\l"
+	.string "estos tres POKÉMON, no solo en muestra\l"
+	.string "de respeto, sino por la imposibilidad\l"
+	.string "de su obtención por medios legales,\l"
+	.string "entendiendo que cualquier ENTRENADOR\l"
+	.string "en posesión de estos LEGENDARIOS habrá\l"
+	.string "incurrido en prácticas ilegales, que\l"
+	.string "de ningún modo aprobamos-.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_10:
-.string "RECLUTA: Eso no es todo señor, la\n"
-	.string "ÉLITE 4 ha emitido un comunicado\l"
-	.string "actualizando los requisitos para\l"
-	.string "participar en la LIGA POKÉMON,\l"
-	.string "cito textualmente:\l"
-	.string "-Además de las 8 MEDALLAS DE\l"
-	.string "GIMNASIO, dado que únicamente\l"
-	.string "conocemos de la existencia de tres\l"
-	.string "AVES LEGENDARIAS en nuestra\l"
-	.string "región, las cuales están\l"
-	.string "celosamente protegidas, estará por\l"
-	.string "tanto terminantemente prohibido\l"
-	.string "participar con cualquiera de estos\l"
-	.string "tres POKÉMON no solo en muestra de\l"
-	.string "respeto, sino por la imposibilidad\l"
-	.string "de su obtención por medios\l"
-	.string "legales, entendiendo entonces que\l"
-	.string "cualquier ENTRENADOR en posesión\l"
-	.string "de estos LEGENDARIOS habrá\l"
-	.string "incurrido en prácticas ilegales\l"
-	.string "que de ningún modo aprobamos-.$"
+	.string "GIOVANNI: Ya veo{PAUSE 15}…{PAUSE 15} aquellos que hacen\n"
+	.string "la ley, pueden moldearla a su gusto.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
-.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_12:
 .string "GIOVANNI: -Prácticas ilegales que\n"
 	.string "de ningún modo aprobamos-, tiene\l"
-	.string "gracia viniendo de ellos.$"
+	.string "gracia, viniendo de ellos.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
-.string "GIOVANNI: Gracias, puedes\n"
-	.string "retirarte.$"
+.string "Gracias, ALTO RANGO.\n"
+	.string "Puedes retirarte.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "RECLUTA: Señor{PAUSE 15}…{PAUSE 15}\n"
+.string "ALTO RANGO: Señor{PAUSE 15}…{PAUSE 15}\n"
 	.string "Ejecutivos{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
@@ -2071,9 +2227,9 @@ RocketHideout_8F_Mision_Gimnasios_texto_15:
 	.string "podría llegar a pasar?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_16:
-.string "GIOVANNI: No ANDRA, hemos de\n"
-	.string "confiar en que, al igual que OAK,\l"
-	.string "se ha guardado el secreto. LANCE\l"
+.string "GIOVANNI: No, ANDRA.\n"
+	.string "Hemos de confiar en que, al igual que\l"
+	.string "OAK, se ha guardado el secreto. LANCE\l"
 	.string "con MEWTWO en su poder sería la\l"
 	.string "mayor catástrofe en la historia de\l"
 	.string "esta región.$"
@@ -2101,7 +2257,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_20:
 .string "Reuniréis las 8 MEDALLAS DE\n"
 	.string "GIMNASIO, y partiréis hacia la\l"
 	.string "MESETA AÑIL, sin trampas, sin\l"
-	.string "atajos de LEGENDARIOS{PAUSE 25}…{PAUSE 25}usaréis los\l"
+	.string "atajos de LEGENDARIOS{PAUSE 25}…{PAUSE 25} usaréis los\l"
 	.string "POKÉMON que lleváis entrenando y\l"
 	.string "criando desde que entrásteis a\l"
 	.string "formar parte del TEAM ROCKET.$"
@@ -2145,16 +2301,14 @@ RocketHideout_8F_Mision_Gimnasios_texto_24:
 	.string "perfectamente.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_25:
-.string "ANDRA: Se olerán algo raro, y el\n"
-	.string "LT.SURGE ya nos ha visto varias\l"
-	.string "veces.$"
+.string "ANDRA: Se olerán algo raro, ¡y el\n"
+	.string "LT.SURGE ya nos ha visto varias veces!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_26:
-.string "GIOVANNI: El LT.SURGE cree que\n"
-	.string "nadie tiene posibilidad ante\l"
-	.string "LANCE, y además su código bélico\l"
-	.string "le impedirá negarle a {PLAYER} un\l"
-	.string "combate una vez esté delante suya.$"
+.string "GIOVANNI: El LT.SURGE cree que nadie\n"
+	.string "tiene posibilidad ante LANCE, y además,\l"
+	.string "su código bélico le impedirá negarle a\l"
+	.string "{PLAYER} un combate.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_27:
 .string "AZUL, ¿sabes cuantas MEDALLAS\n"
@@ -2176,12 +2330,11 @@ RocketHideout_8F_Mision_Gimnasios_texto_29:
 	.string "solución{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_30:
-.string "(GIOVANNI LE ENTREGÓ A AZUL LA\n"
-	.string "MEDALLA TIERRA).$"
+.string "-GIOVANNI LE ENTREGÓ A AZUL LA\n"
+	.string "MEDALLA TIERRA.-$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_31:
-.string "AZUL: ¿¡Usted es el último LÍDER\n"
-	.string "DE GIMNASIO!?$"
+	.string "AZUL: ¿¡Usted es el último LÍDER!?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_32:
 .string "GIOVANNI: A veces sí, a veces no,\n"
@@ -2191,18 +2344,15 @@ RocketHideout_8F_Mision_Gimnasios_texto_32:
 RocketHideout_8F_Mision_Gimnasios_texto_33:
 .string "AZUL: Con permiso, pero tengo que\n"
 	.string "prepararme a conciencia para la\l"
-	.string "LIGA POKÉMON, no le decepcionaré\l"
-	.string "GIOVANNI.$"
+	.string "LIGA POKÉMON, no le decepcionaré.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_34:
-.string "ANDRA, {PLAYER}, demostrad cuan\n"
-	.string "lejos puede llegar un ROCKET\l"
-	.string "dedicado, disciplinado y\l"
-	.string "comprometido con sus POKÉMON,\l"
-	.string "derrotad a todos los LÍDERES de\l"
-	.string "KANTO, y os daré la última MEDALLA\l"
-	.string "de igual forma que he hecho con\l"
-	.string "AZUL.$"
+.string "ANDRA, {PLAYER}{PAUSE 15}…{PAUSE 15} demostrad cuan\n"
+	.string "lejos puede llegar un ROCKET dedicado,\l"
+	.string "disciplinado y comprometido.\l"
+	.string "Derrotad a todos los LÍDERES de KANTO,\l"
+	.string "y os daré la última MEDALLA, de igual\l"
+	.string "forma que he hecho con AZUL.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_35:
 .string "ANDRA: ¡No puedo aguantar más!\n"
@@ -2212,37 +2362,39 @@ RocketHideout_8F_Mision_Gimnasios_texto_35:
 	.string "supuesta ÉLITE de la región!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_36:
-.string "GIOVANNI: Solo una entrenadora de\n"
-	.string "verdad reaccionaría así, no ve las\l"
-	.string "restricciones de la LIGA como un\l"
-	.string "problema, sino como una\l"
-	.string "oportunidad que le obligará a\l"
-	.string "mejorar mucho más, espero que tú\l"
-	.string "también afrontes este reto con el\l"
-	.string "mismo entusiasmo {PLAYER}, ándate\l"
-	.string "con cuidado, los LÍDERES DE\l"
-	.string "GIMNASIO ajustan su poder según\l"
-	.string "quien tengan enfrente, AZUL y ROJO\l"
-	.string "son protegidos de OAK, y como\l"
-	.string "tales tienen ciertos privilegios,\l"
-	.string "entre ellos poder participar en la\l"
-	.string "LIGA POKÉMON sin LICENCIA, y\l"
-	.string "enfrentar a unos LÍDERES DE\l"
-	.string "GIMNASIO algo disminuidos, pero yo\l"
-	.string "no quiero eso para ti y ANDRA.$"
+.string "GIOVANNI: Solo una entrenadora de verdad\n"
+	.string "reaccionaría así: no ve la restricción\l"
+	.string "de la LIGA como un problema, sino como\l"
+	.string "una gran oportunidad que le obligará a\l"
+	.string "mejorar mucho más.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_36.1:
+	.string "Espero que tú también afrontes este\n"
+	.string "reto con el mismo entusiasmo, {PLAYER}.\l"
+	.string "Ándatecon cuidado, los LÍDERES ajustan\l"
+	.string "su poder según quien tengan enfrente,\l"
+	.string "AZUL y ROJO son protegidos de OAK, y\l"
+	.string "como tales tienen ciertos privilegios.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_36.2:
+	.string "Entre ellos, poder participar en la\n"
+	.string "LIGA POKÉMON sin LICENCIA, y enfrentar\l"
+	.string "a unos LÍDERES algo disminuidos, pero\l"
+	.string "yo no quiero eso para vosotros.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37:
 .string "Desde la misma entrega de vuestro\n"
-	.string "inicial habéis pasado por todo\l"
+	.string "inicial, habéis pasado por todo\l"
 	.string "tipo de dificultades, todo lo que\l"
-	.string "tenéis lo habéis obtenido por\l"
-	.string "méritos propios, sabéis cuál es la\l"
-	.string "verdadera cara de esta región, y\l"
-	.string "os habéis visto obligados a\l"
-	.string "adaptaros a ella, eso os da una\l"
-	.string "ventaja y una fortaleza que no\l"
-	.string "pueden comprarse, ¡ve y\l"
-	.string "muéstraselo a todos!$"
+	.string "tenéis lo habéis obtenido por méritos\l"
+	.string "propios, sabéis cuál es la verdadera\l"
+	.string "cara de esta región porque os habéis\l"
+	.string "visto obligados a adaptaros a ella.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_37.1:
+	.string "Eso{PAUSE 15}…{PAUSE 15} en conjunto{PAUSE 15}…{PAUSE 15} os da\n"
+	.string "ventaja y una fortaleza que no puede\l"
+	.string "comprarse, ¡ve y muéstraselo a todos!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
 walk_up
@@ -2295,8 +2447,6 @@ walk_up
 walk_up
 walk_up
 walk_up
-walk_up
-walk_up
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_9:
@@ -2333,9 +2483,9 @@ face_left
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_15:
+walk_down
+walk_down
 walk_right
-walk_down
-walk_down
 walk_down
 walk_down
 walk_down
@@ -2346,17 +2496,17 @@ step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_16:
 walk_down
-walk_right
-walk_right
-walk_right
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_17:

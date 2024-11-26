@@ -71,6 +71,8 @@ CinnabarIslandDocumento_Text_102:
 
 
 Cinnabar_Island_Gimnasio_Cerrado::
+compare VAR_UNUSED_0x40F8, 9
+goto_if_eq CinnabarIsland_Oak
 compare VAR_ROUTE105_STATE, 3
 goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
 compare VAR_ROUTE108_STATE, 3
@@ -143,12 +145,10 @@ CinnabarIsland_Oak::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, CinnabarIsland_Oak_Move_1
 waitmovement 0x0
-delay 15
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, CinnabarIsland_Oak_Move_2
 waitmovement 0x0
 waitse
-delay 15
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_8
 addobject 3
 playse SE_SLIDING_DOOR

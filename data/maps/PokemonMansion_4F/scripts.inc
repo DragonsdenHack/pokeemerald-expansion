@@ -80,6 +80,14 @@ playse SE_BREAKABLE_DOOR
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4.1
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_2
+waitmovement 0x0
+waitse
+delay 10
+msgbox PokemonMansion_4F_Blaine_Fuji_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_5 MSGBOX_AUTOCLOSE
@@ -92,19 +100,25 @@ applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_6
 waitmovement 0x0
 delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_7 MSGBOX_AUTOCLOSE
-applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4
+delay 15
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4.2
 waitmovement 0x0
+delay 15
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_1
 waitmovement 0x0
+delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
+delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_10 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
-fadescreen 1
 playmoncry SPECIES_MAGMAR, CRY_MODE_ENCOUNTER
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_12 MSGBOX_AUTOCLOSE
 waitmoncry
@@ -112,7 +126,6 @@ delay 20
 removeobject 8
 playse SE_WARP_IN
 waitse
-fadescreen 0
 delay 25
 applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
@@ -137,7 +150,8 @@ applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_15 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
 clearflag FLAG_HOENN_76
@@ -164,6 +178,7 @@ clearflag FLAG_HOENN_646
 clearflag FLAG_HOENN_647
 clearflag FLAG_HOENN_648
 clearflag FLAG_HOENN_649
+delay 20
 setvar VAR_UNUSED_0x40F7, 76
 release
 end
@@ -176,27 +191,28 @@ PokemonMansion_4F_Blaine_Fuji_Texto_1:
 	.string "capturarlo y pondremos fin a esto!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_2:
-.string "BLAINE: No es tan sencillo FUJI,\n"
+.string "BLAINE: No es tan sencillo, FUJI.\n"
 	.string "OAK también sabe lo de MEWTWO,\l"
 	.string "¿crees que no le dirá a LANCE que\l"
-	.string "el TEAM ROCKET trama algo en\l"
-	.string "cuanto presienta que va tras\l"
-	.string "nuestra creación?\l"
+	.string "el TEAM ROCKET trama algo en cuanto\l"
+	.string "presienta que va tras él?\l"
 	.string "Además, tenía entendido que la\l"
 	.string "invasión a SILPH fue un fracaso.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_3:
 .string "FUJI: Eso es lo que han hecho\n"
-	.string "creer a los medios, uno de los\l"
-	.string "EJECUTIVOS ROCKET, PROTÓN, me ha\l"
-	.string "informado de lo que acaba de\l"
-	.string "ocurrir allí, al parecer GIOVANNI\l"
-	.string "ha convencido al PRESIDENTE de\l"
-	.string "rebelarse contra LAN{PAUSE 5}…{PAUSE 5}$"
+	.string "creer a los medios.\l"
+	.string "Un EJECUTIVO ROCKET, PROTÓN, me ha\l"
+	.string "informado de lo que acaba de ocurrir\l"
+	.string "allí.\l"
+	.string "Al parecer, GIOVANNI ha convencido al\l"
+	.string "PRESIDENTE de rebelarse contra LAN…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
-.string "BLAINE: ¡Ilusos!\n"
-	.string "¿Creéis que un LEGENDARIO basta\l"
+.string "BLAINE: ¡Ilusos!$"
+
+PokemonMansion_4F_Blaine_Fuji_Texto_4.1:
+	.string "¿Creéis que un LEGENDARIO basta\n"
 	.string "para detener a LANCE?\l"
 	.string "¿Te tengo que recordar los\l"
 	.string "destrozos que causó usando tres?\l"
@@ -214,12 +230,12 @@ PokemonMansion_4F_Blaine_Fuji_Texto_4:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_5:
 .string "BLAINE: Todo el que quiera\n"
-	.string "revelarse contra LANCE ahora mismo\l"
-	.string "es un suicida, cuenta con\l"
-	.string "demasiado poder a pesar de\l"
-	.string "desconocer la existencia de\l"
-	.string "MEWTWO, ha hecho honor a su fama\l"
-	.string "de ENTRENADOR de POKÉMON SAGRADOS.$"
+	.string "revelarse contra LANCE, a día de hoy,\l"
+	.string "es un suicida, cuenta con demasiado\l"
+	.string "poder, a pesar de desconocer la\l"
+	.string "existencia de MEWTWO.\l"
+	.string "Ha hecho honor a su fama de\l"
+	.string "ENTRENADOR de POKÉMON SAGRADOS.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_6:
 .string "FUJI: GIOVANNI cuenta con\n"
@@ -227,25 +243,22 @@ PokemonMansion_4F_Blaine_Fuji_Texto_6:
 	.string "de KANTO también BLAINE, puede que\l"
 	.string "no tengamos una ocasión como esta\l"
 	.string "en mucho tiempo, siempre has sido\l"
-	.string "alguien con el que se puede\l"
-	.string "razonar, ¿qué te frena a\l"
-	.string "intentarlo?$"
+	.string "alguien con el que se puede razonar.\l"
+	.string "¿Qué te frena a intentarlo?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_7:
-.string "BLAINE: Así que las AVES\n"
-	.string "LEGENDARIAS también{PAUSE 5}…{PAUSE 5}$"
+.string "BLAINE: Así que las AVES{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_8:
-.string "BLAINE: Veré qué puedo hacer FUJI,\n"
-	.string "vuelve a PUEBLO LAVANDA, no es\l"
+.string "Veré qué puedo hacer, FUJI.\n"
+	.string "Vuelve a PUEBLO LAVANDA, no es\l"
 	.string "recomendable que te vean por aquí,\l"
-	.string "podrían sospechar, dos\l"
-	.string "ex-científicos como nosotros\l"
-	.string "reunidos{PAUSE 5}…{PAUSE 5}$"
+	.string "podrían sospechar: dos ex-científicos\l"
+	.string "como nosotros reunidos{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_9:
 .string "FUJI: ¡Por fin has entrado en\n"
-	.string "razón BLAINE, verás como GIOVANNI\l"
+	.string "razón, verás como GIOVANNI\l"
 	.string "podrá poner fin a todo esto!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
@@ -304,6 +317,15 @@ step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_4.1:
 walk_in_place_right
+step_end
+
+PokemonMansion_4F_Blaine_Fuji_Move_4.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
 step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_5:

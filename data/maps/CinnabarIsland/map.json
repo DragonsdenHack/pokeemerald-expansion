@@ -123,8 +123,8 @@
     },
     {
       "type": "trigger",
-      "x": 20,
-      "y": 5,
+      "x": 19,
+      "y": 2,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "9",

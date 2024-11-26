@@ -151,6 +151,16 @@ applymovement 7, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5
 waitmovement 0x0
 msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_15 MSGBOX_NPC
 msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16 MSGBOX_NPC
+delay 10
+msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.1 MSGBOX_NPC
+delay 10
+playse SE_PIN
+applymovement 7, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5
+waitmovement 0x0
+waitse
+delay 10
+msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.2 MSGBOX_NPC
+delay 10
 msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_17 MSGBOX_NPC
 applymovement 8, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_11
 waitmovement 0x0
@@ -356,8 +366,17 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16:
 	.string "Vamos a disfrutar mucho en el\l"
 	.string "interrogatorio.$"
 
+LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.1:
+	.string "Dime. El ZAPDOS de la CENTRAL ENERGÍA\n"
+	.string "sigue allí, a pesar de que pudísteis\l"
+	.string "haberlo atrapado.$"
+
+LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.2:
+	.string "¿Por qué?$"
+
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_17:
-.string "PROTÓN: No vamos a ir a ninguna parte.$"
+	.string "PROTÓN: No es de tu incumbencia, SURGE.\n"
+	.string "Y no vamos a ir a ninguna parte.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_18:
 .string "LT.SURGE: Vuestro error es pensar que\n"
@@ -370,9 +389,8 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 .string "PROTÓN: ¡SLOWBRO! ¡TELETRANSPORTE!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
-.string "LT.SURGE: Maldito{PAUSE 25}…{PAUSE 25} un ROCKET con un\n"
-	.string "SLOWBRO, seguro que ni siquiera es de\l"
-	.string "KANTO.$"
+.string "LT.SURGE: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
+	.string "Creo que sé por qué.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 .string "Tú no escaparás FUJI, una pena que\n"

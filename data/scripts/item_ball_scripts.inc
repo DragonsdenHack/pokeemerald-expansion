@@ -567,7 +567,7 @@ SeafloorCavern_Room9_EventScript_ItemTM26::
 	end
 
 Route110_TrickHousePuzzle1_EventScript_ItemOrangeMail::
-	finditem ITEM_ORANGE_MAIL
+	finditem ITEM_TM26
 	end
 
 Route110_TrickHousePuzzle2_EventScript_ItemHarborMail::

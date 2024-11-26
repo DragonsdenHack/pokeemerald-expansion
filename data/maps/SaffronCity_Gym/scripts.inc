@@ -964,9 +964,9 @@ Cinnabar_Island_Gym_Guy_Texto_1:
 Cinnabar_Island_Gym_Guy_Texto_2:
 .string "No sé porqué, pero contigo ha usado un\n"
 	.string "equipo más potente que contra un\l"
-	.string "chaval que paso por aquí hace no\l"
-	.string "mucho. Pero aún así, ¡has ganado a esa\l"
-	.string "antorcha con patas!$"
+	.string "chaval que pasó por aquí hace no\l"
+	.string "mucho. Pero aún así, ¡has ganado a\l"
+	.string "esa antorcha con patas!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1:
 .string "¡Ja!\p"

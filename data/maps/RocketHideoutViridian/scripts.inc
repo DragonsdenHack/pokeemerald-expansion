@@ -441,8 +441,9 @@ clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
 setflag FLAG_BADGE08_GET
 setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 fadescreen 1
-delay 20
+delay 10
 removeobject 1
+delay 10
 addobject 18
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 89
@@ -503,7 +504,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_7:
 	.string "hace crecer, menos placentera pero\l"
 	.string "donde se dan las cosas más\l"
 	.string "importantes, por eso estás aquí\l"
-	.string "hoy {PLAYER}.$"
+	.string "hoy, {PLAYER}.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_8:
 .string "No esperes un trato justo e igual\n"
@@ -557,11 +558,10 @@ RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "fácilmente{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:
-.string "Vuelvo a ISLA INTA {PLAYER}, tal\n"
-	.string "vez tengas oportunidad de volver\l"
-	.string "por allí tu también algún día,\l"
-	.string "informaré a GIOVANNI de tu\l"
-	.string "victoria aquí.$"
+.string "Vuelvo a ISLA INTA, {PLAYER}.\n"
+	.string "Tal vez tengas oportunidad de volver\l"
+	.string "por allí algún día; informaré a\l"
+	.string "GIOVANNI de tu victoria aquí.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_15:
 .string "Juega bien tus cartas.$"
