@@ -243,10 +243,12 @@ Base_Profunda_Mercado_Ejecutivos_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_Ejecutivos_Pokemart:
-    .2byte 794
-    .2byte 612
-	.2byte 618
-	.2byte 32
+	.2byte 102
+	.2byte 103
+    .2byte 104
+    .2byte 608
+	.2byte 620
+	.2byte 621
 	.2byte ITEM_NONE
 	release
 	end
@@ -275,7 +277,7 @@ RocketHideout_5F_2_Cartel_Texto_1:
 	.string "ZONA VIP EXCLUSIVA PARA EJECUTIVOS.$"
 
 RocketHideout_5F_2_Llave::
-compare VAR_UNUSED_0x40F7, 78
+compare VAR_UNUSED_0x40F7, 71
 goto_if_gt RocketHideout_5F_2_Despues
 delay 10
 msgbox RocketHideout_5F_2_Texto_1 MSGBOX_AUTOCLOSE

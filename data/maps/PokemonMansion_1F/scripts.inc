@@ -719,8 +719,7 @@ PokemonMansion_1F_Ladrones_Texto_26:
 	.string "CARAMELOSRAROS!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
-.string "¡¡{PLAYER} OBTUVO UN CHARMANDER AL\n"
-	.string "NV:5!!$"
+.string "¡¡OBTUVISTE UN CHARMANDER AL NV.5!!$"
 
 PokemonMansion_1F_Ladrones_Texto_28:
 .string "¡¡NO!!\n"

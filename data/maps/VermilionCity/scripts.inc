@@ -920,8 +920,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_5:
 	.string "HITMONLEE!$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_6:
-.string "¡¡OBTUVISTE UN HITMONLEE AL\n"
-	.string "NV:20!!$"
+.string "¡¡OBTUVISTE UN HITMONLEE AL NV.20!!$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_7:
 .string "Es uno de los POKÉMON LUCHA más\n"

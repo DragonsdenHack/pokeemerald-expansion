@@ -266,6 +266,7 @@ playse MUS_RG_ENCOUNTER_RIVAL
 applymovement 1, Silph_7F_Encuentro_Azul_Move_3
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_4
 waitmovement 0x0
@@ -273,24 +274,51 @@ msgbox Silph_7F_Encuentro_Azul_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_4
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_5
 waitmovement 0x0
 playse MUS_RG_SILPH
 msgbox Silph_7F_Encuentro_Azul_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_7F_Encuentro_Azul_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Silph_7F_Encuentro_Azul_Move_6
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Silph_7F_Encuentro_Azul_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Silph_7F_Encuentro_Azul_Move_6.1
+waitmovement 0x0
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_7
 waitmovement 0x0
 setflag FLAG_HIDE_FANCLUB_BOY
 clearflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+removeobject 1
+addobject 12
 setvar VAR_UNUSED_0x40F7, 74
 release
 end
+
+Silph_7F_Encuentro_Azul_Move_6.1:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 Silph_7F_Encuentro_Azul_Move_1:
 face_down
@@ -338,6 +366,10 @@ walk_up
 walk_in_place_right
 step_end
 
+Silph_7F_Encuentro_Azul_Move_2.2:
+emote_exclamation_mark
+step_end
+
 Silph_7F_Encuentro_Azul_Move_3:
 walk_left
 walk_left
@@ -364,73 +396,67 @@ walk_in_place_up
 step_end
 
 Silph_7F_Encuentro_Azul_Texto_1:
-.string "AZUL: ¡Así que estabas aquí\n"
-	.string "{PLAYER}!$"
+.string "¡Así que estabas aquí, {PLAYER}!$"
 
 Silph_7F_Encuentro_Azul_Texto_2:
-.string "GIOVANNI me ha enviado también a\n"
-	.string "AZAFRÁN, quiere que sobre todo le\l"
-	.string "mantenga informado de la ubicación\l"
-	.string "de ROJO, vamos a tenderle una\l"
-	.string "trampa, seguro que el muy torpe\l"
-	.string "picará creyendo que es el más\l"
-	.string "listo de la clase, escucha.$"
+.string "GIOVANNI me ha enviado también a SILPH,\n"
+	.string "quiere que sobre todo le mantenga\l"
+	.string "informado de la ubicación de ROJO.\l"
+	.string "Vamos a tenderle una trampa, y\l"
+	.string "seguro que caerá, creyendo que es\l"
+	.string "el más listo de la clase, escucha.$"
 
 Silph_7F_Encuentro_Azul_Texto_3:
-.string "ANDRA y yo hemos podido sacarles 2\n"
-	.string "LLAVES MAGNÉTICAS a los\l"
-	.string "trabajadores de SILPH, sin estos\l"
-	.string "objetos ROJO no podrá acercarse a\l"
-	.string "la reunión entre GIOVANNI y el\l"
-	.string "PRESIDENTE hasta que nosotros\l"
-	.string "queramos…{PAUSE 5}$"
+.string "ANDRA y yo hemos logrado sacar 2\n"
+	.string "LLAVES MAGNÉTICAS a los trabajadores\l"
+	.string "de SILPH, sin estos objetos, ROJO no\l"
+	.string "podrá acercarse a la reunión entre\l"
+	.string "GIOVANNI y el PRESIDENTE, no hasta\l"
+	.string "que nosotros queramos{PAUSE 15}…{PAUSE 15}$"
 
 Silph_7F_Encuentro_Azul_Texto_4:
 .string "El plan es mantener estas llaves a\n"
-	.string "buen recaudo hasta que me des la\l"
-	.string "señal de que GIOVANNI ya le ha\l"
-	.string "dicho todo lo que tenía que decir\l"
-	.string "al PRESIDENTE.$"
+	.string "buen recaudo, al menos hasta que\l"
+	.string "GIOVANNI ya le haya dicho todo lo que\l"
+	.string "tenga que decirle al PRESIDENTE.$"
 
 Silph_7F_Encuentro_Azul_Texto_5:
 .string "Después, volveremos a cerrar las\n"
-	.string "puertas y dejaremos una de las\l"
-	.string "LLAVES MAGNÉTICAS tiradas por\l"
-	.string "SILPH.$"
+	.string "puertas y dejaremos una LLAVE\l"
+	.string "MAGNÉTICA tirada por SILPH.$"
 
 Silph_7F_Encuentro_Azul_Texto_6:
 .string "Ese metomentodo de ROJO seguro que\n"
-	.string "acabará encontrándola, es\l"
-	.string "especialista en recoger objetos\l"
-	.string "ajenos y meterse donde no le\l"
-	.string "llaman, entonces, nos hará el\l"
-	.string "favor de llegar hasta GIOVANNI\l"
-	.string "para este fingir su miserable\l"
-	.string "derrota, el muy torpe pensará que\l"
-	.string "ha vencido, y créeme que lo hará,\l"
-	.string "está acostumbrado a pelear con\l"
-	.string "adversarios mucho peores que el ya\l"
-	.string "de por si mediocre equipo que\l"
-	.string "traerá GIOVANNI aquí a SILPH,\l"
-	.string "dejaremos también a los ROCKET\l"
-	.string "más débiles para aumentar el\l"
-	.string "contraste de nivel.$"
+	.string "acabará encontrándola.\l"
+	.string "Es especialista en recoger objetos\l"
+	.string "ajenos y meterse donde no le llaman.\l"
+	.string "Entonces, nos hará el favor de llegar\l"
+	.string "hasta GIOVANNI, que fingirá su derrota.$"
+
+Silph_7F_Encuentro_Azul_Texto_6.1:
+	.string "El muy torpe pensará que ha vencido, y\n"
+	.string "créeme que lo hará: está acostumbrado\l"
+	.string "a pelear con adversarios mucho peores,\l"
+	.string "GIOVANNI como mucho será un poco más\l"
+	.string "fuerte de lo habitual.\l"
+	.string "Dejaremos también a los ROCKET más\l"
+	.string "débiles, y así aumentar el contraste\l"
+	.string "de nivel.$"
 
 Silph_7F_Encuentro_Azul_Texto_7:
 .string "Después de esto, tendréis lo que\n"
-	.string "queréis y yo podré seguir con mis\l"
+	.string "queréis, y yo podré seguir con mis\l"
 	.string "planes de ser el nuevo CAMPEÓN.$"
 
 Silph_7F_Encuentro_Azul_Texto_8:
-.string "No os preocupéis ROCKETS, nada os\n"
-	.string "vendría mejor que tener a un\l"
-	.string "CAMPEÓN afín a vosotros en lugar\l"
-	.string "de LANCE, ¿no?$"
+.string "No os preocupéis, ROCKET.\n"
+	.string "Nada os vendría mejor que tener a un\l"
+	.string "CAMPEÓN afín a vosotros, en lugar de\l"
+	.string "tener a LANCE o ROJO, ¿no?$"
 
 Silph_7F_Encuentro_Azul_Texto_9:
-.string "Si todo sale bien, esta región\n"
-	.string "puede dar muchos cambios muy\l"
-	.string "pronto.$"
+.string "Si todo sale bien, esta región puede\n"
+	.string "dar muchos cambios, muy pronto.$"
 
 Silph_7F_Encuentro_Azul_Texto_10:
 .string "No te entretengo más {PLAYER},\n"
@@ -447,7 +473,6 @@ Silph_7F_Encuentro_Azul_Texto_10:
 
 
 Silph7F_12_Texto_1:
-	.string "AZUL: Date prisa {PLAYER}, y\n"
+	.string "AZUL: Date prisa, {PLAYER}, y\n"
 	.string "derrota lo que queda de seguridad\l"
 	.string "antes de que llegue GIOVANNI.$"
-

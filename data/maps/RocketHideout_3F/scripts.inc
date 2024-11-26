@@ -108,7 +108,7 @@ msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_1.1
 waitmovement 0x0
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-additem 772
+additem ITEM_LIFT_KEY
 msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE

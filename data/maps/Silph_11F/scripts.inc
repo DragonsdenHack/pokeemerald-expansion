@@ -145,10 +145,18 @@ playse SE_PIN
 applymovement 8, Silph_11F_Bill_Presidente_Move_10
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Silph_11F_Bill_Presidente_Move_10.1
+waitmovement 0x0
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 8, Silph_11F_Bill_Presidente_Move_11
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_9.2 MSGBOX_AUTOCLOSE
 delay 30
 playse SE_WARP_OUT
 delay 30
@@ -158,6 +166,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_3
 applymovement 8, Silph_11F_Bill_Presidente_Move_3
 waitmovement 0x0
+waitse
 clearflag FLAG_HIDE_ROUTE_119_SCOTT
 addobject 7
 addobject 9
@@ -174,12 +183,29 @@ msgbox Silph_11F_Bill_Presidente_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 9, Silph_11F_Bill_Presidente_Move_13
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 8, Silph_11F_Bill_Presidente_Move_14
 waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 9, Silph_11F_Bill_Presidente_Move_15
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 9, Silph_11F_Bill_Presidente_Move_15.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_3
+applymovement 8, Silph_11F_Bill_Presidente_Move_3
+waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 9, Silph_11F_Bill_Presidente_Move_16
 waitmovement 0x0
@@ -187,10 +213,34 @@ msgbox Silph_11F_Bill_Presidente_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 9, Silph_11F_Bill_Presidente_Move_15
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 9, Silph_11F_Bill_Presidente_Move_15.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_18.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Silph_11F_Bill_Presidente_Move_14
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 8, Silph_11F_Bill_Presidente_Move_14
+waitmovement 0x0
+waitse
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 8, Silph_11F_Bill_Presidente_Move_3
+waitmovement 0x0
+waitse
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Silph_11F_Bill_Presidente_Move_16
 applymovement 7, Silph_11F_Bill_Presidente_Move_17
 waitmovement 0x0
@@ -206,16 +256,37 @@ waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_119_SCOTT
 setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 msgbox Silph_11F_Bill_Presidente_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_24.1 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_BILL_2, Silph_11F_Bill_Presidente_Texto_25
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_25.1 MSGBOX_AUTOCLOSE
+delay 10
+playmoncry SPECIES_URSARING, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 30
+playse SE_M_CUT
+waitse
+playse SE_SUPER_EFFECTIVE
+applymovement 7, Silph_11F_Bill_Presidente_Move_18.1
+waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_26 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_27 MSGBOX_AUTOCLOSE
 applymovement 9, Silph_11F_Bill_Presidente_Move_16
-applymovement 7, Silph_11F_Bill_Presidente_Move_17
+applymovement 7, Silph_11F_Bill_Presidente_Move_17.1
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Silph_11F_Bill_Presidente_Move_15
 waitmovement 0x0
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_29.1 MSGBOX_AUTOCLOSE
+delay 10
 fadescreen 1
 delay 20
 removeobject 7
@@ -228,8 +299,15 @@ applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_20
 applymovement 8, Silph_11F_Bill_Presidente_Move_20
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_30 MSGBOX_AUTOCLOSE
-msgbox Silph_11F_Bill_Presidente_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_30.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_30.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_32 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_32.1 MSGBOX_AUTOCLOSE
+delay 10
 showmoneybox 0, 0
 msgbox Silph_11F_Bill_Presidente_Texto_33 MSGBOX_AUTOCLOSE
 applymovement 3, Silph_11F_Bill_Presidente_Move_21
@@ -251,7 +329,12 @@ givemon SPECIES_PORYGON, 40, ITEM_UPGRADE
 waitfanfare
 delay 20
 msgbox Silph_11F_Bill_Presidente_Texto_37 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 3, Silph_11F_Bill_Presidente_Move_21.1
+waitmovement 0x0
+delay 10
+msgbox Silph_11F_Bill_Presidente_Texto_37.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_11F_Bill_Presidente_Texto_37.1 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 3, Silph_11F_Bill_Presidente_Move_24
@@ -280,6 +363,39 @@ setvar VAR_UNUSED_0x40F7, 75
 warpsilent MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
 end
+
+Silph_11F_Bill_Presidente_Move_21.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+Silph_11F_Bill_Presidente_Move_18.1:
+lock_facing_direction
+walk_fast_left
+walk_fast_left
+unlock_facing_direction
+step_end
+
+Silph_11F_Bill_Presidente_Move_15.1:
+walk_in_place_right
+step_end
+
+Silph_11F_Bill_Presidente_Move_10.1:
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+face_player
+delay_8
+step_end
 
 Silph_11F_Bill_Presidente_Texto_1:
 .string "????: ¿Quién anda ahí?$"
@@ -350,186 +466,185 @@ Silph_11F_Bill_Presidente_Texto_3:
 	.string "ROCKET, si solo{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_4:
-.string "????: Ahórrese sus técnicas\n"
-	.string "persuasivas con {PLAYER}\l"
-	.string "PRESIDENTE, es conmigo con quién\l"
-	.string "tiene que hablar.$"
+.string "????: Ahórrese sus técnicas persuasivas\n"
+	.string "con {PLAYER}, PRESIDENTE.\l"
+	.string "Es conmigo con quién tiene que hablar.$"
 
 Silph_11F_Bill_Presidente_Texto_5:
-.string "GIOVANNI: ¡Gran trabajo {PLAYER}!\n"
-	.string "Todo va según lo planeado, lo\l"
-	.string "único que ahora necesito es tiempo\l"
-	.string "para hablar con el PRESIDENTE,\l"
-	.string "ANDRA está justo abajo, se ha\l"
-	.string "encargado de escoltarme\l"
-	.string "personalmente hasta aquí, ambos\l"
-	.string "haréis guardia hasta que esta\l"
-	.string "pequeña reunión de negocios\l"
-	.string "termine.$"
+.string "GIOVANNI: ¡Gran trabajo, {PLAYER}!\n"
+	.string "Todo va según lo planeado, lo único que\l"
+	.string "ahora necesito es tiempo para hablar con\l"
+	.string "el PRESIDENTE.\l"
+	.string "ANDRA está justo abajo, se ha encargado\l"
+	.string "de escoltarme personalmente hasta aquí,\l"
+	.string "ambos haréis guardia, hasta que esta\l"
+	.string "pequeña reunión de negocios termine.$"
 
 Silph_11F_Bill_Presidente_Texto_5.1:
 .string "Te necesito en plena forma, deja que\n"
 	.string "cure a tu equipo.$"
 
 Silph_11F_Bill_Presidente_Texto_6:
-.string "Y ahora, señor PRESIDENTE, digame,\n"
-	.string "¿qué opina de la forma en que esta\l"
-	.string "región se ha llevado en los\l"
-	.string "últimos años?\l"
-	.string "¿Y si le dijera que hay\l"
-	.string "alternativa, un cambio por el cual\l"
-	.string "todos podemos salir beneficiados,\l"
-	.string "desde usted y su empresa, a\l"
-	.string "nosotros, y toda la población?\l"
-	.string "Verá{PAUSE 15}…{PAUSE 15}$"
+.string "Y ahora, señor PRESIDENTE, digame.\n"
+	.string "¿Qué opina de la forma en que esta\l"
+	.string "región se ha llevado en los últimos\l"
+	.string "años?\l"
+	.string "¿Y si le dijera que hay alternativa, un\l"
+	.string "cambio por el cual todos podemos salir\l"
+	.string "beneficiados?\l"
+	.string "Desde usted y su empresa, a nosotros, y\l"
+	.string "toda la población de KANTO, verá{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_7:
 .string "ANDRA: ¡Hey, {PLAYER}!\n"
-	.string "¡Esta vez te me has adelantado,\l"
-	.string "los policías de SILPH tienen un\l"
-	.string "nivel parecido a nuestros ALTOS\l"
-	.string "RANGOS después de todo!\l"
+	.string "¡Esta vez te me has adelantado, la\l"
+	.string "policía de SILPH tiene un nivel parecido\l"
+	.string "a nuestros ALTO RANGO, después de todo!\l"
 	.string "No me ha sido fácil encontrar a un\l"
 	.string "empleado con una LLAVE MAGNÉTICA,\l"
-	.string "pero parece que tenemos hasta 3\l"
-	.string "contando la tuya, de sobra para\l"
-	.string "nuestro plan de evasión de ese\l"
-	.string "ROJO{PAUSE 15}…{PAUSE 15}$"
+	.string "pero parece que, con la tuya, ya tenemos\l"
+	.string "hasta 3: de sobra para nuestro plan de\l"
+	.string "evasión anti ROJO{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_8:
 .string "Míranos, hemos pasado de buscar\n"
-	.string "FÓSILES en el MT.MOON a ser\l"
+	.string "FÓSILES en el MT.MOON, a ser\l"
 	.string "EJECUTIVOS ROCKET, con la plena\l"
 	.string "confianza de GIOVANNI al punto de\l"
 	.string "estar aquí, asegurándonos de que\l"
 	.string "nadie interrumpa una reunión vital\l"
-	.string "para el futuro de todo el TEAM\l"
-	.string "ROCKET.$"
+	.string "para el futuro de toda una región.$"
 
 Silph_11F_Bill_Presidente_Texto_9:
 .string "¿Sabes qué?\n"
 	.string "Después de que esta misión acabe,\l"
-	.string "creo que visitaré ISLA CANELA, es\l"
-	.string "el único lugar, junto a la LIGA\l"
+	.string "creo que visitaré ISLA CANELA.\l"
+	.string "Es el único lugar, junto a la LIGA\l"
 	.string "POKÉMON, que aún no he explorado\l"
-	.string "de la región, supuestamente allí\l"
-	.string "se encuentra esa MANSIÓN POKÉMON\l"
-	.string "donde crearon a ese MEWTWO.\l"
-	.string "¿De verdad será el POKÉMON más\l"
-	.string "fuerte que existe, crees que\l"
-	.string "GIOVANNI tiene realmente idea de\l"
-	.string "dónde está?$"
+	.string "de KANTO.$"
+
+Silph_11F_Bill_Presidente_Texto_9.1:
+	.string "Allí se encuentra la MANSIÓN POKÉMON,\n"
+	.string "el lugar donde crearon a ese MEWTWO.\l"
+	.string "¿De verdad será el POKÉMON más fuerte\l"
+	.string "que existe?$"
+
+Silph_11F_Bill_Presidente_Texto_9.2:
+	.string "¿Crees que GIOVANNI tiene realmente\n"
+	.string "idea de dónde está?$"
 
 Silph_11F_Bill_Presidente_Texto_10:
-.string "MIGUEL: Vaya vaya, así que\n"
-	.string "EJECUTIVO ROCKET, ¿eh {PLAYER}?\l"
+.string "MIGUEL: Vaya, vaya{PAUSE 15}…{PAUSE 15}\n"
+	.string "Así que EJECUTIVO ROCKET, ¿eh, {PLAYER}?\l"
 	.string "No te han ido mal las cosas desde\l"
-	.string "entonces, como puedes ver a mi\l"
+	.string "entonces, como puedes ver, a mi\l"
 	.string "tampoco.$"
 
 Silph_11F_Bill_Presidente_Texto_11:
 .string "????: Buen trabajo, tendrás tu\n"
-	.string "ÁMBAR VIEJO tal como te prometi.$"
+	.string "ÁMBAR VIEJO, tal y como te prometi.$"
 
 Silph_11F_Bill_Presidente_Texto_12:
-.string "BILL: Volvemos a vernos {PLAYER},\n"
-	.string "admito que te subestimé la primera\l"
-	.string "vez que entraste por la fuerza a\l"
-	.string "mi casa en RUTA 25, pensé que eras\l"
+.string "BILL: Volvemos a vernos, {PLAYER}.\n"
+	.string "Admito que te subestimé la primera\l"
+	.string "vez que entraste por la fuerza, en\l"
+	.string "mi casa en RUTA 25. Pensé que eras\l"
 	.string "otro pobre RECLUTA sin más{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Texto_13:
-.string "Sin embargo, tu error es pensar\n"
-	.string "que un ROCKET, sea quien sea,\l"
-	.string "tiene posibilidades ante BILL, el\l"
-	.string "mayor coleccionista de POKÉMON del\l"
-	.string "mundo.$"
+.string "Sin embargo, tu error es creer que un\n"
+	.string "ROCKET, sea del rango que sea, tiene\l"
+	.string "posibilidades ante BILL, el mayor\l"
+	.string "coleccionista del mundo.$"
 
 Silph_11F_Bill_Presidente_Texto_14:
-.string "ANDRA: ¡Solo eres un niño mimado\n"
-	.string "al que le han dado todo en\l"
-	.string "herencia, puedes comprar las\l"
-	.string "herramientas, pero no la mente y\l"
-	.string "el corazón de un verdadero\l"
-	.string "entrenador, sin eso jamás\l"
-	.string "derrotarás a alguien como {PLAYER}!$"
+.string "ANDRA: ¡Solo eres un niño mimado!\n"
+	.string "Podrás comprar las herramientas, pero no\l"
+	.string "la mente ni el corazón de un verdadero\l"
+	.string "ENTRENADOR. Sin eso, ¡jamás derrotarás\l"
+	.string "a alguien como {PLAYER}!$"
 
 Silph_11F_Bill_Presidente_Texto_15:
-.string "BILL: Chica insolente, no he\n"
-	.string "venido hasta aquí para\l"
-	.string "intercambiar palabra con una\l"
-	.string "ROCKET más del montón con POKÉMON\l"
-	.string "de clase baja más del montón, he\l"
-	.string "venido hasta aquí para exigirle al\l"
+.string "BILL: ¿Y tú quién eres, chica insolente?\n"
+	.string "No venido hasta aquí para hablar con\l"
+	.string "una ROCKET más del montón, que usa\l"
+	.string "POKÉMON de clase baja más del montón.$"
+
+Silph_11F_Bill_Presidente_Texto_15.1:
+	.string "He venido hasta aquí para exigirle al\n"
 	.string "PRESIDENTE que me proporcione la\l"
-	.string "MÁSTER BALL antes incluso de que\l"
+	.string "MÁSTER BALL, antes incluso de que\l"
 	.string "salga al mercado.$"
 
 Silph_11F_Bill_Presidente_Texto_16:
 .string "Como uno de los principales\n"
 	.string "accionistas de SILPH, os exijo que\l"
-	.string "os apartéis, si no dáis problemas\l"
-	.string "quizá os deje escapar de aquí\l"
-	.string "para que extendáis un poco más\l"
-	.string "vuestra miserable existencia.$"
+	.string "os apartéis, si no dáis problemas,\l"
+	.string "tal vez os deje escapar de aquí para\l"
+	.string "que extendáis un poco más vuestra\l"
+	.string "miserable existencia.$"
 
 Silph_11F_Bill_Presidente_Texto_17:
-.string "Con esa BALL tendré todo cuanto\n"
-	.string "quiero, imagináos, las AVES\l"
-	.string "LEGENDARIAS, incluso esa leyenda\l"
-	.string "de MEW, podrán ser atrapadas y\l"
-	.string "admiradas dentro de mi gran\l"
-	.string "colección, los únicos POKÉMON que\l"
-	.string "me faltan para que sea completa.$"
+.string "Con esa BALL tendré todo cuanto quiero.\n"
+	.string "¡Imaginad!\l"
+	.string "Las AVES LEGENDARIAS, incluso la leyenda\l"
+	.string "MEW, podrá ser atrapada y admirada\l"
+	.string "dentro de mi gran colección; los\l"
+	.string "únicos POKÉMON de KANTO que me\l"
+	.string "faltan para que sea completa.$"
 
 Silph_11F_Bill_Presidente_Texto_18:
-.string "Ahora mismo solo sois dos\n"
-	.string "monigotes casuales que se han\l"
-	.string "puesto de obstáculo entre el\l"
-	.string "PRESIDENTE y yo, vuestra\l"
-	.string "mediocridad no va a impedir que\l"
-	.string "hable con él, ¡apartaos es el\l"
-	.string "último aviso!$"
+.string "Vuestra presencia aquí no\n"
+	.string "me arrebatará la gloria.$"
+
+Silph_11F_Bill_Presidente_Texto_18.1:
+	.string "¡Apartaos! ¡Es el último aviso!$"
 
 Silph_11F_Bill_Presidente_Texto_19:
-.string "ANDRA: Ni tú ni tus POKÉMON\n"
-	.string "comprados nos intimidáis, nuestro\l"
-	.string "LÍDER está teniendo una reunión\l"
-	.string "muy importante con el PRESIDENTE\l"
-	.string "en estos momentos, no vas a ir a\l"
-	.string "ningún lado, quieras o no.$"
+.string "ANDRA: Ni tú ni tus POKÉMON comprados\n"
+	.string "nos intimidáis.\l"
+	.string "El TEAM ROCKET tiene asuntos mucho más\l"
+	.string "importantes aquí que esa estúpida\l"
+	.string "colección de niñato malcriado.$"
+
+Silph_11F_Bill_Presidente_Texto_19.1:
+	.string "No irás a ningún lado, ¡quieras o no!$"
 
 Silph_11F_Bill_Presidente_Texto_20:
-.string "BILL: No he tenido menor problema\n"
-	.string "en derrotar a vuestro EJECUTIVO\l"
-	.string "PETREL, y no lo voy a tener con\l"
-	.string "vosotros, os he avisado.$"
+.string "BILL: Con que esas tenemos{PAUSE 15}…{PAUSE 15}\n"
+	.string "Que así sea, no tuve menor problema\l"
+	.string "en deshacerme de vuestro ADMINISTRADOR,\l"
+	.string "y vosotros no seréis menos.$"
+
+Silph_11F_Bill_Presidente_Texto_20.1:
+    .string "ANDRA: PETREL{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_21:
-.string "Encárgate de la chica, {PLAYER} es\n"
-	.string "mío, merece ser castigado por el\l"
+.string "BILL: Encárgate de la chica, {PLAYER}\n"
+	.string "es mío, merece ser castigado por el\l"
 	.string "numerito que montó en mi casa.$"
 
 Silph_11F_Bill_Presidente_Texto_22:
-.string "C.MIGUEL: A sus órdenes señor BILL.$"
+.string "C.MIGUEL: A sus órdenes, señor BILL.$"
 
 Silph_11F_Bill_Presidente_Texto_23:
-.string "BILL: ¿Sabes una cosa {PLAYER}?\n"
-	.string "Existen varios tipos de POKÉMON\l"
-	.string "raros, SLOWPOKE, CUBONE, son esos\l"
-	.string "pobres POKÉMON con los que esos\l"
-	.string "POKEMANÍACOS se contentan y tratan\l"
-	.string "de imitarme, creen que así pueden\l"
-	.string "autoproclamarse coleccionistas y\l"
-	.string "compartir profesión conmigo.$"
+.string "BILL: ¿Sabes una cosa, {PLAYER}?\n"
+	.string "Existen varios tipos de POKÉMON raros.\l"
+	.string "SLOWPOKE, CUBONE{PAUSE 15}…{PAUSE 15} son esos pobres\l"
+	.string "POKÉMON con los que un POKEMANÍACO debe\l"
+	.string "contentarse, así tratan de imitarme, y\l"
+	.string "creen que con eso pueden autoproclamarse\l"
+	.string "coleccionistas como yo.$"
 
 Silph_11F_Bill_Presidente_Texto_24:
-.string "Pobres ingenuos, te diré una cosa\n"
-	.string "de los POKÉMON raros, los de\l"
-	.string "verdad, la única realidad es que\l"
-	.string "los POKÉMON más raros que existen\l"
-	.string "son también los más fuertes, ¿no\l"
-	.string "lo crees?\l"
+.string "Pobres ingenuos.\n"
+	.string "Te diré una cosa de los POKÉMON raros,\l"
+	.string "los de verdad: la única realidad es\l"
+	.string "que los POKÉMON más raros que existen\l"
+	.string "son también los más fuertes.$" 
+	
+Silph_11F_Bill_Presidente_Texto_24.1:
+	.string "¿No me crees?\n"
 	.string "¡Te mostraré la flor y nata de mi\l"
 	.string "colección!$"
 
@@ -537,8 +652,11 @@ Silph_11F_Bill_Presidente_Texto_25:
 .string "¿¡C-cómo!?\n"
 	.string "¡Pero tengo a los mejores conmigo!$"
 
+Silph_11F_Bill_Presidente_Texto_25.1:
+.string "ANDRA: ¡URSARING, CUCHILLADA!$"
+
 Silph_11F_Bill_Presidente_Texto_26:
-.string "ANDRA: ¡Jah!\n"
+.string "¡Jah!\n"
 	.string "¡Esos FÓSILES no son suficientes\l"
 	.string "para tumbar a mi equipo!\l"
 	.string "¡Aunque te los haya dado BILL!$"
@@ -546,8 +664,8 @@ Silph_11F_Bill_Presidente_Texto_26:
 Silph_11F_Bill_Presidente_Texto_27:
 .string "BILL: No es posible…\n"
 	.string "Tengo a PORYGON2, lo último en\l"
-	.string "tecnología desarrollada por la\l"
-	.string "propia SILPH, y un equipo con los\l"
+	.string "tecnología, y desarrollada por la\l"
+	.string "propia SILPH, además del resto de\l"
 	.string "POKÉMON más fuertes y raros de\l"
 	.string "esta región.$"
 
@@ -561,58 +679,50 @@ Silph_11F_Bill_Presidente_Texto_28:
 
 Silph_11F_Bill_Presidente_Texto_29:
 .string "BILL: De modo que tú ganas, ¿eh?\n"
-	.string "Nadie nunca me ha negado algo\l"
-	.string "{PLAYER}, si quiero esa MÁSTER BALL\l"
-	.string "la obtendré de un modo u otro, lo\l"
-	.string "único que has conseguido hoy aquí\l"
-	.string "es cavar tu propia tumba, nadie se\l"
-	.string "mete con BILL, el mayor\l"
-	.string "coleccionista del mundo, la\l"
-	.string "próxima vez que nos encontremos te\l"
-	.string "aplastaré con un poder con el que\l"
-	.string "no podrás siquiera soñar.$"
+	.string "Nadie nunca me ha negado algo, {PLAYER}.\l"
+	.string "Si quiero esa MÁSTER BALL, la obtendré\l"
+	.string "de un modo u otro, lo único que has\l"
+	.string "conseguido hoy aquí es cavar tu propia\l"
+	.string "tumba.$"
+
+Silph_11F_Bill_Presidente_Texto_29.1:
+	.string "Nadie mete con BILL, el mayor\n"
+	.string "coleccionista del mundo.\l"
+	.string "La próxima vez que nos encontremos,\l"
+	.string "te aplastaré con un poder con el que\l"
+	.string "siquiera podrás soñar.$"
 
 Silph_11F_Bill_Presidente_Texto_30:
 .string "GIOVANNI: ¡ANDRA!¡{PLAYER}!\n"
-	.string "Todo ha acabado, la negociación ha\l"
-	.string "sido todo un éxito, no solo he\l"
-	.string "logrado que SILPH nos proporcione\l"
-	.string "la MÁSTER BALL, sino que la retire\l"
-	.string "del mercado para evitar que\l"
-	.string "cualquier otro pueda adquirirla, a\l"
-	.string "partir de hoy hemos ganado un\l"
-	.string "nuevo aliado muy poderoso, que\l"
-	.string "será visto por los medios como\l"
-	.string "víctima de nuestra codicia, ahora\l"
-	.string "solo queda la parte más fácil:\l"
+	.string "Todo ha acabado, la negociación ha sido\l"
+	.string "un éxito, no solo he logrado que SILPH\l"
+	.string "nos proporcione la MÁSTER BALL, también\l"
+	.string "la mantendrá fuera del público.$"
+
+Silph_11F_Bill_Presidente_Texto_30.1:
+	.string "Hoy hemos ganado un nuevo aliado muy\n"
+	.string "poderoso, que será visto por los medios\l"
+	.string "como víctima de nuestra codicia.$"
+
+Silph_11F_Bill_Presidente_Texto_30.2:
+	.string "Ahora, solo queda la parte más fácil:\n"
 	.string "actuar ante ese egocéntrico de\l"
-	.string "ROJO para que crea que es él el\l"
+	.string "ROJO, para que crea que es él el\l"
 	.string "que sabe de qué va la cosa y el\l"
 	.string "único que sabe entrenar a sus\l"
-	.string "POKÉMON, no usaré POKÉMON de más\l"
-	.string "del nivel 40-41 para su combate,\l"
-	.string "con eso será suficiente, ya hemos\l"
-	.string "ganado la lealtad de SILPH siempre\l"
-	.string "y cuando cumplamos nuestra parte\l"
-	.string "del trato.$"
+	.string "POKÉMON.$"
 
-Silph_11F_Bill_Presidente_Texto_31:
-.string "ANDRA: ¿Qué parte del trato señor?$"
 
 Silph_11F_Bill_Presidente_Texto_32:
-.string "GIOVANNI: A su debido tiempo\n"
-	.string "ANDRA, tendremos ocasión de hablar\l"
-	.string "de ello cuando finiquitemos esto,\l"
-	.string "por el momento ambos quedáis\l"
-	.string "retirados de esta misión, ya\l"
-	.string "habéis cumplido con creces y no\l"
-	.string "quiero que ese ROJO se tope por\l"
-	.string "error con dos EJECUTIVOS de\l"
-	.string "vuestra categoría, tenéis unas\l"
-	.string "merecidas vacaciones para hacer lo\l"
-	.string "que os plazca y visitar lo que os\l"
-	.string "quede por ver de esta bella\l"
-	.string "región.$"
+	.string "Ahora, ambos quedáis retirados de esta\n"
+	.string "misión, ya habéis cumplido con creces, y\l"
+	.string "no quiero que ese ROJO se tope por error\l"
+	.string "con dos EJECUTIVOS de vuestra categoría.$"
+
+Silph_11F_Bill_Presidente_Texto_32.1:
+	.string "Tenéis unas merecidas vacaciones para\n"
+	.string "hacer lo que os plazca y visitar lo que\l"
+	.string "os quede por ver de esta bella región.$"
 
 Silph_11F_Bill_Presidente_Texto_33:
 .string "Aquí tenéis vuestra recompensa, a\n"
@@ -635,37 +745,37 @@ Silph_11F_Bill_Presidente_Texto_36:
 Silph_11F_Bill_Presidente_Texto_37:
 .string "Es un PORYGON, el primer POKÉMON\n"
 	.string "creado por el hombre, que se vende\l"
-	.string "a precio de oro en nuestro CASINO,\l"
-	.string "el PRESIDENTE ha tenido el detalle\l"
+	.string "a precio de oro en nuestro CASINO.\l"
+	.string "El PRESIDENTE ha tenido el detalle\l"
 	.string "de equiparle con la MEJORA a los\l"
-	.string "vuestros, una actualización que\l"
-	.string "llevan años desarrollando para\l"
-	.string "mejorarlo, solo tendréis que usar\l"
-	.string "este objeto sobre el PORYGON como\l"
-	.string "si de una piedra se tratara y\l"
-	.string "evolucionará en PORYGON2, según el\l"
-	.string "PRESIDENTE, solo una persona ha\l"
-	.string "tenido el honor de contar con ese\l"
+	.string "vuestros; una actualización que\l"
+	.string "llevan años desarrollando.\l"
+	.string "Solo tendréis que usar este objeto\l"
+	.string "sobre el PORYGON, como si de una piedra\l"
+	.string "se tratara y evolucionará en PORYGON2.$"
+
+Silph_11F_Bill_Presidente_Texto_37.2:
+	.string "Según el PRESIDENTE, solo una persona\n"
+	.string "ha tenido el honor de contar con ese\l"
 	.string "POKÉMON antes que vosotros.$"
 
 Silph_11F_Bill_Presidente_Texto_37.1:
-.string "ANDRA: {PAUSE 5}…{PAUSE 5}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_38:
-.string "Bien, podéis retiraros, os avisaré\n"
-	.string "cuando pongamos en marcha nuestro\l"
-	.string "siguiente gran golpe, disfrutad de\l"
-	.string "vuestras pequeñas vacaciones…y\l"
-	.string "seguid mejorando.$"
+.string "Bien, podéis retiraros.\n"
+	.string "Os avisaré cuando pongamos en marcha el\l"
+	.string "próximo gran golpe.\l"
+	.string "Disfrutad de vuestras pequeñas\l"
+	.string "vacaciones{PAUSE 15}…{PAUSE 15} y seguid mejorando.$"
 
 Silph_11F_Bill_Presidente_Texto_39:
-.string "Así que PORYGON2, de no ser porque\n"
-	.string "se lo he visto usar a BILL en\l"
-	.string "contra tuya, lo incluiría en mi\l"
-	.string "equipo, pero jamás compartiré los\l"
-	.string "mismos POKÉMON que ese prepotente\l"
-	.string "con aires elitistas de BILL, me\l"
-	.string "pensaré mejor cuál será el último\l"
+.string "Así que PORYGON2.\n"
+	.string "De no ser porque se lo he visto usar a\l"
+	.string "BILL, lo incluiría en mi equipo, pero\l"
+	.string "jamás compartiré los mismos POKÉMON\l"
+	.string "que ese prepotente con aires elitistas.\l"
+	.string "Pensaré mejor cuál será el último\l"
 	.string "POKÉMON que incluya en mi equipo{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Texto_40:
@@ -673,7 +783,7 @@ Silph_11F_Bill_Presidente_Texto_40:
 	.string "¡La LLAVE MAGNÉTICA!\l"
 	.string "¡Tenemos que dejarla en algún\l"
 	.string "lugar accesible para ROJO!\l"
-	.string "¡No te preocupes {PLAYER}, yo me\l"
+	.string "¡No te preocupes, {PLAYER}, yo me\l"
 	.string "encargaré de hacerlo, creo que\l"
 	.string "tengo un lugar perfecto para\l"
 	.string "-esconderla- de forma que pueda\l"
@@ -684,7 +794,7 @@ Silph_11F_Bill_Presidente_Texto_41:
 	.string "haciendo guardia y así avise a\l"
 	.string "GIOVANNI en cuanto ROJO llegue a\l"
 	.string "su zona, no hay nada de que\l"
-	.string "preocuparse {PLAYER}, está todo\l"
+	.string "preocuparse, {PLAYER}, está todo\l"
 	.string "controlado{PAUSE 5}…{PAUSE 5}$"
 
 Silph_11F_Bill_Presidente_Move_1:
@@ -804,10 +914,17 @@ face_right
 step_end
 
 Silph_11F_Bill_Presidente_Move_16:
+delay_16
 face_up
 step_end
 
 Silph_11F_Bill_Presidente_Move_17:
+face_down
+step_end
+
+Silph_11F_Bill_Presidente_Move_17.1:
+walk_right
+walk_right
 face_down
 step_end
 
@@ -837,16 +954,19 @@ step_end
 
 Silph_11F_Bill_Presidente_Move_21:
 walk_down
+delay_16
 walk_in_place_left
 step_end
 
 Silph_11F_Bill_Presidente_Move_22:
 walk_up
+delay_16
 walk_in_place_left
 step_end
 
 Silph_11F_Bill_Presidente_Move_23:
 walk_up
+delay_16
 walk_in_place_down
 step_end
 
@@ -867,6 +987,7 @@ step_end
 
 Silph_11F_Bill_Presidente_Move_26:
 walk_in_place_left
+delay_16
 walk_in_place_down
 step_end
 
@@ -1161,12 +1282,12 @@ Silph_11F_Presidente_Charlas_Texto_2:
 	.string "uso de nuestro producto estrella.$"
 
 Silph_11F_Presidente_Charlas_Texto_3:
-.string "PRESIDENTE: Así es, 5 MASTER BALL,\n"
-	.string "úsalas solamente con aquellos\l"
+.string "PRESIDENTE: Así es, 5 MASTER BALL.\n"
+	.string "Úsalas solamente con aquellos\l"
 	.string "POKÉMON que de verdad no puedas\l"
-	.string "capturar con el resto de BALLS. Le\l"
-	.string "dimos 1 MASTER a ese ROJO después\l"
-	.string "de creer que había ganado por el\l"
+	.string "capturar con el resto de BALLS.\l"
+	.string "Le dimos 1 MASTER a ese ROJO, después\l"
+	.string "de creer que había ganado por el bien\l"
 	.string "bien de la justicia, solo para\l"
 	.string "convencerle de que su intervenión\l"
 	.string "realmente me había salvado.$"

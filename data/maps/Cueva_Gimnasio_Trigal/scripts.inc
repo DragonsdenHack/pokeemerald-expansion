@@ -46,7 +46,7 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.1 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem 641
+additem ITEM_TM59
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.3 MSGBOX_NPC

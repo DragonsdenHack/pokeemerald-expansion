@@ -8165,14 +8165,14 @@ Silph2F_Text_PoliciaDefeated:
 
 
 Silph2F_PoliciaPostBattle:
-	.string "¿SILPH colaborando con el TEAM\n"
-	.string "ROCKET?\l"
+	.string "¿SILPH colaborando con el\n"
+	.string "TEAM ROCKET?\l"
 	.string "¡Ni en sueños!$"
 
 
 Silph2F_Text_Policia2Intro:
 	.string "¡Os habéis metido con la empresa\n"
-	.string "equivocada ROCKET!$"
+	.string "equivocada, ROCKET!$"
 
 
 Silph2F_Text_Policia2Defeated:

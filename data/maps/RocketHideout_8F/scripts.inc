@@ -923,6 +923,19 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Silph_text_13 MSGBOX_DEFAULT
 givemon SPECIES_AERODACTYL, 35, ITEM_SHARP_BEAK
 waitfanfare
+msgbox RocketHideout_8F_Mision_Silph_text_13.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_9.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_13.2 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Silph_text_13.3 MSGBOX_AUTOCLOSE
+waitfanfare
+msgbox RocketHideout_8F_Mision_Silph_text_13.4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_13.5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
 delay 20
@@ -984,18 +997,35 @@ msgbox RocketHideout_8F_Mision_Silph_text_44 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_45 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Silph_text_46 MSGBOX_AUTOCLOSE
-applymovement 3, RocketHideout_8F_Mision_Silph_Despues_Move_11
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_46.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_46.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_11
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Silph_text_47 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_12
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_48 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_48.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_13
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_49 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_49.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_11
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_50 MSGBOX_AUTOCLOSE
@@ -1007,10 +1037,10 @@ msgbox RocketHideout_8F_Mision_Silph_text_52 MSGBOX_AUTOCLOSE
 applymovement 2, RocketHideout_8F_Mision_Silph_Despues_Move_4
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_53 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move10
-waitmovement 0x0
+delay 10
 applymovement 2, RocketHideout_8F_Mision_Silph_move11
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 removeobject 2
 playse SE_EXIT
@@ -1034,6 +1064,14 @@ setvar VAR_UNUSED_0x40F7, 72
 setvar VAR_UNUSED_0x40FD, 1
 release
 end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_9.1:
+face_down
+delay_16
+delay_8
+face_right
+delay_8
+step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_15:
 walk_in_place_up
@@ -1165,7 +1203,7 @@ RocketHideout_8F_Mision_Silph_text_2:
 
 RocketHideout_8F_Mision_Silph_text_3:
 .string "GIOVANNI: ¡Qué extraordinario\n"
-	.string "trabajo has hecho {PLAYER}!\l"
+	.string "trabajo has hecho, {PLAYER}!\l"
 	.string "¡No solo has cumplido tu misión\l"
 	.string "con ARTICUNO, también te has\l"
 	.string "ocupado de ZAPDOS!\l"
@@ -1178,10 +1216,10 @@ RocketHideout_8F_Mision_Silph_text_4:
 .string "GIOVANNI: Ambos, tú y ANDRA,\n"
 	.string "habéis demostrado un desempeño y\l"
 	.string "valor hacia el TEAM ROCKET que no\l"
-	.string "tienen precio, PETREL ya me ha\l"
+	.string "tienen precio; PETREL ya me ha\l"
 	.string "puesto al día de cómo 10 policías\l"
 	.string "juntos no fueron suficiente para\l"
-	.string "reducirte ANDRA, y resististe el\l"
+	.string "reducirte, ANDRA; resististe el\l"
 	.string "tiempo suficiente como para que\l"
 	.string "pudiéramos salvarte.$"
 
@@ -1227,172 +1265,174 @@ RocketHideout_8F_Mision_Silph_text_12:
 	.string "equipo.$"
 
 RocketHideout_8F_Mision_Silph_text_13:
-.string "¡HAS RECIBIDO UN AERODACTYL AL\n"
-	.string "NV:35!$"
+.string "¡HAS RECIBIDO UN AERODACTYL AL NV.35!$"
+
+RocketHideout_8F_Mision_Silph_text_13.1:
+	.string "Ahora que ambos sois EJECUTIVOS,\n"
+	.string "tenéis acceso automático a la zona sur\l"
+	.string "de BASE PROFUNDA.$"
+
+RocketHideout_8F_Mision_Silph_text_13.2:
+	.string "Tomad, con esta llave podréis entrar.$"
+
+RocketHideout_8F_Mision_Silph_text_13.3:
+	.string "¡Obtuviste la LLAVE SALA VIP!$"
+
+RocketHideout_8F_Mision_Silph_text_13.4:
+	.string "Allí encontraréis recursos con los que\n"
+	.string "mejorar aún más a vuestros POKÉMON.$"
+
+RocketHideout_8F_Mision_Silph_text_13.5:
+	.string "También un lugar para descansar,\n"
+	.string "junto a otros EJECUTIVOS.$"
+
 
 RocketHideout_8F_Mision_Silph_text_14:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_15:
-.string "GIOVANNI: Os dije que a su debido\n"
-	.string "tiempo os contaría los origenes\l"
-	.string "del TEAM ROCKET y por qué hoy es\l"
-	.string "tal y como lo conocéis, ahora que\l"
-	.string "habéis acumulado cierta\l"
+.string "Os dije que a su debido tiempo, os\n"
+	.string "contaría los origenes del TEAM ROCKET, y\l"
+	.string "por qué hoy es tal y como lo conocéis.\l"
+	.string "Ahora que habéis acumulado cierta\l"
 	.string "experiencia en esta región, y ante\l"
 	.string "lo que está por venir, ese momento\l"
-	.string "ha llegado, escuchad atentamente.$"
+	.string "ha llegado. Escuchad atentamente.$"
 
 RocketHideout_8F_Mision_Silph_text_16:
-.string "Todo empezó hace 5 años,\n"
-	.string "cuando JOHTO declaró la guerra a\l"
-	.string "KANTO, a todos nos sorprendió\l"
-	.string "mucho, una región tan tradicional\l"
-	.string "y pacífica, que además no contaba\l"
-	.string "con nuestros recursos ni capacidad\l"
-	.string "armamentística.$"
+.string "Todo empezó hace 5 años, cuando JOHTO\n"
+	.string "declaró la guerra a KANTO.\l"
+	.string "A todos nos sorprendió: una región tan\l"
+	.string "tradicional y pacífica, que además no\l"
+	.string "contaba con nuestros recursos ni\l"
+	.string "con gran capacidad armamentística.$"
 
 RocketHideout_8F_Mision_Silph_text_17:
-.string "El que provocó este\n"
-	.string "conflicto no fue otro que LANCE,\l"
-	.string "nieto del anciano maestro dragón\l"
-	.string "de CIUDAD ENDRINO. No cabe duda,\l"
-	.string "era un excepcional ENTRENADOR, y\l"
+.string "El que provocó este conflicto no\n"
+	.string "fue otro que LANCE, nieto del anciano\l"
+	.string "maestro dragón de CIUDAD ENDRINO.\l"
+	.string "Era un excepcional ENTRENADOR, y\l"
 	.string "no podía ser menos, ya que como\l"
 	.string "descendiente directo de la estirpe\l"
-	.string "de domadragones más prestigiosa{PAUSE 5}…{PAUSE 5}$"
+	.string "de domadragones más prestigiosa{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_17.1:
-	.string "…se le educó desde pequeño en el\n"
-	.string "arte de entrenar al para muchos\l"
-	.string "tipo más poderoso y sagrado,\l"
-	.string "mostró un talento innato para\l"
-	.string "exprimir al máximo el poder de\l"
-	.string "DRAGONITE, el considerado POKÉMON\l"
-	.string "NO LEGENDARIO más poderoso, tanto\l"
-	.string "que sobrepasa incluso el poder de\l"
-	.string "las AVES LEGENDARIAS.$" 
+	.string "{PAUSE 15}…{PAUSE 15} se le educó desde pequeño en el\n"
+	.string "arte de entrenar al para muchos TIPO más\l"
+	.string "poderoso y sagrado; mostró un talento\l"
+	.string "innato para domesticar el poder de\l"
+	.string "DRAGONITE, considerado por muchos como\l"
+	.string "el NO LEGENDARIO más poderoso.\l"
+	.string "Uno bien entrenado, sobrepasa incluso\l"
+	.string "el poder de las AVES LEGENDARIAS.$" 
 	
 RocketHideout_8F_Mision_Silph_text_17.2:
-	.string "LANCE se convirtió en un temido\n"
-	.string "ENTRENADOR, contando con 3 de estos\l"
-	.string "sagrados dragones en su equipo, no\l"
-	.string "tardó en hacerse con el poder en\l"
-	.string "JOHTO.$"
+	.string "LANCE se convirtió en un ENTRENADOR de\n"
+	.string "temer, al contanr con 3 de estos\l"
+	.string "sagrados dragones; no tardó en hacerse\l"
+	.string "con el poder en JOHTO.$"
 
 RocketHideout_8F_Mision_Silph_text_18:
-.string "Esto sin embargo no era suficiente\n"
-	.string "para someter a KANTO como él\l"
-	.string "quería, nuestra región siempre ha\l"
-	.string "contado con entrenadores\l"
-	.string "sobresalientes y de gran talento.$"
+.string "Esto, sin embargo, no era suficiente\n"
+	.string "para someter a KANTO como él quería.\l"
+	.string "Nuestra región siempre ha contado\l"
+	.string "con entrenadores de gran talento.$"
 
 RocketHideout_8F_Mision_Silph_text_18.1:
-	.string "Por ese entonces tanto OAK como yo\n"
+	.string "Por ese entonces, tanto OAK como yo\n"
 	.string "llevábamos años disputándonos el\l"
-	.string "título de CAMPEÓN, cambiando\l"
-	.string "constantemente de manos por la\l"
-	.string "gran paridad y competitividad que\l"
-	.string "había entre nosotros, cuando uno\l"
-	.string "de nosotros no era el CAMPEÓN, el\l"
+	.string "título de CAMPEÓN, que cambiaba\l"
+	.string "constantemente de manos, debido a\l"
+	.string "la gran paridad y competitividad que\l"
+	.string "había entre nosotros.\l"
+	.string "Cuando uno no era el CAMPEÓN, el\l"
 	.string "otro pasaba a ocupar el actual\l"
 	.string "puesto de BRUNO en la ÉLITE 4,\l"
 	.string "especializándome yo en el TIPO\l"
-	.string "TIERRA y OAK en el NORMAL{PAUSE 5}…{PAUSE 5}$"
+	.string "TIERRA, y OAK en el NORMAL{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_19:
-.string "LANCE sabía que con nosotros dos\n"
-	.string "en KANTO no podía imponer su\l"
-	.string "fuerza a pesar incluso de sus\l"
-	.string "dragones, fue ahí cuando empezó a\l"
-	.string "buscar ese poder que no podía\l"
-	.string "lograr en lo divino, en lo\l"
-	.string "sagrado{PAUSE 5}…{PAUSE 5}$"
+.string "LANCE sabía que con nosotros dos en\n"
+	.string "KANTO, jamás podría imponer su fuerza,\l"
+	.string "a pesar incluso de sus dragones.\l"
+	.string "Fue en ese momento cuando empezó a\l"
+	.string "buscar ese poder que no podía lograr\l"
+	.string "en lo divino, en lo{PAUSE 25}…{PAUSE 25} LEGENDARIO.$"
 
 RocketHideout_8F_Mision_Silph_text_20:
-.string "Se informó acerca de los\n"
-	.string "legendarios LUGIA y HO-OH, de un\l"
-	.string "poder aquí en KANTO inexistente,\l"
-	.string "pero nunca estuvo siquiera cerca\l"
-	.string "de encontrarlos.$"
+.string "Se informó acerca de LUGIA y HO-OH.\n"
+	.string "Dos POKÉMON de un poder superior,\l"
+	.string "aquí en KANTO inexistente.\l"
+	.string "Nunca estuvo ni cerca de encontrarlos.$"
 
 RocketHideout_8F_Mision_Silph_text_21:
-.string "A pesar de ello, acabó enterándose\n"
-	.string "de la leyenda que decía que el\l"
-	.string "legendario HO-OH dejó parte de su\l"
-	.string "poder y esencia impresa en 3\l"
-	.string "POKÉMON condenados a morir, vistos\l"
-	.string "por última vez hace 150 años en el\l"
-	.string "llamado MILAGRO DE LA TORRE\l"
-	.string "QUEMADA, cuando según la leyenda\l"
-	.string "estos tres POKÉMON reencarnaron en\l"
-	.string "las 3 BESTIAS DE JOHTO, pasando a\l"
-	.string "vagar sin rumbo por la región,\l"
+.string "A pesar de ello, acabó enterándose de\n"
+	.string "la leyenda de HO-OH, aquella que hablaba\l"
+	.string "de 3 POKÉMON, condenados a morir pero\l"
+	.string "salvados por el llamado MILAGRO de\l"
+	.string "TORRE QUEMADA, hace 150 años.\l"
+	.string "Según la leyenda, estos 3 POKÉMON se\l"
+	.string "reencarnaron en las BESTIAS DE JOHTO, y\l"
+	.string "pasaron a vagar sin rumbo por la región,\l"
 	.string "incapaces de contener su poder.$"
 
 RocketHideout_8F_Mision_Silph_text_22:
-.string "LANCE puso toda la región patas\n"
-	.string "arriba dispuesto a agarrarse a esa\l"
-	.string "leyenda{PAUSE 25}…\l"
-	.string "Y efectivamente resultó ser\l"
-	.string "cierta, valiéndose de sus\l"
-	.string "dragones, logró acorralar y\l"
-	.string "capturar uno por uno a estos\l"
-	.string "POKÉMON.$"
+.string "LANCE puso toda la región patas arriba,\n"
+	.string "dispuesto a agarrarse a esa leyenda{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15} y efectivamente, resultó ser\l"
+	.string "cierta; valiéndose de sus dragones,\l"
+	.string "logró acorralar y capturar, uno por uno,\l"
+	.string "a estos POKÉMON en cuyo poder estaba\l"
+	.string "impresa la esencia de HO-OH.$"
 
 RocketHideout_8F_Mision_Silph_text_23:
-.string "El resto es ya historia, con las\n"
-	.string "BESTIAS DE JOHTO bajo su mando, se\l"
-	.string "dispuso a invadir KANTO.$"
+.string "El resto es ya historia; con las\n"
+	.string "BESTIAS DE JOHTO bajo su mando,\l"
+	.string "se dispuso a invadir KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_23.1:
 	.string "Contrató también a un experto\n"
 	.string "en técnicas bélicas: el LT.SURGE.\l"
-	.string "Todo unido desató en KANTO un caos\l"
-	.string "sin precedentes, esas bestias bajo\l"
-	.string "las órdenes de LANCE se cobraron\l"
-	.string "innumerables vidas, siendo\l"
-	.string "imposibles de atrapar, además de\l"
-	.string "batir en un combate para un\l"
-	.string "ENTRENADOR que no fuéramos OAK o\l"
-	.string "yo; LANCE había conseguido que el\l"
-	.string "caos y la muerte se apoderasen de\l"
-	.string "KANTO.$"
+	.string "Todo unido, desató en KANTO un caos\l"
+	.string "jamás visto.\l"
+	.string "Las bestias, bajo las órdenes de LANCE,\l"
+	.string "se cobraron innumerables vidas.\l"
+	.string "Imposibles de atrapar, además de\l"
+	.string "batir en un combate para nadie que no\l"
+	.string "fuera OAK o yo; LANCE logró que el\l"
+	.string "caos y la muerte se apoderen de KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_24:
 .string "Fue en ese momento cuando OAK y yo\n"
-	.string "decidimos tomar cartas en el\l"
-	.string "asunto, viendo que era imposible\l"
-	.string "apaciguar la furia de esas\l"
-	.string "criaturas con los medios de los\l"
-	.string "que disponíamos{PAUSE 5}…{PAUSE 5}$"
+	.string "decidimos tomar cartas en el asunto.\l"
+	.string "Era imposible apaciguar la furia de\l"
+	.string "esas criaturas con los medios de los\l"
+	.string "que disponíamos{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_25:
-.string "Yo en ese momento era el hombre de\n"
-	.string "negocios más importante de KANTO,\l"
-	.string "y OAK el investigador más famoso:\l"
-	.string "decidimos juntar todos nuestros\l"
-	.string "recursos, con el único afán de ir\l"
-	.string "tras esa leyenda{PAUSE 25}…{PAUSE 25}ese mítico\l"
+.string "Yo era el hombre de negocios más\n"
+	.string "importante de KANTO, y OAK el\l"
+	.string "investigador más famoso: decidimos unir\l"
+	.string "todos nuestros recursos, con el único\l"
+	.string "afán de ir tras esa leyenda{PAUSE 25}…{PAUSE 25}ese mítico\l"
 	.string "POKÉMON llamado MEW{PAUSE 5}…{PAUSE 5}$"
 	
 RocketHideout_8F_Mision_Silph_text_25.1:
 .string "La iniciativa fue de FUJI, quien\n"
 	.string "conocía más que nadie al POKÉMON.\l"
-	.string "Gracias a él pudimos llegar a ISLA\l"
+	.string "Gracias a él, pudimos llegar a ISLA\l"
 	.string "SUPREMA, y capturar a MEW{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_25.2:
 .string "Pero MEW por sí solo no iba a darnos la\n"
-	.string "victoria. Su propia naturaleza le\l"
-	.string "impedía ser partícipe de cualquier\l"
-	.string "clase de conflicto, necesitábamos algo\l"
-	.string "más.$"
+	.string "victoria. Su propia naturaleza le impedía\l"
+	.string "ser partícipe de cualquier clase de\l"
+	.string "conflicto, necesitábamos algo más.$"
 
 RocketHideout_8F_Mision_Silph_text_25.3:
-.string "Fue aquí cuando nació el -PROYECTO\n"
-	.string "MEWTWO-. Con la finalidad de exprimir\l"
-	.string "al máximo el potencial de MEW y poder\l"
+.string "Así nació el -PROYECTO MEWTWO-.\n"
+	.string " Con la única finalidad de exprimir\l"
+	.string "al máximo el poder de MEW{PAUSE 25}…{PAUSE 25} y poder\l"
 	.string "usarlo en la guerra.$"
 
 RocketHideout_8F_Mision_Silph_text_25.4:
@@ -1400,18 +1440,17 @@ RocketHideout_8F_Mision_Silph_text_25.4:
 	.string "dejaban anomalías y deformidades de\l"
 	.string "lo que inicialmente era MEW.\l"
 	.string "Conservando únicamente el 48% de su\l"
-	.string "poder base global, únicamente\l"
-	.string "heredaron el poder de transformación\l"
-	.string "del LEGENDARIO, algo insuficiente que\l"
-	.string "nos llevó a deshechar a estos\l"
-	.string "prototipos iniciales.$"
+	.string "poder base global, solo heredaban la\l"
+	.string "capacidad de transformación, algo\l"
+	.string "insuficiente, y que nos llevó a\l"
+	.string "deshechar a estos prototipos iniciales.$"
 
 RocketHideout_8F_Mision_Silph_text_25.5:
 .string "Es lo que comúnmente se conoce como\n"
-	.string "DITTO, se han reportado varios\l"
+	.string "DITTO; se han reportado varios\l"
 	.string "ejemplares en la propia MANSION\l"
-	.string "CANELA y algunas rutas al este de\l"
-	.string "FUCSIA.$"
+	.string "CANELA, y algunos escaparon hacia\l"
+	.string "rutas como la del este de FUCSIA.$"
 
 
 RocketHideout_8F_Mision_Silph_text_25.6:
@@ -1425,100 +1464,86 @@ RocketHideout_8F_Mision_Silph_text_26:
 .string "Fue en ese momento{PAUSE 25}…{PAUSE 25}tras muchos\n"
 	.string "fracasos, cuando finalmente pudimos\l"
 	.string "incluso mejorar al legendario MEW,\l"
-	.string "creando a partir de su ADN un\l"
-	.string "POKÉMON hecho específicamente para\l"
-	.string "el combate{PAUSE 35}…{PAUSE 35} y para ganar la\l"
-	.string "guerra de KANTO.$"
+	.string "creando, a partir de su ADN, un POKÉMON\l"
+	.string "hecho específicamente para el combate\l"
+	.string "y{PAUSE 25}…{PAUSE 25} para ganar la guerra de KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_27:
-.string "Más rápido, más potente y\n"
-	.string "polivalente que las bestias de\l"
-	.string "JOHTO, estimamos su poder a la par\l"
-	.string "que los mismísimos LUGIA y HO-OH\l"
-	.string "que LANCE nunca pudo encontrar. Y\l"
-	.string "unas capacidades mentales que no\l"
-	.string "se parecían a nada de lo que\l"
-	.string "habíamos visto{PAUSE 5}…{PAUSE 5}$"
+.string "Más rápido, más potente y polivalente\n"
+	.string "que las bestias de JOHTO, estimamos su\l"
+	.string "poder a la par que los mismísimos LUGIA\l"
+	.string "y HO-OH que LANCE nunca pudo encontrar.\l"
+	.string "Además, sus capacidades mentales no se\l"
+	.string "parecían a nada conocido{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_28:
 .string "Con MEWTWO, podíamos acabar con\n"
-	.string "todo esto y poner a LANCE en su\l"
-	.string "lugar, era poderoso, muy\l"
-	.string "poderoso{PAUSE 25}…{PAUSE 25}tanto que salió de\l"
-	.string "nuestro control justo cuando\l"
+	.string "todo esto, y poner a LANCE en su lugar.\l"
+	.string "Era poderoso{PAUSE 25}…{PAUSE 25} muy poderoso{PAUSE 25}…{PAUSE 25} tanto\l"
+	.string "que salió de nuestro control justo cuando\l"
 	.string "realizábamos las últimas pruebas.$"
 
 RocketHideout_8F_Mision_Silph_text_29:
 .string "El laboratorio de ISLA CANELA\n"
 	.string "donde llevamos a cabo este\l"
 	.string "desesperado plan en la sombra\l"
-	.string "quedó destruido, y MEWTWO escapó\l"
+	.string "quedó destruido, y MEWTWO escapó,\l"
 	.string "perdiéndose para siempre{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_30:
-.string "Poco después a KANTO no le quedó\n"
-	.string "más remedio que rendirse ante\l"
-	.string "LANCE, el cual se autoproclamó\l"
-	.string "campeón de JOHTO y KANTO\l"
-	.string "simultáneamente. Entonces, llegó\l"
-	.string "el momento de quitarse del medio\l"
-	.string "todas sus posibles amenazas{PAUSE 5}…{PAUSE 5}$"
+.string "Poco después, a KANTO no le quedó\n"
+	.string "más remedio que rendirse.\l"
+	.string "LANCE, se autoproclamó CAMPEÓN de KANTO\l"
+	.string "y JOHTO simultáneamente.\l"
+	.string "Entonces, llegó el momento de quitarse de\l"
+	.string "en medio todas sus posibles amenazas{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_31:
 .string "Sin embargo, para mi sorpresa, OAK\n"
-	.string "fue el primero en arrodillarse\l"
-	.string "una vez LANCE se hizo con el\l"
-	.string "poder, ofreciéndole todos sus\l"
-	.string "conocimientos sobre los POKÉMON\l"
-	.string "prometiendo ayudar al nuevo\l"
-	.string "gobierno. Lo peor es que{PAUSE 5}…{PAUSE 5}$"
+	.string "fue el primero en arrodillarse.\l"
+	.string "Le ofreció todos sus conocimientos como\l"
+	.string "investigador, prometiendo ayudar al\l"
+	.string "nuevo gobierno.\l"
+	.string "Lo peor es que{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_32:
-.string "…me señaló a mí como el principal\n"
-	.string "peligro para su gobierno, le habló\l"
-	.string "de nuestros planes para intentar\l"
-	.string "derrocarle. Aunque nunca mencionó\l"
-	.string "a MEWTWO, sí que me culpó de\l"
-	.string "conspirar, incluso tras la guerra.$"
+.string "{PAUSE 15}…{PAUSE 15}me señaló a mí como principal peligro.\n"
+	.string "Le habló de nuestros planes para\l"
+	.string "intentar derrocarle. Aunque nunca\l"
+	.string "llegó a mencionar el PROYECTO MEWTWO,\l"
+	.string "sí que me culpó de conspirar\l"
+	.string "incluso tras la guerra.$"
 
 RocketHideout_8F_Mision_Silph_text_33:
 .string "LANCE no tardó en lanzar contra mi\n"
-	.string "persona una tremenda campaña de\l"
-	.string "desprestigio.\l"
+	.string "persona una campaña de desprestigio.\l"
 	.string "A pesar de haber dado todo por\l"
 	.string "mantener KANTO en manos de sus\l"
 	.string "habitantes, LANCE logró convencer\l"
 	.string "a la opinión pública de que yo era\l"
-	.string "el malo, y él el salvador, según la\l"
-	.string "versión oficial, LANCE solo se vio\l"
-	.string "obligado a intervenir después de\l"
-	.string "un descarado intento de Golpe de\l"
-	.string "Estado por mi parte al revalidar\l"
-	.string "mi título de CAMPEÓN.$"
+	.string "el malo, y él el salvador.\l"
+	.string "Según la versión oficial, LANCE solo se\l"
+	.string "vio obligado a intervenir después de un\l"
+	.string "descarado intento de Golpe de Estado por\l"
+	.string "mi parte, tras revalidar mi título de\l"
+	.string "CAMPEÓN.$"
 
 RocketHideout_8F_Mision_Silph_text_34:
-.string "Esto, por supuesto, es una\n"
-	.string "absoluta estupidez y un sin sentido\l"
-	.string "para cualquiera que haya vivido la\l"
-	.string "guerra, pero, entre que la gente\l"
-	.string "calla por miedo a represalias del\l"
-	.string "gobierno de LANCE, y el bombardeo\l"
-	.string "constante de noticias y difusión\l"
-	.string "de hechos falsos, por puro\l"
-	.string "desgaste han conseguido ir\l"
-	.string "difuminando la verdad con el paso\l"
-	.string "del tiempo, hasta el punto en que\l"
-	.string "incluso aquellos que en realidad\l"
-	.string "estuvieron presentes en la guerra,\l"
-	.string "hoy dudan de lo que realmente\l"
-	.string "vivieron.$"
+.string "Esto, por supuesto, es una absoluta\n"
+	.string "estupidez y un sin sentido para\l"
+	.string "cualquiera que haya vivido la guerra.\l"
+	.string "Pero{PAUSE 15}…{PAUSE 15} una mentira repetida\l"
+	.string "mil veces acaba siendo verdad, por puro\l"
+	.string "desgaste han conseguido ir difuminando\l"
+	.string "la realidad, hasta el punto en que\l"
+	.string "incluso aquellos presentes, hoy dudan\l"
+	.string "dudan de lo que realmente vivieron.$"
 
 RocketHideout_8F_Mision_Silph_text_36:
-.string "GIOVANNI: Desde ese entonces, todo\n"
-	.string "lo asociado a mi nombre, en su día\l"
-	.string "uno de los más prestigiosos de la\l"
-	.string "región, se convirtió en la mayor\l"
-	.string "deshonra y vergüenza para KANTO.$"
+.string "Desde ese entonces, todo lo asociado a\n"
+	.string "mi nombre, en su día uno de los más\l"
+	.string "prestigiosos de KANTO, se convirtió\l"
+	.string "en la mayor deshonra y vergüenza.$"
 
 RocketHideout_8F_Mision_Silph_text_37:
 .string "De este modo, y así las cosas,\n"
@@ -1526,7 +1551,7 @@ RocketHideout_8F_Mision_Silph_text_37:
 	.string "forma, siendo imposible discutirle\l"
 	.string "mediante la justicia, solo queda\l"
 	.string "reunir un poder aún mayor que el\l"
-	.string "suyo para así devolverle el favor\l"
+	.string "suyo, para así devolverle el favor\l"
 	.string "con la misma moneda.$"
 
 RocketHideout_8F_Mision_Silph_text_37.1:
@@ -1536,33 +1561,29 @@ RocketHideout_8F_Mision_Silph_text_37.1:
 RocketHideout_8F_Mision_Silph_text_38:
 .string "He ahí la razón de todas estas\n"
 	.string "zonas de investigación, el porqué\l"
-	.string "os he mandado a donde habitan las\l"
-	.string "AVES LEGENDARIAS, y por ello\l"
-	.string "reunimos todo el dinero posible de\l"
-	.string "forma ilegítima, haciendo el\l"
-	.string "propio sistema imposible que se\l"
-	.string "reuna de forma legítima, cuando es\l"
-	.string "así, el tomarte la justicia por tu\l"
-	.string "mano es casi un deber que va\l"
-	.string "acorde a todo el que tenga\l"
-	.string "principios.$"
+	.string "os he mandado a donde habitan las AVES,\l"
+	.string "y el porqué reunimos todo el dinero\l"
+	.string "posible para invertir en proyectos.\l"
+	.string "Si el propio sistema hace que sea\l"
+	.string "imposible prosperar de forma legítima,\l"
+	.string "el tomarte la justicia por tu mano\l"
+	.string "es casi un deber acorde a todo aquel\l"
+	.string "al que aún le queden principios.$"
 
 RocketHideout_8F_Mision_Silph_text_39:
 .string "Todo lo que el TEAM ROCKET ha\n"
 	.string "buscado en este tiempo ha sido el\l"
-	.string "tratar de reunir un poder\l"
-	.string "suficiente como para derrocar a\l"
-	.string "LANCE y acabar con su tiranía\l"
-	.string "enmascarada, a la vez que\l"
-	.string "aparentar ser una organización\l"
-	.string "endeble y torpe, preocupada por\l"
-	.string "temas triviales como el dinero o\l"
-	.string "el robo de POKÉMON, nada más lejos\l"
-	.string "de la realidad, con ello lo que\l"
-	.string "conseguimos es que LANCE no centre\l"
-	.string "todas sus energías en aplastarnos,\l"
-	.string "pues no nos ve como una amenaza\l"
-	.string "seria{PAUSE 25}…{PAUSE 25}aún.$"
+	.string "tratar de reunir un poder suficiente\l"
+	.string "como para derrocar a LANCE, y acabar\l"
+	.string "con su tiranía enmascarada.\l"
+	.string "Por eso aparentamos ser una organización\l"
+	.string "endeble y torpe, preocupada por temas\l"
+	.string "triviales como el dinero o el robo de\l"
+	.string "POKÉMON: nada más lejos de la realidad,\l"
+	.string "con ello lo que conseguimos es que LANCE\l"
+	.string "no centre todas sus energías en\l"
+	.string "aplastarnos, pues no nos ve como una\l"
+	.string "amenaza seria{PAUSE 25}…{PAUSE 25}aún.$"
 
 RocketHideout_8F_Mision_Silph_text_40:
 .string "No podía contaros todo esto en\n"
@@ -1578,138 +1599,130 @@ RocketHideout_8F_Mision_Silph_text_41:
 	.string "SETE, produce ella sola la inmensa\l"
 	.string "mayoría de artículos para\l"
 	.string "entrenadores en toda KANTO, acaba\l"
-	.string "de soltar un bombazo, una\l"
-	.string "revolución en la captura de\l"
-	.string "POKÉMON.$"
+	.string "de soltar un bombazo, una revolución\l"
+	.string "en la captura de POKÉMON.$"
 
 RocketHideout_8F_Mision_Silph_text_42:
-.string "Su MASTER BALL presumiblemente es\n"
-	.string "capaz de atrapar cualquier POKÉMON\l"
-	.string "bajo cualquier condición, una POKÉ\l"
+.string "Su MASTER BALL presumiblemente es capaz\n"
+	.string "de atrapar cualquier POKÉMON, bajo\l"
+	.string "cualquier condición: una BALL infalible.\l"
 	.string "BALL infalible, el sueño de\l"
 	.string "cualquier ENTRENADOR, más aún de\l"
-	.string "cualquier coleccionista$"
+	.string "cualquier coleccionista.$"
 
 RocketHideout_8F_Mision_Silph_text_43:
 .string "Un objeto como ese sería crucial\n"
 	.string "para recuperar a un POKÉMON como\l"
 	.string "MEWTWO, más aún cuando LANCE no\l"
-	.string "sabe de su existencia, nosotros\l"
-	.string "tenemos ciertas sospechas de dónde\l"
-	.string "puede estar después de que\l"
+	.string "sabe de su existencia.\l"
+	.string "Nosotros tenemos ciertas sospechas\l"
+	.string "de dónde puede estar después de que\l"
 	.string "escapara de ISLA CANELA{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_44:
 .string "Pero ese no es el objetivo más\n"
-	.string "importante de nuestro asalto a\l"
-	.string "SILPH, quiero que todo salga\l"
-	.string "perfecto, que a ojos de la\l"
-	.string "población el TEAM ROCKET sea\l"
-	.string "derrotado, que nos pierdan de\l"
-	.string "vista justo en el momento que más\l"
-	.string "fuertes estamos{PAUSE 5}…{PAUSE 5}$"
+	.string "importante de nuestro asalto a SILPH,\l"
+	.string "quiero que todo salga perfecto, que\l"
+	.string "a ojos de la población el TEAM ROCKET\l"
+	.string "sea derrotado, y que nos pierdan de\l"
+	.string "vista justo en el momento en el que\l"
+	.string "más fuertes estamos{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_45:
-.string "Para cuando esto ocurra, yo ya le\n"
-	.string "habré puesto al PRESIDENTE de\l"
-	.string "SILPH una oferta lo\l"
-	.string "suficientemente tentadora como\l"
-	.string "para que nos siga el juego, estoy\l"
-	.string "seguro de que él tampoco aprueba\l"
+.string "Para cuando eso ocurra, yo ya le habré\n"
+	.string "puesto al PRESIDENTE de SILPH una oferta\l"
+	.string "que no podrá rechazar.\l"
+	.string "Estoy seguro de que él tampoco aprueba\l"
 	.string "todas las nuevas restricciones y\l"
-	.string "comisión que el gobierno de LANCE\l"
+	.string "comisiones que el gobierno de LANCE\l"
 	.string "se lleva de sus productos.$"
 
 
 RocketHideout_8F_Mision_Silph_text_46:
 .string "¡ANDRA!\n"
 	.string "¡{PLAYER}!\l"
-	.string "¡Vuestra misión en SILPH es la\l"
-	.string "siguiente!\l"
-	.string "Entraremos por la fuerza usando\l"
+	.string "¡Vuestra misión en SILPH\l"
+	.string "es la siguiente!$"
+
+RocketHideout_8F_Mision_Silph_text_46.1:
+	.string "Entraremos por la fuerza usando\n"
 	.string "gran parte de nuestras unidades,\l"
 	.string "vosotros dos seréis los encargados\l"
 	.string "de deshaceros de la seguridad que\l"
-	.string "protege al PRESIDENTE, una vez\l"
-	.string "logrado esto, tendré carta libre\l"
-	.string "para hablar tranquilamente con él\l"
-	.string "y contarle la situación, vosotros\l"
-	.string "me daréis el tiempo suficiente\l"
-	.string "como para convencerle de cooperar\l"
-	.string "con el TEAM ROCKET, en ese lapso\l"
-	.string "deberéis de contener a la\l"
-	.string "seguridad que quiera acceder al\l"
-	.string "despacho del PRESIDENTE, y a\l"
-	.string "cualquier ENTRENADOR que trate de\l"
-	.string "pasar, mi conversación en ese\l"
-	.string "momento con el PRESIDENTE debe de\l"
-	.string "ser totalmente confidencial, ¿ha\l"
-	.string "quedado claro?$"
+	.string "protege al PRESIDENTE.\l"
+	.string "Una vez logrado esto, tendré carta libre\l"
+	.string "para hablar tranquilamente con él, y\l"
+	.string "contarle la situación, vosotros me\l"
+	.string "daréis el tiempo suficiente como para\l"
+	.string "convencerle de cooperar.$"
+
+RocketHideout_8F_Mision_Silph_text_46.2:
+	.string "En ese lapso, deberéis de contener a\n"
+	.string "la seguridad que quiera acceder al\l"
+	.string "despacho del PRESIDENTE, y a cualquier\l"
+	.string "ENTRENADOR que trate de pasar; nuestra\l"
+	.string "conversación debe ser completamente\l"
+	.string "confidencial, ¿ha quedado claro?$"
 
 RocketHideout_8F_Mision_Silph_text_47:
 .string "ANDRA: ¡No pasará ni LANCE si se\n"
-	.string "llegara a presentar JEFE!$"
+	.string "llegara a presentar, señor!$"
 
 RocketHideout_8F_Mision_Silph_text_48:
-.string "GIOVANNI: Una vez haya convencido\n"
-	.string "al PRESIDENTE, obtendremos la\l"
-	.string "MASTER BALL, y más importante aún,\l"
-	.string "el apoyo de SILPH, para ese\l"
-	.string "entonces, nada nos detiene ahí, en\l"
-	.string "cuanto os dé la señal, os\l"
-	.string "retiraréis junto con los otros\l"
-	.string "ALTOS RANGOS ROCKET, y dejaréis el\l"
-	.string "edificio con nuestros soldados más\l"
-	.string "mediocres, sin apenas protección\l"
-	.string "para llegar hasta mí{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: Una vez haya convencido al\n"
+	.string "PRESIDENTE, obtendremos la MASTER BALL,\l"
+	.string "y más importante aún: el apoyo de SILPH.$"
+
+RocketHideout_8F_Mision_Silph_text_48.1:
+	.string "Para ese entonces, ya nada nos retendrá\n"
+	.string "ahí: en cuanto os dé la señal, os\l"
+	.string "retiraréis junto con los ALTO RANGO,\l"
+	.string "y dejaréis el edificio solo con RECLUTAS\l"
+	.string "comunes, sin apenas protección para\l"
+	.string "llegar hasta mí{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_49:
 .string "Si todo sigue lo planeado, ese\n"
 	.string "entrometido de ROJO hará acto de\l"
-	.string "presencia, nada mejor que fingir\l"
-	.string "una derrota ante ese ENTRENADOR\l"
-	.string "sin personalidad, vacío de\l"
-	.string "propósito, siendo ROJO el rival,\l"
-	.string "podré perder y acto seguido irme\l"
-	.string "de ahí y desaparecer antes de que\l"
-	.string "se corra la voz y aparezca la\l"
-	.string "policía{PAUSE 5}…{PAUSE 5}$"
+	.string "presencia.$"
+
+RocketHideout_8F_Mision_Silph_text_49.1:
+	.string "Nada mejor que fingir una derrota ante\n"
+	.string "ese ENTRENADOR sin personalidad, vacío\l"
+	.string "de propósito: siendo ROJO el rival,\l"
+	.string "podré perder y acto seguido irme de ahí\l"
+	.string "y desaparecer antes de que se corra la\l"
+	.string "voz y aparezca la policía{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_50:
-.string "Una vez aquí, mataremos 3\n"
-	.string "pájaros de un tiro, tendremos la\l"
-	.string "MASTER BALL, la lealtad de SILPH,\l"
-	.string "y la creencia popular de que\l"
-	.string "estamos acabados.$"
+.string "Una vez aquí, mataremos 3 pájaros\n"
+	.string "de un tiro: tendremos la MASTER BALL,\l"
+	.string "la lealtad de SILPH y la creencia\l"
+	.string "popular de que estamos acabados.$"
 
 RocketHideout_8F_Mision_Silph_text_51:
 .string "PROTÓN: Un plan brillante, señor.$"
 
 RocketHideout_8F_Mision_Silph_text_52:
-.string "GIOVANNI: Que ya está en marcha,\n"
-	.string "en estos momentos los puntos de\l"
-	.string "control con AZAFRÁN habrán sido\l"
-	.string "tomados, dejando vía libre a los\l"
-	.string "nuestros a la ciudad , deberías\l"
-	.string "prepararte PROTÓN, formarás parte\l"
-	.string "de los efectivos que despejen el\l"
-	.string "camino.$"
+.string "GIOVANNI: Que ya está en marcha, en\n"
+	.string "estos momentos los puntos de control\l"
+	.string "con AZAFRÁN habrán sido tomados.\l"
+	.string "Prepárate, PROTÓN, formarás parte de\l"
+	.string "los efectivos que despejen el camino.$"
 
 RocketHideout_8F_Mision_Silph_text_53:
-.string "PROTÓN: A la orden JEFE.$"
+.string "PROTÓN: A la orden, JEFE.$"
 
 RocketHideout_8F_Mision_Silph_text_54:
-.string "GIOVANNI: ANDRA, {PLAYER}, confío\n"
-	.string "en vuestra capacidad como\l"
-	.string "entrenadores, CIUDAD AZAFRÁN y\l"
+.string "GIOVANNI: ANDRA y {PLAYER}, confío\n"
+	.string "en vuestra capacidad como entrenadores.\l"
 	.string "SILPH supondrá un nuevo reto para\l"
-	.string "volver a probaros, una vez dentro\l"
-	.string "de la ciudad, id inmediatamente a\l"
-	.string "SILPH y ocupáos de despejar el\l"
-	.string "edificio de policías.$"
+	.string "a probaros, dicen que su seguridad\l"
+	.string "es impenetrable: quiero que os\l"
+	.string "encargéis de demostrar lo contrario.$"
 
 RocketHideout_8F_Mision_Silph_text_55:
-.string "ANDRA: No le fallaremos JEFE.$"
+.string "ANDRA: No le fallaremos, JEFE.$"
 
 RocketHideout_8F_Mision_Silph_move1:
 walk_in_place_up
@@ -3197,6 +3210,8 @@ lock
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setflag FLAG_RECEIVED_SHOAL_SHELL_2
+setflag FLAG_NUEVA_292
 addobject 1
 addobject 10
 addobject 2
@@ -4078,6 +4093,8 @@ fadescreen 1
 delay 20
 removeobject 6
 fadescreen 0
+setflag FLAG_RECEIVED_SHOAL_SHELL_2
+setflag FLAG_NUEVA_292
 clearflag FLAG_RECEIVED_SHOAL_SHELL_1
 setvar VAR_VERDANTURF_TOWN_STATE, 1
 setvar VAR_PACIFIDLOG_TOWN_STATE, 1

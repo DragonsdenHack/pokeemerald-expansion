@@ -47,7 +47,13 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_23.1 MSGBOX_AUTOCLOSE
 applymovement 8, Route28_Escena_Lance_Move_5
 waitmovement 0x0
+opendoor 47, 7
+waitdooranim
+applymovement 8, VerdanturfTown_Move_22
+waitmovement 0x0
 removeobject 8
+closedoor 47, 7
+waitdooranim
 msgbox RocketHideout_8F_Mision_Silph_text_24 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40DC, 6
 warpsilent MAP_FARAWAY_ISLAND_ENTRANCE, 18, 33
