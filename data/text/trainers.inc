@@ -9941,10 +9941,10 @@ Route23_Text_Policia7Intro:
 	.string "ultimamente parece que regalan las\l"
 	.string "MEDALLAS, no para de entrar gente\l"
 	.string "a la CALLE VICTORIA como si fuera\l"
-	.string "el lugar más trivial del mundo, ya\l"
-	.string "van 4 contigo en solo unas horas,\l"
-	.string "¡vas a aprender a respetar este\l"
-	.string "lugar!$"
+	.string "el lugar más trivial del mundo. \l"
+	.string "Contigo van 4 en solo unas horas,\l"
+	.string "¡vas a aprender a respetar\l"
+	.string "este lugar!$"
 
 
 Route23_Text_Policia7Defeated:
@@ -16109,10 +16109,10 @@ VictoryRoad3F_Text_Pareja1Defeated:
 
 
 VictoryRoad3F_Text_Pareja1PostBattle:
-	.string "DESI: Acabaríamos contigo\n"
+	.string "DESI: Creí que acabaríamos contigo\n"
 	.string "en un abrir y cerrar de ojos.\p"
-	.string "Para luchar con nosotros, hay\n"
-	.string "que tener dos POKéMON.$"
+	.string "Parece que hay otra clase de\n"
+	.string "ENTRENADOR fuerte, además del GUAY.$"
 
 
 

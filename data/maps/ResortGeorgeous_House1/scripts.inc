@@ -113,11 +113,11 @@ playse SE_BALL_THROW
 removeobject 1
 removeobject 3
 removeobject 4
-addobject 5
 delay 10
 playse SE_EXIT
 waitse
 delay 10
+addobject 5
 fadescreen 0
 fadeoutbgm 0
 playse MUS_RG_SEVII_45

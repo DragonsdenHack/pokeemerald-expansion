@@ -547,15 +547,15 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_1.1:
 	.string "de CIENTÍFICO!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
-.string "Te seré sincero MOV.SÍSMICO es un\n"
+.string "Te seré sincero, MOV.SÍSMICO es un\n"
 	.string "pésimo movimiento, solo sería útil\l"
-	.string "en POKÉMON como CHANSEY que son\l"
-	.string "incapaces de causar daño directo,\l"
-	.string "todo el que lo use en un CHARIZARD\l"
-	.string "es un inepto, estoy dispuesto a\l"
-	.string "darle algo que de verdad causa\l"
-	.string "daño al entrenador capaz de reunir\l"
-	.string "las 8 MEDALLAS de GIMNASIO.$"
+	.string "en POKÉMON como CHANSEY, que son\l"
+	.string "incapaces de causar daño directo.\l"
+	.string "Todo el que lo use en un CHARIZARD\l"
+	.string "es un inepto.\l"
+	.string "Estoy dispuesto a dar algo que sí\l"
+	.string "causa daño al ENTRENADOR capaz de\l"
+	.string "reunir las 8 MEDALLAS de GIMNASIO.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5}\n"
@@ -573,9 +573,9 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_4:
 	.string "movimiento, de todos modos.\l"
 	.string "¿A quién le importa esa\l"
 	.string "restricción de poder usar un solo\l"
-	.string "movimiento si con ello te vale\l"
-	.string "para arrasar con todo lo que se te\l"
-	.string "ponga enfrente de un golpe?$"
+	.string "movimiento, si con ello te vale\l"
+	.string "para arrasar con todo lo que se\l"
+	.string "te ponga enfrente?$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_5:
 .string "¡Vaya!\n"

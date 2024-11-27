@@ -92,22 +92,27 @@ release
 end
 
 Ruta23_No_Puedes_Pasar_Texto_1:
-.string "(Debería de ver qué quiere\n"
+.string "-Debería de ver qué quiere\n"
 	.string "GIOVANNI de mí justo antes de\l"
 	.string "afrontar esta misión tan\l"
-	.string "importante).$"
+	.string "importante.-$"
 
 Route23_Llamada_Giovanni::
 playse SE_POKENAV_CALL
-delay 30
-playse SE_POKENAV_HANG_UP
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Llamada_Giovanni_Move_1
 waitmovement 0x0
+waitse
+delay 10
+playse SE_POKENAV_HANG_UP
+waitse
+delay 10
 msgbox Route23_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route23_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 10
 setvar VAR_UNUSED_0x40F7, 92
 release
 end
@@ -147,6 +152,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_2
 applymovement 8, Route23_Combate_Andra_Move_2
 waitmovement 0x0 
+waitse
 delay 15
 applymovement 8, Route23_Combate_Andra_Move_5
 waitmovement 0x0 
@@ -165,6 +171,7 @@ applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_2
 applymovement 8, Route23_Combate_Andra_Move_2
 waitmovement 0x0 
 delay 15
+waitse
 applymovement 8, Route23_Combate_Andra_Move_5.2
 waitmovement 0x0 
 goto Route23_Combate_Andra
@@ -195,108 +202,163 @@ msgbox Route23_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 8, Route23_Combate_Andra_Move_4
 waitmovement 0x0 
 msgbox Route23_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route23_Combate_Andra_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Route23_Combate_Andra_Move_4
 waitmovement 0x0
 playse 559
 msgbox Route23_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route23_Combate_Andra_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_ANDRA_6, Route23_Combate_Andra_Texto_6
 msgbox Route23_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Route23_Combate_Andra_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox Route23_Combate_Andra_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Route23_Combate_Andra_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox Route23_Combate_Andra_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Route23_Combate_Andra_Move_4.3
+waitmovement 0x0
+delay 10
+msgbox Route23_Combate_Andra_Texto_7.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Route23_Combate_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route23_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Route23_Combate_Andra_Move_7
 waitmovement 0x0
+delay 20
 msgbox Route23_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Route23_Combate_Andra_Move_7.1
+waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
 removeobject 8
+waitse
+delay 10
 setvar VAR_UNUSED_0x40F7, 91
 release
 end
 
+Route23_Combate_Andra_Move_7.1:
+walk_up
+step_end
+
+Route23_Combate_Andra_Move_4.3:
+delay_8
+face_up
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+Route23_Combate_Andra_Move_4.1:
+face_left
+step_end
+
+Route23_Combate_Andra_Move_4.2:
+face_down
+step_end
+
 Route23_Combate_Andra_Texto_1:
-.string "ANDRA: Ya has llegado {PLAYER}, no\n"
-	.string "ha sido fácil eh, entre nosotros,\l"
-	.string "necesité de varios intentos para\l"
-	.string "poder derrotar a ATLAS y obtener\l"
-	.string "la última MEDALLA, era incluso más\l"
-	.string "fuerte de lo que pensaba.$"
+.string "Así que tú también has llegado.\n"
+	.string "No ha sido fácil, ¿eh?\l"
+	.string "Entre nosotros, necesité de varios\l"
+	.string "intentos para poder derrotar a ATLAS y\l"
+	.string "obtener la última MEDALLA, era incluso\l"
+	.string "más fuerte de lo que pensaba.$"
 
 Route23_Combate_Andra_Texto_2:
-.string "Pero es una suerte tener a alguien\n"
-	.string "así al mando, AZUL y ROJO no han\l"
-	.string "tenido la oportunidad de luchar\l"
-	.string "contra alguien de su nivel antes\l"
-	.string "de enfrentar a la ÉLITE 4,\l"
-	.string "¿recuerdas cuando en la CENTRAL\l"
+.string "Pero es una suerte tener a alguien así\n"
+	.string "al mando; AZUL y ROJO no han tenido la\l"
+	.string "oportunidad de luchar contra alguien\l"
+	.string "de ese nivel, antes de enfrentar a\l"
+	.string "la ÉLITE 4.\l"
+	.string "¿Recuerdas cuando en la CENTRAL\l"
 	.string "ENERGÍA logró derrotar a LORELEI?$"
 
 Route23_Combate_Andra_Texto_3:
 .string "No quiero imaginarme el nivel\n"
-	.string "actual de nuestro LÍDER GIOVANNI,\l"
-	.string "no solo fue CAMPEÓN varias veces,\l"
+	.string "actual de nuestro GIOVANNI.\l"
+	.string "No solo fue CAMPEÓN varias veces,\l"
 	.string "sino que todo lo ocurrido desde\l"
 	.string "entonces le ha vuelto aún más\l"
 	.string "fuerte, es admirable.$"
 
 Route23_Combate_Andra_Texto_4:
-.string "Si esperas gran cosa de la CALLE\n"
-	.string "VICTORIA, lamento decepcionarte\l"
-	.string "{PLAYER}, pero tienen el nivel\l"
-	.string "justo para servir de\l"
+    .string "No esperas gran cosa de CALLE VICTORIA.\n"
+	.string "Tienen el nivel justo para servir de\l"
 	.string "entrenamiento, empiezo a creer que\l"
-	.string "muchos de ellos solo están allí\l"
-	.string "por haber comprado las MEDALLAS en\l"
-	.string "algún tipo de mercado negro.$"
+	.string "muchos de ellos solo están allí por\l"
+	.string "haber comprado las MEDALLAS en el\l"
+	.string "mercado negro.$"
+
+Route23_Combate_Andra_Texto_4.1:
+	.string "Tiene gracia, ¿no? Los que van a\n"
+	.string "entrar ahí de forma legal, somos\l"
+	.string "precisamente nosotros.$"
 
 Route23_Combate_Andra_Texto_5:
 .string "Sin embargo{PAUSE 25}…{PAUSE 25}\n"
-	.string "Aún puedo prepararme algo más\l"
-	.string "antes de entrar a desafiar al ALTO\l"
-	.string "MANDO, me ha costado, pero mi\l"
-	.string "equipo al fin está completo,\l"
-	.string "únicamente le falta subir algo más\l"
-	.string "de nivel y la ÉLITE 4 no podrá\l"
-	.string "derrotarme, ¡muéstrame hasta dónde\l"
-	.string "has llegado!$"
+	.string "Aún puedo prepararme algo más.\l"
+	.string "Ha costado, pero mi equipo al fin está\l"
+	.string "completo, un poco más de nivel, ¡y\l"
+	.string "la ÉLITE 4 no podrá derrotarme!$"
+
+Route23_Combate_Andra_Texto_5.1:
+	.string "Dime, {PLAYER}.\l"
+	.string "¿¡Tú podrías derrotarlos ya!?$"
 
 Route23_Combate_Andra_Texto_6:
 .string "Así que aún no estoy lista.$"
 
 Route23_Combate_Andra_Texto_7:
-.string "Vaya, pensé que después de quedar\n"
-	.string "en empate técnico con AZUL tendría\l"
-	.string "oportunidad contigo, si me\l"
-	.string "enfrento a él por el campeonato,\l"
-	.string "la próxima mi CROBAT quedará con\l"
-	.string "salud suficiente como para\l"
-	.string "sobrevivir al PÁJARO OSADO después\l"
-	.string "de tumbar a su BLASTOISE, en\l"
-	.string "cuanto a ti{PAUSE 25}…{PAUSE 25}\l"
+.string "Vaya{PAUSE 25}…{PAUSE 25}\n"
+	.string "Pensé que después de quedar en empate\l"
+	.string "técnico con AZUL, tendría oportunidad\l"
+	.string "contigo.$"
+	
+Route23_Combate_Andra_Texto_7.1:
+    .string "Si me enfrento a él por el campeonato,\n"
+	.string "la próxima mi CROBAT quedará con salud\l"
+	.string "suficiente como para sobrevivir al PÁJARO\l"
+	.string "OSADO, después de tumbar a su BLASTOISE.$"
+
+Route23_Combate_Andra_Texto_7.2:
+	.string "En cuanto a ti{PAUSE 25}…{PAUSE 25}\n"
 	.string "Espero tenerte cerca si llegamos a\l"
-	.string "las salas finales, ya oiste a\l"
-	.string "GIOVANNI, LANCE cuenta con un\l"
-	.string "poder inmenso, y ese ROJO es una\l"
-	.string "incógnita, ha pasado mucho desde\l"
-	.string "que nos encontramos con él en el\l"
-	.string "MT.MOON, pero sigue siendo el\l"
-	.string "único al que yo haya visto\l"
-	.string "derrotarte{PAUSE 5}…{PAUSE 5}$"
+	.string "las salas finales, ya oiste a GIOVANNI.$"
+
+Route23_Combate_Andra_Texto_7.3:
+	.string "LANCE cuenta con un poder inmenso, y\n"
+	.string "ROJO es una incógnita: ha pasado mucho\l"
+	.string "desde que nos encontramos con él en el\l"
+	.string "MT.MOON, pero sigue siendo el único al\l"
+	.string "que yo haya visto derrotarte{PAUSE 5}…{PAUSE 5}$"
 
 Route23_Combate_Andra_Texto_8:
-.string "En fin {PLAYER}, te deseo suerte,\n"
-	.string "es hora de poner a prueba a\l"
-	.string "nuestros POKÉMON contra los\l"
-	.string "mejores ENTRENADORES, tengo plena\l"
-	.string "confianza en que van a estar a la\l"
-	.string "altura.$"
+.string "En fin, {PLAYER}, te deseo suerte.\n"
+	.string "Llegó la hora de poner a prueba a\l"
+	.string "nuestros POKÉMON contra los mejores,\l"
+	.string "tengo plena confianza en que van a\l"
+	.string "estar a la altura.$"
 
 Route23_Combate_Andra_Texto_9:
-.string "Exprime al máximo tu último\n"
-	.string "entrenamiento en la CALLE\l"
-	.string "VICTORIA, la próxima vez que nos\l"
-	.string "veamos será ya en el campo de\l"
-	.string "batalla.$"
+.string "Aprovecha tu último entrenamiento en la\n"
+	.string "CALLE VICTORIA, la próxima vez que nos\l"
+	.string "veamos, será ya en el campo de batalla.$"
 
 Route23_Combate_Andra_Move_1:
 walk_in_place_up

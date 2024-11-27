@@ -108,7 +108,7 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_1:
 	.string "gente solo me traiga muñecas para\l"
 	.string "jugar, nadie se da cuenta de que\l"
 	.string "mi verdadero talento es el combate\l"
-	.string "POKÉMON, me tratan como una simple\l"
+	.string "POKÉMON. Me tratan como una simple\l"
 	.string "niña, si solo encontrara un buen\l"
 	.string "ENTRENADOR con el que pasar el\l"
 	.string "rato.$"

@@ -69,20 +69,93 @@ msgbox RocketHideout_9F_Presentacion_Sala_Texto_5 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_9F_Presentacion_Sala_Move_4
 applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5
 waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_9F_Presentacion_Sala_Move_5.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5.2
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5.3
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5.4
+waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5.5
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5.6
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_9F_Presentacion_Sala_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
 playse SE_EXIT
 setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
 removeobject 10
+waitse
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_9F_Presentacion_Sala_Move_5.7
+waitmovement 0x0
+special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 93
 release
 end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.7:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.6:
+face_down
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.5:
+face_right
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.4:
+walk_in_place_up
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.3:
+delay_8
+face_up
+delay_8
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.2:
+delay_8
+face_left
+delay_8
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
 
 RocketHideout_9F_Presentacion_Sala_Texto_6:
 	.string "Nunca pongas a tu enemigo entre la\n"
@@ -106,13 +179,13 @@ RocketHideout_9F_Presentacion_Sala_Texto_10:
 RocketHideout_9F_Presentacion_Sala_Texto_11:
 	.string "¡Pon a ROJO entre la espada y la pared,\n"
 	.string "muéstrale algo que jamás ha visto, y\l"
-	.string "entonces…!$"
+	.string "entonces{PAUSE 15}…{PAUSE 15}!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_12:
-	.string "Entonces…$"
+	.string "Entonces{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_13:
-	.string "…será incapaz de reaccionar a\n"
+	.string "{PAUSE 15}…{PAUSE 15}será incapaz de reaccionar a\n"
 	.string "tiempo, de dar lo mejor de sí.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
@@ -120,12 +193,11 @@ RocketHideout_9F_Presentacion_Sala_Texto_1:
 	.string "observa este lugar {PLAYER}.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_2:
-.string "Aquí nos centramos en proporcionar\n"
-	.string "a nuestros mejores ROCKETS las\l"
-	.string "herramientas para llevar al límite\l"
-	.string "la única variable que depende\l"
-	.string "exclusivamente de nosotros: el\l"
-	.string "entrenamiento.$"
+.string "Aquí nos centramos en proporcionar a\n"
+	.string "nuestros mejores ROCKET las herramientas\l"
+	.string "para llevar al límite la única variable\l"
+	.string "que depende exclusivamente de nosotros:\l"
+	.string "el entrenamiento.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_3:
 .string "Todo cuanto necesitas para llevar\n"
@@ -140,13 +212,13 @@ RocketHideout_9F_Presentacion_Sala_Texto_4:
 	.string "definitiva la LIGA POKÉMON.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_5:
-.string "Confío en ti {PLAYER}, no importa\n"
-	.string "la clase de poderes a los que\l"
-	.string "vayas a enfrentarte si sabes\l"
-	.string "mantener la cabeza fría y sacar a\l"
-	.string "relucir lo mejor de tu equipo.\l"
-	.string "Desde aquí estaremos atentos a lo\l"
-	.string "que ocurra. No estarás solo\l"
+.string "Confío en ti, {PLAYER}.\n"
+	.string "No importa la clase de poderes a los que\l"
+	.string "vayas a enfrentarte, si sabes mantener\l"
+	.string "la cabeza fría y sacar a relucir lo\l"
+	.string "mejor de tus POKÉMON.\l"
+	.string "Desde aquí estaremos atentos a todo\l"
+	.string "cuanto ocurra, no estarás solo\l"
 	.string "enfrentando a la ÉLITE 4.$"
 
 RocketHideout_9F_Presentacion_Sala_Move_1:
@@ -167,6 +239,7 @@ step_end
 
 RocketHideout_9F_Presentacion_Sala_Move_4:
 walk_in_place_left
+delay_16
 walk_in_place_down
 step_end
 

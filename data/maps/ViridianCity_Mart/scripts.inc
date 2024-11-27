@@ -204,16 +204,11 @@ Base_Profunda_Mercado_7_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_7_Pokemart:
-    .2byte 105
-    .2byte 72
-	.2byte 624
-	.2byte 611
-	.2byte 636
-	.2byte 599
-	.2byte 215
-	.2byte 218
-	.2byte 219
-	.2byte 223
+    .2byte ITEM_EXP_CANDY_XS
+    .2byte ITEM_EXP_CANDY_S
+	.2byte ITEM_EXP_CANDY_XM
+	.2byte ITEM_EXP_CANDY_M
+	.2byte ITEM_PP_MAX
 	.2byte ITEM_NONE
 	release
 	end
@@ -230,12 +225,11 @@ Base_Profunda_Mercado_8_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_8_Pokemart:
-    .2byte 420
-	.2byte 421
-	.2byte 422
-	.2byte 423
-	.2byte 424
-	.2byte 425
+	.2byte ITEM_TM36
+	.2byte ITEM_TM54
+	.2byte ITEM_POWER_HERB
+	.2byte ITEM_WHITE_HERB
+	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_NONE
 	release
 	end
@@ -252,13 +246,11 @@ Base_Profunda_Mercado_9_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_9_Pokemart:
-    .2byte 79
-    .2byte 73
-	.2byte 74
-	.2byte 75
-	.2byte 76
-	.2byte 77
-	.2byte 78
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_ICE_STONE
+	.2byte ITEM_CRACKED_POT
 	.2byte ITEM_NONE
 	release
 	end
@@ -290,10 +282,10 @@ Kanto_Ciudades_Mercados_Pokemart:
 	.2byte 46
 	.2byte 47
 	.2byte 48
-	.2byte 120
-	.2byte 114
-	.2byte 115
-	.2byte 116
+	.2byte ITEM_REPEL
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_NONE
 	release
 	end

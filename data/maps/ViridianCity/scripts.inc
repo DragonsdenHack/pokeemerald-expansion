@@ -243,7 +243,7 @@ ViridianCity_Entrenador_Especial_Texto_4:
 	.string "equipado a cada turno, ¡pero ten\l"
 	.string "cuidado!\l"
 	.string "¡Únicamente tendrá estos efectos\l"
-	.string "con los tipo VENENO!\l"
+	.string "con los TIPO VENENO!\l"
 	.string "¡Si otro POKÉMON lo lleva equipado\l"
 	.string "le restará 1/8 de salud!\l"
 	.string "¿No es ideal para castigar a los\l"

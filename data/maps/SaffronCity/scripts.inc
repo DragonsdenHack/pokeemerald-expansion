@@ -759,7 +759,7 @@ step_end
 
 SaffronCity_Secundaria_Motorista_Texto_1:
 .string "Ese vejestorio…\n"
-	.string "Va lograr que todo KANTO odie a\l"
+	.string "Va lograr que toda KANTO odie a\l"
 	.string "los MOTORISTAS{PAUSE 5}…{PAUSE 5}$"
 
 SaffronCity_Secundaria_Motorista_Texto_2:
@@ -767,47 +767,43 @@ SaffronCity_Secundaria_Motorista_Texto_2:
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 SaffronCity_Secundaria_Motorista_Texto_3:
-.string "¡EJECUTIVO ROCKET {PLAYER}!\n"
+.string "¡EJECUTIVO {PLAYER}!\n"
 	.string "¿No te has enterado?\l"
 	.string "¡Quieren quitar los SUBTERRÁNEOS\l"
-	.string "como punto de conexión entre\l"
-	.string "CELESTE y CARMÍN, también entre\l"
-	.string "AZULONA y LAVANDA!\l"
+	.string "como punto de conexión entre CELESTE y\l"
+	.string "CARMÍN, también entre AZULONA y LAVANDA!\l"
 	.string "¡Lo peor es que van a echarnos la\l"
-	.string "culpa a nosotros, los MOTORISTAS,\l"
-	.string "por causar supuestos disturbios\l"
-	.string "allí!\l"
+	.string "culpa a nosotros, los MOTORISTAS, por\l"
+	.string "causar supuestos disturbios allí!\l"
 	.string "¡Y todo lo que quieren es que la\l"
 	.string "gente pase por CIUDAD AZAFRÁN,\l"
-	.string "justo donde estará la nueva\l"
-	.string "empresa que van a crear, a costa\l"
-	.string "de nuestra reputación!$"
+	.string "justo donde estará la nueva empresa\l"
+	.string "que van a crear, a costa de nuestra\l"
+	.string "reputación!$"
 
 SaffronCity_Secundaria_Motorista_Texto_4:
 .string "¡Guau!\n"
-	.string "¡Eres increíble {PLAYER}!\l"
-	.string "Entonces ha abandonado por el\l"
-	.string "momento su idea de quitar las VÍAS\l"
-	.string "SUBTERRÁNEAS!\l"
-	.string "¡Espera a ver cuando se lo cuente\l"
-	.string "a los demás!$"
+	.string "¡Eres increíble, {PLAYER}!\l"
+	.string "Entonces, por ahora ha abandonado su\l"
+	.string "idea de quitar las VÍAS SUBTERRÁNEAS!\l"
+	.string "¡Espera a ver cuando se lo\l"
+	.string "cuente a los demás!$"
 
 SaffronCity_Secundaria_Motorista_Texto_5:
 .string "Ahora entiendo el porqué de tu\n"
-	.string "fama como ENTRENADOR excepcional,\l"
-	.string "aquí tienes el POKÉMON del que te\l"
-	.string "hablé.$"
+	.string "fama como ENTRENADOR excepcional, aquí\l"
+	.string "tienes el POKÉMON del que te hablé.$"
 
 SaffronCity_Secundaria_Motorista_Texto_6:
 .string "¡¡OBTUVISTE UN HITMONCHAN AL NV.37!!$"
 
 SaffronCity_Secundaria_Motorista_Texto_7:
 .string "Lo cierto es que fue un regalo de\n"
-	.string "mi amigo el MAESTRO KÁRATE, pero\l"
-	.string "un MOTORISTA como yo no pinta nada\l"
-	.string "con un POKÉMON como HITMONCHAN,\l"
+	.string "mi amigo, el MAESTRO KÁRATE.\l"
+	.string "Pero un MOTORISTA como yo no pinta\l"
+	.string "nada con un POKÉMON como HITMONCHAN,\l"
 	.string "espero que tú sepas usarlo mejor.\l"
-	.string "Ahora si me voy {PLAYER}, sabes que\l"
+	.string "Ahora si me voy, {PLAYER}, sabes que\l"
 	.string "el TEAM ROCKET siempre contará con\l"
 	.string "nuestro apoyo.$"
 
@@ -819,10 +815,9 @@ SaffronCity_Secundaria_Motorista_Texto_8:
 	.string "poder encontrarlo.$"
 
 SaffronCity_Secundaria_Motorista_Texto_9:
-.string "Solo alguien de tu poder e\n"
-	.string "influencia puede poner en su lugar\l"
-	.string "al empresario que está detrás de\l"
-	.string "todo esto.\l"
+.string "Solo alguien de tu poder e influencia\n"
+	.string "puede poner en su lugar al empresario\l"
+	.string "que está detrás de todo esto.\l"
 	.string "Si nos ayudas con este problema,\l"
 	.string "te daré un fuerte y raro POKÉMON.\l"
 	.string "¿Qué dices?$"
@@ -831,33 +826,32 @@ SaffronCity_Secundaria_Motorista_Texto_10:
 .string "¡Sabía que no nos fallarías!\n"
 	.string "¡Ese es el espíritu de cooperación\l"
 	.string "entre compatriotas!\l"
-	.string "¡Escucha {PLAYER}!\l"
+	.string "¡Escucha, {PLAYER}!\l"
 	.string "El hombre responsable de todo esto\l"
 	.string "es un aficionado a los FÓSILES, y\l"
 	.string "pasa horas en el MUSEO DE CIUDAD\l"
 	.string "PLATEADA.$"
 
 SaffronCity_Secundaria_Motorista_Texto_11:
-.string "En realidad es el dueño de una\n"
+.string "En realidad, es el dueño de una\n"
 	.string "empresa ferroviaria, que quiere\l"
-	.string "conectar JOHTO con KANTO, pero\l"
-	.string "cree que las VÍAS SUBTERRÁNEAS de\l"
-	.string "la región afectarían a su negocio\l"
-	.string "de seguir activas, es por ello por\l"
-	.string "lo que quiere deshacerse de ellas\l"
-	.string "alegando cualquier motivo.$"
+	.string "conectar JOHTO con KANTO.\l"
+	.string "Él cree que las VÍAS SUBTERRÁNEAS de\l"
+	.string "KANTO afectarían a su negocio.\l"
+	.string "Por ello quiere deshacerse de ellas,\l"
+	.string "sea como sea.$"
 
 SaffronCity_Secundaria_Motorista_Texto_12:
 .string "Si alguien como tú le deja claro\n"
 	.string "como funcionan aquí las cosas,\l"
 	.string "mantendremos las VÍAS SUBTERRÁNEAS\l"
-	.string "y nuestra reputación, confiamos en\l"
-	.string "ti {PLAYER}.$"
+	.string "y nuestra reputación.\l"
+	.string "Confiamos en ti, {PLAYER}.$"
 
 SaffronCity_Secundaria_Motorista_Texto_13:
-.string "Vaya, lo entiendo camarada, debes\n"
-	.string "de estar ya muy solicitado por\l"
-	.string "GIOVANNI.$"
+.string "Vaya, lo entiendo, camarada.\n"
+	.string "Debes de estar ya muy\l"
+	.string "solicitado por GIOVANNI.$"
 
 
 Silph_Barrera::
@@ -883,8 +877,8 @@ release
 end
 
 Silph_Barrera_Texto_1:
-.string "(Si entro ahora aquí puedo echar a\n"
-	.string "perder toda la misión).$"
+.string "-Si entro ahora aquí puedo echar a\n"
+	.string "perder toda la misión.-$"
 
 Silph_Barrera_Move_1:
 walk_in_place_down

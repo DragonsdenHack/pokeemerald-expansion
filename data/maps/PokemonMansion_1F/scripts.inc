@@ -96,8 +96,6 @@ PokemonMansion1F_EventScript_Cientifico::
 	end
 
 PokemonMansion_1F_Ladrones_Centro::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0X0
 delay 15
@@ -113,8 +111,6 @@ waitmovement 0X0
 goto PokemonMansion_1F_Ladrones
 
 PokemonMansion_1F_Ladrones_Izq::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0X0
 delay 15
@@ -130,8 +126,6 @@ waitmovement 0X0
 goto PokemonMansion_1F_Ladrones
 
 PokemonMansion_1F_Ladrones_Der::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0x0
 delay 15
@@ -566,8 +560,8 @@ PokemonMansion_1F_Ladrones_Texto_1:
 PokemonMansion_1F_Ladrones_Texto_2:
 .string "Sí. No conviene permanecer en\n"
 	.string "KANTO más tiempo, ya nos conocen,\l"
-	.string "hemos estafado a demasiada gente,\l"
-	.string "en JOHTO iniciaremos una nueva\l"
+	.string "hemos estafado a demasiada gente.\l"
+	.string "En JOHTO iniciaremos una nueva\l"
 	.string "etapa, aunque sus habitantes son\l"
 	.string "algo menos pudientes que los de\l"
 	.string "aquí{PAUSE 5}…{PAUSE 5}$"
@@ -585,17 +579,17 @@ PokemonMansion_1F_Ladrones_Texto_4:
 PokemonMansion_1F_Ladrones_Texto_5:
 .string "¿Cómo dices?\n"
 	.string "¿Quieres recuperar los 2.000.000¥\l"
-	.string "que cobramos a ese científico\l"
-	.string "por el METEORITO falso?$"
+	.string "que cobramos a ese científico, el\l"
+	.string "del METEORITO falso?$"
 
 PokemonMansion_1F_Ladrones_Texto_6:
 .string "Eso ya pasó, debió de darse cuenta\n"
 	.string "en su momento, ante la ley no\l"
-	.string "podrá hacer nada ya que se le ha\l"
+	.string "podrá hacer nada, ya que se le ha\l"
 	.string "acabado el plazo de reclamación.\l"
 	.string "Su dinero lo tenemos ahora\l"
-	.string "nosotros de forma legítima, ¿es\l"
-	.string "que no lo entiendes?\l"
+	.string "nosotros de forma legítima,\l"
+	.string "¿es que no lo entiendes?\l"
 	.string "Es lo que tiene conocerse bien la\l"
 	.string "ley chico, aquellos que mejor la\l"
 	.string "conocen son aquellos que parece\l"
@@ -653,17 +647,14 @@ PokemonMansion_1F_Ladrones_Texto_14:
 
 PokemonMansion_1F_Ladrones_Texto_15:
 .string "¿Donde has comprado esos POKÉMON?\n"
-	.string "Me dijeron que ya no quedaban\l"
-	.string "mejores ejemplares en el mercado\l"
-	.string "negro.\l"
+	.string "Me dijeron que ya no quedaban mejores\l"
+	.string "ejemplares en el mercado negro.\l"
 	.string "¡No puede ser!$"
 
 PokemonMansion_1F_Ladrones_Texto_16:
-.string "¿Se puede saber qué estáis\n"
-	.string "haciendo?\l"
-	.string "Acordamos largarnos de este lugar\l"
-	.string "y poner rumbo a JOHTO hace ya 10\l"
-	.string "min.$"
+.string "¿Se puede saber qué estáis haciendo?\n"
+	.string "Acordamos largarnos de este lugar, y\l"
+	.string "poner rumbo a JOHTO hace ya 10 minutos.$"
 
 PokemonMansion_1F_Ladrones_Texto_17:
 .string "Este tipo quiere recuperar el\n"
@@ -683,8 +674,8 @@ PokemonMansion_1F_Ladrones_Texto_20:
 .string "Puede que ahora tengas más idea de\n"
 	.string "como funcionan las cosas aquí por\l"
 	.string "KANTO, pero sigues siendo un\l"
-	.string "aficionado comparado con nosotros,\l"
-	.string "nadie nos supera en picardía, en\l"
+	.string "aficionado comparado con nosotros.\l"
+	.string "Nadie nos supera en picardía, en\l"
 	.string "aprovechar el momento y atacar\l"
 	.string "cuando la víctima más vulnerable\l"
 	.string "se encuentra.$"
@@ -728,8 +719,7 @@ PokemonMansion_1F_Ladrones_Texto_28:
 	.string "¡Allí ofrecen 400.000¥!$"
 
 PokemonMansion_1F_Ladrones_Texto_29:
-.string "¿¡Qué crees que estás haciendo\n"
-	.string "ROCKET?!\l"
+.string "¿¡Qué crees que estás haciendo!?\n"
 	.string "¡Detente y…!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
@@ -738,9 +728,9 @@ PokemonMansion_1F_Ladrones_Texto_30:
 
 PokemonMansion_1F_Ladrones_Texto_31:
 .string "¡Ya es suficiente!\n"
-	.string "¡No creas que has ganado ROCKET!\l"
-	.string "¡La mayoría de la mercancía\l"
-	.string "ya está dentro de nuestro camión\l"
+	.string "¡No creas que has ganado, ROCKET!\l"
+	.string "¡La mayoría de la mercancía ya\l"
+	.string "está dentro de nuestro camión,\l"
 	.string "rumbo a JOHTO!\l"
 	.string "¡Solo has llegado a arrebatarnos\l"
 	.string "las migajas que faltaban por\l"
@@ -753,7 +743,7 @@ PokemonMansion_1F_Ladrones_Texto_32:
 	.string "¡Disfruta de la pobreza que asola\l"
 	.string "a esta región, ROCKET!\l"
 	.string "¡Pobreza a la que nosotros hemos\l"
-	.string "contribuido jojojo!$"
+	.string "contribuido, jojojo!$"
 
 PokemonMansion_1F_Ladrones_Move_1:
 emote_exclamation_mark

@@ -490,6 +490,9 @@ faceplayer
 applymovement 8, FuchsiaCity_Estafado_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_Estafado_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Estafado_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FuchsiaCity_Estafado_Texto_13 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq FuchsiaCity_Estafado_No
@@ -578,10 +581,12 @@ FuchsiaCity_Estafado_Texto_2:
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_3:
-.string "¡Eh, espera ROCKET!\n"
+.string "¡Eh! ¡Espera, ROCKET!\n"
 	.string "¡Eres mi última esperanza!\l"
-	.string "¡Escúchame!\l"
-	.string "He sido víctima de un engaño,\l"
+	.string "¡Escúchame!$"
+
+FuchsiaCity_Estafado_Texto_3.1:
+	.string "He sido víctima de un engaño,\n"
 	.string "invertí todos los ahorros que me\l"
 	.string "quedaban: 2.000.000¥, en comprar\l"
 	.string "un auténtio METEORITO proveniente\l"
@@ -601,28 +606,28 @@ FuchsiaCity_Estafado_Texto_4:
 	.string "¿Que nos has librado para siempre\l"
 	.string "de esos tramposos y se han mudado\l"
 	.string "a otra región?\l"
-	.string "¡Y has recuperado el dinero que\l"
-	.string "invertí en mi proyecto!$"
+	.string "¡¿Has recuperado el dinero que\l"
+	.string "invertí en mi proyecto?!$"
 
 FuchsiaCity_Estafado_Texto_5:
-.string "¡{PLAYER} entregó los 2000000¥\n"
+.string "¡{PLAYER} entregó los 2.000.000¥\n"
 	.string "al científico!$"
 
 FuchsiaCity_Estafado_Texto_6:
 .string "No puedo creer que haya recuperado\n"
-	.string "todo mi dinero, si te soy sincero,\l"
+	.string "todo mi dinero. Si te soy sincero,\l"
 	.string "tenía mis dudas de si obrarías\l"
-	.string "honradamente ROCKET, de si, aún\l"
-	.string "consiguiendo recuperar mi dinero,\l"
-	.string "no desaparecerías con él,\l"
-	.string "perdiéndose para siempre.$"
+	.string "honradamente, ROCKET, de si, aún\l"
+	.string "consiguiendo recuperar el dinero,\l"
+	.string "no desaparecerías con el,\l"
+	.string "perdiéndote para siempre.$"
 
 FuchsiaCity_Estafado_Texto_7:
 .string "Ahora veo que solo son\n"
 	.string "estereotipos, y que el dinero que\l"
 	.string "robáis realmente tiene un claro\l"
-	.string "objetivo detrás, aquí tienes lo\l"
-	.string "acordado ROCKET.$"
+	.string "objetivo detrás.\l"
+	.string "Aquí tienes lo acordado, ROCKET.$"
 
 FuchsiaCity_Estafado_Texto_8:
 	.string "¡Te has embolsado 200.000¥!$"
@@ -638,24 +643,22 @@ FuchsiaCity_Estafado_Texto_10:
 .string "¡¡OBTUVISTE UN SNORLAX AL NV.30!!$"
 
 FuchsiaCity_Estafado_Texto_11:
-.string "Ahora sí me voy, gracias por todo\n"
-	.string "ROCKET, al fin podré terminar mi\l"
-	.string "proyecto, te estaré siempre\l"
-	.string "agradecido, si algún día\l"
-	.string "logro algo importante, no dudaré\l"
+.string "Ahora sí me voy, gracias por todo.\n"
+	.string "Al fin podré terminar mi proyecto, te\l"
+	.string "estaré siempre agradecido, y si algún\l"
+	.string "día logro algo importante, no dudaré\l"
 	.string "en mencionarte.$"
 
 FuchsiaCity_Estafado_Texto_12:
 .string "Recuerda, deben de estar en ISLA\n"
-	.string "CANELA, aparte de ser la mayor\l"
+	.string "CANELA; aparte de ser la mayor\l"
 	.string "cuna de ladrones, es de los\l"
-	.string "últimos lugares que les quedan por\l"
-	.string "asaltar en KANTO.$"
+	.string "últimos lugares que les quedan\l"
+	.string "por asaltar en KANTO.$"
 
 FuchsiaCity_Estafado_Texto_13:
 .string "¿Accederías a intentar recuperar\n"
-	.string "el dinero que injustamente me han\l"
-	.string "robado?\l"
+	.string "todo ese dinero estafado?\l"
 	.string "Prometo darte el 10% de esos 2\l"
 	.string "millones si tienes éxito, y no\l"
 	.string "solo eso, también te daré un\l"
@@ -663,9 +666,8 @@ FuchsiaCity_Estafado_Texto_13:
 	.string "agradecimiento.$"
 
 FuchsiaCity_Estafado_Texto_14:
-.string "¡Al fin vuelvo a tener esperanzas\n"
-	.string "de recuperar mi dinero!\l"
-	.string "Mira ROCKET, los que me han\l"
+.string "¡Al fin vuelvo a tener esperanzas!\n"
+	.string "Mira, ROCKET, los que me han\l"
 	.string "estafado son profesionales en\l"
 	.string "esto, cambian constantemente las\l"
 	.string "zonas donde operan y los lugares\l"
@@ -689,14 +691,12 @@ FuchsiaCity_Estafado_Texto_16:
 	.string "ENTRENADOR, ROCKET, deben de haber\l"
 	.string "comprado a los mejores POKÉMON en\l"
 	.string "el mercado negro con todo el\l"
-	.string "dinero que han ganado estafando a\l"
-	.string "la gente.\l"
-	.string "Si consigues recuperar mi dinero\l"
-	.string "te daré un 10% del total, y un\l"
-	.string "fabuloso POKÉMON que no\l"
-	.string "encontrarás así como así, estaré\l"
-	.string "aquí esperando con ansias tu\l"
-	.string "actuación.$"
+	.string "dinero que han ganado estafando\l"
+	.string "a la gente.\l"
+	.string "Si consigues recuperar mi dinero, te\l"
+	.string "daré un 10% del total, y un fabuloso\l"
+	.string "POKÉMON que no encontrarás así como así,\l"
+	.string "estaré aquí, esperando tu actuación.$"
 
 FuchsiaCity_Estafado_Texto_17:
 .string "Oh…\n"

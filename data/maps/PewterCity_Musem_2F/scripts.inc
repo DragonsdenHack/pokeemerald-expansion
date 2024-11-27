@@ -158,10 +158,10 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_1:
 	.string "acontecimiento!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_2:
-.string "Tenlo en cuenta ROCKET, solo has\n"
+.string "Tenlo en cuenta, ROCKET: solo has\n"
 	.string "logrado retrasar la fecha en la\l"
-	.string "que esos subterráneos se cerrarán,\l"
-	.string "dentro de 3 años no quedará ni\l"
+	.string "que esos subterráneos se cerrarán.\l"
+	.string "Dentro de 3 años, no quedará ni\l"
 	.string "rastro de ellos.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
@@ -170,21 +170,20 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_4:
 .string "¿Vienes en nombre de los\n"
-	.string "MOTORISTAS para decirme que no\l"
+	.string "MOTORISTAS, para decirme que no\l"
 	.string "toque vuestras VÍAS SUBTERRÁNEAS?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_5:
-.string "Que quede una cosa bien clara\n"
-	.string "chico, yo provengo de JOHTO, y\l"
+.string "Que quede una cosa bien clara,\n"
+	.string "chico: yo provengo de JOHTO, y\l"
 	.string "vuestras guerras internas, si eres\l"
 	.string "o no del TEAM ROCKET, o MOTORISTA,\l"
 	.string "me dan exactamente igual, son solo\l"
-	.string "negocios, lo único de lo que esos\l"
-	.string "MOTORISTAS tienen miedo es de que\l"
-	.string "se les acabe el mercado negro que\l"
-	.string "tienen ahí montado en esos\l"
-	.string "subterráneos, pero eso a mi no me\l"
-	.string "importa.$"
+	.string "negocios.\l"
+	.string "Esos MOTORISTAS tienen miedo es de\l"
+	.string "que se les acabe el mercado negro\l"
+	.string "que tienen ahí montado.\l"
+	.string "Pero eso a mi no me importa.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_6:
 .string "Pareces alguien razonable e\n"
@@ -198,41 +197,39 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_6:
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_7:
 .string "¡A eso me refería yo!\n"
 	.string "¡Puede que hasta acabemos haciendo\l"
-	.string "negocios chico!$"
+	.string "negocios, chico!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_8:
 .string "Una pena que esto tenga que\n"
-	.string "terminar así, en fin, mis POKÉMON\l"
-	.string "y yo nos encargaremos de darte una\l"
-	.string "lección.$"
+	.string "terminar así.\l"
+	.string "En fin, mis POKÉMON y yo nos\l"
+	.string "encargaremos de darte una lección.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_9:
 .string "¿La luz de mi AMPHAROS se apagó?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_10:
 .string "No sabía que en KANTO hubiera\n"
-	.string "gente tan fuerte aparte de los\l"
-	.string "LÍDERES DE GIMNASIO, esta región\l"
+	.string "gente tan fuerte, aparte de los\l"
+	.string "LÍDERES DE GIMNASIO. Esta región\l"
 	.string "guarda más sorpresas de las que{PAUSE 5}…{PAUSE 5}$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_11:
 .string "¿¡Qué!?\n"
 	.string "¿Trabajas para GIOVANNI de forma\l"
-	.string "directa y ostentas uno de los\l"
+	.string "directa, y ostentas uno de los\l"
 	.string "cargos más importantes dentro del\l"
 	.string "TEAM ROCKET?\l"
-	.string "¿Y si no detengo mis intenciones\l"
+	.string "Si no detengo mis intenciones\l"
 	.string "de quitar esos túneles informarás\l"
 	.string "a GIOVANNI de esto?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_12:
 .string "Bien, bien.\n"
-	.string "Calma chico, me parece que ha\l"
-	.string "habido un malentendido, el proceso\l"
-	.string "de construcción de las vías de\l"
-	.string "tren llevará aún un par de años\l"
-	.string "más, esos túneles no me importan\l"
-	.string "por ahora, pueden seguir 1, 2 o 3\l"
-	.string "años más, ya habrá tiempo de\l"
-	.string "preocuparse por ellos.\l"
-	.string "¿No crees?$"
+	.string "Calma, chico.\l"
+	.string "Me parece que ha habido un malentendido,\l"
+	.string "el proceso de construcción de las vías\l"
+	.string "de tren llevará aún un par de años más,\l"
+	.string "esos túneles no me importan por ahora.\l"
+	.string "Ya habrá tiempo para preocuparse\l"
+	.string "por ellos, ¿no crees?$"
