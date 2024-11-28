@@ -58,6 +58,9 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 
 PokemonLeague_1F_Combate_Lorelei::
 msgbox PokemonLeague_1F_Combate_Lorelei_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_1F_Combate_Lorelei_Texto_2.1
 return
 
 PokemonLeague_LoreleisRoom_EventScript_Battle::
@@ -94,10 +97,11 @@ PokemonLeague_1F_Combate_Lorelei_Texto_2:
 	.string "duro, nunca había visto a tantos\l"
 	.string "talentos juntos aspirar al título\l"
 	.string "de CAMPEÓN, más te vale ser como\l"
-	.string "ellos, porque nadie me\l"
-	.string "supera entrenando POKÉMON TIPO\l"
-	.string "HIELO.\l"
-	.string "Los movimientos que congelan son\l"
+	.string "ellos, porque nadie me supera\l"
+	.string "entrenando POKÉMON TIPO HIELO.$"
+
+PokemonLeague_1F_Combate_Lorelei_Texto_2.1:
+	.string "Los movimientos que congelan son\n"
 	.string "mi especialidad, tus POKÉMON\l"
 	.string "estarán a mi merced cuando eso\l"
 	.string "ocurra.\l"

@@ -58,6 +58,9 @@ PokemonLeague_AgathasRoom_EventScript_Agatha::
 
 PokemonLeague_3F_Combate_Agatha::
 msgbox PokemonLeague_3F_Combate_Agatha_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_3F_Combate_Agatha_Texto_2.1
 return
 
 PokemonLeague_AgathasRoom_EventScript_Battle::
@@ -108,8 +111,10 @@ PokemonLeague_3F_Combate_Agatha_Texto_2:
 	.string "gracias a mis décadas de\l"
 	.string "experiencia y duro entrenamiento\l"
 	.string "he logrado entender mucho mejor a\l"
-	.string "este tipo.\l"
-	.string "¿{PLAYER}?\l"
+	.string "este tipo.$"
+
+PokemonLeague_3F_Combate_Agatha_Texto_2.1:
+	.string "¿{PLAYER}?\n"
 	.string "¡Te mostraré cómo lucha un\l"
 	.string "ENTRENADOR de verdad!$"
 

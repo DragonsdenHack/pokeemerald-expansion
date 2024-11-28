@@ -138,19 +138,22 @@ delay 10
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_18 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_BREAKABLE_DOOR
-applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_26.1
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_26.2
 waitmovement 0x0
 waitse
 delay 10
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_18.1 MSGBOX_AUTOCLOSE
 delay 10
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_26.3
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_26.3
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_26.3
 clearflag FLAG_HIDE_HO_OH
-delay 64
 playse SE_EXIT
-delay 21
+delay 25
 playse SE_EXIT
-delay 21
+delay 25
 playse SE_EXIT
+delay 55
 addobject 7
 addobject 8
 addobject 9
@@ -177,6 +180,11 @@ addobject 10
 addobject 11
 addobject 12
 playse SE_EXIT
+delay 25
+playse SE_EXIT
+delay 25
+playse SE_EXIT
+delay 55
 applymovement 12, PokemonLeague_5F_Azul_Rojo_Move_30
 applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_31
 applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_32
@@ -190,10 +198,11 @@ addobject 5
 addobject 6
 addobject 4
 playse SE_EXIT
-delay 26
+delay 25
 playse SE_EXIT
-delay 26
+delay 25
 playse SE_EXIT
+delay 55
 applymovement 4, PokemonLeague_5F_Azul_Rojo_Move_34
 applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_35
 applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_36
@@ -219,27 +228,28 @@ applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_38
 waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_29 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_HERACROSS, CRY_MODE_ENCOUNTER
-waitmoncry
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_30 MSGBOX_DEFAULT
 waitmoncry
 applymovement 4, PokemonLeague_5F_Azul_Rojo_Move_38
-delay 5
 applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_38
-delay 5
 applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_38
-delay 5
 applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_38
 delay 5
 applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_38
-delay 5
 applymovement 12, PokemonLeague_5F_Azul_Rojo_Move_38
-delay 5
 applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_38
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_38
 waitmovement 0x0
 special RemoveCameraObject
 playse SE_M_TAKE_DOWN
 delay 24
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
 playse SE_UNLOCK
 setmetatile 6, 2, 0x296, FALSE
 setmetatile 6, 1, 0x3F2, TRUE
@@ -273,24 +283,23 @@ waitse
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_32 MSGBOX_AUTOCLOSE
 fadenewbgm 627
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_42
-delay 5
 applymovement 7, PokemonLeague_5F_Azul_Rojo_Move_40
-delay 5
 applymovement 8, PokemonLeague_5F_Azul_Rojo_Move_40
-delay 5
 applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_41
-delay 5
 applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_43
-delay 5
 applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_44
-delay 5
 applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_45
-delay 5
 applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_46
-delay 5
 applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_47
 waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_33 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_37.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_33.1 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
 setflag FLAG_HIDE_HO_OH
 release
@@ -298,12 +307,23 @@ end
 
 PokemonLeague_5F_Azul_Rojo_Andra_Seguir::
 lock
-msgbox PokemonLeague_5F_Azul_Rojo_Texto_33 MSGBOX_SIGN
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_33.1 MSGBOX_SIGN
 release
 end
 
+PokemonLeague_5F_Azul_Rojo_Move_26.3:
+delay_8
+emote_exclamation_mark
+delay_8
+face_down
+step_end
+
 PokemonLeague_5F_Azul_Rojo_Move_26.1:
 walk_in_place_down
+step_end
+
+PokemonLeague_5F_Azul_Rojo_Move_26.2:
+walk_in_place_right
 step_end
 
 
@@ -401,11 +421,11 @@ PokemonLeague_5F_Azul_Rojo_Texto_14:
 	.string "ÉLITE 4.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_15:
-.string "Pero no abuelo, ¡ya veo que eres\n"
+.string "Pero no{PAUSE 15}…{PAUSE 15} abuelo, ¡ya veo que eres\n"
 	.string "el tipo de persona que te deja\l"
 	.string "tirado si no eres el número 1!\l"
-	.string "¡Jamás olvidaré lo ocurrido aquí\l"
-	.string "hoy!$"
+	.string "¡Jamás olvidaré lo\l"
+	.string "ocurrido aquí hoy!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_16:
 .string "ANDRA: ¡AZUL!\n"
@@ -523,21 +543,22 @@ PokemonLeague_5F_Azul_Rojo_Texto_33:
 	.string "¡Entra tú!\l"
 	.string "¡Yo contendré a estos aficionados!\l"
 	.string "¡Conmigo aquí no tienes que temer!\l"
-	.string "Después de ver a ROJO en acción me\l"
+	.string "Después de ver a ROJO en acción, me\l"
 	.string "he dado cuenta de que tú eres el\l"
-	.string "único con una oportunidad de\l"
-	.string "hacerle combate a esa apisonadora\l"
-	.string "que tumba entrenadores como fichas\l"
-	.string "de dominó.\l"
-	.string "¡En el nombre del TEAM ROCKET!\l"
+	.string "único con una oportunidad de hacerle\l"
+	.string "combate a esa apisonadora que tumba\l"
+	.string "entrenadores como fichas de dominó.$"
+
+PokemonLeague_5F_Azul_Rojo_Texto_33.1:
+	.string "¡En el nombre del TEAM ROCKET!\n"
 	.string "¡Aquí tienes tu oportunidad!\l"
 	.string "Eres un ENTRENADOR completamente\l"
 	.string "distinto a ese que fue derrotado\l"
 	.string "en el MT.MOON, has visto una KANTO\l"
 	.string "que ese ROJO jamás tendrá el\l"
 	.string "privilegio de conocer.\l"
-	.string "¡Confío en ti y todo lo que has\l"
-	.string "mejorado!\l"
+	.string "¡Confío en ti y en todo\l"
+	.string "lo que has mejorado!\l"
 	.string "¡Demuéstrale de una vez por todas\l"
 	.string "lo que vales!$"
 

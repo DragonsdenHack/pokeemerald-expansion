@@ -105,6 +105,7 @@ Base_Profunda_Mercado_3_Pokemart:
 	.2byte 604
 	.2byte 615
 	.2byte 626
+	.2byte ITEM_FOCUS_SASH
 	.2byte ITEM_NONE
 	release
 	end

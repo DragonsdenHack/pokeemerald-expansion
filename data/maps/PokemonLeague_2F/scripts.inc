@@ -58,6 +58,9 @@ PokemonLeague_BrunosRoom_EventScript_Bruno::
 
 PokemonLeague_2F_Combate_Bruno::
 msgbox PokemonLeague_2F_Combate_Bruno_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_2F_Combate_Bruno_Texto_2.1
 return
 
 PokemonLeague_BrunosRoom_EventScript_Battle::
@@ -100,9 +103,12 @@ PokemonLeague_2F_Combate_Bruno_Texto_2:
 	.string "Podría poner la LIGA patas arriba\l"
 	.string "si doy la alarma de quién eres,\l"
 	.string "pero no lo haré, esta vez no vas a\l"
-	.string "escapar, ¡usare todo mi poder y te\l"
-	.string "aplastaré aquí mismo antes de\l"
-	.string "llevarte preso!$"
+	.string "escapar.$"
+
+PokemonLeague_2F_Combate_Bruno_Texto_2.1:
+    .string "¡Usaré todo mi poder y te aplastaré\n"
+	.string "aquí mismo antes de llevarte preso!$"
+
 
 PokemonLeague_2F_Combate_Bruno_Texto_4:
 .string "¿Qué?\n"
