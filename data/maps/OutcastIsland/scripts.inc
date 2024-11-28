@@ -46,8 +46,8 @@ release
 end
 
 OutcastIsland_Text_8:
-.string "¡GYARADOS es el terror de los\n"
-.string "mares!\l"
+.string "¡GYARADOS es el terror\n"
+.string "de los mares!\l"
 .string "¡No hay POKÉMON NO LEGENDARIO que\l"
 .string "iguale su fuerza y ferocidad!$"
 

@@ -4101,6 +4101,11 @@ EventScript_SetKanto::
 	setvar VAR_UNUSED_0x40FC, 2
 	setvar VAR_UNUSED_0x40FD, 1
 	setvar VAR_UNUSED_0x40F8, 10
+	setflag FLAG_HOENN_676
+	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_654
+	setflag FLAG_HOENN_673
+	setflag FLAG_HOENN_300
 	setflag FLAG_RECEIVED_SHOAL_SHELL_2
 	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
@@ -4466,6 +4471,11 @@ EventScript_SetSevii::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
 	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	setflag FLAG_HOENN_676
+	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_654
+	setflag FLAG_HOENN_673
+	setflag FLAG_HOENN_300
 	end
 EventScript_SetJohto::
 	additem ITEM_MASTER_BALL, 3
@@ -4831,6 +4841,11 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
 	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	setflag FLAG_HOENN_676
+	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_654
+	setflag FLAG_HOENN_673
+	setflag FLAG_HOENN_300
 	end
 	EventScript_SetHoenn::
 	additem ITEM_MASTER_BALL, 4
@@ -5229,6 +5244,11 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
 	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	setflag FLAG_HOENN_676
+	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_654
+	setflag FLAG_HOENN_673
+	setflag FLAG_HOENN_300
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	
 	end
 

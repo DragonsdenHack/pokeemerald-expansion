@@ -41,9 +41,9 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_1:
 	.string "regalado nada, hay mucho crío que se\l"
 	.string "cree especial solo porque ha recibido\l"
 	.string "algún POKÉMON raro o poderoso sin\l"
-	.string "haber hecho nada para merecerlo, no\l"
-	.string "parece ser tu caso, me gustaría\l"
-	.string "comprobarlo.$"
+	.string "haber hecho nada para merecerlo.\l"
+	.string "No parece ser tu caso,\l"
+	.string "me gustaría comprobarlo.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_2:
 .string "¿Aceptas el reto?$"
@@ -52,9 +52,9 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_3:
 .string "Vaya, puede que me equivocara contigo.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_4:
-.string "Vas a ver lo mucho que puede uno\n"
-	.string "aprender en la soledad de esta isla\l"
-	.string "jovencito.$"
+.string "¡Vas a ver lo mucho que puede uno\n"
+	.string "aprender en la soledad de esta isla,\l"
+	.string "jovencito!$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_5:
 .string "Así que aún queda un largo camino{PAUSE 5}…{PAUSE 5}$"
@@ -66,14 +66,14 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_6:
 	.string "ti.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste LUPA de manos de\n"
-	.string "EXORCISTA!$"
+.string "¡Obtuviste LUPA de\n"
+	.string "manos de EXORCISTA!$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_7:
 	.string "La LUPA incrementará en un 10% la\n"
 	.string "precisión de todos tus movimientos\l"
-	.string "ofensivos, eso quiere que los\l"
-	.string "Movimientos de 90 de potencia tendrán\l"
+	.string "ofensivos. Eso quiere decir que los\l"
+	.string "movimientos de 90 de potencia tendrán\l"
 	.string "ahora 99, mientras que otros como\l"
 	.string "TRUENO de 70, pasarán a tener 77 de\l"
-	.string "precisión, es muy útil según el caso.$"
+	.string "precisión. Es muy útil según el caso.$"

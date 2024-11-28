@@ -194,30 +194,75 @@ delay 20
 msgbox SevaultCanyon_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox SevaultCanyon_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, SevaultCanyon_Combate_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5.1
+waitmovement 0x0
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5.2
+waitmovement 0x0
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, SevaultCanyon_Combate_Andra_Move_1
 waitmovement 0x0
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, SevaultCanyon_Combate_Andra_Move_5
 waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_5.3
+waitmovement 0x0
+waitse
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5.1
+waitmovement 0x0
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_10.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5.2
+waitmovement 0x0
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_10.2 MSGBOX_AUTOCLOSE
+delay 25
+msgbox SevaultCanyon_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playse 559
 applymovement 20, SevaultCanyon_Combate_Andra_Move_1
 waitmovement 0x0
-msgbox SevaultCanyon_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 trainerbattle_no_intro TRAINER_ANDRA_7, SevaultCanyon_Combate_Andra_Texto_14
 msgbox SevaultCanyon_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SevaultCanyon_Combate_Andra_Texto_15.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, SevaultCanyon_Combate_Andra_Move_7
 waitmovement 0x0
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SevaultCanyon_Combate_Andra_Texto_17 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_8.1
 applymovement 20, SevaultCanyon_Combate_Andra_Move_8
 waitmovement 0x0
 setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
@@ -226,133 +271,162 @@ setvar VAR_ROUTE106_STATE, 4
 release
 end
 
+SevaultCanyon_Combate_Andra_Move_8.1:
+delay_16
+face_right
+delay_16
+delay_8
+face_up
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_down
+step_end
+
+SevaultCanyon_Combate_Andra_Move_5.3:
+emote_exclamation_mark
+step_end
+
+SevaultCanyon_Combate_Andra_Move_5.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+SevaultCanyon_Combate_Andra_Move_5.2:
+delay_8
+face_player
+delay_8
+step_end
+
 SevaultCanyon_Combate_Andra_Texto_1:
-.string "ANDRA: ¿También por aquí {PLAYER}?\n"
+.string "ANDRA: ¿También por aquí, {PLAYER}?\n"
 	.string "¡Este lugar es un paraíso! ¿Eh?$"
 
 SevaultCanyon_Combate_Andra_Texto_2:
 .string "GIOVANNI también me ha destinado a\n"
-	.string "este lugar, aunque a diferencia\l"
-	.string "tuya yo me he ofrecido a explorar\l"
-	.string "esas misteriosas ruinas que\l"
-	.string "hay al sur, me ha confiado la\l"
-	.string "pequeña piedra contenida en el\l"
-	.string "frasco que robamos por si sirve de\l"
-	.string "algo.$"
+	.string "este lugar, pero a diferencia tuya, yo\l"
+	.string "me he ofrecido a explorar las ruinas\l"
+	.string "que hay más al sur.\l"
+	.string "Me ha confiado la pequeña piedra del\l"
+	.string "frasco que robamos por, si sirve de algo.$"
 
 SevaultCanyon_Combate_Andra_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_4:
-.string "Todavía me cuesta creer que\n"
-	.string "derrotaras a LANCE, después de que\l"
-	.string "entraras al HALL DE LA FAMA para\l"
-	.string "enfrentar a ROJO fui derrotando\l"
-	.string "uno por uno a todos los policías\l"
-	.string "que salieron al paso para\l"
-	.string "detenernos, una vez derrotado el\l"
-	.string "último sentía que era invencible,\l"
-	.string "de verdad, mi equipo jamás había\l"
-	.string "alcanzado tal nivel y aún me\l"
+.string "Todavía me cuesta creer que derrotaras\n"
+	.string "a LANCE. Después de que entraras al HALL\l"
+	.string "de LA FAMA para enfrentar a ROJO, fui\l"
+	.string "derrotando, uno por uno, a todos los\l"
+	.string "policías que salieron al paso.$"
+
+SevaultCanyon_Combate_Andra_Texto_4.1:
+	.string "Una vez derrotado el último, sentía\n"
+	.string "que era invencible.\l"
+	.string "Habíamos alcanzado otro nivel, y aún me\l"
 	.string "quedaban fuerzas, pensé incluso en\l"
 	.string "entrar a ayudarte con ROJO, pero{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_5:
-.string "Justo en ese momento apareció\n"
-	.string "LANCE, un LANCE distinto al que\l"
-	.string "enfrenté horas antes, sin mediar\l"
-	.string "palabra sacó a un DRAGONITE que\l"
-	.string "nunca antes había visto, y de un\l"
-	.string "solo ENFADO fue tumbando uno por\l"
-	.string "uno de un solo golpe a todos mis\l"
-	.string "POKÉMON sin que pudieran hacer\l"
-	.string "nada, solo mi CROBAT pudo llegar a\l"
-	.string "tocarle antes de caer igualmente\l"
-	.string "de un solo ENFADO{PAUSE 5}…{PAUSE 5}$"
+.string "Justo en ese momento apareció LANCE.\n"
+	.string "Un LANCE distinto al que enfrenté horas\l"
+	.string "antes; sin mediar palabra sacó a un\l"
+	.string "DRAGONITE que nunca antes había visto;\l"
+	.string "de un solo ENFADO fue tumbando, de un\l"
+	.string "solo golpe a todos mis POKÉMON, sin que\l"
+	.string "pudieran hacer nada{PAUSE 5}…{PAUSE 5}$"
+
+SevaultCanyon_Combate_Andra_Texto_5.1:
+	.string "Solo mi CROBAT pudo llegar a tocarlo,\n"
+	.string "antes de igualmente caer{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_6:
-.string "Después de presenciar ese poder\n"
-	.string "creí que todo estaba perdido, aún\l"
-	.string "si llegaras a derrotar a ROJO,\l"
-	.string "LANCE estaba a otro nivel, debiste\l"
-	.string "de sacar todo lo que tenías dentro\l"
+.string "Después de presenciar ese poder, creí\n"
+	.string "que todo estaba perdido, aún si llegaras\l"
+	.string "a derrotar a ROJO, LANCE estaba a otro\l"
+	.string "nivel. Debiste sacar todo lo que tenías\l"
 	.string "y más para sobrevivir a tal poder.$"
 
 SevaultCanyon_Combate_Andra_Texto_7:
-.string "Más tarde entró GIOVANNI junto\n"
-	.string "con ATLAS y PETREL, me fui con\l"
-	.string "estos dos últimos rápidamente a\l"
-	.string "curar a mis POKÉMON, el resto es\l"
-	.string "ya historia.$"
+.string "Más tarde, entró GIOVANNI, junto con\n"
+	.string "ATLAS y PETREL, me fui con estos dos\l"
+	.string "últimos rápidamente a curar mis POKÉMON.\l"
+	.string "El resto es ya historia.$"
 
 SevaultCanyon_Combate_Andra_Texto_8:
-.string "El poder mostrado por LANCE ahí me\n"
-	.string "ha hecho reflexionar sobre los\l"
-	.string "límites últimos a los que puede\l"
-	.string "llegar un entrenador, sobre la\l"
-	.string "fuerza bruta que algunos POKÉMON\l"
-	.string "pueden alcanzar, pero también\l"
-	.string "sobre como un ROCKET de ISLA INTA\l"
-	.string "pudo lidiar con ello demostrando\l"
-	.string "que es posible domar al mayor de\l"
-	.string "los poderes, a cualquier\l"
-	.string "legendario tocado por la varita\l"
-	.string "mágica, si se dispone de la\l"
-	.string "suficiente habilidad y sus POKÉMON\l"
-	.string "están lo suficientemente bien\l"
-	.string "entrenados y preparados.$"
+.string "El poder mostrado por LANCE ahí me ha\n"
+	.string "hecho reflexionar sobre los límites\l"
+	.string "últimos a los que podemos llegar.$"
+
+SevaultCanyon_Combate_Andra_Texto_8.1:
+	.string "Sobre la fuerza bruta que algunos\n"
+	.string "POKÉMON pueden alcanzar, pero también\l"
+	.string "sobre cómo un ROCKET de ISLA INTA pudo\l"
+	.string "lidiar con ello, demostrando que es\l"
+	.string "posible domar al mayor de los poderes,\l"
+	.string "a cualquier LEGENDARIO tocado por la\l"
+	.string "varita, si se dispone de la suficiente\l"
+	.string "habilidad, entrenamiento y, en especial,\l"
+	.string "un estrecho vínculo con los tuyos.$"
 
 SevaultCanyon_Combate_Andra_Texto_9:
-.string "Es por ello, por tu actuación en\n"
-	.string "el HALL DE LA FAMA, que decidí no\l"
-	.string "usar POKÉMON LEGENDARIOS en mi\l"
-	.string "equipo.$"
+.string "Es por ello, por tu actuación en el\n"
+	.string "HALL DE LA FAMA, que decidí no usar\l"
+	.string "POKÉMON LEGENDARIOS en mi equipo.$"
 
 SevaultCanyon_Combate_Andra_Texto_10:
-.string "Así es, rechazé a ARTICUNO, ZAPDOS\n"
-	.string "y MOLTRES cuando GIOVANNI me los\l"
-	.string "ofreció, no los necesito para\l"
-	.string "alcanzar mi mejor versión posible,\l"
-	.string "ahora sé que un POKÉMON fuerte\l"
-	.string "puede provenir de cualquier lugar,\l"
-	.string "lo único que diferencia a un\l"
-	.string "POKÉMON LEGENDARIO de uno que no\l"
-	.string "lo es, es que este último\l"
-	.string "necesitará pasar por cierto\l"
-	.string "proceso para alcanzar su\l"
-	.string "potencial, debes de estar\l"
-	.string "dispuesto a ayudarle, a educarle y\l"
-	.string "creer en él, pero en última\l"
-	.string "instancia creo firmemente que el\l"
-	.string "pico máximo de rendimiento en\l"
-	.string "ambos casos, el del LEGENDARIO y\l"
-	.string "el del POKÉMON común, es similar,\l"
-	.string "con el añadido de que aprendiste\l"
-	.string "mucho más en el proceso de criar a\l"
-	.string "los tuyos y adquiriste mayor\l"
-	.string "sabiduría que en el caso de contar\l"
-	.string "con un LEGENDARIO al que se le da\l"
-	.string "todo hecho.$"
+.string "Así es: rechazé a ARTICUNO, ZAPDOS y\n"
+	.string "MOLTRES cuando GIOVANNI me los ofreció.$"
+
+SevaultCanyon_Combate_Andra_Texto_10.1:
+	.string "No los necesito para alcanzar mi mejor\n"
+	.string "versión posible, porque ahora sé que un\l"
+	.string "POKÉMON fuerte puede provenir de\l"
+	.string "cualquier lugar, lo único que diferencia\l"
+	.string "a un LEGENDARIO de un mortal, es que\l"
+	.string "este último necesitará pasar por cierto\l"
+	.string "proceso para alcanzar su máximo.$"
+
+SevaultCanyon_Combate_Andra_Texto_10.2:
+	.string "Debes de estar dispuesto a ayudarle, a\n"
+	.string "educarle y creer en él, pero en última\l"
+	.string "instancia, creo firmemente que, en\l"
+	.string "ambos casos, puede llegar a tocarse el\l"
+	.string "mismo cielo.$"
 
 SevaultCanyon_Combate_Andra_Texto_11:
 .string "Tal vez esto también sea aplicable\n"
 	.string "a las personas, ¿no crees?$"
 
 SevaultCanyon_Combate_Andra_Texto_12:
-.string "En cualquier caso, ¡no he venido\n"
-	.string "hasta aquí para filosofar sobre\l"
-	.string "el uso o no uso de LEGENDARIOS!\l"
-	.string "¡Mi objetivo primordial aquí es\l"
-	.string "descubrir a qué diablos pertenece\l"
-	.string "esta piedra al tiempo que mejorar\l"
-	.string "todo lo que pueda en el camino!$"
+.string "En cualquier caso, ¡no he venido hasta\n"
+	.string "aquí para filosofar sobre el uso\l"
+	.string "o no uso de LEGENDARIOS!\l"
+	.string "¡Voy a descubrir qué diablos es\l"
+	.string "esta piedra, y por el camino\l"
+	.string "seguiré mejorando mi equipo!$"
 
 SevaultCanyon_Combate_Andra_Texto_13:
-.string "Dudo mucho que exista un\n"
-	.string "entrenador como tú en estas islas,\l"
-	.string "eso significa que la mayor prueba\l"
-	.string "a la que me puedo enfrentar aquí\l"
-	.string "en este momento eres tú.\l"
+.string "Dudo mucho que exista un ENTRENADOR\n"
+	.string "como tú por estas islas.\l"
+	.string "Eso significa{PAUSE 15}…{PAUSE 15} que la mayor prueba\l"
+	.string "a la que me puedo enfrentar aquí,\l"
+	.string "en este momento, eres tú.\l"
 	.string "¡Muéstrame cómo bailan los POKÉMON\l"
 	.string "del verdadero CAMPEÓN de KANTO!$"
 
@@ -362,29 +436,30 @@ SevaultCanyon_Combate_Andra_Texto_14:
 	.string "ese 1% que me falta.$"
 
 SevaultCanyon_Combate_Andra_Texto_15:
-.string "No has perdido la forma eh, me\n"
-	.string "alegra saber que sigas\l"
-	.string "progresando, cuanto más mejores,\l"
-	.string "más lo haré yo, dos rivalidades\l"
-	.string "que se empujan hasta el extremo\l"
-	.string "alcanzan cotas mayores de las que\l"
-	.string "jamás podrían alcanzar por\l"
-	.string "separado, para nuestro próximo\l"
-	.string "combate no te quepa duda de que\l"
-	.string "estaré preparada.$"
+.string "No has perdido la forma, ¿eh?\n"
+	.string "Me alegra saber que sigues progresando,\l"
+	.string "cuanto más mejores, más lo haré yo.$"
+
+SevaultCanyon_Combate_Andra_Texto_15.1:
+	.string "Dos rivales que se empujan hasta el\n"
+	.string "extremo, alcanzan cotas mayores de las\l"
+	.string "que jamás podrían alcanzar por separado.$"
+
+SevaultCanyon_Combate_Andra_Texto_15.2:
+	.string "Para el próximo combate, no te quepa\n"
+	.string "duda: te obligaré a aún más lejos.$"
 
 SevaultCanyon_Combate_Andra_Texto_16:
-.string "No debe de quedar mucho para\n"
-	.string "llegar a las ruinas del sur, no me\l"
-	.string "extraña que las levantaran aquí,\l"
-	.string "el ambiente a pura naturaleza que\l"
-	.string "se respira es espectacular.$"
+.string "Las ruinas del sur deben estar ya\n"
+	.string "cerca.\l"
+	.string "No me extraña que las levantaran\l"
+	.string "aquí, el ambiente a pura naturaleza\l"
+	.string "que se respira es espectacular.$"
 
 SevaultCanyon_Combate_Andra_Texto_17:
-.string "Si me buscas probablemente esté en\n"
-	.string "las cámaras de esas 7 pequeñas\l"
-	.string "islas que hay al sur, ¡mantente\l"
-	.string "alerta!$"
+.string "Si me buscas, probablemente esté en\n"
+	.string "las cámaras de esas 7 pequeñas islas\l"
+	.string "que hay más al sur, ¡mantente alerta!$"
 
 SevaultCanyon_Combate_Andra_Move_1:
 walk_in_place_up
@@ -400,6 +475,7 @@ step_end
 
 SevaultCanyon_Combate_Andra_Move_3.1:
 walk_left
+delay_8
 walk_in_place_down
 step_end
 
@@ -425,6 +501,7 @@ step_end
 
 SevaultCanyon_Combate_Andra_Move_7:
 walk_in_place_right
+delay_16
 walk_in_place_up
 step_end
 

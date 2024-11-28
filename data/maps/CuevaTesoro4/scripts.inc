@@ -317,3 +317,13 @@ CuevaTesoro4_Combate_Guzzlord::
 	CuevaTesoro4_Combate_Guzzlord_2::
 	release
 	end
+
+CuevaTesoro4_Cascada::
+lock
+msgbox CuevaTesoro4_Cascada_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+CuevaTesoro4_Cascada_Texto_1:
+.string "Esta cascada no conduce\l"
+.string "a ninguna parte{PAUSE 5}…{PAUSE 5}$"

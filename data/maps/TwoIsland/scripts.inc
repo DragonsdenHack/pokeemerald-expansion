@@ -103,8 +103,8 @@ release
 end
 
 TwoIsland_Corriente_Arriba_Texto_1:
-.string "(Al parecer no es muy recomendable\n"
-	.string "acercarse a esas corrientes).$"
+.string "-Al parecer no es muy recomendable\n"
+	.string "acercarse a esas corrientes.-$"
 
 
 TwoIsland_Corriente_Derecha::

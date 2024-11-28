@@ -15580,8 +15580,8 @@ CuevaTesoro1_Text_PoliciaDefeated:
 CuevaTesoro1_Text_PoliciaPostBattle:
 	.string "Ahora lo entiendo, escuchaste la\n"
 	.string "ubicación de este lugar mientras nos\l"
-	.string "escuchabas a escondidas. ¿Verdad,\l"
-	.string "canalla?$"
+	.string "escuchabas a escondidas.\l"
+	.string "¿Verdad, canalla?$"
 
 
 CuevaTesoro1_Text_Policia2Intro:

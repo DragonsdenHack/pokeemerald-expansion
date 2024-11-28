@@ -303,12 +303,12 @@ Azulona_Centro_Comercial_Mercado_1_EventScript_Clerk::
 
 	.align 2
 Azulona_Centro_Comercial_Mercado_1_Pokemart:
-    .2byte 587
-	.2byte 597
-	.2byte 610
-	.2byte 613
-	.2byte 625
-	.2byte 627
+    .2byte ITEM_TM05
+	.2byte ITEM_TM15
+	.2byte ITEM_TM28
+	.2byte ITEM_TM31
+	.2byte ITEM_TM43
+	.2byte ITEM_TM45
 	.2byte ITEM_NONE
 	release
 	end

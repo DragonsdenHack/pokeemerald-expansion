@@ -853,7 +853,7 @@ PokemonLeague_6F_Final_Texto_43:
 	.string "Pasarás a la historia como aquel que\l"
 	.string "obligó a LANCE I a hacer uso de sus\l"
 	.string "sagrados POKÉMON, justo antes de dar\l"
-	.string "inicio s la nueva fase de su reinado{PAUSE 5}…{PAUSE 5}$"
+	.string "inicio a la nueva fase de su reinado{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_44:
 .string "LANCE: {PAUSE 15}…{PAUSE 15}$"

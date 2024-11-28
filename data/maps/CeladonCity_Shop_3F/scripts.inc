@@ -165,34 +165,30 @@ release
 end
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste MT53 GIGA IMPACTO\n"
+.string "¡Obtuviste la MT53 GIGA IMPACTO\n"
 	.string "de manos de VENDEDOR!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:
-.string "Si un POKÉMON resiste un\n"
-	.string "movimiento físico y usa CONTADOR,\l"
-	.string "le devolverá a su rival el doble\l"
-	.string "de daño que acaba de provocarle.\l"
-	.string "¡Es por eso que hay que asegurarse\l"
-	.string "de que nuestros movimientos\l"
-	.string "físicos son definitivos y no dan\l"
-	.string "opción a que el rival mueva!\l"
-	.string "¡Si me derrotas te enseñaré como\l"
-	.string "destrozar a tu rival de un solo\l"
-	.string "golpe!$"
+.string "Si un POKÉMON resiste un movimiento\n"
+	.string "físico y usa CONTADOR, le devolverá a\l"
+	.string "su rival el doble de daño que acaba de\l"
+	.string "provocar. ¡Por eso nos debemos asegurar\l"
+	.string "de que nuestros movimientos físicos son\l"
+	.string "definitivos y no dan opción a réplica!\l"
+	.string "¡Si me derrotas, te enseñaré a cómo\l"
+	.string "destrozar a tu rival de un solo golpe!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_2:
 .string "¿Aceptas el reto?$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_3:
 .string "GIGA IMPACTO tiene la friolera de\n"
-	.string "150 de POTENCIA, usado en POKÉMON\l"
-	.string "del tipo NORMAL también recibirá\l"
-	.string "STAB.\l"
+	.string "170 de POTENCIA, usado en POKÉMON del\l"
+	.string "tipo NORMAL, también recibirá STAB.\l"
 	.string "¡TAUROS o SNORLAX son las mejores\l"
 	.string "opciones, darán la estocada final\l"
-	.string "a ese POKÉMON tan difícil de\l"
-	.string "tumbar ya lo verás!$"
+	.string "a ese POKÉMON tan difícil de tumbar,\l"
+	.string "ya lo verás!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_4:
 .string "¡No te arrepentirás!$"

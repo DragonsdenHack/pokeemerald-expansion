@@ -82,8 +82,8 @@ release
 end
 
 SevenIsland_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste PAÑUELO ELEGIDO de manos de\n"
-	.string "ENTRENADOR GUAY!$"
+.string "¡Obtuviste PAÑUELO ELEGIDO de\n"
+	.string "manos de ENTRENADOR GUAY!$"
 
 SevenIsland_Entrenador_Especial_Texto_1:
 .string "No sirve de nada boostearse al\n"

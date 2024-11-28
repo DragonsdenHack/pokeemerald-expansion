@@ -103,10 +103,10 @@ compare VAR_UNUSED_0x40F7, 106
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera
 compare VAR_UNUSED_0x40F7, 101
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph
-compare VAR_UNUSED_0x40F7, 92
-goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga
 compare VAR_UNUSED_0x40F7, 94
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas
+compare VAR_UNUSED_0x40F7, 92
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga
 compare VAR_UNUSED_0x40F7, 78
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios
 compare VAR_UNUSED_0x40F7, 71
@@ -241,9 +241,9 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
-.string "Relájate y disfruta de las islas\n"
-	.string "{PLAYER}. Hay mucho por hacer allí, si\l"
-	.string "sabes adonde ir, tal vez si visitas a\l"
+.string "Relájate y disfruta del ARCHI7, {PLAYER}.\n"
+	.string "Hay mucho por hacer allí, si sabes\l"
+	.string "adonde ir, tal vez si visitas a\l"
 	.string "ATLAS en nuestro cuartel él te muestre\l"
 	.string "algunos de sus secretos, conoce mejor\l"
 	.string "que nadie el ARCHI7.$"
@@ -2860,11 +2860,17 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_4
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6 MSGBOX_AUTOCLOSE
@@ -2872,7 +2878,15 @@ delay 20
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_6
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_6.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8.1 MSGBOX_AUTOCLOSE
 applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_7
 waitmovement 0x0
 delay 15
@@ -2889,14 +2903,18 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_11
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_10
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_11 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_13
 waitmovement 0x0
@@ -2925,6 +2943,11 @@ delay 100
 changeavatar 3
 setvar VAR_UNUSED_0x40F7, 804
 warpsilent MAP_ROCKET_HIDEOUT_4F, 19, 8
+
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_6.1:
+walk_in_place_down
+step_end
 
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.2:
@@ -3032,6 +3055,9 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_676
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 setflag FLAG_HIDE_FANCLUB_BOY
 setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 setflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
@@ -3067,67 +3093,64 @@ end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1:
 .string "????: Ya no tienes la sartén por\n"
-	.string "el mango LANCE, sugiero que\l"
-	.string "te calmes.$"
+	.string "el mango, LANCE.\l"
+	.string "Sugiero que te calmes.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1:
-	.string "????: Pero{PAUSE 25}…{PAUSE 25} ahora vienes a mí a decir…\n"
+	.string "????: Pero{PAUSE 25}…{PAUSE 25} ahora vienes a mí a decir{PAUSE 25}…{PAUSE 25}\n"
 	.string "que lleve todo esto de la forma más\l"
-	.string "justa posible y escuche tus\l"
-	.string "exigencias.$"
+	.string "justa posible y escuche tus exigencias.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2:
-.string "GIOVANNI: Si quieres conservar\n"
-	.string "parte de tus privilegios y tu\l"
-	.string "poder deberás cumplir las\l"
-	.string "siguientes condiciones{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: Si quieres conservar parte de\n"
+	.string "tus privilegios y tu poder, deberás\l"
+	.string "cumplir con las siguientes condiciones{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3:
-.string "Provocar la renuncia de ROJO al\n"
-	.string "título de CAMPEÓN, y borrarlo del\l"
-	.string "mapa, quiero fuera de juego a ese\l"
-	.string "loco experimento de OAK, llevadlo\l"
-	.string "a algún lugar apartado y decid a\l"
-	.string "los medios que está realizando una\l"
-	.string "especie de entrenamiento secreto.$"
+.string "Provocar la renuncia de ROJO al título\n"
+	.string "de CAMPEÓN, y borrarlo del mapa.\l"
+	.string "Quiero fuera de juego a ese experimento\l"
+	.string "de OAK, llevadlo a algún lugar apartado\l"
+	.string "y decid a los medios que está realizando\l"
+	.string "una especie de entrenamiento secreto.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4:
-.string "Con ello mantendréis a AZUL como\n"
-	.string "vigente CAMPEÓN, él nos informará\l"
-	.string "de cualquier paso en falso que\l"
-	.string "tratéis de dar en contra nuestra\l"
-	.string "LANCE, por tu bien espero que no\l"
+.string "Con ello, mantendréis a AZUL como\n"
+	.string "vigente CAMPEÓN, él nos informará de\l"
+	.string "cualquier paso en falso que tratéis de\l"
+	.string "dar en contra nuestra, LANCE.$"
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4.1:
+    .string "Por tu bien, espero que no\n"
 	.string "cometas ninguna estupidez.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_5:
-.string "Confirmaréis la disolución\n"
-	.string "definitiva del TEAM ROCKET, lo que\l"
-	.string "implica que todo ROCKET real que\l"
-	.string "sea visto será tomado como un\l"
-	.string "ciudadano más, con su respectivo\l"
-	.string "permiso para entrar en las tiendas\l"
-	.string "de toda KANTO.$"
+.string "Confirmaréis la disolución definitiva\n"
+	.string "del TEAM ROCKET; ello implica que todo\l"
+	.string "ROCKET real que sea visto, será tomado\l"
+	.string "como un ciudadano más, con su respectivo\l"
+	.string "permiso para entrar en las tiendas.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6:
 .string "LANCE: {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7:
-.string "GIOVANNI: Y por último, reduciréis\n"
-	.string "al 80% toda la presión fiscal\l"
-	.string "tanto de SILPH como del resto de\l"
-	.string "pequeños negocios de KANTO, se\l"
-	.string "acabó el chuparle la sangre a los\l"
-	.string "ciudadanos y el mantenerlos en\l"
-	.string "condiciones de esclavitud\l"
-	.string "camufladas, tal vez con ello\l"
-	.string "empiezen a quererte un poco.$"
+.string "GIOVANNI: Y por último, reduciréis en\n"
+	.string "un 80% toda la presión fiscal, tanto de\l"
+	.string "SILPH como del resto de pequeños\l"
+	.string "negocios de KANTO; se acabó el chuparle\l"
+	.string "la sangre a los ciudadanos, y el\l"
+	.string "mantenerlos bajo un régimen de\l"
+	.string "esclavitud camuflado.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8:
-.string "Eso es todo, y recuerda, un solo\n"
-	.string "mal gesto, un leve indicio de que\l"
-	.string "intentas algo raro, y toda KANTO\l"
-	.string "sabrá lo ocurrido en el HALL DE LA\l"
-	.string "FAMA, ahora fuera de mi vista.$"
+.string "Eso es todo. Y recuerda, un solo mal\n"
+	.string "gesto, un leve indicio de que intentas\l"
+	.string "algo raro, y toda KANTO sabrá lo\l"
+	.string "ocurrido en el HALL DE LA FAMA.$"
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8.1:
+	.string "¡Ahora, fuera de mi vista!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9:
 .string "PROTÓN: Señor, ¿cree que hacemos\n"
@@ -3136,76 +3159,70 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9:
 	.string "¿No deberíamos…?$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_10:
-.string "GIOVANNI: Lo sé PROTÓN, pero KANTO\n"
-	.string "no está preparada para asimilar\l"
-	.string "todo lo ocurrido, todo cuanto\l"
-	.string "necesita es alcanzar de nuevo la\l"
-	.string "estabilidad, no una nueva\l"
-	.string "revolución por todo lo alto que\l"
-	.string "meta aún más caos a la región, por\l"
-	.string "el momento LANCE está atado, y con\l"
-	.string "esas condiciones impuestas todo\l"
-	.string "tenderá a mejorar{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: Lo sé, PROTÓN, pero KANTO\n"
+	.string "no está preparada para asimilar todo\l"
+	.string "lo ocurrido; todo cuanto necesita es\l"
+	.string "alcanzar de nuevo la estabilidad, no\l"
+	.string "una nueva revolución por todo lo alto\l"
+	.string "que meta aún más caos a la región.\l"
+	.string "Por el momento, LANCE está atado, y\l"
+	.string "con las nuevas condiciones impuestas,\l"
+	.string "todo tenderá a mejorar{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_11:
 .string "GIOVANNI: {PLAYER}, demostraste ser\n"
 	.string "un ENTRENADOR excepcional en el\l"
 	.string "HALL DE LA FAMA, único, de esos\l"
 	.string "que aparecen una vez cada 50 años,\l"
-	.string "solo alguien así pudo haber\l"
-	.string "derrotado a un equipo con un poder\l"
-	.string "tan incontenible como el que tenía\l"
-	.string "LANCE.$"
+	.string "solo alguien así pudo haber derrotado a\l"
+	.string "un equipo con un poder tan incontenible\l"
+	.string "como el que tenía LANCE.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_12:
-.string "Afortunadamente hemos devuelto a\n"
+.string "Por fortuna, hemos devuelto a\n"
 	.string "RAIKOU, ENTEI y SUICUNE a sus\l"
-	.string "hábitats naturales de JOHTO,\l"
-	.string "esperemos que ningún maníaco como\l"
-	.string "LANCE tenga la intención y el\l"
-	.string "poder para volver a atraparlos{PAUSE 5}…{PAUSE 5}$"
+	.string "hábitats naturales de JOHTO.\l"
+	.string "Esperemos que ningún maníaco como\l"
+	.string "LANCE tenga la intención y el poder\l"
+	.string "como para volver a atraparlos{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13:
 .string "GIOVANNI: {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
 .string "Hemos cumplido con el propósito\n"
-	.string "por el que el TEAM ROCKET fue\l"
-	.string "creado {PLAYER}: salvar KANTO de\l"
-	.string "las garras de LANCE, y tú has sido\l"
-	.string "más que fundamental para ello,\l"
-	.string "junto con ATLAS y ANDRA, has\l"
-	.string "alcanzado el rango más alto que\l"
-	.string "puedo ofrecerle a un miembro del\l"
-	.string "TEAM ROCKET en KANTO: ADMINISTRADOR.$"
+	.string "por el que el TEAM ROCKET renació,\l"
+	.string "{PLAYER}: salvar KANTO de las garras\l"
+	.string "de LANCE, y tú has sido más que\l"
+	.string "fundamental para ello.\l"
+	.string "Junto con ATLAS y ANDRA, has alcanzado\l"
+	.string "el rango más alto que puedo ofrecer a\l"
+	.string "un miembro del TEAM ROCKET en KANTO.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15:
 .string "¡¡{PLAYER} HA SIDO ASCENDIDO A\n"
 	.string "ADMINISTRADOR!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
-.string "GIOVANNI: El TEAM ROCKET es tu\n"
-	.string "casa {PLAYER}, te has ganado tu\l"
-	.string "puesto con todas las de la ley,\l"
-	.string "esta es tu recompensa por tu\l"
-	.string "hazaña en la LIGA POKÉMON,\l"
-	.string "considéralo como un pago\l"
-	.string "simbólico, lo que hiciste en el\l"
-	.string "HALL DE LA FAMA no se puede\l"
-	.string "comprar con dinero.$"
+.string "GIOVANNI: El TEAM ROCKET es tu casa,\n"
+	.string "{PLAYER}, te has ganado tu puesto con\l"
+	.string "todas las de la ley, esta es tu\l"
+	.string "recompensa por tu hazaña en la LIGA.\l"
+	.string "Considéralo como un pago simbólico,\l"
+	.string "lo que hiciste en el HALL DE LA FAMA\l"
+	.string "no se puede comprar con dinero.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17:
 	.string "¡Te has embolsado 1.000.000¥!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
-.string "Además de ello, como ya sabes\n"
+.string "Además de ello, como ya sabes,\n"
 	.string "conseguimos replicar de forma\l"
 	.string "estable el ADN de ARTICUNO, ZAPDOS\l"
-	.string "y MOLTRES para crear clones\l"
-	.string "idénticos de forma exitosa, qué\l"
-	.string "menos que ofrecerle los primeros\l"
-	.string "ejemplares a quién hizo posible\l"
-	.string "esto.$"
+	.string "y MOLTRES, para así crear clones\l"
+	.string "idénticos de forma exitosa.\l"
+	.string "Qué menos que ofrecerle los primeros\l"
+	.string "ejemplares a quién lo hizo posible.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19:
 .string "¡¡OBTUVISTE UN ARTICUNO AL NV.15!!$"
@@ -3225,80 +3242,71 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23:
 .string "Con esto damos inicio a la segunda\n"
-	.string "razón por la que el TEAM ROCKET\l"
-	.string "fue fundado: conocer el mundo\l"
-	.string "POKÉMON y sus misterios, explorar\l"
-	.string "los límites de su potencial y\l"
-	.string "llegar hasta donde nadie más ha\l"
-	.string "llegado.$"
+	.string "razón por la que el TEAM ROCKET se\l"
+	.string "fundó: conocer el mundo POKÉMON y sus\l"
+	.string "misterios, explorar los límites de su\l"
+	.string "potencial y llegar hasta donde nadie\l"
+	.string "más ha llegado.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24:
 .string "Por supuesto, aún tenemos a MEWTWO\n"
-	.string "como objetivo en el horizonte,\l"
-	.string "sigue siendo un peligro que hay\l"
-	.string "que controlar, pero no quiero\l"
-	.string "involucrarte por el momento en una\l"
-	.string "misión así.$"
+	.string "en el punto de mira.\l"
+	.string "Sigue siendo un peligro que hay\l"
+	.string "que controlar, pero no es momento\l"
+	.string "de involucrarte una misión así.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25:
-.string "Después de lo que has hecho\n"
+.string "Después de lo que has hecho,\n"
 	.string "mereces tomarte unas buenas\l"
 	.string "vacaciones, darte el tiempo de\l"
 	.string "celebrar y asimilar todo lo que\l"
-	.string "has conseguido antes de embarcarte\l"
+	.string "has conseguido, antes de embarcarte\l"
 	.string "otra vez en nuevos retos aún más\l"
 	.string "exigentes.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26:
-.string "Por ello quiero que viajes a las\n"
-	.string "ISLAS SETE, tu lugar de origen, de\l"
-	.string "nuevo, y explores tranquilamente\l"
-	.string "las islas, he oído que hay muy\l"
-	.string "buenos ENTRENADORES por allí,\l"
-	.string "además de una flora y fauna muy\l"
+.string "¿Y qué mejor lugar para ello que\n"
+	.string "ISLAS SETE, tu lugar de origen?\l"
+	.string "Ahora, podrás explorar tranquilamente\l"
+	.string "las islas y todos sus misterios.\l"
+	.string "He oído que hay buenos ENTRENADORES por\l"
+	.string "allí, además de una flora y fauna muy\l"
 	.string "similar a JOHTO.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27:
 .string "Con esto podrás viajar de forma\n"
-	.string "legal tomando el SURCAMAR de\l"
-	.string "CARMÍN.$"
+	.string "legal, tomando el SURCAMAR de CARMÍN.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28:
 .string "{PLAYER} rebibió el IRIS-TICKET.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_29:
-.string "Las ISLAS SETE son famosas\n"
-	.string "por su ruinas de ISLA EXTA y\l"
-	.string "SÉPTIMA, datadas en 1500 años de\l"
-	.string "antiguedad, tienen muchas\l"
-	.string "similitudes con las RUINAS ALFA de\l"
-	.string "JOHTO, y se cree de hecho que\l"
-	.string "guardan algún tipo de vínculo.$"
+.string "El ARCHI7 es famoso por sus ruinas,\n"
+	.string "tanto de ISLA EXTA como de SÉTIMA.\l"
+	.string "Ambas datadas en 1500 años de antiguedad,\l"
+	.string "tienen muchas similitudes con las RUINAS\l"
+	.string "ALFA de JOHTO, y se cree que puedan\l"
+	.string "guardar algún tipo de vínculo.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_30:
-.string "¿Recuerdas el frasco que robasteis\n"
-	.string "al CAPITÁN del SS.ANNE ANDRA y tú\l"
-	.string "justo antes de entrar a trabajar\l"
-	.string "directamente bajo mis órdenes?$"
+.string "¿Recuerdas el frasco que ANDRA y tú\n"
+	.string "robasteis al CAPITÁN del SS.ANNE?$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31:
 .string "Creemos que su contenido procede\n"
-	.string "de esas ruinas, no te diré que\l"
-	.string "vayas allí expresamente para\l"
-	.string "investigar como una misión más,\l"
-	.string "pero te informo de ello, si\l"
-	.string "sientes curiosidad, puedes pasarte\l"
-	.string "por esas ruinas e intentar\l"
-	.string "averiguar algo.$"
+	.string "de esas ruinas.\l"
+	.string "No te diré que vayas allí expresamente\l"
+	.string "para investigar, como una misión más,\l"
+	.string "pero te informo de ello.\l"
+	.string "Si sientes curiosidad, puedes pasarte\l"
+	.string "por allí, e intentar averiguar algo.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32:
-.string "Eso es todo por el momento\n"
-	.string "{PLAYER}, te avisaremos cuando\l"
-	.string "tengamos noticias sobre MEWTWO o\l"
-	.string "algún otro POKÉMON singular, las\l"
-	.string "ISLAS SETE y todos sus misterios\l"
-	.string "te esperan, disfruta de tus\l"
-	.string "vacaciones.$"
+.string "Eso es todo por el momento, {PLAYER}.\n"
+	.string "Te avisaremos cuando tengamos noticias\l"
+	.string "sobre MEWTWO o algún otro POKÉMON\l"
+	.string "singular; el ARCHI7 y sus misterios te\l"
+	.string "esperan, disfruta de tus vacaciones.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1:
 emote_exclamation_mark
@@ -3338,16 +3346,19 @@ step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_4:
 walk_left
+delay_16
 walk_in_place_left
 step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_5:
 walk_right
+delay_16
 walk_in_place_right
 step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_6:
 walk_left
+delay_16
 walk_in_place_down
 step_end
 
@@ -3391,6 +3402,7 @@ step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_14:
 walk_right
+delay_16
 walk_in_place_down
 step_end
 
