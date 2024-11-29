@@ -2231,9 +2231,9 @@ static const struct SpriteFrameImage sPicTable_Agatha2[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_Guardia[] = {
-    overworld_frame(gObjectEventPic_Guardia, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Guardia, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Guardia, 2, 4, 2), 
+    overworld_frame(gObjectEventPic_Guardia, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Guardia, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Guardia, 2, 2, 2), 
 };
 
 static const struct SpriteFrameImage sPicTable_Ghost[] = {
