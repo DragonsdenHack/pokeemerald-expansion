@@ -686,6 +686,7 @@ const u16 gObjectEventPic_MiloticP[] = INCBIN_U16("graphics/object_events/pics/p
 const u16 gObjectEventPic_RegigigasP[] = INCBIN_U16("graphics/object_events/pics/people/regigigasp.4bpp");
 const u16 gObjectEventPic_Ghost[] = INCBIN_U16("graphics/object_events/pics/people/ghost.4bpp");
 const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/pics/people/ninetalesbond.4bpp");
+const u16 gObjectEventPic_Guardia[] = INCBIN_U16("graphics/object_events/pics/pokemon/guardia.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -853,3 +854,5 @@ const u16 gObjectEventPal_Exchamp[] = INCBIN_U16("graphics/object_events/palette
 const u16 gObjectEventPal_Oak2[] = INCBIN_U16("graphics/object_events/palettes/oak2.gbapal");
 const u16 gObjectEventPal_Ghost[] = INCBIN_U16("graphics/object_events/palettes/ghost.gbapal");
 const u16 gObjectEventPal_Ninetalesbond[] = INCBIN_U16("graphics/object_events/palettes/ninetalesbond.gbapal");
+const u16 gObjectEventPal_Guardia[] = INCBIN_U16("graphics/object_events/palettes/guardia.gbapal");
+

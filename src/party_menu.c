@@ -5549,7 +5549,7 @@ void ItemUseCB_CandyDynamax2(u8 taskId, TaskFunc task)
     u16 *itemPtr = &gSpecialVar_ItemId;
     bool8 cannotUseEffect;
 
-if ((GetMonData(mon, MON_DATA_LEVEL) >= 95 && GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL && FlagGet(FLAG_EXPAND_MAX_LEVEL) == TRUE) || (GetMonData(mon, MON_DATA_LEVEL) >= 95 && GetMonData(mon, MON_DATA_LEVEL) < 100))
+if ((GetMonData(mon, MON_DATA_LEVEL) >= 95 && GetMonData(mon, MON_DATA_LEVEL) < 105 && FlagGet(FLAG_EXPAND_MAX_LEVEL) == TRUE) || (GetMonData(mon, MON_DATA_LEVEL) >= 95 && GetMonData(mon, MON_DATA_LEVEL) < 100))
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
         cannotUseEffect = ExecuteTableBasedItemEffect_(gPartyMenu.slotId, *itemPtr, 0);

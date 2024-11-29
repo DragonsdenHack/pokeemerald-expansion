@@ -582,6 +582,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_OAK2 0x11B4
 #define OBJ_EVENT_PAL_TAG_GHOST 0x11B5
 #define OBJ_EVENT_PAL_TAG_NINETALESBOND 0x11B6
+#define OBJ_EVENT_PAL_TAG_GUARDIA 0x11B7
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -772,6 +773,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Oak2, OBJ_EVENT_PAL_TAG_OAK2},
 	{gObjectEventPal_Ghost, OBJ_EVENT_PAL_TAG_GHOST},
 	{gObjectEventPal_Ninetalesbond, OBJ_EVENT_PAL_TAG_NINETALESBOND},
+	{gObjectEventPal_Guardia, OBJ_EVENT_PAL_TAG_GUARDIA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
