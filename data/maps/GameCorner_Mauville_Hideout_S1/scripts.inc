@@ -34,7 +34,7 @@ release
 end
 
 GameCorner_Mauville_Hideout_S1_NPC6_Cientifico_Texto_1:
-	.string "Este CASINO estuvo apunto de cerrar\n"
+	.string "Este CASINO estuvo a punto de cerrar\n"
 	.string "por su mala gestión. Desde que la actual\l"
 	.string "dueña se hizo con él, se ha convertido\l"
 	.string "en uno de los negocios más rentables de\l"

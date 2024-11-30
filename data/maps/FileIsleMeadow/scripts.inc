@@ -368,9 +368,9 @@ FileIsleMeadow_Combate_Azul::
 playse SE_DOOR
 opendoor 12, 21
 waitdooranim
+addobject 8
 applymovement 8, FileIsleMeadow_Combate_Azul_Move_22
 waitmovement 0x0
-addobject 8
 closedoor 12, 21
 waitdooranim
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG

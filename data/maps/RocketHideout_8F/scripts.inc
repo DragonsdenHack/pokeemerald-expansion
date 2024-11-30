@@ -2591,7 +2591,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 .string "Pero no he hecho regresar a mi\n"
 	.string "mejor general para hablar de OAK,\l"
-	.string "el encargo que estoy apunto de\l"
+	.string "el encargo que estoy a punto de\l"
 	.string "darte es mucho más trascendental\l"
 	.string "para la historia de nuestra\l"
 	.string "región, escucha{PAUSE 5}…{PAUSE 5}$"

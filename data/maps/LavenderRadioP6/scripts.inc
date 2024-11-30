@@ -695,7 +695,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.3:
 LavenderRadioP6_Encuentro_Andra_Texto_3:
 .string "Ya hemos estado en esta situación\n"
 	.string "muchas veces, {PLAYER}. Estar\l"
-	.string "expectante, apunto de vivir algo sin\l"
+	.string "expectante, a punto de vivir algo sin\l"
 	.string "tener ni idea de qué ocurrirá, esa\l"
 	.string "incertidumbre{PAUSE 5}…{PAUSE 5}$"
 

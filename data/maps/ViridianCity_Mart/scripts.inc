@@ -1127,24 +1127,24 @@ BosqueGimnasio_EventScript_Clerk::
 
 	.align 2
 BosqueGimnasio_Mercado_Pokemart:
-    .2byte 550
-    .2byte 551
-	.2byte 552
-	.2byte 553
-	.2byte 554
-	.2byte 555
-	.2byte 556
-	.2byte 557
-	.2byte 558
-	.2byte 559
-	.2byte 560
-	.2byte 561
-	.2byte 562
-	.2byte 563
-	.2byte 564
-	.2byte 565
-	.2byte 566
-	.2byte 567
+    .2byte ITEM_CHILAN_BERRY
+    .2byte ITEM_OCCA_BERRY
+	.2byte ITEM_PASSHO_BERRY
+	.2byte ITEM_WACAN_BERRY
+	.2byte ITEM_RINDO_BERRY
+	.2byte ITEM_YACHE_BERRY
+	.2byte ITEM_CHOPLE_BERRY
+	.2byte ITEM_KEBIA_BERRY
+	.2byte ITEM_SHUCA_BERRY
+	.2byte ITEM_COBA_BERRY
+	.2byte ITEM_PAYAPA_BERRY
+	.2byte ITEM_TANGA_BERRY
+	.2byte ITEM_CHARTI_BERRY
+	.2byte ITEM_KASIB_BERRY
+	.2byte ITEM_HABAN_BERRY
+	.2byte ITEM_COLBUR_BERRY
+	.2byte ITEM_BABIRI_BERRY
+	.2byte ITEM_ROSELI_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -1162,14 +1162,16 @@ BosqueGimnasio_EventScript_Clerk_2::
 
 	.align 2
 BosqueGimnasio_Mercado_2_Pokemart:
-    .2byte 458
-    .2byte 430
-	.2byte 452
-	.2byte 453
-	.2byte 454
-	.2byte 455
-	.2byte 580
-	.2byte 581
+    .2byte ITEM_PETAYA_BERRY
+    .2byte ITEM_APICOT_BERRY
+	.2byte ITEM_LANSAT_BERRY
+	.2byte ITEM_STARF_BERRY
+	.2byte ITEM_MICLE_BERRY
+	.2byte ITEM_CUSTAP_BERRY
+	.2byte ITEM_JABOCA_BERRY
+	.2byte ITEM_ROWAP_BERRY
+	.2byte ITEM_KEE_BERRY
+	.2byte ITEM_MARANGA_BERRY
 	.2byte ITEM_NONE
 	release
 	end

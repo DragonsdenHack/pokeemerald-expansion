@@ -12928,7 +12928,7 @@
     {
       "id": "LAYOUT_MAGMA1",
       "name": "Magma1_Layout",
-      "width": 20,
+      "width": 21,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
@@ -12976,7 +12976,7 @@
     {
       "id": "LAYOUT_AQUA2",
       "name": "Aqua2_Layout",
-      "width": 20,
+      "width": 21,
       "height": 20,
       "border_width": 2,
       "border_height": 2,

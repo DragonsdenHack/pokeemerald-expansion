@@ -107,6 +107,7 @@ waitmovement 0x0
 goto FourIsland_Encuentro_Zeus
 
 FourIsland_Encuentro_Zeus::
+delay 10
 msgbox FourIsland_Encuentro_Zeus_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
@@ -120,6 +121,7 @@ playse 586
 msgbox FourIsland_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FourIsland_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 9, FourIsland_Encuentro_Zeus_Move_4
 waitmovement 0x0
@@ -150,63 +152,53 @@ FourIsland_Encuentro_Zeus_Texto_1:
 	.string "guardado{PAUSE 5}…{PAUSE 5}$"
 
 FourIsland_Encuentro_Zeus_Texto_2:
-.string "No pareces ser de por aquí,\n"
-	.string "tampoco pareces ser un entrenador\l"
-	.string "normal y corriente, pero qué\l"
-	.string "importa eso, todos los\l"
-	.string "entrenadores junto a sus POKÉMON\l"
-	.string "son iguales ante el creador de\l"
-	.string "todo.$"
+.string "No pareces ser de por aquí, tampoco\n"
+	.string "pareces ser un entrenador normal y\l"
+	.string "corriente, aunque poco importa eso.\l"
+	.string "Todos los entrenadores y sus\l"
+	.string "POKÉMON son iguales ante dios.$"
 
 FourIsland_Encuentro_Zeus_Texto_3:
-.string "Voy tras la pista de dos\n"
-	.string "peligrosos delincuentes, alguien\l"
-	.string "muy sabio confinó en estas islas a\l"
-	.string "dos POKÉMON ANCESTRALES hace\l"
-	.string "cientos de años, dos POKÉMON de un\l"
-	.string "poder capaz de hacer temblar al\l"
-	.string "mundo y modificar sus condiciones\l"
-	.string "climáticas.$"
+.string "Voy tras la pista de dos peligrosos\n"
+	.string "delincuentes, alguien muy sabio confinó\l"
+	.string "en estas islas a 2 POKÉMON ANCESTRALES.\l"
+	.string "Dos POKÉMON de un poder capaz de\l"
+	.string "hacer temblar al mundo y modificar\l"
+	.string "sus condiciones climáticas.$"
 
 FourIsland_Encuentro_Zeus_Texto_4:
-.string "Estos dos POKÉMON duermen en algún\n"
-	.string "lugar, sellado y alejado de la\l"
-	.string "civilización, pero dentro del\l"
-	.string "territorio de las ISLAS SETE, eso\l"
-	.string "es seguro.$"
+.string "Estos 2 POKÉMON duermen en algún lugar,\n"
+	.string "sellado y alejado de la civilización,\l"
+	.string "y dentro del territorio del ARCHI7.$"
 
 FourIsland_Encuentro_Zeus_Texto_5:
 .string "Vine hasta aquí por la leyenda que\n"
-	.string "había acerca de esta cueva de un\l"
-	.string "poderoso POKÉMON del tipo HIELO y\l"
-	.string "AGUA, pero lo máximo que he podido\l"
-	.string "encontrar son LAPRAS salvajes, no\l"
-	.string "parece que haya nada interesante\l"
-	.string "aquí.$"
+	.string "había en esta cueva, acerca de un\l"
+	.string "poderoso POKÉMON del TIPO HIELO.\l"
+	.string "Pero solo he podido encontrar LAPRAS\l"
+	.string "salvajes, y no parece que haya nada\l"
+	.string "más interesante.$"
 
 FourIsland_Encuentro_Zeus_Texto_6:
-.string "Mi próximo destino es la CUEVA\n"
-	.string "CAMBIANTE, al norte de ISLA EXTA,\l"
-	.string "allí hay unas enormes pisadas que\l"
-	.string "coinciden con las de uno de los\l"
-	.string "dos POKÉMON ANCESTRALES.$"
+.string "Mi próximo destino es la CUEVA CAMBIANTE.\n"
+	.string "Está al norte de ISLA EXTA, allí hay\l"
+	.string "unas pisadas que podrían coincidir\l"
+	.string "con las de algún POKÉMON ANCESTRAL.$"
 
 FourIsland_Encuentro_Zeus_Texto_7:
-.string "Debo encontrar a esos POKÉMON\n"
-	.string "antes de que esos fanáticos lo\l"
-	.string "hagan, ahora que saben como\l"
-	.string "despertarlos, no puedo permitir\l"
-	.string "que eso ocurra.$"
+.string "Debo encontrar a esos POKÉMON, antes de\n"
+	.string "que esos fanáticos lo hagan.\l"
+	.string "Ahora que saben cómo despertarlos,\l"
+	.string "no debo permitir que tal cosa ocurra.$"
 
 FourIsland_Encuentro_Zeus_Texto_8:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 FourIsland_Encuentro_Zeus_Texto_9:
-.string "Si ves algo fuera de lo normal,\n"
-	.string "avísame de inmediato, estaré\l"
-	.string "investigando en la CUEVA\l"
-	.string "CAMBIANTE, hasta la vista,\l"
-	.string "-ENTRENADOR-.$"
+.string "Si ves algo fuera de lo normal, avísame\n"
+	.string "de inmediato, estaré investigando en la\l"
+	.string "CUEVA CAMBIANTE.\l"
+	.string "Hasta la vista, -ENTRENADOR-.$"
 
 FourIsland_Encuentro_Zeus_Move_1:
 face_right

@@ -1925,7 +1925,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_17:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_18:
 .string "En estos momentos, la TORRE RADIO de\n"
-	.string "LAVANDA está apunto de concluir su\l"
+	.string "LAVANDA está a punto de concluir su\l"
 	.string "construcción en tiempo récord.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_19:

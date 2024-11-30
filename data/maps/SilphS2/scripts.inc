@@ -131,7 +131,7 @@ SilphS2_Text_6:
 .string "cosechas que generaban dentro del\l"
 .string "territorio, como pago por su\l"
 .string "protección.\l"
-.string "Pues bien, LANCE ha estado apunto\l"
+.string "Pues bien, LANCE ha estado a punto\l"
 .string "de aplicar aquí el diezmo pero a\l"
 .string "la inversa, ¿en qué consiste?\l"
 .string "Fácil, el ciudadano de KANTO se\l"

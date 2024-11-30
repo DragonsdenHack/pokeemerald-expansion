@@ -10375,7 +10375,7 @@ MtEmberB1F_Text_SoldadoDefeated:
 
 
 MtEmberB1F_Text_SoldadoPostBattle:
-    .string "Nuestro plan maestro está apunto\n"
+    .string "Nuestro plan maestro está a punto\n"
 	.string "de completarse, cuando volvamos a\l"
 	.string "HOENN nadie podrá pararnos los\l"
 	.string "pies.$"
@@ -10417,7 +10417,7 @@ MtEmberB3F_Text_SoldadoDefeated:
 
 MtEmberB3F_Text_SoldadoPostBattle:
     .string "A estas alturas ya deben de estar\n"
-	.string "apunto de averiguar la entrada\l"
+	.string "a punto de averiguar la entrada\l"
 	.string "secreta que lleva a GROUDON, no te\l"
 	.string "dará tiempo a llegar hasta mi\l"
 	.string "JEFE, antes tendrás que derrotar a\l"
@@ -16697,10 +16697,10 @@ DottedHole_B4F_Aqua_2PostBattle:
 
 
 DottedHole_B4F_Text_Aqua_3Intro:
-.string "Confío en nuestro CAPITÁN y\n"
-	.string "nuestro LÍDER, AQUILES, gracias a\l"
-	.string "él el mar por fin tendrá la\l"
-	.string "extensión que merece.$"
+.string "Confío en nuestro CAPITÁN y en\n"
+	.string "nuestro LÍDER, AQUILES.\l"
+	.string "Gracias a él, el mar por fin tendrá\l"
+	.string "la extensión que merece.$"
 
 DottedHole_B4F_Text_Aqua_3Defeated:
 .string "¡Perdóname AQUILES!\n"
@@ -16709,7 +16709,7 @@ DottedHole_B4F_Text_Aqua_3Defeated:
 DottedHole_B4F_Aqua_3PostBattle:
 .string "Aunque llegaras hasta mi JEFE, no\n"
 	.string "hay vuelta atrás, deben de estar\l"
-	.string "apunto de despertar a KYOGRE, y\l"
+	.string "a punto de despertar a KYOGRE, y\l"
 	.string "una vez liberado, su furia\l"
 	.string "será incontenible.$"
 
@@ -16833,7 +16833,7 @@ TwoIsland_Torre_P4_Text_RocketDefeated:
 
 TwoIsland_Torre_P4_Text_RocketPostBattle:
 .string "¿ADMINISTRADOR?\n"
-	.string "Eso es imposible, solo PETREL Y ATLAS\l"
+	.string "Eso es imposible, solo PETREL y ATLAS\l"
 	.string "ocupaban ese cargo, y ahora nuestro\l"
 	.string "nuevo JEFE también.$"
 

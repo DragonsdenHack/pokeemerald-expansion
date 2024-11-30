@@ -251,7 +251,7 @@ Aqua3_Combate_Aquiles_Texto_2:
 	.string "cualidades serías un gran miembro\l"
 	.string "del EQUIPO AQUA, alguien como tú\l"
 	.string "seguro que sabe apreciar el\l"
-	.string "espectáculo que está apunto de\l"
+	.string "espectáculo que está a punto de\l"
 	.string "producirse aquí.\l"
 	.string "¡Vamos ROCKET camina!\l"
 	.string "¡Ya es demasiado tarde para\l"

@@ -471,7 +471,7 @@ RuinsOfAlph_S5_Final_Texto_5:
 RuinsOfAlph_S5_Final_Texto_6:
 .string "¡Observa atentamente {PLAYER}, las\n"
 	.string "mayores fuerzas que existen en el\l"
-	.string "universo están apunto de aparecer!$"
+	.string "universo están a punto de aparecer!$"
 
 RuinsOfAlph_S5_Final_Texto_7:
 .string "¡MEW!$"
@@ -578,7 +578,7 @@ RuinsOfAlph_S5_Final_Texto_19:
 RuinsOfAlph_S5_Final_Texto_20:
 .string "No hay posibilidad de escape, solo\n"
 	.string "eres una parte del todo que estás\l"
-	.string "apunto de enfrentar.$"
+	.string "a punto de enfrentar.$"
 
 RuinsOfAlph_S5_Final_Texto_21:
 .string "Lo siento {PLAYER}, habrías sido un\n"

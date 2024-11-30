@@ -7,7 +7,7 @@ TwoIsland_Torre_P4_EventScript_Rocket::
 	end
 
 TwoIsland_Torre_P4_EventScript_Rocket_2::
-	trainerbattle_single TRAINER_TRAINER_164, TwoIsland_Torre_P4_Text_Rocket2Intro, TwoIsland_Torre_P4_Text_Rocket2Defeated
+	trainerbattle_single TRAINER_TRAINER_730, TwoIsland_Torre_P4_Text_Rocket2Intro, TwoIsland_Torre_P4_Text_Rocket2Defeated
 	msgbox TwoIsland_Torre_P4_Text_Rocket2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

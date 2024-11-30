@@ -1275,8 +1275,8 @@ PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_2:
 	.string "¿{PLAYER}? ¡Vamos!$"
 
 PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_3:
-	.string "Ya estaba apunto de ir a por ti. Esta\n"
-	.string "vez es tu clave la que falta.$"
+	.string "Ya estaba a punto de ir a por ti.\n"
+	.string "Esta vez es tu clave la que falta.$"
 
 PalletTown_Laboratorio_Secreto_S3_Dalia_Texto_4:
 	.string "Introdujiste la clave:\n"
