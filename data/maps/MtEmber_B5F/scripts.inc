@@ -48,6 +48,14 @@ applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4.1
 waitmovement 0x0
 delay 15
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
+waitmovement 0x0
+waitse
+delay 10
+msgbox MtEmber_B5F_Encuentro_Magno_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
 waitmovement 0x0
@@ -233,29 +241,28 @@ face_up
 step_end
 
 MtEmber_B5F_Encuentro_Magno_Texto_1:
-.string "MAGNO: Este es el lugar, la\n"
-	.string "ubicación del RUBÍ no engaña,\l"
-	.string "detrás de estas paredes\l"
-	.string "descansa GROUDON.$"
+.string "MAGNO: Este es el lugar, la ubicación\n"
+	.string "del RUBÍ no engaña: detrás de estas\l"
+	.string "paredes descansa GROUDON.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3:
-.string "Ese estúpido científico del CENTRO\n"
-	.string "POKÉMON de esta isla que se hace\l"
-	.string "llamar CELIO quería obtener el\l"
-	.string "RUBÍ para usarlo en ese burdo\l"
-	.string "proyecto de conexión entre\l"
-	.string "regiones, semejante sacrilegio\l"
-	.string "solo hubiera estado a la altura de\l"
-	.string "su ignorancia.$"
+.string "Ese estúpido CELIO{PAUSE 15}…{PAUSE 15}\n"
+	.string "Quería obtener el RUBÍ para usarlo en\l"
+	.string "ese burdo proyecto de conexión entre\l"
+	.string "regiones.$"
+
+MtEmber_B5F_Encuentro_Magno_Texto_3.1:
+	.string "¡Semejante sacrilegio solo hubiera\n"
+	.string "estado a la altura de su ignorancia!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_4:
-.string "Afortunadamente este RUBÍ ha caído\n"
+.string "Afortunadamente, este RUBÍ ha caído\n"
 	.string "en las manos adecuadas, le daremos\l"
-	.string "el verdadero uso, el propósito,\l"
-	.string "por el que fue creado, ¡observad!$"
+	.string "el verdadero uso, el propósito por\l"
+	.string "el que fue creado, ¡observad!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_5:
 .string "Si juntamos ambos objetos, la\n"
@@ -264,18 +271,18 @@ MtEmber_B5F_Encuentro_Magno_Texto_5:
 	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
-.string "Al fin, ya queda poco GROUDON, tu\n"
-	.string "poder ha sido contenido por mucho\l"
+.string "Ya queda poco, GROUDON.\n"
+	.string "Tu poder ha sido contenido por mucho\l"
 	.string "tiempo, pero ya no más{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 .string "Todos adentro, ¡ya!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-.string "MAGNO: ¿Tú otra vez? Ya te avisé\n"
-	.string "una vez, y no volveré a hacerlo,\l"
-	.string "tengo cosas más importantes que\l"
-	.string "hacer que ocuparme de ti.\l"
+.string "MAGNO: ¿Tú otra vez? \n"
+	.string "Te advertí una vez, y no volveré\l"
+	.string "a hacerlo, tengo asuntos más\l"
+	.string "importantes que ocuparme de ti.\l"
 	.string "¡ALTO RANGO KAREN!\l"
 	.string "¡Que no pase de este lugar!$"
 
@@ -284,31 +291,26 @@ MtEmber_B5F_Encuentro_Magno_Texto_8:
 	.string "le ponga la mano encima, señor.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_9:
-.string "MAGNO: Ahí te quedas, GROUDON\n"
-	.string "espera, aún pudiendo llegar hasta\l"
-	.string "mí, para cuando lo hicieres ya\l"
-	.string "sería demasiado tarde.$"
+.string "MAGNO: Ahí te quedas, GROUDON espera.\n"
+	.string "Aunque pudieras llegar hasta mí, para\l"
+	.string "cuando lo hicieres, sería demasiado tarde.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_10:
-.string "Todo ha salido tal y como\n"
-	.string "planeamos, llegados a este punto\l"
-	.string "nadie puede hacer nada por impedir\l"
-	.string "el despertar de GROUDON, tienes\l"
-	.string "dos opciones: o salir corriendo de\l"
-	.string "aquí antes de que todo explote, ¡o\l"
-	.string "ser el primero en ponerse como\l"
-	.string "carne de cañón para cuando GROUDON\l"
-	.string "despierte!$"
+.string "Todo ha salido tal y como planeamos.\n"
+	.string "El despertar de GROUDON es inevitable.\p"
+	.string "Tienes dos opciones: salir corriendo\n"
+	.string "de aquí antes de que todo explote{PAUSE 15}…{PAUSE 15}\l"
+	.string "¡O ser el primero en ponerse como\l"
+	.string "carne de cañón para GROUDON!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_11:
 .string "Mi derrota ha servido para asegurar\n"
 	.string "nuestra victoria final.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_12:
-.string "No hay marcha atrás, pronto el\n"
-	.string "mundo será testigo del poder de\l"
-	.string "GROUDON, y tú un mero espectador\l"
-	.string "más.$"
+.string "No hay marcha atrás, pronto el mundo\n"
+	.string "será testigo del poder de GROUDON,\l"
+	.string "y tú un mero espectador más.$"
 
 MtEmber_B5F_Encuentro_Magno_Move_1:
 face_left

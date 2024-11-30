@@ -119,6 +119,7 @@ playse SE_PIN
 applymovement 2, MtEmberEntrance_Encuentro_Magno_Move_7
 waitmovement 0x0
 msgbox MtEmberEntrance_Encuentro_Magno_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtEmberEntrance_Encuentro_Magno_Move_8.1
 applymovement 2, MtEmberEntrance_Encuentro_Magno_Move_8
 waitmovement 0x0
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
@@ -128,40 +129,45 @@ setvar VAR_ROUTE105_STATE, 4
 release
 end
 
+MtEmberEntrance_Encuentro_Magno_Move_8.1:
+delay_16
+face_down
+delay_16
+delay_8
+face_right
+step_end
+
 MtEmberEntrance_Encuentro_Magno_Texto_1:
 .string "????: Debe ser aquí.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_2:
 .string "Esta gran montaña resultó ser el\n"
-	.string "hogar de un legendario como\l"
-	.string "MOLTRES, alguien lo dejó bastante\l"
-	.string "debilitado, listo para ser\l"
-	.string "capturado y unirse a mi equipo.$"
+	.string "hogar de un legendario como MOLTRES.\l"
+	.string "Alguien lo dejó bastante debilitado,\l"
+	.string "listo para unirse a mi equipo.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_4:
 .string "Mentiría si dijera que no prefiero\n"
-	.string "antes a un ENTEI, el auténtico\l"
-	.string "espíritu de un volcán en erupción,\l"
-	.string "antes que un MOLTRES, sin embargo,\l"
-	.string "jamás rechazaría un POKÉMON de\l"
-	.string "esas características cuando se\l"
-	.string "presenta tan fácilmente.$"
+	.string "antes a un ENTEI: el auténtico\l"
+	.string "espíritu de un volcán en erupción.\l"
+	.string "Pero jamás rechazaría un POKÉMON de\l"
+	.string "tal envergadura, cuando se presenta\l"
+	.string "tan fácilmente.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_5:
-.string "No obstante, no estoy aquí por\n"
-	.string "MOLTRES, este lugar esconde algo\l"
-	.string "mucho más valioso y poderoso en\l"
-	.string "su interior de lo que jamás\l"
-	.string "pudiéramos imaginar solo echando\l"
-	.string "un simple vistazo a su superficie.$"
+.string "No obstante, este lugar esconde algo\n"
+	.string "mucho más valioso y poderoso que un\l"
+	.string "LEGENDARIO MENOR.\l"
+	.string "Algo imposible de imaginar si solo\l"
+	.string "echamos un vistazo a su superficie.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_6:
-.string "Te lo advierto chico, no te metas\n"
-	.string "en asuntos más grandes que tu\l"
-	.string "propia existencia, o serás\l"
+.string "Te lo advierto, chico.\n"
+	.string "No te metas en asuntos más grandes\l"
+	.string "que tu propia existencia, o serás\l"
 	.string "reducido a cenizas por un poder\l"
 	.string "que escapa a tu comprensión.$"
 

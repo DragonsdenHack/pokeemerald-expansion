@@ -11,7 +11,7 @@ end
 
 CuevaHypno_2_Descripcion_Gym_2_Texto_1:
 .string "GIMNASIO de ISLA SÉTIMA\n"
-	.string "LÍDER: ZINNIA\l"
+	.string "LÍDER: ZOE\l"
 	.string "¡La alegre dama que hace de lo\l"
-	.string "extraordinario algo normal!$"
+	.string "extraordinario una rutina!$"
 	

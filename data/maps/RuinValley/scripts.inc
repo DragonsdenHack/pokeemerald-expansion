@@ -44,11 +44,8 @@ release
 end
 
 RuinValley10_Texto_1:
-.string "Maldita puerta…\n"
-	.string "El ALMIRANTE TOLO debe de saber\l"
-	.string "cómo pasar por aquí, es lo único\l"
-	.string "que nos separa del preciado\l"
-	.string "ZAFIRO…{PAUSE 5}$"
+	.string "El ALMIRANTE TOLO llegará pronto, y\n"
+	.string "ese ZAFIRO debe estar aquí…{PAUSE 5}$"
 
 
 RuinValley11::
@@ -153,13 +150,12 @@ RuinValley_Encuentro_Aquiles_Texto_1:
 	.string "¡Lo presiento!$"
 
 RuinValley_Encuentro_Aquiles_Texto_2:
-.string "¡Fuera de mi camino chico!$"
+.string "¡Fuera de mi camino, chico!$"
 
 RuinValley_Encuentro_Aquiles_Texto_3:
 .string "El POKÉMON CUENCA MAR duerme en lo\n"
-	.string "más profundo de esa cámara\l"
-	.string "sellada, no me hagas perder más el\l"
-	.string "tiempo.$"
+	.string "más profundo de esa cámara sellada,\l"
+	.string "¡no me hagas perder más el tiempo!$"
 
 
 

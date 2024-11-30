@@ -294,7 +294,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIA",
       "x": 19,
       "y": 51,
       "elevation": 3,
@@ -489,7 +489,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIA",
       "x": 8,
       "y": 60,
       "elevation": 3,
@@ -502,7 +502,7 @@
       "flag": "FLAG_HIDE_ROUTE_101_BIRCH"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KANGASKHAN",
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIA",
       "x": 8,
       "y": 59,
       "elevation": 3,
@@ -528,8 +528,8 @@
       "flag": "FLAG_HOENN_42"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
-      "x": 18,
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIA",
+      "x": 19,
       "y": 52,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",

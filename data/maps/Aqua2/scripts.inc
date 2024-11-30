@@ -8,8 +8,10 @@ Aqua2_Combate_Admin::
 lock
 faceplayer
 msgbox Aqua2_Combate_Admin_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Magma1_Combate_Admin_Move_1
 waitmovement 0x0
+delay 10
 msgbox Aqua2_Combate_Admin_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, Aqua1_Combate_Admin_Move_1.1
@@ -18,7 +20,7 @@ delay 10
 msgbox Aqua2_Combate_Admin_Texto_2.1 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_BREAKABLE_DOOR
-applymovement 1, Magma1_Combate_Admin_Move_1.2
+applymovement 1, Aqua1_Combate_Admin_Move_1.5
 waitmovement 0x0
 waitse
 delay 10
@@ -47,7 +49,7 @@ delay 10
 msgbox Aqua2_Combate_Admin_Texto_5.1 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_BREAKABLE_DOOR
-applymovement 1, Magma1_Combate_Admin_Move_1.2
+applymovement 1, Aqua1_Combate_Admin_Move_1.5
 waitmovement 0x0
 waitse
 delay 10
@@ -125,10 +127,14 @@ face_down
 delay_8
 step_end
 
+Aqua1_Combate_Admin_Move_1.5:
+walk_in_place_down
+step_end
+
 Aqua2_Combate_Admin_Texto_1:
 .string "Vaya{PAUSE 5}…{PAUSE 5} no muchos están a la\n"
 	.string "altura de SILVINA; parece que tu\l"
-	.string "presencia aquí no es pura casualidad.\l"
+	.string "presencia aquí no es pura casualidad.$"
 
 Aqua2_Combate_Admin_Texto_1.1:
 	.string "Pero llegados a este punto, lo que\n"
