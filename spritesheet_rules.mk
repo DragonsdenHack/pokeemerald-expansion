@@ -1184,6 +1184,9 @@ $(OBJEVENTGFXDIR)/pokemon/wingull.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/zigzagoon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 	
+$(OBJEVENTGFXDIR)/pokemon/guardia.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2	
+	
 $(OBJEVENTGFXDIR)/pokemon/chansey.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
