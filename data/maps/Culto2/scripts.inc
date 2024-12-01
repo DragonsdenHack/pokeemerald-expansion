@@ -34,8 +34,8 @@ release
 end
 
 Culto2_NPC_4_Texto_1:
-.string "Cuida cada paso que des aquí\n"
-	.string "chico, estás pisando hisoria viva.$"
+.string "Cuida cada paso que des aquí.\n"
+	.string "Estás pisando historia viva.$"
 
 
 Culto2_NPC_5::
@@ -46,11 +46,10 @@ release
 end
 
 Culto2_NPC_5_Texto_1:
-.string "La verdad, aunque solo sea\n"
-	.string "conocida por unos pocos, seguirá\l"
-	.string "siendo la verdad, nadie puede\l"
-	.string "deshacer el hecho de que fuiste\l"
-	.string "CAMPEÓN de KANTO.$"
+.string "La verdad, aunque solo sea conocida por\n"
+	.string "por unos pocos, seguirá siendo la verdad.\l"
+	.string "Nadie puede deshacer el hecho de\l"
+	.string "que fuiste CAMPEÓN de KANTO.$"
 
 
 Culto2_NPC_6::
@@ -62,12 +61,12 @@ end
 
 Culto2_NPC_6_Texto_1:
 .string "¿Cómo hemos podido vivir aquí sin\n"
-	.string "salir al exterior durante siglos?\l"
-	.string "No estás preparado para conocer\l"
+	.string "salir al exterior durante siglos?\p"
+	.string "No estás preparado para conocer\n"
 	.string "las verdaderas dimensiones de este\l"
-	.string "lugar, todo cuanto necesitamos\l"
-	.string "está aquí, el interior de este\l"
-	.string "lugar es más extenso que cualquier\l"
-	.string "ciudad que conozcas chico, un\l"
-	.string "homenaje a lo eterno e\l"
-	.string "imperecedero.$"
+	.string "lugar, todo cuanto necesitamos ya\l"
+	.string "lo tenemos aquí.\l"
+	.string "Estas cámaras se han forjado durante\l"
+	.string "siglos, y son más extensas que\l"
+	.string "cualquier ciudad que conozcas.\p"
+	.string "Un homenaje a lo eterno e imperecedero.$"

@@ -2513,6 +2513,10 @@ RocketHideout_8F_Mision_Gimnasios_move_17:
 face_up
 step_end
 
+RocketHideout8F_Mision_Subterraneo_Silph_Move_1.4:
+emote_exclamation_mark
+step_end
+
 RocketHideout8F_Mision_Subterraneo_Silph::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Subterraneo_Silph_Move_1
 waitmovement 0x0
@@ -2521,15 +2525,33 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_1 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Subterraneo_Silph_Move_1.4
+waitmovement 0x0
+waitse
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_6 MSGBOX_AUTOCLOSE
 delay 15
@@ -2537,19 +2559,47 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_5
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_11 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_12.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_5
 waitmovement 0x0
@@ -2558,183 +2608,194 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_16 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_85
 delay 15
 setvar VAR_UNUSED_0x40F7, 102
 release
 end
 
+RocketHideout8F_Mision_Subterraneo_Silph_Move_4.1:
+face_up
+step_end
+
+RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
 RocketHideout8F_Mision_Subterraneo_Silph_Text_1:
 .string "GIOVANNI: ¡Oh, {PLAYER}!\n"
-	.string "¡Excelente!\l"
-	.string "¡Te veo algo cambiado!\l"
-	.string "No diría que has estado\l"
-	.string "precisamente tomándote con calma\l"
-	.string "tus vacaciones.\l"
+.string "¡Te veo algo cambiado!\p"
+	.string "No diría que has estado precisamente\n"
+	.string "tomando con calma tus vacaciones.\l"
 	.string "¿Me equivoco?$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
 .string "Antes de nada, debo darte una mala\n"
-	.string "noticia, y es que OAK ha\l"
-	.string "desaparecido totalmente del mapa,\l"
-	.string "después de lo ocurrido en la liga\l"
-	.string "quedamos en recluirlo en su\l"
-	.string "laboratorio de PUEBLO PALETA, pero\l"
-	.string "ha encontrado la forma de\l"
-	.string "desaparecer. Creemos que puede\l"
-	.string "estar tramando algo junto con\l"
-	.string "BLAINE; el otro traidor que\l"
-	.string "curiosamente ha desaparecido\l"
-	.string "también. Y mientras…{PAUSE 25} FUJI aún entre\l"
-	.string "rejas, afortunadamente queda poco\l"
-	.string "para su vuelta{PAUSE 5}…{PAUSE 5}$"
+	.string "noticia, y es que OAK ha desaparecido.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_2.1:
+	.string "Después de lo ocurrido en la LIGA,\n"
+	.string "quedamos en recluirlo en su laboratorio\l"
+	.string "de PUEBLO PALETA, pero ha encontrado la\l"
+	.string "la forma de desaparecer.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_2.2:
+	.string "Creemos que puede estar tramando algo,\n"
+	.string "junto con BLAINE; el otro traidor que\l"
+	.string "también ha desaparecido.\p"
+	.string "Y mientras…{PAUSE 25} FUJI aún entre rejas,\n"
+	.string "por fortuna, queda poco para su vuelta{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
-.string "Pero no he hecho regresar a mi\n"
-	.string "mejor general para hablar de OAK,\l"
-	.string "el encargo que estoy a punto de\l"
-	.string "darte es mucho más trascendental\l"
-	.string "para la historia de nuestra\l"
-	.string "región, escucha{PAUSE 5}…{PAUSE 5}$"
+.string "Pero no te hecho regresar para\n"
+	.string "hablar de OAK.\l"
+	.string "El encargo que estoy a punto de darte\l"
+	.string "es mucho más trascendental para la\l"
+	.string "historia de nuestra región, escucha{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
-.string "Desde siempre, aquellos ciudadanos\n"
-	.string "de KANTO con la mente\l"
-	.string "suficientemente abierta como para\l"
-	.string "ver más allá de los 150\l"
-	.string "originales, los que conocían otras\l"
-	.string "regiones y viajado hasta la vecina\l"
-	.string "JOHTO, o la lejana HOENN, se\l"
-	.string "hacían una pregunta:\l"
-	.string "¿Por qué no existe en KANTO un\l"
-	.string "POKÉMON de las características de\l"
-	.string "HO-OH, GROUDON o RAYQUAZA?\l"
-	.string "Un patrón que se repite en todas\l"
-	.string "las regiones conocidas sin\l"
-	.string "excepción, quitando KANTO claro,\l"
-	.string "algo curioso{PAUSE 5}…{PAUSE 5}$"
+.string "Desde siempre, aquellos ciudadanos de\n"
+	.string "KANTO con la mente lo suficientemente\l"
+	.string "abierta como para ver más allá de los\l"
+	.string "150 originales; los que conocían otras\l"
+	.string "regiones, habían viajado hasta la vecina\l"
+	.string "JOHTO, o la lejana HOENN, se hacían una\l"
+	.string "pregunta{PAUSE 15}…{PAUSE 15}$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_4.1:
+	.string "¿Por qué no existe en KANTO un\n"
+	.string "POKÉMON de las dimensiones de\l"
+	.string "HO-OH, GROUDON o RAYQUAZA?$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_4.2:
+	.string "El patrón de los -LEGENDARIOS MAYORES-\n"
+	.string "se repite en todas las regiones\l"
+	.string "conocidas, sin excepción.\l"
+	.string "Todas{PAUSE 15}…{PAUSE 15} excepto nuestra KANTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
-.string "Surgieron muchas teorías que\n"
-	.string "trataban de responder a esta\l"
-	.string "pregunta, algunos científicos e\l"
-	.string "investigadores señalaron que era\l"
-	.string "MEW dicho POKÉMON, sin embargo, no\l"
-	.string "podemos meter a MEW en el mismo\l"
-	.string "saco que RAYQUAZA, o LUGIA,\l"
-	.string "entraría más en el perfil de un\l"
-	.string "JIRACHI en HOENN o{PAUSE 5}…{PAUSE 5}$"
+.string "Surgieron muchas teorías que trataban\n"
+	.string "de responder a esta pregunta; algunos\l"
+	.string "científicos e investigadores señalaron\l"
+	.string "que era MEW dicho POKÉMON.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1:
+	.string "Pero no podemos meterlo en el mismo\n"
+	.string "saco que RAYQUAZA, o LUGIA{PAUSE 5}…{PAUSE 5}\l"
+	.string "Entraría más en el perfil de JIRACHI\l"
+	.string "en HOENN o{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
 .string "PROTÓN: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
-.string "GIOVANNI: …CELEBI en JOHTO.$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}CELEBI en JOHTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
-.string "Otros apuntaban a que KANTO era\n"
-	.string "una región desprovista de un\l"
-	.string "POKÉMON de tal categoría: lo\l"
-	.string "máximo con lo que contaría pues es\l"
-	.string "con DRAGONITE y MEW, ambos\l"
-	.string "estableciendo el límite de poder\l"
-	.string "de la región en 600 STATS BASE,\l"
-	.string "después de todo, la historia de\l"
-	.string "KANTO pudo propiciar que no se\l"
-	.string "diesen los ingredientes para que\l"
-	.string "aquí se desarrollase un LUGIA o un\l"
-	.string "HO-OH, en ese sentido puede ser\l"
-	.string "una cuestión de mero azar, que\l"
-	.string "quedaría en una curiosa\l"
-	.string "coincidencia, sin embargo{PAUSE 5}…{PAUSE 5}$"
+.string "Otros apuntaban a que KANTO era una\n"
+	.string "región desprovista de un POKÉMON así.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.1:
+	.string "Sus POKÉMON de mayor jerarquía serían,\n"
+	.string "en ese caso, DRAGONITE y MEW.\l"
+	.string "Estableciendo el límite de poder de\l"
+	.string "la región en 600 STATS BASE.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.2:
+	.string "Después de todo, la historia de KANTO\n"
+	.string "pudo propiciar que no se diesen los\l"
+	.string "ingredientes necesarios para que surja\l"
+	.string "un LUGIA o un HO-OH; mero azar.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.3:
+	.string "De ser el caso, ello quedaría en una\n"
+	.string "curiosa coincidencia, sin embargo{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
 .string "Un último grupo de investigadores\n"
-	.string "apunta a que dicho POKÉMON\l"
-	.string "efectivamente existiría, y el\l"
-	.string "único motivo por el que no lo\l"
-	.string "conocemos sería precisamente ese:\l"
-	.string "aún no lo hemos encontrado.$"
+	.string "apunta a que, efectivamente, dicho\l"
+	.string "POKÉMON existiría; el único motivo\l"
+	.string "por el que no lo conocemos sería\l"
+	.string "ese: aún no ha sido encontrado.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_10:
 .string "Esta última teoría se subdivide en\n"
-	.string "otras dos teorías, una afirma que\l"
-	.string "ese POKÉMON nos es ignoto por su\l"
-	.string "escurridiza naturaleza, la otra\l"
-	.string "afirma que su poder es tal que\l"
-	.string "sobrepasaría el de los legendarios\l"
-	.string "pesados de otras regiones, y\l"
-	.string "precisamente por ello se encuentra\l"
-	.string "lejos de ser accesible para\l"
-	.string "cualquier humano, tal vez sean las\l"
-	.string "dos, o ninguna{PAUSE 15}…{PAUSE 15}no lo sé.$"
+	.string "otras dos teorías.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_10.1:
+	.string "Una afirma que ese POKÉMON nos es\n"
+	.string "ignoto por su escurridiza naturaleza.$"
+	
+RocketHideout8F_Mision_Subterraneo_Silph_Text_10.2:
+	.string "La otra{PAUSE 15}…{PAUSE 15} afirma que es debido\n"
+	.string "a su vasto poder, de tal magnitud que\l"
+	.string "sobrepasaría el de un -LEGENDARIO MAYOR-.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_11:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_12:
-.string "Este tema siempre me ha fascinado\n"
-	.string "{PLAYER}, la posibilidad de que tal\l"
-	.string "POKÉMON exista cambiaría la forma\l"
-	.string "en que vemos KANTO para siempre,\l"
-	.string "entre nuestra cruzada para liberar\l"
-	.string "KANTO de las garras de LANCE, y la\l"
-	.string "poca información sobre dicho tema,\l"
+.string "Este tema siempre me ha fascinado.\n"
+	.string "La posibilidad de que tal POKÉMON\l"
+	.string "exista cambiaría la forma en que\l"
+	.string "vemos KANTO para siempre.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_12.1:
+	.string "Entre nuestra cruzada para liberar\n"
+	.string "la región de las garras de LANCE, y\l"
+	.string "la poca información sobre dicho tema,\l"
 	.string "el TEAM ROCKET dejó este asunto en\l"
-	.string "pausa, sin embargo, con KANTO\l"
-	.string "ahora recuperándose, y lo ocurrido\l"
-	.string "en tus vacaciones, es el momento\l"
+	.string "pausa.\p"
+	.string "Ahora, con KANTO recuperándose, y\n"
+	.string "nuestra situación actual, es el momento\l"
 	.string "de reiniciar esta investigación.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
-.string "Desde que SILPH es aliada nuestra,\n"
-	.string "he tenido ocasión de reunirme\l"
-	.string "varias veces con su PRESIDENTE.\l"
-	.string "El caso es que en nuestra última \l"
-	.string "reunión, salió precisamente\l"
-	.string "este tema y{PAUSE 5}…{PAUSE 5}$"
+.string "Desde que SILPH es aliada nuestra, he\n"
+	.string "tenido ocasión de reunirme varias\l"
+	.string "veces con su PRESIDENTE.\p"
+	.string "El caso es que en nuestra última\n"
+	.string "reunión, salió este tema y{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
-.string "Resulta que SILPH cuenta con una\n"
-	.string "gran biblioteca privada en sus\l"
-	.string "pisos inferiores, inaccesibles\l"
-	.string "para el público, SILPH no solo es\l"
-	.string "la empresa más exitosa de KANTO,\l"
-	.string "también una de las más antiguas,\l"
-	.string "dentro de esa biblioteca privada\l"
-	.string "hay algunos documentos que hablan\l"
-	.string "precisamente de la existencia de\l"
-	.string "un POKÉMON que podría encajar con\l"
-	.string "la jerarquía de un LUGIA o un\l"
-	.string "HO-OH, o incluso más{PAUSE 5}…{PAUSE 5}$"
+.string "Resulta que SILPH cuenta con una gran\n"
+	.string "biblioteca privada en sus pisos\l"
+	.string "inferiores.\p"
+	.string "No solo es la empresa más exitosa\n"
+	.string "de KANTO, también es una de las más\l"
+	.string "antiguas; dentro de esa biblioteca\l"
+	.string "hay algunos documentos que hablan de\l"
+	.string "un POKÉMON que podría encajar con lo\l"
+	.string "que buscamos.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
-.string "Tu misión es muy simple {PLAYER},\n"
-	.string "solo tendrás que volver a SILPH y\l"
-	.string "hablar con la recepcionista para\l"
-	.string "que te deje entrar a los pisos\l"
-	.string "inferiores y así poder acceder a\l"
-	.string "esos documentos que podrían ser\l"
-	.string "tan reveladores.$"
+.string "Tu misión es muy simple, {PLAYER}.\n"
+	.string "Solo tendrás que volver a SILPH y\l"
+	.string "hablar con la recepcionista, ella\l"
+	.string "te indicará cómo entrar a los pisos\l"
+	.string "inferiores.\l"
+	.string "Una vez allí, irás en busca de tan\l"
+	.string "reveladores archivos.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_16:
 .string "No solo yo, el PRESIDENTE de SILPH\n"
 	.string "se mostró encantado de que fueras\l"
-	.string "tú quien volviera a SILPH, en ese\l"
-	.string "sentido, no encontrarás oposición\l"
-	.string "ninguna, solo debes informarte\l"
-	.string "todo lo que puedas acerca de este\l"
-	.string "tema, buscar cualquier pista que\l"
-	.string "nos acerque a dicho POKÉMON,\l"
-	.string "¿entiendes?$"
+	.string "tú quien volviera a SILPH.\p"
+	.string "En ese sentido, no encontrarás\n"
+	.string "oposición alguna.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_17:
-.string "GIOVANNI: Bien {PLAYER}, recuerda,\n"
-	.string "la recepcionista de SILPH te dará\l"
-	.string "acceso a los pisos inferiores,\l"
-	.string "saluda al PRESIDENTE de mi parte\l"
-	.string "si llegas a verlo.\l"
-	.string "¡Eso es todo!$"
+.string "Eso es todo, y recuerda: la\n"
+	.string "recepcionista de SILPH te dará\l"
+	.string "acceso a los pisos inferiores.\l"
+	.string "Saluda al PRESIDENTE de mi parte,\l"
+	.string "si es que llegas a verlo.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Move_1:
 walk_up
@@ -2753,6 +2814,7 @@ step_end
 
 RocketHideout8F_Mision_Subterraneo_Silph_Move_4:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
@@ -2774,19 +2836,30 @@ fadescreen 1
 delay 50
 fadescreen 0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_4
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_5
 waitmovement 0x0
-msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_676
 setflag FLAG_HOENN_675
@@ -2802,16 +2875,30 @@ setvar VAR_UNUSED_0x40F7, 107
 release
 end
 
+RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3.1:
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_1:
 .string "GIOVANNI: ¿Y bien?\n"
-	.string "¿Qué has averiguado {PLAYER}?$"
+	.string "¿Qué has averiguado, {PLAYER}?$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2:
 .string "GIOVANNI: Mmm{PAUSE 25}…{PAUSE 25}\n"
-	.string "Por lo que me dices el texto que\l"
-	.string "leíste siquiera cuestiona la\l"
-	.string "existencia de ese POKÉMON: la da\l"
-	.string "por hecho, y parece que se\l"
+	.string "Por lo que me dices, el texto que\l"
+	.string "leíste ni siquiera cuestiona la\l"
+	.string "existencia de ese POKÉMON.\p"
+	.string "La da por hecho, y parece que se\n"
 	.string "encuentra más cerca de lo que\l"
 	.string "pensamos, en PUEBLO LAVANDA.$"
 
@@ -2826,52 +2913,38 @@ RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4:
 .string "Tal vez{PAUSE 15}…{PAUSE 15}\n"
 	.string "Sea de esos lugares imposibles de\l"
 	.string "acceder, excepto para aquellos que\l"
-	.string "ya saben donde está, si fuera el\l"
+	.string "ya saben donde está; si fuera el\l"
 	.string "caso, nos quedaríamos sin saber la\l"
 	.string "verdad{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5:
 .string "GIOVANNI: ¡{PLAYER}!\n"
-	.string "¡Tenemos que agotar todas las\l"
-	.string "posibilidades!\l"
-	.string "No puedo enviar a decenas de\l"
+	.string "¡Tenemos que agotar todas\l"
+	.string "las posibilidades!\p"
+	.string "No puedo enviar a decenas de\n"
 	.string "soldados a que se pongan a limpiar\l"
-	.string "cada centímetro de PUEBLO LAVANDA\l"
-	.string "en busca de algún pasadizo secreto\l"
-	.string "oculto por milenios, levantaría\l"
-	.string "muchas sospechas.$"
+	.string "cada centímetro de PUEBLO LAVANDA,\l"
+	.string "levantaría muchas sospechas.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6:
 .string "Pero, sabiendo de esto solo los\n"
-	.string "aquí presentes, puedes ser tú\l"
-	.string "quien, de forma discreta,\l"
-	.string "investigue cada rincón de PUEBLO\l"
-	.string "LAVANDA en busca de algo que ha\l"
-	.string "pasado inadvertido por incontables\l"
-	.string "generaciones, irás tras un\l"
-	.string "espejismo {PLAYER}.$"
+	.string "aquí presentes, puedes ser tú quien,\l"
+	.string "de forma discreta, investigue cada\l"
+	.string "rincón de PUEBLO LAVANDA.$"
 
-RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7:
-.string "No obstante, la leyenda no dice\n"
-	.string "que dicho culto deba estar\l"
-	.string "necesariamente en el centro de\l"
-	.string "PUEBLO LAVANDA, ahora la actual\l"
-	.string "TORRE POKÉMON, tal vez debamos\l"
-	.string "contar también las afueras como\l"
-	.string "posibles opciones, tanto el final\l"
-	.string "de RUTA 10, que sería la entrada a\l"
-	.string "PUEBLO LAVANDA, como el inicio de\l"
-	.string "RUTA 12 al sur de PUEBLO LAVANDA,\l"
-	.string "entrarían en lo descrito por la\l"
-	.string "leyenda.$"
+RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6.1:
+	.string "Irás tras algo que ha pasado inadvertido\n"
+	.string "por incontables generaciones, tras un\l"
+	.string "espejismo, {PLAYER}.$"
+
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8:
-.string "Eso es todo {PLAYER}, y recuerda,\n"
-	.string "cada paso que des podrían ser\l"
-	.string "nuevas páginas escritas en la\l"
-	.string "historia reciente de KANTO, quizá\l"
-	.string "destapemos algo que hace mucho\l"
-	.string "debió de saberse{PAUSE 5}…{PAUSE 5}$"
+.string "Eso es todo.\n"
+	.string "Y recuerda, cada paso que des podrían\l"
+	.string "ser nuevas páginas escritas en la\l"
+	.string "historia reciente de KANTO.\l"
+	.string "Quizá{PAUSE 15}…{PAUSE 15} destapemos algo que hace\l"
+	.string "mucho debió de saberse{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_1:
 walk_up
@@ -2885,11 +2958,13 @@ step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_4:
 walk_slow_right
+delay_16
 walk_in_place_down
 step_end
 
@@ -2970,7 +3045,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_3:
 	.string "POKÉMON, exceptuando a los únicos\l"
 	.string "capaces de derrotarle en ese\l"
 	.string "combate además de ti, que según el\l"
-	.string "en todo KANTO son 1, 2 a lo sumo,\l"
+	.string "en toda KANTO son 1, 2 a lo sumo,\l"
 	.string "entrenadores más.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4:

@@ -130,15 +130,15 @@ SilphS2_Text_6:
 .string "consistía en el 10% de las\l"
 .string "cosechas que generaban dentro del\l"
 .string "territorio, como pago por su\l"
-.string "protección.\l"
-.string "Pues bien, LANCE ha estado a punto\l"
+.string "protección.\p"
+.string "Pues bien, LANCE ha estado a punto\n"
 .string "de aplicar aquí el diezmo pero a\l"
-.string "la inversa, ¿en qué consiste?\l"
-.string "Fácil, el ciudadano de KANTO se\l"
+.string "la inversa, ¿en qué consiste?\p"
+.string "Fácil, el ciudadano de KANTO se\n"
 .string "queda con el 10% de lo que\l"
 .string "produce, mientras que LANCE y su\l"
-.string "gobierno con el resto.\l"
-.string "Lo más gracioso es que la mayoría\l"
+.string "gobierno con el resto.\p"
+.string "Lo más gracioso es que la mayoría\n"
 .string "le aplaudía y reconocía a quien\l"
 .string "les asfixiaba como su salvador,\l"
 .string "esto no es más que otra muestra de\l"
@@ -155,20 +155,19 @@ release
 end
 
 
-SilphS2_Text_7:
+SilphS2_Text_7: 
 .string "Espero que a partir de ahora\n"
 .string "iniciemos una verdadera etapa de\l"
 .string "progreso y desarrollo, distinta a\l"
-.string "las aspiraciones de LANCE a costa\l"
-.string "de mantener en la estupidez al\l"
-.string "pueblo, he oído que hay un\l"
-.string "proyecto para conectar AZAFRÁN con\l"
-.string "TRIGAL, en JOHTO.\l"
-.string "También que van a expandir el\l"
-.string "puerto de CARMÍN para que abarque\l"
-.string "más destinos.\l"
-.string "¡El tiempo pasa chico y no espera\l"
-.string "a nadie!$"
+.string "las aspiraciones de LANCE, a costa\l"
+.string "de mantener en la ignorancia al\l"
+.string "pueblo.\p"
+.string "He oído que hay un proyecto para\n"
+.string "conectar AZAFRÁN con TRIGAL, en JOHTO.\l"
+.string "También que van a expandir el PUERTO\l"
+.string "de CARMÍN para abarcar más regiones.\p"
+.string "¡El tiempo pasa, chico,\n"
+.string "y no espera a nadie!$"
 
 
 
@@ -184,11 +183,11 @@ SilphS2_Text_8:
 .string "La libertad de la capacidad\n"
 .string "engendra incluso más coerciones\l"
 .string "que ese deber disciplinario que\l"
-.string "dicta mandatos y prohibiciones.\l"
-.string "El deber tiene un límite.\l"
+.string "dicta mandatos y prohibiciones.\p"
+.string "El deber tiene un límite.\n"
 .string "La capacidad, por el contrario, no\l"
-.string "lo tiene, está abierta por arriba.\l"
-.string "De ahí que la coerción que viene\l"
+.string "lo tiene, está abierta por arriba.\p"
+.string "De ahí que la coerción que viene\n"
 .string "de la capacidad resulte ilimitada.$"
 
 
@@ -203,7 +202,7 @@ end
 
 SilphS2_Text_9:
 .string "Actúa como si vivieras por segunda\n"
-.string "vez y la primera lo hubieras hecho\l"
+.string "vez, y la primera lo hubieras hecho\l"
 .string "tan desacertadamente como estás a\l"
 .string "punto de hacerlo ahora.$"
 
@@ -218,13 +217,12 @@ end
 
 
 SilphS2_Text_10:
-.string "Hemos hecho unos progresos\n"
-.string "sobresalientes sobre el prototipo\l"
-.string "-PORYGON2-, en las últimas\l"
-.string "semanas, ahora su capacidad\l"
-.string "ofensiva se ha incrementado en un\l"
-.string "50% a costa de perder solo un 10%\l"
-.string "de su capacidad defensiva.$"
+.string "Hicimos progresos notables sobre\n"
+.string "el prototipo -PORYGON2- en las\l"
+.string "últimas semanas.\p"
+.string "Ahora, su capacidad ofensiva se ha\n"
+.string "incrementado en un 50%, a costa de\l"
+.string "perder solo un 10% de su defensa.$"
 
 
 
@@ -237,9 +235,8 @@ end
 
 
 SilphS2_Text_11:
-.string "El mejor plan solo vale lo que\n"
-.string "valgan las unidades que lo pongan\l"
-.string "en práctica.$"
+.string "El mejor plan solo vale lo que valgan\n"
+.string "las unidades que lo pongan en práctica.$"
 
 
 
@@ -247,25 +244,27 @@ SilphS2_12::
 lock     
 faceplayer     
 msgbox SilphS2_Text_12, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_12.1, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_12:
 .string "Si quieres pedirle algo a alguien,\n"
-.string "que sea una persona ocupada, esta\l"
+.string "que sea una persona ocupada; esta\l"
 .string "llevará tal inercia de trabajo que\l"
 .string "tu petición no será más que otra\l"
-.string "tarea más que realizar sobre la\l"
-.string "marcha, en cambio, quien no tiene\l"
-.string "nada que hacer, deberá poner mucha\l"
-.string "más energía en ponerse en\l"
-.string "movimiento exclusivamente para\l"
-.string "llevar a cabo tu petición, después\l"
-.string "de todo, no hay cosa, por fácil\l"
-.string "que sea, que no la haga difícil la\l"
-.string "falta de movimiento y la mala\l"
-.string "gana.$"
+.string "tarea más a realizar sobre la marcha.$"
+
+SilphS2_Text_12.1:
+.string "En cambio, quien no tiene nada que\n"
+.string "hacer, deberá poner mucha más energía\l"
+.string "en ponerse en movimiento exclusivamente\l"
+.string "para llevar a cabo tu petición.\p"
+.string "Las leyes de inercia y coeficiente\n"
+.string "de rozamiento también pueden ser\l"
+.string "aplicables a las personas.$"
 
 
 
@@ -278,11 +277,10 @@ end
 
 
 SilphS2_Text_13:
-.string "La TORRE DE RADIO de TRIGAL ha\n"
-.string "demostrado ser un éxito rotundo en\l"
-.string "JOHTO, mucho está tardando alguna\l"
-.string "gran empresa de aquí en copiar la\l"
-.string "idea.$"
+.string "La TORRE DE RADIO de TRIGAL demostró\n"
+.string "ser un éxito rotundo en JOHTO.\l"
+.string "Mucho está tardando alguna gran\l"
+.string "empresa de aquí en copiar la idea.$"
 
 
 
@@ -295,21 +293,19 @@ end
 
 
 SilphS2_Text_14:
-.string "Los humanos estamos ávidos de\n"
-.string "reglas porque necesitamos reducir\l"
-.string "la dimensión de las cosas para que\l"
-.string "nos puedan caber en la cabeza.\l"
-.string "Cuanto más aleatoria es la\l"
-.string "información, mayor es la\l"
-.string "dimensionalidad y, por\l"
-.string "consiguiente, más difícil de\l"
-.string "resumir.\l"
-.string "Cuanto más se resume, más orden se\l"
-.string "pone y menor es lo aleatorio.\l"
-.string "De aquí que la misma condición que\l"
+.string "Los humanos estamos ávidos de reglas\n"
+.string "porque necesitamos reducir la dimensión\l"
+.string "de las cosas para que nos puedan caber\l"
+.string "en la cabeza.\p"
+.string "Cuanto más aleatoria es la información,\n"
+.string "mayor es la dimensionalidad y, por\l"
+.string "consiguiente, más difícil de resumir.\p"
+.string "Cuanto más se resume, más orden se\n"
+.string "pone y menor es lo aleatorio.\p"
+.string "De aquí que la misma condición que\n"
 .string "nos hace simplificar nos empuja a\l"
-.string "pensar que el mundo es menos\l"
-.string "aleatorio de lo que realmente es.$"
+.string "pensar que el mundo es menos aleatorio\l"
+.string "de lo que realmente es.$"
 
 
 
@@ -322,20 +318,18 @@ end
 
 
 SilphS2_Text_15:
-.string "Algunos se pasan toda una vida\n"
-.string "tras un momento futuro perfecto\l"
-.string "que no llega o, incluso cuando\l"
-.string "este llega, lo ignoran y pasan a\l"
-.string "buscar otro más, reduciendo su\l"
-.string "presente a un mero fin futuro,\l"
-.string "cuando no se dan cuenta de que el\l"
-.string "momento en que están escalando\l"
-.string "para llegar a ese supuesto paraíso\l"
-.string "puede ser más placentero que el\l"
+.string "Algunos se pasan toda una vida yendo\n"
+.string "tras un momento futuro perfecto que\l"
+.string "no llega o, incluso cuando este llega,\l"
+.string "lo ignoran y pasan a buscar otro más.\l"
+.string "Esto reduce tu presente a un mero fin\l"
+.string "futuro, cuando no se dan cuenta de que\l"
+.string "el momento en que están escalando\l"
+.string "para llegar a ese supuesto paraíso.\p"
+.string "puede ser más placentero que el\n"
 .string "estar en el propio paraíso del que\l"
-.string "por cierto, una vez llegues y\l"
-.string "pases un tiempo allí, acabarás por\l"
-.string "aburrirte.$"
+.string "por cierto, una vez llegues y pases\l"
+.string "un tiempo allí, acabarás por aburrirte.$"
 
 
 
@@ -365,18 +359,13 @@ end
 
 SilphS2_Text_17:
 .string "Después del gran golpe que disteis\n"
-.string "en la LIGA POKÉMON, nos\l"
-.string "liberásteis del control que\l"
-.string "ejercía LANCE sobre nuestra\l"
-.string "empresa, ahora no tenemos que\l"
-.string "rendir cuentas sobre muchos de\l"
-.string "nuestros movimientos, y lo que en\l"
-.string "esta sede ocurra permanecerá\l"
-.string "oculto al público a partir de\l"
-.string "ahora, algo que, por supuesto, no\l"
-.string "os incluye a vosotros ROCKETS, tú\l"
-.string "y tu LÍDER tenéis aquí una segunda\l"
-.string "casa.$"
+.string "en la LIGA POKÉMON, nos liberásteis\l"
+.string "del control que ejercía LANCE sobre\l"
+.string "nuestra empresa.\p"
+.string "Ahora no tenemos que rendir cuentas de\n"
+.string "nuestros movimientos, y lo que en esta\l"
+.string "sede ocurra, permanecerá oculto al\l"
+.string "público a partir de ahora.$"
 
 
 
@@ -389,11 +378,23 @@ end
 
 
 SilphS2_Text_19:
-.string "Prefiero invertir mi tiempo\n"
-.string "haciendo la tarea, que en\l"
-.string "malgastarlo hablando y formulando\l"
-.string "1000 teorías sobre cómo hacer la\l"
-.string "tarea.$"
+.string "Prefiero invertir mi tiempo en hacer\n"
+.string "la tarea, que en malgastarlo en hablar\l"
+.string "y formular 1000 teorías acerca de\l"
+.string "cómo hacer la tarea.$"
+
+SilphS2_20_5::
+lock     
+faceplayer     
+msgbox SilphS2_Text_20_5, MSGBOX_DEFAULT
+release     
+end
+
+
+SilphS2_Text_20_5:
+	.string "Trabajamos y somos explotados durante\n"
+	.string "el año para poder viajar y explotar a\l"
+	.string "otros en verano.$"
 
 
 
@@ -438,8 +439,8 @@ SilphS2_Text_20_Text_TM33:
 .string "¡Estás en lo cierto!$"
 
 SilphS2_Text_20_Text_ExplainTM33:
-	.string "Con MAQUINACIÓN elevarás\n"
-	.string "drásticamente el ATAQUE ESPECIAL\l"
+	.string "Con MAQUINACIÓN, elevarás\n"
+	.string "drásticamente el AT.ESPECIAL\l"
 	.string "del POKÉMON que lo ejecute.\l"
 	.string "Es sorprendente lo que puede\l"
 	.string "lograr uno por su propia cuenta.\l"
@@ -488,12 +489,11 @@ end
 
 
 SilphS2_Text_23:
-.string "Me encargaré personalmente\n"
-.string "de meter entre rejas a todos\l"
-.string "esos POLICÍAS que apoyaron el\l"
-.string "gobierno de LANCE y permitieron\l"
-.string "todo tipo de injusticias en esta\l"
-.string "región.$"
+.string "Me encargaré personalmente de\n"
+.string "meter entre rejas a todos esos\l"
+.string "POLICÍAS que apoyaron el gobierno\l"
+.string "de LANCE y permitieron todo tipo\l"
+.string "de injusticias en esta región.$"
 
 
 
@@ -509,7 +509,7 @@ SilphS2_Text_24:
 .string "Lo cierto es que estábamos hartos\n"
 .string "de las condiciones impuestas por\l"
 .string "el gobierno de LANCE, por cada 10¥\l"
-.string "que ganábamos, entre una cosa y otra\l"
+.string "que ganábamos, entre una cosa y otra,\l"
 .string "8¥ iban para el gobierno de LANCE.\l"
 .string "¿En qué cabeza cabe semejante\l"
 .string "presión fiscal?$"
@@ -530,14 +530,14 @@ SilphS2_Text_25:
 .string "No hay duda de que las condiciones\l"
 .string "de cada lugar son determinantes\l"
 .string "para el desarrollo final de una\l"
-.string "especie, POKÉMON como CAMERUPT y\l"
+.string "especie; POKÉMON como CAMERUPT y\l"
 .string "SHARPEDO solo podían surgir en\l"
 .string "HOENN, de igual modo que la\l"
 .string "CASCADA METEORO propició la\l"
 .string "aparición de BAGON, o el MONTE\l"
-.string "PLATEADO de LARVITAR, no son más\l"
-.string "que ejemplos de adaptación al\l"
-.string "medio.$"
+.string "PLATEADO de LARVITAR.\p"
+.string "No son más que ejemplos de\n"
+.string "adaptación al medio.$"
 
 
 
@@ -567,7 +567,7 @@ end
 
 
 SilphS2_Text_27:
-.string "En última instancia a nadie le\n"
+.string "En última instancia, a nadie le\n"
 .string "importa lo que sientas o lo que\l"
 .string "pienses, solo les importa lo que\l"
 .string "eres capaz de hacer.$"
@@ -583,9 +583,8 @@ end
 
 
 SilphS2_Text_29:
-.string "La mente que se abre a una nueva\n"
-.string "idea jamás volverá a su tamaño\l"
-.string "original.$"
+.string "La mente que se abre a una nueva idea\n"
+.string "jamás volverá a su tamaño original.$"
 
 
 
@@ -616,20 +615,18 @@ end
 
 
 SilphS2_Text_31:
-.string "Ese ROJO era bueno, pero\n"
-.string "claramente estaba totalmente\l"
-.string "limitado por la realidad que OAK\l"
-.string "le impuso, jamás fue libre, ni\l"
-.string "pudo mover un dedo más de la\l"
-.string "cuenta sin el consentimiento de\l"
-.string "OAK, es por eso que un tipo como\l"
-.string "ROJO jamás podrá estar en un lugar\l"
-.string "como este, esta sala no existe\l"
-.string "para él, este es de hecho un lugar\l"
-.string "en el cual el 99% de la población\l"
-.string "de KANTO jamás creería, y eso\l"
-.string "precisamente es lo que nos hace\l"
-.string "grandes.$"
+.string "Ese ROJO era bueno, pero claramente\n"
+.string "estaba limitado por la realidad que OAK\l"
+.string "le impuso; jamás fue libre, ni pudo\l"
+.string "mover un dedo más de la cuenta sin el\l"
+.string "consentimiento de OAK.\p"
+.string "Por eso, alguien como ROJO jamás podrá\n"
+.string "estar en un lugar como este, esta sala\l"
+.string "no existe para él, este es de hecho un\l"
+.string "lugar en el cual el 99% de la población\l"
+.string "de KANTO jamás creería.\l"
+.string "Y eso{PAUSE 15}…{PAUSE 15} forma parte\l"
+.string "de nuestra grandeza.$"
 
 
 
@@ -660,8 +657,8 @@ end
 SilphS2_Text_34:
 .string "He oído que en la TORRE RADIO de\n"
 .string "CIUDAD TRIGAL apenas cuentan con\l"
-.string "seguridad, algún día se\l"
-.string "arrepentirán de ello…{PAUSE 5}$"
+.string "seguridad, algún día se llevarán\l"
+.string "un buen susto…{PAUSE 5}$"
 
 
 
@@ -669,29 +666,35 @@ SilphS2_35::
 lock     
 faceplayer     
 msgbox SilphS2_Text_35, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_35.1, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_35.2, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_35:
-.string "KANTO cuenta con buenos POKÉMON,\n"
-.string "sólidos y equilibrados, sin\l"
-.string "embargo no es una región de\l"
-.string "extremos, aquí no encontrarás a\l"
-.string "nadie con el ATAQUE FÍSICO de un\l"
+.string "KANTO cuenta con buenos POKÉMON, sólidos\n"
+.string "y equilibrados, sin embargo, no es una\l"
+.string "región de extremos; aquí no encontrarás\l"
+.string "a nadie con el ATAQUE FÍSICO de un\l"
 .string "HAXORUS, las defensas de SHUCKLE o\l"
-.string "la VELOCIDAD de NINJASK, pero\l"
-.string "igualmente puedes con POKÉMON de\l"
-.string "KANTO formar un equipo que compita\l"
-.string "con alguien que tenga a su\l"
-.string "disposición a todos los POKÉMON\l"
-.string "existentes, el hecho de contar con\l"
-.string "más POKÉMON solo abre tus\l"
-.string "opciones, puede dar una ventaja\l"
-.string "estratégica, pero por nivel base,\l"
-.string "los mejores POKÉMON y ENTRENADORES\l"
-.string "pueden provenir de cualquier\l"
-.string "lugar.$"
+.string "la VELOCIDAD de NINJASK.\p"
+.string "Pero no importa, puedes, con POKÉMON\n"
+.string "de KANTO, formar un equipo que compita\l"
+.string "con alguien que tenga a su disposición\l"
+.string "a todos los POKÉMON que existen.$"
+
+SilphS2_Text_35.1:
+.string "Contar con abre tu abanico de opciones,\n"
+.string "puede dar una ventaja estratégica, pero\l"
+.string "también vuelve la elección más difícil.$"
+
+SilphS2_Text_35.2:
+.string "Al final, los mejores POKÉMON y\n"
+.string "ENTRENADORES pueden provenir de\l"
+.string "cualquier lugar.$"
 
 
 
@@ -736,11 +739,10 @@ end
 
 
 SilphS2_Text_38:
-.string "SILPH guarda muchos secretos en su\n"
-.string "interior que algunos como ese ROJO\l"
-.string "como mucho podrán albergar en su\l"
-.string "imaginación, este lugar es uno de\l"
-.string "esos secretos.$"
+.string "SILPH guarda secretos en su interior\n"
+.string "que algunos como ese ROJO ni siquiera\l"
+.string "podrían albergar en su imaginación.\l"
+.string "Este lugar es uno de esos secretos.$"
 
 
 
@@ -754,12 +756,11 @@ end
 
 SilphS2_Text_39:
 .string "Deberías de visitar JOHTO al menos\n"
-.string "una vez en la vida, lugares como\l"
-.string "la SENDA DINDÓN o el LAGO DE LA\l"
-.string "FURIA me hacen preguntarme en qué\l"
-.string "momento renunciamos a vivir en\l"
-.string "zonas rurales en beneficio de las\l"
-.string "ciudades.$"
+.string "una vez en la vida, lugares como la\l"
+.string "SENDA DINDÓN o el LAGO DE LA FURIA\l"
+.string "me hacen preguntarme en qué momento\l"
+.string "renunciamos a vivir en zonas rurales\l"
+.string "en beneficio de las ciudades.$"
 
 
 
@@ -772,11 +773,10 @@ end
 
 
 SilphS2_Text_41:
-.string "Muchos cambios se avecinan en\n"
-.string "KANTO, estate atento ROCKET,\l"
-.string "vuestra organización puede\l"
-.string "desempeñar un papel fundamental en\l"
-.string "el devenir de esta región.$"
+.string "Muchos cambios se avecinan en KANTO.\n"
+.string "Vuestra organización puede desempeñar\l"
+.string "un papel fundamental en el devenir de\l"
+.string "nuestra región.$"
 
 
 
@@ -789,12 +789,12 @@ end
 
 
 SilphS2_Text_42:
-.string "¡Esos ilusos de PUEBLO LAVANDA y\n"
-.string "su POKÉMON ESENCIA!\l"
-.string "¡La esencia está aquí, en las\l"
-.string "oficinas de SILPH S.A. donde cada\l"
-.string "día nos superamos a nosotros\l"
-.string "mismos!$"
+.string "¡Esos ilusos de PUEBLO LAVANDA\n"
+.string "y su POKÉMON ESENCIA!\p"
+.string "¡La esencia está aquí, en las\n"
+.string "oficinas de SILPH S.A. donde\l"
+.string "cada día nos superamos a\l"
+.string "nosotros mismos!$"
 
 
 
@@ -822,16 +822,10 @@ end
 
 
 SilphS2_Text_46:
-.string "La empresa DEVON en HOENN es muy\n"
-.string "hermética con todo lo que\l"
-.string "desarrolla y produce, mantiene\l"
-.string "bajo llave el misterio de los\l"
-.string "FÓSILES y POKÉMON ANCESTRALES\l"
-.string "propios de su región, jamás\l"
-.string "publicaron ningún avance en cuanto\l"
-.string "a creación de un POKÉMON propio a\l"
-.string "diferencia nuestra con PORYGON y\l"
-.string "más recientemente PORYGON2.$"
+.string "La empresa DEVON en HOENN es hermética\n"
+.string "con todo lo que desarrolla y produce.\l"
+.string "Algunos creen que en realidad su\l"
+.string "tecnología está a otro nivel.$"
 
 
 
@@ -844,10 +838,9 @@ end
 
 
 SilphS2_Text_47:
-.string "Solo los disciplinados son libres\n"
-.string "en la vida, si eres\l"
-.string "indisciplinado, eres un esclavo de\l"
-.string "tus estados de ánimo.$"
+.string "Solo los disciplinados son libres en\n"
+.string "la vida, si eres indisciplinado, eres\l"
+.string "un esclavo de tus estados de ánimo.$"
 
 
 
@@ -855,27 +848,39 @@ SilphS2_48::
 lock     
 faceplayer     
 msgbox SilphS2_Text_48, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.1, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.2, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.3, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_48:
 .string "No importa si ganas por mucho o\n"
-.string "por poco, ganar es ganar.\l"
-.string "A nadie le importa si a causa de\l"
+.string "por poco, ganar es ganar.$"
+
+SilphS2_Text_48.1:
+.string "A nadie le importa si a causa de\n"
 .string "un tropiezo perdiste injustamente\l"
 .string "en el último momento, nadie se\l"
-.string "acuerda de un segundo lugar, en el\l"
-.string "medallero olímpico da igual que\l"
+.string "acuerda de un segundo lugar; en el\l"
+.string "medallero olímpico, da igual que\l"
 .string "tengas 50 medallas de plata, si tu\l"
 .string "rival tiene una sola más de oro,\l"
 .string "quedará por delante en la\l"
-.string "clasificación global, para alguien\l"
-.string "anclado solo en el resultado final\l"
-.string "la sola idea de que no pueda\l"
-.string "acabar ganando realmente el mejor\l"
-.string "es desalentadora, ante esto solo\l"
-.string "nos queda ver el resultado final\l"
+.string "clasificación global.$" 
+
+SilphS2_Text_48.2:
+.string "Para alguien anclado solo en el\n"
+.string "resultado final, la sola idea de que\l"
+.string "no pueda acabar ganando realmente el\l"
+.string "mejor es desalentadora.$"
+
+SilphS2_Text_48.3:
+.string "Ante esto, solo queda ver el resultado\n"
 .string "como una consecuencia de nuestro\l"
 .string "trabajo previo, no el fin último.$"
 
@@ -891,13 +896,12 @@ end
 
 SilphS2_Text_50:
 .string "La línea evolutiva de MAGNETON\n"
-.string "tiene mucho potencial, sabemos de\l"
-.string "la existencia de MAGNEZONE, no\l"
-.string "obstante, creemos que ese no es el\l"
-.string "verdadero techo de este POKÉMON,\l"
-.string "su fisionomía le permite,\l"
-.string "teóricamente, ser capaz de generar\l"
-.string "descargas eléctricas que se\l"
+.string "tiene mucho potencial.\p"
+.string "Sabemos de la existencia de MAGNEZONE,\n"
+.string "no obstante, creemos que ese no es el\l"
+.string "verdadero techo de este POKÉMON.\p"
+.string "Su fisionomía le permite, teóricamente,\n"
+.string "ser capaz de generar descargas que se\l"
 .string "reirían de las de un ZAPDOS.$"
 
 
@@ -911,12 +915,10 @@ end
 
 
 SilphS2_Text_52:
-.string "La línea evolutiva de PORYGON\n"
-.string "tiene mucho potencial aún por\l"
-.string "explotar, el no estar sujeto a\l"
-.string "nuestro plano físico le da muchas\l"
-.string "ventajas respecto al resto de\l"
-.string "POKÉMON.$"
+.string "La línea evolutiva de PORYGON está\n"
+.string "aún por explotar; el no estar sujeto\l"
+.string "a nuestro plano físico le da muchas\l"
+.string "ventajas respecto al resto de POKÉMON.$"
 
 
 
@@ -929,11 +931,10 @@ end
 
 
 SilphS2_Text_53:
-.string "La discrección de este lugar es\n"
-.string "sagrada. Si se diera a conocer al\l"
-.string "público, perdería su magia, su\l"
-.string "esencia, espero que seas\l"
-.string "consciente de esto.$"
+.string "La discrección de este lugar es sagrada.\n"
+.string "Si se diera a conocer al público,\l"
+.string "perdería su magia, su esencia.\l"
+.string "Pero tú eres consciente de ello, ¿no?$"
 
 
 
@@ -956,17 +957,15 @@ SilphS2Documento_Text_100:
 	.string "VELOCIDAD: 90\l"
 	.string "TOTAL: 545\p"
 	.string "Surgido a partir de un fallo en\n"
-	.string "busca de un PORYGON3 que\l"
-	.string "exprimiese al máximo el potencial\l"
-	.string "de PORYGON, este PORYGON-Z surgido\l"
-	.string "ha resultado tener una capacidad\l"
-	.string "ofensiva desbordante, con un\l"
-	.string "ATAQUE ESPECIAL de 145 de BASE\l"
-	.string "superando a GENGAR como el no\l"
-	.string "legendario de KANTO con mayor\l"
-	.string "ATAQUE ESPECIAL, únicamente\l"
-	.string "superado por MEWTWO, otro POKÉMON\l"
-	.string "creado por la ciencia.$"
+	.string "busca de un PORYGON3 que exprimiese\l"
+	.string "al máximo el potencial de PORYGON.\l"
+	.string "PORYGON-Z ha resultado tener un poder\l"
+	.string "ofensivo desbordante, con un\l"
+	.string "ATAQUE ESPECIAL de 145 de BASE,\l"
+	.string "se corona como el NO LEGENDARIO\l"
+	.string "de KANTO con mayor ATAQUE ESPECIAL.\l"
+	.string "Solo es superado por MEWTWO, otro\l"
+	.string "POKÉMON creado por la ciencia.$"
 
 
 

@@ -30,11 +30,10 @@ release
 end
 
 CultoS1_NPC_3_Texto_1:
-.string "La gente de KANTO nos olvidó hace\n"
-	.string "ya incontables generaciones, pero\l"
-	.string "KANTO es mucho más que su gente,\l"
-	.string "el POKÉMON ESENCIA nada pasa por\l"
-	.string "alto.$"
+.string "La gente de KANTO nos olvidó hace ya\n"
+	.string "incontables generaciones, pero KANTO\l"
+	.string "es mucho más que su gente, el POKÉMON\l"
+	.string "ESENCIA nada pasa por alto.$"
 
 CultoS1_NPC_4::
 lock
@@ -44,7 +43,7 @@ release
 end
 
 CultoS1_NPC_4_Texto_1:
-.string "No vas a ver al POKÉMON ESENCIA si\n"
+.string "No vas a ver al POKÉMON ESENCIA, si\n"
 	.string "eso es lo que pretendes, nadie lo\l"
 	.string "ha visto en siglos.$"
 
@@ -56,9 +55,9 @@ release
 end
 
 CultoS1_NPC_5_Texto_1:
-.string "Siquiera FUJI sabe de la\n"
-	.string "existencia de este lugar, ¿cómo\l"
-	.string "pudiste encontrarnos?$"
+	.string "El demonio no puede quitarte los\n"
+	.string "talentos que dios te ha dado, pero\l"
+	.string "sí hacerte ciego a ellos.$"
 
 
 CultoS1_NPC_6::

@@ -882,7 +882,7 @@ PokemonLeague_6F_Final_Texto_48:
 	.string "mejores POKÉMON, ¡son los mejores\l"
 	.string "que existen!\l"
 	.string "¡No puede encontrarse nada mejor\l"
-	.string "que esto en todo KANTO!$"
+	.string "que esto en toda KANTO!$"
 
 PokemonLeague_6F_Final_Texto_49:
 .string "????: Te equivocas LANCE.$"

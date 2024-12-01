@@ -437,8 +437,8 @@ release
 end
 
 RuinsOfAlph_S5_Final_Texto_1:
-.string "JONES: ¿Tienes idea de dónde\n"
-	.string "estamos {PLAYER}?$"
+.string "LAIREB: ¿Tienes idea de dónde\n"
+	.string "estamos, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Texto_2:
 .string "Así es, ahora mismo estamos\n"

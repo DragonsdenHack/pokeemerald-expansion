@@ -124,7 +124,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 	.string "debes preocuparte de cuidarlo\l"
 	.string "adecuadamente y hacerlo crecer, y\l"
 	.string "tendrás a uno de los mejores\l"
-	.string "POKÉMON de todo KANTO, un DRAGÓN\l"
+	.string "POKÉMON de toda KANTO, un DRAGÓN\l"
 	.string "en toda regla que el mismísimo\l"
 	.string "LANCE tiene en su equipo.$"
 

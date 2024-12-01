@@ -233,6 +233,7 @@ waitfieldeffect FLDEFF_NPCFLY_OUT
 delay 15
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
 removeobject 3
+clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
 clearflag FLAG_HOENN_76

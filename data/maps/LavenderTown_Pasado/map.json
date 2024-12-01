@@ -93,6 +93,19 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
+      "x": 11,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LavenderTown_Pasado_Lider",
+      "flag": "FLAG_HOENN_70"
+    },
+    {
       "graphics_id": "OBJ_EVENT_GFX_MORFEO2",
       "x": 11,
       "y": 18,
@@ -111,19 +124,6 @@
       "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_HOENN_70"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
-      "x": 11,
-      "y": 17,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",

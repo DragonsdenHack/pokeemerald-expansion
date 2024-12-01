@@ -779,7 +779,7 @@ RocketHideout7FDocumento_Text_110:
 	.string "VELOCIDAD: 61\l"
 	.string "TOTAL: 600\p"
 	.string "La némesis de MEWTWO y la mayoría\n"
-	.string "de legendarios de todo KANTO y\l"
+	.string "de legendarios de toda KANTO y\l"
 	.string "JOHTO gracias a su inigualable\l"
 	.string "fortaleza y singular combinación\l"
 	.string "ROCA/SINIESTRO, la destrucción y\l"

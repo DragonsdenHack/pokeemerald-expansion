@@ -455,7 +455,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_5:
 	.string "RANGO, EJECUTIVO, ADMIN.JEFE y\l"
 	.string "ahora se sienta en la misma mesa\l"
 	.string "que las 15 personas más influyentes\l"
-	.string "de todo KANTO-JOHTO.\l"
+	.string "de toda KANTO-JOHTO.\l"
 	.string "Tengo pendiente un nuevo combate\l"
 	.string "contigo, {PLAYER}. Esta vez mis\l"
 	.string "nuevos juguetes serán demasiado,\l"

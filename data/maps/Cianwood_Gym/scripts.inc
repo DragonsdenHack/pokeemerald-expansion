@@ -292,7 +292,7 @@ Cianwood_Gym_Combate_Anibal_Texto_10:
 .string "¡¡OBTUVISTE UN STUFFUL AL Nv.25!!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11:
-.string "No encontrarás en todo KANTO o\n"
+.string "No encontrarás en toda KANTO o\n"
 	.string "JOHTO un POKÉMON LUCHA así. Tiene\l"
 	.string "el don de encajar golpes físicos\l"
 	.string "como ningún otro, al tiempo que\l"

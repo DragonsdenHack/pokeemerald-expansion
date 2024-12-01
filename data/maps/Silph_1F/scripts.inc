@@ -442,8 +442,7 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
 .string "¡Ah, sí!\n"
 	.string "¡Tú eres el chico que iba a venir\l"
-	.string "en nombre del TEAM ROCKET a\l"
-	.string "visitar nuestra biblioteca!\l"
+	.string "a visitar nuestra biblioteca!\l"
 	.string "Eres muy afortunado, ¿lo sabías?$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:

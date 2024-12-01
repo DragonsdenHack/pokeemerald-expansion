@@ -381,7 +381,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_18:
 .string "¡TAAAAAAAALL!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_19:
-.string "JONES: Alguien que se cree\n"
+.string "LAIREB: Alguien que se cree\n"
 	.string "superior al resto por la divina\l"
 	.string "providencia no merece seguir\l"
 	.string "viviendo.$"
@@ -401,8 +401,8 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "acercarnos más a ÉL.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-.string "(JONES recogió todos los POKÉMON\n"
-	.string "de ZEUS)$"
+.string "-LAIREB recogió todos los POKÉMON\n"
+	.string "de ZEUS-$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
 .string "Podría acabar contigo también\n"

@@ -1053,7 +1053,7 @@ RocketHideoutJohtoP1Documento_Text_118:
 	.string "TOTAL: 630\p"
 	.string "Por jerarquía y números, el TIPO\n"
 	.string "BICHO de mayor poder global de\l"
-	.string "todo KANTO y JOHTO. Sin un TIPO\l"
+	.string "toda KANTO y JOHTO. Sin un TIPO\l"
 	.string "FUEGO de por medio, tumbar a este\l"
 	.string "POKÉMON es complicadísimo. Con un\l"
 	.string "aguante y pegada por el lado\l"

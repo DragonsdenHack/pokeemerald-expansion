@@ -87,11 +87,10 @@ end
 
 CultoS3_Text_4:
 .string "Pobres esas almas que confunden lo\n"
-.string "que quieren con lo que les\l"
-.string "apetece, creyéndose libres, no son\l"
-.string "más que marionetas dictadas por\l"
-.string "todo cuanto su química les ordene,\l"
-.string "carentes de voluntad.$"
+.string "que quieren con lo que les apetece.\l"
+.string "Creyéndose libres, no son más que\l"
+.string "marionetas dictadas por todo cuanto\l"
+.string "su química e impulsos les ordenen.$"
 
 
 
@@ -104,9 +103,9 @@ end
 
 CultoS3_Text_7:
 .string "La esencia contenida en este lugar\n"
-.string "trasciende nuestra propia\l"
-.string "existencia, no encontrarás un\l"
-.string "lugar así en todo KANTO.$"
+.string "trasciende nuestra propia existencia.\l"
+.string "No encontrarás un lugar asçi\l"
+.string "en toda KANTO.$"
 
 
 
@@ -149,8 +148,8 @@ CultoS3_Text_10:
 .string "¡La esencia está aquí!\n"
 .string "¿No la ves?\l"
 .string "¡Es tuya!\l"
-.string "¡Cógela antes de que se te escape\l"
-.string "de entre los dedos!$"
+.string "¡Cógela antes de que se te\l"
+.string "escape de entre los dedos!$"
 
 
 
@@ -158,6 +157,7 @@ CultoS3_11::
 lock     
 faceplayer     
 msgbox CultoS3_Text_11, MSGBOX_DEFAULT
+msgbox CultoS3_Text_11.1, MSGBOX_DEFAULT
 release     
 end
 
@@ -165,14 +165,14 @@ CultoS3_Text_11:
 .string "Este lugar es más antiguo que la\n"
 .string "propia TORRE POKÉMON, que fue\l"
 .string "creada como un mero complemento\l"
-.string "para los rituales más suaves\l"
-.string "accesibles al público, hace tanto\l"
-.string "que perdimos el contacto con el\l"
-.string "exterior que la existencia de esta\l"
-.string "gran cámara subterránea ha sido\l"
-.string "borrada de la memoria de incluso\l"
-.string "los más ancianos de PUEBLO\l"
-.string "LAVANDA.$"
+.string "para los rituales más suaves.\l"
+
+CultoS3_Text_11.1:
+.string "hace tanto que perdimos el contacto con\l"
+.string "el exterior, que la existencia de esta\l"
+.string "gran cámara subterránea ha sido borrada\l"
+.string "de la memoria, incluso de los más\l"
+.string "ancianos de PUEBLO LAVANDA.$"
 
 
 
@@ -198,12 +198,11 @@ release
 end
 
 CultoS3_Text_13:
-.string "Nosotros solo somos meros\n"
-.string "observadores ante todo lo que\l"
-.string "ocurre en KANTO, hace tiempo que\l"
-.string "desde aquí montamos una realidad\l"
-.string "alternativa a los juegos de poder\l"
-.string "que rigen al exterior.$"
+.string "Nosotros solo somos meros observadores\n"
+.string "ante todo lo que ocurre en KANTO, hace\l"
+.string "tiempo que desde aquí montamos una\l"
+.string "realidad alternativa a los juegos de\l"
+.string "poder que rigen al exterior.$"
 
 
 
@@ -215,15 +214,13 @@ release
 end
 
 CultoS3_Text_14:
-.string "Todo fluye y refluye, todo tiene\n"
-.string "sus períodos de avance y\l"
-.string "retroceso, todo asciende y\l"
-.string "desciende, todo se mueve como un\l"
-.string "péndulo, la medida de su\l"
-.string "movimiento hacia la derecha es la\l"
-.string "misma que la de su movimiento\l"
-.string "hacia la izquierda, el ritmo es la\l"
-.string "compensación.$"
+.string "Todo fluye y refluye, todo tiene sus\n"
+.string "períodos de avance y retroceso, todo\l"
+.string "asciende y desciende, todo se mueve\l"
+.string "como un péndulo, la medida de su\l"
+.string "movimiento hacia la derecha equivale\l"
+.string "a la de su movimiento hacia la\l"
+.string "izquierda, el ritmo es la compensación.$"
 
 
 
@@ -251,9 +248,8 @@ end
 CultoS3_Text_16:
 .string "…\n"
 .string "…\l"
-.string "Un lugar menos placentero pero en\l"
-.string "el que ocurren las cosas más\l"
-.string "importantes.\l"
+.string "Un lugar menos placentero pero en el\l"
+.string "que ocurren las cosas más importantes.\l"
 .string "…\l"
 .string "{PAUSE 5}…{PAUSE 5}$"
 
@@ -298,12 +294,11 @@ CultoS3_Text_19:
 .string "¿Por qué honrar y elevar unas\n"
 .string "almas por encima de otras, como es\l"
 .string "el caso de este monumento\l"
-.string "funerario?\l"
-.string "Creemos que lo que hacemos en la\l"
-.string "vida tiene su eco en la eternidad,\l"
-.string "no se trata de minusvalorar al\l"
-.string "resto de almas, si no de resaltar\l"
-.string "aquellas que lograron la\l"
+.string "funerario?\p"
+.string "Creemos que lo que hacemos en la vida\n"
+.string "tiene su eco en la eternidad, no se\l"
+.string "trata de minusvalorar al resto, si no\l"
+.string "de reconocer aquellas que lograron la\l"
 .string "excelencia.$"
 
 
@@ -316,10 +311,10 @@ release
 end
 
 CultoS3_Text_20:
-.string "GASTLY, HAUNTER y GENGAR no son\n"
-.string "los únicos fantasmas que PUEBLO\l"
-.string "LAVANDA guarda en sus más ocultos\l"
-.string "rincones.$"
+.string "GASTLY, HAUNTER y GENGAR no son los\n"
+.string "únicos fantasmas que PUEBLO LAVANDA\l"
+.string "guarda en sus más ocultos rincones.\l"
+.string "Pero eso ya lo sabes, ¿no?$"
 
 
 
@@ -346,9 +341,10 @@ release
 end
 
 CultoS3_Text_22:
-.string "A más de uno le explotaría la\n"
-.string "cabeza si viera la que tenemos\l"
-.string "aquí montada.$"
+	.string "Los bien dotados, aunque los apartes,\n"
+	.string "se aferran aún más a la doctrina.\l"
+	.string "Cuanto más se le desaire, tanto más se\l"
+	.string "inclinará a su natural.$"
 
 
 
@@ -360,8 +356,8 @@ release
 end
 
 CultoS3_Text_23:
-.string "Sin importar el modo, sirve a tus\n"
-.string "ideales.$"
+.string "Sin importar el modo, sirve\n"
+.string "a tus ideales.$"
 
 
 
@@ -376,8 +372,8 @@ CultoS3_Text_24:
 .string "Es tu luz y no tu oscuridad tu\n"
 .string "mayor miedo, miedo de saber cuanto\l"
 .string "puedes llegar a brillar y de\l"
-.string "descubrir la infinita\l"
-.string "potencialidad de tu ser.$"
+.string "descubrir el infinito potencial\l"
+.string "de tu ser.$"
 
 
 
@@ -400,23 +396,24 @@ CultoS3_26::
 lock     
 faceplayer     
 msgbox CultoS3_Text_26, MSGBOX_DEFAULT
+msgbox CultoS3_Text_26.1, MSGBOX_DEFAULT
 release     
 end
 
 CultoS3_Text_26:
-.string "Prueben a colocar al hombre en la\n"
-.string "más próspera, idílica y fantástica\l"
-.string "de las utopías, refugienle en\l"
-.string "inmensas burbujas de placer\l"
-.string "edonico, evitando todo contacto\l"
-.string "con la crudeza del cosmos,\l"
-.string "concédale aquello con lo que\l"
-.string "siempre soñó, sin tener que pasar\l"
-.string "por frustaciones, decepciones o\l"
-.string "dificultades, les aseguro que,\l"
-.string "tarde o temprano, esta enigmática\l"
-.string "criatura encontrará algún modo de\l"
-.string "sentirse miserable.$"
+.string "Prueben a colocar al hombre en la más\n"
+.string "próspera, idílica y fantástica de\l"
+.string "las utopías, refugienle en inmensas\l"
+.string "burbujas de placer edonico, evitando\l"
+.string "todo contacto con la crudeza del\l"
+.string "cosmos, concédale aquello con lo que\l"
+.string "siempre soñó, sin tener que pasar por\l"
+.string "frustación, dificultad o decepción.\l"
+
+CultoS3_Text_26.1:
+.string "Les aseguro que, tarde o temprano,\l"
+.string "esta enigmática criatura encontrará\l"
+.string "algún modo de sentirse miserable.$"
 
 
 
@@ -428,8 +425,8 @@ release
 end
 
 CultoS3_Text_27:
-.string "La rana en su estanque no concibe\n"
-.string "el océano.$"
+.string "La rana en su estanque\n"
+.string "no concibe el océano.$"
 
 
 
@@ -455,6 +452,7 @@ CultoS3_30::
 lock     
 faceplayer     
 msgbox CultoS3_Text_30, MSGBOX_DEFAULT
+msgbox CultoS3_Text_30.1, MSGBOX_DEFAULT
 release     
 end
 
@@ -463,12 +461,13 @@ CultoS3_Text_30:
 .string "efecto tiene su causa, todo sucede\l"
 .string "de acuerdo a la ley, la suerte o\l"
 .string "el azar no es más que el nombre\l"
-.string "que se le da a la ley no\l"
-.string "reconocida, hay muchos planos de\l"
-.string "casualidad, pero nada escapa a la\l"
-.string "ley, esto, sin embargo, no tiene\l"
-.string "porqué anular nuestra libertad y\l"
-.string "libre albedrío.$"
+.string "que damos a la ley no reconocida.\l"
+
+CultoS3_Text_30.1:
+.string "Hay muchos planos de casualidad, pero\l"
+.string "nada escapa a la ley. Esto, sin embargo,\l"
+.string "no tiene porqué anular nuestra libertad\l"
+.string "y libre albedrío.$"
 
 
 
@@ -497,9 +496,8 @@ release
 end
 
 CultoS3_Text_34:
-.string "Tanto si crees que eres capaz como\n"
-.string "si no, en ambos casos tienes\l"
-.string "razón.$"
+.string "Tanto si crees que eres capaz como si\n"
+.string "no, en ambos casos tienes razón.$"
 
 
 
@@ -544,10 +542,9 @@ release
 end
 
 CultoS3_Text_37:
-.string "A veces la gente no quiere\n"
-.string "escuchar la verdad porque no\l"
-.string "quiere que sus ilusiones se vean\l"
-.string "destruidas.$"
+.string "A veces la gente no quiere escuchar\n"
+.string "la verdad porque no quiere que sus\l"
+.string "ilusiones se vean destruidas.$"
 
 
 
@@ -561,8 +558,8 @@ end
 CultoS3_Text_38:
 .string "Serenidad para aceptar las cosas\n"
 .string "que no están en nuestra mano.\l"
-.string "Valor para cambiar las que sí lo\l"
-.string "están.\l"
+.string "Valor para cambiar las\l"
+.string "que sí lo están.\l"
 .string "Sabiduría para poder\l"
 .string "diferenciarlas.$"
 

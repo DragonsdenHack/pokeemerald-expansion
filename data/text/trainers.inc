@@ -11169,11 +11169,10 @@ SilphS1_Text_CientificoDefeated:
 
 
 SilphS1_Text_CientificoPostBattle:
-	.string "Fuiste crucial para que esta\n"
-	.string "región recuperase su soberanía de\l"
-	.string "nuevo, por ello SILPH es tu casa,\l"
-	.string "tienes acceso a todo cuanto\l"
-	.string "quieras ver ROCKET.$"
+	.string "Fuiste crucial para que esta región\n"
+	.string "recuperara su soberanía de nuevo.\p"
+	.string "SILPH es tu casa, tienes acceso a\n"
+	.string "a todo cuanto quieras ver, ROCKET.$"
 
 
 SilphS2_Text_PoliciaIntro:
@@ -12083,7 +12082,7 @@ UnionCave_Text_KaratekaDefeated:
 
 UnionCave_Text_KaratekaPostBattle:
 	.string "Así que eres uno de los mejores\n"
-	.string "de todo KANTO…\l"
+	.string "de toda KANTO…\l"
 	.string "Impresionante.$"
 
 

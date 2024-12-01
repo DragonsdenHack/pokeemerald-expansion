@@ -88,7 +88,7 @@ CinnabarMansionS2Documento_Text_101:
 	.string "La creencia de BLAINE en que\l"
 	.string "MAGMAR era el POKÉMON TIPO FUEGO\l"
 	.string "con mayor potencial especial de\l"
-	.string "todo KANTO por encima de MOLTRES\l"
+	.string "toda KANTO por encima de MOLTRES\l"
 	.string "ha quedado de sobra demostrada,\l"
 	.string "las llamaradas de MAGMORTAR-Y\l"
 	.string "harán parecer a las del LEGENDARIO\l"
