@@ -165,10 +165,10 @@ CultoS3_Text_11:
 .string "Este lugar es más antiguo que la\n"
 .string "propia TORRE POKÉMON, que fue\l"
 .string "creada como un mero complemento\l"
-.string "para los rituales más suaves.\l"
+.string "para los rituales más suaves.$"
 
 CultoS3_Text_11.1:
-.string "hace tanto que perdimos el contacto con\l"
+.string "Hace tanto que perdimos el contacto con\n"
 .string "el exterior, que la existencia de esta\l"
 .string "gran cámara subterránea ha sido borrada\l"
 .string "de la memoria, incluso de los más\l"
@@ -408,10 +408,10 @@ CultoS3_Text_26:
 .string "todo contacto con la crudeza del\l"
 .string "cosmos, concédale aquello con lo que\l"
 .string "siempre soñó, sin tener que pasar por\l"
-.string "frustación, dificultad o decepción.\l"
+.string "frustación, dificultad o decepción.$"
 
 CultoS3_Text_26.1:
-.string "Les aseguro que, tarde o temprano,\l"
+.string "Les aseguro que, tarde o temprano,\n"
 .string "esta enigmática criatura encontrará\l"
 .string "algún modo de sentirse miserable.$"
 
@@ -461,10 +461,10 @@ CultoS3_Text_30:
 .string "efecto tiene su causa, todo sucede\l"
 .string "de acuerdo a la ley, la suerte o\l"
 .string "el azar no es más que el nombre\l"
-.string "que damos a la ley no reconocida.\l"
+.string "que damos a la ley no reconocida.$"
 
 CultoS3_Text_30.1:
-.string "Hay muchos planos de casualidad, pero\l"
+.string "Hay muchos planos de casualidad, pero\n"
 .string "nada escapa a la ley. Esto, sin embargo,\l"
 .string "no tiene porqué anular nuestra libertad\l"
 .string "y libre albedrío.$"
@@ -557,10 +557,10 @@ end
 
 CultoS3_Text_38:
 .string "Serenidad para aceptar las cosas\n"
-.string "que no están en nuestra mano.\l"
-.string "Valor para cambiar las\l"
-.string "que sí lo están.\l"
-.string "Sabiduría para poder\l"
+.string "que no están en nuestra mano.\p"
+.string "Valor para cambiar las\n"
+.string "que sí lo están.\p"
+.string "Sabiduría para poder\n"
 .string "diferenciarlas.$"
 
 
@@ -671,23 +671,33 @@ applymovement 54, Culto_S3_Batalla_Move_2
 waitmovement 0x0
 delay 15
 msgbox Culto_S3_Batalla_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_9
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_PIN
 applymovement 54, Culto_S3_Batalla_Move_2
 waitmovement 0x0
+waitse
 msgbox Culto_S3_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_4
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_5
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Culto_S3_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_10
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_12 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_6
@@ -716,26 +726,57 @@ applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_7
 waitmovement 0x0
 special RemoveCameraObject
 msgbox Culto_S3_Batalla_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Culto_S3_Batalla_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Culto_S3_Batalla_Move_2
+waitmovement 0x0
+waitse
+delay 10
+msgbox Culto_S3_Batalla_Texto_15.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Culto_S3_Batalla_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_9
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_17 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CULTO_1, Culto_S3_Batalla_Texto_18
 msgbox Culto_S3_Batalla_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Culto_S3_Batalla_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Culto_S3_Batalla_Texto_19.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Culto_S3_Batalla_Texto_19.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_4
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_5
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Culto_S3_Batalla_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_4
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Culto_S3_Batalla_Texto_23.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Culto_S3_Batalla_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 54, Culto_S3_Batalla_Move_5
 waitmovement 0x0
+delay 10
 msgbox Culto_S3_Batalla_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Culto_S3_Batalla_Texto_26 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
@@ -833,13 +874,13 @@ Culto_S3_Batalla_Texto_11:
 Culto_S3_Batalla_Texto_12:
 .string "Todos vosotros al final lo que\n"
 	.string "buscáis es poder, lo que no sabéis\l"
-	.string "es que el verdadero poder lo\l"
+	.string "es{PAUSE 15}…{PAUSE 15} que el verdadero poder lo\l"
 	.string "obtienen aquellos que están\l"
-	.string "dispuestos a arrodillarse ante él,\l"
-	.string "y con humildad obtenerlo, debe de\l"
-	.string "ser una consecuencia de otras\l"
-	.string "virtudes, nunca el fin último,\l"
-	.string "observa{PAUSE 5}…{PAUSE 5}$"
+	.string "dispuestos a arrodillarse ante él\l"
+	.string "y, con humildad, obtenerlo.\p"
+	.string "Debe llegar como  consecuencia de\n"
+	.string "la virtud, nunca como fin último.\p"
+	.string "Observa{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_13:
 .string "Ahora mismo podría hacerte\n"
@@ -848,24 +889,27 @@ Culto_S3_Batalla_Texto_13:
 	.string "parte arrojar sobre ti todo el\l"
 	.string "poder y sabiduría de incontables\l"
 	.string "generaciones, a alguien como\l"
-	.string "tú que jamás tuvo acceso a ello.$"
+	.string "tú, que jamás tuvo acceso a ello.$"
 
 Culto_S3_Batalla_Texto_14:
 .string "{PAUSE 5}…{PAUSE 5}\n"
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_15:
-.string "Tengo el presentimiento de que no\n"
-	.string "eres como los demás, podrías\l"
-	.string "llegar a apreciar lo que\l"
-	.string "verdaderamente importa, no solo te\l"
-	.string "daré la oportunidad de regresar al\l"
-	.string "exterior si eres capaz de ir algo\l"
-	.string "más allá de lo que fuiste en tu\l"
-	.string "combate con LANCE, también te diré\l"
-	.string "cómo convocar al llamado -POKÉMON\l"
-	.string "ESENCIA-, algo que jamás ha salido\l"
-	.string "de aquí.$"
+.string "Tengo el presentimiento de que no eres\n"
+	.string "como los demás, podrías llegar a\l"
+	.string "apreciar lo que verdaderamente importa.$"
+
+Culto_S3_Batalla_Texto_15.1:
+	.string "No solo te daré la oportunidad de\n"
+	.string "regresar al exterior si eres capaz de\l"
+	.string "ir algo más allá de lo que fuiste en\l"
+	.string "tu combate con LANCE; también te diré\l"
+	.string "cómo convocar al -POKÉMON ESENCIA-.$"
+
+Culto_S3_Batalla_Texto_15.2:
+	.string "Así es, un conocimiento que\n"
+	.string "jamás ha salido de aquí.$"
 
 Culto_S3_Batalla_Texto_16:
 .string "No haré uso de mis más avanzadas\n"
@@ -885,23 +929,25 @@ Culto_S3_Batalla_Texto_18:
 .string "Interesante.$"
 
 Culto_S3_Batalla_Texto_19:
-.string "A pesar de la mediocridad que\n"
-	.string "abunda en KANTO actualmente, tu\l"
-	.string "voluntad no se ha visto torcida\l"
-	.string "por las circunstancias del\l"
-	.string "entorno, eres un caso especial, no\l"
-	.string "hay duda, no creo que más de 2 o 3\l"
-	.string "personas provenientes del exterior\l"
-	.string "en KANTO, contando contigo, puedan\l"
-	.string "salir airosos ante el equipo que\l"
-	.string "acabo de mostrar, te has ganado el\l"
-	.string "derecho a regresar al exterior,\l"
-	.string "con la condición de no contar a\l"
-	.string "nadie lo visto aquí con excepción,\l"
-	.string "por supuesto, de esa otra persona\l"
-	.string "que hubiera sido capaz de batir a\l"
-	.string "este equipo. Tú sabrás\l"
-	.string "identificarlo, por supuesto{PAUSE 5}…{PAUSE 5}$"
+.string "A pesar de la mediocridad que abunda\n"
+	.string "en KANTO, tu voluntad no se ha visto\l"
+	.string "trastocada por las circunstancias.$"
+
+Culto_S3_Batalla_Texto_19.1:
+	.string "Eres un caso especial, no hay duda.\n"
+	.string "Usando estos POKÉMON, no creo que más\l"
+	.string "de 2 o 3 personas dentro de KANTO,\l"
+	.string "pudieran salir airosas.$"
+
+Culto_S3_Batalla_Texto_19.2:
+	.string "Te has ganado e derecho a regresar al\n"
+	.string "exterior, con la condición de no contar\l"
+	.string "a nadie lo que has visto aquí{PAUSE 15}…{PAUSE 15}$"
+
+Culto_S3_Batalla_Texto_19.3:
+	.string "{PAUSE 15}…{PAUSE 15} a excepción de la otra persona\n"
+	.string "capaz de batir este poder.\l"
+	.string "Tú sabrás identificarlo{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_20:
 .string "En cuanto al POKÉMON ESENCIA, aquí\n"
@@ -931,17 +977,17 @@ Culto_S3_Batalla_Texto_22:
 
 Culto_S3_Batalla_Texto_23:
 .string "Hablamos de LUGIA y HO-OH,\n"
-	.string "actualmente en paradero\l"
-	.string "desconocido, la leyenda dice que\l"
-	.string "quien reuna a estos dos\l"
-	.string "LEGENDARIOS, la reacción que se\l"
-	.string "desencadenaría producto del\l"
-	.string "contacto entre estas dos criaturas\l"
-	.string "partícipes de la creación misma de\l"
-	.string "KANTO y JOHTO, obligaría a\l"
-	.string "materializarse al creador último\l"
-	.string "de todo lo que conocemos en estas\l"
-	.string "regiones: EL POKÉMON ESENCIA.$"
+	.string "en paradero desconocido.\p"
+	.string "La leyenda dice que al reunir a estos\n"
+	.string "dos LEGENDARIOS, se desencadenaría\l"
+	.string "una reacción, producto del contacto\l"
+	.string "entre dos criaturas partícipes de la\l"
+	.string "creación de KANTO y JOHTO.$"
+
+Culto_S3_Batalla_Texto_23.1:
+	.string "Dicha reacción obligaría a materiali-\n"
+	.string "zarse al creador último de todo lo\l"
+	.string "conocido: EL POKÉMON ESENCIA.$"
 
 Culto_S3_Batalla_Texto_24:
 .string "La leyenda no habla, sin embargo,\n"
@@ -1013,11 +1059,13 @@ step_end
 
 Culto_S3_Batalla_Move_9:
 walk_slow_down
+delay_16
 walk_in_place_down
 step_end
 
 Culto_S3_Batalla_Move_10:
 walk_slow_up
+delay_16
 walk_in_place_up
 step_end
 

@@ -46,7 +46,7 @@ msgbox SevenIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevenIslandDocumento_Text_100:
-.string "ISLA SÉPTIMA\n"
+.string "ISLA SÉTIMA\n"
 	.string "La Isla de la Búsqueda Infinita.$"
 
 SevenIsland_Entrenador_Especial::

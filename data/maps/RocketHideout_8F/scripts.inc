@@ -2993,27 +2993,69 @@ msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.1
+waitmovement 0x0
+waitse
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_12 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 fadescreen 1
@@ -3024,50 +3066,63 @@ setvar VAR_UNUSED_0x40F7, 109
 release
 end
 
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.1:
+emote_exclamation_mark
+step_end
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2:
+walk_in_place_down
+step_end
+
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_1:
-.string "GIOVANNI: ¿Encontraste algo\n"
+.string "GIOVANNI: ¿Encontraste algo,\n"
 	.string "{PLAYER}?$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_2:
-.string "Una historia increíble,\n"
-	.string "increíble{PAUSE 25}…{PAUSE 25}\l"
-	.string "¿Quién diría que semejante lugar\l"
-	.string "se encuentra justo debajo de\l"
-	.string "PUEBLO LAVANDA?\l"
+.string "Una historia increíble, increíble{PAUSE 25}…{PAUSE 25}\p"
+	.string "¿Quién diría que semejante lugar se\n"
+	.string "encuentra bajo PUEBLO LAVANDA?\l"
 	.string "Era real después de todo, si ese\l"
-	.string "lugar es real, el POKÉMON debe\l"
-	.string "también de serlo.$"
+	.string "lugar es real, el POKÉMON ESENCIA\l"
+	.string "debe también serlo.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_3:
 .string "Y el LÍDER del culto te pidió\n"
 	.string "expresamente guardar en secreto la\l"
-	.string "forma de hacer aparecer a ese\l"
-	.string "POKÉMON, exceptuando a los únicos\l"
-	.string "capaces de derrotarle en ese\l"
-	.string "combate además de ti, que según el\l"
-	.string "en toda KANTO son 1, 2 a lo sumo,\l"
-	.string "entrenadores más.$"
+	.string "forma de convocar a tal POKÉMON.\l"
+	.string "Salvo por 2 o 3 ENTRENADORES en\l"
+	.string "toda KANTO{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4:
-.string "GIOVANNI: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
 .string "Supongo que se referiría a OAK y a\n"
-	.string "mí, no cabe duda de que hay\l"
-	.string "muchísimas cosas que aún\l"
-	.string "desconocemos, dices que ese\l"
-	.string "ENTRENADOR contaba con MEW en su\l"
-	.string "poder, desaparecido desde la\l"
-	.string "creación de MEWTWO, y aún así\l"
-	.string "decía estar usando el 50% de su\l"
-	.string "poder, pero para eso se fundó el\l"
-	.string "TEAM ROCKET, para descubrir los\l"
-	.string "límites últimos de este mundo, e\l"
-	.string "iremos ahora a ROCA OMBLIGO.$"
+	.string "mí también; no cabe duda de que hay\l"
+	.string "cosas que aún se nos escapan.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1:
+	.string "Que tuviera también a MEW,\n"
+	.string "desaparecido desde que creamos\l"
+	.string "a MEWTWO{PAUSE 15} …{PAUSE 15}$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2:
+	.string "Para esto se fundó el TEAM ROCKET, para\n"
+	.string "descubrir los límites últimos del mundo.\l"
+	.string "Y por eso, iremos ahora a ROCA OMBLIGO.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6:
 .string "Uno de los trabajos que ATLAS ha\n"
-	.string "estado haciendo en las ISLAS SETE\l"
+	.string "estado haciendo en las ISLAS SETE,\l"
 	.string "es encontrar y dejar registradas\l"
 	.string "todas las rutas alternativas que\l"
 	.string "hay de conexión entre las islas.$"
@@ -3077,65 +3132,68 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7:
 	.string "el nombre de ISLAS SETE, pero en\l"
 	.string "la práctica se podrían considerar\l"
 	.string "10 porciones de tierra de tamaño\l"
-	.string "considerable, siendo la octava\l"
-	.string "justo al sur de ISLA SECUNDA, una\l"
-	.string "novena al este de las ruinas de\l"
-	.string "ISLA SÉPTIMA y al sur de ISLA\l"
-	.string "SEXTA, y la décima, que se\l"
-	.string "encuentra ligeramente al noroeste\l"
-	.string "de ISLA INTA, esta última es ROCA\l"
-	.string "OMBLIGO.$"
+	.string "considerable.$" 
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.1:
+	.string "Así, habría una octava isla justo al\n"
+	.string "sur de ISLA SECUNDA, una novena al\l"
+	.string "este de las ruinas de ISLA SÉTIMA, y\l"
+	.string "una décima, que se encuentra algunos\l"
+	.string "grados al noroeste de ISLA INTA.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2:
+	.string "Esta última es ROCA OMBLIGO.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8:
 .string "LUGIA y HO-OH cuentan con un poder\n"
-	.string "similar al de MEWTWO, nuestro plan\l"
-	.string "de emergencia para salvar KANTO\l"
-	.string "después de que MEWTWO escapara fue\l"
-	.string "encontrar estos dos POKÉMON, pero,\l"
-	.string "al igual que LANCE, jamás pudimos\l"
-	.string "hacerlo, hasta que recientemente,\l"
-	.string "después de lo ocurrido en la LIGA\l"
-	.string "POKÉMON, ATLAS me envió un informe\l"
-	.string "con este reciente descubrimiento:\l"
-	.string "una décima isla en el centro de\l"
-	.string "las 7, cubierta de fuertes mareas\l"
-	.string "y con una gran cueva en su\l"
-	.string "interior aún por explorar.$"
+	.string "similar al de MEWTWO; nuestro plan\l"
+	.string "de emergencia para salvar KANTO, tras\l"
+	.string "el fracaso de MEWTWO, era precisamente\l"
+	.string "el encontrar estos dos POKÉMON.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1:
+	.string "Al igual que LANCE, jamás pudimos\n"
+	.string "hacerlo.\p"
+	.string "Pero después de lo ocurrido en la LIGA\n"
+	.string "POKÉMON, ATLAS me envió un informe con\l"
+	.string "el reciente descubrimiento.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2:
+	.string "Esa décima isla esta el centro de\n"
+	.string "las 7, cubierta de fuertes mareas,\l"
+	.string "y con una gran cueva en su interior,\l"
+	.string "aún por explorar.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9:
 .string "No se me ocurre otro lugar donde\n"
 	.string "puedan estar estas dos bestias,\l"
-	.string "vistas por última vez hace\l"
-	.string "décadas.$"
+	.string "vistas por última vez hace décadas.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10:
 .string "¡{PLAYER}!\n"
 	.string "ROCA OMBLIGO está relativamente\l"
 	.string "cerca de ISLA INTA, sin embargo,\l"
 	.string "las corrientes entre ellas son las\l"
-	.string "más fuertes de todas las ISLAS\l"
-	.string "SETE, sería correr demasiados\l"
-	.string "riesgos el tratar de pasar por\l"
-	.string "ahí, sin embargo{PAUSE 5}…{PAUSE 5}$"
+	.string "más fuertes de todo el ARCHI7.\p"
+	.string "Sería correr demasiados riesgos,\n"
+	.string "sin embargo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11:
-.string "ATLAS descubrió una ruta\n"
-	.string "alternativa saliendo desde el\l"
-	.string "puerto de ISLA SECUNDA, es más\l"
-	.string "larga, pero las corrientes son\l"
-	.string "menos traicioneras y el camino más\l"
-	.string "lineal, cruzaremos por ahí, que no\l"
-	.string "te de miedo el cartel de\l"
-	.string "precaución, en esa isla lo han\l"
-	.string "colocado más para ahorrarse\l"
-	.string "problemas y lavarse las manos ante\l"
-	.string "cualquier accidente que por la\l"
-	.string "verdadera peligrosidad de sus\l"
-	.string "corrientes.$"
+.string "ATLAS descubrió una ruta alternativa,\n"
+	.string "partiendo del puerto de ISLA SECUNDA.\p"
+	.string "Es más larga, pero las corrientes\n"
+	.string "son menos traicioneras.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11.1:
+	.string "Cruzaremos por ahí, ignora el cartel de\n"
+	.string "precaución, lo han colocado más para\l"
+	.string "ahorrarse problemas y lavarse las manos\l"
+	.string " ante cualquier accidente, que por la\l"
+	.string "verdadera peligrosidad de sus aguas.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_12:
-.string "Te espero en ROCA OMBLIGO {PLAYER},\n"
-	.string "esta vez seré yo en persona quien\l"
+.string "Te espero en ROCA OMBLIGO, {PLAYER}.\n"
+	.string "Esta vez seré yo en persona quien\l"
 	.string "te haga compañía en esta misión.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_1:
@@ -3150,11 +3208,13 @@ step_end
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_3:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4:
 walk_slow_right
+delay_16
 walk_in_place_down
 step_end
 
