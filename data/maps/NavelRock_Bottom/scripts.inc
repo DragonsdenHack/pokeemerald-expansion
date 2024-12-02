@@ -167,16 +167,24 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_BANG
+waitse
+delay 30
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_4 MSGBOX_AUTOCLOSE
 delay 30
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_5 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
-delay 40
+delay 10
+msgbox NavelRock_Bottom_Combate_Lugia_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PC_OFF
+waitse
+delay 30
 playse SE_EXIT
 clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 addobject 2
@@ -184,112 +192,160 @@ delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_1
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_7
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_8
 waitmovement 0x0
+delay 10
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7
 waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_8 MSGBOX_AUTOCLOSE
-delay 15
+delay 10
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7.1
+waitmovement 0x0
+delay 10
+msgbox NavelRock_Bottom_Combate_Lugia_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7.2
+waitmovement 0x0
+delay 10
+msgbox NavelRock_Bottom_Combate_Lugia_Texto_8.2 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_7.3
+waitmovement 0x0
+delay 10
+msgbox NavelRock_Bottom_Combate_Lugia_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_1
 waitmovement 0x0
+waitse
+delay 10
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_9
 waitmovement 0x0
+delay 10
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7
 waitmovement 0x0
+delay 10
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_6
 waitmovement 0x0
+delay 10
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_11 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+delay 10
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7.4
+waitmovement 0x0
+delay 10
 removeobject 2
-fadescreen 1
-delay 20
-fadescreen 0
+playse SE_EXIT
+waitse
 setvar VAR_ROUTE106_STATE, 4
 setvar VAR_UNUSED_0x40F7, 111
 release
 end
 
+NavelRock_Bottom_Combate_Lugia_Move_7.4:
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+step_end
+
+NavelRock_Bottom_Combate_Lugia_Move_7.1:
+face_left
+step_end
+
+NavelRock_Bottom_Combate_Lugia_Move_7.2:
+face_up
+step_end
+
+NavelRock_Bottom_Combate_Lugia_Move_7.3:
+walk_in_place_down
+step_end
+
 NavelRock_Bottom_Combate_Lugia_Texto_1:
-.string "¡El LUGIA salvaje quiere ponerte\n"
-	.string "a prueba!$"
+.string "-¡El LUGIA salvaje quiere\n"
+	.string "ponerte a prueba!-$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_3:
-.string "(El LUGIA salvaje desapareció\n"
-	.string "antes de poder capturarlo).$"
+.string "-El LUGIA salvaje desapareció\n"
+	.string "antes de poder capturarlo.-$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_4:
-.string "(Parece que ha habido un enorme\n"
-	.string "terremoto en algún lugar lejano).$"
+.string "-Parece que ha habido un enorme\n"
+	.string "terremoto en algún lugar lejano.-$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_5:
-.string "ANDRA: ¡{PLAYER}!\n"
-	.string "¡No te lo vas a creer!\l"
-	.string "¡Estaba terminando mi\l"
+.string "ANDRA: ¡{PLAYER}!{PAUSE 55}\p"
+	.string "¡No te lo vas a creer!{PAUSE 35}\p"
+	.string "Estaba terminando mi\n"
 	.string "investigación en las CÁMARAS SETE,\l"
 	.string "y justo cuando estaba en la más\l"
-	.string "grande de ellas, la CÁMARA\l"
-	.string "ANÉMUNA, una increíble sacudida ha\l"
-	.string "abierto un pasadizo secreto que\l"
-	.string "parece que lleva aún más al este!\l"
-	.string "¡Voy a cruzarlo {PLAYER}!\l"
+	.string "grande de ellas, CÁMARA ANÉMUNA{PAUSE 15}…{PAUSE 15}$"
+
+NavelRock_Bottom_Combate_Lugia_Texto_5.1:
+	.string "¡Una increíble sacudida ha abierto\n"
+	.string "un pasadizo secreto, parece que\l"
+	.string "lleva aún más al este!\p"
+	.string "¡Voy a cruzarlo, {PLAYER}!\n"
 	.string "¡Si quieres venir y verlo tú\l"
 	.string "mismo, es el momento!$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_6:
-.string "GIOVANNI: ¿Batiste a LUGIA\n"
-	.string "{PLAYER}?$"
+.string "GIOVANNI: ¿Batiste a LUGIA?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_7:
-.string "Ya veo, al igual que me ha\n"
-	.string "ocurrido a mi, LUGIA también ha\l"
-	.string "desaparecido inmediatamente\l"
-	.string "después de ser derrotado, sin\l"
-	.string "opción a capturarlo.$"
+.string "Ya veo, tal y como que me ha ocurrido\n"
+	.string "a mí, LUGIA también se ha esfumado,\l"
+	.string "sin dar opción a capturarlo.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_8:
-.string "Ambos han desaparecido si, pero\n"
-	.string "creo que hemos activado algo\l"
-	.string "importante al ser capaces de\l"
-	.string "derrotarlos, ese enorme\l"
-	.string "terremoto{PAUSE 15}…{PAUSE 15}\l"
-	.string "Me han llamado desde nuestra\l"
-	.string "sucursal en JOHTO, informándome de\l"
-	.string "que al parecer ha tenido lugar\l"
-	.string "allí, tal vez eso quiere decir que\l"
-	.string "después de todo LUGIA y HO-OH\l"
-	.string "vuelvan a su lugar de origen, tal\l"
-	.string "vez a{PAUSE 15}…{PAUSE 15}¿reunirse con el POKÉMON\l"
-	.string "ESENCIA?$"
+.string "Ambos han desaparecido, sí{PAUSE 15}…{PAUSE 15}\p"
+	.string "Pero creo que hemos activado algo\n"
+	.string "importante, después de ser capaces\l"
+	.string "de derrotarlos, ese terremoto{PAUSE 15}…{PAUSE 15}$"
+
+NavelRock_Bottom_Combate_Lugia_Texto_8.1:
+	.string "Me han llamado desde la sucursal de\n"
+	.string "JOHTO, al parecer, ha tenido lugar\l"
+	.string "allí, tal vez sea una señal de que,\l"
+	.string "después de todo, LUGIA y HO-OH\l"
+	.string "vuelvan a su lugar de origen.$"
+
+NavelRock_Bottom_Combate_Lugia_Texto_8.2:
+	.string "¿Quizás{PAUSE 15}…{PAUSE 15} a reunirse con el\n"
+	.string "POKÉMON ESENCIA?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_9:
-.string "¿Cómo?\n"
-	.string "¿ANDRA estaba investigando las\l"
-	.string "RUINAS SETE justo cuando se ha\l"
+.string "¿Cómo?{PAUSE 45}\p"
+	.string "¿ANDRA estaba investigando las\n"
+	.string "RUINAS SETE, justo cuando se ha\l"
 	.string "abierto un pasadizo en el interior\l"
 	.string "de la cámara más importante?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_10:
-.string "Entonces han sido dos terremotos,\n"
-	.string "tal vez en JOHTO se haya abierto\l"
+.string "Entonces han sido dos terremotos{PAUSE 15}…{PAUSE 15}\n"
+	.string "Tal vez en JOHTO se haya abierto\l"
 	.string "algo que ha permanecido por mucho\l"
 	.string "tiempo oculto, tal vez allí hayan\l"
-	.string "regresado LUGIA y HO-OH, debemos\l"
-	.string "investigarlo.$"
+	.string "regresado LUGIA y HO-OH{PAUSE 15}…{PAUSE 15}\l"
+	.string "Debemos investigarlo.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_11:
-.string "Ve con ANDRA {PLAYER}, yo\n"
-	.string "investigaré lo ocurrido en JOHTO,\l"
+.string "Ve con ANDRA, {PLAYER}.\n"
+	.string "Yo investigaré lo ocurrido en JOHTO,\l"
 	.string "vamos a llegar al fondo de esto.$"
 
 NavelRock_Bottom_Combate_Lugia_Move_1:
