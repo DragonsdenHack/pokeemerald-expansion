@@ -55,7 +55,7 @@ NeoLavandaCementerio_Text_3:
 NeoLavandaCementerio_Dialogo_Fuji::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F7, 217
+compare VAR_UNUSED_0x40F7, 211
 goto_if_gt NeoLavandaCementerio_Dialogo_Fuji_Despues
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_1 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_2 MSGBOX_AUTOCLOSE

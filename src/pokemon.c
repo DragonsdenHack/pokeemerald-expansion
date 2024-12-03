@@ -7718,6 +7718,7 @@ u16 GetBattleBGM(void)
             return MUS_RG_VS_CHAMPION;
         case TRAINER_CLASS_SINGULAR:
         case TRAINER_CLASS_FUJI:
+        case TRAINER_CLASS_GUARDIA:
             return 579;
         case TRAINER_CLASS_BILL:
             return 551;

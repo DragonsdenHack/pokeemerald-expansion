@@ -207,10 +207,8 @@ clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK 
-clearflag FLAG_HIDE_MAUVILLE_CITY_SCOTT                               
-clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT                            
-clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                 
-clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                       
+clearflag FLAG_HIDE_MAUVILLE_CITY_SCOTT                                                        
+setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                                        
 clearflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                     
 clearflag FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                         
 clearflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                        
@@ -1001,6 +999,8 @@ settrainerflag TRAINER_KOJI_2
 settrainerflag TRAINER_KOJI_3
 settrainerflag TRAINER_KOJI_4
 settrainerflag TRAINER_KOJI_5
+settrainerflag TRAINER_TRAINER_718
+settrainerflag TRAINER_TRAINER_717
 	return
 	
 EventScript_SetTrainersDlc::
@@ -1095,6 +1095,12 @@ settrainerflag TRAINER_TRAINER_256
 settrainerflag TRAINER_CRISTIN_2
 settrainerflag TRAINER_CRISTIN_3
 settrainerflag TRAINER_CRISTIN_4
+settrainerflag TRAINER_CRISTIN_5
+settrainerflag TRAINER_SAWYER_2
+settrainerflag TRAINER_SAWYER_3
+settrainerflag TRAINER_FERNANDO_4
+settrainerflag TRAINER_FERNANDO_5
+settrainerflag TRAINER_THALIA_4
 	return
 
 EventScript_SetItemsKanto::
@@ -1960,7 +1966,7 @@ clearflag FLAG_NUEVA_857
 clearflag FLAG_NUEVA_858
 clearflag FLAG_NUEVA_859
 clearflag FLAG_NUEVA_860
-clearflag FLAG_NUEVA_861
+setflag FLAG_NUEVA_861
 clearflag FLAG_NUEVA_862
 clearflag FLAG_NUEVA_863
 clearflag FLAG_UNUSED_0x264
@@ -2849,7 +2855,7 @@ clearflag FLAG_NUEVA_857
 clearflag FLAG_NUEVA_858
 clearflag FLAG_NUEVA_859
 clearflag FLAG_NUEVA_860
-clearflag FLAG_NUEVA_861
+setflag FLAG_NUEVA_861
 clearflag FLAG_NUEVA_862
 clearflag FLAG_NUEVA_863
 clearflag FLAG_UNUSED_0x264
@@ -3749,7 +3755,7 @@ clearflag FLAG_NUEVA_857
 clearflag FLAG_NUEVA_858
 clearflag FLAG_NUEVA_859
 clearflag FLAG_NUEVA_860
-clearflag FLAG_NUEVA_861
+setflag FLAG_NUEVA_861
 clearflag FLAG_NUEVA_862
 clearflag FLAG_NUEVA_863
 clearflag FLAG_UNUSED_0x264
@@ -3776,6 +3782,7 @@ clearflag FLAG_UNUSED_0x279
 return
 
 EventScript_SetItemsDlc::
+call EventScript_SetItemsJohto
 setflag FLAG_NUEVA_567
 setflag FLAG_NUEVA_568
 setflag FLAG_NUEVA_585
@@ -4029,6 +4036,7 @@ EventScript_SetKanto::
 	additem ITEM_TM48
 	additem ITEM_TM49
 	additem ITEM_TM50
+	additem ITEM_TM56
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -4040,6 +4048,10 @@ EventScript_SetKanto::
 	additem ITEM_CONTEST_PASS
 	additem ITEM_CARD_KEY
 	additem ITEM_EXP_SHARE
+	additem ITEM_UPGRADE
+	additem ITEM_THICK_CLUB
+	additem ITEM_METAL_COAT
+	additem ITEM_KINGS_ROCK
 	additem ITEM_LONELY_MINT
 	additem ITEM_ADAMANT_MINT
 	additem ITEM_NAUGHTY_MINT
@@ -4278,6 +4290,7 @@ EventScript_SetSevii::
 	additem ITEM_TM48
 	additem ITEM_TM49
 	additem ITEM_TM50
+	additem ITEM_TM56
 	additem ITEM_TM51
 	additem ITEM_TM132
 	additem ITEM_TM134
@@ -4296,6 +4309,12 @@ EventScript_SetSevii::
 	additem ITEM_CARD_KEY
 	additem ITEM_EXP_SHARE
 	additem ITEM_RAINBOW_PASS
+	additem ITEM_DRAGON_SCALE
+	additem ITEM_UPGRADE
+	additem ITEM_THICK_CLUB
+	additem ITEM_METAL_COAT
+	additem ITEM_KINGS_ROCK
+	additem ITEM_DUBIOUS_DISC
 	additem ITEM_LONELY_MINT,3
 	additem ITEM_ADAMANT_MINT,3
 	additem ITEM_NAUGHTY_MINT,3
@@ -4383,6 +4402,10 @@ EventScript_SetSevii::
 	setflag FLAG_HOENN_162
 	setflag FLAG_HOENN_156
 	setflag FLAG_HOENN_171
+	setflag FLAG_HOENN_80
+	setflag FLAG_HOENN_81
+	setflag FLAG_HOENN_82
+	setflag FLAG_HOENN_83
 	
 	// esto es lo de kanto
 	setflag FLAG_BADGE01_GET
@@ -4489,6 +4512,7 @@ EventScript_SetSevii::
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
+	setflag FLAG_NUEVA_822
 	end
 EventScript_SetJohto::
 	additem ITEM_MASTER_BALL, 3
@@ -4581,6 +4605,7 @@ EventScript_SetJohto::
 	additem ITEM_TM48
 	additem ITEM_TM49
 	additem ITEM_TM50
+	additem ITEM_TM56
 	additem ITEM_TM51
 	additem ITEM_TM57
 	additem ITEM_TM59
@@ -4597,6 +4622,8 @@ EventScript_SetJohto::
 	additem ITEM_TM141
 	additem ITEM_TM145
 	additem ITEM_TM148
+	additem ITEM_TM162
+	additem ITEM_TM170
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -4615,6 +4642,17 @@ EventScript_SetJohto::
 	additem ITEM_VS_SEEKER
 	additem ITEM_MEGA_RING
 	additem ITEM_SS_TICKET
+	additem ITEM_DRAGON_SCALE
+	additem ITEM_UPGRADE
+	additem ITEM_THICK_CLUB
+	additem ITEM_METAL_COAT
+	additem ITEM_KINGS_ROCK
+	additem ITEM_DUBIOUS_DISC
+	additem ITEM_REAPER_CLOTH
+	additem ITEM_ELECTIRIZER
+	additem ITEM_PROTECTOR
+	additem ITEM_PRISM_SCALE
+	additem ITEM_DEEP_SEA_TOOTH
 	additem ITEM_LONELY_MINT,6
 	additem ITEM_ADAMANT_MINT,6
 	additem ITEM_NAUGHTY_MINT,6
@@ -4773,6 +4811,9 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_ROUTE_111_DESERT_FOSSIL
 	setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 	setflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+	setflag FLAG_NUEVA_817
+	setflag FLAG_NUEVA_818
+	setflag FLAG_NUEVA_822
 	
 	//esto es lo de sevii
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
@@ -4792,6 +4833,12 @@ EventScript_SetJohto::
 	setflag FLAG_HOENN_162
 	setflag FLAG_HOENN_156
 	setflag FLAG_HOENN_171
+	setflag FLAG_HOENN_103
+	setflag FLAG_HOENN_674
+	setflag FLAG_HOENN_80
+	setflag FLAG_HOENN_81
+	setflag FLAG_HOENN_82
+	setflag FLAG_HOENN_83
 	
 	// esto es lo de kanto
 	
@@ -4869,6 +4916,9 @@ EventScript_SetJohto::
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
+	setflag FLAG_HOENN_104
+	setflag FLAG_HOENN_277
+	setflag FLAG_RECEIVED_SHOAL_SHELL_4
 	end
 	EventScript_SetHoenn::
 	additem ITEM_MASTER_BALL, 4
@@ -4911,6 +4961,9 @@ EventScript_SetJohto::
 	additem ITEM_LUCARIONITE
 	additem ITEM_DUSKNOIRITA
 	additem ITEM_NOIVERNITA
+	additem ITEM_MANECTITE
+	additem ITEM_CAMERUPTITE
+	additem ITEM_MEWTWONITE_Y
 	additem ITEM_TM01
 	additem ITEM_TM02
 	additem ITEM_TM03
@@ -4962,6 +5015,7 @@ EventScript_SetJohto::
 	additem ITEM_TM49
 	additem ITEM_TM50
 	additem ITEM_TM51
+	additem ITEM_TM56
 	additem ITEM_TM52
 	additem ITEM_TM55
 	additem ITEM_TM57
@@ -5008,6 +5062,8 @@ EventScript_SetJohto::
 	additem ITEM_TM141
 	additem ITEM_TM145
 	additem ITEM_TM148
+	additem ITEM_TM162
+	additem ITEM_TM170
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -5027,6 +5083,22 @@ EventScript_SetJohto::
 	additem ITEM_MEGA_RING
 	additem ITEM_Z_POWER_RING
 	additem ITEM_SS_TICKET
+	additem ITEM_DRAGON_SCALE
+	additem ITEM_UPGRADE
+	additem ITEM_THICK_CLUB
+	additem ITEM_METAL_COAT
+	additem ITEM_KINGS_ROCK
+	additem ITEM_DUBIOUS_DISC
+	additem ITEM_REAPER_CLOTH
+	additem ITEM_ELECTIRIZER
+	additem ITEM_PROTECTOR
+	additem ITEM_PRISM_SCALE
+	additem ITEM_DEEP_SEA_TOOTH
+	additem ITEM_RAZOR_CLAW
+	additem ITEM_MAGMARIZER
+	additem ITEM_RED_SCALE
+	additem ITEM_CONDENSADOR_GAS
+	additem ITEM_RAZOR_FANG
 	additem ITEM_LONELY_MINT,10
 	additem ITEM_ADAMANT_MINT,10
 	additem ITEM_NAUGHTY_MINT,10
@@ -5063,6 +5135,7 @@ EventScript_SetJohto::
 	setvar VAR_UNUSED_0x40F7, 217
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	setvar VAR_VERDANTURF_TOWN_STATE, 20
+	setvar VAR_ROUTE118_STATE, 1
 	setvar VAR_UNUSED_0x408B, 1
     setvar VAR_UNUSED_0x40A1, 1
     setvar VAR_UNUSED_0x40A8, 1
@@ -5195,6 +5268,20 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_PETALBURG_GYM_NORMAN
 	setflag FLAG_HOENN_102
 	setflag FLAG_NUEVA_841
+	setflag FLAG_NUEVA_838
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
+	setflag FLAG_NUEVA_834
+	setflag FLAG_NUEVA_835
+	setflag FLAG_HOENN_104
+	setflag FLAG_HOENN_277
+	setflag FLAG_RECEIVED_SHOAL_SHELL_4
+	setflag FLAG_HOENN_103
+	setflag FLAG_HOENN_674
+	setflag FLAG_NUEVA_817
+	setflag FLAG_NUEVA_818
+	setflag FLAG_NUEVA_861
+	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+	setflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
 	
 	//esto es lo de sevii
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
@@ -5214,6 +5301,10 @@ EventScript_SetJohto::
 	setflag FLAG_HOENN_162
 	setflag FLAG_HOENN_156
 	setflag FLAG_HOENN_171
+	setflag FLAG_HOENN_80
+	setflag FLAG_HOENN_81
+	setflag FLAG_HOENN_82
+	setflag FLAG_HOENN_83
 	
 	// esto es lo de kanto
 	

@@ -31,6 +31,7 @@ msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_6
 waitmovement 0x0
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 setvar VAR_VERDANTURF_TOWN_STATE, 15
 release
 end

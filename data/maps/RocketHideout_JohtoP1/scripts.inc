@@ -1748,6 +1748,8 @@ setmetatile 21, 4, 0x334, FALSE
 setmetatile 21, 3, 0x334, FALSE
 setmetatile 22, 4, 0x334, FALSE
 setmetatile 22, 3, 0x334, FALSE
+setmetatile 21, 5, 0x334, FALSE
+setmetatile 22, 5, 0x334, FALSE
 special DrawWholeMapView
 delay 60
 release
@@ -1772,6 +1774,8 @@ setmetatile 21, 4, 0x334, FALSE
 setmetatile 21, 3, 0x334, FALSE
 setmetatile 22, 4, 0x334, FALSE
 setmetatile 22, 3, 0x334, FALSE
+setmetatile 21, 5, 0x334, FALSE
+setmetatile 22, 5, 0x334, FALSE
 special DrawWholeMapView
 delay 60
 release

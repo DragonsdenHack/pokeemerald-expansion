@@ -2426,6 +2426,7 @@ setflag FLAG_HOENN_96
 setflag FLAG_HOENN_97
 setflag FLAG_HOENN_98
 setflag FLAG_HOENN_99
+setflag FLAG_HOENN_677
 clearflag FLAG_HOENN_640
 clearflag FLAG_HOENN_641
 clearflag FLAG_HOENN_642

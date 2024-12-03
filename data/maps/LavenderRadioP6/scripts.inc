@@ -232,6 +232,7 @@ waitmovement 0x0
 delay 15
 msgbox LavenderRadioP6_Reunion_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
 fadescreen 1
 delay 20

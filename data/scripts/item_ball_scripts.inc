@@ -3108,4 +3108,8 @@ Radio_Tower_P10_EventScript_TM170::
 finditem ITEM_TM170_THOUSAND_WAVES
    end
 
+Ruta_51_EventScript_Escama::
+finditem ITEM_PRISM_SCALE
+   end
+
 

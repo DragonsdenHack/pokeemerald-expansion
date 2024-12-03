@@ -43,14 +43,17 @@ Goldenrod_RadioTowerP7_NPC_3_Texto_2:
 Goldenrod_RadioTowerP7_NPC_4::
 lock
 faceplayer
+goto_if_set FLAG_HOENN_104, Goldenrod_RadioTowerP7_EventScript_ReceivedTM78
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_1 MSGBOX_NPC
 delay 10
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_2 MSGBOX_NPC
+giveitem ITEM_TM132
+setflag FLAG_HOENN_104
 delay 10
-playfanfare MUS_OBTAIN_TMHM
-msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_3 MSGBOX_DEFAULT
-waitfanfare
-delay 10
+release
+end
+
+Goldenrod_RadioTowerP7_EventScript_ReceivedTM78::
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_4 MSGBOX_NPC
 release
 end

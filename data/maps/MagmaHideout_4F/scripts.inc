@@ -303,11 +303,31 @@ walk_left
 walk_down
 step_end
 
+MagmaHideout_4F_Encuentro_Amatista_Move_1.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+MagmaHideout_4F_Encuentro_Amatista_Move_1.2:
+walk_up
+walk_up
+walk_up
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+step_end
+
 
 MagmaHideout_4F_Encuentro_Amatista::
 lock
+special SpawnCameraObject
 applymovement 6, MagmaHideout_4F_Encuentro_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, MagmaHideout_4F_Encuentro_Amatista_Move_1.1
 waitmovement 0x0
+special RemoveCameraObject
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_2 MSGBOX_AUTOCLOSE
@@ -333,9 +353,12 @@ delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Encuentro_Move_9
 applymovement 6, MagmaHideout_4F_Encuentro_Move_8
+applymovement OBJ_EVENT_ID_CAMERA, MagmaHideout_4F_Encuentro_Amatista_Move_1.2
 waitmovement 0x0
+special RemoveCameraObject
 setflag FLAG_HOENN_23
 removeobject 6
 setvar VAR_UNUSED_0x40F7, 221
@@ -354,6 +377,7 @@ face_up
 step_end
 
 MagmaHideout_4F_Encuentro_Move_8:
+walk_up
 walk_up
 walk_up
 walk_up

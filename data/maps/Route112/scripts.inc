@@ -166,3 +166,15 @@ Ruta_112_Rocket_Texto_1:
 	.string "varias cosas para usted, debería\l"
 	.string "echarles un vistazo.$"
 
+
+Ruta_112_Policia_Bloqueos::
+lock
+msgbox Ruta_112_Policia_Bloqueos_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Ruta_112_Policia_Bloqueos_Texto_1:
+	.string "Estamos realizando importantes\n"
+	.string "pruebas en el MONTE CENIZO. Por tu\l"
+	.string "seguridad, mantente alejado.$"
+

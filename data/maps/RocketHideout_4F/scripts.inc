@@ -123,9 +123,15 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC::
-msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1.1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Final_DLC_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Final_DLC_Texto_6 MSGBOX_AUTOCLOSE
 release
 end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1.1:
+	.string "Ve a la BASE de HOENN, {PLAYER}.$"
+
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1:
 .string "Estoy sorprendido de que hayas logrado\n"

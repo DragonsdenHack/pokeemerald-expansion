@@ -217,6 +217,7 @@ applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_3.1
 waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
 removeobject 10
 setvar VAR_VERDANTURF_TOWN_STATE, 16
 release

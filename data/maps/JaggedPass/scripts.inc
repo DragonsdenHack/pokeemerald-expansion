@@ -39,8 +39,6 @@ JaggedPass_OnLoad:
 	end
 
 JaggedPass_EventScript_ConcealHideoutEntrance::
-	setmetatile 16, 17, METATILE_Lavaridge_RockWall, TRUE
-	setmetatile 16, 18, METATILE_Lavaridge_RockWall, TRUE
 	end
 
 JaggedPass_EventScript_OpenMagmaHideout::
@@ -341,7 +339,7 @@ emote_exclamation_mark
 step_end
 
 JaggedPass_Encuentro_Magno_Texto_1:
-	.string "MAGNO: Al fin{PAUSE 10}…{PAUSE 10} llegó la hora GROUDON.$"
+	.string "MAGNO: Al fin{PAUSE 10}…{PAUSE 10} llegó la hora, GROUDON.$"
 
 JaggedPass_Encuentro_Magno_Texto_2:
 	.string "Tenemos todo para montar aquí nuestra\n"
@@ -351,6 +349,6 @@ JaggedPass_Encuentro_Magno_Texto_3:
 	.string "Humm{PAUSE 10}…{PAUSE 10} tú{PAUSE 10}…{PAUSE 10} ¿te he visto antes?$"
 
 JaggedPass_Encuentro_Magno_Texto_4:
-	.string "{PAUSE 10}…{PAUSE 10} No importa. GROUDON y la ESFERA AZUL\n"
-	.string "esperan.$"
+	.string "{PAUSE 10}…{PAUSE 10} No importa.\n"
+	.string "GROUDON y la ESFERA AZUL esperan.$"
 

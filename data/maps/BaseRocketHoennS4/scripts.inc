@@ -39,6 +39,7 @@ msgbox BaseRocketHoennS4_Carta_Andra_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_4F_Warp_No
 setvar VAR_UNUSED_0x40F7, 219
+setflag FLAG_HOENN_106
 goto BaseRocketHoennS4_Carta_Andra_Leer
 release
 end
@@ -278,7 +279,7 @@ end
 
 Base_Hoenn_Esfera_Roja_Texto_1:
 	.string "¡{PLAYER} obtuvo un\n"
-	.string "ORBE ROJA!$"
+	.string "ORBE ROJO!$"
 
 Base_Hoenn_Ascenso::
 lock

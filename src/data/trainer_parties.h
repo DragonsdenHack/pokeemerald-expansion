@@ -38083,7 +38083,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER652[] = {
     .heldItem = ITEM_KANGASKHANITE,
     .evs = {100, 100, 100, 252, 252, 100},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_QUIVER_DANCE}
+    .moves = {MOVE_BODY_SLAM, MOVE_SUCKER_PUNCH, MOVE_POWER_UP_PUNCH, MOVE_QUIVER_DANCE}
     }
     
 };
@@ -38619,7 +38619,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER667[] = {
     {
     .iv = 255,
     .lvl = 110,
-    .species = SPECIES_KANGASKHAN,
+    .species = SPECIES_GUARDIA,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_ADAMANT,

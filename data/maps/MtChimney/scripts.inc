@@ -937,13 +937,16 @@ goto MtChimney_Doctor_Rasmus
 
 MtChimney_Doctor_Rasmus_Abajo::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_1.1
 playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+delay 30
 playse SE_FALL
 applymovement 2, MtChimney_Doctor_Rasmus_Move_1
 waitmovement 0x0
 delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
 waitse
+delay 10
 msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE 
 applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2.1
 waitmovement 0x0
@@ -1010,6 +1013,28 @@ applymovement 2, MtChimney_Doctor_Rasmus_Move_14
 waitmovement 0x0
 clearflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
+setflag FLAG_HOENN_679
+setflag FLAG_HOENN_680
+setflag FLAG_HOENN_681
+setflag FLAG_HOENN_682
+setflag FLAG_HOENN_683
+setflag FLAG_HOENN_684
+setflag FLAG_HOENN_685
+setflag FLAG_HOENN_686
+setflag FLAG_HOENN_687
+setflag FLAG_HOENN_688
+setflag FLAG_HOENN_689
+setflag FLAG_HOENN_690
+setflag FLAG_HOENN_691
+setflag FLAG_HOENN_692
+setflag FLAG_HOENN_693
+setflag FLAG_HOENN_694
+setflag FLAG_HOENN_695
+setflag FLAG_HOENN_696
+setflag FLAG_HOENN_697
+setflag FLAG_HOENN_698
+setflag FLAG_HOENN_699
+setflag FLAG_HOENN_700
 setflag FLAG_HOENN_1
 fadescreen 1
 delay 20
@@ -1035,8 +1060,11 @@ setvar VAR_UNUSED_0x40F7, 220
 release
 end
 
+MtChimney_Doctor_Rasmus_Move_1.1:
+walk_in_place_right
+step_end
+
 MtChimney_Doctor_Rasmus_Move_14:
-walk_left
 walk_left
 walk_left
 walk_down
