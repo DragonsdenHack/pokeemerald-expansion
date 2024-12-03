@@ -1092,6 +1092,9 @@ settrainerflag TRAINER_TRAINER_253
 settrainerflag TRAINER_TRAINER_254
 settrainerflag TRAINER_TRAINER_255
 settrainerflag TRAINER_TRAINER_256
+settrainerflag TRAINER_CRISTIN_2
+settrainerflag TRAINER_CRISTIN_3
+settrainerflag TRAINER_CRISTIN_4
 	return
 
 EventScript_SetItemsKanto::
@@ -4276,6 +4279,11 @@ EventScript_SetSevii::
 	additem ITEM_TM49
 	additem ITEM_TM50
 	additem ITEM_TM51
+	additem ITEM_TM132
+	additem ITEM_TM134
+	additem ITEM_TM141
+	additem ITEM_TM145
+	additem ITEM_TM148
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -4370,6 +4378,11 @@ EventScript_SetSevii::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 	setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+	setflag FLAG_HOENN_159
+	setflag FLAG_HOENN_163
+	setflag FLAG_HOENN_162
+	setflag FLAG_HOENN_156
+	setflag FLAG_HOENN_171
 	
 	// esto es lo de kanto
 	setflag FLAG_BADGE01_GET
@@ -4579,6 +4592,11 @@ EventScript_SetJohto::
 	additem ITEM_TM87
 	additem ITEM_TM93
 	additem ITEM_TM99
+	additem ITEM_TM132
+	additem ITEM_TM134
+	additem ITEM_TM141
+	additem ITEM_TM145
+	additem ITEM_TM148
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -4769,6 +4787,11 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 	setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+	setflag FLAG_HOENN_159
+	setflag FLAG_HOENN_163
+	setflag FLAG_HOENN_162
+	setflag FLAG_HOENN_156
+	setflag FLAG_HOENN_171
 	
 	// esto es lo de kanto
 	
@@ -4980,6 +5003,11 @@ EventScript_SetJohto::
 	additem ITEM_TM113
 	additem ITEM_TM114
 	additem ITEM_TM115
+	additem ITEM_TM132
+	additem ITEM_TM134
+	additem ITEM_TM141
+	additem ITEM_TM145
+	additem ITEM_TM148
 	additem ITEM_HM01
 	additem ITEM_HM02
 	additem ITEM_HM03
@@ -4997,6 +5025,7 @@ EventScript_SetJohto::
 	additem ITEM_TOWN_MAP
 	additem ITEM_VS_SEEKER
 	additem ITEM_MEGA_RING
+	additem ITEM_Z_POWER_RING
 	additem ITEM_SS_TICKET
 	additem ITEM_LONELY_MINT,10
 	additem ITEM_ADAMANT_MINT,10
@@ -5033,6 +5062,7 @@ EventScript_SetJohto::
 	call EventScript_SetTrainersDlc
 	setvar VAR_UNUSED_0x40F7, 217
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	setvar VAR_VERDANTURF_TOWN_STATE, 20
 	setvar VAR_UNUSED_0x408B, 1
     setvar VAR_UNUSED_0x40A1, 1
     setvar VAR_UNUSED_0x40A8, 1
@@ -5043,11 +5073,11 @@ EventScript_SetJohto::
     setvar VAR_UNUSED_0x40E5, 1
     setvar VAR_UNUSED_0x40FC, 2
     setvar VAR_UNUSED_0x40FD, 1
-    @setvar VAR_UNUSED_0x40F8, 33
+    setvar VAR_UNUSED_0x40F8, 33
 	setvar VAR_UNUSED_0x40FE, 6
 	setvar VAR_UNUSED_0x404E, 1
 	setvar VAR_ROUTE103_STATE, 0
-    setvar VAR_ROUTE105_STATE, 4
+    setvar VAR_ROUTE105_STATE, 13
     setvar VAR_ROUTE106_STATE, 4
     setvar VAR_ROUTE107_STATE, 4
     setvar VAR_ROUTE112_STATE, 0
@@ -5158,6 +5188,13 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_ROUTE_111_DESERT_FOSSIL
 	setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 	setflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+	setflag FLAG_NUEVA_840
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+	setflag FLAG_NUEVA_52
+	setflag FLAG_NUEVA_49
+	setflag FLAG_HIDE_PETALBURG_GYM_NORMAN
+	setflag FLAG_HOENN_102
+	setflag FLAG_NUEVA_841
 	
 	//esto es lo de sevii
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
@@ -5172,6 +5209,11 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 	setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+	setflag FLAG_HOENN_159
+	setflag FLAG_HOENN_163
+	setflag FLAG_HOENN_162
+	setflag FLAG_HOENN_156
+	setflag FLAG_HOENN_171
 	
 	// esto es lo de kanto
 	
@@ -5222,7 +5264,6 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 	setflag FLAG_HIDE_ROUTE_119_SCOTT
 	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT

@@ -1040,7 +1040,7 @@ const struct Item gItems[] =
     {
         .name = _("Carameloraro"),
         .itemId = ITEM_RARE_CANDY,
-        .price = 10000,
+        .price = 15000,
         .description = sRareCandyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,

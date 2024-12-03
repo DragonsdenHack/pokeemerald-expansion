@@ -912,7 +912,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_KEY_STONE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_MEGA_RING] = {gItemIcon_PowerBracer, gItemIconPalette_TwistedSpoon}, // Todo
     //[ITEM_MEGA_BRACELET] = {gItemIcon_MegaBracelet, gItemIconPalette_MegaBracelet}, // Remove
-    [ITEM_Z_POWER_RING] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
+    [ITEM_Z_POWER_RING] = {gItemIcon_PowerBand, gItemIconPalette_DarkTMHM}, // Todo
     //[ITEM_Z_RING] = {gItemIcon_ZRing, gItemIconPalette_ZRing}, // Remove
     [ITEM_DYNAMAX_BAND] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     // Misc. Key Items
