@@ -988,3 +988,14 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 
+
+Route110_Casa_Treta::
+lock
+msgbox Route110_Casa_Treta_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route110_Casa_Treta_Texto_1:
+	.string "Van a quedar todos alucinados\n"
+	.string "con mis trampas.\p"
+	.string "¡Jo, jo, jo!$"

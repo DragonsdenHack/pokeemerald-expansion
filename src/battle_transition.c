@@ -174,6 +174,7 @@ static void Task_Sachiko(u8);
 static void Task_Dracon(u8);
 static void Task_Amatista(u8);
 static void Task_Inverna(u8);
+static void Task_Rasmus(u8);
 static void Task_Aqua(u8);
 static void Task_Magma(u8);
 static void Task_Regice(u8);
@@ -504,6 +505,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_DRACON] = Task_Dracon,
     [B_TRANSITION_AMATISTA] = Task_Amatista,
     [B_TRANSITION_INVERNA] = Task_Inverna,
+    [B_TRANSITION_RASMUS] = Task_Rasmus,
     [B_TRANSITION_AQUA] = Task_Aqua,
     [B_TRANSITION_MAGMA] = Task_Magma,
 	[B_TRANSITION_ROCKET] = Task_Rocket,
@@ -775,6 +777,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_SACHIKO] = TRAINER_PIC_SACHIKO,
     [MUGSHOT_DRACON] = TRAINER_PIC_ELITE_FOUR_DRAKE,
     [MUGSHOT_AMATISTA] = TRAINER_PIC_DEVON2,
+    [MUGSHOT_RASMUS] = TRAINER_PIC_RASMUS,
     [MUGSHOT_INVERNA] = TRAINER_PIC_INVERNA,
 };
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
@@ -846,6 +849,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_DRACON] = {0x200, 0x200},
     [MUGSHOT_AMATISTA] = {0x200, 0x200},
     [MUGSHOT_INVERNA] = {0x200, 0x200},
+    [MUGSHOT_RASMUS] = {0x200, 0x200},
     [MUGSHOT_CAPITAN] = {0x200, 0x200},
 };
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
@@ -917,6 +921,7 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_DRACON] =    { -20,  0},
     [MUGSHOT_AMATISTA] =    { -20,  0},
     [MUGSHOT_INVERNA] =    { -10,  0},
+    [MUGSHOT_RASMUS] =    { -10,  0},
     [MUGSHOT_CAPITAN] =    { -8,  0},
 };
 
@@ -1317,6 +1322,7 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_DRACON] = sMugshotPal_Drake,
     [MUGSHOT_AMATISTA] = sMugshotPal_Phoebe,
     [MUGSHOT_INVERNA] = sMugshotPal_Glacia,
+    [MUGSHOT_RASMUS] = sMugshotPal_Champion,
     [MUGSHOT_CAPITAN] = sMugshotPal_Drake,
 };
 
@@ -3138,6 +3144,12 @@ static void Task_Dracon(u8 taskId)
 static void Task_Inverna(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_INVERNA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Rasmus(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_RASMUS;
     DoMugshotTransition(taskId);
 }
 

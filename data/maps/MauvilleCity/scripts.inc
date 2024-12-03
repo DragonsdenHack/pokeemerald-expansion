@@ -897,6 +897,7 @@ MauvilleCity_Devon_Malvalanova_Texto_13:
 
 MauvilleCity_Bloqueo_Gimnasio::
 lock
+faceplayer
 msgbox MauvilleCity_Bloqueo_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
 release
 end

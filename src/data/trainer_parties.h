@@ -36523,7 +36523,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     .lvl = 108,
     .species = SPECIES_DEOXYS_DEFENSE,
     .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 100, 100, 100, 100, 252},
+    .evs = {252, 50, 50, 50, 50, 252},
     .nature = NATURE_BOLD,
     .moves = {MOVE_STEALTH_ROCK, MOVE_SPIKES, MOVE_RECOVER, MOVE_SEISMIC_TOSS}
     },
@@ -36532,7 +36532,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     .lvl = 110,
     .species = SPECIES_SANDY_SHOCKS,
     .heldItem = ITEM_LIFE_ORB,
-    .evs = {100, 100, 100, 252, 252, 100},
+    .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_TIMID,
     .moves = {MOVE_VOLT_SWITCH, MOVE_EARTH_POWER, MOVE_THUNDERBOLT, MOVE_FLASH_CANNON}
     },
@@ -36540,17 +36540,17 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     .iv = 255,
     .lvl = 109,
     .species = SPECIES_DURALUDON,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .evs = {100, 100, 100, 252, 252, 100},
+    .heldItem = ITEM_STEELIUM_Z,
+    .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_NONE}
+    .moves = {MOVE_FLASH_CANNON, MOVE_FLASH_CANNON, MOVE_FLASH_CANNON, MOVE_FLASH_CANNON}
     },
     {
     .iv = 255,
     .lvl = 110,
     .species = SPECIES_REGIELEKI,
     .heldItem = ITEM_LIFE_ORB,
-    .evs = {100, 100, 100, 252, 252, 100},
+    .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_TIMID,
     .moves = {MOVE_THUNDERBOLT, MOVE_VOLT_SWITCH, MOVE_ANCIENT_POWER, MOVE_HYPER_BEAM}
     },
@@ -36559,7 +36559,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     .lvl = 111,
     .species = SPECIES_XURKITREE,
     .heldItem = ITEM_CHOICE_SCARF,
-    .evs = {100, 100, 100, 252, 252, 100},
+    .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_TIMID,
     .moves = {MOVE_THUNDERBOLT, MOVE_THUNDERBOLT, MOVE_THUNDERBOLT, MOVE_THUNDERBOLT}
     },

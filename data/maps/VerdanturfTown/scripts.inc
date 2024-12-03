@@ -169,13 +169,17 @@ waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_7 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_1
 playse SE_SLIDING_DOOR
-opendoor 12, 6
+opendoor 17, 6
 waitdooranim
 addobject 8
 applymovement 8, VerdanturfTown_Move_9
 waitmovement 0x0
-closedoor 12, 6
+closedoor 17, 6
 waitdooranim
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_5
+waitmovement 0x0
+waitse
 applymovement 6, VerdanturfTown_Move_3
 waitmovement 0x0
 msgbox VerdanturfTown_Escena_Tristana_Texto_8 MSGBOX_AUTOCLOSE
@@ -243,23 +247,23 @@ applymovement 6, VerdanturfTown_Move_21
 applymovement 7, VerdanturfTown_Move_20
 waitmovement 0x0
 playse SE_DOOR
-opendoor 11, 13
+opendoor 16, 13
 waitdooranim
 applymovement 7, VerdanturfTown_Move_22
 waitmovement 0x0
 removeobject 7
-closedoor 11, 13
+closedoor 16, 13
 waitdooranim
 msgbox VerdanturfTown_Escena_Tristana_Texto_27 MSGBOX_AUTOCLOSE
 applymovement 6, VerdanturfTown_Move_23
 waitmovement 0x0
 playse SE_DOOR
-opendoor 11, 13
+opendoor 16, 13
 waitdooranim
 applymovement 6, VerdanturfTown_Move_22
 waitmovement 0x0
 removeobject 6
-closedoor 11, 13
+closedoor 16, 13
 waitdooranim
 applymovement 8, VerdanturfTown_Move_24
 waitmovement 0x0
