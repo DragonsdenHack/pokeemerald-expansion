@@ -697,6 +697,33 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "BaseRocketHoenn_Salida_Base"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 33,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo_Lado"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 34,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 34,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo"
     }
   ],
   "bg_events": [

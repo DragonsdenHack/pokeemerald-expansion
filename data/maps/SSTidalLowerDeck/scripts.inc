@@ -222,7 +222,7 @@ step_end
 
 
 SSTidalLowerDeck_Combates_Texto_1:
-	.string "ARIANA: Ha sido un éxito {PLAYER}.\n"
+	.string "ARIANA: Ha sido un éxito, {PLAYER}.\n"
 	.string "Ahora solo tenemos que escondernos\l"
 	.string "aquí y esperar.$"
 

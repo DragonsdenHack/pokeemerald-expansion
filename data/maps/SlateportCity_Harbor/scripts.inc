@@ -575,6 +575,7 @@ delay 15
 applymovement OBJ_EVENT_ID_PLAYER, Harbor_Check_Move_3
 waitmovement 0x0
 warp MAP_SS_TIDAL_CORRIDOR, 1, 11
+delay 100
 release
 end
 

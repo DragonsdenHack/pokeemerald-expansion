@@ -2536,3 +2536,44 @@ BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:
 	.string "disponible para lo que me necesite SIR.$"
 
 
+BaseRocketHoenn_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_1
+waitmovement 0x0
+msgbox BaseRocketHoenn_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketHoenn_Bloqueo_Move_1:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Bloqueo_Move_2:
+walk_down
+step_end
+
+BaseRocketHoenn_Bloqueo_Lado::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_1.1
+waitmovement 0x0
+msgbox BaseRocketHoenn_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketHoenn_Bloqueo_Move_1.1:
+walk_in_place_left
+step_end
+
+BaseRocketHoenn_Bloqueo_Texto_1:
+	.string "-Hay cosas más importantes que hacer\n"
+	.string "en Hoenn; debo buscar a ANDRA e ir a por\l"
+	.string "DEVON.-$"
+
+
+
+
+

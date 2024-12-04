@@ -218,6 +218,8 @@ step_end
 
 Arrecipolis_Antigua_Andra::
 lock
+clearflag FLAG_HOENN_4
+addobject 1
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_6
 waitmovement 0x0
@@ -283,13 +285,14 @@ playse SE_PIN
 delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_8 MSGBOX_AUTOCLOSE
 clearflag FLAG_HOENN_11
+clearflag FLAG_HOENN_4
+addobject 1
 addobject 8
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Arrecipolis_Antigua_Andra_Move_9
 waitmovement 0x0
 special RemoveCameraObject
-applymovement 18, Arrecipolis_Antigua_Andra_Move_10
-waitmovement 0x0
+delay 15
 msgbox Arrecipolis_Antigua_Andra_Texto_9 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_KINGDRA, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -765,7 +768,6 @@ playse SE_M_DETECT
 dofieldeffectsparkle 42, 40, 0
 waitfieldeffect FLDEFF_SPARKLE
 waitse
-applymovement 18, MossdeepCity_Jirachi_Move_10
 setvar VAR_RESULT, 4
 playse SE_ORB
 special DoOrbEffect

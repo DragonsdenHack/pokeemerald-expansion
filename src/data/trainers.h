@@ -20350,7 +20350,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("DRACÓN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_TRAINER610),
         .party = {.ItemCustomMoves = sParty_TRAINER610},
     },

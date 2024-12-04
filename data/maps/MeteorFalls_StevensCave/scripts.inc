@@ -404,7 +404,7 @@ MeteorFalls_StevensCave_Andra_Texto_16:
 	.string "TRISTANA: Un momento.$"
 
 MeteorFalls_StevensCave_Andra_Texto_17:
-	.string "ANDRA: Qué quieres.$"
+	.string "ANDRA: ¿Qué quieres? ¿Eh?$"
 
 MeteorFalls_StevensCave_Andra_Texto_18:
 	.string "TRISTANA: Es cierto que trabajo para\n"

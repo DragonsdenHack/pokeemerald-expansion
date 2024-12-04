@@ -37065,7 +37065,16 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER608[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     {
     .iv = 255,
-    .lvl = 117,
+    .lvl = 118,
+    .species = SPECIES_NECROZMA,
+    .heldItem = ITEM_PSYCHIUM_Z,
+    .evs = {252, 50, 50, 50, 252, 50},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_PRISMATIC_LASER, MOVE_COSMIC_POWER, MOVE_MOONLIGHT, MOVE_AURA_SPHERE}
+    },
+    {
+    .iv = 255,
+    .lvl = 119,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_METAGROSSITE,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -37074,7 +37083,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 116,
+    .lvl = 118,
     .species = SPECIES_RELICANTH_PRIMAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {50, 252, 50, 252, 50, 50},
@@ -37083,16 +37092,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 116,
-    .species = SPECIES_NECROZMA,
-    .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 50, 50, 50, 252, 50},
-    .nature = NATURE_BOLD,
-    .moves = {MOVE_PRISMATIC_LASER, MOVE_COSMIC_POWER, MOVE_MOONLIGHT, MOVE_AURA_SPHERE}
-    },
-    {
-    .iv = 255,
-    .lvl = 115,
+    .lvl = 117,
     .species = SPECIES_GLASTRIER,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {0, 252, 252, 0, 0, 6},
@@ -37101,7 +37101,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 117,
+    .lvl = 119,
     .species = SPECIES_GIRATINA,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 252, 0, 0, 0, 0},
@@ -37110,7 +37110,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     },
     {
     .iv = 255,
-    .lvl = 118,
+    .lvl = 120,
     .species = SPECIES_REGIGIGAS,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -37123,7 +37123,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     {
     .iv = 255,
-    .lvl = 111,
+    .lvl = 113,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -37132,7 +37132,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     },
     {
     .iv = 255,
-    .lvl = 110,
+    .lvl = 112,
     .species = SPECIES_KINGDRA,
     .heldItem = ITEM_DRAGON_SCALE,
     .evs = {50, 252, 50, 252, 50, 50},
@@ -37141,7 +37141,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     },
     {
     .iv = 255,
-    .lvl = 112,
+    .lvl = 114,
     .species = SPECIES_LATIOS,
     .heldItem = ITEM_SOUL_DEW,
     .evs = {50, 50, 50, 252, 252, 50},
@@ -37150,7 +37150,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     },
     {
     .iv = 255,
-    .lvl = 112,
+    .lvl = 114,
     .species = SPECIES_LATIAS,
     .heldItem = ITEM_SOUL_DEW,
     .evs = {252, 50, 252, 50, 50, 50},
@@ -37159,7 +37159,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     },
     {
     .iv = 255,
-    .lvl = 112,
+    .lvl = 114,
     .species = SPECIES_REGIDRAGO,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -37168,7 +37168,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     },
     {
     .iv = 255,
-    .lvl = 113,
+    .lvl = 115,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_SALAMENCITE,
     .evs = {252, 252, 50, 50, 50, 50},

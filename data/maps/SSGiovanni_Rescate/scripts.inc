@@ -615,10 +615,20 @@ step_end
 
 Slateport_Bloqueo_Barco_Post_Mision_6::
 lock
+compare VAR_UNUSED_0x40F7, 246
+goto_if_eq Slateport_Bloqueo_Barco_Post_Mision_6_Puntaneva
+compare VAR_UNUSED_0x40F7, 245
+goto_if_eq Slateport_Bloqueo_Barco_Post_Mision_6_Puntaneva
+compare VAR_UNUSED_0x40F7, 244
+goto_if_eq Slateport_Bloqueo_Barco_Post_Mision_6_Puntaneva
 compare VAR_UNUSED_0x40F8, 2
 goto_if_lt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F8, 3
 goto_if_gt Slateport_Bloqueo_Barco_Post_Mision_6_2
+release
+end
+
+Slateport_Bloqueo_Barco_Post_Mision_6_Puntaneva:
 release
 end
 

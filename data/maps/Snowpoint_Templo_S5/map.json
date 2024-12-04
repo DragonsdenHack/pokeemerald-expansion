@@ -41,7 +41,7 @@
       "flag": "FLAG_HOENN_16"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_RASMUS",
       "x": 3,
       "y": 5,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "FLAG_HOENN_685"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_RASMUS",
       "x": 6,
       "y": 3,
       "elevation": 3,
@@ -143,6 +143,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Templo_S5_Cientifico",
       "flag": "FLAG_HOENN_685"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 13,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Puntaneva_EventScript_Abomasnownita",
+      "flag": "FLAG_HOENN_218"
     }
   ],
   "warp_events": [

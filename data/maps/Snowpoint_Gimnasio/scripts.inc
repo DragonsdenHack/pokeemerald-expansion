@@ -117,7 +117,13 @@ Snowpoint_Gimnasio_Lider_Texto_10:
 Snowpoint_Gimnasio_Dude::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F8, 2
+goto_if_gt Snowpoint_Gimnasio_Dude_Despues
 msgbox Snowpoint_Gimnasio_Dude_Texto_1 MSGBOX_NPC
+release
+end
+
+Snowpoint_Gimnasio_Dude_Despues::
 msgbox Snowpoint_Gimnasio_Dude_Texto_2 MSGBOX_NPC
 release
 end

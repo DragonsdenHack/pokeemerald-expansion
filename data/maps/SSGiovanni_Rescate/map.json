@@ -134,8 +134,8 @@
   ],
   "warp_events": [
     {
-      "x": 2,
-      "y": 1,
+      "x": 3,
+      "y": 0,
       "elevation": 0,
       "dest_map": "MAP_SSGIOVANNI_RESCATE",
       "dest_warp_id": 0
