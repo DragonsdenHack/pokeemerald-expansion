@@ -259,6 +259,8 @@ NaoAbandonada_6_Primal_Kyogre_Texto_3:
 	.string "ADMIN de DEVON nos encargamos de\l"
 	.string "estudiarlos meticulosamente.$"
 
+NaoAbandonada_6_Primal_Kyogre_Texto_3.1:
+
 NaoAbandonada_6_Primal_Kyogre_Texto_4:
 	.string "Después, gracias a sus conocimientos,\n"
 	.string "contamos con clones de cada uno de\l"
@@ -446,9 +448,13 @@ waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_15 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_16 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 1, NaoAbandonada_7_Move_13
 waitmovement 0x0
+waitse
+delay 10
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_TRAINER_606, NaoAbandonada_7_Encuentro_Zafiro_Texto_18
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_19 MSGBOX_AUTOCLOSE
 delay 15
@@ -487,11 +493,10 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_1:
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_2:
 	.string "Ignoro cómo has llegado hasta aquí,\n"
-	.string "pero ese objeto que hay en la mesa nos\l"
-	.string "pertenece. No he venido hasta aquí\l"
-	.string "para que alguien que siquiera sabe lo\l"
-	.string "que es me lo arrebate en el último\l"
-	.string "momento.$"
+	.string "pero ese objeto nos pertenece.\l"
+	.string "No he venido hasta aquí para que\l"
+	.string "alguien que ni siquiera sabe lo que es\l"
+	.string "me lo arrebate en el último momento.$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_3:
 	.string "Así que sientes curiosidad.$"

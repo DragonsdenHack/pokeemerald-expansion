@@ -1076,9 +1076,9 @@ static const u8 sProtectorDesc[] = _(
    	"RHYPERIOR.");
 
 static const u8 sElectirizerDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's full\n"
-    "of electric energy.");
+    "Fortalece en un 30%\n"
+   	"ATAQUE y DEF.ESP de\n"
+   	"ELECTIVIRE.");
 
 static const u8 sMagmarizerDesc[] = _(
     "Fortalece en un 30%\n"

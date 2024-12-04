@@ -428,7 +428,7 @@ Aqua3_Combate_Aquiles_Texto_11:
 Aqua3_Combate_Aquiles_Texto_12:
 .string "AQUILES: ¿Las manos adecuadas?\n"
 	.string "¿No te referirás a las tuyas?\l"
-	.string "¡No me hagas reir!\l"
+	.string "¡No me hagas reír!\l"
 	.string "¡Sabes lo mismo sobre KYOGRE que\l"
 	.string "yo sobre los POKÉMON terrestres!$"
 

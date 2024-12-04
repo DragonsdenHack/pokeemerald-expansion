@@ -306,7 +306,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_10:
 Goldenrod_RadioTower_P4_Reunion_Texto_11:
 .string "PRESIDENTE: ¡Jah!\n"
 	.string "Seguro que es por puro interés\l"
-	.string "académico, no me hagas reir, ATLAS.\l"
+	.string "académico, no me hagas reír, ATLAS.\l"
 	.string "A cambio obtendréis\l"
 	.string "información acerca de los límites\l"
 	.string "a los que puede llegar un POKÉMON\l"

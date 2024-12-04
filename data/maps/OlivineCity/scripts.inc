@@ -88,7 +88,7 @@ OlivineCity_Text_6:
 .string "CIUDAD OLIVO no puede compararse a\l"
 .string "ninguna otra ciudad costera.\l"
 .string "¿CIUDAD CARMÍN?\l"
-.string "¡No me hagas reir!$"
+.string "¡No me hagas reír!$"
 
 
 

@@ -320,7 +320,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_12:
 	.string "POKÉMON de est{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_13:
-.string "????: No me haga reir, no sois más\n"
+.string "????: No me haga reír, no sois más\n"
 	.string "que polvo, vosotros y vuestros\l"
 	.string "POKÉMON.$"
 

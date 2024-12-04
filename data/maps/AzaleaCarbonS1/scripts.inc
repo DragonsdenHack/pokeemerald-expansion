@@ -344,7 +344,7 @@ AzaleaCarbonS1_Segundo_Combate_Texto_6:
 	.string "mercado!$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_7:
-.string "¿Cómo dices? No me hagas reir, hoy en\n"
+.string "¿Cómo dices? No me hagas reír, hoy en\n"
 	.string "día nadie se toma la molestia de\l"
 	.string "entrenar por cuenta propia a su equipo,\l"
 	.string "es ineficiente y aburrido.$"

@@ -211,7 +211,7 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
 .string "¿Ganarme tú a mi?\n"
-	.string "¡No me hagas reir!\l"
+	.string "¡No me hagas reír!\l"
 	.string "¿No conoces la reputación de los\l"
 	.string "ENTRENADORES GUAYS?\l"
 	.string "¡Somos los más sofisticados de\l"

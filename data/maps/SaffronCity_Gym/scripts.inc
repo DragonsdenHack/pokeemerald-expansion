@@ -468,7 +468,7 @@ Pewter_City_Gym_Guy_Texto_1:
 	.string "COMITÉ de la LIGA para que\l"
 	.string "prohiban ese espantoso uniforme\l"
 	.string "que llevas, esta maldita moda de\l"
-	.string "reirse del TEAM ROCKET por su\l"
+	.string "reírse del TEAM ROCKET por su\l"
 	.string "fracaso en SILPH debe de terminar.$"
 
 Pewter_City_Gym_Guy_Texto_2:

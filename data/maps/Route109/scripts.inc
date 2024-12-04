@@ -631,7 +631,7 @@ Route109_Nina_Texto_2:
 	.string "¿Tú ganarle a mi padre?$"
 
 Route109_Nina_Texto_3:
-	.string "¡Jajajaja! Escuchame.$"
+	.string "¡Jajajaja! Escúchame.$"
 
 Route109_Nina_Texto_4:
 	.string "Ya seas pobre o rico, vistas de traje o\n"

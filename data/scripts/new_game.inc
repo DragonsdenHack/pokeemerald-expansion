@@ -4631,6 +4631,7 @@ EventScript_SetJohto::
 	additem ITEM_HM05
 	additem ITEM_HM06
 	additem ITEM_HM07
+	additem ITEM_COIN_CASE
 	additem ITEM_DOWSING_MACHINE
 	additem ITEM_MACH_BIKE
 	additem ITEM_LIFT_KEY
@@ -5071,6 +5072,7 @@ EventScript_SetJohto::
 	additem ITEM_HM05
 	additem ITEM_HM06
 	additem ITEM_HM07
+	additem ITEM_COIN_CASE
 	additem ITEM_DOWSING_MACHINE
 	additem ITEM_MACH_BIKE
 	additem ITEM_LIFT_KEY

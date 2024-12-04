@@ -429,7 +429,7 @@ Route109_SeashoreHouse_Padre_Texto_11:
 	.string "¡Bua, bua!$"
 
 Route109_SeashoreHouse_Padre_Texto_12:
-	.string "¡Buaahh! ¡Ahora todos se van a reir de\n"
+	.string "¡Buaahh! ¡Ahora todos se van a reír de\n"
 	.string "mí en el cole!$"
 
 Route109_SeashoreHouse_Padre_Texto_13:

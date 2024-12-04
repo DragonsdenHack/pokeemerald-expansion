@@ -43,7 +43,7 @@ end
 Ecruteak_TinTowerp8_Text_4:
 .string "El único problema del que ríe el\n"
 .string "último es que el ganador tiene que\l"
-.string "reir solo.$"
+.string "reír solo.$"
 
 
 

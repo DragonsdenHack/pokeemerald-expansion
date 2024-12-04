@@ -1339,3 +1339,22 @@ Hoenn_Caramelos_P2_Mercado_3_Pokemart:
 	release
 	end
 
+
+Hoenn_Portual_Mercado_3_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Hoenn_Portual_P2_Mercado_3_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Hoenn_Portual_P2_Mercado_3_Pokemart:
+	.2byte ITEM_TM127
+	.2byte ITEM_TM135
+	.2byte DECOR_NONE
+	release
+	end
+
