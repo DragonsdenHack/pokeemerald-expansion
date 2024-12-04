@@ -260,6 +260,8 @@
 #define TRAINER_PIC_GUARDIA 240
 #define TRAINER_PIC_TRISTANA 241
 #define TRAINER_PIC_RASMUS 242
+#define TRAINER_PIC_ARIANA 243
+#define TRAINER_PIC_MAROWAK 244
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

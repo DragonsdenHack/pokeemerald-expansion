@@ -883,7 +883,10 @@ $(MID_SUBDIR)/mus_tower.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V050
 
 $(MID_SUBDIR)/mus_abnormal_weather2.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080		
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_zinnia.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080		
 	
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4

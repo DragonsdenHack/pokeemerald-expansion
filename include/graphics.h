@@ -8091,7 +8091,8 @@ extern const u32 gTrainerFrontPic_Sachiko[];
 extern const u32 gTrainerFrontPic_Tristana[];
 extern const u32 gTrainerFrontPic_Guardia[];
 extern const u32 gTrainerFrontPic_Rasmus[];
-
+extern const u32 gTrainerFrontPic_Ariana[];
+extern const u32 gTrainerFrontPic_Marowak[];
 extern const u32 gTrainerFrontPic_Valeria[];
 extern const u32 gTrainerFrontPic_Zapdos[];
 extern const u32 gTrainerFrontPic_Zeus[];
@@ -8338,6 +8339,8 @@ extern const u32 gTrainerPalette_Sachiko[];
 extern const u32 gTrainerPalette_Tristana[];
 extern const u32 gTrainerPalette_Guardia[];
 extern const u32 gTrainerPalette_Rasmus[];
+extern const u32 gTrainerPalette_Ariana[];
+extern const u32 gTrainerPalette_Marowak[];
 
 extern const u8 gTrainerBackPic_Brendan[];
 extern const u8 gTrainerBackPic_May[];

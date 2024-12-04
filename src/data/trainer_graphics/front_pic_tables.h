@@ -243,6 +243,8 @@ const struct MonCoords gTrainerFrontPicCoords[] =
 	[TRAINER_PIC_TRISTANA] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_GUARDIA] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_RASMUS] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ARIANA] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_MAROWAK] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -492,6 +494,8 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
 	TRAINER_SPRITE(TRISTANA, gTrainerFrontPic_Tristana, 0x800),
 	TRAINER_SPRITE(GUARDIA, gTrainerFrontPic_Guardia, 0x800),
 	TRAINER_SPRITE(RASMUS, gTrainerFrontPic_Rasmus, 0x800),
+	TRAINER_SPRITE(ARIANA, gTrainerFrontPic_Ariana, 0x800),
+	TRAINER_SPRITE(MAROWAK, gTrainerFrontPic_Marowak, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -741,4 +745,6 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(TRISTANA, gTrainerPalette_Tristana),
 	TRAINER_PAL(GUARDIA, gTrainerPalette_Guardia),
 	TRAINER_PAL(RASMUS, gTrainerPalette_Rasmus),
+	TRAINER_PAL(ARIANA, gTrainerPalette_Ariana),
+	TRAINER_PAL(MAROWAK, gTrainerPalette_Marowak),
 };
