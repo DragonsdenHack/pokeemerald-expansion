@@ -36987,10 +36987,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
     .iv = 255,
     .lvl = 114,
     .species = SPECIES_REGISTEEL,
-    .heldItem = ITEM_CHOICE_SPECS,
-    .evs = {6, 0, 128, 0, 252, 128},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .heldItem = ITEM_STEELIUM_Z,
+    .evs = {50, 252, 128, 50, 50, 128},
+    .nature = NATURE_IMPISH,
+    .moves = {MOVE_METEOR_MASH, MOVE_METEOR_MASH, MOVE_METEOR_MASH, MOVE_METEOR_MASH}
     },
     {
     .iv = 255,

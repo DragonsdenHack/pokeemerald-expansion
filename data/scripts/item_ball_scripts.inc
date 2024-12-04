@@ -499,7 +499,7 @@ MtPyre_5F_EventScript_ItemLaxIncense::
 	end
 
 MtPyre_6F_EventScript_ItemTM30::
-	finditem ITEM_SABLENITE
+	finditem ITEM_BANETTITE
 	end
 
 MtPyre_Exterior_EventScript_ItemMaxPotion::
