@@ -2516,12 +2516,12 @@ const struct Item gItems[] =
     [ITEM_GALARICA_CUFF] = // Todo
     {
         .name = _("Piedra Devon"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .itemId = ITEM_GALARICA_CUFF,
+        .price = 50000,
+        .description = sDawnStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_GALARICA_WREATH] = // Todo

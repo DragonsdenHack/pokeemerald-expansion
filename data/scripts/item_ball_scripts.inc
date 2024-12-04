@@ -3112,4 +3112,8 @@ Ruta_51_EventScript_Escama::
 finditem ITEM_PRISM_SCALE
    end
 
+Mar_Hoenn_EventScript_MT167::
+finditem ITEM_TM167_FLIP_TURN
+    end
+
 

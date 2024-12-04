@@ -494,23 +494,23 @@ Route119_Rasmus_Texto_12:
 Route119_EventScript_ReceiveSwablu::
     lock
     faceplayer
-	checkmoncatch SPECIES_CASTFORM
-	goto_if_eq VAR_RESULT, FALSE, Route119_Swablu_EventScript_TakeNosepass 
-	msgbox Route119_Swablu_Text_1, MSGBOX_DEFAULT
-	release
-	end
-
-Route119_Swablu_EventScript_TakeNosepass::
-lock
-faceplayer
-    msgbox Route119_Swablu_Text_TakeNosepass MSGBOX_DEFAULT
+	goto_if_set FLAG_HOENN_297, Route119_EventScript_Castform_Dado
+	msgbox Route119_Swablu_Text_TakeNosepass MSGBOX_DEFAULT
 	msgbox Route119_Swablu_Text_TakeNosepass2 MSGBOX_DEFAULT
     playfanfare MUS_OBTAIN_TMHM
 	msgbox Route119_Swablu_Text_MensajeNosepass, MSGBOX_DEFAULT
+	setflag FLAG_HOENN_297
 	givemon SPECIES_CASTFORM, 50, ITEM_NONE
 	waitfanfare  
 	release
 	end 
+	release
+	end
+
+Route119_EventScript_Castform_Dado::
+msgbox Route119_Swablu_Text_1, MSGBOX_DEFAULT
+release
+end
 
 Route119_Swablu_Text_TakeNosepass:
 	.string	"He investigado la lluvia durante años,\n"

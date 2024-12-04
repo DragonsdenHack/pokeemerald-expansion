@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route119_Swablu_EventScript_TakeNosepass",
+      "script": "Route119_EventScript_ReceiveSwablu",
       "flag": "FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS"
     },
     {
@@ -131,7 +131,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 5,
+      "x": 4,
       "y": 6,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",
@@ -140,7 +140,7 @@
     },
     {
       "type": "trigger",
-      "x": 5,
+      "x": 4,
       "y": 7,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F8",

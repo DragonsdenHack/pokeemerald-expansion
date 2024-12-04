@@ -553,6 +553,7 @@ const u8 *const gItemEffectTable[] =
     [ITEM_FIRE_STONE - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_TART_APPLE - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_CRACKED_POT - ITEM_POTION]     = gItemEffect_EvoStone,
+    [ITEM_GALARICA_CUFF - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_CHIPPED_POT - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_THUNDER_STONE - ITEM_POTION]  = gItemEffect_EvoStone,
     [ITEM_KEY_TO_ROOM_6 - ITEM_POTION]  = gItemEffect_EvoStone,
