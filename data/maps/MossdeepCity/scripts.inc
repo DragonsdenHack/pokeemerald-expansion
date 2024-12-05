@@ -1109,7 +1109,7 @@ MossdeepCity_Devon_Tristana_Despues_Texto_13:
 
 MossdeepCity_Devon_Tristana_Despues_Texto_14:
 	.string "ANDRA: ¿Trono, cima? Deja de decir\n"
-	.string "estupideces. En un combate , los\l"
+	.string "estupideces. En un combate, los\l"
 	.string "números nunca son redondos.$"
 
 MossdeepCity_Devon_Tristana_Despues_Texto_15:
