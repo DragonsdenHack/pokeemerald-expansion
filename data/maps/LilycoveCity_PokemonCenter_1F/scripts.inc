@@ -63,5 +63,5 @@ LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
 	.string	"Esos desgraciados que andan robando\n"
 	.string	"POKéMON y METEORITOS…\p"
-	.string	"hace tiempo que no pasan por aquí.$"
+	.string	"Hace tiempo que no pasan por aquí.$"
 

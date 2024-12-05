@@ -520,10 +520,10 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Perhaps it will be useful in some way.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
-	.string "The BLUE ORB and RED ORB taken by\n"
-	.string "those sinister men…\p"
-	.string "They must never be apart…\n"
-	.string "I fear something terrible will happen…{PAUSE 5}$"
+	.string "La ESFERA AZUL y la ESFERA ROJA…\n"
+	.string "Deben permanecer unidas…\l"
+	.string "Después de tiempo, volvieron aquí…$"
+
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
@@ -588,8 +588,8 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string	"hasta desaparecer…$"
 
 MtPyre_Summit_Text_WellThatTooIsFine:
-	.string "I see…\n"
-	.string "Well, that, too, is fine…{PAUSE 5}$"
+	.string "Ah…\n"
+	.string "Bueno, pues vale…$"
 
 MtPyre_Summit_Text_MaxieSilence:
 	.string "MAXIE: {PLAYER}…\p"
@@ -648,6 +648,7 @@ step_end
 
 MtPyre_Summit_Andra_Izquierda::
 lock
+addobject 6
 applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
 msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
@@ -657,6 +658,7 @@ goto MtPyre_Summit_Andra
 
 MtPyre_Summit_Andra_Derecha::
 lock
+addobject 6
 applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
 msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
@@ -666,6 +668,7 @@ goto MtPyre_Summit_Andra
 
 MtPyre_Summit_Andra_Centro::
 lock
+addobject 6
 applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Andra_Izquierda_move_0
 msgbox MtPyre_Summit_Andra_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN

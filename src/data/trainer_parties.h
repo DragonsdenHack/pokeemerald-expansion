@@ -38640,7 +38640,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER668[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER669[] = {
     {
     .iv = 255,
-    .lvl = 125,
+    .lvl = 124,
     .species = SPECIES_KYOGRE,
     .heldItem = ITEM_BLUE_ORB,
     .evs = {252, 252, 252, 252, 252, 252},
