@@ -977,6 +977,7 @@ msgbox MossdeepCity_Devon_Tristana_Despues_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 19, MossdeepCity_Devon_Tristana_Move_15
 waitmovement 0x0
 msgbox MossdeepCity_Devon_Tristana_Despues_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_678
 setflag FLAG_HOENN_682
 setflag FLAG_HOENN_679
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER

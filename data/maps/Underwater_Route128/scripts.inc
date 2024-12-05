@@ -2,10 +2,8 @@ Underwater_Route128_MapScripts::
 	.byte 0
 
 Underwater_Route128_Barrera::
-compare VAR_UNUSED_0x40F8, 10
-goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F8, 50
-goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_3.1
+goto_if_lt LavenderTown_Barrera_Mision_Kangaskhan_3.1
 applymovement OBJ_EVENT_ID_PLAYER, Underwater_Route128_Barrera_Move_1
 waitmovement 0x0
 msgbox Underwater_Route128_Barrera_Texto_1 MSGBOX_AUTOCLOSE
@@ -23,7 +21,7 @@ release
 end
 
 Underwater_Route128_Barrera_Texto_1.1:
-	.string "Esta caverna lleva a ARRECIPOLIA.\n"
+	.string "Esta caverna lleva a ARRECIPOLIS.\n"
 	.string "Por ahora, no hay nada que hacer ahí.$"
 
 Underwater_Route128_Barrera_Move_1:

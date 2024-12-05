@@ -124,6 +124,7 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Verdantur_Museo_S1_move_18
 waitmovement 0x0
 delay 15
+setflag FLAG_HOENN_652
 setflag FLAG_HOENN_687
 removeobject 6
 removeobject 5

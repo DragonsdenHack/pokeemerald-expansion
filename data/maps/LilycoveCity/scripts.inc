@@ -777,3 +777,23 @@ LilycoveCity_Bloqueo_Aqua_Texto_1:
 	.string	"¡Jua, jua, jua! ¿Pero tú quién te\n"
 	.string	"crees que eres renacuajo?$"
 
+
+LilycoveCity_Primer_Artista::
+lock
+msgbox LilycoveCity_Primer_Artista_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+LilycoveCity_Primer_Artista_Texto_1:
+	.string "La calidad se recuerda mucho después\n"
+	.string "de que el precio se olvide.$"
+
+LilycoveCity_Segundo_Artista::
+lock
+msgbox LilycoveCity_Segundo_Artista_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+LilycoveCity_Segundo_Artista_Texto_1:
+	.string "¿Has visitado el MUSEO PORTUAL? Hay\n"
+	.string "pocas obras, pero de gran calidad.$"

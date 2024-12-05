@@ -174,3 +174,26 @@ PacifidlogTown_Andra_Texto_6:
 	.string "que se equivoca. Espero que tu equipo\l"
 	.string "esté preparado.$"
 
+
+PacifidlogTown_Barrera_Centro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Centro_Move_1
+waitmovement 0x0
+msgbox PacifidlogTown_Barrera_Texto_1.1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PacifidlogTown_Barrera_Centro_Move_2
+waitmovement 0x0
+release
+end
+
+PacifidlogTown_Barrera_Centro_Move_1:
+walk_in_place_up
+step_end
+
+PacifidlogTown_Barrera_Centro_Move_2:
+walk_down
+step_end
+
+PacifidlogTown_Barrera_Texto_1.1:
+	.string "Debería hablar antes\n"
+	.string "con ANDRA.$"
+

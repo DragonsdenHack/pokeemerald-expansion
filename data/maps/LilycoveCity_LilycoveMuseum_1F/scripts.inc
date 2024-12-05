@@ -431,8 +431,10 @@ msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 2, LilycoveMuseum_1F_Secundaria_Move_16
 waitmovement 0x0
 playse SE_EXIT
+setflag FLAG_HOENN_652
 setflag FLAG_HOENN_88
 setflag FLAG_HOENN_651
+removeobject 11
 removeobject 8
 removeobject 2
 setvar VAR_ROUTE117_STATE, 9
