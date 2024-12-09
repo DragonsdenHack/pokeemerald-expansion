@@ -36,3 +36,22 @@ Underwater_Route128_Barrera_Texto_1:
 	.string "He quedado con ANDRA en CIUDAD ALGARIA,\n"
 	.string "debería ir allí antes de explorar.$"
 
+
+Underwater_Andra_Calagua_Despues::
+compare VAR_UNUSED_0x40F8, 10
+goto_if_gt Underwater_Andra_Calagua_Despues_2
+applymovement OBJ_EVENT_ID_PLAYER, Underwater_Route128_Barrera_Move_1
+waitmovement 0x0
+msgbox Underwater_Route128_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Underwater_Route128_Barrera_Move_2
+waitmovement 0x0
+release
+end
+release
+end
+
+
+Underwater_Andra_Calagua_Despues_2::
+release
+end
+

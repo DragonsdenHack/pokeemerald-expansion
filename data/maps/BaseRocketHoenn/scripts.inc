@@ -2570,8 +2570,32 @@ step_end
 
 BaseRocketHoenn_Bloqueo_Texto_1:
 	.string "-Hay cosas más importantes que hacer\n"
-	.string "en Hoenn; debo buscar a ANDRA e ir a por\l"
+	.string "en HOENN; debo buscar a ANDRA e ir a por\l"
 	.string "DEVON.-$"
+
+
+BaseRocketJohto_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Move_1:
+walk_in_place_down
+step_end
+
+BaseRocketJohto_Bloqueo_Move_2:
+walk_up
+step_end
+
+BaseRocketJohto_Bloqueo_Texto_1:
+.string "-No es un buen momento para ir a JOHTO.-$"
+
+
 
 
 

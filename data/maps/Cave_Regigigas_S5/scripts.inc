@@ -434,9 +434,10 @@ Cave_Regigigas_S5_Andra_Despues_Texto_8:
 	.string "esas ruinas eran:$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_9:
-	.string "2 {DOWN_ARROW}, 2 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 2 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 2 {DOWN_ARROW}, 2 {LEFT_ARROW}, 3 {DOWN_ARROW}, 1\n"
-	.string "{LEFT_ARROW}, 1 {DOWN_ARROW}, 1 {LEFT_ARROW}, 2 {DOWN_ARROW}, 2 {LEFT_ARROW}, 1 {DOWN_ARROW}, 1 {LEFT_ARROW}, 1 {DOWN_ARROW}, 3 {LEFT_ARROW}, 1 {DOWN_ARROW},\l"
-	.string "1 {LEFT_ARROW}, 7 {DOWN_ARROW}, 2 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 2 {RIGHT_ARROW}, 2 {UP_ARROW}.$"
+	.string "2 {DOWN_ARROW}, 2 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 2 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 2 {DOWN_ARROW},\n"
+	.string "2 {LEFT_ARROW}, 3 {DOWN_ARROW}, 1 {LEFT_ARROW}, 1 {DOWN_ARROW}, 1 {LEFT_ARROW}, 2 {DOWN_ARROW}, 2 {LEFT_ARROW},\l"
+	.string "1 {DOWN_ARROW}, 1 {LEFT_ARROW}, 1 {DOWN_ARROW}, 3 {LEFT_ARROW}, 1 {DOWN_ARROW}, 1 {LEFT_ARROW}, 7 {DOWN_ARROW},\l"
+	.string "2 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 1 {RIGHT_ARROW}, 1 {DOWN_ARROW}, 2 {RIGHT_ARROW}, 2 {UP_ARROW}.$"
 
 Cave_Regigigas_S5_Andra_Despues_Texto_10:
 	.string "Las dejaré aquí grabadas.$"

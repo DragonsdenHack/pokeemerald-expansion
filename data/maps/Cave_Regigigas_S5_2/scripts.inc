@@ -147,9 +147,19 @@ delay 10
 applymovement 1, Cave_Regigigas_S5_2_Move_15
 waitmovement 0x0
 delay 10
+setflag FLAG_HOENN_1
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_16 MSGBOX_AUTOCLOSE
 choose_mons
 multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 6
+switch VAR_RESULT
+case 1, Cave_Regigigas_S5_2_Esmeralda_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S5_2_Esmeralda_Ganado::
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_19 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_20 MSGBOX_AUTOCLOSE

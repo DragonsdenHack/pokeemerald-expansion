@@ -38844,21 +38844,21 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER675[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER676[] = {
     {
     .iv = 255,
-    .lvl = 122,
-    .species = SPECIES_SCEPTILE,
-    .heldItem = ITEM_SCEPTILITE,
-    .evs = {80, 80, 80, 252, 252, 80},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_DRAGON_PULSE, MOVE_LEAF_STORM, MOVE_FOCUS_BLAST, MOVE_NONE}
-    },
-    {
-    .iv = 255,
     .lvl = 123,
     .species = SPECIES_CRADILY_Y,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 80, 80, 80, 80, 252},
     .nature = NATURE_CAREFUL,
     .moves = {MOVE_CURSE, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_RECOVER}
+    },
+    {
+    .iv = 255,
+    .lvl = 122,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_SCEPTILITE,
+    .evs = {80, 80, 80, 252, 252, 80},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_LEAF_STORM, MOVE_FOCUS_BLAST, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -38880,7 +38880,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER677[] = {
     .heldItem = ITEM_FLYINIUM_Z,
     .evs = {80, 252, 80, 252, 80, 80},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_FLY, MOVE_ROCK_SLIDE, MOVE_AQUA_TAIL, MOVE_DRAGON_CLAW}
+    .moves = {MOVE_FLY, MOVE_FLY, MOVE_FLY, MOVE_FLY}
     },
     {
     .iv = 255,
@@ -39390,21 +39390,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER694[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER695[] = {
     {
     .iv = 255,
+    .lvl = 122,
+    .species = SPECIES_RELICANTH_PRIMAL,
+    .heldItem = ITEM_ROCKIUM_Z,
+    .evs = {252, 252, 80, 80, 80, 80},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_EARTHQUAKE, MOVE_HEAD_SMASH, MOVE_WATERFALL, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 255,
     .lvl = 121,
     .species = SPECIES_SWAMPERT,
     .heldItem = ITEM_SWAMPERTITE,
     .evs = {252, 252, 80, 80, 80, 80},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK, MOVE_ICE_PUNCH}
-    },
-    {
-    .iv = 255,
-    .lvl = 122,
-    .species = SPECIES_RELICANTH_PRIMAL,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {252, 252, 80, 80, 80, 80},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_EARTHQUAKE, MOVE_HEAD_SMASH, MOVE_WATERFALL, MOVE_AQUA_JET}
     },
     {
     .iv = 255,
@@ -39431,8 +39431,8 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER696[] = {
     {
     .iv = 255,
     .lvl = 125,
-    .species = SPECIES_HERACROSS,
-    .heldItem = ITEM_HERACRONITE,
+    .species = SPECIES_HERACROSS_MEGA,
+    .heldItem = ITEM_FOCUS_SASH,
     .evs = {252, 252, 100, 100, 100, 100},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}
@@ -39454,7 +39454,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER697[] = {
     .iv = 255,
     .lvl = 125,
     .species = SPECIES_URSALUNA,
-    .heldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GROUNDIUM_Z,
     .evs = {252, 252, 100, 100, 100, 100},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_FISSURE, MOVE_BODY_SLAM, MOVE_CLOSE_COMBAT, MOVE_NONE}
@@ -39462,8 +39462,8 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER697[] = {
     {
     .iv = 255,
     .lvl = 126,
-    .species = SPECIES_HERACROSS,
-    .heldItem = ITEM_HERACRONITE,
+    .species = SPECIES_HERACROSS_MEGA,
+    .heldItem = ITEM_FOCUS_SASH,
     .evs = {252, 252, 100, 100, 100, 100},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}
@@ -39515,8 +39515,8 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER699[] = {
     {
     .iv = 255,
     .lvl = 126,
-    .species = SPECIES_HERACROSS,
-    .heldItem = ITEM_HERACRONITE,
+    .species = SPECIES_HERACROSS_MEGA,
+    .heldItem = ITEM_FOCUS_SASH,
     .evs = {252, 252, 100, 100, 100, 100},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}

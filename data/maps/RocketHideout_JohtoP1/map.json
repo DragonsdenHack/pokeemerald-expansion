@@ -534,8 +534,8 @@
       "x": 28,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_SOUTH_ROUTE45",
-      "dest_warp_id": 2
+      "dest_map": "MAP_ROCKET_HIDEOUT_JOHTO",
+      "dest_warp_id": 3
     },
     {
       "x": 43,

@@ -282,9 +282,19 @@ applymovement OBJ_EVENT_ID_PLAYER, Cave_Regigigas_S7_Doctor_Move_13
 applymovement 2, Cave_Regigigas_S7_Doctor_Move_3
 applymovement 1, Cave_Regigigas_S7_Doctor_Move_5
 waitmovement 0x0
+setflag FLAG_HOENN_1
 msgbox Cave_Regigigas_S7_Doctor_Texto_39 MSGBOX_AUTOCLOSE
 choose_mons
 multi_2_vs_2 1535, Cave_Regigigas_S7_Doctor_Texto_40, 1556, Cave_Regigigas_S7_Doctor_Texto_41, 1555, 6
+switch VAR_RESULT
+case 1, Cave_Regigigas_S7_Doctor_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S7_Doctor_Ganado::
 applymovement 1, Cave_Regigigas_S7_Doctor_Move_19
 waitmovement 0x0
 msgbox Cave_Regigigas_S7_Doctor_Texto_42 MSGBOX_AUTOCLOSE

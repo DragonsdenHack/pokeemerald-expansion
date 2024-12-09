@@ -683,6 +683,7 @@ setflag FLAG_HOENN_67
 clearflag FLAG_HOENN_677
 removeobject 5
 removeobject 3
+setvar VAR_UNUSED_0x40F7, 25
 setvar VAR_UNUSED_0x40F8, 23
 release
 end

@@ -526,14 +526,15 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_DOME_ACE, 100},
     {TRAINER_CLASS_FACTORY_HEAD, 100},
     {TRAINER_CLASS_PYRAMID_KING, 100},
-    {TRAINER_CLASS_AMATISTA, 150},
-    {TRAINER_CLASS_SALON_MAIDEN, 200},
+    {TRAINER_CLASS_AMATISTA, 125},
+    {TRAINER_CLASS_SALON_MAIDEN, 125},
     {TRAINER_CLASS_ANDRA_ALTORANGO, 18},
     {TRAINER_CLASS_ANDRA_EJECUTIVA, 27},
     {TRAINER_CLASS_ANDRA_ADMIN, 45},
     {TRAINER_CLASS_ANDRA_ADMINJEFE, 54},
     {TRAINER_CLASS_EXPERIMENTO_2, 0},
     {TRAINER_CLASS_GUARDIA, 0},
+    {TRAINER_CLASS_TRISTANA, 50},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 
@@ -5106,6 +5107,9 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_JONES:
             PlayBGM(628);
+            break;
+        case TRAINER_CLASS_TRISTANA:
+            PlayBGM(641);
             break;
         case TRAINER_CLASS_ZEUS:
         case TRAINER_CLASS_ELITE_FOUR:
