@@ -426,7 +426,7 @@ CaveOfOrigin_Relato_Texto_15:
 	.string "TIPO AGUA caían de un solo golpe ante\l"
 	.string "KYOGRE causaba un profundo respeto,\l"
 	.string "que ese MILOTIC fuera capaz de encajar\l"
-	.string "esos HYDROBOMBA y SALPICAR de KYOGRE\l"
+	.string "esos HIDROBOMBA y SALPICAR de KYOGRE\l"
 	.string "con cierta solvencia, era igualmente\l"
 	.string "digno de asombro y admiración.$"
 

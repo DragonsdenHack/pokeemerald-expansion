@@ -740,6 +740,7 @@ setmetatile 17, 6, 0x2B3, FALSE
 setmetatile 18, 6, 0x2B4, FALSE
 special DrawWholeMapView
 delay 20
+removeobject 6
 applymovement 5, Laboratorio_S4_Eusine_Bill_Move_32
 waitmovement 0x0
 applymovement 4, Laboratorio_S4_Eusine_Bill_Move_6
@@ -773,7 +774,6 @@ setflag FLAG_HOENN_283
 setflag FLAG_HOENN_285
 removeobject 4
 removeobject 5
-removeobject 6
 setvar VAR_UNUSED_0x40F8, 38
 release
 end

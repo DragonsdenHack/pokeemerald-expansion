@@ -959,11 +959,11 @@ Arrecipolis_Antigua_Andra_Texto_19:
 	.string "preparada.$"
 
 Arrecipolis_Antigua_Andra_Texto_20:
-	.string "Ese HYDROBOMBA no será suficiente, mis\n"
+	.string "Ese HIDROBOMBA no será suficiente, mis\n"
 	.string "POKÉMON han encajado peores golpes.$"
 
 Arrecipolis_Antigua_Andra_Texto_21:
-	.string "¡MILOTIC, HYDROBOMBA!$"
+	.string "¡MILOTIC, HIDROBOMBA!$"
 
 Arrecipolis_Antigua_Andra_Texto_21.1:
 	.string "¡Sigue! ¡Otra vez! ¡RECUPERACIÓN!$"
