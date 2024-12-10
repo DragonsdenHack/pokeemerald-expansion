@@ -568,6 +568,15 @@ clearflag FLAG_HOENN_68
 clearflag FLAG_HOENN_67
 msgbox Cave_Regigigas_S8_Amatista_Texto_62 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_679, Cave_Regigigas_S8_Amatista_Texto_63
+switch VAR_RESULT
+case 1, Cave_Regigigas_S8_Amatista_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S8_Amatista_Ganado::
 setflag FLAG_HOENN_67
 setflag FLAG_HOENN_2
 setflag FLAG_HOENN_69
@@ -674,6 +683,7 @@ waitmovement 0x0
 msgbox Cave_Regigigas_S8_Amatista_Texto_85 MSGBOX_AUTOCLOSE
 applymovement 3, Cave_Regigigas_S8_Amatista_Move_25
 waitmovement 0x0
+setflag FLAG_HOENN_653
 setflag FLAG_HOENN_59
 setflag FLAG_HOENN_2
 setflag FLAG_HOENN_69
@@ -683,8 +693,9 @@ setflag FLAG_HOENN_67
 clearflag FLAG_HOENN_677
 removeobject 5
 removeobject 3
-setvar VAR_UNUSED_0x40F7, 25
+setvar VAR_UNUSED_0x40B8, 2
 setvar VAR_UNUSED_0x40F8, 23
+setvar VAR_UNUSED_0x40F7, 254
 release
 end
 

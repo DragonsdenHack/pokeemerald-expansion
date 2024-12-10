@@ -237,6 +237,7 @@ waitmovement 0x0
 removeobject 4
 closedoor 16, 13
 waitdooranim
+setflag FLAG_HOENN_67
 setflag FLAG_HOENN_677
 clearflag FLAG_HOENN_655
 removeobject 4

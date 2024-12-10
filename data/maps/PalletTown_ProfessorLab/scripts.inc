@@ -640,7 +640,7 @@ playse SE_EXIT
 waitse
 setflag FLAG_HOENN_655
 removeobject 6
-clearflag FLAG_HOENN_677
+clearflag FLAG_HOENN_67
 setvar VAR_UNUSED_0x40F8, 26
 release
 end
@@ -1012,6 +1012,7 @@ waitmovement 0x0
 setflag FLAG_HOENN_655
 removeobject 6
 playse SE_EXIT
+setvar VAR_UNUSED_0x40FA, 0
 setvar VAR_UNUSED_0x40F8, 28
 release
 end

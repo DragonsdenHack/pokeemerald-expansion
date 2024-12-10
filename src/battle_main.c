@@ -5108,8 +5108,6 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_JONES:
             PlayBGM(628);
             break;
-        case TRAINER_CLASS_TRISTANA:
-            PlayBGM(641);
             break;
         case TRAINER_CLASS_ZEUS:
         case TRAINER_CLASS_ELITE_FOUR:

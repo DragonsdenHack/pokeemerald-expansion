@@ -856,7 +856,19 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_1)
         return B_TRANSITION_KYOGRE;
 
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_606)
+        return B_TRANSITION_KYOGRE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_669)
+        return B_TRANSITION_KYOGRE;
+
     if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_2)
+        return B_TRANSITION_GROUDON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_625)
+        return B_TRANSITION_GROUDON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_674)
         return B_TRANSITION_GROUDON;
 
     if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_ZIGARDE)
@@ -881,6 +893,9 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_BIG_POKEBALL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_137)
+        return B_TRANSITION_RAYQUAZA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_607)
         return B_TRANSITION_RAYQUAZA;
 
     if (gTrainerBattleOpponent_A == TRAINER_PROTON)
@@ -1008,6 +1023,9 @@ u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_591)
         return B_TRANSITION_RASMUS;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_679)
+        return B_TRANSITION_TRISTANA;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_152)
         return B_TRANSITION_FRANK2;

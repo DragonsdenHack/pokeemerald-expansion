@@ -4118,6 +4118,7 @@ EventScript_SetKanto::
 	setvar VAR_UNUSED_0x40F8, 10
 	setflag FLAG_HOENN_676
 	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_653
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
@@ -4509,6 +4510,7 @@ EventScript_SetSevii::
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	setflag FLAG_HOENN_676
 	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_653
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
@@ -4914,6 +4916,7 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	setflag FLAG_HOENN_676
 	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_653
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
@@ -5380,6 +5383,7 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	setflag FLAG_HOENN_676
 	setflag FLAG_HOENN_655
+	setflag FLAG_HOENN_653
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300

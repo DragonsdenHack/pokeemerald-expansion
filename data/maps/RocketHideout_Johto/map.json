@@ -545,8 +545,125 @@
       "x": 22,
       "y": 56,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "23",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "36",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "35",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "34",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "33",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "32",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "31",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "30",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 56,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40B8",
+      "var_value": "2",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "28",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "27",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "26",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
       "var_value": "25",
+      "script": "BaseRocketJohto_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "24",
       "script": "BaseRocketJohto_Bloqueo"
     }
   ],

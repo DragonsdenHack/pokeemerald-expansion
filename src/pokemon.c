@@ -7702,6 +7702,8 @@ u16 GetBattleBGM(void)
             return 621;
         case TRAINER_CLASS_ZEUS:
             return 587;
+        case TRAINER_CLASS_TRISTANA:
+            return 641;
         case TRAINER_CLASS_JONES:
             return 576;
         case TRAINER_CLASS_DIOS:

@@ -285,7 +285,7 @@ PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1:
 
 PalletTown_Laboratorio_Secreto_Doc_Porygon::
 lock
-showmonpic SPECIES_PORYGON, 10, 3  
+showmonpic SPECIES_PORYGON31, 10, 3  
 playmoncry SPECIES_PORYGON, CRY_MODE_ENCOUNTER 
 msgbox PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_1, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_2, MSGBOX_DEFAULT

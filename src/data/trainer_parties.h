@@ -20878,11 +20878,11 @@ static const struct TrainerMonItemCustomMoves sParty_Cmiguel4[] = {
     {
     .iv = 255,
     .lvl = 105,
-    .species = SPECIES_AKUERIA,
-    .heldItem = ITEM_ASSAULT_VEST,
+    .species = SPECIES_ROTOM_WASH,
+    .heldItem = ITEM_LEFTOVERS,
     .evs = {108, 0, 0, 216, 184, 0},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_HYDRO_PUMP, MOVE_BLIZZARD, MOVE_DRACO_METEOR, MOVE_FLIP_TURN}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
     },
     {
     .iv = 255,
@@ -37084,11 +37084,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     {
     .iv = 255,
     .lvl = 118,
-    .species = SPECIES_RELICANTH_PRIMAL,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {50, 252, 50, 252, 50, 50},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_LIQUIDATION, MOVE_HEAD_SMASH}
+    .species = SPECIES_AKUERIA,
+    .heldItem = ITEM_WHITE_HERB,
+    .evs = {252, 50, 50, 50, 252, 50},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_BLIZZARD, MOVE_DRACO_METEOR, MOVE_FLIP_TURN}
     },
     {
     .iv = 255,
@@ -38907,11 +38907,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER678[] = {
     {
     .iv = 255,
     .lvl = 124,
-    .species = SPECIES_GIRATINA,
+    .species = SPECIES_GIRATINA_ORIGIN,
     .heldItem = ITEM_GRISEOUS_ORB,
     .evs = {252, 50, 252, 50,50, 50},
-    .nature = NATURE_RELAXED,
-    .moves = {MOVE_WILL_O_WISP, MOVE_ROAR, MOVE_DRAGON_TAIL, MOVE_SHADOW_FORCE}
+    .nature = NATURE_NAUGHTY,
+    .moves = {MOVE_SHADOW_SNEAK, MOVE_DRACO_METEOR, MOVE_EARTHQUAKE, MOVE_SHADOW_FORCE}
     },
     {
     .iv = 255,
@@ -38924,16 +38924,16 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER678[] = {
     },
     {
     .iv = 255,
-    .lvl = 125,
-    .species = SPECIES_RAYQUAZA,
-    .heldItem = ITEM_WHITE_HERB,
-    .evs = {252, 50, 50, 252, 50, 50},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_FLASH_CANNON, MOVE_DRACO_METEOR, MOVE_FLAMETHROWER, MOVE_AIR_SLASH}
+    .lvl = 123,
+    .species = SPECIES_AKUERIA,
+    .heldItem = ITEM_LIFE_ORB,
+    .evs = {50, 252, 50, 50, 252, 50},
+    .nature = NATURE_QUIET,
+    .moves = {MOVE_SURF, MOVE_BLIZZARD, MOVE_DRACO_METEOR, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
-    .lvl = 122,
+    .lvl = 124,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_METAGROSSITE,
     .evs = {252, 252, 120, 120, 120, 120},
@@ -38982,16 +38982,16 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER679[] = {
     },
     {
     .iv = 255,
-    .lvl = 125,
-    .species = SPECIES_RAYQUAZA,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .evs = {50, 252, 50, 252, 50, 50},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_FLY, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 124,
+    .species = SPECIES_NAGANADEL,
+    .heldItem = ITEM_POISONIUM_Z,
+    .evs = {60, 60, 60, 252, 252, 60},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_SLUDGE_WAVE, MOVE_DRAGON_PULSE, MOVE_FIRE_BLAST, MOVE_NONE}
     },
     {
     .iv = 255,
-    .lvl = 124,
+    .lvl = 123,
     .species = SPECIES_GUZZLORD,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 252, 50, 50, 50, 50},
@@ -39514,32 +39514,32 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER698[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER699[] = {
     {
     .iv = 255,
-    .lvl = 126,
-    .species = SPECIES_HERACROSS_MEGA,
-    .heldItem = ITEM_FOCUS_SASH,
-    .evs = {252, 252, 100, 100, 100, 100},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}
+    .lvl = 127,
+    .species = SPECIES_MILOTICBOND,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 100, 100, 100, 252, 100},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_DAZZLING_GLEAM, MOVE_LUSTER_PURGE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,
     .lvl = 127,
-    .species = SPECIES_MILOTIC_MEGA,
-    .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 100, 252, 100, 100, 100},
-    .nature = NATURE_BOLD,
-    .moves = {MOVE_ORIGIN_PULSE, MOVE_MOONBLAST, MOVE_RECOVER, MOVE_THUNDER_CAGE}
+    .species = SPECIES_JIRACHI_PRIMAL,
+    .heldItem = ITEM_FAIRIUM_Z,
+    .evs = {252, 110, 110, 110, 252, 110},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_FLASH_CANNON, MOVE_LIGHT_OF_RUIN, MOVE_LIGHT_OF_RUIN, MOVE_MOONGEIST_BEAM}
     },
     {
     .iv = 255,
-    .lvl = 128,
+    .lvl = 127,
     .species = SPECIES_CROBAT2_BOND,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {120, 252, 252, 120, 120, 120},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_BEHEMOTH_BLADE, MOVE_LEECH_LIFE}
     }
-    
+
 };
 
 static const struct TrainerMonItemCustomMoves sParty_TRAINER700[] = {
