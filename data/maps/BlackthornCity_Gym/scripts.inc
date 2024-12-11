@@ -3,6 +3,7 @@ BlackthornCity_Gym_MapScripts::
 
 BlackthornCity_Gym_Primer_Npc::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Primer_Npc_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
@@ -14,6 +15,7 @@ BlackthornCity_Gym_Primer_Npc_Texto_1:
 
 BlackthornCity_Gym_Segundo_Npc::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Segundo_Npc_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
@@ -26,6 +28,7 @@ BlackthornCity_Gym_Segundo_Npc_Texto_1:
 
 BlackthornCity_Gym_Tercer_Npc::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Tercer_Npc_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
@@ -36,6 +39,7 @@ BlackthornCity_Gym_Tercer_Npc_Texto_1:
 
 BlackthornCity_Gym_Cuarto_Npc::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Cuarto_Npc_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
@@ -47,6 +51,7 @@ BlackthornCity_Gym_Cuarto_Npc_Texto_1:
 
 BlackthornCity_Gym_Quinto_Npc::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Quinto_Npc_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
@@ -59,6 +64,7 @@ BlackthornCity_Gym_Quinto_Npc_Texto_1:
 
 BlackthornCity_Gym_Gym_Dude::
 lock
+faceplayer
 msgbox BlackthornCity_Gym_Gym_Dude_Texto_1 MSGBOX_AUTOCLOSE
 msgbox BlackthornCity_Gym_Gym_Dude_Texto_2 MSGBOX_AUTOCLOSE
 release
@@ -76,6 +82,7 @@ BlackthornCity_Gym_Gym_Dude_Texto_2:
 
 BlackthornCity_Bald::
 lock
+faceplayer
 msgbox BlackthornCity_Bald_Texto_1 MSGBOX_AUTOCLOSE
 msgbox BlackthornCity_Bald_Texto_2 MSGBOX_AUTOCLOSE
 msgbox BlackthornCity_Bald_Texto_3 MSGBOX_AUTOCLOSE

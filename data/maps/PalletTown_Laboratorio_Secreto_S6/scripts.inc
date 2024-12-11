@@ -1307,7 +1307,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_35:
 	.string "acciones causa-efecto dentro de\l"
 	.string "nuestro propio mundo, hacer\l"
 	.string "estimaciones no solo de nuestra\l"
-	.string "región,sino de otras.$"
+	.string "región, sino de otras.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_36:
 	.string "Llevado a la práctica, estaríamos en\n"
@@ -1391,8 +1391,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_49:
 
 PalletTown_Laboratorio_S6_Despues_Texto_50:
 	.string "Ahora nosotros, por una sola vez,\n"
-	.string "seremos tanto ejecutor como juez y\l"
-	.string "verdugo.$"
+	.string "seremos los que juegan desde arriba.$"
 
 PalletTown_Laboratorio_S6_Despues_Texto_51:
 	.string "Todas las hazañas de ORO serán inocuas\n"

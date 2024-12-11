@@ -2975,3 +2975,5 @@ Text_EVChecker_3:
 	.include "data/maps/RocketHideout_11F/scripts.inc"
 
 	.include "data/maps/BlackthornCity_Gym/scripts.inc"
+
+	.include "data/maps/Neo_NewBark/scripts.inc"

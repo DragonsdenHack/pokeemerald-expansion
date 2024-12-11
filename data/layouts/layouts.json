@@ -15324,6 +15324,18 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_NEW_BARK",
+      "name": "Neo_NewBark_Layout",
+      "width": 28,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_gTileset_PalletTown",
+      "border_filepath": "data/layouts/Neo_NewBark/border.bin",
+      "blockdata_filepath": "data/layouts/Neo_NewBark/map.bin"
     }
   ]
 }

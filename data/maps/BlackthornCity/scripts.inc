@@ -174,13 +174,26 @@ BlackthornCityDocumento_Text_100:
 
 
 BlackthornCityDocumento_101::
-msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN   
+compare VAR_UNUSED_0x40F8, 30
+goto_if_gt BlackthornCityDocumento_101_Debora
+msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN  
 end
 
 BlackthornCityDocumento_Text_101:
 .string "GIMNASIO de CIUDAD ENDRINO\n"
-	.string "LÍDER: SALAZAR\l"
-	.string "El maestro de maestros.$"
+	.string "LÍDER: ... ...\l"
+	.string "¡No hay ningún nombre!$"
+
+BlackthornCityDocumento_101_Debora::
+lock
+msgbox BlackthornCityDocumento_101_Debora_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+BlackthornCityDocumento_101_Debora_Texto_1:
+.string "GIMNASIO de CIUDAD ENDRINO\n"
+	.string "LÍDER: DÉBORA\l"
+	.string "La grán experta en POKÉMON DRAGÓN.$"
 
 
 

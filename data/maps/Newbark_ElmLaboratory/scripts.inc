@@ -40,6 +40,8 @@ NewBarkTown_ElmLaboratory_Text_3:
 NewBarkTown_ElmLaboratory_Combate_Elm::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F8, 30
+goto_if_gt NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn
 checkitem ITEM_AERODACTYLITE
 goto_if_eq VAR_RESULT, FALSE, NewBarkTown_ElmLaboratory_Combate_Elm_2
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
@@ -62,6 +64,16 @@ waitfanfare
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7 MSGBOX_AUTOCLOSE
 release
 end
+
+NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn::
+msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn_Texto_1:
+.string "Buenos días, {PLAYER}.\n"
+	.string "Y por si no volvemos a vernos,\l"
+	.string "buenas tardes y buenas noches.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6.1:
 .string "¡Obtuviste AERODACTYLITA de manos\n"

@@ -1259,7 +1259,7 @@ waitmovement 0x0
 playse SE_SLIDING_DOOR
 opendoor 64, 15
 waitdooranim
-addobject 25
+delay 10
 applymovement 24, MossdeepCity_Final_Move_5
 waitmovement 0x0
 removeobject 24

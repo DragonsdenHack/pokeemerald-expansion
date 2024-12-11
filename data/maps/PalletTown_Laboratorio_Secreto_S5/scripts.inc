@@ -131,6 +131,7 @@ delay 15
 setflag FLAG_HOENN_290
 setflag FLAG_HOENN_288
 removeobject 2
+setvar VAR_UNUSED_0x40B8, 1
 setvar VAR_UNUSED_0x40F8, 39
 release
 end

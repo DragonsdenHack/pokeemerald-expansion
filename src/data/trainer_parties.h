@@ -40453,7 +40453,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER728[] = {
     .heldItem = ITEM_MEWTWONITE_Y,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_ZEN_HEADBUTT, MOVE_DRAIN_PUNCH, MOVE_STONE_EDGE, MOVE_NONE}
+    .moves = {MOVE_PSYSTRIKE, MOVE_SHADOW_BALL, MOVE_AURA_SPHERE, MOVE_REFLECT}
     },
     {
     .iv = 255,

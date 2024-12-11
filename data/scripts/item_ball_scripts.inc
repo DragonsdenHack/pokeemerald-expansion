@@ -3116,4 +3116,8 @@ Mar_Hoenn_EventScript_MT167::
 finditem ITEM_TM167_FLIP_TURN
     end
 
+Endrino_Gym_EventScript_MT195::
+finditem ITEM_TM195_DRAGON_RAGE
+    end
+
 
