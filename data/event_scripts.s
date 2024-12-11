@@ -2983,3 +2983,7 @@ Text_EVChecker_3:
 	.include "data/maps/NewBark_Oro2F/scripts.inc"
 
 	.include "data/maps/NewBark_Casa_Elm/scripts.inc"
+
+	.include "data/maps/NewBark_Casa_Npc/scripts.inc"
+
+	.include "data/maps/Pass_LakeofRage/scripts.inc"

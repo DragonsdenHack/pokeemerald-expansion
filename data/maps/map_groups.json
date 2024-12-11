@@ -261,7 +261,8 @@
     "Neo_NewBark",
     "NewBark_Oro1F",
     "NewBark_Oro2F",
-    "NewBark_Casa_Elm"
+    "NewBark_Casa_Elm",
+    "NewBark_Casa_Npc"
   ],
   "gMapGroup_IndoorVioletCity": [
     "Violet_PkmnCenter",
@@ -484,7 +485,8 @@
     "Route49_Pagoda_P9",
     "Route49_Pagoda_P10",
     "Route49_Pagoda_P11",
-    "Route49_Pagoda_P12"
+    "Route49_Pagoda_P12",
+    "Pass_LakeofRage"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",

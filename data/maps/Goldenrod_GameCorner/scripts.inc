@@ -138,7 +138,7 @@ EventScript_Lupa_Texto_1:
 
 EventScript_Lupa::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 1
 msgbox EventScript_Lupa_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -158,7 +158,7 @@ end
 
 EventScript_Toxisfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 2
 msgbox EventScript_Toxisfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -178,7 +178,7 @@ end
 
 EventScript_Casco::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 3
 msgbox EventScript_Casco_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -198,7 +198,7 @@ end
 
 EventScript_Vidasfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 4
 msgbox EventScript_Vidasfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -218,7 +218,7 @@ end
 
 EventScript_Cinta::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 5
 msgbox EventScript_Cinta_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -256,7 +256,7 @@ end
 
 EventScript_Teddiursa::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 6
 msgbox EventScript_Teddiursa_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -276,7 +276,7 @@ end
 
 EventScript_Shuckle::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 7
 msgbox EventScript_Shuckle_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -296,7 +296,7 @@ end
 
 EventScript_Sudowoodo::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Sudowoodo_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -316,7 +316,7 @@ end
 
 EventScript_Cyndaquil::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 9
 msgbox EventScript_Cyndaquil_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -336,7 +336,7 @@ end
 
 EventScript_Larvitar::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 10
 msgbox EventScript_Larvitar_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0

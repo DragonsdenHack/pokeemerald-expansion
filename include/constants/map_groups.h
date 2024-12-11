@@ -209,6 +209,7 @@
 #define MAP_NEW_BARK_ORO1F         (7 | (4 << 8))
 #define MAP_NEW_BARK_ORO2F         (8 | (4 << 8))
 #define MAP_NEW_BARK_CASA_ELM      (9 | (4 << 8))
+#define MAP_NEW_BARK_CASA_NPC      (10 | (4 << 8))
 
 // gMapGroup_IndoorVioletCity
 #define MAP_VIOLET_PKMN_CENTER     (0 | (5 << 8))
@@ -432,6 +433,7 @@
 #define MAP_ROUTE49_PAGODA_P10             (95 | (13 << 8))
 #define MAP_ROUTE49_PAGODA_P11             (96 | (13 << 8))
 #define MAP_ROUTE49_PAGODA_P12             (97 | (13 << 8))
+#define MAP_PASS_LAKEOF_RAGE               (98 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F           (0 | (14 << 8))
@@ -1476,6 +1478,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 10, 9, 9, 26, 23, 14, 7, 7, 12, 98, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 11, 9, 9, 26, 23, 14, 7, 7, 12, 99, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

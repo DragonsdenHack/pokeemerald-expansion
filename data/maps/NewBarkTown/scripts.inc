@@ -220,7 +220,7 @@ NewBarkTown_Cartel_Vacio_Texto_1:
 NewBarkTown_Cartel::
 lock
 compare VAR_UNUSED_0x40F8, 56
-goto_if_gt NewBarkTown_Cartel_Vacio
+goto_if_lt NewBarkTown_Cartel_Vacio
 msgbox NewBarkTown_Cartel_Texto_1 MSGBOX_SIGN
 release
 end
@@ -258,7 +258,7 @@ NewBarkTown_NPC_Segundo_Texto_1:
 NewBarkTown_Cartel_Oro::
 lock
 compare VAR_UNUSED_0x40F8, 56
-goto_if_gt NewBarkTown_Cartel_Vacio
+goto_if_lt NewBarkTown_Cartel_Vacio
 msgbox NewBarkTown_Cartel_Oro_Texto_1 MSGBOX_SIGN
 release
 end
@@ -269,7 +269,7 @@ NewBarkTown_Cartel_Oro_Texto_1:
 NewBarkTown_Cartel_Elm::
 lock
 compare VAR_UNUSED_0x40F8, 56
-goto_if_gt NewBarkTown_Cartel_Vacio
+goto_if_lt NewBarkTown_Cartel_Vacio
 msgbox NewBarkTown_Cartel_Elm_Texto_1 MSGBOX_SIGN
 release
 end
@@ -280,7 +280,7 @@ NewBarkTown_Cartel_Elm_Texto_1:
 NewBarkTown_Cartel_Laboratorio::
 lock
 compare VAR_UNUSED_0x40F8, 56
-goto_if_gt NewBarkTown_Cartel_Vacio
+goto_if_lt NewBarkTown_Cartel_Vacio
 msgbox NewBarkTown_Cartel_Laboratorio_Texto_1 MSGBOX_SIGN
 release
 end

@@ -15345,7 +15345,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/NewBark_Oro1F/border.bin",
       "blockdata_filepath": "data/layouts/NewBark_Oro1F/map.bin"
     },
@@ -15372,6 +15372,30 @@
       "secondary_tileset": "gTileset_silph_co2",
       "border_filepath": "data/layouts/NewBark_Casa_Elm/border.bin",
       "blockdata_filepath": "data/layouts/NewBark_Casa_Elm/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_CASA_NPC",
+      "name": "NewBark_Casa_Npc_Layout",
+      "width": 10,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co2",
+      "border_filepath": "data/layouts/NewBark_Casa_Npc/border.bin",
+      "blockdata_filepath": "data/layouts/NewBark_Casa_Npc/map.bin"
+    },
+    {
+      "id": "LAYOUT_PASS_LAKEOF_RAGE",
+      "name": "Pass_LakeofRage_Layout",
+      "width": 11,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_2",
+      "border_filepath": "data/layouts/Pass_LakeofRage/border.bin",
+      "blockdata_filepath": "data/layouts/Pass_LakeofRage/map.bin"
     }
   ]
 }

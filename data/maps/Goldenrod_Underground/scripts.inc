@@ -224,7 +224,7 @@ Goldenrod_Underground_Tienda_Pokemon_Texto_2:
 
 EventScript_Trapinch::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 1
 msgbox EventScript_Trapinch_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -338,7 +338,7 @@ EventScript_Larvitar_Texto_1:
 
 EventScript_Bagon::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 2
 msgbox EventScript_Bagon_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -358,7 +358,7 @@ end
 
 EventScript_Deino::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 3
 msgbox EventScript_Deino_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -378,7 +378,7 @@ end
 
 EventScript_Beldum::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 4
 msgbox EventScript_Beldum_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -398,7 +398,7 @@ end
 
 EventScript_Wishiwashi::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 5
 msgbox EventScript_Wishiwashi_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -440,7 +440,7 @@ end
 
 EventScript_Llamasfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 6
 msgbox EventScript_Llamasfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -460,7 +460,7 @@ end
 
 EventScript_Cxperto::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 7
 msgbox EventScript_Cxperto_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -480,7 +480,7 @@ end
 
 EventScript_Chaleco::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Chaleco_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -500,7 +500,7 @@ end
 
 EventScript_Gafas::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Gafas_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0

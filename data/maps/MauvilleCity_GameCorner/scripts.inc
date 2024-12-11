@@ -7,8 +7,8 @@ map_script_2 VAR_UNUSED_0x40F8, 57, MauvilleCity_GameCorner_Final
 	.2byte 0
 
     @ Game Corner prices
-	.set TM32_COINS,  1500
-	.set TM29_COINS,  3500
+	.set TM32_COINS,  2500
+	.set TM29_COINS,  4500
 	.set TM35_COINS,  4000
 	.set TM24_COINS,  4000
 	.set TM13_COINS,  4000
@@ -263,33 +263,32 @@ MauvilleCity_GameCorner_EventScript_ChooseTMPrize::
 	case 1, MauvilleCity_GameCorner_EventScript_TM29
 	case 2, MauvilleCity_GameCorner_EventScript_TM35
 	case 3, MauvilleCity_GameCorner_EventScript_TM24
-	case 4, MauvilleCity_GameCorner_EventScript_TM13
 	case 5, MauvilleCity_GameCorner_EventScript_CancelTMSelect
 	goto MauvilleCity_GameCorner_EventScript_CancelTMSelect
 	end
 
 MauvilleCity_GameCorner_EventScript_TM32::
 	setvar VAR_TEMP_1, 1
-	bufferitemname STR_VAR_1, ITEM_TM32
-	setvar VAR_0x8004, ITEM_TM32
+	bufferitemname STR_VAR_1, ITEM_TM137
+	setvar VAR_0x8004, ITEM_TM137
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_TM29::
 	setvar VAR_TEMP_1, 2
-	bufferitemname STR_VAR_1, ITEM_TM29
-	setvar VAR_0x8004, ITEM_TM29
+	bufferitemname STR_VAR_1, ITEM_TM156
+	setvar VAR_0x8004, ITEM_TM156
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_TM35::
 	setvar VAR_TEMP_1, 3
-	bufferitemname STR_VAR_1, ITEM_TM35
-	setvar VAR_0x8004, ITEM_TM35
+	bufferitemname STR_VAR_1, ITEM_TM158
+	setvar VAR_0x8004, ITEM_TM158
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_TM24::
 	setvar VAR_TEMP_1, 4
-	bufferitemname STR_VAR_1, ITEM_TM24
-	setvar VAR_0x8004, ITEM_TM24
+	bufferitemname STR_VAR_1, ITEM_TM159
+	setvar VAR_0x8004, ITEM_TM159
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_TM13::
@@ -316,7 +315,7 @@ MauvilleCity_GameCorner_EventScript_BuyTM32::
 	checkitemspace ITEM_TM32
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM32_COINS
-	additem ITEM_TM32
+	additem ITEM_TM137
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -329,7 +328,7 @@ MauvilleCity_GameCorner_EventScript_BuyTM29::
 	checkitemspace ITEM_TM29
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM29_COINS
-	additem ITEM_TM29
+	additem ITEM_TM156
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -342,7 +341,7 @@ MauvilleCity_GameCorner_EventScript_BuyTM35::
 	checkitemspace ITEM_TM35
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM35_COINS
-	additem ITEM_TM35
+	additem ITEM_TM158
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -355,7 +354,7 @@ MauvilleCity_GameCorner_EventScript_BuyTM24::
 	checkitemspace ITEM_TM24
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM24_COINS
-	additem ITEM_TM24
+	additem ITEM_TM159
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -704,15 +703,15 @@ MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
 	.string "placing {STR_VAR_1}.$"
 
 MauvilleCity_GameCorner_Text_OhIsThatSo:
-	.string "Oh, is that so? \n"
-	.string "You need to save some COINS before\l"
-	.string "coming back here.$"
+	.string "Como quieras… En cualquier caso, si\n"
+	.string "cambias de opinión y vuelves, asegúrate\l"
+	.string "de tener ahorradas suficientes FICHAS.$"
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsX:
-	.string "So your choice is {STR_VAR_1}?$"
+	.string "¿Así que quieres {STR_VAR_1}?$"
 
 MauvilleCity_GameCorner_Text_HereYouGo:
-	.string "Here you go!$"
+	.string "¡Aquí tienes!$"
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
@@ -981,14 +980,18 @@ MauvilleCity_GameCorner_Cartel_Texto_2:
 MauvilleCity_GameCorner_Cartel_Texto_3:
 	.string "¿Pulsarlo?$"
 
+MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple::
+msgbox CancelTMSelect_Simple_Texto_1 MSGBOX_AUTOCLOSE
+	hidecoinsbox 0, 0
+	release
+	end
+
+CancelTMSelect_Simple_Texto_1:
+	.string "¡Gracias por su compra!$"
+
 Mauville_Pokemon_Items::
-lock
-faceplayer
-checkitem ITEM_COIN_CASE
-goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NeedCoinCase
 msgbox Goldenrod_Underground_Items_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Goldenrod_Underground_Items_Texto_2 MSGBOX_AUTOCLOSE
-waitmessage
 multichoice 22, 0, MULTI_POKEMON_MALVALONA, 0
 switch VAR_RESULT
 case 0, EventScript_Trubbish
@@ -1002,7 +1005,7 @@ end
 
 EventScript_Trubbish::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 6
 msgbox EventScript_Trubbish_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -1010,39 +1013,39 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TRUBBISH_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TRUBBISH_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_TRUBBISH, 29, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Glameow::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 7
-msgbox EventScript_Shuckle_Texto_1 MSGBOX_YESNO
+msgbox EventScript_Glameow_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, GLAMEOW_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins GLAMEOW_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_GLAMEOW, 32, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Stunky::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Stunky_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -1050,19 +1053,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, STUNKY_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins STUNKY_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_STUNKY, 33, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Blitzle::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 9
 msgbox EventScript_Blitzle_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -1082,7 +1085,7 @@ end
 
 EventScript_Purrloin::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 10
 msgbox EventScript_Purrloin_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -1102,7 +1105,7 @@ end
 
 EventScript_Treecko::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 10
 msgbox EventScript_Treecko_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
