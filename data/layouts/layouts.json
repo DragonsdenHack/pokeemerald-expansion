@@ -10077,7 +10077,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Viridian_City",
+      "secondary_tileset": "gTileset_gTileset_PalletTown",
       "border_filepath": "data/layouts/Route27/border.bin",
       "blockdata_filepath": "data/layouts/Route27/map.bin"
     },
@@ -15336,6 +15336,42 @@
       "secondary_tileset": "gTileset_gTileset_PalletTown",
       "border_filepath": "data/layouts/Neo_NewBark/border.bin",
       "blockdata_filepath": "data/layouts/Neo_NewBark/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_ORO1F",
+      "name": "NewBark_Oro1F_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/NewBark_Oro1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBark_Oro1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_ORO2F",
+      "name": "NewBark_Oro2F_Layout",
+      "width": 12,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_1",
+      "border_filepath": "data/layouts/NewBark_Oro2F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBark_Oro2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BARK_CASA_ELM",
+      "name": "NewBark_Casa_Elm_Layout",
+      "width": 10,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co2",
+      "border_filepath": "data/layouts/NewBark_Casa_Elm/border.bin",
+      "blockdata_filepath": "data/layouts/NewBark_Casa_Elm/map.bin"
     }
   ]
 }

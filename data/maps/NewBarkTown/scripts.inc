@@ -181,3 +181,110 @@ walk_right
 walk_right
 walk_up
 step_end
+
+NewBarkTown_Barrera::
+compare VAR_UNUSED_0x40F8, 56
+goto_if_gt NewBarkTown_Barrera_2
+applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Barrera_Move_1
+waitmovement 0x0
+msgbox NewBarkTown_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+NewBarkTown_Barrera_2::
+release
+end
+
+NewBarkTown_Barrera_Texto_1:
+.string "La puerta está cerrada.$"
+
+NewBarkTown_Barrera_Move_1:
+walk_in_place_up
+step_end
+
+NewBarkTown_Barrera_Move_2:
+walk_down
+step_end
+
+NewBarkTown_Cartel_Vacio::
+lock
+msgbox NewBarkTown_Cartel_Vacio_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NewBarkTown_Cartel_Vacio_Texto_1:
+.string "-No hay nada escrito aquí.-$"
+
+NewBarkTown_Cartel::
+lock
+compare VAR_UNUSED_0x40F8, 56
+goto_if_gt NewBarkTown_Cartel_Vacio
+msgbox NewBarkTown_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+NewBarkTown_Cartel_Texto_1:
+	.string "PUEBLO PRIMAVERA\p"
+	.string "El pueblo donde soplan\n"
+	.string "vientos de un nuevo amanecer.$"
+
+NewBarkTown_NPC_Primer::
+lock
+faceplayer
+msgbox NewBarkTown_NPC_Primer_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+
+NewBarkTown_NPC_Primer_Texto_1:
+	.string "El PROFESOR ELM parece muy interesado\n"
+	.string "en el chico recién llegado. ¡Le ha dado\l"
+	.string "hasta un POKEGEAR!$"
+
+NewBarkTown_NPC_Segundo::
+lock
+faceplayer
+msgbox NewBarkTown_NPC_Segundo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+
+NewBarkTown_NPC_Segundo_Texto_1:
+	.string "Dicen que el PROFESOR ELM ha\n"
+	.string "descubierto nuevos POKÉMON.$"
+
+NewBarkTown_Cartel_Oro::
+lock
+compare VAR_UNUSED_0x40F8, 56
+goto_if_gt NewBarkTown_Cartel_Vacio
+msgbox NewBarkTown_Cartel_Oro_Texto_1 MSGBOX_SIGN
+release
+end
+
+NewBarkTown_Cartel_Oro_Texto_1:
+.string "Casa de ORO.$"
+
+NewBarkTown_Cartel_Elm::
+lock
+compare VAR_UNUSED_0x40F8, 56
+goto_if_gt NewBarkTown_Cartel_Vacio
+msgbox NewBarkTown_Cartel_Elm_Texto_1 MSGBOX_SIGN
+release
+end
+
+NewBarkTown_Cartel_Elm_Texto_1:
+.string "Casa de ELM.$"
+
+NewBarkTown_Cartel_Laboratorio::
+lock
+compare VAR_UNUSED_0x40F8, 56
+goto_if_gt NewBarkTown_Cartel_Vacio
+msgbox NewBarkTown_Cartel_Laboratorio_Texto_1 MSGBOX_SIGN
+release
+end
+
+NewBarkTown_Cartel_Laboratorio_Texto_1:
+.string "LABORATORIO del PROF.ELM.$"
+

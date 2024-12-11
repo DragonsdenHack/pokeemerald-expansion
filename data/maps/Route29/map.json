@@ -237,6 +237,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route29_16",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 73,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route29_15",
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_SCOTT"
     }
   ],
   "warp_events": [
@@ -269,6 +282,15 @@
       "type": "trigger",
       "x": 74,
       "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Primavera_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 74,
+      "y": 11,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",

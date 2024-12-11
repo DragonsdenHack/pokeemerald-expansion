@@ -2327,6 +2327,7 @@ waitse
 applymovement OBJ_EVENT_ID_PLAYER, Laboratorio_S6_Final_Move_6.1
 waitmovement 0x0
 delay 30
+clearflag FLAG_HOENN_672
 setflag FLAG_HOENN_679
 setflag FLAG_HIDE_ROUTE_128_STEVEN
 clearflag FLAG_NUEVA_292

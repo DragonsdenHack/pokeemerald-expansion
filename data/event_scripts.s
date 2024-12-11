@@ -2977,3 +2977,9 @@ Text_EVChecker_3:
 	.include "data/maps/BlackthornCity_Gym/scripts.inc"
 
 	.include "data/maps/Neo_NewBark/scripts.inc"
+
+	.include "data/maps/NewBark_Oro1F/scripts.inc"
+
+	.include "data/maps/NewBark_Oro2F/scripts.inc"
+
+	.include "data/maps/NewBark_Casa_Elm/scripts.inc"

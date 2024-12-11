@@ -3679,6 +3679,7 @@ waitfanfare
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_30 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_672
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
 fadescreen 1

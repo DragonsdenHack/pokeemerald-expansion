@@ -2319,7 +2319,7 @@
 #define FLAG_HOENN_669 (TRAINER_FLAGS_END + 669) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_670 (TRAINER_FLAGS_END + 670) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_671 (TRAINER_FLAGS_END + 671) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_672 (TRAINER_FLAGS_END + 672) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_672 (TRAINER_FLAGS_END + 672) // NPCs NEO PUEBLO PRIMAVERA, FIN HOENN PARTE 1
 #define FLAG_HOENN_673 (TRAINER_FLAGS_END + 673) // CAZABICHOS CIUDAD CARMIN DESPUES DE HABLAR EN PLATEADA
 #define FLAG_HOENN_674 (TRAINER_FLAGS_END + 674) // Nina Scyther encinar
 #define FLAG_HOENN_675 (TRAINER_FLAGS_END + 675) // AGATHA TORRE POKEMON, POST MISION S3 SILPH
