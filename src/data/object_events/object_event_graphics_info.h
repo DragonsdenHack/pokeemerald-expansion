@@ -481,8 +481,26 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster2 = {TAG_
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yveltal = {TAG_NONE, OBJ_EVENT_PAL_TAG_YVELTAL, OBJ_EVENT_PAL_TAG_NONE, 2048, 64, 64, 4, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_64x64, sOamTables_64x64, sAnimTable_Standard, sPicTable_Yveltal, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zekrom = {TAG_NONE, OBJ_EVENT_PAL_TAG_ZEKROM, OBJ_EVENT_PAL_TAG_NONE, 2048, 64, 64, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_64x64, sOamTables_64x64, sAnimTable_Standard, sPicTable_Zekrom, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zeus = {TAG_NONE, OBJ_EVENT_PAL_TAG_ZEUS, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Zeus, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Guardia = {TAG_NONE, OBJ_EVENT_PAL_TAG_GUARDIA, OBJ_EVENT_PAL_TAG_NONE, 128, 16, 16, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x16, sOamTables_16x16, sAnimTable_Standard, sPicTable_Guardia, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Guardia = {TAG_NONE, OBJ_EVENT_PAL_TAG_GUARDIA, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_Guardia, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Snorlax = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_BLUE, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_Snorlax, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Marowak = {
+     TAG_NONE,
+     OBJ_EVENT_PAL_TAG_WHISMUR,
+     OBJ_EVENT_PAL_TAG_NONE,
+     128,
+     16,
+     16,
+     5,
+     SHADOW_SIZE_M,
+     FALSE,
+     FALSE,
+     TRACKS_FOOT,
+     &gObjectEventBaseOam_16x16,
+     sOamTables_16x16,
+     sAnimTable_Standard,
+     sPicTable_Marowak,
+     gDummySpriteAffineAnimTable,
+};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teddiursa = {
      TAG_NONE,
      OBJ_EVENT_PAL_TAG_TEDDIURSA,

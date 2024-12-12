@@ -2230,10 +2230,14 @@ static const struct SpriteFrameImage sPicTable_Agatha2[] = {
     overworld_frame(gObjectEventPic_Agatha2, 2, 4, 8), 
 };
 
-static const struct SpriteFrameImage sPicTable_Guardia[] = {
+static const struct SpriteFrameImage sPicTable_Marowak[] = {
     overworld_frame(gObjectEventPic_Guardia, 2, 2, 0),
     overworld_frame(gObjectEventPic_Guardia, 2, 2, 1),
     overworld_frame(gObjectEventPic_Guardia, 2, 2, 2), 
+};
+
+static const struct SpriteFrameImage sPicTable_Guardia[] = {
+    overworld_frame(gObjectEventPic_Guardia, 4, 4, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_Ghost[] = {
