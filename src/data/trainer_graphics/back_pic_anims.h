@@ -112,8 +112,8 @@ static const union AnimCmd *const sBackAnims_Wally[] =
 
 static const union AnimCmd *const sBackAnims_Steven[] =
 {
-    sAnim_GeneralFrame3,
-    gAnimCmd_May_Steven_1,
+    sAnim_GeneralFrame0,
+    gAnimCmd_Red_1,
 };
 
 const union AnimCmd *const *const gTrainerBackAnimsPtrTable[] =
