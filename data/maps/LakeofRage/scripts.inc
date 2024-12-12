@@ -37,8 +37,10 @@ LakeofRage_Text_8:
 LakeofRage9::
 lock     
 faceplayer     
-msgbox LakeofRage_Text_9, MSGBOX_DEFAULT
-release     
+msgbox LakeofRage_Text_10, MSGBOX_DEFAULT
+choose_mons
+goto_if_eq VAR_RESULT, 0, LakeofRage10
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7    
 end
 
 LakeofRage_Text_9:
@@ -46,9 +48,17 @@ LakeofRage_Text_9:
 .string "¿En qué mundo vives?\l"
 .string "¡Como si GYARADOS pudiera volar!$"
 
+LakeofRage_Text_10:
+.string "Prueba de combate.$"
 
+LakeofRage_Text_11:
+.string "No tengas miedo y escoge.$"
 
 LakeofRage10::
+msgbox LakeofRage_Text_11, MSGBOX_DEFAULT
+choose_mons
+goto_if_eq VAR_RESULT, 0, LakeofRage10
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7
 end
 
 
