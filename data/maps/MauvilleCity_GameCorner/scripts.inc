@@ -980,6 +980,15 @@ MauvilleCity_GameCorner_Cartel_Texto_2:
 MauvilleCity_GameCorner_Cartel_Texto_3:
 	.string "¿Pulsarlo?$"
 
+MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios::
+msgbox CancelTMSelect_Negocios_Texto_1 MSGBOX_AUTOCLOSE
+	hidecoinsbox 0, 0
+	release
+	end
+
+CancelTMSelect_Negocios_Texto_1:
+	.string "Un placer hacer negocios.$"
+
 MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple::
 msgbox CancelTMSelect_Simple_Texto_1 MSGBOX_AUTOCLOSE
 	hidecoinsbox 0, 0
@@ -1073,13 +1082,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, BLITZLE_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins BLITZLE_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_BLITZLE, 26, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
@@ -1093,13 +1102,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, PURRLOIN_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins PURRLOIN_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_PURRLOIN, 19, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
@@ -1113,13 +1122,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TREECKO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TREECKO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_TREECKO, 15, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 

@@ -5107,6 +5107,7 @@ EventScript_SetJohto::
 	additem ITEM_RED_SCALE
 	additem ITEM_CONDENSADOR_GAS
 	additem ITEM_RAZOR_FANG
+	additem ITEM_COIN_CASE
 	additem ITEM_LONELY_MINT,10
 	additem ITEM_ADAMANT_MINT,10
 	additem ITEM_NAUGHTY_MINT,10

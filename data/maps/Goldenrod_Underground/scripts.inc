@@ -208,7 +208,7 @@ case 0, EventScript_Trapinch
 case 1, EventScript_Bagon
 case 2, EventScript_Deino
 case 3, EventScript_Beldum
-CASE 4, EventScript_Wishiwashi
+case 4, EventScript_Wishiwashi
 release
 end
 
@@ -232,13 +232,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TRAPINCH_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TRAPINCH_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_TRAPINCH, 32, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -346,13 +346,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, BAGON_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins BAGON_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_BAGON, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -366,13 +366,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, DEINO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins DEINO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_DEINO, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -386,13 +386,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, BELDUM_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins BELDUM_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_BELDUM, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -406,13 +406,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, WISHIWASHI_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins WISHIWASHI_COINS
 updatecoinsbox 1, 1
 waitse
-delay 50
-hidemoneybox
+playse SE_SHOP
 givemon SPECIES_WISHIWASHI, 50, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
