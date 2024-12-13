@@ -615,3 +615,9 @@ Route120_Devon_Texto_9:
 	.string "SR.PEÑAS: Pero es pronto para hablar de\n"
 	.string "eso. Por el momento, tenemos una cita\l"
 	.string "con REGIGIGAS.$"
+
+Route120_Warp_Callate::
+lock
+warp MAP_SCORCHED_SLAB, 6, 17
+release
+end
