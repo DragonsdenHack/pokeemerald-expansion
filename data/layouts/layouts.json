@@ -5645,7 +5645,7 @@
       "id": "LAYOUT_VIOLET_CITY",
       "name": "VioletCity_Layout",
       "width": 54,
-      "height": 42,
+      "height": 51,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
@@ -10197,7 +10197,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_violet_city",
       "border_filepath": "data/layouts/Route37/border.bin",
       "blockdata_filepath": "data/layouts/Route37/map.bin"
     },

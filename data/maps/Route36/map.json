@@ -20,7 +20,7 @@
     },
     {
       "direction": "right",
-      "offset": -4,
+      "offset": -13,
       "map": "MAP_VIOLET_CITY"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "direction": "right",
-      "offset": -4,
+      "offset": -13,
       "map": "MAP_VIOLET_CITY"
     }
   ],

@@ -587,6 +587,7 @@ clearflag FLAG_HOENN_242
 setflag FLAG_HOENN_283
 setflag FLAG_HOENN_284
 choose_mons
+goto_if_eq VAR_RESULT, 0, Laboratorio_S4_Eusine_Bill_Salir
 multi_2_vs_2 1581, Laboratorio_S4_Eusine_Bill_Texto_46, 1582, Laboratorio_S4_Eusine_Bill_Texto_47, 1587, 6
 switch VAR_RESULT
 case 1, Laboratorio_S4_Eusine_Bill_Ganado
@@ -595,6 +596,22 @@ case 1, Laboratorio_S4_Eusine_Bill_Ganado
 	waitstate
 release
 end
+
+Laboratorio_S4_Eusine_Bill_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, Laboratorio_S4_Eusine_Bill_Salir
+multi_2_vs_2 1581, Laboratorio_S4_Eusine_Bill_Texto_46, 1582, Laboratorio_S4_Eusine_Bill_Texto_47, 1587, 7
+switch VAR_RESULT
+case 1, Laboratorio_S4_Eusine_Bill_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Laboratorio_S4_Eusine_Bill_Salir_Texto_1:
+	.string "Date prisa, ¿no irás a huir ahora?$"
 
 Laboratorio_S4_Eusine_Bill_Ganado::
 delay 10

@@ -477,43 +477,43 @@ static const u8 sRareCandyDesc[] = _(
 
 static const u8 sExpCandyXSDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.15.");
+	"al POKéMON entre\n"
+	"el Nv.1 y Nv.15.");
 
 static const u8 sExpCandySDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.30.");
+	"al POKéMON entre\n"
+	"el Nv.15 y Nv.30.");
 
 static const u8 sExpCandyXMDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.45.");
+	"al POKéMON entre\n"
+	"el Nv.30 y Nv.45.");
 
 static const u8 sExpCandyMDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.65.");	
+	"al POKéMON entre\n"
+	"el Nv.45 y Nv.65.");
 
 static const u8 sExpCandyLDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.75.");
+	"al POKéMON entre\n"
+	"el Nv.65 y Nv.75.");
 
 static const u8 sExpCandyXLDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.85.");
+	"al POKéMON entre\n"
+	"el Nv.75 y Nv.85.");
 
 static const u8 sDynamaxCandyDesc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.95.");
+	"al POKéMON entre\n"
+	"el Nv.85 y Nv.95.");
 	
 static const u8 sDynamaxCandy2Desc[] = _( // Todo
     "Aumenta 1 nivel\n"
-	"a un POKéMON\n"
-	"hasta el Nv.105.");	
+	"al POKéMON entre\n"
+	"el Nv.95 y Nv.105.");	
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _(
