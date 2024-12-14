@@ -285,7 +285,21 @@ waitmovement 0x0
 setflag FLAG_HOENN_1
 msgbox Cave_Regigigas_S7_Doctor_Texto_39 MSGBOX_AUTOCLOSE
 choose_mons
-multi_2_vs_2 1535, Cave_Regigigas_S7_Doctor_Texto_40, 1556, Cave_Regigigas_S7_Doctor_Texto_41, 1555, 6
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S7_Doctor_Salir
+multi_2_vs_2 1535, Cave_Regigigas_S7_Doctor_Texto_40, 1556, Cave_Regigigas_S7_Doctor_Texto_41, 1555, 7
+switch VAR_RESULT
+case 1, Cave_Regigigas_S7_Doctor_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S7_Doctor_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S7_Doctor_Salir
+multi_2_vs_2 1535, Cave_Regigigas_S7_Doctor_Texto_40, 1556, Cave_Regigigas_S7_Doctor_Texto_41, 1555, 7
 switch VAR_RESULT
 case 1, Cave_Regigigas_S7_Doctor_Ganado
 	fadescreen FADE_TO_BLACK

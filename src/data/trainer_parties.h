@@ -39462,11 +39462,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER697[] = {
     {
     .iv = 255,
     .lvl = 126,
-    .species = SPECIES_HERACROSS_MEGA,
-    .heldItem = ITEM_FOCUS_SASH,
-    .evs = {252, 252, 100, 100, 100, 100},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE, MOVE_ARM_THRUST}
+    .species = SPECIES_MILOTICBOND,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 100, 100, 100, 252, 100},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_DAZZLING_GLEAM, MOVE_LUSTER_PURGE, MOVE_HYPNOSIS}
     },
     {
     .iv = 255,

@@ -150,7 +150,8 @@ delay 10
 setflag FLAG_HOENN_1
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_16 MSGBOX_AUTOCLOSE
 choose_mons
-multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 6
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S5_2_Esmeralda_Salir
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7
 switch VAR_RESULT
 case 1, Cave_Regigigas_S5_2_Esmeralda_Ganado
 	fadescreen FADE_TO_BLACK
@@ -158,6 +159,20 @@ case 1, Cave_Regigigas_S5_2_Esmeralda_Ganado
 	waitstate
 release
 end
+
+Cave_Regigigas_S5_2_Esmeralda_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S5_2_Esmeralda_Salir
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7
+switch VAR_RESULT
+case 1, Cave_Regigigas_S5_2_Esmeralda_Ganado
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
 
 Cave_Regigigas_S5_2_Esmeralda_Ganado::
 msgbox Cave_Regigigas_S5_2_Esmeralda_Texto_19 MSGBOX_AUTOCLOSE

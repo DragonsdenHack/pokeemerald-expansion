@@ -422,7 +422,30 @@ waitmovement 0x0
 special RemoveCameraObject
 msgbox Cave_Regigigas_S8_Amatista_Texto_35 MSGBOX_AUTOCLOSE
 choose_mons
-multi_2_vs_1 1536, Cave_Regigigas_S8_Amatista_Texto_36, 1557, 6
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S8_Amatista_Salir
+multi_2_vs_1 1536, Cave_Regigigas_S8_Amatista_Texto_36, 1557, 7
+switch VAR_RESULT
+case 1, Cave_Regigigas_S8_Amatista_Ganado_2
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S8_Amatista_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, Cave_Regigigas_S8_Amatista_Salir
+multi_2_vs_1 1536, Cave_Regigigas_S8_Amatista_Texto_36, 1557, 7
+switch VAR_RESULT
+case 1, Cave_Regigigas_S8_Amatista_Ganado_2
+	fadescreen FADE_TO_BLACK
+	special SetCB2WhiteOut
+	waitstate
+release
+end
+
+Cave_Regigigas_S8_Amatista_Ganado_2::
 msgbox Cave_Regigigas_S8_Amatista_Texto_37 MSGBOX_AUTOCLOSE
 applymovement 1, Cave_Regigigas_S8_Amatista_Move_8
 waitmovement 0x0

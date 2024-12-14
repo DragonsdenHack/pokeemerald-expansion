@@ -588,7 +588,7 @@ setflag FLAG_HOENN_283
 setflag FLAG_HOENN_284
 choose_mons
 goto_if_eq VAR_RESULT, 0, Laboratorio_S4_Eusine_Bill_Salir
-multi_2_vs_2 1581, Laboratorio_S4_Eusine_Bill_Texto_46, 1582, Laboratorio_S4_Eusine_Bill_Texto_47, 1587, 6
+multi_2_vs_2 1581, Laboratorio_S4_Eusine_Bill_Texto_46, 1582, Laboratorio_S4_Eusine_Bill_Texto_47, 1587, 7
 switch VAR_RESULT
 case 1, Laboratorio_S4_Eusine_Bill_Ganado
 	fadescreen FADE_TO_BLACK

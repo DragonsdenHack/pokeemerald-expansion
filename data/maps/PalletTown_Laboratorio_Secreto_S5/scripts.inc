@@ -472,7 +472,8 @@ playse SE_THUNDERSTORM_STOP
 playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
 waitmoncry
 choose_mons
-multi_2_vs_2 1583, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1584, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1587, 6
+goto_if_eq VAR_RESULT, 0, PalletTown_Laboratorio_Secreto_S5_Estatua_Salir
+multi_2_vs_2 1583, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1584, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1587, 7
 switch VAR_RESULT
 case 1, PalletTown_Laboratorio_Secreto_S5_Estatua_Ganado
 fadescreen FADE_TO_BLACK
@@ -480,6 +481,20 @@ special SetCB2WhiteOut
 waitstate
 release
 end
+
+PalletTown_Laboratorio_Secreto_S5_Estatua_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, PalletTown_Laboratorio_Secreto_S5_Estatua_Salir
+multi_2_vs_2 1583, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1584, PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_8, 1587, 7
+switch VAR_RESULT
+case 1, PalletTown_Laboratorio_Secreto_S5_Estatua_Ganado
+fadescreen FADE_TO_BLACK
+special SetCB2WhiteOut
+waitstate
+release
+end
+
 
 PalletTown_Laboratorio_Secreto_S5_Estatua_Ganado::
 playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER

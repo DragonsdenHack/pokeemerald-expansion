@@ -1773,7 +1773,21 @@ setflag FLAG_HOENN_654
 setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
 setflag FLAG_HOENN_289
 choose_mons
-multi_2_vs_2 1585, PalletTown_Laboratorio_S6_Combate_Final_Texto_47, 1586, PalletTown_Laboratorio_S6_Combate_Final_Texto_48, 1587, 6
+goto_if_eq VAR_RESULT, 0, PalletTown_Laboratorio_S6_Combate_Final_Salir
+multi_2_vs_2 1585, PalletTown_Laboratorio_S6_Combate_Final_Texto_47, 1586, PalletTown_Laboratorio_S6_Combate_Final_Texto_48, 1587, 7
+switch VAR_RESULT
+case 1, PalletTown_Laboratorio_S6_Combate_Ganado
+fadescreen FADE_TO_BLACK
+special SetCB2WhiteOut
+waitstate
+release
+end
+
+PalletTown_Laboratorio_S6_Combate_Final_Salir::
+msgbox Laboratorio_S4_Eusine_Bill_Salir_Texto_1 MSGBOX_AUTOCLOSE
+choose_mons
+goto_if_eq VAR_RESULT, 0, PalletTown_Laboratorio_S6_Combate_Final_Salir
+multi_2_vs_2 1585, PalletTown_Laboratorio_S6_Combate_Final_Texto_47, 1586, PalletTown_Laboratorio_S6_Combate_Final_Texto_48, 1587, 7
 switch VAR_RESULT
 case 1, PalletTown_Laboratorio_S6_Combate_Ganado
 fadescreen FADE_TO_BLACK
