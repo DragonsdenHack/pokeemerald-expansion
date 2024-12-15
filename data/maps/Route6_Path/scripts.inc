@@ -4,11 +4,11 @@ Route6_Path_MapScripts::
 
 Route6_Path_OnTransition::
 goto_if_ge VAR_UNUSED_0x40F7, 203, Route6_Path_WarpDinamica
-setdynamicwarp MAP_SAFFRON_CITY, 33, 30
+setdynamicwarp MAP_SAFFRON_CITY, 34, 46
 end
 
 Route6_Path_WarpDinamica::
-setdynamicwarp MAP_NEO_SAFFRON_CITY, 33, 30
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 34, 46
 end
 
 

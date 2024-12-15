@@ -1610,7 +1610,7 @@ gTileset_gTileset_General_fr2::
 	.4byte gTilesetPalettes_gTileset_General_fr2
 	.4byte gMetatiles_gTileset_General_fr2
 	.4byte gMetatileAttributes_gTileset_General_fr2
-	.4byte NULL
+	.4byte InitTilesetAnim_General
 
 	.align 2
 gTileset_silph_co2::

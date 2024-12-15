@@ -357,12 +357,13 @@ static const u8 sSwiftFeatherDesc[] = _(
 
 // Ability Modifiers
 static const u8 sAbilityCapsuleDesc[] = _(
-    "Cambia la habi-\n"
-    "lidad del POKÉMON.");
+    "Cambia la\n"
+    "habilidad del\n"
+	"POKÉMON.");
 
 static const u8 sAbilityPatchDesc[] = _( // Todo
-    "Cambia a la habi-\n"
-    "lidad oculta.");
+    "Cambia la habilidad\n"
+    "oculta del POKéMON.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
@@ -2376,9 +2377,9 @@ static const u8 sLightClayDesc[] = _(
     "REFLEJO y V.AURORA.");
 
 static const u8 sLifeOrbDesc[] = _(
-    "Aumenta en un 30% el\n"
-    "daño global. Baja un\n"
-    "10% los PS al atacar.");
+    "Sube un 30% el daño\n"
+    "global. Baja un 10%\n"
+    "los PS al atacar.");
 
 static const u8 sPowerHerbDesc[] = _(
     "Permite usar mov.\n"
@@ -2451,9 +2452,9 @@ static const u8 sRazorFangDesc[] = _(
    	"GLISCOR.");
 
 static const u8 sEvioliteDesc[] = _(
-    "Eleva en un 50% DEF\n"
-    "y DEF.ESP en POK que\n"
-    "tienen evolución.");
+    "Eleva en un 50% las\n"
+    "defensas de un {PKMN}\n"
+    "con evolución.");
 
 static const u8 sFloatStoneDesc[] = _(
     "Es tan liviana que\n"

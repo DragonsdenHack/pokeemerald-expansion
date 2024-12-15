@@ -186,7 +186,6 @@ setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
 setvar VAR_UNUSED_0x40F8, 58
 setvar VAR_TEMP_1, 1
-call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
 goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end

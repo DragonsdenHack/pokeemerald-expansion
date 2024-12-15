@@ -1101,6 +1101,12 @@ settrainerflag TRAINER_SAWYER_3
 settrainerflag TRAINER_FERNANDO_4
 settrainerflag TRAINER_FERNANDO_5
 settrainerflag TRAINER_THALIA_4
+settrainerflag TRAINER_GABRIELLE_2
+settrainerflag TRAINER_GABRIELLE_3
+settrainerflag TRAINER_GABRIELLE_4
+settrainerflag TRAINER_GABRIELLE_5
+settrainerflag TRAINER_THALIA_2
+settrainerflag TRAINER_THALIA_3
 	return
 
 EventScript_SetItemsKanto::
@@ -4080,6 +4086,7 @@ EventScript_SetKanto::
 	additem ITEM_KELPSY_BERRY, 40
 	additem ITEM_QUALOT_BERRY, 40
 	additem ITEM_EVIOLITE
+	additem ITEM_LIFE_ORB
 	additem ITEM_ABILITY_CAPSULE, 3
 	@FIN ITEMS
 	call EventScript_SetItemsKanto
@@ -4345,6 +4352,7 @@ EventScript_SetSevii::
 	additem ITEM_KELPSY_BERRY, 50
 	additem ITEM_QUALOT_BERRY, 50
 	additem ITEM_EVIOLITE
+	additem ITEM_LIFE_ORB
 	additem ITEM_ABILITY_CAPSULE, 4
 	@FIN ITEMS
 	call EventScript_SetItemsSevii
@@ -4686,6 +4694,7 @@ EventScript_SetJohto::
 	additem ITEM_KELPSY_BERRY, 60
 	additem ITEM_QUALOT_BERRY, 60
 	additem ITEM_EVIOLITE
+	additem ITEM_LIFE_ORB
 	additem ITEM_ABILITY_CAPSULE, 5
 	@FIN ITEMS
 	call EventScript_SetItemsJohto
@@ -5138,13 +5147,16 @@ EventScript_SetJohto::
 	additem ITEM_KELPSY_BERRY, 60
 	additem ITEM_QUALOT_BERRY, 60
 	additem ITEM_EVIOLITE
+	additem ITEM_LIFE_ORB
 	additem ITEM_ABILITY_CAPSULE, 5
 	additem ITEM_ABILITY_PATCH, 5
 	@FIN ITEMS
 	call EventScript_SetItemsDlc
 	call EventScript_SetTrainersDlc
 	setvar VAR_UNUSED_0x40F7, 217
+	
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	
 	setvar VAR_VERDANTURF_TOWN_STATE, 20
 	setvar VAR_MAUVILLE_CITY_STATE, 9
 	setvar VAR_ROUTE118_STATE, 1
@@ -5403,6 +5415,10 @@ EventScript_SetJohto::
 	setflag FLAG_HOENN_654
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
+	setflag FLAG_SYS_POKEDEX_GET
+	special SetUnlockedPokedexFlags
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	
 	end
 
