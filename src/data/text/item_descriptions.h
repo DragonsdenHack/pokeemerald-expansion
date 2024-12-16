@@ -4186,7 +4186,9 @@ static const u8 sNLunarizerDesc[] = _( // Todo
     "?????");
 
 static const u8 sReinsOfUnityDesc[] = _( // Todo
-    "?????");
+    "Une a CALYREX\n"
+    "con SPECTRIER\n"
+    "o GLASTRIER.");
 
 // Battle Mechanic Key Items
 static const u8 sKeyStoneDesc[] = _( // Todo

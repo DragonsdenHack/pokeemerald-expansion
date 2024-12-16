@@ -14268,10 +14268,93 @@ Move_THUNDEROUS_KICK::
 	end @to do:
 
 Move_GLACIAL_LANCE::
-	end @to do:
+	fadetobg BG_ICE
+	waitbgfadeout
+	playsewithpan SE_M_ICY_WIND, 0
+	waitbgfadein
+	loadspritegfx ANIM_TAG_ICE_CUBE
+	monbg ANIM_DEF_PARTNER
+	splitbgprio ANIM_TARGET
+	setalpha 12, 8
+	createvisualtask AnimTask_FrozenIceCube, 2
+	waitplaysewithpan SE_M_HAIL, SOUND_PAN_TARGET, 17
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	restorebg
+	waitbgfadein
+		loadspritegfx ANIM_TAG_ICE_CRYSTALS @ice
+	loadspritegfx ANIM_TAG_BLACK_SMOKE @smoke
+	loadspritegfx ANIM_TAG_ICE_CHUNK @White Colour
+	monbg ANIM_DEF_PARTNER
+	setalpha 12, 8
+	fadetobg BG_ICE
+	waitbgfadeout
+	playsewithpan SE_M_SAND_ATTACK, SOUND_PAN_TARGET
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xfff4 0x68 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xfff4 0x48 0x1 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xfffa 0x38 0x1 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xfffa 0x58 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x0 0x38 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x0 0x58 0x1 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x6 0x48 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x6 0x68 0x1 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xc 0x48 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0xc 0x38 0x1 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x12 0x50 0x0 0x4b
+	launchtemplate gGlaciateSmokeTemplate 0x84 0x5 0x0 0x12 0x48 0x1 0x4b
+	waitforvisualfinish
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, (ANIM_PAL_DEF | ANIM_PAL_DEF_PARTNER), 0x2, 0x0, 0xA, 0x7FFF
+	call IceCrystalEffectLong
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, (ANIM_PAL_DEF | ANIM_PAL_DEF_PARTNER), 0x2, 0xA, 0x0, 0x7FFF
+	waitforvisualfinish
+	blendoff
+	clearmonbg ANIM_DEF_PARTNER
+	call UnsetPsychicBg
+	end
 
 Move_ASTRAL_BARRAGE::
-	end @to do:
+	fadetobg BG_GHOST
+	playsewithpan SE_M_PSYBEAM, SOUND_PAN_ATTACKER
+	waitbgfadein
+	monbg ANIM_DEF_PARTNER
+	createvisualtask AnimTask_BlendColorCycle, 2, 2, 2, 6, 0, 8, RGB_WHITE
+	createvisualtask AnimTask_SpiteTargetShadow, 2
+	loopsewithpan SE_M_PSYBEAM, SOUND_PAN_TARGET, 20, 3
+	waitforvisualfinish
+	loadspritegfx ANIM_TAG_MOON
+	loadspritegfx ANIM_TAG_ELECTRIC_ORBS
+	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
+	loadspritegfx ANIM_TAG_ORBS @hyper beam
+	loadspritegfx ANIM_TAG_WATER_GUN @water gun colour
+	loadspritegfx ANIM_TAG_ASSURANCE_HAND @purple colour
+	setalpha 8, 8
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_BG 0x1 0x0 0x10 0x0
+	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_ELECTRIC_ORBS, 0, 15, 15, 0x7FFF   @White
+	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_CIRCLE_OF_LIGHT, 0, 15, 15, 0x7FFC   @Light Blue
+	waitforvisualfinish
+	playsewithpan SE_M_MEGA_KICK, SOUND_PAN_TARGET
+	launchtemplate gMoonSpriteTemplate 0x80 0x2 0x20 0x15
+	launchtask AnimTask_MoonlightEndFade 0x2 0x0
+	loadspritegfx ANIM_TAG_BLACK_BALL_2
+	loadspritegfx ANIM_TAG_SPARK_2
+	playsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_ATTACKER
+	createsprite gZapCannonBallSpriteTemplate, ANIM_TARGET, 3, 10, 0, 0, 0, 30, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 0, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 64, 40, 1
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 128, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 16, 30, 192, 40, 2
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 32, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 96, 40, 1
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 160, 40, 0
+	createsprite gZapCannonSparkSpriteTemplate, ANIM_TARGET, 4, 10, 0, 8, 30, 224, 40, 2
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 5, 1
+	delay 15
+	waitforvisualfinish
+	restorebg
+	waitbgfadein
+	clearmonbg ANIM_TARGET
+	end:
 
 Move_EERIE_SPELL::
 	end @to do:

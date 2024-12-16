@@ -907,7 +907,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_PRISON_BOTTLE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_N_SOLARIZER] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_N_LUNARIZER] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
-    [ITEM_REINS_OF_UNITY] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
+    [ITEM_REINS_OF_UNITY] = {gItemIcon_EscapeRope, gItemIconPalette_ExpertBelt}, // Todo
     // Battle Mechanic Key Items
     [ITEM_KEY_STONE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_MEGA_RING] = {gItemIcon_PowerBracer, gItemIconPalette_TwistedSpoon}, // Todo

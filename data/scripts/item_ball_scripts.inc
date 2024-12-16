@@ -3120,4 +3120,8 @@ Endrino_Gym_EventScript_MT195::
 finditem ITEM_TM195_DRAGON_RAGE
     end
 
+Route51_House_EventScript_Riendas::
+finditem ITEM_REINS_OF_UNITY
+    end
+
 
