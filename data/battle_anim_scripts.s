@@ -14064,13 +14064,13 @@ SetSteelBeamBgPlayer:
 	fadetobg BG_STEEL_BEAM_PLAYER
 
 Move_EXPANDING_FORCE::
-	goto Move_GIGA_IMPACT
+	goto Move_EXTRASENSORY
 
 Move_STEEL_ROLLER::
 	goto Move_GYRO_BALL
 
 Move_SCALE_SHOT::
-	end @to do:
+	goto Move_FURY_ATTACK
 
 Move_METEOR_BEAM::
 	goto Move_SOLAR_BEAM
@@ -14125,7 +14125,7 @@ Move_MISTY_EXPLOSION::
 	end @to do:
 
 Move_GRASSY_GLIDE::
-	end @to do:
+goto Move_FRENZY_PLANT
 
 Move_RISING_VOLTAGE::
 	goto Move_VOLT_TACKLE
@@ -14223,7 +14223,34 @@ Move_LASH_OUT::
 	end @to do:
 
 Move_POLTERGEIST::
-	end @to do:
+	fadetobg BG_GHOST
+	playsewithpan SE_M_PSYBEAM, SOUND_PAN_ATTACKER
+	waitbgfadein
+	monbg ANIM_DEF_PARTNER
+	createvisualtask AnimTask_BlendColorCycle, 2, 2, 2, 6, 0, 8, RGB_WHITE
+	createvisualtask AnimTask_SpiteTargetShadow, 2
+	loopsewithpan SE_M_PSYBEAM, SOUND_PAN_TARGET, 20, 3
+	waitforvisualfinish
+	loadspritegfx ANIM_TAG_IMPACT
+	loadspritegfx ANIM_TAG_HANDS_AND_FEET
+	fadetobg BG_GHOST
+	waitbgfadein
+	monbg ANIM_ATK_PARTNER
+	setalpha 9, 8
+	createvisualtask AnimTask_AttackerPunchWithTrace, 2, RGB_BLACK, 13
+	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
+	delay 6
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_TARGET, 3, 0, 0, ANIM_TARGET, 1
+	createsprite gFistFootSpriteTemplate, ANIM_TARGET, 4, 0, 0, 8, 1, 0
+	playsewithpan SE_M_COMET_PUNCH, SOUND_PAN_TARGET
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_ATK_PARTNER
+	blendoff
+	restorebg
+	waitbgfadein
+	clearmonbg ANIM_TARGET
+	end
 
 Move_CORROSIVE_GAS::
 	end @to do:
@@ -14294,10 +14321,61 @@ Move_TRIPLE_AXEL::
 	end
 
 Move_DUAL_WINGBEAT::
-	end @to do:
+	loadspritegfx ANIM_TAG_CUT
+	monbg ANIM_TARGET
+	setalpha 12, 8
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_ATTACKER, 24, 6, 1, 5
+	createvisualtask AnimTask_TraceMonBlended, 2, 0, 4, 7, 3
+	createsprite gCuttingSliceSpriteTemplate, ANIM_ATTACKER, 2, 40, -32, 0
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	delay 5
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 0, 3, 10, 1
+	createsprite gComplexPaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, 31, 3, 1, RGB_BLACK, 10, 0, 0
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	waitforvisualfinish
+	clearmonbg ANIM_TARGET
+	blendoff
+	end
 
 Move_SCORCHING_SANDS::
-	end @to do:
+	loadspritegfx ANIM_TAG_FLYING_DIRT
+	playsewithpan SE_M_SANDSTORM, 0
+	createvisualtask AnimTask_LoadSandstormBackground, 5, FALSE
+	delay 16
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 10, 2304, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 90, 2048, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 50, 2560, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 20, 2304, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 70, 1984, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 0, 2816, 96, 0
+	delay 10
+	createsprite gFlyingSandCrescentSpriteTemplate, ANIM_ATTACKER, 40, 60, 2560, 96, 0
+	waitforvisualfinish
+	restorebg
+	waitbgfadeout
+	loadspritegfx ANIM_TAG_SMALL_EMBER
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_BG 0x1 0x0 0xc 0x14be
+	waitforvisualfinish
+	playsewithpan SE_M_SACRED_FIRE2, SOUND_PAN_TARGET
+	launchtask AnimTask_ShakeMon 0x5 0x5 ANIM_TARGET 0x0 0x2 0x40 0x1
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_DEF 0x1 0x0 0x9 0x1f
+	call FireSpinEffect
+	call FireSpinEffect
+	call FireSpinEffect
+	playsewithpan SE_M_SACRED_FIRE2, SOUND_PAN_TARGET
+	call FireSpinEffect
+	call FireSpinEffect
+	call FireSpinEffect
+	waitforvisualfinish
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_DEF 0x1 0x9 0x0 0x1f
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_BG 0x1 0xc 0x0 0x14be
+	waitforvisualfinish
+	end
 
 Move_JUNGLE_HEALING::
 	goto Move_AROMATHERAPY
@@ -26171,6 +26249,7 @@ FinishCorkscrewCrash:
 	playsewithpan SE_M_DOUBLE_TEAM, SOUND_PAN_TARGET
 	createsprite gCorkscrewCrashCorkscrewFlyDownSpriteTemplate, ANIM_TARGET, 3, 0x0, 0xffc0, 0x0f
 	delay 0xf
+	goto Move_STEEL_BEAM
 	createvisualtask AnimTask_HorizontalShake, 5, ANIM_TARGET, 2, 48
 	createsprite gCorkscrewCrashCorkscrewFlyDownSpriteTemplate, ANIM_TARGET, 3, 0x0, 0xfffe, 0x03
 	call CorkscrewCrashSpinningWind
@@ -26235,17 +26314,39 @@ CorkscrewCrashSprayRocks:
 
 
 Move_INFERNO_OVERDRIVE::
+	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
+	monbg ANIM_ATTACKER
+	setalpha 12, 8
+	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, 1, 2, 0, 4, RGB_BLACK
+	waitforvisualfinish
+	createsprite gTailGlowOrbSpriteTemplate, ANIM_ATTACKER, 66, ANIM_ATTACKER
+	delay 18
+	loopsewithpan SE_M_MORNING_SUN, SOUND_PAN_ATTACKER, 16, 6
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, 1, 4, 4, 0, RGB_BLACK
+	clearmonbg ANIM_ATTACKER
+	blendoff
+	delay 1
+	loadspritegfx ANIM_TAG_SMALL_EMBER
+	call SetImpactBackground
+	loopsewithpan SE_M_SACRED_FIRE2, SOUND_PAN_TARGET, 40, 4
+	createvisualtask AnimTask_ShakeMon, 5, 1, 0, 2, 94, 1
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, 4, 1, 0, 9, RGB_RED
+	call InfernoAnim
+	call InfernoAnim
+	call InfernoAnim
+	call InfernoAnim
+	call InfernoAnim
+	call InfernoAnim
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, 4, 1, 9, 0, RGB_RED
+	restorebg
+	waitbgfadein
+	waitforvisualfinish
+goto Move_BLUE_FLARE
+
 	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT @charge
 	loadspritegfx ANIM_TAG_SMALL_EMBER @fire
-	createvisualtask AnimTask_BlendParticle, 0x5, ANIM_TAG_CIRCLE_OF_LIGHT, 0x0, 0xA, 0xA, 0x1F
-	createvisualtask AnimTask_AllBanksInvisibleExceptAttackerAndTarget, 0xA
-	waitforvisualfinish
-	fadetobg BG_INFERNO_OVERDRIVE
-	waitbgfadeout
-	createvisualtask AnimTask_IsTargetPlayerSide, 0x2
-	jumpargeq 0x7 ANIM_TARGET InfernoOverdriveOnPlayer
 InfernoOverdriveOnOpponent:
-	createvisualtask AnimTask_StartSlidingBg, 0x5, 0xfb00, 0x0, 0x0, 0xFFFF
 	goto FinishInfernoOverdrive
 InfernoOverdriveOnPlayer:
 	createvisualtask AnimTask_StartSlidingBg, 0x5, 0x0500, 0x0, 0x0, 0xFFFF
@@ -26283,6 +26384,7 @@ FinishInfernoOverdrive:
 	createvisualtask AnimTask_BlendBattleAnimPal, 0xa, 0x5, ANIM_PAL_ALL_BATTLERS | ANIM_PAL_BG, 0x1, 0x0, 0x10, 0x001b	@ red bg pal
 	delay 0x6
 	call InfernoOverdriveExplosion
+	goto Move_BLUE_FLARE
 	waitforvisualfinish
 	call ResetFromRedScreen
 	blendoff
@@ -26518,7 +26620,6 @@ Move_BLOOM_DOOM::
 	playsewithpan SE_M_PETAL_DANCE, SOUND_PAN_ATTACKER
 	call BloomDoomFlowerGeyser
 	call BloomDoomFlowerGeyser
-	fadetobg BG_BLOOM_DOOM
 	waitbgfadein
 	loadspritegfx ANIM_TAG_ORBS
 	delay 0x5
@@ -26563,6 +26664,7 @@ Move_BLOOM_DOOM::
 	createsprite gAromatherapySmallFlowerSpriteTemplate, ANIM_ATTACKER, 0, 0x80, 0xc, 0x0, 0x3, 0x3, 0x0, 0x0
 	createsprite gAromatherapyBigFlowerSpriteTemplate, ANIM_ATTACKER, 0, 0x5a, 0x10, 0x0, 0x2, 0x1, 0x0, 0x0
 	delay 0x5
+	goto Move_LEAF_STORM
 	createvisualtask AnimTask_BlendBattleAnimPal, 0xa, 0x4, 0x2, 0xb, 0x0, 0x33ed
 	loadspritegfx ANIM_TAG_EXPLOSION @explosion
 	call BloomDoomPetalBlast
@@ -27447,6 +27549,7 @@ Move_BLACK_HOLE_ECLIPSE::
 	delay 0x8
 	createsprite gBlackHoleEclipseHoleShrinkSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, ANIM_TARGET, 0x0
 	waitforvisualfinish
+	goto Move_HYPERSPACE_FURY
 	loadspritegfx ANIM_TAG_SPARKLE_4	@detect
 	createsprite gTargetTwinkleSpriteTemplate, ANIM_ATTACKER, 13, 0x0, 0x0, ANIM_TARGET @detect star
 	delay 0x2

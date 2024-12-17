@@ -48480,11 +48480,15 @@ MOVE_NATURE_POWER,
 };
 
 static const u16 sEnamorusTeachableLearnset[] = {
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAINING_KISS,
 	MOVE_BULK_UP,
 	MOVE_NONE,
 };
 
 static const u16 sEnamorusTherianTeachableLearnset[] = {
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAINING_KISS,
 	MOVE_BULK_UP,
 	MOVE_NONE,
 };

@@ -71,3 +71,9 @@ end
 
 SlowpokeWell10::
 end
+
+Grabacion_Mov_Z::
+lock
+trainerbattle_no_intro TRAINER_TRAINER_678, RocketHideout5F_Secundaria_Frank_Texto_11
+release
+end
