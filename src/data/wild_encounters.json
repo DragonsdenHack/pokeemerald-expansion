@@ -36140,6 +36140,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+          "base_label": "gLavender_Secta_Pasadizo_20",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_VULPIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_HAUNTER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_YAMASK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_YAMASK"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_YAMASK_GALARIAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_YAMASK_GALARIAN"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_STONJOURNER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_STONJOURNER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_ZORUA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_RUNERIGUS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_ZORUA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 60,
+                "species": "SPECIES_RUNERIGUS"
+              }
+            ]
+          }
         }
       ]
     },

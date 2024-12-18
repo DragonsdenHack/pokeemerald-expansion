@@ -381,3 +381,50 @@ PalletTown_Laboratorio_Secreto_Doc_Armaldo_Texto_1:
 	.string "TIPO: ROCA/BICHO\n"
 	.string "HABILIDAD: ARM.FRÁGIL$"
 
+
+PalletTown_Laboratorio_Secreto_Doc_Guardia::
+lock
+showmonpic SPECIES_GUARDIA, 10, 3  
+playmoncry SPECIES_GUARDIA, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_1, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_2, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_3, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_4, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_2:
+	.string "Evolución de MAROWAK, que solo el 0,1%\n"
+	.string "de la línea evolutiva alcanza, pues\l"
+	.string "requiere de una longevidad y nivel de\l"
+	.string "entrenamiento extremos.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_3:
+	.string "Adquiere varios atributos de\n"
+	.string "KANGASKHAN, tales como INTRÉPIDO y\l"
+	.string "unos PUNTOS de SALUD similares. Sin\l"
+	.string "embargo, conserva intacta la capacidad\l"
+	.string "de hacer uso del HUESO GRUESO como\l"
+	.string "MAROWAK.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_4:
+	.string "En el global, reúne las mejores\n"
+	.string "cualidades de toda la línea evolutiva\l"
+	.string "CUBONE-KANGASKHAN. Alcanza, por rareza\l"
+	.string "y poder, un estatus similar a POKÉMON\l"
+	.string "como VOLCARONA o TRXATU en otras\l"
+	.string "regiones.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_1:
+.string "GUARDIA\p"
+	.string "PS: 105\n"
+	.string "ATAQUE: 95\l"
+	.string "DEFENSA: 145\l"
+	.string "ATAQUE ESPECIAL: 60\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 60\l"
+	.string "TOTAL: 560\p"
+	.string "TIPO: TIERRA\n"
+	.string "HABILIDAD: INTRÉPIDO$"
+

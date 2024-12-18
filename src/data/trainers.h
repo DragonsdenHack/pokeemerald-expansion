@@ -6973,16 +6973,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_ENTRENAMIENTO_6] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RECLUTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ENTRENADOR"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_Entrenamiento6),
-        .party = {.NoItemDefaultMoves = sParty_Entrenamiento6},
+        .party = {.ItemCustomMoves = sParty_Entrenamiento6},
     },
 
     [TRAINER_ENTRENAMIENTO_7] =
@@ -20109,16 +20109,16 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_592] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RECLUTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ENTRENADOR"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_TRAINER592),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER592},
+        .party = {.ItemCustomMoves = sParty_TRAINER592},
     },
     [TRAINER_TRAINER_593] =
     {
@@ -21916,16 +21916,16 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_731] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
+        .trainerName = _("ENTRENADOR"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_TRAINER731),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER731},
+        .party = {.ItemCustomMoves = sParty_TRAINER731},
     },
     [TRAINER_TRAINER_732] =
     {

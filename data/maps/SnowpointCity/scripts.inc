@@ -531,4 +531,25 @@ warp MAP_SSGIOVANNI_RESCATE, 2, 2
 release
 end
 
+SnowpointCity_Curar::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Curar_Move_1
+waitmovement 0x0
+msgbox SnowpointCity_Curar_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SnowpointCity_Curar_Move_2
+waitmovement 0x0
+release
+end
+
+SnowpointCity_Curar_Move_1:
+walk_in_place_up
+step_end
+
+SnowpointCity_Curar_Move_2:
+walk_down
+step_end
+
+SnowpointCity_Curar_Texto_1:
+	.string "-Debería ir a curar antes-$"
+
 

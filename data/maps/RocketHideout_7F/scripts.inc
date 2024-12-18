@@ -342,6 +342,20 @@ RocketHideout7F_Text_18:
 .string "POKÉMON, pero si sabemos dónde no\l"
 .string "está{PAUSE 5}…{PAUSE 5}$"
 
+RocketHideout7F_Bombalodo_Hoenn::
+lock
+faceplayer
+msgbox RocketHideout7F_Bombalodo_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout7F_Bombalodo_Hoenn_Texto_1:
+	.string "Se dice que los mejores caballos\n"
+	.string "pierden cuando compiten con otros más\l"
+	.string "lentos y que ganan con rivales a su\l"
+	.string "altura: la ausencia de retos perjudica\l"
+	.string "a los mejores.$"
+
 
 
 RocketHideout7F_Bombalodo::
@@ -2150,8 +2164,8 @@ RocketHideout7FDocumento_Text_149:
 
 RocketHideout7FDocumento_150::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
-goto_if_lt RocketHideout7FDocumento_Esperando
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_KYUREM_PRIMAL, 10, 3  
 playmoncry SPECIES_KYUREM_BLACK, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_150, MSGBOX_DEFAULT
@@ -2188,8 +2202,8 @@ RocketHideout7FDocumento_Text_150:
 
 RocketHideout7FDocumento_151::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 3
-goto_if_lt RocketHideout7FDocumento_Esperando
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_HO_OH_PRIMAL, 10, 3  
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_151, MSGBOX_DEFAULT
@@ -2226,8 +2240,8 @@ RocketHideout7FDocumento_Text_151:
 
 RocketHideout7FDocumento_152::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 4
-goto_if_lt RocketHideout7FDocumento_Esperando 
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_LUGIA_PRIMAL, 10, 3  
 playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_152, MSGBOX_DEFAULT

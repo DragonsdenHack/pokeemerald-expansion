@@ -11924,36 +11924,60 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Entrenamiento5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Entrenamiento6[] = {
+static const struct TrainerMonItemCustomMoves sParty_Entrenamiento6[] = {
     {
-    .iv = 20,
+    .iv = 0,
     .lvl = 50,
     .species = SPECIES_CHANSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 50,
-    .species = SPECIES_CHANSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 50,
-    .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 50,
     .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 50,
     .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 50,
     .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 50,
+    .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 50,
+    .species = SPECIES_CHANSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -36574,36 +36598,60 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER591[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER592[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER592[] = {
     {
-    .iv = 20,
+    .iv = 0,
     .lvl = 75,
     .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
-    },
-    {
-    .iv = 20,
-    .lvl = 75,
-    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 75,
     .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 75,
     .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 75,
     .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
     
 };
@@ -40526,21 +40574,60 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER730[] = {
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER731[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER731[] = {
     {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 255,
+    .iv = 0,
     .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_NONE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HEAL_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
     
 };

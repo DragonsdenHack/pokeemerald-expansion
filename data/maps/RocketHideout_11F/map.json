@@ -138,7 +138,7 @@
     },
     {
       "type": "sign",
-      "x": 32,
+      "x": 31,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -146,7 +146,7 @@
     },
     {
       "type": "sign",
-      "x": 29,
+      "x": 28,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -175,6 +175,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PalletTown_Laboratorio_Secreto_Doc_Milotic"
+    },
+    {
+      "type": "sign",
+      "x": 34,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennS3Documento_121"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_Doc_Guardia"
     }
   ]
 }

@@ -20,7 +20,7 @@
     },
     {
       "direction": "down",
-      "offset": 0,
+      "offset": 2,
       "map": "MAP_ROUTE110"
     },
     {
@@ -37,7 +37,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_3",
-      "x": 29,
+      "x": 31,
       "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
@@ -63,7 +63,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
-      "x": 14,
+      "x": 16,
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -76,7 +76,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
-      "x": 31,
+      "x": 33,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -89,7 +89,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
-      "x": 17,
+      "x": 19,
       "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -102,7 +102,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 29,
+      "x": 31,
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -115,7 +115,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
-      "x": 28,
+      "x": 30,
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -128,7 +128,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WATTSON",
-      "x": 28,
+      "x": 30,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -141,7 +141,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 28,
+      "x": 30,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -154,7 +154,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 13,
+      "x": 15,
       "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -180,7 +180,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 13,
+      "x": 15,
       "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -193,7 +193,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 12,
+      "x": 14,
       "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -206,7 +206,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
-      "x": 8,
+      "x": 10,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -220,49 +220,49 @@
   ],
   "warp_events": [
     {
-      "x": 8,
+      "x": 10,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_GYM",
       "dest_warp_id": 0
     },
     {
-      "x": 23,
+      "x": 25,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 35,
+      "x": 37,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_BIKE_SHOP",
       "dest_warp_id": 1
     },
     {
-      "x": 24,
+      "x": 26,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_MART",
       "dest_warp_id": 1
     },
     {
-      "x": 32,
+      "x": 34,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_HOUSE1",
       "dest_warp_id": 0
     },
     {
-      "x": 8,
+      "x": 10,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_GAME_CORNER",
       "dest_warp_id": 0
     },
     {
-      "x": 19,
+      "x": 21,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_HOUSE2",
@@ -272,7 +272,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 14,
+      "x": 16,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -281,7 +281,7 @@
     },
     {
       "type": "trigger",
-      "x": 15,
+      "x": 17,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -290,7 +290,7 @@
     },
     {
       "type": "trigger",
-      "x": 16,
+      "x": 18,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -299,7 +299,7 @@
     },
     {
       "type": "trigger",
-      "x": 17,
+      "x": 19,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -308,7 +308,7 @@
     },
     {
       "type": "trigger",
-      "x": 18,
+      "x": 20,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -327,7 +327,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 13,
       "y": 6,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -359,7 +359,7 @@
     },
     {
       "type": "sign",
-      "x": 19,
+      "x": 21,
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -367,7 +367,7 @@
     },
     {
       "type": "sign",
-      "x": 33,
+      "x": 35,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -375,7 +375,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 13,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

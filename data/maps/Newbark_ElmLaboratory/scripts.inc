@@ -178,6 +178,7 @@ msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_57 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_58 MSGBOX_AUTOCLOSE
 applymovement 1, Newbark_ElmLaboratory_Final_Move_3
+clearflag FLAG_VISITED_LITTLEROOT_TOWN
 setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
 clearflag FLAG_NUEVA_292
 setflag FLAG_HOENN_289

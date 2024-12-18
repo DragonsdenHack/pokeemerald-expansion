@@ -256,6 +256,8 @@ step_end
 RocketHideout_9F_Entrenador_Experiencia::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 217
+goto_if_gt RocketHideout_9F_Entrenador_Experiencia_Blissey_Hoenn
 compare VAR_UNUSED_0x40F7, 179
 goto_if_gt RocketHideout_9F_Entrenador_Experiencia_Blissey
 showmoneybox 0, 0
@@ -271,14 +273,29 @@ trainerbattle_no_intro TRAINER_ENTRENAMIENTO_6, RocketHideout_9F_Entrenador_Expe
 release
 end
 
-RocketHideout_9F_Entrenador_Experiencia_Blissey::
+RocketHideout_9F_Entrenador_Experiencia_Blissey_Hoenn::
 showmoneybox 0, 0
-msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_1 MSGBOX_YESNO
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_1.2 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
 delay 10
 playse SE_SHOP
-removemoney 5000 0
+removemoney 9000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_731, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+
+RocketHideout_9F_Entrenador_Experiencia_Blissey::
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_1.1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 7500 0
 updatemoneybox
 msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_592, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
@@ -291,6 +308,18 @@ delay 40
 hidemoneybox
 release
 end
+
+RocketHideout_9F_Entrenador_Experiencia_Texto_1.2:
+.string "Me especializo en entrenar la\n"
+	.string "EXPERIENCIA, por 9000¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
+
+RocketHideout_9F_Entrenador_Experiencia_Texto_1.1:
+.string "Me especializo en entrenar la\n"
+	.string "EXPERIENCIA, por 7500¥ tendrás\l"
+	.string "una sesión completa de entreno.\l"
+	.string "¿Aceptas?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1:
 .string "Me especializo en entrenar la\n"

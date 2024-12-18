@@ -28,7 +28,7 @@
     {
       "id": "LAYOUT_MAUVILLE_CITY",
       "name": "MauvilleCity_Layout",
-      "width": 40,
+      "width": 42,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
@@ -15304,7 +15304,7 @@
     {
       "id": "LAYOUT_ROCKET_HIDEOUT_11F",
       "name": "RocketHideout_11F_Layout",
-      "width": 34,
+      "width": 35,
       "height": 22,
       "border_width": 2,
       "border_height": 2,

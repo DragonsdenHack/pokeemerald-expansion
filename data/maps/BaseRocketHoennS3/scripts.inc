@@ -678,7 +678,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_121:
-    .string "CRADILY-Y:\p"
+    .string "CRADILY-Y\p"
 	.string "PS: 86\n"
 	.string "ATAQUE: 41\l"
 	.string "DEFENSA: 137\l"

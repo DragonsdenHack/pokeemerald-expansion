@@ -7,6 +7,17 @@ Snowpoint_PkmnCenter_OnTransition:
 	end
 
 Snowpoint_PkmnCenter_EventScript_Nurse::
+compare VAR_PACIFIDLOG_TOWN_STATE, 4
+goto_if_gt Snowpoint_PkmnCenter_EventScript_Nurse_2
+setvar VAR_PACIFIDLOG_TOWN_STATE, 5
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
+
+Snowpoint_PkmnCenter_EventScript_Nurse_2::
     setvar VAR_0x800B, 1
     call Common_EventScript_PkmnCenterNurse
     waitmessage
