@@ -11351,7 +11351,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SMART_STRIKE] =
     {
         .effect = EFFECT_HIT,
-        .power = 70,
+        .power = 85,
         .type = TYPE_STEEL,
         .accuracy = 0,
         .pp = 10,
@@ -11360,7 +11360,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
-        .zMovePower = 140,
+        .zMovePower = 155,
         .zMoveEffect = Z_EFFECT_NONE,
     },
 

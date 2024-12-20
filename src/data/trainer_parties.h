@@ -10901,11 +10901,11 @@ static const struct TrainerMonItemCustomMoves sParty_Culto1[] = {
     {
     .iv = 230,
     .lvl = 74,
-    .species = SPECIES_DUSKNOIR,
-    .heldItem = ITEM_REAPER_CLOTH,
-    .evs = {96, 102, 96, 96, 24, 96},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_DRAIN_PUNCH, MOVE_POLTERGEIST, MOVE_WILL_O_WISP, MOVE_SHADOW_SNEAK}
+    .species = SPECIES_STAKATAKA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {96, 102, 196, 0, 24, 96},
+    .nature = NATURE_SASSY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_GYRO_BALL, MOVE_BODY_PRESS, MOVE_ROCK_BLAST}
     },
     {
     .iv = 230,
@@ -19337,6 +19337,15 @@ static const struct TrainerMonItemCustomMoves sParty_Culto2[] = {
     {
     .iv = 255,
     .lvl = 94,
+    .species = SPECIES_STAKATAKA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {128, 252, 50, 0, 50, 128},
+    .nature = NATURE_SASSY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_GYRO_BALL, MOVE_BODY_PRESS, MOVE_ROCK_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
     .species = SPECIES_MEW,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -19351,15 +19360,6 @@ static const struct TrainerMonItemCustomMoves sParty_Culto2[] = {
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
     .moves = {MOVE_HYPERSPACE_HOLE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 95,
-    .species = SPECIES_DUSKNOIR,
-    .heldItem = ITEM_DUSKNOIRITA,
-    .evs = {128, 252, 50, 50, 50, 128},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_DRAIN_PUNCH, MOVE_SHADOW_SNEAK, MOVE_POLTERGEIST, MOVE_FIRE_PUNCH}
     },
     {
     .iv = 255,
@@ -39771,7 +39771,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER706[] = {
     .iv = 220,
     .lvl = 73,
     .species = SPECIES_DUSKNOIR,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_REAPER_CLOTH,
     .evs = {92, 92, 92, 92, 44, 92},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_POLTERGEIST, MOVE_DRAIN_PUNCH, MOVE_SHADOW_SNEAK, MOVE_WILL_O_WISP}
