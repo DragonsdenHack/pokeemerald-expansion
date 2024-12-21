@@ -2949,7 +2949,7 @@ static const u8 sTM11Desc[] = _(
 
 static const u8 sTM12Desc[] = _(
    	"Enfada al rival\n"
-   	"para que sólo\n"
+   	"para que solo\n"
    	"use ATAQUES.");
 
 static const u8 sTM13Desc[] = _(

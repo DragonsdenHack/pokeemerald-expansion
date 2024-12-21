@@ -103,7 +103,7 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle:
 	.string	"Te voy a decir algo…\p"
 	.string	"Si quieres llegar hasta GALANO, debes\n"
 	.string	"caminar sobre cada baldosa de la sala,\l"
-	.string	"pero sólo una vez sobre cada una.$"
+	.string	"pero solo una vez sobre cada una.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
 	.string	"El GIMNASIO POKéMON de mayor nivel\n"

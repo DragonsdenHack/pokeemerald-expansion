@@ -462,7 +462,7 @@ VermilionCity_Secundaria_Moteros_Texto_10:
 	.string "encargamos del CAZABICHOS.$"
 
 VermilionCity_Secundaria_Moteros_Texto_11:
-	.string "Vosotros encargaos del ROCKET.$"
+	.string "Vosotros, encargaos del ROCKET.$"
 
 VermilionCity_Secundaria_Moteros_Texto_12:
 	.string "¡Al fin! ¡Ya estaba harto de leer\n"

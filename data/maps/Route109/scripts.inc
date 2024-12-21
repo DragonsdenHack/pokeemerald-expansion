@@ -557,7 +557,7 @@ Route109_Text_ZigzagoonCry:
 Route109_Text_SeashoreHouseSign:
 	.string	"CASA de la PLAYA\p"
 	.string	"“¡Combates al rojo vivo!\n"
-	.string	"¡Sólo para ENTRENADORES apasionados!”$"
+	.string	"¡Solo para ENTRENADORES apasionados!”$"
 
 Route109_Text_TrainerTipsSign:
 	.string	"PISTAS para ENTRENADORES\p"

@@ -232,7 +232,7 @@ step_end
 
 Snowpoint_Templo_S5_Rasmus_Texto_1:
 	.string "DR.RASMUS: Todo está saliendo según el\n"
-	.string "plan. En breve, el rey de los regis será\l"
+	.string "plan. En breve, el rey de los REGIS será\l"
 	.string "nuestro.$"
 
 Snowpoint_Templo_S5_Rasmus_Texto_2:
@@ -608,7 +608,7 @@ Snowpoint_Templo_S5_Amatista_Texto_18:
 	.string "de 10 años que inician su 'aventura'.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_19:
-	.string "En SINNOH no parecen aún haberse dado\n"
+	.string "En SINNOH, no parecen aún haberse dado\n"
 	.string "cuenta de la diferencia.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_20:

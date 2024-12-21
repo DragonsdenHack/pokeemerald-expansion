@@ -328,7 +328,7 @@ VermilionCity_Jardin_Final_Texto_1:
 
 VermilionCity_Jardin_Final_Texto_2:
 	.string "La explotación de estas tierras a\n"
-	.string "nuestro cargo está avalada y aprobada\l"
+	.string "nuestro cargo, está avalada y aprobada\l"
 	.string "por el mismísimo LANCE.$"
 
 VermilionCity_Jardin_Final_Texto_3:

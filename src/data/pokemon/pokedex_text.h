@@ -41,7 +41,7 @@ const u8 gCharizardPokedexText[] = _(
 "es más débil que él, no usará este ataque.");
 
 const u8 gSquirtlePokedexText[] = _(
-"El caparazón de SQUIRTLE no sólo lo\n"
+"El caparazón de SQUIRTLE no solo lo\n"
 "protege; su forma redondeada y sus\n"
 "hendiduras reducen su resistencia al\n"
 "agua y le permiten nadar más rápido.");
@@ -257,7 +257,7 @@ const u8 gGolbatPokedexText[] = _(
 const u8 gOddishPokedexText[] = _(
 "Este POKéMON crece absorbiendo luz de\n"
 "luna. Durante el día, se entierra en el\n"
-"suelo y sólo deja las hojas fuera. Así\n"
+"suelo y solo deja las hojas fuera. Así\n"
 "evita que los enemigos lo detecten.");
 
 const u8 gGloomPokedexText[] = _(
@@ -291,7 +291,7 @@ const u8 gVenonatPokedexText[] = _(
 "presa que le pase desapercibida.");
 
 const u8 gVenomothPokedexText[] = _(
-"Es nocturno, sólo actúa en la oscuridad.\n"
+"Es nocturno, solo actúa en la oscuridad.\n"
 "Su alimento preferido son los pequeños\n"
 "insectos que se concentran por\n"
 "la noche cerca de los focos de luz.");
@@ -440,7 +440,7 @@ const u8 gTentacruelPokedexText[] = _(
 "le brillan las esferas rojas de la cabeza.");
 
 const u8 gGeodudePokedexText[] = _(
-"Sube caminos de montaña usando sólo la\n"
+"Sube caminos de montaña usando solo la\n"
 "fuerza de los brazos. Como parece un canto\n"
 "rodado que delimita el camino, algunos\n"
 "montañeros se llegan a tropezar con él.");
@@ -681,7 +681,7 @@ const u8 gChanseyPokedexText[] = _(
 
 const u8 gTangelaPokedexText[] = _(
 "Se le desprenden los tentáculos en cuanto\n"
-"se los agarran. Y no sólo no le duele,\n"
+"se los agarran. Y no solo no le duele,\n"
 "sino que le permite huir rápidamente.\n"
 "Además, al día siguiente le crecen otros.");
 
@@ -889,7 +889,7 @@ const u8 gDragonairPokedexText[] = _(
 "que tiene en el cuello y en la cola.");
 
 const u8 gDragonitePokedexText[] = _(
-"Es capaz de dar la vuelta al mundo en sólo\n"
+"Es capaz de dar la vuelta al mundo en solo\n"
 "16 horas. Tiene buen corazón: guía a tierra\n"
 "firme a los barcos que se han perdido en\n"
 "plena tormenta o van a zozobrar.");
@@ -927,7 +927,7 @@ const u8 gMeganiumPokedexText[] = _(
 const u8 gCyndaquilPokedexText[] = _(
 "Se protege con el fuego que le arde en\n"
 "el lomo. Si está enfadado, las llamas son\n"
-"fieras, pero, si está cansado, sólo suelta\n"
+"fieras, pero, si está cansado, solo suelta\n"
 "chispas que no llegan a inflamarse.");
 
 const u8 gQuilavaPokedexText[] = _(
@@ -944,7 +944,7 @@ const u8 gTyphlosionPokedexText[] = _(
 
 const u8 gTotodilePokedexText[] = _(
 "Tiene un cuerpo pequeño, pero fuertes\n"
-"mandíbulas. A veces, piensa que sólo está\n"
+"mandíbulas. A veces, piensa que solo está\n"
 "dando un mordisquito de nada y hace\n"
 "unas heridas bastante considerables.");
 
@@ -1035,7 +1035,7 @@ const u8 gPichuPokedexText[] = _(
 const u8 gCleffaPokedexText[] = _(
 "Cuando hay lluvia de estrellas, se les ve\n"
 "danzando en círculos durante la noche.\n"
-"Sólo paran de díaよ entonces, dejan\n"
+"Solo paran de díaよ entonces, dejan\n"
 "de bailar y beben el rocío de la mañana.");
 
 const u8 gIgglybuffPokedexText[] = _(
@@ -1144,12 +1144,12 @@ const u8 gSunkernPokedexText[] = _(
 "Intenta moverse poco para conservar los\n"
 "nutrientes que ha guardado en su interior\n"
 "y poder evolucionar. Ni siquiera come:\n"
-"sólo se alimenta del rocío de la mañana.");
+"solo se alimenta del rocío de la mañana.");
 
 const u8 gSunfloraPokedexText[] = _(
 "Transforma la energía solar en nutrientes.\n"
 "De día, cuando hace calor, está en\n"
-"continuo movimiento. Sólo se detiene\n"
+"continuo movimiento. Solo se detiene\n"
 "cuando comienza a anochecer.");
 
 const u8 gYanmaPokedexText[] = _(
@@ -1226,7 +1226,7 @@ const u8 gPinecoPokedexText[] = _(
 
 const u8 gForretressPokedexText[] = _(
 "Se esconde dentro de su concha de acero\n"
-"reforzado. Sólo la abre para atrapar a su\n"
+"reforzado. Solo la abre para atrapar a su\n"
 "presa, pero ocurre tan rápido que no da\n"
 "tiempo a ver su interior.");
 
@@ -1845,7 +1845,7 @@ const u8 gTrapinchPokedexText[] = _(
 const u8 gVibravaPokedexText[] = _(
 "Cuando frota las alas, emite ondas\n"
 "ultrasónicas, pero, como aún no están\n"
-"completamente desarrolladas, sólo\n"
+"completamente desarrolladas, solo\n"
 "puede volar distancias cortas.");
 
 const u8 gFlygonPokedexText[] = _(
@@ -2017,7 +2017,7 @@ const u8 gDuskullPokedexText[] = _(
 
 const u8 gDusclopsPokedexText[] = _(
 "Se piensa que su cuerpo es hueco y\n"
-"que sólo contiene una fantasmagórica\n"
+"que solo contiene una fantasmagórica\n"
 "bola de fuego. Con todo, nadie ha\n"
 "podido confirmar esta teoría.");
 
@@ -2165,7 +2165,7 @@ const u8 gVolbeatPokedexText[] = _(
 "viven se ensucia, se mudan a otro sitio.");
 
 const u8 gIllumisePokedexText[] = _(
-"Este POKéMON nocturno sólo está activo\n"
+"Este POKéMON nocturno solo está activo\n"
 "de noche. Guía a un enjambre de VOLBEAT\n"
 "para que hagan dibujos en el cielo de la\n"
 "noche y saben hacer hasta 200 distintos.");

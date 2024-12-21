@@ -16,7 +16,7 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 	.string	"llamaba, mientras buscaba rocas raras.\p"
 	.string	"Jo, jo, jo, llevaba consigo POKéMON\n"
 	.string	"extraordinarios.\p"
-	.string	"No eran sólo poco comunes, sino que\n"
+	.string	"No eran solo poco comunes, sino que\n"
 	.string	"además estaban muy bien entrenados.\p"
 	.string	"Es posible que este chico sea más\n"
 	.string	"fuerte que la LÍDER del GIMNASIO\l"

@@ -490,7 +490,7 @@ walk_in_place_left
 step_end
 
 Guardia_Cave_2_Combate_Sachiko_Texto_1:
-	.string "FUJI: Fíjate, ahora hay más KANGASKHAN\n"
+	.string "FUJI: Fíjate. Ahora hay más KANGASKHAN\n"
 	.string "que antes, es increíble.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_2:
@@ -519,7 +519,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_8:
 	.string "avanzando.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_9:
-	.string "FUJI: Oye jovencita, hemos llegado\n"
+	.string "FUJI: Oye, jovencita, hemos llegado\n"
 	.string "hasta aquí contigo. ¿No confías en\l"
 	.string "nosotros?$"
 
@@ -594,8 +594,8 @@ Guardia_Cave_2_Combate_Sachiko_Texto_25:
 
 Guardia_Cave_2_Combate_Sachiko_Texto_26:
 	.string "Yo llevo años trabajando por proteger a\n"
-	.string "POKÉMON como estos, no tienes nada que\l"
-	.string "temer.$"
+	.string "POKÉMON como estos.\l"
+	.string "No tienes nada que temer.$"
 
 Guardia_Cave_2_Combate_Sachiko_Texto_27:
 	.string "SACHIKO: {PLAYER}{PAUSE 15}…{PAUSE 15} ¿{PLAYER} es{PAUSE 15}…{PAUSE 15}?\n"
@@ -630,7 +630,7 @@ Guardia_Cave_2_Combate_Sachiko_Texto_34:
 
 Guardia_Cave_2_Combate_Sachiko_Texto_35:
 	.string "SACHIKO: No lo sé, pero ahora que\n"
-	.string "caigo{PAUSE 15}…{PAUSE 15} este túnel ha recorrido ya media\l"
+	.string "caigo{PAUSE 15}…{PAUSE 15} Este túnel ha recorrido ya media\l"
 	.string "región al suroeste, no debemos estar\l"
 	.string "tan lejos…$"
 
@@ -1221,14 +1221,14 @@ Guardia_Cave_2_Combate_Guardia_Texto_1:
 	.string "SACHIKO: ¡Oh! KANGASKHAN…$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_2:
-	.string "FUJI: ¡{PLAYER}! Este POKÉMON…en el\n"
+	.string "FUJI: ¡{PLAYER}! Este POKÉMON… en el\n"
 	.string "momento en el que nos vio, actuó con\l"
 	.string "una ira desmedida.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_3:
 	.string "Tanto que ni el KANGASKHAN de SACHIKO\n"
-	.string "ha podido con él, ahora mismo está\l"
-	.string "descontrolado.$"
+	.string "ha podido con él.\l"
+	.string "Ahora mismo está descontrolado.$"
 
 Guardia_Cave_2_Combate_Guardia_Texto_4:
 	.string "No hay duda de que pertenece a la línea\n"

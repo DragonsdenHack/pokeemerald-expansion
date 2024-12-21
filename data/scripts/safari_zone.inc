@@ -123,7 +123,7 @@ Route121_SafariZoneEntrance_Text_FirstTimeInfo:
 
 Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay:
 	.string	"¡Hola! ¡Ésta es la ZONA SAFARI!\p"
-	.string	"¡Atrapa todo lo que puedas por sólo\n"
+	.string	"¡Atrapa todo lo que puedas por solo\n"
 	.string	"500¥! ¿Quieres jugar una partida\l"
 	.string	"SAFARI?$"
 
@@ -279,7 +279,7 @@ SafariZone_Southeast_Text_RichBoy:
 	.string	"no parece que sean de HOENN.$"
 
 SafariZone_Northeast_Text_Boy:
-	.string	"Ya sólo me quedan dos SAFARI BALLS.\p"
+	.string	"Ya solo me quedan dos SAFARI BALLS.\p"
 	.string	"Lo estoy pasando mal teniendo que\n"
 	.string	"decidir cuáles atrapo y cuáles no.$"
 

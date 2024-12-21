@@ -33,7 +33,7 @@ SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
 	.string	"Oh, qué pena… Todos necesitamos\n"
 	.string	"que alguien nos apoye…\p"
 	.string	"Pero, si entrenas mucho, seguro\n"
-	.string	"que consigues algún fan sólo para ti.$"
+	.string	"que consigues algún fan solo para ti.$"
 
 SootopolisCity_House3_Text_TrainerFanClubWasWild:
 	.string	"Muchos fans vienen incluso desde\n"

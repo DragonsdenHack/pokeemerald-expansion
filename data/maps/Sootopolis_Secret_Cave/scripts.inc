@@ -386,7 +386,7 @@ CaveOfOrigin_Relato_Texto_9:
 	.string "de origen sagrado.$"
 
 CaveOfOrigin_Relato_Texto_10:
-	.string "La situación era cada vez peor, el nivel\n"
+	.string "La situación era cada vez peor. El nivel\n"
 	.string "general del agua subía más y más, si la\l"
 	.string "furia de KYOGRE continuaba, toda la\l"
 	.string "tierra firme en HOENN quedaría\l"
@@ -413,16 +413,16 @@ CaveOfOrigin_Relato_Texto_13:
 	.string "alejaba de todo lo que habíamos visto{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_14:
-	.string "…sin embargo, el POKÉMON había sido\n"
+	.string "… sin embargo, el POKÉMON había sido\n"
 	.string "entrenado hasta tal extremo, que fue\l"
 	.string "capaz de acortar la brecha genética de\l"
-	.string "forma que, en ese momento…ese lugar\l"
+	.string "forma que, en ese momento… ese lugar\l"
 	.string "concreto… ese MILOTIC parecía otro\l"
 	.string "POKÉMON LEGENDARIO más y no un mero\l"
 	.string "mortal como nosotros{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_15:
-	.string "…si antes ver cómo POKÉMON del propio\n"
+	.string "… si antes ver cómo POKÉMON del propio\n"
 	.string "TIPO AGUA caían de un solo golpe ante\l"
 	.string "KYOGRE causaba un profundo respeto,\l"
 	.string "que ese MILOTIC fuera capaz de encajar\l"
@@ -488,7 +488,7 @@ CaveOfOrigin_Relato_Texto_22:
 	.string "pie{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_23:
-	.string "…pero…todo eso era ya irrelevante ante\n"
+	.string "… pero… todo eso era ya irrelevante ante\n"
 	.string "la situación. El combate estaba\l"
 	.string "decidido, lo que primero fue sorpresa y\l"
 	.string "luego rabia, ahora se había convertido\l"
@@ -565,7 +565,7 @@ CaveOfOrigin_Relato_Texto_32:
 	.string "regresó a las profundidades del mar{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_33:
-	.string "…con ello, HOENN volvió a su estado\n"
+	.string "… con ello, HOENN volvió a su estado\n"
 	.string "natural. Desde ese entonces,\l"
 	.string "ARRECÍPOLIS mantiene una estrecha\l"
 	.string "conexión con los POKÉMON TIPO AGUA,\l"
@@ -651,7 +651,7 @@ CaveOfOrigin_Relato_Texto_50:
 	.string "de ella?$"
 
 CaveOfOrigin_Relato_Texto_51:
-	.string "GALANO: Tienes razón ANDRA, pero… tú\n"
+	.string "GALANO: Tienes razón, ANDRA, pero… tú\n"
 	.string "estás muy alejada de la realidad actual.\l"
 	.string "No solo de HOENN, hasta donde sé de\l"
 	.string "todo el MUNDO POKÉMON.$"
@@ -665,7 +665,7 @@ CaveOfOrigin_Relato_Texto_52:
 CaveOfOrigin_Relato_Texto_53:
 	.string "Esta leyenda no pasaría de ser\n"
 	.string "considerada un cuento para\l"
-	.string "niños…demasiado pesado para ser\l"
+	.string "niños… demasiado pesado para ser\l"
 	.string "contado, demasiado fantasioso incluso\l"
 	.string "para ellos.$"
 

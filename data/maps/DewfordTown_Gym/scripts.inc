@@ -362,7 +362,7 @@ DewfordTown_Gym_Text_BrendenDefeat:
 	.string "esta manera!$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "¡Por todos los mares! ¡ Mereces conocer\n"
+	.string "¡Por todos los mares! ¡Mereces conocer\n"
 	.string "a nuesto LIDER de GIMNASIO!$"
 
 DewfordTown_Gym_Text_CristianIntro:

@@ -322,9 +322,9 @@ SSGiovanni_Rescate_Escena_Texto_9:
 	.string "La cuestión es, ¿qué harás tú, ARIANA?$"
 
 SSGiovanni_Rescate_Escena_Texto_10:
-	.string "¿Regresarás al TEAM ROCKET, o\n"
-	.string "esperarás sin más a que DEVON ajuste\l"
-	.string "cuentas contigo?$"
+	.string "¿Regresarás al TEAM ROCKET o\n"
+	.string "esperarás sin más a que DEVON\l"
+	.string "ajuste cuentas contigo?$"
 
 SSGiovanni_Rescate_Escena_Texto_11:
 	.string "Ya no tienes nada que temer. La\n"
@@ -383,9 +383,9 @@ SSGiovanni_Rescate_Escena_Texto_23:
 	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 SSGiovanni_Rescate_Escena_Texto_24:
-	.string "Esto es lo que quería comprobar{PAUSE 25}…{PAUSE 25} el\n"
-	.string "número de MEDALLAS de HOENN se ha ido\l"
-	.string "actualizando en su FICHA.$"
+	.string "Esto es lo que quería comprobar{PAUSE 25}…{PAUSE 25}\n"
+	.string "El número de MEDALLAS de HOENN se ha\l"
+	.string "ido actualizando en su FICHA.$"
 
 SSGiovanni_Rescate_Escena_Texto_25:
 	.string "ARRECÍPOLIS, ALGARIA{PAUSE 25}…{PAUSE 25} esta última de\n"
@@ -584,7 +584,7 @@ SSGiovanni_Llegada_Portual_Texto_3:
 	.string "… …$"
 
 SSGiovanni_Llegada_Portual_Texto_4:
-	.string "Ese REGIGIGAS… nadie despierta a un\n"
+	.string "Ese REGIGIGAS… Nadie despierta a un\n"
 	.string "POKÉMON así por fines arqueológicos.$"
 
 SSGiovanni_Llegada_Portual_Texto_5:
@@ -600,9 +600,9 @@ SSGiovanni_Llegada_Portual_Texto_7:
 	.string "verdaderas intenciones.$"
 
 SSGiovanni_Llegada_Portual_Texto_8:
-	.string "Y encontrar a ANDRA será vital para\n"
-	.string "ello, solo tú puedes convencerla de que\l"
-	.string "vuelva al TEAM ROCKET.$"
+	.string "Y, encontrar a ANDRA, será vital para\n"
+	.string "ello; solo tú puedes convencerla de\l"
+	.string "que vuelva al TEAM ROCKET.$"
 
 Post_Mision_6_Move_1:
 walk_in_place_up

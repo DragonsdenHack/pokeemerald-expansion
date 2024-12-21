@@ -167,7 +167,7 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string	"Ya sé, te daré más diseños de papel\n"
 	.string	"pintado para las CAJAS del Sistema de\l"
 	.string	"Almacenamiento de POKéMON del PC.\p"
-	.string	"Sólo tendrás que elegir “AMIGOS”\n"
+	.string	"Solo tendrás que elegir “AMIGOS”\n"
 	.string	"en el menú correspondiente. \p"
 	.string	"De esa manera podrás acceder\n"
 	.string	"a los nuevos diseños de papel pintado.$"

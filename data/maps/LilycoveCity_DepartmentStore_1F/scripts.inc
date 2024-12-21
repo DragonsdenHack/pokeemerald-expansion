@@ -161,7 +161,7 @@ LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 	.string	"¡Mi madre va a comprarme muebles!\n"
-	.string	"¡Sólo para mí!$"
+	.string	"¡Solo para mí!$"
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
 	.string	"Voy a comprar algo para mi AZUMARILL\n"

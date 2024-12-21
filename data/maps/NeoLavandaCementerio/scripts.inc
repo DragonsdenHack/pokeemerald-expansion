@@ -272,8 +272,8 @@ NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_9:
 	.string "haces!$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Despues_Texto_10:
-	.string "Te espero al pie del TÚNEL ROCA\n"
-	.string "entonces. Allí nos vemos.$"
+	.string "Entonces, te espero al pie del\n"
+	.string "TÚNEL ROCA. Allí nos vemos.$"
 
 Fuji_S_Move_1:
 face_up

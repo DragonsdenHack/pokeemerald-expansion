@@ -1346,7 +1346,7 @@ PetalburgCity_Gym_Text_GymGuidePostVictory:
 PetalburgCity_Gym_Text_RandallIntro:
 	.string	"La capacidad de atacar antes\n"
 	.string	"que tu oponente…\p"
-	.string	"Sólo eso constituye una gran\n"
+	.string	"Solo eso constituye una gran\n"
 	.string	"ventaja, ¿no crees?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:

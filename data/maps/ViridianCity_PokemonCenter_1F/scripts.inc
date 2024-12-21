@@ -57,5 +57,5 @@ ViridianCity_Center_Text_4:
 .string "Pronto conseguiremos que siquiera\n"
 .string "os dejen entrar a los CENTROS\l"
 .string "POKÉMON.\l"
-.string "¡Entonces ya no os quedará nada\l"
-.string "uajajajajajaa!$"
+.string "¡Entonces ya no os quedará nada!\l"
+.string "¡Ja, ja, ja!$"

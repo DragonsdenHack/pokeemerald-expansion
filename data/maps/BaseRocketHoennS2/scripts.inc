@@ -27,7 +27,7 @@ end
 BaseRocketHoennS2_Text_2:
 .string "Estas ondas de radio son una versión\n"
 .string "beta de las que se instalarán en\l"
-.string "PUEBLO LAVANDA, ¡allí expandiremos los\l"
+.string "PUEBLO LAVANDA. ¡Allí expandiremos los\l"
 .string "límites a los que un POKÉMON puede\l"
 .string "llegar!$"
 
@@ -392,8 +392,8 @@ release
 end
 
 BaseRocketHoennS2_Text_28:
-.string "¡Uajajaja, el TEAM ROCKET manda desde\n"
-.string "las sombras!$"
+.string "¡Jo, jo, jo! ¡El TEAM ROCKET manda\n"
+.string "desde las sombras!$"
 
 
 
@@ -1668,7 +1668,7 @@ BaseRocketHoennS2_Text_MensajeShinx:
 
 
 BaseRocketHoennS2_Text_12:
-    .string "Es un SHINX, viven en SINOHH, me lo\n"
+    .string "Es un SHINX, viven en SINNOH. Me lo\n"
 	.string "regaló un colaborador que vive allí.\l"
 	.string "SHINX es una versión física de\l"
 	.string "ELECTRIKE, más lento, pero bastante\l"

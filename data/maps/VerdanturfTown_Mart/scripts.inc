@@ -44,7 +44,7 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial:
 	.string	"En cualquier combate POKéMON,\n"
 	.string	"un ESPECIAL X es crucial.\p"
 	.string	"Potencia la fuerza de algunos\n"
-	.string	"movimientos, pero sólo durante\l"
+	.string	"movimientos, pero solo durante\l"
 	.string	"un combate.$"
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:

@@ -154,7 +154,7 @@ FortreeCity_Gym_Text_JaredIntro:
 
 FortreeCity_Gym_Text_JaredDefeat:
 	.string	"Tú{PAUSE 5}…{PAUSE 5}\n"
-	.string	"eres muy fuerte{PAUSE 5}…{PAUSE 5}$"
+	.string	"Eres muy fuerte{PAUSE 5}…{PAUSE 5}$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
 	.string	"Un ENTRENADOR ha de ser listo y saber\n"

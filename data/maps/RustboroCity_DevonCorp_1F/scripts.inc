@@ -109,7 +109,7 @@ RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string	"las PIEZAS DEVON que robaron.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string	"Lo siento, sólo el personal autorizado\n"
+	.string	"Lo siento, solo el personal autorizado\n"
 	.string	"puede entrar aquí.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:

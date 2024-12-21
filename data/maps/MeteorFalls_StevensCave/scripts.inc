@@ -423,7 +423,7 @@ MeteorFalls_StevensCave_Andra_Texto_20:
 
 MeteorFalls_StevensCave_Andra_Texto_21:
 	.string "ANDRA: ¿Igual que hiciste con MIGUEL?\n"
-	.string "Lo siento pero ese no es mi estilo.$"
+	.string "Lo siento, pero ese no es mi estilo.$"
 
 MeteorFalls_StevensCave_Andra_Texto_22:
 	.string "Aunque me ofrecieras al mismísimo\n"

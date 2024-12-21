@@ -106,8 +106,8 @@ GraniteCave_Llamada_Giovanni_Texto_2:
 
 GraniteCave_Llamada_Giovanni_Texto_3:
 	.string "Entonces sí que estaban operando en\n"
-	.string "CUEVA GRANITO, cuéntame en detalle,\l"
-	.string "{PLAYER}.$"
+	.string "CUEVA GRANITO.\l"
+	.string "Cuéntame en detalle, {PLAYER}.$"
 
 GraniteCave_Llamada_Giovanni_Texto_4:
 	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -125,7 +125,7 @@ GraniteCave_Llamada_Giovanni_Texto_6:
 	.string "lo querrán{PAUSE 5}…{PAUSE 5}$"
 
 GraniteCave_Llamada_Giovanni_Texto_7:
-	.string "Escucha {PLAYER}. Olvídate de DEVON\n"
+	.string "Escucha, {PLAYER}. Olvídate de DEVON\n"
 	.string "por el momento, tal como están las\l"
 	.string "cosas no podemos sacar nada de ellos.\l"
 	.string "Está claro que conocen HOENN mejor que\l"
@@ -140,11 +140,11 @@ GraniteCave_Llamada_Giovanni_Texto_8:
 GraniteCave_Llamada_Giovanni_Texto_9:
 	.string "Ahora que tienes acceso a buceo,\n"
 	.string "podrás explorar en detalle los mares de\l"
-	.string "JOHTO, y encontrar a KYOGRE para\l"
+	.string "HOENN, y encontrar a KYOGRE para\l"
 	.string "analizar sus datos.$"
 
 GraniteCave_Llamada_Giovanni_Texto_10:
 	.string "Así, ganaremos tiempo mientras\n"
-	.string "avanzamos por otro lado. Nada más\l"
+	.string "avanzamos por otro lado. Nada más,\l"
 	.string "{PLAYER}. Estamos en contacto.$"
 

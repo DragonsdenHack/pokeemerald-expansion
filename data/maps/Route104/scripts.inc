@@ -1002,7 +1002,7 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string	"Intentar atrapar el POKéMON de otro\n"
 	.string	"ENTRENADOR es igual que robar.\p"
-	.string	"Sólo se deben lanzar POKé BALLS\n"
+	.string	"Solo se deben lanzar POKé BALLS\n"
 	.string	"a los POKéMON salvajes, no lo olvides.$"
 
 Route104_Text_ImNotATrainer:
@@ -1022,7 +1022,7 @@ Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 Route104_Text_TMsAreOneTimeUse:
 	.string	"¡Un consejo!\p"
 	.string	"Una MÁQUINA TÉCNICA, o MT,\n"
-	.string	"sólo se puede usar una vez.\p"
+	.string	"solo se puede usar una vez.\p"
 	.string	"Una vez utilizada, desaparece, así\n"
 	.string	"que piensa bien cómo la empleas.$"
 

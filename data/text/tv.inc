@@ -29,7 +29,7 @@ LilycoveCity_ContestLobby_Text_ThatsAllForInterview:
 	.string	"Resulta inspirador.\p"
 	.string	"Creo que puedo escribir una buena\n"
 	.string	"historia sobre los CONCURSOS POKéMON.\p"
-	.string	"Y quizás, sólo quizás, esta historia\n"
+	.string	"Y quizás, solo quizás, esta historia\n"
 	.string	"llegue a salir en la tele.\l"
 	.string	"¡Espero que no te la pierdas si sale!$"
 
@@ -263,7 +263,7 @@ gTVBravoTrainerBattleTowerText13::
 	.string	"“{STR_VAR_1}”.\n"
 	.string	"¿No es muy apropiado?\p"
 	.string	"Ese combate contra {STR_VAR_3}\n"
-	.string	"al final… Sólo puede describirse como\l"
+	.string	"al final… Solo puede describirse como\l"
 	.string	"“{STR_VAR_1}”, claro.\p"
 	.string	"La decepción de {STR_VAR_2} queda\n"
 	.string	"reflejada alta y clara, así es.$"
@@ -707,7 +707,7 @@ gTVTrainerFanClubSpecialText03::
 	.string	"demasiado a {STR_VAR_1}.$"
 
 gTVTrainerFanClubSpecialText04::
-	.string	"Sólo ha conseguido esta puntuación:\n"
+	.string	"Solo ha conseguido esta puntuación:\n"
 	.string	"¡{STR_VAR_3}! No podría ser peor.\p"
 	.string	"Está claro que {STR_VAR_2} tiene a\n"
 	.string	"{STR_VAR_1} en poca consideración.$"
@@ -1075,7 +1075,7 @@ SmartShopper_Text_RandomComment3::
 	.string	"¡¿Y encima {STR_VAR_3}?!\p"
 	.string	"Nunca pensé que nadie podría\n"
 	.string	"comprar tanto de eso.\p"
-	.string	"Yo sólo me puedo comprar una\n"
+	.string	"Yo solo me puedo comprar una\n"
 	.string	"o dos unidades cada vez…$"
 
 SmartShopper_Text_RandomComment4::
@@ -1083,7 +1083,7 @@ SmartShopper_Text_RandomComment4::
 	.string	"{STR_VAR_2} y un montón, además!\p"
 	.string	"Pero resultó ser demasiado.\n"
 	.string	"Al final me arrepentí…\p"
-	.string	"Desde entonces sólo compro lo\n"
+	.string	"Desde entonces solo compro lo\n"
 	.string	"estrictamente necesario…\p"
 	.string	"¡Huy!\p"
 	.string	"¡Si yo no tengo que hablar de mí!$"
@@ -2391,7 +2391,7 @@ gTVSafariFanClubText05::
 	.string	"que no destaca ninguno.\p"
 	.string	"A {STR_VAR_1} se le ha dado\n"
 	.string	"especialmente mal.\p"
-	.string	"Sólo consiguió atrapar\n"
+	.string	"Solo consiguió atrapar\n"
 	.string	"{STR_VAR_2} POKéMON.$"
 
 gTVSafariFanClubText06::
@@ -2810,7 +2810,7 @@ GabbyAndTy_Text_TyPostBattle:
 	.string	"¡He grabado material de primera!$"
 
 GabbyAndTy_Text_TyNotEnoughMons:
-	.string	"TEO: ¿Sólo tienes un POKéMON?\p"
+	.string	"TEO: ¿Solo tienes un POKéMON?\p"
 	.string	"Si tuvieras alguno más, podría grabar\n"
 	.string	"algo bueno para la tele, pero…$"
 
@@ -2878,7 +2878,7 @@ gTVInSearchOfTrainersText04::
 	.string	"de sí que se enfrente a {PLAYER}.$"
 
 gTVInSearchOfTrainersText05::
-	.string	"Sólo se puede decir una cosa…\n"
+	.string	"Solo se puede decir una cosa…\n"
 	.string	"¡Ni se te ocurra lanzar otra POKé BALL\l"
 	.string	"mientras luches contra un ENTRENADOR!\p"
 	.string	"{PLAYER} es muy fuerte, cierto, pero no\n"

@@ -337,7 +337,7 @@ RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string	"¡Guau, esto sí que es excepcional!\n"
 	.string	"¡No tienes uno, sino dos fósiles!\p"
-	.string	"Desgraciadamente, esta máquina sólo\n"
+	.string	"Desgraciadamente, esta máquina solo\n"
 	.string	"puede regenerar un POKéMON cada vez.\p"
 	.string	"¿Quieres regenerar alguno\n"
 	.string	"de tus dos fósiles?$"

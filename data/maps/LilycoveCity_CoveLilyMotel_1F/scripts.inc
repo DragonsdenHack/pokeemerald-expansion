@@ -106,12 +106,9 @@ LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
 LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
 	.string	"Oh, disculpa. Estaba viendo la tele\n"
 	.string	"y no te he visto llegar.\p"
-	.string	"Me han dicho que alguien ha destrozado\n"
-	.string	"la GUARIDA del EQUIPO AQUA.\p"
-	.string	"Gracias a eso, la gente ha perdido el\n"
-	.string	"miedo y acabo de recibir a un grupo.\p"
-	.string	"Son todos de la misma empresa…\n"
-	.string	"¿Cómo era? Ah, sí, GAME algo{PAUSE 5}…{PAUSE 5}$"
+	.string	"Es que desde que llegó el EQUIPO\n"
+	.string	"AQUA, no vienen turistas, así que\l"
+	.string	"no esperaba a nadie{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
 	.string	"¡Increíble! ¿Me estás diciendo que un\n"

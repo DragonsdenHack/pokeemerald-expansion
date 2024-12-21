@@ -804,30 +804,30 @@ Route110_Text_BrendanExplainItemfinder:
 	.string "POKéMON.$"
 
 Route110_Text_RideBikeAtFullSpeed:
-	.string "Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?$"
+	.string "¿A que molaría montar en BICI a toda\n"
+	.string "velocidad por el CAMINO de BICIS?$"
 
 Route110_Text_HairStreamsBehindMe:
-	.string "How do you like the way my raven-\n"
-	.string "colored hair streams behind me?\p"
-	.string "I grew my hair out just for that.$"
+	.string "¡Me encanta dejar flotar mi cabello\n"
+	.string "al viento!\p"
+	.string "Me lo he dejado largo sólo para eso.$"
 
 Route110_Text_YouGotBikeFromRydel:
-	.string "Oh, hey, you got that BIKE from RYDEL!\p"
-	.string "Oh, it's glaringly obvious.\n"
-	.string "It says right on your bike…\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
-	.string "That name's everywhere.\p"
-	.string "You should ride it around all over\n"
-	.string "the place--it's good advertising!$"
+	.string "¡Eh, ésa es una BICI de ANACLETO!\p"
+	.string "Es más que evidente.\n"
+	.string "Si lo pone en la bicicleta…\p"
+	.string "ANACLETO, ANACLETO, ANACLETO,\n"
+	.string "ANACLETO, ANACLETO, ANACLETO, \p"
+	.string "ANACLETO, ANACLETO, ANACLETO,\n"
+	.string "ANACLETO, ANACLETO, ANACLETO, \p"
+	.string "ANACLETO, ANACLETO, ANACLETO,\n"
+	.string "ANACLETO, ANACLETO, ANACLETO, \p"
+	.string "ANACLETO, ANACLETO, ANACLETO,\n"
+	.string "ANACLETO, ANACLETO, ANACLETO, \p"
+	.string "ANACLETO, ANACLETO, ANACLETO…\n"
+	.string "Está más repetido que un cromo.\p"
+	.string "¡Deberías cobrar por hacer tanta\n"
+	.string "publicidad!$"
 
 Route110_Text_TwoRoads:
 	.string	"Hay dos caminos: uno que va por\n"
@@ -842,7 +842,7 @@ Route110_Text_WalkOnTheLowRoad:
 Route110_Text_BikeTechniques:
 	.string	"Cuando aprendes a hacer virguerías\n"
 	.string	"con la BICI, te lo pasas aún mejor.\p"
-	.string	"Además, hay sitios a los que sólo\n"
+	.string	"Además, hay sitios a los que solo\n"
 	.string	"se llega con determinadas técnicas.$"
 
 Route110_Text_WhichShouldIChoose:
@@ -865,7 +865,7 @@ Route110_Text_ChallengeReactionBest:
 
 Route110_Text_ChallengeReactionGood:
 	.string	"Tienes una técnica notable.\p"
-	.string	"Te sugiero que frenes sólo lo justo\n"
+	.string	"Te sugiero que frenes solo lo justo\n"
 	.string	"para evitar colisiones.$"
 
 Route110_Text_ChallengeReactionOk:

@@ -68,6 +68,6 @@ LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
 	.string	"Quisiera tener todas las MT, pero da\n"
-	.string	"igual porque un POKéMON sólo puede\l"
+	.string	"igual porque un POKéMON solo puede\l"
 	.string	"aprender cuatro movimientos.$"
 

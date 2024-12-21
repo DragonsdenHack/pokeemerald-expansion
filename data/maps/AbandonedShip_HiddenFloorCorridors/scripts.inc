@@ -286,12 +286,12 @@ walk_in_place_up
 step_end
 
 AbandonedShip_Miguel_Texto_1:
-	.string "????: Ya hemos acabado, toda\n"
-	.string "prueba de nuestra presencia aquí ha\l"
-	.string "sido borrada.$"
+	.string "????: Ya hemos acabado. Toda\n"
+	.string "prueba de nuestra presencia aquí\l"
+	.string "ha sido borrada.$"
 
 AbandonedShip_Miguel_Texto_2:
-	.string "Has hecho un buen trabajo MIGUEL, esa\n"
+	.string "Has hecho un buen trabajo, MIGUEL. Esa\n"
 	.string "copia del ESCÁNER es muy convincente.\l"
 	.string "Todos esos científicos de tres al\l"
 	.string "cuarto de los astilleros de PORTUAL\l"

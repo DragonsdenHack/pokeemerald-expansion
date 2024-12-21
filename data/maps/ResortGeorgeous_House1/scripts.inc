@@ -167,9 +167,9 @@ ResortGeorgeous_House1_Text_Consul_3:
 	.string "selectos.$"
 
 ResortGeorgeous_House1_Text_Consul_3.1:
-	.string "Ahora si me disculpas, tengo que\n"
+	.string "Ahora, si me disculpas, tengo que\n"
 	.string "hablar con el representante de\l"
-	.string "KANTO, ¡hohohoho!$"
+	.string "KANTO. ¡Jo, jo, jo!$"
 
 ResortGeorgeous_House1_Text_Consul_4:
 .string "ANDRA: ¡{PLAYER}!$"

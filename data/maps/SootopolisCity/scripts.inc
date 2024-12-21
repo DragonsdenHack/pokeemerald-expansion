@@ -1555,7 +1555,7 @@ SootopolisCity_Text_GroudonPleaseStop:
 	.string	"MAGNO: GROU… GROUDON…\n"
 	.string	"¡Te lo ruego, detente!\p"
 	.string	"¡Ahora sé cuán grande es tu poder!\p"
-	.string	"¡Si no paras, no sólo acabarás con\n"
+	.string	"¡Si no paras, no solo acabarás con\n"
 	.string	"ARRECÍPOLIS, sino con todo HOENN!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
@@ -1674,7 +1674,7 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string	"¿A que ya lo sabes?\p"
 	.string	"¡Exacto! Debes vencer al LÍDER\n"
 	.string	"de GIMNASIO de ARRECÍPOLIS.\p"
-	.string	"Para continuar, sólo tienes\n"
+	.string	"Para continuar, solo tienes\n"
 	.string	"que entrar por esta puerta.$"
 
 SootopolisCity_Text_DazzledByMentor:
@@ -1883,7 +1883,7 @@ SootopolisCity_Andra_Texto_13:
 	.string "GALANO: Este tipo de información solo\n"
 	.string "es conocida por los líderes de\l"
 	.string "ARRECÍPOLIS y los guardianes de CUEVA\l"
-	.string "ANCESTRAL, no debería hacer esto,\l"
+	.string "ANCESTRAL. No debería hacer esto,\l"
 	.string "pero{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_Andra_Texto_14:

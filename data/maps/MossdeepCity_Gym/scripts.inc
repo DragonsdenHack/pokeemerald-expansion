@@ -467,7 +467,7 @@ MossdeepCity_Gym_Text_MauraDefeat:
 MossdeepCity_Gym_Text_MauraPostBattle:
 	.string	"A aquellos que trabajan duro\n"
 	.string	"les aguarda un futuro brillante.\p"
-	.string	"A aquellos que gandulean sólo\n"
+	.string	"A aquellos que gandulean solo\n"
 	.string	"les esperan bastantes palos…\p"
 	.string	"¡Siempre se recoge lo que se siembra!$"
 
@@ -641,7 +641,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 	.string	"VITO: Pero…,\n"
 	.string	"LETI: si quieres pelea…,\p"
 	.string	"VITO: ¡no basta con un POKéMON!\n"
-	.string	"LETI: ¡Y sólo tienes uno!\p"
+	.string	"LETI: ¡Y solo tienes uno!\p"
 	.string	"VITO: Necesitas…\n"
 	.string	"LETI: al menos dos POKéMON.$"
 

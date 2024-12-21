@@ -266,7 +266,7 @@ Route118_Text_IdenticalMindsTakeThis:
 	.string	"¡Ajá!\n"
 	.string	"¡Pensamos lo mismo!\p"
 	.string	"Pues…\n"
-	.string	"¡toma esta CAÑA BUENA!$"
+	.string	"¡Toma esta CAÑA BUENA!$"
 
 Route118_Text_TryYourLuckFishing:
 	.string	"Prueba tu suerte pescando cada vez\n"

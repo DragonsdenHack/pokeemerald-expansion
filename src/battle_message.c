@@ -502,7 +502,7 @@ static const u8 sText_PkmnsItemRestoredHealth[] = _("¡{B_LAST_ITEM} de {B_SCR_A
 static const u8 sText_PkmnsItemRestoredPP[] = _("¡{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nrestauró los PP de {B_BUFF1}!");
 static const u8 sText_PkmnsItemRestoredStatus[] = _("¡{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nrestauró sus características!");
 static const u8 sText_PkmnsItemRestoredHPALittle[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} restauró algo\nsus PS con {B_LAST_ITEM}!");
-static const u8 sText_ItemAllowsOnlyYMove[] = _("¡{B_LAST_ITEM} sólo permite usar\n{B_CURRENT_MOVE}!\p");
+static const u8 sText_ItemAllowsOnlyYMove[] = _("¡{B_LAST_ITEM} solo permite usar\n{B_CURRENT_MOVE}!\p");
 static const u8 sText_PkmnHungOnWithX[] = _("¡{B_DEF_NAME_WITH_PREFIX} resistió\nusando su {B_LAST_ITEM}!");
 const u8 gText_EmptyString3[] = _("");
 static const u8 sText_YouThrowABallNowRight[] = _("You throw a BALL now, right?\nI… I'll do my best!");
@@ -731,7 +731,7 @@ static const u8 sText_Trainer2LoseText[];
 	static const u8 sText_HeavyRainLifted[] = _("¡La intensa lluvia ha amainado!{PAUSE 64}");
 	static const u8 sText_MoveFizzledOutInTheHeavyRain[] = _("The Fire-type attack fizzled out\nin the heavy rain!");
 	static const u8 sText_NoReliefFromHeavyRain[] = _("There is no relief from\nthis heavy rain!");
-	static const u8 sText_MysteriousAirCurrent[] = _("¡Un viento misterioso protege\nlos pokémon tipo volador!");
+	static const u8 sText_MysteriousAirCurrent[] = _("¡Un viento misterioso protege\nlos POKÉMON TIPO VOLADOR!");
 	static const u8 sText_StrongWindsDissipated[] = _("¡Los efectos del vientos\nse disiparon!{PAUSE 64}");
 	static const u8 sText_MysteriousAirCurrentBlowsOn[] = _("¡El viento misterioso\nsigue soplando!");
 	static const u8 sText_AttackWeakenedByStrongWinds[] = _("¡El viento misterioso\ndebilitó el ataque!");

@@ -1014,7 +1014,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_15:
 	.string "que es urgente, señor.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_16:
-.string "GIOVANNI: Hacédle pasar.$"
+.string "GIOVANNI: Hacedle pasar.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_17:
 .string "GIOVANNI: Espero que tu causa sea\n"

@@ -168,7 +168,7 @@ Cave_Regigigas_S5_Andra_Texto_2:
 
 Cave_Regigigas_S5_Andra_Texto_3:
 	.string "Esto ya lo he visto antes{PAUSE 15}…{PAUSE 15} las cuevas\n"
-	.string "de los regis cuentan con cosas así.$"
+	.string "de los REGIS cuentan con cosas así.$"
 
 Cave_Regigigas_S5_Andra_Texto_4:
 	.string "Deberemos tomar otro camino, es posible\n"

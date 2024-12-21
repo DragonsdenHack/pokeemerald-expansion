@@ -72,7 +72,7 @@ end
 
 SnowpointCity_Cuarto_Npc_Texto_1:
 	.string "Tienes suerte de que sea verano. En\n"
-	.string "invierno con ese traje de congelarías\l"
+	.string "invierno con ese traje te congelarías\l"
 	.string "enseguida en PUNTANEVA. ¡Una bonita y\l"
 	.string "calentita bufanda no te vendría nada\l"
 	.string "mal!$"
@@ -86,7 +86,7 @@ release
 end
 
 SnowpointCity_Quinto_Npc_Texto_1:
-	.string "Brrr… en esta ciudad hace siempre un\n"
+	.string "Brrr… En esta ciudad hace siempre un\n"
 	.string "frío tremendo. Pero los espíritus de\l"
 	.string "entrenadores y POKÉMON son ardientes.\l"
 	.string "Sobre todo el de la LÍDER DE GIMNASIO.$"
@@ -467,7 +467,7 @@ SnowpointCity_Salida_Texto_3:
 
 SnowpointCity_Salida_Texto_4:
 	.string "Un futuro que ahora es incierto para\n"
-	.string "mí{PAUSE 25}…{PAUSE 25} después de esto, ¿cómo volveré al\l"
+	.string "mí{PAUSE 25}…{PAUSE 25} Después de esto, ¿cómo volveré al\l"
 	.string "CASINO MALVALONA? Ahora sé demasiadas\l"
 	.string "cosas.$"
 

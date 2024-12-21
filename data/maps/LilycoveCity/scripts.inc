@@ -541,7 +541,7 @@ LilycoveCity_Text_MovedLootIntoHideoutToday:
 	.string	"¡Yo no he dicho nada!$"
 
 LilycoveCity_Text_ChanceToDoBigThings:
-	.string	"Soy sólo un SOLDADO, así que no sé\n"
+	.string	"Soy solo un SOLDADO, así que no sé\n"
 	.string	"nada de los planes del JEFE…\p"
 	.string	"¡Pero, siendo parte del EQUIPO AQUA,\n"
 	.string	"sé que vamos a hacer grandes cosas!\p"
@@ -594,7 +594,7 @@ LilycoveCity_Text_ImFromKanto:
 	.string	"y tanto verde, es realmente precioso.\p"
 	.string	"Pero una duda me corroe…\p"
 	.string	"¿Es posible que haya POKéMON raros\n"
-	.string	"que sólo vivan aquí?$"
+	.string	"que solo vivan aquí?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 	.string	"Esos granujas del EQUIPO AQUA no\n"

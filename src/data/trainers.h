@@ -18173,9 +18173,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_443] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_SWIMMER_F,
+        .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .trainerPic = TRAINER_PIC_SWIMMER_F,
+        .trainerPic = TRAINER_PIC_SWIMMER_M,
         .trainerName = _("DAVID"),
         .items = {},
         .doubleBattle = FALSE,
@@ -20903,10 +20903,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_653] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
+        .trainerClass = TRAINER_CLASS_GUARDIA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("SALVAJE"),
+        .trainerPic = TRAINER_PIC_MAROWAK,
+        .trainerName = _("MAROWAK"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN,

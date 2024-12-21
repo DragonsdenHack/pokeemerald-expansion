@@ -51,7 +51,7 @@ BerryBlender_Text_CanHaveOneOfMyBerries:
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string	"Si me sobrara alguna BAYA,\n"
 	.string	"te la daría con sumo gusto…\p"
-	.string	"Pero hoy sólo tengo una. Lo tendremos\n"
+	.string	"Pero hoy solo tengo una. Lo tendremos\n"
 	.string	"que dejar para otro día, lo siento.$"
 
 BerryBlender_Text_PokeblockCaseIsFull:
@@ -237,7 +237,7 @@ BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
 	.string	"¿Cómo?\n"
 	.string	"¿Que no tienes BAYAS?\p"
 	.string	"Si me sobraran, te daría una…\p"
-	.string	"Pero sólo tengo una. Lo siento.$"
+	.string	"Pero solo tengo una. Lo siento.$"
 
 BerryBlender_EventScript_BerryBlender1::
 	lockall

@@ -107,7 +107,7 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 	.string	"una cosa…\p"
 	.string	"Este entorno natural está sentando\n"
 	.string	"a BLASCO de maravilla.\p"
-	.string	"Quizás no sea sólo el entorno.\n"
+	.string	"Quizás no sea solo el entorno.\n"
 	.string	"Los POKéMON también tendrán que ver…$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
@@ -145,7 +145,7 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
 	.string	"El novio de mi hija es de lo más\n"
 	.string	"lanzado y apasionado.\p"
 	.string	"Está cavando el túnel\n"
-	.string	"sin parar sólo para poder verla.\p"
+	.string	"sin parar solo para poder verla.\p"
 	.string	"Mi hija está un poco preocupada,\n"
 	.string	"por eso va al túnel cada dos por tres.$"
 

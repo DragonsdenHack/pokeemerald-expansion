@@ -1,5 +1,5 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
-	.string	"Este movimiento sólo se puede aprender\n"
+	.string	"Este movimiento solo se puede aprender\n"
 	.string	"una vez, ¿vale?$"
 
 MoveTutor_Text_SwaggerTeach:
@@ -74,7 +74,7 @@ MoveTutor_MimicTeach:
 	.string	"a uno de tus POKéMON?$"
 
 MoveTutor_MimicDeclined:
-	.string	"¡Qué juventud tan desagradecida! ¡Sólo\n"
+	.string	"¡Qué juventud tan desagradecida! ¡Solo\n"
 	.string	"quería enseñar MIMÉTICO a un POKéMON!$"
 
 MoveTutor_Text_MimicWhichMon:
@@ -92,7 +92,7 @@ MoveTutor_Text_MetronomeTeach:
 	.string	"¡Quiero comprar un montón de cosas!\n"
 	.string	"Pero ya me he gastado mi paga…\p"
 	.string	"Estaría genial que hubiese una forma\n"
-	.string	"de, con sólo mover el dedo,\l"
+	.string	"de, con solo mover el dedo,\l"
 	.string	"hacer aparecer monedas, ¿eh?\p"
 	.string	"Si quieres, puedo enseñar a tu POKéMON\n"
 	.string	"el movimiento METRÓNOMO.\p"
@@ -171,7 +171,7 @@ MoveTutor_Text_DynamicPunchTeach:
 	.string	"¡Grrr! ¡Toma! ¡Toma! ¡Toma!\n"
 	.string	"¡Toma! ¡Toma! ¡Toma!\p"
 	.string	"¿Qué? ¡No me mires así!\n"
-	.string	"¡Sólo estoy dándole al suelo!\p"
+	.string	"¡Solo estoy dándole al suelo!\p"
 	.string	"Ah, ¿que quieres que enseñe\n"
 	.string	"PUÑODINÁMICO a uno de tus POKéMON?$"
 

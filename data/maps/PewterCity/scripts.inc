@@ -250,7 +250,7 @@ PewterCity_3_Texto_3:
 
 PewterCity_3_Texto_4:
 	.string "Por tu apariencia debes\n"
-	.string "ser un pez gordo. ¿Verdad?$"
+	.string "ser un pez gordo, ¿verdad?$"
 
 PewterCity_3_Texto_5:
 	.string "¿Me ayudarías con algo muy importante?$"

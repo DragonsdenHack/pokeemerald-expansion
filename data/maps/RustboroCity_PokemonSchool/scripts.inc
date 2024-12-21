@@ -257,7 +257,7 @@ RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 	.string	"antes que su rival.\p"
 	.string	"Hay muchos otros objetos que\n"
 	.string	"se pueden dar a los POKéMON.\p"
-	.string	"Sólo eso da para estudiar un montón.$"
+	.string	"Solo eso da para estudiar un montón.$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow:
 	.string	"Voy a intercambiar un POKéMON\n"

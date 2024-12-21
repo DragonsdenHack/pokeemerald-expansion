@@ -284,7 +284,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_6:
 	.string "importa. Observa.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_7:
-	.string "DEVON no es como el TEAM ROCKET, aquí\n"
+	.string "DEVON no es como el TEAM ROCKET. Aquí\n"
 	.string "solo nos dedicamos a estudiar los\l"
 	.string "FÓSILES de HOENN en profundidad.$"
 
@@ -302,7 +302,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_9:
 GraniteCave_Encuentro_Esmeralda_Texto_10:
 	.string "Pero que pudieras entrar a MALVALANOVA\n"
 	.string "fue iniciativa del DR.RASMUS. Después\l"
-	.string "de verte en el MT.CENIZO quiso poner a\l"
+	.string "de verte en el MT.CENIZO, quiso poner a\l"
 	.string "prueba a tu equipo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_11:
@@ -346,10 +346,10 @@ GraniteCave_Encuentro_Esmeralda_Texto_17:
 	.string "Impresionante.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_18:
-	.string "No en vano eres el mejor ENTRENADOR de\n"
-	.string "entre los ROCKET, ¿o no? Seguro que\l"
-	.string "podrías haberle dado más pelea a\l"
-	.string "nuestro ADMIN.AMATISTA de lo que la\l"
+	.string "Dicen que eres el mejor ENTRENADOR de\p"
+	.string "entre los ROCKET, esto lo confirma.\n"
+	.string "Seguro que podrías haberle dado más pelea\l"
+	.string "a nuestro ADMIN.AMATISTA de lo que la\l"
 	.string "otra ADMIN hizo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_19:
@@ -357,7 +357,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_19:
 	.string "aceptes nuestras disculpas.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_20:
-	.string "Lo que hicimos en TORRE RADIO estuvo\n"
+	.string "Lo que hicimos en la TORRE RADIO estuvo\n"
 	.string "mal, pero era nuestra única opción:\l"
 	.string "esas ondas de radio son un recurso muy\l"
 	.string "valioso que nos permitirá indagar más\l"

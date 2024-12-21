@@ -62,7 +62,7 @@ walk_in_place_down
 step_end
 
 Guardia_Cave_Fuji_Texto_1:
-	.string "Es asombroso, ¿has visto {PLAYER}?$"
+	.string "Es asombroso, ¿has visto, {PLAYER}?$"
 
 Guardia_Cave_Fuji_Texto_2:
 	.string "CUBONE, MAROWAK y KANGASKHAN se han\n"
@@ -72,7 +72,7 @@ Guardia_Cave_Fuji_Texto_2:
 Guardia_Cave_Fuji_Texto_3:
 	.string "Es como si hubieran aprendido del\n"
 	.string "pasado. Quieren construir un lugar\l"
-	.string "alejados de los humanos, dónde poder\l"
+	.string "alejados de los humanos, donde poder\l"
 	.string "vivir en paz.$"
 
 Guardia_Cave_Fuji_Texto_4:
@@ -330,7 +330,7 @@ Guardia_Cave_Sachiko_Texto_15:
 	.string "que nuble tu presente.$"
 
 Guardia_Cave_Sachiko_Texto_16:
-	.string "Yo sin embargo{PAUSE 15}…{PAUSE 15} yo extraño mucho la\n"
+	.string "Yo, sin embargo{PAUSE 15}…{PAUSE 15} yo extraño mucho la\n"
 	.string "KANTO de antes.$"
 
 Guardia_Cave_Sachiko_Texto_17:

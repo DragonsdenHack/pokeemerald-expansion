@@ -25,7 +25,7 @@ SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
 	.string	"Dicen que hay unas antiguas ruinas\n"
 	.string	"cerca de aquí, en el mar.\p"
 	.string	"Es posible que alberguen tesoros\n"
-	.string	"que sólo esperan a ser descubiertos.$"
+	.string	"que solo esperan a ser descubiertos.$"
 
 SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
 	.string	"Fabulosos tesoros submarinos…\p"

@@ -246,7 +246,7 @@ MossdeepCity_Jirachi_Texto_9:
 	.string "posibilidad.$"
 
 MossdeepCity_Jirachi_Texto_10:
-	.string "Tu fé plena en que, pase lo que pase,\n"
+	.string "Tu fe plena en que, pase lo que pase,\n"
 	.string "siempre podrás alcanzar cotas mayores\l"
 	.string "no ha pasado inadvertida.$"
 

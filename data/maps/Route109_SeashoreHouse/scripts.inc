@@ -103,7 +103,7 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
 	.string	"¡Me encantan los combates al rojo vivo!\p"
-	.string	"Tengo esta CASA de la PLAYA sólo\n"
+	.string	"Tengo esta CASA de la PLAYA solo\n"
 	.string	"y exclusivamente por eso.$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:

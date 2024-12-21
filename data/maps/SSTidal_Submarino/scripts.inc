@@ -277,7 +277,7 @@ SSTidal_Submarino_Primera_Escena_Texto_4:
 	.string "????: Iniciando protocolo de inmersión.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_5:
-	.string "Listo, estamos en rumbo.$"
+	.string "Listo. Estamos en rumbo.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_6:
 	.string "ADMIN.AMATISTA: Magnífico. ¿Cuánto\n"
@@ -595,7 +595,7 @@ SSTidal_Submarino_Segunda_Escena_Texto_13:
 
 SSTidal_Submarino_Segunda_Escena_Texto_14:
 	.string "Ha prestado usted un gran servicio a\n"
-	.string "DEVON. Sin sus conocimientos náuticos\l"
+	.string "DEVON. Sin sus conocimientos náuticos,\l"
 	.string "no hubiéramos podido llegar hasta aquí\l"
 	.string "tan facilmente.$"
 
@@ -825,7 +825,7 @@ SSTidal_Submarino_Dracon_Texto_10:
 	.string "tú solo contra un ALTO MANDO?$"
 
 SSTidal_Submarino_Dracon_Texto_11:
-	.string "De verdad{PAUSE 25}…{PAUSE 25} estas nuevas generaciones\n"
+	.string "De verdad{PAUSE 25}…{PAUSE 25} Estas nuevas generaciones\n"
 	.string "del TEAM ROCKET{PAUSE 25}…{PAUSE 25} qué poco pragmáticas.$"
 
 SSTidal_Submarino_Dracon_Texto_12:
@@ -859,8 +859,8 @@ SSTidal_Submarino_Dracon_Texto_17:
 	.string "a la fuerza ni recurriendo a la justicia.$"
 
 SSTidal_Submarino_Dracon_Texto_18:
-	.string "DEVON es lo mejor para HOENN, alguien\n"
-	.string "como tú que viene de fuera jamás lo\l"
+	.string "DEVON es lo mejor para HOENN. Alguien\n"
+	.string "como tú que viene de fuera, jamás lo\l"
 	.string "entendería.$"
 
 SSTidal_Submarino_Dialogo_Dracon::

@@ -68,7 +68,7 @@ NeoLavanda_Ruta_Norte_Fuji_Texto_2:
 
 NeoLavanda_Ruta_Norte_Fuji_Texto_3:
 	.string "Los POKÉMON se han adueñado del lugar.\n"
-	.string "Era de esperar… que el derrumbe de\l"
+	.string "Era de esperar que el derrumbe de\l"
 	.string "TORRE POKÉMON no tuviera ningún\l"
 	.string "impacto en el equilibrio de KANTO.$"
 

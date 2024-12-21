@@ -290,7 +290,7 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
 	.string	"Los POKéMON BICHO no me convencen,\n"
 	.string	"pero quizás debería reconsiderarlo,\l"
-	.string	"aunque sólo sea por cambiar.\p"
+	.string	"aunque solo sea por cambiar.\p"
 	.string	"Quién sabe, ¡a lo mejor resulta\n"
 	.string	"que al final me chiflan!$"
 

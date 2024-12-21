@@ -94,7 +94,7 @@ Route103_Text_AmyPostBattle:
 	.string	"ENTRENADORES.$"
 
 Route103_Text_AmyNotEnoughPokemon:
-	.string	"ALI: O-o-oh… Sólo tienes un POKéMON.\n"
+	.string	"ALI: O-o-oh… Solo tienes un POKéMON.\n"
 	.string	"Así no puedes luchar contra nosotras.$"
 
 Route103_Text_LivIntro:
@@ -132,7 +132,7 @@ Route103_Text_AmyRematchPostBattle:
 	.string	"ENTRENADORES.$"
 
 Route103_Text_AmyRematchNotEnoughPokemon:
-	.string	"ALI: O-o-oh… Sólo tienes un POKéMON.\n"
+	.string	"ALI: O-o-oh… Solo tienes un POKéMON.\n"
 	.string	"Así no puedes luchar contra nosotras.$"
 
 Route103_Text_LivRematchIntro:
@@ -173,8 +173,8 @@ Route103_Text_MiguelDefeated:
 .string "¡Ay, ay, ay, ay! ¡Mi POKÉMON bonito!$"
 
 Route103_Text_MiguelPostBattle:
-	.string "Mi querido POKÉMON es una monada hasta\n"
-	.string "cuando está debilitado.$"
+	.string "Mis queridos POKÉMON son una monada\n"
+	.string "hasta cuando están debilitados.$"
 
 Route103_Text_MiguelRegister:
 	.string "I'll get you to come out and look in\n"
@@ -211,7 +211,7 @@ Route103_Text_IsabelleDefeated:
 	.string "Glu, glu, glu{PAUSE 5}…{PAUSE 5}$"
 
 Route103_Text_IsabellePostBattle:
-	.string "Yo sólo estaba haciendo unos largos…\n"
+	.string "Yo solo estaba haciendo unos largos…\n"
 	.string "Siento haber provocado la colisión.$"
 
 Route103_Text_RhettIntro:
@@ -249,7 +249,7 @@ Route104_Text_GinaPostBattle:
 	.string	"¡Tenemos que entrenar mucho más!$"
 
 Route104_Text_GinaNotEnoughMons:
-	.string	"GINA: ¿Cómo? ¿Sólo tienes un POKéMON?\n"
+	.string	"GINA: ¿Cómo? ¿Solo tienes un POKéMON?\n"
 	.string	"Entonces no luchamos contra ti.\p"
 	.string	"Combatir con un solo POKéMON\n"
 	.string	"es de lo más aburrido. No mola.$"
@@ -466,7 +466,7 @@ Route105_Text_PostBattle:
 
 Route105_Text_ImaniIntro:
 	.string "En el mar soy un as.¡No te lo voy a poner\n"
-	.string "nada fácil sólo porque seas tan joven!$"
+	.string "nada fácil solo porque seas tan joven!$"
 
 Route105_Text_ImaniDefeated:
 	.string "Tu no me tomas en serio,¿verdad?$"
@@ -512,7 +512,7 @@ Route105_Text_JosueIntro:
 	.string "¡Prefiero combatir en los cielos!$"
 
 Route105_Text_JosueDefeated:
-	.string "He perdido, pero sólo porque estamos\n"
+	.string "He perdido, pero solo porque estamos\n"
 	.string "luchando en el mar.$"
 
 Route105_Text_JosuePostBattle:
@@ -950,7 +950,7 @@ Route109_Text_ChandlerPostBattle:
 	.string "y todo{PAUSE 5}…{PAUSE 5}$"
 
 Route109_Text_HaileyIntro:
-	.string "No sé nadar, sólo finjo que sé.$"
+	.string "No sé nadar, solo finjo que sé.$"
 
 Route109_Text_HaileyDefeated:
 	.string "¡Si ya lo sabía yo! Como no sé nadar{PAUSE 5}…{PAUSE 5}$"
@@ -991,7 +991,7 @@ Route110_Text_AnthonyDefeated:
 .string "¡Me has dejado atrás del todo!$"
 
 Route110_Text_AnthonyPostBattle:
-	.string "No basta sólo la velocidad para ganar\n"
+	.string "No basta solo la velocidad para ganar\n"
 	.string "en los combates POKÉMON, está claro{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_BenjaminIntro:
@@ -1087,11 +1087,11 @@ Route110_Text_JaclynPostBattle:
 	.string "ya verás!$"
 
 Route110_Text_EdwinIntro:
-	.string "¿Puedo ver tus POKÉMON? Sólo una\n"
+	.string "¿Puedo ver tus POKÉMON? Solo una\n"
 	.string "miradita{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwinDefeated:
-	.string "Yo sólo quería completar mi colección{PAUSE 5}…{PAUSE 5}$"
+	.string "Yo solo quería completar mi colección{PAUSE 5}…{PAUSE 5}$"
 
 Route110_Text_EdwinPostBattle:
 	.string "Cuando veo un POKÉMON que no conozco,\n"
@@ -1128,7 +1128,7 @@ Route110_Text_DalePostBattle:
 	.string "para ver si pica algo.$"
 
 Route110_Text_IsabelIntro:
-	.string "¡Ja, ja, ja! ¡Iría al fin del mundo sólo\n"
+	.string "¡Ja, ja, ja! ¡Iría al fin del mundo solo\n"
 	.string "para fardar de POKÉMON!$"
 
 Route110_Text_IsabelDefeated:
@@ -1918,7 +1918,7 @@ Route114_Text_IvyPostBattle:
 	.string	"sea una figura algún día.$"
 
 Route114_Text_IvyNotEnoughMons:
-	.string	"ILDA: ¿Sólo tienes un POKéMON?\n"
+	.string	"ILDA: ¿Solo tienes un POKéMON?\n"
 	.string	"Debe de sentirse solísimo…$"
 
 Route114_Text_KaiIntro:
@@ -1934,7 +1934,7 @@ Route114_Text_KaiPostBattle:
 	.string "aún mayor!$"
 
 Route114_Text_CharlotteIntro:
-	.string "¡Quiero que sepas una cosa! ¡No sólo soy\n"
+	.string "¡Quiero que sepas una cosa! ¡No solo soy\n"
 	.string "una cara bonita!$"
 
 Route114_Text_CharlotteDefeat:
@@ -2388,7 +2388,7 @@ Route117_Text_MariaDefeat:
 	.string "más…{PAUSE 5}$"
 
 Route117_Text_MariaPostBattle:
-	.string "Un entrenamiento sólo sirve si lo haces\n"
+	.string "Un entrenamiento solo sirve si lo haces\n"
 	.string "de forma constante. Muy bien. Voy a\l"
 	.string "entrenarme mucho más en serio desde\l"
 	.string "mañana.$"
@@ -2459,7 +2459,7 @@ Route117_Text_MegPostBattle:
 	.string	"no hubiera sido por mí, habría ganado.$"
 
 Route117_Text_MegNotEnoughMons:
-	.string	"MATI: ¿Sólo tienes un POKéMON?\n"
+	.string	"MATI: ¿Solo tienes un POKéMON?\n"
 	.string	"Pues entonces no podemos luchar.\p"
 	.string	"Nosotras hacemos COMBATES DOBLES.$"
 
@@ -2494,7 +2494,7 @@ Route117_Text_MegPostRematch:
 	.string	"Esto me deprime…$"
 
 Route117_Text_MegRematchNotEnoughMons:
-	.string	"MATI: ¿Sólo tienes un POKéMON?\n"
+	.string	"MATI: ¿Solo tienes un POKéMON?\n"
 	.string	"Pues entonces no podemos luchar.\p"
 	.string	"Nosotras hacemos COMBATES DOBLES.$"
 
@@ -2729,7 +2729,7 @@ Route119_Text_JacksonIntro:
 
 Route119_Text_JacksonDefeat:
 	.string "Todavía tengo mucho que aprender\n"
-	.string "sobre los Pokémon, por lo que se ve.$"
+	.string "sobre los POKÉMON, por lo que se ve.$"
 
 Route119_Text_JacksonPostBattle:
 	.string "Tenemos un sueño: alejarnos de la\n"
@@ -2850,7 +2850,7 @@ Route119_Text_ChrisIntro:
 	.string "Me has dirigido la palabra…\n"
 	.string "¡así que buscas pelea! \p"
 	.string "¡Perfecto! ¡Te voy a atacar con los\n"
-	.string "pokémon que atrapé usando SURF!$"
+	.string "POKÉMON que atrapé usando SURF!$"
 
 Route119_Text_ChrisDefeat:
 	.string "No tengo ni idea de qué hay que hacer\n"
@@ -3013,7 +3013,7 @@ Route120_Text_JenniferPostBattle:
 Route120_Text_ChipIntro:
 	.string "¿Con quién tengo el placer de hablar?\n"
 	.string "¿Estás buscando antiguas ruinas cuya\l"
-	.string "existencia se menciona sólo en las\l"
+	.string "existencia se menciona solo en las\l"
 	.string "leyendas?$"
 
 Route120_Text_ChipDefeat:
@@ -3166,7 +3166,7 @@ Route121_Text_KatePostBattle:
 	.string	"no puedo decepcionarle…$"
 
 Route121_Text_KateNotEnoughMons:
-	.string	"CATI: Si sólo tienes un POKéMON,\n"
+	.string	"CATI: Si solo tienes un POKéMON,\n"
 	.string	"no podemos luchar contigo.\p"
 	.string	"Sería aprovecharnos de ti…$"
 
@@ -4082,7 +4082,7 @@ Route127_Text_AthenaDefeat:
 	.string "ninguna estrategia.$"
 
 Route127_Text_AthenaPostBattle:
-	.string "Cuando sólo estoy rodeada de mar y\n"
+	.string "Cuando solo estoy rodeada de mar y\n"
 	.string "cielo, siento que el tiempo se detiene.$"
 
 Route128_Text_IsaiahIntro:
@@ -4520,7 +4520,7 @@ Route133_Text_FranklinDefeat:
 	.string "¡Eres fuerte! ¡Incluso demasiado!$"
 
 Route133_Text_FranklinPostBattle:
-	.string "Sólo a mí me tenía que tocar alguien\n"
+	.string "Solo a mí me tenía que tocar alguien\n"
 	.string "tan fuerte como tú en un combate…\l"
 	.string "Estoy gafado…{PAUSE 5}$"
 
@@ -4626,7 +4626,7 @@ Route134_Text_AlexPostBattle:
 
 Route134_Text_HitoshiIntro:
 	.string "Tú entrenas Pokémon. No digas nada.\n"
-	.string "Sólo pelea.$"
+	.string "Solo pelea.$"
 
 Route134_Text_HitoshiDefeat:
 	.string "… … … … … …\n"
@@ -5790,7 +5790,7 @@ SsAnne18F_Text_ChicaPostBattle:
 
 
 SsAnne21F_Text_PescadorIntro:
-	.string "¡Uajajajajajaja!\n"
+	.string "¡Ja, ja, ja!\n"
 	.string "¡No tienes nada que hacer contra\l"
 	.string "mis POKÉMON provenientes del mar!$"
 
@@ -12474,7 +12474,7 @@ GoldenrodUnderground_Text_LadronIntro:
 	.string "de la ciudad pasando por aquí.\l"
 	.string "¡A cuántos incautos les habré\l"
 	.string "robado!\l"
-	.string "¡Uajaja, tú serás el siguiente!$"
+	.string "¡Je, je! ¡Tú serás el siguiente!$"
 
 
 GoldenrodUnderground_Text_LadronDefeated:
@@ -13729,7 +13729,7 @@ Route27_Text_GuayPostBattle:
 
 
 Route26_Text_PescadorIntro:
-	.string "¡Uajaja!\n"
+	.string "¡Ja, ja, ja!\n"
 	.string "¡Date prisa o todos los peces\l"
 	.string "gordos habrán volado!$"
 
@@ -14882,8 +14882,8 @@ Route111_Text_ChicoIntro:
 
 
 Route111_Text_ChicoDefeated:
-	.string "Mis POKÉMON ya no va a querer salir ni a\n"
-	.string "la vuelta de la esquina…{PAUSE 5}$"
+	.string "Mis POKÉMON ya no van a querer salir ni\n"
+	.string "a la vuelta de la esquina…{PAUSE 5}$"
 
 
 Route111_Text_ChicoPostBattle:
@@ -14939,9 +14939,9 @@ Route111_Text_Chica2PostBattle:
 
 
 Route111_Text_Chico2Intro:
-	.string "No pareces ser de por aquí, esa\n"
-	.string "indumentaria no encaja con un\l"
-	.string "ejecutivo de DEVON.$"
+	.string "No pareces ser de por aquí.\n"
+	.string "Esa indumentaria no encaja\l"
+	.string "con un ejecutivo de DEVON.$"
 
 
 Route111_Text_Chico2Defeated:
@@ -14981,9 +14981,9 @@ Route111_Text_Montanero3Defeated:
 Route111_Text_Montanero3PostBattle:
 	.string "A veces aparece una gran torre, parece\n"
 	.string "un espejismo, pero puede verse,\l"
-	.string "alzándose sobre la tormenta de arena,\l"
-	.string "la propia torre está hecha de esa misma\l"
-	.string "arena.$"
+	.string "alzándose sobre la tormenta de arena.\p"
+	.string "La propia torre está hecha\n"
+	.string "de la misma.$"
 
 
 ViasTren1_Text_ObreroIntro:
@@ -17624,7 +17624,7 @@ NeoRoute19_Nadador2PostBattle:
 	.string "FUCSIA…{PAUSE 5}$"
 
 NeoRoute19_Text_Nadador3Intro:
-.string "Soy malísimo nadando. Sólo estoy\n"
+.string "Soy malísimo nadando. Solo estoy\n"
 	.string "chapoteando por estas aguas poco\l"
 	.string "profundas.$"
 
@@ -17809,7 +17809,7 @@ NewMauville_Inside_Text_PrimerPoliciaPostBattle:
 
 NewMauville_Inside_Text_SegundoPoliciaIntro:
 	.string "Los datos que nuestro DOCTOR saque de\n"
-	.string "aqui harán que DEVON crezca. Si DEVON\l"
+	.string "aquí harán que DEVON crezca. Si DEVON\l"
 	.string "crece, ¡HOENN también crecerá!$"
 
 NewMauville_Inside_Text_SegundoPoliciaDefeat:
@@ -17841,8 +17841,8 @@ AbandonedShip_Text_PrimerPoliciaDefeat:
 	.string "Eres ese ROCKET…{PAUSE 5}$"
 
 AbandonedShip_Text_PrimerPoliciaPostBattle:
-	.string "Si sigues molestando a DEVON vas a\n"
-	.string "terminar muy mal.$"
+	.string "Si sigues molestando a DEVON, vas\n"
+	.string "a terminar muy mal.$"
 
 AbandonedShip_Text_SegundoPoliciaIntro:
 	.string "Estamos en una misión de alto secreto,\n"
@@ -17917,7 +17917,7 @@ Snowpoint_Gimnasio_Text_SegundoPostBattle:
 
 Snowpoint_Gimnasio_Text_TercerIntro:
 	.string "Siempre luchamos cuando hay ventiscas\n"
-	.string "en CIUDAD PUNTANEVA, ¡Ahora te vamos a\l"
+	.string "en CIUDAD PUNTANEVA. ¡Ahora te vamos a\l"
 	.string "enseñar los resultados de nuestro\l"
 	.string "entrenamiento!$"
 
@@ -17934,7 +17934,7 @@ Snowpoint_Gimnasio_Text_CuartoIntro:
 	.string "enseñado amigos muy buenos!$"
 
 Snowpoint_Gimnasio_Text_CuartoDefeated:
-	.string "Es increíble lo fuerte que eres!$"
+	.string "¡Es increíble lo fuerte que eres!$"
 
 Snowpoint_Gimnasio_Text_CuartoPostBattle:
 	.string "Si tienes buenos amigos puedes llegar a\n"
@@ -17942,7 +17942,7 @@ Snowpoint_Gimnasio_Text_CuartoPostBattle:
 
 Snowpoint_Gimnasio_Text_QuintoIntro:
 	.string "Mi fuerza de voluntad ha sido moldeada\n"
-	.string "pro fuertes ventiscas. ¡Ahora serás\l"
+	.string "por fuertes ventiscas. ¡Ahora serás\l"
 	.string "víctima de ella!$"
 
 Snowpoint_Gimnasio_Text_QuintoDefeated:
@@ -17975,12 +17975,12 @@ Snowpoint_Templo_S1_Text_CientificoDefeat:
 	.string "¿Quién eres tú?$"
 
 Snowpoint_Templo_S1_Text_CientificoPostBattle:
-	.string "El rey de los regis volverá al lugar que\n"
+	.string "El rey de los REGIS volverá al lugar que\n"
 	.string "le pertenece tras mucho tiempo.$"
 
 Snowpoint_Templo_S2_Text_PoliciaIntro:
 	.string "¿Eres del personal del TEMPLO? ¿Algún\n"
-	.string "problema? … … ¡Espera! A ti te he visto\l"
+	.string "problema? … … ¡Espera! ¡A ti te he visto\l"
 	.string "en HOENN!$"
 
 Snowpoint_Templo_S2_Text_PoliciaDefeat:
@@ -18026,7 +18026,7 @@ Route119_Text_CientificoDefeat:
 Route119_CientificoPostBattle:
 	.string	"No hay nada que nuestro\n"
 	.string	"DOCTOR no sepa…\p"
-	.string	"Pero yo sólo soy un SOLDADO. ¿Cómo\n"
+	.string	"Pero yo solo soy un SOLDADO. ¿Cómo\n"
 	.string	"voy a saber lo que tiene en mente?$"
 
 Route119_Text_PrimerPoliciaIntro:

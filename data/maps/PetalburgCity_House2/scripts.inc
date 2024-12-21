@@ -19,6 +19,6 @@ PetalburgCity_House2_Text_BattledNormanOnce:
 	.string	"Combatí contra NORMAN una vez,\n"
 	.string	"pero era demasiado fuerte.\p"
 	.string	"¿Cómo podría describirlo?\p"
-	.string	"Se diría que sólo vive por y para\n"
+	.string	"Se diría que solo vive por y para\n"
 	.string	"los POKéMON.$"
 

@@ -1553,9 +1553,9 @@ SlateportCity_Llamada_Giovanni_Texto_2:
 	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 SlateportCity_Llamada_Giovanni_Texto_3:
-	.string "Hemos recibido los datos de tu combate\n"
-	.string "con GROUDON PRIMIGENIO, buen trabajo,\l"
-	.string "{PLAYER}.$"
+	.string "Hemos recibido los datos de tu\n"
+	.string "combate con GROUDON PRIMIGENIO.\l"
+	.string "Buen trabajo, {PLAYER}.$"
 
 SlateportCity_Llamada_Giovanni_Texto_4:
 	.string "PORTUAL es una de las dos principales\n"

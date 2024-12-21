@@ -630,7 +630,7 @@ release
 end
 
 RocketHideout5F_Text_37:
-.string "¡Buajajajajajajjaja!\n"
+.string "¡Je, je, je!\n"
 .string "Tiene gracia, estamos a 40 metros\l"
 .string "bajo tierra, pero tenemos a CIUDAD\l"
 .string "AZULONA bajo nuestros pies, ¡desde\l"
@@ -880,7 +880,7 @@ RocketHideout5F_Text_52:
 .string "no encontrarás en ningún otro\l"
 .string "lugar mayor variedad de productos\l"
 .string "y a mejor precio!\l"
-.string "¡Uajajajajja!\l"
+.string "¡Ja, ja, ja!\l"
 .string "¡HAIL GIOVANNI!$"
 
 
@@ -1586,7 +1586,7 @@ RocketHideout5FDocumento_Text_118:
 	.string "El segundo pilar de este mundo,\l"
 	.string "solo el hecho de que un vulgar\l"
 	.string "RATATTA al nivel 1, puede derrotar\l"
-	.string "a un pokémon al nivel 100 con el\l"
+	.string "a un POKÉMON al nivel 100 con el\l"
 	.string "combo Banda Focus+Esfuerzo+Ataque\l"
 	.string "Rápido, da una idea de la crucial\l"
 	.string "importancia que puede tener una\l"

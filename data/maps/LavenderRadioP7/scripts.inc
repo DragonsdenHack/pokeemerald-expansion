@@ -176,14 +176,14 @@ release
 end
 
 LavenderRadioP7_Tercer_Rocket_Texto_1:
-.string "¡Uajajaja!\n"
+.string "¡Jo, jo, jo!\n"
 	.string "¡Desde aquí se ve la SEDE SILPH!\l"
 	.string "¡Ellos seguro que también pueden\l"
 	.string "vernos a nosotros!\l"
 	.string "¡Al menos a los que ahora dejen\l"
 	.string "entrar a los pisos superiores por\l"
 	.string "- seguridad -!\l"
-	.string "¡Uajajaja!$"
+	.string "¡Jo, jo, jo!$"
 
 LavenderRadioP7_Cuarto_Rocket::
 lock

@@ -89,7 +89,7 @@ Snowpoint_Gimnasio_Lider_Texto_5:
 	.string "te admiro un poco.$"
 
 Snowpoint_Gimnasio_Lider_Texto_6:
-	.string "¡Vaya! ¡Eres Increíble! ¡Te has ganado\n"
+	.string "¡Vaya! ¡Eres increíble! ¡Te has ganado\n"
 	.string "mi respeto! Tu concentración y tu\l"
 	.string "voluntad nos han doblegado.$"
 
@@ -111,8 +111,8 @@ Snowpoint_Gimnasio_Lider_Texto_9:
 	.string "me da muy bien{PAUSE 5}…{PAUSE 5}$"
 
 Snowpoint_Gimnasio_Lider_Texto_10:
-	.string "GIOVANNI: Hemos llegado {PLAYER}, te\n"
-	.string "esperamos en el PUERTO de PUNTANEVA.$"
+	.string "GIOVANNI: Hemos llegado, {PLAYER}.\n"
+	.string "Te esperamos en el PUERTO de PUNTANEVA.$"
 
 Snowpoint_Gimnasio_Dude::
 lock
@@ -131,10 +131,10 @@ end
 Snowpoint_Gimnasio_Dude_Texto_1:
 	.string "No pareces ser de aquí. ¿Solo estás de\n"
 	.string "paso? ¡Pues más vale que te prepares!\l"
-	.string "nuestra LÍDER es de las más fuertes de\l"
-	.string "SINNOH, sus POKÉMON están\l"
-	.string "acostumbrados a entrenar en\l"
-	.string "condiciones muy adversas.$"
+	.string "Nuestra LÍDER es de las más fuertes de\l"
+	.string "SINNOH.\p"
+	.string "Sus POKÉMON están acostumbrados a\n"
+	.string "entrenar en condiciones muy adversas.$"
 
 Snowpoint_Gimnasio_Dude_Texto_2:
 	.string "¿Qué ha sido eso? ¡Has ganado en un\n"

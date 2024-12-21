@@ -253,13 +253,11 @@ NaoAbandonada_6_Primal_Kyogre_Texto_2:
 	.string "primitivas de HOENN.$"
 
 NaoAbandonada_6_Primal_Kyogre_Texto_3:
-	.string "ADM.ZAFIRO: Así es doctor. Primero\n"
+	.string "ADM.ZAFIRO: Así es, doctor. Primero\n"
 	.string "logramos encontrar la ubicación de los\l"
 	.string "REGIS y el TRÍO creador. Cada uno de los\l"
 	.string "ADMIN de DEVON nos encargamos de\l"
 	.string "estudiarlos meticulosamente.$"
-
-NaoAbandonada_6_Primal_Kyogre_Texto_3.1:
 
 NaoAbandonada_6_Primal_Kyogre_Texto_4:
 	.string "Después, gracias a sus conocimientos,\n"
@@ -574,7 +572,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_14:
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_15:
 	.string "Aún recuerdo nuestra batalla en el LAGO\n"
-	.string "FURIA. En esa ocasión solo fuí con un\l"
+	.string "FURIA. En esa ocasión solo fui con un\l"
 	.string "clon normal de KYOGRE, y POKÉMON\l"
 	.string "únicamente entrenados por mí.$"
 
@@ -592,7 +590,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_18:
 	.string "¡¿Derrotaste a KYOGRE PRIMIGENIO?!$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_19:
-	.string "Hmmm… al final, todo ese malgasto de\n"
+	.string "Hmmm… Al final, todo ese malgasto de\n"
 	.string "stats en ese inútil ATAQUE FÍSICO sí\l"
 	.string "que pasa factura. El poder desbordante\l"
 	.string "sin control pierde mucha eficiencia.$"
@@ -621,7 +619,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_23:
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_24:
 	.string "Sería una lástima que el verdadero\n"
-	.string "ÉSCANER callese en las manos de esos\l"
+	.string "ÉSCANER cayese en las manos de esos\l"
 	.string "inútiles, ¿no crees?$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_25:

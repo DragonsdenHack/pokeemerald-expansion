@@ -963,7 +963,7 @@ MauvilleCity_PokemonCenter_1F_Text_IAlreadyTaughtYou:
 	.string	"Eh, si ya te he enseñado lo\n"
 	.string	"que más molaba…\p"
 	.string	"¡Yo quiero compartir las modas\n"
-	.string	"con más gente, no sólo contigo!$"
+	.string	"con más gente, no solo contigo!$"
 
 MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 	.string	"Eh, pero si tú ya sabes mogollón de\n"

@@ -248,7 +248,7 @@ Route106_Ariana_Texto_1:
 	.string "verla, MADAME ARIANA.$"
 
 Route106_Ariana_Texto_2:
-	.string "ARIANA: Hacédle pasar.$"
+	.string "ARIANA: Hacedle pasar.$"
 
 Route106_Ariana_Texto_3:
 	.string "¿A qué se debe esta visita?$"
@@ -266,7 +266,7 @@ Route106_Ariana_Texto_6:
 	.string "C.DEVON: Esto es para usted.$"
 
 Route106_Ariana_Texto_7:
-	.string "ARIANA: Hum{PAUSE 15}…{PAUSE 15} jamás había visto un\n"
+	.string "ARIANA: Hum{PAUSE 15}…{PAUSE 15} Jamás había visto un\n"
 	.string "POKÉMON así.$"
 
 Route106_Ariana_Texto_8:
@@ -300,8 +300,8 @@ Route106_Ariana_Texto_14:
 
 Route106_Ariana_Texto_15:
 	.string "Parece haber sido sobrecargado con un\n"
-	.string "exceso de energía eléctrica… bueno,\l"
-	.string "qué más da.$"
+	.string "exceso de energía eléctrica{PAUSE 15}…{PAUSE 15}\l"
+	.string "Bueno, ¿qué más da?$"
 
 Route106_Ariana_Texto_16:
 	.string "¿Quién es?$"
@@ -310,7 +310,7 @@ Route106_Ariana_Texto_17:
 	.string "????: {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Ha pasado mucho tiempo.$"
 
 Route106_Ariana_Texto_18:
-	.string "ARIANA: {PAUSE 5}…{PAUSE 5} {PAUSE 5}…{PAUSE 5}$"
+	.string "ARIANA: {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 Route106_Ariana_Despues_Move_1:
 emote_exclamation_mark

@@ -1480,6 +1480,10 @@ applymovement OBJ_EVENT_ID_PLAYER, Vermilion_Cazabichos_Move_5
 applymovement 13, Vermilion_Cazabichos_Move_4
 waitmovement 0x0
 delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Vermilion_Cazabichos_Move_4.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Vermilion_Cazabichos_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Vermilion_Cazabichos_Texto_5 MSGBOX_AUTOCLOSE
@@ -1495,9 +1499,21 @@ waitmovement 0x0
 setflag FLAG_HOENN_673
 removeobject 13
 playse SE_EXIT
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Vermilion_Cazabichos_Move_4.2
+waitmovement 0x0
+special RemoveCameraObject
 setvar VAR_SCOTT_STATE, 2
 release
 end
+
+Vermilion_Cazabichos_Move_4.1:
+walk_up
+step_end
+
+Vermilion_Cazabichos_Move_4.2:
+walk_down
+step_end
 
 Vermilion_Cazabichos_Move_6:
 face_down
@@ -1554,7 +1570,7 @@ Vermilion_Cazabichos_Texto_5:
 	.string "… …$"
 
 Vermilion_Cazabichos_Texto_6:
-	.string "No soy el mejor ENTRENADOR, pero\n"
+	.string "No soy el mejor ENTRENADOR, aunque\n"
 	.string "ayudaré en todo lo que pueda, si con\l"
 	.string "ello nuestras posibilidades aumentan.$"
 

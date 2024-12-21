@@ -376,7 +376,7 @@ MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string	"Me hubiera gustado ser astronauta.\n"
-	.string	"Si fuera sólo un pelín más joven…\p"
+	.string	"Si fuera solo un pelín más joven…\p"
 	.string	"Pero no, nunca es demasiado tarde.\n"
 	.string	"¡Voy a intentarlo!$"
 

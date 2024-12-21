@@ -37,7 +37,7 @@ SlateportCity_Mart_EventScript_Man::
 SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
 	.string	"El MERCADO ofrece muchos artículos\n"
 	.string	"muy interesantes.\p"
-	.string	"Pero hay muchos otros que sólo se\n"
+	.string	"Pero hay muchos otros que solo se\n"
 	.string	"venden en las TIENDAS POKéMON.$"
 
 SlateportCity_Mart_Text_GreatBallIsBetter:

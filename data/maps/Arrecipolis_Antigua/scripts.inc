@@ -1021,7 +1021,7 @@ Arrecipolis_Antigua_Andra_Texto_33:
 	.string "siendo infinitas.$"
 
 Arrecipolis_Antigua_Andra_Texto_34:
-	.string "ANDRA: Sí{PAUSE 35}…{PAUSE 35} tienes razón{PAUSE 35}…{PAUSE 35} mientras\n"
+	.string "ANDRA: Sí{PAUSE 35}…{PAUSE 35} Tienes razón{PAUSE 35}…{PAUSE 35} Mientras\n"
 	.string "quede aire en nuestros pulmones,\l"
 	.string "siempre hay una oportunidad.$"
 
@@ -1030,7 +1030,7 @@ Arrecipolis_Antigua_Andra_Texto_34.1:
 	.string "puede llegar a ser posible.$"
 
 Arrecipolis_Antigua_Andra_Texto_35:
-	.string "Muy bien, MILOTIC-&{PAUSE 15}…{PAUSE 15} ahora empieza el\n"
+	.string "Muy bien, MILOTIC-&{PAUSE 15}…{PAUSE 15} Ahora empieza el\n"
 	.string "combate de verdad.$"
 
 Arrecipolis_Antigua_Andra_Texto_36:
@@ -1081,7 +1081,7 @@ Arrecipolis_Antigua_Andra_Texto_45:
 	.string "has pedido, lo ha hecho posible.$"
 
 Arrecipolis_Antigua_Andra_Texto_46:
-	.string "ANDRA: ¿Y ahora{PAUSE 25}…{PAUSE 25} que ves?$"
+	.string "ANDRA: ¿Y ahora{PAUSE 25}…{PAUSE 25} qué ves?$"
 
 Arrecipolis_Antigua_Andra_Texto_47:
 	.string "JIRACHI: Veo a alguien capaz de hacer\n"

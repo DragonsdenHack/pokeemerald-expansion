@@ -453,14 +453,13 @@
 #define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight  0x2D3
 #define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom   0x2E1
 #define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop      0x2D9
+#define METATILE_Pacifidlog_SkyPillar_CrackedFloor_Hole        0x237
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Bottom          0x2B2
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Top             0x2AA
 #define METATILE_Pacifidlog_SubmergedLogs_HorizontalLeft       0x2D4
 #define METATILE_Pacifidlog_SubmergedLogs_HorizontalRight      0x2D5
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x2E2
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x2DA
-
-
 
 // gTileset_PalletTown
 #define METATILE_PalletTown_Door         0x2A3

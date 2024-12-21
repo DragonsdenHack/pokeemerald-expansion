@@ -43,7 +43,7 @@ MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
 	.string "de los POKÉMON.\p"
 	.string "Sé que durante el combate se puede\n"
 	.string "usar ATAQUE X y DEFENSA X…\l"
-	.string "Pero creo que hay más objetos\p"
+	.string "Pero creo que hay más objetos\l"
 	.string "por el estilo.$"
 
 MauvilleCity_Mart_Text_DecisionsDetermineBattle:

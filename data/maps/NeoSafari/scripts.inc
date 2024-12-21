@@ -325,8 +325,8 @@ end
 
 NeoSafari_Primer_Motorista_Texto_1:
 	.string "¿Y tú qué haces aquí? Eh, espera…\n"
-	.string "¡Perdóname {PLAYER}, no te había\l"
-	.string "reconocido?$"
+	.string "¡Perdóname, {PLAYER}, no te había\l"
+	.string "reconocido!$"
 
 NeoSafari_Segundo_Motorista::
 lock
@@ -338,7 +338,7 @@ end
 NeoSafari_Segundo_Motorista_Texto_1:
 	.string "KOGA nos contó que todo esto fue\n"
 	.string "gracias a ANDRA. Desde entonces,\l"
-	.string "nosotros los MOTORISTAS la admiramos.$"
+	.string "nosotros, los MOTORISTAS, la admiramos.$"
 
 NeoSafari_Tercer_Motorista::
 lock
@@ -399,7 +399,7 @@ release
 end
 
 NeoSafari_Septimo_Motorista_Texto_1:
-	.string "Oye tío, ¿has visto algún KANGASKHAN\n"
+	.string "Oye, tío, ¿has visto algún KANGASKHAN\n"
 	.string "por aquí? Se suponía que este era el\l"
 	.string "lugar en el que aparecían, ¡pero no veo\l"
 	.string "ninguno!$"
@@ -457,11 +457,11 @@ release
 end
 
 NeoSafari_Calvo_Texto_1:
-	.string "Lo siento {PLAYER}, pero nadie de\n"
+	.string "Lo siento, {PLAYER}, pero nadie de\n"
 	.string "fuera puede entrar aquí.$"
 
 NeoSafari_Calvo_Texto_2:
-	.string "Solo KOGA y PETREL, estas casetas\n"
+	.string "Solo KOGA y PETREL. Estas casetas\n"
 	.string "conectan con un determinado punto del\l"
 	.string "CAMINO BICIS, por el que hemos\l"
 	.string "conectado con la ZONA SAFARI.$"

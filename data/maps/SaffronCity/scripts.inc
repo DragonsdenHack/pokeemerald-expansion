@@ -172,9 +172,9 @@ release
 end
 
 SaffronCity_Text_14:
-.string "¡No se preocupe señor, la ciudad\n"
-.string "nos pertenece, puede centrarse en\l"
-.string "asaltar SILPH!$"
+.string "No se preocupe, señor.\n"
+.string "La ciudad nos pertenece, ¡puede\l"
+.string "centrarse en asaltar SILPH!$"
 
 
 SaffronCity16::
@@ -197,7 +197,7 @@ SaffronCity_Text_16:
 .string "tiene vía libre a la puerta, y la\l"
 .string "tendrá…\l"
 .string "¡Cuando nosotros queramos!\l"
-.string "¡Uajajaja!\l"
+.string "¡Jo, jo, jo!\l"
 .string "¡VIVA EL TEAM ROCKET!\l"
 .string "¡HAIL EJECUTIVO {PLAYER}!\l"
 .string "¡SALVE GIOVANNI!$"

@@ -275,7 +275,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:
 	.string	"¡Es un sueño hecho realidad!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:
-	.string	"Ésta es sólo una muestra de mi gratitud.$"
+	.string	"Ésta es solo una muestra de mi gratitud.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou:
 	.string	"Te lo guardo hasta que vuelvas\n"

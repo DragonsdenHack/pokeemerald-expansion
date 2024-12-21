@@ -29,7 +29,7 @@ VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
 VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 	.string	"¡Nadie puede considerarse ENTRENADOR\n"
 	.string	"si no tiene fe en sus POKéMON!\p"
-	.string	"Sólo aquellos que confían plenamente\n"
+	.string	"Solo aquellos que confían plenamente\n"
 	.string	"en la habilidad de sus POKéMON podrán\l"
 	.string	"llegar hasta el final.$"
 

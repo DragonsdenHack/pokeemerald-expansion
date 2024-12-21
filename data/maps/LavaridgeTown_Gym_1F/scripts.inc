@@ -225,7 +225,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "tus POKÉMON acabarán quemados.$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
-	.string "¿Tus pokémon superan temperaturas\n"
+	.string "¿Tus POKÉMON superan temperaturas\n"
 	.string "superiores a los 200 grados?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:

@@ -198,7 +198,7 @@ Silph_6F_Empleado_Llave_Texto_1:
 
 Silph_6F_Empleado_Llave_Texto_2:
 .string "¡Ya no puedes hacerme nada!\n"
-	.string "¡Huajajaja!$"
+	.string "¡Je, je, je!$"
 
 Silph_6F_Empleado_Llave_Texto_3:
 .string "¡No! ¡No me hagas daño!$"

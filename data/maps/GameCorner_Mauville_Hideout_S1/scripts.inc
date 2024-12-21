@@ -24,7 +24,7 @@ end
 GameCorner_Mauville_Hideout_S1_NPC3_Cientifico_Texto_1:
 	.string "Nuestro sistema de filas y columnas es\n"
 	.string "la mayor estafa legal que vas a\l"
-	.string "encontrar en toda HOENN chaval.$"
+	.string "encontrar en toda HOENN, chaval.$"
 
 GameCorner_Mauville_Hideout_S1_NPC6_Cientifico::
 lock

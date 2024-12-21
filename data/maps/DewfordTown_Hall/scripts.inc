@@ -416,7 +416,7 @@ DewfordTown_Hall_Text_ComposedTrendThemeSong:
 	.string	"¡Vale, escúchala!\p"
 	.string	"¡Oh, oh, {STR_VAR_1}!\n"
 	.string	"¡La, la, la!\p"
-	.string	"¡Sólo {STR_VAR_1}!\n"
+	.string	"¡Solo {STR_VAR_1}!\n"
 	.string	"¡La, la, la!$"
 
 DewfordTown_Hall_Text_WorkOnYourSinging:

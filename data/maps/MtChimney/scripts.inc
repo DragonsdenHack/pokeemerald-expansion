@@ -702,7 +702,7 @@ MtChimney_Text_Bushaa:
 MtChimney_Text_LavaCookiesJust200:
 	.string	"Las GALLETAS LAVA son la especialidad\n"
 	.string	"del MONTE CENIZO.\p"
-	.string	"Prueba una. Son sólo 200¥.$"
+	.string	"Prueba una. Son solo 200¥.$"
 
 MtChimney_Text_ThankYouDear:
 	.string	"¡Muchas gracias!$"
@@ -794,7 +794,7 @@ MtChimney_Text_SheilaDefeat:
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Pues sí, por fin he llegado al Monte\n"
-	.string "Cenizo y no me voy a dedicar sólo a\l"
+	.string "Cenizo y no me voy a dedicar solo a\l"
 	.string "hacer visitas… También quiero luchar\l"
 	.string "un poquito y comprar galletas de\l"
 	.string "recuerdo.$"
@@ -1183,7 +1183,7 @@ MtChimney_Doctor_Rasmus_Texto_7:
 	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MtChimney_Doctor_Rasmus_Texto_8:
-	.string "¿Quieres saber qué hacemos aquí? …\n"
+	.string "¿Quieres saber qué hacemos aquí…?\n"
 	.string "¿GROUDON?$"
 
 MtChimney_Doctor_Rasmus_Texto_9:
@@ -1192,9 +1192,9 @@ MtChimney_Doctor_Rasmus_Texto_9:
 	.string "también su forma PRIMIGENIA.$"
 
 MtChimney_Doctor_Rasmus_Texto_10:
-	.string "No, la realidad es que he venido hasta\n"
+	.string "No.{PAUSE 15} La realidad es que he venido hasta\n"
 	.string "aquí para realizar unas pruebas\l"
-	.string "prácticas, observa.$"
+	.string "prácticas.{PAUSE 15} Observa.$"
 
 MtChimney_Doctor_Rasmus_Texto_11:
 	.string "¿Te suena ese POKÉMON? Es un\n"

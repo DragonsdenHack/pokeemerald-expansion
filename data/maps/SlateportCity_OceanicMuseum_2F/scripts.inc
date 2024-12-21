@@ -676,7 +676,7 @@ step_end
 
 SlateportCity_Dialogo_Norman_Texto_1:
 	.string "SR.PEÑAS: Entonces su familia también\n"
-	.string "se mudará pronto a HOENN, ¿VILLARAÍZ?\l"
+	.string "se mudará pronto a HOENN, ¿VILLA RAÍZ?\l"
 	.string "Es un buen lugar para empezar de 0,\l"
 	.string "créame.$"
 

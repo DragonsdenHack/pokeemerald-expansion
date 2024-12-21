@@ -632,7 +632,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan:
 	.string	"¡Ve a por todas!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
-	.string	"No puedo evitarlo, sólo me gusta\n"
+	.string	"No puedo evitarlo, solo me gusta\n"
 	.string	"MARCIAL{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
@@ -752,7 +752,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
 	.string	"entrenar.\p"
 	.string	"Pero también creo que no hay nadie\n"
 	.string	"mejor que {STR_VAR_1} ahora mismo.\p"
-	.string	"Es sólo mi opinión, de todas formas.\n"
+	.string	"Es solo mi opinión, de todas formas.\n"
 	.string	"No dejes que te influya.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
@@ -793,14 +793,14 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
 	.string	"¡eres genial!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
-	.string	"Da igual si sólo yo soy capaz\n"
+	.string	"Da igual si solo yo soy capaz\n"
 	.string	"de reconocer lo que vales.\p"
 	.string	"Los demás no pueden comprender\n"
 	.string	"el poder oculto que hay en ti.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
 	.string	"Sí, puedo ver lo fuerte que eres\n"
-	.string	"con sólo mirarte a los ojos.\p"
+	.string	"con solo mirarte a los ojos.\p"
 	.string	"Pero…\p"
 	.string	"¡todavía no eres consciente\n"
 	.string	"de tu enorme potencial!$"

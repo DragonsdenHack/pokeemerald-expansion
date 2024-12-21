@@ -597,7 +597,7 @@ static const u8 sPsywaveDescription[] = _(
 
 static const u8 sSplashDescription[] = _(
     "No tiene ningún efecto.\n"
-    "Sólo salpica.");
+    "Solo salpica.");
 
 static const u8 sAcidArmorDescription[] = _(
     "Te hace líquido y aumenta\n"
@@ -656,7 +656,7 @@ static const u8 sSubstituteDescription[] = _(
     "1/4 de tus PS máximos.");
 
 static const u8 sStruggleDescription[] = _(
-    "Sólo se usa al acabarse\n"
+    "Solo se usa al acabarse\n"
     "los PP. Te hiere un poco.");
 
 static const u8 sSketchDescription[] = _(

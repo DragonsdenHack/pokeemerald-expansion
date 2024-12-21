@@ -52,7 +52,7 @@ VictoryRoad_B1F_Text_ShannonPostBattle:
 	.string "ENTRENADORES.$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "Éste no es el objetivo final, sólo un\n"
+	.string "Éste no es el objetivo final, solo un\n"
 	.string "paso más hacia la LIGA POKéMON.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:

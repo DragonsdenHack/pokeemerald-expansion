@@ -410,7 +410,7 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_20:
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_21:
 	.string "Es un estudioso de los FÓSILES y\n"
-	.string "POKÉMON ANTIGUOS de HOENN, sus\l"
+	.string "POKÉMON ANTIGUOS de HOENN; sus\l"
 	.string "principales inquietudes son documentar\l"
 	.string "la historia de esta región.$"
 

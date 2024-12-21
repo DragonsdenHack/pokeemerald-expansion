@@ -86,7 +86,7 @@ BaseRocketHoennS4_Carta_Andra_Texto_2:
 BaseRocketHoennS4_Carta_Andra_Texto_3:
 	.string "Siento haber actuado de forma egoísta y\n"
 	.string "dejar el TEAM ROCKET. No cabe duda de\l"
-	.string "que el tuyo es el camino correcto, tu\l"
+	.string "que el tuyo es el camino correcto. Tu\l"
 	.string "espíritu se mantiene inquebrantable, sin\l"
 	.string "importar los agentes externos.$"
 
@@ -111,7 +111,7 @@ BaseRocketHoennS4_Carta_Andra_Texto_6:
 	.string "Por otro lado, sé que HOENN es una\n"
 	.string "región nueva para ti. GIOVANNI te habrá\l"
 	.string "encomendado recopilar información\l"
-	.string "sobre KYOGRE y GROUDON, este último ha\l"
+	.string "sobre KYOGRE y GROUDON. Este último ha\l"
 	.string "debido volver a lo profundo del MONTE\l"
 	.string "CENIZO. Yo empezaría mi travesía por\l"
 	.string "ahí, ya que está un poco más al oeste de\l"
@@ -168,7 +168,7 @@ BaseRocketHoennS3_Ejecutivo_Texto_1:
 
 BaseRocketHoennS3_Ejecutivo_Texto_2:
 	.string "Ahora este despacho también es suyo.\n"
-	.string "No se preocupe señor, me encargaré\l"
+	.string "No se preocupe, señor. Me encargaré\l"
 	.string "personalmente de que nadie entre\l"
 	.string "mientras usted recorre HOENN.$"
 

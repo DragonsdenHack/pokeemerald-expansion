@@ -333,7 +333,7 @@ step_end
 
 DesertRuins_Evento_CamaraRegirock_Texto_1:
 .string "ADMIN.DEVON: Aquí tienes a REGIROCK.\n"
-	.string "Uno de los 3 regis que duermen en\l"
+	.string "Uno de los 3 REGIS que duermen en\l"
 	.string "HOENN, su solidez es incomparable.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_2:

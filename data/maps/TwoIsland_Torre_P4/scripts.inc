@@ -293,7 +293,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_8:
 	.string "redondo.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_9:
-.string "Gracias a un contacto en SINOHH,\n"
+.string "Gracias a un contacto en SINNOH,\n"
 	.string "importaremos raros POKÉMON de esa\l"
 	.string "región, para venderlos aquí a precio de\l"
 	.string "oro.$"

@@ -50,7 +50,7 @@ FallarborTown_Mart_EventScript_Skitty::
 FallarborTown_Mart_Text_DecidingSkittyEvolve:
 	.string	"No acabo de decidirme sobre si quiero\n"
 	.string	"que mi SKITTY evolucione o no…\p"
-	.string	"Sólo tengo que usar la PIEDRA LUNAR,\n"
+	.string	"Solo tengo que usar la PIEDRA LUNAR,\n"
 	.string	"pero es una decisión tan difícil…\p"
 	.string	"Si lo hago evolucionar, será mucho\n"
 	.string	"más fuerte…\p"

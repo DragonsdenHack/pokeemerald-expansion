@@ -71,7 +71,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 
 VictoryRoad_B2F_Text_JulieIntro:
 	.string "No deberías dormirte en los laureles\n"
-	.string "sólo porque tienes un montón de\l"
+	.string "solo porque tienes un montón de\l"
 	.string "MEDALLAS de GIMNASIO. ¡Siempre puedes\l"
 	.string "encontrar a alguien que sea mejor que\l"
 	.string "tú!$"

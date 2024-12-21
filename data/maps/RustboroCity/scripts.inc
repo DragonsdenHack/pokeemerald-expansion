@@ -1035,7 +1035,7 @@ RustboroCity_Text_SneakyLookingManWentAroundCorner:
 RustboroCity_Text_HaveYouChallengedGym:
 	.string	"¿Has aceptado el reto de algún\n"
 	.string	"GIMNASIO POKéMON?\p"
-	.string	"Un ENTRENADOR sólo se da cuenta de\n"
+	.string	"Un ENTRENADOR solo se da cuenta de\n"
 	.string	"lo que se espera de él cuando empieza\l"
 	.string	"a conseguir MEDALLAS de GIMNASIO.$"
 
