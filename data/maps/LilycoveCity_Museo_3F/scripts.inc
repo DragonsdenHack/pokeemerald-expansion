@@ -1020,7 +1020,7 @@ LilycoveCity_Museo_3F_Secundaria_Texto_58:
 
 LilycoveCity_Museo_3F_Secundaria_Texto_59:
 	.string "Perfectas para dar espectáculo, para\n"
-	.string "dar a la masa lo que quiere ver.\l"
+	.string "dar a las masas lo que quieren ver.\l"
 	.string "También, y como consecuencia, incapaces\l"
 	.string "de reproducir el verdadero esplendor de\l"
 	.string "un combate en su estado más puro.$"

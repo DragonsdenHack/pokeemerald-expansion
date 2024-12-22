@@ -60,7 +60,7 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_SetToughPainting::
 	end
 
 LilycoveCity_LilycoveMuseum_2F_OnFrame:
-	map_script_2 VAR_LILYCOVE_MUSEUM_2F_STATE, 0, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall
+	map_script_2 VAR_LILYCOVE_MUSEUM_2F_STATE, 10, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall
 	map_script_2 VAR_ROUTE117_STATE, 9, LilycoveCity_LilycoveMuseum_2F_Secundaria
 	.2byte 0
 

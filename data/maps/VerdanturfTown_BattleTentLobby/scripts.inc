@@ -537,7 +537,7 @@ VerdanturfTown_Dueno_Texto_2:
 	.string "¿KANTO?$"
 
 VerdanturfTown_Dueno_Texto_3:
-	.string "Alguien que no sea de HOENN jamás podrá\n"
+	.string "Alguien que no sea de HOENN, jamás podrá\n"
 	.string "apreciar la verdadera belleza de este\l"
 	.string "museo, ¡largo de aquí!$"
 

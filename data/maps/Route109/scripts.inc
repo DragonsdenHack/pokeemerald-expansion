@@ -631,7 +631,7 @@ Route109_Nina_Texto_2:
 	.string "¿Tú ganarle a mi padre?$"
 
 Route109_Nina_Texto_3:
-	.string "¡Jajajaja! Escúchame.$"
+	.string "¡Ja, ja, ja! Escúchame.$"
 
 Route109_Nina_Texto_4:
 	.string "Ya seas pobre o rico, vistas de traje o\n"
@@ -825,7 +825,7 @@ Route109_Nina_Final_Texto_6:
 	.string "Cuando entraste a la CASA de la PLAYA,\n"
 	.string "mi amigo estuvo todo el rato pendiente\l"
 	.string "tras las ventanillas. No daba crédito a\l"
-	.string "lo que estaba viendo, me insistió tanto\l"
+	.string "lo que estaba viendo. Me insistió tanto\l"
 	.string "que al final me hizo venir con el barco\l"
 	.string "de mi padre.$"
 

@@ -3753,7 +3753,7 @@ Route125_Text_StanPostBattle:
 	.string "de HORSEA, por eso empecé a nadar.$"
 
 Route125_Text_TanyaIntro:
-	.string "Estoy hasta las narices de nadar ¿Te\n"
+	.string "Estoy hasta las narices de nadar, ¿te\n"
 	.string "apetece luchar contra mi?$"
 
 Route125_Text_TanyaDefeat:
@@ -3846,7 +3846,7 @@ Route125_Text_PresleyIntro:
 	.string "agua hasta el cuello?$"
 
 Route125_Text_PresleyDefeat:
-	.string "Vale, Te voy a decir que hago aquí.$"
+	.string "Vale, te voy a decir que hago aquí.$"
 
 Route125_Text_PresleyPostBattle:
 	.string "Voy a meter un mensaje en una botella\n"

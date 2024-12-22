@@ -398,7 +398,7 @@ Route109_SeashoreHouse_Padre_Texto_3:
 Route109_SeashoreHouse_Padre_Texto_4:
 	.string "¡Chico! Me has dejado impresionado. No\n"
 	.string "disfrutaba un combate así desde que mi\l"
-	.string "buen amigo DRACÓN me hizo morder el\l"
+	.string "buen amigo, DRACÓN, me hizo morder el\l"
 	.string "polvo con su SALAMENCE.$"
 
 Route109_SeashoreHouse_Padre_Texto_5:

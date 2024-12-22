@@ -60,7 +60,7 @@ release
 end
 
 SsAnne6F_Text_6:
-.string "¡JAJAJA!\n"
+.string "¡Ja, ja, ja!\n"
 .string "¡Camarero!\l"
 .string "¡Otro licor de SHUCKLE!$"
 

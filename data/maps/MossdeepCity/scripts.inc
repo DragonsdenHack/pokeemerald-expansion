@@ -202,14 +202,10 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 	.string	"ha estado lanzando cohetes enormes.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string	"Un MARINERO me ha dicho que el EQUIPO\n"
-	.string	"AQUA la ha montado gorda en CALAGUA.\p"
-	.string	"¡También he oído que alguien\n"
-	.string	"les ha dado una buena paliza!\p"
-	.string	"Pero ahora CIUDAD ALGARIA ha pasado\n"
-	.string	"a ser un objetivo del EQUIPO MAGMA.\p"
-	.string	"Si quieres saber qué están tramando,\n"
-	.string	"ve a visitar el CENTRO ESPACIAL.$"
+	.string	"Soy un MARINERO, así que el mar\n"
+	.string	"es muy importante para mí.\p"
+	.string	"Pero cuando vuelvo a tierra después\n"
+	.string	"de un viaje, respiro tranquilo, ¿sabes?$"
 
 MossdeepCity_Text_FeelReliefOnLand:
 	.string	"Soy un MARINERO, así que el mar\n"
@@ -218,8 +214,8 @@ MossdeepCity_Text_FeelReliefOnLand:
 	.string	"de un viaje, respiro tranquilo, ¿sabes?$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string	"Qué bonito sería…\p"
-	.string	"si el mundo entero estuviera cubierto\n"
+	.string	"Qué bonito sería…\n"
+	.string	"si el mundo entero estuviera cubierto\l"
 	.string	"de flores y plantas como las de aquí.$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
@@ -227,7 +223,7 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
 	.string	"aunque viva en la tierra.\p"
 	.string	"Todo ser vivo, con el tiempo, se\n"
 	.string	"convierte en polvo y vuelve a la tierra.\p"
-	.string	"El mar y la tierra están conectados…,\p"
+	.string	"El mar y la tierra están conectados…,\n"
 	.string	"basta mirar la costa para darse cuenta.$"
 
 MossdeepCity_Text_SurfExhilarating:

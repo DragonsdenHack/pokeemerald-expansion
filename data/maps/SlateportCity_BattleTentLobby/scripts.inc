@@ -507,7 +507,7 @@ SlateportCity_Museo_Secundaria_Texto_5:
 	.string "Estoy acabado…$"
 
 SlateportCity_Museo_Secundaria_Texto_6:
-	.string "¿Qué quieres muchacho?$"
+	.string "¿Qué quieres, muchacho?$"
 
 SlateportCity_Museo_Secundaria_Texto_7:
 	.string "Me alegra ver jóvenes interesados en el\n"

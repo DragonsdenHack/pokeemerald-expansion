@@ -124,6 +124,6 @@ end
 
 Mossdeep_Casino_Texto_1:
 	.string "¡Buenas tardes! Ahora mismo el\n"
-	.string "lugar está cerrado, los últimos\l"
+	.string "lugar está cerrado. Los últimos\l"
 	.string "tiempos nos han obligado a\l"
 	.string "replantear nuestro negocio.$"

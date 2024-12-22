@@ -252,7 +252,7 @@ Verdantur_Museo_S1_Fortunia_Texto_13:
 	.string "desgracia.$"
 
 Verdantur_Museo_S1_Fortunia_Texto_14:
-	.string "Ten esto presente{PAUSE 25}…{PAUSE 25} no te olvidaré…$"
+	.string "Ten esto presente{PAUSE 25}…{PAUSE 25} No te olvidaré…$"
 
 Verdantur_Museo_S1_Fortunia_Texto_15:
 	.string "¡{PLAYER} recuperó la pintura del\n"
