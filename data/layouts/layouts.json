@@ -1844,7 +1844,7 @@
       "height": 25,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room7/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room7/map.bin"

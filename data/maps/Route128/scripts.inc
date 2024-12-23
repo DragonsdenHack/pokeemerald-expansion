@@ -301,7 +301,7 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "I'm going to SOOTOPOLIS.$"
 
 Route128_Barrera::
-compare VAR_UNUSED_0x40F8, 25
+compare VAR_UNUSED_0x40F8, 100
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, Route128_Barrera_Move_1
 waitmovement 0x0

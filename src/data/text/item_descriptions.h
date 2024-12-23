@@ -1951,9 +1951,9 @@ static const u8 sMetalPowderDesc[] = _(
    	"en un 100%.");
 
 static const u8 sQuickPowderDesc[] = _(
-    "An item to be held\n"
-    "by Ditto. This odd\n"
-    "powder boosts Speed.");
+    "Si lo lleva DITTO,\n"
+   	"su VELOCID. subirá\n"
+   	"en un 100%.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "Fortalece en un 30%\n"

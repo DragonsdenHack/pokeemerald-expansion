@@ -717,12 +717,14 @@ Johto_Trigal_Mercado_6_EventScript_Clerk::
 
 	.align 2
 Johto_Trigal_Mercado_6_Pokemart:
-    .2byte 397
-	.2byte 237
-	.2byte 481
-	.2byte 228
-	.2byte 232
-	.2byte 393
+    .2byte ITEM_METAL_POWDER
+	.2byte ITEM_QUICK_POWDER
+	.2byte ITEM_LEEK
+	.2byte ITEM_THICK_CLUB
+	.2byte ITEM_LIGHT_BALL
+	.2byte ITEM_UPGRADE
+	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_OVAL_STONE
 	.2byte ITEM_NONE
 	release
 	end
