@@ -4387,6 +4387,7 @@ fadescreen 1
 delay 20
 removeobject 6
 fadescreen 0
+setflag FLAG_HOENN_108
 setflag FLAG_RECEIVED_SHOAL_SHELL_2
 setflag FLAG_NUEVA_292
 clearflag FLAG_RECEIVED_SHOAL_SHELL_1

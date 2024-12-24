@@ -788,6 +788,13 @@ end
 Kangaskhan_Cry_Text_1:
 .string "¡Kan!$"
 
+Kangaskhan_Cry_Default::
+lock    
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+msgbox Kangaskhan_Cry_Text_1, MSGBOX_DEFAULT
+release     
+end
+
 
 
 

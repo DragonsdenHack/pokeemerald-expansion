@@ -130,7 +130,7 @@ waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_9
 waitmovement 0x0
-setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+setflag FLAG_HOENN_108
 removeobject 2
 clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
 addobject 3
