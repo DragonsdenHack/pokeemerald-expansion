@@ -40,7 +40,7 @@ NewBarkTown_ElmLaboratory_Text_3:
 NewBarkTown_ElmLaboratory_Combate_Elm::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F8, 30
+compare VAR_UNUSED_0x40F8, 54
 goto_if_gt NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn
 checkitem ITEM_AERODACTYLITE
 goto_if_eq VAR_RESULT, FALSE, NewBarkTown_ElmLaboratory_Combate_Elm_2

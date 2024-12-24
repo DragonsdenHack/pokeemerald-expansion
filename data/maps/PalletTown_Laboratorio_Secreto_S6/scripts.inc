@@ -1294,7 +1294,7 @@ PalletTown_Laboratorio_S6_Despues_Texto_33:
 	.string "Con nuestra tecnología actual,\n"
 	.string "podremos monitorizar todas las\l"
 	.string "acciones causa-efecto que ORO realice,\l"
-	.string "y en consecuencia recopilar una\l"
+	.string "y, en consecuencia, recopilar una\l"
 	.string "ingente cantidad de datos que, aplicada\l"
 	.string "a la realidad, revolucionará el combate\l"
 	.string "POKÉMON tal y como lo conocemos.$"
@@ -2502,7 +2502,7 @@ PalletTown_Laboratorio_S6_Combate_Ganado_Texto_30:
 	.string "GIOVANNI: ¿Sí?$"
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_31:
-	.string "¡¿Qué?!{PAUSE 55}…{PAUSE 55} entendido{PAUSE 45}…{PAUSE 45} inmediatamente{PAUSE 35}…{PAUSE 35}$"
+	.string "¡¿Qué?!{PAUSE 55}…{PAUSE 55} Entendido{PAUSE 45}…{PAUSE 45} Inmediatamente{PAUSE 35}…{PAUSE 35}$"
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_32:
 	.string "OAK: ¿De qué se trata?$"

@@ -107,3 +107,21 @@ end
 PokemonTower5F_Warp_Escena_4_Move_1:
 walk_in_place_right
 step_end
+
+Balneario_Curacion::
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower5F_Curacion_Move_1
+waitmovement 0x0
+fadescreen 3
+delay 30
+special HealPlayerParty
+fadescreen 2
+msgbox Balneario_Curacion_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+Balneario_Curacion_Texto_1:
+	.string "El agua está en su punto.\n"
+	.string "Tiene la temperatura ideal...\p"
+	.string "¡{PLAYER} y sus POKÉMON están\n"
+	.string "en forma de nuevo!$"

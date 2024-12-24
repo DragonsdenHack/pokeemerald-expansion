@@ -2587,7 +2587,7 @@ GoldenrodRadioTowerP5_Tercera_Reunion_Texto_15:
 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_16:
 	.string "Todo ese despliegue de recursos, ¿para\n"
-	.string "qué? ¿cuál es su propósito cuando\l"
+	.string "qué? ¿Cuál es su propósito cuando\l"
 	.string "ahora mismo somos mucho más poderosos\l"
 	.string "que todo eso?$"
 

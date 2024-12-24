@@ -905,7 +905,7 @@ Laboratorio_S4_Eusine_Bill_Texto_17:
 
 Laboratorio_S4_Eusine_Bill_Texto_18:
 	.string "EUSINE: …lo sagrado eres tú en sí\n"
-	.string "mismo, tu talento innato.$"
+	.string "mismo. Tu talento innato.$"
 
 Laboratorio_S4_Eusine_Bill_Texto_19:
 	.string "Pero eso, como todo lo demás, tiene un\n"

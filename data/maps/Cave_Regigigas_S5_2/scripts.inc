@@ -439,7 +439,7 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_31:
 	.string "un muro. Antes o después.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_32:
-	.string "Has mejorado ANDRA, pero ten en cuenta\n"
+	.string "Has mejorado, ANDRA. Pero ten en cuenta\n"
 	.string "una cosa: nuestro ADMIN.AMATISTA solo\l"
 	.string "estaba jugando contigo en PUEBLO\l"
 	.string "LAVANDA, al igual que con {PLAYER} en\l"

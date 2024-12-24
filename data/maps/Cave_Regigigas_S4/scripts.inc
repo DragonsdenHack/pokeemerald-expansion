@@ -365,7 +365,7 @@ Cave_Regigigas_S4_Valente_Texto_12:
 
 Cave_Regigigas_S4_Valente_Texto_13:
 	.string "VALENTE: Ah, esa chica tan inquieta.\n"
-	.string "Veía potencial en ti, tu presencia aquí\l"
+	.string "Veía potencial en ti; tu presencia aquí\l"
 	.string "lo confirma.$"
 
 Cave_Regigigas_S4_Valente_Texto_14:
@@ -441,8 +441,8 @@ Cave_Regigigas_S4_Valente_Texto_28:
 
 Cave_Regigigas_S4_Valente_Texto_29:
 	.string "El cómo alguien a quién respetaba se\n"
-	.string "acaba corrompiendo de tal modo{PAUSE 15}…{PAUSE 15} esto\l"
-	.string "ya lo he vivido.$"
+	.string "acaba corrompiendo de tal modo{PAUSE 15}…{PAUSE 15}\l"
+	.string "Esto ya lo he vivido.$"
 
 Cave_Regigigas_S4_Valente_Texto_30:
 	.string "Cuando VALENTE hablaba, no le veía a él.$"

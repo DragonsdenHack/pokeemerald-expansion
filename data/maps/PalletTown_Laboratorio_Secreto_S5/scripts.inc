@@ -644,7 +644,7 @@ PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_3:
 PalletTown_Laboratorio_Secreto_S5_Estatua_Texto_4:
 	.string "Viene con una advertencia: La línea\n"
 	.string "entre algo difícil y algo imposible\l"
-	.string "puede ser muy delgada, aquellos\l"
+	.string "puede ser muy delgada. Aquellos\l"
 	.string "incautos que crean poder cruzarla\l"
 	.string "recibirán su castigo.$"
 

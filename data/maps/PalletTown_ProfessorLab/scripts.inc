@@ -119,7 +119,7 @@ PalletTownProfessorLabDocumento_Text_102:
 	.string "y probaremos vuestra valía como\l"
 	.string "entrenadores!\l"
 	.string "CG de la LIGA POKÉMON.\l"
-	.string "Prof.Oak, ¡visítenos por favor!$"
+	.string "Prof.Oak, ¡visítenos, por favor!$"
 
 PalletTown_ProfessorLab_Lab_Izq::
 lockall
@@ -740,7 +740,7 @@ PalletTown_ProfessorLab_Andra_Texto_5:
 	.string "Un e-mail del CG de la LIGA POKÉMON.$"
 
 PalletTown_ProfessorLab_Andra_Texto_6:
-	.string "'Visítenos por favor…'\n"
+	.string "'Visítenos, por favor…'\n"
 	.string "Cuánta hipocresía.$"
 
 PalletTown_ProfessorLab_Andra_Texto_7:

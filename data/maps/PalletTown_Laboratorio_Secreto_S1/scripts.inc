@@ -349,7 +349,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_14:
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_15:
 	.string "Hicimos bien en venir.\n"
-	.string "Desde BASE PROFUNDA no tengo esta\l"
+	.string "Desde BASE PROFUNDA, no tengo esta\l"
 	.string "sensación, no puedo esperar para\l"
 	.string "ver lo que nos depara este lugar.$"
 

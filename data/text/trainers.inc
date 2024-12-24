@@ -4565,7 +4565,7 @@ Route133_Text_BeckDefeat:
 	.string "Tu estilo… ¡es asombrosamente guay!$"
 
 Route133_Text_BeckPostBattle:
-	.string "Quisiera volver a arborada, pero le he\n"
+	.string "Quisiera volver a ARBORADA, pero le he\n"
 	.string "cogido cariño a este lugar.$"
 
 Route133_Text_MollieIntro:
@@ -4650,7 +4650,7 @@ Route134_Text_AaronPostBattle:
 	.string "fuerte!$"
 
 Route134_Text_KelvinIntro:
-	.string "Nu-nuestro barco! ¡Se lo ha llevado la\n"
+	.string "¡Nu-nuestro barco! ¡Se lo ha llevado la\n"
 	.string "marea!$"
 
 Route134_Text_KelvinDefeat:
@@ -18268,8 +18268,8 @@ Cave_Regigigas_Devon_11_Text_PoliciaPostBattle:
 
 Cave_Regigigas_Devon_12_Text_PoliciaIntro:
 	.string "He oído hablar de ti… dicen que eres un\n"
-	.string "privilegiado para el combate, ¿pero\l"
-	.string "sabes lo que también dicen?$"
+	.string "privilegiado para el combate.\l"
+	.string "¿Sabes lo que también dicen?$"
 
 Cave_Regigigas_Devon_12_Text_PoliciaDefeat:
 	.string "No hay duda, tienes talento, pero…$"

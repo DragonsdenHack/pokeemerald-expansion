@@ -2,7 +2,7 @@ Underwater_Route128_MapScripts::
 	.byte 0
 
 Underwater_Route128_Barrera::
-compare VAR_UNUSED_0x40F8, 50
+compare VAR_UNUSED_0x40F8, 60
 goto_if_lt LavenderTown_Barrera_Mision_Kangaskhan_3.1
 applymovement OBJ_EVENT_ID_PLAYER, Underwater_Route128_Barrera_Move_1
 waitmovement 0x0

@@ -4531,7 +4531,7 @@ static void DarPokemonBasicosKanto(u8 opcion){
 		break;
 		case 3: //dlc
 
-		memcpy(evs, (u8[]){0, 252, 6, 252, 0, 0}, 6);
+        memcpy(evs, (u8[]){252, 252, 6, 0, 0, 0}, 6);
         memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
 
 		ScriptGiveCustomMon(SPECIES_CROBAT_BOND,110,ITEM_BLACK_SLUDGE,26,NATURE_ADAMANT,0xFF, 0, (u8*)31, MOVE_ZEN_HEADBUTT, MOVE_SUPER_FANG,MOVE_GUNK_SHOT,MOVE_FLY,0);

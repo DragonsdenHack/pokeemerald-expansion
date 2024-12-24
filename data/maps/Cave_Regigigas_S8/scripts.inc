@@ -1118,7 +1118,7 @@ Cave_Regigigas_S8_Amatista_Texto_32:
 
 Cave_Regigigas_S8_Amatista_Texto_33:
 	.string "Después de todo, habéis olvidado\n"
-	.string "que…seguís siendo finitos.$"
+	.string "que… seguís siendo finitos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_34:
 	.string "Y ante algo infinito, como lo que tenéis\n"
@@ -1132,7 +1132,7 @@ Cave_Regigigas_S8_Amatista_Texto_36:
 	.string "Parece que mis cálculos fallaron.$"
 
 Cave_Regigigas_S8_Amatista_Texto_37:
-	.string "ADM.AMATISTA: Mmm{PAUSE 15}…{PAUSE 15} muy interesante.$"
+	.string "ADM.AMATISTA: Mmm{PAUSE 15}…{PAUSE 15} Muy interesante.$"
 
 Cave_Regigigas_S8_Amatista_Texto_38:
 	.string "Felicidades. Acabáis de definir un\n"
