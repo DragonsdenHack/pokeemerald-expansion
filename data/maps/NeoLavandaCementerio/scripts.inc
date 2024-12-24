@@ -44,7 +44,6 @@ NeoLavandaCementerio_3::
 lock     
 faceplayer     
 msgbox NeoLavandaCementerio_Text_3, MSGBOX_DEFAULT
-clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 release     
 end
 
