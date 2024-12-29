@@ -184,6 +184,7 @@ clearflag FLAG_NUEVA_629
 clearflag FLAG_NUEVA_630
 clearflag FLAG_NUEVA_631
 clearflag FLAG_NUEVA_632
+setvar VAR_PACIFIDLOG_TOWN_STATE, 4
 setvar VAR_UNUSED_0x40F7, 251
 release
 end

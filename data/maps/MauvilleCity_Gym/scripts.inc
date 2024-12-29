@@ -316,7 +316,7 @@ MauvilleCity_Gym_Text_VivianIntro:
 	.string "desintegrar!$"
 
 MauvilleCity_Gym_Text_VivianDefeat:
-	.string "Tu potencia me ha dejado\n"
+	.string "¡Tu potencia me ha dejado\n"
 	.string "cortocircuitada!$"
 
 MauvilleCity_Gym_Text_VivianPostBattle:
@@ -341,8 +341,8 @@ MauvilleCity_Gym_Text_WattsonIntro:
 	.string	"Y me he dedicado a instalar trampas\n"
 	.string	"eléctricas en mi GIMNASIO.\p"
 	.string	"Y tú ¿qué haces aquí?\p"
-	.string	"¿Cómo? ¿Que has conseguido burlar\n"
-	.string	"todas las puertas amañadas?\p"
+	.string	"¿Visitaste PUEBLO VERDEGAL,\n"
+	.string	"tal y como te dije?\p"
 	.string	"¡Jua, jua, jua!\n"
 	.string	"¡Tienes madera!\p"
 	.string	"¡Pues ahora yo, ERICO, LÍDER\n"

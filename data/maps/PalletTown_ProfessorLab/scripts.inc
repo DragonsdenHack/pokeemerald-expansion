@@ -640,7 +640,7 @@ playse SE_EXIT
 waitse
 setflag FLAG_HOENN_655
 removeobject 6
-clearflag FLAG_HOENN_67
+clearflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1
 setvar VAR_UNUSED_0x40F8, 26
 release
 end

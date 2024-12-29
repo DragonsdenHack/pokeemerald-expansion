@@ -5155,6 +5155,7 @@ EventScript_SetJohto::
 	
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
+	setvar VAR_PACIFIDLOG_TOWN_STATE, 4
 	setvar VAR_VERDANTURF_TOWN_STATE, 20
 	setvar VAR_MAUVILLE_CITY_STATE, 9
 	setvar VAR_ROUTE118_STATE, 1
