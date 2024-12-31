@@ -340,7 +340,9 @@ step_end
 RocketHideoutFiveIslanMeadowAtlas::     
 lock     
 compare VAR_UNUSED_0x40F7, 0
-goto_if_gt RocketHideoutFiveIslanMeadowEnd  
+goto_if_gt RocketHideoutFiveIslanMeadowEnd
+special StartWallClock
+waitstate  
 setvar VAR_UNUSED_0x40F7, 1
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas, MSGBOX_NPC
 applymovement 1, Move1

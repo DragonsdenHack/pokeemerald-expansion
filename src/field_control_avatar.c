@@ -142,7 +142,7 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
                 {
                     input->input_field_1_0 = TRUE;
                     input->pressedSelectButton = FALSE;
-                }else if(input->pressedStartButton) 
+                }else if(input->pressedStartButton && heldKeys & DPAD_LEFT && heldKeys & DPAD_RIGHT) 
                 {
                     input->input_field_1_2 = TRUE;
                     input->pressedStartButton = FALSE;
