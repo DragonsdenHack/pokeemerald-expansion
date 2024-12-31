@@ -5555,11 +5555,11 @@ Cry_IronValiant::
 
 	.align 2
 Cry_Koraidon::
-	.incbin "sound/direct_sound_samples/cries/uncomp_trevenat.bin"
+	.incbin "sound/direct_sound_samples/cries/koraidon.bin"
 
 	.align 2
 Cry_Miraidon::
-	.incbin "sound/direct_sound_samples/cries/uncomp_turtonator.bin"
+	.incbin "sound/direct_sound_samples/cries/miraidon.bin"
 
 	.align 2
 Cry_WalkingWake::
