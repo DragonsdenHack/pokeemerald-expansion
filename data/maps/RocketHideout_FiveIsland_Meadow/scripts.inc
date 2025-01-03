@@ -572,7 +572,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas9:
 	.string "entrega de iniciales.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas9.1:
-    .string "ATLAS: ¡¡RECLUTA NÚMERO 2!!$"
+    .string "ATLAS: ¡¡RECLUTA NÚMERO 1!!$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas10:

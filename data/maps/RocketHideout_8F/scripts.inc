@@ -3314,6 +3314,7 @@ applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_19 MSGBOX_AUTOCLOSE
 delay 15
+setvar VAR_UNUSED_0x40F8, 27
 setvar VAR_UNUSED_0x40F7, 113
 release
 end
@@ -3756,9 +3757,9 @@ RocketHideout8F_Mision_Johto_Text_8:
 	.string "que ocurrió con las AVES DE KANTO.$"
 
 RocketHideout8F_Mision_Johto_Text_9:
-.string "Como uno de los ADMIN.JEFE, te\n"
-	.string "corresponde un ejemplar de cada,\l"
-	.string "espero que no te traigan malos\l"
+.string "Como uno de los ADMINISTRADORES, te\n"
+	.string "corresponde un ejemplar de cada.\p"
+	.string "Espero que no te traigan malos\n"
 	.string "recuerdos de tu combate con LANCE,\l"
 	.string "recuerda que son clones.$"
 
@@ -5125,6 +5126,8 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+clearflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
+clearflag FLAG_HIDE_BATTLE_TOWER_OPPONENT
 setvar VAR_UNUSED_0x40F7, 202
 release
 end

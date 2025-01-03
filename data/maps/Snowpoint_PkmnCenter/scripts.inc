@@ -3,7 +3,7 @@ Snowpoint_PkmnCenter_MapScripts::
 	.byte 0
 
 Snowpoint_PkmnCenter_OnTransition:
-	setrespawn HEAL_LOCATION_VERMILION_CITY
+	setrespawn HEAL_LOCATION_SNOWPOINT_CITY
 	end
 
 Snowpoint_PkmnCenter_EventScript_Nurse::

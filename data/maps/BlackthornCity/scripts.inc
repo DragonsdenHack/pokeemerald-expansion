@@ -174,7 +174,7 @@ BlackthornCityDocumento_Text_100:
 
 
 BlackthornCityDocumento_101::
-compare VAR_UNUSED_0x40F8, 30
+compare VAR_UNUSED_0x40F8, 35
 goto_if_gt BlackthornCityDocumento_101_Debora
 msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN  
 end

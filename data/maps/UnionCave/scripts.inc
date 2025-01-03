@@ -132,6 +132,7 @@ msgbox UnionCave_Combate_Elm_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_10
 waitmovement 0x0
 playse SE_EXIT
+setflag FLAG_HOENN_674
 setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 6
 setvar VAR_UNUSED_0x40F7, 127

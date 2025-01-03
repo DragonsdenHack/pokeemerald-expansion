@@ -348,10 +348,14 @@ Route103_Text_RouteSign:
 	.string	"{DOWN_ARROW} PUEBLO ESCASO$"
 
 Route103_Abedul::
-compare VAR_UNUSED_0x40F8, 55
+compare VAR_UNUSED_0x40F8, 155
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_1
 waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route103_Abedul_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 playse SE_PIN
 applymovement 11, Route103_Abedul_Move_2
 waitmovement 0x0
@@ -362,10 +366,24 @@ msgbox Route103_Abedul_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 11, Route103_Abedul_Move_3
 waitmovement 0x0
 msgbox Route103_Abedul_Texto_3 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route103_Abedul_Move_1.2
+waitmovement 0x0
+special RemoveCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_4
 waitmovement 0x0
 release
 end
+
+Route103_Abedul_Move_1.1:
+walk_down
+walk_down
+step_end
+
+Route103_Abedul_Move_1.2:
+walk_up
+walk_up
+step_end
 
 Route103_Abedul_Move_4:
 delay_8

@@ -4644,8 +4644,8 @@ Route134_Text_AaronDefeat:
 	.string "Sí, ya sé, he perdido.$"
 
 Route134_Text_AaronPostBattle:
-	.string "remos a entrenarnos en serio a la\n"
-	.string "cascada Meteoro. Quizás incluso a ti te\l"
+	.string "Iremos a entrenarnos en serio a la\n"
+	.string "CASCADA METEORO. Quizás incluso a ti te\l"
 	.string "vendría bien. ¡Seguro que te haces más\l"
 	.string "fuerte!$"
 

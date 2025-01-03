@@ -2285,6 +2285,12 @@ msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_27 MSGBOX_AUTOCLOSE
 applymovement 3, Laboratorio_S6_Combate_Ganado_Move_6
 waitmovement 0x0
 msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Laboratorio_S6_Combate_Ganado_Move_6.5
+waitmovement 0x0
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Laboratorio_S6_Combate_Ganado_Move_16
 waitmovement 0x0
 playse MUS_DUMMY
@@ -2375,6 +2381,17 @@ delay_16
 delay_8
 walk_in_place_up
 delay_16
+step_end
+
+Laboratorio_S6_Combate_Ganado_Move_6.5:
+delay_8
+face_down
+delay_16
+face_left
+delay_16
+face_right
+delay_16
+face_down
 step_end
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_1:
@@ -2492,6 +2509,10 @@ PalletTown_Laboratorio_S6_Combate_Ganado_Texto_27:
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28:
 	.string "ANDRA: Ahí tienes la respuesta: no hay\n"
 	.string "lugar aquí para mí.$"
+
+PalletTown_Laboratorio_S6_Combate_Ganado_Texto_28.1:
+	.string "En este lugar, estas paredes, la esencia\n"
+	.string "permanece oculta para los sentidos.$"
 
 PalletTown_Laboratorio_S6_Combate_Ganado_Texto_29:
 	.string "OAK: Puede que esta sea precisamente\n"

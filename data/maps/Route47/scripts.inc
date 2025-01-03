@@ -137,6 +137,10 @@ msgbox Route47_Encuentro_Andra_Texto_8 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_10
 applymovement 9, Route47_Encuentro_Andra_Move_9
 waitmovement 0x0
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+setflag FLAG_HOENN_108
+setflag FLAG_RECEIVED_SHOAL_SHELL_2
+clearflag FLAG_NUEVA_861
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
 setflag FLAG_UNUSED_0x275
 removeobject 9

@@ -288,12 +288,12 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
 	.string "todo este alboroto?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
-.string "MAESTRO JAREN, al contrario, este\n"
+.string "MAESTRO JADEN, al contrario, este\n"
 	.string "ENTRENADOR acaba de derrotar en un\l"
 	.string "combate al agitador.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-.string "JAREN: Mmm{PAUSE 15}…{PAUSE 15}\n"
+.string "JADEN: Mmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Debes de ser {PLAYER}, AGATHA ya me\l"
 	.string "ha hablado de ti. En nombre de\l"
 	.string "CIUDAD IRIS te doy las gracias por\l"
