@@ -345,3 +345,36 @@ PalletTown_Andra_Texto_11:
 
 PalletTown_Andra_Texto_12:
 	.string "Bien… ¿listo? Allá vamos.$"
+
+PalletTown_Puerta_Cerrada::
+lock
+compare VAR_UNUSED_0x40F7, 100
+goto_if_gt PalletTown_Puerta_Cerrada_2
+release
+end
+
+PalletTown_Puerta_Cerrada_2::
+compare VAR_UNUSED_0x40F7, 210
+goto_if_gt PalletTown_Puerta_Cerrada_3
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Puerta_Cerrada_Move_1
+waitmovement 0x0
+msgbox PalletTown_Puerta_Cerrada_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Puerta_Cerrada_Move_2
+waitmovement 0x0
+release
+end
+
+PalletTown_Puerta_Cerrada_Texto_1:
+	.string "La puerta está cerrada.$"
+
+PalletTown_Puerta_Cerrada_Move_1:
+walk_in_place_up
+step_end
+
+PalletTown_Puerta_Cerrada_Move_2:
+walk_right
+step_end
+
+PalletTown_Puerta_Cerrada_3::
+release
+end

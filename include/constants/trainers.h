@@ -659,6 +659,7 @@
 #define TRAINER_CLASS_EXPERIMENTO_2      0xD4
 #define TRAINER_CLASS_GUARDIA            0xD5
 #define TRAINER_CLASS_TRISTANA           0xD6
+#define TRAINER_CLASS_ALTO_RANGO         0xD7
 
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music

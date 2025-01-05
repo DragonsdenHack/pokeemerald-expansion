@@ -1176,6 +1176,7 @@ return B_TRANSITION_CHAMPION;
         return B_TRANSITION_CHAMPION;
 	
 	if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_RECLUTA
+        || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ALTO_RANGO
 		|| (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_PROTON && gTrainers[gTrainerBattleOpponent_A].trainerPic == TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO))
 		return B_TRANSITION_ROCKET;
 		

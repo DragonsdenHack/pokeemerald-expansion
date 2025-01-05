@@ -21,5 +21,5 @@ SlateportCity_House_Text_NatureToDoWithStatGains:
 SlateportCity_House_Text_MustBeGoingToBattleTent:
 	.string "Tú entrenas POKéMON, ¿a que sí?\p"
 	.string "Ya que estás en CIUDAD PORTUAL, no\n"
-	.string "te puedes perder la TIENDA de BATALLA.$"
+	.string "te puedes perder el MUSEO PORTUAL.$"
 

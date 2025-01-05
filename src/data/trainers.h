@@ -128,7 +128,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ALTORANGO] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -338,7 +338,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_GRUNT_MT_PYRE_2] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -352,7 +352,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_GRUNT_MT_PYRE_3] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -380,7 +380,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_GRUNT_AQUA_HIDEOUT_5] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -4930,7 +4930,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANTHONY] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -4944,7 +4944,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BENJAMIN_1] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -4958,7 +4958,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BENJAMIN_2] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -4972,7 +4972,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BENJAMIN_3] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -4986,7 +4986,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BENJAMIN_4] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -5000,7 +5000,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BENJAMIN_5] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -11118,7 +11118,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_RECLUTA_BALL_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -11636,7 +11636,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_CRISTIN_5] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -14296,7 +14296,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_163] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -14310,7 +14310,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_164] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -14590,7 +14590,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_184] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),
@@ -21904,7 +21904,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_730] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .trainerClass = TRAINER_CLASS_ALTO_RANGO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
         .trainerName = _("ALTO RANGO"),

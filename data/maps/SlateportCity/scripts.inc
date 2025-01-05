@@ -1012,10 +1012,10 @@ SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 	.string	"encima y mantenerlos bien limpios.$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-	.string	"¡Toma ya! ¡Yo también voy a competir\n"
-	.string	"en la TIENDA de BATALLA!\p"
-	.string	"Pero antes tengo que atrapar\n"
-	.string	"algunos POKéMON…{PAUSE 5}$"
+	.string	"¡Toma ya! Ese MUSEO que han\n"
+	.string	"abierto tiene buena pinta.\p"
+	.string	"HOENN es una región con\n"
+	.string	"tanto arte…{PAUSE 5}$"
 
 SlateportCity_Text_BushedHikingFromMauville:
 	.string	"Uf… Esto es impresionante…\p"

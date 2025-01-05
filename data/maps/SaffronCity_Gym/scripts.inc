@@ -376,6 +376,8 @@ Vermilion_City_Estatua_Texto_4:
 Vermilion_City_Lider_Gimnasio::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 93
+goto_if_gt Vermilion_City_Lider_Gimnasio_Post_Liga
 compare VAR_ROUTE108_STATE, 2
 goto_if_gt Vermilion_City_Lider_Gimnasio_2
 playse MUS_RG_ENCOUNTER_GYM_LEADER
@@ -393,6 +395,11 @@ settrainerflag TRAINER_WINSTON_5
 settrainerflag TRAINER_ETHAN_4
 settrainerflag TRAINER_LAO_5
 setvar VAR_ROUTE108_STATE, 3
+release
+end
+
+Vermilion_City_Lider_Gimnasio_Post_Liga::
+msgbox Vermilion_City_Lider_Gimnasio_Texto_3.1 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -427,6 +434,12 @@ Vermilion_City_Lider_Gimnasio_Texto_3:
 	.string "de esta región antes de que te\l"
 	.string "explote en la cara toda la furia\l"
 	.string "de LANCE.$"
+
+Vermilion_City_Lider_Gimnasio_Texto_3.1:
+.string "Habrás ganado la batalla, pero\n"
+	.string "no la guerra.\p"
+	.string "La vida da muchas vueltas,\n"
+	.string "no lo olvides.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_4:
 .string "No voy a decirte lo que hace la\n"
