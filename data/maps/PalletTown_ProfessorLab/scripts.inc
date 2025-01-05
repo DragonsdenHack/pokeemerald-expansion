@@ -1174,6 +1174,13 @@ PalletTown_ProfessorLab_ZonaCero_Texto_17:
 
 PalletTown_ProfessorLab_ZonaCero_Activador::
 lock
+compare VAR_UNUSED_0x40F7, 253
+goto_if_gt PalletTown_ProfessorLab_ZonaCero_Activador_2
+msgbox PalletTown_ProfessorLab_ZonaCero_Activador_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+PalletTown_ProfessorLab_ZonaCero_Activador_2::
 compare VAR_UNUSED_0x40F8, 27
 goto_if_gt PalletTown_ProfessorLab_ZonaCero_Activador_Despues
 msgbox PalletTown_ProfessorLab_ZonaCero_Activador_Texto_1 MSGBOX_AUTOCLOSE

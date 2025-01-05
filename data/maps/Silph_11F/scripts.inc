@@ -566,9 +566,9 @@ Silph_11F_Bill_Presidente_Texto_14:
 
 Silph_11F_Bill_Presidente_Texto_15:
 .string "BILL: ¿Y tú quién eres, chica insolente?\n"
-	.string "No venido hasta aquí para hablar con\l"
-	.string "una ROCKET más del montón, que usa\l"
-	.string "POKÉMON de clase baja más del montón.$"
+	.string "No he venido hasta aquí para hablar\l"
+	.string "con una ROCKET del montón, que usa\l"
+	.string "POKÉMON de clase baja del montón.$"
 
 Silph_11F_Bill_Presidente_Texto_15.1:
 	.string "He venido hasta aquí para exigirle al\n"
@@ -686,7 +686,7 @@ Silph_11F_Bill_Presidente_Texto_29:
 	.string "tumba.$"
 
 Silph_11F_Bill_Presidente_Texto_29.1:
-	.string "Nadie mete con BILL, el mayor\n"
+	.string "Nadie se mete con BILL, el mayor\n"
 	.string "coleccionista del mundo.\l"
 	.string "La próxima vez que nos encontremos,\l"
 	.string "te aplastaré con un poder con el que\l"
