@@ -7887,9 +7887,9 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         break;
     case EFFECT_TRIPLE_KICK:
         if (gMultiHitCounter == 0) // Calc damage with max BP for move consideration
-            basePower *= 6;
+            basePower *= 6.10;
         else
-            basePower *= (4 - gMultiHitCounter);
+            basePower *= (4.10 - gMultiHitCounter);
         break;
     case EFFECT_SPIT_UP:
         basePower = 100 * gDisableStructs[battlerAtk].stockpileCounter;
