@@ -28,10 +28,24 @@ GoldenrodRadioTowerP5Documento_Text_100:
 
 GoldenrodRadioTowerP5_Primera_Reunion::
 lock
+clearflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
 addobject 3
 addobject 2
 addobject 5
+addobject 10
+addobject 9
+addobject 8
+addobject 7
+addobject 6
+addobject 5
+addobject 4
+addobject 1
+addobject 11
+addobject 12
+addobject 13
+addobject 14
 applymovement OBJ_EVENT_ID_PLAYER, GoldenrodRadioTowerP5_Primera_Reunion_move_1
 waitmovement 0x0
 playse SE_PIN

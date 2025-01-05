@@ -157,6 +157,24 @@
       "var": "VAR_UNUSED_0x40F8",
       "var_value": "27",
       "script": "CinnabarMansionS1_Dalia"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "26",
+      "script": "CinnabarMansionS1_Dalia"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "25",
+      "script": "CinnabarMansionS1_Dalia"
     }
   ],
   "bg_events": [

@@ -10913,7 +10913,7 @@ const struct Item gItems[] =
     },
     [ITEM_TIMID_MINT] = 
     {
-        .name = _("Menta Tímida"),
+        .name = _("Menta Miedosa"),
         .itemId = ITEM_TIMID_MINT,
         .price = 20000,
         .description = sTimidMintDesc,

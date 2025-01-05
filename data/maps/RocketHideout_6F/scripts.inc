@@ -1929,7 +1929,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_10:
 RocketHideout_6F_Petrel_Post_SSanne_Texto_11:
 .string "PETREL: En otras palabras, a partir de\n"
 	.string "ahora formaréis parte de la guardia\l"
-	.string "guardia personal de GIOVANNI.$"
+	.string "personal de GIOVANNI.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_11.1:
 	.string "Sentíos afortunados y sobre todo\n"

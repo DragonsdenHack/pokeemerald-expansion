@@ -4222,6 +4222,7 @@ EventScript_SetKanto::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
 	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	setflag FLAG_HOENN_675
 	end
 EventScript_SetSevii::
 	additem ITEM_MASTER_BALL, 2
@@ -4524,6 +4525,7 @@ EventScript_SetSevii::
 	setflag FLAG_HOENN_673
 	setflag FLAG_HOENN_300
 	setflag FLAG_NUEVA_822
+	setflag FLAG_HOENN_675
 	end
 EventScript_SetJohto::
 	additem ITEM_MASTER_BALL, 3
@@ -4828,6 +4830,7 @@ EventScript_SetJohto::
 	setflag FLAG_NUEVA_818
 	setflag FLAG_NUEVA_822
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+	setflag FLAG_HOENN_675
 	
 	//esto es lo de sevii
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
@@ -5315,6 +5318,7 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 	setflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
 	clearflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
+	setflag FLAG_HOENN_675
 
 	
 	//esto es lo de sevii

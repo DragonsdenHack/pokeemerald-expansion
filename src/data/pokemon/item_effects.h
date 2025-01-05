@@ -115,7 +115,7 @@ const u8 gItemEffect_EnergyRoot[10] = {
     [4] = ITEM4_HEAL_HP,
     [5] = ITEM5_FRIENDSHIP_ALL,
 #if I_HEALTH_RECOVERY >= GEN_7
-    [6] = 120, // Amount of HP to recover
+    [6] = 200, // Amount of HP to recover
 #else
     [6] = 200, // Amount of HP to recover
 #endif

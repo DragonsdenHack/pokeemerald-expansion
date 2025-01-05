@@ -152,6 +152,8 @@ applymovement 10, NeoPowerPlant_Presidente_Move_4
 waitmovement 0x0
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+addobject 7
+clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
 clearflag FLAG_HOENN_76

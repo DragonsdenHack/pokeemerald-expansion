@@ -118,7 +118,6 @@
 #define METATILE_Building_TV_Off  0x035
 #define METATILE_Building_TV_On   0x061
 
-
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
@@ -445,7 +444,6 @@
 
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A
-#define METATILE_Pacifidlog_SkyPillar_CrackedFloor_Hole        0x237
 #define METATILE_Pacifidlog_FloatingLogs_HorizontalLeft        0x2D0
 #define METATILE_Pacifidlog_FloatingLogs_HorizontalRight       0x2D1
 #define METATILE_Pacifidlog_FloatingLogs_VerticalBottom        0x2E0

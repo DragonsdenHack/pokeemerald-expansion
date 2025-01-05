@@ -267,9 +267,36 @@ lock
 showmonpic SPECIES_ULTIMATE_PROYECT, 10, 3  
 playmoncry SPECIES_GENESECT, CRY_MODE_ENCOUNTER 
 msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_2, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_3, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_4, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_5, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
+
+PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_5:
+	.string "Esta misma armadura es la\n"
+	.string "que limita su VELOCIDAD.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_4:
+	.string "Su habilidad le convierte en un POKÉMON\n"
+	.string "sin debilidades, ya que su armadura\l"
+	.string "filtra todos los movimientos\l"
+	.string "superefectivos, convirtiéndolos en\l"
+	.string "neutros.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_3:
+	.string "Sus poderes psíquicos no conocen\n"
+	.string "igual, alcanza tal nivel de eficiencia y\l"
+	.string "poder bruto, que está a la par que los 3\l"
+	.string "GRANDES CREADORES, en lo que a STATS\l"
+	.string "útiles se refiere.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_2:
+	.string "POKÉMON creado con el único fin de\n"
+	.string "defender la región, ante cualquier\l"
+	.string "ataque.$"
 
 PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1:
 .string "ULTIMATE PROJECT\p"
@@ -375,8 +402,8 @@ PalletTown_Laboratorio_Secreto_Doc_Armaldo_Texto_1:
 	.string "ATAQUE: 155\l"
 	.string "DEFENSA: 120\l"
 	.string "ATAQUE ESPECIAL: 70\l"
-	.string "DEFENSA ESPECIAL: 75\l"
-	.string "VELOCIDAD: 100\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 75\l"
 	.string "TOTAL: 585\p"
 	.string "TIPO: ROCA/BICHO\n"
 	.string "HABILIDAD: ARM.FRÁGIL$"

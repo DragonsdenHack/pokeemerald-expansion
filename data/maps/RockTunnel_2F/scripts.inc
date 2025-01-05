@@ -457,7 +457,7 @@ RockTunnel_2F_Combate_Miguel_Texto_16.1:
 RockTunnel_2F_Combate_Miguel_Texto_17:
 .string "CIENTÍFICO: No tienes perdón, he\n"
 	.string "perdido en cuestión de segundos el\l"
-	.string "equipo que me llevó años contruir.$"
+	.string "equipo que me llevó años construir.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17.1:
 	.string "¡Recuerda mis palabras, {PLAYER}!\n"

@@ -61,7 +61,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 14,
+      "x": 12,
       "y": 0,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",

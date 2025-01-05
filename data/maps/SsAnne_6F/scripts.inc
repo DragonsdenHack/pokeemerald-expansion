@@ -346,7 +346,7 @@ SSAnne6F_Lance_Surge_Text_3:
 	.string "poco su red de contactos con\l"
 	.string "otras regiones.\l"
 	.string "Paralelamente, estamos valorando\l"
-	.string "el contruir un FARO, similar al\l"
+	.string "el construir un FARO, similar al\l"
 	.string "de CIUDAD OLIVO.$"
 
 SSAnne6F_Lance_Surge_Text_4:
