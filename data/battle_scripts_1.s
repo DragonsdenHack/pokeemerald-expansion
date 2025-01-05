@@ -4192,7 +4192,7 @@ BattleScript_DoTripleKickAttack::
 	addbyte sTRIPLE_KICK_POWER, 10                                  @ triple kick gets +10 power
 	goto EffectTripleKick_DoDmgCalcs
 EffectTripleKick_TripleAxelBoost:
-	addbyte sTRIPLE_KICK_POWER, 20
+	addbyte sTRIPLE_KICK_POWER, 1
 EffectTripleKick_DoDmgCalcs:
 	addbyte sTRIPLE_KICK_POWER, 10
 	addbyte sMULTIHIT_STRING + 4, 1
