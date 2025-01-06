@@ -4210,7 +4210,7 @@ Route129_Text_ChaseIntro:
 
 Route129_Text_ChaseDefeat:
 	.string "¡Buaaaaaa!\n"
-	.string "¡He perdidp!$"
+	.string "¡He perdido!$"
 
 Route129_Text_ChasePostBattle:
 	.string "Estoy tan, tan nervioso que no voy a\n"

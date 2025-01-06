@@ -591,7 +591,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "ATAQUE ESPECIAL: 80\l"
 	.string "DEFENSA ESPECIAL: 85\l"
 	.string "VELOCIDAD: 102\l"
-	.string "TOTAL: 580\p"
+	.string "TOTAL: 600\p"
 .string "Para muchos, el PSEUDOLEGENDARIO\n"
 	.string "número 1. Lo tiene todo para ser un\l"
 	.string "POKÉMON dominante: VELOCIDAD\l"
