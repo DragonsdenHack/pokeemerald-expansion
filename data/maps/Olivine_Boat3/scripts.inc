@@ -340,6 +340,7 @@ applymovement 13, Olivine_Boat3_Capitan_Move_1
 waitmovement 0x0
 msgbox Olivine_Boat3_Capitan_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Olivine_Boat3_Capitan_Texto_4 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_109
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
 setflag FLAG_RECEIVED_SHOAL_SALT_1                              
 setflag FLAG_RECEIVED_SHOAL_SALT_2

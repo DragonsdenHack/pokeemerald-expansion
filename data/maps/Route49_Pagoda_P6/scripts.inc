@@ -37,7 +37,7 @@ release
 end
 
 Route49_Pagoda_P6_Tercer_Pensador_Texto_1:
-.string "La PIEDRA DORADA que genera el DRAGÓN\n"
+.string "La PIEDRA SAGRADA que genera el DRAGÓN\n"
 	.string "SAGRADO es, en cierto modo, parecida a\l"
 	.string "la CENIZA SAGRADA de HO-OH.$"
 

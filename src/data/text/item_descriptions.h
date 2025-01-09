@@ -47,9 +47,9 @@ static const u8 sDiveBallDesc[] = _(
    	"fondo del mar.");
 
 static const u8 sDuskBallDesc[] = _(
-    "Works well if\n"
-    "used in a\n"
-    "dark place.");
+    "Funciona mejor con\n"
+   	"los POKéMON de\n"
+   	"las cuevas.");
 
 static const u8 sTimerBallDesc[] = _(
     "Funciona mejor al\n"
@@ -589,9 +589,9 @@ static const u8 sXSpAtkDesc[] = _(
    	"en un combate.");
 
 static const u8 sXSpDefDesc[] = _(
-    "Raises the stat\n"
-    "Sp. Def during one\n"
-    "battle.");
+    "Aumenta la\n"
+    "DEF. ESP durante\n"
+    "un combate.");
 
 static const u8 sXSpeedDesc[] = _(
     "Aumenta la\n"

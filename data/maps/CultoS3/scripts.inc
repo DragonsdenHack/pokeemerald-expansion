@@ -404,7 +404,7 @@ CultoS3_Text_26:
 .string "Prueben a colocar al hombre en la más\n"
 .string "próspera, idílica y fantástica de\l"
 .string "las utopías, refugienle en inmensas\l"
-.string "burbujas de placer edonico, evitando\l"
+.string "burbujas de placer hedónico, evitando\l"
 .string "todo contacto con la crudeza del\l"
 .string "cosmos, concédale aquello con lo que\l"
 .string "siempre soñó, sin tener que pasar por\l"
@@ -869,7 +869,7 @@ Culto_S3_Batalla_Texto_11:
 .string "Podrás haber derrotado a LANCE,\n"
 	.string "pero sigues siendo un principiante\l"
 	.string "en cuanto a conocimiento de las\l"
-	.string "leyes que rijen este mundo{PAUSE 5}…{PAUSE 5}$"
+	.string "leyes que rigen este mundo{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_12:
 .string "Todos vosotros al final lo que\n"

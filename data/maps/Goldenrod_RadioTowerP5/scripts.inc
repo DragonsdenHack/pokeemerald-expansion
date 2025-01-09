@@ -789,7 +789,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_50:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_51:
 .string "Debemos tomar decisiones duras,\n"
 	.string "señores. Para bien o para mal,\l"
-	.string "este mundo se rije por la ley del\l"
+	.string "este mundo se rige por la ley del\l"
 	.string "POKÉMON más fuerte. Ya vimos lo\l"
 	.string "que ocurrió cuando a LANCE se le\l"
 	.string "ocurrió aplicar esa ley contra\l"
@@ -2302,7 +2302,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.4:
 .string "ANDRA: ¿A qué se refiere exactamente?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.5:
-.string "GIOVANNI: La PIEDRA DORADA ha podido\n"
+.string "GIOVANNI: La PIEDRA SAGRADA ha podido\n"
 	.string "ser producida en masa, y está lista\l"
 	.string "para lanzarse a nuestro mercado…\l"
 	.string "privado.$"

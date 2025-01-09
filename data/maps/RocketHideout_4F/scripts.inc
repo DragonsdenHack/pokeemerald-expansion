@@ -379,7 +379,7 @@ end
 RocketHideout4F_Text_5:
 .string "Guarda respeto y mantén las\n"
 .string "distancias cuando vayas a\l"
-.string "dirijirte hacia nuestro LÍDER\l"
+.string "dirigirte hacia nuestro LÍDER\l"
 .string "recluta, si nos caracterizamos por\l"
 .string "algo es por cumplir de forma\l"
 .string "impoluta con el protocolo.$"
@@ -396,7 +396,7 @@ end
 RocketHideout4F_Text_6:
 .string "Guarda respeto y mantén las\n"
 .string "distancias cuando vayas a\l"
-.string "dirijirte hacia nuestro LÍDER\l"
+.string "dirigirte hacia nuestro LÍDER\l"
 .string "recluta, si nos caracterizamos por\l"
 .string "algo es por cumplir de forma\l"
 .string "impoluta con el protocolo.$"

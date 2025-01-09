@@ -187,7 +187,7 @@ Route50_Encuentro_Dunsparce_Texto_7:
 	.string "detenidamente{PAUSE 5}…{PAUSE 5}$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
-	.string "¡¡{PLAYER} obtuvo una PIEDRA DORADA!!$"
+	.string "¡¡{PLAYER} obtuvo una PIEDRA SAGRADA!!$"
 
 
 Route50_Dragonite::

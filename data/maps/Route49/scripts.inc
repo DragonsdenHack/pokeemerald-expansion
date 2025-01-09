@@ -255,7 +255,7 @@ Route49_Combate_Andra_Texto_1:
 Route49_Combate_Andra_Texto_2:
 .string "ANDRA: ¿Cómo sabes que la he pasado?\n"
 	.string "Es cierto que ese POKÉMON dejó caer\l"
-	.string "una extraña PIEDRA DORADA, después de\l"
+	.string "una extraña piedra, después de\l"
 	.string "derrotarla. Sin embargo, uno de mis\l"
 	.string "POKÉMON reaccionó a ella, y fue\l"
 	.string "consumida. No tengo pruebas de que\l"
@@ -387,8 +387,8 @@ end
 
 Route49_Barrera_Texto_1:
 .string "Seas quien seas, no puedes entrar a\n"
-	.string "este lugar sagrado. Solo obteniendo la\l"
-	.string "PIEDRA DORADA en la ruta del norte\l"
+	.string "nuestro templo. Solo obteniendo la\l"
+	.string "PIEDRA SAGRADA en la ruta del norte\l"
 	.string "demostrarás que mereces un lugar aquí.$"
 
 Route49_Protector_Pagoda::

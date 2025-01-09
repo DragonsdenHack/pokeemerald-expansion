@@ -61,7 +61,7 @@ release
 end
 
 Route49_Pagoda_P7_Quinto_Pensador_Texto_1:
-.string "Gracias a la PIEDRA DORADA del DRAGÓN\n"
+.string "Gracias a la PIEDRA SAGRADA del DRAGÓN\n"
 	.string "SAGRADO, los antiguos POKÉMON de\l"
 	.string "JOHTO no se han perdido para siempre.\l"
 	.string "Además, reacciona ante ciertos\l"
@@ -76,7 +76,7 @@ release
 end
 
 Route49_Pagoda_P7_Sexto_Pensador_Texto_1:
-.string "La PIEDRA DORADA reacciona con\n"
+.string "La PIEDRA SAGRADA reacciona con\n"
 	.string "DUNSPARCE, pero el POKÉMON resultante\l"
 	.string "puede evolucionar una vez más, solo\l"
 	.string "que muy pocos saben como.$"
@@ -476,7 +476,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_22:
 .string "ANDRA: ¿Cómo?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_23:
-.string "EUSINE: Gracias a la PIEDRA DORADA.$"
+.string "EUSINE: Gracias a la PIEDRA SAGRADA.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_24:
 .string "ANDRA: ¿La misma que convirtió mi\n"

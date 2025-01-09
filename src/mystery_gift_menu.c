@@ -4531,7 +4531,7 @@ static void DarPokemonBasicosKanto(u8 opcion){
 		break;
 		case 3: //dlc
 
-        memcpy(evs, (u8[]){252, 252, 6, 0, 0, 0}, 6);
+        memcpy(evs, (u8[]){252, 0, 6, 0, 252, 0}, 6);
         memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
 
 		ScriptGiveCustomMon(SPECIES_CROBAT_BOND,112,ITEM_BLACK_SLUDGE,26,NATURE_ADAMANT,0xFF, evs, ivs, MOVE_ZEN_HEADBUTT, MOVE_SUPER_FANG,MOVE_GUNK_SHOT,MOVE_FLY,0);
@@ -4721,7 +4721,7 @@ static void DarPokemonBasicosKanto(u8 opcion){
 
 		ScriptGiveCustomMon(SPECIES_REGISTEEL,110,ITEM_NONE,26,NATURE_BOLD,0xFF, evs, ivs, MOVE_AMNESIA, MOVE_STEEL_BEAM,MOVE_THUNDER_WAVE,MOVE_SEISMIC_TOSS,0);
 
-		memcpy(evs, (u8[]){252, 252, 6, 0, 0, 0}, 6);
+		memcpy(evs, (u8[]){252, 0, 6, 0, 252, 0}, 6);
         memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
 
 		ScriptGiveCustomMon(SPECIES_HO_OH,110,ITEM_NONE,26,NATURE_MODEST,0xFF, evs, ivs, MOVE_RECOVER, MOVE_SACRED_FIRE,MOVE_BRAVE_BIRD,MOVE_EARTHQUAKE,0);

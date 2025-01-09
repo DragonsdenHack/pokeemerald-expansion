@@ -1695,7 +1695,7 @@ const struct Item gItems[] =
         .price = 12000,
         .holdEffect = HOLD_EFFECT_ODD,
         .description = sOddKeystoneDesc,
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_TREASURES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },

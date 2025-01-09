@@ -444,7 +444,7 @@ RocketHideout5F_Text_29:
 .string "límites sobre cualquier aspecto?,\l"
 .string "eso solo puede fortalecerte y\l"
 .string "hacerte más consciente de los\l"
-.string "parámetros que rijen este mundo.$"
+.string "parámetros que rigen este mundo.$"
 
 
 

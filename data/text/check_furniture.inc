@@ -23,5 +23,5 @@ Text_ShopShelf:
 	.string "El POKÉMON parece estar encantado.$"
 
 Text_Blueprint:
-	.string "A blueprint of some sort?\n"
-	.string "It's too complicated!$"
+	.string "¿Y este plano qué puede ser?\n"
+	.string "¡Qué cosa tan rara!$"

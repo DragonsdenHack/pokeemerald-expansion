@@ -707,7 +707,7 @@ PokemonMansion_1F_Ladrones_Texto_25:
 
 PokemonMansion_1F_Ladrones_Texto_26:
 .string "¡{PLAYER} encontró 3\n"
-	.string "CARAMELOSRAROS!$"
+	.string "CARAMELO RARO!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
 .string "¡¡OBTUVISTE UN CHARMANDER AL NV.5!!$"

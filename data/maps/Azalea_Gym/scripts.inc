@@ -100,6 +100,7 @@ AzaleaGym_Combate_Cesar_Texto_11.3:
 
 
 Azalea_Gym_Combate_Cesar_2::
+setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 msgbox AzaleaGym_Combate_Cesar_Texto_12 MSGBOX_AUTOCLOSE
 release
 end
@@ -239,7 +240,7 @@ AzaleaGym_Gym_Dude_Texto_2:
 	.string "CÉSAR, PUEBLO AZALEA y el ENCINAR\l"
 	.string "no estaban ni separados por el\l"
 	.string "puesto de seguridad!\l"
-	.string "¡Íncreíble!$"
+	.string "¡Increíble!$"
 
 
 

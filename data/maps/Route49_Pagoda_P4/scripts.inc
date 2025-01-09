@@ -61,7 +61,7 @@ end
 
 Route49_Pagoda_P4_Quinto_Pensador_Texto_1:
 .string "La cantidad de POKÉMON que reaccionan\n"
-	.string "a la PIEDRA DORADA es incalculable. Uno\l"
+	.string "a la PIEDRA SAGRADA es incalculable. Uno\l"
 	.string "de nuestros más duchos entrenadores\l"
 	.string "evolucionó a un BASCULIN con ella.\l"
 	.string "Ahora es un poderoso BASCULEGION.$"

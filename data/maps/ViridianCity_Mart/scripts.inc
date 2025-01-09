@@ -141,6 +141,7 @@ Base_Profunda_Mercado_4_Pokemart:
 	.2byte 212
 	.2byte 213
 	.2byte 214
+	.2byte 215
 	.2byte 121
 	.2byte 122
 	.2byte 123

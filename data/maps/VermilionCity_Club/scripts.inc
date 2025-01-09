@@ -296,7 +296,7 @@ end
 
 VermilionCity_Segundo_NPC_Texto_1:
 .string "Sé educado y muestra respeto a la\n"
-	.string "hora de dirijirte a nuestro\l"
+	.string "hora de dirigirte a nuestro\l"
 	.string "PRESIDENTE, si quisiera te\l"
 	.string "enterraría a ti junto con el resto\l"
 	.string "del TEAM ROCKET.$"

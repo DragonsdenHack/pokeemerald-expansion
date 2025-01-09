@@ -604,7 +604,7 @@ MtMoon_3F_Miguel_Rojo_text_11:
 	.string "más fuerte que el anterior!\l"
 	.string "Acaba de derrotarnos a todos sin\l"
 	.string "ningún esfuerzo y ahora mismo se\l"
-	.string "dirije hacia donde tú estás.\l"
+	.string "dirige hacia donde tú estás.\l"
 	.string "Protege el FÓSIL con tu vida.\l"
 	.string "Repito. Protege el FÓSIL con tu\l"
 	.string "vida.\l"

@@ -2819,7 +2819,7 @@ clearflag FLAG_NUEVA_817
 clearflag FLAG_NUEVA_818
 clearflag FLAG_NUEVA_819
 clearflag FLAG_NUEVA_820
-clearflag FLAG_NUEVA_821
+setflag FLAG_NUEVA_821
 clearflag FLAG_NUEVA_822
 clearflag FLAG_NUEVA_823
 clearflag FLAG_NUEVA_824
@@ -3719,7 +3719,7 @@ clearflag FLAG_NUEVA_817
 clearflag FLAG_NUEVA_818
 clearflag FLAG_NUEVA_819
 clearflag FLAG_NUEVA_820
-clearflag FLAG_NUEVA_821
+setflag FLAG_NUEVA_821
 clearflag FLAG_NUEVA_822
 clearflag FLAG_NUEVA_823
 clearflag FLAG_NUEVA_824

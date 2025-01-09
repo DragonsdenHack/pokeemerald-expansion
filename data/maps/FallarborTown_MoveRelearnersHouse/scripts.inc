@@ -155,10 +155,10 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2::
 	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Sala_Ejecutiva_No
 	special IsSelectedMonEgg
 	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg
-	goto_if_eq VAR_0x8005, 0, FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon
+	goto_if_eq VAR_0x8005, 0, Sala_Ejecutiva_Despues
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2
 	end
-
+ 
 FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
 	special TeachMoveRelearnerMove

@@ -1603,7 +1603,7 @@ const u8 gText_XWillBeSentToY[] = _("{STR_VAR_2} se enviará a {STR_VAR_1}.");
 const u8 gText_ByeByeVar1[] = _("¡Adiós, {STR_VAR_2}!");
 const u8 gText_XSentOverY[] = _("{STR_VAR_1} envió a {STR_VAR_3}.");
 const u8 gText_TakeGoodCareOfX[] = _("¡Cuida bien de {STR_VAR_3}!");
-const u8 gText_Version[] = _("Versión 2.0.4");
+const u8 gText_Version[] = _("Versión 2.0.5");
 
 // Easy chat group names
 const u8 gEasyChatGroupName_Pokemon[] = _("POKéMON");

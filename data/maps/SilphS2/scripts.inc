@@ -1072,7 +1072,7 @@ Silph_S2_Discoxtrano_Text_2:
 	.string "acceso a lo último de lo último en\l"
 	.string "tecnología. Dicen que el PRESIDENTE te\l"
 	.string "regaló un PORYGON, junto con una\l"
-	.string "MEJORA para convertirlo en pORYGON2. Si\l"
+	.string "MEJORA para convertirlo en PORYGON2. Si\l"
 	.string "quieres ir más allá, este objeto es para\l"
 	.string "ti.$"
 

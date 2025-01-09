@@ -280,6 +280,7 @@ msgbox AzaleaCarbonS2_Combate_Final_Texto_22 MSGBOX_DEFAULT
 givemon SPECIES_LITTEN, 15, ITEM_NONE
 waitfanfare
 setflag FLAG_UNUSED_0x27A
+setflag FLAG_HOENN_109
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
 setvar VAR_FORTREE_CITY_STATE, 8
 release

@@ -15243,7 +15243,7 @@ LavenderRadioP5_Text_CientificoDefeated:
 LavenderRadioP5_Text_CientificoPostBattle:
 	.string "Se necesita algo más para ser un gran\n"
 	.string "ENTRENADOR, que simplemente conocer\l"
-	.string "las variables que rijen un combate, tú\l"
+	.string "las variables que rigen un combate, tú\l"
 	.string "lo has demostrado.$"
 
 
@@ -17308,7 +17308,7 @@ ViasSur3_Text_ObreroPostBattle:
 
 Route49_Pagoda_P4_Text_Pensador1Intro:
 .string "Continué entrenando a mi DUNSPARCE en\n"
-	.string "lugar de darle una PIEDRA DORADA.\l"
+	.string "lugar de darle una PIEDRA SAGRADA.\l"
 	.string "Acabó evolucionando en otro POKÉMON.$"
 
 Route49_Pagoda_P4_Text_Pensador1Defeated:

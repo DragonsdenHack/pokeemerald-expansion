@@ -110,6 +110,21 @@ AzaleaTown_Text_9:
 .string "dotes como ENTRENADOR en el\l"
 .string "anonimato.$"
 
+AzaleaTown9_Hoenn::
+lock     
+faceplayer     
+msgbox AzaleaTown_Text_9_Hoenn, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTown_Text_9_Hoenn:
+	.string "Antiguamente, aquí venían los grandes\n"
+	.string "maestros de CIUDAD ENDRINO, en busca\l"
+	.string "de CARBÓN para calentar su fría\l"
+	.string "guarida. Ver a sus dragones era todo un\l"
+	.string "espectáculo, por desgracias, esa\l"
+	.string "tradición se perdió hace tiempo.$"
+
 
 
 AzaleaTown10::
@@ -593,6 +608,7 @@ waitmovement 0x0
 msgbox AzaleaTown_Encuentro_Mirto_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_7
 waitmovement 0x0
+setflag FLAG_HOENN_109
 setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 11
 fadeoutbgm 0

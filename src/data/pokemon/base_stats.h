@@ -26163,10 +26163,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_ULTIMATE_PROYECT] =
     {
         .baseHP        = 126,
-        .baseAttack    = 110,
+        .baseAttack    = 90,
         .baseDefense   = 154,
         .baseSpeed     = 90,
-        .baseSpAttack  = 206,
+        .baseSpAttack  = 216,
         .baseSpDefense = 154,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_STEEL,

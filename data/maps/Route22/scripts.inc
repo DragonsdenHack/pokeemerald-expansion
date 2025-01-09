@@ -235,7 +235,7 @@ Route22_Combate_Azul_Texto_10.1:
 
 Route22_Combate_Azul_Texto_11:
 .string "¡Ah! Y una última cosa, ni se te ocurra\n"
-	.string "recoger los CARAMELOSRARO que\l"
+	.string "recoger los CARAMELO RARO que\l"
 	.string "encuentres, ¡son míos!$"
 
 Route22_Combate_Azul_Move_1:

@@ -20,7 +20,7 @@ release
 end
 
 Route49_MazeP3_Text2:
-.string "La PIEDRA DORADA reacciona ante\n"
+.string "La PIEDRA SAGRADA reacciona ante\n"
 	.string "muchos de los clásicos POKÉMON de\l"
 	.string "JOHTO, y algunos otros: NOCTOWL,\l"
 	.string "URSARING, GIRAFARIG, STANTLER,\l"
