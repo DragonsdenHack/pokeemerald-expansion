@@ -69,7 +69,7 @@ RocketHideoutJohto_Text_4:
 .string "POKÉMON de PUEBLO LAVANDA, no hay\l"
 .string "de qué preocuparse. Estamos en\l"
 .string "medio de las montañas, en una zona\l"
-.string "oculta y alejada de la civilización.$"\l"
+.string "oculta y alejada de la civilización.$"
 
 
 
@@ -684,24 +684,6 @@ RocketHideoutJohto_Text_19:
 	.string "evoluciones finales, una ofensiva\l"
 	.string "FÍSICA, y otra ofensiva ESPECIAL.$"
 
-BaseRocketJohto_Tienda_Pokemon::
-lock
-faceplayer
-msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
-waitmessage
-multichoice 22, 0, MULTI_VENTA_BASE_JOHTO, 0
-switch VAR_RESULT
-case 0, EventScript_Fletching
-case 1, EventScript_Mudbray
-case 2, EventScript_Pincurchin
-case 3, EventScript_Pawniard
-case 4, EventScript_Turtwig
-case 5, EventScript_Popplio
-case 6, EventScript_Spiritomb
-case 7, EventScript_Axew
-release
-end
-
 EventScript_Axew::
 lock
 showmoneybox 0, 0
@@ -877,3 +859,21 @@ EventScript_Mudbray_Texto_1:
 EventScript_Fletching_Texto_1:
 .string "¿Seguro que quiere a FLETCHLING?\n"
 	.string "Costará 18.000¥.$"
+
+BaseRocketJohto_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_JOHTO, 0
+switch VAR_RESULT
+case 0, EventScript_Fletching
+case 1, EventScript_Mudbray
+case 2, EventScript_Pincurchin
+case 3, EventScript_Pawniard
+case 4, EventScript_Turtwig
+case 5, EventScript_Popplio
+case 6, EventScript_Spiritomb
+case 7, EventScript_Axew
+release
+end
