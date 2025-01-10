@@ -50,11 +50,11 @@ end
 
 SouthRoute45_Text_9:
 .string "Mi misión es asegurarme que nadie\n"
-.string "pasa de este punto por casualidad,\l"
-.string "en caso de presentarse algún\l"
+.string "pasa de este punto por casualidad.\l"
+.string "En caso de presentarse algún\l"
 .string "montañero despistado, ¡el RUGIDO\l"
 .string "de mi GRANBULL acabará de un\l"
-.string "plumazo con esa casualidad y le\l"
+.string "plumazo con esa casualidad, y le\l"
 .string "hará torcer para el otro lado!$"
 
 
@@ -96,7 +96,7 @@ end
 SouthRoute45_Text_12:
 .string "Al norte de aquí se encuentra\n"
 .string "CIUDAD ENDRINO, famosa por su gran\l"
-.string "devoción hacia el TIPO DRAGÓN, sin\l"
+.string "devoción hacia el TIPO DRAGÓN. Sin\l"
 .string "embargo, es imposible llegar a la\l"
 .string "ciudad desde aquí, la única forma\l"
 .string "de llegar es pasando por la\l"
@@ -113,10 +113,9 @@ end
 
 SouthRoute45_Text_13:
 .string "Es imposible que descubran la\n"
-.string "base, las montañas de los\l"
-.string "alrededores la tapan\l"
-.string "completamente.\l"
-.string "¡Solo TORRE CAMPANA tiene la\l"
+.string "base; las montañas alrededor\l"
+.string "la tapan por completo.\p"
+.string "¡Solo TORRE CAMPANA tiene la\n"
 .string "altura como para sobresalir por\l"
 .string "encima de ellas!$"
 
@@ -133,7 +132,7 @@ SouthRoute45_Text_14:
 .string "Estamos al sur de RUTA 45, tan al\n"
 .string "sur que esta zona no está\l"
 .string "registrada por los mapas\l"
-.string "convencionales, pero no lo\l"
+.string "convencionales. Pero no lo\l"
 .string "suficiente como para considerarse\l"
 .string "parte del norte de RUTA 29, entre\l"
 .string "PUEBLO PRIMAVERA y CIUDAD CEREZO.$"
@@ -186,9 +185,9 @@ end
 
 SouthRoute45_SudowoodoRest_Text:
 	.string "…\n"
-	.string "…\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "…\p"
+	.string "-Es un POKÉMON, parece\n"
+	.string "estar reposando-.$"
 
 SouthRoute45_Evento_Encinar::
 lock

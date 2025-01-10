@@ -902,6 +902,20 @@
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_10F",
       "dest_warp_id": 0
+    },
+    {
+      "x": 87,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKET_HIDEOUT_5F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 83,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKET_HIDEOUT_5F",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

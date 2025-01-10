@@ -377,8 +377,8 @@ EventScript_Espurr_Texto_1:
 	.string "Costará 30.000¥.$"
 
 Text_CompraPokemon:
-.string "Bienvenido señor, ¿en qué puedo\n"
-	.string "ayudarle?$"
+.string "Bienvenido, señor.\p"
+	.string "¿En qué puedo ayudarle?$"
 
 EventScript_Compra_No::
 msgbox EventScript_Compra_No_Texto_1 MSGBOX_AUTOCLOSE

@@ -49,7 +49,7 @@ end
 
 VioletTrainerSchool5_Texto_1:
 .string "Verás cuando pueda regresar a la\n"
-	.string "RUTA 13 de KANTO, ningún\l"
+	.string "RUTA 13 de KANTO. Ningún\l"
 	.string "ORNITÓLOGO de allí creerá que pude\l"
 	.string "asistir a una clase del mismísimo\l"
 	.string "PEGASO en persona…{PAUSE 5}$"
@@ -63,7 +63,7 @@ end
 
 VioletTrainerSchool6_Texto_1:
 .string "No sabía que NOCTOWL era TIPO\n"
-	.string "PSÍQUICO también…{PAUSE 5}$"
+	.string "PSÍQUICO, también…{PAUSE 5}$"
 
 
 
@@ -89,8 +89,8 @@ end
 
 VioletTrainerSchool8_Texto_1:
 .string "Todo eso está muy bien, pero…\n"
-	.string "¿Dónde conseguiste a esa poderosa\l"
-	.string "ave?\l"
+	.string "¿Dónde conseguiste a esa\l"
+	.string "poderosa ave?\p"
 	.string "Le da mil vueltas a PIDGEOT.$"
 
 
@@ -182,11 +182,11 @@ VioletTrainerSchool_Text_TakeStarly2:
 VioletTrainerSchool_Text_TakeStarly3:
 	.string "Me llegó incluso a dar un ave de\n"
 	.string "no sé qué región lejana, al ver mi\l"
-	.string "interés por ellas.\l"
-	.string "¿Sabes qué?\l"
-	.string "Estuve emparejándola con mi\l"
-	.string "PIDGEOT y puso varios huevos que\l"
-	.string "dieron a luz.\l"
+	.string "interés por ellas.\p"
+	.string "¿Sabes qué?\p"
+	.string "Estuve emparejándola con mi\n"
+	.string "PIDGEOT, y puso varios huevos\l"
+	.string "que dieron a luz.\p"
 	.string "¡Te daré uno de los que salieron!$"
 
 
@@ -196,9 +196,9 @@ VioletTrainerSchool_Text_MensajeStarly:
 
 
 VioletTrainerSchool_Text_9:
-    .string "Ten cuidado con STARLY cuando\n"
-	.string "crezca.\l"
-	.string "¡Su evolución final es más\l"
+    .string "Ten cuidado con STARLY\n"
+	.string "cuando crezca.\p"
+	.string "¡Su evolución final es más\n"
 	.string "agresiva y brava que PIDGEOT!$"
 
 Violet_TrainerSchool_Discurso_Pegaso::
@@ -229,6 +229,12 @@ applymovement 5, Violet_TrainerSchool_Discurso_Pegaso_Move_8
 applymovement 2, Violet_TrainerSchool_Discurso_Pegaso_Move_8
 waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_1.1
+waitmovement 0x0
+delay 10
+msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_9
 waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
@@ -298,15 +304,28 @@ delay 15
 playse SE_PIN
 applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_14
 waitmovement 0x0
+waitse
+delay 10
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_14.1
+waitmovement 0x0
+msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_4
 waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_11
 waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_17
+waitmovement 0x0
+delay 10
+msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_21.1 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_17.1
 waitmovement 0x0
 removeobject 1
 removeobject 3
@@ -315,52 +334,63 @@ setvar VAR_UNUSED_0x40F7, 121
 release
 end
 
+Violet_TrainerSchool_Discurso_Pegaso_Move_14.1:
+delay_8
+face_up
+delay_16
+delay_8
+walk_in_place_up
+delay_16
+face_up
+step_end
+
 Violet_TrainerSchool_Discurso_Pegaso_Texto_1:
-.string "PEGASO: Bien, con esto damos por\n"
+.string "PEGASO: Bien. Con esto damos por\n"
 	.string "finalizada la breve explicación de\l"
 	.string "todas y cada una de las aves que\l"
-	.string "habitan en KANTO y JOHTO.\l"
-	.string "Quedaos con que FEAROW representa\l"
+	.string "habitan en KANTO y JOHTO.\p"
+	.string "Quedaos con que FEAROW representa\n"
 	.string "la variedad, DODRIO la ofensiva,\l"
 	.string "NOCTOWL el aguante y PIDGEOT el\l"
 	.string "equilibrio.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_2:
-.string "Ahora pasaremos al apartado de\n"
+.string "Ahora, pasaremos al apartado de\n"
 	.string "estrategia, y aquí me gustaría\l"
 	.string "hacer especial hincapié en dos de\l"
 	.string "las mayores debilidades del TIPO\l"
 	.string "VOLADOR: el ROCA y el ELÉCTRICO.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_3:
-.string "¿Alguien de los aquí presentes\n"
-	.string "tiene idea de cómo un ave puede\l"
-	.string "lidiar con el TIPO ELÉCTRICO o el\l"
-	.string "ROCA?$"
+.string "¿Alguien de los aquí presentes tiene\n"
+	.string "idea de cómo un ave puede lidiar\l"
+	.string "con el TIPO ELÉCTRICO o el ROCA?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_4:
-.string "????: Existe un movimiento llamado\n"
+.string "????: Existe un movimiento, llamado\n"
 	.string "BOFETÓN LODO, que la mayoría de\l"
-	.string "aves pueden aprender, y es\l"
-	.string "superefectivo contra estos tipos.$"
+	.string "aves pueden aprender.\p"
+	.string "Golpea superefectivo a ambos.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_5:
-.string "PEGASO: Ya hablamos de esto, hijo,\n"
-	.string "la potencia de BOFETÓN LODO es muy\l"
+.string "PEGASO: Ya hablamos de esto, hijo.\p"
+	.string "La potencia de BOFETÓN LODO es muy\n"
 	.string "pobre, y la bajada de precisión\l"
 	.string "que ofrece nos hace caer en las\l"
 	.string "trampas del azar, quitándonos el\l"
-	.string "control del combate. No hablo\l"
-	.string "de volver esto una ruleta y ver si\l"
-	.string "logramos sobrevivir por pura\l"
-	.string "suerte, hablo de tumbar a estos\l"
+	.string "control del combate.$"
+	
+Violet_TrainerSchool_Discurso_Pegaso_Texto_5.1:
+	.string "No hablo de volver esto una ruleta,\n"
+	.string "y ver si logramos sobrevivir por\l"
+	.string "puro azar: hablo de tumbar a estos\l"
 	.string "tipos de forma contundente con\l"
 	.string "POKÉMON TIPO VOLADOR.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_6:
 .string "En este caso, la mejor defensa es\n"
-	.string "un buen ataque.\l"
-	.string "DODRIO entrenado y equipado con la\l"
+	.string "un buen ataque.\p"
+	.string "DODRIO entrenado y equipado con la\n"
 	.string "VIDASFERA tumbará de un solo\l"
 	.string "PATALETA al 100% de los TIPO\l"
 	.string "ELÉCTRICO a los que golpee\l"
@@ -371,49 +401,44 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_6:
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_7:
 .string "FEAROW con TALADRADORA o PIDGEOT\n"
-	.string "con A BOCAJARRO igualmente\l"
-	.string "golpearán superefectivo,\l"
-	.string "aprovechándose de la baja\l"
-	.string "VELOCIDAD de los ROCA para atacar\l"
-	.string "antes, o de las bajas DEFENSAS del\l"
-	.string "ELÉCTRICO para tumbarlos de un\l"
-	.string "golpe.$"
+	.string "con A BOCAJARRO, igualmente\l"
+	.string "golpearán superefectivo.\l"
+	.string "Aprovechándose de la baja VELOCIDAD\l"
+	.string "de los ROCA para atacar antes, o\l"
+	.string "de las bajas DEFENSAS del ELÉCTRICO\l"
+	.string "para tumbarlos de un golpe.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_8:
 .string "La lección que debéis sacar de\n"
-	.string "esto es que en un combate POKÉMON\l"
-	.string "hay infinidad de variables que\l"
-	.string "influyen, y cualquier\l"
-	.string "POKÉMON, con los movimientos,\l"
+	.string "esto es que, en un combate, hay\l"
+	.string "infinidad de variables que influyen.\p"
+	.string "Cualquier POKÉMON, con movimientos,\n"
 	.string "objetos y entrenamiento adecuados,\l"
-	.string "es capaz de tumbar a cualquier\l"
-	.string "otro.$"
+	.string "es capaz de tumbar a cualquier otro.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_9:
 .string "Observad que apenas hemos tocado\n"
 	.string "una fracción de los recursos que\l"
 	.string "tenemos a nuestra disposición para\l"
-	.string "combatir desventajas por tipos. Un\l"
-	.string "GLIGAR o GLISCOR será\l"
+	.string "combatir desventajas por tipos.\p"
+	.string "Un GLIGAR, o GLISCOR, será\n"
 	.string "directamente inmune al TIPO\l"
-	.string "ELÉCTRICO y resistirá neutral el\l"
-	.string "ROCA, mientras que golpeará\l"
-	.string "superefectivo por STAB a ambos\l"
-	.string "tipos con TERREMOTO, todo gracias\l"
-	.string "a que, aparte de ser VOLADOR, es\l"
-	.string "también TIPO TIERRA.$"
+	.string "ELÉCTRICO, y resistirá neutral el\l"
+	.string "ROCA. Mientras, golpeará efectivo\l"
+	.string "y por STAB a ambos con TERREMOTO.\p"
+	.string "Esto gracias a que, aparte de ser\n"
+	.string "VOLADOR, es también TIPO TIERRA.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_10:
-.string "Y eso es todo por hoy. En la\n"
-	.string "próxima clase hablaremos de cómo\l"
-	.string "el movimiento RESPIRO puede\l"
-	.string "literalmente anular todas las\l"
+.string "Y eso es todo por hoy.\p"
+	.string "En la próxima clase hablaremos de\n"
+	.string "cómo el movimiento RESPIRO puede,\l"
+	.string "literalmente, anular todas las\l"
 	.string "debilidades del TIPO VOLADOR, y\l"
 	.string "permitirnos incluso jugar a la\l"
-	.string "defensiva con los tipos\l"
-	.string "mencionados, aunque también veréis\l"
-	.string "por qué puede ser un arma de\l"
-	.string "doble filo.\l"
+	.string "defensiva con los tipos mencionados.\p"
+	.string "Aunque también veréis el porqué\n"
+	.string "puede ser un arma de doble filo.\p"
 	.string "Gracias a todos por asistir.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_11:
@@ -422,14 +447,14 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_11:
 	.string "continuar con tu entrenamiento.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_12:
-.string "Pero{PAUSE 25}…{PAUSE 25} padre{PAUSE 15}…{PAUSE 15}\n"
-	.string "¡Quiero empezar ya a entrenar\l"
-	.string "un PIDGEY!$"
+.string "Pero{PAUSE 25}…{PAUSE 25} padre{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡Quiero empezar ya a\n"
+	.string "entrenar un PIDGEY!$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_13:
-.string "PEGASO: Aún no estás preparado,\n"
-	.string "antes de empezar debes pulir al\l"
-	.string "máximo tu base. Eres muy joven\l"
+.string "PEGASO: Aún no estás preparado.\p"
+	.string "Antes de empezar debes pulir al\n"
+	.string "máximo tu base, eres muy joven\l"
 	.string "aún. Si te preparas bien en este\l"
 	.string "par de años, te aseguro que una\l"
 	.string "vez emprendas el vuelo, tocarás el\l"
@@ -437,7 +462,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_13:
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_14:
 .string "¡Mphf!\n"
-	.string "¡Estoy harto de ver BELLSPROUTS!$"
+	.string "¡Estoy harto de ver BELLSPROUT!$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_15:
 .string "PEGASO: Algún día el GIMNASIO de\n"
@@ -449,12 +474,12 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_16:
 	.string "Estaré encantado de responderte.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_17:
-.string "¿Combatir?\n"
-	.string "Lo siento chico, pareces buen\l"
-	.string "entrenador, pero hace ya tiempo\l"
+.string "¿Combatir?\p"
+	.string "Lo siento, chico. Pareces buen\n"
+	.string "ENTRENADOR, pero hace ya tiempo\l"
 	.string "que decidí apartarme de el combate\l"
-	.string "POKÉMON tal y como es concebido\l"
-	.string "hoy en día, además, las MEDALLAS\l"
+	.string "POKÉMON, tal y como es concebido\l"
+	.string "hoy en día. Además, las MEDALLAS\l"
 	.string "de JOHTO actualmente no tienen\l"
 	.string "validez. Según lo poco que he\l"
 	.string "visto, la LIGA POKÉMON regresó,\l"
@@ -465,15 +490,17 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_18:
 	.string "ENTRENADOR, conocer nuevos\l"
 	.string "POKÉMON y proseguir con tu propio\l"
 	.string "viaje lo que te llevan a pedirme\l"
-	.string "este combate?\l"
-	.string "¿Y no el colgarte una MEDALLA para\l"
+	.string "este combate?\p"
+	.string "¿No el colgarte una MEDALLA para\n"
 	.string "exponerla ante todos?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_19:
-.string "Interesante{PAUSE 15}…{PAUSE 15}\n"
-	.string "¿Eres {PLAYER}?\l"
-	.string "Si cumples el reto que voy a\l"
-	.string "proponerte te concederé ese\l"
+.string "Interesante{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Eres {PLAYER}?$"
+
+Violet_TrainerSchool_Discurso_Pegaso_Texto_19.1:
+	.string "Si cumples el reto que voy a\n"
+	.string "proponerte, te concederé ese\l"
 	.string "combate.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_20:
@@ -484,12 +511,24 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_20:
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_21:
 .string "Si le derrotas, lucharé contigo, y\n"
-	.string "usaré a mis mejores POKÉMON.\l"
-	.string "Pase lo que pase, espero que te\l"
+	.string "usaré a mis mejores POKÉMON.$"
+
+Violet_TrainerSchool_Discurso_Pegaso_Texto_21.1:
+	.string "Pase lo que pase, espero que te\n"
 	.string "enriquezca la experiencia de\l"
 	.string "visitar un lugar tan sagrado como\l"
 	.string "ese. Eso también es parte de tu\l"
 	.string "viaje, ¿no?$"
+
+Violet_TrainerSchool_Discurso_Pegaso_Move_1.1:
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+walk_in_place_down
+step_end
 
 Violet_TrainerSchool_Discurso_Pegaso_Move_1:
 walk_in_place_right
@@ -580,6 +619,9 @@ step_end
 Violet_TrainerSchool_Discurso_Pegaso_Move_17:
 walk_down
 walk_down
+step_end
+
+Violet_TrainerSchool_Discurso_Pegaso_Move_17.1:
 walk_down
 walk_down
 walk_right

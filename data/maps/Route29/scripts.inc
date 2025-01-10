@@ -61,15 +61,14 @@ Route29_Text_9:
 .string "Esta zona está siendo sujeta a\n"
 .string "diversas pruebas por parte del\l"
 .string "PROF.ELM y sus ayudantes, nadie\l"
-.string "puede entrar sin su\l"
-.string "consentimiento.\l"
-.string "De todos modos, no hay nada que\l"
-.string "ver aquí chico, más al este está\l"
+.string "puede entrar sin su consentimiento.\p"
+.string "De todos modos, no hay nada que\n"
+.string "ver aquí, chico. Más al este está\l"
 .string "la frontera con KANTO, y nadie\l"
 .string "puede pasar de ahí sin\l"
-.string "consentimiento expreso, al menos\l"
-.string "hasta que la relación entre KANTO\l"
-.string "y JOHTO mejore.$"
+.string "consentimiento expreso.\p"
+.string "Al menos hasta que la relación\n"
+.string "entre KANTO y JOHTO mejore.$"
 
 
 
@@ -107,9 +106,9 @@ release
 end
 
 Route29_Text_13:
-.string "¡Ah!\n"
-.string "¡Qué bien sienta salir a pasear en\l"
-.string "medio de toda esta vegetación!\l"
+.string "¡Ah!\p"
+.string "¡Qué bien sienta salir a pasear en\n"
+.string "medio de toda esta vegetación!\p"
 .string "¡Me siento joven otra vez!$"
 
 
@@ -140,15 +139,14 @@ Route29_Text_15:
 .string "Esta zona está siendo sujeta a\n"
 .string "diversas pruebas por parte del\l"
 .string "PROF.ELM y sus ayudantes, nadie\l"
-.string "puede entrar sin su\l"
-.string "consentimiento.\l"
-.string "De todos modos, no hay nada que\l"
-.string "ver aquí chico, más al este está\l"
+.string "puede entrar sin su consentimiento.\p"
+.string "De todos modos, no hay nada que\n"
+.string "ver aquí, chico. Más al este está\l"
 .string "la frontera con KANTO, y nadie\l"
 .string "puede pasar de ahí sin\l"
-.string "consentimiento expreso, al menos\l"
-.string "hasta que la relación entre KANTO\l"
-.string "y JOHTO mejore.$"
+.string "consentimiento expreso.\p"
+.string "Al menos hasta que la relación\n"
+.string "entre KANTO y JOHTO mejore.$"
 
 
 

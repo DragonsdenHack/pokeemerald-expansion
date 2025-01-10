@@ -530,7 +530,7 @@ SilphS3_Bill_Batalla_Texto_1:
 SilphS3_Bill_Batalla_Texto_2:
 .string "Cuando me derrotaste en SILPH, me\n"
 	.string "diste una buena lección, he de\l"
-	.string "dmitirlo.$"
+	.string "admitirlo.$"
 
 SilphS3_Bill_Batalla_Texto_3:
 .string "Demostraste que un ROCKET, por muy\n"

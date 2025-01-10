@@ -4624,7 +4624,7 @@ const struct BaseStats gBaseStats[] =
         #else
             .baseSpAttack  = 96,
         #endif
-        .type1 = TYPE_NORMAL,
+        .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FLYING,
         .catchRate = 90,
         .expYield = 162,

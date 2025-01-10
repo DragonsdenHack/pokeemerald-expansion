@@ -26,12 +26,11 @@ end
 Route30_Text_4:
 .string "Me encantaría que los LÍDERES DE\n"
 .string "GIMNASIO de JOHTO volvieran a ser\l"
-.string "válidos para la LIGA POKÉMON,\l"
-.string "desde la guerra apenas se dejan\l"
-.string "ver.\l"
-.string "Tal vez solo sea cuestión de\l"
-.string "tiempo que vuelvan a formar parte\l"
-.string "de la LIGA.$"
+.string "válidos para la LIGA POKÉMON, desde\l"
+.string "la guerra, apenas se dejan ver.\p"
+.string "Tal vez solo sea cuestión de\n"
+.string "tiempo que vuelvan a formar\l"
+.string "parte de la LIGA.$"
 
 
 
@@ -43,7 +42,7 @@ release
 end
 
 Route30_5_Texto_1:
-.string "¡Entrenaré a mi PIDGEY y algún día\n"
+.string "¡Entrenaré a mi PIDGEY, y algún día\n"
 	.string "podré combatir en esta ruta contra\l"
 	.string "otro ENTRENADOR!$"
 
@@ -67,8 +66,8 @@ release
 end
 
 Route30_Text_8:
-.string "Esa CUEVA OSCURA…\n"
-.string "Si mis POKÉMON pudieran\l"
+.string "Esa CUEVA OSCURA…\p"
+.string "Si mis POKÉMON pudieran\n"
 .string "iluminarla, la exploraría.$"
 
 
@@ -96,9 +95,9 @@ end
 
 Route30_Text_12:
 .string "Dicen que si das muchos cabezazos\n"
-	.string "contra los árboles puede salirte\l"
-	.string "un HERACROSS salvaje…\l"
-	.string "Aunque creo que esto no funciona,\l"
+	.string "contra los árboles, puede salirte\l"
+	.string "un HERACROSS salvaje…\p"
+	.string "Aunque creo que esto no funciona,\n"
 	.string "debería hacerlo un POKÉMON, no\l"
 	.string "yo{PAUSE 5}…{PAUSE 5}$"
 
@@ -119,9 +118,9 @@ end
 Route30_Text_14:
 .string "Me encanta pasear por aquí de\n"
 .string "buena mañana, la tranquilidad que\l"
-.string "te da este lugar es única. Mi\l"
-.string "marido prefiere contemplar el\l"
-.string "paisaje desde más arriba.$"
+.string "te da este lugar es única.\p"
+.string "Mi marido prefiere contemplar\n"
+.string "el paisaje desde más arriba.$"
 
 
 
@@ -217,8 +216,8 @@ Route30_Anciano_Togepi_Texto_2:
 	.string "…{PAUSE 5}$"
 
 Route30_Anciano_Togepi_Texto_3:
-.string "¿Cómo?\n"
-	.string "¿No sucede nada aquí?\l"
+.string "¿Cómo?\p"
+	.string "¿No sucede nada aquí?\p"
 	.string "¡Observa, chico!$"
 
 Route30_Anciano_Togepi_Texto_4:
@@ -240,11 +239,10 @@ Route30_Anciano_Togepi_Texto_6:
 
 Route30_Anciano_Togepi_Texto_7:
 .string "Siempre están sucediendo cosas,\n"
-	.string "incluso en la RUTA que pudiera\l"
-	.string "parecer más genérica e\l"
-	.string "intrascendente.\l"
-	.string "Solo hay que observar bien y estar\l"
-	.string "presente.$"
+	.string "incluso en aquella RUTA que pudiera\l"
+	.string "parecer más genérica e intrascendente.\p"
+	.string "Solo hay que observar bien\n"
+	.string "y estar presente.$"
 
 Route30_Anciano_Togepi_Texto_8:
 .string "Sabes, me has caído bien.\n"
@@ -256,9 +254,9 @@ Route30_Anciano_Togepi_Texto_9:
 Route30_Anciano_Togepi_Texto_10:
 .string "Muchos investigadores de por aquí\n"
 	.string "darían un brazo por contar con el\l"
-	.string "POKÉMON que acabo de darte, espero\l"
-	.string "que contigo encuentre un lugar y\l"
-	.string "sepas sacarle provecho.$"
+	.string "POKÉMON que acabo de darte.\p"
+	.string "Espero que contigo encuentre un\n"
+	.string "lugar, y sepas sacarle provecho.$"
 
 Route30_Anciano_Togepi_Move_1:
 face_right

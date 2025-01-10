@@ -20,12 +20,11 @@ end
 VioletCity_Text_2:
 .string "Este templo lo levantaron mis\n"
 .string "antepasados hace 1000 años, para\l"
-.string "honrar la resiliencia de\l"
-.string "BELLSPROUT.\l"
-.string "El actual maestro de la TORRE\l"
+.string "honrar la resiliencia de BELLSPROUT.\p"
+.string "El actual maestro de la TORRE\n"
 .string "BELLSPROUT aún conserva el último\l"
 .string "ejemplar de esa sagrada línea de\l"
-.string "BELLSPROUT, así es, su BELLSPROUT\l"
+.string "BELLSPROUT. Así es, su BELLSPROUT\l"
 .string "es el más fuerte del mundo, solo\l"
 .string "lo verán aquellos merecedores\l"
 .string "de presenciar algo que muchos\l"
@@ -60,8 +59,8 @@ VioletCity_Text_4:
 .string "¡El padre de PEGASO es súper guay!\n"
 .string "¡Tiene unos POKÉMON que nunca\l"
 .string "antes había visto, creo que\l"
-.string "algunos son incluso LEGENDARIOS de\l"
-.string "otras regiones!$"
+.string "algunos son incluso LEGENDARIOS\l"
+.string "de otras regiones!$"
 
 
 VioletCity5::
@@ -74,9 +73,9 @@ end
 VioletCity_Text_5:
 .string "Tú no eres de por aquí, ¿verdad?\n"
 .string "Te recomiendo visitar la\l"
-.string "escuela de entrenadores. Nuestra\l"
-.string "TORRE BELLSPROUT es también muy\l"
-.string "famosa.$"
+.string "escuela de entrenadores.\p"
+.string "Nuestra TORRE BELLSPROUT es\n"
+.string "también muy famosa.$"
 
 
 VioletCity6::
@@ -89,9 +88,8 @@ end
 VioletCity_Text_6:
 .string "Estas flores solo crecen en CIUDAD\n"
 .string "MALVA, ellas son las responsables\l"
-.string "del aroma a nostalgia tan\l"
-.string "característico que se respira por\l"
-.string "aquí.$"
+.string "del aroma a nostalgia tan caracte-\l"
+.string "rístico que se respira por aquí.$"
 
 
 VioletCity7::
@@ -112,8 +110,8 @@ end
 VioletCity_Text_9:
 .string "Un POKÉMON en manos de un\n"
 .string "ENTRENADOR es mucho más fuerte que\l"
-.string "otro salvaje de la misma especie.\l"
-.string "Eso es prueba de que la\l"
+.string "otro salvaje de la misma especie.\p"
+.string "Eso es prueba de que la\n"
 .string "convivencia entre humanos y\l"
 .string "POKÉMON es positiva.$"
 
@@ -159,8 +157,8 @@ end
 VioletCityDocumento_Text_101:
 .string "GIMNASIO de CIUDAD MALVA\n"
 	.string "LÍDER: PEGASO\l"
-	.string "¡Un genio de altos vuelos y 1001\l"
-	.string "viajes!$"
+	.string "¡Un genio de altos vuelos\l"
+	.string "y mil y un viajes!$"
 
 
 
@@ -200,10 +198,9 @@ VioletCity_Chicos_Escuela_Texto_1:
 
 VioletCity_Chicos_Escuela_Texto_2:
 .string "¡No podemos perder esta\n"
-	.string "oportunidad, quién sabe cuanto\l"
-	.string "tiempo más estará en CIUDAD MALVA\l"
-	.string "antes de que emprenda un nuevo\l"
-	.string "viaje!$"
+	.string "oportunidad! ¿Quién sabe cuanto\l"
+	.string "tiempo más estará en MALVA, antes\l"
+	.string "de que emprenda un nuevo viaje?$"
 
 VioletCity_Chicos_Escuela_Move_1:
 walk_in_place_up

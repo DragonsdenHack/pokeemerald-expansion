@@ -44,7 +44,7 @@ msgbox Route37_SudowoodoRest_Text, MSGBOX_NPC
 end
 
 Route37_SudowoodoRest_Text:
-	.string "…\n"
-	.string "…\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "…{PAUSE 15}\n"
+	.string "…{PAUSE 15}\p"
+	.string "{PAUSE 15}-Es un POKÉMON, parece\n"
+	.string "estar reposando-.$"

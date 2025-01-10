@@ -9,15 +9,15 @@ release
 end
 
 Route30_House_2_Dialogo_Texto_1:
-.string "¿Cómo dices chico? ¿Darte yo un HUEVO\n"
-	.string "MISTERIOSO? Déjame darte un consejo,\l"
-	.string "tienes pinta de haber visto ya\l"
-	.string "bastante mundo y ocupar una posición\l"
-	.string "de privilegio, deberías de ser el\l"
-	.string "primero en saber que en este mundo\l"
-	.string "nadie da nada a cambio de nada, y si\l"
-	.string "obtienes algo gratis, es que el\l"
-	.string "producto eres tú.$"
+.string "¿Cómo dices, chico?\p"
+	.string "¿Darte yo un HUEVO MISTERIOSO?\p"
+	.string "Déjame darte un consejo, tienes pinta\n"
+	.string "de haber visto ya bastante mundo y\l"
+	.string "ocupar una posición de privilegio.\p"
+	.string "Deberías de ser el primero en saber\n"
+	.string "que, en este mundo, nadie da nada a\l"
+	.string "cambio de nada, y si obtienes algo\l"
+	.string "gratis, es que el producto eres tú.$"
 
 Route30_House_2_Documento::
 lock
@@ -42,8 +42,8 @@ Route30_House_2_Documento_Texto_2:
 Route30_House_2_Documento_Texto_3:
 	.string "Aún desconocemos su naturaleza, pero\n"
 	.string "ha demostrado elevar el poder base de\l"
-	.string "GYARADOS al usarlo como objeto\l"
-	.string "equipable.$"
+	.string "GYARADOS, siendo usado como objeto\l"
+	.string "equipable en combate.$"
 
 Ruta_Sur_Malva_Gordo::
 lock

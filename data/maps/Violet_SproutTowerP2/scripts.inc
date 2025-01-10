@@ -62,10 +62,10 @@ end
 
 VioletSprotTowerP2Documento_Text_100:
 	.string "Es la solemne estatua de un\n"
-	.string "BELLSPROUT. Tiene grabado algo en\l"
-	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes… pero todos\l"
-	.string "podemos tocar el mismo cielo-.$"
+	.string "BELLSPROUT. Tiene grabado\l"
+	.string "algo en letras de oro:\p"
+	.string "-Partimos de puntos diferentes… pero\n"
+	.string "todos podemos tocar el mismo cielo-.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus::
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_1
@@ -78,34 +78,52 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_4
 waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_5
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_6
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
 waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_8
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_9
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_10
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_GRANITE_CAVE_STEVEN
 removeobject 6
 playse SE_EXIT
@@ -120,10 +138,10 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_2:
 .string "ZEUS: Vine aquí pensando que este\n"
 	.string "lugar contaba con algún tipo de\l"
 	.string "información valiosa sobre los 2\l"
-	.string "LEGENDARIOS de JOHTO, que me\l"
-	.string "ayudaría a indagar más en la\l"
-	.string "historia de esta región.\l"
-	.string "Y lo único que encuentro es un\l"
+	.string "LEGENDARIOS de JOHTO, algo que\l"
+	.string "me ayudara a indagar más en la\l"
+	.string "historia de esta región.\p"
+	.string "Y lo único que encuentro es un\n"
 	.string "grupo de pensadores que no hacen\l"
 	.string "más que honrar la mediocridad de\l"
 	.string "BELLSPROUT.$"
@@ -142,38 +160,38 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_4:
 	.string "suficiente de este lugar.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_5:
-.string "{PLAYER}, no esperaba volver a\n"
+.string "{PLAYER}{PAUSE 25}…{PAUSE 25} No esperaba volver a\n"
 	.string "verte, y menos en un lugar como\l"
 	.string "este. Creía que solo operabas por\l"
 	.string "KANTO e ISLAS SETE.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_6:
-.string "Aunque a decir verdad, esta pagoda\n"
+.string "Aunque, a decir verdad, esta pagoda\n"
 	.string "le vendrá bien a alguien como tú.\l"
 	.string "Realmente le viene bien a\l"
 	.string "cualquiera que esté sujeto por las\l"
 	.string "leyes de los POKÉMON mortales, si\l"
 	.string "lo que quieres es estirar un\l"
 	.string "poquito más tu limitado margen de\l"
-	.string "mejora. Pero yo no he venido aquí\l"
-	.string "por eso.$"
+	.string "mejora.\p"
+	.string "Pero no he venido aquí por eso.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_7:
 .string "Todos vuestros POKÉMON no son más\n"
-	.string "que sombras y cenizas. No\l"
-	.string "obstante…{PAUSE 5}$"
+	.string "que sombras y cenizas.\p"
+	.string "No obstante…{PAUSE 5}$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_8:
-.string "Ese ENTRENADOR…\n"
-	.string "Se dirigía a PUEBLO AZALEA.\l"
-	.string "Contaba con un POKÉMON, un POKÉMON\l"
-	.string "muy especial a pesar de no ser\l"
+.string "Ese ENTRENADOR…\p"
+	.string "Se dirigía a PUEBLO AZALEA.\p"
+	.string "Contaba con un POKÉMON, un POKÉMON\n"
+	.string "muy especial, a pesar de no ser\l"
 	.string "LEGENDARIO.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_9:
-.string "Ese POKÉMON tenía el poder del\n"
-	.string "sol. Pude sentirlo nada más salir\l"
-	.string "de la POKÉ BALL, la energía de ese\l"
+.string "Ese POKÉMON tenía el poder del sol.\p"
+	.string "Pude sentirlo nada más salir de\n"
+	.string "la POKÉ BALL, la energía de ese\l"
 	.string "POKÉMON se asemeja a la de los\l"
 	.string "LEGENDARIOS más potentes, y\l"
 	.string "desconozco el motivo.$"
@@ -185,18 +203,18 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_10:
 	.string "enfermedad.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_11:
-.string "Y no me sorprende, es lo que\n"
+.string "Y no me sorprende. Es lo que\n"
 	.string "ocurre cuando a un POKÉMON mortal\l"
-	.string "le colocas el motor de un POKÉMON\l"
-	.string "sagrado: su cuerpo no lo soporta.\l"
-	.string "No deja de ser una anomalía, una\l"
+	.string "le otorgas las alas de un POKÉMON\l"
+	.string "sagrado: su cuerpo no lo soporta.\p"
+	.string "No deja de ser una anomalía, una\n"
 	.string "prueba más de que jugar a ser\l"
 	.string "dioses sin serlo sale caro.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_12:
 .string "Espero que esto te sirva como\n"
-	.string "ejemplo de lo que puede ocurrirte\l"
-	.string "a ti también si tratas de jugar\l"
+	.string "ejemplo, de lo que puede ocurrirte\l"
+	.string "a ti también, si tratas de jugar\l"
 	.string "con cosas más grandes que tu\l"
 	.string "propia existencia.$"
 
@@ -261,11 +279,16 @@ compare VAR_UNUSED_0x40F7, 122
 goto_if_gt Violet_SproutTower_P2_Encuentro_Maestro_2
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
 applymovement 5, Violet_SproutTower_P2_Encuentro_Maestro_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MAESTRO_BELLSPROUT, Violet_SproutTower_P2_Encuentro_Maestro_Texto_5
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
@@ -319,33 +342,33 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
 .string "Parte de una definición de poder\n"
 	.string "errónea. El verdadero poder puede\l"
 	.string "provenir de cualquier POKÉMON, si\l"
-	.string "eres capaz de conocerlo lo\l"
-	.string "suficiente. Y saber ordenar\l"
-	.string "adecuadamente las infinitas\l"
-	.string "combinaciones que puedes hacer con\l"
-	.string "él, puede derrotar a cualquiera.\l"
-	.string "¿No es eso acaso poder?\l"
-	.string "Dentro de cada POKÉMON está el\l"
+	.string "eres capaz de conocerlo lo suficiente.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_2.1:
+	.string "Aquel que ordene adecuadamente las\n"
+	.string "infinitas combinaciones que puedes\l"
+	.string "hacer con él, no conocerá techo.\p"
+	.string "¿No es eso acaso poder?\p"
+	.string "Dentro de cada POKÉMON está el\n"
 	.string "potencial de ser excelente, solo\l"
 	.string "que algunos son incapaces de\l"
 	.string "desarrollarlo.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
-.string "…\n"
-	.string "…{PAUSE 5}$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
-.string "¡Oh!\n"
-	.string "¿Así que te envía PEGASO? Algo\l"
+.string "¡Oh!\p"
+	.string "¿Así que te envía PEGASO? Algo\n"
 	.string "debe de haber visto en ti para\l"
-	.string "enviarte aquí.\l"
-	.string "Sabiendo que seré tú prueba para\l"
-	.string "acceder a algo tan especial como\l"
-	.string "lo es combatir con PEGASO, no me\l"
+	.string "enviarte aquí.\p"
+	.string "Sabiendo que seré tú prueba para\n"
+	.string "acceder a algo tan especial, no me\l"
 	.string "queda otra que usar a mis mejores\l"
-	.string "POKÉMON.\l"
-	.string "¡Muéstrame el vínculo que\l"
-	.string "mantienes con tu equipo!$"
+	.string "POKÉMON.\p"
+	.string "¡Muéstrame el vínculo que\n"
+	.string "mantienes con los tuyos!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
 .string "¡Oh!\n"
@@ -355,27 +378,27 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_6:
 .string "No esperaba para nada volverme a\n"
-	.string "encontrar con entrenadores así.\l"
-	.string "Alguien como tú merece ser puesto\l"
+	.string "encontrar con entrenadores así.\p"
+	.string "Alguien como tú merece ser puesto\n"
 	.string "a prueba con rivales que le\l"
 	.string "obliguen a ir más allá.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_7:
-.string "¡PEGASO!\n"
-	.string "¡Avisa a tu padre!\l"
-	.string "¡Este chaval acaba de cumplir su\l"
-	.string "reto!$"
+.string "¡PEGASO!\p"
+	.string "¡Avisa a tu padre!\p"
+	.string "¡Este chaval acaba de\n"
+	.string "cumplir su reto!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_8:
 .string "PEGASO: Voy, maestro.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_9:
-.string "(PEGASO USÓ CUERDA HUIDA).$"
+.string "-PEGASO USÓ CUERDA HUIDA-.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_10:
-.string "Y toma esto. Con esta MO podrás\n"
-	.string "iluminar la más oscura de las\l"
-	.string "cuevas.$"
+.string "Y toma esto.\n"
+	.string "Con esta MO podrás iluminar la\l"
+	.string "más oscura de las cuevas.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_11:
 .string "Pase lo que pase, no olvides\n"
@@ -383,7 +406,7 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_11:
 	.string "viaje. Ese momento presente es lo\l"
 	.string "único que tienes, todas tus\l"
 	.string "expectativas de futuro no son más\l"
-	.string "que una ilusión que solo tomará\l"
+	.string "que una ilusión, que solo tomará\l"
 	.string "forma en base a lo que hagas\l"
 	.string "ahora.$"
 
@@ -428,7 +451,7 @@ VioletViolet_SproutTower_P2_Pegaso_Texto_2:
 .string "Entonces…\n"
 	.string "Solo hay que enseñar tu verdadero\l"
 	.string "poder a quien de verdad lo\l"
-	.string "merece…\l"
-	.string "El resto debe conformarse con no\l"
+	.string "merece…\p"
+	.string "El resto debe conformarse con no\n"
 	.string "más que un PIDGEOTTO y su BOFETÓN\l"
 	.string "LODO…{PAUSE 5}$"

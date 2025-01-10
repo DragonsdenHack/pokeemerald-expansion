@@ -54,9 +54,9 @@ release
 end
 
 VioletGym_Frontera_Texto_1:
-.string "¡Oye!\n"
-	.string "¿A dónde crees que vas?\l"
-	.string "Nuestro LÍDER ya no acepta retos\l"
+.string "¡Oye!\p"
+	.string "¿A dónde crees que vas?\p"
+	.string "Nuestro LÍDER ya no acepta retos\n"
 	.string "de aspirantes. Si quieres tener\l"
 	.string "oportunidad de luchar,\l"
 	.string "trata de convencerlo.$"
@@ -133,18 +133,18 @@ VioletGym_Gym_Dude_Texto_1:
 	.string "fue.$"
 
 VioletGym_Gym_Dude_Texto_2:
-.string "¡Ha sido increíble!\n"
-	.string "Jamás había visto perder a PEGASO.\l"
-	.string "Este combate será recordado por\l"
+.string "¡Ha sido increíble!\p"
+	.string "Jamás había visto perder a PEGASO.\p"
+	.string "Este combate será recordado por\n"
 	.string "siempre, ¡no te quepa duda!$"
 
 VioletGym_Gym_Dude_Texto_3:
-.string "¡No puedo creerlo!\n"
-	.string "¡Un aspirante!\l"
-	.string "¡El GIMNASIO volverá a contar con\l"
+.string "¡No puedo creerlo!\p"
+	.string "¡Un aspirante!\p"
+	.string "¡El GIMNASIO volverá a contar con\n"
 	.string "un combate de altos vuelos después\l"
-	.string "de tanto!\l"
-	.string "Déjame aconsejarte, escucha:\l"
+	.string "de tanto!\p"
+	.string "Déjame aconsejarte, escucha:\n"
 	.string "PEGASO lo sabe todo sobre el TIPO\l"
 	.string "VOLADOR. Sabe como defenderse de\l"
 	.string "sus debilidades, pero aún con\l"
@@ -157,41 +157,51 @@ VioletGym_Gym_Dude_Texto_3:
 	.string "que ha estado, cuentan con una\l"
 	.string "VELOCIDAD y ofensiva en general\l"
 	.string "que pueden hacerte perder antes de\l"
-	.string "que te des cuenta.\l"
-	.string "Un buen TIPO ROCA con el CHALECO\l"
+	.string "que te des cuenta.\p"
+	.string "Un buen TIPO ROCA con el CHALECO\n"
 	.string "ASALTO, así como POKÉMON TIPO\l"
 	.string "ELÉCTRICO muy rápidos, diría que\l"
-	.string "son tus mejores opciones.\l"
+	.string "son tus mejores opciones.\p"
 	.string "¡Buena suerte!$"
 
 Violet_Gym_Conversacion_Pegaso::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Violet_Gym_Conversacion_Pegaso_Move_1
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Violet_Gym_Conversacion_Pegaso_Move_2
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Violet_Gym_Conversacion_Pegaso_Move_3
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_4
 waitmovement 0x0
+waitse
 delay 20
 applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_1
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Violet_Gym_Conversacion_Pegaso_Move_1.1
+applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_1.2
+waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
-fadescreen 1
 delay 20
 removeobject 5
-fadescreen 0
 delay 15
 clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
 clearflag FLAG_HIDE_ROUTE_128_STEVEN
@@ -229,29 +239,64 @@ setvar VAR_UNUSED_0x40F7, 124
 release
 end
 
+Violet_Gym_Conversacion_Pegaso_Move_1.2:
+delay_16
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+step_end
+
+Violet_Gym_Conversacion_Pegaso_Move_1.1:
+walk_up
+walk_right
+face_down
+delay_16
+delay_8
+face_down
+step_end
+
 Violet_Gym_Conversacion_Pegaso_Texto_1:
-.string "PEGASO: ¡Vamos, padre!\n"
-	.string "¡Quiero saber cómo has llegado al\l"
+.string "PEGASO: ¡Vamos, padre!\p"
+	.string "¡Quiero saber cómo has llegado al\n"
 	.string "punto de poder contar con ese\l"
-	.string "POKÉMON en tu equipo!\l"
-	.string "No estaba destinado a ser un TIPO\l"
+	.string "POKÉMON en tu equipo!\p"
+	.string "No estaba destinado a ser un TIPO\n"
 	.string "VOLADOR y, sin embargo, bajo tu\l"
 	.string "cuidado ha acabado siendo el\l"
 	.string "VOLADOR más puro que conozco.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_2:
 .string "PEGASO.P: No puedes poner en\n"
-	.string "palabras un proceso así, necesitas\l"
-	.string "estar ahí para experimentarlo por\l"
-	.string "ti mismo.$"
+	.string "palabras un proceso así.\p"
+	.string "Necesitas estar ahí para\n"
+	.string "experimentarlo por ti mismo.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_3:
 .string "Sabía que en ese ejemplar latía\n"
 	.string "la inquebrantable voluntad por\l"
-	.string "volar, ambos compartíamos esa\l"
+	.string "volar. Ambos compartíamos esa\l"
 	.string "pasión por el cielo, y gracias a\l"
 	.string "ello pudimos alcanzar juntos cotas\l"
-	.string "mayores de lo que hubieramos\l"
+	.string "mayores de lo que hubiéramos\l"
 	.string "logrado por separado.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_4:
@@ -259,7 +304,7 @@ Violet_Gym_Conversacion_Pegaso_Texto_4:
 	.string "tengo un combate pendiente.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_5:
-.string "PEGASO: ¡Pero, padre!\n"
+.string "PEGASO: ¡Pero, padre!\p"
 	.string "¡Yo quiero ver el combate!$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_6:
@@ -329,7 +374,7 @@ release
 end
 
 Violet_Gym_Combate_Pegaso_Texto_11.3:
-.string "Con RESPIRO los POKÉMON voladores\n"
+.string "Con RESPIRO, los POKÉMON voladores\n"
 	.string "podrán recuperar salud durante el\l"
 	.string "combate. Durante ese turno perderán\l"
 	.string "todas sus resistencias y debilidades\l"
@@ -367,13 +412,13 @@ Violet_Gym_Combate_Pegaso_Texto_2:
 	.string "ello no quiero que vea un combate\l"
 	.string "como este, de un nivel tal que más\l"
 	.string "que aprendizaje le causará\l"
-	.string "confusión y una lluvia de\l"
+	.string "confusión, y una lluvia de\l"
 	.string "preguntas innecesarias.$"
 
 Violet_Gym_Combate_Pegaso_Texto_3:
-.string "Pero hablemos de ti, debo admitir\n"
-	.string "que siento curiosidad por ver de\l"
-	.string "lo que eres capaz, no pensé que a\l"
+.string "Pero hablemos de ti.\p"
+	.string "Admito que siento curiosidad por ver\n"
+	.string "de lo que eres capaz, no pensé que a\l"
 	.string "mi regreso a MALVA encontría a un\l"
 	.string "ENTRENADOR como tú.$"
 
@@ -389,8 +434,8 @@ Violet_Gym_Combate_Pegaso_Texto_5:
 Violet_Gym_Combate_Pegaso_Texto_6:
 .string "¡Usaré los POKÉMON más fieles que\n"
 	.string "me han ido acompañando a lo largo\l"
-	.string "de innumerables viajes y regiones!\l"
-	.string "¡Muéstrame el grado de excelencia\l"
+	.string "de innumerables viajes y regiones!\p"
+	.string "¡Muéstrame el grado de excelencia\n"
 	.string "que has alcanzado con los tuyos!$"
 
 Violet_Gym_Combate_Pegaso_Texto_7:
@@ -416,8 +461,8 @@ Violet_Gym_Combate_Pegaso_Texto_9.1:
 
 Violet_Gym_Combate_Pegaso_Texto_9.2:
 	.string "Además, te daré algo mucho\n"
-	.string "más práctico, quiero que te lleves\l"
-	.string "este POKÉMON.$"
+	.string "más práctico, quiero que te\l"
+	.string "lleves este POKÉMON.$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:
 .string "¡¡OBTUVISTE UN RUFFLET AL NV.25!!$"
@@ -426,14 +471,14 @@ Violet_Gym_Combate_Pegaso_Texto_11:
 .string "La línea evolutiva de RUFFLET es\n"
 	.string "considerada la de mayor potencial\l"
 	.string "de entre las aves regionales\l"
-	.string "conocidas, los clásicos\l"
+	.string "conocidas. Así es, los clásicos\l"
 	.string "NORMAL-VOLADOR, lo obtuve en uno\l"
 	.string "de mis tantos viajes a TESELIA.$"
 
 Violet_Gym_Combate_Pegaso_Texto_12:
 .string "Esta vez me quedaré un poco más en\n"
-	.string "JOHTO antes de emprender un nuevo\l"
-	.string "viaje, aprovecharé para ver cómo\l"
+	.string "JOHTO, antes de emprender un nuevo\l"
+	.string "viaje. Aprovecharé para ver cómo\l"
 	.string "ha cambiado la región donde crecí\l"
 	.string "y visitar a mis viejos amigos.$"
 

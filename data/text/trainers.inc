@@ -11859,9 +11859,9 @@ VioletSprotTowerP2_Text_PensadorPostBattle:
 
 
 VioletSprotTowerP2_Text_Pensador2Intro:
-	.string "Ve con calma chico. El viaje\n"
-	.string "aporta la felicidad, no el\l"
-	.string "destino.$"
+	.string "Ve con calma, joven.\n"
+	.string "El viaje aporta la felicidad,\l"
+	.string "no el destino.$"
 
 
 VioletSprotTowerP2_Text_Pensador2Defeated:

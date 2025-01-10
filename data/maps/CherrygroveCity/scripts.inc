@@ -105,8 +105,8 @@ release
 end
 
 CherrygroveCity_Corriente_Texto_1:
-.string "(Las corrientes son\n"
-	.string "demasiado fuertes).$"
+.string "-Las corrientes son\n"
+	.string "demasiado fuertes-.$"
 
 CherrygroveCity_Corriente_Move_1:
 walk_in_place_up

@@ -69,7 +69,7 @@ RocketHideoutJohto_Text_4:
 .string "POKÉMON de PUEBLO LAVANDA, no hay\l"
 .string "de qué preocuparse. Estamos en\l"
 .string "medio de las montañas, en una zona\l"
-.string "oculta y alejada de la civilización.$"\l"
+.string "oculta y alejada de la civilización.$"
 
 
 
@@ -425,8 +425,8 @@ RocketHideoutJohto_Text_24:
 .string "La TORRE DE RADIO de CIUDAD TRIGAL\n"
 .string "se está convirtiendo rápidamente\l"
 .string "en la SILPH de JOHTO en cuanto\l"
-.string "poder e influencia se refiere, no\l"
-.string "me extrañaría que nuestro LÍDER\l"
+.string "poder e influencia se refiere.\p"
+.string "No me extrañaría que nuestro LÍDER\n"
 .string "organice más pronto que tarde una\l"
 .string "reunión de negocios allí también.$"
 
@@ -460,12 +460,12 @@ RocketHideoutJohto_Text_26:
 .string "gran parte de la población de\l"
 .string "JOHTO ha seguido viviendo con la\l"
 .string "sencillez y frugalidad que les\l"
-.string "caracterizaba.\l"
-.string "Realmente, el único que forzó esa\l"
+.string "caracterizaba.\p"
+.string "Realmente, el único que forzó esa\n"
 .string "guerra fue LANCE, y la gente de\l"
 .string "aquí lo sabe, tal vez gracias a\l"
 .string "eso se acelere el proceso de unión\l"
-.string "entre las dos regiones, el primer\l"
+.string "entre las dos regiones. El primer\l"
 .string "paso es abrir las fronteras\l"
 .string "asentadas en RUTA 26 y al pie del\l"
 .string "MONTE PLATEADO{PAUSE 5}…{PAUSE 5}$"
@@ -511,12 +511,12 @@ end
 
 RocketHideoutJohto_Text_29:
 .string "Me encantaría tener un PERSIAN,\n"
-.string "pero en JOHTO si no eres un\l"
+.string "pero en JOHTO, si no eres un\l"
 .string "pijo de CIUDAD TRIGAL, necesitas\l"
 .string "mucha suerte para encontrar un\l"
-.string "MEOWTH salvaje.\l"
-.string "Aunque un GRANBULL tampoco está\l"
-.string "mal.$"
+.string "MEOWTH salvaje.\p"
+.string "Aunque un GRANBULL tampoco\n"
+.string "está mal.$"
 
 
 
@@ -529,8 +529,8 @@ end
 
 RocketHideoutJohto_Text_30:
 .string "¡JOHTO es suya, señor!\n"
-.string "¡Demuéstreles a todos el poder del\l"
-.string "TEAM ROCKET!$"
+.string "¡Demuéstreles a todos el\l"
+.string "poder del TEAM ROCKET!$"
 
 
 
@@ -545,8 +545,8 @@ RocketHideoutJohto_Text_31:
 .string "1000 REVIVIRES y 700\n"
 .string "HIPERPOCIONES…\l"
 .string "En serio…\l"
-.string "¿Qué les pasa a los RECLUTAS de\l"
-.string "KANTO?\l"
+.string "¿Qué les pasa a los RECLUTAS\l"
+.string "de KANTO?\l"
 .string "¿Es que todos van con\l"
 .string "RATTATA y ZUBAT?$"
 
@@ -597,9 +597,9 @@ RocketHideoutJohto_Text_34:
 .string "techo de los 600 STATS BASE, cifra\l"
 .string "que se tenía por imposible de\l"
 .string "superar para cualquier POKÉMON\l"
-.string "mortal.\l"
-.string "Lo cierto es que con NIDOKING-X\l"
-.string "hicimos un trabajo extraordinario,\l"
+.string "mortal.\p"
+.string "Lo cierto es que con NIDOKING-X\n"
+.string "hicimos un trabajo extraordinario:\l"
 .string "gracias a su HABILIDAD ADAPTABLE,\l"
 .string "ATAQUE de 142 de BASE y VELOCIDAD\l"
 .string "de 125, es una verdadera máquina\l"
@@ -615,12 +615,12 @@ end
 
 RocketHideoutJohtoDocumento_Text_100:
 .string ".......\n"
-	.string ".......\l"
-	.string "Técnicas de laboratorio para\l"
+	.string ".......\p"
+	.string "Técnicas de laboratorio para\n"
 	.string "maximizar el potencial de\l"
-	.string "cualquier POKÉMON.\l"
-	.string ".......\l"
-	.string ".......\l"
+	.string "cualquier POKÉMON.\p"
+	.string ".......\n"
+	.string ".......\p"
 	.string "¡Tiene más de 500 páginas!$"
 
 
@@ -652,7 +652,7 @@ RocketHideoutJohto_EventScript_TakeRalts::
 RocketHideoutJohto_Text_TakeRalts:
 .string "Hay muchos POKÉMON PSÍQUICOS más\n"
 	.string "allá de ALAKAZAM o HYPNO, incluso\l"
-	.string "de los ESPEON o XATU en JOHTO.$"
+	.string "de ESPEON o XATU, en JOHTO.$"
 
 
 
@@ -667,8 +667,8 @@ RocketHideoutJohto_Text_TakeRalts3:
 	.string "Sin embargo, un colega mío que\n"
 	.string "trabaja en DEVON me regaló una\l"
 	.string "pareja de POKÉMON PSÍQUICOS de\l"
-	.string "HOENN.\l"
-	.string "Dijo que era el ALAKAZAM de esa\l"
+	.string "HOENN.\p"
+	.string "Dijo que era el ALAKAZAM de esa\n"
 	.string "región, me gustaría que un ROCKET\l"
 	.string "como tú se quedara con uno.$"
 

@@ -122,7 +122,7 @@ release
 end
 
 Viridian_Gym_Texto_Prohibido_Pasar:
-.string "(El GIMNASIO está cerrado).$"
+.string "-El GIMNASIO está cerrado-.$"
 
 Viridian_City_Frontera_Gym_Move_2:
 walk_slow_right
@@ -201,8 +201,8 @@ step_end
 ViridianCity_Gym_Pase_Texto_1:
 .string "¡Ni un paso más! Este GIMNASIO tiene\n"
 	.string "fama de ser el más estricto con la\l"
-	.string "política respecto al TEAM ROCKET. ¡Sal\l"
-	.string "de aquí si no quieres…!$"
+	.string "política respecto al TEAM ROCKET.\p"
+	.string "¡Sal de aquí si no quieres…!$"
 
 ViridianCity_Gym_Pase_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"

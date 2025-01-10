@@ -191,7 +191,7 @@ Route51HouseDocumento_Text_100Yes3:
 	.string "de KANTO deciden tomar medidas,\l"
 	.string "GIOVANNI, junto con OAK y todo un\l"
 	.string "equipo de investigación deciden\l"
-	.string "responer con tecnología al impulso\l"
+	.string "responder con tecnología al impulso\l"
 	.string "de los LEGENDARIOS de JOHTO,\l"
 	.string "concluyen que el ADN de MEW,\l"
 	.string "descubierto en un inicio por\l"
@@ -289,7 +289,7 @@ Route51HouseDocumento_Text_100Yes10:
 	.string "entre KANTO y JOHTO.$"
 
 Route51HouseDocumento_Text_100Yes11:
-    .string "20 de Enero de 1996: El TEAM\n"
+    .string "20 de Enero de 1997: El TEAM\n"
 	.string "ROCKET invade SILPH, en un\l"
 	.string "movimiento estratégico clave en\l"
 	.string "contra del Gobierno de LANCE, pues\l"
@@ -303,7 +303,7 @@ Route51HouseDocumento_Text_100Yes11:
 	.string "comienza a planearse.$"
 
 Route51HouseDocumento_Text_100Yes12:
-    .string "25 de Enero de 1996: BLAINE\n"
+    .string "25 de Enero de 1997: BLAINE\n"
 	.string "alerta al Gobierno de LANCE acerca\l"
 	.string "de la verdadera situación del TEAM\l"
 	.string "ROCKET, imponiendo restricciones\l"
