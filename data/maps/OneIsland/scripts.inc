@@ -16,7 +16,7 @@ end
 OneIsland_Text_1:
 .string "¿Cómo?\n"
 .string "¿KANTO?\l"
-.string "¡Esto es isla prima chico!\l"
+.string "¡Esto es isla prima, chico!\l"
 .string "¡Te has equivocado de destino!\l"
 .string "¡No te preocupes, justo iba para\l"
 .string "KANTO!\l"

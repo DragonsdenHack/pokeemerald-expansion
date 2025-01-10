@@ -13,8 +13,8 @@ end
 PalletTown_ProfessorLab_Text_1:
 .string "Los mejores entrenadores de la\n"
 .string "región provienen de este lugar, la\l"
-.string "curiosidad mató al gato chico,\l"
-.string "espero que me hayas entendido.$"
+.string "curiosidad mató al gato, chico.\l"
+.string "Espero que me hayas entendido.$"
 
 PalletTownProfessorLab1_2::
 msgbox PalletTown_ProfessorLab_Despues_Text_1, MSGBOX_DEFAULT
@@ -213,7 +213,7 @@ PalletTown_ProfessorLab_Lab_Texto_1:
 	.string "Tal vez esté en la ZONA 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-.string "????: ¿Querías algo chico?\n"
+.string "????: ¿Querías algo, chico?\n"
 	.string "Yo soy la nieta de OAK, y hermana\l"
 	.string "mayor de AZUL{PAUSE 25}…{PAUSE 15}$"
 

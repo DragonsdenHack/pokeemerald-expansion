@@ -193,20 +193,21 @@ RocketHideout7F_11::
 lock     
 faceplayer     
 msgbox RocketHideout7F_Text_11, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_11.1, MSGBOX_DEFAULT
 release     
 end
 
+RocketHideout7F_Text_11.1:
+	.string "Nadie ha estado tan expuesto y ha\n"
+	.string "demostrado tanto como nuestro LÍDER, y\l"
+	.string "es por ello que tenemos fe ciega en él.$"
+
 RocketHideout7F_Text_11:
-.string "Si pudiéramos reunir en un solo\n"
-.string "Pokémon los PS de BLISSEY, las\l"
-.string "defensas de SHUCKLE y la ofensiva\l"
-.string "de DEOXYS, tendríamos al Pokémon\l"
-.string "más potente que jamás pueda\l"
-.string "existir, obviamente no existe ni\l"
-.string "de lejos un cuerpo que pueda\l"
-.string "resistir todas esas virtudes\l"
-.string "combinadas, ¡el coste de\l"
-.string "oportunidad es duro chico!$"
+	.string "El que nunca ha pecado es menos de fiar\n"
+	.string "que el que solo ha pecado una vez, y\l"
+	.string "alguien que ha cometido muchos errores\l"
+	.string "es más de fiar que quien no ha cometido\l"
+	.string "ninguno.$"
 
 
 
@@ -319,13 +320,13 @@ RocketHideout7F_Text_17:
 .string "Si pudiéramos reunir en un solo\n"
 .string "Pokémon los PS de BLISSEY, las\l"
 .string "defensas de SHUCKLE y la ofensiva\l"
-.string "de DEOXYS, tendríamos al Pokémon\l"
-.string "más potente que jamás pueda\l"
-.string "existir, obviamente no existe ni\l"
-.string "de lejos un cuerpo que pueda\l"
-.string "resistir todas esas virtudes\l"
-.string "combinadas, ¡el coste de\l"
-.string "oportunidad es duro chico!$"
+.string "de DEOXYS, tendríamos al POKÉMON\l"
+.string "más potente que jamás pueda existir\l"
+.string "existir. Obviamente, no existe ni\l"
+.string "de lejos un cuerpo que resista\l"
+.string "todas esas virtudes combinadas.\p"
+.string "¡El coste de oportunidad\n"
+.string "es duro, chico!$"
 
 
 
@@ -428,7 +429,7 @@ release
 end
 
 RocketHideout7F_Text_22:
-.string "¡Usted no para señor!\n"
+.string "¡Usted no para, señor!\n"
 .string "¡A este paso viajará por todas las\l"
 .string "regiones del mundo POKÉMON!$"
 
@@ -2512,7 +2513,8 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_NIDOKING_X, 10, 3   
 playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
@@ -2522,6 +2524,8 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_NIDOQUEEN_Y, 10, 3   
 playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
@@ -2536,10 +2540,13 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_RHYPERIOR_BOND, 10, 3   
 playmoncry SPECIES_RHYPERIOR, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_13 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_9
@@ -2558,10 +2565,16 @@ msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_11.1
+waitmovement 0x0
+waitse
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
 waitmovement 0x0
@@ -2585,6 +2598,16 @@ msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10.1
+waitmovement 0x0
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_10.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_2
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_27 MSGBOX_AUTOCLOSE
@@ -2594,6 +2617,11 @@ delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_28 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_2.7
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29.1 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_14
 waitmovement 0x0
 setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
@@ -2601,6 +2629,10 @@ removeobject 20
 setvar VAR_UNUSED_0x40F7, 118
 release
 end
+
+RocketHideout_7F_Fuerte_Vinculo_move_11.1:
+emote_exclamation_mark
+step_end
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
 .string "¡¡{PLAYER} obtuvo un DETECTOR-&\n"
@@ -2612,10 +2644,10 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_1:
 	.string "acerca de LUGIA y HO-OH.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1.1:
-	.string "lamento decirte que no tenemos\n"
+	.string "Lamento decirte que no tenemos\n"
 	.string "nada, ya he enviado a un grupo a\l"
-	.string "investigar RUINAS ALFA, y el lugar\l"
-	.string "junto con todas sus cámaras sigue\l"
+	.string "investigar RUINAS ALFA, y el lugar,\l"
+	.string "junto con todas sus cámaras, sigue\l"
 	.string "exactamente igual.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_2:
@@ -2766,19 +2798,18 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_21:
 	.string "se dignaron a participar en la\l"
 	.string "guerra, me hace sospechar con que\l"
 	.string "el fenómeno del FUERTE VÍNCULO no\l"
-	.string "es algo que haya descubierto yo,\l"
-	.string "en JOHTO siempre se habló de ese\l"
-	.string "-vínculo- con tus POKÉMON era lo\l"
-	.string "más importante, lugares como TORRE\l"
-	.string "BELLSPROUT y TORRE CAMPANA tienen\l"
-	.string "su sentido en honrar a las\l"
+	.string "es algo que haya descubierto yo.\p"
+	.string "En JOHTO siempre se habló de ese\n"
+	.string "-vínculo- con tus POKÉMON, y templos\l"
+	.string "como TORRE BELLSPROUT o TORRE CAMPANA\l"
+	.string "tienen su sentido en honrar a las\l"
 	.string "relaciones, al -vínculo-, entre\l"
 	.string "humanos y POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_22:
-.string "Es por ello {PLAYER}, que quiero\n"
+.string "Es por ello, {PLAYER}, que quiero\n"
 	.string "que recorras la región en busca de\l"
-	.string "sus mejores ENTRENADORES, podrás\l"
+	.string "sus mejores ENTRENADORES. Podrás\l"
 	.string "identificarlos fácilmente, puesto\l"
 	.string "los GIMNASIOS, aunque carecen\l"
 	.string "ahora de validez para la LIGA\l"
@@ -2789,36 +2820,37 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_23:
 .string "Para eso están todos los\n"
 	.string "documentos que ves aquí, para ser\l"
 	.string "rellenados con la información de\l"
-	.string "todo POKÉMON excepcional y único,\l"
-	.string "si es FUERTE VÍNCULO, mejor.\l"
-	.string "Ten esto, será vital para que\l"
+	.string "todo POKÉMON excepcional y único.\l"
+	.string "Si es FUERTE VÍNCULO, mejor.\p"
+	.string "Ten esto, será vital para que\n"
 	.string "podamos llevar a cabo este gran\l"
 	.string "proyecto.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24:
 .string "Con este aparato toda información\n"
 	.string "acerca de un POKÉMON quedará\l"
-	.string "registrada únicamente con poner a\l"
-	.string "dicho POKÉMON a combatir, los\l"
-	.string "datos que recopile durante el\l"
-	.string "combate serán enviados\l"
-	.string "automáticamente a la base de datos\l"
-	.string "de esta sala.$"
+	.string "registrada, únicamente con poner a\l"
+	.string "dicho POKÉMON a combatir.\p"
+	.string "Los datos que recopile durante el\n"
+	.string "combate serán enviados de inmediato\l"
+	.string "a la base de datos de esta sala.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_25:
 .string "Supongo que no hace falta que te\n"
-	.string "diga que te prepares bien, si de\l"
+	.string "diga que te prepares bien: si de\l"
 	.string "verdad existen más FUERTE VÍNCULO,\l"
 	.string "no quiero imaginarme el poder de\l"
 	.string "un equipo de 6 manejado por tal\l"
 	.string "ENTRENADOR.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_26:
-.string "No tengo nada más que decirte\n"
-	.string "{PLAYER}, te preguntarás ahora cómo\l"
+.string "No tengo nada más que decirte,\n"
+	.string "{PLAYER}. Te preguntarás ahora cómo\l"
 	.string "llegar a JOHTO, muy fácil,\l"
-	.string "técnicamente lo tienes al lado,\l"
-	.string "solo tienes que usar nuestro\l"
+	.string "técnicamente lo tienes al lado.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_26.1:
+	.string "Solo tienes que usar nuestro\n"
 	.string "sistema de teletransporte, en la\l"
 	.string "sala que se encuentra en el límite\l"
 	.string "este de nuestra BASE PROFUNDA.$"
@@ -2833,17 +2865,17 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_28:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29:
-.string "Tal vez el hermetismo y\n"
-	.string "frugalidad con el que estos\l"
-	.string "personajes viven sea una de las\l"
-	.string "claves para alcanzar ese estado de\l"
-	.string "-flujo- con tu POKÉMON.\l"
-	.string "Fue en mi etapa de mayor\l"
-	.string "reclusión, tras todas las mentiras\l"
-	.string "que se vertieron sobre mi persona,\l"
-	.string "cuando RHYPERIOR y yo, sin ya nada\l"
-	.string "que perder, pudimos alcanzar ese\l"
-	.string "punto.$"
+.string "Tal vez el hermetismo y frugalidad\n"
+	.string "con la que estos personajes viven\l"
+	.string "sea una de las claves para alcanzar\l"
+	.string "ese estado de -flujo- con tu POKÉMON.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_29.1:
+	.string "Fue en mi etapa de mayor reclusión,\n"
+	.string "tras todas las mentiras que se\l"
+	.string "vertieron sobre mi persona, cuando\l"
+	.string "RHYPERIOR y yo, sin ya nada que\l"
+	.string "perder, pudimos alcanzar ese punto.$"
 
 RocketHideout_7F_Fuerte_Vinculo_move_1:
 walk_up
@@ -2855,6 +2887,14 @@ step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_2:
 face_right
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_2.7:
+face_left
+delay_16
+delay_16
+face_down
+delay_16
 step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_3:
@@ -2946,6 +2986,19 @@ step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_10:
 face_left
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_10.1:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_10.2:
+face_down
 step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_11:

@@ -185,21 +185,21 @@ release
 end
 
 SaffronCity_Text_16:
-.string "Le estábamos esperando señor, ¡con\n"
-.string "usted como EJECUTIVO al mando no\l"
-.string "podemos fallar!\l"
-.string "Tengo órdenes directas de GIOVANNI\l"
+.string "Le estábamos esperando, señor.\n"
+.string "¡Con usted como EJECUTIVO al\l"
+.string "mando no podemos fallar!\p"
+.string "Tengo órdenes directas de GIOVANNI\n"
 .string "de bloquearle el paso a ese ROJO\l"
 .string "fingiendo quedarme dormido, según\l"
 .string "nuestro LÍDER, a ROJO le importa\l"
 .string "un bledo lo que hagamos o no aquí,\l"
 .string "solo entrará si ve que físicamente\l"
 .string "tiene vía libre a la puerta, y la\l"
-.string "tendrá…\l"
-.string "¡Cuando nosotros queramos!\l"
-.string "¡Jo, jo, jo!\l"
-.string "¡VIVA EL TEAM ROCKET!\l"
-.string "¡HAIL EJECUTIVO {PLAYER}!\l"
+.string "tendrá…\p"
+.string "¡Cuando nosotros queramos!\n"
+.string "¡Jo, jo, jo!\p"
+.string "¡VIVA EL TEAM ROCKET!\p"
+.string "¡HAIL EJECUTIVO {PLAYER}!\p"
 .string "¡SALVE GIOVANNI!$"
 
 

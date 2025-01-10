@@ -62,15 +62,14 @@ end
 RocketHideoutJohto_Text_4:
 .string "Esta es la segunda BASE ROCKET más\n"
 .string "grande después de la principal en\l"
-.string "AZULONA, pero a diferencia de esta\l"
-.string "es visible desde el exterior, aun\l"
-.string "así, a pesar de tener unas\l"
+.string "AZULONA, pero a diferencia de esta,\l"
+.string "es visible desde el exterior.\p"
+.string "Aunque, a pesar de tener unas\n"
 .string "dimensiones parecidas a la TORRE\l"
-.string "POKÉMON de PUEBLO LAVANDA no hay\l"
-.string "de qué preocuparse, estamos en\l"
+.string "POKÉMON de PUEBLO LAVANDA, no hay\l"
+.string "de qué preocuparse. Estamos en\l"
 .string "medio de las montañas, en una zona\l"
-.string "oculta y alejada de toda\l"
-.string "civilización.$"
+.string "oculta y alejada de la civilización.$"\l"
 
 
 
@@ -119,19 +118,19 @@ end
 RocketHideoutJohto_Text_8:
 .string "PS de 125 de BASE…\n"
 .string "ATAQUE FÍSICO de 175…\l"
-.string "DEFENSA FÍSICA de 155…\l"
-.string "Una media de 151,666 de BASE\l"
-.string "entre los 3 primeros STATS…\l"
-.string "…\l"
-.string "…\l"
-.string "No, no me estoy inventando a este\l"
+.string "DEFENSA FÍSICA de 175…\l"
+.string "Una media de 158,333 de BASE\l"
+.string "entre los 3 primeros STATS…\p"
+.string "…\n"
+.string "…\p"
+.string "No, no me estoy inventando a este\n"
 .string "POKÉMON, estoy hablando del\l"
 .string "RHYPERIOR-& de nuestro LÍDER\l"
 .string "GIOVANNI, me cuesta creer que\l"
 .string "exista otro POKÉMON de un poder\l"
-.string "físico similar.\l"
-.string "¡Siquiera el LEGENDARIO GROUDON se\l"
-.string "le acerca!$"
+.string "físico similar.\p"
+.string "¡Ni un LEGENDARIO como\n"
+.string "GROUDON se le acerca!$"
 
 
 
@@ -147,11 +146,11 @@ RocketHideoutJohto_Text_9:
 .string "pesimista, a la vez que arrogante,\l"
 .string "cree haber llegado al límite de\l"
 .string "lo posible solo por no ser capaz\l"
-.string "de seguir mejorando a su PORYGON.\l"
-.string "Si viera nuestros últimos\l"
+.string "de seguir mejorando a su PORYGON.\p"
+.string "Si viera nuestros últimos\n"
 .string "descubrimientos, la expresión de\l"
 .string "incredulidad en su rostro al ver\l"
-.string "que unos ROCKETS le han pasado por\l"
+.string "que unos ROCKET le han pasado por\l"
 .string "encima sería legendaria, al tiempo\l"
 .string "que sufriría un duro golpe a su\l"
 .string "ego como científico.$"
@@ -171,8 +170,8 @@ RocketHideoutJohto_Text_10:
 .string "podemos, en teoría, proyectar su\l"
 .string "conducta hacia el futuro.\l"
 .string "Pero esto solo se refiere a los\l"
-.string "objetos inanimados.\l"
-.string "Con las cuestiones sociales, nos\l"
+.string "objetos inanimados.\p"
+.string "Con las cuestiones sociales, nos\n"
 .string "encontramos con un escollo.\l"
 .string "Proyectar el futuro cuando están\l"
 .string "implicados los seres humanos es\l"
@@ -208,10 +207,9 @@ RocketHideoutJohto_Text_12:
 .string "Algunos de los ENTRENADORES más\n"
 .string "veteranos de esta región cuentan\l"
 .string "con POKÉMON que se salen de\l"
-.string "nuestros parámetros de medición.\l"
-.string "¿Realmente será cierta esa teoría\l"
-.string "del vínculo entre\l"
-.string "ENTRENADOR-POKÉMON?$"
+.string "nuestros parámetros de medición.\p"
+.string "¿Realmente será cierta esa teoría\n"
+.string "del vínculo ENTRENADOR-POKÉMON?$"
 
 
 
@@ -229,9 +227,8 @@ RocketHideoutJohto_Text_13:
 .string "por ello que el TEAM ROCKET da una\l"
 .string "enorme importancia a su equipo\l"
 .string "científico, porque sabe del valor\l"
-.string "incalculable que un nuevo\l"
-.string "descubrimiento puede llegar a\l"
-.string "tener.$"
+.string "incalculable que un descubrimiento\l"
+.string "puede llegar a tener.$"
 
 
 
@@ -246,8 +243,8 @@ RocketHideoutJohto_Text_14:
 .string "El nivel de consumo de JOHTO es\n"
 .string "muy inferior al de KANTO, pero sus\l"
 .string "recursos son incomparables.\l"
-.string "¡Aquí nos encargamos de darles un\l"
-.string "buen uso!$"
+.string "¡Aquí nos encargamos de darles\l"
+.string "un buen uso!$"
 
 
 
@@ -275,8 +272,8 @@ end
 
 RocketHideoutJohto_Text_16:
 .string "Ese LANCE…\n"
-.string "Que siga con sus títulos de\l"
-.string "cartón.\l"
+.string "Que siga con sus títulos\l"
+.string "de cartón.\l"
 .string "Mientras, nosotros tomamos las\l"
 .string "decisiones verdaderamente\l"
 .string "importantes.$"
@@ -292,7 +289,7 @@ end
 
 RocketHideoutJohto_Text_17:
 .string "GIOVANNI le tiene en muy alta\n"
-.string "estima ADMIN.JEFE {PLAYER}.\l"
+.string "estima, ADMIN.JEFE {PLAYER}.\l"
 .string "Con gente como ANDRA y usted el\l"
 .string "TEAM ROCKET tiene futuro.$"
 
@@ -312,13 +309,13 @@ RocketHideoutJohto_Text_18:
 .string "descubrir acerca de las leyes de\l"
 .string "la naturaleza no era más que\l"
 .string "ajustar unas décimas los\l"
-.string "conocimientos de ese entonces, me\l"
-.string "pregunto cómo reaccionaría ante\l"
+.string "conocimientos de ese entonces.\p"
+.string "Me pregunto cómo reaccionaría ante\n"
 .string "todo lo que el siglo XX ha traído,\l"
 .string "es más, ¿cómo reaccionarían todos\l"
 .string "aquellos que en el presente creen\l"
 .string "que ya se ha alcanzado el 99-100%\l"
-.string "de nuestro potencial si le\l"
+.string "de nuestro potencial, si le\l"
 .string "llevaran a un laboratorio de\l"
 .string "finales del siglo XXI?$"
 
@@ -338,9 +335,8 @@ end
 
 RocketHideoutJohto_Text_20:
 .string "La ADMIN.JEFE ANDRA se ocupará de\n"
-.string "ponernos en el MAPA también en\l"
-.string "HOENN.\l"
-.string "¡Todo el MUNDO POKÉMON acabará\l"
+.string "ponernos en el MAPA en HOENN.\p"
+.string "¡Todo el MUNDO POKÉMON acabará\n"
 .string "siendo nuestro!$"
 
 
@@ -362,8 +358,7 @@ RocketHideoutJohto_Text_21:
 .string "NIDOKING-X y NIDOQUEEN-Y, aunque\l"
 .string "elevando los stats de los\l"
 .string "originales en +100 de BASE en\l"
-.string "lugar de los +125 del RHYPERIOR de\l"
-.string "GIOVANNI{PAUSE 5}…{PAUSE 5}$"
+.string "lugar de +125{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -389,7 +384,7 @@ RocketHideoutJohto_Text_22_2:
 	.string "usted termine habremos acabado.$"
 
 RocketHideoutJohto_Text_22:
-.string "Disculpe señor, pero a los pisos\n"
+.string "Disculpe, señor, pero a los pisos\n"
 .string "superiores solo puede acceder\l"
 .string "personal implicado de forma\l"
 .string "directa en los proyectos que ahí\l"
@@ -485,7 +480,7 @@ release
 end
 
 RocketHideoutJohto_Text_27:
-.string "¡Todo en orden señor!\n"
+.string "¡Todo en orden, señor!\n"
 .string "¡Un placer tenerle por JOHTO!$"
 
 
@@ -533,7 +528,7 @@ release
 end
 
 RocketHideoutJohto_Text_30:
-.string "¡JOHTO es suya señor!\n"
+.string "¡JOHTO es suya, señor!\n"
 .string "¡Demuéstreles a todos el poder del\l"
 .string "TEAM ROCKET!$"
 
@@ -552,8 +547,8 @@ RocketHideoutJohto_Text_31:
 .string "En serio…\l"
 .string "¿Qué les pasa a los RECLUTAS de\l"
 .string "KANTO?\l"
-.string "¿Es que todos llevan RATTATAS y\l"
-.string "ZUBATS?$"
+.string "¿Es que todos van con\l"
+.string "RATTATA y ZUBAT?$"
 
 
 
@@ -566,8 +561,8 @@ end
 
 RocketHideoutJohto_Text_32:
 .string "¡Estar fuera de la ley me hace\n"
-.string "sentir tan vivo!\l"
-.string "¡Al diablo los límites desde aquí\l"
+.string "sentir tan vivo!\p"
+.string "¡Al diablo los límites, desde aquí\n"
 .string "construiremos lo que nos venga en\l"
 .string "gana!$"
 
@@ -581,9 +576,9 @@ release
 end
 
 RocketHideoutJohto_Text_33:
-.string "¡Trabajo propio!\n"
-.string "¡Trabajo propio por y para el TEAM\l"
-.string "ROCKET!\l"
+.string "¡Trabajo propio!\p"
+.string "¡Trabajo propio por y para\p"
+.string "el TEAM ROCKET!\n"
 .string "¡Así da gusto trabajar!$"
 
 

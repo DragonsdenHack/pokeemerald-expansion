@@ -382,8 +382,8 @@ CeladonCity_Entrenador_Especial_Texto_7:
 	.string "KANTO están al nivel de antaño!$"
 
 CeladonCity_Entrenador_Especial_Texto_8:
-.string "Sí, tienes algo especial chico,\n"
-	.string "espero que llegues muy lejos.$"
+.string "Sí, tienes algo especial, chico.\n"
+	.string "Espero que llegues muy lejos.$"
 
 CeladonCity_Entrenador_Especial_Texto_9:
 .string "Ojalá algún día mi nieto alcance\n"

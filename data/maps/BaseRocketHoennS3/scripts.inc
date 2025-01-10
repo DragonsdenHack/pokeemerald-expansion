@@ -803,7 +803,7 @@ release
 end
 
 BaseRocketHoennS3_Primer_Ejecutivo_Texto_1:
-.string "Discúlpeme SIR. El piso inferior está\n"
+.string "Discúlpeme, SIR. El piso inferior está\n"
 	.string "aún en obras, en él introduciremos los\l"
 	.string "datos de todos los nuevos POKÉMON que\l"
 	.string "no quepan aquí. El mundo es muy amplio,\l"

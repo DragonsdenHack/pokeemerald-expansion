@@ -82,7 +82,7 @@ end
 RocketHideout5F_Text_8:
 .string "Todo gran negocio se construye en\n"
 .string "torno a un gran secreto oculto al\l"
-.string "exterior chico, este lugar es uno\l"
+.string "exterior, chico. Este lugar es uno\l"
 .string "de nuestros grandes secretos\l"
 .string "ocultos.$"
 
@@ -574,7 +574,7 @@ end
 
 RocketHideout5F_Text_35:
 .string "La competencia hoy en día es\n"
-.string "enorme chico, nunca más en la\l"
+.string "enorme, chico. Nunca más en la\l"
 .string "historia volverá ningún otro\l"
 .string "sector a ser tan importante como\l"
 .string "para que el mero hecho de\l"
@@ -913,8 +913,8 @@ release
 end
 
 RocketHideout5F_Text_54:
-.string "El miedo es el peor enemigo del\n"
-.string "progreso chico.$"
+.string "El miedo es el peor enemigo\n"
+.string "del progreso, chico.$"
 
 
 

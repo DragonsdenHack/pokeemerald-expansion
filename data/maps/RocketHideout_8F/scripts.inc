@@ -2263,7 +2263,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_20:
 	.string "formar parte del TEAM ROCKET.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_21:
-.string "ANDRA: Pero señor, creía que los\n"
+.string "ANDRA: Pero, señor, creía que los\n"
 	.string "ROCKET no podían enfrentar a los\l"
 	.string "LÍDERES DE GIMNASIO por MEDALLAS.$"
 

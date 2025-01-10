@@ -199,7 +199,7 @@ CeladonCity_Shop_3F_Entrenador_Especial_Texto_5:
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_6:
 .string "¡Tus POKÉMON son un torbellino\n"
-	.string "ofensivo chico!\l"
+	.string "ofensivo, chico!\l"
 	.string "¡Esta MT te vendrá perfecta!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_7:
