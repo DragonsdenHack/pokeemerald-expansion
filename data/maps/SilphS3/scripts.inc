@@ -660,7 +660,7 @@ SilphS3_Bill_Batalla_Texto_14.1:
 
 SilphS3_Bill_Batalla_Texto_15:
 .string "También, según últimas estimaciones, el\n"
-	.string "poder global de mi mi actual equipo ya\l"
+	.string "poder global de mi actual equipo ya\l"
 	.string "ha superado el nivel del equipo con el\l"
 	.string "que LANCE pudo someter a KANTO; el\l"
 	.string "mismo que tú enfrentaste tras las\l"

@@ -35,8 +35,8 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_3:
-.string "Un tonto nunca se repone de un\n"
-.string "éxito.$"
+.string "Un tonto nunca se repone\n"
+.string "de un éxito.$"
 
 
 
@@ -48,13 +48,9 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_4:
-.string "TORRE CAMPANA fue construída en\n"
-.string "honor a HO-OH, así como TORRE\l"
-.string "QUEMADA, otrora TORRE LATÓN, en\l"
-.string "honor a LUGIA, aquellos que\l"
-.string "llegaron a conocer la conexión\l"
-.string "última entre las dos torres ya no\l"
-.string "se encuentran entre nosotros.$"
+	.string "Si pones un tizón apagado junto al que\n"
+	.string "está ardiendo, o aquel apagará a este, o\l"
+	.string "este hará que aquel prenda.$"
 
 
 

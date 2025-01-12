@@ -648,31 +648,31 @@ LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 	.string	"el LÍDER del GIMNASIO de AZULIZA.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
-	.string	"¡Has conseguido superar a tu padre\n"
-	.string	"en todos los aspectos!\p"
-	.string	"¡Te lo digo yo, así que ni te atrevas\n"
-	.string	"a dudarlo!$"
+	.string	"El hijo de NORMAN superará a su\n"
+	.string	"padre en todos los aspectos.\p"
+	.string	"¡Te lo digo yo, así que ni te\n"
+	.string	"atrevas a dudarlo!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
 	.string	"Incluso cuando las cosas no estaban\n"
-	.string	"nada fáciles, tu padre nunca se rindió.\p"
+	.string	"nada fáciles, NORMAN nunca se rindió.\p"
 	.string	"Eso lo sé a ciencia cierta.\p"
 	.string	"¡Así que no te rindas aunque pierdas!\n"
 	.string	"¡Sigue luchando!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
-	.string	"NORMAN luchó con más fuerza,\n"
-	.string	"personalidad y estilo que tú.\p"
-	.string	"Muchos dicen que eres fuerte…,\p"
-	.string	"pero todavía te queda mucho que\n"
-	.string	"aprender para ser como tu padre.$"
+	.string	"NORMAN luchó con una fuerza,\n"
+	.string	"personalidad y estilo únicos.\p"
+	.string	"Dicen que su hijo es fuerte…,\p"
+	.string	"pero todavía le queda mucho que\n"
+	.string	"aprender para ser como su padre.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
-	.string	"Estás empezando a inspirar tanto\n"
-	.string	"respeto como NORMAN.\p"
-	.string	"Pero un abismo os separa…\p"
-	.string	"No te puedo decir de qué se trata…\n"
-	.string	"¡Averígualo tú!$"
+	.string	"NORMAN luchó con una fuerza,\n"
+	.string	"personalidad y estilo únicos.\p"
+	.string	"Dicen que su hijo es fuerte…,\p"
+	.string	"pero todavía le queda mucho que\n"
+	.string	"aprender para ser como su padre.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
 	.string	"Todos los que estamos aquí somos\n"

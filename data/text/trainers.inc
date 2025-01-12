@@ -12151,7 +12151,7 @@ UnionCaveS2_Text_NadadorPostBattle:
 	.string "miran con aires de superioridad,\l"
 	.string "solo están aquí por si encuentran\l"
 	.string "algún POKÉMON raro. Ellos fueron\l"
-	.string "los que se rieron de mi por\l"
+	.string "los que se rieron de mí por\l"
 	.string "bañarme en este lugar.\l"
 	.string "¡No saben lo bien que se siente\l"
 	.string "nadar bajo un paraíso así!$"

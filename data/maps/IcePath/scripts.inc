@@ -61,7 +61,7 @@ IcePath_Llamada_Giovanni_Texto_1.1:
 	.string "ATAQUE, mejor VELOCIDAD y defensas\l"
 	.string "similares a GARCHOMP-MEGA.\l"
 	.string "En otras palabras, sus stats útiles\l"
-	.string "son comparables a  la MEGA de todo\l"
+	.string "son comparables a la MEGA de todo\l"
 	.string "un PSEUDOLEGENDARIO.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:

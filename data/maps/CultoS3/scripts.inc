@@ -940,7 +940,7 @@ Culto_S3_Batalla_Texto_19.1:
 	.string "pudieran salir airosas.$"
 
 Culto_S3_Batalla_Texto_19.2:
-	.string "Te has ganado e derecho a regresar al\n"
+	.string "Te has ganado el derecho a regresar al\n"
 	.string "exterior, con la condición de no contar\l"
 	.string "a nadie lo que has visto aquí{PAUSE 15}…{PAUSE 15}$"
 

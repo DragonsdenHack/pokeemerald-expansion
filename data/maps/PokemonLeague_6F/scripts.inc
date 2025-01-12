@@ -863,7 +863,7 @@ PokemonLeague_6F_Final_Texto_45:
 	.string "un rival menguado por el duro camino\l"
 	.string "que le ha llevado hasta aquí.\l"
 	.string "Quiero que veas cómo aplasto a tu\l"
-	.string "equipo en su apogeo, vas aentender de\l"
+	.string "equipo en su apogeo, vas a entender de\l"
 	.string "una vez por todas que existen poderes\l"
 	.string "ante los que mortales como tú solo\l"
 	.string "pueden arrodillarse.$"

@@ -91,9 +91,9 @@ static const u8 sFriendBallDesc[] = _(
     "when caught.");
 
 static const u8 sLoveBallDesc[] = _(
-    "Works well on\n"
-    "Pokémon of the\n"
-    "opposite gender.");
+    "Funciona mejor con\n"
+   	"los POKÉMON del\n"
+   	"género opuesto.");
 
 static const u8 sFastBallDesc[] = _(
     "Works well on\n"
@@ -101,9 +101,9 @@ static const u8 sFastBallDesc[] = _(
     "Pokémon.");
 
 static const u8 sHeavyBallDesc[] = _(
-    "Works well on\n"
-    "very heavy\n"
-    "Pokémon.");
+    "Funciona mejor con\n"
+   	"los POKÉMON más\n"
+   	"pesados.");
 
 static const u8 sDreamBallDesc[] = _(
     "A Poké Ball used in\n"
@@ -1988,7 +1988,7 @@ static const u8 sGriseousOrbDesc[] = _(
 // Incenses
 static const u8 sSeaIncenseDesc[] = _(
     "Al llevarlo, forta-\n"
-   	"lece algo los\n"
+   	"lece un 10% los\n"
    	"ataques tipo AGUA.");
 
 static const u8 sLaxIncenseDesc[] = _(
@@ -1997,39 +1997,39 @@ static const u8 sLaxIncenseDesc[] = _(
    	"del rival.");
 
 static const u8 sOddIncenseDesc[] = _(
-    "A hold item that\n"
-    "boosts Psychic-\n"
-    "type moves.");
+    "Al llevarlo, forta-\n"
+   	"lece un 10% los\n"
+   	"ataques PSÍQUICOS.");
 
 static const u8 sRockIncenseDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "Rock-type moves.");
+    "Al llevarlo, forta-\n"
+   	"lece un 10% los\n"
+   	"ataques tipo ROCA.");
 
 static const u8 sFullIncenseDesc[] = _(
-    "A held item that\n"
-    "makes the holder\n"
-    "move slower.");
+    "Al llevarlo,el\n"
+   	"POKÉMON se vuelve\n"
+   	"más lento.");
 
 static const u8 sWaveIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "Water-type moves.");
+    "Al llevarlo, forta-\n"
+   	"lece un 10% los\n"
+   	"ataques tipo AGUA.");
 
 static const u8 sRoseIncenseDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "Grass-type moves.");
+    "Al llevarlo, forta-\n"
+   	"lece un 10% los\n"
+   	"ataques tipo PLANTA.");
 
 static const u8 sLuckIncenseDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "Al llevarlo, duplica\n"
+   	"el dinero ganado\n"
+   	"en un combate.");
 
 static const u8 sPureIncenseDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "Pokémon.");
+    "Al llevarlo, repele\n"
+   	"a los POKÉMON\n"
+   	"salvajes.");
 
 // Contest Scarves
 static const u8 sRedScarfDesc[] = _(

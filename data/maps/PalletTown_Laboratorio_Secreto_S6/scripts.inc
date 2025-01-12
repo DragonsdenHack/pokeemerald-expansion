@@ -1945,9 +1945,9 @@ PalletTown_Laboratorio_S6_Combate_Final_Texto_18:
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_19:
 	.string "Más tarde, cuando {PLAYER} se\n"
-	.string "adentró en la MANSIÓN CANELA y\l"
-	.string "recuperó a MEWTWO, OAK me lo confirmó\l"
-	.string "todo.$"
+	.string "adentró en la MANSIÓN POKÉMON, y\l"
+	.string "recuperó a MEWTWO, OAK me lo\l"
+	.string "confirmó todo.$"
 
 PalletTown_Laboratorio_S6_Combate_Final_Texto_20:
 	.string "Tuvo que actuar de forma que pudiera\n"

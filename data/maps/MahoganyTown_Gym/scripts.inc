@@ -103,7 +103,7 @@ MahoganyTown_Gym_Combate_Texto_11.1:
 
 MahoganyTown_Gym_Combate_Texto_11.2:
 .string "¡¡{PLAYER} obtuvo la MT60 VAHO\n"
-	.string "GELIDO de manos de ANIBAL!!$"
+	.string "GELIDO de manos de FREDO!!$"
 
 MahoganyTown_Gym_Combate_Texto_11.3:
 .string "VAHO GELIDO siempre golpeará crítico,\n"

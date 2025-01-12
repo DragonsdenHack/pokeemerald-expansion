@@ -687,9 +687,10 @@ SilphS2_Text_35:
 .string "a todos los POKÉMON que existen.$"
 
 SilphS2_Text_35.1:
-.string "Contar con abre tu abanico de opciones,\n"
-.string "puede dar una ventaja estratégica, pero\l"
-.string "también vuelve la elección más difícil.$"
+.string "Contar con más POKÉMON abre tu abanico\n"
+.string "de opciones, puede dar una ventaja\l"
+.string "estratégica, pero también vuelve la\l"
+.string "elección más difícil.$"
 
 SilphS2_Text_35.2:
 .string "Al final, los mejores POKÉMON y\n"

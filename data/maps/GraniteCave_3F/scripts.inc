@@ -346,11 +346,11 @@ GraniteCave_Encuentro_Esmeralda_Texto_17:
 	.string "Impresionante.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_18:
-	.string "Dicen que eres el mejor ENTRENADOR de\p"
-	.string "entre los ROCKET, esto lo confirma.\n"
-	.string "Seguro que podrías haberle dado más pelea\l"
-	.string "a nuestro ADMIN.AMATISTA de lo que la\l"
-	.string "otra ADMIN hizo.$"
+	.string "Dicen que eres el mejor ENTRENADOR de\n"
+	.string "entre los ROCKET, esto lo confirma.\l"
+	.string "Seguro que podrías haberle dado más\l"
+	.string "pelea a nuestro ADMIN.AMATISTA de lo\l"
+	.string "que la otra ADMIN hizo.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_19:
 	.string "Dejando eso de lado, me gustaría que\n"

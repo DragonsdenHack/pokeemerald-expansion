@@ -262,8 +262,8 @@ ViasSur5_Combate_Pegaso_Texto_20:
 	.string "hora ha llegado.$"
 
 ViasSur5_Combate_Pegaso_Texto_21:
-.string "(PEGASO liberó a LANDORUS, THUNDURUS,\n"
-	.string "TORNADOS y ENAMORUS)$"
+.string "-PEGASO liberó a LANDORUS, THUNDURUS,\n"
+	.string "TORNADUS y ENAMORUS-.$"
 
 ViasSur5_Combate_Pegaso_Texto_22:
 .string "Hemos vivido grandes aventuras y\n"
@@ -285,7 +285,7 @@ ViasSur5_Combate_Pegaso_Texto_24:
 	.string "me cabe duda.$"
 
 ViasSur5_Combate_Pegaso_Texto_26:
-.string "(Mi misión aquí parece haber terminado).$"
+.string "-Mi misión aquí parece haber terminado-.$"
 
 Misiones_DLC_Fin_Llamada_Giovanni_Zapdos::
 delay 30

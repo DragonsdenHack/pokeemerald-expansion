@@ -119,8 +119,8 @@ step_end
 
 MisionTrigal4_Primer_Encuentro_Texto_1:
 .string "Como te decía, mis colegas de KANTO\n"
-	.string "dicen que en la MANSIÓN CANELA hay\l"
-	.string "muchos POKÉM{PAUSE 5}…{PAUSE 5}$"
+	.string "dicen que en la MANSIÓN POKÉMON hay\l"
+	.string "muchos objet{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Primer_Encuentro_Texto_2:
 .string "Perdona, ¿te has perdido?$"

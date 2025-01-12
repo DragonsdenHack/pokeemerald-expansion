@@ -821,8 +821,8 @@ DewfordTown_Hall_Secundaria_Final_Texto_7:
 
 DewfordTown_Hall_Secundaria_Final_Texto_8:
 	.string "Mi amigo me dijo que eres casi tan\n"
-	.string "fuerte como tu padre, ¿de verdad tienes\l"
-	.string "una MEGAPIEDRA?$"
+	.string "fuerte como tu padre, ¿de verdad\l"
+	.string "tienes una MEGAPIEDRA?$"
 
 DewfordTown_Hall_Secundaria_Final_Texto_9:
 	.string "¡Sí! Bueno{PAUSE 15}…{PAUSE 15} La encontramos en el MONTE\n"

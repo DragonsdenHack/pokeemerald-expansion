@@ -96,12 +96,18 @@ delay 20
 playse SE_PIN
 applymovement 6, UnionCave_Combate_Elm_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_3
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_4
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UnionCave_Combate_Elm_Texto_2 MSGBOX_AUTOCLOSE
@@ -112,23 +118,32 @@ waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_5
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_6
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_7
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_10 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ELM, UnionCave_Combate_Elm_Texto_11
 msgbox UnionCave_Combate_Elm_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_7
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_8
 applymovement 6, UnionCave_Combate_Elm_Move_9
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_10
 waitmovement 0x0
 playse SE_EXIT
@@ -147,8 +162,8 @@ UnionCave_Combate_Elm_Texto_2:
 
 UnionCave_Combate_Elm_Texto_3:
 .string "ELM: Ah, {PLAYER}.\n"
-	.string "¿También explorando la CUEVA\l"
-	.string "UNIÓN?$"
+	.string "¿También explorando la\l"
+	.string "CUEVA UNIÓN?$"
 
 UnionCave_Combate_Elm_Texto_4:
 .string "Quería hacer una pequeña\n"
@@ -157,19 +172,19 @@ UnionCave_Combate_Elm_Texto_4:
 	.string "esta cueva.$"
 
 UnionCave_Combate_Elm_Texto_5:
-.string "Resultó ser un LAPRAS. No me\n"
-	.string "malinterpretes, es un buen\l"
+.string "Resultó ser un LAPRAS.\n"
+	.string "No me malinterpretes, es un buen\l"
 	.string "POKÉMON, pero mis expectativas\l"
 	.string "eran mucho mayores.$"
 
 UnionCave_Combate_Elm_Texto_6:
 .string "¿¡De verdad!?\n"
-	.string "¡¿Luchaste contra PEGASO padre\l"
-	.string "en persona?!$"
+	.string "¡¿Luchaste contra PEGASO\l"
+	.string "padre en persona?!$"
 
 UnionCave_Combate_Elm_Texto_7:
-.string "Vaya, así que contigo sí accedió a\n"
-	.string "combatir.$"
+.string "Vaya, así que contigo sí\n"
+	.string "accedió a combatir.$"
 
 UnionCave_Combate_Elm_Texto_8:
 .string "Un ENTRENADOR fascinante, sin\n"
@@ -177,19 +192,19 @@ UnionCave_Combate_Elm_Texto_8:
 	.string "mecanismos por los que su PIDGEOT\l"
 	.string "podía MEGAEVOLUCIONAR sin hacer\l"
 	.string "uso de mi tecnología, pero todos\l"
-	.string "los de su generación son iguales:\l"
-	.string "viven como anacoretas, ajenos a\l"
-	.string "todo cuanto sucede en el mundo.\l"
-	.string "quizás ahí esté su poder, al igual\l"
-	.string "que el fenómeno del FUERTE\l"
+	.string "los de su generación son iguales.\p"
+	.string "Viven como anacoretas, ajenos a\n"
+	.string "todo cuanto sucede en el mundo.\p"
+	.string "Quizás en ello radique su poder.\p"
+	.string "Al igual que el fenómeno del FUERTE\n"
 	.string "VÍNCULO, su MEGAEVOLUCIÓN se\l"
 	.string "activa por mecanismos similares…{PAUSE 5}$"
 
 UnionCave_Combate_Elm_Texto_9:
-.string "Tengo curiosidad.\n"
-	.string "No solo luchaste contra él, sino\l"
+.string "Tengo curiosidad.\p"
+	.string "No solo luchaste contra él, sino\n"
 	.string "que incluso pudiste derrotarlo.\l"
-	.string "Tal vez tenga delante de mi un\l"
+	.string "Tal vez tenga delante de mí un\l"
 	.string "objeto de estudio aún más\l"
 	.string "interesante que esos viejos\l"
 	.string "LÍDERES, que pronto quedarán\l"
@@ -211,16 +226,16 @@ UnionCave_Combate_Elm_Texto_12:
 	.string "acerca de esos POKÉMON singulares.$"
 
 UnionCave_Combate_Elm_Texto_13:
-.string "Me retiro {PLAYER}, gracias por el\n"
-	.string "combate.$"
+.string "Me retiro, {PLAYER}.\n"
+	.string "Gracias por el combate.$"
 
 UnionCave_Combate_Elm_Texto_14:
-.string "Ah, y una cosa, pronto habrá un\n"
-	.string "evento, un evento importante aquí\l"
-	.string "en JOHTO. Seguramente GIOVANNI te\l"
-	.string "informe pronto de ello. Después de\l"
-	.string "lo que he visto en esta cueva,\l"
-	.string "entiendo por qué siempre te\l"
+.string "Ah, y una cosa.\p"
+	.string "Pronto habrá un evento, un evento\n"
+	.string "importante aquí en JOHTO.\p"
+	.string "GIOVANNI te informará pronto de ello.\p"
+	.string "Después de lo que he visto en esta\n"
+	.string "cueva, entiendo por qué siempre te\l"
 	.string "tiene en cuenta para los asuntos\l"
 	.string "más importantes.$"
 
@@ -262,8 +277,8 @@ step_end
 UnionCave_Combate_Elm_Move_9:
 walk_up
 walk_up
-delay_1
-delay_2
+delay_8
+delay_8
 walk_in_place_down
 step_end
 
@@ -285,41 +300,50 @@ walk_right
 walk_right
 step_end
 
+UnionCave_Llamada_Giovanni_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
 UnionCave_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox UnionCave_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 15
 setvar VAR_UNUSED_0x40F7, 126
 release
 end
 
 UnionCave_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "Hemos recibido los datos del\l"
+.string "GIOVANNI: ¿{PLAYER}?\p"
+	.string "Hemos recibido los datos del\n"
 	.string "RAPIDASH-& de PEGASO.\l"
 	.string "Debió ser un duro oponente; ha\l"
 	.string "logrado compensar su debilidad x4\l"
 	.string "a ROCA con la HABILIDAD PELAJE\l"
 	.string "RECIO. Muy impresionante, más con\l"
 	.string "ese ATAQUE y VELOCIDAD de 135-145\l"
-	.string "de BASE también.\l"
-	.string "Ya sabes que puedes pasarte por la\l"
+	.string "de BASE también.\p"
+	.string "Ya sabes que puedes pasarte por la\n"
 	.string "sala de la BASE PROFUNDA donde\l"
 	.string "estudiaremos e iremos actualizando\l"
 	.string "toda la información sobre esta\l"
-	.string "clase de POKÉMON.\l"
-	.string "Y una cosa más, ¿has visitado las\l"
-	.string "RUINAS ALFA?\l"
-	.string "Así es, no hemos hallado nada\l"
+	.string "clase de POKÉMON.\p"
+	.string "Y una cosa más, ¿has visitado\n"
+	.string "las RUINAS ALFA?\p"
+	.string "Así es, no hemos hallado nada\n"
 	.string "aún, pero no te preocupes, {PLAYER},\l"
 	.string "por el momento céntrate en\l"
 	.string "capturar los datos de los POKÉMON\l"
 	.string "FUERTE VÍNCULO. Tenemos todo el\l"
 	.string "tiempo del mundo para averiguar el\l"
-	.string "misterio de las RUINAS. Los\l"
-	.string "LÍDERES DE GIMNASIO{PAUSE 25}…{PAUSE 25} No sabemos\l"
-	.string "cuanto pueden durar en esta JOHTO\l"
-	.string "tan cambiante.$"
+	.string "misterio de las RUINAS.\p"
+	.string "Los LÍDERES DE GIMNASIO{PAUSE 25}…{PAUSE 25}\p"
+	.string "No sabemos cuanto pueden durar en\n"
+	.string "esta JOHTO tan cambiante.$"

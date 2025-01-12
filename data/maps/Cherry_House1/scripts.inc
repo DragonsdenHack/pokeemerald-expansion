@@ -13,7 +13,7 @@ CherryHouse1_Text_1:
 .string "POKÉMON como CYNDAQUIL o CHIKORITA\l"
 .string "por estas rutas. El otro día sin\l"
 .string "embargo me pareció ver a un\l"
-.string "TOTODILE en el estanco del norte.$"
+.string "TOTODILE en el estanque del norte.$"
 
 
 

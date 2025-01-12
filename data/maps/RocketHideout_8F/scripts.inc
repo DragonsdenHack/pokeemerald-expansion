@@ -1605,10 +1605,9 @@ RocketHideout_8F_Mision_Silph_text_41:
 RocketHideout_8F_Mision_Silph_text_42:
 .string "Su MASTER BALL presumiblemente es capaz\n"
 	.string "de atrapar cualquier POKÉMON, bajo\l"
-	.string "cualquier condición: una BALL infalible.\l"
-	.string "BALL infalible, el sueño de\l"
-	.string "cualquier ENTRENADOR, más aún de\l"
-	.string "cualquier coleccionista.$"
+	.string "cualquier condición: una BALL infalible.\p"
+	.string "El sueño de cualquier ENTRENADOR, más\n"
+	.string "aún de cualquier coleccionista.$"
 
 RocketHideout_8F_Mision_Silph_text_43:
 .string "Un objeto como ese sería crucial\n"
@@ -2371,7 +2370,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_36:
 RocketHideout_8F_Mision_Gimnasios_texto_36.1:
 	.string "Espero que tú también afrontes este\n"
 	.string "reto con el mismo entusiasmo, {PLAYER}.\l"
-	.string "Ándatecon cuidado, los LÍDERES ajustan\l"
+	.string "Ándate con cuidado, los LÍDERES ajustan\l"
 	.string "su poder según quien tengan enfrente,\l"
 	.string "AZUL y ROJO son protegidos de OAK, y\l"
 	.string "como tales tienen ciertos privilegios.$"
@@ -3738,8 +3737,8 @@ RocketHideout8F_Mision_Johto_Text_1:
 .string "ANDRA: ¡{PLAYER}!\n"
 	.string "¡Eres incansable!\p"
 	.string "Yo ya estaba lista para entrar por\n"
-	.string "la fuerza a MANSIÓN CANELA, ¡y vas\l"
-	.string "tú y derrotas a todos antes!$"
+	.string "la fuerza a la MANSIÓN POKÉMON.\p"
+	.string "¡Y vas tú y derrotas a todos antes!$"
 
 RocketHideout8F_Mision_Johto_Text_2:
 .string "GIOVANNI: Ambos le habéis dado al\n"

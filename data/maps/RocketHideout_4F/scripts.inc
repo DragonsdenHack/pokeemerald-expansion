@@ -1556,7 +1556,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_10:
 .string "Vamos a enviar a un pelotón\n"
 	.string "completo, para recolectar el máximo\l"
 	.string "número de cráneos de CUBONE posible.\l"
-	.string "Algo de gran valor enel mercado negro.$"
+	.string "Algo de gran valor en el mercado negro.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11:
 .string "Sin embargo, esta es solo la\n"

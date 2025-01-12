@@ -71,7 +71,7 @@ OlivineNormanHouse_Text_TakeSlakoth2:
 	.string "Tú también deberías visitar esa\n"
 	.string "región algún día, tiene POKÉMON\l"
 	.string "excepcionales que no encontrarás\l"
-	.string "en ningua otra región, como este.$"
+	.string "en ninguna otra región, como este.$"
 
 OlivineNormanHouse_Text_MensajeSlakoth:
 .string "¡OBTUVISTE UN SLAKOTH AL NV.5!$"

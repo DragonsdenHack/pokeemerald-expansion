@@ -163,7 +163,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_4:
 	.string "volvió extremadamente eficiente,\l"
 	.string "pero solo 'notable' en el global.\l"
 	.string "No ha cruzado ningún límite que\l"
-	.string "límite{PAUSE 25}…{PAUSE 25}sagrado.$"
+	.string "consideremos{PAUSE 25}…{PAUSE 25}sagrado.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
 .string "Tu POKÉMON, en cambio, ya era\n"
