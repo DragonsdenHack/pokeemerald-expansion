@@ -2313,7 +2313,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.6:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.7:
 .string "GIOVANNI: No, no todos. La PIEDRA\n"
-	.string "DORADA estará a la venta en uno de los\l"
+	.string "SAGRADA estará a la venta en uno de los\l"
 	.string "pisos superiores de la TORRE RADIO\l"
 	.string "LAVANDA. De modo que{PAUSE 15}…{PAUSE 15} únicamente los\l"
 	.string "ROCKET de ALTO RANGO en adelante\l"

@@ -137,17 +137,17 @@ end
 IlexForest_Llamada_Giovanni_Texto_1:
 .string "GIOVANNI: ¿{PLAYER}?\n"
 	.string "Se oye mal, debes de estar en el\l"
-	.string "ENCINAR, ¿me equivoco?\l"
-	.string "Grandes recuerdos me trae ese\l"
-	.string "lugar, sí{PAUSE 25}…{PAUSE 25}\l"
-	.string "Ya tenemos la información del\l"
+	.string "ENCINAR, ¿me equivoco?\p"
+	.string "Grandes recuerdos me trae ese\n"
+	.string "lugar, sí{PAUSE 25}…{PAUSE 25}\p"
+	.string "Ya tenemos la información del\n"
 	.string "BUTTERFREE-& de CÉSAR.\l"
 	.string "Lo más extraordinario no son\l"
 	.string "sus 520 STATS BASE, es su\l"
 	.string "insuperable reparto de STATS\l"
 	.string "útiles. Tiene{PAUSE 25}…{PAUSE 25} ¡solo 5 de BASE en\l"
-	.string "ATAQUE!\l"
-	.string "Entre esto y su HABILIDAD\l"
+	.string "ATAQUE!\p"
+	.string "Entre esto y su HABILIDAD\n"
 	.string "ADAPTABLE, en la práctica se\l"
 	.string "vuelve un POKÉMON mucho más\l"
 	.string "peligroso que la mayoría de\l"
@@ -163,7 +163,7 @@ IlexForest_Llamada_Giovanni_Texto_2:
 	.string "reúnas con él en la TORRE RADIO.\l"
 	.string "ATLAS te explicará los detalles\l"
 	.string "cuando lo veas, espero noticias\l"
-	.string "tuyas de nuevo {PLAYER}.$"
+	.string "tuyas de nuevo, {PLAYER}.$"
 
 
 IlexForestDocumento_100::
@@ -199,9 +199,9 @@ IlexForest_Texto_1.1:
 	.string "VUELTA de manos de cazabichos!$"
 
 IlexForest_Texto_1:
-.string "Estoy aquí desarrollando\n"
+.string "Estoy aquí, desarrollando\n"
 	.string "en secreto el movimiento TIPO\l"
-	.string "BICHO defintivo en cuanto\l"
+	.string "BICHO defintivo en cuanto a\l"
 	.string "estrategia. IDA Y VUELTA marcará\l"
 	.string "un antes y un después en el ritmo\l"
 	.string "de los combates. Mira.$"

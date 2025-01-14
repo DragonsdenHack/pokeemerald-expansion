@@ -212,7 +212,7 @@ PokemonTower2F_Azul_Texto_7.2:
 	.string "va a derrotar a todos y ya está, pero\l"
 	.string "no{PAUSE 15}…{PAUSE 15} me niego a formar parte de\l"
 	.string "su ruta preestablecida, ningún\l"
-	.string "ENTRENADORes invencible, y el no\l"
+	.string "ENTRENADOR es invencible, y él no\l"
 	.string "es la excepción, lo demostraré.$"
 
 PokemonTower2F_Azul_Texto_8:

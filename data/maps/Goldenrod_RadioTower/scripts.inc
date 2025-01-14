@@ -184,12 +184,16 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_1
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_2
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_3
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
 delay 15
@@ -205,8 +209,10 @@ waitfanfare
 delay 50
 hidemoneybox
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
@@ -227,15 +233,22 @@ applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_10
 waitmovement 0x0
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_11
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
 waitmovement 0x0
@@ -264,14 +277,14 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_2:
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_3:
 .string "Muchas cosas por hacer en CIUDAD\n"
-	.string "TRIGAL, ¿verdad?\l"
-	.string "Lo cierto es que ofrece más\l"
+	.string "TRIGAL, ¿verdad?\p"
+	.string "Lo cierto es que ofrece más\n"
 	.string "posibilidades que cualquier otra\l"
 	.string "ciudad de KANTO, y es por eso, y\l"
-	.string "tu gran servicio aportando ya\l"
+	.string "tu gran servicio, aportando ya\l"
 	.string "datos de 2 POKÉMON FUERTE VÍNCULO,\l"
 	.string "que GIOVANNI me ha pedido que te\l"
-	.string "de esto.$"
+	.string "dé esto.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_4:
 	.string "¡Te has embolsado 500.000¥!$"
@@ -284,8 +297,7 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_5:
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_6:
 .string "Dejando esto de lado, vayamos al\n"
-	.string "motivo de nuestro pequeño\l"
-	.string "encuentro aquí.\l"
+	.string "motivo de nuestro encuentro aquí.\p"
 	.string "Sígueme.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_7:
@@ -297,32 +309,30 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_7:
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_8:
 .string "Por el aspecto exterior, ya habrás\n"
 	.string "deducido que este lugar es el\l"
-	.string "equivalente a SILPH en JOHTO, aquí\l"
+	.string "equivalente a SILPH en JOHTO; aquí\l"
 	.string "es donde se tomarán las decisiones\l"
-	.string "más importantes que influirán en\l"
-	.string "el futuro inmediato de KANTO y\l"
-	.string "JOHTO.$"
+	.string "más importantes, que influirán en\l"
+	.string "el futuro inmediato de ambas regiones.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_9:
 .string "GIOVANNI quiere que pongamos al\n"
 	.string "día al PRESIDENTE sobre la\l"
 	.string "situación real de KANTO, y así\l"
 	.string "convencerle de convocar una gran\l"
-	.string "reunión en la cual se tomen de una\l"
+	.string "reunión, en la cual se tomen de una\l"
 	.string "vez cartas en el asunto sobre qué\l"
-	.string "hacer con el destino de estas dos\l"
-	.string "regiones.$"
+	.string "hacer con el binomio KANTO-JOHTO.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_10:
 .string "Tú hiciste posible la situación\n"
-	.string "actual, derrotando a LANCE, es por\l"
+	.string "actual, derrotando a LANCE. Es por\l"
 	.string "ello que tu presencia es de vital\l"
 	.string "importancia aquí.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_11:
 .string "Te espero en el despacho del\n"
 	.string "PRESIDENTE, un placer volver a\l"
-	.string "verte ADMIN.JEFE {PLAYER}.$"
+	.string "verte, ADMIN.JEFE {PLAYER}.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Move_1:
 emote_exclamation_mark

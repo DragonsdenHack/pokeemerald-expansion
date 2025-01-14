@@ -491,12 +491,11 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_25:
 	.string "formas antiguas.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_26:
-.string "En el caso de DUNSPARCE, la piedra\n"
-	.string "dorada nos da acceso a la primera\l"
+.string "En el caso de DUNSPARCE, la PIEDRA\n"
+	.string "SAGRADA nos da acceso a la primera\l"
 	.string "evolución mencionada. A este POKÉMON\l"
 	.string "lo bautizamos como BLESSPARCE, ya que\l"
-	.string "ha sido bendecido por la PIEDRA\l"
-	.string "DORADA.$"
+	.string "fue bendecido por dicha PIEDRA.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_27:
 .string "Ello lo diferencia del resto de\n"

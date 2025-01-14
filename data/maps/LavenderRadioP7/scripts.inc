@@ -26,9 +26,9 @@ LavenderRadioP7_EventScript_TakeDarumaka::
 
 LavenderRadioP7_Text_TakeDarumaka:
     .string "Hace poco descubrimos un POKÉMON\n"
-	.string "capaz de corromper al TIPO ACERO, y\l"
-	.string "envenenar incluso al porpio TIPO\l"
-	.string "VENENO.$"
+	.string "capaz de corromper al TIPO ACERO,\l"
+	.string "y envenenar incluso al propio\l"
+	.string "TIPO VENENO.$"
 
 LavenderRadioP7_Text_TakeDarumaka2:
 	.string "Dada tu elevada posición, sin duda\n"

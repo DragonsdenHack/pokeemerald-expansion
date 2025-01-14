@@ -180,19 +180,33 @@ waitmovement 0x0
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_9
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_3.1
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Reunion_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_3
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_7
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_3
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_10
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_15 MSGBOX_AUTOCLOSE
@@ -220,8 +234,11 @@ applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_9
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_9
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_7
 applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_16
 waitmovement 0x0
@@ -249,8 +266,8 @@ Goldenrod_RadioTower_P4_Reunion_Texto_1:
 Goldenrod_RadioTower_P4_Reunion_Texto_2:
 .string "PRESIDENTE: Sabes que a la mayoría\n"
 	.string "de JOHTO le trajo sin cuidado la\l"
-	.string "guerra, fue LANCE quien la forzó\l"
-	.string "por sus ansias de poder.$"
+	.string "guerra. Fue LANCE quien la forzó,\l"
+	.string "debido a sus ansias de poder.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_3:
 .string "ATLAS: Por eso estoy aquí. Ahora\n"
@@ -267,21 +284,22 @@ Goldenrod_RadioTower_P4_Reunion_Texto_5:
 Goldenrod_RadioTower_P4_Reunion_Texto_6:
 .string "ATLAS: Así es, {PLAYER} fue el que\n"
 	.string "derrotó a LANCE en un combate\l"
-	.string "POKÉMON, obligándole a ceder sus\l"
-	.string "poderes para evitar que saliese a\l"
-	.string "la luz todo lo ocurrido.$"
+	.string "POKÉMON, obligándole así a ceder\l"
+	.string "sus poderes.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-.string "PRESIDENTE: Notable hazaña chico,\n"
+.string "PRESIDENTE: Notable hazaña, chico,\n"
 	.string "más para tu edad. Pero no sé si\l"
 	.string "sabéis que en JOHTO hay varios\l"
 	.string "ENTRENADORES que dejarían a LANCE\l"
-	.string "en pañales. La diferencia con ese\l"
-	.string "DOMADRAGÓN de pacotilla es que no\l"
-	.string "van pregonando a los 4 vientos su\l"
-	.string "poder, están más ocupados de\l"
-	.string "alcanzar la excelencia que en los\l"
-	.string "asuntos mundanos.$"
+	.string "en pañales.$"
+
+Goldenrod_RadioTower_P4_Reunion_Texto_7.1:
+	.string "La diferencia con ese DOMADRAGÓN es\n"
+	.string "que no van pregonando a los 4 vientos\l"
+	.string "su poder; están más ocupados en su\l"
+	.string "búsqueda de la virtud, que en los\l"
+	.string "meros asuntos mundanos.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_8:
 .string "ATLAS: Lo sabemos PRESIDENTE.\n"
@@ -399,17 +417,16 @@ Goldenrod_RadioTower_P4_Reunion_Texto_26:
 	.string "JOHTO? Debo confesarte que me\l"
 	.string "apena la transformación que\l"
 	.string "sufrirán los GIMNASIOS en este par\l"
-	.string "de años que vienen, pero es el\l"
-	.string "precio a pagar por el\l"
-	.string "progreso, supongo.\l"
-	.string "En TRIGAL aún tenemos a una LÍDER,\l"
-	.string "más que interesante. Aunque van a\l"
-	.string "restaurar el GIMNASIO. Si te das\l"
-	.string "prisa, quizás puedas pillarla\l"
-	.string "antes de que abandone su puesto.$"
+	.string "de años que vienen, es el precio\l"
+	.string "a pagar por el progreso, supongo.\p"
+	.string "En TRIGAL aún tenemos a una LÍDER\n"
+	.string "muy competente y fuerte. Aunque van\l"
+	.string "a restaurar el GIMNASIO. Si te das\l"
+	.string "prisa, quizás puedas retarla antes\l"
+	.string "de que abandone su puesto.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_27:
-.string "Espero verte en la gran reunión\n"
+.string "Espero verte en la gran reunión,\n"
 	.string "{PLAYER}. Sigue explorando cada\l"
 	.string "rincón de JOHTO.$"
 
@@ -424,6 +441,10 @@ step_end
 
 Goldenrod_RadioTower_P4_Reunion_Move_3:
 face_down
+step_end
+
+Goldenrod_RadioTower_P4_Reunion_Move_3.1:
+face_up
 step_end
 
 Goldenrod_RadioTower_P4_Reunion_Move_4:

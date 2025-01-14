@@ -17319,7 +17319,7 @@ Route49_Pagoda_P4_Text_Pensador1PostBattle:
 	.string "DUNSPARCE normal a su forma sagrada\l"
 	.string "por nivel, para obtener a esta última es\l"
 	.string "necesario hacer uso de la PIEDRA\l"
-	.string "DORADA. En caso contrario, DUNSPARCE\l"
+	.string "SAGRADA. En caso contrario, DUNSPARCE\l"
 	.string "evolucionará en su forma carente de\l"
 	.string "esencia: DUDUNSPARCE.$"
 

@@ -51,6 +51,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	waitstate
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
+	removeitem ITEM_TINY_MUSHROOM
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	end
 

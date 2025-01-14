@@ -149,7 +149,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_2:
 .string "???: Me temo que no pueden\n"
 	.string "compararse, MIRTO, son dos TIPO\l"
 	.string "BICHO, sí, y ambos se han visto\l"
-	.string "afectados por el fuerte vínculo\l"
+	.string "afectados por el FUERTE VÍNCULO\l"
 	.string "con su ENTRENADOR.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_3:
@@ -158,23 +158,23 @@ Azalea_CesarHouse_Evento_Mirto_Texto_3:
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
 .string "La diferencia es que mi POKÉMON\n"
 	.string "partía de un poder muy\l"
-	.string "modesto en general.\l"
-	.string "Después del fuerte vínculo se\l"
+	.string "modesto en general.\p"
+	.string "Después del FUERTE VÍNCULO se\n"
 	.string "volvió extremadamente eficiente,\l"
-	.string "pero solo 'notable' en el global.\l"
-	.string "No ha cruzado ningún límite que\l"
+	.string "pero solo 'notable' en el global.\p"
+	.string "No ha cruzado ningún límite que\n"
 	.string "consideremos{PAUSE 25}…{PAUSE 25}sagrado.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
 .string "Tu POKÉMON, en cambio, ya era\n"
-	.string "extraordinario antes incluso de\l"
-	.string "experimentar el fuerte vínculo.\l"
-	.string "Lo que ha resultado de unir algo\l"
-	.string "que ya era especial, algo que\l"
-	.string "ya podía codearse con un LEGENDARIO,\l"
-	.string "y el fuerte vínculo, es algo que\l"
-	.string "ha alcanzado límites desconocidos\l"
-	.string "para un mortal; una aberración\l"
+	.string "extraordinario, antes incluso de\l"
+	.string "experimentar el FUERTE VÍNCULO.\p"
+	.string "Lo que ha resultado de unir algo\n"
+	.string "que ya era especial, que ya\l"
+	.string "podía codearse con un LEGENDARIO,\l"
+	.string "con el FUERTE VÍNCULO{PAUSE 25}…{PAUSE 25} tal\l"
+	.string "fenómeno ha cruzado límites ignotos\l"
+	.string "para un mortal; una aberración en\l"
 	.string "en términos de poder.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_6:
@@ -206,15 +206,15 @@ Azalea_CesarHouse_Evento_Mirto_Texto_10:
 	.string "quizás sí pueda ayudarte.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_11:
-.string "MIRTO: Muchas gracias CÉSAR, no\n"
-	.string "perderé un solo segundo. Llegaré\l"
-	.string "hasta el último rincón de JOHTO si\l"
-	.string "es necesario.$"
+.string "MIRTO: Muchas gracias, CÉSAR, no\n"
+	.string "perderé un solo segundo.\l"
+	.string "Llegaré hasta el último rincón\l"
+	.string "de JOHTO si es necesario.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_12:
 .string "CÉSAR: Vaya, chico, se te ve\n"
-	.string "bastante interesado en el tema.\l"
-	.string "¿Querías algo?\l"
+	.string "bastante interesado en el tema.\p"
+	.string "¿Querías algo?\n"
 	.string "¡Pasa!$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_13:
@@ -227,21 +227,19 @@ Azalea_CesarHouse_Evento_Mirto_Texto_13:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_14:
 .string "Comprenderás que sería injusto\n"
-	.string "aceptar combatir contra ti cuando\l"
-	.string "he rechazado al resto de\l"
-	.string "contendientes.$"
+	.string "aceptar combatir contra ti,\l"
+	.string "cuando he rechazado al resto\l"
+	.string "de contendientes.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
 .string "Aunque{PAUSE 15}…{PAUSE 15}\n"
-	.string "Pareces venir de muy lejos,\l"
-	.string "y ser un apasionado del\l"
-	.string "combate, al igual que MIRTO o\l"
-	.string "yo mismo.$"
+	.string "Pareces venir de muy lejos, y\l"
+	.string "y ser un apasionado del combate.\p"
+	.string "No eres muy diferente a MIRTO.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_16:
-.string "Te daré una oportunidad de\n"
-	.string "combatir conmigo, pero tendrás que\l"
-	.string "demostrarme que estás a la altura.\l"
+.string "Te daré una oportunidad, y tendrás\n"
+	.string "que demostrar que la mereces.\p"
 	.string "Escucha.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_17:
@@ -261,7 +259,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_18:
 Azalea_CesarHouse_Evento_Mirto_Texto_19:
 .string "Si quieres ese combate, deberás\n"
 	.string "derrotarle antes a él, dile que\l"
-	.string "vas de mi parte, si puedes con él,\l"
+	.string "vas de mi parte. Si puedes con él,\l"
 	.string "te dará un objeto, un objeto\l"
 	.string "especial.$"
 

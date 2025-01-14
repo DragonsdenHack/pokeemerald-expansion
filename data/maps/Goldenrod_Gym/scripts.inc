@@ -30,16 +30,23 @@ waitmovement 0x0
 applymovement 4, GoldenrodGym_Encuentro_Valeria_Move_3
 waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_6
 applymovement OBJ_EVENT_ID_PLAYER, GoldenrodGym_Encuentro_Valeria_Move_7
 waitmovement 0x0
@@ -47,6 +54,7 @@ delay 15
 playse SE_PIN
 applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_8
 waitmovement 0x0
+waitse
 applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_9
 waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_8 MSGBOX_AUTOCLOSE
@@ -108,7 +116,7 @@ GoldenrodGym_Encuentro_Valeria_Texto_2:
 	.string "adaptándote a los nuevos tiempos.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_3:
-.string "????: Eso no es posible, toda\n"
+.string "????: Eso no es posible. Toda\n"
 	.string "causa conlleva una consecuencia, y\l"
 	.string "mis POKÉMON SINIESTRO requieren\l"
 	.string "del ambiente adecuado para seguir\l"
