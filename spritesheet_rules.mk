@@ -1120,6 +1120,9 @@ $(OBJEVENTGFXDIR)/people/kingdra.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/kyogreprimal.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8	
+	
+$(OBJEVENTGFXDIR)/pokemon/stakataka.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8		
 
 $(OBJEVENTGFXDIR)/pokemon/azumarill.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2

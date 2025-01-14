@@ -3221,6 +3221,18 @@ static const struct SpriteFrameImage sPicTable_Kyogre_Primal[] = {
 	overworld_frame(gObjectEventPic_Kyogre_Primal, 8, 8, 8),
 };
 
+static const struct SpriteFrameImage sPicTable_Stakataka[] = {
+    overworld_frame(gObjectEventPic_Stakataka, 8, 8, 0),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 1),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 2),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 3),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 4),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 5),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 6),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 7),
+	overworld_frame(gObjectEventPic_Stakataka, 8, 8, 8),
+};
+
 static const struct SpriteFrameImage sPicTable_RegigigasP[] = {
     overworld_frame(gObjectEventPic_RegigigasP, 8, 8, 0),
 };

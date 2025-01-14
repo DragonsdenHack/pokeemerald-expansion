@@ -688,6 +688,7 @@ const u16 gObjectEventPic_Ghost[] = INCBIN_U16("graphics/object_events/pics/peop
 const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/pics/people/ninetalesbond.4bpp");
 const u16 gObjectEventPic_Guardia[] = INCBIN_U16("graphics/object_events/pics/pokemon/guardia.4bpp");
 const u16 gObjectEventPic_Marowak[] = INCBIN_U16("graphics/object_events/pics/pokemon/marowak.4bpp");
+const u32 gObjectEventPic_Stakataka[] = INCBIN_U32("graphics/object_events/pics/pokemon/stakataka.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -857,4 +858,5 @@ const u16 gObjectEventPal_Ghost[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Ninetalesbond[] = INCBIN_U16("graphics/object_events/palettes/ninetalesbond.gbapal");
 const u16 gObjectEventPal_Guardia[] = INCBIN_U16("graphics/object_events/palettes/guardia.gbapal");
 const u16 gObjectEventPal_Marowak[] = INCBIN_U16("graphics/object_events/palettes/marowak.gbapal");
+const u16 gObjectEventPal_Stakataka[] = INCBIN_U16("graphics/object_events/palettes/stakataka.gbapal");
 

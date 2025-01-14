@@ -12,6 +12,7 @@
 #define DOOR_SOUND_SLIDING 1
 #define DOOR_SOUND_ARENA   2
 #define DOOR_TILE_START (NUM_TILES_TOTAL - 8)
+#define DOOR_TILE_START_SIZE2 (NUM_TILES_TOTAL - 16)
 
 struct DoorGraphics
 {
@@ -357,7 +358,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_Lilycove_Door_SafariZone,                     DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SafariZone, sDoorAnimPalettes_SafariZone},
     {METATILE_Mossdeep_Door_SpaceCenter,                    DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_MossdeepSpaceCenter, sDoorAnimPalettes_MossdeepSpaceCenter},
     {METATILE_PokemonCenter_CableClubDoor,                  DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_CableClub, sDoorAnimPalettes_CableClub},
-    {METATILE_InsideShip_IntactDoor_Bottom_Unlocked,        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_AbandonedShip, sDoorAnimPalettes_AbandonedShip},
+    {METATILE_InsideShip_IntactDoor_Bottom_Unlocked,        DOOR_SOUND_NORMAL,  2, sDoorAnimTiles_AbandonedShip, sDoorAnimPalettes_AbandonedShip},
     {METATILE_Fallarbor_Door_DarkRoof,                      DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_FallarborDarkRoof, sDoorAnimPalettes_FallarborDarkRoof},
     {METATILE_InsideShip_IntactDoor_Bottom_Interior,        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_AbandonedShipRoom, sDoorAnimPalettes_AbandonedShipRoom},
     {METATILE_Shop_Door_Elevator,                           DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_LilycoveDeptStoreElevator, sDoorAnimPalettes_LilycoveDeptStoreElevator},
@@ -447,28 +448,15 @@ static void DrawCurrentDoorAnimFrame(const struct DoorGraphics *gfx, u32 x, u32 
 
     if (gfx->size == 2)
     {
-        // door_build_blockdef(&arr[8], 0x3F0, pal);
-        // DrawDoorMetatileAt(x, y - 1, &arr[8]);
-        // door_build_blockdef(&arr[8], 0x3F4, pal + 4);
-        // DrawDoorMetatileAt(x, y, &arr[8]);
-        // door_build_blockdef(&arr[8], 0x3F8, pal);
-        // DrawDoorMetatileAt(x + 1, y - 1, &arr[8]);
-        // door_build_blockdef(&arr[8], 0x3FC, pal + 4);
-        // DrawDoorMetatileAt(x + 1, y, &arr[8]);
-		 BuildDoorTiles(tiles, DOOR_TILE_START, pal);
-		DrawDoorMetatileAt(x, y - 1, tiles);
-		 BuildDoorTiles(tiles, DOOR_TILE_START + 4, &pal[4]);
+		BuildDoorTiles(tiles, DOOR_TILE_START - 8, pal);
+        DrawDoorMetatileAt(x, y - 1, tiles);
+        BuildDoorTiles(tiles, DOOR_TILE_START - 4, &pal[4]);
     }
     else
     {
-        // door_build_blockdef(&arr[0], 0x3F8, pal);
-        // DrawDoorMetatileAt(x, y - 1, &arr[0]);
-        // door_build_blockdef(&arr[0], 0x3FC, pal + 4);
-        // DrawDoorMetatileAt(x, y, &arr[0]);
 		 BuildDoorTiles(tiles, DOOR_TILE_START, pal);
-		
     }
-	 DrawDoorMetatileAt(x, y, tiles);
+			DrawDoorMetatileAt(x, y, tiles); 
 }
 
 static void BuildDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums)
@@ -493,15 +481,6 @@ static void BuildDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums)
 
 static void DrawClosedDoorTiles(const struct DoorGraphics *gfx, u32 x, u32 y)
 {
-    // CurrentMapDrawMetatileAt(x, y - 1);
-    // CurrentMapDrawMetatileAt(x, y);
-
-    // if (gfx->size == 2)
-    // {
-        // CurrentMapDrawMetatileAt(x + 1, y - 1);
-        // CurrentMapDrawMetatileAt(x + 1, y);
-    // }
-	
 	if (gfx->size == 1 )
 	{
 		CurrentMapDrawMetatileAt(x, y);
@@ -640,9 +619,16 @@ static s8 StartDoorCloseAnimation(const struct DoorGraphics *gfx, u32 x, u32 y)
 {
     gfx = GetDoorGraphics(gfx, MapGridGetMetatileIdAt(x, y));
     if (gfx == NULL)
+	{
         return -1;
+	}
     else
-        return StartDoorAnimationTask(gfx, sDoorCloseAnimFrames, x, y);
+    {
+        if (gfx->size == 2)
+			return StartDoorAnimationTask(gfx, sBigDoorCloseAnimFrames, x, y);
+		else
+			return StartDoorAnimationTask(gfx, sDoorCloseAnimFrames, x, y);
+	}
 }
 
 static s8 GetDoorSoundType(const struct DoorGraphics *gfx, u32 x, u32 y)

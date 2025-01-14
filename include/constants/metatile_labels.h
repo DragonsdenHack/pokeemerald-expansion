@@ -889,7 +889,7 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_SeviiIslands123
-#define METATILE_SeviiIslands123_Door            0x20B
+#define METATILE_SeviiIslands123_Door            0x297
 #define METATILE_SeviiIslands123_GameCornerDoor  0x29B
 #define METATILE_SeviiIslands123_PokeCenterDoor  0x2EB
 
