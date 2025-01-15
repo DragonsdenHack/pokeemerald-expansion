@@ -336,11 +336,11 @@ CeladonCity_Entrenador_Especial_Texto_1.1:
 CeladonCity_Entrenador_Especial_Texto_1:
 .string "La contaminación en AZULONA es\n"
 	.string "cada vez mayor, debe de haber\l"
-	.string "debajo del suelo que está causando\l"
-	.string "este problema, si mi nieto\l"
-	.string "regresase aquí y viera el\l"
-	.string "panorama…\l"
-	.string "Ah, cómo me gustaría rememorar los\l"
+	.string "algo debajo del suelo que está\l"
+	.string "causando este problema.\p"
+	.string "Si mi nieto regresara aquí y\n"
+	.string "viera el panorama…\p"
+	.string "Ah, cómo me gustaría rememorar los\n"
 	.string "viejos tiempos con un combate de\l"
 	.string "verdad.$"
 

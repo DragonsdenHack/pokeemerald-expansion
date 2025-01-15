@@ -58,7 +58,7 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_6:
-.string "Casi nunca se cumple el guión que\n"
+.string "Casi nunca se cumple el guion que\n"
 .string "nos hemos marcado para un combate,\l"
 .string "siempre surgen imprevistos, y ahí\l"
 .string "reside la genialidad del combate\l"

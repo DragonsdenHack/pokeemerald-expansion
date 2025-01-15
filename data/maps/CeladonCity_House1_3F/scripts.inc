@@ -72,7 +72,7 @@ msgbox CeladonMansion3FDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonMansion3FDocumento_Text_101:
-.string "¡Es el guión del juego!\n"
+.string "¡Es el guion del juego!\n"
 	.string "¡No leas el final!$"
 
 

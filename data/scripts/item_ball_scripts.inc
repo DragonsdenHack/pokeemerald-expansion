@@ -3124,4 +3124,8 @@ Route51_House_EventScript_Riendas::
 finditem ITEM_REINS_OF_UNITY
     end
 
+ExCampeonFantasma_EventScript_Ala::
+finditem ITEM_GALARICA_TWIG
+    end
+
 

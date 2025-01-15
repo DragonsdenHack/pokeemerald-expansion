@@ -1195,9 +1195,9 @@ Subterraneo_Trigal_EventScript_Clerk::
 
 	.align 2
 Subterraneo_Trigal_Mercado_7_Pokemart:
-    .2byte 650
-	.2byte 656
-	.2byte 671
+    .2byte 659
+	.2byte 665
+	.2byte 680
 	.2byte ITEM_NONE
 	release
 	end

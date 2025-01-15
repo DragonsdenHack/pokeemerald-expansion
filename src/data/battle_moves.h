@@ -9638,7 +9638,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_HEAD_CHARGE] =
     {
         .effect = EFFECT_RECOIL_25,
-        .power = 120,
+        .power = 130,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,

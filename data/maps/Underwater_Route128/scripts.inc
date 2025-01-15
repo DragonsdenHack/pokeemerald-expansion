@@ -47,8 +47,6 @@ applymovement OBJ_EVENT_ID_PLAYER, Underwater_Route128_Barrera_Move_2
 waitmovement 0x0
 release
 end
-release
-end
 
 
 Underwater_Andra_Calagua_Despues_2::

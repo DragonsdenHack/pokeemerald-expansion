@@ -176,8 +176,8 @@ Route22_Combate_Azul_Texto_3:
 Route22_Combate_Azul_Texto_4:
 .string "La verdad es que ROJO ha vuelto a\n"
 	.string "derrotarme, no puedo entrar a la\l"
-	.string "LIGA sabiendo que el aún está por\l"
-	.string "encima mía.\l"
+	.string "LIGA sabiendo que aún está por\l"
+	.string "encima mío.\l"
 	.string "Debo asegurarme de que mi equipo es\l"
 	.string "mucho mejor que el de ese entonces.$"
 
