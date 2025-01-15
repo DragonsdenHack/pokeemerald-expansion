@@ -2584,6 +2584,42 @@ waitmovement 0x0
 release
 end
 
+BaseRocketJohto_Bloqueo_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Der_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Der_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Izq_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Izq_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Izq_Move_1:
+walk_in_place_right
+step_end
+
+BaseRocketJohto_Bloqueo_Izq_Move_2:
+walk_left
+step_end
+
+BaseRocketJohto_Bloqueo_Der_Move_1:
+walk_in_place_left
+step_end
+
+BaseRocketJohto_Bloqueo_Der_Move_2:
+walk_right
+step_end
+
 BaseRocketJohto_Bloqueo_Move_1:
 walk_in_place_down
 step_end

@@ -160,14 +160,19 @@ waitfanfare
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_4
 applymovement 1, Goldenrod_RadioTower_P4_Reunion_Move_3
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_5
 waitmovement 0x0
 playse SE_PIN
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_6
 applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_3
 waitmovement 0x0
@@ -186,6 +191,9 @@ waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_7.1 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_3
+waitmovement 0x0
+delay 10
+applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_3.2
 waitmovement 0x0
 delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_8 MSGBOX_AUTOCLOSE
@@ -224,18 +232,26 @@ msgbox Goldenrod_RadioTower_P4_Reunion_Texto_19 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_13
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_14
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_15
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_9
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_9
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_22 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 8, Goldenrod_RadioTower_P4_Reunion_Move_15.1
+waitmovement 0x0
 delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_24 MSGBOX_AUTOCLOSE
 delay 10
@@ -249,16 +265,28 @@ delay 15
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Reunion_Move_17
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_18
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, Goldenrod_RadioTower_P4_Reunion_Move_13
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Reunion_Texto_27 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
 setvar VAR_UNUSED_0x40F7, 134
 release
 end
+
+Goldenrod_RadioTower_P4_Reunion_Move_15.1:
+face_up
+delay_16
+delay_16
+face_right
+delay_8
+step_end
 
 Goldenrod_RadioTower_P4_Reunion_Texto_1:
 .string "-{PLAYER} mostró su PASE RADIO-$"
@@ -302,7 +330,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_7.1:
 	.string "meros asuntos mundanos.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_8:
-.string "ATLAS: Lo sabemos PRESIDENTE.\n"
+.string "ATLAS: Lo sabemos, PRESIDENTE.\n"
 	.string "{PLAYER} de hecho está aquí en\l"
 	.string "buena parte para aprender de esos\l"
 	.string "ENTRENADORES.$"
@@ -316,7 +344,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_9:
 	.string "ENTRENADORES así.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_10:
-.string "ATLAS: Lo sabemos, y queremos\n"
+.string "ATLAS: También lo sabemos, y queremos\n"
 	.string "dejar constancia de las cotas que\l"
 	.string "alcanzaron, antes de que sea\l"
 	.string "tarde.$"
@@ -445,6 +473,15 @@ step_end
 
 Goldenrod_RadioTower_P4_Reunion_Move_3.1:
 face_up
+step_end
+
+Goldenrod_RadioTower_P4_Reunion_Move_3.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_8
 step_end
 
 Goldenrod_RadioTower_P4_Reunion_Move_4:

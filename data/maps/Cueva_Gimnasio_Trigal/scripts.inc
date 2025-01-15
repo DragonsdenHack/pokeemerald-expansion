@@ -19,9 +19,12 @@ goto_if_gt Cueva_Gimnasio_Trigal_Combate_2
 playse SE_PIN
 applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1
 waitmovement 0x0
+waitse
 delay 15
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_4 MSGBOX_AUTOCLOSE
@@ -32,8 +35,15 @@ delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_VALERIA, Cueva_Gimnasio_Trigal_Combate_Texto_7
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
+applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1.1
+waitmovement 0x0
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1.2
+waitmovement 0x0
 playfanfare MUS_OBTAIN_BADGE
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.1 MSGBOX_DEFAULT
 waitfanfare
@@ -55,6 +65,19 @@ setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 137
 release
 end
+
+Cueva_Gimnasio_Trigal_Combate_Move_1.2:
+walk_in_place_down
+step_end
+
+Cueva_Gimnasio_Trigal_Combate_Move_1.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11.1:
 .string "Y por cierto, toma esto también.$"
@@ -90,14 +113,14 @@ Cueva_Gimnasio_Trigal_Combate_Texto_1:
 Cueva_Gimnasio_Trigal_Combate_Texto_2:
 .string "Supongo que me he acostumbrado a\n"
 	.string "estar rodeada de gente a la que le\l"
-	.string "preocupa más el look de su POKÉMON\l"
-	.string "que el propio arte de combatir.\l"
-	.string "Ahora que lo veo en perspectiva,\l"
+	.string "preocupa más el 'look' de su POKÉMON\l"
+	.string "que su propio crecimiento.\p"
+	.string "Ahora que lo veo en perspectiva,\n"
 	.string "demasiado he aguantado en TRIGAL.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_3:
 .string "Me alegra saber que aún existen\n"
-	.string "ENTRENADORES jóvenes con\l"
+	.string "ENTRENADORES jóvenes, con\l"
 	.string "inquietudes, como tú. Cuanto más\l"
 	.string "entreno, y más viajo, más me doy\l"
 	.string "cuenta de lo poco que sé, y de\l"
@@ -109,69 +132,67 @@ Cueva_Gimnasio_Trigal_Combate_Texto_4:
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
 .string "Has venido por un combate\n"
-	.string "POKÉMON y es lo que tendrás.$"
+	.string "POKÉMON, y es lo que tendrás.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_6:
-.string "Daré todo lo que tengo junto con\n"
+.string "Daré todo lo que tengo, junto a\n"
 	.string "los compañeros que me han ido\l"
-	.string "acompañando con cada nuevo viaje.\l"
-	.string "¡{PLAYER}!\l"
+	.string "acompañando en cada nuevo viaje.\p"
+	.string "¡{PLAYER}!\p"
 	.string "¡Espero que estés a la altura!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "¿Mi fiel KINGDRA fue derrotado?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-.string "Oh…\n"
-	.string "Me has dejado en shock, creí que\l"
+.string "Oh…\p"
+	.string "Me has dejado en shock, creí que\n"
 	.string "nadie podía igualar la potencia y\l"
 	.string "explosividad de mi KINGDRA. Cuando\l"
-	.string "se transformó una última vez\l"
+	.string "se transformó una última vez,\l"
 	.string "después de toda una vida junto a\l"
-	.string "él y vi la tremenda energía que\l"
-	.string "desplegaba, pensé que era\l"
-	.string "insuperable. Me has mostrado que\l"
-	.string "no.$"
+	.string "él, y vi la tremenda energía que\l"
+	.string "desplegaba, creí haber tocado techo.\p"
+	.string "Me has mostrado que no.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9:
 .string "Incluso ese gran maestro de CIUDAD\n"
 	.string "ENDRINO quedó impresionado, aunque\l"
 	.string "decepcionado al ver que perdía el\l"
-	.string "DRAGÓN por el SINIESTRO. Su nieta\l"
-	.string "parecía muy celosa por mi POKÉMON.\l"
-	.string "DÉBORA creo que se llamaba.\l"
-	.string "He aprendido mucho con\l"
-	.string "este combate.$"
+	.string "DRAGÓN.\l"
+	.string "Su nieta parecía muy celosa por mi\l"
+	.string "POKÉMON, atrapó un HORSEA y todo{PAUSE 15}…{PAUSE 15}$"
+
+Cueva_Gimnasio_Trigal_Combate_Texto_9.5:
+	.string "He aprendido mucho con\n"
+	.string "este combate. Gracias.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
 	.string "Toma, aquí tienes la\n"
 	.string "MEDALLA PLANICIE.$"
 	
 Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
-	.string "Quiero darte las gracias, no recuerdo\n"
-	.string "la última vez que tuve enfrente a\l"
-	.string "un rival como tú.\l"
-	.string "Este POKÉMON es para ti.$"
+	.string "Este POKÉMON es también para ti.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:
 .string "¡¡OBTUVISTE UN VULLABY AL NV.25!!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11:
 .string "Olvídate del estereotipo de TIPO\n"
-	.string "VOLADOR frágil y vulnerable,\l"
+	.string "VOLADOR frágil y vulnerable;\l"
 	.string "VULLABY tiene el potencial de ser\l"
-	.string "un muro defensivo extraordinario.\l"
-	.string "Lo mejor es que puede aprender\l"
+	.string "un muro defensivo extraordinario.\p"
+	.string "Lo mejor es que puede aprender\n"
 	.string "JUEGO SUCIO para usar el ATAQUE\l"
-	.string "FÍSICO rival sin tener que mirar\l"
+	.string "FÍSICO rival, sin tener que mirar\l"
 	.string "el suyo.\l"
 	.string "¿No es genial?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_12:
 .string "Me gusta este lugar, por el\n"
 	.string "momento me da la paz que\l"
-	.string "necesito. Recargaré energías aquí\l"
-	.string "antes de emprender un nuevo viaje.\l"
-	.string "¡Encantada de haberte conocido,\l"
-	.string "{PLAYER}!$"
+	.string "necesito. Recargaré energías aquí,\l"
+	.string "antes de emprender un nuevo viaje.\p"
+	.string "¡Encantada de haberte\n"
+	.string "conocido, {PLAYER}!$"
 
