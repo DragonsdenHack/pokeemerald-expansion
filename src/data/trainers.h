@@ -10138,7 +10138,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_GRUNT_MAGMA_HIDEOUT_9] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MARINERO,
+        .trainerClass = TRAINER_CLASS_MARINEROJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_FR_SAILOR,
         .trainerName = _("CONNOR"),
@@ -10208,7 +10208,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_GRUNT_MAGMA_HIDEOUT_14] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("KOEPFER"),

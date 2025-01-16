@@ -159,13 +159,13 @@ Route4_PokemonCenter_1F_Estafa_Texto_6:
 	.string "y nadie te hará caso, o siquiera\l"
 	.string "creerá. Es el negocio perfecto,\l"
 	.string "vender aire por 500¥.\l"
-	.string "¡Jojojojo!$"
+	.string "¡Jo, jo, jo, jo, jo!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_7:
 .string "Ahí te quedas, ROCKET. Jamás podrás\n"
-	.string "encontrarme, la próxima vez\l"
-	.string "piénsate dos veces con quién haces\l"
-	.string "negocios.$"
+	.string "encontrarme, la próxima vez,\l"
+	.string "piénsate dos veces con quién\l"
+	.string "haces negocios.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_8:
 .string "Pensaba que los ROCKET teníais\n"

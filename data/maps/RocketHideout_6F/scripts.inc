@@ -33,10 +33,10 @@ end
 RocketHideout6F_Text_1:
 .string "¡JAH!\n"
 .string "¡Los de KANTO creen que somos\l"
-.string "imbéciles pero tenemos muchas más\l"
-.string "armas de las que creen!\l"
-.string "¡Nunca enseñes todas tus cartas\l"
-.string "chico, jojojo!$"
+.string "imbéciles, pero tenemos muchas\l"
+.string "más armas de las que creen!\p"
+.string "¡Nunca enseñes todas tus cartas,\n"
+.string "RECLUTA! ¡Jo, jo, jo!$"
 
 
 

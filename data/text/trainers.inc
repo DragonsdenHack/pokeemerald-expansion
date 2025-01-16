@@ -13288,7 +13288,7 @@ OlivineBoat2_Text_RicoPostBattle:
 	.string "¡Aunque tener un PSEUDOLEGENDARIO\l"
 	.string "es un símbolo de jerarquía y\l"
 	.string "estatus!\l"
-	.string "¡Jojojo!$"
+	.string "¡Jo, jo, jo!$"
 
 
 OlivineBoat2_Text_MarineroIntro:
@@ -14672,8 +14672,8 @@ CultoS7_Text_CultistaPostBattle:
 
 
 Route47_Text_MontaneroIntro:
-	.string "¡Jojojo! ¿Pero cómo un mocoso trajeado\n"
-	.string "como tú ha llegado hasta aquí?$"
+	.string "¡Jo, jo, jo! ¿Pero cómo un mocoso\n"
+	.string "trajeado como tú ha llegado aquí?$"
 
 
 Route47_Text_MontaneroDefeated:

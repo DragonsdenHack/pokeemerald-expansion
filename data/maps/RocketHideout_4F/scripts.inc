@@ -360,12 +360,12 @@ release
 end
 
 RocketHideout4F_Text_3:
-.string "¡No te preocupes hermano!\n"
+.string "¡No te preocupes, hermano!\n"
 .string "¡Si alguien se infiltrara en\l"
-.string "nuestra BASE nunca podría llegar a\l"
-.string "nuestro LÍDER!\l"
-.string "¡Nunca sin la LLAVE ASCENSOR\l"
-.string "jojojo!$"
+.string "nuestra BASE, nunca podría\l"
+.string "llegar a nuestro LÍDER!\p"
+.string "¡Nunca sin la LLAVE\n"
+.string "ASCENSOR! ¡Jo, jo, jo!$"
 
 
 

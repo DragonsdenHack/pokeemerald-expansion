@@ -743,7 +743,7 @@ PokemonMansion_1F_Ladrones_Texto_32:
 	.string "¡Disfruta de la pobreza que asola\l"
 	.string "a esta región, ROCKET!\l"
 	.string "¡Pobreza a la que nosotros hemos\l"
-	.string "contribuido, jojojo!$"
+	.string "contribuido, jo, jo, jo!$"
 
 PokemonMansion_1F_Ladrones_Move_1:
 emote_exclamation_mark

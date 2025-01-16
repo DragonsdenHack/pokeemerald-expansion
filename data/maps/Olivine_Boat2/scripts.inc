@@ -208,12 +208,16 @@ OlivineBoat2_EventScript_Guay::
 	end
 
 Olivine_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox Olivine_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 15
 setvar VAR_UNUSED_0x40F7, 145
 setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
@@ -255,24 +259,23 @@ Olivine_Llamada_Giovanni_Texto_1:
 .string "GIOVANNI: Así que ya has derrotado\n"
 	.string "a 4 de los 8 LÍDERES, ¿eh, {PLAYER}?\l"
 	.string "Hemos analizado los datos del\l"
-	.string "SKARMORY-& del LÍDER de OLIVO: son\l"
-	.string "asombrosos.\l"
-	.string "Su DEFENSA, Apesar de ser VOLADOR,\l"
+	.string "SKARMORY-& del LÍDER de OLIVO:\l"
+	.string "son asombrosos.\p"
+	.string "Su DEFENSA, a pesar de ser VOLADOR,\n"
 	.string "es cercana a la de CLOYSTER. Sin\l"
 	.string "mencionar su inmunidad al TIPO\l"
 	.string "ELÉCTRICO; según nuestros\l"
 	.string "científicos debido a la capa de\l"
-	.string "acero inoxidable que lo recubre.\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "Voy camino a TRIGAL, {PLAYER}.\l"
+	.string "acero inoxidable que lo recubre.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "Voy camino a TRIGAL, {PLAYER}.\n"
 	.string "Estaré ocupado poniendo en orden\l"
-	.string "todo el tema de la reunión en\l"
-	.string "TORRE RADIO, pero enviaré a\l"
-	.string "alguien para que te informe de\l"
-	.string "cuando debes estar presente en\l"
-	.string "TRIGAL.\l"
-	.string "Eso es todo por ahora. En ORQUÍDEA\l"
+	.string "todo el tema de la reunión en la\l"
+	.string "TORRE RADIO, dentro de poco, tú\l"
+	.string "también deberás estar presente\l"
+	.string "en la capital de JOHTO.\p"
+	.string "Eso es todo por ahora. En ORQUÍDEA\n"
 	.string "hay otro GIMNASIO, tal vez puedas\l"
 	.string "ahí encontrar otro POKÉMON FUERTE\l"
-	.string "VÍNCULO.$"
+	.string "VÍNCULO, antes de la gran reunión.$"

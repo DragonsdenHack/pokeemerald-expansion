@@ -167,11 +167,11 @@ msgbox CianwoodCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 CianwoodCityDocumento_Text_103:
-	.string "…\n"
-	.string "…\l"
-	.string "Un antiguo grabado reza lo\l"
-	.string "siguiente:\l"
-	.string "-No te dejes guiar por las\l"
+	.string "…\p"
+	.string "…\p"
+	.string "Un antiguo grabado\n"
+	.string "reza lo siguiente:\p"
+	.string "-No te dejes guiar por las\n"
 	.string "apariencias. El paraíso espera al\l"
 	.string "oeste, detrás de la inhóspita\l"
 	.string "montaña-.$"
@@ -179,14 +179,20 @@ CianwoodCityDocumento_Text_103:
 CianwoodCity_Evento_Mirto::
 lock
 clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+playse SE_DOOR
+opendoor 24, 53
 addobject 10
-playse SE_EXIT
+applymovement 10, VerdanturfTown_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_1
 waitmovement 0x0
+closedoor 24, 53
+waitdooranim
 msgbox CianwoodCity_Evento_Mirto_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 10, CianwoodCity_Evento_Mirto_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 fadeoutbgm 0
@@ -199,45 +205,81 @@ msgbox CianwoodCity_Evento_Mirto_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 10, CianwoodCity_Evento_Mirto_Move_4
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox CianwoodCity_Evento_Mirto_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CianwoodCity_Evento_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CianwoodCity_Evento_Mirto_Move_6
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
 fadeoutbgm 0
 playse 590
 applymovement 10, CianwoodCity_Evento_Mirto_Move_3
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_2
+waitmovement 0x0
+waitse
+delay 15
 applymovement 10, CianwoodCity_Evento_Mirto_Move_4
 waitmovement 0x0
+msgbox CianwoodCity_Evento_Mirto_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4
+waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4.2
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_4.3
+waitmovement 0x0
+msgbox CianwoodCity_Evento_Mirto_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
-fadescreen 1
 playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 10
-setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 10
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
 setvar VAR_UNUSED_0x40FE, 1
 release
 end
 
+CianwoodCity_Evento_Mirto_Move_4.2:
+walk_fast_right
+step_end
+
+CianwoodCity_Evento_Mirto_Move_4.3:
+delay_16
+face_right
+step_end
+
 CianwoodCity_Evento_Mirto_Texto_1:
-.string "MIRTO: ¿¿??$"
+.string "MIRTO: ¿Quién?$"
 
 CianwoodCity_Evento_Mirto_Texto_2:
-.string "Oh, {PLAYER}, qué sorpresa.$"
+.string "Oh, {PLAYER}. Qué sorpresa.$"
 
 CianwoodCity_Evento_Mirto_Texto_3:
 .string "Lamento que no pudieras entrar con\n"
 	.string "nosotros a TORRE CAMPANA, esa\l"
-	.string "AGATHA se ve que te aprecia mucho.\l"
-	.string "Solo es cuestión de tiempo que el\l"
+	.string "AGATHA se ve que te aprecia mucho.\p"
+	.string "Solo es cuestión de tiempo que el\n"
 	.string "GRAN MAESTRO te invite a entrar,\l"
 	.string "ha estado muy ocupado últimamente\l"
 	.string "poniendo en orden varios asuntos{PAUSE 5}…{PAUSE 5}$"
@@ -251,8 +293,10 @@ CianwoodCity_Evento_Mirto_Texto_5:
 	.string "de todo, pero sigue igual. Ninguno\l"
 	.string "de los remedios que con el resto\l"
 	.string "de POKÉMON funcionan tiene\l"
-	.string "aplicación en mi VOLCARONA.\l"
-	.string "Me recomendaron venir a esta\l"
+	.string "aplicación en mi VOLCARONA.$"
+
+CianwoodCity_Evento_Mirto_Texto_5.1:
+	.string "Me recomendaron venir a esta\n"
 	.string "FARMACIA, la más antigua de JOHTO,\l"
 	.string "pero nada parece afectarle al\l"
 	.string "cuerpo de mi POKÉMON. Nada más que\l"
@@ -266,9 +310,9 @@ CianwoodCity_Evento_Mirto_Texto_6:
 	.string "aire, pero no se dan cuenta del\l"
 	.string "enorme costo que supone llegar a\l"
 	.string "ciertos niveles para la fisiología\l"
-	.string "de los POKÉMON. Solo ven el\l"
-	.string "resultado, no las causas y efectos\l"
-	.string "que llevan a él.$"
+	.string "de los POKÉMON.\p"
+	.string "Solo ven el resultado, no las causas\n"
+	.string "y efectos que llevan a él.$"
 
 CianwoodCity_Evento_Mirto_Texto_7:
 .string "Pase lo que pase, no volveré a ver\n"
@@ -281,29 +325,43 @@ CianwoodCity_Evento_Mirto_Texto_7:
 	.string "con su antagónico: la enfermedad.$"
 
 CianwoodCity_Evento_Mirto_Texto_8:
-.string "Volveré una vez más a TORRE\n"
-	.string "CAMPANA, {PLAYER}, para agotar todas\l"
-	.string "mis opciones.\l"
-	.string "El ENTRENADOR más sabio y poderoso\l"
-	.string "de la región visitará el lugar\l"
+.string "Volveré una vez más a TORRE CAMPANA,\n"
+	.string "para agotar todas mis opciones.\p"
+	.string "El ENTRENADOR más sabio y poderoso\n"
+	.string "de la región visitará el lugar,\l"
 	.string "dentro de poco. El LÍDER de CIUDAD\l"
 	.string "IRIS me ha hablado de él, es el\l"
 	.string "único con un POKÉMON FUERTE\l"
 	.string "VÍNCULO de mayor poder global que\l"
-	.string "mi VOLCARONA, a pesar de que el\l"
-	.string "suyo es un PSEUDOLEGENDARIO y no\l"
+	.string "mi VOLCARONA.$"
+	
+CianwoodCity_Evento_Mirto_Texto_8.1:
+	.string "Así es, la diferencia es que el\n"
+	.string "suyo es un PSEUDOLEGENDARIO, y no\l"
 	.string "podemos medirlo con la misma vara.\l"
-	.string "Tal vez, él sepa algo que hemos\l"
-	.string "pasado por alto.$"
+	.string "Pero tal vez{PAUSE 15}…{PAUSE 15} él sepa algo que\l"
+	.string "hemos pasado por alto.$"
 
 CianwoodCity_Evento_Mirto_Texto_9:
-.string "Adiós, {PLAYER}. Si me doy prisa\n"
-	.string "puede que pueda ver el atardecer\l"
-	.string "en CIUDAD IRIS, quién sabe\l"
-	.string "cuantos más contemplaré con\l"
-	.string "VOLCARONA a mi lado.$"
+.string "Adiós, {PLAYER}. Si me doy prisa,\n"
+	.string "aún podré contemplar el crepúsculo\l"
+	.string "cernirse sobre CIUDAD IRIS.$"
+
+CianwoodCity_Evento_Mirto_Texto_9.1:
+	.string "¿Quién sabe{PAUSE 15}…{PAUSE 15} cuantos más podré\n"
+	.string "admirar con VOLCARONA a mi lado?$"
+
+CianwoodCity_Evento_Mirto_Move_3.1:
+face_up
+delay_16
+face_left
+delay_16
+delay_8
+face_player
+step_end
 
 CianwoodCity_Evento_Mirto_Move_1:
+emote_exclamation_mark
 jump_special_down
 face_up
 step_end

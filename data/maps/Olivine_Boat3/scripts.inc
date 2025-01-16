@@ -201,6 +201,7 @@ Olivine_Boat_3_Ceremonia::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Olivine_Boat_3_Ceremonia_Move_1
 waitmovement 0x0
+playse SE_APPLAUSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Olivine_Boat_3_Ceremonia_Move_2
 waitmovement 0x0
@@ -208,21 +209,33 @@ special RemoveCameraObject
 applymovement 2, Olivine_Boat_3_Ceremonia_Move_3
 waitmovement 0x0
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_1
+delay 5
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 9, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 10, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 11, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 12, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 14, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_4
 waitmovement 0x0
 msgbox Olivine_Boat_3_Ceremonia_Texto_1 MSGBOX_AUTOCLOSE
-delay 15
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_1
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_1
@@ -234,17 +247,30 @@ applymovement 14, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_1
 waitmovement 0x0
 msgbox Olivine_Boat_3_Ceremonia_Texto_2 MSGBOX_AUTOCLOSE
-delay 15
+delay 5
+playse SE_APPLAUSE
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 9, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 10, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 11, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 12, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 14, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_5
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Olivine_Boat_3_Ceremonia_Move_7
@@ -257,22 +283,22 @@ end
 
 Olivine_Boat_3_Ceremonia_Texto_1:
 .string "Ya es un hecho: JOHTO acogerá\n"
-	.string "barcos de KANTO en su PUERTO, y\l"
-	.string "viceversa.\l"
-	.string "¿Puede haber mayor motivo de\l"
+	.string "barcos de KANTO en su PUERTO,\l"
+	.string "y viceversa.\p"
+	.string "¿Puede haber mayor motivo de\n"
 	.string "celebración que la unión entre dos\l"
 	.string "regiones hermanas como KANTO y\l"
-	.string "JOHTO, que, por una desafortunada\l"
+	.string "JOHTO que, por una desafortunada\l"
 	.string "sucesión de malentendidos e\l"
-	.string "iniciativas individuales que para\l"
+	.string "iniciativas individuales, que para\l"
 	.string "nada representaban el interés\l"
-	.string "global, acabaran en conflicto y\l"
-	.string "ahora encuentran de nuevo la paz?\l"
-	.string "¡Celebremos, pues este es solo el\l"
+	.string "global, acabaran en conflicto?\p"
+	.string "¡Ahora se avecinan tiempos de paz!\p"
+	.string "¡Celebremos, pues este es solo el\n"
 	.string "primer paso, dentro de 3 años,\l"
 	.string "nadie se acordará de lo ocurrido\l"
-	.string "hace 5!\l"
-	.string "¡Viva CIUDAD OLIVO!\l"
+	.string "hace 5!\p"
+	.string "¡Viva CIUDAD OLIVO!\p"
 	.string "¡Viva la unión KANTO-JOHTO!$"
 
 Olivine_Boat_3_Ceremonia_Texto_2:
@@ -367,17 +393,17 @@ Olivine_Boat3_Capitan_Texto_2:
 
 Olivine_Boat3_Capitan_Texto_3:
 .string "Pero{PAUSE 15}…{PAUSE 15}\n"
-	.string "¿¡Qué ven mis ojos!?\l"
-	.string "¡{PLAYER}!\l"
-	.string "¡Eres tú, valiente osado!\l"
+	.string "¿¡Qué ven mis ojos!?\p"
+	.string "¡{PLAYER}!\p"
+	.string "¡Eres tú, valiente osado!\n"
 	.string "¿No me recuerdas?\l"
 	.string "Soy el CAPITÁN del SS.ANNE, me han\l"
 	.string "asignado ahora en este barco.$"
 
 Olivine_Boat3_Capitan_Texto_4:
-.string "¿Por qué no te pasas por mi\n"
-	.string "camarote?\l"
-	.string "Confío en que podamos tener una\l"
+.string "¿Por qué no te pasas\n"
+	.string "por mi camarote?\p"
+	.string "Confío en que podamos tener una\n"
 	.string "charla más amena que la última\l"
 	.string "vez.$"
 

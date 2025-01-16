@@ -48,7 +48,7 @@ MahoganyTown_Text_3:
 .string "Verás al precio de oro al que\n"
 .string "venderé a los turistas el\l"
 .string "CARAMELOFURIA…\l"
-.string "¡Jojojo!$"
+.string "¡Jo, jo, jo!$"
 
 
 

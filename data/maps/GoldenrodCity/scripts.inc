@@ -123,7 +123,7 @@ GoldenrodCity_Text_8:
 .string "COMERCIAL no tiene igual en toda\l"
 .string "la región, es lo que tiene\l"
 .string "pertenecer a la clase alta.\l"
-.string "¡Jojojo!$"
+.string "¡Jo, jo, jo!$"
 
 
 

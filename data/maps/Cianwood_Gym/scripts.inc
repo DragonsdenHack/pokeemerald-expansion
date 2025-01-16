@@ -126,8 +126,8 @@ Cianwood_Gym_Combate_Anibal_Texto_11.2:
 
 Cianwood_Gym_Combate_Anibal_Texto_11.3:
 .string "Los TIPO LUCHA no suelen tener la mejor\n"
-	.string "VELOCIDAD. Con este movimiento no solo\l"
-	.string "causarás daño, ¡también volverás\l"
+	.string "VELOCIDAD. Con este movimiento, no\l"
+	.string "solo causarás daño, ¡también volverás\l"
 	.string "lentos a tus rivales!$"
 
 Cianwood_Gym_Combate_Anibal_2::
@@ -175,10 +175,10 @@ release
 end
 
 Cianwood_Gym_Combate_Anibal_3_Texto_1:
-.string "ANIBAL: ¡Ah, {PLAYER}! ¿Qué te trae\n"
-	.string "de vuelta? Si deseas volver a combatir\l"
-	.string "conmigo, me temo que ya es demasiado\l"
-	.string "tarde.$"
+.string "ANIBAL: ¡Ah, {PLAYER}!\p"
+	.string "¿Qué te trae de vuelta?\p"
+	.string "Si deseas volver a combatir conmigo,\n"
+	.string "me temo que ya es demasiado tarde.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
 .string "Así es{PAUSE 25}…{PAUSE 25} hace unos días liberé a mis\n"
@@ -188,13 +188,13 @@ Cianwood_Gym_Combate_Anibal_3_Texto_2:
 Cianwood_Gym_Combate_Anibal_3_Texto_3:
 .string "En fin, cada cosa tiene su tiempo, ¿no\n"
 	.string "crees? Ahora estoy, humildemente,\l"
-	.string "criando a dos pequeños POLIWAG y\l"
+	.string "criando a dos pequeños: POLIWAG y\l"
 	.string "MANKEY, sin ninguna pretensión\l"
 	.string "competitiva.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_4:
-.string "Entonces, ¿cuál es el motivo de tu\n"
-	.string "visita?$"
+.string "Entonces, ¿cuál es el motivo\n"
+	.string "de tu visita?$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_5:
 .string "{PAUSE 5}…{PAUSE 5}$"
@@ -246,25 +246,25 @@ Cianwood_Gym_Combate_Anibal_Texto_4:
 
 Cianwood_Gym_Combate_Anibal_Texto_5:
 .string "Lamentablemente, la edad me ha\n"
-	.string "alcanzado. No la vejez, pero si el\l"
-	.string "fin de mi plenitud física. A mis\l"
-	.string "51 años, he hecho todo lo posible\l"
+	.string "alcanzado. No la vejez, pero sí\l"
+	.string "el fin de mi plenitud física.\p"
+	.string "A mis 51 años, he hecho lo imposible\n"
 	.string "para mantenerme al nivel de mis\l"
-	.string "mejores POKÉMON, y he comprobado\l"
-	.string "que físicamente ya no puedo dar el\l"
-	.string "100%.$"
+	.string "mejores POKÉMON, y he comprobado en\l"
+	.string "mis propias carnes que ya no puedo\l"
+	.string "dar el 100%.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_6:
 .string "Me cuesta más recuperarme de\n"
 	.string "grandes esfuerzos, también\l"
 	.string "arrancar antes de realizarlos,\l"
-	.string "pero te diré una cosa: ¡en el\l"
-	.string "fragor del combate sigo siendo el\l"
-	.string "mismo de siempre!$"
+	.string "pero te diré una cosa{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡En el fragor del combate sigo\n"
+	.string "siendo el mismo de siempre!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_7:
-.string "Sí, ¡sabía que podía volver a este\n"
-	.string "nivel!$"
+.string "Sí, ¡sabía que podía volver\n"
+	.string "a este nivel!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_8:
 .string "Eres un gran ENTRENADOR, {PLAYER},\n"
@@ -276,8 +276,8 @@ Cianwood_Gym_Combate_Anibal_Texto_8:
 	.string "prosigan su viaje sin mí.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9:
-	.string "No hay duda, ¡mereces portar nuestro\n"
-	.string "emblema!$"
+	.string "No hay duda, ¡mereces portar\n"
+	.string "nuestro emblema!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.1:
 	.string "Toma, aquí tienes la\n"
@@ -295,14 +295,14 @@ Cianwood_Gym_Combate_Anibal_Texto_11:
 .string "No encontrarás en toda KANTO o\n"
 	.string "JOHTO un POKÉMON LUCHA así. Tiene\l"
 	.string "el don de encajar golpes físicos\l"
-	.string "como ningún otro, al tiempo que\l"
-	.string "pega durísimo.$"
+	.string "como ningún otro, gracias a su\l"
+	.string "HABILIDAD.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_12:
 .string "Creo que podré aguantar 1 año más,\n"
 	.string "pasado ese tiempo liberaré a mis\l"
 	.string "POKÉMON y comenzaré de 0 con un\l"
-	.string "MANKEY y un POLIWAG, sin\l"
+	.string "MANKEY y un POLIWAG. Sí, sin\l"
 	.string "pretensiones ni presión alguna.$"
 
 CianwoodGym_Gym_Dude::
@@ -322,19 +322,19 @@ end
 CianwoodGym_Gym_Dude_Texto_1:
 .string "Parece que ANÍBAL va a tomárselo\n"
 	.string "en serio contigo, chico. Si quieres\l"
-	.string "tener opciones deberías hacerme\l"
+	.string "tener opciones, deberías hacerme\l"
 	.string "caso y evitar el cuerpo a cuerpo a\l"
-	.string "toda cosa, ANÍBAL es\l"
-	.string "indestructible por ese lado.\l"
-	.string "Céntrate en ataques del TIPO\l"
+	.string "toda costa, ANÍBAL es indestructible\l"
+	.string "por ese lado.\p"
+	.string "Céntrate en ataques del TIPO\n"
 	.string "PSÍQUICO o VOLADOR a distancia.\l"
 	.string "POKÉMON con INTIMIDACIÓN, CASCO\l"
 	.string "DENTADO y con gran resistencia por\l"
 	.string "el lado físico podrán servirte\l"
 	.string "para frenar la portentosa fuerza\l"
 	.string "de sus TIPO LUCHA mejor\l"
-	.string "entrenados.\l"
-	.string "¡Espero que ofrezcas un gran\l"
+	.string "entrenados.\p"
+	.string "¡Espero que ofrezcas un gran\n"
 	.string "espectáculo!$"
 
 CianwoodGym_Gym_Dude_Texto_2:

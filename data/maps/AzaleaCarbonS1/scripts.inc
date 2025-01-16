@@ -99,7 +99,7 @@ AzaleaCarbonS1_Text_8:
 .string "¡Dentro de poco tendremos todos los\n"
 .string "hornos a pleno rendimiento! ¡Y tú no\l"
 .string "podrás hacer nada para impedirlo!\l"
-.string "¡Jojojo!$"
+.string "¡Jo, jo, jo!$"
 
 
 

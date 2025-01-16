@@ -180,7 +180,7 @@ release
 end
 
 MtSilver_PkmnCenter_Text_4:
-.string "¡Jojojo!\n"
+.string "¡Jo, jo, jo!\n"
 .string "¿Yo ex-campeón?\l"
 .string "¡Me he colado aquí tirando por el\l"
 .string "otro lado de la montaña, pero no\l"

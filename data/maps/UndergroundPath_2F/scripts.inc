@@ -22,8 +22,8 @@ release
 end
 
 UndergroundPath2F_3_Texto_1:
-.string "Jojojo… Verás cuando todos vean mi\n"
-	.string "reluciente FLAREON.$"
+.string "Jo, jo, jo… Verás cuando todos vean\n"
+	.string "mi reluciente FLAREON.$"
 
 
 
