@@ -1313,7 +1313,7 @@ Cave_Regigigas_S8_Amatista_Texto_78:
 	.string "cálculos.$"
 
 Cave_Regigigas_S8_Amatista_Texto_79:
-	.string "Aún así, una expedición como esta\n"
+	.string "Aun así, una expedición como esta\n"
 	.string "nunca es en vano. Nosotros también nos\l"
 	.string "hemos nutrido de ella.$"
 

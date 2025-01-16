@@ -21,12 +21,18 @@ delay 20
 playse SE_PIN
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_3
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MisionIrisLab_Primer_Cientifico_Texto_5 MSGBOX_AUTOCLOSE
@@ -34,6 +40,7 @@ delay 20
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_3
 waitmovement 0x0
 msgbox MisionIrisLab_Primer_Cientifico_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_6
 waitmovement 0x0
@@ -41,14 +48,22 @@ trainerbattle_no_intro TRAINER_TRAINER_89, MisionIrisLab_Primer_Cientifico_Texto
 playse SE_BREAKABLE_DOOR
 applymovement 4, CuevaTesoro4_Jefe_Final_Move_9.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_7
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
 setvar VAR_ROUTE102_STATE, 2
@@ -106,17 +121,17 @@ MisionIrisLab_Primer_Cientifico_Texto_2:
 	.string "dinero.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_3:
-.string "Aquí tratamos con cosas serias, dime,\n"
-	.string "¿has oído hablar de la ley de\l"
+.string "Aquí tratamos con cosas serias, dime.\p"
+	.string "¿Has oído hablar de la ley de\n"
 	.string "rendimientos decrecientes? ¿De la\l"
 	.string "optimización de los STATS BASE?$"
 
 MisionIrisLab_Primer_Cientifico_Texto_4:
 .string "Tenéis en vuestra región un POKÉMON\n"
 	.string "como MEGA-BEEDRILL, con solo 15\l"
-	.string "puntos en ATAQUE ESPECIAL. Pero\l"
-	.string "pasáis por alto un hecho físico de tal\l"
-	.string "magnitud y eficiencia.$"
+	.string "puntos en ATAQUE ESPECIAL.\l"
+	.string "Pero pasáis por alto un hecho físico\l"
+	.string "de tal magnitud y eficiencia.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_5:
 .string "Por eso estáis condenados al fracaso.$"
@@ -127,9 +142,9 @@ MisionIrisLab_Primer_Cientifico_Texto_6:
 	.string "sola palabra de lo que acabo de decir.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_7:
-.string "Ahora, mi equipo POKÉMON optimizado se\n"
-	.string "encargará de borrar tu presencia de mi\l"
-	.string "vista.$"
+.string "Ahora, mis POKÉMON optimizados se\n"
+	.string "encargarán de borrar tu presencia\l"
+	.string "de mi vista.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_8:
 .string "¿¡Q..Qué!? ¡¿Por qué tu equipo es\n"
@@ -138,12 +153,12 @@ MisionIrisLab_Primer_Cientifico_Texto_8:
 MisionIrisLab_Primer_Cientifico_Texto_9:
 .string "Esto no tiene ningún sentido, he oído\n"
 	.string "que los LÍDERES DE JOHTO cuentan con\l"
-	.string "un poder excepcional, más bien por su\l"
-	.string "dilatada experiencia que por realmente\l"
-	.string "entrenar de forma eficiente.$"
+	.string "un poder excepcional, más por su\l"
+	.string "dilatada experiencia que por la\l"
+	.string "calidad de sus entrenamientos.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_10:
-.string "Pero tú…{PAUSE 30} no eres uno de ellos, tal vez\n"
+.string "Pero tú{PAUSE 30}…{PAUSE 30} no eres uno de ellos, tal vez\n"
 	.string "tampoco seas un simple EJECUTIVO de\l"
 	.string "TRIGAL.$"
 
@@ -186,8 +201,11 @@ msgbox MisionIrisLab_Segundo_Cientifico_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 3, MisionIrisLab_Segundo_Cientifico_Move_1
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Segundo_Cientifico_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Segundo_Cientifico_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, MisionIrisLab_Segundo_Cientifico_Move_3
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_TRAINER_88, MisionIrisLab_Segundo_Cientifico_Texto_7
@@ -232,23 +250,23 @@ MisionIrisLab_Segundo_Cientifico_Texto_2:
 
 MisionIrisLab_Segundo_Cientifico_Texto_3:
 .string "Entre nosotros, ¿en qué manos crees\n"
-	.string "que están mejor estos FÓSILES ahora?\l"
-	.string "¿En la mejor empresa de HOENN? ¿O en\l"
-	.string "unos CIENTÍFICOS que ni en 10 años\l"
-	.string "harían el menor avance en ese lugar?$"
+	.string "que están mejor estos FÓSILES ahora?\p"
+	.string "¿En la mejor empresa de HOENN? ¿O en\n"
+	.string "unos inútiles que ni en 10 años\l"
+	.string "harían el menor avance?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_4:
 .string "{PAUSE 30}…{PAUSE 30}…{PAUSE 5}$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
-.string "Así que eso es irrelevante…{PAUSE 30} ¿la forma\n"
-	.string "es lo que cuenta?$"
+.string "Así que eso es irrelevante…{PAUSE 30}\n"
+	.string "¿La forma es lo que cuenta?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_6:
 .string "¿No serás tú tan necio como ellos? Los\n"
-	.string "ENTRENADORES de calle sois todos unos\l"
-	.string "mediocres. ¿¡Por qué ibas tú a ser\l"
-	.string "diferente!?$"
+	.string "ENTRENADORES de calle sois todos\l"
+	.string "iguales, predecibles y mediocres.\l"
+	.string "¿¡Por qué ibas tú a ser diferente!?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_7:
 .string "Así que superior a la media{PAUSE 30}…{PAUSE 30} tal vez\n"
@@ -270,8 +288,14 @@ MisionIrisLab_Cientifico_Primero::
 lock
 faceplayer
 msgbox MisionIrisLab_Primer_Cientifico_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 4, MisionIrisLab_Cientifico_Primero_Move_1
+waitmovement 0x0
 release
 end
+
+MisionIrisLab_Cientifico_Primero_Move_1:
+face_up
+step_end
 
 MisionIrisLab_Tirtouga::
 setflag FLAG_NUEVA_702

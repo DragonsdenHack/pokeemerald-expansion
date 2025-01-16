@@ -315,8 +315,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 41,
-      "y": 9,
+      "x": 40,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -632,8 +632,8 @@
     },
     {
       "type": "trigger",
-      "x": 12,
-      "y": 55,
+      "x": 13,
+      "y": 51,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40B8",
       "var_value": "2",
@@ -641,8 +641,8 @@
     },
     {
       "type": "trigger",
-      "x": 12,
-      "y": 56,
+      "x": 13,
+      "y": 51,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40B8",
       "var_value": "2",
@@ -650,8 +650,8 @@
     },
     {
       "type": "trigger",
-      "x": 19,
-      "y": 55,
+      "x": 15,
+      "y": 51,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40B8",
       "var_value": "2",
@@ -659,8 +659,8 @@
     },
     {
       "type": "trigger",
-      "x": 19,
-      "y": 56,
+      "x": 15,
+      "y": 51,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40B8",
       "var_value": "2",
@@ -710,7 +710,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 6,
+      "x": 20,
       "y": 2,
       "elevation": 3,
       "item": "ITEM_MENTAL_HERB",

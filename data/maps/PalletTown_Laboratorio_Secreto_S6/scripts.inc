@@ -524,7 +524,7 @@ PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_25:
 	.string "necesidad.$"
 
 PalletTown_Laboratorio_Secreto_S6_Andra_Documento_Texto_26:
-	.string "Aún así, tú ya derrotaste al POKÉMON\n"
+	.string "Aun así, tú ya derrotaste al POKÉMON\n"
 	.string "ESENCIA, ¡ese ULTIMATE PROJECT no\l"
 	.string "puede ser más que el todo del que forma\l"
 	.string "parte!$"

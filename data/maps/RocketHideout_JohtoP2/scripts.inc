@@ -73,7 +73,7 @@ msgbox RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_DEOXYS, 50, ITEM_NONE
+givemon SPECIES_DEOXYS, 80, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1
@@ -100,7 +100,7 @@ RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2:
 	.string "forma BASE.-$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_3:
-.string "¡¡OBTUVISTE UN DEOXYS AL Nv.50!!$"
+.string "¡¡OBTUVISTE UN DEOXYS AL Nv.80!!$"
 
 
 RocketHideoutJohtoP2_Obtencion_Regis::
@@ -110,15 +110,15 @@ msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGIROCK, 40, ITEM_NONE
+givemon SPECIES_REGIROCK, 75, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_4 MSGBOX_DEFAULT
-givemon SPECIES_REGISTEEL, 40, ITEM_NONE
+givemon SPECIES_REGISTEEL, 75, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGICE, 40, ITEM_NONE
+givemon SPECIES_REGICE, 75, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2
@@ -127,8 +127,8 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_1:
-.string "(Hay un mensaje escrito en las POKÉ\n"
-	.string "BALL, es de ANDRA)$"
+.string "-Hay un mensaje escrito en las POKÉ\n"
+	.string "BALL, firmado por ANDRA-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 .string "-{PLAYER}, GIOVANNI me envió a\n"
@@ -150,13 +150,13 @@ RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 	.string "combinaciones de STATS.-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_3:
-.string "¡¡OBTUVISTE UN REGIROCK AL NV.40!!$"
+.string "¡¡OBTUVISTE UN REGIROCK AL NV.75!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_4:
-.string "¡¡OBTUVISTE UN REGISTEEL AL NV.40!!$"
+.string "¡¡OBTUVISTE UN REGISTEEL AL NV.75!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_5:
-.string "¡¡OBTUVISTE UN REGICE AL NV.40!!$"
+.string "¡¡OBTUVISTE UN REGICE AL NV.75!!$"
 
 RocketHideoutJohtoP2_Obtencion_Piedra_Rocket::
 release
@@ -241,4 +241,55 @@ RocketHideoutJohtoP2_Documento_ViasTren_Texto_3:
 	.string "trabajadores de la zona próxima al\l"
 	.string "MT.PLATEADO, y tratar de explorar los\l"
 	.string "alrededores de las vías por esa zona.$"
+
+Ascenso_Rocket_Rangos::
+msgbox Ascenso_Rocket_Rangos_Texto_1 MSGBOX_AUTOCLOSE
+multichoice 22, 0, MULTI_POKEMON_ASCENSOS, 0
+switch VAR_RESULT
+case 0, EventScript_Recluta
+case 1, EventScript_AltoRango
+case 2, EventScript_Ejecutivo
+case 3, EventScript_Admin
+case 4, EventScript_AdminJefe
+case 5, EventScript_Jefe
+release
+end
+
+Ascenso_Rocket_Rangos_Texto_1:
+.string "¿Qué indumentaria quieres llevar?$"
+
+EventScript_Recluta::
+release
+end
+
+EventScript_AltoRango::
+release
+end
+
+EventScript_Ejecutivo::
+release
+end
+
+EventScript_Admin:
+release
+end
+
+EventScript_AdminJefe::
+release
+end
+
+EventScript_Jefe::
+release
+end
+
+Ascenso_Rocket_Rangos_Cartel::
+lock
+msgbox Ascenso_Rocket_Rangos_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Ascenso_Rocket_Rangos_Cartel_Texto_1:
+.string "VESTIDOR\n"
+	.string "Interactúa con el vestidor de\l"
+	.string "arriba para cambiar tu aspecto.$"
 

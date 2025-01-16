@@ -791,7 +791,7 @@ LavenderTown_Pasado_Gym_Texto_44:
 	.string "el destino del combate estaba sellado.$"
 
 LavenderTown_Pasado_Gym_Texto_45:
-	.string "Aún así, nunca dejamos de creer.\n"
+	.string "Aun así, nunca dejamos de creer.\n"
 	.string "Y ocurrió.$"
 
 LavenderTown_Pasado_Gym_Texto_46:

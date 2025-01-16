@@ -668,6 +668,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE111",
       "dest_warp_id": 5
+    },
+    {
+      "x": 28,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_BASE_ROCKET_HOENN_S2",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
@@ -1126,6 +1133,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Llave_Despacho_Hoenn_2_Warp"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_Atajo"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_Atajo"
     }
   ]
 }

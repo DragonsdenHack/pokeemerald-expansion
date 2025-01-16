@@ -424,7 +424,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_22:
 .string "ATLAS: Gran seguridad la de\n"
 	.string "TORRE RADIO, pero no sé si sabe\l"
 	.string "que SILPH contaba con una similar,\l"
-	.string "y aún así no pudo evitar que un\l"
+	.string "y aun así no pudo evitar que un\l"
 	.string "niño de 10 años llegase hasta su\l"
 	.string "PRESIDENTE solo por contar con un\l"
 	.string "buen equipo POKÉMON.$"

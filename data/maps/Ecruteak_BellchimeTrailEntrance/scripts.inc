@@ -81,30 +81,45 @@ waitmovement 0x0
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_3
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_6
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_3
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_8
 waitmovement 0x0
 delay 15
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11 MSGBOX_AUTOCLOSE
@@ -117,26 +132,49 @@ addobject 5
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
-applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_7
+delay 5
+delay 5
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_9
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_6
+applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_10
+applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_7
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_10
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11
+applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11
 applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11.1
+waitmovement 0x0
+delay 10
+msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
+waitmovement 0x0
+applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.1
+waitmovement 0x0
+delay 10
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_12
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_11
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_9
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_1
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19 MSGBOX_AUTOCLOSE
@@ -146,8 +184,15 @@ msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
 waitmovement 0x0
-delay 20
+applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.2
+waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.3
+waitmovement 0x0
+delay 10
+msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_22 MSGBOX_AUTOCLOSE
 applymovement 5, Ecruteak_BellchimeTrailEntrance_Mirto_Move_13
 applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_14
@@ -166,7 +211,7 @@ applymovement 8, Ecruteak_BellchimeTrailEntrance_Mirto_Move_16
 waitmovement 0x0
 removeobject 8
 playse SE_EXIT
-delay 60
+delay 80
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
@@ -180,11 +225,15 @@ applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BellchimeTrailEntrance_Mirto_Move_6
 applymovement 7, Ecruteak_BellchimeTrailEntrance_Mirto_Move_17
 waitmovement 0x0
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 4, Ecruteak_BellchimeTrailEntrance_Mirto_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN 
 applymovement 7, Ecruteak_BellchimeTrailEntrance_Mirto_Move_18
@@ -196,6 +245,35 @@ setvar VAR_UNUSED_0x40F7, 140
 clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 release
 end
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.2:
+lock_facing_direction
+walk_slow_up
+lock_facing_direction
+step_end
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.3:
+walk_slow_down
+step_end
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Move_2.1:
+face_player
+delay_16
+face_down
+delay_16
+face_player
+delay_16
+step_end
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Move_11.1:
+delay_8
+face_player
+delay_16
+delay_8
+face_up
+delay_8
+walk_in_place_up
+step_end
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_1:
 .string "MIRTO: Ah, ya estás aquí,\n"
@@ -214,11 +292,11 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_2:
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_3:
 .string "Mi fiel amigo, VOLCARONA, se\n"
-	.string "transformó una última vez. Después\l"
-	.string "de toda una vida unidos, adquirió\l"
-	.string "un poder que yo jamás había visto,\l"
-	.string "mayor incluso que el de los\l"
-	.string "LEGENDARIOS que conozco.$"
+	.string "transformó una última vez.\p"
+	.string "Después de toda una vida unidos,\n"
+	.string "adquirió un poder que yo jamás\l"
+	.string "había visto, mayor incluso que el\l"
+	.string "de los LEGENDARIOS que conozco.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_4:
 .string "Pero al parecer ese gran poder le\n"
@@ -241,7 +319,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
 .string "El GRAN MAESTRO de TORRE CAMPANA\n"
 	.string "es una de esas personas que podría\l"
-	.string "ayudarme. El vio al LEGENDARIO\l"
+	.string "ayudarme. Él vio al LEGENDARIO\l"
 	.string "HO-OH, y maneja a la perfección\l"
 	.string "las propiedades curativas de su\l"
 	.string "CENIZA SAGRADA, pero para hablar\l"
@@ -261,27 +339,27 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_8:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_9:
 .string "El acceso a TORRE CAMPANA y SENDA\n"
 	.string "DINDÓN está reservado a\l"
-	.string "ciertas personas.\l"
-	.string "Les ruego que den media vuelta,\l"
-	.string "caballeros.$"
+	.string "ciertas personas.\p"
+	.string "Les ruego que den media\n"
+	.string "vuelta, caballeros.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_10:
 .string "MIRTO: El CAMPEÓN de KANTO-JOHTO\n"
-	.string "es una de esas personas, ¿cierto?\l"
-	.string "Tiene ante usted al verdadero\l"
+	.string "es una de esas personas, ¿cierto?\p"
+	.string "Tiene ante usted al verdadero\n"
 	.string "CAMPEÓN de KANTO: {PLAYER}.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
-.string "¿{PLAYER}?\n"
-	.string "Lo siento, pero si no tienen forma\l"
+.string "¿{PLAYER}?\p"
+	.string "Lo siento, pero si no tienen forma\n"
 	.string "de probar lo que dice, no podrán\l"
 	.string "pasar, la situación actual de la\l"
 	.string "LIGA POKÉMON es caótica. Tengo\l"
 	.string "entendido que un tal ROJO ganó el\l"
-	.string "campeonato, pero está siendo\l"
-	.string "suplido por AZUL. Mientras tanto,\l"
-	.string "la ALTO MANDO AGATHA acaba de\l"
-	.string "dimit{PAUSE 5}…{PAUSE 5}$"
+	.string "campeonato, pero ahora está siendo\l"
+	.string "suplido por AZUL.\p"
+	.string "Mientras tanto, la ALTO MANDO\n"
+	.string "AGATHA acaba de dimit{PAUSE 5}…{PAUSE 5}$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
 .string "????: ¡{PLAYER}!\n"
@@ -295,15 +373,17 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14:
 .string "AGATHA: Quién iba a decir que\n"
 	.string "acabarías visitando JOHTO, a este\l"
 	.string "paso vas a terminar explorando\l"
-	.string "cada rincón del mundo POKÉMON. Tan\l"
-	.string "activo y dispuesto, bendita\l"
-	.string "juventud.$"
+	.string "cada rincón del mundo POKÉMON.\p"
+	.string "Tan activo y dispuesto,\n"
+	.string "¡bendita juventud!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15:
-.string "AGATHA: Dicen la verdad, sé que\n"
-	.string "TORRE CAMPANA y vosotros sus\l"
-	.string "PENSADORES sois discretos. Por\l"
-	.string "ello, has de saber que tienes\l"
+.string "AGATHA: Dicen la verdad.\n"
+	.string "Sé que TORRE CAMPANA y vosotros,\l"
+	.string "sus PENSADORES, sois discretos.$"
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15.1:
+	.string "Por ello, has de saber que tienes\n"
 	.string "delante al verdadero CAMPEÓN de\l"
 	.string "KANTO.$"
 
@@ -317,48 +397,49 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17:
 	.string "¿Podemos entrar todos?$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
-.string "Estamos ante un caso excepcional.\n"
-	.string "AGATHA aquí es considerada como\l"
+.string "Estamos ante un caso excepcional.\p"
+	.string "AGATHA aquí es considerada como\n"
 	.string "una más, pero en esta situación, la\l"
-	.string "última palabra la tiene\l"
-	.string "nuestro GRAN MAESTRO.$"
+	.string "última palabra la tiene nuestro\l"
+	.string "GRAN MAESTRO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
-.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}\n"
-	.string "Mi POKÉMON está enfermo, su GRAN\l"
+.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}\p"
+	.string "Mi POKÉMON está enfermo, su GRAN\n"
 	.string "MAESTRO podría ayudarle a sanar.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
 .string "AGATHA: Su compañero es un\n"
 	.string "POKÉMON muy especial, CÉSAR me lo\l"
 	.string "dijo. Has de saber, PENSADOR, que\l"
-	.string "su POKÉMON no solo ha\l"
-	.string "experimentado el FUERTE VÍNCULO,\l"
-	.string "sino que es el caso más extremo\l"
-	.string "conocido.$"
+	.string "su POKÉMON no solo ha experimentado\l"
+	.string "el FUERTE VÍNCULO, sino que es el\l"
+	.string "caso más extremo conocido.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21:
 .string "Oh{PAUSE 15}…{PAUSE 15}\n"
 	.string "Entiendo{PAUSE 15}…{PAUSE 15}\l"
-	.string "Entiendo{PAUSE 15}…{PAUSE 15}\l"
-	.string "Algo así sin duda merece ser visto\l"
-	.string "de inmediato, nuestro GRAN MAESTRO\l"
-	.string "estará encantado de ver a su\l"
-	.string "POKÉMON.$"
+	.string "Entiendo{PAUSE 15}…{PAUSE 15}$"
+
+Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21.1:
+	.string "Esta situación merece ser\n"
+	.string "abordada de inmediato.\p"
+	.string "No hay duda, nuestro GRAN MAESTRO\n"
+	.string "así lo querría.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_22:
 .string "MIRTO: Muchas gracias.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_23:
-.string "AGATHA: No te preocupes {PLAYER},\n"
-	.string "hablaré con el GRAN MAESTRO y lo\l"
+.string "AGATHA: No te preocupes, {PLAYER}.\p"
+	.string "Hablaré con el GRAN MAESTRO y lo\n"
 	.string "entenderá perfectamente. Podrás\l"
-	.string "entrar a TORRE CAMPANA cuando este\l"
-	.string "asunto quede arreglado.$"
+	.string "entrar a TORRE CAMPANA, cuando\l"
+	.string "este asunto quede arreglado.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_24:
-.string "MIRTO: Sin tu intervención no\n"
-	.string "habría podido pasar {PLAYER}.\l"
+.string "MIRTO: Sin tu intervención, no\n"
+	.string "habría podido pasar.\l"
 	.string "Seguro que nuestros caminos\l"
 	.string "volverán a cruzarse.$"
 
@@ -377,17 +458,15 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_27:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28:
 .string "Ya lo hemos hecho, pero sus\n"
 	.string "POKÉMON son indestructibles,\l"
-	.string "ninguno de nosotros puede tocarle.\l"
-	.string "Si sigue así va a dañar seriamente\l"
-	.string "lo que queda de nuestro\l"
-	.string "patrimonio.$"
+	.string "ninguno de nosotros puede tocarle.\p"
+	.string "Si sigue así, va a terminar de\n"
+	.string "destruir lo que queda del templo.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "En ese caso, debemos avisar al\l"
+.string "Oh{PAUSE 15}…{PAUSE 15}\p"
+	.string "En ese caso, debemos avisar al\n"
 	.string "GRAN MAESTRO. Sube a TORRE CAMPANA\l"
-	.string "y cuéntale lo ocurrido.\l"
+	.string "y cuéntale lo ocurrido.\p"
 	.string "¡Rápido!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Move_1:

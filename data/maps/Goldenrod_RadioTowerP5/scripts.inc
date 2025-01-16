@@ -1007,7 +1007,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_83:
 .string "GIOVANNI: ¿Qué te ha parecido la\n"
 	.string "reunión, {PLAYER}?\l"
 	.string "A ojos de la población, esto nunca\l"
-	.string "ha ocurrido, no existe, y aún así,\l"
+	.string "ha ocurrido, no existe, y aun así,\l"
 	.string "ha sentado las bases de sus vidas\l"
 	.string "en los próximos años. Esperemos\l"
 	.string "que para bien{PAUSE 5}…{PAUSE 5}$"

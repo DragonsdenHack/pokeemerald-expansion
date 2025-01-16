@@ -610,7 +610,7 @@ Cave_Regigigas_S7_Doctor_Texto_23:
 	.string "capricho del destino.$"
 
 Cave_Regigigas_S7_Doctor_Texto_24:
-	.string "Aún así{PAUSE 25}…{PAUSE 25} con el tiempo{PAUSE 25}…{PAUSE 25} tú has llegado a\n"
+	.string "Aun así{PAUSE 25}…{PAUSE 25} con el tiempo{PAUSE 25}…{PAUSE 25} tú has llegado a\n"
 	.string "convertirte en algo incluso más odioso.$"
 
 Cave_Regigigas_S7_Doctor_Texto_25:
@@ -736,7 +736,7 @@ Cave_Regigigas_S7_Doctor_Texto_50:
 Cave_Regigigas_S7_Doctor_Texto_51:
 	.string "Ahora veo que de donde no hay, es\n"
 	.string "imposible sacar algo: Esperaba poco de\l"
-	.string "ti y aún así me has decepcionado.$"
+	.string "ti y aun así me has decepcionado.$"
 
 Cave_Regigigas_S7_Doctor_Texto_52:
 	.string "Has demostrado no ser digno de nuestra\n"

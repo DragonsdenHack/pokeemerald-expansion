@@ -2018,7 +2018,7 @@ RocketHideout7FDocumento_Text_145:
 	.string "Se transformará en el tipo de\l"
 	.string "cualquier movimiento justo antes\l"
 	.string "de ejecutarlo, obteniendo STAB de\l"
-	.string "ello, aún así, cuenta con ESTRUENDO\l"
+	.string "ello. Aun así, cuenta con ESTRUENDO\l"
 	.string "como gran STAB de su tipo por defecto.\l"
 	.string "Un movepool está a la\l"
 	.string "altura del de MEW, con\l"
@@ -2190,7 +2190,7 @@ RocketHideout7FDocumento_Text_150:
 	.string "unir al TRÍO TAO de forma forzosa\l"
 	.string "sin la intervención directa del\l"
 	.string "POKÉMON ESENCIA.\l"
-	.string "Aún así, irradia poder por todos\l"
+	.string "Aun así, irradia poder por todos\l"
 	.string "lados, aunque lo desata de forma\l"
 	.string "ineficiente, con una baja\l"
 	.string "VELOCIDAD y varias debilidades a\l"
@@ -2275,8 +2275,8 @@ RocketHideout7FDocumento_Text_152:
 	.string "hacer ante él, sus atributos\l"
 	.string "defensivos solo están al alcance\l"
 	.string "de los 3 GRANDES, y aún así su\l"
-	.string "capacidad defensiva especial sigue\l"
-	.string "siendo única.$"
+	.string "capacidad defensiva especial\l"
+	.string "sigue siendo única.$"
 
 
 

@@ -1250,7 +1250,7 @@ RocketHideoutJohtoP1Documento_Text_124:
 	.string "hablando, pero con un mayor ATAQUE\l"
 	.string "FÍSICO que no podrá beneficiarse\l"
 	.string "de golpear con TERREMOTO por STAB.\l"
-	.string "Aún así, la pureza de su TIPO\l"
+	.string "Aun así, la pureza de su TIPO\l"
 	.string "ACERO le libra de ser débil al\l"
 	.string "AGUA, otorgándole también multitud\l"
 	.string "de resistencias respecto a\l"

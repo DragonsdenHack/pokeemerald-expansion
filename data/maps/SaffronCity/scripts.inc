@@ -486,7 +486,7 @@ SaffronCity_Combate_Andra_Texto_5:
 	.string "CENTRAL ENERGÍA.$"
 	
 SaffronCity_Combate_Andra_Texto_5.1:
-	.string "Aún así, debemos estar preparados para\n"
+	.string "Aun así, debemos estar preparados para\n"
 	.string "todo lo que pueda pasar.\l"
 	.string "Una vez encontremos esa LLAVE MAGNÉTICA,\l"
 	.string "avisaremos a GIOVANNI inmediatamente, y\l"
@@ -533,7 +533,7 @@ SaffronCity_Combate_Andra_Texto_10:
 	.string "nuestro primer día?\l"
 	.string "La verdad es que he llegado ya más\l"
 	.string "lejos de lo que podría imaginar, y\l"
-	.string "aún así, sigo viendo margen para\l"
+	.string "aun así, sigo viendo margen para\l"
 	.string "seguir mejorando.$"
 
 SaffronCity_Combate_Andra_Texto_11:

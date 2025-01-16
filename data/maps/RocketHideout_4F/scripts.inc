@@ -224,9 +224,9 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
-.string "Tal vez esa entrada secreta esté a las\n"
-	.string "afueras de PUEBLO LAVANDA, ¿has\l"
-	.string "mirado por el sur, en RUTA 12?$"
+.string "Tal vez esa entrada secreta esté en\n"
+	.string "antiguas zonas de PUEBLO LAVANDA.\l"
+	.string "¿Has mirado en TORRE POKÉMON?$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -1081,7 +1081,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_22.1:
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_22.2:
 	.string "Mi pronóstico es que en menos de 3\n"
-	.string "años dejará de existir, aún así,\l"
+	.string "años dejará de existir. Aun así,\l"
 	.string "el frenar esa caída puede suponer\l"
 	.string "varias decenas de millones de\l"
 	.string "ganancias respecto a dejarla caer.$"
@@ -1482,25 +1482,25 @@ step_end
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
 .string "GIOVANNI: ¡{PLAYER}, qué oportuno!\n"
 	.string "Ya me han informado de tu\l"
-	.string "excelente trabajo, quitándole de\l"
-	.string "las manos a ese oportunista al\l"
-	.string "KANGASKHAN en el último momento.$"
+	.string "excelente trabajo, quitándole el\l"
+	.string "KANGASKHAN de las manos a ese\l"
+	.string "miserable en el último momento.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 .string "Tengo entendido que ese científico\n"
 	.string "ya se aprovechó antes de la\l"
-	.string "situación en el MT.MOON, has de\l"
+	.string "situación, en el MT.MOON. Has de\l"
 	.string "saber que no es la primera vez que\l"
 	.string "nos da problemas, es una especie\l"
-	.string "de carroñero, fanático de los\l"
-	.string "POKÉMON raros.\l"
-	.string "Hará todo para obtenerlos, sin importar\l"
-	.string "los medios, una especie de BILL, pero\l"
+	.string "de oportunista, un carroñero,\l"
+	.string "fanático de los POKÉMON raros.\p"
+	.string "Hará todo para obtenerlos, sin importar\n"
+	.string "los medios, igual que BILL, pero\l"
 	.string "sin sus recursos económicos.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2.1:
 	.string "Me alegra que hayas puesto en su\n"
-	.string "lugar a ese cobarde en el nombre\l"
+	.string "lugar a ese cobarde, en el nombre\l"
 	.string "del TEAM ROCKET. Eso, junto a encontrar\l"
 	.string "al famoso KANGASKHAN, merecen una buena\l"
 	.string "recompensa.$"
@@ -2662,7 +2662,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_11:
 	.string "CENTRO COMERCIAL AZULONA.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_12:
-.string "Aún así, no debéis preocuparos.\n"
+.string "Pese a ello, no debéis preocuparos.\n"
 	.string "Sé que dos ALTO RANGO en ascenso\l"
 	.string "estarán ansiosos de poder invertir el\l"
 	.string "dinero que buenamente han ganado en\l"
@@ -3016,18 +3016,19 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19 MSGBOX_DEFAULT
-givemon SPECIES_ARTICUNO, 15, ITEM_LUM_BERRY
+givemon SPECIES_ARTICUNO, 60, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20 MSGBOX_DEFAULT
-givemon SPECIES_ZAPDOS, 15, ITEM_LUM_BERRY
+givemon SPECIES_ZAPDOS, 60, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21 MSGBOX_DEFAULT
-givemon SPECIES_MOLTRES, 15, ITEM_LUM_BERRY
+givemon SPECIES_MOLTRES, 60, ITEM_LUM_BERRY
 waitfanfare
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.3
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.4
@@ -3036,16 +3037,24 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_14
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_RAINBOW_PASS
@@ -3057,9 +3066,12 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_29 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
 setflag FLAG_HOENN_676
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
@@ -3231,13 +3243,13 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 	.string "ejemplares a quién lo hizo posible.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19:
-.string "¡¡OBTUVISTE UN ARTICUNO AL NV.15!!$"
+.string "¡¡OBTUVISTE UN ARTICUNO AL NV.60!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20:
-.string "¡¡OBTUVISTE UN ZAPDOS AL NV.15!!$"
+.string "¡¡OBTUVISTE UN ZAPDOS AL NV.60!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21:
-.string "¡¡OBTUVISTE UN MOLTRES AL NV.15!!$"
+.string "¡¡OBTUVISTE UN MOLTRES AL NV.60!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
 .string "GIOVANNI: Incorporarlos o no en tu\n"

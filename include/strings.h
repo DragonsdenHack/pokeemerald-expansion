@@ -3139,6 +3139,14 @@ extern const u8 gText_Blitzle[];
 extern const u8 gText_Purrloin[];
 extern const u8 gText_Treecko[];
 
+// Ascensos
+extern const u8 gText_Recluta[];
+extern const u8 gText_AltoRango[];
+extern const u8 gText_Ejecutivo[];
+extern const u8 gText_Admin[];
+extern const u8 gText_AdminJefe[];
+extern const u8 gText_Jefe[];
+
 // Islas
 extern const u8 gText_Carmin[];
 extern const u8 gText_Prima[];

@@ -13577,7 +13577,7 @@ CianwoodGym_Text_Karateka4PostBattle:
 	.string "A ANÍBAL le cuesta cada vez más\n"
 	.string "seguir el ritmo de entrenamiento\l"
 	.string "de sus POKÉMON, supongo que es ley\l"
-	.string "de vida. Aún así, tiene mucho\l"
+	.string "de vida. Aun así, tiene mucho\l"
 	.string "mérito seguir en esa forma pasados\l"
 	.string "los 50.$"
 

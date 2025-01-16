@@ -455,3 +455,47 @@ PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_1:
 	.string "TIPO: TIERRA\n"
 	.string "HABILIDAD: INTRÉPIDO$"
 
+PalletTown_Laboratorio_Secreto_Doc_Wrongsparce::
+lock
+showmonpic SPECIES_DUDUNSPARCE_EVO, 10, 3  
+playmoncry SPECIES_DUDUNSPARCE_EVO, CRY_MODE_ENCOUNTER 
+msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_1, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_2, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_3, MSGBOX_DEFAULT
+msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_4, MSGBOX_DEFAULT
+release
+end
+
+PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_2:
+	.string "Sus orígenes son desconocidos. Se cree\n"
+	.string "que, de algún modo, evoluciona de\l"
+	.string "DUDUNSPARCE.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_3:
+	.string "Queda a un suspiro de contar con el\n"
+	.string "total de un PSEUDOLEGENDARIO. A pesar\l"
+	.string "de ello, en la práctica su distribución\l"
+	.string "de STATS es superior a la de cualquiera\l"
+	.string "de ellos, con solo 43 puntos en ATAQUE\l"
+	.string "ESPECIAL.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_4:
+	.string "Guarda extrañas y muy sorprendentes\n"
+	.string "similitudes con ZYRGARDE, tales como\l"
+	.string "similar DEFENSA, capacidad de ejecutar\l"
+	.string "MIL FLECHAS y, sobre todo, estar ambos\l"
+	.string "anclados a la tierra, obligados a reptar\l"
+	.string "en ella.$"
+
+PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_1:
+.string "WRONGSPARCE\p"
+	.string "PS: 141\n"
+	.string "ATAQUE: 131\l"
+	.string "DEFENSA: 121\l"
+	.string "ATAQUE ESPECIAL: 43\l"
+	.string "DEFENSA ESPECIAL: 98\l"
+	.string "VELOCIDAD: 65\l"
+	.string "TOTAL: 599\p"
+	.string "TIPO: NORMAL/TIERRA\n"
+	.string "HABILIDAD: HERBOGÉNESIS$"
+

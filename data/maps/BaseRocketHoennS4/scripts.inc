@@ -172,6 +172,39 @@ BaseRocketHoennS3_Ejecutivo_Texto_2:
 	.string "personalmente de que nadie entre\l"
 	.string "mientras usted recorre HOENN.$"
 
+Llave_Despacho_Hoenn_Atajo::
+msgbox Llave_Despacho_Hoenn_Atajo_Texto_1 MSGBOX_AUTOCLOSE
+compare VAR_UNUSED_0x40F7, 217
+goto_if_gt Llave_Despacho_Hoenn_Despues_Atajo
+release
+end
+
+Llave_Despacho_Hoenn_Atajo_Texto_1:
+	.string "Se necesita una llave concreta\n"
+	.string "para abrir esta puerta.$"
+
+Llave_Despacho_Hoenn_Atajo_Text_YesNo:
+	.string "¿Quieres abrir esta puerta?$"
+
+Llave_Despacho_Hoenn_Despues_Atajo::
+msgbox Llave_Despacho_Hoenn_Atajo_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+goto Llave_Despacho_Hoenn_Atajo_Abierto
+
+Llave_Despacho_Hoenn_Atajo_Abierto::
+delay 20
+playse SE_CLICK
+waitse
+delay 20
+playse SE_UNLOCK
+setmetatile 31, 32, 0x335, FALSE
+setmetatile 31, 31, 0x335, FALSE
+special DrawWholeMapView
+delay 30
+release
+end
+
 Llave_Despacho_Hoenn::
 msgbox Llave_Despacho_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
 compare VAR_UNUSED_0x40F7, 217

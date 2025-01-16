@@ -331,7 +331,7 @@ PalletTown_Laboratorio_Secreto_S1_Andra_Texto_11:
 	.string "modificar variables a su antojo.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_12:
-	.string "Aún así, hay intangibles que jamás\n"
+	.string "Aun así, hay intangibles que jamás\n"
 	.string "podrán controlarse.$"
 
 PalletTown_Laboratorio_Secreto_S1_Andra_Texto_13:

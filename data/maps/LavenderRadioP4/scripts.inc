@@ -1380,7 +1380,7 @@ LavenderRadioP4_Devon_Combates_Texto_89:
 	.string "extremo.$"
 
 LavenderRadioP4_Devon_Combates_Texto_90:
-.string "Aún así{PAUSE 45}…{PAUSE 45} me mantendré fiel a mis\n"
+.string "Aun así{PAUSE 45}…{PAUSE 45} me mantendré fiel a mis\n"
 	.string "ideales.$"
 
 LavenderRadioP4_Cuarto_Cientifico::

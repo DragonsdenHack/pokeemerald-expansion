@@ -425,7 +425,7 @@ SafariZone_1F_Escena_3_Andra_Texto_20.1:
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
 .string "ANDRA: Entiendo lo que dices, pero{PAUSE 15}…{PAUSE 15}\n"
-     .string "Aún así{PAUSE 15}…{PAUSE 15} siento en este\l"
+     .string "Aun así{PAUSE 15}…{PAUSE 15} siento en este\l"
 	.string "URSARING un poco de ese potencial al\l"
 	.string "que te refieres, aún por explotar.$"
 

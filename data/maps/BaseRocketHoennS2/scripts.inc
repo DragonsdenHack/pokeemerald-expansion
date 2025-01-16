@@ -196,7 +196,7 @@ BaseRocketHoennS2_Text_16:
 .string "Viendo el poder de todos estos\n"
 .string "POKÉMON… uno se da cuenta de lo\l"
 .string "mediocre que es KANTO en cuanto a\l"
-.string "STATS BASE. Aún así, la magia de\l"
+.string "STATS BASE. Aun así, la magia de\l"
 .string "nuestra región es insuperable, ¿será\l"
 .string "debido al POKÉMON ESENCIA, o es al\l"
 .string "revés, este es producto de esa magia?$"
@@ -1658,7 +1658,7 @@ BaseRocketHoennS2_EventScript_TakeShinx::
 
 BaseRocketHoennS2_Text_TakeShinx:
     .string "Poco puedo aportar a un ENTRENADOR tan\n"
-	.string "completo como tú, ¿no crees? Aún así,\l"
+	.string "completo como tú, ¿no crees? Aun así,\l"
 	.string "toma.$"
 
 

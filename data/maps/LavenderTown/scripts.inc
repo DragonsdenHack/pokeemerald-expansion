@@ -818,7 +818,7 @@ LavenderTown_Entrevista_Oak_Texto_9:
 	.string "orgulloso.$"
 
 LavenderTown_Entrevista_Oak_Texto_10:
-	.string "PERIODISTA: Aún así, muchos dicen que\n"
+	.string "PERIODISTA: Aun así, muchos dicen que\n"
 	.string "ya no es el mismo, que se ha acomodado.\l"
 	.string "¿Qué les diría?$"
 
@@ -1108,3 +1108,15 @@ LavenderTown_Agatha_Texto_11:
 
 LavenderTown_Agatha_Texto_12:
 	.string "Acompáñame.$"
+
+LavenderTown_Pasado_Cartel::
+lock
+msgbox LavenderTown_Pasado_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+LavenderTown_Pasado_Cartel_Texto_1:
+	.string "Convierte lo invisible en visible de\n"
+	.string "forma natural. Adquiere habilidades de\l"
+	.string "introspección en el GIMNASIO LAVANDA.$"
+

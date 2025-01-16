@@ -172,9 +172,12 @@ delay 15
 playse SE_PIN
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_2
 waitmovement 0x0
+waitse
 msgbox Ecruteak_DanceTheater_Batallas_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_3
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_DanceTheater_Batallas_Texto_2 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Ecruteak_DanceTheater_Batallas_No
@@ -182,12 +185,15 @@ delay 15
 playse SE_PIN
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_4
 waitmovement 0x0
+waitse
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_6
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
+applymovement 5, RocketHideout8F_Mision_Johto_move_12
 playse SE_M_TWISTER
+waitmovement 0x0
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_7
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_4 MSGBOX_AUTOCLOSE
@@ -203,7 +209,9 @@ msgbox Ecruteak_DanceTheater_Batallas_Texto_7 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_10
 waitmovement 0x0
 delay 15
+applymovement 4, RocketHideout8F_Mision_Johto_move_12
 playse SE_M_TWISTER
+waitmovement 0x0
 applymovement 4, Ecruteak_DanceTheater_Batallas_Move_7
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_8 MSGBOX_AUTOCLOSE
@@ -219,7 +227,9 @@ msgbox Ecruteak_DanceTheater_Batallas_Texto_11 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_11
 waitmovement 0x0
 delay 15
+applymovement 3, RocketHideout8F_Mision_Johto_move_12
 playse SE_M_TWISTER
+waitmovement 0x0
 applymovement 3, Ecruteak_DanceTheater_Batallas_Move_7
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_12 MSGBOX_AUTOCLOSE
@@ -235,7 +245,9 @@ msgbox Ecruteak_DanceTheater_Batallas_Texto_15 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_10
 waitmovement 0x0
 delay 15
+applymovement 2, RocketHideout8F_Mision_Johto_move_12
 playse SE_M_TWISTER
+waitmovement 0x0
 applymovement 2, Ecruteak_DanceTheater_Batallas_Move_7
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_16 MSGBOX_AUTOCLOSE
@@ -251,7 +263,9 @@ msgbox Ecruteak_DanceTheater_Batallas_Texto_19 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_11
 waitmovement 0x0
 delay 15
+applymovement 1, RocketHideout8F_Mision_Johto_move_12
 playse SE_M_TWISTER
+waitmovement 0x0
 applymovement 1, Ecruteak_DanceTheater_Batallas_Move_7
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_20 MSGBOX_AUTOCLOSE
@@ -295,8 +309,11 @@ delay 15
 msgbox Ecruteak_DanceTheater_Batallas_Texto_28 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Ecruteak_DanceTheater_Batallas_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_DanceTheater_Batallas_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_DanceTheater_Batallas_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_15
 waitmovement 0x0
 playse SE_PIN
@@ -307,12 +324,21 @@ waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_32 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, Ecruteak_DanceTheater_Batallas_Move_4
+delay 5
 applymovement 4, Ecruteak_DanceTheater_Batallas_Move_4
 applymovement 3, Ecruteak_DanceTheater_Batallas_Move_4
+delay 10
 applymovement 2, Ecruteak_DanceTheater_Batallas_Move_4
+delay 5
 applymovement 1, Ecruteak_DanceTheater_Batallas_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_DanceTheater_Batallas_Texto_33 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, Ecruteak_DanceTheater_Batallas_Move_16.1
+waitmovement 0x0
+msgbox Ecruteak_DanceTheater_Batallas_Texto_33.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_DanceTheater_Batallas_Move_15
 waitmovement 0x0
 delay 10
@@ -320,6 +346,12 @@ msgbox Ecruteak_DanceTheater_Batallas_Texto_34 MSGBOX_AUTOCLOSE
 applymovement 10, Ecruteak_DanceTheater_Batallas_Move_16
 waitmovement 0x0
 msgbox Ecruteak_DanceTheater_Batallas_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, Ecruteak_DanceTheater_Batallas_Move_16
+waitmovement 0x0
+delay 10
+msgbox Ecruteak_DanceTheater_Batallas_Texto_35.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Ecruteak_DanceTheater_Batallas_Move_17
 waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
@@ -341,8 +373,8 @@ release
 end
 
 Ecruteak_DanceTheater_Batallas_Texto_1:
-.string "¡Oh!\n"
-	.string "¡Pero qué descaro!\l"
+.string "¡Oh!\p"
+	.string "¡Pero qué descaro!\n"
 	.string "Nadie sube a nuestro escenario sin\l"
 	.string "más.$"
 
@@ -365,8 +397,8 @@ Ecruteak_DanceTheater_Batallas_Texto_5:
 .string "¡Pero qué ritmo!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_6:
-.string "¿De KANTO, decís que sois?\n"
-	.string "Disfrutad de CIUDAD IRIS, pues. En\l"
+.string "¿De KANTO, decís que sois?\p"
+	.string "Disfrutad de CIUDAD IRIS, pues. En\n"
 	.string "KANTO no veréis lugar así.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_7:
@@ -419,7 +451,7 @@ Ecruteak_DanceTheater_Batallas_Texto_17:
 	.string "POKÉMON.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_18:
-.string "Habéis marchitado a mis POKÉMON\n"
+.string "Habéis marchitado a mis POKÉMON,\n"
 	.string "cual árbol otoñal de SENDA\l"
 	.string "DINDÓN{PAUSE 5}…{PAUSE 5}$"
 
@@ -437,12 +469,12 @@ Ecruteak_DanceTheater_Batallas_Texto_21:
 .string "Tiene usted un talento especial.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_22:
-.string "¡Nos ha dejado a todas\n"
-	.string "impresionadas con su coraje y\l"
-	.string "gallardía!$"
+.string "¡Nos ha dejado impresionadas\n"
+	.string "con su coraje y gallardía!$"
+
 
 Ecruteak_DanceTheater_Batallas_Texto_23:
-.string "Venga, buen hombre, déjenos\n"
+.string "Venga, buen hombre. Déjenos\n"
 	.string "obsequiarle con este objeto, así\l"
 	.string "podrá recuperar rápidamente a\l"
 	.string "todo su equipo POKÉMON.$"
@@ -454,8 +486,7 @@ Ecruteak_DanceTheater_Batallas_Texto_24:
 	.string "en llamas para así poder resurgir\l"
 	.string "de sus cenizas. Siempre pudieron\l"
 	.string "encontrarse por toda la región de\l"
-	.string "JOHTO, aunque cada vez es más\l"
-	.string "difícil.$"
+	.string "JOHTO, aunque cada vez menos.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_25:
 .string "MIRTO: Disculpad la irrupción,\n"
@@ -481,23 +512,23 @@ Ecruteak_DanceTheater_Batallas_Texto_30:
 .string "Me temo que no. CIUDAD IRIS se\n"
 	.string "ciñe fielmente a su historia y\l"
 	.string "tradición. Algunas leyes y\l"
-	.string "costumbres son inamovibles.\l"
-	.string "Nosotras, como descendientes de la\l"
+	.string "costumbres son inamovibles.\p"
+	.string "Nosotras, como descendientes de la\n"
 	.string "familia que construyó el TEATRO DE\l"
 	.string "LA DANZA, podemos visitar la TORRE\l"
 	.string "CAMPANA, pero el privilegio de\l"
 	.string "poder llevar acompañantes solo\l"
 	.string "está reservado para el LÍDER DE\l"
 	.string "GIMNASIO de CIUDAD IRIS y el\l"
-	.string "CAMPEÓN de JOHTO-KANTO.\l"
-	.string "El resto de LÍDERES y la ÉLITE 4\l"
+	.string "CAMPEÓN de JOHTO-KANTO.\p"
+	.string "El resto de LÍDERES y la ÉLITE 4\n"
 	.string "puede entrar también, pero sin\l"
 	.string "llevar a acompañantes.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_31:
 .string "MIRTO: Oh, pero entonces es\n"
-	.string "imposible{PAUSE 15}…{PAUSE 15}\l"
-	.string "El LÍDER de CIUDAD IRIS no sale de\l"
+	.string "imposible{PAUSE 15}…{PAUSE 15}\p"
+	.string "El LÍDER de CIUDAD IRIS no sale de\n"
 	.string "TORRE CAMPANA, y tengo entendido\l"
 	.string "que el actual CAMP{PAUSE 5}…{PAUSE 5}$"
 
@@ -506,20 +537,25 @@ Ecruteak_DanceTheater_Batallas_Texto_32:
 	.string "CAMPEÓN!?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_33:
-.string "MIRTO: No puede ser cierto. En ese\n"
-	.string "caso, ¿estarías dispuesto a\l"
-	.string "ayudarme y convencer a los\l"
+.string "MIRTO: No puede ser cierto.$"
+
+Ecruteak_DanceTheater_Batallas_Texto_33.1:
+	.string "En ese caso, ¿estarías dispuesto\n"
+	.string "a ayudarme y convencer a los\l"
 	.string "PENSADORES del lugar?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_34:
 .string "MIRTO: No tengo palabras de\n"
-	.string "agradecimiento, de verdad {PLAYER}.\l"
+	.string "agradecimiento, de verdad, {PLAYER}.\l"
 	.string "No olvidaré esto.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_35:
 .string "MIRTO: Te espero en el acceso a\n"
-	.string "SENDA DINDÓN, entonces. Gracias por\l"
-	.string "su atención, señoritas.$"
+	.string "SENDA DINDÓN, entonces.$"
+	
+Ecruteak_DanceTheater_Batallas_Texto_35.1:
+	.string "Gracias por su atención,\n"
+	.string "señoritas.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_36:
 .string "Le entendemos, pues la mayoría\n"
@@ -608,6 +644,14 @@ step_end
 
 Ecruteak_DanceTheater_Batallas_Move_16:
 walk_in_place_right
+step_end
+
+Ecruteak_DanceTheater_Batallas_Move_16.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
 step_end
 
 Ecruteak_DanceTheater_Batallas_Move_17:

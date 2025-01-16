@@ -523,6 +523,13 @@
       "elevation": 0,
       "dest_map": "MAP_BASE_ROCKET_HOENN_S4",
       "dest_warp_id": 0
+    },
+    {
+      "x": 38,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_BASE_ROCKET_HOENN",
+      "dest_warp_id": 6
     }
   ],
   "coord_events": [

@@ -1612,7 +1612,7 @@ RocketHideout_8F_Mision_Silph_text_42:
 RocketHideout_8F_Mision_Silph_text_43:
 .string "Un objeto como ese sería crucial\n"
 	.string "para recuperar a un POKÉMON como\l"
-	.string "MEWTWO, más aún cuando LANCE no\l"
+	.string "MEWTWO, más aun cuando LANCE no\l"
 	.string "sabe de su existencia.\l"
 	.string "Nosotros tenemos ciertas sospechas\l"
 	.string "de dónde puede estar después de que\l"
@@ -2290,7 +2290,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_23.1:
 	.string "MANOS DE GIOVANNI!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_24:
-.string "Aún así, por supuesto que pueden\n"
+.string "Aún con esto, por supuesto que pueden\n"
 	.string "negaros entrar por ser un ROCKET,\l"
 	.string "lo que haréis será llevar nuestro\l"
 	.string "uniforme -a modo de mofa-,\l"
@@ -3564,15 +3564,15 @@ waitmovement 0x0
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_10 MSGBOX_DEFAULT
-givemon SPECIES_RAIKOU, 25, ITEM_LUM_BERRY
+givemon SPECIES_RAIKOU, 70, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_11 MSGBOX_DEFAULT
-givemon SPECIES_ENTEI, 25, ITEM_LUM_BERRY
+givemon SPECIES_ENTEI, 70, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_12 MSGBOX_DEFAULT
-givemon SPECIES_SUICUNE, 25, ITEM_LUM_BERRY
+givemon SPECIES_SUICUNE, 70, ITEM_LUM_BERRY
 waitfanfare
 msgbox RocketHideout8F_Mision_Johto_Text_13 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Johto_move_8
@@ -3789,13 +3789,13 @@ RocketHideout8F_Mision_Johto_Text_9:
 	.string "recuerda que son clones.$"
 
 RocketHideout8F_Mision_Johto_Text_10:
-.string "¡¡OBTUVISTE UN RAIKOU AL NV.25!!$"
+.string "¡¡OBTUVISTE UN RAIKOU AL NV.70!!$"
 
 RocketHideout8F_Mision_Johto_Text_11:
-.string "¡¡OBTUVISTE UN ENTEI AL NV.25!!$"
+.string "¡¡OBTUVISTE UN ENTEI AL NV.70!!$"
 
 RocketHideout8F_Mision_Johto_Text_12:
-.string "¡¡OBTUVISTE UN SUICUNE AL NV.25!!$"
+.string "¡¡OBTUVISTE UN SUICUNE AL NV.70!!$"
 
 RocketHideout8F_Mision_Johto_Text_13:
 .string "Y ahora, ponéos cómodos, tenemos\n"
@@ -5110,7 +5110,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_5 MSGBOX_DEFAULT
-givemon SPECIES_SILVALLY, 70, ITEM_NONE
+givemon SPECIES_SILVALLY, 90, ITEM_NONE
 waitfanfare
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_2
@@ -5195,7 +5195,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_4:
 	.string "él.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_5:
-.string "¡OBTUVISTE UN SILVALLY AL NV.70!$"
+.string "¡OBTUVISTE UN SILVALLY AL NV.90!$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_6:
 .string "Al parecer, puede cambiar de tipo en\n"
@@ -5312,7 +5312,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_16 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Final_DLC_Texto_17 MSGBOX_DEFAULT
-givemon SPECIES_MEWTWO, 70, ITEM_MEWTWONITE_Y
+givemon SPECIES_MEWTWO, 100, ITEM_MEWTWONITE_Y
 waitfanfare
 msgbox RocketHideout_8F_Final_DLC_Texto_18 MSGBOX_AUTOCLOSE
 delay 20
@@ -5453,7 +5453,7 @@ RocketHideout_8F_Final_DLC_Texto_16:
 	.string "considéralo una opción más.$"
 
 RocketHideout_8F_Final_DLC_Texto_17:
-.string "¡¡OBTUVISTE UN MEWTWO AL NV.70!!$"
+.string "¡¡OBTUVISTE UN MEWTWO AL NV.100!!$"
 
 RocketHideout_8F_Final_DLC_Texto_18:
 .string "El MEWTWO original es tuyo, {PLAYER}.$"

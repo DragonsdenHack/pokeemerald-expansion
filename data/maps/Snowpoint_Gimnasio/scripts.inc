@@ -99,7 +99,7 @@ Snowpoint_Gimnasio_Lider_Texto_7:
 
 Snowpoint_Gimnasio_Lider_Texto_7.1:
 	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA MINERAL.$"
+	.string "MEDALLA CARÁMBANO.$"
 
 Snowpoint_Gimnasio_Lider_Texto_8:
 	.string "¿Crees que debería actuar un poco más\n"

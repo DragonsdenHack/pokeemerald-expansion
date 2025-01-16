@@ -16,7 +16,7 @@ end
 Ecruteak_ShopText_2:
 .string "CIUDAD IRIS es la única que vende\n"
 .string "C.SAGRADA aún, cuesta 14000¥.\l"
-.string "Aún así, ya te digo que este\l"
+.string "Aun así, ya te digo que este\l"
 .string "objeto en KANTO costaría mucho\l"
 .string "más.$"
 

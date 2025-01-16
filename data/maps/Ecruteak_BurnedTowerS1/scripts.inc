@@ -64,6 +64,7 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_2
 waitmovement 0x0
+waitse
 playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8004, 0  @ vertical pan
 	setvar VAR_0x8005, 3  @ horizontal pan
@@ -106,15 +107,22 @@ setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 1
 delay 15
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_5
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_6
 special SpawnCameraObject
@@ -128,9 +136,12 @@ waitmovement 0x0
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ZEUS_2, Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_8
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
@@ -150,18 +161,27 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_11
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_1
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_10
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
@@ -205,28 +225,28 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_3:
 .string "ZEUS: Esperaba encontrar algo\n"
 	.string "interesante aquí, pero hace tiempo\l"
 	.string "que el LEGENDARIO LUGIA abandonó\l"
-	.string "este lugar para nunca regresar.$"
+	.string "este lugar, para nunca regresar.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_4:
-.string "Fue aquí donde HO-OH salvó a 3\n"
-	.string "POKÉMON de un destino cruel,\l"
+.string "Fue en TORRE QUEMADA donde HO-OH salvó\n"
+	.string "a 3 POKÉMON de un destino cruel,\l"
 	.string "convirtiéndolos en las 3 bestias\l"
 	.string "errantes.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5:
 .string "Nada más lejos de la realidad, el\n"
 	.string "poder de esos 3 POKÉMON es\l"
-	.string "mediocre. No llegan a tocar en sus\l"
-	.string "mejores estadísticas siquiera lo\l"
-	.string "más bajo del creador de todo.\l"
-	.string "LANCE creía ser poderoso con ellos\l"
-	.string "bajo control, y no era más que\l"
+	.string "mediocre; sus mayores virtudes\l"
+	.string "siguen estando por debajo de los\l"
+	.string "mayores defectos del creador de todo.\p"
+	.string "LANCE creía ser poderoso con ellos\n"
+	.string "bajo control, y no dejaba de ser\l"
 	.string "otro iluso más.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
-.string "En cambio, HO-OH{PAUSE 15}…{PAUSE 15}\n"
-	.string "TORRE CAMPANA{PAUSE 15}…{PAUSE 15}\l"
-	.string "Presiento que volverá a aparecer.\l"
+.string "En cambio, HO-OH{PAUSE 15}…{PAUSE 15}\p"
+	.string "TORRE CAMPANA{PAUSE 15}…{PAUSE 15}\p"
+	.string "Presiento que volverá a aparecer.\n"
 	.string "Podría quitar de en medio a todos\l"
 	.string "esos PENSADORES que impiden cruzar\l"
 	.string "la SENDA DINDÓN, pero aún es\l"
@@ -237,8 +257,8 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_7:
 .string "Consideré como una casualidad\n"
 	.string "nuestro pequeño encuentro en TORRE\l"
 	.string "BELLSPROUT. Sin embargo, vuelves a\l"
-	.string "aparecer por aquí. De nuevo,\l"
-	.string "casualmente, cuando trataba\l"
+	.string "aparecer por aquí.\p"
+	.string "Otra vez, casualmente, cuando trataba\n"
 	.string "de ver si este lugar escondía algo\l"
 	.string "interesante.$"
 
@@ -247,22 +267,22 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_8:
 	.string "reparo en acabar contigo si te\l"
 	.string "ponías en medio. Parece que\l"
 	.string "necesitas que te recuerde el vasto\l"
-	.string "poder que controlo. Un 50% no fue\l"
-	.string "suficiente, ¿cierto?$"
+	.string "poder que controlo.\p"
+	.string "Un 50% no fue suficiente{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9:
 .string "Veamos, pues, qué puedes hacer\n"
 	.string "ante un 65% de mi poder.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10:
-.string "Entonces 3 LEGENDARIOS MAYORES no\n"
+.string "Entonces, 3 LEGENDARIOS MAYORES no\n"
 	.string "son suficiente, qué interesante.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11:
-.string "Debo aplaudirte {PLAYER}, eres de\n"
-	.string "esos que sacan lo mejor de cada uno\l"
-	.string "de sus 6 POKÉMON y se agarra al\l"
-	.string "combate como sea hasta terminar\l"
+.string "Debo aplaudirte, {PLAYER}.\p"
+	.string "Eres de esos que sacan lo mejor de\n"
+	.string "cada uno de sus 6 POKÉMON y se agarra\l"
+	.string "al combate como sea, hasta terminar\l"
 	.string "ganando. A gente como tú hay que\l"
 	.string "aplastarla de un solo golpe antes\l"
 	.string "de que os de tiempo a reaccionar.$"
@@ -275,13 +295,13 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_12:
 	.string "que será cuando logre mi objetivo.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13:
-.string "Espero por tu bien que no vuelvan\n"
-	.string "a darse más casualidades como\l"
-	.string "esta, o me obligarás a subir aún\l"
-	.string "más el nivel.$"
+.string "Espero por tu bien que no vuelvan a\n"
+	.string "darse más casualidades como esta,\l"
+	.string "o me obligarás a mostrar la\l"
+	.string "verdadera naturaleza de los dioses.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_14:
-.string "(ZEUS usó CUERDA HUIDA).$"
+.string "-ZEUS usó CUERDA HUIDA-$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
 .string "????: ¿Es él quién estaba causando\n"
@@ -295,35 +315,34 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
 .string "JADEN: Mmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Debes de ser {PLAYER}, AGATHA ya me\l"
-	.string "ha hablado de ti. En nombre de\l"
-	.string "CIUDAD IRIS te doy las gracias por\l"
-	.string "lo que has hecho.$"
+	.string "ha hablado de ti.\p"
+	.string "En nombre de CIUDAD IRIS, te doy\n"
+	.string "las gracias por lo que has hecho.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_18:
-.string "Tu presencia será más que\n"
-	.string "bienvenida en TORRE CAMPANA, pero\l"
-	.string "tendrá que prolongarse un poco\l"
-	.string "más.$"
+.string "Tu presencia será bienvenida en\n"
+	.string "TORRE CAMPANA, pero tendrá que\l"
+	.string "prolongarse un poco más.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_19:
 .string "He quedado fascinado con el\n"
 	.string "POKÉMON FUERTE VÍNCULO de tu\l"
-	.string "amigo, MIRTO, y estaré muy ocupado\l"
+	.string "amigo, MIRTO. Estaré muy ocupado,\l"
 	.string "estudiándolo detenidamente.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20:
 .string "Además, el otro GRAN MAESTRO de\n"
-	.string "JOHTO vendrá pronto a visitarme,\l"
-	.string "te prometo, {PLAYER}, que a su\l"
+	.string "JOHTO vendrá pronto a visitarme.\p"
+	.string "Te prometo, {PLAYER}, que a su\n"
 	.string "debido tiempo podrás ver TORRE\l"
 	.string "CAMPANA. Te lo haré saber.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21:
-.string "No se hable más.\n"
-	.string "¡TORRE QUEMADA sigue en pie, y la\l"
+.string "No se hable más.\p"
+	.string "¡TORRE QUEMADA sigue en pie, y la\n"
 	.string "energía de las 3 bestias errantes,\l"
-	.string "que puedo percibir en esta sala,\l"
-	.string "intacta!\l"
+	.string "que aún puedo percibir en esta sala,\l"
+	.string "intacta!\p"
 	.string "Volvamos a TORRE CAMPANA.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Move_1:

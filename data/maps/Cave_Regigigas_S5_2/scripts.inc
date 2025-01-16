@@ -315,7 +315,7 @@ Cave_Regigigas_S5_2_Esmeralda_Texto_3:
 	.string "abismo más profundo de HOENN.$"
 
 Cave_Regigigas_S5_2_Esmeralda_Texto_4:
-	.string "Y aún así, DEVON ya contempló la\n"
+	.string "Y aun así, DEVON ya contempló la\n"
 	.string "minúscula posibilidad de que el TEAM\l"
 	.string "ROCKET planeara algún burdo intento de\l"
 	.string "truncar nuestros planes aquí.$"

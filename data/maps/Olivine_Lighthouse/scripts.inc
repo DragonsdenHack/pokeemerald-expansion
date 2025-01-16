@@ -214,6 +214,7 @@ msgbox Olivine_Lighthouse_Combate_Farero_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_2
 waitmovement 0x0
+waitse
 delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_2 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_3
@@ -228,6 +229,7 @@ msgbox Olivine_Lighthouse_Combate_Farero_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_2
 waitmovement 0x0
+waitse
 delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_2 MSGBOX_AUTOCLOSE
 goto Olivine_Lighthouse_Combate_Farero
@@ -236,16 +238,32 @@ goto Olivine_Lighthouse_Combate_Farero
 Olivine_Lighthouse_Combate_Farero::
 delay 20
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_4
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_5
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_6
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_6.1
+waitmovement 0x0
+delay 10
+msgbox Olivine_Lighthouse_Combate_Farero_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_6.2
+waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_7
 waitmovement 0x0
 delay 20
@@ -254,20 +272,34 @@ delay 20
 applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_8
 waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_9
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_8
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_8.1
+waitmovement 0x0
+playse SE_BREAKABLE_DOOR
+waitse
+delay 10
+msgbox Olivine_Lighthouse_Combate_Farero_Texto_12.1 MSGBOX_AUTOCLOSE
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_1
 waitmovement 0x0
 delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_6
 waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_14 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_FARERO, Olivine_Lighthouse_Combate_Farero_Texto_15
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_16 MSGBOX_AUTOCLOSE
@@ -326,6 +358,18 @@ clearflag FLAG_NUEVA_154
 release
 end
 
+Olivine_Lighthouse_Combate_Farero_Move_8.1:
+walk_in_place_down
+step_end
+
+Olivine_Lighthouse_Combate_Farero_Move_6.1:
+face_up
+step_end
+
+Olivine_Lighthouse_Combate_Farero_Move_6.2:
+face_player
+step_end
+
 Olivine_Lighthouse_Combate_Farero_Texto_1:
 .string "????: La ampliación del PUERTO a\n"
 	.string "otras regiones será todo un éxito,\l"
@@ -341,44 +385,45 @@ Olivine_Lighthouse_Combate_Farero_Texto_3:
 Olivine_Lighthouse_Combate_Farero_Texto_4:
 .string "FARERO: Al LÍDER lo tienes justo\n"
 	.string "ahí, estábamos debatiendo el\l"
-	.string "futuro de CIUDAD OLIVO, su PUERTO,\l"
-	.string "su FARO, su GIMNASIO{PAUSE 5}…{PAUSE 5}$"
+	.string "futuro de CIUDAD OLIVO.\p"
+	.string "Su PUERTO, su FARO, su GIMNASIO{PAUSE 5}…{PAUSE 5}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_5:
 .string "CROM: Pronto vendrán muchos\n"
-	.string "cambios, esperemos que para bien.\l"
-	.string "Mi viejo amigo y yo intentaremos\l"
+	.string "cambios, esperemos que para bien.\p"
+	.string "Mi viejo amigo y yo intentaremos\n"
 	.string "dejar esta ciudad en las mejores\l"
-	.string "condiciones posibles antes de\l"
+	.string "condiciones posibles, antes de\l"
 	.string "partir.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_6:
 .string "Hace tiempo que no acepto ningún\n"
-	.string "reto de forma oficial. Lo siento\l"
-	.string "chico, pero cuando todo este\l"
+	.string "reto de forma oficial.\p"
+	.string "Perdona, joven, pero cuando este\n"
 	.string "periodo de transición acabe,\l"
 	.string "podrás retar a la nueva LÍDER que\l"
-	.string "he escogido: YASMINA.\l"
-	.string "Si logra evolucionar de una vez a\l"
+	.string "he escogido: YASMINA.$"
+
+Olivine_Lighthouse_Combate_Farero_Texto_6.1:
+	.string "Si logra evolucionar de una vez a\n"
 	.string "su ONIX, claro.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_7:
 .string "Le queda mucho camino por\n"
-	.string "recorrer, si eres experimentado me\l"
-	.string "temo que no tendrás problema en\l"
-	.string "derrotarla. Aún sigue usando a\l"
-	.string "MAGNEMITE, así que imaginate.$"
+	.string "recorrer, y me temo que para\l"
+	.string "alguien como tú aparentas ser,\l"
+	.string "no supondrá un gran reto.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_8:
 .string "Aunque{PAUSE 25}…{PAUSE 15}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_9:
 .string "Me agrada la idea de un último\n"
-	.string "gran combate antes de partir,\l"
-	.string "sería la guinda sobre el pastel a\l"
-	.string "mi estancia en CIUDAD OLIVO.\l"
-	.string "La cuestión es…\l"
-	.string "¿Estarías tú a la altura de ese\l"
+	.string "gran combate, antes de partir.\p"
+	.string "Sería la guinda sobre el pastel a\n"
+	.string "mi estancia en CIUDAD OLIVO.\p"
+	.string "La cuestión es…\p"
+	.string "¿Estarías tú a la altura de ese\n"
 	.string "último gran combate?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_10:
@@ -392,9 +437,11 @@ Olivine_Lighthouse_Combate_Farero_Texto_12:
 .string "No conozco mejor vara de medir por\n"
 	.string "los alrededores que mi viejo amigo\l"
 	.string "y dueño actual de este FARO. Es tú\l"
-	.string "único tren para combatir conmigo.\l"
-	.string "O lo tomas ahora o lo pierdes para\l"
-	.string "siempre.$"
+	.string "único tren para combatir conmigo.$"
+
+Olivine_Lighthouse_Combate_Farero_Texto_12.1:
+	.string "¡O lo tomas ahora o lo pierdes\n"
+	.string "para siempre!$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_13:
 .string "Muy bien, no se hable más.$"
@@ -403,28 +450,28 @@ Olivine_Lighthouse_Combate_Farero_Texto_14:
 .string "FARERO: Usaré toda la energía de\n"
 	.string "mis POKÉMON, es lo menos que puedo\l"
 	.string "hacer si combatir a CROM es lo que\l"
-	.string "está en juego.\l"
+	.string "está en juego.\p"
 	.string "¡Prepárate!$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_15:
 .string "¿La cola de mi AMPHAROS se apagó?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_16:
-.string "FARERO: Disculpad, debo ir al\n"
-	.string "CENTRO POKÉMON cuanto antes, no\l"
+.string "FARERO: Disculpad.\p"
+	.string "Debo ir al CENTRO POKÉMON, no\n"
 	.string "esperaba que debilitaras a todos\l"
 	.string "mis POKÉMON, y lo último que\l"
-	.string "queremos en este FARO es tener un\l"
-	.string "AMPHAROS sin energía.$"
+	.string "queremos en este FARO es tener\l"
+	.string "un AMPHAROS sin energía.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_17:
-.string "CROM: ¡Jah!\n"
-	.string "¡Magnífico chico, magnífico!\l"
-	.string "¡Nos has dejado en shock!\l"
-	.string "ENTRENADORES como tú escasean cada\l"
-	.string "vez más hoy en día, estaré\l"
-	.string "esperándote en el GIMNASIO para\l"
-	.string "nuestro combate.\l"
+.string "CROM: ¡Jah!\p"
+	.string "¡Magnífico chico, magnífico!\n"
+	.string "¡Nos has dejado en shock!\p"
+	.string "¡ENTRENADORES como tú escasean\n"
+	.string "cada vez más hoy en día!\l"
+	.string "Estaré esperándote en el GIMNASIO\l"
+	.string "para nuestro combate.\p"
 	.string "¡La suerte está echada!$"
 
 Olivine_Lighthouse_Combate_Farero_Move_1:

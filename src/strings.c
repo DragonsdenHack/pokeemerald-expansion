@@ -1949,4 +1949,10 @@ const u8 gText_Stunky[] = _("STUNKY          1.800 FICHAS");
 const u8 gText_Blitzle[] = _("BLITZLE        2.500 FICHAS");
 const u8 gText_Purrloin[] = _("PURRLOIN      3.000 FICHAS");
 const u8 gText_Treecko[] = _("TREECKO        8.000 FICHAS");
+const u8 gText_Recluta[] = _("RECLUTA");
+const u8 gText_AltoRango[] = _("RECLUTA ALTO RANGO");
+const u8 gText_Ejecutivo[] = _("EJECUTIVO");
+const u8 gText_Admin[] = _("ADMINISTRADOR");
+const u8 gText_AdminJefe[] = _("ADMIN.JEFE");
+const u8 gText_Jefe[] = _("ADMIN.JEFE JOHTO&HOENN");
 //#endif

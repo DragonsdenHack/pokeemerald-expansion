@@ -504,7 +504,7 @@ end
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_1:
 .string "TORRE LATÓN fue destruida en un\n"
-	.string "incendio, aún así, JOHTO aún cuenta\l"
+	.string "incendio, aun así, JOHTO aún cuenta\l"
 	.string "con otras 3 pagodas que mantienen viva\l"
 	.string "la esencia de la región.$"
 
@@ -655,7 +655,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_7:
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_6:
 .string "Diría{PAUSE 25}…{PAUSE 25} que nuestro nivel ha sido\n"
-	.string "excelente pero{PAUSE 25}…{PAUSE 25} ¿aún así he\l"
+	.string "excelente pero{PAUSE 25}…{PAUSE 25} ¿aun así he\l"
 	.string "perdido?$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_5:

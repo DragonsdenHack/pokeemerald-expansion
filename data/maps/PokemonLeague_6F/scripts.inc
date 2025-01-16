@@ -653,7 +653,7 @@ PokemonLeague_6F_Final_Texto_18:
 	.string "Una vez cumplido su propósito, nada de\l"
 	.string "lo que ocurra después podrá recordarlo,\l"
 	.string "simplemente no existe para él.\l"
-	.string "Aún así, conserva intactas sus\l"
+	.string "Aun así, conserva intactas sus\l"
 	.string "funciones de combate.$"
 
 

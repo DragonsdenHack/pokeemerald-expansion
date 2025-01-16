@@ -9760,7 +9760,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_HAILEY] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_MARINERO,
+        .trainerClass = TRAINER_CLASS_MARINEROJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_FR_SAILOR,
         .trainerName = _("CASPER"),

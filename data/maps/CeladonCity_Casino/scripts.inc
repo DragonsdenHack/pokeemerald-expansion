@@ -101,7 +101,7 @@ CeladonCity_Casino_Text_7:
 .string "cuestión de suerte, ¿dónde está la\l"
 .string "gracia entonces?\l"
 .string "…\l"
-.string "¡Aún así no puedo parar de jugar!$"
+.string "¡Aun así no puedo parar de jugar!$"
 
 
 

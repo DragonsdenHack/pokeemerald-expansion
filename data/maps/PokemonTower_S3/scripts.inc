@@ -238,7 +238,7 @@ PokemonTower_S3_Tumba_Texto_1:
 	.string "Esta lápida es antiquísima.$"
 
 PokemonTower_S3_Tumba_Texto_2:
-	.string "Aún así, se aprecian grabados en\n"
+	.string "Todavía se aprecian grabados en\n"
 	.string "ella, con letras de oro y plata.$"
 
 PokemonTower_S3_Tumba_Texto_3:

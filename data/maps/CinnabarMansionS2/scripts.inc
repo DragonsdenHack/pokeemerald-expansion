@@ -557,7 +557,7 @@ CinnabarMansionS2_Blaine_Texto_11:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 CinnabarMansionS2_Blaine_Texto_12:
-.string "Aún así, no te será suficiente.\n"
+.string "Aun así, no te será suficiente.\n"
 	.string "OAK ha alcanzado otro nivel; con uno\l"
 	.string "solo de sus POKÉMON podría tumbar a\l"
 	.string "todo mi equipo, no puedes ganar.$"

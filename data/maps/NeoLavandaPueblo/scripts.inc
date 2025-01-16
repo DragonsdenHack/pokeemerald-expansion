@@ -9,7 +9,7 @@ release
 end
 
 NeoLavandaPueblo_Text_1:
-.string "Menudo edificio, ¿eh? Aún así, la SEDE\n"
+.string "Menudo edificio, ¿eh? Aun así, la SEDE\n"
 .string "SILPH, y la antigua TORRE POKÉMON, son\l"
 .string "más altos.$"
 
@@ -207,7 +207,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_6:
 	.string "¿No es genial?$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_7:
-.string "Aún así, no he podido derrotarte. Está\n"
+.string "Aun así, no he podido derrotarte. Está\n"
 	.string "claro que hay algo sagrado, espiritual…\l"
 	.string "un halo que os rodea a ti y tu equipo,\l"
 	.string "creando un vínculo extremadamente\l"

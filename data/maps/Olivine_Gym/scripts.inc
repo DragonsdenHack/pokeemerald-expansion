@@ -77,18 +77,18 @@ release
 end
 
 Olivine_Gym_Combate_Crom_Texto_11.3:
-.string "Con PULIMENTO despertarás el\n"
-	.string "potencial ofensivo de muchos POKÉMON\l"
-	.string "ROCA y ACERO.\l"
-	.string "¡RHYPERIOR y METAGROSS serán un\l"
-	.string "peligro!$"
+.string "Con PULIMENTO, despertarás el\n"
+	.string "potencial ofensivo de muchos\l"
+	.string "POKÉMON ROCA y ACERO.\p"
+	.string "¡RHYPERIOR y METAGROSS\n"
+	.string "serán un peligro!$"
 
 Olivine_Gym_Combate_Crom_Texto_11.10:
 .string "Ten también esta MT.$"
 
 Olivine_Gym_Combate_Crom_Texto_11.2:
 .string "¡¡{PLAYER} obtuvo la MT77 PULIMENTO\n"
-	.string "de manos de CROM!!$"
+	.string "de manos de LÍDER CROM!!$"
 
 Olivine_Gym_Combate_Crom_Texto_11.1:
 .string "¡¡Obtuviste TICKET FIESTA de manos\n"
@@ -104,23 +104,23 @@ Olivine_Gym_Combate_Crom_Texto_1:
 	.string "la hora de la verdad.$"
 
 Olivine_Gym_Combate_Crom_Texto_2:
-.string "Conoces el TIPO ACERO, ¿verdad?\n"
-	.string "Este GIMNASIO se especializa en\l"
+.string "Conoces el TIPO ACERO, ¿verdad?\p"
+	.string "Este GIMNASIO se especializa en\n"
 	.string "él, ningún TIPO tiene tantas\l"
 	.string "resistencias. Si lo combinas con\l"
-	.string "otros como el VOLADOR o el\l"
-	.string "PSÍQUICO, la ventaja se vuelve\l"
-	.string "absurda.$"
+	.string "otros, como el TIPO VOLADOR o el\l"
+	.string "TIPO PSÍQUICO, la ventaja se\l"
+	.string "vuelve absurda.$"
 
 Olivine_Gym_Combate_Crom_Texto_3:
 .string "Muchos en JOHTO aún no lo conocen,\n"
 	.string "algunos siguen creyendo que\l"
 	.string "MAGNEMITE es ELÉCTRICO puro,\l"
-	.string "especialmente en KANTO. Pero mi\l"
-	.string "labor en CIUDAD OLIVO ha ayudado a\l"
-	.string "dar visibilidad a este TIPO,\l"
-	.string "YASMINA seguro que lo dará a\l"
-	.string "conocer aún más.$"
+	.string "especialmente en KANTO.\p"
+	.string "Mi labor en CIUDAD OLIVO ha ayudado\n"
+	.string "a darle más visibilidad, y seguro\l"
+	.string "que YASMINA lo dará a conocer aún\l"
+	.string "más.$"
 
 Olivine_Gym_Combate_Crom_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15}$"
@@ -133,32 +133,32 @@ Olivine_Gym_Combate_Crom_Texto_5:
 Olivine_Gym_Combate_Crom_Texto_6:
 .string "A pesar de tu juventud, has visto\n"
 	.string "ya muchas cosas y visitado muchos\l"
-	.string "lugares, y aún te queda{PAUSE 15}…\l"
-	.string "Combates como estos son los que\l"
+	.string "lugares, y aún te queda{PAUSE 15}…\p"
+	.string "Combates como estos son los que\n"
 	.string "dan sentido a tu paso por JOHTO,\l"
-	.string "¿no?\l"
-	.string "Pues no se hable más, ¡veamos si\l"
-	.string "puedes torcer, aunque sea\l"
-	.string "levemente, la voluntad de mis\l"
-	.string "aguerridos POKÉMON!$"
+	.string "¿no?\p"
+	.string "Pues no se hable más.\p"
+	.string "¡Veamos si puedes torcer, aunque\n"
+	.string "sea levemente, la voluntad de\l"
+	.string "mis aguerridos POKÉMON!$"
 
 Olivine_Gym_Combate_Crom_Texto_7:
 .string "Oh{PAUSE 15}…{PAUSE 15}\n"
-	.string "No recuerdo la última vez que vi\l"
-	.string "algo así.$"
+	.string "No recuerdo la última vez\l"
+	.string "que vi algo así.$"
 
 Olivine_Gym_Combate_Crom_Texto_8:
 .string "Nadie ha sido rival para mi\n"
 	.string "SKARMORY desde que se transformó\l"
 	.string "aquel día, ya lejano. Creí ese día\l"
 	.string "haber descubierto ya el secreto\l"
-	.string "del acero, pero parece que siempre\l"
+	.string "del ACERO, pero parece que siempre\l"
 	.string "queda algo nuevo por aprender.$"
 
 Olivine_Gym_Combate_Crom_Texto_9:
 .string "Te estaré eternamente agradecido,\n"
 	.string "acabo de cerrar con broche de oro\l"
-	.string "mi estancia en CIUDAD OLIVO con\l"
+	.string "mi estancia en CIUDAD OLIVO, con\l"
 	.string "un combate digno de ser\l"
 	.string "presenciado en el olimpo POKÉMON.$"
 
@@ -167,8 +167,8 @@ Olivine_Gym_Combate_Crom_Texto_9.1:
 	.string "MEDALLA MINERAL.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.2:
-	.string "También, quiero que cuides de\n"
-	.string "este pequeño.$"
+	.string "También, quiero que cuides\n"
+	.string "de este pequeño.$"
 
 Olivine_Gym_Combate_Crom_Texto_10:
 .string "¡¡OBTUVISTE UN RIOLU AL Nv.25!!$"
@@ -180,13 +180,13 @@ Olivine_Gym_Combate_Crom_Texto_11:
 	.string "su capacidad de concentración,\l"
 	.string "dominará el ACERO como pocos. Me\l"
 	.string "he tomado la molestia de equiparlo\l"
-	.string "con un regalito que elevará aún\l"
+	.string "con un regalito, que elevará aún\l"
 	.string "más su poder.$"
 
 Olivine_Gym_Combate_Crom_Texto_12:
 .string "Y una última cosa, deberías\n"
-	.string "asistir al evento de apertura del\l"
-	.string "PUERTO OLIVO. Toma.$"
+	.string "asistir al evento de apertura\l"
+	.string "del PUERTO OLIVO. Toma.$"
 
 Olivine_Gym_Combate_Crom_Texto_13:
 .string "Van a celebrar una fiesta en honor\n"

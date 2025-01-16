@@ -1963,7 +1963,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
 	.string "proporcionárselo.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3:
-.string "Aún así, no es invencible, nadie\n"
+.string "Aun así, no es invencible, nadie\n"
 	.string "lo es; a día de hoy nuestros mejores\l"
 	.string "EJECUTIVOS y ADMINISTRADORES podrían\l"
 	.string "neutralizarlo. Pero no le daremos el\l"

@@ -46,7 +46,7 @@ Goldenrod_RadioTowerP10_NPC_3_Texto_1:
 	.string "seguridad.$"
 
 Goldenrod_RadioTowerP10_NPC_3_Texto_2:
-	.string "Aún así, es una minúscula fracción\n"
+	.string "Aun así, es una minúscula fracción\n"
 	.string "comparada con todo lo que TORRE RADIO\l"
 	.string "genera.$"
 
