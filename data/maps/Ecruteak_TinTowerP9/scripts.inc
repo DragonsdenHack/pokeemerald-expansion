@@ -88,23 +88,32 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_3
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_3 MSGBOX_AUTOCLOSE
 delay 30
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_5 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 trainerbattle_no_intro TRAINER_AGATHA_2, Ecruteak_TinTowerP9_Combate_Agatha_Texto_6
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerP9_Combate_Agatha_Move_5
 waitmovement 0x0
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_6
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 fadescreen 1
@@ -116,7 +125,7 @@ release
 end
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_1:
-.string "AGATHA: ¡{PLAYER}!\n"
+.string "AGATHA: ¡{PLAYER}!\p"
 	.string "¡Eres incansable!$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_2:
@@ -138,16 +147,16 @@ Ecruteak_TinTowerP9_Combate_Agatha_Texto_4:
 	.string "ÉLITE 4.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_5:
-.string "¡En guardia, {PLAYER}!\n"
-	.string "¡Este período en TORRE CAMPANA me\l"
+.string "¡En guardia, {PLAYER}!\p"
+	.string "¡Este período en TORRE CAMPANA me\n"
 	.string "ha permitido volver a conectar con\l"
-	.string "mi equipo POKÉMON!$"
+	.string "mis POKÉMON FANTASMA!$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_6:
 .string "Ya te lo dije y te lo vuelvo a\n"
-	.string "decir, tienes un don para el\l"
-	.string "combate. Veremos hasta donde\l"
-	.string "llegas.$"
+	.string "decir; tienes un don para el\l"
+	.string "combate.\p"
+	.string "Veremos hasta donde llegas.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_7:
 .string "Llegaste a explorar y conocer cada\n"
@@ -160,11 +169,11 @@ Ecruteak_TinTowerP9_Combate_Agatha_Texto_8:
 .string "El GRAN MAESTRO de TORRE CAMPANA\n"
 	.string "te espera. Ándate con ojo, {PLAYER},\l"
 	.string "hay fuerzas en este mundo que\l"
-	.string "harían temblar a cualquier\l"
-	.string "ENTRENADOR, incluso a alguien como\l"
-	.string "tú. Cada vez más lejos, más\l"
-	.string "difíciles los retos, pero, ¿hasta\l"
-	.string "cuándo podrán tus POKÉMON soportar\l"
+	.string "harían temblar a cualquiera,\l"
+	.string "incluso a alguien como tú.\p"
+	.string "Cada vez más lejos, más difíciles\n"
+	.string "los retos, pero, ¿hasta cuándo\l"
+	.string "podrán tus POKÉMON soportar\l"
 	.string "esa presión?$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Move_1:

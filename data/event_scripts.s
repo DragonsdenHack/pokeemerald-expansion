@@ -2987,3 +2987,5 @@ Text_EVChecker_3:
 	.include "data/maps/NewBark_Casa_Npc/scripts.inc"
 
 	.include "data/maps/Pass_LakeofRage/scripts.inc"
+
+	.include "data/maps/Goldenrod_Casa_Secreta/scripts.inc"

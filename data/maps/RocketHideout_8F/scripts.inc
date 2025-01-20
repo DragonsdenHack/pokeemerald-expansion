@@ -4570,7 +4570,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_17:
 RocketHideout_8F_Mision_Lago_Furia_Texto_18:
 .string "La apertura de la estación que conecta\n"
 	.string "TRIGAL con AZAFRÁN, y la demolición de\l"
-	.string "la TORRE LAVANDA se aproximan, pero a\l"
+	.string "la TORRE POKÉMON se aproximan, pero a\l"
 	.string "la espera de estos acontecimientos,\l"
 	.string "vuestra misión será seguir expandiendo\l"
 	.string "lo que sabemos sobre los POKÉMON.$"
@@ -4882,7 +4882,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_15:
 	.string "región.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_16:
-.string "La demolición de TORRE LAVANDA es\n"
+.string "La demolición de TORRE POKÉMON es\n"
 	.string "inminente, en este momento ya deben de\l"
 	.string "haber evacuado todo para llevarla a\l"
 	.string "cabo. Mientras, nada os retiene aquí, y\l"
@@ -4890,12 +4890,12 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_16:
 	.string "aún no has visitado.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_17:
-.string "En cuanto TORRE LAVANDA sea demolida,\n"
+.string "En cuanto TORRE POKÉMON sea demolida,\n"
 	.string "comenzará la construcción en tiempo\l"
-	.string "récord de la nueva TORRE RADIO.\l"
-	.string "Entretanto, os informo de que se\l"
+	.string "récord de la nueva TORRE RADIO.\p"
+	.string "Entretanto, os informo de que se\n"
 	.string "celebrará la II GRAN REUNIÓN EN\l"
-	.string "TRIGAL.$"
+	.string "CIUDAD TRIGAL.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_18:
 .string "ANDRA: ¡Wow! Ahora que KANTO y JOHTO\n"

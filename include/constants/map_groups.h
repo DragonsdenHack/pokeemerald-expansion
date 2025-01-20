@@ -260,6 +260,7 @@
 #define MAP_GOLDENROD_RADIO_TOWER_P8    (23 | (7 << 8))
 #define MAP_GOLDENROD_RADIO_TOWER_P9    (24 | (7 << 8))
 #define MAP_GOLDENROD_RADIO_TOWER_P10   (25 | (7 << 8))
+#define MAP_GOLDENROD_CASA_SECRETA      (26 | (7 << 8))
 
 // gMapGroup_IndoorEcruteakCity
 #define MAP_ECRUTEAK_PKMN_CENTER               (0 | (8 << 8))
@@ -1478,6 +1479,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 11, 9, 9, 26, 23, 14, 7, 7, 12, 99, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 11, 9, 9, 27, 23, 14, 7, 7, 12, 99, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

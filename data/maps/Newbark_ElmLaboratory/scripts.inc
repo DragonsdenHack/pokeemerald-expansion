@@ -42,26 +42,29 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40F8, 54
 goto_if_gt NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn
-checkitem ITEM_AERODACTYLITE
-goto_if_eq VAR_RESULT, FALSE, NewBarkTown_ElmLaboratory_Combate_Elm_2
-msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
-release
-end
-
-NewBarkTown_ElmLaboratory_Combate_Elm_2::
+goto_if_set FLAG_HOENN_112, NewBarkTown_ElmLaboratory_Combate_Elm_2
+delay 10
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_2 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq NewBarkTown_ElmLaboratory_Combate_Elm_No
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_ELM_2, NewBarkTown_ElmLaboratory_Combate_Elm_Texto_5
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_AERODACTYLITE
+setflag FLAG_HOENN_112
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+NewBarkTown_ElmLaboratory_Combate_Elm_2::
+msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -71,8 +74,8 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Hoenn_Texto_1:
-.string "Buenos días, {PLAYER}.\n"
-	.string "Y por si no volvemos a vernos,\l"
+.string "Buenos días, {PLAYER}.\p"
+	.string "Y por si no volvemos a vernos,\n"
 	.string "buenas tardes y buenas noches.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6.1:
@@ -99,10 +102,10 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_2:
 	.string "que hemos logrado?$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3:
-.string "¿Y ahora qué?\n"
-	.string "¡A trabajar en el futuro, 2 años y\l"
-	.string "no reconoceremos la tierra sobre\l"
-	.string "la que hoy andamos!$"
+.string "¿Y ahora qué?\p"
+	.string "¡A trabajar en el futuro, 2 años y\n"
+	.string "no reconoceremos la región sobre\l"
+	.string "la que hoy alegremente andamos!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_4:
 .string "No esperaba menos, ¡mi ejército de\n"
@@ -117,13 +120,12 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
 	.string "ponen un poco de su parte, {PLAYER}.\l"
 	.string "El PORYGON3 de BILL, así como el\l"
 	.string "MAGMORTAR-Y de BLAINE, los\l"
-	.string "experimentos de OAK{PAUSE 25}…{PAUSE 25} Todos\l"
-	.string "trabajan ahora para KANTO y JOHTO,\l"
-	.string "la unión de las dos regiones será\l"
-	.string "la principal potencia del mundo\l"
-	.string "POKÉMON, y tú, uno de sus más\l"
-	.string "altos cargos. Por ello, quiero que\l"
-	.string "tengas esto.$"
+	.string "experimentos de OAK{PAUSE 25}…{PAUSE 25}\l"
+	.string "Todos trabajan ahora para KANTO y JOHTO,\l"
+	.string "la unión de las dos regiones será la\l"
+	.string "principal potencia del mundo POKÉMON,\l"
+	.string "y tú uno de sus más altos cargos.\p"
+	.string "Por ello, quiero que tengas esto.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
 .string "El principal colaborador de BILL\n"
@@ -131,10 +133,10 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
 	.string "que devuelve a AERODACTYL el\l"
 	.string "95% de sus cualidades en estado\l"
 	.string "primigenio. Me dijo que te\l"
-	.string "regalase una en caso de verte.$"
+	.string "regalase una, en caso de verte.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8:
-.string "Pse, tú mismo, creí que te llamaba\n"
+.string "Pse, tú mismo. Creí que te llamaba\n"
 	.string "lo extraordinario.$"
 
 Newbark_ElmLaboratory_Final_Move_1:

@@ -15396,6 +15396,18 @@
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Pass_LakeofRage/border.bin",
       "blockdata_filepath": "data/layouts/Pass_LakeofRage/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CASA_SECRETA",
+      "name": "Goldenrod_Casa_Secreta_Layout",
+      "width": 8,
+      "height": 7,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Goldenrod_Casa_Secreta/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_Casa_Secreta/map.bin"
     }
   ]
 }

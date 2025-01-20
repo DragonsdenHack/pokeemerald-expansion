@@ -142,6 +142,7 @@ waitmovement 0x0
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
 delay 30
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_2
@@ -259,12 +260,14 @@ applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
-fadescreen 1
+removeobject 3
 playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 3
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
 removeobject 7
-fadescreen 0
 setvar VAR_UNUSED_0x40FD, 2
 release
 end
@@ -335,34 +338,33 @@ face_left
 step_end
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_1:
-.string "PEGASO: Ve con todo MOLTRES, ese\n"
+.string "PEGASO: Ve con todo, MOLTRES, ese\n"
 	.string "PIDGEOT está poniendo en duda tu\l"
-	.string "condición de LEGENDARIO, ¡no le\l"
-	.string "des cuartel!$"
+	.string "condición de LEGENDARIO.\p"
+	.string "¡No le des cuartel!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_2:
 .string "¡Trees!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_3:
 .string "PEGASO: Bien…\n"
-	.string "Bien aguantado, ese VENDAVAL pega\l"
-	.string "cada vez más duro.$"
+	.string "Bien aguantado, ese VENDAVAL\l"
+	.string "pega cada vez más duro.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_4:
-.string "¡{PLAYER}!\n"
-	.string "¡Tú de nuevo!\l"
+.string "¡{PLAYER}!\p"
+	.string "¡Tú de nuevo!\p"
 	.string "Veo que no te conformas con\l"
 	.string "visitar las ciudades y lugares\l"
-	.string "típicos de JOHTO, quieres\l"
-	.string "impregnarte y aprender de cada\l"
-	.string "rincón de esta región, eso está\l"
-	.string "bien.$"
+	.string "típicos de JOHTO, quieres impregnarte\l"
+	.string "y aprender de cada rincón de esta\l"
+	.string "región, eso está bien.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_5:
 .string "PEGASO: Te presento a HORACE, es\n"
 	.string "mi alumno más aventajado, y con\l"
-	.string "diferencia he de añadir, solemos\l"
-	.string "venir aquí a entrenar, este\l"
+	.string "diferencia, he de añadir.\l"
+	.string "Solemos venir aquí a entrenar, este\l"
 	.string "pequeño islote es perfecto para\l"
 	.string "que nuestras aves puedan desplegar\l"
 	.string "sus alas con total libertad.$"
@@ -376,17 +378,16 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_6:
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_7:
 .string "¿Sabías que su MEGAEVOLUCIÓN\n"
-	.string "alcanza los 579 puntos de BASE?, 1\l"
-	.string "solo punto menos que los 580 de\l"
-	.string "las AVES LEGENDARIAS.$"
+	.string "se queda a un suspiro del poder\l"
+	.string "base global que tienen las AVES?$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_8:
 .string "Algunos dicen que es una señal, y\n"
 	.string "prueba de que las diferencias\l"
 	.string "genéticas entre especies son\l"
 	.string "insalvables, y nunca podrán tocar\l"
-	.string "el olimpo de los LEGENDARIOS, yo\l"
-	.string "creo que es pura casualidad.$"
+	.string "el olimpo de los LEGENDARIOS.\l"
+	.string "Yo creo que es pura casualidad.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
 .string "HORACE ha cuidado de su PIDGEOT\n"
@@ -394,9 +395,9 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
 	.string "desde que él era un crío y este\l"
 	.string "imponente PIDGEOT que hoy ves no\l"
 	.string "era más que un débil y fragil\l"
-	.string "PIDGEY, creyó en él, todo eso no\l"
-	.string "pasa desapercibido {PLAYER},\l"
-	.string "después se ve reflejado en el\l"
+	.string "PIDGEY. Creyó en él, todo eso no\l"
+	.string "pasa desapercibid, {PLAYER}.\l"
+	.string "Después se ve reflejado en el\l"
 	.string "campo de batalla.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_10:
@@ -414,30 +415,30 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_12:
 .string "Ya en MEGAEVOLUCIÓN es un POKÉMON\n"
 	.string "de temer para cualquiera, de mi\l"
 	.string "equipo solo RAPIDASH puede\l"
-	.string "enfrentarlo en un 1 contra 1,\l"
+	.string "enfrentarlo en un 1 contra 1.\l"
 	.string "HORACE ha logrado lo que el\l"
 	.string "MAESTRO de TORRE BELLSPROUT logró\l"
-	.string "con su pequeño BELLSPROUT, pero en\l"
-	.string "un PIDGEOT.$"
+	.string "con su pequeño BELLSPROUT, pero\l"
+	.string "en un PIDGEOT.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_13:
 .string "Con ello lo que quiero decirte es\n"
 	.string "que aún sabemos muy poco de este\l"
-	.string "mundo {PLAYER}, a pesar de todos\l"
+	.string "mundo, {PLAYER}, a pesar de todos\l"
 	.string "los lugares que hayamos visto,\l"
 	.string "siempre cabe lugar para\l"
-	.string "sorprendernos, y todo POKÉMON\l"
-	.string "tiene su lugar si de verdad crees\l"
-	.string "en él.$"
+	.string "sorprendernos.\p"
+	.string "Todo POKÉMON tiene su lugar,\n"
+	.string "si de verdad crees en él.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_14:
 .string "Ahora sí, me marcho de CIUDAD\n"
-	.string "MALVA, y de JOHTO, un nuevo viaje\l"
-	.string "me espera.$"
+	.string "MALVA, y de JOHTO, un nuevo\l"
+	.string "viaje me espera.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_15:
 .string "HORACE estará encantado de\n"
-	.string "entrenar contigo {PLAYER}, no\l"
+	.string "entrenar contigo, {PLAYER}. No\l"
 	.string "encontrarás un ornitólogo como él\l"
 	.string "ni en KANTO ni en JOHTO, seguro\l"
 	.string "que algo puede enseñarte.$"

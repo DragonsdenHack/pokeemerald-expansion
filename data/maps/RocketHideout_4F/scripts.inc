@@ -1648,7 +1648,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.1:
 	.string "Por su ritmo de avance, todo apunta\n"
 	.string "a que llegará a PUEBLO LAVANDA en plena\l"
 	.string "misión. Si por algún casual decide\l"
-	.string "colarse en la TORRE LAVANDA, no podemos\l"
+	.string "colarse en la TORRE POKÉMON, no podemos\l"
 	.string "arriesgarnos a tener un MT.MOON 2.0.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.2:

@@ -575,35 +575,49 @@ addobject 10
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_2
 waitmovement 0x0
+waitse
 delay 15
 playse SE_PIN
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
 applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_8
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_7
 waitmovement 0x0
+delay 10
 applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_9
 delay 15
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_10
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_11
@@ -664,17 +678,17 @@ end
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.1:
 .string "¡Obtuviste PASE ÉLITE de manos\n"
-	.string "POLICÍA!$"
+	.string "del POLICÍA!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_1:
-.string "ANDRA: ¡{PLAYER}!\n"
-	.string "¿Tú también?\l"
+.string "ANDRA: ¡{PLAYER}!\p"
+	.string "¿Tú también?\p"
 	.string "¡Cuánto tiempo!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2:
 .string "Después de la caída de OAK,\n"
-	.string "GIOVANNI me destinó a HOENN para\l"
-	.string "estudiar unas ruinas parecidas a\l"
+	.string "GIOVANNI me destinó a HOENN, para\l"
+	.string "estudiar esas ruinas parecidas a\l"
 	.string "las de ISLAS SETE.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3:
@@ -685,7 +699,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3:
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
 .string "Solo GIOVANNI y ATLAS asistirán a\n"
-	.string "esta reunión aparte de nosotros.\l"
+	.string "esta reunión, aparte de nosotros.\l"
 	.string "Nuestro buen hacer y habilidad en\l"
 	.string "el combate nos ha llevado a la\l"
 	.string "cima, ahora es cuando podemos usar\l"
@@ -694,8 +708,8 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
 .string "Sois el ADMIN.JEFE {PLAYER}, y la\n"
-	.string "ADMIN.JEFA ANDRA del TEAM ROCKET,\l"
-	.string "¿me equivoco?$"
+	.string "ADMIN.JEFA ANDRA, del TEAM ROCKET.\p"
+	.string "¿Me equivoco?$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6:
 .string "ANDRA: Así es.$"
@@ -711,12 +725,12 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
 .string "¿En serio creíais que\n"
 	.string "organizaríamos la reunión más\l"
-	.string "importante de los últimos 3 años\l"
-	.string "en un lugar así?\l"
-	.string "Cualquier crío de 10 años podría\l"
+	.string "importante de la década en un\l"
+	.string "lugar así?\p"
+	.string "Cualquier crío de 10 años podría\n"
 	.string "colarse en este despacho, una\l"
 	.string "reunión de esta magnitud exige la\l"
-	.string "máxima discreción y seguridad.\l"
+	.string "máxima discreción y seguridad.\p"
 	.string "Tomad.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
@@ -730,12 +744,12 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
 	.string "es familiar{PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
-.string "ANDRA: ¡Vamos allá, {PLAYER}!\n"
-	.string "Las personas más influyentes y\l"
+.string "ANDRA: ¡Vamos allá, {PLAYER}!\p"
+	.string "Las personas más influyentes y\n"
 	.string "poderosas de las 2 regiones\l"
-	.string "estarán aquí. El TEAM\l"
-	.string "ROCKET va a cambiar el curso de la\l"
-	.string "historia.$"
+	.string "estarán aquí.\p"
+	.string "¡Vamos a cambiar el curso\n"
+	.string "de la historia!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1:
 face_down

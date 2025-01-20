@@ -12,11 +12,10 @@ OlivineCity_Pub_Text_1:
 .string "Este lugar está abierto las 24\n"
 .string "horas, se hizo muy popular entre\l"
 .string "los marineros venir aquí a las 5-6\l"
-.string "de la mañana, y acabó\l"
-.string "convirtiéndose en un punto de\l"
-.string "reunión para marineros retirados o\l"
-.string "que vuelven después de trabajar.\l"
-.string "La tradición se ha mantenido hasta\l"
+.string "de la mañana, y acabó convirtiéndose\l"
+.string "en un punto de reunión para marineros\l"
+.string "retirados o que vuelven de trabajar.\p"
+.string "La tradición se ha mantenido hasta\n"
 .string "el día de hoy.$"
 
 
@@ -34,10 +33,9 @@ release
 end
 
 OlivineCity_Pub_Text_3:
-.string "El restaurante de CIUDAD AZULONA\n"
-.string "es un chiste en comparación con\l"
-.string "este.\l"
-.string "¡Aquí te traen todo recién pillado\l"
+.string "El restaurante de CIUDAD AZULONA es\n"
+.string "un chiste en comparación con este.\p"
+.string "¡Aquí te traen todo recién pillado\n"
 .string "del mar, me voy a poner morado!$"
 
 
@@ -87,13 +85,20 @@ delay 20
 playse SE_PIN
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_2
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_EVER_GRANDE_CITY_STATE, 1
 release
@@ -114,13 +119,17 @@ waitfanfare
 playse SE_PIN
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_2
 waitmovement 0x0
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Olivine_Pub_Mision_Secundaria_Texto_13 MSGBOX_DEFAULT
@@ -210,8 +219,8 @@ Olivine_Pub_Mision_Secundaria_Texto_11:
 Olivine_Pub_Mision_Secundaria_Texto_12:
 .string "Sé que es poco para alguien como tú,\n"
 	.string "pero rescaté a este raro POKÉMON de\l"
-	.string "ser vendido en el mercado negro. Es\l"
-	.string "tuyo.$"
+	.string "ser vendido en el mercado negro.\p"
+	.string "Es tuyo.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_13:
 .string "¡OBTUVISTE UN FROAKIE AL NV.15!$"
@@ -219,8 +228,8 @@ Olivine_Pub_Mision_Secundaria_Texto_13:
 Olivine_Pub_Mision_Secundaria_Texto_14:
 .string "Creo que es el inicial de alguna región\n"
 	.string "lejana, puede cambiar de tipo según el\l"
-	.string "movimiento que ejecute. ¡Es muy\l"
-	.string "versátil!$"
+	.string "movimiento que ejecute.\l"
+	.string "¡Es muy versátil!$"
 
 Olivine_Pub_Mision_Secundaria_Texto_15:
 .string "Seguir una vida íntegra te dará mayor\n"

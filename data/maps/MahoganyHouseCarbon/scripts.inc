@@ -13,6 +13,7 @@ delay 15
 playse SE_PIN
 applymovement 2, MahoganyHouseCarbon_Secundaria_Move_1
 waitmovement 0x0
+waitse
 delay 10
 msgbox MahoganyHouseCarbon_Secundaria_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -93,8 +94,8 @@ MahoganyHouseCarbon_Secundaria_Texto_5:
 MahoganyHouseCarbon_Secundaria_Texto_6:
 .string "Nos prometieron expandir nuestro\n"
 	.string "pequeño negocio de CARBÓN a toda\l"
-	.string "JOHTO e incluso a otras regiones. A\l"
-	.string "nosotros nos era indiferente, ya\l"
+	.string "JOHTO e incluso a otras regiones.\l"
+	.string "A nosotros nos era indiferente, ya\l"
 	.string "estábamos contentos con abastecer a\l"
 	.string "PUEBLO AZALEA y alrededores.$"
 

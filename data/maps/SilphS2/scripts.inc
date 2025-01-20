@@ -1145,10 +1145,6 @@ end
 
 Base_Johto_Llave_Derecha_Despues::
 delay 10
-msgbox Base_Johto_Llave_Derecha_Despues_Texto_2, MSGBOX_YESNO
-compare VAR_RESULT, 0
-goto_if_eq RocketHideout_4F_Warp_No
-delay 40
 playse SE_CARD
 delay 40
 playse SE_CLICK
@@ -1160,6 +1156,7 @@ setmetatile 17, 55, 0x335, FALSE
 setmetatile 18, 55, 0x335, FALSE
 setmetatile 17, 56, 0x339, FALSE
 setmetatile 18, 56, 0x33A, FALSE
+setmetatile 19, 56, 0x281, FALSE
 special DrawWholeMapView
 delay 20
 release
@@ -1176,10 +1173,6 @@ end
 
 Base_Johto_Llave_Izquierda_Despues::
 delay 10
-msgbox Base_Johto_Llave_Derecha_Despues_Texto_2, MSGBOX_YESNO
-compare VAR_RESULT, 0
-goto_if_eq RocketHideout_4F_Warp_No
-delay 40
 playse SE_CARD
 delay 40
 playse SE_CLICK
@@ -1191,6 +1184,7 @@ setmetatile 13, 55, 0x335, FALSE
 setmetatile 14, 55, 0x335, FALSE
 setmetatile 13, 56, 0x339, FALSE
 setmetatile 14, 56, 0x33A, FALSE
+setmetatile 15, 56, 0x334, FALSE
 special DrawWholeMapView
 delay 20
 release

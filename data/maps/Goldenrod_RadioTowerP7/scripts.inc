@@ -47,7 +47,7 @@ goto_if_set FLAG_HOENN_104, Goldenrod_RadioTowerP7_EventScript_ReceivedTM78
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_1 MSGBOX_NPC
 delay 10
 msgbox Goldenrod_RadioTowerP7_NPC_4_Texto_2 MSGBOX_NPC
-giveitem ITEM_TM132
+giveitem ITEM_TM162
 setflag FLAG_HOENN_104
 delay 10
 release
@@ -67,7 +67,7 @@ Goldenrod_RadioTowerP7_NPC_4_Texto_2:
 	.string "Esta a ti podría interesarte.$"
 
 Goldenrod_RadioTowerP7_NPC_4_Texto_3:
-	.string "¡{PLAYER} obtuvo la MT78 ONDA ÍGNEA\n"
+	.string "¡{PLAYER} obtuvo la MT178 ONDA ÍGNEA\n"
 	.string "de manos de científico!$"
 
 Goldenrod_RadioTowerP7_NPC_4_Texto_4:

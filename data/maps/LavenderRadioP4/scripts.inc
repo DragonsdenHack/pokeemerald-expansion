@@ -1289,7 +1289,7 @@ LavenderRadioP4_Devon_Combates_Texto_76:
 	.string "REUNIÓN, me temía todo esto. Pero\l"
 	.string "quise mirar para otro lado. Una parte de\l"
 	.string "mí creía que nada de esto podía pasar,\l"
-	.string "que TORRE LAVANDA seguiría, que\l"
+	.string "que TORRE POKÉMON seguiría, que\l"
 	.string "nuestros equipos continuarían\l"
 	.string "mejorando de forma -natural-, que\l"
 	.string "nuestra progresión lineal y constante\l"

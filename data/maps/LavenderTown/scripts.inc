@@ -440,7 +440,7 @@ LavenderTown_Cierre_Torre_Texto_5:
 	.string "su pasado?$"
 
 LavenderTown_Cierre_Torre_Texto_6:
-.string "ATLAS: Lo que TORRE LAVANDA ha sido\n"
+.string "ATLAS: Lo que TORRE POKÉMON ha sido\n"
 	.string "para KANTO está celosamente\l"
 	.string "documentado, ya nada podrá borrar su\l"
 	.string "papel en la historia. Dentro de 1000\l"
@@ -463,7 +463,7 @@ LavenderTown_Cierre_Torre_Texto_9:
 .string "AGATHA: ¡Es innecesario!$"
 
 LavenderTown_Cierre_Torre_Texto_10:
-.string "ATLAS: Que TORRE LAVANDA desaparezca\n"
+.string "ATLAS: Que TORRE POKÉMON desaparezca\n"
 	.string "envía un poderoso mensaje a KANTO.\l"
 	.string "Prepara a toda la región para nuevos\l"
 	.string "tiempos y les libera de su pasado.$"

@@ -141,6 +141,7 @@ playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_114, AzaleaCarbonS2_Segundo_Combate_Texto_2
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 11, AzaleaCarbonS2_Segundo_Combate_Move_2
 waitmovement 0x0
@@ -258,6 +259,7 @@ delay 20
 playse SE_BREAKABLE_DOOR
 applymovement 1, AzaleaCarbonS2_Combate_Final_Move_8
 waitmovement 0x0
+waitse
 delay 5
 msgbox AzaleaCarbonS2_Combate_Final_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, AzaleaCarbonS2_Segundo_Combate_Move_2
@@ -273,7 +275,9 @@ msgbox AzaleaCarbonS2_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, AzaleaCarbonS2_Combate_Final_Move_7
 waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox AzaleaCarbonS2_Combate_Final_Texto_22 MSGBOX_DEFAULT
@@ -377,9 +381,9 @@ AzaleaCarbonS2_Combate_Final_Texto_8:
 AzaleaCarbonS2_Combate_Final_Texto_9:
 .string "No creas que he tomado a la ligera esta\n"
 	.string "profesión, solo por la oportunidad\l"
-	.string "económica. Me he ocupado\l"
-	.string "personalmente de reunir a los mejores\l"
-	.string "para desempeñarla.$"
+	.string "económica.\l"
+	.string "Me he ocupado personalmente de reunir\l"
+	.string "a los mejores para desempeñarla.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_10:
 .string "¡Ahora lo verás!$"
@@ -398,17 +402,17 @@ AzaleaCarbonS2_Combate_Final_Texto_13:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_14:
-.string "¿¡¡El TEAM ROCKET!!? ¿¡¡Su más alto\n"
-	.string "ADMINISTRADOR JEFE y LÍDER en\l"
-	.string "JOHTO!!?$"
+.string "¿¡¡El TEAM ROCKET!!?\p"
+	.string "¿¡¡Su más alto ADMINISTRADOR\n"
+	.string "y LÍDER en JOHTO!!?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_15:
 .string "Oh, no sabía{PAUSE 5}…{PAUSE 5}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_16:
 .string "Sea como sea, incluso vuestra\n"
-	.string "organización es incapaz de deshacer el\l"
-	.string "contrato.$"
+	.string "organización es incapaz de\l"
+	.string "deshacer el contrato.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_17:
 .string "Pero{PAUSE 15}…{PAUSE 15} no soy estúpido, llevarme mal\n"
@@ -430,7 +434,7 @@ AzaleaCarbonS2_Combate_Final_Texto_19:
 	.string "desconocemos.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_20:
-.string "Y no es por tratar de quedar bien, mi\n"
+.string "Y no es por tratar de quedar bien; mi\n"
 	.string "SIRFETCHD sintió la presencia de un\l"
 	.string "POKÉMON{PAUSE 15}…{PAUSE 15} debe ser su contraparte{PAUSE 15}…{PAUSE 15} tal\l"
 	.string "vez corte la madera incluso mejor.$"

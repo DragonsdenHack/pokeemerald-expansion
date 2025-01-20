@@ -3128,4 +3128,20 @@ ExCampeonFantasma_EventScript_Ala::
 finditem ITEM_GALARICA_TWIG
     end
 
+CuevaHypno_EventScript_MaxElixir::
+finditem ITEM_MAX_ELIXIR
+    end
+
+CuevaHypno_EventScript_Telaterrible::
+finditem ITEM_REAPER_CLOTH
+    end
+
+CuevaHypno_EventScript_TM166::
+finditem ITEM_TM166_AMNESIA
+   end
+
+CuevaHypno_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+   end
+
 

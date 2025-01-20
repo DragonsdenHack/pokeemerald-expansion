@@ -7436,7 +7436,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_MAY_ROUTE_119_MUDKIP] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_POKEGUARDA,
+        .trainerClass = TRAINER_CLASS_POKEGUARDAJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
         .trainerPic = TRAINER_PIC_FR_POKEMON_RANGER_M,
         .trainerName = _("ROBBINS"),
@@ -13218,7 +13218,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_86] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICO,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("KREW"),
@@ -13232,7 +13232,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_87] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CABALLEROJOHTO,
+        .trainerClass = TRAINER_CLASS_SINGULAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_FR_GENTLEMAN,
         .trainerName = _("AMOS"),

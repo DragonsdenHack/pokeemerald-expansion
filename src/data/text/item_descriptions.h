@@ -4200,9 +4200,9 @@ static const u8 sMegaRingDesc[] = _(
     "Megapiedra.");
 
 static const u8 sZPowerRingDesc[] = _(
-    "A strange ring\n"
-    "that enables\n"
-    "Z-Move usage.");
+    "Extraño anillo\n"
+    "que activa un\n"
+    "movimiento-Z.");
 
 static const u8 sDynamaxBandDesc[] = _( // Todo
     "?????");

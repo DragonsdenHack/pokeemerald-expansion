@@ -1175,7 +1175,6 @@ BosqueGimnasio_Mercado_2_Pokemart:
 	.2byte ITEM_MICLE_BERRY
 	.2byte ITEM_CUSTAP_BERRY
 	.2byte ITEM_JABOCA_BERRY
-	.2byte ITEM_ROWAP_BERRY
 	.2byte ITEM_KEE_BERRY
 	.2byte ITEM_MARANGA_BERRY
 	.2byte ITEM_NONE

@@ -39,8 +39,8 @@ end
 IndigoJohto_Text_3:
 .string "El MONTE PLATEADO siempre fue la\n"
 .string "gran frontera que marcaba el\l"
-.string "territorio de KANTO y JOHTO.\l"
-.string "Después de que JOHTO ganara la\l"
+.string "territorio de KANTO y JOHTO.\p"
+.string "Después de que JOHTO ganara la\n"
 .string "guerra se quedó también con la\l"
 .string "disputa de RUTA 26. Tal vez, ahora\l"
 .string "que mejoran las relaciones, esta\l"
@@ -93,22 +93,35 @@ playse SE_PIN
 applymovement 1, Indigo_Johto_Atlas_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_5
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Indigo_Johto_Atlas_Move_2
 applymovement 6, Indigo_Johto_Atlas_Move_6
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_2
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_7
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_8.1
 applymovement 6, Indigo_Johto_Atlas_Move_8
 waitmovement 0x0
 removeobject 6
@@ -118,6 +131,15 @@ setvar VAR_UNUSED_0x40F7, 156
 release
 end
 
+Indigo_Johto_Atlas_Move_8.1:
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+step_end
+
 Indigo_Johto_Atlas_Texto_1:
 .string "Solo ex-campeones o gente\n"
 	.string "involucrada directamente con este\l"
@@ -125,9 +147,9 @@ Indigo_Johto_Atlas_Texto_1:
 	.string "las reglas.$"
 
 Indigo_Johto_Atlas_Texto_2:
-.string "Cuida tus palabras, POLICÍA, estás\n"
-	.string "hablando con el verdadero CAMPEÓN\l"
-	.string "de KANTO.$"
+.string "Cuida tus palabras, POLICÍA.\p"
+	.string "Estás hablando con el verdadero\n"
+	.string "CAMPEÓN de KANTO.$"
 
 Indigo_Johto_Atlas_Texto_3:
 .string "A{PAUSE 15}-{PAUSE 15}ATLAS, yo no sab{PAUSE 5}…{PAUSE 5}$"
@@ -136,13 +158,13 @@ Indigo_Johto_Atlas_Texto_4:
 .string "ATLAS: Ahora ya lo sabes, ¿tengo\n"
 	.string "que recordarte también que los 3\l"
 	.string "ADMINISTRADORES JEFE del TEAM\l"
-	.string "ROCKET tienen acceso a este lugar?\l"
-	.string "{PLAYER} merece entonces entrar\l"
+	.string "ROCKET tienen acceso a este lugar?\p"
+	.string "{PLAYER} merece entonces entrar\n"
 	.string "aquí por partida doble.$"
 
 Indigo_Johto_Atlas_Texto_5:
-.string "Disculpe, señor ATLAS, no volverá a\n"
-	.string "ocurrir.$"
+.string "Disculpe, señor ATLAS.\n"
+	.string "No volverá a ocurrir.$"
 
 Indigo_Johto_Atlas_Texto_6:
 .string "Veo que no malgastas tu tiempo,\n"
@@ -155,16 +177,14 @@ Indigo_Johto_Atlas_Texto_7:
 	.string "LIGA POKÉMON de KANTO. GIOVANNI\l"
 	.string "planea unir este punto de control\l"
 	.string "y el de KANTO en uno solo, para\l"
-	.string "así hacer oficial la unión de las\l"
-	.string "2 regiones en una sola LIGA\l"
-	.string "POKÉMON.$"
+	.string "así formalizar la unión entre las\l"
+	.string "2 regiones, en una sola LIGA POKÉMON.$"
 
 Indigo_Johto_Atlas_Texto_8:
 .string "Estamos en plena etapa de\n"
-	.string "transición, {PLAYER}, vivirla desde\l"
-	.string "nuestro prisma será vital para\l"
-	.string "comprender el porqué de muchas\l"
-	.string "cosas en el futuro.$"
+	.string "transición, y vivirla desde nuestro\l"
+	.string "prisma será vital para comprender el\l"
+	.string "porqué de muchas cosas en el futuro.$"
 
 Indigo_Johto_Atlas_Move_1:
 face_left

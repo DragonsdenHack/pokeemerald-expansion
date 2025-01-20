@@ -31,11 +31,15 @@ clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 1
 applymovement 1, MtSilver_Combate_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MtSilver_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
@@ -43,15 +47,21 @@ delay 20
 applymovement 1, MtSilver_Combate_Andra_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MtSilver_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 1, MtSilver_Combate_Andra_Move_6
 waitmovement 0x0
@@ -63,6 +73,7 @@ msgbox MtSilver_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, MtSilver_Combate_Andra_Move_8
 waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_8.1
 applymovement 1, MtSilver_Combate_Andra_Move_9
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
@@ -77,32 +88,31 @@ MtSilver_Combate_Andra_Texto_1:
 	.string "{PLAYER}.$"
 
 MtSilver_Combate_Andra_Texto_2:
-.string "Sabía que tú tampoco\n"
-	.string "podrías resistirte a visitar un\l"
-	.string "lugar como este, observa.$"
+.string "Sabía que tú tampoco podrías\n"
+	.string "resistirte a visitar este lugar.\p"
+	.string "Observa.$"
 
 MtSilver_Combate_Andra_Texto_3:
 .string "Es como{PAUSE 25}…{PAUSE 25} si este fuera el lugar\n"
 	.string "donde el combate POKÉMON hubiera\l"
-	.string "nacido tal y como lo conocemos hoy\l"
-	.string "día. Aquí es donde los grandes\l"
+	.string "nacido, tal y como lo conocemos hoy\l"
+	.string "en día. Aquí es donde los grandes\l"
 	.string "campeones de KANTO y JOHTO han\l"
-	.string "venido a retirarse después de una\l"
-	.string "vida entregada al combate, aunque\l"
-	.string "parece que esa costumbre también\l"
+	.string "venido a retirarse, después de una\l"
+	.string "vida entregada al combate.\p"
+	.string "Parece que esa costumbre también\n"
 	.string "se está perdiendo.$"
 
 MtSilver_Combate_Andra_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 MtSilver_Combate_Andra_Texto_5:
-.string "He subido a la cima del MONTE\n"
-	.string "PLATEADO, adivina a quién me he\l"
-	.string "encontrado.$"
+.string "He subido a la cima del MT.PLATEADO.\p"
+	.string "Adivina a quién me he encontrado.$"
 
 MtSilver_Combate_Andra_Texto_6:
 .string "Así es, me he sorprendido a mí\n"
-	.string "misma viendo cómo pude derrotar a\l"
+	.string "misma, al ver cómo pude derrotar a\l"
 	.string "aquel que en la LIGA POKÉMON\l"
 	.string "parecía invencible. De nuevo, los\l"
 	.string "límites aún estaban mucho más\l"
@@ -111,31 +121,31 @@ MtSilver_Combate_Andra_Texto_6:
 MtSilver_Combate_Andra_Texto_7:
 .string "ROJO sigue, y seguirá siendo, un\n"
 	.string "ENTRENADOR extraordinario, pero\l"
-	.string "está limitado por su realidad.\l"
-	.string "Técnicamente, ha alcanzado la\l"
+	.string "está limitado por su realidad.\p"
+	.string "Técnicamente, ha alcanzado la\n"
 	.string "perfección con lo que tiene.$"
 
 MtSilver_Combate_Andra_Texto_8:
 .string "Pero para gente como nosotros,\n"
 	.string "que ha visto lo que hemos visto,\l"
 	.string "ese poder ya no tiene ningún\l"
-	.string "misterio. Enrolarnos en el TEAM\l"
-	.string "ROCKET fue lo mejor que pudimos\l"
-	.string "hacer para conocer la verdadera\l"
-	.string "historia.$"
+	.string "misterio.\p"
+	.string "Enrolarnos en el TEAM ROCKET fue lo\n"
+	.string "mejor que pudimos hacer para conocer\l"
+	.string "la verdadera historia.$"
 
 MtSilver_Combate_Andra_Texto_9:
 .string "He aprendido y mejorado mucho\n"
 	.string "desde que estoy en HOENN, {PLAYER},\l"
 	.string "dije que no usaría LEGENDARIOS en\l"
-	.string "mi equipo y lo mantengo.$"
+	.string "mi equipo, y lo mantengo.$"
 
 MtSilver_Combate_Andra_Texto_10:
 .string "Vine aquí, al MONTE PLATEADO, en\n"
-	.string "busca de un gran reto. ROJO no ha\l"
-	.string "estado mal, pero{PAUSE 25}…{PAUSE 25}\l"
-	.string "¡Sabía que el verdadero reto ibas\l"
-	.string "a ser tú!$"
+	.string "busca de un gran reto.\l"
+	.string "ROJO no ha estado mal, pero{PAUSE 25}…{PAUSE 25}\p"
+	.string "¡Sabía que el verdadero\n"
+	.string "reto ibas a ser tú!$"
 
 MtSilver_Combate_Andra_Texto_11:
 .string "Pse, algunas cosas nunca cambian.$"
@@ -152,16 +162,15 @@ MtSilver_Combate_Andra_Texto_12:
 	.string "hacia delante y seguir.$"
 
 MtSilver_Combate_Andra_Texto_13:
-.string "Me quedaré un tiempo en JOHTO.\n"
-	.string "GIOVANNI me quiere aquí por ahora,\l"
-	.string "creo que presiente que algo muy\l"
+.string "Me quedaré un tiempo en JOHTO.\p"
+	.string "GIOVANNI me quiere aquí por ahora,\n"
+	.string "creo que presiente{PAUSE 15} …{PAUSE 15} que algo muy\l"
 	.string "gordo se avecina. Yo también estoy\l"
-	.string "intrigada, desde ese\l"
-	.string "terremoto en ISLA SÉTIMA no hemos\l"
-	.string "vuelto a saber nada de lo\l"
-	.string "ocurrido, ni ver a LUGIA o a\l"
-	.string "HO-OH. Menos a ese POKÉMON\l"
-	.string "ESENCIA{PAUSE 5}…{PAUSE 5}$"
+	.string "intrigada, desde ese terremoto en\l"
+	.string "ISLA SÉTIMA, todo son incógnitas.\p"
+	.string "No hemos vuelto a ver a LUGIA o a\n"
+	.string "a HO-OH.\l"
+	.string "Mucho menos a ese POKÉMON ESENCIA{PAUSE 5}…{PAUSE 5}$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark

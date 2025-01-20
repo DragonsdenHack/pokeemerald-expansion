@@ -172,7 +172,7 @@ end
 EventScript_Shieldon::
 lock
 showmoneybox 0, 0
-msgbox EventScript_Frosmoth_Texto_1 MSGBOX_YESNO
+msgbox EventScript_Shieldon_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq EventScript_Compra_No
 checkmoney 110000

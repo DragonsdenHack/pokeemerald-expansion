@@ -620,9 +620,6 @@ settrainerflag TRAINER_NICOLAS_2
 settrainerflag TRAINER_NICOLAS_3
 settrainerflag TRAINER_NICOLAS_4
 settrainerflag TRAINER_AARON
-settrainerflag TRAINER_PERRY
-settrainerflag TRAINER_HUGH
-settrainerflag TRAINER_PHIL
 settrainerflag TRAINER_JARED
 settrainerflag TRAINER_HUMBERTO
 settrainerflag TRAINER_PRESLEY
@@ -1000,6 +997,9 @@ settrainerflag TRAINER_KOJI_4
 settrainerflag TRAINER_KOJI_5
 settrainerflag TRAINER_TRAINER_718
 settrainerflag TRAINER_TRAINER_717
+settrainerflag TRAINER_PERRY
+settrainerflag TRAINER_HUGH
+settrainerflag TRAINER_PHIL
 	return
 	
 EventScript_SetTrainersDlc::

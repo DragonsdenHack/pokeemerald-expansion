@@ -247,7 +247,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_4:
 .string "Dudo que me recuerde, estuve presente\n"
-	.string "en su misión de TORRE LAVANDA. De no\l"
+	.string "en su misión de TORRE POKÉMON. De no\l"
 	.string "ser por usted, FUJI nos lo hubiera\l"
 	.string "hecho pasar realmente mal.$"
 

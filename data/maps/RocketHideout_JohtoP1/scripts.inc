@@ -302,11 +302,10 @@ RocketHideoutP1_Text_21:
 .string "Los POKÉMON de la ADMIN.JEFA ANDRA\n"
 .string "son terríblemente fuertes, es como\l"
 .string "si el hecho de saber que tienen un\l"
-.string "límite menor que el de un\l"
-.string "LEGENDARIO hubiera provocado en\l"
-.string "ellos el efecto contrario a,\l"
-.string "efectivamente, verse limitados por\l"
-.string "eso.$"
+.string "límite menor al de un LEGENDARIO,\l"
+.string "hubiera provocado en ellos el\l"
+.string "efecto contrario a, efectivamente,\l"
+.string "verse limitados por eso.$"
 
 
 
@@ -1619,11 +1618,20 @@ faceplayer
 playse SE_PIN
 applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 fadescreen 1
@@ -1633,33 +1641,45 @@ fadescreen 0
 release
 end
 
+RocketHideoutJohtoP1_Encuentro_Andra_Move_2.1:
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_player
+step_end
+
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_1:
 .string "ANDRA: ¿Has visto todo esto,\n"
-	.string "{PLAYER}?\l"
-	.string "¡Estamos creando nuestras propias\l"
-	.string "MEGA-PIEDRAS!\l"
-	.string "¿Hasta dónde vamos a llegar?\l"
-	.string "Ahora disponemos de todo cuanto un\l"
+	.string "{PLAYER}?\p"
+	.string "¡Estamos creando nuestras\n"
+	.string "propias MEGA-PIEDRAS!\p"
+	.string "¿Hasta dónde vamos a llegar?\p"
+	.string "Ahora disponemos de todo cuanto un\n"
 	.string "ENTRENADOR necesita para optimizar\l"
 	.string "al máximo a sus POKÉMON, más de lo\l"
 	.string "que cualquiera pudiera imaginar.$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
-.string "¿Sabes qué?\n"
-	.string "Exploraré las rutas del este de\l"
+.string "¿Sabes qué?\p"
+	.string "Exploraré las rutas del este de\n"
 	.string "JOHTO, las que hacen frontera con\l"
 	.string "KANTO. Dijeron en la reunión que\l"
-	.string "iban a permitir ya el acceso. Si no\l"
-	.string "me equivoco, es ahí donde\l"
-	.string "confinaron a ROJO. Tengo\l"
-	.string "curiosidad por ver qué pasa si le\l"
-	.string "hacemos una visita{PAUSE 5}…{PAUSE 5}$"
+	.string "iban a permitir ya el acceso.\p"
+	.string "Si no me equivoco, es ahí donde\n"
+	.string "confinaron a ROJO.$"
+
+RocketHideoutJohtoP1_Encuentro_Andra_Texto_2.1:
+	.string "Tengo curiosidad por ver qué pasa\n"
+	.string "si le hacemos una visita{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
 .string "En fin, deberías terminar de\n"
-	.string "visitar la BASE ROCKET, sube un\l"
-	.string "poco más y verás la sorpresa que\l"
-	.string "el TEAM ROCKET te ha preparado por\l"
+	.string "visitar la base.\p"
+	.string "Si subes un poco más, verás la sorpresa\n"
+	.string "que el TEAM ROCKET te ha preparado, por\l"
 	.string "tu desempeño y lealtad hacia la\l"
 	.string "organización.$"
 
@@ -1679,10 +1699,11 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1
 applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_2
 waitmovement 0x0
-msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1
+delay 10
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_3
 waitmovement 0x0
-msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_BASEMENT_KEY
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2 MSGBOX_DEFAULT
@@ -1703,9 +1724,9 @@ RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1:
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2:
 .string "Como LÍDER de nuestra sucursal en\n"
-	.string "JOHTO, qué menos que contar con un\l"
-	.string "adecuado lugar de trabajo. Con\l"
-	.string "esto podrá acceder al despacho\l"
+	.string "JOHTO, ¿qué menos que contar con\l"
+	.string "un adecuado lugar de trabajo?\l"
+	.string "Con esto podrá acceder al despacho\l"
 	.string "privado que le hemos preparado.$"
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1:

@@ -184,7 +184,7 @@ Goldenrod_Underground_Motero_Bloqueo_Texto_2:
 .string "… {PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_3:
-.string "Quieres pelea? ¡De nada van a servirte\n"
+.string "¿Quieres pelea? ¡De nada van a servirte\n"
 	.string "esos POKÉMON comprados!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_4:

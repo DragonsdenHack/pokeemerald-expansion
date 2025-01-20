@@ -148,25 +148,37 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Fuji_Move_2
 applymovement 9, LavenderRadioP2_Evento_Fuji_Move_1
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP2_Evento_Fuji_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP2_Evento_Fuji_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP2_Evento_Fuji_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP2_Evento_Fuji_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP2_Evento_Fuji_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP2_Evento_Fuji_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP2_Evento_Fuji_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
@@ -174,6 +186,7 @@ fadescreen 1
 delay 20
 removeobject 9
 fadescreen 0
+clearflag FLAG_HOENN_102
 clearflag FLAG_HOENN_74
 clearflag FLAG_HOENN_75
 clearflag FLAG_HOENN_76

@@ -314,7 +314,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_11:
 GraniteCave_Encuentro_Esmeralda_Texto_12:
 	.string "ADM.ESMERALDA: ADMINISTRADOR JEFE\n"
 	.string "{PLAYER}. Ya tuvimos el placer de\l"
-	.string "vernos en TORRE LAVANDA, aunque… tu\l"
+	.string "vernos en TORRE POKÉMON, aunque… tu\l"
 	.string "presencia me recuerda a la de un\l"
 	.string "ENTRENADOR que nos topamos en ISLA\l"
 	.string "PRIMA, hace ya tiempo.$"

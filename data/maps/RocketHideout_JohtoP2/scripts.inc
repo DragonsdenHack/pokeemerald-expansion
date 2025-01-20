@@ -10,8 +10,8 @@ release
 end
 
 RocketHideoutJohtoP2Documento_Text_100:
-.string "(Parece ser un documento escrito y\n"
-	.string "firmado por el propio GIOVANNI)\p"
+.string "-Parece ser un documento, escrito y\n"
+	.string "firmado por el propio GIOVANNI-\p"
 	.string "Estimado {PLAYER}, nosotros tampoco\n"
 	.string "hemos estado parados. Desde la\l"
 	.string "BASE PROFUNDA, nuestros mejores\l"
@@ -25,11 +25,11 @@ RocketHideoutJohtoP2Documento_Text_100:
 	.string "todos los experimentos y\l"
 	.string "prototipos creados tanto por\l"
 	.string "nosotros como por nuestros\l"
-	.string "antiguos enemigos.\l"
-	.string "La creación de una sola piedra,\l"
-	.string "sin embargo, tiene un costo\l"
+	.string "antiguos enemigos.\p"
+	.string "La creación de una sola piedra,\n"
+	.string "sin embargo, conlleva un coste\l"
 	.string "económico descomunal. Es por ello\l"
-	.string "que, únicamente a los 3 JEFES de\l"
+	.string "que únicamente a los 3 JEFES de\l"
 	.string "JOHTO, HOENN e ISLAS SETE, se les\l"
 	.string "ha dado una unidad.\p"
 	.string "Los POKÉMON compatibles elevarán\n"
@@ -82,8 +82,8 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_1:
-.string "(Hay un mensaje escrito en la POKÉ\n"
-	.string "BALL, es de GIOVANNI)$"
+.string "-Hay un mensaje escrito en la POKÉ\n"
+	.string "BALL, es de GIOVANNI-$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2:
 .string "-{PLAYER}, los servicios que has\n"

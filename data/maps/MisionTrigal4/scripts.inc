@@ -4,18 +4,22 @@ MisionTrigal4_MapScripts::
 MisionTrigal4_Primer_Encuentro::
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_1
 waitmovement 0x0
+delay 10
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_2
 waitmovement 0x0
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_3
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_4
 applymovement 5, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
 delay 15
 applymovement 5, MisionTrigal4_Primer_Encuentro_Move_5
 waitmovement 0x0
@@ -42,6 +46,8 @@ trainerbattle_no_intro TRAINER_TRAINER_85, MisionTrigal4_Primer_Encuentro_Texto_
 playse SE_PIN
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_8 MSGBOX_AUTOCLOSE
 delay 25
 playse SE_EXIT
@@ -53,6 +59,8 @@ waitse
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_9 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_BOY
 applymovement 2, MisionTrigal4_Primer_Encuentro_Move_11
@@ -127,8 +135,8 @@ MisionTrigal4_Primer_Encuentro_Texto_2:
 
 MisionTrigal4_Primer_Encuentro_Texto_3:
 .string "Ya sé que no te has perdido, nadie llega\n"
-	.string "hasta aquí solo echando a andar.\l"
-	.string "Necesitas un buen susto para aprender\l"
+	.string "hasta aquí solo echando a andar.\p"
+	.string "Necesitas un buen susto para aprender\n"
 	.string "de una vez a no meterte en lugares\l"
 	.string "ajenos.$"
 
@@ -136,14 +144,14 @@ MisionTrigal4_Primer_Encuentro_Texto_4:
 .string "¡Agh, menudo susto!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_5:
-.string "Se supone que tú eres quien nos compra\n"
-	.string "los POKÉMON, ¡maldito!$"
+.string "Se supone que tú eres quien nos\n"
+	.string "compra los POKÉMON, ¡maldito!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_6:
 .string "Creí que había un acuerdo entre los\n"
-	.string "altos cargos de la TORRE RADIO. ¿No\l"
-	.string "eres uno de ellos? ¡¿Entonces quién\l"
-	.string "eres tú?!$"
+	.string "altos cargos de la TORRE RADIO.\l"
+	.string "¿No eres uno de ellos?{PAUSE 25} ¡¿Entonces\l"
+	.string "quién eres tú?!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_7:
 .string "¡Qué poder!$"
@@ -181,6 +189,7 @@ playse SE_PIN
 applymovement 3, MisionTrigal4_Segundo_Encuentro_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Segundo_Encuentro_Move_4
 waitmovement 0x0
+waitse
 msgbox MisionTrigal4_Segundo_Encuentro_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MisionTrigal4_Segundo_Encuentro_Texto_3 MSGBOX_AUTOCLOSE
@@ -452,12 +461,12 @@ MisionTrigal4_Tercer_Encuentro_Texto_5:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_6:
-.string "¡¿Si lo sé yo?!$"
+.string "¡¿Si lo sé yo, dices?!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_7:
 .string "Mide tus palabras, chaval. Mis POKÉMON\n"
 	.string "podrían triturar a todo tu equipo sin\l"
-	.string "pestañear. Como sigas en este plan\l"
+	.string "pestañear. Como sigas en este plan,\l"
 	.string "usaré toda mi influencia para arruinar\l"
 	.string "tu vida.$"
 
@@ -473,9 +482,9 @@ MisionTrigal4_Tercer_Encuentro_Texto_9:
 MisionTrigal4_Tercer_Encuentro_Texto_10:
 .string "Muy bien, los necios aprenden por las\n"
 	.string "malas. Qué pena que no vuelvas a tener\l"
-	.string "una segunda oportunidad, ¡después de\l"
-	.string "esto me encargaré de que seas un\l"
-	.string "apestado social!$"
+	.string "una segunda oportunidad.\l"
+	.string "¡Después de esto, me encargaré de que\l"
+	.string "seas un apestado social!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_11:
 .string "¡Esto no es posible! ¿Quién eres tú?$"
@@ -500,7 +509,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_15:
 	.string "perdones, no volverá a{PAUSE 5}…{PAUSE 5}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_16:
-.string "¿El SNUBBULL de un ex-empleado?\n"
+.string "¿El SNUBBULL de un ex-empleado?\p"
 	.string "Enseguida.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_17:
@@ -516,9 +525,9 @@ MisionTrigal4_Tercer_Encuentro_Texto_19:
 MisionTrigal4_Tercer_Encuentro_Texto_20:
 .string "Te lo ruego, no nos obligues a cerrar el\n"
 	.string "negocio, abastecemos a la gran mayoría\l"
-	.string "de la ciudad. Prometo mejorar nuestras\l"
-	.string "políticas para con el cuidado de los\l"
-	.string "POKÉMON.$"
+	.string "de la ciudad.\p"
+	.string "Prometo mejorar nuestras políticas para\n"
+	.string "con el cuidado de los POKÉMON.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_21:
 .string "¡Oh! ¡Gracias, ADMIN.JEFE {PLAYER}!\n"
