@@ -216,24 +216,36 @@ playse SE_PIN
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_9
 applymovement 5, CherrygroveCity_Entrenamiento_Pegaso_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_11
 applymovement 5, CherrygroveCity_Entrenamiento_Pegaso_Move_10
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_13
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_7
@@ -244,20 +256,30 @@ waitmoncry
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_14
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_13
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 removeobject 3
@@ -354,7 +376,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_3:
 CherrygroveCity_Entrenamiento_Pegaso_Texto_4:
 .string "¡{PLAYER}!\p"
 	.string "¡Tú de nuevo!\p"
-	.string "Veo que no te conformas con\l"
+	.string "Veo que no te conformas con\n"
 	.string "visitar las ciudades y lugares\l"
 	.string "típicos de JOHTO, quieres impregnarte\l"
 	.string "y aprender de cada rincón de esta\l"
@@ -401,7 +423,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
 	.string "campo de batalla.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_10:
-.string "PIDGEOT: Bi bibii!$"
+.string "PIDGEOT: ¡Bi bibii!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_11:
 .string "El PIDGEOT de HORACE tal cual es\n"
@@ -461,6 +483,7 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_2::
+faceplayer
 msgbox Cherrygrove_Combate_Pidgeot_Perfecto_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Cherrygrove_Combate_Pidgeot_Perfecto_No
@@ -507,8 +530,8 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1.1:
-.string "¡Obtuviste PIDGEOTITA de manos de\n"
-	.string "ENTRENADOR!$"
+.string "¡Obtuviste PIDGEOTITA de manos\n"
+	.string "de ENTRENADOR!$"
 
 
 
@@ -523,48 +546,47 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1:
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_2:
 .string "Dicen que en la RUTA 13 y 14 de\n"
 	.string "KANTO se reunen los ornitólogos de\l"
-	.string "la región para combatir y\l"
-	.string "disfrutar de sus aves, me gustaría\l"
-	.string "visitar ese lugar.$"
+	.string "la región, para combatir y\l"
+	.string "disfrutar de sus aves, me\l"
+	.string "gustaría visitar ese lugar.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_3:
 .string "¿Te gustaría combatir ahora?$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_4:
 .string "Entonces has sido tú el único\n"
-	.string "capaz de derrotar a PEGASO en un\l"
-	.string "combate 6vs6.\l"
-	.string "Sería todo un honor para mí tener\l"
-	.string "un combate contigo.$"
+	.string "capaz de derrotar a PEGASO en\l"
+	.string "un combate 6vs6.\p"
+	.string "Sería todo un honor para mí\n"
+	.string "poder luchar contigo.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_5:
 .string "¿Me permites?$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_6:
 .string "No esperaba menos, mis aves están\n"
-	.string "listas para emprender el vuelo.\l"
+	.string "listas para emprender el vuelo.\p"
 	.string "¡No te lo pondré fácil!$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_7:
 .string "El ímpetu de mi PIDGEOT se apagó{PAUSE 5}…{PAUSE 5}$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_8:
-.string "Estoy impresionado, PEGASO no\n"
-	.string "exageraba contigo, quiero que\l"
-	.string "tengas esto.$"
+.string "Estoy impresionado.\p"
+	.string "PEGASO no exageraba contigo,\n"
+	.string "quiero que tengas esto.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_9:
 .string "Muy pocos conocen el verdadero\n"
 	.string "poder de PIDGEOT, menos son los\l"
 	.string "que tienen la herramienta para\l"
-	.string "activarlo, con la PIDGEOTITA\l"
+	.string "activarlo. Con la PIDGEOTITA\l"
 	.string "podrás, solo PEGASO y yo tenemos\l"
-	.string "una en toda la región.$"
+	.string "una, en toda la región de JOHTO.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_10:
-.string "Como quieras, yo seguiré aquí\n"
-	.string "entrenando, por si cambias de\l"
-	.string "parecer.$"
+.string "Como quieras, yo seguiré entrenando,\n"
+	.string "por si cambias de parecer.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Move_1:
 face_player

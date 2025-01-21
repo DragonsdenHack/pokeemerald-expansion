@@ -14261,7 +14261,7 @@ NinjaBaseS3_Text_CalvoPostBattle:
 	.string "prisioneros, ¿eh?\l"
 	.string "Por quererlo todo os vamos a dejar\l"
 	.string "sin nada.\l"
-	.string "¡Juajuajua!$"
+	.string "¡Jua, jua, jua!$"
 
 
 NinjaBaseS3_Text_LadronIntro:

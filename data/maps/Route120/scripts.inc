@@ -405,17 +405,17 @@ Route120_Text_StevenGoodbye:
 	.string "Well, let's meet again somewhere.$"
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "Algo invisible corta el paso.$"
 
 Kecleon_Text_WantToUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Algo invisible corta el paso.\p"
+	.string "¿Usas el DETECTOR DEVON?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "{PLAYER} usó el DETECTOR DEVON.\p"
+	.string "¡Un POKéMON que era invisible\n"
+	.string "se ha vuelto completamente visible!\p"
+	.string "¡El POKéMON, asustado, ha atacado!$"
 
 Route120_Text_RouteSignFortree:
 	.string	"RUTA 120\n"

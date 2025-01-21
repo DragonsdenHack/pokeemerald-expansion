@@ -144,15 +144,22 @@ playse SE_PIN
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
@@ -161,10 +168,20 @@ msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
+waitmovement 0x0
+waitse
+delay 10
+msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_7
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_8
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CELIA, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
@@ -172,16 +189,29 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_9
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_13 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BROOKE_3, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14
+playse SE_PIN
+applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2
+applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15 MSGBOX_AUTOCLOSE
 delay 30
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.3
+waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
 clearflag FLAG_RECEIVED_SHOAL_SALT_2
@@ -194,63 +224,85 @@ setvar VAR_UNUSED_0x40F7, 164
 release
 end
 
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.1:
+lock_facing_direction
+walk_slow_up
+unlock_facing_direction
+step_end
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2:
+emote_exclamation_mark
+step_end
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.3:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_1:
 .string "Como habéis podido ver en estas\n"
 	.string "estimaciones, la venta de\l"
-	.string "CARAMELOSFURIA no sale rentable,\l"
-	.string "creo que deberíamos probar con\l"
+	.string "CARAMELOSFURIA no sale rentable.\p"
+	.string "Creo que deberíamos probar con\n"
 	.string "algo más contundente, las COLASL{PAUSE 5}…{PAUSE 5}$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2:
 .string "¿Quién eres tú?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3:
-.string "¿Cómo ha llegado un ROCKET hasta\n"
-	.string "aquí?\l"
-	.string "¿Recuperar la BASE CAOBA?\l"
-	.string "Nunca fue vuestra, nosotros solo\l"
+.string "¿Cómo ha llegado un ROCKET\n"
+	.string "hasta aquí?\p"
+	.string "¿Recuperar la BASE CAOBA?\p"
+	.string "Nunca fue vuestra, nosotros solo\n"
 	.string "aprovechamos el descuido de FREDO\l"
 	.string "para instalar aquí nuestro centro\l"
 	.string "de operaciones.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4:
 .string "No deberías haber interrumpido\n"
-	.string "esta reunión, si has llegado hasta\l"
-	.string "aquí pasando por toda la seguridad\l"
-	.string "quiere decir que estás agotado.$"
+	.string "esta reunión, si has llegado tan\l"
+	.string "lejos, quiere decir que estás agotado.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5:
-.string "¡TARO!\n"
+.string "¡TARO!\p"
 	.string "¡Encárgate de él!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6:
 .string "Tus POKÉMON no tienen ya la\n"
-	.string "frescura necesaria como para hacer\l"
-	.string "frente a mi equipo.\l"
+	.string "frescura necesaria como para\l"
+	.string "hacer frente a mis ninjas.\p"
 	.string "¡En guardia!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7:
 .string "¡No puede ser!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8:
-.string "Así que sigues en pie, ya veo que\n"
-	.string "no eres como los demás ROCKET. Eso\l"
-	.string "que dicen de que solo sois fuertes\l"
-	.string "en número es mentira, a pesar de\l"
-	.string "todo.$"
+.string "Así que sigues en pie.\n"
+	.string "Veo que no eres como los demás.\l"
+	.string "Eso que dicen de los ROCKET, que solo\l"
+	.string "sois fuertes en número, parece ser\l"
+	.string "mentira.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9:
-.string "Tal vez seas el mejor ENTRENADOR\n"
-	.string "aquí, pero no en este\l"
-	.string "momento. Aquí juegas con nuestras\l"
-	.string "reglas.\l"
-	.string "¡MACUTO!\l"
+.string "Tal vez seas el mejor ENTRENADOR.\p"
+	.string "Pero no en esta situación.\p"
+	.string "Aquí juegas con nuestras reglas.$"
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9.1:
+	.string "¡MACUTO!\p"
 	.string "¡Remátalo!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10:
 .string "Voy a aplastarte con toda mi\n"
-	.string "fuerza bruta.\l"
-	.string "¡Verás por qué me conocen como\l"
+	.string "fuerza bruta.\p"
+	.string "¡Verás por qué me conocen como\n"
 	.string "el mayor matón de toda JOHTO!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
@@ -258,9 +310,9 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
 	.string "¿¡Cómo te atreves!?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12:
-.string "Ya estoy harto de ti, ¿creéis que\n"
-	.string "podéis venir a JOHTO y hacer lo\l"
-	.string "que os dé la gana?$"
+.string "Ya estoy harto de ti.\p"
+	.string "¿Creéis que podéis venir a JOHTO\n"
+	.string "y hacer lo que os dé la gana?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_13:
 .string "Me ocuparé personalmente de darte\n"
@@ -272,16 +324,16 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14:
 	.string "¡Deberías estar ya agotado!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15:
-.string "No{PAUSE 25}…{PAUSE 25}\n"
-	.string "Esto no entraba en nuestros\l"
-	.string "planes{PAUSE 25}…{PAUSE 25}\l"
-	.string "Después de todo no podremos\l"
-	.string "empezar de nuevo aquí, vosotros\l"
-	.string "ganáis, ¿verdad?$"
+.string "No{PAUSE 25}…{PAUSE 25}\p"
+	.string "Esto no entraba en nuestros\n"
+	.string "planes{PAUSE 25}…{PAUSE 25}\p"
+	.string "Después de todo, no podremos\n"
+	.string "empezar de nuevo aquí.\p"
+	.string "Vosotros ganáis, ¿verdad?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16:
-.string "Espero que al menos le déis un\n"
-	.string "buen uso.$"
+.string "Espero que al menos le\n"
+	.string "déis un buen uso.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Move_1:
 walk_up
@@ -330,15 +382,18 @@ walk_down
 step_end
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 setvar VAR_UNUSED_0x40F7, 162
 release
 end
@@ -348,12 +403,12 @@ emote_exclamation_mark
 walk_in_place_down
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "¿Estás ya en PUEBLO CAOBA?\l"
-	.string "Perfecto.\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "Bien, veo que te has adelantado,\l"
+.string "GIOVANNI: ¿{PLAYER}?\p"
+	.string "¿Estás ya en PUEBLO CAOBA?\p"
+	.string "Perfecto.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "Bien, veo que te has adelantado,\n"
 	.string "iba a enviar a ATLAS y ANDRA a\l"
 	.string "recuperar la BASE CAOBA, pero\l"
 	.string "confío en que contigo sea\l"
@@ -363,42 +418,48 @@ MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
 .string "¿Así que has derrotado al\n"
-	.string "GRAN MAESTRO de CIUDAD IRIS?\l"
-	.string "El mecanismo de evolución de\l"
+	.string "GRAN MAESTRO de CIUDAD IRIS?\p"
+	.string "El mecanismo de evolución de\n"
 	.string "de su EEVEE-& es todo un misterio.\l"
 	.string "Puede transformarse en el tipo de\l"
 	.string "cada uno de los movimientos que\l"
-	.string "ejecute.\l"
-	.string "Debió ser un duro rival.\l"
-	.string "{PAUSE 25}…{PAUSE 25}\l"
-	.string "{PAUSE 25}…{PAUSE 25}\l"
-	.string "¡¿HO-OH apareció?!\l"
-	.string "¿En la cima de TORRE CAMPANA?\l"
-	.string "{PAUSE 25}…{PAUSE 25}\l"
-	.string "{PAUSE 25}…{PAUSE 25}\l"
-	.string "¿Un ENTRENADOR que solo usa\l"
-	.string "LEGENDARIOS MAYORES apareció y lo\l"
-	.string "capturó?\l"
+	.string "ejecute.\p"
+	.string "Debió ser un duro rival.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡¿HO-OH apareció?!\n"
+	.string "¿En la cima de TORRE CAMPANA?\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Un ENTRENADOR que solo usa\n"
+	.string "LEGENDARIOS MAYORES apareció y\l"
+	.string "lo capturó?\p"
 	.string "¿¡También tenía a LUGIA!?$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
-.string "Esto rompe todos nuestros\n"
-	.string "esquemas, ¿dices que ya lo conoces\l"
-	.string "de ISLAS SETE y allí ya se hizo\l"
-	.string "con los LEGENDARIOS de HOENN?\l"
-	.string "Debe de ser alguien muy peligroso,\l"
-	.string "tal vez busque lo mismo que\l"
+.string "Esto rompe nuestros esquemas.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Dices que ya lo conoces del\n"
+	.string "ARCHI7, y allí ya se hizo\l"
+	.string "con los LEGENDARIOS de HOENN?\p"
+	.string "Debe de ser alguien muy peligroso,\n"
+	.string "y tal vez busque lo mismo que\l"
 	.string "nosotros. Haré redoblar la guardia\l"
 	.string "en RUINAS ALFA.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
-.string "Estáte atento, {PLAYER}, debemos\n"
-	.string "actuar en consecuencia. Pronto\l"
-	.string "volveremos a estar en contacto.$"
+.string "Estate atento, {PLAYER}.\p"
+	.string "Debemos actuar en consecuencia,\n"
+	.string "nos mantenemos en contacto.$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja::
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 9, 12, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -431,5 +492,5 @@ MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_2:
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_3:
 .string "Ni un oficial del TEAM ROCKET nos\n"
-	.string "podrá echar de aquí, la unión hace\l"
-	.string "la fuerza.$"
+	.string "podrá echar de aquí, la unión\l"
+	.string "hace la fuerza.$"

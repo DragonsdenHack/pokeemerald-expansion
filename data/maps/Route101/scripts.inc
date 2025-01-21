@@ -284,18 +284,18 @@ Route101_Text_YouSavedMe:
 	.string "by my POKéMON LAB later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "Si tus POKéMON están cansados,\n"
+	.string "llévalos a un CENTRO POKéMON.\p"
+	.string "Hay un CENTRO POKéMON en PUEBLO\n"
+	.string "ESCASO, muy cerca de aquí.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "Los POKéMON salvajes te atacarán\n"
+	.string "en las zonas de hierba alta.\p"
+	.string "Si quieres atrapar POKéMON, ve donde\n"
+	.string "haya hierba alta y busca.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "RUTA 101\n"
+	.string "{UP_ARROW} PUEBLO ESCASO$"
 

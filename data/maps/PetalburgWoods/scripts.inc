@@ -400,73 +400,78 @@ PetalburgWoods_Text_CantBePopularIfILose:
 	.string "puedo perder!$"
 
 PetalburgWoods_Text_PeopleRespectYou:
-	.string "Si tienes un Pokémon bicho, la gente\n"
-	.string "parece que te respeta más.$"
+	.string "Si tienes un POKéMON BICHO grande,\n"
+	.string "la gente parece que te respeta más.$"
 
 PetalburgWoods_Text_IWantRematch1:
-	.string "I want a rematch when my BUG\n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "¡Cuando mi POKéMON BICHO crezca,\n"
+	.string "me tomaré la revancha!\p"
+	.string "¡Te voy a registrar en mi POKéNAV\n"
+	.string "ya mismo!$"
 
 PetalburgWoods_Text_IWantRematch2:
-	.string "I want a rematch when my BUG \n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "¡Cuando mi POKéMON BICHO crezca,\n"
+	.string "me tomaré la revancha!\p"
+	.string "¡Te voy a registrar en mi POKéNAV\n"
+	.string "ya mismo!$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
-	.string "My BUG POKéMON have grown.\n"
-	.string "I'll be popular again.$"
+	.string "Mis POKéMON BICHO han evolucionado.\n"
+	.string "¡Ahora recuperaré mi club de fans!$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
-	.string "I can't be popular if I lose.$"
+	.string "¡Si quiero conservar mi club de fans,\n"
+	.string "no puedo perder!$"
 
 PetalburgWoods_Text_IveBeenTrainingHard:
-	.string "You get to be popular if you have\n"
-	.string "strong POKéMON, right?\l"
-	.string "So, I've been training hard.$"
+	.string "Consigues un club de fans si tus\n"
+	.string "POKéMON son fuertes, ¿no es así?\l"
+	.string "Por eso me he entrenado mucho.$"
 
 PetalburgWoods_Text_StayOutOfTallGrass:
-	.string "Yo, there!\n"
-	.string "Your POKéMON doing okay?\p"
-	.string "If your POKéMON are weak and you want\n"
-	.string "to avoid battles, you should stay out\l"
-	.string "of tall grass.$"
+	.string "¡Hola!\n"
+	.string "¿Qué tal están tus POKéMON?\p"
+	.string "Si están débiles y quieres evitar\n"
+	.string "los combates, aléjate de las zonas\l"
+	.string "con hierba alta.$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
-	.string "Sometimes, there are things on the\n"
-	.string "ground even if you can't see them.\p"
-	.string "That's why I always check where I'm\n"
-	.string "walking.$"
+	.string "A veces hay cosas en el suelo,\n"
+	.string "aunque no puedas verlas.\p"
+	.string "Por eso siempre tengo los ojos abiertos\n"
+	.string "cuando voy de paseo.$"
 
 PetalburgWoods_Text_TryUsingThisItem:
-	.string "Oh, neat!\n"
-	.string "That's the BADGE from RUSTBORO GYM!\p"
-	.string "You must be a TRAINER.\n"
-	.string "You should try using this item.$"
+	.string "¡Cómo mola! ¡La MEDALLA del GIMNASIO\n"
+	.string "de CIUDAD FÉRRICA!\p"
+	.string "Tú seguro que entrenas POKéMON.\n"
+	.string "Pues prueba a usar este objeto.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-	.string "It's a MIRACLE SEED.\n"
-	.string "If a POKéMON holds that item, its\l"
-	.string "GRASS-type moves become stronger.\p"
-	.string "Besides MIRACLE SEED, I think there are\n"
-	.string "other convenient items for POKéMON\l"
-	.string "to hold.$"
+	.string "Es una SEMILLA MILAGRO.\n"
+	.string "Dásela a un POKéMON para reforzar\l"
+	.string "los movimientos de tipo PLANTA.\p"
+	.string "Pero creo que hay muchos más objetos\n"
+	.string "que puedes dar a los POKéMON.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
-	.string "left of the team list.\p"
-	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
-	.string "being exposed to any harm.$"
+	.string "PISTAS para ENTRENADORES\p"
+	.string "Cuando un POKéMON hace acto\n"
+	.string "de presencia en un combate,\l"
+	.string "recibe puntos de EXPERIENCIA.\p"
+	.string "Si quieres entrenar sin riesgos\n"
+	.string "a un POKéMON débil, ponlo al principio\l"
+	.string "de la lista del equipo.\p"
+	.string "En cuanto empiece el combate,\n"
+	.string "sustitúyelo. Así ganará puntos de\l"
+	.string "EXPERIENCIA sin sufrir ningún daño.$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "PISTAS para ENTRENADORES\p"
+	.string "Además de los PUNTOS de SALUD (PS),\n"
+	.string "los POKéMON tienen PUNTOS de PODER\l"
+	.string "(PP), que necesitan para realizar\l"
+	.string "movimientos durante el combate.\p"
+	.string "Si un POKéMON se queda sin PP,\n"
+	.string "hay que llevarlo a un CENTRO POKéMON.$"
 

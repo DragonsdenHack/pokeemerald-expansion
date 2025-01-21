@@ -16,7 +16,7 @@ end
 MahoganyTown_NinjaBaseS1_Text_2:
 .string "Me pregunto quién habrá sido el\n"
 .string "bruto que ha dejado el sistema de\l"
-.string "seguridad así.\l"
+.string "seguridad así.\p"
 .string "Va a costarme horrores repararlo.$"
 
 
@@ -29,14 +29,13 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_3:
-.string "¿Desactivar la seguridad de la\n"
-.string "base?\l"
-.string "¡Ya me he encargado yo\l"
-.string "personalmente de eliminar ese\l"
-.string "sistema!\l"
-.string "¡Si quieres llegar hasta el final\l"
+.string "¿Desactivar la seguridad\n"
+.string "de la base?\p"
+.string "¡Ya me he encargado personalmente\n"
+.string "de eliminar ese sistema!\p"
+.string "¡Si quieres llegar hasta el final,\n"
 .string "deberás de hacerlo sin trampas ni\l"
-.string "ayudas!$"
+.string "ayudas! ¡Jua, jua, jua!$"
 
 
 
@@ -59,9 +58,8 @@ end
 
 MahoganyTown_NinjaBaseS1_Text_6:
 .string "¡Ahora sé por qué ocupa el lugar\n"
-.string "que ocupa en el TEAM ROCKET, es\l"
-.string "usted un ENTRENADOR excepcional\l"
-.string "ADMIN.JEFE!$"
+.string "que ocupa en el TEAM ROCKET; es\l"
+.string "usted un ENTRENADOR excepcional.$"
 
 
 
@@ -79,9 +77,8 @@ end
 
 MahoganyTown_NinjaBaseS1_Text_8:
 .string "Vamos a aprender mucho de esas\n"
-.string "trampas utilizadas por los ninjas,\l"
-.string "¡son muy del estilo ROCKET\l"
-.string "también!$"
+.string "trampas utilizadas por los ninjas.\p"
+.string "¡Son muy del estilo ROCKET!$"
 
 
 
@@ -137,11 +134,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_14:
-.string "¡Jah!\n"
-.string "¡No pudieron hacer uso de nuestro\l"
-.string "sistema de trampas POKÉMON!\l"
-.string "¡Mira cómo explotan esos\l"
-.string "KOFFING!$"
+.string "¡Jah!\p"
+.string "¡No pudieron hacer uso de nuestro\n"
+.string "sistema de trampas POKÉMON!\p"
+.string "¡Mira cómo explotan esos KOFFING!$"
 
 
 
@@ -180,8 +176,12 @@ NinjaBaseS1_EventScript_Calvo::
 NinjaBaseS1_Primera_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -201,8 +201,12 @@ goto NinjaBaseS1_Primera_Trampa
 NinjaBaseS1_Primera_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -244,10 +248,9 @@ release
 end
 
 NinjaBaseS1_Primera_Trampa_Texto_1:
-.string "Otro iluso más que cae en la\n"
-	.string "trampa.\l"
-	.string "¡Vamos a echarte de aquí a\l"
-	.string "patadas!$"
+.string "Otro iluso más que cae\n"
+	.string "en la trampa.\p"
+	.string "¡Vamos a echarte de aquí a patadas!$"
 
 NinjaBaseS1_Primera_Trampa_Texto_2:
 .string "Tenemos a un rebelde.$"
@@ -257,9 +260,9 @@ NinjaBaseS1_Primera_Trampa_Texto_3:
 
 NinjaBaseS1_Primera_Trampa_Texto_4:
 .string "Esta base perteneció a mis\n"
-	.string "antepasados, solo voy a recuperar\l"
-	.string "lo que es mío, ¡aunque tenga que\l"
-	.string "compartirlo!$"
+	.string "antepasados, solo recuperaré\l"
+	.string "lo que es mío, ¡aunque tenga\l"
+	.string "que compartirlo!$"
 
 NinjaBaseS1_Primera_Trampa_Texto_5:
 .string "Estás atrapado.$"
@@ -270,8 +273,11 @@ NinjaBaseS1_Primera_Trampa_Texto_6:
 	.string "deberás pagar el precio.$"
 
 NinjaBaseS1_Primera_Trampa_Move_1:
-emote_exclamation_mark
 walk_in_place_up
+step_end
+
+NinjaBaseS1_Primera_Trampa_Move_1.1:
+emote_exclamation_mark
 step_end
 
 NinjaBaseS1_Primera_Trampa_Move_2:
@@ -303,8 +309,12 @@ step_end
 NinjaBaseS1_Segunda_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 6, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -324,8 +334,12 @@ goto NinjaBaseS1_Segunda_Trampa
 NinjaBaseS1_Segunda_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 6, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -367,7 +381,7 @@ release
 end
 
 NinjaBaseS1_Segunda_Trampa_Texto_1:
-.string "¡Shuaaggh!\n"
+.string "¡Shuaaggh!\p"
 	.string "¡Soy más rápido que el viento!$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_2:
@@ -389,15 +403,19 @@ NinjaBaseS1_Segunda_Trampa_Texto_5:
 
 NinjaBaseS1_Segunda_Trampa_Texto_6:
 .string "Poco a poco vamos clavando en ti\n"
-	.string "el veneno del desgaste, para\l"
-	.string "cuando quieras llegar al final,\l"
+	.string "el veneno del desgaste. Para\l"
+	.string "cuando estés cerca del final,\l"
 	.string "solo tendremos que rematarte.$"
 
 NinjaBaseS1_Tercera_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -417,8 +435,12 @@ goto NinjaBaseS1_Primera_Trampa
 NinjaBaseS1_Tercera_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -461,8 +483,8 @@ end
 
 NinjaBaseS1_Tercera_Trampa_Texto_1:
 .string "Las emboscadas son nuestra\n"
-	.string "especialidad, ya te habrás dado\l"
-	.string "cuenta.$"
+	.string "especialidad, ya te habrás\l"
+	.string "dado cuenta.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_2:
 .string "¡Mis POKÉMON ninja!$"
@@ -487,8 +509,12 @@ NinjaBaseS1_Tercera_Trampa_Texto_6:
 NinjaBaseS1_Cuarta_Trampa::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 9, 20, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -511,8 +537,8 @@ release
 end
 
 NinjaBaseS1_Cuarta_Trampa_Texto_1:
-.string "¿Notas ya el cansancio?\n"
-	.string "Pronto estarás suplicando para que\l"
+.string "¿Notas ya el cansancio?\p"
+	.string "Pronto estarás suplicando para que\n"
 	.string "te llevemos a un CENTRO POKÉMON.$"
 
 NinjaBaseS1_Cuarta_Trampa_Texto_2:
@@ -520,7 +546,7 @@ NinjaBaseS1_Cuarta_Trampa_Texto_2:
 
 NinjaBaseS1_Cuarta_Trampa_Texto_3:
 .string "No tienes forma de curar aquí, ya\n"
-	.string "nos hemos encargado personalmente\l"
+	.string "nos hemos encargado cuidadosamente\l"
 	.string "de que así sea.$"
 
 NinjaBaseS1_Cuarta_Trampa_Move_1:
@@ -535,8 +561,12 @@ step_end
 NinjaBaseS1_Quinta_Trampa::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 25, 20, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH

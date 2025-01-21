@@ -135,14 +135,31 @@ delay 20
 playse SE_PIN
 applymovement 15, LakeofRage_Fredo_Move_1
 waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LakeofRage_Fredo_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LakeofRage_Fredo_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, LakeofRage_Fredo_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox LakeofRage_Fredo_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, LakeofRage_Fredo_Move_2
 waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox LakeofRage_Fredo_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, LakeofRage_Fredo_Move_3
 waitmovement 0x0
+delay 10
+applymovement 15, LakeofRage_Fredo_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_6 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
 fadescreen 1
@@ -165,47 +182,63 @@ LakeofRage_Fredo_Move_3:
 face_player
 step_end
 
+LakeofRage_Fredo_Move_2.1:
+face_down
+delay_16
+delay_16
+face_player
+delay_8
+step_end
+
 LakeofRage_Fredo_Texto_1:
 .string "FREDO: Buenos días, joven, ¿nos\n"
 	.string "hemos visto antes?$"
 
 LakeofRage_Fredo_Texto_2:
-.string "Sí…\n"
-	.string "La reunión de TRIGAL, entonces\l"
-	.string "eres ese ROCKET que ganó la LIGA\l"
-	.string "POKÉMON.$"
+.string "Sí…\p"
+	.string "La reunión de TRIGAL, entonces\n"
+	.string "eres ese joven ROCKET, el que ganó\l"
+	.string "la LIGA POKÉMON.$"
 
 LakeofRage_Fredo_Texto_3:
 .string "Como te habrás dado cuenta, los\n"
 	.string "actuales LÍDERES de JOHTO nos\l"
 	.string "mantenemos al margen de lo que\l"
-	.string "ocurre en otros lugares,\l"
-	.string "simplemente nos ocupamos de\l"
+	.string "ocurre en otros lugares.\p"
+	.string "Simplemente, nos ocupamos de\n"
 	.string "nuestra vida y dejamos que las\l"
 	.string "cosas caigan por su propio peso.$"
 
 LakeofRage_Fredo_Texto_4:
 .string "Lo que no quita que lo que LANCE\n"
-	.string "hizo en KANTO fue horrible. De\l"
-	.string "haber sabido la verdadera\l"
+	.string "hizo en KANTO fue horrible.\l"
+	.string "De haber sabido la verdadera\l"
 	.string "historia, los LÍDERES de JOHTO,\l"
 	.string "especialmente el MAESTRO DRAGÓN,\l"
 	.string "hubiéramos actuado inmediatamente.$"
 
+LakeofRage_Fredo_Texto_4.1:
+	.string "Así es, nuestras propias costumbres\n"
+	.string "nos traicionaron.$"
+
 LakeofRage_Fredo_Texto_5:
-.string "Es por ello que tengo fe en\n"
-	.string "vosotros, sé que no actuáis por puro\l"
-	.string "altruismo, pero tenéis ciertos\l"
-	.string "principios, y con todo lo que\l"
-	.string "vuestro LÍDER planteó en la\l"
+.string "Ahora, tengo fe en vosotros.\p"
+	.string "Sé que no actuáis por altruismo,\n"
+	.string "pero tenéis principios.\p"
+	.string "Vuestro LÍDER estaba en los más\n"
+	.string "alto, cayó a la fosa más profunda\l"
+	.string "y logró subir de nuevo: sabe lo\l"
+	.string "que hay.$"
+
+LakeofRage_Fredo_Texto_5.1:
+	.string "Además, con lo que planteó en la\n"
 	.string "reunión de TRIGAL, algo como lo\l"
-	.string "ocurrido en KANTO jamás hubiera\l"
-	.string "sucedido.$"
+	.string "de LANCE hubiera sido imposible.$"
 
 LakeofRage_Fredo_Texto_6:
 .string "Creo que ya he andado bastante, es\n"
-	.string "hora de volver a CAOBA. Disfruta\l"
-	.string "del paseo, {PLAYER}.$"
+	.string "hora de volver a CAOBA.\p"
+	.string "Disfruta del paseo, {PLAYER}.$"
 
 
 
@@ -233,15 +266,14 @@ LakeofRage_Drenaje_Texto_1.1:
 
 LakeofRage_Drenaje_Texto_1:
 	.string "Me pregunto qué ocurriría si\n"
-	.string "pudiéramos drenar toda el agua de\l"
-	.string "lago y ver qué hay en lo más\l"
-	.string "profundo, creo que sorprendería a\l"
-	.string "todos.$"
+	.string "pudiéramos drenar toda el agua del\l"
+	.string "lago, y ver qué hay en el fondo.\p"
+	.string "Creo que nos sorprendería a todos.$"
 
 LakeofRage_Drenaje_Texto_2:
 .string "Los TIPO LUCHA suelen tener mala\n"
 	.string "DEF.ESPECIAL, si combinas este\l"
-	.string "movimiento con el CHAL.ASALTO, ¡tu\l"
-	.string "POKÉMON será todo un muro al\l"
-	.string "tiempo que golpea duro y recupera\l"
-	.string "vida!$"
+	.string "movimiento con el CHALECO ASALTO,\l"
+	.string "¡tu POKÉMON será todo un muro, y\l"
+	.string "también podrá golpear duro mientras\l"
+	.string "recupera vida!$"

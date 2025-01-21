@@ -142,9 +142,9 @@ msgbox AzaleaTownDocumento_Text_100, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_100:
-.string "El ENCINAR\n"
-	.string "Respeta al bosque y el bosque te\l"
-	.string "respetará a ti.$"
+.string "El ENCINAR\p"
+	.string "Respeta al bosque y el\n"
+	.string "bosque te respetará a ti.$"
 
 
 
@@ -232,7 +232,7 @@ AzaleaTownDocumento_Text_107:
 
 
 AzaleaTownDocumento_108::
-lock      
+lock
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
 msgbox AzaleaTownDocumento_Text_108, MSGBOX_DEFAULT
 release     
@@ -251,7 +251,7 @@ release
 end
 
 AzaleaTownDocumento_Text_109:
-.string "MOLTRES: Trees!$"
+.string "MOLTRES: ¡Trees!$"
 
 
 

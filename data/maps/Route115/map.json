@@ -335,14 +335,14 @@
     },
     {
       "x": 21,
-      "y": 6,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
       "dest_warp_id": 0
     },
     {
       "x": 36,
-      "y": 10,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
       "dest_warp_id": 0
@@ -391,8 +391,8 @@
     },
     {
       "type": "secret_base",
-      "x": 32,
-      "y": 38,
+      "x": 33,
+      "y": 37,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BROWN_CAVE1_2"
     },

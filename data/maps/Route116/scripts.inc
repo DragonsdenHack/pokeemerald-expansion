@@ -433,31 +433,30 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "RUTA 116\n"
+	.string "{LEFT_ARROW} CIUDAD FÉRRICA$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "TÚNEL FERVERGAL\n"
+	.string "“Conecta CIUDAD FÉRRICA y VERDEGAL.\p"
+	.string "El proyecto de construcción del\n"
+	.string "túnel ha sido cancelado.”$"
 
 Route116_Text_TunnelersRestHouse:
-	.string "TUNNELER'S REST HOUSE$"
+	.string "POSADA del TUNELERO$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
-	.string "evolving, press the B Button while it\l"
-	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
-	.string "This is called an evolution cancel.$"
+	.string "PISTAS para ENTRENADORES\p"
+	.string "Si quieres evitar que un POKéMON\n"
+	.string "evolucione, pulsa el Botón B cuando\l"
+	.string "vaya a hacerlo.\p"
+	.string "Esto se llama anula-evolución.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
-	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "PISTAS para ENTRENADORES\p"
+	.string "En la MOCHILA hay varios BOLSILLOS.\p"
+	.string "Los objetos se guardan en el BOLSILLO\n"
+	.string "correspondiente automáticamente.\p"
+	.string "Todo ENTRENADOR tiene que contar\n"
+	.string "con su propia MOCHILA.$"
 

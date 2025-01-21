@@ -52,8 +52,11 @@ delay 20
 playse SE_PIN
 applymovement 3, Route52_Maze_Combate_1_Move_1
 waitmovement 0x0
+waitse
+delay 10
 applymovement 3, Route52_Maze_Combate_1_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route52_Maze_Combate_1_Texto_3 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route52_Maze_Combate_1_Move_3
 waitmovement 0x0
@@ -62,7 +65,9 @@ msgbox Route52_Maze_Combate_1_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 3, Route52_Maze_Combate_1_Move_4
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_ANGELO, Route52_Maze_Combate_1_Texto_5
+delay 10
 msgbox Route52_Maze_Combate_1_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Route52_Maze_Combate_1_Move_5
 waitmovement 0x0
 setvar VAR_UNUSED_0x4091, 3
@@ -131,23 +136,22 @@ Route52_Maze_Combate_1_Texto_3:
 	.string "¿Se puede saber qué haces?$"
 
 Route52_Maze_Combate_1_Texto_4:
-.string "Ese ordenador tiene\n"
-	.string "información privada muy\l"
-	.string "importante, ¡ni se te ocurra\l"
-	.string "tocarlo!$"
+.string "Ese ordenador tiene información\n"
+	.string "privada muy importante.\l"
+	.string "¡Ni se te ocurra tocarlo!$"
 
 Route52_Maze_Combate_1_Texto_5:
 .string "Maldición, han descubierto la\n"
 	.string "tapadera.$"
 
 Route52_Maze_Combate_1_Texto_6:
-.string "Atente a las consecuencias si\n"
-	.string "decides tocar ese ordenador, estás\l"
-	.string "avisado.$"
+.string "Atente a las consecuencias, si\n"
+	.string "decides tocar ese ordenador.\l"
+	.string "Estás avisado.$"
 
 Route52_Maze_Combate_1_Texto_7:
-.string "Hay una función llamada -revertir\n"
-	.string "flecha-.\l"
+.string "Hay una función llamada\n"
+	.string "-revertir flecha-.\p"
 	.string "¿La pulso?$"
 
 Route52_Maze_Cientifico_1::
@@ -172,33 +176,33 @@ release
 end
 
 Route52_Maze_Cientifico_1_Texto_1:
-.string "¿Quién eres tú, cómo has llegado\n"
-	.string "hasta aquí?\l"
-	.string "Este lugar era un importante\l"
+.string "¿Quién eres tú, cómo has\n"
+	.string "llegado hasta aquí?\p"
+	.string "Este lugar era un importante\n"
 	.string "centro de investigaciones, pero se\l"
 	.string "cerró hace mucho, solo he venido a\l"
-	.string "recuperar unos documentos.\l"
-	.string "Deberías de volver por donde has\l"
+	.string "recuperar unos documentos.\p"
+	.string "Deberías de volver por donde has\n"
 	.string "venido, aquí no hay nada\l"
 	.string "interesante.$"
 
 Route52_Maze_Cientifico_1_Texto_2:
 .string "Aquí no rendimos cuentas a nadie,\n"
 	.string "para eso montamos el almacén en\l"
-	.string "medio de la nada, no hay nada\l"
-	.string "mejor que operar sin que nadie te\l"
-	.string "moleste.$"
+	.string "medio de la nada, no hay nada mejor\l"
+	.string "que operar sin que nadie te moleste.$"
 
 Route52_Maze_Cientifico_1_Texto_3:
-.string "Desde aquí podemos ver el FARO\n"
-	.string "OLIVO, ¡pero el FARO OLIVO a\l"
-	.string "nosotros no!$"
+.string "Desde aquí podemos ver el FARO OLIVO.\p"
+	.string "¡Pero el FARO OLIVO a nosotros no!$"
 
 Route52_Maze_Combate_2::
 playse SE_PIN
 applymovement 6, Route52_Maze_Combate_2_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, Route52_Maze_Combate_2_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 6, Route52_Maze_Combate_2_Move_3
 waitmovement 0x0
 delay 20
@@ -259,22 +263,22 @@ release
 end
 
 Route52_Maze_Segundo_Cientifico_Texto_1:
-.string "¿Cómo?\n"
-	.string "¿Por qué estamos en medio de la\l"
-	.string "nada?\l"
-	.string "No te confundas, no estamos\l"
+.string "¿Cómo?\p"
+	.string "¿Por qué estamos en medio\n"
+	.string "de la nada?\p"
+	.string "No te confundas, no estamos\n"
 	.string "huyendo de la justicia ni nada\l"
 	.string "parecido, es solo que nos gustan\l"
-	.string "los lugares exóticos, sí, eso es.$"
+	.string "los lugares exóticos. Sí, eso es.$"
 
 Route52_Maze_Segundo_Cientifico_Texto_2:
-.string "¿Cómo?\n"
-	.string "¿Por qué estamos en medio de la\l"
-	.string "nada?\l"
-	.string "No te confundas, no estamos\l"
+.string "¿Cómo?\p"
+	.string "¿Por qué estamos en medio\n"
+	.string "de la nada?\p"
+	.string "No te confundas, no estamos\n"
 	.string "huyendo de la justicia ni nada\l"
 	.string "parecido, es solo que nos gustan\l"
-	.string "los lugares exóticos, sí, eso es.$"
+	.string "los lugares exóticos. Sí, eso es.$"
 
 
 
@@ -293,9 +297,9 @@ release
 end
 
 Route52_Maze_Trabajador_Texto_1:
-.string "Hice bien en desertar de la MARINA\n"
-	.string "de OLIVO.\l"
-	.string "¡Aquí gano el doble, aunque acabo\l"
+.string "Hice bien en desertar de la marina\n"
+	.string "de CIUDAD OLIVO.\p"
+	.string "¡Aquí gano el doble, aunque acabo\n"
 	.string "molido de tanto descargar cajas!$"
 
 Route52_Maze_Trabajador_Texto_2:
@@ -319,7 +323,7 @@ release
 end
 
 Route52_Maze_Electricista_Texto_1:
-.string "Cuantas menos preguntas hagas aquí\n"
+.string "Cuantas menos preguntas hagas aquí,\n"
 	.string "mejor, yo lo único que sé es que\l"
 	.string "me pagan bien.$"
 

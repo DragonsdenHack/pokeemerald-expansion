@@ -296,8 +296,8 @@
     },
     {
       "type": "sign",
-      "x": 22,
-      "y": 16,
+      "x": 20,
+      "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
@@ -321,7 +321,7 @@
     {
       "type": "hidden_item",
       "x": 11,
-      "y": 29,
+      "y": 28,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_PETALBURG_CITY_RARE_CANDY"

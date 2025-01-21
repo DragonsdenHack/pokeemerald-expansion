@@ -453,6 +453,7 @@ waitse
 delay 10
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_17 MSGBOX_AUTOCLOSE
 delay 10
+setflag FLAG_HOENN_1
 trainerbattle_no_intro TRAINER_TRAINER_606, NaoAbandonada_7_Encuentro_Zafiro_Texto_18
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_19 MSGBOX_AUTOCLOSE
 delay 15
@@ -476,7 +477,7 @@ msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 1, NaoAbandonada_7_Move_15
 waitmovement 0x0
 msgbox NaoAbandonada_7_Encuentro_Zafiro_Texto_26 MSGBOX_AUTOCLOSE
-setflag FLAG_HOENN_1
+setflag FLAG_HOENN_1 
 fadescreen 1
 removeobject 1
 playse SE_WARP_IN
@@ -619,7 +620,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_23:
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_24:
 	.string "Sería una lástima que el verdadero\n"
-	.string "ÉSCANER cayese en las manos de esos\l"
+	.string "ESCÁNER cayese en las manos de esos\l"
 	.string "inútiles, ¿no crees?$"
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_25:
