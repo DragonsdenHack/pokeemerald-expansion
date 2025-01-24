@@ -1069,7 +1069,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_MAESTRO_ANCIANO,
-        .trainerName = _("M.ANCIANO"),
+        .trainerName = _("M.DRAGÓN"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY,
@@ -11230,7 +11230,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANGELO] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICO,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("HUXLEY"),
@@ -11244,7 +11244,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_DARIUS] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICO,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("ABEL"),
@@ -11258,7 +11258,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_STEVEN] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICO,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("ARMANDO"),
@@ -11272,7 +11272,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_ANABEL] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICO,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("TRAVIS"),

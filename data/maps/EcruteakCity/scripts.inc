@@ -296,7 +296,7 @@ EcruteakCity_Encuentro_Maestro_Texto_1:
 .string "MIRTO: {PAUSE 45}…{PAUSE 45}$"
 
 EcruteakCity_Encuentro_Maestro_Texto_2:
-.string "M.ANCIANO: Oh, {PLAYER}, qué rápido\n"
+.string "M.DRAGÓN: Oh, {PLAYER}, qué rápido\n"
 	.string "has venido.$"
 
 EcruteakCity_Encuentro_Maestro_Texto_3:

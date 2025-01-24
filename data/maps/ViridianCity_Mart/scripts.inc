@@ -356,6 +356,7 @@ Azulona_Centro_Comercial_Mercado_3_Pokemart:
 	.2byte 212
 	.2byte 213
 	.2byte 214
+	.2byte 215
 	.2byte ITEM_NONE
 	release
 	end

@@ -37,11 +37,14 @@ lock
 faceplayer
 applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_2
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4 MSGBOX_AUTOCLOSE
@@ -92,31 +95,47 @@ msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16 MSGBOX_AUTOCLOS
 playse SE_PIN
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_4
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_9
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_3
 waitmovement 0x0
+waitse
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_10
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_11
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_12
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 fadescreen 1
@@ -156,18 +175,17 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.2:
 	.string "DRAGON de manos de M.DRAGON!!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.1:
-.string "Iba a darte esto, antes de que ese loco\n"
-	.string "nos interrumpiera.$"
+.string "Iba a darte esto, antes de\n"
+	.string "lo ocurrido.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_1:
-.string "M.DRAGÓN: ¡{PLAYER}!\n"
+.string "M.DRAGÓN: ¡{PLAYER}!\p"
 	.string "¡Has venido!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_2:
-.string "Estás en la verdadera GUARIDA\n"
-	.string "DRAGÓN, un santuario donde\l"
-	.string "rendimos culto a este sagrado\l"
-	.string "tipo.$"
+.string "Estás en la verdadera GUARIDA DRAGÓN.\p"
+	.string "Un santuario donde rendimos culto\n"
+	.string "a este sagrado tipo.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3:
 .string "DRAGONITE fue considerado por\n"
@@ -187,23 +205,22 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5:
 .string "Si no me equivoco, has logrado\n"
 	.string "derrotar a 7 LÍDERES DE JOHTO, a\l"
 	.string "pesar de la caótica situación de\l"
-	.string "los GIMNASIOS. Veo buenas\l"
-	.string "intenciones en ti, {PLAYER}, aún\l"
-	.string "con las duras decisiones que\l"
+	.string "los GIMNASIOS.\p"
+	.string "Veo buenas intenciones en ti, {PLAYER},\n"
+	.string "aún con las duras decisiones que\l"
 	.string "GIOVANNI planteó en TRIGAL, sé que\l"
 	.string "quieres el bien de KANTO y JOHTO.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_6:
-.string "El relevo generacional es\n"
-	.string "inminente, lamentablemente la\l"
-	.string "tecnología está degradando el\l"
-	.string "verdadero arte de entrenar\l"
-	.string "POKÉMON. Tú eres una excepción, no\l"
-	.string "te has dejado influenciar por los\l"
-	.string "tiempos que corren a pesar de tu\l"
-	.string "posición. Es por eso que{PAUSE 15}…{PAUSE 15}\l"
-	.string "¡Debo asegurarme de que estás a la\l"
-	.string "altura!$"
+.string "El relevo generacional es inminente.\p"
+	.string "Por desgracia, la tecnología está\n"
+	.string "degradando el verdadero arte de\l"
+	.string "entrenar POKÉMON. Tú eres una excepción,\l"
+	.string "no te has dejado influenciar por los\l"
+	.string "tiempos que corren, a pesar de tu\l"
+	.string "posición. Es por eso que{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡Debo asegurarme de que estás a la\n"
+	.string "altura de cualquier generación!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_7:
 .string "Magnífico, ha sido como volver a\n"
@@ -213,10 +230,9 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8:
 .string "Un ENTRENADOR así solo aparece una\n"
 	.string "vez cada tantas décadas, eso es lo\l"
 	.string "que llevaba sin ver a mi singular\l"
-	.string "DRAGONITE en apuros. La forma en\l"
-	.string "la que has ido mejorando y\l"
-	.string "construyendo tu equipo es\l"
-	.string "admirable.$"
+	.string "DRAGONITE en apuros.\p"
+	.string "La forma en la que has ido mejorando y\n"
+	.string "construyendo tu equipo es admirable.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9:
 	.string "Me honra entregar nuestra insignia al\n"
@@ -234,11 +250,10 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_10:
 .string "¡¡OBTUVISTE UN DREEPY AL Nv.25!!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11:
-.string "DRAGAPULT es un PSEUDOLEGENDARIO\n"
-	.string "en toda regla, el de mayor\l"
-	.string "VELOCIDAD. Solo los monjes y\l"
-	.string "pensadores más expertos de JOHTO\l"
-	.string "cuentan con uno.$"
+.string "DRAGAPULT es un PSEUDOLEGENDARIO en\n"
+	.string "toda regla, el de mayor VELOCIDAD.\l"
+	.string "Solo los monjes y pensadores más\l"
+	.string "expertos de JOHTO cuentan con uno.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_12:
 .string "????: ¿DRAGAPULT?\n"
@@ -255,62 +270,58 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
 	.string "HO-OH a sangre fría, debería darte\l"
 	.string "vergüenza encerrar así algo tan\l"
 	.string "puro, aprovechando el gran combate\l"
-	.string "que el M.IRIS y {PLAYER} tuvieron.$"
+	.string "que el M.JADEN y {PLAYER} tuvieron.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
 .string "ZEUS: Lo importante es que HO-OH\n"
-	.string "ahora me pertenece, también LUGIA,\l"
-	.string "qué importa la forma. Y ahora{PAUSE 15}…{PAUSE 15}\l"
-	.string "Al fin{PAUSE 15}…{PAUSE 15}\l"
+	.string "ahora me pertenece, también LUGIA.\p"
+	.string "¿Qué importa la forma?\p"
+	.string "Y ahora{PAUSE 15}…{PAUSE 15} Al fin{PAUSE 15}…{PAUSE 15}\p"
 	.string "KYUREM también{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
-.string "(ZEUS le quitó el KYUREM al\n"
-	.string "M.DRAGÓN).$"
+.string "-ZEUS le quitó el KYUREM al\n"
+	.string "M.DRAGÓN-.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17:
 .string "M.DRAGÓN: ¡¿Q{PAUSE 15}…{PAUSE 15}Qué?!\n"
-	.string "¿¡Qúe vas a hacer con ese\l"
-	.string "POKÉMON!?$"
+	.string "¿¡Qúe vas a hacer con\l"
+	.string "ese POKÉMON!?$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18:
-.string "ZEUS: No te hagas el tonto,\n"
-	.string "anciano, sabes todo sobre el TIPO\l"
-	.string "DRAGÓN, seguro que conoces también\l"
-	.string "la leyenda del DRAGÓN ORIGINAL.$"
+.string "ZEUS: No te hagas el tonto, anciano.\p"
+	.string "Sabes todo sobre el TIPO DRAGÓN, y\n"
+	.string "seguro que conoces también la\l"
+	.string "leyenda del DRAGÓN ORIGINAL.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
 .string "M.DRAGÓN: No es una leyenda, ese\n"
 	.string "POKÉMON existió, fue real.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:
-.string "ZEUS: Así es, RAYQUAZA PRIMIGENIO\n"
-	.string "es considerado el DRAGÓN más\l"
-	.string "poderoso, pero{PAUSE 15}…{PAUSE 15}\l"
-	.string "Nada que ver con ese POKÉMON, ese\l"
+.string "ZEUS: Así es.\n"
+	.string "RAYQUAZA es considerado el DRAGÓN más\l"
+	.string "poderoso, pero{PAUSE 15}…{PAUSE 15}\p"
+	.string "Nada que ver con ese POKÉMON, ese\n"
 	.string "POKÉMON{PAUSE 15}…{PAUSE 15} es el verdadero creador\l"
 	.string "de todo, tan poderoso que no vale\l"
-	.string "la pena compararlo con el resto.\l"
-	.string "No entra en el debate del mejor\l"
+	.string "la pena compararlo con el resto.\p"
+	.string "No entra en el debate del mejor\n"
 	.string "POKÉMON porque el DRAGÓN ORIGINAL\l"
-	.string "lo es todo, su alcance no es\l"
-	.string "medible.$"
+	.string "lo es todo, su alcance no es medible.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
-.string "M.DRAGÓN: El DRAGÓN ORIGINAL\n"
-	.string "representa el punto de equilibrio,\l"
-	.string "la perfección, nunca\l"
-	.string "podrás convocarlo, necesitas\l"
-	.string "a los otros dos dragones, KYUREM\l"
-	.string "es solo la cáscara vacía que\l"
-	.string "antaño me asignaron proteger por\l"
-	.string "si alguien como tú llegaba tan\l"
-	.string "lejos.$"
+.string "M.DRAGÓN: El DRAGÓN ORIGINAL representa\n"
+	.string "el punto de equilibrio, la perfección,\l"
+	.string "nunca podrás convocarlo, porque para\l"
+	.string "ello necesitas a los otros dos dragones.\p"
+	.string "KYUREM es solo la cáscara vacía, que\n"
+	.string "antaño me asignaron proteger, por\l"
+	.string "si alguien como tú llegaba tan lejos.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22:
-.string "ZEUS: {PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "RESHIRAM y ZEKROM también me\l"
+.string "ZEUS: {PAUSE 15}…{PAUSE 15}\p"
+	.string "RESHIRAM y ZEKROM también me\n"
 	.string "pertencen.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23:
@@ -391,6 +402,7 @@ step_end
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_6:
 walk_right
+delay_16
 walk_in_place_left
 step_end
 
@@ -405,6 +417,7 @@ step_end
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_9:
 walk_slow_up
 walk_slow_up
+delay_16
 walk_in_place_up
 step_end
 

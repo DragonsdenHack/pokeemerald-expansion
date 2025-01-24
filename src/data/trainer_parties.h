@@ -20153,7 +20153,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelo[] = {
     .species = SPECIES_MAGNETON,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_DISCHARGE, MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 100,

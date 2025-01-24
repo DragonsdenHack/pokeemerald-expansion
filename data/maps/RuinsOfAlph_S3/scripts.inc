@@ -42,27 +42,39 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_2
 waitmovement 0x0
+waitse
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_6
 applymovement 1, RuinsOfAlphS3_Evento_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_8
 applymovement 1, RuinsOfAlphS3_Evento_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RuinsOfAlphS3_Evento_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_9
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlphS3_Evento_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_10
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_8
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_2
 applymovement 1, RuinsOfAlphS3_Evento_Final_Move_2
 waitmovement 0x0
@@ -114,11 +126,17 @@ waitmovement 0x0
 msgbox RuinsOfAlphS3_Evento_Final_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlphS3_Evento_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RuinsOfAlphS3_Evento_Final_Move_12
 waitmovement 0x0
 applymovement 3, RuinsOfAlphS3_Evento_Final_Move_13
 msgbox RuinsOfAlphS3_Evento_Final_Texto_13 MSGBOX_AUTOCLOSE
 delay 15
+applymovement 1, RuinsOfAlphS3_Evento_Final_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox RuinsOfAlphS3_Evento_Final_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RuinsOfAlphS3_Evento_Final_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlphS3_Evento_Final_Texto_15 MSGBOX_AUTOCLOSE
@@ -131,6 +149,14 @@ setvar VAR_UNUSED_0x40F7, 178
 release
 end
 
+RuinsOfAlphS3_Evento_Final_Move_12.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
 RuinsOfAlphS3_Evento_Final_Texto_1:
 .string "GIOVANNI: {PAUSE 5}…{PAUSE 5}$"
 
@@ -138,10 +164,10 @@ RuinsOfAlphS3_Evento_Final_Texto_2:
 .string "¿Pero, cómo tú?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_3:
-.string "ANDRA: ¿Otro UNOWN dorado?\n"
-	.string "¡¿Este lugar no termina nunca?!\l"
-	.string "¡No vais a poder conmigo!\l"
-	.string "Me da igual si tengo que estar 10\l"
+.string "ANDRA: ¿Otro UNOWN dorado?\p"
+	.string "¡¿Este lugar no termina nunca?!\p"
+	.string "¡No vais a poder conmigo!\p"
+	.string "Me da igual si tengo que estar 10\n"
 	.string "o 20 horas seguidas aquí dentro\l"
 	.string "peleando, ¡llegaré hasta el final!$"
 
@@ -149,14 +175,13 @@ RuinsOfAlphS3_Evento_Final_Texto_4:
 .string "GIOVANNI: ¡Espera!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_5:
-.string "Ese…ENTRENADOR, ¿lo has visto?\n"
-	.string "Debía de ser el LÍDER de la secta\l"
-	.string "de LAVANDA.$"
+.string "Ese{PAUSE 15}…{PAUSE 15} ENTRENADOR{PAUSE 15}…{PAUSE 15} ¿Lo has visto?\p"
+	.string "Debía ser el LÍDER de la\n"
+	.string "secta de PUEBLO LAVANDA.$"
 
 RuinsOfAlphS3_Evento_Final_Texto_6:
-.string "ANDRA: Si lo era, ¡menuda\n"
-	.string "decepción!\l"
-	.string "Solo vi a un tipo usar una magia\l"
+.string "ANDRA: Si lo era, ¡menuda decepción!\p"
+	.string "Solo vi a un tipo usar una magia\n"
 	.string "muy extraña para pasar las pruebas\l"
 	.string "sin combatir.$"
 
@@ -166,42 +191,41 @@ RuinsOfAlphS3_Evento_Final_Texto_7:
 	.string "pregunto si{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_8:
-.string "ANDRA: ¡No podrá con {PLAYER}!\n"
-	.string "¡Tenemos que alcanzarle, aún\l"
+.string "ANDRA: ¡No podrá con {PLAYER}!\p"
+	.string "¡Tenemos que alcanzarle, aún\n"
 	.string "estamos a tiempo!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_9:
-.string "GIOVANNI: ¡ANDRA!\n"
-	.string "¡Tú equipo no está hecho para\l"
+.string "GIOVANNI: ¡ANDRA!\p"
+	.string "¡Tú equipo no está hecho para\n"
 	.string "lidiar con un LUGIA PRIM…!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_10:
 .string "ANDRA: ¿Qué ha sido eso?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: ¿L…lo ha logrado?$"
+.string "GIOVANNI: ¿L{PAUSE 25}…{PAUSE 25} lo ha logrado?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
 .string "ANDRA: Toda esa energía, esa\n"
-	.string "tensión en el ambiente, se ha…\l"
-	.string "esfumado{PAUSE 5}…{PAUSE 5}$"
+	.string "tensión en el ambiente, se ha…\p"
+	.string "Esfumado{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-.string "GIOVANNI: Entonces…\n"
-	.string "{PLAYER}, el FUERTE VÍNCULO, ¿han\l"
-	.string "triunfado?\l"
-	.string "¿Quiere decir que las enseñanzas\l"
-	.string "de los sabios de JOHTO eran\l"
-	.string "ciertas?\l"
-	.string "¿Un POKÉMON mortal puede alcanzar\l"
-	.string "la inmortalidad si estamos\l"
-	.string "dispuestos a acompañarle en el\l"
-	.string "camino?\l"
-	.string "¿A creer en él?\l"
-	.string "¿Todos parten de puntos\l"
-	.string "diferentes, pero a la vez todos\l"
-	.string "pueden llegar a tocar el mismo\l"
-	.string "cielo?$"
+.string "GIOVANNI: Entonces…\p"
+	.string "{PLAYER}, el FUERTE VÍNCULO,\n"
+	.string "¿han triunfado?\p"
+	.string "¿Quiere decir que las enseñanzas\n"
+	.string "de los sabios de JOHTO eran ciertas?\p"
+	.string "¿Un POKÉMON mortal puede alcanzar\n"
+	.string "la inmortalidad si estamos dispuestos\l"
+	.string "a acompañarle en el camino?\p"
+	.string "¿A creer en él?$"
+
+RuinsOfAlphS3_Evento_Final_Texto_13.1:
+	.string "¿Todos parten de puntos diferentes,\n"
+	.string "pero a la vez todos pueden llegar\l"
+	.string "a tocar el mismo cielo?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
 .string "{PAUSE 5}…{PAUSE 5}$"
@@ -286,17 +310,39 @@ RuinsOfAlphS3_Combate_Giovanni::
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Giovanni_Move_1
 waitmovement 0x0
+waitse
 msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Giovanni_Move_2
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Giovanni_Move_3
+delay 10
 applymovement 1, RuinsOfAlphS3_Combate_Giovanni_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Giovanni_Move_1.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RuinsOfAlphS3_Combate_Giovanni_Move_5
+waitmovement 0x0
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, RuinsOfAlphS3_Combate_Giovanni_Move_5.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RuinsOfAlphS3_Combate_Giovanni_Move_5
 waitmovement 0x0
 msgbox RuinsOfAlphS3_Combate_Giovanni_Texto_5 MSGBOX_AUTOCLOSE
@@ -315,8 +361,12 @@ setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 5
 release
 end
 
+RuinsOfAlphS3_Combate_Giovanni_Move_5.1:
+walk_in_place_left
+step_end
+
 RuinsOfAlphS3_Combate_Giovanni_Texto_1:
-.string "GIOVANNI: Esta es la última prueba\n"
+.string "GIOVANNI: Esta es la última prueba,\n"
 	.string "{PLAYER}. Lo presiento.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
@@ -327,15 +377,19 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
-.string "No podré continuar. Si la leyenda\n"
-	.string "es cierta, LUGIA PRIMIGENIO\l"
+.string "No podré continuar.$"
+
+RuinsOfAlphS3_Combate_Giovanni_Texto_4.1:
+	.string "Si la leyenda es cierta, LUGIA-P\n"
 	.string "recupera todo el poder de las\l"
-	.string "profundidades del océano. Mis TIPO\l"
-	.string "TIERRA no podrán ante tal POKÉMON,\l"
-	.string "la etiqueta de LEGENDARIO MAYOR se\l"
-	.string "le queda corta. Si tan solo\l"
-	.string "hubiéramos podido acelerar un poco\l"
-	.string "más las últimas versiones de\l"
+	.string "profundidades del océano.\p"
+	.string "Mis POKÉMON TIERRA no podrán ante tal\n"
+	.string "portento, la etiqueta de LEGENDARIO\l"
+	.string "MAYOR se le queda corta.$"
+
+RuinsOfAlphS3_Combate_Giovanni_Texto_4.2:
+	.string "Si tan solo hubiéramos podido acelerar\n"
+	.string "un poco más las últimas versiones de\l"
 	.string "MEWTWO{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
@@ -343,24 +397,28 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_5:
 	.string "Los dragones huyen del HO-OH\l"
 	.string "dorado nada más verlo, los TIPO\l"
 	.string "TIERRA nada pueden hacer ante la\l"
-	.string "bestia de los mares.\l"
-	.string "Definitivamente, hemos subestimado\l"
+	.string "bestia de los mares.\p"
+	.string "Definitivamente, hemos subestimado\n"
 	.string "este lugar, pero tú eres lo más\l"
 	.string "cercano al límite alcanzable por\l"
-	.string "un ENTRENADOR que conozco. Si\l"
-	.string "tenemos opciones, pasan por tu\l"
-	.string "mano.$"
+	.string "un ENTRENADOR que conozco.\p"
+	.string "Si tenemos opciones, pasan\n"
+	.string "por tu mano.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_6:
 .string "Es todo lo que puedo hacer por ti,\n"
 	.string "tu equipo POKÉMON vuelve a estar\l"
-	.string "en plenas facultades.\l"
-	.string "¡Demuéstrales a esos LEGENDARIOS\l"
+	.string "en plenas facultades.\p"
+	.string "¡Demuéstrales a esos LEGENDARIOS\n"
 	.string "el poder del FUERTE VÍNCULO!$"
 
 RuinsOfAlphS3_Combate_Giovanni_Move_1:
 emote_exclamation_mark
 walk_in_place_up
+step_end
+
+RuinsOfAlphS3_Combate_Giovanni_Move_1.1:
+emote_exclamation_mark
 step_end
 
 RuinsOfAlphS3_Combate_Giovanni_Move_2:
@@ -409,17 +467,22 @@ delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Unown_Move_2
 applymovement 1, RuinsOfAlphS3_Combate_Unown_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Combate_Unown_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlphS3_Combate_Unown_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RuinsOfAlphS3_Combate_Unown_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS3_Combate_Unown_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Unown_Move_5
 waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Unown_Move_6
 waitmovement 0x0
+waitse
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
@@ -442,17 +505,12 @@ RuinsOfAlphS3_Combate_Unown_Texto_5:
 .string "Ahora entiendo mejor las palabras\n"
 	.string "del MAESTRO ANCIANO. Él no quiere\l"
 	.string "ver la región a merced de un\l"
-	.string "POKÉMON con un poder\l"
-	.string "descontrolado. Si las FORMAS\l"
-	.string "PRIMIGENIAS de LUGIA y HO-OH son\l"
-	.string "solo las pruebas, no quiero\l"
-	.string "imaginarme el poder de ese DRAGÓN\l"
-	.string "ORIGINAL. Algo así podría provocar\l"
-	.string "una catástrofe peor que la guerra,\l"
-	.string "no vamos a arriesgar eso por\l"
-	.string "obtener precisamente información\l"
-	.string "que podría proporcionarnos armas\l"
-	.string "para defender la región.$"
+	.string "POKÉMON con un poder descontrolado.\l"
+	.string "Si LUGIA y HO-OH  PRIMIGENIOS son\l"
+	.string "solo las pruebas, no quiero imaginar\l"
+	.string "el poder de ese DRAGÓN ORIGINAL.\p"
+	.string "Algo así podría provocar una\n"
+	.string "catástrofe peor que la guerra.$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_6:
 .string "Debes evitar que ese tipo devuelva\n"

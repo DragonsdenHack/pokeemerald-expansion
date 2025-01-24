@@ -736,7 +736,7 @@ Base_Hoenn_Andra_Texto_22:
 
 Base_Hoenn_Andra_Texto_23:
 	.string "Eso bastó para confirmar las sospechas\n"
-	.string "de GIOVANNI y dar por concluída tu\l"
+	.string "de GIOVANNI y dar por concluida tu\l"
 	.string "búsqueda. Pero jamás profundizamos en\l"
 	.string "ello.$"
 

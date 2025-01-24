@@ -14,9 +14,12 @@ waitmoncry
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_2
 waitmovement 0x0
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_4
 waitmovement 0x0
 special SpawnCameraObject
@@ -160,11 +163,15 @@ waitmovement 0x0
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_11
 waitmovement 0x0
+delay 10
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S4_Combate_Zeus_Move_12
 waitmovement 0x0
@@ -180,6 +187,7 @@ playbgm MUS_RG_VICTORY_GYM_LEADER, FALSE
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
 delay 20
@@ -191,9 +199,12 @@ playse SE_M_EMBER
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_13
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_15 MSGBOX_AUTOCLOSE
 fadedefaultbgm
 delay 100
@@ -201,15 +212,23 @@ playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_14
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_14
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_16 MSGBOX_AUTOCLOSE
-msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_14
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_14
+waitse
+msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
@@ -287,17 +306,16 @@ release
 end
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_1:
-.string "ZEUS: Impresionante {PLAYER}, pero\n"
-	.string "demasiado tarde.$"
+.string "ZEUS: Impresionante, {PLAYER}.\p"
+	.string "Pero demasiado tarde.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_2:
-.string "¿Sientes la energía de este lugar?\n"
-	.string "Desconozco el motivo, pero aquí la\l"
+.string "¿Sientes la energía de este lugar?\p"
+	.string "Desconozco el motivo, pero aquí la\n"
 	.string "esencia PRIMIGENIA de los POKÉMON\l"
-	.string "LEGENDARIOS les es devuelta.\l"
-	.string "KYOGRE, GROUDON…es lo que andaba\l"
-	.string "buscando, pero aún más\l"
-	.string "importante{PAUSE 5}…{PAUSE 5}$"
+	.string "LEGENDARIOS les es devuelta.\p"
+	.string "KYOGRE, GROUDON… es lo que andaba\n"
+	.string "buscando, pero aún más importante{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_3:
 .string "KYUREM, la cáscara vacía del\n"
@@ -306,12 +324,12 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_3:
 	.string "ruinas delata su función.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_4:
-.string "¡ZEKROM, el POKÉMON YIN, a la\n"
-	.string "derecha!$"
+.string "¡ZEKROM, el POKÉMON YIN,\n"
+	.string "a la derecha!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_5:
-.string "¡RESHIRAM, el POKÉMON YANG, a la\n"
-	.string "izquierda!$"
+.string "¡RESHIRAM, el POKÉMON YANG,\n"
+	.string "a la izquierda!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_6:
 .string "Y por último, ¡KYUREM, el POKÉMON\n"
@@ -319,8 +337,8 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_6:
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_7:
 .string "Los 3 juntos formarán al DRAGÓN\n"
-	.string "ORIGINAL, la perfección, el\l"
-	.string "equilibrio univers{PAUSE 5}…{PAUSE 5}$"
+	.string "ORIGINAL, la perfección.\l"
+	.string "¡El equilibrio univers{PAUSE 5}…{PAUSE 5}!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_8:
 .string "¡Al fin!$"
@@ -332,59 +350,59 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_9:
 RuinsOfAlph_S4_Combate_Zeus_Texto_10:
 .string "Ya no hay vuelta atrás, gracias a\n"
 	.string "su incuestionable poder podré\l"
-	.string "ejercer mi voluntad sin oposición.\l"
-	.string "Será lo único que existirá, la\l"
+	.string "ejercer mi voluntad sin oposición.\p"
+	.string "Será lo único que existirá, la\n"
 	.string "voluntad de los dioses, como\l"
 	.string "siempre debió ser.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_11:
-.string "Tú serás el primero, {PLAYER}, has\n"
-	.string "tratado de detenerme una y otra\l"
-	.string "vez, aquí estamos de nuevo, nada\l"
-	.string "de lo que has hecho ha servido\l"
-	.string "para que finalmente no ocurra\l"
-	.string "lo inevitable.$"
+.string "Tú serás el primero, {PLAYER}.\p"
+	.string "Has tratado de detenerme una y otra\n"
+	.string "vez, aquí estamos de nuevo, nada de\l"
+	.string "lo que has hecho ha servido para que\l"
+	.string "finalmente no ocurra lo inevitable.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_12:
 .string "Ahora, enfrenta al 100% absoluto,\n"
-	.string "no hay posibilidad de escape. ¡El\l"
-	.string "mundo POKÉMON me pertenece!$"
+	.string "no hay posibilidad de escape.\p"
+	.string "¡El mundo POKÉMON me pertenece!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_13:
-.string "¡No!\n"
-	.string "¡Debe haber algún error, es\l"
-	.string "imposible!$"
+.string "¡No!\p"
+	.string "¡Debe haber algún error,\n"
+	.string "es imposible!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_14:
 .string "¡KYUREM!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
-.string "¿¡No es posible!?\n"
-	.string "Los PRIMIGENIOS, el mismísimo dios\l"
-	.string "POKÉMON, el DRAGÓN ORIGINAL…\l"
+.string "¿¡No es posible!?\p"
+	.string "Los PRIMIGENIOS, el mismísimo dios\n"
+	.string "POKÉMON, el DRAGÓN ORIGINAL…\p"
 	.string "¿Cómo tú…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
-.string "????: Estúpido iluso, ¿de verdad\n"
-	.string "crees que eso era el DRAGÓN\l"
-	.string "ORIGINAL?\l"
-	.string "Pretender volver a formar algo\l"
+.string "????: Estúpido iluso.$"
+
+RuinsOfAlph_S4_Combate_Zeus_Texto_16.1:
+	.string "¿De verdad crees que eso era\n"
+	.string "el DRAGÓN ORIGINAL?\p"
+	.string "Pretender volver a formar algo\n"
 	.string "perfecto juntando imperfecciones\l"
-	.string "como si fueran piezas de un\l"
-	.string "puzzle, patético.$"
+	.string "como si fueran piezas de un puzzle.\l"
+	.string "Patético.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_17:
-.string "ZEUS: No entiendo, ¿¡quién eres\n"
-	.string "tú!?$"
+.string "ZEUS: No entiendo.\p"
+	.string "¿¡Quién eres tú!?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_18:
 .string "¡TAAAAAAAALL!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_19:
-.string "LAIREB: Alguien que se cree\n"
-	.string "superior al resto por la divina\l"
-	.string "providencia no merece seguir\l"
-	.string "viviendo.$"
+.string "LAIREB: Alguien que se cree superior\n"
+	.string "al resto por la divina providencia\l"
+	.string "no merece seguir viviendo.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_20:
 .string "{PAUSE 5}…{PAUSE 5}$"
@@ -393,26 +411,26 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 .string "Ese estúpido ha muerto sin saber\n"
 	.string "que todo lo que ha logrado, sus\l"
 	.string "FORMAS PRIMIGENIAS, el DRAGÓN\l"
-	.string "ORIGINAL incompleto…\l"
-	.string "Se lo debe todo al POKÉMON\l"
+	.string "ORIGINAL incompleto…\p"
+	.string "Se lo debe todo al POKÉMON\n"
 	.string "ESENCIA, su presencia aquí es lo\l"
 	.string "que devuelve a los LEGENDARIOS su\l"
 	.string "máximo potencial, pero aún podemos\l"
 	.string "acercarnos más a ÉL.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-.string "-LAIREB recogió todos los POKÉMON\n"
-	.string "de ZEUS-$"
+.string "-LAIREB recogió todos los\n"
+	.string "POKÉMON de ZEUS-$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
-.string "Podría acabar contigo también\n"
+.string "Podría acabar contigo también,\n"
 	.string "{PLAYER}, pero a diferencia de ese\l"
 	.string "ZEUS yo tengo principios, y por\l"
 	.string "respeto a todo lo que has logrado\l"
 	.string "llegando hasta aquí con POKÉMON\l"
 	.string "mortales, te daré la oportunidad\l"
-	.string "de acceder también a la última\l"
-	.string "sala. Una más {PLAYER}, y podrás\l"
+	.string "de acceder también a la última sala.\p"
+	.string "Una más, {PLAYER}, y podrás\n"
 	.string "conocer la verdad.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Move_1:
@@ -478,6 +496,7 @@ step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_11:
 walk_slow_down
+delay_16
 walk_in_place_down
 step_end
 
@@ -520,11 +539,13 @@ step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_18:
 walk_up
+delay_16
 walk_in_place_right
 step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_19:
 walk_right
+delay_16
 walk_in_place_down
 step_end
 

@@ -83,9 +83,9 @@ BlackthornCity_Gym_Gym_Dude_Texto_2:
 BlackthornCity_Bald::
 lock
 faceplayer
-msgbox BlackthornCity_Bald_Texto_1 MSGBOX_AUTOCLOSE
-msgbox BlackthornCity_Bald_Texto_2 MSGBOX_AUTOCLOSE
-msgbox BlackthornCity_Bald_Texto_3 MSGBOX_AUTOCLOSE
+msgbox BlackthornCity_Bald_Texto_1 MSGBOX_NPC
+msgbox BlackthornCity_Bald_Texto_2 MSGBOX_NPC
+msgbox BlackthornCity_Bald_Texto_3 MSGBOX_NPC
 release
 end
 

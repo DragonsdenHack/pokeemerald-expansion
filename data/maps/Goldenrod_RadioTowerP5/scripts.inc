@@ -673,7 +673,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_29:
 	.string "límites de este mundo sería un pecado.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_30:
-.string "M.ANCIANO: ¿Y cómo sabemos que no\n"
+.string "M.DRAGÓN: ¿Y cómo sabemos que no\n"
 	.string "usarás todo eso como arma, más que\l"
 	.string "como defensa?\p"
 	.string "Conozco a varios de los aquí presentes,\n"

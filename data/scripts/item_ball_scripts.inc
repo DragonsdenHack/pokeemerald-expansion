@@ -3144,4 +3144,8 @@ CuevaHypno_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
    end
 
+GuaridaDragon_S3_Garfio::
+finditem ITEM_GRIP_CLAW
+end
+
 

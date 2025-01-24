@@ -4,19 +4,27 @@ RuinsOfAlph_S5_MapScripts::
 RuinsOfAlph_S5_Final::
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_2
 waitmovement 0x0
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_6 MSGBOX_AUTOCLOSE
@@ -87,6 +95,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 13, 5, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -195,6 +205,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 3, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -295,6 +307,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 23, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -362,9 +376,12 @@ delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 3, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
@@ -378,6 +395,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
 applymovement 3, RuinsOfAlph_S5_Final_Move_14
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
 applymovement 3, RuinsOfAlph_S5_Final_Move_10
 waitmovement 0x0
@@ -442,120 +460,116 @@ RuinsOfAlph_S5_Final_Texto_1:
 
 RuinsOfAlph_S5_Final_Texto_2:
 .string "Así es, ahora mismo estamos\n"
-	.string "enterrados cientos de metros bajo\l"
-	.string "CIUDAD IRIS, justo en medio de\l"
+	.string "enterrados, cientos de metros bajo\l"
+	.string "CIUDAD IRIS. Justo en medio de\l"
 	.string "TORRE CAMPANA y la mal llamada\l"
 	.string "TORRE QUEMADA, otrora TORRE LATÓN.$"
 
 RuinsOfAlph_S5_Final_Texto_3:
-.string "Como ves, no existen los\n"
-	.string "accidentes {PLAYER}, todo tiene un\l"
-	.string "porqué. ¿Entiendes ahora por qué\l"
-	.string "LUGIA y HO-OH eran requeridos para\l"
-	.string "llegar hasta aquí?$"
+.string "Como ves, no existen los accidentes.\p"
+	.string "Todo tiene un porqué.\p"
+	.string "¿Entiendes ahora la razón de que\n"
+	.string "LUGIA y HO-OH fueran requeridos\l"
+	.string "para llegar hasta aquí?$"
 
 RuinsOfAlph_S5_Final_Texto_4:
-.string "Ambas torres llevan 700 años en\n"
-	.string "pie…\l"
-	.string "Una pequeña fracción comparado con\l"
+.string "Ambas torres llevan 700 años en pie…\p"
+	.string "Una pequeña fracción comparado con\n"
 	.string "el tiempo que nuestro culto lleva\l"
 	.string "existiendo. Fue aquí donde emigró\l"
-	.string "el POKÉMON ESENCIA después de que\l"
-	.string "rechazara a nuestro culto.$"
+	.string "el POKÉMON ESENCIA, después de que\l"
+	.string "rechazara el contacto humano.$"
 
 RuinsOfAlph_S5_Final_Texto_5:
-.string "¡Pero a KANTO pertenece!\n"
-	.string "¡Y a KANTO volverá!\l"
+.string "¡Pero a KANTO pertenece!\p"
+	.string "¡Y a KANTO volverá!\p"
 	.string "¡El POKÉMON ESENCIA!$"
 
 RuinsOfAlph_S5_Final_Texto_6:
-.string "¡Observa atentamente {PLAYER}, las\n"
-	.string "mayores fuerzas que existen en el\l"
-	.string "universo están a punto de aparecer!$"
+.string "¡Observa atentamente, {PLAYER}!\n"
+	.string "¡Las mayores fuerzas que existen en\l"
+	.string "el universo están a punto de aparecer!$"
 
 RuinsOfAlph_S5_Final_Texto_7:
 .string "¡MEW!$"
 
 RuinsOfAlph_S5_Final_Texto_8:
-.string "Mi culto ha esperado esto por\n"
-	.string "milenios, y ahora soy yo quien\l"
-	.string "tiene el honor de, no solo\l"
-	.string "presenciar, ¡sino también hacer\l"
-	.string "uso del POKÉMON ESENCIA!$"
+.string "Mi culto ha esperado esto por milenios,\n"
+	.string "y ahora soy yo quien tiene el honor\l"
+	.string "de, no solo presenciar{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡Sino también hacer uso del\n"
+	.string "POKÉMON ESENCIA!$"
 
 RuinsOfAlph_S5_Final_Texto_9:
-.string "3…\n"
-	.string "3 son los POKÉMON que, unidos, han\l"
+.string "3…\p"
+	.string "3 son los POKÉMON que, unidos, han\n"
 	.string "formado todo cuanto hay, hubo y\l"
 	.string "habrá, con sus diferencias,\l"
 	.string "iguales entre ellos en poder\l"
-	.string "global, de los 3 el más importante\l"
-	.string "es el POKÉMON ESENCIA, pues\l"
-	.string "gracias a él los otros dos pueden\l"
-	.string "recobrar su ESENCIA PRIMIGENIA.$"
+	.string "global. De los 3, el más importante\l"
+	.string "es el POKÉMON ESENCIA, pues gracias\l"
+	.string "a él los otros dos pueden recobrar\l"
+	.string "su ESENCIA PRIMIGENIA.$"
 
 RuinsOfAlph_S5_Final_Texto_10:
-.string "El DRAGÓN ORIGINAL, representa el\n"
-	.string "equilibrio perfecto, la\l"
-	.string "perfección, ÉL es el ancestro de\l"
-	.string "todos los dragones, ya estaba\l"
-	.string "antes de que el otro dios creador\l"
-	.string "naciera del huevo que dio origen a\l"
-	.string "este universo.$"
+.string "El DRAGÓN ORIGINAL.\p"
+	.string "Representa el equilibrio perfecto,\n"
+	.string "la perfección, ÉL es el ancestro de\l"
+	.string "todos los dragones, ya estaba antes\l"
+	.string "de que el otro dios creador naciera\l"
+	.string "del huevo que dio origen a este\l"
+	.string "universo.$"
 
 RuinsOfAlph_S5_Final_Texto_11:
-.string "Ese iluso creía que bastaba con\n"
-	.string "unir a los 3 DRAGONES DE TESELIA,\l"
-	.string "pero solo el POKÉMON ESENCIA puede\l"
+.string "Ese iluso creía que bastaba con unir\n"
+	.string "a los 3 DRAGONES DE TESELIA, pero\l"
+	.string "solo el POKÉMON ESENCIA puede\l"
 	.string "devolverle su forma original,\l"
-	.string "anterior al BIG-GANG.\l"
+	.string "aquella anterior al BIG-BANG.\p"
 	.string "¡Observa!$"
 
 RuinsOfAlph_S5_Final_Texto_12:
-.string "Su ofensiva es incomparable, dueño\n"
-	.string "de los TIPOS ELEMENTALES,\l"
+.string "Su ofensiva es incomparable.\p"
+	.string "Dueño de los TIPOS ELEMENTALES,\n"
 	.string "MEGA-RAYQUAZA no es más que una\l"
 	.string "burda lagartija a su lado.$"
 
 RuinsOfAlph_S5_Final_Texto_13:
-.string "ARCEUS…\n"
-	.string "El DIOS de nuestro universo, 15\l"
+.string "ARCEUS…\p"
+	.string "El DIOS de nuestro universo, 15\n"
 	.string "billones de años mermado por crear\l"
-	.string "todo lo conocido, pero eso se\l"
-	.string "acabó.$"
+	.string "todo lo conocido, pero eso se acabó.$"
 
 RuinsOfAlph_S5_Final_Texto_14:
-.string "150 es el número dorado para los\n"
-	.string "LEGENDARIOS MAYORES, ¡qué menos que\l"
-	.string "sea la norma para el dios de\l"
-	.string "dioses de este universo!$"
+.string "150 es el número aúreo para los\n"
+	.string "LEGENDARIOS MAYORES.\p"
+	.string "¡Qué menos que sea la norma\n"
+	.string "para el dios de dioses!!$"
 
 RuinsOfAlph_S5_Final_Texto_15:
 .string "Y por último, el POKÉMON ESENCIA,\n"
 	.string "intermediario entre los otros dos\l"
 	.string "dioses, su reino es la materia\l"
 	.string "oscura, el molde a partir del cual\l"
-	.string "debe pasar todo proceso de\l"
-	.string "creación, todos formamos parte de\l"
-	.string "ÉL, por eso es omnipresente, y su\l"
-	.string "única forma definida se encuentra\l"
-	.string "aquí, a escasos metros de\l"
+	.string "debe pasar todo proceso de creación.\p"
+	.string "Todos formamos parte de ÉL, por eso es\n"
+	.string "omnipresente, su única forma definida\l"
+	.string "se encuentra aquí, a escasos metros de\l"
 	.string "nosotros.$"
 
 RuinsOfAlph_S5_Final_Texto_16:
-.string "LUGIA y HO-OH permiten llegar\n"
-	.string "hasta aquí, pero aquel que\l"
-	.string "controle a MEW podrá hacer uso del\l"
-	.string "POKÉMON ESENCIA, lamento tener que\l"
-	.string "decírtelo ahora, pero no hubieras\l"
-	.string "emprendido esta búsqueda de la\l"
-	.string "misma manera.$"
+.string "LUGIA y HO-OH permiten llegar hasta\n"
+	.string "aquí, pero solo aquel que controle\l"
+	.string "a MEW podrá hacer uso de ÉL.\p"
+	.string "Lamento tener que decírtelo ahora,\n"
+	.string "pero no hubieras emprendido esta\l"
+	.string "búsqueda de la misma manera.$"
 
 RuinsOfAlph_S5_Final_Texto_17:
-.string "Y ahora {PLAYER}…\n"
-	.string "Llegó la hora de la verdad. Con el\l"
-	.string "POKÉMON ESENCIA, el culto de\l"
-	.string "LAVANDA alcanzará al fin ese\l"
+.string "Y ahora, {PLAYER}…\p"
+	.string "Llegó el momeneto de la verdad.\p"
+	.string "Con el POKÉMON ESENCIA, el culto de\n"
+	.string "PUEBLO LAVANDA alcanzará al fin ese\l"
 	.string "estado de perfección, un nirvana\l"
 	.string "eterno. Tú serás el primero en\l"
 	.string "experimentar lo que se siente al\l"
@@ -567,13 +581,13 @@ RuinsOfAlph_S5_Final_Texto_18:
 RuinsOfAlph_S5_Final_Texto_19:
 .string "Los 3 juntos, unidos entre ellos\n"
 	.string "ya forman la sinergia perfecta.\l"
-	.string "Añadir cualquier otro POKÉMON a\l"
-	.string "este equipo de 3 sería romper esa\l"
-	.string "perfección. No necesito más que\l"
-	.string "estos 3 POKÉMON para coronarme\l"
-	.string "como el ENTRENADOR más poderoso de\l"
-	.string "todos los tiempos, el resto están\l"
-	.string "a años luz.$"
+	.string "Añadir o quitar cualquier POKÉMON a\l"
+	.string "esta tríada sagrada, sería romper\l"
+	.string "dicha perfección.\p"
+	.string "No necesito más que estos 3 POKÉMON para\n"
+	.string "coronarme como el DIOS del nuevo mundo,\l"
+	.string "y a su vez, ¡como el ENTRENADOR más\l"
+	.string "poderoso todos los tiempos!$"
 
 RuinsOfAlph_S5_Final_Texto_20:
 .string "No hay posibilidad de escape, solo\n"
@@ -581,10 +595,10 @@ RuinsOfAlph_S5_Final_Texto_20:
 	.string "a punto de enfrentar.$"
 
 RuinsOfAlph_S5_Final_Texto_21:
-.string "Lo siento {PLAYER}, habrías sido un\n"
-	.string "gran miembro de nuestro culto y\l"
-	.string "sabido apreciar al POKÉMON\l"
-	.string "ESENCIA, pero…\l"
+.string "Lo siento, {PLAYER}.\n"
+	.string "Habrías sido un gran miembro de nuestro\l"
+	.string "culto y sabido apreciar al POKÉMON\l"
+	.string "ESENCIA, pero…\p"
 	.string "¡¡LA INMORTALIDAD ME ESPERA A MÍ!!$"
 
 RuinsOfAlph_S5_Final_Texto_22:
@@ -592,17 +606,17 @@ RuinsOfAlph_S5_Final_Texto_22:
 	.string "perfecto!$"
 
 RuinsOfAlph_S5_Final_Texto_23:
-.string "No puede ser, estos 3 POKÉMON solo\n"
-	.string "pueden derrotarse entre ellos,\l"
-	.string "juntos forman un equipo\l"
-	.string "invencible, ¿qué ha fallado?$"
+.string "No puede ser{PAUSE 15}…{PAUSE 15} estos 3 POKÉMON solo\n"
+	.string "pueden derrotarse entre ellos{PAUSE 15}…{PAUSE 15}\p"
+	.string "Juntos conforman una sinergia\n"
+	.string "perfecta, ¡¿qué ha fallado?!$"
 
 RuinsOfAlph_S5_Final_Texto_24:
 .string "¡k4nv%bjs&!$"
 
 RuinsOfAlph_S5_Final_Texto_25:
-.string "A{PAUSE 15}…{PAUSE 15}\n"
-	.string "Ahora lo entiendo{PAUSE 15}…{PAUSE 15}\l"
+.string "A{PAUSE 15}…{PAUSE 15}\p"
+	.string "Ahora lo entiendo{PAUSE 15}…{PAUSE 15}\p"
 	.string "He sido yo el que ha fallado{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S5_Final_Texto_26:

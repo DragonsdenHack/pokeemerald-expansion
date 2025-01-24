@@ -32,8 +32,8 @@ release
 end
 
 BlackthornCity_Text_2:
-.string "{PLAYER}, ¿no?\n"
-.string "Nuestro GRAN MAESTRO nos ha\l"
+.string "{PLAYER}, ¿no?\p"
+.string "Nuestro GRAN MAESTRO nos ha\n"
 .string "hablado de ti, eres más que\l"
 .string "bienvenido en este lugar.$"
 
@@ -52,8 +52,8 @@ release
 end
 
 BlackthornCity_Text_4:
-.string "Ah…\n"
-.string "Si yo te dijera la cantidad de\l"
+.string "Ah…\p"
+.string "Si yo te dijera la cantidad de\n"
 .string "POKÉMON sagrados que he visto\l"
 .string "nadar aquí{PAUSE 5}…{PAUSE 5}$"
 
@@ -86,10 +86,9 @@ end
 
 BlackthornCity_Text_8:
 .string "¡Un dragón al que el resto de\n"
-.string "dragones no pueden tocar!\l"
-.string "¡Vi como los ENFADO y CARGA DRAGÓN\l"
-.string "no afectaban a ese POKÉMON del\l"
-.string "MAESTRO!$"
+.string "dragones no pueden tocar!\p"
+.string "¡Vi cómo los ENFADO y CARGA DRAGÓN\n"
+.string "no afectaban al POKÉMON del MAESTRO!$"
 
 
 
@@ -104,9 +103,9 @@ BlackthornCity_Text_9:
 .string "Vine hasta aquí para entender\n"
 .string "mejor el origen de la fuerza bruta\l"
 .string "de los dragones. Estos y el TIPO\l"
-.string "LUCHA tienen mucho en común.\l"
-.string "¡Ambos cuentan con un poder físico\l"
-.string "demoledor!$"
+.string "LUCHA tienen mucho en común.\p"
+.string "¡Ambos cuentan con un poder\n"
+.string "físico demoledor!$"
 
 
 
@@ -136,12 +135,11 @@ BlackthornCity_Text_11:
 .string "CIUDAD ENDRINO siempre ha sido el\n"
 .string "lugar más inaccesible de JOHTO,\l"
 .string "rodeada de montañas, con la RUTA\l"
-.string "HELADA como única vía de acceso,\l"
-.string "pero sabe premiar a sus\l"
-.string "visitantes, pues el conocimiento\l"
-.string "último acerca del tipo más\l"
-.string "poderoso y sagrado espera para\l"
-.string "quienes estén preparados{PAUSE 5}…{PAUSE 5}$"
+.string "HELADA como única vía de acceso.\l"
+.string "Pero sabe premiar a sus visitantes,\l"
+.string "pues el conocimiento último acerca\l"
+.string "del tipo más poderoso y sagrado\l"
+.string "espera, para aquellos preparados{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -153,13 +151,13 @@ release
 end
 
 BlackthornCity_Text_12:
-.string "¿No son adorables?\n"
-.string "Es fascinante cómo un frágil\l"
+.string "¿No son adorables?\p"
+.string "Es fascinante cómo un frágil\n"
 .string "DRATINI puede crecer hasta\l"
 .string "convertirse en un DRAGONITE con\l"
 .string "mayor poder global que ARTICUNO,\l"
 .string "ZAPDOS, MOLTRES y los LEGENDARIOS\l"
-.string "ERRANTES ENTEI, RAIKOU y SUICUNE.\l"
+.string "ERRANTES ENTEI, RAIKOU y SUICUNE.\p"
 .string "¿No crees?$"
 
 
@@ -241,8 +239,8 @@ face_left
 step_end
 
 BlackthornCity_Anciano_Paso_Texto_1:
-.string "{PLAYER}, ¿no?\n"
-	.string "Nuestro GRAN MAESTRO nos ha\l"
+.string "{PLAYER}, ¿no?\p"
+	.string "Nuestro GRAN MAESTRO nos ha\n"
 	.string "hablado de ti, eres más que\l"
 	.string "bienvenido en este lugar.$"
 
@@ -284,5 +282,5 @@ BlackthornCity_Swablu_Text_MensajeNosepass:
 BlackthornCity_Swablu_Text_1:
 	.string "La línea evolutiva de SWABLU no cuenta\n"
 	.string "con la capacidad ofensiva típica en los\l"
-	.string "dragones, pero sí con otros atributos.\l"
+	.string "dragones, pero sí con otros atributos.\p"
 	.string "Quizás puedas llegar a descubrirlos.$"

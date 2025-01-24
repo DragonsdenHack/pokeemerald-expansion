@@ -146,7 +146,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 22,
+      "x": 1,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -156,6 +156,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GuaridaDragon_EventScript_TablaDragon",
       "flag": "FLAG_HOENN_190"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 22,
+      "y": 1,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "GuaridaDragon_S3_Garfio",
+      "flag": "FLAG_HOENN_303"
     }
   ],
   "warp_events": [

@@ -164,7 +164,7 @@ MisionIrisLab_Primer_Cientifico_Texto_10:
 
 MisionIrisLab_Primer_Cientifico_Texto_11:
 .string "Sea como sea, no importa. Nuestra labor\n"
-	.string "en esta tosca región ha concluído.$"
+	.string "en esta tosca región ha concluido.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_12:
 .string "Quédate con los FÓSILES si lo deseas,\n"

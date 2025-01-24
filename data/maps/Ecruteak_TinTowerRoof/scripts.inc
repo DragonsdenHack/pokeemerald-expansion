@@ -260,7 +260,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_1:
 	.string "Estaba esperándote.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_2:
-.string "M.IRIS: Antaño, este lugar era el\n"
+.string "M.JADEN: Antaño, este lugar era el\n"
 	.string "nido de HO-OH, el punto más alto\l"
 	.string "de JOHTO junto con TORRE LATÓN.\p"
 	.string "Ambos, puntos de unión para las\n"
@@ -346,7 +346,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_15:
 	.string "¡ROCA AFILADA!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_16:
-.string "M.IRIS: ¡Vil canalla!\p"
+.string "M.JADEN: ¡Vil canalla!\p"
 	.string "¿Cómo te atreves a hacer\n"
 	.string "eso con algo tan puro?$"
 
@@ -414,7 +414,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_23:
 	.string "para reunirlo, y sé quién la tiene.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_24:
-.string "M.IRIS: Esto es terrible…\p"
+.string "M.JADEN: Esto es terrible…\p"
 	.string "¡Tenemos que avisar al MAESTRO\n"
 	.string "DRAGÓN de CIUDAD ENDRINO!\p"
 	.string "¡Solo es cuestión de tiempo que ese\n"

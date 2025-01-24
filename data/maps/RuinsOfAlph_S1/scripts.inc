@@ -23,8 +23,8 @@ release
 end
 
 RuinsOfAlphS1_Atlas_Piedra_Texto_1:
-.string "(El ADMIN.JEFE ATLAS está\n"
-	.string "completamente petrificado)$"
+.string "-El ADMIN.JEFE ATLAS está\n"
+	.string "completamente petrificado-$"
 
 RuinsOfAlphS1_Andra::
 lock
@@ -34,14 +34,14 @@ release
 end
 
 RuinsOfAlphS1_Andra_Texto_1:
-.string "¡{PLAYER}!\n"
-	.string "¿Qué ocurre en este lugar?\l"
-	.string "Nunca había visto unos POKÉMON\l"
+.string "¡{PLAYER}!\p"
+	.string "¿Qué ocurre en este lugar?\p"
+	.string "Nunca había visto unos POKÉMON\n"
 	.string "así, varios de los nuestros ya han\l"
 	.string "caído. Esos horribles esqueletos\l"
 	.string "seguro que han tenido algo que\l"
-	.string "ver…\l"
-	.string "Tenemos que andarnos con cuidado,\l"
+	.string "ver…\p"
+	.string "Tenemos que andarnos con cuidado,\n"
 	.string "{PLAYER}, el MAESTRO DRAGÓN tenía\l"
 	.string "razón, este lugar es peligroso.$"
 
@@ -82,10 +82,12 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_3
 waitmovement 0x0
+waitse
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_5
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_6
 waitmovement 0x0
@@ -110,10 +112,12 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 waitmovement 0x0
+waitse
 playse SE_BREAKABLE_DOOR
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_5
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_8
 waitmovement 0x0
+waitse
 delay 10
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_7 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
@@ -164,23 +168,23 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_6:
 	.string "acabe, esta vez iremos juntos.$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_7:
-.string "ANDRA: ¿C-cómo?$"
+.string "ANDRA: ¿C{PAUSE 15}-{PAUSE 15}cómo?$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_8:
-.string "Ahora lo entiendo, {PLAYER}, UNOWN\n"
-	.string "te pone a prueba de forma\l"
+.string "Ahora lo entiendo, {PLAYER}.\p"
+	.string "UNOWN te pone a prueba de forma\n"
 	.string "individual. Solo podemos pasar de\l"
 	.string "uno en uno y para ello hay que\l"
-	.string "derrotar a este UNOWN. GIOVANNI\l"
-	.string "debió poder, ATLAS{PAUSE 5}…{PAUSE 5}$"
+	.string "derrotar a este UNOWN.\p"
+	.string "GIOVANNI debió poder, ATLAS{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_9:
 .string "Sigue adelante, {PLAYER}, estaré\n"
 	.string "bien. Para esto me he estado\l"
 	.string "preparando, para enfrentar a\l"
-	.string "deidades con POKÉMON mortales.\l"
-	.string "¡Vamos, CROBAT!\l"
-	.string "¡Demostremos a esta reliquia el\l"
+	.string "deidades con POKÉMON mortales.\p"
+	.string "¡Vamos, CROBAT!\p"
+	.string "¡Demostremos a esta reliquia el\n"
 	.string "poder del FUERTE VÍNCULO!$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Move_1:
@@ -234,6 +238,7 @@ lock
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Apertura_Move_1
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Apertura_Move_2
 waitmovement 0x0
 delay 10
@@ -302,8 +307,8 @@ release
 end
 
 RuinsOfAlph_S1_Apertura_Texto_1:
-.string "(Parece que has activado algo de\n"
-	.string "gran peligro al pisar esta zona)$"
+.string "-Parece que has activado algo de\n"
+	.string "gran peligro al pisar esta zona-$"
 
 RuinsOfAlph_S1_Apertura_Move_1:
 emote_exclamation_mark
@@ -336,14 +341,14 @@ release
 end
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_1:
-.string "(¡Una energía misteriosa te ataca!)$"
+.string "-¡Una energía misteriosa te ataca!-$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
 .string "… … … …{PAUSE 5}$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado)$"
+.string "-La energía misteriosa se ha\n"
+	.string "esfumado-$"
 
 
 RuinsOfAlph_S1_Combate_Kabutops_Move_1:

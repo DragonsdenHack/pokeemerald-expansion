@@ -4153,74 +4153,118 @@ addobject 1
 addobject 6
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_3
 waitmovement 0x0
+delay 10
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8 MSGBOX_AUTOCLOSE
-fadescreen 1
-delay 25
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.2
+applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.3
+waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_103_RIVAL
-removeobject 6
-fadescreen 0
+playse SE_EXIT
+waitse
+delay 10
 setvar VAR_UNUSED_0x40F7, 168
 release
 end
 
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.2:
+delay_16
+face_left
+delay_16
+face_down
+step_end
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.3:
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.1:
+emote_exclamation_mark
+step_end
+
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1:
-.string "GIOVANNI: Como te decía, ANDRA, las\n"
-	.string "RUINAS ALFA deben de estar bajo\l"
-	.string "máxima vigilancia a partir de\l"
-	.string "ahora.$"
+.string "GIOVANNI: Como te decía, ANDRA.\p"
+	.string "A partir de ahora, las RUINAS ALFA\n"
+	.string "deben estar bajo máxima vigilancia.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2:
 .string "GIOVANNI: {PLAYER}, ¿te das cuenta\n"
-	.string "del POKÉMON al que te has enfrentado?\l"
-	.string "Nuestros científicos han\l"
-	.string "determinado su ATAQUE ESPECIAL en\l"
-	.string "190 de BASE. Hasta ahora, creíamos\l"
-	.string "que los 180 de DEOXYS eran el tope\l"
-	.string "absoluto, y no solo eso, con solo\l"
-	.string "50 en ATAQUE FÍSICO logra unos 660\l"
-	.string "de BASE. No hay duda de que ese\l"
-	.string "POKÉMON es incluso superior en\l"
+	.string "del POKÉMON que has enfrentado?\p"
+	.string "Nuestros científicos han fijado\n"
+	.string "su ATAQUE ESPECIAL en 190 puntos.\p"
+	.string "Hasta ahora, creíamos que los 180\n"
+	.string "Además, su reparto, con solo 50\l"
+	.string "puntos en ATAQUE, para un total de\l"
+	.string "de 675 puntos, es inmejorable.\p"
+	.string "Este POKÉMON es incluso superior en\n"
 	.string "números a LEGENDARIOS MAYORES como\l"
 	.string "LUGIA y HO-OH. Los límites a los\l"
 	.string "que creíamos que podían llegar los\l"
 	.string "POKÉMON convencionales acaban de\l"
-	.string "expandirse. La información que\l"
+	.string "expandirse, y la información que\l"
 	.string "obtendremos de este POKÉMON nos\l"
 	.string "ayudará a perfeccionar aún más el\l"
-	.string "ATAQUE ESPECIAL de nuevos\l"
-	.string "prototipos de MEWTWO, tal vez\l"
-	.string "logremos incluso pasar esos 190 de\l"
-	.string "BASE.$"
+	.string "ATAQUE ESPECIAL de nuevos prototipos\l"
+	.string "de MEWTWO.\p"
+	.string "Tal vez{PAUSE 15}…{PAUSE 15} logremos incluso pasar de\n"
+	.string "esos 190 puntos.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_3:
-.string "Pero no estamos aquí para eso. Ya\n"
-	.string "he puesto al día a ANDRA, y le\l"
-	.string "he pedido que esté atenta a\l"
-	.string "cualquier movimiento extraño que\l"
-	.string "pueda darse en RUINAS ALFA.$"
+.string "Pero no estamos aquí para eso.\n"
+	.string "Ya he puesto al día a ANDRA, y le\l"
+	.string "he pedido que esté atenta a todo\l"
+	.string "lo que pueda darse en RUINAS ALFA.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_4:
 .string "No sabemos lo que ese ENTRENADOR\n"
@@ -4228,38 +4272,37 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_4:
 	.string "de estar en ese lugar.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_5:
-.string "Sin embargo, nos falta\n"
-	.string "información, es aquí donde entras\l"
-	.string "tú, {PLAYER}. Deberás visitar el\l"
-	.string "culto de PUEBLO LAVANDA una vez\l"
-	.string "más, explicarle la situación a su\l"
+.string "Sin embargo, nos falta información.\n"
+	.string "Es aquí donde entras tú, {PLAYER};\l"
+	.string "deberás visitar el CULTO LAVANDA una\l"
+	.string "vez más, explicarle la situación a su\l"
 	.string "LÍDER. Tal vez él sepa qué hacer.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6:
 .string "Eso es todo por ahora, ATLAS y yo\n"
-	.string "estamos muy ocupados poniendo en\l"
+	.string "estamos muy ocupados, poniendo en\l"
 	.string "marcha todos los puntos hablados\l"
 	.string "en TRIGAL, pero no dudaremos en\l"
-	.string "intervenir si es necesario. Espero\l"
-	.string "noticias vuestras.$"
+	.string "intervenir si es necesario.\p"
+	.string "Espero noticias vuestras.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7:
 .string "ANDRA: ¡A la orden, señor!$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
 .string "No me dijiste que ese tipo contaba\n"
-	.string "con KYOGRE, GROUDON y RAYQUAZA\l"
-	.string "{PLAYER}, ¿de verdad enfrentaste a\l"
-	.string "los tres LEGENDARIOS de HOENN a la\l"
-	.string "vez?\l"
-	.string "Ten mucho cuidado, he estudiado la\l"
-	.string "mitología de HOENN, y la leyenda\l"
-	.string "habla de FORMAS PRIMIGENIAS aún\l"
-	.string "más poderosas de estos\l"
-	.string "LEGENDARIOS, las que de verdad\l"
-	.string "crearon la tierra y el mar, no sé\l"
-	.string "si ese tipo quiere comprobar si\l"
-	.string "esa leyenda es cierta, pero tenlo\l"
+	.string "con KYOGRE, GROUDON y RAYQUAZA.\l"
+	.string "¿De verdad enfrentaste a los tres\l"
+	.string "LEGENDARIOS de HOENN a la vez?\p"
+	.string "Ten mucho cuidado, he estudiado su\n"
+	.string "mitología, y la leyenda habla de\l"
+	.string "FORMAS PRIMIGENIAS aún más poderosas.$"
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8.1:
+	.string "Así es, las que de verdad crearon\n"
+	.string "la tierra y el mar.\p"
+	.string "No sé si ese tipo querrá comprobar la\n"
+	.string "veracidad de esa leyenda, pero tenlo\l"
 	.string "en cuenta.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1:

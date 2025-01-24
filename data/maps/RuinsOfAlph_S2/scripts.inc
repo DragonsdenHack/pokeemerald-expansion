@@ -47,7 +47,7 @@ RuinsOfAlphS2_Combate_Unown_Texto_1:
 .string "????: …{PAUSE 5}$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_2:
-.string "M.ANCIANO: Tú también, {PLAYER}, has\n"
+.string "M.DRAGÓN: Tú también, {PLAYER}, has\n"
 	.string "logrado llegar hasta aquí{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_3:
@@ -121,8 +121,10 @@ delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS2_Combate_Real_Unown_Move_2
 waitmovement 0x0
 msgbox RuinsOfAlphS2_Combate_Real_Unown_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, RuinsOfAlphS2_Combate_Real_Unown_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS2_Combate_Real_Unown_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 2, RuinsOfAlphS2_Combate_Real_Unown_Move_1
 waitmovement 0x0
@@ -132,6 +134,7 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS2_Combate_Real_Unown_Move_5
 waitmovement 0x0
+waitse
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
@@ -153,34 +156,34 @@ RuinsOfAlphS2_Combate_Real_Unown_Texto_2:
 .string "… … … …{PAUSE 5}$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado)$"
+.string "-La energía misteriosa se ha\n"
+	.string "esfumado-$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_4:
-.string "M.ANCIANO: Admirable, acabas de\n"
+.string "M.DRAGÓN: Admirable, acabas de\n"
 	.string "batir al HO-OH dorado.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_5:
-.string "Mis dragones nada podían\n"
-	.string "hacer ante la pureza de su TIPO\l"
-	.string "HADA, ese ZEUS sabía que HO-OH\l"
-	.string "sirve como llave para seguir\l"
-	.string "avanzando hasta la última sala. Al\l"
-	.string "dejarlo aquí, la esencia de este\l"
+.string "Mis dragones nada podían hacer\n"
+	.string "ante la pureza de su TIPO HADA.\l"
+	.string "Ese ZEUS sabía que HO-OH sirve\l"
+	.string "como llave, para seguir avanzando\l"
+	.string "hasta la última sala.\p"
+	.string "Al dejarlo aquí, la esencia de este\n"
 	.string "lugar le ha hecho recobrar su\l"
 	.string "forma primigenia. Eso mismo es lo\l"
-	.string "que busca con KYUREM. Debes evitar\l"
-	.string "eso, {PLAYER}, nadie está preparado\l"
-	.string "para la vuelta del DRAGÓN\l"
-	.string "ORIGINAL.$"
+	.string "que busca con KYUREM.\p"
+	.string "Debes evitarlo, {PLAYER}, nadie\n"
+	.string "está preparado para la vuelta del\l"
+	.string "DRAGÓN ORIGINAL.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_6:
-.string "Lo harás bien, {PLAYER}, tienes algo\n"
-	.string "que no puede comprarse con ningún\l"
-	.string "LEGENDARIO y de lo que ese ZEUS\l"
+.string "Lo harás bien{PAUSE 15}…{PAUSE 15}\p"
+	.string "Tienes algo que no puede obtenerse con\n"
+	.string "ningún LEGENDARIO, y de lo que ese ZEUS\l"
 	.string "carece: un vínculo inquebrantable\l"
-	.string "con tus POKÉMON. Sigue adelante y\l"
-	.string "demuéstraselo.$"
+	.string "con tus POKÉMON.\p"
+	.string "Sigue adelante y demuéstraselo.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Move_1:
 face_up

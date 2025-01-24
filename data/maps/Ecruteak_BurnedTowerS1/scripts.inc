@@ -313,7 +313,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
 	.string "combate al agitador.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-.string "JADEN: Mmm{PAUSE 15}…{PAUSE 15}\n"
+.string "M.JADEN: Mmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Debes de ser {PLAYER}, AGATHA ya me\l"
 	.string "ha hablado de ti.\p"
 	.string "En nombre de CIUDAD IRIS, te doy\n"
