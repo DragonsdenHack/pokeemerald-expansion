@@ -44,12 +44,11 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 	.string	"pero es de lo mejorcito que hay.$"
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
-	.string	"¡Anda, si tienes un POKéNAV!\n"
-	.string	"Es igualito que el mío.\p"
+	.string	"¿Eh, tú no tienes un POKéNAV?\p"
 	.string	"¿Has oído hablar de la AGENDA\n"
 	.string	"del MÓVIL del POKéNAV?\p"
-	.string	"Consúltala cuando quieras charlar\n"
-	.string	"con los ENTRENADORES registrados.\p"
+	.string	"Puede usarse para charlar con\n"
+	.string	"los ENTRENADORES registrados.\p"
 	.string	"También te indicará qué ENTRENADORES\n"
 	.string	"quieren volver a luchar contigo.\p"
 	.string	"¿No es estupendo?\n"

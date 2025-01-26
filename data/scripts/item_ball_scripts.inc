@@ -3140,6 +3140,10 @@ CuevaHypno_EventScript_TM166::
 finditem ITEM_TM166_AMNESIA
    end
 
+CuevaHypno_EventScript_Amuleto::
+finditem ITEM_OVAL_CHARM
+   end
+
 CuevaHypno_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
    end

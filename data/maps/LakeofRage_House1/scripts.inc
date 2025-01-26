@@ -23,9 +23,9 @@ end
 LakeofRageHouse1_1_Texto_2:
 .string "Te estaré eternamente agradecido,\n"
 	.string "gente como tú sí que merece descubrir\l"
-	.string "los antiguos secretos del mundo.\l"
-	.string "Espero que prevalezcas por encima de\l"
-	.string "esos lunáticos de HOENN.$"
+	.string "los antiguos secretos del mundo.\p"
+	.string "Espero que prevalezcas por encima\n"
+	.string "de esos lunáticos de HOENN.$"
 
 LakeofRageHouse1_1_Texto_1:
 .string "Tienes pinta de venir de KANTO,\n"
@@ -42,29 +42,43 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LakeofRageHouse1_Evento_Devon_Move_2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_5
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LakeofRageHouse1_Evento_Devon_Move_6
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_7
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LakeofRageHouse1_Evento_Devon_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_3
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_4
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_8
 waitmovement 0x0
 delay 20
@@ -76,12 +90,16 @@ applymovement 3, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 4, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_10
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_5
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_ICE_CRACK
@@ -100,12 +118,17 @@ applymovement 4, LakeofRageHouse1_Evento_Devon_Move_1
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 applymovement 5, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
 msgbox LakeofRageHouse1_Evento_Devon_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_10
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
@@ -113,8 +136,11 @@ msgbox LakeofRageHouse1_Evento_Devon_Texto_15 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
+playse SE_BREAKABLE_DOOR
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_16 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LakeofRageHouse1_Evento_Devon_Texto_17 MSGBOX_AUTOCLOSE
@@ -207,32 +233,32 @@ LakeofRageHouse1_Evento_Devon_Texto_1:
 	.string "POKÉMON.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_2:
-.string "????: ¿De verdad son solo leyendas?\n"
-	.string "Verá, mi equipo de CIENTÍFICOS y yo\l"
+.string "????: ¿De verdad son solo leyendas?\p"
+	.string "Verá, mi equipo de CIENTÍFICOS y yo\n"
 	.string "hemos venido de muy lejos para conocer\l"
 	.string "toda la verdad.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_3:
 .string "Comprenderá que no podemos irnos sin\n"
-	.string "más, no sin asegurarnos de que nos dice\l"
-	.string "todo lo que sabe.$"
+	.string "más, no sin asegurarnos de que nos\l"
+	.string "dice todo lo que sabe.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_4:
 .string "Ya hemos interrogado a todos los\n"
 	.string "PESCADORES del lugar, todos han\l"
-	.string "confirmado bajo su experiencia lo que\l"
-	.string "confirman los antiguos archivos de los\l"
+	.string "confirmado, bajo su experiencia, lo que\l"
+	.string "señalan los antiguos archivos de los\l"
 	.string "que disponemos: Hay un POKÉMON en\l"
 	.string "este LAGO, un POKÉMON de un poder tal\l"
 	.string "que los propios GYARADOS de este lugar\l"
 	.string "huyen espantados.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_5:
-.string "CIENTÍFICO 1: De ningún otro modo las\n"
+.string "CIENTÍFICO: De ningún otro modo las\n"
 	.string "SUPERCAÑAS de esos PESCADORES\l"
 	.string "hubieran cedido. Según sus reportes,\l"
 	.string "esto ha ocurrido 3 veces en la última\l"
-	.string "década, la criatura que se soltó de\l"
+	.string "década; la criatura que se soltó de\l"
 	.string "esas SUPERCAÑAS tuvo que ejercer una\l"
 	.string "fuerza 3 veces superior a la de\l"
 	.string "cualquier GYARADOS.$"
@@ -249,7 +275,7 @@ LakeofRageHouse1_Evento_Devon_Texto_7:
 	.string "eres tú.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8:
-.string "PESCADOR: Ya se lo he dicho, no se nad{PAUSE 5}…{PAUSE 5}$"
+.string "PESCADOR: Ya se lo he dicho, no sé nad{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8.1:
 .string "{PAUSE 5}…{PAUSE 5}$"
@@ -259,12 +285,11 @@ LakeofRageHouse1_Evento_Devon_Texto_9:
 
 LakeofRageHouse1_Evento_Devon_Texto_10:
 .string "PESCADOR: Un{PAUSE 25}…{PAUSE 25} Un trofeo, uno de mis\n"
-	.string "antepasados llegó a ser CAMPEÓN de\l"
-	.string "JOHTO.$"
+	.string "antepasados llegó a ser CAMPEÓN de JOHTO.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_11:
-.string "????: ¿Usando únicamente POKÉMON\n"
-	.string "atrapados aquí? No me diga{PAUSE 25}…{PAUSE 25} debían de\l"
+.string "????: ¿Usando solo POKÉMON de aquí?\p"
+	.string "No me diga{PAUSE 25}…{PAUSE 25} debían de\n"
 	.string "ser muy fuertes, tal vez{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_12:
@@ -273,10 +298,10 @@ LakeofRageHouse1_Evento_Devon_Texto_12:
 	.string "esto?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_13:
-.string "PESCADOR: Eh..Espere, esas escaleras\n"
+.string "PESCADOR: Eh{PAUSE 25}…{PAUSE 25} Espere, esas escaleras\n"
 	.string "solo conducen a una caverna\l"
-	.string "subterránea, debajo del LAGO. No le\l"
-	.string "aconsejo que entre, los POKÉMON\l"
+	.string "subterránea, debajo del LAGO.\p"
+	.string "No le aconsejo que entre, los POKÉMON\n"
 	.string "salvajes son tremendamente hostiles\l"
 	.string "ahí, no conocen el contacto con el ser\l"
 	.string "humano.$"
@@ -291,15 +316,15 @@ LakeofRageHouse1_Evento_Devon_Texto_15:
 	.string "de esa caverna.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_16:
-.string "PESCADOR: ¡No hay final!¡Jamás he\n"
-	.string "explorado más allá del segundo\l"
-	.string "nivel!¡Los POKÉMON salvajes acabaran\l"
-	.string "con todos nosotros antes de que\l"
-	.string "podamos seguir avanzando!$"
+.string "PESCADOR: ¡No hay final!\p"
+	.string "¡Jamás he explorado más allá del\n"
+	.string "segundo nivel! ¡Los POKÉMON salvajes\l"
+	.string "acabaran con todos nosotros antes de\l"
+	.string "que podamos seguir avanzando!$"
 
 
 LakeofRageHouse1_Evento_Devon_Texto_17:
-.string "????: De eso nos encargaremos yo…y mis\n"
+.string "????: De eso nos encargaremos yo{PAUSE 25}…{PAUSE 25} y mis\n"
 	.string "POKÉMON. ¡Andando!$"
 
 

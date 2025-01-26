@@ -4349,19 +4349,28 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_1
 waitmovement 0x0
+waitse
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_4
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_7 MSGBOX_AUTOCLOSE
 showmoneybox 0, 0
 delay 20
@@ -4375,18 +4384,20 @@ waitfanfare
 delay 20
 hidemoneybox
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_11 MSGBOX_DEFAULT
-givemon SPECIES_LUGIA, 60, ITEM_LUM_BERRY
+givemon SPECIES_LUGIA, 90, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_12 MSGBOX_DEFAULT
-givemon SPECIES_HO_OH, 60, ITEM_LUM_BERRY
+givemon SPECIES_HO_OH, 90, ITEM_LUM_BERRY
 waitfanfare
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_6
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
@@ -4396,20 +4407,30 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_4
 waitmovement 0x0
 delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_8
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_9
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_19 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
@@ -4428,19 +4449,27 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_22 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_10
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_27 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_11
 waitmovement 0x0
+waitse
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_28 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
@@ -4519,14 +4548,13 @@ emote_exclamation_mark
 step_end
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_1:
-.string "GIOVANNI: ¡{PLAYER}! ¡Eres\n"
-	.string "extraordinario, pudiste con los 3\l"
-	.string "POKÉMON más poderosos de todos los\l"
-	.string "tiempos! ¿Entiendes el motivo de tu\l"
-	.string "victoria? En el momento en que la\l"
-	.string "inmortalidad de tales POKÉMON se vio\l"
-	.string "sujeta a las reglas que rigen el\l"
-	.string "combate POKÉMON entre dos\l"
+.string "GIOVANNI: ¡{PLAYER}!\n"
+	.string "¡Eres extraordinario, pudiste con los 3\l"
+	.string "POKÉMON más poderosos de la historia!\p"
+	.string "¿Entiendes el motivo de tu victoria?\p"
+	.string "En el momento en que la inmortalidad de\n"
+	.string "tales POKÉMON se vio sujeta a las reglas\l"
+	.string "que rigen el combate POKÉMON entre dos\l"
 	.string "ENTRENADORES, sus poderes dejaron de\l"
 	.string "ser infinitos y, por tanto, vulnerables.$"
 
@@ -4539,15 +4567,15 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_3:
 .string "No obstante, solo un ENTRENADOR que ha\n"
 	.string "alcanzado un estado de equilibrio sin\l"
 	.string "igual con su equipo, podría llegar a\l"
-	.string "batirles aún siendo un combate\l"
+	.string "batirles, aún siendo un combate\l"
 	.string "POKÉMON. Tú eras el único que podía\l"
 	.string "hacerlo, {PLAYER}{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
 .string "Como ya es habitual, después de cada\n"
 	.string "gran acontecimiento, os reúno aquí\l"
-	.string "para hacer balance de todo…{PAUSE 25} y mirar a\l"
-	.string "futuro.$"
+	.string "para hacer balance de todo…{PAUSE 25}\p"
+	.string "Y mirar hacia el futuro.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_7:
 .string "Antes de nada, vuestras recompensas.$"
@@ -4559,43 +4587,42 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 .string "Y no solo eso, gracias a todo el revuelo\n"
 	.string "causado por ZEUS, y la entrada a\l"
 	.string "RUINAS ALFA, pudimos extraer los ADN\l"
-	.string "de LUGIA y HO-OH, no de sus formas\l"
-	.string "primigenias, pero sí las conocidas por\l"
-	.string "la cultura de JOHTO.$"
+	.string "de LUGIA y HO-OH. No de sus formas\l"
+	.string "primigenias, pero sí las conocidas\l"
+	.string "por la cultura de JOHTO.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_10:
 .string "ANDRA ve deshonroso usar esta clase de\n"
-	.string "POKÉMON, de modo que únicamente tú\l"
-	.string "recibirás ejemplares clonados,\l"
-	.string "{PLAYER}.$"
+	.string "POKÉMON, de modo que solo tú recibirás\l"
+	.string "ejemplares clonados, {PLAYER}.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_11:
-.string "¡¡OBTUVISTE UN LUGIA AL NV.60!!$"
+.string "¡¡OBTUVISTE UN LUGIA AL NV.90!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_12:
-.string "¡¡OBTUVISTE UN HO-OH AL NV.60!!$"
+.string "¡¡OBTUVISTE UN HO-OH AL NV.90!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_13:
-.string "ANDRA: No creas que no sabré cómo\n"
-	.string "lidiar con ellos en caso de que los uses\l"
-	.string "contra mí, {PLAYER}. Ya derroté al\l"
-	.string "HO-OH dorado, una forma aún más\l"
-	.string "poderosa que esos clones, ¡no lo\l"
-	.string "olvides!$"
+.string "ANDRA: ¡{PLAYER}!\p"
+	.string "¡No creas que no sabré cómo lidiar con\n"
+	.string "ellos si los usas en mi contra!\p"
+	.string "Ya derroté al HO-OH dorado, una forma\n"
+	.string "aún más poderosa que esos clones.\p"
+	.string "¡No lo olvides!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_14:
-.string "GIOVANNI: Bien, ahora, hablemos de\n"
+.string "GIOVANNI: Bien. Ahora, hablemos de\n"
 	.string "vuestras futuras misiones.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_15:
 .string "{PLAYER} hizo un trabajo excelente\n"
 	.string "recopilando información sobre los\l"
-	.string "FUERTE VÍNCULO de JOHTO, toda esta\l"
-	.string "información ha servido a nuestros\l"
-	.string "CIENTÍFICOS para optimizar y expandir\l"
-	.string "aún más el poder de futuros\l"
-	.string "prototipos, tal y como en su día lo fue\l"
-	.string "MEWTWO.$"
+	.string "FUERTE VÍNCULO de JOHTO.\p"
+	.string "Toda esa información nos ha servido\n"
+	.string "para optimizar y expandir aún más\l"
+	.string "el poder de futuros prototipos, de\l"
+	.string "igual modo que se hizo con MEWTWO\l"
+	.string "en su día.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_16:
 .string "No obstante, JOHTO es mucho más que\n"
@@ -4626,20 +4653,18 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_20:
 .string "¡OBTUVISTE UNA POKÉDEX!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_21:
-.string "Cortesía de OAK, gracias a su invento,\n"
+.string "Cortesía de OAK. Gracias a su invento,\n"
 	.string "no solo se enviará la información de\l"
 	.string "todo nuevo POKÉMON que encontréis a\l"
 	.string "nuestra base de datos, también\l"
-	.string "quedará registrada para uso propio,\l"
-	.string "incluso podréis ver los STATS BASE, si\l"
-	.string "llegáis a capturar al POKÉMON.$"
+	.string "quedará registrada para uso propio.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_22:
 .string "ANDRA: De modo que esto es lo que ese\n"
 	.string "malcriado de ROJO usaba, sé de varios\l"
 	.string "POKEMANÍACOS que darían todo lo que\l"
-	.string "tienen por un artefacto como este.\l"
-	.string "Nosotros le daremos el mejor uso\l"
+	.string "tienen por un artefacto como este.\p"
+	.string "Nosotros le daremos el mejor uso\n"
 	.string "posible, ¿verdad, {PLAYER}?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_23:
@@ -4664,7 +4689,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_26:
 	.string "una explicación detallada sobre cada\l"
 	.string "una de las misiones que abordareis, en\l"
 	.string "vuestros respectivos despachos. No te\l"
-	.string "preocupes ANDRA, ya hay conexión vía\l"
+	.string "preocupes, ANDRA, ya hay conexión vía\l"
 	.string "teletransporte con la BASE en HOENN.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_27:

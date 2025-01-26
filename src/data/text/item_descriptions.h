@@ -4143,9 +4143,9 @@ static const u8 sHM08Desc[] = _(
 
 // Charms
 static const u8 sOvalCharmDesc[] = _(
-    "Raises the chance\n"
-    "of finding eggs\n"
-    "at the daycare.");
+    "Objeto perdido con\n"
+    "gran valor.\n"
+    "¿De quién será?");
 
 static const u8 sShinyCharmDesc[] = _(
 	"A charm that will\n"

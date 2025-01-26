@@ -446,6 +446,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
 setvar VAR_UNUSED_0x40F7, 177
 setflag FLAG_UNUSED_0x26E
 clearflag FLAG_UNUSED_0x26F
