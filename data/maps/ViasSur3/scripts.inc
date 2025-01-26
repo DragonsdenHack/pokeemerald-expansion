@@ -25,9 +25,12 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 1, ViasSur3_Evento_Pegaso_Move_3
 waitmovement 0x0
+waitse
 msgbox ViasSur3_Evento_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasSur3_Evento_Pegaso_Move_4
 waitmovement 0x0
+delay 10
 msgbox ViasSur3_Evento_Pegaso_Texto_3 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, ViasSur3_Evento_Pegaso_Move_5
@@ -43,15 +46,22 @@ special RemoveCameraObject
 applymovement 1, ViasSur3_Evento_Pegaso_Move_7
 waitmovement 0x0
 msgbox ViasSur3_Evento_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasSur3_Evento_Pegaso_Move_8
 waitmovement 0x0
+delay 10
 msgbox ViasSur3_Evento_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasSur3_Evento_Pegaso_Move_9
 waitmovement 0x0
+delay 10
 msgbox ViasSur3_Evento_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasSur3_Evento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox ViasSur3_Evento_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasSur3_Evento_Pegaso_Move_10
 waitmovement 0x0
 setflag FLAG_HIDE_RUSTURF_TUNNEL_PEEKO
@@ -202,9 +212,9 @@ ViasSur3_Evento_Pegaso_Texto_4:
 
 ViasSur3_Evento_Pegaso_Texto_5:
 .string "Tal vez más antigua que RUINAS ALFA,\n"
-	.string "quién sabe. Conocemos tan poco acerca\l"
-	.string "de nuestra propia región{PAUSE 25}…{PAUSE 25} y es normal.\l"
-	.string "Ante la vastedad del tiempo, solo somos\l"
+	.string "¿quién sabe? Conocemos tan poco acerca\l"
+	.string "de nuestra propia región{PAUSE 25}…{PAUSE 25} y es normal.\p"
+	.string "Ante la vastedad del tiempo, solo somos\n"
 	.string "una simple gota en medio del mar.$"
 
 ViasSur3_Evento_Pegaso_Texto_6:
@@ -221,16 +231,16 @@ ViasSur3_Evento_Pegaso_Texto_7:
 
 ViasSur3_Evento_Pegaso_Texto_8:
 .string "Tengo que averiguarlo, como experto en\n"
-	.string "aves, es todo un reto para mí. Aunque…\l"
-	.string "tengo serias sospechas de lo que\l"
+	.string "aves, es todo un reto para mí. Aunque…\p"
+	.string "Tengo serias sospechas de lo que\n"
 	.string "realmente es.$"
 
 ViasSur3_Evento_Pegaso_Texto_9:
-.string "Seguiré por mi cuenta, {PLAYER}. Mis\n"
-	.string "POKÉMON están deseosos de\l"
+.string "Seguiré por mi cuenta, {PLAYER}.\p"
+	.string "Mis POKÉMON están deseosos de\n"
 	.string "enfrentarse a un oponente así, y no\l"
-	.string "deseo aguarles la fiesta, en una región\l"
-	.string "cada vez más predecible.$"
+	.string "deseo aguarles la fiesta, en una\l"
+	.string "región cada vez más predecible.$"
 
 ViasSur3_EventScript_Obrero::
 	trainerbattle_single TRAINER_TRAINER_223, ViasSur3_Text_ObreroIntro, ViasSur3_Text_ObreroDefeated
@@ -247,8 +257,8 @@ end
 
 ViasSur3_Primer_Obrero_Texto_1:
 .string "¿Quién era ese tío? Me ha despachado\n"
-	.string "en un instante usando un ave extraña.\l"
-	.string "Y yo que me sentía seguro con mis TIPO\l"
+	.string "en un instante usando un ave extraña.\p"
+	.string "Y yo que me sentía seguro con mis TIPO\n"
 	.string "ROCA, no quiero imaginar qué hubiera\l"
 	.string "pasado en caso de aparecer ese otro\l"
 	.string "ave que andamos buscando{PAUSE 5}…{PAUSE 5}$"

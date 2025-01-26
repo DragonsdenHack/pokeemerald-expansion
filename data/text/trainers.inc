@@ -16791,7 +16791,7 @@ TwoIsland_Torre_P2_Text_CalvoDefeated:
 .string "Menudo asco de combate.$"
 
 TwoIsland_Torre_P2_Text_CalvoPostBattle:
-.string "Debí hacer atrapado un KOFFING, así\n"
+.string "Debí haber atrapado un KOFFING, así\n"
 	.string "al menos me hubiera llevado por\l"
 	.string "delante a alguno de tus POKÉMON con\l"
 	.string "EXPLOSION.$"

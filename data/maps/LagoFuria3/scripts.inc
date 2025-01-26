@@ -69,8 +69,10 @@ waitmovement 0x0
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LagoFuria_S3_Combates_Cientificos_Move_8
 waitmovement 0x0
+delay 10
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_9 MSGBOX_AUTOCLOSE
@@ -78,6 +80,7 @@ applymovement 6, LagoFuria_S3_Combates_Cientificos_Move_9
 applymovement 5, LagoFuria_S3_Combates_Cientificos_Move_10
 applymovement 7, LagoFuria_S3_Combates_Cientificos_Move_2
 waitmovement 0x0
+delay 10
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
 delay 20
@@ -183,8 +186,8 @@ LagoFuria_S3_Combates_Cientificos_Texto_2:
 	.string "tu vida en esta expedición?$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_3:
-.string "????: Deberías estarme agradecido, has\n"
-	.string "pasado toda tu vida aquí y jamás te\l"
+.string "????: Deberías estarme agradecido.\p"
+	.string "Pasaste toda tu vida aquí y jamás te\n"
 	.string "has aventurado a indagar en el legado\l"
 	.string "que dejaron tus antepasados. Gracias a\l"
 	.string "mí podrás comprobar si las leyendas\l"
@@ -209,12 +212,12 @@ LagoFuria_S3_Combates_Cientificos_Texto_7:
 	.string "hasta aquí solo.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_8:
-.string "No me interesa si has llegado hasta\n"
-	.string "aquí por casualidad, si solo te has\l"
-	.string "encontrado la entrada secreta abierta,\l"
-	.string "o si estás aquí de forma premeditada,\l"
-	.string "como nosotros. Solo eres otro\l"
-	.string "obstáculo más que debe ser liquidado.$"
+.string "No me interesa si has llegado por\n"
+	.string "casualidad, si solo te has encontrado\l"
+	.string "la entrada secreta abierta o si estás,\l"
+	.string "de forma premeditada, como nosotros.\l"
+	.string "Solo eres otro obstáculo más que\l"
+	.string "debe ser liquidado.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_9:
 .string "Encargaos de él, no debe seguirnos.$"
@@ -226,8 +229,7 @@ LagoFuria_S3_Combates_Cientificos_Texto_11:
 .string "Has tenido suerte, si nuestro jefe al\n"
 	.string "mando hubiera decidido encargarse de\l"
 	.string "ti, ni tú ni tus POKÉMON podríais\l"
-	.string "regresar de la tremenda paliza que\l"
-	.string "recibiríais.$"
+	.string "regresar por la tremenda paliza.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_12:
 .string "Oh{PAUSE 25}…{PAUSE 25} tenemos aquí un espécimen poco\n"
@@ -235,15 +237,14 @@ LagoFuria_S3_Combates_Cientificos_Texto_12:
 
 LagoFuria_S3_Combates_Cientificos_Texto_13:
 .string "Aún con esos POKÉMON, nunca podrías\n"
-	.string "competir con uno de nuestros\l"
-	.string "EJECUTIVOS.$"
+	.string "competir con uno de nuestros EJECUTIVOS.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_14:
 .string "Parece que en esta región la gente\n"
 	.string "tiene la mala costumbre de meterse\l"
-	.string "donde no le llaman. ¡Verás cómo\l"
-	.string "tratamos en la nuestra a los\l"
-	.string "entrometidos como tú!$"
+	.string "donde no le llaman.\p"
+	.string "¡Verás cómo tratamos en la nuestra\n"
+	.string "a los entrometidos como tú!$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_15:
 .string "Así que te resistes, no tendremos\n"
@@ -251,8 +252,8 @@ LagoFuria_S3_Combates_Cientificos_Texto_15:
 
 LagoFuria_S3_Combates_Cientificos_Texto_16:
 .string "Por mucha técnica que poseas, sin\n"
-	.string "nuestra tecnología no tienes nada que\l"
-	.string "hacer.$"
+	.string "nuestra tecnología no tienes nada\l"
+	.string "que hacer.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_17:
 .string "Un esfuerzo más que loable por tu parte\n"

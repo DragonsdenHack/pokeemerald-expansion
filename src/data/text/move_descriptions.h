@@ -46,8 +46,8 @@ static const u8 sViseGripDescription[] = _(
     "pinzas.");
 
 static const u8 sGuillotineDescription[] = _(
-    "Pinzas que pueden\n"
-    "derribar de un golpe.");
+    "Causa estragos en el rival,\n"
+    "pero inmoviliza un turno.");
 
 static const u8 sRazorWindDescription[] = _(
     "1.{SUPER_ER} turno: prepara.\n"

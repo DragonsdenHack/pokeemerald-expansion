@@ -74,7 +74,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
 .string "¡¡{PLAYER} obtuvo la MT81 DANZA\n"
-	.string "ESPADA de manos de ZINNIA!!$"
+	.string "ESPADA de manos de ZOE!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
 .string "¡Jah!\n"

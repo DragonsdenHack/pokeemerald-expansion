@@ -15,13 +15,18 @@ waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox EventoLagoFuria5_Combate_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, EventoLagoFuria5_Combate_Final_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_5 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LagoFuria_S3_Combates_Cientificos_Move_16
@@ -32,21 +37,29 @@ applymovement 3, EventoLagoFuria5_Combate_Final_Move_5
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_6
 waitmovement 0x0
+waitse
 msgbox EventoLagoFuria5_Combate_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_1, EventoLagoFuria5_Combate_Final_Texto_10
 msgbox EventoLagoFuria5_Combate_Final_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_2
 waitmovement 0x0
+waitse
 msgbox EventoLagoFuria5_Combate_Final_Texto_12 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -96,13 +109,19 @@ msgbox EventoLagoFuria5_Combate_Final_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_3
 msgbox EventoLagoFuria5_Combate_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_11
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
@@ -132,8 +151,10 @@ waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_26 MSGBOX_AUTOCLOSE
 delay 20
 msgbox EventoLagoFuria5_Combate_Final_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_28 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox EventoLagoFuria5_Combate_Final_Texto_29 MSGBOX_DEFAULT
@@ -240,8 +261,8 @@ EventoLagoFuria5_Combate_Final_Texto_2:
 .string "????: No, debe de estar aquí, este es el\n"
 	.string "fin de la caverna subterránea. La\l"
 	.string "pequeña parcela de agua debe de\l"
-	.string "conectar con el resto del LAGO por un\l"
-	.string "estrecho túnel.$"
+	.string "conectar con el resto del LAGO por\l"
+	.string "un estrecho túnel.$"
 
 EventoLagoFuria5_Combate_Final_Texto_3:
 .string "Una vez aparezca, mis POKÉMON le\n"
@@ -253,8 +274,8 @@ EventoLagoFuria5_Combate_Final_Texto_4:
 	.string "POKÉMON así!$"
 
 EventoLagoFuria5_Combate_Final_Texto_5:
-.string "????: Entonces admites que existe,\n"
-	.string "debería dejarte aquí y dejar que\l"
+.string "????: ¿Entonces admites que existe?\p"
+	.string "Debería dejarte aquí y hacer que\n"
 	.string "volvieras solo, seguro que con tus\l"
 	.string "mediocres POKÉMON no serías capaz de{PAUSE 5}…{PAUSE 5}$"
 
@@ -280,13 +301,13 @@ EventoLagoFuria5_Combate_Final_Texto_9:
 	.string "EJECUTIVOS de la todopoderosa DEVON!$"
 
 EventoLagoFuria5_Combate_Final_Texto_10:
-.string "¿Quién eres tú? ¡Ningún entrenador de\n"
+.string "¿Quién eres tú? ¡Ningún ENTRENADOR de\n"
 	.string "ruta en esta región podría derrotarme!$"
 
 EventoLagoFuria5_Combate_Final_Texto_11:
 .string "Esos POKÉMON{PAUSE 25}…{PAUSE 25} Han vivido algo más que\n"
 	.string "vagar sin rumbo por rutas y pueblos,\l"
-	.string "son…una mezcla de nuestra tecnología,\l"
+	.string "son{PAUSE 25}…{PAUSE 25} una mezcla de nuestra tecnología,\l"
 	.string "pero también del vínculo con los\l"
 	.string "POKÉMON que caracteriza a esta región.$"
 
@@ -305,22 +326,22 @@ EventoLagoFuria5_Combate_Final_Texto_15:
 .string "¡El POKÉMON salvaje desapareció!$"
 
 EventoLagoFuria5_Combate_Final_Texto_16:
-.string "PESCADOR: S..Si que eran ciertas las\n"
+.string "PESCADOR: S{PAUSE 25}…{PAUSE 25} Sí que eran ciertas las\n"
 	.string "leyendas.$"
 
 EventoLagoFuria5_Combate_Final_Texto_17:
-.string "????: Debo darte las gracias,\n"
-	.string "ENTRENADOR, has hecho el trabajo por\l"
-	.string "nosotros. Gracias a tu combate con la\l"
-	.string "bestia del LAGO, hemos podido reunir\l"
+.string "????: Te doy las gracias, ENTRENADOR.\p"
+	.string "Has hecho el trabajo por nosotros.\p"
+	.string "Gracias a tu combate con la bestia\n"
+	.string "del LAGO, hemos podido registrar\l"
 	.string "sus datos fundamentales.$"
 
 EventoLagoFuria5_Combate_Final_Texto_18:
-.string "Así que 82 de BASE en VELOCIDAD{PAUSE 25}…{PAUSE 25} Debe\n"
-	.string "haber evolucionado durante millones de\l"
-	.string "años, hasta convertirse en un\l"
+.string "Así que 82 de BASE en VELOCIDAD{PAUSE 25}…{PAUSE 25}\p"
+	.string "Debe haber evolucionado durante millones\n"
+	.string "de años, hasta convertirse en un\l"
 	.string "depredador de GYARADOS, su sólida\l"
-	.string "DEFENSA y unos STATS BASE totales 1\l"
+	.string "DEFENSA, y unos STATS BASE totales 1\l"
 	.string "solo punto superiores a GYARADOS MEGA\l"
 	.string "refuerzan este hecho{PAUSE 5}…{PAUSE 5}$"
 
@@ -336,22 +357,22 @@ EventoLagoFuria5_Combate_Final_Texto_20:
 .string "Expectativas cumplidas, con esto\n"
 	.string "tenemos suficiente. Una pena que\l"
 	.string "hayas espantado al monstruo, ni tú ni\l"
-	.string "yo podremos tenerlo al fin y al cabo,\l"
-	.string "pero nosotros al menos tenemos los\l"
+	.string "yo podremos tenerlo, al fin y al cabo.\p"
+	.string "Pero nosotros al menos tenemos los\n"
 	.string "datos que queríamos.$"
 
 EventoLagoFuria5_Combate_Final_Texto_21:
 .string "Que tengáis un buen día, espero por tu\n"
 	.string "bien que no nos volvamos a ver, de no\l"
 	.string "ser así, tu destino será completamente\l"
-	.string "distinto a lo ocurrido aquí hoy.$"
+	.string "distinto a lo ocurrido aquí.$"
 
 EventoLagoFuria5_Combate_Final_Texto_22:
-.string "PESCADOR: Me has salvado.\n"
-	.string "¿{PLAYER}? Te debo un gran favor,\l"
+.string "PESCADOR: Me has salvado.\p"
+	.string "¿{PLAYER}? Te debo un gran favor,\n"
 	.string "quién sabe lo que esos tipos me\l"
-	.string "hubieran hecho una vez obtenido lo que\l"
-	.string "querían.$"
+	.string "hubieran hecho una vez obtenido lo\l"
+	.string "que querían.$"
 
 EventoLagoFuria5_Combate_Final_Texto_23:
 .string "Aunque tenía razón en lo que dijo, ese\n"
@@ -359,8 +380,8 @@ EventoLagoFuria5_Combate_Final_Texto_23:
 	.string "derrotar a GYARADOS, su fuerza y\l"
 	.string "velocidad son mayores, deben quedar\l"
 	.string "poquísimos ejemplares, de lo contrario\l"
-	.string "no quedarían GYARADOS en el LAGO. Me\l"
-	.string "pregunto si este será el último\l"
+	.string "no quedarían GYARADOS en el LAGO.\p"
+	.string "Me pregunto si este será el último\n"
 	.string "ejemplar vivo que qued{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_24:
@@ -371,14 +392,13 @@ EventoLagoFuria5_Combate_Final_Texto_25:
 	.string "HUEVO!$"
 
 EventoLagoFuria5_Combate_Final_Texto_26:
-.string "Entonces, ¿no es LEGENDARIO? ¿Contará\n"
-	.string "con una línea evolutiva igual que el\l"
-	.string "resto de POKÉMON normales?$"
+.string "Entonces, ¿no es LEGENDARIO?\p"
+	.string "¿Contará con una línea evolutiva\n"
+	.string "igual que el resto de POKÉMON?$"
 
 EventoLagoFuria5_Combate_Final_Texto_27:
 .string "No creo que a esos tipos les agrade\n"
-	.string "haber ignorado esta información, ¿no\l"
-	.string "crees?$"
+	.string "haber ignorado esta información.$"
 
 EventoLagoFuria5_Combate_Final_Texto_28:
 .string "Si alguien debe de tener este HUEVO,\n"
@@ -392,7 +412,7 @@ EventoLagoFuria5_Combate_Final_Texto_29:
 EventoLagoFuria5_Combate_Final_Texto_30:
 .string "Te estaré siempre agradecido, si\n"
 	.string "quieres visitar mi casa del LAGO,\l"
-	.string "estaré encantado de hablar contigo.$"
+	.string "serás siempre bienvenido.$"
 
 EventoLagoFuria5_Combate_Final_Texto_31:
 	.string "¿Quieres volver al exterior conmigo?$"

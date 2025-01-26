@@ -812,6 +812,7 @@ waitse
 delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_31 MSGBOX_AUTOCLOSE
 fadedefaultbgm
+setvar VAR_UNUSED_0x40F8, 1
 setvar VAR_UNUSED_0x40F7, 39
 release
 end
@@ -3692,6 +3693,7 @@ walk_right
 walk_right
 walk_down
 walk_down
+walk_down
 step_end
 
 PokemonTower5F_Escena_4_Blaine_Move_2:
@@ -4148,18 +4150,25 @@ msgbox RocketHideout_4F_Escena_Motoristas_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_10
 waitmovement 0x0
+waitse
 addobject 16
 applymovement 16, RocketHideout_4F_Escena_Motoristas_Move_11
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Motoristas_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Escena_Motoristas_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_8
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Escena_Motoristas_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_12
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_4F_Escena_Motoristas_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_8
 waitmovement 0x0

@@ -392,8 +392,8 @@ TwoIsland_Torre_P4_Evento_Final_Texto_26:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_27:
 .string "Fíjate {PLAYER}, siempre has estado\n"
-	.string "por debajo mía, ni aún siendo\l"
-	.string "ADMINISTRADOR has logrado alcanzarme.$"
+	.string "por debajo mío, ¡ni aún siendo\l"
+	.string "ADMINISTRADOR has logrado alcanzarme!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_28:
 .string "Ahora yo soy JEFE de una nueva empresa\n"

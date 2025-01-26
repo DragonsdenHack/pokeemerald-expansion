@@ -4687,7 +4687,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_25:
 RocketHideout_8F_Mision_Lago_Furia_Texto_26:
 .string "GIOVANNI: Os he dejado documentos, con\n"
 	.string "una explicación detallada sobre cada\l"
-	.string "una de las misiones que abordareis, en\l"
+	.string "una de las misiones que abordaréis, en\l"
 	.string "vuestros respectivos despachos. No te\l"
 	.string "preocupes, ANDRA, ya hay conexión vía\l"
 	.string "teletransporte con la BASE en HOENN.$"

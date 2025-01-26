@@ -4381,7 +4381,7 @@ EventScript_SetSevii::
 	setvar VAR_ROUTE112_STATE, 0
 	setvar VAR_ROUTE113_STATE, 0
 	setvar VAR_ROUTE114_STATE, 0
-	setvar VAR_ROUTE115_STATE, 1
+	setvar VAR_ROUTE115_STATE, 0
     setvar VAR_ROUTE117_STATE, 0
     setvar VAR_ROUTE120_STATE, 0
     setvar VAR_ROUTE122_STATE, 0
@@ -4725,7 +4725,7 @@ EventScript_SetJohto::
 	setvar VAR_ROUTE108_STATE, 3
     setvar VAR_ROUTE109_STATE, 3
     setvar VAR_ROUTE111_STATE, 3
-    setvar VAR_ROUTE115_STATE, 1
+    setvar VAR_ROUTE115_STATE, 0
     setvar VAR_ROUTE117_STATE, 0
     setvar VAR_ROUTE120_STATE, 0
     setvar VAR_ROUTE122_STATE, 0
@@ -5186,7 +5186,7 @@ EventScript_SetJohto::
 	setvar VAR_ROUTE108_STATE, 3
     setvar VAR_ROUTE109_STATE, 3
     setvar VAR_ROUTE111_STATE, 3
-    setvar VAR_ROUTE115_STATE, 1
+    setvar VAR_ROUTE115_STATE, 0
     setvar VAR_ROUTE117_STATE, 0
     setvar VAR_ROUTE120_STATE, 0
     setvar VAR_ROUTE122_STATE, 0

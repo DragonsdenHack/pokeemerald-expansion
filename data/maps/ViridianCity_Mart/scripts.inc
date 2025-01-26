@@ -138,6 +138,7 @@ Base_Profunda_Mercado_4_Pokemart:
 	.2byte 114
 	.2byte 115
 	.2byte 116
+	.2byte 117
 	.2byte 212
 	.2byte 213
 	.2byte 214
@@ -431,6 +432,7 @@ Johto_Endrino_Mercado_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 438
 	.2byte 525
 	.2byte ITEM_NONE
@@ -468,6 +470,7 @@ Johto_Cerezo_Mercado_Pokemart:
 	.2byte 114
 	.2byte 115
 	.2byte 116
+	.2byte 117
 	.2byte ITEM_NONE
 	release
 	end
@@ -492,6 +495,7 @@ Johto_Malva_Mercado_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 435
 	.2byte 568
 	.2byte ITEM_NONE
@@ -518,6 +522,7 @@ Johto_Iris_Mercado_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 439
 	.2byte 571
 	.2byte 54
@@ -545,6 +550,7 @@ Johto_Olivo_Mercado_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 428
 	.2byte 572
 	.2byte ITEM_NONE
@@ -638,6 +644,7 @@ Johto_Trigal_Mercado_2_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 19
 	.2byte 426
 	.2byte ITEM_NONE
@@ -850,6 +857,7 @@ Johto_Azalea_Mercado_Pokemart:
 	.2byte 33
 	.2byte 48
 	.2byte 116
+	.2byte 117
 	.2byte 427
 	.2byte 437
 	.2byte 569

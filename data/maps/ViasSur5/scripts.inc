@@ -14,14 +14,19 @@ waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasSur5_Combate_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasSur5_Combate_Pegaso_Move_4
 waitmovement 0x0
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasSur5_Combate_Pegaso_Move_5
 waitmovement 0x0
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_PEGASO_2, ViasSur5_Combate_Pegaso_Texto_7
 msgbox ViasSur5_Combate_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 2, ViasSur5_Combate_Pegaso_Move_6
 applymovement OBJ_EVENT_ID_PLAYER, ViasSur5_Combate_Pegaso_Move_7
@@ -29,6 +34,7 @@ waitmovement 0x0
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 msgbox ViasSur5_Combate_Pegaso_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_11 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -36,6 +42,7 @@ applymovement 2, ViasTren3_Rastro_Zapdos_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, ViasTren3_Rastro_Zapdos_Move_6
 waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasSur5_Combate_Pegaso_Move_8
 applymovement OBJ_EVENT_ID_PLAYER, ViasSur5_Combate_Pegaso_Move_8
 waitmovement 0x0
@@ -61,11 +68,15 @@ playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 trainerbattle_no_intro TRAINER_TRAINER_151, ViasSur5_Combate_Pegaso_Texto_17
 msgbox ViasSur5_Combate_Pegaso_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasSur5_Combate_Pegaso_Move_8
 waitmovement 0x0
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasSur5_Combate_Pegaso_Move_11
 waitmovement 0x0
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_20 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_BALL_THROW
@@ -79,18 +90,30 @@ playmoncry SPECIES_TORNADUS, CRY_MODE_ENCOUNTER
 msgbox ViasSur5_Combate_Pegaso_Texto_21 MSGBOX_DEFAULT
 waitmoncry
 msgbox ViasSur5_Combate_Pegaso_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+msgbox ViasSur5_Combate_Pegaso_Texto_22.1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox ViasSur5_Combate_Pegaso_Texto_22.2 MSGBOX_AUTOCLOSE
+delay 20
 applymovement 2, ViasTren3_Rastro_Zapdos_Move_7
 waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_23 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, ViasSur5_Combate_Pegaso_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox ViasSur5_Combate_Pegaso_Texto_23.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasSur5_Combate_Pegaso_Texto_24 MSGBOX_AUTOCLOSE
-fadescreen 1
+delay 10
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 2
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 2
+waitfieldeffect FLDEFF_NPCFLY_OUT
 delay 30
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -114,8 +137,8 @@ release
 end
 
 ViasSur5_Combate_Pegaso_Texto_25:
-.string "(ZAPDOS PRIMIGENIO VOLÓ HACIA EL\n"
-	.string "ESTE)$"
+.string "-ZAPDOS PRIMIGENIO VOLÓ\n"
+	.string "HACIA EL ESTE-$"
 
 ViasSur5_Combate_Pegaso_Move_12:
 face_up
@@ -124,6 +147,10 @@ step_end
 
 ViasSur5_Combate_Pegaso_Move_11:
 walk_slow_left
+step_end
+
+ViasSur5_Combate_Pegaso_Move_12.1:
+emote_exclamation_mark
 step_end
 
 ViasSur5_Combate_Pegaso_Texto_13.1:
@@ -149,6 +176,7 @@ step_end
 
 ViasSur5_Combate_Pegaso_Move_6:
 walk_left
+delay_16
 walk_in_place_up
 step_end
 
@@ -178,12 +206,12 @@ ViasSur5_Combate_Pegaso_Texto_1:
 
 ViasSur5_Combate_Pegaso_Texto_2:
 .string "Te has bastado para poner en apuros a 6\n"
-	.string "aves entrenadas al extremo. Tu inmenso\l"
-	.string "poder está a la altura de tu leyenda, no\l"
-	.string "hay duda.$"
+	.string "aves entrenadas al extremo.\p"
+	.string "Tu inmenso poder está a la altura\n"
+	.string "de tu leyenda, no hay duda.$"
 
 ViasSur5_Combate_Pegaso_Texto_3:
-.string "{PLAYER}, te has perdido un combate\n"
+.string "{PLAYER}{PAUSE 15}…{PAUSE 15} te has perdido un combate\n"
 	.string "de altos vuelos.$"
 
 ViasSur5_Combate_Pegaso_Texto_4:
@@ -233,8 +261,8 @@ ViasSur5_Combate_Pegaso_Texto_13:
 
 ViasSur5_Combate_Pegaso_Texto_14:
 .string "Sería todo un sueño para mí poder\n"
-	.string "manejar a tal POKÉMON, aunque solo sea\l"
-	.string "una vez.$"
+	.string "manejar a tal POKÉMON, aunque solo\l"
+	.string "sea una vez.$"
 
 ViasSur5_Combate_Pegaso_Texto_15:
 .string "Bien{PAUSE 25}…{PAUSE 25} veo que me harás el honor. No veo\n"
@@ -267,22 +295,30 @@ ViasSur5_Combate_Pegaso_Texto_21:
 
 ViasSur5_Combate_Pegaso_Texto_22:
 .string "Hemos vivido grandes aventuras y\n"
-	.string "aprendido mutuamente. Ahora, POKÉMON\l"
-	.string "como estos deben volver a su lugar de\l"
-	.string "origen, espero que mi humilde\l"
-	.string "aportación les haga mejores, y así\l"
-	.string "seguir honrando al TIPO VOLADOR.$"
+	.string "aprendido mutuamente, pero vuestras\l"
+	.string "plumas son demasiado hermosas como\l"
+	.string "para permanecer enjauladas.$"
+	
+ViasSur5_Combate_Pegaso_Texto_22.1:
+	.string "Debéis volver a vuestros orígenes, solo\n"
+	.string "espero que mi humilde aportación os haga\l"
+	.string "mejores.$"
+
+ViasSur5_Combate_Pegaso_Texto_22.2:
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 ViasSur5_Combate_Pegaso_Texto_23:
 .string "El GIMNASIO de MALVA será finalmente\n"
-	.string "legado a mi hijo. Por mi parte,\l"
-	.string "emprenderé un nuevo viaje, con las\l"
-	.string "aves que me han acompañado desde\l"
+	.string "legado a mi hijo.$"
+
+ViasSur5_Combate_Pegaso_Texto_23.1:
+	.string "Por mi parte, emprenderé un nuevo viaje,\n"
+	.string "con las aves que me han acompañado desde\l"
 	.string "siempre.$"
 
 ViasSur5_Combate_Pegaso_Texto_24:
-.string "Contigo JOHTO está en buenas manos, no\n"
-	.string "me cabe duda.$"
+.string "Contigo JOHTO está en buenas manos,\n"
+	.string "no me cabe duda.$"
 
 ViasSur5_Combate_Pegaso_Texto_26:
 .string "-Mi misión aquí parece haber terminado-.$"

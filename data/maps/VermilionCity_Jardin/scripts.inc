@@ -250,16 +250,16 @@ clearflag FLAG_HOENN_96
 clearflag FLAG_HOENN_97
 clearflag FLAG_HOENN_98
 clearflag FLAG_HOENN_99
-setflag FLAG_HOENN_640
-setflag FLAG_HOENN_641
-setflag FLAG_HOENN_642
-setflag FLAG_HOENN_643
-setflag FLAG_HOENN_644
-setflag FLAG_HOENN_645
-setflag FLAG_HOENN_646
-setflag FLAG_HOENN_647
-setflag FLAG_HOENN_648
-setflag FLAG_HOENN_649
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
 setvar VAR_SCOTT_STATE, 4
 release
 end
