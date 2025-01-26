@@ -9021,7 +9021,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_SKY_DROP] =
     {
-        .effect = EFFECT_PLACEHOLDER,
+        .effect = EFFECT_HIT,
         .power = 60,
         .type = TYPE_FLYING,
         .accuracy = 100,
@@ -11446,7 +11446,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_BEAK_BLAST] =
     {
-        .effect = EFFECT_PLACEHOLDER,
+        .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_FLYING,
         .accuracy = 100,
@@ -11526,7 +11526,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_SHELL_TRAP] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_SHELL_TRAP,
+        .effect = EFFECT_HIT, // EFFECT_SHELL_TRAP,
         .power = 150,
         .type = TYPE_FIRE,
         .accuracy = 100,
@@ -12209,7 +12209,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_TEATIME] =
     {
-        .effect = EFFECT_PLACEHOLDER,   //TODO
+        .effect = EFFECT_HIT,   //TODO
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
@@ -12265,7 +12265,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_COURT_CHANGE] =
     {
-        .effect = EFFECT_PLACEHOLDER,
+        .effect = EFFECT_HIT,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -12655,7 +12655,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_SCALE_SHOT] =
     {
-        .effect = EFFECT_PLACEHOLDER,
+        .effect = EFFECT_MULTI_HIT,
         .power = 25,
         .type = TYPE_DRAGON,
         .accuracy = 90,
@@ -12831,7 +12831,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_CORROSIVE_GAS] =
     {
-        .effect = EFFECT_PLACEHOLDER, // EFFECT_CORROSIVE_GAS, TODO
+        .effect = EFFECT_HIT, // EFFECT_CORROSIVE_GAS, TODO
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 100,
@@ -13412,7 +13412,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     },
     [MOVE_EXTREME_EVOBOOST] =
     {
-        .effect = EFFECT_PLACEHOLDER,
+        .effect = EFFECT_HIT,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,

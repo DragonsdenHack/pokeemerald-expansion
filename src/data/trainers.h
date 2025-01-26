@@ -11706,7 +11706,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_SAWYER_2] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_MONTANEROJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("JAVIER"),

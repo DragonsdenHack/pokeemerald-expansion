@@ -108,10 +108,12 @@ Route47_Encuentro_Andra::
 msgbox Route47_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 9, Route47_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route47_Encuentro_Andra_Texto_1.1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_6
 applymovement 9, Route47_Encuentro_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route47_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
 delay 30
 msgbox Route47_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
@@ -264,8 +266,8 @@ Route47_Encuentro_Andra_Texto_7:
 	.string "interesantes esperando más al oeste.$"
 
 Route47_Encuentro_Andra_Texto_8:
-.string "Nos vemos {PLAYER}, ¡mantén en forma\n"
-	.string "a los tuyos!$"
+.string "Nos vemos, {PLAYER}.\n"
+	.string "¡Mantén en forma a los tuyos!$"
 
 
 Route47_Encuentro_Maestro_Anciano::
@@ -350,8 +352,8 @@ release
 end
 
 Route47_Barrera_Texto_1:
-.string "(Debería hacer caso al M.DRAGON e ir más\n"
-	.string "al oeste).$"
+.string "-Debería hacer caso al M.DRAGON e ir más\n"
+	.string "al oeste.-$"
 
 Route47_Dialogo_Maestro_Anciano::
 lock
