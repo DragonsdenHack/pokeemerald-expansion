@@ -74,17 +74,24 @@ playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 10
 playse SE_FAINT
+waitse
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route49_MazeP4_Combate_Maestro_Move_5
@@ -95,13 +102,16 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_7
 waitmovement 0x0
+waitse
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_9
 waitmovement 0x0
 delay 30
 msgbox Route49_MazeP4_Combate_Maestro_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_10
 waitmovement 0x0
 delay 15
@@ -113,18 +123,22 @@ trainerbattle_no_intro TRAINER_TRAINER_17, Route49_MazeP4_Combate_Maestro_Texto_
 playse SE_PIN
 applymovement 6, Route49_MazeP4_Combate_Maestro_Move_13
 waitmovement 0x0
-delay 15
+waitse
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_12
 waitmovement 0x0
 delay 10
 applymovement 6, Route49_MazeP4_Combate_Maestro_Move_10
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_10
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_15
 waitmovement 0x0
@@ -132,9 +146,12 @@ applymovement 6, Route49_MazeP4_Combate_Maestro_Move_4
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_15.1 MSGBOX_AUTOCLOSE
@@ -142,6 +159,7 @@ delay 20
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_11
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_1
 waitmovement 0x0
@@ -149,6 +167,7 @@ msgbox Route49_MazeP4_Combate_Maestro_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
 waitmovement 0x0
@@ -232,11 +251,13 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_19:
 walk_down
+delay_16
 face_right
 step_end
 
 Route49_MazeP4_Combate_Maestro_Move_18:
 walk_slow_left
+delay_16
 face_down
 step_end
 
@@ -264,6 +285,7 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_12:
 walk_slow_right
+delay_16
 walk_slow_up
 step_end
 
@@ -294,6 +316,7 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_6:
 walk_slow_left
+delay_16
 walk_slow_up
 step_end
 
@@ -356,7 +379,7 @@ Route49_MazeP4_Combate_Maestro_Texto_5:
 	.string "difícil de hallar.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_6:
-.string "G.MAESTRO: Mmm, {PLAYER}, ¿no?\n"
+.string "G.MAESTRO: Mmm, {PLAYER}, ¿no?\p"
 	.string "Acércate, por favor.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_7:
@@ -375,13 +398,13 @@ Route49_MazeP4_Combate_Maestro_Texto_10:
 .string "G.MAESTRO: Ahora comprendo porqué el\n"
 	.string "DRAGÓN SAGRADO apareció dos veces,\l"
 	.string "ambos cultiváis un vínculo similar con\l"
-	.string "uno de vuestros POKÉMON. El DRAGÓN\l"
-	.string "SAGRADO lo interpretó como un único\l"
-	.string "cuerpo.$"
+	.string "uno de vuestros POKÉMON.\l"
+	.string "El DRAGÓN SAGRADO lo interpretó como\l"
+	.string "un único cuerpo.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_11:
-.string "ANDRA: ¿Se refiere a nuestros CROBAT?\n"
-	.string "{PLAYER} y yo obtuvimos uno el mismo día,\l"
+.string "ANDRA: ¿Se refiere a nuestros CROBAT?\p"
+	.string "{PLAYER} y yo obtuvimos uno el mismo día,\n"
 	.string "han crecido mucho desde entonces.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_12:
@@ -393,9 +416,9 @@ Route49_MazeP4_Combate_Maestro_Texto_12:
 Route49_MazeP4_Combate_Maestro_Texto_13:
 .string "¿Lo entendéis? Habéis moldeado la\n"
 	.string "realidad de vuestro POKÉMON, a través\l"
-	.string "de vuestra voluntad y vuestra\l"
-	.string "conciencia. Solo contados\l"
-	.string "entrenadores podrían hacer eso.$"
+	.string "de vuestra voluntad y vuestra conciencia.\p"
+	.string "Solo contados entrenadores podrían\n"
+	.string "hacer eso.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_14:
 .string "Vuestro caso es un ejemplo de las\n"
@@ -477,13 +500,13 @@ Route49_MazeP4_Combate_Maestro_Texto_27:
 	.string "¿no crees, EUSINE?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_28:
-.string "EUSINE: Su-supongo.$"
+.string "EUSINE: Su{PAUSE 15}-{PAUSE 15}supongo.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_29:
 .string "G.MAESTRO: Ambos sois muy jovenes, aún\n"
 	.string "inconscientes acerca de todo lo que\l"
-	.string "podéis dar, vuestro potencial y\l"
-	.string "posibilidades son infinitas.$"
+	.string "podéis dar, y lo mucho que os\l"
+	.string "queda por vivir.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_30:
 .string "EUSINE: Yo me marcho. {PLAYER}, me\n"
@@ -499,8 +522,8 @@ Route49_MazeP4_Combate_Maestro_Texto_32:
 .string "En cuanto acabemos nuestras misiones,\n"
 	.string "deberíamos ver inmediatamente a\l"
 	.string "GIOVANNI, toda esta información es\l"
-	.string "justo lo que andábamos buscando.\l"
-	.string "Buena suerte para lo que te reste,\l"
+	.string "justo lo que andábamos buscando.\p"
+	.string "Buena suerte para lo que te reste,\n"
 	.string "{PLAYER}.$"
 
 
@@ -549,8 +572,8 @@ Route49MazeP4Documento_Text_101:
 	.string "elegidos pueden alcanzarla.\l"
 	.string "Posee mimbres de PSEUDOLEGENDARIO,\l"
 	.string "pero todos sus atributos en conjunto\l"
-	.string "muestran una jerarquía incluso mayor.\l"
-	.string "Fue señalado por los antiguos como\l"
+	.string "muestran una jerarquía incluso mayor.\p"
+	.string "Fue señalado por los antiguos como\n"
 	.string "el NO LEGENDARIO con mayor potencial\l"
 	.string "puro, ignorando fenómenos como la\l"
 	.string "MEGAEVOLUCION y el FUERTE VÍNCULO.$"

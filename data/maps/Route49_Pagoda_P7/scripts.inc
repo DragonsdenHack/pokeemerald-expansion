@@ -96,11 +96,15 @@ waitmovement 0x0
 special RemoveCameraObject
 fadenewbgm 386
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
@@ -108,8 +112,10 @@ delay 15
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_5
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
@@ -118,31 +124,44 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_12 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
 waitmovement 0x0
 delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_9
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_10
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_16 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
 waitmovement 0x0
+waitse
 delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_12
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_11
@@ -151,13 +170,23 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_13
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_14
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
+waitmovement 0x0
+waitse
+msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_15
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_21 MSGBOX_AUTOCLOSE
@@ -213,11 +242,15 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_33 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_17
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_21
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_36 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
@@ -378,7 +411,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_4:
 .string "Pero{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_5:
-.string "Yo daría todo para preservar las\n"
+.string "Yo daría todo para preservar a las\n"
 	.string "BESTIAS SAGRADAS, LANCE cometió esa\l"
 	.string "atrocidad en la sombra. Mientras,\l"
 	.string "creí que era SUICUNE el que nos\l"
@@ -388,15 +421,15 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_6:
 .string "Me has hecho ver que en los tiempos que\n"
 	.string "corren, más que nunca debemos vigilar\l"
 	.string "lo que nos rodea. Todo lo que conocemos\l"
-	.string "podría ser amenazado, incluso este\l"
-	.string "lugar. ¿Qué nos asegura que vuestras\l"
+	.string "podría ser amenazado, incluso este lugar.\p"
+	.string "¿Qué nos asegura que vuestras\n"
 	.string "intenciones son puras?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_7:
-.string "ANDRA: ¿De verdad? Hemos pasado\n"
-	.string "vuestra prueba, contamos con un\l"
-	.string "FUERTE VÍNCULO cada uno, ¿qué más\l"
-	.string "necesitas?$"
+.string "ANDRA: ¿De verdad?\p"
+	.string "Hemos pasado vuestra prueba, contamos\n"
+	.string "con un FUERTE VÍNCULO cada uno, ¿qué\l"
+	.string "más necesitas?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_8:
 .string "EUSINE: El GRAN MAESTRO determinará\n"
@@ -410,14 +443,13 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_10:
 	.string "para oír las respuestas.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_11:
-.string "ANDRA: ¿Qué era ese POKÉMON\n"
-	.string "LEGENDARIO?$"
+.string "ANDRA: ¿Qué era ese LEGENDARIO?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_12:
 .string "EUSINE: No es ningún LEGENDARIO, es un\n"
-	.string "POKÉMON mortal, de carne y hueso. En\l"
-	.string "esencia igual a todos los que tú\l"
-	.string "tienes.$"
+	.string "POKÉMON mortal, de carne y hueso.\p"
+	.string "En esencia, igual a todos los que\n"
+	.string "tú tienes.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_13:
 .string "ANDRA: Eso{PAUSE 25}…{PAUSE 15} ¡no es posible!$"
@@ -425,10 +457,10 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_13:
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
 .string "EUSINE: Creí que eras de esas personas\n"
 	.string "que no usaban ese tipo de palabras. El\l"
-	.string "mero hecho de definir algo ya lo limita.\l"
-	.string "Si ese POKÉMON llegó hasta ese punto,\l"
+	.string "mero hecho de definir algo ya lo limita.\p"
+	.string "Si ese POKÉMON llegó hasta ese punto,\n"
 	.string "no fue por pararse a pensar en si era o\l"
-	.string "no posible, simplemente lo hizo.$"
+	.string "no posible; simplemente, lo hizo.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_15:
 .string "ANDRA: Pero{PAUSE 25}…{PAUSE 25} ¿qué era?$"
@@ -439,18 +471,18 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_16:
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_17:
 .string "Así es, uno cuya voluntad por\n"
 	.string "trascender a su limitada forma le dotó,\l"
-	.string "tras mucho tiempo y un esfuerzo\l"
-	.string "inenarrable, de un virtuosismo sin\l"
-	.string "precedentes.$"
+	.string "tras mucho tiempo y un colosal esfuerzo,\l"
+	.string "de un virtuosismo sin precedentes.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_18:
 .string "Nuestras escrituras hacen referencia a\n"
-	.string "su cambio así: “-…como si una suerte\l"
-	.string "de ingeniería cósmica obrara sobre él,\l"
-	.string "y sus actos estuvieran al margen de\l"
-	.string "todo LEGENDARIO. Por una vez, las leyes\l"
-	.string "de equilibrio y homeostasis que rigen\l"
-	.string "este mundo hicieron una excepción…-.$"
+	.string "su cambio así:\p"
+	.string "“-…como si una suerte de ingeniería\n"
+	.string "cósmica obrara sobre él, y sus actos\l"
+	.string "estuvieran al margen de todo LEGENDARIO.\l"
+	.string "Por una vez, las leyes de equilibrio y\l"
+	.string "homeostasis que rigen el mundo hicieron\l"
+	.string "una excepción…-.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_19:
 .string "Según la leyenda, primero logró\n"
@@ -460,12 +492,17 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_19:
 	.string "de un PSEUDOLEGENDARIO.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_20:
-.string "Varios documentos antiguos afirman que\n"
-	.string "fue, de hecho, el primer\l"
-	.string "PSEUDOLEGENDARIO. Aquel que introdujo\l"
-	.string "la posibilidad de que POKÉMON NO\l"
-	.string "LEGENDARIOS alcanzaran un poder\l"
-	.string "equiparable al de los que sí lo eran.$"
+.string "Documentos antiguos afirman que fue,\n"
+	.string "de hecho, el primer PSEUDOLEGENDARIO.$"
+
+Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.1:
+	.string "ANDRA: Oh{PAUSE 25}…{PAUSE 25} ¿El primero?$"
+
+Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.2:
+	.string "Así es. Fue aquel que introdujo la\n"
+	.string "posibilidad de que NO LEGENDARIOS\l"
+	.string "alcanzaran un poder equiparable al\l"
+	.string "de los que sí lo eran.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_21:
 .string "En TORRE DUN esa forma de DUNSPARCE ha\n"
@@ -499,22 +536,20 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_26:
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_27:
 .string "Ello lo diferencia del resto de\n"
-	.string "DUNSPARCE, condenados como\l"
-	.string "DUDUNSPARCE a permanecer en sus\l"
-	.string "formas limitadas, sin mayor techo que\l"
-	.string "permanecer anclados a la tierra.$"
+	.string "DUNSPARCE, condenados como DUDUNSPARCE\l"
+	.string "a permanecer en sus formas limitadas,\l"
+	.string "sin mayor techo que permanecer anclados\l"
+	.string "a la tierra.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
 .string "ANDRA: Oh{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
-.string "En cuanto a la forma\n"
-	.string "PSEUDOLEGENDARIA{PAUSE 25}…{PAUSE 25} me temo que su\l"
-	.string "obtención escapa a mis conocimientos,\l"
-	.string "deberéis preguntarle a nuestro gran\l"
-	.string "maestro, ya que muy contados monjes\l"
-	.string "han podido evolucionar a un\l"
-	.string "BLESSPARCE.$"
+.string "En cuanto a la forma PSEUDOLEGENDARIA{PAUSE 25}…{PAUSE 25}\p"
+	.string "Me temo que su obtención escapa a mis\n"
+	.string "conocimientos, deberéis preguntarle al\l"
+	.string "GRAN MAESTRO, ya que muy contados monjes\l"
+	.string "pudieron evolucionar a un BLESSPARCE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
 .string "Pero{PAUSE 25}…{PAUSE 25} algo es seguro: el DRAGÓN\n"
@@ -523,14 +558,14 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
 	.string "un fenómeno similar al FUERTE VÍNCULO,\l"
 	.string "que obró sobre este primer DUNSPARCE,\l"
 	.string "cuando ya se hallaba en su fase de\l"
-	.string "PSEUDOLEGENDARIO.$"
+	.string "PSEUDOLEGENDARIO, llamada DUN.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_31:
 .string "ANDRA: Estoy{PAUSE 25}…{PAUSE 25} impresionada.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_32:
-.string "ANDRA: ¡{PLAYER}! ¿Has oído nuestra\n"
-	.string "conversación?$"
+.string "ANDRA: ¡{PLAYER}!\p"
+	.string "¿Has oído nuestra conversación?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_33:
 .string "EUSINE: No creo que {PLAYER} sea tan\n"
@@ -541,8 +576,8 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_34:
 	.string "os queda para llegar hasta arriba.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_35:
-.string "ANDRA: ¡Jah! ¡Hasta ahora ha sido pan\n"
-	.string "comido!$"
+.string "ANDRA: ¡Jah!\p"
+	.string "¡Hasta ahora ha sido pan comido!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_36:
 .string "EUSINE: No creo que siga así, nuestro\n"
@@ -550,12 +585,12 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_36:
 	.string "fáciles.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_37:
-.string "ANDRA: ¿Qué? ¡Espera!$"
+.string "ANDRA: ¿Qué?{PAUSE 25} ¡Espera!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_38:
 .string "¿Ha dicho ALTO MANDO? En esta PAGODA\n"
 	.string "parece que hay muchas cosas que nos\l"
-	.string "son familiares, ¿eh {PLAYER}?$"
+	.string "son familiares, ¿eh, {PLAYER}?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_39:
 .string "Después de esta historia, mi decisión de\n"

@@ -8,26 +8,39 @@ msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_218, Route49_Pagoda_P10_Combate_Maestro_Texto_7
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_7
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P10_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_Pagoda_P10_Combate_Maestro_Move_8
 waitmovement 0x0
@@ -76,9 +89,8 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_1:
 	.string "vano.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_2:
-.string "Su criterio jamás se vería nublado por\n"
-	.string "trucos aparentes, ni campeones de\l"
-	.string "cartón.$"
+.string "Su juicio jamás se vería nublado por\n"
+	.string "trucos aparentes, ni campeones de cartón.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_3:
 .string "De igual modo, esta pagoda permanece\n"
@@ -123,8 +135,8 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_10:
 	.string "danza de movimiento inexorable{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_11:
-.string "…cuando lleguéis a ese punto,vuestras\n"
-	.string "posibilidades serán infinitas.$"
+.string "{PAUSE 15}…{PAUSE 15} cuando lleguéis a ese punto, ahí\n"
+	.string "vuestras posibilidades serán infinitas.$"
 
 Route49_Pagoda_P10_Encuentro_Maestro::
 lock

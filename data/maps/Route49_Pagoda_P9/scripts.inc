@@ -11,27 +11,40 @@ applymovement OBJ_EVENT_ID_PLAYER, Route49_Pagoda_P9_Combate_Maestro_Move_3
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_2
 waitmovement 0x0
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_217, Route49_Pagoda_P9_Combate_Maestro_Texto_7
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_7
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P9_Combate_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_Pagoda_P9_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
@@ -87,8 +100,8 @@ Route49_Pagoda_P9_Combate_Maestro_Texto_3:
 .string "La TORRE DUN es{PAUSE 25}…{PAUSE 25} como una cápsula del\n"
 	.string "tiempo, ¿no crees? No importa todo lo\l"
 	.string "que el mundo haya cambiado, esta\l"
-	.string "pagoda conserva intacta la esencia de\l"
-	.string "sus primeros días.$"
+	.string "pagoda conserva intacta la esencia\l"
+	.string "de sus primeros días.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_4:
 .string "Y por ello, ¿qué mayor honor puede haber\n"
@@ -114,13 +127,14 @@ Route49_Pagoda_P9_Combate_Maestro_Texto_8:
 	.string "jóvenes con un potencial así.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_9:
-.string "Aún diría más, vuestro potencial es\n"
-	.string "mayor, algo aún más meritorio, teniendo\l"
+.string "Aún diría más, vuestro techo es aún\n"
+	.string "mayor, algo de extremo mérito, teniendo\l"
 	.string "en cuenta vuestro entorno.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_10:
 .string "Mi parte está hecha, aún te queda mucho\n"
-	.string "para llegar hasta el final.$"
+.string "para llegar hasta el final, y todo\l"
+	.string "sigue siendo posible para ti.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_11:
 .string "Después de todo, solo estás en el\n"

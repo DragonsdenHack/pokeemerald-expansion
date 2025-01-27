@@ -30159,11 +30159,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER218[] = {
     {
     .iv = 255,
     .lvl = 99,
-    .species = SPECIES_PINSIR,
-    .heldItem = ITEM_PINSIRITE,
+    .species = SPECIES_BUTTERFREE,
+    .heldItem = ITEM_BUTTERFRITA,
     .evs = {30, 30, 30, 252, 252, 30},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_THRASH, MOVE_EARTHQUAKE, MOVE_QUICK_ATTACK, MOVE_CLOSE_COMBAT}
+    .moves = {MOVE_AIR_SLASH, MOVE_BUG_BUZZ, MOVE_PSYCHIC, MOVE_SHADOW_BALL}
     },
     {
     .iv = 255,
@@ -30217,11 +30217,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER219[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_SABLEYE,
-    .heldItem = ITEM_SABLENITE,
-    .evs = {252, 80, 252, 80, 80, 80},
-    .nature = NATURE_BOLD,
-    .moves = {MOVE_FOUL_PLAY, MOVE_WILL_O_WISP, MOVE_RECOVER, MOVE_TOXIC}
+    .species = SPECIES_DUSKNOIR,
+    .heldItem = ITEM_DUSKNOIRITA,
+    .evs = {252, 80, 252, 0, 0, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_WILL_O_WISP, MOVE_POLTERGEIST, MOVE_LEECH_LIFE}
     },
     {
     .iv = 255,

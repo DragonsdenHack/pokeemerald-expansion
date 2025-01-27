@@ -184,7 +184,7 @@ face_up
 step_end
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_1:
-.string "????: ¿Eh?\n"
+.string "????: ¿Eh?\p"
 	.string "¿Alguien más aquí, en serio?$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_2:
@@ -201,8 +201,8 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_3:
 	.string "tal alcanzó su máxima expresión.\l"
 	.string "Aquí un POKÉMON destinado a ser algo\l"
 	.string "que no quería se sobrepuso a todo\l"
-	.string "agente externo.\l"
-	.string "Escaló hasta el extremo superior de\l"
+	.string "agente externo.\p"
+	.string "Escaló hasta el extremo superior de\n"
 	.string "sus infinitas posibilidades, y acabó\l"
 	.string "convirtiéndose en algo que cualquier\l"
 	.string "teórico del mundo POKÉMON tacharía de\l"
@@ -210,17 +210,17 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_3:
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_4:
 .string "Es inspirador, aunque difícil de\n"
-	.string "creer, ¿no?\l"
-	.string "Pero este lugar, aunque ya muy\l"
+	.string "creer, ¿no?\p"
+	.string "Pero este lugar, aunque ya muy\n"
 	.string "desgastado por el paso del tiempo,\l"
 	.string "irradia esa clase de energía, propia\l"
 	.string "de grandes leyendas{PAUSE 25}…{PAUSE 25} propia de\l"
-	.string "grandes acontecimientos que\l"
+	.string "grandes acontecimientos, que\l"
 	.string "trascendieron la historia y forjaron\l"
 	.string "el mundo tal y como hoy lo conocemos.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_5:
-.string "Lo cierto es que{PAUSE 25}…{PAUSE 25}\n"
+.string "Lo cierto es que{PAUSE 25}…{PAUSE 25}\p"
 	.string "Este lugar me recuerda mucho a{PAUSE 25}…{PAUSE 25}$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_6:
@@ -228,9 +228,9 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_6:
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_6.1:
 	.string "Oye, tú, la chica que hay más arriba\n"
-	.string "es amiga tuya, ¿verdad?\l"
-	.string "Según ella, el POKÉMON que busco\l"
-	.string "volvió a su región de origen.\l"
+	.string "es amiga tuya, ¿verdad?\p"
+	.string "Según ella, el POKÉMON que busco\n"
+	.string "volvió a su región de origen.\p"
 	.string "¿Crees que es cierto?$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_7:
@@ -242,8 +242,8 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_8:
 	.string "extraordinario, ambos.\l"
 	.string "Me da en la nariz que tenéis algo\l"
 	.string "especial, y no necesito combatir para\l"
-	.string "confirmar mis sospechas. Es demasiado\l"
-	.string "obvio.$"
+	.string "confirmar mis sospechas.\p"
+	.string "Es demasiado obvio.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_9:
 .string "Irradiáis energía y poder a raudales.$"
@@ -256,13 +256,13 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_10:
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 .string "Me agrada mucho haberme topado con\n"
 	.string "vosotros. En un lugar como este{PAUSE 25}…{PAUSE 25}\l"
-	.string "sois como ooparts para mí, pero qué\l"
-	.string "más da, no nos volveremos a ver.$"
+	.string "sois como ooparts para mí, ¿pero qué\l"
+	.string "más da? No nos volveremos a ver.$"
 
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
 .string "Mmm{PAUSE 25}…{PAUSE 25} pensándolo mejor, vuestro\n"
 	.string "vínculo con esos POKÉMON, la leyenda\l"
-	.string "de este lugar{PAUSE 25}…{PAUSE 25}\l"
-	.string "Puede que sea yo el oopart, ¿no\l"
+	.string "de este lugar{PAUSE 25}…{PAUSE 25}\p"
+	.string "Puede que sea yo el oopart, ¿no\n"
 	.string "crees?$"

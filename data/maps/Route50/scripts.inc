@@ -19,7 +19,10 @@ faceplayer
 playse SE_PIN
 applymovement 2, Route50_Encuentro_Dunsparce_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route50_Encuentro_Dunsparce_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route50_Encuentro_Dunsparce_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, Route50_Encuentro_Dunsparce_Move_5
@@ -346,15 +349,15 @@ Route50_Miguel_Texto_2:
 	.string "¿Y tú? ¿Has llegado a verlos?$"
 
 Route50_Miguel_Texto_3:
-.string "TRISTANA: En la cima de PILAR DUN. Son\n"
-	.string "tal y como describiste, con ese aura de\l"
-	.string "triunfo y capacidad de mantenerse\l"
+.string "TRISTANA: En la cima de PILAR DUN.\p"
+	.string "Son tal y como describiste, con ese aura\n"
+	.string "de triunfo y capacidad de mantenerse\l"
 	.string "presentes cuando más importa. No es de\l"
 	.string "extrañar que el DRAGÓN SAGRADO les\l"
 	.string "haya escogido.$"
 
 Route50_Miguel_Texto_4:
-.string "????: Lo sé…la historia solo recuerda a\n"
+.string "????: Lo sé{PAUSE 15}…{PAUSE 15} la historia solo recuerda a\n"
 	.string "los que lo logran, pero por el camino la\l"
 	.string "inmensa mayoría de los que lo\l"
 	.string "intentaron acabaron sucumbiendo al\l"
@@ -407,8 +410,8 @@ Route50_Miguel_Texto_10:
 
 Route50_Miguel_Texto_11:
 .string "Porque claro, DUDUNSPARCE no ha sido\n"
-	.string "<bendecido>, como BLESSPARCE. ¿Qué es\l"
-	.string "entonces la voluntad?$"
+	.string "<bendecido>, como BLESSPARCE.\p"
+	.string "¿Qué es, entonces, la voluntad?$"
 
 Route50_Miguel_Texto_12:
 .string "TRISTANA: Veo que este tema te toca\n"
@@ -436,9 +439,8 @@ Route50_Miguel_Texto_16:
 
 Route50_Miguel_Texto_17:
 .string "Pero juntos{PAUSE 25}…{PAUSE 25} lograremos sacar la mejor\n"
-	.string "parte de nosotros, y con ello nuestro\l"
-	.string "espíritu, nuestra <voluntad>\l"
-	.string "permanecerá inexpugnable.$"
+	.string "parte de nosotros, y con ello elevaremos\l"
+	.string "nuestro espíritu, nuestra <voluntad>.$"
 
 Route50_Miguel_Texto_18:
 .string "TRISTANA: Recuerda que todo esto\n"

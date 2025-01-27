@@ -7,21 +7,32 @@ msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 delay 5
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_220, Route49_Pagoda_P12_Combate_Maestro_Texto_8
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_9 MSGBOX_AUTOCLOSE
@@ -78,11 +89,11 @@ Route49_Pagoda_P12_Combate_Maestro_Texto_2:
 	.string "una vez arriba, estaba vacío.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_3:
-.string "Tu caso es diferente, siquiera\n"
-	.string "obtuviste ese efímero reconocimiento\l"
-	.string "por parte de las masas, ¿verdad? Pero\l"
-	.string "sí de aquellos pocos que de verdad\l"
-	.string "importan.$"
+.string "Tu caso es diferente, siquiera obtuviste\n"
+	.string "ese efímero reconocimiento por parte de\l"
+	.string "las masas, ¿verdad?\p"
+	.string "Pero sí de aquellos pocos que de\n"
+	.string "verdad importan.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_4:
 .string "Esos pocos son los que a la larga\n"
