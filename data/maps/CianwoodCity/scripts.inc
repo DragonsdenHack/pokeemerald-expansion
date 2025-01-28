@@ -17,6 +17,7 @@ CianwoodCity_Miguel_Warp::
 setvar VAR_VERDANTURF_TOWN_STATE, 19
 warpsilent MAP_ROUTE50, 55, 21
 waitmovement 0x0
+delay 100
 release
 end
 

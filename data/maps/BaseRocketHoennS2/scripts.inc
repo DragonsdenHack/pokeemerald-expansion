@@ -1691,15 +1691,21 @@ goto BaseRocketHoennS2_Dialogo_Andra
 
 
 BaseRocketHoennS2_Dialogo_Andra::
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_3 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_4
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_6 MSGBOX_AUTOCLOSE
@@ -1707,10 +1713,14 @@ delay 20
 applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_5
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_9 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
 fadescreen 1
@@ -1835,10 +1845,10 @@ BaseRocketHoennS2_Dialogo_Andra_Texto_6:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_7:
-.string "¿Sabes, {PLAYER}? Me gustaría\n"
-	.string "enseñarte algo. Está fuera de la BASE,\l"
-	.string "tendrás que salir por la misma sala del\l"
-	.string "teletransportador.$"
+.string "¿Sabes, {PLAYER}?\p"
+	.string "Me gustaría enseñarte algo.\p"
+	.string "Está fuera de la BASE, tendrás que salir\n"
+	.string "por la misma sala del teletransportador.$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_8:
 .string "Una vez fuera, te esperaré en la zona\n"

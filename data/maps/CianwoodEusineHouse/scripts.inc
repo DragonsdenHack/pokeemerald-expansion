@@ -144,13 +144,14 @@ msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4 MSGBOX_AUTOCLOSE
 delay 40
 applymovement 1, CianwoodEusineHouse_Combate_Move_4
 waitmovement 0x0
+delay 20
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, CianwoodEusineHouse_Combate_Move_1
 waitmovement 0x0
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6 MSGBOX_AUTOCLOSE
 delay 10
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7 MSGBOX_AUTOCLOSE
-delay 20
+delay 40
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_VERDANTURF_TOWN_STATE, 18
 addvar VAR_UNUSED_0x40F7, 1
@@ -215,10 +216,9 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6:
 	.string "LEGENDARIOS pueden seros de gran\l"
 	.string "ayuda. Tengo la firme creencia de que,\l"
 	.string "aunque son inferiores en poder a EN,\l"
-	.string "RAI y SUI, son mucho más moldeables.\l"
-	.string "Ahí está la trampa de que la\l"
-	.string "intervención divina sea superada por\l"
-	.string "el vínculo.$"
+	.string "RAI y SUI, son mucho más moldeables.\p"
+	.string "Ahí está la trampa de que la intervención\n"
+	.string "divina sea superada por el vínculo.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7:
 .string "Me gustaría ser capaz de demostrar\n"
@@ -229,12 +229,12 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7:
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8:
 .string "¡Sabía que aceptarías! Entonces…\n"
-	.string "disponéis de un enorme equipo de\l"
+	.string "¿Disponéis de un enorme equipo de\l"
 	.string "CIENTÍFICOS que estarán muy\l"
-	.string "interesados en oír todo esto{PAUSE 25}…{PAUSE 25} bien, yo\l"
-	.string "no me moveré de aquí, en cuanto les\l"
-	.string "confirmes mi incorporación, me pondré a\l"
-	.string "trabajar con ellos.$"
+	.string "interesados en oír todo esto{PAUSE 25}…{PAUSE 25}?\p"
+	.string "Bien, yo no me moveré de aquí, en cuanto\n"
+	.string "les confirmes mi incorporación, me pondré\l"
+	.string "a trabajar con ellos.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_9:
 .string "Yo no me moveré de aquí, en cuanto les\n"

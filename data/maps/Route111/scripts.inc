@@ -855,6 +855,8 @@ Ruta_111_Evento_Andra_Texto_2:
 Ruta_111_Barrera_Noroeste::
 compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2.1
+waitmovement 0x0
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2
 waitmovement 0x0
@@ -862,8 +864,8 @@ release
 end
 
 Ruta_111_Barrera_Noroeste_Texto_1:
-.string "(No hay nada que hacer en HOENN, al\n"
-	.string "menos por ahora).$"
+.string "-No hay nada que hacer en HOENN, al\n"
+	.string "menos por ahora-.$"
 
 
 Ruta_111_Barrera_Noroeste_Move_1:
@@ -874,14 +876,24 @@ Ruta_111_Barrera_Noroeste_Move_2:
 walk_right
 step_end
 
+Ruta_111_Barrera_Noroeste_Move_2.1:
+walk_in_place_left
+step_end
+
 Ruta_111_Barrera_Sur::
 compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1.2
+waitmovement 0x0
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1
 waitmovement 0x0
 release
 end
+
+Ruta_111_Barrera_Noroeste_Move_1.2:
+walk_in_place_down
+step_end
 
 Ruta_111_Cientificos::
 lock

@@ -4724,35 +4724,54 @@ fadescreen 0
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.2 MSGBOX_AUTOCLOSE
-delay 15
+playse SE_PIN
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CianwoodEusineHouse_Combate_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_9 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Base_Hoenn_Move_7
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_8
 waitmovement 0x0
@@ -4763,6 +4782,7 @@ delay 15
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 waitmovement 0x0
@@ -4789,8 +4809,10 @@ msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_21 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_10
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_23 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_1
@@ -4815,6 +4837,7 @@ step_end
 
 RocketHideout_8F_Mision_Base_Hoenn_Move_8:
 walk_slow_left
+delay_16
 walk_in_place_down
 step_end
 
@@ -4856,8 +4879,8 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
 .string "GIOVANNI: Nuestra base de datos ha\n"
 	.string "recogido información muy valiosa de\l"
 	.string "vuestras expediciones, pero me\l"
-	.string "gustaría oíros a vosotros. Contadme\l"
-	.string "todos los detalles{PAUSE 5}…{PAUSE 5}$"
+	.string "gustaría oíros a vosotros.\p"
+	.string "Contadme todos los detalles{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
 .string "Ya veo{PAUSE 25}…{PAUSE 25} Así que JOHTO cuenta con\n"
@@ -4873,8 +4896,8 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_4:
 	.string "135 de HOENN.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1:
-	.string "Por otro lado, ese DRAGÓN SAGRADO{PAUSE 25}…{PAUSE 25}\n"
-	.string "ANDRA ya me ha hablado de cómo su\l"
+	.string "Por otro lado, ese DRAGÓN SAGRADO{PAUSE 25}…{PAUSE 25}\p"
+	.string "ANDRA ya me ha hablado de cómo su\n"
 	.string "URSARING evolucionó gracias a la\l"
 	.string "PIEDRA SAGRADA.$"
 
@@ -4893,23 +4916,21 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3:
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_5:
 .string "GIOVANNI: En cuanto a lo de ese tal\n"
-	.string "EUSINE, no te preocupes {PLAYER}, mandaré\l"
+	.string "EUSINE, no te preocupes, {PLAYER}, mandaré\l"
 	.string "a buscarle. Todo lo que él ha visto y\l"
-	.string "vivido en esa pagoda nos será de\l"
-	.string "enorme utilidad para nuestras\l"
-	.string "investigaciones.$"
+	.string "vivido en esa pagoda nos será de gran\l"
+	.string "utilidad para nuestras investigaciones.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_6:
 .string "Lo que realmente me preocupa es tu\n"
-	.string "misión en el LAGO DE LA FURIA,\l"
-	.string "{PLAYER}.$"
+	.string "misión en el LAGO DE LA FURIA.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_7:
 .string "El resultado ha sido inmejorable, y el\n"
 	.string "POKÉMON hallado ahí excepcional. Pero\l"
 	.string "esos CIENTÍFICOS{PAUSE 25}…{PAUSE 25} no trabajan para\l"
-	.string "nosotros, parecen perseguir objetivos\l"
-	.string "similares a los nuestros.$"
+	.string "nosotros, y aún así parecen perseguir\l"
+	.string "objetivos similares a los nuestros.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_8:
 .string "ANDRA: Yo también me crucé con\n"
@@ -4944,10 +4965,10 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_14:
 .string "Tal vez sea algo pronto, pero{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_15:
-.string "¡{PLAYER}! Quiero que acompañes a\n"
-	.string "ANDRA a nuestra sucursal en HOENN, y\l"
-	.string "te dé nociones generales sobre la\l"
-	.string "región.$"
+.string "¡{PLAYER}!\p"
+	.string "Quiero que acompañes a ANDRA a nuestra\n"
+	.string "sucursal en HOENN, y te dé nociones\l"
+	.string "generales sobre la región.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_16:
 .string "La demolición de TORRE POKÉMON es\n"

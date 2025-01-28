@@ -27949,7 +27949,7 @@ const struct BaseStats gBaseStats[] =
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_PARENTAL_BOND, ABILITY_PARENTAL_BOND},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_PARENTAL_BOND, ABILITY_PARENTAL_BOND},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,

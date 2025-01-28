@@ -247,35 +247,49 @@ applymovement 11, LavenderTown_Cierre_Torre_Move_5
 applymovement 9, LavenderTown_Cierre_Torre_Move_5
 applymovement 8, LavenderTown_Cierre_Torre_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_8 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
+applymovement 8, LavenderTown_Cierre_Torre_Move_9.1
+waitmovement 0x0
+waitse
 msgbox LavenderTown_Cierre_Torre_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderTown_Cierre_Torre_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderTown_Cierre_Torre_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderTown_Cierre_Torre_Move_10
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_12 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderTown_Cierre_Torre_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 7, LavenderTown_Cierre_Torre_Move_11
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_14 MSGBOX_AUTOCLOSE
-fadescreen 1
+delay 10
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 8
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
-delay 20
+removeobject 8
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 9, LavenderTown_Cierre_Torre_Move_10
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderTown_Cierre_Torre_Texto_16 MSGBOX_AUTOCLOSE
@@ -291,13 +305,13 @@ waitmovement 0x0
 msgbox LavenderTown_Cierre_Torre_Texto_19 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 delay 10
-fadescreen 1
 playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 9
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 9
+waitfieldeffect FLDEFF_NPCFLY_OUT
 delay 20
 applymovement 11, LavenderTown_Cierre_Torre_Move_16
 waitmovement 0x0
@@ -361,6 +375,10 @@ step_end
 
 LavenderTown_Cierre_Torre_Move_10:
 walk_slow_up
+step_end
+
+LavenderTown_Cierre_Torre_Move_9.1:
+walk_in_place_right
 step_end
 
 LavenderTown_Cierre_Torre_Move_9:
@@ -433,11 +451,10 @@ LavenderTown_Cierre_Torre_Texto_4:
 LavenderTown_Cierre_Torre_Texto_5:
 .string "AGATHA: No podemos olvidar de dónde\n"
 	.string "venimos, esta TORRE lleva siglos en pie,\l"
-	.string "alojó a todos los caídos tras la\l"
-	.string "guerra. Cómo podrá entenderse la\l"
-	.string "historia de KANTO sin uno de sus\l"
-	.string "mayores símbolos, ¿también ocultarás\l"
-	.string "su pasado?$"
+	.string "alojó a todos los caídos tras la guerra.\p"
+	.string "¿Cómo podrá entenderse la historia de\n"
+	.string "KANTO sin uno de sus mayores símbolos?\p"
+	.string "¿También ocultarás su pasado?$"
 
 LavenderTown_Cierre_Torre_Texto_6:
 .string "ATLAS: Lo que TORRE POKÉMON ha sido\n"
@@ -445,14 +462,14 @@ LavenderTown_Cierre_Torre_Texto_6:
 	.string "documentado, ya nada podrá borrar su\l"
 	.string "papel en la historia. Dentro de 1000\l"
 	.string "años sabrán lo mismo que hoy sabemos\l"
-	.string "nosotros acerca de este lugar. Su\l"
-	.string "memoria perdurará, si es lo que te\l"
-	.string "preocupa.$"
+	.string "nosotros acerca de este lugar.\p"
+	.string "Su memoria perdurará, si es lo\n"
+	.string "que te preocupa.$"
 
 LavenderTown_Cierre_Torre_Texto_7:
 .string "AGATHA: ¿Pero por qué? ¿Por qué\n"
-	.string "destruirla? ¿Por qué no construir una\l"
-	.string "torre gemela al este?$"
+	.string "destruirla? ¿Por qué no construir\l"
+	.string "una torre gemela al este?$"
 
 LavenderTown_Cierre_Torre_Texto_8:
 .string "ATLAS: En ocasiones lo viejo debe\n"
@@ -487,7 +504,7 @@ LavenderTown_Cierre_Torre_Texto_15:
 	.string "implican este tipo de pérdidas, hay que\l"
 	.string "seguir adelante. Espero que esto no\l"
 	.string "cambie nada en tu labor para con\l"
-	.string "LAVANDA, FUJI.$"
+	.string "PUEBLO LAVANDA, FUJI.$"
 
 LavenderTown_Cierre_Torre_Texto_16:
 .string "FUJI: {PAUSE 5}…{PAUSE 5}$"
@@ -495,8 +512,8 @@ LavenderTown_Cierre_Torre_Texto_16:
 LavenderTown_Cierre_Torre_Texto_17:
 .string "BILL: ¡Si esa anciana supiera lo que\n"
 	.string "vamos a montar dentro de la nueva\l"
-	.string "TORRE RADIO! ¡Se hubiera ido aún más\l"
-	.string "disgustada!$"
+	.string "TORRE RADIO!\p"
+	.string "¡Se hubiera ido aún más disgustada!$"
 
 LavenderTown_Cierre_Torre_Texto_18:
 .string "ATLAS: Muestra más respeto y sé más\n"

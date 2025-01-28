@@ -92,25 +92,35 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_1
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_5
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_5
@@ -122,10 +132,13 @@ playse SE_PIN
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_7
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_7
 waitmovement 0x0
+waitse
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_10 MSGBOX_AUTOCLOSE
 delay 20
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_11 MSGBOX_AUTOCLOSE
@@ -135,6 +148,7 @@ applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_8
 waitmovement 0x0
 removeobject 4
 playse SE_EXIT
+waitse
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_12 MSGBOX_AUTOCLOSE
 delay 15
@@ -147,11 +161,16 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_15 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_16 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_18 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, DesertRuins_Evento_CamaraRegirock_Move_16
@@ -159,17 +178,23 @@ waitmovement 0x0
 special RemoveCameraObject
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_10
+delay 5
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_11
+delay 5
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_12
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_20 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_5.1
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_22 MSGBOX_AUTOCLOSE
 delay 15
 special SpawnCameraObject
@@ -190,17 +215,25 @@ waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_27 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_9
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6.1
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 removeobject 3
 playse SE_EXIT
@@ -213,13 +246,18 @@ delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_32 MSGBOX_AUTOCLOSE
 delay 30
 playse SE_POKENAV_CALL
-delay 30
+waitse
+delay 15
 playse SE_POKENAV_HANG_UP
+waitse
+delay 15
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_36 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 15
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_3
@@ -332,8 +370,8 @@ face_left
 step_end
 
 DesertRuins_Evento_CamaraRegirock_Texto_1:
-.string "ADMIN.DEVON: Aquí tienes a REGIROCK.\n"
-	.string "Uno de los 3 REGIS que duermen en\l"
+.string "ADMIN.DEVON: Aquí tienes a REGIROCK.\p"
+	.string "Uno de los 3 REGIS que duermen en\n"
 	.string "HOENN, su solidez es incomparable.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_2:
@@ -356,8 +394,8 @@ DesertRuins_Evento_CamaraRegirock_Texto_4:
 DesertRuins_Evento_CamaraRegirock_Texto_5:
 .string "ADMIN.DEVON: Trabajamos en muchas\n"
 	.string "cosas, una de ellas es formarte como\l"
-	.string "ENTRENADOR, que te desarrolles como es\l"
-	.string "debido.$"
+	.string "ENTRENADOR, para que te desarrolles como\l"
+	.string "es debido.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_6:
 .string "Enseñarte esta clase de lugares es\n"
@@ -376,8 +414,8 @@ DesertRuins_Evento_CamaraRegirock_Texto_7:
 
 DesertRuins_Evento_CamaraRegirock_Texto_8:
 .string "Por ello, ahora debes centrarte en criar\n"
-	.string "al BELDUM perfecto que tu padre te dio.\l"
-	.string "Junto con los clásicos FÓSILES de\l"
+	.string "al BELDUM perfecto que tu padre te dio.\p"
+	.string "Junto con los clásicos FÓSILES de\n"
 	.string "HOENN, tienes las herramientas\l"
 	.string "necesarias para algún día proclamarte\l"
 	.string "CAM{PAUSE 5}…{PAUSE 5}$"
@@ -394,13 +432,12 @@ DesertRuins_Evento_CamaraRegirock_Texto_11:
 
 DesertRuins_Evento_CamaraRegirock_Texto_12:
 .string "ANDRA: ¿Escondiendo la realidad a un\n"
-	.string "pobre chico para beneficiaros? ¡No es\l"
-	.string "la primera vez que veo esto!$"
+	.string "pobre chico para beneficiaros?\p"
+	.string "¡No es la primera vez que veo esto!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_13:
-.string "ADMIN.DEVON: Te equivocas\n"
-	.string "completamente, debéis de ser del TEAM\l"
-	.string "ROCKET, ¿no?$"
+.string "ADMIN.DEVON: Te equivocas por completo.\p"
+	.string "Debéis de ser del TEAM ROCKET, ¿no?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_14:
 .string "Únicamente le estamos mostrando la\n"
@@ -412,11 +449,10 @@ DesertRuins_Evento_CamaraRegirock_Texto_15:
 .string "De ese modo estará preparado para la\n"
 	.string "capa superior de realidad que está por\l"
 	.string "venir, se está adaptando. A diferencia\l"
-	.string "de vuestro colaborador, ese\l"
-	.string "“PROFESOR”. Lo único que hizo fue\l"
-	.string "someter a una capa inferior de la\l"
-	.string "realidad a su creación, para así cumplir\l"
-	.string "sus fines.$"
+	.string "de vuestro colaborador, ese “PROFESOR”.\l"
+	.string "Lo único que hizo fue someter a una\l"
+	.string "capa inferior de la realidad a su\l"
+	.string "creación, para así cumplir sus fines.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_16:
 .string "No oses comparar esa canallada con la\n"
@@ -427,9 +463,9 @@ DesertRuins_Evento_CamaraRegirock_Texto_17:
 .string "ANDRA: ¿Cómo sabes todo eso?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_18:
-.string "ADMIN.DEVON: DEVON lo sabe todo,\n"
-	.string "nuestra tecnología está 5 años por\l"
-	.string "encima de la vuestra, que tengáis un\l"
+.string "ADMIN.DEVON: DEVON lo sabe todo.\p"
+	.string "Nuestra tecnología está 5 años por\n"
+	.string "delante de la vuestra, que tengáis un\l"
 	.string "buen día.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_19:
@@ -444,17 +480,12 @@ DesertRuins_Evento_CamaraRegirock_Texto_20:
 
 DesertRuins_Evento_CamaraRegirock_Texto_21:
 .string "ANDRA: ¡Jah! Cuando uno cree que lo\n"
-	.string "sabe todo es el principio del fin. Tiene\l"
-	.string "delante de sí a dos ENTRENADORES que\l"
-	.string "lo destrozarían en un combate, y se va\l"
-	.string "creyendo ser el sabelotodo que tiene\l"
-	.string "todo bajo control. ¡Huye y sigue en tu\l"
-	.string "ignorancia! Hemos visto más de lo que\l"
-	.string "tú verás en tu vida.$"
+	.string "sabe todo es el principio del fin.\p"
+	.string "¡Huye y sigue en tu ignorancia!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_22:
 .string "ADMIN.DEVON: ¿De verdad te crees\n"
-	.string "capaz?$"
+	.string "capaz de{PAUSE 5}…{PAUSE 5}?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_23:
 .string "¿Quién es este?$"
@@ -463,7 +494,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_24:
 .string "¿{PLAYER}? Nadie en DEVON conoce tu\n"
 	.string "nombre, si de verdad fuerais tan\l"
 	.string "fuertes sabría quiénes sois.\l"
-	.string "¡Después de borrar a tu equipo\l"
+	.string "¡Después de borrar a tu equipo,\l"
 	.string "DEVON seguirá sin saber quién eres!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_25:
@@ -487,15 +518,14 @@ DesertRuins_Evento_CamaraRegirock_Texto_29:
 
 DesertRuins_Evento_CamaraRegirock_Texto_30:
 .string "ADMIN.DEVON: Entonces{PAUSE 25}…{PAUSE 25} el ADMIN que\n"
-	.string "visitó el LAGO DE LA FURIA tenía razón.\l"
-	.string "Solo que no eres un ENTRENADOR\l"
-	.string "particular, trabajas para el TEAM\l"
-	.string "ROCKET.$"
+	.string "visitó el LAGO DE LA FURIA tenía razón.\p"
+	.string "Solo que no eres un particular,\n"
+	.string "trabajas para el TEAM ROCKET.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_31:
 .string "Hubiera sido mejor para ti que\n"
-	.string "siguiéramos sin conocer tu nombre,\l"
-	.string "créeme.$"
+	.string "siguiéramos sin conocer tu nombre.\p"
+	.string "Créeme.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_31.1:
 	.string "ANDRA: Se nota a leguas que ese\n"
@@ -510,8 +540,8 @@ DesertRuins_Evento_CamaraRegirock_Texto_32:
 	.string "misterio para el TEAM ROCKET.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_34:
-.string "Ve {PLAYER}, yo volveré a mi DESPACHO.\n"
-	.string "GIOVANNI dijo que la II GRAN REUNIÓN\l"
+.string "Ve, {PLAYER}, yo volveré a mi DESPACHO.\p"
+	.string "GIOVANNI dijo que la II GRAN REUNIÓN\n"
 	.string "en TRIGAL se celebraría después de\l"
 	.string "derrumbar la TORRE POKÉMON, imagino\l"
 	.string "que debe estar al caer.$"
@@ -521,8 +551,8 @@ DesertRuins_Evento_CamaraRegirock_Texto_35:
 	.string "información que pueda sobre DEVON.\l"
 	.string "Aunque hemos ganado, sus POKÉMON,\l"
 	.string "estrategias y objetos son una novedad\l"
-	.string "para nosotros. Debemos estar\l"
-	.string "preparados.$"
+	.string "para nosotros.\p"
+	.string "Debemos estar preparados.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_36:
 .string "GIOVANNI: ¿{PLAYER}? Requiero de tu\n"
@@ -548,13 +578,17 @@ applymovement 2, DesertRuins_Evento_Andra_Move_4
 waitmovement 0x0
 delay 30
 msgbox DesertRuins_Evento_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, DesertRuins_Evento_Andra_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, DesertRuins_Evento_Andra_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_Andra_Texto_5 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_3
 applymovement 2, DesertRuins_Evento_Andra_Move_8

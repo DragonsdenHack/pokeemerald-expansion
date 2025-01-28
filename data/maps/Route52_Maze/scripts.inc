@@ -305,7 +305,7 @@ Route52_Maze_Trabajador_Texto_1:
 Route52_Maze_Trabajador_Texto_2:
 .string "A este paso voy a ponerme más\n"
 	.string "fuerte que un MACHOKE, este\l"
-	.string "almacén ya no da a basto para toda\l"
+	.string "almacén ya no da abasto para toda\l"
 	.string "nuestra demanda.$"
 
 Route52_Maze_Electricista::

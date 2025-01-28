@@ -12,6 +12,7 @@ map_script_2 VAR_UNUSED_0x40F7, 217, BaseRocketHoenn_Ejecutivo_Bienvenida
 BaseRocketHoenn_Escena_Lavanda::
 setvar VAR_UNUSED_0x40F7, 185
 warpsilent MAP_LAVENDER_TOWN, 18, 0
+delay 100
 release
 end
 
@@ -1802,27 +1803,37 @@ special RemoveCameraObject
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_5
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_7
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_8
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_13 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_7
@@ -1832,24 +1843,46 @@ applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Encuentro_Oak_11
 waitmovement 0x0
 special RemoveCameraObject
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_3
+waitmovement 0x0
+waitse
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_3.1
+waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_18 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_15.1
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_15.1
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_13
 waitmovement 0x0
 setflag FLAG_RECEIVED_SHOAL_SALT_3
@@ -1864,13 +1897,56 @@ msgbox BaseRocketHoenn_Encuentro_Oak_Texto_23 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 waitfanfare
 setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
-fadescreen 1
-delay 20
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_15.3
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_15.2
+waitmovement 0x0
 removeobject 37
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 187
 release
 end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.3:
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.1:
+delay_16
+delay_16
+face_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_3.1:
+face_up
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+walk_in_place_left
+step_end
 
 BaseRocketHoenn_Encuentro_Oak_Move_15:
 walk_in_place_up
@@ -1965,7 +2041,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_3:
 
 BaseRocketHoenn_Encuentro_Oak_Texto_4:
 .string "OAK: No deberías dirigirte hacia mí con\n"
-	.string "ese desprecio, joven ADMIN. Ahora\l"
+	.string "ese desprecio, joven ROCKET. Ahora\l"
 	.string "trabajamos juntos, y mi compromiso con\l"
 	.string "el futuro es total, ¿lo es el tuyo?$"
 
@@ -1975,11 +2051,10 @@ BaseRocketHoenn_Encuentro_Oak_Texto_5:
 BaseRocketHoenn_Encuentro_Oak_Texto_6:
 .string "OAK: Creí que despreciabas a los\n"
 	.string "LEGENDARIOS por el mero hecho de serlo\l"
-	.string "de nacimiento. ¿No crees que el\l"
-	.string "propósito último de todas estas bases\l"
-	.string "y reuniones es precisamente la\l"
-	.string "construcción de algo mucho más\l"
-	.string "despreciable?$"
+	.string "de nacimiento. ¿No crees que el propósito\l"
+	.string "último de todas estas bases y reuniones\l"
+	.string "es precisamente la construcción de algo\l"
+	.string "mucho más despreciable?$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_7:
 .string "ANDRA: Ni por asomo, ¡serán fruto de\n"
@@ -2008,8 +2083,8 @@ BaseRocketHoenn_Encuentro_Oak_Texto_12:
 .string "OAK: Recibí una llamada de GIOVANNI, y\n"
 	.string "me informó sobre el posible choque que\l"
 	.string "habéis tenido con DEVON, algo que\l"
-	.string "parece acabáis de confirmarle. He\l"
-	.string "venido a avisaros.$"
+	.string "parece acabáis de confirmarle.\p"
+	.string "He venido a avisaros.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_13:
 .string "ANDRA: ¿Avisarnos?$"
@@ -2027,7 +2102,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_15:
 	.string "disponen.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_16:
-.string "Por fortuna no saben nada de MEWTWO,\n"
+.string "Por fortuna, no saben nada de MEWTWO,\n"
 	.string "pero BLAINE y yo colaboramos con ellos\l"
 	.string "en el pasado, y están al tanto de todos\l"
 	.string "nuestros avances respecto a DEOXYS.$"
