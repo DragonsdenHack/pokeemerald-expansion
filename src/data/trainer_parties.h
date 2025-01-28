@@ -20801,7 +20801,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni2[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {0, 252, 0, 252, 0, 6},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH}
+    .moves = {MOVE_POISON_JAB, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_SUCKER_PUNCH}
     },
     {
     .iv = 255,
@@ -27522,7 +27522,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER138[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
+    .moves = {MOVE_POISON_JAB, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_HEAD_SMASH}
     },
     {
     .iv = 255,
@@ -27606,7 +27606,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     .heldItem = ITEM_POISON_GEM,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
+    .moves = {MOVE_POISON_JAB, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_HEAD_SMASH}
     },
     {
     .iv = 255,
@@ -28951,7 +28951,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER185[] = {
     .species = SPECIES_NIDOKING_X,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
+    .moves = {MOVE_POISON_JAB, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_HEAD_SMASH}
     }
 
 };
@@ -29322,7 +29322,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER195[] = {
     .heldItem = ITEM_BLACK_SLUDGE,
     .evs = {0, 252, 0, 252, 64, 64},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_GUNK_SHOT, MOVE_SUCKER_PUNCH, MOVE_EARTHQUAKE, MOVE_NONE}
+    .moves = {MOVE_POISON_JAB, MOVE_SUCKER_PUNCH, MOVE_EARTHQUAKE, MOVE_HEAD_SMASH}
     },
     {
     .iv = 255,

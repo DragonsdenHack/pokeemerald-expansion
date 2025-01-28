@@ -5030,45 +5030,118 @@ msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_1.1
+waitmovement 0x0
+waitse
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Neo_Canela_Move_6
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_4
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_8
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_8.1
+applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_8.2
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_8.3
+waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
-fadescreen 1
 delay 20
 removeobject 7
 removeobject 8
-fadescreen 0
+playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 191
 release
 end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.1:
+delay_8
+face_right
+delay_16
+face_down
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+face_down
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.2:
+walk_in_place_left
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.3:
+face_left
+delay_16
+delay_8
+walk_left
+delay_16
+walk_in_place_left
+delay_8
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
 
 RocketHideout_8F_Mision_Neo_Canela_Move_8:
 walk_in_place_left
@@ -5099,6 +5172,10 @@ walk_slow_up
 walk_slow_up
 step_end
 
+RocketHideout_8F_Mision_Neo_Canela_Move_1.1:
+emote_exclamation_mark
+step_end
+
 RocketHideout_8F_Mision_Neo_Canela_Move_1:
 walk_up
 walk_up
@@ -5109,8 +5186,8 @@ step_end
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_1:
 .string "????: Logré escapar en el último\n"
-	.string "momento, gracias al TELETRANSPORTE de\l"
-	.string "mi MAGMORTAR.$"
+	.string "momento, gracias al TELETRANSPORTE\l"
+	.string "de mi MAGMORTAR.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_2:
 .string "GIOVANNI: {PLAYER}, tu ausencia en\n"
@@ -5128,8 +5205,8 @@ RocketHideout_8F_Mision_Neo_Canela_Texto_3:
 RocketHideout_8F_Mision_Neo_Canela_Texto_4:
 .string "OAK: La cuestión es que, después de la I\n"
 	.string "CONFERENCIA DE TRIGAL, continuamos\l"
-	.string "con nuestras investigaciones allí. Una\l"
-	.string "parte muy importante de nuestros\l"
+	.string "con nuestras investigaciones allí.\p"
+	.string "Una parte muy importante de nuestros\n"
 	.string "últimos proyectos está ahora perdida,\l"
 	.string "decenas de metros bajo tierra.$"
 
@@ -5139,8 +5216,8 @@ RocketHideout_8F_Mision_Neo_Canela_Texto_5:
 	.string "hechas a prueba de todo desastre\l"
 	.string "natural. Después de que {PLAYER}\l"
 	.string "nos derrotara, construimos\l"
-	.string "muchos pisos subterráneos más, son\l"
-	.string "como un búnker subterráneo.$"
+	.string "muchos pisos subterráneos más,\l"
+	.string "son como un búnker.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_6:
 .string "GIOVANNI: Cabe entonces la posibilidad\n"
@@ -5165,7 +5242,7 @@ RocketHideout_8F_Mision_Neo_Canela_Texto_9:
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_10:
 .string "OAK: Así es, te estaré esperando en\n"
-	.string "ISLA CANELA, {PLAYER}, ahí te diré\l"
+	.string "ISLA CANELA, {PLAYER}. Ahí te diré\l"
 	.string "exactamente lo que debes hacer.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_11:
@@ -5205,25 +5282,36 @@ msgbox RocketHideout_8F_Mision_Central_Energia_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_5
 waitmovement 0x0
@@ -5279,9 +5367,8 @@ RocketHideout_8F_Mision_Central_Energia_Texto_3:
 RocketHideout_8F_Mision_Central_Energia_Texto_4:
 .string "Toma esto también, es un proyecto\n"
 	.string "proveniente de una región lejana,\l"
-	.string "algunos de nuestros mejores\l"
-	.string "científicos han tenido contacto con\l"
-	.string "él.$"
+	.string "nuestros mejores científicos han\l"
+	.string "tenido contacto con él.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_5:
 .string "¡OBTUVISTE UN SILVALLY AL NV.90!$"
@@ -5294,30 +5381,29 @@ RocketHideout_8F_Mision_Central_Energia_Texto_6:
 	.string "de muy poco podrás entrar, {PLAYER}.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_7:
-.string "Volviendo al tema de CANELA{PAUSE 25}…{PAUSE 25}\n"
-	.string "Agradecería que no hablaras con nadie\l"
+.string "Volviendo al tema de CANELA{PAUSE 25}…{PAUSE 25}\p"
+	.string "Agradecería que no hablaras con nadie\n"
 	.string "sobre lo que hayas podido ver ahí, ni\l"
 	.string "siquiera con ANDRA.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_8:
 .string "Muchos de los prototipos que ahí\n"
 	.string "dejamos están en fase de prueba, son\l"
-	.string "inestables y están por perfeccionar.\l"
-	.string "Aún así, habrás sentido el tremendo\l"
+	.string "inestables y están por perfeccionar.\p"
+	.string "Aún así, habrás sentido el tremendo\n"
 	.string "potencial de algunos.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_9:
 .string "Hasta que no estemos seguros de tener\n"
 	.string "algo grande de verdad, que podamos\l"
 	.string "controlar con total garantía{PAUSE 25}…{PAUSE 25} esos\l"
-	.string "proyectos son totalmente\l"
-	.string "confidenciales, ¿me entiendes\l"
-	.string "{PLAYER}?$"
+	.string "proyectos son confidenciales.\p"
+	.string "¿Me entiendes, {PLAYER}?$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_10:
 .string "Ahora, hablemos de tu próxima misión:\n"
-	.string "finiquitar el asunto de las vías hacia\l"
-	.string "AZAFRÁN.$"
+	.string "finiquitar el asunto de las vías\l"
+	.string "hacia AZAFRÁN.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_11:
 .string "Al parecer, ese extraño POKÉMON ha\n"
@@ -5326,8 +5412,8 @@ RocketHideout_8F_Mision_Central_Energia_Texto_11:
 
 RocketHideout_8F_Mision_Central_Energia_Texto_12:
 .string "Me temo que no queda otra que\n"
-	.string "capturarlo para que definitivamente no\l"
-	.string "cause más problemas.$"
+	.string "capturarlo para que definitivamente\l"
+	.string "no cause más problemas.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_13:
 .string "De modo que tu misión será, a las\n"
@@ -5336,7 +5422,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_13:
 
 RocketHideout_8F_Mision_Central_Energia_Texto_14:
 .string "Yo partiré ya hacia TRIGAL, debo montar\n"
-	.string "los preparativos de la reunión junto\l"
+	.string "los preparativos de la reunión, junto\l"
 	.string "con el PRESIDENTE.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_15:

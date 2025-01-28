@@ -98,18 +98,26 @@ applymovement 4, Mision7Lab4_Dialogo_Oak_Move_7
 applymovement 3, Mision7Lab4_Dialogo_Oak_Move_7
 waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Mision7Lab4_Dialogo_Oak_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox Mision7Lab4_Dialogo_Oak_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
 waitmovement 0x0
 delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
 waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Mision7Lab4_Dialogo_Oak_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_4
 waitmovement 0x0
+delay 10
 msgbox Mision7Lab4_Dialogo_Oak_Texto_16 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_7
@@ -117,22 +125,15 @@ waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_17 MSGBOX_AUTOCLOSE
 delay 40
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
-fadescreen 1
-delay 20
 call Script_RemoveTint
 removeobject 2
 removeobject 3
 removeobject 4
 removeobject 5
-delay 20
-fadescreen 0
-special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_13
 call Script_RemoveTint
-waitmovement 0x0
-special RemoveCameraObject
 special DrawWholeMapView
 setvar VAR_UNUSED_0x40F7, 193
+warpsilent MAP_MISION7LAB4, 5, 23
 release
 end
 
@@ -316,13 +317,13 @@ Mision7Lab4_Dialogo_Oak_Texto_7:
 Mision7Lab4_Dialogo_Oak_Texto_8:
 .string "C.MIGUEL: Estamos hablando de POKÉMON\n"
 	.string "con +600 STATS BASE bien repartidos y\l"
-	.string "buenas habilidades. Han sido creados\l"
-	.string "para combatir, solo contados\l"
-	.string "entrenadores podrían pasar esta\l"
-	.string "prueba.$"
+	.string "buenas habilidades.\l"
+	.string "Han sido creados para combatir, y solo\l"
+	.string "contados entrenadores podrían pasar a\l"
+	.string "través de ellos.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_9:
-.string "BILL: Bah, ya no impactan tanto. Todo\n"
+.string "BILL: ¡Bah! Ya no impactan tanto. Todo\n"
 	.string "avanza y los estándares se están\l"
 	.string "superando cada día. Mira tu MEGA\l"
 	.string "AERODACTYL, la forma PRIMIGENIA es\l"
@@ -335,17 +336,17 @@ Mision7Lab4_Dialogo_Oak_Texto_11:
 .string "ELM: Tampoco exageres, BILL. Tú mismo\n"
 	.string "creías que no tenías más margen de\l"
 	.string "mejora, antes de acceder a toda esta\l"
-	.string "tecnología, y trabajar con nosotros. El\l"
-	.string "estancamiento llegará, no somos\l"
-	.string "infinitos.$"
+	.string "tecnología, y trabajar con nosotros.\p"
+	.string "El estancamiento llegará, pues no\n"
+	.string "somos infinitos.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_12:
-.string "OAK: Pero…{PAUSE 30} En algo sí que tiene razón.\n"
-	.string "Lo que ayer era considerado fuerte hoy\l"
-	.string "es mediocre. ¿En qué momento un\l"
-	.string "POKÉMON como ZAPDOS dejó de\l"
-	.string "impresionarnos? ¿O un TAUROS a no ser\l"
-	.string "considerado rápido?$"
+.string "OAK: Pero{PAUSE 20}…{PAUSE 20} En algo sí que tiene razón.\p"
+	.string "Lo que ayer era considerado fuerte hoy\n"
+	.string "es mediocre. ¿En qué momento un POKÉMON\l"
+	.string "como ZAPDOS dejó de impresionarnos?\p"
+	.string "¿Cuando pasamos a no considerar a\n"
+	.string "TAUROS como un POKÉMON tan rápido?$"
 
 Mision7Lab4_Dialogo_Oak_Texto_13:
 .string "ELM: ¿A dónde quieres llegar, OAK?$"
@@ -357,13 +358,13 @@ Mision7Lab4_Dialogo_Oak_Texto_14:
 
 Mision7Lab4_Dialogo_Oak_Texto_15:
 .string "Pero ahora, ante esta nueva legión de\n"
-	.string "PROTOTIPOS, todos ellos son\l"
-	.string "extraordinarios. La normalización de la\l"
-	.string "excelencia provoca que a ojos del\l"
-	.string "observador no sea considerada como\l"
-	.string "tal, a pesar de que biológica y\l"
-	.string "fisiológicamente, verdaderamente lo\l"
-	.string "sea.$"
+	.string "PROTOTIPOS, todos ellos ya lo son.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_15.1:
+	.string "La normalización de la excelencia provoca\n"
+	.string "que, a ojos del observador, no sea\l"
+	.string "considerada como tal, a pesar de que\l"
+	.string "biológica y fisiológicamente, lo sea.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_16:
 .string "Es decir, si todos son extraordinarios…{PAUSE 5}$"
@@ -601,22 +602,22 @@ release
 end
 
 Mision7Lab4_Combate_Nidoking_Texto_1:
-.string "(¡Has despertado a POKÉMON salvajes!)$"
+.string "-¡Has despertado a POKÉMON salvajes!-$"
 
 Mision7Lab4_Combate_Nidoking_Texto_3:
-.string "(¡Se ha abierto la CABINA 2!)$"
+.string "-¡Se ha abierto la CABINA 2!-$"
 
 Mision7Lab4_Combate_Electivire_Texto_3:
-.string "(¡Se ha abierto la CABINA 3!)$"
+.string "-¡Se ha abierto la CABINA 3!-$"
 
 Mision7Lab4_Combate_Aerodactyl_Texto_3:
-.string "(¡Se ha abierto la CABINA 4!)$"
+.string "-¡Se ha abierto la CABINA 4!-$"
 
 Mision7Lab4_Combate_Porygon_Texto_3:
-.string "(¡Se ha abierto la CABINA 5!)$"
+.string "-¡Se ha abierto la CABINA 5!-$"
 
 Mision7Lab4_Combate_Deoxys_Texto_3:
-.string "(¡Se ha abierto la PUERTA PRINCIPAL!)$"
+.string "-¡Se ha abierto la PUERTA PRINCIPAL!-$"
 
 Mision7Lab4_Combate_Move_1:
 emote_exclamation_mark

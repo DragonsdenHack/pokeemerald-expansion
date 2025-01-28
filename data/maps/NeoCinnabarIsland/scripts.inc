@@ -25,24 +25,31 @@ applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, NeoCinnabarIsland_Evento_Oak_Move_1
 waitmovement 0x0
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_5
 waitmovement 0x0
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
-fadescreen 1
-delay 20
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 3
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
 setvar VAR_UNUSED_0x40F7, 192
 release
 end
@@ -129,7 +136,7 @@ NeoCinnabarIsland_Evento_Oak_Texto_3:
 NeoCinnabarIsland_Evento_Oak_Texto_4:
 .string "Y reivindicase su papel decisivo, ella\n"
 	.string "tiene la última palabra, y como castigo\l"
-	.string "por revelarnos más de la cuenta\l"
+	.string "por revelarnos más de la cuenta,\l"
 	.string "entierra nuestros progresos.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_5:
@@ -140,9 +147,9 @@ NeoCinnabarIsland_Evento_Oak_Texto_5:
 NeoCinnabarIsland_Evento_Oak_Texto_6:
 .string "Estos son los últimos coletazos de una\n"
 	.string "naturaleza que no puede frenar lo\l"
-	.string "inevitable, nada más. Y ahora tú\l"
-	.string "recuperarás incluso lo que trató de\l"
-	.string "destruir.$"
+	.string "inevitable, nada más.\l"
+	.string "Y ahora, tú recuperarás incluso\l"
+	.string "aquello que trató de destruir.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_7:
 .string "En tu ausencia enviamos varios\n"
@@ -153,10 +160,9 @@ NeoCinnabarIsland_Evento_Oak_Texto_7:
 NeoCinnabarIsland_Evento_Oak_Texto_8:
 .string "Tu misión será adentrarte en lo más\n"
 	.string "profundo del lugar. En su última sala\l"
-	.string "hay un cuadro de FUJI, detrás de él hay\l"
+	.string "hay un cuadro de FUJI, detrás de el hay\l"
 	.string "un disco duro con todos los avances\l"
-	.string "alcanzados en ese laboratorio\l"
-	.string "compilados.$"
+	.string "logrados en el laboratorio compilados.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_9:
 .string "Ten cuidado, algunos de nuestros\n"
@@ -166,6 +172,6 @@ NeoCinnabarIsland_Evento_Oak_Texto_9:
 	.string "CONFERENCIA de TRIGAL.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_10:
-.string "No te entretengo más, {PLAYER}, espero\n"
-	.string "que demuestres una vez más porqué\l"
-	.string "eres el mejor ENTRENADOR.$"
+.string "No te entretengo más, {PLAYER}.\p"
+	.string "Espero que demuestres una vez más\n"
+	.string "porqué eres el mejor ENTRENADOR.$"

@@ -56,8 +56,8 @@ Mision7Lab4_Combate_Mewtwo_Texto_1:
 
 
 Mision7Lab4_Combate_Mewtwo_Texto_3:
-.string "(El DISCO DURO debe estar detrás del\n"
-	.string "cuadro de FUJI, debería mirar ahí)$"
+.string "-El DISCO DURO debe estar detrás del\n"
+	.string "cuadro de FUJI, debería mirar ahí-.$"
 
 
 Mision7Lab4_Disco_Duro::

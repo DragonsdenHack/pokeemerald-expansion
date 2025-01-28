@@ -390,13 +390,13 @@ setflag FLAG_NUEVA_658
 removeobject 1
 playfanfare MUS_OBTAIN_TMHM
 msgbox PalletTown_ProfessorLab_Genesect_Texto_3, MSGBOX_DEFAULT
-givemon SPECIES_GENESECT, 70, ITEM_CHOICE_SCARF
+givemon SPECIES_GENESECT, 90, ITEM_CHOICE_SCARF
 waitfanfare
 release
 end
 
 PalletTown_ProfessorLab_Genesect_Texto_3:
-.string "¡{PLAYER} obtuvo un GENESECT al Nv.70!$"
+.string "¡{PLAYER} obtuvo un GENESECT al Nv.90!$"
 
 PalletTown_ProfessorLab_Genesect_No::
 hidemonpic
@@ -405,8 +405,8 @@ end
 
 PalletTown_ProfessorLab_Genesect_Texto_1:
 .string "Esta POKÉ BALL contiene a GENESECT, un\n"
-	.string "raro experimento de una región lejana.\l"
-	.string "Nadie la necesita ya, ¿quieres\l"
+	.string "raro experimento de una región lejana.\p"
+	.string "Nadie la necesita ya, ¿quieres\n"
 	.string "quedarte con el POKÉMON?$"
 
 PalletTown_ProfessorLab_Andra_Move_1:

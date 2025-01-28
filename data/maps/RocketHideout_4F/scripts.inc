@@ -91,6 +91,12 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40F7, 216
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC
+compare VAR_UNUSED_0x40F7, 204
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoLavanda
+compare VAR_UNUSED_0x40F7, 201
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCentral
+compare VAR_UNUSED_0x40F7, 190
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCanela
 compare VAR_UNUSED_0x40F7, 178
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC
 compare VAR_UNUSED_0x40F7, 167
@@ -121,6 +127,39 @@ compare VAR_UNUSED_0x40F7, 38
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan
 release
 end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoLavanda::
+faceplayer
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCentral::
+faceplayer
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCentral_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCentral_Texto_1:
+	.string "Vuelve a la vías de tren, {PLAYER}. La\n"
+	.string "conexión TRIGAL-AZAFRÁN está\l"
+	.string "prácticamente cerrada, solo ese\l"
+	.string "POKÉMON se interpone en nuestro\l"
+	.string "camino. Si recorres toda la vía desde\l"
+	.string "CIUDAD TRIGAL, eventualmente lo\l"
+	.string "encontrarás.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCanela::
+faceplayer
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCanela_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_NeoCanela_Texto_1:
+	.string "El PROFESOR OAK te estará esperando en\n"
+	.string "lo que queda de ISLA CANELA. Confía en\l"
+	.string "él, {PLAYER}. Él te dirá qué hacer.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1.1 MSGBOX_AUTOCLOSE
@@ -157,7 +196,7 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1:
-.string "Disfruta de JOHTO {PLAYER}, exprime\n"
+.string "Disfruta de JOHTO, {PLAYER}. Exprime\n"
 	.string "al máximo todos sus rincones y llega\l"
 	.string "hasta donde nadie más ha llegado. Algún\l"
 	.string "día echarás la vista atrás y te darás\l"
