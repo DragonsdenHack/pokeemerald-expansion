@@ -100,7 +100,7 @@ NeoPowerPlant_Obtencion_Xurkitree_2::
 msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_1 MSGBOX_AUTOCLOSE
  playfanfare MUS_OBTAIN_TMHM
 msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_2 MSGBOX_DEFAULT
-	givemon SPECIES_XURKITREE, 70, ITEM_ELECTRIC_GEM
+	givemon SPECIES_XURKITREE, 90, ITEM_ELECTRIC_GEM
 	waitfanfare  
 release
 end
@@ -111,11 +111,11 @@ NeoPowerPlant_Obtencion_Xurkitree_Texto_1:
 	.string "expresar mi agradecimiento. A alguien\l"
 	.string "como tú es difícil de sorprender con\l"
 	.string "regalos, pero había un POKÉMON muy\l"
-	.string "extraño adherido al generador. Nadie lo\l"
-	.string "conocía, mira.$"
+	.string "extraño adherido al generador.\l"
+	.string "Nadie lo conocía, mira.$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_2:
-.string "¡OBTUVISTE UN XURKITREE AL NV.70!$"
+.string "¡OBTUVISTE UN XURKITREE AL NV.90!$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_3:
 .string "Nuestros mecánicos lo encontraron\n"
@@ -144,12 +144,17 @@ delay 15
 applymovement 10, NeoPowerPlant_Presidente_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Presidente_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, NeoPowerPlant_Presidente_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, NeoPowerPlant_Presidente_Move_4
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
 addobject 7
@@ -232,8 +237,7 @@ NeoPowerPlant_Presidente_Texto_1:
 
 NeoPowerPlant_Presidente_Texto_2:
 .string "Hemos tenido que evacuar toda la zona,\n"
-	.string "su poder está totalmente\l"
-	.string "descontrolado.$"
+	.string "su poder está descontrolado.$"
 
 NeoPowerPlant_Presidente_Texto_3:
 .string "Restauramos este lugar usando lo\n"
@@ -252,6 +256,13 @@ NeoPowerPlant_Presidente_Texto_5:
 .string "No queda otra opción, debes derrotarlo\n"
 	.string "y capturarlo. Confiamos en ti.$"
 
+NeoPowerPlant_Presidente_After::
+lock
+faceplayer
+msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
 
 NeoPowerPlant_Combate_Zapdos::
 lock
@@ -263,6 +274,8 @@ trainerbattle_no_intro TRAINER_TRAINER_231, NeoPowerPlant_Combate_Zapdos_Texto_2
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_M_CHARGE
+dofieldeffectsparkle 17, 15, 0
+waitfieldeffect FLDEFF_SPARKLE
 delay 60
 playse SE_THUNDER2
 delay 40
@@ -274,24 +287,31 @@ delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Combate_Zapdos_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_5 MSGBOX_DEFAULT
 giveegg SPECIES_ZAPDOS_PRIMAL
 waitfanfare
-delay 20
+delay 50
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 removeobject 10
 clearflag FLAG_RECEIVED_SHOAL_SHELL_3
 fadescreen 1
@@ -322,12 +342,12 @@ NeoPowerPlant_Combate_Zapdos_Texto_2:
 .string "Zap{PAUSE 5}…{PAUSE 5}$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
-.string "(¡El ZAPDOS-P se consumió por\n"
-	.string "completo!)$"
+.string "-¡El ZAPDOS PRIMIGENIO se\n"
+	.string "consumió por completo!-$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_4:
-	.string "(Hay un HUEVO POKÉMON entre las\n"
-	.string "cenizas)$"
+	.string "-Hay un HUEVO POKÉMON\n"
+	.string "entre las cenizas-.$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_5:
 .string "¡¡OBTUVISTE UN HUEVO MISTERIOSO!!$"
@@ -368,7 +388,7 @@ end
 NeoPowerPlant_RayoCarga_Texto_1:
 .string "Aunque se ha renovado, esta CENTRAL\n"
 	.string "es bastante antigua, debemos evitar\l"
-	.string "cualquier sobrecarga del sistema.\l"
+	.string "cualquier sobrecarga del sistema.\p"
 	.string "Toma esto.$"
 
 NeoPowerPlant_RayoCarga_Texto_1.1:
@@ -379,8 +399,8 @@ NeoPowerPlant_RayoCarga_Texto_2:
 .string "Los POKÉMON TIPO ELÉCTRICO suelen ser\n"
 	.string "rápidos y peligrosos, pero no suelen\l"
 	.string "tener ninguna forma de elevar su\l"
-	.string "ATAQUE ESPECIAL.\l"
-	.string "Con RAYO CARGA podrán hacerlo al\l"
+	.string "ATAQUE ESPECIAL.\p"
+	.string "Con RAYO CARGA, podrán hacerlo al\n"
 	.string "tiempo que siguen causando daño.$"
 
 

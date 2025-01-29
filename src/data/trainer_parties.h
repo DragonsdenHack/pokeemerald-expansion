@@ -30015,7 +30015,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER215[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER216[] = {
     {
     .iv = 255,
-    .lvl = 95,
+    .lvl = 98,
     .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {0, 252, 0, 252, 0, 6},
@@ -30024,7 +30024,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER216[] = {
     },
     {
     .iv = 255,
-    .lvl = 95,
+    .lvl = 98,
     .species = SPECIES_ELECTRODE,
     .heldItem = ITEM_CHOICE_BAND,
     .evs = {0, 252, 0, 252, 0, 0},
@@ -30033,7 +30033,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER216[] = {
     },
     {
     .iv = 255,
-    .lvl = 95,
+    .lvl = 98,
     .species = SPECIES_WEEZING,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {0, 252, 0, 252, 0, 6},
@@ -30042,30 +30042,12 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER216[] = {
     },
     {
     .iv = 255,
-    .lvl = 95,
+    .lvl = 98,
     .species = SPECIES_ELECTRODE_HISUI,
-    .heldItem = ITEM_CHOICE_SPECS,
-    .evs = {0, 0, 0, 252, 252, 6},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_LEAF_STORM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 95,
-    .species = SPECIES_MAGNEZONE,
-    .heldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_CHOICE_BAND,
     .evs = {0, 252, 0, 252, 0, 6},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_STEEL_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 95,
-    .species = SPECIES_TYPHLOSION_HISUI,
-    .heldItem = ITEM_FOCUS_SASH,
-    .evs = {0, 0, 0, 252, 252, 6},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_MIND_BLOWN, MOVE_MIND_BLOWN, MOVE_MIND_BLOWN, MOVE_MIND_BLOWN}
+    .nature = NATURE_JOLLY,
+    .moves = {MOVE_LEAF_STORM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 
 };

@@ -14436,7 +14436,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_173] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
+        .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("ROGER"),
@@ -14562,7 +14562,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_182] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MONTANEROHOENN,
+        .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("PEPIN"),

@@ -34,9 +34,9 @@ release
 end
 
 UndergroundPath_7F_Activacion_Zona_Sur_2_Texto_3:
-.string "(Parece que esta barrera puede\n"
+.string "-Parece que esta barrera puede\n"
 	.string "desactivarse usando algún tipo de\l"
-	.string "llave)$"
+	.string "llave-.$"
 
 UndergroundPath_7F_Activacion_Zona_Sur_2_Texto_1:
 .string "Esta barrera puede desactivarse\n"
@@ -107,8 +107,8 @@ UndergroundPath_7F_Cajas_Texto_3:
 .string "¡¡OBTUVISTE UN TEPIG AL Nv.15!!$"
 
 UndergroundPath_7F_Cajas_Texto_2:
-.string "(En esta CAJA quedan varios objetos\n"
-	.string "valiosos).$"
+.string "En esta CAJA quedan varios objetos\n"
+	.string "valiosos.$"
 
 UndergroundPath_7F_Cajas_Texto_1:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -159,24 +159,36 @@ delay 5
 playse SE_PIN
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, UndergroundPath_7F_Combates_Motoristas_Move_3
+delay 5
 applymovement 2, UndergroundPath_7F_Combates_Motoristas_Move_3
+delay 5
 applymovement 21, UndergroundPath_7F_Combates_Motoristas_Move_3
 waitmovement 0x0
+waitse
 delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_8 MSGBOX_AUTOCLOSE
@@ -218,8 +230,10 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_19 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_21 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE105_STATE, 8
 release
@@ -276,9 +290,9 @@ walk_up
 step_end
 
 UndergroundPath_7F_Combates_Motoristas_Texto_1:
-.string "¡Jah! ¿Otro POLICÍA más? ¿Aún no\n"
-	.string "habéis tenido suficiente? ¡No nos\l"
-	.string "moveremos de aqu…!$"
+.string "¡Jah! ¿Otro POLICÍA más?\p"
+	.string "¿Aún no habéis tenido suficiente?\p"
+	.string "¡No nos moveremos de aqu…!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -294,7 +308,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_5:
 	.string "mucho por lo que hizo al derrotar a\l"
 	.string "LANCE. Pero hablando claro, las últimas\l"
 	.string "decisiones que ha tomado el TEAM\l"
-	.string "ROCKET respecto a KANTO son un asco.$"
+	.string "ROCKET respecto a KANTO dan asco.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_6:
 .string "Se suponía que volveríamos a la KANTO\n"
@@ -304,7 +318,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_6:
 UndergroundPath_7F_Combates_Motoristas_Texto_7:
 .string "Le pido que se mantenga al margen, sé\n"
 	.string "que no es decisión suya el cerrar la\l"
-	.string "VÍA.$"
+	.string "VÍA SUBTERRÁNEA.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_8:
 .string "¿Decides irte?$"
@@ -338,9 +352,9 @@ UndergroundPath_7F_Combates_Motoristas_Texto_16:
 .string "Parece que no{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_17:
-.string "Se acabó, lo siento ADMIN.JEFE. Debo\n"
-	.string "rematarle e impedir que entre en los\l"
-	.string "refugios de guerra, ¡no puedo fallar!$"
+.string "Se acabó. Lo siento, ADMIN.JEFE.\p"
+	.string "Debo rematarle e impedir que entre en\n"
+	.string "los refugios de guerra, ¡no puedo fallar!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_18:
 .string "¡Fallé!$"
@@ -348,8 +362,8 @@ UndergroundPath_7F_Combates_Motoristas_Texto_18:
 UndergroundPath_7F_Combates_Motoristas_Texto_19:
 .string "Maldición{PAUSE 25}…{PAUSE 25} Era de esperar que alguien\n"
 	.string "que derrotó a las BESTIAS de JOHTO y a\l"
-	.string "los 3 DRAGONITE pudiera con nosotros\l"
-	.string "cuatro{PAUSE 5}…{PAUSE 5}$"
+	.string "los temidos dragones pudiera con cuatro\l"
+	.string "MOTORISTAS como nosotros{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_20:
 .string "Pero este lugar es un inmenso laberinto,\n"
@@ -357,7 +371,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_20:
 	.string "en los años de la guerra.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_21:
-.string "¡Jamás podrás echarnos a todos si no\n"
+.string "¡Jamás podrás echarnos a todos, si no\n"
 	.string "conoces el lugar de antemano!$"
 
 UndergroundPath_7F_Primer_Motorista::
@@ -477,17 +491,25 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_2 MSGBOX_AUTOCLOSE
 delay 30
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_7 MSGBOX_AUTOCLOSE
@@ -503,9 +525,12 @@ delay 15
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_6
 waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
 playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
@@ -513,10 +538,14 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Combate_LtSurge_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_14 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 trainerbattle_no_intro TRAINER_TRAINER_216, UndergroundPath_7F_Combate_LtSurge_Texto_15
@@ -554,10 +583,12 @@ removeobject 15
 delay 30
 delay 30
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+waitse
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_22 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_23 MSGBOX_AUTOCLOSE
@@ -568,7 +599,9 @@ msgbox UndergroundPath_7F_Combate_LtSurge_Texto_25 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_26 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_27 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 10
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2
 addobject 22
 setvar VAR_ROUTE105_STATE, 9
@@ -639,8 +672,8 @@ UndergroundPath_7F_Combate_LtSurge_Texto_1:
 
 UndergroundPath_7F_Combate_LtSurge_Texto_2:
 .string "LT.SURGE: Yo lo estoy, según mis propios\n"
-	.string "términos. ¿Lo estás tú según los\l"
-	.string "tuyos?$"
+	.string "términos.\p"
+	.string "¿Lo estás tú según los tuyos?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_3:
 .string "¿Tanto te sorprende verme aquí?$"
@@ -656,8 +689,8 @@ UndergroundPath_7F_Combate_LtSurge_Texto_4:
 UndergroundPath_7F_Combate_LtSurge_Texto_5:
 .string "Honestamente, hubiera preferido acabar\n"
 	.string "entre rejas a ser partícipe de la\l"
-	.string "anodina etapa de transición en KANTO,\l"
-	.string "esa vida no es para mí.$"
+	.string "anodina etapa de transición en KANTO.\p"
+	.string "Esa vida no es para mí.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_5.1:
 	.string "Después de todo, el guerrero vive para\n"
@@ -665,7 +698,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_5.1:
 	.string "que lo entiende.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_6:
-.string "Por suerte…el propósito de estos\n"
+.string "Por suerte{PAUSE 15}…{PAUSE 15} el propósito de estos\n"
 	.string "MOTORISTAS volvió a prender esa chispa\l"
 	.string "bélica que siempre tuve.$"
 
@@ -675,18 +708,18 @@ UndergroundPath_7F_Combate_LtSurge_Texto_7:
 UndergroundPath_7F_Combate_LtSurge_Texto_8:
 .string "He de admitir que los habitantes de\n"
 	.string "KANTO son aguerridos y tenaces,\l"
-	.string "construir semejante red subterránea…\l"
-	.string "aquí debió refugiarse media KANTO\l"
+	.string "construir semejante red subterránea…\p"
+	.string "Aquí debió refugiarse media KANTO\n"
 	.string "durante la guerra. Puedes imaginarte lo\l"
 	.string "que hubiera ocurrido de haber contado\l"
-	.string "con esta información hace unos años.$"
+	.string "con esta información, hace unos años.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_9:
 .string "Pero los tiempos han cambiado, ahora\n"
 	.string "soy yo el que defiende este lugar, y el\l"
 	.string "supuesto -salvador- de KANTO, el que\l"
-	.string "pretende acabar con él. Qué ironía,\l"
-	.string "¿no?$"
+	.string "pretende acabar con él.\p"
+	.string "Qué ironía, ¿no?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_10:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -699,8 +732,8 @@ UndergroundPath_7F_Combate_LtSurge_Texto_12:
 	.string "CAMPEÓN{PAUSE 25}…{PAUSE 25} esto{PAUSE 25}…{PAUSE 25}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_13:
-.string "(LT.SURGE soltó numerosos POKÉMON\n"
-	.string "explosivos)$"
+.string "-¡LT.SURGE soltó varios POKÉMON\n"
+	.string "explosivos!-.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_14:
 .string "¡Es una guerra de guerrillas!$"
@@ -727,26 +760,25 @@ UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
 
 UndergroundPath_7F_Combate_LtSurge_Texto_19:
 .string "Grrrr{PAUSE 25}…{PAUSE 25} parece que te has vuelto aún\n"
-	.string "mejor ENTRENADOR, no me dejas\l"
-	.string "elección.$"
+	.string "mejor, no me dejas elección.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_20:
-.string "Por algo me han contratado, {PLAYER}.\n"
-	.string "Podrás ganarme en un combate POKÉMON,\l"
-	.string "pero aquí dentro estoy en mi hábitat.\l"
+.string "Por algo me han contratado, {PLAYER}.\p"
+	.string "Podrás ganarme en un combate POKÉMON,\n"
+	.string "pero aquí dentro estoy en mi hábitat.\p"
 	.string "Sin la llave, jamás podrás entrar.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_21:
 .string "Ahora, tendrás que disculparme,\n"
 	.string "debemos seguir trazando el plan de\l"
 	.string "acción. Mientras, puedes seguir\l"
-	.string "deambulando por los refugios si así lo\l"
-	.string "deseas.$"
+	.string "deambulando por los refugios, si\l"
+	.string "así lo deseas.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_22:
-.string "ANDRA: ¿¡{PLAYER}!? El POLICÍA de\n"
-	.string "PUEBLO LAVANDA acaba de contarme\l"
-	.string "todo.$"
+.string "ANDRA: ¿¡{PLAYER}!?\n"
+	.string "El POLICÍA de PUEBLO LAVANDA\l"
+	.string "acaba de contarme todo.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_23:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -758,11 +790,11 @@ UndergroundPath_7F_Combate_LtSurge_Texto_25:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
-.string "Ese SURGE{PAUSE 25}…{PAUSE 25} Escucha, {PLAYER}. Debe\n"
-	.string "haber alguna LLAVE, puede que alguno\l"
-	.string "de los MOTORISTAS tenga una{PAUSE 25}…{PAUSE 25} o sepa\l"
-	.string "algo. Si fuera tú, hablaría con todos e\l"
-	.string "intentaría sacarles algo.$"
+.string "Ese SURGE{PAUSE 25}…{PAUSE 25} Escucha, {PLAYER}.\n"
+	.string "Debe haber alguna LLAVE, puede que\l"
+	.string "alguno de los MOTORISTAS tenga una{PAUSE 25}…{PAUSE 25} o\l"
+	.string "sepa algo. Si fuera tú, hablaría con\l"
+	.string "todos e intentaría sacarles algo.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_27:
 .string "Sea como sea, sigue resistiendo. Yo\n"
@@ -778,55 +810,82 @@ applymovement 17, UndergroundPath_7F_Escena_Final_Move_3
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_3
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_7
 waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_65 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_66 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_10
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_67 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_68 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_69 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_11
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_70 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_71 MSGBOX_AUTOCLOSE
@@ -839,17 +898,25 @@ waitmovement 0x0
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_72 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_73 MSGBOX_AUTOCLOSE
@@ -865,8 +932,10 @@ delay 15
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_16
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_17
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_74 MSGBOX_AUTOCLOSE
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
@@ -890,13 +959,18 @@ applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_6
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_21 MSGBOX_AUTOCLOSE
 playse 603
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_TRAINER_194, UndergroundPath_7F_Escena_Final_Texto_23
 msgbox UndergroundPath_7F_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
@@ -906,11 +980,16 @@ delay 15
 playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_20
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_26 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_14
@@ -922,15 +1001,26 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_28 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+waitse
 msgbox UndergroundPath_7F_Escena_Final_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+msgbox UndergroundPath_7F_Escena_Final_Texto_29.1 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_30 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_22
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_31 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 24
@@ -939,12 +1029,17 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_32 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_33 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_36 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_37 MSGBOX_AUTOCLOSE
@@ -955,16 +1050,23 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_39 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+delay 5
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_24
 waitmovement 0x0
+delay 5
 msgbox UndergroundPath_7F_Escena_Final_Texto_40 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_25
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_41 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_42 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_43 MSGBOX_AUTOCLOSE
@@ -993,9 +1095,13 @@ playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_49.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_50 MSGBOX_AUTOCLOSE
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
@@ -1006,9 +1112,11 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_52 MSGBOX_AUTOCLOSE
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_53 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_14
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_27
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_54 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_841
 fadescreen 1
@@ -1033,24 +1141,34 @@ delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_28
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_55 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_56 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_29
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_57 MSGBOX_AUTOCLOSE
 removeobject 23
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_30
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_58 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_59 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_60 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_31
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_61 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
@@ -1261,8 +1379,8 @@ UndergroundPath_7F_Escena_Final_Texto_3:
 	.string "como y…!$"
 
 UndergroundPath_7F_Escena_Final_Texto_4:
-.string "????: ¡Ya basta, SURGE! No podemos\n"
-	.string "ocultarlo más, que pase.$"
+.string "????: ¡Ya basta, SURGE!\p"
+	.string "No podemos ocultarlo más, que pase.$"
 
 UndergroundPath_7F_Escena_Final_Texto_5:
 .string "LT.SURGE: Jah, la pregunta es, ¿qué\n"
@@ -1276,9 +1394,9 @@ UndergroundPath_7F_Escena_Final_Texto_7:
 .string "KOGA: Siempre hemos sido fieles al TEAM\n"
 	.string "ROCKET, {PLAYER}. Pero no podemos\l"
 	.string "permanecer de brazos cruzados ante\l"
-	.string "esta situación. Las cosas están\l"
-	.string "cambiando demasiado rápido en nuestra\l"
-	.string "región.$"
+	.string "esta situación.\l"
+	.string "Las cosas están cambiando demasiado\l"
+	.string "rápido en nuestra región.$"
 
 UndergroundPath_7F_Escena_Final_Texto_8:
 .string "PETREL: No soy ADMIN.JEFE para saber\n"
@@ -1293,7 +1411,7 @@ UndergroundPath_7F_Escena_Final_Texto_8:
 UndergroundPath_7F_Escena_Final_Texto_9:
 .string "KOGA: Todo el que venga de fuera\n"
 	.string "pensará que esta es una región vacía,\l"
-	.string "y sin embargo, estamos en plena etapa\l"
+	.string "y, sin embargo, estamos en plena etapa\l"
 	.string "de apertura al mundo.$"
 
 UndergroundPath_7F_Escena_Final_Texto_10:
@@ -1308,14 +1426,14 @@ UndergroundPath_7F_Escena_Final_Texto_65:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_66:
-.string "LT.SURGE: ¿Hablar a solas con PETREL?\n"
+.string "LT.SURGE: ¿Hablar a solas con PETREL?\p"
 	.string "¿¡Estás bromeando!?$"
 
 UndergroundPath_7F_Escena_Final_Texto_67:
-.string "¡Jah! ¿Qué te has creído chico? Las\n"
-	.string "condiciones aquí las ponemos\l"
-	.string "nosotros, no vas a volver a campar a\l"
-	.string "tus anch{PAUSE 5}…{PAUSE 5}$"
+.string "¡Jah! ¿Qué te has creído, chico?\p"
+	.string "Las condiciones aquí las ponemos\n"
+	.string "nosotros, ¡no vas a volver a campar a\l"
+	.string "tus anch{PAUSE 5}…{PAUSE 5}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_68:
 .string "PETREL: ¡SURGE!$"
@@ -1323,13 +1441,13 @@ UndergroundPath_7F_Escena_Final_Texto_68:
 UndergroundPath_7F_Escena_Final_Texto_69:
 .string "Está bien, {PLAYER} ahora mismo está\n"
 	.string "confuso. Ambos somos miembros del TEAM\l"
-	.string "ROCKET y merece una explicación en\l"
+	.string "ROCKET, y merece una explicación en\l"
 	.string "privado.$"
 
 UndergroundPath_7F_Escena_Final_Texto_70:
 	.string "KOGA: No intentará nada, {PLAYER} ha\n"
-	.string "demostrado ser un hombre de palabra.\l"
-	.string "SURGE y yo saldremos, tomaos el tiempo\l"
+	.string "demostrado ser un hombre de palabra.\p"
+	.string "SURGE y yo saldremos, tomaos el tiempo\n"
 	.string "que consideréis.$"
 
 UndergroundPath_7F_Escena_Final_Texto_71:
@@ -1359,7 +1477,7 @@ UndergroundPath_7F_Escena_Final_Texto_12:
 	.string "hizo replantearme muchas cosas.$"
 
 UndergroundPath_7F_Escena_Final_Texto_13:
-.string "Es cierto que GIOVANNI tiene mil cosas\n"
+.string "Es cierto que GIOVANNI tiene mil asuntos\n"
 	.string "en la cabeza, y no le dio la importancia\l"
 	.string "que en otra situación hubiera tenido{PAUSE 5}…{PAUSE 5}$"
 
@@ -1367,13 +1485,13 @@ UndergroundPath_7F_Escena_Final_Texto_14:
 .string "PETREL: Y para eso estamos nosotros,\n"
 	.string "{PLAYER}. Aguantando aquí, haremos\l"
 	.string "que nos escuche, los MOTORISTAS\l"
-	.string "merecen algo mejor después de sus años\l"
-	.string "de lealtad al TEAM ROCKET.$"
+	.string "merecen algo mejor después de sus\l"
+	.string "años de lealtad al TEAM ROCKET.$"
 
 UndergroundPath_7F_Escena_Final_Texto_73:
 	.string "Es su identidad la que está en juego, no\n"
-	.string "solo su futuro. Parte de KANTO son\l"
-	.string "ellos también.$"
+	.string "solo su futuro.\p"
+	.string "Parte de KANTO son ellos también.$"
 
 UndergroundPath_7F_Escena_Final_Texto_15:
 .string "Tú nos entiendes, ¿verdad?\n"
@@ -1388,33 +1506,32 @@ UndergroundPath_7F_Escena_Final_Texto_17:
 	.string "GIOVANNI. Sabes que eso no es posible.$"
 
 UndergroundPath_7F_Escena_Final_Texto_74:
-	.string "Lo siento {PLAYER}, pero no nos dejas\n"
-	.string "elección. Nos obligas a hablar en un\l"
-	.string "lenguaje que aquí todos podemos\l"
-	.string "entender.$"
+	.string "Lo siento, {PLAYER}, pero no nos dejas\n"
+	.string "elección.\l"
+	.string "Nos obligas a hablar en un lenguaje que\l"
+	.string "aquí todos podemos entender.$"
 
 UndergroundPath_7F_Escena_Final_Texto_75:
 	.string "LT.SURGE: ¡El lenguaje de la guerra!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
-.string "KOGA: Me temo que{PAUSE 35}…{PAUSE 35} ¡no nos queda otra \n"
-	.string "que volver a luchar por recuperar\l"
-	.string "la vieja KANTO!$"
+.string "KOGA: Me temo que{PAUSE 35}…{PAUSE 35}\p"
+	.string "¡No nos queda otra que volver a\n"
+	.string "luchar por recuperar la vieja KANTO!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19:
 .string "¡Mantente fiel a lo que crees!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19.1:
-.string "KOGA: Tu trayectoria es\n"
-	.string "inconmensurable {PLAYER}. Fue un\l"
-	.string "lujo tenerte como aliado pero no esta\l"
-	.string "vez. No dejaremos el destino de KANTO\l"
-	.string "al azar.$"
+.string "KOGA: Tu trayectoria es inconmensurable,\n"
+	.string "{PLAYER}. Fue un lujo tenerte como\l"
+	.string "aliado, pero no esta vez.\p"
+	.string "No dejaré el destino de KANTO al azar.$"
 
 UndergroundPath_7F_Escena_Final_Texto_20:
 .string "PETREL: Lo siento, {PLAYER}. En este\n"
-	.string "caso, el fin está por encima de todo. Si\l"
-	.string "debo derrotarte aprovechando tu\l"
+	.string "caso, el fin está por encima de todo.\l"
+	.string "Si debo derrotarte aprovechando tu\l"
 	.string "combate con KOGA, lo haré.$"
 
 UndergroundPath_7F_Escena_Final_Texto_21:
@@ -1436,9 +1553,9 @@ UndergroundPath_7F_Escena_Final_Texto_24:
 
 UndergroundPath_7F_Escena_Final_Texto_25:
 .string "Supongo que, después de todo, jamás\n"
-	.string "ganamos la guerra. La KANTO que aún\l"
-	.string "visionamos ya no existe, y no lo hará\l"
-	.string "más.$"
+	.string "ganamos la guerra.\p"
+	.string "La KANTO que aún visionamos ya no\n"
+	.string "existe, y no lo hará más.$"
 
 UndergroundPath_7F_Escena_Final_Texto_26:
 .string "LT.SURGE: ¡Esto aún no ha acabado!$"
@@ -1446,25 +1563,29 @@ UndergroundPath_7F_Escena_Final_Texto_26:
 UndergroundPath_7F_Escena_Final_Texto_27:
 .string "¡Por eso perdisteis! ¡No sabéis llevar al\n"
 	.string "enemigo hasta el límite, los POKÉMON de\l"
-	.string "{PLAYER} están cerca del colapso, ¿y\l"
-	.string "váis a dejarle ir ahora?$"
+	.string "{PLAYER} están cerca del colapso!\p"
+	.string "¡¿Y váis a dejarle ir ahora?!$"
 
 UndergroundPath_7F_Escena_Final_Texto_28:
 .string "KOGA: SURGE, es suficien{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_29:
 .string "LT.SURGE: ¡No! ¡Ahora es la ocasión de\n"
-	.string "acabar con el enemigo! ¡Para eso estoy\l"
-	.string "yo aquí!$"
+	.string "acabar con el enemigo!\p"
+	.string "¡Para eso estoy yo aquí!$"
+
+UndergroundPath_7F_Escena_Final_Texto_29.1:
+	.string "¡De esta sí que no te libras,\n"
+	.string "{PLAYER}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_30:
-.string "¡RAICHU! ¡TRUEN…!$"
+.string "¡Ahora, GOROCHU! ¡TRUEN…!$"
 
 UndergroundPath_7F_Escena_Final_Texto_31:
 .string "????: ¡Se acabó!$"
 
 UndergroundPath_7F_Escena_Final_Texto_32:
-.string "PETREL: A…ANDRA.$"
+.string "PETREL: A{PAUSE 25}…{PAUSE 25} ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_33:
 .string "ANDRA: Ya veo{PAUSE 25}…{PAUSE 25} Vosotros{PAUSE 25}…{PAUSE 25}$"
@@ -1479,8 +1600,8 @@ UndergroundPath_7F_Escena_Final_Texto_35:
 UndergroundPath_7F_Escena_Final_Texto_36:
 .string "No provengo de KANTO como vosotros,\n"
 	.string "pero respeto las costumbres y\l"
-	.string "tradiciones de aquellos que estuvieron\l"
-	.string "antes que yo.$"
+	.string "tradiciones de aquellos que\l"
+	.string "estuvieron antes que yo.$"
 
 UndergroundPath_7F_Escena_Final_Texto_37:
 .string "Tengo una idea, pero debemos actuar\n"
@@ -1524,8 +1645,8 @@ UndergroundPath_7F_Escena_Final_Texto_46:
 .string "No se hable más, tenéis mi palabra.$"
 
 UndergroundPath_7F_Escena_Final_Texto_47:
-.string "Pero ahora debemos actuar con rapidez.\n"
-	.string "Por suerte la rebelión lleva poco\l"
+.string "Pero ahora debemos actuar con rapidez.\p"
+	.string "Por suerte, la rebelión lleva poco\n"
 	.string "tiempo, y aún no habéis hecho el\l"
 	.string "suficiente ruido como para atraer la\l"
 	.string "atención de GIOVANNI.$"
@@ -1543,42 +1664,42 @@ UndergroundPath_7F_Escena_Final_Texto_49:
 	.string "convencer a todos los MOTORISTAS.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.1:
-.string "Además, él confía en vosotros. ¿Sabes\n"
-	.string "lo que dijo en TRIGAL, KOGA? Que tú\l"
-	.string "ibas a ocupar la plaza vacante de\l"
-	.string "AGATHA en el ALTO MANDO.$"
+.string "Además, él confía en vosotros.\p"
+	.string "¿Sabes lo que dijo en TRIGAL, KOGA?\p"
+	.string "Que tú ibas a ocupar la plaza vacante\n"
+	.string "de AGATHA en el ALTO MANDO.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.2:
 .string "KOGA: Oh{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
 .string "Ya sabéis que contáis con la palabra de\n"
-	.string "{PLAYER} y la mía propia, de\l"
-	.string "convencer a GIOVANNI para que os ceda\l"
-	.string "la ZONA SAFARI.$"
+	.string "{PLAYER}, y la mía propia.\p"
+	.string "Convenceremos a GIOVANNI para que os\n"
+	.string "ceda la ZONA SAFARI.$"
 
 UndergroundPath_7F_Escena_Final_Texto_51:
 .string "Junto con ATLAS, somos los ROCKET de\n"
 	.string "mayor rango, ¡nos hará caso!$"
 
 UndergroundPath_7F_Escena_Final_Texto_52:
-.string "PETREL: ¡No se hable más! Confiamos en\n"
-	.string "vuestra palabra.$"
+.string "PETREL: ¡No se hable más!\p"
+	.string "Confiamos en vuestra palabra.$"
 
 UndergroundPath_7F_Escena_Final_Texto_53:
 .string "¡KOGA! ¡En marcha!$"
 
 UndergroundPath_7F_Escena_Final_Texto_54:
 .string "KOGA: Muchacha, por gente como tú, esta\n"
-	.string "región y el TEAM ROCKET tienen futuro.\l"
-	.string "Definitivamente, los grandes pueden\l"
-	.string "venir de cualquier lugar, incluso de una\l"
-	.string "pequeña isla.$"
+	.string "región y el TEAM ROCKET tienen futuro.\p"
+	.string "Definitivamente, los grandes pueden\n"
+	.string "venir de cualquier lugar, incluso de\l"
+	.string "una pequeña isla.$"
 
 UndergroundPath_7F_Escena_Final_Texto_55:
-.string "LT.SURGE: ¡Chica insolente! Me has\n"
-	.string "aguado la fiesta justo cuando iba a\l"
-	.string "rematar a {PLAYER}.$"
+.string "LT.SURGE: ¡Chica insolente!\p"
+	.string "¡Me has aguado la fiesta justo\n"
+	.string "cuando iba a rematar a {PLAYER}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_56:
 .string "¡Debí haberme encargado de ti ese día\n"
@@ -1594,7 +1715,7 @@ UndergroundPath_7F_Escena_Final_Texto_57:
 UndergroundPath_7F_Escena_Final_Texto_58:
 .string "Por cierto, vi a FUJI en PUEBLO LAVANDA.\n"
 	.string "Justo iban a abrir la TORRE RADIO, para\l"
-	.string "estas alturas debería estarla ya.$"
+	.string "estas alturas debería estar ya lista.$"
 
 UndergroundPath_7F_Escena_Final_Texto_59:
 .string "El caso es que FUJI te estaba buscando,\n"
@@ -1610,8 +1731,8 @@ UndergroundPath_7F_Escena_Final_Texto_61:
 
 UndergroundPath_7F_Escena_Final_Texto_62:
 .string "Si te digo la verdad, siento algo de\n"
-	.string "vértigo por todo lo que ese lugar tenga\l"
-	.string "en sus pisos superiores.$"
+	.string "vértigo por todo lo que ese lugar\l"
+	.string "tenga en sus pisos superiores.$"
 
 UndergroundPath_7F_Escena_Final_Texto_63:
 .string "Pero{PAUSE 25}…{PAUSE 25} no es momento de echarse atrás,\n"

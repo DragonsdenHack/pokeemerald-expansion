@@ -9,13 +9,37 @@ compare VAR_SECRET_BASE_LOW_TV_FLAGS, 8
 goto_if_gt Route50_CasaCampeon_Dialogo_Anciana_3
 compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
 goto_if_gt Route50_CasaCampeon_Dialogo_Anciana_2
+playse SE_PIN
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_1
+waitmovement 0x0
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_2
+waitmovement 0x0
+delay 10
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_3
+waitmovement 0x0
+delay 10
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 8
 release
 end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_2:
+face_left
+step_end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_3:
+face_player
+step_end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_1:
+emote_exclamation_mark
+step_end
 
 Route50_CasaCampeon_Dialogo_Anciana_2::
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_4 MSGBOX_AUTOCLOSE
@@ -42,8 +66,8 @@ Route50_CasaCampeon_Dialogo_Anciana_Texto_3:
 Route50_CasaCampeon_Dialogo_Anciana_Texto_4:
 .string "Ahora creo que está retirado en el\n"
 	.string "MT.PLATEADO. ¿Si lo ves podrías\l"
-	.string "recordarle este lugar? Dile que yo he\l"
-	.string "vuelto.$"
+	.string "recordarle este lugar?\p"
+	.string "Dile que yo he vuelto.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_5:
 	.string "Gracias a ti, volvemos a estar juntos en\n"
@@ -66,10 +90,11 @@ msgbox Route50_CasaCampeon_Combate_Campeon_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CAMPEON_VENENO, Route50_CasaCampeon_Combate_Campeon_Texto_5
 delay 15
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_7 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_8 MSGBOX_DEFAULT
-givemon SPECIES_POIPOLE, 50, ITEM_NONE
+givemon SPECIES_POIPOLE, 90, ITEM_NONE
 waitfanfare
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_9 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 10
@@ -92,13 +117,13 @@ Route50_CasaCampeon_Combate_Campeon_Texto_1:
 
 Route50_CasaCampeon_Combate_Campeon_Texto_2:
 .string "Tú sin embargo pareces querer indagar\n"
-	.string "más allá de la superficie. Dime,\l"
-	.string "¿echarías un combate con este viejo\l"
-	.string "CAMPEÓN?$"
+	.string "más allá de la superficie.\p"
+	.string "Dime, ¿echarías un combate con\n"
+	.string "este viejo CAMPEÓN?$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_3:
-.string "Tranquilo, no me moveré de aquí. ¡Jo, jo,\n"
-	.string "jo!$"
+.string "Tranquilo, no me moveré de aquí.\p"
+	.string "¡Jo, jo, jo!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_4:
 .string "Así se habla, veamos cómo están las\n"
@@ -123,7 +148,7 @@ Route50_CasaCampeon_Combate_Campeon_Texto_7:
 	.string "uno de mis muchos viajes.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_8:
-.string "¡OBTUVISTE UN POIPOLE AL NV.50!$"
+.string "¡OBTUVISTE UN POIPOLE AL NV.90!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_9:
 .string "Al crecer, se convierte en uno de los\n"
@@ -135,6 +160,6 @@ Route50_CasaCampeon_Combate_Campeon_Texto_10:
 .string "Ha sido un placer tener este rato\n"
 	.string "contigo, las personas de nuestra edad\l"
 	.string "solemos caer en la monotonía y el\l"
-	.string "aburrimiento. Por unos momentos tú me\l"
+	.string "aburrimiento. Por unos momentos, tú me\l"
 	.string "has hecho sentir lo que es ser un\l"
 	.string "verdadero ENTRENADOR, como antaño…{PAUSE 5}$"

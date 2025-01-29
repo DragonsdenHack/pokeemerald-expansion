@@ -297,6 +297,7 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Policía_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_2 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 7
@@ -345,11 +346,15 @@ applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, NeoLavandaPueblo_Policia_Move_6
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_11
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Policía_Texto_15 MSGBOX_AUTOCLOSE
@@ -358,6 +363,7 @@ applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_13
 waitmovement 0x0
 applymovement 7, NeoLavandaPueblo_Policia_Move_14
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_15
 waitmovement 0x0
@@ -512,9 +518,9 @@ NeoLavandaPueblo_Policía_Texto_6:
 
 NeoLavandaPueblo_Policía_Texto_7:
 .string "Acordamos con los altos cargos de\n"
-	.string "JOHTO tener todo cerrado antes de la\l"
-	.string "inauguración de la TORRE RADIO\l"
-	.string "LAVANDA. Esto es inadmisible.$"
+	.string "JOHTO tener todo cerrado antes de\l"
+	.string "la inauguración de la TORRE RADIO.\p"
+	.string "Esto es inadmisible.$"
 
 NeoLavandaPueblo_Policía_Texto_8:
 .string "¡Llama a la SEDE SILPH! ¡Qué te pongan\n"
@@ -556,7 +562,7 @@ release
 end
 
 NeoLavandaPueblo_Segundo_Policia_Texto_1:
-.string "Perdone señor, la TORRE RADIO LAVANDA\n"
+.string "Perdone, señor. La TORRE RADIO LAVANDA\n"
 	.string "se encuentra aún en etapas tempranas\l"
 	.string "de construcción. No tardaremos mucho,\l"
 	.string "puesto que se hará en tiempo récord,\l"

@@ -1388,95 +1388,134 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, GoldenrodRadioTowerP5_Primera_Reunion_move_14
 waitmovement 0x0
 special RemoveCameraObject
+playbgm 567, FALSE
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_9 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_11
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_12 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, GoldenrodRadioTowerP5_Segunda_Reunion_Move_16
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, GoldenrodRadioTowerP5_Segunda_Reunion_Move_17
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_16 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_18
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_19
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_3
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_20
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_21
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_22
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_11
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_25 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
 waitmovement 0x0
+delay 5
 applymovement 6, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
 applymovement 8, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
 applymovement 9, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
 applymovement 10, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
 applymovement 12, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
 delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_26 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_3
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_24
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_27 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_25
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_28 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, GoldenrodRadioTowerP5_Segunda_Reunion_Move_16
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_29 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, GoldenrodRadioTowerP5_Segunda_Reunion_Move_16
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_30 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_20
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_31 MSGBOX_AUTOCLOSE
 delay 20
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_32 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_33 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_21
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_34 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_35 MSGBOX_AUTOCLOSE
@@ -1535,22 +1574,39 @@ waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_54 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 6, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
-waitmovement 0x0
+delay 5
+applymovement 16, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
+applymovement 8, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
+applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
+applymovement 9, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
+applymovement 12, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
-waitmovement 0x0
+delay 5
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_55 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
 waitmovement 0x0
+waitse
+delay 10
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_11
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_56 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_3
 applymovement 17, GoldenrodRadioTowerP5_Segunda_Reunion_Move_17
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_57 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_58 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_59 MSGBOX_AUTOCLOSE
@@ -1574,44 +1630,67 @@ waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_64 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 9, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
+applymovement 8, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
 applymovement 6, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
+delay 5
 applymovement 10, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
 waitmovement 0x0
+delay 5
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_24
 waitmovement 0x0
+delay 5
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_65 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 8, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
 waitmovement 0x0
+waitse
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_66 MSGBOX_AUTOCLOSE
 delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_67 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_68 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, GoldenrodRadioTowerP5_Segunda_Reunion_Move_16
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_69 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_25
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_70 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_11
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_71 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_72 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_3
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_73 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 6, GoldenrodRadioTowerP5_Segunda_Reunion_Move_17
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_74 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_75 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_76 MSGBOX_AUTOCLOSE
 delay 20
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_77 MSGBOX_AUTOCLOSE
@@ -1619,10 +1698,12 @@ delay 20
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_3
 applymovement 1, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_78 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
 setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
 setflag FLAG_RECEIVED_SHOAL_SHELL_4
+fadedefaultbgm
 fadescreen 1
 delay 20
 removeobject 1
@@ -1651,22 +1732,30 @@ applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_28
 waitmovement 0x0
 applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_79 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_80 MSGBOX_AUTOCLOSE
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_81 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.1 MSGBOX_AUTOCLOSE
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_23
 waitmovement 0x0
+waitse
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.4 MSGBOX_AUTOCLOSE
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_6
 waitmovement 0x0
@@ -1686,21 +1775,29 @@ delay 15
 applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_20
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_6
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_82 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_83 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_84 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_15
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_85 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_86 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
 fadescreen 1
@@ -1716,6 +1813,7 @@ msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_87 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 3, GoldenrodRadioTowerP5_Segunda_Reunion_Move_20
 waitmovement 0x0
+delay 10
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_88 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
@@ -1756,11 +1854,13 @@ step_end
 
 GoldenrodRadioTowerP5_Segunda_Reunion_Move_25:
 walk_slow_up
+delay_16
 walk_in_place_down
 step_end
 
 GoldenrodRadioTowerP5_Segunda_Reunion_Move_24:
 walk_slow_right
+delay_16
 walk_in_place_down
 step_end
 
@@ -1898,26 +1998,26 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_1.1:
 	.string "puede que te lleves una sorpresa.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_2:
-.string "AZUL: {PLAYER}, cuánto tiempo.\n"
-	.string "Finalmente soy el LÍDER de CIUDAD\l"
+.string "AZUL: {PLAYER}, cuánto tiempo.\p"
+	.string "Finalmente soy el LÍDER de CIUDAD\n"
 	.string "VERDE, y LANCE es de nuevo el CAMPEÓN.\l"
 	.string "Obviamente es solo un títere que está\l"
 	.string "atado, puede que ese sea el peor\l"
-	.string "castigo para alguien como LANCE.\l"
+	.string "castigo para alguien como LANCE.\p"
 	.string "Espero que te vaya bien.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_3:
-.string "FUJI: AGATHA se ha ido {PLAYER}, se\n"
+.string "FUJI: AGATHA se ha ido, {PLAYER}, se\n"
 	.string "ha ido junto a la antigua TORRE\l"
 	.string "POKÉMON. Jamás volveremos a ver a su\l"
 	.string "GENGAR ejecutar ese BOLA SOMBRA bajo\l"
-	.string "sus paredes. ¿Este es el precio del\l"
-	.string "progreso?$"
+	.string "sus paredes.\p"
+	.string "¿Este es el precio del progreso?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_4:
 .string "BILL: Espera a que GIOVANNI hable de\n"
-	.string "los nuevos prototipos y los STATS{PAUSE 15}…{PAUSE 15} Si\l"
-	.string "por mí fuera, pasaría directamente a\l"
+	.string "los nuevos prototipos y los STATS{PAUSE 15}…{PAUSE 15}\p"
+	.string "Si por mí fuera, pasaría directamente a\n"
 	.string "esa parte, ¡el resto son formalidades!$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_5:
@@ -1925,13 +2025,13 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_5:
 	.string "aspiras, ¿no? A continuar bailando y\l"
 	.string "llenándote de experiencias el mayor\l"
 	.string "tiempo posible, hasta que no puedas\l"
-	.string "más. Si no, ¿qué ibas a hacer? ¿verdad?\l"
-	.string "Pues más te vale, te queda demasiado\l"
+	.string "más. Si no, ¿qué ibas a hacer? ¿verdad?\p"
+	.string "Pues más te vale, te queda demasiado\n"
 	.string "por ver aún, joven {PLAYER}.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_6:
-.string "LANCE: ¿Quién es este tipo? ¿Por qué{PAUSE 15}…{PAUSE 15}?\n"
-	.string "¿Por qué sabe tanto acerca de ENTEI,\l"
+.string "LANCE: ¿Quién es este tipo? ¿Por qué{PAUSE 15}…{PAUSE 15}?\p"
+	.string "¿Por qué sabe tanto acerca de ENTEI,\n"
 	.string "RAIKOU y SUICUNE?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_7:
@@ -1945,10 +2045,10 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_8:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_9:
-.string "PRESIDENTE: Damas y caballeros{PAUSE 15}…{PAUSE 15} Tengo\n"
-	.string "el honor de estar de nuevo aquí, como\l"
-	.string "anfitrión de la II CONFERENCIA DE\l"
-	.string "TRIGAL.$"
+.string "PRESIDENTE: Damas y caballeros{PAUSE 15}…{PAUSE 15}\n"
+	.string "Tengo el honor de estar de nuevo aquí,\l"
+	.string "como anfitrión de la II CONFERENCIA DE\l"
+	.string "CIUDAD TRIGAL.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_10:
 .string "Primero de todo, veréis que ha habido un\n"
@@ -1998,10 +2098,9 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_18:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_19:
 .string "Por otro lado, gracias a la reciente\n"
-	.string "intervención del ADMIN.JEFE\l"
-	.string "{PLAYER}, el trayecto TRIGAL-AZAFRÁN\l"
-	.string "podrá ser inaugurado en breve\l"
-	.string "sin más contratiempos.$"
+	.string "intervención del ADMIN.JEFE {PLAYER},\l"
+	.string "el trayecto TRIGAL-AZAFRÁN podrá\l"
+	.string "ser inaugurado en breve.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_20:
 .string "GIOVANNI: Muchas gracias, PRESIDENTE.$"
@@ -2035,13 +2134,13 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_24:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_25:
 .string "GIOVANNI: Construir una nueva ZONA\n"
 	.string "SAFARI, esta vez en la zona oeste de\l"
-	.string "ORQUÍDEA.$"
+	.string "CIUDAD ORQUÍDEA.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_26:
-.string "ANDRA Y {PLAYER} han visitado la\n"
-	.string "zona, y es un auténtico paraíso. Lleno\l"
-	.string "de POKÉMON exóticos y con esa pureza\l"
-	.string "aún no corrompida por las masas.$"
+.string "ANDRA y {PLAYER} han visitado la\n"
+	.string "zona, y es un auténtico paraíso.\l"
+	.string "Lleno de POKÉMON exóticos, algo puro,\l"
+	.string "aún no corrompido por las masas.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_27:
 .string "Sé de la existencia de ciertas zonas\n"
@@ -2100,12 +2199,12 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_37:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_38:
 .string "DEVON, como nosotros, no hace públicos\n"
 	.string "sus mayores avances. Tenemos pruebas\l"
-	.string "que confirman esto, sabemos de primera\l"
+	.string "que confirman esto; sabemos de primera\l"
 	.string "mano que METAGROSS es un POKÉMON\l"
 	.string "artificial, creado por ellos antes\l"
 	.string "incluso de que tu querido PORYGON\l"
-	.string "existiera. ¿Te parece esto suficiente,\l"
-	.string "BILL?$"
+	.string "existiera.\p"
+	.string "¿Te parece esto suficiente, BILL?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_39:
 .string "BILL: {PAUSE 15}…{PAUSE 15}$"
@@ -2173,8 +2272,8 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_52:
 	.string "de portar una MEGAPIEDRA por objeto.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_53:
-.string "Después tenemos los prototipos de\n"
-	.string "nivel II, aquellos que van desde los\l"
+.string "Después, tenemos los prototipos de\n"
+	.string "nivel II: aquellos que van desde los\l"
 	.string "660 STATS BASE, hasta los 780{PAUSE 15}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_54:
@@ -2187,8 +2286,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_54:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_55:
 .string "Se trata de un enorme avance, ya que es\n"
 	.string "lo más cercano a simular el FUERTE\l"
-	.string "VÍNCULO en condiciones de\l"
-	.string "LABORATORIO.$"
+	.string "VÍNCULO en condiciones artificiales.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_56:
 .string "ANDRA: ¿Cómo es eso posible?$"
@@ -2209,7 +2307,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_58:
 	.string "sus frutos prohibidos.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_59:
-.string "ANDRA: Y así convertir lo sagrado en\n"
+.string "ANDRA: Y así{PAUSE 15}…{PAUSE 15} convertir lo sagrado en\n"
 	.string "profano.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_60:
@@ -2217,7 +2315,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_60:
 	.string "límite real es cuando sientes vértigo?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_60.1:
-.string "Además, más que nada lo sagrado merece\n"
+.string "Además, más que nada, lo sagrado merece\n"
 	.string "realmente ser puesto a prueba, ANDRA.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_61:
@@ -2227,7 +2325,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_62:
 .string "GIOVANNI: Esto supone un +125 en\n"
 	.string "STATS BASE, lo que les mete de lleno en\l"
 	.string "los prototipos de nivel II, con un total\l"
-	.string "de 690, pero{PAUSE 15}…{PAUSE 15}$"
+	.string "de 705, pero aún hay más{PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_63:
 .string "Nuestro mayor avance ha sido el que\n"
@@ -2253,9 +2351,9 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_66:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_67:
 .string "GIOVANNI: También es más rápido, y con\n"
 	.string "mejor DEF.ESPECIAL. El coste de\l"
-	.string "oportunidad sin embargo hizo que su\l"
-	.string "DEFENSA cayera sin remedio. Toda\l"
-	.string "especialización conlleva\l"
+	.string "oportunidad, sin embargo, hizo que\l"
+	.string "su DEFENSA cayera sin remedio.\p"
+	.string "Toda especialización parece conllevar\n"
 	.string "inevitablemente la disminución de\l"
 	.string "alguna otra variable.$"
 
@@ -2299,15 +2397,15 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_75:
 .string "ATLAS: Así es, AGATHA. Se fue justo\n"
 	.string "antes de empezar la demolición de la\l"
 	.string "TORRE POKÉMON, y no ha vuelto a dar\l"
-	.string "señales.$"
+	.string "señales de vida.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_76:
-.string "GIOVANNI: Era de esperar. Por fortuna\n"
-	.string "tenemos al sustituto perfecto: KOGA\l"
-	.string "formará parte del ALTO MANDO. Su hija\l"
+.string "GIOVANNI: Era de esperar. Por fortuna,\n"
+	.string "tenemos al sustituto perfecto: KOGA.\p"
+	.string "Él formará parte del ALTO MANDO, su hija\n"
 	.string "ya está preparada para tomar el relevo\l"
-	.string "en FUCSIA. Es un notable ENTRENADOR, y\l"
-	.string "siempre nos ha sido leal.$"
+	.string "en FUCSIA. KOGA es un buen ENTRENADOR,\l"
+	.string "y siempre nos ha sido leal.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_77:
 .string "LANCE: {PAUSE 15}…{PAUSE 15}$"
@@ -2338,10 +2436,10 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81:
 .string "ANDRA: Oh{PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.1:
-.string "GIOVANNI: ANDRA, {PLAYER}{PAUSE 25}…{PAUSE 25} Tengo\n"
-	.string "buenas noticias, ¿recordáis la PIEDRA\l"
-	.string "SAGRADA que obtuvísteis en una de\l"
-	.string "vuestras misiones?$"
+.string "GIOVANNI: ANDRA, {PLAYER}{PAUSE 25}…{PAUSE 25}\p"
+	.string "Tengo buenas noticias, ¿recordáis la\n"
+	.string "PIEDRA SAGRADA que obtuvísteis en una\l"
+	.string "de vuestras misiones?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.2:
 .string "ANDRA: Claro{PAUSE 15}…{PAUSE 15} Era algo muy especial.$"
@@ -2350,7 +2448,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.3:
 .string "GIOVANNI: Tal y como os dije, ATLAS fue\n"
 	.string "a investigar y logró encontrar una.\l"
 	.string "Nuestros científicos hicieron el resto\l"
-	.string "en tiempo récord.$"
+	.string "del trabajo en tiempo récord.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.4:
 .string "ANDRA: ¿A qué se refiere exactamente?$"
@@ -2381,13 +2479,13 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.9:
 .string "ANDRA: ¿Es nuestro próximo destino?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_82:
-.string "GIOVANNI: Exacto, ANDRA. ¡Me gustaría \n"
+.string "GIOVANNI: Exacto, ANDRA. ¡Me gustaría\n"
 	.string "que ambos visitárais la nueva\l"
-	.string "TORRE RADIO de LAVANDA! Ha sido\l"
-	.string "construida en tiempo récord, y, aunque\l"
-	.string "aún no está todo, tiene lo esencial\l"
-	.string "para que os hagáis una idea de lo que\l"
-	.string "se viene en el futuro.$"
+	.string "TORRE RADIO de LAVANDA!\p"
+	.string "Ha sido construida a contrareloj y,\n"
+	.string "aunque aún no está todo, tiene lo\l"
+	.string "esencial para que os hagáis una idea\l"
+	.string "de lo que se viene en el futuro.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1:
 .string "Aún no está del todo terminada por\n"
@@ -2398,8 +2496,8 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1:
 	.string "hecho.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_83:
-.string "ANDRA: {PAUSE 35}…{PAUSE 35}no fallaré en esa cita con\n"
-	.string "la historia{PAUSE 5}…{PAUSE 5}$"
+.string "ANDRA: {PAUSE 35}…{PAUSE 35} No fallaré en esa cita con\n"
+	.string "la historia, señor{PAUSE 5}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_84:
 .string "ATLAS: Nosotros investigaremos sobre\n"
@@ -2417,9 +2515,9 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_87:
 	.string "vemos en TORRE POKÉM{PAUSE 25}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_88:
-	.string "{PAUSE 15}…{PAUSE 15}TORRE DE RADIO LAVANDA. Se hará\n"
-	.string "extraño no volver a ver la original, ¿no\l"
-	.string "crees?$"
+	.string "{PAUSE 15}…{PAUSE 15}TORRE RADIO LAVANDA.\p"
+	.string "Se hará extraño no volver a ver la\n"
+	.string "original, ¿no crees?$"
 
 Tercera_Reunion_Move_1:
 walk_slow_up

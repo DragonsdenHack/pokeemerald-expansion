@@ -12,9 +12,11 @@ goto_if_gt ViasTrenCasaCampeon_Agatha_4
 compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 3
 goto_if_gt ViasTrenCasaCampeon_Agatha_2
 msgbox ViasTrenCasaCampeon_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTrenCasaCampeon_Agatha_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTrenCasaCampeon_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTrenCasaCampeon_Agatha_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 3, ViasTrenCasaCampeon_Agatha_Move_1
@@ -64,8 +66,7 @@ ViasTrenCasaCampeon_Agatha_Texto_3:
 	.string "nuevo, pero necesito volver a mis\l"
 	.string "raíces. Aquí aprendí mucho con la que\l"
 	.string "fue mi maestra, la única que llegó a ser\l"
-	.string "CAMPEONA usando POKÉMON TIPO\l"
-	.string "FANTASMA.$"
+	.string "CAMPEONA usando POKÉMON TIPO FANTASMA.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_4:
 .string "Aún vive, aunque ahora descansa en el\n"
@@ -115,19 +116,28 @@ msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_8
 waitmovement 0x0
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_7
 waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_9
 waitmovement 0x0
 setflag FLAG_HOENN_108
@@ -135,13 +145,17 @@ removeobject 2
 clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
 addobject 3
 applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_10
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 6
 release
@@ -246,15 +260,15 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6:
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7:
 .string "Sé que antes te hablé de la\n"
 	.string "imposibilidad de que nuestros equipos\l"
-	.string "se cruzaran, pero{PAUSE 25}…{PAUSE 25} aún vivo…\l"
-	.string "físicamente no es imposible que tal\l"
-	.string "encuentro se diera. En el MT.PLATEADO\l"
+	.string "se cruzaran, pero{PAUSE 25}…{PAUSE 25} aún vivo…\p"
+	.string "Físicamente no es imposible que tal\n"
+	.string "encuentro tenga lugar. En el MT.PLATEADO\l"
 	.string "pequé de no considerar todas las\l"
 	.string "posibilidades, para mí y mi equipo.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1:
 .string "Lo cierto es que, cuando se es joven de\n"
-	.string "verdad, se es joven para toda la vida.\l"
+	.string "verdad, se es joven para toda la vida.\p"
 	.string "El arte de combatir no es menos.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8:
@@ -276,7 +290,7 @@ msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_5 MSGBOX_AUTOCLOSE
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_7 MSGBOX_DEFAULT
-givemon SPECIES_CALYREX, 70, ITEM_NONE
+givemon SPECIES_CALYREX, 90, ITEM_NONE
 waitfanfare
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 7
@@ -319,7 +333,7 @@ ViasTrenCasaCampeon_Combate_Campeona_Texto_6:
 	.string "gustaría es que tuvieras esto.$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_7:
-.string "¡OBTUVISTE UN CALYREX AL NV.70!$"
+.string "¡OBTUVISTE UN CALYREX AL NV.90!$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_8:
 .string "Uno de mis últimos pasatiempos ha sido\n"

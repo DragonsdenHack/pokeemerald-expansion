@@ -62,14 +62,20 @@ ViasTren5_Combate_Atlas::
 playse SE_PIN
 applymovement 11, ViasTren5_Combate_Atlas_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 11, ViasTren5_Combate_Atlas_Move_3
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, ViasTren5_Combate_Atlas_Move_4
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_2 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_3 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_5
 waitmovement 0x0
@@ -78,6 +84,8 @@ playse SE_PIN
 applymovement 11, ViasTren5_Combate_Atlas_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 11, ViasTren5_Combate_Atlas_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_3
 waitmovement 0x0
@@ -85,21 +93,38 @@ clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 addobject 9
 applymovement 9, ViasTren5_Combate_Atlas_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, ViasTren5_Combate_Atlas_Move_12
 applymovement 9, ViasTren5_Combate_Atlas_Move_7
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, ViasTren5_Combate_Atlas_Move_8
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, ViasTren5_Combate_Atlas_Move_9
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, ViasTren5_Combate_Atlas_Move_10.5
+waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_11.2
+waitmovement 0x0
+delay 10
 applymovement 9, ViasTren5_Combate_Atlas_Move_10
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_11 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ATLAS_2, ViasTren5_Combate_Atlas_Texto_12
 delay 15
@@ -112,25 +137,42 @@ msgbox ViasTren5_Combate_Atlas_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 9, ViasTren5_Combate_Atlas_Move_10.1
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, ViasTren5_Combate_Atlas_Move_10.3
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_14.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, ViasTren5_Combate_Atlas_Move_10.2
 waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_14.3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_15 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
-fadescreen 1
-delay 20
+playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 9
-fadescreen 0
-delay 20
+waitfieldeffect FLDEFF_NPCFLY_OUT
 msgbox ViasTren5_Combate_Atlas_Texto_16 MSGBOX_AUTOCLOSE
 delay 20
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_2.1
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_2.1
+waitmovement 0x0
+waitse
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 118, 11, 0
+waitfieldeffect FLDEFF_SPARKLE
 setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
 removeobject 10
 playse SE_M_FLY
@@ -140,31 +182,118 @@ applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_9
 applymovement 11, ViasTren5_Combate_Atlas_Move_2
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_11.1
+waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_3.2
+waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_3.3
+waitmovement 0x0
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_21 MSGBOX_AUTOCLOSE
-delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_2.1.1
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_2.1.0
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
+delay 20
 applymovement 11, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 delay 20
 msgbox ViasTren5_Combate_Atlas_Texto_22 MSGBOX_AUTOCLOSE
 delay 20
+playse SE_PIN
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_2.1
+waitmovement 0x0
+waitse
+delay 20
+playse SE_BREAKABLE_DOOR
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3.4
+applymovement 11, PalletTown_ProfessorLab_Lab_Move_3.1
+waitmovement 0x0
+waitse
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_23 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
-applymovement 11, ViasTren5_Combate_Atlas_Move_11
+delay 10
+playse SE_PC_OFF
+waitse
+delay 10
+applymovement 11, ViasTren5_Combate_Atlas_Move_11.1
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_24 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
+applymovement 11, ViasTren5_Combate_Atlas_Move_11.2
+waitmovement 0x0
+waitse
+delay 10
 msgbox ViasTren5_Combate_Atlas_Texto_25 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTren5_Combate_Atlas_Texto_26 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
 setflag FLAG_RECEIVED_SHOAL_SHELL_3
 setvar VAR_UNUSED_0x40F7, 203
 release
 end
+
+PalletTown_ProfessorLab_Lab_Move_2.1.1:
+delay_16
+delay_16
+face_up
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_2.1.0:
+emote_exclamation_mark
+walk_right
+walk_right
+step_end
+
+ViasTren5_Combate_Atlas_Move_10.5:
+face_up
+delay_16
+delay_8
+face_right
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_3.4:
+face_up
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_2.1:
+emote_exclamation_mark
+face_right
+step_end
+
+ViasTren5_Combate_Atlas_Move_11.2:
+walk_in_place_left
+step_end
+
+ViasTren5_Combate_Atlas_Move_11.1:
+face_left
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_3.2:
+face_up
+delay_16
+face_right
+delay_16
+face_left
+delay_16
+delay_8
+walk_in_place_right
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_3.1:
+walk_fast_right
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_3.3:
+walk_left
+step_end
 
 ViasTren5_Combate_Atlas_Move_12:
 face_down
@@ -283,11 +412,10 @@ ViasTren5_Combate_Atlas_Texto_7:
 ViasTren5_Combate_Atlas_Texto_8:
 .string "Un POKÉMON así encajaría a la\n"
 	.string "perfección con mi equipo, la pareja\l"
-	.string "perfecta para mi HOUNDOOM y\l"
-	.string "FERALIGATR{PAUSE 25}…{PAUSE 25} Mi deber y ambición como\l"
-	.string "ADMIN.JEFE, al igual que el tuyo, es\l"
-	.string "formar un equipo lo más implacable\l"
-	.string "posible.$"
+	.string "perfecta para mi HOUNDOOM y FERALIGATR{PAUSE 25}…{PAUSE 25}\l"
+	.string "Mi deber y ambición como ADMIN.JEFE,\l"
+	.string "al igual que el tuyo, es formar un\l"
+	.string "equipo lo más implacable posible.$"
 
 ViasTren5_Combate_Atlas_Texto_9:
 .string "Por ello te reto a un combate aquí\n"
@@ -317,14 +445,13 @@ ViasTren5_Combate_Atlas_Texto_13:
 	.string "dijo ANDRA: mejorar tu equipo POKÉMON\l"
 	.string "más y más no es suficiente contigo. Se\l"
 	.string "necesita algo más para romper ese aura\l"
-	.string "que has construido en torno a los\l"
-	.string "tuyos.$"
+	.string "que has construido en torno a los tuyos.$"
 
 ViasTren5_Combate_Atlas_Texto_14:
-.string "Que este ZAPDOS-P colabore en tu\n"
-	.string "eterno viaje, {PLAYER}. Solo espero\l"
-	.string "que no te acomodes al verte con\l"
-	.string "tremendo POKÉMON bajo tu poder.$"
+.string "Que este ZAPDOS PRIMIGENIO colabore en\n"
+	.string "tu eterno viaje, {PLAYER}.\p"
+	.string "Solo espero que no te acomodes al verte\n"
+	.string "con tremendo POKÉMON bajo tu poder.$"
 
 ViasTren5_Combate_Atlas_Texto_14.1:
 .string "Porque{PAUSE 25}…{PAUSE 25} a diferencia de la justicia, a\n"
@@ -340,15 +467,15 @@ ViasTren5_Combate_Atlas_Texto_14.2:
 	.string "un optimismo desbordante y gran\l"
 	.string "espíritu de superación. Cree en ella y\l"
 	.string "sus POKÉMON como nadie, y confía en el\l"
-	.string "proceso. Pero todo eso tiene un límite\l"
-	.string "{PAUSE 25}…{PAUSE 25} biológico.$"
+	.string "proceso. Pero todo eso tiene un límite,\l"
+	.string "uno{PAUSE 25}…{PAUSE 25} biológico.$"
 
 ViasTren5_Combate_Atlas_Texto_14.3:
 .string "Aunque suene duro, tú sabes que\n"
 	.string "siempre fue así, {PLAYER}. Por eso\l"
-	.string "vamos todos a reunirnos en TRIGAL. La\l"
-	.string "debilidad no tiene lugar aquí, y por\l"
-	.string "ello{PAUSE 25}…{PAUSE 25} no concibo una existencia\l"
+	.string "vamos todos a reunirnos en TRIGAL.\p"
+	.string "La debilidad no tiene lugar aquí, y\n"
+	.string "por ello{PAUSE 25}…{PAUSE 25} no concibo una existencia\l"
 	.string "distinta a la plena búsqueda de esa\l"
 	.string "fuerza, aunque sea artificial.$"
 
@@ -360,7 +487,7 @@ ViasTren5_Combate_Atlas_Texto_16:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 ViasTren5_Combate_Atlas_Texto_17:
-.string "(El ZAPDOS-P voló a gran velocidad)$"
+.string "-El ZAPDOS-P voló a gran velocidad-$"
 
 ViasTren5_Combate_Atlas_Texto_18:
 .string "{PAUSE 5}…{PAUSE 5}$"

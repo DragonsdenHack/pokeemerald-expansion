@@ -65,8 +65,8 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_2:
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_3:
 .string "¿Tienes curiosidad por conocer mi\n"
 	.string "equipo? Me temo que tendrás que\l"
-	.string "convivir con esa curiosidad, jovencito.\l"
-	.string "Pertenezco a otra generación, y solo\l"
+	.string "convivir con esa curiosidad, jovencito.\p"
+	.string "Pertenezco a otra generación, y solo\n"
 	.string "cabe en la ficción lo que pudo haber\l"
 	.string "ocurrido en un eventual choque entre\l"
 	.string "nuestros equipos en plenitud.$"
@@ -75,9 +75,9 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
-.string "Así que AGATHA está en el lugar{PAUSE 25}…{PAUSE 25} Era de\n"
-	.string "esperar, siempre se aferró a TORRE\l"
-	.string "LAVANDA.$"
+.string "Así que AGATHA está en el lugar{PAUSE 25}…{PAUSE 25}\p"
+	.string "Era de esperar, siempre se aferró\n"
+	.string "a TORRE POKÉMON.$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
 .string "Gracias, chico, iré a hablar con mi vieja\n"
@@ -85,19 +85,17 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
 	.string "te apetece volver a pasarte por ahí,\l"
 	.string "serás bien recibido.$"
 
-
 MtSilver_PkmnCenter_Text_2:
-.string "Ah, sí…\n"
-.string "Yo le enseñé a AGATHA todo lo que\l"
-.string "sabe. Aunque jamás pudo acercarse\l"
-.string "a mi dominio sobre el TIPO\l"
-.string "FANTASMA, llegó a ser del ALTO\l"
-.string "MANDO.\l"
-.string "…\l"
-.string "…\l"
-.string "¿Tienes curiosidad por conocer mi\l"
-.string "equipo?\l"
-.string "Me temo que tendrás que vivir con\l"
+.string "Ah, sí…\p"
+.string "Yo le enseñé a AGATHA todo lo que sabe.\n"
+.string "Aunque jamás pudo acercarse a mi dominio\l"
+.string "sobre el TIPO FANTASMA, llegó a ser\l"
+.string "del ALTO MANDO.\p"
+.string "…\p"
+.string "…\p"
+.string "¿Tienes curiosidad por conocer mis\n"
+.string "POKÉMON?\p"
+.string "Me temo que tendrás que vivir con\n"
 .string "esa curiosidad, jovencito,\l"
 .string "pertenezco a otra generación, y\l"
 .string "solo cabe en la ficción lo que\l"
@@ -117,8 +115,8 @@ release
 end
 
 MtSilver_PkmnCenter_Text_3:
-.string "Si KOGA supiera…\n"
-.string "Tuve en mi poder al POKÉMON TIPO\l"
+.string "Si KOGA supiera…\p"
+.string "Tuve en mi poder al POKÉMON TIPO\n"
 .string "VENENO más letal de todos los\l"
 .string "tiempos, con él me pude coronar\l"
 .string "CAMPEÓN hace medio siglo. Aunque\l"
@@ -162,13 +160,13 @@ MtSilverPkmnCenter3_2_Texto_2:
 
 MtSilverPkmnCenter3_2_Texto_3:
 .string "Si ahí está mi mujer, volveré a nuestra\n"
-	.string "pequeña casa, apartada de todo. Nada\l"
-	.string "me retiene aquí.$"
+	.string "pequeña casa, apartada de todo.\p"
+	.string "Nada me retiene aquí.$"
 
 MtSilverPkmnCenter3_2_Texto_4:
-.string "¿Eres {PLAYER}? Gracias, {PLAYER},\n"
-	.string "si decides volver a pasarte por ahí,\l"
-	.string "serás bien recibido.$"
+.string "¿Eres {PLAYER}?\p"
+	.string "Gracias, {PLAYER}, si decides volver a\n"
+	.string "pasarte por ahí, serás bien recibido.$"
 
 
 
@@ -180,8 +178,8 @@ release
 end
 
 MtSilver_PkmnCenter_Text_4:
-.string "¡Jo, jo, jo!\n"
-.string "¿Yo ex-campeón?\l"
-.string "¡Me he colado aquí tirando por el\l"
+.string "¡Jo, jo, jo!\p"
+.string "¿Yo ex-campeón?\p"
+.string "¡Me he colado aquí tirando por el\n"
 .string "otro lado de la montaña, pero no\l"
 .string "se lo digas a nadie!$"
