@@ -15,8 +15,11 @@ applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_3
 applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_3
 applymovement 4, UndergroundPath_12F_Combates_Moteros_Move_3
 waitmovement 0x0
+waitse
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_4 MSGBOX_AUTOCLOSE
@@ -25,20 +28,26 @@ applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_5
 waitmovement 0x0
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_5 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_7
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_8
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_8
 applymovement 4, UndergroundPath_12F_Combates_Moteros_Move_10
@@ -68,6 +77,7 @@ playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_18 MSGBOX_DEFAULT
 waitfanfare
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_20 MSGBOX_AUTOCLOSE
 release
 setvar VAR_ROUTE105_STATE, 12
@@ -96,7 +106,7 @@ step_end
 
 UndergroundPath_12F_Combates_Moteros_Move_9:
 walk_in_place_left
-delay_8
+delay_16
 walk_in_place_down
 step_end
 
@@ -164,8 +174,8 @@ UndergroundPath_12F_Combates_Moteros_Texto_6:
 
 UndergroundPath_12F_Combates_Moteros_Texto_7:
 .string "No importa quién seas, me han\n"
-	.string "contratado para guardar este lugar y\l"
-	.string "es lo que haré.$"
+	.string "contratado para guardar este\l"
+	.string "lugar, y es lo que haré.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_8:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
@@ -181,8 +191,8 @@ UndergroundPath_12F_Combates_Moteros_Texto_10:
 
 UndergroundPath_12F_Combates_Moteros_Texto_11:
 .string "Nos ayudaste derrotando a BRUNO en el\n"
-	.string "CAMINO BICIS, pero eso fue hace años…\l"
-	.string "los tiempos han cambiado{PAUSE 25}…{PAUSE 25} ¡no\l"
+	.string "CAMINO BICIS, pero eso fue hace años…\p"
+	.string "Los tiempos han cambiado{PAUSE 25}…{PAUSE 25} ¡no\n"
 	.string "tendremos piedad contigo!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_12:
@@ -199,8 +209,8 @@ UndergroundPath_12F_Combates_Moteros_Texto_14:
 
 UndergroundPath_12F_Combates_Moteros_Texto_15:
 .string "¡Ya es suficiente! Si quiero algo bien\n"
-	.string "hecho tengo que hacerlo yo mismo, ¡tú y\l"
-	.string "tus POKÉMON sufriréis mi ira!$"
+	.string "hecho, tengo que hacerlo yo mismo.\p"
+	.string "¡Tú y tus POKÉMON sufriréis mi ira!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_16:
 .string "¡No! ¡HYDREIGON, SHARPEDO! ¡Seguid!$"
@@ -210,8 +220,8 @@ UndergroundPath_12F_Combates_Moteros_Texto_17:
 	.string "merecida. No me dejas elección.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_18:
-.string "(¡¡{PLAYER} obtuvo la LLAVE CABINA\n"
-	.string "NORTE de manos de MOTORISTA!!)$"
+.string "-¡¡{PLAYER} obtuvo la LLAVE CABINA\n"
+	.string "NORTE de manos de MOTORISTA!!-.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_19:
 .string "Con ella podrás entrar a la CABINA\n"
