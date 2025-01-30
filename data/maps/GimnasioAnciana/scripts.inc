@@ -77,7 +77,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
 	.string "ESPADA de manos de ZOE!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
-.string "¡Jah!\n"
+.string "¡Ja!\n"
 	.string "¿Creías que eso era todo?\l"
 	.string "¡Te daré algo más!$"
 
@@ -106,7 +106,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_4:
 .string "Así que hay relevo, ya era hora{PAUSE 5}…{PAUSE 5}$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_5:
-.string "¡Jah! ¡Ese ATLAS! ¡Cómo se la tenía\n"
+.string "¡Ja! ¡Ese ATLAS! ¡Cómo se la tenía\n"
 	.string "guardada contigo!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_6:

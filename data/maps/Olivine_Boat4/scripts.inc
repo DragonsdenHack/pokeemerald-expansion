@@ -136,8 +136,8 @@ Olivine_Boat4_Combate_Capitan_Texto_9:
 .string "¿Perdí de nuevo?$"
 
 Olivine_Boat4_Combate_Capitan_Texto_10:
-.string "¡Jah!\n"
-	.string "Tal como suponía, tu equipo no\l"
+.string "¡Ja!\p"
+	.string "Tal y como suponía, tu equipo no\n"
 	.string "tiene nada que ver con el SS.ANNE.\l"
 	.string "Allí ya apuntabas maneras, pero\l"
 	.string "desde ese entonces se nota que te\l"

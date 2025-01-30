@@ -4871,7 +4871,7 @@ walk_in_place_right
 step_end
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_1:
-.string "ANDRA: ¡Jah! ¡Sabía que aparecerías\n"
+.string "ANDRA: ¡Ja! ¡Sabía que aparecerías\n"
 	.string "pronto, {PLAYER}! ¡Yo acabo de\l"
 	.string "completar también mis misiones!$"
 

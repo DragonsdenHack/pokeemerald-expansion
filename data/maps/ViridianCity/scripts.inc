@@ -231,11 +231,11 @@ ViridianCity_Entrenador_Especial_Texto_2:
 	.string "…{PAUSE 5}$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
-.string "¡JAH!\n"
+.string "¡Ja!\n"
 	.string "¡Lo que imaginaba!\l"
 	.string "¡Un ROCKET con MEDALLAS DE\l"
 	.string "GIMNASIO!\l"
-	.string "¡Lo siento chaval no hay trato!$"
+	.string "¡Lo siento chaval, no hay trato!$"
 
 ViridianCity_Entrenador_Especial_Texto_4:
 .string "LODO NEGRO recuperará 1/16 de la\n"

@@ -576,7 +576,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_34:
 	.string "os queda para llegar hasta arriba.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_35:
-.string "ANDRA: ¡Jah!\p"
+.string "ANDRA: ¡Ja!\p"
 	.string "¡Hasta ahora ha sido pan comido!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_36:

@@ -31,8 +31,8 @@ release
 end
 
 RocketHideout6F_Text_1:
-.string "¡JAH!\n"
-.string "¡Los de KANTO creen que somos\l"
+.string "¡Ja!\p"
+.string "¡Los de KANTO creen que somos\n"
 .string "imbéciles, pero tenemos muchas\l"
 .string "más armas de las que creen!\p"
 .string "¡Nunca enseñes todas tus cartas,\n"

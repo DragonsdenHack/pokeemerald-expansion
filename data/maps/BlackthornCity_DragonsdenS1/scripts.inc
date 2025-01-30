@@ -44,7 +44,7 @@ DragonsdenS1_Text_4:
 .string "¿Quién eres tú?\n"
 .string "Si no eres especialista en el TIPO\l"
 .string "DRAGÓN no deberías estar aquí.\l"
-.string "¡Jah, apuesto a que ninguno de tus\l"
+.string "¡Bah, apuesto a que ninguno de tus\l"
 .string "POKÉMON supera siquiera la\l"
 .string "jerarquía de un KINGDRA, ni\l"
 .string "hablemos de un PSEUDOLEGENDARIO\l"

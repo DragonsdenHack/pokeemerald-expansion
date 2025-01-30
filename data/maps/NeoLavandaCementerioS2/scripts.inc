@@ -132,44 +132,63 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_4
 waitmovement 0x0
+waitse
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_7
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_39, NeoLavandaCementerioS2_Combate_Azul_Texto_8
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_8
 waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_7
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Combate_Azul_Move_1.2
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_1.1
+waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
-fadescreen 1
-delay 20
 removeobject 19
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 209
 release
 end
@@ -214,13 +233,30 @@ NeoLavandaCementerioS2_Combate_Azul_Move_1:
 walk_in_place_down
 step_end
 
+NeoLavandaCementerioS2_Combate_Azul_Move_1.1:
+walk_up
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_1.2:
+delay_16
+delay_8
+face_up
+step_end
+
 NeoLavandaCementerioS2_Combate_Azul_Texto_1:
 .string "????: Como si fuera TORRE POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_2:
 .string "AZUL: {PLAYER}. Que estés en PUEBLO\n"
-	.string "LAVANDA no me sorprende, sí que lo\l"
-	.string "estés en este lugar en concreto.$"
+	.string "LAVANDA no me sorprende, sí que\l"
+	.string "sea en este lugar en concreto.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_3:
 .string "Lo importante ahora ocurre en la nueva\n"
@@ -244,7 +280,7 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_6:
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_7:
 .string "Siento curiosidad{PAUSE 25}…{PAUSE 25} por ver hasta dónde\n"
-	.string "has llegado. ¡Muéstrame a tu equipo!$"
+	.string "has llegado. ¡Muéstramelo!$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_8:
 .string "¡Ja! ¡Tal y como temía!$"
@@ -295,21 +331,28 @@ waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Fuji_Move_4
 applymovement 5, NeoLavandaCementerioS2_Evento_Fuji_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, NeoLavandaCementerioS2_Evento_Fuji_Move_6
 waitmovement 0x0
+delay 10
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 waitfanfare
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Fuji_Move_7
 applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_2
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 210
 release
@@ -348,10 +391,10 @@ face_right
 step_end
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_1:
-.string "FUJI: Ah, {PLAYER}. ¿Qué te parece?\n"
-	.string "¿Crees que este lugar es un digno\l"
-	.string "reemplazo de TORRE POKÉMON? No ha sido\l"
-	.string "fácil construirlo.$"
+.string "FUJI: Ah, {PLAYER}. ¿Qué te parece?\p"
+	.string "¿Crees que este lugar es un digno\n"
+	.string "reemplazo de TORRE POKÉMON?\p"
+	.string "No ha sido fácil construirlo.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_2:
 .string "Como habrás podido comprobar, el lugar\n"
@@ -359,8 +402,8 @@ NeoLavandaCementerioS2_Evento_Fuji_Texto_2:
 	.string "espíritu de MAROWAK, ya lo\l"
 	.string "ahuyentaste. Debe tratarse de algo\l"
 	.string "más antiguo{PAUSE 25}…{PAUSE 25} tal vez vinculado a la\l"
-	.string "creación misma de TORRE POKÉMON{PAUSE 25}…{PAUSE 25} es\l"
-	.string "muy probable que haya visto su\l"
+	.string "creación misma de TORRE POKÉMON{PAUSE 25}…{PAUSE 25}\p"
+	.string "Es muy probable que haya visto su\n"
 	.string "destrucción como un agravio a su\l"
 	.string "descanso.$"
 
@@ -373,7 +416,7 @@ NeoLavandaCementerioS2_Evento_Fuji_Texto_3:
 	.string "combate POKÉMON.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_4:
-.string "SECRETARIA: Aquí tienes la LLAVE.\n"
+.string "SECRETARIA: Aquí tienes la LLAVE.\p"
 	.string "Mucha suerte.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_5:
@@ -398,6 +441,7 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_1
 waitmovement 0x0
+waitse
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_2
 waitmovement 0x0
@@ -443,14 +487,64 @@ playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8007, 2  @ shake delay
 	special ShakeCamera
 	delay 30
+playse SE_M_PSYBEAM2
+clearflag FLAG_HOENN_675
+addobject 23
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_1
+waitmovement 0x0
+delay 50
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+delay 50
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_145, NeoLavandaCementerioS2_Evento_Ghost_Texto_2
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
-playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
-waitmoncry
-playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
-waitmoncry
+delay 50
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+delay 50
 playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8004, 0  @ vertical pan
 	setvar VAR_0x8005, 3  @ horizontal pan
@@ -472,6 +566,28 @@ playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8007, 2  @ shake delay
 	special ShakeCamera
 	delay 30
+delay 50
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+removeobject 23
+delay 10
+addobject 23
+delay 10
+delay 50
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_3 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
 addobject 22
@@ -513,9 +629,17 @@ msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_6 MSGBOX_DEFAULT
 waitmoncry
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
+playse SE_M_DETECT
+dofieldeffectsparkle 32, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
+delay 10
+removeobject 23
 playse SE_M_MOONLIGHT
 delay 40
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 special SpawnCameraObject
 applymovement 21, NeoLavandaCementerioS2_Evento_Ghost_Move_7.1
 applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_7
@@ -529,12 +653,12 @@ delay 20
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_10 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_M_DETECT
-fadescreen 1
-playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+dofieldeffectsparkle 32, 5, 0
+waitfieldeffect FLDEFF_SPARKLE
+waitse
 setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
 removeobject 21
 waitmoncry
-fadescreen 0
 delay 40
 applymovement 22, NeoLavandaCementerioS2_Evento_Ghost_Move_8
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_9
@@ -543,16 +667,34 @@ delay 15
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_8.2
+applymovement 22, NeoLavandaCementerioS2_Evento_Ghost_Move_8.1
+waitmovement 0x0
 setflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 setflag FLAG_UNUSED_0x273
-fadescreen 1
-delay 20
 removeobject 22
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 211
 release
 end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_8.2:
+delay_16
+delay_8
+face_down
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_8.1:
+walk_slow_down
+walk_slow_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
 
 
 NeoLavandaCementerioS2_Evento_Ghost_Move_9:
@@ -621,20 +763,20 @@ emote_exclamation_mark
 step_end
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_1:
-.string "(Una energía extremadamente fuerte te\n"
-	.string "ataca)$"
+.string "-¡Una energía extremadamente fuerte te\n"
+	.string "ataca!-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_3:
-.string "(¡La energía parece haberse alterado\n"
-	.string "aún más!)$"
+.string "-¡La energía parece haberse alterado\n"
+	.string "aún más!-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_4:
 .string "FUJI: ¡Ya es suficiente! ¡No fue\n"
-	.string "nuestra decisión que esto acabara así!\l"
-	.string "¡Ningún lugar es eterno, ni este\l"
+	.string "nuestra decisión que esto acabara así!\p"
+	.string "¡Ningún lugar es eterno, ni este\n"
 	.string "CEMENTERIO, ni TORRE POKÉMON!$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_5:
@@ -644,7 +786,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_6:
 .string "MEW: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_7:
-.string "(MEW apaciguó al espíritu)$"
+.string "-MEW apaciguó al espíritu-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_8:
 .string "FUJI: Después de tanto tiempo.$"
@@ -664,7 +806,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
 	.string "en la esencia de PUEBLO LAVANDA?$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_12:
-.string "FUJI: C-creo{PAUSE 45}…{PAUSE 45} que me ha perdonado.$"
+.string "FUJI: C{PAUSE 25}-{PAUSE 25}creo{PAUSE 25}…{PAUSE 25} que me ha perdonado.$"
 
 
 NeoLavandaCementerioS2_Novena_Exorciasta::
@@ -688,8 +830,8 @@ release
 end
 
 Llave_Cementerio_Warp_Texto_1:
-.string "(Detrás de esta puerta hay una energía\n"
-	.string "muy fuerte)$"
+.string "-Detrás de esta puerta hay una energía\n"
+	.string "muy fuerte-.$"
 
 
 Llave_Cementerio_Warp_2::

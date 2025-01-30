@@ -6190,7 +6190,7 @@ Route8_Text_Necio3PostBattle:
 
 
 Route8_Text_Anciano2Intro:
-	.string "¡Jah!\n"
+	.string "¡Ja!\n"
 	.string "¡Estoy en racha ven a por mí!$"
 
 
@@ -8089,7 +8089,7 @@ PowerPlant_Text_Policia5Defeated:
 
 
 PowerPlant_Policia5PostBattle:
-	.string "¡Jah!\n"
+	.string "¡Ja!\n"
 	.string "¡Ni los LÍDERES DE GIMNASIO saben\l"
 	.string "quién manda realmente, va a\l"
 	.string "saberlo un pobre ROCKET como tú!$"
@@ -12087,7 +12087,7 @@ UnionCave_Text_KaratekaPostBattle:
 
 
 UnionCave_Text_Necio2Intro:
-	.string "¡Jah!\n"
+	.string "¡Ja!\n"
 	.string "¡Mi colección es incomparable!\l"
 	.string "¡Observa y llora!$"
 
@@ -15856,7 +15856,7 @@ AzaleaCarbonS2_Text_Obrero2PostBattle:
 
 
 AzaleaCarbonS2_Text_Obrero3Intro:
-	.string "¡Jah! ¡No tienes idea de lo terribles que\n"
+	.string "¡Bah! ¡No tienes idea de lo terribles que\n"
 	.string "son mis POKÉMON eléctricos! ¡Ellos\l"
 	.string "solos han puesto en marcha los hornos\l"
 	.string "industriales!$"

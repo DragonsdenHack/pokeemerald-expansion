@@ -199,29 +199,45 @@ special RemoveCameraObject
 applymovement 10, LavenderRadioP6_Reunion_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP6_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP6_Reunion_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_7
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_10
 waitmovement 0x0
+delay 5
 applymovement 10, LavenderRadioP6_Reunion_Move_11
 applymovement 5, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
@@ -358,8 +374,8 @@ LavenderRadioP6_Reunion_Texto_6:
 
 LavenderRadioP6_Reunion_Texto_7:
 .string "OAK: Debería prepararse para la\n"
-	.string "inauguración, después de todo él era\l"
-	.string "uno de los mayores interesados.$"
+	.string "inauguración, después de todo, él\l"
+	.string "era uno de los mayores interesados.$"
 
 LavenderRadioP6_Reunion_Texto_8:
 .string "BILL: ¡Bah! Está obsesionado con unos\n"
@@ -393,8 +409,10 @@ applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_3.1
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_3 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_5
@@ -406,6 +424,8 @@ delay 10
 playse SE_BREAKABLE_DOOR
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
 waitmovement 0x0
@@ -415,22 +435,33 @@ delay 20
 playse SE_PIN
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_10
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2
 removeobject 1
 playse SE_EXIT
@@ -440,6 +471,7 @@ end
 
 LavenderRadioP6_Combate_Bill_Move_3.1:
 walk_slow_left
+delay_16
 walk_slow_down
 step_end
 
@@ -512,13 +544,13 @@ LavenderRadioP6_Combate_Bill_Texto_2:
 .string "La azotea es la zona de investigación\n"
 	.string "más importante de toda la TORRE RADIO,\l"
 	.string "dónde mejor se puede trabajar con las\l"
-	.string "ondas. Por eso hay una única vía de\l"
-	.string "acceso.$"
+	.string "ondas.\p"
+	.string "Por eso hay una única vía de acceso.$"
 
 LavenderRadioP6_Combate_Bill_Texto_3:
 .string "Eso quiere decir que estás obligado a\n"
-	.string "pasar por aquí para subir a la azotea,\l"
-	.string "pero también{PAUSE 5}…{PAUSE 5}$"
+	.string "pasar por aquí si quieres llegar\l"
+	.string "a la azotea, pero también{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Combate_Bill_Texto_4:
 .string "¡Que estás obligado a combatir conmigo\n"
@@ -538,15 +570,15 @@ LavenderRadioP6_Combate_Bill_Texto_7:
 
 LavenderRadioP6_Combate_Bill_Texto_8:
 .string "¡¿El POKÉMON ESENCIA era real y yo\n"
-	.string "estaba equivocado?! ¿Has sido\l"
-	.string "bendecido por él y por el FUERTE\l"
-	.string "VÍNCULO? ¿Yo nunca seré capaz de\l"
-	.string "experimentar algo similar con ningún\l"
-	.string "POKÉMON?$"
+	.string "estaba equivocado?!\p"
+	.string "¿Has sido bendecido por él y por el\n"
+	.string "FUERTE VÍNCULO?\p"
+	.string "¿Yo nunca seré capaz de experimentar\n"
+	.string "algo similar con ningún POKÉMON?$"
 
 LavenderRadioP6_Combate_Bill_Texto_9:
-.string "¡Bah! Te creía más serio, {PLAYER}.\n"
-	.string "¿De verdad crees toda esa basura\l"
+.string "¡Bah! Te creía más serio, {PLAYER}.\p"
+	.string "¿De verdad crees toda esa basura\n"
 	.string "sentimental que acabas de mencionar?$"
 
 LavenderRadioP6_Combate_Bill_Texto_10:
@@ -564,10 +596,10 @@ LavenderRadioP6_Combate_Bill_Texto_11:
 LavenderRadioP6_Combate_Bill_Texto_12:
 .string "¡Crearé un PORYGON4, PORYGON5 o 10 si\n"
 	.string "es necesario! Cuando matemáticamente\l"
-	.string "te derrote siempre de un solo golpe y\l"
-	.string "tú no puedas hacer nada, ahí me\l"
-	.string "hablarás de vínculos y demás\l"
-	.string "historias.$"
+	.string "te derrote siempre de un solo golpe, y\l"
+	.string "tú no puedas hacer nada{PAUSE 5}…{PAUSE 5}\p"
+	.string "¡Ahí me hablarás de vínculos y demás\n"
+	.string "historias!$"
 
 LavenderRadioP6_Encuentro_Andra::
 lock
@@ -588,17 +620,30 @@ delay 20
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_8
 waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
@@ -617,6 +662,14 @@ playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 214
 release
 end
+
+LavenderRadioP6_Encuentro_Andra_Move_4.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+step_end
 
 LavenderRadioP6_Encuentro_Andra_Move_9:
 walk_in_place_right
@@ -675,9 +728,9 @@ LavenderRadioP6_Encuentro_Andra_Texto_2:
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.1:
 .string "He hablado con GIOVANNI y no hay\n"
-	.string "problema respecto a los MOTORISTAS. Al\l"
-	.string "final, podrán asentarse en su ciudad\l"
-	.string "favorita: FUCSIA.$"
+	.string "problema respecto a los MOTORISTAS.\l"
+	.string "Al final, podrán asentarse en su\l"
+	.string "ciudad favorita: FUCSIA.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.2:
 .string "Creo que el propio GIOVANNI quedó\n"
@@ -688,9 +741,11 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.2:
 LavenderRadioP6_Encuentro_Andra_Texto_2.3:
 .string "Sinceramente, creo que todos estos\n"
 	.string "cambios tan repentinos nos están\l"
-	.string "cegando un poco a todos. Y todo esto\l"
-	.string "de las ondas de radio, a mí me genera\l"
-	.string "inquietud{PAUSE 5}…{PAUSE 5}$"
+	.string "cegando un poco a todos.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2.4:
+	.string "Y todo esto de las ondas de radio, a\n"
+	.string "mí me genera inquietud{PAUSE 5}…{PAUSE 5}$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:

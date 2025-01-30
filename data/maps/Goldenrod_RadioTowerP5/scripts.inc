@@ -2311,7 +2311,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_59:
 	.string "profano.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_60:
-.string "OAK: ¡Jah! ¿Ahora que te acercas al\n"
+.string "OAK: ¡Ja! ¿Ahora que te acercas al\n"
 	.string "límite real es cuando sientes vértigo?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_60.1:

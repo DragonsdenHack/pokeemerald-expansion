@@ -94,18 +94,25 @@ LavenderRadioDocumento_Text_101:
 	.string "4to Piso - Terraza$"
 
 LavenderRadio_Evento_Guay_Arriba::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_FAILURE
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2
 waitmovement 0x0
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_PIN
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
 waitmovement 0x0
+waitse
 delay 10
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
 waitmovement 0x0
@@ -117,18 +124,25 @@ release
 end
 
 LavenderRadio_Evento_Guay_Centro::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_FAILURE
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2.1
 waitmovement 0x0
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_PIN
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
 waitmovement 0x0
+waitse
 delay 10
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
 waitmovement 0x0
@@ -140,18 +154,25 @@ release
 end
 
 LavenderRadio_Evento_Guay_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_FAILURE
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2
 waitmovement 0x0
+delay 10
 msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
 delay 10
 playse SE_PIN
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
 waitmovement 0x0
+waitse
 delay 10
 applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
 waitmovement 0x0
@@ -213,9 +234,9 @@ LavenderRadio_Evento_Guay_Texto_1:
 
 LavenderRadio_Evento_Guay_Texto_2:
 .string "ENTR.GUAY: ¡Jo! ¡Con la ilusión que me\n"
-	.string "hacía ver las plantas de arriba! ¡Ya no\l"
-	.string "se puede entrar tampoco a SILPH, KANTO\l"
-	.string "está vacía!$"
+	.string "hacía ver las plantas de arriba!\p"
+	.string "¡Ya no se puede entrar tampoco a\n"
+	.string "SILPH, KANTO está vacía!$"
 
 LavenderRadio_Evento_Guay_Texto_3:
 .string "POLICÍA: KANTO está más llena que\n"

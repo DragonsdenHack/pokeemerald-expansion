@@ -134,7 +134,7 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_14:
-.string "¡Jah!\p"
+.string "¡Ja!\p"
 .string "¡No pudieron hacer uso de nuestro\n"
 .string "sistema de trampas POKÉMON!\p"
 .string "¡Mira cómo explotan esos KOFFING!$"

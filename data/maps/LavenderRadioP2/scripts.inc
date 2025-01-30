@@ -261,7 +261,7 @@ step_end
 
 LavenderRadioP2_Evento_Fuji_Texto_1:
 .string "FUJI: ¡Oh! Qué pronto has llegado,\n"
-	.string "{PLAYER}, ANDRA aún no ha llegado.$"
+	.string "{PLAYER}.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_2:
 .string "Yo debería estar en el nuevo\n"
@@ -273,19 +273,19 @@ LavenderRadioP2_Evento_Fuji_Texto_2:
 LavenderRadioP2_Evento_Fuji_Texto_3:
 .string "La TORRE RADIO ha conservado las\n"
 	.string "medidas y pisos originales de TORRE\l"
-	.string "LAVANDA. Aunque solo será perceptible\l"
+	.string "POKÉMON. Aunque solo será perceptible\l"
 	.string "para los que trabajemos aquí, el resto\l"
 	.string "no podrá pasar de la primera planta, y\l"
 	.string "con motivo{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP2_Evento_Fuji_Texto_4:
 .string "BILL y ELM conocen mejor su\n"
-	.string "funcionamiento. Al parecer estas ondas\l"
+	.string "funcionamiento. Al parecer, estas ondas\l"
 	.string "de radio rastrean posibles mutaciones,\l"
 	.string "el 99,9% perjudiciales para un POKÉMON\l"
-	.string "y su rendimiento. Aquí nos\l"
-	.string "encargaremos de seleccionar ese 0,1%\l"
-	.string "restante, el que nos puede ser útil\l"
+	.string "y su rendimiento.\p"
+	.string "Aquí nos encargaremos de seleccionar ese\n"
+	.string "0,1% restante, el que nos puede ser útil\l"
 	.string "para producir incrementos en el poder\l"
 	.string "de un POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
@@ -296,8 +296,8 @@ LavenderRadioP2_Evento_Fuji_Texto_5:
 LavenderRadioP2_Evento_Fuji_Texto_6:
 .string "Solo espero poder ocuparme de las almas\n"
 	.string "desplazadas. Al fin veo atisbos de paz\l"
-	.string "y tranquilidad en PUEBLO LAVANDA,\l"
-	.string "puede que esta torre traiga una\l"
+	.string "y tranquilidad en PUEBLO LAVANDA.\p"
+	.string "Puede que esta torre traiga una\n"
 	.string "inesperada estabilidad, aunque la\l"
 	.string "mayoría desconozca su propósito.$"
 
@@ -311,12 +311,12 @@ LavenderRadioP2_Evento_Fuji_Texto_8:
 LavenderRadioP2_Evento_Fuji_Texto_9:
 .string "Según me ha dicho BILL, aún queda para\n"
 	.string "la inauguración. Lo cierto es que me\l"
-	.string "gustaría que hicieras algo por mi, creo\l"
+	.string "gustaría que hicieras algo por mí, creo\l"
 	.string "que eres el más indicado.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_10:
 .string "Te espero en el CEMENTERIO, al sur del\n"
-	.string "pueblo, no tiene pérdida, {PLAYER}.$"
+	.string "pueblo, no tiene pérdida.$"
 
 
 Radio_P2_Barrera::
@@ -339,8 +339,8 @@ walk_slow_up
 step_end
 
 Radio_P2_Barrera_Texto_1:
-.string "(Debería ver antes a FUJI\n"
-	.string "y el CEMENTERIO del pueblo)$"
+.string "-Debería ver antes a FUJI\n"
+	.string "y el CEMENTERIO del pueblo-.$"
 
 LavenderRadioP2_Policia_Cartel::
 lock
@@ -352,8 +352,8 @@ end
 LavenderRadioP2_Policia_Cartel_Texto_1:
 .string "Hay un cartel orientativo en la planta\n"
 	.string "baja, ahí se indica lo que\l"
-	.string "supuestamente hacemos en cada piso.\l"
-	.string "Por supuesto, ese cartel es pura\l"
+	.string "supuestamente hacemos en cada piso.\p"
+	.string "Por supuesto, ese cartel es pura\n"
 	.string "fachada, si quieres ver lo que\l"
 	.string "verdaderamente se hace en cada piso,\l"
 	.string "observa los carteles a partir del P1.$"

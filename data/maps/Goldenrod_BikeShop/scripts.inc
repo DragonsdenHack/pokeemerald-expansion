@@ -38,7 +38,7 @@ release
 end
 
 Goldenrod_bikeshop_Text_3:
-.string "¡Jah!\n"
+.string "¡Ja, ja!\n"
 .string "¡De aquí directo a ISLA TERA a\l"
-.string "causar disturbios!\l"
+.string "causar disturbios!\p"
 .string "¡Claro que sí!$"

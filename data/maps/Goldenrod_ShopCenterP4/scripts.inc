@@ -66,7 +66,7 @@ release
 end
 
 Goldenrod_ShopP4_Text_6:
-.string "¡Jah!\n"
+.string "¡Bah!\n"
 .string "¡GOLPE CUERPO dice!\l"
 .string "¡Mi GOLEM ni se inmuta con eso!$"
 

@@ -350,7 +350,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_10:
 	.string "tarde.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_11:
-.string "PRESIDENTE: ¡Jah!\n"
+.string "PRESIDENTE: ¡Ja!\n"
 	.string "Seguro que es por puro interés\l"
 	.string "académico, no me hagas reír, ATLAS.\l"
 	.string "A cambio obtendréis\l"

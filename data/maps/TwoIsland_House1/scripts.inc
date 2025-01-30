@@ -70,7 +70,7 @@ release
 end
 
 TwoIslandHouse_Primer_Motero_Texto_1:
-.string "¡Jah!\n"
+.string "¡Ja!\n"
 	.string "¡Mira cómo rayo el suelo con mi moto!\l"
 	.string "¡Qué más da, si vamos a echarlo abajo\l"
 	.string "de todos modos!$"

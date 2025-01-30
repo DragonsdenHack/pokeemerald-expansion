@@ -651,7 +651,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_17:
 .string "¿Nos has escuchado?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_18:
-.string "¡Jah! ¿Qué te parece? Parece que a ese\n"
+.string "¡Ja! ¿Qué te parece? Parece que a ese\n"
 	.string "viejo carcamal aún le queda algo de\l"
 	.string "nostalgia dentro de sí, aunque se\l"
 	.string "niegue a reconocerlo.$"

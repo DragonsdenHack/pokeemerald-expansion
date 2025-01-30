@@ -451,7 +451,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_22:
 	.string "????: Con sus motes.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_23:
-	.string "C. FRIDA: Jah{PAUSE 15}…{PAUSE 15} No sé por qué me\n"
+	.string "C. FRIDA: Bah{PAUSE 15}…{PAUSE 15} No sé por qué me\n"
 	.string "sorprende, estúpidas modas pasajeras.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_24:

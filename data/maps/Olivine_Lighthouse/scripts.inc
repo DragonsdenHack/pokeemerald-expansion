@@ -465,8 +465,8 @@ Olivine_Lighthouse_Combate_Farero_Texto_16:
 	.string "un AMPHAROS sin energía.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_17:
-.string "CROM: ¡Jah!\p"
-	.string "¡Magnífico chico, magnífico!\n"
+.string "CROM: ¡Ja!\p"
+	.string "¡Magnífico chico, magnífico!\p"
 	.string "¡Nos has dejado en shock!\p"
 	.string "¡ENTRENADORES como tú escasean\n"
 	.string "cada vez más hoy en día!\l"

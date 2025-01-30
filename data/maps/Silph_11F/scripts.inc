@@ -656,9 +656,9 @@ Silph_11F_Bill_Presidente_Texto_25.1:
 .string "ANDRA: ¡URSARING, CUCHILLADA!$"
 
 Silph_11F_Bill_Presidente_Texto_26:
-.string "¡Jah!\n"
-	.string "¡Esos FÓSILES no son suficientes\l"
-	.string "para tumbar a mi equipo!\l"
+.string "¡Ja!\p"
+	.string "¡Esos FÓSILES no son suficientes\n"
+	.string "para tumbar a mi equipo!\p"
 	.string "¡Aunque te los haya dado BILL!$"
 
 Silph_11F_Bill_Presidente_Texto_27:

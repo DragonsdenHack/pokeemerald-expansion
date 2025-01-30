@@ -189,7 +189,7 @@ AzaleaCarbonS2_Segundo_Combate_Texto_1:
 	.string "como lo es ahora JOHTO.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_2:
-.string "¡Jah! ¡Tu victoria no ha servido para\n"
+.string "¡Bah! ¡Tu victoria no ha servido para\n"
 	.string "nada!$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_3:

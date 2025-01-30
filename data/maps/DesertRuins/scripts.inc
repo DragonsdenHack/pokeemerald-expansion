@@ -479,7 +479,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_20:
 	.string "pena perder el tiempo en derrotaros.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_21:
-.string "ANDRA: ¡Jah! Cuando uno cree que lo\n"
+.string "ANDRA: ¡Ja! Cuando uno cree que lo\n"
 	.string "sabe todo es el principio del fin.\p"
 	.string "¡Huye y sigue en tu ignorancia!$"
 

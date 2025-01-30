@@ -1137,7 +1137,7 @@ PalletTown_ProfessorLab_ZonaCero_Texto_8:
 	.string "Casual…$"
 
 PalletTown_ProfessorLab_ZonaCero_Texto_9:
-	.string "¡Jah! ¿Cómo iba a serlo?$"
+	.string "¡Ja! ¡¿Cómo iba a serlo?!$"
 
 PalletTown_ProfessorLab_ZonaCero_Texto_10:
 	.string "Ahora parece claro. Teníamos la verdad\n"

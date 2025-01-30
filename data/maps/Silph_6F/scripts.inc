@@ -123,8 +123,8 @@ Silph6F_9_Texto_1:
 	.string "problemas!$"
 
 Silph6F_9_Texto_2:
-.string "¡JAH tuvistéis vuestro merecido\n"
-	.string "cobardes!$"
+.string "¡Ja! ¡Tuvisteis vuestro merecido!\n"
+	.string "¡Cobardes!$"
 
 
 

@@ -118,7 +118,7 @@ release
 end
 
 Cianwood_Gym_Combate_Anibal_Texto_11.1:
-.string "¡Jah! ¡Llévate también esta MT!$"
+.string "¡Ja! ¡Llévate también esta MT!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11.2:
 .string "¡¡{PLAYER} obtuvo la MT65 PUNTAPIE\n"

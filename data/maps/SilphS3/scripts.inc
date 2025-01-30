@@ -322,7 +322,7 @@ SilphS3_Miguel_Batalla_Texto_7:
 	.string "ser suficiente.$"
 
 SilphS3_Miguel_Batalla_Texto_8:
-.string "¡Jah!\n"
+.string "¡Ja!\n"
 	.string "¡Nada ha cambiado después de todo!\l"
 	.string "Sigues siendo inaborable.\p"
 	.string "De todos modos, mis investigaciones\n"

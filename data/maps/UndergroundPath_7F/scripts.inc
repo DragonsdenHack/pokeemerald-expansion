@@ -290,7 +290,7 @@ walk_up
 step_end
 
 UndergroundPath_7F_Combates_Motoristas_Texto_1:
-.string "¡Jah! ¿Otro POLICÍA más?\p"
+.string "¡Ja! ¿Otro POLICÍA más?\p"
 	.string "¿Aún no habéis tenido suficiente?\p"
 	.string "¡No nos moveremos de aqu…!$"
 
@@ -725,7 +725,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_10:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_11:
-.string "Jah, ¿derrotarme fácilmente?$"
+.string "¿Derrotarme fácilmente? ¡Ja!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_12:
 .string "No estamos en un combate homologado,\n"
@@ -1383,7 +1383,7 @@ UndergroundPath_7F_Escena_Final_Texto_4:
 	.string "No podemos ocultarlo más, que pase.$"
 
 UndergroundPath_7F_Escena_Final_Texto_5:
-.string "LT.SURGE: Jah, la pregunta es, ¿qué\n"
+.string "LT.SURGE: ¡Ja! La pregunta es, ¿qué\n"
 	.string "harás ahora, {PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_6:
@@ -1430,7 +1430,7 @@ UndergroundPath_7F_Escena_Final_Texto_66:
 	.string "¿¡Estás bromeando!?$"
 
 UndergroundPath_7F_Escena_Final_Texto_67:
-.string "¡Jah! ¿Qué te has creído, chico?\p"
+.string "¡Ja! ¿Qué te has creído, chico?\p"
 	.string "Las condiciones aquí las ponemos\n"
 	.string "nosotros, ¡no vas a volver a campar a\l"
 	.string "tus anch{PAUSE 5}…{PAUSE 5}!$"
@@ -1708,7 +1708,7 @@ UndergroundPath_7F_Escena_Final_Texto_56:
 	.string "por {PLAYER}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_57:
-.string "ANDRA: ¡Jah! Le está bien empleado,\n"
+.string "ANDRA: ¡Ja! Le está bien empleado,\n"
 	.string "ahora se va sin combatir porque sabe\l"
 	.string "que en un 1 contra 1 no tiene opciones.$"
 

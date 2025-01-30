@@ -3638,7 +3638,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_11_1:
 	
 
 PokemonTower5F_Escena_4_Blaine_Texto_12:
-.string "BLAINE: Jah{PAUSE 25}…{PAUSE 25} ¡A 3 más bien!$"
+.string "BLAINE: ¡¿Uno{PAUSE 25}…{PAUSE 25}?! ¡A 3 más bien!$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_13:
 .string "GIOVANNI: ¿Aceptas entonces mi\n"

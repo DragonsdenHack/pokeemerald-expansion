@@ -316,25 +316,25 @@ RocketHideoutViridian_Combate_Petrel_Texto_3:
 	.string "las garantías!$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_4:
-.string "Gran combate {PLAYER}, eres un\n"
-	.string "EJECUTIVO ROCKET con todas las\l"
-	.string "de la ley.$"
+.string "Gran combate, {PLAYER}.\p"
+	.string "Eres un EJECUTIVO ROCKET con\n"
+	.string "todas las de la ley.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_5:
-.string "¡JAH!\n"
-	.string "¡Espléndido!\l"
-	.string "¡No esperaba menos de aquel que\l"
+.string "¡Ja!\p"
+	.string "¡Espléndido!\p"
+	.string "¡No esperaba menos de aquel que\n"
 	.string "derrotó a BRUNO y salvó a mis\l"
 	.string "colegas MOTORISTAS!\l"
 	.string "Me alegra que estés de nuestro\l"
-	.string "lado {PLAYER}. Hazme un favor si te\l"
+	.string "lado, {PLAYER}. Hazme un favor si te\l"
 	.string "llegas a cruzar con ese chico\l"
 	.string "llamado ROJO, sí, ese que cree\l"
-	.string "estar una dimensión por encima\l"
+	.string "estar en una dimensión por encima\l"
 	.string "nuestra, y piensa que es imbatible\l"
-	.string "e intocable, ¡dale una buena dosis\l"
-	.string "de realidad de parte del TEAM\l"
-	.string "ROCKET!$"
+	.string "e intocable.\p"
+	.string "De parte del TEAM ROCKET, ¡dale\n"
+	.string "una buena dosis de realidad!$"
 
 RocketHideoutViridian_Combate_Petrel_Move_1:
 walk_up
