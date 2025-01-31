@@ -2073,12 +2073,10 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
 .string "PROTÓN: ¡Llamad a todos los\n"
 	.string "RECLUTAS DE ALTO RANGO y\l"
-	.string "EJECUTIVOS disponibles!\l"
-	.string "¡Proteged el acceso a\l"
-	.string "nuestro LÍDER!\l"
-	.string "¡Si fuere necesario, recurrid a\l"
-	.string "nuestra sala de específemenes\l"
-	.string "esp…!$"
+	.string "EJECUTIVOS disponibles!\p"
+	.string "¡Proteged el acceso a nuestro LÍDER!\p"
+	.string "¡Si fuere necesario, recurrid a\n"
+	.string "nuestra sala de espécimenes…!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5:
 .string "GIOVANNI: ¡ALTO!$"

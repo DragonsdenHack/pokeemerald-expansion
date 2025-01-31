@@ -757,8 +757,8 @@ PokemonLeague_6F_Final_Texto_31.1:
 PokemonLeague_6F_Final_Texto_31.2:
 	.string "¡Tal vez subestimaste los efectos de\n"
 	.string "ese trabajo excesivo del que hablaste\l"
-	.string "como inhibidor del rendimiento!\l"
-	.string "¡Al menos para aquellos capaces\l"
+	.string "como inhibidor del rendimiento!\p"
+	.string "¡Al menos para aquellos capaces\n"
 	.string "de sobrevivir y reconducirlo en\l"
 	.string "la dirección adecuada!$"
 
@@ -802,8 +802,8 @@ PokemonLeague_6F_Final_Texto_37:
 
 PokemonLeague_6F_Final_Texto_38:
 .string "¿Por qué crees que la gente venera\n"
-	.string "a los LEGENDARIOS y PSEUDOLEGENDARIOS?\l"
-	.string "A nadie le importa de dónde provengan,\l"
+	.string "a los LEGENDARIOS y PSEUDOLEGENDARIOS?\p"
+	.string "A nadie le importa de dónde provengan,\n"
 	.string "lo único que nos interesa de ellos es\l"
 	.string "que, comparados con el resto de POKÉMON,\l"
 	.string "cuentan con un poder único, excepcional.$"
@@ -849,8 +849,8 @@ PokemonLeague_6F_Final_Texto_42:
 	.string "mínimo en contra de mi gobierno.$"
 
 PokemonLeague_6F_Final_Texto_43:
-.string "Mira el lado bueno, ROCKET.\n"
-	.string "Pasarás a la historia como aquel que\l"
+.string "Mira el lado bueno, ROCKET.\p"
+	.string "Pasarás a la historia como aquel que\n"
 	.string "obligó a LANCE I a hacer uso de sus\l"
 	.string "sagrados POKÉMON, justo antes de dar\l"
 	.string "inicio a la nueva fase de su reinado{PAUSE 5}…{PAUSE 5}$"
@@ -877,15 +877,15 @@ PokemonLeague_6F_Final_Texto_47:
 	.string "¿Cómo?$"
 
 PokemonLeague_6F_Final_Texto_48:
-.string "LANCE: Esto es imposible, nadie\n"
-	.string "había opuesto resistencia a mis\l"
-	.string "mejores POKÉMON, ¡son los mejores\l"
-	.string "que existen!\l"
-	.string "¡No puede encontrarse nada mejor\l"
-	.string "que esto en toda KANTO!$"
+.string "LANCE: ¡Esto es imposible!\p"
+	.string "¡Nadie había opuesto resistencia a\n"
+	.string "mis mejores POKÉMON, ellos han\l"
+	.string "nacido para esto!\p"
+	.string "¡No puede encontrarse nada\n"
+	.string "mejor en toda KANTO!$"
 
 PokemonLeague_6F_Final_Texto_49:
-.string "????: Te equivocas LANCE.$"
+.string "????: Te equivocas, LANCE.$"
 
 PokemonLeague_6F_Final_Texto_50:
 .string "GIOVANNI: Tu orgullo y tu\n"

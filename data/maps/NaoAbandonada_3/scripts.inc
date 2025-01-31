@@ -29,7 +29,7 @@ NaoAbandonada_3_Naufragio_Texto_1:
 	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 NaoAbandonada_3_Naufragio_Texto_2:
-	.string "Es una diario muy desgastado\n"
+	.string "Es un diario muy desgastado\n"
 	.string "por el paso del tiempo.$"
 
 NaoAbandonada_3_Naufragio_Texto_3:

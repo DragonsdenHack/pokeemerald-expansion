@@ -694,11 +694,11 @@ end
 RocketHideoutJohtoP1Documento_Text_107:
 .string "BLASTOISE-MEGA:\p"
 	.string "PS: 99\n"
-	.string "ATAQUE: 103\l"
-	.string "DEFENSA: 120\l"
+	.string "ATAQUE: 93\l"
+	.string "DEFENSA: 130\l"
 	.string "ATAQUE ESPECIAL: 135\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 78\l"
+	.string "DEFENSA ESPECIAL: 125\l"
+	.string "VELOCIDAD: 68\l"
 	.string "TOTAL: 650\p"
 	.string "La enorme capacidad defensiva de\n"
 	.string "BLASTOISE concentrada ahora en un\l"
@@ -1844,4 +1844,25 @@ RocketHideoutJohtoP1_LanzaMugre_Texto_2:
 	.string "el rival. El único punto en contra es su\l"
 	.string "precisión, ¿te imaginas poder usarla\l"
 	.string "sin fallar?$"
+
+Llave_Despacho_Johto_Atajo_P2::
+compare VAR_UNUSED_0x40F7, 153
+goto_if_gt Llave_Despacho_Johto_Atajo_P2_Abierto
+msgbox Llave_Despacho_Hoenn_Atajo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Llave_Despacho_Johto_Atajo_P2_Abierto::
+delay 20
+playse SE_CLICK
+waitse
+delay 20
+playse SE_UNLOCK
+setmetatile 29, 23, 0x335, FALSE
+setmetatile 29, 22, 0x335, FALSE
+special DrawWholeMapView
+delay 30
+release
+end
+
 

@@ -80,7 +80,7 @@ release
 end
 
 RocketHideout7F_Text_5:
-.string "Lo sentimos {PLAYER}, pero este\n"
+.string "Lo sentimos, {PLAYER}, pero este\n"
 .string "lugar está aún en fase\l"
 .string "experimental, solo nuestros\l"
 .string "mejores científicos tienen acceso.$"
@@ -1172,6 +1172,75 @@ RocketHideout7FDocumento_Text_122:
 	.string "Su origen es completamente\l"
 	.string "desconocido.$"
 
+RocketHideout7FDocumento_Latias::
+lock     
+showmonpic SPECIES_LATIAS, 10, 3   
+playmoncry SPECIES_LATIAS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout7FDocumento_Text_Latias, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latias_1, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latias_2, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout7FDocumento_Text_Latias:
+.string "NÚMERO 5: LATIAS\p"
+	.string "PS: 80\n"
+	.string "ATAQUE: 80\l"
+	.string "DEFENSA: 90\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 130\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 600$"
+
+RocketHideout7FDocumento_Text_Latias_1:
+	.string "Junto con LATIOS, forma uno de los dúos\n"
+	.string "LEGENDARIOS más esquivos para el\l"
+	.string "humano. Cuenta con mayor eficiencia,\l"
+	.string "pero menor poder ofensivo que su\l"
+	.string "hermano.$"
+
+RocketHideout7FDocumento_Text_Latias_2:
+	.string "Sus números son similares a los de un\n"
+	.string "PSEUDOLEGENDARIO con buen reparto de\l"
+	.string "stats, sin embargo, equipado con el\l"
+	.string "ROCÍO BONDAD alcanza cotas de\l"
+	.string "LEGENDARIO MAYOR.$"
+
+RocketHideout7FDocumento_Latios::
+lock     
+showmonpic SPECIES_LATIOS, 10, 3   
+playmoncry SPECIES_LATIOS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout7FDocumento_Text_Latios, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latios_1, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latios_2, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout7FDocumento_Text_Latios:
+.string "NÚMERO 4: LATIOS\p"
+	.string "PS: 80\n"
+	.string "ATAQUE: 90\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 130\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 600$"
+
+RocketHideout7FDocumento_Text_Latios_1:
+	.string "Junto con LATIAS, forma uno de los dúos\n"
+	.string "LEGENDARIOS más esquivos para el\l"
+	.string "humano. Cuenta con menor eficiencia,\l"
+	.string "pero mayor poder ofensivo que su\l"
+	.string "hermana.$"
+
+RocketHideout7FDocumento_Text_Latios_2:
+	.string "Sus números son similares a los de un\n"
+	.string "PSEUDOLEGENDARIO con buen reparto de\l"
+	.string "stats, sin embargo, equipado con el\l"
+	.string "ROCÍO BONDAD alcanza cotas de\l"
+	.string "LEGENDARIO MAYOR.$"
 
 
 RocketHideout7FDocumento_123::

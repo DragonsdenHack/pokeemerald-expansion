@@ -633,7 +633,7 @@
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideout7FDocumento_Latios"
     },
     {
       "type": "sign",
@@ -641,7 +641,7 @@
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideout7FDocumento_Latias"
     },
     {
       "type": "sign",

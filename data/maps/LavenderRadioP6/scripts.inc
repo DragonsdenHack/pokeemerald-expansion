@@ -659,6 +659,7 @@ setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 clearflag FLAG_NUEVA_839
 removeobject 3
 playse SE_EXIT
+waitse
 setvar VAR_UNUSED_0x40F7, 214
 release
 end
@@ -669,6 +670,8 @@ face_up
 delay_16
 delay_8
 face_player
+delay_16
+walk_in_place_right
 step_end
 
 LavenderRadioP6_Encuentro_Andra_Move_9:

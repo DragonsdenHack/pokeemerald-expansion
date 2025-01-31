@@ -5553,8 +5553,8 @@ RocketHideout_8F_Final_DLC_Texto_3:
 	.string "llevando a cabo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Final_DLC_Texto_4:
-.string "Por otro lado, DEVON ha movido ficha.\n"
-	.string "Esto no cambia en nada nuestros\l"
+.string "Por otro lado, DEVON ha movido ficha.\p"
+	.string "Esto no cambia en nada nuestros\n"
 	.string "planes, a pesar de que sepan todo lo\l"
 	.string "hablado en la II GRAN REUNIÓN.$"
 
@@ -5564,11 +5564,11 @@ RocketHideout_8F_Final_DLC_Texto_5:
 	.string "estarás al mando. Después de lo de\l"
 	.string "RUINAS ALFA, todos los POKÉMON\l"
 	.string "LEGENDARIOS que allí se concentraron\l"
-	.string "volvieron a su lugar de origen. Esto\l"
-	.string "implica que los 3 LEGENDARIOS de\l"
+	.string "volvieron a su lugar de origen.\l"
+	.string "Esto implica que los 3 LEGENDARIOS de\l"
 	.string "HOENN: KYOGRE, GROUDON y RAYQUAZA,\l"
 	.string "estarán allí, uno de tus objetivos será\l"
-	.string "encontrarlos, para poder estudiarlos.\l"
+	.string "encontrarlos, para poder estudiarlos.\p"
 	.string "Sin embargo{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Final_DLC_Texto_6:
@@ -5651,6 +5651,6 @@ RocketHideout_8F_Final_DLC_Texto_20:
 
 RocketHideout_8F_Final_DLC_Texto_21:
 .string "Mientras, seguiremos desarrollando los\n"
-	.string "prototipos de nivel II y …III. Hasta\l"
-	.string "entonces{PAUSE 25}…{PAUSE 35} mantente mejorando.$"
+	.string "prototipos de nivel II y …III.\p"
+	.string "Hasta entonces{PAUSE 25}…{PAUSE 35} mantente mejorando.$"
 

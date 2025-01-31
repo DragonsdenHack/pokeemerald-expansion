@@ -16,19 +16,27 @@ special RemoveCameraObject
 delay 20
 applymovement 37, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DevonS10_DLC_Escena_Final_Texto_6 MSGBOX_AUTOCLOSE
@@ -36,18 +44,25 @@ delay 15
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
 msgbox DevonS10_DLC_Escena_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_8
@@ -70,18 +85,26 @@ playse SE_PIN
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_14
 delay 10
 applymovement 40, DevonS9_Escena_DLC_Escena_Final_Move_13
+delay 5
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_12
+delay 5
 applymovement 35, DevonS9_Escena_DLC_Escena_Final_Move_11
+delay 5
 applymovement 36, DevonS9_Escena_DLC_Escena_Final_Move_10
+delay 5
 applymovement 37, DevonS9_Escena_DLC_Escena_Final_Move_9
 waitmovement 0x0
-delay 150
+delay 135
 msgbox DevonS10_DLC_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_15 MSGBOX_AUTOCLOSE
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_16 MSGBOX_AUTOCLOSE
@@ -90,25 +113,36 @@ applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_16
 waitmovement 0x0
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_17
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_23 MSGBOX_AUTOCLOSE
 delay 20
 msgbox DevonS10_DLC_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
 setflag FLAG_UNUSED_0x26D
@@ -348,9 +382,9 @@ DevonS10_DLC_Escena_Final_Texto_2:
 
 DevonS10_DLC_Escena_Final_Texto_3:
 .string "????: Pero hay algo que se nos escapa,\n"
-	.string "ese fenómeno del FUERTE VÍNCULO…\l"
-	.string "¿Habías experimentado tú algo similar,\l"
-	.string "C.MIGUEL?$"
+	.string "ese fenómeno del FUERTE VÍNCULO…\p"
+	.string "¿Habías experimentado tú algo\n"
+	.string "similar, C.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
 .string "C.MIGUEL: No, yo no{PAUSE 25}…{PAUSE 25} ese fenómeno solo{PAUSE 25}…{PAUSE 5}$"
@@ -415,17 +449,17 @@ DevonS10_DLC_Escena_Final_Texto_17:
 .string "Aunque{PAUSE 25}…{PAUSE 25} debo estarle agradecido,\n"
 	.string "PRESIDENTE; esa breve expedición a los\l"
 	.string "lugares ocultos de JOHTO ha cambiado\l"
-	.string "mi forma de ver el mundo. Ahí fue\l"
-	.string "cuando acepté definitivamente su\l"
-	.string "proposición.$"
+	.string "mi forma de ver el mundo.\l"
+	.string "Ahí fue cuando acepté definitivamente\l"
+	.string "su proposición.$"
 
 DevonS10_DLC_Escena_Final_Texto_18:
 .string "????: Oh, desde luego. El DRAGÓN\n"
 	.string "SAGRADO que estuvo investigando. Es\l"
 	.string "posible que, después de todo, sea un\l"
-	.string "FUERTE VÍNCULO, ¿no es así? El FUERTE\l"
-	.string "VÍNCULO más puro y poderoso\l"
-	.string "registrado.$"
+	.string "FUERTE VÍNCULO, ¿no es así?\p"
+	.string "El FUERTE VÍNCULO más puro y\n"
+	.string "poderoso registrado.$"
 
 DevonS10_DLC_Escena_Final_Texto_19:
 .string "C.MIGUEL: Lo era, aunque{PAUSE 5}…{PAUSE 5}$"

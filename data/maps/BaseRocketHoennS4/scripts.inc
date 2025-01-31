@@ -173,9 +173,9 @@ BaseRocketHoennS3_Ejecutivo_Texto_2:
 	.string "mientras usted recorre HOENN.$"
 
 Llave_Despacho_Hoenn_Atajo::
-msgbox Llave_Despacho_Hoenn_Atajo_Texto_1 MSGBOX_AUTOCLOSE
 compare VAR_UNUSED_0x40F7, 217
 goto_if_gt Llave_Despacho_Hoenn_Despues_Atajo
+msgbox Llave_Despacho_Hoenn_Atajo_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -187,9 +187,6 @@ Llave_Despacho_Hoenn_Atajo_Text_YesNo:
 	.string "¿Quieres abrir esta puerta?$"
 
 Llave_Despacho_Hoenn_Despues_Atajo::
-msgbox Llave_Despacho_Hoenn_Atajo_Text_YesNo, MSGBOX_YESNO
-compare VAR_RESULT, 0
-goto_if_eq RocketHideout_4F_Warp_No
 goto Llave_Despacho_Hoenn_Atajo_Abierto
 
 Llave_Despacho_Hoenn_Atajo_Abierto::

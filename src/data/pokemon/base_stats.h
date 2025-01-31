@@ -2652,8 +2652,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GENGAR] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 65,
+        .baseHP        = 70,
+        .baseAttack    = 75,
         .baseDefense   = 60,
         .baseSpeed     = 110,
         .baseSpAttack  = 140,
@@ -2997,7 +2997,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_HITMONLEE] =
     {
-        .baseHP        = 50,
+        .baseHP        = 60,
         .baseAttack    = 120,
         .baseDefense   = 73,
         .baseSpeed     = 87,
@@ -3509,12 +3509,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_JYNX] =
     {
-        .baseHP        = 65,
+        .baseHP        = 75,
         .baseAttack    = 50,
-        .baseDefense   = 35,
+        .baseDefense   = 45,
         .baseSpeed     = 95,
         .baseSpAttack  = 115,
-        .baseSpDefense = 95,
+        .baseSpDefense = 105,
         .type1 = TYPE_ICE,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
@@ -3527,7 +3527,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OBLIVIOUS, ABILITY_FOREWARN, ABILITY_DRY_SKIN},
+            .abilities = {ABILITY_OBLIVIOUS, ABILITY_MAGIC_BOUNCE, ABILITY_DRY_SKIN},
         #else
             .abilities = {ABILITY_OBLIVIOUS, ABILITY_NONE},
         #endif
@@ -3707,9 +3707,9 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 140,
         .baseAttack    = 85,
         .baseDefense   = 80,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 95,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 105,
         .type1 = TYPE_WATER,
         .type2 = TYPE_ICE,
         .catchRate = 45,
@@ -4129,11 +4129,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_MOLTRES] =
     {
         .baseHP        = 90,
-        .baseAttack    = 100,
+        .baseAttack    = 85,
         .baseDefense   = 90,
         .baseSpeed     = 90,
         .baseSpAttack  = 125,
-        .baseSpDefense = 85,
+        .baseSpDefense = 100,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
@@ -4361,9 +4361,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_GRASS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_LEAF_GUARD},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #else
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
@@ -4427,7 +4427,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 119,
         .baseSpDefense = 90,
         .type1 = TYPE_FIRE,
-        .type2 = TYPE_FIRE,
+        .type2 = TYPE_GROUND,
         .catchRate = 45,
         .expYield = 209,
         .evYield_SpAttack  = 3,
@@ -4675,9 +4675,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LEDIAN] =
     {
         .baseHP        = 55,
-        .baseAttack    = 35,
+        .baseAttack    = 45,
         .baseDefense   = 50,
-        .baseSpeed     = 85,
+        .baseSpeed     = 95,
         .baseSpAttack  = 55,
         .baseSpDefense = 110,
         .type1 = TYPE_BUG,
@@ -4692,9 +4692,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SWARM, ABILITY_EARLY_BIRD, ABILITY_IRON_FIST},
+            .abilities = {ABILITY_HUGE_POWER, ABILITY_HUGE_POWER, ABILITY_HUGE_POWER},
         #else
-            .abilities = {ABILITY_SWARM, ABILITY_EARLY_BIRD},
+            .abilities = {ABILITY_HUGE_POWER, ABILITY_HUGE_POWER},
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -5433,13 +5433,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SUNFLORA] =
     {
         .baseHP        = 75,
-        .baseAttack    = 75,
-        .baseDefense   = 55,
+        .baseAttack    = 55,
+        .baseDefense   = 75,
         .baseSpeed     = 30,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 85,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 115,
         .type1 = TYPE_GRASS,
-        .type2 = TYPE_GRASS,
+        .type2 = TYPE_FIRE,
         .catchRate = 120,
         .expYield = 146,
         .evYield_SpAttack  = 2,
@@ -5450,9 +5450,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_GRASS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER, ABILITY_EARLY_BIRD},
+            .abilities = {ABILITY_FLASH_FIRE, ABILITY_SOLAR_POWER, ABILITY_EARLY_BIRD},
         #else
-            .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_EARLY_BIRD},
+            .abilities = {ABILITY_FLASH_FIRE, ABILITY_NONE, ABILITY_EARLY_BIRD},
         #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
@@ -6193,16 +6193,16 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MAGCARGO] =
     {
-        .baseSpDefense = 80,
+        .baseSpDefense = 110,
         .baseAttack    = 50,
         .baseDefense   = 120,
         .baseSpeed     = 30,
         #if P_UPDATED_STATS >= GEN_7
-            .baseHP        = 60,
+            .baseHP        = 90,
             .baseSpAttack  = 90,
         #else
-            .baseHP        = 50,
-            .baseSpAttack  = 80,
+            .baseHP        = 90,
+            .baseSpAttack  = 90,
         #endif
         .type1 = TYPE_FIRE,
         .type2 = TYPE_ROCK,
@@ -6216,9 +6216,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY, ABILITY_WEAK_ARMOR},
+            .abilities = {ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK},
         #else
-            .abilities = {ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY},
+            .abilities = {ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK},
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = TRUE,

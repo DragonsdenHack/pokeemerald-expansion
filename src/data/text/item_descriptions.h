@@ -3713,7 +3713,7 @@ static const u8 sTM166Desc[] = _( // Todo
 static const u8 sTM167Desc[] = _( // Todo
     "Se intercambia\n"
    	"con otro después\n"
-   	"de golepar.");
+   	"de golpear.");
 
 static const u8 sTM168Desc[] = _( // Todo
     "Ataque helado\n"

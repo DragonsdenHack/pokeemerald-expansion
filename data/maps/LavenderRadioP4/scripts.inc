@@ -98,20 +98,29 @@ waitmovement 0x0
 special RemoveCameraObject
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_7 MSGBOX_AUTOCLOSE
@@ -119,94 +128,133 @@ delay 20
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_7
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_5
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_13 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_14 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 20, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 23, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
+waitse
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_14.1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 9, LavenderRadioP4_Devon_Combates_Move_10
+waitmovement 0x0
+waitse
 delay 15
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_11
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_12
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_17 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 20, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 23, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
 delay 20
 playbgm 567, FALSE
 delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 17
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 12
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 13
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 13, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 25
+waitfieldeffect FLDEFF_NPCFLY_OUT
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 14
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 14, LavenderRadioP4_Devon_Combates_Move_14
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 19
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_18
 applymovement 19, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
@@ -225,15 +273,23 @@ waitmoncry
 delay 20
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_38
 waitmovement 0x0
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 10
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
@@ -241,29 +297,42 @@ waitse
 delay 20
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
 delay 20
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_24 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 waitse
@@ -278,14 +347,19 @@ applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP4_Devon_Combates_Move_37
 waitmovement 0x0
 special RemoveCameraObject
 clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 18
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 26
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
 waitse
@@ -297,16 +371,22 @@ special RemoveCameraObject
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_22
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_23
 waitmovement 0x0
+delay 5
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 msgbox LavenderRadioP4_Devon_Combates_Texto_31 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_14, LavenderRadioP4_Devon_Combates_Texto_32
@@ -315,6 +395,7 @@ delay 15
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_16
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_12
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_33 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_15, LavenderRadioP4_Devon_Combates_Texto_34
 playbgm 567, FALSE
@@ -322,12 +403,17 @@ delay 15
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_35.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_36 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_37 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CMIGUEL_4, LavenderRadioP4_Devon_Combates_Texto_38
 playbgm 627, FALSE
@@ -339,9 +425,11 @@ msgbox LavenderRadioP4_Devon_Combates_Texto_40 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 25, LavenderRadioP4_Devon_Combates_Move_25
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_41 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_42 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_26
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_26
@@ -350,23 +438,32 @@ applymovement 14, LavenderRadioP4_Devon_Combates_Move_27
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_43 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_44 MSGBOX_AUTOCLOSE
 waitse
 playse SE_PIN
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_28
+delay 5
 applymovement 13, LavenderRadioP4_Devon_Combates_Move_28
 waitmovement 0x0
+waitse
+delay 5
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 14, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 19, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 15, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_29
 waitmovement 0x0
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
@@ -378,22 +475,28 @@ applymovement 10, LavenderRadioP4_Devon_Combates_Move_29.1
 waitmovement 0x0
 delay 15
 playse SE_PC_ON
-delay 20
+waitse
+delay 15
 playse SE_PC_LOGIN
-delay 20
+waitse
+delay 15
 playse SE_PIN
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
+waitse
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_30
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_46 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_SELECT
+waitse
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_47 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_31
 waitmovement 0x0
+waitse
 msgbox LavenderRadioP4_Devon_Combates_Texto_48 MSGBOX_AUTOCLOSE
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_49 MSGBOX_AUTOCLOSE
@@ -412,9 +515,12 @@ applymovement 10, LavenderRadioP4_Devon_Combates_Move_32
 waitmovement 0x0
 delay 30
 msgbox LavenderRadioP4_Devon_Combates_Texto_52 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_33
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_53 MSGBOX_AUTOCLOSE
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_54 MSGBOX_AUTOCLOSE
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_34
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_9
@@ -448,6 +554,8 @@ delay 50
 playse SE_BREAKABLE_DOOR
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_55 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -456,28 +564,39 @@ playbgm 627, FALSE
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_35
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_57 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_35
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_58 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_59 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_60 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_61 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_62 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_63 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_64 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+waitse
 msgbox LavenderRadioP4_Devon_Combates_Texto_65 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
 fadescreen 1
@@ -501,6 +620,7 @@ applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP4_Devon_Combates_Move_2.2
 waitmovement 0x0
 special RemoveCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_19
+delay 5
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_66 MSGBOX_AUTOCLOSE
@@ -510,11 +630,15 @@ delay 20
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.1 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_2.4
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.2 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.5
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.3 MSGBOX_AUTOCLOSE
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.3
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_2.3
@@ -563,39 +687,64 @@ waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_76 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_77 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_78 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_79 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_18
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_80 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_81 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_82 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_18
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_83 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_84 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_85 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_86 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_87 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_10
+waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_88 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_89 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_34
 waitmovement 0x0
 delay 40
@@ -604,18 +753,19 @@ delay 40
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
-fadescreen 1
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 9
+waitfieldeffect FLDEFF_NPCFLY_OUT
 waitse
 addobject 4
 addobject 2
 addobject 5
 addobject 1
 addobject 3
-removeobject 9
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 215
 release
 end
@@ -798,6 +948,7 @@ step_end
 
 LavenderRadioP4_Devon_Combates_Move_11:
 walk_slow_up
+delay_16
 face_left
 step_end
 
@@ -869,8 +1020,8 @@ LavenderRadioP4_Devon_Combates_Texto_1:
 	.string "hubiera gustado hacer de esta\l"
 	.string "celebración algo más{PAUSE 25}…{PAUSE 25} del pueblo. Pero,\l"
 	.string "como sabéis, los verdaderos propósitos\l"
-	.string "de este lugar no son de dominio público.\l"
-	.string "Después de años de disputas entre\l"
+	.string "de este lugar no son de dominio público.\p"
+	.string "Después de años de disputas entre\n"
 	.string "nosotros, al fin tenemos todos los\l"
 	.string "recursos necesarios para alcanzar lo\l"
 	.string "óptimo. La construcción de este lugar\l"
@@ -900,31 +1051,31 @@ LavenderRadioP4_Devon_Combates_Texto_6:
 	.string "cambio de color en el POKÉMON\l"
 	.string "expuesto, algo que sin duda agradará a\l"
 	.string "aquellos POKEMANÍACOS que quieran\l"
-	.string "fardar de algo sin ninguna aplicación\l"
-	.string "real.$"
+	.string "fardar de algo, aún sin tener alguna\l"
+	.string "aplicación real.$"
 
 LavenderRadioP4_Devon_Combates_Texto_7:
 .string "BILL: {PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_8:
 .string "ELM: Aquí, por supuesto, vamos tras\n"
-	.string "algo más grande. Vamos tras ese\l"
-	.string "minúsculo porcentaje de mutaciones\l"
-	.string "que benefician a un POKÉMON, que\l"
+	.string "algo más grande; ese minúsculo\l"
+	.string "porcentaje de mutaciones que\l"
+	.string "benefician a un POKÉMON, y que\l"
 	.string "exprimen al máximo todas las\l"
 	.string "combinaciones posibles por las cuales\l"
 	.string "su potencial como especie pudiere\l"
-	.string "alcanzar el 100% de su potencial.$"
+	.string "alcanzar su plenitud.$"
 
 LavenderRadioP4_Devon_Combates_Texto_9:
-.string "En estas salas logramos la combinación\n"
+.string "En estas salas logramos una combinación\n"
 	.string "estadísticamente imposible, que la\l"
 	.string "naturaleza habría otorgado durante un\l"
 	.string "proceso de evolución de miles de años,\l"
 	.string "a una especie que se hubiera adaptado\l"
 	.string "de la mejor forma posible para\l"
-	.string "incrementar su poder bruto. Sin\l"
-	.string "disruptores, sin agentes externos que\l"
+	.string "incrementar su poder bruto.\p"
+	.string "Sin disruptores, sin agentes externos que\n"
 	.string "malogren la eficiencia del proceso.$"
 
 LavenderRadioP4_Devon_Combates_Texto_10:
@@ -941,12 +1092,12 @@ LavenderRadioP4_Devon_Combates_Texto_11:
 
 LavenderRadioP4_Devon_Combates_Texto_12:
 .string "OAK: MEWTWO supuso una mejora de 80\n"
-	.string "STATS BASE respecto a MEW.\l"
-	.string "Recientemente, las MEGAS y prototipos\l"
-	.string "convencionales han supuesto un\l"
-	.string "incremento de +100 respecto a los\l"
-	.string "originales. El FUERTE VÍNCULO supone\l"
-	.string "un +125{PAUSE 25}…{PAUSE 25} ¿Qué podemos esperar de esta\l"
+	.string "STATS BASE respecto a MEW.\p"
+	.string "Recientemente, las MEGAS y prototipos\n"
+	.string "convencionales han supuesto un +100\l"
+	.string "respecto a los originales.\p"
+	.string "El FUERTE VÍNCULO supone un +125{PAUSE 25}…{PAUSE 25}\p"
+	.string "¿Qué podemos esperar de esta\n"
 	.string "nueva tecnología, ELM?$"
 
 LavenderRadioP4_Devon_Combates_Texto_13:
@@ -975,9 +1126,9 @@ LavenderRadioP4_Devon_Combates_Texto_15:
 	.string "de probabilidad.$"
 
 LavenderRadioP4_Devon_Combates_Texto_16:
-.string "OAK: Exacto BILL, deberían de\n"
-	.string "sucederse sendos milagros para que\l"
-	.string "eso ocurriera.$"
+.string "OAK: Exacto, BILL.\p"
+	.string "Deberían de sucederse sendos\n"
+	.string "milagros para que eso ocurriera.$"
 
 LavenderRadioP4_Devon_Combates_Texto_17:
 .string "ELM: Fin de la presentación. Hagamos\n"
@@ -991,13 +1142,13 @@ LavenderRadioP4_Devon_Combates_Texto_18:
 	.string "BILL y ANDRA. Yo me encargaré de OAK.$"
 
 LavenderRadioP4_Devon_Combates_Texto_19:
-.string "BILL: ¡Tú! ¿Cómo has podido? ¡Te\n"
-	.string "rescaté cuando no tenías nada, te di\l"
-	.string "trabajo en SILPH y así nos lo\l"
-	.string "agradeces!$"
+.string "BILL: ¡Tú! ¿Cómo has podido?\n"
+	.string "¡Te rescaté cuando no tenías nada,\l"
+	.string "te di trabajo en SILPH, y así nos\l"
+	.string "lo agradeces!$"
 
 LavenderRadioP4_Devon_Combates_Texto_20:
-.string "MIGUEL: Y eso querías, ¿no BILL? Que me\n"
+.string "MIGUEL: Y eso querías, ¿no, BILL? Que me\n"
 	.string "sometiese a tus órdenes, creías que\l"
 	.string "estaba destinado a ser <el ayudante de\l"
 	.string "BILL>, y nada más. Eso se acabó.$"
@@ -1020,8 +1171,8 @@ LavenderRadioP4_Devon_Combates_Texto_23:
 LavenderRadioP4_Devon_Combates_Texto_24:
 .string "Hasta tú, {PLAYER}, con esa mirada de\n"
 	.string "condescendencia que me echaste en la\l"
-	.string "reunión. ¿Crees que no estoy a tu\l"
-	.string "altura?$"
+	.string "reunión de CIUDAD TRIGAL.\p"
+	.string "¿Crees que no estoy a tu altura?$"
 
 LavenderRadioP4_Devon_Combates_Texto_25:
 .string "OAK: Ya es suficiente, ¿qué es lo que\n"
@@ -1038,14 +1189,14 @@ LavenderRadioP4_Devon_Combates_Texto_26:
 
 LavenderRadioP4_Devon_Combates_Texto_27:
 .string "????: No puedes evitar que obtengamos\n"
-	.string "lo que queremos de aquí, OAK. Solo te\l"
-	.string "queda pelear.$"
+	.string "lo que queremos de aquí, OAK.\p"
+	.string "Solo te queda pelear.$"
 
 LavenderRadioP4_Devon_Combates_Texto_28:
-.string "MIGUEL: {PLAYER} es mío. Vas a ser\n"
-	.string "derrotado, voy a desgastarte hasta\l"
-	.string "que debas arrodillarte ante mí por pura\l"
-	.string "probabilidad.$"
+.string "MIGUEL: {PLAYER} es mío.\p"
+	.string "Vas a ser derrotado, voy a desgastarte\n"
+	.string "hasta que debas arrodillarte ante mí\l"
+	.string "por pura probabilidad.$"
 
 LavenderRadioP4_Devon_Combates_Texto_30:
 .string "¡Científicos! ¡A él!$"
@@ -1057,8 +1208,8 @@ LavenderRadioP4_Devon_Combates_Texto_29:
 	.string "ahora has salido siempre impune, pero\l"
 	.string "los espíritus y esencias, por muy puros\l"
 	.string "que sean, carecen de algo que les\l"
-	.string "impide alcanzar la victoria ocurra lo\l"
-	.string "que ocurra: no juegan sucio.$"
+	.string "impide alcanzar la victoria bajo\l"
+	.string "cualquier situación: no juegan sucio.$"
 
 LavenderRadioP4_Devon_Combates_Texto_31:
 .string "Así que el famoso {PLAYER}. ¿Qué se\n"
@@ -1096,8 +1247,8 @@ LavenderRadioP4_Devon_Combates_Texto_38:
 .string "¿¡Otra vez!? ¿Por qué sigue ocurriendo?$"
 
 LavenderRadioP4_Devon_Combates_Texto_39:
-.string "????: Entonces este es tu nivel, OAK.\n"
-	.string "Gracias, me has proporcionado una\l"
+.string "????: Entonces, este es tu nivel, OAK.\p"
+	.string "Gracias, me has proporcionado una\n"
 	.string "valiosa información, aparte de las\l"
 	.string "ondas de radio.$"
 
@@ -1133,8 +1284,8 @@ LavenderRadioP4_Devon_Combates_Texto_47:
 
 LavenderRadioP4_Devon_Combates_Texto_48:
 .string "OAK: ¡¿Te has vuelto loco?! ¡Está en una\n"
-	.string "fase muy temprana! ¡Podría\l"
-	.string "destruirnos a todos!$"
+	.string "fase muy temprana!\p"
+	.string "¡Podría destruirnos a todos!$"
 
 LavenderRadioP4_Devon_Combates_Texto_49:
 .string "MIGUEL: Me basta con que destruya a\n"
@@ -1198,10 +1349,10 @@ LavenderRadioP4_Devon_Combates_Texto_62:
 
 
 LavenderRadioP4_Devon_Combates_Texto_63:
-.string "MIGUEL: Espera a ver, {PLAYER}. Este\n"
-	.string "es solo el inicio de una gran generación\l"
-	.string "de FÓSILES ante los que acabarás\l"
-	.string "sucumbiendo.$"
+.string "MIGUEL: Espera a ver, {PLAYER}.\p"
+	.string "Este es solo el inicio de una gran\n"
+	.string "generación de FÓSILES ante los que\l"
+	.string "acabarás sucumbiendo.$"
 
 LavenderRadioP4_Devon_Combates_Texto_64:
 .string "Solo quedáis ANDRA y tú como adalides de\n"
@@ -1211,8 +1362,8 @@ LavenderRadioP4_Devon_Combates_Texto_64:
 	.string "al nuevo orden.$"
 
 LavenderRadioP4_Devon_Combates_Texto_65:
-.string "¡Recuerda mis palabras {PLAYER}! ¡Vas\n"
-	.string "a acabar tan mal como ellos!$"
+.string "¡Recuerda mis palabras, {PLAYER}!\p"
+	.string "¡Vas a acabar tan mal como ellos!$"
 
 LavenderRadioP4_Devon_Combates_Texto_66:
 .string "BILL: ¡Maldición! ¿Pero qué ha pasado?$"
@@ -1244,7 +1395,7 @@ LavenderRadioP4_Devon_Combates_Texto_67.3:
 LavenderRadioP4_Devon_Combates_Texto_68:
 .string "ELM: Él estuvo en la II GRAN REUNIÓN,\n"
 	.string "sabe de prácticamente todos nuestros\l"
-	.string "proyectos, de los prototipos,MEWTWO…\l"
+	.string "proyectos, de los prototipos,MEWTWO…\p"
 	.string "Eso es lo importante, BILL.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68.1:
@@ -1296,9 +1447,9 @@ LavenderRadioP4_Devon_Combates_Texto_76:
 	.string "seguiría{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_77:
-.string "Pero todo…todo lo que temía se ha\n"
-	.string "hecho evidente en esta reunión. La\l"
-	.string "realidad actual de KANTO, nuestros\l"
+.string "Pero todo{PAUSE 15}…{PAUSE 15} todo lo que temía se ha\n"
+	.string "hecho evidente en esta reunión.\p"
+	.string "La realidad actual de KANTO, nuestros\n"
 	.string "propios límites, lo expuesto aquí como\l"
 	.string "única salida para llegar más allá{PAUSE 5}…{PAUSE 5}$"
 
@@ -1322,11 +1473,10 @@ LavenderRadioP4_Devon_Combates_Texto_80:
 	.string "antemano, y lo que es peor{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_81:
-.string "Anulará completamente a cualquier otro\n"
-	.string "ENTRENADOR, al menos en cuanto\l"
-	.string "potencial de STATS BASE. Le hará ver\l"
-	.string "ridículo ante esa perfección creada\l"
-	.string "artificialmente.$"
+.string "Anulará completamente a cualquier\n"
+	.string "otro ENTRENADOR.\p"
+	.string "Le hará ver ridículo, ante esa\n"
+	.string "perfección creada artificialmente.$"
 
 LavenderRadioP4_Devon_Combates_Texto_82:
 .string "Supongo que al final buscamos lo mismo\n"
@@ -1338,8 +1488,8 @@ LavenderRadioP4_Devon_Combates_Texto_83:
 	.string "demostrado que el potencial de un\l"
 	.string "POKÉMON, desde su más profunda\l"
 	.string "esencia, puede ser moldeable si crees\l"
-	.string "en ello. Tú llevaste eso al extremo en\l"
-	.string "RUINAS ALFA.$"
+	.string "en ello.\p"
+	.string "Tú lo demostraste en RUINAS ALFA.$"
 
 LavenderRadioP4_Devon_Combates_Texto_84:
 .string "Me niego a pensar que ese potencial ya\n"
@@ -1347,8 +1497,7 @@ LavenderRadioP4_Devon_Combates_Texto_84:
 	.string "en resignarme a que puede ser\l"
 	.string "procesado y mecanizado, tal y cómo\l"
 	.string "están haciendo con los PERROS\l"
-	.string "LEGENDARIOS y los EEVEE FUERTE\l"
-	.string "VÍNCULO.$"
+	.string "LEGENDARIOS, gracias a EUSINE.$"
 
 LavenderRadioP4_Devon_Combates_Texto_85:
 .string "{PAUSE 5}…{PAUSE 5}$"

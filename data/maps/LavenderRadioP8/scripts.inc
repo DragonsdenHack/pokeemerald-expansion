@@ -158,7 +158,7 @@ LavenderRadioP8_Encuentro_Devon_Move_1.3:
 delay_16
 walk_slow_right
 walk_slow_right
-walk_slow_right
+delay_16
 delay_16
 delay_16
 delay_16
@@ -240,5 +240,5 @@ LavenderRadioP8_Encuentro_Devon_Texto_5:
 LavenderRadioP8_Encuentro_Devon_Texto_6:
 .string "Hoy en día, aquellos que no añadan esta\n"
 	.string "nueva variable a la ecuación, están\l"
-	.string "condenados sin importar lo mucho que\l"
+	.string "condenados, sin importar lo mucho que\l"
 	.string "perfeccionen las virtudes clásicas.$"

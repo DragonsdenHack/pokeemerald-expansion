@@ -2476,6 +2476,22 @@ waitfanfare
 applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5
 waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.1 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.5
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.2
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.4
+waitmovement 0x0
+special RemoveCameraObject
 applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_6
 waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5 MSGBOX_AUTOCLOSE
@@ -2538,6 +2554,35 @@ clearflag FLAG_NUEVA_632
 setvar VAR_UNUSED_0x40F7, 218
 release
 end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.5:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.1:
+delay_16
+face_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.2:
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.3:
+delay_16
+delay_16
+face_down
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.4:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_move_7:
 walk_down
@@ -2604,6 +2649,15 @@ BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4:
 	.string "dejado por escrito algunas\l"
 	.string "recomendaciones para usted, antes de\l"
 	.string "que inicie su aventura por HOENN.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.1:
+	.string "Observe.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.2:
+	.string "La LLAVE que le he dado abre también\n"
+	.string "esa puerta, sirve de atajo para llegar\l"
+	.string "al DESPACHO, si así lo desea.$"
+
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:
 	.string "Le recomiendo pasarse por ahí. Yo\n"
