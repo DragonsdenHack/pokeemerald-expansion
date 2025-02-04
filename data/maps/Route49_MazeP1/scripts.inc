@@ -96,14 +96,14 @@ Route49MazeP1Documento_Text_100:
 	.string "VELOCIDAD: 95\l"
 	.string "TOTAL: 490\p"
 	.string "TIPO: AGUA/ACERO\n"
-	.string "HABILIDAD: ALLANAMIENTO\l"
+	.string "HABILIDAD: ACERO TEMPLADO\l"
 	.string "Comparte parentesco con la línea\l"
 	.string "evolutiva de CARVANHA, aunque su\l"
 	.string "cerebro es mucho más primitivo. Su TIPO\l"
 	.string "ACERO lo convierte en un rival temible.\l"
 	.string "Se enfrentará a cualquier rival con\l"
 	.string "total descaro, sin medir consecuencias\l"
-	.string "ni nada que perder, por ello todos\l"
+	.string "ni nada que perder. Por ello, todos\l"
 	.string "suelen apartarse a su paso.$"
 
 
