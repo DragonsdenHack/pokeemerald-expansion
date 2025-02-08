@@ -363,7 +363,7 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
 	.string "¿Así que te envía PEGASO? Algo\n"
 	.string "debe de haber visto en ti para\l"
 	.string "enviarte aquí.\p"
-	.string "Sabiendo que seré tú prueba para\n"
+	.string "Sabiendo que seré tu prueba para\n"
 	.string "acceder a algo tan especial, no me\l"
 	.string "queda otra que usar a mis mejores\l"
 	.string "POKÉMON.\p"

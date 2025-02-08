@@ -212,6 +212,7 @@ Base_Profunda_Mercado_7_Pokemart:
 	.2byte ITEM_EXP_CANDY_XM
 	.2byte ITEM_EXP_CANDY_M
 	.2byte ITEM_PP_MAX
+	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_NONE
 	release
 	end

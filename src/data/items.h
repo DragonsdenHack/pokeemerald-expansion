@@ -4806,7 +4806,7 @@ const struct Item gItems[] =
         .price = 0,
         .holdEffect = HOLD_EFFECT_SOUL_DEW,
         #if defined(BATTLE_ENGINE) && B_SOUL_DEW_BOOST >= GEN_7
-            .holdEffectParam = 20,
+            .holdEffectParam = 50,
         #else
             .holdEffectParam = 50,
         #endif

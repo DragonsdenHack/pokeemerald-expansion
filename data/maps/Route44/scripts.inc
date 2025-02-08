@@ -280,7 +280,7 @@ Route44_Combate_Mirto_Texto_1:
 
 Route44_Combate_Mirto_Texto_2:
 .string "Sabía que te alcanzaría por aquí,\n"
-	.string "has derrotado a 7 de lo 8 mejores\l"
+	.string "has derrotado a 7 de los 8 mejores\l"
 	.string "ENTRENADORES de JOHTO, ¿verdad?\p"
 	.string "Solo te queda el último y más\n"
 	.string "difícil: el M.DRAGÓN de ENDRINO.\p"

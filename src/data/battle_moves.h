@@ -12591,8 +12591,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_ETERNABEAM] =
     {
-        .effect = EFFECT_RECHARGE,
-        .power = 160,
+        .effect = EFFECT_RECOIL_50,
+        .power = 150,
         .type = TYPE_DRAGON,
         .accuracy = 90,
         .pp = 5,

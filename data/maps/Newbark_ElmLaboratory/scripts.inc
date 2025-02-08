@@ -91,7 +91,7 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_1:
 .string "El TEAM ROCKET ha logrado algo que\n"
 	.string "hace un par de años parecía\l"
 	.string "impensable. No solo que KANTO y\l"
-	.string "JOHTO comienzen a remar en una\l"
+	.string "JOHTO comiencen a remar en una\l"
 	.string "sola dirección, también que sus\l"
 	.string "más influyentes personajes\l"
 	.string "trabajen a una.$"

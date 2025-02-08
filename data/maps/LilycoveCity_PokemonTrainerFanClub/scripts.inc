@@ -15,7 +15,7 @@ LilycoveCity_PokemonTrainerFanClub_MapScripts::
 	@ See field_specials.c for a breakdown of the Fan Club and its variables
 
 LilycoveCity_PokemonTrainerFanClub_OnFrame:
-	map_script_2 VAR_LILYCOVE_FAN_CLUB_STATE, 1, LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans
+	map_script_2 VAR_LILYCOVE_FAN_CLUB_STATE, 100, LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans
 	.2byte 0
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::

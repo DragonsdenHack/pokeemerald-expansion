@@ -2813,8 +2813,8 @@ static const u8 sMeteorAssaultDescription[] = _(
     "Te inmoviliza 1 turno.");
     
 static const u8 sEternabeamDescription[] = _(
-    "Ataque muy poderoso.\n"
-    "Te inmoviliza 1 turno.");
+    "Ataque muy poderoso. 50%\n"
+    "de daño de retroceso.");
     
 static const u8 sSteelBeamDescription[] = _(
     "Lanza un rayo ardiente que\n"

@@ -3148,7 +3148,7 @@ setflag FLAG_NUEVA_258
 setflag FLAG_NUEVA_259
 setflag FLAG_NUEVA_260
 setflag FLAG_NUEVA_261
-setflag FLAG_NUEVA_262
+clearflag FLAG_NUEVA_262
 setflag FLAG_NUEVA_263
 setflag FLAG_NUEVA_264
 setflag FLAG_NUEVA_265

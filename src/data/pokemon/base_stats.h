@@ -12064,9 +12064,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LOPUNNY] =
     {
-        .baseHP        = 65,
+        .baseHP        = 75,
         .baseAttack    = 76,
-        .baseDefense   = 84,
+        .baseDefense   = 94,
         .baseSpeed     = 105,
         .baseSpAttack  = 54,
         .baseSpDefense = 96,
@@ -12082,9 +12082,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_KLUTZ, ABILITY_LIMBER},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         #else
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_NONE, ABILITY_LIMBER},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_NONE, ABILITY_ADAPTABILITY},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
@@ -15697,7 +15697,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SHEER_FORCE, ABILITY_NONE, ABILITY_ZEN_MODE},
+            .abilities = {ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -26801,7 +26801,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 150,
         .baseSpDefense = 200,
         .type1 = TYPE_DRAGON,
-        .type2 = TYPE_DRAGON,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 299,
         .evYield_SpDefense = 3,
@@ -28766,9 +28766,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_LOPUNNY_MEGA] =
     {
-        .baseHP        = 65,
+        .baseHP        = 75,
         .baseAttack    = 136,
-        .baseDefense   = 94,
+        .baseDefense   = 104,
         .baseSpeed     = 135,
         .baseSpAttack  = 54,
         .baseSpDefense = 96,
@@ -30611,7 +30611,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 30,
         .baseSpDefense = 65,
         .type1 = TYPE_ICE,
-        .type2 = TYPE_ICE,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 60,
         .expYield = 198,
         .evYield_Attack    = 2,
@@ -30622,7 +30622,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_GORILLA_TACTICS, ABILITY_NONE, ABILITY_ZEN_MODE},
+            .abilities = {ABILITY_GORILLA_TACTICS, ABILITY_GORILLA_TACTICS, ABILITY_GORILLA_TACTICS},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -32810,9 +32810,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_GORILLA_TACTICS, ABILITY_GORILLA_TACTICS, ABILITY_GORILLA_TACTICS},
+            .abilities = {ABILITY_NO_GUARD, ABILITY_NO_GUARD, ABILITY_NO_GUARD},
         #else
-            .abilities = {ABILITY_GORILLA_TACTICS, ABILITY_GORILLA_TACTICS},
+            .abilities = {ABILITY_NO_GUARD, ABILITY_NO_GUARD},
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,

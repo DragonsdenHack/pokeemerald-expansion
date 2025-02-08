@@ -86,9 +86,9 @@ release
 end
 
 IllexForest_Text_9:
-.string "Entonces, FARFETCH es débil, pero\n"
-.string "nadie corta la madera como ese\l"
-.string "POKÉMON{PAUSE 5}…{PAUSE 5}$"
+.string "Entonces, FARFETCH'D es débil,\n"
+.string "pero nadie corta la madera como\l"
+.string "ese POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 
 

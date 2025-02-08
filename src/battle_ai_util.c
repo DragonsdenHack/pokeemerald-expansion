@@ -426,7 +426,6 @@ static const u16 sRechargeMoves[] =
     MOVE_ROAR_OF_TIME,
     MOVE_PRISMATIC_LASER,
     MOVE_METEOR_ASSAULT,
-    MOVE_ETERNABEAM,
 };
 
 static const u16 sOtherMoveCallingMoves[] =

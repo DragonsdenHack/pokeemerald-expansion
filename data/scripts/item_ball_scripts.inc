@@ -1709,7 +1709,7 @@ finditem ITEM_RARE_CANDY
     end
 
 BaseProfunda_EventScript_Vestidura::
-finditem ITEM_MACHO_BRACE
+finditem ITEM_TM42
     end
 
 Culto_EventScript_MT30::

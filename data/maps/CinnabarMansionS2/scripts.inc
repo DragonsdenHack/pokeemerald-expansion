@@ -364,7 +364,7 @@ CinnabarMansionS2Documento_Text_107Yes4:
 	.string "propiciado su extinción al no\l"
 	.string "contar con variedad de\l"
 	.string "alternativas con qué defenderse),\l"
-	.string "hasta terminar con un METAGROS de\l"
+	.string "hasta terminar con un METAGROSS de\l"
 	.string "constitución fría, robótica y\l"
 	.string "calculadora, además de una\l"
 	.string "combinación de tipos\l"

@@ -123,11 +123,11 @@ Route49MazeP3Documento_Text_100:
 	.string "TIPO: FUEGO\n"
 	.string "HABILIDAD: POTENCIA BRUTA\l"
 	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "FLAREON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
-	.string "perfecto.$"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un FLAREON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el\l"
+	.string "equilibrio perfecto.$"
 
 
 
@@ -154,10 +154,10 @@ Route49MazeP3Documento_Text_101:
 	.string "TIPO: AGUA\n"
 	.string "HABILIDAD: MURO MÁGICO\l"
 	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "VAPOREON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un VAPOREON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el equilibrio\l"
 	.string "perfecto.$"
 
 
@@ -185,10 +185,10 @@ Route49MazeP3Documento_Text_102:
 	.string "TIPO: ELÉCTRICO\n"
 	.string "HABILIDAD: INDEFENSO\l"
 	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "JOLTEON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un JOLTEON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el equilibrio\l"
 	.string "perfecto.$"
 
 Route49_MazeP3_Encuentro_Eusine::
@@ -197,6 +197,7 @@ applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP3_Encuentro_Eusine_Move_1
 waitmovement 0x0
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
 waitmovement 0x0
@@ -207,6 +208,7 @@ delay 15
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
 waitmovement 0x0

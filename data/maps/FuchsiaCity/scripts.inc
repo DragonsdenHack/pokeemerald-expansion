@@ -672,7 +672,7 @@ FuchsiaCity_Estafado_Texto_14:
 	.string "esto, cambian constantemente las\l"
 	.string "zonas donde operan y los lugares\l"
 	.string "en los que se reúnen, para que la\l"
-	.string "gente no comienze a sospechar en\l"
+	.string "gente no comience a sospechar en\l"
 	.string "exceso, y la POLICÍA sea incapaz\l"
 	.string "de detectarles.$"
 
