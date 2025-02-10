@@ -8808,6 +8808,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         if (gBattleMons[battlerDef].species == SPECIES_RHYPERIOR)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_DRIVE:
+        if (gBattleMons[battlerDef].species == SPECIES_GENESECT)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
     case HOLD_EFFECT_RED_SCALE:
         if (gBattleMons[battlerDef].species == SPECIES_GYARADOS)
             MulModifier(&modifier, UQ_4_12(1.3));

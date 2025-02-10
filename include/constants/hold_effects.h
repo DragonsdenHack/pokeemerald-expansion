@@ -88,6 +88,7 @@
 #define HOLD_EFFECT_ALA_PLATEADA    192
 
 
+
 // Gen4 hold effects.
 #define HOLD_EFFECT_CHOICE_SCARF   67
 #define HOLD_EFFECT_CHOICE_SPECS   68

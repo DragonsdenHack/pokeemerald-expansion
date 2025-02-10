@@ -21929,16 +21929,16 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_TRAINER_732] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_MARINEROJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
+        .trainerPic = TRAINER_PIC_FR_SAILOR,
+        .trainerName = _("CASPER"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING | AI_FLAG_CHECK_VIABILITY | AI_FLAG_PREFER_STRONGEST_MOVE,
         .partySize = ARRAY_COUNT(sParty_TRAINER732),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER732},
+        .party = {.ItemCustomMoves = sParty_TRAINER732},
     },
     [TRAINER_TRAINER_733] =
     {

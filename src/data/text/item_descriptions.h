@@ -1266,24 +1266,24 @@ static const u8 sPixiePlateDesc[] = _(
 
 // Drives
 static const u8 sDouseDriveDesc[] = _(
-    "Cambia el TECNO\n"
-    "SHOCK de GENESECT\n"
-    "al tipo AGUA.");
+    "+30% DEF y DEF.ESP\n"
+    "en GENESECT.\n"
+    "TECNO SHOCK es AGUA.");
 
 static const u8 sShockDriveDesc[] = _(
-    "Cambia el TECNO\n"
-    "SHOCK de GENESECT\n"
-    "al tipo ELÉCTRICO.");
+    "+30% DEF y DEF.ESP\n"
+    "en GENESECT.\n"
+    "TECNO SHOCK es ELÉC.");
 
 static const u8 sBurnDriveDesc[] = _(
-    "Cambia el TECNO\n"
-    "SHOCK de GENESECT\n"
-    "al tipo FUEGO.");
+    "+30% DEF y DEF.ESP\n"
+    "en GENESECT.\n"
+    "TECNO SHOCK es FUEGO.");
 
 static const u8 sChillDriveDesc[] = _(
-    "Cambia el TECNO\n"
-    "SHOCK de GENESECT\n"
-    "al tipo HIELO.");
+    "+30% DEF y DEF.ESP\n"
+    "en GENESECT.\n"
+    "TECNO SHOCK es HIELO.");
 
 // Memories
 static const u8 sFireMemoryDesc[] = _(
@@ -4124,8 +4124,9 @@ static const u8 sHM04Desc[] = _(
    	"energía al rival.");
 
 static const u8 sHM05Desc[] = _(
-    "Fogonazo que absor-\n"
-    "be 1/2 del daño.");
+    "Fogonazo que\n"
+    "absorbe el 75%\n"
+    "del daño causado.");
 
 static const u8 sHM06Desc[] = _(
    	"Ataque demoledor\n"
