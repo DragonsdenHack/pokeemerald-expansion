@@ -1476,8 +1476,51 @@
 #define MAP_SNOWPOINT_TEMPLO_S5   (9 | (55 << 8))
 #define MAP_SNOWPOINT_GIMNASIO    (10 | (55 << 8))
 
-#define MAP_GROUPS_COUNT 56
+// gMapGroup_TownsAndRoutesSINNOH
+#define MAP_TWINLEAF_TOWN  (0 | (56 << 8))
+#define MAP_SANDGEM_TOWN   (1 | (56 << 8))
+#define MAP_JUBILIFE_CITY  (2 | (56 << 8))
+#define MAP_CANALAVE_CITY  (3 | (56 << 8))
+#define MAP_OREBURGH_CITY  (4 | (56 << 8))
+#define MAP_FLOAROMA_TOWN  (5 | (56 << 8))
+#define MAP_ETERNA_CITY    (6 | (56 << 8))
+#define MAP_CELESTIC_TOWN  (7 | (56 << 8))
+#define MAP_SOLACEON_TOWN  (8 | (56 << 8))
+#define MAP_HEARTHOME_CITY (9 | (56 << 8))
+#define MAP_PASTORIA_CITY  (10 | (56 << 8))
+#define MAP_VEILSTONE_CITY (11 | (56 << 8))
+#define MAP_SUNYSHORE_CITY (12 | (56 << 8))
+#define MAP_ROUTE201       (13 | (56 << 8))
+#define MAP_ROUTE202       (14 | (56 << 8))
+#define MAP_ROUTE203       (15 | (56 << 8))
+#define MAP_ROUTE204       (16 | (56 << 8))
+#define MAP_ROUTE205       (17 | (56 << 8))
+#define MAP_ROUTE206       (18 | (56 << 8))
+#define MAP_ROUTE207       (19 | (56 << 8))
+#define MAP_ROUTE208       (20 | (56 << 8))
+#define MAP_ROUTE209       (21 | (56 << 8))
+#define MAP_ROUTE210       (22 | (56 << 8))
+#define MAP_ROUTE210B      (23 | (56 << 8))
+#define MAP_ROUTE211       (24 | (56 << 8))
+#define MAP_ROUTE211B      (25 | (56 << 8))
+#define MAP_ROUTE212       (26 | (56 << 8))
+#define MAP_ROUTE212B      (27 | (56 << 8))
+#define MAP_ROUTE213       (28 | (56 << 8))
+#define MAP_ROUTE214       (29 | (56 << 8))
+#define MAP_ROUTE215       (30 | (56 << 8))
+#define MAP_ROUTE216       (31 | (56 << 8))
+#define MAP_ROUTE217       (32 | (56 << 8))
+#define MAP_ROUTE218       (33 | (56 << 8))
+#define MAP_ROUTE219       (34 | (56 << 8))
+#define MAP_ROUTE220       (35 | (56 << 8))
+#define MAP_ROUTE221       (36 | (56 << 8))
+#define MAP_ROUTE222       (37 | (56 << 8))
+#define MAP_ROUTE223       (38 | (56 << 8))
+#define MAP_ROUTE224       (39 | (56 << 8))
+#define MAP_ROUTE205B      (40 | (56 << 8))
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 11, 9, 9, 26, 23, 14, 7, 7, 12, 99, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 0};
+#define MAP_GROUPS_COUNT 57
+
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 11, 9, 9, 26, 23, 14, 7, 7, 12, 99, 11, 10, 8, 10, 10, 42, 20, 14, 18, 21, 2, 74, 88, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 10, 7, 7, 14, 10, 17, 10, 24, 14, 17, 15, 108, 61, 89, 68, 11, 41, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

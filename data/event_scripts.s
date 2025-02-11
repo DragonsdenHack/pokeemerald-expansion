@@ -2987,3 +2987,85 @@ Text_EVChecker_3:
 	.include "data/maps/NewBark_Casa_Npc/scripts.inc"
 
 	.include "data/maps/Pass_LakeofRage/scripts.inc"
+
+	.include "data/maps/TwinleafTown/scripts.inc"
+
+	.include "data/maps/SandgemTown/scripts.inc"
+
+	.include "data/maps/JubilifeCity/scripts.inc"
+
+	.include "data/maps/CanalaveCity/scripts.inc"
+
+	.include "data/maps/OreburghCity/scripts.inc"
+
+	.include "data/maps/FloaromaTown/scripts.inc"
+
+	.include "data/maps/EternaCity/scripts.inc"
+
+	.include "data/maps/CelesticTown/scripts.inc"
+
+	.include "data/maps/SolaceonTown/scripts.inc"
+
+	.include "data/maps/HearthomeCity/scripts.inc"
+
+	.include "data/maps/PastoriaCity/scripts.inc"
+
+	.include "data/maps/VeilstoneCity/scripts.inc"
+
+	.include "data/maps/SunyshoreCity/scripts.inc"
+
+	.include "data/maps/Route201/scripts.inc"
+
+	.include "data/maps/Route202/scripts.inc"
+
+	.include "data/maps/Route203/scripts.inc"
+
+	.include "data/maps/Route204/scripts.inc"
+
+	.include "data/maps/Route205/scripts.inc"
+
+	.include "data/maps/Route206/scripts.inc"
+
+	.include "data/maps/Route207/scripts.inc"
+
+	.include "data/maps/Route208/scripts.inc"
+
+	.include "data/maps/Route209/scripts.inc"
+
+	.include "data/maps/Route210/scripts.inc"
+
+	.include "data/maps/Route210b/scripts.inc"
+
+	.include "data/maps/Route211/scripts.inc"
+
+	.include "data/maps/Route211b/scripts.inc"
+
+	.include "data/maps/Route212/scripts.inc"
+
+	.include "data/maps/Route212b/scripts.inc"
+
+	.include "data/maps/Route213/scripts.inc"
+
+	.include "data/maps/Route214/scripts.inc"
+
+	.include "data/maps/Route215/scripts.inc"
+
+	.include "data/maps/Route216/scripts.inc"
+
+	.include "data/maps/Route217/scripts.inc"
+
+	.include "data/maps/Route218/scripts.inc"
+
+	.include "data/maps/Route219/scripts.inc"
+
+	.include "data/maps/Route220/scripts.inc"
+
+	.include "data/maps/Route221/scripts.inc"
+
+	.include "data/maps/Route222/scripts.inc"
+
+	.include "data/maps/Route223/scripts.inc"
+
+	.include "data/maps/Route224/scripts.inc"
+
+	.include "data/maps/Route205b/scripts.inc"

@@ -18,7 +18,7 @@
 // gTileset_BattleFrontierOutsideWest
 #define METATILE_BattleFrontierOutsideWest_Door                0x3FC
 #define METATILE_BattleFrontierOutsideWest_Door_BattleDome     0x28A
-#define METATILE_BattleFrontierOutsideWest_Door_BattleFactory  0x263
+#define METATILE_BattleFrontierOutsideWest_Door_BattleFactory  0x30D
 #define METATILE_BattleFrontierOutsideWest_Door_Sliding        0x396
 
 // gTileset_BattleFrontier
@@ -249,6 +249,11 @@
 #define METATILE_GameCorner_PurpleWall_stairsBottom   0x2A7
 #define METATILE_GameCorner_StairsBottom              0x29F
 #define METATILE_GameCorner_StairsTop                 0x29E
+
+// gTileset_General2
+#define METATILE_General2_CaveEntrance_Bottom  0x0A7
+#define METATILE_General2_Door_PokeCenter      0x061
+#define METATILE_General2_Door_PokeMart        0x041
 
 // gTileset_General
 #define METATILE_General_BlueCaveIndent          0x1B0

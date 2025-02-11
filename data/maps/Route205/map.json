@@ -1,0 +1,44 @@
+{
+  "id": "MAP_ROUTE205",
+  "name": "Route205",
+  "layout": "LAYOUT_ROUTE205",
+  "music": "MUS_NONE",
+  "region_map_section": "MAPSEC_NONE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_FLOAROMA_TOWN"
+    },
+    {
+      "direction": "down",
+      "offset": -18,
+      "map": "MAP_ROUTE205B"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_ETERNA_CITY"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}
