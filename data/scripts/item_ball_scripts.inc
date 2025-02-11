@@ -3152,4 +3152,24 @@ GuaridaDragon_S3_Garfio::
 finditem ITEM_GRIP_CLAW
 end
 
+CatarasTohjo_EventScript_PiedraLunar::
+finditem ITEM_MOON_STONE
+    end
+
+RuinasAlfa_EventScript_PiedraLunar::
+finditem ITEM_MOON_STONE
+    end
+
+CuevaHypno_EventScript_PiedraLunar::
+finditem ITEM_MOON_STONE
+    end
+
+Ruta36_EventScript_PiedraSolar::
+finditem ITEM_SUN_STONE
+    end
+
+Ruta_51_EventScript_PiedraSolar::
+finditem ITEM_SUN_STONE
+    end
+
 
