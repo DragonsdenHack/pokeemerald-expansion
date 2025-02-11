@@ -689,6 +689,19 @@ const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/p
 const u16 gObjectEventPic_Guardia[] = INCBIN_U16("graphics/object_events/pics/pokemon/guardia.4bpp");
 const u16 gObjectEventPic_Marowak[] = INCBIN_U16("graphics/object_events/pics/pokemon/marowak.4bpp");
 const u32 gObjectEventPic_Stakataka[] = INCBIN_U32("graphics/object_events/pics/pokemon/stakataka.4bpp");
+const u32 gObjectEventPic_NormalFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/fishing.4bpp");
+const u32 gObjectEventPic_AltoRangoFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/fishing.4bpp");
+const u32 gObjectEventPic_EjecutivoFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/fishing.4bpp");
+const u32 gObjectEventPic_AdminFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/fishing.4bpp");
+const u32 gObjectEventPic_AdminJefeNormalFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe_normal/fishing.4bpp");
+
+const u32 gObjectEventPic_NormalUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/underwater.4bpp");
+const u32 gObjectEventPic_AltoRangoUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/underwater.4bpp");
+const u32 gObjectEventPic_EjecutivoUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/underwater.4bpp");
+const u32 gObjectEventPic_AdminUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/underwater.4bpp");
+const u32 gObjectEventPic_AdminJefeNormalUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe_normal/underwater.4bpp");
+
+const u32 gObjectEventPic_Presidente[] = INCBIN_U32("graphics/object_events/pics/people/presidente.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -859,4 +872,5 @@ const u16 gObjectEventPal_Ninetalesbond[] = INCBIN_U16("graphics/object_events/p
 const u16 gObjectEventPal_Guardia[] = INCBIN_U16("graphics/object_events/palettes/guardia.gbapal");
 const u16 gObjectEventPal_Marowak[] = INCBIN_U16("graphics/object_events/palettes/marowak.gbapal");
 const u16 gObjectEventPal_Stakataka[] = INCBIN_U16("graphics/object_events/palettes/stakataka.gbapal");
+const u16 gObjectEventPal_Presidente[] = INCBIN_U16("graphics/object_events/palettes/presidente.gbapal");
 

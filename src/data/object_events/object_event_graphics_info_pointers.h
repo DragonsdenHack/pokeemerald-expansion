@@ -562,6 +562,28 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Marowak;
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Stakataka;
 
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerNormalFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAltoRangoFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerEjecutivoFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminJefeNormalFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerNormalUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAltoRangoUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerEjecutivoUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminJefeNormalUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_Presidente;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -1094,6 +1116,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_GUARDIA] = &gObjectEventGraphicsInfo_Guardia,
 	[OBJ_EVENT_GFX_MAROWAK] = &gObjectEventGraphicsInfo_Marowak,
 	[OBJ_EVENT_GFX_STAKATAKA] = &gObjectEventGraphicsInfo_Stakataka,
+	[OBJ_EVENT_GFX_PLAYER_NORMAL_FISHING] = &gObjectEventoGraphicsInfo_PlayerNormalFishing,
+	[OBJ_EVENT_GFX_PLAYER_ALTORANGO_FISHING] = &gObjectEventoGraphicsInfo_PlayerAltoRangoFishing,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_FISHING] = &gObjectEventoGraphicsInfo_PlayerEjecutivoFishing,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_FISHING] = &gObjectEventoGraphicsInfo_PlayerAdminFishing,
+	[OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_FISHING] = &gObjectEventoGraphicsInfo_PlayerAdminJefeNormalFishing,
+	[OBJ_EVENT_GFX_PLAYER_NORMAL_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerNormalUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ALTORANGO_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAltoRangoUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerEjecutivoUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAdminUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAdminJefeNormalUnderwater,
+	[OBJ_EVENT_GFX_PRESIDENTE] = &gObjectEventGraphicsInfo_Presidente,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

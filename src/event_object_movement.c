@@ -584,6 +584,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_NINETALESBOND 0x11B6
 #define OBJ_EVENT_PAL_TAG_GUARDIA 0x11B7
 #define OBJ_EVENT_PAL_TAG_STAKATAKA 0x11B8
+#define OBJ_EVENT_PAL_TAG_PRESIDENTE 0x11B9
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -776,6 +777,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Ninetalesbond, OBJ_EVENT_PAL_TAG_NINETALESBOND},
 	{gObjectEventPal_Guardia, OBJ_EVENT_PAL_TAG_GUARDIA},
 	{gObjectEventPal_Stakataka, OBJ_EVENT_PAL_TAG_STAKATAKA},
+	{gObjectEventPal_Presidente, OBJ_EVENT_PAL_TAG_PRESIDENTE},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
