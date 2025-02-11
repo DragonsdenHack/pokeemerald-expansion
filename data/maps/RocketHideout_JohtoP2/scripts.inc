@@ -259,26 +259,32 @@ Ascenso_Rocket_Rangos_Texto_1:
 .string "¿Qué indumentaria quieres llevar?$"
 
 EventScript_Recluta::
+changeavatar 0
 release
 end
 
 EventScript_AltoRango::
+changeavatar 1
 release
 end
 
 EventScript_Ejecutivo::
+changeavatar 2
 release
 end
 
 EventScript_Admin:
+changeavatar 3
 release
 end
 
 EventScript_AdminJefe::
+changeavatar 4
 release
 end
 
 EventScript_Jefe::
+changeavatar 5
 release
 end
 
@@ -289,7 +295,7 @@ release
 end
 
 Ascenso_Rocket_Rangos_Cartel_Texto_1:
-.string "VESTIDOR\n"
-	.string "Interactúa con el vestidor de\l"
+.string "VESTIDOR\p"
+	.string "Interactúa con el vestidor de\n"
 	.string "arriba para cambiar tu aspecto.$"
 
