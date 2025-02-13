@@ -125,14 +125,14 @@
 
 // Candy 
 #define ITEM_RARE_CANDY 101
-#define ITEM_EXP_CANDY_XS 102
-#define ITEM_EXP_CANDY_S 103
-#define ITEM_EXP_CANDY_XM 104
-#define ITEM_EXP_CANDY_M 105
-#define ITEM_EXP_CANDY_L 106
-#define ITEM_EXP_CANDY_XL 107
-#define ITEM_DYNAMAX_CANDY 108
-#define ITEM_DYNAMAX_CANDY2 109
+#define ITEM_EXP_CANDY_XS 102 // Nivel 15, Base Ruta 5
+#define ITEM_EXP_CANDY_S 103 // Nivel 30, Base Rocket Profunda
+#define ITEM_EXP_CANDY_XM 104 // Nivel 45, Base Rocket Profunda, Sala Ejecutivos
+#define ITEM_EXP_CANDY_M 105 // Nivel 65, Base Rocket Profunda, Sala Entrenamiento
+#define ITEM_EXP_CANDY_L 106 // Nivel 75, Base Rocket Johto, P1
+#define ITEM_EXP_CANDY_XL 107 // Nivel 85, Base Rocket Johto, P2
+#define ITEM_DYNAMAX_CANDY 108 // Nivel 95, Base Rocket Hoenn
+#define ITEM_DYNAMAX_CANDY2 109 // Nivel 105, Torre Radio Lavanda
 
 // Medicinal Flutes
 #define ITEM_BLUE_FLUTE 110

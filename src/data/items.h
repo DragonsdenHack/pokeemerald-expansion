@@ -3656,7 +3656,7 @@ const struct Item gItems[] =
 
     [ITEM_HOUNDOOMINITE] =
     {
-        .name = _("Houndoominita"),
+        .name = _("Houndoomita"),
         .itemId = ITEM_HOUNDOOMINITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
@@ -3848,7 +3848,7 @@ const struct Item gItems[] =
 
     [ITEM_GLALITITE] =
     {
-        .name = _("Glalitita"),
+        .name = _("Glalita"),
         .itemId = ITEM_GLALITITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
@@ -10946,7 +10946,7 @@ const struct Item gItems[] =
     },
     [ITEM_STARMIETITE] =
     {
-        .name = _("Starmietita"),
+        .name = _("Starmitita"),
         .itemId = ITEM_STARMIETITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,

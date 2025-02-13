@@ -255,6 +255,12 @@ delay 15
 playse MUS_OBTAIN_ITEM
 additem ITEM_RARE_CANDY, 3
 msgbox PokemonMansion_1F_Ladrones_Texto_26 MSGBOX_DEFAULT
+waitse
+delay 15
+playse MUS_OBTAIN_ITEM
+additem ITEM_TINY_MUSHROOM, 3
+msgbox PokemonMansion_1F_Ladrones_Texto_26.1 MSGBOX_DEFAULT
+waitse
 delay 15
 playfanfare MUS_OBTAIN_TMHM
 msgbox PokemonMansion_1F_Ladrones_Texto_27 MSGBOX_DEFAULT
@@ -263,6 +269,7 @@ waitfanfare
 playse SE_PIN
 applymovement 6, PokemonMansion_1F_Ladrones_Move_1
 waitmovement 0x0
+waitse
 msgbox PokemonMansion_1F_Ladrones_Texto_28 MSGBOX_AUTOCLOSE
 applymovement 8, PokemonMansion_1F_Ladrones_Move_15
 waitmovement 0x0
@@ -707,7 +714,11 @@ PokemonMansion_1F_Ladrones_Texto_25:
 
 PokemonMansion_1F_Ladrones_Texto_26:
 .string "¡{PLAYER} encontró 3\n"
-	.string "CARAMELO RARO!$"
+	.string "CARAMELOSRARO!$"
+
+PokemonMansion_1F_Ladrones_Texto_26.1:
+.string "¡{PLAYER} encontró 3\n"
+	.string "MINI SETAS!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
 .string "¡¡OBTUVISTE UN CHARMANDER AL NV.5!!$"

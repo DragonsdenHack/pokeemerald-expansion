@@ -3096,3 +3096,22 @@ walk_down
 walk_down
 walk_down
 step_end
+
+RocketHideout7F_27::
+lock     
+faceplayer     
+msgbox RocketHideout7F_27_Text_1, MSGBOX_NPC
+msgbox RocketHideout7F_27_Text_2, MSGBOX_NPC
+release     
+end
+
+RocketHideout7F_27_Text_1:
+	.string "GIOVANNI es muy exigente con todos\n"
+	.string "nosotros. Trabajamos día y noche,\l"
+	.string "aunque nunca nos pide más de lo que él\l"
+	.string "mismo está dispuesto a dar.$"
+
+RocketHideout7F_27_Text_2:
+	.string "Sin embargo, hay veces que necesito un\n"
+	.string "empujón extra para mantener el ritmo,\l"
+	.string "ya me entiendes.$"

@@ -74,8 +74,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
-      "x": 17,
-      "y": 24,
+      "x": 3,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -123,6 +123,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Sala_Ejecutiva_MoveRelearnersHouse_EventScript_MoveRelearner",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 22,
+      "y": 26,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BaseProfunda_EventScript_Colmillodrag",
+      "flag": "FLAG_HOENN_127"
     }
   ],
   "warp_events": [

@@ -136,7 +136,7 @@
     static const u8 sLightMetalDescription[] = _("Reduce a la mitad su peso.");
     static const u8 sMultiscaleDescription[] = _("Reduce daño PS completo.");
     static const u8 sToxicBoostDescription[] = _("Sube At. si es envenenado.");
-    static const u8 sFlareBoostDescription[] = _("Sube At. si está quemado.");
+    static const u8 sFlareBoostDescription[] = _("Sube At.Esp si está quemado.");
     static const u8 sHarvestDescription[] = _("Puede reutilizar bayas.");
     static const u8 sTelepathyDescription[] = _("Elude los ataques aliados.");
     static const u8 sMoodyDescription[] = _("Carac. suben gradualmente.");

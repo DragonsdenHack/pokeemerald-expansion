@@ -94,10 +94,10 @@ end
 
 
 SilphS2_Text_5:
-.string "A veces debemos autoobligarnos a\n"
-.string "llevarnos al límite para ver\l"
-.string "realmente de qué somos capaces,\l"
-.string "solemos proyectar esa imagen\l"
+.string "A veces debemos obligarnos a\n"
+.string "llegar al límite, para ver\l"
+.string "realmente de qué somos capaces.\p"
+.string "Solemos proyectar esa imagen\n"
 .string "mental de tener todo bajo control\l"
 .string "funcionando a pleno rendimiento\l"
 .string "como el ideal a alcanzar, sin\l"

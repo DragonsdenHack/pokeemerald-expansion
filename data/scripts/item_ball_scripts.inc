@@ -2185,7 +2185,11 @@ finditem ITEM_ULTRA_BALL
    end
 
 BaseHoenn_EventScript_Hechizo::
-finditem ITEM_SPELL_TAG
+finditem ITEM_MAX_REVIVE
+   end
+
+TorrePkmnS2_EventScript_Hechizo::
+finditem ITEM_REVIVE
    end
 
 Cementerio_EventScript_Blanco::
@@ -3171,5 +3175,41 @@ finditem ITEM_SUN_STONE
 Ruta_51_EventScript_PiedraSolar::
 finditem ITEM_SUN_STONE
     end
+
+BaseProfunda_EventScript_Colmillodrag::
+finditem ITEM_DRAGON_FANG
+    end
+
+BaseProfunda_EventScript_SemMilagro::
+finditem ITEM_MIRACLE_SEED
+    end
+
+BaseProfunda_EventScript_Hechizo::
+finditem ITEM_SPELL_TAG
+    end
+
+CuevaGlaciada_EventScript_RocaHelada::
+finditem ITEM_ICY_ROCK
+    end
+
+SilphS3_EventScript_Telescopio::
+finditem ITEM_ZOOM_LENS
+   end
+
+BaseRuta5_EventScript_MiniSeta::
+finditem ITEM_TINY_MUSHROOM, 2
+   end
+
+JardinCarmin_EventScript_MiniSeta::
+finditem ITEM_TINY_MUSHROOM, 2
+   end
+
+BosqueGimnasio_EventScript_MiniSeta::
+finditem ITEM_TINY_MUSHROOM, 2
+   end
+
+BaseProfunda_EventScript_MiniSeta::
+finditem ITEM_TINY_MUSHROOM, 2
+   end
 
 
