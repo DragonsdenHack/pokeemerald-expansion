@@ -1287,89 +1287,89 @@ static const u8 sChillDriveDesc[] = _(
 
 // Memories
 static const u8 sFireMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo FUEGO.");
+    "Cambia a SILVALLY\n"
+    "al tipo FUEGO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sWaterMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo AGUA.");
+    "Cambia a SILVALLY\n"
+    "al tipo AGUA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sElectricMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo ELÉCTRICO.");
+    "Cambia a SILVALLY\n"
+    "al tipo ELÉCTRICO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sGrassMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo PLANTA.");
+    "Cambia a SILVALLY\n"
+    "al tipo PLANTA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sIceMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo HIELO.");
+    "Cambia a SILVALLY\n"
+    "al tipo HIELO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sFightingMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo LUCHA.");
+    "Cambia a SILVALLY\n"
+    "al tipo LUCHA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sPoisonMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo VENENO.");
+    "Cambia a SILVALLY\n"
+    "al tipo VENENO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sGroundMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo TIERRA.");
+    "Cambia a SILVALLY\n"
+    "al tipo TIERRA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sFlyingMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo VOLADOR.");
+    "Cambia a SILVALLY\n"
+    "al tipo VOLADOR.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sPsychicMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo PSÍQUICO.");
+    "Cambia a SILVALLY\n"
+    "al tipo PSÍQUICO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sBugMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo BICHO.");
+    "Cambia a SILVALLY\n"
+    "al tipo BICHO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sRockMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo ROCA.");
+    "Cambia a SILVALLY\n"
+    "al tipo ROCA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sGhostMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo FANTASMA.");
+    "Cambia a SILVALLY\n"
+    "al tipo FANTASMA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sDragonMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo DRAGÓN.");
+    "Cambia a SILVALLY\n"
+    "al tipo DRAGÓN.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sDarkMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo SINIESTRO.");
+    "Cambia a SILVALLY\n"
+    "al tipo SINIESTRO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sSteelMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo ACERO.");
+    "Cambia a SILVALLY\n"
+    "al tipo ACERO.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sFairyMemoryDesc[] = _(
-    "Disco que cambia.\n"
-    "a SILVALLY al\n"
-    "tipo HADA.");
+    "Cambia a SILVALLY\n"
+    "al tipo HADA.\n"
+    "+30% AT y DEF.ESP.");
 
 static const u8 sRustedSwordDesc[] = _( // Todo
     "?????");
@@ -2402,14 +2402,14 @@ static const u8 sMetronomeDesc[] = _(
     "se usa seguido.");
 
 static const u8 sIronBallDesc[] = _(
-    "Reduce VELOC. y\n"
-    "elimina inmunidad\n"
-    "del tipo VOLADOR.");
+    "-50% VELOCIDAD.\n"
+    "Potencia en un 35%\n"
+    "la DEFENSA.");
 
 static const u8 sLaggingTailDesc[] = _(
-    "Hace que el\n"
-    "usuario mueva\n"
-    "el último.");
+    "A misma prioridad,\n"
+    "mueve el último.\n"
+    "+35% ATAQUE.");
 
 static const u8 sDestinyKnotDesc[] = _(
     "Si el usuario se\n"

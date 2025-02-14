@@ -3112,6 +3112,5 @@ RocketHideout7F_27_Text_1:
 	.string "mismo está dispuesto a dar.$"
 
 RocketHideout7F_27_Text_2:
-	.string "Sin embargo, hay veces que necesito un\n"
-	.string "empujón extra para mantener el ritmo,\l"
-	.string "ya me entiendes.$"
+	.string "Por eso, hay veces que necesito un\n"
+	.string "empujón extra para mantener el ritmo.$"

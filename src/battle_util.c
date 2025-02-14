@@ -8582,6 +8582,28 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].species == SPECIES_ELECTIVIRE && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_MEMORY:
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FIGHTING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FLYING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_POISON
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ROCK
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_BUG
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GHOST
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_STEEL
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FIRE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_WATER
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GRASS
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ELECTRIC
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_PSYCHIC
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ICE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_DRAGON
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_DARK
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FAIRY
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GROUND)
+        && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
     case HOLD_EFFECT_RAZOR_FANG:
         if (gBattleMons[battlerAtk].species == SPECIES_GLISCOR && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
@@ -8804,12 +8826,42 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         if (gBattleMons[battlerDef].species == SPECIES_ELECTIVIRE && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_MEMORY:
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FIGHTING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FLYING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_POISON
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ROCK
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_BUG
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GHOST
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_STEEL
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FIRE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_WATER
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GRASS
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ELECTRIC
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_PSYCHIC
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_ICE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_DRAGON
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_DARK
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_FAIRY
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SILVALLY_GROUND)
+      && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_LAGGING_TAIL:
+        if (IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.35));
+        break;
     case HOLD_EFFECT_PROTECTOR:
         if (gBattleMons[battlerDef].species == SPECIES_RHYPERIOR)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_DRIVE:
-        if (gBattleMons[battlerDef].species == SPECIES_GENESECT)
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_GENESECT
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_GENESECT_CHILL_DRIVE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_GENESECT_SHOCK_DRIVE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_GENESECT_DOUSE_DRIVE
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_GENESECT_BURN_DRIVE))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_RED_SCALE:
@@ -8844,6 +8896,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     case HOLD_EFFECT_EVIOLITE:
         if (CanEvolve(gBattleMons[battlerDef].species))
             MulModifier(&modifier, UQ_4_12(1.5));
+        break;
+    case HOLD_EFFECT_IRON_BALL:
+        if (usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.35));
         break;
     case HOLD_EFFECT_ASSAULT_VEST:
         if (!usesDefStat)

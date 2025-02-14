@@ -5151,6 +5151,10 @@ EventScript_SetJohto::
 	additem ITEM_LIFE_ORB
 	additem ITEM_ABILITY_CAPSULE, 5
 	additem ITEM_ABILITY_PATCH, 5
+	additem ITEM_DOUSE_DRIVE
+	additem ITEM_SHOCK_DRIVE
+	additem ITEM_BURN_DRIVE
+	additem ITEM_CHILL_DRIVE
 	@FIN ITEMS
 	call EventScript_SetItemsDlc
 	call EventScript_SetTrainersDlc

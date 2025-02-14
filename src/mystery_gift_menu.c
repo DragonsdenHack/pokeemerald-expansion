@@ -4739,6 +4739,11 @@ static void DarPokemonBasicosKanto(u8 opcion){
 		memcpy(evs, (u8[]){0, 0, 6, 252, 252, 0}, 6);
         memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
 
+		ScriptGiveCustomMon(SPECIES_GENESECT,110,ITEM_NONE,26,NATURE_MODEST,0xFF, evs, ivs, MOVE_TECHNO_BLAST, MOVE_STEEL_BEAM,MOVE_U_TURN,MOVE_TRI_ATTACK,0);
+
+		memcpy(evs, (u8[]){0, 0, 6, 252, 252, 0}, 6);
+        memcpy(ivs, (u8[]){31, 31, 31, 31, 31, 31}, 6);
+
 		ScriptGiveCustomMon(SPECIES_SILVALLY,110,ITEM_NONE,26,NATURE_MODEST,0xFF, evs, ivs, MOVE_MULTI_ATTACK, MOVE_FLAME_CHARGE,MOVE_U_TURN,MOVE_EXPLOSION,0);
 
 		memcpy(evs, (u8[]){0, 0, 6, 252, 252, 0}, 6);

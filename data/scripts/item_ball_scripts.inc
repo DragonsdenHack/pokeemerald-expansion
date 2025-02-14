@@ -1304,7 +1304,7 @@ finditem ITEM_BIG_NUGGET
 end
 
 CuevaTrigal_EventScript_PiedraDura::
-finditem ITEM_HARD_STONE
+finditem ITEM_LAGGING_TAIL
 end
 
 CuevaTrigal_EventScript_CenSagrada::
@@ -3212,4 +3212,6 @@ BaseProfunda_EventScript_MiniSeta::
 finditem ITEM_TINY_MUSHROOM, 2
    end
 
-
+TwoIsland_EventScript_Bola::
+finditem ITEM_ZOOM_LENS
+   end
