@@ -5549,7 +5549,7 @@
       "id": "LAYOUT_SIX_ISLAND",
       "name": "SixIsland_Layout",
       "width": 24,
-      "height": 30,
+      "height": 31,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
@@ -15408,6 +15408,42 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Goldenrod_Casa_Secreta/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_Casa_Secreta/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_OESTE",
+      "name": "SixIsland_Oeste_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_67",
+      "border_filepath": "data/layouts/SixIsland_Oeste/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_Oeste/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_OESTE_BOSQUE",
+      "name": "SixIsland_Oeste_Bosque_Layout",
+      "width": 31,
+      "height": 54,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_Viridian_Forest",
+      "border_filepath": "data/layouts/SixIsland_Oeste_Bosque/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_Oeste_Bosque/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_LABORATORIO",
+      "name": "SixIsland_Laboratorio_Layout",
+      "width": 16,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/SixIsland_Laboratorio/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_Laboratorio/map.bin"
     }
   ]
 }

@@ -204,7 +204,9 @@
     "TwoIsland_Torre_P1",
     "TwoIsland_Torre_P2",
     "TwoIsland_Torre_P3",
-    "TwoIsland_Torre_P4"
+    "TwoIsland_Torre_P4",
+    "SixIsland_Oeste",
+    "SixIsland_Oeste_Bosque"
   ],
   "gMapGroup_TownsAndRoutesJOHTO": [
     "NewBarkTown",
@@ -883,7 +885,8 @@
     "SixIsland_PokemonCenter_1F",
     "SixIsland_Port",
     "SixIsland_House1",
-    "SixIsland_House2"
+    "SixIsland_House2",
+    "SixIsland_Laboratorio"
   ],
   "gMapGroup_IndoorSevenIsland": [
     "SevenIsland_House1",

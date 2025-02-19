@@ -1,14 +1,27 @@
 BaseRocketHoennS4_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoennS4_OnFrame
 map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BaseRocketHoennS4_Disguise_Player_OnResume
 	.byte 0
 
 BaseRocketHoennS4_OnFrame:
 map_script_2 VAR_UNUSED_0x40FA, 21, BaseRocketHoennS4_Disguise_Player_3
+map_script_2 VAR_ROUTE131_STATE, 17, RocketHideout_Hoenn_Disguise_Player
 	.2byte 0
 
 BaseRocketHoennS4_Disguise_Player_OnResume:
 map_script_2 VAR_UNUSED_0x40FA, 20, BaseRocketHoennS4_Disguise_Player_2
+map_script_2 VAR_ROUTE131_STATE, 11, RocketHideout_Hoenn_Disguise_Player_2
+map_script_2 VAR_ROUTE131_STATE, 12, RocketHideout_Hoenn_Disguise_AltoRango
+map_script_2 VAR_ROUTE131_STATE, 13, RocketHideout_Hoenn_Disguise_Ejecutivo
+map_script_2 VAR_ROUTE131_STATE, 14, RocketHideout_Hoenn_Disguise_Admin
+map_script_2 VAR_ROUTE131_STATE, 15, RocketHideout_Hoenn_Disguise_AdminJefe
+map_script_2 VAR_ROUTE131_STATE, 16, RocketHideout_Hoenn_Disguise_Jefe
 	.2byte 0
 
 BaseRocketHoennS4_Disguise_Player_2::
@@ -23,6 +36,72 @@ playfanfare MUS_OBTAIN_SYMBOL
 msgbox BaseRocketHoennS4_Mision_Johto_Text_29.1 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_UNUSED_0x40FA, 0
+release
+end
+
+RocketHideout_Hoenn_Disguise_Jefe::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+RocketHideout_Hoenn_Disguise_AdminJefe::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+RocketHideout_Hoenn_Disguise_Admin::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+RocketHideout_Hoenn_Disguise_Ejecutivo::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+RocketHideout_Hoenn_Disguise_AltoRango::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+
+RocketHideout_Hoenn_Disguise_Player_2::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 17
+release
+end
+
+RocketHideout_Hoenn_Disguise_Player::
+setvar VAR_ROUTE131_STATE, 25
 release
 end
 
@@ -806,6 +885,128 @@ end
 Base_Hoenn_Andra_Epitafio_Texto_1:
 	.string "Este lugar pertenece a la ENTRENADORA\n"
 	.string "cuyo espíritu se mantuvo indómito.$"
+
+Ascenso_Rocket_Rangos_Hoenn::
+msgbox Ascenso_Rocket_Rangos_Texto_1 MSGBOX_AUTOCLOSE
+compare VAR_UNUSED_0x40F7, 218
+goto_if_gt Ascenso_Hoenn_Rangos_Despues
+multichoice 22, 0, MULTI_POKEMON_ASCENSOS, 0
+switch VAR_RESULT
+case 0, EventScript_Recluta_Hoenn
+case 1, EventScript_AltoRango_Hoenn
+case 2, EventScript_Ejecutivo_Hoenn
+case 3, EventScript_Admin_Hoenn
+case 4, EventScript_AdminJefe_Hoenn
+release
+end
+
+Ascenso_Hoenn_Rangos_Despues::
+multichoice 22, 0, MULTI_POKEMON_ASCENSOS_DESPUES, 0
+switch VAR_RESULT
+case 0, EventScript_Recluta_Hoenn
+case 1, EventScript_AltoRango_Hoenn
+case 2, EventScript_Ejecutivo_Hoenn
+case 3, EventScript_Admin_Hoenn
+case 4, EventScript_AdminJefe_Hoenn
+case 5, EventScript_Jefe_Hoenn
+release
+end
+
+EventScript_Recluta_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 0
+setvar VAR_ROUTE131_STATE, 11
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
+
+EventScript_AltoRango_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 1
+setvar VAR_ROUTE131_STATE, 12
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
+
+EventScript_Ejecutivo_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 2
+setvar VAR_ROUTE131_STATE, 13
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
+
+EventScript_Admin_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 3
+setvar VAR_ROUTE131_STATE, 14
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
+
+EventScript_AdminJefe_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 4
+setvar VAR_ROUTE131_STATE, 15
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
+
+EventScript_Jefe_Hoenn::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 5
+setvar VAR_ROUTE131_STATE, 16
+warpsilent MAP_BASE_ROCKET_HOENN_S4, 15, 2
+delay 100
+release
+end
 
 
 

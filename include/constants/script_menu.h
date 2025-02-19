@@ -150,6 +150,7 @@
 #define MULTI_VENTA_BASE_EJECUTIVA         139
 #define MULTI_POKEMON_MALVALONA            140
 #define MULTI_POKEMON_ASCENSOS             141
+#define MULTI_POKEMON_ASCENSOS_DESPUES     142
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

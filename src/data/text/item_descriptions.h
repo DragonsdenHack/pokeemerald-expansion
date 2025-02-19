@@ -2457,9 +2457,9 @@ static const u8 sEvioliteDesc[] = _(
     "con evolución.");
 
 static const u8 sFloatStoneDesc[] = _(
-    "Es tan liviana que\n"
-    "si se equipa, reduce\n"
-    "el peso a la mitad.");
+    "Reduce el peso a la\n"
+    "mitad, y aumenta en\n"
+    "un 25% la VELOCIDAD.");
 
 static const u8 sRockyHelmetDesc[] = _(
     "Resta 1/6 de salud\n"
@@ -4391,9 +4391,9 @@ static const u8 sKeyToRoom6Desc[] = _(
    	"ABANDONADA.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "Meteorito encon-\n"
-   	"trado en la CASCADA\n"
-   	"METEORO.");
+    "Extraño meteorito,\n"
+   	"su utilidad es\n"
+   	"desconocida.");
 
 static const u8 sMagmaEmblemDesc[] = _(
     "Especie de medalla\n"

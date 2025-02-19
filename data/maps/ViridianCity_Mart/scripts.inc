@@ -308,6 +308,7 @@ Azulona_Centro_Comercial_Mercado_1_EventScript_Clerk::
 Azulona_Centro_Comercial_Mercado_1_Pokemart:
     .2byte ITEM_TM05
 	.2byte ITEM_TM15
+	.2byte ITEM_TM20
 	.2byte ITEM_TM28
 	.2byte ITEM_TM31
 	.2byte ITEM_TM43
@@ -1113,18 +1114,33 @@ Johto_Floristeria_Trigal_Mercado_EventScript_Clerk::
 
 	.align 2
 Johto_Floristeria_Trigal_Mercado_Pokemart:
-    .2byte 530
-	.2byte 531
-	.2byte 532
-	.2byte 533
-	.2byte 534
-	.2byte 541
-	.2byte 542
-	.2byte 543
-	.2byte 544
-	.2byte 545
-	.2byte 546
-	.2byte 547
+    .2byte ITEM_CHILAN_BERRY
+    .2byte ITEM_OCCA_BERRY
+	.2byte ITEM_PASSHO_BERRY
+	.2byte ITEM_WACAN_BERRY
+	.2byte ITEM_RINDO_BERRY
+	.2byte ITEM_YACHE_BERRY
+	.2byte ITEM_CHOPLE_BERRY
+	.2byte ITEM_KEBIA_BERRY
+	.2byte ITEM_SHUCA_BERRY
+	.2byte ITEM_COBA_BERRY
+	.2byte ITEM_PAYAPA_BERRY
+	.2byte ITEM_TANGA_BERRY
+	.2byte ITEM_CHARTI_BERRY
+	.2byte ITEM_KASIB_BERRY
+	.2byte ITEM_HABAN_BERRY
+	.2byte ITEM_COLBUR_BERRY
+	.2byte ITEM_BABIRI_BERRY
+	.2byte ITEM_ROSELI_BERRY
+	.2byte ITEM_PETAYA_BERRY
+    .2byte ITEM_APICOT_BERRY
+	.2byte ITEM_LANSAT_BERRY
+	.2byte ITEM_STARF_BERRY
+	.2byte ITEM_MICLE_BERRY
+	.2byte ITEM_CUSTAP_BERRY
+	.2byte ITEM_JABOCA_BERRY
+	.2byte ITEM_KEE_BERRY
+	.2byte ITEM_MARANGA_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -1367,6 +1383,26 @@ Hoenn_Portual_P2_Mercado_3_Pokemart:
 	.2byte ITEM_TM127
 	.2byte ITEM_TM135
 	.2byte DECOR_NONE
+	release
+	end
+
+Base_Johto_Mts_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Base_Johto_Mts_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Base_Johto_Mts_Pokemart:
+    .2byte ITEM_TM116
+    .2byte ITEM_TM117
+    .2byte ITEM_TM118
+    .2byte ITEM_TM119
+	.2byte ITEM_NONE
 	release
 	end
 

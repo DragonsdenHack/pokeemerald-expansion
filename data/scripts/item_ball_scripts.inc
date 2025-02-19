@@ -2468,6 +2468,10 @@ OlivineCity_Event_Script_TM57::
 finditem ITEM_TM57
    end
 
+OlivineCity_Event_Script_TM169::
+finditem ITEM_TM169
+   end
+
 OlivineCity_Event_Script_Diente::
 finditem ITEM_DEEP_SEA_TOOTH
    end
@@ -2502,6 +2506,10 @@ finditem ITEM_MAX_REPEL
 
 TorreSecundaP4_Event_Script_TM102::
 finditem ITEM_TM102_SMART_STRIKE
+   end
+
+TorreSecundaP4_Event_Script_TM156::
+finditem ITEM_TM156_GUILLOTINE
    end
 
 RadioTowerP10_Event_Script_TM111::
@@ -3214,4 +3222,32 @@ finditem ITEM_TINY_MUSHROOM, 2
 
 TwoIsland_EventScript_Bola::
 finditem ITEM_ZOOM_LENS
+   end
+
+BaseProfunda_EventScript_ItemTM32::
+finditem ITEM_TM32_DOUBLE_TEAM
+	end
+
+TorreDunP11_EventScript_MineralNegro::
+finditem ITEM_BLACK_AUGURITE
+	end
+
+IslaExtaTeselia_EventScript_TM163::
+finditem ITEM_TM163
+   end
+
+IslaExtaTeselia_EventScript_Solar::
+finditem ITEM_SUN_STONE
+   end
+
+IslaExtaTeselia_EventScript_Revivir::
+finditem ITEM_REVIVE
+   end
+
+IslaExtaTeselia_EventScript_Discoxtrano::
+finditem ITEM_DUBIOUS_DISC
+   end
+
+IslaExtaTeselia_EventScript_MiniSeta::
+finditem ITEM_TINY_MUSHROOM
    end

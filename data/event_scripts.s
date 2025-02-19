@@ -2989,3 +2989,9 @@ Text_EVChecker_3:
 	.include "data/maps/Pass_LakeofRage/scripts.inc"
 
 	.include "data/maps/Goldenrod_Casa_Secreta/scripts.inc"
+
+	.include "data/maps/SixIsland_Oeste/scripts.inc"
+
+	.include "data/maps/SixIsland_Oeste_Bosque/scripts.inc"
+
+	.include "data/maps/SixIsland_Laboratorio/scripts.inc"

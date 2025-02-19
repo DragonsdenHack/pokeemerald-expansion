@@ -930,6 +930,17 @@ static const struct MenuAction MultichoiceList_Ascensos[] =
     {gText_Ejecutivo},
     {gText_Admin},
     {gText_AdminJefe},
+    {gText_Exit},
+
+};
+
+static const struct MenuAction MultichoiceList_AscensosDespues[] =
+{
+    {gText_Recluta},
+    {gText_AltoRango},
+    {gText_Ejecutivo},
+    {gText_Admin},
+    {gText_AdminJefe},
     {gText_Jefe},
     {gText_Exit},
 
@@ -1227,6 +1238,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
 	[MULTI_SILPH_ASCENSOR3]                     = MULTICHOICE(MultichoiceList_SilphAscensor3),
     [MULTI_POKEMON_MALVALONA]              = MULTICHOICE(MultichoiceList_PokemonMalvalona),
     [MULTI_POKEMON_ASCENSOS]              = MULTICHOICE(MultichoiceList_Ascensos),
+    [MULTI_POKEMON_ASCENSOS_DESPUES]              = MULTICHOICE(MultichoiceList_AscensosDespues),
 };
 
 const u8 *const gStdStrings[] =

@@ -4564,6 +4564,8 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
         speed /= 2;
     else if (holdEffect == HOLD_EFFECT_CHOICE_SCARF)
         speed = (speed * 150) / 100;
+    else if (holdEffect == HOLD_EFFECT_FLOAT_STONE)
+        speed = (speed * 125) / 100;
     else if (holdEffect == HOLD_EFFECT_QUICK_POWDER && gBattleMons[battlerId].species == SPECIES_DITTO && !(gBattleMons[battlerId].status2 & STATUS2_TRANSFORMED))
         speed *= 2;
     else if (holdEffect == HOLD_EFFECT_REAPER_CLOTH && gBattleMons[battlerId].species == SPECIES_DUSKNOIR)

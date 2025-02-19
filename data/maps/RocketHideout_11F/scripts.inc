@@ -463,6 +463,7 @@ msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_1, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_2, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_3, MSGBOX_DEFAULT
 msgbox PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_4, MSGBOX_DEFAULT
+hidemonpic
 release
 end
 
@@ -481,7 +482,7 @@ PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_3:
 
 PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_4:
 	.string "Guarda extrañas y muy sorprendentes\n"
-	.string "similitudes con ZYRGARDE, tales como\l"
+	.string "similitudes con ZYGARDE, tales como\l"
 	.string "similar DEFENSA, capacidad de ejecutar\l"
 	.string "MIL FLECHAS y, sobre todo, estar ambos\l"
 	.string "anclados a la tierra, obligados a reptar\l"

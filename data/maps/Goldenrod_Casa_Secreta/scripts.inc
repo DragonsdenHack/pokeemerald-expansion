@@ -34,7 +34,7 @@ end
 
 Goldenrod_Casa_Secreta_Exorcista_Encontrado::
 checkitem ITEM_OVAL_CHARM
-goto_if_eq VAR_RESULT, FALSE, Goldenrod_Casa_Secreta_Exorcista_2
+goto_if_eq VAR_RESULT, FALSE, Goldenrod_Casa_Secreta_Exorcista_2 
 delay 10
 msgbox Goldenrod_Casa_Secreta_Exorcista_Texto_10 MSGBOX_AUTOCLOSE
 delay 10

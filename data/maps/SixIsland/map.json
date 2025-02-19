@@ -17,6 +17,11 @@
       "direction": "right",
       "offset": -40,
       "map": "MAP_WATER_PATH"
+    },
+    {
+      "direction": "left",
+      "offset": 11,
+      "map": "MAP_SIX_ISLAND_OESTE"
     }
   ],
   "object_events": [
@@ -78,7 +83,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "TwoIsland_Corriente_Izquierda"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "TwoIsland_Corriente_Derecha"
+    }
   ],
   "bg_events": [
     {
