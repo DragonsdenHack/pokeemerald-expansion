@@ -1153,7 +1153,7 @@ walk_in_place_right
 step_end
 
 MtChimney_Doctor_Rasmus_Texto_1:
-	.string "(???? arrojó algo al volcán)$"
+	.string "-???? arrojó algo al volcán-.$"
 
 MtChimney_Doctor_Rasmus_Texto_2:
 	.string "Esta es la última prueba, 3 minutos\n"
@@ -1222,8 +1222,8 @@ MtChimney_Doctor_Rasmus_Texto_15:
 	.string "exponerlo a situaciones límite.$"
 
 MtChimney_Doctor_Rasmus_Texto_16:
-	.string "(???? recogió al BLACEPHALON\n"
-	.string "debilitado)$"
+	.string "-???? recogió al BLACEPHALON\n"
+	.string "debilitado-.$"
 
 MtChimney_Doctor_Rasmus_Texto_17:
 	.string "Por eso mismo estás aquí, de no ser por\n"

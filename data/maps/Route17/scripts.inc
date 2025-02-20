@@ -151,7 +151,7 @@ end
 
 Route17Documento_Text_103:
 .string "RUTA 17\n"
-	.string "CIUDAD AZAFRÁN - CIUDAD FUCSIA$"
+	.string "CIUDAD AZULONA - CIUDAD FUCSIA$"
 
 
 

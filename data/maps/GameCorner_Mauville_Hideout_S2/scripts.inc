@@ -125,14 +125,14 @@ GameCorner_Mauville_NPC5_Electricista_Texto_1:
 	.string "… …$"
 
 GameCorner_Mauville_NPC5_Electricista_Texto_2:
-	.string "(Está echando la siesta, parece que se\n"
-	.string "le ha caído algo)$"
+	.string "-Está echando la siesta, parece que se\n"
+	.string "le ha caído algo-.$"
 
 GameCorner_Mauville_NPC5_Electricista_Texto_3:
 	.string "¡OBTUVISTE LLAVE S2!$"
 
 GameCorner_Mauville_NPC5_Electricista_Texto_4:
-	.string "(Sigue echando la siesta.)$"
+	.string "-Sigue echando la siesta-.$"
 
 GameCorner_Mauville_Ariana_Move_1:
 walk_in_place_right
