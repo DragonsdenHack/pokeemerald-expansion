@@ -1263,6 +1263,7 @@ const u8 *const gStdStrings[] =
     [STDSTRING_TMHMS] = gText_TMs_Hms,
     [STDSTRING_BERRIES] = gText_Berries2,
     [STDSTRING_SINGLE] = gText_Single2,
+    [STDSTRING_VERSION] = gText_Version,
     [STDSTRING_DOUBLE] = gText_Double2,
     [STDSTRING_MULTI] = gText_Multi,
     [STDSTRING_MULTI_LINK] = gText_MultiLink,

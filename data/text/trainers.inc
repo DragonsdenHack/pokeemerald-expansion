@@ -17118,6 +17118,738 @@ NeoRoute21_NadadoraPostBattle:
 	.string "I should be careful with sun-induced\n"
 	.string "spots.$"
 
+MtChimney_Text_PrimerPoliciaIntro:
+	.string "Estamos realizando importantes\n"
+	.string "pruebas, nadie debe pasar de aquí\l"
+	.string "hasta que hayamos terminado.$"
+
+MtChimney_Text_PrimerPoliciaDefeat:
+	.string "¿Quién eres?$"
+
+MtChimney_Text_PrimerPoliciaPostBattle:
+	.string "Al parecer este volcán guarda muchos\n"
+	.string "secretos.$"
+
+MtChimney_Text_SegundoPoliciaIntro:
+	.string "Nuestro DOCTOR está haciendo pruebas\n"
+	.string "en el volcán del MT.CENIZO, ¿no querrás\l"
+	.string "molestarlo?$"
+
+MtChimney_Text_SegundoPoliciaDefeat:
+	.string "Estás avisado…{PAUSE 5}$"
+
+MtChimney_Text_SegundoPoliciaPostBattle:
+	.string "Al DOCTOR no le gusta ser interrumpido\n"
+	.string "en medio de su trabajo.$"
+
+MtChimney_Text_TercerPoliciaIntro:
+	.string "¡Alto ahí! ¡Deberías estar agradecido a\n"
+	.string "DEVON por todo lo que aporta a HOENN en\l"
+	.string "lugar de interferir en su progreso!$"
+
+MtChimney_Text_TercerPoliciaDefeat:
+	.string "¡Tú no eres de HOENN!$"
+
+MtChimney_Text_TercerPoliciaPostBattle:
+	.string "No me hago responsable de tu integridad\n"
+	.string "física a partir de este punto.$"
+
+MtChimney_Text_PrimerCientificoIntro:
+	.string "Estamos llevando a cabo una\n"
+	.string "investigación privada, todo es por el\l"
+	.string "bien de HOENN.$"
+
+MtChimney_Text_PrimerCientificoDefeat:
+	.string "Menudos especímenes.$"
+
+MtChimney_Text_PrimerCientificoPostBattle:
+	.string "Los verdaderos motivos del porqué de\n"
+	.string "esta expedición no son de dominio\l"
+	.string "público.$"
+
+GameCorner_Mauville_Text_PrimerDomadorIntro:
+	.string "¿Te acaban de contratar? ¿Qué haces\n"
+	.string "aquí entonces?$"
+
+GameCorner_Mauville_Text_PrimerDomadorDefeat:
+	.string "¡Ouch! ¡Qué poder!$"
+
+GameCorner_Mauville_Text_PrimerDomadorPostBattle:
+	.string "¿DEVON? ¿De qué me estás hablando?$"
+
+GameCorner_Mauville_Text_SegundoDomadorIntro:
+	.string "¡Estás fuera de límites! ¡Da media\n"
+	.string "vuelta!$"
+
+GameCorner_Mauville_Text_SegundoDomadorDefeat:
+	.string "¡No pude hacer nada!$"
+
+GameCorner_Mauville_Text_SegundoDomadorPostBattle:
+	.string "Nuestra actual superior tuvo un pasado\n"
+	.string "ligado a la mafia, yo de ti me dejaba de\l"
+	.string "tonterías.$"
+
+GameCorner_Mauville_Text_PrimerPoliciaIntro:
+	.string "El CASINO está en buenas manos. Nadie\n"
+	.string "debe pasar de este punto.$"
+
+GameCorner_Mauville_Text_PrimerPoliciaDefeat:
+	.string "¡He fracasado!$"
+
+GameCorner_Mauville_Text_PrimerPoliciaPostBattle:
+	.string "Nuestra LÍDER es muy estricta. Que\n"
+	.string "haya perdido con tanta facilidad no le\l"
+	.string "va a gustar…{PAUSE 5}$"
+
+GameCorner_Mauville_Text_SegundoPoliciaIntro:
+	.string "¡Seguridad! ¡Ni un paso más! ¡Manos\n"
+	.string "arriba!$"
+
+GameCorner_Mauville_Text_SegundoPoliciaDefeat:
+	.string "¡No! ¡He quedado en ridículo!$"
+
+GameCorner_Mauville_Text_SegundoPoliciaPostBattle:
+	.string "Se supone que mi trabajo es evitar que\n"
+	.string "gente como tú campe a sus anchas. Como\l"
+	.string "mañana me encuentre el finiquito en la\l"
+	.string "mesa será culpa tuya.$"
+
+GameCorner_Mauville_Text_PrimerElectricistaIntro:
+	.string "No sé quien eres, pero he acabado mi\n"
+	.string "turno y estoy aburrido. ¡Pelea!$"
+
+GameCorner_Mauville_Text_PrimerElectricistaDefeat:
+	.string "¡Espera! ¡Me rindo!$"
+
+GameCorner_Mauville_Text_PrimerElectricistaPostBattle:
+	.string "Solo he visto un poder parecido al tuyo\n"
+	.string "una vez: con los POKÉMON de nuestra\l"
+	.string "superior.$"
+
+NewMauville_Inside_Text_PrimerCientificoIntro:
+	.string "Estamos haciendo pruebas a puerta\n"
+	.string "cerrada, ¿cómo has entrado?$"
+
+NewMauville_Inside_Text_PrimerCientificoDefeat:
+	.string "¡Me he electrocutado!$"
+
+NewMauville_Inside_Text_PrimerCientificoPostBattle:
+	.string "Este lugar es peligroso, solo un necio\n"
+	.string "entraría aquí por placer.$"
+
+NewMauville_Inside_Text_SegundoCientificoIntro:
+	.string "¡Espera! ¡A ti te vi en el MONTE CENIZO!\n"
+	.string "¿Nos estás siguiendo?$"
+
+NewMauville_Inside_Text_SegundoCientificoDefeat:
+		.string "¡Nos estás siguiendo!$"
+
+NewMauville_Inside_Text_SegundoCientificoPostBattle:
+	.string "Debes de ser ese alto cargo del TEAM\n"
+	.string "ROCKET, ¿me equivoco?$"
+
+NewMauville_Inside_Text_PrimerPoliciaIntro:
+	.string "MALVALONA ha dado a DEVON las llaves de\n"
+	.string "este lugar, deberías colaborar como\l"
+	.string "ellos.$"
+
+NewMauville_Inside_Text_PrimerPoliciaDefeat:
+	.string "Insolidario…{PAUSE 5}$"
+
+NewMauville_Inside_Text_PrimerPoliciaPostBattle:
+	.string "El mundo de las grandes empresas se\n"
+	.string "mueve por contactos e intereses.$"
+
+NewMauville_Inside_Text_SegundoPoliciaIntro:
+	.string "Los datos que nuestro DOCTOR saque de\n"
+	.string "aquí harán que DEVON crezca. Si DEVON\l"
+	.string "crece, ¡HOENN también crecerá!$"
+
+NewMauville_Inside_Text_SegundoPoliciaDefeat:
+	.string "¡Rata de KANTO!$"
+
+NewMauville_Inside_Text_SegundoPoliciaPostBattle:
+	.string "Ahora lo entiendo, tú no eres de HOENN.$"
+
+NewMauville_Inside_Text_TercerCientificoIntro:
+	.string "El propósito por el que estamos aquí es\n"
+	.string "muy distinto al que oficialmente hemos\l"
+	.string "alegado.$"
+
+NewMauville_Inside_Text_TercerCientificoDefeat:
+	.string "Nadie lo sabrá…{PAUSE 5}$"
+
+NewMauville_Inside_Text_TercerCientificoPostBattle:
+	.string "Cuidar la imagen de nuestra empresa es\n"
+	.string "una tarea difícil, hay que quedar bien\l"
+	.string "con mucha gente.$"
+
+AbandonedShip_Text_PrimerPoliciaIntro:
+	.string "Se supone que ninguno de esos\n"
+	.string "mediocres turistas tiene la capacidad\l"
+	.string "suficiente como para usar BUCEO. ¿Quién\l"
+	.string "eres tú?$"
+
+AbandonedShip_Text_PrimerPoliciaDefeat:
+	.string "Eres ese ROCKET…{PAUSE 5}$"
+
+AbandonedShip_Text_PrimerPoliciaPostBattle:
+	.string "Si sigues molestando a DEVON, vas\n"
+	.string "a terminar muy mal.$"
+
+AbandonedShip_Text_SegundoPoliciaIntro:
+	.string "Estamos en una misión de alto secreto,\n"
+	.string "¡nadie debe enterarse!$"
+
+AbandonedShip_Text_SegundoPoliciaDefeat:
+	.string "¡No se lo digas a nadie!$"
+
+AbandonedShip_Text_SegundoPoliciaPostBattle:
+	.string "Nadie ha pisado este lugar en años, en\n"
+	.string "algún momento el agua lo engullirá.$"
+
+AbandonedShip_Text_TercerPoliciaIntro:
+	.string "Muchos objetos valiosos se perdieron\n"
+	.string "en este barco, uno en concreto es\l"
+	.string "especialmente valioso.$"
+
+AbandonedShip_Text_TercerPoliciaDefeat:
+	.string "¡No debí decir eso!$"
+
+AbandonedShip_Text_TercerPoliciaPostBattle:
+	.string "Ahora que lo pienso, ¡los ADMIN. de\n"
+	.string "DEVON me regañarán por haberte\l"
+	.string "contado eso!$"
+
+AbandonedShip_Text_CuartoPoliciaIntro:
+	.string "Nadie sabe por qué este barco acabó\n"
+	.string "hundido, ¿o sí?$"
+
+AbandonedShip_Text_CuartoPoliciaDefeat:
+	.string "¿Tú lo sabes?$"
+
+AbandonedShip_Text_CuartoPoliciaPostBattle:
+	.string "La verdad no suele estar al alcance de\n"
+	.string "las masas.$"
+
+AbandonedShip_Text_QuintoPoliciaIntro:
+	.string "Estás poniendo en riesgo la discreción\n"
+	.string "de esta misión, ¡y no voy a permitirlo!$"
+
+AbandonedShip_Text_QuintoPoliciaDefeat:
+	.string "¡No, he hecho demasiado ruido!$"
+
+AbandonedShip_Text_QuintoPoliciaPostBattle:
+	.string "¿Dónde has encontrado la MO que te\n"
+	.string "permite hacer BUCEO?$"
+
+Snowpoint_Gimnasio_Text_PrimeroIntro:
+	.string "Hace m-mucho frío. No siento ni la\n"
+	.string "l-lengua.$"
+
+Snowpoint_Gimnasio_Text_PrimeroDefeated:
+	.string "Este resultado… Me ha dejado helado.$"
+
+Snowpoint_Gimnasio_Text_PrimeroPostBattle:
+	.string "Si te deslizas desde mayor altura,\n"
+	.string "chocarás contra las bolas de nieve con\l"
+	.string "mayor velocidad.$"
+
+Snowpoint_Gimnasio_Text_SegundoIntro:
+	.string "¿El suelo del gimnasio te está haciendo\n"
+	.string "sudar? Si uno no se mantiene frío\l"
+	.string "durante el combate, se queda helado.$"
+
+Snowpoint_Gimnasio_Text_SegundoDefeated:
+	.string "Menuda frialdad desprendes… Al menos\n"
+	.string "tengo mis botas calientes.$"
+
+Snowpoint_Gimnasio_Text_SegundoPostBattle:
+	.string "Tu equipo Pokémon echa chispas en el\n"
+	.string "combate. ¡Me has fundido!$"
+
+Snowpoint_Gimnasio_Text_TercerIntro:
+	.string "Siempre luchamos cuando hay ventiscas\n"
+	.string "en CIUDAD PUNTANEVA. ¡Ahora te vamos a\l"
+	.string "enseñar los resultados de nuestro\l"
+	.string "entrenamiento!$"
+
+Snowpoint_Gimnasio_Text_TercerDefeated:
+	.string "¿De dónde sacas tanta fuerza?$"
+
+Snowpoint_Gimnasio_Text_TercerPostBattle:
+	.string "¿Dices que has luchado en todos lados?\n"
+	.string "Eso te ha hecho fuerte.$"
+
+Snowpoint_Gimnasio_Text_CuartoIntro:
+	.string "Hace poco que me relaciono con Pokémon.\n"
+	.string "¡He llegado hasta aquí porque me han\l"
+	.string "enseñado amigos muy buenos!$"
+
+Snowpoint_Gimnasio_Text_CuartoDefeated:
+	.string "¡Es increíble lo fuerte que eres!$"
+
+Snowpoint_Gimnasio_Text_CuartoPostBattle:
+	.string "Si tienes buenos amigos puedes llegar a\n"
+	.string "cualquier sitio.$"
+
+Snowpoint_Gimnasio_Text_QuintoIntro:
+	.string "Mi fuerza de voluntad ha sido moldeada\n"
+	.string "por fuertes ventiscas. ¡Ahora serás\l"
+	.string "víctima de ella!$"
+
+Snowpoint_Gimnasio_Text_QuintoDefeated:
+	.string "Ni has pestañeado…{PAUSE 5}$"
+
+Snowpoint_Gimnasio_Text_QuintoPostBattle:
+	.string "He luchado contra numerosos\n"
+	.string "entrenadores y Pokémon. Todos estos\l"
+	.string "combates han fortalecido mi espíritu.$"
+
+Snowpoint_Gimnasio_Text_SextoIntro:
+	.string "¿Empiezas a sentir el cansancio? Un\n"
+	.string "buen entrenador solo piensa en ganar,\l"
+	.string "se encuentre bien o no.$"
+
+Snowpoint_Gimnasio_Text_SextoDefeated:
+	.string "Me encuentro mal…{PAUSE 5}$"
+
+Snowpoint_Gimnasio_Text_SextoPostBattle:
+	.string "Los sentimientos del entrenador y los\n"
+	.string "del Pokémon… Si ambos están en\l"
+	.string "sintonía, no pueden perder.$"
+
+Snowpoint_Templo_S1_Text_CientificoIntro:
+	.string "Nuestro ADMIN.AMATISTA esperó este\n"
+	.string "momento por mucho tiempo. Nadie debe\l"
+	.string "interferir.$"
+
+Snowpoint_Templo_S1_Text_CientificoDefeat:
+	.string "¿Quién eres tú?$"
+
+Snowpoint_Templo_S1_Text_CientificoPostBattle:
+	.string "El rey de los REGIS volverá al lugar que\n"
+	.string "le pertenece tras mucho tiempo.$"
+
+Snowpoint_Templo_S2_Text_PoliciaIntro:
+	.string "¿Eres del personal del TEMPLO? ¿Algún\n"
+	.string "problema? … … ¡Espera! ¡A ti te he visto\l"
+	.string "en HOENN!$"
+
+Snowpoint_Templo_S2_Text_PoliciaDefeat:
+	.string "¡Ahora te reconozco!$"
+
+Snowpoint_Templo_S2_Text_PoliciaPostBattle:
+	.string "¿Cómo has llegado hasta aquí?$"
+
+Snowpoint_Templo_S4_Text_CientificoIntro:
+	.string "Hay un POKÉMON colosal durmiendo en lo\n"
+	.string "profundo del TEMPLO. Solo DEVON sabe\l"
+	.string "cómo despertarlo.$"
+
+Snowpoint_Templo_S4_Text_CientificoDefeat:
+	.string "¿Osas interferir?$"
+
+Snowpoint_Templo_S4_Text_CientificoPostBattle:
+	.string "Nuestro doctor y la mano derecha del\n"
+	.string "PRESIDENTE harán un gran trabajo.$"
+
+Snowpoint_Templo_S4_Text_PoliciaIntro:
+	.string "¡Alto ahí, ROCKET! En DEVON ya estás en\n"
+	.string "nuestra lista negra, ¿cómo has hecho\l"
+	.string "para seguirnos?$"
+
+Snowpoint_Templo_S4_Text_PoliciaDefeat:
+	.string "Derrotado en HOENN y ahora en SINNOH…{PAUSE 5}$"
+
+Snowpoint_Templo_S4_Text_PoliciaPostBattle:
+	.string "¿De verdad te colaste en nuestro\n"
+	.string "SUBMARINO?$"
+
+Route119_Text_CientificoIntro:
+	.string	"El DOCTOR está interesado en la\n"
+	.string	"investigación que están realizando\l"
+	.string	"aquí, por eso nos ha enviado.\p"
+	.string	"¡Nadie debe molestar!$"
+
+Route119_Text_CientificoDefeat:
+	.string	"Era de esperar…\n"
+	.string	"Me has vencido, maldito…{PAUSE 5}$"
+
+Route119_CientificoPostBattle:
+	.string	"No hay nada que nuestro\n"
+	.string	"DOCTOR no sepa…\p"
+	.string	"Pero yo solo soy un SOLDADO. ¿Cómo\n"
+	.string	"voy a saber lo que tiene en mente?$"
+
+Route119_Text_PrimerPoliciaIntro:
+	.string	"¿Eh?\n"
+	.string	"¿Qué haces tú aquí?$"
+
+Route119_Text_PrimerPoliciaDefeat:
+	.string	"¿Yo?\n"
+	.string	"¿He perdido? ¡¿Yo?!$"
+
+Route119_Text_PrimerPoliciaPostBattle:
+	.string	"Oh, no…\n"
+	.string	"Qué bronca me va a caer…\p"
+	.string	"Creo que voy a echarme una siesta\n"
+	.string	"para olvidar todo esto…{PAUSE 5}$"
+
+Route119_Text_SegundoPoliciaIntro:
+	.string	"¡DEVON siempre va en busca\n"
+	.string	"de lo extraordinario!$"
+
+Route119_Text_SegundoPoliciaDefeat:
+	.string	"¡Me has parado los pies!$"
+
+Route119_Text_SegundoPoliciaPostBattle:
+	.string	"¡No tienes ni idea de lo que estamos\n"
+	.string	"planeando en DEVON!\l"
+	.string	"¡Fuera de nuestro camino!$"
+
+Route119_Text_SegundoCientificoIntro:
+	.string	"El INSTITUTO ha creado un tipo\n"
+	.string	"de POKéMON que tiene algo que ver con\l"
+	.string	"el tiempo. ¡Venimos a por unos cuantos!$"
+
+Route119_Text_SegundoCientificoDefeat:
+	.string	"¡Tienes un don para aparecer\n"
+	.string	"en el peor momento!$"
+
+Route119_Text_SegundoCientificoPostBattle:
+	.string	"¡Si los POKéMON creados aquí pueden\n"
+	.string	"controlar el tiempo a voluntad,\l"
+	.string	"eso puede ser útil para DEVON!$"
+
+VerdanturfTown_Text_PrimerPoliciaIntro:
+	.string "Más adelante está la galería privada,\n"
+	.string "nadie debe pasar de este punto.$"
+
+VerdanturfTown_Text_PrimerPoliciaDefeat:
+	.string "Pero… ¿qué?$"
+
+VerdanturfTown_Text_PrimerPoliciaPostBattle:
+	.string "Si cruzas esta línea roja no hay vuelta\n"
+	.string "atrás, estás avisado.$"
+
+VerdanturfTown_Text_SegundoPoliciaIntro:
+	.string "¿Quién va? ¡No deberías estar aquí!$"
+
+VerdanturfTown_Text_SegundoPoliciaDefeat:
+	.string "¿Quién eres tú?$"
+
+VerdanturfTown_Text_SegundoPoliciaPostBattle:
+	.string "El dueño del museo es muy estricto,\n"
+	.string "esto no le gustará nada.$"
+
+VerdanturfTown_Text_TercerPoliciaIntro:
+	.string "El verdadero arte solo lo pueden\n"
+	.string "apreciar unos pocos, no pareces ser uno\l"
+	.string "de ellos.$"
+
+VerdanturfTown_Text_TercerPoliciaDefeat:
+	.string "Parece que sabes apreciar el arte de\n"
+	.string "combatir…$"
+
+VerdanturfTown_Text_TercerPoliciaPostBattle:
+	.string "HOENN tiene unas condiciones únicas, es\n"
+	.string "normal que aquí florezca el arte como\l"
+	.string "en ningún otro lugar.$"
+
+VerdanturfTown_Text_CuartoPoliciaIntro:
+	.string "¿Eres un inversor privado? Nadie nos\n"
+	.string "avisó de tu llegada, ¡en guardia!$"
+
+VerdanturfTown_Text_CuartoPoliciaDefeat:
+	.string "¡No pude detenerte!$"
+
+VerdanturfTown_Text_CuartoPoliciaPostBattle:
+	.string "La fama de HOENN en el ámbito artístico\n"
+	.string "puede ser explotada fuera de sus\l"
+	.string "fronteras.$"
+
+VerdanturfTown_Text_QuintoPoliciaIntro:
+	.string "¡Alto ahí! Todo lo que hay a partir de\n"
+	.string "este punto ya ha sido vendido.$"
+
+VerdanturfTown_Text_QuintoPoliciaDefeat:
+	.string "¡Esto es un ultraje!$"
+
+VerdanturfTown_Text_QuintoPoliciaPostBattle:
+	.string "Nadie va a interferir en este negocio,\n"
+	.string "quieras o no.$"
+
+Cave_Regigigas_Devon_1_Text_PoliciaIntro:
+	.string "Estamos en el último rincón de HOENN, ¿y\n"
+	.string "seguís apareciendo? ¡No tenéis perdón!$"
+
+Cave_Regigigas_Devon_1_Text_PoliciaDefeat:
+	.string "DEVON nunca caerá.$"
+
+Cave_Regigigas_Devon_1_Text_PoliciaPostBattle:
+	.string "El TEAM ROCKET se supone que solo opera\n"
+	.string "en KANTO y JOHTO, ¡no podéis abarcarlo\l"
+	.string "todo!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaIntro:
+	.string "La CÁMARA SELLADA al fin ha sido\n"
+	.string "abierta, ¡la grandeza nos espera!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaDefeat:
+	.string "¡Perdóname DEVON!$"
+
+Cave_Regigigas_Devon_2_Text_PoliciaPostBattle:
+	.string "Sigues sin entender la grandeza de\n"
+	.string "nuestros planes, y así debe seguir\l"
+	.string "siendo.$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaIntro:
+	.string "Ya nos advirtieron de que podían\n"
+	.string "colarse algunas ratas en esta\l"
+	.string "expedición. DEVON es precavida, por eso\l"
+	.string "estamos aquí.$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaDefeat:
+	.string "¡Solo eres una variable más!$"
+
+Cave_Regigigas_Devon_3_Text_PoliciaPostBattle:
+	.string "Es imposible que llegues a nuestros\n"
+	.string "superiores facilmente, antes tendrás\l"
+	.string "que pasar por encima de nosotros.$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaIntro:
+	.string "Pareces muy perdido. ¿Me equivoco,\n"
+	.string "espía ROCKET?$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaDefeat:
+	.string "Yo estoy aún más perdido…$"
+
+Cave_Regigigas_Devon_4_Text_PoliciaPostBattle:
+	.string "El interior de CÁMARA SELLADA es\n"
+	.string "inmenso. Muchas zonas, como esta, no\l"
+	.string "llevan a nada.$"
+
+Cave_Regigigas_Devon_5_Text_PoliciaIntro:
+	.string "¿¡Quién te crees que eres para\n"
+	.string "profanar este lugar sagrado!?$"
+
+Cave_Regigigas_Devon_5_Text_PoliciaDefeat:
+	.string "Mmm… eres muy fuerte.$"
+
+Cave_Regigigas_Devon_5_Text_PoliciaPostBattle:
+	.string "Este lugar es tan inmenso que es fácil\n"
+	.string "perderse, ¡no podrás profanarlo tan\l"
+	.string "fácilmente!$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaIntro:
+	.string "¡Alto ahí! Voy a derrotarte aquí mismo y\n"
+	.string "llevarte en presencia de AMATISTA.\l"
+	.string "¡Después de eso me ascenderán a JEFE\l"
+	.string "de POLICÍA!$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaDefeat:
+	.string "Mi plan perfecto fracasó…$"
+
+Cave_Regigigas_Devon_6_Text_PoliciaPostBattle:
+	.string "Puaf, vaya chasco. Espero que al menos\n"
+	.string "no me degraden.$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaIntro:
+	.string "Si no tienes ni idea de por qué hacemos\n"
+	.string "lo que hacemos, ¿por qué te empeñas en\l"
+	.string "interponerte en nuestro camino?$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaDefeat:
+	.string "Ah, ya veo el porqué…$"
+
+Cave_Regigigas_Devon_7_Text_PoliciaPostBattle:
+	.string "Te interpones en nuestro camino porque\n"
+	.string "tu ego es incapaz de soportar que\l"
+	.string "exista una organización superior a la\l"
+	.string "vuestra, ¿verdad?$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaIntro:
+	.string "¡No permitiré que interfieras en los\n"
+	.string "planes de DEVON!$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaDefeat:
+	.string "Si no tuvieras un don para el combate…$"
+
+Cave_Regigigas_Devon_8_Text_PoliciaPostBattle:
+	.string "La grandeza espera a DEVON. A ti\n"
+	.string "únicamente te espera el olvido.$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaIntro:
+	.string "¡AMATISTA está a punto de hacer algo\n"
+	.string "espectacular! ¡Tú no te entrometas!$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaDefeat:
+	.string "¡Qué sacrilegio!$"
+
+Cave_Regigigas_Devon_9_Text_PoliciaPostBattle:
+	.string "¿No reconoces a lo sagrado cuando lo\n"
+	.string "tienes delante? ¡Respeta un poco este\l"
+	.string "lugar!$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaIntro:
+	.string "Puede que no pueda derrotarte, ¡pero sí\n"
+	.string "retrasarte y darle un tiempo precioso a\l"
+	.string "nuestro ADMIN!$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaDefeat:
+	.string "Aghhh… he durado aún\n"
+	.string "menos de lo que esperaba.$"
+
+Cave_Regigigas_Devon_10_Text_PoliciaPostBattle:
+	.string "¿Desde cuándo llevas con tus POKÉMON?\n"
+	.string "¿Solo 3 años? ¡Cualquiera diría que\l"
+	.string "lleváis toda la vida juntos!$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaIntro:
+	.string "Lo que hoy tendrá lugar aquí removerá\n"
+	.string "para siempre los pilares del mundo que\l"
+	.string "conocemos, ¿estás preparado?$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaDefeat:
+	.string "Puede que sí…$"
+
+Cave_Regigigas_Devon_11_Text_PoliciaPostBattle:
+	.string "Aún sabemos muy poco sobre los\n"
+	.string "verdaderos límites de poder que un\l"
+	.string "POKÉMON puede alcanzar.$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaIntro:
+	.string "He oído hablar de ti… dicen que eres un\n"
+	.string "privilegiado para el combate.\l"
+	.string "¿Sabes lo que también dicen?$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaDefeat:
+	.string "No hay duda, tienes talento, pero…$"
+
+Cave_Regigigas_Devon_12_Text_PoliciaPostBattle:
+	.string "Incluso el mayor de los talentos nada\n"
+	.string "puede hacer sin los estímulos\l"
+	.string "adecuados.$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaIntro:
+	.string "AMATISTA lleva años trabajando por\n"
+	.string "este momento. ¡Tiene calculado hasta el\l"
+	.string "más mínimo detalle y la más absurda de\l"
+	.string "las variables!$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaDefeat:
+	.string "¡Tú también estás dentro\n"
+	.string "de sus cálculos!$"
+
+Cave_Regigigas_Devon_13_Text_PoliciaPostBattle:
+	.string "Incluso la intervención de mequetrefes\n"
+	.string "que creen que pueden deshacer en\l"
+	.string "cuestión de segundos un plan\l"
+	.string "orquestado por años está contemplada\l"
+	.string "por AMATISTA.$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaIntro:
+	.string "¿¡Cómo un vulgar ROCKET nacido en esa\n"
+	.string "pequeña isla ha llegado tan lejos!?$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaDefeat:
+	.string "¡Es imposible!$"
+
+Cave_Regigigas_Devon_14_Text_PoliciaPostBattle:
+	.string "Tu caso desafía las leyes de la\n"
+	.string "estadística y la probabilidad.$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaIntro:
+	.string "Se está liando una muy gorda más\n"
+	.string "adelante. Por gente como tú debo\l"
+	.string "quedarme en retaguardia en lugar de\l"
+	.string "presenciar el espectáculo en primera\l"
+	.string "fila. ¡No tienes perdón!$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaDefeat:
+	.string "¡Maldito! ¡No te saldrás con la tuya!$"
+
+Cave_Regigigas_Devon_15_Text_PoliciaPostBattle:
+	.string "Gracias a nosotros, nuestros LÍDERES\n"
+	.string "disponen del tiempo necesario para\l"
+	.string "llevar a cabo sus planes. Aunque llegues\l"
+	.string "hasta ellos, ya no hay vuelta atrás.$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaIntro:
+	.string "Si aspiras a hacer algo grande aquí, me\n"
+	.string "temo que te llevarás una desilusión. ¡Tu\l"
+	.string "aventura acaba conmigo!$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaDefeat:
+	.string "Si sigues, acabarás chocando\n"
+	.string "contra un muro.$"
+
+Cave_Regigigas_Devon_16_Text_PoliciaPostBattle:
+	.string "¿CAMPEÓN de KANTO? Este lugar queda\n"
+	.string "demasiado grande incluso para ellos.$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaIntro:
+	.string "¡No dejaremos que te interpongas en el\n"
+	.string "destino de HOENN!$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaDefeat:
+	.string "¿El destino cambió de parecer?$"
+
+Cave_Regigigas_Devon_17_Text_PoliciaPostBattle:
+	.string "Uno hace lo que puede… hasta que su\n"
+	.string "destino le es revelado.$"
+
+VermilionCity_Jardin_Text_CriadorIntro:
+	.string "¿Quién eres tú? ¿No habrás venido a\n"
+	.string "quitarnos el trabajo?$"
+
+VermilionCity_Jardin_Text_CriadorDefeated:
+	.string "Derrotado por alguien de KANTO…$"
+
+VermilionCity_Jardin_Text_CriadorPostBattle:
+	.string "Esta tierra tiene algo especial. Todo\n"
+	.string "florece más rápido en ella.$"
+
+VermilionCity_Jardin_Text_CriadoraIntro:
+	.string "Aquí cultivamos bayas y hierbas muy\n"
+	.string "especiales. ¡No puedes pasar!$"
+
+VermilionCity_Jardin_Text_CriadoraDefeated:
+	.string "Nuestro JEFE se va a enfadar.$"
+
+VermilionCity_Jardin_Text_CriadoraPostBattle:
+	.string "Con las mentas podemos darle cualquier\n"
+	.string "personalidad a nuestros POKÉMON. Son\l"
+	.string "un objeto muy preciado.$"
+
+Goldenrod_RadioTowerP7_Text_PoliciaIntro:
+	.string "Debes de ser {PLAYER}. Pero… ¿quién\n"
+	.string "me asegura que no eres un impostor? No\l"
+	.string "tendrás problema en derrotarme si lo\l"
+	.string "eres, ¿verdad?$"
+
+Goldenrod_RadioTowerP7_Text_PoliciaDefeated:
+	.string "No… no lo tuviste.$"
+
+Goldenrod_RadioTowerP7_Text_PoliciaPostBattle:
+	.string "Dicen que tú solo destrozaste a toda\n"
+	.string "la seguridad de SILPH. ¿Es cierto?$"
+
+Goldenrod_RadioTowerP9_Text_PoliciaIntro:
+	.string "El LÍDER ROCKET y su mano derecha\n"
+	.string "acaban de subir. Aún hay tiempo para\l"
+	.string "combatir con el supuesto salvador de\l"
+	.string "KANTO.$"
+
+Goldenrod_RadioTowerP9_Text_PoliciaDefeated:
+	.string "Ahora entiendo que pudieras salvar la\n"
+	.string "región.$"
+
+Goldenrod_RadioTowerP9_Text_PoliciaPostBattle:
+	.string "¿De verdad LANCE tenía a las BESTIAS\n"
+	.string "de JOHTO?$"
+
 
 
 

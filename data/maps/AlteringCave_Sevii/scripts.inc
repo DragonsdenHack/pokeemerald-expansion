@@ -121,6 +121,8 @@ playse 500
 release
 end
 
+
+
 AlteringCave_Sevii_Commbate_Zeus_Move_1.1:
 delay_8
 face_up
@@ -160,6 +162,10 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_6:
 	.string "Do you want to see those ancestral\l"
 	.string "POKÉMON in person and witness the\l"
 	.string "extent of their powers?$"
+
+Silph_7F_Encuentro_Azul_Texto_6.1:
+	.string "El muy torpe pensará que ha vencido, y\n"
+	.string "créeme que lo hará: está acostumbrado\l"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_7:
 	.string "Don't be stupid, TRAINER; this mission\n"
@@ -271,3 +277,92 @@ step_end
 AlteringCave_Sevii_Commbate_Zeus_Move_2:
 face_right
 step_end
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_8.1:
+	.string "Tenía entendido que el CAMPEÓN es\n"
+	.string "ahora un tal AZUL, de PUEBLO PALETA.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_8.2:
+	.string "Igualmente, es irrelevante.\n"
+	.string "Ese LANCE creía tener poder, y no\l"
+	.string "asomaba a ver el menor atisbo del\l"
+	.string "verdadero potencial que un POKÉMON\l"
+	.string "puede alcanzar.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_8.3:
+	.string "Ya te lo dije: todos los POKÉMON\n"
+	.string "son iguales a ojos del creador.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_8.4:
+	.string "No importa que seas o no el CAMPEÓN,\n"
+	.string "caerían como si se trataran de los\l"
+	.string "POKÉMON del CAZABICHOS más inexperto.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_9.1:
+	.string "Bien, solo porque me has ayudado,\n"
+	.string "tendrás el privilegio de presenciar\l"
+	.string "algo que nunca antes has visto.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_9.2:
+	.string "No necesitaré usar más del 50% de mi\n"
+	.string "poder, para hacerte ver que ciertas\l"
+	.string "leyes en este mundo son inmutables.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_9.3:
+	.string "¡Adelante, CAMPEÓN!\n"
+	.string "¡Muéstrame lo que tus mortales y\l"
+	.string "vulnerables POKÉMON pueden hacer\l"
+	.string "ante los dioses!$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_11.1:
+	.string "A pesar de ello, sigue siendo poco, en\n"
+	.string "comparación con ciertos poderes{PAUSE 5}…{PAUSE 5}$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_12.1:
+	.string "Me presentaré: soy ZEUS, descendiente\n"
+	.string "del linaje más antiguo y sagrado de HOENN,\l"
+	.string "y encargado de asegurar el equilibrio de\l"
+	.string "toda la región. Por ello, rendimos culto\l"
+	.string "al principal pilar de TRIO ANCESTRAL:\l"
+	.string "RAYQUAZA.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_12.2:
+	.string "Mis antepasados, viendo los desastres\n"
+	.string "que la lucha entre KYOGRE y GROUDON,\l"
+	.string "los otros dos titanes de HOENN,\l"
+	.string "causaban en la región, decidieron\l"
+	.string "usar a RAYQUAZA como intermediario.$" 
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_12.3:
+	.string "Con ello, lograron aplacar la ira de\n"
+	.string "estas bestias y, para evitar que tal\l"
+	.string "desastre ocurriera de nuevo, decidieron\l"
+	.string "confinar al DÚO ANCESTRAL en un lugar\l"
+	.string "alejado de HOENN.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_12.4:
+	.string "Un lugar donde nadie pudiera encontrarlos\n"
+	.string "jamás, donde sus poderes permanecieran\l"
+	.string "dormidos hasta el fin de los tiempos{PAUSE 5}…{PAUSE 5}$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_13.1:
+	.string "Creen que el mundo será un lugar mejor\n"
+	.string "si hacemos crecer el nivel del mar o\l"
+	.string "la tierra habitable, respectivamente.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_13.2:
+	.string "Se han convertido en consumados\n"
+	.string "especialistas de esta clase de POKÉMON,\l"
+	.string "y sus ansias por ir más allá les llevó\l"
+	.string "a saber todo sobre el DÚO ANCESTRAL.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_13.3:
+	.string "Todo{PAUSE 15}…{PAUSE 15} hasta el punto de encontrar\n"
+	.string "las esferas ROJA y AZUL, perdidas por\l"
+	.string "milenios, y necesarias para despertarlos.$"
+
+AlteringCave_Sevii_Commbate_Zeus_Texto_14.1:
+	.string "Gracias a ello, han acabado encontrando\n"
+	.string "el lugar donde descansan.\l"
+	.string "Ahora solo yo, el poseedor de\l"
+	.string "RAYQUAZA, puede detenerlos.$"

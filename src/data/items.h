@@ -11073,15 +11073,4 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
-	//Other special items
-	[ITEM_WEIRD_COSTUME] =
-	{
-		.name = _("Disfrazrraro"),
-        .itemId = ITEM_WEIRD_COSTUME,
-        .price = 0,
-        .description = sWeirdCostumeDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-	},
 };
