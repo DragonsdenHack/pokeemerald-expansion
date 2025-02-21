@@ -1029,6 +1029,7 @@ bool8 MetatileBehavior_IsDeepOrOceanWater(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_OCEAN_WATER
      || metatileBehavior == MB_SEMI_DEEP_WATER
+     || metatileBehavior == MB_POND_WATER
      || metatileBehavior == MB_DEEP_WATER)
         return TRUE;
     else

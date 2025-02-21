@@ -147,15 +147,20 @@ Route36_EventScript_Pareja2::
 	end
 
 Route36_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
 waitse
-playse SE_PIN
+delay 10
 msgbox Route36_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route36_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+delay 10
+playse SE_PC_OFF
+waitse
+delay 15
 setvar VAR_UNUSED_0x40F7, 138
 release
 end

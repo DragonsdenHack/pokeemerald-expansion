@@ -188,6 +188,26 @@ ViridianForestDocumento_Text_105:
 .string "For poison, use ANTIDOTE!\n"
     .string "Get it at POKÉMON MARTS!$"
 
+ViridianForest_Combate_Guays_Arriba::
+applymovement OBJ_EVENT_ID_PLAYER, ViridianForest_Combate_Guays_Arriba_Move_1
+waitmovement 0x0
+goto ViridianForest_Combate_Guays
+
+ViridianForest_Combate_Guays_Arriba_Move_1:
+walk_down
+face_left
+step_end
+
+ViridianForest_Combate_Guays_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, ViridianForest_Combate_Guays_Abajo_Move_1
+waitmovement 0x0
+goto ViridianForest_Combate_Guays
+
+ViridianForest_Combate_Guays_Abajo_Move_1:
+walk_up
+face_left
+step_end
+
 ViridianForest_Combate_Guays::
 applymovement 13, ViridianForest_Combate_Guays_Move_2
 waitmovement 0x0

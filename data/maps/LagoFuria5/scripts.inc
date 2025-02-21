@@ -15,13 +15,18 @@ waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox EventoLagoFuria5_Combate_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, EventoLagoFuria5_Combate_Final_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_5 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LagoFuria_S3_Combates_Cientificos_Move_16
@@ -32,21 +37,29 @@ applymovement 3, EventoLagoFuria5_Combate_Final_Move_5
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_6
 waitmovement 0x0
+waitse
 msgbox EventoLagoFuria5_Combate_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_1, EventoLagoFuria5_Combate_Final_Texto_10
 msgbox EventoLagoFuria5_Combate_Final_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_2
 waitmovement 0x0
+waitse
 msgbox EventoLagoFuria5_Combate_Final_Texto_12 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -96,13 +109,19 @@ msgbox EventoLagoFuria5_Combate_Final_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_3
 msgbox EventoLagoFuria5_Combate_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_11
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
@@ -132,8 +151,10 @@ waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_26 MSGBOX_AUTOCLOSE
 delay 20
 msgbox EventoLagoFuria5_Combate_Final_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
+delay 10
 msgbox EventoLagoFuria5_Combate_Final_Texto_28 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox EventoLagoFuria5_Combate_Final_Texto_29 MSGBOX_DEFAULT

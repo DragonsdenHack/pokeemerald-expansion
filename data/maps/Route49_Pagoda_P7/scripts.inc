@@ -95,11 +95,15 @@ waitmovement 0x0
 special RemoveCameraObject
 fadenewbgm 386
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
@@ -107,8 +111,10 @@ delay 15
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_5
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
@@ -117,31 +123,44 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_12 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
 waitmovement 0x0
 delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_9
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_10
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_16 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
 waitmovement 0x0
+waitse
 delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_12
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_11
@@ -150,13 +169,23 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_13
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_14
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_3
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
+waitmovement 0x0
+waitse
+msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_15
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_21 MSGBOX_AUTOCLOSE
@@ -212,11 +241,15 @@ msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_33 MSGBOX_AUTOCLOSE
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_17
 waitmovement 0x0
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_7
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Route49_Pagoda_P7_Encuentro_Maestro_Move_21
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P7_Encuentro_Maestro_Texto_36 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Route49_Pagoda_P7_Encuentro_Maestro_Move_1
@@ -458,12 +491,17 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_19:
 	.string "PSEUDO-LEGENDARY.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_20:
-	.string "Several ancient documents assert that\n"
-	.string "it was, in fact, the first\l"
-	.string "PSEUDO-LEGENDARY, introducing the\l"
-	.string "possibility for NON-LEGENDARY POKÉMON\l"
-	.string "to attain power comparable to those\l"
-	.string "that were legendary.$"
+.string "Documentos antiguos afirman que fue,\n"
+	.string "de hecho, el primer PSEUDOLEGENDARIO.$"
+
+Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.1:
+	.string "ANDRA: Oh{PAUSE 25}…{PAUSE 25} ¿El primero?$"
+
+Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.2:
+	.string "Así es. Fue aquel que introdujo la\n"
+	.string "posibilidad de que NO LEGENDARIOS\l"
+	.string "alcanzaran un poder equiparable al\l"
+	.string "de los que sí lo eran.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_21:
 	.string "In DUN TOWER, that form of DUNSPARCE\n"
@@ -503,7 +541,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_27:
 	.string "the ground.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
-.string "ANDRA: Oh…$"
+.string "ANDRA: Oh{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
 	.string "As for the PSEUDOLEGENDARY form{PAUSE 25}…{PAUSE 25} I'm\n"

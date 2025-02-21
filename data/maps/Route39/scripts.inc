@@ -127,6 +127,41 @@ msgbox Route39Documento_Text_101, MSGBOX_SIGN
 end
 
 Route39Documento_Text_101:
-	.string "MOOMOO FARM\n"
-	.string "Try our fresh delicious\l"
-	.string "milk-at the best price!$"
+	.string "GRANJA MU-MU\n"
+	.string "¡Prueba nuestra rica leche fresca,\l"
+	.string "al mejor precio!$"
+
+Route39_EventScript_TM138::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_174, Route39_EventScript_ReceivedTM138
+	msgbox Route39_Text_TM138, MSGBOX_DEFAULT
+	delay 10
+	msgbox Route39_Text_TM138_2, MSGBOX_DEFAULT
+	giveitem ITEM_TM138
+	setflag FLAG_HOENN_174
+	msgbox Route39_Text_ExplainTM138, MSGBOX_DEFAULT
+	release
+	end
+
+Route39_EventScript_ReceivedTM138::
+	msgbox Route39_Text_ExplainTM138, MSGBOX_DEFAULT
+	release
+	end
+
+Route39_Text_TM138:
+.string "Una buena coz puede ser la solución\n"
+.string "de muchos POKÉMON ante los duros\l"
+.string "ACERO y ROCA.\l"
+.string "De tanto criar TAUROS y MILTANK,\l"
+.string "lo sé bien.$"
+
+Route39_Text_TM138_2:
+.string "¡Toma esto!$"
+
+Route39_Text_ExplainTM138:
+	.string "Embestir con fuerza no basta\n"
+	.string "contra determinados POKÉMON.\l"
+	.string "Con FUERZA EQUINA, ¡tendrás\l"
+	.string "el movimiento perfecto para\l"
+	.string "complementar fuertes embestidas!$"

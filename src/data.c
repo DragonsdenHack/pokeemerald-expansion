@@ -110,6 +110,7 @@ const struct SpriteFrameImage gTrainerBackPicTable_Steven[] =
     gTrainerBackPic_Steven + 0x0800, 0x0800,
     gTrainerBackPic_Steven + 0x1000, 0x0800,
     gTrainerBackPic_Steven + 0x1800, 0x0800,
+	gTrainerBackPic_Steven + 0x2000, 0x0800,
 };
 
 static const union AnimCmd sAnim_GeneralFrame0[] =
@@ -121,6 +122,12 @@ static const union AnimCmd sAnim_GeneralFrame0[] =
 static const union AnimCmd sAnim_GeneralFrame3[] =
 {
     ANIMCMD_FRAME(3, 0),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GeneralFrame4[] =
+{
+    ANIMCMD_FRAME(4, 0),
     ANIMCMD_END,
 };
 

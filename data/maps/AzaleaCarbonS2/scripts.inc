@@ -140,6 +140,7 @@ playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_114, AzaleaCarbonS2_Segundo_Combate_Texto_2
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 11, AzaleaCarbonS2_Segundo_Combate_Move_2
 waitmovement 0x0
@@ -255,6 +256,7 @@ delay 20
 playse SE_BREAKABLE_DOOR
 applymovement 1, AzaleaCarbonS2_Combate_Final_Move_8
 waitmovement 0x0
+waitse
 delay 5
 msgbox AzaleaCarbonS2_Combate_Final_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, AzaleaCarbonS2_Segundo_Combate_Move_2
@@ -270,13 +272,16 @@ msgbox AzaleaCarbonS2_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, AzaleaCarbonS2_Combate_Final_Move_7
 waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS2_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox AzaleaCarbonS2_Combate_Final_Texto_22 MSGBOX_DEFAULT
 givemon SPECIES_LITTEN, 15, ITEM_NONE
 waitfanfare
 setflag FLAG_UNUSED_0x27A
+setflag FLAG_HOENN_109
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
 setvar VAR_FORTREE_CITY_STATE, 8
 release

@@ -2,10 +2,8 @@ MtPyre_6F_MapScripts::
 	.byte 0
 
 MtPyre_6F_EventScript_Valerie::
-	trainerbattle_single TRAINER_VALERIE_1, MtPyre_6F_Text_ValerieIntro, MtPyre_6F_Text_ValerieDefeat, MtPyre_6F_EventScript_RegisterValerie
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MtPyre_6F_EventScript_RematchValerie
-	msgbox MtPyre_6F_Text_ValeriePostBattle, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_TRAINER_543, MtPyre_6F_Text_ValerieIntro, MtPyre_6F_Text_ValerieDefeat,
+	msgbox MtPyre_6F_Text_ValeriePostBattle, MSGBOX_AUTOCLOSE
 	release
 	end
 
@@ -23,16 +21,16 @@ MtPyre_6F_EventScript_RematchValerie::
 	end
 
 MtPyre_6F_EventScript_Cedric::
-	trainerbattle_single TRAINER_CEDRIC, MtPyre_6F_Text_CedricIntro, MtPyre_6F_Text_CedricDefeat
+	trainerbattle_single TRAINER_TRAINER_544, MtPyre_6F_Text_CedricIntro, MtPyre_6F_Text_CedricDefeat
 	msgbox MtPyre_6F_Text_CedricPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "When I'm here…\n"
-	.string "A curious power flows into me…$"
+	.string "Cuando estoy aquí… siento un extraño\n"
+	.string "poder dentro de mí.$"
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "The power is ebbing away…$"
+	.string "Pues esta vez no lo he sentido mucho…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValeriePostBattle:
 	.string "Perhaps the power is from the spirits\n"
@@ -46,24 +44,24 @@ MtPyre_6F_Text_ValerieRegister:
 
 MtPyre_6F_Text_ValerieRematchIntro:
 	.string "Behind you…\n"
-	.string "What is it…$"
+	.string "What is it…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValerieRematchDefeat:
-	.string "Something faded away…$"
+	.string "Something faded away…{PAUSE 5}$"
 
 MtPyre_6F_Text_ValeriePostRematch:
 	.string "The POKÉMON at rest here…\n"
 	.string "Sometimes, they play…$"
 
 MtPyre_6F_Text_CedricIntro:
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "¿Te has perdido?\n"
+	.string "¿Tienes miedo?$"
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Weren't you lost?$"
+	.string "Entonces no te perdiste…{PAUSE 5}$"
 
 MtPyre_6F_Text_CedricPostBattle:
-	.string "I had this feeling that a lost TRAINER\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "Pensé que un entrenador asustado\n"
+	.string "tendría pánico y sería fácil de ganar.\p"
+	.string "Me arrepiento de haber intentado eso…{PAUSE 5}$"
 

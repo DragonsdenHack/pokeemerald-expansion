@@ -42,10 +42,20 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40F7, 68
 goto_if_gt SeafoamIslands_5F_Combate_Articuno_Derrotado
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@msgbox SeafoamIslands_5F_Combate_Articuno_Texto_1 MSGBOX_DEFAULT
+@closemessage
+@playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
+@waitmoncry
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+waitse
 playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
-msgbox SeafoamIslands_5F_Combate_Articuno_Texto_1 MSGBOX_DEFAULT
+message SeafoamIslands_5F_Combate_Articuno_Texto_1
+waitmessage
 waitmoncry
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
+waitbuttonpress
 trainerbattle_no_intro TRAINER_ARTICUNO, SeafoamIslands_5F_Combate_Articuno_Texto_2
 playse MUS_RG_OBTAIN_KEY_ITEM
 msgbox SeafoamIslands_5F_Combate_Articuno_Texto_3 MSGBOX_DEFAULT
@@ -60,8 +70,26 @@ delay 20
 playse SE_POKENAV_HANG_UP
 msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SeafoamIslands_5F_Combate_Articuno_Move_1
+waitmovement 0x0
+waitse
+delay 10
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4.6 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_839
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 20
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
 setvar VAR_UNUSED_0x40F7, 69
 release
@@ -83,29 +111,47 @@ SeafoamIslands_5F_Combate_Articuno_Texto_3:
 	.string "LEGENDARY ARTICUNO!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4:
-	.string "GIOVANNI: {PLAYER}?{PAUSE 35} …{PAUSE 35} …{PAUSE 35} Did you\n"
-	.string "defeat ARTICUNO right now? Great, good\l"
-	.string "job {PLAYER}, BLUE also finished his\l"
-	.string "mission defeating MOLTRES at MT.EMBER,\l"
-	.string "I called you because ANDRA is in\l"
-	.string "troubles, the plan to infiltrate into\l"
-	.string "the POWER PLANT failed and now she is\l"
-	.string "surrounded by the police, obviously the\l"
-	.string "cops are not enough to defeat her for\l"
-	.string "themselves but it's just a matter of\l"
-	.string "time to they notify a GYM LEADER or\l"
-	.string "even a member of the ELITE 4 to\l"
-	.string "apprehend her by force, I want you to\l"
-	.string "be part of the rescue team, {PLAYER},\l"
-	.string "if the situation gets complicated, I\l"
-	.string "require the assistance of our top\l"
-	.string "trainers to escape from there, the\l"
-	.string "other team members will await you\l"
-	.string "outside the POWER PLANT on ROUTE 10,\l"
-	.string "don't be late, each second is crucial.$"
+.string "GIOVANNI: ¿{PLAYER}?\n"
+	.string "{PAUSE 35}… {PAUSE 35}…{PAUSE 35}\l"
+	.string "¿Acabas de batir a ARTICUNO?\l"
+	.string "Perfecto, gran trabajo, {PLAYER}.\l"
+	.string "AZUL acaba también de cumplir con\l"
+	.string "éxito su misión con MOLTRES.$"
+
+SeafoamIslands_5F_Combate_Articuno_Texto_4.1:
+	.string "{PAUSE 35}… {PAUSE 35}…{PAUSE 35}$"
+
+SeafoamIslands_5F_Combate_Articuno_Texto_4.2:
+	.string "Te he llamado porque ANDRA\n"
+	.string "está en problemas.$"
+	
+SeafoamIslands_5F_Combate_Articuno_Texto_4.3:
+	.string "El plan de evasión para penetrar en\n"
+	.string "la CENTRAL ENERGÍA ha fracasado, y\l"
+	.string "ahora mismo está contra las cuerdas,\l"
+	.string "rodeada por la policía.$"
+	
+SeafoamIslands_5F_Combate_Articuno_Texto_4.4:
+	.string "Por sí solos no serán capaces de\n"
+	.string "reducirla, pero es cuestión de tiempo\l"
+	.string "para que avisen a un LÍDER de GIMNASIO\l"
+	.string "o incluso miembro de la ÉLITE 4 para\l"
+	.string "detenerla por la fuerza.$"
+	
+SeafoamIslands_5F_Combate_Articuno_Texto_4.5:
+	.string "Quiero que formes parte del equipo de\n"
+	.string "rescate, {PLAYER}. Si la cosa se\l"
+	.string "complica, necesito de los mejores\l"
+	.string "entrenadores para salir de allí.$"
+
+SeafoamIslands_5F_Combate_Articuno_Texto_4.6:
+	.string "El resto de integrantes te estarán\n"
+	.string "esperando, ya dentro de la CENTRAL.\l"
+	.string "No tardes, cada segundo es vital.$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_5:
-	.string "(Seems like it is too weak to battle.)$"
+.string "-Parece que no le quedan fuerzas\n"
+	.string "para combatir.-$"
 
 SeafoamIslands_5F_Combate_Articuno_Move_1:
 emote_exclamation_mark

@@ -98,20 +98,20 @@ LilycoveCity_House3_EventScript_WereDoingContest::
 	end
 
 LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
-	.string "Oh, my, my! Are you traveling alone?\n"
-	.string "But you're so young! Good for you!\p"
-	.string "I'm sure my kids could learn a thing\n"
-	.string "or two from you!\p"
-	.string "Me? I'm a master of {POKEBLOCK}S.\p"
-	.string "If I get serious just a little, why,\n"
-	.string "I can concoct great {POKEBLOCK}S.\p"
-	.string "Would you like to learn from me,\n"
-	.string "a master of {POKEBLOCK}S?$"
+	.string	"¡Ahí va! ¿Estás viajando sin compañía?\n"
+	.string	"¡Si eres muy joven! ¡Qué valiente eres!\p"
+	.string	"Seguro que mis hijos podrían aprender\n"
+	.string	"un par de cosas de ti.\p"
+	.string	"Yo soy la MAESTRA de los {POKEBLOCK}S.\p"
+	.string	"Si me pongo un poco en serio, vaya,\n"
+	.string	"hago unos {POKEBLOCK}S increíbles.\p"
+	.string	"¿Te apetece aprender un par\n"
+	.string	"de cosas de mí?$"
 
 LilycoveCity_House3_Text_OhAreYouSure:
-	.string "Oh? Are you sure?\p"
-	.string "You shouldn't always try to do\n"
-	.string "everything by yourself, dear!$"
+	.string	"¿Seguro? ¿De verdad?\p"
+	.string	"¡A veces también hay que pedir\n"
+	.string	"ayuda a los demás, sabes!$"
 
 LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "Oh, good! You're a smart soul!\n"
@@ -143,23 +143,23 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "Don't give up, dear!$"
 
 LilycoveCity_House3_Text_HappyToHaveQuadruplets:
-	.string "When my wife gave birth to quadruplets,\n"
-	.string "you bet I was shocked.\p"
-	.string "But, now, seeing them play together,\n"
-	.string "it makes me happy.$"
+	.string	"Cuando mi mujer tuvo cuatrillizos,\n"
+	.string	"casi me dio un ataque…\p"
+	.string	"Pero ahora, cuando los veo jugar\n"
+	.string	"juntos, me siento tan feliz{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
-	.string "We're having MULTI BATTLES, but I know\n"
-	.string "I'm going to win.$"
+	.string	"Estamos entablando COMBATES\n"
+	.string	"MÚLTIPLES y sé que voy a ganar.$"
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
-	.string "We like mixing stuff at\n"
-	.string "the RECORD CORNER.\p"
-	.string "But what gets mixed up?$"
+	.string	"Nos encanta mezclar cosas\n"
+	.string	"en el CENTRO de RÉCORDS.\p"
+	.string	"Pero ¿qué se mezcla allí?$"
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
-	.string "We're going to make super {POKEBLOCK}S\n"
-	.string "with a BERRY BLENDER!$"
+	.string	"Vamos a hacer {POKEBLOCK}S buenísimos\n"
+	.string	"con una LICUABAYAS.$"
 
 LilycoveCity_House3_Text_GoingToEnterContest:
 	.string "I want to brag about how tough my\n"

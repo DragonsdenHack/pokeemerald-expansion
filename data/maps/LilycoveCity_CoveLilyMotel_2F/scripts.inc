@@ -67,13 +67,13 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 	end
 
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
-	.string "I'm the GAME DESIGNER.\p"
-	.string "Oh, is that right?\n"
-	.string "You're working on a POKéDEX?\p"
-	.string "It's tough trying to complete it,\n"
-	.string "but don't give up.\p"
-	.string "If you do complete it, please come\n"
-	.string "show me.$"
+	.string	"Yo soy el DISEÑADOR del JUEGO.\p"
+	.string	"¿Ah, sí? ¿Estás trabajando\n"
+	.string	"en una POKéDEX?\p"
+	.string	"Cuesta trabajo completarla,\n"
+	.string	"pero tú no desistas.\p"
+	.string	"Y, cuando esté completa,\n"
+	.string	"ven a verme.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 	.string "Wow! That's awesome!\n"
@@ -85,32 +85,33 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 	.string "recognition of your feat!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
-	.string "Me? You're talking to me?\n"
-	.string "I'm the PROGRAMMER.\p"
-	.string "I wonder what the SLOTS are\n"
-	.string "like here.$"
+	.string	"¿Eh? ¿Me hablas a mí?\n"
+	.string	"Soy el PROGRAMADOR.\p"
+	.string	"Me pregunto cómo serán las\n"
+	.string	"TRAGAPERRAS por aquí{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
 	.string "POKÉMON of HOENN interesting?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
-	.string "The girl TUBERS, they're cute, hey?\n"
-	.string "To battle against a cute TUBER…\p"
-	.string "Whoop, it's so awesome!\p"
-	.string "And the TWINS! Aren't they cute?\n"
-	.string "A 2-on-2 battle with TWINS…\p"
-	.string "Whoop, it's unbearably fun!$"
+	.string	"Las PLAYERAS son monas, ¿verdad?\n"
+	.string	"Combatir contra ellas es de lo\l"
+	.string	"más motivador…\p"
+	.string	"Pero que muy motivador…\p"
+	.string	"¡Y las GEMELAS! ¿No son preciosas?\n"
+	.string	"Los combates dobles me encantan.\p"
+	.string	"¡Es que me lo paso de miedo!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
-	.string "The sea breeze tickles my heart.\n"
-	.string "It feels wonderful here!$"
+	.string	"No hay nada que me guste más que\n"
+	.string	"la brisa marina. ¡Qué bien se está!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
-	.string "You never know when and where\n"
-	.string "people will challenge you.\p"
-	.string "That's why I never leave home without\n"
-	.string "my GAME BOY ADVANCE.$"
+	.string	"Nunca puedes saber quién\n"
+	.string	"ni cuándo te va a desafiar.\p"
+	.string	"Por eso nunca me voy de casa sin\n"
+	.string	"mi consola GAME BOY ADVANCE.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "SCOTT: … … … … …\n"
@@ -129,8 +130,9 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "the whole works!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
-	.string "SCOTT: I think it does take strategy\n"
-	.string "to win a CONTEST.\p"
-	.string "Devising CONTEST strategies is one way\n"
-	.string "of becoming a better TRAINER, I'd say.$"
+	.string	"TRETO: Creo que no se puede ganar\n"
+	.string	"un CONCURSO sin una buena estrategia.\p"
+	.string	"Yo diría que diseñar estrategias para\n"
+	.string	"ganar CONCURSOS también te ayuda\l"
+	.string	"a mejorar como ENTRENADOR.$"
 

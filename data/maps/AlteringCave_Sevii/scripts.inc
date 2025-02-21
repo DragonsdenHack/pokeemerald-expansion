@@ -27,6 +27,8 @@ goto_if_lt AlteringCave_Sevii_Commbate_Zeus_2
 playse SE_PIN
 applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_4 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
@@ -43,17 +45,65 @@ delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1.1
+waitmovement 0x0
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8.4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1.1
+waitmovement 0x0
+delay 10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9.3 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_ZEUS_1, AlteringCave_Sevii_Commbate_Zeus_Texto_10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 fadeoutbgm 0
 playse 586
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12.4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1.1
+waitmovement 0x0
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13.3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1.1
+waitmovement 0x0
+delay 10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_14.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
@@ -71,7 +121,14 @@ playse 500
 release
 end
 
-
+AlteringCave_Sevii_Commbate_Zeus_Move_1.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 AlteringCave_Sevii_Commbate_Zeus_2::
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_3 MSGBOX_AUTOCLOSE

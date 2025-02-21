@@ -40,7 +40,7 @@ applymovement 2, MtSilverPkmnCenter2_Campeona_Anciana_Move_2
 waitmovement 0x0
 msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_6 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
-clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+clearflag FLAG_HOENN_108
 setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
 setflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
 fadescreen 1
@@ -83,7 +83,6 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
 	.string "friend. I know it's a long journey, but if\l"
 	.string "you feel like coming back around, you'll\l"
 	.string "be welcomed.$"
-
 
 MtSilver_PkmnCenter_Text_2:
 	.string "Ah, yes{PAUSE 15}…{PAUSE 15} I taught AGATHA everything\n"

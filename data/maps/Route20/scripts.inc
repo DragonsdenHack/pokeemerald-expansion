@@ -156,3 +156,89 @@ step_end
 Ruta_20_Barrera_Sur_Move_2:
 walk_slow_right
 step_end
+
+
+Ruta_20_Andra::
+lock
+playse SE_POKENAV_CALL
+delay 20
+playse SE_PIN
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Route9_Aviso_Petrel_Move_1
+waitmovement 0x0
+waitse
+delay 30
+playse SE_POKENAV_HANG_UP
+waitse
+delay 10
+msgbox Ruta_20_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Ruta_20_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Ruta_20_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Ruta_20_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Ruta_20_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_20_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PC_OFF
+waitse
+delay 20
+setvar VAR_ROUTE130_STATE, 1
+release
+end
+
+Ruta_20_Andra_Texto_1:
+	.string "ANDRA: ¡Ey, {PLAYER}! ¿Que tal vas?$"
+
+Ruta_20_Andra_Texto_2:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+Ruta_20_Andra_Texto_3:
+	.string "¿ISLAS ESPUMA, ya? ¡Vas en serio!$"
+
+Ruta_20_Andra_Texto_4:
+	.string "Yo he entrenado a un SNEASEL, hasta\n"
+	.string "que aprendiera PUÑO HIELO.$"
+
+Ruta_20_Andra_Texto_5:
+	.string "Te daré un consejo: usa las BANDA FOCUS\n"
+	.string "que venden en BASE PROFUNDA.$"
+
+Ruta_20_Andra_Texto_6:
+	.string "Gracias a ello, mi SNEASEL podrá dar de\n"
+	.string "lleno en su punto débil; entre ese golpe\l"
+	.string "y una embestida de mi URSARING, ¡esa\l"
+	.string "AVE SAGRADA caerá!$"
+
+Ruta_20_Andra_Texto_7:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+Ruta_20_Andra_Texto_8:
+	.string "Ve con cuidado, {PLAYER}.$"
+
+Ruta_20_Andra_Texto_9:
+	.string "Siendo un único POKÉMON, más poderoso\n"
+	.string "que cualquiera de los nuestros, la línea\l"
+	.string "es delgada. Si ganamos, debe ser por\l"
+	.string "inteligencia y estrategia.$"
+
+Ruta_20_Andra_Texto_10:
+	.string "Eso es todo. Ya tenemos todo listo para\n"
+	.string "colarnos en la CENTRAL ENERGÍA sin ser\l"
+	.string "vistos.$"
+
+Ruta_20_Andra_Texto_11:
+	.string "¡Suerte!$"

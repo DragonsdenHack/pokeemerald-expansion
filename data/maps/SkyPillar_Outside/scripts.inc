@@ -157,7 +157,7 @@ SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
 
 SkyPillar_Outside_Text_SituationGettingWorse:
 	.string "WALLACE: Hmm…\n"
-	.string "The situation is getting worse…$"
+	.string "The situation is getting worse…{PAUSE 5}$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
 	.string "WALLACE: This isn't good…\p"

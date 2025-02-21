@@ -48,7 +48,7 @@ Route111_OnTransition:
 	call_if_eq VAR_MIRAGE_TOWER_STATE, 2, Route111_EventScript_SetMirageTowerGone
 	call Route111_EventScript_CheckSetSandstorm
 	call GabbyAndTy_EventScript_UpdateLocation
-	goto_if_not_defeated TRAINER_VICKY, Route111_EventScript_SetWinstratesNotDefeated
+	goto_if_not_defeated TRAINER_TRAINER_629, Route111_EventScript_SetWinstratesNotDefeated
 	end
 
 Route111_EventScript_SetFallingPlayerGfx::
@@ -78,13 +78,15 @@ Route111_EventScript_EndCheckSetSandstorm::
 	return
 
 Route111_EventScript_SetWinstratesNotDefeated::
-	clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
+	clearflag FLAG_HOENN_25
 	setflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE
-	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
-	cleartrainerflag TRAINER_VICTOR
-	cleartrainerflag TRAINER_VICTORIA
-	cleartrainerflag TRAINER_VIVI
+	setflag FLAG_HOENN_693
+	setflag FLAG_HOENN_694
+	setflag FLAG_HOENN_695
+	cleartrainerflag TRAINER_TRAINER_626
+	cleartrainerflag TRAINER_TRAINER_627
+	cleartrainerflag TRAINER_TRAINER_628
+	cleartrainerflag TRAINER_TRAINER_629
 	end
 
 Route111_EventScript_SetLayoutNoMirageTower::
@@ -271,7 +273,7 @@ Route111_EventScript_Victor::
 
 Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictorIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
+	trainerbattle_no_intro TRAINER_TRAINER_626, Route111_Text_VictorDefeat
 	applymovement LOCALID_VICTOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
@@ -289,7 +291,7 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_VictoriaIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_VictoriaDefeat
+	trainerbattle_no_intro TRAINER_TRAINER_627, Route111_Text_VictoriaDefeat
 	applymovement LOCALID_VICTORIA, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
@@ -307,7 +309,7 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_ViviIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_ViviDefeat
+	trainerbattle_no_intro TRAINER_TRAINER_628, Route111_Text_ViviDefeat
 	applymovement LOCALID_VIVI, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
@@ -325,7 +327,7 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_VickyIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_VICKY, Route111_Text_VickyDefeat
+	trainerbattle_no_intro TRAINER_TRAINER_629, Route111_Text_VickyDefeat
 	msgbox Route111_Text_VickyPostBattle, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_VICKY, Common_Movement_WalkInPlaceFasterUp
@@ -335,8 +337,41 @@ Route111_EventScript_BattleWinstrates::
 	waitmovement 0
 	removeobject LOCALID_VICKY
 	call Route111_EventScript_CloseWinstrateDoor
+	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
+	waitmovement 0
+	call Route111_EventScript_OpenWinstrateDoor
+	addobject 53
+	applymovement 53, Route111_Movement_WinstrateExitHouse
+	waitmovement 0
+	call Route111_EventScript_CloseWinstrateDoor
+	msgbox Route111_Nieto_Texto_1, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_TRAINER_630, Route111_Nieto_Texto_2
+	msgbox Route111_Nieto_Texto_3, MSGBOX_DEFAULT
+	closemessage
+	applymovement 53, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	call Route111_EventScript_OpenWinstrateDoor
+	applymovement 53, Route111_Movement_WinstrateEnterHouse
+	waitmovement 0
+	removeobject 53
+	call Route111_EventScript_CloseWinstrateDoor
+	setflag FLAG_HOENN_25
 	release
 	end
+
+Route111_Nieto_Texto_1:
+	.string "He entrenado con toda mi familia y\n"
+	.string "jamás he perdido. ¡No voy a perder!$"
+
+Route111_Nieto_Texto_2:
+	.string "¡¿Mejor que mi familia?! ¡¿Cómo puede\n"
+	.string "ser?!$"
+
+Route111_Nieto_Texto_3:
+	.string "Logré superar a toda mi familia. Nunca\n"
+	.string "había perdido… Vaya palo…\l"
+	.string "Definitivamente necesito salir de casa\l"
+	.string "para conocer a nuevos entrenadores.$"
 
 Route111_EventScript_OpenWinstrateDoor::
 	opendoor 13, 113
@@ -571,59 +606,61 @@ Route111_Text_BattleOurFamily:
 	.string "POKÉMON battles?$"
 
 Route111_Text_IsThatSo:
-	.string "Is that so?\n"
-	.string "Drop in, if you change your mind!$"
+	.string	"¿Ah, sí? Bueno, tú sabrás…\n"
+	.string	"Vuelve si cambias de opinión.$"
 
 Route111_Text_VictorIntro:
-	.string "That's the spirit! I like you!$"
+	.string	"¡Qué entusiasmo! ¡Así me gusta!$"
 
 Route111_Text_VictorDefeat:
-	.string "Aiyah!\n"
-	.string "You're a lot tougher than I expected!$"
+	.string	"¡Ayyyyy!\n"
+	.string	"¡Eres más fuerte de lo que pensaba!$"
 
 Route111_Text_VictorPostBattle:
-	.string "Hey, all!\n"
-	.string "I've found a pretty strong TRAINER!$"
+	.string	"¡Eh, venid a ver!\n"
+	.string	"¡Aquí tenemos un hueso duro de roer!$"
 
 Route111_Text_VictoriaIntro:
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the TRAINER to beat\n"
-	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string	"Huy, huy, huy… ¡Qué joven eres!\p"
+	.string	"Pero le has dado una buena tunda\n"
+	.string	"a mi marido… No hay que fiarse…\p"
+	.string	"¡Lucha ahora contra mí!$"
 
 Route111_Text_VictoriaDefeat:
-	.string "Oh, gosh!\n"
-	.string "I can't get over how strong you are!$"
+	.string	"¡Ay!\n"
+	.string	"¡No puedo creer que seas tan fuerte!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "There's a strong TRAINER here!\n"
-	.string "This one's really strong!$"
+	.string	"¡Aquí hay alguien duro de pelar!\n"
+	.string	"¡Venid a ver!$"
 
 Route111_Text_ViviIntro:
-	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
-	.string "Really! Honestly!$"
+	.string	"¿Eres más fuerte que mamá? ¡Halaaa!\p"
+	.string	"¡Pero yo también soy fuerte!\n"
+	.string	"¡Ahora vas a ver!$"
 
 Route111_Text_ViviDefeat:
-	.string "Huh? Did I just lose?$"
+	.string	"Pero… ¿he perdido?$"
 
 Route111_Text_ViviPostBattle:
-	.string "This stinks…\p"
-	.string "…Snivel… Grandma!$"
+	.string	"Esto es un rollo patatero…\p"
+	.string	"Snif, snif… ¡Abuelitaaaa!$"
 
 Route111_Text_VickyIntro:
-	.string "How dare you make my granddaughter\n"
-	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
-	.string "Prepare to lose!$"
+	.string	"¿Cómo te atreves a hacer llorar\n"
+	.string	"a mi nieta?\p"
+	.string	"¡Te voy a dar un buen cachete!\n"
+	.string	"¡Vas a ver lo que es bueno!$"
 
 Route111_Text_VickyDefeat:
-	.string "Kwah! You are strong…\n"
-	.string "My granddaughter was right…$"
+	.string	"¡Jarl! Eres fuerte…\n"
+	.string	"Los demás tenían razón{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_VickyPostBattle:
-	.string "If you're not in any hurry,\n"
-	.string "visit with us awhile.$"
+	.string	"¡Pero aún no has ganado!\n"
+	.string	"¿No conoces a mi nieto?\p"
+	.string	"¡Va a retar a la LIGA POKÉMON!\n"
+	.string	"¡Él se encargará de ti!$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
 	.string "If you don't raise your POKÉMON some\n"
@@ -634,29 +671,29 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
 	.string "any GYM LEADER.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "I challenged the WINSTRATE family,\n"
-	.string "but four matches in a row is tough\l"
-	.string "going… They destroyed me.$"
+	.string	"He retado a la familia ESTRATEGA,\n"
+	.string	"pero cinco combates seguidos son\l"
+	.string	"muchos combates para mí. Uf{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
-	.string "{DOWN_ARROW} MAUVILLE CITY$"
+	.string	"RUTA 111\n"
+	.string	"{DOWN_ARROW} CIUDAD MALVALONA$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "“Our family's hearts beat as one!”\n"
-	.string "THE WINSTRATE'S HOUSE$"
+	.string	"CASA de la familia ESTRATEGA\n"
+	.string	"“¡Cinco para uno y uno para cinco!”$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 112$"
+	.string	"RUTA 111\n"
+	.string	"{LEFT_ARROW} RUTA 112$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 113$"
+	.string	"RUTA 111\n"
+	.string	"{LEFT_ARROW} RUTA 113$"
 
 Route111_Text_OldLadysRestStopSign:
-	.string "OLD LADY'S REST STOP\n"
-	.string "“Come in and rest your tired bones.”$"
+	.string	"POSADA de la ABUELA\n"
+	.string	"“Dale descanso a tus pobres huesos.”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "TRAINER TIPS\p"
@@ -667,56 +704,55 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "DEFENSE.”$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "There should be a tower made of sand\n"
-	.string "around here somewhere.\p"
-	.string "But for some reason, it can be seen\n"
-	.string "sometimes, and sometimes not.\p"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string	"Por aquí debería haber una torre\n"
+	.string	"hecha de arena.\p"
+	.string	"Pero, por algún extraño motivo,\n"
+	.string	"a veces se ve y a veces no.\p"
+	.string	"Por eso la llamo TORRE ESPEJISMO.$"
 
 Route111_Text_MirageTowerClearlyVisible:
-	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
-	.string "is clearly visible!\p"
-	.string "But it looks so fragile…\n"
-	.string "It could crumble away anytime…\p"
-	.string "I want to go inside it, but I can't\n"
-	.string "get my courage up for it…$"
+	.string	"¡Puedo verla!\n"
+	.string	"¡Es la torre de arena!\p"
+	.string	"¡La torre de arena que todos toman\n"
+	.string	"por un espejismo está visible!\p"
+	.string	"Pero parece tan frágil…\n"
+	.string	"Se podría caer con un soplo…\p"
+	.string	"Quiero entrar, pero me falta valor{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "Whoa…\n"
-	.string "That was shocking.\p"
-	.string "Sand rained down in chunks all of\n"
-	.string "a sudden.\p"
-	.string "What was it like inside?\n"
-	.string "Were there sandy ghosts and such?$"
+	.string	"Guau…\n"
+	.string	"Qué fuerte…\p"
+	.string	"Han empezado a caer terruños\n"
+	.string	"de repente…\p"
+	.string	"Dime, ¿qué había dentro?\n"
+	.string	"¿Fantasmas de arena o algo parecido?$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "Since I spoke to you, the tower of sand\n"
-	.string "hasn't been seen.\p"
-	.string "Perhaps it really was\n"
-	.string "the MIRAGE TOWER…$"
+	.string	"Desde que hablé contigo,\n"
+	.string	"nadie ha vuelto a ver la torre de arena.\p"
+	.string	"Puede que se tratara realmente\n"
+	.string	"de la TORRE ESPEJISMO{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_ClawFossilDisappeared:
-	.string "The CLAW FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string	"El FÓSIL GARRA ha desaparecido\n"
+	.string	"en la arena{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_RootFossilDisappeared:
-	.string "The ROOT FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string	"El FÓSIL RAÍZ ha desaparecido\n"
+	.string	"en la arena{PAUSE 5}…{PAUSE 5}$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "Oh, no!\p"
-	.string "My uncle in MAUVILLE told me to take\n"
-	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
-	.string "My uncle? He lives across from\n"
-	.string "the bike shop in MAUVILLE.$"
+	.string	"¡Se equivocó!\p"
+	.string	"Mi tío, el de MALVALONA, dijo\n"
+	.string	"que me llevara GOLPE ROCA conmigo\l"
+	.string	"si voy a la RUTA 111.\p"
+	.string	"¿Que quién es mi tío? Vive enfrente\n"
+	.string	"de la tienda de bicis de MALVALONA.$"
 
 Route111_Text_TrainerHillSign:
-	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”$"
+	.string	"{RIGHT_ARROW} ENTRADA a la COLINA DESAFÍO\p"
+	.string	"“¡El lugar en el que los ENTRENADORES\n"
+	.string	"decididos suben a las alturas!”$"
 
 
 
@@ -818,8 +854,10 @@ Ruta_111_Evento_Andra_Texto_2:
 
 
 Ruta_111_Barrera_Noroeste::
-compare VAR_UNUSED_0x40F7, 220
+compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2.1
+waitmovement 0x0
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2
 waitmovement 0x0
@@ -839,13 +877,35 @@ Ruta_111_Barrera_Noroeste_Move_2:
 walk_right
 step_end
 
+Ruta_111_Barrera_Noroeste_Move_2.1:
+walk_in_place_left
+step_end
+
 Ruta_111_Barrera_Sur::
-compare VAR_UNUSED_0x40F7, 220
+compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1.2
+waitmovement 0x0
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1
 waitmovement 0x0
 release
 end
+
+Ruta_111_Barrera_Noroeste_Move_1.2:
+walk_in_place_down
+step_end
+
+Ruta_111_Cientificos::
+lock
+msgbox Ruta_111_Cientificos_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Ruta_111_Cientificos_Texto_1:
+	.string "MALVALANOVA será nuestro próximo\n"
+	.string "objetivo, pero primero debemos esperar\l"
+	.string "al doctor{PAUSE 5}…{PAUSE 5}$"
+
 
 

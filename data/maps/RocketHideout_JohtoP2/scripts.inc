@@ -1,5 +1,104 @@
 RocketHideout_JohtoP2_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_JohtoP2_Disguise_OnResume
 	.byte 0
+
+RocketHideout_JohtoP2_Disguise_OnResume:
+map_script_2 VAR_ROUTE131_STATE, 3, RocketHideout_JohtoP2_Disguise_Player_2
+map_script_2 VAR_ROUTE131_STATE, 5, RocketHideout_JohtoP2_Disguise_AltoRango
+map_script_2 VAR_ROUTE131_STATE, 7, RocketHideout_JohtoP2_Disguise_Ejecutivo
+map_script_2 VAR_ROUTE131_STATE, 8, RocketHideout_JohtoP2_Disguise_Admin
+map_script_2 VAR_ROUTE131_STATE, 9, RocketHideout_JohtoP2_Disguise_AdminJefe
+map_script_2 VAR_ROUTE131_STATE, 10, RocketHideout_JohtoP2_Disguise_Jefe
+	.2byte 0
+
+RocketHideout_JohtoP2_OnFrame:
+map_script_2 VAR_ROUTE131_STATE, 4, RocketHideout_JohtoP2_Disguise_Player
+	.2byte 0
+
+RocketHideout_JohtoP2_Disguise_Jefe::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+RocketHideout_JohtoP2_Disguise_AdminJefe::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+RocketHideout_JohtoP2_Disguise_Admin::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+RocketHideout_JohtoP2_Disguise_Ejecutivo::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+RocketHideout_JohtoP2_Disguise_AltoRango::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+
+RocketHideout_JohtoP2_Disguise_Player_2::
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, JohtoP2_Disguise_Player_Move_1
+waitse
+playse MUS_OBTAIN_ITEM
+delay 20
+setvar VAR_ROUTE131_STATE, 4
+release
+end
+
+RocketHideout_JohtoP2_Disguise_Player::
+setvar VAR_ROUTE131_STATE, 30
+release
+end
+
+JohtoP2_Disguise_Player_Move_1:
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+face_up
+step_end
 
 
 RocketHideoutJohtoP2Documento_100::
@@ -67,7 +166,7 @@ msgbox RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_DEOXYS, 50, ITEM_NONE
+givemon SPECIES_DEOXYS, 80, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1
@@ -92,7 +191,7 @@ RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2:
 	.string "with the BASE form.-$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_3:
-.string "YOU OBTAINED A DEOXYS AT LV.50!!$"
+.string "YOU OBTAINED A DEOXYS AT LV.80!!$"
 
 
 RocketHideoutJohtoP2_Obtencion_Regis::
@@ -102,15 +201,15 @@ msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGIROCK, 20, ITEM_NONE
+givemon SPECIES_REGIROCK, 75, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_4 MSGBOX_DEFAULT
-givemon SPECIES_REGISTEEL, 20, ITEM_NONE
+givemon SPECIES_REGISTEEL, 75, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
-givemon SPECIES_REGICE, 20, ITEM_NONE
+givemon SPECIES_REGICE, 75, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2
@@ -137,13 +236,13 @@ RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 	.string "unique STAT combinations, it's you.-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_3:
-.string "YOU OBTAINED A LV.20 REGIROCK!!$"
+.string "YOU OBTAINED A LV.75 REGIROCK!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_4:
-.string "YOU OBTAINED A LV.20 REGISTEEL!!$"
+.string "YOU OBTAINED A LV.75 REGISTEEL!!$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_5:
-.string "YOU OBTAINED A LV.20 REGICE!!$"
+.string "YOU OBTAINED A LV.75 REGICE!!$"
 
 RocketHideoutJohtoP2_Obtencion_Piedra_Rocket::
 release
@@ -226,4 +325,140 @@ RocketHideoutJohtoP2_Documento_ViasTren_Texto_3:
 	.string "MT. SILVER and seek to explore the\l"
 	.string "areas surrounding the railway tracks in\l"
 	.string "that area.$"
+
+Ascenso_Rocket_Rangos::
+msgbox Ascenso_Rocket_Rangos_Texto_1 MSGBOX_AUTOCLOSE
+compare VAR_UNUSED_0x40F7, 218
+goto_if_gt Ascenso_Rocket_Rangos_Despues
+multichoice 22, 0, MULTI_POKEMON_ASCENSOS, 0
+switch VAR_RESULT
+case 0, EventScript_Recluta
+case 1, EventScript_AltoRango
+case 2, EventScript_Ejecutivo
+case 3, EventScript_Admin
+case 4, EventScript_AdminJefe
+release
+end
+
+Ascenso_Rocket_Rangos_Despues::
+multichoice 22, 0, MULTI_POKEMON_ASCENSOS_DESPUES, 0
+switch VAR_RESULT
+case 0, EventScript_Recluta
+case 1, EventScript_AltoRango
+case 2, EventScript_Ejecutivo
+case 3, EventScript_Admin
+case 4, EventScript_AdminJefe
+case 5, EventScript_Jefe
+release
+end
+
+Ascenso_Rocket_Rangos_Texto_1:
+.string "¿Qué indumentaria quieres llevar?$"
+
+EventScript_Recluta::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 0
+setvar VAR_ROUTE131_STATE, 3
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+EventScript_AltoRango::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 1
+setvar VAR_ROUTE131_STATE, 5
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+EventScript_Ejecutivo::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 2
+setvar VAR_ROUTE131_STATE, 7
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+EventScript_Admin::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 3
+setvar VAR_ROUTE131_STATE, 8
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+EventScript_AdminJefe::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 4
+setvar VAR_ROUTE131_STATE, 9
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+EventScript_Jefe::
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 80
+changeavatar 5
+setvar VAR_ROUTE131_STATE, 10
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 16, 2
+delay 100
+release
+end
+
+Ascenso_Rocket_Rangos_Cartel::
+lock
+msgbox Ascenso_Rocket_Rangos_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Ascenso_Rocket_Rangos_Cartel_Texto_1:
+.string "VESTIDOR\p"
+	.string "Interactúa con el vestidor de\n"
+	.string "arriba para cambiar tu aspecto.$"
 

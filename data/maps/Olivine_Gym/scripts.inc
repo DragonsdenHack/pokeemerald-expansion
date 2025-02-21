@@ -41,7 +41,7 @@ playse 414
 delay 40
 msgbox Olivine_Gym_Combate_Crom_Texto_5 MSGBOX_NPC
 delay 20
-msgbox Olivine_Gym_Combate_Crom_Texto_6 MSGBOX_NPC
+msgbox Olivine_Gym_Combate_Crom_Texto_6 MSGBOX_NPC 
 trainerbattle_no_intro TRAINER_CROM, Olivine_Gym_Combate_Crom_Texto_7
 msgbox Olivine_Gym_Combate_Crom_Texto_8 MSGBOX_NPC
 msgbox Olivine_Gym_Combate_Crom_Texto_9 MSGBOX_NPC
@@ -266,3 +266,141 @@ OlivineGym_Estatua_Texto_2:
 	.string "WINNING TRAINERS:\n"
 	.string "{PLAYER}$"
 
+Nuevos_Lideres_Johto_Pegaso::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Pegaso_Texto_1:
+	.string "¡Eh! ¡Yo a ti te recuerdo!$"
+
+Nuevos_Lideres_Johto_Pegaso_Texto_2:
+	.string "Mi padre dijo que jamás vio a un\n"
+	.string "ENTRENADOR como tú, espero poder\l"
+	.string "acercarme a tu nivel algún día. ¡Recién\l"
+	.string "pude evolucionar un PIDGEY!$"
+
+Nuevos_Lideres_Johto_Anton::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Anton_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Anton_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Anton_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Anton_Texto_1:
+	.string "A ti te vi en el ENCINAR, ¿verdad?$"
+
+Nuevos_Lideres_Johto_Anton_Texto_2:
+	.string "Al final, mis estudios sobre el TIPO\n"
+	.string "BICHO me han dado la autoridad para ser\l"
+	.string "LÍDER de GIMNASIO.$"
+
+Nuevos_Lideres_Johto_Anton_Texto_3:
+	.string "Veo que ya tienes la MEDALLA, así que\n"
+	.string "no podré enseñarte lo que he aprendido.$"
+
+Nuevos_Lideres_Johto_Blanca::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Blanca_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Blanca_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Blanca_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Blanca_Texto_1:
+	.string "¡Oh, vaya! Ya tienes la\n"
+	.string "MEDALLA PLANICIE.$"
+
+Nuevos_Lideres_Johto_Blanca_Texto_2:
+	.string "En esa época el GIMNASIO era del TIPO\n"
+	.string "SINIESTRO, ahora se ha cambiado a\l"
+	.string "tiernos y monos POKÉMON del TIPO\l"
+	.string "NORMAL.$"
+
+Nuevos_Lideres_Johto_Blanca_Texto_3:
+	.string "Me hubiera gustado ver si podías\n"
+	.string "haberla ganado conmigo, ¡porque te\l"
+	.string "aviso que soy muy fuerte!$"
+
+Nuevos_Lideres_Johto_Morty::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Morty_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Morty_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Morty_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Nuevos_Lideres_Johto_Morty_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Nuevos_Lideres_Johto_Morty_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Morty_Texto_1:
+	.string "¡Oh! Muy poca gente puede presumir de\n"
+	.string "haberle ganado la MEDALLA NIEBLA a\l"
+	.string "nuestro difunto LÍDER.$"
+
+Nuevos_Lideres_Johto_Morty_Texto_2:
+	.string "Entonces, ¿estuviste con\n"
+	.string "él hasta el fin?$"
+
+Nuevos_Lideres_Johto_Morty_Texto_3:
+	.string "Dime, ¿cómo murió?$"
+
+Nuevos_Lideres_Johto_Morty_Texto_4:
+	.string "… …$"
+
+Nuevos_Lideres_Johto_Morty_Texto_5:
+	.string "Entiendo, se trata de cómo vivió. Algún\n"
+	.string "día, yo también haré aparecer al\l"
+	.string "POKÉMON LEGENDARIO.$"
+
+Nuevos_Lideres_Johto_Yasmina::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Yasmina_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Yasmina_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Yasmina_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Yasmina_Texto_1:
+	.string "¡Te recuerdo! ¡El último combate de CROM\n"
+	.string "como LÍDER de GIMNASIO!$"
+
+Nuevos_Lideres_Johto_Yasmina_Texto_2:
+	.string "Eres demasiado fuerte para mí.$"
+
+Nuevos_Lideres_Johto_Yasmina_Texto_3:
+	.string "Yo debo ir a mi ritmo, acabo de\n"
+	.string "evolucionar a mi ONYX, ahora me\l"
+	.string "centraré en entrenar a mis MAGNEMITE.$"
+
+Nuevos_Lideres_Johto_Debora::
+lock
+faceplayer
+msgbox Nuevos_Lideres_Johto_Debora_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Debora_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Nuevos_Lideres_Johto_Debora_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Nuevos_Lideres_Johto_Debora_Texto_1:
+	.string "¿De dónde has sacado esa MEDALLA? Es\n"
+	.string "imposible que pudieras derrotar al\l"
+	.string "MAESTRO ANCIANO en su momento.$"
+
+Nuevos_Lideres_Johto_Debora_Texto_2:
+	.string "Tienes suerte de haberla robado o\n"
+	.string "haberla podido falsificar.$"
+
+Nuevos_Lideres_Johto_Debora_Texto_3:
+	.string "Conmigo como LÍDER, jamás podrías\n"
+	.string "obtenerla. Soy tan fuerte como un\l"
+	.string "miembro del ALTO MANDO, ¿me oyes?$"

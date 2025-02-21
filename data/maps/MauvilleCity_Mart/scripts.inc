@@ -46,8 +46,9 @@ MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
 	.string "like them.$"
 
 MauvilleCity_Mart_Text_DecisionsDetermineBattle:
-	.string "Use a certain move, or use an item\n"
-	.string "instead…\p"
-	.string "The TRAINER's decisions determine how\n"
-	.string "battles turn out, I think.$"
+	.string "Usar un determinado movimiento\n"
+	.string "o algún objeto concreto…\p"
+	.string "Todas las decisiones que toman\n"
+	.string "los ENTRENADORES determinan\l"
+	.string "el resultado del combate.$"
 

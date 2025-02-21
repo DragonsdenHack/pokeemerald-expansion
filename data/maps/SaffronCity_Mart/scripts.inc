@@ -1,5 +1,15 @@
 SaffronCity_Mart_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_Mart_OnTransition
 	.byte 0
+	
+SaffronCity_Mart_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_Mart_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 40, 21
+end
+
+SaffronCity_Mart_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 40, 21
+end		
 
 SaffronCityMart1::
 end

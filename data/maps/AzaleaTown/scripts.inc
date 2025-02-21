@@ -106,6 +106,21 @@ AzaleaTown_Text_9:
 	.string "secret.$"
 
 
+AzaleaTown9_Hoenn::
+lock     
+faceplayer     
+msgbox AzaleaTown_Text_9_Hoenn, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTown_Text_9_Hoenn:
+	.string "Antiguamente, aquí venían los grandes\n"
+	.string "maestros de CIUDAD ENDRINO, en busca\l"
+	.string "de CARBÓN para calentar su fría\l"
+	.string "guarida. Ver a sus dragones era todo un\l"
+	.string "espectáculo, por desgracia, esa\l"
+	.string "tradición se perdió hace tiempo.$"
+
 
 
 AzaleaTown10::
@@ -213,7 +228,7 @@ AzaleaTownDocumento_Text_107:
 
 
 AzaleaTownDocumento_108::
-lock      
+lock
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
 msgbox AzaleaTownDocumento_Text_108, MSGBOX_DEFAULT
 release     
@@ -232,7 +247,7 @@ release
 end
 
 AzaleaTownDocumento_Text_109:
-.string "MOLTRES: Trees!$"
+.string "MOLTRES: ¡Trees!$"
 
 
 
@@ -571,6 +586,7 @@ msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_3
 waitmovement 0x0
+waitse
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_4
 waitmovement 0x0
 delay 10
@@ -581,14 +597,21 @@ delay 40
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_5
 waitmovement 0x0
 msgbox AzaleaTown_Encuentro_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_6
 waitmovement 0x0
+delay 10
 msgbox AzaleaTown_Encuentro_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox AzaleaTown_Encuentro_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaTown_Encuentro_Mirto_Move_7.1
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_7
 waitmovement 0x0
+setflag FLAG_HOENN_109
 setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 11
 fadeoutbgm 0
@@ -597,26 +620,32 @@ setvar VAR_UNUSED_0x40F7, 128
 release
 end
 
+AzaleaTown_Encuentro_Mirto_Move_7.1:
+delay_16
+delay_8
+face_left
+step_end
+
 AzaleaTown_Encuentro_Mirto_Texto_1:
 .string "????: No está aquí, debe\n"
-	.string "encontrarse en su casa de PUEBLO\l"
-	.string "AZALEA.$"
+	.string "encontrarse en su casa de\l"
+	.string "PUEBLO AZALEA.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_2:
 .string "????: Tú tampoco tienes pinta de\n"
 	.string "ser de por aquí, ¿verdad?$"
 
 AzaleaTown_Encuentro_Mirto_Texto_3:
-.string "????: Pareces un buen ENTRENADOR.\n"
-	.string "Estaría encantado de conversar\l"
+.string "????: Pareces un buen ENTRENADOR.\p"
+	.string "Estaría encantado de conversar\n"
 	.string "contigo, pero tendrás que\l"
 	.string "disculparme.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_4:
-.string "????: He viajado desde muy lejos\n"
-	.string "por los avanzados conocimientos en\l"
-	.string "medicina que esta región ha tenido\l"
-	.string "desde siempre.$"
+.string "????: He viajado desde muy lejos,\n"
+	.string "por los avanzados conocimientos\l"
+	.string "en medicina que esta región ha\l"
+	.string "tenido desde siempre.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_5:
 .string "Es lo único que puede salvar a mi\n"
@@ -773,6 +802,24 @@ end
 
 Maquina_Primavera_Cura_YesNo:
 .string "Do you want to heal your team?$"
+
+Kangaskhan_Cry::
+lock    
+faceplayer  
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+msgbox Kangaskhan_Cry_Text_1, MSGBOX_NPC
+release     
+end
+
+Kangaskhan_Cry_Text_1:
+.string "¡Kan!$"
+
+Kangaskhan_Cry_Default::
+lock    
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+msgbox Kangaskhan_Cry_Text_1, MSGBOX_DEFAULT
+release     
+end
 
 
 

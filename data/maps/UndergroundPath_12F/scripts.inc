@@ -15,8 +15,11 @@ applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_3
 applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_3
 applymovement 4, UndergroundPath_12F_Combates_Moteros_Move_3
 waitmovement 0x0
+waitse
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_4 MSGBOX_AUTOCLOSE
@@ -25,20 +28,26 @@ applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_5
 waitmovement 0x0
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_5 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_7
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_8
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 3, UndergroundPath_12F_Combates_Moteros_Move_8
 applymovement 4, UndergroundPath_12F_Combates_Moteros_Move_10
@@ -68,6 +77,7 @@ playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_18 MSGBOX_DEFAULT
 waitfanfare
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_20 MSGBOX_AUTOCLOSE
 release
 setvar VAR_ROUTE105_STATE, 12
@@ -96,7 +106,7 @@ step_end
 
 UndergroundPath_12F_Combates_Moteros_Move_9:
 walk_in_place_left
-delay_8
+delay_16
 walk_in_place_down
 step_end
 

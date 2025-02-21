@@ -108,36 +108,73 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
-	.string "to awaken that thing?$"
-
+	.string	"Eh, ¿qué pretenderá hacer el\n"
+	.string	"doctor ahí arriba?$"
+	
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a METEORITE to do it.$"
+	.string	"A saber. Mientras llega, debemos\n"
+	.string	"encargarnos de evacuar a la gente.$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string	"Seguro que hará una de\n"
+	.string	"sus excentricidades.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
-	.string "we're not to let anyone pass, right.$"
+	.string	"Lo más posible, pero no hay\n"
+	.string	"duda de que sus métodos son\l"
+	.string	"efectivos.$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
-	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to LAVARIDGE.$"
+	.string	"Me gustaría ir a MALVALONA, pero si\n"
+	.string	"salto por aquí luego no podré volver\l"
+	.string	"a LAVACALDA tan fácilmente{PAUSE 5}…{PAUSE 5}$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
-	.string "“A short walk {UP_ARROW} way!”$"
+	.string	"TELEFÉRICO del MONTE CENIZO\n"
+	.string	"“¡Un paseíto hacia {UP_ARROW}!”$"
 
 Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
-	.string "please take the CABLE CAR.”$"
+	.string	"MONTE CENIZO\p"
+	.string	"“Para ir a PUEBLO LAVACALDA o a\n"
+	.string	"la cima, coge el TELEFÉRICO.”$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "ROUTE 112\n"
-	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+	.string	"RUTA 112\n"
+	.string	"{LEFT_ARROW} PUEBLO LAVACALDA$"
+
+
+Ruta_112_Policia::
+lock
+msgbox Ruta_112_Policia_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Ruta_112_Policia_Texto_1:
+	.string "Ese doctor, ¿qué querrá hacer en el\n"
+	.string "MONTE CENIZO?$"
+
+Ruta_112_Rocket::
+lock
+faceplayer
+msgbox Ruta_112_Rocket_Texto_1 MSGBOX_NPC
+release
+end
+
+Ruta_112_Rocket_Texto_1:
+	.string "¿Cómo le va por HOENN señor? ¿Ha\n"
+	.string "estado en el DESPACHO de ANDRA? Dejó\l"
+	.string "varias cosas para usted, debería\l"
+	.string "echarles un vistazo.$"
+
+
+Ruta_112_Policia_Bloqueos::
+lock
+msgbox Ruta_112_Policia_Bloqueos_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Ruta_112_Policia_Bloqueos_Texto_1:
+	.string "Estamos realizando importantes\n"
+	.string "pruebas en el MONTE CENIZO. Por tu\l"
+	.string "seguridad, mantente alejado.$"
 

@@ -92,25 +92,35 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_1
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_5
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_5
@@ -122,10 +132,13 @@ playse SE_PIN
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_7
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_7
 waitmovement 0x0
+waitse
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_10 MSGBOX_AUTOCLOSE
 delay 20
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_11 MSGBOX_AUTOCLOSE
@@ -135,6 +148,7 @@ applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_8
 waitmovement 0x0
 removeobject 4
 playse SE_EXIT
+waitse
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_12 MSGBOX_AUTOCLOSE
 delay 15
@@ -147,11 +161,16 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_15 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_16 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_18 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, DesertRuins_Evento_CamaraRegirock_Move_16
@@ -159,17 +178,23 @@ waitmovement 0x0
 special RemoveCameraObject
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_10
+delay 5
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_11
+delay 5
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_12
 waitmovement 0x0
+waitse
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_20 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_5.1
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_22 MSGBOX_AUTOCLOSE
 delay 15
 special SpawnCameraObject
@@ -190,17 +215,25 @@ waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_27 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_9
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6.1
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 removeobject 3
 playse SE_EXIT
@@ -213,13 +246,18 @@ delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_32 MSGBOX_AUTOCLOSE
 delay 30
 playse SE_POKENAV_CALL
-delay 30
+waitse
+delay 15
 playse SE_POKENAV_HANG_UP
+waitse
+delay 15
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_36 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 15
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_3
@@ -388,7 +426,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_10:
 	.string "take care of this.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_11:
-.string "????: …$"
+.string "????: {PAUSE 5}…{PAUSE 5}$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_12:
 	.string "ANDRA: Hiding the truth from a poor kid\n"
@@ -540,13 +578,17 @@ applymovement 2, DesertRuins_Evento_Andra_Move_4
 waitmovement 0x0
 delay 30
 msgbox DesertRuins_Evento_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, DesertRuins_Evento_Andra_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, DesertRuins_Evento_Andra_Move_7
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox DesertRuins_Evento_Andra_Texto_5 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_3
 applymovement 2, DesertRuins_Evento_Andra_Move_8

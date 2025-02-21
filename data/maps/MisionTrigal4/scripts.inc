@@ -4,18 +4,22 @@ MisionTrigal4_MapScripts::
 MisionTrigal4_Primer_Encuentro::
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_1
 waitmovement 0x0
+delay 10
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_2
 waitmovement 0x0
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_3
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_4
 applymovement 5, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
 delay 15
 applymovement 5, MisionTrigal4_Primer_Encuentro_Move_5
 waitmovement 0x0
@@ -42,6 +46,8 @@ trainerbattle_no_intro TRAINER_TRAINER_85, MisionTrigal4_Primer_Encuentro_Texto_
 playse SE_PIN
 applymovement 4, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_8 MSGBOX_AUTOCLOSE
 delay 25
 playse SE_EXIT
@@ -53,6 +59,8 @@ waitse
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Primer_Encuentro_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionTrigal4_Primer_Encuentro_Texto_9 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_BOY
 applymovement 2, MisionTrigal4_Primer_Encuentro_Move_11
@@ -181,6 +189,7 @@ playse SE_PIN
 applymovement 3, MisionTrigal4_Segundo_Encuentro_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Segundo_Encuentro_Move_4
 waitmovement 0x0
+waitse
 msgbox MisionTrigal4_Segundo_Encuentro_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MisionTrigal4_Segundo_Encuentro_Texto_3 MSGBOX_AUTOCLOSE
@@ -371,9 +380,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox MisionTrigal4_Tercer_Encuentro_Texto_22 MSGBOX_DEFAULT
 waitse
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox MisionTrigal4_Tercer_Encuentro_Texto_23 MSGBOX_AUTOCLOSE
 setvar VAR_EVER_GRANDE_CITY_STATE, 4
 release

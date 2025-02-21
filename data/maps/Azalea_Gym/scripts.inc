@@ -100,6 +100,7 @@ AzaleaGym_Combate_Cesar_Texto_11.3:
 
 
 Azalea_Gym_Combate_Cesar_2::
+setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 msgbox AzaleaGym_Combate_Cesar_Texto_12 MSGBOX_AUTOCLOSE
 release
 end
@@ -115,16 +116,18 @@ AzaleaGym_Combate_Cesar_Texto_2:
 	.string "as when I was a child.$"
 
 AzaleaGym_Combate_Cesar_Texto_3:
-	.string "As I've reached a certain level and\n"
-	.string "accumulated experiences, there are few\l"
-	.string "things left to surprise me, and I find\l"
-	.string "much more satisfaction in refining my\l"
-	.string "own technique than in battling\l"
-	.string "opponents who are already an open book\l"
-	.string "to me and my team.$"
+.string "El problema es que, llegados a\n"
+	.string "cierto nivel y después de todo lo\l"
+	.string "que he visto y vivido, pocas cosas\l"
+	.string "pueden llegar a sorprenderme.\p"
+	.string "Ya encuentro mucha más satisfacción\n"
+	.string "en pulir mi propia técnica que en\l"
+	.string "luchar frente a rivales que son ya\l"
+	.string "un libro abierto, tanto para mi\l"
+	.string "equipo como para mí.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
-.string "{PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 AzaleaGym_Combate_Cesar_Texto_5:
 	.string "ALDER has shown me that there's always\n"
@@ -139,7 +142,7 @@ AzaleaGym_Combate_Cesar_Texto_6:
 	.string "of JOHTO during battle? Let's find out!$"
 
 AzaleaGym_Combate_Cesar_Texto_7:
-.string "Ah… This combat, yes.$"
+.string "Ah{PAUSE 15}…{PAUSE 15} Este combate sí.$"
 
 AzaleaGym_Combate_Cesar_Texto_8:
 	.string "I can't remember the last time that\n"
@@ -164,26 +167,30 @@ AzaleaGym_Combate_Cesar_Texto_9.2:
 	.string "during one of my many journeys.$"
 
 AzaleaGym_Combate_Cesar_Texto_10:
-.string "YOU OBTAINED A LV.25 GRUBBIN!!$"
+.string "¡¡OBTUVISTE UN GRUBBIN AL NV.25!!$"
 
 AzaleaGym_Combate_Cesar_Texto_11:
-	.string "VIKAVOLT is one of my favorite BUG\n"
-	.string "TYPEs; its impressive SPECIAL ATTACK is\l"
-	.string "quite rare and can break through any\l"
-	.string "team. It may not seem like it, but its\l"
-	.string "electric discharges are more powerful\l"
-	.string "than those of ZAPDOS itself!$"
+.string "VIKAVOLT es uno de mis TIPO BICHO\n"
+	.string "favoritos, su portentoso ATAQUE\l"
+	.string "ESPECIAL es toda una rareza que\l"
+	.string "puede abrir huecos en cualquier\l"
+	.string "equipo.\p"
+	.string "No lo parece, ¡pero sus descargas\n"
+	.string "eléctricas son más potentes que\l"
+	.string "las del mismísimo ZAPDOS!$"
 
 AzaleaGym_Combate_Cesar_Texto_12:
-	.string "Now that I think about it{PAUSE 15}…{PAUSE 15} I didn't ask\n"
-	.string "ALDER where he came from. I'd like to at\l"
-	.string "least have the regular form of that\l"
-	.string "very special POKÉMON. That moth is the\l"
-	.string "most extraordinary thing I've ever\l"
-	.string "seen. It's a shame that the best\l"
-	.string "flowers ultimately wither away, but\l"
-	.string "nothing can take away the light they\l"
-	.string "shed on the world during their time.$"
+.string "Ahora que lo pienso…\n"
+	.string "No le pregunté a MIRTO de dónde\l"
+	.string "venía. Me gustaría tener al menos\l"
+	.string "la forma normal de ese POKÉMON tan\l"
+	.string "especial.\p"
+	.string "Esa polilla es lo más\n"
+	.string "increíble que he visto jamás.\l"
+	.string "Qué pena que las mejores flores\l"
+	.string "acaben por marchitarse antes, pero\l"
+	.string "nada podrá arrebatarles la luz que\l"
+	.string "mostraron al mundo mientras duró.$"
 
 
 
@@ -202,25 +209,33 @@ release
 end
 
 AzaleaGym_Gym_Dude_Texto_1:
-	.string "I don't know who you are or why you're\n"
-	.string "here. But I'm pleased to have you as a\l"
-	.string "new challenger! Listen, KURT is a master\l"
-	.string "of the BUG TYPE. You can roast, crush,\l"
-	.string "or even PECK away at his team, but you'd\l"
-	.string "better watch yourself too. His GIGA\l"
-	.string "DRAIN can break down ROCKs, and his\l"
-	.string "VIKAVOLT can fry birds in a snap. And\l"
-	.string "he's got something to wash out any FIRE\l"
-	.string "POKÉMON too. It'll be hard to regain\l"
-	.string "momentum if you lose it, but keep your\l"
-	.string "your spirit up!$"
+.string "No sé quien eres ni por qué estás\n"
+	.string "aquí.\l"
+	.string "¡Pero estoy encantado de tener\l"
+	.string "un nuevo aspirante!\p"
+	.string "Escucha, CÉSAR es un maestro del\n"
+	.string "TIPO BICHO. Puedes usar el\l"
+	.string "VOLADOR, FUEGO y ROCA contra él,\l"
+	.string "pero te aconsejo usarlos\l"
+	.string "sabiamente. Puede neutralizar a\l"
+	.string "todos estos tipos. Varios de sus\l"
+	.string "POKÉMON saben GIGADRENADO, para el\l"
+	.string "VOLADOR cuenta con un BICHO/ELÉCTRICO\l"
+	.string "que tira rayos como nadie.\p"
+	.string "Lo mismo aplica para el TIPO FUEGO,\n"
+	.string "cuenta con un AGUA/BICHO muy sólido.\l"
+	.string "Debes estar fino en los 1VS1, como sea\l"
+	.string "él quien derrote a uno de los tuyos\l"
+	.string "antes, será difícil recuperar la ventaja.\l"
+	.string "¡Ánimo!$"
 
 AzaleaGym_Gym_Dude_Texto_2:
-	.string "I can't believe my eyes! The last time I\n"
-	.string "saw KURT lose like this, AZALEA TOWN and\l"
-	.string "the ILEX FOREST weren't even separated\l"
-	.string "by the security checkpoint!\l"
-	.string "Unbelievable!$"
+.string "¡No puedo creerlo!\n"
+	.string "¡La última vez que vi perder así a\l"
+	.string "CÉSAR, PUEBLO AZALEA y el ENCINAR\l"
+	.string "no estaban ni separados por el\l"
+	.string "puesto de seguridad!\l"
+	.string "¡Increíble!$"
 
 
 

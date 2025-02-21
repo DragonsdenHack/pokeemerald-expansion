@@ -711,7 +711,7 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 	.string "Welcome…\p"
 	.string "I shall be pleased to tell you what\n"
-	.string "misfortunes await in the PYRAMID…$"
+	.string "misfortunes await in the PYRAMID…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_Aah:
 	.string "… … … … … …\n"
@@ -740,7 +740,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 	.string "It is a curse…\p"
 	.string "…And, I see your POKÉMON drained of\n"
 	.string "Power Points and having no recourse\l"
-	.string "but to use STRUGGLE…$"
+	.string "but to use STRUGGLE…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 	.string "I see POKÉMON loftily airborne…\p"
@@ -834,7 +834,7 @@ BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
 	.string "Whether you believe my fortunes\n"
 	.string "or not, the choice is yours…\p"
 	.string "The future can be changed anytime…\n"
-	.string "I wish you safe passage…$"
+	.string "I wish you safe passage…{PAUSE 5}$"
 
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 	.string "Did you know?\p"

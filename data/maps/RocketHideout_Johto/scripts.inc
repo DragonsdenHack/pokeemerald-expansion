@@ -111,16 +111,21 @@ release
 end
 
 RocketHideoutJohto_Text_8:
-	.string "HP of 125 BASE… PHYSICAL ATTACK of\n"
-	.string "175… PHYSICAL DEFENSE of 155… An\l"
-	.string "average of 151.6666 BASE among the\l"
-	.string "first 3 STATS… … … No, I'm not making up\l"
-	.string "this POKÉMON, I'm talking about the\l"
-	.string "RHYPERIOR-& of our LEADER GIOVANNI.\l"
-	.string "It's hard for me to believe that there's\l"
-	.string "another POKÉMON with such a physical\l"
-	.string "power. Not even the LEGENDARY GROUDON\l"
-	.string "comes close!$"
+.string "PS de 125 de BASE…\n"
+.string "ATAQUE FÍSICO de 175…\l"
+.string "DEFENSA FÍSICA de 175…\l"
+.string "Una media de 158,333 de BASE\l"
+.string "entre los 3 primeros STATS…\p"
+.string "…\n"
+.string "…\p"
+.string "No, no me estoy inventando a este\n"
+.string "POKÉMON, estoy hablando del\l"
+.string "RHYPERIOR-& de nuestro LÍDER\l"
+.string "GIOVANNI, me cuesta creer que\l"
+.string "exista otro POKÉMON de un poder\l"
+.string "físico similar.\p"
+.string "¡Ni un LEGENDARIO como\n"
+.string "GROUDON se le acerca!$"
 
 
 
@@ -334,10 +339,24 @@ RocketHideoutJohto_Text_21:
 
 RocketHideoutJohto22::
 lock     
-faceplayer     
+faceplayer 
+compare VAR_UNUSED_0x40F7, 202
+goto_if_gt RocketHideoutJohto22_2    
 msgbox RocketHideoutJohto_Text_22, MSGBOX_DEFAULT
 release     
 end
+
+RocketHideoutJohto22_2::
+msgbox RocketHideoutJohto_Text_22_2, MSGBOX_DEFAULT
+release
+end
+
+RocketHideoutJohto_Text_22_2:
+	.string "Oh, señor. Creí que tenía una\n"
+	.string "importante reunión en la TORRE RADIO\l"
+	.string "TRIGAL. Hemos aprovechado su ausencia\l"
+	.string "para hacer unas obras, para cuando\l"
+	.string "usted termine habremos acabado.$"
 
 RocketHideoutJohto_Text_22:
 	.string "Pardon me, sir. Access to the upper\n"
@@ -622,24 +641,6 @@ RocketHideoutJohto_Text_19:
 .string "evolutions, a PHYSICAL offensive one\l"
 .string "and a SPECIAL offensive one.$"
 
-BaseRocketJohto_Tienda_Pokemon::
-lock
-faceplayer
-msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
-waitmessage
-multichoice 22, 0, MULTI_VENTA_BASE_JOHTO, 0
-switch VAR_RESULT
-case 0, EventScript_Fletching
-case 1, EventScript_Mudbray
-case 2, EventScript_Pincurchin
-case 3, EventScript_Pawniard
-case 4, EventScript_Turtwig
-case 5, EventScript_Popplio
-case 6, EventScript_Spiritomb
-case 7, EventScript_Axew
-release
-end
-
 EventScript_Axew::
 lock
 showmoneybox 0, 0
@@ -653,9 +654,8 @@ playse SE_SHOP
 removemoney 140000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_AXEW, 34, ITEM_NONE
 release
 end
@@ -666,16 +666,15 @@ showmoneybox 0, 0
 msgbox EventScript_Spiritomb_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq EventScript_Compra_No
-checkmoney 115000
+checkmoney 108108
 goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
 delay 15
 playse SE_SHOP
-removemoney 115000 0
+removemoney 108108 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SPIRITOMB, 62, ITEM_NONE
 release
 end
@@ -693,9 +692,8 @@ playse SE_SHOP
 removemoney 76000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_POPPLIO, 16, ITEM_NONE
 release
 end
@@ -713,9 +711,8 @@ playse SE_SHOP
 removemoney 75000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_TURTWIG, 17, ITEM_NONE
 release
 end
@@ -732,9 +729,8 @@ playse SE_SHOP
 removemoney 65000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_PAWNIARD, 50, ITEM_NONE
 release
 end
@@ -751,9 +747,8 @@ playse SE_SHOP
 removemoney 52000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_PINCURCHIN, 45, ITEM_NONE
 release
 end
@@ -770,9 +765,8 @@ playse SE_SHOP
 removemoney 32000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_MUDBRAY, 28, ITEM_NONE
 release
 end
@@ -789,38 +783,54 @@ playse SE_SHOP
 removemoney 18000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_FLETCHLING, 16, ITEM_NONE
 release
 end
 
 EventScript_Axew_Texto_1:
-.string "Are you sure you want AXEW?\n"
-	.string "It will cost 140,000 POKÉ.$"
+.string "¿Seguro que quiere a AXEW?\n"
+	.string "Costará 140.000¥.$"
 
 EventScript_Spiritomb_Texto_1:
-.string "Are you sure you want SPIRITOMB?\n"
-	.string "It will cost 115,000 POKÉ.$"
+.string "¿Seguro que quiere a SPIRITOMB?\n"
+	.string "Costará 108.108¥.$"
 
 EventScript_Turtwig_Texto_1:
-.string "Are you sure you want TURTWIG?\n"
-	.string "It will cost 75,000 POKÉ.$"
+.string "¿Seguro que quiere a TURTWIG?\n"
+	.string "Costará 75.000¥.$"
 
 EventScript_Pawniard_Texto_1:
-.string "Are you sure you want PAWNIARD?\n"
-	.string "It will cost 65,000 POKÉ.$"
+.string "¿Seguro que quiere a PAWNIARD?\n"
+	.string "Costará 65.000¥.$"
 
 EventScript_Pincurchin_Texto_1:
-.string "Are you sure you want PINCURCHIN?\n"
-	.string "It will cost 52,000 POKÉ.$"
+.string "¿Seguro que quiere a PINCURCHIN?\n"
+	.string "Costará 52.000¥.$"
 
 EventScript_Mudbray_Texto_1:
-.string "Are you sure you want MUDBRAY?\n"
-	.string "It will cost 32,000 POKÉ.$"
+.string "¿Seguro que quiere a MUDBRAY?\n"
+	.string "Costará 32.000¥.$"
 
 EventScript_Fletching_Texto_1:
-.string "Are you sure you want FLETCHLING?\n"
-	.string "It will cost 18,000 POKÉ.$"
+.string "¿Seguro que quiere a FLETCHLING?\n"
+	.string "Costará 18.000¥.$"
 
+BaseRocketJohto_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_JOHTO, 0
+switch VAR_RESULT
+case 0, EventScript_Fletching
+case 1, EventScript_Mudbray
+case 2, EventScript_Pincurchin
+case 3, EventScript_Pawniard
+case 4, EventScript_Turtwig
+case 5, EventScript_Popplio
+case 6, EventScript_Spiritomb
+case 7, EventScript_Axew
+release
+end

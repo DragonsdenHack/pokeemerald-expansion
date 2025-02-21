@@ -165,26 +165,40 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_4
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_4
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_5
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_7
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_10 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 additem ITEM_TM105_SNARL
@@ -215,6 +229,7 @@ step_end
 
 NeoLavandaCementerioS1_Rocket_Redencion_Move_4:
 face_up
+delay_16
 delay_8
 face_player
 step_end

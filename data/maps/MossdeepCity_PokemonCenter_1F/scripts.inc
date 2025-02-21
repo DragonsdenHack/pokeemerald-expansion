@@ -2,11 +2,16 @@
 
 MossdeepCity_PokemonCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_Flag_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
 
 MossdeepCity_PokemonCenter_1F_OnTransition:
 	setrespawn HEAL_LOCATION_MOSSDEEP_CITY
+	end
+
+MossdeepCity_Flag_OnTransition:
+	setflag FLAG_VISITED_MOSSDEEP_CITY
 	end
 
 MossdeepCity_PokemonCenter_1F_EventScript_Nurse::
@@ -26,10 +31,10 @@ MossdeepCity_PokemonCenter_1F_EventScript_Girl::
 	end
 
 MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
-	.string "The GYM LEADERS in this town are\n"
-	.string "a formidable duo.\p"
-	.string "Their combination attacks are, like,\n"
-	.string "excellent and wow!$"
+	.string	"Los LÍDERES de GIMNASIO de este\n"
+	.string	"pueblo forman un dúo formidable.\p"
+	.string	"Sus ataques combinados son, en dos\n"
+	.string	"palabras, “im-presionantes”.$"
 
 MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves:
 	.string "Depending on the special abilities of\n"

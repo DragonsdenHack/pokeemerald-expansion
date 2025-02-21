@@ -118,8 +118,10 @@ delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS2_Combate_Real_Unown_Move_2
 waitmovement 0x0
 msgbox RuinsOfAlphS2_Combate_Real_Unown_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, RuinsOfAlphS2_Combate_Real_Unown_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlphS2_Combate_Real_Unown_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 2, RuinsOfAlphS2_Combate_Real_Unown_Move_1
 waitmovement 0x0
@@ -129,6 +131,7 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS2_Combate_Real_Unown_Move_5
 waitmovement 0x0
+waitse
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL

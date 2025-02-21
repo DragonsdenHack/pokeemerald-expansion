@@ -19,7 +19,10 @@ faceplayer
 playse SE_PIN
 applymovement 2, Route50_Encuentro_Dunsparce_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route50_Encuentro_Dunsparce_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route50_Encuentro_Dunsparce_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, Route50_Encuentro_Dunsparce_Move_5
@@ -171,7 +174,7 @@ Route50_Encuentro_Dunsparce_Texto_3:
 .string "GROAAAAAAAAR!!!$"
 
 Route50_Encuentro_Dunsparce_Texto_4:
-.string "Groarr…$"
+.string "Groarr{PAUSE 5}…{PAUSE 5}$"
 
 Route50_Encuentro_Dunsparce_Texto_5:
 	.string "ANDRA: That's it! You just repeated my\n"

@@ -31,20 +31,51 @@ LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman::
 	end
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
-	.string "I think POKÉMON get closer to their\n"
-	.string "TRAINERS if they spend time together.\p"
-	.string "The longer the better.\n"
-	.string "That's what I think.$"
+	.string	"Creo que los POKéMON se van uniendo\n"
+	.string	"más a los ENTRENADORES a medida\l"
+	.string	"que van pasando más tiempo juntos.\p"
+	.string	"Cuanto más tiempo, mejor.\n"
+	.string	"Eso creo.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
-	.string "It's sort of magical how just sitting\n"
-	.string "in a hot-spring pool can invigorate.\p"
-	.string "I wish I could let my POKÉMON\n"
-	.string "soak, too.$"
+	.string	"Es increíble cómo pueden devolverte\n"
+	.string	"la energía estos baños termales.\p"
+	.string	"¡Cómo me gustaría poder meter\n"
+	.string	"también aquí a mis POKéMON!$"
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
-	.string "Hohoho! Hey, kid, you can reach\n"
-	.string "the hot springs from here.\p"
-	.string "If POKÉMON are getting rest, so too\n"
-	.string "should their TRAINERS.$"
+	.string	"¡Jo, jo, jo! Oye, joven, por aquí\n"
+	.string	"llegarás a los baños termales.\p"
+	.string	"Los POKéMON descansan, ¿no?\n"
+	.string	"Pues los ENTRENADORES también.$"
+
+LavaridgeTown_PokemonCenter_1F_EventScript_TM133::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_172, LavaridgeTown_PokemonCenter_1F_EventScript_ReceivedTM133
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TM133, MSGBOX_DEFAULT
+	giveitem ITEM_TM133
+	setflag FLAG_HOENN_172
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133, MSGBOX_DEFAULT
+	release
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_ReceivedTM133::
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133, MSGBOX_DEFAULT
+	release
+	end
+
+LavaridgeTown_PokemonCenter_1F_Text_TM133:
+.string "¡Ouch!\n"
+.string "¡Creo que me ha dado un\l"
+.string "golpe de calor!\l"
+.string "¡Ten cuidado con los baños\l"
+.string "termales, jovencito!$"
+
+LavaridgeTown_PokemonCenter_1F_Text_ExplainTM133:
+	.string "GOLPE CALOR hará daño en\n"
+	.string "en función del peso de tu\l"
+	.string "POKÉMON y el de tu rival.\l"
+	.string "Cuanto más pesado sea el tuyo,\l"
+	.string "¡más daño hará!$"
 

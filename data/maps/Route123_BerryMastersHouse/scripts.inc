@@ -33,6 +33,13 @@ Route123_BerryMastersHouse_EventScript_ReceivedBerryToday::
 	release
 	end
 
+Route123_Mujer_Bayas::
+lock
+faceplayer
+msgbox Route123_BerryMastersHouse_Text_HeardAGoodSayingLately, MSGBOX_DEFAULT
+release
+end
+
 Route123_BerryMastersHouse_EventScript_BerryMastersWife::
 	lock
 	faceplayer

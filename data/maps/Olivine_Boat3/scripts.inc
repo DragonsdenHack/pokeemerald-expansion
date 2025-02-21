@@ -191,6 +191,7 @@ Olivine_Boat_3_Ceremonia::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Olivine_Boat_3_Ceremonia_Move_1
 waitmovement 0x0
+playse SE_APPLAUSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Olivine_Boat_3_Ceremonia_Move_2
 waitmovement 0x0
@@ -198,21 +199,33 @@ special RemoveCameraObject
 applymovement 2, Olivine_Boat_3_Ceremonia_Move_3
 waitmovement 0x0
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_1
+delay 5
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 9, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 10, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 11, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 12, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 14, Olivine_Boat_3_Ceremonia_Move_4
+delay 5
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_4
 waitmovement 0x0
 msgbox Olivine_Boat_3_Ceremonia_Texto_1 MSGBOX_AUTOCLOSE
-delay 15
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_1
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_1
@@ -224,17 +237,30 @@ applymovement 14, Olivine_Boat_3_Ceremonia_Move_1
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_1
 waitmovement 0x0
 msgbox Olivine_Boat_3_Ceremonia_Texto_2 MSGBOX_AUTOCLOSE
-delay 15
+delay 5
+playse SE_APPLAUSE
 applymovement 1, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
+applymovement 16, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 3, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 6, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 7, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 8, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 9, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 10, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 11, Olivine_Boat_3_Ceremonia_Move_5
+delay 5
 applymovement 12, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 14, Olivine_Boat_3_Ceremonia_Move_6
+delay 5
 applymovement 15, Olivine_Boat_3_Ceremonia_Move_5
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Olivine_Boat_3_Ceremonia_Move_7
@@ -328,6 +354,7 @@ applymovement 13, Olivine_Boat3_Capitan_Move_1
 waitmovement 0x0
 msgbox Olivine_Boat3_Capitan_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Olivine_Boat3_Capitan_Texto_4 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_109
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
 setflag FLAG_RECEIVED_SHOAL_SALT_1                              
 setflag FLAG_RECEIVED_SHOAL_SALT_2

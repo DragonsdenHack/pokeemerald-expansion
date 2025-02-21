@@ -19,9 +19,12 @@ goto_if_gt Cueva_Gimnasio_Trigal_Combate_2
 playse SE_PIN
 applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1
 waitmovement 0x0
+waitse
 delay 15
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_4 MSGBOX_AUTOCLOSE
@@ -32,8 +35,15 @@ delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_VALERIA, Cueva_Gimnasio_Trigal_Combate_Texto_7
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
+applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1.1
+waitmovement 0x0
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1.2
+waitmovement 0x0
 playfanfare MUS_OBTAIN_BADGE
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.1 MSGBOX_DEFAULT
 waitfanfare
@@ -46,7 +56,7 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.1 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem 641
+additem ITEM_TM59
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.3 MSGBOX_NPC
@@ -55,6 +65,19 @@ setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 137
 release
 end
+
+Cueva_Gimnasio_Trigal_Combate_Move_1.2:
+walk_in_place_down
+step_end
+
+Cueva_Gimnasio_Trigal_Combate_Move_1.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11.1:
 .string "And by the way, take this.$"
@@ -119,27 +142,27 @@ Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "Was my loyal KINGDRA defeated?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-	.string "Oh… You've stunned me. I thought\n"
-	.string "nobody could match the power and\l"
-	.string "explosiveness of my KINGDRA. When it\l"
-	.string "transformed one last time after a\l"
-	.string "lifetime together and I witnessed the\l"
-	.string "tremendous energy it unleashed, I\l"
-	.string "thought it was unbeatable. You've\l"
-	.string "proven me wrong.$"
+.string "Oh…\p"
+	.string "Me has dejado en shock, creí que\n"
+	.string "nadie podía igualar la potencia y\l"
+	.string "explosividad de mi KINGDRA. Cuando\l"
+	.string "se transformó una última vez,\l"
+	.string "después de toda una vida junto a\l"
+	.string "él, y vi la tremenda energía que\l"
+	.string "desplegaba, creí haber tocado techo.\p"
+	.string "Me has mostrado que no.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9:
-	.string "Even that elder master from BLACKTHORN\n"
-	.string "CITY was impressed, though\l"
-	.string "disappointed to see that KINGDRA lost\l"
-	.string "the DRAGON TYPE in exchange for the\l"
-	.string "DARK TYPE. His granddaughter seemed\l"
-	.string "very jealous of my POKÉMON. I think her\l"
-	.string "name was CLAIR. I've learned a lot from\l"
-	.string "this battle. I want to thank you; I\l"
-	.string "can't remember the last time I had such\l"
-	.string "a rival in front of me. This POKÉMON is\l"
-	.string "for you.$"
+.string "Incluso ese gran maestro de CIUDAD\n"
+	.string "ENDRINO quedó impresionado, aunque\l"
+	.string "decepcionado al ver que perdía el\l"
+	.string "DRAGÓN.\l"
+	.string "Su nieta parecía muy celosa por mi\l"
+	.string "POKÉMON, atrapó un HORSEA y todo{PAUSE 15}…{PAUSE 15}$"
+
+Cueva_Gimnasio_Trigal_Combate_Texto_9.5:
+	.string "He aprendido mucho con\n"
+	.string "este combate. Gracias.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
 	.string "Take this. There you have\n"

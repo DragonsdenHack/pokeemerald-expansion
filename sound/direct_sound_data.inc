@@ -4571,7 +4571,7 @@ Cry_Calyrex::
 
 	.align 2
 Cry_Eoneon::
-	.incbin "sound/direct_sound_samples/cries/eoneon.bin"
+	.incbin "sound/direct_sound_samples/cries/blastoise.bin"
 
 	.align 2
 Cry_Trxatu::
@@ -4639,7 +4639,7 @@ Cry_TyrantrumX::
 
 	.align 2
 Cry_ArcheopsX::
-	.incbin "sound/direct_sound_samples/cries/archeops_x.bin"
+	.incbin "sound/direct_sound_samples/cries/zapdos.bin"
 
 	.align 2
 Cry_RegirockX::
@@ -5624,6 +5624,30 @@ Cry_Wartillery::
 	.align 2
 Cry_Qwoltfish::
 	.incbin "sound/direct_sound_samples/cries/qwoltfish.bin"
+	
+	.align 2
+Cry_Guardia::
+	.incbin "sound/direct_sound_samples/cries/guardia.bin"
+	
+	.align 2
+Cry_ArmaldoPrimal::
+	.incbin "sound/direct_sound_samples/cries/armaldo.bin"
+
+	.align 2
+Cry_RelicanthPrimal::
+	.incbin "sound/direct_sound_samples/cries/relicanth.bin"
+
+	.align 2
+Cry_MiloticBond::
+	.incbin "sound/direct_sound_samples/cries/milotic.bin"	
+
+	.align 2
+Cry_GyaradosZ::
+	.incbin "sound/direct_sound_samples/cries/gyarados.bin"
+
+	.align 2
+Cry_Porygon31::
+	.incbin "sound/direct_sound_samples/cries/porygon_z.bin"		
 
 	.align 2
 DirectSoundWaveData_register_noise::

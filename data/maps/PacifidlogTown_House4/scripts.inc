@@ -38,16 +38,16 @@ PacifidlogTown_House4_Text_SkyPokemon:
 	.string "A sky POKÉMON!$"
 
 PacifidlogTown_House4_Text_WhereDidYouComeFrom:
-	.string "Where did you come from?$"
+	.string	"¿De dónde vienes?$"
 
 PacifidlogTown_House4_Text_YesTown:
-	.string "Yes?\n"
-	.string "YES TOWN?\p"
-	.string "I've never heard of a place like that.$"
+	.string	"¿Ah, sí?\n"
+	.string	"¿Del PUEBLO SÍ?\p"
+	.string	"Qué nombre tan raro para un pueblo…{PAUSE 5}$"
 
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
-	.string "No? That doesn't make any sense.\n"
-	.string "You have to come from somewhere.\p"
-	.string "Oh! Wait! You're not going to say you\n"
-	.string "were born at the bottom of the sea?$"
+	.string	"¿De NO? ¿No qué? No entiendo nada…\n"
+	.string	"Tendrás que venir de algún sitio, ¿no?\p"
+	.string	"A ver… No irás a meterme el rollo de que\n"
+	.string	"naciste en el fondo del mar, matarile…{PAUSE 5}$"
 

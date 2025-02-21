@@ -365,20 +365,20 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
-	.string "MOSSDEEP has mainly sunny weather,\n"
-	.string "and its winds are stable.\p"
-	.string "It's an ideal location for launching\n"
-	.string "rockets.$"
+	.string	"ALGARIA suele tener buen tiempo\n"
+	.string	"y vientos estables.\p"
+	.string	"Es el mejor lugar para lanzar cohetes\n"
+	.string	"al espacio exterior.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
 	.string "Why would TEAM MAGMA want to steal\n"
 	.string "our rocket fuel in the first place?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
-	.string "If only I was a little younger, I would\n"
-	.string "have liked being an astronaut…\p"
-	.string "No… It's not too late!\n"
-	.string "I can and will try!$"
+	.string	"Me hubiera gustado ser astronauta.\n"
+	.string	"Si fuera solo un pelín más joven…\p"
+	.string	"Pero no, nunca es demasiado tarde.\n"
+	.string	"¡Voy a intentarlo!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
 	.string "If TEAM MAGMA takes the rocket fuel,\n"
@@ -387,8 +387,8 @@ MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
 	.string "with such an outrage!$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
-	.string "I wish ordinary people could go into\n"
-	.string "space one day…$"
+	.string	"Ojalá la gente normal pudiera ir\n"
+	.string	"al espacio de excursión…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
 	.string "TEAM MAGMA…\n"
@@ -425,7 +425,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "That's what we should've done…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
 	.string "Three of us here, and look at the sorry\n"
@@ -478,10 +478,10 @@ MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
 	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "I just want to expand the land mass…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-	.string "I'm with our leader…$"
+	.string "I'm with our leader…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "MAXIE: We failed to make the volcano\n"
@@ -502,7 +502,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "MAXIE: All right…\n"
 	.string "We will give up on the fuel…\p"
 	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "matters that I must examine…{PAUSE 5}$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "STEVEN: Whew, that was too tense.\n"

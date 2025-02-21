@@ -14,7 +14,7 @@ MtPyre_4F_Text_TashaIntro:
 	.string "pone la carne de gallina!$"
 
 MtPyre_4F_Text_TashaDefeat:
-	.string "Odio perder…$"
+	.string "Odio perder…{PAUSE 5}$"
 
 MtPyre_4F_Text_TashaPostBattle:
 	.string "Quiero ver algo terrorífico… No puedo\n"

@@ -78,34 +78,52 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_4
 waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_5
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_6
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
 waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_8
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_9
 waitmovement 0x0
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_10
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_GRANITE_CAVE_STEVEN
 removeobject 6
 playse SE_EXIT
@@ -249,11 +267,16 @@ compare VAR_UNUSED_0x40F7, 122
 goto_if_gt Violet_SproutTower_P2_Encuentro_Maestro_2
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
 applymovement 5, Violet_SproutTower_P2_Encuentro_Maestro_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MAESTRO_BELLSPROUT, Violet_SproutTower_P2_Encuentro_Maestro_Texto_5
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
@@ -304,46 +327,55 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_1:
 	.string "POKÉMON has.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
-	.string "A misconception of power. Real power\n"
-	.string "can come from any POKÉMON if you're\l"
-	.string "willing to understand it. And knowing to\l"
-	.string "properly arrange its infinite\l"
-	.string "combinations can allow it to overcome\l"
-	.string "any hurdle. Isn't that power then?\l"
-	.string "Within each POKÉMON lies the potential\l"
-	.string "to be excellent. Only few are unable to\l"
-	.string "develop it.$"
+.string "Parte de una definición de poder\n"
+	.string "errónea. El verdadero poder puede\l"
+	.string "provenir de cualquier POKÉMON, si\l"
+	.string "eres capaz de conocerlo lo suficiente.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_2.1:
+	.string "Aquel que ordene adecuadamente las\n"
+	.string "infinitas combinaciones que puedes\l"
+	.string "hacer con él, no conocerá techo.\p"
+	.string "¿No es eso acaso poder?\p"
+	.string "Dentro de cada POKÉMON está el\n"
+	.string "potencial de ser excelente, solo\l"
+	.string "que algunos son incapaces de\l"
+	.string "desarrollarlo.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
-	.string "Oh! So FALKNER sends you? He must have\n"
-	.string "seen something special in you to send\l"
-	.string "you here. Knowing that I'll be your trial\l"
-	.string "to access something as special as\l"
-	.string "battling FALKNER, I have no other\l"
-	.string "choice than to use my best POKÉMON.\l"
-	.string "Show me the bond you hold with your\l"
-	.string "team!$"
+.string "¡Oh!\p"
+	.string "¿Así que te envía PEGASO? Algo\n"
+	.string "debe de haber visto en ti para\l"
+	.string "enviarte aquí.\p"
+	.string "Sabiendo que seré tu prueba para\n"
+	.string "acceder a algo tan especial, no me\l"
+	.string "queda otra que usar a mis mejores\l"
+	.string "POKÉMON.\p"
+	.string "¡Muéstrame el vínculo que\n"
+	.string "mantienes con los tuyos!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
-.string "Oh!\n"
-	.string "So not every young trainer has lost the\l"
-	.string "essence of battling…$"
+.string "¡Oh!\n"
+	.string "Así que no todos los entrenadores\l"
+	.string "jóvenes han perdido la esencia del\l"
+	.string "combate…{PAUSE 5}$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_6:
-	.string "I never expected to encounter trainers\n"
-	.string "like you again. Someone like you\l"
-	.string "deserves to be challenged by opponents\l"
-	.string "that compel you to go beyond.$"
+.string "No esperaba para nada volverme a\n"
+	.string "encontrar con entrenadores así.\p"
+	.string "Alguien como tú merece ser puesto\n"
+	.string "a prueba con rivales que le\l"
+	.string "obliguen a ir más allá.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_7:
-.string "FALKNER!\n"
-	.string "Tell your father!\l"
-	.string "This younger man had just\l"
-	.string "accomplished his challenge!$"
+.string "¡PEGASO!\p"
+	.string "¡Avisa a tu padre!\p"
+	.string "¡Este chaval acaba de\n"
+	.string "cumplir su reto!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_8:
 .string "FALKNER: I'm going, ELDER.$"

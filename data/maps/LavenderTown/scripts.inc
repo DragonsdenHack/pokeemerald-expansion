@@ -244,35 +244,49 @@ applymovement 11, LavenderTown_Cierre_Torre_Move_5
 applymovement 9, LavenderTown_Cierre_Torre_Move_5
 applymovement 8, LavenderTown_Cierre_Torre_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_8 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
+applymovement 8, LavenderTown_Cierre_Torre_Move_9.1
+waitmovement 0x0
+waitse
 msgbox LavenderTown_Cierre_Torre_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderTown_Cierre_Torre_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderTown_Cierre_Torre_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderTown_Cierre_Torre_Move_10
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_12 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderTown_Cierre_Torre_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 7, LavenderTown_Cierre_Torre_Move_11
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_14 MSGBOX_AUTOCLOSE
-fadescreen 1
+delay 10
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 8
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
-delay 20
+removeobject 8
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 9, LavenderTown_Cierre_Torre_Move_10
 waitmovement 0x0
+delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderTown_Cierre_Torre_Texto_16 MSGBOX_AUTOCLOSE
@@ -288,13 +302,13 @@ waitmovement 0x0
 msgbox LavenderTown_Cierre_Torre_Texto_19 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 delay 10
-fadescreen 1
 playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 9
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 9
+waitfieldeffect FLDEFF_NPCFLY_OUT
 delay 20
 applymovement 11, LavenderTown_Cierre_Torre_Move_16
 waitmovement 0x0
@@ -358,6 +372,10 @@ step_end
 
 LavenderTown_Cierre_Torre_Move_10:
 walk_slow_up
+step_end
+
+LavenderTown_Cierre_Torre_Move_9.1:
+walk_in_place_right
 step_end
 
 LavenderTown_Cierre_Torre_Move_9:
@@ -516,6 +534,601 @@ release
 end
 
 LavenderTown_Dialogo_Obrero_Texto_1:
-	.string "I'm sorry, but the time to see the\n"
-	.string "POKÉMON TOWER has passed. Now it can\l"
-	.string "only be seen through history books.$"
+.string "Lo siento, pero el tiempo para ver la\n"
+	.string "TORRE POKÉMON pasó. Ahora solo podrá\l"
+	.string "ser vista a través de los libros de\l"
+	.string "historia.$"
+
+LavenderTown_Entrevista_Oak_Move_1:
+walk_in_place_right
+step_end
+
+LavenderTown_Entrevista_Oak_Move_1.1:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Entrevista_Oak_Move_2:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_2.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_3:
+walk_in_place_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_4:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_5:
+face_left
+delay_16
+delay_16
+face_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_6:
+face_up
+step_end
+
+LavenderTown_Entrevista_Oak_Move_7:
+face_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_8:
+walk_in_place_down
+step_end
+
+LavenderTown_Entrevista_Oak_Move_9:
+face_left
+step_end
+
+LavenderTown_Entrevista_Oak_Move_10:
+walk_down
+face_right
+step_end
+
+LavenderTown_Entrevista_Oak_Move_11:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+LavenderTown_Entrevista_Oak::
+lock
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 18
+addobject 20
+addobject 19
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Entrevista_Oak_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Entrevista_Oak_Move_1.1
+waitmovement 0x0
+waitse
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Entrevista_Oak_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_4 MSGBOX_AUTOCLOSE
+delay 25
+msgbox LavenderTown_Entrevista_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_4
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_5
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 20, LavenderTown_Entrevista_Oak_Move_7
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 20, LavenderTown_Entrevista_Oak_Move_4
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Entrevista_Oak_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_7
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Entrevista_Oak_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Entrevista_Oak_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Entrevista_Oak_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_8
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Entrevista_Oak_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+msgbox LavenderTown_Entrevista_Oak_Texto_29 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+delay 10
+applymovement 20, LavenderTown_Entrevista_Oak_Move_6
+waitmovement 0x0
+delay 20
+msgbox LavenderTown_Entrevista_Oak_Texto_31 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 18, LavenderTown_Entrevista_Oak_Move_1.1
+waitmovement 0x0
+delay 15
+msgbox LavenderTown_Entrevista_Oak_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 18, LavenderTown_Entrevista_Oak_Move_3
+waitmovement 0x0
+applymovement 19, LavenderTown_Entrevista_Oak_Move_10
+applymovement 18, LavenderTown_Entrevista_Oak_Move_9
+waitmovement 0x0
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 20
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+applymovement 19, LavenderTown_Entrevista_Oak_Move_11
+applymovement 18, LavenderTown_Entrevista_Oak_Move_11
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Entrevista_Oak_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 18
+removeobject 20
+removeobject 19
+setvar VAR_UNUSED_0x40F8, 3
+release
+end
+
+LavenderTown_Entrevista_Oak_Texto_1:
+	.string "PERIODISTA: Estamos con SAMUEL OAK; 7\n"
+	.string "veces CAMPEÓN de la LIGA POKÉMON de\l"
+	.string "KANTO durante las décadas de 1970 y\l"
+	.string "1980.$"
+
+LavenderTown_Entrevista_Oak_Texto_2:
+	.string "Más tarde su figura fue crucial para\n"
+	.string "alcanzar la paz con JOHTO.$"
+
+LavenderTown_Entrevista_Oak_Texto_3:
+	.string "Investigador de renombre, brillante\n"
+	.string "entrenador; para muchos, la mayor\l"
+	.string "leyenda viva de esta región.$"
+
+LavenderTown_Entrevista_Oak_Texto_4:
+	.string "Dígame. Alguien como usted,\n"
+	.string "¿qué espera de KANTO?$"
+
+LavenderTown_Entrevista_Oak_Texto_5:
+	.string "OAK: Verá, me he llevado muchas\n"
+	.string "desilusiones esperando cosas a lo largo\l"
+	.string "de estos años.$"
+
+LavenderTown_Entrevista_Oak_Texto_6:
+	.string "A estas alturas, si alguien espera algo,\n"
+	.string "es la propia KANTO la que espera algo de\l"
+	.string "mí.$"
+
+LavenderTown_Entrevista_Oak_Texto_7:
+	.string "Ahora trato de servirle humildemente, y\n"
+	.string "lo que tenga que venir vendrá.$"
+
+LavenderTown_Entrevista_Oak_Texto_8:
+	.string "PERIODISTA: No le ha ido mal con esa\n"
+	.string "forma de pensar, recientemente inventó\l"
+	.string "la POKÉDEX.$"
+
+LavenderTown_Entrevista_Oak_Texto_9:
+	.string "OAK: Así es. El inventar la POKÉDEX para\n"
+	.string "jóvenes entrenadores y reabrir el\l"
+	.string "campeonato de la liga son dos\l"
+	.string "iniciativas de las que me siento muy\l"
+	.string "orgulloso.$"
+
+LavenderTown_Entrevista_Oak_Texto_10:
+	.string "PERIODISTA: Aun así, muchos dicen que\n"
+	.string "ya no es el mismo, que se ha acomodado.\l"
+	.string "¿Qué les diría?$"
+
+LavenderTown_Entrevista_Oak_Texto_11:
+	.string "OAK: El mundo es mucho más amplio\n"
+	.string "que un simple combate entre dos\l"
+	.string "equipos de seis POKÉMON.$"
+
+LavenderTown_Entrevista_Oak_Texto_12:
+	.string "PERIODISTA: Entiendo, estos años ha\n"
+	.string "estado con otros menesteres. Una\l"
+	.string "última pregunta, esta es un tanto…$"
+
+LavenderTown_Entrevista_Oak_Texto_13:
+	.string "OAK: ¿Un tanto?$"
+
+LavenderTown_Entrevista_Oak_Texto_14:
+	.string "PERIODISTA: No sé si usted puede\n"
+	.string "ayudarnos.$"
+
+LavenderTown_Entrevista_Oak_Texto_15:
+	.string "Al consultar los archivos dentro del CG\n"
+	.string "de la LIGA POKÉMON, vimos que el título\l"
+	.string "de CAMPEÓN figuraba con una 'X' hasta\l"
+	.string "en 8 ocasiones durante las décadas de\l"
+	.string "1970 y 1980.$"
+
+LavenderTown_Entrevista_Oak_Texto_16:
+	.string "¿Sabe usted el motivo? ¿Hay algún\n"
+	.string "nombre detrás de esa 'X'?$"
+
+LavenderTown_Entrevista_Oak_Texto_17:
+	.string "OAK: Verá, tengo la mala costumbre de\n"
+	.string "olvidar todo nombre que no merezca la\l"
+	.string "pena ser recordado.$"
+
+LavenderTown_Entrevista_Oak_Texto_18:
+	.string "Pero, hablando en serio…$"
+
+LavenderTown_Entrevista_Oak_Texto_19:
+	.string "…veo ya tan lejana, tan borrosa la\n"
+	.string "KANTO del pasado, que a veces pienso\l"
+	.string "que no es más que un sueño. Un sueño\l"
+	.string "pavoroso.$"
+
+LavenderTown_Entrevista_Oak_Texto_20:
+	.string "Puede haber mil motivos: Datos que se\n"
+	.string "perdieron tras la guerra, años en los\l"
+	.string "que no se celebró, victorias de\l"
+	.string "entrenadores extranjeros…$"
+
+LavenderTown_Entrevista_Oak_Texto_21:
+	.string "PERIODISTA: Entiendo. Pero no deja de\n"
+	.string "ser un misterio fascinante.$"
+
+LavenderTown_Entrevista_Oak_Texto_22:
+	.string "OAK: ¡Oh, desde luego!$"
+
+LavenderTown_Entrevista_Oak_Texto_23:
+	.string "Cuestionar la realidad e imaginar un\n"
+	.string "mundo que va más allá de lo que ven\l"
+	.string "nuestros ojos, es un gran ejercicio.$"
+
+LavenderTown_Entrevista_Oak_Texto_24:
+	.string "Yo también soy un soñador, ¿sabe? Y a\n"
+	.string "veces creo en imposibles.$"
+
+LavenderTown_Entrevista_Oak_Texto_25:
+	.string "'El ENTRENADOR -X- que ganó 8\n"
+	.string "campeonatos de la liga y fue borrado de\l"
+	.string "la historia '.$"
+
+LavenderTown_Entrevista_Oak_Texto_26:
+	.string "Sería una agradable ficción.$"
+
+LavenderTown_Entrevista_Oak_Texto_27:
+	.string "Pero yo estuve ahí, y lamento decirle\n"
+	.string "que ese entrenador no existe.$"
+
+LavenderTown_Entrevista_Oak_Texto_28:
+	.string "PERIODISTA: Muchas gracias por su\n"
+	.string "tiempo.$"
+
+LavenderTown_Entrevista_Oak_Texto_29:
+	.string "Ahora nos espera su antigua amiga,\n"
+	.string "AGATHA, dentro de TORRE POKÉMON. ¿No\l"
+	.string "nos acompaña?$"
+
+LavenderTown_Entrevista_Oak_Texto_30:
+	.string "OAK: {PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
+
+LavenderTown_Entrevista_Oak_Texto_31:
+	.string "Aún es pronto para eso.$"
+
+LavenderTown_Entrevista_Oak_Texto_32:
+	.string "PERIODISTA: Oh, vaya.\n"
+	.string "Como usted quiera.$"
+
+LavenderTown_Agatha::
+lock
+delay 15
+msgbox LavenderTown_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 17, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 15
+msgbox LavenderTown_Agatha_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, LavenderTown_Agatha_Move_3
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, LavenderTown_Agatha_Move_3
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_2.4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_4
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_5
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Agatha_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+msgbox LavenderTown_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderTown_Agatha_Move_6.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 17, LavenderTown_Agatha_Move_1
+waitmovement 0x0
+msgbox LavenderTown_Agatha_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LavenderTown_Agatha_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 17, LavenderTown_Agatha_Move_2
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_5
+waitmovement 0x0
+delay 10
+msgbox LavenderTown_Agatha_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 17, LavenderTown_Agatha_Move_7
+waitmovement 0x0
+setflag FLAG_HOENN_676
+clearflag FLAG_HOENN_675
+removeobject 17
+playse SE_EXIT
+waitse
+setvar VAR_UNUSED_0x40F8, 12
+delay 15
+release
+end
+
+LavenderTown_Agatha_Move_7:
+walk_up
+step_end
+
+LavenderTown_Agatha_Move_6.1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderTown_Agatha_Move_6:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+LavenderTown_Agatha_Move_5:
+walk_in_place_up
+step_end
+
+LavenderTown_Agatha_Move_4:
+face_up
+step_end
+
+LavenderTown_Agatha_Move_3:
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+step_end
+
+LavenderTown_Agatha_Move_2:
+emote_exclamation_mark
+step_end
+
+LavenderTown_Agatha_Move_1:
+face_player
+step_end
+
+LavenderTown_Agatha_Texto_2.1:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+LavenderTown_Agatha_Texto_2.2:
+	.string "¿Cómo lo sé?$"
+
+LavenderTown_Agatha_Texto_2.3:
+	.string "Jovencito, tú aún no habías nacido\n"
+	.string "cuando yo ya llevaba décadas\l"
+	.string "entrenando mis POKÉMON en este pueblo.$"
+
+LavenderTown_Agatha_Texto_2.4:
+	.string "Conozco esta región y a su gente lo\n"
+	.string "suficiente como para enterarme de la\l"
+	.string "verdad. Y sé lo que pasó ese día tras\l"
+	.string "los muros del HALL de la FAMA.$"
+
+LavenderTown_Agatha_Texto_1:
+	.string "¡{PLAYER}! ¡Obraste el milagro!$"
+
+LavenderTown_Agatha_Texto_2:
+	.string "¡Tu gesta en la LIGA POKÉMON es lo más\n"
+	.string "grande que he presenciado en décadas!$"
+
+LavenderTown_Agatha_Texto_3:
+	.string "Ahora, cada vez que paseo por estas\n"
+	.string "calles, no veo más que brotes verdes y\l"
+	.string "rayos de esperanza para KANTO.$"
+
+LavenderTown_Agatha_Texto_4:
+	.string "Y esa paz, aunque provisional, es\n"
+	.string "gracias a ti.$"
+
+LavenderTown_Agatha_Texto_5:
+	.string "Que estemos atravesando tiempos tan\n"
+	.string "inciertos me ha hecho más consciente\l"
+	.string "de lo afortunados que somos.$"
+
+LavenderTown_Agatha_Texto_6:
+	.string "Solo{PAUSE 25}…{PAUSE 25} mira TORRE POKÉMON.$"
+
+LavenderTown_Agatha_Texto_7:
+	.string "Yo crecí en este lugar. Después de\n"
+	.string "tantos años, vuelvo a valorarla como\l"
+	.string "merece.$"
+
+LavenderTown_Agatha_Texto_8:
+	.string "Aquí aprendí todo lo que sé sobre el\n"
+	.string "tipo fantasma, y si algo me quedó claro,\l"
+	.string "es que los grandes misterios del mundo\l"
+	.string "van más allá de lo que uno puede ver y\l"
+	.string "tocar.$"
+
+LavenderTown_Agatha_Texto_9:
+	.string "Pero no has venido hasta aquí para oír\n"
+	.string "los arrebatos de nostalgia de una\l"
+	.string "anciana como yo, ¿verdad?$"
+
+LavenderTown_Agatha_Texto_10:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+LavenderTown_Agatha_Texto_11:
+	.string "¡Oh, vas tras más misterios! En ese caso\n"
+	.string "quizás pueda ayudarte.$"
+
+LavenderTown_Agatha_Texto_12:
+	.string "Acompáñame.$"
+
+LavenderTown_Pasado_Cartel::
+lock
+msgbox LavenderTown_Pasado_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+LavenderTown_Pasado_Cartel_Texto_1:
+	.string "Convierte lo invisible en visible de\n"
+	.string "forma natural. Adquiere habilidades de\l"
+	.string "introspección en el GIMNASIO LAVANDA.$"
+

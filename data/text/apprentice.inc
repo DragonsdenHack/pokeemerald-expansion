@@ -1,6 +1,6 @@
 gText_ApprenticeChallenge0::
 	.string "Um, I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Snivel… This tension is getting to me…$"
+	.string "Snivel… This tension is getting to me…{PAUSE 5}$"
 
 gText_ApprenticeChallenge1::
 	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
@@ -1899,7 +1899,7 @@ gText_ApprenticeWhichMove3::
 	.string "Please, {PLAYER}, could you choose\n"
 	.string "a move for my {STR_VAR_1}?\p"
 	.string "If you could even choose between\n"
-	.string "{STR_VAR_2} and {STR_VAR_3}…$"
+	.string "{STR_VAR_2} and {STR_VAR_3}…{PAUSE 5}$"
 
 gText_ApprenticeMoveThanks3::
 	.string "I understand!\p"

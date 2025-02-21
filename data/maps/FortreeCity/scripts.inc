@@ -107,18 +107,18 @@ FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string "with me. This time, I'll beat WINONA.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
-	.string "trees grow by drinking that water…\p"
-	.string "Our FORTREE CITY exists because\n"
-	.string "there's both water and soil.$"
+	.string	"La tierra absorbe el agua de lluvia\n"
+	.string	"y los árboles absorben esa agua.\p"
+	.string	"CIUDAD ARBORADA existe porque\n"
+	.string	"tenemos agua y tierra.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "The CITY consists of homes built on\n"
-	.string "trees.\p"
-	.string "Perhaps because of that lifestyle,\n"
-	.string "everyone is healthy and lively.\p"
-	.string "Why, even myself--I feel as if I've\n"
-	.string "grown thirty years younger.$"
+	.string	"Todas las casas de la ciudad están\n"
+	.string	"construidas sobre árboles.\p"
+	.string	"Gracias a nuestro estilo de vida,\n"
+	.string	"todos aquí somos alegres y sanos.\p"
+	.string	"Vamos, mírame a mí…,\n"
+	.string	"¡estoy hecho un chaval!$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Living on top of trees is okay.\p"
@@ -131,11 +131,11 @@ FortreeCity_Text_PokemonThatEvolveWhenTraded:
 	.string "you trade them! That's what I heard.$"
 
 FortreeCity_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string	"Algo invisible corta el paso.$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string	"Algo invisible corta el paso.\p"
+	.string	"¿Usas el DETECTOR DEVON?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
 	.string "{PLAYER} used the DEVON SCOPE.\p"
@@ -144,9 +144,9 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
 	.string "The startled POKÉMON fled!$"
 
 FortreeCity_Text_CitySign:
-	.string "FORTREE CITY\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string	"CIUDAD ARBORADA\n"
+	.string	"“La ciudad arbórea que juega\l"
+	.string	"con la naturaleza.”$"
 
 FortreeCity_Text_GymSign:
 	.string "FORTREE CITY POKÉMON GYM\n"

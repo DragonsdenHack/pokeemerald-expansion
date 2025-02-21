@@ -98,12 +98,18 @@ delay 20
 playse SE_PIN
 applymovement 6, UnionCave_Combate_Elm_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_3
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_4
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UnionCave_Combate_Elm_Texto_2 MSGBOX_AUTOCLOSE
@@ -114,26 +120,36 @@ waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_5
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_6
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_7
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_10 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ELM, UnionCave_Combate_Elm_Texto_11
 msgbox UnionCave_Combate_Elm_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 6, UnionCave_Combate_Elm_Move_7
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_8
 applymovement 6, UnionCave_Combate_Elm_Move_9
 waitmovement 0x0
+delay 10
 msgbox UnionCave_Combate_Elm_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, UnionCave_Combate_Elm_Move_10
 waitmovement 0x0
 playse SE_EXIT
+setflag FLAG_HOENN_674
 setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 6
 setvar VAR_UNUSED_0x40F7, 127
@@ -255,8 +271,8 @@ step_end
 UnionCave_Combate_Elm_Move_9:
 walk_up
 walk_up
-delay_1
-delay_2
+delay_8
+delay_8
 walk_in_place_down
 step_end
 
@@ -278,13 +294,22 @@ walk_right
 walk_right
 step_end
 
+UnionCave_Llamada_Giovanni_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
 UnionCave_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox UnionCave_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 15
 setvar VAR_UNUSED_0x40F7, 126
 release
 end

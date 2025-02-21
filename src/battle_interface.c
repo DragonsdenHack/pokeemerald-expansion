@@ -32,6 +32,7 @@
 #include "constants/songs.h"
 #include "constants/battle_config.h"
 #include "constants/items.h"
+#include "battle_z_move.h"
 
 enum
 {   // Corresponds to gHealthboxElementsGfxTable (and the tables after it) in graphics.c
@@ -1538,6 +1539,12 @@ void HideMegaTriggerSprite(void)
     }
 }
 
+void HideTriggerSprites(void)
+{
+    HideMegaTriggerSprite();
+    HideZMoveTriggerSprite();
+}
+
 void DestroyMegaTriggerSprite(void)
 {
     FreeSpritePaletteByTag(TAG_MEGA_TRIGGER_PAL);
@@ -2957,17 +2964,17 @@ static void PrintBattlerOnAbilityPopUp(u8 battlerId, u8 spriteId1, u8 spriteId2)
     }
 
     name = monName + i + 1;
-    if (*(name - 1) == EOS)
-        name--;
+    // if (*(name - 1) == EOS)
+        // name--;
 
-    lastChar = *(name - 1);
-    name[0] = CHAR_SGL_QUOTE_RIGHT; // apostraphe
-    name++;
-    if (lastChar != CHAR_S && lastChar != CHAR_s)
-    {
-        name[0] = CHAR_s;
-        name++;
-    }
+    // lastChar = *(name - 1);
+    // name[0] = CHAR_SGL_QUOTE_RIGHT; // apostraphe
+    // name++;
+    // if (lastChar != CHAR_S && lastChar != CHAR_s)
+    // {
+        // name[0] = CHAR_s;
+        // name++;
+    // }
 
     name[0] = EOS;
     PrintOnAbilityPopUp((const u8 *)monName,

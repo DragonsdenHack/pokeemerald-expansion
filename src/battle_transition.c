@@ -114,6 +114,14 @@ static void Task_Drake(u8);
 static void Task_Champion(u8);
 static void Task_Surge(u8);
 static void Task_Brock(u8);
+static void Task_Petra(u8);
+static void Task_Marcial(u8);
+static void Task_Erico(u8);
+static void Task_Candela(u8);
+static void Task_Norman(u8);
+static void Task_Alana(u8);
+static void Task_Vito(u8);
+static void Task_Galano(u8);
 static void Task_Misty(u8);
 static void Task_Erika(u8);
 static void Task_Koga(u8);
@@ -159,6 +167,15 @@ static void Task_Andra4(u8);
 static void Task_Andra5(u8);
 static void Task_Andra6(u8);
 static void Task_LiderSete(u8);
+static void Task_Fortunia(u8);
+static void Task_Destra(u8);
+static void Task_Valente(u8);
+static void Task_Sachiko(u8);
+static void Task_Dracon(u8);
+static void Task_Amatista(u8);
+static void Task_Inverna(u8);
+static void Task_Rasmus(u8);
+static void Task_Tristana(u8);
 static void Task_Aqua(u8);
 static void Task_Magma(u8);
 static void Task_Regice(u8);
@@ -167,6 +184,8 @@ static void Task_Regirock(u8);
 static void Task_Kyogre(u8);
 static void Task_Groudon(u8);
 static void Task_Rayquaza(u8);
+static void Task_Rocket(u8);
+static void Task_Devon(u8);
 static void Task_ShredSplit(u8);
 static void Task_Blackhole(u8);
 static void Task_BlackholePulsate(u8);
@@ -206,7 +225,11 @@ static bool8 Shuffle_End(struct Task *);
 static bool8 Aqua_Init(struct Task *);
 static bool8 Aqua_SetGfx(struct Task *);
 static bool8 Magma_Init(struct Task *);
+static bool8 Rocket_Init(struct Task *);
+static bool8 Devon_Init(struct Task *);
 static bool8 Magma_SetGfx(struct Task *);
+static bool8 Rocket_SetGfx(struct Task *);
+static bool8 Devon_SetGfx(struct Task *);
 static bool8 FramesCountdown(struct Task *);
 static bool8 Regi_Init(struct Task *);
 static bool8 Regice_SetGfx(struct Task *);
@@ -383,6 +406,16 @@ static const u32 sFrontierSquares_Shrink1_Tileset[] = INCBIN_U32("graphics/battl
 static const u32 sFrontierSquares_Shrink2_Tileset[] = INCBIN_U32("graphics/battle_transitions/frontier_square_4.4bpp.lz");
 static const u32 sFrontierSquares_Tilemap[] = INCBIN_U32("graphics/battle_transitions/frontier_squares.bin");
 
+static const u32 sRocket_Tilemap[] = INCBIN_U32("graphics/battle_transitions/team_rocket.bin.lz");
+static const u32 sDevon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/devon.bin.lz");
+
+static const u16 sRocket_Palette[] = INCBIN_U16("graphics/battle_transitions/team_rocket.gbapal");
+static const u16 sDevon_Palette[] = INCBIN_U16("graphics/battle_transitions/devon.gbapal");
+
+static const u32 sRocket_Tileset[] = INCBIN_U32("graphics/battle_transitions/team_rocket.4bpp.lz");
+static const u32 sDevon_Tileset[] = INCBIN_U32("graphics/battle_transitions/devon.4bpp.lz");
+
+
 // All battle transitions use the same intro
 static const TaskFunc sTasks_Intro[B_TRANSITION_COUNT] =
 {
@@ -413,6 +446,14 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_CONSUL] = Task_Phoebe,
     [B_TRANSITION_SURGE] = Task_Surge,
     [B_TRANSITION_BROCK] = Task_Brock,
+    [B_TRANSITION_PETRA] = Task_Petra,
+    [B_TRANSITION_MARCIAL] = Task_Marcial,
+    [B_TRANSITION_ERICO] = Task_Erico,
+    [B_TRANSITION_CANDELA] = Task_Candela,
+    [B_TRANSITION_NORMAN] = Task_Norman,
+    [B_TRANSITION_ALANA] = Task_Alana,
+    [B_TRANSITION_VITO] = Task_Vito,
+    [B_TRANSITION_GALANO] = Task_Galano,
     [B_TRANSITION_MISTY] = Task_Misty,
     [B_TRANSITION_ERIKA] = Task_Erika,
     [B_TRANSITION_KOGA] = Task_Koga,
@@ -458,8 +499,19 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_ANDRA5] = Task_Andra5,
     [B_TRANSITION_ANDRA6] = Task_Andra6,
     [B_TRANSITION_LIDERSETE] = Task_LiderSete,
+    [B_TRANSITION_FORTUNIA] = Task_Fortunia,
+    [B_TRANSITION_DESTRA] = Task_Destra,
+    [B_TRANSITION_VALENTE] = Task_Valente,
+    [B_TRANSITION_SACHIKO] = Task_Sachiko,
+    [B_TRANSITION_DRACON] = Task_Dracon,
+    [B_TRANSITION_AMATISTA] = Task_Amatista,
+    [B_TRANSITION_INVERNA] = Task_Inverna,
+    [B_TRANSITION_RASMUS] = Task_Rasmus,
+    [B_TRANSITION_TRISTANA] = Task_Tristana,
     [B_TRANSITION_AQUA] = Task_Aqua,
     [B_TRANSITION_MAGMA] = Task_Magma,
+	[B_TRANSITION_ROCKET] = Task_Rocket,
+	[B_TRANSITION_DEVON] = Task_Devon,
     [B_TRANSITION_REGICE] = Task_Regice,
     [B_TRANSITION_REGISTEEL] = Task_Registeel,
     [B_TRANSITION_REGIROCK] = Task_Regirock,
@@ -527,6 +579,28 @@ static const TransitionStateFunc sMagma_Funcs[] =
 {
     Magma_Init,
     Magma_SetGfx,
+    PatternWeave_Blend1,
+    PatternWeave_Blend2,
+    PatternWeave_FinishAppear,
+    FramesCountdown,
+    PatternWeave_CircularMask
+};
+
+static const TransitionStateFunc sRocket_Funcs[] =
+{
+    Rocket_Init,
+    Rocket_SetGfx,
+    PatternWeave_Blend1,
+    PatternWeave_Blend2,
+    PatternWeave_FinishAppear,
+    FramesCountdown,
+    PatternWeave_CircularMask
+};
+
+static const TransitionStateFunc sDevon_Funcs[] =
+{
+    Devon_Init,
+    Devon_SetGfx,
     PatternWeave_Blend1,
     PatternWeave_Blend2,
     PatternWeave_FinishAppear,
@@ -646,6 +720,14 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_CONSUL] = TRAINER_PIC_LADY,
     [MUGSHOT_SURGE] = TRAINER_PIC_LEADER_LT_SURGE,
     [MUGSHOT_BROCK] = TRAINER_PIC_LEADER_BROCK,
+    [MUGSHOT_PETRA] = TRAINER_PIC_LEADER_ROXANNE,
+    [MUGSHOT_MARCIAL] = TRAINER_PIC_LEADER_BRAWLY,
+    [MUGSHOT_ERICO] = TRAINER_PIC_LEADER_WATTSON,
+    [MUGSHOT_CANDELA] = TRAINER_PIC_LEADER_FLANNERY,
+    [MUGSHOT_NORMAN] = TRAINER_PIC_LEADER_NORMAN,
+    [MUGSHOT_ALANA] = TRAINER_PIC_LEADER_WINONA,
+    [MUGSHOT_VITO] = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+    [MUGSHOT_GALANO] = TRAINER_PIC_LEADER_JUAN,
     [MUGSHOT_MISTY] = TRAINER_PIC_LEADER_MISTY,
     [MUGSHOT_ERIKA] = TRAINER_PIC_LEADER_ERIKA,
     [MUGSHOT_KOGA] = TRAINER_PIC_LEADER_KOGA,
@@ -691,6 +773,15 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA5] = TRAINER_PIC_ANDRA_ADMIN,
     [MUGSHOT_ANDRA6] = TRAINER_PIC_ANDRA_ADMIN_JEFE,
     [MUGSHOT_LIDERSETE] = TRAINER_PIC_LIDERSETE,
+    [MUGSHOT_FORTUNIA] = TRAINER_PIC_PIKE_QUEEN_LUCY,
+    [MUGSHOT_DESTRA] = TRAINER_PIC_SALON_MAIDEN_ANABEL,
+    [MUGSHOT_VALENTE] = TRAINER_PIC_PYRAMID_KING_BRANDON,
+    [MUGSHOT_SACHIKO] = TRAINER_PIC_SACHIKO,
+    [MUGSHOT_DRACON] = TRAINER_PIC_ELITE_FOUR_DRAKE,
+    [MUGSHOT_AMATISTA] = TRAINER_PIC_DEVON2,
+    [MUGSHOT_RASMUS] = TRAINER_PIC_RASMUS,
+    [MUGSHOT_TRISTANA] = TRAINER_PIC_TRISTANA,
+    [MUGSHOT_INVERNA] = TRAINER_PIC_INVERNA,
 };
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 {
@@ -702,6 +793,14 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_CONSUL] = {0x200, 0x200},
     [MUGSHOT_SURGE] = {0x200, 0x200},
     [MUGSHOT_BROCK] = {0x200, 0x200},
+    [MUGSHOT_PETRA] = {0x200, 0x200},
+    [MUGSHOT_MARCIAL] = {0x200, 0x200},
+    [MUGSHOT_ERICO] = {0x200, 0x200},
+    [MUGSHOT_CANDELA] = {0x200, 0x200},
+    [MUGSHOT_NORMAN] = {0x200, 0x200},
+    [MUGSHOT_ALANA] = {0x200, 0x200},
+    [MUGSHOT_VITO] = {0x200, 0x200},
+    [MUGSHOT_GALANO] = {0x200, 0x200},
     [MUGSHOT_MISTY] = {0x200, 0x200},
     [MUGSHOT_ERIKA] = {0x200, 0x200},
     [MUGSHOT_KOGA] = {0x200, 0x200},
@@ -746,6 +845,15 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA5] = {0x200, 0x200},
     [MUGSHOT_ANDRA6] = {0x200, 0x200},
     [MUGSHOT_LIDERSETE] = {0x200, 0x200},
+    [MUGSHOT_FORTUNIA] = {0x200, 0x200},
+    [MUGSHOT_DESTRA] = {0x200, 0x200},
+    [MUGSHOT_VALENTE] = {0x200, 0x200},
+    [MUGSHOT_SACHIKO] = {0x200, 0x200},
+    [MUGSHOT_DRACON] = {0x200, 0x200},
+    [MUGSHOT_AMATISTA] = {0x200, 0x200},
+    [MUGSHOT_INVERNA] = {0x200, 0x200},
+    [MUGSHOT_RASMUS] = {0x200, 0x200},
+    [MUGSHOT_TRISTANA] = {0x200, 0x200},
     [MUGSHOT_CAPITAN] = {0x200, 0x200},
 };
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
@@ -758,6 +866,14 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_CONSUL] = {0,  7},
     [MUGSHOT_SURGE] =   { -8,  5},
     [MUGSHOT_BROCK] =    { 0,  5},
+    [MUGSHOT_PETRA] =    { 0,  5},
+    [MUGSHOT_MARCIAL] =    { 0,  5},
+    [MUGSHOT_ERICO] =    { 0,  5},
+    [MUGSHOT_CANDELA] =    { 0,  5},
+    [MUGSHOT_NORMAN] =    { 0,  5},
+    [MUGSHOT_ALANA] =    { -24,  5},
+    [MUGSHOT_VITO] =    { -28,  0},
+    [MUGSHOT_GALANO] =    { 0,  5},
     [MUGSHOT_MISTY] =    { 0,  5},
     [MUGSHOT_ERIKA] =    { 0,  5},
     [MUGSHOT_KOGA] =    { -27,  0},
@@ -802,6 +918,15 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_ANDRA5] =    { -20,  0},
     [MUGSHOT_ANDRA6] =    { -8,  0},
     [MUGSHOT_LIDERSETE] =    { -8,  0},
+    [MUGSHOT_FORTUNIA] =    { -18,  0},
+    [MUGSHOT_DESTRA] =    { -18,  0},
+    [MUGSHOT_VALENTE] =    { -18,  0},
+    [MUGSHOT_SACHIKO] =    { -32,  0},
+    [MUGSHOT_DRACON] =    { -20,  0},
+    [MUGSHOT_AMATISTA] =    { -20,  0},
+    [MUGSHOT_INVERNA] =    { -10,  0},
+    [MUGSHOT_RASMUS] =    { -10,  0},
+    [MUGSHOT_TRISTANA] =    { -10,  0},
     [MUGSHOT_CAPITAN] =    { -8,  0},
 };
 
@@ -1143,6 +1268,14 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_CONSUL] = sMugshotPal_Phoebe,
     [MUGSHOT_SURGE] = sMugshotPal_Champion,
     [MUGSHOT_BROCK] = sMugshotPal_Phoebe,
+    [MUGSHOT_PETRA] = sMugshotPal_Phoebe,
+    [MUGSHOT_MARCIAL] = sMugshotPal_Drake,
+    [MUGSHOT_ERICO] = sMugshotPal_Champion,
+    [MUGSHOT_CANDELA] = sMugshotPal_Drake,
+    [MUGSHOT_NORMAN] = sMugshotPal_Drake,
+    [MUGSHOT_ALANA] = sMugshotPal_Sidney,
+    [MUGSHOT_VITO] = sMugshotPal_Glacia,
+    [MUGSHOT_GALANO] = sMugshotPal_Drake,
     [MUGSHOT_MISTY] = sMugshotPal_Drake,
     [MUGSHOT_ERIKA] = sMugshotPal_Phoebe,
     [MUGSHOT_KOGA] = sMugshotPal_Sidney,
@@ -1187,6 +1320,15 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_ANDRA5] = sMugshotPal_Sidney,
     [MUGSHOT_ANDRA6] = sMugshotPal_Champion,
     [MUGSHOT_LIDERSETE] = sMugshotPal_Glacia,
+    [MUGSHOT_FORTUNIA] = sMugshotPal_Sidney,
+    [MUGSHOT_DESTRA] = sMugshotPal_Glacia,
+    [MUGSHOT_VALENTE] = sMugshotPal_Drake,
+    [MUGSHOT_SACHIKO] = sMugshotPal_Sidney,
+    [MUGSHOT_DRACON] = sMugshotPal_Drake,
+    [MUGSHOT_AMATISTA] = sMugshotPal_Phoebe,
+    [MUGSHOT_INVERNA] = sMugshotPal_Glacia,
+    [MUGSHOT_RASMUS] = sMugshotPal_Champion,
+    [MUGSHOT_TRISTANA] = sMugshotPal_Drake,
     [MUGSHOT_CAPITAN] = sMugshotPal_Drake,
 };
 
@@ -1644,6 +1786,16 @@ static void Task_Magma(u8 taskId)
     while (sMagma_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
+static void Task_Rocket(u8 taskId)
+{
+    while (sRocket_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+}
+
+static void Task_Devon(u8 taskId)
+{
+    while (sDevon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+}
+
 static void Task_Regice(u8 taskId)
 {
     while (sRegice_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
@@ -1718,6 +1870,36 @@ static bool8 Magma_Init(struct Task *task)
     return FALSE;
 }
 
+static bool8 Rocket_Init(struct Task *task)
+{
+    u16 *tilemap, *tileset;
+
+    task->tEndDelay = 60;
+    InitPatternWeaveTransition(task);
+    GetBg0TilesDst(&tilemap, &tileset);
+    CpuFill16(0, tilemap, BG_SCREEN_SIZE);
+    LZ77UnCompVram(sRocket_Tileset, tileset);
+    LoadPalette(sRocket_Palette, 0xF0, sizeof(sRocket_Palette));
+
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 Devon_Init(struct Task *task)
+{
+    u16 *tilemap, *tileset;
+
+    task->tEndDelay = 60;
+    InitPatternWeaveTransition(task);
+    GetBg0TilesDst(&tilemap, &tileset);
+    CpuFill16(0, tilemap, BG_SCREEN_SIZE);
+    LZ77UnCompVram(sDevon_Tileset, tileset);
+    LoadPalette(sDevon_Palette, 0xF0, sizeof(sDevon_Palette));
+
+    task->tState++;
+    return FALSE;
+}
+
 static bool8 Regi_Init(struct Task *task)
 {
     u16 *tilemap, *tileset;
@@ -1784,6 +1966,30 @@ static bool8 Magma_SetGfx(struct Task *task)
 
     GetBg0TilesDst(&tilemap, &tileset);
     LZ77UnCompVram(sTeamMagma_Tilemap, tilemap);
+    SetSinWave(gScanlineEffectRegBuffers[0], 0, task->tSinIndex, 132, task->tAmplitude, DISPLAY_HEIGHT);
+
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 Rocket_SetGfx(struct Task *task)
+{
+    u16 *tilemap, *tileset;
+
+    GetBg0TilesDst(&tilemap, &tileset);
+    LZ77UnCompVram(sRocket_Tilemap, tilemap);
+    SetSinWave(gScanlineEffectRegBuffers[0], 0, task->tSinIndex, 132, task->tAmplitude, DISPLAY_HEIGHT);
+
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 Devon_SetGfx(struct Task *task)
+{
+    u16 *tilemap, *tileset;
+
+    GetBg0TilesDst(&tilemap, &tileset);
+    LZ77UnCompVram(sDevon_Tilemap, tilemap);
     SetSinWave(gScanlineEffectRegBuffers[0], 0, task->tSinIndex, 132, task->tAmplitude, DISPLAY_HEIGHT);
 
     task->tState++;
@@ -2599,6 +2805,54 @@ static void Task_Brock(u8 taskId)
     DoMugshotTransition(taskId);
 }
 
+static void Task_Petra(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_PETRA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Marcial(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_MARCIAL;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Erico(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ERICO;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Candela(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_CANDELA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Norman(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_NORMAN;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Alana(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ALANA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Vito(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_VITO;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Galano(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_GALANO;
+    DoMugshotTransition(taskId);
+}
+
 static void Task_Blaine(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_BLAINE;
@@ -2860,6 +3114,60 @@ static void Task_Andra6(u8 taskId)
 static void Task_LiderSete(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_LIDERSETE;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Fortunia(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_FORTUNIA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Destra(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_DESTRA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Valente(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_VALENTE;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Sachiko(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_SACHIKO;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Dracon(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_DRACON;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Inverna(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_INVERNA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Rasmus(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_RASMUS;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Tristana(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_TRISTANA;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Amatista(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_AMATISTA;
     DoMugshotTransition(taskId);
 }
 

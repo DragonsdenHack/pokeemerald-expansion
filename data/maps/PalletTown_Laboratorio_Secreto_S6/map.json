@@ -1,0 +1,286 @@
+{
+  "id": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S6",
+  "name": "PalletTown_Laboratorio_Secreto_S6",
+  "layout": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S6",
+  "music": "MUS_NONE",
+  "region_map_section": "MAPSEC_PALLET_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_SECRET_BASE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
+      "x": 15,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_289"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
+      "x": 14,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_289"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 15,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_294"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 24,
+      "y": 64,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Laboratorio_Secreto_S6_Documento",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 1,
+      "y": 98,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Primera_Llave",
+      "flag": "FLAG_HOENN_291"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 1,
+      "y": 97,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Documento_Ultimate",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 20,
+      "y": 64,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_292"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 4,
+      "y": 68,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Andra_Busqueda",
+      "flag": "FLAG_HOENN_293"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 26,
+      "y": 69,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Andra_Este",
+      "flag": "FLAG_HOENN_656"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 16,
+      "y": 66,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_288"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 97,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S5",
+      "dest_warp_id": 1
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 75,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "43",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 75,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "43",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 68,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "44",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Andra_Documento"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 72,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "45",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Ultima_Puerta"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "46",
+      "script": "PalletTown_Laboratorio_S6_Final"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 55,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 55,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 65,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 64,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 65,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 64,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 65,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 64,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 67,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Primera_Puerta"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 68,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S6_Primera_Puerta"
+    }
+  ]
+}

@@ -18,15 +18,15 @@
   ],
   "warp_events": [
     {
-      "x": 13,
+      "x": 14,
       "y": 5,
       "elevation": 3,
       "dest_map": "MAP_CAVE_OF_ORIGIN_1F",
       "dest_warp_id": 1
     },
     {
-      "x": 5,
-      "y": 11,
+      "x": 11,
+      "y": 17,
       "elevation": 3,
       "dest_map": "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
       "dest_warp_id": 0

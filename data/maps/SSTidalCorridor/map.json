@@ -9,15 +9,15 @@
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": false,
+  "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
-      "x": 1,
-      "y": 11,
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "x": 2,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -28,9 +28,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
-      "x": 16,
-      "y": 7,
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 1,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -41,101 +41,322 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 9,
-      "y": 2,
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "x": 1,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SSTidalCorridor_EventScript_Briney",
-      "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY"
+      "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WINGULL",
-      "x": 7,
-      "y": 2,
+      "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
+      "x": 1,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SSTidalCorridor_EventScript_Peeko",
-      "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY"
+      "script": "SSTidalCorridor_4_NPC",
+      "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
-      "x": 9,
-      "y": 10,
+      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "x": 2,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "x": 16,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_6_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 4,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_7_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 2,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT"
+      "script": "SSTidalCorridor_7_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "x": 3,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_9_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "x": 5,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_10_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARIANA",
+      "x": 16,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_Ariana",
+      "flag": "FLAG_HOENN_45"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+      "x": 5,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_12_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
+      "x": 17,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_13_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_14_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "x": 6,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_15_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "x": 4,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
+      "x": 17,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_17_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BOY_2",
+      "x": 15,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_18_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_19_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "x": 1,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_20_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_21_NPC",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN2",
+      "x": 10,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SSTidalCorridor_22_NPC",
+      "flag": "0"
     }
   ],
   "warp_events": [
     {
       "x": 4,
-      "y": 9,
+      "y": 8,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 0
     },
     {
       "x": 7,
-      "y": 9,
+      "y": 8,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 2
     },
     {
       "x": 10,
-      "y": 9,
+      "y": 8,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 4
     },
     {
       "x": 13,
-      "y": 9,
+      "y": 8,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 6
     },
     {
       "x": 4,
-      "y": 3,
+      "y": 4,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 8
     },
     {
       "x": 7,
-      "y": 3,
+      "y": 4,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 9
     },
     {
       "x": 10,
-      "y": 3,
+      "y": 4,
       "elevation": 3,
       "dest_map": "MAP_SS_TIDAL_ROOMS",
       "dest_warp_id": 10
     },
     {
-      "x": 13,
-      "y": 3,
+      "x": 1,
+      "y": 11,
       "elevation": 3,
-      "dest_map": "MAP_SS_TIDAL_ROOMS",
-      "dest_warp_id": 11
+      "dest_map": "MAP_SLATEPORT_CITY_HARBOR",
+      "dest_warp_id": 2
     },
     {
       "x": 16,
@@ -145,7 +366,17 @@
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "244",
+      "script": "SSTidalCorridor_Warp_Cascada"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -214,7 +445,7 @@
     {
       "type": "sign",
       "x": 5,
-      "y": 9,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SSTidalCorridor_EventScript_Cabin1Sign"
@@ -222,7 +453,7 @@
     {
       "type": "sign",
       "x": 8,
-      "y": 9,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SSTidalCorridor_EventScript_Cabin2Sign"
@@ -230,7 +461,7 @@
     {
       "type": "sign",
       "x": 11,
-      "y": 9,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SSTidalCorridor_EventScript_Cabin3Sign"
@@ -238,7 +469,7 @@
     {
       "type": "sign",
       "x": 14,
-      "y": 9,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SSTidalCorridor_EventScript_Cabin4Sign"

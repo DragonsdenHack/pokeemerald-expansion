@@ -17,6 +17,7 @@ CianwoodCity_Miguel_Warp::
 setvar VAR_VERDANTURF_TOWN_STATE, 19
 warpsilent MAP_ROUTE50, 55, 21
 waitmovement 0x0
+delay 100
 release
 end
 
@@ -172,14 +173,20 @@ CianwoodCityDocumento_Text_103:
 CianwoodCity_Evento_Mirto::
 lock
 clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+playse SE_DOOR
+opendoor 24, 53
 addobject 10
-playse SE_EXIT
+applymovement 10, VerdanturfTown_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_1
 waitmovement 0x0
+closedoor 24, 53
+waitdooranim
 msgbox CianwoodCity_Evento_Mirto_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 10, CianwoodCity_Evento_Mirto_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 fadeoutbgm 0
@@ -192,72 +199,114 @@ msgbox CianwoodCity_Evento_Mirto_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 10, CianwoodCity_Evento_Mirto_Move_4
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox CianwoodCity_Evento_Mirto_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CianwoodCity_Evento_Mirto_Move_5
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CianwoodCity_Evento_Mirto_Move_6
 waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
 fadeoutbgm 0
 playse 590
 applymovement 10, CianwoodCity_Evento_Mirto_Move_3
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_2
+waitmovement 0x0
+waitse
+delay 15
 applymovement 10, CianwoodCity_Evento_Mirto_Move_4
 waitmovement 0x0
+msgbox CianwoodCity_Evento_Mirto_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4
+waitmovement 0x0
+delay 10
 msgbox CianwoodCity_Evento_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4.2
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_4.3
+waitmovement 0x0
+msgbox CianwoodCity_Evento_Mirto_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
-fadescreen 1
 playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 10
-setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 10
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
 setvar VAR_UNUSED_0x40FE, 1
 release
 end
 
+CianwoodCity_Evento_Mirto_Move_4.2:
+walk_fast_right
+step_end
+
+CianwoodCity_Evento_Mirto_Move_4.3:
+delay_16
+face_right
+step_end
+
 CianwoodCity_Evento_Mirto_Texto_1:
-.string "ALDER: ??$"
+.string "MIRTO: ¿Quién?$"
 
 CianwoodCity_Evento_Mirto_Texto_2:
-.string "Oh, {PLAYER}, what a surprise.$"
+.string "Oh, {PLAYER}. Qué sorpresa.$"
 
 CianwoodCity_Evento_Mirto_Texto_3:
-	.string "I apologize that you couldn't come with\n"
-	.string "us to BELL TOWER; AGATHA clearly holds\l"
-	.string "you in high esteem. It's only a matter\l"
-	.string "of time before the GRAND MASTER\l"
-	.string "invites you in; he's been very busy\l"
-	.string "lately sorting out various matters…$"
+.string "Lamento que no pudieras entrar con\n"
+	.string "nosotros a TORRE CAMPANA, esa\l"
+	.string "AGATHA se ve que te aprecia mucho.\p"
+	.string "Solo es cuestión de tiempo que el\n"
+	.string "GRAN MAESTRO te invite a entrar,\l"
+	.string "ha estado muy ocupado últimamente\l"
+	.string "poniendo en orden varios asuntos{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodCity_Evento_Mirto_Texto_4:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodCity_Evento_Mirto_Texto_5:
-	.string "As for my POKÉMON, we've tried\n"
-	.string "everything, but it's still the same. None\l"
-	.string "of the treatments that work with other\l"
-	.string "POKÉMON seem to apply to my VOLCARONA.\l"
-	.string "I was recommended to visit this\l"
-	.string "PHARMACY, the oldest in JOHTO, but\l"
-	.string "nothing appears to affect my POKÉMON's\l"
-	.string "body. Only its own energy, the same\l"
-	.string "energy that's devouring it from within.$"
+.string "En cuanto a mi POKÉMON, probamos\n"
+	.string "de todo, pero sigue igual. Ninguno\l"
+	.string "de los remedios que con el resto\l"
+	.string "de POKÉMON funcionan tiene\l"
+	.string "aplicación en mi VOLCARONA.$"
+
+CianwoodCity_Evento_Mirto_Texto_5.1:
+	.string "Me recomendaron venir a esta\n"
+	.string "FARMACIA, la más antigua de JOHTO,\l"
+	.string "pero nada parece afectarle al\l"
+	.string "cuerpo de mi POKÉMON. Nada más que\l"
+	.string "su propia energía, la misma que le\l"
+	.string "está comiendo por dentro.$"
 
 CianwoodCity_Evento_Mirto_Texto_6:
-	.string "Many desire to have the strongest\n"
-	.string "POKÉMON. They speak of power as if they\l"
-	.string "were mere numbers tossed in the air, but\l"
-	.string "they fail to realize the enormous cost\l"
-	.string "involved in reaching certain levels for\l"
-	.string "POKÉMON physiology. They only see the\l"
-	.string "outcome, not the causes and effects\l"
-	.string "that lead to it.$"
+.string "Muchos quieren tener POKÉMON más\n"
+	.string "fuertes, hablan del poder como si\l"
+	.string "fueran simples números lanzados al\l"
+	.string "aire, pero no se dan cuenta del\l"
+	.string "enorme costo que supone llegar a\l"
+	.string "ciertos niveles para la fisiología\l"
+	.string "de los POKÉMON.\p"
+	.string "Solo ven el resultado, no las causas\n"
+	.string "y efectos que llevan a él.$"
 
 CianwoodCity_Evento_Mirto_Texto_7:
 	.string "Whatever happens, I will never see the\n"
@@ -270,27 +319,43 @@ CianwoodCity_Evento_Mirto_Texto_7:
 	.string "antagonist: illness.$"
 
 CianwoodCity_Evento_Mirto_Texto_8:
-	.string "I'll return once again to BELL TOWER,\n"
-	.string "{PLAYER}, to explore all my\l"
-	.string "possibilities. The wisest and most\l"
-	.string "formidable TRAINER in the region will\l"
-	.string "soon visit the site. The LEADER of\l"
-	.string "ECRUTEAK CITY mentioned him to me; he's\l"
-	.string "the only one with a DEEP BOND POKÉMON\l"
-	.string "of greater overall power than my\l"
-	.string "VOLCARONA. Even if his is a\l"
-	.string "PSEUDO-LEGENDARY and we can't assess\l"
-	.string "it in the same way. Maybe he knows\l"
-	.string "something we've missed.$"
+.string "Volveré una vez más a TORRE CAMPANA,\n"
+	.string "para agotar todas mis opciones.\p"
+	.string "El ENTRENADOR más sabio y poderoso\n"
+	.string "de la región visitará el lugar,\l"
+	.string "dentro de poco. El LÍDER de CIUDAD\l"
+	.string "IRIS me ha hablado de él, es el\l"
+	.string "único con un POKÉMON FUERTE\l"
+	.string "VÍNCULO de mayor poder global que\l"
+	.string "mi VOLCARONA.$"
+	
+CianwoodCity_Evento_Mirto_Texto_8.1:
+	.string "Así es, la diferencia es que el\n"
+	.string "suyo es un PSEUDOLEGENDARIO, y no\l"
+	.string "podemos medirlo con la misma vara.\l"
+	.string "Pero tal vez{PAUSE 15}…{PAUSE 15} él sepa algo que\l"
+	.string "hemos pasado por alto.$"
 
 CianwoodCity_Evento_Mirto_Texto_9:
-	.string "Good bye, {PLAYER}. If I hurry up,\n"
-	.string "maybe I can see the sunset in ECRUTEAK\l"
-	.string "CITY. Who knows how long I will\l"
-	.string "contemplate this beautiful world with\l"
-	.string "VOLCARONA by my side?$"
+.string "Adiós, {PLAYER}. Si me doy prisa,\n"
+	.string "aún podré contemplar el crepúsculo\l"
+	.string "cernirse sobre CIUDAD IRIS.$"
+
+CianwoodCity_Evento_Mirto_Texto_9.1:
+	.string "¿Quién sabe{PAUSE 15}…{PAUSE 15} cuantos más podré\n"
+	.string "admirar con VOLCARONA a mi lado?$"
+
+CianwoodCity_Evento_Mirto_Move_3.1:
+face_up
+delay_16
+face_left
+delay_16
+delay_8
+face_player
+step_end
 
 CianwoodCity_Evento_Mirto_Move_1:
+emote_exclamation_mark
 jump_special_down
 face_up
 step_end
@@ -371,6 +436,41 @@ fadescreen 1
 delay 20
 removeobject 6
 fadescreen 0
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+clearflag FLAG_HOENN_90
+clearflag FLAG_HOENN_91
+clearflag FLAG_HOENN_92
+clearflag FLAG_HOENN_93
+clearflag FLAG_HOENN_94
+clearflag FLAG_HOENN_95
+clearflag FLAG_HOENN_96
+clearflag FLAG_HOENN_97
+clearflag FLAG_HOENN_98
+clearflag FLAG_HOENN_99
+setflag FLAG_HOENN_640
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
 setvar VAR_UNUSED_0x40F7, 151
 release
 end

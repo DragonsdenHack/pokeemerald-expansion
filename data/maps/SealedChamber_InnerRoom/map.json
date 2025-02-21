@@ -14,7 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 10,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SealedChamber_OuterRoom_Andra",
+      "flag": "FLAG_HOENN_58"
+    }
   ],
   "warp_events": [
     {
@@ -23,6 +35,13 @@
       "elevation": 3,
       "dest_map": "MAP_SEALED_CHAMBER_OUTER_ROOM",
       "dest_warp_id": 0
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_CAVE_REGIGIGAS_S1",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
@@ -31,8 +50,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 10,
-      "y": 4,
+      "x": 14,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SealedChamber_InnerRoom_EventScript_BrailleBackWall"
@@ -87,8 +106,8 @@
     },
     {
       "type": "sign",
-      "x": 9,
-      "y": 4,
+      "x": 6,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SealedChamber_InnerRoom_EventScript_BrailleBackWall"
@@ -96,7 +115,7 @@
     {
       "type": "sign",
       "x": 11,
-      "y": 4,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SealedChamber_InnerRoom_EventScript_BrailleBackWall"

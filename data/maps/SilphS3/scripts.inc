@@ -224,15 +224,20 @@ waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SilphS3_Miguel_Batalla_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SilphS3_Miguel_Batalla_Move_5
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Miguel_Batalla_Texto_4 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 2, SilphS3_Miguel_Batalla_Move_6
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Miguel_Batalla_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SilphS3_Miguel_Batalla_Move_6
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Miguel_Batalla_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CMIGUEL_3, SilphS3_Miguel_Batalla_Texto_7
 msgbox SilphS3_Miguel_Batalla_Texto_8 MSGBOX_AUTOCLOSE
@@ -241,9 +246,12 @@ msgbox SilphS3_Miguel_Batalla_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 2, SilphS3_Miguel_Batalla_Move_5
 waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SilphS3_Miguel_Batalla_Move_6
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Miguel_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SilphS3_Miguel_Batalla_Move_7
 waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 104
@@ -372,13 +380,24 @@ applymovement 3, SilphS3_Bill_Batalla_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_3
 waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SilphS3_Bill_Batalla_Move_4
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SilphS3_Bill_Batalla_Move_2
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, SilphS3_Bill_Batalla_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SilphS3_Bill_Batalla_Texto_7 MSGBOX_AUTOCLOSE
@@ -389,15 +408,33 @@ waitmovement 0x0
 applymovement 3, SilphS3_Bill_Batalla_Move_4
 waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+delay 30
+msgbox SilphS3_Bill_Batalla_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 30
 applymovement 3, SilphS3_Bill_Batalla_Move_4
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, SilphS3_Bill_Batalla_Move_2.3
+waitmovement 0x0
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, SilphS3_Bill_Batalla_Move_2.4
+waitmovement 0x0
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_9.3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SilphS3_Bill_Batalla_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SilphS3_Bill_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SilphS3_Bill_Batalla_Move_6
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_7
@@ -407,16 +444,33 @@ applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_8
 applymovement 3, SilphS3_Bill_Batalla_Move_2
 waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_13.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_13.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SilphS3_Bill_Batalla_Move_2
 waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox SilphS3_Bill_Batalla_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_15 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BILL_3, SilphS3_Bill_Batalla_Texto_16
 msgbox SilphS3_Bill_Batalla_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SilphS3_Bill_Batalla_Move_2
 waitmovement 0x0
+delay 10
 msgbox SilphS3_Bill_Batalla_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 3, SilphS3_Bill_Batalla_Move_9
 waitmovement 0x0
@@ -424,72 +478,118 @@ setvar VAR_UNUSED_0x40F7, 105
 release
 end
 
+SilphS3_Bill_Batalla_Move_2.3:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+SilphS3_Bill_Batalla_Move_2.4:
+walk_in_place_right
+step_end
+
+SilphS3_Bill_Batalla_Move_2.2:
+emote_exclamation_mark
+step_end
+
+SilphS3_Bill_Batalla_Move_2.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
 SilphS3_Bill_Batalla_Texto_1:
-	.string "BILL: So, you're after that ESSENCE\n"
-	.string "POKÉMON, huh, {PLAYER}?$"
+.string "BILL: Entonces vas tras el POKÉMON\n"
+	.string "ESENCIA, ¿me equivoco, {PLAYER}?$"
 
 SilphS3_Bill_Batalla_Texto_2:
-	.string "When you took me down at SILPH to push\n"
-	.string "forward your plot against LANCE's\l"
-	.string "government, you really showed me the\l"
-	.string "ropes, I gotta say.$"
+.string "Cuando me derrotaste en SILPH, me\n"
+	.string "diste una buena lección, he de\l"
+	.string "admitirlo.$"
 
 SilphS3_Bill_Batalla_Texto_3:
-	.string "You showed that even a ROCKET can have\n"
-	.string "a great team. I underestimated what\l"
-	.string "regular POKÉMON could do with good\l"
-	.string "training, and you took it to the next\l"
-	.string "level by beating RED and then LANCE,\l"
-	.string "who ruled KANTO for the last ten years.$"
+.string "Demostraste que un ROCKET, por muy\n"
+	.string "ROCKET que sea, puede llegar a\l"
+	.string "contar con un gran equipo.\p"
+	.string "Subestimé lo que los POKÉMON corrientes\n"
+	.string "podían llegar a dar si se entrenan bien.$"
+
+SilphS3_Bill_Batalla_Texto_3.1:
+	.string "Y al final, llevaste esa máxima al\n"
+	.string "extremo, en la LIGA POKÉMON.$"
 
 SilphS3_Bill_Batalla_Texto_4:
-	.string "Thanks to your performance in the\n"
-	.string "POKÉMON LEAGUE, you freed KANTO from\l"
-	.string "the invisible yoke under which LANCE\l"
-	.string "subjected its inhabitants. However, you\l"
-	.string "also put an end to the series of\l"
-	.string "privileges that government provided me.$"
+	.string "Tu actuación liberó a KANTO del yugo\n"
+	.string "invisible al que LANCE sometía a sus\l"
+	.string "habitantes, pero también acabaste con\l"
+	.string "la serie de privilegios que a mí me\l"
+	.string "proporcionaban.$"
 
 SilphS3_Bill_Batalla_Texto_5:
-	.string "Nonetheless, I have a knack for\n"
-	.string "maintaining my contacts, and my\l"
-	.string "relationship with SILPH has always been\l"
-	.string "positive. As a result, they've assigned\l"
-	.string "me to lead one of their major projects,\l"
-	.string "something I was planning to undertake\l"
-	.string "on my own: unlocking PORYGON's maximum\l"
-	.string "potential.$"
+	.string "Por suerte, siempre me llevé bien con\n"
+	.string "SILPH, de forma que me han colocado a\l"
+	.string "la dirección de uno de sus proyectos\l"
+	.string "más importantes, algo que al fin y al\l"
+	.string "cabo yo mismo iba a intentar por cuenta\l"
+	.string "propia: extraer el máximo potencial\l"
+	.string "alcanzable de PORYGON.$"
 
 SilphS3_Bill_Batalla_Texto_6:
-	.string "Look, I'm not done collecting or\n"
-	.string "anything, but KANTO's old news. I've got\l"
-	.string "all I need from there: bagged the\l"
-	.string "LEGENDARY BIRDS, nabbed all the\l"
-	.string "FOSSILS, and even got a DRAGONITE. My\l"
-	.string "POKEDEX is almost full with 149 KANTO\l"
-	.string "POKÉMON{PAUSE 20}…{PAUSE 20} It's just MEW, gone for ages,\l"
-	.string "that's playing hard to get. But who\l"
-	.string "knows where it is anyway? Not even\l"
-	.string "worth worrying about.$"
+.string "No quiero decir con esto que doy\n"
+	.string "por terminada mi faceta como\l"
+	.string "coleccionista, pero KANTO ya\l"
+	.string "está{PAUSE 25}…{PAUSE 25}muy vista.$"
+
+SilphS3_Bill_Batalla_Texto_6.1:
+	.string "Tengo todo cuanto quiero de esta región.\n"
+	.string "Lon ejemplares de las AVES, todos los\l"
+	.string "FÓSILES en mis vitrinas, toda la línea\l"
+	.string "evolutiva de DRATINI a mi disposición{PAUSE 15}…{PAUSE 15}$"
+
+SilphS3_Bill_Batalla_Texto_6.2:
+	.string "Los 149 POKÉMON en mi POKÉDEX{PAUSE 25}…{PAUSE 25}solo\l"
+	.string "MEW, desaparecido desde hace casi una\l"
+	.string "década, se me resiste.\p"
+	.string "Su posición actual es tan incierta que\n"
+	.string "ni merece la pena pensar en ello.$"
 
 SilphS3_Bill_Batalla_Texto_7:
-.string "BILL: {PAUSE 20}…{PAUSE 20}$"
+.string "BILL: {PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Bill_Batalla_Texto_8:
-	.string "Oh, you're here for that mystery\n"
-	.string "POKÉMON, huh? Yeah, I remember!$"
+.string "¿El misterioso POKÉMON por el que\n"
+	.string "estás aquí?$"
+
+SilphS3_Bill_Batalla_Texto_8.1:
+	.string "¿En serio, {PLAYER}?$"
 
 SilphS3_Bill_Batalla_Texto_9:
-	.string "Do you really think, ROCKET, that if I\n"
-	.string "thought there was a chance of such a\l"
-	.string "POKÉMON existing, I wouldn't be out\l"
-	.string "there looking for it? I've read the\l"
-	.string "documents about that invention, and\l"
-	.string "I've checked with my own hands that\l"
-	.string "nothing they claim exists; those\l"
-	.string "documents must have been written by\l"
-	.string "religious fanatics rather than based on\l"
-	.string "real empirical knowledge.$"
+.string "¿De verdad crees que si considerase la\n"
+	.string "más mínima posibilidad de que tal\l"
+	.string "POKÉMON existiera, no estaría ahí\l"
+	.string "fuera tratando de encontrarlo?$"
+
+SilphS3_Bill_Batalla_Texto_9.1:
+	.string "He leído los documentos referentes\n"
+	.string "a tal invención, y he comprobado\l"
+	.string "en mis propias manos que nada de\l"
+	.string "lo que ahí dice existe.$"
+
+SilphS3_Bill_Batalla_Texto_9.2:
+	.string "Ya he pateado y hablado con todo\n"
+	.string "PUEBLO LAVANDA, y no hay ni el\l"
+	.string "menor rastro o referencia a eso.$"
+
+SilphS3_Bill_Batalla_Texto_9.3:
+	.string "Debe haber sido escrito por fanáticos\n"
+	.string "religiosos, más por un acto de fe\l"
+	.string "que de conocimiento empírico real.$"
 
 SilphS3_Bill_Batalla_Texto_10:
 	.string "Don't you believe me?$"
@@ -500,82 +600,89 @@ SilphS3_Bill_Batalla_Texto_11:
 	.string "yourself.$"
 
 SilphS3_Bill_Batalla_Texto_12:
-	.string "Hang on, {PLAYER}, not too fast!$"
+.string "¡No tan rápido, {PLAYER}!$"
 
 SilphS3_Bill_Batalla_Texto_13:
-	.string "Hey, I just told you I'm working on new\n"
-	.string "PORYGON prototypes, and you don't even\l"
-	.string "care to ask about it. Do you really hate\l"
-	.string "me that much? I mean, yeah, we've had\l"
-	.string "our differences, but I thought you'd be\l"
-	.string "interested in hearing about the cool\l"
-	.string "stuff PORYGON can do, instead of\l"
-	.string "reading those boring docs written by\l"
-	.string "some dude who just made up\l"
-	.string "non-existing POKÉMON to avoid dealing\l"
-	.string "with their own problems.$"
+	.string "Acabo de decirte que estoy trabajando\n"
+	.string "en nuevos prototipos de PORYGON,\l"
+	.string "¿y ni siquiera te dignas\l"
+	.string "a preguntarme por ello?\p"
+	.string "¿Tan mal te caigo después de todo?\n"
+	.string "Vamos, sé que hemos tenido nuestras\l"
+	.string "diferencias, pero en el fondo sé\l"
+	.string "valorar a un buen ENTRENADOR.$"
+
+SilphS3_Bill_Batalla_Texto_13.1:
+	.string "Alguien como tú debe estar ansioso\n"
+	.string "por saber más acerca de eso.$"
+
+SilphS3_Bill_Batalla_Texto_13.2:
+	.string "¡Y no por leer esos aburridos documentos,\n"
+	.string "escritos por alguien que inventó POKÉMON\l"
+	.string "donde no los había, solo para oír las\l"
+	.string "respuestas que temía darse él mismo!$"
 
 SilphS3_Bill_Batalla_Texto_14:
-	.string "FYI, we've just cranked up DRAGONITE's\n"
-	.string "base power with our latest update,\l"
-	.string "following PORYGON2's evolution line\l"
-	.string "instead of that messed-up PORYGON-Z\l"
-	.string "one. Now, this POKÉMON offensive is\l"
-	.string "top-notch in KANTO. Isn't that what\l"
-	.string "it's all about, {PLAYER}? Forget about\l"
-	.string "superstitions, we're talking about some\l"
-	.string "serious numbers here.$"
+.string "Para tu información, logramos superar\n"
+	.string "el poder base de DRAGONITE, gracias\l"
+	.string "a una última actualización de PORYGON.$"
+
+SilphS3_Bill_Batalla_Texto_14.1:
+	.string "Así es, siguiendo la línea evolutiva\n"
+	.string "de PORYGON2 en lugar de la corrupta\l"
+	.string "línea de PORYGON-Z.\p"
+	.string "La ofensiva alcanzada por tal POKÉMON\n"
+	.string "no conoce igual en toda KANTO.\l"
+	.string "De eso trata esto, ¿no, {PLAYER}?\l"
+	.string "De números puros y duros, no\l"
+	.string "estúpidas supersticiones de\l"
+	.string "POKÉMON que siquiera existen.$"
 
 
 SilphS3_Bill_Batalla_Texto_15:
-	.string "Oh, and by the way, our latest\n"
-	.string "calculations show that my current team\l"
-	.string "of 6 POKÉMON has outmatched the power\l"
-	.string "level of the team LANCE used to conquer\l"
-	.string "KANTO, you know, the one you battled at\l"
-	.string "the HALL OF FAME. So, do you think this\l"
-	.string "badass team could also take down the\l"
-	.string "toughest trainer around?$"
+.string "También, según últimas estimaciones, el\n"
+	.string "poder global de mi actual equipo ya\l"
+	.string "ha superado el nivel del equipo con el\l"
+	.string "que LANCE pudo someter a KANTO; el\l"
+	.string "mismo que tú enfrentaste tras las\l"
+	.string "puertas del HALL DE LA FAMA.\p"
+	.string "La cuestión es{PAUSE 25}…{PAUSE 25}\n"
+	.string "¿¡Podría este equipo, lo último en\l"
+	.string "tecnología, derrocar también al\l"
+	.string "máximo exponente del duro\l"
+	.string "entrenamiento?!$"
 
 SilphS3_Bill_Batalla_Texto_16:
-	.string "Dang, I gotta say, your team is on\n"
-	.string "another level.$"
+.string "Impresionante, tengo que admitir\n"
+	.string "que estás hecho de otra pasta.$"
 
 SilphS3_Bill_Batalla_Texto_17:
-	.string "Dude, I never thought I'd lay eyes on a\n"
-	.string "POKÉMON like PORYGON3, not even in my\l"
-	.string "craziest dreams. It's{PAUSE 20}…{PAUSE 20} almost perfect,\l"
-	.string "with its type combination giving it\l"
-	.string "three immunities, insane offense, and\l"
-	.string "wicked SPEED. If only its physical\l"
-	.string "DEFENSE didn't suck…$"
+.string "Ni en mis mejores sueños pude imaginar\n"
+	.string "que llegaría a ver algo como PORYGON3.\l"
+	.string "Es{PAUSE 25}…{PAUSE 25} casi perfecto.\p"
+	.string "4 inmunidades, ofensiva descomunal, gran\n"
+	.string "VELOCIDAD{PAUSE 15}…{PAUSE 15} de no ser por su\l"
+	.string "DEFENSA FÍSICA{PAUSE 15}…{PAUSE 15} sería perfecto.$"
 
 SilphS3_Bill_Batalla_Texto_18:
-	.string "Despite your victory over me, I\n"
-	.string "comprehend how someone as formidable\l"
-	.string "as LANCE could also suffer defeat.\l"
-	.string "However, do not assume that I have\l"
-	.string "concluded my endeavors, ROCKET. I hold\l"
-	.string "respect for my adversaries and extract\l"
-	.string "lessons from our encounters. There\l"
-	.string "remains significant ground to cover in\l"
-	.string "unlocking PORYGON's utmost potential.\l"
-	.string "Though I suspect we are nearing a\l"
-	.string "plateau where enhancements will yield\l"
-	.string "marginal returns, we will persist in\l"
-	.string "elevating that trajectory before\l"
-	.string "reaching a point where further\l"
-	.string "improvements become practically\l"
-	.string "negligible, that law of diminishing\l"
-	.string "returns is no joke, dude.$"
+.string "Por suerte, aún se puede optimizar un\n"
+	.string "poco más a PORYGON.\l"
+	.string "Eso sí: presiento que ya nos hallamos\l"
+	.string "en un punto donde las mejoras serán\l"
+	.string "bastante despreciables, solo queda\l"
+	.string "luchar por elevar algo más esa curva,\l"
+	.string "antes de que la mejora no sea mayor\l"
+	.string "a un 0,01%.\p"
+	.string "¡La ley de beneficios\n"
+	.string "decrecientes es dura!$"
 
 SilphS3_Bill_Batalla_Texto_19:
-	.string "So, back to the grind. Since I can't find\n"
-	.string "any new POKÉMON to add to my\l"
-	.string "collection, I'm pretty stoked about\l"
-	.string "this project. If you can't get more rare\l"
-	.string "and powerful POKÉMON, why not just\l"
-	.string "make your own, right?$"
+.string "En fin, vuelvo al trabajo, a falta\n"
+	.string "de nuevos POKÉMON que añadir a mi\l"
+	.string "colección, este proyecto me ilusiona.\p"
+	.string "Si no puedes tener a más POKÉMON raros\n"
+	.string "y poderosos, ¿qué mejor que comenzar\l"
+	.string "a crearlos tú mismo?$"
 
 SilphS3_Bill_Batalla_Move_1:
 walk_in_place_up
@@ -601,12 +708,15 @@ step_end
 
 SilphS3_Bill_Batalla_Move_6:
 walk_in_place_left
+delay_16
 walk_in_place_right
 step_end
 
 SilphS3_Bill_Batalla_Move_7:
 walk_slow_left
+delay_8
 walk_slow_left
+delay_8
 walk_in_place_left
 step_end
 
@@ -622,76 +732,97 @@ SilphS3_Documento_Pokemon_Esencia::
 compare VAR_UNUSED_0x40F7, 105
 goto_if_gt SilphS3_Documento_Pokemon_Esencia_2
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_2 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_4F_Warp_No
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3.2 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 106
 release
 end
 
 SilphS3_Documento_Pokemon_Esencia_2::
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_2 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_4F_Warp_No
 msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3.2 MSGBOX_AUTOCLOSE
 release
 end
 
 SilphS3_Documento_Pokemon_Esencia_Texto_1:
-	.string "The legend of the Essence POKÉMON, the\n"
-	.string "one that gives meaning to KANTO:\l"
-	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
-	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
-	.string "The establishment of LAVENDER TOWN\l"
-	.string "and its POKÉMON TOWER to the south of\l"
-	.string "ROCK TUNNEL is not mere chance; it was\l"
-	.string "there where its first inhabitants\l"
-	.string "managed to establish contact with what\l"
-	.string "they called the 'ESSENCE POKÉMON.'\l"
-	.string "Unlike other POKÉMON, this entity did\l"
-	.string "not have a defined form; it could\l"
-	.string "manifest itself in any place or form. It\l"
-	.string "is a POKÉMON of such power and\l"
-	.string "presence that it is part of every pixel\l"
-	.string "that makes up KANTO. In every good or\l"
-	.string "bad action, moment of calm or\l"
-	.string "enlightenment, the ESSENCE POKÉMON\l"
-	.string "will be there, simply observing the\l"
-	.string "unfolding events of the KANTO region,\l"
-	.string "attentive to that moment of\l"
-	.string "uncertainty before action…$"
+.string "-LA LEYENDA DEL POKÉMON ESENCIA,\n"
+	.string "AQUEL QUE DA SENTIDO A KANTO-\l"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
+	.string "Que PUEBLO LAVANDA y su TORRE POKÉMON\l"
+	.string "se asentaran al sur del TÚNEL ROCA no\l"
+	.string "es mera casualidad, fue allí donde sus\l"
+	.string "primeros habitantes lograron establecer\l"
+	.string "contacto con el -POKÉMON ESENCIA-.$"
 
+SilphS3_Documento_Pokemon_Esencia_Texto_1.1:
+	.string "Este, a diferencia del resto de POKÉMON,\n"
+	.string "no cuenta con una forma definida, y\l"
+	.string "puede presentarse en cualquier lugar\l"
+	.string "y de cualquier modo; su presencia es\l"
+	.string "tal, que forma parte activa de cada\l"
+	.string "uno de los elementos que conforman\l"
+	.string "y modelan KANTO.\l"
+	.string "En cada buena o mala acción, momento de\l"
+	.string "calma o iluminación, el POKÉMON ESENCIA\l"
+	.string "se encontrará allí, solo observando\l"
+	.string "el devenir de acontecimientos, atento\l"
+	.string "a ese momento de incertidumbre, previo\l"
+	.string "a la acción{PAUSE 15}…{PAUSE 15} donde todo es posible{PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Documento_Pokemon_Esencia_Texto_2:
 	.string "Keep reading?$"
 
 SilphS3_Documento_Pokemon_Esencia_Texto_3:
-	.string "A being of such nature, omnipresent,\n"
-	.string "and for some, also omnipotent, could\l"
-	.string "not be categorized within the\l"
-	.string "parameters that govern the rest of\l"
-	.string "POKÉMON. The mere act of\l"
-	.string "categorization would automatically\l"
-	.string "result in a reduction of the authentic\l"
-	.string "complexity of such a being. However,\l"
-	.string "those early inhabitants of LAVENDER\l"
-	.string "TOWN reached such a level of\l"
-	.string "spirituality that they managed to make\l"
-	.string "contact with the 'ESSENCE POKÉMON,'\l"
-	.string "forming a cult around this being.\l"
-	.string "Enlightened by the wisdom of the\l"
-	.string "ESSENCE POKÉMON, they lost all\l"
-	.string "attachment to the material world, and\l"
-	.string "with it, contact with the rest of the\l"
-	.string "population of KANTO, to the extent\l"
-	.string "that, over generations, no one now lives\l"
-	.string "to remember the existence of this cult,\l"
-	.string "much less that of the 'ESSENCE\l"
-	.string "POKÉMON.' If the legend is true, such a\l"
-	.string "cult still exists, hidden in some corner\l"
-	.string "of LAVENDER TOWN…$"
+.string "Un ser de tal naturaleza: omnipresente\n"
+	.string "y, para algunos, omnipotente, no puede\l"
+	.string "ser catalogado con los parámetros que\l"
+	.string "rigen al resto de POKÉMON; el mero\l"
+	.string "hecho de ser categorizado produciría\l"
+	.string "automáticamente una reducción de la\l"
+	.string "auténtica complejidad de tal ser.\p"
+	.string "No obstante, aquellos primeros\n"
+	.string "habitantes de PUEBLO LAVANDA\l"
+	.string "alcanzaron un grado de espiritualidad,\l"
+	.string "por el cual lograron comunicarse con\l"
+	.string "-EL POKÉMON ESENCIA-.\p"
+	.string "Con ello, se fundó un culto en\n"
+	.string "torno al ser en cuestión.$"
+
+SilphS3_Documento_Pokemon_Esencia_Texto_3.1:
+	.string "Estos, iluminados por su sabiduría,\n"
+	.string "perdieron todo apego por el mundo\l"
+	.string "material, y con ello el contacto con\l"
+	.string "el resto de la población de KANTO, hasta\l"
+	.string "el punto de que, con el paso de las\l"
+	.string "generaciones, nadie vive ahora para\l"
+	.string "recordar la existencia de tal culto.$"
+
+SilphS3_Documento_Pokemon_Esencia_Texto_3.2:
+	.string "Mucho menos para probar la leyenda del\n"
+	.string "-POKÉMON ESENCIA-.\l"
+	.string "De ser cierta, y dicho culto existir,\l"
+	.string "seguiría oculto, en algún rincón de\l"
+	.string "PUEBLO LAVANDA{PAUSE 5}…{PAUSE 5}$"
 
 SilphS3_Sotano::
 lock

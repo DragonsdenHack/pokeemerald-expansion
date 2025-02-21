@@ -63,6 +63,7 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_2
 waitmovement 0x0
+waitse
 playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8004, 0  @ vertical pan
 	setvar VAR_0x8005, 3  @ horizontal pan
@@ -105,15 +106,22 @@ setflag FLAG_HIDE_ROUTE_110_BIRCH
 removeobject 1
 delay 15
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_5
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_6
 special SpawnCameraObject
@@ -127,9 +135,12 @@ waitmovement 0x0
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ZEUS_2, Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_8
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
@@ -149,18 +160,27 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_11
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_1
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_10
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21.1 MSGBOX_AUTOCLOSE

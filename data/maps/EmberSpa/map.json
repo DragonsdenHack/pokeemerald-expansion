@@ -81,10 +81,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN2",
-      "x": 13,
-      "y": 10,
+      "x": 15,
+      "y": 12,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -108,9 +108,9 @@
       "x": 13,
       "y": 13,
       "elevation": 0,
-      "var": "0",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "LavaridgeTown_EventScript_HotSpringsTrigger"
+      "script": "Balneario_Curacion"
     }
   ],
   "bg_events": [

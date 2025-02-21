@@ -75,6 +75,9 @@ PokemonLeague_LancesRoom_EventScript_SetEntryClosed::
 
 PokemonLeague_4F_Combate_Lance::
 msgbox PokemonLeague_4F_Combate_Lance_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_4F_Combate_Lance_Texto_2.1
 return
 
 PokemonLeague_LancesRoom_EventScript_Battle::
@@ -94,40 +97,47 @@ PokemonLeague_LancesRoom_EventScript_DefeatedLance::
 	end
 
 PokemonLeague_4F_Combate_Lance_Texto_1:
-	.string "So in KANTO, there were still trainers\n"
-	.string "capable of challenging the power of a\l"
-	.string "PSEUDOLEGENDARY, I won't say that what\l"
-	.string "you've done isn't commendable, but had\l"
-	.string "to said it, now, we have a new CHAMPION.\l"
-	.string "You, that other girl, and OAK's\l"
-	.string "rebellious grandson can take a look if\l"
-	.string "you want, 'cause you've earned it. but\l"
-	.string "against the rising talent from PALLET\l"
-	.string "TOWN, RED, there's nothing you can do,\l"
-	.string "he must have confirmed his position by\l"
-	.string "easily defeating BLUE already, who\l"
-	.string "arrived earlier, you can go ahead, maybe\l"
-	.string "if you arrive in time to see that\l"
-	.string "massacre, you'll lose the desire to\l"
-	.string "challenge our new CHAMP.$"
+.string "Entonces en KANTO sigue habiendo\n"
+	.string "entrenadores capaces de revelarse\l"
+	.string "ante el poder de un PSEUDOLEGENDARIO{PAUSE 15}…{PAUSE 15}\l"
+	.string "No diré que lo tuyo no tiene mérito,\l"
+	.string "pero ya está todo dicho: después de\l"
+	.string "lo visto ya tenemos CAMPEÓN.\l"
+	.string "Tú, esa otra chiquilla y el díscolo\l"
+	.string "nieto de OAK podéis mirar si queréis,\l"
+	.string "os lo habéis ganado, pero ante el nuevo\l"
+	.string "talento surgido de PUEBLO PALETA, no\l"
+	.string "podéis hacer nada.{PAUSE 35}\p"
+	.string "Para estas alturas, ROJO ya debe haber\n"
+	.string "confirmado su posición, derrotando con\l"
+	.string "facilidad a AZUL, que llegó antes.{PAUSE 35}\p"
+	.string "Tal vez si llegas a tiempo para ver\n"
+	.string "esa masacre se te quiten las ganas\l"
+	.string "de retar a nuestro nuevo CAMPEÓN.$"
 
 PokemonLeague_4F_Combate_Lance_Texto_2:
-	.string "{PLAYER}? I have never heard about\n"
-	.string "you, but as you know, I lead the ELITE 4\l"
-	.string "as the KANTO and JOHTO GOVERNMENTS\l"
-	.string "too, I would tell you that I am the\l"
-	.string "actual CHAMP, however that honor has\l"
-	.string "just been taken away by two kids and a\l"
-	.string "cheeky girl who, like you, has the\l"
-	.string "audacity to present herself to me in\l"
-	.string "these ugly clothes. Still, the title of\l"
-	.string "CHAMPION already has an owner, an\l"
-	.string "unknown like you doesn't belong here at\l"
-	.string "this point, it will only take me to make\l"
-	.string "some changes in my dragons army\l"
-	.string "regarding previous battles to ensure\l"
-	.string "that your little adventure in the\l"
-	.string "LEAGUE ends here with me.$"
+	.string "¿{PLAYER}?{PAUSE 35}\n"
+	.string "Jamás había oído hablar de ti,\l"
+	.string "como sabes, dirijo al ALTO MANDO, a\l"
+	.string "la vez que el GOBIERNO de KANTO y\l"
+	.string "JOHTO. Te diría que soy también el\l"
+	.string "actual CAMPEÓN, pero ese honor me\l"
+	.string "lo acaban de quitar dos mocosos y\l"
+	.string "una chiquilla descarada que, al\l"
+	.string "igual que tú, tiene el valor de\l"
+	.string "presentarse ante mí con esta\l"
+	.string "indumentaria.{PAUSE 35}\p"
+	.string "Sin embargo, el título de CAMPEÓN\n"
+	.string "ya tiene dueño, y un desconocido\l"
+	.string "como tú, a estas alturas no pinta\l"
+	.string "nada aquí.$"
+	
+PokemonLeague_4F_Combate_Lance_Texto_2.1:
+	.string "¡Solo me tomará hacer algún que otro\n"
+	.string "cambio en mi ejército de dragones\l"
+	.string "respecto a los combates anteriores,\l"
+	.string "para asegurarme de que tu pequeña\l"
+	.string "aventura acaba aquí conmigo!$"
 
 PokemonLeague_4F_Combate_Lance_Texto_4:
 	.string "It seems I've made a mistake adjusting\n"

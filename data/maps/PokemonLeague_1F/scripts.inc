@@ -58,6 +58,9 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 
 PokemonLeague_1F_Combate_Lorelei::
 msgbox PokemonLeague_1F_Combate_Lorelei_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_1F_Combate_Lorelei_Texto_2.1
 return
 
 PokemonLeague_LoreleisRoom_EventScript_Battle::
@@ -78,25 +81,33 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 
 
 PokemonLeague_1F_Combate_Lorelei_Texto_1:
-	.string "Oh crap, defeated once again, I think I\n"
-	.string "need a vacation time at FLOE ISLAND…\l"
-	.string "Go ahead kid, the POKÉMON LEAGUE\l"
-	.string "awaits you with some surprises.$"
+.string "No puede ser, de nuevo derrotada,\n"
+	.string "creo que un periodo de descanso en\l"
+	.string "ISLA CUARTA no me vendría mal…\l"
+	.string "Sigue adelante, chico.\p"
+	.string "La LIGA POKÉMON te reserva\n"
+	.string "muchas sorpresas.$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_2:
-	.string "Welcome to the POKÉMON LEAGUE. I am\n"
-	.string "LORELEI, of the ELITE FOUR. I have the\l"
-	.string "feeling I've seen you somewhere before,\l"
-	.string "or not? Anyway, today has been a tough\l"
-	.string "day, I've never seen so many talents\l"
-	.string "aiming to the CHAMPION title at once,\l"
-	.string "you better be good enough like them\l"
-	.string "because no one surpasses me in training\l"
-	.string "ICE-TYPE POKÉMON. Freezing moves are\l"
-	.string "my specialty, and your POKÉMON will be\l"
-	.string "helpless when that happens. Hahaha!\l"
-	.string "Let's start?$"
+.string "Bienvenido a la LIGA POKÉMON.\n"
+	.string "Me llamo LORELEI, de la ÉLITE 4.\l"
+	.string "Tengo la impresión de haberte\l"
+	.string "visto antes en algún lugar, ¿o no?\l"
+	.string "En fin, hoy está siendo un día\l"
+	.string "duro, nunca había visto a tantos\l"
+	.string "talentos juntos aspirar al título\l"
+	.string "de CAMPEÓN, más te vale ser como\l"
+	.string "ellos, porque nadie me supera\l"
+	.string "entrenando POKÉMON TIPO HIELO.$"
+
+PokemonLeague_1F_Combate_Lorelei_Texto_2.1:
+	.string "Los movimientos que congelan son\n"
+	.string "mi especialidad, tus POKÉMON\l"
+	.string "estarán a mi merced cuando eso\l"
+	.string "ocurra.\l"
+	.string "¡Hahaha!\l"
+	.string "¿Comenzamos?$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_4:
-.string "This should not be like this!…$"
+.string "¡Esto no debería ser así!{PAUSE 5}…{PAUSE 5}$"
 

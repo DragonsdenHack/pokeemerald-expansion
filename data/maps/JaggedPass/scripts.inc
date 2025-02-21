@@ -1,10 +1,15 @@
 .set LOCALID_HIDEOUT_GUARD, 5
 
 JaggedPass_MapScripts::
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, JaggedPass_Magno_OnFrame
 	map_script MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad
 	.byte 0
+
+JaggedPass_Magno_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 222, JaggedPass_Encuentro_Magno
+	.2byte 0
 
 JaggedPass_OnResume:
 	setstepcallback STEP_CB_ASH
@@ -34,8 +39,6 @@ JaggedPass_OnLoad:
 	end
 
 JaggedPass_EventScript_ConcealHideoutEntrance::
-	setmetatile 16, 17, METATILE_Lavaridge_RockWall, TRUE
-	setmetatile 16, 18, METATILE_Lavaridge_RockWall, TRUE
 	end
 
 JaggedPass_EventScript_OpenMagmaHideout::
@@ -153,7 +156,7 @@ JaggedPass_Text_EricIntro:
 	.string "alegría!$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Perder me deja hecho polvo…$"
+	.string "Perder me deja hecho polvo{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EricPostBattle:
 	.string "Sí, he perdido en el combate POKÉMON…\n"
@@ -200,7 +203,7 @@ JaggedPass_Text_EthanDefeat:
 JaggedPass_Text_EthanPostBattle:
 	.string "Si tuviera una BICI ACROBÁTICA, podría\n"
 	.string "saltar por encima de cualquier\l"
-	.string "desnivel…$"
+	.string "desnivel{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EthanRegister:
 	.string "When I get more used to this bumpiness,\n"
@@ -213,11 +216,11 @@ JaggedPass_Text_EthanRematchIntro:
 
 JaggedPass_Text_EthanRematchDefeat:
 	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
+	.string "bumpy ground{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "in MAUVILLE CITY…{PAUSE 5}$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"
@@ -228,7 +231,7 @@ JaggedPass_Text_GruntIntro:
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
 	.string "I should've ducked into our HIDEOUT\n"
-	.string "right away…$"
+	.string "right away…{PAUSE 5}$"
 
 JaggedPass_Text_GoWhereverYouWant:
 	.string "Okay, oh-kay!\n"
@@ -245,7 +248,7 @@ JaggedPass_Text_JulioIntro:
 	.string "aparecer de repente, sin avisar!$"
 
 JaggedPass_Text_JulioDefeat:
-	.string "Me has desinflado…$"
+	.string "Me has desinflado…{PAUSE 5}$"
 
 JaggedPass_Text_JulioPostBattle:
 	.string "Tengo el trasero hecho polvo por culpa\n"
@@ -262,4 +265,90 @@ JaggedPass_Text_AutumnDefeat:
 JaggedPass_Text_AutumnPostBattle:
 	.string "¿Qué será esa extraña protuberancia\n"
 	.string "rocosa que hay arriba de la colina?$"
+
+JaggedPass_Encuentro_Magno::
+lock
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_2
+waitmovement 0x0
+msgbox JaggedPass_Encuentro_Magno_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 5, JaggedPass_Encuentro_Magno_Move_3
+waitmovement 0x0
+msgbox JaggedPass_Encuentro_Magno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_5
+applymovement 5, JaggedPass_Encuentro_Magno_Move_4
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 5, JaggedPass_Encuentro_Magno_Move_1
+waitmovement 0x0
+msgbox JaggedPass_Encuentro_Magno_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, JaggedPass_Encuentro_Magno_Move_6
+waitmovement 0x0
+msgbox JaggedPass_Encuentro_Magno_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 5, JaggedPass_Encuentro_Magno_Move_7
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+setflag FLAG_HOENN_696
+setvar VAR_UNUSED_0x40F7, 223
+release
+end
+
+JaggedPass_Encuentro_Magno_Move_7:
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+JaggedPass_Encuentro_Magno_Move_6:
+delay_8
+face_up
+delay_8
+step_end
+
+JaggedPass_Encuentro_Magno_Move_5:
+walk_down
+walk_left
+step_end
+
+JaggedPass_Encuentro_Magno_Move_4:
+walk_down
+walk_down
+walk_right
+step_end
+
+JaggedPass_Encuentro_Magno_Move_3:
+delay_8
+walk_slow_down
+delay_8
+step_end
+
+JaggedPass_Encuentro_Magno_Move_2:
+face_left
+step_end
+
+JaggedPass_Encuentro_Magno_Move_1:
+emote_exclamation_mark
+step_end
+
+JaggedPass_Encuentro_Magno_Texto_1:
+	.string "MAGNO: Al fin{PAUSE 10}…{PAUSE 10} llegó la hora, GROUDON.$"
+
+JaggedPass_Encuentro_Magno_Texto_2:
+	.string "Tenemos todo para montar aquí nuestra\n"
+	.string "base y planear desde aquí tu retorno.$"
+
+JaggedPass_Encuentro_Magno_Texto_3:
+	.string "Humm{PAUSE 10}…{PAUSE 10} tú{PAUSE 10}…{PAUSE 10} ¿te he visto antes?$"
+
+JaggedPass_Encuentro_Magno_Texto_4:
+	.string "{PAUSE 10}…{PAUSE 10} No importa.\n"
+	.string "GROUDON y la ESFERA AZUL esperan.$"
 

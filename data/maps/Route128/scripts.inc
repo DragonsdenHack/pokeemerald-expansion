@@ -248,7 +248,7 @@ Route128_Text_ArchieWhatHappened:
 
 Route128_Text_ArchieIOnlyWanted:
 	.string "I…\n"
-	.string "I only wanted…$"
+	.string "I only wanted{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
 	.string "MAXIE: Do you understand now,\n"
@@ -269,13 +269,13 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "But neither can we stand by and\n"
 	.string "just watch helplessly.\p"
 	.string "The responsibility for putting an end\n"
-	.string "to this falls to ARCHIE and me…$"
+	.string "to this falls to ARCHIE and me{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_MaxieThisDefiesBelief:
 	.string "MAXIE: This defies belief…\p"
 	.string "Those super-ancient POKÉMON…\p"
 	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "They've upset the balance of nature{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_StevenWhatIsHappening:
 	.string "STEVEN: {PLAYER}{KUN}!\n"
@@ -291,7 +291,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "from above SOOTOPOLIS…\p"
 	.string "What in the world is taking place there?\p"
 	.string "There's no point arguing here…\n"
-	.string "SOOTOPOLIS might provide answers…$"
+	.string "SOOTOPOLIS might provide answers{PAUSE 5}…{PAUSE 5}$"
 
 Route128_Text_StevenImGoingToSootopolis:
 	.string "{PLAYER}{KUN}…\n"
@@ -299,4 +299,27 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "but don't do anything reckless.\p"
 	.string "Okay.\n"
 	.string "I'm going to SOOTOPOLIS.$"
+
+Route128_Barrera::
+compare VAR_UNUSED_0x40F8, 100
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Route128_Barrera_Move_1
+waitmovement 0x0
+msgbox Route128_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route128_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Route128_Barrera_Move_1:
+walk_in_place_right
+step_end
+
+Route128_Barrera_Move_2:
+walk_slow_left
+step_end
+
+Route128_Barrera_Texto_1:
+	.string "Más al este solo está la LIGA POKÉMON\n"
+	.string "de HOENN. Por ahora no necesito ir allí.$"
 

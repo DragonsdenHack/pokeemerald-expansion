@@ -24,6 +24,13 @@ waitmovement 0x0
 applymovement 1, Magma3_Combate_Magno_Move_4
 waitmovement 0x0
 msgbox Magma3_Combate_Magno_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, Magma3_Combate_Magno_Move_4.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox Magma3_Combate_Magno_Texto_2.1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_5
 waitmovement 0x0
 applymovement 1, Magma3_Combate_Magno_Move_6
@@ -38,6 +45,7 @@ playse SE_M_DETECT
 waitse
 dofieldeffectsparkle 17, 42, 0
 waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 1
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect
@@ -110,8 +118,29 @@ msgbox Magma3_Combate_Magno_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, Magma3_Combate_Magno_Move_12
 waitmovement 0x0
 msgbox Magma3_Combate_Magno_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Magma3_Combate_Magno_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Magma3_Combate_Magno_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_6.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, Magma3_Combate_Magno_Move_4.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox Magma3_Combate_Magno_Texto_6.3 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_MAGNO, Magma3_Combate_Magno_Texto_7
 msgbox Magma3_Combate_Magno_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Magma3_Combate_Magno_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
 fadeoutbgm 0
 playse 586
 msgbox Magma3_Combate_Magno_Texto_9 MSGBOX_AUTOCLOSE
@@ -162,13 +191,41 @@ delay 15
 applymovement 3, Magma3_Combate_Magno_Move_17
 waitmovement 0x0
 msgbox Magma3_Combate_Magno_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Magma3_Combate_Magno_Move_17.1
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Magma3_Combate_Magno_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_19.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Magma3_Combate_Magno_Texto_19.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Magma3_Combate_Magno_Move_18
 waitmovement 0x0
+delay 10
 msgbox Magma3_Combate_Magno_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Magma3_Combate_Magno_Move_14
 waitmovement 0x0
+delay 10
 msgbox Magma3_Combate_Magno_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Magma3_Combate_Magno_Move_14.1
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_21.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Magma3_Combate_Magno_Move_14.2
+waitmovement 0x0
+delay 10
+msgbox Magma3_Combate_Magno_Texto_21.2 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 fadescreen 1
 delay 20
 removeobject 3
@@ -179,77 +236,130 @@ setvar VAR_UNUSED_0x40F7, 99
 release
 end
 
+Magma3_Combate_Magno_Move_14.1:
+delay_8
+face_right
+delay_16
+delay_8
+face_left
+delay_16
+walk_in_place_left
+delay_8
+step_end
+
+Magma3_Combate_Magno_Move_14.2:
+delay_16
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+Magma3_Combate_Magno_Move_17.1:
+face_left
+step_end
+
+Magma3_Combate_Magno_Move_12.1:
+face_up
+step_end
+
+Magma3_Combate_Magno_Move_12.2:
+face_player
+step_end
+
+Magma3_Combate_Magno_Move_4.1:
+walk_in_place_left
+step_end
+
 Magma3_Combate_Magno_Move_15.1:
 emote_question_mark
 step_end
 
 Magma3_Combate_Magno_Texto_1:
-	.string "MAXIE: We have waited for this for\n"
-	.string "too long. But finally, I present myself\l"
-	.string "as a humble servant of your cause.\l"
-	.string "Thanks to the RED ORB, I can control\l"
-	.string "you, but fear not, I will do nothing but\l"
-	.string "fulfill your will to expand the land.$"
+.string "MAGNO: Demasiado tiempo has esperado.\n"
+	.string "Pero al fin, me presento como un humilde\l"
+	.string "servidor de tu causa; gracias a la ESFERA\l"
+	.string "ROJA puedo controlarte, pero no temas; no\l"
+	.string "haré más que cumplir tu voluntad{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_2:
-	.string "So my loyal ADMIN.TABITHA couldn't stop\n"
-	.string "you, you must be an exceptional\l"
-	.string "TRAINER. You've definitely earned the\l"
-	.string "right to witness something grand.\l"
-	.string "Everything is ready. Approach, ROCKET!\l"
-	.string "Now!$"
+.string "Así que mi fiel COMANDANTE TATIANO no\n"
+	.string "ha podido frenarte{PAUSE 15}…{PAUSE 15}\l"
+	.string "Debes ser un ENTRENADOR excepcional, y\l"
+	.string "definitivamente te has ganado el derecho\l"
+	.string "a presenciar algo grande.\l"
+	.string "Todo está dispuesto.$"
+
+Magma3_Combate_Magno_Texto_2.1:
+	.string "¡Aproxímate, ROCKET!\n"
+	.string "¡Ahora!$"
 
 Magma3_Combate_Magno_Texto_3:
-	.string "GROUDON rests here, all we need to\n"
-	.string "summon him is to make the RED ORB shine\l"
-	.string "once more.$"
+.string "GROUDON descansa aquí.\n"
+	.string "Todo cuanto necesitamos para convocarle\l"
+	.string "es hacer brillar la ESFERA ROJA una\l"
+	.string "vez más.$"
 
 Magma3_Combate_Magno_Texto_4:
-	.string "GROUDON! At last! Now you can finally\n"
-	.string "complete the noble task assigned to\l"
-	.string "you! There will be enough land for\l"
-	.string "everyone, thanks to your power, we can\l"
-	.string "perfectly regulate how much is needed\l"
-	.string "to add or remove! Once our theories are\l"
-	.string "proven, the world will have to admit\l"
-	.string "that TEAM MAGMA was right!$"
+.string "¡GROUDON!\n"
+	.string "¡AL FIN!\l"
+	.string "¡Ahora podrás terminar de una vez\l"
+	.string "por todas la noble tarea que se te\l"
+	.string "encomendó!\p"
+	.string "¡Habrá tierra suficiente para todos!\n"
+	.string "¡Gracias a tu poder, podremos regular\l"
+	.string "a la perfección cuanta es necesaria\l"
+	.string "añadir o quitar!\p"
+	.string "¡Una vez queden demostradas nuestras\n"
+	.string "teorías el mundo deberá admitir que\l"
+	.string "el EQUIPO MAGMA tenía razón!$"
 
 Magma3_Combate_Magno_Texto_5:
-	.string "Regarding you, you have seen enough; I\n"
-	.string "hope the spectacle was worth it\l"
-	.string "because it will be the last thing you\l"
-	.string "see before being crushed by millennia\l"
-	.string "of contained power. I warned you when I\l"
-	.string "saw you wandering around MT.EMBER.$"
+.string "En cuanto a ti, ya has visto bastante.\n"
+	.string "Espero que te haya merecido la pena el\l"
+	.string "espectáculo, porque ha sido el último\l"
+	.string "para ti: ya te lo advertí.$"
 
 Magma3_Combate_Magno_Texto_6:
-	.string "I've been traveling the world for over a\n"
-	.string "decade, searching for the best team of\l"
-	.string "FIRE and GROUND-type POKÉMON, many\l"
-	.string "options, discards, changes{PAUSE 20}…{PAUSE 20} POKÉMON\l"
-	.string "that more or less fit the essence of my\l"
-	.string "plan. But finally, after so much, I've\l"
-	.string "achieved it. I've assembled the perfect\l"
-	.string "team to build a better land, and now,\l"
-	.string "with GROUDON, the lord of the land,\l"
-	.string "leading this team, no one can stop me!$"
+.string "Llevo más de una década recorriendo\n"
+	.string "el mundo, en busca de los mejores\l"
+	.string "POKÉMON TIPO FUEGO y TIERRA.$"
+
+Magma3_Combate_Magno_Texto_6.1:
+	.string "Muchas opciones, descartes, cambios…\n"
+	.string "POKÉMON que se adecúan más o menos a\l"
+	.string "la esencia de mi plan.$"
+
+Magma3_Combate_Magno_Texto_6.2:
+	.string "Pero al fin, después de tanto, lo he\n"
+	.string "logrado: he formado el equipo perfecto\l"
+	.string "para construir una tierra mejor.$"
+
+Magma3_Combate_Magno_Texto_6.3:
+	.string "Con GROUDON, señor de la tierra, al\n"
+	.string "frente{PAUSE 5}…{PAUSE 5}\l"
+	.string "¡Nada ni nadie podrá detenerme!$"
 
 Magma3_Combate_Magno_Texto_7:
 	.string "Impossible! What is the source of your\n"
 	.string "power?$"
 
 Magma3_Combate_Magno_Texto_8:
-	.string "B-{PAUSE 20}but{PAUSE 20}…{PAUSE 20} I had everything{PAUSE 20}…{PAUSE 20} G{PAUSE 20}-GROUDON\n"
-	.string "was here, in front of me, and has\l"
-	.string "displayed the immense power that the\l"
-	.string "legend talks about{PAUSE 20}…{PAUSE 20} How could a ROCKET,\l"
-	.string "no matter how top ADMIN is, match, and\l"
-	.string "even surpass, such power using common\l"
-	.string "POKÉMON? It doesn't make sense!$"
+.string "P{PAUSE 25}-{PAUSE 25}pero{PAUSE 15}…{PAUSE 15}\n"
+	.string "Lo tenía todo{PAUSE 15}…{PAUSE 15}\l"
+	.string "G{PAUSE 25}-{PAUSE 25}GROUDON estaba aquí, delante mía,\l"
+	.string "y ha desplegado el inmenso poder del\l"
+	.string "que habla la leyenda{PAUSE 15}…{PAUSE 15}$"
+
+Magma3_Combate_Magno_Texto_8.1:
+	.string "¡¿Cómo has podido contrarestarlo\n"
+	.string "con solo POKÉMON corrientes?!\l"
+	.string "¡No tiene sentido!$"
 
 Magma3_Combate_Magno_Texto_9:
-	.string "????: That's enough, MAXIE, you've gone\n"
-	.string "far enough.$"
+.string "????: Ya es suficiente, MAGNO.\n"
+	.string "Hasta aquí has llegado.$"
 
 Magma3_Combate_Magno_Texto_10:
 	.string "MAXIE: YOU!$"
@@ -270,62 +380,75 @@ Magma3_Combate_Magno_Texto_13:
 	.string "ZEUS:FLOETTE! PSYCHIC!$"
 
 Magma3_Combate_Magno_Texto_14:
-	.string "(ZEUS took all of MAXIE's POKÉMON and\n"
-	.string "the RED SPHERE).$"
+.string "-ZEUS le arrebató a MAGNO todos sus\n"
+	.string "POKÉMON junto con la ESFERA ROJA.-$"
 
 Magma3_Combate_Magno_Texto_15:
-.string "MAXIE: {PAUSE 20}…{PAUSE 20}$"
+.string "MAGNO: {PAUSE 15}…{PAUSE 15}$"
 
 Magma3_Combate_Magno_Texto_16:
-	.string "What am I doing here?$"
+.string "¿Q{PAUSE 25}-{PAUSE 15}qué hago yo aquí?$"
 
 Magma3_Combate_Magno_Texto_17:
-	.string "ZEUS: That's exactly what we're\n"
-	.string "wondering too; this cave holds nothing\l"
-	.string "significant. Your companions have told\l"
-	.string "us about some POKÉMON, named GROUDON,\l"
-	.string "and a BLUE ORB that awakens it, but\l"
-	.string "that's in HOENN…$"
+.string "ZEUS: Eso mismo nos preguntamos\n"
+	.string "nosotros; esta cueva no contiene\l"
+	.string "nada importante; tus compañeros\l"
+	.string "nos han hablado de un tal GROUDON,\l"
+	.string "y de una ESFERA AZUL que lo\l"
+	.string "despierta.\l"
+	.string "Pero eso está en HOENN{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_18:
-	.string "MAXIE: GROUDON, yes! I must find that\n"
-	.string "BLUE SPHERE; there's a lot to do! We're\l"
-	.string "going back to HOENN!$"
+.string "MAGNO: ¡GROUDON! ¡Sí!\n"
+	.string "¡Debo encontrar esa ESFERA AZUL,\l"
+	.string "queda mucho por hacer!\l"
+	.string "¡Volvemos a HOENN!$"
 
 Magma3_Combate_Magno_Texto_19:
-	.string "ZEUS: Don't worry, {PLAYER}, I've only\n"
-	.string "erased that part of the memory related\l"
-	.string "to the RED ORB and the rest of the\l"
-	.string "regions and journeys he has undertaken\l"
-	.string "all these years. Now, he is limited to\l"
-	.string "HOENN, and that's it. He can never\l"
-	.string "assemble a team like the one you just\l"
-	.string "saw. It's for the best for everyone,\l"
-	.string "even for him. Thanks to his new acquired\l"
-	.string "ignorance, he has a clear purpose once\l"
-	.string "again, and this time he won't endanger\l"
-	.string "anyone, even if he were to acquire the\l"
-	.string "BLUE ORB…$"
+.string "ZEUS: No te preocupes, {PLAYER}.\n"
+	.string "Solo le he borrado esa parte de la\l"
+	.string "memoria relacionada con la ESFERA\l"
+	.string "ROJA, el resto de regiones y viajes\l"
+	.string "que ha realizado todos estos años.$"
+
+Magma3_Combate_Magno_Texto_19.1:
+	.string "Ahora, está limitado a HOENN y solo\n"
+	.string "a HOENN{PAUSE 15}…{PAUSE 15} jamás podrá\l"
+	.string "formar un equipo como el que has visto.$"
+
+Magma3_Combate_Magno_Texto_19.2:
+	.string "Es lo mejor para todos, incluso para él.\n"
+	.string "Gracias a su ignorancia adquirida,\l"
+	.string "vuelve a tener un objetivo claro.$"
+
+Magma3_Combate_Magno_Texto_19.3:
+	.string "Aunque llegara a hacerse con la\n"
+	.string "ESFERA AZUL, ya no pondrá a nadie\l"
+	.string "en peligro{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_20:
-	.string "Once again, you've impressed me,\n"
-	.string "{PLAYER}. There's no doubt that you\l"
-	.string "know how to battle and bring out the\l"
-	.string "maximum potential in your POKÉMON. I'm\l"
-	.string "starting to believe that you truly are\l"
-	.string "the real CHAMPION of KANTO.$"
+.string "De nuevo me has impresionado, {PLAYER}.\n"
+	.string "Sabes cómo combatir y sacar el máximo\l"
+	.string "potencial a tus POKÉMON; empiezo a\l"
+	.string "creer que de verdad eres el\l"
+	.string "verdadero CAMPEÓN de KANTO.$"
 
 Magma3_Combate_Magno_Texto_21:
-	.string "ARCHIE is still out there, you said you\n"
-	.string "saw him south of SIX ISLAND. After what\l"
-	.string "you've done here, I hope to see you in\l"
-	.string "action there too. A part of me tells me\l"
-	.string "that deep down you enjoy this, anyone\l"
-	.string "else would have run away at the moment\l"
-	.string "they saw GROUDON, but for you, going\l"
-	.string "through these events is part of the\l"
-	.string "journey, to keep moving forward, am I\l"
-	.string "wrong?$"
+.string "Aún queda AQUILES.\n"
+	.string "Estaba al sur de ISLA EXTA, supongo\l"
+	.string "que, después de lo que has has hecho\l"
+	.string "aquí, querrás ir allí también.$"
+
+Magma3_Combate_Magno_Texto_21.1:
+	.string "Una parte de mí me dice que, en el\n"
+	.string "fondo, disfrutas con esto, ¿no?$"
+
+Magma3_Combate_Magno_Texto_21.2:
+	.string "Cualquiera hubiera salido corriendo,\n"
+	.string "nada más ver a GROUDON, pero para\l"
+	.string "ti, el pasar por estos eventos forma\l"
+	.string "parte del camino, ese que te permite\l"
+	.string "seguir avanzando, ¿me equivoco?$"
 
 Magma3_Combate_Magno_Move_1:
 walk_in_place_right
@@ -401,8 +524,14 @@ walk_right
 step_end
 
 Magma3_Combate_Magno_Move_14:
+delay_8
 walk_right
+delay_16
+face_up
+delay_8
+delay_16
 walk_right
+delay_8
 step_end
 
 Magma3_Combate_Magno_Move_15:

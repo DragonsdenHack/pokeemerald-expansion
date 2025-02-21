@@ -173,12 +173,16 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_1
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_2
 waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_3
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
 delay 15
@@ -191,12 +195,13 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_4 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
@@ -217,15 +222,22 @@ applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_10
 waitmovement 0x0
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_11
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
 waitmovement 0x0
+delay 10
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
 waitmovement 0x0

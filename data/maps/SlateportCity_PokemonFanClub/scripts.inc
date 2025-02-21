@@ -297,8 +297,8 @@ SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
 	.string "Allow me to examine it.$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
-	.string "Hm, hm…\n"
-	.string "I see…$"
+	.string	"Ajá… Muy bien…\n"
+	.string	"Ya veo…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 	.string "Hmmm… It's not bad, but it's not\n"
@@ -316,11 +316,11 @@ SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
 	.string "this in your BAG.$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
-	.string "Your {STR_VAR_1}, it is growing in\n"
-	.string "a most impressive manner!\l"
-	.string "It is one fine specimen!\p"
-	.string "But! If you were to give it this,\n"
-	.string "it would grow even better! Indeed!$"
+	.string	"¡Tu {STR_VAR_1} está creciendo\n"
+	.string	"a un ritmo impresionante!\l"
+	.string	"¡Qué magnífico ejemplar!\p"
+	.string	"Pero, si le das esto, crecerá\n"
+	.string	"aún mejor. ¡Te lo digo yo!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
 	.string "Let a POKÉMON hold that RED SCARF.\p"
@@ -390,11 +390,11 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 	.string "it some PROTEIN.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "SKITTY: Fffnyaaaah…$"
+	.string	"SKITTY: Skitiiiiii…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string "ZIGZAGOON: Kyuuu…$"
+	.string	"ZIGZAGOON: Zigzaaaa…{PAUSE 5}$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
-	.string "AZUMARILL: Marimari?$"
+	.string	"AZUMARILL: ¿Marimari?$"
 

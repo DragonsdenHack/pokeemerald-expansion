@@ -240,7 +240,7 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
 	.string "Hehehe!\p"
 	.string "With this METEORITE, that thing in\n"
-	.string "MT. CHIMNEY will…$"
+	.string "MT. CHIMNEY will…{PAUSE 5}$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 	.string "Heh?\p"
@@ -281,7 +281,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
 	.string "BOSS, we should give chase to\n"
-	.string "TEAM MAGMA…$"
+	.string "TEAM MAGMA…{PAUSE 5}$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
 	.string "ARCHIE: Yes, yes, we must!\n"

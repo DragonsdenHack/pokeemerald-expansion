@@ -75,16 +75,17 @@ VerdanturfTown_Text_ManTryingToDigTunnel:
 	.string "the tunnel by himself!$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
-	.string "There was a man who dug a tunnel for\n"
-	.string "a lady he loved.\p"
-	.string "I don't really get it, but hey!$"
+	.string	"Un hombre excavó un túnel para\n"
+	.string	"la mujer que amaba…\p"
+	.string	"Es decir, para poder ir a verla más\n"
+	.string	"fácilmente. ¡Eso es amor, señores!$"
 
 VerdanturfTown_Text_AirCleanHere:
-	.string "The way the winds blow, volcanic ash\n"
-	.string "is never blown in this direction.\p"
-	.string "The air is clean and delicious here.\n"
-	.string "Living here should do wonders for even\l"
-	.string "frail and sickly people.$"
+	.string	"Por cómo sopla el viento, aquí nunca\n"
+	.string	"llega la ceniza volcánica.\p"
+	.string	"Al contrario, el aire de aquí es puro\n"
+	.string	"y agradable. Es muy bueno para las\l"
+	.string	"personas de salud delicada.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
 	.string "My POKÉMON and I, we've been riding\n"
@@ -108,20 +109,574 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "new DEVON products in RUSTBORO now.$"
 
 VerdanturfTown_Text_TownSign:
-	.string "VERDANTURF TOWN\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string	"PUEBLO VERDEGAL\p"
+	.string	"“Las ventosas tierras altas que\n"
+	.string	"siempre huelen a hierba fresca.”$"
 
 VerdanturfTown_Text_WandasHouse:
-	.string "WANDA'S HOUSE$"
+	.string	"CASA de CLARA$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string	"TIENDA de BATALLA de PUEBLO VERDEGAL\n"
+	.string	"“¡Disfruta de los mejores combates!”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string	"TÚNEL FERVERGAL\n"
+	.string	"“Conecta CIUDAD FÉRRICA y VERDEGAL.\p"
+	.string	"El proyecto de construcción del\n"
+	.string	"túnel ha sido cancelado.”$"
+
+VerdanturfTown_Policia_Bloqueo::
+lock
+faceplayer
+msgbox VerdanturfTown_Policia_Bloqueo_Texto_1 MSGBOX_NPC
+release
+end
+
+VerdanturfTown_Policia_Bloqueo_Texto_1:
+	.string "Se está terminado la construcción del\n"
+	.string "TÚNEL FERDEGAL. Una vez esté, podrás\l"
+	.string "llegar a CIUDAD FÉRRICA rápidamente\l"
+	.string "desde aquí, ¿no es genial?$"
+
+
+VerdanturfTown_Escena_Tristana::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, VerdanturfTown_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+msgbox VerdanturfTown_Escena_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_2
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_3
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox VerdanturfTown_Escena_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_4
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_5
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, VerdanturfTown_Move_6
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+playse SE_SLIDING_DOOR
+opendoor 17, 6
+waitdooranim
+addobject 8
+applymovement 8, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 17, 6
+waitdooranim
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_5
+waitmovement 0x0
+waitse
+applymovement 6, VerdanturfTown_Move_3
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_7
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox VerdanturfTown_Escena_Tristana_Texto_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_11
+applymovement 7, VerdanturfTown_Move_11
+waitmovement 0x0
+applymovement 7, VerdanturfTown_Move_12
+applymovement 8, VerdanturfTown_Move_10
+waitmovement 0x0
+applymovement 6, VerdanturfTown_Move_13
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Escena_Tristana_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 7, VerdanturfTown_Move_14
+waitmovement 0x0
+delay 10
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_16
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_17
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Escena_Tristana_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_6
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Escena_Tristana_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_18
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_18
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_19
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Escena_Tristana_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_15
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VerdanturfTown_Escena_Tristana_Texto_26 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, VerdanturfTown_Move_21
+applymovement 7, VerdanturfTown_Move_20
+waitmovement 0x0
+playse SE_DOOR
+opendoor 16, 13
+waitdooranim
+applymovement 7, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 7
+closedoor 16, 13
+waitdooranim
+msgbox VerdanturfTown_Escena_Tristana_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 6, VerdanturfTown_Move_23
+waitmovement 0x0
+playse SE_DOOR
+opendoor 16, 13
+waitdooranim
+applymovement 6, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 6
+closedoor 16, 13
+waitdooranim
+applymovement 8, VerdanturfTown_Move_24
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_25
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_29 MSGBOX_AUTOCLOSE
+msgbox VerdanturfTown_Escena_Tristana_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_17
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_26
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_27
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_28
+waitmovement 0x0
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox VerdanturfTown_Escena_Tristana_Texto_34 MSGBOX_DEFAULT
+waitse
+msgbox VerdanturfTown_Escena_Tristana_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_Move_25
+waitmovement 0x0
+delay 10
+msgbox VerdanturfTown_Escena_Tristana_Texto_36 MSGBOX_AUTOCLOSE
+applymovement 8, VerdanturfTown_Move_29
+waitmovement 0x0
+msgbox VerdanturfTown_Escena_Tristana_Texto_37 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 8
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HOENN_1
+setflag FLAG_HOENN_5
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VerdanturfTown_Move_8.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F7, 225
+release
+end
+
+VerdanturfTown_Move_29:
+walk_slow_left
+step_end
+
+VerdanturfTown_Move_28:
+walk_in_place_right
+step_end
+
+VerdanturfTown_Move_27:
+walk_right
+step_end
+
+VerdanturfTown_Move_26:
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+VerdanturfTown_Move_25:
+walk_in_place_left
+step_end
+
+VerdanturfTown_Move_24:
+delay_16
+walk_up
+walk_right
+delay_8
+step_end
+
+VerdanturfTown_Move_23:
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_22:
+walk_up
+step_end
+
+VerdanturfTown_Move_21:
+emote_exclamation_mark
+delay_16
+face_right
+delay_16
+face_down
+delay_16
+face_left
+step_end
+
+VerdanturfTown_Move_20:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_19:
+delay_8
+face_left
+delay_8
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+
+VerdanturfTown_Move_18:
+delay_8
+delay_8
+face_down
+delay_8
+delay_8
+face_right
+step_end
+
+
+VerdanturfTown_Move_17:
+face_up
+step_end
+
+VerdanturfTown_Move_16:
+walk_in_place_down
+step_end
+
+VerdanturfTown_Move_15:
+face_right
+step_end
+
+VerdanturfTown_Move_14:
+emote_exclamation_mark
+step_end
+
+VerdanturfTown_Move_13:
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_12:
+delay_16
+walk_right
+walk_in_place_left
+step_end
+
+VerdanturfTown_Move_11:
+emote_exclamation_mark
+delay_8
+delay_8
+face_up
+step_end
+
+VerdanturfTown_Move_10:
+walk_down
+walk_right
+walk_down
+walk_right
+walk_down
+delay_8
+step_end
+
+VerdanturfTown_Move_9:
+walk_down
+step_end
+
+VerdanturfTown_Move_8.1:
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+step_end
+
+VerdanturfTown_Move_8:
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+step_end
+
+VerdanturfTown_Move_7:
+delay_8
+delay_8
+face_up
+delay_8
+delay_8
+face_left
+step_end
+
+VerdanturfTown_Move_6:
+walk_in_place_down
+step_end
+
+VerdanturfTown_Move_5:
+emote_exclamation_mark
+step_end
+
+VerdanturfTown_Move_4:
+face_down
+step_end
+
+VerdanturfTown_Move_3:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+step_end
+
+VerdanturfTown_Move_2:
+walk_in_place_up
+step_end
+
+VerdanturfTown_Move_1:
+walk_in_place_left
+step_end
+
+VerdanturfTown_Escena_Tristana_Texto_1:
+	.string "Vamos a mandarte de vuelta a PETALIA,\n"
+	.string "BLASCO.$"
+
+VerdanturfTown_Escena_Tristana_Texto_2:
+	.string "La brisa de PUEBLO VERDEGAL es idónea\n"
+	.string "para tu salud, pero es hora de que\l"
+	.string "vuelvas con tus padres, en CIUDAD\l"
+	.string "PETALIA.$"
+
+VerdanturfTown_Escena_Tristana_Texto_3:
+	.string "BLASCO: Vale{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_4:
+	.string "Has estado algo raro estos días, ¿hay\n"
+	.string "algo que te preocupa?$"
+
+VerdanturfTown_Escena_Tristana_Texto_5:
+	.string "BLASCO: Bueno{PAUSE 15}…{PAUSE 15} Están restaurando el\n"
+	.string "GIMNASIO de CIUDAD PETALIA, pensaba\l"
+	.string "que podría ir a ver al nuevo LÍDER para…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_6:
+	.string "¿Hacerte ENTRENADOR? ¿Sabes lo\n"
+	.string "arriesgado que es eso?$"
+
+VerdanturfTown_Escena_Tristana_Texto_7:
+	.string "BLASCO: Pero{PAUSE 15}…{PAUSE 15} ¡su hijo tiene mi edad y\n"
+	.string "va a empezar su aventura!$"
+
+VerdanturfTown_Escena_Tristana_Texto_8:
+	.string "Él lo lleva en la sangre, el mundo del\n"
+	.string "combate POKÉMON no es alegría y color,\l"
+	.string "BLASCO.$"
+
+VerdanturfTown_Escena_Tristana_Texto_9:
+	.string "Es un mundo injusto donde el talento y\n"
+	.string "las experiencias vitales juegan un\l"
+	.string "papel fundamental. Los que llegan\l"
+	.string "arriba han nacido para ello.$"
+
+VerdanturfTown_Escena_Tristana_Texto_10:
+	.string "TRISTANA: No tiene que ser el mejor\n"
+	.string "ENTRENADOR para hacer de su aventura\l"
+	.string "algo grande.$"
+
+VerdanturfTown_Escena_Tristana_Texto_11:
+	.string "Oye chica, ¿quién eres tú? No te metas\n"
+	.string "en la educación de nuestro sobrin{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_12:
+	.string "TRISTANA: Tenéis razón.$"
+
+VerdanturfTown_Escena_Tristana_Texto_13:
+	.string "El combate POKÉMON es injusto por\n"
+	.string "naturaleza. Tanto los POKÉMON como los\l"
+	.string "entrenadores tienen unas cualidades\l"
+	.string "innatas.$"
+
+VerdanturfTown_Escena_Tristana_Texto_14:
+	.string "Muchas veces el que gana solo lo hace\n"
+	.string "porque ha sido su genética la que ha\l"
+	.string "marcado la diferencia.$"
+
+VerdanturfTown_Escena_Tristana_Texto_15:
+	.string "Encontrarás a muchos cuervos\n"
+	.string "disfrazados de águilas, que achacarán\l"
+	.string "únicamente a su trabajo y propios\l"
+	.string "méritos, un resultado para el cual es\l"
+	.string "necesario partir con sus\l"
+	.string "extraordinarias condiciones de base.$"
+
+VerdanturfTown_Escena_Tristana_Texto_16:
+	.string "BLASCO: Oh{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_17:
+	.string "Sin esas condiciones, todos sus logros\n"
+	.string "desaparecerían automáticamente, sin\l"
+	.string "importar lo que hagan.$"
+
+VerdanturfTown_Escena_Tristana_Texto_18:
+	.string "Miles de niños incautos, inconscientes\n"
+	.string "en cuanto al conocimiento de sus\l"
+	.string "propios límites, se generarán unas\l"
+	.string "expectativas que antes o después\l"
+	.string "quedarán destrozadas por la cruda\l"
+	.string "realidad de la naturaleza.$"
+
+VerdanturfTown_Escena_Tristana_Texto_19:
+	.string "BLASCO: Entonces{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_20:
+	.string "TRISTANA: Pero{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_21:
+	.string "…el combate POKÉMON puede ser lo más\n"
+	.string "injusto, y lo más justo a la vez{PAUSE 15}…{PAUSE 15} si solo\l"
+	.string "te comparas contigo mismo y te centras\l"
+	.string "en tu propio progreso.$"
+
+VerdanturfTown_Escena_Tristana_Texto_22:
+	.string "Créeme chico, aunque no llegues a ser\n"
+	.string "tan bueno como ese otro chaval, jamás\l"
+	.string "creerías la versión en la que puedes\l"
+	.string "llegar a convertirte, ni todo lo que\l"
+	.string "llegarás a ver por el camino.$"
+
+VerdanturfTown_Escena_Tristana_Texto_23:
+	.string "La otra opción es quedarte llorando en\n"
+	.string "tu casa de PETALIA. Revolcarte en tu\l"
+	.string "propia autocompasión para marchitarte\l"
+	.string "sin haber conocido tu plenitud, ¿harás\l"
+	.string "eso?$"
+
+VerdanturfTown_Escena_Tristana_Texto_24:
+	.string "BLASCO: Yo{PAUSE 5}…{PAUSE 5}$"
+
+VerdanturfTown_Escena_Tristana_Texto_25:
+	.string "TRISTANA: Esa elección sí que está en\n"
+	.string "tu mano, y depende exclusivamente de\l"
+	.string "ti. Recuerda: El verdadero ENTRENADOR\l"
+	.string "es el que no se rinde ante lo que le\l"
+	.string "apasiona.$"
+
+VerdanturfTown_Escena_Tristana_Texto_26:
+	.string "BLASCO: L{PAUSE 15}-{PAUSE 15}Lo{PAUSE 25}…{PAUSE 25} intentaré.$"
+
+VerdanturfTown_Escena_Tristana_Texto_27:
+	.string "¡BLASCO, espera!$"
+
+VerdanturfTown_Escena_Tristana_Texto_28:
+	.string "TRISTANA: {PLAYER}. Entonces sí que\n"
+	.string "íbamos a vernos de nuevo. Tu empeño por\l"
+	.string "viajar más y más lo ha hecho posible.$"
+
+VerdanturfTown_Escena_Tristana_Texto_29:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+VerdanturfTown_Escena_Tristana_Texto_30:
+	.string "¿No estás de acuerdo con esa\n"
+	.string "distinción entre cuervos y águilas? No\l"
+	.string "es mi problema si te das por aludido\l"
+	.string "{PLAYER}, por algo será.$"
+
+VerdanturfTown_Escena_Tristana_Texto_31:
+	.string "No hay nada de malo en admitir que eres\n"
+	.string "un privilegiado para el combate\l"
+	.string "POKÉMON, y que por eso y por todo tu\l"
+	.string "recorrido estás donde estás. Lo\l"
+	.string "contrario sería ser deshonesto y\l"
+	.string "tratar al resto como imbéciles.$"
+
+VerdanturfTown_Escena_Tristana_Texto_32:
+	.string "Te veo algo perdido por HOENN, ¿no es\n"
+	.string "así?$"
+
+VerdanturfTown_Escena_Tristana_Texto_33:
+	.string "Si quieres un poco de acción, tengo algo\n"
+	.string "que puede interesarte.$"
+
+VerdanturfTown_Escena_Tristana_Texto_34:
+	.string "¡OBTUVISTE UNA LLAVE SÓTANO DE\n"
+	.string "TRISTANA!$"
+
+VerdanturfTown_Escena_Tristana_Texto_35:
+	.string "Nunca me gustaron los cierres de\n"
+	.string "lugares sin dar explicaciones. Con esta\l"
+	.string "LLAVE podrás colarte en la CENTRAL al\l"
+	.string "sur de MALVALONA y molestar a esos\l"
+	.string "burócratas.$"
+
+VerdanturfTown_Escena_Tristana_Texto_36:
+	.string "¿Por qué te la doy?$"
+
+VerdanturfTown_Escena_Tristana_Texto_37:
+	.string "Si no te hubiera dado este objeto,\n"
+	.string "ahora no sabrías dónde ir, ¿verdad?\l"
+	.string "¡Eso demuestra que todo lo que le dije a\l"
+	.string "ese chaval era verdad!$"
+
 

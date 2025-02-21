@@ -160,36 +160,111 @@ Violet_Gym_Conversacion_Pegaso::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Violet_Gym_Conversacion_Pegaso_Move_1
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Violet_Gym_Conversacion_Pegaso_Move_2
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Violet_Gym_Conversacion_Pegaso_Move_3
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_4
 waitmovement 0x0
+waitse
 delay 20
 applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_1
 waitmovement 0x0
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Violet_Gym_Conversacion_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Violet_Gym_Conversacion_Pegaso_Move_1.1
+applymovement 5, Violet_Gym_Conversacion_Pegaso_Move_1.2
+waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
-fadescreen 1
 delay 20
 removeobject 5
-fadescreen 0
 delay 15
 clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
 clearflag FLAG_HIDE_ROUTE_128_STEVEN
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+setflag FLAG_HOENN_90
+setflag FLAG_HOENN_91
+setflag FLAG_HOENN_92
+setflag FLAG_HOENN_93
+setflag FLAG_HOENN_94
+setflag FLAG_HOENN_95
+setflag FLAG_HOENN_96
+setflag FLAG_HOENN_97
+setflag FLAG_HOENN_98
+setflag FLAG_HOENN_99
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
 setvar VAR_UNUSED_0x40F7, 124
 release
 end
+
+Violet_Gym_Conversacion_Pegaso_Move_1.2:
+delay_16
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+step_end
+
+Violet_Gym_Conversacion_Pegaso_Move_1.1:
+walk_up
+walk_right
+face_down
+delay_16
+delay_8
+face_down
+step_end
 
 Violet_Gym_Conversacion_Pegaso_Texto_1:
 	.string "FALKNER: Come on, Dad! I want to know\n"

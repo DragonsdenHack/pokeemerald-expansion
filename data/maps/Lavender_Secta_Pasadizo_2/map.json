@@ -1,0 +1,237 @@
+{
+  "id": "MAP_LAVENDER_SECTA_PASADIZO_2",
+  "name": "Lavender_Secta_Pasadizo_2",
+  "layout": "LAYOUT_LAVENDER_SECTA_PASADIZO_2",
+  "music": "638",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
+      "x": 68,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Lavender_Secta_Pasadizo_2_Esencia",
+      "flag": "FLAG_HIDE_ROUTE_119_SCOTT"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 13,
+      "y": 66,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Lavender_Secta_EventScript_MT145",
+      "flag": "FLAG_HOENN_162"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 79,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CultoLavanda_EventScript_TablaFantasma",
+      "flag": "FLAG_HOENN_189"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 16,
+      "y": 51,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Culto_Pasadizo_EventScript_RealPlata",
+      "flag": "FLAG_HOENN_252"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 56,
+      "y": 32,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Culto_Pasadizo_EventScript_Anfora",
+      "flag": "FLAG_HOENN_251"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 14,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Culto_Pasadizo_EventScript_CuerdaHuida",
+      "flag": "FLAG_HOENN_253"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_STAKATAKA",
+      "x": 26,
+      "y": 34,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CuevaTesoro4_Combate_Stakataka",
+      "flag": "FLAG_HOENN_111"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_3",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 28,
+      "y": 62,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 13
+    },
+    {
+      "x": 46,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 4
+    },
+    {
+      "x": 45,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 7
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 35,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 14
+    },
+    {
+      "x": 46,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 10
+    },
+    {
+      "x": 45,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 3
+    },
+    {
+      "x": 36,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 12
+    },
+    {
+      "x": 35,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 11
+    },
+    {
+      "x": 46,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 6
+    },
+    {
+      "x": 45,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 9
+    },
+    {
+      "x": 36,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 8
+    },
+    {
+      "x": 35,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 39,
+      "y": 70,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_SECTA_PASADIZO_2",
+      "dest_warp_id": 5
+    },
+    {
+      "x": 68,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_CULTO_S1",
+      "dest_warp_id": 0
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 68,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "26",
+      "script": "Lavender_Secta_Pasadizo_2_Esencia"
+    }
+  ],
+  "bg_events": [
+
+  ]
+}

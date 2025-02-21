@@ -226,7 +226,7 @@ GimnasioAnciana_Documento_Text_103:
 	.string "least 10 years old.$"
 
 GimnasioAnciana_Documento_Text_102:
-.string "… … … … … … … …$"
+.string "… … … … … … … {PAUSE 5}…{PAUSE 5}$"
 
 GimnasioAnciana_Documento_101_No::
 release

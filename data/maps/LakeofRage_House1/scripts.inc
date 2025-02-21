@@ -42,29 +42,43 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, LakeofRageHouse1_Evento_Devon_Move_2
 waitmovement 0x0
 special RemoveCameraObject
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_5
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LakeofRageHouse1_Evento_Devon_Move_6
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_7
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LakeofRageHouse1_Evento_Devon_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_3
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_4
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_8
 waitmovement 0x0
 delay 20
@@ -76,12 +90,16 @@ applymovement 3, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 4, LakeofRageHouse1_Evento_Devon_Move_3
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_10
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_5
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_ICE_CRACK
@@ -100,12 +118,17 @@ applymovement 4, LakeofRageHouse1_Evento_Devon_Move_1
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 applymovement 5, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
 msgbox LakeofRageHouse1_Evento_Devon_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_10
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 2, LakeofRageHouse1_Evento_Devon_Move_11
 waitmovement 0x0
@@ -113,8 +136,11 @@ msgbox LakeofRageHouse1_Evento_Devon_Texto_15 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_1
 waitmovement 0x0
+waitse
+playse SE_BREAKABLE_DOOR
 applymovement 1, LakeofRageHouse1_Evento_Devon_Move_9
 waitmovement 0x0
+delay 10
 msgbox LakeofRageHouse1_Evento_Devon_Texto_16 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LakeofRageHouse1_Evento_Devon_Texto_17 MSGBOX_AUTOCLOSE
@@ -250,7 +276,7 @@ LakeofRageHouse1_Evento_Devon_Texto_8:
 .string "FISHERMAN: I already told you, I know nothi…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8.1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_9:
 .string "???: What is this?$"

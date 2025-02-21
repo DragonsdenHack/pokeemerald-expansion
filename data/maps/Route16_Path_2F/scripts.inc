@@ -73,7 +73,7 @@ playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_AMULET_COIN
 waitfanfare
 msgbox Route16_Path_2F_Combate_Ayudante_Oak_Texto_7 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
 playse SE_PIN
 applymovement 3, Route16_Path_2F_Combate_Ayudante_Oak_Move_1
 waitmovement 0x0

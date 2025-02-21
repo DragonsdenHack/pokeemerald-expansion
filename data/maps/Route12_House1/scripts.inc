@@ -26,12 +26,33 @@ msgbox Route12_House_1_Secundaria_Squirtle_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_2
 waitmovement 0x0
 msgbox Route12_House_1_Secundaria_Squirtle_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_11.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3
 waitmovement 0x0
 msgbox Route12_House_1_Secundaria_Squirtle_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_12.2 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x4083, 1
 release
 end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_2.1:
+delay_8
+face_right
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 Route12_House_1_Secundaria_Squirtle_2::
 lock
@@ -51,11 +72,17 @@ applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_1
 waitmovement 0x0
 msgbox Route12_House_1_Secundaria_Squirtle_Texto_5 MSGBOX_AUTOCLOSE
 delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route12_House_1_Secundaria_Squirtle_Texto_6 MSGBOX_DEFAULT
 givemon SPECIES_SQUIRTLE, 5, ITEM_NONE
 waitfanfare
 msgbox Route12_House_1_Secundaria_Squirtle_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Route12_House_1_Secundaria_Squirtle_Texto_7.2 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x4083, 3
 release
 end
@@ -93,33 +120,43 @@ Route12_House_1_Secundaria_Squirtle_Texto_4:
 	.string "could exist in the high seas?$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_5:
-	.string "For real?!! I can't believe you could\n"
-	.string "actually have defeated him, his\l"
-	.string "GYARADOS are redoutable! ROCKET, I\l"
-	.string "can't thank you enough. After that\l"
-	.string "tough blow, I can always use that\l"
-	.string "defeat as an indelible smudge on his\l"
-	.string "career! Here you have, ROCKET! Take well\l"
-	.string "care of this POKÉMON, it is unique!$"
+.string "¿¡¡En serio!!?\n"
+	.string "¡No puedo creer que pudieras\l"
+	.string "derrotarlo, sus GYARADOS son\l"
+	.string "terribles!\l"
+	.string "¡No tengo palabras de\l"
+	.string "agradecimiento, ROCKET.$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_5.1:
+	.string "A partir de ahora, siempre podré\n"
+	.string "alegar esa derrota como una mancha\l"
+	.string "imborrable en su carrera!\l"
+	.string "¡Aquí tienes, ROCKET!\l"
+	.string "¡Cuida bien de este POKÉMON, es único!$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_6:
-	.string "YOU OBTAINED A LV.5 SQUIRTLE!!$"
+.string "¡¡OBTUVISTE UN SQUIRTLE AL NV.5!!$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_7:
-	.string "One of the last SQUIRTLE that I\n"
-	.string "inherited from my father! It is a\l"
-	.string "POKÉMON in serious danger of\l"
-	.string "extinction here in KANTO's today, it's\l"
-	.string "impossible to find it in the wild, and\l"
-	.string "only a few specimens remain in the\l"
-	.string "hands of those who have lived in KANTO\l"
-	.string "before. Its final evolved form is the\l"
-	.string "most powerful WATER type you can find\l"
-	.string "in this region, a POKÉMON that will\l"
-	.string "amaze and intimidate everyone at first\l"
-	.string "sight due to its strength and rarity, I\l"
-	.string "hope you are conscious of the value of\l"
-	.string "the POKÉMON you have just received.$"
+.string "¡Uno de los últimos SQUIRTLE que\n"
+	.string "me quedan heredados de nuestro\l"
+	.string "padre!$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_7.1:
+	.string "Es un POKÉMON en grave peligro de\n"
+	.string "extinción, a día de hoy es imposible\l"
+	.string "encontrarlo en estado salvaje, y solo\l"
+	.string "quedan unos pocos ejemplares en manos de\l"
+	.string "aquellos que han vivido desde siempre\l"
+	.string "aquí, en KANTO.$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_7.2:
+	.string "Su forma evolucionada final es el\n"
+	.string "TIPO AGUA más potente que podrás\l"
+	.string "encontrar en esta región, un POKÉMON\l"
+	.string "ante el que todos se sorprenderán y\l"
+	.string "se sentirán intimidados nada más\l"
+	.string "verlo, debido a su fuerza y rareza.$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_8:
 	.string "FUCHSIA CITY is at the southeast,\n"
@@ -137,55 +174,67 @@ Route12_House_1_Secundaria_Squirtle_Texto_9:
 
 
 Route12_House_1_Secundaria_Squirtle_Texto_10:
-	.string "That is the attitude! Okay…{PAUSE 45} Listen,\n"
-	.string "ROCKET…{PAUSE 35} I have 2 brothers, the three of\l"
-	.string "us inherited from our father the\l"
-	.string "tradition of being exceptional\l"
-	.string "fishermen. My younger brother lives in\l"
-	.string "VERMILION and has decided to focus on\l"
-	.string "an OLD ROD that only allows him to fish\l"
-	.string "MAGIKARPS, which is a respectable and\l"
-	.string "necessary thing, as thanks to him, many\l"
-	.string "trainers have the opportunity to have\l"
-	.string "the most fearsome POKÉMON in these\l"
-	.string "waters.$"
+.string "¡Esa es la actitud!\n"
+	.string "Bien{PAUSE 25}…{PAUSE 25}\l"
+	.string "Escucha, ROCKET{PAUSE 25}…{PAUSE 25}\l"
+	.string "Yo tengo 2 hermanos, los 3 heredamos de\l"
+	.string "nuestro padre la tradición de ser unos\l"
+	.string "excepcionales pescadores, mi hermano\l"
+	.string "pequeño reside en CARMÍN, y ha decidido\l"
+	.string "centrarse en una CAÑA VIEJA que solo le\l"
+	.string "permite pescar MAGIKARP, algo respetable\l"
+	.string "y necesario, ya que gracias a él, muchos\l"
+	.string "entrenadores tienen la oportunidad de\l"
+	.string "contar con un GYARADOS.$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_11:
-	.string "My older brother and I, however, focus\n"
-	.string "more on fishing for powerful POKÉMON,\l"
-	.string "we compete to see who catches the best\l"
-	.string "pieces, and therein lies the problem…{PAUSE 15} …{PAUSE 15}\l"
-	.string "…{PAUSE 15} My older brother's SUPER ROD turned\l"
-	.string "out to be better than my GOOD ROD, and\l"
-	.string "when you add that many consider him the\l"
-	.string "top FISHERMAN in the region, the one\l"
-	.string "with the best POKÉMON, it turns out he\l"
-	.string "has surpassed me in every aspect. So\l"
-	.string "now, he emanates an aura of\l"
-	.string "invincibility and success that\l"
-	.string "completely outshines me, even though I\l"
-	.string "know I am at his level, no one will pay\l"
-	.string "attention to me until they see that my\l"
-	.string "brother is also a human and can be\l"
-	.string "defeated.$"
+.string "Mi hermano mayor y yo, sin embargo,\n"
+	.string "nos centramos más en la pesca de\l"
+	.string "POKÉMON poderosos, competimos por\l"
+	.string "ver quién atrapa las mejores piezas,\l"
+	.string "y ahí está el problema{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_11.1:
+	.string "La SUPERCAÑA de mi hermano ha\n"
+	.string "resultado ser mejor que mi CAÑA\l"
+	.string "BUENA, si a ello le sumas que es\l"
+	.string "considerado por muchos como el\l"
+	.string "mejor PESCADOR de la región, el\l"
+	.string "que mejores piezas tiene{PAUSE 15}…{PAUSE 15} resulta\l"
+	.string "que me ha superado en todas las\l"
+	.string "facetas.$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_11.2:
+	.string "Actualmente, cuenta con un aura de\n"
+	.string "invencibilidad y triunfo que\l"
+	.string "me opaca completamente.\l"
+	.string "A pesar de que sé que estoy a su altura,\l"
+	.string "nadie se fijará en mi hasta que no vean\l"
+	.string "que mi hermano también es humano y\l"
+	.string "puede tener derrotas{PAUSE 15}…{PAUSE 5}$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_12:
-	.string "Here is where you will act, ROCKET, if\n"
-	.string "you go to his FUCHSIA CITY house and\l"
-	.string "you defeat him, it would be a severe\l"
-	.string "blow to his reputation, not just for\l"
-	.string "being defeated, but for being defeated\l"
-	.string "by a ROCKET who, pardon my directness,\l"
-	.string "is considered among the weakest\l"
-	.string "trainers along with the BUG CATCHERS.\l"
-	.string "If that were to happen, my GOOD ROD and\l"
-	.string "I would have a second chance to prove\l"
-	.string "our worth. So, that's your mission,\l"
-	.string "ROCKET: go to FUCHSIA and defeat my\l"
-	.string "brother, if you manage to do so, come\l"
-	.string "back here to confirm it and receive\l"
-	.string "something that any fisherman in this\l"
-	.string "region would give their all.$"
+.string "Es aquí donde entras tú, ROCKET.\n"
+	.string "Si fueras a su casa de CIUDAD FUCSIA,\l"
+	.string "y le derrotaras, sería un muy duro\l"
+	.string "golpe para su reputación, no solo\l"
+	.string "por ser derrotado, sino por ser\l"
+	.string "derrotado por un ROCKET que, perdona\l"
+	.string "por ser tan directo, sois considerados\l"
+	.string "los entrenadores más débiles junto con\l"
+	.string "los CAZABICHOS.$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_12.1:
+	.string "Si eso ocurriera, mi CAÑA BUENA y yo\n"
+	.string "tendríamos una segunda oportunidad\l"
+	.string "para demostrar que también valemos.$"
+
+Route12_House_1_Secundaria_Squirtle_Texto_12.2:
+	.string "Si logras cumplir la misión, vuelve\n"
+	.string "aquí recibirás algo por lo que cualquier\l"
+	.string "PESCADOR en KANTO daría su brazo derecho.$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_13:
 	.string "Really? No fisherman besides my old\n"

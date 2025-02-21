@@ -230,7 +230,7 @@ MahoganyGym_Gym_Dude_Texto_2:
 
 MahoganyGym_Estatua::
 lock
-compare VAR_UNUSED_0x40F7, 130
+compare VAR_UNUSED_0x40F7, 164
 goto_if_gt MahoganyGym_Estatua_2
 msgbox MahoganyGym_Estatua_Texto_1 MSGBOX_AUTOCLOSE
 release

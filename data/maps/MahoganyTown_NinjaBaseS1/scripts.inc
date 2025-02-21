@@ -172,8 +172,12 @@ NinjaBaseS1_EventScript_Calvo::
 NinjaBaseS1_Primera_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -193,8 +197,12 @@ goto NinjaBaseS1_Primera_Trampa
 NinjaBaseS1_Primera_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -259,8 +267,11 @@ NinjaBaseS1_Primera_Trampa_Texto_6:
 	.string "have what you deserve.$"
 
 NinjaBaseS1_Primera_Trampa_Move_1:
-emote_exclamation_mark
 walk_in_place_up
+step_end
+
+NinjaBaseS1_Primera_Trampa_Move_1.1:
+emote_exclamation_mark
 step_end
 
 NinjaBaseS1_Primera_Trampa_Move_2:
@@ -292,8 +303,12 @@ step_end
 NinjaBaseS1_Segunda_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 6, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -313,8 +328,12 @@ goto NinjaBaseS1_Segunda_Trampa
 NinjaBaseS1_Segunda_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 6, 2, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -384,8 +403,12 @@ NinjaBaseS1_Segunda_Trampa_Texto_6:
 NinjaBaseS1_Tercera_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -405,8 +428,12 @@ goto NinjaBaseS1_Primera_Trampa
 NinjaBaseS1_Tercera_Trampa_Arriba::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
-playse SE_NOTE_C
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+playse SE_NOTE_C
+dofieldeffectsparkle 27, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -474,8 +501,12 @@ NinjaBaseS1_Tercera_Trampa_Texto_6:
 NinjaBaseS1_Cuarta_Trampa::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 9, 20, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH
@@ -522,8 +553,12 @@ step_end
 NinjaBaseS1_Quinta_Trampa::
 compare VAR_UNUSED_0x40F7, 161
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 25, 20, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH

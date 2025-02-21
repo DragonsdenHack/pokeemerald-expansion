@@ -49,7 +49,7 @@ AbandonedShip_Corridors_B1F_EventScript_DoorIsUnlocked::
 	end
 
 AbandonedShip_Corridors_B1F_EventScript_Duncan::
-	trainerbattle_single TRAINER_BRUNO_1, AbandonedShip_Corridors_B1F_Text_DuncanIntro, AbandonedShip_Corridors_B1F_Text_DuncanDefeat
+	trainerbattle_single TRAINER_TRAINER_600, AbandonedShip_Corridors_B1F_Text_DuncanIntro, AbandonedShip_Corridors_B1F_Text_DuncanDefeat
 	msgbox AbandonedShip_Corridors_B1F_Text_DuncanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -59,7 +59,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanIntro:
 	.string "How about a quick battle?$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
-	.string "Whoops, I'm sunk!$"
+	.string	"Huy, ¡tocado y hundido!$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 	.string "The ship's bottom has sunk into the\n"
@@ -68,19 +68,18 @@ AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 	.string "we might make some progress…$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
-	.string "Yay!\n"
-	.string "It's a ship!$"
+	.string	"¡Barco a la vista!$"
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“STORAGE” is painted on the door.$"
+	.string	"La puerta está cerrada.\p"
+	.string	"En la puerta pone “ALMACÉN”.$"
 
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
-	.string "{PLAYER} inserted and turned the\n"
-	.string "STORAGE KEY.\p"
-	.string "The inserted KEY stuck fast,\n"
-	.string "but the door opened.$"
+	.string	"{PLAYER} ha metido la LLAVE ALMACÉN\n"
+	.string	"y la ha hecho girar.\p"
+	.string	"La LLAVE se ha quedado atascada,\n"
+	.string	"pero la puerta se ha abierto.$"
 
 AbandonedShip_Text_TheDoorIsOpen:
-	.string "The door is open.$"
+	.string	"La puerta está abierta.$"
 

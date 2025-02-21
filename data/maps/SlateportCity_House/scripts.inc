@@ -17,7 +17,7 @@ SlateportCity_House_Text_NatureToDoWithStatGains:
 	.string "do with the stat gains of POKÉMON.$"
 
 SlateportCity_House_Text_MustBeGoingToBattleTent:
-	.string "You're a TRAINER, aren't you?\p"
-	.string "Since you came to SLATEPORT CITY,\n"
-	.string "you must be going to the BATTLE TENT.$"
+	.string "Tú entrenas POKéMON, ¿a que sí?\p"
+	.string "Ya que estás en CIUDAD PORTUAL, no\n"
+	.string "te puedes perder el MUSEO PORTUAL.$"
 

@@ -168,5 +168,16 @@ release
 end
 
 Route22_Entrada_Liga_Texto_1::
-	.string "(This place is full of police,\n"
-	.string "better not enter here).$"
+	.string "-Este es el lugar con más policía de la\n"
+	.string "región, mejor no tentar a la suerte.-$"
+
+Route25_Azul::
+lock
+msgbox Route25_Azul_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route25_Azul_Texto_1:
+	.string "Un RATTATA{PAUSE 15}…{PAUSE 15} debe ser una broma. Lo\n"
+	.string "acepté por cortesía pero{PAUSE 15}…{PAUSE 15} no durará\l"
+	.string "mucho en mi equipo.$"

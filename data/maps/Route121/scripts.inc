@@ -99,12 +99,12 @@ Route121_EventScript_Tammy::
 	end
 
 Route121_EventScript_Kate::
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_643, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
 	msgbox Route121_Text_KatePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route121_EventScript_Joy::
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_643, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
 	msgbox Route121_Text_JoyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -176,11 +176,33 @@ Route121_Text_AheadLoomsMtPyre:
 	.string "of departed POKÉMON…$"
 
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string	"MUELLE del MONTE PÍRICO\p"
+	.string	"El cartel está viejo y desgastado.\n"
+	.string	"Apenas se puede leer nada…$"
 
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare POKÉMON!”\n"
-	.string "SAFARI ZONE$"
+	.string	"ZONA SAFARI\n"
+	.string	"“¡Llenita de POKéMON raros!”$"
+
+Route121_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route121_Bloqueo_Move_1
+waitmovement 0x0
+msgbox Route121_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route121_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+Route121_Bloqueo_Move_2:
+walk_slow_left
+step_end
+
+Route121_Bloqueo_Move_1:
+walk_in_place_right
+step_end
+
+Route121_Bloqueo_Texto_1:
+	.string "Debería primero buscar a ANDRA\n"
+	.string "en el MONTE PÍRICO.$"
 

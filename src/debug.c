@@ -1888,7 +1888,7 @@ static void DebugAction_Give_AllTMs(u8 taskId)
 {
     u16 i;
     PlayFanfare(MUS_OBTAIN_TMHM);
-    for (i = ITEM_TM01; i <= ITEM_TM119; i++)
+    for (i = ITEM_TM01; i <= ITEM_HM08; i++)
         if(!CheckBagHasItem(i, 1))
             AddBagItem(i, 1);
     Debug_DestroyMenu(taskId);
@@ -3221,6 +3221,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
 	X(MUS_SINJOH_RUINS, "MUS-SINJOH-RUINS") \
 	X(MUS_DRAGONSPIRAL_TOWER, "MUS-DRAGONSPIRAL-TOWER") \
 	X(MUS_ABNORMAL_WEATHER2, "MUS-ABNORMAL-WEATHER-2") \
+	X(MUS_ZINNIA, "MUS-ZINNIA") \
 	X(DP_SEQ_TITLE00    , "DP-SEQ-TITLE00") \
     X(DP_SEQ_TITLE01    , "DP-SEQ-TITLE01") \
     X(DP_SEQ_OPENING    , "DP-SEQ-OPENING") \

@@ -21,6 +21,21 @@ $(OBJEVENTGFXDIR)/people/brendan/acro_bike.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/brendan/fishing.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/player/normal/fishing.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/alto_rango/fishing.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/ejecutivo/fishing.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/admin/fishing.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/admin_jefe_normal/fishing.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4		
 
 $(OBJEVENTGFXDIR)/people/brendan/watering.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
@@ -28,6 +43,20 @@ $(OBJEVENTGFXDIR)/people/brendan/watering.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/brendan/underwater.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/player/normal/underwater.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/alto_rango/underwater.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/ejecutivo/underwater.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/admin/underwater.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/player/admin_jefe_normal/underwater.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/elite_four/drake.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -429,12 +458,18 @@ $(OBJEVENTGFXDIR)/people/agatha2.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/Ampharos.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/ninetalesbond.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/ancianajohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/ancianojohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/ghost.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Andraadmin.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
@@ -453,6 +488,9 @@ $(OBJEVENTGFXDIR)/people/Arceusp.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/Ariana.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/sachiko.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Artistajohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -786,6 +824,21 @@ $(OBJEVENTGFXDIR)/people/policeman.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/prof_oak.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/presidente.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	
+$(OBJEVENTGFXDIR)/people/oak2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	
+$(OBJEVENTGFXDIR)/people/exchamp.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/agatha3.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/morfeo2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4		
 
 $(OBJEVENTGFXDIR)/people/prota.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -902,6 +955,12 @@ $(OBJEVENTGFXDIR)/people/kingunown.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/dragonsagrado.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8	
 
+$(OBJEVENTGFXDIR)/people/regigigas.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+	
+$(OBJEVENTGFXDIR)/people/regigigasp.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8	
+
 $(OBJEVENTGFXDIR)/people/rich_boy2.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
@@ -931,6 +990,12 @@ $(OBJEVENTGFXDIR)/people/silver.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/Rojo.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/oro.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/inverna.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/rs_brendan.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -1065,7 +1130,31 @@ $(OBJEVENTGFXDIR)/people/lidersete.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/zinnia.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/rasmus.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/jirachi.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/jirachi2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8	
+
+$(OBJEVENTGFXDIR)/people/milotic.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/miloticp.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
+
+$(OBJEVENTGFXDIR)/people/kingdra.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/kyogreprimal.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8	
+	
+$(OBJEVENTGFXDIR)/pokemon/stakataka.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8		
 
 $(OBJEVENTGFXDIR)/pokemon/azumarill.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
@@ -1129,6 +1218,12 @@ $(OBJEVENTGFXDIR)/pokemon/wingull.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/pokemon/zigzagoon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
+	
+$(OBJEVENTGFXDIR)/pokemon/guardia.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
+	
+$(OBJEVENTGFXDIR)/pokemon/marowak.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2		
 	
 $(OBJEVENTGFXDIR)/pokemon/chansey.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
@@ -1217,6 +1312,18 @@ $(OBJEVENTGFXDIR)/pokemon/voltorb.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/pokemon/wigglytuff.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
+	
+$(OBJEVENTGFXDIR)/pokemon/whismur.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2	
+
+$(OBJEVENTGFXDIR)/pokemon/teddiursa.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/pokemon/ursaring.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/pokemon/scyther.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4		
 	
 $(OBJEVENTGFXDIR)/pokemon/zapdos.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4

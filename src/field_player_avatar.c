@@ -9,6 +9,7 @@
 #include "field_screen_effect.h"
 #include "field_player_avatar.h"
 #include "fieldmap.h"
+#include "item.h"
 #include "menu.h"
 #include "metatile_behavior.h"
 #include "overworld.h"
@@ -145,6 +146,13 @@ static void AlignFishingAnimationFrames(void);
 
 static u8 TrySpinPlayerForWarp(struct ObjectEvent *object, s16 *a1);
 
+static void Task_WaitStopSurfing(u8 taskId);
+static void CreateStartSurfingTask(u8);
+static void Task_StartSurfingInit(u8 taskId);
+static void Task_WaitStartSurfing(u8 taskId);
+static bool8 CanStopSurfing(s16, s16, u8);
+static bool8 CanStartSurfing(s16, s16, u8);
+
 // .rodata
 
 static bool8 (*const sForcedMovementTestFuncs[])(u8) =
@@ -254,9 +262,9 @@ static const u16 sPlayerAvatarGfxIds[][6] =
     {OBJ_EVENT_GFX_BICIPROTA,  OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_BICI, OBJ_EVENT_GFX_PLAYER_EJECUTIVO_BICI, OBJ_EVENT_GFX_PLAYER_ADMIN_BICI, OBJ_EVENT_GFX_BICIADMIN, OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_BICI},
     {OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE,  OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE, OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE, OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE, OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE, OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE},
     {OBJ_EVENT_GFX_SURFPROTA,    OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_SURF, OBJ_EVENT_GFX_PLAYER_EJECUTIVO_SURF, OBJ_EVENT_GFX_PLAYER_ADMIN_SURF, OBJ_EVENT_GFX_SURFADMIN, OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF},
-    {OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER},
+    {OBJ_EVENT_GFX_PLAYER_NORMAL_UNDERWATER, OBJ_EVENT_GFX_PLAYER_ALTORANGO_UNDERWATER, OBJ_EVENT_GFX_PLAYER_EJECUTIVO_UNDERWATER, OBJ_EVENT_GFX_PLAYER_ADMIN_UNDERWATER, OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_UNDERWATER, OBJ_EVENT_GFX_BRENDAN_UNDERWATER},
     {OBJ_EVENT_GFX_PROTAPOKEBALL, OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_FIELDMOVE, OBJ_EVENT_GFX_PLAYER_EJECUTIVO_FIELDMOVE, OBJ_EVENT_GFX_PLAYER_ADMIN_FIELDMOVE, OBJ_EVENT_GFX_ADMINPOKEBALL, OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_FIELDMOVE},
-    {OBJ_EVENT_GFX_BRENDAN_FISHING,    OBJ_EVENT_GFX_BRENDAN_FISHING, OBJ_EVENT_GFX_BRENDAN_FISHING, OBJ_EVENT_GFX_BRENDAN_FISHING, OBJ_EVENT_GFX_BRENDAN_FISHING, OBJ_EVENT_GFX_BRENDAN_FISHING},
+    {OBJ_EVENT_GFX_PLAYER_NORMAL_FISHING, OBJ_EVENT_GFX_PLAYER_ALTORANGO_FISHING, OBJ_EVENT_GFX_PLAYER_EJECUTIVO_FISHING, OBJ_EVENT_GFX_PLAYER_ADMIN_FISHING, OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_FISHING, OBJ_EVENT_GFX_BRENDAN_FISHING},
     {OBJ_EVENT_GFX_BRENDAN_WATERING,   OBJ_EVENT_GFX_BRENDAN_WATERING, OBJ_EVENT_GFX_BRENDAN_WATERING, OBJ_EVENT_GFX_BRENDAN_WATERING, OBJ_EVENT_GFX_BRENDAN_WATERING, OBJ_EVENT_GFX_BRENDAN_WATERING},
 };
 
@@ -271,49 +279,49 @@ static const u16 sPlayerAvatarGfxToStateFlag[6][5][2] =
 		
 		{OBJ_EVENT_GFX_PROTA,     PLAYER_AVATAR_FLAG_ON_FOOT},
 		{OBJ_EVENT_GFX_BICIPROTA,  PLAYER_AVATAR_FLAG_MACH_BIKE},
-		{OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
+		{OBJ_EVENT_GFX_BICIPROTA,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
 		{OBJ_EVENT_GFX_SURFPROTA,    PLAYER_AVATAR_FLAG_SURFING},
-		{OBJ_EVENT_GFX_BRENDAN_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},    
+		{OBJ_EVENT_GFX_PLAYER_NORMAL_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
 	},
     [FEMALE] =
     {
         {OBJ_EVENT_GFX_PLAYER_ALTO_RANGO,         PLAYER_AVATAR_FLAG_ON_FOOT},
         {OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_BICI,      PLAYER_AVATAR_FLAG_MACH_BIKE},
-        {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_BICI,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_SURF,        PLAYER_AVATAR_FLAG_SURFING},
-        {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+		{OBJ_EVENT_GFX_PLAYER_ALTORANGO_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
     },
 	[EJECUTIVO] =
     {
         {OBJ_EVENT_GFX_PLAYER_EJECUTIVO,         PLAYER_AVATAR_FLAG_ON_FOOT},	
         {OBJ_EVENT_GFX_PLAYER_EJECUTIVO_BICI,      PLAYER_AVATAR_FLAG_MACH_BIKE},
-        {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_PLAYER_EJECUTIVO_BICI,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_PLAYER_EJECUTIVO_SURF,        PLAYER_AVATAR_FLAG_SURFING},
-        {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_PLAYER_EJECUTIVO_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
     },
 	[ADMIN] =
     {
         {OBJ_EVENT_GFX_PLAYER_ADMIN,         PLAYER_AVATAR_FLAG_ON_FOOT},
         {OBJ_EVENT_GFX_PLAYER_ADMIN_BICI,      PLAYER_AVATAR_FLAG_MACH_BIKE},
-        {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_PLAYER_ADMIN_BICI,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_PLAYER_ADMIN_SURF,        PLAYER_AVATAR_FLAG_SURFING},
-        {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_PLAYER_ADMIN_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
     },
 	[ADMIN_JEFE] =
     {
         {OBJ_EVENT_GFX_ADMIN,         PLAYER_AVATAR_FLAG_ON_FOOT},
         {OBJ_EVENT_GFX_BICIADMIN,      PLAYER_AVATAR_FLAG_MACH_BIKE},
-        {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_BICIADMIN,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_SURFADMIN,        PLAYER_AVATAR_FLAG_SURFING},
-        {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
     },
 	[ADMIN_JEFE2] =
     {
         {OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE,         PLAYER_AVATAR_FLAG_ON_FOOT},
         {OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_BICI,      PLAYER_AVATAR_FLAG_MACH_BIKE},
-        {OBJ_EVENT_GFX_MAY_ACRO_BIKE,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
+        {OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_BICI,      PLAYER_AVATAR_FLAG_ACRO_BIKE},
         {OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF,        PLAYER_AVATAR_FLAG_SURFING},
-        {OBJ_EVENT_GFX_MAY_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
+        {OBJ_EVENT_GFX_BRENDAN_UNDERWATER,     PLAYER_AVATAR_FLAG_UNDERWATER},
     }
 	
 };
@@ -731,6 +739,9 @@ u8 CheckForObjectEventCollision(struct ObjectEvent *objectEvent, s16 x, s16 y, u
     
     if (collision == COLLISION_ELEVATION_MISMATCH && CanStopSurfing(x, y, direction))
         return COLLISION_STOP_SURFING;
+	
+	if (collision == COLLISION_ELEVATION_MISMATCH && CanStartSurfing(x, y, direction))
+        return COLLISION_START_SURFING;
 
     if (ShouldJumpLedge(x, y, direction))
     {
@@ -2384,4 +2395,87 @@ bool8 ObjectMovingOnRockStairs(struct ObjectEvent *objectEvent, u8 direction)
     #else
         return FALSE;
     #endif
+}
+
+static bool8 CanStartSurfing(s16 x, s16 y, u8 direction)
+{
+    if (CheckBagHasItem(ITEM_HM03, 1) == FALSE)
+    {
+        return FALSE;
+    }
+
+    if ((gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_ON_FOOT)
+     && IsPlayerFacingSurfableFishableWater()
+     && GetObjectEventIdByXYZ(x, y, 1) == OBJECT_EVENTS_COUNT)
+    {
+        CreateStartSurfingTask(direction);
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
+
+static void CreateStartSurfingTask(u8 direction)
+{
+    u8 taskId;
+
+    ScriptContext2_Enable();
+    Overworld_ClearSavedMusic();
+	switch(gMapHeader.region)
+	{
+		case REGION_KANTO:
+		case SEVII_123:
+		case SEVII_45:
+		case SEVII_67:
+			Overworld_ChangeMusicTo(MUS_RG_SURF);
+			break;	
+		case REGION_JOHTO:
+			Overworld_ChangeMusicTo(618);
+			break;
+		case REGION_HOENN:
+			Overworld_ChangeMusicTo(MUS_SURF);
+			break;
+		default:
+			Overworld_ChangeMusicTo(MUS_SURF);
+			break;
+	}
+
+    gPlayerAvatar.flags ^= PLAYER_AVATAR_FLAG_ON_FOOT;
+    gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_SURFING;
+    gPlayerAvatar.preventStep = TRUE;
+    taskId = CreateTask(Task_StartSurfingInit, 0xFF);
+    gTasks[taskId].data[0] = direction;
+    Task_StartSurfingInit(taskId);
+}
+
+static void Task_StartSurfingInit(u8 taskId)
+{
+    struct ObjectEvent *playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+
+    if (ObjectEventIsMovementOverridden(playerObjEvent))
+    {
+        if (!ObjectEventClearHeldMovementIfFinished(playerObjEvent))
+            return;
+    }
+    SetPlayerAvatarStateMask(8);
+    ObjectEventSetGraphicsId(playerObjEvent, GetPlayerAvatarGraphicsIdByStateId(3));
+    ObjectEventClearHeldMovementIfFinished(playerObjEvent);
+    ObjectEventSetHeldMovement(playerObjEvent, GetJumpSpecialMovementAction((u8)gTasks[taskId].data[0]));
+    gTasks[taskId].func = Task_WaitStartSurfing;
+}
+
+static void Task_WaitStartSurfing(u8 taskId)
+{
+    struct ObjectEvent *playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+
+    if (ObjectEventClearHeldMovementIfFinished(playerObjEvent))
+    {
+        ObjectEventSetHeldMovement(playerObjEvent, GetFaceDirectionMovementAction(playerObjEvent->facingDirection));
+        PlayerAvatarTransition_Surfing(playerObjEvent);
+        gPlayerAvatar.preventStep = FALSE;
+        ScriptContext2_Disable();
+        DestroyTask(taskId);
+    }
 }

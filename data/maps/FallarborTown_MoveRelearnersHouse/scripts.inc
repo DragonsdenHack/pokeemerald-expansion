@@ -6,6 +6,7 @@ FallarborTown_MoveRelearnersHouse_MapScripts::
 FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
 	faceplayer
+	clearflag FLAG_HOENN_639
 	applymovement LOCALID_MOVE_RELEARNER, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
@@ -20,8 +21,18 @@ FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
-	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove2
 	end
+	
+FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove2::
+	case YES, FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove
+    release
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_Activate_EggMove::
+    clearflag FLAG_HOENN_639
+    goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+    end 	
 
 FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
@@ -70,10 +81,15 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
     .string "a move to one POKÉMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-    .string "Sniff, sniff…\n"
-    .string "Hm! You smell of MUSHROOMS!\p"
-    .string "Do you want me to teach a move\n"
-    .string "to a POKÉMON of yours?$"
+	.string "¡Oh! ¡Eso es! ¡Eso es una\n"
+	.string "MINI SETA!\p"
+	.string "Déjame adivinar, ¿quieres que enseñe\n"
+	.string "algún movimiento a tus POKÉMON?$"
+	
+FallarborTown_MoveRelearnersHouse_Text_EggMove:
+	.string "Me sé todos los movimientos\n"
+	.string "huevo que aprenden los POKéMON.\p"
+	.string "¿Te interesa?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
     .string "Which POKÉMON needs tutoring?$"
@@ -95,6 +111,68 @@ FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
     .string "move, I need a MUSHROOM or two.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
+	.string "¿Qué? No puedo enseñar nada\n"
+	.string "a un HUEVO.$"
+
+Sala_Ejecutiva_MoveRelearnersHouse_EventScript_MoveRelearner::
+lock
+setflag FLAG_HOENN_639
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_1, MSGBOX_AUTOCLOSE
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Sala_Ejecutiva_No
+goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2
+
+Sala_Ejecutiva_MoveRelearner_Texto_4:
+		.string "Vuelva cuando guste, SIR.$"
+	
+Sala_Ejecutiva_MoveRelearner_Texto_3:
+		.string "Como usted guste, SIR.$"
+
+Sala_Ejecutiva_MoveRelearner_Texto_2:
+	.string "Costará 5000¥ el movimiento.\n"
+	.string "¿Te interesa?$"
+
+Sala_Ejecutiva_MoveRelearner_Texto_1:
+	.string "Hemos desarrollado tecnología capaz de\n"
+	.string "hacer recordar forzosamente\l"
+	.string "MOVIMIENTOS HUEVO a los POKÉMON.$"
+
+
+Sala_Ejecutiva_No::
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Sala_Ejecutiva_Despues::
+msgbox Sala_Ejecutiva_MoveRelearner_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
+	special ChooseMonForMoveRelearner
+	waitstate
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Sala_Ejecutiva_No
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg
+	goto_if_eq VAR_0x8005, 0, Sala_Ejecutiva_Despues
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2
+	end
+ 
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove_2::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
+	special TeachMoveRelearnerMove
+	waitstate
+	goto_if_eq VAR_0x8004, 0, Sala_Ejecutiva_No
+	showmoneybox 0, 0
+	delay 15
+	playse SE_SHOP
+	removemoney 5000 0
+	updatemoneybox
+	delay 50
+	hidemoneybox
+	clearflag FLAG_HOENN_639
+	goto Sala_Ejecutiva_Despues
+	end
 

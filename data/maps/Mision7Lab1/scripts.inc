@@ -47,6 +47,7 @@ waitse
 delay 40
 delay 30
 msgbox Mision7Lab4_Combate_Mewtwo_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 setvar VAR_UNUSED_0x40F7, 200
 release
 end

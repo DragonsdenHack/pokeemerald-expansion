@@ -355,13 +355,26 @@ applymovement OBJ_EVENT_ID_PLAYER, FileIsleMeadow_Combate_Azul_Move_1.1
 waitmovement 0x0
 goto FileIsleMeadow_Combate_Azul
 
+FileIsleMeadow_Combate_Azul_Move_22:
+walk_down
+step_end
+
 FileIsleMeadow_Combate_Azul::
 playse SE_DOOR
-clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+opendoor 12, 21
+waitdooranim
 addobject 8
+applymovement 8, FileIsleMeadow_Combate_Azul_Move_22
+waitmovement 0x0
+closedoor 12, 21
+waitdooranim
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+delay 10
 msgbox FileIsleMeadow_Combate_Azul_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, FileIsleMeadow_Combate_Azul_Move_2
 waitmovement 0x0
+delay 10
 msgbox FileIsleMeadow_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FileIsleMeadow_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
@@ -373,6 +386,7 @@ msgbox FileIsleMeadow_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 8, FileIsleMeadow_Combate_Azul_Move_4
 waitmovement 0x0
 msgbox FileIsleMeadow_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FileIsleMeadow_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox FileIsleMeadow_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
@@ -382,7 +396,9 @@ delay 20
 msgbox FileIsleMeadow_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_AZUL_4, FileIsleMeadow_Combate_Azul_Texto_10
 msgbox FileIsleMeadow_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FileIsleMeadow_Combate_Azul_Texto_12 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, FileIsleMeadow_Combate_Azul_Move_6.1
 applymovement 8, FileIsleMeadow_Combate_Azul_Move_6
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
@@ -390,6 +406,23 @@ removeobject 8
 setvar VAR_ROUTE107_STATE, 4
 release
 end
+
+FileIsleMeadow_Combate_Azul_Move_6.1:
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_up
+step_end
 
 FileIsleMeadow_Combate_Azul_Texto_1:
 	.string "BLUE: Ah, {PLAYER}. Returning to your\n"
@@ -532,6 +565,5 @@ step_end
 
 FileIsleMeadow_Curacion::
 setrespawn HEAL_LOCATION_FIVE_ISLAND
-setflag FLAG_SYS_B_DASH
 release
 end

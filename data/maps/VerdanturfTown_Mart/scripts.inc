@@ -47,10 +47,10 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial:
 	.string "even though it's only for one battle.$"
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
-	.string "They don't seem to sell any winning\n"
-	.string "strategy guides for the BATTLE TENT…\p"
-	.string "It seems one must rely on one's\n"
-	.string "own wits after all…$"
+	.string	"El dueño del MUSEO VERDEGAL\n"
+	.string	"es un cascarrabias.\l"
+	.string	"He oído que no se lleva bien con\p"
+	.string	"el dueño del MUSEO PORTUAL{PAUSE 5}…{PAUSE 5}$"
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
 	.string "The NEST BALL works better on\n"

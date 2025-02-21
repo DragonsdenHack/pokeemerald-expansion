@@ -932,6 +932,7 @@ static void LoadCurrentMapData(void)
 		
 		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE8){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 25);
+			gMapHeader.region = REGION_KANTO;
 		}
 		
 		
@@ -1454,7 +1455,12 @@ u16 GetLocationMusic(struct WarpData *warp)
 u16 GetCurrLocationDefaultMusic(void)
 {
     u16 music;
-
+	
+	if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(SAFFRON_CITY_HOUSE2) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(SAFFRON_CITY_HOUSE2) && VarGet(VAR_UNUSED_0x40F7) >= 203)
+	{
+		return MUS_GSC_PEWTER;
+	}
+	
     // Play the desert music only when the sandstorm is active on Route 111.
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE111)
      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE111)
@@ -1476,8 +1482,8 @@ u16 GetCurrLocationDefaultMusic(void)
 }
 
 u16 GetWarpDestinationMusic(void)
-{
-    u16 music = GetLocationMusic(&sWarpDestination);
+{	
+   u16 music = GetLocationMusic(&sWarpDestination);
     if (music != MUS_ROUTE118)
     {
         return music;

@@ -1102,7 +1102,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
 	.string "… … … … … …\p"
 	.string "I sorely underestimated you. I won't\n"
-	.string "make the same mistake next time…$"
+	.string "make the same mistake next time…{PAUSE 5}$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 	.string "Can the win streak be stretched?\n"

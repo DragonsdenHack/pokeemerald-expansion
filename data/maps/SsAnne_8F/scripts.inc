@@ -48,6 +48,14 @@ SsAnne8FDocumento_Text_101:
 .string "How to prevent nausea…\n"
 	.string "The CAPTAIN is reading this!$"
 
+SsAnne_8F_Capitan_move_6.1:
+delay_8
+face_right
+delay_16
+delay_8
+face_up
+step_end
+
 SsAnne_8F_Capitan::
 applymovement 2, SsAnne_8F_Capitan_move_1
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_8F_Capitan_move_2
@@ -68,19 +76,41 @@ delay 20
 playse SE_PIN
 applymovement 2, SsAnne_8F_Capitan_move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_8F_Capitan_Text_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, SsAnne_8F_Capitan_move_6.1
+waitmovement 0x0
+delay 10
 msgbox SsAnne_8F_Capitan_Text_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SsAnne_8F_Capitan_Text_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, SsAnne_8F_Capitan_move_7
 waitmovement 0x0
+delay 10
 msgbox SsAnne_8F_Capitan_Text_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SsAnne_8F_Capitan_Text_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, SsAnne_8F_Capitan_move_8
 waitmovement 0x0
+delay 10
 msgbox SsAnne_8F_Capitan_Text_10 MSGBOX_AUTOCLOSE
 applymovement 5, SsAnne_8F_Capitan_move_9
 waitmovement 0x0
 msgbox SsAnne_8F_Capitan_Text_11 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, SsAnne_8F_Capitan_move_9.1
+applymovement OBJ_EVENT_ID_PLAYER, SsAnne_8F_Capitan_move_9.1
+waitmovement 0x0
+delay 15
+msgbox SsAnne_8F_Capitan_Text_11.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_8F_Capitan_Text_12 MSGBOX_AUTOCLOSE
 applymovement 5, SsAnne_8F_Capitan_move_10
 waitmovement 0x0
@@ -113,16 +143,26 @@ waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 removeobject 6
 msgbox SsAnne_8F_Capitan_Text_14 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SsAnne_8F_Capitan_Text_14.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 5, SsAnne_8F_Capitan_move_15
 waitmovement 0x0
 msgbox SsAnne_8F_Capitan_Text_15 MSGBOX_AUTOCLOSE
-applymovement 5, SsAnne_8F_Capitan_move_10
+playse SE_BREAKABLE_DOOR
+applymovement 5, SsAnne_8F_Capitan_move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SsAnne_8F_Capitan_Text_16.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SsAnne_8F_Capitan_Text_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, SsAnne_8F_Capitan_move_11
 waitmovement 0x0
+waitse
 msgbox SsAnne_8F_Capitan_Text_18 MSGBOX_AUTOCLOSE
 applymovement 5, SsAnne_8F_Capitan_move_1
 waitmovement 0x0
@@ -130,20 +170,41 @@ msgbox SsAnne_8F_Capitan_Text_19 MSGBOX_AUTOCLOSE
 applymovement 5, SsAnne_8F_Capitan_move_10
 waitmovement 0x0
 msgbox SsAnne_8F_Capitan_Text_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SsAnne_8F_Capitan_Text_20.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_8F_Capitan_Text_21 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 5, SsAnne_8F_Capitan_move_8
+waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_22 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 2, SsAnne_8F_Capitan_move_8
+waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_23 MSGBOX_AUTOCLOSE
 applymovement 2, SsAnne_8F_Capitan_move_16
 waitmovement 0x0
 applymovement 5, SsAnne_8F_Capitan_move_17
 waitmovement 0x0
+playse 450
 msgbox SsAnne_8F_Capitan_Text_24 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 5, SsAnne_8F_Capitan_move_8
+waitmovement 0x0
+waitse
+delay 10
+msgbox SsAnne_8F_Capitan_Text_24.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CAPITAN_1, SsAnne_8F_Capitan_Text_25
 msgbox SsAnne_8F_Capitan_Text_26 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_8F_Capitan_move_18
-waitmovement 0x0
 delay 15
 playmoncry SPECIES_GOLBAT, CRY_MODE_ENCOUNTER
+waitmoncry
 delay 30
 playse SE_M_WING_ATTACK
 delay 30
@@ -153,24 +214,47 @@ playse SE_FAINT
 delay 15
 applymovement 2, SsAnne_8F_Capitan_move_19
 waitmovement 0x0
+delay 15
+playse SE_BALL_TRADE
+waitse
+delay 15
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox SsAnne_8F_Capitan_Text_27 MSGBOX_DEFAULT
 waitfanfare
 msgbox SsAnne_8F_Capitan_Text_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_8F_Capitan_Text_29 MSGBOX_AUTOCLOSE
+applymovement 2, SsAnne_8F_Capitan_move_8.1
+waitmovement 0x0
 msgbox SsAnne_8F_Capitan_Text_30 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SsAnne_8F_Capitan_Text_30.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
 applymovement 5, SsAnne_8F_Capitan_move_20
+waitmovement 0x0
+waitse
+msgbox SsAnne_8F_Capitan_Text_30.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SsAnne_8F_Capitan_Text_30.3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 5, SsAnne_8F_Capitan_move_8
+waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_31 MSGBOX_AUTOCLOSE
 delay 10
 msgbox SsAnne_8F_Capitan_Text_32 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_TENTACOOL, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox SsAnne_8F_Capitan_Text_33 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_M_SCRATCH
-delay 20
+delay 30
 playse SE_M_TOXIC
-delay 5
+delay 30
 msgbox SsAnne_8F_Capitan_Text_34 MSGBOX_AUTOCLOSE
 applymovement 5, SsAnne_8F_Capitan_move_5
 applymovement 2, SsAnne_8F_Capitan_move_21
@@ -178,10 +262,15 @@ waitmovement 0x0
 msgbox SsAnne_8F_Capitan_Text_35 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, SsAnne_8F_Capitan_move_6
+delay 5
 applymovement 3, SsAnne_8F_Capitan_move_6
+delay 5
 applymovement 4, SsAnne_8F_Capitan_move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox SsAnne_8F_Capitan_Text_36 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 1, SsAnne_8F_Capitan_move_22
 applymovement 3, SsAnne_8F_Capitan_move_22
 applymovement 4, SsAnne_8F_Capitan_move_22
@@ -201,6 +290,19 @@ playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 27
 release
 end
+
+SsAnne_8F_Capitan_move_8.1:
+delay_8
+face_down
+delay_16
+delay_8
+face_up
+delay_8
+step_end
+
+SsAnne_8F_Capitan_move_9.1:
+emote_exclamation_mark
+step_end
 
 SsAnne_8F_Capitan_Text_1:
 	.string "Is there something I can help\n"
@@ -241,108 +343,125 @@ SsAnne_8F_Capitan_Text_8:
 	.string "Lance's Dragonite, for example.$"
 
 SsAnne_8F_Capitan_Text_9:
-	.string "CAPTAIN: These are POKÉMON that, while\n"
-	.string "not born with the natural qualities of\l"
-	.string "Legendaries, can grow and evolve to a\l"
-	.string "point where, after a long process, they\l"
-	.string "become as powerful-or even superior to- a\l"
-	.string "typical Legendary. Pseudo-Legendary\l"
-	.string "POKÉMON often represent the unique\l"
-	.string "flora and fauna of their region. From\l"
-	.string "their earliest stages, they carry within\l"
-	.string "them the essence of their homeland,\l"
-	.string "which allows them to reach their full\l"
-	.string "potential later on.$"
+.string "CAPITÁN: Esos POKÉMON que, sin\n"
+	.string "nacer con las cualidades que por\l"
+	.string "decreto la madre naturaleza ha\l"
+	.string "dotado a los LEGENDARIOS, son\l"
+	.string "capaces de crecer y desarrollarse\l"
+	.string "de tal modo que, después de un\l"
+	.string "largo proceso, en su etapa final\l"
+	.string "resultan ser POKÉMON con\l"
+	.string "características similares o\l"
+	.string "incluso superiores a las de un\l"
+	.string "legendario común.$"
+	
+SsAnne_8F_Capitan_Text_9.1:
+	.string "Un PSEUDOLEGENDARIO simboliza a\n"
+	.string "la fauna y flora de su región.\l"
+	.string "Desde sus primeras etapas, su\l"
+	.string "fisionomía está dotada de esa\l"
+	.string "esencia propia de la región de\l"
+	.string "origen; por ello es capaz después\l"
+	.string "de alcanzar cotas tan altas.$"
 
 SsAnne_8F_Capitan_Text_10:
-	.string "CAPTAIN: POKÉMON chosen from among\n"
-	.string "the mortals, given the potential\l"
-	.string "opportunity to tread into divine\l"
-	.string "territory-that's what\l"
-	.string "Pseudo-Legendaries are.$"
+.string "CAPITÁN: POKÉMON escogidos entre\n"
+	.string "los mortales, a los que se le da\l"
+	.string "la oportunidad potencial de entrar\l"
+	.string "en terreno divino; eso es lo que\l"
+	.string "son los PSEUDOLEGENDARIOS.$"
 
 SsAnne_8F_Capitan_Text_11:
-	.string "CAPTAIN: Scientists who have studied\n"
-	.string "this fragment say the POKÉMON it\l"
-	.string "belongs to has many of the traits\l"
-	.string "usually associated with\l"
-	.string "Pseudo-Legendaries, but it also shares\l"
-	.string "characteristics with true Legendaries.\l"
-	.string "It's truly one of a kind.$"
+.string "CAPITÁN: El POKÉMON al que\n"
+	.string "pertenece este fragmento tiene\l"
+	.string "muchas cualidades que suelen\l"
+	.string "atribuirse a PSEUDOLEGENDARIOS,\l"
+	.string "pero a la vez comparte rasgos de\l"
+	.string "LEGENDARIO.$"
+	
+SsAnne_8F_Capitan_Text_11.1:
+	.string "Es un caso único.$"
 
 SsAnne_8F_Capitan_Text_12:
-	.string "ANDRA: Impressive. You really are a man\n"
-	.string "of wisdom, Captain, with a thousand\l"
-	.string "stories to tell.$"
+.string "ANDRA: Impresionante. Parece usted\n"
+	.string "un hombre culto, CAPITÁN, con 1000\l"
+	.string "historias que contar.$"
 
 SsAnne_8F_Capitan_Text_13:
-	.string "CAPTAIN: And you two seem like young\n"
-	.string "people eager to learn. I'd be happy to\l"
-	.string "teach you, if it weren't for the fact\l"
-	.string "that…$"
+.string "CAPITÁN: Y vosotros parecéis dos\n"
+	.string "jóvenes con muchas ganas de\l"
+	.string "aprender. Estaría encantado de\l"
+	.string "enseñaros, de no ser porque{PAUSE 25}…{PAUSE 25}$"
 
 SsAnne_8F_Capitan_Text_14:
-	.string "CAPTAIN: I know who you are and why\n"
-	.string "you're here. One of the crew members\l"
-	.string "already alerted us about a certain\l"
-	.string "criminal organization called Team\l"
-	.string "Rocket, and your outfits match their\l"
-	.string "description exactly.$"
+.string "CAPITÁN: Sé quienes sois y a lo\n"
+	.string "que habéis venido. Un tripulante\l"
+	.string "ya nos alertó, acerca de cierta\l"
+	.string "organización criminal que se hace\l"
+	.string "llamar TEAM ROCKET.\l"
+	.string "Vuestra vestimenta coincide\l"
+	.string "exactamente con su descripción.$"
+
+SsAnne_8F_Capitan_Text_14.1:
+.string "ANDRA:{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
 
 SsAnne_8F_Capitan_Text_15:
-	.string "You know, I've sailed many seas, but\n"
-	.string "none compare to Hoenn's-vast, wild, and\l"
-	.string "full of life. They're the only ones that\l"
-	.string "truly make you feel free, like you've\l"
-	.string "left all the corruption of this world\l"
-	.string "far behind. It's a paradise shaped by\l"
-	.string "nature over millennia, with so much still\l"
-	.string "waiting to be discovered.$"
+.string "Sabéis, de todos los mares en los\n"
+	.string "que he estado, los de HOENN son\l"
+	.string "con diferencia los más amplios,\l"
+	.string "salvajes y diversos, los únicos\l"
+	.string "capaces de hacerte olvidar toda la\l"
+	.string "maldita corrupción que hay en este\l"
+	.string "mundo.$"
 
 SsAnne_8F_Capitan_Text_16:
-	.string "And now you're telling me that two\n"
-	.string "criminals from a region where the\l"
-	.string "waters are polluted by the Power Plant\l"
-	.string "and Cycling Road are going to just\l"
-	.string "waltz in here and steal from me-a\l"
-	.string "one-of-a-kind item that reflects my 30\l"
-	.string "years of work as a sailor? Oh no, you\l"
-	.string "don't have the skill or experience to\l"
-	.string "pull that off.$"
+.string "Y ahora me váis a decir a mí que\n"
+	.string "dos delincuentes, provenientes de\l"
+	.string "una región cuyas mejores aguas\l"
+	.string "están contaminadas por la CENTRAL\l"
+	.string "ENERGÍA y el CAMINO BICIS, ¿van a\l"
+	.string "venir y robarme a MÍ un objeto\l"
+	.string "único que refleja mi labor como\l"
+	.string "navegante durante más de 30 años?$"
+
+SsAnne_8F_Capitan_Text_16.1:
+	.string "Oh, no. No tenéis ni los arrestos ni\n"
+	.string "la experiencia para hacer tal cosa.$"
 
 SsAnne_8F_Capitan_Text_17:
-	.string "ANDRA: Excuse me, Captain, but I must\n"
-	.string "disagree. No seas compare to those of\l"
-	.string "the Sevii Islands, and there is nowhere\l"
-	.string "else in the world with more secrets than\l"
-	.string "on the Sevii shores.$"
+.string "ANDRA: Perdone que discrepe, CAPITÁN.\n"
+	.string "No existen mares como los del\l"
+	.string "ARCHI7, tampoco parajes tan\l"
+	.string "enigmáticos como los de ahí.$"
 
 SsAnne_8F_Capitan_Text_18:
-	.string "CAPTAIN: Well, you've got good taste,\n"
-	.string "girl. I take it you both come from there.$"
+.string "CAPITÁN: Vaya, no tienes mal gusto,\n"
+	.string "chavala. Debe ser tu lugar de origen.$"
 
 SsAnne_8F_Capitan_Text_19:
-	.string "You might be right. The Sevii Islands\n"
-	.string "are still on my list to fully explore. I've\l"
-	.string "heard that among the waters\l"
-	.string "connecting the seven main islands,\l"
-	.string "there are some islets-unexplored but\l"
-	.string "home to certain tribes. And that's not\l"
-	.string "all…$"
+.string "Tal vez tengas razón.\n"
+	.string "El ARCHI7 es una materia que aún tengo\l"
+	.string "pendiente por explorar al 100%.\l"
+	.string "He oído que entre las aguas que\l"
+	.string "conectan las 7 grandes islas\l"
+	.string "existen ciertos islotes, inexplorados.$"
 
 SsAnne_8F_Capitan_Text_20:
-	.string "Topographic maps show 8, 9, and maybe\n"
-	.string "even up to 10 islands in the area. The\l"
-	.string "name Sevii is just a formality since\l"
-	.string "only 7 of those islands are actually\l"
-	.string "inhabited.$"
+.string "Los mapas topográficos contemplan\n"
+	.string "8, 9 e incluso un total de 10\l"
+	.string "islas por los alrededores. El\l"
+	.string "nombre de ARCHI7 es pues una mera\l"
+	.string "formalidad.$"
+
+SsAnne_8F_Capitan_Text_20.1:
+	.string "ANDRA: Qué interesante{PAUSE 15}…{PAUSE 15}$"
 
 SsAnne_8F_Capitan_Text_21:
-	.string "CAPTAIN: But this isn't a geography\n"
-	.string "lesson. I'd love to stay and chat about\l"
-	.string "all this, but the truth is, you came here\l"
-	.string "to steal something precious to me, and\l"
-	.string "I'm not about to let that happen.$"
+.string "CAPITÁN: Me gustaría seguir charlando\n"
+	.string "todo el día sobre estos temas.\l"
+	.string "Por desgracia para vosotros, habéis\l"
+	.string "venido a robar algo preciado para mí,\l"
+	.string "¡y no consentiré tal cosa!$"
 
 SsAnne_8F_Capitan_Text_22:
 .string "CAPTAIN: SAILORS!\n"
@@ -353,12 +472,17 @@ SsAnne_8F_Capitan_Text_23:
 	.string "taking care of YOU!$"
 
 SsAnne_8F_Capitan_Text_24:
-	.string "CAPTAIN: I'll deal with you. You have no\n"
-	.string "idea what you're in for, you villain. Your\l"
-	.string "POKÉMON are no match for my crew,\l"
-	.string "hardened by years at sea! I'm going to\l"
-	.string "cut you in half and serve what's left of\l"
-	.string "you at the party abovedeck!$"
+.string "CAPITÁN: Yo me encargaré de ti. No\n"
+	.string "tienes idea de la que te espera,\l"
+	.string "vil canalla.\l"
+	.string "¡Tus POKÉMON no pueden tocar a mi\l"
+	.string "tripulación curtida en alta mar\l"
+	.string "durante años!$"
+
+SsAnne_8F_Capitan_Text_24.1:
+	.string "¡Voy a cortarte por la mitad y\n"
+	.string "servir lo que quede de ti en la\l"
+	.string "fiesta de proa!$"
 
 SsAnne_8F_Capitan_Text_25:
 .string "Who the hell are you people?!$"
@@ -368,36 +492,48 @@ SsAnne_8F_Capitan_Text_26:
 	.string "WING ATTACK!$"
 
 SsAnne_8F_Capitan_Text_27:
-.string "(ANDRA took the jar\n"
-	.string "from the CAPTAIN).$"
+.string "-ANDRA robó el frasco al CAPITÁN.-$"
 
 SsAnne_8F_Capitan_Text_28:
-	.string "CAPTAIN: This can't be happening. My\n"
-	.string "crew, outdone and humiliated by a\l"
-	.string "couple of young grunts from a local\l"
-	.string "gang. What a disgrace!$"
+.string "CAPITÁN: Esto no puede estar\n"
+	.string "pasando. Mi tripulación ninguneada\l"
+	.string "y ridiculizada por un par de\l"
+	.string "reclutas cualquiera, provenientes\l"
+	.string "de una banda local.\l"
+	.string "¡Qué deshonra!$"
 
 SsAnne_8F_Capitan_Text_29:
-	.string "ANDRA: High-ranking grunts, Captain.\n"
-	.string "I've respected your rank, so you should\l"
-	.string "respect ours.$"
+.string "ANDRA: RECLUTAS de ALTO RANGO, CAPITÁN.\n"
+	.string "No somos unos cualquiera.$"
 
 SsAnne_8F_Capitan_Text_30:
-	.string "ANDRA: Besides, look on the bright side.\n"
-	.string "We'll actually put that jar to good use\l"
-	.string "and figure out exactly which POKÉMON it\l"
-	.string "came from, instead of just letting it\l"
-	.string "gather dust and remind everyone of\l"
-	.string "some old has-been's glory days. Don't\l"
-	.string "take it personally. As a thank you for\l"
-	.string "your cooperation, we'll send you a letter\l"
-	.string "with the results of our research. How\l"
-	.string "does that sound? That information\l"
-	.string "could be worth millions, you know.$"
+.string "ANDRA: Además, mire el lado\n"
+	.string "positivo. Nosotros le daremos\l"
+	.string "buen uso a ese frasco.$"
+	
+SsAnne_8F_Capitan_Text_30.1:
+	.string "Descubriremos a qué maldito POKÉMON\n"
+	.string "pertenece, en lugar de dejarlo aquí\l"
+	.string "criando polvo, sin otra utilidad\l"
+	.string "que la de hacer recordar el pasado\l"
+	.string "a una vieja gloria.$"
+
+SsAnne_8F_Capitan_Text_30.2:
+	.string "No se lo tome como algo personal,\n"
+	.string "en pago y señal de agradecimiento\l"
+	.string "por su colaboración, le enviaremos\l"
+	.string "una carta con los datos que\l"
+	.string "obtengamos.$"
+
+SsAnne_8F_Capitan_Text_30.3:
+	.string "¿Qué le parece?\n"
+	.string "Esa información puede valer\l"
+	.string "millones.$"
 
 SsAnne_8F_Capitan_Text_31:
-.string "CAPTAIN: You insolent brat!\n"
-	.string "No one is leaving this cabin!$"
+.string "CAPITÁN: ¡Joven insolente!\n"
+	.string "¡¿Te burlas de mí?! ¡Nadie va a\l"
+	.string "salir de aquí con esa reliquia!$"
 
 SsAnne_8F_Capitan_Text_32:
 .string "ANDRA: TENTACOOL!\n"
@@ -539,8 +675,9 @@ walk_up
 step_end
 
 SsAnne_8F_Capitan_move_23:
-walk_down
-walk_in_place_left
+walk_fast_down
+face_left
+delay_8
 step_end
 
 SsAnne_8F_Capitan_Papelera::

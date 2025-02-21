@@ -207,10 +207,13 @@ Route103_EventScript_Daisy::
 	end
 
 Route103_EventScript_Amy::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon, Route102_EventScript_AmyRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_AmyRematch
+	trainerbattle_double TRAINER_TRAINER_636, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon,
 	msgbox Route103_Text_AmyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route103_EventScript_Liv::
+	trainerbattle_double TRAINER_TRAINER_636, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon,
+	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_AmyRegisterMatchCallAfterBattle::
@@ -222,13 +225,6 @@ Route102_EventScript_AmyRegisterMatchCallAfterBattle::
 Route102_EventScript_AmyRematch::
 	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyRematchIntro, Route103_Text_AmyRematchDefeated, Route103_Text_AmyRematchNotEnoughPokemon
 	msgbox Route103_Text_AmyRematchPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route103_EventScript_Liv::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon, Route102_EventScript_LivRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_LivRematch
-	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_LivRegisterMatchCallAfterBattle::
@@ -315,7 +311,7 @@ Route103_Text_MayTimeToHeadBack:
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "that one that live on ROUTE 103{PAUSE 5}…{PAUSE 5}$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
@@ -343,11 +339,85 @@ Route103_Text_ShouldHaveBroughtPotion:
 	.string "I should have brought a POTION…$"
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that's useful, isn't it?$"
+	.string	"Si atraviesas el mar por aquí,\n"
+	.string	"atajas para ir a PUEBLO ESCASO.\p"
+	.string	"Je, je, je, es práctico, ¿verdad?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string	"RUTA 103\n"
+	.string	"{DOWN_ARROW} PUEBLO ESCASO$"
+
+Route103_Abedul::
+compare VAR_UNUSED_0x40F8, 155
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route103_Abedul_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PIN
+applymovement 11, Route103_Abedul_Move_2
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 11, Route103_Abedul_Move_3
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 11, Route103_Abedul_Move_3
+waitmovement 0x0
+msgbox Route103_Abedul_Texto_3 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route103_Abedul_Move_1.2
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Route103_Abedul_Move_4
+waitmovement 0x0
+release
+end
+
+Route103_Abedul_Move_1.1:
+walk_down
+walk_down
+step_end
+
+Route103_Abedul_Move_1.2:
+walk_up
+walk_up
+step_end
+
+Route103_Abedul_Move_4:
+delay_8
+walk_slow_up
+step_end
+
+Route103_Abedul_Move_3:
+walk_in_place_up
+step_end
+
+Route103_Abedul_Move_2:
+face_up
+emote_exclamation_mark
+step_end
+
+Route103_Abedul_Move_1:
+delay_8
+walk_in_place_down
+delay_16
+step_end
+
+Route103_Abedul_Texto_1:
+	.string "????: Disculpa, ¿quieres ir hacia\n"
+	.string "PUEBLO ESCASO?$"
+
+Route103_Abedul_Texto_2:
+	.string "Estamos haciendo unas investigaciones\n"
+	.string "allí, ¿te importaría pasarte en otro\l"
+	.string "momento?$"
+
+Route103_Abedul_Texto_3:
+	.string "CIUDAD PORTUAL seguro que es un\n"
+	.string "destino mucho más atractivo para\l"
+	.string "alguien como tú.$"
+
+
 

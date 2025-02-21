@@ -44,13 +44,22 @@ Route49_Pagoda_P5_Encuentro::
 lock
 release
 msgbox Route49_Pagoda_P5_Encuentro_Texto_1 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_2 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_3 MSGBOX_NPC
-delay 15
+delay 10
+applymovement 1, Route49_Pagoda_P5_Encuentro_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox Route49_Pagoda_P5_Encuentro_Texto_3.1 MSGBOX_NPC
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_4 MSGBOX_NPC
 delay 15
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_3
@@ -58,26 +67,40 @@ waitmovement 0x0
 msgbox Route49_Pagoda_P5_Encuentro_Texto_5 MSGBOX_NPC
 delay 15
 msgbox Route49_Pagoda_P5_Encuentro_Texto_6 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_7 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_8 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_9 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_10 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_7
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_11 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_12 MSGBOX_NPC
+delay 10
 applymovement 1, Route49_Pagoda_P5_Encuentro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P5_Encuentro_Texto_13 MSGBOX_NPC
 setflag FLAG_UNUSED_0x267
 fadescreen 1
@@ -88,6 +111,16 @@ clearflag FLAG_UNUSED_0x26A
 setvar VAR_VERDANTURF_TOWN_STATE, 10
 release
 end
+
+Route49_Pagoda_P5_Encuentro_Move_2.1:
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_player
+step_end
 
 Route49_Pagoda_P5_Encuentro_Move_8:
 walk_in_place_right
@@ -123,33 +156,38 @@ face_down
 step_end
 
 Route49_Pagoda_P5_Encuentro_Texto_1:
-	.string "Well, well, well, young man. You really\n"
-	.string "took your adventure seriously and made\l"
-	.string "the most of it.$"
+.string "Vaya, jovencito.\p"
+	.string "Sí que te tomaste en serio el\n"
+	.string "aprovechar al máximo tu aventura.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_2:
-	.string "Don't you remember me? I am the elder of\n"
-	.string "SPROUT TOWER.$"
+.string "¿No me recuerdas?\p"
+	.string "Soy el maestro de TORRE BELLSPROUT.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_3:
-	.string "Long ago, the masters of each tower in\n"
-	.string "JOHTO used to visit this place, as I did\l"
-	.string "in my youth. That tradition, I fear, will\l"
-	.string "be lost. Most sages are barely aware\l"
-	.string "that it exists, let alone the rest of\l"
-	.string "the citizens. The gap between this\l"
-	.string "JOHTO and the current one is too wide,\l"
-	.string "and it's not just because of the\l"
-	.string "mountain that separates them.$"
+.string "Antaño los maestros de cada pagoda de\n"
+	.string "JOHTO solían visitar este lugar, así lo\l"
+	.string "hice yo en mi juventud. Esa costumbre\l"
+	.string "me temo que se perderá; la mayoría de\l"
+	.string "pensadores apenas tienen constancia\l"
+	.string "de que existe, ni hablemos del resto de\l"
+	.string "ciudadanos.$"
+
+Route49_Pagoda_P5_Encuentro_Texto_3.1:
+	.string "La brecha entre esta JOHTO y la JOHTO\n"
+	.string "actual es demasiado grande, mas no\l"
+	.string "precisamente por la montaña que las\l"
+	.string "separa.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_4:
-.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route49_Pagoda_P5_Encuentro_Texto_5:
-	.string "It was here that I was able to enjoy a\n"
-	.string "long rest, and as a result, my\l"
-	.string "BELLSPROUT surpassed the limits that\l"
-	.string "training was supposed to allow.$"
+.string "Fue aquí donde pude conciliar un largo\n"
+	.string "descanso, producto de ello, mi\l"
+	.string "BELLSPROUT superó los límites que\l"
+	.string "el entrenamiento se suponía debía\l"
+	.string "permitirle.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_6:
 	.string "But that's not a quality I discovered;\n"

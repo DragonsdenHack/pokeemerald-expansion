@@ -7,6 +7,17 @@ LilycoveCity_DepartmentStore_1F_EventScript_Greeter::
 	msgbox LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore, MSGBOX_NPC
 	end
 
+LilycoveCity_Loteria::
+lock
+msgbox LilycoveCity_Loteria_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Loteria_Texto_1:
+	.string "Lo sentimos, el sorteo de la\n"
+	.string "LOTERÍA no está disponible.$"
+
+
 LilycoveCity_DepartmentStore_1F_EventScript_LotteryClerk::
 	lock
 	faceplayer
@@ -141,32 +152,32 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign::
 	end
 
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.$"
+	.string	"Hola. Éste es el CENTRO COMERCIAL\n"
+	.string	"de CALAGUA.$"
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
-	.string "Whenever I come to the DEPARTMENT\n"
-	.string "STORE, I always end up buying all sorts\l"
-	.string "of things because it's so fun.$"
+	.string	"Siempre que vengo al CENTRO COMERCIAL,\n"
+	.string	"acabo comprando algo que no necesito{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
-	.string "Today, my mom is going to buy me some\n"
-	.string "nice furniture.$"
+	.string	"¡Mi madre va a comprarme muebles!\n"
+	.string	"¡Solo para mí!$"
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
-	.string "I'm buying something for my AZUMARILL\n"
-	.string "as a reward for winning a CONTEST.$"
+	.string	"Voy a comprar algo para mi AZUMARILL\n"
+	.string	"como premio por ganar el CONCURSO.$"
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "AZUMARILL: Maririroo!$"
+	.string	"AZUMARILL: ¡Marimariii!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
-	.string "1F: SERVICE COUNTER\n"
-	.string "    LOTTERY CORNER\p"
-	.string "2F: TRAINER'S ZONE\p"
-	.string "3F: BATTLE COLLECTION\p"
-	.string "4F: TM CORNER\p"
-	.string "5F: POKé DOLL FLOOR\p"
-	.string "ROOFTOP: ROOFTOP PLAZA$"
+	.string	"PB: MOSTRADOR\n"
+	.string	"     DESPACHO de LOTERÍA\p"
+	.string	"P1: ZONA de ENTRENADORES\p"
+	.string	"P2: COLECCIÓN para el COMBATE\p"
+	.string	"P3: RINCÓN de las MT\p"
+	.string	"P4: PLANTA de POKéMUÑECOS\p"
+	.string	"AZOTEA$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:

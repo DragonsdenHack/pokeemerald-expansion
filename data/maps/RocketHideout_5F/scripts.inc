@@ -125,11 +125,18 @@ release
 end
 
 RocketHideout5F_Text_11:
-	.string "-1984-, by George Orwell, -Brave New\n"
-	.string "World-, by Aldous Huxley, and -Man's\l"
-	.string "Searching for Meaning-, by Viktor Emil\l"
-	.string "Frankl. Those are trivial books that I'd\l"
-	.string "recommend to everyone, comrade.$"
+.string "KANTO ahora mismo parece una parodia\n"
+	.string "de aquellas grandes obras distópicas\l"
+	.string "de principios del siglo XX: -1984- y -Un\l"
+	.string "mundo feliz-. KANTO no está tan\l"
+	.string "controlada como describe Orwell,\l"
+	.string "aunque sus ciudadanos sí que están\l"
+	.string "desbordados con el exceso de trabajo.\l"
+	.string "En cuanto a -Un mundo feliz-{PAUSE 25}…{PAUSE 25} la\l"
+	.string "ilusión de la liga POKÉMON y el sueño de\l"
+	.string "ser maestro POKÉMON podrían ser la\l"
+	.string "dosis de soma moderno que mantiene\l"
+	.string "cuerda a KANTO.$"
 
 
 
@@ -525,30 +532,41 @@ RocketHideout5F_Text_35:
 
 
 RocketHideout5F_36::
-lock     
+lock
 faceplayer     
 msgbox RocketHideout5F_Text_36, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_36.1, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_36.2, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_36.3, MSGBOX_DEFAULT
 release     
 end
 
 RocketHideout5F_Text_36:
-	.string "If people knew the benefits of\n"
-	.string "sustaining a small improvement in the\l"
-	.string "long run, they would start to be\l"
-	.string "constant in everything they do, do you\l"
-	.string "think that improving 2 KG a month of\l"
-	.string "your bench press is a lousy\l"
-	.string "improvement?, keep doing that for an\l"
-	.string "entire year and you will have improved\l"
-	.string "24 KG, from 130 to 153 KG is a\l"
-	.string "remarkable difference, now it looks\l"
-	.string "harder, eh? If you do 10 routines per\l"
-	.string "month you can see each one of those\l"
-	.string "routines as a chance to materialize\l"
-	.string "those 2 KG, from this perspective,\l"
-	.string "psychologically it looks like you can\l"
-	.string "improve until the infinite, in practice\l"
-	.string "it is not like that though…$"
+.string "Si la gente supiera los beneficios\n"
+.string "que tiene sostener una pequeña\l"
+.string "mejora a largo plazo, comenzarían\l"
+.string "a ser constantes con todo cuanto\l"
+.string "hicieren, ¿crees que mejorar 2 KG\l"
+.string "al mes tu press de banca es una\l"
+.string "mejora pésima?$"
+
+RocketHideout5F_Text_36.1:
+.string "Sosténlo durante un año, y mejorarás\n"
+.string "24 KG; si ya levantabas 130 KG, de 130 KG\l"
+.string "a 154, la diferencia es muy notable.\l"
+.string "Ahora parece más dificil, ¿eh?$"
+
+RocketHideout5F_Text_36.2:
+.string "Pero si realizas unos 10 entrenamientos\n"
+.string "al mes, puedes ver cada uno de ellos\l"
+.string "como una oportunidad única para\l"
+.string "construir y materializar esos 2 KG.$"
+
+RocketHideout5F_Text_36.3:
+.string "Desde esa perspectiva, psicológicamente\n"
+.string "da la impresión de que pueda progresarse\l"
+.string "hasta el infinito, aunque llegado a\l"
+.string "cierto punto, los límites golpean duro{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -1198,24 +1216,25 @@ release
 end
 
 RocketHideout5FDocumento_Text_110:
-.string "NUMBER 5: LAPRAS\p"
-.string "HP: 140\n"
-.string "ATTACK: 85\l"
-.string "DEFENSE: 80\l"
-.string "SPECIAL ATTACK: 90\l"
-.string "SPECIAL DEFENSE: 95\l"
-.string "SPEED: 60\l"
+.string "NÚMERO 5: LAPRAS\p"
+	.string "PS: 140\n"
+	.string "ATAQUE: 85\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 95\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 45\l"
 	.string "TOTAL: 550\p"
-	.string "The KANTO's wall, able to fight against\n"
-	.string "ARTICUNO for the frozen throne of the\l"
-	.string "region, keeps its striking ability\l"
-	.string "despite its high defenses, due to moves\l"
-	.string "like Thunder, Psychic, and STAB moves\l"
-	.string "like Ice Beam and Surf, the\l"
-	.string "characteristic POKÉMON of the elite\l"
-	.string "four member LORELEI and that\l"
-	.string "completes the singulars trio of the\l"
-	.string "elite four.$"
+	.string "El muro de KANTO, capaz de\n"
+	.string "competir contra el mismo ARTICUNO\l"
+	.string "por el trono helado de la región,\l"
+	.string "mantiene intacta su capacidad de\l"
+	.string "golpear a pesar de sus grandes\l"
+	.string "defensas, gracias a Rayo, Psíquico,\l"
+	.string "y STAB con Rayo Hielo y Surf.\p"
+	.string "Pokémon característico de la\n"
+	.string "miembro del alto mando LORELEI y\l"
+	.string "que completa el trío de Pokémon\l"
+	.string "singulares de los altos mandos.$"
 
 
 
@@ -1684,26 +1703,66 @@ RocketHideout_5F_Mision_Pueblo_Paleta::
 playse SE_EXIT
 clearflag FLAG_HIDE_ROUTE_103_RIVAL
 addobject 1
+waitse
 delay 20
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_3
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2
 waitmovement 0x0
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_3
-waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.2
+waitmovement 0x0
+delay 20
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.3
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_5
 waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_1.2
+waitmovement 0x0
+delay 15
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.4
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.5
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_4
 waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_2.6
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_6
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_103_RIVAL
@@ -1714,78 +1773,133 @@ setvar VAR_UNUSED_0x40F7, 56
 release
 end
 
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.6:
+delay_16
+face_down
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.5:
+face_left
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.4:
+delay_16
+face_down
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.3:
+face_left
+delay_16
+face_up
+delay_16
+face_right
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.1:
+face_up
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2.2:
+face_right
+step_end
+
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1:
-.string "GIOVANNI: {PLAYER}, you've arrived.$"
+.string "{PLAYER}{PAUSE 25}…{PAUSE 25} estás aquí.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
-	.string "The battle is over, as expected he\n"
-	.string "defeated me very easily, that\l"
-	.string "CHARIZARD is an eccentricity in our\l"
-	.string "region…{PAUSE 20} just someone like OAK could\l"
-	.string "have given it.$"
+.string "El combate ha acabado.\n"
+	.string "Como era de esperar, me ha derrotado\l"
+	.string "muy fácilmente, ese CHARIZARD es toda\l"
+	.string "una rareza en nuestra región{PAUSE 25}…{PAUSE 25} solo\l"
+	.string "alguien como OAK ha podido\l"
+	.string "proporcionárselo.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3:
-	.string "Even so, he is not unattainable, no one\n"
-	.string "is, currently our best men could\l"
-	.string "neutralize him but we won't grant him\l"
-	.string "the satisfaction of enhancing his\l"
-	.string "experience with our trust men, ensuring\l"
-	.string "he'll be the one to reverse the\l"
-	.string "situation later.$"
+.string "Aun así, no es invencible, nadie\n"
+	.string "lo es; a día de hoy nuestros mejores\l"
+	.string "EJECUTIVOS y ADMINISTRADORES podrían\l"
+	.string "neutralizarlo. Pero no le daremos el\l"
+	.string "lujo y la satisfacción de fortalecer\l"
+	.string "su experiencia con ellos, para que más\l"
+	.string "tarde sea él quien doble las tornas.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
-	.string "That RED is good, very good. But has a\n"
-	.string "clear weakness {PLAYER}: for him, all\l"
-	.string "of this is just a game; he can play the\l"
-	.string "hero or whatever he wants, but the\l"
-	.string "truth is that he doesn't follow any\l"
-	.string "principles or pursue anything specific,\l"
-	.string "he hasn't even entered our base to\l"
-	.string "-stop our evil plans-, he just did\l"
-	.string "because it looked as the best option in\l"
-	.string "his paper route, he might even got\l"
-	.string "bored; he doesn't perceives even a\l"
-	.string "little difference between defeating\l"
-	.string "you or me and defeating the casual\l"
-	.string "PICNICKER on ROUTE 9, he believes that\l"
-	.string "winning a battle validates him, as a\l"
-	.string "universal principle that enables him to\l"
-	.string "do and achieve anything, and that's\l"
-	.string "where he goes wrong, thinking this world\l"
-	.string "belongs to him when he has just peered\l"
-	.string "at the tip of the iceberg.$"
+.string "Ese ROJO es bueno, muy bueno. Pero\n"
+	.string "tiene un claro punto débil, {PLAYER}.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.1:
+	.string "Para él, todo esto es un juego, podrá\n"
+	.string "ir de héroe o lo que quiera pero lo\l"
+	.string "cierto es que no sigue ningún tipo de\l"
+	.string "principio ni persigue algo en concreto.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.2:
+	.string "No ha entrado a nuestra base para\n"
+	.string "-detener nuestros malvados planes-,\l"
+	.string "solo estuvo aquí porque le parecía su\l"
+	.string "mejor hoja de ruta, no ve diferencia\l"
+	.string "entre derrotarte a ti o a mí que en\l"
+	.string "derrotar al DOMINGUERO de turno que\l"
+	.string "se encuentre en la RUTA 9.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.3:
+	.string "Cree que el ganar un combate le\n"
+	.string "respalda, como un principio universal\l"
+	.string "bajo el cual puede hacer u obtener\l"
+	.string "cualquier cosa, y ahí está su error:\l"
+	.string "creer que este mundo le pertenece\l"
+	.string "cuando apenas ha asomado a ver la\l"
+	.string "punta del iceberg.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
-.string "…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}…{PAUSE 5}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
-	.string "I want you to visit PALLET TOWN\n"
-	.string "{PLAYER}, apparently RED's origin\l"
-	.string "place.$"
+.string "Quiero que hagas una visita a\n"
+	.string "PUEBLO PALETA.\l"
+	.string "Ese es el lugar de origen de ROJO.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1:
+.string "Le he dejado un regalo, con el\n"
+	.string "que se mantendrá entretenido un rato.\l"
+	.string "Así que no deberás preocuparte por él.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
-	.string "Among all your missions at TEAM ROCKET\n"
-	.string "service, this one could be the most\l"
-	.string "crucial, explore that place, his home,\l"
-	.string "OAK's lab, in search of any data that\l"
-	.string "could be interesting to us.$"
+.string "De las 7 misiones que llevas al\n"
+	.string "servicio del TEAM ROCKET, esta\l"
+	.string "puede ser la de mayor importancia.\l"
+	.string "Explora ese lugar, su casa, el\l"
+	.string "laboratorio de OAK{PAUSE 15}…{PAUSE 15} en busca de\l"
+	.string "cualquier dato que pueda sernos útil.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
-	.string "If we can figure out the reasons why he\n"
-	.string "acts like this, we could definitely\l"
-	.string "neutralize him…{PAUSE 25} One more thing\l"
-	.string "{PLAYER}, avoid OAK, the owner of the\l"
-	.string "research laboratory in the town, as\l"
-	.string "much as possible, if you have no other\l"
-	.string "choice, then use the strength of your\l"
-	.string "POKÉMON.$"
+.string "Si conseguimos averiguar el porqué de\n"
+	.string "sus actos, podremos neutralizarlo{PAUSE 25}…{PAUSE 25}$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
+	.string "Otra cosa más, {PLAYER}.\n"
+	.string "Evita a OAK, el dueño del laboratorio\l"
+	.string "de investigación del pueblo.\l"
+	.string "Lleva varios años retirado, y renunció\l"
+	.string "a sus POKÉMON tras el ascenso de LANCE,\l"
+	.string "pero hoy en día, no creo ni la mitad de\l"
+	.string "cosas que se dicen sobre él.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
+	.string "Fue un ducho ENTRENADOR en el pasado,\n"
+	.string "antes de renunciar a sus principios.\l"
+	.string "Actúa con precaución.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9:
-	.string "That is all, I will be in my private\n"
-	.string "office waiting for results, the real\l"
-	.string "one, not that dirty basement of the\l"
-	.string "floor -4 whose only usefulness is to\l"
-	.string "keep up appearances.$"
+.string "Eso es todo.\n"
+	.string "Estaré en mi despacho del S5, a la espera\l"
+	.string "de resultados, el de verdad, no ese sucio\l"
+	.string "sótano del S4 cuya única utilidad es\l"
+	.string "guardar las apariencias.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_move_1:
 emote_exclamation_mark
@@ -1796,6 +1910,10 @@ step_end
 RocketHideout_5F_Mision_Pueblo_Paleta_move_1.1:
 emote_exclamation_mark
 walk_in_place_up
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_1.2:
+emote_exclamation_mark
 step_end
 
 RocketHideout_5F_Mision_Pueblo_Paleta_move_2:
@@ -1810,6 +1928,8 @@ walk_in_place_right
 step_end
 
 RocketHideout_5F_Mision_Pueblo_Paleta_move_3:
+delay_16
+delay_16
 face_left
 step_end
 
@@ -1841,12 +1961,29 @@ goto_if_gt RocketHideout_5F_Combate_Andra_3
 compare VAR_UNUSED_0x40F7, 52
 goto_if_gt RocketHideout_5F_Combate_Andra_2
 msgbox RocketHideout_5F_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_5F_Combate_Andra_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_5F_Combate_Andra_Texto_1.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_1.2
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_5F_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 58, RocketHideout_5F_Combate_Andra_Move_1
 waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 53
 release
 end
+
+RocketHideout_5F_Combate_Andra_Move_1.2:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 RocketHideout_5F_Combate_Andra_2::
 msgbox RocketHideout_5F_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
@@ -1857,6 +1994,8 @@ end
 
 RocketHideout_5F_Combate_Andra_3::
 msgbox RocketHideout_5F_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_5F_Combate_Andra_Texto_4.1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout_5F_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
@@ -1868,8 +2007,15 @@ playse 559
 msgbox RocketHideout_5F_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_4, RocketHideout_5F_Combate_Andra_Texto_8
 msgbox RocketHideout_5F_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_1.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_5F_Combate_Andra_Texto_9.1 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_DING_DONG
+waitse
+playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Combate_Andra_Move_2
 applymovement 58, RocketHideout_5F_Combate_Andra_Move_2
 waitmovement 0x0
@@ -1904,26 +2050,34 @@ walk_slow_down
 step_end
 
 RocketHideout_5F_Prohibido_Salir_Texto_1:
-	.string "(I have received explicit orders to\n"
-	.string "stay in this place until new notices)$"
+.string "-Tengo órdenes directas de\n"
+	.string "permanecer en este lugar hasta\l"
+	.string "nuevo aviso.-$"
 
 RocketHideout_5F_Combate_Andra_Texto_1:
-	.string "ANDRA: So this is what PETREL referred\n"
-	.string "to when telling us about the CELADON's\l"
-	.string "base has no comparison with the others,\l"
-	.string "it's not just the usual store offerings\l"
-	.string "we can buy; the variety is even more\l"
-	.string "extensive, have you checked out all the\l"
-	.string "research zones?, it appears they are\l"
-	.string "quite committed to the science behind\l"
-	.string "the real power of POKÉMON. {PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10} While\l"
-	.string "it seems we still don't have access to\l"
-	.string "the most important rooms, I knew TEAM\l"
-	.string "ROCKET was a formidable organization,\l"
-	.string "however, on the day of the\l"
-	.string "presentation at FIVE ISLAND, when we\l"
-	.string "met ARCHER, I couldn't grasp that\l"
-	.string "places like these existed…$"
+.string "Así que a esto se refería PETREL,\n"
+	.string "cuando nos dijo que la base de AZULONA\l"
+	.string "nada tenía que ver con las otras.\l"
+	.string "No solo podemos comprar lo que en una\l"
+	.string "tienda normal hay, la oferta es mayor.\l"
+	.string "¿Has visto todas las zonas de\l"
+	.string "investigación que hay?\l"
+	.string "Parece que se toman muy en serio la\l"
+	.string "ciencia detrás del poder de los POKÉMON.$"
+
+RocketHideout_5F_Combate_Andra_Texto_1.1:
+	.string "…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
+
+RocketHideout_5F_Combate_Andra_Texto_1.2:
+	.string "Aunque parece que aún no tenemos\n"
+	.string "acceso a las salas de mayor\l"
+	.string "importancia, sabía que el TEAM\l"
+	.string "ROCKET era una organización\l"
+	.string "poderosa, pero el día de la\l"
+	.string "presentación en ISLA INTA, cuando\l"
+	.string "conocimos a ATLAS, no cabía en mi\l"
+	.string "cabeza que existieran lugares\l"
+	.string "así{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_5F_Combate_Andra_Texto_2:
 	.string "Either way, we're both in a phase of\n"
@@ -1932,70 +2086,81 @@ RocketHideout_5F_Combate_Andra_Texto_2:
 	.string "thieves, don't you agree?$"
 
 RocketHideout_5F_Combate_Andra_Texto_3:
-	.string "ANDRA: I will stay here for a while\n"
-	.string "thinking about this place, maybe you\l"
-	.string "must do the same {PLAYER}, I hope to\l"
-	.string "concur with you in the future.$"
+.string "Voy a quedarme aquí un rato,\n"
+	.string "reflexionando sobre este lugar.\l"
+	.string "Tal vez tú debas hacer lo mismo,\l"
+	.string "espero volver a coincidir\l"
+	.string "contigo en misiones futuras.$"
 
 RocketHideout_5F_Combate_Andra_Texto_4:
-	.string "ANDRA: You know what {PLAYER}, I\n"
-	.string "think that behind these doors, there\l"
-	.string "are many things the elites of this\l"
-	.string "region don't want us to discover, a\l"
-	.string "knowledge that extends far beyond the\l"
-	.string "KANTO region, I want to be part of this\l"
-	.string "place too, and that means being the\l"
-	.string "best TRAINER I can be, I don't have time\l"
-	.string "to waste {PLAYER}, I'll keep training\l"
-	.string "my POKÉMON until no one in this\l"
-	.string "organization can even come close my\l"
-	.string "level.$"
+.string "¿Sabes que, {PLAYER}?\n"
+	.string "Creo que detrás de estas puertas se\l"
+	.string "hallan muchas cosas que las élites de\l"
+	.string "esta región no quieren que sepamos,\l"
+	.string "un conocimiento que va mucho más\l"
+	.string "allá de la región de KANTO.$"
+
+RocketHideout_5F_Combate_Andra_Texto_4.1:
+	.string "Yo también quiero formar parte de este\n"
+	.string "lugar, y eso pasa por ser la mejor\l"
+	.string "ENTRENADORA posible.\l"
+	.string "No hay tiempo que perder, {PLAYER}:\l"
+	.string "seguiré entrenando hasta que nadie de\l"
+	.string "esta organización pueda siquiera\l"
+	.string "acercarse a mi nivel.$"
 
 RocketHideout_5F_Combate_Andra_Texto_5:
-.string "{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…$"
+.string "{PAUSE 15}…{PAUSE 15} … {PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout_5F_Combate_Andra_Texto_6:
-	.string "The mysteriously TRAINER is here? And\n"
-	.string "GIOVANNI doesn't want us to move even\l"
-	.string "a bit of this place until that shrimp\l"
-	.string "gets out?$"
+.string "¡¿El ENTRENADOR misterioso\n"
+	.string "está aquí?!\l"
+	.string "¿Y GIOVANNI no quiere que movamos\l"
+	.string "un dedo de este lugar hasta que\l"
+	.string "ese renacuajo se largue?$"
 
 RocketHideout_5F_Combate_Andra_Texto_7:
-	.string "ANDRA: I can't waste more time.\n"
-	.string "I already have defeated all the HIGH\l"
-	.string "RANKS of this place, I wanted to keep\l"
-	.string "improving even more until fighting\l"
-	.string "against you but…{PAUSE 25} You have no idea how\l"
-	.string "much my POKÉMON have grown since our\l"
-	.string "last battle!$"
+.string "No puedo perder más el tiempo.\n"
+	.string "Ya he derrotado a todos los ALTO RANGO\l"
+	.string "de aquí, quería seguir mejorando aún\l"
+	.string "más, antes de volver a tener un combate\l"
+	.string "contigo pero{PAUSE 25}…{PAUSE 25}\l"
+	.string "¡No te haces una idea de lo mucho\l"
+	.string "que han crecido mis POKÉMON!$"
 
 RocketHideout_5F_Combate_Andra_Texto_8:
 	.string "I still don't understand how you do it.$"
 
 RocketHideout_5F_Combate_Andra_Texto_9:
-	.string "ANDRA: I should have supposed that you\n"
-	.string "also take advantage of the objects and\l"
-	.string "resources that we have access, and I\l"
-	.string "see that you became even tougher due\l"
-	.string "to your missions at LAVENDER and ROCK\l"
-	.string "TUNNEL, I am convinced that if you and\l"
-	.string "I went to the upper floor right now and\l"
-	.string "faced that RED, we would defeat him, we\l"
-	.string "are not the same like we were at the\l"
-	.string "MT.MOON mission!$"
+.string "Debí suponer que tú también sabrías\n"
+	.string "sacar provecho de los objetos y recursos\l"
+	.string "que aquí nos ofrecen. Veo que te has\l"
+	.string "endurecido aún más, gracias a tus\l"
+	.string "misiones en PUEBLO LAVANDA y el TÚNEL\l"
+	.string "ROCA.$"
+	
+RocketHideout_5F_Combate_Andra_Texto_9.1:
+	.string "Tengo el convencimiento de que, si tú y\n"
+	.string "yo saliéramos ahora mismo al S4 y\l"
+	.string "enfrentáramos a ese ROJO, le\l"
+	.string "derrotaríamos. ¡Hemos cambiado\l"
+	.string "mucho desde la misión del MT.MOON!$"
 
 RocketHideout_5F_Combate_Andra_Texto_10:
-	.string "WARNING FOR ALL HIGH RANKS AND\n"
-	.string "EXECUTIVES: The mysteriously TRAINER\l"
-	.string "just left our base, you're free to go\l"
-	.string "outside now.$"
+.string "-AVISO PARA TODOS LOS RECLUTAS DE\n"
+	.string "ALTO RANGO Y EJECUTIVOS-\p"
+	.string "-El misterioso ENTRENADOR acaba de\n"
+	.string "abandonar nuestra BASE, ya sois\l"
+	.string "libres de salir al exterior.-$"
 
 RocketHideout_5F_Combate_Andra_Texto_11:
-	.string "ANDRA: Perfect. KANTO is waiting for me,\n"
-	.string "{PLAYER}. I'll be undergoing special\l"
-	.string "training as long as I'm not assigned to\l"
-	.string "any missions, you won't recognize my\l"
-	.string "POKÉMON the next time we battle!$"
+.string "ANDRA: Perfecto.\n"
+	.string "KANTO me espera, {PLAYER}.\l"
+	.string "Voy a llevar a cabo un entrenamiento\l"
+	.string "especial, mientras no me soliciten para\l"
+	.string "ninguna misión, ¡no reconocerás a mis\l"
+	.string "POKÉMON la próxima vez que los tengas\l"
+	.string "delante!$"
 
 RocketHideout_5F_Combate_Andra_Move_1:
 walk_in_place_up
@@ -2118,9 +2283,8 @@ playse SE_SHOP
 removemoney 55000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SNEASEL, 26, ITEM_NONE
 release
 end
@@ -2138,9 +2302,8 @@ playse SE_SHOP
 removemoney 80000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_ELECTABUZZ, 30, ITEM_NONE
 release
 end
@@ -2158,9 +2321,8 @@ playse SE_SHOP
 removemoney 42000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_NIDORINO, 23, ITEM_NONE
 release
 end
@@ -2178,9 +2340,8 @@ playse SE_SHOP
 removemoney 35000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_RHYHORN, 23, ITEM_NONE
 release
 end
@@ -2198,9 +2359,8 @@ playse SE_SHOP
 removemoney 17500 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_SHELLDER, 18, ITEM_NONE
 release
 end
@@ -2218,9 +2378,8 @@ playse SE_SHOP
 removemoney 12000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_NIDORAN_F, 15, ITEM_NONE
 release
 end
@@ -2275,6 +2434,8 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout5F_Secundaria_Frank_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_3
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_4
@@ -2298,6 +2459,7 @@ delay 15
 playse SE_PIN
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_2
 waitmovement 0x0
+waitse
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_10
 waitmovement 0x0
 msgbox RocketHideout5F_Secundaria_Frank_Texto_7 MSGBOX_AUTOCLOSE
@@ -2319,8 +2481,10 @@ msgbox RocketHideout5F_Secundaria_Frank_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_6
 waitmovement 0x0
 msgbox RocketHideout5F_Secundaria_Frank_Texto_14 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_1
 waitmovement 0x0
+waitse
 msgbox RocketHideout5F_Secundaria_Frank_Texto_15 MSGBOX_AUTOCLOSE
 applymovement 48, RocketHideout5F_Secundaria_Frank_Move_13
 waitmovement 0x0
@@ -2402,8 +2566,6 @@ emote_exclamation_mark
 step_end
 
 RocketHideout5F_Secundaria_Frank_Move_1:
-delay_8
-delay_8
 walk_in_place_right
 delay_8
 delay_8

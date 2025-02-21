@@ -178,6 +178,20 @@ end
 
 SouthRoute45_SudowoodoRest_Text:
 	.string "…\n"
-	.string "…\l"
-	.string "(It's a POKÉMON. It\l"
-	.string "seems to be resting)$"
+	.string "…\p"
+	.string "-Es un POKÉMON, parece\n"
+	.string "estar reposando-.$"
+
+SouthRoute45_Evento_Encinar::
+lock
+setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
+setflag FLAG_HOENN_674
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+setvar VAR_UNUSED_0x40F8, 29
+waitmovement 0x0
+warpsilent MAP_ILEX_FOREST, 17, 52
+waitmovement 0x0
+delay 100
+release
+end

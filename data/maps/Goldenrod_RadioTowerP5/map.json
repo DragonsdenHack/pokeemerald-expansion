@@ -15,7 +15,7 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_JUAN",
+      "graphics_id": "OBJ_EVENT_GFX_PRESIDENTE",
       "x": 8,
       "y": 6,
       "elevation": 3,
@@ -198,8 +198,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 13,
-      "y": 16,
+      "x": 8,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -234,6 +234,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_RECEIVED_SHOAL_SHELL_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARIANA",
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_5"
     }
   ],
   "warp_events": [
@@ -241,8 +254,15 @@
       "x": 2,
       "y": 20,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P4",
-      "dest_warp_id": 2
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P10",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -273,6 +293,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "GoldenrodRadioTowerP5Documento_100"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodRadioTowerP10_Teletransporte"
     }
   ]
 }

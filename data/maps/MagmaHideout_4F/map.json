@@ -16,8 +16,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GROUDON_FRONT",
-      "x": 14,
-      "y": 17,
+      "x": 16,
+      "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MagmaHideout_4F_EventScript_Grunt11",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MagmaHideout_4F_EventScript_Grunt12",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
@@ -64,25 +64,25 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "MagmaHideout_4F_EventScript_Grunt13",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 22,
-      "y": 4,
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 3,
+      "y": 22,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 1,
       "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
-      "script": "MagmaHideout_4F_EventScript_Tabitha",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagmaHideout_4F_EventScript_MT128",
+      "flag": "FLAG_HOENN_153"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
-      "x": 22,
-      "y": 27,
+      "graphics_id": "OBJ_EVENT_GFX_DEVON3",
+      "x": 5,
+      "y": 19,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -90,12 +90,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MagmaHideout_4F_EventScript_Maxie",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS"
+      "flag": "FLAG_HOENN_23"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GROUDON_ASLEEP",
       "x": 16,
-      "y": 17,
+      "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -103,12 +103,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP"
+      "flag": "FLAG_HOENN_24"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 3,
-      "y": 7,
+      "x": 49,
+      "y": 15,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -136,7 +136,42 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "220",
+      "script": "MagmaHideout_4F_Encuentro_Amatista_Centro"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "220",
+      "script": "MagmaHideout_4F_Encuentro_Amatista_Izquierda"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "220",
+      "script": "MagmaHideout_4F_Encuentro_Amatista_Derecha"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "221",
+      "script": "MagmaHideout_4F_Encuentro_Groudon"
+    }
   ],
   "bg_events": [
 

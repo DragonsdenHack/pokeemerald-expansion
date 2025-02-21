@@ -15,7 +15,6 @@ Route101_OnFrame:
 	.2byte 0
 
 Route101_EventScript_HideMapNamePopup::
-	setflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_ROUTE101_STATE, 1
 	end
 
@@ -297,6 +296,6 @@ Route101_Text_WildPokemonInTallGrass:
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "RUTA 101\n"
+	.string "{UP_ARROW} PUEBLO ESCASO$"
 

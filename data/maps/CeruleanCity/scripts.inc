@@ -174,6 +174,14 @@ waitmovement 0
 playse SE_PIN
 applymovement 4, CeruleanCity_Rocket_Excavar_move3
 msgbox CeruleanCity_Rocket_Excavar_Text_1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_Rocket_Excavar_move1
+waitmovement 0x0
+delay 10
+msgbox CeruleanCity_Rocket_Excavar_Text_1.1, MSGBOX_AUTOCLOSE
+delay 10
+msgbox CeruleanCity_Rocket_Excavar_Text_1.2, MSGBOX_AUTOCLOSE
+delay 10
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 warp MAP_CERULEAN_CITY_HOUSE2, 5, 5
 release
@@ -182,11 +190,21 @@ end
 
 
 CeruleanCity_Rocket_Excavar_Text_1:
-	.string "Hey, ROCKET! You want in on a good deal?\n"
-	.string "PETREL sent me and another GRUNT on a\l"
-	.string "mission in CERULEAN CITY, and we\l"
-	.string "thought an extra hand would do some\l"
-	.string "good. You in?$"
+.string "¡Hey, ROCKET!\n"
+	.string "¿Te gustaría formar parte de un buen\l"
+	.string "negocio?\l"
+	.string "Nos han encargado a mí y a otro\l"
+	.string "colega una misión en CIUDAD\l"
+	.string "CELESTE y pensamos que nos vendría\l"
+	.string "bien algo de ayuda, ¿qué dices?$"
+
+CeruleanCity_Rocket_Excavar_Text_1.1:
+	.string "…\n"
+	.string "…$"
+
+CeruleanCity_Rocket_Excavar_Text_1.2:
+	.string "¡Perfecto!\n"
+	.string "¡Allá vamos!$"
 
 CeruleanCity_Rocket_Excavar_move1:
 walk_in_place_up

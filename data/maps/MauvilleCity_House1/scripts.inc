@@ -1,6 +1,23 @@
 MauvilleCity_House1_MapScripts::
 	.byte 0
 
+MauvilleCity_House1_Cientifico::
+lock
+faceplayer
+msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis MSGBOX_AUTOCLOSE
+delay 15
+msgbox MauvilleCity_House1_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_House1_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_House1_Cientifico_Texto_1:
+	.string "¡Espera!$"
+
+MauvilleCity_House1_Cientifico_Texto_2:
+	.string "¡Ya tienes esa MO!$"
+
+
 MauvilleCity_House1_EventScript_RockSmashDude::
 	lock
 	faceplayer

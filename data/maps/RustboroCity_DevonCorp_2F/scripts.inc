@@ -276,9 +276,10 @@ RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 	.string "But we haven't had much success…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…$"
+	.string	"Estoy desarrollando nuevos tipos\n"
+	.string	"de POKé BALLS…\p"
+	.string	"En fin, lo cierto es que aún no he\n"
+	.string	"descubierto nada que funcione…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "We finally made new kinds of\n"
@@ -292,9 +293,9 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "Please give them a try!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string	"¡Soy el creador del POKéNAV!\p"
+	.string	"¡Como ingeniero, es un gran orgullo\n"
+	.string	"ser el autor de esta maravilla!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Oh, wow!\n"
@@ -327,9 +328,9 @@ RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "FOSSIL REGENERATOR.$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "DEVON's technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string	"¿No quieres?\p"
+	.string	"Mira que la tecnología DEVON\n"
+	.string	"es algo nunca visto…{PAUSE 5}$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "Oh, now that's a surprise!\n"
@@ -340,18 +341,18 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "fossils for regeneration?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string	"¡Maravilloso!\n"
+	.string	"Pongámonos manos a la obra.\p"
+	.string	"{PLAYER} entregó el {STR_VAR_1} al\n"
+	.string	"INVESTIGADOR de DEVON.$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string	"El REGENERADOR de FÓSILES\n"
+	.string	"que he ideado es algo impresionante.\p"
+	.string	"Pero tiene un problemilla… Tarda\n"
+	.string	"un montón en funcionar…\p"
+	.string	"Así que, ejem, ¿por qué no vas a darte\n"
+	.string	"una vueltecita mientras tanto?$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 	.string "Thanks for waiting!\p"
@@ -361,8 +362,8 @@ RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 	.string "{STR_VAR_2}, it was!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string	"{PLAYER} recibió {STR_VAR_2} del\n"
+	.string	"INVESTIGADOR de DEVON.$"
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:

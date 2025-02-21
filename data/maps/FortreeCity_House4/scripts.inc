@@ -75,23 +75,21 @@ FortreeCity_House4_Text_GoBirdPokemon:
 	.string "Go, BIRD POKÉMON!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
-	.string "an errand for me.$"
+	.string	"Je, je, he mandado a mi WINGULL\n"
+	.string	"a hacerme un recado.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good!\n"
-	.string "Welcome back, WINGULL!\p"
-	.string "Huh? What is this?\n"
-	.string "What is it holding?\p"
-	.string "A MENTAL HERB?\n"
-	.string "It must have picked it up somewhere.\p"
-	.string "But I'm not a TRAINER, so you can\n"
-	.string "have it.$"
+	.string	"¡Muy bien, WINGULL!\p"
+	.string	"¿Eh? ¿Qué llevas ahí?\p"
+	.string	"¿Una HIERBA MENTAL?\n"
+	.string	"¿De dónde la habrá cogido?\p"
+	.string	"A mí no me sirve porque no soy\n"
+	.string	"ENTRENADOR. Toma, para ti.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
-	.string "who live far away.$"
+	.string	"Gracias a mi WINGULL, he hecho amigos\n"
+	.string	"por todas partes.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string	"WINGULL: ¡Winguuu!$"
 

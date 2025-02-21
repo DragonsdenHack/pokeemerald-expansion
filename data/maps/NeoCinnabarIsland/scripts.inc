@@ -25,24 +25,31 @@ applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, NeoCinnabarIsland_Evento_Oak_Move_1
 waitmovement 0x0
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_5
 waitmovement 0x0
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, NeoCinnabarIsland_Evento_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 msgbox NeoCinnabarIsland_Evento_Oak_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
-fadescreen 1
-delay 20
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 3
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
 setvar VAR_UNUSED_0x40F7, 192
 release
 end

@@ -140,6 +140,7 @@ waitmovement 0x0
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
 delay 30
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_2
@@ -213,24 +214,36 @@ playse SE_PIN
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_9
 applymovement 5, CherrygroveCity_Entrenamiento_Pegaso_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_11
 applymovement 5, CherrygroveCity_Entrenamiento_Pegaso_Move_10
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_13
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_7
@@ -241,28 +254,40 @@ waitmoncry
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_14
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_13
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, CherrygroveCity_Entrenamiento_Pegaso_Move_12
 waitmovement 0x0
+delay 10
 msgbox CherrygroveCity_Entrenamiento_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
-fadescreen 1
+removeobject 3
 playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 3
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
 removeobject 7
-fadescreen 0
 setvar VAR_UNUSED_0x40FD, 2
 release
 end
@@ -388,7 +413,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
 	.string "through in battle.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_10:
-.string "PIDGEOT: Bi bibii!$"
+.string "PIDGEOT: ¡Bi bibii!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_11:
 	.string "HORACE's PIDGEOT can handle itself\n"
@@ -443,6 +468,7 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_2::
+faceplayer
 msgbox Cherrygrove_Combate_Pidgeot_Perfecto_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Cherrygrove_Combate_Pidgeot_Perfecto_No

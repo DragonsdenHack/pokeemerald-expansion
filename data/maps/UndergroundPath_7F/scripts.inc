@@ -60,6 +60,8 @@ release
 end
 
 UndergroundPath_7F_Cajas::
+compare VAR_ROUTE105_STATE, 9
+goto_if_eq UndergroundPath_7F_Cajas_2
 compare VAR_ROUTE105_STATE, 10
 goto_if_eq UndergroundPath_7F_Cajas_2
 release
@@ -155,24 +157,36 @@ delay 5
 playse SE_PIN
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, UndergroundPath_7F_Combates_Motoristas_Move_3
+delay 5
 applymovement 2, UndergroundPath_7F_Combates_Motoristas_Move_3
+delay 5
 applymovement 21, UndergroundPath_7F_Combates_Motoristas_Move_3
 waitmovement 0x0
+waitse
 delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_8 MSGBOX_AUTOCLOSE
@@ -214,8 +228,10 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_19 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, UndergroundPath_7F_Combates_Motoristas_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combates_Motoristas_Texto_21 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE105_STATE, 8
 release
@@ -474,17 +490,25 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_2 MSGBOX_AUTOCLOSE
 delay 30
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_7 MSGBOX_AUTOCLOSE
@@ -500,9 +524,12 @@ delay 15
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_6
 waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
 playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
@@ -510,10 +537,14 @@ waitmoncry
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Combate_LtSurge_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_14 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 trainerbattle_no_intro TRAINER_TRAINER_216, UndergroundPath_7F_Combate_LtSurge_Texto_15
@@ -551,10 +582,12 @@ removeobject 15
 delay 30
 delay 30
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+waitse
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_22 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_23 MSGBOX_AUTOCLOSE
@@ -565,7 +598,9 @@ msgbox UndergroundPath_7F_Combate_LtSurge_Texto_25 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_26 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_27 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 10
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2
 addobject 22
 setvar VAR_ROUTE105_STATE, 9
@@ -702,7 +737,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_14:
 .string "It's a guerrilla-style war!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_15:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_16:
 	.string "What did you think of that little\n"
@@ -773,55 +808,82 @@ applymovement 17, UndergroundPath_7F_Escena_Final_Move_3
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_3
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_7
 waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_65 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_66 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_10
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_67 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_68 MSGBOX_AUTOCLOSE
 delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_69 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_11
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_70 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_71 MSGBOX_AUTOCLOSE
@@ -834,17 +896,25 @@ waitmovement 0x0
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_72 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_73 MSGBOX_AUTOCLOSE
@@ -860,8 +930,10 @@ delay 15
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_16
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_17
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_74 MSGBOX_AUTOCLOSE
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
@@ -885,13 +957,18 @@ applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_6
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_21 MSGBOX_AUTOCLOSE
 playse 603
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_TRAINER_194, UndergroundPath_7F_Escena_Final_Texto_23
 msgbox UndergroundPath_7F_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
@@ -901,11 +978,16 @@ delay 15
 playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_20
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_26 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_14
@@ -917,15 +999,26 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_28 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+waitse
 msgbox UndergroundPath_7F_Escena_Final_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+msgbox UndergroundPath_7F_Escena_Final_Texto_29.1 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_30 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_22
+delay 5
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_22
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_31 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 24
@@ -934,12 +1027,17 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_32 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_33 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_36 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_37 MSGBOX_AUTOCLOSE
@@ -950,16 +1048,23 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_39 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+delay 5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+delay 5
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_24
 waitmovement 0x0
+delay 5
 msgbox UndergroundPath_7F_Escena_Final_Texto_40 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_25
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_41 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_42 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_43 MSGBOX_AUTOCLOSE
@@ -988,9 +1093,13 @@ playse SE_PIN
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
 waitmovement 0x0
+waitse
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_49.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_50 MSGBOX_AUTOCLOSE
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
@@ -1001,9 +1110,11 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_52 MSGBOX_AUTOCLOSE
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_53 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_14
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_27
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_54 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_841
 fadescreen 1
@@ -1028,24 +1139,34 @@ delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_28
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_55 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_56 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 23, UndergroundPath_7F_Escena_Final_Move_29
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_57 MSGBOX_AUTOCLOSE
 removeobject 23
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_30
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_58 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_59 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_60 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_31
 waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_61 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
@@ -1325,7 +1446,7 @@ UndergroundPath_7F_Escena_Final_Texto_70:
 	.string "take all the time you need.$"
 
 UndergroundPath_7F_Escena_Final_Texto_71:
-	.string "LT.SURGE: …$"
+	.string "LT.SURGE: {PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_11:
 	.string "PETREL: Listen, {PLAYER}. Whether\n"
@@ -1431,27 +1552,31 @@ UndergroundPath_7F_Escena_Final_Texto_26:
 	.string "LT.SURGE: This is not over yet!$"
 
 UndergroundPath_7F_Escena_Final_Texto_27:
-	.string "That's why you lost! Because you don't\n"
-	.string "know how to push the enemy to the limit.\l"
-	.string "{PLAYER}'s POKÉMON are close to faint,\l"
-	.string "and you'll let them go now?$"
+.string "¡Por eso perdisteis! ¡No sabéis llevar al\n"
+	.string "enemigo hasta el límite, los POKÉMON de\l"
+	.string "{PLAYER} están cerca del colapso!\p"
+	.string "¡¿Y váis a dejarle ir ahora?!$"
 
 UndergroundPath_7F_Escena_Final_Texto_28:
-.string "KOGA: SURGE, it's enou… $"
+.string "KOGA: SURGE, es suficien{PAUSE 5}…{PAUSE 5}$"
 
 UndergroundPath_7F_Escena_Final_Texto_29:
-	.string "LT.SURGE: No! Now is the opportunity to\n"
-	.string "finish off the enemy! That's why I'm\l"
-	.string "here!$"
+.string "LT.SURGE: ¡No! ¡Ahora es la ocasión de\n"
+	.string "acabar con el enemigo!\p"
+	.string "¡Para eso estoy yo aquí!$"
+
+UndergroundPath_7F_Escena_Final_Texto_29.1:
+	.string "¡De esta sí que no te libras,\n"
+	.string "{PLAYER}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_30:
-.string "RAICHU! THUND…!$"
+.string "¡Ahora, GOROCHU! ¡TRUEN…!$"
 
 UndergroundPath_7F_Escena_Final_Texto_31:
 .string "????: It's over!$"
 
 UndergroundPath_7F_Escena_Final_Texto_32:
-.string "PETREL: A…ANDRA.$"
+.string "PETREL: A{PAUSE 25}…{PAUSE 25} ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_33:
 .string "ANDRA: I see{PAUSE 25}…{PAUSE 25} You{PAUSE 15}…$"

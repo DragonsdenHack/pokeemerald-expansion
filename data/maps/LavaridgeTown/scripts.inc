@@ -245,7 +245,7 @@ LavaridgeTown_EventScript_EggWoman::
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedTheEgg
 	waitfanfare
-	giveegg SPECIES_WYNAUT
+	giveegg SPECIES_MUDKIP
 	release
 	end
 
@@ -334,20 +334,20 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "Will you take this EGG to hatch?$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
-	.string "Good! I hope you'll walk plenty with\n"
-	.string "this here EGG!$"
+	.string	"¡Bien! ¡Espero que corras muchas\n"
+	.string	"aventuras junto a mi HUEVO!$"
 
 LavaridgeTown_Text_ReceivedTheEgg:
-	.string "{PLAYER} received the EGG.$"
+	.string	"{PLAYER} recibió un HUEVO.$"
 
 LavaridgeTown_Text_NoRoomForThisEgg:
 	.string "Oh? You've too many POKÉMON.\n"
 	.string "There's no room for this EGG…$"
 
 LavaridgeTown_Text_AsYouWishThen:
-	.string "As you wish, then…\p"
-	.string "If you have a change of heart about\n"
-	.string "hatching this EGG, I will be here.$"
+	.string	"Como desees…\p"
+	.string	"Pero si cambias de opinión sobre el\n"
+	.string	"HUEVO, ven a verme.$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "Every so often, an EGG will be found at\n"
@@ -355,13 +355,13 @@ LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "Or at least that's how the rumor goes.$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
-	.string "We draw as much hot water as we need,\n"
-	.string "and yet the hot springs never run dry.\p"
-	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+	.string	"Extraemos toda el agua caliente que\n"
+	.string	"necesitamos, pero la fuente no se seca.\p"
+	.string	"¿A que parece magia?\p"
+	.string	"Estos baños termales parecen casi\n"
+	.string	"volcanes. Los canales de agua\l"
+	.string	"subterránea se calientan con el\l"
+	.string	"magma y luego salen a la superficie.$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
 	.string "Being buried in this hot sand is…\n"
@@ -371,14 +371,17 @@ LavaridgeTown_Text_PokemonNippedBackside:
 	.string "A POKÉMON nipped my backside!$"
 
 LavaridgeTown_Text_OhYouLikeHotSprings:
-	.string "Oh, you like hot springs, do you?\p"
-	.string "That's surprising for one as young\n"
-	.string "as you.$"
+	.string "¿A ti también te gustan los baños\n"
+	.string "termales?\p"
+	.string "Es curioso, la gente joven no suele\n"
+	.string "interesarse por esto{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
-	.string "I bathe in the hot springs every day.\p"
-	.string "I want to become a beautiful and strong\n"
-	.string "GYM LEADER like FLANNERY.$"
+	.string	"Yo me baño en las aguas termales\n"
+	.string	"cada día del año.\p"
+	.string	"Son tan benéficas que sin duda me\n"
+	.string	"convertirán en una LÍDER de GIMNASIO\l"
+	.string	"tan fuerte como CANDELA.$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
 	.string "If people put POKÉMON in hot springs,\n"
@@ -387,11 +390,10 @@ LavaridgeTown_Text_IfPokemonInHotSprings:
 	.string "a bubble bath, or even a lava bath…$"
 
 LavaridgeTown_Text_HotSpringsClaims:
-	.string "They're claiming that these hot springs\n"
-	.string "are good for calming nervous tension,\l"
-	.string "relieving aching muscles, solving\l"
-	.string "romantic problems, and attracting\l"
-	.string "money…$"
+	.string	"Aseguran que estos baños termales\n"
+	.string	"son buenos para los nervios, los dolores\l"
+	.string	"musculares, los problemas amorosos,\l"
+	.string	"los granos, los bolsillos sin blanca{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_TownSign:
 	.string "LAVARIDGE TOWN\p"

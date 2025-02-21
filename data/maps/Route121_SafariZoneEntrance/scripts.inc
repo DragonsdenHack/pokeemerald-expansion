@@ -49,15 +49,23 @@ Route121_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	waitmovement 0
 	showmoneybox 0, 0
 	msgbox Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone
-	msgbox Route121_SafariZoneEntrance_Text_PlayAnotherTime, MSGBOX_DEFAULT
-	goto Route121_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter
+	compare VAR_RESULT, 0
+    goto_if_eq Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay_No
+	goto Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone
 	end
 
+Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay_No::
+    hidemoneybox
+	msgbox Route121_SafariZoneEntrance_Text_PlayAnotherTime, MSGBOX_AUTOCLOSE
+	applymovement OBJ_EVENT_ID_PLAYER, PlayAnotherTime_Move_1
+	waitmovement 0x0
+	end
+
+PlayAnotherTime_Move_1:
+	walk_right
+	step_end
+
 Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone::
-	checkitem ITEM_POKEBLOCK_CASE
-	goto_if_eq VAR_RESULT, 0, Route121_SafariZoneEntrance_EventScript_NoPokeblockCase
-	call Route121_SafariZoneEntrance_EventScript_CheckHasRoomForPokemon
 	checkmoney 500
 	goto_if_eq VAR_RESULT, 0, Route121_SafariZoneEntrance_EventScript_NotEnoughMoney
 	playse SE_SHOP

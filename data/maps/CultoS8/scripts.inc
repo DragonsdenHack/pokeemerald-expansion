@@ -5,41 +5,70 @@ CultoS8_Combate_Lider::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, CultoS8_Combate_Lider_Move_1
 waitmovement 0x0
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, CultoS8_Combate_Lider_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox CultoS8_Combate_Lider_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CultoS8_Combate_Lider_Move_2
 waitmovement 0x0
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_2 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, CultoS8_Combate_Lider_Move_1.2
 applymovement 10, CultoS8_Combate_Lider_Move_3
 waitmovement 0x0
+special RemoveCameraObject
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_3 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CULTO_2, CultoS8_Combate_Lider_Texto_4 
 applymovement OBJ_EVENT_ID_PLAYER, CultoS8_Combate_Lider_Move_4
 waitmovement 0x0
 msgbox CultoS8_Combate_Lider_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CultoS8_Combate_Lider_Move_4
 waitmovement 0x0
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
 applymovement 10, CultoS8_Combate_Lider_Move_5
 waitmovement 0x0
+waitse
+delay 10
 applymovement 10, CultoS8_Combate_Lider_Move_2
 waitmovement 0x0
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox CultoS8_Combate_Lider_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox CultoS8_Combate_Lider_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CultoS8_Combate_Lider_Move_4
 waitmovement 0x0
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, CultoS8_Combate_Lider_Move_6
 waitmovement 0x0
+delay 10
 msgbox CultoS8_Combate_Lider_Texto_12 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 171
 release
 end
+
+CultoS8_Combate_Lider_Move_1.1:
+walk_slow_up
+step_end
+
+CultoS8_Combate_Lider_Move_1.2:
+walk_slow_down
+step_end
 
 CultoS8_Combate_Lider_Texto_1:
 .string "{PLAYER}, you are back.$"
@@ -147,12 +176,15 @@ CultoS8_Meditando_Texto_1:
 
 CultoS8_Llamada_Giovanni::
 lock
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox CultoS8_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 setvar VAR_UNUSED_0x40F7, 172
 delay 20
 msgbox CultoS8_Llamada_Giovanni_Texto_2 MSGBOX_YESNO
@@ -167,15 +199,22 @@ CultoS8_Llamada_Giovanni_Texto_2:
 	.string "BASE in JOHTO?$"
 
 CultoS8_Llamada_Giovanni_Texto_1:
-	.string "GIOVANNI: Have you discovered\n"
-	.string "something, {PLAYER}? … … The RUINS OF\l"
-	.string "ALPH? Just as we suspected. If even a\l"
-	.string "NATU sneezes in the tall grass, we'll be\l"
-	.string "aware. We're keeping the entire area\l"
-	.string "under surveillance. … … You say LUGIA\l"
-	.string "and HO-OH have nothing to do with that\l"
-	.string "TRAINER's purpose? That's better. Now,\l"
-	.string "head to BLACKTHORN CITY, {PLAYER}.\l"
-	.string "The DRAGON MASTER should be there,\l"
-	.string "possibly with the strongest DEEP BOND\l"
-	.string "POKÉMON.$"
+.string "GIOVANNI: ¿Has averiguado algo,\n"
+	.string "{PLAYER}?\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿RUINAS ALFA?\p"
+	.string "Tal y como sospechamos, si un NATU\n"
+	.string "estornuda en su hierba alta, lo\l"
+	.string "sabremos. Toda la zona estará\l"
+	.string "vigilada.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Dices que LUGIA y HO-OH nada\n"
+	.string "tienen que ver con el propósito\l"
+	.string "de ese ENTRENADOR?\p"
+	.string "Entonces, mejor. Ahora sí, dirígete\n"
+	.string "a CIUDAD ENDRINO, {PLAYER}, el\l"
+	.string "MAESTRO DRAGÓN debe estar allí,\l"
+	.string "con el seguramente NO LEGENDARIO\l"
+	.string "más poderoso de toda JOHTO.$"

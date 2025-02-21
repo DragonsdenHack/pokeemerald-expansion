@@ -100,7 +100,42 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 24,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
+    }
   ],
   "bg_events": [
 

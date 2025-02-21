@@ -106,6 +106,9 @@ fadescreen 1
 delay 40
 fadescreen 0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_2
 applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
 waitmovement 0x0
@@ -116,7 +119,9 @@ addobject 4
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
@@ -130,6 +135,18 @@ msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.1 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_7
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10 MSGBOX_AUTOCLOSE
@@ -140,29 +157,49 @@ applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12 MSGBOX_AUTOCLOSE
 showmoneybox 0, 0
-delay 15
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 25
 playse SE_SHOP
-addmoney 140000 0
+addmoney 175000 0
 updatemoneybox
 delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_EVIOLITE
 waitfanfare
 delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.2 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17 MSGBOX_AUTOCLOSE
@@ -173,22 +210,129 @@ applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19 MSGBOX_AUTOCLOSE
 playse SE_PIN
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+waitmovement 0x0
+waitse
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+addobject 11
+delay 15
+showmonpic SPECIES_ZAPDOS, 17, 1   
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.2 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+playse SE_PIN
 applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
 waitmovement 0x0
+waitse
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+showmonpic SPECIES_ARTICUNO, 17, 1   
+playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.1 MSGBOX_AUTOCLOSE
+delay 10
+showmonpic SPECIES_MOLTRES, 17, 1   
+playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.3 MSGBOX_AUTOCLOSE
+delay 5
+hidemonpic
+delay 5
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+removeobject 11
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.3
+waitmovement 0x0
+delay 5
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.3 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.4 MSGBOX_DEFAULT
+waitfanfare
+playse SE_PIN
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.5 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.4
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
@@ -209,245 +353,322 @@ setvar VAR_UNUSED_0x40F7, 63
 release
 end
 
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.4:
+face_right
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.1:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.2:
+face_down
+step_end
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Move_12.3:
+walk_slow_right
+delay_16
+delay_8
+walk_slow_left
+delay_16
+delay_8
+step_end
+
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_1:
-	.string "GIOVANNI: What do you think,\n"
-	.string "{PLAYER}? A superior workplace to\l"
-	.string "that musty B4F, wouldn't you say? So did\l"
-	.string "you discover something?$"
+.string "GIOVANNI: ¿Qué te parece, {PLAYER}?\n"
+	.string "Un lugar de trabajo más apropiado\l"
+	.string "que la tapadera del S4, ¿cierto?\l"
+	.string "¿Has descubierto algo?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
-	.string "GIOVANNI: I see. So DAISY's OAK's\n"
-	.string "granddaughter and BLUE's sister. Per\l"
-	.string "your report, something incredibly\l"
-	.string "unusual is taking place there. Either\l"
-	.string "OAK's used a POKEMON to vacate the\l"
-	.string "premises, or that LABORATORY's not as\l"
-	.string "innocent and charitable as it appears.$"
+.string "Ya veo, DALIA es también nieta de OAK, y\n"
+	.string "hermana de AZUL.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
+	.string "Por lo que me cuentas, algo muy\n"
+	.string "extraño pasa en ese lugar, o OAK\l"
+	.string "se ha teletransportado usando algún\l"
+	.string "POKÉMON o ese LABORATORIO no es tan\l"
+	.string "inocente y caritativo como lo pintan.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_3:
-	.string "ANDRA: So you snagged a BULBASAUR, did\n"
-	.string "ya? Wow, nice windfall. Few TRAINERs\l"
-	.string "have access to that kind of POKÉMON, y'\l"
-	.string "know. But hey, I won't be eating your\l"
-	.string "dust, trust me!$"
+.string "ANDRA: ¿Pudiste entonces robar un\n"
+	.string "BULBASAUR?\l"
+	.string "¡Guau, que suerte!\l"
+	.string "¡Muy pocos tienen acceso a esa clase de\l"
+	.string "POKÉMON, yo tampoco me quedaré atrás!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4:
-.string "BLUE: Did you call me, GIOVANNI?$"
+.string "AZUL: ¿Quería verme, GIOVANNI?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5:
-	.string "GIOVANNI: Quite so, BLUE. {PLAYER}'s\n"
-	.string "paid your precious hometown a visit.\l"
-	.string "After all, you've been withholding key\l"
-	.string "intel on the people you've known all your\l"
-	.string "life.$"
+.string "GIOVANNI: Así es AZUL, {PLAYER} ha estado\n"
+	.string "en tu querido pueblo, ya que tú te\l"
+	.string "negaste a proporcionarnos información\l"
+	.string "sobre aquellas personas con las que\l"
+	.string "has convivido durante toda tu vida.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6:
-.string "BLUE: {PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10}$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} … {PAUSE 10}…{PAUSE 10}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_7:
-	.string "BLUE: I've already laid it out, GIOVANNI.\n"
-	.string "My relationship with GRAMPS is pretty\l"
-	.string "much a formality. Basically, he's just\l"
-	.string "taken care of me and DAISY ‘cuz of our\l"
-	.string "family ties. I've been living with my\l"
-	.string "sister DAISY, who gets along better\l"
-	.string "with him.$"
+.string "AZUL: Ya se lo dije, GIOVANNI.\n"
+	.string "La relación con mi abuelo es más bien\l"
+	.string "formal, básicamente se ocupó de mí por\l"
+	.string "los lazos familiares que nos unen; me\l"
+	.string "he limitado a vivir con mi hermana,\l"
+	.string "DALIA, ella sí congenia más con OAK.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8:
-	.string "BLUE: And about RED, he's always been\n"
-	.string "GRAMPS' favorite. His star pupil. As far\l"
-	.string "as I remember, he's always taught him\l"
-	.string "how to battle. Kinda like RED's his\l"
-	.string "personal pick to carry out his will.$"
+.string "En cuanto a ROJO, siempre fue\n"
+	.string "su favorito, su alumno predilecto.\l"
+	.string "Desde el momento que llegó a PUEBLO \l"
+	.string "PALETA, ya le enseñaba a combatir.\l"
+	.string "Pareciera como si fuera su elegido{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9:
-	.string "BLUE: And that's all there is to say ‘cuz\n"
-	.string "I've got nothing else, GIOVANNI. And I'm\l"
-	.string "sure as heck not going back. I've got\l"
-	.string "the freedom to be the TRAINER I wanna\l"
-	.string "be now. All GRAMPS and DAISY wanted was\l"
-	.string "just to nab a good position to pull my\l"
-	.string "weight. And that's about all they saw in\l"
-	.string "me: just some burden. But no, I've got\l"
-	.string "different plans. I'm climbing to the top\l"
-	.string "on my own terms, and I'll prove just how\l"
-	.string "much they're underestimating me. I'm not\l"
-	.string "falling in line to follow the ELITE\l"
-	.string "FOUR's orders.$"
+.string "No puedo darle información\n"
+	.string "porque no sé nada.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.1:
+	.string "Y no quiero volver por ese pueblo, ahora\n"
+	.string "que tengo la libertad que el ser\l"
+	.string "ENTRENADOR me da, lo único que OAK\l"
+	.string "y DALIA querían para mí era\l"
+	.string "posicionarme en un buen puesto\l"
+	.string "para dejar de ser una carga para\l"
+	.string "ellos, me ven como eso, un trámite\l"
+	.string "más del que ocuparse{PAUSE 10}…{PAUSE 10}$" 
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9.2:
+	.string "¡Pero no! Mi voluntad es otra: ser\n"
+	.string "el mejor por mis propios medios y\l"
+	.string "demostrarles lo mucho que me subestiman,\l"
+	.string "¡no seré una marioneta más bajo\l"
+	.string "las órdenes de la ÉLITE 4!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10:
-	.string "GIOVANNI: Only a real ROCKET would talk\n"
-	.string "like that, BLUE. Rest assured: they\l"
-	.string "won't be imposing on you. Trust me, here\l"
-	.string "is where you belong.$"
+.string "GIOVANNI: Solo un verdadero ROCKET\n"
+	.string "hablaría así, AZUL.\l"
+	.string "No dejaremos que te impongan su voluntad,\l"
+	.string "créeme, aquí estás en tu casa.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_11:
-.string "BLUE: Th-thanks, sir…$"
+.string "AZUL: G{PAUSE 15}-{PAUSE 15}gracias señor{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12:
-	.string "GIOVANNI: Now then. You three've been\n"
-	.string "summoned because you meet my\l"
-	.string "standards for this mission. Rather,\l"
-	.string "three missions of the utmost priority.\l"
-	.string "Before that though, {PLAYER}, this is\l"
-	.string "your reward for such invaluable intel.$"
+.string "GIOVANNI: Ahora, es momento de hablar\n"
+	.string "del porqué os he reunido aquí a los 3.\l"
+	.string "Ya tenéis nivel para abordar una misión,\l"
+	.string "tres más bien, de crucial importancia.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12.1:
+	.string "Pero antes, {PLAYER}, debo darte tu\n"
+	.string "recompensa por tan valiosa información.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13:
-.string "You have just earned 140,000 POKÉ!$"
+	.string "¡Te has embolsado 175.000¥!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14:
-	.string "GIOVANNI: In addition, this is yours.\n"
-	.string "BLUE and ANDRA each have one. But it's\l"
-	.string "an insult that one of my top men lacks\l"
-	.string "such a resource as this.$"
+.string "GIOVANNI: Además, ten esto, AZUL y ANDRA\n"
+	.string "ya cuentan con uno, es un insulto que a\l"
+	.string "uno de mis mejores hombres le falte un\l"
+	.string "recurso como este.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15:
-	.string "GIOVANNI: An EVIOLITE. So few exist in\n"
-	.string "this region. It bolsters each DEFENSE\l"
-	.string "by half for POKÉMON yet still capable of\l"
-	.string "evolution. With this, your GOLBAT would\l"
-	.string "become incredibly durable. But not just\l"
-	.string "GOLBAT. MAGMAR, ELECTABUZZ, SCYTHER,\l"
-	.string "and even RHYDON are among the most\l"
-	.string "suitable holders of this stone. Use it\l"
-	.string "wisely.$"
+.string "Un MINERAL EVOLUTIVO, quedan\n"
+	.string "muy pocos en esta región.\l"
+	.string "Incrementará en un 50% ambas defensas,\l"
+	.string "en POKÉMON que aún puedan evolucionar.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1:
-.string "GIOVANNI: …$"
+	.string "Con ello, tu GOLBAT aguantará golpes\n"
+	.string "de forma extraordinaria.\l"
+	.string "No solo GOLBAT; MAGMAR, RHYDON, SCYTHER\l"
+	.string "o ELECTABUZZ son algunos de los mejores\l"
+	.string "usuarios de este objeto. Úsalo bien.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.2:
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
-	.string "GIOVANNI: All missions I'll be assigning\n"
-	.string "from now on here are confidential in\l"
-	.string "totality to any outsider to the B5F of\l"
-	.string "this BASE, even to most other ROCKETs.\l"
-	.string "I daresay, with all the hearsay of TEAM\l"
-	.string "ROCKET's thefts and crimes for funding\l"
-	.string "projects, this is now to be your\l"
-	.string "foremost answer when prompted on your\l"
-	.string "duties. Whether they be ROCKET or\l"
-	.string "otherwise, your only reply should be\l"
-	.string "that you're committing theft, be it item\l"
-	.string "or POKÉMON… Now that you're aware, let\l"
-	.string "us begin…$"
+.string "Debéis saber que a partir de ahora, las\n"
+	.string "misiones asignadas desde BASE PROFUNDA\l"
+	.string "serán totalmente confidenciales para\l"
+	.string "todo ser ajeno a ella.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1:
+	.string "Esto incluye también a la mayoría\n"
+	.string "de ROCKET.\l"
+	.string "Es aquí donde se llevamos a cabo los\l"
+	.string "proyectos de verdad, esos que marcarán\l"
+	.string "una diferencia real, y gran parte de su\l"
+	.string "valor diferencial radica en su secretismo.\l"
+	.string "Por ello, estas misiones y estos planes\l"
+	.string "no existen: solo nos dedicamos a robar y\l"
+	.string "extorsionar, ¿entendido?$"
+
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.2:
+	.string "Una vez sabido esto, podemos\n"
+	.string "comenzar{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17:
-	.string "GIOVANNI: ANDRA, do you recall that\n"
-	.string "POWER PLANT you'd been interested in?\l"
-	.string "All your suspicions of a POKÉMON with\l"
-	.string "great power residing there?$"
+.string "¿Recuerdas, ANDRA, esa CENTRAL ENERGÍA\n"
+	.string "que tanto interés causaba en ti?\l"
+	.string "¿Todo lo que me contaste sobre tus\l"
+	.string "sospechas acerca de un POKÉMON de\l"
+	.string "gran poder que allí habitaba?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_18:
-.string "ANDRA: Yes, sir! I remember it!$"
-
+.string "ANDRA: ¡Claro, señor, no lo olvido!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19:
-	.string "At the time, I withheld this\n"
-	.string "information, but TEAM ROCKET's been\l"
-	.string "investigating the whereabouts of the\l"
-	.string "LEGENDARY BIRDs for quite some time.\l"
-	.string "Three among the most ancient, potent,\l"
-	.string "and sacred POKÉMON this region knows.\l"
-	.string "One of them, the ELECTRIC-FLYING\l"
-	.string "ZAPDOS, perhaps the most dangerous and\l"
-	.string "uncontrollable of the three, is\l"
-	.string "currently nesting in that very POWER\l"
-	.string "PLANT, ANDRA. It's unsurprising you'd\l"
-	.string "noticed its presence. Its electrical\l"
-	.string "discharges are unlike anything you've\l"
-	.string "seen.$"
+.string "GIOVANNI: En ese momento no quise\n"
+	.string "decírtelo, pero hace ya tiempo que\l"
+	.string "llevamos investigando el paradero de las\l"
+	.string "AVES LEGENDARIAS de KANTO.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.1:
+	.string "3 de los POKÉMON más antiguos, poderosos\n"
+	.string "y sagrados que esta región conoce.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.2:
+	.string "Uno de ello es ZAPDOS, quizás el más\n"
+	.string "peligroso e incontrolable de los tres;\l"
+	.string "del tipo dual ELÉCTRICO-VOLADOR, a día\l"
+	.string "de hoy, sabemos que hay uno dentro de\l"
+	.string "esa CENTRAL ENERGÍA.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19.3:
+	.string "Así es, ANDRA.\n"
+	.string "No me extraña que notaras su presencia,\l"
+	.string "las descargas eléctricas que emite no\l"
+	.string "se parecen en nada a lo que hayas visto.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20:
-	.string "The next is the ICE-FLYING ARTICUNO.\n"
-	.string "Though it's the most manageable among\l"
-	.string "them, it's still equally dangerous and\l"
-	.string "considerably resistant. We're aware of a\l"
-	.string "specimen currently nesting in the\l"
-	.string "SEAFOAM ISLANDS, just west of FUCHSIA\l"
-	.string "CITY.$"
+.string "Después tenemos a ARTICUNO, del TIPO\n"
+	.string "HIELO-VOLADOR, tal vez el más manejable\l"
+	.string "de los 3, pero también el más resistente.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20.1:
+	.string "Hemos localizado a un ejemplar en las\n"
+	.string "profundidades de ISLAS ESPUMA, al oeste\l"
+	.string "de CIUDAD FUCSIA.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_21:
 .string "BLUE: A specimen?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22:
-	.string "GIOVANNI: Correct. We don't believe\n"
-	.string "they're a unique species. Rather, there\l"
-	.string "may be more than one ZAPDOS or more\l"
-	.string "than one ARTICUNO. This doesn't diminish\l"
-	.string "the fact that they're exceptionally\l"
-	.string "rare, powerful, and elusive POKÉMON. The\l"
-	.string "final one, MOLTRES, has been located at\l"
-	.string "the summit of MT. EMBER, the emblematic\l"
-	.string "volcano of KNOT ISLAND.$"
+.string "GIOVANNI: Así es, no creemos que\n"
+	.string "sean especies únicas, sino que\l"
+	.string "pueda haber más de un ZAPDOS, o\l"
+	.string "más de un ARTICUNO.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.1:
+	.string "Esto no quita que sean POKÉMON\n"
+	.string "excepcionalmente raros, poderosos\l"
+	.string "y escurridizos.$"
+	
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.2:
+	.string "El último de ellos, MOLTRES, ha sido\n"
+	.string "localizado en la cima del MT.ASCUAS,\l"
+	.string "un volcán muy emblemático de ISLA PRIMA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.3:
+	.string "No es tan rápido como ZAPDOS, ni tan\n"
+	.string "resistente como ARTICUNO, pero sus\l"
+	.string "ataques ígneos son los más devastadores.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23:
-	.string "GIOVANNI: Your mission is as follows,\n"
-	.string "gentlemen. ANDRA will convene with a\l"
-	.string "committee of our best scientists and\l"
-	.string "strategists to study the best way to\l"
-	.string "enter the power plant without being\l"
-	.string "seen by the authorities who monitor the\l"
-	.string "area. On the other hand, BLUE will head\l"
-	.string "straight to ONE ISLAND. I have\l"
-	.string "arranged a transfer in VERMILION that\l"
-	.string "will take you directly to the island.\l"
-	.string "Your objective will be MOLTRES, given\l"
-	.string "that you have a BLASTOISE on your\l"
-	.string "team. I trust it will be sufficient to\l"
-	.string "extinguish the wild flame of the\l"
-	.string "Legendary Fire Pokémon.$"
+.string "Vuestra misión será la siguiente.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.1:
+	.string "ANDRA se reunirá con un comité de\n"
+	.string "expertos, para estudiar la mejor forma\l"
+	.string "de entrar a la CENTRAL ENERGÍA sin ser\l"
+	.string "ser vistos por las autoridades.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2:
+	.string "Por otro lado, AZUL irá directo a\n"
+	.string "ISLA PRIMA; he dispuesto un transbordo\l"
+	.string "en CIUDAD CARMÍN, que te llevará directo\l"
+	.string "a ella; irás a por MOLTRES puesto que ya\l"
+	.string "cuentas con un BLASTOISE en tu equipo,\l"
+	.string "confío en que sea suficiente para\l"
+	.string "apagar la salvaje llama del\l"
+	.string "LEGENDARIO de fuego{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.3:
+	.string "Dale esto, y el fuego de MOLTRES no\n"
+	.string "podrá tocar a nuestro inicial insignia.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.4:
+	.string "¡AZUL recibió un CHALECO ASALTO!$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.5:
+	.string "AZUL: ¡Gracias, señor! ¡Ahora sí que mi\n"
+	.string "BLASTOISE será un auténtico tanque!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24:
-	.string "GIOVANNI: As for you, {PLAYER}, you\n"
-	.string "will go after the Legendary ARTICUNO in\l"
-	.string "the FOAM ISLANDS. Security there is not\l"
-	.string "as strict as in the POWER PLANT. I\l"
-	.string "advise you to take Route 12, south of\l"
-	.string "LAVENDER TOWN. It will be a long journey\l"
-	.string "to FUCHSIA CITY and then the sea that\l"
-	.string "leads to SEAFOAM ISLANDS. However, it\l"
-	.string "will serve as preparation to face such a\l"
-	.string "POKÉMON. I trust in your abilities as a\l"
-	.string "TRAINER to defeat ARTICUNO,\l"
-	.string "{PLAYER}.$"
+.string "GIOVANNI: En cuanto a ti, {PLAYER}{PAUSE 15}…{PAUSE 15}\n"
+	.string "Irás a por el ARTICUNO de ISLAS ESPUMA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.1:
+	.string "La seguridad allí no es tan estricta como\n"
+	.string "en la CENTRAL ENERGÍA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.2:
+	.string "Para llegar, te aconsejo tomar la,\n"
+	.string "RUTA 12 al sur de PUEBLO LAVANDA.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.3:
+	.string "Será un largo camino hasta FUCSIA, y\n"
+	.string "posteriormente el mar que lleva a ISLAS\l"
+	.string "ESPUMA, pero te servirá como preparación\l"
+	.string "para hacer frente a tal POKÉMON.\l"
+	.string "Confío en que tu habilidad como\l"
+	.string "ENTRENADOR para batir a ARTICUNO.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25:
-	.string "GIOVANNI: Now, I don't want you to\n"
-	.string "capture the birds, I just want you to\l"
-	.string "defeat them, so we can obtain a\l"
-	.string "feather, which is more than enough for\l"
-	.string "the research we desire, this way, we can\l"
-	.string "reproduce the power of these POKÉMON\l"
-	.string "under controlled conditions without\l"
-	.string "others noticing the absence of the\l"
-	.string "birds…$"
+	.string "No quiero que atrapéis a las aves, solo\n"
+	.string "debéis derrotarlas, y obtener una pluma\l"
+	.string "de ellas; más que suficiente para llevar\l"
+	.string "a cabo las investigaciones que deseamos.\l"
+	.string "Además, los de arriba no deben notar su\l"
+	.string "ausencia, o se harán preguntas{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26:
-	.string "GIOVANNI: I trust that you are aware\n"
-	.string "of the importance of this mission, we\l"
-	.string "are going to expand the power\l"
-	.string "standards, surpass the supposed limits\l"
-	.string "set, which will further solidify our\l"
-	.string "position as the main resistance against\l"
-	.string "the elites of this region…$"
+.string "Vamos a expandir los estándares de poder\n"
+	.string "y sobrepasar los supuestos límites.\l"
+	.string "Eso afianzará aún más nuestra posición\l"
+	.string "como principal resistencia ante las\l"
+	.string "élites{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27:
-	.string "GIOVANNI: There's not much more to add,\n"
-	.string "you are authorized to enter the room\l"
-	.string "right to this office, there, you will\l"
-	.string "discover crucial information about the\l"
-	.string "LEGENDARY BIRDS and all known\l"
-	.string "LEGENDARY POKÉMON in general, and\l"
-	.string "that's all, gentlemen, we'll notice you\l"
-	.string "on any details that might impact your\l"
-	.string "missions.$"
+	.string "Ahora, tenéis mi consentimiento para\n"
+	.string "acceder a la sala contigua a mi despacho,\l"
+	.string "la del -MÁXIMO POTENCIAL ALCANZABLE-.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.1:
+	.string "Allí recopilamos información esencial\n"
+	.string "acerca de las AVES LEGENDARIAS y\l"
+	.string "cualquier POKÉMON LEGENDARIO conocido\l"
+	.string "en general.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.2:
+	.string "Eso es todo, y recordad: la historia\n"
+	.string "de KANTO se escribe ahora,\l"
+	.string "con cada paso que déis.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28:
-	.string "ANDRA: I still can't believe this,\n"
-	.string "{PLAYER}! We are going in search of a\l"
-	.string "LEGENDARY POKÉMON each one of us! This\l"
-	.string "is getting insane huh, I will keep you\l"
-	.string "informed about how my mission with\l"
-	.string "ZAPDOS goes, I hope you do the same!$"
+.string "ANDRA: ¡Aún no me lo creo, {PLAYER}!\n"
+	.string "¡Vamos a ir tras la pista de un\l"
+	.string "POKÉMON LEGENDARIO!\l"
+	.string "Esto ya es nivel, ¿eh?\l"
+	.string "¡Te mantendré informado de cómo va\l"
+	.string "mi misión con ZAPDOS, espero que\l"
+	.string "hagas tú lo mismo!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Move_1:
 walk_up
@@ -563,21 +784,6 @@ RocketHideout_8F_Mision_Silph_move5.3:
 face_right
 step_end
 
-RocketHideout_8F_Mision_Silph_Yes:
-	.string "Wanna see next lore cutscene?\n"
-	.string "(If you press -YES- and some BUG\l"
-	.string "happens, with -NO- option you can\l"
-	.string "skip the cutscene and proceed with\l"
-	.string "the storyline)$"
-
-RocketHideout_8F_Mision_Silph_No_Texto_1:
-	.string "(You have been promoted to ROCKET\n"
-	.string "EXECUTIVE, received 50 ULTRA BALL, a\l"
-	.string "LV.35 AERODACTYL and 500,000 POKÉ.\l"
-	.string "Your next mission is at SAFFRON CITY\l"
-	.string "-SILPH-. To see the skin change, leave\l"
-	.string "GIOVANNI's office).$"
-
 RocketHideout_8F_Mision_Silph_No::
 fadescreen 1
 delay 20
@@ -602,9 +808,15 @@ msgbox RocketHideout_8F_Mision_Silph_No_Texto_1, MSGBOX_AUTOCLOSE
 release
 end
 
+RocketHideout_8F_Mision_Silph_No_Texto_1:
+	.string "(Has sido ascendido a EJECUTIVO y\n"
+	.string "recibido 50 ULTRA BALL, un AAERODACTYL y\l"
+	.string "500.000¥. Tu próxima misión está en\l"
+	.string "CIUDAD AZAFRÁN -SEDE SILPH-. Para ver\l"
+	.string "el cambio de skin, sal del despacho de\l"
+	.string "GIOVANNI).$"
+
 RocketHideout_8F_Mision_Silph::
-lock
-setvar VAR_UNUSED_0x40F7, 71
 lock
 msgbox RocketHideout_8F_Mision_Silph_Yes, MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -672,11 +884,11 @@ waitmovement 0x0
 changeavatar 2
 setvar VAR_UNUSED_0x40F7, 802
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
+end
 
 RocketHideout8F_Mision_Johto_move_12.6:
 walk_in_place_right
 step_end
-
 
 
 
@@ -697,8 +909,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Silph_text_10 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Silph_text_11 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_ULTRA_BALL, 50
@@ -711,6 +923,19 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Silph_text_13 MSGBOX_DEFAULT
 givemon SPECIES_AERODACTYL, 35, ITEM_SHARP_BEAK
 waitfanfare
+msgbox RocketHideout_8F_Mision_Silph_text_13.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_9.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_13.2 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Silph_text_13.3 MSGBOX_AUTOCLOSE
+waitfanfare
+msgbox RocketHideout_8F_Mision_Silph_text_13.4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_13.5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
 delay 20
@@ -772,18 +997,35 @@ msgbox RocketHideout_8F_Mision_Silph_text_44 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_45 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Silph_text_46 MSGBOX_AUTOCLOSE
-applymovement 3, RocketHideout_8F_Mision_Silph_Despues_Move_11
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_46.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_46.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_11
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Silph_text_47 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_12
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_48 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_48.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_13
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_49 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Silph_text_49.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_11
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_50 MSGBOX_AUTOCLOSE
@@ -795,10 +1037,10 @@ msgbox RocketHideout_8F_Mision_Silph_text_52 MSGBOX_AUTOCLOSE
 applymovement 2, RocketHideout_8F_Mision_Silph_Despues_Move_4
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_53 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move10
-waitmovement 0x0
+delay 10
 applymovement 2, RocketHideout_8F_Mision_Silph_move11
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 removeobject 2
 playse SE_EXIT
@@ -822,6 +1064,14 @@ setvar VAR_UNUSED_0x40F7, 72
 setvar VAR_UNUSED_0x40FD, 1
 release
 end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_9.1:
+face_down
+delay_16
+delay_8
+face_right
+delay_8
+step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_15:
 walk_in_place_up
@@ -938,6 +1188,11 @@ walk_left
 walk_left
 step_end
 
+RocketHideout_8F_Mision_Silph_Yes:
+	.string "¿Continuar escena Lore? (Si das SÍ y\n"
+	.string "ocurre algún error, con la opción NO\l"
+	.string "podrás saltarte esta parte y seguir).$"
+
 RocketHideout_8F_Mision_Silph_text_1:
 	.string "GIOVANNI: Ah, {PLAYER}!, we were\n"
 	.string "waiting for you, come in!$"
@@ -1001,172 +1256,192 @@ RocketHideout_8F_Mision_Silph_text_12:
 	.string "to your team.$"
 
 RocketHideout_8F_Mision_Silph_text_13:
-	.string "YOU HAVE RECEIVED A LV.35 AERODACTYL!$"
+.string "¡HAS RECIBIDO UN AERODACTYL AL NV.35!$"
+
+RocketHideout_8F_Mision_Silph_text_13.1:
+	.string "Ahora que ambos sois EJECUTIVOS,\n"
+	.string "tenéis acceso automático a la zona sur\l"
+	.string "de BASE PROFUNDA.$"
+
+RocketHideout_8F_Mision_Silph_text_13.2:
+	.string "Tomad, con esta llave podréis entrar.$"
+
+RocketHideout_8F_Mision_Silph_text_13.3:
+	.string "¡Obtuviste la LLAVE SALA VIP!$"
+
+RocketHideout_8F_Mision_Silph_text_13.4:
+	.string "Allí encontraréis recursos con los que\n"
+	.string "mejorar aún más a vuestros POKÉMON.$"
+
+RocketHideout_8F_Mision_Silph_text_13.5:
+	.string "También un lugar para descansar,\n"
+	.string "junto a otros EJECUTIVOS.$"
+
 
 RocketHideout_8F_Mision_Silph_text_14:
-.string "GIOVANNI: …$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_15:
-	.string "GIOVANNI: I told you that in due time I\n"
-	.string "would tell you the origins of TEAM\l"
-	.string "ROCKET and why it is as you know it\l"
-	.string "today. Now that you have gained some\l"
-	.string "experience in this region and\l"
-	.string "considering what is to come, that\l"
-	.string "moment has arrived. Listen carefully.$"
+.string "Os dije que a su debido tiempo, os\n"
+	.string "contaría los origenes del TEAM ROCKET, y\l"
+	.string "por qué hoy es tal y como lo conocéis.\l"
+	.string "Ahora que habéis acumulado cierta\l"
+	.string "experiencia en esta región, y ante\l"
+	.string "lo que está por venir, ese momento\l"
+	.string "ha llegado. Escuchad atentamente.$"
 
 RocketHideout_8F_Mision_Silph_text_16:
-	.string "Everything started 5 years ago, when\n"
-	.string "JOHTO declared war against KANTO. It\l"
-	.string "surprised us all, our rustic and pacific\l"
-	.string "neighbor, which didn't have as high a\l"
-	.string "military force as us.$"
+.string "Todo empezó hace 5 años, cuando JOHTO\n"
+	.string "declaró la guerra a KANTO.\l"
+	.string "A todos nos sorprendió: una región tan\l"
+	.string "tradicional y pacífica, que además no\l"
+	.string "contaba con nuestros recursos ni\l"
+	.string "con gran capacidad armamentística.$"
 
 RocketHideout_8F_Mision_Silph_text_17:
-	.string "Who caused this trouble was LANCE, the\n"
-	.string "old dragon-type master's grandson from\l"
-	.string "BLACKTHORN CITY. There is no doubt\l"
-	.string "that he was a wonderful TRAINER, and it\l"
-	.string "couldn't be otherwise, as a direct\l"
-	.string "descendant of the most prestigious\l"
-	.string "dragon-type tamer lineage…$"
+.string "El que provocó este conflicto no\n"
+	.string "fue otro que LANCE, nieto del anciano\l"
+	.string "maestro dragón de CIUDAD ENDRINO.\l"
+	.string "Era un excepcional ENTRENADOR, y\l"
+	.string "no podía ser menos, ya que como\l"
+	.string "descendiente directo de la estirpe\l"
+	.string "de domadragones más prestigiosa{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_17.1:
-	.string "…since young, he was educated in the\n"
-	.string "art of training, for many, the strongest\l"
-	.string "and holiest type, showed a huge talent\l"
-	.string "for unleashing the maximum power of\l"
-	.string "DRAGONITE, considered the most\l"
-	.string "powerful NON-LEGENDARY POKÉMON,\l"
-	.string "surpassing even the power of the\l"
-	.string "LEGENDARY BIRDS.$"
+	.string "{PAUSE 15}…{PAUSE 15} se le educó desde pequeño en el\n"
+	.string "arte de entrenar al para muchos TIPO más\l"
+	.string "poderoso y sagrado; mostró un talento\l"
+	.string "innato para domesticar el poder de\l"
+	.string "DRAGONITE, considerado por muchos como\l"
+	.string "el NO LEGENDARIO más poderoso.\l"
+	.string "Uno bien entrenado, sobrepasa incluso\l"
+	.string "el poder de las AVES LEGENDARIAS.$" 
 	
 RocketHideout_8F_Mision_Silph_text_17.2:
-	.string "LANCE turned into a feared TRAINER,\n"
-	.string "with 3 of these sacred dragons on his\l"
-	.string "team, he promptly got in power in JOHTO.$"
+	.string "LANCE se convirtió en un ENTRENADOR de\n"
+	.string "temer, al contanr con 3 de estos\l"
+	.string "sagrados dragones; no tardó en hacerse\l"
+	.string "con el poder en JOHTO.$"
 
 RocketHideout_8F_Mision_Silph_text_18:
-	.string "However this was not enough to submit\n"
-	.string "KANTO as he wanted to, our region had\l"
-	.string "always had excellent TRAINERS with\l"
-	.string "great talent.$"
+.string "Esto, sin embargo, no era suficiente\n"
+	.string "para someter a KANTO como él quería.\l"
+	.string "Nuestra región siempre ha contado\l"
+	.string "con entrenadores de gran talento.$"
 
 RocketHideout_8F_Mision_Silph_text_18.1:
-	.string "In those days, both OAK and I were\n"
-	.string "competing for the CHAMPIONSHIP,\l"
-	.string "frequently swapping it because of the\l"
-	.string "intense competition and balance\l"
-	.string "between us, when one of us wasn't the\l"
-	.string "CHAMPION, the other would step into\l"
-	.string "BRUNO's position in the ELITE 4, I\l"
-	.string "specialized in the GROUND TYPE, whereas\l"
-	.string "OAK focused on the NORMAL TYPE.$"
+	.string "Por ese entonces, tanto OAK como yo\n"
+	.string "llevábamos años disputándonos el\l"
+	.string "título de CAMPEÓN, que cambiaba\l"
+	.string "constantemente de manos, debido a\l"
+	.string "la gran paridad y competitividad que\l"
+	.string "había entre nosotros.\l"
+	.string "Cuando uno no era el CAMPEÓN, el\l"
+	.string "otro pasaba a ocupar el actual\l"
+	.string "puesto de BRUNO en la ÉLITE 4,\l"
+	.string "especializándome yo en el TIPO\l"
+	.string "TIERRA, y OAK en el NORMAL{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_19:
-	.string "LANCE knew this: with us defending\n"
-	.string "KANTO he would never be able to impose\l"
-	.string "his control, even with his dragons. Then\l"
-	.string "he started to find that power on the\l"
-	.string "sacred and divine…$"
+.string "LANCE sabía que con nosotros dos en\n"
+	.string "KANTO, jamás podría imponer su fuerza,\l"
+	.string "a pesar incluso de sus dragones.\l"
+	.string "Fue en ese momento cuando empezó a\l"
+	.string "buscar ese poder que no podía lograr\l"
+	.string "en lo divino, en lo{PAUSE 25}…{PAUSE 25} LEGENDARIO.$"
 
 RocketHideout_8F_Mision_Silph_text_20:
-	.string "He was warned about the\n"
-	.string "legendary LUGIA and HO-OH, possessing\l"
-	.string "a nonexistent power here in KANTO, but\l"
-	.string "he never even came close to finding\l"
-	.string "them.$"
+.string "Se informó acerca de LUGIA y HO-OH.\n"
+	.string "Dos POKÉMON de un poder superior,\l"
+	.string "aquí en KANTO inexistente.\l"
+	.string "Nunca estuvo ni cerca de encontrarlos.$"
 
 RocketHideout_8F_Mision_Silph_text_21:
-	.string "Besides that, he eventually learned of\n"
-	.string "the legend stating that the legendary\l"
-	.string "HO-OH left part of its power and\l"
-	.string "essence imprinted on 3 POKÉMON\l"
-	.string "destined to perish, last witnessed 150\l"
-	.string "years ago in the so-called BURNED\l"
-	.string "TOWER MIRACLE when, according to\l"
-	.string "legend, these three Pokémon\l"
-	.string "reincarnated into the 3 JOHTO BEASTS,\l"
-	.string "now roaming the region without\l"
-	.string "direction, unable to contain their\l"
-	.string "power.$"
+.string "A pesar de ello, acabó enterándose de\n"
+	.string "la leyenda de HO-OH, aquella que hablaba\l"
+	.string "de 3 POKÉMON, condenados a morir pero\l"
+	.string "salvados por el llamado MILAGRO de\l"
+	.string "TORRE QUEMADA, hace 150 años.\l"
+	.string "Según la leyenda, estos 3 POKÉMON se\l"
+	.string "reencarnaron en las BESTIAS DE JOHTO, y\l"
+	.string "pasaron a vagar sin rumbo por la región,\l"
+	.string "incapaces de contener su poder.$"
 
 RocketHideout_8F_Mision_Silph_text_22:
-	.string "LANCE searched in the entire region,\n"
-	.string "determined to find the legendary\l"
-	.string "beasts. And indeed, it turned out to be\l"
-	.string "true, using his dragons, he managed to\l"
-	.string "corner and capture one by one these\l"
-	.string "POKÉMON.$"
+.string "LANCE puso toda la región patas arriba,\n"
+	.string "dispuesto a agarrarse a esa leyenda{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15} y efectivamente, resultó ser\l"
+	.string "cierta; valiéndose de sus dragones,\l"
+	.string "logró acorralar y capturar, uno por uno,\l"
+	.string "a estos POKÉMON en cuyo poder estaba\l"
+	.string "impresa la esencia de HO-OH.$"
 
 RocketHideout_8F_Mision_Silph_text_23:
-	.string "The rest of the history is well known; with\n"
-	.string "the JOHTO BEASTS under his command, he\l"
-	.string "set out to invade KANTO.$"
+.string "El resto es ya historia; con las\n"
+	.string "BESTIAS DE JOHTO bajo su mando,\l"
+	.string "se dispuso a invadir KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_23.1:
-	.string "He brought on board an expert in\n"
-	.string "military tactics: LT. SURGE. The\l"
-	.string "combination of these factors resulted\l"
-	.string "in unparalleled chaos in KANTO, those\l"
-	.string "beasts, now under LANCE's command,\l"
-	.string "took numerous lives and posed a\l"
-	.string "formidable challenge in battle for any\l"
-	.string "trainer who wasn't OAK or me, LANCE had\l"
-	.string "effectively brought chaos and death to\l"
-	.string "KANTO.$"
+	.string "Contrató también a un experto\n"
+	.string "en técnicas bélicas: el LT.SURGE.\l"
+	.string "Todo unido, desató en KANTO un caos\l"
+	.string "jamás visto.\l"
+	.string "Las bestias, bajo las órdenes de LANCE,\l"
+	.string "se cobraron innumerables vidas.\l"
+	.string "Imposibles de atrapar, además de\l"
+	.string "batir en un combate para nadie que no\l"
+	.string "fuera OAK o yo; LANCE logró que el\l"
+	.string "caos y la muerte se apoderen de KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_24:
-	.string "It was at that moment when OAK and I\n"
-	.string "decided to do something, realizing that\l"
-	.string "it was impossible to pacify the rage of\l"
-	.string "those creatures with the resources\l"
-	.string "available to us…$"
+.string "Fue en ese momento cuando OAK y yo\n"
+	.string "decidimos tomar cartas en el asunto.\l"
+	.string "Era imposible apaciguar la furia de\l"
+	.string "esas criaturas con los medios de los\l"
+	.string "que disponíamos{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_25:
-	.string "During that period, I held the position\n"
-	.string "of KANTO's most influential\l"
-	.string "businessman, while OAK was the most\l"
-	.string "famous researcher; together, we\l"
-	.string "decided to combine all our resources,\l"
-	.string "with the unique purpose of chasing\l"
-	.string "that legend…{PAUSE 25} the mythical POKÉMON\l"
-	.string "known as MEW.$"
+.string "Yo era el hombre de negocios más\n"
+	.string "importante de KANTO, y OAK el\l"
+	.string "investigador más famoso: decidimos unir\l"
+	.string "todos nuestros recursos, con el único\l"
+	.string "afán de ir tras esa leyenda{PAUSE 25}…{PAUSE 25}ese mítico\l"
+	.string "POKÉMON llamado MEW{PAUSE 5}…{PAUSE 5}$"
 	
 RocketHideout_8F_Mision_Silph_text_25.1:
-	.string "FUJI took the lead in this project,\n"
-	.string "being the one who knew the POKÉMON\l"
-	.string "better than anyone else, due to him, we\l"
-	.string "managed to reach FARAWAY ISLAND and\l"
-	.string "capture MEW.$"
+.string "La iniciativa fue de FUJI, quien\n"
+	.string "conocía más que nadie al POKÉMON.\l"
+	.string "Gracias a él, pudimos llegar a ISLA\l"
+	.string "SUPREMA, y capturar a MEW{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_25.2:
-	.string "MEW, on its own, wouldn't secure our\n"
-	.string "victory. Its nature prevented it from\l"
-	.string "being involved in any form of conflict,\l"
-	.string "we needed an additional element.$"
+.string "Pero MEW por sí solo no iba a darnos la\n"
+	.string "victoria. Su propia naturaleza le impedía\l"
+	.string "ser partícipe de cualquier clase de\l"
+	.string "conflicto, necesitábamos algo más.$"
 
 RocketHideout_8F_Mision_Silph_text_25.3:
-	.string "It was that moment when the -MEWTWO\n"
-	.string "PROJECT- born. With the goal to\l"
-	.string "maximize the MEW's potential and use it\l"
-	.string "in the war.$"
+.string "Así nació el -PROYECTO MEWTWO-.\n"
+	.string " Con la única finalidad de exprimir\l"
+	.string "al máximo el poder de MEW{PAUSE 25}…{PAUSE 25} y poder\l"
+	.string "usarlo en la guerra.$"
 
 RocketHideout_8F_Mision_Silph_text_25.4:
-	.string "It was not easy, the results left\n"
-	.string "anomalies and deformities from what\l"
-	.string "was initially MEW. Retaining only 48% of\l"
-	.string "its overall base power, it only\l"
-	.string "inherited the transformation ability of\l"
-	.string "the LEGENDARY POKÉMON, which proved\l"
-	.string "insufficient and led us to discard\l"
-	.string "these initial prototypes.$"
+.string "No fue nada fácil, los resultados\n"
+	.string "dejaban anomalías y deformidades de\l"
+	.string "lo que inicialmente era MEW.\l"
+	.string "Conservando únicamente el 48% de su\l"
+	.string "poder base global, solo heredaban la\l"
+	.string "capacidad de transformación, algo\l"
+	.string "insuficiente, y que nos llevó a\l"
+	.string "deshechar a estos prototipos iniciales.$"
 
 RocketHideout_8F_Mision_Silph_text_25.5:
-	.string "It is commonly known as DITTO, and\n"
-	.string "several specimens have been reported\l"
-	.string "in the POKÉMON MANSION itself and some\l"
-	.string "routes east of FUCHSIA.$"
+.string "Es lo que comúnmente se conoce como\n"
+	.string "DITTO; se han reportado varios\l"
+	.string "ejemplares en la propia MANSION\l"
+	.string "CANELA, y algunos escaparon hacia\l"
+	.string "rutas como la del este de FUCSIA.$"
 
 
 RocketHideout_8F_Mision_Silph_text_25.6:
@@ -1305,101 +1580,111 @@ RocketHideout_8F_Mision_Silph_text_40:
 	.string "related to all of this.$"
 
 RocketHideout_8F_Mision_Silph_text_41:
-	.string "SILPH C.O, the most important company\n"
-	.string "in the entire region, extending its\l"
-	.string "influence to the SEVII ISLANDS,\l"
-	.string "single-handedly produces the vast\l"
-	.string "majority of items for trainers\l"
-	.string "throughout KANTO. It has just dropped\l"
-	.string "a bombshell, a revolution in the capture\l"
-	.string "of POKÉMON.$"
+.string "SILPH S.A, la empresa más\n"
+	.string "importante de toda la región, que\l"
+	.string "extiende su poder hasta las ISLAS\l"
+	.string "SETE, produce ella sola la inmensa\l"
+	.string "mayoría de artículos para\l"
+	.string "entrenadores en toda KANTO, acaba\l"
+	.string "de soltar un bombazo, una revolución\l"
+	.string "en la captura de POKÉMON.$"
 
 RocketHideout_8F_Mision_Silph_text_42:
-	.string "Its MASTER BALL is presumably capable\n"
-	.string "of catching any POKÉMON under any\l"
-	.string "condition, an infallible POKÉ BALL, the\l"
-	.string "dream of any TRAINER, especially any\l"
-	.string "collector.$"
+.string "Su MASTER BALL presumiblemente es capaz\n"
+	.string "de atrapar cualquier POKÉMON, bajo\l"
+	.string "cualquier condición: una BALL infalible.\p"
+	.string "El sueño de cualquier ENTRENADOR, más\n"
+	.string "aún de cualquier coleccionista.$"
 
 RocketHideout_8F_Mision_Silph_text_43:
-	.string "An item like that would be crucial to\n"
-	.string "retrieve a POKÉMON like MEWTWO,\l"
-	.string "especially now when LANCE is unaware of\l"
-	.string "its existence. We have certain\l"
-	.string "suspicions about where it might be\l"
-	.string "after escaping from CINNABAR ISLAND…$"
+.string "Un objeto como ese sería crucial\n"
+	.string "para recuperar a un POKÉMON como\l"
+	.string "MEWTWO, más aun cuando LANCE no\l"
+	.string "sabe de su existencia.\l"
+	.string "Nosotros tenemos ciertas sospechas\l"
+	.string "de dónde puede estar después de que\l"
+	.string "escapara de ISLA CANELA{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_44:
-	.string "But that is not the most important\n"
-	.string "objective of our assault on SILPH. I\l"
-	.string "want everything to go perfectly, so\l"
-	.string "that in the eyes of the population,\l"
-	.string "TEAM ROCKET appears to be defeated.\l"
-	.string "They should lose sight of us just when\l"
-	.string "we are at our strongest…$"
+.string "Pero ese no es el objetivo más\n"
+	.string "importante de nuestro asalto a SILPH,\l"
+	.string "quiero que todo salga perfecto, que\l"
+	.string "a ojos de la población el TEAM ROCKET\l"
+	.string "sea derrotado, y que nos pierdan de\l"
+	.string "vista justo en el momento en el que\l"
+	.string "más fuertes estamos{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_45:
-	.string "By the time this happens, I will have\n"
-	.string "already presented the PRESIDENT of\l"
-	.string "SILPH with a tempting enough offer for\l"
-	.string "him to be on our side. I'm sure he also\l"
-	.string "does not approve of all the new\l"
-	.string "restrictions and commissions that\l"
-	.string "LANCE's government imposes on their\l"
-	.string "products.$"
+.string "Para cuando eso ocurra, yo ya le habré\n"
+	.string "puesto al PRESIDENTE de SILPH una oferta\l"
+	.string "que no podrá rechazar.\l"
+	.string "Estoy seguro de que él tampoco aprueba\l"
+	.string "todas las nuevas restricciones y\l"
+	.string "comisiones que el gobierno de LANCE\l"
+	.string "se lleva de sus productos.$"
 
 
 RocketHideout_8F_Mision_Silph_text_46:
-	.string "ANDRA! {PLAYER}! Your mission at\n"
-	.string "SILPH is as follows: We will force our\l"
-	.string "way in using a large portion of our\l"
-	.string "units. The two of you will be in charge\l"
-	.string "of dealing with the security protecting\l"
-	.string "the PRESIDENT. Once this is\l"
-	.string "accomplished, I will have a free hand to\l"
-	.string "speak calmly with him and explain the\l"
-	.string "situation. You will provide me with\l"
-	.string "enough time to convince him to\l"
-	.string "cooperate with TEAM ROCKET. During this\l"
-	.string "time, you must restrain the security\l"
-	.string "attempting to access the PRESIDENT's\l"
-	.string "office and any TRAINER trying to pass\l"
-	.string "through. My conversation with the\l"
-	.string "PRESIDENT at that moment must be\l"
-	.string "entirely confidential. Is that clear?$"
+.string "¡ANDRA!\n"
+	.string "¡{PLAYER}!\l"
+	.string "¡Vuestra misión en SILPH\l"
+	.string "es la siguiente!$"
+
+RocketHideout_8F_Mision_Silph_text_46.1:
+	.string "Entraremos por la fuerza usando\n"
+	.string "gran parte de nuestras unidades,\l"
+	.string "vosotros dos seréis los encargados\l"
+	.string "de deshaceros de la seguridad que\l"
+	.string "protege al PRESIDENTE.\l"
+	.string "Una vez logrado esto, tendré carta libre\l"
+	.string "para hablar tranquilamente con él, y\l"
+	.string "contarle la situación, vosotros me\l"
+	.string "daréis el tiempo suficiente como para\l"
+	.string "convencerle de cooperar.$"
+
+RocketHideout_8F_Mision_Silph_text_46.2:
+	.string "En ese lapso, deberéis de contener a\n"
+	.string "la seguridad que quiera acceder al\l"
+	.string "despacho del PRESIDENTE, y a cualquier\l"
+	.string "ENTRENADOR que trate de pasar; nuestra\l"
+	.string "conversación debe ser completamente\l"
+	.string "confidencial, ¿ha quedado claro?$"
 
 RocketHideout_8F_Mision_Silph_text_47:
-	.string "ANDRA: Not even LANCE will get through\n"
-	.string "if he shows up, BOSS!$"
+.string "ANDRA: ¡No pasará ni LANCE si se\n"
+	.string "llegara a presentar, señor!$"
 
 RocketHideout_8F_Mision_Silph_text_48:
-	.string "GIOVANNI: Once I have convinced the\n"
-	.string "PRESIDENT, we will obtain the MASTER\l"
-	.string "BALL, and more importantly, the support\l"
-	.string "of SILPH. By then, nothing stops us. As\l"
-	.string "soon as I give the signal, you will\l"
-	.string "withdraw along with the other\l"
-	.string "HIGH-LEVEL ROCKET members and leave\l"
-	.string "the building with our less competent\l"
-	.string "soldiers, with minimal protection to\l"
-	.string "reach me…$"
+.string "GIOVANNI: Una vez haya convencido al\n"
+	.string "PRESIDENTE, obtendremos la MASTER BALL,\l"
+	.string "y más importante aún: el apoyo de SILPH.$"
+
+RocketHideout_8F_Mision_Silph_text_48.1:
+	.string "Para ese entonces, ya nada nos retendrá\n"
+	.string "ahí: en cuanto os dé la señal, os\l"
+	.string "retiraréis junto con los ALTO RANGO,\l"
+	.string "y dejaréis el edificio solo con RECLUTAS\l"
+	.string "comunes, sin apenas protección para\l"
+	.string "llegar hasta mí{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_49:
-	.string "If everything goes according to plan,\n"
-	.string "that meddlesome RED will make an\l"
-	.string "appearance. Nothing better than\l"
-	.string "pretending a defeat against that\l"
-	.string "TRAINER without personality, empty of\l"
-	.string "purpose. With RED as the opponent, I\l"
-	.string "can lose and then leave, disappearing\l"
-	.string "before the word spreads and the police\l"
-	.string "show up…$"
+.string "Si todo sigue lo planeado, ese\n"
+	.string "entrometido de ROJO hará acto de\l"
+	.string "presencia.$"
+
+RocketHideout_8F_Mision_Silph_text_49.1:
+	.string "Nada mejor que fingir una derrota ante\n"
+	.string "ese ENTRENADOR sin personalidad, vacío\l"
+	.string "de propósito: siendo ROJO el rival,\l"
+	.string "podré perder y acto seguido irme de ahí\l"
+	.string "y desaparecer antes de que se corra la\l"
+	.string "voz y aparezca la policía{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Silph_text_50:
-	.string "Once here, we'll kill three birds with the\n"
-	.string "same stone: we'll have the MASTER BALL,\l"
-	.string "SILPH's loyalty, and the popular belief\l"
-	.string "that we are finished.$"
+.string "Una vez aquí, mataremos 3 pájaros\n"
+	.string "de un tiro: tendremos la MASTER BALL,\l"
+	.string "la lealtad de SILPH y la creencia\l"
+	.string "popular de que estamos acabados.$"
 
 RocketHideout_8F_Mision_Silph_text_51:
 	.string "PROTON: A brilliant plan, sir.$"
@@ -1541,23 +1826,60 @@ applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_7
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_5 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_6 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_EXIT
+addobject 2
+setobjectxy 2, 9, 15
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9.3
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
+waitmovement 0x0
+delay 5
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_6.7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
+delay 5
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9.7
+delay 5
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9.6
+delay 5
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9.7
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9.7
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 addobject 5
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_8
 waitmovement 0x0
-msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
-playse SE_PIN
-applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
-waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_8 MSGBOX_AUTOCLOSE
-playse SE_BREAKABLE_DOOR
-applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_10
-waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_9 MSGBOX_AUTOCLOSE
 applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_7
 waitmovement 0x0
@@ -1577,6 +1899,12 @@ waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 removeobject 5
 playse SE_EXIT
+waitse
+playse SE_BREAKABLE_DOOR
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_13
+waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_15 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
@@ -1584,20 +1912,27 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_16 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_19 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_13
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_21 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_22 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_23 MSGBOX_AUTOCLOSE
 playse MUS_RG_OBTAIN_KEY_ITEM
 addobject ITEM_TRI_PASS
@@ -1608,6 +1943,7 @@ removeobject 6
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_24 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_25 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
@@ -1615,7 +1951,9 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_26 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_27 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_28 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_29 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
@@ -1632,6 +1970,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_31 MSGBOX_AUTOCLOSE
 delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_32 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_33 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_15
 waitmovement 0x0
@@ -1641,12 +1980,18 @@ removeobject 4
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_34 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_35 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_16
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_5.4
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_5.3
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
@@ -1654,8 +1999,23 @@ removeobject 9
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17
 waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_1
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_36 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_36.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_36.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5.2
+waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_37 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_37.1 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 79
 setvar VAR_ROUTE111_STATE, 1
 setvar VAR_ROUTE107_STATE, 1
@@ -1665,6 +2025,67 @@ setvar VAR_ROUTE106_STATE, 1
 setvar VAR_ROUTE105_STATE, 1
 release
 end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.3:
+delay_8
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+face_left
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.4:
+walk_down
+face_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.1:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_5.2:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.6:
+emote_exclamation_mark
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.7:
+emote_exclamation_mark
+delay_8
+face_down
+delay_16
+delay_8
+face_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.3:
+emote_exclamation_mark
+face_down
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.2:
+walk_in_place_up
+step_end
+
+RocketHideout_8F_Mision_Gimnasios_move_9.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
 
 RocketHideout_8F_Mision_Gimnasios_texto_1:
 	.string "BLUE: So you too, GIOVANNI has also\n"
@@ -1697,61 +2118,90 @@ RocketHideout_8F_Mision_Gimnasios_texto_5:
 	.string "had never heard of such a POKÉMON.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6:
-	.string "GIOVANNI: There will be time to catch\n"
-	.string "you up, BLUE. What you need to know now\l"
-	.string "is that the moment we know its location\l"
-	.string "and capture it, we will have everything\l"
-	.string "we need to invade the POKÉMON LEAGUE\l"
-	.string "and overthrow LANCE once and for all.$"
+.string "GIOVANNI: Ya habrá tiempo de ponerte al\n"
+	.string "día, AZUL. Cuanto debes saber ahora es\l"
+	.string "que en el momento en que se confirme\l"
+	.string "su ubicación y le demos captura,\l"
+	.string "tendremos todo lo que necesitamos\l"
+	.string "para invadir la LIGA POKÉMON y derrocar\l"
+	.string "a LANCE de una vez por{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.1:
+	.string "????: Lo saben.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.2:
+	.string "GIOVANNI: PROTÓN, ¿qué ocurre?$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.3:
+	.string "Fui a seguir negociando con FUJI, tal y\n"
+	.string "como me dijo.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.4:
+	.string "Alguien ha dado el chivatazo, la\n"
+	.string "POLICÍA se presentó en su casa.\l"
+	.string "Él ha sido detenido, yo por suerte\l"
+	.string "pude escapar.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.5:
+	.string "GIOVANNI: No puede ser{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.6:
+	.string "Además, saben lo que nos traemos entre\n"
+	.string "manos con las AVES.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_6.7:
+	.string "Alguien les informó acerca de los\n"
+	.string "últimos avances en ingeniería genética,\l"
+	.string "y de cómo es posible clonarlas.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_7:
-	.string "H.R.GRUNT: Sir, forgive me for\n"
-	.string "interrupting, but it's everywhere. They\l"
-	.string "just arrested FUJI at his home in\l"
-	.string "LAVENDER TOWN, accusing him of\l"
-	.string "collaborating with us.$"
+.string "Ese BLAINE{PAUSE 25}…{PAUSE 25}\n"
+	.string "Nos ha traicionado, no hay otra\l"
+	.string "explicación, trabaja para LANCE,\l"
+	.string "o peor aún, para OAK.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_8:
-.string "GIOVANNI: This can't be…$"
+.string "ALTO RANGO: Perdone la intromisión,\n"
+	.string "señor, pero es urgente.\l"
+	.string "El CG de la LIGA ha emitido un\l"
+	.string "comunicado, con los nuevos requisitos\l"
+	.string "para participar, cito textualmente.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_9:
-	.string "That BLAINE{PAUSE 15}…{PAUSE 15} He has betrayed us, there\n"
-	.string "is no other explanation. He works for\l"
-	.string "LANCE, or worse yet, for OAK.$"
+	.string "-Además de las 8 MEDALLAS DE GIMNASIO,\n"
+	.string "dado que únicamente conocemos de la\l"
+	.string "existencia de tres AVES LEGENDARIAS en\l"
+	.string "en nuestra KANTO, las cuales están\l"
+	.string "celosamente protegidas.\l"
+	.string "Estará, por tanto, terminantemente\l"
+	.string "prohibido participar con cualquiera de\l"
+	.string "estos tres POKÉMON, no solo en muestra\l"
+	.string "de respeto, sino por la imposibilidad\l"
+	.string "de su obtención por medios legales,\l"
+	.string "entendiendo que cualquier ENTRENADOR\l"
+	.string "en posesión de estos LEGENDARIOS habrá\l"
+	.string "incurrido en prácticas ilegales, que\l"
+	.string "de ningún modo aprobamos-.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_10:
-	.string "H.R.GRUNT: That's not all, sir. The\n"
-	.string "ELITE 4 has issued a statement updating\l"
-	.string "the requirements to participate in the\l"
-	.string "POKÉMON LEAGUE. I quote: -In addition\l"
-	.string "to the 8 GYM BADGES, given that we only\l"
-	.string "know of the existence of three\l"
-	.string "LEGENDARY BIRDS in our region, which\l"
-	.string "are closely protected, it will be\l"
-	.string "strictly prohibited to participate with\l"
-	.string "any of these three POKÉMON. This is not\l"
-	.string "only as a show of respect but also due\l"
-	.string "to the impossibility of obtaining them\l"
-	.string "through legal means. Therefore, any\l"
-	.string "TRAINER in possession of these\l"
-	.string "LEGENDARIES will have engaged in\l"
-	.string "illegal practices that we by no means\l"
-	.string "approve of-.$"
+	.string "GIOVANNI: Ya veo{PAUSE 15}…{PAUSE 15} aquellos que hacen\n"
+	.string "la ley, pueden moldearla a su gusto.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
-.string "GIOVANNI: …$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_12:
-	.string "GIOVANNI: -Illegal practices that we\n"
-	.string "by no means approve of-. It's amusing\l"
-	.string "coming from them.$"
+.string "GIOVANNI: -Prácticas ilegales que\n"
+	.string "de ningún modo aprobamos-, tiene\l"
+	.string "gracia, viniendo de ellos.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
-	.string "GIOVANNI: Thank you, you can leave.$"
+.string "Gracias, ALTO RANGO.\n"
+	.string "Puedes retirarte.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "H.R.GRUNT: Sir{PAUSE 15}…{PAUSE 15} \n"
-	.string "Executives{PAUSE 15}…{PAUSE 15}$"
+.string "ALTO RANGO: Señor{PAUSE 15}…{PAUSE 15}\n"
+	.string "Ejecutivos{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
 	.string "ANDRA: Damn BLAINE! He has betrayed\n"
@@ -1886,33 +2336,39 @@ RocketHideout_8F_Mision_Gimnasios_texto_35:
 	.string "supposed ELITE of the region!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_36:
-	.string "GIOVANNI: Only a real trainer would\n"
-	.string "react like this. She doesn't see the\l"
-	.string "LEAGUE restrictions as a problem but as\l"
-	.string "an opportunity that will force her to\l"
-	.string "improve much more. I hope you also face\l"
-	.string "this challenge with the same\l"
-	.string "enthusiasm, {PLAYER}. Be careful; the\l"
-	.string "GYM LEADERS adjust their power based\l"
-	.string "on who they have in front of them. BLUE\l"
-	.string "and RED are protected by OAK and, as\l"
-	.string "such, have certain privileges, including\l"
-	.string "being able to participate in the\l"
-	.string "POKÉMON LEAGUE without a LICENSE and\l"
-	.string "facing somewhat weakened GYM LEADERS.\l"
-	.string "But I don't want that for you and\l"
-	.string "ANDRA.$"
+.string "GIOVANNI: Solo una entrenadora de verdad\n"
+	.string "reaccionaría así: no ve la restricción\l"
+	.string "de la LIGA como un problema, sino como\l"
+	.string "una gran oportunidad que le obligará a\l"
+	.string "mejorar mucho más.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_36.1:
+	.string "Espero que tú también afrontes este\n"
+	.string "reto con el mismo entusiasmo, {PLAYER}.\l"
+	.string "Ándate con cuidado, los LÍDERES ajustan\l"
+	.string "su poder según quien tengan enfrente,\l"
+	.string "AZUL y ROJO son protegidos de OAK, y\l"
+	.string "como tales tienen ciertos privilegios.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_36.2:
+	.string "Entre ellos, poder participar en la\n"
+	.string "LIGA POKÉMON sin LICENCIA, y enfrentar\l"
+	.string "a unos LÍDERES algo disminuidos, pero\l"
+	.string "yo no quiero eso para vosotros.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37:
-	.string "Since you obtained your starter, you\n"
-	.string "have faced all kinds of difficulties.\l"
-	.string "Everything you have, you have obtained\l"
-	.string "through your own merits. You know the\l"
-	.string "true face of this region, and you have\l"
-	.string "been forced to adapt to it. That gives\l"
-	.string "you an advantage and strength that\l"
-	.string "cannot be bought. Go and show it to\l"
-	.string "everyone!$"
+.string "Desde la misma entrega de vuestro\n"
+	.string "inicial, habéis pasado por todo\l"
+	.string "tipo de dificultades, todo lo que\l"
+	.string "tenéis lo habéis obtenido por méritos\l"
+	.string "propios, sabéis cuál es la verdadera\l"
+	.string "cara de esta región porque os habéis\l"
+	.string "visto obligados a adaptaros a ella.$"
+
+RocketHideout_8F_Mision_Gimnasios_texto_37.1:
+	.string "Eso{PAUSE 15}…{PAUSE 15} en conjunto{PAUSE 15}…{PAUSE 15} os da\n"
+	.string "ventaja y una fortaleza que no puede\l"
+	.string "comprarse, ¡ve y muéstraselo a todos!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
 walk_up
@@ -1965,8 +2421,6 @@ walk_up
 walk_up
 walk_up
 walk_up
-walk_up
-walk_up
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_9:
@@ -2003,9 +2457,9 @@ face_left
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_15:
+walk_down
+walk_down
 walk_right
-walk_down
-walk_down
 walk_down
 walk_down
 walk_down
@@ -2016,21 +2470,25 @@ step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_16:
 walk_down
-walk_right
-walk_right
-walk_right
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
+walk_fast_right
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
 step_end
 
 RocketHideout_8F_Mision_Gimnasios_move_17:
 face_up
+step_end
+
+RocketHideout8F_Mision_Subterraneo_Silph_Move_1.4:
+emote_exclamation_mark
 step_end
 
 RocketHideout8F_Mision_Subterraneo_Silph::
@@ -2041,15 +2499,33 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_1 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Subterraneo_Silph_Move_1.4
+waitmovement 0x0
+waitse
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_2.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_4.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_6 MSGBOX_AUTOCLOSE
 delay 15
@@ -2057,19 +2533,47 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_5
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_8.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_10.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_11 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_12.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_5
 waitmovement 0x0
@@ -2078,154 +2582,194 @@ msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_16 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Subterraneo_Silph_Move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Subterraneo_Silph_Text_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_85
 delay 15
 setvar VAR_UNUSED_0x40F7, 102
 release
 end
 
+RocketHideout8F_Mision_Subterraneo_Silph_Move_4.1:
+face_up
+step_end
+
+RocketHideout8F_Mision_Subterraneo_Silph_Move_4.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
 RocketHideout8F_Mision_Subterraneo_Silph_Text_1:
-	.string "GIOVANNI: Oh, {PLAYER}! Fantastic!\n"
-	.string "You look a bit changed! I wouldn't say\l"
-	.string "you've exactly been taking it easy on\l"
-	.string "your vacation. Am I wrong?$"
+.string "GIOVANNI: ¡Oh, {PLAYER}!\n"
+.string "¡Te veo algo cambiado!\p"
+	.string "No diría que has estado precisamente\n"
+	.string "tomando con calma tus vacaciones.\l"
+	.string "¿Me equivoco?$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
-	.string "First and foremost, I must give you\n"
-	.string "some unfortunate news: OAK has\l"
-	.string "completely vanished from the map. After\l"
-	.string "the events at the league, we agreed to\l"
-	.string "confine him to his laboratory in PALLET\l"
-	.string "TOWN, but he has found a way to\l"
-	.string "disappear. We suspect he might be\l"
-	.string "scheming something with BLAINE, the\l"
-	.string "other traitor who, curiously, has also\l"
-	.string "vanished. Meanwhile, FUJI is still\l"
-	.string "under arrest, fortunately, with his\l"
-	.string "return looming.$"
+.string "Antes de nada, debo darte una mala\n"
+	.string "noticia, y es que OAK ha desaparecido.$"
 
+RocketHideout8F_Mision_Subterraneo_Silph_Text_2.1:
+	.string "Después de lo ocurrido en la LIGA,\n"
+	.string "quedamos en recluirlo en su laboratorio\l"
+	.string "de PUEBLO PALETA, pero ha encontrado la\l"
+	.string "la forma de desaparecer.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_2.2:
+	.string "Creemos que puede estar tramando algo,\n"
+	.string "junto con BLAINE; el otro traidor que\l"
+	.string "también ha desaparecido.\p"
+	.string "Y mientras…{PAUSE 25} FUJI aún entre rejas,\n"
+	.string "por fortuna, queda poco para su vuelta{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
-	.string "But I haven't brought back my top\n"
-	.string "ROCKET to talk about OAK. The task I'm\l"
-	.string "about to assign you is much more\l"
-	.string "momentous for the history of our\l"
-	.string "region. Listen…$"
+.string "Pero no te hecho regresar para\n"
+	.string "hablar de OAK.\l"
+	.string "El encargo que estoy a punto de darte\l"
+	.string "es mucho más trascendental para la\l"
+	.string "historia de nuestra región, escucha{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
-	.string "For as long as anyone can remember,\n"
-	.string "KANTO citizens with open minds, those\l"
-	.string "who've looked beyond the original 150,\l"
-	.string "who've known other regions and\l"
-	.string "traveled to neighboring JOHTO or\l"
-	.string "distant HOENN, asked a question: Why\l"
-	.string "isn't there a POKÉMON in KANTO with the\l"
-	.string "characteristics of HO-OH, GROUDON, or\l"
-	.string "RAYQUAZA? A pattern seen in all known\l"
-	.string "regions without exception, except for\l"
-	.string "KANTO, which is quite peculiar…$"
+.string "Desde siempre, aquellos ciudadanos de\n"
+	.string "KANTO con la mente lo suficientemente\l"
+	.string "abierta como para ver más allá de los\l"
+	.string "150 originales; los que conocían otras\l"
+	.string "regiones, habían viajado hasta la vecina\l"
+	.string "JOHTO, o la lejana HOENN, se hacían una\l"
+	.string "pregunta{PAUSE 15}…{PAUSE 15}$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_4.1:
+	.string "¿Por qué no existe en KANTO un\n"
+	.string "POKÉMON de las dimensiones de\l"
+	.string "HO-OH, GROUDON o RAYQUAZA?$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_4.2:
+	.string "El patrón de los -LEGENDARIOS MAYORES-\n"
+	.string "se repite en todas las regiones\l"
+	.string "conocidas, sin excepción.\l"
+	.string "Todas{PAUSE 15}…{PAUSE 15} excepto nuestra KANTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
-	.string "Several theories emerged trying to\n"
-	.string "answer this question. Some scientists\l"
-	.string "and researchers claimed it was MEW.\l"
-	.string "However, we can't group MEW with\l"
-	.string "RAYQUAZA or LUGIA. It aligns more with\l"
-	.string "the profile of JIRACHI in HOENN or…$"
+.string "Surgieron muchas teorías que trataban\n"
+	.string "de responder a esta pregunta; algunos\l"
+	.string "científicos e investigadores señalaron\l"
+	.string "que era MEW dicho POKÉMON.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1:
+	.string "Pero no podemos meterlo en el mismo\n"
+	.string "saco que RAYQUAZA, o LUGIA{PAUSE 5}…{PAUSE 5}\l"
+	.string "Entraría más en el perfil de JIRACHI\l"
+	.string "en HOENN o{PAUSE 5}…{PAUSE 5}$"
 
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
-.string "PROTÓN: …$"
+.string "PROTÓN: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
-	.string "GIOVANNI: …CELEBI in JOHTO.$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}CELEBI en JOHTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
-	.string "Some argued that KANTO lacked a\n"
-	.string "POKÉMON of such caliber: the most it\l"
-	.string "had was DRAGONITE and MEW, both\l"
-	.string "capping the region's power at 600 BASE\l"
-	.string "STATS. After all, KANTO's history might\l"
-	.string "not have provided the conditions for a\l"
-	.string "LUGIA or HO-OH to develop here. In that\l"
-	.string "sense, it might be a matter of mere\l"
-	.string "chance, resulting in a curious\l"
-	.string "coincidence. However…$"
+.string "Otros apuntaban a que KANTO era una\n"
+	.string "región desprovista de un POKÉMON así.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.1:
+	.string "Sus POKÉMON de mayor jerarquía serían,\n"
+	.string "en ese caso, DRAGONITE y MEW.\l"
+	.string "Estableciendo el límite de poder de\l"
+	.string "la región en 600 STATS BASE.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.2:
+	.string "Después de todo, la historia de KANTO\n"
+	.string "pudo propiciar que no se diesen los\l"
+	.string "ingredientes necesarios para que surja\l"
+	.string "un LUGIA o un HO-OH; mero azar.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_8.3:
+	.string "De ser el caso, ello quedaría en una\n"
+	.string "curiosa coincidencia, sin embargo{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
-	.string "One last group of researchers points\n"
-	.string "out that such a POKÉMON would indeed\l"
-	.string "exist, and the only reason we don't know\l"
-	.string "it is precisely that: we haven't found\l"
-	.string "it yet.$"
+.string "Un último grupo de investigadores\n"
+	.string "apunta a que, efectivamente, dicho\l"
+	.string "POKÉMON existiría; el único motivo\l"
+	.string "por el que no lo conocemos sería\l"
+	.string "ese: aún no ha sido encontrado.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_10:
-	.string "This last theory breaks down into two\n"
-	.string "others: one says that we don't know\l"
-	.string "this POKÉMON because of its elusive\l"
-	.string "nature, the other claims its power is so\l"
-	.string "great that it exceeds heavyweight\l"
-	.string "legendaries from other regions, hence\l"
-	.string "making it far from reachable for any\l"
-	.string "human. Maybe it's both, or none{PAUSE 20}…{PAUSE 20} I don't\l"
-	.string "know.$"
+.string "Esta última teoría se subdivide en\n"
+	.string "otras dos teorías.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_10.1:
+	.string "Una afirma que ese POKÉMON nos es\n"
+	.string "ignoto por su escurridiza naturaleza.$"
+	
+RocketHideout8F_Mision_Subterraneo_Silph_Text_10.2:
+	.string "La otra{PAUSE 15}…{PAUSE 15} afirma que es debido\n"
+	.string "a su vasto poder, de tal magnitud que\l"
+	.string "sobrepasaría el de un -LEGENDARIO MAYOR-.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_11:
-.string "GIOVANNI: {PAUSE 20}…{PAUSE 20}$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_12:
-           .string "This topic has always intrigued me,\n"
-	.string "{PLAYER}. The existence of such a\l"
-	.string "POKÉMON could reshape our perception\l"
-	.string "of KANTO. Between our mission to free\l"
-	.string "KANTO from LANCE and the scarce\l"
-	.string "information on this matter, TEAM ROCKET\l"
-	.string "paused this issue. However, with KANTO\l"
-	.string "on the mend and the events during your\l"
-	.string "vacation, it's time to kickstart this\l"
-	.string "investigation.$"
+.string "Este tema siempre me ha fascinado.\n"
+	.string "La posibilidad de que tal POKÉMON\l"
+	.string "exista cambiaría la forma en que\l"
+	.string "vemos KANTO para siempre.$"
+
+RocketHideout8F_Mision_Subterraneo_Silph_Text_12.1:
+	.string "Entre nuestra cruzada para liberar\n"
+	.string "la región de las garras de LANCE, y\l"
+	.string "la poca información sobre dicho tema,\l"
+	.string "el TEAM ROCKET dejó este asunto en\l"
+	.string "pausa.\p"
+	.string "Ahora, con KANTO recuperándose, y\n"
+	.string "nuestra situación actual, es el momento\l"
+	.string "de reiniciar esta investigación.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
-	.string "Since SILPH became our ally, I've had\n"
-	.string "the opportunity to meet several times\l"
-	.string "with their PRESIDENT, {PLAYER}. The\l"
-	.string "thing is, in our last meeting, this topic\l"
-	.string "came up precisely, and…$"
+.string "Desde que SILPH es aliada nuestra, he\n"
+	.string "tenido ocasión de reunirme varias\l"
+	.string "veces con su PRESIDENTE.\p"
+	.string "El caso es que en nuestra última\n"
+	.string "reunión, salió este tema y{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
-	.string "SILPH actually has a huge private\n"
-	.string "library in their lower floors, off-limits\l"
-	.string "to the public. SILPH isn't just KANTO's\l"
-	.string "most successful company, but also one\l"
-	.string "of the oldest. In that private library,\l"
-	.string "there are some documents talking about\l"
-	.string "the existence of a POKÉMON that could\l"
-	.string "match the hierarchy of a LUGIA or a\l"
-	.string "HO-OH, or even more.$"
+.string "Resulta que SILPH cuenta con una gran\n"
+	.string "biblioteca privada en sus pisos\l"
+	.string "inferiores.\p"
+	.string "No solo es la empresa más exitosa\n"
+	.string "de KANTO, también es una de las más\l"
+	.string "antiguas; dentro de esa biblioteca\l"
+	.string "hay algunos documentos que hablan de\l"
+	.string "un POKÉMON que podría encajar con lo\l"
+	.string "que buscamos.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
-	.string "Your mission is quite simple,\n"
-	.string "{PLAYER}: you just have to return to\l"
-	.string "SILPH and speak with the receptionist\l"
-	.string "to get access to the lower floors. Thus\l"
-	.string "you could reach those potentially\l"
-	.string "revealing documents.$"
+.string "Tu misión es muy simple, {PLAYER}.\n"
+	.string "Solo tendrás que volver a SILPH y\l"
+	.string "hablar con la recepcionista, ella\l"
+	.string "te indicará cómo entrar a los pisos\l"
+	.string "inferiores.\l"
+	.string "Una vez allí, irás en busca de tan\l"
+	.string "reveladores archivos.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_16:
-	.string "It's not just me; SILPH PRESIDENT was\n"
-	.string "excited about your return to SILPH. In\l"
-	.string "that sense, you won't encounter any\l"
-	.string "opposition. Your task is simply to\l"
-	.string "gather as much information as possible\l"
-	.string "about this topic, search for any clues\l"
-	.string "that bring us closer to said POKÉMON. Do\l"
-	.string "you understand?$"
+.string "No solo yo, el PRESIDENTE de SILPH\n"
+	.string "se mostró encantado de que fueras\l"
+	.string "tú quien volviera a SILPH.\p"
+	.string "En ese sentido, no encontrarás\n"
+	.string "oposición alguna.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_17:
-	.string "GIOVANNI: Alright, {PLAYER},\n"
-	.string "remember, the SILPH receptionist will\l"
-	.string "get you into the lower floors. Say hi to\l"
-	.string "the PRESIDENT for me if you run into\l"
-	.string "him. That's all!$"
+.string "Eso es todo, y recuerda: la\n"
+	.string "recepcionista de SILPH te dará\l"
+	.string "acceso a los pisos inferiores.\l"
+	.string "Saluda al PRESIDENTE de mi parte,\l"
+	.string "si es que llegas a verlo.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Move_1:
 walk_up
@@ -2244,6 +2788,7 @@ step_end
 
 RocketHideout8F_Mision_Subterraneo_Silph_Move_4:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
@@ -2265,88 +2810,115 @@ fadescreen 1
 delay 50
 fadescreen 0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_4
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_5
 waitmovement 0x0
-msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_676
+setflag FLAG_HOENN_675
+clearflag FLAG_HOENN_70
+clearflag FLAG_HOENN_71
 setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+clearflag FLAG_HOENN_81
+clearflag FLAG_HOENN_82
+setvar VAR_UNUSED_0x40F8, 11
 setvar VAR_UNUSED_0x40F7, 107
 release
 end
 
+RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3.1:
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_1:
-	.string "GIOVANNI: And now? What information\n"
-	.string "did you uncover, {PLAYER}?$"
+.string "GIOVANNI: ¿Y bien?\n"
+	.string "¿Qué has averiguado, {PLAYER}?$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2:
-	.string "GIOVANNI: Hmmm{PAUSE 20}…{PAUSE 20} From what you're\n"
-	.string "telling me, the text you read doesn't\l"
-	.string "even question the existence of that\l"
-	.string "POKÉMON; it takes it for granted. And it\l"
-	.string "seems to be closer than we think, in\l"
-	.string "LAVENDER TOWN.$"
+.string "GIOVANNI: Mmm{PAUSE 25}…{PAUSE 25}\n"
+	.string "Por lo que me dices, el texto que\l"
+	.string "leíste ni siquiera cuestiona la\l"
+	.string "existencia de ese POKÉMON.\p"
+	.string "La da por hecho, y parece que se\n"
+	.string "encuentra más cerca de lo que\l"
+	.string "pensamos, en PUEBLO LAVANDA.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_3:
-	.string "But{PAUSE 20}…{PAUSE 20} Where exactly? The POKÉMON TOWER\n"
-	.string "is the only notable place, but we've\l"
-	.string "explored every inch of it.$"
+.string "Pero{PAUSE 25}…{PAUSE 25}\n"
+	.string "¿Donde?\l"
+	.string "La TORRE POKÉMON sería el único\l"
+	.string "lugar destacable, pero conocemos\l"
+	.string "de ella todos sus rincones.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4:
-	.string "Perhaps{PAUSE 20}…{PAUSE 20} It's one of those places\n"
-	.string "impossible to access, except for those\l"
-	.string "who already know where it is. If that\l"
-	.string "were the case, we would remain without\l"
-	.string "knowing the truth.$"
+.string "Tal vez{PAUSE 15}…{PAUSE 15}\n"
+	.string "Sea de esos lugares imposibles de\l"
+	.string "acceder, excepto para aquellos que\l"
+	.string "ya saben donde está; si fuera el\l"
+	.string "caso, nos quedaríamos sin saber la\l"
+	.string "verdad{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5:
-	.string "GIOVANNI: {PLAYER}! We need to\n"
-	.string "explore every option! I can't send\l"
-	.string "loads of soldiers to comb through every\l"
-	.string "bit of LAVENDER TOWN looking for some\l"
-	.string "ancient hidden passage; that would\l"
-	.string "raise too many suspicions.$"
+.string "GIOVANNI: ¡{PLAYER}!\n"
+	.string "¡Tenemos que agotar todas\l"
+	.string "las posibilidades!\p"
+	.string "No puedo enviar a decenas de\n"
+	.string "soldados a que se pongan a limpiar\l"
+	.string "cada centímetro de PUEBLO LAVANDA,\l"
+	.string "levantaría muchas sospechas.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6:
-	.string "However, with only those present here\n"
-	.string "knowing about this, you can discreetly\l"
-	.string "be the one to investigate every corner\l"
-	.string "of LAVENDER TOWN in search of\l"
-	.string "something that has gone unnoticed for\l"
-	.string "countless generations. You'll be\l"
-	.string "chasing a mirage, {PLAYER}.$"
+.string "Pero, sabiendo de esto solo los\n"
+	.string "aquí presentes, puedes ser tú quien,\l"
+	.string "de forma discreta, investigue cada\l"
+	.string "rincón de PUEBLO LAVANDA.$"
 
-RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7:
-	.string "Nevertheless, the legend doesn't\n"
-	.string "specify that such a cult must\l"
-	.string "necessarily be in the center of\l"
-	.string "LAVENDER TOWN or even the current\l"
-	.string "POKÉMON TOWER. Perhaps we should also\l"
-	.string "consider the outskirts as potential\l"
-	.string "options. Both the end of ROUTE 10, the\l"
-	.string "entrance to LAVENDER TOWN, and the\l"
-	.string "start of ROUTE 12 to the south of\l"
-	.string "LAVENDER TOWN would fit the\l"
-	.string "description in the legend.$"
+RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6.1:
+	.string "Irás tras algo que ha pasado inadvertido\n"
+	.string "por incontables generaciones, tras un\l"
+	.string "espejismo, {PLAYER}.$"
+
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8:
-	.string "That concludes it, {PLAYER}, and bear\n"
-	.string "in mind, every step you take could be\l"
-	.string "new pages being added to the recent\l"
-	.string "history of KANTO. Perhaps we'll uncover\l"
-	.string "something that should have been known\l"
-	.string "a long time ago.$"
+.string "Eso es todo.\n"
+	.string "Y recuerda, cada paso que des podrían\l"
+	.string "ser nuevas páginas escritas en la\l"
+	.string "historia reciente de KANTO.\l"
+	.string "Quizá{PAUSE 15}…{PAUSE 15} destapemos algo que hace\l"
+	.string "mucho debió de saberse{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_1:
 walk_up
@@ -2360,11 +2932,13 @@ step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_3:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_4:
 walk_slow_right
+delay_16
 walk_in_place_down
 step_end
 
@@ -2393,27 +2967,69 @@ msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.1
+waitmovement 0x0
+waitse
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_12 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 fadescreen 1
@@ -2424,95 +3040,135 @@ setvar VAR_UNUSED_0x40F7, 109
 release
 end
 
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_5.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.1:
+emote_exclamation_mark
+step_end
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_2.2:
+walk_in_place_down
+step_end
+
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_1:
-	.string "GIOVANNI: Did you find anything,\n"
+.string "GIOVANNI: ¿Encontraste algo,\n"
 	.string "{PLAYER}?$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_2:
-	.string "An incredible story, incredible{PAUSE 20}…{PAUSE 20} Who\n"
-	.string "would have thought that such a place is\l"
-	.string "right beneath LAVENDER TOWN? It was\l"
-	.string "real after all; if that place is real, the\l"
-	.string "POKÉMON must be real too.$"
+.string "Una historia increíble, increíble{PAUSE 25}…{PAUSE 25}\p"
+	.string "¿Quién diría que semejante lugar se\n"
+	.string "encuentra bajo PUEBLO LAVANDA?\l"
+	.string "Era real después de todo, si ese\l"
+	.string "lugar es real, el POKÉMON ESENCIA\l"
+	.string "debe también serlo.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_3:
-	.string "So, the cult leader told you straight up\n"
-	.string "to keep the way of summoning that\l"
-	.string "POKÉMON on the down-low, except for\l"
-	.string "the only ones who can take it down in\l"
-	.string "that fight, and that's you, plus maybe 1\l"
-	.string "or 2 more trainers in KANTO.$"
+.string "Y el LÍDER del culto te pidió\n"
+	.string "expresamente guardar en secreto la\l"
+	.string "forma de convocar a tal POKÉMON.\l"
+	.string "Salvo por 2 o 3 ENTRENADORES en\l"
+	.string "toda KANTO{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4:
-.string "GIOVANNI: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
-	.string "I guess he meant OAK and me. There's\n"
-	.string "definitely a lot we still don't know.\l"
-	.string "You're saying that trainer had MEW,\l"
-	.string "missing since MEWTWO's creation, and\l"
-	.string "still claimed to be using just 50% of his\l"
-	.string "power. But discovering the ultimate\l"
-	.string "limits of this world is why TEAM ROCKET\l"
-	.string "was formed: we'll go to NAVEL ROCK, now.$"
+.string "Supongo que se referiría a OAK y a\n"
+	.string "mí también; no cabe duda de que hay\l"
+	.string "cosas que aún se nos escapan.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1:
+	.string "Que tuviera también a MEW,\n"
+	.string "desaparecido desde que creamos\l"
+	.string "a MEWTWO{PAUSE 15} …{PAUSE 15}$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2:
+	.string "Para esto se fundó el TEAM ROCKET, para\n"
+	.string "descubrir los límites últimos del mundo.\l"
+	.string "Y por eso, iremos ahora a ROCA OMBLIGO.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6:
-	.string "ARCHER has been busy in the SEVEN\n"
-	.string "ISLANDS, finding and logging all the\l"
-	.string "alternative routes connecting the\l"
-	.string "islands.$"
+.string "Uno de los trabajos que ATLAS ha\n"
+	.string "estado haciendo en las ISLAS SETE,\l"
+	.string "es encontrar y dejar registradas\l"
+	.string "todas las rutas alternativas que\l"
+	.string "hay de conexión entre las islas.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7:
-	.string "Theoretically, there are 7 islands,\n"
-	.string "hence the name 'SEVII'. However,\l"
-	.string "practically speaking, one could count\l"
-	.string "10 substantial landmasses. The eighth\l"
-	.string "is just south of TWO ISLAND, a ninth is\l"
-	.string "east of the ruins of SEVEN ISLAND and\l"
-	.string "south of SIX ISLAND, and the tenth is\l"
-	.string "slightly northwest of ONE ISLAND,\l"
-	.string "known as NAVEL ROCK.$"
+.string "En teoría existen 7 islas, de ahí\n"
+	.string "el nombre de ISLAS SETE, pero en\l"
+	.string "la práctica se podrían considerar\l"
+	.string "10 porciones de tierra de tamaño\l"
+	.string "considerable.$" 
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.1:
+	.string "Así, habría una octava isla justo al\n"
+	.string "sur de ISLA SECUNDA, una novena al\l"
+	.string "este de las ruinas de ISLA SÉTIMA, y\l"
+	.string "una décima, que se encuentra algunos\l"
+	.string "grados al noroeste de ISLA INTA.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2:
+	.string "Esta última es ROCA OMBLIGO.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8:
-	.string "LUGIA and HO-OH have power on par with\n"
-	.string "MEWTWO. Our emergency plan to save\l"
-	.string "KANTO after MEWTWO's escape was to\l"
-	.string "locate these two POKÉMON. However, as\l"
-	.string "happened to LANCE, we couldn't find\l"
-	.string "them until recently. Following the\l"
-	.string "events at the POKÉMON LEAGUE, ARCHER\l"
-	.string "sent me a report about this new\l"
-	.string "finding: a tenth island in the center of\l"
-	.string "the 7, covered by strong tides and\l"
-	.string "housing an unexplored cave.$"
+.string "LUGIA y HO-OH cuentan con un poder\n"
+	.string "similar al de MEWTWO; nuestro plan\l"
+	.string "de emergencia para salvar KANTO, tras\l"
+	.string "el fracaso de MEWTWO, era precisamente\l"
+	.string "el encontrar estos dos POKÉMON.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1:
+	.string "Al igual que LANCE, jamás pudimos\n"
+	.string "hacerlo.\p"
+	.string "Pero después de lo ocurrido en la LIGA\n"
+	.string "POKÉMON, ATLAS me envió un informe con\l"
+	.string "el reciente descubrimiento.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2:
+	.string "Esa décima isla esta el centro de\n"
+	.string "las 7, cubierta de fuertes mareas,\l"
+	.string "y con una gran cueva en su interior,\l"
+	.string "aún por explorar.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9:
-	.string "I can't think of another place where\n"
-	.string "these two beasts, last seen decades\l"
-	.string "ago, could be.$"
+.string "No se me ocurre otro lugar donde\n"
+	.string "puedan estar estas dos bestias,\l"
+	.string "vistas por última vez hace décadas.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10:
-	.string "{PLAYER}! NAVEL ROCK is relatively\n"
-	.string "close to FIVE ISLAND; however, the\l"
-	.string "currents between them are the\l"
-	.string "strongest of all the SEVEN ISLANDS. It\l"
-	.string "would be too risky to attempt to pass\l"
-	.string "through there, yet…$"
+.string "¡{PLAYER}!\n"
+	.string "ROCA OMBLIGO está relativamente\l"
+	.string "cerca de ISLA INTA, sin embargo,\l"
+	.string "las corrientes entre ellas son las\l"
+	.string "más fuertes de todo el ARCHI7.\p"
+	.string "Sería correr demasiados riesgos,\n"
+	.string "sin embargo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11:
-	.string "ARCHER found a different way out from\n"
-	.string "TWO ISLAND's port. It's a bit longer, but\l"
-	.string "the currents are gentler, and the route\l"
-	.string "is more direct. We'll go through that\l"
-	.string "way. Don't worry about the caution sign;\l"
-	.string "it's more of a precaution to avoid\l"
-	.string "trouble than an indication of real\l"
-	.string "danger.$"
+.string "ATLAS descubrió una ruta alternativa,\n"
+	.string "partiendo del puerto de ISLA SECUNDA.\p"
+	.string "Es más larga, pero las corrientes\n"
+	.string "son menos traicioneras.$"
+
+RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11.1:
+	.string "Cruzaremos por ahí, ignora el cartel de\n"
+	.string "precaución, lo han colocado más para\l"
+	.string "ahorrarse problemas y lavarse las manos\l"
+	.string "ante cualquier accidente, que por la\l"
+	.string "verdadera peligrosidad de sus aguas.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_12:
-	.string "Meet me at NAVEL ROCK, {PLAYER}. This\n"
-	.string "time, I'll be there in person to join you\l"
-	.string "on this mission.$"
+.string "Te espero en ROCA OMBLIGO, {PLAYER}.\n"
+	.string "Esta vez seré yo en persona quien\l"
+	.string "te haga compañía en esta misión.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_1:
 walk_up
@@ -2526,11 +3182,13 @@ step_end
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_3:
 walk_slow_left
+delay_16
 walk_in_place_left
 step_end
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_4:
 walk_slow_right
+delay_16
 walk_in_place_down
 step_end
 
@@ -2548,8 +3206,12 @@ addobject 10
 applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout8F_Mision_Mansion_Oak_Text_2.1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_3 MSGBOX_AUTOCLOSE
 delay 15
@@ -2574,6 +3236,14 @@ msgbox RocketHideout8F_Mision_Mansion_Oak_Text_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_6
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_8 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_6.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout8F_Mision_Mansion_Oak_Text_8.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_9 MSGBOX_AUTOCLOSE
@@ -2596,9 +3266,9 @@ delay 15
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 fadescreen 1
+delay 20
 addobject 2
 addobject 10
-delay 20
 fadescreen 0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_17 MSGBOX_AUTOCLOSE
 applymovement 2, RocketHideout8F_Mision_Mansion_Oak_Move_9
@@ -2618,102 +3288,113 @@ applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_19 MSGBOX_AUTOCLOSE
 delay 15
+setvar VAR_UNUSED_0x40F8, 27
 setvar VAR_UNUSED_0x40F7, 113
 release
 end
+
+RocketHideout8F_Mision_Mansion_Oak_Move_6.1:
+emote_exclamation_mark
+step_end
 
 RocketHideout8F_Mision_Mansion_Oak_Text_1:
 .string "ANDRA: Sir, that's the whole story.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_2:
-	.string "GIOVANNI: Excellent job, ANDRA. Both\n"
-	.string "you and {PLAYER} have done a great\l"
-	.string "job. Now we know that the relic was part\l"
-	.string "of DEOXYS, and with both OAK and BLAINE\l"
-	.string "under control, KANTO can finally reach\l"
-	.string "the peace. We don't know what those lab\l"
-	.string "maniacs are up to.$"
+.string "GIOVANNI: Excelente, ANDRA.\n"
+	.string "{PLAYER} y tú habéis hecho un gran\l"
+	.string "trabajo, ahora sabemos que esa reliquia\l"
+	.string "formaba parte de DEOXYS, y que tanto\l"
+	.string "OAK como BLAINE se esconden en una\l"
+	.string "parte oculta de la MANSIÓN POKÉMON.$"
+	
+RocketHideout8F_Mision_Mansion_Oak_Text_2.1:
+	.string "Cuando ambos estén bajo control, KANTO\n"
+	.string "al fin podrá tener plena tranquilidad.\p"
+	.string "Mientras, no sabemos lo que esos dos\n"
+	.string "maníacos se traen entre manos.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_3:
-.string "GIOVANNI: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_4:
-	.string "EXECUTIVE PROTON, ADMIN. ANDRA, I need\n"
-	.string "to speak privately with {PLAYER}.\l"
-	.string "Step outside for a moment.$"
+.string "ADMINISTRADORA ANDRA, EJECUTIVO\n"
+	.string "PROTÓN{PAUSE 15}…{PAUSE 15} necesito hablar en privado con\l"
+	.string "{PLAYER}. Salid un momento, por favor.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_5:
-	.string "GIOVANNI: So, OAK has challenged you to\n"
-	.string "go alone to the POKÉMON MANSION, and\l"
-	.string "demonstrate you the recent power he\l"
-	.string "has gained. Right?$"
+.string "Así que OAK te ha retado a acudir\n"
+	.string "solo a la MANSIÓN POKÉMON{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_6:
-	.string "Common sense says we should go full\n"
-	.string "force into that POKÉMON MANSION and\l"
-	.string "obliterate whatever they're up to this\l"
-	.string "time.$"
+.string "La lógica dice que, sabiendo esto,\n"
+	.string "debemos entrar con toda la fuerza\l"
+	.string "de nuestra organización.\p"
+	.string "Asegurarnos de destruir por completo\n"
+	.string "lo que sea que estén haciendo allí.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_7:
-	.string "OAK is a cautious, cold, and calculated\n"
-	.string "man. If he has thrown such a challenge\l"
-	.string "at you, having witnessed firsthand how\l"
-	.string "you defeated both RED and LANCE, it's\l"
-	.string "because he genuinely possesses\l"
-	.string "something extraordinary in his power.$"
+.string "OAK es un hombre precavido, frío y\n"
+	.string "calculador; si te ha lanzado ese\l"
+	.string "reto a ti, viendo de primera mano\l"
+	.string "cómo derrotaste a ROJO y LANCE, es\l"
+	.string "porque de verdad cuenta con algo\l"
+	.string "extraordinario en su poder.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_8:
-	.string "I suspect that, somehow, they have\n"
-	.string "recovered MEWTWO. If that's indeed the\l"
-	.string "case, and they decide to use it as they\l"
-	.string "please, the entire region is in serious\l"
-	.string "danger, even greater than in the KANTO\l"
-	.string "WAR.$"
+.string "Sospecho que, de alguna forma, han\n"
+	.string "recuperado a MEWTWO.$"
+
+RocketHideout8F_Mision_Mansion_Oak_Text_8.1:
+	.string "Si de verdad es así, y deciden usarlo a\n"
+	.string "su antojo, toda la región corre peligro.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_9:
-	.string "However, in TEAM ROCKET, we take both\n"
-	.string "honor and loyalty very seriously. If OAK\l"
-	.string "has personally challenged you, and you\l"
-	.string "believe you should go on your own, you\l"
-	.string "should do so…$"
+.string "Sin embargo, en el TEAM ROCKET nos\n"
+	.string "tomamos muy en serio tanto el\l"
+	.string "honor como la lealtad.{PAUSE 25}\p"
+	.string "Si OAK te ha retado personalmente,\n"
+	.string "y consideras que debes ir por tu\l"
+	.string "cuenta, deberías hacerlo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_10:
-	.string "However, given the significance this\n"
-	.string "matter holds for the entire region,\l"
-	.string "both ARCHER and me, along with PETREL,\l"
-	.string "ANDRA, PROTON, and the other prominent\l"
-	.string "members of the organization will stay in\l"
-	.string "the background, {PLAYER}, in case\l"
-	.string "anything goes wrong.$"
+.string "Pero{PAUSE 25}…{PAUSE 25}dada la importancia\n"
+	.string "para toda la región que tiene este asunto,\l"
+	.string "tanto yo como ATLAS, PETREL, ANDRA y el\l"
+	.string "resto de miembros más destacados de la\l"
+	.string "organización, nos mantendremos en la\l"
+	.string "retaguardia, por si algo saliera mal.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_11:
-	.string "I need to ensure, {PLAYER}, that you\n"
-	.string "are ready for everything, even for\l"
-	.string "MEWTWO.$"
+.string "Tengo que asegurarme, {PLAYER}{PAUSE 15}…{PAUSE 15}\p"
+	.string "Asegurarme de que estás preparado para\n"
+	.string "todo, incluso para MEWTWO.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_12:
-	.string "Just like ARCHER made sure both you and\n"
-	.string "ANDRA were ready for the POKÉMON\l"
-	.string "LEAGUE, now it's time for the ultimate\l"
-	.string "challenge.$"
+.string "Del mismo modo que ATLAS se aseguró\n"
+	.string "de que tanto ANDRA como tú contábais\l"
+	.string "con el mínimo de nivel para abordar\l"
+	.string "la LIGA POKÉMON, esta situación\l"
+	.string "requiere de la prueba máxima{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_13:
-	.string "I, GIOVANNI, TEAM ROCKET LEADER, will\n"
-	.string "personally take your POKÉMON to the\l"
-	.string "next level!$"
+.string "Yo, GIOVANNI, LÍDER DEL TEAM ROCKET,\n"
+	.string "¡me encargaré personalmente de llevar\l"
+	.string "a tus POKÉMON al siguiente nivel.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_14:
-	.string "I am proud of you, {PLAYER}. With your\n"
-	.string "current level, KANTO holds no more\l"
-	.string "mysteries for you.$"
+.string "Me siento orgulloso de ti, {PLAYER}.\n"
+	.string "Con tu nivel actual, KANTO no\l"
+	.string "tiene ya ningún misterio para ti.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_15:
-	.string "It's crazy, {PLAYER}, I've improved so\n"
-	.string "much since the days when OAK and I were\l"
-	.string "going head-to-head for the KANTO\l"
-	.string "Championship. Yet, you managed to\l"
-	.string "outshine me. You've got the freedom to\l"
-	.string "call the shots now.$"
+.string "Actualmente, soy mejor ENTRENADOR\n"
+	.string "que cuando OAK y yo nos disputábamos\l"
+	.string "el título de CAMPEÓN de KANTO.\p"
+	.string "A pesar de ello, has sido capaz de\n"
+	.string "derrotarme, no tengo palabras. Te has\l"
+	.string "ganado el derecho de hacer lo que\l"
+	.string "quieras en esta situación.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_16:
 .string "ANDRA!!\n"
@@ -2784,13 +3465,25 @@ emote_exclamation_mark
 face_up
 step_end
 
+RocketHideout8F_Mision_Johto_move_9.1:
+face_left
+delay_8
+delay_16
+face_down
+step_end
+
 
 RocketHideout8F_Mision_Johto::
 lock
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
-clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setflag FLAG_RECEIVED_SHOAL_SHELL_2
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+setflag FLAG_NUEVA_292
+addobject 1
 addobject 10
-addobject 2
+removeobject 2
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_1
 waitmovement 0x0
 applymovement 10, RocketHideout8F_Mision_Johto_move_2
@@ -2811,37 +3504,44 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout8F_Mision_Johto_Text_3 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox RocketHideout8F_Mision_Johto_Text_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Johto_move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout8F_Mision_Johto_Text_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout8F_Mision_Johto_Text_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Johto_move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_8 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_9
+waitmovement 0x0
+waitse
+delay 10
 applymovement 1, RocketHideout8F_Mision_Johto_move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_9 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Johto_move_7
 waitmovement 0x0
 delay 20
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_10 MSGBOX_DEFAULT
-givemon SPECIES_RAIKOU, 25, ITEM_LUM_BERRY
+givemon SPECIES_RAIKOU, 70, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_11 MSGBOX_DEFAULT
-givemon SPECIES_ENTEI, 25, ITEM_LUM_BERRY
+givemon SPECIES_ENTEI, 70, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout8F_Mision_Johto_Text_12 MSGBOX_DEFAULT
-givemon SPECIES_SUICUNE, 25, ITEM_LUM_BERRY
+givemon SPECIES_SUICUNE, 70, ITEM_LUM_BERRY
 waitfanfare
 msgbox RocketHideout8F_Mision_Johto_Text_13 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Johto_move_8
@@ -2850,7 +3550,9 @@ msgbox RocketHideout8F_Mision_Johto_Text_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Johto_move_6
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_15 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_16 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_9
@@ -2902,12 +3604,21 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_10
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Johto_move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_21 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_22 MSGBOX_AUTOCLOSE
-applymovement 1, RocketHideout8F_Mision_Johto_move_2
+delay 10
+playse SE_PIN
+applymovement 1, RocketHideout8F_Mision_Johto_move_9
 waitmovement 0x0
+waitse
+applymovement 1, RocketHideout8F_Mision_Johto_move_9.1
+waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Johto_Text_23 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_14
 applymovement 6, RocketHideout8F_Mision_Johto_move_15
@@ -2963,6 +3674,7 @@ waitfanfare
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_30 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_672
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
 fadescreen 1
@@ -3188,11 +3900,13 @@ step_end
 
 RocketHideout8F_Mision_Johto_move_7:
 walk_slow_down
+delay_16
 walk_in_place_down
 step_end
 
 RocketHideout8F_Mision_Johto_move_8:
 walk_slow_up
+delay_16
 walk_in_place_down
 step_end
 
@@ -3339,6 +4053,7 @@ step_end
 
 RocketHideout8F_Mision_Johto_move_14:
 walk_right
+delay_16
 walk_in_place_left
 step_end
 
@@ -3362,6 +4077,7 @@ step_end
 
 RocketHideout8F_Mision_Johto_move_17:
 walk_left
+delay_8
 walk_in_place_up
 step_end
 
@@ -3391,38 +4107,85 @@ addobject 1
 addobject 6
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_3
 waitmovement 0x0
+delay 10
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_2
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8 MSGBOX_AUTOCLOSE
-fadescreen 1
-delay 25
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.2
+applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.3
+waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_103_RIVAL
-removeobject 6
-fadescreen 0
+playse SE_EXIT
+waitse
+delay 10
 setvar VAR_UNUSED_0x40F7, 168
 release
 end
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.2:
+delay_16
+face_left
+delay_16
+face_down
+step_end
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.3:
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.1:
+emote_exclamation_mark
+step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1:
 	.string "GIOVANNI: As I told you, ANDRA, the\n"
@@ -3478,17 +4241,20 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7:
 .string "ANDRA: Sir, yes, sir!$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
-	.string "You didn't tell me that guy had KYOGRE,\n"
-	.string "GROUDON, and RAYQUAZA, {PLAYER}! Did\l"
-	.string "you really face three LEGENDARY\l"
-	.string "POKÉMON from HOENN at once? Be really\l"
-	.string "careful. I've been studying HOENN's\l"
-	.string "mythology, and there are legends about\l"
-	.string "even more powerful forms-the ones that\l"
-	.string "truly created the land and the sea-the\l"
-	.string "PRIMAL FORMs. I don't know if that guy\l"
-	.string "wants to see if the legend is true, but\l"
-	.string "keep it in mind.$"
+.string "No me dijiste que ese tipo contaba\n"
+	.string "con KYOGRE, GROUDON y RAYQUAZA.\l"
+	.string "¿De verdad enfrentaste a los tres\l"
+	.string "LEGENDARIOS de HOENN a la vez?\p"
+	.string "Ten mucho cuidado, he estudiado su\n"
+	.string "mitología, y la leyenda habla de\l"
+	.string "FORMAS PRIMIGENIAS aún más poderosas.$"
+
+RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8.1:
+	.string "Así es, las que de verdad crearon\n"
+	.string "la tierra y el mar.\p"
+	.string "No sé si ese tipo querrá comprobar la\n"
+	.string "veracidad de esa leyenda, pero tenlo\l"
+	.string "en cuenta.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1:
 face_right
@@ -3534,19 +4300,28 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_1
 waitmovement 0x0
+waitse
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_4
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_7 MSGBOX_AUTOCLOSE
 showmoneybox 0, 0
 delay 20
@@ -3557,21 +4332,23 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_8 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_11 MSGBOX_DEFAULT
-givemon SPECIES_LUGIA, 60, ITEM_LUM_BERRY
+givemon SPECIES_LUGIA, 90, ITEM_LUM_BERRY
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_12 MSGBOX_DEFAULT
-givemon SPECIES_HO_OH, 60, ITEM_LUM_BERRY
+givemon SPECIES_HO_OH, 90, ITEM_LUM_BERRY
 waitfanfare
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_6
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
@@ -3581,20 +4358,30 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_4
 waitmovement 0x0
 delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_8
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_9
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_19 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
@@ -3613,19 +4400,27 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_22 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_25 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_10
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_27 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_11
 waitmovement 0x0
+waitse
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_28 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
 waitmovement 0x0
@@ -3635,6 +4430,9 @@ fadescreen 1
 delay 20
 removeobject 6
 fadescreen 0
+setflag FLAG_HOENN_108
+setflag FLAG_RECEIVED_SHOAL_SHELL_2
+setflag FLAG_NUEVA_292
 clearflag FLAG_RECEIVED_SHOAL_SHELL_1
 setvar VAR_VERDANTURF_TOWN_STATE, 1
 setvar VAR_PACIFIDLOG_TOWN_STATE, 1
@@ -3874,35 +4672,54 @@ fadescreen 0
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.2 MSGBOX_AUTOCLOSE
-delay 15
+playse SE_PIN
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CianwoodEusineHouse_Combate_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_9 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Base_Hoenn_Move_7
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_8
 waitmovement 0x0
@@ -3913,6 +4730,7 @@ delay 15
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 waitmovement 0x0
@@ -3939,8 +4757,10 @@ msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_21 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_10
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_23 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_1
@@ -3965,6 +4785,7 @@ step_end
 
 RocketHideout_8F_Mision_Base_Hoenn_Move_8:
 walk_slow_left
+delay_16
 walk_in_place_down
 step_end
 
@@ -4152,45 +4973,118 @@ msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_1.1
+waitmovement 0x0
+waitse
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Neo_Canela_Move_6
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_4
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_7
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_8
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_8.1
+applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_8.2
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_8.3
+waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
-fadescreen 1
 delay 20
 removeobject 7
 removeobject 8
-fadescreen 0
+playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 191
 release
 end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.1:
+delay_8
+face_right
+delay_16
+face_down
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+face_down
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.2:
+walk_in_place_left
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8.3:
+face_left
+delay_16
+delay_8
+walk_left
+delay_16
+walk_in_place_left
+delay_8
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
 
 RocketHideout_8F_Mision_Neo_Canela_Move_8:
 walk_in_place_left
@@ -4219,6 +5113,10 @@ step_end
 RocketHideout_8F_Mision_Neo_Canela_Move_2:
 walk_slow_up
 walk_slow_up
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_1.1:
+emote_exclamation_mark
 step_end
 
 RocketHideout_8F_Mision_Neo_Canela_Move_1:
@@ -4315,38 +5213,49 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_3 MSGBOX_DEFAULT
 waitfanfare
+delay 20
 hidemoneybox
-delay 40
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_5 MSGBOX_DEFAULT
-givemon SPECIES_SILVALLY, 70, ITEM_NONE
+givemon SPECIES_SILVALLY, 90, ITEM_NONE
 waitfanfare
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
 waitmovement 0x0
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_4
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_5
 waitmovement 0x0
@@ -4357,6 +5266,8 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+clearflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
+clearflag FLAG_HIDE_BATTLE_TOWER_OPPONENT
 setvar VAR_UNUSED_0x40F7, 202
 release
 end
@@ -4523,7 +5434,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_16 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Final_DLC_Texto_17 MSGBOX_DEFAULT
-givemon SPECIES_MEWTWO, 70, ITEM_MEWTWONITE_Y
+givemon SPECIES_MEWTWO, 100, ITEM_MEWTWONITE_Y
 waitfanfare
 msgbox RocketHideout_8F_Final_DLC_Texto_18 MSGBOX_AUTOCLOSE
 delay 20
@@ -4663,7 +5574,7 @@ RocketHideout_8F_Final_DLC_Texto_16:
 	.string "past, but consider it as another option.$"
 
 RocketHideout_8F_Final_DLC_Texto_17:
-.string "YOU OBTAINED A MEWTWO AT LV.70!!$"
+.string "YOU OBTAINED A MEWTWO AT LV.100!!$"
 
 RocketHideout_8F_Final_DLC_Texto_18:
 .string "The original MEWTWO is yours, {PLAYER}.$"

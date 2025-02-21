@@ -35,8 +35,8 @@ Route111_OldLadysRestStop_Text_RestUpHere:
 	.string "That's a fine idea! You should do that.$"
 
 Route111_OldLadysRestStop_Text_TakeYourTimeRestUp:
-	.string "That's right.\n"
-	.string "Take your time and rest up!$"
+	.string	"Exacto.\n"
+	.string	"Tómate tu tiempo y descansa.$"
 
 Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 	.string "Oh, dear, dear.\n"
@@ -45,6 +45,6 @@ Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 	.string "That's a fine idea. You should do that.$"
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
-	.string "Is that so?\n"
-	.string "You don't need to be shy about it.$"
+	.string	"¿Seguro?\n"
+	.string	"Yo que tú me lo pensaría dos veces{PAUSE 5}…{PAUSE 5}$"
 

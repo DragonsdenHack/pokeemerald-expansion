@@ -117,7 +117,8 @@ faceplayer
 msgbox PewterCity_3_Text_3YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq PewterCity_3No
-msgbox PewterCity_3_Text_3Yes, MSGBOX_DEFAULT
+msgbox PewterCity_3_Text_3Yes, MSGBOX_NPC
+goto PewterCity_3_Cazabichos
 release
 end
 
@@ -129,7 +130,8 @@ PewterCity_3_Text_3YesNo:
 
 
 PewterCity_3No::
-msgbox PewterCity_3_Text_3No, MSGBOX_DEFAULT
+msgbox PewterCity_3_Text_3No, MSGBOX_NPC
+goto PewterCity_3_Cazabichos
 release
 end
 
@@ -143,6 +145,146 @@ PewterCity_3_Text_3Yes:
 PewterCity_3_Text_3No:
 .string "I'm spraying REPEL to keep wild\n"
     .string "POKÉMON out of my garden!$"
+
+PewterCity_3_Cazabichos_Move_1:
+emote_exclamation_mark
+step_end
+
+PewterCity_3_Cazabichos_Move_2:
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
+PewterCity_3_Cazabichos_Move_3:
+face_up
+step_end
+
+PewterCity_3_Cazabichos_Move_4:
+delay_16
+face_player
+delay_16
+face_up
+delay_16
+delay_8
+walk_in_place_up
+step_end
+
+PewterCity_3_Cazabichos_Move_5:
+face_player
+step_end
+
+PewterCity_3_Cazabichos::
+lockall
+delay 15
+msgbox PewterCity_3_Texto_1 MSGBOX_NPC
+delay 15
+msgbox PewterCity_3_Texto_2 MSGBOX_NPC
+playse SE_PIN
+applymovement 3, PewterCity_3_Cazabichos_Move_1
+waitmovement 0x0
+msgbox PewterCity_3_Texto_3 MSGBOX_NPC
+delay 10
+msgbox PewterCity_3_Texto_4 MSGBOX_NPC
+faceplayer
+lockall
+msgbox PewterCity_3_Texto_5, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PewterCity_3_Cazabichos_No
+msgbox PewterCity_3_Texto_7 MSGBOX_NPC
+applymovement 3, PewterCity_3_Cazabichos_Move_2
+waitmovement 0x0
+msgbox PewterCity_3_Texto_8 MSGBOX_NPC
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Move_3
+waitmovement 0x0
+delay 10
+msgbox PewterCity_3_Texto_9 MSGBOX_NPC
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Move_4
+waitmovement 0x0
+delay 10
+msgbox PewterCity_3_Texto_10 MSGBOX_NPC
+delay 15
+msgbox PewterCity_3_Texto_11 MSGBOX_NPC
+delay 10
+applymovement 3, PewterCity_3_Cazabichos_Move_5
+waitmovement 0x0
+delay 10
+msgbox PewterCity_3_Texto_12 MSGBOX_NPC
+delay 15
+msgbox PewterCity_3_Texto_13 MSGBOX_NPC
+setflag FLAG_HOENN_86
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+clearflag FLAG_HOENN_673
+setvar VAR_SCOTT_STATE, 1
+release
+end
+
+PewterCity_3_Cazabichos_No::
+msgbox PewterCity_3_Texto_6 MSGBOX_NPC
+release
+end
+
+PewterCity_3_Texto_1:
+	.string "… …$"
+
+PewterCity_3_Texto_2:
+	.string "Oh, espera.$"
+
+PewterCity_3_Texto_3:
+	.string "¡Tú eres del TEAM ROCKET!$"
+
+PewterCity_3_Texto_4:
+	.string "Por tu apariencia debes\n"
+	.string "ser un pez gordo, ¿verdad?$"
+
+PewterCity_3_Texto_5:
+	.string "¿Me ayudarías con algo muy importante?$"
+
+PewterCity_3_Texto_6:
+	.string "Mmm, vaya. De todos modos, no creo\n"
+	.string "que una sola persona pueda.$"
+
+PewterCity_3_Texto_7:
+	.string "¿De verdad? No puedo creerlo,\n"
+	.string "ahora vuelvo a tener esperanzas.$"
+
+PewterCity_3_Texto_8:
+	.string "La cuestión es la siguiente: yo antes\n"
+	.string "trabajaba en CIUDAD CARMÍN. Tenía un\l"
+	.string "gran jardín, mucho mejor que este y en\l"
+	.string "el que crecían bayas y especias de lo\l"
+	.string "más raras.$"
+
+PewterCity_3_Texto_9:
+	.string "Yo las vendía a muy buen precio, y todos\n"
+	.string "estaban contentos; los entrenadores\l"
+	.string "apreciaban mucho mi trabajo.$"
+
+PewterCity_3_Texto_10:
+	.string "Pero todo eso se acabó al poco de\n"
+	.string "entrar LANCE al poder.$"
+
+PewterCity_3_Texto_11:
+	.string "Me expropió las tierras, y puso a unos\n"
+	.string "matones de JOHTO a su cargo.$"
+
+PewterCity_3_Texto_12:
+	.string "Ahora se dedican a recolectar los\n"
+	.string "frutos de mi jardín, y venderlos a\l"
+	.string "precio de oro fuera de KANTO.$"
+
+PewterCity_3_Texto_13:
+	.string "Te espero en CIUDAD CARMÍN. El lugar no\n"
+	.string "tiene pérdida, es una de las casas que\l"
+	.string "conectan con RUTA 6.$"
+
 
 PewterCity_Petrel_2::
 lockall
@@ -204,13 +346,23 @@ msgbox PewterCity_Petrel_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 6, PewterCity_Petrel_Move_4
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, PewterCity_Petrel_Move_7
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_8.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PewterCity_Petrel_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PewterCity_Petrel_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PewterCity_Petrel_Texto_9.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, PewterCity_Petrel_Move_7
 waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_10 MSGBOX_AUTOCLOSE
@@ -255,44 +407,57 @@ PewterCity_Petrel_Texto_6:
 	.string "investigation.$"
 
 PewterCity_Petrel_Texto_7:
-	.string "If a couple of spoiled kids clean out\n"
-	.string "the FOSSIL cave, no one cares a bit\l"
-	.string "because, of course, they can't be left\l"
-	.string "without completing their POKÉDEX,\l"
-	.string "adding one more to their -collection-,\l"
-	.string "as if POKÉMON were interchangeable\l"
-	.string "trading cards.$"
+.string "Si un par de niños malcriados\n"
+	.string "limpian la cueva de FÓSILES, nadie dice\l"
+	.string "nada, puesto que, por supuesto, no\l"
+	.string "pueden quedarse sin completar sus\l"
+	.string "POKÉDEX, de añadir uno más a su\l"
+	.string "-colección-, como si los POKÉMON fueran\l"
+	.string "cromos intercambiables.$"
+
+PewterCity_Petrel_Texto_7.1:
+    .string "¡Ridículo!$"
 
 PewterCity_Petrel_Texto_8:
-	.string "When a private group like us decides to\n"
-	.string "gather FOSSILS to satisfy a demand\l"
-	.string "from the population, we are thieves, as\l"
-	.string "if those FOSSILS belonged to someone\l"
-	.string "when any idiot can take them at any\l"
-	.string "moment if they find them first.$"
+.string "Pero si un grupo privado, como nosotros,\n"
+	.string "decide recolectar FÓSILES para\l"
+	.string "satisfacer una demanda local, somos\l"
+	.string "unos ladrones y la peor escoria.$"
+
+PewterCity_Petrel_Texto_8.1:
+	.string "Como si esos FÓSILES perteneciesen\n"
+	.string "a alguien, cuando cualquier idiota\l"
+	.string "puede tomarlos en cualquier momento\l"
+	.string "si es que los encuentra.$"
 
 PewterCity_Petrel_Texto_9:
-	.string "Talking about FOSSILS, I've come here\n"
-	.string "to visit an old friend who is fortunate\l"
-	.string "enough to be one of the big shots at\l"
-	.string "the SCIENCE MUSEUM of PEWTER CITY, it\l"
-	.string "seems they have found a specimen of\l"
-	.string "OLD AMBER, which contains the most\l"
-	.string "powerful and valuable FOSSIL in our\l"
-	.string "region. I believe that with the right\l"
-	.string "negotiation, I can persuade him to lend\l"
-	.string "it to us for research, we have\l"
-	.string "developed a cloning system that could\l"
-	.string "replicate that OLD AMBER at a lower\l"
-	.string "cost than its market price, so I can't\l"
-	.string "let this opportunity pass.$"
+.string "Hablando de FÓSILES, he venido\n"
+	.string "hasta aquí a visitar a un viejo\l"
+	.string "amigo, que tiene la suerte de ser\l"
+	.string "uno de los peces gordos del MUSEO\l"
+	.string "DE LA CIENCIA DE CIUDAD PLATEADA.$"
+
+PewterCity_Petrel_Texto_9.1:
+	.string "Al parecer han encontrado un\n"
+	.string "ejemplar de ÁMBAR VIEJO, que\l"
+	.string "contiene el FÓSIL más poderoso y\l"
+	.string "valioso de nuestra región.$"
+	
+PewterCity_Petrel_Texto_9.2:
+	.string "Sé que con la correcta negociación,\n"
+	.string "podría convencerlo de que nos lo preste\l"
+	.string "para investigarlo; hemos desarrollado\l"
+	.string "un sistema de clonación que podría\l"
+	.string "replicar ese ÁMBAR VIEJO a un costo\l"
+	.string "inferior a su precio de mercado, así que\l"
+	.string "no podemos dejar pasar esta oportunidad.$"
 
 PewterCity_Petrel_Texto_10:
-	.string "If you're up for it, you're invited to\n"
-	.string "that meeting, we'll be in the back booth\l"
-	.string "behind the museum officially open to\l"
-	.string "the public, I'll be waiting for you there\l"
-	.string "if you decide to come.$"
+.string "Si te animas, estás invitado a esa\n"
+	.string "reunión: estaremos en la caseta\l"
+	.string "trasera al MUSEO oficial abierto\l"
+	.string "al público.\l"
+	.string "Allí te espero, si decides venir.$"
 
 PewterCity_Petrel_Move_1:
 walk_in_place_left

@@ -214,10 +214,10 @@
 #define METATILE_Fallarbor_RedRockWall               0x269
 
 // gTileset_Fortree
-#define METATILE_Fortree_BridgeOverGrass_Lowered           0x24F
-#define METATILE_Fortree_BridgeOverGrass_Raised            0x24E
-#define METATILE_Fortree_BridgeOverTrees_Lowered           0x257
-#define METATILE_Fortree_BridgeOverTrees_Raised            0x256
+#define METATILE_Fortree_BridgeOverGrass_Lowered           0x2CF
+#define METATILE_Fortree_BridgeOverGrass_Raised            0x2CE
+#define METATILE_Fortree_BridgeOverTrees_Lowered           0x2D7
+#define METATILE_Fortree_BridgeOverTrees_Raised            0x2D6
 #define METATILE_Fortree_LongGrass_Root                    0x208
 #define METATILE_Fortree_SecretBase_LongGrass_BottomLeft   0x281
 #define METATILE_Fortree_SecretBase_LongGrass_BottomMid    0x282
@@ -232,7 +232,7 @@
 
 // gTileset_FuchsiaCity
 #define METATILE_FuchsiaCity_Door                           0x2BF
-#define METATILE_FuchsiaCity_SafariZoneDoor                 0x1DD
+#define METATILE_FuchsiaCity_SafariZoneDoor                 0x2D2
 #define METATILE_FuchsiaCity_SafariZoneTreeTopLeft_Grass    0x300
 #define METATILE_FuchsiaCity_SafariZoneTreeTopLeft_Mowed    0x310
 #define METATILE_FuchsiaCity_SafariZoneTreeTopMiddle_Grass  0x301
@@ -321,11 +321,11 @@
 #define METATILE_InsideOfTruck_ExitLight_Top           0x208
 
 // gTileset_InsideShip
-#define METATILE_InsideShip_DoorIndent_Locked           0x234
-#define METATILE_InsideShip_DoorIndent_Unlocked         0x21A
-#define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x297
-#define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
-#define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
+#define METATILE_InsideShip_DoorIndent_Locked           0x2B4
+#define METATILE_InsideShip_DoorIndent_Unlocked         0x29A
+#define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x317
+#define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x2B3
+#define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x2AB
 
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207
@@ -396,8 +396,8 @@
 #define METATILE_MauvilleGym_RedBeamV2_On     0x249
 
 // gTileset_Mauville
-#define METATILE_Mauville_DeepSand_BottomMid  0x259
-#define METATILE_Mauville_DeepSand_Center     0x251
+#define METATILE_Mauville_DeepSand_BottomMid  0x350
+#define METATILE_Mauville_DeepSand_Center     0x351
 #define METATILE_Mauville_Door                0x2AC
 #define METATILE_Mauville_Door_BattleTent     0x3D4
 #define METATILE_Mauville_Door_CyclingRoad    0x289
@@ -445,21 +445,21 @@
 
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A
-#define METATILE_Pacifidlog_FloatingLogs_HorizontalLeft        0x250
-#define METATILE_Pacifidlog_FloatingLogs_HorizontalRight       0x251
-#define METATILE_Pacifidlog_FloatingLogs_VerticalBottom        0x260
-#define METATILE_Pacifidlog_FloatingLogs_VerticalTop           0x258
-#define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalLeft   0x252
-#define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight  0x253
-#define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom   0x261
-#define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop      0x259
+#define METATILE_Pacifidlog_FloatingLogs_HorizontalLeft        0x2D0
+#define METATILE_Pacifidlog_FloatingLogs_HorizontalRight       0x2D1
+#define METATILE_Pacifidlog_FloatingLogs_VerticalBottom        0x2E0
+#define METATILE_Pacifidlog_FloatingLogs_VerticalTop           0x2D8
+#define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalLeft   0x2D2
+#define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight  0x2D3
+#define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom   0x2E1
+#define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop      0x2D9
 #define METATILE_Pacifidlog_SkyPillar_CrackedFloor_Hole        0x237
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Bottom          0x2B2
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Top             0x2AA
-#define METATILE_Pacifidlog_SubmergedLogs_HorizontalLeft       0x254
-#define METATILE_Pacifidlog_SubmergedLogs_HorizontalRight      0x255
-#define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x262
-#define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x25A
+#define METATILE_Pacifidlog_SubmergedLogs_HorizontalLeft       0x2D4
+#define METATILE_Pacifidlog_SubmergedLogs_HorizontalRight      0x2D5
+#define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x2E2
+#define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x2DA
 
 // gTileset_PalletTown
 #define METATILE_PalletTown_Door         0x2A3
@@ -890,7 +890,7 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_SeviiIslands123
-#define METATILE_SeviiIslands123_Door            0x20B
+#define METATILE_SeviiIslands123_Door            0x297
 #define METATILE_SeviiIslands123_GameCornerDoor  0x29B
 #define METATILE_SeviiIslands123_PokeCenterDoor  0x2EB
 

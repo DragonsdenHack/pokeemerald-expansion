@@ -1,6 +1,7 @@
 const struct FormChange *const gFormChangeTablePointers[NUM_SPECIES] = 
 {
     [SPECIES_GIRATINA] = sGiratinaFormChangeTable,
+	[SPECIES_GIRATINA_ORIGIN] = sGiratinaFormChangeTable,
     [SPECIES_SHAYMIN] = sShayminFormChangeTable,
     [SPECIES_SHAYMIN_SKY] = sShayminSkyFormChangeTable,
     [SPECIES_ARCEUS] = sArceusFormChangeTable,
@@ -58,4 +59,23 @@ const struct FormChange *const gFormChangeTablePointers[NUM_SPECIES] =
     [SPECIES_SILVALLY_ROCK] = sSilvallyFormChangeTable,
     [SPECIES_SILVALLY_STEEL] = sSilvallyFormChangeTable,
     [SPECIES_SILVALLY_WATER] = sSilvallyFormChangeTable,
+};
+
+const struct Fusion *const gFusionTablePointers[NUM_SPECIES] =
+{
+    // [SPECIES_KYUREM] = sKyuremFusionTable,
+    // [SPECIES_KYUREM_BLACK] = sKyuremFusionTable,
+    // [SPECIES_KYUREM_WHITE] = sKyuremFusionTable,
+    // [SPECIES_RESHIRAM] = sKyuremFusionTable,
+    // [SPECIES_ZEKROM] = sKyuremFusionTable,
+    // [SPECIES_NECROZMA] = sNecrozmaFusionTable,
+    // [SPECIES_NECROZMA_DAWN_WINGS] = sNecrozmaFusionTable,
+    // [SPECIES_NECROZMA_DUSK_MANE] = sNecrozmaFusionTable,
+    // [SPECIES_SOLGALEO] = sNecrozmaFusionTable,
+    // [SPECIES_LUNALA] = sNecrozmaFusionTable,
+    [SPECIES_CALYREX] = sCalyrexFusionTable,
+    [SPECIES_CALYREX_ICE_RIDER] = sCalyrexFusionTable,
+    [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexFusionTable,
+    [SPECIES_SPECTRIER] = sCalyrexFusionTable,
+    [SPECIES_GLASTRIER] = sCalyrexFusionTable,
 };

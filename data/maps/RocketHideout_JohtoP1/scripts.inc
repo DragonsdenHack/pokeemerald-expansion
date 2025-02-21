@@ -640,13 +640,13 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_107:
-.string "MEGA BLASTOISE:\p"
-	.string "HP: 99\n"
-	.string "ATTACK: 103\l"
-	.string "DEFENSE: 120\l"
-	.string "SPECIAL ATTACK: 135\l"
-	.string "SPECIAL DEFENSE: 115\l"
-	.string "SPEED: 78\l"
+.string "BLASTOISE-MEGA:\p"
+	.string "PS: 99\n"
+	.string "ATAQUE: 93\l"
+	.string "DEFENSA: 130\l"
+	.string "ATAQUE ESPECIAL: 135\l"
+	.string "DEFENSA ESPECIAL: 125\l"
+	.string "VELOCIDAD: 68\l"
 	.string "TOTAL: 650\p"
 	.string "The immense defensive capacity of\n"
 	.string "BLASTOISE is now concentrated in a\l"
@@ -1064,15 +1064,17 @@ RocketHideoutJohtoP1Documento_Text_121:
 	.string "SPECIAL DEFENSE: 120\l"
 	.string "SPEED: 71\l"
 	.string "TOTAL: 700\p"
-	.string "A behemoth capable of terraforming the\n"
-	.string "land itself. Its newfound DRAGON TYPE\l"
-	.string "replaces DARK to mitigate its\l"
-	.string "weaknesses while its SOLID ROCK shores\l"
-	.string "up its remaining ones. Its moniker rings\l"
-	.string "true as the tyrant of JOHTO, and legend\l"
-	.string "has it that only a POKÉMON from the\l"
-	.string "depths of the DRAGON'S DEN can exceed\l"
-	.string "its overall STATs.$"
+	.string "Un titán con la capacidad de\n"
+	.string "modificar el paisaje a su antojo.\l"
+	.string "Entre ROCA SÓLIDA para frenar\l"
+	.string "movimientos superefectivos y la\l"
+	.string "la TORMENTA ARENA activada como\l"
+	.string "TYRANITAR, este POKÉMON es el\l"
+	.string "tirano de JOHTO, ante el que,\l"
+	.string "según cuenta la leyenda, solo un\l"
+	.string "POKÉMON venido de las\l"
+	.string "profundidades de la GUARIDA DRAGÓN\l"
+	.string "puede rebasar en números globales.$"
 
 
 
@@ -1362,11 +1364,15 @@ RocketHideoutJohtoP1Documento_Text_131:
 	.string "SPECIAL DEFENSE: 90\l"
 	.string "SPEED: 153\l"
 	.string "TOTAL: 635\p"
-	.string "The fastest known DRAGON hailing from\n"
-	.string "the distant KALOS. Its NO GUARD and 127\l"
-	.string "SPECIAL ATTACK eviscerate its foes\l"
-	.string "with HURRICANE and FOCUS BLAST. It's\l"
-	.string "said to be a distant relative of CROBAT.$"
+	.string "TIPO: DRAGÓN/VOLADOR\n"
+	.string "HABILIDAD: INDEFENSO\l"
+	.string "De la lejana KALOS, el DRAGÓN más\l"
+	.string "rápido conocido, que entre\l"
+	.string "INDEFENSO y sus 127 en ATAQUE\l"
+	.string "ESPECIAL podrá seguir pegando muy\l"
+	.string "duro con VENDAVAL u ONDA CERTERA.\l"
+	.string "Se cree que pertenece a la misma\l"
+	.string "rama familiar de CROBAT.$"
 
 
 
@@ -1388,13 +1394,17 @@ RocketHideoutJohtoP1Documento_Text_132:
 	.string "SPECIAL DEFENSE: 100\l"
 	.string "SPEED: 140\l"
 	.string "TOTAL: 650\p"
-	.string "It trades in its GROUND TYPE for BUG\n"
-	.string "and sacrifices 10 ATTACK to offset its\l"
-	.string "staggering 140 SPECIAL ATTACK. A\l"
-	.string "unique combination of SPEED and\l"
-	.string "SPECIAL ATTACK. Its wide array of\l"
-	.string "moves and its TINTED LENS make it\l"
-	.string "capable of taking down anyone.$"
+	.string "TIPO: DRAGÓN/BICHO\n"
+	.string "HABILIDAD: PIEL CELESTE\l"
+	.string "Saca a relucir sus primitivos genes del\l"
+	.string "TIPO BICHO, algo que dispara su\l"
+	.string "VELOCIDAD y también ATAQUE ESPECIAL,\l"
+	.string "aún a costa de su ATAQUE. Posee unas\l"
+	.string "raíces tan exóticas que adquiere PIEL\l"
+	.string "CELESTE por habilidad, algo que, a pesar\l"
+	.string "de no ser TIPO VOLADOR como tal, le\l"
+	.string "permite golpear con extrema potencia\l"
+	.string "gracias a ESTRUENDO.$"
 
 
 
@@ -1416,12 +1426,15 @@ RocketHideoutJohtoP1Documento_Text_133:
 	.string "SPECIAL DEFENSE: 100\l"
 	.string "SPEED: 145\l"
 	.string "TOTAL: 620\p"
-	.string "Its WATER hardened into ICE to\n"
-	.string "effectively match its PSYCHIC prowess\l"
-	.string "and bolster its agility, potency, and\l"
-	.string "even stamina. Its SHEER FORCE\l"
-	.string "complements its array of moves to\l"
-	.string "devastate its foes.$"
+	.string "TIPO: PSÍQUICO/HIELO\n"
+	.string "HABILIDAD: PIEL HELADA\l"
+	.string "Su conversión al TIPO HIELO le\l"
+	.string "permitió canalizar mucho mejor sus\l"
+	.string "poderes psíquicos, ganando\l"
+	.string "potencia, agilidad y aguante.\l"
+	.string "Gracias a PIEL HELADA, podrá hacer\l"
+	.string "uso de TRI ATAQUE e HYPERRAYO de una\l"
+	.string "forma única y efectiva.$"
 
 
 RocketHideoutJohtoP1Documento_134::
@@ -1490,11 +1503,20 @@ faceplayer
 playse SE_PIN
 applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 fadescreen 1
@@ -1504,27 +1526,47 @@ fadescreen 0
 release
 end
 
+RocketHideoutJohtoP1_Encuentro_Andra_Move_2.1:
+face_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_player
+step_end
+
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_1:
-	.string "ANDRA: Didja see all this, {PLAYER}?\n"
-	.string "We're making our own MEGA STONEs! Now\l"
-	.string "we've got everything a TRAINER could\l"
-	.string "need maximize their POKÉMON to its\l"
-	.string "limits-more than anyone could imagine.$"
+.string "ANDRA: ¿Has visto todo esto,\n"
+	.string "{PLAYER}?\p"
+	.string "¡Estamos creando nuestras\n"
+	.string "propias MEGA-PIEDRAS!\p"
+	.string "¿Hasta dónde vamos a llegar?\p"
+	.string "Ahora disponemos de todo cuanto un\n"
+	.string "ENTRENADOR necesita para optimizar\l"
+	.string "al máximo a sus POKÉMON, más de lo\l"
+	.string "que cualquiera pudiera imaginar.$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
-	.string "You know what? I'm gonna hop around\n"
-	.string "the eastern ROUTEs of JOHTO, right by\l"
-	.string "KANTO. They said in the meeting we'll be\l"
-	.string "getting access soon. If I got it right,\l"
-	.string "that's where they stuffed RED. I'm\l"
-	.string "kinda curious to see what'd happen if\l"
-	.string "we paid him a visit…$"
+.string "¿Sabes qué?\p"
+	.string "Exploraré las rutas del este de\n"
+	.string "JOHTO, las que hacen frontera con\l"
+	.string "KANTO. Dijeron en la reunión que\l"
+	.string "iban a permitir ya el acceso.\p"
+	.string "Si no me equivoco, es ahí donde\n"
+	.string "confinaron a ROJO.$"
+
+RocketHideoutJohtoP1_Encuentro_Andra_Texto_2.1:
+	.string "Tengo curiosidad por ver qué pasa\n"
+	.string "si le hacemos una visita{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
-	.string "Well, I won't keep you any longer. Just\n"
-	.string "head further up; we've got a surprise\l"
-	.string "for your performance and loyalty to\l"
-	.string "TEAM ROCKET.$"
+.string "En fin, deberías terminar de\n"
+	.string "visitar la base.\p"
+	.string "Si subes un poco más, verás la sorpresa\n"
+	.string "que el TEAM ROCKET te ha preparado, por\l"
+	.string "tu desempeño y lealtad hacia la\l"
+	.string "organización.$"
 
 
 RocketHideoutJohtoP1_Encuentro_Andra_Move_1:
@@ -1542,10 +1584,11 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1
 applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_2
 waitmovement 0x0
-msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1
+delay 10
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_3
 waitmovement 0x0
-msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_BASEMENT_KEY
 msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2 MSGBOX_DEFAULT
@@ -1611,6 +1654,8 @@ setmetatile 21, 4, 0x334, FALSE
 setmetatile 21, 3, 0x334, FALSE
 setmetatile 22, 4, 0x334, FALSE
 setmetatile 22, 3, 0x334, FALSE
+setmetatile 21, 5, 0x334, FALSE
+setmetatile 22, 5, 0x334, FALSE
 special DrawWholeMapView
 delay 60
 release
@@ -1635,6 +1680,8 @@ setmetatile 21, 4, 0x334, FALSE
 setmetatile 21, 3, 0x334, FALSE
 setmetatile 22, 4, 0x334, FALSE
 setmetatile 22, 3, 0x334, FALSE
+setmetatile 21, 5, 0x334, FALSE
+setmetatile 22, 5, 0x334, FALSE
 special DrawWholeMapView
 delay 60
 release
@@ -1683,4 +1730,25 @@ RocketHideoutJohtoP1_LanzaMugre_Texto_2:
 	.string "with the opponent. The only downside is\l"
 	.string "its accuracy. Can you imagine being able\l"
 	.string "to use it without missing?$"
+
+Llave_Despacho_Johto_Atajo_P2::
+compare VAR_UNUSED_0x40F7, 153
+goto_if_gt Llave_Despacho_Johto_Atajo_P2_Abierto
+msgbox Llave_Despacho_Hoenn_Atajo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Llave_Despacho_Johto_Atajo_P2_Abierto::
+delay 20
+playse SE_CLICK
+waitse
+delay 20
+playse SE_UNLOCK
+setmetatile 29, 23, 0x335, FALSE
+setmetatile 29, 22, 0x335, FALSE
+special DrawWholeMapView
+delay 30
+release
+end
+
 

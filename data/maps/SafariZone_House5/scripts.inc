@@ -10,6 +10,8 @@ faceplayer
 compare VAR_ROUTE134_STATE, 1
 goto_if_gt SafariZone_House5_Combate_Domador_2
 msgbox SafariZone_House5_Combate_Domador_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SafariZone_House5_Combate_Domador_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox SafariZone_House5_Combate_Domador_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
@@ -38,26 +40,31 @@ msgbox SafariZone_House5_Combate_Domador_Texto_8 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, SafariZone_House5_Combate_Domador_Move_1
 waitmovement 0x0
+waitse
 msgbox SafariZone_House5_Combate_Domador_Texto_9 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE134_STATE, 2
 release
 end
 
 SafariZone_House5_Combate_Domador_Texto_1:
-	.string "I am so sorry to disappoint you but we\n"
-	.string "don't give any prize to our VIP clients,\l"
-	.string "it is just for the ones who paid the\l"
-	.string "entrance. Anyway, I would never give\l"
-	.string "the SAFARI prize to someone who wears\l"
-	.string "a team rocket cosplay. Moreover, if I\l"
-	.string "were the man in charge I would have\l"
-	.string "forbidden you to enter here even if you\l"
-	.string "pay the entrance, there is your answer\l"
-	.string "if there is any prize here for you.$"
+.string "Siento decepcionarte, pero aquí no\n"
+	.string "ofrecemos ningún tipo de premio a\l"
+	.string "nuestros clientes VIP, es solo para\l"
+	.string "quienes pagan la entrada.$"
+
+SafariZone_House5_Combate_Domador_Texto_1.1:
+	.string "De todos modos, jamás le daría el\n"
+	.string "premio del SAFARI a alguien que\l"
+	.string "viste así. Más aún, si estuviera\l"
+	.string "en mi mano, me hubiera encargado de\l"
+	.string "que no pusieras un pie aquí, siquiera\l"
+	.string "pagando.\l"
+	.string "Ahí tienes tu respuesta a si hay o\l"
+	.string "no hay premio aquí.$"
 
 SafariZone_House5_Combate_Domador_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_House5_Combate_Domador_Texto_3:
 	.string "Are you still insisting? I won't think\n"

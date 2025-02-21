@@ -32,13 +32,18 @@ Route22_Combate_Azul_Izq::
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Route22_Combate_Azul_Move_1
 waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route22_Combate_Azul_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
-fadescreen 1
-playse SE_M_FLY
-delay 20
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 1
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 1, Route22_Combate_Azul_Move_2
 waitmovement 0x0
 goto Route22_Combate_Azul
@@ -47,14 +52,18 @@ Route22_Combate_Azul_Der::
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, Route22_Combate_Azul_Move_1
 waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route22_Combate_Azul_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
 waitmoncry
-fadescreen 1
-playse SE_M_FLY
-delay 20
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 1
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 1, Route22_Combate_Azul_Move_4
 waitmovement 0x0
 goto Route22_Combate_Azul
@@ -74,65 +83,122 @@ applymovement 1, Route22_Combate_Azul_Move_4
 waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
-playse MUS_RG_ENCOUNTER_RIVAL
 msgbox Route22_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_RIVAL
+delay 10
+applymovement 1, Route22_Combate_Azul_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox Route22_Combate_Azul_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 trainerbattle_no_intro TRAINER_AZUL_3, Route22_Combate_Azul_Texto_7
 msgbox Route22_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route22_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route22_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route22_Combate_Azul_Move_6.1
+waitmovement 0x0
+msgbox Route22_Combate_Azul_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route22_Combate_Azul_Move_6
 waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 1, Route22_Combate_Azul_Move_6.2
+waitmovement 0x0
+delay 10
+msgbox Route22_Combate_Azul_Texto_10.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route22_Combate_Azul_Move_7
 waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
 waitmoncry
-fadescreen 1
-playse SE_M_FLY
-delay 20
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 1
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route22_Combate_Azul_Move_1.2
+waitmovement 0x0
+special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 90
 release
 end
 
+Route22_Combate_Azul_Move_6.2:
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+Route22_Combate_Azul_Move_6.1:
+face_left
+step_end
+
+Route22_Combate_Azul_Move_4.1:
+walk_in_place_down
+step_end
+
+Route22_Combate_Azul_Move_1.2:
+walk_down
+walk_down
+step_end
+
+Route22_Combate_Azul_Move_1.1:
+walk_up
+walk_up
+step_end
+
 Route22_Combate_Azul_Texto_1:
-	.string "BLUE: So you are ready.$"
+.string "AZUL: Así que tu también\n"
+	.string "estás listo.$"
 
 Route22_Combate_Azul_Texto_2:
-	.string "I just came back from training in\n"
-	.string "VICTORY ROAD, I don't dare yet to enter\l"
-	.string "to the ELITE 4…$"
+.string "Acabo de volver de entrenar en la\n"
+	.string "CALLE VICTORIA, aún no me atrevo a\l"
+	.string "entrar al ALTO MANDO{PAUSE 5}…{PAUSE 5}$"
 
 Route22_Combate_Azul_Texto_3:
-.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route22_Combate_Azul_Texto_4:
-	.string "The truth is…{PAUSE 40} RED defeated me again, I\n"
-	.string "can't enter the LEAGUE knowing he's\l"
-	.string "still above me, I must ensure that my\l"
-	.string "team is far superior to his.$"
+.string "La verdad es que ROJO ha vuelto a\n"
+	.string "derrotarme, no puedo entrar a la\l"
+	.string "LIGA sabiendo que aún está por\l"
+	.string "encima mío.\l"
+	.string "Debo asegurarme de que mi equipo es\l"
+	.string "mucho mejor que el de ese entonces.$"
 
 Route22_Combate_Azul_Texto_5:
-	.string "Do not worry, RED has always been a late\n"
-	.string "person, he'll arrive anyway after me to\l"
-	.string "challenge the ELITE FOUR, it always\l"
-	.string "happens, besides, I've been to the\l"
-	.string "POKÉMON CENTER there, I can fly back in\l"
-	.string "just a bit.$"
+.string "No te preocupes, ROJO siempre ha\n"
+	.string "sido un tardón, llegará de todos\l"
+	.string "modos después de mí a retar al\l"
+	.string "ALTO MANDO.\l"
+	.string "Además, he estado en el CENTRO PKMN de\l"
+	.string "allí, puedo volver volando en un momento.$"
 
 Route22_Combate_Azul_Texto_6:
-	.string "I am just in search of extra training.\n"
-	.string "VICTORY ROAD TRAINERS are not\l"
-	.string "enough, I need something else, come\l"
-	.string "on, we are on the same side, I want to\l"
-	.string "see how much you are prepared to\l"
-	.string "afront this challenge!$"
+.string "Solo estoy buscando algo de\n"
+	.string "entrenamiento extra; los\l"
+	.string "ENTRENADORES de CALLE VICTORIA\l"
+	.string "no son suficiente; necesito algo\l"
+	.string "más.$"
+	
+Route22_Combate_Azul_Texto_6.1:
+	.string "¡Vamos, estamos en el mismo bando!\l"
+	.string "¡Quiero ver lo preparado que\l"
+	.string "estás para afrontar este reto!$"
 
 Route22_Combate_Azul_Texto_7:
 .string "It can't be, you too!$"
@@ -143,24 +209,32 @@ Route22_Combate_Azul_Texto_8:
 	.string "with that no one could catch me.$"
 
 Route22_Combate_Azul_Texto_9:
-	.string "By the way, don't you know where your\n"
-	.string "friend is, ANDRA? She must also have a\l"
-	.string "good team if she plains to challenge the\l"
-	.string "ELITE 4, I will see if I can see her\l"
-	.string "further there and help me level up a few\l"
-	.string "levels.$"
+.string "Por cierto, ¿no sabrás por casualidad\n"
+	.string "a esa amiguita tuya, ANDRA?$"
+
+Route22_Combate_Azul_Texto_9.1:
+	.string "Si va a retar también al ALTO MANDO,\n"
+	.string "es porque también sabe lo que se hace.\l"
+	.string "Veré si la encuentro más adelante, me\l"
+	.string "servirá para subir unos cuantos\l"
+	.string "niveles más.$"
 
 Route22_Combate_Azul_Texto_10:
-	.string "Bah, Imma head out {PLAYER}, time is\n"
-	.string "precious at this moment, I wish you\l"
-	.string "luck, for real, if I wanted someone to\l"
-	.string "become the CHAMPION and make RED bite\l"
-	.string "the dust besides me, it would be you.$"
+.string "¡Bah! Me piro, {PLAYER}.\n"
+	.string "Llegados este momento, el\l"
+	.string "tiempo es oro.$"
+
+Route22_Combate_Azul_Texto_10.1:
+	.string "Te deseo suerte, de verdad, si\n"
+	.string "quisiera que alguien saliera CAMPEÓN\l"
+	.string "CAMPEÓN e hiciera morder el polvo\l"
+	.string "a ROJO, ese alguien, aparte de mí,\l"
+	.string "serías tú.$"
 
 Route22_Combate_Azul_Texto_11:
-	.string "And a last thing, do not even try to\n"
-	.string "collect the RARE CANDIES that you find,\l"
-	.string "those are mine!$"
+.string "¡Ah! Y una última cosa, ni se te ocurra\n"
+	.string "recoger los CARAMELO RARO que\l"
+	.string "encuentres, ¡son míos!$"
 
 Route22_Combate_Azul_Move_1:
 walk_in_place_up

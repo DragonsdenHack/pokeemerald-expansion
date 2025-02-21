@@ -80,6 +80,14 @@ playse SE_BREAKABLE_DOOR
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4.1
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_2
+waitmovement 0x0
+waitse
+delay 10
+msgbox PokemonMansion_4F_Blaine_Fuji_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_5 MSGBOX_AUTOCLOSE
@@ -92,19 +100,25 @@ applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_6
 waitmovement 0x0
 delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_7 MSGBOX_AUTOCLOSE
-applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4
+delay 15
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4.2
 waitmovement 0x0
+delay 15
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_1
 waitmovement 0x0
+delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
+delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_10 MSGBOX_AUTOCLOSE
 delay 15
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
-fadescreen 1
 playmoncry SPECIES_MAGMAR, CRY_MODE_ENCOUNTER
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_12 MSGBOX_AUTOCLOSE
 waitmoncry
@@ -112,7 +126,6 @@ delay 20
 removeobject 8
 playse SE_WARP_IN
 waitse
-fadescreen 0
 delay 25
 applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_5
 waitmovement 0x0
@@ -137,7 +150,35 @@ applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_15 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+setflag FLAG_HOENN_90
+setflag FLAG_HOENN_91
+setflag FLAG_HOENN_92
+setflag FLAG_HOENN_93
+setflag FLAG_HOENN_94
+setflag FLAG_HOENN_95
+setflag FLAG_HOENN_96
+setflag FLAG_HOENN_97
+setflag FLAG_HOENN_98
+setflag FLAG_HOENN_99
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
+delay 20
 setvar VAR_UNUSED_0x40F7, 76
 release
 end
@@ -149,71 +190,80 @@ PokemonMansion_4F_Blaine_Fuji_Texto_1:
 	.string "to catch it and we will finish this!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_2:
-	.string "BLAINE: It is not that easy, FUJI, OAK\n"
-	.string "also knows about MEWTWO, do you think\l"
-	.string "he wont tell LANCE that the TEAM\l"
-	.string "ROCKET plans something, when he\l"
-	.string "discovers that you are going in search\l"
-	.string "of our creation? Also, I thought SILPH\l"
-	.string "invasion at SILPH was a failure.$"
+.string "BLAINE: No es tan sencillo, FUJI.\n"
+	.string "OAK también sabe lo de MEWTWO,\l"
+	.string "¿crees que no le dirá a LANCE que\l"
+	.string "el TEAM ROCKET trama algo en cuanto\l"
+	.string "presienta que va tras él?\l"
+	.string "Además, tenía entendido que la\l"
+	.string "invasión a SILPH fue un fracaso.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_3:
-	.string "FUJI: That is what they had made\n"
-	.string "believe to the people, one of the\l"
-	.string "ROCKET EXECUTIVES; PROTON, has\l"
-	.string "informed me about what just happened\l"
-	.string "there, apparently GIOVANNI had\l"
-	.string "convinced the PRESIDENT to rebel\l"
-	.string "against LAN…$"
+.string "FUJI: Eso es lo que han hecho\n"
+	.string "creer a los medios.\l"
+	.string "Un EJECUTIVO ROCKET, PROTÓN, me ha\l"
+	.string "informado de lo que acaba de ocurrir\l"
+	.string "allí.\l"
+	.string "Al parecer, GIOVANNI ha convencido al\l"
+	.string "PRESIDENTE de rebelarse contra LAN…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
-	.string "BLAINE: Dreamers! Did you think that\n"
-	.string "just one LEGENDARY is enough to defeat\l"
-	.string "LANCE? Do I need to remind you what the\l"
-	.string "three beasts did to our region? THREE!\l"
-	.string "Different legendaries, MEWTWO by itself\l"
-	.string "is the most powerful POKÉMON ever\l"
-	.string "created, we did a great job in this\l"
-	.string "laboratory back in the day, but LANCE\l"
-	.string "has the entire ELITE 4 protecting him,\l"
-	.string "and those dragons… Don't you forget he\l"
-	.string "has not just 1, but 3 of those\l"
-	.string "pseudo-legendaries watching his back?$"
+.string "BLAINE: ¡Ilusos!$"
+
+PokemonMansion_4F_Blaine_Fuji_Texto_4.1:
+	.string "¿Creéis que un LEGENDARIO basta\n"
+	.string "para detener a LANCE?\l"
+	.string "¿Te tengo que recordar los\l"
+	.string "destrozos que causó usando tres?\l"
+	.string "¡TRES!\l"
+	.string "Legendarios diferentes, MEWTWO por\l"
+	.string "sí solo es el POKÉMON más poderoso\l"
+	.string "jamás creado, hicimos un gran\l"
+	.string "trabajo en este laboratorio en su\l"
+	.string "día, pero LANCE tiene a toda la\l"
+	.string "ÉLITE 4 protegiéndole, y esos\l"
+	.string "dragones…\l"
+	.string "¿Se te olvida que tiene no 1, si no\l"
+	.string "3 de esos pseudolegendarios\l"
+	.string "guardándole las espaldas?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_5:
-	.string "BLAINE: Everybody who wants to rebel\n"
-	.string "against LANCE right now is a suicide, he\l"
-	.string "has too much power despite he doesn't\l"
-	.string "know about MEWTWO's existence; he has\l"
-	.string "made honor to his SACRED POKÉMON\l"
-	.string "TRAINER fame.$"
+.string "BLAINE: Todo el que quiera\n"
+	.string "revelarse contra LANCE, a día de hoy,\l"
+	.string "es un suicida, cuenta con demasiado\l"
+	.string "poder, a pesar de desconocer la\l"
+	.string "existencia de MEWTWO.\l"
+	.string "Ha hecho honor a su fama de\l"
+	.string "ENTRENADOR de POKÉMON SAGRADOS.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_6:
-	.string "FUJI: GIOVANNI has technology to clone\n"
-	.string "the KANTO's BIRDS. Maybe we wouldn't\l"
-	.string "have a chance like this in a\l"
-	.string "long time, you've always been someone\l"
-	.string "who can be reasoned with, what's\l"
-	.string "holding you back from trying?$"
+.string "FUJI: GIOVANNI cuenta con\n"
+	.string "tecnología para clonar a las AVES\l"
+	.string "de KANTO también BLAINE, puede que\l"
+	.string "no tengamos una ocasión como esta\l"
+	.string "en mucho tiempo, siempre has sido\l"
+	.string "alguien con el que se puede razonar.\l"
+	.string "¿Qué te frena a intentarlo?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_7:
-	.string "BLAINE: So the LEGENDARY BIRDS also…$"
+.string "BLAINE: Así que las AVES{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_8:
-	.string "BLAINE: I will see what I can do FUJI,\n"
-	.string "go back to LAVENDER TOWN, it is not\l"
-	.string "recommendable that people see you\l"
-	.string "around here, they could suspect us, two\l"
-	.string "ex-scientists as us together…$"
+.string "Veré qué puedo hacer, FUJI.\n"
+	.string "Vuelve a PUEBLO LAVANDA, no es\l"
+	.string "recomendable que te vean por aquí,\l"
+	.string "podrían sospechar: dos ex-científicos\l"
+	.string "como nosotros reunidos{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_9:
-	.string "FUJI: Finally you have come to your\n"
-	.string "senses, BLAINE, you will see how\l"
-	.string "GIOVANNI finishes all this!$"
+.string "FUJI: ¡Por fin has entrado en\n"
+	.string "razón, verás como GIOVANNI\l"
+	.string "podrá poner fin a todo esto!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
-	.string "BLAINE: You'll hear from me in the next\n"
-	.string "few hours. Until then…$"
+.string "BLAINE: Tendrás noticias mías en\n"
+	.string "las próximas horas, hasta\l"
+	.string "entonces{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_11:
 .string "BLAINE: MAGMAR, TELEPORT!$"
@@ -264,6 +314,15 @@ step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_4.1:
 walk_in_place_right
+step_end
+
+PokemonMansion_4F_Blaine_Fuji_Move_4.2:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
 step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_5:
@@ -323,6 +382,7 @@ setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
 removeobject 9
 playse SE_EXIT
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 setvar VAR_UNUSED_0x40F7, 114
 delay 15
 release

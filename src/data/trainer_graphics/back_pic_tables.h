@@ -38,5 +38,5 @@ const struct CompressedSpritePalette gTrainerBackPicPaletteTable[] =
     TRAINER_BACK_PAL(RUBY_SAPPHIRE_BRENDAN, gTrainerBackPicPalette_AdminJefe),
     TRAINER_BACK_PAL(RUBY_SAPPHIRE_MAY, gTrainerBackPicPalette_AdminJefe2),
     TRAINER_BACK_PAL(WALLY, gTrainerPalette_Wally),
-    TRAINER_BACK_PAL(STEVEN, gTrainerPalette_Steven),
+    TRAINER_BACK_PAL(STEVEN, gTrainerBackPicPalette_AndraAdminJefe),
 };

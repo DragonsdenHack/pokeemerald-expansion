@@ -14,7 +14,7 @@ release
 end
 
 CeruleanCity_House2_Text_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -29,6 +29,10 @@ CeruleanCity_House2_Text_2:
 .string "Look what you've done! It will take us\n"
 	.string "several months to recover from this!$"
 
+CeruleanCity_House2_Batalla_Montañero_move3.1:
+emote_exclamation_mark
+step_end
+
 CeruleanCityHouse2_Montanero::
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_House2_Batalla_Montañero_move1
 waitmovement 0x0
@@ -36,12 +40,31 @@ applymovement 3, CeruleanCity_House2_Batalla_Montañero_move1
 applymovement 4, CeruleanCity_House2_Batalla_Montañero_move1
 waitmovement 0x0
 msgbox CeruleanCity_House2_Batalla_Montañero_Text_1, MSGBOX_AUTOCLOSE
+delay 15
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_1.1, MSGBOX_AUTOCLOSE
+delay 15
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_1.2, MSGBOX_AUTOCLOSE
 applymovement 1, CeruleanCity_House2_Batalla_Montañero_move2
 waitmovement 0x0
 msgbox CeruleanCity_House2_Batalla_Montañero_Text_2, MSGBOX_AUTOCLOSE
 delay 10
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_2.01, MSGBOX_AUTOCLOSE
+delay 10
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_2.1, MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, CeruleanCity_House2_Batalla_Montañero_move2
+waitmovement 0x0
+delay 10
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_2.2, MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_House2_Batalla_Montañero_move3
 waitmovement 0x0
+playse SE_PIN
+applymovement 1, CeruleanCity_House2_Batalla_Montañero_move3.1
+waitmovement 0x0
+waitse
+delay 10
 msgbox CeruleanCity_House2_Batalla_Montañero_Text_3, MSGBOX_AUTOCLOSE
 applymovement 1, CeruleanCity_House2_Batalla_Montañero_move4
 waitmovement 0x0
@@ -52,13 +75,20 @@ applymovement 1, CeruleanCity_House2_Batalla_Montañero_move6
 waitmovement 0x0
 delay 10
 playse SE_SHOP
+waitse
 delay 10
 playse SE_SHOP
-delay 20
+waitse
+delay 10
+playse SE_SHOP
+waitse
+delay 10
 applymovement 4, CeruleanCity_House2_Batalla_Montañero_move7
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_House2_Batalla_Montañero_move6
 waitmovement 0x0
 msgbox CeruleanCity_House2_Batalla_Montañero_Text_6, MSGBOX_AUTOCLOSE
+delay 15
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_6.1, MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 giveitem ITEM_TM28
 waitfanfare
@@ -68,6 +98,8 @@ giveitem ITEM_SOFT_SAND
 waitfanfare
 delay 10
 msgbox CeruleanCity_House2_Batalla_Montañero_Text_8, MSGBOX_AUTOCLOSE
+delay 15
+msgbox CeruleanCity_House2_Batalla_Montañero_Text_8.1, MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 fadescreen 1
 delay 20
@@ -79,33 +111,53 @@ release
 end
 
 CeruleanCity_House2_Batalla_Montañero_Text_1:
-	.string "It's over, HIKER. This is just what\n"
-	.string "happens you go around showing off your\l"
-	.string "exclusive TMs. Too bad for you that TM\l"
-	.string "DIG happens to be pretty useful for us.\l"
-	.string "If you'd played nice, we wouldn't have\l"
-	.string "messed up your house. Now, for playing\l"
-	.string "hard to get, we'll just be taking all\l"
-	.string "those TMs you were being stingy with\l"
-	.string "when we'd asked nicely.$"
+.string "Se acabó, MONTAÑERO.\n"
+	.string "Esto te pasa por ir fardando de\l"
+	.string "esas MTs exclusivas.$"
+
+CeruleanCity_House2_Batalla_Montañero_Text_1.1:
+	.string "Por desgracia para ti, EXCAVAR\n"
+	.string "puede sernos de gran ayuda, si\l"
+	.string "hubieras colaborado y nos la\l"
+	.string "hubieras entregado por las buenas\l"
+	.string "no hubiéramos puesto tu casa patas\l"
+	.string "arriba.$"
+	
+CeruleanCity_House2_Batalla_Montañero_Text_1.2:
+	.string "Ahora, por tu actitud te\n"
+	.string "robaremos todas, sabemos que\l"
+	.string "tienes decenas de esas MTs y eres\l"
+	.string "tan egoísta que no eres capaz de\l"
+	.string "darnos unas cuantas cuando te lo\l"
+	.string "pedimos por las buenas.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_2:
-	.string "HIKER: I won't hand over even a single\n"
-	.string "TM. If we go along with your words,\l"
-	.string "you'll abuse our kindness. We already\l"
-	.string "know how you'll use them. You won't find\l"
-	.string "the TMs because they're with me. You'll\l"
-	.string "have to beat me in battle. What a pity\l"
-	.string "you're such weaklings! My DIG will bury\l"
-	.string "your poor EKANS and RATTATA. C'mon!$"
+.string "MONTAÑERO: No os daré ni una sola MT.\n"
+	.string "Si os damos la mano nos tomáis\l"
+	.string "el brazo entero, ya sabemos cómo\l"
+	.string "os las gastáis.$"
+	
+CeruleanCity_House2_Batalla_Montañero_Text_2.01:
+	.string "No vais a encontrar las MTs\n"
+	.string "porque las tengo yo, deberéis\l"
+	.string "vencerme en un combate.$"
+
+CeruleanCity_House2_Batalla_Montañero_Text_2.1:
+	.string "Qué pena que seáis tan\n"
+	.string "debiluchos, mi EXCAVAR hará\l"
+	.string "papilla a vuestros miserables\l"
+	.string "EKANS y RATTATA.$"
+
+CeruleanCity_House2_Batalla_Montañero_Text_2.2:
+	.string "¡Vamos, venid a por mí!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_3:
-	.string "And this street RATTATA? Who are you?\n"
-	.string "Wanna step up and face me? You'll\l"
-	.string "regret it!$"
+.string "¿Y este de dónde ha salido?\n"
+	.string "¿Quieres retarme tú solo?\l"
+	.string "¡Te arrepentirás!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh…{PAUSE 20} No…{PAUSE 20} Please…{PAUSE 20}$"
+.string "Oh{PAUSE 10}…{PAUSE 10} No{PAUSE 10}…{PAUSE 10} Por favor{PAUSE 10}…{PAUSE 10}$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "That's what happens when you\n"
@@ -113,27 +165,38 @@ CeruleanCity_House2_Batalla_Montañero_Text_5:
 	.string "your arrogance.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
-	.string "What's your name again? {PLAYER}?\n"
-	.string "Wow! This HIKER had twenty TM DIGs! And\l"
-	.string "he was gonna hog it all! Thanks to you,\l"
-	.string "we got to nab ‘em. Know that we'll put in\l"
-	.string "a good word with PETREL about this.\l"
-	.string "Take this. You deserve it.$"
+.string "¿Cómo era tu nombre?\n"
+	.string "¿{PLAYER}?\l"
+	.string "¡Fíjate!\l"
+	.string "¡Este MONTAÑERO tenía nada más y\l"
+	.string "nada menos que 20 MTs EXCAVAR!\l"
+	.string "¡Y las quería todas para él!\l"
+	.string "Gracias a ti hemos podido\l"
+	.string "sacárselas. Ten por seguro que\l"
+	.string "hablaré de ti a PETREL.$"
+
+CeruleanCity_House2_Batalla_Montañero_Text_6.1:
+	.string "Toma esto, lo mereces.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_7:
-	.string "He had this other item too-seemed to\n"
-	.string "give more oomph to GROUND moves. That\l"
-	.string "little rascal definitely used it to\l"
-	.string "strengthen his DIG. Here. Take it.$"
+.string "Tenía también este otro objeto, al\n"
+	.string "parecer potencia los movimientos\l"
+	.string "TIPO TIERRA. El muy granuja seguro\l"
+	.string "que lo usaba para hacer más daño\l"
+	.string "con su EXCAVAR, quédatelo.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_8:
-	.string "That's all for now, comrade. With these\n"
-	.string "TMs, we'll be able to dig deeper in\l"
-	.string "enclosed spaces and bail out of caves\l"
-	.string "pretty handily. You collaborated in\l"
-	.string "supplying resources to our\l"
-	.string "organization. Good job. Catch you in the\l"
-	.string "BARRACKs. You know the one.$"
+.string "Nada más camarada, con estas MTs\n"
+	.string "podremos abastecer y agilizar\l"
+	.string "nuestras investigaciones en\l"
+	.string "lugares cerrados y salir de cuevas\l"
+	.string "más fácilmente, has colaborado en\l"
+	.string "aprovisionar de recursos a nuestra\l"
+	.string "organización.$"
+
+CeruleanCity_House2_Batalla_Montañero_Text_8.1:
+	.string "Buen trabajo. Nos vemos en la\n"
+	.string "BASE, donde tú ya sabes.$"
 
 CeruleanCity_House2_Batalla_Montañero_move1:
 walk_in_place_right

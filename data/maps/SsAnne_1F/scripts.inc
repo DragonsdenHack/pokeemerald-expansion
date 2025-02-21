@@ -9,9 +9,12 @@ msgbox SsAnne_1F_Andra_Ida_Text_1 MSGBOX_AUTOCLOSE
 applymovement 2, SsAnne_1F_Andra_Ida_move_3
 waitmovement 0x0
 msgbox SsAnne_1F_Andra_Ida_Text_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SsAnne_1F_Andra_Ida_Text_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SsAnne_1F_Andra_Ida_move_4
 waitmovement 0x0
+delay 10
 playse SE_EXIT
 setflag FLAG_HIDE_ROUTE_103_RIVAL
 removeobject 2
@@ -58,6 +61,7 @@ waitmovement 0x0
 msgbox SsAnne_1F_Andra_Vuelta_Text_1 MSGBOX_DEFAULT
 delay 10
 playse SE_DING_DONG
+waitse
 delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_1F_Andra_Vuelta_move_3
@@ -67,7 +71,9 @@ msgbox SsAnne_1F_Andra_Vuelta_Text_2 MSGBOX_DEFAULT
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_1F_Andra_Vuelta_move_5
 waitmovement 0x0
+delay 10
 msgbox SsAnne_1F_Andra_Vuelta_Text_3 MSGBOX_DEFAULT
+delay 10
 playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_HM01
 waitfanfare

@@ -17,54 +17,20 @@
 .set LOCALID_WALLACE, 18
 
 SootopolisCity_MapScripts::
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_OnFrame
 	map_script MAP_SCRIPT_ON_LOAD, SootopolisCity_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, SootopolisCity_OnResume
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SootopolisCity_OnWarp
 	.byte 0
 
+SootopolisCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 234, SootopolisCity_Andra
+	.2byte 0
+
+
 SootopolisCity_OnLoad:
-	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockGymDoor
-	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
-	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockHouseDoors
 	end
 
 SootopolisCity_EventScript_LegendariesNotArrived::
-	end
-
-SootopolisCity_EventScript_LockHouseDoors::
-	setmetatile 9, 6, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 9, 17, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 9, 26, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 44, 17, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 8, 35, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 53, 28, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 45, 6, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 48, 25, METATILE_Sootopolis_Door_Closed, TRUE
-	setmetatile 51, 36, METATILE_Sootopolis_Door_Closed, TRUE
-	return
-
-SootopolisCity_EventScript_LockGymDoor::
-	setmetatile 31, 32, METATILE_Sootopolis_GymDoor_Closed, TRUE
-	return
-
-SootopolisCity_OnTransition:
-	setflag FLAG_VISITED_SOOTOPOLIS_CITY
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_HideMapNamePopup
-	call_if_eq VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_HideMapNamePopup
-	call SootopolisCity_EventScript_SetWeather
-	call SootopolisCity_EventScript_SetLayout
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_SetBattleSpectators
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_SetExitCaveOfOriginObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_SetOutsideGymObjPos
-	call_if_eq VAR_SOOTOPOLIS_CITY_STATE, 6, SootopolisCity_EventScript_SetExpertBlockCaveEntrance
 	end
 
 SootopolisCity_EventScript_HideMapNamePopup::
@@ -158,10 +124,6 @@ SootopolisCity_EventScript_SetExpertBlockCaveEntrance::
 	setobjectxyperm LOCALID_EXPERT, 31, 18
 	return
 
-SootopolisCity_OnWarp:
-	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_PlayerFaceLegendaries
-	.2byte 0
-
 SootopolisCity_EventScript_PlayerFaceLegendaries::
 	call_if_eq VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_PlayerFaceLegendaries1
 	call_if_eq VAR_SKY_PILLAR_STATE, 2, SootopolisCity_EventScript_PlayerFaceLegendaries2
@@ -179,11 +141,6 @@ SootopolisCity_EventScript_PlayerFaceLegendaries2::
 SootopolisCity_OnResume:
 	setdivewarp MAP_UNDERWATER_SOOTOPOLIS_CITY, 9, 6
 	end
-
-SootopolisCity_OnFrame:
-	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_StartLegendariesScene
-	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartRayquazaScene
-	.2byte 0
 
 @ If not at PokeCenter, assumed to have arrived via Dive
 SootopolisCity_EventScript_StartLegendariesScene::
@@ -1411,18 +1368,18 @@ SootopolisCity_Text_GymSign:
 	.string "of pure water!”$"
 
 SootopolisCity_Text_CitySign:
-	.string "SOOTOPOLIS CITY\p"
-	.string "“The mystical city where history\n"
-	.string "slumbers.”$"
+	.string	"ARRECÍPOLIS\p"
+	.string	"“Una ciudad mística que duerme\n"
+	.string	"en los brazos de la historia.”$"
 
 SootopolisCity_Text_DoorIsClosed:
-	.string "The door is closed.$"
+	.string	"La puerta está cerrada.$"
 
 SootopolisCity_Text_PhysicallyFitLivingHere:
-	.string "Diving in the sea. Climbing up and\n"
-	.string "down stairs all the time…\p"
-	.string "If you live in this town, you end up\n"
-	.string "getting physically fit.$"
+	.string	"Bucear en el mar. Subir y bajar\n"
+	.string	"escaleras continuamente…\p"
+	.string	"¡Si vives en este pueblo, acabas\n"
+	.string	"por ponerte en forma!$"
 
 SootopolisCity_Text_GiantPokemonSuddenlyAppeared:
 	.string "These giant POKÉMON suddenly appeared\n"
@@ -1438,10 +1395,9 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "What is that green POKÉMON?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "GROUDON and KYOGRE…\n"
-	.string "Where did they go?\p"
-	.string "Will they cause droughts or downpours\n"
-	.string "somewhere else?$"
+	.string	"¿Adónde han ido GROUDON y KYOGRE?\p"
+	.string	"¿Causarán sequías y chaparrones\n"
+	.string	"en algún otro lugar?$"
 
 SootopolisCity_Text_TwoPokemonArentAngry:
 	.string "I just get this sense somehow that\n"
@@ -1455,17 +1411,17 @@ SootopolisCity_Text_FlyingMonStoppedRampage:
 	.string "POKÉMON…$"
 
 SootopolisCity_Text_WonderWhatWorldIsLike:
-	.string "I… I've never been out of this city.\p"
-	.string "I wonder what the world is like on\n"
-	.string "the other side of this round sky?$"
+	.string	"Nunca he salido de la ciudad.\p"
+	.string	"Me pregunto cómo será el mundo\n"
+	.string	"lejos de aquí…{PAUSE 5}$"
 
 SootopolisCity_Text_ThisIsWicked:
-	.string "Wow!\n"
-	.string "This is wicked!$"
+	.string	"¡Halaaaa!\n"
+	.string	"¡Esto no está bien!$"
 
 SootopolisCity_Text_ThatWasWicked:
-	.string "Wow!\n"
-	.string "That was wicked!$"
+	.string	"¡Halaaaa!\n"
+	.string	"¡Eso no ha estado bien!$"
 
 SootopolisCity_Text_GoRedAndBlueMon:
 	.string "Go for it, red POKÉMON!\n"
@@ -1477,10 +1433,10 @@ SootopolisCity_Text_DoYouKnowMonNames:
 	.string "POKÉMON fighting over there?$"
 
 SootopolisCity_Text_GreenOneSettlesThings:
-	.string "I was wondering which one would win,\n"
-	.string "the red one or the blue one, but, oh no,\l"
-	.string "it's the green one that settles things!\p"
-	.string "Talk about a huge turn of events!$"
+	.string	"Me preguntaba cuál ganaría: el rojo\n"
+	.string	"o el azul, pero… no, no,\l"
+	.string	"¡el verde es el que domina la situación!\p"
+	.string	"¡Las cosas han dado un giro tremendo!$"
 
 SootopolisCity_Text_SeeingLegendWithOwnEyes:
 	.string "There's an ancient legend that claims\n"
@@ -1510,21 +1466,21 @@ SootopolisCity_Text_PrettyMonCameFromSky:
 	.string "the sky…$"
 
 SootopolisCity_Text_SootopolisWillBeWrecked:
-	.string "Oh, no!\n"
-	.string "SOOTOPOLIS CITY will get wrecked!$"
+	.string	"¡Oh, no!\n"
+	.string	"¡ARRECÍPOLIS quedará destruida!$"
 
 SootopolisCity_Text_SootopolisDidntGetWrecked:
-	.string "SOOTOPOLIS CITY didn't get wrecked!$"
+	.string	"¡ARRECÍPOLIS sigue entera!$"
 
 SootopolisCity_Text_NoOrdinaryTourist:
-	.string "Hm!\n"
-	.string "You've come all the way to SOOTOPOLIS?\l"
-	.string "You're no ordinary tourist.\p"
-	.string "But I suppose that doesn't make you\n"
-	.string "an extraordinary tourist, either.$"
+	.string	"¡Eh! ¿Has venido expresamente\n"
+	.string	"desde tan lejos a ARRECÍPOLIS?\l"
+	.string	"Pero tú no vienes de turismo…\p"
+	.string	"Pero tampoco vienes a nada\n"
+	.string	"interesante, ¿no?…{PAUSE 5}$"
 
 SootopolisCity_Text_CityRegainedCalm:
-	.string "The city has regained its calm…$"
+	.string	"La ciudad ha recuperado la calma…{PAUSE 5}$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Who might you be?\p"
@@ -1549,18 +1505,19 @@ SootopolisCity_Text_AwakenedPokemonClash:
 	.string "of a third POKÉMON…$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo:
-	.string "This is the CAVE OF ORIGIN…\p"
-	.string "With the passing of the crisis,\n"
-	.string "the cave, too, shall sleep…$"
+	.string	"Ésta es la CUEVA ANCESTRAL…\p"
+	.string	"Cuando la crisis haya tocado a su fin,\n"
+	.string	"la cueva también caerá en un\l"
+	.string	"profundo sueño…{PAUSE 5}$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
-	.string "SOOTOPOLIS sprang up as a town in\n"
-	.string "the crater of a volcano.\p"
-	.string "If you look up at the sky, the lip of\n"
-	.string "the crater is also visible.\l"
-	.string "So, all you see is the sky in a circle.\p"
-	.string "But that's what makes the sky above\n"
-	.string "SOOTOPOLIS the most beautiful.$"
+	.string	"ARRECÍPOLIS es una ciudad que nació\n"
+	.string	"en el cráter de un volcán.\p"
+	.string	"Si miras hacia arriba, aún se puede\n"
+	.string	"ver el borde del cráter…\l"
+	.string	"Por eso el cielo aquí es circular.\p"
+	.string	"Y por esa misma razón el cielo\n"
+	.string	"de ARRECÍPOLIS es tan especial.$"
 
 SootopolisCity_Text_GiganticPokemonFight:
 	.string "When two POKÉMON that gigantic\n"
@@ -1572,11 +1529,11 @@ SootopolisCity_Text_FearedWorstWhenPokemonFlewDown:
 	.string "I feared the worst.$"
 
 SootopolisCity_Text_NightSkyFavoriteScenery:
-	.string "A circle of a night sky framed by\n"
-	.string "the crater of a volcano…\p"
-	.string "And in that ring, stars flicker and\n"
-	.string "blink as if they were alive…\l"
-	.string "It's my favorite scenery.$"
+	.string	"Un círculo de cielo nocturno, enmarcado\n"
+	.string	"por el cráter del volcán…\p"
+	.string	"Y, en él, titilan las estrellas como si\n"
+	.string	"estuvieran vivas…\l"
+	.string	"Me encanta este paisaje…{PAUSE 5}$"
 
 SootopolisCity_Text_WeatherWentWild:
 	.string "The weather was clear this morning,\n"
@@ -1596,11 +1553,11 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… GROUDON…\n"
-	.string "Please! Stop what you're doing!\p"
-	.string "I know the extent of your power now!\p"
-	.string "If you keep going, all HOENN, not just\n"
-	.string "SOOTOPOLIS, will be utterly ruined!$"
+	.string	"MAGNO: GROU… GROUDON…\n"
+	.string	"¡Te lo ruego, detente!\p"
+	.string	"¡Ahora sé cuán grande es tu poder!\p"
+	.string	"¡Si no paras, no solo acabarás con\n"
+	.string	"ARRECÍPOLIS, sino con todo HOENN!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "MAXIE: So the super-ancient POKÉMON\n"
@@ -1613,13 +1570,13 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "ARCHIE: KYOGRE! What's wrong?!\n"
-	.string "Look over here! It's the RED ORB!\l"
-	.string "Calm down! KYOGRE!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "It's no good!\n"
-	.string "It's not responding at all!$"
+	.string	"AQUILES: ¡KYOGRE! ¡¿Qué ocurre?!\n"
+	.string	"¡Mira! ¡Es la ESFERA ROJA!\l"
+	.string	"¡Tranquilízate, KYOGRE!\p"
+	.string	"Ah…\n"
+	.string	"No puede ser…\p"
+	.string	"¡Esto no funciona!\n"
+	.string	"¡No me hace caso!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "ARCHIE: KYOGRE and GROUDON both\n"
@@ -1657,20 +1614,20 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "You already know.$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-	.string "STEVEN: Okay, here we are!\p"
-	.string "Inside here you'll find someone named\n"
-	.string "WALLACE.\p"
-	.string "I think you have what's needed to\n"
-	.string "help him…$"
+	.string	"MÁXIMO: Bien, ya hemos llegado.\p"
+	.string	"Dentro encontrarás a alguien que\n"
+	.string	"responde al nombre de PLUBIO.\p"
+	.string	"Creo que tú tienes las cualidades\n"
+	.string	"necesarias para ayudarle…{PAUSE 5}$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-	.string "STEVEN: I think you have what's\n"
-	.string "needed to help him…$"
+	.string	"MÁXIMO: Creo que tú tienes las\n"
+	.string	"cualidades necesarias para ayudarle…{PAUSE 5}$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "STEVEN: The SKY PILLAR…\p"
-	.string "I've never been there.\n"
-	.string "I wonder where it could be?$"
+	.string	"MÁXIMO: El PILAR CELESTE…\p"
+	.string	"Nunca lo he visto.\n"
+	.string	"¿Dónde estará?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
 	.string "STEVEN: So that's RAYQUAZA…\p"
@@ -1678,35 +1635,35 @@ SootopolisCity_Text_SoThatsRayquaza:
 	.string "POKÉMON would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "STEVEN: It looks like both MAXIE and\n"
-	.string "ARCHIE have gone away somewhere.\p"
-	.string "Perhaps they've gone to MT. PYRE to\n"
-	.string "return those ORBS…$"
+	.string	"MÁXIMO: Parece que tanto MAGNO\n"
+	.string	"como AQUILES se han marchado.\p"
+	.string	"Puede que hayan vuelto al MONTE\n"
+	.string	"PÍRICO a devolver las ESFERAS…{PAUSE 5}$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
-	.string "WALLACE: Oh?\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "Haven't you scaled the SKY PILLAR\n"
-	.string "yet?\p"
-	.string "I'm sure that you can make it to\n"
-	.string "the top of the SKY PILLAR…$"
+	.string	"PLUBIO: ¿Eh?\n"
+	.string	"¿{PLAYER}{KUN}?\p"
+	.string	"¿Todavía no has subido a lo\n"
+	.string	"alto del PILAR CELESTE?\p"
+	.string	"Estoy seguro de que puedes\n"
+	.string	"llegar hasta allí arriba…{PAUSE 5}$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
-	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "The leaders of TEAM MAGMA and AQUA,\n"
-	.string "I don't think they meant harm.\p"
-	.string "It wouldn't hurt to hear what they\n"
-	.string "have to say for themselves.$"
+	.string	"PLUBIO: {PLAYER}{KUN}…\p"
+	.string	"No creo que los líderes de los EQUIPOS\n"
+	.string	"MAGMA y AQUA tengan malas intenciones.\p"
+	.string	"No haría daño a nadie oír lo\n"
+	.string	"que tienen que decir…{PAUSE 5}$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
-	.string "WALLACE: {PLAYER}{KUN}…\n"
-	.string "My eyes didn't deceive me.\p"
-	.string "Thanks to your help, SOOTOPOLIS…\n"
-	.string "No, all of HOENN was saved.\p"
-	.string "On behalf of the people, I thank you.\p"
-	.string "This is a gift from me.\n"
-	.string "Please accept it.$"
-
+	.string	"PLUBIO: {PLAYER}{KUN}…\n"
+	.string	"Mis ojos no me engañaron.\p"
+	.string	"Gracias a ti, ARRECÍPOLIS…,\n"
+	.string	"no, todo HOENN está a salvo.\p"
+	.string	"En nombre de todos, te lo agradezco.\p"
+	.string	"Quiero ofrecerte este regalo.\n"
+	.string	"Te ruego que lo aceptes.$"
+	
 SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "That HIDDEN MACHINE contains\n"
 	.string "WATERFALL.\p"
@@ -1721,6 +1678,226 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "that door.$"
 
 SootopolisCity_Text_DazzledByMentor:
-	.string "WALLACE: I'm sure that you will be\n"
-	.string "dazzled by my mentor's breathtakingly\l"
-	.string "elegant battle style.$"
+	.string	"PLUBIO: Estoy convencido de que\n"
+	.string	"el impresionantemente elegante estilo\l"
+	.string	"de lucha de mi mentor te asombrará.$"
+
+SootopolisCity_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+SootopolisCity_Move_2:
+walk_slow_left
+delay_16
+face_right
+step_end
+
+SootopolisCity_Move_3:
+walk_in_place_right
+step_end
+
+SootopolisCity_Move_4:
+delay_16
+face_left
+delay_16
+face_down
+delay_16
+step_end
+
+SootopolisCity_Move_5:
+face_left
+step_end
+
+SootopolisCity_Move_6:
+walk_slow_down
+step_end
+
+SootopolisCity_Move_7:
+face_down
+step_end
+
+SootopolisCity_Move_8:
+walk_in_place_down
+step_end
+
+SootopolisCity_Move_9:
+face_right
+step_end
+
+SootopolisCity_Move_10:
+face_up
+step_end
+
+SootopolisCity_Move_11:
+walk_right
+face_down
+step_end
+
+SootopolisCity_Move_12:
+emote_exclamation_mark
+step_end
+
+SootopolisCity_Andra::
+lock
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_SLIDING_DOOR
+opendoor 31, 32
+waitdooranim
+addobject 16
+applymovement 16, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 31, 32
+waitdooranim
+delay 10
+applymovement 16, SootopolisCity_Move_2
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 40
+playse SE_SLIDING_DOOR
+opendoor 31, 32
+waitdooranim
+delay 45
+addobject 17
+delay 45
+applymovement 17, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 31, 32
+waitdooranim
+delay 15
+applymovement 17, SootopolisCity_Move_4
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_5
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_3
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_7
+applymovement 17, SootopolisCity_Move_6
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_8
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_9
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_10
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_11
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, SootopolisCity_Move_12
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_9
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 16, SootopolisCity_Move_8
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 17, SootopolisCity_Move_5
+waitmovement 0x0
+msgbox SootopolisCity_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+msgbox SootopolisCity_Andra_Texto_16 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_1
+setvar VAR_UNUSED_0x40F7, 235
+warpsilent MAP_CAVE_OF_ORIGIN_B1F, 15, 3
+delay 120
+release
+end
+
+SootopolisCity_Andra_Texto_1:
+	.string "GALANO: Ha sido impresionante, jamás\n"
+	.string "había visto manejar unos POKÉMON con\l"
+	.string "semejante destreza.$"
+
+SootopolisCity_Andra_Texto_2:
+	.string "Con ese nivel, podrías aspirar al título\n"
+	.string "de CAMPEÓN. Qué aspirar…{PAUSE 15} ¡sin duda lo\l"
+	.string "ganarías!$"
+
+SootopolisCity_Andra_Texto_3:
+	.string "ANDRA: Gracias pero{PAUSE 25}…{PAUSE 25}\n"
+	.string "No es algo que esté entre mis objetivos.$"
+
+SootopolisCity_Andra_Texto_4:
+	.string "GALANO: Y ese MILOTIC tuyo{PAUSE 25}…{PAUSE 25} Creí que\n"
+	.string "el de PLUBIO era insuperable, ¡pero el\l"
+	.string "tuyo roza límites sagrados!$"
+
+SootopolisCity_Andra_Texto_5:
+	.string "ANDRA: ¿PLUBIO?$"
+
+SootopolisCity_Andra_Texto_6:
+	.string "GALANO: ¡Oh, chica! ¿En qué mundo\n"
+	.string "vives? ¡PLUBIO es el actual CAMPEÓN de\l"
+	.string "HOENN!$"
+
+SootopolisCity_Andra_Texto_7:
+	.string "Antes era LÍDER de CIUDAD\n"
+	.string "ARRECÍPOLIS, pero se veía a leguas que\l"
+	.string "estaba para más.$"
+
+SootopolisCity_Andra_Texto_8:
+	.string "ANDRA: Por lo que has dicho, debe ser un\n"
+	.string "notable entrenador, pero lejos de lo\l"
+	.string "que yo he podido ver.$"
+
+SootopolisCity_Andra_Texto_9:
+	.string "GALANO: Sí, pero{PAUSE 25}…{PAUSE 25} esta ciudad es muy\n"
+	.string "antigua, y por suerte muchos eventos\l"
+	.string "históricos no han caído en el olvido.$"
+
+SootopolisCity_Andra_Texto_10:
+	.string "ANDRA: Ya los conozco. La batalla entre\n"
+	.string "KYOGRE y GROUDON. No me despierta el\l"
+	.string "más mínimo interés, dioses jugando\l"
+	.string "entre ellos a ver quien{PAUSE 5}…{PAUSE 5}$"
+
+SootopolisCity_Andra_Texto_11:
+	.string "GALANO: No tan rápido chica, yo hablaba\n"
+	.string "de otro evento.$"
+
+SootopolisCity_Andra_Texto_12:
+	.string "ANDRA: ¿Otro?$"
+
+SootopolisCity_Andra_Texto_13:
+	.string "GALANO: Este tipo de información solo\n"
+	.string "es conocida por los líderes de\l"
+	.string "ARRECÍPOLIS y los guardianes de CUEVA\l"
+	.string "ANCESTRAL. No debería hacer esto,\l"
+	.string "pero{PAUSE 5}…{PAUSE 5}$"
+
+SootopolisCity_Andra_Texto_14:
+	.string "MILOTIC siempre ha sido un POKÉMON muy\n"
+	.string "venerado aquí, ¿sabes? Que tú tengas\l"
+	.string "uno tan especial{PAUSE 25}…{PAUSE 25} siento que debes\l"
+	.string "saber acerca de estas leyendas.$"
+
+SootopolisCity_Andra_Texto_15:
+	.string "ANDRA: Puede que sí me interese.$"
+
+SootopolisCity_Andra_Texto_16:
+	.string "GALANO: Nos vemos en CUEVA ANCESTRAL\n"
+	.string "entonces.$"
+
+
+

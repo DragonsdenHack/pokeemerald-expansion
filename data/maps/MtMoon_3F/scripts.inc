@@ -104,14 +104,16 @@ faceplayer
 delay 15
 playse SE_PIN
 applymovement 11, MtMoon3F_9_2_move1
-playse MUS_OBTAIN_ITEM
-msgbox MtMoon3F_Text_11_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_ITEM
+msgbox MtMoon3F_Text_11_1, MSGBOX_DEFAULT
 waitfanfare
 msgbox MtMoon3F_Text_11_2, MSGBOX_NPC
 playse SE_POKENAV_ON
-delay 20
+waitse
+delay 10
 msgbox MtMoon3F_Text_11_3, MSGBOX_NPC
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 20
 msgbox MtMoon3F_Text_11_4, MSGBOX_NPC
 setvar VAR_UNUSED_0x40F7, 15
@@ -477,7 +479,9 @@ playse SE_PIN
 applymovement 13, MtMoon_3F_Miguel_Rojo_move3
 waitmovement 0
 msgbox MtMoon_3F_Miguel_Rojo_text_11 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 20
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move12
 waitmovement 0
 delay 40
@@ -780,11 +784,16 @@ msgbox MtMoon_3F_Pelea_Frank_texto15 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto16 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto17 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto18 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 delay 20
 applymovement 17, MtMoon_3F_Pelea_Frank_move12
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtMoon_3F_Pelea_Frank_texto19.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtMoon_3F_Pelea_Frank_texto19.2 MSGBOX_AUTOCLOSE
 applymovement 17, MtMoon_3F_Pelea_Frank_move13
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto20 MSGBOX_AUTOCLOSE
@@ -929,6 +938,14 @@ MtMoon_3F_Pelea_Frank_texto18:
 MtMoon_3F_Pelea_Frank_texto19:
 	.string "ANDRA: Well, you heard him. Looks like\n"
 	.string "our missions are different this time.$"
+
+MtMoon_3F_Pelea_Frank_texto19.1:
+	.string "… …$"
+
+MtMoon_3F_Pelea_Frank_texto19.2:
+	.string "Tranquilo, {PLAYER}. No creo que te\n"
+	.string "expulsen, sabes combatir; todos lo\l"
+	.string "hemos visto.$"
 
 MtMoon_3F_Pelea_Frank_texto20:
 	.string "Next we meet, I hope your team's\n"

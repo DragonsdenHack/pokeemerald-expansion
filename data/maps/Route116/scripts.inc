@@ -420,30 +420,30 @@ Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 	.string "These are BLACKGLASSES.\l"
 	.string "They're not what I'm looking for…\p"
 	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
+	.string "here{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_CantFindGlassesNotHere:
 	.string "Hmm…\n"
 	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
+	.string "Maybe they're not around here{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_NotWhatImLookingFor:
 	.string "Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "They're not what I'm looking for{PAUSE 5}…{PAUSE 5}$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "RUTA 116\n"
+	.string "{LEFT_ARROW} CIUDAD FÉRRICA$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "TÚNEL FERVERGAL\n"
+	.string "“Conecta CIUDAD FÉRRICA y VERDEGAL.\p"
+	.string "El proyecto de construcción del\n"
+	.string "túnel ha sido cancelado.”$"
 
 Route116_Text_TunnelersRestHouse:
-	.string "TUNNELER'S REST HOUSE$"
+	.string "POSADA del TUNELERO$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
 	.string "TRAINER TIPS\p"
@@ -454,10 +454,10 @@ Route116_Text_TrainerTipsBToStopEvolution:
 	.string "This is called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
-	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "PISTAS para ENTRENADORES\p"
+	.string "En la MOCHILA hay varios BOLSILLOS.\p"
+	.string "Los objetos se guardan en el BOLSILLO\n"
+	.string "correspondiente automáticamente.\p"
+	.string "Todo ENTRENADOR tiene que contar\n"
+	.string "con su propia MOCHILA.$"
 

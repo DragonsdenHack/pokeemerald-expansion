@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_123",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -823,7 +823,7 @@
     {
       "type": "hidden_item",
       "x": 139,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "item": "ITEM_PP_UP",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_PP_UP"
@@ -831,7 +831,7 @@
     {
       "type": "hidden_item",
       "x": 138,
-      "y": 17,
+      "y": 18,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY"

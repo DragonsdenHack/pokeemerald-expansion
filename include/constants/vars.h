@@ -96,7 +96,7 @@
 #define VAR_POKELOT_PRIZE_PLACE              0x404D
 #define VAR_UNUSED_0x404E                    0x404E // SECUNDARIA FRANK
 #define VAR_LOTAD_SIZE_RECORD                0x404F
-#define VAR_LITTLEROOT_TOWN_STATE            0x4050
+#define VAR_LITTLEROOT_TOWN_STATE            0x4050 
 #define VAR_OLDALE_TOWN_STATE                0x4051
 #define VAR_DEWFORD_TOWN_STATE               0x4052 // SECUNDARIA HYPNO ISLA TERA
 #define VAR_LAVARIDGE_TOWN_STATE             0x4053
@@ -128,10 +128,10 @@
 #define VAR_ROUTE114_STATE                   0x406D // ENTRENADOR ESPECIAL ISLA CUARTA
 #define VAR_ROUTE115_STATE                   0x406E // ENTRENADOR ESPECIAL CALLE VICTORIA
 #define VAR_ROUTE116_STATE                   0x406F
-#define VAR_ROUTE117_STATE                   0x4070 // ENTRENADOR ESPECIAL ISLA CANELA
-#define VAR_ROUTE118_STATE                   0x4071 // ENCUENTRO ZINNIA
-#define VAR_ROUTE119_STATE                   0x4072
-#define VAR_ROUTE120_STATE                   0x4073 // ENTRENADOR ESPECIAL CIUDAD AZAFRAN
+#define VAR_ROUTE117_STATE                   0x4070 // ENTRENADOR ESPECIAL ISLA CANELA // MISION MUSEO HOENN
+#define VAR_ROUTE118_STATE                   0x4071 // ENCUENTRO ZINNIA // SECUNDARIA HOENN CASA PLAYA RUTA 109
+#define VAR_ROUTE119_STATE                   0x4072 // SECUNDARIA PILAR RECUERDO
+#define VAR_ROUTE120_STATE                   0x4073 // ENTRENADOR ESPECIAL CIUDAD AZAFRAN // SECUNDARIA DLC TUNEL ROCA GUARDIA
 #define VAR_ROUTE121_STATE                   0x4074
 #define VAR_ROUTE122_STATE                   0x4075 // ENTRENADOR ESPECIAL CIUDAD FUCSIA
 #define VAR_ROUTE123_STATE                   0x4076 // ENTRENADOR ESPECIAL TUNEL ROCA
@@ -225,7 +225,7 @@
 #define VAR_FRONTIER_BATTLE_MODE             0x40CE
 #define VAR_FRONTIER_FACILITY                0x40CF
 #define VAR_HAS_ENTERED_BATTLE_FRONTIER      0x40D0 // Var is used like a flag.
-#define VAR_SCOTT_STATE                      0x40D1
+#define VAR_SCOTT_STATE                      0x40D1 // KANTO, SECUNDARIA CAZABICHOS PLATEADA REPELENTE
 #define VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE   0x40D2
 #define VAR_DEX_UPGRADE_JOHTO_STARTER_STATE  0x40D3
 #define VAR_SS_TIDAL_SCOTT_STATE             0x40D4 // Always equal to FLAG_MET_SCOTT_ON_SS_TIDAL
@@ -264,14 +264,14 @@
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER       0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
 #define VAR_UNUSED_0x40F7                    0x40F7 // Unused Var // EVENTOS 
-#define VAR_UNUSED_0x40F8                    0x40F8 // Unused Var // PILAR RECUERDO
+#define VAR_UNUSED_0x40F8                    0x40F8 // Unused Var // PILAR RECUERDO // EVENTOS DESPUES DE VALOR 255 en VAR_UNUSED_0x40F7
 #define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var // GIMNASIOS
 #define VAR_UNUSED_0x40FA                    0x40FA // Unused Var // WARPS Y TRAMPILLAS (0)
 #define VAR_UNUSED_0x40FB                    0x40FB // Unused Var // Evento Karatekas en ruta 4 (0)
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Este Carmin// (0) //Frontera Celeste (1) // Frontera Celeste antes de Petrel post Mt.moon (2)
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var // Policías Azafrán Fronteras (1), Pegaso entrenando (2)
 #define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Encuentro Mirto (1) // 4 
-#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento
+#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento // Escenas añadidas post dlc
 
 #define VARS_END                             0x40FF
 #define VARS_COUNT                           (VARS_END - VARS_START + 1)

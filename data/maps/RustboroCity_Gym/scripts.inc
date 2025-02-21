@@ -126,23 +126,24 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Well, go for it!$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
-	.string "Whoa! What a breathtaking victory!\n"
-	.string "My cheering must've worked!\p"
-	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
-	.string "properly recorded on it.\p"
-	.string "In other words…\p"
-	.string "You've climbed the first step on\n"
-	.string "the stairs to the CHAMPIONSHIP!\p"
-	.string "That's got to feel awesome!$"
+	.string	"¡Guau, vaya pedazo de victoria!\n"
+	.string	"¡Seguro que ha sido por todo lo que\l"
+	.string	"te he animado desde aquí!\p"
+	.string	"¡Genial!\n"
+	.string	"Consulta tu FICHA de ENTRENADOR.\p"
+	.string	"La MEDALLA PIEDRA que has conseguido\n"
+	.string	"debería figurar ahí.\p"
+	.string	"En otras palabras…\p"
+	.string	"¡Has dado el primer paso que te llevará\n"
+	.string	"a la cima!\p"
+	.string	"¡Tiene que ser superemocionante!$"
 
 RustboroCity_Gym_Text_JoshIntro:
 	.string "A los ENTRENADORES no debes tomarnos a\n"
 	.string "la ligera… ¡Ahora verás por qué!$"
 
 RustboroCity_Gym_Text_JoshDefeat:
-	.string "Me has dejado a cuadros…$"
+	.string "Me has dejado a cuadros…{PAUSE 5}$"
 
 RustboroCity_Gym_Text_JoshPostBattle:
 	.string "¡Todavía no has visto ni una pizca del\n"
@@ -196,8 +197,8 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "LEAGUE STONE BADGE.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string	"{PLAYER} recibió la MEDALLA PIEDRA\n"
+	.string	"de PETRA.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "The STONE BADGE heightens the ATTACK\n"
@@ -261,7 +262,7 @@ RustboroCity_Gym_Text_RoxannePreRematch:
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
 	.string "Grr…\n"
-	.string "Again, I have lost…$"
+	.string "Again, I have lost…{PAUSE 5}$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
 	.string "ROXANNE: I still have much to learn\n"

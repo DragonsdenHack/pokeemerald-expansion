@@ -258,6 +258,7 @@ playse MUS_RG_ENCOUNTER_RIVAL
 applymovement 1, Silph_7F_Encuentro_Azul_Move_3
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_4
 waitmovement 0x0
@@ -265,24 +266,51 @@ msgbox Silph_7F_Encuentro_Azul_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_4
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_5
 waitmovement 0x0
 playse MUS_RG_SILPH
 msgbox Silph_7F_Encuentro_Azul_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Silph_7F_Encuentro_Azul_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Silph_7F_Encuentro_Azul_Move_6
 waitmovement 0x0
 msgbox Silph_7F_Encuentro_Azul_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Silph_7F_Encuentro_Azul_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Silph_7F_Encuentro_Azul_Move_6.1
+waitmovement 0x0
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Silph_7F_Encuentro_Azul_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, Silph_7F_Encuentro_Azul_Move_7
 waitmovement 0x0
 setflag FLAG_HIDE_FANCLUB_BOY
 clearflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+removeobject 1
+addobject 12
 setvar VAR_UNUSED_0x40F7, 74
 release
 end
+
+Silph_7F_Encuentro_Azul_Move_6.1:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 Silph_7F_Encuentro_Azul_Move_1:
 face_down
@@ -328,6 +356,10 @@ Silph_7F_Encuentro_Azul_Move_2.1:
 emote_exclamation_mark
 walk_up
 walk_in_place_right
+step_end
+
+Silph_7F_Encuentro_Azul_Move_2.2:
+emote_exclamation_mark
 step_end
 
 Silph_7F_Encuentro_Azul_Move_3:

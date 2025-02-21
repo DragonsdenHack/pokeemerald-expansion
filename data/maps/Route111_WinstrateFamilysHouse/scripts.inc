@@ -20,7 +20,7 @@ Route111_WinstrateFamilysHouse_EventScript_Victoria::
 	setvar VAR_0x8008, LOCALID_VICTORIA
 	goto_if_set FLAG_RECEIVED_MACHO_BRACE, Route111_WinstrateFamilysHouse_EventScript_ReceivedMachoBrace
 	msgbox Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace, MSGBOX_DEFAULT
-	giveitem ITEM_MACHO_BRACE
+	giveitem ITEM_SCEPTILITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_MACHO_BRACE
 	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
@@ -82,26 +82,34 @@ Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
 	.string "we tend to be pretty passionate.$"
 
 Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
-	.string "Mommy is stronger than Daddy.\p"
-	.string "I'm stronger than Mommy.\p"
-	.string "And Grandma's stronger than me!\p"
-	.string "But my big brother is even stronger\n"
-	.string "than Grandma.$"
+	.string	"Mamá es más fuerte que papá.\p"
+	.string	"Yo soy más fuerte que mamá.\p"
+	.string	"¡Y la abuelita es más fuerte que yo!\p"
+	.string	"Pero mi hermano mayor es aún\n"
+	.string	"más fuerte que la abuelita.$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
-	.string "There's no question that you're strong.\p"
-	.string "But if you were to battle my grandson,\n"
-	.string "you'd end up crying in frustration.\p"
-	.string "He's much stronger than any TRAINER\n"
-	.string "our family knows.\p"
-	.string "He must be challenging the POKÉMON\n"
-	.string "LEAGUE CHAMPION by now.\p"
-	.string "Knowing my grandson, he could be the\n"
-	.string "CHAMPION already!$"
+	.string	"No cabe duda de que eres fuerte.\p"
+	.string	"Pero mi nieto puede mejorar aún más,\n"
+	.string	"algún día llorarás pidiendo clemencia.\p"
+	.string	"Es mucho más fuerte que cualquier\n"
+	.string	"otro ENTRENADOR que conozcamos.\p"
+	.string	"Si sigue así, llegará a derrotar\n"
+	.string	"al CAMPEÓN de la LIGA POKéMON…\p"
+	.string	"Conociendo a mi nieto…, ¡no se\n"
+	.string	"detendrá hasta lograrlo!$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
-	.string "My grandson must be challenging the\n"
-	.string "POKÉMON LEAGUE CHAMPION by now.\p"
-	.string "Knowing my grandson, he could be the\n"
-	.string "CHAMPION already!$"
+	.string	"Mi nieto tratará de derrotar\n"
+	.string	"al CAMPEÓN de la LIGA POKéMON…\p"
+	.string	"Conociendo a mi nieto…, ¡no se\n"
+	.string	"detendrá hasta lograrlo!$"
+
+
+Route111_WinstrateFamilysHouse_Nieto::
+lock
+faceplayer
+msgbox Route111_Nieto_Texto_3, MSGBOX_DEFAULT
+release
+end
 

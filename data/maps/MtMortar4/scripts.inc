@@ -32,6 +32,7 @@ delay 15
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MtMortar4_Encuentro_Anibal_Move_1
 waitmovement 0x0
+waitse
 msgbox MtMortar4_Encuentro_Anibal_Texto_1 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, MtMortar4_Encuentro_Anibal_Move_2
@@ -39,8 +40,8 @@ waitmovement 0x0
 special RemoveCameraObject
 delay 15
 playmoncry SPECIES_MACHOKE, CRY_MODE_ENCOUNTER
-msgbox MtMortar4_Encuentro_Anibal_Texto_2 MSGBOX_DEFAULT
 waitmoncry
+msgbox MtMortar4_Encuentro_Anibal_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_M_CUT
 applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
 applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
@@ -80,33 +81,14 @@ applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
 delay 20
-playse SE_M_FLY
-applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
-applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
-waitmovement 0x0
-delay 20
-playse SE_M_WING_ATTACK
-applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
-applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
-waitmovement 0x0
 applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
 applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
+playse SE_M_CUT
+waitse
 delay 20
-playse SE_M_FLY
-applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
-applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
-waitmovement 0x0
-delay 20
-playse SE_M_TWISTER
-applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
-applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
-waitmovement 0x0
-applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
-applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
-waitmovement 0x0
-playse SE_M_TAKE_DOWN
 msgbox MtMortar4_Encuentro_Anibal_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox MtMortar4_Encuentro_Anibal_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 playmoncry SPECIES_MACHOKE, CRY_MODE_ENCOUNTER
@@ -137,16 +119,21 @@ waitmovement 0x0
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, MtMortar4_Encuentro_Anibal_Move_12
 waitmovement 0x0
+delay 10
 msgbox MtMortar4_Encuentro_Anibal_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, MtMortar4_Encuentro_Anibal_Move_12
 waitmovement 0x0
 msgbox MtMortar4_Encuentro_Anibal_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MtMortar4_Encuentro_Anibal_Move_13
 waitmovement 0x0
+delay 10
 msgbox MtMortar4_Encuentro_Anibal_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MtMortar4_Encuentro_Anibal_Move_14
 waitmovement 0x0
+delay 10
 msgbox MtMortar4_Encuentro_Anibal_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
 clearflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
@@ -219,6 +206,7 @@ walk_right
 walk_right
 walk_right
 walk_down
+walk_down
 step_end
 
 MtMortar4_Encuentro_Anibal_Move_3:
@@ -256,6 +244,7 @@ walk_left
 walk_left
 walk_left
 walk_left
+walk_up
 walk_up
 step_end
 

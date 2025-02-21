@@ -349,7 +349,7 @@ static void CB2_Credits(void)
 
     if ((JOY_HELD(B_BUTTON))
      && gHasHallOfFameRecords
-     && gTasks[sSavedTaskId].func == Task_CreditsMain)
+     && gTasks[sSavedTaskId].func == Task_CreditsSoftReset)
     {
         // Speed up credits
         VBlankCB_Credits();
@@ -418,27 +418,14 @@ void CB2_StartCreditsSequence(void)
     InitHeap(gHeap, HEAP_SIZE);
     ResetPaletteFade();
     ResetTasks();
-    InitCreditsBgsAndWindows();
+    //InitCreditsBgsAndWindows();
 
-    taskId = CreateTask(Task_WaitPaletteFade, 0);
+    taskId = CreateTask(Task_CreditsSoftReset, 0);
 
-    gTasks[taskId].tEndCredits = FALSE;
-    gTasks[taskId].tSceneNum = SCENE_OCEAN_MORNING;
-    gTasks[taskId].tNextMode = MODE_NONE;
-    gTasks[taskId].tCurrentMode = MODE_BIKE_SCENE;
-
-    while (TRUE)
-    {
-        if (LoadBikeScene(SCENE_OCEAN_MORNING, taskId))
-            break;
-    }
-
-    bikeTaskId = gTasks[taskId].tTaskId_BikeScene;
-    gTasks[bikeTaskId].tState = 40;
 
     SetGpuReg(REG_OFFSET_BG0VOFS, 0xFFFC);
 
-    pageTaskId = CreateTask(Task_UpdatePage, 0);
+    pageTaskId = CreateTask(Task_CreditsSoftReset, 0);
 
     gTasks[pageTaskId].tMainTaskId = taskId;
     gTasks[taskId].tTaskId_UpdatePage = pageTaskId;
@@ -463,7 +450,7 @@ void CB2_StartCreditsSequence(void)
 static void Task_WaitPaletteFade(u8 taskId)
 {
     if (!gPaletteFade.active)
-        gTasks[taskId].func = Task_CreditsMain;
+        gTasks[taskId].func = Task_CreditsSoftReset;
 }
 
 static void Task_CreditsMain(u8 taskId)

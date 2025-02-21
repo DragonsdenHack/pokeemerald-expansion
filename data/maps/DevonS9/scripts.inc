@@ -16,19 +16,27 @@ special RemoveCameraObject
 delay 20
 applymovement 37, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_5
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox DevonS10_DLC_Escena_Final_Texto_6 MSGBOX_AUTOCLOSE
@@ -36,18 +44,25 @@ delay 15
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
 msgbox DevonS10_DLC_Escena_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_2
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_8
@@ -70,18 +85,26 @@ playse SE_PIN
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_14
 delay 10
 applymovement 40, DevonS9_Escena_DLC_Escena_Final_Move_13
+delay 5
 applymovement 34, DevonS9_Escena_DLC_Escena_Final_Move_12
+delay 5
 applymovement 35, DevonS9_Escena_DLC_Escena_Final_Move_11
+delay 5
 applymovement 36, DevonS9_Escena_DLC_Escena_Final_Move_10
+delay 5
 applymovement 37, DevonS9_Escena_DLC_Escena_Final_Move_9
 waitmovement 0x0
-delay 150
+delay 135
 msgbox DevonS10_DLC_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_15
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_15 MSGBOX_AUTOCLOSE
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_16 MSGBOX_AUTOCLOSE
@@ -90,25 +113,36 @@ applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_16
 waitmovement 0x0
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 39, DevonS9_Escena_DLC_Escena_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
 delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_17
 waitmovement 0x0
+delay 10
 msgbox DevonS10_DLC_Escena_Final_Texto_23 MSGBOX_AUTOCLOSE
 delay 20
 msgbox DevonS10_DLC_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 25, DevonS9_Escena_DLC_Escena_Final_Move_6
 waitmovement 0x0
 setflag FLAG_UNUSED_0x26D

@@ -5462,7 +5462,7 @@ const u8 gPurakkusuPokedexText[] = _(
     "bruta e impenetrable exoesqueleto.");
 
 const u8 gTaabanPokedexText[] = _(
-    "Se cree que acabó comiéndose al SLOBRO\n"
+    "Se cree que acabó comiéndose al SLOWBRO\n"
     "con el que establecía simbiosis. Como\n"
     "consecuencia, absorbió muchas de\n"
     "sus habilidades.");
@@ -5558,10 +5558,10 @@ const u8 gEnamorusPokedexText[] = _(
     "quienquiera que menosprecie el don de la vida.");
 
 const u8 gClodsirePokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Cuando se siente amenazado, repele al\n"
+    "enemigo con sus gruesas púas retráctiles.\n"
+    "Esta técnica tan peligrosa es un arma de\n"
+    "doble filo.");
 
 const u8 gAnnihilapePokedexText[] = _(
     "Cuando su ira explosiva rebasó el punto\n"
@@ -5576,33 +5576,32 @@ const u8 gFarigirafPokedexText[] = _(
     "que los de los Girafarig.");
 
 const u8 gToedscoolPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Los pliegues ondulados que se desprenden de\n"
+    "su cuerpo cuentan con una textura curiosa\n"
+    "y un sabor delicioso.\n"
+    "Habita en bosques húmedos.");
 
 const u8 gToedscruelPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Constriñe a sus víctimas con sus diez\n"
+    "tentáculos y les absorbe los nutrientes.\n"
+    "Los pliegues en torno al sombrero son\n"
+    "son un manjar muy preciado.");
 
 const u8 gWiglettPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Puede percibir el olor de depredadores\n"
+    "a 20 m de distancia, lo que le permite\n"
+    "ocultarse bajo la arena a tiempo.");
 
 const u8 gWugtrioPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Es de temperamento agresivo, aunque no\n"
+    "lo parezca. Envuelve a sus presas con\n"
+    "sus largos cuerpos y las arrastra a su\n"
+    "nido.");
 
 const u8 gKingambitPokedexText[] = _(
-    "Solo el Bisharp más destacado entre las\n"
+    "Solo el BISHARP más destacado entre las\n"
     "filas de cada gran ejército tiene el honor\n"
-    "de evolucionar a Kingambit.");
+    "de evolucionar a KINGAMBIT.");
 
 const u8 gFrigibaxPokedexText[] = _(
     "Absorbe el calor a través de la placa\n"
@@ -5808,19 +5807,49 @@ const u8 gDudunsparceEvoPokedexText[] = _(
     "of yore.");
 
 const u8 gGorochuPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Se desconocen los motivos por los que en\n"
+    "la antigua KANTO, podía evolucionar de\n"
+    "RAICHU. Alcanza los 500000 voltios de\n"
+    "potencia.");
 
 const u8 gWartilleryPokedexText[] = _(
-    "Calyrex is a merciful Pokémon, capable of\n"
-    "providing healing and blessings. It\n"
-    "reigned over the Galar region in times\n"
-    "of yore.");
+    "Desarrolló una capa de acero en torno\n"
+    "a su piel, como respuesta adaptativa a\n"
+    "los depredadores del LAGO de la FURIA.\n"
+    "Dispara con la fuerza de un cañón.");
 
 const u8 gQwoltfishPokedexText[] = _(
+    "Rama evolutiva de QWILFISH, desarrolada\n"
+    "durante millones de años en el interior\n"
+    "del LAGO de la FURIA. Solo con tocarlo,\n"
+    "puede soltar un descarga eléctrica mortal.");
+
+const u8 gGuardiaPokedexText[] = _(
+    "Evolución final de CUBONE, extremadamente\n"
+    "rara, dada la mortalidad de este POKÉMON.\n"
+    "Jamás se da por vencido, luchando hasta\n"
+    "las últimas consecuencias por los suyos.");
+	
+const u8 gArmaldoPrimalPokedexText[] = _(
+    "Uno de los depredadores más temidos de\n"
+    "la HOENN antigua, rompía adrede su frágil\n"
+    "coraza, para ganar velocidad y con ello\n"
+    "alcanzar a sus presas.");
+	
+const u8 gRelicanthPrimalPokedexText[] = _(
+    "La forma de RELICANTH en estado salvaje,\n"
+	"en la HOENN antigua. Mucho más agresivo\n"
+	"que la forma actual, y con una coraza\n"
+	"igual de impenetrable.");
+
+const u8 gGyaradosZPokedexText[] = _(
     "Calyrex is a merciful Pokémon, capable of\n"
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
+	
+const u8 gPorygon31PokedexText[] = _(
+    "Parece un Relicanth.\n"
+	"Debe de tratarse de un ejemplar\n"
+	"incluso más antiguo que este.\n"
+	"Se desconoce más datos sobre él.");	

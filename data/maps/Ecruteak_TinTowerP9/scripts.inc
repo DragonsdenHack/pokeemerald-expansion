@@ -86,23 +86,32 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_3
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_3 MSGBOX_AUTOCLOSE
 delay 30
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_4
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_5 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 trainerbattle_no_intro TRAINER_AGATHA_2, Ecruteak_TinTowerP9_Combate_Agatha_Texto_6
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerP9_Combate_Agatha_Move_5
 waitmovement 0x0
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Ecruteak_TinTowerP9_Combate_Agatha_Move_6
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 fadescreen 1

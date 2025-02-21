@@ -1059,22 +1059,7 @@ static void TilesetAnim_Slateport(u16 timer)
 
 static void TilesetAnim_Mauville(u16 timer)
 {
-    if (timer % 8 == 0)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 0);
-    if (timer % 8 == 1)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 1);
-    if (timer % 8 == 2)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 2);
-    if (timer % 8 == 3)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 3);
-    if (timer % 8 == 4)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 4);
-    if (timer % 8 == 5)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 5);
-    if (timer % 8 == 6)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 6);
-    if (timer % 8 == 7)
-        QueueAnimTiles_Mauville_Flowers(timer >> 3, 7);
+
 }
 
 static void TilesetAnim_Lavaridge(u16 timer)
@@ -1227,7 +1212,7 @@ static void QueueAnimTiles_Lavaridge_Steam(u8 timer)
 static void QueueAnimTiles_Pacifidlog_LogBridges(u8 timer)
 {
     u8 i = timer % 4;
-    AppendTilesetAnimToBuffer(gTilesetAnims_Pacifidlog_LogBridges[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 464)), 0x3C0);
+    AppendTilesetAnimToBuffer(gTilesetAnims_Pacifidlog_LogBridges[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 600)), 0x3C0);
 }
 
 static void QueueAnimTiles_Underwater_Seaweed(u8 timer)

@@ -10,9 +10,10 @@ PetalburgCity_House1_EventScript_Woman::
 	end
 
 PetalburgCity_House1_Text_TravelingIsWonderful:
-	.string "Traveling is wonderful!\p"
-	.string "When I was young, I roamed the seas\n"
-	.string "and the mountains!$"
+	.string	"¡Viajar es maravilloso!\p"
+	.string	"Cuando era un pimpollo, me recorrí\n"
+	.string	"el planeta de cabo a rabo…{PAUSE 5}$"
+
 
 PetalburgCity_House1_Text_GoOnAdventure:
 	.string "Sigh…\p"

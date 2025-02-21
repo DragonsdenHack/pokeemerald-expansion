@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_110",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -15,7 +15,7 @@
   "connections": [
     {
       "direction": "up",
-      "offset": 0,
+      "offset": -2,
       "map": "MAP_MAUVILLE_CITY"
     },
     {
@@ -304,71 +304,6 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 5,
-      "y": 83,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route110_EventScript_AquaGrunt1",
-      "flag": "FLAG_HIDE_ROUTE_110_TEAM_AQUA"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 5,
-      "y": 81,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route110_EventScript_AquaGrunt2",
-      "flag": "FLAG_HIDE_ROUTE_110_TEAM_AQUA"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 5,
-      "y": 81,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route110_EventScript_AquaGrunt3",
-      "flag": "FLAG_HIDE_ROUTE_110_TEAM_AQUA"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 5,
-      "y": 84,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route110_EventScript_AquaGrunt4",
-      "flag": "FLAG_HIDE_ROUTE_110_TEAM_AQUA"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 5,
-      "y": 78,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_110_TEAM_AQUA"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
       "x": 21,
       "y": 78,
@@ -380,32 +315,6 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route110_EventScript_Jacob",
       "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 23,
-      "y": 53,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_110_RIVAL"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_VAR_3",
-      "x": 23,
-      "y": 52,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -448,7 +357,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_F",
-      "x": 9,
+      "x": 10,
       "y": 39,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -486,17 +395,147 @@
       "flag": "FLAG_ITEM_ROUTE_110_ELIXIR"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
-      "x": 9,
-      "y": 79,
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+      "x": 11,
+      "y": 67,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_110_BIRCH"
+      "script": "Route110_Casa_Treta",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN2",
+      "x": 18,
+      "y": 94,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_Quinto_Bloqueo",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_M",
+      "x": 18,
+      "y": 98,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 18,
+      "y": 96,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN2",
+      "x": 17,
+      "y": 95,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_Cuarto_Bloqueo",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 16,
+      "y": 96,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_Tercer_Bloqueo",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 15,
+      "y": 95,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_Primer_Bloqueo",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "x": 17,
+      "y": 97,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "x": 15,
+      "y": 97,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SlateportCity_Segundo_Bloqueo",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN2",
+      "x": 19,
+      "y": 97,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_6"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "x": 17,
+      "y": 98,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_6"
     }
   ],
   "warp_events": [
@@ -519,35 +558,35 @@
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 18,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
-      "dest_warp_id": 2
+      "dest_warp_id": 3
     },
     {
       "x": 16,
       "y": 88,
       "elevation": 0,
       "dest_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 19,
       "y": 88,
       "elevation": 0,
       "dest_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
-      "dest_warp_id": 2
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
-      "x": 28,
-      "y": 92,
+      "x": 33,
+      "y": 98,
       "elevation": 3,
       "var": "VAR_CYCLING_CHALLENGE_STATE",
       "var_value": "2",
@@ -555,75 +594,12 @@
     },
     {
       "type": "trigger",
-      "x": 29,
-      "y": 92,
+      "x": 35,
+      "y": 98,
       "elevation": 3,
       "var": "VAR_CYCLING_CHALLENGE_STATE",
       "var_value": "2",
       "script": "Route110_EventScript_CyclingChallengeEnd"
-    },
-    {
-      "type": "trigger",
-      "x": 23,
-      "y": 54,
-      "elevation": 3,
-      "var": "VAR_ROUTE110_STATE",
-      "var_value": "0",
-      "script": "Route110_EventScript_RivalTrigger1"
-    },
-    {
-      "type": "trigger",
-      "x": 23,
-      "y": 55,
-      "elevation": 3,
-      "var": "VAR_ROUTE110_STATE",
-      "var_value": "0",
-      "script": "Route110_EventScript_RivalTrigger2"
-    },
-    {
-      "type": "trigger",
-      "x": 23,
-      "y": 54,
-      "elevation": 3,
-      "var": "VAR_ROUTE110_STATE",
-      "var_value": "0",
-      "script": "Route110_EventScript_RivalTrigger3"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 87,
-      "elevation": 3,
-      "var": "VAR_REGISTER_BIRCH_STATE",
-      "var_value": "1",
-      "script": "Route110_EventScript_BirchScene1"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 86,
-      "elevation": 3,
-      "var": "VAR_REGISTER_BIRCH_STATE",
-      "var_value": "1",
-      "script": "Route110_EventScript_BirchScene2"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 85,
-      "elevation": 3,
-      "var": "VAR_REGISTER_BIRCH_STATE",
-      "var_value": "1",
-      "script": "Route110_EventScript_BirchScene3"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 88,
-      "elevation": 3,
-      "var": "VAR_REGISTER_BIRCH_STATE",
-      "var_value": "1",
-      "script": "Route110_EventScript_BirchScene4"
     }
   ],
   "bg_events": [

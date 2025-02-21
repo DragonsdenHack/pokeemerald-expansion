@@ -19,7 +19,7 @@ PacifidlogTown_House1_Text_RegiStory:
 	.string "just a little kid.$"
 
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
-	.string "“Six dots open three doors.”\p"
-	.string "Grandpa used to say that, but I don't\n"
-	.string "know what he meant.$"
+	.string	"“Seis puntos abren tres puertas.”\p"
+	.string	"Es lo que repetía mi abuelo, pero no\n"
+	.string	"tengo ni idea de qué quería decir…{PAUSE 5}$"
 

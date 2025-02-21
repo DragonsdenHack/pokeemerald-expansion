@@ -119,10 +119,14 @@ Route117_EventScript_Derek::
 	msgbox Route117_Text_DerekPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route117_EventScript_Meg::
+	trainerbattle_double TRAINER_TRAINER_642, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons,
+	msgbox Route117_Text_MegPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
 Route117_EventScript_Anna::
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, Route117_Text_AnnaNotEnoughMons, Route117_EventScript_RegisterAnna
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route117_EventScript_RematchAnna
+	trainerbattle_double TRAINER_TRAINER_642, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, Route117_Text_AnnaNotEnoughMons,
 	msgbox Route117_Text_AnnaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -136,14 +140,6 @@ Route117_EventScript_RegisterAnna::
 Route117_EventScript_RematchAnna::
 	trainerbattle_rematch_double TRAINER_ANNA_AND_MEG_1, Route117_Text_AnnaRematchIntro, Route117_Text_AnnaRematchDefeat, Route117_Text_AnnaRematchNotEnoughMons
 	msgbox Route117_Text_AnnaPostRematch, MSGBOX_AUTOCLOSE
-	end
-
-Route117_EventScript_Meg::
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons, Route117_EventScript_RegisterMeg
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route117_EventScript_RematchMeg
-	msgbox Route117_Text_MegPostBattle, MSGBOX_DEFAULT
-	release
 	end
 
 Route117_EventScript_RegisterMeg::
@@ -179,20 +175,20 @@ Route117_Text_DayCarePokemonHadNewMove:
 	.string "I was really, really surprised.$"
 
 Route117_Text_ArentTheseFlowersPretty:
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string	"¿Qué me dices?\n"
+	.string	"¿Te gustan estas flores?\p"
+	.string	"¡Las he plantado yo!$"
 
 Route117_Text_AirIsTastyHere:
-	.string "The air is tasty here!$"
+	.string	"¡El aire de aquí está limpísimo!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string	"RUTA 117\n"
+	.string	"{LEFT_ARROW} PUEBLO VERDEGAL$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string	"RUTA 117\n"
+	.string	"{RIGHT_ARROW} CIUDAD MALVALONA$"
 
 Route117_Text_DayCareSign:
 	.string "POKÉMON DAY CARE\n"

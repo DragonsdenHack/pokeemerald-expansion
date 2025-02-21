@@ -12,26 +12,37 @@ delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Entrada_Unowns_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Entrada_Unowns_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Entrada_Unowns_Texto_1 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 addobject 6
 applymovement 6, RuinsOfAlph_S4_Entrada_Unowns_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Entrada_Unowns_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RuinsOfAlph_S4_Entrada_Unowns_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Entrada_Unowns_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, RuinsOfAlph_S4_Entrada_Unowns_Move_5
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Entrada_Unowns_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Entrada_Unowns_Move_2
 applymovement 6, RuinsOfAlph_S4_Entrada_Unowns_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 6, RuinsOfAlph_S4_Entrada_Unowns_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Entrada_Unowns_Texto_5 MSGBOX_AUTOCLOSE
 addobject 4
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Entrada_Unowns_Move_6
@@ -84,55 +95,46 @@ applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
 removeobject 2
 playse SE_EXIT
-waitse
 addobject 2
 applymovement 2, RuinsOfAlph_S4_Entrada_Unowns_Move_11
 waitmovement 0x0
@@ -328,6 +330,7 @@ step_end
 
 RuinsOfAlph_S4_Entrada_Unowns_Move_6:
 walk_left
+delay_16
 walk_in_place_down
 step_end
 
@@ -339,6 +342,7 @@ step_end
 
 RuinsOfAlph_S4_Entrada_Unowns_Move_8:
 walk_slow_left
+delay_16
 walk_in_place_right
 step_end
 
@@ -349,6 +353,7 @@ step_end
 
 RuinsOfAlph_S4_Entrada_Unowns_Move_10:
 walk_right
+delay_16
 walk_in_place_left
 step_end
 
@@ -372,6 +377,7 @@ step_end
 
 RuinsOfAlph_S4_Entrada_Unowns_Move_14:
 walk_left
+delay_16
 walk_in_place_right
 step_end
 

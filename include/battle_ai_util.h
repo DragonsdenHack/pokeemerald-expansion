@@ -36,6 +36,7 @@ u16 AI_GetHoldEffect(u32 battlerId);
 u32 AI_GetMoveAccuracy(u8 battlerAtk, u8 battlerDef, u16 atkAbility, u16 defAbility, u8 atkHoldEffect, u8 defHoldEffect, u16 move);
 bool32 DoesBattlerIgnoreAbilityChecks(u16 atkAbility, u16 move);
 bool32 AI_WeatherHasEffect(void);
+u32 AI_GetBattlerMoveTargetType(u8 battlerId, u16 move);
 bool32 CanAIFaintTarget(u8 battlerAtk, u8 battlerDef, u8 numHits);
 bool32 CanIndexMoveFaintTarget(u8 battlerAtk, u8 battlerDef, u8 index, u8 numHits);
 bool32 AI_IsTerrainAffected(u8 battlerId, u32 flags);
@@ -60,6 +61,7 @@ bool32 IsAbilityOfRating(u16 ability, s8 rating);
 s8 GetAbilityRating(u16 ability);
 bool32 AI_IsAbilityOnSide(u32 battlerId, u32 ability);
 bool32 AI_MoveMakesContact(u32 ability, u32 holdEffect, u16 move);
+bool32 ShouldUseZMove(u8 battlerAtk, u8 battlerDef, u32 chosenMove);
 
 // stat stage checks
 bool32 AnyStatIsRaised(u8 battlerId);
@@ -80,7 +82,7 @@ bool32 ShouldLowerEvasion(u8 battlerAtk, u8 battlerDef, u16 defAbility);
 // move checks
 bool32 IsAffectedByPowder(u8 battler, u16 ability, u16 holdEffect);
 bool32 MovesWithSplitUnusable(u32 attacker, u32 target, u32 split);
-s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef);
+s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef, u8 *typeEffectiveness, bool32 considerZPower);
 u8 GetMoveDamageResult(u16 move);
 u32 GetCurrDamageHpPercent(u8 battlerAtk, u8 battlerDef);
 u16 AI_GetTypeEffectiveness(u16 move, u8 battlerAtk, u8 battlerDef);

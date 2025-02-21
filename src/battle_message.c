@@ -30,6 +30,7 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
+#include "battle_z_move.h"
 
 struct BattleWindowText
 {
@@ -47,7 +48,7 @@ struct BattleWindowText
 
 static void ChooseMoveUsedParticle(u8 *textPtr);
 static void ChooseTypeOfMoveUsedString(u8 *dst);
-static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst);
+
 
 static EWRAM_DATA u16 sBattlerAbilities[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA struct BattleMsgData *gBattleMsgDataPtr = NULL;
@@ -425,8 +426,22 @@ static const u8 sText_ExclamationMark2[] = _("!");
 static const u8 sText_ExclamationMark3[] = _("!");
 static const u8 sText_ExclamationMark4[] = _("!");
 static const u8 sText_ExclamationMark5[] = _("!");
-static const u8 sText_Accuracy[] = _("accuracy");
-static const u8 sText_Evasiveness[] = _("evasiveness");
+static const u8 sText_HP[] = _("PS");
+static const u8 sText_Attack[] = _("ATAQUE");
+static const u8 sText_Defense[] = _("DEFENSA");
+static const u8 sText_Speed[] = _("VELOCIDAD");
+static const u8 sText_SpAttack[] = _("AT. ESP.");
+static const u8 sText_SpDefense[] = _("DEF. ESP.");
+static const u8 sText_Accuracy[] = _("PRECISIÓN");
+static const u8 sText_Evasiveness[] = _("EVASIÓN");
+static const u8 sText_ZPowerSurrounds[] = _("¡{B_ATK_NAME_WITH_PREFIX} se envuelve\nen un halo de Poder Z!");
+static const u8 sText_ZPowerUnleashed[] = _("¡{B_ATK_NAME_WITH_PREFIX} despliega toda su\nfuerza para ejecutar un movimiento Z!");
+static const u8 sText_ZMoveResetsStats[] = _("¡Las estadísticas de {B_SCR_ACTIVE_NAME_WITH_PREFIX} regresan\na la normalidad usando su Poder Z!");
+static const u8 sText_ZMoveAllStatsUp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó\ntodas sus estadísticas usando su Poder Z!");
+static const u8 sText_ZMoveBoostCrit[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó su\nratio de crítico usando su Poder Z!");
+static const u8 sText_ZMoveRestoreHp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} restauró sus PS\nusando su Poder Z!");
+static const u8 sText_ZMoveStatUp[] = _("¡{B_SCR_ACTIVE_NAME_WITH_PREFIX} aumentó\nsus estadísticas usando su Poder Z!");
+static const u8 sText_ZMoveHpSwitchInTrap[] = _("¡Los PS de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nfueron restaurados usando su Poder Z!");
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
@@ -734,7 +749,15 @@ static const u8 sText_NeutralizingGasOver[] = _("The effects of Neutralizing\nGa
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 {
-    [STRINGID_NEUTRALIZINGGASOVER - 12] = sText_NeutralizingGasOver,
+    [STRINGID_ZPOWERSURROUNDS - 12] = sText_ZPowerSurrounds,
+    [STRINGID_ZMOVEUNLEASHED - 12] = sText_ZPowerUnleashed,
+    [STRINGID_ZMOVERESETSSTATS - 12] = sText_ZMoveResetsStats,
+    [STRINGID_ZMOVEALLSTATSUP - 12] = sText_ZMoveAllStatsUp,
+    [STRINGID_ZMOVEZBOOSTCRIT - 12] = sText_ZMoveBoostCrit,
+    [STRINGID_ZMOVERESTOREHP - 12] = sText_ZMoveRestoreHp,
+    [STRINGID_ZMOVESTATUP - 12] = sText_ZMoveStatUp,
+    [STRINGID_ZMOVEHPTRAP - 12] = sText_ZMoveHpSwitchInTrap,
+	[STRINGID_NEUTRALIZINGGASOVER - 12] = sText_NeutralizingGasOver,
     [STRINGID_NEUTRALIZINGGASENTERS - 12] = sText_NeutralizingGasEnters,
     [STRINGID_BATTLERTYPECHANGEDTO - 12] = sText_BattlerTypeChangedTo,
     [STRINGID_PASTELVEILENTERS - 12] = sText_PastelVeilEnters,
@@ -781,6 +804,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_FETCHEDPOKEBALL - 12] = sText_FetchedPokeBall,
     [STRINGID_STATWASNOTLOWERED - 12] = sText_StatWasNotLowered,
     [STRINGID_CLOAKEDINAFREEZINGLIGHT - 12] = sText_CloakedInAFreezingLight,
+	[STRINGID_METEORBEAM - 12] = sText_PkmnAbsorbingPower,
     [STRINGID_DESTINYKNOTACTIVATES - 12] = sText_DestinyKnotActivates,
     [STRINGID_NOONEWILLBEABLETORUNAWAY - 12] = sText_NoOneWillBeAbleToRun,
     [STRINGID_PKNMABSORBINGPOWER - 12] = sText_PkmnAbsorbingPower,
@@ -1332,6 +1356,17 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_CANTESCAPEBECAUSEOFCURRENTMOVE - 12] = sText_CantEscapeBecauseOfCurrentMove,
 };
 
+const u16 gZEffectStringIds[] = 
+{
+    [B_MSG_Z_RESET_STATS] = STRINGID_ZMOVERESETSSTATS,
+    [B_MSG_Z_ALL_STATS_UP]= STRINGID_ZMOVEALLSTATSUP,
+    [B_MSG_Z_BOOST_CRITS] = STRINGID_ZMOVEZBOOSTCRIT,
+    [B_MSG_Z_FOLLOW_ME]   = STRINGID_PKMNCENTERATTENTION,
+    [B_MSG_Z_RECOVER_HP]  = STRINGID_ZMOVERESTOREHP,
+    [B_MSG_Z_STAT_UP]     = STRINGID_ZMOVESTATUP,
+    [B_MSG_Z_HP_TRAP]     = STRINGID_ZMOVEHPTRAP,
+};
+
 const u16 gMentalHerbCureStringIds[] = 
 {
     [B_MSG_MENTALHERBCURE_INFATUATION] = STRINGID_ATKGOTOVERINFATUATION,
@@ -1544,6 +1579,7 @@ const u16 gFirstTurnOfTwoStringIds[] =
     [B_MSG_TURN1_PHANTOM_FORCE] = STRINGID_VANISHEDINSTANTLY,
     [B_MSG_TURN1_GEOMANCY]      = STRINGID_PKNMABSORBINGPOWER,
     [B_MSG_TURN1_FREEZE_SHOCK]  = STRINGID_CLOAKEDINAFREEZINGLIGHT,
+	[B_MSG_TURN1_METEOR_BEAM]   = STRINGID_METEORBEAM,
 };
 
 // Index copied from move's index in sTrappingMoves
@@ -2684,7 +2720,9 @@ void BufferStringBattle(u16 stringID)
             }
             else
             {
-                if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_AVES || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ANCIENT || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ESENCIA)
+					stringPtr = sText_EmptyString8;
+				else if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK)))
                     stringPtr = sText_Trainer1SentOutPkmn;
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
                     stringPtr = sText_Trainer1SentOutPkmn;
@@ -2770,7 +2808,9 @@ void BufferStringBattle(u16 stringID)
         }
         break;
     case STRINGID_USEDMOVE: // pokemon used a move msg
-        if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
+        if (gBattleStruct->zmove.active && gBattleStruct->zmove.activeSplit != SPLIT_STATUS)
+            StringCopy(gBattleTextBuff3, GetZMoveName(gBattleMsgDataPtr->currentMove));
+        else if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
             StringCopy(gBattleTextBuff3, sATypeMove_Table[*(&gBattleStruct->stringMoveType)]);
         else
             StringCopy(gBattleTextBuff3, gMoveNames[gBattleMsgDataPtr->currentMove]);
@@ -3198,13 +3238,17 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 HANDLE_NICKNAME_STRING_CASE(gBattleScripting.battler)
                 break;
             case B_TXT_CURRENT_MOVE: // current move name
-                if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
+                if (gBattleStruct->zmove.active)
+                    toCpy = GetZMoveName(gBattleMsgDataPtr->currentMove);
+                else if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
                     toCpy = sATypeMove_Table[gBattleStruct->stringMoveType];
                 else
                     toCpy = gMoveNames[gBattleMsgDataPtr->currentMove];
                 break;
             case B_TXT_LAST_MOVE: // originally used move name
-                if (gBattleMsgDataPtr->originallyUsedMove >= MOVES_COUNT)
+                if (gBattleStruct->zmove.active)
+                    toCpy = GetZMoveName(gBattleMsgDataPtr->originallyUsedMove);
+                else if (gBattleMsgDataPtr->originallyUsedMove >= MOVES_COUNT)
                     toCpy = sATypeMove_Table[gBattleStruct->stringMoveType];
                 else
                     toCpy = gMoveNames[gBattleMsgDataPtr->originallyUsedMove];
@@ -3534,7 +3578,7 @@ static void IllusionNickHack(u32 battlerId, u32 partyId, u8 *dst)
     GetMonData(mon, MON_DATA_NICKNAME, dst);
 }
 
-static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
+void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
 {
     u32 srcID = 1;
     u32 value = 0;

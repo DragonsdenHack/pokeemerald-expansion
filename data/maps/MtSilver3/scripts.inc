@@ -32,31 +32,46 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, MtSilver3_Combate_Rojo_Move_2
 waitmovement 0x0
 msgbox MtSilver3_Combate_Rojo_Texto_3 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MemorialPillar_Move_2.1
 applymovement 2, MtSilver3_Combate_Rojo_Move_3
 waitmovement 0x0
+special RemoveCameraObject
 delay 15
 msgbox MtSilver3_Combate_Rojo_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MtSilver3_Combate_Rojo_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, MtSilver3_Combate_Rojo_Move_4
 waitmovement 0x0
+delay 10
 msgbox MtSilver3_Combate_Rojo_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, MtSilver3_Combate_Rojo_Move_5
 waitmovement 0x0
+delay 10
 msgbox MtSilver3_Combate_Rojo_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, MtSilver3_Combate_Rojo_Move_4
 waitmovement 0x0
+delay 10
 msgbox MtSilver3_Combate_Rojo_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtSilver3_Combate_Rojo_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MtSilver3_Combate_Rojo_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MtSilver3_Combate_Rojo_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, MtSilver3_Combate_Rojo_Move_6
 waitmovement 0x0
+delay 10
 msgbox MtSilver3_Combate_Rojo_Texto_11 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MemorialPillar_Move_2.2
 applymovement 2, MtSilver3_Combate_Rojo_Move_7
 waitmovement 0x0
+special RemoveCameraObject
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 removeobject 2
 playse SE_EXIT
@@ -64,6 +79,16 @@ setvar VAR_UNUSED_0x40F7, 157
 setvar VAR_RECYCLE_GOODS, 1
 release
 end
+
+MemorialPillar_Move_2.1:
+walk_down
+walk_down
+step_end
+
+MemorialPillar_Move_2.2:
+walk_up
+walk_up
+step_end
 
 MtSilver3_Combate_Rojo_2::
 msgbox MtSilver3_Combate_Rojo_Texto_1 MSGBOX_AUTOCLOSE
@@ -161,11 +186,6 @@ face_down
 step_end
 
 MtSilver3_Combate_Rojo_Move_7:
-walk_slow_down
-walk_slow_down
-walk_slow_down
-walk_slow_down
-walk_slow_down
 walk_slow_down
 walk_slow_down
 walk_slow_down

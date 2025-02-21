@@ -348,20 +348,42 @@ Route51HouseDocumento_Text_100Yes17:
 	.string "state with his POKÉMON.$"
 
 Route51HouseDocumento_Text_100Yes18:
-	.string "November 17th, 1997: The ESSENCE\n"
-	.string "POKÉMON, along with the two creators of\l"
-	.string "all known and unknown, are awakened by\l"
-	.string "the current LEADER of the LAVENDER\l"
-	.string "CULT. The three POKÉMON,\l"
-	.string "representatives of the absolute limit\l"
-	.string "of what a POKÉMON can achieve, become\l"
-	.string "earthly beings at the moment they are\l"
-	.string "handled by the imperfection of a human.\l"
-	.string "Once omnipotent in the wild, now as\l"
-	.string "three POKÉMON within a regulated\l"
-	.string "battle. Such allowed the young TRAINER\l"
-	.string "to compete, who with his POKÉMON in\l"
-	.string "total harmony and at the peak of their\l"
-	.string "possibilities, achieves the impossible\l"
-	.string "of prevailing over the three POKÉMON,\l"
-	.string "who return to their eternal slumber.$"
+    .string "17 de Noviembre de 1997: El\n"
+	.string "POKÉMON ESENCIA, junto con los 2\l"
+	.string "creadores de todo lo conocido y\l"
+	.string "por conocer, son despertdos por\l"
+	.string "el actual LÍDER del CULTO LAVANDA.\l"
+	.string "Los 3 POKÉMON, representantes del\l"
+	.string "límite absoluto a lo que un\l"
+	.string "POKÉMON puede alcanzar, se vuelven\l"
+	.string "terrenales en el momento en el que\l"
+	.string "son manejados por la imperfección\l"
+	.string "de un humano, siendo omnipotentes\l"
+	.string "en estado salvaje, ahora como 3\l"
+	.string "POKÉMON más dentro de un combate\l"
+	.string "reglado, le da la oportunidad al\l"
+	.string "joven ENTRENADOR de poder\l"
+	.string "competir, quién con sus POKÉMON en\l"
+	.string "total armonía y pico máximo de sus\l"
+	.string "posibilidades, logra el imposible\l"
+	.string "de imponerse por sobre los 3\l"
+	.string "POKÉMON, que vuelven a su eterno\l"
+	.string "letargo.$"
+
+
+Route51House_NPC3_Exorcista::
+lock     
+faceplayer     
+msgbox Route51House_NPC3_Exorcista_Text_1, MSGBOX_DEFAULT
+release     
+end
+
+Route51House_NPC3_Exorcista_Text_1:
+	.string "Considera un grano de arena apilado\n"
+	.string "sobre otros granos de arena, que\l"
+	.string "enseguida serán cubiertos por nuevos\l"
+	.string "granos de arena. Así ocurre en la vida,\l"
+	.string "unos eventos apilados sobre otros que\l"
+	.string "en breve serán cubiertos por eventos\l"
+	.string "nuevos.$"
+

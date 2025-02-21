@@ -58,6 +58,9 @@ PokemonLeague_BrunosRoom_EventScript_Bruno::
 
 PokemonLeague_2F_Combate_Bruno::
 msgbox PokemonLeague_2F_Combate_Bruno_Texto_2
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+delay 10
+msgbox PokemonLeague_2F_Combate_Bruno_Texto_2.1
 return
 
 PokemonLeague_BrunosRoom_EventScript_Battle::
@@ -90,16 +93,21 @@ PokemonLeague_2F_Combate_Bruno_Texto_1:
 	.string "end, ROCKET.$"
 
 PokemonLeague_2F_Combate_Bruno_Texto_2:
-.string "YOU!\n"
-	.string "Don't think that I forgot who you are,\l"
-	.string "you are so lucky that mocking TEAM\l"
-	.string "ROCKET is trendy! The best disguise is\l"
-	.string "the one that reveals your true self,\l"
-	.string "huh? I could disrupt the LEAGUE by\l"
-	.string "exposing your identity, but I won't\l"
-	.string "because this time, you won't escape, I'll\l"
-	.string "unleash all my power and crush you right\l"
-	.string "here before taking you under arrest!$"
+.string "¡TÚ!\n"
+	.string "¡No creas que me he olvidado de tu\l"
+	.string "cara, tienes suerte de que esté de\l"
+	.string "moda ridiculizar al TEAM ROCKET!\l"
+	.string "La mejor máscara es la que muestra\l"
+	.string "tu verdadera cara, ¿eh?\l"
+	.string "Podría poner la LIGA patas arriba\l"
+	.string "si doy la alarma de quién eres,\l"
+	.string "pero no lo haré, esta vez no vas a\l"
+	.string "escapar.$"
+
+PokemonLeague_2F_Combate_Bruno_Texto_2.1:
+    .string "¡Usaré todo mi poder y te aplastaré\n"
+	.string "aquí mismo antes de llevarte preso!$"
+
 
 PokemonLeague_2F_Combate_Bruno_Texto_4:
 .string "What?\n"

@@ -276,7 +276,7 @@ BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
 	.string "The BATTLE PYRAMID's too harsh!\n"
 	.string "I just can't make it to the top!\p"
 	.string "Since I'm out of options, maybe I can\n"
-	.string "climb the outside…$"
+	.string "climb the outside…{PAUSE 5}$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
 	.string "I thrive in darkness…\n"
@@ -306,7 +306,7 @@ BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
 	.string "tasty treats you like if you win!$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
-	.string "ZIGZAGOON looks vacant…$"
+	.string "ZIGZAGOON looks vacant…{PAUSE 5}$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "People call me a busybody,\n"
@@ -315,7 +315,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "Oh, no, trash on the ground!\l"
 	.string "Oops, it's almost dinnertime!\p"
 	.string "I don't know if I can stand to just\n"
-	.string "watch at the BATTLE PALACE…$"
+	.string "watch at the BATTLE PALACE…{PAUSE 5}$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "I may not look that impressive now,\n"
@@ -416,7 +416,7 @@ BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "have been invited, it seems.\p"
 	.string "That man SCOTT…\p"
 	.string "He may have built this place to serve\n"
-	.string "a bigger objective…$"
+	.string "a bigger objective…{PAUSE 5}$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
 	.string "Excuse me, young one.\n"

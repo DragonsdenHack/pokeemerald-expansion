@@ -6,6 +6,7 @@
 LittlerootTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_OnWarp
 	.byte 0
 
@@ -107,9 +108,10 @@ LittlerootTown_EventScript_SetMomInFrontOfDoorFemale::
 	return
 
 LittlerootTown_OnFrame:
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 1, LittlerootTown_EventScript_StepOffTruckMale
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 2, LittlerootTown_EventScript_StepOffTruckFemale
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_BeginDexUpgradeScene
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_StepOffTruckMale
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_StepOffTruckFemale
+	map_script_2 VAR_UNUSED_0x40F8, 57, LittlerootTown_Final
+	map_script_2 VAR_UNUSED_0x40F8, 257, LittlerootTown_EventScript_BeginDexUpgradeScene
 	.2byte 0
 
 LittlerootTown_EventScript_StepOffTruckMale::
@@ -1018,4 +1020,54 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
+
+LittlerootTown_Final_Move_1:
+walk_right
+face_up
+step_end
+
+LittlerootTown_Final_Move_2:
+walk_up
+step_end
+
+LittlerootTown_Final_Move_3:
+walk_slow_right
+walk_slow_right
+step_end
+
+LittlerootTown_Final::
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LittlerootTown_Final_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_49 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_50 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_51 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PalletTown_Laboratorio_S6_Combate_Ganado_Texto_52 MSGBOX_AUTOCLOSE
+applymovement 9, LittlerootTown_Final_Move_1
+applymovement 4, LittlerootTown_Final_Move_2
+waitmovement 0x0
+delay 15
+playse SE_DOOR
+opendoor 4, 8
+waitdooranim
+applymovement 9, LittlerootTown_Final_Move_2
+applymovement 4, LittlerootTown_Final_Move_2
+waitmovement 0x0
+removeobject 4
+applymovement 9, LittlerootTown_Final_Move_2
+waitmovement 0x0
+removeobject 9
+closedoor 4, 8
+waitdooranim
+delay 50
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+warpsilent MAP_NEWBARK_ELM_LABORATORY, 6, 0
+delay 100
+release
+end
 

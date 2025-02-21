@@ -10,14 +10,15 @@ SilphCo_2F_OnLoad:: @ 8161647
 Chica_Iman::
 lock
 faceplayer
-compare VAR_ROUTE130_STATE, 0
+compare VAR_ROUTE130_STATE, 1
 goto_if_gt Chica_Iman_2
 msgbox Chica_Iman_Texto_1 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
 waitfanfare
 giveitem ITEM_MAGNET
 delay 10
-setvar VAR_ROUTE130_STATE, 1
+setvar VAR_ROUTE130_STATE, 2
+release
 end
 
 Chica_Iman_2::

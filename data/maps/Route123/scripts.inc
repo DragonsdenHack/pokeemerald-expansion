@@ -58,9 +58,7 @@ Route123_EventScript_Violet::
 	end
 
 Route123_EventScript_Cameron::
-	trainerbattle_single TRAINER_TRAINER_291, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Route123_EventScript_RegisterCameron
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route123_EventScript_RematchCameron
+	trainerbattle_single TRAINER_TRAINER_291, Route123_Text_CameronIntro, Route123_Text_CameronDefeat,
 	msgbox Route123_Text_CameronPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -98,12 +96,12 @@ Route123_EventScript_RematchJacki::
 	end
 
 Route123_EventScript_Miu::
-	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_MiuIntro, Route123_Text_MiuDefeat, Route123_Text_MiuNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_644, Route123_Text_MiuIntro, Route123_Text_MiuDefeat, Route123_Text_MiuNotEnoughMons
 	msgbox Route123_Text_MiuPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Yuki::
-	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_YukiIntro, Route123_Text_YukiDefeat, Route123_Text_YukiNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_644, Route123_Text_YukiIntro, Route123_Text_YukiDefeat, Route123_Text_YukiNotEnoughMons
 	msgbox Route123_Text_YukiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -182,13 +180,15 @@ Route123_Text_CheckTreesWithMyGrassMon:
 	.string "POKÉMON. I'm like a tree doctor.$"
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} ROUTE 123\n"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string	"{RIGHT_ARROW} RUTA 123\n"
+	.string	"{LEFT_ARROW} RUTA 118$"
 
 Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} MT. PYRE\n"
-	.string "“Forbidden to the faint of heart.”$"
+	.string	"{UP_ARROW} MONTE PÍRICO\n"
+	.string	"“Prohibido el paso a los cobardicas.”$"
 
 Route123_Text_BerryMastersHouse:
-	.string "BERRY MASTER'S HOUSE$"
+	.string	"CASA del BAYÓLOGO$"
+
+
 

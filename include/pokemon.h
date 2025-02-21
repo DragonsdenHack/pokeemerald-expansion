@@ -239,7 +239,7 @@ struct BaseStats
 struct BattleMove
 {
     u16 effect;
-    u8 power;
+    u16 power;
     u8 type;
     u8 accuracy;
     u8 pp;
@@ -249,6 +249,8 @@ struct BattleMove
     u32 flags;
     u8 split;
     u8 argument;
+	u8 zMovePower;
+    u8 zMoveEffect;
 };
 
 struct SpindaSpot
@@ -277,6 +279,19 @@ struct FormChange {
     u16 param2;
 };
 
+struct Fusion
+{
+    u16 fusionStorageIndex;
+    u16 itemId;
+    u16 targetSpecies1;
+    u16 targetSpecies2;
+    u16 fusingIntoMon;
+    u16 fusionMove;
+    u16 unfuseForgetMove;
+};
+
+extern const struct Fusion *const gFusionTablePointers[NUM_SPECIES];
+
 #define NUM_UNOWN_FORMS 28
 
 #define GET_UNOWN_LETTER(personality) ((   \
@@ -301,6 +316,7 @@ extern const struct BaseStats gBaseStats[];
 extern const u8 *const gItemEffectTable[];
 extern const u32 gExperienceTables[][MAX_LEVEL + 1];
 extern const struct LevelUpMove *const gLevelUpLearnsets[];
+extern const u16 *const gTeachableLearnsets[];
 extern const u8 gPPUpGetMask[];
 extern const u8 gPPUpClearMask[];
 extern const u8 gPPUpAddValues[];
@@ -414,8 +430,7 @@ u8 CheckPartyHasHadPokerus(struct Pokemon *party, u8 selection);
 void UpdatePartyPokerusTime(u16 days);
 void PartySpreadPokerus(struct Pokemon *party);
 bool8 TryIncrementMonLevel(struct Pokemon *mon);
-u32 CanMonLearnTMHM(struct Pokemon *mon, u8 tm);
-u32 CanSpeciesLearnTMHM(u16 species, u8 tm);
+u8 CanLearnTeachableMove(u16 species, u16 move);
 u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves);
 u8 GetLevelUpMovesBySpecies(u16 species, u16 *moves);
 u8 GetNumberOfRelearnableMoves(struct Pokemon *mon);
@@ -461,5 +476,6 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 managerId, u8 spriteNum);
 u16 GetFormSpeciesId(u16 speciesId, u8 formId);
 u8 GetFormIdFromFormSpeciesId(u16 formSpeciesId);
 u16 GetFormChangeTargetSpecies(struct Pokemon *mon, u16 method, u32 arg);
+u16 GetFormChangeTargetSpeciesBoxMon(struct BoxPokemon *mon, u16 method, u32 arg);
 
 #endif // GUARD_POKEMON_H

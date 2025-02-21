@@ -99,7 +99,6 @@ Route118_EventScript_StevenTrigger::
 	call_if_eq VAR_0x8008, 0, Route118_EventScript_StevenExit0
 	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
 	call_if_eq VAR_0x8008, 2, Route118_EventScript_StevenExit2
-	setvar VAR_ROUTE118_STATE, 1
 	removeobject LOCALID_STEVEN
 	releaseall
 	end
@@ -259,22 +258,22 @@ Route118_Text_StevenQuestions:
 	.string "again somewhere.$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string	"¡Ajá!\n"
+	.string	"¡Una CAÑA BUENA es genial!\p"
+	.string	"¿O no?$"
 
 Route118_Text_IdenticalMindsTakeThis:
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string	"¡Ajá!\n"
+	.string	"¡Pensamos lo mismo!\p"
+	.string	"Pues…\n"
+	.string	"¡Toma esta CAÑA BUENA!$"
 
 Route118_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string	"Prueba tu suerte pescando cada vez\n"
+	.string	"que veas un poco de agua.$"
 
 Route118_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string	"¿No te gusta pescar?$"
 
 Route118_Text_TryCatchingMonWithGoodRod:
 	.string "Try catching all sorts of POKÉMON\n"
@@ -288,10 +287,22 @@ Route118_Text_CanCrossRiversWithSurf:
 	.string "much!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string	"RUTA 118\n"
+	.string	"{LEFT_ARROW} CIUDAD MALVALONA$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string	"RUTA 118\n"
+	.string	"{UP_ARROW} RUTA 119$"
+
+Route118_Kecleon::
+lock
+playmoncry SPECIES_KECLEON, CRY_MODE_ENCOUNTER
+msgbox Route118_Kecleon_Texto_1 MSGBOX_SIGN
+release
+end
+
+Route118_Kecleon_Texto_1:
+	.string "Estos KECLEON no parecen tener\n"
+	.string "intención de irse.$"
+
 

@@ -1,6 +1,13 @@
 MauvilleCity_House2_MapScripts::
 	.byte 0
 
+MauvilleCity_House2_EventScript_Chica::
+lock
+faceplayer
+msgbox MauvilleCity_House2_Text_BuyHarborMailAtSlateport MSGBOX_AUTOCLOSE
+release
+end
+
 MauvilleCity_House2_EventScript_Woman::
 	lock
 	faceplayer

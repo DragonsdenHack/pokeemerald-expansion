@@ -197,29 +197,45 @@ special RemoveCameraObject
 applymovement 10, LavenderRadioP6_Reunion_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP6_Reunion_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP6_Reunion_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_7
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, LavenderRadioP6_Reunion_Move_10
 waitmovement 0x0
+delay 5
 applymovement 10, LavenderRadioP6_Reunion_Move_11
 applymovement 5, LavenderRadioP6_Reunion_Move_8
 waitmovement 0x0
@@ -230,6 +246,7 @@ waitmovement 0x0
 delay 15
 msgbox LavenderRadioP6_Reunion_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
 fadescreen 1
 delay 20
@@ -388,8 +405,10 @@ applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_3.1
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_3 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_5
@@ -401,6 +420,8 @@ delay 10
 playse SE_BREAKABLE_DOOR
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_6
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
 waitmovement 0x0
@@ -410,22 +431,33 @@ delay 20
 playse SE_PIN
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_7
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Combate_Bill_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, LavenderRadioP6_Combate_Bill_Move_10
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2
 removeobject 1
 playse SE_EXIT
@@ -435,6 +467,7 @@ end
 
 LavenderRadioP6_Combate_Bill_Move_3.1:
 walk_slow_left
+delay_16
 walk_slow_down
 step_end
 
@@ -583,17 +616,30 @@ delay 20
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_8
 waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
@@ -609,9 +655,20 @@ setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 clearflag FLAG_NUEVA_839
 removeobject 3
 playse SE_EXIT
+waitse
 setvar VAR_UNUSED_0x40F7, 214
 release
 end
+
+LavenderRadioP6_Encuentro_Andra_Move_4.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_16
+walk_in_place_right
+step_end
 
 LavenderRadioP6_Encuentro_Andra_Move_9:
 walk_in_place_right
@@ -681,18 +738,21 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.2:
 	.string "resolved.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.3:
-	.string "Honestly, I think all these sudden\n"
-	.string "changes are blinding us all a little. And\l"
-	.string "all this talk about radio waves, it\l"
-	.string "makes me uneasy{PAUSE 15}…$"
+.string "Sinceramente, creo que todos estos\n"
+	.string "cambios tan repentinos nos están\l"
+	.string "cegando un poco a todos.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2.4:
+	.string "Y todo esto de las ondas de radio, a\n"
+	.string "mí me genera inquietud{PAUSE 5}…{PAUSE 5}$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
-	.string "We've been in this situation many times\n"
-	.string "before, {PLAYER}. Being expectant,\l"
-	.string "about to experience something without\l"
-	.string "having any idea what will happen, that\l"
-	.string "uncertainty{PAUSE 15}…$"
+.string "Ya hemos estado en esta situación\n"
+	.string "muchas veces, {PLAYER}. Estar\l"
+	.string "expectante, a punto de vivir algo sin\l"
+	.string "tener ni idea de qué ocurrirá, esa\l"
+	.string "incertidumbre{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_4:
 	.string "But this time, I have a feeling it will be\n"

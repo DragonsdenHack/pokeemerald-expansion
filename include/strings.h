@@ -53,6 +53,11 @@ extern const u8 gText_Key_Items[];
 extern const u8 gText_Poke_Balls[];
 extern const u8 gText_TMs_Hms[];
 extern const u8 gText_Berries2[];
+extern const u8 gText_Medicine[];
+extern const u8 gText_BattleItems[];
+extern const u8 gText_Treasures[];
+
+extern const u8 gText_Version[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];
@@ -487,6 +492,7 @@ extern const u8 gText_PkmnBaseVar2StatIncreased[];
 extern const u8 gText_MovesPPIncreased[];
 extern const u8 gText_PPWasRestored[];
 extern const u8 gText_WontHaveEffect[];
+extern const u8 gText_NextFusionMon[];
 extern const u8 gText_PkmnSnappedOutOfConfusion[];
 extern const u8 gText_PkmnFriendlyBaseVar2Fell[];
 extern const u8 gText_PkmnFriendlyBaseVar2CantFall[];
@@ -2775,6 +2781,7 @@ extern const u8 gJPText_DecideStop[];
 extern const u8 gText_WonderCards[];
 extern const u8 gText_WonderNews[];
 extern const u8 gText_Dlc[];
+extern const u8 gText_Hoenn2[];
 extern const u8 gText_Exit3[];
 extern const u8 gText_WirelessCommunication[];
 extern const u8 gText_Friend2[];
@@ -2864,6 +2871,8 @@ extern const u8 gText_PostgameKanto5[];
 extern const u8 gText_PostgameKanto6[];
 extern const u8 gText_PostgameKanto7[];
 extern const u8 gText_PostgameKanto8[];
+extern const u8 gText_PostgameKanto9[];
+extern const u8 gText_PostgameKanto10[];
 extern const u8 gText_Final[];
 extern const u8 gText_ComoFunciona2[];
 extern const u8 gText_ComoFunciona3[];
@@ -3063,6 +3072,14 @@ extern const u8 gText_Oshawott[];
 extern const u8 gText_Chimchar[];
 extern const u8 gText_Jangmo[];
 
+// Venta Base Kanto Sala Ejecutivos
+extern const u8 gText_Buneary[];
+extern const u8 gText_Croagunk[];
+extern const u8 gText_Budew[];
+extern const u8 gText_Hippopotas[];
+extern const u8 gText_Shieldon[];
+extern const u8 gText_Larvitar[];
+
 // Venta Base Johto
 extern const u8 gText_Fletching[];
 extern const u8 gText_Mudbray[];
@@ -3112,7 +3129,23 @@ extern const u8 gText_Teddiursa[];
 extern const u8 gText_Shuckle[];
 extern const u8 gText_Sudowoodo[];
 extern const u8 gText_Cyndaquil[];
-extern const u8 gText_Larvitar[];
+extern const u8 gText_Hitmontop[];
+
+// Venta Pokemon Malvalona
+extern const u8 gText_Trubbish[];
+extern const u8 gText_Glameow[];
+extern const u8 gText_Stunky[];
+extern const u8 gText_Blitzle[];
+extern const u8 gText_Purrloin[];
+extern const u8 gText_Treecko[];
+
+// Ascensos
+extern const u8 gText_Recluta[];
+extern const u8 gText_AltoRango[];
+extern const u8 gText_Ejecutivo[];
+extern const u8 gText_Admin[];
+extern const u8 gText_AdminJefe[];
+extern const u8 gText_Jefe[];
 
 // Islas
 extern const u8 gText_Carmin[];

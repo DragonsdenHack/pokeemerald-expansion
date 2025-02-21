@@ -138,18 +138,23 @@ faceplayer
 compare VAR_VERDANTURF_TOWN_STATE, 17
 goto_if_gt CianwoodEusineHouse_Dialogo_Post_Mision_2
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4 MSGBOX_AUTOCLOSE
 delay 40
 applymovement 1, CianwoodEusineHouse_Combate_Move_4
 waitmovement 0x0
+delay 20
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, CianwoodEusineHouse_Combate_Move_1
 waitmovement 0x0
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7 MSGBOX_AUTOCLOSE
-delay 20
+delay 40
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_VERDANTURF_TOWN_STATE, 18
 addvar VAR_UNUSED_0x40F7, 1

@@ -732,7 +732,7 @@ lock
 compare VAR_UNUSED_0x40F7, 206
 goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_GHOST_PRIMAL, 10, 3  
-playmoncry SPECIES_GHOST, CRY_MODE_ENCOUNTER 
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_123, MSGBOX_DEFAULT
 hidemonpic
 release     
@@ -762,7 +762,7 @@ BaseRocketHoennS3Documento_124::
 lock
 compare VAR_ROUTE105_STATE, 13
 goto_if_lt RocketHideout7FDocumento_Esperando  
-showmonpic SPECIES_TOXTRICITY, 10, 3  
+showmonpic SPECIES_TOXTRICITY_MEGA, 10, 3  
 playmoncry SPECIES_TOXTRICITY, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_124, MSGBOX_DEFAULT
 hidemonpic

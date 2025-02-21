@@ -314,3 +314,35 @@ CuevaTesoro4_Combate_Guzzlord::
 	release
 	end
 
+CuevaTesoro4_Cascada::
+lock
+msgbox CuevaTesoro4_Cascada_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+CuevaTesoro4_Cascada_Texto_1:
+.string "Esta cascada no conduce\l"
+.string "a ninguna parte{PAUSE 5}…{PAUSE 5}$"
+
+
+CuevaTesoro4_Combate_Stakataka::
+	lock
+	playmoncry SPECIES_STAKATAKA, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_STAKATAKA, 70, ITEM_NONE
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special StartRegiBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, CuevaTesoro4_Combate_Guzzlord_2
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, CuevaTesoro4_Combate_Guzzlord_2
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, CuevaTesoro4_Combate_Guzzlord_2
+	setflag FLAG_HOENN_111
+	fadescreen 1
+	removeobject 7
+	delay 20
+    fadescreen 0
+	release
+	end

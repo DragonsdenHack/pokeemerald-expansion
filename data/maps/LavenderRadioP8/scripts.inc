@@ -81,17 +81,27 @@ LavenderRadioP8_Encuentro_Devon::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP8_Encuentro_Devon_Move_1
 waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP8_Encuentro_Devon_Move_1.1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP8_Encuentro_Devon_Move_1.2
+waitmovement 0x0
+special RemoveCameraObject
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
-applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_2
+applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_2.1
 waitmovement 0x0
 delay 15
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_5 MSGBOX_AUTOCLOSE
@@ -99,14 +109,77 @@ delay 15
 applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_2
 waitmovement 0x0
 msgbox LavenderRadioP8_Encuentro_Devon_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP8_Encuentro_Devon_Move_1.5
+applymovement 6, LavenderRadioP8_Encuentro_Devon_Move_1.4
+applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP8_Encuentro_Devon_Move_1.3
+waitmovement 0x0
+special RemoveCameraObject
 setflag FLAG_NUEVA_838
-fadescreen 1
-delay 20
 removeobject 6
-fadescreen 0
 setvar VAR_MAUVILLE_CITY_STATE, 9
 release
 end
+
+LavenderRadioP8_Encuentro_Devon_Move_1.5:
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+delay_16
+delay_16
+face_down
+delay_16
+delay_16
+face_right
+step_end
+
+LavenderRadioP8_Encuentro_Devon_Move_1.4:
+walk_right
+walk_right
+walk_right
+walk_down
+walk_right
+walk_right
+walk_down
+walk_right
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+LavenderRadioP8_Encuentro_Devon_Move_1.3:
+delay_16
+walk_slow_right
+walk_slow_right
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+step_end
+
+LavenderRadioP8_Encuentro_Devon_Move_1.2:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+LavenderRadioP8_Encuentro_Devon_Move_2.1:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+step_end
 
 LavenderRadioP8_Encuentro_Devon_Move_4:
 face_down
@@ -122,8 +195,12 @@ step_end
 
 LavenderRadioP8_Encuentro_Devon_Move_1:
 delay_8
-face_left
+walk_in_place_left
 delay_8
+step_end
+
+LavenderRadioP8_Encuentro_Devon_Move_1.1:
+emote_exclamation_mark
 step_end
 
 LavenderRadioP8_Encuentro_Devon_Texto_1:

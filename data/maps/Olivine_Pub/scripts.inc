@@ -82,13 +82,20 @@ delay 20
 playse SE_PIN
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_2
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_EVER_GRANDE_CITY_STATE, 1
 release
@@ -109,13 +116,17 @@ waitfanfare
 playse SE_PIN
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_2
 waitmovement 0x0
 applymovement 6, Olivine_Pub_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Pub_Mision_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Olivine_Pub_Mision_Secundaria_Texto_13 MSGBOX_DEFAULT

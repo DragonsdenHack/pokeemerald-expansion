@@ -114,21 +114,21 @@ end
 
 Route49MazeP3Documento_Text_100:
 .string "EN:\p"
-	.string "HP: 75\n"
-	.string "ATTACK: 152\l"
-	.string "DEFENSE: 70\l"
-	.string "SPECIAL ATTACK: 116\l"
-	.string "SPECIAL DEFENSE: 137\l"
-	.string "SPEED: 85\l"
-	.string "TOTAL: 635\p"
-	.string "TYPE: FIRE\n"
-	.string "ABILITY: SHEER FORCE\l"
-	.string "A millennial POKÉMON, passed down from\l"
-	.string "generation to generation to the GRAND\l"
-	.string "MASTERr of the third pagoda in JOHTO.\l"
-	.string "It was once a FLAREON, whose bond with\l"
-	.string "its TRAINER reached perfect\l"
-	.string "equilibrium.$"
+	.string "PS: 85\n"
+	.string "ATAQUE: 152\l"
+	.string "DEFENSA: 75\l"
+	.string "ATAQUE ESPECIAL: 116\l"
+	.string "DEFENSA ESPECIAL: 137\l"
+	.string "VELOCIDAD: 85\l"
+	.string "TOTAL: 650\p"
+	.string "TIPO: FUEGO\n"
+	.string "HABILIDAD: POTENCIA BRUTA\l"
+	.string "POKÉMON milenario, legado de generación\l"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un FLAREON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el\l"
+	.string "equilibrio perfecto.$"
 
 
 
@@ -145,20 +145,21 @@ end
 
 Route49MazeP3Documento_Text_101:
 .string "SUI:\p"
-	.string "HP: 152\n"
-	.string "ATTACK: 85\l"
-	.string "DEFENSE: 70\l"
-	.string "SPECIAL ATTACK: 137\l"
-	.string "SPECIAL DEFENSE: 116\l"
-	.string "SPEED: 75\l"
-	.string "TOTAL: 635\p"
-	.string "TYPE: WATER\n"
-	.string "ABILITY: MAGIC GUARD\l"
-	.string "A millennial POKÉMON, passed down from\l"
-	.string "generation to generation to the GRAND\l"
-	.string "MASTER of the third pagoda in JOHTO. It\l"
-	.string "was once a VAPOREON, whose bond with\l"
-	.string "its trainer reached perfect equilibrium.$"
+	.string "PS: 152\n"
+	.string "ATAQUE: 85\l"
+	.string "DEFENSA: 75\l"
+	.string "ATAQUE ESPECIAL: 137\l"
+	.string "DEFENSA ESPECIAL: 116\l"
+	.string "VELOCIDAD: 85\l"
+	.string "TOTAL: 650\p"
+	.string "TIPO: AGUA\n"
+	.string "HABILIDAD: MURO MÁGICO\l"
+	.string "POKÉMON milenario, legado de generación\l"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un VAPOREON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el equilibrio\l"
+	.string "perfecto.$"
 
 
 
@@ -175,20 +176,21 @@ end
 
 Route49MazeP3Documento_Text_102:
 .string "RAI:\p"
-	.string "HP: 75\n"
-	.string "ATTACK: 85\l"
-	.string "DEFENSE: 70\l"
-	.string "SPECIAL ATTACK: 137\l"
-	.string "SPECIAL DEFENSE: 116\l"
-	.string "SPEED: 152\l"
-	.string "TOTAL: 635\p"
-	.string "TYPE: ELECTRIC\n"
-	.string "ABILITY: NO GUARD\l"
-	.string "A millennial POKÉMON, passed down from\l"
-	.string "generation to generation to the GRAND\l"
-	.string "MASTER of the third pagoda in JOHTO. It\l"
-	.string "was once a JOLTEON, whose bond with its\l"
-	.string "trainer reached perfect equilibrium.$"
+	.string "PS: 85\n"
+	.string "ATAQUE: 85\l"
+	.string "DEFENSA: 75\l"
+	.string "ATAQUE ESPECIAL: 137\l"
+	.string "DEFENSA ESPECIAL: 116\l"
+	.string "VELOCIDAD: 152\l"
+	.string "TOTAL: 650\p"
+	.string "TIPO: ELÉCTRICO\n"
+	.string "HABILIDAD: INDEFENSO\l"
+	.string "POKÉMON milenario, legado de generación\l"
+	.string "en generación al GRAN MAESTRO de la\l"
+	.string "tercera pagoda de JOHTO.\p"
+	.string "Una vez fue un JOLTEON, cuyo vínculo\n"
+	.string "con su ENTRENADOR alcanzó el equilibrio\l"
+	.string "perfecto.$"
 
 Route49_MazeP3_Encuentro_Eusine::
 lock
@@ -196,6 +198,7 @@ applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP3_Encuentro_Eusine_Move_1
 waitmovement 0x0
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
 waitmovement 0x0
@@ -206,6 +209,7 @@ delay 15
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
 waitmovement 0x0
@@ -216,6 +220,7 @@ applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_3.1
 waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
 removeobject 10
 setvar VAR_VERDANTURF_TOWN_STATE, 16
 release

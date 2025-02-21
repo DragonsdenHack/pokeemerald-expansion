@@ -100,6 +100,8 @@ applymovement OBJ_EVENT_ID_PLAYER, Azalea_CesarHouse_Evento_Mirto_Move_7
 applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_6
 applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_8
 waitmovement 0x0
+applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_13
+waitmovement 0x0
 special RemoveCameraObject
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA
 removeobject 2
@@ -126,61 +128,70 @@ applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_12
 waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_19 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_20 MSGBOX_AUTOCLOSE
+delay 40
 setvar VAR_UNUSED_0x40F7, 129
+@warpsilent MAP_AZALEA_CESAR_HOUSE, 5, 5
+@waitstate
 release
 end
 
 Azalea_CesarHouse_Evento_Mirto_Texto_1:
-	.string "????: But{PAUSE 15}…{PAUSE 15} You also have a BUG TYPE\n"
-	.string "that has undergone the same process as\l"
-	.string "mine.$"
+.string "????: Pero{PAUSE 15}…{PAUSE 15}\n"
+	.string "Usted cuenta también con un TIPO\l"
+	.string "BICHO que ha sufrido el mismo\l"
+	.string "proceso que el mío.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_2:
-	.string "????: I'm afraid they can't be compared,\n"
-	.string "ALDER. They're two BUG types, yes, and\l"
-	.string "both have been affected by the DEEP\l"
-	.string "BOND with their TRAINER.$"
+.string "???: Me temo que no pueden\n"
+	.string "compararse, MIRTO, son dos TIPO\l"
+	.string "BICHO, sí, y ambos se han visto\l"
+	.string "afectados por el FUERTE VÍNCULO\l"
+	.string "con su ENTRENADOR.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_3:
-.string "ALDER: But…$"
+.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
-	.string "The difference is that my POKÉMON\n"
-	.string "started with 395 BASE STATS, rising to\l"
-	.string "505 BASE STATS after the strong bond.\l"
-	.string "Quite remarkable, especially\l"
-	.string "considering its very low ATTACK, but{PAUSE 15}…{PAUSE 15} it\l"
-	.string "hasn't crossed any known limits.$"
+.string "La diferencia es que mi POKÉMON\n"
+	.string "partía de un poder muy\l"
+	.string "modesto en general.\p"
+	.string "Después del FUERTE VÍNCULO se\n"
+	.string "volvió extremadamente eficiente,\l"
+	.string "pero solo 'notable' en el global.\p"
+	.string "No ha cruzado ningún límite que\n"
+	.string "consideremos{PAUSE 25}…{PAUSE 25}sagrado.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
-	.string "Your POKÉMON, on the other hand,\n"
-	.string "already had 550 BASE STATS even before\l"
-	.string "experiencing the DEEP BOND. What has\l"
-	.string "resulted from combining a POKÉMON like\l"
-	.string "yours, already comparable to a\l"
-	.string "LEGENDARY, and the DEEP BOND, is\l"
-	.string "something that has reached unknown\l"
-	.string "limits for a mortal POKÉMON. An\l"
-	.string "aberration in terms of power.$"
+.string "Tu POKÉMON, en cambio, ya era\n"
+	.string "extraordinario, antes incluso de\l"
+	.string "experimentar el FUERTE VÍNCULO.\p"
+	.string "Lo que ha resultado de unir algo\n"
+	.string "que ya era especial, que ya\l"
+	.string "podía codearse con un LEGENDARIO,\l"
+	.string "con el FUERTE VÍNCULO{PAUSE 25}…{PAUSE 25} tal\l"
+	.string "fenómeno ha cruzado límites ignotos\l"
+	.string "para un mortal; una aberración en\l"
+	.string "en términos de poder.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_6:
-	.string "Throughout all my literature and\n"
-	.string "extensive experience, I've never\l"
-	.string "encountered anything quite like this.\l"
-	.string "Your POKÉMON has been bestowed with\l"
-	.string "the ability to shine brighter than any\l"
-	.string "other non-legendary, yet it's also\l"
-	.string "fated to dim sooner, as one inevitably\l"
-	.string "follows the other.$"
+.string "En todos mis libros y años de\n"
+	.string "experiencia, jamás vi algo\l"
+	.string "así. A tu POKÉMON se le ha\l"
+	.string "concedido el don de brillar más\l"
+	.string "que a ningún otro NO LEGENDARIO,\l"
+	.string "pero también está destinado a\l"
+	.string "apagarse antes, su poder y\l"
+	.string "maldición caminan juntas.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_7:
-.string "ALDER: …"
+.string "MIRTO: {PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_8:
-.string "Isn't there{PAUSE 20}…{PAUSE 20} anything{PAUSE 20}…{PAUSE 20} that I can do?$"
+.string "¿No hay{PAUSE 25}…{PAUSE 25} nada{PAUSE 25}…{PAUSE 25} que pueda hacer?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
-	.string "????: I can't help you. I'm sorry. But…$"
+.string "????: Yo no puedo ayudarte, lo\n"
+	.string "siento. Pero{PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_10:
 	.string "There are many wise people in JOHTO. I'm\n"
@@ -191,14 +202,16 @@ Azalea_CesarHouse_Evento_Mirto_Texto_10:
 	.string "there who would help you.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_11:
-	.string "ALDER: Thank you so much, KURT. I won't\n"
-	.string "waste a single second. I'll scour every\l"
-	.string "corner of JOHTO, if necessary.$"
+.string "MIRTO: Muchas gracias, CÉSAR, no\n"
+	.string "perderé un solo segundo.\l"
+	.string "Llegaré hasta el último rincón\l"
+	.string "de JOHTO si es necesario.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_12:
-	.string "KURT: Well, guy, you look very\n"
-	.string "interested in this topic. Did you want\l"
-	.string "something? Come in!$"
+.string "CÉSAR: Vaya, chico, se te ve\n"
+	.string "bastante interesado en el tema.\p"
+	.string "¿Querías algo?\n"
+	.string "¡Pasa!$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_13:
 	.string "So challenging me to a battle? You\n"
@@ -208,19 +221,21 @@ Azalea_CesarHouse_Evento_Mirto_Texto_13:
 	.string "my little granddaughter.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_14:
-	.string "You must understand that it would be\n"
-	.string "unfair if I accepted your battle after\l"
-	.string "rejecting every other challenger.$"
+.string "Comprenderás que sería injusto\n"
+	.string "aceptar combatir contra ti,\l"
+	.string "cuando he rechazado al resto\l"
+	.string "de contendientes.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
-	.string "But{PAUSE 15}…{PAUSE 15} You look like you came from far\n"
-	.string "away, and are very passionate for the\l"
-	.string "POKÉMON battles, as ALDER or myself.$"
+.string "Aunque{PAUSE 15}…{PAUSE 15}\n"
+	.string "Pareces venir de muy lejos, y\l"
+	.string "y ser un apasionado del combate.\p"
+	.string "No eres muy diferente a MIRTO.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_16:
-	.string "I will give you the chance to battle\n"
-	.string "with me, but you should demonstrate\l"
-	.string "that you deserve it first. Listen.$"
+.string "Te daré una oportunidad, y tendrás\n"
+	.string "que demostrar que la mereces.\p"
+	.string "Escucha.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_17:
 	.string "A good friend loves strolling around\n"
@@ -235,10 +250,11 @@ Azalea_CesarHouse_Evento_Mirto_Texto_18:
 	.string "these parts.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_19:
-	.string "If you really want to battle me, you\n"
-	.string "should defeat him first. Tell him I sent\l"
-	.string "you. If you can win, he'll reward you\l"
-	.string "with a special item.$"
+.string "Si quieres ese combate, deberás\n"
+	.string "derrotarle antes a él, dile que\l"
+	.string "vas de mi parte. Si puedes con él,\l"
+	.string "te dará un objeto, un objeto\l"
+	.string "especial.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_20:
 	.string "Simply bring back the item here as\n"
@@ -323,4 +339,8 @@ step_end
 
 Azalea_CesarHouse_Evento_Mirto_Move_12:
 walk_in_place_left
+step_end
+
+Azalea_CesarHouse_Evento_Mirto_Move_13:
+walk_left
 step_end

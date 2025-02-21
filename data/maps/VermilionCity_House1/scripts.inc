@@ -52,6 +52,8 @@ delay 20
 playse SE_PIN
 applymovement 1, VermilionCity_House1_Secundaria_Magikarp_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
@@ -59,6 +61,8 @@ msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_6 MSGBOX_DEFAULT
 givemon SPECIES_MAGIKARP, 5, ITEM_RARE_CANDY
 waitfanfare
 msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox VermilionCity_House1_Secundaria_Magikarp_Texto_7.1 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x409D, 3
 release
 end
@@ -101,23 +105,35 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_5:
 	.string "Say, this whopper'll help out a lot.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_6:
-.string "YOU RECEIVED A MAGIKARP AT LV:5!!$"
+.string "¡OBTUVISTE UN MAGIKARP AL NV.5!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7:
-	.string "What? Did you expect a better haul?\n"
-	.string "Lemme tell you, ROCKET. This is one of\l"
-	.string "the best catches in all of KANTO. A real\l"
-	.string "DRAGON even LANCE himself fields in his\l"
-	.string "own team. On top of that, that\l"
-	.string "MAGIKARP's got a RARE CANDY for easy\l"
-	.string "training. Not many people have that\l"
-	.string "attention to detail, eh? Use it when\l"
-	.string "it's LEVEL 19 and enjoy the most radical\l"
-	.string "evolution you'll ever get to see!$"
+.string "¿Cómo?\n"
+	.string "¿Esperabas algo mejor?\l"
+	.string "Déjame decirte ROCKET, que este\l"
+	.string "POKÉMON guarda un potencial muy\l"
+	.string "especial en su interior, solo\l"
+	.string "debes preocuparte de cuidarlo\l"
+	.string "adecuadamente y hacerlo crecer, y\l"
+	.string "tendrás a uno de los mejores\l"
+	.string "POKÉMON de toda KANTO, un DRAGÓN\l"
+	.string "en toda regla que el mismísimo\l"
+	.string "LANCE tiene en su equipo.$"
+
+VermilionCity_House1_Secundaria_Magikarp_Texto_7.1:
+	.string "Por si fuera poco, te he dado un\n"
+	.string "CARAMELORARO de regalo equipado en\l"
+	.string "el MAGIKARP para que se te haga\l"
+	.string "menos duro entrenarlo, muy pocos\l"
+	.string "tienen ese detalle, ¿eh?\l"
+	.string "¡Úsalo cuando esté en el NIVEL 19\l"
+	.string "y disfruta de la transformación\l"
+	.string "más radical que podrás ver en el\l"
+	.string "mundo POKÉMON!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_8:
-.string "Did you find that TAMER?\n"
-	.string "Remember-he's in CELADON MANSION!$"
+.string "¿Pudiste encontrar a ese DOMADOR?\n"
+	.string "¡Recuerda! ¡Está en AZULONA!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 .string "Would you be willing to make a small\n"

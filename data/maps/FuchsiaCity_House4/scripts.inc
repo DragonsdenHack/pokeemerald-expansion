@@ -60,6 +60,9 @@ applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_House4_Secundaria_Squirtle_Move_1
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_4
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_House4_Secundaria_Squirtle_Move_4
 waitmovement 0x0
@@ -74,6 +77,12 @@ delay 20
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_DOOR
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 addobject 3
@@ -89,6 +98,14 @@ applymovement 2, FuchsiaCity_House4_Secundaria_Squirtle_Move_6
 waitmovement 0x0
 delay 20
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, FuchsiaCity_House4_Secundaria_Squirtle_Move_6
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
@@ -105,11 +122,36 @@ delay 15
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_3.3
+waitmovement 0x0
+waitse
+msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, FuchsiaCity_House4_Secundaria_Squirtle_Move_2
 waitmovement 0x0
 setvar VAR_UNUSED_0x4083, 2
 release
 end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.3:
+walk_in_place_left
+face_player
+step_end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.2:
+walk_in_place_up
+step_end
+
+FuchsiaCity_House4_Secundaria_Squirtle_Move_3.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
 
 FuchsiaCity_House4_Secundaria_Squirtle_3::
 msgbox FuchsiaCity_House4_Secundaria_Squirtle_Texto_2 MSGBOX_AUTOCLOSE
@@ -166,55 +208,73 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_9:
 	.string "My powerful GYARADOS!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
-	.string "This makes no sense, you must be\n"
-	.string "something else inside the TEAM ROCKET,\l"
-	.string "an EXECUTIVE, ADMINISTRATOR perhaps,\l"
-	.string "am I wrong?$"
+.string "Esto no tiene sentido, debes de\n"
+	.string "ser algo más dentro del TEAM ROCKET.\l"
+	.string "¿EJECUTIVO, ADMINISTRADOR, quizás?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
-	.string "But{PAUSE 15}…{PAUSE 15} Unfortunately for you, I never\n"
-	.string "lose, never. How do you think I've kept\l"
-	.string "my perfect reputation spotless until\l"
-	.string "now? I always watch my back.$"
+.string "Pero{PAUSE 15}…{PAUSE 15}\n"
+	.string "Lamentablemente para ti, yo nunca\l"
+	.string "pierdo, nunca.\l"
+	.string "¿como crees que he mantenido mi\l"
+	.string "reputación impoluta hasta ahora?\l"
+	.string "Yo siempre guardo mis espaldas.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_12:
-	.string "You've been too loud ROCKET, we can't let\n"
-	.string "you win in this situation. I've heard the\l"
-	.string "battle in my neighbor's house, the best\l"
-	.string "of the gurus that makes FUCHSIA so\l"
-	.string "popular. as the POKEGUARD of the\l"
-	.string "SAFARI ZONE, you'll understand that I\l"
-	.string "cannot allow anyone to disturb the\l"
-	.string "order of this city. No one is going to\l"
-	.string "leave here saying the best guru in the\l"
-	.string "region was defeated by a ROCKET.$"
+.string "Has hecho demasiado ruido, ROCKET.\n"
+	.string "No podemos permitir que salgas\l"
+	.string "ganador de aquí.$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_12.1:
+	.string "Como POKÉGUARDA de la ZONA SAFARI,\n"
+	.string "entenderás que no puedo permitir\l"
+	.string "que nadie perturbe el orden de\l"
+	.string "esta ciudad; nadie va a salir de\l"
+	.string "aquí diciendo que el mejor gurú de\l"
+	.string "la región, de FUCSIA, salió derrotado\l"
+	.string "por un ROCKET.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_13:
-	.string "Now that your POKÉMON are tired, I just\n"
-	.string "have to deliver the final blow!$"
+.string "Ahora que tus POKÉMON están\n"
+	.string "cansados, ¡solo me queda darte\l"
+	.string "el golpe de gracia!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_14:
 .string "This can't be, my SLOWKING!\n"
 	.string "Who are you?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
-	.string "This wasn't in our plans at all, not even\n"
-	.string "KOGA would come out victorious against\l"
-	.string "both of us. Anyway, no one will believe\l"
-	.string "you, no one has seen this two battl…$"
+.string "Esto sí que no estaba en\n"
+	.string "nuestros planes.\l"
+	.string "¡Ni KOGA podría salir victorioso frente\l"
+	.string "a nosotros dos a la vez!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1:
+	.string "Sea como sea, nadie te creerá, porque\n"
+	.string "nadie ha visto estos combat{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
-	.string "Wow! It was amazing, a ROCKET gave the\n"
-	.string "guru of FUCHSIA a lesson! And even\l"
-	.string "more! HE defeated SLOWPOKE, the\l"
-	.string "POKEGUARD of the SAFARI! I can't wait\l"
-	.string "to see my friends' faces when they know!$"
+.string "¡Guau!\n"
+	.string "¡Ha sido increíble, un ROCKET le ha\l"
+	.string "dado una lección al gurú de FUCSIA!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1:
+	.string "¡Y aún más!\n"
+	.string "¡También a SLOWPOKE, el\l"
+	.string "POKÉGUARDA del SAFARI!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2:
+	.string "¡No puedo esperar a ver la cara de\n"
+	.string "mis amigos cuando se enteren!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_17:
-	.string "Do you have any idea what you just did,\n"
-	.string "ROCKET?! I hope the reward from my\l"
-	.string "brother is worth it! You've just started\l"
-	.string "a war!$"
+.string "¡¿Tienes idea de lo que acabas de\n"
+	.string "hacer, ROCKET?!$"
+
+FuchsiaCity_House4_Secundaria_Squirtle_Texto_17.1:
+	.string "¡Espero que te merezca la pena la\n"
+	.string "recompensa de mi hermano!\l"
+	.string "¡Acabas de iniciar una guerra!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Move_1:
 emote_exclamation_mark

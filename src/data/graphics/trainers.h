@@ -683,6 +683,26 @@ const u32 gTrainerFrontPic_Miguel[] = INCBIN_U32("graphics/trainers/front_pics/m
 
 const u32 gTrainerFrontPic_Presidente[] = INCBIN_U32("graphics/trainers/front_pics/presidente_front_pic.4bpp.lz");
 
+const u32 gTrainerFrontPic_Inverna[] = INCBIN_U32("graphics/trainers/front_pics/inverna_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Oro[] = INCBIN_U32("graphics/trainers/front_pics/oro_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Plata[] = INCBIN_U32("graphics/trainers/front_pics/plata_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Kyogre[] = INCBIN_U32("graphics/trainers/front_pics/kyogre_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Groudon[] = INCBIN_U32("graphics/trainers/front_pics/groudon_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Rayquaza[] = INCBIN_U32("graphics/trainers/front_pics/rayquaza_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Sachiko[] = INCBIN_U32("graphics/trainers/front_pics/sachiko_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Tristana[] = INCBIN_U32("graphics/trainers/front_pics/tristana_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/front.4bpp.lz");
+
+const u32 gTrainerFrontPic_Rasmus[] = INCBIN_U32("graphics/trainers/front_pics/rasmus_front_pic.4bpp.lz");
+
 const u32 gTrainerPalette_Devon1[] = INCBIN_U32("graphics/trainers/palettes/devon1.gbapal.lz");
 const u32 gTrainerPalette_Devon2[] = INCBIN_U32("graphics/trainers/palettes/devon2.gbapal.lz");
 const u32 gTrainerPalette_Devon3[] = INCBIN_U32("graphics/trainers/palettes/devon3.gbapal.lz");
@@ -692,6 +712,25 @@ const u32 gTrainerPalette_Presidente[] = INCBIN_U32("graphics/trainers/palettes/
 
 const u32 gTrainerPalette_Miguel[] = INCBIN_U32("graphics/trainers/palettes/miguel.gbapal.lz");
 
+const u32 gTrainerPalette_Inverna[] = INCBIN_U32("graphics/trainers/palettes/inverna.gbapal.lz");
+
+const u32 gTrainerPalette_Oro[] = INCBIN_U32("graphics/trainers/palettes/oro.gbapal.lz");
+
+const u32 gTrainerPalette_Plata[] = INCBIN_U32("graphics/trainers/palettes/plata.gbapal.lz");
+
+const u32 gTrainerPalette_Kyogre[] = INCBIN_U32("graphics/trainers/palettes/kyogre.gbapal.lz");
+
+const u32 gTrainerPalette_Groudon[] = INCBIN_U32("graphics/trainers/palettes/groudon.gbapal.lz");
+
+const u32 gTrainerPalette_Rayquaza[] = INCBIN_U32("graphics/trainers/palettes/rayquaza.gbapal.lz");
+
+const u32 gTrainerPalette_Sachiko[] = INCBIN_U32("graphics/trainers/palettes/sachiko.gbapal.lz");
+
+const u32 gTrainerPalette_Guardia[] = INCBIN_U32("graphics/pokemon/guardia/normal.gbapal.lz");
+
+const u32 gTrainerPalette_Tristana[] = INCBIN_U32("graphics/trainers/palettes/tristana.gbapal.lz");
+
+const u32 gTrainerPalette_Rasmus[] = INCBIN_U32("graphics/trainers/palettes/rasmus.gbapal.lz");
 ///////////////////////
 
 const u32 gTrainerFrontPic_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_player_front_pic.4bpp.lz");
@@ -705,6 +744,12 @@ const u32 gTrainerPalette_Zapdos[] = INCBIN_U32("graphics/trainers/palettes/zapd
 
 const u32 gTrainerFrontPic_Zeus[] = INCBIN_U32("graphics/trainers/front_pics/zeus_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Zeus[] = INCBIN_U32("graphics/trainers/palettes/zeus.gbapal.lz");
+
+const u32 gTrainerFrontPic_Ariana[] = INCBIN_U32("graphics/trainers/front_pics/ariana_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Ariana[] = INCBIN_U32("graphics/trainers/palettes/ariana.gbapal.lz");
+
+const u32 gTrainerFrontPic_Marowak[] = INCBIN_U32("graphics/trainers/front_pics/marowak_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Marowak[] = INCBIN_U32("graphics/trainers/palettes/marowak.gbapal.lz");
 
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan_back_pic.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may_back_pic.4bpp");
@@ -732,3 +777,4 @@ const u32 gTrainerBackPicPalette_Ejecutivo[] = INCBIN_U32("graphics/trainers/pal
 const u32 gTrainerBackPicPalette_Admin[] = INCBIN_U32("graphics/trainers/palettes/backsprite_admin.gbapal.lz");
 const u32 gTrainerBackPicPalette_AdminJefe[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe.gbapal.lz");
 const u32 gTrainerBackPicPalette_AdminJefe2[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe2.gbapal.lz");
+const u32 gTrainerBackPicPalette_AndraAdminJefe[] = INCBIN_U32("graphics/trainers/palettes/backsprite_andraadminjefe.gbapal.lz");

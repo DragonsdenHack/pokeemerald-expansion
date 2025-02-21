@@ -31,11 +31,15 @@ clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 1
 applymovement 1, MtSilver_Combate_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MtSilver_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
@@ -43,15 +47,21 @@ delay 20
 applymovement 1, MtSilver_Combate_Andra_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_5
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MtSilver_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, MtSilver_Combate_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtSilver_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 1, MtSilver_Combate_Andra_Move_6
 waitmovement 0x0
@@ -63,6 +73,7 @@ msgbox MtSilver_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, MtSilver_Combate_Andra_Move_8
 waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_8.1
 applymovement 1, MtSilver_Combate_Andra_Move_9
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO

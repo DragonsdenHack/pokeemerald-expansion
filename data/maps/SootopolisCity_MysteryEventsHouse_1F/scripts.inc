@@ -183,7 +183,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
 	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
+	.string "that I can't see you battle{PAUSE 5}…{PAUSE 5}$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
 	.string "Oh, good, good!\p"

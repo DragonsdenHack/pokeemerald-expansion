@@ -32,7 +32,9 @@ playse SE_PIN
 applymovement 1, CeladonCity_House1_2F_Secundaria_Magikarp_Move_1
 waitmovement 0x0
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq CeladonCity_House1_2F_Secundaria_Magikarp_3
@@ -53,6 +55,8 @@ delay 20
 playse SE_PIN
 applymovement 1, CeladonCity_House1_2F_Secundaria_Magikarp_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_12 MSGBOX_AUTOCLOSE

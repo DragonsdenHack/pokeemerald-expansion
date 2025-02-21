@@ -6,7 +6,7 @@ SSTidalCorridor_MapScripts::
 	.byte 0
 
 SSTidalCorridor_OnFrame:
-	map_script_2 VAR_SS_TIDAL_SCOTT_STATE, 0, SSTidalCorridor_EventScript_ScottScene
+	map_script_2 VAR_SS_TIDAL_SCOTT_STATE, 50, SSTidalCorridor_EventScript_ScottScene
 	map_script_2 VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_SLATEPORT, SSTidalCorridor_EventScript_DepartSlateportForLilycove
 	map_script_2 VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_LILYCOVE, SSTidalCorridor_EventScript_DepartLilycoveForSlateport
 	map_script_2 VAR_SS_TIDAL_STATE, SS_TIDAL_EXIT_CURRENTS_RIGHT, SSTidalCorridor_EventScript_HalfwayToLilycove
@@ -325,7 +325,7 @@ SSTidalCorridor_Text_BrineyWelcomeAboard:
 	.string "soul as a sailor!$"
 
 SSTidalCorridor_Text_Peeko:
-	.string "PEEKO: Pihyo pihyohyo…$"
+	.string "PEEKO: Pihyo pihyohyo…{PAUSE 5}$"
 
 SSTidalCorridor_Text_Cabin1:
 	.string "Cabin 1$"
@@ -338,3 +338,221 @@ SSTidalCorridor_Text_Cabin3:
 
 SSTidalCorridor_Text_Cabin4:
 	.string "Cabin 4$"
+
+
+SSTidalCorridor_Ariana::
+lock
+faceplayer
+msgbox SSTidalCorridor_Ariana_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_1
+waitmovement 0x0
+msgbox SSTidalCorridor_Ariana_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_2
+waitmovement 0x0
+msgbox SSTidalCorridor_Ariana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, Corridor_Ariana_Move_1
+waitmovement 0x0
+setflag FLAG_HOENN_45
+removeobject 11
+playse SE_EXIT
+release
+end
+
+Corridor_Ariana_Move_2:
+face_player
+step_end
+
+Corridor_Ariana_Move_1:
+face_right
+delay_16
+step_end
+
+SSTidalCorridor_Ariana_Texto_1:
+	.string "Tal y como esperaba. Con toda esta\n"
+	.string "gente han descuidado la seguridad.$"
+
+SSTidalCorridor_Ariana_Texto_2:
+	.string "Estas escaleras llevan al ALMACÉN.$"
+
+SSTidalCorridor_Ariana_Texto_3:
+	.string "¡{PLAYER}! Tenemos que aprovechar y\n"
+	.string "bajar ahora, sígueme.$"
+
+SSTidalCorridor_4_NPC::
+lock
+msgbox SSTidalCorridor_4_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_4_NPC_Texto_1:
+	.string "Estas colas{PAUSE 10}…{PAUSE 10} siempre hay alguien que\n"
+	.string "llega antes que tú…{PAUSE 5}$"
+
+SSTidalCorridor_6_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_6_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_6_NPC_Texto_1:
+	.string "El evento casi ha terminado, dentro de\n"
+	.string "poco la POLICÍA evacuará la zona.$"
+
+
+SSTidalCorridor_7_NPC::
+lock
+msgbox SSTidalCorridor_7_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_7_NPC_Texto_1:
+	.string "Una vez termine la entrevista, procedan\n"
+	.string "en orden y con cautela.$"
+
+SSTidalCorridor_9_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_9_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_9_NPC_Texto_1:
+	.string "Aún no se ha decidido quién será el\n"
+	.string "CAPITÁN de este barco, aunque hay un\l"
+	.string "par de nombres que suenan fuerte.$"
+
+SSTidalCorridor_10_NPC::
+lock
+msgbox SSTidalCorridor_10_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_10_NPC_Texto_1:
+	.string "Ah, querida{PAUSE 10}…{PAUSE 10} ¿recuerdas cuando fuimos\n"
+	.string "a CALAGUA en nuestra pequeña barca?$"
+
+SSTidalCorridor_12_NPC::
+lock
+msgbox SSTidalCorridor_12_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_12_NPC_Texto_1:
+	.string "Espero que no me echen atrás por llevar\n"
+	.string "pantalones cortos{PAUSE 5}…{PAUSE 5}$"
+
+SSTidalCorridor_13_NPC::
+lock
+msgbox SSTidalCorridor_13_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_13_NPC_Texto_1:
+	.string "¿Qué POKÉMON raros tendrá el\n"
+	.string "PRESIDENTE de DEVON?$"
+
+SSTidalCorridor_14_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_14_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_14_NPC_Texto_1:
+	.string "El SS.MAREA llegará antes a CALAGUA que\n"
+	.string "ningún otro barco de pasajeros.$"
+
+SSTidalCorridor_15_NPC::
+lock
+msgbox SSTidalCorridor_15_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_15_NPC_Texto_1:
+	.string "Ah, en mis tiempos era toda una odisea\n"
+	.string "llegar a CALAGUA desde aquí. ¡Bendita\l"
+	.string "tecnología!$"
+
+SSTidalCorridor_17_NPC::
+lock
+msgbox SSTidalCorridor_17_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_17_NPC_Texto_1:
+	.string "JUAN: Creo que FLYGON cuenta con una\n"
+	.string "forma aún más rara y poderosa, ¿el\l"
+	.string "CAPITÁN del barco sabrá algo?$"
+
+
+SSTidalCorridor_18_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_18_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_18_NPC_Texto_1:
+	.string "Solo personal de DEVON partirá rumbo a\n"
+	.string "CALAGUA.$"
+
+SSTidalCorridor_19_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_19_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_19_NPC_Texto_1:
+	.string "Maldición{PAUSE 10}…{PAUSE 10} Creí que iban a servir un\n"
+	.string "buffet libre, ¡no hay nada!$"
+
+SSTidalCorridor_20_NPC::
+lock
+msgbox SSTidalCorridor_20_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_20_NPC_Texto_1:
+	.string "Tengo que conseguir esa firma del\n"
+	.string "PRESIDENTE para mi hermana{PAUSE 5}…{PAUSE 5}$"
+
+SSTidalCorridor_21_NPC::
+lock
+msgbox SSTidalCorridor_21_NPC_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SSTidalCorridor_21_NPC_Texto_1:
+	.string "¿Y este chaval de dónde ha salido?\n"
+	.string "Menuda falta de respeto presentarse\l"
+	.string "así ante el PRESIDENTE de DEVON.$"
+
+SSTidalCorridor_22_NPC::
+lock
+faceplayer
+msgbox SSTidalCorridor_22_NPC_Texto_1 MSGBOX_NPC
+release
+end
+
+SSTidalCorridor_22_NPC_Texto_1:
+	.string "Jo, jo, jo. Aunque no lo creas vengo de\n"
+	.string "KANTO. Así es, he estado en muchos\l"
+	.string "otros barcos como el SS.ANNE. Espera,\l"
+	.string "¿tú también?$"
+
+Warp_Cascada_Move_1:
+walk_in_place_right
+step_end
+
+SSTidalCorridor_Warp_Cascada::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Warp_Cascada_Move_1
+warpsilent MAP_METEOR_FALLS_STEVENS_CAVE, 4, 3
+waitmovement 0x0
+delay 50
+release
+end
+
+

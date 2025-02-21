@@ -113,5 +113,30 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 	.string "It's bright and shiny!\n"
-	.string "But it's just trash…$"
+	.string "But it's just trash{PAUSE 5}…{PAUSE 5}$"
+
+AbandonedShip_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_601, AbandonedShip_Text_PrimerPoliciaIntro, AbandonedShip_Text_PrimerPoliciaDefeat
+	msgbox AbandonedShip_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_602, AbandonedShip_Text_SegundoPoliciaIntro, AbandonedShip_Text_SegundoPoliciaDefeat
+	msgbox AbandonedShip_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_EventScript_Tercer_Policia::
+	trainerbattle_single TRAINER_TRAINER_603, AbandonedShip_Text_TercerPoliciaIntro, AbandonedShip_Text_TercerPoliciaDefeat
+	msgbox AbandonedShip_Text_TercerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_EventScript_Cuarto_Policia::
+	trainerbattle_single TRAINER_TRAINER_604, AbandonedShip_Text_CuartoPoliciaIntro, AbandonedShip_Text_CuartoPoliciaDefeat
+	msgbox AbandonedShip_Text_CuartoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_EventScript_Quinto_Policia::
+	trainerbattle_single TRAINER_TRAINER_605, AbandonedShip_Text_QuintoPoliciaIntro, AbandonedShip_Text_QuintoPoliciaDefeat
+	msgbox AbandonedShip_Text_QuintoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
 

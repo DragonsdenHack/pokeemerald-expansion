@@ -1545,3 +1545,80 @@ gTileset_burned_tower::
 	.4byte gMetatiles_burned_tower
 	.4byte gMetatileAttributes_burned_tower
 	.4byte NULL
+
+	.align 2
+gTileset_SnowPoint_City::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_SnowPoint_City
+	.4byte gTilesetPalettes_SnowPoint_City
+	.4byte gMetatiles_SnowPoint_City
+	.4byte gMetatileAttributes_SnowPoint_City
+	.4byte NULL
+
+	.align 2
+gTileset_Snowpoint_temple::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Snowpoint_temple
+	.4byte gTilesetPalettes_Snowpoint_temple
+	.4byte gMetatiles_Snowpoint_temple
+	.4byte gMetatileAttributes_Snowpoint_temple
+	.4byte NULL
+
+	.align 2
+gTileset_goldenrod_city::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_goldenrod_city
+	.4byte gTilesetPalettes_goldenrod_city
+	.4byte gMetatiles_goldenrod_city
+	.4byte gMetatileAttributes_goldenrod_city
+	.4byte NULL
+
+	.align 2
+gTileset_Slateport2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Slateport2
+	.4byte gTilesetPalettes_Slateport2
+	.4byte gMetatiles_Slateport2
+	.4byte gMetatileAttributes_Slateport2
+	.4byte NULL
+
+	.align 2
+gTileset_Sootopolis2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Sootopolis2
+	.4byte gTilesetPalettes_Sootopolis2
+	.4byte gMetatiles_Sootopolis2
+	.4byte gMetatileAttributes_Sootopolis2
+	.4byte NULL
+
+	.align 2
+gTileset_gTileset_General_fr2::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_gTileset_General_fr2
+	.4byte gTilesetPalettes_gTileset_General_fr2
+	.4byte gMetatiles_gTileset_General_fr2
+	.4byte gMetatileAttributes_gTileset_General_fr2
+	.4byte InitTilesetAnim_General
+
+	.align 2
+gTileset_silph_co2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_silph_co2
+	.4byte gTilesetPalettes_silph_co2
+	.4byte gMetatiles_silph_co2
+	.4byte gMetatileAttributes_silph_co2
+	.4byte NULL

@@ -78,7 +78,7 @@ Route119_WeatherInstitute_1F_Text_Grunt1Intro:
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
 	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "Blasted by a kid{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
 	.string "Our BOSS knows everything.\p"
@@ -96,11 +96,11 @@ Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 	.string "Oh, no…\n"
 	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "I should just take a nap in the bed{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string	"¡Mientras dormía, alguien se coló\n"
+	.string	"arriba!$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
 	.string "Wow, you're really strong!\p"
@@ -108,28 +108,74 @@ Route119_WeatherInstitute_1F_Text_WowYoureStrong:
 	.string "like you!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string	"Al PROFESOR le encanta la lluvia.\n"
+	.string	"Eso es un hecho.\p"
+	.string	"Pero si sigue lloviendo así, tendremos\n"
+	.string	"problemas. Eso también es un hecho.\p"
+	.string	"Por eso el PROFESOR está estudiando\n"
+	.string	"cómo hacer buen uso de esta lluvia.$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string	"En el primer piso del INSTITUTO\n"
+	.string	"estudiamos los fenómenos atmosféricos\l"
+	.string	"de la región de HOENN.\p"
+	.string	"Últimamente, estamos detectando casos\n"
+	.string	"aislados de sequía e inundaciones{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string	"¡Hola!\n"
+	.string	"¿Eres otro de esos científicos?\p"
+	.string	"No logro entender a qué\n"
+	.string	"ha venido DEVON…$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string	"Mira, una cama…\n"
+	.string	"¡A descansar!$"
+
+Route119_EventScript_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_631, Route119_Text_CientificoIntro, Route119_Text_CientificoDefeat
+	msgbox Route119_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_WeatherInstitute_1F_Tipo::
+lock
+faceplayer
+msgbox Route119_WeatherInstitute_1F_Tipo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route119_WeatherInstitute_1F_Tipo_Texto_1:
+	.string	"DEVON parece estar interesada en la\n"
+	.string	"investigación que están realizando\l"
+	.string	"aquí.$"
+
+Route119_WeatherInstitute_1F_EventScript_TM136::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_173, Route119_WeatherInstitute_1F_EventScript_ReceivedTM136
+	msgbox Route119_WeatherInstitute_1F_Text_TM136, MSGBOX_DEFAULT
+	giveitem ITEM_TM136
+	setflag FLAG_HOENN_173
+	msgbox Route119_WeatherInstitute_1F_Text_ExplainTM136, MSGBOX_DEFAULT
+	release
+	end
+
+Route119_WeatherInstitute_1F_EventScript_ReceivedTM136::
+	msgbox Route119_WeatherInstitute_1F_Text_ExplainTM136, MSGBOX_DEFAULT
+	release
+	end
+
+Route119_WeatherInstitute_1F_Text_TM136:
+.string "Sería todo un logro usar a nuestro\n"
+.string "favor los fenómenos metereológicos, ¿no?\l"
+.string "Lo cierto es que esto, de forma\l"
+.string "parcial, lo hemos logrado.\l"
+.string "¡Mira!$"
+
+Route119_WeatherInstitute_1F_Text_ExplainTM136:
+	.string "METEOROBOLA es un movimiento\n"
+	.string "mediocre por sí sola.\l"
+	.string "Sin embargo, bajo condiciones\l"
+	.string "climáticas, dobla su poder y se\l"
+	.string "adapta al tipo del clima en cuestión.$"
 

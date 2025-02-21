@@ -124,8 +124,8 @@
       "x": 5,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY",
-      "dest_warp_id": 14
+      "dest_map": "MAP_NONE",
+      "dest_warp_id": 127
     }
   ],
   "coord_events": [

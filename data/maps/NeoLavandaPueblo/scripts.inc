@@ -61,29 +61,44 @@ NeoLavandaPueblo_Text_4:
 
 NeoLavandaPueblo_Combate_Eusine::
 lock
-playse SE_SLIDING_DOOR
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_1
 waitmovement 0x0
 clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+playse SE_SLIDING_DOOR
+opendoor 18, 9
+waitdooranim
 addobject 5
-delay 20
+applymovement 5, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 18, 9
+waitdooranim
 playse SE_PIN
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 trainerbattle_no_intro TRAINER_TRAINER_76, NeoLavandaPueblo_Combate_Eusine_Texto_5
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_1
 waitmovement 0x0
 delay 20
@@ -92,13 +107,18 @@ delay 20
 playse SE_PIN
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_10 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_6
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
 waitmovement 0x0
+delay 10
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaPueblo_Combate_Eusine_Move_7
 waitmovement 0x0
@@ -115,15 +135,39 @@ applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_9
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox NeoLavandaPueblo_Combate_Eusine_Texto_14 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
-fadescreen 1
-delay 20
+playmoncry SPECIES_NOCTOWL, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 5
-playse SE_M_FLY
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
 setvar VAR_UNUSED_0x40F7, 206
 release
 end
+
+NeoLavandaPueblo_Combate_Eusine_Move_4.1:
+face_up
+delay_16
+delay_8
+face_player
+delay_16
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_16
+walk_in_place_left
+step_end
 
 NeoLavandaPueblo_Combate_Eusine_Move_9:
 face_right
@@ -214,7 +258,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_7:
 	.string "are complete…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_8:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_9:
 	.string "Oh, so{PAUSE 35}…{PAUSE 35} Do you think that I have\n"
@@ -240,6 +284,13 @@ NeoLavandaPueblo_Combate_Eusine_Texto_13:
 	.string "original LUGIA and HO-OH look like\l"
 	.string "amateurs?$"
 
+NeoLavandaPueblo_Combate_Eusine_Texto_14:
+	.string "Ante esta situación, es inútil\n"
+	.string "aferrarse a los POKÉMON de siempre. El\l"
+	.string "haber trabajado con tu organización me\l"
+	.string "hizo darme cuenta de una dura verdad:\l"
+	.string "todo el que no abrace el cambio está\l"
+	.string "condenado a desaparecer.$"
 
 NeoLavandaPueblo_Primer_Cartel::
 msgbox NeoLavandaPueblo_Primer_Cartel_Texto_1 MSGBOX_SIGN
@@ -287,6 +338,7 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Policía_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_2 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 7
@@ -335,11 +387,15 @@ applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, NeoLavandaPueblo_Policia_Move_6
 waitmovement 0x0
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_11
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Policía_Texto_15 MSGBOX_AUTOCLOSE
@@ -348,6 +404,7 @@ applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_13
 waitmovement 0x0
 applymovement 7, NeoLavandaPueblo_Policia_Move_14
 waitmovement 0x0
+delay 10
 msgbox NeoLavandaPueblo_Policía_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_15
 waitmovement 0x0
@@ -559,10 +616,7 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-giveitem ITEM_MACH_BIKE
-setflag FLAG_RECEIVED_BIKE
-setvar VAR_UNUSED_0x40F7, 217
-changeavatar 2
+warpsilent MAP_SNOWPOINT_CITY, 29, 41
 release
 end
 

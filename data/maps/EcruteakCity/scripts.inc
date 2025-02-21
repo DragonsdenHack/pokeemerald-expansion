@@ -202,35 +202,54 @@ EcruteakCity_Encuentro_Maestro::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_1
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+playse SE_DOOR
+opendoor 64, 21
+waitdooranim
 addobject 1
-playse SE_EXIT
+applymovement 1, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 64, 21
+waitdooranim
 msgbox EcruteakCity_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 delay 30
-fadescreen 1
 playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 1
-setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 1
+waitfieldeffect FLDEFF_NPCFLY_OUT
 delay 20
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+playse SE_DOOR
+opendoor 64, 21
+waitdooranim
 addobject 7
-playse SE_EXIT
+applymovement 7, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 64, 21
+waitdooranim
 delay 30
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 7, EcruteakCity_Encuentro_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox EcruteakCity_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, EcruteakCity_Encuentro_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox EcruteakCity_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, EcruteakCity_Encuentro_Maestro_Move_5
 waitmovement 0x0
+delay 10
 msgbox EcruteakCity_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 7, EcruteakCity_Encuentro_Maestro_Move_6
 applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_6
 waitmovement 0x0
@@ -253,15 +272,14 @@ applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_1
 waitmovement 0x0
 msgbox EcruteakCity_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
-fadescreen 1
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 7
-setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
-delay 20
+removeobject 7
+waitfieldeffect FLDEFF_NPCFLY_OUT
 setvar VAR_UNUSED_0x40F7, 158
 release
 end
@@ -368,6 +386,7 @@ step_end
 EcruteakCity_Encuentro_Maestro_Move_9:
 walk_fast_down
 walk_fast_down
+walk_fast_down
 walk_fast_left
 walk_fast_left
 walk_in_place_up
@@ -439,13 +458,13 @@ applymovement 15, Ecruteak_Conversacion_Agatha_Oak_Move_6
 waitmovement 0x0
 delay 20
 msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_13 MSGBOX_AUTOCLOSE
-fadescreen 1
 playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 15
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
 msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_14 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_15 MSGBOX_AUTOCLOSE
@@ -482,13 +501,13 @@ applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_5
 waitmovement 0x0
 msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_25 MSGBOX_AUTOCLOSE
 setflag FLAG_RECEIVED_SHOAL_SALT_3
-fadescreen 1
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 14
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 14
+waitfieldeffect FLDEFF_NPCFLY_OUT
 setvar VAR_UNUSED_0x40FE, 4
 release
 end
@@ -609,7 +628,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_14:
 	.string "long it lasts.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_15:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_16:
 .string "Oh! {PLAYER}?$"

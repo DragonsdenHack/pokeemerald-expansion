@@ -12,9 +12,11 @@ goto_if_gt ViasTrenCasaCampeon_Agatha_4
 compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 3
 goto_if_gt ViasTrenCasaCampeon_Agatha_2
 msgbox ViasTrenCasaCampeon_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTrenCasaCampeon_Agatha_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTrenCasaCampeon_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox ViasTrenCasaCampeon_Agatha_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 3, ViasTrenCasaCampeon_Agatha_Move_1
@@ -121,33 +123,46 @@ msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_8
 waitmovement 0x0
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_7
 waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_9
 waitmovement 0x0
-setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+setflag FLAG_HOENN_108
 removeobject 2
 clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
 addobject 3
 applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_10
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
 waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 6
 release
@@ -284,7 +299,7 @@ msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_5 MSGBOX_AUTOCLOSE
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_7 MSGBOX_DEFAULT
-givemon SPECIES_CALYREX, 70, ITEM_NONE
+givemon SPECIES_CALYREX, 90, ITEM_NONE
 waitfanfare
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 7
@@ -328,7 +343,7 @@ ViasTrenCasaCampeon_Combate_Campeona_Texto_6:
 	.string "I'd like you to have this.$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_7:
-.string "YOU OBTAINED A LV.70 CALYREX!$"
+.string "YOU OBTAINED A LV.90 CALYREX!$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_8:
 	.string "One of my recent hobbies has been\n"

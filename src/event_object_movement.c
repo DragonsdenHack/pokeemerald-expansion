@@ -560,6 +560,31 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_POKEMANIACOJOHTO 0x119D
 #define OBJ_EVENT_PAL_TAG_JASON 0x119E
 #define OBJ_EVENT_PAL_TAG_MIGUEL 0x119F
+#define OBJ_EVENT_PAL_TAG_REGIGIGAS 0x11A1
+#define OBJ_EVENT_PAL_TAG_INVERNA 0x11A2
+#define OBJ_EVENT_PAL_TAG_ORO 0x11A3
+#define OBJ_EVENT_PAL_TAG_SACHIKO 0X11A4
+#define OBJ_EVENT_PAL_TAG_RASMUS 0x11A5
+#define OBJ_EVENT_PAL_TAG_JIRACHI 0x11A6
+#define OBJ_EVENT_PAL_TAG_MILOTIC 0x11A7
+#define OBJ_EVENT_PAL_TAG_KYOGRE_PRIMAL 0x11A8
+#define OBJ_EVENT_PAL_TAG_KINGDRA 0x11A9
+#define OBJ_EVENT_PAL_TAG_JIRACHI2 0x11AA
+#define OBJ_EVENT_PAL_TAG_MILOTICP 0x11AB
+#define OBJ_EVENT_PAL_TAG_REGIGIGASP 0x11AC
+#define OBJ_EVENT_PAL_TAG_WHISMUR 0x11AD
+#define OBJ_EVENT_PAL_TAG_TEDDIURSA 0x11AE
+#define OBJ_EVENT_PAL_TAG_URSARING 0x11AF
+#define OBJ_EVENT_PAL_TAG_SCYTHER 0x11B0
+#define OBJ_EVENT_PAL_TAG_AGATHA3 0x11B1
+#define OBJ_EVENT_PAL_TAG_EXCHAMP 0x11B2
+#define OBJ_EVENT_PAL_TAG_MORFEO2 0x11B3
+#define OBJ_EVENT_PAL_TAG_OAK2 0x11B4
+#define OBJ_EVENT_PAL_TAG_GHOST 0x11B5
+#define OBJ_EVENT_PAL_TAG_NINETALESBOND 0x11B6
+#define OBJ_EVENT_PAL_TAG_GUARDIA 0x11B7
+#define OBJ_EVENT_PAL_TAG_STAKATAKA 0x11B8
+#define OBJ_EVENT_PAL_TAG_PRESIDENTE 0x11B9
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -727,6 +752,32 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Miguel, OBJ_EVENT_PAL_TAG_MIGUEL},
 	{gObjectEventPal_Zinnia, OBJ_EVENT_PAL_TAG_ZINNIA},
 	{gObjectEventPal_Pokemaniacojohto, OBJ_EVENT_PAL_TAG_POKEMANIACOJOHTO},
+	{gObjectEventPal_Regigigas, OBJ_EVENT_PAL_TAG_REGIGIGAS},
+	{gObjectEventPal_Inverna, OBJ_EVENT_PAL_TAG_INVERNA},
+	{gObjectEventPal_Oro, OBJ_EVENT_PAL_TAG_ORO},
+	{gObjectEventPal_Ariana, OBJ_EVENT_PAL_TAG_ARIANA},
+	{gObjectEventPal_Sachiko, OBJ_EVENT_PAL_TAG_SACHIKO},
+	{gObjectEventPal_Rasmus, OBJ_EVENT_PAL_TAG_RASMUS},
+	{gObjectEventPal_Jirachi, OBJ_EVENT_PAL_TAG_JIRACHI},
+	{gObjectEventPal_Milotic, OBJ_EVENT_PAL_TAG_MILOTIC},
+	{gObjectEventPal_Kyogre_Primal, OBJ_EVENT_PAL_TAG_KYOGRE_PRIMAL},
+	{gObjectEventPal_Kingdra, OBJ_EVENT_PAL_TAG_KINGDRA},
+	{gObjectEventPal_Jirachi2, OBJ_EVENT_PAL_TAG_JIRACHI2},
+	{gObjectEventPal_MiloticP, OBJ_EVENT_PAL_TAG_MILOTICP},
+	{gObjectEventPal_RegigigasP, OBJ_EVENT_PAL_TAG_REGIGIGASP},
+	{gObjectEventPal_Whismur, OBJ_EVENT_PAL_TAG_WHISMUR},
+	{gObjectEventPal_Teddiursa, OBJ_EVENT_PAL_TAG_TEDDIURSA},
+	{gObjectEventPal_Ursaring, OBJ_EVENT_PAL_TAG_URSARING},
+	{gObjectEventPal_Scyther, OBJ_EVENT_PAL_TAG_SCYTHER},
+	{gObjectEventPal_Agatha3, OBJ_EVENT_PAL_TAG_AGATHA3},
+	{gObjectEventPal_Exchamp, OBJ_EVENT_PAL_TAG_EXCHAMP},
+	{gObjectEventPal_Morfeo2, OBJ_EVENT_PAL_TAG_MORFEO2},
+	{gObjectEventPal_Oak2, OBJ_EVENT_PAL_TAG_OAK2},
+	{gObjectEventPal_Ghost, OBJ_EVENT_PAL_TAG_GHOST},
+	{gObjectEventPal_Ninetalesbond, OBJ_EVENT_PAL_TAG_NINETALESBOND},
+	{gObjectEventPal_Guardia, OBJ_EVENT_PAL_TAG_GUARDIA},
+	{gObjectEventPal_Stakataka, OBJ_EVENT_PAL_TAG_STAKATAKA},
+	{gObjectEventPal_Presidente, OBJ_EVENT_PAL_TAG_PRESIDENTE},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

@@ -30,7 +30,7 @@ OldaleTown_EventScript_MoveMartEmployee::
 	return
 
 OldaleTown_EventScript_CitySign::
-	msgbox OldaleTown_Text_CitySign, MSGBOX_SIGN
+	msgbox OldaleTown_Text_TownSign, MSGBOX_SIGN
 	end
 
 OldaleTown_EventScript_Girl::
@@ -344,8 +344,8 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string	"Quiero descansar un ratito,\n"
+	.string	"así que voy a guardar mi partida.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Hi!\n"
@@ -386,16 +386,16 @@ OldaleTown_Text_FinishedSketchingFootprints:
 	.string "own footprints…$"
 
 OldaleTown_Text_MayLetsGoBack:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Over here!\l"
-	.string "Let's hurry home!$"
+	.string	"AURA: ¡{PLAYER}{KUN}!\n"
+	.string	"¡Ven aquí, deprisa!\l"
+	.string	"¡Vamos al LABORATORIO!$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to my dad's\n"
-	.string "LAB now.\l"
-	.string "{PLAYER}, you should hustle back, too.$"
+	.string	"BRUNO: Me voy al LABORATORIO\n"
+	.string	"de mi padre.\l"
+	.string	"{PLAYER}, tú también deberías venir.$"
 
-OldaleTown_Text_CitySign:
-	.string "OLDALE TOWN\n"
-	.string "“Where things start off scarce.”$"
+OldaleTown_Text_TownSign:
+	.string	"PUEBLO ESCASO\n"
+	.string	"“Donde nunca pasa nada.”$"
 

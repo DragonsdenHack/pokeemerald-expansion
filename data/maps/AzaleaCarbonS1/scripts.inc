@@ -190,8 +190,9 @@ compare VAR_FORTREE_CITY_STATE, 3
 goto_if_gt AzaleaCarbonS1_Primer_Combate_2
 delay 10
 playse SE_PIN
-delay 10
 applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_1
+waitse
+delay 10
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_1 MSGBOX_AUTOCLOSE
 delay 30
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_2 MSGBOX_AUTOCLOSE
@@ -199,6 +200,7 @@ playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_3 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_108, AzaleaCarbonS1_Primer_Combate_Texto_4 
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_2
 waitmovement 0x0
 delay 20
@@ -214,6 +216,7 @@ special DrawWholeMapView
 delay 20
 applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_3
 waitmovement 0x0
+delay 10
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_FORTREE_CITY_STATE, 4
 release
@@ -269,14 +272,17 @@ compare VAR_FORTREE_CITY_STATE, 4
 goto_if_gt AzaleaCarbonS1_Segundo_Combate_2
 delay 10
 playse SE_PIN
-delay 10
 applymovement 17, AzaleaCarbonS1_Primer_Combate_Move_1
+waitse
+delay 10
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_PIN
 applymovement 17, AzaleaCarbonS1_Primer_Combate_Move_1
 waitmovement 0x0
+waitse
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE

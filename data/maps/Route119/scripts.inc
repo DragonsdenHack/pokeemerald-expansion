@@ -583,10 +583,9 @@ Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string "time ago…$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "Tch…\n"
-	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
-	.string "There's no way you can cycle here.$"
+	.string	"Uf… No hay nada que hacer…\p"
+	.string	"La hierba alta se enreda en las ruedas\n"
+	.string	"de la BICI. No se puede seguir{PAUSE 5}…{PAUSE 5}$"
 
 Route119_Text_CanYourMonMakeSecretBase:
 	.string "Can your POKÉMON use its SECRET POWER\n"
@@ -594,17 +593,343 @@ Route119_Text_CanYourMonMakeSecretBase:
 	.string "SECRET BASE?$"
 
 Route119_Text_RouteSignFortree:
-	.string "ROUTE 119\n"
-	.string "{RIGHT_ARROW} FORTREE CITY$"
+	.string	"RUTA 119\n"
+	.string	"{RIGHT_ARROW} CIUDAD ARBORADA$"
 
 Route119_Text_WeatherInstitute:
-	.string "WEATHER INSTITUTE$"
+	.string	"INSTITUTO METEOROLÓGICO$"
 
 Route119_Text_TrainerTipsDecoration:
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string	"PISTAS para ENTRENADORES\p"
+	.string	"Una BASE SECRETA se puede decorar\n"
+	.string	"hasta con dieciséis muebles\l"
+	.string	"y objetos de decoración.\p"
+	.string	"Escoge tus objetos favoritos y crea\n"
+	.string	"tu propia BASE SECRETA en el lugar\l"
+	.string	"que más te guste.$"
+
+Route119_Norman_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_1.1
+waitmovement 0x0
+delay 15
+goto Route119_Norman
+
+Route119_Norman_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_1
+waitmovement 0x0
+delay 15
+goto Route119_Norman
+
+Route119_Norman::
+msgbox Route119_Norman_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_2
+waitmovement 0x0
+delay 15
+applymovement 44, Route119_Norman_Move_3
+waitmovement 0x0
+msgbox Route119_Norman_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_4
+waitmovement 0x0
+msgbox Route119_Norman_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_5
+waitmovement 0x0
+msgbox Route119_Norman_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_5
+waitmovement 0x0
+msgbox Route119_Norman_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_6
+waitmovement 0x0
+msgbox Route119_Norman_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_7
+waitmovement 0x0
+msgbox Route119_Norman_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_8
+waitmovement 0x0
+msgbox Route119_Norman_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_10
+applymovement 44, Route119_Norman_Move_9
+waitmovement 0x0
+playse SE_PIN
+applymovement 44, Route119_Norman_Move_11
+waitmovement 0x0
+delay 15
+msgbox Route119_Norman_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 44, Route119_Norman_Move_7
+waitmovement 0x0
+msgbox Route119_Norman_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_2
+waitmovement 0x0
+msgbox Route119_Norman_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_8
+waitmovement 0x0
+msgbox Route119_Norman_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route119_Norman_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_12
+waitmovement 0x0
+msgbox Route119_Norman_Texto_14 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_8
+waitmovement 0x0
+msgbox Route119_Norman_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 44, Route119_Norman_Move_11
+waitmovement 0x0
+msgbox Route119_Norman_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_13
+waitmovement 0x0
+msgbox Route119_Norman_Texto_17 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Norman_Move_8
+waitmovement 0x0
+delay 15
+applymovement 44, Route119_Norman_Move_14
+waitmovement 0x0
+msgbox Route119_Norman_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_15
+waitmovement 0x0
+msgbox Route119_Norman_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_16
+waitmovement 0x0
+msgbox Route119_Norman_Texto_20 MSGBOX_AUTOCLOSE
+playfanfare MUS_REGISTER_MATCH_CALL
+msgbox Route119_Norman_Texto_21 MSGBOX_DEFAULT
+waitfanfare
+msgbox Route119_Norman_Texto_8.1 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_17
+waitmovement 0x0
+msgbox Route119_Norman_Texto_8.2 MSGBOX_AUTOCLOSE
+applymovement 44, Route119_Norman_Move_18
+waitmovement 0x0
+setflag FLAG_HOENN_27
+removeobject 44
+setvar VAR_UNUSED_0x40F8, 5
+release
+end
+
+Route119_Norman_Move_18:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Route119_Norman_Move_17:
+walk_right
+step_end
+
+Route119_Norman_Move_16:
+walk_in_place_left
+step_end
+
+Route119_Norman_Move_15:
+walk_left
+walk_left
+step_end
+
+Route119_Norman_Move_14:
+lock_facing_direction
+walk_slow_right
+unlock_facing_direction
+step_end
+
+Route119_Norman_Move_13:
+walk_left
+step_end
+
+Route119_Norman_Move_12:
+walk_up
+walk_left
+step_end
+
+Route119_Norman_Move_11:
+emote_exclamation_mark
+step_end
+
+Route119_Norman_Move_10:
+delay_16
+face_down
+delay_16
+delay_16
+face_right
+delay_16
+walk_in_place_right
+step_end
+
+Route119_Norman_Move_9:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Route119_Norman_Move_8:
+walk_in_place_right
+step_end
+
+Route119_Norman_Move_7:
+face_left
+step_end
+
+Route119_Norman_Move_6:
+face_right
+delay_16
+delay_16
+step_end
+
+Route119_Norman_Move_5:
+face_up
+step_end
+
+Route119_Norman_Move_4:
+walk_slow_right
+step_end
+
+Route119_Norman_Move_3:
+face_right
+delay_16
+step_end
+
+Route119_Norman_Move_2:
+walk_slow_left
+step_end
+
+Route119_Norman_Move_1.1:
+walk_up
+face_left
+step_end
+
+Route119_Norman_Move_1:
+walk_in_place_left
+step_end
+
+Route119_Norman_Texto_9:
+	.string "NORMAN: {PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
+
+Route119_Norman_Texto_10:
+	.string "Así que me entiendes.$"
+
+Route119_Norman_Texto_11:
+	.string "Ya veo, también te has expuesto a\n"
+	.string "muchas verdades incómodas. Pero, no\l"
+	.string "eres de HOENN, ¿verdad?$"
+
+Route119_Norman_Texto_12:
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 15}$"
+
+Route119_Norman_Texto_13:
+	.string "KANTO… así que el TEAM ROCKET y DEVON\n"
+	.string "están librando una guerra silenciosa.$"
+
+Route119_Norman_Texto_14:
+	.string "Pero, ¿por qué me cuentas esto?$"
+
+Route119_Norman_Texto_15:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 5}$"
+
+Route119_Norman_Texto_16:
+	.string "Crees que tenemos intereses comunes,\n"
+	.string "¿y por ello me quieres como contacto?$"
+
+Route119_Norman_Texto_17:
+	.string "Escucha, ¿{PLAYER}? El hijo del\n"
+	.string "PRESIDENTE está en una situación\l"
+	.string "similar al mío, ¿por qué debería de\l"
+	.string "fiarme más de vuestra organización?$"
+
+Route119_Norman_Texto_18:
+	.string "Oh{PAUSE 25}…{PAUSE 25} Vuestro LÍDER también{PAUSE 15}…{PAUSE 15} En ese\n"
+	.string "caso{PAUSE 15}…{PAUSE 5}$"
+
+Route119_Norman_Texto_19:
+	.string "No puedo prometerte nada ni estoy en\n"
+	.string "las altas esferas de DEVON. Solo soy un\l"
+	.string "LÍDER de GIMNASIO, al servicio de la\l"
+	.string "LIGA POKÉMON.$"
+
+Route119_Norman_Texto_20:
+	.string "Pero{PAUSE 25}…{PAUSE 25} si me entero de algo que pueda\n"
+	.string "comprometer el futuro de los\l"
+	.string "entrenadores en esta región, te lo haré\l"
+	.string "saber.$"
+
+Route119_Norman_Texto_21:
+	.string "¡{PLAYER} obtuvo el\n"
+	.string "contacto de NORMAN!$"
+
+Route119_Norman_Texto_1:
+	.string "NORMAN: Entonces… ni KANTO, ni JOHTO,\n"
+	.string "ni ahora HOENN.$"
+
+Route119_Norman_Texto_2:
+.string "Disculpa, ¿nos hemos visto antes?$"
+
+Route119_Norman_Texto_3:
+	.string "En el MUSEO OCEÁNICO, ¿no? Me suena\n"
+	.string "haberte visto también en CIUDAD OLIVO.$"
+
+Route119_Norman_Texto_4:
+	.string "Esta ruta es impresionante, ¿no crees?$"
+
+Route119_Norman_Texto_5:
+	.string "En otras regiones es imposible\n"
+	.string "encontrar una fauna tan salvaje, creí\l"
+	.string "que HOENN iba a ser diferente en muchos\l"
+	.string "otros aspectos.$"
+
+Route119_Norman_Texto_6:
+	.string "El cauce de las cosas nos empuja hacia\n"
+	.string "otro lado. La tecnología que han\l"
+	.string "desarrollado grandes empresas en las\l"
+	.string "sombras cambiará el modo de concebir el\l"
+	.string "combate POKÉMON para siempre.$"
+
+Route119_Norman_Texto_7:
+	.string "Supongo que tendré que resignarme.$"
+
+Route119_Norman_Texto_8:
+	.string "Pero, como nuevo LÍDER de CIUDAD\n"
+	.string "PETALIA, trataré de cambiar el sistema\l"
+	.string "desde dentro.$"
+
+Route119_Norman_Texto_8.1:
+	.string "Sea como sea, en algo tienen razón:\n"
+	.string "el gran público no está aún preparado\l"
+	.string "para un gran cambio.$"
+
+Route119_Norman_Texto_8.2:
+	.string "Que la LIGA POKÉMON permanezca\n"
+	.string "imperturbable será importante para\l"
+	.string "mantener la cordura.$"
+
+Route119_Primer_Policia::
+lock
+faceplayer
+msgbox Route119_Primer_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+Route119_Primer_Policia_Texto_1:
+	.string	"A ver cuándo terminan…\p"
+	.string	"¡Oye, tú! No te acerques al INSTITUTO\n"
+	.string	"METEOROLÓGICO. Es una advertencia.$"
+
+Route119_Segundo_Policia::
+lock
+faceplayer
+msgbox Route119_Segundo_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+Route119_Segundo_Policia_Texto_1:
+	.string	"Estas reuniones burocráticas…\p"
+	.string	"¡Oye, tú! No te acerques al INSTITUTO\n"
+	.string	"METEOROLÓGICO. DEVON está reunida.$"

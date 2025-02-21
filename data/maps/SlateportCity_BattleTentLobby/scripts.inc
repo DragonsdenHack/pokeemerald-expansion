@@ -199,12 +199,7 @@ SlateportCity_BattleTentLobby_Movement_UnusedEnterDoor::
 SlateportCity_BattleTentLobby_EventScript_TormentGiver::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM41, SlateportCity_BattleTentLobby_EventScript_ReceivedTorment
 	msgbox SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe, MSGBOX_DEFAULT
-	giveitem ITEM_TM41
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM41
-	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
 	release
 	end
 
@@ -304,6 +299,332 @@ SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
 	.string "if you don't have any tough POKÉMON.$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-	.string "Wouldn't it be nice if they had more of\n"
-	.string "a selection?$"
+	.string	"Yo pondría más variedad de estilos.\n"
+	.string	"¿No crees?$"
+
+SlateportCity_Museo_Secundaria_Caballero::
+lock
+msgbox SlateportCity_Museo_Caballero_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+SlateportCity_Museo_Caballero_Texto_1:
+	.string "… …$"
+
+
+SlateportCity_Museo_Move_2:
+walk_in_place_down
+step_end
+
+SlateportCity_Museo_Move_1:
+walk_in_place_up
+step_end
+
+SlateportCity_Museo_Move_3:
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+SlateportCity_Museo_Move_4:
+face_player
+step_end
+
+SlateportCity_Museo_Move_5:
+emote_exclamation_mark
+step_end
+
+SlateportCity_Museo_Secundaria::
+lock
+compare VAR_ROUTE117_STATE, 6
+goto_if_gt SlateportCity_Museo_Secundaria_Final
+compare VAR_ROUTE117_STATE, 4
+goto_if_gt SlateportCity_Museo_Secundaria_Despues
+compare VAR_ROUTE117_STATE, 3
+goto_if_gt SlateportCity_Museo_Secundaria_No_2
+applymovement 8, SlateportCity_Museo_Move_1
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 7, SlateportCity_Museo_Move_2
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 8, SlateportCity_Museo_Move_1
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 8, SlateportCity_Museo_Move_3
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_39
+removeobject 8
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, SlateportCity_Museo_Move_4
+waitmovement 0x0
+msgbox SlateportCity_Museo_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, SlateportCity_Museo_Move_5
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+setvar VAR_ROUTE117_STATE, 4
+msgbox SlateportCity_Museo_Secundaria_Texto_13 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SlateportCity_Museo_Secundaria_No
+goto SlateportCity_Museo_Secundaria_Si
+
+SlateportCity_Museo_Secundaria_Si::
+delay 15
+playse SE_PIN
+applymovement 7, SlateportCity_Museo_Move_5
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_21 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_23 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 5
+release
+end
+
+SlateportCity_Museo_Secundaria_Despues::
+msgbox SlateportCity_Museo_Secundaria_Texto_24 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Museo_Secundaria_Final::
+faceplayer
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox SlateportCity_Museo_Secundaria_Texto_25 MSGBOX_DEFAULT
+waitfanfare
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_26 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_27 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 1000000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox SlateportCity_Museo_Secundaria_Texto_28 MSGBOX_DEFAULT
+waitfanfare
+delay 20
+hidemoneybox
+msgbox SlateportCity_Museo_Secundaria_Texto_29 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox SlateportCity_Museo_Secundaria_Texto_30 MSGBOX_DEFAULT
+givemon SPECIES_RELICANTH, 60, ITEM_NONE
+waitfanfare
+msgbox SlateportCity_Museo_Secundaria_Texto_31 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 80
+fadescreen 0
+msgbox SlateportCity_Museo_Secundaria_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_33 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Museo_Secundaria_Texto_34 MSGBOX_AUTOCLOSE
+delay 15
+setflag FLAG_HOENN_38
+clearflag FLAG_HOENN_686
+clearflag FLAG_HOENN_651
+fadescreen 1
+delay 20
+removeobject 7
+addobject 9
+fadescreen 0
+setvar VAR_ROUTE117_STATE, 8
+release
+end
+
+SlateportCity_Museo_Secundaria_No_2::
+faceplayer
+msgbox SlateportCity_Museo_Secundaria_Texto_13.1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SlateportCity_Museo_Secundaria_No
+goto SlateportCity_Museo_Secundaria_Si
+
+
+SlateportCity_Museo_Secundaria_No::
+msgbox SlateportCity_Museo_Secundaria_Texto_14 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Museo_Secundaria_Texto_1:
+	.string "Esperamos ver esa magnífica obra en la\n"
+	.string "próxima exposición del MUSEO CALAGUA.$"
+
+SlateportCity_Museo_Secundaria_Texto_2:
+	.string "Por supuesto.$"
+
+SlateportCity_Museo_Secundaria_Texto_3:
+	.string "Será una de las principales atracciones\n"
+	.string "del evento. Si todo sale bien, su museo\l"
+	.string "cobrará mucha relevancia, se lo\l"
+	.string "garantizo.$"
+
+SlateportCity_Museo_Secundaria_Texto_4:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+SlateportCity_Museo_Secundaria_Texto_5:
+	.string "Estoy acabado…$"
+
+SlateportCity_Museo_Secundaria_Texto_6:
+	.string "¿Qué quieres, muchacho?$"
+
+SlateportCity_Museo_Secundaria_Texto_7:
+	.string "Me alegra ver jóvenes interesados en el\n"
+	.string "arte, pero no puedes ayudarme.$"
+
+SlateportCity_Museo_Secundaria_Texto_8:
+	.string "¿Dices ser un magnífico entrenador?$"
+
+SlateportCity_Museo_Secundaria_Texto_9:
+	.string "Ya he perdido toda esperanza, así que\n"
+	.string "te contaré mi situación.$"
+
+SlateportCity_Museo_Secundaria_Texto_10:
+	.string "La principal obra de nuestro museo ha\n"
+	.string "sido robada.$"
+
+SlateportCity_Museo_Secundaria_Texto_11:
+	.string "Tengo claras sospechas de quién ha\n"
+	.string "podido ser, pero no hay forma de\l"
+	.string "demostrarlo.$"
+
+SlateportCity_Museo_Secundaria_Texto_12:
+	.string "Solo un excelente entrenador podría\n"
+	.string "tener alguna oportunidad.$"
+
+SlateportCity_Museo_Secundaria_Texto_13:
+	.string "¿Me ayudarías?$"
+
+SlateportCity_Museo_Secundaria_Texto_13.1:
+	.string "¿Te lo has pensado mejor?\n"
+	.string "¿Me ayudarías entonces?$"
+
+SlateportCity_Museo_Secundaria_Texto_14:
+	.string "Oh{PAUSE 15}…{PAUSE 15} Después de esto, tendré que\n"
+	.string "renunciar a mi puesto…$"
+
+SlateportCity_Museo_Secundaria_Texto_15:
+	.string "¿De verdad? Escucha.$"
+
+SlateportCity_Museo_Secundaria_Texto_16:
+	.string "Este no es el único museo satélite de\n"
+	.string "CALAGUA, que es el principal museo de la\l"
+	.string "región.$"
+
+SlateportCity_Museo_Secundaria_Texto_17:
+	.string "En PUEBLO VERDEGAL existe otro museo.\n"
+	.string "Desde fuera, se ve más lujoso que este.$"
+
+SlateportCity_Museo_Secundaria_Texto_18:
+	.string "Sobre el papel, el dueño es un romántico\n"
+	.string "de los POKÉMON de HOENN, y no deja\l"
+	.string "entrar a nadie que no considere apto de\l"
+	.string "contemplar sus obras.$"
+
+SlateportCity_Museo_Secundaria_Texto_19:
+	.string "Pero{PAUSE 15}…{PAUSE 15} yo creo que todo eso es una\n"
+	.string "fachada, y que en ese lugar hay toda\l"
+	.string "una red de contrabando de obras.$"
+
+SlateportCity_Museo_Secundaria_Texto_20:
+	.string "La seguridad allí dentro es muy\n"
+	.string "estricta, y acceder a su galería\l"
+	.string "privada es imposible.$"
+
+SlateportCity_Museo_Secundaria_Texto_21:
+	.string "Sospecho que en esa galería está mi\n"
+	.string "obra{PAUSE 15}…{PAUSE 15} si no ha sido vendida en el\l"
+	.string "mercado negro ya.$"
+
+SlateportCity_Museo_Secundaria_Texto_22:
+	.string "Tu misión será abrirte paso por la\n"
+	.string "seguridad, y llegar hasta el fondo de\l"
+	.string "esa galería.$"
+
+SlateportCity_Museo_Secundaria_Texto_23:
+	.string "Si llega a estar ahí y lo recuperas,\n"
+	.string "salvarías mi carrera. Te recompensaré\l"
+	.string "como es debido.$"
+
+SlateportCity_Museo_Secundaria_Texto_24:
+	.string "Recuerda, el otro museo está en PUEBLO\n"
+	.string "VERDEGAL, al oeste de CIUDAD\l"
+	.string "MALVALONA.$"
+
+SlateportCity_Museo_Secundaria_Texto_25:
+	.string "¡{PLAYER} entregó la pintura del\n"
+	.string "MUSEO PORTUAL!$"
+
+SlateportCity_Museo_Secundaria_Texto_26:
+	.string "¡No puedo creerlo! ¡Entonces yo tenía\n"
+	.string "razón!$"
+
+SlateportCity_Museo_Secundaria_Texto_27:
+	.string "Lo que has hecho no tiene precio,\n"
+	.string "acepta este dinero.$"
+
+SlateportCity_Museo_Secundaria_Texto_28:
+	.string "¡Te has embolsado 1,000,000¥!$"
+
+SlateportCity_Museo_Secundaria_Texto_29:
+	.string "Toma este POKÉMON también, es\n"
+	.string "extremadamente raro.$"
+
+SlateportCity_Museo_Secundaria_Texto_30:
+	.string "¡¡OBTUVISTE un RELICANTH al NV.60!!$"
+
+SlateportCity_Museo_Secundaria_Texto_31:
+	.string "Y ahora{PAUSE 15}…{PAUSE 15} cuéntame, ¿qué ocurrió allí?$"
+
+SlateportCity_Museo_Secundaria_Texto_32:
+	.string "Esto no puede quedar así.$"
+
+SlateportCity_Museo_Secundaria_Texto_33:
+	.string "Me pondré en contacto con el MUSEO\n"
+	.string "CALAGUA, ese tipo no puede seguir al\l"
+	.string "mando del MUSEO VERDEGAL.$"
+
+SlateportCity_Museo_Secundaria_Texto_34:
+	.string "¡Pondré fin a su corrupción!$"
 

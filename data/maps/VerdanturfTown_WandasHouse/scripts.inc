@@ -95,10 +95,10 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 	.string "to another battle.$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
-	.string "WALLY: Please watch me, {PLAYER}.\n"
-	.string "I'm going to get stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string	"BLASCO: Obsérvame bien, {PLAYER}.\n"
+	.string	"Voy a ser más fuerte que tú.\p"
+	.string	"Y, cuando lo sea, te voy a desafiar\n"
+	.string	"a otro combate…$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
@@ -112,25 +112,24 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 	.string "the boy hope.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
-	.string "WALLY's gone away…\n"
-	.string "He slipped off on his own…$"
+	.string	"BLASCO se ha ido…\n"
+	.string	"Se ha marchado sin decir ni mu…$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-	.string "UNCLE: Is that right?\n"
-	.string "WALLY's gone away that far all by\l"
-	.string "himself…\p"
-	.string "Well, I have to give him credit--he is\n"
-	.string "my little brother's son.$"
+	.string	"TÍO: ¿Es cierto que BLASCO\n"
+	.string	"se ha ido tan lejos él solito?\p"
+	.string	"Bueno, no debería extrañarme:\n"
+	.string	"¡es el hijo de mi hermano!$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
-	.string "WANDA: You are?\n"
-	.string "Oh, right, I get it!\p"
-	.string "You're the {PLAYER} who WALLY was\n"
-	.string "telling me about.\p"
-	.string "I'm WALLY's cousin.\n"
-	.string "Glad to meet you!\p"
-	.string "I think WALLY's become a lot more lively\n"
-	.string "and healthy since he came here.$"
+	.string	"CLARA: ¿Tú eras…?\n"
+	.string	"Ah, sí, ya sé.\p"
+	.string	"Eres {PLAYER}. BLASCO siempre está\n"
+	.string	"hablando de ti.\p"
+	.string	"Soy la prima de BLASCO.\n"
+	.string	"¡Es un placer!\p"
+	.string	"Creo que a BLASCO se le ve mucho\n"
+	.string	"más sano y animado desde que está aquí.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "WANDA: Don't worry about WALLY.\n"
@@ -139,30 +138,63 @@ VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "POKÉMON with him, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-	.string "Thanks to you, I can see my girlfriend\n"
-	.string "every day.\l"
-	.string "Happy? You bet I am!$"
+	.string	"Ahora puedo ver a mi novia\n"
+	.string	"cada día. ¿Que si estoy contento?\l"
+	.string	"¿Acaso no se ve? Je, je, je…$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
-	.string "My daughter's boyfriend is a very\n"
-	.string "driven and passionate sort of person.\p"
-	.string "He's been digging a tunnel nonstop\n"
-	.string "just so he can see my daughter.\p"
-	.string "My daughter's a little concerned,\n"
-	.string "so she goes out to the tunnel a lot.$"
+	.string	"El novio de mi hija es de lo más\n"
+	.string	"lanzado y apasionado.\p"
+	.string	"Está cavando el túnel\n"
+	.string	"sin parar solo para poder verla.\p"
+	.string	"Mi hija está un poco preocupada,\n"
+	.string	"por eso va al túnel cada dos por tres.$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
-	.string "It's amazing. My daughter's boyfriend\n"
-	.string "was digging the tunnel by hand!\p"
-	.string "It's so incredible!$"
+	.string	"Es asombroso. ¡El novio de mi hija\n"
+	.string	"ha estado cavando el túnel a mano!\p"
+	.string	"¡No me lo puedo creer!$"
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
-	.string "If anything were to happen to WALLY,\n"
-	.string "I would never be able to look his\l"
-	.string "parents in PETALBURG in the eye…$"
+	.string	"Si algo le pasara a BLASCO, nunca\n"
+	.string	"podría volver a mirar a sus padres\l"
+	.string	"a la cara, cuando volviera a PETALIA…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
-	.string "WALLY was in EVER GRANDE?\p"
-	.string "His parents in PETALBURG would be\n"
-	.string "astonished to hear that!$"
+	.string	"¿BLASCO ha estado en COLOSALIA?\p"
+	.string	"¡Sus padres, que viven en PETALIA,\n"
+	.string	"estarían atónitos si lo supieran!$"
+
+VerdanturfTown_Blasco::
+lock
+faceplayer
+msgbox VerdanturfTown_Blasco_Texto_1 MSGBOX_NPC
+msgbox VerdanturfTown_Blasco_Texto_2 MSGBOX_NPC
+release
+end
+
+VerdanturfTown_Blasco_Texto_2:
+	.string "Siento que necesito vivir grandes\n"
+	.string "aventuras para apreciarla de verdad.\l"
+	.string "Ahora mismo, esta ausencia de estrés es\l"
+	.string "la verdadera enfermedad para mí.$"
+
+VerdanturfTown_Blasco_Texto_1:
+	.string "Esta serenidad{PAUSE 15}…{PAUSE 15}\n"
+	.string "Esta paz{PAUSE 15}…{PAUSE 15}$"
+
+VerdanturfTown_Tio::
+lock
+faceplayer
+msgbox VerdanturfTown_Tio_Texto_1 MSGBOX_NPC
+release
+end
+
+VerdanturfTown_Tio_Texto_1:
+	.string	"TÍO: No veo a BLASCO yendo\n"
+	.string	"tan lejos él solito.\p"
+	.string	"Bueno, no debería extrañarme:\n"
+	.string	"¡es el hijo de mi hermano!$"
+
+
 

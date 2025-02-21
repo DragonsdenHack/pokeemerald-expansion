@@ -9,13 +9,37 @@ compare VAR_SECRET_BASE_LOW_TV_FLAGS, 8
 goto_if_gt Route50_CasaCampeon_Dialogo_Anciana_3
 compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
 goto_if_gt Route50_CasaCampeon_Dialogo_Anciana_2
+playse SE_PIN
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_1
+waitmovement 0x0
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_2
+waitmovement 0x0
+delay 10
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Route50_CasaCampeon_Dialogo_Anciana_Move_3
+waitmovement 0x0
+delay 10
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 8
 release
 end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_2:
+face_left
+step_end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_3:
+face_player
+step_end
+
+Route50_CasaCampeon_Dialogo_Anciana_Move_1:
+emote_exclamation_mark
+step_end
 
 Route50_CasaCampeon_Dialogo_Anciana_2::
 msgbox Route50_CasaCampeon_Dialogo_Anciana_Texto_4 MSGBOX_AUTOCLOSE
@@ -66,10 +90,11 @@ msgbox Route50_CasaCampeon_Combate_Campeon_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CAMPEON_VENENO, Route50_CasaCampeon_Combate_Campeon_Texto_5
 delay 15
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_7 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_8 MSGBOX_DEFAULT
-givemon SPECIES_POIPOLE, 50, ITEM_NONE
+givemon SPECIES_POIPOLE, 90, ITEM_NONE
 waitfanfare
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_9 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 10
@@ -123,7 +148,7 @@ Route50_CasaCampeon_Combate_Campeon_Texto_7:
 	.string "one of my many journeys.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_8:
-.string "YOU OBTAINED A LV.50 POIPOLE!$"
+.string "YOU OBTAINED A LV.90 POIPOLE!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_9:
 	.string "As it grows, it becomes one of the\n"

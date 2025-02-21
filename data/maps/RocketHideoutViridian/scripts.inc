@@ -425,8 +425,9 @@ clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
 setflag FLAG_BADGE08_GET
 setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 fadescreen 1
-delay 20
+delay 10
 removeobject 1
+delay 10
 addobject 18
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 89

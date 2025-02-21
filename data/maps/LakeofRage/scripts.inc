@@ -37,8 +37,8 @@ LakeofRage_Text_8:
 LakeofRage9::
 lock     
 faceplayer     
-msgbox LakeofRage_Text_9, MSGBOX_DEFAULT
-release     
+msgbox LakeofRage_Text_9, MSGBOX_DEFAULT  
+release  
 end
 
 LakeofRage_Text_9:
@@ -46,9 +46,20 @@ LakeofRage_Text_9:
 .string "What kind of world are you inhabiting?\l"
 .string "GYARADOS can't even fly!$"
 
+LakeofRage_Text_10:
+.string "Prueba de combate.$"
 
+LakeofRage_Text_11:
+.string "No tengas miedo y escoge.$"
 
 LakeofRage10::
+choose_mons
+goto_if_eq VAR_RESULT, 0, LakeofRage10
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7
+msgbox LakeofRage_Text_11, MSGBOX_DEFAULT
+choose_mons
+goto_if_eq VAR_RESULT, 0, LakeofRage10
+multi_2_vs_2 1534, Cave_Regigigas_S5_2_Esmeralda_Texto_17, 1553, Cave_Regigigas_S5_2_Esmeralda_Texto_18, 1554, 7
 end
 
 
@@ -124,14 +135,31 @@ delay 20
 playse SE_PIN
 applymovement 15, LakeofRage_Fredo_Move_1
 waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LakeofRage_Fredo_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LakeofRage_Fredo_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, LakeofRage_Fredo_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox LakeofRage_Fredo_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, LakeofRage_Fredo_Move_2
 waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox LakeofRage_Fredo_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, LakeofRage_Fredo_Move_3
 waitmovement 0x0
+delay 10
+applymovement 15, LakeofRage_Fredo_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox LakeofRage_Fredo_Texto_6 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
 fadescreen 1
@@ -152,6 +180,14 @@ step_end
 
 LakeofRage_Fredo_Move_3:
 face_player
+step_end
+
+LakeofRage_Fredo_Move_2.1:
+face_down
+delay_16
+delay_16
+face_player
+delay_8
 step_end
 
 LakeofRage_Fredo_Texto_1:
@@ -176,19 +212,28 @@ LakeofRage_Fredo_Texto_4:
 	.string "leaders of JOHTO, especially the DRAGON\l"
 	.string "MASTER, would have acted immediately.$"
 
+LakeofRage_Fredo_Texto_4.1:
+	.string "Así es, nuestras propias costumbres\n"
+	.string "nos traicionaron.$"
+
 LakeofRage_Fredo_Texto_5:
-	.string "That's why I have faith in you all; I\n"
-	.string "know you don't act purely out of\l"
-	.string "altruism, but you have certain\l"
-	.string "principles, and with everything your\l"
-	.string "LEADER proposed at the GOLDENROD\l"
-	.string "meeting, something like what happened\l"
-	.string "in KANTO would never have occurred.$"
+.string "Ahora, tengo fe en vosotros.\p"
+	.string "Sé que no actuáis por altruismo,\n"
+	.string "pero tenéis principios.\p"
+	.string "Vuestro LÍDER estaba en los más\n"
+	.string "alto, cayó a la fosa más profunda\l"
+	.string "y logró subir de nuevo: sabe lo\l"
+	.string "que hay.$"
+
+LakeofRage_Fredo_Texto_5.1:
+	.string "Además, con lo que planteó en la\n"
+	.string "reunión de TRIGAL, algo como lo\l"
+	.string "de LANCE hubiera sido imposible.$"
 
 LakeofRage_Fredo_Texto_6:
-	.string "I think I've walked enough for now; it's\n"
-	.string "time to head back to MAHOGANY. Enjoy\l"
-	.string "the walk, {PLAYER}.$"
+.string "Creo que ya he andado bastante, es\n"
+	.string "hora de volver a CAOBA.\p"
+	.string "Disfruta del paseo, {PLAYER}.$"
 
 
 

@@ -91,22 +91,35 @@ playse SE_PIN
 applymovement 1, Indigo_Johto_Atlas_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_5
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Indigo_Johto_Atlas_Move_2
 applymovement 6, Indigo_Johto_Atlas_Move_6
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_2
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, Indigo_Johto_Atlas_Move_7
 waitmovement 0x0
+delay 10
 msgbox Indigo_Johto_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_8.1
 applymovement 6, Indigo_Johto_Atlas_Move_8
 waitmovement 0x0
 removeobject 6
@@ -115,6 +128,15 @@ playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 156
 release
 end
+
+Indigo_Johto_Atlas_Move_8.1:
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+step_end
 
 Indigo_Johto_Atlas_Texto_1:
 	.string "Only former CHAMPIONs or individuals\n"

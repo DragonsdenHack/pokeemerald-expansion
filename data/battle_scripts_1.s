@@ -403,6 +403,10 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectOctolock                @ EFFECT_OCTOLOCK
 	.4byte BattleScript_EffectClangorousSoul          @ EFFECT_CLANGOROUS_SOUL
 	.4byte BattleScript_EffectHit                     @ EFFECT_BOLT_BEAK
+	.4byte BattleScript_EffectHit                     @ EFFECT_EXPANDING_FORCE
+	.4byte BattleScript_EffectMeteorBeam              @ EFFECT_METEOR_BEAM
+	.4byte BattleScript_EffectHit                     @ EFFECT_RISING_VOLTAGE
+	.4byte BattleScript_EffectTerrainHit              @ EFFECT_DAMAGE_SET_TERRAIN
 
 BattleScript_EffectShellSideArm:
 	shellsidearmcheck
@@ -4188,7 +4192,7 @@ BattleScript_DoTripleKickAttack::
 	addbyte sTRIPLE_KICK_POWER, 10                                  @ triple kick gets +10 power
 	goto EffectTripleKick_DoDmgCalcs
 EffectTripleKick_TripleAxelBoost:
-	addbyte sTRIPLE_KICK_POWER, 20
+	addbyte sTRIPLE_KICK_POWER, 1
 EffectTripleKick_DoDmgCalcs:
 	addbyte sTRIPLE_KICK_POWER, 10
 	addbyte sMULTIHIT_STRING + 4, 1
@@ -4767,6 +4771,23 @@ BattleScript_SkullBashEnd::
 	jumpifnoholdeffect BS_ATTACKER, HOLD_EFFECT_POWER_HERB, BattleScript_MoveEnd
 	call BattleScript_PowerHerbActivation
 	goto BattleScript_TwoTurnMovesSecondTurn
+	
+BattleScript_EffectMeteorBeam::
+	jumpifstatus2 BS_ATTACKER, STATUS2_MULTIPLETURNS, BattleScript_TwoTurnMovesSecondTurn
+	jumpifword CMP_COMMON_BITS, gHitMarker, HITMARKER_NO_ATTACKSTRING, BattleScript_TwoTurnMovesSecondTurn
+	setbyte sTWOTURN_STRINGID, B_MSG_TURN1_METEOR_BEAM
+	call BattleScriptFirstChargingTurn
+	setstatchanger STAT_SPATK, 1, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_BUFF_ALLOW_PTR, BattleScript_MeteorBeamEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_MeteorBeamEnd
+	setgraphicalstatchangevalues
+	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_MeteorBeamEnd::
+	jumpifnoholdeffect BS_ATTACKER, HOLD_EFFECT_POWER_HERB, BattleScript_MoveEnd
+	call BattleScript_PowerHerbActivation
+	goto BattleScript_TwoTurnMovesSecondTurn	
 
 BattleScript_EffectTwister:
 BattleScript_FlinchEffect:
@@ -8438,6 +8459,55 @@ BattleScript_RoughSkinActivates::
 	call BattleScript_HurtAttacker
 	return
 
+@ z moves / effects
+BattleScript_ZMoveActivateDamaging::
+	printstring STRINGID_ZPOWERSURROUNDS
+	playanimation BS_ATTACKER, B_ANIM_ZMOVE_ACTIVATE, NULL
+	printstring STRINGID_ZMOVEUNLEASHED
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_ZMoveActivateStatus::
+	savetarget
+	printstring STRINGID_ZPOWERSURROUNDS
+	playanimation BS_ATTACKER, B_ANIM_ZMOVE_ACTIVATE, NULL
+	setzeffect
+	restoretarget
+	copybyte sSTATCHANGER, sSAVED_STAT_CHANGER
+	return
+
+BattleScript_ZEffectPrintString::
+	printfromtable gZEffectStringIds
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_RecoverHPZMove::
+	healthbarupdate BS_SCRIPTING
+	datahpupdate BS_SCRIPTING
+	printfromtable gZEffectStringIds
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_StatUpZMove::
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_BUFF_ALLOW_PTR, BattleScript_StatUpZMoveEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_StatUpZMoveEnd
+	setgraphicalstatchangevalues
+	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printstring STRINGID_ZMOVESTATUP
+	waitmessage B_WAIT_TIME_LONG
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_StatUpZMoveEnd:
+	return
+
+BattleScript_HealReplacementZMove::
+	playanimation BS_SCRIPTING B_ANIM_WISH_HEAL 0x0
+	printfromtable gZEffectStringIds
+	waitmessage B_WAIT_TIME_LONG
+	healthbarupdate BS_SCRIPTING
+	datahpupdate BS_SCRIPTING
+	return	
+
 BattleScript_RockyHelmetActivates::
 	@ don't play the animation for a fainted mon
 	jumpifabsent BS_TARGET, BattleScript_RockyHelmetActivatesDmg
@@ -9127,6 +9197,33 @@ BattleScript_JabocaRowapBerryActivate_Dmg:
 	call BattleScript_HurtAttacker
 	removeitem BS_TARGET
 	return
+	
+BattleScript_EffectTerrainHit:
+	attackcanceler
+	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
+	attackstring
+	ppreduce
+	critcalc
+	damagecalc
+	adjustdamage
+	attackanimation
+	waitanimation
+	effectivenesssound
+	hitanimation BS_TARGET
+	waitstate
+	healthbarupdate BS_TARGET
+	datahpupdate BS_TARGET
+	critmessage
+	waitmessage 0x40
+	resultmessage
+	waitmessage 0x40
+	setterrain BattleScript_TryFaint
+	playanimation BS_ATTACKER, B_ANIM_RESTORE_BG
+	printfromtable gTerrainStringIds
+
+BattleScript_TryFaint:
+	tryfaintmon BS_TARGET
+	goto BattleScript_MoveEnd	
 
 BattleScript_Pickpocket::
 	call BattleScript_AbilityPopUp

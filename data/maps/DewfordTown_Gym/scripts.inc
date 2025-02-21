@@ -250,7 +250,7 @@ DewfordTown_Gym_EventScript_LilithBrightenRoom::
 DewfordTown_Gym_EventScript_GymGuide::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_DEWFORD_GYM, DewfordTown_Gym_EventScript_GymGuidePostVictory
+	goto_if_set FLAG_SYS_CAVE_BATTLE, DewfordTown_Gym_EventScript_GymGuidePostVictory
 	msgbox DewfordTown_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
 	release
 	end
@@ -283,37 +283,40 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKÉMON.\p"
-	.string "Going against him with NORMAL-type\n"
-	.string "POKÉMON is asking for trouble.\p"
-	.string "FIGHTING POKÉMON will lay a serious\n"
-	.string "smack down on NORMAL POKÉMON,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
-	.string "the ocean floor.\p"
-	.string "But it will get brighter after defeating\n"
-	.string "the TRAINERS in your way.\p"
-	.string "Hey, okay, go for it!$"
+	.string	"Eh, ¿así que {PLAYER}?\n"
+	.string	"¿Camino del CAMPEONATO?\p"
+	.string	"MARCIAL, el LÍDER del GIMNASIO\n"
+	.string	"de AZULIZA, usa POKéMON de tipo\l"
+	.string	"LUCHA.\p"
+	.string	"¡Si lo desafías con POKéMON de tipo\n"
+	.string	"NORMAL, acabarás mal!\p"
+	.string	"Los POKéMON de tipo LUCHA pueden\n"
+	.string	"acabar con los POKéMON de tipo NORMAL\l"
+	.string	"en un santiamén, así que ten cuidado…\p"
+	.string	"Y lo que es aún peor: el GIMNASIO\n"
+	.string	"está oscuro como boca de lobo.\p"
+	.string	"Pero se irá iluminando a medida\n"
+	.string	"que derrotes a los ENTRENADORES\l"
+	.string	"que te encuentres en tu camino.\p"
+	.string	"Bueno, ¡ve a por él!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!$"
+	.string	"¡Guau! ¡Ahora sí que hay luz\n"
+	.string	"para dar y tomar!\p"
+	.string	"¡Y tu futuro también parece brillante!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
 	.string "¡Querer es poder! ¡Quiero derrotarte!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Tendría que haberlo querido más…$"
+	.string "Tendría que haberlo querido más{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "Tu ingenio supera mi fuerza bruta. ¡Tu\n"
 	.string "técnica es insuperable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "No es necesario molestar a Marcial… ¡Te\n"
+	.string "No es necesario molestar a MARCIAL… ¡Te\n"
 	.string "voy a aplastar!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
@@ -338,7 +341,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "Lucho en la oscuridad para quitarme\n"
 	.string "todos los miedos. Pero, al estar tan\l"
 	.string "oscuro, nunca he podido ver la cara de\l"
-	.string "MARCIAL…$"
+	.string "MARCIAL{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "¡Uaka! ¿Dando tumbos en la oscuridad?$"
@@ -359,7 +362,7 @@ DewfordTown_Gym_Text_BrendenDefeat:
 	.string "esta manera!$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "¡Por todos los mares! ¡ Mereces conocer\n"
+	.string "¡Por todos los mares! ¡Mereces conocer\n"
 	.string "a nuesto LIDER de GIMNASIO!$"
 
 DewfordTown_Gym_Text_CristianIntro:
@@ -373,24 +376,24 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "¡Me has ganado a mí! ¡A por la MEDALLA!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string	"¡Soy MARCIAL!\n"
+	.string	"¡El LÍDER del GIMNASIO de AZULIZA!\p"
+	.string	"He templado mi carácter entre las\n"
+	.string	"fieras olas de este lugar y me he\l"
+	.string	"endurecido en esta oscura cueva.\p"
+	.string	"¿Quieres desafiarme?\n"
+	.string	"Vamos a ver de qué eres capaz{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this GYM BADGE!$"
+	.string	"¡Guau y doble guau! ¡Eres peor que\n"
+	.string	"un maremoto! No lo esperaba…\p"
+	.string	"¡Estoy hundido en la miseria!\p"
+	.string	"De acuerdo. Te la has ganado.\n"
+	.string	"¡Toma esta MEDALLA de GIMNASIO!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string	"{PLAYER} recibió la MEDALLA PUÑO\n"
+	.string	"de MARCIAL.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "The KNUCKLE BADGE makes all POKÉMON\n"
@@ -405,7 +408,7 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 	.string "That TM08 contains BULK UP.\p"
 	.string "It's a move that raises both ATTACK\n"
 	.string "and DEFENSE stats.\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "Registered GYM LEADER BRAWLY\n"
@@ -437,9 +440,9 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string	"MARCIAL: Combatir es algo muy profundo.\n"
+	.string	"Nunca acabas de llegar al fondo.\l"
+	.string	"¡Igual que el mar de HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "BRAWLY: A wave may draw back, but it\n"
@@ -449,4 +452,24 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "Oh? You only have one POKÉMON\n"
 	.string "that can battle.\p"
 	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKÉMON.$"
+	.string "with at least two POKéMON.$"
+
+DewfordTown_Gym_Combate_Marcial::
+lock
+faceplayer
+goto_if_set FLAG_SYS_CAVE_BATTLE, LavaridgeTown_Gym_Combate_Marcial_Despues
+msgbox DewfordTown_Gym_Text_BrawlyIntro MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_MARCIAL, DewfordTown_Gym_Text_BrawlyDefeat
+setflag FLAG_SYS_CAVE_BATTLE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox DewfordTown_Gym_Text_ReceivedKnuckleBadge MSGBOX_DEFAULT
+waitfanfare
+msgbox DewfordTown_Gym_Text_BrawlyPostRematch MSGBOX_AUTOCLOSE
+release
+end
+
+LavaridgeTown_Gym_Combate_Marcial_Despues::
+msgbox DewfordTown_Gym_Text_BrawlyPostRematch MSGBOX_AUTOCLOSE
+release
+end

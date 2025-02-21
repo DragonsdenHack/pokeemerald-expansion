@@ -321,7 +321,7 @@ Route110_TrickHousePuzzle3_Text_JustinPostBattle:
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro:
 	.string "I don't know what's going on here.\n"
-	.string "I'm starting to feel sad…$"
+	.string "I'm starting to feel sad{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat:
 	.string "You… You're awful!$"

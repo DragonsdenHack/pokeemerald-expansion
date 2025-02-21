@@ -46,12 +46,9 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_4:
-	.string "BELL TOWER was built in honor of HO-OH,\n"
-	.string "just as BURNED TOWER, formerly known as\l"
-	.string "BRASS TOWER, was built in honor of\l"
-	.string "LUGIA. Those who came to know the\l"
-	.string "ultimate connection between the two\l"
-	.string "towers are no longer among us.$"
+	.string "Si pones un tizón apagado junto al que\n"
+	.string "está ardiendo, o aquel apagará a este, o\l"
+	.string "este hará que aquel prenda.$"
 
 
 

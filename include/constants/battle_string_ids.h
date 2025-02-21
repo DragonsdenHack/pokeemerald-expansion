@@ -609,9 +609,18 @@
 #define STRINGID_CANTESCAPEBECAUSEOFCURRENTMOVE       606
 #define STRINGID_NEUTRALIZINGGASENTERS                607
 #define STRINGID_NEUTRALIZINGGASOVER                  608
+#define STRINGID_METEORBEAM                           609
+#define STRINGID_ZPOWERSURROUNDS                      610
+#define STRINGID_ZMOVEUNLEASHED                       611
+#define STRINGID_ZMOVERESETSSTATS                     612
+#define STRINGID_ZMOVEALLSTATSUP                      613
+#define STRINGID_ZMOVEZBOOSTCRIT                      614
+#define STRINGID_ZMOVERESTOREHP                       615
+#define STRINGID_ZMOVESTATUP                          616
+#define STRINGID_ZMOVEHPTRAP                          617
 
 
-#define BATTLESTRINGS_COUNT                       609
+#define BATTLESTRINGS_COUNT                       618
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
@@ -662,6 +671,7 @@
 #define B_MSG_TURN1_PHANTOM_FORCE  8
 #define B_MSG_TURN1_GEOMANCY       9
 #define B_MSG_TURN1_FREEZE_SHOCK   10
+#define B_MSG_TURN1_METEOR_BEAM    11
 
 // gMoveWeatherChangeStringIds
 #define B_MSG_STARTED_RAIN      0
@@ -861,5 +871,14 @@
 #define B_MSG_TERRAINPREVENTS_MISTY     0
 #define B_MSG_TERRAINPREVENTS_ELECTRIC  1
 #define B_MSG_TERRAINPREVENTS_PSYCHIC   2
+
+// z effects
+#define B_MSG_Z_RESET_STATS   0
+#define B_MSG_Z_ALL_STATS_UP  1
+#define B_MSG_Z_BOOST_CRITS   2
+#define B_MSG_Z_FOLLOW_ME     3
+#define B_MSG_Z_RECOVER_HP    4
+#define B_MSG_Z_STAT_UP       5
+#define B_MSG_Z_HP_TRAP       6
 
 #endif // GUARD_CONSTANTS_BATTLE_STRING_IDS_H

@@ -26,6 +26,10 @@ applymovement 2, BillGarden_House1_Bill_Combate_move5
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move6
 waitmovement 0x0
 msgbox BillGarden_House1_Bill_Combate_Text_5 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, BillGarden_House1_Bill_Combate_move5.1
+waitmovement 0x0
+msgbox BillGarden_House1_Bill_Combate_Text_5.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BILL_1, Route25_BillHouse_Evento_Policia_text_10
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move7
 waitmovement 0x0
@@ -72,13 +76,16 @@ BillGarden_House1_Bill_Combate_Text_4:
 	.string "officers.$"
 
 BillGarden_House1_Bill_Combate_Text_5:
-	.string "But since you'll be sitting in the clank\n"
-	.string "for a long time, I'll at least give you\l"
-	.string "the honor of battling me. Lucky you. Not\l"
-	.string "every day does anyone have the\l"
-	.string "opportunity to witness the great\l"
-	.string "collection of BILL, number one\l"
-	.string "POKÉMANIAC!$"
+.string "Ya que vas a pasar mucho tiempo\n"
+	.string "reflexionando entre rejas, al\l"
+	.string "menos te daré el honor de combatir\l"
+	.string "conmigo, siéntete afortunado.$"
+
+BillGarden_House1_Bill_Combate_Text_5.1:
+	.string "¡No todos los días tiene uno la\n"
+	.string "suerte de presenciar la gran\l"
+	.string "colección de BILL, el POKEMANÍACO\l"
+	.string "número 1!$"
 
 BillGarden_House1_Bill_Combate_Text_6:
 	.string "This must be a joke.$"
@@ -123,6 +130,10 @@ step_end
 BillGarden_House1_Bill_Combate_move5:
 walk_right
 walk_down
+walk_in_place_right
+step_end
+
+BillGarden_House1_Bill_Combate_move5.1:
 walk_in_place_right
 step_end
 

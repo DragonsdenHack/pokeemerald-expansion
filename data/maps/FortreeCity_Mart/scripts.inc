@@ -22,6 +22,7 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_REVIVE
 	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_WOOD_MAIL
 	.2byte ITEM_NONE
 	release
@@ -40,16 +41,16 @@ FortreeCity_Mart_EventScript_Boy::
 	end
 
 FortreeCity_Mart_Text_SuperRepelBetter:
-	.string "SUPER REPEL lasts a long time,\n"
-	.string "and it gets the job done.\p"
-	.string "It's much better than an ordinary\n"
-	.string "REPEL.$"
+	.string	"Un SUPERREPEL dura mucho tiempo\n"
+	.string	"y es de lo más práctico.\p"
+	.string	"Es muchísimo mejor que el REPELENTE\n"
+	.string	"normal.$"
 
 FortreeCity_Mart_Text_StockUpOnItems:
-	.string "I always stock up on more items than\n"
-	.string "I'm sure I'll need.\p"
-	.string "You never know what might happen.\n"
-	.string "Better to be safe than sorry!$"
+	.string	"Siempre guardo más objetos\n"
+	.string	"de los que voy a usar jamás.\p"
+	.string	"Nunca sabes lo que puede pasar.\n"
+	.string	"¡Más vale prevenir…!$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
 	.string "A RARE CANDY makes a POKÉMON grow\n"

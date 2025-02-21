@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_10F",
   "name": "RocketHideout_10F",
   "layout": "LAYOUT_ROCKET_HIDEOUT_10F",
-  "music": "MUS_RG_POKE_MANSION",
+  "music": "MUS_B_FACTORY",
   "region_map_section": "MAPSEC_CELADON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

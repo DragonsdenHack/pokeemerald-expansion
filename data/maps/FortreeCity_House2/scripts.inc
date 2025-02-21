@@ -47,23 +47,23 @@ FortreeCity_House2_Text_HiddenPowersArousedByNature:
 	.string "living in natural environments…$"
 
 FortreeCity_House2_Text_CoinInWhichHand:
-	.string "Let this old woman see if your hidden\n"
-	.string "power has awoken…\p"
-	.string "I hold a coin in my hand.\p"
-	.string "Now, tell me, have I palmed it in\n"
-	.string "the right hand? Or in the left?$"
+	.string	"Deja que compruebe si tus poderes\n"
+	.string	"ocultos han despertado…\p"
+	.string	"Tengo una moneda en una mano.\p"
+	.string	"Ahora dime, ¿está en la mano derecha?\n"
+	.string	"¿O quizás en la izquierda?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string	"¡Has acertado!\p"
+	.string	"Volvamos a intentarlo.\p"
+	.string	"¿Dónde guardo la moneda?\n"
+	.string	"¿En la mano derecha o en la izquierda?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string	"¡Has acertado!\p"
+	.string	"Volvamos a intentarlo.\p"
+	.string	"¿Dónde guardo la moneda?\n"
+	.string	"¿En la mano derecha o en la izquierda?$"
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
 	.string "Oh! Splendid!\n"
@@ -76,6 +76,5 @@ FortreeCity_House2_Text_ExplainHiddenPower:
 	.string "with the POKÉMON.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
-	.string "No, too bad.\n"
-	.string "You guessed wrong.$"
+	.string	"Pues no. Te has equivocado.$"
 

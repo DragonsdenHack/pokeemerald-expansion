@@ -118,6 +118,7 @@ playse SE_PIN
 applymovement 2, MtEmberEntrance_Encuentro_Magno_Move_7
 waitmovement 0x0
 msgbox MtEmberEntrance_Encuentro_Magno_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtEmberEntrance_Encuentro_Magno_Move_8.1
 applymovement 2, MtEmberEntrance_Encuentro_Magno_Move_8
 waitmovement 0x0
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
@@ -126,6 +127,14 @@ playse MUS_RG_MT_MOON
 setvar VAR_ROUTE105_STATE, 4
 release
 end
+
+MtEmberEntrance_Encuentro_Magno_Move_8.1:
+delay_16
+face_down
+delay_16
+delay_8
+face_right
+step_end
 
 MtEmberEntrance_Encuentro_Magno_Texto_1:
 .string "????: Must be here.$"

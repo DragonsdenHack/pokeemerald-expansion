@@ -512,6 +512,78 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jones;
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Miguel;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sachiko;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regigigas;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Inverna;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Oro;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rasmus;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jirachi;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Milotic;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kyogre_Primal;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kingdra;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jirachi2;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Whismur;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RegigigasP;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MiloticP;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teddiursa;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ursaring;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scyther;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha3;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Exchamp;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Morfeo2;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Oak2;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ghost;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ninetalesbond;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Guardia;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Marowak;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Stakataka;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerNormalFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAltoRangoFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerEjecutivoFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminJefeNormalFishing;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerNormalUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAltoRangoUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerEjecutivoUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_PlayerAdminJefeNormalUnderwater;
+
+const struct ObjectEventGraphicsInfo gObjectEventoGraphicsInfo_Presidente;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -1019,6 +1091,42 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
 	[OBJ_EVENT_GFX_JONES] = &gObjectEventGraphicsInfo_Jones,
 	[OBJ_EVENT_GFX_MIGUEL] = &gObjectEventGraphicsInfo_Miguel,
+	[OBJ_EVENT_GFX_REGIGIGAS] = &gObjectEventGraphicsInfo_Regigigas,
+	[OBJ_EVENT_GFX_INVERNA] = &gObjectEventGraphicsInfo_Inverna,
+	[OBJ_EVENT_GFX_ORO] = &gObjectEventGraphicsInfo_Oro,
+	[OBJ_EVENT_GFX_SACHIKO] = &gObjectEventGraphicsInfo_Sachiko,
+	[OBJ_EVENT_GFX_RASMUS] = &gObjectEventGraphicsInfo_Rasmus,
+	[OBJ_EVENT_GFX_JIRACHI] = &gObjectEventGraphicsInfo_Jirachi,
+	[OBJ_EVENT_GFX_MILOTIC] = &gObjectEventGraphicsInfo_Milotic,
+	[OBJ_EVENT_GFX_KYOGRE_PRIMAL] = &gObjectEventGraphicsInfo_Kyogre_Primal,
+	[OBJ_EVENT_GFX_KINGDRA] = &gObjectEventGraphicsInfo_Kingdra,
+	[OBJ_EVENT_GFX_JIRACHI2] = &gObjectEventGraphicsInfo_Jirachi2,
+	[OBJ_EVENT_GFX_WHISMUR] = &gObjectEventGraphicsInfo_Whismur,
+	[OBJ_EVENT_GFX_REGIGIGASP] = &gObjectEventGraphicsInfo_RegigigasP,
+	[OBJ_EVENT_GFX_MILOTICP] = &gObjectEventGraphicsInfo_MiloticP,
+	[OBJ_EVENT_GFX_TEDDIURSA] = &gObjectEventGraphicsInfo_Teddiursa,
+	[OBJ_EVENT_GFX_URSARING] = &gObjectEventGraphicsInfo_Ursaring,
+	[OBJ_EVENT_GFX_SCYTHER] = &gObjectEventGraphicsInfo_Scyther,
+	[OBJ_EVENT_GFX_AGATHA3] = &gObjectEventGraphicsInfo_Agatha3,
+	[OBJ_EVENT_GFX_EXCHAMP] = &gObjectEventGraphicsInfo_Exchamp,
+	[OBJ_EVENT_GFX_MORFEO2] = &gObjectEventGraphicsInfo_Morfeo2,
+	[OBJ_EVENT_GFX_OAK2] = &gObjectEventGraphicsInfo_Oak2,
+	[OBJ_EVENT_GFX_GHOST] = &gObjectEventGraphicsInfo_Ghost,
+	[OBJ_EVENT_GFX_NINETALESBOND] = &gObjectEventGraphicsInfo_Ninetalesbond,
+	[OBJ_EVENT_GFX_GUARDIA] = &gObjectEventGraphicsInfo_Guardia,
+	[OBJ_EVENT_GFX_MAROWAK] = &gObjectEventGraphicsInfo_Marowak,
+	[OBJ_EVENT_GFX_STAKATAKA] = &gObjectEventGraphicsInfo_Stakataka,
+	[OBJ_EVENT_GFX_PLAYER_NORMAL_FISHING] = &gObjectEventoGraphicsInfo_PlayerNormalFishing,
+	[OBJ_EVENT_GFX_PLAYER_ALTORANGO_FISHING] = &gObjectEventoGraphicsInfo_PlayerAltoRangoFishing,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_FISHING] = &gObjectEventoGraphicsInfo_PlayerEjecutivoFishing,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_FISHING] = &gObjectEventoGraphicsInfo_PlayerAdminFishing,
+	[OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_FISHING] = &gObjectEventoGraphicsInfo_PlayerAdminJefeNormalFishing,
+	[OBJ_EVENT_GFX_PLAYER_NORMAL_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerNormalUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ALTORANGO_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAltoRangoUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerEjecutivoUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAdminUnderwater,
+	[OBJ_EVENT_GFX_PLAYER_ADMINJEFENORMAL_UNDERWATER] = &gObjectEventoGraphicsInfo_PlayerAdminJefeNormalUnderwater,
+	[OBJ_EVENT_GFX_PRESIDENTE] = &gObjectEventGraphicsInfo_Presidente,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

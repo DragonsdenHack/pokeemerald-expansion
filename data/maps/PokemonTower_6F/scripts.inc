@@ -55,31 +55,47 @@ waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 msgbox PokemonTower_6F_Combate_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2.1
+waitmovement 0x0
+delay 10
 msgbox PokemonTower_6F_Combate_Fuji_Texto_4 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
 playse SE_PIN
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 delay 20
 msgbox PokemonTower_6F_Combate_Fuji_Texto_5 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_2
+delay 5
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_1
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_5
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_1
 waitmovement 0x0
+delay 5
 applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_7 MSGBOX_AUTOCLOSE
@@ -96,7 +112,8 @@ applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
 waitmovement 0x0
 delay 20
 playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 7
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_8
@@ -113,6 +130,7 @@ applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
 applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
 applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
 waitmovement 0x0
+waitse
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 addobject 11
 applymovement 11, PokemonTower_6F_Combate_Fuji_Move_9
@@ -123,6 +141,13 @@ waitmovement 0x0
 applymovement 11, PokemonTower_6F_Combate_Fuji_Move_11
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonTower_6F_Combate_Fuji_Texto_12.1 MSGBOX_AUTOCLOSE
+playse SE_USE_ITEM
+special HealPlayerParty
+waitse
+delay 20
+msgbox PokemonTower_6F_Combate_Fuji_Texto_12.2 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 fadescreen 1
@@ -136,6 +161,15 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 48
 release
 end
+
+PokemonTower_6F_Combate_Fuji_Move_2.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
+step_end
 
 PokemonTower_6F_Combate_Fuji_Texto_1:
 	.string "GRUNTS: So strong old man, not even the\n"
@@ -201,6 +235,13 @@ PokemonTower_6F_Combate_Fuji_Texto_12:
 	.string "talk in peace, I trust you to prevent\l"
 	.string "even the slightest speck of dust from\l"
 	.string "getting into the meeting.$"
+
+PokemonTower_6F_Combate_Fuji_Texto_12.1:
+	.string "Para ello, quiero a tus POKÉMON\l"
+	.string "en plena forma, los curaré.$"
+
+PokemonTower_6F_Combate_Fuji_Texto_12.2:
+.string "Confío en ti.$"
 
 PokemonTower_6F_Combate_Fuji_Move_1:
 walk_in_place_left
@@ -296,14 +337,20 @@ waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_USE_ITEM
 special HealPlayerParty
+waitse
 delay 20
 applymovement 12, PokemonTower_6F_Cultistas_Move_2.2
 waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_12 MSGBOX_AUTOCLOSE
-fadescreen 1
-delay 20
+delay 10
+playse SE_M_FAINT_ATTACK
+setflag FLAG_HIDE_ROUTE_119_SCOTT
 removeobject 12
-fadescreen 0
+waitse
+delay 35
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Lavender_Secta_Pasadizo_2_Esencia_Move_8
+waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 49
 release
 end

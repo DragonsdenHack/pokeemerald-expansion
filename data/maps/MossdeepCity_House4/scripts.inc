@@ -17,9 +17,6 @@ MossdeepCity_House4_EventScript_CanBattleAtSecretBases::
 MossdeepCity_House4_EventScript_NinjaBoy::
 	lock
 	faceplayer
-	special CheckPlayerHasSecretBase
-	goto_if_eq VAR_RESULT, FALSE, MossdeepCity_House4_EventScript_NoSecretBase
-	special GetSecretBaseNearbyMapName
 	msgbox MossdeepCity_House4_Text_YouMadeSecretBaseNearX, MSGBOX_DEFAULT
 	release
 	end
@@ -40,8 +37,9 @@ MossdeepCity_House4_EventScript_Skitty::
 	end
 
 MossdeepCity_House4_Text_BrotherLikesToFindBases:
-	.string "My little brother says he likes to go\n"
-	.string "find people's SECRET BASES.$"
+	.string	"Mi hermano pequeño dice que quiere\n"
+	.string	"encontrar las BASES SECRETAS\l"
+	.string	"de otros ENTRENADORES.$"
 
 MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
 	.string "My little brother says he likes to\n"
@@ -49,13 +47,14 @@ MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
 	.string "POKÉMON battles.$"
 
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
-	.string "Was it you who made a SECRET BASE\n"
-	.string "near {STR_VAR_1}?$"
+	.string	"Tú tienes una BASE SECRETA\n"
+	.string	"en... ¡Oh! ¡4 regiones diferentes!\l"
+	.string	"¡Eres todo un hombre de negocios!$"
 
 MossdeepCity_House4_Text_MakeSecretBase:
-	.string "You should make a SECRET BASE\n"
-	.string "somewhere. I'll go find it!$"
+	.string	"Deberías crear una BASE SECRETA\n"
+	.string	"en alguna parte. ¡Yo iría a buscarla!$"
 
 MossdeepCity_House4_Text_Skitty:
-	.string "SKITTY: Miyaan?$"
+	.string	"DELCATTY: ¿Delmiau?$"
 

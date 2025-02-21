@@ -697,7 +697,7 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-	.string "You're being watched…$"
+	.string "You're being watched{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
 	.string "Hah? Grrr…\p"

@@ -81,6 +81,8 @@ delay 10
 playse SE_PIN
 applymovement 11, Route52_MazeP1_Combate_Ladron_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 11, Route52_MazeP1_Combate_Ladron_Move_3
 waitmovement 0x0
 msgbox Route52_MazeP1_Combate_Ladron_Texto_2 MSGBOX_AUTOCLOSE
@@ -88,6 +90,8 @@ delay 15
 playse SE_PIN
 applymovement 11, Route52_MazeP1_Combate_Ladron_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route52_MazeP1_Combate_Ladron_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route52_MazeP1_Combate_Ladron_Texto_4 MSGBOX_AUTOCLOSE
@@ -95,11 +99,15 @@ applymovement 11, Route52_MazeP1_Combate_Ladron_Move_5
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_LADRON_5, Route52_MazeP1_Combate_Ladron_Texto_5
 msgbox Route52_MazeP1_Combate_Ladron_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, Route52_MazeP1_Combate_Ladron_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route52_MazeP1_Combate_Ladron_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 11, Route52_MazeP1_Combate_Ladron_Move_7
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_SKY_PILLAR_WALLACE
 removeobject 11
 setvar VAR_UNUSED_0x4091, 7
@@ -154,6 +162,7 @@ step_end
 
 Route52_MazeP1_Combate_Ladron_Move_4:
 walk_fast_up
+delay_8
 walk_fast_left
 step_end
 
@@ -187,12 +196,22 @@ msgbox Route52_MazeP1_Combates_Finales_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route52_MazeP1_Combates_Finales_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route52_MazeP1_Combates_Finales_Texto_3 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_5
+waitmovement 0x0
+waitse
+delay 10
+msgbox Route52_MazeP1_Combates_Finales_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route52_MazeP1_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_1
@@ -207,6 +226,7 @@ delay 20
 playse SE_PIN
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_5
 waitmovement 0x0
+waitse
 delay 15
 playse MUS_RG_ENCOUNTER_ROCKET
 msgbox Route52_MazeP1_Combates_Finales_Texto_7 MSGBOX_AUTOCLOSE
@@ -230,10 +250,14 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_5
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route52_MazeP1_Combates_Finales_Texto_13 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_10
 waitmovement 0x0
+waitse
+delay 10
 msgbox Route52_MazeP1_Combates_Finales_Texto_14 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route52_MazeP1_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
@@ -244,6 +268,11 @@ msgbox Route52_MazeP1_Combates_Finales_Texto_15 MSGBOX_AUTOCLOSE
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_9
 waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_9.1
+waitmovement 0x0
+msgbox Route52_MazeP1_Combates_Finales_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
 setvar VAR_UNUSED_0x4091, 8
 msgbox Route52_MazeP1_Combates_Finales_Texto_17 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -261,9 +290,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox Route52_MazeP1_Combates_Finales_Texto_19 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox Route52_MazeP1_Combates_Finales_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 12, Route52_MazeP1_Combates_Finales_Move_12
 applymovement 4, Route52_MazeP1_Combates_Finales_Move_13
@@ -273,6 +301,13 @@ end
 
 Route52_MazeP1_Combates_Finales_No::
 msgbox Route52_MazeP1_Combates_Finales_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_10
+waitmovement 0x0
+waitse
+delay 10
+msgbox Route52_MazeP1_Combates_Finales_Texto_21.1 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
 fadescreen 1
 delay 20
@@ -288,55 +323,75 @@ fadescreen 0
 release
 end
 
+Route52_MazeP1_Combates_Finales_Move_9.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
 
 Route52_MazeP1_Combates_Finales_Texto_1:
 .string "So, CHIEF ADMIN. {PLAYER}, aren't you?$"
 
 Route52_MazeP1_Combates_Finales_Texto_2:
-	.string "Come in. After all, we're both\n"
-	.string "businessmen. You don't hold a grudge\l"
-	.string "against me for those 500 POKÉ I\l"
-	.string "swindled you out of, now that you have\l"
-	.string "millions, right?$"
+.string "Vamos, pasa. Después de todo, los\n"
+	.string "dos somos hombres de negocios.\p"
+	.string "No me guardas rencor por esos\n"
+	.string "500¥ que te estafé, ahora que\l"
+	.string "tienes millones, ¿verdad?$"
 
 Route52_MazeP1_Combates_Finales_Texto_3:
-	.string "I must thank you, {PLAYER}. Without\n"
-	.string "all the efforts of TEAM ROCKET to\l"
-	.string "modernize JOHTO in these past months,\l"
-	.string "we would have never achieved such\l"
-	.string "success. You can't imagine the number\l"
-	.string "of rare POKÉMON we've sold to those\l"
-	.string "EXECUTIVES in GOLDENROD.$"
+.string "Debo darte las gracias, {PLAYER}.$"
+
+Route52_MazeP1_Combates_Finales_Texto_3.1:
+	.string "Sin todos los esfuerzos del TEAM\n"
+	.string "ROCKET por modernizar JOHTO en\l"
+	.string "estos últimos meses, no hubiéramos\l"
+	.string "tenido todo este éxito.\p"
+	.string "No te imaginas la cantidad de\n"
+	.string "POKÉMON raros que hemos vendido\l"
+	.string "a esos EJECUTIVOS de TRIGAL.$"
 
 Route52_MazeP1_Combates_Finales_Texto_4:
-.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route52_MazeP1_Combates_Finales_Texto_5:
-	.string "How do I know that the TEAM ROCKET is\n"
-	.string "behind everything? I have my own\l"
-	.string "connections, and I also hired\l"
-	.string "scientists who worked for you. Several\l"
-	.string "of them have introduced us to MEGA\l"
-	.string "EVOLUTION. When you have money, you\l"
-	.string "can buy anything. Isn't that right,\l"
-	.string "{PLAYER}?$"
+.string "¿Cómo sé que el TEAM ROCKET\n"
+	.string "está detrás de todo?\p"
+	.string "Yo también tengo mis contactos, y\n"
+	.string "también contrato a científicos que\l"
+	.string "trabajaron para vosotros, varios\l"
+	.string "de ellos nos han introducido en la\l"
+	.string "MEGA-EVOLUCIÓN.\p"
+	.string "Cuando tienes dinero, puedes comprar\n"
+	.string "cualquier cosa, incluso lealtad.\p"
+	.string "Tú lo sabes bien.$"
 
 Route52_MazeP1_Combates_Finales_Texto_6:
-	.string "Now is when we both make peace,\n"
-	.string "{PLAYER}. It's beneficial for both of\l"
-	.string "us. There's no need for our interests to\l"
-	.string "conflict. Don't you think so?$"
+.string "Ahora es cuando ambos hacemos las\n"
+	.string "paces, a los dos nos va bien,\l"
+	.string "{PLAYER}. No hay necesidad de\l"
+	.string "confrontar nuestros intereses.\p"
+	.string "¿Verdad?$"
 
 Route52_MazeP1_Combates_Finales_Texto_7:
-	.string "You don't negotiate with scammers? Who\n"
-	.string "do you think we are? Now you'll learn\l"
-	.string "some manners; you're still nothing but a\l"
-	.string "common ROCKET no matter how\l"
-	.string "well-dressed you are!$"
+.string "¿No negocias con estafadores?\p"
+	.string "¿Por quién nos tomas?\p"
+	.string "¡Ahora aprenderás modales!\p"
+	.string "¡No sigues siendo más que un\n"
+	.string "vulgar ROCKET, por mucho que\l"
+	.string "ahora vayas trajeado!$"
 
 Route52_MazeP1_Combates_Finales_Texto_8:
-	.string "Wrong answer, {PLAYER}. Now, you'll\n"
-	.string "agree to our terms the hard way.$"
+.string "Respuesta equivocada, {PLAYER}.\p"
+	.string "¡Ahora accederás a nuestras\n"
+	.string "condiciones por las malas!$"
 
 Route52_MazeP1_Combates_Finales_Texto_9:
 .string "We already considered this could happen.$"
@@ -363,47 +418,57 @@ Route52_MazeP1_Combates_Finales_Texto_13:
 .string "NO!$"
 
 Route52_MazeP1_Combates_Finales_Texto_14:
-	.string "It has cost us millions to replicate\n"
-	.string "MEGA EVOLUTION. How is it not enough to\l"
-	.string "knock you down after two battles?$"
+.string "¡Nos ha costado millones reproducir\n"
+	.string "la MEGA-EVOLUCIÓN!\p"
+	.string "¿Cómo no es suficiente para\n"
+	.string "tumbarte después de 2 combates?$"
 
 Route52_MazeP1_Combates_Finales_Texto_15:
-.string "Okay {PLAYER}. You win.$"
+.string "Muy bien, {PLAYER}. Tú ganas.$"
 
 Route52_MazeP1_Combates_Finales_Texto_16:
-	.string "I understand that TEAM ROCKET wants\n"
-	.string "to monopolize and have absolute\l"
-	.string "control over both regions, I won't\l"
-	.string "resist. Therefore, my offer is as\l"
-	.string "follows: 2,000,000 POKÉ, in cash for\l"
-	.string "you right now, and 10% of our profits\l"
-	.string "will go to your JOHTO branch.$"
+.string "Entiendo que el TEAM ROCKET quiera\n"
+	.string "tener el monopolio y control\l"
+	.string "absoluto de las dos regiones.$"
+
+Route52_MazeP1_Combates_Finales_Texto_16.1:
+	.string "No me opondré, es por ello que\n"
+	.string "mi oferta es la siguiente:\p"
+	.string "2.000.000¥ en efectivo para ti, en\n"
+	.string "este mismo momento, y el 10% de\l"
+	.string "nuestros beneficios futuros irán\l"
+	.string "para vuestra sucursal en JOHTO.$"
 
 Route52_MazeP1_Combates_Finales_Texto_17:
 .string "Do you accept the deal?$"
 
 Route52_MazeP1_Combates_Finales_Texto_18:
-.string "Nice!\n"
-	.string "See, if each of us contributes a bit, we\l"
-	.string "can come to an agreement, right?! This\l"
-	.string "is for you!$"
+.string "¡Bien!\p"
+	.string "¿¡Ves que si cada uno pone un poco\n"
+	.string "de su parte, puede llegarse a un\l"
+	.string "buen acuerdo?!\p"
+	.string "¡Aquí tienes!$"
 
 Route52_MazeP1_Combates_Finales_Texto_19:
-	.string "You've just earned 2 MILLION POKÉ!$"
+	.string "¡Te has embolsado 2.000.000¥!$"
 
 Route52_MazeP1_Combates_Finales_Texto_20:
-	.string "Now, if you excuse us, we have a\n"
-	.string "business to manage, or do you want to\l"
-	.string "forfeit potential profits for yourself\l"
-	.string "too?$"
+.string "Ahora, si nos disculpas, tenemos\n"
+	.string "que seguir llevando el negocio.\p"
+	.string "¿O no querrás perder potenciales\n"
+	.string "beneficios para ti también?$"
 
 Route52_MazeP1_Combates_Finales_Texto_21:
-	.string "So you don't yield an inch, huh? All\n"
-	.string "right, we'll leave, but remember this,\l"
-	.string "{PLAYER}! With your actions, TEAM\l"
-	.string "ROCKET has just gained an enemy. I'll\l"
-	.string "make sure everyone knows who's pulling\l"
-	.string "the strings from the shadows!$"
+.string "Así que no cedes ni un ápice, ¿eh?\p"
+	.string "Está bien, nos iremos.$"
+
+Route52_MazeP1_Combates_Finales_Texto_21.1:
+	.string "¡Pero recuerda esto, {PLAYER}!\p"
+	.string "Con tus acciones, el TEAM ROCKET\n"
+	.string "acaba de ganar un enemigo.\p"
+	.string "¡Me encargaré de que todos sepan\n"
+	.string "quienes son los que manejan los\l"
+	.string "hilos desde las sombras!$"
 
 Route52_MazeP1_Combates_Finales_Move_1:
 face_right
@@ -433,6 +498,7 @@ step_end
 
 Route52_MazeP1_Combates_Finales_Move_6:
 walk_in_place_right
+delay_16
 face_down
 step_end
 
@@ -449,7 +515,9 @@ walk_down
 step_end
 
 Route52_MazeP1_Combates_Finales_Move_10:
+lock_facing_direction
 walk_fast_up
+unlock_facing_direction
 step_end
 
 Route52_MazeP1_Combates_Finales_Move_11:
@@ -458,11 +526,13 @@ step_end
 
 Route52_MazeP1_Combates_Finales_Move_12:
 walk_up
+delay_16
 walk_in_place_down
 step_end
 
 Route52_MazeP1_Combates_Finales_Move_13:
 walk_right
+delay_16
 walk_in_place_left
 step_end
 
@@ -474,12 +544,16 @@ delay 10
 playse SE_PIN
 applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_3
 waitmovement 0x0
 playse MUS_RG_ENCOUNTER_ROCKET
 msgbox Route52_MazeP1_Combate_Primer_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_4
 waitmovement 0x0
+delay 10
 trainerbattle_no_intro TRAINER_STEVEN, Route52_MazeP1_Combate_Primer_Cientifico_Texto_3
 setvar VAR_UNUSED_0x4091, 5
 release
@@ -543,12 +617,16 @@ delay 10
 playse SE_PIN
 applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_3
 waitmovement 0x0
+waitse
+delay 10
 applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_4
 waitmovement 0x0
 playse MUS_RG_ENCOUNTER_ROCKET
 msgbox Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_5
 waitmovement 0x0
+delay 10
 trainerbattle_no_intro TRAINER_ANABEL, Route52_MazeP1_Combate_Segundo_Cientifico_Texto_3
 setvar VAR_UNUSED_0x4091, 6
 release

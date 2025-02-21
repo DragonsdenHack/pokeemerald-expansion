@@ -1677,15 +1677,21 @@ goto BaseRocketHoennS2_Dialogo_Andra
 
 
 BaseRocketHoennS2_Dialogo_Andra::
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_3
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_3 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_4
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_4
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_6 MSGBOX_AUTOCLOSE
@@ -1693,16 +1699,63 @@ delay 20
 applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_5
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_9 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
 fadescreen 1
 delay 20
 removeobject 35
 fadescreen 0
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+clearflag FLAG_HOENN_90
+clearflag FLAG_HOENN_91
+clearflag FLAG_HOENN_92
+clearflag FLAG_HOENN_93
+clearflag FLAG_HOENN_94
+clearflag FLAG_HOENN_95
+clearflag FLAG_HOENN_96
+clearflag FLAG_HOENN_97
+clearflag FLAG_HOENN_98
+clearflag FLAG_HOENN_99
+setflag FLAG_HOENN_640
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_632
 setvar VAR_UNUSED_0x40F7, 188
 release
 end
@@ -1775,7 +1828,7 @@ BaseRocketHoennS2_Dialogo_Andra_Texto_5:
 	.string "if you see him again.$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_6:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 BaseRocketHoennS2_Dialogo_Andra_Texto_7:
 	.string "You know, {PLAYER}? I'd like to show\n"

@@ -1,15 +1,18 @@
 BaseRocketHoenn_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoenn_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoenn_OnFrame
 	.byte 0
 
 BaseRocketHoenn_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 184, BaseRocketHoenn_Escena_Lavanda
+map_script_2 VAR_UNUSED_0x40F7, 217, BaseRocketHoenn_Ejecutivo_Bienvenida
 	.2byte 0
 
 
 BaseRocketHoenn_Escena_Lavanda::
 setvar VAR_UNUSED_0x40F7, 185
 warpsilent MAP_LAVENDER_TOWN, 18, 0
+delay 100
 release
 end
 
@@ -1779,27 +1782,37 @@ special RemoveCameraObject
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_5
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_6
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_7
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_9 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_8
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_13 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_7
@@ -1809,24 +1822,46 @@ applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Encuentro_Oak_11
 waitmovement 0x0
 special RemoveCameraObject
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_3
+waitmovement 0x0
+waitse
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_3.1
+waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_18 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
 waitmovement 0x0
+delay 10
 msgbox BaseRocketHoenn_Encuentro_Oak_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_15.1
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_15.1
 applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_13
 waitmovement 0x0
 setflag FLAG_RECEIVED_SHOAL_SALT_3
@@ -1841,13 +1876,56 @@ msgbox BaseRocketHoenn_Encuentro_Oak_Texto_23 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 waitfanfare
 setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
-fadescreen 1
-delay 20
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_15.3
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_15.2
+waitmovement 0x0
 removeobject 37
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 187
 release
 end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.3:
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+delay_16
+face_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15.1:
+delay_16
+delay_16
+face_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_3.1:
+face_up
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+walk_in_place_left
+step_end
 
 BaseRocketHoenn_Encuentro_Oak_Move_15:
 walk_in_place_up
@@ -1968,7 +2046,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_8:
 	.string "birthright will be much greater.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_9:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_10:
 	.string "OAK: Ah{PAUSE 15}…{PAUSE 15} The willpower{PAUSE 15}…{PAUSE 15} How easily it\n"
@@ -2080,6 +2158,7 @@ setmetatile 18, 21, 0x335, FALSE
 setmetatile 18, 22, 0x335, FALSE
 setmetatile 19, 22, 0x334, FALSE
 setmetatile 19, 21, 0x334, FALSE
+setmetatile 19, 23, 0x281, FALSE
 special DrawWholeMapView
 delay 60
 release
@@ -2120,9 +2199,8 @@ playse SE_SHOP
 removemoney 168000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_JANGMO_O, 32, ITEM_NONE
 release
 end
@@ -2140,9 +2218,8 @@ playse SE_SHOP
 removemoney 82000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_CHIMCHAR, 12, ITEM_NONE
 release
 end
@@ -2160,9 +2237,8 @@ playse SE_SHOP
 removemoney 68000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_OSHAWOTT, 16, ITEM_NONE
 release
 end
@@ -2180,9 +2256,8 @@ playse SE_SHOP
 removemoney 60000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_BOUFFALANT, 60, ITEM_NONE
 release
 end
@@ -2201,9 +2276,8 @@ playse SE_SHOP
 removemoney 48000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_FROSMOTH, 55, ITEM_NONE
 release
 end
@@ -2221,9 +2295,8 @@ playse SE_SHOP
 removemoney 30000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_TIMBURR, 24, ITEM_NONE
 release
 end
@@ -2241,9 +2314,8 @@ playse SE_SHOP
 removemoney 22500 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_DRILBUR, 25, ITEM_NONE
 release
 end
@@ -2261,9 +2333,8 @@ playse SE_SHOP
 removemoney 15000 0
 waitse
 updatemoneybox
-delay 20
+delay 50
 hidemoneybox
-delay 20
 givemon SPECIES_ROCKRUFF, 15, ITEM_NONE
 release
 end
@@ -2353,4 +2424,320 @@ BaseRocketHoenn_Potencial_Galar_Texto:
 	.string "RESEARCH AREA FOR THE MOST POWERFUL\n"
 	.string "POKÉMON IN EACH REGION:\p"
 	.string "GALAR$"
+
+
+
+BaseRocketHoenn_Ejecutivo_Bienvenida::
+lock
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 46
+delay 10
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_1
+waitmovement 0x0
+delay 20
+playse SE_PIN
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_2
+waitmovement 0x0
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_3
+waitmovement 0x0
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_4
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_SECRET_KEY
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_DEFAULT
+waitfanfare
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5
+waitmovement 0x0
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.1 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.5
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.2
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.4
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_6
+waitmovement 0x0
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_7
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+setflag FLAG_EXPAND_MAX_LEVEL
+removeobject 46
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+setflag FLAG_HOENN_90
+setflag FLAG_HOENN_91
+setflag FLAG_HOENN_92
+setflag FLAG_HOENN_93
+setflag FLAG_HOENN_94
+setflag FLAG_HOENN_95
+setflag FLAG_HOENN_96
+setflag FLAG_HOENN_97
+setflag FLAG_HOENN_98
+setflag FLAG_HOENN_99
+setflag FLAG_HOENN_677
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_626
+clearflag FLAG_NUEVA_627
+clearflag FLAG_NUEVA_628
+clearflag FLAG_NUEVA_629
+clearflag FLAG_NUEVA_630
+clearflag FLAG_NUEVA_631
+clearflag FLAG_NUEVA_632
+setvar VAR_UNUSED_0x40F7, 218
+release
+end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.5:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.1:
+delay_16
+face_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.2:
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.3:
+delay_16
+delay_16
+face_down
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5.4:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_7:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_6:
+delay_8
+face_up
+delay_8
+delay_8
+walk_in_place_down
+delay_8
+step_end
+
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5:
+delay_8
+walk_in_place_right
+delay_8
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_4:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_3:
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_2:
+emote_exclamation_mark
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_1:
+face_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1:
+	.string "EJECUTIVO ROCKET: Oh{PAUSE 15}…{PAUSE 15} ADMIN.JEFE\n"
+	.string "{PLAYER}. Le estaba esperando.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2:
+	.string "Sabemos lo de la ADMIN.JEFE ANDRA. En\n"
+	.string "esta base yo soy su mano derecha, es\l"
+	.string "por ello que antes de partir me confió\l"
+	.string "esto. Ahora usted debe tenerlo.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3:
+	.string "¡Obtuviste LLAVE DESPACHO HOENN de\n"
+	.string "manos de EJECUTIVO!$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4:
+	.string "ANDRA ya predijo que usted vendría y\n"
+	.string "preparó el despacho para su llegada. Ha\l"
+	.string "dejado por escrito algunas\l"
+	.string "recomendaciones para usted, antes de\l"
+	.string "que inicie su aventura por HOENN.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.1:
+	.string "Observe.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.2:
+	.string "La LLAVE que le he dado abre también\n"
+	.string "esa puerta, sirve de atajo para llegar\l"
+	.string "al DESPACHO, si así lo desea.$"
+
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:
+	.string "Le recomiendo pasarse por ahí. Yo\n"
+	.string "estaré guardando sus puertas,\l"
+	.string "listo para lo que me necesite, SIR.$"
+
+
+BaseRocketHoenn_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_1
+waitmovement 0x0
+msgbox BaseRocketHoenn_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketHoenn_Bloqueo_Move_1:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Bloqueo_Move_2:
+walk_down
+step_end
+
+BaseRocketHoenn_Bloqueo_Lado::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_1.1
+waitmovement 0x0
+msgbox BaseRocketHoenn_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketHoenn_Bloqueo_Move_1.1:
+walk_in_place_left
+step_end
+
+BaseRocketHoenn_Bloqueo_Texto_1:
+	.string "-Hay cosas más importantes que hacer\n"
+	.string "en HOENN; debo buscar a ANDRA e ir a por\l"
+	.string "DEVON.-$"
+
+
+BaseRocketJohto_Bloqueo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Der_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Der_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Izq_Move_1
+waitmovement 0x0
+msgbox BaseRocketJohto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketJohto_Bloqueo_Izq_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketJohto_Bloqueo_Izq_Move_1:
+walk_in_place_right
+step_end
+
+BaseRocketJohto_Bloqueo_Izq_Move_2:
+walk_left
+step_end
+
+BaseRocketJohto_Bloqueo_Der_Move_1:
+walk_in_place_left
+step_end
+
+BaseRocketJohto_Bloqueo_Der_Move_2:
+walk_right
+step_end
+
+BaseRocketJohto_Bloqueo_Move_1:
+walk_in_place_down
+step_end
+
+BaseRocketJohto_Bloqueo_Move_2:
+walk_up
+step_end
+
+BaseRocketJohto_Bloqueo_Texto_1:
+.string "-No es un buen momento para ir a JOHTO.-$"
+
+
+
+
+
+
 

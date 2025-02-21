@@ -198,27 +198,119 @@ removeobject 12
 release     
 end
 
+VermilionCitySurge_move_2:
+delay_16
+face_right
+delay_16
+delay_16
+delay_16
+face_down
+step_end
+
+VermilionCitySurge_move_3:
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+step_end
+
 VermilionCitySurge:: 
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+opendoor 15, 6
+waitdooranim
 addobject 12
+waitse
 playse SE_PIN
+applymovement 12, VerdanturfTown_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
 waitmovement 0x0
+closedoor 15, 6
+waitdooranim
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 fadeoutbgm 0
 playse 507
 delay 20
 msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move_2
+applymovement 12, VermilionCitySurge_move_3
+waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
-fadescreen 1
-delay 20
 removeobject 12
-fadescreen 0
 delay 10
 fadeoutbgm 0
 playse 525
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+setflag FLAG_HOENN_700
+setflag FLAG_HOENN_699
+setflag FLAG_HOENN_698
+setflag FLAG_HOENN_697
+setflag FLAG_HOENN_696
+setflag FLAG_HOENN_695
+setflag FLAG_HOENN_694
+setflag FLAG_HOENN_693
+setflag FLAG_HOENN_692
+setflag FLAG_HOENN_691
+setflag FLAG_HOENN_690
+setflag FLAG_HOENN_689
+setflag FLAG_HOENN_688
+setflag FLAG_HOENN_687
+setflag FLAG_HOENN_686
+setflag FLAG_HOENN_685
+setflag FLAG_HOENN_684
+setflag FLAG_HOENN_683
+setflag FLAG_HOENN_682
+setflag FLAG_HOENN_681
+setflag FLAG_HOENN_680
+setflag FLAG_HOENN_679
+setflag FLAG_HOENN_678
+setflag FLAG_HOENN_677
+setflag FLAG_HOENN_676
+setflag FLAG_HOENN_675
+setflag FLAG_HOENN_674
+setflag FLAG_HOENN_673
+setflag FLAG_HOENN_672
+setflag FLAG_HOENN_671
+setflag FLAG_HOENN_670
+setflag FLAG_HOENN_669
+setflag FLAG_HOENN_668
+setflag FLAG_HOENN_667
+setflag FLAG_HOENN_666
+setflag FLAG_HOENN_665
+setflag FLAG_HOENN_664
+setflag FLAG_HOENN_663
+setflag FLAG_HOENN_662
+setflag FLAG_HOENN_661
+setflag FLAG_HOENN_660
+setflag FLAG_HOENN_659
+setflag FLAG_HOENN_658
+setflag FLAG_HOENN_657
+setflag FLAG_HOENN_656
+setflag FLAG_HOENN_655
+setflag FLAG_HOENN_654
+setflag FLAG_HOENN_653
+setflag FLAG_HOENN_652
+setflag FLAG_HOENN_651
+setflag FLAG_HOENN_650
+setflag FLAG_HOENN_649
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_640
 setvar VAR_UNUSED_0x40F7, 7
 release
 end
@@ -231,8 +323,11 @@ VermilionCity_Text_Surge:
 
 VermilionCitySurge_move1:
 emote_exclamation_mark
-jump_special_down
 face_up
+delay_8
+lock_facing_direction
+walk_down
+unlock_facing_direction
 step_end
 
 VermilioCity_Motorista::
@@ -265,6 +360,15 @@ applymovement OBJ_EVENT_ID_PLAYER, VermilioCity_Motorista_move_2.2
 waitmovement 0x0
 goto VermilioCity_Motorista_4
 
+VermilioCity_Motorista_move_4.1:
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
 
 VermilioCity_Motorista_4::
 delay 5
@@ -276,6 +380,14 @@ msgbox VermilioCity_Motorista_Text_1 MSGBOX_AUTOCLOSE
 applymovement 9, VermilioCity_Motorista_move_4
 waitmovement 0x0
 msgbox VermilioCity_Motorista_Text_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 9, VermilioCity_Motorista_move_4.1
+waitmovement 0x0
+delay 10
+msgbox VermilioCity_Motorista_Text_2.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox VermilioCity_Motorista_Text_2.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, VermilioCity_Motorista_move_1
 waitmovement 0x0
 msgbox VermilioCity_Motorista_Text_3 MSGBOX_AUTOCLOSE
@@ -300,6 +412,7 @@ msgbox VermilioCity_Motorista_Text_6 MSGBOX_AUTOCLOSE
 applymovement 10, VermilioCity_Motorista_move_10
 waitmovement 0x0
 msgbox VermilioCity_Motorista_Text_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox VermilioCity_Motorista_Text_8 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, VermilioCity_Motorista_move_1
 applymovement 9, VermilioCity_Motorista_move_1
@@ -310,15 +423,25 @@ msgbox VermilioCity_Motorista_Text_9 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, VermilioCity_Motorista_move_12
 waitmovement 0x0
+waitse
 msgbox VermilioCity_Motorista_Text_10 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, VermilioCity_Motorista_move_12
+waitmovement 0x0
+waitse
+playse SE_BREAKABLE_DOOR
 applymovement 5, VermilioCity_Motorista_move_13
 waitmovement 0x0
+waitse
+delay 10
 msgbox VermilioCity_Motorista_Text_11 MSGBOX_AUTOCLOSE
 applymovement 10, VermilioCity_Motorista_move_14
 waitmovement 0x0
 msgbox VermilioCity_Motorista_Text_12 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
 applymovement 5, VermilioCity_Motorista_move_8
 waitmovement 0x0
+waitse
 msgbox VermilioCity_Motorista_Text_13 MSGBOX_AUTOCLOSE
 applymovement 10, VermilioCity_Motorista_move_15
 waitmovement 0x0
@@ -344,31 +467,46 @@ release
 end
 
 VermilioCity_Motorista_Text_1:
-.string "ANDRA: Any signal about our supposed\n"
-	.string "wild card to enter S.S. ANNE?$"
+.string "ANDRA: ¿Alguna noticia de nuestro\n"
+	.string "supuesto comodín para entrar al\l"
+	.string "SS.ANNE?\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "Ya veo.$"
 
 VermilioCity_Motorista_Text_2:
-	.string "Things've been looking up for us since\n"
-	.string "the failure at MT. MOON. It was just\l"
-	.string "about time for them to recognize your\l"
-	.string "skill. Now that we're HIGH RANK GRUNTS,\l"
-	.string "you know what that means, don't you?\l"
-	.string "They'll assign us more important\l"
-	.string "missions, so we'll be moving between the\l"
-	.string "big fishes of this organization. This\l"
-	.string "doesn't seem like your run-of-the-mill\l"
-	.string "mission either: you see our faces when\l"
-	.string "we learned GIOVANNI himself ordered\l"
-	.string "this mission?$"
+.string "Las cosas parecen haber mejorado\n"
+	.string "mucho para nosotros desde el\l"
+	.string "fiasco del MT.MOON, solo era\l"
+	.string "cuestión de tiempo para que\l"
+	.string "reconocieran tu nivel, y ahora\l"
+	.string "somos RECLUTAS DE ALTO RANGO.$"
+
+VermilioCity_Motorista_Text_2.1:
+	.string "¿Sabes lo que eso significa, no?\n"
+	.string "Nos concederán misiones de cada\l"
+	.string "vez más importancia, y podremos\l"
+	.string "empezar a movernos entre los peces\l"
+	.string "gordos de la organización, esta ya\l"
+	.string "no parece una misión convencional.$"
+
+VermilioCity_Motorista_Text_2.2:
+	.string "¿Viste nuestras caras cuando nos\n"
+	.string "enteramos de que el mismo GIOVANNI\l"
+	.string "en persona había ordenado esta\l"
+	.string "misión?$"
 
 VermilioCity_Motorista_Text_3:
-	.string "Whatever's in that CAPTAIN's flask,\n"
-	.string "we'll find it. I wonder if we'll get to see\l"
-	.string "GIOVANNI hims…$"
+.string "Sea lo que sea que contenga ese\n"
+	.string "frasco del CAPITÁN, lo\l"
+	.string "encontraremos{PAUSE 15}…{PAUSE 15}\l"
+	.string "Me pregunto si podremos llegar a\l"
+	.string "ver a GIOVANNI en pers…{PAUSE 5}$"
 
 VermilioCity_Motorista_Text_4:
-.string "You should be the HIGH RANK GRUNTS\n"
-	.string "sent by ARCHER, aren't you?$"
+.string "Debéis de ser los ROCKET\n"
+	.string "enviados por PETREL,\l"
+	.string "¿cierto?$"
 
 VermilioCity_Motorista_Text_5:
 .string "ANDRA: Indeed, so who are you?$"
@@ -521,8 +659,9 @@ emote_exclamation_mark
 step_end
 
 VermilioCity_Motorista_move_13:
-emote_exclamation_mark
+delay_16
 walk_in_place_up
+delay_8
 step_end
 
 VermilioCity_Motorista_move_14:
@@ -565,11 +704,15 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Rojo_move2
 waitmovement 0x0
 special RemoveCameraObject
-delay 15
+delay 25
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+opendoor 29, 17
+waitdooranim
 addobject 7
-delay 30
+applymovement 7, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 29, 17
+waitdooranim
 applymovement 7, VermilionCity_Rojo_move3
 waitmovement 0x0
 delay 20
@@ -1166,6 +1309,277 @@ release
 end
 
 Vermilion_Motorista_Texto_1:
-	.string "Did you know WEEZING can learn\n"
-	.string "THUNDERBOLT? I'll fry all your aquatic\l"
-	.string "POKÉMON with this move!$"
+.string "¿Sabías que WEEZING puede aprender\n"
+	.string "RAYO?\l"
+	.string "¡Voy a fundir a todos tus POKÉMON\l"
+	.string "acuáticos solo con ese bendito\l"
+	.string "movimiento!$"
+
+Vermilion_Anciano_Bill::
+lock
+msgbox Vermilion_Anciano_Bill_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Vermilion_Anciano_Bill_Texto_23 MSGBOX_AUTOCLOSE
+release
+end
+
+Vermilion_Anciano_Bill_Texto_1:
+	.string "Ha sido duro, MACHOP, pero ya tenemos\n"
+	.string "todo listo para iniciar la construcción.$"
+
+Vermilion_Anciano_Bill_Texto_2:
+	.string "¡Vamos a honrar la región de KANTO y el\n"
+	.string "ARCHI7 como ningún otro lugar lo hizo\l"
+	.string "antes!$"
+
+Vermilion_Anciano_Bill_Texto_3:
+	.string "¡Chop!$"
+
+Vermilion_Anciano_Bill_Texto_4:
+	.string "POLICÍA de MESETA AÑIL.$"
+
+Vermilion_Anciano_Bill_Texto_5:
+	.string "¿Q-qué ocurre?$"
+
+Vermilion_Anciano_Bill_Texto_6:
+	.string "Hemos identificado irregularidades en\n"
+	.string "este terreno. No es apto para la\l"
+	.string "construcción, y está usted incurriendo\l"
+	.string "en un delito.$"
+
+Vermilion_Anciano_Bill_Texto_7:
+	.string "Eso… ¡eso es imposible! Me dijeron que\n"
+	.string "todo estaba en regla, íbamos a empezar\l"
+	.string "a construir mañana.$"
+
+Vermilion_Anciano_Bill_Texto_8:
+	.string "La legislatura ha cambiado.$"
+
+Vermilion_Anciano_Bill_Texto_9:
+	.string "No… ¡no podéis hacerme esto!$"
+
+Vermilion_Anciano_Bill_Texto_10:
+	.string "¿Tenéis idea de todo lo que he pasado\n"
+	.string "para llegar hasta aquí? ¿La cantidad de\l"
+	.string "trabajo y dinero que he invertido para\l"
+	.string "ello?$"
+
+Vermilion_Anciano_Bill_Texto_11:
+	.string "¡Llevo toda la vida trabajando por este\n"
+	.string "sueño!$"
+
+Vermilion_Anciano_Bill_Texto_12:
+	.string "Los sueños a veces no se cumplen,\n"
+	.string "anciano. De hecho, lo normal, es que no\l"
+	.string "lo hagan. Bienvenido al mundo real.$"
+
+Vermilion_Anciano_Bill_Texto_13:
+	.string "¡No! ¡No tenéis derecho!$"
+
+Vermilion_Anciano_Bill_Texto_14:
+	.string "¡Lleváoslo de aquí!$"
+
+Vermilion_Anciano_Bill_Texto_15:
+	.string "¡Chop!$"
+
+Vermilion_Anciano_Bill_Texto_16:
+	.string "El COMITÉ de la LIGA POKÉMON se\n"
+	.string "encargará de ti.$"
+
+Vermilion_Anciano_Bill_Texto_17:
+	.string "????: ¿Y bien?$"
+
+Vermilion_Anciano_Bill_Texto_18:
+	.string "SR.BILL. Misión cumplida, el ANCIANO y\n"
+	.string "su MACHOP no interferirán en su\l"
+	.string "proyecto.$"
+
+Vermilion_Anciano_Bill_Texto_19:
+	.string "BILL: Perfecto.$"
+
+Vermilion_Anciano_Bill_Texto_20:
+	.string "¿Quiere que eliminemos también el claro\n"
+	.string "de tierra?$"
+
+Vermilion_Anciano_Bill_Texto_21:
+	.string "BILL: No, es irrelevante. Jamás hizo\n"
+	.string "pública la naturaleza de su proyecto.$"
+
+Vermilion_Anciano_Bill_Texto_22:
+	.string "BILL: Quedará como un vestigio de lo\n"
+	.string "que una vez pudo ser. La gente\l"
+	.string "inventará divertidas historias,\l"
+	.string "elucubrará teorías… y yo me reiré de\l"
+	.string "todas ellas desde arriba.$"
+
+Vermilion_Anciano_Bill_Texto_23:
+	.string "Como usted guste, SR.BILL.$"
+
+Vermilion_Cazabichos::
+lock
+delay 15
+msgbox Vermilion_Cazabichos_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 13, Vermilion_Cazabichos_Move_2
+waitmovement 0x0
+msgbox Vermilion_Cazabichos_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 13, Vermilion_Cazabichos_Move_3
+waitmovement 0x0
+msgbox Vermilion_Cazabichos_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Vermilion_Cazabichos_Move_5
+applymovement 13, Vermilion_Cazabichos_Move_4
+waitmovement 0x0
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Vermilion_Cazabichos_Move_4.1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Vermilion_Cazabichos_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Vermilion_Cazabichos_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Vermilion_Cazabichos_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Vermilion_Cazabichos_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, Vermilion_Cazabichos_Move_6
+waitmovement 0x0
+msgbox Vermilion_Cazabichos_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, Vermilion_Cazabichos_Move_1
+waitmovement 0x0
+setflag FLAG_HOENN_673
+removeobject 13
+playse SE_EXIT
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Vermilion_Cazabichos_Move_4.2
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_SCOTT_STATE, 2
+release
+end
+
+Vermilion_Cazabichos_Move_4.1:
+walk_up
+step_end
+
+Vermilion_Cazabichos_Move_4.2:
+walk_down
+step_end
+
+Vermilion_Cazabichos_Move_6:
+face_down
+step_end
+
+Vermilion_Cazabichos_Move_5:
+walk_down
+walk_left
+walk_left
+face_up
+step_end
+
+Vermilion_Cazabichos_Move_4:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+face_right
+step_end
+
+Vermilion_Cazabichos_Move_3:
+face_left
+step_end
+
+Vermilion_Cazabichos_Move_2:
+face_player
+step_end
+
+Vermilion_Cazabichos_Move_1:
+face_right
+delay_16
+walk_in_place_right
+step_end
+
+Vermilion_Cazabichos_Texto_1:
+	.string "Fíjate, malditos…$"
+
+Vermilion_Cazabichos_Texto_2:
+	.string "Han ocultado la puerta para que todos\n"
+	.string "se olviden de este lugar, y nadie haga\l"
+	.string "preguntas.$"
+
+Vermilion_Cazabichos_Texto_3:
+	.string "Pero conozco mi casa mejor que ellos.\n"
+	.string "Seguro que la otra entrada…$"
+
+Vermilion_Cazabichos_Texto_4:
+	.string "Como imaginé. Esos gorilas son tan\n"
+	.string "descuidados que la han olvidado.$"
+
+Vermilion_Cazabichos_Texto_5:
+	.string "… …$"
+
+Vermilion_Cazabichos_Texto_6:
+	.string "No soy el mejor ENTRENADOR, aunque\n"
+	.string "ayudaré en todo lo que pueda, si con\l"
+	.string "ello nuestras posibilidades aumentan.$"
+
+Vermilion_Cazabichos_Texto_7:
+	.string "Los últimos anuncios de LANCE\n"
+	.string "me hicieron perder la fe.$"
+
+Vermilion_Cazabichos_Texto_8:
+	.string "Pero ahora, al verte, me he dado cuenta\n"
+	.string "de que queda una última opción: usar la\l"
+	.string "fuerza.$"
+
+
+Vermilion_Activador_Entrada::
+compare VAR_SCOTT_STATE, 1
+goto_if_gt Vermilion_Activador_Entrada_Pasa
+release
+end
+
+Vermilion_Activador_Entrada_Pasa::
+delay 15
+msgbox Vermilion_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Vermilion_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Vermilion_Activador_Entrada_Pasa_No
+warp MAP_VERMILION_CITY_SECUNDARIA, 0, 2
+release
+end
+
+Vermilion_Activador_Entrada_Texto_1:
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
+
+Vermilion_Activador_Entrada_Pasa_Text_YesNo:
+.string "Por aquí se puede entrar\n"
+	.string "a esta casa.\l"
+	.string "¿Quieres pasar?$"
+
+Vermilion_Activador_Entrada_Pasa_No::
+release
+end

@@ -183,6 +183,7 @@
 #define MON_DATA_SPATK2            87
 #define MON_DATA_SPDEF2            88
 #define MON_DATA_HIDDEN_NATURE     89
+#define MON_DATA_PREVIOUS_FORM     90
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -234,7 +235,7 @@
 #define MAX_GIFT_RIBBON 64
 
 #define MIN_LEVEL 1
-#define MAX_LEVEL 125
+#define MAX_LEVEL 150
 
 #define OT_ID_PLAYER_ID       0
 #define OT_ID_PRESET          1

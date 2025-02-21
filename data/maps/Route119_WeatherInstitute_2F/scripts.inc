@@ -16,17 +16,14 @@ Route119_WeatherInstitute_2F_OnTransition:
 	end
 
 Route119_WeatherInstitute_2F_EventScript_SetScientistPosAquaHere::
-	setobjectxyperm LOCALID_SCIENTIST, 1, 6
 	setobjectmovementtype LOCALID_SCIENTIST, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 Route119_WeatherInstitute_2F_EventScript_SetScientistPosAquaGone::
-	setobjectxyperm LOCALID_SCIENTIST, 4, 6
 	setobjectmovementtype LOCALID_SCIENTIST, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 Route119_WeatherInstitute_2F_EventScript_SetScientistPosGameClear::
-	setobjectxyperm LOCALID_SCIENTIST, 2, 2
 	setobjectmovementtype LOCALID_SCIENTIST, MOVEMENT_TYPE_FACE_UP
 	return
 
@@ -106,10 +103,6 @@ Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
 
 Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC::
 	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
-	call Common_EventScript_NameReceivedBoxMon
-	goto Route119_WeatherInstitute_2F_EventScript_SendCastformToPC
 	end
 
 Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
@@ -249,7 +242,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 	.string "Humph, so what?\n"
 	.string "What we want…\p"
 	.string "What we really want isn't here…\n"
-	.string "Ihihihihi…$"
+	.string "Ihihihihi{PAUSE 5}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "Ahahahaha!\p"
@@ -296,7 +289,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "for this POKÉMON.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CASTFORM!$"
+	.string	"¡{PLAYER} recibió a CASTFORM!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "That POKÉMON changes shape according\n"
@@ -305,17 +298,17 @@ Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "INSTITUTE--go ahead and take it.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
-	.string "I've been researching rain for many\n"
-	.string "years, but it's ridiculous to think that\l"
-	.string "humans can freely change the weather.$"
+	.string	"He investigado la lluvia durante años,\n"
+	.string	"pero es ridículo creer que el hombre\l"
+	.string	"puede cambiar el tiempo a su antojo.$"
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
-	.string "I track weather patterns over\n"
-	.string "the HOENN region.\p"
-	.string "Presently, a drought has been recorded\n"
-	.string "in {STR_VAR_1}.\p"
-	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string	"Me dedico a estudiar los fenómenos\n"
+	.string	"atmosféricos de la región de HOENN.\p"
+	.string	"Ahora mismo, se ha detectado\n"
+	.string	"que hay sequía en {STR_VAR_1}.\p"
+	.string	"Podría ser en algún punto cercano\n"
+	.string	"a {STR_VAR_1}…$"
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "I track weather patterns over\n"
@@ -323,11 +316,219 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "Presently, heavy rainfall has been\n"
 	.string "recorded over {STR_VAR_1}.\p"
 	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "{STR_VAR_1}…{PAUSE 5}$"
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "Abnormal weather conditions are\n"
 	.string "no longer being reported.\p"
 	.string "The occasional rainfall is a blessing,\n"
 	.string "really.$"
+
+Route119_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_632, Route119_Text_PrimerPoliciaIntro, Route119_Text_PrimerPoliciaDefeat
+	msgbox Route119_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_633, Route119_Text_SegundoPoliciaIntro, Route119_Text_SegundoPoliciaDefeat
+	msgbox Route119_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_EventScript_Segundo_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_634, Route119_Text_SegundoCientificoIntro, Route119_Text_SegundoCientificoDefeat
+	msgbox Route119_Text_SegundoCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_Rasmus_Move_1:
+walk_in_place_left
+step_end
+
+Route119_Rasmus_Move_2:
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+Route119_Rasmus_Move_2.1:
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Route119_Rasmus_Move_3:
+walk_in_place_down
+step_end
+
+Route119_Rasmus_Move_4:
+delay_16
+face_right
+step_end
+
+Route119_Rasmus_Move_5:
+face_down
+step_end
+
+Route119_Rasmus_Move_6:
+face_up
+step_end
+
+
+Route119_Rasmus::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route119_Rasmus_Move_1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route119_Rasmus_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Route119_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 4, Route119_Rasmus_Move_3
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route119_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 4, Route119_Rasmus_Move_4
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route119_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, Route119_Rasmus_Move_5
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, Route119_Rasmus_Move_3
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, Route119_Rasmus_Move_5
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 6, Route119_Rasmus_Move_1
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route119_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 3, Route119_Rasmus_Move_6
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 3, Route119_Rasmus_Move_7
+waitmovement 0x0
+msgbox Route119_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_28
+fadescreen 1
+removeobject 3
+removeobject 6
+removeobject 7
+removeobject 8
+removeobject 1
+fadescreen 0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route119_Rasmus_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F8, 6
+release
+end
+
+Route119_Rasmus_Move_7:
+face_left
+step_end
+
+Route119_Rasmus_Texto_1:
+	.string "DR.RASMUS: Pero dejando de lado su\n"
+	.string "cuestionable poder, lo que han logrado\l"
+	.string "aquí con CASTFORM es asombroso; ser\l"
+	.string "capaz de transformarse en función del\l"
+	.string "clima. Solo tengo una pregunta.$"
+
+Route119_Rasmus_Texto_2:
+	.string "Díganos, doctor.$"
+
+Route119_Rasmus_Texto_3:
+	.string "DR.RASMUS: Este POKÉMON se adapta a\n"
+	.string "los climas de lluvia, sol y granizo, pero,\l"
+	.string "¿por qué no reacciona ante una\l"
+	.string "tormenta de arena?$"
+
+Route119_Rasmus_Texto_4:
+	.string "Hicimos pruebas, pero todas conducían\n"
+	.string "a formas inestables.$"
+
+Route119_Rasmus_Texto_5:
+	.string "DR.RASMUS: La tormenta de arena es un\n"
+	.string "clima complejo, no hay duda. Más esquivo\l"
+	.string "y antiguo que los otros.$"
+
+Route119_Rasmus_Texto_6:
+	.string "Haría un gran favor a DEVON si nos\n"
+	.string "facilitara todos sus avances respecto\l"
+	.string "a este tema.$"
+
+Route119_Rasmus_Texto_7:
+	.string "Con gusto, doctor.$"
+
+Route119_Rasmus_Texto_8:
+	.string "DR.RASMUS: ¿Qué te parece? Imagina a\n"
+	.string "tu WRONGSPARCE capaz de generar una\l"
+	.string "tormenta de arena, ¿no sería\l"
+	.string "fantástico?$"
+
+Route119_Rasmus_Texto_9:
+	.string "C.MIGUEL: ¡No! ¡Debe ser por medios\n"
+	.string "naturales!$"
+
+Route119_Rasmus_Texto_10:
+	.string "DR.RASMUS: Vaya, me sorprende verte\n"
+	.string "hablar así.$"
+
+Route119_Rasmus_Texto_11:
+	.string "¿Natural? ¡Vamos! Esa palabra, hoy en\n"
+	.string "día, carece de significado. ¡Tú mismo lo\l"
+	.string "dijiste!$"
+
+Route119_Rasmus_Texto_12:
+	.string "Lo artificial nos rodea, y es ya\n"
+	.string "indistinguible de lo natural. Tenlo en\l"
+	.string "cuenta.$"
+
+Route119_EventScript_ReceiveSwablu::
+    lock
+    faceplayer
+	goto_if_set FLAG_HOENN_297, Route119_EventScript_Castform_Dado
+	msgbox Route119_Swablu_Text_TakeNosepass MSGBOX_DEFAULT
+	msgbox Route119_Swablu_Text_TakeNosepass2 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox Route119_Swablu_Text_MensajeNosepass, MSGBOX_DEFAULT
+	setflag FLAG_HOENN_297
+	givemon SPECIES_CASTFORM, 50, ITEM_NONE
+	waitfanfare  
+	release
+	end 
+	release
+	end
+
+Route119_EventScript_Castform_Dado::
+msgbox Route119_Swablu_Text_1, MSGBOX_DEFAULT
+release
+end
+
+Route119_Swablu_Text_TakeNosepass:
+	.string	"He investigado la lluvia durante años,\n"
+	.string	"pero es ridículo creer que el hombre\l"
+	.string	"puede cambiar el tiempo a su antojo.$"
+
+Route119_Swablu_Text_TakeNosepass2:
+	.string	"Este POKéMON cambia de forma según\n"
+	.string	"las condiciones meteorológicas.\p"
+	.string	"Hay un montón de ellos\n"
+	.string	"en el INSTITUTO: éste es para ti.$"
+
+Route119_Swablu_Text_MensajeNosepass:
+	.string "¡{PLAYER} obtuvo un CASTFORM al NV.50!$"
+
+Route119_Swablu_Text_1:
+	.string	"Actualmente no se detecta ninguna\n"
+	.string	"anomalía en lo que al tiempo se refiere.\p"
+	.string	"La verdad es que la lluvia a veces\n"
+	.string	"viene como agua de mayo.$"
 

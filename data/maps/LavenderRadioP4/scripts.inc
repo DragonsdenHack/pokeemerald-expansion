@@ -96,20 +96,29 @@ waitmovement 0x0
 special RemoveCameraObject
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_4
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_5
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_6
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_7 MSGBOX_AUTOCLOSE
@@ -117,94 +126,133 @@ delay 20
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_7
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_5
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_13 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_14 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 20, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 23, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
+waitse
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_14.1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 9, LavenderRadioP4_Devon_Combates_Move_10
+waitmovement 0x0
+waitse
 delay 15
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_11
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_12
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_17 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 20, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 23, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
 delay 20
 playbgm 567, FALSE
 delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 17
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 12
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 13
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 13, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 25
+waitfieldeffect FLDEFF_NPCFLY_OUT
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 14
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 14, LavenderRadioP4_Devon_Combates_Move_14
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 19
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_18
 applymovement 19, LavenderRadioP4_Devon_Combates_Move_13
 waitmovement 0x0
@@ -223,15 +271,23 @@ waitmoncry
 delay 20
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 11, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_38
 waitmovement 0x0
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 10
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
@@ -239,29 +295,42 @@ waitse
 delay 20
 playse SE_PIN
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
 delay 20
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_22 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_23 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_24 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 waitse
@@ -276,14 +345,19 @@ applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP4_Devon_Combates_Move_37
 waitmovement 0x0
 special RemoveCameraObject
 clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 18
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
 waitse
-delay 20
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 26
+waitfieldeffect FLDEFF_NPCFLY_OUT
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
 waitse
@@ -295,16 +369,22 @@ special RemoveCameraObject
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_28 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_22
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_23
 waitmovement 0x0
+delay 5
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 msgbox LavenderRadioP4_Devon_Combates_Texto_31 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_14, LavenderRadioP4_Devon_Combates_Texto_32
@@ -313,6 +393,7 @@ delay 15
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_16
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_12
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_33 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_15, LavenderRadioP4_Devon_Combates_Texto_34
 playbgm 567, FALSE
@@ -320,12 +401,17 @@ delay 15
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_35 MSGBOX_AUTOCLOSE
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_35.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_36 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_37 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CMIGUEL_4, LavenderRadioP4_Devon_Combates_Texto_38
 playbgm 627, FALSE
@@ -337,9 +423,11 @@ msgbox LavenderRadioP4_Devon_Combates_Texto_40 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 25, LavenderRadioP4_Devon_Combates_Move_25
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_41 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_42 MSGBOX_AUTOCLOSE
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_26
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_26
@@ -348,23 +436,32 @@ applymovement 14, LavenderRadioP4_Devon_Combates_Move_27
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_43 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_44 MSGBOX_AUTOCLOSE
 waitse
 playse SE_PIN
 applymovement 17, LavenderRadioP4_Devon_Combates_Move_28
+delay 5
 applymovement 13, LavenderRadioP4_Devon_Combates_Move_28
 waitmovement 0x0
+waitse
+delay 5
 applymovement 12, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 14, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 19, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 22, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_29
+delay 5
 applymovement 15, LavenderRadioP4_Devon_Combates_Move_29
 applymovement 21, LavenderRadioP4_Devon_Combates_Move_29
 waitmovement 0x0
 applymovement 18, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 26, LavenderRadioP4_Devon_Combates_Move_10
+delay 5
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
@@ -376,22 +473,28 @@ applymovement 10, LavenderRadioP4_Devon_Combates_Move_29.1
 waitmovement 0x0
 delay 15
 playse SE_PC_ON
-delay 20
+waitse
+delay 15
 playse SE_PC_LOGIN
-delay 20
+waitse
+delay 15
 playse SE_PIN
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
+waitse
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_30
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_46 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_SELECT
+waitse
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_47 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_31
 waitmovement 0x0
+waitse
 msgbox LavenderRadioP4_Devon_Combates_Texto_48 MSGBOX_AUTOCLOSE
 delay 15
 msgbox LavenderRadioP4_Devon_Combates_Texto_49 MSGBOX_AUTOCLOSE
@@ -410,9 +513,12 @@ applymovement 10, LavenderRadioP4_Devon_Combates_Move_32
 waitmovement 0x0
 delay 30
 msgbox LavenderRadioP4_Devon_Combates_Texto_52 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_33
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_53 MSGBOX_AUTOCLOSE
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_54 MSGBOX_AUTOCLOSE
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_34
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_9
@@ -446,6 +552,8 @@ delay 50
 playse SE_BREAKABLE_DOOR
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_55 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -454,28 +562,39 @@ playbgm 627, FALSE
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_35
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_57 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_35
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_58 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_59 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_60 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_61 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_62 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_63 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_15
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_64 MSGBOX_AUTOCLOSE
 playse SE_BREAKABLE_DOOR
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
+waitse
 msgbox LavenderRadioP4_Devon_Combates_Texto_65 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
 fadescreen 1
@@ -499,6 +618,7 @@ applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP4_Devon_Combates_Move_2.2
 waitmovement 0x0
 special RemoveCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_19
+delay 5
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_66 MSGBOX_AUTOCLOSE
@@ -508,11 +628,15 @@ delay 20
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.1 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_2.4
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.2 MSGBOX_AUTOCLOSE
+delay 5
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.5
 waitmovement 0x0
+delay 5
 msgbox LavenderRadioP4_Devon_Combates_Texto_67.3 MSGBOX_AUTOCLOSE
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_2.3
 applymovement 8, LavenderRadioP4_Devon_Combates_Move_2.3
@@ -561,39 +685,64 @@ waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_76 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_77 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_19
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_78 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_16
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_79 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_18
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_80 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_81 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_82 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_18
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_83 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_84 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_85 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP4_Devon_Combates_Texto_86 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_8
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_36
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_87 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP4_Devon_Combates_Move_10
+waitmovement 0x0
+waitse
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_88 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_9
 waitmovement 0x0
+delay 10
 msgbox LavenderRadioP4_Devon_Combates_Texto_89 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, LavenderRadioP4_Devon_Combates_Move_34
 waitmovement 0x0
 delay 40
@@ -602,18 +751,19 @@ delay 40
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
-fadescreen 1
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
+removeobject 9
+waitfieldeffect FLDEFF_NPCFLY_OUT
 waitse
 addobject 4
 addobject 2
 addobject 5
 addobject 1
 addobject 3
-removeobject 9
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 215
 release
 end
@@ -796,6 +946,7 @@ step_end
 
 LavenderRadioP4_Devon_Combates_Move_11:
 walk_slow_up
+delay_16
 face_left
 step_end
 
@@ -1272,7 +1423,7 @@ LavenderRadioP4_Devon_Combates_Texto_73:
 .string "ANDRA: How does this strike you, {PLAYER}?$"
 
 LavenderRadioP4_Devon_Combates_Texto_74:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LavenderRadioP4_Devon_Combates_Texto_75:
 	.string "No{PAUSE 25}…{PAUSE 25} I didn't refer to the DEVON attack,\n"

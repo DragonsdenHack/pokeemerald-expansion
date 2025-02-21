@@ -92,12 +92,16 @@ Route49_Combate_Andra::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Route49_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Route47_Encuentro_Andra_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 10, Route49_Combate_Andra_Move_1
 waitmovement 0x0
@@ -107,11 +111,14 @@ applymovement 10, Route49_Combate_Andra_Move_2
 applymovement 9, Route49_Combate_Andra_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_3
 waitmovement 0x0
+waitse
 delay 20
 msgbox Route49_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_PIN
 applymovement 9, Route49_Combate_Andra_Move_2
+waitse
+delay 10
 msgbox Route49_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 9, Route47_Encuentro_Andra_Move_6
 applymovement 10, Route49_Combate_Andra_Move_1
@@ -121,16 +128,25 @@ msgbox Route49_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 9, Route49_Combate_Andra_Move_4
 waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
-delay 20
 playse SE_PIN
 applymovement 10, Route49_Combate_Andra_Move_2
 waitmovement 0x0
 delay 20
+msgbox Route49_Combate_Andra_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
 applymovement 10, Route49_Combate_Andra_Move_5
 waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route49_Combate_Andra_Move_5.1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Route49_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
 delay 20
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route49_Combate_Andra_Move_5.2
+waitmovement 0x0
+special RemoveCameraObject
 playse SE_BREAKABLE_DOOR
 applymovement 10, Route49_Combate_Andra_Move_6
 waitmovement 0x0
@@ -146,10 +162,13 @@ delay 20
 playse SE_PIN
 applymovement 9, Route49_Combate_Andra_Move_7
 waitmovement 0x0
+waitse
 msgbox Route49_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, Route49_Combate_Andra_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Route49_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
@@ -162,9 +181,14 @@ applymovement 9, Route49_Combate_Andra_Move_2
 waitmovement 0x0
 delay 15
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+playse SE_SLIDING_DOOR
+opendoor 10, 54
+waitdooranim
 addobject 11
-playse SE_EXIT
-waitse
+applymovement 11, VerdanturfTown_Move_9
+waitmovement 0x0
+closedoor 10, 54
+waitdooranim
 msgbox Route49_Combate_Andra_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 11, Route47_Encuentro_Andra_Move_8
 waitmovement 0x0
@@ -174,15 +198,24 @@ waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_20 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_Combate_Andra_Texto_21 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 9, Route47_Encuentro_Andra_Move_6
 applymovement 11, Route47_Encuentro_Andra_Move_6
 waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_22 MSGBOX_AUTOCLOSE
 applymovement 11, Route49_Combate_Andra_Move_1
 waitmovement 0x0
 playse SE_DOOR
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+playse SE_DOOR
+opendoor 10, 54
+waitdooranim
+applymovement 11, VerdanturfTown_Move_22
+waitmovement 0x0
 removeobject 11
+closedoor 10, 54
+waitdooranim
 delay 15
 applymovement 10, Route49_Combate_Andra_Move_8
 applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
@@ -193,12 +226,29 @@ applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_10
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
 setflag FLAG_UNUSED_0x275
-removeobject 10
 playse SE_DOOR
-delay 15
+opendoor 10, 54
+waitdooranim
+applymovement 10, VerdanturfTown_Move_22
+waitmovement 0x0
+removeobject 10
+closedoor 10, 54
+waitdooranim
 setvar VAR_VERDANTURF_TOWN_STATE, 9
 release
 end
+
+Route49_Combate_Andra_Move_5.1:
+walk_slow_left
+walk_slow_left
+walk_slow_down
+step_end
+
+Route49_Combate_Andra_Move_5.2:
+walk_fast_right
+walk_fast_right
+walk_fast_up
+step_end
 
 
 Route49_Combate_Andra_Move_10:
@@ -281,7 +331,7 @@ Route49_Combate_Andra_Texto_5:
 	.string "item.$"
 
 Route49_Combate_Andra_Texto_6:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route49_Combate_Andra_Texto_7:
 	.string "What? You also defeated the dragon?\n"
@@ -298,6 +348,9 @@ Route49_Combate_Andra_Texto_9:
 	.string "allow for this exception. You must\l"
 	.string "battle for the honor of entering this\l"
 	.string "sacred place.$"
+
+Route49_Combate_Andra_Texto_9.1:
+.string "ANDRA: ¿¡Qué!?$"
 
 Route49_Combate_Andra_Texto_10:
 .string "ANDRA: So it will be this way…$"

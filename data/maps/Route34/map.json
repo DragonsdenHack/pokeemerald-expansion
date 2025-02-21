@@ -220,6 +220,13 @@
       "elevation": 0,
       "dest_map": "MAP_PASS_ROUTE34",
       "dest_warp_id": 1
+    },
+    {
+      "x": 36,
+      "y": 77,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CASA_SECRETA",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

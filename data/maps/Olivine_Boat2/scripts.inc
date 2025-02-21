@@ -202,13 +202,18 @@ OlivineBoat2_EventScript_Guay::
 	end
 
 Olivine_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox Olivine_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
+delay 15
 setvar VAR_UNUSED_0x40F7, 145
+setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           

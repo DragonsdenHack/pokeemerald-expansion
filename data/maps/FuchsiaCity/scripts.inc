@@ -264,15 +264,29 @@ goto FuchsiaCity_Encuentro_Koga
 
 FuchsiaCity_Encuentro_Koga::
 msgbox FuchsiaCity_Encuentro_Koga_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.1
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 playse MUS_RG_OBTAIN_KEY_ITEM
 giveitem ITEM_CONTEST_PASS
 waitse
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4.3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
@@ -283,57 +297,103 @@ msgbox FuchsiaCity_Encuentro_Koga_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4
 waitmovement 0x0
 msgbox FuchsiaCity_Encuentro_Koga_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.4
+waitmovement 0x0
+delay 10
+msgbox FuchsiaCity_Encuentro_Koga_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
-fadescreen 1
-delay 20
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Encuentro_Koga_Move_4.3
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4.2
+waitmovement 0x0
 removeobject 15
-fadescreen 0
-delay 20
-playse SE_POKENAV_CALL
-delay 30
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_1
-delay 20
-playse SE_POKENAV_HANG_UP
-msgbox FuchsiaCity_Encuentro_Koga_Texto_8 MSGBOX_AUTOCLOSE
-delay 15
-playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 67
 release
 end
 
+FuchsiaCity_Encuentro_Koga_Move_4.4:
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+
+FuchsiaCity_Encuentro_Koga_Move_4.3:
+delay_16
+delay_8
+face_down
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_4.2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+
+FuchsiaCity_Encuentro_Koga_Move_4.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_player
+delay_8
+step_end
+
 FuchsiaCity_Encuentro_Koga_Texto_1:
-	.string "KOGA: {PLAYER}! I can't believe you\n"
-	.string "really kicked BRUNO out the CYCLING\l"
-	.string "ROAD! You're not aware of the\l"
-	.string "importance of what you've done. Rest\l"
-	.string "assured, I will inform GIOVANNI about\l"
-	.string "your feat!$"
+.string "KOGA: ¡{PLAYER}!\n"
+	.string "¡No puedo creer que de verdad hayas\l"
+	.string "echado a BRUNO del CAMINO BICIS!$"
+
+FuchsiaCity_Encuentro_Koga_Texto_1.1:
+	.string "¡No eres consciente de la importancia\n"
+	.string "de lo que has hecho, créeme.\l"
+	.string "Informaré a GIOVANNI sobre tu hazaña!$"
 
 FuchsiaCity_Encuentro_Koga_Texto_2:
-.string "KOGA: {PAUSE 25}…{PAUSE 25}$"
+.string "KOGA: {PAUSE 15}…{PAUSE 15}$"
 
 FuchsiaCity_Encuentro_Koga_Texto_3:
-	.string "You helped us maintain the SAFARI\n"
-	.string "business, and now, thanks to you, the\l"
-	.string "relationship between TEAM ROCKET and\l"
-	.string "the BIKERS is stronger than ever. You've\l"
-	.string "earned the best gift I can offer you,\l"
-	.string "along with my total respect.$"
+.string "Nos ayudaste a mantener el negocio del\n"
+	.string "SAFARI, y ahora, gracias a ti, la\l"
+	.string "relación entre el TEAM ROCKET y los\l"
+	.string "MOTORISTAS es más fuerte que nunca.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_3.1:
+	.string "Te has ganado el mejor regalo que pueda\n"
+	.string "ofrecerte, además de mi respeto.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_4:
-	.string "With this pass you could enter whenever\n"
-	.string "you want to our SAFARI ZONE without\l"
-	.string "paying and using your own POKÉ BALL\l"
-	.string "with no any kind of limitation, it's\l"
-	.string "something only the main shareholders\l"
-	.string "and personalities like BILL have access\l"
-	.string "to for research purposes{PAUSE 15}…{PAUSE 15} consider\l"
-	.string "yourself fortunate, and don't worry\l"
-	.string "about wearing the ROCKET uniform, you\l"
-	.string "can always tell the guard that it's a\l"
-	.string "cosplay you use to mock TEAM ROCKET,\l"
-	.string "and he will be obligated to let you\l"
-	.string "through.$"
+.string "Con este pase podrás entrar siempre\n"
+	.string "que quieras a nuestra ZONA SAFARI.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.1:
+	.string "No necesitarás pagar, y podrás usar tus\n"
+	.string "propias POKÉ BALL, sin ningún tipo de\l"
+	.string "limitación; es algo a lo que solo tienen\l"
+	.string "acceso los principales accionistas y\l"
+	.string "personalidades como BILL por motivos de\l"
+	.string "investigación{PAUSE 15}…{PAUSE 15}$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.2:
+	.string "No te preocupes por llevar el uniforme\n"
+	.string "ROCKET: siempre puedes alegar al guarda\l"
+	.string "que es un cosplay para ridiculizarlos.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4.3:
+	.string "Por muy absurdo que suene, es un vacío\n"
+	.string "legal: no hay forma de demostrar lo\l"
+	.string "contrario, y se verá obligado a\l"
+	.string "dejarte pasar.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_5:
 .string "KOGA: What?\n"
@@ -345,25 +405,16 @@ FuchsiaCity_Encuentro_Koga_Texto_6:
 	.string "get there. You can't miss it.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_7:
-	.string "KOGA: Thanks for all again {PLAYER},\n"
-	.string "now I must leave, it's not convenient to\l"
-	.string "be seen with a ROCKET. I need to\l"
-	.string "maintain appearances if you want to\l"
-	.string "keep one of yours infiltrated in\l"
-	.string "privileged positions. I'll be glad to\l"
-	.string "fight with you{PAUSE 15}…{PAUSE 15} if the opportunity\l"
-	.string "arises.$"
+.string "Gracias por todo de nuevo, {PLAYER}.\n"
+	.string "Ahora me retiro, no es conveniente que\l"
+	.string "me vean con un ROCKET, debo mantener\l"
+	.string "las apariencias si queréis seguir\l"
+	.string "teniendo a uno de los vuestros aquí,\l"
+	.string "infiltrado en puestos de privilegio.$"
 
-FuchsiaCity_Encuentro_Koga_Texto_8:
-	.string "GIOVANNI: {PLAYER}? How is the\n"
-	.string "mission going? Are you going to SEAFOAM\l"
-	.string "ISLANDS? Perfect, BLUE's team is ready\l"
-	.string "to defeat MOLTRES, and ANDRA has\l"
-	.string "finished the last preparations with our\l"
-	.string "scientists to make her team more\l"
-	.string "advantageous against ZAPDOS. I look\l"
-	.string "forward to hearing from you,\l"
-	.string "{PLAYER}.$"
+FuchsiaCity_Encuentro_Koga_Texto_7.1:
+	.string "Estaré encantado de combatir\n"
+	.string "contigo{PAUSE 25}…{PAUSE 25} si se da la ocasión.$"
 
 FuchsiaCity_Encuentro_Koga_Move_1:
 walk_in_place_right
@@ -430,6 +481,9 @@ faceplayer
 applymovement 8, FuchsiaCity_Estafado_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_Estafado_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox FuchsiaCity_Estafado_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FuchsiaCity_Estafado_Texto_13 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq FuchsiaCity_Estafado_No
@@ -486,9 +540,8 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox FuchsiaCity_Estafado_Texto_8 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
 msgbox FuchsiaCity_Estafado_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox FuchsiaCity_Estafado_Texto_10 MSGBOX_DEFAULT
@@ -511,56 +564,64 @@ end
 
 
 FuchsiaCity_Estafado_Texto_1:
-.string "I'm doomed, ruined…\n"
-	.string "And all because of those scammers…$"
+.string "Estoy acabado, en la ruina…\n"
+	.string "Y todo por esos estafadores{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_2:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}$"
+.string "…\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 FuchsiaCity_Estafado_Texto_3:
-	.string "Hey, wait, ROCKET! You're my last chance!\n"
-	.string "Listen to me! I've been a victim of a\l"
-	.string "scam. I invested all the savings I had\l"
-	.string "left: 2 million POKÉ on buying a genuine\l"
-	.string "METEORITE from the METEOR FALLS, in\l"
-	.string "HOENN. That METEORITE would confirm\l"
-	.string "the theory on which my entire project\l"
-	.string "is based, and would finish this project\l"
-	.string "I've been working on for years. But it\l"
-	.string "turns out those scammers sold me, at a\l"
-	.string "very high price, one of the many rocks\l"
-	.string "you can find in the MT.MOON, and now I'm\l"
-	.string "ruined, without even money to claim\l"
-	.string "anything.$"
+.string "¡Eh! ¡Espera, ROCKET!\n"
+	.string "¡Eres mi última esperanza!\l"
+	.string "¡Escúchame!$"
+
+FuchsiaCity_Estafado_Texto_3.1:
+	.string "He sido víctima de un engaño,\n"
+	.string "invertí todos los ahorros que me\l"
+	.string "quedaban: 2.000.000¥, en comprar\l"
+	.string "un auténtio METEORITO proveniente\l"
+	.string "de la CASCADA METEORO.\l"
+	.string "Tal objeto confirmaría la teoría en\l"
+	.string "la que todo mi proyecto se ha basado,\l"
+	.string "el cual daría por finalizado.\l"
+	.string "Pero resulta que esos estafadores\l"
+	.string "me vendieron a precio de oro una\l"
+	.string "de las tantas rocas que puedes\l"
+	.string "encontrar en el MT.MOON, y ahora\l"
+	.string "estoy en la ruina, sin siquiera\l"
+	.string "dinero para reclamar nada.$"
 
 FuchsiaCity_Estafado_Texto_4:
-	.string "What are you saying?! you've defeated\n"
-	.string "those scammers and they've moved to\l"
-	.string "another region? And you've taken from\l"
-	.string "them the money I invested in my\l"
-	.string "project!$"
+.string "¿¡Qué dices?!\n"
+	.string "¿Que nos has librado para siempre\l"
+	.string "de esos tramposos y se han mudado\l"
+	.string "a otra región?\l"
+	.string "¡¿Has recuperado el dinero que\l"
+	.string "invertí en mi proyecto?!$"
 
 FuchsiaCity_Estafado_Texto_5:
-	.string "({PLAYER} handed over the 2 million\n"
-	.string "POKÉ to the scientist).$"
+.string "¡{PLAYER} entregó los 2.000.000¥\n"
+	.string "al científico!$"
 
 FuchsiaCity_Estafado_Texto_6:
-	.string "I can't believe I've got all my money\n"
-	.string "back. To be honest, I wasn't sure if I\l"
-	.string "could trust you, ROCKET. And if even\l"
-	.string "after managing to recover my money, I\l"
-	.string "was afraid you might disappear with it,\l"
-	.string "being lost forever.$"
+.string "No puedo creer que haya recuperado\n"
+	.string "todo mi dinero. Si te soy sincero,\l"
+	.string "tenía mis dudas de si obrarías\l"
+	.string "honradamente, ROCKET, de si, aún\l"
+	.string "consiguiendo recuperar el dinero,\l"
+	.string "no desaparecerías con el,\l"
+	.string "perdiéndote para siempre.$"
 
 FuchsiaCity_Estafado_Texto_7:
-	.string "Now I see they are just stereotypes,\n"
-	.string "and that the money you steal really has\l"
-	.string "a clear purpose behind it. Here is what\l"
-	.string "we agreed upon, ROCKET.$"
+.string "Ahora veo que solo son\n"
+	.string "estereotipos, y que el dinero que\l"
+	.string "robáis realmente tiene un claro\l"
+	.string "objetivo detrás.\l"
+	.string "Aquí tienes lo acordado, ROCKET.$"
 
 FuchsiaCity_Estafado_Texto_8:
-.string "(You just earned 200000 POKÉ).$"
+	.string "¡Te has embolsado 200.000¥!$"
 
 FuchsiaCity_Estafado_Texto_9:
 	.string "And here is the POKÉMON I promised you.\n"

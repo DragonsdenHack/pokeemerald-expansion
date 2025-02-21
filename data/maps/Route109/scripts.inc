@@ -2,7 +2,12 @@
 @  These are labeled in DewfordTown/scripts.inc
 
 Route109_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route109_OnFrame
 	.byte 0
+
+Route109_OnFrame:
+map_script_2 VAR_ROUTE118_STATE, 4, Route109_Nina_Final
+	.2byte 0
 
 Route109_EventScript_StartDepartForDewford::
 	call EventScript_BackupMrBrineyLocation
@@ -448,12 +453,12 @@ Route109_EventScript_Carter::
 	end
 
 Route109_EventScript_Paul::
-	trainerbattle_double TRAINER_MEL_AND_PAUL, Route109_Text_PaulIntro, Route109_Text_PaulDefeated, Route109_Text_PaulNotEnoughPokemon
+	trainerbattle_double TRAINER_TRAINER_639, Route109_Text_PaulIntro, Route109_Text_PaulDefeated, Route109_Text_PaulNotEnoughPokemon
 	msgbox Route109_Text_PaulPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route109_EventScript_Mel::
-	trainerbattle_double TRAINER_MEL_AND_PAUL, Route109_Text_MelIntro, Route109_Text_MelDefeated, Route109_Text_MelNotEnoughPokemon
+	trainerbattle_double TRAINER_TRAINER_639, Route109_Text_MelIntro, Route109_Text_MelDefeated, Route109_Text_MelNotEnoughPokemon
 	msgbox Route109_Text_MelPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -509,10 +514,10 @@ Route109_Text_BrineyTellMeWhenYouNeedToSail:
 	.string "you need to set sail again!$"
 
 Route109_Text_ChillAtMyPapasSpot:
-	.string "Yo, TRAINERS!\n"
-	.string "Whether you're hot to trot,\l"
-	.string "or cool cat not,\l"
-	.string "chill at my papa's spot!$"
+	.string	"¡ENTRENADORES, oíd!\n"
+	.string	"Ya seáis grandes o pequeños,\l"
+	.string	"fuertes o debiluchos…,\l"
+	.string	"¡mi padre os da mil vueltas a todos!$"
 
 Route109_Text_LittleKidsDartAround:
 	.string "Little kids can dart around so quickly…\p"
@@ -522,39 +527,323 @@ Route109_Text_LittleKidsDartAround:
 	.string "should be okay, but…$"
 
 Route109_Text_SandCastleTakingLongTime:
-	.string "Our sand castle's taking a long time\n"
-	.string "to make.$"
+	.string	"Estamos tardando un montón en\n"
+	.string	"terminar nuestro castillo de arena.$"
 
 Route109_Text_YouCanHaveThis:
-	.string "You can have this!$"
+	.string	"¡Toma esto para ti!$"
 
 Route109_Text_WereGoingToMakeBigCastle:
-	.string "We're going to get all the sand from\n"
-	.string "the beach and make a big castle!\p"
-	.string "And then we're going to be a king and\n"
-	.string "queen.\p"
-	.string "We'll let you be a servant.$"
+	.string	"¡Vamos a coger toda la arena de la\n"
+	.string	"playa y a hacer un castillo tremendo!\p"
+	.string	"Y nosotros seremos el rey\n"
+	.string	"y la reina.\p"
+	.string	"Te dejaremos ser sirviente…$"
 
 Route109_Text_ZigzagoonPicksUpLitter:
-	.string "The water around these parts is clean.\p"
-	.string "But, I get my ZIGZAGOON to pick up\n"
-	.string "litter from the shoreline at times.\p"
-	.string "Dirty water becomes rain and joins our\n"
-	.string "rivers, which we drink from…\p"
-	.string "If we pollute the sea, it all comes\n"
-	.string "back to haunt us eventually.$"
+	.string	"El agua de esta zona está limpia.\p"
+	.string	"Pero, a veces, mi ZIGZAGOON recoge\n"
+	.string	"basura en la orilla…\p"
+	.string	"Cuando el agua sucia se evapora, cae en\n"
+	.string	"forma de lluvia y va a parar a los ríos,\l"
+	.string	"de los que se saca el agua potable.\p"
+	.string	"Si contaminamos el mar, acabamos\n"
+	.string	"pagando el pato nosotros.$"
 
 Route109_Text_ZigzagoonCry:
-	.string "ZIGZAGOON: Guguu?$"
+	.string	"ZIGZAGOON: ¿Zigzaaa?$"
 
 Route109_Text_SeashoreHouseSign:
-	.string "SEASHORE HOUSE\p"
-	.string "“May hot battles rage on hot sands!\n"
-	.string "The place for hot TRAINERS!”$"
+	.string	"CASA de la PLAYA\p"
+	.string	"“¡Combates al rojo vivo!\n"
+	.string	"¡Solo para ENTRENADORES apasionados!”$"
 
 Route109_Text_TrainerTipsSign:
-	.string "TRAINER TIPS\p"
-	.string "POKÉMON at the same level may not\n"
-	.string "always have identical stats.\p"
-	.string "POKÉMON raised by TRAINERS are said\n"
-	.string "to grow stronger than wild POKÉMON.$"
+	.string	"PISTAS para ENTRENADORES\p"
+	.string	"POKéMON que tienen el mismo nivel\n"
+	.string	"pueden tener distintas habilidades.\p"
+	.string	"Dicen que los POKéMON entrenados por\n"
+	.string	"ENTRENADORES se vuelven más fuertes\l"
+	.string	"que los POKéMON salvajes.$"
+
+Route109_Nina::
+lock
+faceplayer
+compare VAR_ROUTE118_STATE, 1
+goto_if_gt Route109_Nina_Despues
+msgbox Route109_Text_ChillAtMyPapasSpot, MSGBOX_NPC
+release
+end
+
+Route109_Nina_Despues::
+msgbox Route109_Text_ChillAtMyPapasSpot, MSGBOX_NPC
+delay 15
+msgbox Route109_Nina_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, Route109_Nina_Despues_Move_1
+waitmovement 0x0
+msgbox Route109_Nina_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route109_Nina_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_2
+waitmovement 0x0
+msgbox Route109_Nina_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_3
+waitmovement 0x0
+opendoor 11, 5
+waitdooranim
+delay 10
+msgbox Route109_Nina_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, Route109_Nina_Despues_Move_4
+waitmovement 0x0
+setflag FLAG_HOENN_33
+removeobject 7
+closedoor 11, 5
+waitdooranim
+setvar VAR_ROUTE118_STATE, 3
+release
+end
+
+Route109_Nina_Despues_Move_4:
+walk_up
+step_end
+
+Route109_Nina_Despues_Move_3:
+face_up
+delay_16
+walk_in_place_up
+step_end
+
+Route109_Nina_Despues_Move_2:
+walk_in_place_down
+step_end
+
+Route109_Nina_Despues_Move_1:
+emote_exclamation_mark
+step_end
+
+Route109_Nina_Texto_1:
+	.string "… …$"
+
+Route109_Nina_Texto_2:
+	.string "¿Tú ganarle a mi padre?$"
+
+Route109_Nina_Texto_3:
+	.string "¡Ja, ja, ja! Escúchame.$"
+
+Route109_Nina_Texto_4:
+	.string "Ya seas pobre o rico, vistas de traje o\n"
+	.string "en bañador… ¡Mi padre te da mil vueltas!$"
+
+Route109_Nina_Texto_5:
+	.string "¡ENTRENADORES, oíd! ¡Tenemos a otro\n"
+	.string "iluso que va a ser derrotado!$"
+
+Route109_Nina_Final_Move_1:
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Route109_Nina_Final_Move_2:
+walk_left
+face_right
+step_end
+
+Route109_Nina_Final_Move_3:
+walk_left
+walk_left
+walk_up
+step_end
+
+Route109_Nina_Final_Move_4:
+walk_up
+step_end
+
+Route109_Nina_Final::
+delay 15
+msgbox Route109_Nina_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_LEDGE
+applymovement 29, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 29, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 29, Route109_Nina_Final_Move_1
+waitmovement 0x0
+removeobject 29
+applymovement OBJ_EVENT_ID_PLAYER, Route109_Nina_Final_Move_2
+applymovement 28, Route109_Nina_Final_Move_3
+waitmovement 0x0
+opendoor 11, 5
+waitdooranim
+applymovement 28, Route109_Nina_Final_Move_4
+waitmovement 0x0
+removeobject 28
+closedoor 11, 5
+waitdooranim
+delay 15
+msgbox Route109_Nina_Final_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Final_Move_5
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route109_Nina_Final_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 26, Route109_Nina_Despues_Move_1
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_7
+applymovement 26, Route109_Nina_Despues_Move_7
+waitmovement 0x0
+delay 10
+applymovement 26, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 27, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Despues_Move_8
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox Route109_Nina_Final_Texto_10 MSGBOX_DEFAULT
+givemon SPECIES_ANORITH, 60, ITEM_NONE
+waitfanfare
+delay 15
+playse SE_LEDGE
+applymovement 26, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 26, BerryForest_Evento_Hypno_Move_4
+waitmovement 0x0
+delay 15
+msgbox Route109_Nina_Final_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Despues_Move_9
+applymovement 27, Route109_Nina_Final_Move_5
+waitmovement 0x0
+msgbox Route109_Nina_Final_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 26, Route109_Nina_Final_Move_10
+applymovement 27, Route109_Nina_Final_Move_11
+waitmovement 0x0
+delay 10
+removeobject 26
+removeobject 27
+setflag FLAG_HOENN_689
+clearflag FLAG_HOENN_35
+setvar VAR_ROUTE118_STATE, 5
+release
+end
+
+Route109_Nina_Final_Move_11:
+walk_right
+walk_up
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+
+Route109_Nina_Final_Move_10:
+delay_16
+face_down
+delay_16
+walk_down
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Route109_Nina_Despues_Move_9:
+face_down
+step_end
+
+Route109_Nina_Despues_Move_8:
+walk_in_place_left
+step_end
+
+Route109_Nina_Despues_Move_7:
+walk_up
+walk_up
+walk_left
+walk_left
+step_end
+
+Route109_Nina_Final_Move_6:
+walk_right
+walk_down
+walk_right
+walk_right
+step_end
+
+Route109_Nina_Final_Move_5:
+face_up
+step_end
+
+Route109_Nina_Final_Texto_1:
+	.string "¡Y se acabaron también los helados\n"
+	.string "después del cole!$"
+
+Route109_Nina_Final_Texto_2:
+	.string "¡Bua, bua!$"
+
+Route109_Nina_Final_Texto_3:
+	.string "Vaya, sí que le ha regañado bien.$"
+
+Route109_Nina_Final_Texto_4:
+	.string "¡Y te has perdido lo mejor! ¡Los\n"
+	.string "combates han sido increíbles!$"
+
+Route109_Nina_Final_Texto_5:
+	.string "¡Aún no me lo creo, lo has conseguido!$"
+
+Route109_Nina_Final_Texto_6:
+	.string "Cuando entraste a la CASA de la PLAYA,\n"
+	.string "mi amigo estuvo todo el rato pendiente\l"
+	.string "tras las ventanillas. No daba crédito a\l"
+	.string "lo que estaba viendo. Me insistió tanto\l"
+	.string "que al final me hizo venir con el barco\l"
+	.string "de mi padre.$"
+
+Route109_Nina_Final_Texto_7:
+	.string "¡Señor, es usted increíble!$"
+
+Route109_Nina_Final_Texto_8:
+	.string "Después de esto, dejará de ser tan\n"
+	.string "presumida en el colegio.$"
+
+Route109_Nina_Final_Texto_9:
+	.string "Sin ti hubiera sido imposible. Este\n"
+	.string "POKÉMON es para ti.$"
+
+Route109_Nina_Final_Texto_10:
+	.string "¡{PLAYER} obtuvo un ANORITH al NV.60!$"
+
+Route109_Nina_Final_Texto_11:
+	.string "Ahora sí, ¡vuelvo a AZULIZA!$"
+
+Route109_Nina_Final_Texto_12:
+	.string "¡Nos vemos en el cole!$"

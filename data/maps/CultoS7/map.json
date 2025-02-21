@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CultoS7_EventScript_Banetita",
-      "flag": "FLAG_NUEVA_564"
+      "script": "CultoS8_EventScript_Dusknoirita",
+      "flag": "FLAG_NUEVA_860"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
@@ -54,7 +54,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CULTISTA",
+      "graphics_id": "OBJ_EVENT_GFX_CULTISTA2",
       "x": 3,
       "y": 2,
       "elevation": 3,

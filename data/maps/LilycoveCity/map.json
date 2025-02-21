@@ -144,8 +144,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 73,
-      "y": 15,
+      "x": 62,
+      "y": 23,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -153,7 +153,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LilycoveCity_EventScript_WailmerTrainerGrunt",
-      "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
+      "flag": "FLAG_HOENN_54"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -235,8 +235,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 24,
-      "y": 5,
+      "x": 0,
+      "y": 0,
       "elevation": 5,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -310,6 +310,58 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LilycoveCity_EventScript_FatMan",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "x": 63,
+      "y": 23,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_54"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "x": 70,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Bloqueo_Aqua",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARTIST",
+      "x": 12,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Segundo_Artista",
+      "flag": "FLAG_HOENN_38"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARTIST",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Primer_Artista",
+      "flag": "FLAG_HOENN_38"
     }
   ],
   "warp_events": [
@@ -381,7 +433,7 @@
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_HOUSE2",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 11,
@@ -413,7 +465,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 56,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "9",
+      "script": "LilycoveCity_Aquiles"
+    },
+    {
+      "type": "trigger",
+      "x": 55,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "9",
+      "script": "LilycoveCity_Aquiles"
+    }
   ],
   "bg_events": [
     {

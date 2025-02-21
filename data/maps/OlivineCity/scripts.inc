@@ -136,6 +136,32 @@ msgbox OlivineCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_104:
-	.string "OLIVINE LIGHTHOUSE\n"
-	.string "Also known as the\l"
-	.string "GLITTER LIGHTHOUSE.$"
+	.string "FARO DE OLIVO\n"
+	.string "También conocido como el FARO\l"
+	.string "BRILLANTE.$"
+
+OlivineCity_Norman_Bloqueo::
+compare VAR_UNUSED_0x40F7, 200
+goto_if_lt OlivineCity_Norman_Bloqueo_Nada
+applymovement OBJ_EVENT_ID_PLAYER, OlivineCity_Norman_Bloqueo_Move_1
+waitmovement 0x0
+msgbox OlivineCity_Norman_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, OlivineCity_Norman_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+OlivineCity_Norman_Bloqueo_Texto_1:
+.string "La puerta está cerrada.$"
+
+OlivineCity_Norman_Bloqueo_Move_1:
+walk_in_place_up
+step_end
+
+OlivineCity_Norman_Bloqueo_Move_2:
+walk_right
+step_end
+
+OlivineCity_Norman_Bloqueo_Nada::
+release
+end

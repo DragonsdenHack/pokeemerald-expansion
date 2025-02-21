@@ -7,21 +7,32 @@ msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
 delay 5
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_1
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_5
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_220, Route49_Pagoda_P12_Combate_Maestro_Texto_8
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_9 MSGBOX_AUTOCLOSE
@@ -31,6 +42,7 @@ msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_Pagoda_P12_Combate_Maestro_Move_6
 waitmovement 0x0
 msgbox Route49_Pagoda_P12_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 setvar VAR_VERDANTURF_TOWN_STATE, 15
 release
 end

@@ -165,13 +165,26 @@ BlackthornCityDocumento_Text_100:
 
 
 BlackthornCityDocumento_101::
-msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN   
+compare VAR_UNUSED_0x40F8, 35
+goto_if_gt BlackthornCityDocumento_101_Debora
+msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN  
 end
 
 BlackthornCityDocumento_Text_101:
-.string "BLACKTHORN CITY POKÉMON GYM\n"
-	.string "LEADER: SALAZAR\l"
-	.string "The master of masters.$"
+.string "GIMNASIO de CIUDAD ENDRINO\n"
+	.string "LÍDER: ... ...\l"
+	.string "¡No hay ningún nombre!$"
+
+BlackthornCityDocumento_101_Debora::
+lock
+msgbox BlackthornCityDocumento_101_Debora_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+BlackthornCityDocumento_101_Debora_Texto_1:
+.string "GIMNASIO de CIUDAD ENDRINO\n"
+	.string "LÍDER: DÉBORA\l"
+	.string "La grán experta en POKÉMON DRAGÓN.$"
 
 
 
@@ -232,8 +245,6 @@ BlackthornCity_EventScript_ReceiveSwablu::
 	release
 	end
 
-
-
 BlackthornCity_Swablu_EventScript_TakeNosepass::
 lock
 faceplayer
@@ -246,8 +257,6 @@ faceplayer
 	release
 	end 
 
-
-
 BlackthornCity_Swablu_Text_TakeNosepass:
 	.string "This city is famous for being the\n"
 	.string "birthplace of DRAGON TAMERS; they come\l"
@@ -256,17 +265,12 @@ BlackthornCity_Swablu_Text_TakeNosepass:
 	.string "potential to evolve into a dragon.$"
 
 
-
-
 BlackthornCity_Swablu_Text_TakeNosepass2:
 	.string "Wanna have one of these\n"
 	.string "POKÉMON? Take this.$"
 
-
-
 BlackthornCity_Swablu_Text_MensajeNosepass:
 	.string "YOU OBTAINED A LV.25 SWABLU!$"
-
 
 BlackthornCity_Swablu_Text_1:
 	.string "SWABLU's evolutionary line doesn't have\n"

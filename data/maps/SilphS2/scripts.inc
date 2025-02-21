@@ -231,21 +231,27 @@ SilphS2_12::
 lock     
 faceplayer     
 msgbox SilphS2_Text_12, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_12.1, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_12:
-	.string "When asking for something, pick a busy\n"
-	.string "person; they already have the work\l"
-	.string "momentum, and your request becomes\l"
-	.string "just another task on their to-do list.\l"
-	.string "On the contrary, someone with nothing\l"
-	.string "to do will need to put in much more\l"
-	.string "effort just to get started on your\l"
-	.string "request. After all, even the easiest\l"
-	.string "task becomes hard with no inertia and a\l"
-	.string "lack of motivation..$"
+.string "Si quieres pedirle algo a alguien,\n"
+.string "que sea una persona ocupada; esta\l"
+.string "llevará tal inercia de trabajo que\l"
+.string "tu petición no será más que otra\l"
+.string "tarea más a realizar sobre la marcha.$"
+
+SilphS2_Text_12.1:
+.string "En cambio, quien no tiene nada que\n"
+.string "hacer, deberá poner mucha más energía\l"
+.string "en ponerse en movimiento exclusivamente\l"
+.string "para llevar a cabo tu petición.\p"
+.string "Las leyes de inercia y coeficiente\n"
+.string "de rozamiento también pueden ser\l"
+.string "aplicables a las personas.$"
 
 
 
@@ -350,10 +356,23 @@ end
 
 
 SilphS2_Text_19:
-	.string "I prefer to invest my time actually\n"
-	.string "doing the task rather than wasting it\l"
-	.string "talking and formulating a thousand\l"
-	.string "theories on how to do the task.$"
+.string "Prefiero invertir mi tiempo en hacer\n"
+.string "la tarea, que en malgastarlo en hablar\l"
+.string "y formular 1000 teorías acerca de\l"
+.string "cómo hacer la tarea.$"
+
+SilphS2_20_5::
+lock     
+faceplayer     
+msgbox SilphS2_Text_20_5, MSGBOX_DEFAULT
+release     
+end
+
+
+SilphS2_Text_20_5:
+	.string "Trabajamos y somos explotados durante\n"
+	.string "el año para poder viajar y explotar a\l"
+	.string "otros en verano.$"
 
 
 
@@ -369,6 +388,38 @@ SilphS2_Text_20:
 	.string "You reckon I'm plotting some evil\n"
 	.string "scheme or creating a kick-ass POKÉMON\l"
 	.string "on my computer?{PAUSE 20}…{PAUSE 20} Spot on!$"
+
+SilphS2_Text_20_EventScript_TM132::
+	lock
+	faceplayer
+	goto_if_set FLAG_HOENN_171, SilphS2_Text_20_EventScript_ReceivedTM33
+	msgbox SilphS2_Text_20_Text_TM33, MSGBOX_DEFAULT
+	giveitem ITEM_TM132
+	setflag FLAG_HOENN_171
+	msgbox SilphS2_Text_20_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+SilphS2_Text_20_EventScript_ReceivedTM33::
+	msgbox SilphS2_Text_20_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+SilphS2_Text_20_Text_TM33:
+.string "¿Crees que estoy maquinando algún\n"
+.string "plan maléfico?\l"
+.string "¿O creando algún Pokémon\l"
+.string "invencible desde mi computadora?\l"
+.string "{PAUSE 15}…{PAUSE 15}\l"
+.string "¡Estás en lo cierto!$"
+
+SilphS2_Text_20_Text_ExplainTM33:
+	.string "Con MAQUINACIÓN, elevarás\n"
+	.string "drásticamente el AT.ESPECIAL\l"
+	.string "del POKÉMON que lo ejecute.\l"
+	.string "Es sorprendente lo que puede\l"
+	.string "lograr uno por su propia cuenta.\l"
+	.string "¿No crees?$"
 
 
 
@@ -575,23 +626,36 @@ SilphS2_35::
 lock     
 faceplayer     
 msgbox SilphS2_Text_35, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_35.1, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_35.2, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_35:
-	.string "KANTO boasts reliable and balanced\n"
-	.string "POKÉMON. It's not known for extremes\l"
-	.string "like the sheer physical prowess of\l"
-	.string "HAXORUS, the impregnable defenses of\l"
-	.string "SHUCKLE, or the lightning speed of\l"
-	.string "NINJASK. Nevertheless, a team composed\l"
-	.string "of KANTO POKÉMON can hold its own\l"
-	.string "against those with access to the full\l"
-	.string "spectrum. While having a wider pool of\l"
-	.string "choices may confer strategic benefits,\l"
-	.string "the best POKÉMON and TRAINERS can\l"
-	.string "emerge from any region.$"
+.string "KANTO cuenta con buenos POKÉMON, sólidos\n"
+.string "y equilibrados, sin embargo, no es una\l"
+.string "región de extremos; aquí no encontrarás\l"
+.string "a nadie con el ATAQUE FÍSICO de un\l"
+.string "HAXORUS, las defensas de SHUCKLE o\l"
+.string "la VELOCIDAD de NINJASK.\p"
+.string "Pero no importa, puedes, con POKÉMON\n"
+.string "de KANTO, formar un equipo que compita\l"
+.string "con alguien que tenga a su disposición\l"
+.string "a todos los POKÉMON que existen.$"
+
+SilphS2_Text_35.1:
+.string "Contar con más POKÉMON abre tu abanico\n"
+.string "de opciones, puede dar una ventaja\l"
+.string "estratégica, pero también vuelve la\l"
+.string "elección más difícil.$"
+
+SilphS2_Text_35.2:
+.string "Al final, los mejores POKÉMON y\n"
+.string "ENTRENADORES pueden provenir de\l"
+.string "cualquier lugar.$"
 
 
 
@@ -751,27 +815,41 @@ SilphS2_48::
 lock     
 faceplayer     
 msgbox SilphS2_Text_48, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.1, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.2, MSGBOX_DEFAULT
+delay 10
+msgbox SilphS2_Text_48.3, MSGBOX_DEFAULT
 release     
 end
 
 
 SilphS2_Text_48:
-	.string "Whether you win by a landslide or a\n"
-	.string "narrow margin, a victory is a victory.\l"
-	.string "Nobody cares if a mere stumble led to an\l"
-	.string "unjust loss at the final moment; in the\l"
-	.string "end, nobody remembers second place. In\l"
-	.string "the Olympic medal tally, it matters\l"
-	.string "little if you have 50 silver medals; if\l"
-	.string "your competitor has just one more gold,\l"
-	.string "they'll surpass you in the overall\l"
-	.string "ranking. For those solely fixated on\l"
-	.string "the ultimate outcome, the notion of not\l"
-	.string "emerging victorious can be\l"
-	.string "disheartening. In such moments, it's\l"
-	.string "crucial to regard the final result as a\l"
-	.string "product of our preceding efforts, not\l"
-	.string "the ultimate goal.$"
+.string "No importa si ganas por mucho o\n"
+.string "por poco, ganar es ganar.$"
+
+SilphS2_Text_48.1:
+.string "A nadie le importa si a causa de\n"
+.string "un tropiezo perdiste injustamente\l"
+.string "en el último momento, nadie se\l"
+.string "acuerda de un segundo lugar; en el\l"
+.string "medallero olímpico, da igual que\l"
+.string "tengas 50 medallas de plata, si tu\l"
+.string "rival tiene una sola más de oro,\l"
+.string "quedará por delante en la\l"
+.string "clasificación global.$" 
+
+SilphS2_Text_48.2:
+.string "Para alguien anclado solo en el\n"
+.string "resultado final, la sola idea de que\l"
+.string "no pueda acabar ganando realmente el\l"
+.string "mejor es desalentadora.$"
+
+SilphS2_Text_48.3:
+.string "Ante esto, solo queda ver el resultado\n"
+.string "como una consecuencia de nuestro\l"
+.string "trabajo previo, no el fin último.$"
 
 
 
@@ -976,7 +1054,111 @@ Silph_S2_Discoxtrano_Texto_1.1:
 	.string "DISC from Scientist!$"
 
 Silph_S2_Discoxtrano_Text_1:
-	.string "With the DUBIOUS DISC, you can evolve\n"
-	.string "PORYGON2 into PORYGON-Z, a more\l"
-	.string "vulnerable version to attacks but with\l"
-	.string "extraordinary offensive capabilities.$"
+	.string "Con el DISCOXTRAÑO podrás evolucionar\n"
+	.string "a PORYGON2 en PORYGON-Z, una versión\l"
+	.string "algo más vulnerable a los ataques, pero\l"
+	.string "con una ofensiva extraordinaria.$"
+
+Silph_S2_Llave_Texto_1:
+	.string "Se requiere de una llave especial.$"
+
+Silph_S2_Llave_Texto_2:
+	.string "¿Quieres usar la LLAVE SILPH S3?$"
+
+Silph_S2_Llave::
+compare VAR_UNUSED_0x40F8, 11
+goto_if_gt Silph_S2_Llave_Despues
+delay 10
+msgbox Silph_S2_Llave_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+Silph_S2_Llave_Despues::
+delay 10
+msgbox Silph_S2_Llave_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 11, 32, 0x334, FALSE
+setmetatile 11, 33, 0x334, FALSE
+setmetatile 11, 34, 0x334, FALSE
+setmetatile 12, 32, 0x334, FALSE
+setmetatile 12, 33, 0x334, FALSE
+setmetatile 12, 34, 0x334, FALSE
+setmetatile 13, 32, 0x334, FALSE
+setmetatile 13, 33, 0x334, FALSE
+setmetatile 13, 34, 0x334, FALSE
+setmetatile 10, 32, 0x335, FALSE
+setmetatile 10, 33, 0x335, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+Base_Johto_Llave_Derecha::
+compare VAR_UNUSED_0x40F7, 153
+goto_if_gt Base_Johto_Llave_Derecha_Despues
+delay 10
+msgbox Base_Johto_Llave_Derecha_Despues_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+Base_Johto_Llave_Derecha_Despues::
+delay 10
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 17, 54, 0x347, FALSE
+setmetatile 18, 54, 0x346, FALSE
+setmetatile 17, 55, 0x335, FALSE
+setmetatile 18, 55, 0x335, FALSE
+setmetatile 17, 56, 0x339, FALSE
+setmetatile 18, 56, 0x33A, FALSE
+setmetatile 19, 56, 0x281, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+Base_Johto_Llave_Izquierda::
+compare VAR_UNUSED_0x40F7, 153
+goto_if_gt Base_Johto_Llave_Izquierda_Despues
+delay 10
+msgbox Base_Johto_Llave_Derecha_Despues_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+Base_Johto_Llave_Izquierda_Despues::
+delay 10
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 13, 54, 0x347, FALSE
+setmetatile 14, 54, 0x346, FALSE
+setmetatile 13, 55, 0x335, FALSE
+setmetatile 14, 55, 0x335, FALSE
+setmetatile 13, 56, 0x339, FALSE
+setmetatile 14, 56, 0x33A, FALSE
+setmetatile 15, 56, 0x334, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+Base_Johto_Llave_Derecha_Despues_Texto_1:
+	.string "Se requiere de una llave especial.$"
+
+Base_Johto_Llave_Derecha_Despues_Texto_2:
+	.string "¿Quieres ir al P2 de la BASE?$"

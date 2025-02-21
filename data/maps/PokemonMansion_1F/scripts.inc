@@ -94,8 +94,6 @@ PokemonMansion1F_EventScript_Cientifico::
 	end
 
 PokemonMansion_1F_Ladrones_Centro::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0X0
 delay 15
@@ -111,8 +109,6 @@ waitmovement 0X0
 goto PokemonMansion_1F_Ladrones
 
 PokemonMansion_1F_Ladrones_Izq::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0X0
 delay 15
@@ -128,8 +124,6 @@ waitmovement 0X0
 goto PokemonMansion_1F_Ladrones
 
 PokemonMansion_1F_Ladrones_Der::
-playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
 waitmovement 0x0
 delay 15
@@ -259,6 +253,12 @@ delay 15
 playse MUS_OBTAIN_ITEM
 additem ITEM_RARE_CANDY, 3
 msgbox PokemonMansion_1F_Ladrones_Texto_26 MSGBOX_DEFAULT
+waitse
+delay 15
+playse MUS_OBTAIN_ITEM
+additem ITEM_TINY_MUSHROOM, 3
+msgbox PokemonMansion_1F_Ladrones_Texto_26.1 MSGBOX_DEFAULT
+waitse
 delay 15
 playfanfare MUS_OBTAIN_TMHM
 msgbox PokemonMansion_1F_Ladrones_Texto_27 MSGBOX_DEFAULT
@@ -267,6 +267,7 @@ waitfanfare
 playse SE_PIN
 applymovement 6, PokemonMansion_1F_Ladrones_Move_1
 waitmovement 0x0
+waitse
 msgbox PokemonMansion_1F_Ladrones_Texto_28 MSGBOX_AUTOCLOSE
 applymovement 8, PokemonMansion_1F_Ladrones_Move_15
 waitmovement 0x0
@@ -693,37 +694,48 @@ PokemonMansion_1F_Ladrones_Texto_25:
 .string "{PLAYER} found 10 PROTEINS!$"
 
 PokemonMansion_1F_Ladrones_Texto_26:
-	.string "{PLAYER} found 3 RARE CANDIES!$"
+.string "¡{PLAYER} encontró 3\n"
+	.string "CARAMELOSRARO!$"
+
+PokemonMansion_1F_Ladrones_Texto_26.1:
+.string "¡{PLAYER} encontró 3\n"
+	.string "MINI SETAS!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
-	.string "{PLAYER} obtained a LV.5\n"
-	.string "CHARMANDER!!$"
+.string "¡¡OBTUVISTE UN CHARMANDER AL NV.5!!$"
 
 PokemonMansion_1F_Ladrones_Texto_28:
-	.string "NO!! The CHARMANDER I was going to sell\n"
-	.string "in JOHTO! They give 4 million POKÉ for it\l"
-	.string "there!$"
+.string "¡¡NO!!\n"
+	.string "¡El CHARMANDER que íbamos\l"
+	.string "a vender en JOHTO!\l"
+	.string "¡Allí ofrecen 400.000¥!$"
 
 PokemonMansion_1F_Ladrones_Texto_29:
-	.string "What do you think you're doing,\n"
-	.string "ROCKET?! Stop and…{PAUSE 20}!$"
+.string "¿¡Qué crees que estás haciendo!?\n"
+	.string "¡Detente y…!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
-	.string "{PLAYER} found the 2 million POKÉ\n"
-	.string "stolen from the scientist!$"
+.string "¡{PLAYER} encontró los 2.000.000¥\n"
+	.string "robados al científico!$"
 
 PokemonMansion_1F_Ladrones_Texto_31:
-	.string "It is enough! Don't think that you have\n"
-	.string "won, ROCKET! Most of the commodities\l"
-	.string "are already on the truck, way to JOHTO!$"
+.string "¡Ya es suficiente!\n"
+	.string "¡No creas que has ganado, ROCKET!\l"
+	.string "¡La mayoría de la mercancía ya\l"
+	.string "está dentro de nuestro camión,\l"
+	.string "rumbo a JOHTO!\l"
+	.string "¡Solo has llegado a arrebatarnos\l"
+	.string "las migajas que faltaban por\l"
+	.string "embarcar!$"
 
 PokemonMansion_1F_Ladrones_Texto_32:
-	.string "Someone like you will never visit JOHTO,\n"
-	.string "so this is a for-ever-goodbye.\l"
-	.string "Take pleasure in the poverty that\l"
-	.string "afflicts this region, TEAM ROCKET!\l"
-	.string "Poverty that we have helped create,\l"
-	.string "hahaha!$"
+.string "Alguien como tú jamás visitará\n"
+	.string "JOHTO, de modo que esto es un\l"
+	.string "adios para siempre.\l"
+	.string "¡Disfruta de la pobreza que asola\l"
+	.string "a esta región, ROCKET!\l"
+	.string "¡Pobreza a la que nosotros hemos\l"
+	.string "contribuido, jo, jo, jo!$"
 
 PokemonMansion_1F_Ladrones_Move_1:
 emote_exclamation_mark

@@ -42,9 +42,9 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	msgbox SeafloorCavern_Room9_Text_RedOrbShinesByItself, MSGBOX_DEFAULT
 	special WaitWeather
 	waitstate
-	setvar VAR_RESULT, 1
+	setvar VAR_RESULT, 2
 	playse SE_M_DETECT
-	dofieldeffectsparkle 16, 42, 0
+	dofieldeffectsparkle 17, 42, 0
 	waitfieldeffect FLDEFF_SPARKLE
 	closemessage
 	setvar VAR_RESULT, 0
@@ -237,7 +237,7 @@ SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
 	.string "See how beautiful it is, the sleeping\n"
 	.string "form of the ancient POKÉMON KYOGRE!\p"
 	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "come…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "ARCHIE: It surprises me, how you've\n"
@@ -256,7 +256,7 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this RED ORB, I can make KYOGRE…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
 	.string "The RED ORB suddenly began shining\n"
@@ -270,7 +270,7 @@ SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
 	.string "ARCHIE: Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "members outside…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "ARCHIE: Yes, what is it?\p"
@@ -303,7 +303,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
 	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "the deepening sea…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "ARCHIE: W-what?!\n"
@@ -312,7 +312,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "infuriated GROUDON?\p"
 	.string "So long as I have this RED ORB,\n"
 	.string "I should be able to control KYOGRE…\p"
-	.string "I should be able to control it…$"
+	.string "I should be able to control it…{PAUSE 5}$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 	.string "MAXIE: We don't have the time to\n"
@@ -324,3 +324,85 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"
+
+
+MagmaHideout_4F_Encuentro_Kyogre::
+lock
+clearflag FLAG_HOENN_680
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.10
+waitmovement 0x0
+msgbox MagmaHideout_4F_Encuentro_Kyogre_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 16, 21, 0
+waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 2
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.1
+waitmovement 0x0
+special RemoveCameraObject
+delay 75
+addobject 1
+waitfanfare
+removeobject 7
+setflag FLAG_HOENN_56
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
+goto MagmaHideout_4F_Encuentro_Kyogre_2
+delay 150
+removeobject LOCALID_KYOGRE_SLEEPING
+addobject LOCALID_KYOGRE
+waitstate
+delay 60
+applymovement 1, MagmaHideout_4F_Movement_GroudonApproach
+waitmovement 0
+special FadeOutOrbEffect
+waitstate
+setvar VAR_0x8004, 1  @ vertical pan
+setvar VAR_0x8005, 1  @ horizontal pan
+setvar VAR_0x8006, 8  @ num shakes
+setvar VAR_0x8007, 5  @ shake delay
+special ShakeCamera
+waitstate
+applymovement 1, MagmaHideout_4F_Movement_GroudonExit
+waitmovement 0
+
+MagmaHideout_4F_Encuentro_Kyogre_2::
+special SpawnCameraObject
+applymovement 1, TerraCave_End_Movement_GroudonApproach
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9.2
+waitmovement 0x0
+special RemoveCameraObject
+delay 200
+trainerbattle_no_intro TRAINER_TRAINER_669, NavelRock_Bottom_Combate_Lugia_Texto_2
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 1
+setflag FLAG_HOENN_680
+playse SE_FAINT
+waitse
+msgbox MagmaHideout_4F_Encuentro_Kyogre_Texto_2 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_681
+setvar VAR_UNUSED_0x40F8, 13
+release
+end
+
+MagmaHideout_4F_Encuentro_Kyogre_Texto_2:
+	.string "(La batalla con KYOGRE-P ha sido\n"
+	.string "registrada en la base de datos del TEAM\l"
+	.string "ROCKET).$"
+
+MagmaHideout_4F_Encuentro_Kyogre_Texto_1:
+	.string "{PLAYER} activó la ESFERA AZUL.$"

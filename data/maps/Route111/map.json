@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_111",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -15,7 +15,7 @@
   "connections": [
     {
       "direction": "down",
-      "offset": 0,
+      "offset": -2,
       "map": "MAP_MAUVILLE_CITY"
     },
     {
@@ -41,7 +41,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route111_EventScript_Victor",
-      "flag": "FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE"
+      "flag": "FLAG_HOENN_25"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
@@ -54,7 +54,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE"
+      "flag": "FLAG_HOENN_693"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -67,7 +67,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE"
+      "flag": "FLAG_HOENN_694"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
@@ -80,7 +80,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE"
+      "flag": "FLAG_HOENN_695"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
@@ -188,8 +188,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
-      "x": 14,
-      "y": 86,
+      "x": 16,
+      "y": 83,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -197,12 +197,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_TyBattle1",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
-      "x": 13,
-      "y": 86,
+      "x": 19,
+      "y": 87,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -210,12 +210,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_GabbyBattle1",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 18,
-      "y": 101,
+      "x": 16,
+      "y": 102,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -228,7 +228,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 19,
-      "y": 100,
+      "y": 99,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -261,8 +261,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route111_EventScript_ItemTM37",
-      "flag": "FLAG_ITEM_ROUTE_111_TM_37"
+      "script": "Desierto_Hoenn_S3_EventScript_MT139",
+      "flag": "FLAG_HOENN_157"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -292,7 +292,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
-      "x": 13,
+      "x": 18,
       "y": 86,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -301,12 +301,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_GabbyBattle4",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
       "x": 14,
-      "y": 86,
+      "y": 83,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -314,11 +314,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_TyBattle4",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
-      "x": 13,
+      "x": 17,
       "y": 86,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -327,12 +327,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_GabbyBattle6",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
-      "x": 14,
-      "y": 86,
+      "x": 17,
+      "y": 84,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -340,7 +340,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_TyBattle6",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2"
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -448,8 +448,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 14,
-      "y": 20,
+      "x": 1,
+      "y": 46,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -591,7 +591,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
-      "x": 2,
+      "x": 1,
       "y": 46,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -604,8 +604,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 19,
-      "y": 53,
+      "x": 0,
+      "y": 47,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -618,15 +618,106 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 19,
-      "y": 101,
+      "y": 103,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route111_EventScript_RockSmashTipFatMan",
       "flag": "FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "x": 21,
+      "y": 125,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ruta_111_Cientificos",
+      "flag": "FLAG_HOENN_24"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "x": 22,
+      "y": 125,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ruta_111_Cientificos",
+      "flag": "FLAG_HOENN_24"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "x": 23,
+      "y": 125,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ruta_111_Cientificos",
+      "flag": "FLAG_HOENN_24"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KECLEON",
+      "x": 4,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route118_Kecleon",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KECLEON",
+      "x": 4,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route118_Kecleon",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KECLEON",
+      "x": 4,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route118_Kecleon",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 13,
+      "y": 113,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_692"
     }
   ],
   "warp_events": [
@@ -652,15 +743,15 @@
       "dest_warp_id": 0
     },
     {
-      "x": 17,
-      "y": 58,
+      "x": 0,
+      "y": 47,
       "elevation": 0,
       "dest_map": "MAP_MIRAGE_TOWER_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 36,
-      "y": 109,
+      "x": 13,
+      "y": 115,
       "elevation": 0,
       "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
       "dest_warp_id": 0
@@ -676,8 +767,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 15,
-      "y": 69,
+      "x": 14,
+      "y": 62,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -802,12 +893,12 @@
     },
     {
       "type": "trigger",
-      "x": 16,
-      "y": 38,
+      "x": 10,
+      "y": 39,
       "elevation": 3,
-      "var": "VAR_TEMP_3",
+      "var": "0",
       "var_value": "0",
-      "script": "Route111_EventScript_ViciousSandstormTriggerLeft"
+      "script": "Route111_EventScript_SandstormTrigger"
     },
     {
       "type": "trigger",
@@ -883,8 +974,8 @@
     },
     {
       "type": "trigger",
-      "x": 17,
-      "y": 68,
+      "x": 13,
+      "y": 62,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -892,8 +983,8 @@
     },
     {
       "type": "trigger",
-      "x": 18,
-      "y": 68,
+      "x": 12,
+      "y": 62,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -937,8 +1028,8 @@
     },
     {
       "type": "trigger",
-      "x": 15,
-      "y": 40,
+      "x": 11,
+      "y": 38,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -955,8 +1046,8 @@
     },
     {
       "type": "trigger",
-      "x": 13,
-      "y": 42,
+      "x": 10,
+      "y": 61,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -965,7 +1056,7 @@
     {
       "type": "trigger",
       "x": 12,
-      "y": 43,
+      "y": 37,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -974,7 +1065,7 @@
     {
       "type": "trigger",
       "x": 11,
-      "y": 44,
+      "y": 62,
       "elevation": 3,
       "var": "0",
       "var_value": "0",

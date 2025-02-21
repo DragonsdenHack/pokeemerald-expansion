@@ -140,15 +140,22 @@ playse SE_PIN
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
@@ -157,10 +164,20 @@ msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
+waitmovement 0x0
+waitse
+delay 10
+msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_7
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_8
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CELIA, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
@@ -168,16 +185,29 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
 applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_9
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_13 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BROOKE_3, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14
+playse SE_PIN
+applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2
+applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15 MSGBOX_AUTOCLOSE
 delay 30
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.3
+waitmovement 0x0
+delay 10
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
 clearflag FLAG_RECEIVED_SHOAL_SALT_2
@@ -189,6 +219,28 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 164
 release
 end
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.1:
+lock_facing_direction
+walk_slow_up
+unlock_facing_direction
+step_end
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.2:
+emote_exclamation_mark
+step_end
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6.3:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_down
+delay_8
+step_end
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_1:
 	.string "As you have seen from these estimates,\n"
@@ -225,22 +277,26 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7:
 .string "It can't be!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8:
-	.string "So, you're still standing. I see you're\n"
-	.string "not like the other ROCKETS. The notion\l"
-	.string "that your strength lies only in numbers\l"
-	.string "is false after all.$"
+.string "Así que sigues en pie.\n"
+	.string "Veo que no eres como los demás.\l"
+	.string "Eso que dicen de los ROCKET, que solo\l"
+	.string "sois fuertes en número, parece ser\l"
+	.string "mentira.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9:
-.string "Maybe you're the best TRAINER\n"
-	.string "around, but not right now.\l"
-	.string "Here, you play by our rules.\l"
-	.string "MACUTO!\l"
-	.string "Finish him!$"
+.string "Tal vez seas el mejor ENTRENADOR.\p"
+	.string "Pero no en esta situación.\p"
+	.string "Aquí juegas con nuestras reglas.$"
+
+MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9.1:
+	.string "¡MACUTO!\p"
+	.string "¡Remátalo!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10:
-	.string "I'm going to crush you with all my brute\n"
-	.string "force. You'll see why they call me the\l"
-	.string "biggest bully in all of JOHTO!$"
+.string "Voy a aplastarte con toda mi\n"
+	.string "fuerza bruta.\p"
+	.string "¡Verás por qué me conocen como\n"
+	.string "el mayor matón de toda JOHTO!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
 .string "You!\n"
@@ -315,15 +371,18 @@ walk_down
 step_end
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 setvar VAR_UNUSED_0x40F7, 162
 release
 end
@@ -333,43 +392,63 @@ emote_exclamation_mark
 walk_in_place_down
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
-	.string "GIOVANNI: {PLAYER}? Are you in\n"
-	.string "MAHOGANY TOWN? Perfect. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Well, I see\l"
-	.string "you've beaten me to it. I was going to\l"
-	.string "send ARCHER and ANDRA to take back the\l"
-	.string "MAHOGANY BASE, but I trust that you'll\l"
-	.string "be more than enough. Hopefully, it'll be\l"
-	.string "cleared and ready for operation soon.$"
+.string "GIOVANNI: ¿{PLAYER}?\p"
+	.string "¿Estás ya en PUEBLO CAOBA?\p"
+	.string "Perfecto.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "Bien, veo que te has adelantado,\n"
+	.string "iba a enviar a ATLAS y ANDRA a\l"
+	.string "recuperar la BASE CAOBA, pero\l"
+	.string "confío en que contigo sea\l"
+	.string "suficiente, espero que pueda estar\l"
+	.string "despejada y lista para trabajar\l"
+	.string "cuanto antes.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
-	.string "So you've defeated the GRAND MASTER of\n"
-	.string "ECRUTEAK CITY? His EEVEE seems to be\l"
-	.string "the ancestor of all EEVEEs, capable of\l"
-	.string "transforming into the TYPE of the move\l"
-	.string "it performs. It must have given you\l"
-	.string "some trouble, {PLAYER}. … … Did HO-OH\l"
-	.string "appear!? At the peak of BELL TOWER? … …\l"
-	.string "A TRAINER who only uses MAJOR\l"
-	.string "LEGENDARIES appeared and captured it?\l"
-	.string "And he had LUGIA too!?$"
+.string "¿Así que has derrotado al\n"
+	.string "GRAN MAESTRO de CIUDAD IRIS?\p"
+	.string "El mecanismo de evolución de\n"
+	.string "de su EEVEE-& es todo un misterio.\l"
+	.string "Puede transformarse en el tipo de\l"
+	.string "cada uno de los movimientos que\l"
+	.string "ejecute.\p"
+	.string "Debió ser un duro rival.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡¿HO-OH apareció?!\n"
+	.string "¿En la cima de TORRE CAMPANA?\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Un ENTRENADOR que solo usa\n"
+	.string "LEGENDARIOS MAYORES apareció y\l"
+	.string "lo capturó?\p"
+	.string "¿¡También tenía a LUGIA!?$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
-	.string "This breaks all our schemes. You say you\n"
-	.string "already know him from the SEVII\l"
-	.string "ISLANDS, and there he already got hold\l"
-	.string "of the HOENN LEGENDARIES? He must be\l"
-	.string "someone very dangerous, maybe seeking\l"
-	.string "the same as us. I'll double the guard at\l"
-	.string "the RUINS OF ALPH.$"
+.string "Esto rompe nuestros esquemas.\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿Dices que ya lo conoces del\n"
+	.string "ARCHI7, y allí ya se hizo\l"
+	.string "con los LEGENDARIOS de HOENN?\p"
+	.string "Debe de ser alguien muy peligroso,\n"
+	.string "y tal vez busque lo mismo que\l"
+	.string "nosotros. Haré redoblar la guardia\l"
+	.string "en RUINAS ALFA.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
-	.string "Stay alert, {PLAYER}. We must act\n"
-	.string "accordingly. We'll be in touch again\l"
-	.string "soon.$"
+.string "Estate atento, {PLAYER}.\p"
+	.string "Debemos actuar en consecuencia,\n"
+	.string "nos mantenemos en contacto.$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja::
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
 playse SE_NOTE_C
-applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+dofieldeffectsparkle 9, 12, 0
+waitfieldeffect FLDEFF_SPARKLE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1.1
 waitmovement 0x0
 delay 30
 playse SE_NOTE_C_HIGH

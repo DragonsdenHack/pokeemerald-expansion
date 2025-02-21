@@ -52,8 +52,11 @@ delay 20
 playse SE_PIN
 applymovement 3, Route52_Maze_Combate_1_Move_1
 waitmovement 0x0
+waitse
+delay 10
 applymovement 3, Route52_Maze_Combate_1_Move_2
 waitmovement 0x0
+delay 10
 msgbox Route52_Maze_Combate_1_Texto_3 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route52_Maze_Combate_1_Move_3
 waitmovement 0x0
@@ -62,7 +65,9 @@ msgbox Route52_Maze_Combate_1_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 3, Route52_Maze_Combate_1_Move_4
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_ANGELO, Route52_Maze_Combate_1_Texto_5
+delay 10
 msgbox Route52_Maze_Combate_1_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, Route52_Maze_Combate_1_Move_5
 waitmovement 0x0
 setvar VAR_UNUSED_0x4091, 3
@@ -194,6 +199,8 @@ playse SE_PIN
 applymovement 6, Route52_Maze_Combate_2_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, Route52_Maze_Combate_2_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 6, Route52_Maze_Combate_2_Move_3
 waitmovement 0x0
 delay 20

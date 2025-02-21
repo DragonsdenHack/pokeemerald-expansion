@@ -13,6 +13,7 @@ delay 15
 playse SE_PIN
 applymovement 2, MahoganyHouseCarbon_Secundaria_Move_1
 waitmovement 0x0
+waitse
 delay 10
 msgbox MahoganyHouseCarbon_Secundaria_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0

@@ -98,18 +98,26 @@ applymovement 4, Mision7Lab4_Dialogo_Oak_Move_7
 applymovement 3, Mision7Lab4_Dialogo_Oak_Move_7
 waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 25
 msgbox Mision7Lab4_Dialogo_Oak_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_12
 waitmovement 0x0
+delay 10
 msgbox Mision7Lab4_Dialogo_Oak_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
 waitmovement 0x0
 delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
 waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Mision7Lab4_Dialogo_Oak_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_4
 waitmovement 0x0
+delay 10
 msgbox Mision7Lab4_Dialogo_Oak_Texto_16 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_7
@@ -117,22 +125,15 @@ waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_17 MSGBOX_AUTOCLOSE
 delay 40
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
-fadescreen 1
-delay 20
 call Script_RemoveTint
 removeobject 2
 removeobject 3
 removeobject 4
 removeobject 5
-delay 20
-fadescreen 0
-special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_13
 call Script_RemoveTint
-waitmovement 0x0
-special RemoveCameraObject
 special DrawWholeMapView
 setvar VAR_UNUSED_0x40F7, 193
+warpsilent MAP_MISION7LAB4, 5, 23
 release
 end
 
@@ -355,16 +356,17 @@ Mision7Lab4_Dialogo_Oak_Texto_14:
 	.string "truly extraordinary.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_15:
-	.string "But now, facing this new legion of\n"
-	.string "PROTOTYPES, all of them are\l"
-	.string "extraordinary. The normalization of\l"
-	.string "excellence causes them not to be\l"
-	.string "considered as such in the eyes of the\l"
-	.string "observer, even though biologically and\l"
-	.string "physiologically, they truly are.$"
+.string "Pero ahora, ante esta nueva legión de\n"
+	.string "PROTOTIPOS, todos ellos ya lo son.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_15.1:
+	.string "La normalización de la excelencia provoca\n"
+	.string "que, a ojos del observador, no sea\l"
+	.string "considerada como tal, a pesar de que\l"
+	.string "biológica y fisiológicamente, lo sea.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_16:
-.string "I mean, if everyone is extraordinary{PAUSE 25}…$"
+.string "Es decir, si todos son extraordinarios…{PAUSE 5}$"
 
 Mision7Lab4_Dialogo_Oak_Texto_17:
 .string "{PAUSE 35}…{PAUSE 35} no one will be anymore.$"

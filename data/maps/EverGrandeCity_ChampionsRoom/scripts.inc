@@ -268,12 +268,12 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "You now stand at the glorious peak\n"
 	.string "of the POKÉMON LEAGUE.\p"
 	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "HOENN region{PAUSE 5}…{PAUSE 5}$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 	.string "MAY: {PLAYER}{KUN}!\p"
 	.string "Here's some advice before you challenge\n"
-	.string "the CHAMPION…$"
+	.string "the CHAMPION{PAUSE 5}…{PAUSE 5}$"
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
 	.string "MAY: Huh?\n"
@@ -285,7 +285,7 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
 	.string "BRENDAN: {PLAYER}!\p"
 	.string "How would you like some advice before\n"
-	.string "you challenge the CHAMPION?…$"
+	.string "you challenge the CHAMPION?…{PAUSE 5}$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 	.string "BRENDAN: {PLAYER}…\p"

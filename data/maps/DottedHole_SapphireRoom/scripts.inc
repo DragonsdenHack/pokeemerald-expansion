@@ -53,6 +53,14 @@ waitmovement 0x0
 delay 15
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4.2
+waitmovement 0x0
+delay 10
+msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
 waitmovement 0x0
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
@@ -63,6 +71,7 @@ playse SE_M_DETECT
 waitse
 dofieldeffectsparkle 7, 4, 0
 waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 2
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect
@@ -92,8 +101,12 @@ applymovement 10, MtEmber_B5F_Encuentro_Magno_Move_2
 waitmovement 0x0
 delay 40
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
 waitmovement 0x0
+waitse
+delay 10
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6.1 MSGBOX_AUTOCLOSE
 applymovement 9, MtEmber_B5F_Encuentro_Magno_Move_14
 waitmovement 0x0
@@ -129,11 +142,23 @@ playse SE_PIN
 applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_8
 applymovement 3, MtEmber_B5F_Encuentro_Magno_Move_8
 waitmovement 0x0
+waitse
+delay 10
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_9
 waitmovement 0x0
+delay 10
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4.3
+waitmovement 0x0
+delay 10
+msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_10
 waitmovement 0x0
+delay 10
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_8 MSGBOX_AUTOCLOSE
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_11
@@ -154,95 +179,123 @@ setvar VAR_UNUSED_0x40F7, 100
 release
 end
 
+MtEmber_B5F_Encuentro_Magno_Move_4.3:
+delay_8
+face_up
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+MtEmber_B5F_Encuentro_Magno_Move_4.2:
+delay_8
+face_down
+delay_16
+delay_8
+face_up
+delay_8
+step_end
+
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_1:
-	.string "ARCHIE: The BLUE ORB shines brighter\n"
-	.string "than ever. This chamber leads to the\l"
-	.string "place where KYOGRE lies, awaiting a\l"
-	.string "worthy servant to set it free.$"
+.string "AQUILES: La ESFERA AZUL brilla más que\n"
+	.string "nunca, esta cámara lleva al lugar donde\l"
+	.string "yace KYOGRE, a la espera de un digno\l"
+	.string "servidor que lo libere.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_2:
-.string "{PAUSE 20}…{PAUSE 20}$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3:
-	.string "This SAPPHIRE{PAUSE 20}…{PAUSE 20} already a big deal in\n"
-	.string "the black market. But what most people\l"
-	.string "don't get is that it's worth way more\l"
-	.string "than any price some rich dude would pay\l"
-	.string "just to have it collecting dust in their\l"
-	.string "fancy mansion.$"
+.string "Este ZAFIRO{PAUSE 25}…{PAUSE 25}ya de por sí un\n"
+	.string "tesoro de enorme valor en el mercado\l"
+	.string "negro, lo que muy pocos saben es que\l"
+	.string "su razón de ser tiene infinitamente más\l"
+	.string "valor que el precio que cualquier\l"
+	.string "fanático esté dispuesto a pagar por él.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4:
-	.string "We gotta be glad nobody's messed up\n"
-	.string "this place yet. I know loads of\l"
-	.string "scientists who'd kill to sell a piece like\l"
-	.string "this to anyone, anywhere, even those\l"
-	.string "TEAM ROCKET losers. Don't worry, KYOGRE,\l"
-	.string "this SAPPHIRE's in good hands! Hey,\l"
-	.string "keep an eye out, HIGH RANK SILVINE and\l"
-	.string "ADMIN MATT!$"
+.string "Hemos de estar agradecidos, nadie ha\n"
+	.string "podido profanar este lugar aún.\l"
+	.string "Sé de muchos científicos que darían su\l"
+	.string "brazo derecho por tratar de vender una\l"
+	.string "pieza como esta a cualquier rata que\l"
+	.string "se ofrezca, incluso a esas sabandijas\l"
+	.string "del TEAM ROCKET.$"
+
+DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4.1:
+	.string "Puedes estar tranquilo, KYOGRE.\n"
+	.string "¡El ZAFIRO ha caído en\l"
+	.string "las manos adecuadas!$"
+
+DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4.2:
+	.string "¡Abrid bien los ojos ALTO RANGO\n"
+	.string "SILVINA y ALMIRANTE TOLO!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5:
-	.string "On its own, the SAPPHIRE in this place\n"
-	.string "leads nowhere. However, if we manage to\l"
-	.string "bring the BLUE ORB and make it shine in\l"
-	.string "its presence, this is what happens…$"
+.string "Por sí solo el ZAFIRO, en este lugar,\n"
+	.string "no lleva a ninguna parte.\l"
+	.string "Pero si logramos traer la ESFERA AZUL,\l"
+	.string "y hacerla brillar aquí{PAUSE 15}…{PAUSE 15}$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6:
-	.string "After years of effort and numerous\n"
-	.string "failed attempts, we have succeeded:\l"
-	.string "KYOGRE! Finally, you can roam the seven\l"
-	.string "seas freely and harness all your power!$"
+.string "Después de tantos años e intentos\n"
+	.string "fallidos, lo logramos.\l"
+	.string "¡Al fin podrás nadar libremente\l"
+	.string "por los 7 mares!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6.1:
-	.string "What are you waiting for, bunch of\n"
-	.string "pests? Everyone inside! Or you'll be the\l"
-	.string "first to experience KYOGRE's WATER\l"
-	.string "SPOUT!$"
+.string "¡¿A qué esperáis, atajo de sabandijas?!\n"
+	.string "¡Todos adentro, o seréis los primeros\l"
+	.string "en probar el SALPICAR de KYOGRE!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7:
-	.string "ARCHIE: I recognize you; you're the one\n"
-	.string "who obstructed my path when I stumbled\l"
-	.string "upon this location. Normally, I would\l"
-	.string "take it upon myself to give you a lesson\l"
-	.string "for your impudence. However, as you can\l"
-	.string "appreciate, I won't prolong the\l"
-	.string "awakening of Kyogre because someone\l"
-	.string "like you has decided to cause a\l"
-	.string "commotion. HIGH RANK SHELLY!\l"
-	.string "Demonstrate this trash how we operate\l"
-	.string "here in TEAM AQUA!$"
+.string "AQUILES: Yo a ti te conozco.\n"
+	.string "En condiciones normales me encargaría\l"
+	.string "personalmente de darte una lección.$"
+
+DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7.1:
+	.string "Pero como comprenderás, no voy a alargar\n"
+	.string "más el despertar de KYOGRE por alguien\l"
+	.string "tan insignificante como tú.$"
+
+DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7.2:
+	.string "¡ALTO RANGO SILVINA!\n"
+	.string "¡Muéstrale cómo nos las\l"
+	.string "gastamos en el EQUIPO AQUA!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_8:
-	.string "HR.SHELLY: With pleasure, sir.$"
+.string "AR.SILVINA: Con gusto, señor.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_9:
-	.string "ARCHIE: I hope you don't make the\n"
-	.string "mistake of trying to follow me. You\l"
-	.string "should have been taught to respect the\l"
-	.string "sea and its dangers from a young age.\l"
-	.string "KYOGRE is the sea!$"
+.string "AQUILES: Espero que no cometas la\n"
+	.string "estupidez de intentar seguirme.\l"
+	.string "Deberían de haberte inculcado\l"
+	.string "desde pequeño el respeto por la\l"
+	.string "mar y los peligros de esta.\l"
+	.string "¡KYOGRE es el mar!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_10:
-	.string "This situation has escalated too much;\n"
-	.string "you're not welcome here. Did you know?\l"
-	.string "KYOGRE is typically a calm and peaceful\l"
-	.string "POKÉMON, except when facing its\l"
-	.string "eternal rival, GROUDON. However, if you\l"
-	.string "continue down this path, we won't\l"
-	.string "hesitate to instruct it to unleash a\l"
-	.string "couple of HYDROPUMPS that will take out\l"
-	.string "your entire team!$"
+.string "Esto ha ido demasiado lejos, tú no\n"
+	.string "pintas nada en este lugar.\l"
+	.string "¿Sabías una cosa?\l"
+	.string "En la naturaleza de KYOGRE está ser\l"
+	.string "un POKÉMON tranquilo y pacífico,\l"
+	.string "excepto cuando tiene enfrente a su\l"
+	.string "eterno rival.\l"
+	.string "No obstante, si sigues por este\l"
+	.string "camino, ¡no tendremos reparo en\l"
+	.string "usarlo en tu contra!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_11:
-	.string "Well, my loss has given ARCHIE the time\n"
-	.string "he needed.$"
+.string "Con mi derrota, AQUILES ha podido\n"
+	.string "ganar el tiempo que necesitaba.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_12:
-	.string "I hope the brief moments you spend\n"
-	.string "witnessing KYOGRE's resurgence are\l"
-	.string "worth it before you find yourself\l"
-	.string "submerged dozens of meters below sea\l"
-	.string "level.$"
+.string "Espero que te merezcan la pena los\n"
+	.string "segundos en los que podrás presenciar\l"
+	.string "el renacer de KYOGRE, antes de acabar\l"
+	.string "engullido por su poder.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Move_1:
 face_left

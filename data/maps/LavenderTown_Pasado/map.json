@@ -1,0 +1,367 @@
+{
+  "id": "MAP_LAVENDER_TOWN_PASADO",
+  "name": "LavenderTown_Pasado",
+  "layout": "LAYOUT_LAVENDER_TOWN_PASADO",
+  "music": "MUS_RG_LAVENDER",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TEACHY_TV_HOST",
+      "x": 13,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
+      "x": 19,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANAJOHTO",
+      "x": 15,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MORFEO2",
+      "x": 5,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA3",
+      "x": 11,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LavenderTown_Pasado_Lider",
+      "flag": "FLAG_HOENN_70"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MORFEO2",
+      "x": 11,
+      "y": 18,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LavenderTown_Pasado_Lider",
+      "flag": "FLAG_HOENN_70"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TEACHY_TV_HOST",
+      "x": 9,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_70"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_TOWN_PASADO_GYM",
+      "dest_warp_id": 0
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "16",
+      "script": "LavenderTown_Pasado_Agatha"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Gris"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LavenderTown_Pasado_Pantalla_Blanco"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LavenderTown_PasadoDocumento_100"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LavenderTownDocumento_102"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LavenderTown_PasadoDocumento_101"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LavenderTown_Pasado_Cartel"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LavenderTownDocumento_103"
+    }
+  ]
+}

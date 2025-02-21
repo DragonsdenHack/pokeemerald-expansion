@@ -50,6 +50,8 @@
 #include "constants/trainers.h"
 #include "constants/weather.h"
 #include "constants/battle_config.h"
+#include "daycare.h"
+#include "battle_z_move.h"
 
 struct SpeciesItem
 {
@@ -1253,6 +1255,10 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(BAXCALIBUR),
     SPECIES_TO_NATIONAL(DUNSPARCE_OLD_PREEVO),
     SPECIES_TO_NATIONAL(DUDUNSPARCE_EVO),
+	SPECIES_TO_NATIONAL(GOROCHU),
+	SPECIES_TO_NATIONAL(WARTILLERY),
+	SPECIES_TO_NATIONAL(QWOLTFISH),
+	SPECIES_TO_NATIONAL(GUARDIA),
 
     // Megas
     [SPECIES_ELECTRODE_Y - 1] = NATIONAL_DEX_ELECTRODE,
@@ -1986,13 +1992,14 @@ const s8 gNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
     [NATURE_QUIRKY]  = {    0,  0,  0,     0,     0},
 };
 
-#include "data/pokemon/tmhm_learnsets.h"
 #include "data/pokemon/trainer_class_lookups.h"
 #include "data/pokemon/experience_tables.h"
 #include "data/pokemon/base_stats.h"
 #include "data/pokemon/level_up_learnsets.h"
+#include "data/pokemon/teachable_learnsets.h"
 #include "data/pokemon/evolution.h"
 #include "data/pokemon/level_up_learnset_pointers.h"
+#include "data/pokemon/teachable_learnset_pointers.h"
 #include "data/pokemon/form_species_tables.h"
 #include "data/pokemon/form_species_table_pointers.h"
 #include "data/pokemon/form_change_tables.h"
@@ -3110,6 +3117,12 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_GOROCHU - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_WARTILLERY - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_QWOLTFISH - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_GUARDIA - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_ARMALDO_PRIMAL - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_RELICANTH_PRIMAL - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_MILOTICBOND - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_GYARADOSZ - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+	[SPECIES_PORYGON31 - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
@@ -7426,60 +7439,22 @@ bool8 TryIncrementMonLevel(struct Pokemon *mon)
     }
 }
 
-u32 CanMonLearnTMHM(struct Pokemon *mon, u8 tm)
-{
-    u16 species = GetMonData(mon, MON_DATA_SPECIES2, 0);
-    if (species == SPECIES_EGG)
-    {
-        return 0;
-    }
-    else if (tm < 32)
-    {
-        u32 mask = 1 << tm;
-        return gTMHMLearnsets[species][0] & mask;
-    }
-    else if (tm < 64)
-    {
-        u32 mask = 1 << (tm - 32);
-        return gTMHMLearnsets[species][1] & mask;
-    }
-	else if (tm < 96)
-	{
-		u32 mask = 1 << (tm - 64);
-        return gTMHMLearnsets[species][2] & mask;
-	}
-	else
-	{
-		u32 mask = 1 << (tm - 96);
-        return gTMHMLearnsets[species][3] & mask;
-	}	
-}
-
-u32 CanSpeciesLearnTMHM(u16 species, u8 tm)
+u8 CanLearnTeachableMove(u16 species, u16 move)
 {
     if (species == SPECIES_EGG)
     {
-        return 0;
-    }
-    else if (tm < 32)
-    {
-        u32 mask = 1 << tm;
-        return gTMHMLearnsets[species][0] & mask;
-    }
-    else if (tm < 64)
-    {
-        u32 mask = 1 << (tm - 32);
-        return gTMHMLearnsets[species][1] & mask;
-    }
-    else if (tm < 96)
-    {
-        u32 mask = 1 << (tm - 64);
-        return gTMHMLearnsets[species][2] & mask;
+        return FALSE;
     }
     else
     {
-        u32 mask = 1 << (tm - 96);
-        return gTMHMLearnsets[species][3] & mask;
+      u8 i;
+        for (i = 0; gTeachableLearnsets[species][i] != MOVE_NONE; i++)
+        {
+            if (gTeachableLearnsets[species][i] == move) {
+                return TRUE;
+            }
+        }
+        return FALSE;
     }
 } 
 
@@ -7537,10 +7512,20 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
 {
     u16 learnedMoves[MAX_MON_MOVES];
     u16 moves[MAX_LEVEL_UP_MOVES];
+	u16 eggMoves[EGG_MOVES_ARRAY_COUNT];
     u8 numMoves = 0;
+	u8 numEggMoves;
     u16 species = GetMonData(mon, MON_DATA_SPECIES2, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     int i, j, k;
+	
+	if (FlagGet(FLAG_HOENN_639))
+    {
+        numEggMoves = GetEggMoves(mon, eggMoves);
+
+        if (numEggMoves == 0)
+            return 0;
+    }
 
     if (species == SPECIES_EGG)
         return 0;
@@ -7572,7 +7557,9 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
             }
         }
     }
-
+	if (numMoves == 0 && numEggMoves > 0 && FlagGet(FLAG_HOENN_639))
+       return numEggMoves;
+   
     return numMoves;
 }
 
@@ -7632,9 +7619,12 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_EUSINE:
             return 632;
         case TRAINER_CLASS_DEVON_CIENTIFICO:
+        case TRAINER_CLASS_POLICIA_DEVON:
             return 636;
         case TRAINER_CLASS_MIGUEL_2:
+        case TRAINER_CLASS_EXPERIMENTO_2:
             return 629;
+        case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_MIGUEL_1:
             return 631;
         case TRAINER_CLASS_MIRTO:
@@ -7650,6 +7640,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CIENTIFICOHOENN:
             return MUS_VS_AQUA_MAGMA;
         case TRAINER_CLASS_LEADER:
+        case TRAINER_CLASS_LEADER_HOENN:
             return MUS_VS_GYM_LEADER;
         case TRAINER_CLASS_AQUA_LEADER:
         case TRAINER_CLASS_MAGMA_LEADER:
@@ -7664,6 +7655,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_ELITE_FOUR:
         case TRAINER_CLASS_CAPITAN:
             return MUS_VS_ELITE_FOUR;
+        case TRAINER_CLASS_PROPIETARIA:
         case TRAINER_CLASS_ATLAS:
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
@@ -7682,7 +7674,11 @@ u16 GetBattleBGM(void)
             return MUS_RG_SILPH;
         case TRAINER_CLASS_GIOVANNI:
             return 583;
-         case TRAINER_CLASS_ANDRA:
+        case TRAINER_CLASS_ANDRA:
+        case TRAINER_CLASS_ANDRA_ALTORANGO:
+        case TRAINER_CLASS_ANDRA_EJECUTIVA:
+        case TRAINER_CLASS_ANDRA_ADMIN:
+        case TRAINER_CLASS_ANDRA_ADMINJEFE:
             return 569;
         case TRAINER_CLASS_MIGUEL:
             return 574;
@@ -7697,10 +7693,13 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MAESTRO:
         case TRAINER_CLASS_MAESTRO_TORRE:
             return 584;
+        case TRAINER_CLASS_ALTO_RANGO:
         case TRAINER_CLASS_RECLUTA:
             return 621;
         case TRAINER_CLASS_ZEUS:
             return 587;
+        case TRAINER_CLASS_TRISTANA:
+            return 641;
         case TRAINER_CLASS_JONES:
             return 576;
         case TRAINER_CLASS_DIOS:
@@ -7716,15 +7715,16 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CAMPEON:
             return MUS_RG_VS_CHAMPION;
         case TRAINER_CLASS_SINGULAR:
+        case TRAINER_CLASS_FUJI:
+        case TRAINER_CLASS_GUARDIA:
             return 579;
         case TRAINER_CLASS_BILL:
             return 551;
-        case TRAINER_CLASS_FUJI:
-            return 434;
         case TRAINER_CLASS_ANCIENT:
             return MUS_VS_KYOGRE_GROUDON;
         case TRAINER_CLASS_EXCULTISTA:
             return MUS_VS_REGI;
+        case TRAINER_CLASS_POLICIA_JOHTO:
         case TRAINER_CLASS_NINJA:
         case TRAINER_CLASS_LADRONJOHTO:
         case TRAINER_CLASS_SABIO:
@@ -7767,10 +7767,54 @@ u16 GetBattleBGM(void)
             return 622;
         case TRAINER_CLASS_ELM:
             return 578;
+        case TRAINER_CLASS_AMATISTA:
+            return 410;
+        case TRAINER_CLASS_GENTLEMAN_HOENN:
+        case TRAINER_CLASS_POKEMANIACO_HOENN:
+        case TRAINER_CLASS_MEDIUM_HOENN:
+        case TRAINER_CLASS_HEX_MANIAC:
+        case TRAINER_CLASS_NINJA_HOENN:
+        case TRAINER_CLASS_PARASOL_LADY:
+        case TRAINER_CLASS_PKMN_RANGER:
+        case TRAINER_CLASS_SCHOOL_KID:
+        case TRAINER_CLASS_LADY:
+        case TRAINER_CLASS_RUIN_MANIAC:
+        case TRAINER_CLASS_SAILOR:
+        case TRAINER_CLASS_TUBER_M:
+        case TRAINER_CLASS_TUBER_F:
+        case TRAINER_CLASS_DOMADOR_HOENN:
+        case TRAINER_CLASS_BUG_MANIAC:
+        case TRAINER_CLASS_BATTLE_GIRL:
+        case TRAINER_CLASS_PKMN_BREEDER:
+        case TRAINER_CLASS_BUG_CATCHER:
+        case TRAINER_CLASS_BIRD_KEEPER:
+        case TRAINER_CLASS_SWIMMER_M:
+        case TRAINER_CLASS_SWIMMER_F:
+        case TRAINER_CLASS_DRAGON_TAMER:
+        case TRAINER_CLASS_OLD_COUPLE:
+        case TRAINER_CLASS_SR_AND_JR:
+        case TRAINER_CLASS_YOUNG_COUPLE:
+        case TRAINER_CLASS_SIS_AND_BRO:
+        case TRAINER_CLASS_TWINS:
+        case TRAINER_CLASS_YOUNGSTER:
+        case TRAINER_CLASS_COLLECTOR:
+        case TRAINER_CLASS_GUITARIST:
+        case TRAINER_CLASS_PSYCHIC:
+        case TRAINER_CLASS_FISHERMAN:
+        case TRAINER_CLASS_TRIATHLETE:
+        case TRAINER_CLASS_BEAUTY:
+        case TRAINER_CLASS_AROMA_LADY:
+        case TRAINER_CLASS_KINDLER:
+        case TRAINER_CLASS_KARATEKA_HOENN:
+        case TRAINER_CLASS_COOLTRAINER:
+        case TRAINER_CLASS_POKEFAN:
+        case TRAINER_CLASS_LASS:
+        case TRAINER_CLASS_EXPERT:
         case TRAINER_CLASS_MONTANEROHOENN:
         case TRAINER_CLASS_CAMPER:
         case TRAINER_CLASS_PICNICKER:
         case TRAINER_CLASS_POLICIAHOENN:
+        case TRAINER_CLASS_ELECTRICISTA_HOENN:
             return 476;
         case TRAINER_CLASS_SALVAJE:
             return 581;
@@ -8556,17 +8600,23 @@ u8 GetFormIdFromFormSpeciesId(u16 formSpeciesId)
 // returns SPECIES_NONE if no form change is possible
 u16 GetFormChangeTargetSpecies(struct Pokemon *mon, u16 method, u32 arg) 
 {
+    return GetFormChangeTargetSpeciesBoxMon(&mon->box, method, arg);
+}
+
+// Returns SPECIES_NONE if no form change is possible
+u16 GetFormChangeTargetSpeciesBoxMon(struct BoxPokemon *mon, u16 method, u32 arg)
+{
     u32 i;
     u16 targetSpecies = SPECIES_NONE;
-    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u16 species = GetBoxMonData(mon, MON_DATA_SPECIES, NULL);
     const struct FormChange *formChanges = gFormChangeTablePointers[species];
     u16 heldItem;
     u32 ability;
 
     if (formChanges != NULL)
     {
-        heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);
-        ability = GetAbilityBySpecies(species, GetMonData(mon, MON_DATA_ABILITY_NUM, NULL));
+        heldItem = GetBoxMonData(mon, MON_DATA_HELD_ITEM, NULL);
+        ability = GetAbilityBySpecies(species, GetBoxMonData(mon, MON_DATA_ABILITY_NUM, NULL));
 
         for (i = 0; formChanges[i].method != FORM_CHANGE_END; i++)
         {
@@ -8583,11 +8633,12 @@ u16 GetFormChangeTargetSpecies(struct Pokemon *mon, u16 method, u32 arg)
                         targetSpecies = formChanges[i].targetSpecies;
                     break;
                 case FORM_MOVE:
-                    if (MonKnowsMove(mon, formChanges[i].param1) != formChanges[i].param2)
+                    if (BoxMonKnowsMove(mon, formChanges[i].param1) != formChanges[i].param2)
                         targetSpecies = formChanges[i].targetSpecies;
                     break;
                 case FORM_ITEM_HOLD_ABILITY:
-                    if (heldItem == formChanges[i].param1 && ability == formChanges[i].param2)
+                    if ((heldItem == formChanges[i].param1 || formChanges[i].param1 == ITEM_NONE)
+                        && ability == formChanges[i].param2)
                         targetSpecies = formChanges[i].targetSpecies;
                     break;
                 case FORM_ITEM_USE_TIME:

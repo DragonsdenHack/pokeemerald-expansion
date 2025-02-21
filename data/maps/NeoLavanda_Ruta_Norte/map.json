@@ -50,6 +50,19 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "NeoLavanda_Ruta_Norte_EventScript_Montanero",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MR_FUJI",
+      "x": 8,
+      "y": 58,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NeoLavanda_Ruta_Norte_Fuji",
+      "flag": "FLAG_UNKNOWN_0x363"
     }
   ],
   "warp_events": [
@@ -57,15 +70,15 @@
       "x": 8,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_ROCK_TUNNEL_1F",
+      "dest_map": "MAP_NEO_TUNEL_ROCA_1F",
       "dest_warp_id": 0
     },
     {
       "x": 8,
       "y": 57,
       "elevation": 0,
-      "dest_map": "MAP_ROCK_TUNNEL_1F",
-      "dest_warp_id": 5
+      "dest_map": "MAP_NEO_TUNEL_ROCA_1F",
+      "dest_warp_id": 4
     },
     {
       "x": 1,
@@ -78,8 +91,8 @@
       "x": 13,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE10_POKEMON_CENTER_1F",
-      "dest_warp_id": 1
+      "dest_map": "MAP_NEO_ROUTE10_POKEMON_CENTER_1F",
+      "dest_warp_id": 0
     },
     {
       "x": 2,

@@ -84,14 +84,15 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 	.string "guests to stay with us?$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV!\p"
-	.string "Since that TEAM AQUA came to town,\n"
-	.string "the tourists have been staying away.$"
+	.string	"Oh, disculpa. Estaba viendo la tele\n"
+	.string	"y no te he visto llegar.\p"
+	.string	"Es que desde que llegó el EQUIPO\n"
+	.string	"AQUA, no vienen turistas, así que\l"
+	.string	"no esperaba a nadie{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
-	.string "Hey, down in front!\n"
-	.string "I can't see the TV!$"
+	.string	"¡Oye, quita de ahí, que no\n"
+	.string	"eres transparente!$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
 	.string "Amazing! You're telling me a POKÉMON\n"
@@ -102,14 +103,11 @@ LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
 	.string "guests mislaid…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV!\p"
-	.string "I heard that someone busted\n"
-	.string "the TEAM AQUA HIDEOUT.\p"
-	.string "Thanks to that, we just booked\n"
-	.string "a reservation from a big group.\p"
-	.string "It was a company called… Uh…\n"
-	.string "GAME something…$"
+	.string	"Oh, disculpa. Estaba viendo la tele\n"
+	.string	"y no te he visto llegar.\p"
+	.string	"Es que desde que llegó el EQUIPO\n"
+	.string	"AQUA, no vienen turistas, así que\l"
+	.string	"no esperaba a nadie{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
 	.string "Amazing! A house-sitting POKÉMON\n"
@@ -120,12 +118,186 @@ LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
 	.string "with greater safety.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
-	.string "Oh, sorry, sorry!\n"
-	.string "I was too involved in watching TV.\p"
-	.string "Oh, yes. A big group of guests arrived\n"
-	.string "a little while ago.\p"
-	.string "They booked in as GAME FREAK,\n"
-	.string "so I guess they must make games.\p"
-	.string "Uh-oh, I'd better get working on\n"
-	.string "their dinner!$"
+	.string	"Oh, disculpa. Estaba viendo la tele\n"
+	.string	"y no te he visto llegar.\p"
+	.string	"Ah, sí. Acaba de llegar un gran\n"
+	.string	"grupo de huéspedes.\p"
+	.string	"Pertenecen a la empresa GAME FREAK,\n"
+	.string	"así que deben de crear videojuegos.\p"
+	.string	"¡Huy, huy, creo que tengo que irme\n"
+	.string	"a prepararles la cena!$"
+
+LilycoveCity_Aquiles_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+LilycoveCity_Aquiles_Move_1.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+step_end
+
+LilycoveCity_Aquiles_Move_2:
+emote_exclamation_mark
+walk_in_place_right
+step_end
+
+LilycoveCity_Aquiles_Move_3:
+walk_in_place_right
+step_end
+
+LilycoveCity_Aquiles_Move_4:
+face_up
+delay_16
+delay_16
+walk_in_place_up
+delay_16
+face_right
+step_end
+
+LilycoveCity_Aquiles_Move_5:
+walk_in_place_left
+step_end
+
+LilycoveCity_Aquiles_Move_6:
+face_down
+step_end
+
+LilycoveCity_Aquiles_Move_7:
+walk_in_place_down
+delay_16
+delay_16
+face_left
+step_end
+
+LilycoveCity_Aquiles_Move_8:
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+LilycoveCity_Aquiles::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_Aquiles_Move_2
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LilycoveCity_Aquiles_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+playse MUS_ENCOUNTER_AQUA
+applymovement 10, LilycoveCity_Aquiles_Move_3
+waitmovement 0x0
+msgbox LilycoveCity_Aquiles_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 10, LilycoveCity_Aquiles_Move_4
+waitmovement 0x0
+msgbox LilycoveCity_Aquiles_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_5
+waitmovement 0x0
+msgbox LilycoveCity_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_6
+waitmovement 0x0
+msgbox LilycoveCity_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_7
+waitmovement 0x0
+msgbox LilycoveCity_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 23, LilycoveCity_Aquiles_Move_8
+applymovement 10, LilycoveCity_Aquiles_Move_8
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LilycoveCity_Aquiles_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+playse MUS_LILYCOVE
+clearflag FLAG_HOENN_682
+clearflag FLAG_HOENN_681
+setflag FLAG_HOENN_54
+removeobject 10
+removeobject 23
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+clearflag FLAG_HOENN_90
+clearflag FLAG_HOENN_91
+clearflag FLAG_HOENN_92
+clearflag FLAG_HOENN_93
+clearflag FLAG_HOENN_94
+clearflag FLAG_HOENN_95
+clearflag FLAG_HOENN_96
+clearflag FLAG_HOENN_97
+clearflag FLAG_HOENN_98
+clearflag FLAG_HOENN_99
+setflag FLAG_HOENN_640
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_626
+clearflag FLAG_NUEVA_627
+clearflag FLAG_NUEVA_628
+clearflag FLAG_NUEVA_629
+clearflag FLAG_NUEVA_630
+clearflag FLAG_NUEVA_631
+clearflag FLAG_NUEVA_632
+setvar VAR_UNUSED_0x40F8, 10
+release
+end
+
+LilycoveCity_Aquiles_Texto_1:
+	.string "ADM.TOLO: Es el lugar perfecto, señor.$"
+
+LilycoveCity_Aquiles_Texto_2:
+	.string "Tenemos todo listo para establecer\n"
+	.string "nuestra base.$"
+
+LilycoveCity_Aquiles_Texto_3:
+	.string "AQUILES: ¡Buen trabajo, TOLO! ¡Desde\n"
+	.string "ahí llevaremos a cabo toda la operación\l"
+	.string "para despertar a KYOGRE!$"
+
+LilycoveCity_Aquiles_Texto_4:
+	.string "Le robaremos el submarino a ese\n"
+	.string "estúpido CAP.BABOR, y frustraremos los\l"
+	.string "planes de esos miserables que se hacen\l"
+	.string "llamar EQUIPO MAGMA.$"
+
+LilycoveCity_Aquiles_Texto_5:
+	.string "Cuando obtengamos la ESFERA ROJA, ¡no\n"
+	.string "les quedará más remedio que\l"
+	.string "arrodillarse! ¡Jua, jua, jua!$"
 

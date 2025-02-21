@@ -155,14 +155,17 @@ RockTunnel_2F_Combate_Miguel::
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_1.2
 waitmovement 0x0
 playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RockTunnel_2F_Combate_Miguel_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_BALL_THROW
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 addobject 12
 delay 30
 playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+waitmoncry
 delay 15
 playse SE_BALL_OPEN
+waitse
 setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 removeobject 13
 delay 20
@@ -172,13 +175,28 @@ removeobject 12
 msgbox RockTunnel_2F_Combate_Miguel_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 14, RockTunnel_2F_Combate_Miguel_Move_1
 waitmovement 0x0
+delay 10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 playse SE_PIN
 applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2
 waitmovement 0x0
+waitse
+delay 10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.2
+waitmovement 0x0
+delay 10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.1
+waitmovement 0x0
+delay 10
+msgbox RockTunnel_2F_Combate_Miguel_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, RockTunnel_2F_Combate_Miguel_Move_3
 waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_7 MSGBOX_AUTOCLOSE
@@ -189,10 +207,30 @@ playse SE_PIN
 applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2
 waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_8 MSGBOX_AUTOCLOSE
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_1.2
+waitmovement 0X0
+delay 15
 playse MUS_RG_SILPH
 msgbox RockTunnel_2F_Combate_Miguel_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RockTunnel_2F_Combate_Miguel_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RockTunnel_2F_Combate_Miguel_Texto_9.2 MSGBOX_AUTOCLOSE
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.3
+waitmovement 0x0
 clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 trainerbattle_no_intro TRAINER_CMIGUEL_1, RockTunnel_2F_Combate_Miguel_Texto_10
+playse SE_BREAKABLE_DOOR
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.4
+waitmovement 0x0
+waitse
+delay 10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_PIN
@@ -222,6 +260,9 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_10
 waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RockTunnel_2F_Combate_Miguel_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 29, RockTunnel_2F_Combate_Miguel_Move_11
 waitmovement 0x0
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
@@ -233,124 +274,188 @@ waitmovement 0x0
 playse MUS_RG_MT_MOON
 fadedefaultbgm
 msgbox RockTunnel_2F_Combate_Miguel_Texto_17 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox RockTunnel_2F_Combate_Miguel_Texto_17.1 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+removeobject 13
+playse SE_BREAKABLE_DOOR
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_11.1
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_11.3
+waitmovement 0x0
+waitse
 setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
-fadescreen 1
-delay 20
 removeobject 14
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 43
 release
 end
 
+RockTunnel_2F_Combate_Miguel_Move_2.3:
+walk_left
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_2.4:
+lock_facing_direction
+walk_right
+unlock_facing_direction
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_11.1:
+face_down
+lock_facing_direction
+walk_up
+unlock_facing_direction
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_2.2:
+walk_in_place_left
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_2.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
 RockTunnel_2F_Combate_Miguel_Texto_1:
-	.string "Finally! So the rumors were true! I have\n"
-	.string "the MATERNAL POKÉMON in front of me, I\l"
-	.string "am just at one-step away from catching\l"
-	.string "it!$"
+.string "????: ¡Al fin!\n"
+	.string "¡De modo que los rumores\l"
+	.string "eran ciertos!\l"
+	.string "¡Tengo al POKÉMON MATERNAL delante\l"
+	.string "mis narices, a un solo movimiento\l"
+	.string "de apropiármelo!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_2:
-	.string "Perfect! With this POKÉMON my\n"
-	.string "collection of strong and uncommon\l"
-	.string "POKÉMON will be almost finished!$"
+.string "¡Perfecto! ¡Con este KANGASKHAN, mi\n"
+	.string "colección de raros y fuertes\l"
+	.string "POKÉMON está casi completa!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_3:
-	.string "Did you lose something? So unlucky\n"
-	.string "ROCKET, I saw it first, so this\l"
-	.string "KANGASKHAN belongs to my POKÉMON team,\l"
-	.string "so excuse m…$"
+.string "¿Se te ha perdido algo?\n"
+	.string "Mala suerte, ROCKET. Yo lo he visto\l"
+	.string "primero, así que este KANGASKHAN\l"
+	.string "pertence ya a mi equipo POKÉMON,\l"
+	.string "si me discul{PAUSE 15}…{PAUSE 15}$"
 
 RockTunnel_2F_Combate_Miguel_Texto_4:
-	.string "Hold on! You're that ROCKET I made the\n"
-	.string "FOSSILS bet with, in MT. MOON!$"
+.string "¡Un momento!\n"
+	.string "¡Tú eres ese ROCKET con el que\l"
+	.string "hice la apuesta de los FÓSILES\l"
+	.string "en el MT.MOON!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_5:
-	.string "I must admit that you were so unlucky\n"
-	.string "and I was so lucky…$"
+.string "He de admitir que tuviste mala\n"
+	.string "fortuna, y yo mucha{PAUSE 5}…{PAUSE 5}$"
 
 RockTunnel_2F_Combate_Miguel_Texto_6:
-	.string "That fool might be as strong as he\n"
-	.string "wants, but he's socially inept, he would\l"
-	.string "accept any ideal you propose without\l"
-	.string "denying it, despite having the power of\l"
-	.string "his POKÉMON, fortunately just a few\l"
-	.string "words claiming my ownership of those\l"
-	.string "two FOSSILS were enough, along with\l"
-	.string "telling him a few useful hints like where\l"
-	.string "to revive those FOSSILS, to convince\l"
-	.string "him to share them with me when he could\l"
-	.string "have easily kept bot, hah!$"
+.string "Ese necio podrá ser todo lo fuerte\n"
+	.string "que quiera, pero es un negado en\l"
+	.string "el trato social, aceptaría sin\l"
+	.string "negarlo cualquier limite o trato\l"
+	.string "que le propusieras a pesar de\l"
+	.string "contar con el poder de sus\l"
+	.string "POKÉMON.$"
+	
+RockTunnel_2F_Combate_Miguel_Texto_6.1:
+	.string "Bastaron un par de palabras, alegando\n"
+	.string "la propiedad de esos FÓSILES, y el\l"
+	.string "soltarle algún que otro dato útil\l"
+	.string "como dónde revivirlos.\l"
+	.string "Así, pude convencerlo para que los\l"
+	.string "compartiera, cuando pudo perfectamente\l"
+	.string "quedarse con los dos, ¡jah!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_7:
-	.string "You are definitely an unfortunate\n"
-	.string "GRUNT, you missed your chance in\l"
-	.string "MT.MOON at the last moment, and now you\l"
-	.string "are seeing how I catch this valuable\l"
-	.string "KANGASKHAN in front of you.$"
+.string "Definitivamente estás gafado, ROCKET.\n"
+	.string "Pierdes tu oportunidad en el MT.MOON, y\l"
+	.string "ahora presencias como atrapo al preciado\l"
+	.string "KANGASKHAN delante de tus narices.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_8:
 	.string "What? Is nobody going anywhere and\n"
 	.string "that KANGASKHAN is yours?$"
 
 RockTunnel_2F_Combate_Miguel_Texto_9:
-	.string "Poor dreamer, you think I'm the same as\n"
-	.string "back then, but for your information,\l"
-	.string "I've been training in the secret floors\l"
-	.string "of the all-mighty SILPH, where they had\l"
-	.string "optimized my POKÉMON's potential, all\l"
-	.string "TRAINERS around me are like ants\l"
-	.string "besides me, so unfortunate, it has\l"
-	.string "never been given to you ROCKET. You\l"
-	.string "were never at the moment nor place nor\l"
-	.string "favorable circumstances!$"
+.string "Pobre iluso, ¿crees que soy el\n"
+	.string "mismo de ese entonces? Para tu\l"
+	.string "información, he estado entrenando\l"
+	.string "en los despachos secretos de la\l"
+	.string "todopoderosa SILPH, ahí han\l"
+	.string "optimizado el potencial de mis\l"
+	.string "POKÉMON.$"
+	
+RockTunnel_2F_Combate_Miguel_Texto_9.1:
+	.string "Todos los ENTRENADORES que ves\n"
+	.string "aquí son como hormigas para mí.\l"
+	.string "Qué desafortunado, ROCKET.$"
+
+RockTunnel_2F_Combate_Miguel_Texto_9.2:
+	.string "¡Nunca estuviste ni en el momento,\n"
+	.string "ni en el lugar ni en las\l"
+	.string "circunstancias propicias!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_10:
-	.string "But what kind of joke is this!$"
+.string "¿¡Pero qué clase de tomadura de\n"
+	.string "pelo es esta!?$"
 
 RockTunnel_2F_Combate_Miguel_Texto_11:
-	.string "At SILPH they told me that I would be\n"
-	.string "able to defeat even a GYM LEADER with\l"
-	.string "this last update! They scammed me!$"
+.string "¡En SILPH me dijeron que con la\n"
+	.string "última actualización, el nivel de\l"
+	.string "mi equipo podría tumbar hasta a un\l"
+	.string "LÍDER DE GIMNASIO!\l"
+	.string "¡Me han estafado!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_12:
 	.string "????: And it's said by someone who built\n"
 	.string "his current team by scamming people.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_13:
-	.string "PROTON: Good job {PLAYER}, you've\n"
-	.string "just disarmed a dangerous trainer along\l"
-	.string "with the KANGASKHAN, I'll make sure to\l"
-	.string "put him in his place before he escapes\l"
-	.string "using the ESCAPE ROPE, this rougue\l"
-	.string "knows all the tricks.$"
+.string "PROTÓN: Excelente trabajo, {PLAYER}.\n"
+	.string "Acabas de desarmar a un peligroso\l"
+	.string "ENTRENADOR, junto con el KANGASKHAN.\l"
+	.string "Me aseguraré deponerlo en su lugar\l"
+	.string "antes de que huya con CUERDA HUIDA,\l"
+	.string "este canalla se las sabe todas.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_14:
-	.string "(PROTON TOOK ALL POKÉMON FROM\n"
-	.string "SCIENTIST MIGUEL).$"
+.string "-PROTÓN LE QUITÓ TODOS LOS POKÉMON\n"
+	.string "A CIENTÍFICO MIGUEL.-$"
 
 RockTunnel_2F_Combate_Miguel_Texto_15:
-.string "SCIENTIST: Grrrrrrrr…$"
+.string "CIENTÍFICO: Grrrrrrrr{PAUSE 5}…{PAUSE 5}$"
 
 RockTunnel_2F_Combate_Miguel_Texto_16:
-	.string "PROTON: So the rumors were true, who\n"
-	.string "would say that in this cave would\l"
-	.string "inhabit a KANGASKHAN{PAUSE 15}…{PAUSE 20} Okay, Imma\l"
-	.string "return immediately to the headquarter\l"
-	.string "{PLAYER}, the importance of what I\l"
-	.string "carry with me requires it. You should\l"
-	.string "also return as soon as possible,\l"
-	.string "GIOVANNI will be pleased to reward you\l"
-	.string "and inquire about the mission's details.\l"
-	.string "Long live the GIOVANNI!$"
+.string "PROTÓN: De modo que el rumor era\n"
+	.string "cierto, quién diría que en esta\l"
+	.string "cueva pudiera habitar un\l"
+	.string "KANGASKHAN…$"
+
+RockTunnel_2F_Combate_Miguel_Texto_16.1:
+	.string "En fin, vuelvo al cuartel\n"
+	.string "inmediatamente, {PLAYER}, la\l"
+	.string "importancia de lo que llevo\l"
+	.string "conmigo así lo exije. Tú también\l"
+	.string "deberías de regresar cuanto antes,\l"
+	.string "GIOVANNI estará esperándote, listo\l"
+	.string "para recompensarte y preguntarte por\l"
+	.string "los detalles de la misión.\l"
+	.string "¡Salve GIOVANNI!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17:
-	.string "SCIENTIST: You do not have\n"
-	.string "forgiveness, I lost the team that took\l"
-	.string "me years to build just in a few seconds.\l"
-	.string "Don't forget my words {PLAYER}! I\l"
-	.string "won't rest until I witness your\l"
-	.string "downfall!$"
+.string "CIENTÍFICO: No tienes perdón, he\n"
+	.string "perdido en cuestión de segundos el\l"
+	.string "equipo que me llevó años construir.$"
+
+RockTunnel_2F_Combate_Miguel_Texto_17.1:
+	.string "¡Recuerda mis palabras, {PLAYER}!\n"
+	.string "¡No descansaré hasta verte caer!$"
 
 RockTunnel_2F_Combate_Miguel_Move_1:
 face_left
@@ -418,6 +523,22 @@ face_up
 step_end
 
 RockTunnel_2F_Combate_Miguel_Move_11:
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_11.3:
+walk_left
 walk_left
 walk_left
 walk_left

@@ -8,7 +8,7 @@ EventTicket_Text_ShowOldSeaMap:
 EventTicket_Text_ThatPass:
 	.string "The ferry to SLATEPORT is…\p"
 	.string "Oh?\n"
-	.string "That PASS…$"
+	.string "That PASS…{PAUSE 5}$"
 
 EventTicket_Text_ShowEonTicket:
 	.string "Aye, mate, are you the one who brought\n"

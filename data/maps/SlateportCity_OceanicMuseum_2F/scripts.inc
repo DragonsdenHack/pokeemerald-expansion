@@ -4,7 +4,12 @@
 .set LOCALID_GRUNT_2, 4
 
 SlateportCity_OceanicMuseum_2F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_OceanicMuseum_2F_OnFrame
 	.byte 0
+
+SlateportCity_OceanicMuseum_2F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 232, SlateportCity_Dialogo_Norman
+	.2byte 0
 
 SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	lock
@@ -273,52 +278,54 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-	.string "Yes? If you're looking for STERN,\n"
-	.string "that would be me.\p"
-	.string "Ah! Those must be the parts I ordered\n"
-	.string "from MR. STONE of DEVON.\p"
-	.string "Thank you! That's great!\n"
-	.string "We can prepare for our expedition now.$"
+	.string	"Si estás buscando a un tal BABOR,\n"
+	.string	"ése soy yo.\p"
+	.string	"¡Anda! Ésas deben de ser las piezas\n"
+	.string	"que pedí al SR. PEÑAS de DEVON.\p"
+	.string	"¡Gracias! ¡Qué bien me vienen!\n"
+	.string	"Ya puedo preparar la expedición.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
-	.string "Hehehe, hold it!\n"
-	.string "We'll take those parts!$"
+	.string	"¡Je, je, je! ¡Alto ahí!\n"
+	.string	"¡Esas piezas son nuestras!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
-	.string "CAPT. STERN: Wh-what?\n"
-	.string "Who are you people?$"
+	.string	"CAP. BABOR: ¿Pe-pero…?\n"
+	.string	"¿Quiénes sois vosotros?$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're TEAM AQUA!\p"
-	.string "Our BOSS wants those parts!\n"
-	.string "Shut your yap and fork them over!$"
+	.string	"¡Somos el EQUIPO AQUA!\p"
+	.string	"¡Nuestro JEFE quiere esas piezas!\n"
+	.string	"¡Cierra el pico y suéltalas!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
-	.string "Awaaaah!\n"
-	.string "A kid beat me!$"
+	.string	"¡Aaaah!\n"
+	.string	"¡Me ha ganado una criatura!$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-	.string "Oh, man, what a disaster…\n"
-	.string "The BOSS is going to be furious…$"
+	.string	"Ay, ay, ay, qué desastre…\n"
+	.string	"El JEFE se va a mosquear…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
-	.string "Humph, sniveling wimp!\n"
-	.string "Let me take care of this!$"
+	.string	"¡Apártate, llorica!\n"
+	.string	"¡Yo me ocupo de todo!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
-	.string "What?!\n"
-	.string "I lost, too!$"
+	.string	"¡¿Cómo puede ser?!\n"
+	.string	"¡Yo también he perdido!$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-	.string "Now what? If we don't get the parts,\n"
-	.string "we're in for it!\p"
-	.string "Arrgh, I didn't count on being meddled\n"
-	.string "with by some meddling kid!$"
+	.string	"¿Y ahora qué? ¡Si no conseguimos\n"
+	.string	"las piezas, estamos listos!\p"
+	.string	"¡Aaaah, nunca pensé que alguien\n"
+	.string	"mangonearía nuestros planes\l"
+	.string	"de mangoneo!$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-	.string "I came to see what was taking so\n"
-	.string "long to snatch some parts, and you\l"
-	.string "simps are held up by a mere child?$"
+	.string	"Vine a ver por qué tardabais tanto\n"
+	.string	"en robar unas piezas de nada\l"
+	.string	"y me encuentro con esto.\p"
+	.string	"¿Ahora os dejáis vencer por párvulos?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "We are TEAM AQUA,\n"
@@ -348,93 +355,482 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "And don't you forget it!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-	.string "CAPT. STERN: You're…\n"
-	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
-	.string "Anyway, that was a tense situation!\n"
-	.string "Thank you for saving us!\p"
-	.string "Oh, yes, I almost forgot that you\n"
-	.string "even brought the parts from DEVON!$"
+	.string	"CAP. BABOR: Eres…\n"
+	.string	"Ah, sí, eres {PLAYER}{KUN}…\p"
+	.string	"Uf, qué situación tan violenta…\n"
+	.string	"¡Gracias por salvarnos!\p"
+	.string	"Ah, sí, casi me olvido de que además\n"
+	.string	"has traído las piezas de DEVON.$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-	.string "CAPT. STERN: Whoops!\n"
-	.string "There's no time to lose!\p"
-	.string "We have to set out on our ocean-floor\n"
-	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
-	.string "to go!\p"
-	.string "Feel free to wander around and check\n"
-	.string "out our facilities, though.$"
+	.string	"CAP. BABOR: ¡Pues adelante!\n"
+	.string	"¡No hay tiempo que perder!\p"
+	.string	"Tenemos que zarpar lo antes posible\n"
+	.string	"para llevar a cabo nuestra expedición\l"
+	.string	"al fondo oceánico.\p"
+	.string	"Gracias y discúlpame, pero es que\n"
+	.string	"tengo cosas que hacer…\p"
+	.string	"¡Ahora bien, tú puedes darte todas\n"
+	.string	"las vueltas que quieras por aquí\l"
+	.string	"y curiosear cuanto te apetezca!$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
-	.string "I saw a model of a ship here.\p"
-	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near DEWFORD TOWN…$"
+	.string	"He visto un modelo de barco aquí.\p"
+	.string	"Me ha recordado a la NAO ABANDONADA\n"
+	.string	"que hay cerca de PUEBLO AZULIZA.$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
-	.string "Don't you dare run around inside\n"
-	.string "the MUSEUM!$"
+	.string	"¡Ni se te ocurra correr\n"
+	.string	"por el MUSEO!$"
 
 SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
-	.string "Wow, the submarine's awesome!\n"
-	.string "I want to go for a ride!$"
+	.string	"¡Guau, este submarino es impresionante!\n"
+	.string	"¡Yo me quiero montar!$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
-	.string "“WATER QUALITY SAMPLE 1,” the\n"
-	.string "label says.\p"
-	.string "The sea is all connected, but the\n"
-	.string "water seems to differ by region.$"
+	.string	"La etiqueta dice: “MUESTRA de CALIDAD\n"
+	.string	"de AGUA 1”.\p"
+	.string	"Todos los mares se comunican, pero\n"
+	.string	"el agua parece diferente en cada zona.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
-	.string "“WATER QUALITY SAMPLE 2,” the\n"
-	.string "label says.\p"
-	.string "Does the saltiness of seawater differ\n"
-	.string "by region, too?$"
+	.string	"La etiqueta dice: “MUESTRA de CALIDAD\n"
+	.string	"de AGUA 2”.\p"
+	.string	"Es posible que la salinidad del agua sea\n"
+	.string	"diferente de un mar a otro…{PAUSE 5}$"
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
-	.string "A rubber ball is expanding and\n"
-	.string "shrinking.\p"
-	.string "“In the sea, the weight of water itself\n"
-	.string "exerts pressure.\p"
-	.string "“In shallow water, the pressure is not\n"
-	.string "very heavy.\p"
-	.string "“However, in extremely deep water,\n"
-	.string "the pressure can reach even tens of\l"
-	.string "thousands of tons on a small area.”$"
+	.string	"Una bola de goma se hincha y deshincha.\p"
+	.string	"“En el mar, el mismo peso del agua\n"
+	.string	"ejerce presión.\p"
+	.string	"En aguas poco profundas, la presión\n"
+	.string	"no es tan fuerte.\p"
+	.string	"Pero en aguas profundas, la presión\n"
+	.string	"puede llegar a ser de decenas de miles\l"
+	.string	"de toneladas en una pequeña zona.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
-	.string "“MODEL OF HOENN REGION”\p"
-	.string "It's a miniature diorama of the\n"
-	.string "HOENN region.\p"
-	.string "Where is LITTLEROOT TOWN on this?$"
+	.string	"“MODELO de la REGIÓN de HOENN”\p"
+	.string	"Es un diorama en miniatura\n"
+	.string	"de la región de HOENN.\p"
+	.string	"¿Dónde está VILLA RAÍZ aquí?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
-	.string "It's a display on the flow of seawater.\p"
-	.string "“Near the bottom of the sea, water\n"
-	.string "flows due to differences in such\l"
-	.string "factors as temperature and salinity.”$"
+	.string	"Es una exposición sobre las corrientes\n"
+	.string	"marinas.\p"
+	.string	"“Cerca del fondo del mar, el agua\n"
+	.string	"fluye porque hay diferencias de\l"
+	.string	"temperatura y salinidad.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
-	.string "It's a display on the flow of seawater.\p"
-	.string "“Toward the surface, seawater flows\n"
-	.string "as currents driven by the winds.”$"
-
+	.string	"Es una exposición sobre las corrientes\n"
+	.string	"marinas.\p"
+	.string	"“Cerca de la superficie, el agua\n"
+	.string	"fluye debido a las corrientes que\l"
+	.string	"provoca el viento.”$"
+	
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-	.string "“THE FERRY S.S. TIDAL\p"
-	.string "“A scale replica of the ship under\n"
-	.string "construction at STERN'S SHIPYARD.”$"
+	.string	"EL FERRY S.S. MAREA\p"
+	.string	"“Una réplica a escala de la nave que se\n"
+	.string	"está construyendo en los ASTILLEROS\l"
+	.string	"BABOR.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
-	.string "“SUBMARINE EXPLORER 1\p"
-	.string "“A replica of the high-performance\n"
-	.string "ocean floor exploration submarine.”$"
+	.string	"SUBMARINO EXPLORADOR 1\p"
+	.string	"“Una réplica del modernísimo submarino\n"
+	.string	"de exploración del fondo oceánico.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
-	.string "“SUBMERSIBLE POD\p"
-	.string "“A replica of a compact, unmanned\n"
-	.string "pod for seafloor exploration.”$"
+	.string	"VEHÍCULO SUMERGIBLE\p"
+	.string	"“Una réplica de un vehículo de\n"
+	.string	"exploración del fondo oceánico\l"
+	.string	"compacto y no tripulado.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
-	.string "“S.S. ANNE\p"
-	.string "“A replica of the luxury liner that\n"
-	.string "circles the globe.”$"
+	.string	"S.S. ANNE\p"
+	.string	"“Una réplica de un transatlántico de\n"
+	.string	"lujo que navega por todo el mundo.”$"
+
+SlateportCity_Dialogo_Norman_Move_1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_1.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+SlateportCity_Dialogo_Norman_Move_2:
+walk_in_place_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_3:
+delay_16
+face_up
+delay_16
+delay_8
+face_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_4:
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+SlateportCity_Dialogo_Norman_Move_5:
+walk_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_6:
+walk_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_7:
+face_up
+step_end
+
+SlateportCity_Dialogo_Norman_Move_8:
+face_right
+step_end
+
+SlateportCity_Dialogo_Norman_Move_9:
+walk_in_place_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_10:
+walk_slow_up
+walk_slow_up
+step_end
+
+SlateportCity_Dialogo_Norman_Move_11:
+face_down
+step_end
+
+SlateportCity_Dialogo_Norman_Move_12:
+walk_down
+walk_down
+face_left
+step_end
+
+SlateportCity_Dialogo_Norman_Move_13:
+emote_exclamation_mark
+step_end
+
+SlateportCity_Dialogo_Norman_Move_14.1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+
+
+SlateportCity_Dialogo_Norman::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Dialogo_Norman_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox SlateportCity_Dialogo_Norman_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_3
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_4
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_5
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_6
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Dialogo_Norman_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Dialogo_Norman_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_7
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Dialogo_Norman_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_10
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_7
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_11
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+applymovement 4, SlateportCity_Dialogo_Norman_Move_12
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, SlateportCity_Dialogo_Norman_Move_13
+waitmovement 0x0
+delay 15
+msgbox SlateportCity_Dialogo_Norman_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_14
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_8
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 2, SlateportCity_Dialogo_Norman_Move_2
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 4, SlateportCity_Dialogo_Norman_Move_9
+waitmovement 0x0
+msgbox SlateportCity_Dialogo_Norman_Texto_23 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 2, SlateportCity_Dialogo_Norman_Move_14.1
+applymovement OBJ_EVENT_ID_CAMERA, SlateportCity_Dialogo_Norman_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Dialogo_Norman_Move_15
+applymovement 2, SlateportCity_Dialogo_Norman_Move_16
+waitmovement 0x0
+removeobject 2
+playse SE_EXIT
+setflag FLAG_HOENN_10
+setvar VAR_UNUSED_0x40F7, 233
+release
+end
+
+SlateportCity_Dialogo_Norman_Move_16:
+delay_16
+delay_8
+walk_up
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+walk_up
+step_end
+
+
+SlateportCity_Dialogo_Norman_Move_15:
+walk_right
+face_up
+delay_16
+face_left
+delay_16
+step_end
+
+
+SlateportCity_Dialogo_Norman_Move_14:
+face_left
+step_end
+
+SlateportCity_Dialogo_Norman_Texto_1:
+	.string "SR.PEÑAS: Entonces su familia también\n"
+	.string "se mudará pronto a HOENN, ¿VILLA RAÍZ?\l"
+	.string "Es un buen lugar para empezar de 0,\l"
+	.string "créame.$"
+
+SlateportCity_Dialogo_Norman_Texto_2:
+	.string "NORMAN: Así es, en cuestión de pocos\n"
+	.string "meses tanto mi esposa como mi hijo\l"
+	.string "también estarán aquí.$"
+
+SlateportCity_Dialogo_Norman_Texto_3:
+	.string "SR.PEÑAS: ¿Qué edad tiene su hijo?$"
+
+SlateportCity_Dialogo_Norman_Texto_4:
+	.string "NORMAN: 10 años, es muy joven aún pero\n"
+	.string "ya quiere 'iniciar su aventura' como\l"
+	.string "tantos otros jóvenes.$"
+
+SlateportCity_Dialogo_Norman_Texto_5:
+	.string "SR.PEÑAS: Algo muy común en estos días,\n"
+	.string "la tecnología actual y el control total\l"
+	.string "sobre el terreno, las rutas y\l"
+	.string "conexiones entre ellas lo ha hecho\l"
+	.string "posible.$"
+
+SlateportCity_Dialogo_Norman_Texto_6:
+	.string "Antaño el mundo era mucho más amplio y\n"
+	.string "salvaje, exigía mucha más preparación y\l"
+	.string "no perdonaba los errores, pero también\l"
+	.string "era más libre.$"
+
+SlateportCity_Dialogo_Norman_Texto_7:
+	.string "No digo que fuera mejor antes, pero es\n"
+	.string "innegable que la palabra 'aventura' ha\l"
+	.string "perdido mucho valor en estos tiempos.\l"
+	.string "Para muchos no dista mucho de ser un\l"
+	.string "juego, en el que todas las variables\l"
+	.string "están bajo control.$"
+
+SlateportCity_Dialogo_Norman_Texto_8:
+	.string "NORMAN: De eso quería hablarle,\n"
+	.string "SR.PEÑAS. No es que apruebe del todo\l"
+	.string "esa masificación por la que muchos\l"
+	.string "niños ahora son entrenadores, pero si\l"
+	.string "se da ese fenómeno, habrá que\l"
+	.string "asegurarse de que crecen y se\l"
+	.string "desarrollan en el entorno más seguro\l"
+	.string "posible.$"
+
+SlateportCity_Dialogo_Norman_Texto_9:
+	.string "¿Ha oído hablar del TEAM MAGMA y el\n"
+	.string "TEAM AQUA?$"
+
+SlateportCity_Dialogo_Norman_Texto_10:
+	.string "SR.PEÑAS: Unos extremistas sin\n"
+	.string "fundamento. ¿Le preocupa que su hijo\l"
+	.string "se exponga a esos criminales de cuarta?$"
+
+SlateportCity_Dialogo_Norman_Texto_11:
+	.string "NORMAN: Bueno, he oído que usted tiene\n"
+	.string "también un hijo, ¿le gustaría qué…?$"
+
+SlateportCity_Dialogo_Norman_Texto_12:
+	.string "SR.PEÑAS: ¿Y no cree usted que son\n"
+	.string "precisamente esas situaciones el tipo\l"
+	.string "de emociones fuertes que necesitan?$"
+
+SlateportCity_Dialogo_Norman_Texto_13:
+	.string "NORMAN: Sí, pero{PAUSE 25}…{PAUSE 15} ¿Y si se va de las\n"
+	.string "manos? ¿Y si acaban logrando sus\l"
+	.string "objetivos y despiertan a GROUDON y\l"
+	.string "KYOGRE?$"
+
+SlateportCity_Dialogo_Norman_Texto_14:
+	.string "SR.PEÑAS: ¿Conoce al TEAM ROCKET?$"
+
+SlateportCity_Dialogo_Norman_Texto_15:
+	.string "NORMAN: Mmm{PAUSE 15}…{PAUSE 15} solo de oídas.$"
+
+SlateportCity_Dialogo_Norman_Texto_16:
+	.string "SR.PEÑAS: Si algo nos ha enseñado el\n"
+	.string "TEAM ROCKET, es que el poder de los\l"
+	.string "legendarios está sobrevalorado: al\l"
+	.string "igual que el resto de mortales, caen\l"
+	.string "ante la oposición adecuada.$"
+
+SlateportCity_Dialogo_Norman_Texto_17:
+	.string "No se preocupe NORMAN, si cualquiera de\n"
+	.string "los LEGENDARIOS implicados se saliera\l"
+	.string "de control en exceso, tenemos\l"
+	.string "herramientas suficientes para\l"
+	.string "devolverle a su eterno letargo en\l"
+	.string "cuestión de segundos.$"
+
+SlateportCity_Dialogo_Norman_Texto_18:
+	.string "En cuanto a su hijo, puede estar\n"
+	.string "tranquilo. Toda la meticulosa\l"
+	.string "estructura de este sistema se\l"
+	.string "encargará tanto de su seguridad como\l"
+	.string "de pre establecer de antemano el límite\l"
+	.string "al que puede llegar en esta 'aventura'.$"
+
+SlateportCity_Dialogo_Norman_Texto_19:
+	.string "NORMAN: Lo prefiero así, al menos por\n"
+	.string "ahora. Pero{PAUSE 15}…{PAUSE 15} no dé tanto por hecho,\l"
+	.string "SR.PEÑAS. Sé reconocer el talento, y mi\l"
+	.string "hijo lo tiene. No creo que le baste solo\l"
+	.string "con obtener un par de MEDALLAS y\l"
+	.string "deambular por las rutas.$"
+
+SlateportCity_Dialogo_Norman_Texto_20:
+	.string "SR.PEÑAS: Estaré atento entonces,\n"
+	.string "puede que incluso se lleve bien con mi\l"
+	.string "hijo. ¿Se imagina a ambos compartiendo\l"
+	.string "experiencias vitales dentro de esta\l"
+	.string "burbuja? ¿O luchando por el CAMPEONATO\l"
+	.string "de la LIGA POKÉMON?$"
+
+SlateportCity_Dialogo_Norman_Texto_21:
+	.string "NORMAN: Sería grato.$"
+
+SlateportCity_Dialogo_Norman_Texto_22:
+	.string "Ha sido un placer hablar con usted,\n"
+	.string "SR.PEÑAS. Me ha aclarado muchas dudas.$"
+
+SlateportCity_Dialogo_Norman_Texto_23:
+	.string "SR.PEÑAS: A usted. Nos mantendremos en\n"
+	.string "la distancia, fingiendo ser meros\l"
+	.string "espectadores. Será la mejor forma de\l"
+	.string "disfrutar del devenir de nuestros\l"
+	.string "hijos.$"
+
+SlateportCity_Dialogo_Presidente::
+lock
+faceplayer
+msgbox SlateportCity_Dialogo_Presidente_Texto_1 MSGBOX_NPC
+release
+end
+
+
+SlateportCity_Dialogo_Presidente_Texto_1:
+	.string "SR.PEÑAS: Para un sistema, lo\n"
+	.string "importante no es funcionar a la\l"
+	.string "perfección, sino que exista confianza\l"
+	.string "en la perfección de su funcionamiento.$"
+
+SlateportCity_OceanicMuseum_2F_Babor::
+lock
+faceplayer
+msgbox SlateportCity_OceanicMuseum_2F_Babor_Texto_1 MSGBOX_NPC
+release
+end
+
+SlateportCity_OceanicMuseum_2F_Babor_Texto_1:
+	.string "El mar es tan inmenso y profundo, que\n"
+	.string "conocemos más sobre el espacio que de\l"
+	.string "nuestros propios océanos, ¿lo sabías?\l"
+	.string "Por ello haré varias expediciones con mi\l"
+	.string "submarino.$"
 

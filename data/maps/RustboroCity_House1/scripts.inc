@@ -62,8 +62,8 @@ RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 	.string "Please be good to my POKÉMON.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
-	.string "Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.$"
+	.string	"¿Eh? ¿Qué eso es un {STR_VAR_1}?\n"
+	.string	"Pues a mí no me lo parece en absoluto…{PAUSE 5}$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string "Oh, if you don't want to, that's okay.\n"

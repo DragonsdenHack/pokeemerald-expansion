@@ -43,6 +43,11 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, SafariZone_1F_Escena_3_Andra_Move_9
 waitmovement 0x0
 special RemoveCameraObject
+removeobject 8
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, SafariZone_1F_Escena_3_Andra_Move_9.1
+waitmovement 0x0
+special RemoveCameraObject
 applymovement 7, SafariZone_1F_Escena_3_Andra_Move_1
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_1 MSGBOX_AUTOCLOSE
@@ -50,44 +55,155 @@ delay 10
 msgbox SafariZone_1F_Escena_3_Andra_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 7, SafariZone_1F_Escena_3_Andra_Move_2
 waitmovement 0x0
-applymovement 3, SafariZone_1F_Escena_3_Andra_Move_3
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_3.1
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_3 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_TEDDIURSA, CRY_MODE_ENCOUNTER
-playse MUS_EVOLUTION_INTRO
-waitfanfare
+waitmoncry
 delay 15
 playse SE_PIN
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_3.2
+waitmovement 0x0
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_4
+delay 5
 applymovement 3, SafariZone_1F_Escena_3_Andra_Move_4
+delay 5
 applymovement 4, SafariZone_1F_Escena_3_Andra_Move_4
+delay 5
 applymovement 5, SafariZone_1F_Escena_3_Andra_Move_4
+delay 5
 applymovement 6, SafariZone_1F_Escena_3_Andra_Move_4
+delay 5
 applymovement 7, SafariZone_1F_Escena_3_Andra_Move_4
 waitmovement 0x0
-delay 120
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
+delay 5
+removeobject 8
+addobject 9
+delay 5
+removeobject 9
+addobject 8
 playmoncry SPECIES_URSARING, CRY_MODE_ENCOUNTER
-delay 120
+waitmoncry
+delay 10
 playse SE_PIN
-playse MUS_EVOLVED
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
+delay 5
 applymovement 3, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
+delay 5
 applymovement 4, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
+delay 5
 applymovement 5, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
+delay 5
 applymovement 6, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
+delay 5
 applymovement 7, SafariZone_1F_Escena_3_Andra_Move_4
-waitmovement 0x0
-delay 200
+delay 5
+waitse
+delay 10
+playse MUS_EVOLVED
+waitse
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_5
 waitmovement 0x0
+delay 10
 applymovement 3, SafariZone_1F_Escena_3_Andra_Move_6
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SafariZone_1F_Escena_3_Andra_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_1
 waitmovement 0x0
@@ -96,8 +212,10 @@ applymovement 3, SafariZone_1F_Escena_3_Andra_Move_7
 waitmovement 0x0
 delay 20
 msgbox SafariZone_1F_Escena_3_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_7
 waitmovement 0x0
+delay 10
 msgbox SafariZone_1F_Escena_3_Andra_Texto_8 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 3, SafariZone_1F_Escena_3_Andra_Move_4
@@ -117,31 +235,79 @@ msgbox SafariZone_1F_Escena_3_Andra_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_1
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_4
+waitmovement 0x0
+delay 10
+applymovement 2, SafariZone_1F_Escena_3_Andra_Move_1.1
+waitmovement 0x0
+delay 10
+msgbox SafariZone_1F_Escena_3_Andra_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, SafariZone_1F_Escena_3_Andra_Move_7
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox SafariZone_1F_Escena_3_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SafariZone_1F_Escena_3_Andra_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SafariZone_1F_Escena_3_Andra_Texto_18 MSGBOX_AUTOCLOSE
-applymovement 3, SafariZone_1F_Escena_3_Andra_Move_8
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_8.1
 waitmovement 0x0
 msgbox SafariZone_1F_Escena_3_Andra_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, SafariZone_1F_Escena_3_Andra_Move_1
 waitmovement 0x0
+delay 10
 msgbox SafariZone_1F_Escena_3_Andra_Texto_20 MSGBOX_AUTOCLOSE
-applymovement 3, SafariZone_1F_Escena_3_Andra_Move_7
+delay 15
+msgbox SafariZone_1F_Escena_3_Andra_Texto_20.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_7.1
 waitmovement 0x0
+delay 10
 msgbox SafariZone_1F_Escena_3_Andra_Texto_21 MSGBOX_AUTOCLOSE
 delay 15
 msgbox SafariZone_1F_Escena_3_Andra_Texto_22 MSGBOX_AUTOCLOSE
-delay 50
+delay 30
+applymovement 3, SafariZone_1F_Escena_3_Andra_Move_7.1
+waitmovement 0x0
+delay 30
 msgbox SafariZone_1F_Escena_3_Andra_Texto_23 MSGBOX_AUTOCLOSE
 delay 30
 setvar VAR_UNUSED_0x40F7, 41
 warpsilent MAP_ROCK_TUNNEL_1F, 18, 36
 release
 end
+
+SafariZone_1F_Escena_3_Andra_Move_7.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+SafariZone_1F_Escena_3_Andra_Move_8.1:
+delay_8
+face_left
+delay_16
+face_up
+delay_16
+face_right
+step_end
+
+SafariZone_1F_Escena_3_Andra_Move_1.1:
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+delay_8
+step_end
 
 SafariZone_1F_Escena_3_Andra_Texto_1:
 	.string "GRUNT: The total count is; 48 SCYTHER,\n"
@@ -211,19 +377,19 @@ SafariZone_1F_Escena_3_Andra_Texto_12:
 	.string "potential of a dragon as DRATINI is.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_13:
-	.string "ANDRA: Oh, well{PAUSE 15}…{PAUSE 15} Is it really that\n"
-	.string "strong once it is correctly developed?$"
+.string "ANDRA: Oh, vaya{PAUSE 25}…{PAUSE 25}\n"
+	.string "¿Tan fuerte es una vez desarrollado?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
-	.string "SCIENTIST: Indeed, even more than the\n"
-	.string "most of the LEGENDARIES, it surpasses\l"
-	.string "URSARING in ATTACK BASE. Moreover, it\l"
-	.string "surpasses it in everything: SPEED,\l"
-	.string "HEALTH POINTS, DEFENSE{PAUSE 15}…{PAUSE 15} it's 6-0 in\l"
-	.string "the overall stats.$"
+.string "CIENTÍFICO: Más que varios LEGENDARIOS.\n"
+	.string "Supera en BASE de ATAQUE a URSARING.$"
+
+SafariZone_1F_Escena_3_Andra_Texto_14.1:
+	.string "Es más, lo supera en todo: VELOCIDAD,\n"
+	.string "SALUD, DEFENSA{PAUSE 25}…{PAUSE 25} Es un 6 a 0 en stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
-.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_16:
 	.string "SCIENTIST: I don't want to offend you,\n"
@@ -232,50 +398,48 @@ SafariZone_1F_Escena_3_Andra_Texto_16:
 	.string "it has been touched by some divinity.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_17:
-	.string "ANDRA: So that is the reason why people\n"
-	.string "fear LANCE{PAUSE 15}…{PAUSE 15} I get it.$"
+.string "ANDRA: Por eso todos le temen a LANCE…\n"
+	.string "Ya entiendo.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_18:
-	.string "SCIENTIST: That is not the unique\n"
-	.string "reason, also…$"
+	.string "CIENTÍFICO: No solo por eso, también{PAUSE 5}…{PAUSE 5}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_19:
-	.string "ANDRA: I refuse to accept that my\n"
-	.string "URSARING will now be worse than a\l"
-	.string "DRAGONITE in everything by decree, in\l"
-	.string "my mind, this URSARING is capable of\l"
-	.string "exceeding that base in ATTACK{PAUSE 15}…{PAUSE 15} and\l"
-	.string "maybe more…$"
+.string "ANDRA: Me niego a creer que mi URSARING\n"
+	.string "ya está destinado a ser peor que un\l"
+	.string "DRAGONITE en todo; en mi cabeza este\l"
+	.string "URSARING es capaz de superar esa base\l"
+	.string "en ATAQUE… y tal vez más{PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
-	.string "SCIENTIST: The BASE STATS are\n"
-	.string "invariant, it is not about of your\l"
-	.string "achievements or about trainment,\l"
-	.string "through those means, your URSARING may\l"
-	.string "defeat a DRAGONITE{PAUSE 15}…{PAUSE 15} that doesn't fully\l"
-	.string "exploit its potential, but all else being\l"
-	.string "equal, there's nothing to be done. Stats\l"
-	.string "indicate the intrinsic potential of\l"
-	.string "each species, that's how it is. Why do\l"
-	.string "you think the MAGIKARP are so weak? To\l"
-	.string "a greater or lesser degree, all POKÉMON\l"
-	.string "have limits.$"
+.string "CIENTÍFICO: Los STATS son inamovibles.\n"
+	.string "No se trata de merecer o de entrenar más,\l"
+	.string "por esas vías tu URSARING podrá derrotar\l"
+	.string "a un DRAGONITE{PAUSE 15}…{PAUSE 15} que no explote tanto\l"
+	.string "su potencial.$"
+
+SafariZone_1F_Escena_3_Andra_Texto_20.1:
+	.string "Pero a igualdad de todo, no hay nada\n"
+	.string "que hacer. Es el potencial intrínseco\l"
+	.string "a cada especie. ¿Por qué crees que los\l"
+	.string "MAGIKARP son tan débiles? En mayor o\l"
+	.string "menor grado, todos tienen límites.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
-	.string "ANDRA: Even so{PAUSE 15}…{PAUSE 15} I feel this URSARING\n"
-	.string "has a bit of that potential that you\l"
-	.string "mean, to take advantage of it.$"
+.string "ANDRA: Entiendo lo que dices, pero{PAUSE 15}…{PAUSE 15}\n"
+     .string "Aun así{PAUSE 15}…{PAUSE 15} siento en este\l"
+	.string "URSARING un poco de ese potencial al\l"
+	.string "que te refieres, aún por explotar.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_22:
-	.string "SCIENTIST: If we do some experiments\n"
-	.string "on it, that is another topic, NIDOKING\l"
-	.string "and NIDOQUEEN aspire to raise in 100\l"
-	.string "their BASE STATS total due to\l"
-	.string "experiments. Out of that, it is\l"
-	.string "impossible.$"
+.string "CIENTÍFICO: Si recurrimos a ingeniería\n"
+	.string "genética, eso es otra cosa.\l"
+	.string "Tenemos a varios candidatos que aspiran\l"
+	.string "a elevar su total de STATS BASE con ello.\l"
+	.string "Fuera de eso, es imposible.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_23:
-.string "ANDRA: Who knows…$"
+.string "ANDRA: Quién sabe{PAUSE 25}…{PAUSE 25}$"
 
 SafariZone_1F_Escena_3_Andra_Move_1:
 walk_in_place_right
@@ -289,6 +453,18 @@ step_end
 
 SafariZone_1F_Escena_3_Andra_Move_3:
 walk_in_place_down
+step_end
+
+SafariZone_1F_Escena_3_Andra_Move_3.1:
+delay_8
+face_right
+delay_16
+walk_in_place_down
+step_end
+
+SafariZone_1F_Escena_3_Andra_Move_3.2:
+face_right
+emote_exclamation_mark
 step_end
 
 SafariZone_1F_Escena_3_Andra_Move_4:
@@ -320,12 +496,15 @@ walk_up
 walk_up
 walk_up
 walk_up
-walk_up
-walk_up
-walk_up
-walk_up
+step_end
+
+SafariZone_1F_Escena_3_Andra_Move_9.1:
 walk_up
 walk_right
+walk_up
+walk_up
+walk_up
+walk_up
 walk_right
 walk_right
 step_end

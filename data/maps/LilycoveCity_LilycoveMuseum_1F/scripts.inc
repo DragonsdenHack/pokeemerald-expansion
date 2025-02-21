@@ -168,16 +168,16 @@ LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 	.string "featuring POKÉMON.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
-	.string "I'm the CURATOR of this MUSEUM of\n"
-	.string "fine arts.\p"
-	.string "It's heartening to see someone so\n"
-	.string "young as you in our MUSEUM.\p"
-	.string "Have you viewed our collection of\n"
-	.string "paintings already?$"
+	.string	"Soy el DIRECTOR de este MUSEO\n"
+	.string	"de Bellas Artes.\p"
+	.string	"Me llena de alegría ver que alguien tan\n"
+	.string	"joven como tú se interesa por el arte.\p"
+	.string	"¿Ya has visto nuestra colección\n"
+	.string	"de pintura?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
-	.string "Ah, then let me not disturb you.\n"
-	.string "Please, do take your time.$"
+	.string	"Entonces no te molesto más.\n"
+	.string	"Tómate el tiempo que quieras.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
 	.string "Oh? I do believe that you seem to\n"
@@ -186,22 +186,22 @@ LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
 	.string "too?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
-	.string "I see…\p"
-	.string "I'm honored that you would visit\n"
-	.string "us in spite of that.$"
+	.string	"Oh, qué pena…\p"
+	.string	"En cualquier caso te agradezco que\n"
+	.string	"hayas venido a visitar el MUSEO.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
-	.string "Ah, excellent!\n"
-	.string "You do like paintings!\p"
-	.string "Then, may I ask you to come with me?$"
+	.string	"¡Espléndido!\p"
+	.string	"En ese caso, ¿te importaría\n"
+	.string	"acompañarme?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
-	.string "It's a very old painting.\n"
-	.string "The paint is peeling here and there.$"
+	.string	"Éste es un cuadro muy antiguo.\n"
+	.string	"Necesita una buena restauración{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
-	.string "It's an odd landscape with bizarre\n"
-	.string "and fantastic scenery.$"
+	.string	"Plasma un paisaje de tiempos antiguos.\n"
+	.string	"La escena es extraña y misteriosa.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman:
 	.string "It's a painting of a beautiful, smiling\n"
@@ -220,19 +220,19 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
 	.string "gentle caress.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
-	.string "It's a delicious-looking painting\n"
-	.string "of BERRIES.\p"
-	.string "This painting could make you hungry!$"
+	.string	"Plasma un cesto de BAYAS\n"
+	.string	"con un aspecto delicioso.\p"
+	.string	"Ñam, ñam, ¡qué hambre!$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
 	.string "It's a replica of a famous sculpture.\p"
 	.string "It depicts an ancient BIRD POKÉMON.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
-	.string "It's a big POKé BALL carved from\n"
-	.string "a black stone.\p"
-	.string "It was apparently used in festivals\n"
-	.string "in the olden days.$"
+	.string	"Es una gran POKé BALL esculpida\n"
+	.string	"en roca basáltica.\p"
+	.string	"Al parecer se usaba en los festivales\n"
+	.string	"que se celebraban antiguamente.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 	.string "It's a huge stone tablet inscribed\n"
@@ -241,8 +241,8 @@ LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 	.string "unreadable language.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
-	.string "Hmmm…\n"
-	.string "What works of great magnificence…$"
+	.string	"Hmmm…\n"
+	.string	"What works of great magnificence{PAUSE 5}…{PAUSE 5}$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "Battling with POKÉMON is fun,\n"
@@ -251,44 +251,302 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "the fine arts.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-	.string "This ART MUSEUM… Well, you could\n"
-	.string "see many fantastic paintings.\p"
-	.string "And the CURATOR is a wonderful person.\p"
-	.string "Among artists like myself, this MUSEUM\n"
-	.string "is an inspiration.$"
+	.string	"Este MUSEO de ARTE alberga\n"
+	.string	"una gran colección de pintura.\p"
+	.string	"Y el DIRECTOR es muy amable.\p"
+	.string	"Para los artistas como yo, este MUSEO\n"
+	.string	"es una fuente de inspiración.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
-	.string "This lady is pretty!\n"
-	.string "She's like Mommy!$"
+	.string	"¡Qué señora tan guapa!\n"
+	.string	"¡Es casi tan guapa como mamá!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
 	.string "This POKÉMON is adorable!\n"
 	.string "Just like our little boy!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
-	.string "I'd heard that this ART MUSEUM got\n"
-	.string "in some new paintings.\p"
-	.string "So, naturally I hurried over.\p"
-	.string "Are the new paintings up on\n"
-	.string "the second floor?$"
+	.string	"Me han dicho que han ampliado\n"
+	.string	"la colección de este MUSEO de ARTE.\p"
+	.string	"Por eso he venido a toda máquina.\p"
+	.string	"¡Los nuevos cuadros están\n"
+	.string	"en el primer piso!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
-	.string "Lately, the CURATOR has been\n"
-	.string "unusually cheerful.\p"
-	.string "I bet something good happened for him.\n"
-	.string "Definitely.$"
+	.string	"Últimamente el DIRECTOR\n"
+	.string	"está más contento de lo normal.\p"
+	.string	"Seguro que le ha pasado algo\n"
+	.string	"muy bueno. Sin duda.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
-	.string "I aim to see many great paintings\n"
-	.string "here and learn from them.\p"
-	.string "I have this dream of one day having\n"
-	.string "my artwork exhibited here.$"
+	.string	"He venido aquí a ver muchas grandes\n"
+	.string	"obras y aprender de los maestros.\p"
+	.string	"Mi sueño sería exponer mis\n"
+	.string	"cuadros aquí.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-	.string "The ART MUSEUM has become a favorite\n"
-	.string "tourist destination.\p"
-	.string "It's great for LILYCOVE…\n"
-	.string "No, great for the HOENN region!\p"
-	.string "This is what I've heard--a lone TRAINER\n"
-	.string "procured all the paintings upstairs.$"
+	.string	"El MUSEO de ARTE recibe cada vez\n"
+	.string	"más turistas.\p"
+	.string	"Le viene muy bien a CALAGUA.\n"
+	.string	"¡No, le viene bien a todo HOENN!\p"
+	.string	"Y me han dicho que un ENTRENADOR\n"
+	.string	"ha sido quien ha conseguido las obras.$"
 
+LilycoveMuseum_1F_Secundaria_Move_1:
+walk_in_place_right
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_2:
+walk_slow_right
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_3:
+walk_slow_right
+walk_slow_up
+step_end
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_1
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_2
+waitmovement 0x0
+goto LilycoveCity_LilycoveMuseum_1F_Secundaria
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_1
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_3
+waitmovement 0x0
+goto LilycoveCity_LilycoveMuseum_1F_Secundaria
+
+
+LilycoveMuseum_1F_Secundaria_Move_4:
+walk_in_place_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_5:
+walk_in_place_down
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_6:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_7:
+emote_exclamation_mark
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_8:
+walk_slow_up
+walk_slow_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_9:
+face_left
+delay_16
+walk_in_place_left
+delay_16
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_10:
+face_left
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_11:
+walk_left
+face_down
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_12:
+face_right
+delay_16
+delay_8
+face_down
+step_end
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria::
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_4
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_7
+waitmovement 0x0
+delay 10
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_8
+waitmovement 0x0
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_9
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_10
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_11
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_12
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 8, LilycoveMuseum_1F_Secundaria_Move_13
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_14
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_1F_Secundaria_Move_15
+waitmovement 0x0
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_5
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, LilycoveMuseum_1F_Secundaria_Move_16
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HOENN_652
+setflag FLAG_HOENN_88
+setflag FLAG_HOENN_651
+removeobject 11
+removeobject 8
+removeobject 2
+setvar VAR_ROUTE117_STATE, 9
+waitse
+release
+end
+
+LilycoveMuseum_1F_Secundaria_Move_16:
+walk_right
+walk_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_15:
+delay_8
+face_up
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_14:
+walk_down
+walk_down
+delay_8
+step_end
+
+LilycoveMuseum_1F_Secundaria_Move_13:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+step_end
+
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_1:
+	.string "No puede ser{PAUSE 15}…{PAUSE 15} esto es inadmisible.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_2:
+	.string "Tal y como se lo he contado. Ese hombre\n"
+	.string "no puede seguir al mando del MUSEO.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_3:
+	.string "Puede estar tranquilo,\n"
+	.string "pondremos fin a esto.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_4:
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_5:
+	.string "Un momento, ¡es él!$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_6:
+	.string "¡Gracias a este ENTRENADOR pudimos\n"
+	.string "descubrir la trama de corrupción!$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_7:
+	.string "Todo esto es gracias a usted, entonces.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_8:
+	.string "De parte del MUSEO CALAGUA, se lo\n"
+	.string "agradezco. Aquí valoramos mucho a los\l"
+	.string "buenos entrenadores.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_9:
+	.string "Yo vuelvo al MUSEO PORTUAL. No sabe lo\n"
+	.string "tranquilo que me quedo al saber que\l"
+	.string "todo está bien.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_10:
+	.string "Será lo mejor.\n"
+	.string "Tendrá noticias nuestras muy pronto.$"
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_11:
+	.string "Un momento, caballero.$" 
+
+LilycoveCity_LilycoveMuseum_1F_Secundaria_Texto_12:
+	.string "¿Podríamos hablar en privado? No le he\n"
+	.string "agradecido como es debido su\l"
+	.string "intervención.$"
+
+
+
+LilycoveCity_Museo_Director::
+lock
+compare VAR_ROUTE117_STATE, 7
+goto_if_gt LilycoveCity_Museo_Director_2
+faceplayer
+msgbox LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings MSGBOX_NPC
+release
+end
+
+LilycoveCity_Museo_Director_2::
+msgbox LilycoveCity_Museo_Director_2_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Museo_Director_2_Texto_1:
+	.string "… …$"
+
+LilycoveCity_Museo_Portual::
+lock
+msgbox LilycoveCity_Museo_Portual_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LilycoveCity_Museo_Portual_Texto_1:
+	.string "Sí, sí… Eso mismo…$"
+
+	

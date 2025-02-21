@@ -132,7 +132,7 @@ EWRAM_DATA u16 gBattle_WIN1V = 0;
 EWRAM_DATA u8 gDisplayedStringBattle[400] = {0};
 EWRAM_DATA u8 gBattleTextBuff1[TEXT_BUFF_ARRAY_COUNT] = {0};
 EWRAM_DATA u8 gBattleTextBuff2[TEXT_BUFF_ARRAY_COUNT] = {0};
-EWRAM_DATA u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT] = {0};
+EWRAM_DATA u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT + 13] = {0};   // expanded for stupidly long z move names
 // The below array is never intentionally used. However, Juan's
 // defeat text (SootopolisCity_Gym_1F_Text_JuanDefeat) is too long
 // for gDisplayedStringBattle and overflows into this array. If it
@@ -237,7 +237,6 @@ EWRAM_DATA struct TotemBoost gTotemBoosts[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA bool8 gHasFetchedBall = FALSE;
 EWRAM_DATA u8 gLastUsedBall = 0;
 EWRAM_DATA u16 gLastThrownBall = 0;
-EWRAM_DATA bool8 gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
 
 void (*gPreBattleCallback1)(void);
 void (*gBattleMainFunc)(void);
@@ -393,6 +392,8 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_ADMINDEVON, 35},
     {TRAINER_CLASS_MAESTRO_DUN, 55},
     {TRAINER_CLASS_EUSINE, 25},
+    {TRAINER_CLASS_POLICIA_DEVON, 14},
+    {TRAINER_CLASS_POLICIA_JOHTO, 14},
     {TRAINER_CLASS_DEVON_CIENTIFICO, 17},
     {TRAINER_CLASS_MIGUEL_2, 38},
     {TRAINER_CLASS_MIGUEL_1, 38},
@@ -447,6 +448,7 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_PESCADORJOHTO, 10},
     {TRAINER_CLASS_POKEMANIACOJOHTO, 15},
     {TRAINER_CLASS_DOMADORJOHTO, 11},
+    {TRAINER_CLASS_DOMADOR_HOENN, 11},
     {TRAINER_CLASS_POKEABU, 10},
     {TRAINER_CLASS_MONTANEROJOHTO, 10},
     {TRAINER_CLASS_KARATEKAJOHTO, 8},
@@ -499,19 +501,41 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_ZEUS, 55},
     {TRAINER_CLASS_ADMINISTRADOR, 40},
     {TRAINER_CLASS_RECLUTA, 8},
-    {TRAINER_CLASS_PROTON, 26},
+    {TRAINER_CLASS_ELECTRICISTA_HOENN, 12},
+    {TRAINER_CLASS_KARATEKA_HOENN, 8},
+    {TRAINER_CLASS_NINJA_HOENN, 3},
+    {TRAINER_CLASS_MEDIUM_HOENN, 6},
+    {TRAINER_CLASS_POKEMANIACO_HOENN, 15},
+    {TRAINER_CLASS_GENTLEMAN_HOENN, 20},
+    {TRAINER_CLASS_LEADER_HOENN, 25},
+    {TRAINER_CLASS_PROPIETARIA, 75},
+    {TRAINER_CLASS_PROTON, 35},
+    {TRAINER_CLASS_ALTO_RANGO, 21},
     {TRAINER_CLASS_SEVII, 30},
     {TRAINER_CLASS_JOHTO, 40},
     {TRAINER_CLASS_KANTO, 25},
-    {TRAINER_CLASS_OAK, 60},
+    {TRAINER_CLASS_OAK, 75},
     {TRAINER_CLASS_ATLAS, 50},
     {TRAINER_CLASS_MIGUEL, 20},
-    {TRAINER_CLASS_ANDRA, 18},
-    {TRAINER_CLASS_GIOVANNI, 60},
+    {TRAINER_CLASS_ANDRA, 9},
+    {TRAINER_CLASS_GIOVANNI, 75},
     {TRAINER_CLASS_PRESIDENTE, 45},
     {TRAINER_CLASS_CULTISTA, 19},
     {TRAINER_CLASS_ALTOMANDO, 25},
     {TRAINER_CLASS_EMPERADOR, 55},
+    {TRAINER_CLASS_DOCTOR, 60},
+    {TRAINER_CLASS_DOME_ACE, 80},
+    {TRAINER_CLASS_FACTORY_HEAD, 80},
+    {TRAINER_CLASS_PYRAMID_KING, 80},
+    {TRAINER_CLASS_AMATISTA, 100},
+    {TRAINER_CLASS_SALON_MAIDEN, 90},
+    {TRAINER_CLASS_ANDRA_ALTORANGO, 22},
+    {TRAINER_CLASS_ANDRA_EJECUTIVA, 36},
+    {TRAINER_CLASS_ANDRA_ADMIN, 45},
+    {TRAINER_CLASS_ANDRA_ADMINJEFE, 54},
+    {TRAINER_CLASS_EXPERIMENTO_2, 0},
+    {TRAINER_CLASS_GUARDIA, 0},
+    {TRAINER_CLASS_TRISTANA, 50},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 
@@ -3138,7 +3162,7 @@ static void BattleStartClearSetData(void)
         gBattleStruct->itemStolen[i].originalItem = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
     }
 
-    gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
+    gBattleStruct->swapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
 }
 
 void SwitchInClearSetData(void)
@@ -4068,7 +4092,8 @@ static void HandleTurnActionSelectionState(void)
                     {
                         struct ChooseMoveStruct moveInfo;
 
-                        moveInfo.mega = gBattleStruct->mega;
+                        moveInfo.zmove = gBattleStruct->zmove;
+						moveInfo.mega = gBattleStruct->mega;
                         moveInfo.species = gBattleMons[gActiveBattler].species;
                         moveInfo.monType1 = gBattleMons[gActiveBattler].type1;
                         moveInfo.monType2 = gBattleMons[gActiveBattler].type2;
@@ -4188,6 +4213,7 @@ static void HandleTurnActionSelectionState(void)
                     }
 
                     gBattleStruct->mega.toEvolve &= ~(gBitTable[BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))]);
+					gBattleStruct->zmove.toBeUsed[BATTLE_PARTNER(GetBattlerPosition(gActiveBattler))] = MOVE_NONE;
                     BtlController_EmitEndBounceEffect(BUFFER_A);
                     MarkBattlerForControllerExec(gActiveBattler);
                     return;
@@ -4538,6 +4564,8 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
         speed /= 2;
     else if (holdEffect == HOLD_EFFECT_CHOICE_SCARF)
         speed = (speed * 150) / 100;
+    else if (holdEffect == HOLD_EFFECT_FLOAT_STONE)
+        speed = (speed * 125) / 100;
     else if (holdEffect == HOLD_EFFECT_QUICK_POWDER && gBattleMons[battlerId].species == SPECIES_DITTO && !(gBattleMons[battlerId].status2 & STATUS2_TRANSFORMED))
         speed *= 2;
     else if (holdEffect == HOLD_EFFECT_REAPER_CLOTH && gBattleMons[battlerId].species == SPECIES_DUSKNOIR)
@@ -5073,16 +5101,25 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_DEVON_CIENTIFICO:
         case TRAINER_CLASS_MIGUEL_1:
         case TRAINER_CLASS_MIGUEL_2:
+        case TRAINER_CLASS_DOCTOR:
         case TRAINER_CLASS_ADMINDEVON:
+        case TRAINER_CLASS_POLICIA_DEVON:
+        case TRAINER_CLASS_AMATISTA:
             PlayBGM(637);
             break;
         case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_JONES:
             PlayBGM(628);
             break;
+            break;
         case TRAINER_CLASS_ZEUS:
         case TRAINER_CLASS_ELITE_FOUR:
         case TRAINER_CLASS_CHAMPION:
+        case TRAINER_CLASS_PROPIETARIA:
+        case TRAINER_CLASS_PYRAMID_KING:
+        case TRAINER_CLASS_PIKE_QUEEN:
+        case TRAINER_CLASS_DOME_ACE:
+        case TRAINER_CLASS_FACTORY_HEAD:
             PlayBGM(MUS_VICTORY_LEAGUE);
             break;
         case TRAINER_CLASS_ADMINISTRADOR:
@@ -5111,6 +5148,7 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_GIOVANNI:
         case TRAINER_CLASS_OAK:
         case TRAINER_CLASS_ATLAS:
+        case TRAINER_CLASS_SALON_MAIDEN:
             PlayBGM(MUS_RG_VICTORY_GYM_LEADER);
             break;
         default:

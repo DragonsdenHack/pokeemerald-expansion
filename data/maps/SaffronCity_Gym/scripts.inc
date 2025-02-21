@@ -1,12 +1,22 @@
 SaffronCity_Gym_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_Gym_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, SaffronCity_Gym_OnFrame
+map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_Gym_OnTransition
     .byte 0
 
 SaffronCity_Gym_OnFrame:
 map_script_2 VAR_ROUTE105_STATE, 0, SaffronCity_No_Pass_Gym
 map_script_2 VAR_ROUTE105_STATE, 1, SaffronCity_Can_Pass_Gym
 	.2byte 0
+	
+SaffronCity_Gym_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_Gym_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 46, 12
+end
+
+SaffronCity_Gym_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 46, 12
+end	
 
 SaffronCityGym_EventScript_Exorcista::
 	trainerbattle_single TRAINER_JENNY_2, SaffronCityGym_Text_ExorcistaIntro, SaffronCityGym_Text_ExorcistaDefeated
@@ -63,7 +73,7 @@ waitmovement 0x0
 msgbox SaffronCity_No_Pass_Gym_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_No_Pass_Gym_move1
 waitmovement 0x0
-warp MAP_SAFFRON_CITY, 46, 13
+warp MAP_SAFFRON_CITY, 46, 12
 release
 end
 
@@ -194,10 +204,11 @@ msgbox SaffronCity_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SABRINA, SaffronCity_Lider_Gimnasio_Texto_2
 msgbox SaffronCity_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 586
+additem ITEM_TM04
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40F8, 1
 setflag FLAG_BADGE06_GET
 settrainerflag TRAINER_JENNY_2
 settrainerflag TRAINER_CARLEE
@@ -353,6 +364,8 @@ Vermilion_City_Estatua_Texto_4:
 Vermilion_City_Lider_Gimnasio::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 93
+goto_if_gt Vermilion_City_Lider_Gimnasio_Post_Liga
 compare VAR_ROUTE108_STATE, 2
 goto_if_gt Vermilion_City_Lider_Gimnasio_2
 playse MUS_RG_ENCOUNTER_GYM_LEADER
@@ -360,15 +373,21 @@ msgbox Vermilion_City_Lider_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SURGE_2, Vermilion_City_Lider_Gimnasio_Texto_2
 msgbox Vermilion_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 616
+additem ITEM_TM34
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40F8, 1
 setflag FLAG_BADGE03_GET
 settrainerflag TRAINER_WINSTON_5
 settrainerflag TRAINER_ETHAN_4
 settrainerflag TRAINER_LAO_5
 setvar VAR_ROUTE108_STATE, 3
+release
+end
+
+Vermilion_City_Lider_Gimnasio_Post_Liga::
+msgbox Vermilion_City_Lider_Gimnasio_Texto_3.1 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -397,6 +416,12 @@ Vermilion_City_Lider_Gimnasio_Texto_3:
 	.string "I will give you a little advice, run away\n"
 	.string "of this region before all of the LANCE's\l"
 	.string "fury blows up in your face.$"
+
+Vermilion_City_Lider_Gimnasio_Texto_3.1:
+.string "Habrás ganado la batalla, pero\n"
+	.string "no la guerra.\p"
+	.string "La vida da muchas vueltas,\n"
+	.string "no lo olvides.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_4:
 	.string "I am not going to tell you what the\n"
@@ -494,10 +519,11 @@ msgbox Pewter_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BROCK, Pewter_City_Lider_Gimnasio_Texto_2
 msgbox Pewter_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 621
+additem ITEM_TM39
 msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40F8, 1
 setvar VAR_ROUTE111_STATE, 3
 setflag FLAG_BADGE01_GET
 settrainerflag TRAINER_STEVE_1
@@ -639,8 +665,9 @@ msgbox Cerulean_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MISTY, Cerulean_City_Lider_Gimnasio_Texto_2
 msgbox Cerulean_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 585
+additem ITEM_TM03
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
+addvar VAR_UNUSED_0x40F8, 1
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
 setflag FLAG_BADGE02_GET
@@ -765,10 +792,11 @@ msgbox Fuchsia_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_KOGA, Fuchsia_City_Lider_Gimnasio_Texto_2
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 588
+additem ITEM_TM06
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40F8, 1
 setflag FLAG_BADGE05_GET
 settrainerflag TRAINER_MIGUEL_1
 settrainerflag TRAINER_ANNA_AND_MEG_3
@@ -852,7 +880,7 @@ msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BLAINE_1, Cinnabar_Island_Lider_Gimnasio_Texto_2
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 620
+additem ITEM_TM38
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
@@ -1028,10 +1056,11 @@ msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ERIKA, Celadon_Ciyy_Lider_Gimnasio_Texto_2
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem 601
+additem ITEM_TM19
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+addvar VAR_UNUSED_0x40F8, 1
 setflag FLAG_BADGE04_GET
 setvar VAR_ROUTE107_STATE, 3
 settrainerflag TRAINER_JESSICA_3

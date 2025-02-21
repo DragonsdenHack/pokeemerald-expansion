@@ -20,25 +20,36 @@ Olivine_Boat4_Combate_Capitan::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, Olivine_Boat4_Combate_Capitan_Move_1
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_2
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_4
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Olivine_Boat4_Combate_Capitan_Texto_6 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Olivine_Boat4_Combate_Capitan_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_8 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CAPITAN_2, Olivine_Boat4_Combate_Capitan_Texto_9
 msgbox Olivine_Boat4_Combate_Capitan_Texto_10 MSGBOX_AUTOCLOSE
@@ -47,8 +58,10 @@ additem ITEM_SCANNER
 msgbox Olivine_Boat4_Combate_Capitan_Texto_11.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox Olivine_Boat4_Combate_Capitan_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
 waitmovement 0x0
+delay 10
 msgbox Olivine_Boat4_Combate_Capitan_Texto_12 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
 setvar VAR_UNUSED_0x40F7, 147

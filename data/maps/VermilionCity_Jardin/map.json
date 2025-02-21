@@ -1,0 +1,365 @@
+{
+  "id": "MAP_VERMILION_CITY_JARDIN",
+  "name": "VermilionCity_Jardin",
+  "layout": "LAYOUT_VERMILION_CITY_JARDIN",
+  "music": "MUS_RG_VERMILLION",
+  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORJOHTO",
+      "x": 12,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "VermilionCity_Jardin_EventScript_Criador",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
+      "x": 5,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "VermilionCity_Jardin_EventScript_Criadora",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
+      "x": 8,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "VermilionCity_Jardin_Final",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
+      "x": 8,
+      "y": 25,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "VermilionCity_Jardin_Cazabichos_Pelea",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
+      "x": 9,
+      "y": 25,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_84"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
+      "x": 20,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "VermilionCity_Jardin_Cazabichos_Despues",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 24,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Vermilion_Jardin_EventScript_MT143",
+      "flag": "FLAG_HOENN_160"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 5,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Vermilion_Secundaria_EventScript_PiedraSolar",
+      "flag": "FLAG_HOENN_299"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 6,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JardinCarmin_EventScript_MiniSeta",
+      "flag": "FLAG_HOENN_134"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_VERMILION_CITY_SECUNDARIA",
+      "dest_warp_id": 0
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "VermilionCity_Jardin_Warp"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_TIMID_MINT",
+      "flag": "FLAG_HOENN_94"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_CALM_MINT",
+      "flag": "FLAG_HOENN_93"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_MODEST_MINT",
+      "flag": "FLAG_HOENN_92"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_LONELY_MINT",
+      "flag": "FLAG_HOENN_90"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_TAMATO_BERRY",
+      "flag": "FLAG_HOENN_79"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_GREPA_BERRY",
+      "flag": "FLAG_HOENN_78"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_HONDEW_BERRY",
+      "flag": "FLAG_HOENN_77"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_HOENN_76"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_KELPSY_BERRY",
+      "flag": "FLAG_HOENN_75"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_POMEG_BERRY",
+      "flag": "FLAG_HOENN_74"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_BOLD_MINT",
+      "flag": "FLAG_HOENN_91"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_RELAXED_MINT",
+      "flag": "FLAG_HOENN_96"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_NAIVE_MINT",
+      "flag": "FLAG_HOENN_99"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_SASSY_MINT",
+      "flag": "FLAG_HOENN_98"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_QUIET_MINT",
+      "flag": "FLAG_HOENN_97"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_BRAVE_MINT",
+      "flag": "FLAG_HOENN_95"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_RASH_MINT",
+      "flag": "FLAG_HOENN_647"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_LAX_MINT",
+      "flag": "FLAG_HOENN_646"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_NAUGHTY_MINT",
+      "flag": "FLAG_HOENN_645"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_HASTY_MINT",
+      "flag": "FLAG_HOENN_644"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_GENTLE_MINT",
+      "flag": "FLAG_HOENN_643"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_MILD_MINT",
+      "flag": "FLAG_HOENN_642"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_IMPISH_MINT",
+      "flag": "FLAG_HOENN_641"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_ADAMANT_MINT",
+      "flag": "FLAG_HOENN_640"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_JOLLY_MINT",
+      "flag": "FLAG_HOENN_649"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_CAREFUL_MINT",
+      "flag": "FLAG_HOENN_648"
+    }
+  ]
+}

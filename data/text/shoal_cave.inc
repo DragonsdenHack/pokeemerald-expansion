@@ -36,7 +36,7 @@ ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
 	.string "Oh… Is that so…\n"
-	.string "I wanted to make a SHELL BELL…$"
+	.string "I wanted to make a SHELL BELL…{PAUSE 5}$"
 
 ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
 	.string "You don't have space in your BAG\n"

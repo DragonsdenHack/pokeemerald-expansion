@@ -511,9 +511,7 @@ MtChimney_EventScript_Grunt1::
 	end
 
 MtChimney_EventScript_Sawyer::
-	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, MtChimney_EventScript_SawyerDefeated
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MtChimney_EventScript_SawyerRematch
+	trainerbattle_single TRAINER_TRAINER_635, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat,
 	msgbox MtChimney_Text_SawyerPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -538,7 +536,7 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "Fufufu…{PAUSE 5}$"
 
 MtChimney_Text_MaxieIntro:
 	.string "MAXIE: Hm?\n"
@@ -579,7 +577,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "you've seen of TEAM MAGMA.\p"
 	.string "Fufufu…\p"
 	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "obtain that ORB… Fufufu…{PAUSE 5}$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
@@ -591,12 +589,12 @@ MtChimney_Text_TabithaIntro:
 MtChimney_Text_TabithaDefeat:
 	.string "Hehehe…\p"
 	.string "Even though I've lost, if our leader\n"
-	.string "awakens that thing…$"
+	.string "awakens that thing…{PAUSE 5}$"
 
 MtChimney_Text_TabithaPostBattle:
 	.string "BOSS, hurry!\n"
 	.string "Give it the METEORITE's energy!\p"
-	.string "Hehehe…$"
+	.string "Hehehe…{PAUSE 5}$"
 
 MtChimney_Text_Grunt2Intro:
 	.string "We of TEAM MAGMA are working hard for\n"
@@ -621,7 +619,7 @@ MtChimney_Text_Grunt1Intro:
 	.string "I'm going to build it on hardened lava!$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "My dream of a big house…$"
+	.string "My dream of a big house…{PAUSE 5}$"
 
 MtChimney_Text_Grunt1PostBattle:
 	.string "A kid like you, you ought to be\n"
@@ -702,19 +700,19 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
-	.string "specialty.\p"
-	.string "Try one. It's just ¥200.$"
+	.string	"Las GALLETAS LAVA son la especialidad\n"
+	.string	"del MONTE CENIZO.\p"
+	.string	"Prueba una. Son solo 200¥.$"
 
 MtChimney_Text_ThankYouDear:
-	.string "Thank you, dear!$"
+	.string	"¡Muchas gracias!$"
 
 MtChimney_Text_YouveNotGotTheMoney:
-	.string "Oh, dear. You can't buy a thing if\n"
-	.string "you've not got the money.$"
+	.string	"Pero vamos a ver: si no tienes dinero,\n"
+	.string	"no puedes comprar nada de nada.$"
 
 MtChimney_Text_OhFineThen:
-	.string "Oh, fine then.$"
+	.string	"Bueno. Tú te lo pierdes…{PAUSE 5}$"
 
 MtChimney_Text_MetoriteFittedOnMachine:
 	.string "A METEORITE is fitted on a mysterious\n"
@@ -732,16 +730,16 @@ MtChimney_Text_PlayerRemovedMeteorite:
 	.string "the mysterious machine.$"
 
 MtChimney_Text_PlayerLeftMeteorite:
-	.string "{PLAYER} left the METEORITE where\n"
-	.string "it was.$"
+	.string	"{PLAYER} dejó el METEORITO\n"
+	.string	"donde estaba.$"
 
 MtChimney_Text_MachineMakesNoResponse:
-	.string "This mysterious machine…\n"
-	.string "It makes no response whatsoever.$"
+	.string	"Esta extraña máquina…\n"
+	.string	"No responde…$"
 
 MtChimney_Text_RouteSign:
-	.string "{DOWN_ARROW} JAGGED PATH\n"
-	.string "LAVARIDGE TOWN AHEAD$"
+	.string	"{DOWN_ARROW} DESFILADERO\n"
+	.string	"PUEBLO LAVACALDA MÁS ADELANTE$"
 
 MtChimney_Text_ShelbyIntro:
 	.string "He estado en las fuentes termales y he\n"
@@ -754,7 +752,7 @@ MtChimney_Text_ShelbyDefeat:
 
 MtChimney_Text_ShelbyPostBattle:
 	.string "Soy una Pokéabu con mucha experiencia,\n"
-	.string "pero aún me pueden dar una lección…$"
+	.string "pero aún me pueden dar una lección{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_ShelbyRegister:
 	.string "Thank you, child. It was fun, as if\n"
@@ -780,7 +778,7 @@ MtChimney_Text_MelissaIntro:
 	.string "descargar adrenalina. ¡Vamos a luchar!$"
 
 MtChimney_Text_MelissaDefeat:
-	.string "Me he quedado la mar de tranquila…$"
+	.string "Me he quedado la mar de tranquila{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_MelissaPostBattle:
 	.string "No hay nada como un poco de ejercicio\n"
@@ -796,7 +794,7 @@ MtChimney_Text_SheilaDefeat:
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Pues sí, por fin he llegado al Monte\n"
-	.string "Cenizo y no me voy a dedicar sólo a\l"
+	.string "Cenizo y no me voy a dedicar solo a\l"
 	.string "hacer visitas… También quiero luchar\l"
 	.string "un poquito y comprar galletas de\l"
 	.string "recuerdo.$"
@@ -811,18 +809,18 @@ MtChimney_Text_ShirleyDefeat:
 MtChimney_Text_ShirleyPostBattle:
 	.string "Mejor me vuelvo a los baños… ¿Te\n"
 	.string "apuntas? Ya, ya sé que tienes cosas más\l"
-	.string "importantes que hacer…$"
+	.string "importantes que hacer{PAUSE 5}…{PAUSE 5}$"
 
 MtChimney_Text_SawyerIntro:
-	.string "This is one fine mountain! Plenty of\n"
-	.string "hot people around for company!$"
+	.string	"¡Esta montaña está que arde! ¡Está\n"
+	.string	"llena de gente impetuosa y apasionada!$"
 
 MtChimney_Text_SawyerDefeat:
-	.string "Oh, you're a real firebrand, too!$"
+	.string	"¡Me has dejado echando humo!$"
 
 MtChimney_Text_SawyerPostBattle:
-	.string "I think I need a dip in LAVARIDGE\n"
-	.string "HOT SPRING with the locals!$"
+	.string	"¡Debería ir a los BAÑOS TERMALES\n"
+	.string	"de LAVACALDA, como hacen todos!$"
 
 MtChimney_Text_SawyerRegister:
 	.string "I like little fireballs like you.\n"
@@ -839,4 +837,403 @@ MtChimney_Text_SawyerRematchDefeat:
 MtChimney_Text_SawyerPostRematch:
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
+
+MtChimney_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_562, MtChimney_Text_PrimerPoliciaIntro, MtChimney_Text_PrimerPoliciaDefeat
+	msgbox MtChimney_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_563, MtChimney_Text_SegundoPoliciaIntro, MtChimney_Text_SegundoPoliciaDefeat
+	msgbox MtChimney_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Tercer_Policia::
+	trainerbattle_single TRAINER_TRAINER_564, MtChimney_Text_TercerPoliciaIntro, MtChimney_Text_TercerPoliciaDefeat
+	msgbox MtChimney_Text_TercerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Primer_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_565, MtChimney_Text_PrimerCientificoIntro, MtChimney_Text_PrimerCientificoDefeat
+	msgbox MtChimney_Text_PrimerCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_NPC5_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC5_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC5_Cientifico_Texto_1:
+	.string "Algunos meteoritos de la CASCADA\n"
+	.string "METEORO tienen propiedades\l"
+	.string "asombrosas, podrían calmar o hacer\l"
+	.string "estallar un volcán como este.$"
+
+MtChimney_NPC16_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC16_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC16_Cientifico_Texto_1:
+	.string "La principal razón por la que estamos\n"
+	.string "aquí no puede revelarse al público. ¿Por\l"
+	.string "qué te digo esto? Nadie te hará caso de\l"
+	.string "todos modos.$"
+
+
+MtChimney_NPC19_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC19_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC19_Cientifico_Texto_1:
+	.string "En lo profundo de este lugar duerme\n"
+	.string "GROUDON, aunque ya no es ningún\l"
+	.string "misterio para DEVON.$"
+
+MtChimney_NPC29_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC29_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC29_Cientifico_Texto_1:
+	.string "Me pregunto qué pasaría si arrojáramos\n"
+	.string "al volcán todo el combustible para\l"
+	.string "cohetes de la ESTACIÓN ESPACIAL{PAUSE 5}…{PAUSE 5}$"
+
+MtChimney_NPC10_Policia::
+lock
+faceplayer
+msgbox MtChimney_NPC10_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC10_Policia_Texto_1:
+	.string "Estamos haciendo pruebas en la cima del\n"
+	.string "volcán, hasta entonces los pasos están\l"
+	.string "cortados.$"
+
+MtChimney_Doctor_Rasmus_Arriba::
+lock
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+playse SE_FALL
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+waitse
+msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE 
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2
+waitmovement 0x0
+goto MtChimney_Doctor_Rasmus
+
+MtChimney_Doctor_Rasmus_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_1.1
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+delay 30
+playse SE_FALL
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+waitse
+delay 10
+msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE 
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2.1
+waitmovement 0x0
+goto MtChimney_Doctor_Rasmus
+
+MtChimney_Doctor_Rasmus::
+msgbox MtChimney_Doctor_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_3
+waitmovement 0x0
+delay 15
+msgbox MtChimney_Doctor_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtChimney_Doctor_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2
+waitmovement 0x0
+msgbox MtChimney_Doctor_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_4
+waitmovement 0x0
+msgbox MtChimney_Doctor_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_6
+waitmovement 0x0
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+msgbox MtChimney_Doctor_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtChimney_Doctor_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_7
+waitmovement 0x0
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_8.1
+waitmovement 0x0
+delay 20
+msgbox MtChimney_Doctor_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_9
+waitmovement 0x0
+msgbox MtChimney_Doctor_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+waitmoncry
+playse SE_FAINT
+delay 15
+msgbox MtChimney_Doctor_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_10
+applymovement 2, MtChimney_Doctor_Rasmus_Move_11
+waitmovement 0x0
+msgbox MtChimney_Doctor_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_13
+waitmovement 0x0
+delay 20
+applymovement 2, MtChimney_Doctor_Rasmus_Move_12.1
+msgbox MtChimney_Doctor_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, MtChimney_Doctor_Rasmus_Move_14
+waitmovement 0x0
+clearflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
+setflag FLAG_HOENN_679
+setflag FLAG_HOENN_680
+setflag FLAG_HOENN_681
+setflag FLAG_HOENN_682
+setflag FLAG_HOENN_683
+setflag FLAG_HOENN_684
+setflag FLAG_HOENN_685
+setflag FLAG_HOENN_686
+setflag FLAG_HOENN_687
+setflag FLAG_HOENN_688
+setflag FLAG_HOENN_689
+setflag FLAG_HOENN_690
+setflag FLAG_HOENN_691
+setflag FLAG_HOENN_692
+setflag FLAG_HOENN_693
+setflag FLAG_HOENN_694
+setflag FLAG_HOENN_695
+setflag FLAG_HOENN_696
+setflag FLAG_HOENN_697
+setflag FLAG_HOENN_698
+setflag FLAG_HOENN_699
+setflag FLAG_HOENN_700
+setflag FLAG_HOENN_1
+fadescreen 1
+delay 20
+addobject 26
+addobject 30
+addobject 25
+addobject 28
+addobject 27
+addobject 9
+removeobject 2
+removeobject 22
+removeobject 3
+removeobject 5
+removeobject 19
+removeobject 29
+removeobject 17
+removeobject 18
+removeobject 16
+removeobject 10
+removeobject 6
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 220
+release
+end
+
+MtChimney_Doctor_Rasmus_Move_1.1:
+walk_in_place_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_14:
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_13:
+delay_8
+delay_8
+face_left
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_12:
+delay_8
+walk_left
+walk_left
+step_end
+
+MtChimney_Doctor_Rasmus_Move_12.1:
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_11:
+walk_in_place_up
+step_end
+
+MtChimney_Doctor_Rasmus_Move_10:
+walk_in_place_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_9:
+face_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_8:
+face_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_8.1:
+face_up
+step_end
+
+MtChimney_Doctor_Rasmus_Move_7:
+delay_8
+emote_exclamation_mark
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_6:
+walk_right
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_5:
+walk_in_place_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_4:
+face_up
+step_end
+
+MtChimney_Doctor_Rasmus_Move_3:
+delay_8
+face_left
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_2:
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_2.1:
+walk_up
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_1:
+walk_in_place_right
+step_end
+
+MtChimney_Doctor_Rasmus_Texto_1:
+	.string "-???? arrojó algo al volcán-.$"
+
+MtChimney_Doctor_Rasmus_Texto_2:
+	.string "Esta es la última prueba, 3 minutos\n"
+	.string "serán suficientes para ver cómo\l"
+	.string "reacciona.$"
+
+MtChimney_Doctor_Rasmus_Texto_3:
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
+
+MtChimney_Doctor_Rasmus_Texto_4:
+	.string "Ningún ENTRENADOR de por aquí debería\n"
+	.string "ser capaz de burlar nuestra seguridad,\l"
+	.string "menos aún de ir en contra de DEVON,\l"
+	.string "¿quién eres tú?$"
+
+MtChimney_Doctor_Rasmus_Texto_5:
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
+
+MtChimney_Doctor_Rasmus_Texto_6:
+	.string "Entonces eres ese ADMIN ROCKET, no es\n"
+	.string "que sea muy inteligente exponerte tan\l"
+	.string "fácilmente después de derrotar a\l"
+	.string "nuestros ADMIN. RUBÍ y ZAFIRO. Debes\l"
+	.string "tener plena confianza en tus POKÉMON.$"
+
+MtChimney_Doctor_Rasmus_Texto_7:
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
+
+MtChimney_Doctor_Rasmus_Texto_8:
+	.string "¿Quieres saber qué hacemos aquí…?\n"
+	.string "¿GROUDON?$"
+
+MtChimney_Doctor_Rasmus_Texto_9:
+	.string "Chico, hace años que sabemos todo\n"
+	.string "sobre GROUDON. Es más, dominamos\l"
+	.string "también su forma PRIMIGENIA.$"
+
+MtChimney_Doctor_Rasmus_Texto_10:
+	.string "No.{PAUSE 15} La realidad es que he venido hasta\n"
+	.string "aquí para realizar unas pruebas\l"
+	.string "prácticas.{PAUSE 15} Observa.$"
+
+MtChimney_Doctor_Rasmus_Texto_11:
+	.string "¿Te suena ese POKÉMON? Es un\n"
+	.string "BLACEPHALON. Debería sonarte, alguien\l"
+	.string "como tú seguro que ya ha tenido\l"
+	.string "contacto con algún ULTRAENTE.$"
+
+MtChimney_Doctor_Rasmus_Texto_12:
+	.string "Lo he arrojado al volcán para ver cómo\n"
+	.string "reacciona su cuerpo.$"
+
+MtChimney_Doctor_Rasmus_Texto_13:
+	.string "¿Así que te parece una crueldad?$"
+
+MtChimney_Doctor_Rasmus_Texto_14:
+	.string "No seas hipócrita, ADMIN. ROCKET.\n"
+	.string "Vosotros hacéis exactamente lo mismo\l"
+	.string "con las ondas de radio.$"
+
+MtChimney_Doctor_Rasmus_Texto_15:
+	.string "A estas alturas deberías saber que el\n"
+	.string "verdadero poder surge de una\l"
+	.string "necesidad. No hay nada que estimule más\l"
+	.string "el potencial de un POKÉMON que\l"
+	.string "exponerlo a situaciones límite.$"
+
+MtChimney_Doctor_Rasmus_Texto_16:
+	.string "-???? recogió al BLACEPHALON\n"
+	.string "debilitado-.$"
+
+MtChimney_Doctor_Rasmus_Texto_17:
+	.string "Por eso mismo estás aquí, de no ser por\n"
+	.string "las situaciones límite a las que LANCE\l"
+	.string "llevó KANTO, esta versión que ves hoy\l"
+	.string "de ti no existiría. Tampoco los POKÉMON\l"
+	.string "que te acompañan.$"
+
+MtChimney_Doctor_Rasmus_Texto_18:
+	.string "Te hubieras quedado criando SENTRET en\n"
+	.string "esa lejana isla, ¿no es ese destino más\l"
+	.string "cruel?$"
 

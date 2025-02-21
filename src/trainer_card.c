@@ -1277,27 +1277,24 @@ static void BufferLinkPokeblocksNum(void)
 {
     if (sData->cardType != CARD_TYPE_FRLG && sData->trainerCard.pokeblocksWithFriends)
     {
-        ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.pokeblocksWithFriends, STR_CONV_MODE_RIGHT_ALIGN, 5);
-        StringExpandPlaceholders(sData->textNumLinkPokeblocks, gText_NumPokeblocks);
+
     }
 }
 
 static void PrintPokeblockStringOnCard(void)
 {
-    if (sData->cardType != CARD_TYPE_FRLG && sData->trainerCard.pokeblocksWithFriends)
-        PrintStatOnBackOfCard(3, gText_PokeblocksWithFriends, sData->textNumLinkPokeblocks, sTrainerCardStatColors);
+ 
+
 }
 
 static void BufferLinkContestNum(void)
 {
-    if (sData->cardType != CARD_TYPE_FRLG && sData->trainerCard.contestsWithFriends)
-        ConvertIntToDecimalStringN(sData->textNumLinkContests, sData->trainerCard.contestsWithFriends, STR_CONV_MODE_RIGHT_ALIGN, 5);
+
 }
 
 static void PrintContestStringOnCard(void)
 {
-    if (sData->cardType != CARD_TYPE_FRLG && sData->trainerCard.contestsWithFriends)
-        PrintStatOnBackOfCard(4, gText_WonContestsWFriends, sData->textNumLinkContests, sTrainerCardStatColors);
+
 }
 
 static void BufferBattleFacilityStats(void)
@@ -1307,16 +1304,13 @@ static void BufferBattleFacilityStats(void)
     case CARD_TYPE_RS:
         if (sData->hasBattleTowerWins)
         {
-            ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.battleTowerWins, STR_CONV_MODE_RIGHT_ALIGN, 4);
-            ConvertIntToDecimalStringN(gStringVar2, sData->trainerCard.battleTowerStraightWins, STR_CONV_MODE_RIGHT_ALIGN, 4);
-            StringExpandPlaceholders(sData->textBattleFacilityStat, gText_WinsStraight);
+
         }
         break;
     case CARD_TYPE_EMERALD:
         if (sData->trainerCard.frontierBP)
         {
-            ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.frontierBP, STR_CONV_MODE_RIGHT_ALIGN, 5);
-            StringExpandPlaceholders(sData->textBattleFacilityStat, gText_NumBP);
+
         }
         break;
     case CARD_TYPE_FRLG:
@@ -1333,8 +1327,6 @@ static void PrintBattleFacilityStringOnCard(void)
             PrintStatOnBackOfCard(5, gText_BattleTower, sData->textBattleFacilityStat, sTrainerCardTextColors);
         break;
     case CARD_TYPE_EMERALD:
-        if (sData->trainerCard.frontierBP)
-            PrintStatOnBackOfCard(5, gText_BattlePtsWon, sData->textBattleFacilityStat, sTrainerCardStatColors);
         break;
     case CARD_TYPE_FRLG:
         break;

@@ -611,16 +611,17 @@ static void InheritIVs(struct Pokemon *egg, struct DayCare *daycare)
 
 // Counts the number of egg moves a pokemon learns and stores the moves in
 // the given array.
-static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
+u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
 {
-    u16 eggMoveIdx;
+    u16 learnedMoves[MAX_MON_MOVES];
+	u16 eggMoveIdx;
     u16 numEggMoves;
     u16 species;
-    u16 i;
+    u16 i, j, k;
 
     numEggMoves = 0;
     eggMoveIdx = 0;
-    species = GetMonData(pokemon, MON_DATA_SPECIES);
+    species = GetEggSpecies(GetMonData(pokemon, MON_DATA_SPECIES));
     for (i = 0; i < ARRAY_COUNT(gEggMoves) - 1; i++)
     {
         if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
@@ -629,14 +630,39 @@ static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
             break;
         }
     }
+	
+	if (FlagGet(FLAG_HOENN_639))
+    {
+        for (i = 0; i < MAX_MON_MOVES; i++)
+            learnedMoves[i] = GetMonData(pokemon, MON_DATA_MOVE1 + i, 0);
+    }
 
     for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
     {
-        if (gEggMoves[eggMoveIdx + i] > EGG_MOVES_SPECIES_OFFSET)
+        u16 eggMoveId = gEggMoves[eggMoveIdx + i];
+		
+		if (eggMoveId > EGG_MOVES_SPECIES_OFFSET)
             break;
 
-        eggMoves[i] = gEggMoves[eggMoveIdx + i];
-        numEggMoves++;
+        if (FlagGet(FLAG_HOENN_639))
+        {
+            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != eggMoveId; j++);
+
+            if (j == MAX_MON_MOVES)
+            {
+                for (k = 0; k < numEggMoves && eggMoves[k] != eggMoveId; k++);
+
+                if (k == numEggMoves)
+                    eggMoves[numEggMoves++] = eggMoveId;
+            }
+        }
+        else
+        {
+            for (k = 0; k < numEggMoves && eggMoves[k] != eggMoveId; k++);
+
+            if (k == numEggMoves)
+                eggMoves[numEggMoves++] = eggMoveId;
+        }
     }
 
     return numEggMoves;
@@ -695,7 +721,8 @@ static void BuildEggMoveset(struct Pokemon *egg, struct BoxPokemon *father, stru
         {
             for (j = 0; j < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; j++)
             {
-                if (sHatchedEggFatherMoves[i] == ItemIdToBattleMoveId(ITEM_TM01_FOCUS_PUNCH + j) && CanMonLearnTMHM(egg, j))
+                u16 moveId = ItemIdToBattleMoveId(ITEM_TM01 + j);
+                if (sHatchedEggFatherMoves[i] == moveId && CanLearnTeachableMove(GetMonData(egg, MON_DATA_SPECIES2), moveId))
                 {
                     if (GiveMoveToMon(egg, sHatchedEggFatherMoves[i]) == MON_HAS_MAX_MOVES)
                         DeleteFirstMoveAndGiveMoveToMon(egg, sHatchedEggFatherMoves[i]);

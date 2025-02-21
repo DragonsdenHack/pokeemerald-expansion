@@ -315,7 +315,7 @@ PetalburgWoods_EventScript_JamesRematch::
 
 PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
+	.string "Not a one to be found…{PAUSE 5}$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen any POKÉMON\n"
@@ -418,7 +418,8 @@ PetalburgWoods_Text_MyPokemonHaveGrown:
 	.string "I'll be popular again.$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
-	.string "I can't be popular if I lose.$"
+	.string "¡Si quiero conservar mi club de fans,\n"
+	.string "no puedo perder!$"
 
 PetalburgWoods_Text_IveBeenTrainingHard:
 	.string "You get to be popular if you have\n"
@@ -433,16 +434,16 @@ PetalburgWoods_Text_StayOutOfTallGrass:
 	.string "of tall grass.$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
-	.string "Sometimes, there are things on the\n"
-	.string "ground even if you can't see them.\p"
-	.string "That's why I always check where I'm\n"
-	.string "walking.$"
+	.string "A veces hay cosas en el suelo,\n"
+	.string "aunque no puedas verlas.\p"
+	.string "Por eso siempre tengo los ojos abiertos\n"
+	.string "cuando voy de paseo.$"
 
 PetalburgWoods_Text_TryUsingThisItem:
-	.string "Oh, neat!\n"
-	.string "That's the BADGE from RUSTBORO GYM!\p"
-	.string "You must be a TRAINER.\n"
-	.string "You should try using this item.$"
+	.string "¡Cómo mola! ¡La MEDALLA del GIMNASIO\n"
+	.string "de CIUDAD FÉRRICA!\p"
+	.string "Tú seguro que entrenas POKéMON.\n"
+	.string "Pues prueba a usar este objeto.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "It's a MIRACLE SEED.\n"

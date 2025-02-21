@@ -107,6 +107,7 @@ waitmovement 0x0
 goto FourIsland_Encuentro_Zeus
 
 FourIsland_Encuentro_Zeus::
+delay 10
 msgbox FourIsland_Encuentro_Zeus_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 playse SE_PIN
@@ -120,6 +121,7 @@ playse 586
 msgbox FourIsland_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox FourIsland_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 9, FourIsland_Encuentro_Zeus_Move_4
 waitmovement 0x0

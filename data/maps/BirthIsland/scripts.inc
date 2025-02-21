@@ -10,8 +10,11 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 2, BirthIsland_Blaine_Move_2
 waitmovement 0x0
+waitse
+delay 10
 applymovement 2, BirthIsland_Blaine_Move_3
 waitmovement 0x0
+delay 10
 msgbox BirthIsland_Blaine_Texto_1 MSGBOX_AUTOCLOSE
 msgbox BirthIsland_Blaine_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 2, BirthIsland_Blaine_Move_4
@@ -38,6 +41,7 @@ playse SE_PIN
 applymovement 2, BirthIsland_Blaine_Move_2
 waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BirthIsland_Blaine_Texto_8 MSGBOX_AUTOCLOSE
 addobject 3
 addobject 4
@@ -64,11 +68,24 @@ delay 15
 applymovement 5, BirthIsland_Blaine_Move_12
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_13
+delay 10
 applymovement 5, BirthIsland_Blaine_Move_14
 waitmovement 0x0
+delay 10
 msgbox BirthIsland_Blaine_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BirthIsland_Blaine_Texto_10.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 5, BirthIsland_Blaine_Move_14.1
+waitmovement 0x0
+delay 10
+msgbox BirthIsland_Blaine_Texto_10.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BirthIsland_Blaine_Texto_10.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, BirthIsland_Blaine_Move_15
 waitmovement 0x0
+delay 10
 msgbox BirthIsland_Blaine_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 5, BirthIsland_Blaine_Move_16
 waitmovement 0x0
@@ -102,10 +119,40 @@ waitmovement 0x0
 delay 20
 msgbox BirthIsland_Blaine_Texto_18 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
-fadescreen 1
 delay 20
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 removeobject 2
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+clearflag FLAG_HOENN_90
+clearflag FLAG_HOENN_91
+clearflag FLAG_HOENN_92
+clearflag FLAG_HOENN_93
+clearflag FLAG_HOENN_94
+clearflag FLAG_HOENN_95
+clearflag FLAG_HOENN_96
+clearflag FLAG_HOENN_97
+clearflag FLAG_HOENN_98
+clearflag FLAG_HOENN_99
+setflag FLAG_HOENN_640
+setflag FLAG_HOENN_641
+setflag FLAG_HOENN_642
+setflag FLAG_HOENN_643
+setflag FLAG_HOENN_644
+setflag FLAG_HOENN_645
+setflag FLAG_HOENN_646
+setflag FLAG_HOENN_647
+setflag FLAG_HOENN_648
+setflag FLAG_HOENN_649
 setvar VAR_UNUSED_0x40F7, 112
 release
 end
@@ -148,29 +195,36 @@ BirthIsland_Blaine_Texto_7:
 .string "ANDRA: You! Betrayer!$"
 
 BirthIsland_Blaine_Texto_8:
-.string "BLAINE: Betrayer for who?\n"
-	.string "For TEAM ROCKET?\l"
-	.string "Of course yeah.$"
+.string "BLAINE: ¿Traidor? ¿A quién?\n"
+	.string "¿Al TEAM ROCKET?\l"
+	.string "Por supuesto que sí.$"
 
 BirthIsland_Blaine_Texto_9:
-	.string "You can be as strong as you want to be,\n"
-	.string "but you won't have time to defeat four\l"
-	.string "of our top scientists while preventing\l"
-	.string "him from escaping with this object.$"
+.string "Podréis ser todo lo fuerte que queráis,\n"
+	.string "pero no os dará tiempo a derrotar a\l"
+	.string "cuatro AYUDANTES de OAK, al tiempo que\l"
+	.string "evitáis que escape con este objeto.$"
 
 BirthIsland_Blaine_Texto_10:
-	.string "OAK sends you a message, {PLAYER}, if\n"
-	.string "you have the courage, we await you in\l"
-	.string "the depths of the POKÉMON MANSION, he\l"
-	.string "wants you to see firsthand the true\l"
-	.string "power of technology and science,\l"
-	.string "before revealing it to the world, to\l"
-	.string "demonstrate that your victories\l"
-	.string "against RED and LANCE were nothing but\l"
-	.string "mere mistakes, now that he has found\l"
-	.string "the formula to have a perfect team,\l"
-	.string "nothing can stand in his way, we will\l"
-	.string "rebuild KANTO in our own way.$"
+.string "OAK te envía un mensaje, {PLAYER}.{PAUSE 35}\p"
+	.string "-Si tienes el valor, te esperamos en\n"
+	.string "lo más profundo de la MANSIÓN POKÉMON.-$"
+
+BirthIsland_Blaine_Texto_10.1:
+	.string "Quiere que veas de primera mano el\n"
+	.string "verdadero poder de la tecnología y la\l"
+	.string "ciencia, antes de mostrárselo al mundo.$"
+
+BirthIsland_Blaine_Texto_10.2:
+	.string "Demostrarte que tus victorias ante\n"
+	.string "ROJO y LANCE no fueron más que simples\l"
+	.string "errores; ahora que ha encontrado la\l"
+	.string "fórmula del equipo perfecto, nada podrá\l"
+	.string "oponerse a su voluntad.$"
+
+BirthIsland_Blaine_Texto_10.3:
+	.string "Reconstruiremos KANTO\n"
+	.string "a nuestro modo.$"
 
 BirthIsland_Blaine_Texto_11:
 	.string "Have a good day.$"
@@ -200,15 +254,18 @@ BirthIsland_Blaine_Texto_16:
 	.string "you've failed!$"
 
 BirthIsland_Blaine_Texto_17:
-	.string "ANDRA: We must notify GIOVANNI about\n"
-	.string "this, {PLAYER}. They've stolen that\l"
-	.string "triangle just when we found it. Could\l"
-	.string "they have been keeping an eye on us all\l"
-	.string "that time?$"
+.string "ANDRA: Tenemos que informar a GIOVANNI\n"
+	.string "de esto, {PLAYER}.\l"
+	.string "Han robado ese triángulo justo cuando\l"
+	.string "lo hemos descubierto, ¿habrán estado\l"
+	.string "todo este tiempo vigilándonos?$"
 
 BirthIsland_Blaine_Texto_18:
-	.string "See you at the headquarters,\n"
-	.string "{PLAYER}.$"
+.string "Nos vemos en el cuartel, {PLAYER}.$"
+
+BirthIsland_Blaine_Move_14.1:
+face_down
+step_end
 
 BirthIsland_Blaine_Move_1:
 walk_up

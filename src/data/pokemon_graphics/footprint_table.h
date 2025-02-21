@@ -904,5 +904,11 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_GOROCHU] = gMonFootprint_Gorochu,
     [SPECIES_WARTILLERY] = gMonFootprint_Wartillery,
     [SPECIES_QWOLTFISH] = gMonFootprint_Qwoltfish,
+	[SPECIES_GUARDIA] = gMonFootprint_Guardia,
+	[SPECIES_ARMALDO_PRIMAL] = gMonFootprint_ArmaldoPrimal,
+	[SPECIES_RELICANTH_PRIMAL] = gMonFootprint_RelicanthPrimal,
+	[SPECIES_MILOTICBOND] = gMonFootprint_MiloticBond,
+	[SPECIES_GYARADOSZ] = gMonFootprint_GyaradosZ,
+	[SPECIES_PORYGON31] = gMonFootprint_Porygon31,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

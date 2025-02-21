@@ -128,8 +128,9 @@ applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_17
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_15 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
-msgbox Ecruteak_TinTowerRoof_Zeus_Texto_14 MSGBOX_AUTOCLOSE
 waitmoncry
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 fadescreen 1
 delay 15
 playse SE_M_ROCK_THROW
@@ -138,7 +139,10 @@ playse SE_SUPER_EFFECTIVE
 waitse
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
 playse SE_FAINT
+waitse
+delay 10
 setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
 removeobject 1
 delay 15
@@ -158,9 +162,12 @@ applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_19
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_20
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_1
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
@@ -177,6 +184,13 @@ special HealPlayerParty
 delay 20
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_8
+waitmovement 0x0
+waitse
+delay 10
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_20.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ZEUS_3, Ecruteak_TinTowerRoof_Zeus_Texto_21
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
@@ -184,21 +198,24 @@ msgbox Ecruteak_TinTowerRoof_Zeus_Texto_22 MSGBOX_AUTOCLOSE
 applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_21
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_23 MSGBOX_AUTOCLOSE
-fadescreen 1
 playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
 waitmoncry
-removeobject 3
-setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
-playse SE_M_FLY
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
-fadescreen 0
+removeobject 3
+waitfieldeffect FLDEFF_NPCFLY_OUT
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 delay 15
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_23
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_24
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_25
 waitmovement 0x0
+delay 10
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_25 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_26 MSGBOX_AUTOCLOSE
@@ -346,25 +363,30 @@ Ecruteak_TinTowerRoof_Zeus_Texto_18:
 	.string "rotting in BELL TOWER.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_19:
-	.string "My arrival here is for the express\n"
-	.string "purpose of reclaiming my birthright.\l"
-	.string "Pray tell-are you or {PLAYER} truly\l"
-	.string "necessary to achieve that? Or that I\l"
-	.string "couldn't quash either of your teams at\l"
-	.string "the full breadth of their might? Even\l"
-	.string "at their peak, I could shatter them in\l"
-	.string "the span of a mere blink. Are you still\l"
-	.string "not convinced? Then break in twain.$"
+.string "Solo he venido a recuperar lo que\n"
+	.string "por derecho propio me pertenece.\p"
+	.string "¿Crees que te necesito a ti, o\n"
+	.string "a {PLAYER}, para lograrlo?\p"
+	.string "¿De verdad crees que necesito que\n"
+	.string "vuestros equipos estén mermados?\p"
+	.string "Podría aplastaros a los 2 juntos\n"
+	.string "y a vuestros POKÉMON en plenitud\l"
+	.string "sin pestañear.\p"
+	.string "¿Quieres una pequeña prueba?\p"
+	.string "La tendrás.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_20:
-	.string "The time for pity has passed,\n"
-	.string "{PLAYER}. Your intent is clear-you\l"
-	.string "intend to be my stumbling block to the\l"
-	.string "end. Then no other recourse remains-you\l"
-	.string "shall bear the brunt of four-fifths of\l"
-	.string "my might. No god in this world or the\l"
-	.string "next shall grant your last rites. They\l"
-	.string "shall smite you in my stead!$"
+.string "Se acabaron los juegos, {PLAYER}.\n"
+	.string "Con tus acciones, me has dejado\l"
+	.string "claro que te entrometes en mi\l"
+	.string "propósito. No me dejas otra opción\l"
+	.string "que obligarme a usar el 80% de mi\l"
+	.string "poder.\p"
+	.string "Nadie te salvará, los dioses de\n"
+	.string "los que este anciano habla{PAUSE 15}…{PAUSE 15}$"
+
+Ecruteak_TinTowerRoof_Zeus_Texto_20.1:
+	.string "¡¡Yo tengo a esos dioses!!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_21:
 .string "How is this possible?$"

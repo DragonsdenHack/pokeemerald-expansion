@@ -87,7 +87,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_3::
 faceplayer
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
 playse SE_SHOP
-addmoney 50000 0
+addmoney 300000 0
 updatemoneybox
 delay 80
 playfanfare MUS_OBTAIN_ITEM
@@ -104,6 +104,7 @@ msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 6, Atlas_Move_1
 waitmovement 0x0
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HOENN_673
 setvar VAR_ROUTE108_STATE, 7
 release
 end
@@ -181,7 +182,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
 	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-	.string "{PLAYER} has earned 50,000 POKÉ!$"
+	.string "{PLAYER} has earned 300,000 POKÉ!$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
 	.string "And most importantly, I'll give you this\n"
@@ -532,8 +533,11 @@ waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas6 MSGBOX_AUTOCLOSE
 lock
 faceplayer
-applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
+delay 10
 applymovement 17, RocketWarehouseMisionAtlasmove7
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
 waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_1, RocketWarehouse_Text_MisionAtlas8
@@ -574,14 +578,19 @@ msgbox RocketWarehouse_Text_MisionAtlas12 MSGBOX_AUTOCLOSE
 applymovement 17, RocketWarehouseMisionAtlasmove10
 waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas13 MSGBOX_AUTOCLOSE
+applymovement 17, RocketWarehouseMisionAtlasmove7.1
+waitmovement 0x0
+delay 5
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
-applymovement 17, RocketWarehouseMisionAtlasmove7
+waitmovement 0x0
 msgbox RocketWarehouse_Text_MisionAtlas14 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8.1
+applymovement 17, RocketWarehouseMisionAtlasmove7.2
+waitmovement 0x0
 setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
-fadescreen 1
 delay 30
 removeobject 17
-fadescreen 0
 setflag FLAG_HIDE_ROUTE_101_BIRCH
 setflag FLAG_HIDE_ROUTE_103_BIRCH
 setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2
@@ -593,6 +602,29 @@ clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 setvar VAR_UNUSED_0x40F7, 4
 release
 end
+
+RocketWarehouseMisionAtlasmove7.2:
+delay_8
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+RocketWarehouseMisionAtlasmove8.1:
+face_left
+lock_facing_direction
+walk_fast_right
+unlock_facing_direction
+delay_16
+delay_8
+face_down
+step_end
 
 RocketWarehouseMisionAtlasmove9.5:
 walk_in_place_left
@@ -806,6 +838,10 @@ RocketWarehouseMisionAtlasmove7:
 face_down
 step_end
 
+RocketWarehouseMisionAtlasmove7.1:
+walk_in_place_down
+step_end
+
 RocketWarehouseMisionAtlasmove8:
 face_up
 step_end
@@ -816,6 +852,22 @@ step_end
 
 RocketWarehouseMisionAtlasmove10:
 walk_in_place_right
+step_end
+
+RocketWarehouse_Vuelta_MisionAtlas_move4.1:
+emote_exclamation_mark
+step_end
+
+RocketWarehouse_Vuelta_MisionAtlas_move4.2:
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
 step_end
 
 
@@ -831,6 +883,9 @@ addobject 17
 fadescreen 0
 showmoneybox 0, 0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas1_1 MSGBOX_AUTOCLOSE
+delay 15
 playse SE_SHOP
 addmoney 25000 0
 updatemoneybox
@@ -838,22 +893,40 @@ delay 80
 playfanfare MUS_OBTAIN_ITEM
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas2 MSGBOX_DEFAULT
 waitfanfare
-delay 40
+delay 50
 hidemoneybox
-delay 40
-msgbox RocketWarehouse_Text_Vuelta_MisionAtlas3 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas3 MSGBOX_DEFAULT
+waitfanfare
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2.1
+waitmovement 0x0
+delay 10
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas4.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2
 waitmovement 0x0
+delay 15
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4.1
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move3
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas6 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2
 waitmovement 0x0
+delay 15
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move2.1
+waitmovement 0x0
+delay 15
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas7.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas8 MSGBOX_AUTOCLOSE
@@ -861,52 +934,74 @@ msgbox RocketWarehouse_Text_Vuelta_MisionAtlas9 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouse_Vuelta_MisionAtlas_move5
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas10 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4.1
+applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouse_Vuelta_MisionAtlas_move4.1
+waitmovement 0x0
+waitse
+delay 25
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas10.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas11 MSGBOX_AUTOCLOSE
+delay 10
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas12 MSGBOX_DEFAULT
 giveegg SPECIES_HOUNDOUR
 waitfanfare
-msgbox RocketWarehouse_Text_Vuelta_MisionAtlas13 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas13 MSGBOX_DEFAULT
+waitfanfare
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas14 MSGBOX_AUTOCLOSE
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas14.1 MSGBOX_AUTOCLOSE
 applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas15 MSGBOX_AUTOCLOSE
-fadescreen 1
+applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4.2
+waitmovement 0x0
 setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 delay 20
 removeobject 17
-fadescreen 0
 setvar VAR_UNUSED_0x40F7, 6
 release
 end
 
 RocketWarehouse_Text_Vuelta_MisionAtlas1:
-	.string "ARCHER: Alright. You've come back, as\n"
-	.string "you're aware from the opening speech,\l"
-	.string "at TEAM ROCKET, we believe in rewarding\l"
-	.string "merit. We value the final outcome, and\l"
-	.string "since it's been positive here, you're\l"
-	.string "getting your reward.$"
+.string "ATLAS: Buen trabajo.\n"
+	.string "Como ya sabréis del discurso de\l"
+	.string "entrada, en el TEAM ROCKET sabemos\l"
+	.string "recompensar la meritocracia, damos\l"
+	.string "prioridad al resultado final.$"
+
+RocketWarehouse_Text_Vuelta_MisionAtlas1_1:
+	.string "Dado que en este caso el balance\n"
+	.string "ha sido positivo, esta\l"
+	.string "es vuestra recompensa.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
-	.string "{PLAYER} EARNED 25,000 POKÉ!$"
+	.string "¡Te has embolsado 25.000¥!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
-	.string "ANDRA EARNED 25,000 POKÉ!$"
+.string "¡ANDRA se ha embolsado 25.000¥!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
-	.string "ARCHER: With that, you'll be able to\n"
-	.string "afford certain resources for your\l"
-	.string "POKÉMON and thus enhance your team's\l"
-	.string "performance. I hope you don't squander\l"
-	.string "it on frivolities. Having more money\l"
-	.string "provides greater freedom of choice, but\l"
-	.string "it's futile if mismanaged or if you fail\l"
-	.string "to utilize what you acquire\l"
-	.string "effectively.$"
+.string "ATLAS: Ahora podréis costearos\n"
+	.string "ciertos recursos para vuestros\l"
+	.string "POKÉMON, y así mejorar las\l"
+	.string "prestaciones de vuestro\l"
+	.string "equipo.$"
+
+RocketWarehouse_Text_Vuelta_MisionAtlas4.1:
+	.string "No lo malgastéis en tonterías; el\n"
+	.string "dinero te da mayor libertad de\l"
+	.string "elección, pero de nada sirve si en\l"
+	.string "última instancia lo ponéis en\l"
+	.string "movimiento de la forma incorrecta\l"
+	.string "o no aprovecháis lo que adquirís\l"
+	.string "gracias a él.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas5:
@@ -915,53 +1010,64 @@ RocketWarehouse_Text_Vuelta_MisionAtlas5:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
-    .string "ARCHER: It's important for you to\n"
-	.string "understand that we function as a\l"
-	.string "unified entity here, which strengthens\l"
-	.string "us. This isn't a sign of weakness; it's a\l"
-	.string "demonstration of intelligence and\l"
-	.string "recognition that collaboration is key.\l"
-	.string "No major organization has arisen from\l"
-	.string "the efforts of a solitary individual.$"
+.string "ATLAS: Debéis saber que aquí\n"
+	.string "actuamos como un solo cuerpo, eso\l"
+	.string "nos hace fuertes. Lejos de ser un\l"
+	.string "acto de cobardía, es un acto de\l"
+	.string "inteligencia y entendimiento de\l"
+	.string "que dos mentes valen más que una.\l"
+	.string "Ninguna organización grande se ha\l"
+	.string "formado a partir de un único\l"
+	.string "individuo.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas7:
-	.string "I thought I was clear when I said that\n"
-	.string "both of you would negotiate with the\l"
-	.string "CONSUL at the same time, having each\l"
-	.string "other's backs in case things went\l"
-	.string "wrong. What's wrong with you, ANDRA?\l"
-	.string "Why didn't you wait for {PLAYER}?$"
+.string "ATLAS: Creí haber dejado claro que\n"
+	.string "ambos negociaríais a la vez con la\l"
+	.string "CÓNSUL, cubriéndoos las espaldas\l"
+	.string "en caso de torcerse las cosas.$"
+
+RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
+	.string "¿Cómo es, ANDRA, que no esperaste a\n"
+	.string "{PLAYER} y decidiste entrar sola al\l"
+	.string "lugar?$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
-	.string "I believed my skills were sufficient to\n"
-	.string "face the challenge, MR.ARCHER. I didn't\l"
-	.string "anticipate having to deal with a MAREEP\l"
-	.string "and its THUNDERSHOCK. I was wrong.$"
+.string "ANDRA: Creí que mis habilidades\n"
+	.string "eran suficientes para afrontar el\l"
+	.string "reto SR.ATLAS.\l"
+	.string "No conté con ese MAREEP y su\l"
+	.string "IMPACTRUENO, me equivoqué.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20} You have shown courage\n"
-	.string "and initiative by entering alone, and\l"
-	.string "admitted your mistake. For now, that is\l"
-	.string "sufficient, but let it serve as an\l"
-	.string "example and experience.$"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
+	.string "Has mostrado valor e iniciativa\l"
+	.string "propias al entrar tú sola, y\l"
+	.string "admitido tu error.\l"
+	.string "Con eso basta, pero que te sirva\l"
+	.string "de ejemplo y experiencia.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas10:
-	.string "ARCHER: With that said, you will set sail\n"
-	.string "immediately to KANTO. We need more and\l"
-	.string "more personnel at our main financial\l"
-	.string "center. A ship in the harbor awaits you.$"
+.string "ATLAS: Dicho esto, zarpáis de\n"
+	.string "inmediato a KANTO.$"
+	
+RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
+	.string "Requerimos de más efectivos en\n"
+	.string "nuestro principal centro financiero,\l"
+	.string "un barco en el puerto os espera.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20} I don't want you to leave\n"
-	.string "this island without something to\l"
-	.string "remember your short time here. You\l"
-	.string "might come back someday, but for now,\l"
-	.string "take care of this.$"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
+	.string "No quiero que os vayáis de esta\l"
+	.string "isla sin ningún recuerdo que os\l"
+	.string "vincule con vuestra pequeña\l"
+	.string "estancia en ella.\l"
+	.string "Puede que volváis algún día,\l"
+	.string "mientras tanto, cuidad de esto.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas12:
@@ -973,13 +1079,16 @@ RocketWarehouse_Text_Vuelta_MisionAtlas13:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14:
-	.string "ARCHER: You've just received two eggs\n"
-	.string "containing valuable JOHTO POKÉMON,\l"
-	.string "which are rare in this region. There's\l"
-	.string "nothing else to add. Make your way to\l"
-	.string "the port as soon as possible; upon your\l"
-	.string "arrival in KANTO, you'll be briefed on\l"
-	.string "your new missions.$"
+.string "ATLAS: Acabáis de recibir dos\n"
+	.string "huevos que contienen preciados\l"
+	.string "POKÉMON de JOHTO, difíciles de\l"
+	.string "encontrar por estas zonas.$"
+
+RocketWarehouse_Text_Vuelta_MisionAtlas14.1:	
+	.string "Ahora, id al puerto cuanto antes.\n"
+	.string "En KANTO se os darán todos\l"
+	.string "los detalles sobre vuestras\l"
+	.string "nuevas misiones.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas15:
@@ -994,6 +1103,12 @@ step_end
 
 RocketWarehouse_Vuelta_MisionAtlas_move2:
 walk_in_place_left
+step_end
+
+RocketWarehouse_Vuelta_MisionAtlas_move2.1:
+delay_8
+face_up
+delay_16
 step_end
 
 RocketWarehouse_Vuelta_MisionAtlas_move3:

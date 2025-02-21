@@ -383,6 +383,9 @@ const u32 gObjectEventPic_Adminprota[] = INCBIN_U32("graphics/object_events/pics
 const u32 gObjectEventPic_AdminprotaRunning[] = INCBIN_U32("graphics/object_events/pics/people/Adminprotarunning.4bpp");
 const u32 gObjectEventPic_Agatha[] = INCBIN_U32("graphics/object_events/pics/people/agatha.4bpp");
 const u32 gObjectEventPic_Agatha2[] = INCBIN_U32("graphics/object_events/pics/people/agatha2.4bpp");
+const u32 gObjectEventPic_Agatha3[] = INCBIN_U32("graphics/object_events/pics/people/agatha3.4bpp");
+const u32 gObjectEventPic_Morfeo2[] = INCBIN_U32("graphics/object_events/pics/people/morfeo2.4bpp");
+const u32 gObjectEventPic_Exchamp[] = INCBIN_U32("graphics/object_events/pics/people/exchamp.4bpp");
 const u32 gObjectEventPic_Ampharos[] = INCBIN_U32("graphics/object_events/pics/people/Ampharos.4bpp");
 const u32 gObjectEventPic_Ancianajohto[] = INCBIN_U32("graphics/object_events/pics/people/ancianajohto.4bpp");
 const u32 gObjectEventPic_Ancianojohto[] = INCBIN_U32("graphics/object_events/pics/people/ancianojohto.4bpp");
@@ -392,6 +395,7 @@ const u32 gObjectEventPic_Anton[] = INCBIN_U32("graphics/object_events/pics/peop
 const u32 gObjectEventPic_Arceus[] = INCBIN_U32("graphics/object_events/pics/people/Arceus.4bpp");
 const u32 gObjectEventPic_Arceusp[] = INCBIN_U32("graphics/object_events/pics/people/Arceusp.4bpp");
 const u32 gObjectEventPic_Ariana[] = INCBIN_U32("graphics/object_events/pics/people/Ariana.4bpp");
+const u32 gObjectEventPic_Sachiko[] = INCBIN_U32("graphics/object_events/pics/people/sachiko.4bpp");
 const u32 gObjectEventPic_Artistajohto[] = INCBIN_U32("graphics/object_events/pics/people/Artistajohto.4bpp");
 const u32 gObjectEventPic_Atlas[] = INCBIN_U32("graphics/object_events/pics/people/Atlas.4bpp");
 const u32 gObjectEventPic_Baldingman[] = INCBIN_U32("graphics/object_events/pics/people/balding_man.4bpp");
@@ -505,6 +509,7 @@ const u32 gObjectEventPic_Picnicker2[] = INCBIN_U32("graphics/object_events/pics
 const u32 gObjectEventPic_Pokemaniacojohto[] = INCBIN_U32("graphics/object_events/pics/people/pokemaniacojohto.4bpp");
 const u32 gObjectEventPic_Policeman[] = INCBIN_U32("graphics/object_events/pics/people/policeman.4bpp");
 const u32 gObjectEventPic_Profoak[] = INCBIN_U32("graphics/object_events/pics/people/prof_oak.4bpp");
+const u32 gObjectEventPic_Oak2[] = INCBIN_U32("graphics/object_events/pics/people/oak2.4bpp");
 const u32 gObjectEventPic_Prota[] = INCBIN_U32("graphics/object_events/pics/people/prota.4bpp");
 const u32 gObjectEventPic_ProtaRunning[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/running.4bpp");
 const u32 gObjectEventPic_Protapokeball[] = INCBIN_U32("graphics/object_events/pics/people/protapokeball.4bpp");
@@ -592,6 +597,10 @@ const u16 gObjectEventPic_Lapras[] = INCBIN_U16("graphics/object_events/pics/pok
 const u16 gObjectEventPic_Zapdos[] = INCBIN_U16("graphics/object_events/pics/pokemon/zapdos.4bpp");
 const u16 gObjectEventPic_Zapdos2[] = INCBIN_U16("graphics/object_events/pics/people/zapdos2.4bpp");
 const u16 gObjectEventPic_Moltres[] = INCBIN_U16("graphics/object_events/pics/pokemon/moltres.4bpp");
+const u16 gObjectEventPic_Whismur[] = INCBIN_U16("graphics/object_events/pics/pokemon/whismur.4bpp");
+const u16 gObjectEventPic_Teddiursa[] = INCBIN_U16("graphics/object_events/pics/pokemon/teddiursa.4bpp");
+const u16 gObjectEventPic_Ursaring[] = INCBIN_U16("graphics/object_events/pics/pokemon/ursaring.4bpp");
+const u16 gObjectEventPic_Scyther[] = INCBIN_U16("graphics/object_events/pics/pokemon/scyther.4bpp");
 //misc
 
 const u16 gObjectEventPic_Fossil2[] = INCBIN_U16("graphics/object_events/pics/misc/fossil2.4bpp");
@@ -664,6 +673,35 @@ const u16 gObjectEventPic_Zinnia[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventic_DragonSagrado[] = INCBIN_U16("graphics/object_events/pics/people/dragonsagrado.4bpp");
 const u16 gObjectEventPic_ReyUnown[] = INCBIN_U16("graphics/object_events/pics/people/kingunown.4bpp");
 const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/people/miguel.4bpp");
+const u16 gObjectEventPic_Regigigas[] = INCBIN_U16("graphics/object_events/pics/people/regigigas.4bpp");
+const u16 gObjectEventPic_Inverna[] = INCBIN_U16("graphics/object_events/pics/people/inverna.4bpp");
+const u16 gObjectEventPic_Oro[] = INCBIN_U16("graphics/object_events/pics/people/oro.4bpp");
+const u16 gObjectEventPic_Rasmus[] = INCBIN_U16("graphics/object_events/pics/people/rasmus.4bpp");
+const u16 gObjectEventPic_Jirachi[] = INCBIN_U16("graphics/object_events/pics/people/jirachi.4bpp");
+const u16 gObjectEventPic_Milotic[] = INCBIN_U16("graphics/object_events/pics/people/milotic.4bpp");
+const u32 gObjectEventPic_Kyogre_Primal[] = INCBIN_U32("graphics/object_events/pics/people/kyogreprimal.4bpp");
+const u16 gObjectEventPic_Kingdra[] = INCBIN_U16("graphics/object_events/pics/people/kingdra.4bpp");
+const u32 gObjectEventPic_Jirachi2[] = INCBIN_U32("graphics/object_events/pics/people/jirachi2.4bpp");
+const u16 gObjectEventPic_MiloticP[] = INCBIN_U16("graphics/object_events/pics/people/miloticp.4bpp");
+const u16 gObjectEventPic_RegigigasP[] = INCBIN_U16("graphics/object_events/pics/people/regigigasp.4bpp");
+const u16 gObjectEventPic_Ghost[] = INCBIN_U16("graphics/object_events/pics/people/ghost.4bpp");
+const u16 gObjectEventPic_Ninetalesbond[] = INCBIN_U16("graphics/object_events/pics/people/ninetalesbond.4bpp");
+const u16 gObjectEventPic_Guardia[] = INCBIN_U16("graphics/object_events/pics/pokemon/guardia.4bpp");
+const u16 gObjectEventPic_Marowak[] = INCBIN_U16("graphics/object_events/pics/pokemon/marowak.4bpp");
+const u32 gObjectEventPic_Stakataka[] = INCBIN_U32("graphics/object_events/pics/pokemon/stakataka.4bpp");
+const u32 gObjectEventPic_NormalFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/fishing.4bpp");
+const u32 gObjectEventPic_AltoRangoFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/fishing.4bpp");
+const u32 gObjectEventPic_EjecutivoFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/fishing.4bpp");
+const u32 gObjectEventPic_AdminFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/fishing.4bpp");
+const u32 gObjectEventPic_AdminJefeNormalFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe_normal/fishing.4bpp");
+
+const u32 gObjectEventPic_NormalUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/underwater.4bpp");
+const u32 gObjectEventPic_AltoRangoUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/underwater.4bpp");
+const u32 gObjectEventPic_EjecutivoUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/underwater.4bpp");
+const u32 gObjectEventPic_AdminUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/underwater.4bpp");
+const u32 gObjectEventPic_AdminJefeNormalUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe_normal/underwater.4bpp");
+
+const u32 gObjectEventPic_Presidente[] = INCBIN_U32("graphics/object_events/pics/people/presidente.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -702,6 +740,7 @@ const u16 gObjectEventPal_Proton[] = INCBIN_U16("graphics/object_events/palettes
 const u16 gObjectEventPal_Anibal[] = INCBIN_U16("graphics/object_events/palettes/anibal.gbapal");
 const u16 gObjectEventPal_Cultista[] = INCBIN_U16("graphics/object_events/palettes/cultista.gbapal");
 const u16 gObjectEventPal_Ariana[] = INCBIN_U16("graphics/object_events/palettes/ariana.gbapal");
+const u16 gObjectEventPal_Sachiko[] = INCBIN_U16("graphics/object_events/palettes/sachiko.gbapal");
 const u16 gObjectEventPal_Balloro[] = INCBIN_U16("graphics/object_events/palettes/balloro.gbapal");
 const u16 gObjectEventPal_ArtistaJohto[] = INCBIN_U16("graphics/object_events/palettes/artistajohto.gbapal");
 const u16 gObjectEventPal_AncianoJohto[] = INCBIN_U16("graphics/object_events/palettes/ancianojohto.gbapal");
@@ -805,3 +844,33 @@ const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/pal
 const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes/miguel.gbapal");
 
 const u16 gObjectEventPal_Pokemaniacojohto[] = INCBIN_U16("graphics/object_events/palettes/pokemaniacojohto.gbapal");
+
+const u16 gObjectEventPal_Regigigas[] = INCBIN_U16("graphics/object_events/palettes/regigigas.gbapal");
+
+const u16 gObjectEventPal_Inverna[] = INCBIN_U16("graphics/object_events/palettes/inverna.gbapal");
+
+const u16 gObjectEventPal_Oro[] = INCBIN_U16("graphics/object_events/palettes/oro.gbapal");
+
+const u16 gObjectEventPal_Rasmus[] = INCBIN_U16("graphics/object_events/palettes/rasmus.gbapal");
+const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");
+const u16 gObjectEventPal_Milotic[] = INCBIN_U16("graphics/object_events/palettes/milotic.gbapal");
+const u16 gObjectEventPal_Kyogre_Primal[] = INCBIN_U16("graphics/object_events/palettes/kyogreprimal.gbapal");
+const u16 gObjectEventPal_Kingdra[] = INCBIN_U16("graphics/object_events/palettes/kingdra.gbapal");
+const u16 gObjectEventPal_Jirachi2[] = INCBIN_U16("graphics/object_events/palettes/jirachi2.gbapal");
+const u16 gObjectEventPal_MiloticP[] = INCBIN_U16("graphics/object_events/palettes/miloticp.gbapal");
+const u16 gObjectEventPal_RegigigasP[] = INCBIN_U16("graphics/object_events/palettes/regigigasp.gbapal");
+const u16 gObjectEventPal_Whismur[] = INCBIN_U16("graphics/object_events/palettes/whismur.gbapal");
+const u16 gObjectEventPal_Teddiursa[] = INCBIN_U16("graphics/object_events/palettes/teddiursa.gbapal");
+const u16 gObjectEventPal_Ursaring[] = INCBIN_U16("graphics/object_events/palettes/ursaring.gbapal");
+const u16 gObjectEventPal_Scyther[] = INCBIN_U16("graphics/object_events/palettes/scyther.gbapal");
+const u16 gObjectEventPal_Agatha3[] = INCBIN_U16("graphics/object_events/palettes/agatha3.gbapal");
+const u16 gObjectEventPal_Morfeo2[] = INCBIN_U16("graphics/object_events/palettes/morfeo2.gbapal");
+const u16 gObjectEventPal_Exchamp[] = INCBIN_U16("graphics/object_events/palettes/exchamp.gbapal");
+const u16 gObjectEventPal_Oak2[] = INCBIN_U16("graphics/object_events/palettes/oak2.gbapal");
+const u16 gObjectEventPal_Ghost[] = INCBIN_U16("graphics/object_events/palettes/ghost.gbapal");
+const u16 gObjectEventPal_Ninetalesbond[] = INCBIN_U16("graphics/object_events/palettes/ninetalesbond.gbapal");
+const u16 gObjectEventPal_Guardia[] = INCBIN_U16("graphics/object_events/palettes/guardia.gbapal");
+const u16 gObjectEventPal_Marowak[] = INCBIN_U16("graphics/object_events/palettes/marowak.gbapal");
+const u16 gObjectEventPal_Stakataka[] = INCBIN_U16("graphics/object_events/palettes/stakataka.gbapal");
+const u16 gObjectEventPal_Presidente[] = INCBIN_U16("graphics/object_events/palettes/presidente.gbapal");
+

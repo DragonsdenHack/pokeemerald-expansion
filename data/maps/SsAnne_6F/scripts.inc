@@ -130,15 +130,29 @@ SsAnne6F_Text_10:
 SsAnne6F_11::
 lock     
 faceplayer     
-msgbox SsAnne6F_Text_11, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_11, MSGBOX_NPC
+delay 10
+msgbox SsAnne6F_Text_11.1, MSGBOX_NPC
+delay 10
+msgbox SsAnne6F_Text_11.2, MSGBOX_NPC
 release     
 end
 
 SsAnne6F_Text_11:
-	.string "The uncertainty of the moment, just\n"
-	.string "going with your gut… I still can't quite\l"
-	.string "grasp the key to getting the most out\l"
-	.string "of events like this one…$"
+.string "La incertidumbre del momento, el\n"
+.string "dejarse llevar por la intuición{PAUSE 15}…{PAUSE 15}$"
+
+SsAnne6F_Text_11.1:
+.string "El suceso de una fiesta, la embriaguez\n"
+	.string "de la comunidad en ella, el secreto de la\l"
+	.string "pérdida de la personalidad entre la\l"
+	.string "multitud{PAUSE 15}…{PAUSE 15}$"
+
+SsAnne6F_Text_11.2:
+.string "Aún no logro comprender cuál es la\n"
+.string "esencia última capaz de proporcionar\l"
+.string "la fórmula exacta que me haga al fin\l"
+.string "poder disfrutar de estos eventos{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -183,64 +197,109 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, SSAnne6F_Lance_Surge_move2
 waitmovement 0x0
 special RemoveCameraObject
-delay 20
+delay 10
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
-delay 20
-fadescreen 1
-playse SE_M_FLY
-delay 25
+applymovement 13, SSAnne6F_Lance_Surge_move1.5
+applymovement 12, SSAnne6F_Lance_Surge_move1.5
+applymovement OBJ_EVENT_ID_PLAYER, SSAnne6F_Lance_Surge_move1.5
+waitmoncry
+delay 15
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setfieldeffectargument 1, 1
+dofieldeffect FLDEFF_NPCFLY_OUT
+delay 15
 addobject 15
-fadescreen 0
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 35
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
+delay 15
 msgbox SSAnne6F_Lance_Surge_Text_1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox SSAnne6F_Lance_Surge_Text_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_2.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_3 MSGBOX_AUTOCLOSE
 applymovement 15, SSAnne6F_Lance_Surge_move4
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SSAnne6F_Lance_Surge_Text_4.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 15, SSAnne6F_Lance_Surge_move5
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_5 MSGBOX_AUTOCLOSE
 msgbox SSAnne6F_Lance_Surge_Text_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 14, SSAnne6F_Lance_Surge_move3.2
+waitmovement 0x0
+waitse
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_6.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_7 MSGBOX_AUTOCLOSE
 msgbox SSAnne6F_Lance_Surge_Text_8 MSGBOX_AUTOCLOSE
 msgbox SSAnne6F_Lance_Surge_Text_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, SSAnne6F_Lance_Surge_move3.1
+waitmovement 0x0
+delay 15
+msgbox SSAnne6F_Lance_Surge_Text_9.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 15, SSAnne6F_Lance_Surge_move6
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 15, SSAnne6F_Lance_Surge_move6.1
+waitmovement 0x0
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_10.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, SSAnne6F_Lance_Surge_move6.2
+waitmovement 0x0
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_10.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 15, SSAnne6F_Lance_Surge_move6.3
+waitmovement 0x0
+delay 10
+msgbox SSAnne6F_Lance_Surge_Text_10.3 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 14, SSAnne6F_Lance_Surge_move3
 waitmovement 0x0
+delay 15
 msgbox SSAnne6F_Lance_Surge_Text_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 15, SSAnne6F_Lance_Surge_move7
 waitmovement 0x0
+delay 10
 msgbox SSAnne6F_Lance_Surge_Text_12 MSGBOX_AUTOCLOSE
 delay 20
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
-delay 20
-fadescreen 1
-playse SE_M_FLY
-delay 25
-setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
-removeobject 15
-fadescreen 0
+waitmoncry
+setfieldeffectargument 1, 0
+dofieldeffect FLDEFF_NPCFLY_OUT
 delay 15
+removeobject 15
+waitfieldeffect FLDEFF_NPCFLY_OUT
+delay 20
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+delay 25
 applymovement 14, SSAnne6F_Lance_Surge_move4
 waitmovement 0x0
 msgbox SSAnne6F_Lance_Surge_Text_13 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ELECTABUZZ, CRY_MODE_ENCOUNTER
 delay 20
-fadescreen 1
 playse SE_M_TELEPORT
-delay 25
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 removeobject 14
-fadescreen 0
+waitse
 delay 25
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, SSAnne6F_Lance_Surge_move8
@@ -251,106 +310,154 @@ release
 end
 
 SSAnne6F_Lance_Surge_Text_1:
-	.string "????: It's a pleasure to see you again,\n"
-	.string "LANCE, Champion of the new KANTO. What\l"
-	.string "brings you here today, on such a special\l"
-	.string "occasion as the annual return of the SS\l"
-	.string "ANNE?$"
+.string "????: Un placer volver a verle,\n"
+	.string "SR.LANCE, CAMPEÓN de la nueva KANTO.\l"
+	.string "¿Para qué me ha convocado aquí hoy,\l"
+	.string "en un día tan especial como lo es\l"
+	.string "el regreso anual del SS.ANNE?$"
 
 
 SSAnne6F_Lance_Surge_Text_2:
-	.string "LANCE: I'll be brief, LT. SURGE. All major\n"
-	.string "cities are undergoing routine\l"
-	.string "inspections and controls to ensure the\l"
-	.string "safety and comfort of our citizens, and\l"
-	.string "to confirm that the mechanisms driving\l"
-	.string "this region are operating flawlessly.\l"
-	.string "How are the people of Vermilion, Surge?$"
+.string "LANCE: Seré breve, SURGE.\n"
+	.string "Las grandes ciudades están siendo\l"
+	.string "sometidas a una rutina de\l"
+	.string "inspección y control, para\l"
+	.string "asegurarnos de que el engranaje\l"
+	.string "que mueve esta región funciona\l"
+	.string "correctamente.$"
+
+SSAnne6F_Lance_Surge_Text_2.1:
+	.string "¿Cómo va todo por CARMÍN, SURGE?$"
 
 SSAnne6F_Lance_Surge_Text_3:
-	.string "LT.SURGE: Everything is running\n"
-	.string "smoothly, sir. Vermilion's harbor has\l"
-	.string "significantly expanded its network of\l"
-	.string "contacts with other regions, and I\l"
-	.string "understand that other cities, like\l"
-	.string "Celadon with its massive Department\l"
-	.string "Store or Fuchsia with the Safari Zone,\l"
-	.string "are doing the same with their\l"
-	.string "respective assets.$"
+.string "LT.SURGE: Todo marcha\n"
+	.string "perfectamente, SR.LANCE.\l"
+	.string "El PUERTO amplificará poco a\l"
+	.string "poco su red de contactos con\l"
+	.string "otras regiones.\l"
+	.string "Paralelamente, estamos valorando\l"
+	.string "el construir un FARO, similar al\l"
+	.string "de CIUDAD OLIVO.$"
 
 SSAnne6F_Lance_Surge_Text_4:
-	.string "LANCE: That's great to hear, Surge. The\n"
-	.string "economy of our region is experiencing\l"
-	.string "an unprecedented boom, and the\l"
-	.string "standard of living here continues\l"
-	.string "rising steadily…$"
+.string "LANCE: Todo eso está genial, SURGE.\n"
+	.string "La economía de KANTO está\l"
+	.string "experimentando un repunte sin\l"
+	.string "precedentes{PAUSE 5}…{PAUSE 5}$"
+
+SSAnne6F_Lance_Surge_Text_4.1:
+	.string "Eso era previsible: solo había que\n"
+	.string "poner orden y decidir por los\l"
+	.string "ciudadanos en qué encauzar sus propios\l"
+	.string "esfuerzos.$"
 
 SSAnne6F_Lance_Surge_Text_5:
-	.string "LANCE: But that's not the question I\n"
-	.string "was asking, Surge. What I really want to\l"
-	.string "know is…$"
+.string "LANCE: Pero{PAUSE 15}…{PAUSE 15} esa no era la\n"
+	.string "respuesta que estaba buscando,\l"
+	.string "SURGE. Me preguntaba, más bien{PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_6:
-	.string "LANCE: How are people handling the fact\n"
-	.string "that one of the enemy's commanding\l"
-	.string "officers during the Great War is now a\l"
-	.string "Gym Leader and the main icon of\l"
-	.string "Vermilion? Have they accepted your\l"
-	.string "change of role?$"
+.string "LANCE: ¿Cómo lleva la gente el\n"
+    .string "hecho de que sea uno de los\l"
+	.string "oficiales al mando de la región\l"
+	.string "enemiga, el ahora LÍDER DE GIMNASIO\l"
+	.string "y principal icono de CARMÍN?$"
+
+SSAnne6F_Lance_Surge_Text_6.1:
+	.string "¿Ha aceptado la gente\n"
+	.string "tu cambio de rol?$"
 
 SSAnne6F_Lance_Surge_Text_7:
-	.string "LT.SURGE: I'm afraid the war is still a\n"
-	.string "taboo topic throughout KANTO,\l"
-	.string "especially here, sir. People prefer not\l"
-	.string "to talk about it, to leave it behind and\l"
-	.string "move on with their lives as if nothing\l"
-	.string "ever happened. There might still be\l"
-	.string "some lingering resentment from certain\l"
-	.string "factions…$"
+.string "LT.SURGE: Me temo que el tema de\n"
+	.string "la guerra sigue siendo tabú\l"
+	.string "por toda KANTO.\l"
+	.string "Especialmente aquí, SR.LANCE, la\l"
+	.string "gente prefiere no hablar de ello,\l"
+	.string "dejarlo atrás y continuar con sus\l"
+	.string "vidas como si nada hubiera pasado.\l"
+	.string "Quizás{PAUSE 15}…{PAUSE 15} siga existiendo cierto\l"
+	.string "recelo por parte de ciertos\l"
+	.string "sectores de la población{PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_8:
-	.string "LANCE: By certain factions, do\n"
-	.string "you mean TEAM ROCKET?$"
+.string "LANCE: ¿Te refieres al\n"
+	.string "TEAM ROCKET?$"
 
 SSAnne6F_Lance_Surge_Text_9:
-	.string "LT.SURGE: I wasn't referring to anyone\n"
-	.string "specific, but they're probably the best\l"
-	.string "example. They started out as a protest\l"
-	.string "group, unhappy with the new post-war\l"
-	.string "government. But with their criminal\l"
-	.string "activities, their extreme ideas, and the\l"
-	.string "effective smear campaign in recent\l"
-	.string "years, public opinion on the Rockets is\l"
-	.string "what it is today. There are still some\l"
-	.string "groups that sympathize with them and\l"
-	.string "share their anti-patriotic views, like\l"
-	.string "the bikers on Cycling Road, for example.$"
+.string "LT.SURGE: Ellos podrían ser\n"
+	.string "el mayor ejemplo.\l"
+	.string "Se expandieron a raíz del\l"
+	.string "inconformismo por el nuevo\l"
+	.string "gobierno post-guerra, pero sus\l"
+	.string "actos delictivos, unidos a una\l"
+	.string "correcta campaña de desprestigio\l"
+	.string "por vuestra parte, han logrado que\l"
+	.string "la opinión pública acerca de los\l"
+	.string "ROCKET sea la que a día de hoy es.$"
+
+SSAnne6F_Lance_Surge_Text_9.1:
+	.string "A pesar de ello, aún existen\n"
+	.string "gremios que los apoyan, que se\l"
+	.string "ven identificados con su causa.\l"
+	.string "Los MOTORISTAS serían el\l"
+	.string "mayor ejemplo de ello.$"
 
 SSAnne6F_Lance_Surge_Text_10:
-	.string "LANCE: … I see. The Pokémon League\n"
-	.string "Committee will take the necessary\l"
-	.string "steps regarding this. In the meantime,\l"
-	.string "keep maintaining order and discipline in\l"
-	.string "Vermilion. If people see progress,\l"
-	.string "they'll accept you as the sheriff here.\l"
-	.string "People have short memories, Surge -\l"
-	.string "good deeds can overshadow the past. So\l"
-	.string "be patient; we just need time. With the\l"
-	.string "right progress, KANTO will accept the\l"
-	.string "New World Order without even realizing\l"
-	.string "it.$"
+.string "LANCE: {PAUSE 25}…{PAUSE 25}\n"
+	.string "Ya veo, el COMITÉ DE LA LIGA\l"
+	.string "POKÉMON tomará las medidas\l"
+	.string "pertinentes respecto a esto.$"
+
+SSAnne6F_Lance_Surge_Text_10.1:
+	.string "Entretanto, seguirás con tu\n"
+	.string "labor manteniendo el orden y la\l"
+	.string "disciplina por CARMÍN.\l"
+	.string "Si el pueblo ve avances, te\l"
+	.string "aceptarán definitivamente\l"
+	.string "como el SHERIFF del lugar.$"
+	
+SSAnne6F_Lance_Surge_Text_10.2:
+	.string "La gente tiene poca memoria,\n"
+	.string "SURGE, y las buenas acciones\l"
+	.string "presentes pueden hacer que se\l"
+	.string "olvide el verdadero motivo por\l"
+	.string "el que ocupas esa posición, de\l"
+	.string "modo que paciencia.$"
+
+SSAnne6F_Lance_Surge_Text_10.3:
+	.string "Solo necesitamos tiempo. La\n"
+	.string "estabilización y progresión\l"
+	.string "adecuada{PAUSE 25}…{PAUSE 25}y KANTO aceptará el\l"
+	.string "NUEVO ORDEN MUNDIAL casi sin darse\l"
+	.string "cuenta.$"
 
 SSAnne6F_Lance_Surge_Text_11:
-.string "LT.SURGE: Sir yes sir.$"
+.string "LT.SURGE: A la orden, SR.LANCE.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-	.string "LANCE: That's all for now, Surge. Enjoy\n"
-	.string "the party here on the SS ANNE - it's one\l"
-	.string "of the best markers of progress.$"
+	.string "LANCE: Eso es todo, SURGE.\n"
+	.string "Espero que la fiesta sea un\l"
+	.string "éxito, los grandes eventos\l"
+	.string "distraen y evaden a la plebe.$"
 
 SSAnne6F_Lance_Surge_Text_13:
-	.string "LT. SURGE: This kind of party was never\n"
-	.string "really my thing. Electabuzz! Teleport!$"
+.string "LT.SURGE: Estas fiestas nunca\n"
+	.string "fueron lo mío.\l"
+	.string "¡ELECTABUZZ! ¡TELETRANSPORTE!$"
+
+SSAnne6F_Lance_Surge_move1.5:
+emote_exclamation_mark
+delay_16
+delay_8
+face_right
+delay_16
+delay_16
+face_left
+step_end
+
+SSAnne6F_Lance_Surge_move3.2:
+emote_exclamation_mark
+step_end
 
 SSAnne6F_Lance_Surge_move1:
 walk_in_place_left
@@ -369,6 +476,15 @@ SSAnne6F_Lance_Surge_move3:
 walk_in_place_down
 step_end
 
+SSAnne6F_Lance_Surge_move3.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
 SSAnne6F_Lance_Surge_move4:
 face_left
 step_end
@@ -379,7 +495,34 @@ step_end
 
 SSAnne6F_Lance_Surge_move6:
 walk_up
+delay_16
+delay_8
 walk_left
+delay_16
+step_end
+
+SSAnne6F_Lance_Surge_move6.1:
+delay_8
+face_right
+delay_16
+delay_8
+face_left
+delay_16
+walk_in_place_left
+delay_8
+step_end
+
+SSAnne6F_Lance_Surge_move6.2:
+delay_16
+face_right
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+SSAnne6F_Lance_Surge_move6.3:
+walk_in_place_left
 step_end
 
 SSAnne6F_Lance_Surge_move7:

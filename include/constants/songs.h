@@ -21,7 +21,7 @@
 #define SE_BALL_OPEN                15 // SE_BOWA2
 #define SE_FAINT                    16 // SE_POKE_DEAD
 #define SE_FLEE                     17 // SE_NIGERU
-#define SE_SLIDING_DOOR             18 // SE_JIDO_DOA
+#define SE_SLIDING_DOOR             18 // SE_JIDO_DOA // Puerta de gimnasios, centros pkmn...
 #define SE_SHIP                     19 // SE_NAMINORI // SONIDOS INSECTOS REVOLOTEANDO
 #define SE_BANG                     20 // SE_BAN // cueva enorme y misteriosa abriéndose
 #define SE_PIN                      21 // SE_PIN (General "good", commonly for "!")
@@ -34,16 +34,16 @@
 #define SE_E                        28 // SE_E
 #define SE_O                        29 // SE_O
 #define SE_N                        30 // SE_N
-#define SE_SUCCESS                  31 // SE_SEIKAI
+#define SE_SUCCESS                  31 // SE_SEIKAI // Acertar algo importante, respuesta correcta, algo tecnológico desactivado
 #define SE_FAILURE                  32 // SE_HAZURE
 #define SE_EXP                      33 // SE_EXP
 #define SE_BIKE_HOP                 34 // SE_JITE_PYOKO
-#define SE_SWITCH                   35 // SE_MU_PACHI
+#define SE_SWITCH                   35 // SE_MU_PACHI // presionando botón secreto
 #define SE_CLICK                    36 // SE_TK_KASYA
 #define SE_FU_ZAKU                  37 // SE_FU_ZAKU (Unknown purpose, unused)
 #define SE_CONTEST_CONDITION_LOSE   38 // SE_FU_ZAKU2
 #define SE_LAVARIDGE_FALL_WARP      39 // SE_FU_ZUZUZU
-#define SE_ICE_STAIRS               40 // SE_RU_GASHIN
+#define SE_ICE_STAIRS               40 // SE_RU_GASHIN // Algo blindado
 #define SE_ICE_BREAK                41 // SE_RU_GASYAN
 #define SE_ICE_CRACK                42 // SE_RU_BARI // Click al desactivar algo
 #define SE_FALL                     43 // SE_RU_HYUU // caída libre
@@ -55,7 +55,7 @@
 #define SE_TRUCK_MOVE               49 // SE_TRACK_MOVE
 #define SE_TRUCK_STOP               50 // SE_TRACK_STOP
 #define SE_TRUCK_UNLOAD             51 // SE_TRACK_HAIKI
-#define SE_TRUCK_DOOR               52 // SE_TRACK_DOOR
+#define SE_TRUCK_DOOR               52 // SE_TRACK_DOOR // posible puerta giratoria-secreta
 #define SE_BERRY_BLENDER            53 // SE_MOTER
 #define SE_CARD                     54 // SE_CARD (Unused, different from the RS card SE)
 #define SE_SAVE                     55 // SE_SAVE
@@ -63,8 +63,8 @@
 #define SE_BALL_BOUNCE_2            57 // SE_KON2
 #define SE_BALL_BOUNCE_3            58 // SE_KON3
 #define SE_BALL_BOUNCE_4            59 // SE_KON4
-#define SE_BALL_TRADE               60 // SE_SUIKOMU
-#define SE_BALL_THROW               61 // SE_NAGERU
+#define SE_BALL_TRADE               60 // SE_SUIKOMU // Sonido al recoger un pokémon // Robar algo
+#define SE_BALL_THROW               61 // SE_NAGERU // Sonido al lanzar poké ball
 #define SE_NOTE_C                   62 // SE_TOY_C
 #define SE_NOTE_D                   63 // SE_TOY_D
 #define SE_NOTE_E                   64 // SE_TOY_E
@@ -108,7 +108,7 @@
 #define SE_SHINY                    102 // SE_REAPOKE
 #define SE_INTRO_BLAST              103 // SE_OP_BASYU
 #define SE_MUGSHOT                  104 // SE_BT_START // carga energia, posible uso para ultraentes o pokemon poderoso
-#define SE_APPLAUSE                 105 // SE_DENDOU
+#define SE_APPLAUSE                 105 // SE_DENDOU // Gente aplaudiendo
 #define SE_VEND                     106 // SE_JIHANKI
 #define SE_ORB                      107 // SE_TAMA
 #define SE_DEX_SCROLL               108 // SE_Z_SCROLL
@@ -626,6 +626,7 @@
 #define MUS_SINJOH_RUINS            688 // 638
 #define MUS_TOWER      				689 // 639 // FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 #define MUS_ABNORMAL_WEATHER2		690 // 640
+#define MUS_ZINNIA                  691 // 641
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

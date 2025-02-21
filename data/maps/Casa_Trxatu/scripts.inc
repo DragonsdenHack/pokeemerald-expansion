@@ -45,15 +45,34 @@ applymovement 1, CasaTrxatu_Combate_Move_3
 waitmovement 0x0
 msgbox CasaTrxatu_Combate_Texto_5 MSGBOX_AUTOCLOSE
 msgbox CasaTrxatu_Combate_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_6.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_6.2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_6.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, CasaTrxatu_Combate_Move_1
 waitmovement 0x0
+delay 10
 msgbox CasaTrxatu_Combate_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_7.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_7.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CasaTrxatu_Combate_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, CasaTrxatu_Combate_Move_3
 waitmovement 0x0
+delay 10
 msgbox CasaTrxatu_Combate_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_9.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, CasaTrxatu_Combate_Move_1
 waitmovement 0x0
+delay 10
 msgbox CasaTrxatu_Combate_Texto_10 MSGBOX_AUTOCLOSE
 delay 15
 msgbox CasaTrxatu_Combate_Texto_1 MSGBOX_AUTOCLOSE
@@ -70,6 +89,8 @@ msgbox CasaTrxatu_Combate_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 1, CasaTrxatu_Combate_Move_4
 waitmovement 0x0
 msgbox CasaTrxatu_Combate_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+msgbox CasaTrxatu_Combate_Texto_17.1 MSGBOX_AUTOCLOSE
 setvar VAR_LILYCOVE_CITY_STATE, 2
 release
 end
@@ -110,68 +131,85 @@ CasaTrxatu_Combate_Texto_3:
 	.string "breaking my silence.$"
 
 CasaTrxatu_Combate_Texto_4:
-	.string "Were you present at the POKÉMON\n"
-	.string "ESSENCE cult? Are you the one who put\l"
-	.string "an end to LANCE's tyranny?$"
+.string "¿Estuviste en el culto al\n"
+	.string "POKÉMON ESENCIA?\p"
+	.string "¿Fuiste tú quién acabó con la\n"
+	.string "tiranía de LANCE?$"
 
 CasaTrxatu_Combate_Texto_5:
-	.string "I was part of that cult; however, I had\n"
-	.string "certain disagreements with its leader.$"
+.string "Yo fui parte de ese culto, sin\n"
+	.string "embargo, tuve ciertas\l"
+	.string "discrepancias con su LÍDER{PAUSE 10}…{PAUSE 10}$"
 
 CasaTrxatu_Combate_Texto_6:
-	.string "Let's say I managed to escape before\n"
-	.string "he used the 'voluntary sacrifice' as an\l"
-	.string "excuse to get rid of me. You could\l"
-	.string "consider me a survivor, living in exile\l"
-	.string "both by choice and by necessity, as no\l"
-	.string "one can know where I hide; otherwise, he\l"
-	.string "would find me. You must be the second\l"
-	.string "person to enter and leave that place.$"
+.string "Digamos que logré huir, antes de\n"
+	.string "que usara como excusa el\l"
+	.string "-sacrificio voluntario-,\l"
+	.string "para librarse de mí.$"
+
+CasaTrxatu_Combate_Texto_6.1:
+	.string "Podría considerarme un superviviente,\n"
+	.string "que vive exiliado tanto por voluntad\l"
+	.string "propia como por obligación.$"
+
+CasaTrxatu_Combate_Texto_6.2:
+	.string "Nadie puede saber dónde me escondo,\n"
+	.string "de lo contrario, él me encontraría.$"
+
+CasaTrxatu_Combate_Texto_6.3:
+	.string "Tú debes ser la segunda persona que\n"
+	.string "logra entrar y salir de ese lugar.$"
 
 CasaTrxatu_Combate_Texto_7:
-	.string "Nevertheless, I do not feel unhappy at\n"
-	.string "all; freedom is what I sought when I\l"
-	.string "entered the cult, and I did not find it.\l"
-	.string "Here, I am completely free to do as I\l"
-	.string "please; I only compete against myself.\l"
-	.string "For better or worse, I am ultimately\l"
-	.string "responsible for what happens to me in\l"
-	.string "this place. I have everything I want\l"
-	.string "here to fully develop myself: a splendid\l"
-	.string "backdrop of scenery, millennia-old\l"
-	.string "ruins that many explorers will spend a\l"
-	.string "lifetime without finding. What more\l"
-	.string "could I ask for?$"
+.string "Sin embargo, no me siento desdichado,\n"
+	.string "¡ni mucho menos!$"
+
+CasaTrxatu_Combate_Texto_7.1:
+	.string "Libertad es lo que buscaba cuando\n"
+	.string "entré en el culto, y no la encontré.\l"
+	.string "Aquí, soy totalmente libre para hacer\l"
+	.string "lo que me plazca, solo compito contra\l"
+	.string "mí mismo; para bien o para mal, yo soy\l"
+	.string "el último responsable de mis actos.$"
+
+CasaTrxatu_Combate_Texto_7.2:
+	.string "Todo cuanto quiero está ya aquí.\n"
+	.string "Un espléndido paisaje de fondo,\l"
+	.string "ruinas milenarias, las cuales\l"
+	.string "muchos exploradores pasarán\l"
+	.string "toda una vida sin hallar{PAUSE 15}…{PAUSE 15}\l"
+	.string "¿Qué más puedo pedir?$"
 
 CasaTrxatu_Combate_Texto_8:
-	.string "You must be someone worth knowing; you\n"
-	.string "defeated LANCE, discovered KANTO's\l"
-	.string "most sacred cult, and emerged\l"
-	.string "victorious.$"
+.string "Debes de ser alguien digno de\n"
+	.string "conocer, derrotaste a LANCE,\l"
+	.string "descubriste el culto más sagrado\l"
+	.string "de KANTO y lograste salir airoso{PAUSE 5}…{PAUSE 5}$"
 
 CasaTrxatu_Combate_Texto_9:
-	.string "My belief is that making comparisons is\n"
-	.string "unpleasant, and we should focus on\l"
-	.string "competing against ourselves. The\l"
-	.string "reasoning behind this is that the only\l"
-	.string "individual with precisely the same\l"
-	.string "circumstances as you is yourself.\l"
-	.string "Therefore, triumphing over yourself\l"
-	.string "signifies a victory of your\l"
-	.string "determination, as all other variables\l"
-	.string "are on equal footing.$"
+.string "Siempre digo que las comparaciones son\n"
+	.string "odiosas, y que solo deberíamos competir\l"
+	.string "contra nosotros mismos, puesto que el\l"
+	.string "único ser con exactamente las mismas\l"
+	.string "condiciones que tú, eres tú mismo.$"
+
+CasaTrxatu_Combate_Texto_9.1:
+	.string "Una victoria sobre ti es una victoria\n"
+	.string "de tu voluntad, ya que el resto de\l"
+	.string "factores están en igualdad de\l"
+	.string "condiciones.$"
 
 CasaTrxatu_Combate_Texto_10:
-	.string "Nonetheless, I've spent a considerable\n"
-	.string "amount of time training by myself and\l"
-	.string "have attained a level of skill that\l"
-	.string "surpassed my expectations. Yet, I still\l"
-	.string "yearn for the exhilaration that comes\l"
-	.string "from engaging in combat with another\l"
-	.string "person.$"
+.string "Sin embargo, llevo mucho tiempo\n"
+	.string "entrenando en solitario.\p"
+	.string "He alcanzado un nivel que jamás pensé\n"
+	.string "que podría alcanzar, y aún siento esas\l"
+	.string "ganas, esa incertidumbre de combatir\l"
+	.string "contra otra persona de tú a tú.$"
 
 CasaTrxatu_Combate_Texto_11:
-	.string "Show me what you're capable of!$"
+.string "¡Muéstrame de todo lo\n"
+	.string "que eres capaz!$"
 
 CasaTrxatu_Combate_Texto_12:
 	.string "You're approaching excellence; that's\n"
@@ -201,22 +239,28 @@ CasaTrxatu_Combate_Texto_15:
 	.string "the final form of XATU.$"
 
 CasaTrxatu_Combate_Texto_16:
-	.string "I don't know how a common XATU can\n"
-	.string "evolve into TRXATU, as it can't happen\l"
-	.string "through leveling up. Most likely, the\l"
-	.string "interior of those ruins played a role in\l"
-	.string "the existence of these POKÉMON.$"
+.string "Desconozco el proceso que hay que\n"
+	.string "seguir para que un XATU normal y\l"
+	.string "corriente acabe evolucionando en\l"
+	.string "TRXATU, ya que por nivel es\l"
+	.string "imposible.\p"
+	.string "El interior de esas ruinas seguro\n"
+	.string "que algo ha tenido que ver.$"
 
 CasaTrxatu_Combate_Texto_17:
-	.string "So, what I'm saying is, you can take the\n"
-	.string "second specimen right behind you. I\l"
-	.string "don't know if I'll ever make it back to\l"
-	.string "civilization, or if I'll even make it back\l"
-	.string "at all. And now, you've shown up in this\l"
-	.string "super remote spot. There is no better\l"
-	.string "TRAINER for a POKÉMON like that to have\l"
-	.string "epic adventures and reach its full\l"
-	.string "potential.$"
+.string "Con todo esto quiero decirte que\n"
+	.string "eres libre de llevarte el segundo\l"
+	.string "ejemplar que tienes detrás tuya.\l"
+	.string "No sé si alguna vez volveré a la\l"
+	.string "civilización, ni siquiera si\l"
+	.string "volveré, y justo aparece alguien\l"
+	.string "como tú en este lugar tan remoto.$"
+
+CasaTrxatu_Combate_Texto_17.1:
+	.string "Tal vez sea el destino. Sea como sea,\n"
+	.string "eres el ENTRENADOR indicado para que un\l"
+	.string "POKÉMON de ese nivel viva grandes\l"
+	.string "aventuras y explore sus límites.$"
 
 CasaTrxatu_Combate_Texto_18:
 	.string "I delved into the details of TRXATU's\n"

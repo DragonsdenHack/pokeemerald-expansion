@@ -26,6 +26,8 @@
 #include "constants/battle_anim.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "battle_ai_util.h"
+#include "battle_z_move.h"
 
 static void PlayerPartnerHandleGetMonData(void);
 static void PlayerPartnerHandleGetRawMonData(void);
@@ -1533,6 +1535,9 @@ static void PlayerPartnerHandleChooseMove(void)
         if (gAbsentBattlerFlags & gBitTable[gBattlerTarget])
             gBattlerTarget = GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT);
     }
+	
+	if (ShouldUseZMove(gActiveBattler, gBattlerTarget, moveInfo->moves[chosenMoveId]))
+        QueueZMove(gActiveBattler, moveInfo->moves[chosenMoveId]);
 
     // If partner can mega evolve, do it.
     if (CanMegaEvolve(gActiveBattler))

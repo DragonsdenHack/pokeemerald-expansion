@@ -856,7 +856,19 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_1)
         return B_TRANSITION_KYOGRE;
 
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_606)
+        return B_TRANSITION_KYOGRE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_669)
+        return B_TRANSITION_KYOGRE;
+
     if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_2)
+        return B_TRANSITION_GROUDON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_625)
+        return B_TRANSITION_GROUDON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_674)
         return B_TRANSITION_GROUDON;
 
     if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_ZIGARDE)
@@ -881,6 +893,9 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_BIG_POKEBALL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_137)
+        return B_TRANSITION_RAYQUAZA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_607)
         return B_TRANSITION_RAYQUAZA;
 
     if (gTrainerBattleOpponent_A == TRAINER_PROTON)
@@ -949,6 +964,30 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_6)
         return B_TRANSITION_ANDRA4;
 
+    if (gTrainerBattleOpponent_A == TRAINER_PETRA)
+        return B_TRANSITION_PETRA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_MARCIAL)
+        return B_TRANSITION_MARCIAL;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ERICO)
+        return B_TRANSITION_ERICO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CANDELA)
+        return B_TRANSITION_CANDELA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_NORMAN)
+        return B_TRANSITION_NORMAN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ALANA)
+        return B_TRANSITION_ALANA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_VITOLETI)
+        return B_TRANSITION_VITO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_GALANO)
+        return B_TRANSITION_GALANO;
+
     if (gTrainerBattleOpponent_A == TRAINER_ANDRA_7)
         return B_TRANSITION_ANDRA5;
 
@@ -960,6 +999,33 @@ u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_118)
         return B_TRANSITION_LIDERSETE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_663)
+        return B_TRANSITION_FORTUNIA;
+
+        if (gTrainerBattleOpponent_A == TRAINER_TRAINER_656)
+        return B_TRANSITION_DESTRA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_675)
+        return B_TRANSITION_VALENTE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_652)
+        return B_TRANSITION_SACHIKO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_610)
+        return B_TRANSITION_DRACON;
+
+     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_609)
+        return B_TRANSITION_AMATISTA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_608)
+        return B_TRANSITION_INVERNA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_591)
+        return B_TRANSITION_RASMUS;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_679)
+        return B_TRANSITION_TRISTANA;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_152)
         return B_TRANSITION_FRANK2;
@@ -1108,6 +1174,15 @@ return B_TRANSITION_CHAMPION;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
         return B_TRANSITION_CHAMPION;
+	
+	if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_RECLUTA
+        || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ALTO_RANGO
+		|| (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_PROTON && gTrainers[gTrainerBattleOpponent_A].trainerPic == TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO))
+		return B_TRANSITION_ROCKET;
+		
+	if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_DEVON_CIENTIFICO
+		|| gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_POLICIA_DEVON)
+		return B_TRANSITION_DEVON;	
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_LEADER

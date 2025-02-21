@@ -1252,7 +1252,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_LUGIA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 1,
     },
     [SPECIES_HO_OH] =
     {
@@ -4502,7 +4502,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_EONEON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 4,
     },
     [SPECIES_TRXATU] =
     {
@@ -4587,7 +4587,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ARCHEOPS_X] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 3,
     },
     [SPECIES_REGIROCK_X] =
     {
@@ -4632,7 +4632,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ULTIMATE_PROYECT] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 1,
     },
     [SPECIES_POLIWRATH_BOND] =
     {
@@ -5143,7 +5143,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_BUTTERFREE_MEGA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 5,
+        .y_offset = 0,
     },
     [SPECIES_NOIVERN_MEGA] =
     {
@@ -6592,7 +6592,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_AERODACTYL_PRIMAL] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 4,
     },
     [SPECIES_CROBAT_BOND] =
     {
@@ -6862,7 +6862,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_SANDY_SHOCKS] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 7,
     },
     [SPECIES_IRON_TREADS] =
     {
@@ -6917,7 +6917,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ROARING_MOON] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 10,
     },
     [SPECIES_IRON_VALIANT] =
     {
@@ -7013,6 +7013,36 @@ const struct MonCoords gMonBackPicCoords[] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 7,
+    },
+	[SPECIES_GUARDIA] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+	[SPECIES_RELICANTH_PRIMAL] =
+    {
+        .size = MON_COORDS_SIZE(64, 40),
+        .y_offset = 12,
+    },
+	[SPECIES_ARMALDO_PRIMAL] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+	[SPECIES_GYARADOSZ] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+	[SPECIES_PORYGON31] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+	[SPECIES_MILOTICBOND] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 2,
     },
     // Egg
     [SPECIES_EGG] =

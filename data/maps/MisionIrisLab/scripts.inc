@@ -21,12 +21,18 @@ delay 20
 playse SE_PIN
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_4
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_3
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MisionIrisLab_Primer_Cientifico_Texto_5 MSGBOX_AUTOCLOSE
@@ -34,6 +40,7 @@ delay 20
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_3
 waitmovement 0x0
 msgbox MisionIrisLab_Primer_Cientifico_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_6
 waitmovement 0x0
@@ -41,14 +48,22 @@ trainerbattle_no_intro TRAINER_TRAINER_89, MisionIrisLab_Primer_Cientifico_Texto
 playse SE_BREAKABLE_DOOR
 applymovement 4, CuevaTesoro4_Jefe_Final_Move_9.1
 waitmovement 0x0
+waitse
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_7
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Primer_Cientifico_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MisionIrisLab_Primer_Cientifico_Move_5
 waitmovement 0x0
 setvar VAR_ROUTE102_STATE, 2
@@ -185,8 +200,11 @@ msgbox MisionIrisLab_Segundo_Cientifico_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 3, MisionIrisLab_Segundo_Cientifico_Move_1
 waitmovement 0x0
+delay 10
 msgbox MisionIrisLab_Segundo_Cientifico_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MisionIrisLab_Segundo_Cientifico_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, MisionIrisLab_Segundo_Cientifico_Move_3
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_TRAINER_88, MisionIrisLab_Segundo_Cientifico_Texto_7
@@ -269,8 +287,14 @@ MisionIrisLab_Cientifico_Primero::
 lock
 faceplayer
 msgbox MisionIrisLab_Primer_Cientifico_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 4, MisionIrisLab_Cientifico_Primero_Move_1
+waitmovement 0x0
 release
 end
+
+MisionIrisLab_Cientifico_Primero_Move_1:
+face_up
+step_end
 
 MisionIrisLab_Tirtouga::
 setflag FLAG_NUEVA_702

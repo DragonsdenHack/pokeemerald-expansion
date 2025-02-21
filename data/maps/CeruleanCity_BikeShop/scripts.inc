@@ -57,8 +57,28 @@ delay 20
 playse SE_PIN
 applymovement 1, CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1.1
+waitmovement 0x0
+delay 10
+msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1.2
+waitmovement 0x0
+delay 10
+msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_2
+waitmovement 0x0
+waitse
+playse 495
+delay 10
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BONOBICI, CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_7
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_8 MSGBOX_AUTOCLOSE
@@ -76,53 +96,80 @@ setvar VAR_UNUSED_0x409B, 4
 release
 end
 
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1.1:
+face_up
+step_end
+
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1.2:
+face_left
+step_end
+
 CeruleanCity_BikeShop_Secundaria_Bicicleta_3::
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.1 MSGBOX_AUTOCLOSE
+msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.2 MSGBOX_AUTOCLOSE
 release
 end
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
-	.string "This isn't the place for beggars like\n"
-	.string "you who can hardly afford their own\l"
-	.string "existence. If you aren't stacked with\l"
-	.string "the millions of POKÉ that BICYCLEs\l"
-	.string "cost, you just don't belong.$"
+.string "Este lugar no es para mendigos\n"
+	.string "como vosotros que apenas podéis\l"
+	.string "pagar por vuestra existencia, si no\l"
+	.string "tienes el millón de POKES que cuesta\l"
+	.string "la BICICLETA, no pintas nada aquí.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
-	.string "I'll be having a chat with that FAN CLUB\n"
-	.string "CHAIRMAN later. You're the third punk in\l"
-	.string "a row to waltz on in for a free BICYCLE\l"
-	.string "with that BIKE VOUCHER of his. I don't\l"
-	.string "give a flying RATTATA about him paying\l"
-	.string "the cost for it! You see how my\l"
-	.string "business's rep tanks when people catch\l"
-	.string "wind about two brats and a ROCKET\l"
-	.string "walking out with my trademark BIKEs?\l"
-	.string "That plays into the final decision of my\l"
-	.string "buyers. They'll buy me out if it's a\l"
-	.string "product of prestige and scarcity!$"
+.string "Voy a tener una charla con ese\n"
+	.string "PRESIDENTE del CLUB DE FANS, eres\l"
+	.string "el tercero que me viene mendigando\l"
+	.string "una BICI gratis gracias a ese\l"
+	.string "BONO, no importa que lo haya\l"
+	.string "pagado él antes.$"
+
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.1:
+	.string "¿Sabes cómo se resiente la\n"
+	.string "reputación de mi negocio al\l"
+	.string "enterarse la gente de que un par\l"
+	.string "de críos vulgares y un ROCKET van\l"
+	.string "con BICIS de mi marca?$"
+
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.2:
+	.string "¡Eso condiciona la decisión final\n"
+	.string "de los que de verdad me compran,\l"
+	.string "solo comprarán la BICI si saben\l"
+	.string "que es un producto que muy pocos\l"
+	.string "tienen!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
 .string "It can't be! A BIKE VOUCHER! Where did\n"
 	.string "you get it from?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
-	.string "That FAN CLUB CHAIRMAN in VERMILION?\n"
-	.string "And who is he to decide if that's valid\l"
-	.string "in my shop? I lead a serious business,\l"
-	.string "not some dingey asylum. Do you get it? I\l"
-	.string "can't just let people barge in with a\l"
-	.string "gift VOUCHER. That's one million down\l"
-	.string "the drain-so many fat stacks that\l"
-	.string "someone like you couldn't ever dream of.\l"
-	.string "If this shop sees any success, it's\l"
-	.string "'cause of rich dummies who'd pay any\l"
-	.string "price in their blissful ignorance, not\l"
-	.string "thieves like you.$"
+.string "¿El PRESIDENTE del\n"
+	.string "CLUB de FANS de CARMÍN?\l"
+	.string "¿Y quién es él para determinar que\l"
+	.string "eso tiene validez en mi tienda?\l"
+	.string "Yo dirijo aquí un negocio, no un\l"
+	.string "asilo, ¿comprendes?$"
+
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.1:
+	.string "No puedo dejar que vengan cada dos\n"
+	.string "por tres con un BONO de regalo, eso\l"
+	.string "supone una pérdida de 1.000.000¥.\l"
+	.string "Alguien como tú no ganará tal cifra\l"
+	.string "en su vida.$"
+	
+CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.2:
+	.string "Si esta tienda tiene éxito es por\n"
+	.string "ricachones que no conocen el valor\l"
+	.string "real de las cosas, y están dispuestos\l"
+	.string "a pagar cualquier precio por cualquier\l"
+	.string "producto, no por ladrones que viven\l"
+	.string "al día como tú.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:
 	.string "Oh, now you've got me riled up! You'll see\n"

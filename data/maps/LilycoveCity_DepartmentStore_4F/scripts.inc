@@ -45,10 +45,11 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
-	.2byte ITEM_TM17  @ Protect
-	.2byte ITEM_TM20  @ Safeguard
-	.2byte ITEM_TM33  @ Reflect
-	.2byte ITEM_TM16  @ Light Screen
+	.2byte ITEM_TM121
+	.2byte ITEM_TM124
+	.2byte ITEM_TM125
+	.2byte ITEM_TM126
+	.2byte ITEM_TM142
 	.2byte ITEM_NONE
 	release
 	end
@@ -61,10 +62,9 @@ LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string "moves should be taught to POKÉMON…$"
 
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
-	.string "There are so many different kinds of\n"
-	.string "TM moves.\p"
-	.string "A catalog I read said there are fifty\n"
-	.string "different kinds.$"
+	.string	"Hay tantos movimientos de MT…\p"
+	.string	"He leído en un catálogo que hay como\n"
+	.string	"cincuenta tipos diferentes.$"
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
 	.string "I'd like to get all the different TMs,\n"

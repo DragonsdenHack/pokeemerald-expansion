@@ -1,5 +1,15 @@
 SaffronCity_Dojo_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, SaffronCity_Dojo_OnTransition
 	.byte 0
+	
+SaffronCity_Dojo_OnTransition::
+goto_if_ge VAR_UNUSED_0x40F7, 203, SaffronCity_Dojo_WarpDinamica
+setdynamicwarp MAP_SAFFRON_CITY, 40, 12
+end
+
+SaffronCity_Dojo_WarpDinamica::
+setdynamicwarp MAP_NEO_SAFFRON_CITY, 40, 12
+end			
 
 SaffronCityDojo1::
 end

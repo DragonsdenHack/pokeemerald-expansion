@@ -29,6 +29,7 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_CheckToughPainting::
 	goto_if_set FLAG_TOUGH_PAINTING_MADE, LilycoveCity_LilycoveMuseum_2F_EventScript_SetToughPainting
 	end
 
+
 LilycoveCity_LilycoveMuseum_2F_EventScript_SetCoolPainting::
 	setmetatile 10, 6, METATILE_LilycoveMuseum_Painting2_Left, TRUE
 	setmetatile 11, 6, METATILE_LilycoveMuseum_Painting2_Right, TRUE
@@ -59,7 +60,8 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_SetToughPainting::
 	end
 
 LilycoveCity_LilycoveMuseum_2F_OnFrame:
-	map_script_2 VAR_LILYCOVE_MUSEUM_2F_STATE, 0, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall
+	map_script_2 VAR_LILYCOVE_MUSEUM_2F_STATE, 10, LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall
+	map_script_2 VAR_ROUTE117_STATE, 9, LilycoveCity_LilycoveMuseum_2F_Secundaria
 	.2byte 0
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall::
@@ -217,7 +219,8 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_ShowToughPainting::
 	end
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall:
-	.string "This is our special exhibit hall.$"
+	.string	"Ésta es nuestra sala especial\n"
+	.string	"de exposiciones.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
 	.string "As you can plainly see, there is not\n"
@@ -260,71 +263,287 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThanksAddedNewPainting:
 	.string "Thank you so very, very much!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsYouPlayer:
-	.string "Ah! It's you!\n"
-	.string "{PLAYER}!$"
+	.string	"¡Ah, eres tú, {PLAYER}!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:
-	.string "Isn't this marvelous?\n"
-	.string "This collection of paintings!\p"
-	.string "Each one of them flawless!\n"
-	.string "None better than another!\p"
-	.string "These paintings have attracted\n"
-	.string "more guests to our ART MUSEUM.\p"
-	.string "Sincerely, I thank you, {PLAYER}.\n"
-	.string "This is my dream come true!$"
+	.string	"¿No es soberbio?\n"
+	.string	"¡Qué colección de arte!\p"
+	.string	"¡Todas impecables!\n"
+	.string	"¡Todas admirables!\p"
+	.string	"Estas obras han atraído a muchos\n"
+	.string	"visitantes a nuestro MUSEO.\p"
+	.string	"Te lo agradezco de verdad, {PLAYER}.\n"
+	.string	"¡Es un sueño hecho realidad!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:
-	.string "This is merely a token of my gratitude.$"
+	.string	"Ésta es solo una muestra de mi gratitud.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou:
-	.string "I will keep this for you until we\n"
-	.string "meet again.$"
+	.string	"Te lo guardo hasta que vuelvas\n"
+	.string	"por aquí.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_HonorToHaveYouVisit:
-	.string "Ah, so good to see you, {PLAYER}!\p"
-	.string "It's an honor to have you visit us\n"
-	.string "on your busy journeys.\p"
-	.string "Please, relax and do enjoy your\n"
-	.string "visit with us.$"
+	.string	"¡Qué alegría verte, {PLAYER}!\p"
+	.string	"Es un honor que tengas tiempo\n"
+	.string	"para visitarnos a pesar de tus viajes.\p"
+	.string	"Adelante, descansa y disfruta\n"
+	.string	"de tu visita.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame:
-	.string "It's a picture frame with pink-colored\n"
-	.string "adornments.$"
+	.string	"Es un marco con motivos rosas.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame:
-	.string "It's a picture frame with\n"
-	.string "yellow-colored adornments.$"
+	.string	"Es un marco con motivos amarillos.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame:
-	.string "It's a picture frame with\n"
-	.string "blue-colored adornments.$"
+	.string	"Es un marco con motivos azules.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame:
-	.string "It's a picture frame with\n"
-	.string "red-colored adornments.$"
+	.string	"Es un marco con motivos rojos.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame:
-	.string "It's a picture frame with\n"
-	.string "green-colored adornments.$"
+	.string	"Es un marco con motivos verdes.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon:
-	.string "It's a painting of POKÉMON.$"
+	.string	"Es un cuadro de un POKéMON.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
-	.string "I've been away awhile, so the new\n"
-	.string "paintings up here surprised me.\p"
-	.string "I wish someone would paint my POKÉMON\n"
-	.string "this pretty.$"
+	.string	"Hacía tiempo que no venía, así que me\n"
+	.string	"he sorprendido al ver las nuevas obras.\p"
+	.string	"¡Cuánto me gustaría que alguien\n"
+	.string	"retratara a mi POKéMON también!$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing:
-	.string "Well… So this is where they show\n"
-	.string "the topical POKÉMON paintings.\p"
-	.string "I see, these new paintings are indeed\n"
-	.string "rather amusing.$"
+	.string	"Ajá, así que aquí es donde exponen\n"
+	.string	"las nuevas pinturas sobre POKéMON.\p"
+	.string	"Pues sí, la verdad es que son\n"
+	.string	"bastante divertidas.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
-	.string "Wow, is that right?\n"
-	.string "These paintings are of your POKÉMON.\p"
-	.string "Isn't that just the ultimate joy for\n"
-	.string "a TRAINER?$"
+	.string	"Ahí va, ¿es verdad?\n"
+	.string	"¿Son cuadros de tus POKéMON?\p"
+	.string	"Ésa debe de ser la mayor alegría que\n"
+	.string	"pueden dar a cualquier ENTRENADOR.$"
+
+LilycoveMuseum_2F_Secundaria_Move_1:
+walk_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_2:
+delay_16
+face_up
+delay_16
+delay_8
+walk_right
+face_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_3:
+walk_in_place_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_4:
+walk_down
+walk_down
+face_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_5:
+delay_16
+delay_16
+face_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_6:
+walk_in_place_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_7:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+delay_8
+face_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_8:
+delay_16
+delay_16
+face_right
+delay_16
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_9:
+delay_16
+face_up
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_9.1:
+walk_in_place_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_10:
+delay_16
+delay_16
+face_left
+delay_16
+delay_16
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_11:
+delay_16
+walk_in_place_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_12:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+face_up
+step_end
+
+
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria::
+lock
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_1
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_2
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_3
+waitmovement 0x0
+delay 15
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_4
+waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_6
+waitmovement 0x0
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_7
+waitmovement 0x0
+delay 30
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_8
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_9
+waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_9.1
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_11
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_12
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_12
+waitmovement 0x0
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_14
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_13
+waitmovement 0x0
+delay 15
+msgbox LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_16
+waitmovement 0x0
+delay 10
+applymovement 1, LilycoveMuseum_2F_Secundaria_Move_11
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, LilycoveMuseum_2F_Secundaria_Move_17
+waitmovement 0x0
+warp MAP_LILYCOVE_CITY_MUSEO_3F, 36, 15
+setvar VAR_ROUTE117_STATE, 10
+release
+end
+
+LilycoveMuseum_2F_Secundaria_Move_17:
+walk_slow_up
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_16:
+delay_16
+walk_slow_up
+delay_16
+delay_8
+face_left
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_15:
+walk_up
+face_right
+step_end
+
+
+LilycoveMuseum_2F_Secundaria_Move_13:
+face_right
+step_end
+
+LilycoveMuseum_2F_Secundaria_Move_14:
+face_left
+step_end
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_1:
+	.string "Sí{PAUSE 25}…{PAUSE 25} Entendido{PAUSE 25}…{PAUSE 25} Ahora mismo va.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2:
+	.string "Tiene pinta de haber viajado mucho,\n"
+	.string "¿me equivoco?$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_2.1:
+	.string "Venga conmigo.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_3:
+	.string "HOENN es una región fascinante.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_4:
+	.string "Habrá estado en muchas regiones,\n"
+	.string "imagino. Pero seguro que ninguna con\l"
+	.string "esta fauna y flora, este perfecto{PAUSE 15}…{PAUSE 15}\l"
+	.string "equilibrio.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_5:
+	.string "Todas estas pinturas, este lujo, no\n"
+	.string "serían nada sin él.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_6:
+	.string "Ahora, déjeme mostrarle algo.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_7:
+	.string "La mayor accionista de este MUSEO\n"
+	.string "quiere agradecerle en persona su\l"
+	.string "actuación.$"
+
+LilycoveCity_LilycoveMuseum_2F_Secundaria_Texto_8:
+	.string "Está esperándole en la sala de juntas.$"
 

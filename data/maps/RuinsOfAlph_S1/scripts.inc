@@ -80,10 +80,12 @@ waitmovement 0x0
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_3
 waitmovement 0x0
+waitse
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_5
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_6
 waitmovement 0x0
@@ -108,10 +110,12 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_4
 waitmovement 0x0
+waitse
 playse SE_BREAKABLE_DOOR
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Combate_UnownDorado_Move_5
 applymovement 12, RuinsOfAlph_S1_Combate_UnownDorado_Move_8
 waitmovement 0x0
+waitse
 delay 10
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_7 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
@@ -228,6 +232,7 @@ lock
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Apertura_Move_1
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S1_Apertura_Move_2
 waitmovement 0x0
 delay 10

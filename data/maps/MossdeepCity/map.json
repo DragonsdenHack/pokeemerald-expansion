@@ -148,22 +148,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 63,
-      "y": -4,
-      "elevation": 5,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 63,
-      "y": -5,
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "x": 64,
+      "y": 17,
       "elevation": 5,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -171,25 +158,25 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HOENN_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 62,
-      "y": -4,
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 63,
+      "y": 16,
       "elevation": 5,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HOENN_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 62,
-      "y": -3,
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
+      "x": 63,
+      "y": 22,
       "elevation": 5,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -197,20 +184,33 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HOENN_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
-      "x": 62,
-      "y": -5,
+      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN3",
+      "x": 65,
+      "y": 21,
       "elevation": 5,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_LEFT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HOENN_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "x": 64,
+      "y": 21,
+      "elevation": 5,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
@@ -227,16 +227,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCOTT",
-      "x": 61,
-      "y": 29,
+      "x": 66,
+      "y": 20,
       "elevation": 5,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MossdeepCity_EventScript_Scott",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SCOTT"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
@@ -250,6 +250,110 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MossdeepCity_EventScript_BlackBelt",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 58,
+      "y": 27,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_50"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 57,
+      "y": 22,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Andra_Caverna",
+      "flag": "FLAG_HOENN_682"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 65,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Cientificos",
+      "flag": "FLAG_HOENN_681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 64,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Cientificos",
+      "flag": "FLAG_HOENN_681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 63,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Cientificos",
+      "flag": "FLAG_HOENN_681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEVON3",
+      "x": 63,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "x": 64,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ZINNIA",
+      "x": 64,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_679"
     }
   ],
   "warp_events": [
@@ -276,7 +380,7 @@
     },
     {
       "x": 67,
-      "y": 24,
+      "y": 25,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_HOUSE2",
       "dest_warp_id": 0
@@ -286,11 +390,11 @@
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_MART",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 49,
-      "y": 5,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_HOUSE3",
       "dest_warp_id": 0
@@ -327,8 +431,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 16,
-      "y": 39,
+      "x": 26,
+      "y": 25,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -336,8 +440,8 @@
     },
     {
       "type": "trigger",
-      "x": 15,
-      "y": 39,
+      "x": 32,
+      "y": 28,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -345,8 +449,8 @@
     },
     {
       "type": "trigger",
-      "x": 16,
-      "y": 38,
+      "x": 25,
+      "y": 25,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -354,8 +458,8 @@
     },
     {
       "type": "trigger",
-      "x": 17,
-      "y": 38,
+      "x": 33,
+      "y": 28,
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
@@ -363,57 +467,39 @@
     },
     {
       "type": "trigger",
-      "x": 37,
-      "y": 22,
+      "x": 57,
+      "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "10",
+      "script": "MossdeepCity_Devon"
     },
     {
       "type": "trigger",
-      "x": 37,
-      "y": 22,
+      "x": 58,
+      "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "10",
+      "script": "MossdeepCity_Devon"
     },
     {
       "type": "trigger",
-      "x": 37,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "x": 58,
+      "y": 29,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "13",
+      "script": "MossdeepCity_Devon_Tristana_Despues_Der"
     },
     {
       "type": "trigger",
-      "x": 36,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 38,
-      "y": 21,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
-    },
-    {
-      "type": "trigger",
-      "x": 38,
-      "y": 22,
-      "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
-      "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "x": 57,
+      "y": 29,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "13",
+      "script": "MossdeepCity_Devon_Tristana_Despues_Izq"
     }
   ],
   "bg_events": [

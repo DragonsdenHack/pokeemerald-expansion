@@ -20,8 +20,7 @@ SlateportCity_Harbor_EventScript_ShowSSTidal::
 	return
 
 SlateportCity_Harbor_EventScript_ReadyAquaEscapeScene::
-	savebgm MUS_ENCOUNTER_AQUA
-	setobjectxyperm LOCALID_CAPT_STERN, 12, 13
+	savebgm MUS_SLATEPORT
 	setobjectmovementtype LOCALID_CAPT_STERN, MOVEMENT_TYPE_FACE_LEFT
 	setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS
 	return
@@ -288,6 +287,13 @@ SlateportCity_Harbor_EventScript_FatMan::
 	msgbox SlateportCity_Harbor_Text_SubTooSmallForMe, MSGBOX_NPC
 	end
 
+Portual_Cap_Babor::
+lock
+faceplayer
+	msgbox SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum, MSGBOX_DEFAULT
+	release
+	end
+
 SlateportCity_Harbor_EventScript_CaptStern::
 	lock
 	faceplayer
@@ -390,7 +396,7 @@ SlateportCity_Harbor_Text_FerryServiceUnavailable:
 	.string "I beg your pardon?\n"
 	.string "You're looking for a ship?\p"
 	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…$"
+	.string "available at present{PAUSE 5}…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
 	.string "Hello, are you here for the ferry?\n"
@@ -424,32 +430,33 @@ SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
 	.string "Then, where would you like to go?$"
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
-	.string "A journey to the bottom of the sea…\n"
-	.string "I wonder what it'd be like?\p"
-	.string "I'd love to go deep underwater like\n"
-	.string "that someday.$"
+	.string	"Un viaje al fondo del mar…\n"
+	.string	"Me pregunto cómo será…\p"
+	.string	"Me encantaría hacerlo algún día.$"
 
 SlateportCity_Harbor_Text_AbnormalWeather:
-	.string "For a ship to sail safely, we need to\n"
-	.string "know about the weather!\p"
-	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
-	.string "He was saying abnormal weather has\n"
-	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
-	.string "and ask around!$"
+	.string	"¡Cualquiera que se eche a la mar\n"
+	.string	"necesita saber el parte meteorológico!\p"
+	.string	"Hablando de meteorología, alguien\n"
+	.string	"del INSTITUTO METEOROLÓGICO\l"
+	.string	"dijo algo…\p"
+	.string	"¡Al parecer, se prevé que el tiempo\n"
+	.string	"sea anormal en toda la zona!\p"
+	.string	"¡Si yo fuera tú, iría al INSTITUTO\n"
+	.string	"METEOROLÓGICO a preguntar!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
-	.string "I wanted to go with CAPT. STERN on\n"
-	.string "the ocean floor exploration.\p"
-	.string "But the sub's too small for me.\p"
-	.string "If I squeezed in, there wouldn't be\n"
-	.string "any room for the CAPTAIN…$"
+	.string	"Quería acompañar al CAP. BABOR\n"
+	.string	"en su viaje de exploración.\p"
+	.string	"Pero el submarino es demasiado\n"
+	.string	"pequeño…\p"
+	.string	"Si me metiera dentro, no habría\n"
+	.string	"sitio para el CAPITÁN.$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
-	.string "CAPT. STERN: Those thugs…\p"
-	.string "They're the same lot who tried to rob\n"
-	.string "the DEVON GOODS at the MUSEUM.$"
+	.string	"CAP. BABOR: La NAO ABANDONADA…\p"
+	.string	"Estoy organizando una expedición\n"
+	.string	"para recuperar objetos perdidos.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "ARCHIE: Oh?\n"
@@ -460,7 +467,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "No one can stop us! No one!\p"
 	.string "Or, will you follow us back to our\n"
 	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
+	.string "Fwahahahaha…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "CAPT. STERN: Why…\p"
@@ -469,7 +476,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "They can't be after the slumbering\n"
 	.string "POKÉMON at the bottom of the sea…\p"
 	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
+	.string "I don't stand a chance against them…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
@@ -484,7 +491,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "someone might teach you…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "CAPT. STERN: Trying to catch a\n"
@@ -494,7 +501,7 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "someone might teach you…{PAUSE 5}$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
 	.string "CAPT. STERN: Oh, yes.\n"
@@ -544,3 +551,52 @@ SlateportCity_Harbor_Text_HandedScannerToStern:
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
 	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
 	.string "This will help our research a lot!$"
+
+SlateportCity_Harbor_Checking::
+lock
+msgbox SlateportCity_Harbor_Checking_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Harbor_Checking_Texto_1:
+	.string "El ferry permite llegar a CIUDAD\n"
+	.string "CALAGUA muy pronto.$"
+
+
+SlateportCity_Harbor_Check::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Harbor_Check_Move_1
+applymovement 1, Harbor_Check_Move_2
+waitmovement 0x0
+msgbox SlateportCity_Harbor_Check_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SlateportCity_Harbor_Check_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Harbor_Check_Move_3
+waitmovement 0x0
+warp MAP_SS_TIDAL_CORRIDOR, 1, 11
+delay 100
+release
+end
+
+Harbor_Check_Move_3:
+face_up
+step_end
+
+Harbor_Check_Move_2:
+walk_in_place_left
+step_end
+
+Harbor_Check_Move_1:
+face_right
+step_end
+
+SlateportCity_Harbor_Check_Texto_2:
+	.string	"{PLAYER} enseñó el TICKET…\p"
+	.string	"Perfecto. Todo está en regla.\p"
+	.string	"Pasa por favor.$"
+
+SlateportCity_Harbor_Check_Texto_1:
+	.string	"Buenas, ¿vienes para coger el ferry?\n"
+	.string	"¿Puedo ver tu TICKET?$"
+

@@ -848,21 +848,22 @@ gText_PokemonCenterSign::
 	.string "POKÉMON CENTER$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
-	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string	"A {STR_VAR_1} le gustaría este programa.\n"
+	.string	"(…)\p"
+	.string	"Bueno, voy a dejar de ver la tele.$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
-	.string "Which floor would you like?$"
+	.string	"Hola. Éste es el CENTRO COMERCIAL\n"
+	.string	"de CALAGUA.\p"
+	.string	"¿A qué planta vas?$"
 
 gText_SandstormIsVicious::
-	.string "The sandstorm is vicious.\n"
-	.string "It's impossible to keep going.$"
+	.string	"La tormenta de arena es demasiado\n"
+	.string	"fuerte. No se puede avanzar.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string	"Puedes asignar cualquier objeto\n"
+	.string	"de la MOCHILA al Botón SELECT.$"
 
 gText_PokemonTrainerSchoolEmail::
 	.string "There's an e-mail from POKÉMON TRAINER\n"
@@ -874,31 +875,30 @@ gText_PokemonTrainerSchoolEmail::
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string	"{PLAYER} encendió el PC.$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string	"Se ha cancelado la conexión.$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string	"¿Quieres dar un mote al\n"
+	.string	"{STR_VAR_2} recibido?$"
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} is out of usable\n"
 	.string "POKÉMON!\p{PLAYER} whited out!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string	"Acabas de registrar a {STR_VAR_1}\n"
+	.string	"{STR_VAR_2} en el POKéNAV.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
-	.string "One of our members will give it to you.\n"
-	.string "Come back and show me if you get it.\p"
-	.string "We'll accept you as a member and sell\n"
-	.string "you good stuff in secrecy.$"
+	.string	"¿Conoces la MT DAÑO SECRETO?\p"
+	.string	"Nuestro grupo adora esta MT.\p"
+	.string	"Uno de nuestros miembros te la va\n"
+	.string	"a dar. Cuando la tengas, vuelve aquí.\p"
+	.string	"Te aceptaremos como miembro\n"
+	.string	"y te venderemos unas cosas geniales.$"
 
 gText_PokerusExplanation::
 	.string "Your POKÉMON may be infected with\n"
@@ -912,11 +912,11 @@ gText_PokerusExplanation::
 	.include "data/text/surf.inc"
 
 gText_DoorOpenedFarAway::
-	.string "It sounded as if a door opened\n"
-	.string "somewhere far away.$"
+	.string	"Parece como si una puerta se hubiera\n"
+	.string	"abierto en algún lugar lejano.$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string	"Hay un gran agujero en la pared.$"
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
@@ -924,8 +924,8 @@ gText_SorryWirelessClubAdjustments::
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string	"Se ve que están dándole\n"
+	.string	"los últimos retoques…$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
@@ -938,24 +938,23 @@ gText_SorryRecordCornerPreparation::
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
-	.string "{STR_VAR_1}.$"
+	.string	"¡{PLAYER} entregó {STR_VAR_1}!$"
 
 gText_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string	"Gracias por acceder al sistema\n"
+	.string	"del REGALO MISTERIOSO.$"
 
 gText_PlayerFoundOneTMHM::
 	.string "{PLAYER} found {STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
-	.string "The weird tree attacked!$"
+	.string	"¡Al árbol extraño no le gusta\n"
+	.string	"el CUBO WAILMER!\p"
+	.string	"¡El árbol extraño atacó!$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string	"¡El {STR_VAR_1} se ha marchado!$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"
@@ -2824,3 +2823,173 @@ Text_EVChecker_3:
 	.include "data/maps/NeoFuchsiaGym/scripts.inc"
 
 	.include "data/maps/NeoRoute19_Path/scripts.inc"
+
+	.include "data/maps/SnowpointCity/scripts.inc"
+
+	.include "data/maps/Snowpoint_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Snowpoint_Shop/scripts.inc"
+
+	.include "data/maps/Snowpoint_House_1/scripts.inc"
+
+	.include "data/maps/Snowpoint_House_2/scripts.inc"
+
+	.include "data/maps/BaseRocketHoennS4/scripts.inc"
+
+	.include "data/maps/GameCorner_Mauville_Hideout_S1/scripts.inc"
+
+	.include "data/maps/GameCorner_Mauville_Hideout_S2/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S1/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S2/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S3/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S4/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S5/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_1/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_2/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_3/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_4/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_5/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_6/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_7/scripts.inc"
+
+	.include "data/maps/GraniteCave_3F/scripts.inc"
+
+	.include "data/maps/Snowpoint_Gimnasio/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S1/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S2/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S3/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S3_2/scripts.inc"
+
+	.include "data/maps/SSTidal_Submarino/scripts.inc"
+
+	.include "data/maps/SSGiovanni_Rescate/scripts.inc"
+
+	.include "data/maps/Neo_TunelRoca_1F/scripts.inc"
+
+	.include "data/maps/Neo_TunelRoca_2F/scripts.inc"
+
+	.include "data/maps/Guardia_Cave/scripts.inc"
+
+	.include "data/maps/Guardia_Cave_2/scripts.inc"
+
+	.include "data/maps/Sootopolis_Secret_Cave/scripts.inc"
+
+	.include "data/maps/Verdantur_Museo_S1/scripts.inc"
+
+	.include "data/maps/NeoSafari/scripts.inc"
+
+	.include "data/maps/Mosdeep_Jirachi/scripts.inc"
+
+	.include "data/maps/Arrecipolis_Antigua/scripts.inc"
+
+	.include "data/maps/NeoSaffron_House1_1F/scripts.inc"
+
+	.include "data/maps/NeoSaffron_House1_2F/scripts.inc"
+
+	.include "data/maps/NeoRoute10_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/NeoUndergroundPath_6F/scripts.inc"
+	
+	.include "data/maps/Cave_Regigigas_S4/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S5_2/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S6/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S7/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S8/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S1/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S2/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S3/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S4/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S5/scripts.inc"
+
+	.include "data/maps/PokemonTower_S1/scripts.inc"
+
+	.include "data/maps/PokemonTower_S2/scripts.inc"
+
+	.include "data/maps/PokemonTower_S3/scripts.inc"
+
+	.include "data/maps/LavenderTown_Pasado/scripts.inc"
+
+	.include "data/maps/LavenderTown_Pasado_Gym/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo_2/scripts.inc"
+
+	.include "data/maps/Lavender_Secta_Pasadizo_3/scripts.inc"
+
+	.include "data/maps/VermilionCity_Secundaria/scripts.inc"
+
+	.include "data/maps/VermilionCity_Jardin/scripts.inc"
+
+	.include "data/maps/SilphS2_2/scripts.inc"
+
+	.include "data/maps/SilphS2_3/scripts.inc"
+
+	.include "data/maps/RocketHideout_5F_2/scripts.inc"
+
+	.include "data/maps/LilycoveCity_Museo_3F/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP6/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP7/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP8/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP9/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP10/scripts.inc"
+
+	.include "data/maps/PalletTown_Laboratorio_Secreto_S6/scripts.inc"
+
+	.include "data/maps/RocketHideout_11F/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Gym/scripts.inc"
+
+	.include "data/maps/Neo_NewBark/scripts.inc"
+
+	.include "data/maps/NewBark_Oro1F/scripts.inc"
+
+	.include "data/maps/NewBark_Oro2F/scripts.inc"
+
+	.include "data/maps/NewBark_Casa_Elm/scripts.inc"
+
+	.include "data/maps/NewBark_Casa_Npc/scripts.inc"
+
+	.include "data/maps/Pass_LakeofRage/scripts.inc"
+
+	.include "data/maps/Goldenrod_Casa_Secreta/scripts.inc"
+
+	.include "data/maps/SixIsland_Oeste/scripts.inc"
+
+	.include "data/maps/SixIsland_Oeste_Bosque/scripts.inc"
+
+	.include "data/maps/SixIsland_Laboratorio/scripts.inc"

@@ -108,7 +108,7 @@ FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
 	.string "of town will know.$"
 
 FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
-	.string "In the fields of FALLARBOR, we plant\n"
-	.string "seedlings of hardy trees that thrive\l"
-	.string "even in volcanic ash.$"
+	.string	"Plantamos árboles resistentes en los\n"
+	.string	"campos de PARDAL. Pueden crecer\l"
+	.string	"incluso en la ceniza volcánica.$"
 

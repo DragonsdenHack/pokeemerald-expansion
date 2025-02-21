@@ -276,5 +276,22 @@ Route27_Cartel_Texto_2:
 .string "(This last thing is striken through.)$"
 
 Route27_Cartel_Texto_1:
-.string "KANTO BORDER: FORBIDDEN TO\n"
-	.string "GO FURTHER THAN THIS POINT.$"
+.string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"
+	.string "PARTIR DE ESTE PUNTO$"
+
+
+Route27_Evento_Encinar::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route27_Evento_Encinar_Move_1
+waitmovement 0x0
+setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
+setvar VAR_UNUSED_0x40F8, 34
+warpsilent MAP_ILEX_FOREST, 17, 52
+waitmovement 0x0
+delay 100
+release
+end
+
+Route27_Evento_Encinar_Move_1:
+walk_in_place_right
+step_end

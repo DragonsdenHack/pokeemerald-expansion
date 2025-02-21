@@ -24,17 +24,20 @@ IcePath3::
 end
 
 IcePath_Llamada_Giovanni::
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Llamada_Giovanni_Move_1
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 msgbox IcePath_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_1.1 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_1.2 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 setvar VAR_UNUSED_0x40F7, 167
-delay 20
+delay 15
 msgbox IcePath_Llamada_Giovanni_Texto_3 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq IcePath_Llamada_Giovanni_No

@@ -36,31 +36,31 @@ lock
 compare VAR_VERDANTURF_TOWN_STATE, 9
 goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_SACRED_DRAGON, 10, 3  
-playmoncry SPECIES_XERNEAS, CRY_MODE_ENCOUNTER 
+playmoncry SPECIES_NECROZMA_ULTRA, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP4Documento_Text_100, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
 
 Route49MazeP4Documento_Text_100:
-.string "SACRED DRAGON:\p"
-	.string "HP: 163\n"
-	.string "ATTACK: 2\l"
-	.string "DEFENSE: 97\l"
-	.string "SPECIAL ATTACK: 157\l"
-	.string "SPECIAL DEFENSE: 193\l"
-	.string "SPEED: 109\l"
-	.string "TOTAL: 721\p"
-	.string "TYPE: DRAGON/PSYCHIC\n"
-	.string "ABILITY: ELECTRIC SURGE\l"
-	.string "The legend states that it evolved from\l"
-	.string "a DUNSPARCE, which was scorned and\l"
-	.string "judged by the rest of the POKÉMON. As a\l"
-	.string "result of this and its unwavering will,\l"
-	.string "it managed to transcend beyond its\l"
-	.string "limited form. The process and\l"
-	.string "phenomenon by which it achieved this\l"
-	.string "are a complete mystery.$"
+.string "DRAGÓN SAGRADO:\p"
+	.string "PS: 163\n"
+	.string "ATAQUE: 2\l"
+	.string "DEFENSA: 103\l"
+	.string "ATAQUE ESPECIAL: 157\l"
+	.string "DEFENSA ESPECIAL: 193\l"
+	.string "VELOCIDAD: 109\l"
+	.string "TOTAL: 727\p"
+	.string "TIPO: DRAGÓN/PSÍQUICO\n"
+	.string "HABILIDAD: PSICOGÉNESIS\l"
+	.string "La leyenda dice que surgió a partir de\l"
+	.string "un DUNSPARCE, el cual fue despreciado\l"
+	.string "y juzgado por el resto de POKEMON.\l"
+	.string "Producto de ello y su inquebrantable\l"
+	.string "voluntad, logró trascender más allá de\l"
+	.string "su limitada forma.\l"
+	.string "El proceso y fenómeno por el cual lo\l"
+	.string "logró es todo un misterio.$"
 
 Route49_MazeP4_Combate_Maestro::
 lock
@@ -74,17 +74,24 @@ playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 10
 playse SE_FAINT
+waitse
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_1.1 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_3
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route49_MazeP4_Combate_Maestro_Move_5
@@ -95,13 +102,16 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_7
 waitmovement 0x0
+waitse
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_8
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_9
 waitmovement 0x0
 delay 30
 msgbox Route49_MazeP4_Combate_Maestro_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_10
 waitmovement 0x0
 delay 15
@@ -113,18 +123,22 @@ trainerbattle_no_intro TRAINER_TRAINER_17, Route49_MazeP4_Combate_Maestro_Texto_
 playse SE_PIN
 applymovement 6, Route49_MazeP4_Combate_Maestro_Move_13
 waitmovement 0x0
-delay 15
+waitse
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_12
 waitmovement 0x0
 delay 10
 applymovement 6, Route49_MazeP4_Combate_Maestro_Move_10
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_10
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_15
 waitmovement 0x0
@@ -132,9 +146,12 @@ applymovement 6, Route49_MazeP4_Combate_Maestro_Move_4
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_13 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_15 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_15.1 MSGBOX_AUTOCLOSE
@@ -142,6 +159,7 @@ delay 20
 applymovement 5, Route49_MazeP4_Combate_Maestro_Move_11
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_17 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_1
 waitmovement 0x0
@@ -149,6 +167,7 @@ msgbox Route49_MazeP4_Combate_Maestro_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
 waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
 waitmovement 0x0
@@ -232,11 +251,13 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_19:
 walk_down
+delay_16
 face_right
 step_end
 
 Route49_MazeP4_Combate_Maestro_Move_18:
 walk_slow_left
+delay_16
 face_down
 step_end
 
@@ -264,6 +285,7 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_12:
 walk_slow_right
+delay_16
 walk_slow_up
 step_end
 
@@ -294,6 +316,7 @@ step_end
 
 Route49_MazeP4_Combate_Maestro_Move_6:
 walk_slow_left
+delay_16
 walk_slow_up
 step_end
 
@@ -324,7 +347,7 @@ walk_in_place_up
 step_end
 
 Route49_MazeP4_Combate_Maestro_Texto_1.1:
-.string "ANDRA: … …$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_1:
 	.string "G.MASTER: You have talent, willpower,\n"
@@ -531,22 +554,21 @@ end
 
 Route49MazeP4Documento_Text_101:
 .string "DUN:\p"
-	.string "HP: 153\n"
-	.string "ATTACK: 44\l"
-	.string "DEFENSE: 66\l"
-	.string "SPECIAL ATTACK: 117\l"
-	.string "SPECIAL DEFENSE: 132\l"
-	.string "SPEED: 99\l"
-	.string "TOTAL: 611\p"
-	.string "TYPE: DRAGON/PSYCHIC\n"
-	.string "ABILITY: PSYCHIC SURGE\l"
-	.string "The evolution of BLESSPARCE,\l"
-	.string "achievable solely by the chosen. It\l"
-	.string "displays characteristics akin to a\l"
-	.string "PSEUDOLEGENDARY, yet its overall\l"
-	.string "attributes suggest an even higher\l"
-	.string "hierarchy. It was hailed by the\l"
-	.string "ancients as the non-legendary with the\l"
-	.string "greatest pure potential, disregarding\l"
-	.string "phenomena like MEGA EVOLUTION and\l"
-	.string "DEEP BOND.$"
+	.string "PS: 153\n"
+	.string "ATAQUE: 44\l"
+	.string "DEFENSA: 66\l"
+	.string "ATAQUE ESPECIAL: 117\l"
+	.string "DEFENSA ESPECIAL: 122\l"
+	.string "VELOCIDAD: 99\l"
+	.string "TOTAL: 601\p"
+	.string "TIPO: DRAGÓN/PSÍQUICO\n"
+	.string "HABILIDAD: PSICOGÉNESIS\l"
+	.string "Evolución de BLESSPARCE, solo los\l"
+	.string "elegidos pueden alcanzarla.\l"
+	.string "Posee mimbres de PSEUDOLEGENDARIO,\l"
+	.string "pero todos sus atributos en conjunto\l"
+	.string "muestran una jerarquía incluso mayor.\p"
+	.string "Fue señalado por los antiguos como\n"
+	.string "el NO LEGENDARIO con mayor potencial\l"
+	.string "puro, ignorando fenómenos como la\l"
+	.string "MEGAEVOLUCION y el FUERTE VÍNCULO.$"

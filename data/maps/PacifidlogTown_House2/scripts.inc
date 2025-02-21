@@ -108,10 +108,10 @@ PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
 	.string "deserves a TM like this, no?$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
+	.string	"Mmmm…\n"
+	.string	"No está mal, pero tampoco muy bien.\p"
+	.string	"Tendrías que esforzarte un\n"
+	.string	"poco más, ¿no te parece?$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
 	.string "It has a vicious look to it.\p"
@@ -132,16 +132,16 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 	.string "your POKÉMON.$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+	.string	"AZURILL: Azu, azuriril…{PAUSE 5}$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-	.string "It appears to be very friendly with the\n"
-	.string "TRAINER.$"
+	.string	"Parece que se lleva muy bien\n"
+	.string	"con su ENTRENADOR.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+	.string	"AZURILL: Azuzú, azuzuzú…{PAUSE 5}$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-	.string "It doesn't appear to like the TRAINER\n"
-	.string "very much.$"
+	.string	"Parece que no se lleva muy bien\n"
+	.string	"con su ENTRENADOR.$"
 

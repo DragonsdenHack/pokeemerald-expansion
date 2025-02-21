@@ -204,7 +204,7 @@ RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
 	.string "that may affect POKÉMON in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
-	.string "Which topic do you want to read?$"
+	.string	"¿Sobre qué tema te gustaría leer?$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison:
 	.string "If a POKÉMON is poisoned, it will\n"
@@ -232,10 +232,10 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
 	.string "Wake it up using an AWAKENING.$"
 
 RustboroCity_PokemonSchool_Text_ExplainBurn:
-	.string "A burn reduces ATTACK power, and it\n"
-	.string "steadily reduces the victim's HP.\p"
-	.string "A burn lingers after battle.\n"
-	.string "Cure a burn using a BURN HEAL.$"
+	.string	"Una quemadura reduce el poder\n"
+	.string	"de ATAQUE y los PS de la víctima.\p"
+	.string	"Sus efectos continúan tras el\n"
+	.string	"combate. Usa ANTIQUEMAR.$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze:
 	.string "If a POKÉMON is frozen, it becomes\n"
@@ -244,11 +244,10 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
 	.string "Thaw it out using an ICE HEAL.$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
-	.string "Students who don't study get a little\n"
-	.string "taste of my QUICK CLAW.\p"
-	.string "Whether or not you are a good student \n"
-	.string "will be evident from the way you use\l"
-	.string "this item.$"
+	.string	"Cuando un alumno no estudia nada,\n"
+	.string	"le doy jarabe de GARRA RÁPIDA.\p"
+	.string	"Tu aplicación en el estudio se verá por\n"
+	.string	"la manera en que uses este objeto.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 	.string "A POKÉMON holding the QUICK CLAW will\n"
@@ -264,8 +263,8 @@ RustboroCity_PokemonSchool_Text_TradingRightNow:
 	.string "right now.$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
-	.string "I always wanted a SEEDOT, and\n"
-	.string "I'm finally getting one!$"
+	.string	"Siempre he querido un SEEDOT\n"
+	.string	"y por fin voy a conseguir uno.$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
 	.string "POKÉMON can hold items, but they\n"

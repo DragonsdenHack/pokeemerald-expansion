@@ -5,15 +5,21 @@ PokemonLeague_6F_Final_Centro::
 clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
 playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
-waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1.1
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
 waitmovement 0x0
 playse SE_ICE_CRACK
+waitse
+delay 15
+playse SE_PC_ON
+waitse
+delay 30
 msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2
 waitmovement 0x0
@@ -24,15 +30,21 @@ PokemonLeague_6F_Final_Der::
 clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
 playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
-waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1.1
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
 waitmovement 0x0
 playse SE_ICE_CRACK
+waitse
+delay 15
+playse SE_PC_ON
+waitse
+delay 30
 msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2.1
 waitmovement 0x0
@@ -43,15 +55,21 @@ PokemonLeague_6F_Final_Izq::
 clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
 playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
-waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1.1
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
 waitmovement 0x0
 playse SE_ICE_CRACK
+waitse
+delay 15
+playse SE_PC_ON
+waitse
+delay 30
 msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2.2
 waitmovement 0x0
@@ -69,24 +87,60 @@ msgbox PokemonLeague_6F_Final_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonLeague_6F_Final_Move_5
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PokemonLeague_6F_Final_Move_4.1
+waitmovement 0x0
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonLeague_6F_Final_Move_6
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PokemonLeague_6F_Final_Texto_10.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_7
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_7.1
+waitmovement 0x0
+waitse
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_11.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, PokemonLeague_6F_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_12.1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 1, PokemonLeague_6F_Final_Move_4.2
+waitmovement 0x0
+waitse
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_13 MSGBOX_AUTOCLOSE
-delay 15
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_4.3
+waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
+playse SE_PIN
+applymovement 1, PokemonLeague_6F_Final_Move_7.1
+waitmovement 0x0
+waitse
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonLeague_6F_Final_Move_8
 waitmovement 0x0
@@ -98,8 +152,12 @@ msgbox PokemonLeague_6F_Final_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonLeague_6F_Final_Move_7
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, PokemonLeague_6F_Final_Move_6.1
+waitmovement 0x0
 applymovement 1, PokemonLeague_6F_Final_Move_6
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonLeague_6F_Final_Move_3
 waitmovement 0x0
@@ -154,18 +212,53 @@ msgbox PokemonLeague_6F_Final_Texto_27 MSGBOX_AUTOCLOSE
 applymovement 3, PokemonLeague_6F_Final_Move_16
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 3, PokemonLeague_6F_Final_Move_17
 waitmovement 0x0
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_29 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_30 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_17.1
+waitmovement 0x0
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_30.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_17.2
+waitmovement 0x0
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_30.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_17.3
+waitmovement 0x0
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_30.3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, PokemonLeague_6F_Final_Move_18
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_31 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 3, PokemonLeague_6F_Final_Move_17.4
+applymovement 1, PokemonLeague_6F_Final_Move_17.5
+waitmovement 0x0
+waitse
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_31.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_31.2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_32 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_33 MSGBOX_AUTOCLOSE
 applymovement 3, PokemonLeague_6F_Final_Move_18
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_34.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_34.2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PokemonLeague_6F_Final_Texto_35 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
@@ -213,27 +306,60 @@ applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_19
 waitmovement 0x0
 special RemoveCameraObject
 msgbox PokemonLeague_6F_Final_Texto_37 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_27.1
+waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_38 MSGBOX_AUTOCLOSE
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_39 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_27.1
+waitmovement 0x0
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_39.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_40 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_40.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_41 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_27.2
+waitmovement 0x0
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_41.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, PokemonLeague_6F_Final_Move_29
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_42 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_29.1
+waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_43 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PokemonLeague_6F_Final_Texto_44 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
+applymovement 3, PokemonLeague_6F_Final_Move_29.2
+waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_45 MSGBOX_AUTOCLOSE
 playse SE_USE_ITEM
 special HealPlayerParty
+waitse
 delay 20
+playse SE_BREAKABLE_DOOR
 applymovement 3, PokemonLeague_6F_Final_Move_30
 waitmovement 0x0
+waitse
+delay 10
 setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 msgbox PokemonLeague_6F_Final_Texto_46 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_LANCE_2, PokemonLeague_6F_Final_Texto_47
 playse MUS_RG_VICTORY_GYM_LEADER
+playse SE_PIN
+applymovement 1, PokemonLeague_6F_Final_Move_1
 msgbox PokemonLeague_6F_Final_Texto_48 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PokemonLeague_6F_Final_Texto_49 MSGBOX_AUTOCLOSE
@@ -254,6 +380,7 @@ msgbox PokemonLeague_6F_Final_Texto_51 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_BALL_THROW
 waitse
+delay 10
 playse SE_BALL_TRAY_EXIT
 msgbox PokemonLeague_6F_Final_Texto_52 MSGBOX_AUTOCLOSE
 applymovement 4, PokemonLeague_6F_Final_Move_18
@@ -268,14 +395,19 @@ delay 20
 applymovement 4, PokemonLeague_6F_Final_Move_28
 waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_56 MSGBOX_AUTOCLOSE
-delay 20
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_44 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, PokemonLeague_6F_Final_Move_32
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_57 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, PokemonLeague_6F_Final_Move_32
 waitmovement 0x0
+delay 10
 msgbox PokemonLeague_6F_Final_Texto_58 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_33
 waitmovement 0x0
 setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
@@ -292,6 +424,100 @@ checkplayergender
 goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
+
+PokemonLeague_6F_Final_Move_1.1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
+PokemonLeague_6F_Final_Move_29.2:
+face_left
+step_end
+
+PokemonLeague_6F_Final_Move_29.1:
+face_down
+step_end
+
+PokemonLeague_6F_Final_Move_27.2:
+delay_8
+face_down
+delay_16
+delay_8
+face_right
+delay_16
+delay_8
+face_left
+delay_16
+delay_8
+face_up
+step_end
+
+PokemonLeague_6F_Final_Move_27.1:
+delay_8
+face_up
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+PokemonLeague_6F_Final_Move_17.4:
+walk_in_place_up
+step_end
+
+PokemonLeague_6F_Final_Move_17.5:
+jump_in_place_down
+step_end
+
+PokemonLeague_6F_Final_Move_17.1:
+face_up
+step_end
+
+PokemonLeague_6F_Final_Move_17.2:
+face_right
+step_end
+
+PokemonLeague_6F_Final_Move_17.3:
+delay_8
+face_up
+delay_16
+delay_8
+face_right
+delay_8
+step_end
+
+PokemonLeague_6F_Final_Move_6.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_16
+delay_8
+face_left
+delay_8
+step_end
+
+PokemonLeague_6F_Final_Move_4.3:
+walk_in_place_up
+step_end
+
+PokemonLeague_6F_Final_Move_7.1:
+emote_exclamation_mark
+step_end
+
+PokemonLeague_6F_Final_Move_4.1:
+delay_8
+face_left
+delay_16
+delay_8
+face_down
+delay_8
+step_end
+
+PokemonLeague_6F_Final_Move_4.2:
+walk_in_place_down
+step_end
 
 PokemonLeague_6F_Final_Texto_1:
 	.string "(OAK finished entering RED's data in the\n"
@@ -319,73 +545,84 @@ PokemonLeague_6F_Final_Texto_5:
 	.string "brought ruin.$"
 
 PokemonLeague_6F_Final_Texto_6:
-	.string "He and his silly followers didn't realize\n"
-	.string "that they approached everything the\l"
-	.string "wrong way; creating a POKÉMON with\l"
-	.string "overwhelming and uncontrollable power\l"
-	.string "results in exactly that: being unable\l"
-	.string "to control it.$"
+.string "De lo que no se dieron cuenta él y su\n"
+	.string "estúpido séquito es de que enfocaron\l"
+	.string "todo de la forma equivocada.\l"
+	.string "Crear un POKÉMON con un poder desmedido\l"
+	.string "e incontrolable lleva precisamente a\l"
+	.string "eso: a que no puedas controlarlo.$"
 
 PokemonLeague_6F_Final_Texto_7:
-	.string "Instead, we left unexplored the most\n"
-	.string "crucial aspect in the equation that\l"
-	.string "leads to victory in battles.$"
+.string "En cambio, dejamos sin explotar la\n"
+	.string "parte más importante dentro de la\l"
+	.string "ecuación que permite ganar combates.$"
 
 PokemonLeague_6F_Final_Texto_8:
-	.string "An unbeatable TRAINER, capable of\n"
-	.string "independently making the best possible\l"
-	.string "decisions regarding POKÉMON capture,\l"
-	.string "battle strategy, training, and\l"
-	.string "allocation of items and moves, able to\l"
-	.string "maximize a team of 6 POKÉMON with the\l"
-	.string "available resources.$"
+.string "Un ENTRENADOR invencible, capaz de\n"
+	.string "tomar por sí solo las mejores decisiones\l"
+	.string "decisiones posibles en cuanto a captura\l"
+	.string "de POKÉMON, estrategia en batalla,\l"
+	.string "entrenamiento y asignación de objetos\l"
+	.string "y movimientos. Capaz de exprimir al\l"
+	.string "máximo un equipo de 6 POKÉMON con\l"
+	.string "los recursos de los que dispone.$"
 
 PokemonLeague_6F_Final_Texto_9:
-	.string "Is not that much better than depending\n"
-	.string "on just one overpowered POKÉMON.\l"
-	.string "That would be managed by the clumsy\l"
-	.string "hands of a human susceptible to\l"
-	.string "failure?$"
+.string "¿Acaso no es eso mucho mejor que contar\n"
+	.string "con un único POKÉMON hiperpoderoso,\l"
+	.string "que aún será manejado por las torpes\l"
+	.string "manos de un humano susceptible de error?$"
 
 PokemonLeague_6F_Final_Texto_10:
-	.string "To all the rest of mortals, RED will be\n"
-	.string "considered unreachable, since he is the\l"
-	.string "limit, I personally made sure he covers\l"
-	.string "every possible variable that could\l"
-	.string "affect a battle, he is the perfect\l"
-	.string "combination of technology and\l"
-	.string "humanity, and most importantly…$"
+.string "A los ojos del resto de mortales, ROJO\n"
+	.string "será visto como inalcanzable, el culmen\l"
+	.string "de lo que significa ser ENTRENADOR.\l"
+	.string "Me he encargado personalmente de que\l"
+	.string "cubra hasta los topes todas las\l"
+	.string "variables que influyen en un combate.\l"
+	.string "Es la combinación perfecta entre\l"
+	.string "tecnología y humanidad.$"
+	
+PokemonLeague_6F_Final_Texto_10.1:
+	 .string "Pero{PAUSE 25}…{PAUSE 25} aún más importante{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_11:
-	.string "Unlike MEWTWO, all its potential, the\n"
-	.string "possibilities that it offers and its\l"
-	.string "resources, is purposeless, no\l"
-	.string "questions, RED is just an empty shell,\l"
-	.string "prepared to be replaced by anyone,\l"
-	.string "thereby enabling RED to assume the\l"
-	.string "purpose of whoever handles him like a\l"
-	.string "simple puppet.$"
+.string "A diferencia de MEWTWO, todo su\n"
+	.string "potencial, las posibilidades que\l"
+	.string "ofrece, y sus recursos, carecen de\l"
+	.string "propósito. No hará preguntas, ROJO no\l"
+	.string "es más que una cáscara vacía, lista\l"
+	.string "para ser cubierta por cualquiera.$"
+
+PokemonLeague_6F_Final_Texto_11.1:
+	.string "Así es, ROCKET. El propósito de ROJO\n"
+	.string "es el propósito de aquel que lo\l"
+	.string "maneja como una simple marioneta.$"
 
 PokemonLeague_6F_Final_Texto_12:
-	.string "You will understand then, the\n"
-	.string "importance of having something like him\l"
-	.string "with these characteristics in a world\l"
-	.string "where absolutely everyone, as a\l"
-	.string "universal principle, shuts up in front\l"
-	.string "of you if you can defeat them in a\l"
-	.string "battle, becoming the CHAMPION of this\l"
-	.string "silly game holds the same weight as the\l"
-	.string "GOVERNOR himself, whoever controls RED\l"
-	.string "has the power to change everything, to\l"
-	.string "adapt to any situation, and ultimately\l"
-	.string "emerge victorious at the end of the\l"
-	.string "day. There is no escape possibility.$"
+.string "Comprenderás, pues, la importancia\n"
+	.string "de contar con un ser así, dentro de un\l"
+	.string "mundo donde absolutamente todos, como\l"
+	.string "principio básico universal, se callan\l"
+	.string "la boca frente a ti si eres capaz de\l"
+	.string "vencerles en un combate, y en el que\l"
+	.string "llegar a ser CAMPEÓN de ese estúpido\l"
+	.string "juego tiene el mismo peso de aquel que\l"
+	.string "gobierne la susodicha región.$"
+
+PokemonLeague_6F_Final_Texto_12.1:
+	.string "Por equivalencia, aquel que maneje a\n"
+	.string "ROJO tiene el poder de cambiarlo todo,\l"
+	.string "de adaptarse a cualquier situación y,\l"
+	.string "al final del día, salir vencedor.\l"
+	.string "No hay posibilidad de escape.$"
 
 PokemonLeague_6F_Final_Texto_13:
-	.string "Don't you notice? No one, not even\n"
-	.string "LANCE, would win against a RED\l"
-	.string "long-term, exposed to enough stimulus\l"
-	.string "to perfect his team.$"
+.string "¡¿No te das cuenta?!\n"
+	.string "¡Nadie, ni siquiera LANCE, puede\l"
+	.string "a largo plazo ante un ROJO expuesto\l"
+	.string "al estímulo adecuado que le permita\l"
+	.string "perfeccionar sus POKÉMON!$"
 
 PokemonLeague_6F_Final_Texto_14:
 	.string "Do you think that I do not want to use\n"
@@ -464,150 +701,173 @@ PokemonLeague_6F_Final_Texto_26:
 .string "????: We had a deal, OAK.$"
 
 PokemonLeague_6F_Final_Texto_27:
-.string "OAK: Oh, LANCE…\n"
-	.string "I-I…\l"
-	.string "Was…$"
+.string "OAK: Oh{PAUSE 25},{PAUSE 25} LANCE{PAUSE 25}…{PAUSE 15}\n"
+	.string "Y{PAUSE 25}-{PAUSE 25}yo{PAUSE 25}…{PAUSE 25}\l"
+	.string "Estab{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_28:
-	.string "LANCE: -A Trainer beyond reach,\n"
-	.string "unbeatable by anyone, capable of\l"
-	.string "guaranteeing us a CHAMPION aligned\l"
-	.string "with our interests, impossible to\l"
-	.string "overthrow, and who will maintain said\l"
-	.string "position for as long as we desire-.$"
+.string "LANCE: -Un ENTRENADOR inabordable,\n"
+	.string "imbatible para cualquiera, capaz de\l"
+	.string "asegurarnos un CAMPEÓN afín a nuestros\l"
+	.string "intereses, imposible de desbancar y\l"
+	.string "que mantendrá dicho puesto todo el\l"
+	.string "tiempo del que gustemos-.$"
 
 PokemonLeague_6F_Final_Texto_29:
-	.string "That was what you said, OAK, when you\n"
-	.string "convinced me to re-open the chance to\l"
-	.string "win the LEAGUE championship.$"
+.string "Esas fueron tus palabras, OAK,\n"
+	.string "cuando me convenciste para abrir de\l"
+	.string "nuevo la opción de luchar por el\l"
+	.string "título de la LIGA.$"
 
 PokemonLeague_6F_Final_Texto_30:
-	.string "You presented it to me as a way to bring\n"
-	.string "back the illusion and hope to KANTO,\l"
-	.string "along with a method to gain that\l"
-	.string "difficult loyalty and trust in the\l"
-	.string "system, a brilliant strategy, OAK, this\l"
-	.string "way, we could achieve our goals without\l"
-	.string "getting deeply involved, as the League\l"
-	.string "Championship would be little more than\l"
-	.string "an illusion for any citizen, already\l"
-	.string "overwhelmed by excessive work\l"
-	.string "preventing them from excelling in\l"
-	.string "anything beyond their daily lives.\l"
-	.string "Especially with a TRAINER like RED, a\l"
-	.string "symbol of perfection and the ultimate\l"
-	.string "strategist in combat, a statistically\l"
-	.string "impossible feat to achieve in this\l"
-	.string "region.$"
+.string "Me lo vendiste como una forma de\n"
+	.string "devolver la ilusión y la esperanza a\l"
+	.string "KANTO, además de un modo de obtener\l"
+	.string "esa fidelidad y confianza en el\l"
+	.string "sistema tan difícil de ganarse.$"
+
+PokemonLeague_6F_Final_Texto_30.1:
+	.string "Una estrategia brillante, OAK, con\n"
+	.string "la que obtendríamos lo que queremos\l"
+	.string "sin comprometernos, pues el campeonato\l"
+	.string "de la LIGA sería poco más que un\l"
+	.string "espejismo para cualquier ciudadano, de\l"
+	.string "por sí abrumado por su dura rutina.$"
+
+PokemonLeague_6F_Final_Texto_30.2:
+	.string "Algo que impide alcanzar la excelencia\n"
+	.string "en cualquier cosa ajena a la vida\l"
+	.string "cotidiana, en contraste con la ÉLITE 4.$"
+
+PokemonLeague_6F_Final_Texto_30.3:
+	.string "Coronarse entonces con ROJO: símbolo\n"
+	.string "de la perfección y el tope en cuanto\l"
+	.string "combate se refiere, sería una hazaña\l"
+	.string "estadísticamente imposible de lograr\l"
+	.string "en esta región.$"
 
 PokemonLeague_6F_Final_Texto_31:
-	.string "It appears, OAK, that it hasn't even\n"
-	.string "been a citizen who has surpassed your\l"
-	.string "experiment. IT WAS A ROCKET, OAK! A\l"
-	.string "ROCKET!, perhaps you underestimated\l"
-	.string "the effects of that excessive work you\l"
-	.string "spoke of as a performance inhibitor, at\l"
-	.string "least for those capable of surviving it\l"
-	.string "and redirecting it in the correct\l"
-	.string "direction.$"
+.string "Resulta, OAK, que no ha sido necesario\n"
+	.string "un vulgar ciudadano para desbancar a\l"
+	.string "tu obra maestra.$"
+
+PokemonLeague_6F_Final_Texto_31.1:
+	.string "¡HA SIDO UN ROCKET, OAK!\n"
+	.string "¡UN ROCKET!$"
+
+PokemonLeague_6F_Final_Texto_31.2:
+	.string "¡Tal vez subestimaste los efectos de\n"
+	.string "ese trabajo excesivo del que hablaste\l"
+	.string "como inhibidor del rendimiento!\p"
+	.string "¡Al menos para aquellos capaces\n"
+	.string "de sobrevivir y reconducirlo en\l"
+	.string "la dirección adecuada!$"
 
 PokemonLeague_6F_Final_Texto_32:
-	.string "OAK: Lemme let you explain, LANCE, RED\n"
-	.string "was not ready yet, still needs to be\l"
-	.string "exposed at…$"
+.string "OAK: Déjeme explicarle, SR.LANCE{PAUSE 15}…{PAUSE 15}\n"
+	.string "ROJO aún no estaba listo,\l"
+	.string "necesita exponerse a{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_33:
-	.string "LANCE: I've had enough of listening to\n"
-	.string "you talk, OAK, I don't want assumptions,\l"
-	.string "I want results, we'll handle this in my\l"
-	.string "own way.$"
+.string "LANCE: Ya estoy harto de oírte hablar.\n"
+	.string "No quiero conjeturas: quiero resultados.\l"
+	.string "Haremos esto a mi manera.$"
 
 PokemonLeague_6F_Final_Texto_34:
-	.string "LANCE: I should've advised myself that\n"
-	.string "such a thing might occur when I\l"
-	.string "employed a team of a few superior\l"
-	.string "levels than I did with the other 3\l"
-	.string "competitors to quickly remove you from\l"
-	.string "the competition, and still you came out\l"
-	.string "unscathed. I already had a sense that\l"
-	.string "something like this could happen, but\l"
-	.string "don't worry, I won't repeat that error.$"
+.string "Debí advertir que algo así podría\n"
+	.string "ocurrir contigo.$"
+
+PokemonLeague_6F_Final_Texto_34.1:
+	.string "Empleé POKÉMON de un nivel algo superior\n"
+	.string "a lo que hice con los 3 competidores,\l"
+	.string "con el objeto de quitarte rápidamente\l"
+    .string "del medio, y aún con ello saliste ileso.$"
+
+PokemonLeague_6F_Final_Texto_34.2:
+	.string "Pero no te preocupes: no\n"
+	.string "volveré a cometer ese error.$"
 
 PokemonLeague_6F_Final_Texto_35:
-.string "OAK: Wh-what are you going to do?$"
+.string "OAK: ¿Q{PAUSE 25}-{PAUSE 25}qué va a hacer?$"
 
 PokemonLeague_6F_Final_Texto_36:
-.string "OAK: We a-are doomed…\n"
-	.string "He is..\l"
-	.string "Going to…\l"
-	.string "Release the beas…$"
+.string "OAK: E{PAUSE 25}-{PAUSE 25}estamos perdidos{PAUSE 15}…{PAUSE 15}\n"
+	.string "Va{PAUSE 25}…{PAUSE 25}\l"
+	.string "A{PAUSE 15}…{PAUSE 15}\l"
+	.string "Volver a soltar las best{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_37:
-	.string "LANCE: CHAMPION, GOVERNOR, both are\n"
-	.string "just words, who has the power rules the\l"
-	.string "world.$"
+.string "LANCE: CAMPEÓN{PAUSE 25}…{PAUSE 25} GOBERNADOR{PAUSE 25}…{PAUSE 25}\n"
+	.string "Son solo palabras, quien tiene\l"
+	.string "el poder controla el mundo.$"
 
 PokemonLeague_6F_Final_Texto_38:
-	.string "Why do you think people love and\n"
-	.string "venerate that much LEGENDARIES\l"
-	.string "POKÉMON and PSEUDOLEGENDARIES? Yeah,\l"
-	.string "we don't care where they come from, the\l"
-	.string "only thing that we care about is; that\l"
-	.string "compared to the rest of POKÉMON, they\l"
-	.string "have a great and exceptional unique\l"
-	.string "power.$"
+.string "¿Por qué crees que la gente venera\n"
+	.string "a los LEGENDARIOS y PSEUDOLEGENDARIOS?\p"
+	.string "A nadie le importa de dónde provengan,\n"
+	.string "lo único que nos interesa de ellos es\l"
+	.string "que, comparados con el resto de POKÉMON,\l"
+	.string "cuentan con un poder único, excepcional.$"
 
 PokemonLeague_6F_Final_Texto_39:
-	.string "That's where its magic lies, in the\n"
-	.string "unknown of that power, and in this case,\l"
-	.string "it's inaccessible to the rest. As far as\l"
-	.string "I know, science has not yet managed to\l"
-	.string "reproduce the miraculous combination\l"
-	.string "capable of giving rise to a LEGENDARY\l"
-	.string "POKÉMON.$"
+.string "Ahí es donde radica su magia, en\n"
+	.string "lo desconocido de ese poder, y en\l"
+	.string "este caso, inaccesible para el resto.$"
+	
+PokemonLeague_6F_Final_Texto_39.1:
+	.string "Que yo sepa, la ciencia es incapaz de\n"
+	.string "reproducir la milagrosa combinación\l"
+	.string "que da lugar a un POKÉMON LEGENDARIO.$"
 
 PokemonLeague_6F_Final_Texto_40:
-	.string "So many years of hard work to discover\n"
-	.string "better fruits in nature OAK. You were\l"
-	.string "foolish to believe you could play with\l"
-	.string "the rules of the game better than the\l"
-	.string "creator of those rules.$"
+.string "Tantos años de duro trabajo para\n"
+	.string "al final encontrar en la propia\l"
+	.string "naturaleza frutos mejores, OAK.$"
+
+PokemonLeague_6F_Final_Texto_40.1:
+	.string "Fuiste un iluso al creer que podías\n"
+	.string "jugar con las reglas del juego mejor\l"
+	.string "que la creadora de dichas reglas.$"
 
 PokemonLeague_6F_Final_Texto_41:
-	.string "I will do what I should have done a long\n"
-	.string "time ago, govern this region with no\l"
-	.string "compassion, who better than me, LANCE,\l"
-	.string "the greatest expert in the most sacred\l"
-	.string "and powerful type that exists: the\l"
-	.string "DRAGON TYPE, to assume that role.$"
+.string "Voy a hacer lo que debí haber\n"
+	.string "hecho desde el principio, gobernar\l"
+	.string "con puño de hierro esta región.$"
+
+PokemonLeague_6F_Final_Texto_41.1:
+	.string "¿Quién mejor que LANCE, el mayor\n"
+	.string "especialista del tipo más sagrado\l"
+	.string "y poderoso que existe, para ocupar\l"
+	.string "ese cargo?$"
 
 PokemonLeague_6F_Final_Texto_42:
-	.string "Concerning you, after crushing you like\n"
-	.string "a simple insect, I will publicly expose\l"
-	.string "whatever is left of you and your team\l"
-	.string "as an example and a warning of what\l"
-	.string "awaits anyone daring to show the\l"
-	.string "slightest insubordination against my\l"
-	.string "government.$"
+.string "En cuanto a ti{PAUSE 15}…{PAUSE 15}\n"
+	.string "Después de aplastarte como a un vulgar\l"
+	.string "insecto, expondré públicamente lo que\l"
+	.string "quede de ti y tu equipo, como ejemplo\l"
+	.string "y aviso de lo que le espera a todo\l"
+	.string "aquel que ose insubordinarse lo más\l"
+	.string "mínimo en contra de mi gobierno.$"
 
 PokemonLeague_6F_Final_Texto_43:
-	.string "Be positive, ROCKET, you shall be\n"
-	.string "remembered as the one that made\l"
-	.string "'LANCE I' use his sacred POKÉMON just\l"
-	.string "before the dawn of the new era of his\l"
-	.string "reign…$"
+.string "Mira el lado bueno, ROCKET.\p"
+	.string "Pasarás a la historia como aquel que\n"
+	.string "obligó a LANCE I a hacer uso de sus\l"
+	.string "sagrados POKÉMON, justo antes de dar\l"
+	.string "inicio a la nueva fase de su reinado{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_44:
-.string "LANCE: …$"
+.string "LANCE: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_45:
-	.string "LANCE: There is no honor in beating up\n"
-	.string "an opponent weakened by the hard way\l"
-	.string "to this room. I want you to see how I\l"
-	.string "crush your team at ist's peak. You will\l"
-	.string "understand once and for all that there\l"
-	.string "are powers that mortals like you can\l"
-	.string "only bow to them.$"
+.string "LANCE: No hay honor en acabar con\n"
+	.string "un rival menguado por el duro camino\l"
+	.string "que le ha llevado hasta aquí.\l"
+	.string "Quiero que veas cómo aplasto a tu\l"
+	.string "equipo en su apogeo, vas a entender de\l"
+	.string "una vez por todas que existen poderes\l"
+	.string "ante los que mortales como tú solo\l"
+	.string "pueden arrodillarse.$"
 
 PokemonLeague_6F_Final_Texto_46:
 	.string "I AM THE STATE!!$"
@@ -782,21 +1042,29 @@ walk_in_place_down
 step_end
 
 PokemonLeague_6F_Final_Move_16:
+delay_8
 walk_slow_up
+delay_16
 walk_in_place_up
+delay_8
 step_end
 
 PokemonLeague_6F_Final_Move_17:
+delay_8
 walk_slow_right
+delay_16
 walk_in_place_right
+delay_8
 step_end
 
 PokemonLeague_6F_Final_Move_18:
 walk_left
+delay_16
 walk_in_place_up
 step_end
 
 PokemonLeague_6F_Final_Move_19:
+delay_8
 walk_slow_up
 walk_slow_up
 step_end
@@ -810,6 +1078,7 @@ step_end
 
 PokemonLeague_6F_Final_Move_21:
 walk_right
+delay_16
 walk_in_place_up
 step_end
 
@@ -829,8 +1098,8 @@ PokemonLeague_6F_Final_Move_24:
 walk_slow_right
 walk_slow_right
 walk_slow_up
-walk_slow_right
 walk_slow_up
+walk_slow_right
 walk_slow_up
 step_end
 
@@ -849,9 +1118,9 @@ face_right
 step_end
 
 PokemonLeague_6F_Final_Move_27:
+walk_fast_down
+walk_fast_left
 walk_slow_down
-walk_slow_down
-walk_slow_left
 walk_slow_down
 walk_slow_left
 walk_slow_left

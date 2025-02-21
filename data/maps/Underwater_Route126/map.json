@@ -42,7 +42,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 45,
+      "y": 66,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Underwater_Route128_Barrera"
+    }
   ],
   "bg_events": [
     {

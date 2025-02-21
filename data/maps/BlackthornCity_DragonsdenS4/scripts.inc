@@ -37,11 +37,14 @@ lock
 faceplayer
 applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_2
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4 MSGBOX_AUTOCLOSE
@@ -92,31 +95,47 @@ msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16 MSGBOX_AUTOCLOS
 playse SE_PIN
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_3
 waitmovement 0x0
+waitse
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_4
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18 MSGBOX_AUTOCLOSE
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_9
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_3
 waitmovement 0x0
+waitse
+delay 10
+playse SE_BREAKABLE_DOOR
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_10
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_11
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 2, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_12
 waitmovement 0x0
+delay 10
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 fadescreen 1
@@ -243,32 +262,33 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_13:
 	.string "utmost mortals like you can aspire to.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
-	.string "DRAGON M.: It was you who coldly\n"
-	.string "captured HO-OH. You should be ashamed\l"
-	.string "to cage something so pure, taking\l"
-	.string "advantage of the great battle that the\l"
-	.string "ECRUTEAK MASTER and {PLAYER} had.$"
+.string "M.DRAGÓN: Fuiste tú quién atrapó a\n"
+	.string "HO-OH a sangre fría, debería darte\l"
+	.string "vergüenza encerrar así algo tan\l"
+	.string "puro, aprovechando el gran combate\l"
+	.string "que el M.JADEN y {PLAYER} tuvieron.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
-	.string "ZEUS: The foremost matter is that\n"
-	.string "HO-OH and LUGIA are both in my\l"
-	.string "possession. What's essential is the\l"
-	.string "result. And now… At long last… KYUREM\l"
-	.string "too…$"
+.string "ZEUS: Lo importante es que HO-OH\n"
+	.string "ahora me pertenece, también LUGIA.\p"
+	.string "¿Qué importa la forma?\p"
+	.string "Y ahora{PAUSE 15}…{PAUSE 15} Al fin{PAUSE 15}…{PAUSE 15}\p"
+	.string "KYUREM también{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
-	.string "(ZEUS seized KYUREM from\n"
-	.string "the DRAGON MASTER.)$"
+.string "-ZEUS le quitó el KYUREM al\n"
+	.string "M.DRAGÓN-.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17:
-	.string "DRAGON M.: What? What are you\n"
-	.string "going to do with that POKÉMON?$"
+.string "M.DRAGÓN: ¡¿Q{PAUSE 15}…{PAUSE 15}Qué?!\n"
+	.string "¿¡Qúe vas a hacer con\l"
+	.string "ese POKÉMON!?$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18:
-	.string "ZEUS: Don't be so coy, crone. You know\n"
-	.string "of every matter regarding DRAGON\l"
-	.string "TYPEs. I'm certain you're aware of the\l"
-	.string "legend of the ORIGINAL DRAGON.$"
+.string "ZEUS: No te hagas el tonto, anciano.\p"
+	.string "Sabes todo sobre el TIPO DRAGÓN, y\n"
+	.string "seguro que conoces también la\l"
+	.string "leyenda del DRAGÓN ORIGINAL.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
 	.string "DRAGON M.: It's not a legend-that\n"
@@ -371,6 +391,7 @@ step_end
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_6:
 walk_right
+delay_16
 walk_in_place_left
 step_end
 
@@ -385,6 +406,7 @@ step_end
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_9:
 walk_slow_up
 walk_slow_up
+delay_16
 walk_in_place_up
 step_end
 

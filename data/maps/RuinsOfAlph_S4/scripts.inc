@@ -14,9 +14,12 @@ waitmoncry
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_2
 waitmovement 0x0
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_4
 waitmovement 0x0
 special SpawnCameraObject
@@ -160,11 +163,15 @@ waitmovement 0x0
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_11
 waitmovement 0x0
+delay 10
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S4_Combate_Zeus_Move_12
 waitmovement 0x0
@@ -180,6 +187,7 @@ playbgm MUS_RG_VICTORY_GYM_LEADER, FALSE
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
 delay 20
@@ -191,9 +199,12 @@ playse SE_M_EMBER
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_13
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_15 MSGBOX_AUTOCLOSE
 fadedefaultbgm
 delay 100
@@ -201,15 +212,23 @@ playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+waitse
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_14
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_14
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_16 MSGBOX_AUTOCLOSE
-msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
+applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_14
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_14
+waitse
+msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_16.1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
@@ -352,19 +371,25 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_14:
 .string "KYUREM!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
-	.string "Is it not possible?! The PRIMAL\n"
-	.string "POKÉMON-the very god of POKÉMON! The\l"
-	.string "ORIGINAL DRAGON… How could you…?$"
+.string "¿¡No es posible!?\p"
+	.string "Los PRIMIGENIOS, el mismísimo dios\n"
+	.string "POKÉMON, el DRAGÓN ORIGINAL…\p"
+	.string "¿Cómo tú…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
-	.string "????: Stupid fool, do you really believe\n"
-	.string "that was the ORIGINAL DRAGON? Trying\l"
-	.string "to reform something perfect by piecing\l"
-	.string "together imperfections as if they were\l"
-	.string "puzzle pieces. Pathetic.$"
+.string "????: Estúpido iluso.$"
+
+RuinsOfAlph_S4_Combate_Zeus_Texto_16.1:
+	.string "¿De verdad crees que eso era\n"
+	.string "el DRAGÓN ORIGINAL?\p"
+	.string "Pretender volver a formar algo\n"
+	.string "perfecto juntando imperfecciones\l"
+	.string "como si fueran piezas de un puzzle.\l"
+	.string "Patético.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_17:
-	.string "ZEUS: I don't understand. Who are you!?$"
+.string "ZEUS: No entiendo.\p"
+	.string "¿¡Quién eres tú!?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_18:
 .string "TAAAAAAAALL!$"
@@ -463,6 +488,7 @@ step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_11:
 walk_slow_down
+delay_16
 walk_in_place_down
 step_end
 
@@ -505,11 +531,13 @@ step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_18:
 walk_up
+delay_16
 walk_in_place_right
 step_end
 
 RuinsOfAlph_S4_Combate_Zeus_Move_19:
 walk_right
+delay_16
 walk_in_place_down
 step_end
 

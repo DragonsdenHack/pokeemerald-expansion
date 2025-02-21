@@ -58,12 +58,18 @@ delay 20
 playse SE_PIN
 applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_2
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_5 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE
 setvar VAR_ROUTE102_STATE, 1
@@ -82,11 +88,13 @@ delay 20
 playse SE_PIN
 applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
-applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_1
-waitmovement 0x0
+delay 10
 applymovement 4, RuinsOfAlph_House_Mision_Secundaria_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_10 MSGBOX_DEFAULT
@@ -110,6 +118,8 @@ face_up
 step_end
 
 RuinsOfAlph_House_Mision_Secundaria_Move_3:
+face_up
+delay_16
 face_player
 step_end
 

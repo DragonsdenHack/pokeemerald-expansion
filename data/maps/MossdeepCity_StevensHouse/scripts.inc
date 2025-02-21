@@ -12,7 +12,6 @@ MossdeepCity_StevensHouse_OnLoad:
 	end
 
 MossdeepCity_StevensHouse_EventScript_HideStevensNote::
-	setmetatile 6, 4, METATILE_GenericBuilding_TableEdge, TRUE
 	return
 
 MossdeepCity_StevensHouse_OnTransition:
@@ -212,6 +211,6 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "STEVEN STONE$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string	"Es una colección de rocas y piedras\n"
+	.string	"raras reunida por MÁXIMO.$"
 

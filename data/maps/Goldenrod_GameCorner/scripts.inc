@@ -11,7 +11,7 @@ Goldenrod_GameCorner_MapScripts::
 	.set SHUCKLE_COINS,         1250
 	.set SUDOWOODO_COINS,       2400
 	.set CYNDAQUIL_COINS,       4200
-	.set LARVITAR_COINS,        5500
+	.set LARVITAR_COINS,        4500
 
 GoldenrodGameCorner1::
 end
@@ -135,7 +135,7 @@ EventScript_Lupa_Texto_1:
 
 EventScript_Lupa::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 1
 msgbox EventScript_Lupa_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -143,20 +143,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, LUPA_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins LUPA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 additem ITEM_WIDE_LENS
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Toxisfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 2
 msgbox EventScript_Toxisfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -164,20 +163,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TOXISFERA_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TOXISFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 additem ITEM_TOXIC_ORB
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Casco::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 3
 msgbox EventScript_Casco_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -185,20 +183,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, CASCO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins CASCO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 additem ITEM_ROCKY_HELMET
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Vidasfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 4
 msgbox EventScript_Vidasfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -206,20 +203,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, VIDASFERA_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins VIDASFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 additem ITEM_LIFE_ORB
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Cinta::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 5
 msgbox EventScript_Cinta_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -227,14 +223,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, CINTA_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins CINTA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 additem ITEM_CHOICE_BAND
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
@@ -258,7 +253,7 @@ end
 
 EventScript_Teddiursa::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 6
 msgbox EventScript_Teddiursa_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -266,20 +261,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TEDDIURSA_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TEDDIURSA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_TEDDIURSA, 28, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Shuckle::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 7
 msgbox EventScript_Shuckle_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -287,20 +281,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, SHUCKLE_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins SHUCKLE_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_SHUCKLE, 40, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Sudowoodo::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Sudowoodo_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -308,20 +301,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, SUDOWOODO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins SUDOWOODO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_SUDOWOODO, 50, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Cyndaquil::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 9
 msgbox EventScript_Cyndaquil_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -329,20 +321,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, CYNDAQUIL_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins CYNDAQUIL_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_CYNDAQUIL, 12, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
 EventScript_Larvitar::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 10
 msgbox EventScript_Larvitar_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -350,14 +341,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, LARVITAR_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins LARVITAR_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
-givemon SPECIES_LARVITAR, 28, ITEM_NONE
+playse SE_SHOP
+givemon SPECIES_HITMONTOP, 50, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple
 release
 end
 
@@ -377,12 +367,11 @@ playse SE_SHOP
 removemoney 220000 0
 updatemoneybox
 delay 80
+hidemoneybox
 playfanfare MUS_OBTAIN_TMHM
 msgbox EventScript_Compra_Porygon_Texto_6 MSGBOX_DEFAULT
 givemon SPECIES_PORYGON, 60, ITEM_NONE
 waitfanfare
-hidemoneybox
-delay 20
 msgbox EventScript_Compra_Porygon_Texto_7 MSGBOX_NPC
 release
 end
@@ -390,7 +379,6 @@ end
 EventScript_Compra_Porygon_No::
 delay 10
 hidemoneybox
-delay 10
 msgbox EventScript_Compra_Porygon_Texto_5 MSGBOX_NPC
 release
 end

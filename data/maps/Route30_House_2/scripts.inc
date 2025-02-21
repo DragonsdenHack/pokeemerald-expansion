@@ -36,7 +36,7 @@ Route30_House_2_Documento_Texto_1:
 	.string "special item: the RED SCALE.$"
 
 Route30_House_2_Documento_Texto_2:
-	.string "… … … … … … … …$"
+	.string "… … … … … … … …{PAUSE 5}$"
 
 Route30_House_2_Documento_Texto_3:
 	.string "We still don't know its nature, but it\n"

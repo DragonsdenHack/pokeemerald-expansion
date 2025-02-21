@@ -22,7 +22,7 @@ gText_WelcomeCutShort::
     .string "the POKÉMON CENTER.\p"
     .string "We restore your tired POKÉMON\n"
     .string "to full health.\p"
-    .string "Would you like to…$"
+    .string "Would you like to…{PAUSE 5}$"
 
 gText_NoticesGoldCard::
     .string "Th-that card…\n"

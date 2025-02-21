@@ -359,7 +359,7 @@ PlayersHouse_1F_Text_IsThatAPokenav:
 	.string "Someone from DEVON gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
-	.string "… … …$"
+	.string "… … …{PAUSE 5}$"
 
 PlayersHouse_1F_Text_RegisteredMom:
 	.string "Registered MOM\n"
@@ -369,7 +369,7 @@ PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-	.string "Huggoh, uggo uggo…$"
+	.string "Huggoh, uggo uggo…{PAUSE 5}$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
 	.string "INTERVIEWER: …We brought you this\n"

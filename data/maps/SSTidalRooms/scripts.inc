@@ -106,7 +106,7 @@ SSTidalRooms_Text_JedIntro:
 	.string "We'll show you our lovey-dovey power!$"
 
 SSTidalRooms_Text_JedDefeat:
-	.string "JED: Sigh…$"
+	.string "JED: Sigh{PAUSE 5}…{PAUSE 5}$"
 
 SSTidalRooms_Text_JedPostBattle:
 	.string "JED: It's the first time that our lovey-\n"

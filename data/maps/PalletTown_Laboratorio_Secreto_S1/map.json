@@ -1,0 +1,275 @@
+{
+  "id": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S1",
+  "name": "PalletTown_Laboratorio_Secreto_S1",
+  "layout": "LAYOUT_PALLET_TOWN_LABORATORIO_SECRETO_S1",
+  "music": "560",
+  "region_map_section": "MAPSEC_PALLET_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_SECRET_BASE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 33,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Laboratorio_EventScript_Mewtonita",
+      "flag": "FLAG_HOENN_226"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 54,
+      "y": 22,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Laboratorio_S1_EventScript_Restauratodo",
+      "flag": "FLAG_HOENN_227"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_655"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 9,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_Laboratorio_Secreto_Doc_Gyarados",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
+      "x": 42,
+      "y": 23,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Laboratorio_Secreto_S1_Diario_Oak",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
+      "x": 32,
+      "y": 24,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_655"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
+      "x": 55,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_655"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DITTO_DOLL",
+      "x": 19,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROJO",
+      "x": 19,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MOM2",
+      "x": 10,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_654"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 53,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_LAB",
+      "dest_warp_id": 4
+    },
+    {
+      "x": 50,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 2,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_LABORATORIO_SECRETO_S2",
+      "dest_warp_id": 3
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "28",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Andra"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "31",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Andra_Despues"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Segunda_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Segunda_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Primera_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Primera_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Primera_Llave"
+    },
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PalletTown_Laboratorio_Secreto_S1_Primera_Llave"
+    }
+  ]
+}

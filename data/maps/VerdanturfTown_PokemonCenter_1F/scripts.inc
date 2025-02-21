@@ -35,10 +35,9 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 	.string "through to the very end.$"
 
 VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
-	.string "The reason why anyone would visit\n"
-	.string "VERDANTURF…\p"
-	.string "It's the BATTLE TENT. It goes without\n"
-	.string "saying.\p"
-	.string "Or is there somebody here that you\n"
-	.string "came to see?$"
+	.string	"La razón por la que todo el mundo\n"
+	.string	"está viniendo a VERDEGAL…\p"
+	.string	"Es su MUSEO.\n"
+	.string	"No hace falta que lo diga.\p"
+	.string	"¿O es que has venido a ver a alguien?$"
 

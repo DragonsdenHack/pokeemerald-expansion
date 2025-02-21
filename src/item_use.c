@@ -18,6 +18,7 @@
 #include "field_effect.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
+#include "field_specials.h"
 #include "field_weather.h"
 #include "item.h"
 #include "item_menu.h"
@@ -676,6 +677,12 @@ void ItemUseOutOfBattle_CoinCase(u8 taskId)
     }
 }
 
+void ItemUseOutOfBattle_TownMap(u8 taskId)
+{
+        FadeInFromBlack();
+		FieldShowRegionMap();
+}
+
 void ItemUseOutOfBattle_PowderJar(u8 taskId)
 {
     ConvertIntToDecimalStringN(gStringVar1, GetBerryPowder(), STR_CONV_MODE_LEFT_ALIGN, 5);
@@ -779,6 +786,12 @@ void ItemUseOutOfBattle_AbilityCapsule(u8 taskId)
     SetUpItemUseCallback(taskId);
 }
 
+void ItemUseOutOfBattle_AbilityPatch(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_AbilityPatch;
+    SetUpItemUseCallback(taskId);
+}
+
 void ItemUseOutOfBattle_ReduceEV(u8 taskId)
 {
     gItemUseCB = ItemUseCB_ReduceEV;
@@ -808,6 +821,55 @@ void ItemUseOutOfBattle_RareCandy(u8 taskId)
     gItemUseCB = ItemUseCB_RareCandy;
     SetUpItemUseCallback(taskId);
 }
+
+void ItemUseOutOfBattle_CandyXS(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXS;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyS(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyS;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyXM(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXM;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyM(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyM;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyL(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyL;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyXL(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyXL;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyDynamax(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyDynamax;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_CandyDynamax2(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_CandyDynamax2;
+    SetUpItemUseCallback(taskId);
+}
+
 
 void ItemUseOutOfBattle_TMHM(u8 taskId)
 {
@@ -1159,6 +1221,14 @@ void ItemUseOutOfBattle_EnigmaBerry(u8 taskId)
     case ITEM_EFFECT_RAISE_LEVEL:
         gTasks[taskId].tEnigmaBerryType = ITEM_USE_PARTY_MENU;
         ItemUseOutOfBattle_RareCandy(taskId);
+		ItemUseOutOfBattle_CandyXS(taskId);
+		ItemUseOutOfBattle_CandyS(taskId);
+		ItemUseOutOfBattle_CandyXM(taskId);
+		ItemUseOutOfBattle_CandyM(taskId);
+		ItemUseOutOfBattle_CandyL(taskId);
+		ItemUseOutOfBattle_CandyXL(taskId);
+		ItemUseOutOfBattle_CandyDynamax(taskId);
+		ItemUseOutOfBattle_CandyDynamax2(taskId);
         break;
     case ITEM_EFFECT_PP_UP:
     case ITEM_EFFECT_PP_MAX:
@@ -1227,5 +1297,13 @@ void ItemUseOutOfBattle_Mints(u8 taskId)
     gItemUseCB = ItemUseCB_Mints;
     SetUpItemUseCallback(taskId);
 }
+
+void ItemUseOutOfBattle_Fusion(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_Fusion;
+    gTasks[taskId].data[0] = FALSE;
+    SetUpItemUseCallback(taskId);
+}
+
 
 #undef tUsingRegisteredKeyItem

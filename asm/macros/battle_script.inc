@@ -1588,6 +1588,10 @@
 	various BS_ATTACKER, VARIOUS_TRY_COPYCAT
 	.4byte \ptr
 	.endm
+	
+	.macro setzeffect
+	various BS_ATTACKER, VARIOUS_SET_Z_EFFECT
+	.endm
 
 	.macro showabilitypopup battler:req
 	various \battler, VARIOUS_ABILITY_POPUP

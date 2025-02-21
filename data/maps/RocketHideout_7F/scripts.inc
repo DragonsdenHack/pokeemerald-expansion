@@ -180,8 +180,14 @@ RocketHideout7F_11::
 lock     
 faceplayer     
 msgbox RocketHideout7F_Text_11, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_11.1, MSGBOX_DEFAULT
 release     
 end
+
+RocketHideout7F_Text_11.1:
+	.string "Nadie ha estado tan expuesto y ha\n"
+	.string "demostrado tanto como nuestro LÍDER, y\l"
+	.string "es por ello que tenemos fe ciega en él.$"
 
 RocketHideout7F_Text_11:
 	.string "If we could combine the HP of BLISSEY,\n"
@@ -312,9 +318,24 @@ release
 end
 
 RocketHideout7F_Text_18:
-	.string "We don't know where the limit of\n"
-	.string "achievable base power by a POKÉMON is,\l"
-	.string "but we do know where it isn't…$"
+.string "No sabemos dónde está el límite de\n"
+.string "poder base alcanzable por un\l"
+.string "POKÉMON, pero si sabemos dónde no\l"
+.string "está{PAUSE 5}…{PAUSE 5}$"
+
+RocketHideout7F_Bombalodo_Hoenn::
+lock
+faceplayer
+msgbox RocketHideout7F_Bombalodo_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout7F_Bombalodo_Hoenn_Texto_1:
+	.string "Se dice que los mejores caballos\n"
+	.string "pierden cuando compiten con otros más\l"
+	.string "lentos y que ganan con rivales a su\l"
+	.string "altura: la ausencia de retos perjudica\l"
+	.string "a los mejores.$"
 
 
 
@@ -443,13 +464,13 @@ RocketHideout7FDocumento_Text_100:
 	.string "SPECIAL DEFENSE: 125\l"
 	.string "SPEED: 85\l"
 	.string "TOTAL: 580\p"
-	.string "The frozen bird of our region, with the\n"
-	.string "highest defensive stats but the worst\l"
-	.string "types combination, due to his\l"
-	.string "characteristic ability SNOW WARNING\l"
-	.string "will transform the weather into a\l"
-	.string "constant hail as that BLIZZARD will\l"
-	.string "never fail.$"
+	.string "El ave helada de nuestra región,\n"
+	.string "la de mayores atributos defensivos\l"
+	.string "pero peor combinación de tipos.\p"
+	.string "A pesar de ello, gracias a INDEFENSO\n"
+	.string "mantiene cierto peligro ofensivo, al\l"
+	.string "poder hacer uso de VENTISCA y\l"
+	.string "VENDAVAL sin fallar.$"
 
 
 
@@ -471,14 +492,15 @@ RocketHideout7FDocumento_Text_101:
 	.string "SPECIAL DEFENSE: 90\l"
 	.string "SPEED: 100\l"
 	.string "TOTAL: 580\p"
-	.string "The KANTO's thunder and the best\n"
-	.string "offensive stats LEGENDARY BIRD, due to\l"
-	.string "it ability drizzle would hit with a\l"
-	.string "powerful THUNDER without fail, and a\l"
-	.string "WEATHERBALL that perfectly covers it\l"
-	.string "menaces under rain, we estimate that\l"
-	.string "ZAPDOS is the bird with the highest\l"
-	.string "potential.$"
+	.string "El trueno de KANTO y AVE SAGRADA\n"
+	.string "con mejores atributos ofensivos.\p"
+	.string "Gracias a DESCARGA podrá golpear con\n"
+	.string "una potencia aún mayor, además de\l"
+	.string "cubrir gran parte de sus amenazas,\l"
+	.string "gracias a movimientos como ONDA ÍGNEA,\l"
+	.string "METEOROBOLA y PARANORMAL.\p"
+	.string "Se estima que su techo biológico es el\n"
+	.string "mayor de entre las 3 AVES SAGRADAS.$"
 
 
 
@@ -500,13 +522,15 @@ RocketHideout7FDocumento_Text_102:
 	.string "SPECIAL DEFENSE: 100\l"
 	.string "SPEED: 90\l"
 	.string "TOTAL: 580\p"
-	.string "The KANTO's flame and the one of the\n"
-	.string "three birds that can do the highest\l"
-	.string "damage due to his drought will cause it\l"
-	.string "fire attacks hits as anyone else, it will\l"
-	.string "protect against its water weakness and\l"
-	.string "could use SOLAR BEAM without needing\l"
-	.string "to waste a turn.$"
+	.string "La llama de KANTO, y el AVE SAGRADA\n"
+	.string "que más daño puede generar, gracias\l"
+	.string "a su habilidad, POTENCIA BRUTA.\l"
+	.string "Con ello, su LLAMARADA supera en\l"
+	.string "potencia a LEGENDARIOS MAYORES como\l"
+	.string "HO-OH.\p"
+	.string "Una VELOCIDAD mejorable y frágil\n"
+	.string "combinación de tipos, lo vuelven\l"
+	.string "vulnerable ante POKÉMON mortales.$"
 
 
 
@@ -1079,6 +1103,75 @@ RocketHideout7FDocumento_Text_122:
 	.string "defenses. Its origin is completely\l"
 	.string "unknown.$"
 
+RocketHideout7FDocumento_Latias::
+lock     
+showmonpic SPECIES_LATIAS, 10, 3   
+playmoncry SPECIES_LATIAS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout7FDocumento_Text_Latias, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latias_1, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latias_2, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout7FDocumento_Text_Latias:
+.string "NÚMERO 5: LATIAS\p"
+	.string "PS: 80\n"
+	.string "ATAQUE: 80\l"
+	.string "DEFENSA: 90\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 130\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 600$"
+
+RocketHideout7FDocumento_Text_Latias_1:
+	.string "Junto con LATIOS, forma uno de los dúos\n"
+	.string "LEGENDARIOS más esquivos para el\l"
+	.string "humano. Cuenta con mayor eficiencia,\l"
+	.string "pero menor poder ofensivo que su\l"
+	.string "hermano.$"
+
+RocketHideout7FDocumento_Text_Latias_2:
+	.string "Sus números son similares a los de un\n"
+	.string "PSEUDOLEGENDARIO con buen reparto de\l"
+	.string "stats, sin embargo, equipado con el\l"
+	.string "ROCÍO BONDAD alcanza cotas de\l"
+	.string "LEGENDARIO MAYOR.$"
+
+RocketHideout7FDocumento_Latios::
+lock     
+showmonpic SPECIES_LATIOS, 10, 3   
+playmoncry SPECIES_LATIOS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout7FDocumento_Text_Latios, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latios_1, MSGBOX_DEFAULT
+msgbox RocketHideout7FDocumento_Text_Latios_2, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout7FDocumento_Text_Latios:
+.string "NÚMERO 4: LATIOS\p"
+	.string "PS: 80\n"
+	.string "ATAQUE: 90\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 130\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 600$"
+
+RocketHideout7FDocumento_Text_Latios_1:
+	.string "Junto con LATIAS, forma uno de los dúos\n"
+	.string "LEGENDARIOS más esquivos para el\l"
+	.string "humano. Cuenta con menor eficiencia,\l"
+	.string "pero mayor poder ofensivo que su\l"
+	.string "hermana.$"
+
+RocketHideout7FDocumento_Text_Latios_2:
+	.string "Sus números son similares a los de un\n"
+	.string "PSEUDOLEGENDARIO con buen reparto de\l"
+	.string "stats, sin embargo, equipado con el\l"
+	.string "ROCÍO BONDAD alcanza cotas de\l"
+	.string "LEGENDARIO MAYOR.$"
 
 
 RocketHideout7FDocumento_123::
@@ -1242,29 +1335,30 @@ end
 
 RocketHideout7FDocumento_Text_128:
 .string "RHYPERIOR-&\p"
-	.string "HP: 125\n"
-	.string "ATTACK: 175\l"
-	.string "DEFENSE: 155\l"
-	.string "SPECIAL ATTACK: 55\l"
-	.string "SPECIAL DEFENSE: 75\l"
-	.string "SPEED: 60\l"
-	.string "TOTAL: 645\p"
-	.string "TYPE: GROUND/STEEL\n"
-	.string "ABILITY: SPEED BOOST\l"
-	.string "The POKÉMON that opened our eyes to\l"
-	.string "the DEEP BOND phenomenon with its\l"
-	.string "devastating PHYSICAL power-the\l"
-	.string "greatest known-surpassing even the\l"
-	.string "HP-ATTACK-DEFENSE ratio of PRIMAL\l"
-	.string "GROUDON. And if that weren't enough, a\l"
-	.string "twenty-point boost in SPECIAL DEFENSE\l"
-	.string "and SPEED compared to RHYPERIOR allows\l"
-	.string "it to defend itself on that side,\l"
-	.string "especially considering its ABILITY\l"
-	.string "SPEED BOOST, which will progressively\l"
-	.string "turn its body into a huge drill that\l"
-	.string "operates at increasingly higher\l"
-	.string "revolutions.$"
+	.string "PS: 125\n"
+	.string "ATAQUE: 175\l"
+	.string "DEFENSA: 175\l"
+	.string "ATAQUE ESPECIAL: 65\l"
+	.string "DEFENSA ESPECIAL: 65\l"
+	.string "VELOCIDAD: 55\l"
+	.string "TOTAL: 660\p"
+	.string "TIPO: TIERRA/ACERO\n"
+	.string "HABILIDAD: IMPULSO\l"
+	.string "El POKÉMON que nos abrió las\l"
+	.string "puertas del FUERTE VÍNCULO,\l"
+	.string "poseedor de un poderío FÍSICO\l"
+	.string "devastador, el mayor conocido.\l"
+	.string "Su ratio entre PS-ATAQUE-DEFENSA\l"
+	.string "supera al de GROUDON PRIMIGENIO.\l"
+	.string "Por si esto fuera poco, unos +10\l"
+	.string "en DEFENSA ESPECIAL y VELOCIDAD\l"
+	.string "respecto a RHYPERIOR le permiten\l"
+	.string "defenderse por ese lado, más\l"
+	.string "teniendo en cuenta su HABILIDAD\l"
+	.string "IMPULSO, que irá progresivamente\l"
+	.string "convirtiendo su cuerpo en una\l"
+	.string "enorme taladradora que funciona a\l"
+	.string "cada vez más revoluciones.$"
 
 RocketHideout7FDocumento_Esperando::
 lock
@@ -1291,26 +1385,27 @@ end
 
 RocketHideout7FDocumento_Text_129:
 .string "RAPIDASH-&:\p"
-	.string "HP: 75\n"
-	.string "ATTACK: 130\l"
-	.string "DEFENSE: 100\l"
-	.string "SPECIAL ATTACK: 70\l"
-	.string "SPECIAL DEFENSE: 100\l"
-	.string "SPEED: 135\l"
-	.string "TOTAL: 610\p"
-	.string "TYPE: FIRE/FLYING\n"
-	.string "ABILITY: FUR COAT\l"
-	.string "Only VIOLET's GYM LEADER, FALKNER,\l"
-	.string "could give wings to a POKÉMON like\l"
-	.string "RAPIDASH, faster and more powerful\l"
-	.string "than its terrestrial form. It also\l"
-	.string "achieves notable defensive levels,\l"
-	.string "especially on the physical side,\l"
-	.string "doubling its PHYSICAL DEFENSE thanks\l"
-	.string "to the purity of its mane. This allows it\l"
-	.string "to achieve the impossible feat of\l"
-	.string "withstanding ROCK moves despite taking\l"
-	.string "x4 damage.$"
+	.string "PS: 75\n"
+	.string "ATAQUE: 135\l"
+	.string "DEFENSA: 90\l"
+	.string "ATAQUE ESPECIAL: 80\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 145\l"
+	.string "TOTAL: 625\p"
+	.string "TIPO: FUEGO/VOLADOR\n"
+	.string "HABILIDAD: PELAJE RECIO\l"
+	.string "Solo el LÍDER de MALVA, PEGASO,\l"
+	.string "podía darle alas a un POKÉMON como\l"
+	.string "RAPIDASH, más rápido y potente que\l"
+	.string "su forma terrestre, alcanza\l"
+	.string "también notables niveles\l"
+	.string "defensivos, especialmente por el\l"
+	.string "lado FÍSICO, doblando, gracias a\l"
+	.string "la pureza de su pelaje, su DEFENSA\l"
+	.string "FÍSICA, lo que le permite lograr\l"
+	.string "el imposible de resistir\l"
+	.string "movimientos ROCA a pesar de su x4\l"
+	.string "de daño.$"
 
 
 
@@ -1327,27 +1422,27 @@ end
 
 RocketHideout7FDocumento_Text_130:
 .string "BUTTERFREE-&:\p"
-	.string "HP: 60\n"
-	.string "ATTACK: 5\l"
-	.string "DEFENSE: 70\l"
-	.string "SPECIAL ATTACK: 140\l"
-	.string "SPECIAL DEFENSE: 120\l"
-	.string "SPEED: 110\l"
-	.string "TOTAL: 505\p"
-	.string "TYPE: BUG/PSYCHIC\n"
-	.string "ABILITY: ADAPTABILITY\l"
-	.string "Perhaps the greatest example of the\l"
-	.string "miracle of DEEP BOND, no one would\l"
-	.string "imagine that a POKÉMON like BUTTERFREE\l"
-	.string "would undergo such a change. Nature\l"
-	.string "itself would never have allowed those\l"
-	.string "paltry 5 points in PHYSICAL ATTACK,\l"
-	.string "which give it an average of 100 BASE\l"
-	.string "points in each of its useful STATS,\l"
-	.string "making it faster, sturdier, and more\l"
-	.string "powerful than VOLCARONA, by far the\l"
-	.string "BUG TYPE with the greatest overall\l"
-	.string "power.$"
+	.string "PS: 60\n"
+	.string "ATAQUE: 5\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 140\l"
+	.string "DEFENSA ESPECIAL: 125\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 520\p"
+	.string "TIPO: BICHO/PSÍQUICO\n"
+	.string "HABILIDAD: ADAPTABLE\l"
+	.string "Quizás el mayor ejemplo del\l"
+	.string "milagro del FUERTE VÍNCULO, nadie\l"
+	.string "imaginaría que un POKÉMON como\l"
+	.string "BUTTERFREE experimentaría\l"
+	.string "semejante cambio, la naturaleza\l"
+	.string "por cuenta propia jamás hubiera\l"
+	.string "permitido esos irrisorios 5 puntos\l"
+	.string "en ATAQUE FÍSICO, que le dan una\l"
+	.string "media de 103 puntos de BASE en\l"
+	.string "cada uno de sus STATS útiles,\l"
+	.string "volviéndolo más rápido, resistente\l"
+	.string "y potente que VOLCARONA.$"
 
 
 
@@ -1364,23 +1459,23 @@ end
 
 RocketHideout7FDocumento_Text_131:
 .string "KINGDRA-&:\p"
-	.string "HP: 75\n"
-	.string "ATTACK: 115\l"
-	.string "DEFENSE: 115\l"
-	.string "SPECIAL ATTACK: 115\l"
-	.string "SPECIAL DEFENSE: 115\l"
-	.string "SPEED: 115\l"
-	.string "TOTAL: 650\p"
-	.string "TYPE: WATER/DARK\n"
-	.string "ABILITY: CONTRARY\l"
-	.string "Boasting an impressive total of 650\l"
-	.string "BASE stats, verging on sacred ground,\l"
-	.string "it exceeds expectations beyond its 115\l"
-	.string "BASE ATTACK and SPECIAL ATTACK,\l"
-	.string "courtesy of its ADAPTABILITY ability.\l"
-	.string "It stands as the sole NON-LEGENDARY\l"
-	.string "capable of maintaining those 115 BASE\l"
-	.string "stats across 5 different STATS.$"
+	.string "PS: 85\n"
+	.string "ATAQUE: 120\l"
+	.string "DEFENSA: 120\l"
+	.string "ATAQUE ESPECIAL: 120\l"
+	.string "DEFENSA ESPECIAL: 120\l"
+	.string "VELOCIDAD: 100\l"
+	.string "TOTAL: 665\p"
+	.string "TIPO: AGUA/SINIESTRO\n"
+	.string "HABILIDAD: RESPONDÓN\l"
+	.string "Con un destacable total de 665 de\l"
+	.string "BASE, roza territorio sagrado.\l"
+	.string "Logra gracias a RESPONDÓN hacer\l"
+	.string "uso de COMETA DRACO y FRAGOR ESCAMAS\l"
+	.string "con sendos beneficios, abriendo con\l"
+	.string "ello opciones ofensivas y defensivas.\l"
+	.string "Único NO LEGENDARIO capaz de sostener\l"
+	.string "120 STATS BASE en 4 STATS diferentes.$"
 
 
 
@@ -1397,27 +1492,27 @@ end
 
 RocketHideout7FDocumento_Text_132:
 .string "SKARMORY-&:\p"
-	.string "HP: 75\n"
-	.string "ATTACK: 110\l"
-	.string "DEFENSE: 160\l"
-	.string "SPECIAL ATTACK: 30\l"
-	.string "SPECIAL DEFENSE: 110\l"
-	.string "SPEED: 90\l"
-	.string "TOTAL: 575\p"
-	.string "TYPE: STEEL/FLYING\n"
-	.string "ABILITY: VOLT ABSORB\l"
-	.string "Possessing the highest PHYSICAL\l"
-	.string "DEFENSE among FLYING TYPEs, it has\l"
-	.string "overcome the limitations of its TYPE,\l"
-	.string "nearing the incredible DEFENSE of\l"
-	.string "CLOYSTER. Moreover, its immunity to\l"
-	.string "ELECTRIC TYPE moves, strong offensive\l"
-	.string "capabilities with a base of 110, and\l"
-	.string "respectable SPEED of 90 make it the\l"
-	.string "bird with the most impressive\l"
-	.string "adaptations we've seen. Just with an\l"
-	.string "SPECIAL ATTACK of 30, for a global 575\l"
-	.string "BASE STATS.$"
+	.string "PS: 75\n"
+	.string "ATAQUE: 110\l"
+	.string "DEFENSA: 160\l"
+	.string "ATAQUE ESPECIAL: 45\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 100\l"
+	.string "TOTAL: 590\p"
+	.string "TIPO: ACERO/VOLADOR\n"
+	.string "HABILIDAD: ABS.ELÉCTR\l"
+	.string "El TIPO VOLADOR con mayor DEFENSA\l"
+	.string "FÍSICA conocida.\l"
+	.string "Logra superar las barreras físicas del\l"
+	.string "VOLADOR, acercándose a la absurda\l"
+	.string "DEFENSA de CLOYSTER.\l"
+	.string "Su inmunidad al ELÉCTRICO, buena\l"
+	.string "ofensiva de 110 de BASE y decente\l"
+	.string "VELOCIDAD de 100, le convierten en\l"
+	.string "el ave con mejores adaptaciones\l"
+	.string "que conocemos.\l"
+	.string "Solo 45 en AT.ESPECIAL para un\l"
+	.string "total de 590 de BASE.$"
 
 
 
@@ -1434,26 +1529,27 @@ end
 
 RocketHideout7FDocumento_Text_133:
 	.string "POLIWRATH-&:\p"
-	.string "HP: 100\n"
-	.string "ATTACK: 145\l"
-	.string "DEFENSE: 125\l"
-	.string "SPECIAL ATTACK: 60\l"
-	.string "SPECIAL DEFENSE: 110\l"
-	.string "SPEED: 80\l"
-	.string "TOTAL: 620\p"
-	.string "TYPE: WATER/FIGHTING\n"
-	.string "ABILITY: IRON FIST\l"
-	.string "Only the unwavering discipline of CHUCK\l"
-	.string "over four decades has been able to\l"
-	.string "forge such a POKÉMON like this one. It\l"
-	.string "combines the finest qualities from\l"
-	.string "FIGHTING TYPEs, boasting an ATTACK\l"
-	.string "greater than CONKELDURR, a defense\l"
-	.string "akin to the PSEUDO-LEGENDARY KOMMO-O,\l"
-	.string "the SPECIAL DEFENSE of GALLADE, and an\l"
-	.string "IRON FIST ability that makes it\l"
-	.string "devastating. However, it couldn't fully\l"
-	.string "recover its initial speed as POLIWAG.$"
+	.string "PS: 100\n"
+	.string "ATAQUE: 145\l"
+	.string "DEFENSA: 140\l"
+	.string "ATAQUE ESPECIAL: 70\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 80\l"
+	.string "TOTAL: 635\p"
+	.string "TIPO: AGUA/LUCHA\n"
+	.string "HABILIDAD: PUÑO FÉRREO\l"
+	.string "Solo la férrea disciplina de\l"
+	.string "ANÍBAL a lo largo de 4 décadas ha\l"
+	.string "podido forjar tal POKÉMON.\l"
+	.string "Reúne las mejores cualidades\l"
+	.string "de entre los TIPO LUCHA:\l"
+	.string "ATAQUE superior a CONKELDURR,\l"
+	.string "DEFENSA superior a KOMMO-O,\l"
+	.string "DEFENSA ESPECIAL cercana a GALLADE,\l"
+	.string "y un PUÑO FÉRREO por habilidad que\l"
+	.string "le hace devastador.\l"
+	.string "No pudo recuperar del todo su\l"
+	.string "VELOCIDAD inicial como POLIWAG.$"
 
 
 
@@ -1541,25 +1637,26 @@ end
 
 RocketHideout7FDocumento_Text_136:
 .string "CROBAT-&:\p"
-	.string "HP: 95\n"
-	.string "ATTACK: 120\l"
-	.string "DEFENSE: 95\l"
-	.string "SPECIAL ATTACK: 80\l"
-	.string "SPECIAL DEFENSE: 95\l"
-	.string "SPEED: 160\l"
-	.string "TOTAL: 645\p"
-	.string "TYPE: POISON/FLYING\n"
-	.string "ABILITY: COMPOUND EYES\l"
-	.string "The emblematic POKÉMON of CHIEF ADMIN.\l"
-	.string "{PLAYER}, illustrating the extent to\l"
-	.string "which an ordinary ROCKET can ascend.\l"
-	.string "Boasting a base stat of 645, it's nearer\l"
-	.string "to a GREATER LEGENDARY than a LESSER\l"
-	.string "one, with nearly unsurpassable SPEED.\l"
-	.string "Thanks to COMPOUND EYES, no POKÉMON\l"
-	.string "will be safe from its powerful FLY and\l"
-	.string "GUNK SHOT, which will always hit their\l"
-	.string "mark.$"
+	.string "PS: 95\n"
+	.string "ATAQUE: 120\l"
+	.string "DEFENSA: 95\l"
+	.string "ATAQUE ESPECIAL: 85\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 160\l"
+	.string "TOTAL: 660\p"
+	.string "TIPO: VENENO/VOLADOR\n"
+	.string "HABILIDAD: OJOCOMPUESTO\l"
+	.string "El POKÉMON insignia del\l"
+	.string "ADMIN.JEFE {PLAYER}, que\l"
+	.string "demuestra lo lejos que un ROCKET\l"
+	.string "común puede llegar; con 660 de\l"
+	.string "BASE, roza territorio más propio\l"
+	.string "de un LEGENDARIO MAYOR.\l"
+	.string "Su VELOCIDAD es casi insuperable,\l"
+	.string "y gracias a OJOCOMPUESTO ningún\l"
+	.string "POKÉMON estará a salvo de sus\l"
+	.string "potentes VUELO y LANZA MUGRE\l"
+	.string "que siempre darán en el blanco.$"
 
 RocketHideout7FDocumento_136_2::
 lock
@@ -1574,25 +1671,26 @@ end
 
 RocketHideout7FDocumento_Text_136_2:
 .string "CROBAT-&:\p"
-	.string "HP: 95\n"
-	.string "ATTACK: 160\l"
-	.string "DEFENSE: 105\l"
-	.string "SPECIAL ATTACK: 80\l"
-	.string "SPECIAL DEFENSE: 85\l"
-	.string "SPEED: 120\l"
-	.string "TOTAL: 645\p"
-	.string "TYPE: POISON/STEEL\n"
-	.string "ABILITY: LEVITATE\l"
-	.string "The emblematic POKÉMON of the CHIEF\l"
-	.string "ADMIN. ANDRA, illustrating the extent\l"
-	.string "to which an ordinary ROCKET can ascend,\l"
-	.string "boasting a base stat of 645, it's nearer\l"
-	.string "to a GREATER LEGENDARY than a LESSER\l"
-	.string "one, with nearly unsurpassable SPEED.\l"
-	.string "Thanks to COMPOUND EYES, no POKÉMON\l"
-	.string "will be safe from its powerful FLY and\l"
-	.string "GUNK SHOT, which will always hit their\l"
-	.string "mark.$"
+	.string "PS: 95\n"
+	.string "ATAQUE: 160\l"
+	.string "DEFENSA: 115\l"
+	.string "ATAQUE ESPECIAL: 85\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 120\l"
+	.string "TOTAL: 660\p"
+	.string "TIPO: VENENO/ACERO\n"
+	.string "HABILIDAD: LEVITACIÓN\l"
+	.string "El POKÉMON insignia de la\l"
+	.string "ADMIN.JEFE ANDRA.\l"
+	.string "Demuestra lo lejos que un ROCKET\l"
+	.string "común puede llegar; con 660 de\l"
+	.string "BASE, está más cerca de un\l"
+	.string "LEGENDARIO MAYOR que de uno MENOR.\l"
+	.string "Posee un poderío físico descomunal,\l"
+	.string "fruto del ímpetu de su entrenadora.\l"
+	.string "Gracias a LEVITACIÓN y el TIPO ACERO,\l"
+	.string "resiste una infinidad de movimientos,\l"
+	.string "siendo muy complicado de desbordar.$"
 
 
 RocketHideout7FDocumento_137::
@@ -1607,22 +1705,24 @@ release
 end
 
 RocketHideout7FDocumento_Text_137:
-	.string "KABUTOPS SKELETON:\p"
-	.string "HP: 60\n"
-	.string "ATTACK: 155\l"
-	.string "DEFENSE: 115\l"
-	.string "SPECIAL ATTACK: 65\l"
-	.string "SPECIAL DEFENSE: 90\l"
-	.string "SPEED: 110\l"
+	.string "KABUTOPS ESQUELETO:\p"
+	.string "PS: 60\n"
+	.string "ATAQUE: 155\l"
+	.string "DEFENSA: 125\l"
+	.string "ATAQUE ESPECIAL: 75\l"
+	.string "DEFENSA ESPECIAL: 80\l"
+	.string "VELOCIDAD: 100\l"
 	.string "TOTAL: 595\p"
-	.string "TYPE: ROCK/GHOST\n"
-	.string "ABILITY: SHEER FORCE\l"
-	.string "The specter of the unbridled, feral\l"
-	.string "form of KABUTOPS, the magic of RUINS OF\l"
-	.string "ALPH restored its ability to shred its\l"
-	.string "enemies even with just its bone\l"
-	.string "structure, thus defending access to\l"
-	.string "the most important chambers.$"
+	.string "TIPO: ROCA/FANTASMA\n"
+	.string "HABILIDAD: SOMBRATRAMPA\l"
+	.string "Vestigio de la verdadera forma en\l"
+	.string "estado salvaje de KABUTOPS, la\l"
+	.string "magia de RUINAS ALFA le devolvió\l"
+	.string "la capacidad de despedazar a sus\l"
+	.string "enemigos aún con solo su\l"
+	.string "estructura ósea, defendiendo así\l"
+	.string "el acceso a las cámaras más\l"
+	.string "importantes.$"
 
 
 
@@ -1639,26 +1739,30 @@ end
 
 RocketHideout7FDocumento_Text_138:
 	.string "DRAGONITE-&:\p"
-	.string "HP: 101\n"
-	.string "ATTACK: 94\l"
-	.string "DEFENSE: 115\l"
-	.string "SPECIAL ATTACK: 145\l"
-	.string "SPECIAL DEFENSE: 145\l"
-	.string "SPEED: 110\l"
-	.string "TOTAL: 710\p"
-	.string "TYPE: DRAGON/FAIRY\n"
-	.string "ABILITY: NO GUARD\l"
-	.string "The only known DEEP BOND\l"
-	.string "PSEUDO-LEGENDARY, it lost much of its\l"
-	.string "PHYSICAL ATTACK, but in exchange\l"
-	.string "gained the FAIRY TYPE, along with an\l"
-	.string "immunity to its own DRAGON TYPE, as well\l"
-	.string "as a unique combination of SPECIAL\l"
-	.string "ATTACK and DEFENSE. Able to strike with\l"
-	.string "moves like THUNDER, FLAMETHROWER, or\l"
-	.string "BLIZZARD without fail thanks to its\l"
-	.string "ability, a complete dragon that\l"
-	.string "controls the elements of nature.$"
+	.string "PS: 101\n"
+	.string "ATAQUE: 91\l"
+	.string "DEFENSA: 115\l"
+	.string "ATAQUE ESPECIAL: 154\l"
+	.string "DEFENSA ESPECIAL: 154\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 725\p"
+	.string "TIPO: DRAGÓN/HADA\n"
+	.string "HABILIDAD: INDEFENSO\l"
+	.string "Único PSEUDOLEGENDARIO FUERTE\l"
+	.string "VÍNCULO conocido. Perdió gran\l"
+	.string "parte de su ATAQUE FÍSICO, como\l"
+	.string "consecuencia de ganar el TIPO HADA.\l"
+	.string "Su ratio AT.ESP/DEF.ESP es único,\l"
+	.string "y a su vez, ambos similares (154) al\l"
+	.string "mejor stat de los clásicos LUGIA,\l"
+	.string "HO-OH, igualando por partida doble\l"
+	.string "el techo sagrado que estos titanes\l"
+	.string "solo pudieron tocar una vez.\l"
+	.string "Capaz de golpear con movimientos\l"
+	.string "como TRUENO, LLAMARADA o VENTISCA\l"
+	.string "sin fallar gracias a su habilidad;\l"
+	.string "un dragón total que domina los\l"
+	.string "elementos de la naturaleza.$"
 
 
 
@@ -1707,25 +1811,25 @@ end
 
 RocketHideout7FDocumento_Text_140:
 	.string "DELPHOX-&:\p"
-	.string "HP: 85\n"
-	.string "ATTACK: 69\l"
-	.string "DEFENSE: 92\l"
-	.string "SPECIAL ATTACK: 164\l"
-	.string "SPECIAL DEFENSE: 110\l"
-	.string "SPEED: 124\l"
-	.string "TOTAL: 644\p"
-	.string "TYPE: FIRE/PSYCHIC\n"
-	.string "ABILITY: MAGIC BOUNCE\l"
-	.string "Único inicial conocido que ha alcanzado\l"
+	.string "PS: 85\n"
+	.string "ATAQUE: 79\l"
+	.string "DEFENSA: 82\l"
+	.string "ATAQUE ESPECIAL: 164\l"
+	.string "DEFENSA ESPECIAL: 130\l"
+	.string "VELOCIDAD: 119\l"
+	.string "TOTAL: 659\p"
+	.string "TIPO: FUEGO/PSÍQUICO\n"
+	.string "HABILIDAD: ESPEJOMÁGICO\l"
+	.string "Segundo inicial conocido que ha alcanzado\l"
 	.string "el FUERTE VÍNCULO, contando con unos\l"
 	.string "poderes PSÍQUICOS devastadores. Su\l"
 	.string "TIPO FUEGO le da una excelente\l"
-	.string "cobertura con el ACERO. A pesar de que\l"
-	.string "en ratio AT.ESP-VELOCIDAD pueda verse\l"
-	.string "superado por otros como ALAKAZAM-MEGA\l"
-	.string "o GENGAR-MEGA, si tenemos en cuenta su\l"
-	.string "bulk y stats globales, es casi imbatible\l"
-	.string "para cualquier NO LEGENDARIO.$"
+	.string "cobertura con el ACERO.\l"
+	.string "Inferior en ratio AT.ESP/VELOCIDAD\l"
+	.string "a ALAKAZAM-MEGA o GENGAR-MEGA, pero\l"
+	.string "si tenemos en cuenta su bulk y stats\l"
+	.string "globales, sus números son casi\l"
+	.string "imbatibles para cualquier mortal.$"
 
 
 
@@ -1742,22 +1846,22 @@ end
 
 RocketHideout7FDocumento_Text_141:
 	.string "HYPNO-&:\p"
-	.string "HP: 95\n"
-	.string "ATTACK: 53\l"
-	.string "DEFENSE: 100\l"
-	.string "SPECIAL ATTACK: 143\l"
-	.string "SPECIAL DEFENSE: 165\l"
-	.string "SPEED: 37\l"
-	.string "TOTAL: 593\p"
-	.string "TYPE: PSYCHIC\n"
-	.string "ABILITY: MAGIC BOUNCE\l"
-	.string "It dramatically elevated its psychic\l"
-	.string "powers through synchronization with\l"
-	.string "its TRAINER and decades of seclusion.\l"
-	.string "All this made it immune to any status\l"
-	.string "changes, which, combined with BARRIER\l"
-	.string "and RECOVERY, can make it an\l"
-	.string "indestructible POKÉMON.$"
+	.string "PS: 95\n"
+	.string "ATAQUE: 63\l"
+	.string "DEFENSA: 110\l"
+	.string "ATAQUE ESPECIAL: 143\l"
+	.string "DEFENSA ESPECIAL: 165\l"
+	.string "VELOCIDAD: 32\l"
+	.string "TOTAL: 608\p"
+	.string "TIPO: PSÍQUICO\n"
+	.string "HABILIDAD: ESPEJOMÁGICO\l"
+	.string "Elevó drásticamente sus poderes\l"
+	.string "psíquicos gracias a la sincronización\l"
+	.string "con su ENTRENADOR y a las décadas de\l"
+	.string "reclusión. Todo ello lo volvió inmune a\l"
+	.string "cualquier cambio de estado, lo que\l"
+	.string "unido a BARRERA y RECUPERACIÓN, puede\l"
+	.string "volverlo un POKÉMON indestructible.$"
 
 
 
@@ -1774,29 +1878,29 @@ end
 
 RocketHideout7FDocumento_Text_142:
 	.string "VOLCARONA-&:\p"
-	.string "HP: 95\n"
-	.string "ATTACK: 45\l"
-	.string "DEFENSE: 75\l"
-	.string "SPECIAL ATTACK: 190\l"
-	.string "SPECIAL DEFENSE: 125\l"
-	.string "SPEED: 130\l"
-	.string "TOTAL: 660\p"
-	.string "TYPE: BUG/FIRE\n"
-	.string "ABILITY: MAGIC GUARD\l"
-	.string "A POKÉMON as unexpected as it is\l"
-	.string "surprising to us, it has shattered all\l"
-	.string "expectations by surpassing what we\l"
-	.string "thought was the achievable limit in\l"
-	.string "SPECIAL ATTACK set by DEOXYS at 180.\l"
-	.string "We are not mistaken in saying that this\l"
-	.string "POKÉMON possesses the power of the\l"
-	.string "sun with a SPECIAL ATTACK of 190,\l"
-	.string "making its infernal FIERY DANCE\l"
-	.string "potentially unstoppable. It's unlikely\l"
-	.string "that nature will produce another\l"
-	.string "NON-LEGENDARY with such\l"
-	.string "characteristics: 660 BASE for an\l"
-	.string "ATTACK of only 45.$"
+	.string "PS: 95\n"
+	.string "ATAQUE: 50\l"
+	.string "DEFENSA: 75\l"
+	.string "ATAQUE ESPECIAL: 190\l"
+	.string "DEFENSA ESPECIAL: 135\l"
+	.string "VELOCIDAD: 130\l"
+	.string "TOTAL: 675\p"
+	.string "TIPO: BICHO/FUEGO\n"
+	.string "HABILIDAD: MURO MÁGICO\l"
+	.string "POKÉMON tan inesperado como\l"
+	.string "sorprendente para nosotros.\l"
+	.string "Rompió todos los esquemas al\l"
+	.string "cruzar el que creíamos era el\l"
+	.string "límite alcanzable en AT.ESPECIAL,\l"
+	.string "(DEOXYS-180).\l"
+	.string "Un POKÉMON con el poder del sol,\l"
+	.string "que se refleja en esos infernales\l"
+	.string "190 de base enAT.ESPECIAL.\l"
+	.string "Dificilmente la naturaleza pueda\l"
+	.string "volver a reproducir un NO\l"
+	.string "LEGENDARIO de semejantes\l"
+	.string "características: 675 de BASE para\l"
+	.string "un ATAQUE de solo 50.$"
 
 
 
@@ -1813,26 +1917,25 @@ end
 
 RocketHideout7FDocumento_Text_143:
 	.string "MAMOSWINE-&:\p"
-	.string "HP: 120\n"
-	.string "ATTACK: 170\l"
-	.string "DEFENSE: 105\l"
-	.string "SPECIAL ATTACK: 60\l"
-	.string "SPECIAL DEFENSE: 85\l"
-	.string "SPEED: 100\l"
-	.string "TOTAL: 640\p"
-	.string "TYPE: ICE/GROUND\n"
-	.string "ABILITY: REFRIGERATE\l"
-	.string "Remarkably, it attains power levels akin\l"
-	.string "to those of a MEGA PSEUDO-LEGENDARY,\l"
-	.string "leading to an inevitable comparison\l"
-	.string "with MEGA-GARCHOMP. MAMOSWINE-&\l"
-	.string "equals it in ATTACK at 170, exceeds it\l"
-	.string "in SPEED, and its defenses are\l"
-	.string "comparable. Having endured prolonged\l"
-	.string "exposure to extreme temperatures, its\l"
-	.string "body adapted, resulting in the\l"
-	.string "acquisition of SNOW WARNING as an\l"
-	.string "ability.$"
+	.string "PS: 120\n"
+	.string "ATAQUE: 170\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 70\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 105\l"
+	.string "TOTAL: 655\p"
+	.string "TIPO: HIELO/TIERRA\n"
+	.string "HABILIDAD: PIEL HELADA\l"
+	.string "Sorprendentemente, alcanza cotas de\l"
+	.string "poder equivalente a toda una MEGA de\l"
+	.string "PSEUDOLEGENDARIO; la comparación con\l"
+	.string "MEGA-GARCHOMP se vuelve inevitable.\l"
+	.string "MAMOSWINE-& lo iguala en ATAQUE (170),\l"
+	.string "supera en VELOCIDAD y sus defensas\l"
+	.string "son similares. Pasó tanto tiempo bajo\l"
+	.string "temperaturas extremas que su propio\l"
+	.string "cuerpo acabó adaptándose, ganando\l"
+	.string "con ello PIEL HELADA por habilidad.$"
 
 
 
@@ -1883,26 +1986,27 @@ end
 
 RocketHideout7FDocumento_Text_145:
 	.string "EEVEE-&:\p"
-	.string "HP: 130\n"
-	.string "ATTACK: 60\l"
-	.string "DEFENSE: 95\l"
-	.string "SPECIAL ATTACK: 135\l"
-	.string "SPECIAL DEFENSE: 110\l"
-	.string "SPEED: 105\l"
-	.string "TOTAL: 635\p"
-	.string "TYPE: NORMAL\n"
-	.string "ABILITY: PROTEAN\l"
-	.string "There is still disagreement about\l"
-	.string "whether we are facing the ancestor of\l"
-	.string "all EEVEE, inherited by the MASTER of\l"
-	.string "ECRUTEAK CITY, or a form of DEEP BOND.\l"
-	.string "However, this EEVEE will transform into\l"
-	.string "the TYPE of any move just before\l"
-	.string "executing it, gaining STAB from it, not\l"
-	.string "to mention its 140 power BOOMBURST and\l"
-	.string "STAB for the NORMAL TYPE. Its movepool\l"
-	.string "is on par with that of MEW, with endless\l"
-	.string "options.$"
+	.string "PS: 130\n"
+	.string "ATAQUE: 60\l"
+	.string "DEFENSA: 110\l"
+	.string "ATAQUE ESPECIAL: 130\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 650\p"
+	.string "TIPO: NORMAL\n"
+	.string "HABILIDAD: MUTATIPO\l"
+	.string "Un caso único, al evolucionar\l"
+	.string "de EEVEE, y sufrir directamente\l"
+	.string "el incremento de +125 respecto a\l"
+	.string "sus otras formas evolucionadas.\l"
+	.string "Se transformará en el tipo de\l"
+	.string "cualquier movimiento justo antes\l"
+	.string "de ejecutarlo, obteniendo STAB de\l"
+	.string "ello. Aun así, cuenta con ESTRUENDO\l"
+	.string "como gran STAB de su tipo por defecto.\l"
+	.string "Un movepool está a la\l"
+	.string "altura del de MEW, con\l"
+	.string "infinitas opciones.$"
 
 
 
@@ -1918,24 +2022,24 @@ release
 end
 
 RocketHideout7FDocumento_Text_146:
-	.string "AERODACTYL SKELETON:\p"
-	.string "HP: 80\n"
-	.string "ATTACK: 165\l"
-	.string "DEFENSE: 95\l"
-	.string "SPECIAL ATTACK: 60\l"
-	.string "SPECIAL DEFENSE: 85\l"
-	.string "SPEED: 130\l"
+	.string "AERODACTYL ESQUELETO:\p"
+	.string "PS: 80\n"
+	.string "ATAQUE: 145\l"
+	.string "DEFENSA: 95\l"
+	.string "ATAQUE ESPECIAL: 70\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 120\l"
 	.string "TOTAL: 615\p"
-	.string "TYPE: ROCK/GHOST\n"
-	.string "ABILITY: LEVITATE\l"
-	.string "Remnant of the true wild form of\l"
-	.string "AERODACTYL, the magic of the RUINS OF\l"
-	.string "ALPH reduced its SPEED but increased\l"
-	.string "its ATTACK and subverted the loss of\l"
-	.string "its FLYING TYPE thanks to LEVITATE.\l"
-	.string "Another unique POKÉMON that guards\l"
-	.string "access to the most important chambers\l"
-	.string "of the RUINS OF ALPH.$"
+	.string "TIPO: VOLADOR/FANTASMA\n"
+	.string "HABILIDAD: SOMBRATRAMPA\l"
+	.string "Vestigio de la verdadera forma en\l"
+	.string "estado salvaje de AERODACTYL, la\l"
+	.string "magia de RUINAS ALFA le restó\l"
+	.string "VELOCIDAD, pero ganó en ATAQUE y\l"
+	.string "variedad ofensiva.\p"
+	.string "Otro POKÉMON singular que defiende\n"
+	.string "el acceso a las cámaras más\l"
+	.string "importantes de RUINAS ALFA.$"
 
 
 
@@ -2040,8 +2144,8 @@ RocketHideout7FDocumento_Text_149:
 
 RocketHideout7FDocumento_150::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
-goto_if_lt RocketHideout7FDocumento_Esperando
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_KYUREM_PRIMAL, 10, 3  
 playmoncry SPECIES_KYUREM_BLACK, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_150, MSGBOX_DEFAULT
@@ -2050,34 +2154,36 @@ release
 end
 
 RocketHideout7FDocumento_Text_150:
-	.string "COMPLETE KYUREM:\p"
-	.string "HP: 125\n"
-	.string "ATTACK: 170\l"
-	.string "DEFENSE: 120\l"
-	.string "SPECIAL ATTACK: 170\l"
-	.string "SPECIAL DEFENSE: 120\l"
-	.string "SPEED: 125\l"
-	.string "TOTAL: 830\p"
-	.string "TYPE: DRAGON/ICE\n"
-	.string "ABILITY: NO GUARD\l"
-	.string "The ORIGINAL DRAGON's incomplete form\l"
-	.string "resulted from forcibly reuniting the\l"
-	.string "TAO TRIO without the direct\l"
-	.string "intervention of the ESSENCE POKÉMON.\l"
-	.string "Nevertheless, it radiates power on\l"
-	.string "every hand, albeit unleashing it\l"
-	.string "inefficiently. Due to its type\l"
-	.string "combination, it has low SPEED and\l"
-	.string "several weaknesses, which still make it\l"
-	.string "vulnerable to normal POKÉMON.$"
+	.string "KYUREM COMPLETO:\p"
+	.string "PS: 125\n"
+	.string "ATAQUE: 170\l"
+	.string "DEFENSA: 120\l"
+	.string "ATAQUE ESPECIAL: 170\l"
+	.string "DEFENSA ESPECIAL: 120\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 800\p"
+	.string "TIPO: DRAGÓN/HIELO\n"
+	.string "HABILIDAD: INDEFENSO\l"
+	.string "La forma incompleta del DRAGÓN\l"
+	.string "ORIGINAL, resultado de volver a\l"
+	.string "unir al TRÍO TAO de forma forzosa\l"
+	.string "sin la intervención directa del\l"
+	.string "POKÉMON ESENCIA.\l"
+	.string "Aun así, irradia poder por todos\l"
+	.string "lados, aunque lo desata de forma\l"
+	.string "ineficiente, con una baja\l"
+	.string "VELOCIDAD y varias debilidades a\l"
+	.string "causa de su combinación de tipos,\l"
+	.string "que le siguen haciendo vulnerable\l"
+	.string "ante POKÉMON mortales.$"
 
 
 
 
 RocketHideout7FDocumento_151::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 3
-goto_if_lt RocketHideout7FDocumento_Esperando
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_HO_OH_PRIMAL, 10, 3  
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_151, MSGBOX_DEFAULT
@@ -2113,8 +2219,8 @@ RocketHideout7FDocumento_Text_151:
 
 RocketHideout7FDocumento_152::
 lock
-compare VAR_SECRET_BASE_LOW_TV_FLAGS, 4
-goto_if_lt RocketHideout7FDocumento_Esperando 
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_LUGIA_PRIMAL, 10, 3  
 playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_152, MSGBOX_DEFAULT
@@ -2231,13 +2337,13 @@ release
 end
 
 RocketHideout7FDocumento_Text_155:
-	.string "ORIGINAL DRAGON:\p"
-	.string "HP: 125\n"
-	.string "ATTACK: 195\l"
-	.string "DEFENSE: 125\l"
-	.string "SPECIAL ATTACK: 195\l"
-	.string "SPECIAL DEFENSE: 125\l"
-	.string "SPEED: 140\l"
+	.string "DRAGÓN ORIGINAL:\p"
+	.string "PS: 125\n"
+	.string "ATAQUE: 195\l"
+	.string "DEFENSA: 120\l"
+	.string "ATAQUE ESPECIAL: 195\l"
+	.string "DEFENSA ESPECIAL: 120\l"
+	.string "VELOCIDAD: 150\l"
 	.string "TOTAL: 905\p"
 	.string "TYPE: DRAGON\n"
 	.string "ABILITY: NO GUARD\l"
@@ -2330,18 +2436,36 @@ RocketHideout7FDocumento_Text_159:
 	.string "IN EACH REGION:\p"
 	.string "HOENN$"
 
+RocketHideout_7F_Fuerte_Vinculo_move_2.1:
+face_right
+delay_16
+delay_8
+face_up
+step_end
+
 RocketHideout_7F_Fuerte_Vinculo::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_1
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_2.1
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_2
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_3
 waitmovement 0x0
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_5
 waitmovement 0x0
@@ -2356,7 +2480,8 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_NIDOKING_X, 10, 3   
 playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
-delay 20
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
@@ -2366,10 +2491,13 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_NIDOQUEEN_Y, 10, 3   
 playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_9 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_10 MSGBOX_AUTOCLOSE
@@ -2379,10 +2507,13 @@ waitmovement 0x0
 special RemoveCameraObject
 showmonpic SPECIES_RHYPERIOR_BOND, 10, 3   
 playmoncry SPECIES_RHYPERIOR, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
 hidemonpic
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_13 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_9
@@ -2401,10 +2532,16 @@ msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_17 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_11.1
+waitmovement 0x0
+waitse
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_19 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
 waitmovement 0x0
@@ -2428,6 +2565,16 @@ msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10.1
+waitmovement 0x0
+delay 5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_10.2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26.1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_2
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
 waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_27 MSGBOX_AUTOCLOSE
@@ -2437,6 +2584,11 @@ delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_28 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_2.7
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29.1 MSGBOX_AUTOCLOSE
 applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_14
 waitmovement 0x0
 setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
@@ -2445,35 +2597,44 @@ setvar VAR_UNUSED_0x40F7, 118
 release
 end
 
+RocketHideout_7F_Fuerte_Vinculo_move_11.1:
+emote_exclamation_mark
+step_end
+
 RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
 .string "{PLAYER} received a &-DETECTOR from\n"
 	.string "GIOVANNI!!$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1:
-.string "I guess after what happened at NAVEL\n"
-	.string "ROCK, you are expecting some news\l"
-	.string "about LUGIA and HO-OH. I'm sorry to\l"
-	.string "disappoint you; we have nothing. I\l"
-	.string "already sent a group to investigate the\l"
-	.string "RUINS OF ALPH, and the place, along with\l"
-	.string "all its chambers, remains totally the\l"
-	.string "same.$"
+.string "Supongo que, después de lo ocurrido\n"
+	.string "en ROCA OMBLIGO, esperas noticias\l"
+	.string "acerca de LUGIA y HO-OH.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_1.1:
+	.string "Lamento decirte que no tenemos\n"
+	.string "nada, ya he enviado a un grupo a\l"
+	.string "investigar RUINAS ALFA, y el lugar,\l"
+	.string "junto con todas sus cámaras, sigue\l"
+	.string "exactamente igual.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_2:
-.string "Anyway, in JOHTO should be the answer.\n"
-	.string "LUGIA and HO-OH went back to their\l"
-	.string "original region, I am sure, maybe in\l"
-	.string "ECRUTEAK CITY, WHIRL ISLANDS{PAUSE 15}…{PAUSE 15} It has\l"
-	.string "been possible to see POKÉMON in those\l"
-	.string "places in the past. Maybe we would be\l"
-	.string "able to find some answers that finally\l"
-	.string "lead us to discover ESSENCE POKÉMON.$"
+.string "Sea como sea, en JOHTO debe estar\n"
+	.string "la respuesta, LUGIA y HO-OH han\l"
+	.string "vuelto a su región de origen,\l"
+	.string "estoy seguro; tal vez en CIUDAD\l"
+	.string "IRIS, ISLAS REMOLINO{PAUSE 15}…{PAUSE 15}\p"
+	.string "En todos esos lugares se les ha\n"
+	.string "llegado a avistar en el pasado.\l"
+	.string "Puede que ahí encontremos respuestas,\l"
+	.string "que finalmente nos conduzcan hacia el\l"
+	.string "POKÉMON ESENCIA.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_3:
-.string "But I didn't send you to JOHTO just to\n"
-	.string "hunt LEGENDARIES; I also sent you to…\l"
-	.string "register a part of its history before it\l"
-	.string "gets lost.$"
+.string "Pero no te he destinado a JOHTO\n"
+	.string "únicamente para cazar LEGENDARIOS,\l"
+	.string "te he enviado también para{PAUSE 25}…{PAUSE 25}dejar\l"
+	.string "registrada una parte de su historia,\l"
+	.string "antes de que se pierda.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_4:
 .string "Look, {PLAYER}.$"
@@ -2583,74 +2744,93 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_20:
 	.string "pancake.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_21:
-	.string "You get now why I want you to travel to\n"
-	.string "JOHTO? No region has the tradition, nor\l"
-	.string "the hermeticism of its best TRAINERS,\l"
-	.string "who didn't even participate in the war.\l"
-	.string "This makes me suspect that the DEEP\l"
-	.string "BOND is not something discovered by me.\l"
-	.string "In JOHTO that term of “bond” was used\l"
-	.string "to refer to the most important thing\l"
-	.string "while training a POKÉMON. Even some\l"
-	.string "places, SPROUT TOWER and BELL TOWER\l"
-	.string "were built to honor that “bond”\l"
-	.string "between human and POKÉMON.$"
+.string "¿Entiendes ahora el porqué quiero\n"
+	.string "que viajes por JOHTO?\p"
+	.string "No hay una región con una\n"
+	.string "tradición igual, y el hermetismo\l"
+	.string "que rodea a sus más destacados\l"
+	.string "ENTRENADORES, los cuales siquiera\l"
+	.string "se dignaron a participar en la\l"
+	.string "guerra, me hace sospechar con que\l"
+	.string "el fenómeno del FUERTE VÍNCULO no\l"
+	.string "es algo que haya descubierto yo.\p"
+	.string "En JOHTO siempre se habló de ese\n"
+	.string "-vínculo- con tus POKÉMON, y templos\l"
+	.string "como TORRE BELLSPROUT o TORRE CAMPANA\l"
+	.string "tienen su sentido en honrar a las\l"
+	.string "relaciones, al -vínculo-, entre\l"
+	.string "humanos y POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_22:
-	.string "That's why, {PLAYER}, I want you to\n"
-	.string "travel the region in search of its best\l"
-	.string "TRAINERs. You'll identify them readily,\l"
-	.string "as the GYMs, though they lack the\l"
-	.string "validity of the POKÉMON LEAGUE now, are\l"
-	.string "still mostly open.$"
+.string "Es por ello, {PLAYER}, que quiero\n"
+	.string "que recorras la región en busca de\l"
+	.string "sus mejores ENTRENADORES. Podrás\l"
+	.string "identificarlos fácilmente, puesto\l"
+	.string "los GIMNASIOS, aunque carecen\l"
+	.string "ahora de validez para la LIGA\l"
+	.string "POKÉMON, siguen estando abiertos\l"
+	.string "en su mayoría.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_23:
-	.string "That's what all these documents are\n"
-	.string "for-to be filled with information on\l"
-	.string "every exceptional and unique POKÉMON.\l"
-	.string "All the better, if it's a DEEP BOND. Take\l"
-	.string "this-it'll be vital in carrying out this\l"
-	.string "great project.$"
+.string "Para eso están todos los\n"
+	.string "documentos que ves aquí, para ser\l"
+	.string "rellenados con la información de\l"
+	.string "todo POKÉMON excepcional y único.\l"
+	.string "Si es FUERTE VÍNCULO, mejor.\p"
+	.string "Ten esto, será vital para que\n"
+	.string "podamos llevar a cabo este gran\l"
+	.string "proyecto.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24:
-	.string "This device logs any information on a\n"
-	.string "given POKÉMON just by engaging it in\l"
-	.string "battle, and its data will automatically\l"
-	.string "transmit to the database in this room.$"
+.string "Con este aparato toda información\n"
+	.string "acerca de un POKÉMON quedará\l"
+	.string "registrada, únicamente con poner a\l"
+	.string "dicho POKÉMON a combatir.\p"
+	.string "Los datos que recopile durante el\n"
+	.string "combate serán enviados de inmediato\l"
+	.string "a la base de datos de esta sala.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_25:
-	.string "I suppose you don't need to be told to\n"
-	.string "get prepared. If there are indeed more\l"
-	.string "DEEP BOND individuals out there, I don't\l"
-	.string "want to imagine the power of a team of\l"
-	.string "six handled by such a TRAINER.$"
+.string "Supongo que no hace falta que te\n"
+	.string "diga que te prepares bien: si de\l"
+	.string "verdad existen más FUERTE VÍNCULO,\l"
+	.string "no quiero imaginarme el poder de\l"
+	.string "un equipo de 6 manejado por tal\l"
+	.string "ENTRENADOR.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_26:
-	.string "I've said all I need to, {PLAYER}. You\n"
-	.string "must be wondering how to arrive JOHTO\l"
-	.string "now. Well, it's quite easy-technically,\l"
-	.string "it's right beside you. Just use our\l"
-	.string "teleportation system in the eastmost\l"
-	.string "of our DEEP BASE.$"
+.string "No tengo nada más que decirte,\n"
+	.string "{PLAYER}. Te preguntarás ahora cómo\l"
+	.string "llegar a JOHTO, muy fácil,\l"
+	.string "técnicamente lo tienes al lado.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_26.1:
+	.string "Solo tienes que usar nuestro\n"
+	.string "sistema de teletransporte, en la\l"
+	.string "sala que se encuentra en el límite\l"
+	.string "este de nuestra BASE PROFUNDA.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_27:
-	.string "That's all. You'll receive news from me\n"
-	.string "sooner rather than later, {PLAYER}.\l"
-	.string "There are important business deals and\l"
-	.string "agreements to be made in JOHTO as well…$"
+.string "Eso es todo, tendrás noticias mías\n"
+	.string "más pronto que tarde {PLAYER}, hay\l"
+	.string "importantes negocios y acuerdos\l"
+	.string "que cerrar en JOHTO también{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_28:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29:
-	.string "Perhaps the secrecy and frugality with\n"
-	.string "which these characters live is one of\l"
-	.string "the keys to achieving that state of\l"
-	.string "'flow' with your POKÉMON. It was during\l"
-	.string "my period of greatest seclusion, after\l"
-	.string "all the lies that were spread about me,\l"
-	.string "that RHYPERIOR and I, with nothing left\l"
-	.string "to lose, were able to reach that point.$"
+.string "Tal vez el hermetismo y frugalidad\n"
+	.string "con la que estos personajes viven\l"
+	.string "sea una de las claves para alcanzar\l"
+	.string "ese estado de -flujo- con tu POKÉMON.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_29.1:
+	.string "Fue en mi etapa de mayor reclusión,\n"
+	.string "tras todas las mentiras que se\l"
+	.string "vertieron sobre mi persona, cuando\l"
+	.string "RHYPERIOR y yo, sin ya nada que\l"
+	.string "perder, pudimos alcanzar ese punto.$"
 
 RocketHideout_7F_Fuerte_Vinculo_move_1:
 walk_up
@@ -2662,6 +2842,14 @@ step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_2:
 face_right
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_2.7:
+face_left
+delay_16
+delay_16
+face_down
+delay_16
 step_end
 
 RocketHideout_7F_Fuerte_Vinculo_move_3:
@@ -2755,6 +2943,19 @@ RocketHideout_7F_Fuerte_Vinculo_move_10:
 face_left
 step_end
 
+RocketHideout_7F_Fuerte_Vinculo_move_10.1:
+face_right
+delay_16
+delay_8
+face_down
+delay_16
+walk_in_place_down
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_10.2:
+face_down
+step_end
+
 RocketHideout_7F_Fuerte_Vinculo_move_11:
 face_up
 step_end
@@ -2782,3 +2983,21 @@ walk_down
 walk_down
 walk_down
 step_end
+
+RocketHideout7F_27::
+lock     
+faceplayer     
+msgbox RocketHideout7F_27_Text_1, MSGBOX_NPC
+msgbox RocketHideout7F_27_Text_2, MSGBOX_NPC
+release     
+end
+
+RocketHideout7F_27_Text_1:
+	.string "GIOVANNI es muy exigente con todos\n"
+	.string "nosotros. Trabajamos día y noche,\l"
+	.string "aunque nunca nos pide más de lo que él\l"
+	.string "mismo está dispuesto a dar.$"
+
+RocketHideout7F_27_Text_2:
+	.string "Por eso, hay veces que necesito un\n"
+	.string "empujón extra para mantener el ritmo.$"

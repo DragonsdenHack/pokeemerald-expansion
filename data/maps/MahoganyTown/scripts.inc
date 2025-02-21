@@ -106,27 +106,85 @@ waitmovement 0x0
 goto MahoganyTown_Encuentro_Rocket
 
 MahoganyTown_Encuentro_Rocket::
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MahoganyTown_Encuentro_Rocket_Move_3
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MahoganyTown_Encuentro_Rocket_Move_4
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MahoganyTown_Encuentro_Rocket_Move_5
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 4, MahoganyTown_Encuentro_Rocket_Move_6
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_Encuentro_Rocket_Move_6
 waitmovement 0x0
+delay 10
 msgbox MahoganyTown_Encuentro_Rocket_Texto_6 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
-removeobject 4
 playse SE_DOOR
+opendoor 18, 14
+waitdooranim
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_6.1
+waitmovement 0x0
+removeobject 4
+closedoor 18, 14
+waitdooranim
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+setflag FLAG_HOENN_90
+setflag FLAG_HOENN_91
+setflag FLAG_HOENN_92
+setflag FLAG_HOENN_93
+setflag FLAG_HOENN_94
+setflag FLAG_HOENN_95
+setflag FLAG_HOENN_96
+setflag FLAG_HOENN_97
+setflag FLAG_HOENN_98
+setflag FLAG_HOENN_99
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
 setvar VAR_UNUSED_0x40F7, 161
 release
 end
+
+MahoganyTown_Encuentro_Rocket_Move_6.1:
+walk_up
+step_end
 
 MahoganyTown_Encuentro_Rocket_Texto_1:
 .string "GRUNT: CHIEF ADMIN. {PLAYER}! \n"

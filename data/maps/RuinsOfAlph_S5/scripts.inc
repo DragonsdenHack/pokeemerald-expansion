@@ -4,19 +4,27 @@ RuinsOfAlph_S5_MapScripts::
 RuinsOfAlph_S5_Final::
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_2
 waitmovement 0x0
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_3
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_3 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_6 MSGBOX_AUTOCLOSE
@@ -87,6 +95,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 13, 5, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -195,6 +205,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 3, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -295,6 +307,8 @@ playse SE_THUNDERSTORM_STOP
 	delay 50
 	waitse
 playse SE_M_DETECT
+dofieldeffectsparkle 23, 7, 0
+waitfieldeffect FLDEFF_SPARKLE
 waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
@@ -362,9 +376,12 @@ delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 3, RuinsOfAlph_S5_Final_Move_1
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_20 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 3, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+delay 10
 msgbox RuinsOfAlph_S5_Final_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
@@ -378,6 +395,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
 applymovement 3, RuinsOfAlph_S5_Final_Move_14
 waitmovement 0x0
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
 applymovement 3, RuinsOfAlph_S5_Final_Move_10
 waitmovement 0x0
@@ -428,6 +446,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
 setvar VAR_UNUSED_0x40F7, 177
 setflag FLAG_UNUSED_0x26E
 clearflag FLAG_UNUSED_0x26F

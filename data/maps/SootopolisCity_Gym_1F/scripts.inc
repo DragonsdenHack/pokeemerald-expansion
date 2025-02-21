@@ -233,8 +233,8 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "you with this, the RAIN BADGE!$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
-	.string "{PLAYER} received the RAIN BADGE\n"
-	.string "from JUAN.$"
+	.string	"{PLAYER} recibió la MEDALLA LLUVIA\n"
+	.string	"de GALANO.$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "Having the RAIN BADGE shall assure you\n"
@@ -244,14 +244,14 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "of the HM move WATERFALL to scale\l"
 	.string "walls of cascading water.\p"
 	.string "And, so that you never forget the\n"
-	.string "battle we shared, take this…$"
+	.string "battle we shared, take this…{PAUSE 5}$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "The TECHNICAL MACHINE I handed you\n"
 	.string "contains WATER PULSE.\p"
 	.string "In use, it will occasionally confuse\n"
 	.string "the target with ultrasonic waves.\p"
-	.string "… … … … … …$"
+	.string "… … … … … …{PAUSE 5}$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "Registered GYM LEADER JUAN\n"

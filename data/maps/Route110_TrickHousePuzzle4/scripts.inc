@@ -52,7 +52,7 @@ Route110_TrickHousePuzzle4_Text_YujiIntro:
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
 	.string "I can push boulders, but I can't solve\n"
-	.string "the puzzle…$"
+	.string "the puzzle{PAUSE 5}…{PAUSE 5}$"
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
 	.string "It's not good enough to be brawny…\n"

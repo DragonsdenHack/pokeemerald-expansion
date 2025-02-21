@@ -47,6 +47,14 @@ applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4.1
 waitmovement 0x0
 delay 15
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
+waitmovement 0x0
+waitse
+delay 10
+msgbox MtEmber_B5F_Encuentro_Magno_Texto_3.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
 waitmovement 0x0
@@ -58,6 +66,7 @@ playse SE_M_DETECT
 waitse
 dofieldeffectsparkle 7, 4, 0
 waitfieldeffect FLDEFF_SPARKLE
+setvar VAR_RESULT, 1
 playfanfare MUS_AWAKEN_LEGEND
 playse SE_ORB
 special DoOrbEffect
@@ -239,28 +248,31 @@ MtEmber_B5F_Encuentro_Magno_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3:
-	.string "That foolish scientist from this\n"
-	.string "island's POKÉMON CENTER, named CELIO\l"
-	.string "wanted, to obtain the RUBY to use it in\l"
-	.string "that crude project of interregional\l"
-	.string "connection. Such sacrilege would only\l"
-	.string "have matched by his ignorance.$"
+.string "Ese estúpido CELIO{PAUSE 15}…{PAUSE 15}\n"
+	.string "Quería obtener el RUBÍ para usarlo en\l"
+	.string "ese burdo proyecto de conexión entre\l"
+	.string "regiones.$"
+
+MtEmber_B5F_Encuentro_Magno_Texto_3.1:
+	.string "¡Semejante sacrilegio solo hubiera\n"
+	.string "estado a la altura de su ignorancia!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_4:
-	.string "Fortunately, this RUBY has fallen into\n"
-	.string "the right hands; we will give it the true\l"
-	.string "use, the purpose, for which it was\l"
-	.string "created. Watch!$"
+.string "Afortunadamente, este RUBÍ ha caído\n"
+	.string "en las manos adecuadas, le daremos\l"
+	.string "el verdadero uso, el propósito por\l"
+	.string "el que fue creado, ¡observad!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_5:
-	.string "If we combine both objects, the RED ORB\n"
-	.string "and the RUBY, within this place, the\l"
-	.string "reaction is as follows…$"
+.string "Si juntamos ambos objetos, la\n"
+	.string "ESFERA ROJA y el RUBÍ, dentro de\l"
+	.string "este lugar, la reacción es la\l"
+	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
-	.string "At last, GROUDON, there's not much time\n"
-	.string "left; your power has been restrained\l"
-	.string "for a long time, but no more…$"
+.string "Ya queda poco, GROUDON.\n"
+	.string "Tu poder ha sido contenido por mucho\l"
+	.string "tiempo, pero ya no más{PAUSE 5}…{PAUSE 5}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"

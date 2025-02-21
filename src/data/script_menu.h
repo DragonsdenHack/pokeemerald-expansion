@@ -271,7 +271,6 @@ static const struct MenuAction MultichoiceList_GameCornerTMs[] =
     {gText_TM29AndPrice},
     {gText_TM35AndPrice},
     {gText_TM24AndPrice},
-    {gText_TM13AndPrice},
     {gText_Exit},
 };
 
@@ -820,6 +819,18 @@ static const struct MenuAction MultichoiceList_VentaPokesBaseHoenn[] =
     
 };
 
+static const struct MenuAction MultichoiceList_VentaPokesSalaEjecutivos[] =
+{
+    {gText_Buneary},
+    {gText_Croagunk},
+    {gText_Budew},
+    {gText_Hippopotas},
+    {gText_Shieldon},
+    {gText_Larvitar},
+    {gText_Exit},
+    
+};
+
 
 static const struct MenuAction MultichoiceList_VentaPokesBaseJohto[] =
 {
@@ -895,11 +906,44 @@ static const struct MenuAction MultichoiceList_PokemonTrigal[] =
     {gText_Shuckle},
     {gText_Sudowoodo},
     {gText_Cyndaquil},
-    {gText_Larvitar},
+    {gText_Hitmontop},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_PokemonMalvalona[] =
+{
+    {gText_Trubbish},
+    {gText_Glameow},
+    {gText_Stunky},
+    {gText_Blitzle},
+    {gText_Purrloin},
+    {gText_Treecko},
     {gText_Exit},
 
+};
 
-    
+static const struct MenuAction MultichoiceList_Ascensos[] =
+{
+    {gText_Recluta},
+    {gText_AltoRango},
+    {gText_Ejecutivo},
+    {gText_Admin},
+    {gText_AdminJefe},
+    {gText_Exit},
+
+};
+
+static const struct MenuAction MultichoiceList_AscensosDespues[] =
+{
+    {gText_Recluta},
+    {gText_AltoRango},
+    {gText_Ejecutivo},
+    {gText_Admin},
+    {gText_AdminJefe},
+    {gText_Jefe},
+    {gText_Exit},
+
 };
 
 static const struct MenuAction MultichoiceList_Islas[] =
@@ -1170,6 +1214,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_VENTA_POKEMON_RADIO]        = MULTICHOICE(MultichoiceList_VentaPokesTorreRadio),
     [MULTI_VENTA_MASTER_RADIO]        = MULTICHOICE(MultichoiceList_VentaMasterTorreRadio),
     [MULTI_VENTA_BASE_HOENN]           = MULTICHOICE(MultichoiceList_VentaPokesBaseHoenn),
+    [MULTI_VENTA_BASE_EJECUTIVA]       = MULTICHOICE(MultichoiceList_VentaPokesSalaEjecutivos),
     [MULTI_VENTA_BASE_JOHTO]           = MULTICHOICE(MultichoiceList_VentaPokesBaseJohto),
     [MULTI_VENTA_BASE_RUTA_5]          = MULTICHOICE(MultichoiceList_VentaPokesBaseRuta5),
     [MULTI_VENTA_BASE_PROFUNDA]        = MULTICHOICE(MultichoiceList_VentaPokesBaseProfunda),
@@ -1191,6 +1236,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_CELADON_ASCENSOR]                     = MULTICHOICE(MultichoiceList_CeladonAscensor),
 	[MULTI_SILPH_ASCENSOR2]                     = MULTICHOICE(MultichoiceList_SilphAscensor2),
 	[MULTI_SILPH_ASCENSOR3]                     = MULTICHOICE(MultichoiceList_SilphAscensor3),
+    [MULTI_POKEMON_MALVALONA]              = MULTICHOICE(MultichoiceList_PokemonMalvalona),
+    [MULTI_POKEMON_ASCENSOS]              = MULTICHOICE(MultichoiceList_Ascensos),
+    [MULTI_POKEMON_ASCENSOS_DESPUES]              = MULTICHOICE(MultichoiceList_AscensosDespues),
 };
 
 const u8 *const gStdStrings[] =

@@ -55,8 +55,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 0,
-      "y": 0,
+      "x": 16,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -69,7 +69,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 39,
-      "y": 10,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -81,7 +81,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
-      "x": 38,
+      "x": 40,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -94,7 +94,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
-      "x": 33,
+      "x": 34,
       "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -120,10 +120,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 7,
-      "y": 6,
+      "x": 9,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -133,10 +133,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 4,
-      "y": 3,
+      "x": 12,
+      "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -146,7 +146,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 44,
+      "x": 43,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -173,7 +173,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 31,
-      "y": 7,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -250,8 +250,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 59,
-      "y": 34,
+      "x": 58,
+      "y": 33,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -393,8 +393,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 1,
-      "y": 13,
+      "x": 2,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -406,10 +406,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 13,
-      "y": 16,
+      "x": 1,
+      "y": 4,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -498,7 +498,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
       "x": 10,
-      "y": 15,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -511,7 +511,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
       "x": 4,
-      "y": 15,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -598,6 +598,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
+      "x": 28,
+      "y": 40,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
+      "x": 37,
+      "y": 1,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Hoenn_Caramelos_P2_Mercado_3_EventScript_Clerk",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -642,6 +668,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE111",
       "dest_warp_id": 5
+    },
+    {
+      "x": 29,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_BASE_ROCKET_HOENN_S2",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
@@ -671,6 +704,33 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "BaseRocketHoenn_Salida_Base"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 33,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo_Lado"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 34,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 34,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "255",
+      "script": "BaseRocketHoenn_Bloqueo"
     }
   ],
   "bg_events": [
@@ -965,7 +1025,7 @@
     {
       "type": "sign",
       "x": 4,
-      "y": 15,
+      "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BaseRocketHoennDocumento_136"
@@ -973,7 +1033,7 @@
     {
       "type": "sign",
       "x": 10,
-      "y": 15,
+      "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BaseRocketHoennDocumento_137"
@@ -1057,6 +1117,38 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BaseRocketHoenn_Potencial_Kalos"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_2_Warp"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_2_Warp"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_Atajo"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Llave_Despacho_Hoenn_Atajo"
     }
   ]
 }

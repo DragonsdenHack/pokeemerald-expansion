@@ -210,7 +210,7 @@ case 0, EventScript_Trapinch
 case 1, EventScript_Bagon
 case 2, EventScript_Deino
 case 3, EventScript_Beldum
-CASE 4, EventScript_Wishiwashi
+case 4, EventScript_Wishiwashi
 release
 end
 
@@ -226,7 +226,7 @@ Goldenrod_Underground_Tienda_Pokemon_Texto_2:
 
 EventScript_Trapinch::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 1
 msgbox EventScript_Trapinch_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -234,14 +234,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, TRAPINCH_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins TRAPINCH_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_TRAPINCH, 32, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -341,7 +340,7 @@ EventScript_Larvitar_Texto_1:
 
 EventScript_Bagon::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 2
 msgbox EventScript_Bagon_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -349,20 +348,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, BAGON_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins BAGON_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_BAGON, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
 EventScript_Deino::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 3
 msgbox EventScript_Deino_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -370,20 +368,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, DEINO_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins DEINO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_DEINO, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
 EventScript_Beldum::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 4
 msgbox EventScript_Beldum_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -391,20 +388,19 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, BELDUM_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins BELDUM_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_BELDUM, 20, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
 EventScript_Wishiwashi::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 5
 msgbox EventScript_Wishiwashi_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -412,14 +408,13 @@ goto_if_eq EventScript_Compra_Fichas_No
 checkcoins VAR_TEMP_2
 goto_if_lt VAR_TEMP_2, WISHIWASHI_COINS, Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas
 delay 15
-playse SE_SHOP
 removecoins WISHIWASHI_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
-hidemoneybox
-delay 20
+playse SE_SHOP
 givemon SPECIES_WISHIWASHI, 50, ITEM_NONE
+msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+goto MauvilleCity_GameCorner_EventScript_CancelTMSelect_Negocios
 release
 end
 
@@ -448,7 +443,7 @@ end
 
 EventScript_Llamasfera::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 6
 msgbox EventScript_Llamasfera_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -460,16 +455,15 @@ playse SE_SHOP
 removecoins LLAMASFERA_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_FLAME_ORB
 release
 end
 
 EventScript_Cxperto::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 7
 msgbox EventScript_Cxperto_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -481,16 +475,15 @@ playse SE_SHOP
 removecoins C.XPERTO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_EXPERT_BELT
 release
 end
 
 EventScript_Chaleco::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Chaleco_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -502,16 +495,15 @@ playse SE_SHOP
 removecoins CHAL.ASALTO_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_ASSAULT_VEST
 release
 end
 
 EventScript_Gafas::
 lock
-showcoinsbox 0, 0
+showcoinsbox 1, 1
 setvar VAR_TEMP_1, 8
 msgbox EventScript_Gafas_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -523,9 +515,8 @@ playse SE_SHOP
 removecoins GAF.ELEGID_COINS
 updatecoinsbox 1, 1
 waitse
-delay 20
+delay 50
 hidemoneybox
-delay 20
 additem ITEM_CHOICE_SPECS
 release
 end

@@ -55,7 +55,8 @@
     "gMapGroup_IndoorHOENN1",
     "gMapGroup_IndoorHOENN2",
     "gMapGroup_IndoorHOENN3",
-    "gMapGroup_IndoorHOENN4"
+    "gMapGroup_IndoorHOENN4",
+    "gMapGroup_IndoorSnowPoint"
   ],
   "gMapGroup_TownsAndRoutesHOENN": [
     "PetalburgCity",
@@ -117,7 +118,8 @@
     "Underwater_Route125",
     "CuevaHypno_2",
     "Route49_dESCAN",
-    "TorreDunsparce_P3"
+    "TorreDunsparce_P3",
+    "NaoAbandonada_7"
   ],
   "gMapGroup_TownsAndRoutesKANTO": [
     "PalletTown",
@@ -202,7 +204,9 @@
     "TwoIsland_Torre_P1",
     "TwoIsland_Torre_P2",
     "TwoIsland_Torre_P3",
-    "TwoIsland_Torre_P4"
+    "TwoIsland_Torre_P4",
+    "SixIsland_Oeste",
+    "SixIsland_Oeste_Bosque"
   ],
   "gMapGroup_TownsAndRoutesJOHTO": [
     "NewBarkTown",
@@ -255,7 +259,12 @@
     "Cherry_Shop",
     "Cherry_House1",
     "Cherry_House2",
-    "Cherry_House3"
+    "Cherry_House3",
+    "Neo_NewBark",
+    "NewBark_Oro1F",
+    "NewBark_Oro2F",
+    "NewBark_Casa_Elm",
+    "NewBark_Casa_Npc"
   ],
   "gMapGroup_IndoorVioletCity": [
     "Violet_PkmnCenter",
@@ -300,7 +309,13 @@
     "Goldenrod_UndergroundSouth",
     "Goldenrod_Underground",
     "Goldenrod_Houses",
-    "Goldenrod_Gym"
+    "Goldenrod_Gym",
+    "Goldenrod_RadioTowerP6",
+    "Goldenrod_RadioTowerP7",
+    "Goldenrod_RadioTowerP8",
+    "Goldenrod_RadioTowerP9",
+    "Goldenrod_RadioTowerP10",
+    "Goldenrod_Casa_Secreta"
   ],
   "gMapGroup_IndoorEcruteakCity": [
     "Ecruteak_PkmnCenter",
@@ -372,7 +387,8 @@
     "BlackthornCity_DragonsdenHouse",
     "BlackthornCity_DragonsdenS2",
     "BlackthornCity_DragonsdenS3",
-    "BlackthornCity_DragonsdenS4"
+    "BlackthornCity_DragonsdenS4",
+    "BlackthornCity_Gym"
   ],
   "gMapGroup_IndoorJOHTO": [
     "MtSilver1",
@@ -472,14 +488,21 @@
     "Route49_Pagoda_P9",
     "Route49_Pagoda_P10",
     "Route49_Pagoda_P11",
-    "Route49_Pagoda_P12"
+    "Route49_Pagoda_P12",
+    "Pass_LakeofRage"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",
     "PalletTown_RedHouse_2F",
     "PalletTown_BlueHouse_1F",
     "PalletTown_ProfessorLab",
-    "NeoPalletTown"
+    "NeoPalletTown",
+    "PalletTown_Laboratorio_Secreto_S1",
+    "PalletTown_Laboratorio_Secreto_S2",
+    "PalletTown_Laboratorio_Secreto_S3",
+    "PalletTown_Laboratorio_Secreto_S4",
+    "PalletTown_Laboratorio_Secreto_S5",
+    "PalletTown_Laboratorio_Secreto_S6"
   ],
   "gMapGroup_IndoorViridianCity": [
     "ViridianCity_House1",
@@ -523,7 +546,9 @@
     "VermilionCity_House2",
     "VermilionCity_Mart",
     "VermilionCity_Gym",
-    "VermilionCity_House3"
+    "VermilionCity_House3",
+    "VermilionCity_Secundaria",
+    "VermilionCity_Jardin"
   ],
   "gMapGroup_IndoorLavenderTown": [
     "LavenderTown_PokemonCenter_1F",
@@ -555,7 +580,19 @@
     "LavenderRadioP7",
     "LavenderRadioP8",
     "LavenderRadioP9",
-    "LavenderRadioP10"
+    "LavenderRadioP10",
+    "Neo_TunelRoca_1F",
+    "Neo_TunelRoca_2F",
+    "Guardia_Cave",
+    "Guardia_Cave_2",
+    "PokemonTower_S1",
+    "PokemonTower_S2",
+    "PokemonTower_S3",
+    "LavenderTown_Pasado",
+    "LavenderTown_Pasado_Gym",
+    "Lavender_Secta_Pasadizo",
+    "Lavender_Secta_Pasadizo_2",
+    "Lavender_Secta_Pasadizo_3"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
@@ -591,7 +628,9 @@
     "SaffronCity_House3",
     "SaffronCity_House4",
     "NeoSaffronCity",
-    "NeoSaffron_TrainStation"
+    "NeoSaffron_TrainStation",
+    "NeoSaffron_House1_1F",
+    "NeoSaffron_House1_2F"
   ],
   "gMapGroup_IndoorFuchsiaCity": [
     "FuchsiaCity_Path",
@@ -610,7 +649,8 @@
     "NeoRoute15_Path",
     "NeoRoute14",
     "NeoFuchsiaGym",
-    "NeoRoute19_Path"
+    "NeoRoute19_Path",
+    "NeoSafari"
   ],
   "gMapGroup_IndoorCinnabarIsland": [
     "CinnabarIsland_Gym",
@@ -711,7 +751,9 @@
     "UndergroundPath_9F",
     "UndergroundPath_10F",
     "UndergroundPath_11F",
-    "UndergroundPath_12F"
+    "UndergroundPath_12F",
+    "NeoRoute10_PokemonCenter_1F",
+    "NeoUndergroundPath_6F"
   ],
   "gMapGroup_IndoorKANTO2": [
     "NewMap4",
@@ -797,7 +839,11 @@
     "NeoPowerPlant",
     "RocketHideout_10F",
     "RocketHideout_Conexion_Hoenn",
-    "PokemonLeague_Escenalance"
+    "PokemonLeague_Escenalance",
+    "SilphS2_2",
+    "SilphS2_3",
+    "RocketHideout_5F_2",
+    "RocketHideout_11F"
   ],
   "gMapGroup_IndoorOneIsland": [
     "OneIsland_PokemonCenter_1F",
@@ -839,7 +885,8 @@
     "SixIsland_PokemonCenter_1F",
     "SixIsland_Port",
     "SixIsland_House1",
-    "SixIsland_House2"
+    "SixIsland_House2",
+    "SixIsland_Laboratorio"
   ],
   "gMapGroup_IndoorSevenIsland": [
     "SevenIsland_House1",
@@ -981,7 +1028,8 @@
     "VerdanturfTown_PokemonCenter_2F",
     "VerdanturfTown_WandasHouse",
     "VerdanturfTown_FriendshipRatersHouse",
-    "VerdanturfTown_House"
+    "VerdanturfTown_House",
+    "Verdantur_Museo_S1"
   ],
   "gMapGroup_IndoorPacifidlog": [
     "PacifidlogTown_PokemonCenter_1F",
@@ -1025,7 +1073,9 @@
     "MauvilleCity_House2",
     "MauvilleCity_PokemonCenter_1F",
     "MauvilleCity_PokemonCenter_2F",
-    "MauvilleCity_Mart"
+    "MauvilleCity_Mart",
+    "GameCorner_Mauville_Hideout_S1",
+    "GameCorner_Mauville_Hideout_S2"
   ],
   "gMapGroup_IndoorRustboro": [
     "RustboroCity_DevonCorp_1F",
@@ -1081,7 +1131,8 @@
     "LilycoveCity_DepartmentStore_4F",
     "LilycoveCity_DepartmentStore_5F",
     "LilycoveCity_DepartmentStoreRooftop",
-    "LilycoveCity_DepartmentStoreElevator"
+    "LilycoveCity_DepartmentStoreElevator",
+    "LilycoveCity_Museo_3F"
   ],
   "gMapGroup_IndoorMossdeep": [
     "MossdeepCity_Gym",
@@ -1096,7 +1147,8 @@
     "MossdeepCity_SpaceCenter_1F",
     "MossdeepCity_SpaceCenter_2F",
     "MossdeepCity_GameCorner_1F",
-    "MossdeepCity_GameCorner_B1F"
+    "MossdeepCity_GameCorner_B1F",
+    "Mosdeep_Jirachi"
   ],
   "gMapGroup_IndoorSootopolis": [
     "SootopolisCity_Gym_1F",
@@ -1113,7 +1165,9 @@
     "SootopolisCity_House7",
     "SootopolisCity_LotadAndSeedotHouse",
     "SootopolisCity_MysteryEventsHouse_1F",
-    "SootopolisCity_MysteryEventsHouse_B1F"
+    "SootopolisCity_MysteryEventsHouse_B1F",
+    "Sootopolis_Secret_Cave",
+    "Arrecipolis_Antigua"
   ],
   "gMapGroup_IndoorEverGrande": [
     "EverGrandeCity_SidneysRoom",
@@ -1443,6 +1497,40 @@
     "DevonS7",
     "DevonS8",
     "DevonS9",
-    "DevonS10"
+    "DevonS10",
+    "SnowpointCity",
+    "BaseRocketHoennS4",
+    "NaoAbandonada_1",
+    "NaoAbandonada_2",
+    "NaoAbandonada_3",
+    "NaoAbandonada_4",
+    "NaoAbandonada_5",
+    "NaoAbandonada_6",
+    "GraniteCave_3F",
+    "Cave_Regigigas_S1",
+    "Cave_Regigigas_S2",
+    "Cave_Regigigas_S3",
+    "Cave_Regigigas_S3_2",
+    "SSTidal_Submarino",
+    "SSGiovanni_Rescate",
+    "Cave_Regigigas_S4",
+    "Cave_Regigigas_S5",
+    "Cave_Regigigas_S5_2",
+    "Cave_Regigigas_S6",
+    "Cave_Regigigas_S7",
+    "Cave_Regigigas_S8"
+  ],
+  "gMapGroup_IndoorSnowPoint": [
+    "Snowpoint_PkmnCenter",
+    "Snowpoint_Shop",
+    "Snowpoint_House_1",
+    "Snowpoint_House_2",
+    "Snowpoint_Templo",
+    "Snowpoint_Templo_S1",
+    "Snowpoint_Templo_S2",
+    "Snowpoint_Templo_S3",
+    "Snowpoint_Templo_S4",
+    "Snowpoint_Templo_S5",
+    "Snowpoint_Gimnasio"
   ]
 }

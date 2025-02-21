@@ -24,7 +24,7 @@ gText_ObtainedTheDecor::
 
 gText_NoRoomLeftForAnother::
 	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "another {STR_VAR_2}…{PAUSE 5}$"
 
 gText_TheDecorWasTransferredToThePC::
 	.string "The {STR_VAR_2} was transferred\n"

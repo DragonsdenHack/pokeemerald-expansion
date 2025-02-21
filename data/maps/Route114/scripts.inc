@@ -148,12 +148,12 @@ Route114_EventScript_Nolan::
 	end
 
 Route114_EventScript_Tyra::
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_641, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
 	msgbox Route114_Text_TyraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Ivy::
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
+	trainerbattle_double TRAINER_TRAINER_641, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
 	msgbox Route114_Text_IvyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -176,7 +176,7 @@ Route114_Text_AllMyMonDoesIsRoarTakeThis:
 	.string "All my POKÉMON does is ROAR…\n"
 	.string "No one dares to come near me…\p"
 	.string "Sigh… If you would, please take\n"
-	.string "this TM away…$"
+	.string "this TM away{PAUSE 5}…{PAUSE 5}$"
 
 Route114_Text_ExplainRoar:
 	.string "TM05 contains ROAR.\n"
@@ -186,13 +186,13 @@ Route114_Text_Poochyena:
 	.string "Bow! Bowwow!$"
 
 Route114_Text_MeteorFallsSign:
-	.string "METEOR FALLS\n"
-	.string "RUSTBORO CITY THROUGH HERE$"
+	.string "CASCADA METEORO\n"
+	.string "DIRECCIÓN CIUDAD FÉRRICA$"
 
 Route114_Text_FossilManiacsHouseSign:
-	.string "FOSSIL MANIAC'S HOUSE\n"
-	.string "“Fossils gratefully accepted!”$"
+	.string "CASA del FOSILMANÍACO\n"
+	.string "“¡Se aceptan fósiles!”$"
 
 Route114_Text_LanettesHouse:
-	.string "LANETTE'S HOUSE$"
+	.string "CASA de AREDIA$"
 

@@ -30,7 +30,7 @@ LagoFuria_S3_Combate_Ikary_Texto_1:
 .string "Ik!$"
 
 LagoFuria_S3_Combate_Ikary_Texto_3:
-.string "Ik…$"
+.string "Ik{PAUSE 5}…{PAUSE 5}$"
 
 
 LagoFuria_S3_Combates_Cientificos::
@@ -69,8 +69,10 @@ waitmovement 0x0
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 8, LagoFuria_S3_Combates_Cientificos_Move_8
 waitmovement 0x0
+delay 10
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_9 MSGBOX_AUTOCLOSE
@@ -78,6 +80,7 @@ applymovement 6, LagoFuria_S3_Combates_Cientificos_Move_9
 applymovement 5, LagoFuria_S3_Combates_Cientificos_Move_10
 applymovement 7, LagoFuria_S3_Combates_Cientificos_Move_2
 waitmovement 0x0
+delay 10
 msgbox LagoFuria_S3_Combates_Cientificos_Texto_10 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
 delay 20

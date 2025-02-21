@@ -1014,3 +1014,53 @@ gMetatiles_burned_tower::
 	.align 1
 gMetatileAttributes_burned_tower::
 	.incbin "data/tilesets/secondary/burned_tower/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_SnowPoint_City::
+	.incbin "data/tilesets/secondary/snowpoint_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_SnowPoint_City::
+	.incbin "data/tilesets/secondary/snowpoint_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/metatile_attributes.bin"
+	.align 1
+gMetatiles_goldenrod_city::
+	.incbin "data/tilesets/secondary/goldenrod_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_goldenrod_city::
+	.incbin "data/tilesets/secondary/goldenrod_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_Slateport2::
+	.incbin "data/tilesets/secondary/slateport2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Slateport2::
+	.incbin "data/tilesets/secondary/slateport2/metatile_attributes.bin"
+	.align 1
+gMetatiles_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Sootopolis2::
+	.incbin "data/tilesets/secondary/sootopolis2/metatile_attributes.bin"
+	.align 1
+gMetatiles_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_gTileset_General_fr2::
+	.incbin "data/tilesets/primary/gtileset_general_fr2/metatile_attributes.bin"
+	.align 1
+gMetatiles_silph_co2::
+	.incbin "data/tilesets/secondary/silph_co2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_silph_co2::
+	.incbin "data/tilesets/secondary/silph_co2/metatile_attributes.bin"

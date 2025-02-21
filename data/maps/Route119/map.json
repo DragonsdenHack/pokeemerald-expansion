@@ -5,8 +5,8 @@
   "music": "MUS_ROUTE119",
   "region_map_section": "MAPSEC_ROUTE_119",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "weather": "WEATHER_RAIN",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -287,7 +287,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 8,
+      "x": 13,
       "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -312,8 +312,8 @@
       "flag": "FLAG_ITEM_ROUTE_119_HYPER_POTION_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": -1,
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 14,
       "y": 33,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -321,12 +321,12 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route119_EventScript_BridgeAquaGrunt1",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "script": "Route119_Primer_Policia",
+      "flag": "FLAG_HOENN_28"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": -1,
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 14,
       "y": 34,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -334,8 +334,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route119_EventScript_BridgeAquaGrunt2",
-      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
+      "script": "Route119_Segundo_Policia",
+      "flag": "FLAG_HOENN_28"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
@@ -469,8 +469,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 31,
-      "y": 6,
+      "x": 22,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -482,8 +482,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 25,
-      "y": 15,
+      "x": 22,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -547,15 +547,15 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 19,
-      "y": 5,
+      "x": 7,
+      "y": 20,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route119_EventScript_ItemNugget",
+      "script": "Ruta_119_EventScript_Altarianita",
       "flag": "FLAG_ITEM_ROUTE_119_NUGGET"
     },
     {
@@ -583,6 +583,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_ROUTE_119_SCOTT"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_NORMAN",
+      "x": 21,
+      "y": 84,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_27"
     }
   ],
   "warp_events": [
@@ -650,50 +663,50 @@
     },
     {
       "type": "weather",
-      "x": 15,
-      "y": 133,
+      "x": 13,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 16,
-      "y": 132,
+      "x": 25,
+      "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 17,
-      "y": 131,
+      "x": 12,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 18,
-      "y": 130,
+      "x": 12,
+      "y": 135,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 19,
-      "y": 131,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 20,
-      "y": 132,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
     {
       "type": "weather",
-      "x": 21,
-      "y": 133,
+      "x": 25,
+      "y": 136,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
     },
@@ -727,35 +740,35 @@
     },
     {
       "type": "weather",
-      "x": 16,
+      "x": 12,
+      "y": 138,
+      "elevation": 3,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 12,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 17,
+      "x": 12,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 18,
-      "y": 137,
+      "x": 23,
+      "y": 138,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 19,
-      "y": 137,
-      "elevation": 3,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 20,
+      "x": 22,
       "y": 137,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
@@ -766,6 +779,24 @@
       "y": 13,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_ROUTE119_CYCLE"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 84,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "4",
+      "script": "Route119_Norman_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 85,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F8",
+      "var_value": "4",
+      "script": "Route119_Norman_Abajo"
     }
   ],
   "bg_events": [
@@ -822,7 +853,7 @@
     },
     {
       "type": "secret_base",
-      "x": 40,
+      "x": 38,
       "y": 70,
       "elevation": 3,
       "secret_base_id": "SECRET_BASE_SHRUB4_1"
@@ -843,8 +874,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 16,
-      "y": 82,
+      "x": 6,
+      "y": 89,
       "elevation": 3,
       "item": "ITEM_CALCIUM",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM"

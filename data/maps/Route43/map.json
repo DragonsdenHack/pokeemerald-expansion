@@ -35,8 +35,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GUARDIAMJOHTO",
-      "x": 20,
-      "y": 53,
+      "x": 19,
+      "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -113,10 +113,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER2",
-      "x": 21,
-      "y": 20,
+      "x": 27,
+      "y": 23,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -145,6 +145,20 @@
       "elevation": 0,
       "dest_map": "MAP_PASS_ROUTE43",
       "dest_warp_id": 1
+    },
+    {
+      "x": 25,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_PASS_LAKEOF_RAGE",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 24,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_PASS_LAKEOF_RAGE",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -188,7 +202,7 @@
       "x": 10,
       "y": 54,
       "elevation": 3,
-      "item": "ITEM_RAGE_CANDY_BAR",
+      "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_NUEVA_495"
     },
     {

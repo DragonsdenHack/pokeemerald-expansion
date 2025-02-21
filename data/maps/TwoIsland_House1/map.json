@@ -2,7 +2,7 @@
   "id": "MAP_TWO_ISLAND_HOUSE1",
   "name": "TwoIsland_House1",
   "layout": "LAYOUT_TWO_ISLAND_HOUSE1",
-  "music": "MUS_RG_SEVII_123",
+  "music": "MUS_RG_PEWTER",
   "region_map_section": "MAPSEC_TWO_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

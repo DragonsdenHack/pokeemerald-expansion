@@ -102,7 +102,7 @@ NeoPowerPlant_Obtencion_Xurkitree_2::
 msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_1 MSGBOX_AUTOCLOSE
  playfanfare MUS_OBTAIN_TMHM
 msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_2 MSGBOX_DEFAULT
-	givemon SPECIES_XURKITREE, 70, ITEM_ELECTRIC_GEM
+	givemon SPECIES_XURKITREE, 90, ITEM_ELECTRIC_GEM
 	waitfanfare  
 release
 end
@@ -116,7 +116,7 @@ NeoPowerPlant_Obtencion_Xurkitree_Texto_1:
 	.string "the generator. No one knew it, look.$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_2:
-.string "YOU OBTAINED A XURKITREE AT LV.70!$"
+.string "YOU OBTAINED A XURKITREE AT LV.90!$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_3:
 	.string "Our mechanics found it right after you\n"
@@ -144,14 +144,64 @@ delay 15
 applymovement 10, NeoPowerPlant_Presidente_Move_2
 applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Presidente_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, NeoPowerPlant_Presidente_Move_6
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 10, NeoPowerPlant_Presidente_Move_4
 waitmovement 0x0
-msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
+msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+addobject 7
+clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+clearflag FLAG_HOENN_74
+clearflag FLAG_HOENN_75
+clearflag FLAG_HOENN_76
+clearflag FLAG_HOENN_77
+clearflag FLAG_HOENN_78
+clearflag FLAG_HOENN_79
+setflag FLAG_HOENN_90
+setflag FLAG_HOENN_91
+setflag FLAG_HOENN_92
+setflag FLAG_HOENN_93
+setflag FLAG_HOENN_94
+setflag FLAG_HOENN_95
+setflag FLAG_HOENN_96
+setflag FLAG_HOENN_97
+setflag FLAG_HOENN_98
+setflag FLAG_HOENN_99
+clearflag FLAG_HOENN_640
+clearflag FLAG_HOENN_641
+clearflag FLAG_HOENN_642
+clearflag FLAG_HOENN_643
+clearflag FLAG_HOENN_644
+clearflag FLAG_HOENN_645
+clearflag FLAG_HOENN_646
+clearflag FLAG_HOENN_647
+clearflag FLAG_HOENN_648
+clearflag FLAG_HOENN_649
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_632
 setvar VAR_UNUSED_0x40F7, 204
 release
 end
@@ -206,6 +256,13 @@ NeoPowerPlant_Presidente_Texto_5:
 	.string "There are no more options, you must\n"
 	.string "defeat it and catch it. We trust you.$"
 
+NeoPowerPlant_Presidente_After::
+lock
+faceplayer
+msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
 
 NeoPowerPlant_Combate_Zapdos::
 lock
@@ -217,6 +274,8 @@ trainerbattle_no_intro TRAINER_TRAINER_231, NeoPowerPlant_Combate_Zapdos_Texto_2
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_M_CHARGE
+dofieldeffectsparkle 17, 15, 0
+waitfieldeffect FLDEFF_SPARKLE
 delay 60
 playse SE_THUNDER2
 delay 40
@@ -228,24 +287,31 @@ delay 20
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Combate_Zapdos_Move_1
 waitmovement 0x0
+waitse
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_5 MSGBOX_DEFAULT
 giveegg SPECIES_ZAPDOS_PRIMAL
 waitfanfare
-delay 20
+delay 50
 playse SE_POKENAV_CALL
+waitse
 delay 30
 playse SE_POKENAV_HANG_UP
+waitse
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
 delay 20
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
-playse SE_POKENAV_OFF
+playse SE_PC_OFF
+waitse
 removeobject 10
 clearflag FLAG_RECEIVED_SHOAL_SHELL_3
 fadescreen 1
@@ -306,7 +372,7 @@ faceplayer
 goto_if_set FLAG_NUEVA_814, NeoPowerPlant_RayoCarga_Despues
 msgbox NeoPowerPlant_RayoCarga_Texto_1, MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem 652
+additem ITEM_TM70
 msgbox NeoPowerPlant_RayoCarga_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_NUEVA_814
