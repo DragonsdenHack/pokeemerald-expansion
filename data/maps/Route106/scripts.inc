@@ -458,7 +458,7 @@ step_end
 
 
 Route106_Ariana_Despues_Texto_1:
-	.string "ARIANA: Estás aquí, lo sabía.$"
+	.string "ARIANA: Sabía que estarías aquí.$"
 
 Route106_Ariana_Despues_Texto_2:
 	.string "Alguien que no conoce HOENN solo puede\n"

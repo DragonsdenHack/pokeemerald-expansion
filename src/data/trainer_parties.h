@@ -40589,21 +40589,21 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER731[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_TRAINER732[] = {
     {
-    .iv = 50,
+    .iv = 20,
     .lvl = 8,
     .species = SPECIES_REMORAID,
-    .heldItem = ITEM_ORAN_BERRY,
+    .heldItem = ITEM_NONE,
     .evs = {8, 8, 8, 8, 8, 8},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_WATER_GUN, MOVE_BULLET_SEED, MOVE_LOCK_ON, MOVE_NONE}
     },
     {
-    .iv = 100,
+    .iv = 50,
     .lvl = 10,
     .species = SPECIES_TOTODILE,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ORAN_BERRY,
     .evs = {8, 8, 8, 8, 8, 8},
-    .nature = NATURE_RELAXED,
+    .nature = NATURE_SERIOUS,
     .moves = {MOVE_SCRATCH, MOVE_WATER_GUN, MOVE_LEER, MOVE_MUD_SLAP}
     },
     
