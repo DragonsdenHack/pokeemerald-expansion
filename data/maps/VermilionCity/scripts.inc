@@ -1106,7 +1106,7 @@ end
 
 VermilionCity_Barco_Texto_1:
 .string "¡Nadie entra al muelle sin mi\n"
-	.string "permiso ROCKET!\l"
+	.string "permiso, ROCKET!\l"
 	.string "¡Largo de aquí!$"
 
 VermilionCity_Barco_Texto_2:

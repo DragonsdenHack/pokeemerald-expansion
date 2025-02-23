@@ -42,17 +42,18 @@ setvar VAR_0x8002 0 @POSICION X
 setvar VAR_0x8003 16 @POSICION Y
 callnative DoSeagallopFerryScene
 waitstate
+delay 100
 release
 end
 
 
 FiveIslandPort_Text_Andra_1:
-.string "ANDRA: Ya llegaste, aún no te he\n"
+.string "ANDRA: Ya llegaste{PAUSE 15}…{PAUSE 15} aún no te he\n"
 	.string "pedido disculpas por mi\l"
 	.string "comportamiento anterior, pensaba\l"
 	.string "que ambos estábamos compitiendo y\l"
-	.string "quise quedar por encima tuya,\l"
-	.string "ATLAS y tú me habéis dado una\l"
+	.string "quise quedar por encima tuya.\p"
+	.string "ATLAS y tú me habéis dado una\n"
 	.string "lección, ahora entiendo el poder\l"
 	.string "de trabajar en equipo.$"
 

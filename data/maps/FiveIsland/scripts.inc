@@ -117,6 +117,7 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, FiveIsland_RumboaKanto_move3
 waitmovement 0x0
 warp MAP_FIVE_ISLAND_PORT, 8, 3
+delay 100
 release
 end
 

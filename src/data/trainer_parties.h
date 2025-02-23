@@ -14192,12 +14192,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vivi[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley2[] = {
     {
     .iv = 10,
-    .lvl = 14,
+    .lvl = 12,
     .species = SPECIES_MEOWTH,
     },
     {
     .iv = 10,
-    .lvl = 14,
+    .lvl = 12,
     .species = SPECIES_MEOWTH,
     }
 };
