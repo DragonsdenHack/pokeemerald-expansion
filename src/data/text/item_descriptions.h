@@ -4316,9 +4316,9 @@ static const u8 sSSTicketDesc[] = _(
    	"para embarcar.");
 
 static const u8 sEonTicketDesc[] = _(
-    "Billete necesario\n"
-   	"para ir hasta una\n"
-   	"lejana isla del sur.");
+    "Tarjeta que permite\n"
+   	"asistir a la reunión\n"
+   	"de CIUDAD TRIGAL.");
 
 static const u8 sMysticTicketDesc[] = _(
     "Ticket necesario\n"
@@ -4356,14 +4356,14 @@ static const u8 sDevonScopeDesc[] = _(
    	"POKéMON invisibles.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "Llave de MALVALA-\n"
-   	"NOVA (al sur de\n"
-   	"CIUDAD MALVALONA).");
+    "Llave de la BASE\n"
+   	"JOHTO, abre la\n"
+   	"sala de su LÍDER.");
 
 static const u8 sScannerDesc[] = _(
-    "Dispositivo encon-\n"
-   	"trado en la NAO\n"
-   	"ABANDONADA.");
+    "Permite atravesar\n"
+   	"fuertes corrientes\n"
+   	"sin esfuerzo.");
 
 static const u8 sStorageKeyDesc[] = _(
     "Llave del ALMACÉN\n"

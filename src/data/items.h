@@ -10324,7 +10324,7 @@ const struct Item gItems[] =
 
     [ITEM_EON_TICKET] =
     {
-        .name = _("Ticket Eón"),
+        .name = _("Pase Élite"),
         .itemId = ITEM_EON_TICKET,
         .price = 0,
         .description = sEonTicketDesc,
@@ -10424,7 +10424,7 @@ const struct Item gItems[] =
 
     [ITEM_BASEMENT_KEY] =
     {
-        .name = _("Lave Sótano"),
+        .name = _("Ll.Despacho"),
         .itemId = ITEM_BASEMENT_KEY,
         .price = 0,
         .description = sBasementKeyDesc,
@@ -10436,7 +10436,7 @@ const struct Item gItems[] =
 
     [ITEM_SCANNER] =
     {
-        .name = _("Escáner"),
+        .name = _("Cr.Corrientes"),
         .itemId = ITEM_SCANNER,
         .price = 0,
         .description = sScannerDesc,
