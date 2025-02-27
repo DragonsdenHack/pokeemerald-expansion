@@ -844,3 +844,4 @@ Cave_Regigigas_S7_Doctor_Texto_77:
 Cave_Regigigas_S7_Doctor_Texto_78:
 	.string "No importa lo que haya detrás de esta\n"
 	.string "cueva, estamos preparados.$"
+	
