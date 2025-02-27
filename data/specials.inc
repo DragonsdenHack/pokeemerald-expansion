@@ -560,3 +560,4 @@ gSpecials::
 	def_special GetSpAtkIV
 	def_special GetSpDefIV
 	def_special Special_DoPlayerNamingScreen
+	def_special BufferUnitSystemText

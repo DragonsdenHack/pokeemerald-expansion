@@ -953,7 +953,12 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas13 MSGBOX_DEFAULT
 waitfanfare
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas14 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 6, RocketWarehouseMisionAtlasmove9.5
+waitmovement 0x0
+delay 10
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas14.1 MSGBOX_AUTOCLOSE
+delay 10
 applymovement 17, RocketWarehouse_Vuelta_MisionAtlas_move4
 waitmovement 0x0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas15 MSGBOX_AUTOCLOSE
@@ -967,8 +972,8 @@ release
 end
 
 RocketWarehouse_Text_Vuelta_MisionAtlas1:
-.string "ATLAS: Buen trabajo.\n"
-	.string "Como ya sabréis del discurso de\l"
+.string "ATLAS: Buen trabajo.\p"
+	.string "Como ya sabréis del discurso de\n"
 	.string "entrada, en el TEAM ROCKET sabemos\l"
 	.string "recompensar la meritocracia, damos\l"
 	.string "prioridad al resultado final.$"
@@ -1036,14 +1041,14 @@ RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
 .string "ANDRA: Creí que mis habilidades\n"
 	.string "eran suficientes para afrontar el\l"
-	.string "reto SR.ATLAS.\l"
-	.string "No conté con ese MAREEP y su\l"
+	.string "reto, SR.ATLAS.\p"
+	.string "No conté con ese MAREEP y su\n"
 	.string "IMPACTRUENO, me equivoqué.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
-	.string "Has mostrado valor e iniciativa\l"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
+	.string "Has mostrado valor e iniciativa\n"
 	.string "propias al entrar tú sola, y\l"
 	.string "admitido tu error.\l"
 	.string "Con eso basta, pero que te sirva\l"
@@ -1061,8 +1066,8 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
-	.string "No quiero que os vayáis de esta\l"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
+	.string "No quiero que os vayáis de esta\n"
 	.string "isla sin ningún recuerdo que os\l"
 	.string "vincule con vuestra pequeña\l"
 	.string "estancia en ella.\l"

@@ -4324,9 +4324,9 @@ static const u8 sSSTicketDesc[] = _(
     "ferry.");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+    "Tarjeta que permite\n"
+   	"asistir a la reunión\n"
+   	"de CIUDAD TRIGAL.");
 
 static const u8 sMysticTicketDesc[] = _(
     "A ticket required\n"
@@ -4364,14 +4364,14 @@ static const u8 sDevonScopeDesc[] = _(
     "unseeable Pokémon.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for New\n"
-    "Mauville beneath\n"
-    "Mauville City.");
+    "Llave de la BASE\n"
+   	"JOHTO, abre la\n"
+   	"sala de su LÍDER.");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "Abandoned Ship.");
+    "Permite atravesar\n"
+   	"fuertes corrientes\n"
+   	"sin esfuerzo.");
 
 static const u8 sStorageKeyDesc[] = _(
     "The key to the\n"

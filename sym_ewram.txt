@@ -151,3 +151,4 @@
 	.include "src/debug.o"
 	.include "src/map_preview.o"
 	.include "src/seagallop.o"
+	.include "src/option_plus_menu.o"

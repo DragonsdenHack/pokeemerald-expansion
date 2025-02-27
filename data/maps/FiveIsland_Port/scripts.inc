@@ -42,6 +42,7 @@ setvar VAR_0x8002 0 @POSICION X
 setvar VAR_0x8003 16 @POSICION Y
 callnative DoSeagallopFerryScene
 waitstate
+delay 100
 release
 end
 
