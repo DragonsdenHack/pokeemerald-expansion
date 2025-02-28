@@ -499,75 +499,71 @@ walk_in_place_up
 step_end
 
 UndergroundPath_5F_Emboscada_Texto_1:
-	.string "Ese nuevo PORYGON del CASINO es una\n"
-	.string "estafa. Nadie puede permitírselo, ¡y\l"
-	.string "además los rumores dicen que es un\l"
-	.string "debilucho!$"
+	.string "The new GAME CORNER PORYGON's a total\n"
+	.string "scam. No one can afford it. And besides,\n"
+	.string "everyone's saying it's total crap!$"
 
 UndergroundPath_5F_Emboscada_Texto_2:
-	.string "Ya os lo dije, lo mejor que podéis hacer\n"
-	.string "es ahorrar para un DRATINI y tener\l"
-	.string "paciencia.$"
+	.string "Told ya so. The best you can do is just\n"
+	.string "hold on till you can snap up a DRATINI.$"
 
 UndergroundPath_5F_Emboscada_Texto_3:
-	.string "Un momento{PAUSE 15}…{PAUSE 15}$"
+	.string "Hold up…{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_4:
-	.string "¿Alguien del TEAM ROCKET aquí? ¿Qué\n"
-	.string "tramas?$"
+	.string "A TEAM ROCKET grunt? Whatcha\n"
+	.string "scheming?$"
 
 UndergroundPath_5F_Emboscada_Texto_5:
-	.string "Luces diferente a los otros, ¿no\n"
-	.string "serás{PAUSE 15}…{PAUSE 15}?$"
+	.string "Looking a bit different there, ain't ya?\n"
+	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}?$"
 
 UndergroundPath_5F_Emboscada_Texto_6:
-	.string "Debe ser algún alto cargo, ¿sabéis cómo\n"
-	.string "nos recompensaría LANCE por\l"
-	.string "atraparlo?$"
+	.string "He's gotta be a suit. Think of the dosh\n"
+	.string "we'll roll in if we turn him in to LANCE!$"
 
 UndergroundPath_5F_Emboscada_Texto_7:
-	.string "¡Podrías comprarte ese PORYGON, el\n"
-	.string "DRATINI y un SCYTHER!$"
+	.string "You'd be able to buy that PORYGON, a\n"
+	.string "DRATINI, or heck, a SCYTHER!$"
 
 UndergroundPath_5F_Emboscada_Texto_8:
-	.string "¡Sí, sí!$"
+	.string "Yeah!$"
 
 UndergroundPath_5F_Emboscada_Texto_9:
-	.string "Además{PAUSE 15}…{PAUSE 15} Le estamos haciendo un favor\n"
-	.string "a la región.$"
+	.string "Besides{PAUSE 15}…{PAUSE 15} We're doing the region a huge\n"
+	.string "favor.$"
 
 UndergroundPath_5F_Emboscada_Texto_10:
-	.string "Tus días de libertad han terminado.\n"
-	.string "¡Espero que te haya valido la pena!$"
+	.string "Your days of freedom are over. I hope it\n"
+	.string "was worth it!$"
 
 UndergroundPath_5F_Emboscada_Texto_11:
-	.string "¿Te resistes?$"
+	.string "Are you fighting back?$"
 
 UndergroundPath_5F_Emboscada_Texto_12:
-	.string "Jo, jo, jo{PAUSE 15}…{PAUSE 15}entonces{PAUSE 15}…{PAUSE 15} parece que\n"
-	.string "cuidas bien de tus POKÉMON.$"
+	.string "Pfff{PAUSE 15}…{PAUSE 15} So{PAUSE 15}…{PAUSE 15} it seems like you trained\n"
+	.string "your POKÉMON well.$"
 
 UndergroundPath_5F_Emboscada_Texto_13:
-	.string "Me quedaré con un par de ellos antes de\n"
-	.string "entregarte a la justicia, ¡nadie notará\l"
-	.string "su ausencia!$"
+	.string "I'll keep a couple of them before\n"
+	.string "handing you over to justice. No one will\n"
+	.string "care anyway!$"
 
 UndergroundPath_5F_Emboscada_Texto_14:
-	.string "¡Ríndete ya!$"
+	.string "Give up already!$"
 
 UndergroundPath_5F_Emboscada_Texto_15:
-	.string "¡Maldito! ¡Debe ser un pez gordo!\n"
-	.string "¡Si lo llevamos hasta el CG de la\l"
-	.string "LIGA POKÉMON seremos ricos!$"
+	.string "Darn you! He's gotta be a bigwig! If we\n"
+	.string "haul his bum to the LEAGUE HQ, we'll make\n"
+	.string "it big!$"
 
 UndergroundPath_5F_Emboscada_Texto_16:
-	.string "Tranquilos, yo podré con él.\n"
-	.string "Está cansado.$"
+	.string "Don't worry. I got this.\n"
+	.string "He's tuckered out.$"
 
 UndergroundPath_5F_Emboscada_Texto_17:
-	.string "Es imposible que este infeliz, con los\n"
-	.string "recursos que tiene a su disposición,\l"
-	.string "pueda con mi colección.$"
+	.string "This chump's meager junk'll be a total\n"
+	.string "wash against my collection!$"
 
 UndergroundPath_5F_Emboscada_Texto_18:
 	.string "¡Ve haciendo las maletas, partimos\n"
