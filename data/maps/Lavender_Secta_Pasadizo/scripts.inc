@@ -386,237 +386,245 @@ Lavender_Secta_Pasadizo_Oak_Texto_1:
 	.string "C. FRIDA: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_2:
-	.string "????: No estoy de acuerdo.$"
+	.string "????: I disagree.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_3:
-	.string "C. FRIDA: Ah, jovencito.\n"
-	.string "¿En qué no lo estás?$"
+	.string "C. FRIDA: Oh, young one.\p"
+	.string "What do you disagree on?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_4:
-	.string "OAK: Los grandes entrenadores no\n"
-	.string "pueden provenir de cualquier lugar. Ni\l"
-	.string "tampoco los mejores POKÉMON.$"
+	.string "OAK: Greatness can't come from just\n"
+	.string "anywhere. Neither in a trainer nor\n"
+	.string "POKÉMON.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_5:
-	.string "C. FRIDA: ¿No lo crees así entonces?$"
+	.string "C. FRIDA: You don't believe so?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_6:
-	.string "OAK: El entorno influye demasiado.\n"
-	.string "Jamás hubieras sido tan buena con el\l"
-	.string "TIPO FANTASMA sin PUEBLO LAVANDA.$"
+	.string "OAK: Environment influences way too\n"
+	.string "much. If it weren't for LAVENDER TOWN,\n"
+	.string "you'd have never become the GHOST\l"
+	.string "master that you are now.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_7:
-	.string "C. FRIDA: Así es, hubiera\n"
-	.string "sido algo diferente.$"
+	.string "C. FRIDA: And you are right on that.\n"
+	.string "Things would have been quite different.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_8:
-	.string "OAK: Algo peor. Si te hubiéramos\n"
-	.string "encerrado en el TÚNEL ROCA, no podrías\l"
-	.string "haber desarrollado el mismo potencial.$"
+	.string "OAK: Worse yet, if we had imprisoned you\n"
+	.string "in the ROCK TUNNEL, you couldn't have\n"
+	.string "developed the slightest of your\l"
+	.string "potential.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_9:
-	.string "Allí confinada, no hubieras tenido ni el\n"
-	.string "nivel de un aspirante a LÍDER de\l"
-	.string "GIMNASIO.$"
+	.string "Confined there, your level would hardly\n"
+	.string "surpass a GYM challenger's.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_10:
-	.string "C. FRIDA: ¡Ah, sí!$"
+	.string "C. FRIDA: Oh, yes!$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_11:
-	.string "Confinada en ese estrecho túnel, ya de\n"
-	.string "por sí inabarcable para cualquiera.$"
+	.string "Confined inside that dark and narrow\n"
+	.string "tunnel{PAUSE 15}…{PAUSE 15}already unreachable for anyone.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_12:
-	.string "OAK: ¿Qué quieres decir?$"
+	.string "OAK: What do you mean?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_13:
-	.string "C. FRIDA: Mis opciones dentro de ese\n"
-	.string "lugar, dentro de incluso la celda más\l"
-	.string "oscura, seguirían siendo infinitas.$"
+	.string "C. FRIDA: Even in the darkest of the\n"
+	.string "cells, my options would still be infinite.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_14:
-	.string "Menores, pero aún infinitas.$"
+	.string "Not as much, yet still infinite.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_15:
-	.string "OAK: Eso no es posible.\n"
-	.string "No tiene sentido.$"
+	.string "OAK: That makes no sense.\p"
+	.string "It's not possible!$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_16:
-	.string "C. FRIDA: No se trata de posible o\n"
-	.string "imposible, se trata de una certeza.$"
+	.string "C. FRIDA: It's not about possibility or\n"
+	.string "impossibility. It's about certainty.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_17:
-	.string "Es la conciencia, y no la materia, lo que\n"
-	.string "constituye la base fundamental de la\l"
-	.string "realidad.$"
+	.string "It is consciousness, not matter, that\n"
+	.string "cements reality.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_18:
-	.string "Con ella, siempre habrá posibilidad de\n"
-	.string "cambio. Y la posibilidad engendra cada\l"
-	.string "vez más y más posibilidad.$"
+	.string "With that, there's always a probability\n"
+	.string "of change. And that probability is what\n"
+	.string "causes more of it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_19:
-	.string "Además{PAUSE 35}…{PAUSE 35}$"
+	.string "Besides{PAUSE 35}…{PAUSE 35}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_20:
-	.string "La luz puede hallarse incluso, o tal vez,\n"
-	.string "especialmente, en los momentos de\l"
-	.string "mayor oscuridad.$"
+	.string "Sometimes, life is like a dark tunnel.\n"
+	.string "You can't always see the light at the\n"
+	.string "end of the tunnel, but if you just keep\l"
+	.string "moving... you will come to a better place.\l"
+	.string "Even in the darkest place, you give\l"
+	.string "yourself hope, and that's true\l"
+	.string "willpower.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_21:
-	.string "OAK: ¡Tonterías! No son más que\n"
-	.string "conjeturas sobre cómo te gustaría que\l"
-	.string "fuera el mundo.$"
+	.string "OAK: This is still total crock! Nothing\n"
+	.string "more than desperate desires of how you\n"
+	.string "want the world to work.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_22:
-	.string "Has llegado tan lejos a pesar de creer\n"
-	.string "en todas esas chorradas místicas.$"
+	.string "You got this far in spite of believing in\n"
+	.string "all of this mystical crock.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_23:
-	.string "Pero la verdad es que han sido el\n"
-	.string "talento y la suerte los que han hecho el\l"
-	.string "trabajo.$"
+	.string "But we both know that it is your talent\n"
+	.string "combined with luck that got the job\n"
+	.string "done.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_24:
-	.string "Sin eso, sin el resultado final, nadie\n"
-	.string "tomaría en serio ese discurso.$"
+	.string "Without the final result, not a single\n"
+	.string "soul would take your little speech\n"
+	.string "seriously.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_25:
-	.string "C. FRIDA: Vaya.$"
+	.string "C. FRIDA: How unfortunate.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_26:
-	.string "Eres un joven inteligente. Pero tu\n"
-	.string "apego por la razón y el mundo que\l"
-	.string "conoces te impide ver más allá.$"
+	.string "You're smart. But your attachment to\n"
+	.string "reason in the world you know blinds you.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_27:
-	.string "OAK: Si no puedo verlo. Muéstramelo.$"
+	.string "OAK: If I cannot see it, then show it to\n"
+	.string "me.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_28:
-	.string "Muéstrame ese POKÉMON; la prueba de\n"
-	.string "que todo lo que dices es cierto.$"
+	.string "Show me that POKÉMON, show me the\n"
+	.string "proof, show me that all you said is true.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_29:
-	.string "C. FRIDA: No lo haré.$"
+	.string "C. FRIDA: I refuse.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_30:
-	.string "OAK: Pero, ¿por qué?$"
+	.string "OAK: But… why?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_31:
-	.string "C. FRIDA: Mi POKÉMON no es\n"
-	.string "una reliquia de museo.$"
+	.string "C. FRIDA: My POKÉMON is not a relic to be\n"
+	.string "exposed at a museum.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_32:
-	.string "Si quieres pruebas, inicia tu propia\n"
-	.string "búsqueda; no quieras hallar la solución\l"
-	.string "sin conocer el proceso.$"
+	.string "If you want proof, you must start your\n"
+	.string "own search. Don't try to start building\n"
+	.string "a house from the roof.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_33:
-	.string "OAK: Entonces, te obligaré a sacarlo.$"
+	.string "OAK: Then I'll be forcing you to do so.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_34:
-	.string "Cuando en unos años pueda optar al\n"
-	.string "título, no tendrás opción.$"
+	.string "The day I apply for the CHAMPION, you\n"
+	.string "won't have a chance.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_35:
 	.string "C. FRIDA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_36:
-	.string "Me temo que no va a ser posible. Yo y mis\n"
-	.string "POKÉMON haremos un viaje, lejos de\l"
-	.string "KANTO y JOHTO.$"
+	.string "I'm afraid that won't happen. My\n"
+	.string "POKÉMON and I will be going on a\n"
+	.string "journey, far from KANTO and JOHTO.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_37:
-	.string "OAK: ¡¿Vas a renunciar a\n"
-	.string "defender el título?!$"
+	.string "OAK: Are you refusing to\n"
+	.string "defend your title?!$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_38:
-	.string "C. FRIDA: Ya he demostrado lo\n"
-	.string "que tenía que demostrar.$"
+	.string "C. FRIDA: I have nothing else to\n"
+	.string "demonstrate that I haven't already\n"
+	.string "done.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_39:
-	.string "OAK: No{PAUSE 25}…{PAUSE 25} Es imposible{PAUSE 25}…{PAUSE 25} Un CAMPEÓN de\n"
-	.string "verdad jamás haría eso{PAUSE 25}…$"
+	.string "OAK: No… Impossible… A true CHAMPION\n"
+	.string "would never do so…$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_40:
-	.string "Es todo una farsa.$"
+	.string "This is all a lie.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_41:
-	.string "Ese NINETALES no existe, ¿verdad? Fue\n"
-	.string "solo un truco, un truco de magia que\l"
-	.string "todos se creyeron.$"
+	.string "That NINETALES doesn't exist, right? It\n"
+	.string "was all a cheap trick.\p"
+	.string "A bait everyone bit.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_42:
-	.string "Por eso ahora vas a desaparecer. Para\n"
-	.string "mantener viva tu leyenda.$"
+	.string "Yeah… That's why you're leaving… You\n"
+	.string "want to keep your legend bright.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_43:
-	.string "C. FRIDA: ¿Eso crees?$"
+	.string "C. FRIDA: You think so?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_44:
-	.string "OAK: Pero{PAUSE 25}…{PAUSE 25} La historia te olvidará, solo\n"
-	.string "has ganado el título una vez.$"
+	.string "OAK: But it won't last long… History\n"
+	.string "won't remember you for long. You only\n"
+	.string "got the title once.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_45:
-	.string "Con el paso del tiempo, solo quedarán\n"
-	.string "vagos testimonios. Tu leyenda se\l"
-	.string "convertirá en un mito, un cuento para\l"
-	.string "niños.$"
+	.string "With the years, only vague witnesses\n"
+	.string "will remember you. Your story will remain\n"
+	.string "a myth, a kid's bed time story.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_46:
-	.string "Yo, en cambio, no ganaré ni una ni dos\n"
-	.string "veces; lograré conservar ese puesto\l"
-	.string "más que ningún otro CAMPEÓN en la\l"
-	.string "historia.$"
+	.string "On the other hand, I won't get it once\n"
+	.string "nor twice… I will maintain my position so\n"
+	.string "I become the greatest, most\l"
+	.string "long-standing CHAMPION that ever\l"
+	.string "lived!$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_47:
-	.string "Mostraré al mundo todo el poder de MIS\n"
-	.string "POKÉMON, sin ocultismos ni acertijos.\l"
-	.string "Todas mis hazañas quedarán\l"
-	.string "registradas, a la vista de todos.$"
+	.string "I will show everyone my POKÉMON, no\n"
+	.string "illusion or phantom. All my feats will be\n"
+	.string "in everyone's memory, in sight of every\l"
+	.string "single living person.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_48:
-	.string "Y cuando tenga más trofeos que nadie,\n"
-	.string "habré demostrado que soy el mejor\l"
-	.string "ENTRENADOR. ¡Los números nunca\l"
-	.string "mienten!$"
+	.string "And when I become the one with the most\n"
+	.string "trophies, I'll have proven I am the best\n"
+	.string "TRAINER ever. You can say whatever you\l"
+	.string "want, but numbers never lie.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_49:
-	.string "C. FRIDA: Ya veo.$"
+	.string "C. FRIDA: I see.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_50:
-	.string "Hay un viejo dicho en JOHTO: 'el ideal es\n"
-	.string "imposible de hallar dos veces, y muy\l"
-	.string "pocos lo encuentran una sola vez en la\l"
-	.string "vida'.$"
+	.string "There's a saying, back in JOHTO:{PAUSE 20} “It's\n"
+	.string "impossible to find the ideal twice, even\n"
+	.string "very few find it once”.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_51:
-	.string "Yo fui capaz de hallarlo una\n"
-	.string "vez con mi NINETALES.$"
+	.string "I found it once along with my\n"
+	.string "NINETALES.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_52:
-	.string "Tú{PAUSE 25}…{PAUSE 25} tienes herramientas para hallarlo.$"
+	.string "You… You have what you need to seek it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_53:
-	.string "Pero{PAUSE 25}…{PAUSE 25} si solo aspiras a alargar la vista\n"
-	.string "y subyugar los sentidos{PAUSE 25}…{PAUSE 25} jamás lo\l"
-	.string "harás.$"
+	.string "However… if your only aspiration is to\n"
+	.string "extend your sight but seal your\n"
+	.string "senses… you won't ever find it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
-	.string "Vivirás sin jamás descorrer\n"
-	.string "la verdad tras el velo.\l"
-	.string "El tiempo pasa, ¿lo entiendes?$"
+	.string "You'll live, but you'll never get to\n"
+	.string "witness what awaits on the other side.\n"
+	.string "Time waits for no one, do you\l"
+	.string "understand?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_55:
 	.string "OAK: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_56:
-	.string "Ese ideal no existe. Solo existe lo que\n"
-	.string "podemos medir, mejorar y registrar.$"
+	.string "OAK: Nonsense. There is no such thing\n"
+	.string "as an “ideal.” The only things that\n"
+	.string "exist are those measurable,\l"
+	.string "upgradeable and registrable.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_57:
-	.string "El mundo verá el resultado\n"
-	.string "de mis investigaciones.$"
+	.string "The world shall see the result of my\n"
+	.string "search.$"
 
 Lavender_Secta_Pasadizo_Bloqueo::
 lock
@@ -637,5 +645,5 @@ walk_slow_right
 step_end
 
 Lavender_Secta_Pasadizo_Bloqueo_Texto_1:
-	.string "Una energía misteriosa te impide\n"
-	.string "volver.$"
+	.string "A mysterious energy prevents you from\n"
+	.string "coming back.$"

@@ -607,303 +607,296 @@ walk_up
 step_end
 
 LavenderTown_Pasado_Gym_Texto_1:
-	.string "????: Justo a tiempo.$"
+	.string "????: Just in time.$"
 
 LavenderTown_Pasado_Gym_Texto_2:
-	.string "AGATHA: ¡Tú! ¡¿Qué haces aquí?!$"
+	.string "AGATHA: You! What are you doing here?!$"
 
 LavenderTown_Pasado_Gym_Texto_3:
-	.string "Nunca te has interesado por PUEBLO\n"
-	.string "LAVANDA.$"
+	.string "You were never interested in\n"
+	.string "LAVENDER TOWN.$"
 
 LavenderTown_Pasado_Gym_Texto_4:
-	.string "????: Algún día seré CAMPEÓN de KANTO.\n"
-	.string "Tengo que escuchar a uno de verdad\l"
-	.string "para hacerme a la idea.$"
+	.string "????: I'll someday become KANTO's\n"
+	.string "CHAMPION. I should hear an actual one\n"
+	.string "so I can get the idea.$"
 
 LavenderTown_Pasado_Gym_Texto_5:
-	.string "AGATHA: Tan arrogante como siempre. No\n"
-	.string "tienes remedio, OAK.$"
+	.string "AGATHA: As prideful as always.\p"
+	.string "You're hopeless, OAK.$"
 
 LavenderTown_Pasado_Gym_Texto_6:
-	.string "OAK: Solo es la pura verdad. ¿Quién me\n"
-	.string "derrotará? ¿Un GENGAR?$"
+	.string "OAK: It's purely the truth.\p"
+	.string "Who would defeat me? A GENGAR?$"
 
 LavenderTown_Pasado_Gym_Texto_7:
-	.string "AGATHA: ¡Pues sí!$"
+	.string "AGATHA: Well, yes!$"
 
 LavenderTown_Pasado_Gym_Texto_8:
-	.string "OAK: Solo un LEGENDARIO podrá ponerme\n"
-	.string "en aprietos, ¡ya lo verás!$"
+	.string "OAK: Only a LEGENDARY will make me\n"
+	.string "struggle{PAUSE 15}…{PAUSE 15}you'll see!$"
 
 LavenderTown_Pasado_Gym_Texto_9:
-	.string "AGATHA: ¡Pues los POKÉMON FANTASMA de\n"
-	.string "mi maestra son tan fuertes como un\l"
-	.string "LEGENDARIO! ¡Tiene incluso uno que lo\l"
-	.string "es!$"
+	.string "AGATHA: Well guess what? My master's\n"
+	.string "GHOST POKÉMON are as strong as a\n"
+	.string "LEGENDARY! Even one of hers is one!$"
 
 LavenderTown_Pasado_Gym_Texto_10:
-	.string "OAK: No mientas, eso es imposible.$"
+	.string "OAK: You're bluffing. That's impossible.$"
 
 LavenderTown_Pasado_Gym_Texto_11:
-	.string "AGATHA: ¡No lo es! ¡GASTLY,\n"
-	.string "HAUNTER y GENGAR no son los únicos\l"
-	.string "fantasmas que hay en PUEBLO LAVANDA!$"
+	.string "AGATHA: It's not! GASTLY, HAUNTER, and\n"
+	.string "GENGAR are not the only ghosts in this\n"
+	.string "TOWN.$"
 
 LavenderTown_Pasado_Gym_Texto_12:
-	.string "OAK: ¡Ya verás cuand…!$"
+	.string "OAK: You'll see whe…!$"
 
 LavenderTown_Pasado_Gym_Texto_13:
-	.string "¡Silencio! ¡Ya!$"
+	.string "Enough! Shut up!$"
 
 LavenderTown_Pasado_Gym_Texto_14:
-	.string "Estamos ante un acontecimiento\n"
-	.string "histórico.$"
+	.string "We're witnessing something historical.$"
 
 LavenderTown_Pasado_Gym_Texto_15:
-	.string "Por primera vez, un ENTRENADOR del TIPO\n"
-	.string "FANTASMA se hace con el título de\l"
-	.string "CAMPEÓN.$"
+	.string "For the first time ever, a GHOST TYPE\n"
+	.string "TRAINER has emerged as CHAMPION.$"
 
 LavenderTown_Pasado_Gym_Texto_16:
-	.string "Un tipo escurridizo, misterioso y\n"
-	.string "difícil de entender. Pero que encierra\l"
-	.string "un gran poder que muy pocos pueden\l"
-	.string "llegar a dominar.$"
+	.string "A sneaky, mysterious, and hard to\n"
+	.string "understand type. But it hides a huge\n"
+	.string "power which not anyone can control.$"
 
 LavenderTown_Pasado_Gym_Texto_17:
-	.string "Una talentosa joven ha sido quién ha\n"
-	.string "llevado esto a su máxima expresión.$"
+	.string "A gifted girl took it to its limits.$"
 
 LavenderTown_Pasado_Gym_Texto_18:
-	.string "Fue capaz de doblegar a los poderosos\n"
-	.string "dragones del joven maestro de JOHTO, y\l"
-	.string "lograr lo imposible.$"
+	.string "She'd made the young DRAGON MASTER of\n"
+	.string "JOHTO bow down{PAUSE 15}…{PAUSE 15} and realized the\n"
+	.string "impossible.$"
 
 LavenderTown_Pasado_Gym_Texto_19:
-	.string "PUEBLO LAVANDA siempre tendrá un lugar\n"
-	.string "para nuestra CAMPEONA: FRIDA.$"
+	.string "LAVENDER TOWN will always have a\n"
+	.string "special place for our CHAMPION: FRIDA.$"
 
 LavenderTown_Pasado_Gym_Texto_20:
-	.string "C. FRIDA: Gracias por\n"
-	.string "tus palabras, maestra.$"
+	.string "C. FRIDA: Thank you for your words,\n"
+	.string "master.$"
 
 LavenderTown_Pasado_Gym_Texto_21:
-	.string "Como todos sabéis, nací en JOHTO.$"
+	.string "As you all may know, I was born in JOHTO.$"
 
 LavenderTown_Pasado_Gym_Texto_22:
-	.string "Pero mi corazón siempre estará con\n"
-	.string "KANTO, con PUEBLO LAVANDA.$"
+	.string "However, my heart will always belong to\n"
+	.string "KANTO, to LAVENDER TOWN.$"
 
 LavenderTown_Pasado_Gym_Texto_23:
-	.string "Aquí fue donde pude desarrollar todo mi\n"
-	.string "potencial como LÍDER de GIMNASIO.$"
+	.string "Here and nowhere else is where I could\n"
+	.string "become the best GYM LEADER that I\n"
+	.string "could.$"
 
 LavenderTown_Pasado_Gym_Texto_24:
-	.string "Este lugar{PAUSE 15}…{PAUSE 15} todos lo conocéis. Emana\n"
-	.string "una energía diferente, hay algo\l"
-	.string "espiritual en él.$"
+	.string "You all know this place… It sprouts a\n"
+	.string "different energy, something… spiritual.$"
 
 LavenderTown_Pasado_Gym_Texto_25:
-	.string "No podemos verlo, tal vez siquiera\n"
-	.string "comprenderlo. Pero resulta imposible\l"
-	.string "ignorar su poder.$"
+	.string "We cannot see it, and we may not even\n"
+	.string "understand it. But we certainly cannot\n"
+	.string "ignore its power.$"
 
 LavenderTown_Pasado_Gym_Texto_26:
-	.string "Esa fuerza fue la que ayudó a mi\n"
-	.string "POKÉMON a superar sus límites, la misma\l"
-	.string "que me convirtió en CAMPEONA, y también\l"
-	.string "la que me hizo darme cuenta de una\l"
-	.string "verdad inmutable, atemporal.$"
+	.string "That is what helped me and my POKÉMON\n"
+	.string "overcome my limits, and so it did make me\n"
+	.string "realize a certain and undeniable truth,\l"
+	.string "a truth that always was and always will\l"
+	.string "be.$"
 
 LavenderTown_Pasado_Gym_Texto_27:
-	.string "OAK: ¿Y cuál es?$"
+	.string "OAK: And that truth is supposed to be…$"
 
 LavenderTown_Pasado_Gym_Texto_28:
-	.string "C. FRIDA: Que los grandes entrenadores\n"
-	.string "pueden provenir de cualquier lugar.$"
+	.string "C. FRIDA: … That great trainers can\n"
+	.string "come from anywhere.$"
 
 LavenderTown_Pasado_Gym_Texto_29:
 	.string "OAK: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Pasado_Gym_Texto_30:
-	.string "AGATHA: ¡Maestra, maestra! ¡Cuéntenos!$"
+	.string "AGATHA: Master, master! Please tell us!$"
 
 LavenderTown_Pasado_Gym_Texto_31:
-	.string "¿Qué pasó con su NINETALES?$"
+	.string "What happened to your NINETALES?$"
 
 LavenderTown_Pasado_Gym_Texto_32:
-	.string "¿De verdad pudo derrotar al DRAGONITE\n"
-	.string "más fuerte de toda JOHTO tras\l"
-	.string "evolucionar?$"
+	.string "Did he really defeat the strongest\n"
+	.string "DRAGONITE west of MT.SILVER after\n"
+	.string "evolving?$"
 
 LavenderTown_Pasado_Gym_Texto_33:
-	.string "OAK: ¿¡Cómo!?$"
+	.string "OAK: WHAT!?$"
 
 LavenderTown_Pasado_Gym_Texto_34:
-	.string "C. FRIDA: Ah, AGATHA. Estás en todo.\n"
-	.string "Y tienes razón.$"
+	.string "C. FRIDA: Ah, AGATHA, you're in the know.\n"
+	.string "And you're right.$"
 
 LavenderTown_Pasado_Gym_Texto_35:
-	.string "Como sabéis, NINETALES fue\n"
-	.string "mi primer POKÉMON.$"
+	.string "As you know, NINETALES was my first\n"
+	.string "POKÉMON.$"
 
 LavenderTown_Pasado_Gym_Texto_36:
-	.string "Parece que fue ayer cuando lo encontré\n"
-	.string "en este mismo GIMNASIO. Era más joven\l"
-	.string "que tú, AGATHA.$"
+	.string "It feels like it was yesterday when I\n"
+	.string "found him in this very GYM. I was even\n"
+	.string "younger than you, AGATHA.$"
 
 LavenderTown_Pasado_Gym_Texto_37:
-	.string "Tal día, esa pequeña niña y aquel\n"
-	.string "pequeño VULPIX unieron su destino para\l"
-	.string "siempre.$"
+	.string "On such a day, the little girl and that\n"
+	.string "little VULPIX fused their destinies\n"
+	.string "forever since.$"
 
 LavenderTown_Pasado_Gym_Texto_38:
-	.string "OAK: ¡Pero NINETALES no es\n"
-	.string "TIPO FANTASMA!$"
+	.string "OAK: But NINETALES isn't a GHOST TYPE!$"
 
 LavenderTown_Pasado_Gym_Texto_39:
-	.string "C. FRIDA: No, no lo es.$"
+	.string "C. FRIDA: Indeed.$"
 
 LavenderTown_Pasado_Gym_Texto_40:
-	.string "Pero{PAUSE 25}…{PAUSE 25} yo siempre supe que ese pequeño,\n"
-	.string "aquel que encontré revolviéndose sobre\l"
-	.string "una misteriosa tumba, guardaba mucho\l"
-	.string "de ese tipo en su interior.$"
+	.string "But… I always knew that little guy I'd\n"
+	.string "found stirring around a mysterious\n"
+	.string "tombstone had a lot of that TYPE\l"
+	.string "hidden somewhere inside him.$"
 
 LavenderTown_Pasado_Gym_Texto_41:
-	.string "Ese VULPIX se convirtió en el\n"
-	.string "NINETALES más fuerte que mis ojos\l"
-	.string "hayan visto.$"
+	.string "That VULPIX turned into the strongest\n"
+	.string "NINETALES I have ever seen.$"
 
 LavenderTown_Pasado_Gym_Texto_42:
-	.string "Sin embargo, el poder de los\n"
-	.string "dragones es terrible.$"
+	.string "However{PAUSE 15}…{PAUSE 15} the power of a dragon is\n"
+	.string "terribly outstanding.$"
 
 LavenderTown_Pasado_Gym_Texto_43:
-	.string "Gracias a mi habilidad pude contenerlos.\n"
-	.string "Pero el último de sus dragones{PAUSE 15}…{PAUSE 15} su\l"
-	.string "poder era tal, que resultaba\l"
-	.string "incontrolable.$"
+	.string "Thanks to my abilities, I managed to\n"
+	.string "withstand them. But the last of his\n"
+	.string "dragons… That power was… beyond any\l"
+	.string "control.$"
 
 LavenderTown_Pasado_Gym_Texto_44:
-	.string "Abriendo brecha en nuestras defensas,\n"
-	.string "el destino del combate estaba sellado.$"
+	.string "Once a breach was opened in our\n"
+	.string "defenses, our doom was sealed.$"
 
 LavenderTown_Pasado_Gym_Texto_45:
-	.string "Aun así, nunca dejamos de creer.\n"
-	.string "Y ocurrió.$"
+	.string "However, we never did stop believing.\n"
+	.string "And it happened.$"
 
 LavenderTown_Pasado_Gym_Texto_46:
-	.string "De algún modo, todo ese potencial,\n"
-	.string "todos esos intangibles que siempre\l"
-	.string "supe que existían, de repente{PAUSE 15}…{PAUSE 15} estaban\l"
-	.string "ahí.$"
+	.string "One way or another, all that potential{PAUSE 15}…{PAUSE 15}\n"
+	.string "all those abstracts that I always knew\n"
+	.string "were there{PAUSE 15}…{PAUSE 15} suddenly… manifested.$"
 
 LavenderTown_Pasado_Gym_Texto_47:
-	.string "Ahora podía verse, olerse y tocarse:\n"
-	.string "¡el TIPO FANTASMA que ese VULPIX\l"
-	.string "siempre tuvo dentro se materializó!$"
+	.string "Now, you could see it, smell it, feel it:\n"
+	.string "that GHOST TYPE that was always within\n"
+	.string "that VULPIX became materialized!$"
 
 LavenderTown_Pasado_Gym_Texto_48:
-	.string "AGATHA: ¡Guau!$"
+	.string "AGATHA: Wow!$"
 
 LavenderTown_Pasado_Gym_Texto_49:
-	.string "C. FRIDA: Al principio, creyeron que era\n"
-	.string "una estrategia. Pensaron que estaba\l"
-	.string "nublando sus sentidos por medio de la\l"
-	.string "hipnosis.$"
+	.string "C. FRIDA: In the beginning, they\n"
+	.string "thought it was a bluff. A mere illusion\n"
+	.string "provoked by hypnosis and its sense\l"
+	.string "alteration.$"
 
 LavenderTown_Pasado_Gym_Texto_50:
-	.string "Pero no, era real. Y esa será la forma\n"
-	.string "que mi NINETALES tendrá por el resto\l"
-	.string "de sus días.$"
+	.string "But no, it was very real. And it is the\n"
+	.string "form my NINETALES will maintain for\n"
+	.string "ever and ever.$"
 
 LavenderTown_Pasado_Gym_Texto_51:
-	.string "Su pelaje se volvió duro como\n"
-	.string "el acero, impenetrable.$"
+	.string "His fur turned hard as pure steel. There\n"
+	.string "was no way to penetrate it.$"
 
 LavenderTown_Pasado_Gym_Texto_52:
-	.string "Sus poderes mentales se dispararon.\n"
-	.string "También su agilidad y fluidez en combate.$"
+	.string "His mental powers also got enhanced,\n"
+	.string "same as his agility and performance in\n"
+	.string "battle.$"
 
 LavenderTown_Pasado_Gym_Texto_53:
-	.string "Tal evento sorprendió al CAMPEÓN que, a\n"
-	.string "pesar de seguir luchando, no pudo hacer\l"
-	.string "nada.$"
+	.string "Even the CHAMPION was surprised; not\n"
+	.string "even fighting more and more could\n"
+	.string "prevent the outcome.$"
 
 LavenderTown_Pasado_Gym_Texto_54:
-	.string "Su POKÉMON, símbolo de lo sagrado, fue\n"
-	.string "derrotado por primera vez.$"
+	.string "His POKÉMON, a mark of the sacred, was\n"
+	.string "defeated for the first time ever.$"
 
 LavenderTown_Pasado_Gym_Texto_55:
-	.string "AGATHA: Es increíble.$"
+	.string "AGATHA: It's… unbelievable.$"
 
 LavenderTown_Pasado_Gym_Texto_56:
-	.string "C. FRIDA: Puede que, sin saberlo{PAUSE 15}…{PAUSE 15}\n"
-	.string "lleváramos toda la vida preparándonos\l"
-	.string "para ese momento.$"
+	.string "C. FRIDA: Maybe, without knowing it… we\n"
+	.string "had been preparing all these years for\n"
+	.string "this exact moment.$"
 
 LavenderTown_Pasado_Gym_Texto_57:
-	.string "OAK: Entonces, ¡ha hecho un gran\n"
-	.string "descubrimiento! ¡NINETALES puede\l"
-	.string "evolucionar!$"
+	.string "OAK: Well, then, you made a great\n"
+	.string "discovery! NINETALES can evolve!$"
 
 LavenderTown_Pasado_Gym_Texto_58:
-	.string "Seguro que es más fuerte que ARCANINE,\n"
-	.string "¡incluso que MOLTRES!$"
+	.string "I bet its strength surpasses\n"
+	.string "ARCANINE's. Even MOLTRES's!$"
 
 LavenderTown_Pasado_Gym_Texto_59:
 	.string "MORFEO: OAK…$"
 
 LavenderTown_Pasado_Gym_Texto_60:
-	.string "OAK: Entrenaré uno hasta que\n"
-	.string "evolucione también. Con esa\l"
-	.string "incorporación mi equipo será aún más\l"
-	.string "fuerte y equilibrado.$"
+	.string "OAK: I'll train one too until it evolves.\n"
+	.string "With that fine addition to my\n"
+	.string "collection, my team will be stronger and\l"
+	.string "more equilibrated.$"
 
 LavenderTown_Pasado_Gym_Texto_61:
-	.string "Dime, CAMPEONA. ¿A qué nivel\n"
-	.string "está ahora tu NINETALES?$"
+	.string "Tell me, CHAMPION. What level is your\n"
+	.string "NINETALES now?$"
 
 LavenderTown_Pasado_Gym_Texto_62:
-	.string "C. FRIDA: No es tan simple, jovencito. El\n"
-	.string "nivel no importa aquí.$"
+	.string "C. FRIDA: It's not that simple, young\n"
+	.string "one. Level doesn't matter here.$"
 
 LavenderTown_Pasado_Gym_Texto_63:
-	.string "OAK: ¿Qué?$"
+	.string "OAK: Say what?$"
 
 LavenderTown_Pasado_Gym_Texto_64:
-	.string "AGATHA: ¿No has escuchado nada de lo\n"
-	.string "que ha dicho? Su NINETALES evolucionó\l"
-	.string "porque estaban conectados, un vínculo\l"
-	.string "especial y único lo hizo posible.$"
+	.string "AGATHA: Haven't you listened to\n"
+	.string "anything she said? Her NINETALES\n"
+	.string "evolved because they were connected:\l"
+	.string "a special and unique bond made it\l"
+	.string "possible.$"
 
 LavenderTown_Pasado_Gym_Texto_65:
-	.string "OAK: ¡Bah, tonterías! Solo fue\n"
-	.string "casualidad. Subió de nivel en el momento\l"
-	.string "justo, no hay misterio en eso.$"
+	.string "OAK: What a load of crock! It was just a\n"
+	.string "mere coincidence. A lucky level-up.\n"
+	.string "Nothing more, nothing less.$"
 
 LavenderTown_Pasado_Gym_Texto_66:
-	.string "C. FRIDA: Al contrario, joven. A veces,\n"
-	.string "los mayores misterios se encuentran\l"
-	.string "camuflados en lo más ordinario, en lo\l"
-	.string "que está a la vista de todos.$"
+	.string "C. FRIDA: On the contrary, young one.\n"
+	.string "Sometimes, the greatest mysteries are\n"
+	.string "hidden in the simplest things{PAUSE 15}…{PAUSE 15} in sight\l"
+	.string "of everyone.$"
 
 LavenderTown_Pasado_Gym_Texto_67:
-	.string "Si me disculpáis.$"
+	.string "Now, if you excuse me.$"
 
 LavenderTown_Pasado_Gym_Texto_68:
-	.string "AGATHA: ¡Maestra, espere!$"
+	.string "AGATHA: Master! Wait!$"
 
 LavenderTown_Pasado_Gym_Texto_69:
-	.string "Déjale descansar. El combate por el\n"
-	.string "título ha sido duro, y el viaje\l"
-	.string "desde JOHTO largo.$"
+	.string "Let her rest. The battle she won was\n"
+	.string "long and hard, and it's a long way from\n"
+	.string "JOHTO.$"
 
 LavenderTown_Pasado_Gym_Texto_70:
-	.string "AGATHA: Jo{PAUSE 15}…{PAUSE 15} Quería que viera lo mucho\n"
-	.string "que ha crecido mi GASTLY.$"
+	.string "AGATHA: Damn it… I wanted to show her\n"
+	.string "how my GASTLY had grown up…$"
 
 LavenderTown_Pasado_Gym_Texto_71:
-	.string "Mañana podrás enseñárselo.$"  
+	.string "You can do so tomorrow.$"  

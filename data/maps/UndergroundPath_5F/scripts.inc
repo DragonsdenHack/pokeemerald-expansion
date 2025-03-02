@@ -504,8 +504,8 @@ UndergroundPath_5F_Emboscada_Texto_1:
 	.string "everyone's saying it's total crap!$"
 
 UndergroundPath_5F_Emboscada_Texto_2:
-	.string "Told ya so. The best you can do is just\n"
-	.string "hold on till you can snap up a DRATINI.$"
+	.string "Lookin' a bit different there, ain't ya?\n"
+	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}?$"
 
 UndergroundPath_5F_Emboscada_Texto_3:
 	.string "Hold up…{PAUSE 15}…{PAUSE 15}$"
@@ -515,7 +515,7 @@ UndergroundPath_5F_Emboscada_Texto_4:
 	.string "scheming?$"
 
 UndergroundPath_5F_Emboscada_Texto_5:
-	.string "Looking a bit different there, ain't ya?\n"
+	.string "Lookin' a bit different there, ain't ya?\n"
 	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}?$"
 
 UndergroundPath_5F_Emboscada_Texto_6:
@@ -566,78 +566,76 @@ UndergroundPath_5F_Emboscada_Texto_17:
 	.string "wash against my collection!$"
 
 UndergroundPath_5F_Emboscada_Texto_18:
-	.string "¡Ve haciendo las maletas, partimos\n"
-	.string "hacia MESETA AÑIL!$"
+	.string "Get your luggage; next stop:\n"
+	.string "INDIGO PLATEAU!$"
 
 UndergroundPath_5F_Emboscada_Texto_19:
-	.string "¿Quién te crees que eres?$"
+	.string "Who do you think you are?$"
 
 UndergroundPath_5F_Emboscada_Texto_20:
-	.string "Maldición{PAUSE 15}…{PAUSE 15} con un DRAGONAIR te hubiera\n"
-	.string "ganado, si no fuera tan difícil criarlo{PAUSE 15}…{PAUSE 15}$"
+	.string "Dang…{PAUSE 15}...{PAUSE 15} If I had a DRAGONAIR, you'd\n"
+	.string "have been whooped. If only it weren't\n"
+	.string "such a pain{PAUSE 15}...{PAUSE 15}…$"
 
 UndergroundPath_5F_Emboscada_Texto_21:
-	.string "Grrr{PAUSE 15}…{PAUSE 15} No saldrás libre de aquí{PAUSE 15}…{PAUSE 15}\n"
-	.string "Llamaré a un colega de MANSIÓN AZULONA.\l"
-	.string "Llegará antes de que puedas{PAUSE 15}…{PAUSE 15}$"
+	.string "Grr{PAUSE 15}...{PAUSE 15} You keep your butt there{PAUSE 15}...{PAUSE 15} I'm\n"
+	.string "ringing up a buddy from CELADON\n"
+	.string "MANSION. He'll be here lickity-split. You\l"
+	.string "won't even have the chance to{PAUSE 15}...{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_22:
-	.string "????: Ya basta.$"
+	.string "????: Enough.$"
 
 UndergroundPath_5F_Emboscada_Texto_23:
-	.string "¡L-los motoristas!$"
+	.string "Th{PAUSE 15}-the bikers!$"
 
 UndergroundPath_5F_Emboscada_Texto_24:
-	.string "TETSUO: Largo de aquí, antes de que\n"
-	.string "cambie de parecer.$"
+	.string "TETSUO: Get the heck outta here before\n"
+	.string "you regret it.$"
 
 UndergroundPath_5F_Emboscada_Texto_25:
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_26:
-	.string "Sé lo que debes estar pensando.\n"
-	.string "Pero no debes juzgarlos.$"
+	.string "I know what may be going through your\n"
+	.string "head, but please don't blame 'em.$"
 
 UndergroundPath_5F_Emboscada_Texto_27:
-	.string "Toda KANTO tiene aún fresca en la\n"
-	.string "memoria el gran poder que LANCE\l"
-	.string "mostró al mundo.$"
+	.string "The stench of LANCE's reign still\n"
+	.string "lingers across KANTO.$"
 
 UndergroundPath_5F_Emboscada_Texto_28:
-	.string "Ese poder caló hondo, dejó el espíritu\n"
-	.string "de la región hecho trizas y, con ello,\l"
-	.string "LANCE le dio la forma que más le\l"
-	.string "convenía.$"
+	.string "His reign dug deep and tore the region a\n"
+	.string "new one like it were putty. Then LANCE\n"
+	.string "gave it the perfect mold… for him at\l"
+	.string "least.$"
 
 UndergroundPath_5F_Emboscada_Texto_29:
-	.string "Ahora no son más que marionetas bajo\n"
-	.string "sus órdenes. Y lo entiendo.$"
+	.string "They're just engines guzzling the only\n"
+	.string "fuel they know. And I kinda get it.$"
 
 UndergroundPath_5F_Emboscada_Texto_30:
-	.string "Después de todo, la gran mayoría no\n"
-	.string "está hecha para vivir con el agua al\l"
-	.string "cuello.$"
+	.string "I mean, not everyone's willing to risk\n"
+	.string "catching fire for their creed.$"
 
 UndergroundPath_5F_Emboscada_Texto_31:
-	.string "Pero{PAUSE 25}…{PAUSE 25} No tú, ¿verdad, {PLAYER}?$"
+	.string "But{PAUSE 25}…{PAUSE 25} not you, right, {PLAYER}?$"
 
 UndergroundPath_5F_Emboscada_Texto_32:
-	.string "Pareces el tipo de persona capaz de\n"
-	.string "mirar a los ojos a un poder que le\l"
-	.string "sobrepasa.$"
+	.string "You look like a guy who doesn't flinch in\n"
+	.string "front of an overwhelming force.$"
 
 UndergroundPath_5F_Emboscada_Texto_33:
-	.string "Aunque LANCE y su gobierno pudieran\n"
-	.string "reducir a cenizas los últimos vestigios\l"
-	.string "de la vieja KANTO{PAUSE 15}…{PAUSE 15}$"
+	.string "But even though LANCE's government\n"
+	.string "had made the good ol' KANTO go up in\n"
+	.string "smoke{PAUSE 15} …{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_34:
-	.string "{PAUSE 15}…{PAUSE 15}ningún precio es demasiado alto para\n"
-	.string "pagar por el privilegio de ser dueño de\l"
-	.string "ti mismo.$"
+	.string "{PAUSE 15}…{PAUSE 15} Being your own owner's a priceless\n"
+	.string "privilege.$"
 
 UndergroundPath_5F_Emboscada_Texto_35:
-	.string "El solo hecho de contar con esa\n"
-	.string "oportunidad ya hace que el intento\l"
-	.string "valga la pena. No lo olvides, {PLAYER}.$"
+	.string "Just getting that chance in itself\n"
+	.string "makes taking a chance worth it. Don't\n"
+	.string "you forget it, {PLAYER}.$"
 

@@ -235,88 +235,90 @@ walk_in_place_up
 step_end
 
 PokemonTower_S3_Tumba_Texto_1:
-	.string "Esta lápida es antiquísima.$"
+	.string "This tombstone is decrepit.$"
 
 PokemonTower_S3_Tumba_Texto_2:
-	.string "Todavía se aprecian grabados en\n"
-	.string "ella, con letras de oro y plata.$"
+	.string "Despite that, you can see clearly\n"
+	.string "golden and silverish letters engraved.$"
 
 PokemonTower_S3_Tumba_Texto_3:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_4:
-	.string "'el ENTRENADOR que aquí yace logró todo\n"
-	.string "cuanto se puede lograr en el mundo{PAUSE 15}…{PAUSE 15}$"
+	.string "'The TRAINER that lies here has\n"
+	.string "achieved every possible achievement in\n"
+	.string "this world…$"
 
 PokemonTower_S3_Tumba_Texto_5:
-	.string "{PAUSE 15}…{PAUSE 15}CAMPEÓN invicto de su región por\n"
-	.string "décadas, 32 MEDALLAS de GIMNASIO,\l"
-	.string "todos los POKÉMON conocidos en su\l"
-	.string "haber{PAUSE 15}…{PAUSE 15}$"
+	.string "… Unbeaten CHAMPION of his region for\n"
+	.string "decades, 32 GYM BADGES, every single\n"
+	.string "POKÉMON known in existence in his\l"
+	.string "hands…$"
 
 PokemonTower_S3_Tumba_Texto_6:
-	.string "{PAUSE 15}…{PAUSE 15}cualquiera que fuere el reto, por más\n"
-	.string "que se elevaran las cotas, nada estaba\l"
-	.string "fuera de su alcance{PAUSE 15}…{PAUSE 15}$"
+	.string "… No matter what challenge dared to\n"
+	.string "face him, no matter what the dimensions\n"
+	.string "of it were, no single thing was out of\l"
+	.string "his reach…$"
 
 PokemonTower_S3_Tumba_Texto_7:
-	.string "{PAUSE 15}…{PAUSE 15}pero, a pesar de sus innumerables\n"
-	.string "batallas, incontables viajes e infinitas\l"
-	.string "hazañas{PAUSE 15}…{PAUSE 15}$"
+	.string "… However, despite his countless\n"
+	.string "battles, journeys and feats…$"
 
 PokemonTower_S3_Tumba_Texto_8:
-	.string "{PAUSE 15}…{PAUSE 15}sin importar sus esfuerzos{PAUSE 15}…{PAUSE 15}, por muy\n"
-	.string "buen maestro que fuera{PAUSE 15}…{PAUSE 15}$"
+	.string "… His efforts were worthless… It didn't\n"
+	.string "matter how good of a master he was…$"
 
 PokemonTower_S3_Tumba_Texto_9:
-	.string "{PAUSE 15}…{PAUSE 15}fue incapaz de burlar a la muerte{PAUSE 15}…{PAUSE 15}$"
+	.string "… He couldn't avoid death…$"
 
 PokemonTower_S3_Tumba_Texto_10:
-	.string "{PAUSE 15}…{PAUSE 15}todo cuanto queda de su leyenda yace\n"
-	.string "aquí. El resto de sus coetáneos fueron\l"
-	.string "borrados por el ineludible paso del\l"
-	.string "tiempo{PAUSE 15}…{PAUSE 15}$"
+	.string "… Every single thing about his\n"
+	.string "legendary life remains here. His\n"
+	.string "contemporaries were forgotten with the\l"
+	.string "slow and steady course of time…$"
 
 PokemonTower_S3_Tumba_Texto_11:
-	.string "{PAUSE 15}…{PAUSE 15}después de todo, puede que su\n"
-	.string "recuerdo fuera la forma de inmortalidad\l"
-	.string "que en el fondo anhelaba{PAUSE 15}…{PAUSE 15}$"
+	.string "… After all, that memory of him may be\n"
+	.string "the same deep desire of his to be\n"
+	.string "immortal…$"
+
 
 PokemonTower_S3_Tumba_Texto_12:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_13:
-	.string "????: ¿CAMPEÓN{PAUSE 15}…{PAUSE 15}?$"
+	.string "????: CHAMPION{PAUSE 15}…{PAUSE 15}?$"
 
 PokemonTower_S3_Tumba_Texto_14:
-	.string "{PAUSE 15}…{PAUSE 15} veámoslo{PAUSE 15}…{PAUSE 15}$"
+	.string "{PAUSE 15}…{PAUSE 15} We shall see{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_15:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_16:
-	.string "CAMPEÓN{PAUSE 25}…{PAUSE 25} ¿verdadero?$"
+	.string "CHAMPION… True CHAMPION?$"
 
 PokemonTower_S3_Tumba_Texto_17:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_18:
-	.string "¿CULTO LAVANDA?$"
+	.string "LAVENDER CULT?$"
 
 PokemonTower_S3_Tumba_Texto_19:
-	.string "No puedo llevarte.$"
+	.string "I can't take you there.$"
 
 PokemonTower_S3_Tumba_Texto_20:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_21:
-	.string "Pero te lo puedo mostrar.$"
+	.string "But I can show you.$"
 
 PokemonTower_S3_Tumba_Texto_22:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_23:
-	.string "Echemos la vista{PAUSE 25}…{PAUSE 25} 50 años atrás{PAUSE 15}…{PAUSE 15}$"
+	.string "Let's rewind… Fifty years ago…$"
 
 PokemonTower_S3_Epitafio::
 lock

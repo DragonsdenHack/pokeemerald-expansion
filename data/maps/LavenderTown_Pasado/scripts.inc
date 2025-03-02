@@ -28,14 +28,14 @@ release
 end
 
 LavenderTown_PasadoDocumento_Text_100:
-	.string "GIMNASIO DE PUEBLO LAVANDA$"
+	.string "LAVENDER TOWN GYM$"
 
 LavenderTown_PasadoDocumento_101::
 msgbox LavenderTown_PasadoDocumento_Text_101, MSGBOX_SIGN   
 end
 
 LavenderTown_PasadoDocumento_Text_101:
-	.string "CENTRO PKMN$"
+	.string "PKMN CENTER$"
 
 
 LavenderTown_Pasado_Agatha::
@@ -299,56 +299,57 @@ walk_in_place_down
 step_end
 
 LavenderTown_Pasado_Agatha_Texto_1:
-	.string "¡DROWZEE! ¡CONFUSIÓN!$"
+	.string "DROWZEE! USE CONFUSION!$"
 
 LavenderTown_Pasado_Agatha_Texto_2:
-	.string "¡Te he vuelto a ganar!$"
+	.string "I won again!$"
 
 LavenderTown_Pasado_Agatha_Texto_3:
-	.string "¡Joh! ¡No vale!$"
+	.string "Nah! It's not fair!$"
 
 LavenderTown_Pasado_Agatha_Texto_4:
-	.string "¡Cuando mi GASTLY aprenda\n"
-	.string "BOLA SOMBRA, podré ganarte!$"
+	.string "Whenever my GASTLY learns SHADOW BALL,\n"
+	.string "I'll be able to defeat you!$"
 
 LavenderTown_Pasado_Agatha_Texto_5:
-	.string "¡Qué ganas de que evolucione a HAUNTER!$"
+	.string "I'm eager to see it evolve into HAUNTER!$"
 
 LavenderTown_Pasado_Agatha_Texto_6:
-	.string "¡Pero yo ya tendré un HYPNO que resista\n"
-	.string "tus ataques!$"
+	.string "But I'll have a resilient HYPNO that\n"
+	.string "would withstand your attacks!$"
 
 LavenderTown_Pasado_Agatha_Texto_7:
-	.string "Sí, pero{PAUSE 15}…{PAUSE 15} GENGAR es el mejor fantasma\n"
-	.string "de toda KANTO y JOHTO. Entrenaré lo que\l"
-	.string "haga falta para que este pequeño se\l"
-	.string "convierta en uno.$"
+	.string "Well, yes, but… GENGAR is the best GHOST\n"
+	.string "all over KANTO and JOHTO. I'll train no\n"
+	.string "matter what or how much it's needed so\l"
+	.string "this little one turns into one.$"
 
 LavenderTown_Pasado_Agatha_Texto_8:
-	.string "Hmmm{PAUSE 15}…{PAUSE 15} ¿HYPNO no puede evolucionar más?$"
+	.string "Hmmm… Can't HYPNO evolve even more?$"
 
 LavenderTown_Pasado_Agatha_Texto_9:
-	.string "¡Claro que no!$"
+	.string "Of course not!$"
 
 LavenderTown_Pasado_Agatha_Texto_10:
-	.string "????: ¡Niños! ¡Ya está aquí!$"
+	.string "????: Kids! She's here!$"
 
 LavenderTown_Pasado_Agatha_Texto_11:
-	.string "¡Sí! ¡Mi maestra! ¡Lo ha logrado!$"
+	.string "Yes! My master! She did it!$"
 
 LavenderTown_Pasado_Agatha_Texto_12:
-	.string "Están todos en el GIMNASIO\n"
-	.string "esperando, venid ya.$"
+	.string "Everyone is at the GYM already.\n"
+	.string "Come here now.$"
 
 LavenderTown_Pasado_Agatha_Texto_13:
-	.string "¡AGATHA! ¿Qué haces?$"
+	.string "AGATHA! What are you doing!$"
 
 LavenderTown_Pasado_Agatha_Texto_14:
-	.string "Solo miraba TORRE POKÉMON.$"
+	.string "I was just looking at the\n"
+	.string "POKÉMON TOWER.$"
 
 LavenderTown_Pasado_Agatha_Texto_15:
-	.string "¡Oh, jovencita! ¡Tienes toda\n"
-	.string "la vida para verla!$"
+	.string "Oh, young one! You've got your whole\n"
+	.string "life to see it!$"
 
 LavenderTown_Pasado_Lider::
 lock
@@ -511,50 +512,50 @@ walk_in_place_left
 step_end
 
 LavenderTown_Pasado_Lider_Texto_1:
-	.string "¿Es cierto que dejará pronto\n"
-	.string "el puesto de LÍDER?$"
+	.string "Is it true that you will retire from\n"
+	.string "being a LEADER?$"
 
 LavenderTown_Pasado_Lider_Texto_2:
-	.string "Así es, MORFEO. Mi esposa y yo nos\n"
-	.string "mudamos el año que viene.$"
+	.string "That's true, MORPHEUS. My wife and I are\n"
+	.string "moving next year.$"
 
 LavenderTown_Pasado_Lider_Texto_3:
-	.string "MORFEO: He aprendido mucho con usted.\n"
-	.string "¡Seguiré sus pasos!$"
+	.string "MORPHEUS: I've learnt a lot with you.\n"
+	.string "I'll follow your footsteps!$"
 
 LavenderTown_Pasado_Lider_Texto_4:
-	.string "Algún día, chico. Algún día.$"
+	.string "Some day, kid. Some day…$"
 
 LavenderTown_Pasado_Lider_Texto_5:
-	.string "MORFEO: Pero{PAUSE 25}…{PAUSE 25} Dicen que las ciudades\n"
-	.string "están cada vez más interesadas en\l"
-	.string "combatir.$"
+	.string "MORPHEUS: But… they say that city folk\n"
+	.string "are more and more interested in\n"
+	.string "battling.$"
 
 LavenderTown_Pasado_Lider_Texto_6:
-	.string "Solo puede haber 8 GIMNASIOS. Si cada\n"
-	.string "ciudad tuviera uno, entonces, este…$"
+	.string "There can only be eight GYMS. If every\n"
+	.string "city got one, well, then this one…$"
 
 LavenderTown_Pasado_Lider_Texto_7:
-	.string "¡Tranquilo, tranquilo!$"
+	.string "Easy! Calm down!$"
 
 LavenderTown_Pasado_Lider_Texto_8:
-	.string "Nada dura para siempre, pero para que\n"
-	.string "eso ocurra aún quedan muchos años.$"
+	.string "Nothing lasts forever, but before that\n"
+	.string "happens, there are many years to go.$"
 
 LavenderTown_Pasado_Lider_Texto_9:
-	.string "Os he visto, cada día lo hago. Ambos\n"
-	.string "tenéis talento, y más importante:\l"
-	.string "derrocháis ilusión y pasión.$"
+	.string "I've seen you, as every day I do. Both\n"
+	.string "of you have talent, and more\n"
+	.string "importantly, you're quite spirited.$"
 
 LavenderTown_Pasado_Lider_Texto_10:
-	.string "Te convertiras en un gran ENTRENADOR\n"
-	.string "antes de que eso pase. Este GIMNASIO\l"
-	.string "te verá como LÍDER antes de que sus\l"
-	.string "días acaben, puedes estar seguro.$"
+	.string "You will become a great TRAINER before\n"
+	.string "that happens. You can be sure that this\n"
+	.string "GYM will see you as a LEADER before its\l"
+	.string "days come to a close.$"
 
 LavenderTown_Pasado_Lider_Texto_11:
-	.string "Y ahora, entremos. ¡No hagamos esperar\n"
-	.string "más a nuestra CAMPEONA!$"
+	.string "And now, well, let's not make our\n"
+	.string "CHAMPION wait for us anymore!$"
 
 LavenderTown_Pasado_Lider_Texto_12:
-	.string "AGATHA: ¡Vamos!$"
+	.string "AGATHA: Let's go!$"

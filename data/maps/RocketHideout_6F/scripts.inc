@@ -1403,7 +1403,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "following…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
-.string "You've just earned 125,000 POKÉ!$"
+.string "You've just earned 125,000¥!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
 	.string "PETREL: And for you, ANDRA. Your\n"
@@ -1826,7 +1826,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_2:
 .string "PETREL: Here's your reward.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
-	.string "You've just earned 80,000 POKÉ!$"
+	.string "You've just earned 80,000¥!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
 	.string "PETREL: In addition, take this: twenty\n"

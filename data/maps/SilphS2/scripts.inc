@@ -1060,10 +1060,10 @@ Silph_S2_Discoxtrano_Text_1:
 	.string "con una ofensiva extraordinaria.$"
 
 Silph_S2_Llave_Texto_1:
-	.string "Se requiere de una llave especial.$"
+	.string "A special KEY is required.$"
 
 Silph_S2_Llave_Texto_2:
-	.string "¿Quieres usar la LLAVE SILPH S3?$"
+	.string "Do you want to use SILPH B3 KEY?$"
 
 Silph_S2_Llave::
 compare VAR_UNUSED_0x40F8, 11

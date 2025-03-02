@@ -16,6 +16,6 @@ release
 end
 
 PokemonTower_S1_Activador_Entrada_Pasa_Text_YesNo:
-	.string "Este pilar está hueco. Hay unas\n"
-	.string "escaleras que llevan a pisos superiores.\l"
-	.string "¿Quieres pasar?$"
+	.string "This pillar is hollow. Under it, there is a\n"
+	.string "staircase that leads to the upper\n"
+	.string "floors. Wanna go through?$"

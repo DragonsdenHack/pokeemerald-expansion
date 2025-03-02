@@ -370,168 +370,165 @@ walk_in_place_down
 step_end
 
 Lavender_Secta_Pasadizo_Lider_Texto_1:
-	.string "????: ¿Puedo?$"
+	.string "????: May I?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_2:
-	.string "C. FRIDA: Claro, sigues siendo\n"
-	.string "el LÍDER de GIMNASIO.$"
+	.string "C. FRIDA: Certainly. You're still the\n"
+	.string "LEADER in this GYM.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_3:
-	.string "????: De eso precisamente\n"
-	.string "quería hablarte.$"
+	.string "????: Yeah, about that…$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_4:
-	.string "C. FRIDA: Sí, me lo imagino.$"
+	.string "C. FRIDA: That's what I thought.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_5:
-	.string "¿Cuánto tiempo le queda?$"
+	.string "How much time does it have left?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_6:
-	.string "????: 10 años. Tal vez 12.$"
+	.string "????: Ten years. Maybe twelve.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_7:
-	.string "C. FRIDA: Bueno. El pequeño MORFEO\n"
-	.string "podrá al menos cumplir su sueño.$"
+	.string "C. FRIDA: Good. At least little MORPHEUS\n"
+	.string "will make his dream come true.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_8:
-	.string "????: Lo hará.$"
+	.string "????: He will.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_9:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_10:
-	.string "Parecía imposible, pero ni siquiera este\n"
-	.string "GIMNASIO durará para siempre.$"
+	.string "Who could have told this GYM wouldn't\n"
+	.string "last forever.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_11:
-	.string "C. FRIDA: Nada tangible lo hace.$"
+	.string "C. FRIDA: Nothing does.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_12:
-	.string "Dime, ¿qué destino le espera\n"
-	.string "a este lugar?$"
+	.string "Tell me, what fate awaits this town?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_13:
-	.string "????: CIUDAD AZAFRÁN está\n"
-	.string "creciendo cada vez más.$"
+	.string "????: SAFFRON CITY is growing larger\n"
+	.string "each day.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_14:
-	.string "La nueva empresa: SILPH, va a construir\n"
-	.string "su sede allí. Dicen que el edificio será\l"
-	.string "más alto que TORRE POKÉMON.$"
+	.string "That new enterprise, SILPH. They're\n"
+	.string "building their HQ there. They say the\n"
+	.string "building will be taller than the POKÉMON\l"
+	.string "TOWER itself.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_15:
-	.string "Junto a eso, se espera que la ciudad\n"
-	.string "estrene un nuevo GIMNASIO POKÉMON\l"
-	.string "para cuando la SEDE SILPH esté\l"
-	.string "terminada.$"
+	.string "And besides that, a new GYM may open\n"
+	.string "there, alongside the grand opening of\n"
+	.string "SILPH.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_16:
-	.string "Eso ayudará a impulsar la ciudad y sus…$"
+	.string "This will help the city grow socially and…$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_17:
-	.string "C. FRIDA: Intereses económicos,\n"
-	.string "entiendo.$"
+	.string "C. FRIDA: Economically, I get it.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_18:
-	.string "¿Y PUEBLO LAVANDA?$"
+	.string "What about LAVENDER TOWN?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_19:
-	.string "????: Una vez construido el nuevo\n"
-	.string "GIMNASIO, no habrá lugar en KANTO para\l"
-	.string "este.$"
+	.string "????: Once the new GYM is built, there\n"
+	.string "won't be a place for this one anywhere\n"
+	.string "in KANTO.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_20:
-	.string "Será transformado en un recinto donde\n"
-	.string "ayudar a los entrenadores.$"
+	.string "It'll become a place for helping trainers.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_21:
-	.string "C. FRIDA: ¿Ayudar?$"
+	.string "C. FRIDA: Helping?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_22:
-	.string "????: Con sus motes.$"
+	.string "????: Yeah, with nicknames.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_23:
-	.string "C. FRIDA: Bah{PAUSE 15}…{PAUSE 15} No sé por qué me\n"
-	.string "sorprende, estúpidas modas pasajeras.$"
+	.string "C. FRIDA: Hah, these stupid trends,\n"
+	.string "predictable, yet it still surprises me.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_24:
-	.string "Y{PAUSE 25}…{PAUSE 25} ¿este pequeño CEMENTERIO?$"
+	.string "So, what will become of this small\n"
+	.string "GRAVEYARD?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_25:
-	.string "????: Quedará al cuidado del encargado\n"
-	.string "de motes. Pero estas tumbas son\l"
-	.string "antiguas, con el tiempo este lugar se\l"
-	.string "perderá.$"
+	.string "????: The NAME RATER will be in charge\n"
+	.string "of it. But these tombs are quite old.\n"
+	.string "Sooner or later, this place will be\l"
+	.string "forgotten.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_26:
-	.string "C. FRIDA: Ya veo. Al menos{PAUSE 15}…{PAUSE 15} un poco de\n"
-	.string "este GIMNASIO seguirá vivo, bajo los\l"
-	.string "pies de nuevas generaciones.$"
+	.string "C. FRIDA: I see. Well, at least… some of\n"
+	.string "this GYM will live under these new\n"
+	.string "generations.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_27:
-	.string "Gracias.$"
+	.string "Thank you.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_28:
-	.string "????: Te dejo descansar,\n"
-	.string "ha sido un día largo.$"
+	.string "????: Well then, I'm leaving you to rest.\n"
+	.string "It's been quite a long day.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_29:
 	.string "C. FRIDA: {PAUSE 35}…{PAUSE 35} …{PAUSE 35}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_30:
-	.string "Parece que fue ayer, ¿verdad\n"
+	.string "Feels like it was yesterday, right,\n"
 	.string "NINETALES?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_31:
-	.string "Te revolvías aquí mismo, esperando\n"
-	.string "a una muerte segura.$"
+	.string "You were here, curling while you awaited\n"
+	.string "the cold embrace of death.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_32:
-	.string "Pero pude salvarte.$"
+	.string "But I managed to save you.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_33:
-	.string "En ese momento me pregunté cómo un\n"
-	.string "VULPIX había llegado hasta aquí.$"
+	.string "Then, I questioned myself how a VULPIX\n"
+	.string "could have got here.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_34:
-	.string "Fue entonces{PAUSE 15}…{PAUSE 15} cuando me di cuenta.\n"
-	.string "Esta tumba, olvidada y maltratada por\l"
-	.string "el tiempo, escondía algo.$"
+	.string "At that moment, I realized that the old,\n"
+	.string "forgotten, and mistreated tombstone\n"
+	.string "still held something.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_35:
-	.string "Esas escaleras, tan antiguas como\n"
-	.string "PUEBLO LAVANDA, llevan a un lugar aún\l"
-	.string "más profundo.$"
+	.string "Those stairs, as old as this town itself,\n"
+	.string "lead to an even deeper place.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_36:
-	.string "Pero, cada vez que nos hemos acercado,\n"
-	.string "te has empeñado en que dé vuelta atrás.$"
+	.string "But every single time we approached,\n"
+	.string "you insisted so much, so we turned back.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_37:
-	.string "Eres el POKÉMON más noble y fuerte que\n"
-	.string "conozco, pero por algún motivo, volver a\l"
-	.string "ese lugar te da pavor.$"
+	.string "You're the strongest and noblest\n"
+	.string "POKÉMON that I have ever known, but\n"
+	.string "somehow you fear returning to that\l"
+	.string "place.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_38:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_39:
-	.string "Mi curiosidad es grande, pero mi respeto\n"
-	.string "por nuestro vínculo es mayor.$"
+	.string "My curiosity is vast, but not as much as\n"
+	.string "my respect for our bond.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_40:
-	.string "Si es lo que deseas, podré vivir sin\n"
-	.string "saber a dónde llevan esas escaleras.$"
+	.string "If you desire so, I will end my days\n"
+	.string "without knowing where those stairs\n"
+	.string "lead.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_41:
-	.string "El paso del tiempo terminará de\n"
-	.string "sepultar este sitio. Su destino está\l"
-	.string "sellado.$"
+	.string "Time will end up burying this place.\n"
+	.string "It's already doomed.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_42:
-	.string "Una vez se instale el INSPECTOR de\n"
-	.string "MOTES, nadie volverá a bajar aquí.$"
+	.string "Once the NAME RATER is settled here, no\n"
+	.string "one will ever get down here.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_43:
-	.string "El secreto quedará enterrado\n"
-	.string "para toda la eternidad.$"
+	.string "The secret will remain so until the very\n"
+	.string "last day.$"

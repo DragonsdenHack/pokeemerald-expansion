@@ -182,7 +182,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
 	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-	.string "{PLAYER} has earned 300,000 POKÉ!$"
+	.string "{PLAYER} has earned 300,000¥!$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
 	.string "And most importantly, I'll give you this\n"

@@ -234,58 +234,59 @@ face_player
 step_end
 
 PokemonTower1F_Agatha_Texto_1:
-	.string "La historia de TORRE POKÉMON es casi\n"
-	.string "tan antigua como la propia KANTO.$"
+	.string "The history of this tower is as old as\n"
+	.string "KANTO itself.$"
 
 PokemonTower1F_Agatha_Texto_2:
-	.string "Su resistencia al paso del tiempo es\n"
-	.string "admirable, pero la realidad es que solo\l"
-	.string "vemos una fracción de todo lo que este\l"
-	.string "lugar fue.$"
+	.string "Its resilience is remarkable, but the\n"
+	.string "reality of what we see is just a mere\n"
+	.string "fraction of what it once was.$"
 
 PokemonTower1F_Agatha_Texto_3:
-	.string "En eso puedo ayudarte. Antes de la\n"
-	.string "guerra los pisos subterráneos estaban\l"
-	.string "abiertos al público, pero…$"
+	.string "I can help you with that. Back in the\n"
+	.string "day, before the war started, the lower\n"
+	.string "floors were opened for everyone.\p"
+	.string "However…$"
 
 PokemonTower1F_Agatha_Texto_4:
-	.string "Esas zonas se volvieron cada vez más y\n"
-	.string "más inestables, hasta el punto de que\l"
-	.string "fueron cerradas.$"
+	.string "Those zones became more and more\n"
+	.string "unstable, to the point that they were\n"
+	.string "closed.$"
 
 PokemonTower1F_Agatha_Texto_5:
-	.string "Con el paso de los años, muchos se\n"
-	.string "olvidaron de su existencia.$"
+	.string "Most ended up forgetting them with the\n"
+	.string "years.$"
 
 PokemonTower1F_Agatha_Texto_6:
-	.string "A día de hoy, incluso las exorcistas\n"
-	.string "evitan entrar.$"
+	.string "By these days, even exorcists steer\n"
+	.string "clear of it.$"
 
 PokemonTower1F_Agatha_Texto_7:
-	.string "Pero tú… tú eres el CAMPEÓN. Te has\n"
-	.string "ganado el derecho a desvelar todo\l"
-	.string "secreto cuanto se te cruce.$"
+	.string "But you… you're the CHAMPION. You have\n"
+	.string "the right to unveil every single secret\n"
+	.string "and mystery that crosses your way.$"
 
 PokemonTower1F_Agatha_Texto_8:
-	.string "Si pones atención, verás que este pilar\n"
-	.string "está hueco. Debajo hay unas escaleras\l"
-	.string "que conducen al sótano.$"
+	.string "If you look closely, you'll see that this\n"
+	.string "pillar is hollow. Under it, you'll find a\n"
+	.string "staircase to the basement.$"
 
 PokemonTower1F_Agatha_Texto_9:
-	.string "Yo me retiro, {PLAYER}.$"
+	.string "Now, I'm retiring, {PLAYER}.$"
 
 PokemonTower1F_Agatha_Texto_10:
-	.string "A mi edad, estos misterios\n"
-	.string "ya me quedan grandes.$"
+	.string "When you get my age, you'll realize that\n"
+	.string "these things aren't for everybody.$"
 
 PokemonTower1F_Agatha_Texto_11:
-	.string "Y, honestamente, prefiero centrarme en\n"
-	.string "añadir nuevos matices a lo que ya sé.$"
+	.string "And, to be honest, I would rather put my\n"
+	.string "efforts into getting better at what I\n"
+	.string "already know.$"
 
 PokemonTower1F_Agatha_Texto_12:
-	.string "Después de todo, vivimos confinados en\n"
-	.string "una pequeña parcela, ya de por sí\l"
-	.string "inabarcable. ¡Jo, jo, jo!$"
+	.string "After all, we live in a confined\n"
+	.string "terrain{PAUSE 15}…{PAUSE 15}yet one that simply can't be\n"
+	.string "bound. Ho, ho, ho!$"
 
 PokemonTower1F_Activador_Entrada::
 compare VAR_UNUSED_0x40F8, 12
@@ -307,9 +308,9 @@ release
 end
 
 PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
-	.string "Este pilar está hueco. Debajo hay unas\n"
-	.string "escaleras que llevan a pisos inferiores.\l"
-	.string "¿Quieres pasar?$"
+	.string "This pillar is hollow. Under it, there is a\n"
+	.string "staircase that leads to the lower\n"
+	.string "floors. Wanna go through?$"
 
 PokemonTowerS3_Activador_Entrada_Pasa::
 delay 15
@@ -332,7 +333,7 @@ emote_exclamation_mark
 step_end
 
 PokemonTowerS3_Activador_Entrada_Pasa_Text_YesNo:
-	.string "Esta tumba esconde algo. Debajo hay unas\n"
-	.string "antiguas escaleras que llevan más abajo.\l"
-	.string "¿Quieres pasar?$"
+	.string "This tomb hides something. Under it,\n"
+	.string "there are some old stairs that lead\n"
+	.string "deeper. Wanna go through?$"
 

@@ -331,66 +331,69 @@ CinnabarIsland_Oak_Texto_1:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_2:
-	.string "Me alegra ver a jóvenes aspirantes que\n"
-	.string "llenan de vida esta región.$"
+	.string "I love seeing these young challengers,\n"
+	.string "all inspired and energetic.$"
 
 CinnabarIsland_Oak_Texto_3:
-	.string "El mundo es vuestro. Tienes todo lo\n"
-	.string "necesario para competir en la actual\l"
-	.string "LIGA de KANTO: ignorancia e inmadurez.$"
+	.string "The world is all yours. You have every\n"
+	.string "little thing you need to compete in this\n"
+	.string "KANTO LEAGUE: you're both ignorant and\l"
+	.string "immature.$"
 
 CinnabarIsland_Oak_Texto_4:
-	.string "La ignorancia es un privilegio\n"
-	.string "a día de hoy.$"
+	.string "When you think about it, you realize how\n"
+	.string "much of a privilege ignorance is these\n"
+	.string "days.$"
 
 CinnabarIsland_Oak_Texto_5:
-	.string "Sin ella, sería imposible conservar la\n"
-	.string "cordura en los tiempos que corren,\l"
-	.string "¡menos aún presentarse al CAMPEONATO\l"
-	.string "de la LIGA!$"
+	.string "Without it, it'd be impossible to stay\n"
+	.string "sane in these coming times. Doubly so,\n"
+	.string "presenting yourself to the LEAGUE\l"
+	.string "CHAMPIONSHIP.$"
 
 CinnabarIsland_Oak_Texto_6:
-	.string "Y la inmadurez{PAUSE 25}…{PAUSE 25} ¡con la voluntad de la\n"
-	.string "inmadurez se pueden lograr grandes\l"
-	.string "cosas!$"
+	.string "And about being immature{PAUSE 25}...{PAUSE 25} With the\n"
+	.string "willpower of immaturity, anyone can\n"
+	.string "achieve almost anything!$"
 
 CinnabarIsland_Oak_Texto_7:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_8:
-	.string "¿Burlarme de ti? Al contrario.$"
+	.string "Mocking you? HAH!\n"
+	.string "It's the opposite, actually.$"
 
 CinnabarIsland_Oak_Texto_9:
 	.string "Mmm…$"
 
 CinnabarIsland_Oak_Texto_10:
-	.string "6 medallas{PAUSE 25}…{PAUSE 25} Interesante.\n"
-	.string "Ya habrás vivido intensas aventuras\l"
-	.string "que quedarán grabadas en tu memoria.$"
+	.string "Six BADGEs{PAUSE 25}...{PAUSE 25} Interesting. I'm sure\n"
+	.string "you've experienced lots of adventures\n"
+	.string "that'll stick in your head for the years\l"
+	.string "to come.$"
 
 CinnabarIsland_Oak_Texto_10.1:
-	.string "Igual que los miles de jóvenes que\n"
-	.string "cada año empiezan su propia historia.\l"
-	.string "¿Por qué la tuya debería\l"
-	.string "ser mejor?\l"
-	.string "La rueda nunca se detiene, ni\l"
-	.string "espera a nadie.$"
+	.string "Just the same as the thousands of\n"
+	.string "other kids starting their own journeys\n"
+	.string "year after year, why would yours be any\l"
+	.string "better? The wheel still turns, and it\l"
+	.string "won't stop for anyone.$"
 
 CinnabarIsland_Oak_Texto_11:
-	.string "Pero, te envidio.\n"
-	.string "Sabiendo lo que yo sé, jamás habrías\l"
-	.string "emprendido este viaje.$"
+	.string "Despite this, I envy you. If you had\n"
+	.string "known what I know, you'd have never\n"
+	.string "started this journey.$"
 
 CinnabarIsland_Oak_Texto_12:
-	.string "El no saberlo es lo único que\n"
-	.string "aún mantiene vivas tus ilusiones.$"
+	.string "Being ignorant is all that keeps that\n"
+	.string "little flame of yours roaring.$"
 
 CinnabarIsland_Oak_Texto_13:
-	.string "Y así debe ser. Las nuevas\n"
-	.string "generaciones merecen la oportunidad.\l"
-	.string "La oportunidad de perder, de ver\l"
-	.string "la cruda realidad o{PAUSE 15}…{PAUSE 15}$"
+	.string "But this is the way. New generations\n"
+	.string "deserve the opportunity. The chance of\n"
+	.string "losing, of knowing the cruel truth of\l"
+	.string "this reality, or of{PAUSE 15}...{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_13.1:
-	.string "…de obrar el milagro.$"
+	.string "…making a miracle happen.$"
 

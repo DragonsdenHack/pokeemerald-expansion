@@ -252,76 +252,75 @@ face_up
 step_end
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_1:
-	.string "¡Je, je! ¡Hola!\n"
-	.string "¡Soy el INSPECTOR de los MOTES!\p"
-	.string "Estaré encantado de evaluar\n"
-	.string "el nombre de tu POKÉMON, je, je.$"
+	.string "Hi, hi! I'm the NAME RATER!\n"
+	.string "I'm the fortune-teller of names!\p"
+	.string "I shall be pleased to rate your\n"
+	.string "POKÉMON's nickname.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_2:
 	.string "… …$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_3:
-	.string "¿Quieres hablar conmigo?\n"
-	.string "Claro, dime, jovencito.$"
+	.string "You want to chat away with me?\n"
+	.string "Sure thing, kid.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_4:
 	.string "… …$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_5:
-	.string "Oh… ¿Dónde has escuchado eso?$"
+	.string "Mhh… Where exactly did you hear that?$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_6:
-	.string "Llevo aquí más de 30 años, y nadie jamás\n"
-	.string "se ha vuelto a interesar por ese lugar.$"
+	.string "No one has ever asked about that place\n"
+	.string "so far. And I've been here for more than\n"
+	.string "three decades.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_7:
 	.string "… …$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_8:
-	.string "¡AGATHA! Entiendo.$"
+	.string "AGATHA! Now I get it.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_9:
-	.string "Entonces, tú eras ese ENTRENADOR\n"
-	.string "que tanto aprecia.$"
+	.string "So you are that one TRAINER she\n"
+	.string "appreciates so much.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_10:
-	.string "AGATHA confía en ti, y\n"
-	.string "no lo hace con cualquiera.$"
+	.string "If she trusts you,\n"
+	.string "I'm trusting you as well.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_11:
-	.string "Si puedo ayudarte en algo\n"
-	.string "lo haré, observa.$"
+	.string "If I can do anything to aid you,\n"
+	.string "I'll be doing it. Watch this.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_12:
-	.string "Ese pequeño CEMENTERIO se cerró hace\n"
-	.string "más de tres décadas, cuando el primer\l"
-	.string "INSPECTOR de MOTES llegó.$"
+	.string "This little GRAVEYARD closed its doors\n"
+	.string "more than three decades ago, when the\n"
+	.string "first NAME RATER arrived in town.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_13:
-	.string "Las escaleras que llevan a él se\n"
-	.string "ocultaron bajo una trampilla, tras\l"
-	.string "derribar el GIMNASIO.$"
+	.string "The ladder that leads there was hidden\n"
+	.string "under a trapdoor after the GYM got\n"
+	.string "demolished.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_14:
-	.string "Ahora están justo debajo\n"
-	.string "del MAPA de KANTO.$"
+	.string "Now, they're below KANTO's map.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_15:
-	.string "A mi llegada, me dejaron a cargo de la\n"
-	.string "LLAVE para abrir la trampilla.$"
+	.string "When I got here, they left me in charge\n"
+	.string "of the KEY that opens that trapdoor.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_16:
-	.string "Jamás la use, tampoco me interesé por\n"
-	.string "saber qué había debajo. Veo que a ti\l"
-	.string "sí que te interesa. Toma.$"
+	.string "I actually never used it. Nor I had the\n"
+	.string "least interest in what's down there.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_17:
-	.string "¡{PLAYER} obtuvo la LLAVE TRAMPILLA!$"
+	.string "{PLAYER} got the TRAPDOOR'S KEY!$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_18:
-	.string "Ahora es tuya; puedes entrar y salir\n"
-	.string "cuando quieras. Es lo menos que puedo\l"
-	.string "hacer por ti.$"
+	.string "Now, it's yours; you may go in and out as\n"
+	.string "you please. It's the least I can do for\n"
+	.string "you.$"
 
 Lavender_Motes_Activador_Entrada::
 compare VAR_UNUSED_0x40F8, 25
