@@ -289,8 +289,8 @@ release
 end
 
 Caoba_Barrera_Texto_1:
-.string "(I should help TEAM ROCKET clean\n"
-	.string "up the MAHOGANY BASE first.)$"
+.string "-I should help TEAM ROCKET clean\n"
+	.string "up the MAHOGANY BASE first.-$"
 
 Caoba_Barrera_Move_1:
 walk_in_place_down

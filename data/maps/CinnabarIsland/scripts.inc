@@ -106,8 +106,8 @@ walk_slow_down
 step_end
 
 Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
-	.string "(GYM is apparently totally closed, I\n"
-	.string "better go for the other BADGES).$"
+	.string "-GYM is apparently totally closed, I\n"
+	.string "better go for the other BADGES.-$"
 
 CinnabarIsland_Escena_8::
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
@@ -352,7 +352,7 @@ CinnabarIsland_Oak_Texto_5:
 	.string "CHAMPIONSHIP.$"
 
 CinnabarIsland_Oak_Texto_6:
-	.string "And about being immature{PAUSE 25}...{PAUSE 25} With the\n"
+	.string "And about being immature{PAUSE 25}…{PAUSE 25} With the\n"
 	.string "willpower of immaturity, anyone can\n"
 	.string "achieve almost anything!$"
 
@@ -367,7 +367,7 @@ CinnabarIsland_Oak_Texto_9:
 	.string "Mmm…$"
 
 CinnabarIsland_Oak_Texto_10:
-	.string "Six BADGEs{PAUSE 25}...{PAUSE 25} Interesting. I'm sure\n"
+	.string "Six BADGEs{PAUSE 25}…{PAUSE 25} Interesting. I'm sure\n"
 	.string "you've experienced lots of adventures\n"
 	.string "that'll stick in your head for the years\l"
 	.string "to come.$"
@@ -392,7 +392,7 @@ CinnabarIsland_Oak_Texto_13:
 	.string "But this is the way. New generations\n"
 	.string "deserve the opportunity. The chance of\n"
 	.string "losing, of knowing the cruel truth of\l"
-	.string "this reality, or of{PAUSE 15}...{PAUSE 15}$"
+	.string "this reality, or of{PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_13.1:
 	.string "…making a miracle happen.$"

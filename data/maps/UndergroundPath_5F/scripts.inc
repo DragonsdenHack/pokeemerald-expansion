@@ -573,15 +573,15 @@ UndergroundPath_5F_Emboscada_Texto_19:
 	.string "Who do you think you are?$"
 
 UndergroundPath_5F_Emboscada_Texto_20:
-	.string "Dang…{PAUSE 15}...{PAUSE 15} If I had a DRAGONAIR, you'd\n"
+	.string "Dang…{PAUSE 15}…{PAUSE 15} If I had a DRAGONAIR, you'd\n"
 	.string "have been whooped. If only it weren't\n"
-	.string "such a pain{PAUSE 15}...{PAUSE 15}…$"
+	.string "such a pain{PAUSE 15}…{PAUSE 15}…$"
 
 UndergroundPath_5F_Emboscada_Texto_21:
-	.string "Grr{PAUSE 15}...{PAUSE 15} You keep your butt there{PAUSE 15}...{PAUSE 15} I'm\n"
+	.string "Grr{PAUSE 15}…{PAUSE 15} You keep your butt there{PAUSE 15}…{PAUSE 15} I'm\n"
 	.string "ringing up a buddy from CELADON\n"
 	.string "MANSION. He'll be here lickity-split. You\l"
-	.string "won't even have the chance to{PAUSE 15}...{PAUSE 15}$"
+	.string "won't even have the chance to{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_22:
 	.string "????: Enough.$"

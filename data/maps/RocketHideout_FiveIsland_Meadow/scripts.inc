@@ -87,10 +87,10 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_15:
-.string "…{PAUSE 15}\n"
-.string "…{PAUSE 15}\l"
-.string "…{PAUSE 15} …{PAUSE 15} (It contains a KINGLER inside,\l"
-.string "it's better not to touch it…)$"
+.string "…{PAUSE 15} …{PAUSE 15}\n"
+.string "…{PAUSE 15} …{PAUSE 15}\p"
+.string "-It contains a KINGLER inside,\n"
+.string "it's better not to touch it…-$"
 
 
 
@@ -157,10 +157,10 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_17:
-.string "…{PAUSE 15}\n"
-.string "…{PAUSE 15}\l"
-.string "…{PAUSE 15} …{PAUSE 15} (It contains a NIDORINO inside,\l"
-    .string "it's better not to touch it…)$"
+.string "…{PAUSE 15} …{PAUSE 15}\n"
+.string "…{PAUSE 15} …{PAUSE 15}\p"
+.string "-It contains a NIDORINO inside,\n"
+.string "it's better not to touch it…-$"
 
 
 
@@ -235,10 +235,10 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_101, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
-    .string "…{PAUSE 15}\n"
-	.string "…{PAUSE 15}\l"
-	.string "…{PAUSE 15} …{PAUSE 15} (It contains a NIDORINO inside,\l"
-    .string "it's better not to touch it…)$"
+.string "…{PAUSE 15} …{PAUSE 15}\n"
+.string "…{PAUSE 15} …{PAUSE 15}\p"
+.string "-It contains a NIDORINO inside,\n"
+.string "it's better not to touch it…-$"
 
 
 
@@ -248,10 +248,10 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_102, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
-    .string "…{PAUSE 15}\n"
-	.string "…{PAUSE 15}\l"
-	.string "…{PAUSE 15} …{PAUSE 15} (It contains a RHYHORN inside,\l"
-    .string "it's better not to touch it…)$"
+.string "…{PAUSE 15} …{PAUSE 15}\n"
+.string "…{PAUSE 15} …{PAUSE 15}\p"
+.string "-It contains a RHYHORN inside,\n"
+.string "it's better not to touch it…-$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -266,8 +266,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Abajo:     
-.string "(Everyone is in their places, I can't\n"
-    .string "leave now)$"
+.string "-Everyone is in their places,\n"
+    .string "I can't leave now!-$"
 
 
 
@@ -293,8 +293,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Derecha:     
-.string "(Everyone is in their places, I can't\n"
-    .string "leave now)$"
+.string "-Everyone is in their places,\n"
+    .string "I can't leave now!-$"
 
 
 
@@ -314,8 +314,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Izquierda:     
-.string "(Everyone is in their places, I can't\n"
-    .string "leave now)$"
+.string "-Everyone is in their places,\n"
+    .string "I can't leave now!-$"
 
 
 

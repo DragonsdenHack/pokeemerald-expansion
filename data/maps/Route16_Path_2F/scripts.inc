@@ -127,8 +127,8 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_6:
 .string "come from?!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} stole an AMULET COIN from\n"
-.string "OAK'S AIDE).$"
+.string "-{PLAYER} stole an AMULET COIN\n"
+.string "from OAK'S AIDE.-$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_8:
 .string "This doesn't make sense, you're not supposed\n"

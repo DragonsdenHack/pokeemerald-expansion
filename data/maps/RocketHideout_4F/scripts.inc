@@ -224,7 +224,7 @@ end
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
 	.string "The JOHTO region is the most historical\n"
 	.string "and traditional place in the known\l"
-	.string "world. There's something... spiritual\l"
+	.string "world. There's something… spiritual\l"
 	.string "about it, no doubt. And while we may\l"
 	.string "never fully understand it, we cannot\l"
 	.string "ignore its power.$"
@@ -3279,7 +3279,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24:
 .string "Of course, we still have MEWTWO as a\n"
 	.string "milestone; still is a danger that\l"
 	.string "we have to take care of.\l"
-	.string "But... I don't want to involve you in\l"
+	.string "But… I don't want to involve you in\l"
 	.string "a mission like that for the moment.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25:

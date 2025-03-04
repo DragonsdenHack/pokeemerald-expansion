@@ -57,8 +57,8 @@ Mision7Lab4_Combate_Mewtwo_Texto_1:
 
 
 Mision7Lab4_Combate_Mewtwo_Texto_3:
-	.string "(The HARD DRIVE must be behind the\n"
-	.string "paint of FUJI, I should search there)$"
+	.string "-The HARD DRIVE must be behind the\n"
+	.string "paint of FUJI, I should search there.-$"
 
 
 Mision7Lab4_Disco_Duro::

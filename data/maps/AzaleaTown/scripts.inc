@@ -208,8 +208,8 @@ end
 
 AzaleaTownDocumento_Text_106:
 .string "…\n"
-	.string "…\l"
-	.string "(It's slacking off!).$"
+	.string "…\p"
+	.string "It's slacking off!$"
 
 
 
@@ -222,8 +222,8 @@ end
 
 AzaleaTownDocumento_Text_107:
 .string "…\n"
-	.string "…\l"
-	.string "(It's slacking off!).$"
+	.string "…\p"
+	.string "It's slacking off!$"
 
 
 
@@ -401,7 +401,7 @@ end
 
 AzaleaTownDocumento_Text_121:
 .string "AMPHAROS: Amph!\n"
-	.string "(Su cola irradia una gran energía).$"
+	.string "-This POKÉMON has a glowing tail!-$"
 
 
 
@@ -567,8 +567,8 @@ release
 end
 
 AzaleaTownDocumento_Text_133:
-.string "(Seems like this SNORLAX is resting\n"
-	.string "here since a long time ago…)$"
+.string "-Seems like this SNORLAX is resting\n"
+	.string "here since a long time ago…-$"
 
 AzaleaTown_Encuentro_Mirto::
 lock
@@ -702,8 +702,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Kabuto:
-	.string "(The POKÉMON appears to be digging a\n"
-	.string "tunnel to escape).$"
+	.string "-This POKÉMON appears to be digging\n"
+	.string "a tunnel to escape.-$"
 
 AzaleaTownDocumento_Omanyte::
 lock    
@@ -714,9 +714,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Omanyte:
-	.string "(This POKÉMON is currently extinct. It\n"
-	.string "doesn't appear to be in its natural\l"
-	.string "habitat).$"
+	.string "-This POKÉMON is currently extinct.\n"
+	.string "It doesn't appear to be in its\l"
+	.string "natural habitat.-$"
 
 AzaleaTownDocumento_Machoke::
 lock
@@ -728,8 +728,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Machoke:
-	.string "(This MACHOKE thoroughly enjoys\n"
-	.string "playing with those rocks).$"
+	.string "-This MACHOKE thoroughly enjoys\n"
+	.string "playing with those rocks.-$"
 
 AzaleaTownDocumento_Lapras::
 lock
@@ -741,9 +741,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Lapras:
-	.string "(This LAPRAS doesn't move very\n"
+	.string "-This LAPRAS doesn't move very\n"
 	.string "gracefully. This place might be too\l"
-	.string "small for it).$"
+	.string "small for it.-$"
 
 AzaleaTownDocumento_Pidgeot::
 lock
@@ -755,9 +755,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Pidgeot:
-	.string "(It's a PIDGEOT. It appears healthy,\n"
+	.string "-It's a PIDGEOT. It appears healthy,\n"
 	.string "athletic, strong, and with a triumphant\l"
-	.string "appearance).$"
+	.string "appearance.-$"
 
 AzaleaTownDocumento_Chansey::
 lock

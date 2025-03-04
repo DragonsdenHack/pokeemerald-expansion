@@ -25,8 +25,8 @@ release
 end
 
 Ruta22_No_Puedes_Pasar_Texto_1:
-	.string "(Here is most of KANTO POLICE, it is not\n"
-	.string "a good idea to enter)$"
+	.string "-Here is most of KANTO POLICE, it is not\n"
+	.string "a good idea to enter.-$"
 
 Route22_Combate_Azul_Izq::
 playse SE_PIN

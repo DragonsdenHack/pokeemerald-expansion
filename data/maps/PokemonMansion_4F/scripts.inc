@@ -275,7 +275,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_13:
 .string "FUJI: …$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_14:
-.string "(FUJI USED ESCAPE ROPE)$"
+.string "-FUJI USED ESCAPE ROPE.-$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_15:
 	.string "GIOVANNI: {PLAYER}? The assault on\n"

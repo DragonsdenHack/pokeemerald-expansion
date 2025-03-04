@@ -91,8 +91,8 @@ release
 end
 
 FiveIsland_Text_Derecha:     
-    .string "(I can't leave the WAREHOUSE\n"
-	.string "without talking to ARCHER).$"
+    .string "-I can't leave the WAREHOUSE\n"
+	.string "without talking to ARCHER!-$"
 
 
 FiveIslandDerechaMove1:

@@ -144,8 +144,8 @@ release
 end
 
 Route25_Casa_Bill_Text_Abajo:     
-.string "(After all events here, it's better not\n"
-	.string "to tempt luck).$"
+.string "-After all events here, it's better not\n"
+	.string "to tempt luck.-$"
 
 
 Route25_Casa_Bill_AbajoMove1:

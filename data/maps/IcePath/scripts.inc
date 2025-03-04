@@ -96,8 +96,8 @@ release
 end
 
 IcePath_Bloqueo_Texto_1:
-	.string "(GIOVANNI told me to go immediately\n"
-	.string "to his private office.)$"
+	.string "-GIOVANNI told me to go immediately\n"
+	.string "to his private office.-$"
 
 IcePath_Bloqueo_Move_1:
 walk_in_place_left

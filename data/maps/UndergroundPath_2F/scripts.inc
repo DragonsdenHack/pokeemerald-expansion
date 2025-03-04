@@ -436,7 +436,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_10:
 	.string "stolen EEVEES!).$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_11:
-	.string "… … Are you partnered with SILPH now?\n"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Are you partnered with SILPH now?\n"
 	.string "What's the difference?! Anyway, I've\l"
 	.string "already pawned off seven EEVEE, and\l"
 	.string "with this seven million I'd just made,\l"

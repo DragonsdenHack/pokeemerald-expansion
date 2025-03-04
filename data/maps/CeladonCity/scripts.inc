@@ -259,9 +259,9 @@ release
 end
 
 Barrera_Tiendas_Texto_1:
-.string "(ROCKETS are forbidden to buy articles\n"
-	.string "on KANTO public markets. It's better not\l"
-	.string "to tempt luck.)$"
+.string "-ROCKETS are forbidden to buy articles\n"
+	.string "on KANTO public markets.\l"
+	.string "It's better not to tempt luck.-$"
 
 Barrera_Tiendas_2::
 release

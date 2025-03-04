@@ -461,7 +461,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_20:
 	.string "Sometimes, life is like a dark tunnel.\n"
 	.string "You can't always see the light at the\n"
 	.string "end of the tunnel, but if you just keep\l"
-	.string "moving... you will come to a better place.\l"
+	.string "moving… you will come to a better place.\l"
 	.string "Even in the darkest place, you give\l"
 	.string "yourself hope, and that's true\l"
 	.string "willpower.$"

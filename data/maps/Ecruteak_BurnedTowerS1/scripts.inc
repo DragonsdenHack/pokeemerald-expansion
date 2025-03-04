@@ -274,7 +274,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9:
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10:
 	.string "Curiouser and curiouser. Even three\n"
-	.string "GREATER LEGENDARIES can't halt your\l"
+	.string "MAJOR LEGENDARIES can't halt your\l"
 	.string "advance.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11:
@@ -299,7 +299,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13:
 	.string "further.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_14:
-.string "(ZEUS used ESCAPE ROPE.)$"
+.string "-ZEUS used ESCAPE ROPE.-$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
 	.string "????: Who is the one who has been\n"

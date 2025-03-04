@@ -171,9 +171,9 @@ msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 BlackthornCityDocumento_Text_101:
-.string "GIMNASIO de CIUDAD ENDRINO\n"
-	.string "LÍDER: ... ...\l"
-	.string "¡No hay ningún nombre!$"
+    .string "BLACKTHORN CITY POKéMON GYM\n"
+    .string "LEADER: ... ...\l"
+    .string "There is no name!$"
 
 BlackthornCityDocumento_101_Debora::
 lock
@@ -182,9 +182,9 @@ release
 end
 
 BlackthornCityDocumento_101_Debora_Texto_1:
-.string "GIMNASIO de CIUDAD ENDRINO\n"
-	.string "LÍDER: DÉBORA\l"
-	.string "La grán experta en POKÉMON DRAGÓN.$"
+.string "BLACKTHORN CITY POKéMON GYM\n"
+	.string "LEADER: CLAIR\l"
+	.string "The Blessed User of DRAGON TYPE.$"
 
 
 

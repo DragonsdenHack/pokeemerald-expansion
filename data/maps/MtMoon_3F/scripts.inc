@@ -406,11 +406,11 @@ release
 end
 
 MtMoon_3F_Fosil_text_1:
-.string "YOU GOT A DOME FOSSIL!!$"
+.string "-YOU GOT A DOME FOSSIL!!-$"
 
 MtMoon_3F_Fosil_text_2:
-	.string "(The DOME FOSSIL is mine. I should\n"
-	.string "inform my superior.)$"
+	.string "-The DOME FOSSIL is mine.\p"
+	.string "I should inform the HIGH RANK.-$"
 
 
 
@@ -528,10 +528,10 @@ MtMoon_3F_Miguel_Rojo_text_2:
 	.string "and you've got one right here?$"
 
 MtMoon_3F_Miguel_Rojo_text_3:
-	.string "(Aha, these ROCKETs are some easy\n"
+	.string "-Aha, these ROCKETs are some easy\n"
 	.string "suckers, aren't they? If I handle\l"
 	.string "things right, I'll score a second\l"
-	.string "FOSSIL.)$"
+	.string "FOSSIL.-$"
 
 MtMoon_3F_Miguel_Rojo_text_4:
 .string "Hey, ROCKET, I'm offering you a deal.$"

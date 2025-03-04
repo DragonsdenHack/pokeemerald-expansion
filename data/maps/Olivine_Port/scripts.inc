@@ -119,7 +119,7 @@ release
 end
 
 OlivinePort_Barrera_Texto_3.1:
-.string "({PLAYER} showed their PARTYCKET).$"
+.string "-{PLAYER} showed their PARTYCKET.-$"
 
 OlivinePort_Barrera_3::
 lock

@@ -79,10 +79,10 @@ end
 
 RocketHideout6F_Text_4:
 .string "…\n"
-.string "…\l"
-.string "(Seems like he is resting, but also\l"
+.string "…\p"
+.string "-Seems like he is resting, but also\n"
 	.string "seems ready to expect to any order\l"
-	.string "that he could receive from PETREL)$"
+	.string "that he could receive from PETREL.-$"
 
 
 
@@ -95,10 +95,10 @@ end
 
 RocketHideout6F_Text_5:
 .string "…\n"
-.string "…\l"
-.string "(Seems like he is resting, but also\l"
+.string "…\p"
+.string "-Seems like he is resting, but also\n"
 	.string "seems ready to expect to any order\l"
-	.string "that he could receive from PETREL)$"
+	.string "that he could receive from PETREL.-$"
 
 
 
@@ -186,8 +186,8 @@ release
 end
 
 RocketHideout6F_Text_18:
-	.string "(A SCYTHER's inside. It seems to go for\n"
-	.string "110,000 in the GAME CORNER.)$"
+	.string "-A SCYTHER's inside. It seems to go for\n"
+	.string "110,000¥ in the GAME CORNER.-$"
 
 
 
@@ -199,8 +199,8 @@ release
 end
 
 RocketHideout6F_Text_19:
-	.string "(A DRATINI's inside. It seems to go for\n"
-	.string "53,000 in the GAME CORNER.)$"
+	.string "-A DRATINI's inside. It seems to go for\n"
+	.string "53,000¥ in the GAME CORNER.-$"
 
 
 
@@ -314,8 +314,8 @@ release
 end
 
 RocketHideout6FDocumento_Text_100:
-	.string "(A DRATINI's inside. It seems to go for\n"
-	.string "53,000 in the GAME CORNER.)$"
+	.string "-A DRATINI's inside. It seems to go for\n"
+	.string "53,000¥ in the GAME CORNER.-$"
 
 
 
@@ -325,8 +325,8 @@ release
 end
 
 RocketHideout6FDocumento_Text_101:
-	.string "(A SCYTHER's inside. It seems to go for\n"
-	.string "110,000 in the GAME CORNER.)$"
+	.string "-A SCYTHER's inside. It seems to go for\n"
+	.string "110,000¥ in the GAME CORNER.-$"
 
 
 
@@ -353,7 +353,7 @@ RocketHideout6FDocumento_Text_102:
 	.string "- PORYGON (LV:26): 9,999\l"
 	.string "- DOME/HELIX FOSSIL: 15,000\l"
 	.string "- OLD AMBER: 22,500\p"
-	.string "Note: 1 COIN is equivalent to 20 POKÉ.$"
+	.string "Note: 1 COIN is equivalent to 20¥.$"
 
 RocketHideout_6F_Petrel_Mision_1::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move1
@@ -2300,9 +2300,9 @@ end
 
 RocketHideout_6F_Maquina_Teletransporte_Texto_1:
 .string "…\n"
-	.string "…\l"
-.string "(Seems that this machine's development\l"
-	.string "is still in the earliest stages.)$"
+	.string "…\p"
+.string "-Seems that this machine's development\n"
+	.string "is still in the earliest stages.-$"
 
 RocketHideout_6F_Maquina_Teletransporte_2::
 msgbox RocketHideout_6F_Maquina_Teletransporte_YesNo, MSGBOX_YESNO

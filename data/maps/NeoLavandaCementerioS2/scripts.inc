@@ -761,15 +761,15 @@ emote_exclamation_mark
 step_end
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_1:
-	.string "(An extremely powerful energy attacks\n"
-	.string "you)$"
+	.string "-An extremely powerful\n"
+	.string "energy attacks you!-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_3:
-	.string "(The energy seems to have become even\n"
-	.string "more agitated!)$"
+	.string "-The energy seems to have become\n"
+	.string "even more agitated!-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_4:
 	.string "FUJI: Enough! This wasn't our decision\n"
@@ -784,7 +784,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_6:
 .string "MEW: {PAUSE 5}…{PAUSE 5}$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_7:
-.string "(MEW pacified the spirit)$"
+.string "-MEW pacified the spirit.-$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_8:
 .string "FUJI: After so long.$"
@@ -829,8 +829,8 @@ release
 end
 
 Llave_Cementerio_Warp_Texto_1:
-.string "(An extremely powerful energy\n"
-	.string "is near)$"
+.string "-An extremely powerful energy\n"
+	.string "is near.-$"
 
 
 Llave_Cementerio_Warp_2::

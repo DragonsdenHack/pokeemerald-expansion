@@ -56,7 +56,7 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_4_Texto_1:
-	.string "Above us is the meeting room for...\n"
+	.string "Above us is the meeting room for…\n"
 	.string "those who are above us.$"
 
 Goldenrod_RadioTowerP10_NPC_5::

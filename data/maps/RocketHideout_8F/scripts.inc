@@ -809,12 +809,12 @@ release
 end
 
 RocketHideout_8F_Mision_Silph_No_Texto_1:
-	.string "(Has sido ascendido a EJECUTIVO y\n"
-	.string "recibido 50 ULTRA BALL, un AAERODACTYL y\l"
-	.string "500.000¥. Tu próxima misión está en\l"
-	.string "CIUDAD AZAFRÁN -SEDE SILPH-. Para ver\l"
-	.string "el cambio de skin, sal del despacho de\l"
-	.string "GIOVANNI).$"
+	.string "-You have been promoted to EXECUTIVE,\n"
+	.string "received 50 ULTRA BALL, an AERODACTYL\l"
+	.string "and 500.000¥.\p"
+	.string "Next mission is at SAFFRON CITY -SILPH-.\p"
+	.string "To see the skin change, you have to\n"
+	.string "leave this room.$"
 
 RocketHideout_8F_Mision_Silph::
 lock
@@ -1189,17 +1189,17 @@ walk_left
 step_end
 
 RocketHideout_8F_Mision_Silph_Yes:
-	.string "¿Continuar escena Lore? (Si das SÍ y\n"
-	.string "ocurre algún error, con la opción NO\l"
-	.string "podrás saltarte esta parte y seguir).$"
+	.string "Keep incoming scene?\n"
+	.string "-If you press -YES- and a bug happens,\l"
+	.string "you can press -NO- and skip the scene.-$"
 
 RocketHideout_8F_Mision_Silph_text_1:
-	.string "GIOVANNI: Ah, {PLAYER}!, we were\n"
-	.string "waiting for you, come in!$"
+	.string "GIOVANNI: Ah, {PLAYER}!\p"
+	.string "We were waiting for you, come in!$"
 
 RocketHideout_8F_Mision_Silph_text_2:
-	.string "({PLAYER} handed over the\n"
-	.string "ARTICUNO and ZAPDOS feathers).$"
+	.string "-{PLAYER} handed over the\n"
+	.string "ARTICUNO and ZAPDOS feathers!-$"
 
 RocketHideout_8F_Mision_Silph_text_3:
 	.string "GIOVANNI: What an extraordinary job\n"
@@ -1242,7 +1242,7 @@ RocketHideout_8F_Mision_Silph_text_9:
 .string "GIOVANNI: This shall be your reward.$"
 
 RocketHideout_8F_Mision_Silph_text_10:
-	.string "(YOU'VE JUST EARNED 500,000¥)$"
+	.string "-YOU'VE JUST EARNED 500,000¥!-$"
 
 RocketHideout_8F_Mision_Silph_text_11:
 	.string "Take this too, someone of your level\n"
@@ -2306,7 +2306,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_29:
 	.string "for that…$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_30:
-	.string "(GIOVANNI GAVE BLUE THE EARTH BADGE).$"
+	.string "-GIOVANNI GAVE BLUE THE EARTH BADGE!-$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_31:
 	.string "BLUE: Are you the last GYM LEADER?!$"
@@ -5293,8 +5293,8 @@ walk_slow_left
 step_end
 
 RocketHideout_8F_Mision_Central_Energia_Texto_1:
-	.string "({PLAYER} gave the HARD DRIVE to\n"
-	.string "GIOVANNI)$"
+	.string "-{PLAYER} gave the HARD DRIVE\n"
+	.string "to GIOVANNI!-$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_2:
 	.string "GIOVANNI: I knew you wouldn't\n"
@@ -5306,7 +5306,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_2:
 	.string "you some of them.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_3:
-	.string "{PLAYER} JUST EARNED 2,000,000¥!$"
+	.string "-{PLAYER} JUST EARNED 2,000,000¥!-$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_4:
 	.string "Take this as well, it's a project that\n"

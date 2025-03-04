@@ -21,7 +21,7 @@ walk_in_place_up
 step_end
 
 CuevaHypno_2_Bloqueo_Gym_Texto_1:
-	.string "(The door is locked)$"
+	.string "-The door is locked!-$"
 
 CuevaTesoro4_Prueba::
 lock

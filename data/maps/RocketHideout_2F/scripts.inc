@@ -62,8 +62,8 @@ end
 
 
 RocketHideout2F_Barrera_Texto_1:
-	.string "(Giovanni himself wants\n"
-	.string "to see me first.)$"
+	.string "-GIOVANNI himself wants\n"
+	.string "to see me first.-$"
 
 RocketHideout2F_Barrera_Move_1:
 walk_in_place_right

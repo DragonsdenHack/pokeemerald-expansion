@@ -257,7 +257,7 @@ OlivineGym_Estatua_Texto_1:
 	.string "OLIVINE POKÉMON GYM\n"
 	.string "LEADER: CROM\p"
 	.string "WINNING TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "It is empty!$"
 
 
 OlivineGym_Estatua_Texto_2:

@@ -110,8 +110,8 @@ release
 end
 
 RocketHideoutJohtoP2Documento_Text_100:
-	.string "(It appears to be a document written\n"
-	.string "and signed by GIOVANNI himself.)$"
+	.string "-It appears to be a document, written\n"
+	.string "and signed by GIOVANNI himself.-$"
 
 RocketHideoutJohtoP2Documento_Text_100.1:
 	.string "Dear {PLAYER}, we haven't been idle\n"
@@ -175,8 +175,8 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_1:
-	.string "(Some text has been etched on the POKÉ\n"
-	.string "BALL by GIOVANNI.)$"
+	.string "-Some text has been etched on the\n"
+	.string "POKÉ BALL by GIOVANNI.-$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys_Texto_2:
 	.string "-{PLAYER}, the services you have\n"
@@ -218,8 +218,8 @@ release
 end
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_1:
-	.string "(Some text has been etched on\n"
-	.string "the POKÉ BALL by ANDRA.)$"
+	.string "-Some text has been etched on\n"
+	.string "the POKÉ BALL, signed by ANDRA.-$"
 
 RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 	.string "-Hey, {PLAYER}. GIOVANNI had sent me\n"

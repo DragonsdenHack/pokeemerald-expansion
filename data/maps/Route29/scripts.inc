@@ -204,8 +204,8 @@ release
 end
 
 Primavera_Barrera_Sur_Texto_1:
-.string "(I still have to see the last floors\n"
-	.string "of the JOHTO ROCKET BASE)$"
+.string "-I still have to see the upper floors\n"
+	.string "of the JOHTO ROCKET BASE.-$"
 
 Primavera_Barrera_Sur_Move_1:
 walk_in_place_right

@@ -210,5 +210,5 @@ release
 end
 
 Route11_Frontera_Tunel_Texto_1:
-	.string "(No missions this way. I'd better\n"
-	.string "not waste time.)$"
+	.string "-No missions this way.\n"
+	.string "I'd better not waste time.-$"

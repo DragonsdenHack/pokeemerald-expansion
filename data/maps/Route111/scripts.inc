@@ -865,8 +865,8 @@ release
 end
 
 Ruta_111_Barrera_Noroeste_Texto_1:
-	.string "(There is nothing to do in HOENN, at\n"
-	.string "least for now).$"
+	.string "-There is nothing to do in HOENN,\n"
+	.string "at least for now.-$"
 
 
 Ruta_111_Barrera_Noroeste_Move_1:

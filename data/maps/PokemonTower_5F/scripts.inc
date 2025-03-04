@@ -119,7 +119,7 @@ release
 end
 
 Balneario_Curacion_Texto_1:
-	.string "El agua está en su punto.\n"
-	.string "Tiene la temperatura ideal...\p"
-	.string "¡{PLAYER} y sus POKÉMON están\n"
-	.string "en forma de nuevo!$"
+    .string "The water is perfectly warm.\n"
+    .string "It feels exquisite…\p"
+    .string "{PLAYER} and the POKéMON were\n"
+    .string "fully refreshed!$"

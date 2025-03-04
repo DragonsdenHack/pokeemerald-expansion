@@ -103,8 +103,8 @@ release
 end
 
 CherrygroveCity_Corriente_Texto_1:
-.string "(The currents are\n"
-	.string "too strong).$"
+.string "-The currents are\n"
+	.string "too strong.-$"
 
 CherrygroveCity_Corriente_Move_1:
 walk_in_place_up

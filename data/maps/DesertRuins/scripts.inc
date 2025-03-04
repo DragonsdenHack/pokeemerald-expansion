@@ -700,7 +700,7 @@ walk_down
 step_end
 
 Bloqueo_Neo_Canela_Texto_1:
-.string "(I've been urgently called\n"
-	.string "to GIOVANNI's office.)$"
+.string "-I've been urgently called\n"
+	.string "to GIOVANNI's office.-$"
 
 

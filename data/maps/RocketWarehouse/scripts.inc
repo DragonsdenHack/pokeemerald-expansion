@@ -182,7 +182,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
 	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-	.string "{PLAYER} has earned 300,000¥!$"
+	.string "-{PLAYER} has earned 300,000¥!-$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
 	.string "And most importantly, I'll give you this\n"
@@ -216,9 +216,9 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
 	.string "appropriate contacts?$"
 
 RocketWarehouse_Text_6:
-     .string "ARCHER: …\n"
-	.string "(It seems he's deep working\l"
-	.string "in a top project)$"
+     .string "ARCHER: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
+	.string "-It seems he's deep working\n"
+	.string "in a top project.-$"
 
 
 

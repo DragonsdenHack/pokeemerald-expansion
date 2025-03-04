@@ -91,7 +91,7 @@ BillGarden_House1_Bill_Combate_Text_6:
 	.string "This must be a joke.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-	.string "({PLAYER} stole the patent.)$"
+	.string "-{PLAYER} stole the patent!-$"
 
 BillGarden_House1_Bill_Combate_Text_8:
 	.string "CERULEAN POLICE: MR.BILL, we inform you\n"

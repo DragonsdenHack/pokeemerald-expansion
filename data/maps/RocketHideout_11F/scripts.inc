@@ -105,15 +105,15 @@ PalletTown_Laboratorio_Secreto_Doc_Regigigas_Texto_5:
 
 PalletTown_Laboratorio_Secreto_Doc_Regigigas_Texto_1:
 .string "REGIGIGAS-P\p"
-	.string "PS: 165\n"
-	.string "ATAQUE: 255\l"
-	.string "DEFENSA: 150\l"
-	.string "ATAQUE ESPECIAL: 50\l"
-	.string "DEFENSA ESPECIAL: 150\l"
-	.string "VELOCIDAD: 50\l"
+	.string "HP: 165\n"
+	.string "ATTACK: 255\l"
+	.string "DEFENSE: 150\l"
+	.string "SP. ATK: 50\l"
+	.string "SP. DEF: 150\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 820\p"
-	.string "TIPO: NORMAL/TIERRA\n"
-	.string "HABILIDAD: ROMPEMOLDES$"
+	.string "TYPE: NORMAL/GROUND\n"
+	.string "ABILITY: MOLD BREAKER$"
 
 PalletTown_Laboratorio_Secreto_Doc_Milotic::
 lock
@@ -156,15 +156,15 @@ PalletTown_Laboratorio_Secreto_Doc_Milotic_Texto_5:
 
 PalletTown_Laboratorio_Secreto_Doc_Milotic_Texto_1:
 .string "MILOTIC-&\p"
-	.string "PS: 115\n"
-	.string "ATAQUE: 65\l"
-	.string "DEFENSA: 79\l"
-	.string "ATAQUE ESPECIAL: 150\l"
-	.string "DEFENSA ESPECIAL: 195\l"
-	.string "VELOCIDAD: 91\l"
+	.string "HP: 115\n"
+	.string "ATTACK: 65\l"
+	.string "DEFENSE: 79\l"
+	.string "SP. ATK: 150\l"
+	.string "SP. DEF: 195\l"
+	.string "SPEED: 91\l"
 	.string "TOTAL: 695\p"
-	.string "TIPO: AGUA/PSÍQUICO\n"
-	.string "HABILIDAD: ABS.ELÉCTRICO$"
+	.string "TYPE: WATER/PSYCHIC\n"
+	.string "ABILITY: VOLT ABSORB$"
 
 PalletTown_Laboratorio_Secreto_Doc_Jirachi::
 lock
@@ -206,15 +206,15 @@ PalletTown_Laboratorio_Secreto_Doc_Jirachi_Texto_5:
 
 PalletTown_Laboratorio_Secreto_Doc_Jirachi_Texto_1:
 .string "JIRACHI-&\p"
-	.string "PS: 110\n"
-	.string "ATAQUE: 50\l"
-	.string "DEFENSA: 155\l"
-	.string "ATAQUE ESPECIAL: 155\l"
-	.string "DEFENSA ESPECIAL: 155\l"
-	.string "VELOCIDAD: 100\l"
+	.string "HP: 110\n"
+	.string "ATTACK: 50\l"
+	.string "DEFENSE: 155\l"
+	.string "SP. ATK: 155\l"
+	.string "SP. DEF: 155\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 725\p"
-	.string "TIPO: ACERO/HADA\n"
-	.string "HABILIDAD: LEVITACIÓN$"
+	.string "TYPE: STEEL/FAIRY\n"
+	.string "ABILITY: LEVITATE$"
 
 PalletTown_Laboratorio_Secreto_Doc_Relicanth::
 lock
@@ -252,15 +252,15 @@ PalletTown_Laboratorio_Secreto_Doc_Relicanth_Texto_5:
 
 PalletTown_Laboratorio_Secreto_Doc_Relicanth_Texto_1:
 .string "RELICANTH-P\p"
-	.string "PS: 110\n"
-	.string "ATAQUE: 110\l"
-	.string "DEFENSA: 140\l"
-	.string "ATAQUE ESPECIAL: 55\l"
-	.string "DEFENSA ESPECIAL: 75\l"
-	.string "VELOCIDAD: 105\l"
+	.string "HP: 110\n"
+	.string "ATTACK: 110\l"
+	.string "DEFENSE: 140\l"
+	.string "SP. ATK: 55\l"
+	.string "SP. DEF: 75\l"
+	.string "SPEED: 105\l"
 	.string "TOTAL: 585\p"
-	.string "TIPO: AGUA/ROCA\n"
-	.string "HABILIDAD: CABEZA ROCA$"
+	.string "TYPE: WATER/ROCK\n"
+	.string "ABILITY: ROCK HEAD$"
 
 PalletTown_Laboratorio_Secreto_Doc_Ultimate::
 lock
@@ -300,15 +300,15 @@ PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_2:
 
 PalletTown_Laboratorio_Secreto_Doc_Ultimate_Texto_1:
 .string "ULTIMATE PROJECT\p"
-	.string "PS: 126\n"
-	.string "ATAQUE: 110\l"
-	.string "DEFENSA: 154\l"
-	.string "ATAQUE ESPECIAL: 216\l"
-	.string "DEFENSA ESPECIAL: 154\l"
-	.string "VELOCIDAD: 90\l"
+	.string "HP: 126\n"
+	.string "ATTACK: 110\l"
+	.string "DEFENSE: 154\l"
+	.string "SP. ATK: 216\l"
+	.string "SP. DEF: 154\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 830\p"
-	.string "TIPO: PSÍQUICO/ACERO\n"
-	.string "HABILIDAD: ARMADURA ULT.$"
+	.string "TYPE: PSYCHIC/STEEL\n"
+	.string "ABILITY: ULTIMATE ARMOR$"
 
 PalletTown_Laboratorio_Secreto_Doc_Porygon::
 lock
@@ -356,15 +356,15 @@ PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_6:
 
 PalletTown_Laboratorio_Secreto_Doc_Porygon_Texto_1:
 .string "PORYGON 3.1\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 70\l"
-	.string "DEFENSA: 65\l"
-	.string "ATAQUE ESPECIAL: 165\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 145\l"
+	.string "HP: 105\n"
+	.string "ATTACK: 70\l"
+	.string "DEFENSE: 65\l"
+	.string "SP. ATK: 165\l"
+	.string "SP. DEF: 115\l"
+	.string "SPEED: 145\l"
 	.string "TOTAL: 665\p"
-	.string "TIPO: NORMAL/PSÍQUICO\n"
-	.string "HABILIDAD: PELUCHE$"
+	.string "TYPE: NORMAL/PSYCHIC\n"
+	.string "ABILITY: FLUFFY$"
 
 PalletTown_Laboratorio_Secreto_Doc_Armaldo::
 lock
@@ -398,15 +398,15 @@ PalletTown_Laboratorio_Secreto_Doc_Armaldo_Texto_4:
 
 PalletTown_Laboratorio_Secreto_Doc_Armaldo_Texto_1:
 .string "ARMALDO-P\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 155\l"
-	.string "DEFENSA: 120\l"
-	.string "ATAQUE ESPECIAL: 70\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 75\l"
+	.string "HP: 75\n"
+	.string "ATTACK: 155\l"
+	.string "DEFENSE: 120\l"
+	.string "SP. ATK: 70\l"
+	.string "SP. DEF: 100\l"
+	.string "SPEED: 75\l"
 	.string "TOTAL: 585\p"
-	.string "TIPO: ROCA/BICHO\n"
-	.string "HABILIDAD: ARM.FRÁGIL$"
+	.string "TYPE: ROCK/BUG\n"
+	.string "ABILITY: WEAK ARMOR$"
 
 
 PalletTown_Laboratorio_Secreto_Doc_Guardia::
@@ -445,15 +445,15 @@ PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_4:
 
 PalletTown_Laboratorio_Secreto_Doc_Guardia_Texto_1:
 .string "GUARDIA\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 95\l"
-	.string "DEFENSA: 145\l"
-	.string "ATAQUE ESPECIAL: 60\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 60\l"
+	.string "HP: 105\n"
+	.string "ATTACK: 95\l"
+	.string "DEFENSE: 145\l"
+	.string "SP. ATK: 60\l"
+	.string "SP. DEF: 95\l"
+	.string "SPEED: 60\l"
 	.string "TOTAL: 560\p"
-	.string "TIPO: TIERRA\n"
-	.string "HABILIDAD: INTRÉPIDO$"
+	.string "TYPE: GROUND\n"
+	.string "ABILITY: SCRAPPY$"
 
 PalletTown_Laboratorio_Secreto_Doc_Wrongsparce::
 lock
@@ -490,13 +490,13 @@ PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_4:
 
 PalletTown_Laboratorio_Secreto_Doc_Wrongsparce_Texto_1:
 .string "WRONGSPARCE\p"
-	.string "PS: 141\n"
-	.string "ATAQUE: 131\l"
-	.string "DEFENSA: 121\l"
-	.string "ATAQUE ESPECIAL: 43\l"
-	.string "DEFENSA ESPECIAL: 98\l"
-	.string "VELOCIDAD: 65\l"
+	.string "HP: 141\n"
+	.string "ATTACK: 131\l"
+	.string "DEFENSE: 121\l"
+	.string "SP. ATK: 43\l"
+	.string "SP. DEF: 98\l"
+	.string "SPEED: 65\l"
 	.string "TOTAL: 599\p"
-	.string "TIPO: NORMAL/TIERRA\n"
-	.string "HABILIDAD: HERBOGÉNESIS$"
+	.string "TYPE: NORMAL/GROUND\n"
+	.string "ABILITY: GRASSY SURGE$"
 

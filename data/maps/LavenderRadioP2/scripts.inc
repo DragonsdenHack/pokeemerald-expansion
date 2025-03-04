@@ -339,8 +339,8 @@ walk_slow_up
 step_end
 
 Radio_P2_Barrera_Texto_1:
-	.string "(You should see FUJI and the town's\n"
-	.string "GRAVEYARD first.)$"
+	.string "-You should see FUJI and the\n"
+	.string "town's GRAVEYARD first.-$"
 
 LavenderRadioP2_Policia_Cartel::
 lock

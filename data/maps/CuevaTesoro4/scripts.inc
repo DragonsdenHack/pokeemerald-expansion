@@ -158,8 +158,8 @@ unlock_facing_direction
 step_end
 
 CuevaTesoro4_Jefe_Final_Texto_1:
-	.string "(???? defeated the MYSTERIOUS\n"
-	.string "POKÉMON).$"
+	.string "-???? defeated the\n"
+	.string "MYSTERIOUS POKÉMON.-$"
 
 CuevaTesoro4_Jefe_Final_Texto_2:
 	.string "You must be a very disciplined and\n"
@@ -248,7 +248,7 @@ CuevaTesoro4_Jefe_Final_Texto_16:
 	.string "that will never reach its peak.$"
 
 CuevaTesoro4_Jefe_Final_Texto_17:
-	.string "(???? OBTAINED A SAMPLE OF NIHILEGO).$"
+	.string "-???? OBTAINED A SAMPLE OF NIHILEGO.-$"
 
 CuevaTesoro4_Jefe_Final_Texto_18:
 	.string "This is more than enough for us; keep\n"

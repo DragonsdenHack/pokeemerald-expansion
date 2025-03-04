@@ -167,8 +167,8 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3:
 	.string "I wrong?$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_4:
-	.string "({PLAYER} returned the 60 EEVEES to\n"
-	.string "the SCIENTIST!)$"
+	.string "-{PLAYER} returned the 60 EEVEES\n"
+	.string "to the SCIENTIST!!-$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_5:
 	.string "Unbelievable! So you were able to catch\n"

@@ -454,7 +454,7 @@ Silph_7F_Encuentro_Azul_Texto_10:
 	.string "keep defeating all the rest of the\l"
 	.string "security for your LEADER have free way\l"
 	.string "to talk with the PRESIDENT instantly\l"
-	.string "when arrives, I'll stay here...\l"
+	.string "when arrives, I'll stay here…\l"
 	.string "waiting your signal to drop the CARD KEY\l"
 	.string "once the negotiation finishes.$"
 

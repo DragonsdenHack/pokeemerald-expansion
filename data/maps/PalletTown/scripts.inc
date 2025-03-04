@@ -184,9 +184,9 @@ release
 end
 
 Pueblo_Paleta_Barrera_Sur_Texto_1:
-	.string "(I am not on vacation to go exploring\n"
+	.string "-I am not on vacation to go exploring\n"
 	.string "KANTO, I have more important things to\l"
-	.string "do).$"
+	.string "do.-$"
 
 Pueblo_Paleta_Barrera_Sur_Move_1:
 walk_in_place_down

@@ -280,15 +280,15 @@ end
 
 PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_1:
     .string "RAIKOU-&:\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 155\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 145\l"
+	.string "HP: 100\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 90\l"
+	.string "SP. ATK: 155\l"
+	.string "SP. DEF: 115\l"
+	.string "SPEED: 145\l"
 	.string "TOTAL: 705\p"
-	.string "TIPO: ELÉCTRICO/FANTASMA\n"
-	.string "HABILIDAD: MAR DEL ALBOR$"
+	.string "TYPE: ELECTRIC/GHOST\n"
+	.string "ABILITY: PRIMORDIAL SEA$"
 
 PalletTown_Laboratorio_Secreto_S2_Documento_Raikou_Texto_2:
 	.string "Su estatus de señor del trueno le\n"
@@ -319,15 +319,15 @@ end
 
 PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_1:
     .string "ENTEI-&:\p"
-	.string "PS: 125\n"
-	.string "ATAQUE: 175\l"
-	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 90\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 115\l"
+	.string "HP: 125\n"
+	.string "ATTACK: 175\l"
+	.string "DEFENSE: 105\l"
+	.string "SP. ATK: 90\l"
+	.string "SP. DEF: 95\l"
+	.string "SPEED: 115\l"
 	.string "TOTAL: 705\p"
-	.string "TIPO: FUEGO/TIERRA\n"
-	.string "HABILIDAD: TIERRA DEL OCASO$"
+	.string "TYPE: FIRE/GROUND\n"
+	.string "ABILITY: DESOLATE LAND$"
 
 PalletTown_Laboratorio_Secreto_S2_Documento_Entei_Texto_2:
 	.string "Pusimos a prueba su capacidad de\n"

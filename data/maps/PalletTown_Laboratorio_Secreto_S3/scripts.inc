@@ -490,15 +490,15 @@ end
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_1:
 .string "ZAPDOS-Z\p"
-	.string "PS: 110\n"
-	.string "ATAQUE: 105\l"
-	.string "DEFENSA: 140\l"
-	.string "ATAQUE ESPECIAL: 185\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 90\l"
+	.string "HP: 110\n"
+	.string "ATTACK: 105\l"
+	.string "DEFENSE: 140\l"
+	.string "SP. ATK: 185\l"
+	.string "SP. DEF: 100\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 730\p"
-	.string "TIPO: ELÉCTRICO/ACERO\n"
-	.string "HABILIDAD: LEVITACIÓN$"
+	.string "TYPE: ELECTRIC/STEEL\n"
+	.string "ABILITY: LEVITATE$"
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Zapdos_Texto_2:
 	.string "Primer LEGENDARIO expuesto a las ondas\n"
@@ -537,15 +537,15 @@ end
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise_Texto_1:
 .string "BLASTOISE-Z\p"
-	.string "PS: 119\n"
-	.string "ATAQUE: 113\l"
-	.string "DEFENSA: 160\l"
-	.string "ATAQUE ESPECIAL: 145\l"
-	.string "DEFENSA ESPECIAL: 125\l"
-	.string "VELOCIDAD: 38\l"
+	.string "HP: 119\n"
+	.string "ATTACK: 113\l"
+	.string "DEFENSE: 160\l"
+	.string "SP. ATK: 145\l"
+	.string "SP. DEF: 125\l"
+	.string "SPEED: 38\l"
 	.string "TOTAL: 700\p"
-	.string "TIPO: AGUA/SINIESTRO\n"
-	.string "HABILIDAD: MEGA-DISPARADOR$"
+	.string "TYPE: WATER/DARK\n"
+	.string "ABILITY: MEGA LAUNCHER$"
 
 PalletTown_Laboratorio_Secreto_S3_Documento_Blastoise_Texto_1.1:
 	.string "Supera a la forma MEGA de BLASTOISE en\n"

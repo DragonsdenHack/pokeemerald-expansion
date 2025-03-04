@@ -520,8 +520,8 @@ walk_in_place_down
 step_end
 
 PokemonLeague_6F_Final_Texto_1:
-	.string "(OAK finished entering RED's data in the\n"
-	.string "HALL OF FAME)$"
+	.string "-OAK finished entering RED's data in the\n"
+	.string "HALL OF FAME.-$"
 
 PokemonLeague_6F_Final_Texto_2:
 	.string "OAK: It is official now, you are the new\n"

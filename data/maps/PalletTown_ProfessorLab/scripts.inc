@@ -207,7 +207,7 @@ PalletTown_ProfessorLab_Lab_Texto_1:
 PalletTown_ProfessorLab_Lab_Texto_2:
 	.string "????: Do you need something, sir? I'm\n"
 	.string "OAK's granddaughter and BLUE's big\l"
-	.string "sister...$"
+	.string "sister…$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
 	.string "So you know my brother! He's a good boy,\n"
@@ -215,7 +215,7 @@ PalletTown_ProfessorLab_Lab_Texto_3:
 	.string "competitive streak. If he's got\l"
 	.string "something to say, he'll say it to your\l"
 	.string "face. I just hope he's not influenced\l"
-	.string "by...$"
+	.string "by…$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"

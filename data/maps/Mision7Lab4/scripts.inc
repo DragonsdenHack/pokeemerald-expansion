@@ -601,22 +601,22 @@ release
 end
 
 Mision7Lab4_Combate_Nidoking_Texto_1:
-.string "(You have awakened a wild POKÉMON!)$"
+.string "-You have awakened a wild POKÉMON!-$"
 
 Mision7Lab4_Combate_Nidoking_Texto_3:
-.string "(The CABIN 2 has been opened!)$"
+.string "-The CABIN 2 has been opened!-$"
 
 Mision7Lab4_Combate_Electivire_Texto_3:
-.string "(The CABIN 3 has been opened!)$"
+.string "-The CABIN 3 has been opened!-$"
 
 Mision7Lab4_Combate_Aerodactyl_Texto_3:
-.string "(The CABIN 4 has been opened!)$"
+.string "-The CABIN 4 has been opened!-$"
 
 Mision7Lab4_Combate_Porygon_Texto_3:
-.string "(The CABIN 5 has been opened!)$"
+.string "-The CABIN 5 has been opened!-$"
 
 Mision7Lab4_Combate_Deoxys_Texto_3:
-.string "(The MAIN ENTRANCE has been opened!)$"
+.string "-The MAIN ENTRANCE has been opened!-$"
 
 Mision7Lab4_Combate_Move_1:
 emote_exclamation_mark

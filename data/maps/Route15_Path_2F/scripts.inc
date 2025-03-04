@@ -102,8 +102,8 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_6:
 	.string "Who are you?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_7:
-	.string "({PLAYER} stole a TOXIC ORB from\n"
-	.string "OAK's ASSISTANT).$"
+	.string "-{PLAYER} stole a TOXIC ORB from\n"
+	.string "OAK's AIDE!-$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_8:
 	.string "You don't know what you've just done,\n"

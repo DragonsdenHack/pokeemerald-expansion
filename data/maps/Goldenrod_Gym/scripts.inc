@@ -272,7 +272,7 @@ TrigalGym_Estatua_Texto_1:
 .string "GOLDENROD CITY POKÉMON\n"
 	.string "GYM LEADER: VALERIA\p"
 	.string "WINNER TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "It is empty!$"
 
 TrigalGym_Estatua_Texto_2:
 .string "GOLDENROD CITY POKÉMON\n"

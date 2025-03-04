@@ -293,9 +293,9 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-	.string "It's impossible! … … The LICENSE forged\n"
+	.string "It's impossible! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} The LICENSE forged\n"
 	.string "in the historic dispatches of the HQ of\l"
-	.string "the KANTO POKÉMON LEAGUE. … … Excuse\l"
+	.string "the KANTO POKÉMON LEAGUE.{PAUSE 15} …{PAUSE 15} …{PAUSE 15} Excuse\l"
 	.string "me, sir! You can enter our humble GYM!$"
 
 
@@ -380,7 +380,7 @@ PewterCityGym_CanPass_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCityGym_CanPass_Texto_3:
-	.string "A TRAINER LICENSE? … … Signed and\n"
+	.string "A TRAINER LICENSE? {PAUSE 15}… {PAUSE 15}…{PAUSE 15} Signed and\n"
 	.string "approved by the POKÉMON LEAGUE\l"
 	.string "MINISTRY itself… Excuse me, sir. With\l"
 	.string "the failed SILPH raid, it's hard to\l"
@@ -539,7 +539,7 @@ release
 end
 
 FuchsiaCityGym_Can_Pass_Texto_1:
-	.string "Hold on! … … The KANTO DELEGATION,\n"
+	.string "Hold on! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} The KANTO DELEGATION,\n"
 	.string "along with LANCE and the ELITE FOUR,\l"
 	.string "authorize this TRAINER to be a POKÉMON\l"
 	.string "LEAGUE CHAMPIONSHIP participant… I'm\l"

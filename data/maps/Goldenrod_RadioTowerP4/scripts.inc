@@ -283,7 +283,7 @@ delay_8
 step_end
 
 Goldenrod_RadioTower_P4_Reunion_Texto_1:
-.string "({PLAYER} show his RADIO PASS)$"
+.string "-{PLAYER} show his RADIO PASS.-$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_2:
 	.string "DIRECTOR: You know that most of JOHTO\n"

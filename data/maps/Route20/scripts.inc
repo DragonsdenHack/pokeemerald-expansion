@@ -145,9 +145,8 @@ release
 end
 
 Ruta_20_Barrera_Sur_Texto_1:
-	.string "(I am not on vacation to explore KANTO\n"
-	.string "right now, I have more important things\l"
-	.string "to do).$"
+	.string "-I am not on vacation to explore KANTO\n"
+	.string "right now, great events are waiting.-$"
 
 Ruta_20_Barrera_Sur_Move_1:
 walk_in_place_left

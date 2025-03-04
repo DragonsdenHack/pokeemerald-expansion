@@ -92,9 +92,9 @@ release
 end
 
 Ruta23_No_Puedes_Pasar_Texto_1:
-	.string "(I should see what GIOVANNI does want\n"
-	.string "from me before facing this so important\l"
-	.string "challenge).$"
+	.string "-I should see what GIOVANNI wants\n"
+	.string "from me before facing such important\l"
+	.string "challenge.-$"
 
 Route23_Llamada_Giovanni::
 playse SE_POKENAV_CALL

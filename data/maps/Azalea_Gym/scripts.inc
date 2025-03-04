@@ -257,7 +257,7 @@ AzaleaGym_Estatua_Texto_1:
 .string "AZALEA TOWN POKÉMON GYM \n"
 	.string "LEADER: KURT\p"
 	.string "WINNING TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "It is empty!$"
 
 AzaleaGym_Estatua_Texto_2:
 .string "AZALEA TOWN POKÉMON GYM\n"

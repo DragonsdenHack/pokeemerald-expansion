@@ -273,11 +273,11 @@ release
 end
 
 Route27_Cartel_Texto_2:
-.string "(This last thing is striken through.)$"
+.string "-This last thing is striken through.-$"
 
 Route27_Cartel_Texto_1:
-.string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"
-	.string "PARTIR DE ESTE PUNTO$"
+.string "KANTO-JOHTO BORDERLINE\p"
+	.string "Danger! No trespass from this point!$"
 
 
 Route27_Evento_Encinar::

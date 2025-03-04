@@ -214,15 +214,15 @@ PalletTown_Laboratorio_Secreto_S6_Documento_Ultimate_Texto_3:
 
 PalletTown_Laboratorio_Secreto_S6_Documento_Ultimate_Texto_4:
 .string "U..I....E  P....CT\p"
-	.string "PS: 126\n"
-	.string "ATAQUE: 90\l"
-	.string "DEFENSA: 154\l"
-	.string "ATAQUE ESPECIAL: 216\l"
-	.string "DEFENSA ESPECIAL: 154\l"
-	.string "VELOCIDAD: 90\l"
+	.string "HP: 126\n"
+	.string "ATTACK: 90\l"
+	.string "DEFENSE: 154\l"
+	.string "SP. ATK: 216\l"
+	.string "SP. DEF: 154\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 830\p"
-	.string "TIPO: PSÍQUICO/ACERO\n"
-	.string "HABILIDAD: - - - - - $"
+	.string "TYPE: PSYCHIC/STEEL\n"
+	.string "ABILITY: - - - - - $"
 
 Laboratorio_Secreto_S6_Andra_Documento_Move_1:
 walk_up

@@ -352,7 +352,7 @@ CianwoodGym_Estatua_Texto_1:
 	.string "CIANWOOD POKÉMON GYM\n"
 	.string "LEADER: CHUCK\p"
 	.string "WINNING TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "It is empty!$"
 
 
 CianwoodGym_Estatua_Texto_2:

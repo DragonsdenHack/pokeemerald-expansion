@@ -543,5 +543,5 @@ step_end
 
 
 PewterCity_Ayuda_Texto_1:
-	.string "(I should assist to PETRELs meeting at\n"
-	.string "the other stand)$"
+	.string "-I should assist to PETRELs meeting at\n"
+	.string "the other stand.-$"

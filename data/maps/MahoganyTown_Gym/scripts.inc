@@ -246,7 +246,7 @@ MahoganyGym_Estatua_Texto_1:
 	.string "MAHOGANY POKÉMON GYM\n"
 	.string "LEADER: PRYCE\p"
 	.string "WINNING TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "It is empty!$"
 
 
 MahoganyGym_Estatua_Texto_2:

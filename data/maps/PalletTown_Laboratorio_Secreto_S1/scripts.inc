@@ -77,15 +77,15 @@ end
 
 PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_1:
 .string "GYARADOS-Z\p"
-	.string "PS: 115\n"
-	.string "ATAQUE: 165\l"
-	.string "DEFENSA: 99\l"
-	.string "ATAQUE ESPECIAL: 60\l"
-	.string "DEFENSA ESPECIAL: 140\l"
-	.string "VELOCIDAD: 111\l"
+	.string "HP: 115\n"
+	.string "ATTACK: 165\l"
+	.string "DEFENSE: 99\l"
+	.string "SP. ATK: 60\l"
+	.string "SP. DEF: 140\l"
+	.string "SPEED: 111\l"
 	.string "TOTAL: 690\p"
-	.string "TIPO: AGUA/VOLADOR\n"
-	.string "HABILIDAD: INTIMIDACIÓN$"
+	.string "TYPE: WATER/FLYING\n"
+	.string "ABILITY: INTIMIDATE$"
 
 PalletTown_Laboratorio_Secreto_Doc_Gyarados_Texto_2:
 	.string "A día de su creación, es el POKÉMON NO\n"

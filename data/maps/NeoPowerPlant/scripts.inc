@@ -342,11 +342,11 @@ NeoPowerPlant_Combate_Zapdos_Texto_2:
 .string "Zap…$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
-	.string "(The P-ZAPDOS has been completely\n"
-	.string "consumed!)$"
+	.string "-The P-ZAPDOS has been completely\n"
+	.string "consumed!-$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_4:
-	.string "(There is a POKÉMON EGG in the ashes)$"
+	.string "-There is a POKÉMON EGG in the ashes!-$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_5:
 .string "YOU OBTAINED A MYSTERIOUS EGG!!$"

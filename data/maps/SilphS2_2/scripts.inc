@@ -234,7 +234,7 @@ SilphS2_2_Lorelei_Texto_4:
 	.string "member of the ELITE FOUR.$"
 
 SilphS2_2_Lorelei_Texto_5:
-	.string "Yet{PAUSE 15}...{PAUSE 15} he seems quite busy with SILPH,\n"
+	.string "Yet{PAUSE 15}…{PAUSE 15} he seems quite busy with SILPH,\n"
 	.string "so the position will remain open.$"
 
 SilphS2_2_Lorelei_Texto_6:
@@ -253,7 +253,7 @@ SilphS2_2_Lorelei_Texto_8:
 	.string "say?$"
 
 SilphS2_2_Lorelei_Texto_9:
-	.string "Well{PAUSE 15}...{PAUSE 15} what about you? Tell me!$"
+	.string "Well{PAUSE 15}…{PAUSE 15} what about you? Tell me!$"
 
 SilphS2_2_Lorelei_Texto_10:
 	.string "You were strong, but ultimately, the one\n"
@@ -272,7 +272,7 @@ SilphS2_2_Lorelei_Texto_12:
 
 SilphS2_2_Lorelei_Texto_13:
 	.string "What a waste, that RED. Holing up like a\n"
-	.string "hermit in MT. SILVER to train in such a{PAUSE 25}...{PAUSE 25}\n"
+	.string "hermit in MT. SILVER to train in such a{PAUSE 25}…{PAUSE 25}\n"
 	.string "desolate cavern.$"
 
 SilphS2_2_Lorelei_Texto_14:

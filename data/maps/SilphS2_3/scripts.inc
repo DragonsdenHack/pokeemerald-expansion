@@ -227,7 +227,7 @@ SilphS2_3_Presidente_Texto_5:
 	.string "GIOVANNI informed me of his history:\n"
 	.string "TEAM ROCKET's founding, the BIRDS,\n"
 	.string "MEWTWO, the MASTERBALL, the raid on the\l"
-	.string "LEAGUE HQ...$"
+	.string "LEAGUE HQ…$"
 
 SilphS2_3_Presidente_Texto_6:
 	.string "He risked me surrendering him to LANCE.\n"
@@ -258,7 +258,7 @@ SilphS2_3_Presidente_Texto_11:
 	.string "together, KANTO will keep its essence.$"
 
 SilphS2_3_Presidente_Texto_12:
-	.string "However{PAUSE 15}...{PAUSE 15} it also means that we'll be\n"
+	.string "However{PAUSE 15}…{PAUSE 15} it also means that we'll be\n"
 	.string "turning this region into a\n"
 	.string "technological powerhouse. What you're\l"
 	.string "seeing right here is barely the\l"

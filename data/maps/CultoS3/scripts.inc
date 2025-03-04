@@ -1052,7 +1052,7 @@ release
 end
 
 Culto_Bloqueo_Texto_1:
-	.string "(An awful aura blocks the way ahead).$"
+	.string "-An awful aura blocks the way ahead.-$"
 
 Culto_Bloqueo_Move_1:
 walk_in_place_down

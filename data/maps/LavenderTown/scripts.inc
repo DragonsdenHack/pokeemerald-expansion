@@ -137,12 +137,12 @@ release
 end
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
-	.string "(GIOVANNI was so clear about keep\n"
-	.string "distances from POKÉMON TOWER)$"
+	.string "-GIOVANNI was so clear about keep\n"
+	.string "distances from POKÉMON TOWER.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
-	.string "(RED could be still inside the POKÉMON\n"
-	.string "TOWER)$"
+	.string "-RED could be still inside the\n"
+	.string "POKÉMON TOWER!-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Move_1:
 walk_in_place_up
@@ -183,9 +183,9 @@ release
 end
 
 LavenderTown_Barrera_Sur_Texto_1:
-	.string "(That route does not match with any\n"
+	.string "-That route does not match with any\n"
 	.string "assigned mission, better to not waste\l"
-	.string "time).$"
+	.string "time.-$"
 
 LavenderTown_Barrera_Sur_Move_1:
 walk_in_place_down

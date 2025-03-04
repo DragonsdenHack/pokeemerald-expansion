@@ -502,7 +502,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_13:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_14:
-	.string "Wait... TEAM ROCKET? You're the famous\n"
+	.string "Wait… TEAM ROCKET? You're the famous\n"
 	.string "{PLAYER}?! The leader in JOHTO and\l"
 	.string "right-hand man of none other than\l"
 	.string "GIOVANNI himself?$"

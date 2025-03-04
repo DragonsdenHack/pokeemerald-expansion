@@ -274,7 +274,7 @@ Goldenrod_RadioTower_Encuentro_Atlas_Texto_3:
 	.string "GIOVANNI has asked me to give you this.$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_4:
-	.string "(YOU HAVE JUST EARNED 500,000¥)$"
+	.string "-YOU HAVE JUST EARNED 500,000¥!-$"
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_5:
 	.string "We're not in CELADON. Here, you can buy\n"

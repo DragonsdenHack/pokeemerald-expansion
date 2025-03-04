@@ -153,9 +153,9 @@ release
 end
 
 CeruleanCity_Text_Izq:     
-	.string "(ANDRA's waiting for me in the DAYCARE\n"
-	.string "on ROUTE 5 to see what PETREL needs.\l"
-	.string "Can't be abandoning her now.)$"
+	.string "-ANDRA's waiting for me in the DAYCARE\n"
+	.string "on ROUTE 5 to see what PETREL needs.\p"
+	.string "Can't be abandoning her now.-$"
 
 
 CeruleanCityIzqMove1:
@@ -232,9 +232,9 @@ release
 end
 
 CeruleanCity_Text_Abajo:     
-	.string "(My mission's going to MT. MOON to\n"
-	.string "collect FOSSILs, not roaming CERULEAN\l"
-	.string "CITY.)$"
+	.string "-My mission's going to MT. MOON to\n"
+	.string "collect FOSSILs!\p"
+	.string "Not roaming CERULEAN CITY!-$"
 
 
 CeruleanCityAbajoMove1:
@@ -255,8 +255,8 @@ release
 end
 
 CeruleanCity_Text_Abajo_2:
-	.string "(PETREL wants me in his office.\n"
-	.string "Where exactly am I off to?)$"
+	.string "-PETREL wants me in his office.\n"
+	.string "Where exactly am I off to?-$"
 
 CeruleanCity_Nino::
 lock

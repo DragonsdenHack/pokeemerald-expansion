@@ -16,8 +16,8 @@ CasaTrxatuDocumento_Text_100:
 	.string "HP: 75\n"
 	.string "ATTACK: 75\l"
 	.string "DEFENSE: 75\l"
-	.string "SPECIAL ATTACK: 115\l"
-	.string "SPECIAL DEFENSE: 115\l"
+	.string "SP. ATK: 115\l"
+	.string "SP. DEF: 115\l"
 	.string "SPEED: 115\l"
 	.string "TOTAL: 570$"
 
@@ -288,9 +288,9 @@ release
 end
 
 CasaTrxatu_Ball_Trxatu_Texto_1:
-	.string "(It is not appropriate to steal someone\n"
+	.string "-It is not appropriate to steal someone\n"
 	.string "else's POKÉMON; we, as TEAM ROCKET\l"
-	.string "members, uphold principles.)$"
+	.string "members, uphold principles.-$"
 
 CasaTrxatu_Ball_Trxatu_Texto_2:
 	.string "YOU OBTAINED A TRXATU!!$"

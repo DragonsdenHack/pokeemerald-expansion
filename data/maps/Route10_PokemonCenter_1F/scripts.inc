@@ -132,8 +132,8 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_6:
 .string "This doesn't make any sense!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} stole an EVERSTONE from\n"
-.string "OAK'S AIDE).$"
+.string "-{PLAYER} stole an EVERSTONE\n"
+.string "from OAK'S AIDE!-$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
 	.string "NO! A ROCKET cannot be that strong!\n"
