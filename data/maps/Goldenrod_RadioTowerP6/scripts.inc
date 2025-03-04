@@ -9,8 +9,8 @@ release
 end
 
 Goldenrod_RadioTowerP6_Cartel_Texto_1:
-	.string "P5 - ONDAS DE RADIO APLICADAS AL\n"
-	.string "RENDIMIENTO DE UN POKÉMON$"
+	.string "F5 - RADIO WAVES APPLIED TO A\n"
+	.string "POKÉMON'S PERFORMANCE$"
 
 Goldenrod_RadioTowerP7_Cartel::
 lock
@@ -19,8 +19,8 @@ release
 end
 
 Goldenrod_RadioTowerP7_Cartel_Texto_1:
-	.string "P6 - MAXIMIZACIÓN DEL RENDIMIENTO DE\n"
-	.string "LAS ONDAS DE RADIO$"
+	.string "F6 - MAXIMIZING OF PERFORMANCE OF\n"
+	.string "RADIO WAVES$"
 
 Goldenrod_RadioTowerP8_Cartel::
 lock
@@ -29,8 +29,8 @@ release
 end
 
 Goldenrod_RadioTowerP8_Cartel_Texto_1:
-	.string "P7 - OPTIMIZACIÓN DEL RENDIMIENTO DE\n"
-	.string "LAS ONDAS DE RADIO$"
+	.string "F6 - OPTIMIZATION OF PERFORMANCE OF\n"
+	.string "RADIO WAVES$"
 
 Goldenrod_RadioTowerP9_Cartel::
 lock
@@ -39,8 +39,8 @@ release
 end
 
 Goldenrod_RadioTowerP9_Cartel_Texto_1:
-	.string "P8 - EFICIENCIA EN EL EMPLEO DE LAS\n"
-	.string "ONDAS DE RADIO$"
+	.string "F8 - EFFICIENCY IN THE USAGE OF\n"
+	.string "RADIO WAVES$"
 
 Goldenrod_RadioTowerP10_Cartel::
 lock
@@ -49,8 +49,8 @@ release
 end
 
 Goldenrod_RadioTowerP10_Cartel_Texto_1:
-	.string "P9 - TEORÍA APLICADA AL\n"
-	.string "FUNCIONAMIENTO DE LAS ONDAS DE RADIO$"
+	.string "F9 - APPLIED THEORY:\p"
+	.string "FUNCTIONING OF RADIO WAVES$"
 
 
 Goldenrod_RadioTowerP6_NPC_1::
@@ -63,12 +63,12 @@ release
 end
 
 Goldenrod_RadioTowerP6_NPC_1_Texto_1:
-	.string "La primera onda de radio se emitió en\n"
-	.string "1897.$"
+	.string "The first ever radio wave was\n"
+	.string "transmitted back in 1897.$"
 
 Goldenrod_RadioTowerP6_NPC_1_Texto_2:
-	.string "Mucho ha llovido desde entonces, y\n"
-	.string "mucho queda por llover aún.$"
+	.string "It's been a long road, yet we're far from\n"
+	.string "reaching its end.$"
 
 Goldenrod_RadioTowerP6_NPC_2::
 lock
@@ -80,12 +80,11 @@ release
 end
 
 Goldenrod_RadioTowerP6_NPC_2_Texto_1:
-	.string "La TORRE RADIO ha contratado a varios\n"
-	.string "expertos en seguridad, algunos de\l"
-	.string "KANTO.$"
+	.string "The RADIO TOWER has hired some\n"
+	.string "security experts, some from KANTO.$"
 
 Goldenrod_RadioTowerP6_NPC_2_Texto_2:
-	.string "Estamos aprendiendo mucho de ellos.$"
+	.string "We're learning a lot from them.$"
 
 Goldenrod_RadioTowerP6_NPC_3::
 lock
@@ -95,8 +94,8 @@ release
 end
 
 Goldenrod_RadioTowerP6_NPC_3_Texto_1:
-	.string "Hay un gran poder en la ambigüedad, y\n"
-	.string "muchos la utilizan con fines malignos.$"
+	.string "There's power in the unknown, and many\n"
+	.string "pervert it for evil.$"
 
 Goldenrod_RadioTowerP6_NPC_4::
 lock
@@ -108,10 +107,9 @@ release
 end
 
 Goldenrod_RadioTowerP6_NPC_4_Texto_1:
-	.string "A esta zona no entra cualquiera.$"
+	.string "Not anyone can get in here.$"
 
 Goldenrod_RadioTowerP6_NPC_4_Texto_2:
-	.string "Si estás aquí, y estás hablando\n"
-	.string "conmigo, es porque formas parte de la\l"
-	.string "élite, ¿no?$"
+	.string "Standing here, talking to me, means you\n"
+	.string "could only be among the elite, no?$"
 

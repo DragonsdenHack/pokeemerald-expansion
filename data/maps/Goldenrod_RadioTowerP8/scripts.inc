@@ -8,9 +8,9 @@ release
 end
 
 Goldenrod_RadioTowerP8_NPC2_Texto_1:
-	.string "La gente solía llevar ropa normal entre\n"
-	.string "semana y atuendo formal los domingos.\l"
-	.string "Hoy sucede exactamente lo contrario.$"
+	.string "People here dress casually across the\n"
+	.string "week, but go formal on Sunday.\p"
+	.string "Today though, it's vice versa.$"
 
 Goldenrod_RadioTowerP8_NPC3::
 lock
@@ -21,20 +21,14 @@ release
 end
 
 Goldenrod_RadioTowerP8_NPC3_Texto_1:
-	.string "Reté a esa chica pelirroja; me\n"
-	.string "sorprendió ver que alguien tan joven\l"
-	.string "formaba parte de los de arriba.$"
+	.string "I took on that red-headed chick, but\n"
+	.string "wow, who'd have thought someone that\n"
+	.string "young would already be part of the\l"
+	.string "elite?$"
 
 Goldenrod_RadioTowerP8_NPC3_Texto_2:
-	.string "Al pelear con ella lo comprendí, se me\n"
-	.string "han quitado las ganas de retar a nadie\l"
-	.string "más…$"
-
-
-	
-	msgbox AzaleaPkmnCenter_Text_1, MSGBOX_DEFAULT
-	release
-	end
+	.string "I came to an understanding in our\n"
+	.string "battle, and I just can't do it anymore.$"
 
 Goldenrod_RadioTowerP8_NPC4::
     lock
@@ -57,24 +51,22 @@ release
 end
 
 Goldenrod_RadioTowerP8_NPC4_Texto_1:
-	.string "Estamos estudiando la viabilidad de un\n"
-	.string "lejano POKÉMON para reforzar la\l"
-	.string "seguridad. Puedo darte un pequeño\l"
-	.string "ejemplar de muestra. Toma.$"
+	.string "We've been studying the possibility of\n"
+	.string "including a foreign POKÉMON in security.\n"
+	.string "Have one for yourself. Take it.$"
 
 Goldenrod_RadioTowerP8_NPC4_Texto_2:
-.string "¡OBTUVISTE UN LILLIPUP AL NV.15!$"
+.string "YOU OBTAINED A LVL.15 LILLIPUP!$"
 
 Goldenrod_RadioTowerP8_NPC4_Texto_3:
-	.string "Se ha demostrado que STOUTLAND es un\n"
-	.string "fantástico POKÉMON para nuestros\l"
-	.string "policías, el problema es que solemos ser\l"
-	.string "reticentes a lo nuevo.$"
+	.string "It's been demonstrated that STOUTLAND\n"
+	.string "is a great POKÉMON for the POLICE.\n"
+	.string "However, we are resilient to change.$"
 
 Goldenrod_RadioTowerP8_NPC4_Texto_4:
-	.string "POKÉMON como MANECTRIC o ARCANINE son\n"
-	.string "más fáciles de integrar en JOHTO debido\l"
-	.string "a la cercanía con esas regiones.$"
+	.string "POKÉMON like MANECTRIC and ARCANINE\n"
+	.string "are easy to get in here, all thanks to\n"
+	.string "being close to their home regions.$"
 
 Goldenrod_RadioTowerP8_NPC5::
 lock
@@ -87,20 +79,21 @@ release
 end
 
 Goldenrod_RadioTowerP8_NPC5_Texto_1:
-	.string "Estás en el Piso 7. Aquí nos encargamos\n"
-	.string "de optimizar el rendimiento de las ondas\l"
-	.string "de radio.$"
+	.string "This is the seventh floor. Here, we're in\n"
+	.string "charge of optimizing the radio waves'\n"
+	.string "performance in the best way possible.$"
 
 Goldenrod_RadioTowerP8_NPC5_Texto_2:
-	.string "Puedes ver en los letreros la función\n"
-	.string "destinada a cada piso.$"
+	.string "You can see a sign post on every floor\n"
+	.string "that describes the main job of each\n"
+	.string "one.$"
 
 Goldenrod_RadioTowerP8_NPC5_Texto_3:
-	.string "Gracias a nuestras investigaciones,\n"
-	.string "directivos poderosos y trajeados como\l"
-	.string "tú podrán tener POKÉMON cada vez más\l"
-	.string "fuertes solo con apretar un botón, ¿no\l"
-	.string "es genial?$"
+	.string "Thanks to your investigations,\n"
+	.string "powerful executives enveloped in a suit\n"
+	.string "will be able to get stronger and\l"
+	.string "stronger POKÉMON with just pressing a\l"
+	.string "button. Isn't it great?$"
 
 Goldenrod_RadioTowerP8_Proton_Move_1:
 emote_exclamation_mark
@@ -240,87 +233,86 @@ walk_in_place_up
 step_end
 
 Goldenrod_RadioTowerP8_Proton_Texto_1:
-	.string "PROTÓN: Cuánto tiempo, {PLAYER}.$"
+	.string "PROTON: Long time no see, {PLAYER}.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_2:
-	.string "Ya me había acostumbrado a verte por\n"
-	.string "BASE PROFUNDA, ahora que estás en\l"
-	.string "JOHTO no será así.$"
+	.string "I used to see you around the DEEP\n"
+	.string "BASE… Now that you'll be moving to\n"
+	.string "JOHTO, I won't see you that often.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_3:
-	.string "Yo también estaré un tiempo por aquí.\n"
-	.string "ATLAS me ha pedido que monitorice la\l"
-	.string "seguridad de TORRE RADIO, y me gane la\l"
-	.string "confianza de su DIRECTOR.$"
+	.string "I'll be sticking around for a while.\n"
+	.string "ARCHER put me in charge of the security\n"
+	.string "of the RADIO TOWER. Also, I gained the\l"
+	.string "trust of the DIRECTOR.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_4:
-	.string "Estamos usando técnicas y protocolos\n"
-	.string "de lo más modernos, e importando\l"
-	.string "POKÉMON de otras regiones.$"
+	.string "We're using quite advanced techniques\n"
+	.string "and protocols. Also, we're importing\n"
+	.string "POKÉMON from various regions.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_5:
 	.string "Mmm…$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_6:
-	.string "¿Sabes una cosa?$"
+	.string "You know…$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_7:
-	.string "GIOVANNI está teniendo una pequeña\n"
-	.string "charla más arriba, antes de la gran\l"
-	.string "reunión, así que tenemos tiempo.$"
+	.string "GIOVANNI is having a little chat\n"
+	.string "upstairs, just before the big meeting,\n"
+	.string "so we got time.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_8:
-	.string "¡Aún sigo siendo un ROCKET!\n"
-	.string "¡Deja que te muestre cómo han\l"
-	.string "evolucionado mis POKÉMON!$"
+	.string "I'm still a ROCKET! Let me show you how\n"
+	.string "my POKÉMON are now!$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_9:
-	.string "Así que los tuyos también\n"
-	.string "han evolucionado…$"
+	.string "So yours grew too, huh…$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_10:
-	.string "Parece que JOHTO te está fortaleciendo\n"
-	.string "aún más. Dime, ¿qué opinas de TRIGAL?$"
+	.string "Seems like JOHTO is toughing you up\n"
+	.string "even more, isn't it? Say, what do you\n"
+	.string "think about GOLDENROD?$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_11:
-	.string "Hace una década era otra ciudad.\n"
-	.string "En los últimos años se está abriendo al\l"
-	.string "mundo, y no solo TRIGAL: toda JOHTO.$"
+	.string "Ten years ago, it was a completely\n"
+	.string "different place. For the last few years,\n"
+	.string "it's opening itself to the world. And not\l"
+	.string "only GOLDENROD, but the whole of JOHTO.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_12:
-	.string "Es como si lo moderno y lo antiguo\n"
-	.string "compitieran por el espíritu de la\l"
-	.string "región.$"
+	.string "It's as if both the old and the new\n"
+	.string "competed for the spirit of the region.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_13:
-	.string "TORRE RADIO es símbolo de lo moderno, y\n"
-	.string "su DIRECTOR se encarga de estar a la\l"
-	.string "altura.$"
+	.string "The RADIO TOWER is a symbol of the\n"
+	.string "modern era; the DIRECTOR himself will\n"
+	.string "ensure it stands tall and moves\l"
+	.string "forward.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_14:
-	.string "Ahora importa POKÉMON de HOENN,\n"
-	.string "contrata a CIENTÍFICOS de SINNOH, y,\l"
-	.string "por supuesto, a EJECUTIVOS ROCKET de\l"
-	.string "KANTO para su seguridad.$"
+	.string "Now, there he is, importing HOENN's\n"
+	.string "POKÉMON and hiring SINNOH's scientists\n"
+	.string "and, of course, ROCKET EXECUTIVES as\l"
+	.string "security.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_15:
-	.string "Lo mejor de cada región, ¿no? Parece\n"
-	.string "que nos ha tocado vivir tiempos\l"
-	.string "interesantes.$"
+	.string "The best of each place, don't you\n"
+	.string "think? Seems like we're up to very\n"
+	.string "interesting times.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_16:
-	.string "Pero te dejo. No quiero que ATLAS me\n"
-	.string "eche la bronca después.$"
+	.string "Let's cut things short though. I don't\n"
+	.string "want ARCHER to get mad at you.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_17:
-	.string "Ahora eres ADMIN.JEFE, tienes cosas\n"
-	.string "más importantes que hacer.$"
+	.string "Now that you're BOSS ADMIN, you've got\n"
+	.string "much better things to do.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_18:
-	.string "Este lugar me gusta. No me importaría\n"
-	.string "quedarme aquí durante un tiempo, las\l"
-	.string "vistas son magníficas y esta ciudad\l"
-	.string "tiene de todo.$"
+	.string "I like it here. I may stay a few days.\n"
+	.string "The views are delightful, and this city\n"
+	.string "has everything one needs.$"
 
 
 

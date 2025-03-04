@@ -245,149 +245,149 @@ walk_left
 step_end
 
 CinnabarMansionS1_Dalia_Texto_1:
-	.string "Así que fuiste tú.$"
+	.string "So it was you.$"
 
 CinnabarMansionS1_Dalia_Texto_2:
-	.string "De no ser por ti, todo ahora sería\n"
-	.string "diferente. El plan para recuperar KANTO\l"
-	.string "era perfecto.$"
+	.string "If it weren't for you, everything would\n"
+	.string "be different. The plan for restoring\n"
+	.string "KANTO was perfect.$"
 
 CinnabarMansionS1_Dalia_Texto_3:
-	.string "Pero te empeñaste en hacer algo que\n"
-	.string "nadie esperaba, en el peor momento\l"
-	.string "posible.$"
+	.string "But you did the unexpected. At the\n"
+	.string "worst possible moment.$"
 
 CinnabarMansionS1_Dalia_Texto_4:
-	.string "Ahora estamos aquí recluidos, huyendo\n"
-	.string "de la misma región que íbamos a salvar.$"
+	.string "And here we are, fleeing from the very\n"
+	.string "region we were going to save.$"
 
 CinnabarMansionS1_Dalia_Texto_5:
-	.string "En esencia buscábamos exactamente lo\n"
-	.string "mismo, pero solo uno puede ganar, ¿no?$"
+	.string "If we think about it, we both sought\n"
+	.string "the same thing. But there's room for\n"
+	.string "just one winner, isn't there?$"
 
 CinnabarMansionS1_Dalia_Texto_6:
-	.string "Si así debe ser, te haremos frente.$"
+	.string "If we must, we'll fight for that space.$"
 
 CinnabarMansionS1_Dalia_Texto_7:
-	.string "Es en estos meses cuando mi abuelo ha\n"
-	.string "recogido los frutos de años de trabajo.\l"
-	.string "Una nueva era se avecina.$"
+	.string "In these last months, GRANDPA's\n"
+	.string "harvested the fruits of years of labor.\n"
+	.string "A new era's finally come.$"
 
 CinnabarMansionS1_Dalia_Texto_8:
-	.string "¡Vas a verlo por ti mismo!$"
+	.string "Then bear witness to it!!$"
 
 CinnabarMansionS1_Dalia_Texto_9:
-	.string "¿TAUROS-X fue derrotado?$"
+	.string "What?! TAUROS-X… defeated?!$"
 
 CinnabarMansionS1_Dalia_Texto_10:
-	.string "Mmm… no en vano lograste lo que\n"
-	.string "lograste. Un clon optimizado por sí solo\l"
-	.string "no te hará caer.$"
+	.string "Mmm… In the end, you're here for a\n"
+	.string "reason. An upgraded clone alone won't\n"
+	.string "be enough to back you down.$"
 
 CinnabarMansionS1_Dalia_Texto_11:
-	.string "Hay algo en eso que me agrada, de algún\n"
-	.string "modo reivindicas el pasado y lo viejo\l"
-	.string "con ello.$"
+	.string "There's something I like about you.\n"
+	.string "Somehow, you stand for the past and\n"
+	.string "the antique alike.$"
 
 CinnabarMansionS1_Dalia_Texto_12:
 	.string "… …$"
 
 CinnabarMansionS1_Dalia_Texto_13:
-	.string "Mi hermano era demasiado joven, pero yo\n"
-	.string "aún recuerdo los últimos duelos que tu\l"
-	.string "JEFE y mi abuelo mantuvieron. Antes de\l"
-	.string "que todo explotara.$"
+	.string "My brother was too young, but I still\n"
+	.string "recall the battles between GRANDPA and\n"
+	.string "your BOSS… before it all burst open.$"
 
 CinnabarMansionS1_Dalia_Texto_14:
-	.string "Fueron magníficos para la época,\n"
-	.string "¿sabes? Exprimieron al máximo lo que los\l"
-	.string "150 originales podían ofrecer.$"
+	.string "They were magnificent for the era, you\n"
+	.string "know. They'd drawn out the best from\n"
+	.string "the original 150.$"
 
 CinnabarMansionS1_Dalia_Texto_15:
 	.string "… …$"
 
 CinnabarMansionS1_Dalia_Texto_16:
-	.string "Y al final, cada uno intentó\n"
-	.string "salvar la región a su modo.$"
+	.string "In the end, both tried to save the\n"
+	.string "region… in their own ways.$"
 
 CinnabarMansionS1_Dalia_Texto_17:
-	.string "Mi abuelo desde dentro,\n"
-	.string "y GIOVANNI desde fuera.$"
+	.string "GRANDPA from the inside, and\n"
+	.string "GIOVANNI from the outside.$"
 
 CinnabarMansionS1_Dalia_Texto_18:
 	.string "… …$"
 
 CinnabarMansionS1_Dalia_Texto_19:
-	.string "¿Crees que le traicionó?$"
+	.string "Betrayed, you say?$"
 
 CinnabarMansionS1_Dalia_Texto_20:
-	.string "No sabes nada, {PLAYER}.$"
+	.string "You don't get it, do you, {PLAYER}?$"
 
 CinnabarMansionS1_Dalia_Texto_21:
-	.string "Señalar a GIOVANNI como el culpable era\n"
-	.string "la única salida posible, ¿no lo\l"
-	.string "entiendes?$"
+	.string "Blaming GIOVANNI as the only culprit\n"
+	.string "was the only way, don't you understand?$"
 
 CinnabarMansionS1_Dalia_Texto_22:
-	.string "Solo así LANCE podría confiar en uno de\n"
-	.string "los dos: los únicos con una opción real\l"
-	.string "de recuperar KANTO.$"
+	.string "Then and only then would LANCE trust\n"
+	.string "entirely in one of them: the only ones\n"
+	.string "with the real chance of recovering\l"
+	.string "KANTO.$"
 
 CinnabarMansionS1_Dalia_Texto_23:
-	.string "Además.$"
+	.string "Besides.$"
 
 CinnabarMansionS1_Dalia_Texto_24:
-	.string "Mi abuelo conocía a GIOVANNI mejor que\n"
-	.string "nadie; sabía que tendría la fortaleza\l"
-	.string "para seguir y la inteligencia para\l"
-	.string "trazar un nuevo plan, alternativo al\l"
-	.string "suyo.$"
+	.string "GRANDPA knew GIOVANNI better than\n"
+	.string "anyone; he knew he'd have the strength\n"
+	.string "to keep going no matter what with an\l"
+	.string "alternate plan, brilliant on its own and\l"
+	.string "separate from his.$"
 
 CinnabarMansionS1_Dalia_Texto_25:
-	.string "Hizo lo que había que hacer para seguir\n"
-	.string "manteniendo vivas las esperanzas de\l"
-	.string "KANTO, nada más.$"
+	.string "He did what needed to be done to keep\n"
+	.string "KANTO's flames of hope alive, just that.$"
 
 CinnabarMansionS1_Dalia_Texto_26:
-	.string "Y en el fondo, tu LÍDER sabe que es así.\n"
-	.string "Sabe los verdaderos motivos.$"
+	.string "And, deep inside, you know your LEADER\n"
+	.string "knows it. He knows the true reasons.$"
 
 CinnabarMansionS1_Dalia_Texto_27:
-	.string "Lo cierto es que su rivalidad nunca\n"
-	.string "acabó. OAK la salvó, solo que…$"
+	.string "The truth is that their rivalry never\n"
+	.string "came to an end. GRANDPA saved it.\n"
+	.string "However…$"
 
 CinnabarMansionS1_Dalia_Texto_28:
-	.string "…la competición era ahora por algo\n"
-	.string "mucho más grande que un título: el\l"
-	.string "destino de una región estaba en juego.$"
+	.string "… No, it's not about a tournament nor a\n"
+	.string "title… We're gambling on the future of\n"
+	.string "this region.$"
 
 CinnabarMansionS1_Dalia_Texto_29:
-	.string "Ahora que ya lo han logrado,\n"
-	.string "el resto no importa.$"
+	.string "Now that they've accomplished that…\n"
+	.string "nothing else matters.$"
 
 CinnabarMansionS1_Dalia_Texto_30:
-	.string "Todo vuelve a reducirse a saber quién\n"
-	.string "es el mejor ENTRENADOR. ¿Crees serlo?$"
+	.string "Everything comes again to who's the\n"
+	.string "better TRAINER. You think you are that\n"
+	.string "one?$"
 
 CinnabarMansionS1_Dalia_Texto_31:
-	.string "¡Obtuviste LLAVE S1 MANSIÓN!$"
+	.string "YOU GOT BASEMENT B1 KEY!$"
 
 CinnabarMansionS1_Dalia_Texto_32:
-	.string "En ese caso, sigue avanzando.$"
+	.string "Well then, keep going.$"
 
 CinnabarMansionS1_Dalia_Texto_33:
-	.string "Con su actual equipo, ningún CAMPEÓN en\n"
-	.string "la historia de KANTO o JOHTO podría\l"
-	.string "derrotar a mi abuelo.$"
+	.string "With his current team, not a single\n"
+	.string "CHAMPION across KANTO and JOHTO's\n"
+	.string "history could beat GRANDPA.$"
 
 CinnabarMansionS1_Dalia_Texto_34:
-	.string "Ese fue su sueño de niño. Ahora que lo\n"
-	.string "ha cumplido, querrá medir sus fuerzas\l"
-	.string "con el actual CAMPEÓN.$"
+	.string "That was his childhood dream. Now that\n"
+	.string "he's done it, he's raring to go\n"
+	.string "toe-to-toe with today's CHAMPION.$"
 
 CinnabarMansionS1_Dalia_Texto_35:
-	.string "Cuando os derrote a todos, las cosas\n"
-	.string "volverán a su cauce… por fin.$"
+	.string "When he defeats everyone, things will\n"
+	.string "get back to normal… at last.$"
 
 CinnabarMansionS1_Dalia_Derrotada::
 lock
@@ -428,9 +428,9 @@ release
 end
 
 Cinnabar_S1_Llave_Texto_2:
-	.string "¿Quieres usar la LLAVE S1 MANSIÓN?$"
+	.string "Wanna use BASEMENT B1 KEY?$"
 
 Cinnabar_S1_Llave_Texto_1:
-	.string "Se requiere de una llave especial.$"
+	.string "You require a special KEY.$"
 
 

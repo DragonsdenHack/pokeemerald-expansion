@@ -634,146 +634,143 @@ face_left
 step_end
 
 LavenderRadioP2_Evento_Elm_Texto_1:
-	.string "ATLAS: Será algo revolucionario,\n"
-	.string "no hay duda.$"
+	.string "ARCHER: It'll be revolutionary, there's\n"
+	.string "no doubt about that.$"
 
 LavenderRadioP2_Evento_Elm_Texto_2:
-	.string "ELM: ¡Ah, {PLAYER}!\n"
-	.string "Ya has llegado.$"
+	.string "ELM: Oh, {PLAYER}, at last.$"
 
 LavenderRadioP2_Evento_Elm_Texto_3:
-	.string "ATLAS: Me alegra verte por aquí,\n"
+	.string "ARCHER: Glad to see you around,\n"
 	.string "{PLAYER}.$"
 
 LavenderRadioP2_Evento_Elm_Texto_4:
-	.string "Tal vez tu cabeza no terminaba de\n"
-	.string "creerlo, pero ahora tus ojos los ven y lo\l"
-	.string "confirman: la TORRE RADIO ha llegado a\l"
-	.string "PUEBLO LAVANDA.$"
+	.string "You may not have believed it yet, but\n"
+	.string "now you can see it with your very own\n"
+	.string "eyes: the RADIO TOWER is here, in\l"
+	.string "LAVENDER TOWN.$"
 
 LavenderRadioP2_Evento_Elm_Texto_5:
-	.string "Una nueva era en el entendimiento de\n"
-	.string "cómo funciona un POKÉMON se avecina.$"
+	.string "A new era of the understanding of\n"
+	.string "POKÉMON is to arrive.$"
 
 LavenderRadioP2_Evento_Elm_Texto_6:
-	.string "Íbamos a celebrar su inauguración en la\n"
-	.string "azotea, con una pequeña demostración\l"
-	.string "de nuestra tecnología de ondas de\l"
-	.string "radio más puntera.$"
+	.string "We were going to celebrate its grand\n"
+	.string "opening on the rooftop, with a\n"
+	.string "demonstration of the power of radio\l"
+	.string "waves.$"
 
 LavenderRadioP2_Evento_Elm_Texto_7:
-	.string "Pero el incidente con los MOTORISTAS ha\n"
-	.string "trastocado estos planes.$"
+	.string "But the incident with the BIKERS has\n"
+	.string "affected these plans.$"
 
 LavenderRadioP2_Evento_Elm_Texto_8:
-	.string "La ceremonia se mantendrá, pero solo\n"
-	.string "para unos pocos.$"
+	.string "The event will be held as scheduled…\n"
+	.string "but only briefly.$"
 
 LavenderRadioP2_Evento_Elm_Texto_9:
-	.string "ANDRA y tú aún no habéis visto este\n"
-	.string "lugar al completo, de modo que\l"
-	.string "asistiréis a su inauguración.$"
+	.string "Neither of you nor ANDRA have seen the\n"
+	.string "whole place, so you'll be attending the\n"
+	.string "grand opening.$"
 
 LavenderRadioP2_Evento_Elm_Texto_10:
-	.string "GIOVANNI, PETREL, KOGA y yo estaremos\n"
-	.string "ocupados; nos reuniremos con los\l"
-	.string "MOTORISTAS en ZONA SAFARI.$"
+	.string "GIOVANNI, PETREL, KOGA and me, we'll\n"
+	.string "be busy talking to the BIKERS in the\n"
+	.string "SAFARI ZONE.$"
 
 LavenderRadioP2_Evento_Elm_Texto_11:
-	.string "Hemos acordado adaptar el lugar a las\n"
-	.string "nuevas condiciones que aún están por\l"
-	.string "negociar.$"
+	.string "We've agreed on adapting the place for\n"
+	.string "some new conditions that are yet to be\n"
+	.string "agreed on.$"
 
 LavenderRadioP2_Evento_Elm_Texto_12:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderRadioP2_Evento_Elm_Texto_13:
-	.string "Tal vez{PAUSE 25}…{PAUSE 25} dimos por sentado que esta era\n"
-	.string "la KANTO perfecta, la que todos\l"
-	.string "querían.$"
+	.string "Maybe… we thought this was the perfect\n"
+	.string "KANTO wanted by all of us.$"
 
 LavenderRadioP2_Evento_Elm_Texto_14:
-	.string "Puede que, desde lo alto de esta torre,\n"
-	.string "o en la profundidad de nuestras bases,\l"
-	.string "nos resulte más difícil ver la realidad\l"
-	.string "a pie de calle.$"
+	.string "But the truth is that, whether it is on\n"
+	.string "the top or a few meters under the\n"
+	.string "ground, we aren't as capable of knowing\l"
+	.string "how things are on the streets.$"
 
 LavenderRadioP2_Evento_Elm_Texto_15:
-	.string "No obstante, nada de lo dicho anula una\n"
-	.string "verdad elemental, más poderosa que\l"
-	.string "cualquier conjetura.$"
+	.string "However, not a single thing of what I\n"
+	.string "said can nullify an elementary truth.$"
 
 LavenderRadioP2_Evento_Elm_Texto_16:
-	.string "El progreso es imposible sin cambio.$"
+	.string "There is no progress without change.$"
 
 LavenderRadioP2_Evento_Elm_Texto_17:
-	.string "ELM: ATLAS tiene razón. Todo lo que\n"
-	.string "aquí hemos logrado no hubiera sido\l"
-	.string "posible sin sacrificios.$"
+	.string "ELM: ARCHER is right. Everything we did\n"
+	.string "here came with a sacrifice.$"
 
 LavenderRadioP2_Evento_Elm_Texto_18:
-	.string "¿Recuerdas nuestro primer encuentro?\n"
-	.string "Acababas de pisar JOHTO por primera\l"
-	.string "vez, y era una agradable mañana en\l"
-	.string "RUTA 29.$"
+	.string "Remember the day we met? Ages ago,\n"
+	.string "when you stepped on JOHTO for the\n"
+	.string "first time.$"
 
 LavenderRadioP2_Evento_Elm_Texto_19:
-	.string "Ya ahí tenías muchas vivencias\n"
-	.string "y experiencias a tus espaldas.$"
+	.string "You already had a lot of experience and\n"
+	.string "have lived through a lot.$"
 
 LavenderRadioP2_Evento_Elm_Texto_20:
-	.string "A pesar de ello, has seguido creciendo\n"
-	.string "más y más.$"
+	.string "In spite of that, you kept growing and\n"
+	.string "learning even more.$"
 
 LavenderRadioP2_Evento_Elm_Texto_21:
-	.string "Es sorprendente, pero{PAUSE 25}…{PAUSE 25} tu progreso\n"
-	.string "como ENTRENADOR ha sido proporcional\l"
-	.string "al de todos nuestros avances.$"
+	.string "It truly is outstanding, but your\n"
+	.string "progress as a TRAINER and our\n"
+	.string "scientific advancements paralleled one\l"
+	.string "another.$"
 
 LavenderRadioP2_Evento_Elm_Texto_22:
-	.string "Ese día te di la MEGAPULSERA,\n"
-	.string "¿recuerdas? En ese entonces, era lo\l"
-	.string "último en tecnología.$"
+	.string "The day I gave you that MEGA RING, you\n"
+	.string "remember? Back then, it was peak\n"
+	.string "technology.$"
 
 LavenderRadioP2_Evento_Elm_Texto_23:
-	.string "Ahora, poco más de un año después, me\n"
-	.string "complace volver a hacerte entrega de lo\l"
-	.string "más puntero del momento.$"
+	.string "Now, barely a year later, I'm giving you\n"
+	.string "today's peak technology!$"
 
 LavenderRadioP2_Evento_Elm_Texto_24:
-	.string "¡Has obtenido una PULSERA Z!$"
+	.string "You received a Z-RING!$"
 
 LavenderRadioP2_Evento_Elm_Texto_25:
-	.string "Imita los efectos de un poderoso\n"
-	.string "artefacto, característico de una\l"
-	.string "lejana región. Con él podrás ejecutar\l"
-	.string "una fabulosa mecánica en combate.$"
+	.string "It replicates the effects of a powerful\n"
+	.string "artifact from a region far far away.\n"
+	.string "With it, you will be able to execute a\l"
+	.string "great mechanic while battling.$"
 
 LavenderRadioP2_Evento_Elm_Texto_26:
-	.string "Me consta que DEVON ya había logrado\n"
-	.string "sintetizarla antes.$"
+	.string "Although I have a report that indicates\n"
+	.string "that DEVON made it before us.$"
 
 LavenderRadioP2_Evento_Elm_Texto_27:
-	.string "Gracias a la PULSERA Z, y llevando el\n"
-	.string "respectivo CRISTAL Z equipado en tu\l"
-	.string "POKÉMON, podrás ejecutar un movimiento\l"
-	.string "de una potencia excepcional.$"
+	.string "Thanks to the Z-RING, you'll be able to\n"
+	.string "execute a Z MOVE of the TYPE of the\n"
+	.string "crystal your POKÉMON is holding. A Z\l"
+	.string "MOVE is an insanely powerful move.$"
 
 LavenderRadioP2_Evento_Elm_Texto_28:
-	.string "En el piso de arriba podrás comprar\n"
-	.string "todos los movimientos Z elementales.$"
+	.string "Upstairs you can buy the elemental Z\n"
+	.string "crystals.$"
 
 LavenderRadioP2_Evento_Elm_Texto_29:
-	.string "A partir de ahora, será una nueva\n"
-	.string "variable a tener en cuenta.$"
+	.string "Now if x and y aren't enough, there you\n"
+	.string "got a z.$"
+
 
 LavenderRadioP2_Evento_Elm_Texto_30:
-	.string "Algo{PAUSE 15}…{PAUSE 15} peligroso e impredecible, capaz de\n"
-	.string "abrir huecos en muchos equipos que\l"
-	.string "hasta ahora considerábamos sólidos.$"
+	.string "Something… dangerous and\n"
+	.string "unpredictable, capable of tearing apart\n"
+	.string "teams and defenses that, until now, we\l"
+	.string "considered them invulnerable.$"
 
 LavenderRadioP2_Evento_Elm_Texto_31:
-	.string "Solo espero que{PAUSE 25}…{PAUSE 25} tal y como has hecho\n"
-	.string "hasta ahora, no te quedes atrás, que\l"
-	.string "seas capaz de adaptarte. Me entiendes,\l"
-	.string "¿verdad?$"
+	.string "In the end… I only hope that, as you did\n"
+	.string "so far, you keep your pace and your\n"
+	.string "adaptability. You get what I'm trying to\l"
+	.string "say, right?$"

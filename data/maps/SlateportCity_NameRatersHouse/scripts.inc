@@ -342,8 +342,8 @@ release
 end
 
 Lavender_Motes_Activador_Entrada_Pasa_Text_YesNo:
-	.string "Debajo del MAPA está\n"
-	.string "el antiguo CEMENTERIO.\l"
-	.string "¿Quieres usar la LLAVE TRAMPILLA?$"
+	.string "Under the MAP, there's the OLD\n"
+	.string "GRAVEYARD. Wanna use the TRAPDOOR'S\n"
+	.string "KEY?$"
 
 

@@ -15,9 +15,9 @@ release
 end
 
 Goldenrod_RadioTowerP9_NPC5_Texto_1:
-	.string "Legal o ilegal, creativo o destructivo,\n"
-	.string "mientras algo genere ganancias siempre\l"
-	.string "tiene posibilidades de florecer.$"
+	.string "Legal, illegal, creative, destructive…\n"
+	.string "If it makes some cash, it will prosper\n"
+	.string "here.$"
 
 Goldenrod_RadioTowerP9_NPC7::
 lock
@@ -27,9 +27,9 @@ release
 end
 
 Goldenrod_RadioTowerP9_NPC7_Texto_1:
-	.string "Mientras el perfeccionismo traza\n"
-	.string "caminos rectos, la senda del genio es\l"
-	.string "sinuosa.$"
+	.string "The perfection road is plain and\n"
+	.string "straight; the genius' one, is devious\n"
+	.string "and uncertain.$"
 
 Goldenrod_RadioTowerP9_Llave_1::
 msgbox Goldenrod_RadioTowerP10_Llave_1_Texto_1, MSGBOX_AUTOCLOSE
@@ -130,19 +130,19 @@ release
 end
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_1:
-	.string "¿Es usted {PLAYER}? Venga un\n"
-	.string "momento.$"
+	.string "Excuse me, sir. You are {PLAYER},\n"
+	.string "aren't you? I need you to come with me.$"
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_2:
-	.string "La seguridad a partir de este punto es\n"
-	.string "aún más estricta. Para seguir\l"
-	.string "necesitará una llave específica.$"
+	.string "The security from now on is more strict.\n"
+	.string "If you want to go upstairs, you'll need\n"
+	.string "this special key.$"
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_3:
-	.string "¡{PLAYER} obtuvo LLAVE RADIO!$"
+	.string "{PLAYER} obtained RADIO KEY!$"
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_4:
-	.string "Buena suerte.$"
+	.string "Good luck.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Move_1:
 walk_in_place_left
@@ -399,101 +399,101 @@ delay_8
 step_end
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_1:
-	.string "????: Jamás pudimos imaginar que al\n"
-	.string "otro lado del MT.PLATEADO ocurrieran\l"
-	.string "tales atrocidades.$"
+	.string "????: We would never imagine that such\n"
+	.string "things had occurred on the other side\n"
+	.string "of MT. SILVER.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_2:
-	.string "ATLAS: Puede que no conocieran los\n"
-	.string "detalles, maestro.$"
+	.string "ARCHER: Maybe it's because you didn't\n"
+	.string "know all the details.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_3:
-	.string "Pero si no lo hacían, ¡era simplemente\n"
-	.string "porque no querían saberlos!$"
+	.string "But what if they didn't want to\n"
+	.string "acknowledge them all?$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_4:
-	.string "GIOVANNI: Es suficiente, ATLAS.$"
+	.string "GIOVANNI: Enough, ARCHER.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_5:
-	.string "No hay duda de que el M.DRAGÓN se\n"
-	.string "siente culpable.$"
+	.string "There's no doubt that the DRAGON\n"
+	.string "MASTER feels guilty.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_6:
-	.string "Cometió un grave error al pensar que\n"
-	.string "LANCE continuaría con su legado, al\l"
-	.string "confiar en que se mantendría puro y\l"
-	.string "virtuoso, y en que respetaría la\l"
-	.string "tradición, aplicando todo lo aprendido\l"
-	.string "en ENDRINO con justicia y sabiduría…$"
+	.string "He was wrong when he thought that\n"
+	.string "LANCE would continue his legacy,\n"
+	.string "trusting and hoping that he would stay\l"
+	.string "on the right path, pure and virtuous,\l"
+	.string "respecting tradition and all of what he\l"
+	.string "learned back in ECRUTEAK.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_7:
-	.string "Eso fue lo que hizo usted, y su maestro\n"
-	.string "antes, así por incontables\l"
-	.string "generaciones. Entiendo que no hubiera\l"
-	.string "motivos para prever lo contrario.$"
+	.string "At least this is what you did. As well as\n"
+	.string "your master before you and his master\n"
+	.string "before him. I understand you: there was\l"
+	.string "no way to predict it could happen\l"
+	.string "otherwise.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_8:
-	.string "M.DRAGÓN: Fui incapaz de ver{PAUSE 15}…{PAUSE 15} en lo que\n"
-	.string "se estaba convirtiendo.$"
+	.string "DRAGON MASTER: I was blind… and I\n"
+	.string "didn't see what he was turning into…$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_9:
-	.string "GIOVANNI: Lo fácil sería\n"
-	.string "responsabilizar a toda JOHTO por\l"
-	.string "permitir a LANCE subir al poder.$"
+	.string "GIOVANNI: Now, the easy way is to blame\n"
+	.string "the whole region of JOHTO for letting\n"
+	.string "LANCE get into power.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_10:
-	.string "Pero{PAUSE 15}…{PAUSE 15} si esta región cae, KANTO tampoco\n"
-	.string "florecerá.$"
+	.string "However… If this region falls apart…\n"
+	.string "KANTO will be doomed to the same fate.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_11:
-	.string "Necesitamos la ayuda de JOHTO.$"
+	.string "We need the aid of JOHTO.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_12:
-	.string "Y no espero obtenerla aplicando\n"
-	.string "rigurosas condenas sobre ancianos que\l"
-	.string "hicieron oídos sordos.$"
+	.string "And I'll gain nothing from rendering\n"
+	.string "judgment on the elderly pretending to\n"
+	.string "be deaf-mutes.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_13:
-	.string "No porque no les importe KANTO, sino\n"
-	.string "porque su verdadera ocupación ha sido\l"
-	.string "combatir.$"
+	.string "And not because they don't care about\n"
+	.string "KANTO, but because of their true way:\n"
+	.string "battling.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_14:
-	.string "Seguir el antiguo camino del\n"
-	.string "ENTRENADOR: el mismo que exige alejarse\l"
-	.string "de asuntos mundanos. ¿Cómo podría ser\l"
-	.string "eso condenable?$"
+	.string "To follow the old way of the TRAINER,\n"
+	.string "that exact one that requires escaping\n"
+	.string "from the mundane. How on earth could\l"
+	.string "this be punishable?$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_15:
-	.string "ATLAS: …$"
+	.string "ARCHER: …$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_16:
-	.string "M.DRAGÓN: La tendrán. Tendrán mi ayuda.$"
+	.string "DRAGON MASTER: Fine. I will help you.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_17:
-	.string "Pero{PAUSE 15}…{PAUSE 15} no a costa de olvidar\n"
-	.string "quienes somos.$"
+	.string "But… I refuse to forget who we are and\n"
+	.string "where we have come from.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_18:
-	.string "ATLAS: Señor{PAUSE 25}…{PAUSE 25} Puedo entender lo del\n"
-	.string "M.DRAGÓN. ¡¿Pero LANCE?!$"
+	.string "ARCHER: Sir… I can understand the\n"
+	.string "MASTER, but LANCE?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_19:
-	.string "Si dependiera de mí…$"
+	.string "If only it depended on me…$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_20:
-	.string "GIOVANNI: Aún no alcanzas a ver las\n"
-	.string "consecuencias de todo esto.$"
+	.string "GIOVANNI: You can't yet see all the\n"
+	.string "consequences that this implies.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_21:
-	.string "ATLAS: ¿Qué quieres decir?$"
+	.string "ARCHER: What do you mean, sir?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_22:
-	.string "GIOVANNI: No te preocupes{PAUSE 25}…{PAUSE 25}\n"
-	.string "El verdadero castigo de LANCE\l"
-	.string "está por llegar.$"
+	.string "GIOVANNI: You needn't worry… LANCE's\n"
+	.string "true punishment is yet to arrive.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_23:
-	.string "Ahora, subamos. Hay temas más urgentes\n"
-	.string "por tratar, y solo faltamos nosotros,\l"
-	.string "además de {PLAYER}.$"
+	.string "Now, let's get moving. There are things\n"
+	.string "far more important to discuss, and only\n"
+	.string "{PLAYER} and us are left.$"

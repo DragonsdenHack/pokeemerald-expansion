@@ -9,9 +9,9 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_1_Texto_1:
-	.string "Fruto del estudio de las ondas estamos\n"
-	.string "descubriendo también muchos nuevos\l"
-	.string "movimientos, algunos muy interesantes.$"
+	.string "By studying radio waves, we're\n"
+	.string "discovering new moves, some of them we\n"
+	.string "find quite interesting.$"
 
 Goldenrod_RadioTowerP10_NPC_2::
 lock
@@ -23,14 +23,14 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_2_Texto_1:
-	.string "El poder de un LEGENDARIO menor puede\n"
-	.string "ser rebasado mediante tecnología.$"
+	.string "The power of a MINOR LEGENDARY can be\n"
+	.string "surpassed by technology.$"
 
 Goldenrod_RadioTowerP10_NPC_2_Texto_2:
-	.string "Pero el de un LEGENDARIO mayor, como el\n"
-	.string "de LUGIA o HO-OH, jamás creo que quede\l"
-	.string "obsoleto, por mucho que se incrementen\l"
-	.string "los estándares de poder.$"
+	.string "But a MAJOR one like LUGIA or HO-OH…\n"
+	.string "Well, that's a whole different story,\n"
+	.string "and I doubt they will be surpassed this\l"
+	.string "easily.$"
 
 Goldenrod_RadioTowerP10_NPC_3::
 lock
@@ -42,13 +42,11 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_3_Texto_1:
-	.string "El DIRECTOR invierte mucho en\n"
-	.string "seguridad.$"
+	.string "The DIRECTOR invests a lot in security.$"
 
 Goldenrod_RadioTowerP10_NPC_3_Texto_2:
-	.string "Aun así, es una minúscula fracción\n"
-	.string "comparada con todo lo que TORRE RADIO\l"
-	.string "genera.$"
+	.string "Yet it is a very low percentage of the\n"
+	.string "whole budget of this tower.$"
 
 Goldenrod_RadioTowerP10_NPC_4::
 lock
@@ -58,8 +56,8 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_4_Texto_1:
-	.string "Justo arriba está la zona de reuniones\n"
-	.string "de… los de arriba.$"
+	.string "Above us is the meeting room for...\n"
+	.string "those who are above us.$"
 
 Goldenrod_RadioTowerP10_NPC_5::
 lock
@@ -73,16 +71,17 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_1:
-	.string "A su servicio, ADMIN.JEFE {PLAYER}.$"
+	.string "At your service sir, BOSS ADMIN\n"
+	.string "{PLAYER}.$"
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_2:
-	.string "Soy uno de los EJECUTIVOS más\n"
-	.string "poderosos del TEAM ROCKET.$"
+	.string "I am but one of the most powerful\n"
+	.string "ROCKET EXECUTIVES.$"
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_3:
-	.string "GIOVANNI me destinó aquí. Como muestra\n"
-	.string "de la unión entre JOHTO y KANTO, no dudó\l"
-	.string "en destinar recursos a TORRE RADIO.$"
+	.string "GIOVANNI put me in here. As a sign of\n"
+	.string "the KANTO-JOHTO union, he didn't\n"
+	.string "hesitate to fund the RADIO TOWER.$"
 
 Goldenrod_RadioTowerP10_NPC_6::
 lock
@@ -92,9 +91,9 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_6_Texto_1:
-	.string "SILPH, TORRE RADIO y el TEAM ROCKET son\n"
-	.string "el triunvirato moderno de KANTO y\l"
-	.string "JOHTO.$"
+	.string "SILPH, the RADIO TOWER, and TEAM\n"
+	.string "ROCKET are the triumvirate of the new\n"
+	.string "KANTO-JOHTO.$"
 
 Goldenrod_RadioTowerP10_NPC_7::
 lock
@@ -118,27 +117,27 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_1:
-	.string "La CENIZA SAGRADA es muy rara. Pero hay\n"
-	.string "algunas partes del cuerpo de HO-OH\l"
-	.string "extremadamente raras, que no quedaron\l"
-	.string "reducidas a polvo.$"
+	.string "SACRED ASH is very rare to see. On the\n"
+	.string "other hand, there are some parts of\n"
+	.string "HO-OH's body that are extremely rare.\l"
+	.string "Parts that weren't reduced to dust.$"
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_2:
-	.string "Es lo que se conoce como ALA ARCOÍRIS.\n"
-	.string "Toma.$"
+	.string "It is known as the RAINBOW WING. Here\n"
+	.string "you are.$"
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_3:
-.string "¡OBTUVISTE UNA ALA ARCOÍRIS!$"
+.string "YOU OBTAINED A RAINBOW WING!$"
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_4:
-	.string "En nuestros estudios concluímos que la\n"
-	.string "ALA ARCOÍRIS potencia en un 20% el\l"
-	.string "ATAQUE y la DEFENSA de HO-OH.$"
+	.string "Our studies have concluded that this\n"
+	.string "item can increase HO-OH's attack and\n"
+	.string "defense by 20%.$"
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_5:
-	.string "En la práctica es imposible, pero si\n"
-	.string "tuvieras uno, sería una gran opción\l"
-	.string "para este POKÉMON sagrado.$"
+	.string "In reality, it's impossible, but if you\n"
+	.string "managed to get a HO-OH, you'd have a\n"
+	.string "great battler.$"
 
 Goldenrod_RadioTowerP10_Llave_1::
 msgbox Goldenrod_RadioTowerP10_Llave_1_Texto_1, MSGBOX_AUTOCLOSE
@@ -177,7 +176,7 @@ release
 end
 
 Goldenrod_RadioTowerP10_Llave_1_Texto_1:
-.string "Usaste la LLAVE RADIO.$"
+.string "You used the RADIO KEY.$"
 
 
 

@@ -116,56 +116,58 @@ emote_exclamation_mark
 step_end
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_1:
-	.string "Entonces{PAUSE 15}…{PAUSE 15} mantuviste tu voluntad\n"
-	.string "intacta.$"
+	.string "Then{PAUSE 15}…{PAUSE 15} you kept your will as it was.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_2:
-	.string "Y eso te ha llevado hasta aquí.$"
+	.string "And it led you here.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_3:
-	.string "Observa. Estás en el núcleo de KANTO.$"
+	.string "Look around. You're nowhere else but\n"
+	.string "the core of the whole KANTO region.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_4:
-	.string "Un lugar tan antiguo como la propia\n"
-	.string "región, paralizado en el tiempo, y ajeno\l"
-	.string "a todo lo que fuera de él ocurra.$"
+	.string "A place as old as the region itself,\n"
+	.string "timeless and blind to everything beyond\n"
+	.string "its borders.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_5:
-	.string "Así es. El corazón que late en KANTO no\n"
-	.string "está ni en los despachos de SILPH ni en\l"
-	.string "la sede del CG de MESETA AÑIL.$"
+	.string "That's it. The beating heart of KANTO is\n"
+	.string "neither SILPH's offices nor the INDIGO\n"
+	.string "HQ.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_6:
-	.string "Solo aquí los dioses del mundo POKÉMON\n"
-	.string "te juzgarán. No en la LIGA POKÉMON, no\l"
-	.string "como CAMPEÓN.$"
+	.string "Here and only here you shall be judged\n"
+	.string "by the GODS of this world. Not in the\n"
+	.string "LEAGUE, nor as a CHAMPION.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_7:
-	.string "Vamos, {PLAYER}. Haz que se ruboricen,\n"
-	.string "¡que vean lo que eres capaz de hacer\l"
-	.string "con las reglas que ellos mismos crearon!$"
+	.string "Come on, {PLAYER}. Make them blush!\n"
+	.string "Show them how you bend to your\n"
+	.string "advantage those same rules they\l"
+	.string "created!$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_8:
-	.string "¡Honra a este lugar con\n"
-	.string "un combate inolvidable!$"
+	.string "Honor this place with a battle that\n"
+	.string "shall be remembered forever and ever!$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_9:
-	.string "La esencia{PAUSE 25}…{PAUSE 25} la esencia es frágil.$"
+	.string "Essence{PAUSE 25}…{PAUSE 25} Essence is fragile.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_10:
-	.string "No. No estás aquí por casualidad.$"
+	.string "No. You're not here by coincidence.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_11:
-	.string "Rompiste las cadenas de la KANTO de\n"
-	.string "LANCE, y ahora un mundo de\l"
-	.string "posibilidades te espera.$"
+	.string "You'd rent asunder the chains of\n"
+	.string "LANCE's KANTO, and a realm of potential\n"
+	.string "is open to you.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_12:
-	.string "Ni en tus más descabellados sueños\n"
-	.string "podrías imaginar todo lo que te\l"
-	.string "aguarda, todo lo que aún te queda por\l"
-	.string "ver y vivir. KANTO será testigo de ello.$"
+	.string "Not even in your insanest dreams you'd\n"
+	.string "have imagined what awaits you, what you\n"
+	.string "have still to live, see, and feel. KANTO\l"
+	.string "will be a witness to every single bit of\l"
+	.string "it.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_13:
-	.string "Pero recuerda{PAUSE 35}…{PAUSE 35} la esencia\n"
-	.string "puede malograrse.$"
+	.string "But keep in mind{PAUSE 35}…{PAUSE 35} that essence can be\n"
+	.string "corrupted.$"

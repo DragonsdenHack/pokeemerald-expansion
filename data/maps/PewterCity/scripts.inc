@@ -235,55 +235,54 @@ PewterCity_3_Texto_1:
 	.string "… …$"
 
 PewterCity_3_Texto_2:
-	.string "Oh, espera.$"
+	.string "Oh, hold up.$"
 
 PewterCity_3_Texto_3:
-	.string "¡Tú eres del TEAM ROCKET!$"
+	.string "You're from TEAM ROCKET!$"
 
 PewterCity_3_Texto_4:
-	.string "Por tu apariencia debes\n"
-	.string "ser un pez gordo, ¿verdad?$"
+	.string "And you look like a big fish. Ain't you?$"
 
 PewterCity_3_Texto_5:
-	.string "¿Me ayudarías con algo muy importante?$"
+	.string "Now, mind helping me with some\n"
+	.string "business?$"
 
 PewterCity_3_Texto_6:
-	.string "Mmm, vaya. De todos modos, no creo\n"
-	.string "que una sola persona pueda.$"
+	.string "Mmm… I see. Anyway, I don't think this is\n"
+	.string "a one-man job.$"
 
 PewterCity_3_Texto_7:
-	.string "¿De verdad? No puedo creerlo,\n"
-	.string "ahora vuelvo a tener esperanzas.$"
+	.string "Seriously, man? I can't believe it!\n"
+	.string "Now that's the ticket.$"
 
 PewterCity_3_Texto_8:
-	.string "La cuestión es la siguiente: yo antes\n"
-	.string "trabajaba en CIUDAD CARMÍN. Tenía un\l"
-	.string "gran jardín, mucho mejor que este y en\l"
-	.string "el que crecían bayas y especias de lo\l"
-	.string "más raras.$"
+	.string "Okay, listen up. A few days back, I had\n"
+	.string "this job in VERMILION. I had this garden\n"
+	.string "that drawfed the one here, and it was\l"
+	.string "sprawling with weird berries and spices.$"
 
 PewterCity_3_Texto_9:
-	.string "Yo las vendía a muy buen precio, y todos\n"
-	.string "estaban contentos; los entrenadores\l"
-	.string "apreciaban mucho mi trabajo.$"
+	.string "I used to sell them for a big cut, and\n"
+	.string "everyone liked my products.$"
 
 PewterCity_3_Texto_10:
-	.string "Pero todo eso se acabó al poco de\n"
-	.string "entrar LANCE al poder.$"
+	.string "But everything changed when that\n"
+	.string "LANCE took control.$"
 
 PewterCity_3_Texto_11:
-	.string "Me expropió las tierras, y puso a unos\n"
-	.string "matones de JOHTO a su cargo.$"
+	.string "His government expropriated my lands,\n"
+	.string "then got some goons from JOHTO to\n"
+	.string "regulate them.$"
 
 PewterCity_3_Texto_12:
-	.string "Ahora se dedican a recolectar los\n"
-	.string "frutos de mi jardín, y venderlos a\l"
-	.string "precio de oro fuera de KANTO.$"
+	.string "Now they're harvesting the actual\n"
+	.string "fruits of my labor to export them\n"
+	.string "outside the region for record-breaking\l"
+	.string "profits.$"
 
 PewterCity_3_Texto_13:
-	.string "Te espero en CIUDAD CARMÍN. El lugar no\n"
-	.string "tiene pérdida, es una de las casas que\l"
-	.string "conectan con RUTA 6.$"
+	.string "I'll catch you in VERMILLION. The place\n"
+	.string "is connected directly to ROUTE 6.$"
 
 
 PewterCity_Petrel_2::

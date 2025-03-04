@@ -18,8 +18,8 @@ release
 end
 
 VermilionCity_Jardin_Cazabichos_Pelea_Texto_1:
-	.string "¡Mirad lo que habéis hecho con mi jardín!\n"
-	.string "¡No tenéis perdón!$"
+	.string "Look at this mess! I'll be delusional if\n"
+	.string "I forgive you for this…$"
 
 VermilionCity_Jardin_Warp::
 lock
@@ -324,129 +324,126 @@ face_right
 step_end
 
 VermilionCity_Jardin_Final_Texto_1:
-	.string "¿Y tú de dónde has salido?$"
+	.string "And who are you supposed to be?$"
 
 VermilionCity_Jardin_Final_Texto_2:
-	.string "La explotación de estas tierras a\n"
-	.string "nuestro cargo, está avalada y aprobada\l"
-	.string "por el mismísimo LANCE.$"
+	.string "LANCE himself approved the\n"
+	.string "exploitation of these grounds, which\n"
+	.string "are now under our possession.$"
 
 VermilionCity_Jardin_Final_Texto_3:
-	.string "Prestamos un gran servicio a JOHTO. El\n"
-	.string "COMITÉ de la LIGA POKÉMON determinó\l"
-	.string "que los ciudadanos de KANTO no eran\l"
-	.string "aptos para el uso y disfrute de los\l"
-	.string "frutos que aquí se producen.$"
+	.string "We're providing a great service to\n"
+	.string "JOHTO. The LEAGUE COMMITTEE concluded\n"
+	.string "that KANTO's citizens are not suitable\l"
+	.string "for the products that we're making\l"
+	.string "here.$"
 
 VermilionCity_Jardin_Final_Texto_4:
-	.string "¡¿Tienes algún problema con eso o qué?!$"
+	.string "Got a problem with that?!$"
 
 VermilionCity_Jardin_Final_Texto_5:
-	.string "Así que… ¿se acabó el privar de\n"
-	.string "recursos a esta región? ¿Vas a\l"
-	.string "devolverle lo que le pertenece por\l"
-	.string "derecho propio?$"
+	.string "So, privatizing resources is over? Are\n"
+	.string "you returning to the people what\n"
+	.string "rightfully belongs to them?$"
 
 VermilionCity_Jardin_Final_Texto_6:
-	.string "¿Tú quién te has creído?\n"
-	.string "¿El salvador de KANTO?$"
+	.string "And what are you then?\p"
+	.string "Some savior of KANTO?$"
 
 VermilionCity_Jardin_Final_Texto_7:
-	.string "Si aquí se va a privar de algo va a ser a\n"
-	.string "ti de tus POKÉMON, ¡después de\l"
-	.string "aplastarte los usaremos como abono!$"
+	.string "If there's any reclamation to be had,\n"
+	.string "it's your team into our hands. You all\n"
+	.string "can contribute, all right, as fertilizer!$"
 
 VermilionCity_Jardin_Final_Texto_8:
-	.string "¡Es imposible!$"
+	.string "Ah! This is impossible!$"
 
 VermilionCity_Jardin_Final_Texto_9:
-	.string "¡¿De dónde sales tú?! ¡Pondré a LANCE al\n"
-	.string "tanto de esto!$"
+	.string "Where'd you come from?! LANCE'll be the\n"
+	.string "first to know of this!$"
 
 VermilionCity_Jardin_Final_Texto_10:
 	.string "… …$"
 
 VermilionCity_Jardin_Final_Texto_11:
-	.string "¡¿TEAM ROCKET?! ¿Eres un alto cargo y\n"
-	.string "conoces al LÍDER en persona?$"
+	.string "TEAM ROCKET?! A HIGH RANK one and… you\n"
+	.string "know the ROCKET BOSS personally?!$"
 
 VermilionCity_Jardin_Final_Texto_12:
 	.string "… …$"
 
 VermilionCity_Jardin_Final_Texto_13:
-	.string "¡Eh, espera!$"
+	.string "Okay… hold up there, buddy!$"
 
 VermilionCity_Jardin_Final_Texto_14:
-	.string "¡Ha sido un malentendido! ¡No hace falta\n"
-	.string "que le digas nada a tu JEFE! ¡Nos iremos\l"
-	.string "de aquí!$"
+	.string "We just got off on the wrong foot!\n"
+	.string "There's no need to get your BOSS\n"
+	.string "involved. We'll just be on our way!$"
 
 VermilionCity_Jardin_Final_Texto_15:
-	.string "Le diré a LANCE que estas tierras se\n"
-	.string "han echado a perder, ¿vale?$"
+	.string "I'll just tell LANCE these lands have\n"
+	.string "gone all sour here. Sound fair?$"
 
 VermilionCity_Jardin_Final_Texto_16:
-	.string "Ese estúpido CAZABICHOS puede\n"
-	.string "quedarse con ellas si quiere, ¿todo\l"
-	.string "bien?$"
+	.string "That stupid BUG CATCHER can keep them\n"
+	.string "if he wants, okay?$"
 
 VermilionCity_Jardin_Final_Texto_17:
-	.string "¡Entonces me vuelvo a JOHTO! ¡Prefiero\n"
-	.string "alistarme como MARINERO en CIUDAD\l"
-	.string "OLIVO a ser el más rico de TORRE\l"
-	.string "POKÉMON!$"
+	.string "I'm returning to JOHTO! The hectic life\n"
+	.string "of the sea tugs at me way more than\n"
+	.string "some embossed tombstone in the\l"
+	.string "POKÉMON TOWER!$"
 
 VermilionCity_Jardin_Final_Texto_18:
-	.string "¡No puedo creerlo, lo has logrado!$"
+	.string "I can't believe it! You actually did it!$"
 
 VermilionCity_Jardin_Final_Texto_19:
-	.string "He visto a ese HOUNDOOM. Mis bichos\n"
-	.string "jamás hubieran tenido oportunidad; si\l"
-	.string "he podido recuperar mi jardín es\l"
-	.string "gracias a ti.$"
+	.string "I saw that HOUNDOOM. It would've\n"
+	.string "roasted my poor BUGs out of their\n"
+	.string "exoskeletons. If I'd recovered my\l"
+	.string "garden, it'd be thanks to you.$"
 
 VermilionCity_Jardin_Final_Texto_20:
-	.string "Fíjate… Esas bayas de arriba no\n"
-	.string "estaban antes.$"
+	.string "Hey, look up there… Those berries\n"
+	.string "weren't there last time.$"
 
 VermilionCity_Jardin_Final_Texto_21:
-	.string "Han plantado muchas más; todo por\n"
-	.string "avaricia y querer ganar lo máximo\l"
-	.string "posible.$"
+	.string "They've planted so much{PAUSE 35}…{PAUSE 35}all of it to\n"
+	.string "squeeze every drop of wealth they\n"
+	.string "could.$"
 
 VermilionCity_Jardin_Final_Texto_22:
 	.string "… …$"
 
 VermilionCity_Jardin_Final_Texto_23:
-	.string "¡Espera! Se me ocurre una forma de\n"
-	.string "recompensarte.$"
+	.string "That's it! I know exactly how I can\n"
+	.string "reward you.$"
 
 VermilionCity_Jardin_Final_Texto_24:
-	.string "Yo volveré aquí y seguiré trabajando\n"
-	.string "esta tierra. Con las bayas de siempre\l"
-	.string "tengo más que suficiente para volver al\l"
-	.string "negocio: esta vez lo haré de forma\l"
-	.string "discreta.$"
+	.string "I'll work the land again. Even with the\n"
+	.string "typical berries, I've got enough to\n"
+	.string "rebuild my business. Just gotta keep it\l"
+	.string "on the down-low.$"
 
 VermilionCity_Jardin_Final_Texto_25:
-	.string "Pero tú puedes venir cuando quieras, y\n"
-	.string "quedarte con los frutos que salgan de\l"
-	.string "la zona norte.$"
+	.string "But drop by whenever you want.\n"
+	.string "Whatever's grown in the northern plots,\n"
+	.string "they're yours for the taking.$"
 
 VermilionCity_Jardin_Final_Texto_26:
-	.string "Son objetos muy preciados por los\n"
-	.string "entrenadores: hay tanto bayas\l"
-	.string "reductoras de EVs como mentas que\l"
-	.string "cambian la naturaleza de los POKÉMON.$"
+	.string "Loads of TRAINERs want these: berries\n"
+	.string "that cut back on your EVs and mints\n"
+	.string "that change the very NATURE of your\l"
+	.string "POKÉMON.$"
 
 VermilionCity_Jardin_Final_Texto_27:
-	.string "Según la temporada, saldrán unas\n"
-	.string "mentas u otras. Te recomiendo pasarte\l"
-	.string "por aquí de vez en cuando, ya que se\l"
-	.string "irán regenerando con el tiempo.$"
+	.string "Depending on the season, mints'll grow\n"
+	.string "one way or another. You should stop by\n"
+	.string "sometime and see what's grown. No\l"
+	.string "worries. They'll grow again someday.$"
 
 VermilionCity_Jardin_Final_Texto_28:
-	.string "Ahora sí, ¡vuelvo al trabajo de verdad!$"
+	.string "And now, I'm back in business for real!$"
 
 VermilionCity_Jardin_Cazabichos_Despues::
 lock
@@ -456,5 +453,5 @@ release
 end
 
 VermilionCity_Jardin_Cazabichos_Despues_Texto_1:
-	.string "¡Hey! ¿Qué tal?\n"
-	.string "¿Te están siendo útiles mis mentas?$"
+	.string "Hey! How've ya been?\n"
+	.string "Finding my mints useful?$"

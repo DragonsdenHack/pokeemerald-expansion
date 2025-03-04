@@ -1522,37 +1522,35 @@ walk_in_place_right
 step_end
 
 Vermilion_Cazabichos_Texto_1:
-	.string "Fíjate, malditos…$"
+	.string "Look at those rats…$"
 
 Vermilion_Cazabichos_Texto_2:
-	.string "Han ocultado la puerta para que todos\n"
-	.string "se olviden de este lugar, y nadie haga\l"
-	.string "preguntas.$"
+	.string "They hid the door so no one would ask\n"
+	.string "questions.$"
 
 Vermilion_Cazabichos_Texto_3:
-	.string "Pero conozco mi casa mejor que ellos.\n"
-	.string "Seguro que la otra entrada…$"
+	.string "But I know every inch of my house.$"
 
 Vermilion_Cazabichos_Texto_4:
-	.string "Como imaginé. Esos gorilas son tan\n"
-	.string "descuidados que la han olvidado.$"
+	.string "Ha! Just as I thought. Those gorillas\n"
+	.string "didn't even see it.$"
 
 Vermilion_Cazabichos_Texto_5:
 	.string "… …$"
 
 Vermilion_Cazabichos_Texto_6:
-	.string "No soy el mejor ENTRENADOR, aunque\n"
-	.string "ayudaré en todo lo que pueda, si con\l"
-	.string "ello nuestras posibilidades aumentan.$"
+	.string "I ain't a good TRAINER, but if lending\n"
+	.string "you a helping hand would make a\n"
+	.string "difference, I'll do it.$"
 
 Vermilion_Cazabichos_Texto_7:
-	.string "Los últimos anuncios de LANCE\n"
-	.string "me hicieron perder la fe.$"
+	.string "Those last announcements LANCE made\n"
+	.string "made me lose my faith.$"
 
 Vermilion_Cazabichos_Texto_8:
-	.string "Pero ahora, al verte, me he dado cuenta\n"
-	.string "de que queda una última opción: usar la\l"
-	.string "fuerza.$"
+	.string "But now that I see you here, I realized\n"
+	.string "we have one last resort: using sheer\n"
+	.string "force.$"
 
 
 Vermilion_Activador_Entrada::
@@ -1576,9 +1574,8 @@ Vermilion_Activador_Entrada_Texto_1:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Vermilion_Activador_Entrada_Pasa_Text_YesNo:
-.string "Por aquí se puede entrar\n"
-	.string "a esta casa.\l"
-	.string "¿Quieres pasar?$"
+	.string "You can access the house via this\n"
+	.string "passage. Wanna go though?$"
 
 Vermilion_Activador_Entrada_Pasa_No::
 release

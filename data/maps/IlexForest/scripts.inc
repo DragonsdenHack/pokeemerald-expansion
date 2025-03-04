@@ -445,88 +445,90 @@ walk_in_place_up
 step_end
 
 IlexForest_Escena_Texto_1:
-	.string "¡Ther!$"
+	.string "Ther!$"
 
 IlexForest_Escena_Texto_2:
-	.string "¡Oh! ¡Estoy impresionado!$"
+	.string "Oh! I'm most impressed!$"
 
 IlexForest_Escena_Texto_3:
-	.string "Tu SCYTHER no para de crecer.$"
+	.string "Your SCYTHER is growing up\n"
+	.string "outstandingly fast!$"
 
 IlexForest_Escena_Texto_4:
-	.string "En los tiempos que corren, ver una joven\n"
-	.string "con esta ilusión es un regalo para la\l"
-	.string "vista, ¡me alegra que los viejos valores\l"
-	.string "aún perduran!$"
+	.string "It's truly delightful to see a young girl\n"
+	.string "like you with such enthusiasm nowadays.\n"
+	.string "It's relieving that old values still\l"
+	.string "persist in the present time.$"
 
 IlexForest_Escena_Texto_5:
-	.string "Gracias, pero{PAUSE 25}…{PAUSE 25} yo lo sigo viendo igual.$"
+	.string "Thanks, but{PAUSE 25}…{PAUSE 25} I can't tell the\n"
+	.string "difference.$"
 
 IlexForest_Escena_Texto_6:
-	.string "Ah{PAUSE 25}…{PAUSE 25} Sí{PAUSE 25}…{PAUSE 25} Tú lo ves todo el tiempo. No\n"
-	.string "puedes apreciarlo, pero con cada nueva\l"
-	.string "acción, cada combate, tu POKÉMON está\l"
-	.string "cambiando.$"
+	.string "Yes{PAUSE 25}…{PAUSE 25} Of course{PAUSE 25}…{PAUSE 25} You see it all the time.\n"
+	.string "You can't appreciate it, but every\n"
+	.string "action, every decision, every battle… is\l"
+	.string "making a great difference.$"
 
 IlexForest_Escena_Texto_7:
-	.string "¿Eso quiere decir que en algún momento\n"
-	.string "será un KLEAVOR como el de CÉSAR?$"
+	.string "Does that mean that I'll have a\n"
+	.string "KLEAVOR, just like KURT's?$"
 
 IlexForest_Escena_Texto_8:
-	.string "¡Oh! ¡Si supieras por lo que CÉSAR pasó\n"
-	.string "antes de evolucionar a su SCYTHER!$"
+	.string "Oh, if you just knew all the things he\n"
+	.string "went through before he could evolve his\n"
+	.string "SCYTHER!$"
 
 IlexForest_Escena_Texto_9:
-	.string "Solo lo logró tras viajar por toda\n"
-	.string "JOHTO, tras desvelar todos los\l"
-	.string "secretos que la región esconde. No\l"
-	.string "antes.$"
+	.string "Only after traveling to every corner of\n"
+	.string "the region, unveiling every secret and\n"
+	.string "not a moment before, could he do it.$"
 
 IlexForest_Escena_Texto_10:
-	.string "Pero{PAUSE 25}…{PAUSE 25} yo aún no he llegado siquiera a\n"
-	.string "desvelar los secretos del ENCINAR…\l"
-	.string "¿cómo podré llegar a eso?$"
+	.string "But{PAUSE 25}…{PAUSE 25} I don't even know all the secrets\n"
+	.string "of this ILEX FOREST… How could I\n"
+	.string "possibly do that!$"
 
 IlexForest_Escena_Texto_11:
-	.string "El camino del entrenador requiere\n"
-	.string "tiempo y sacrificio, solo así podrás\l"
-	.string "sembrar raíces fuertes, que no cedan\l"
-	.string "ante la adversidad.$"
+	.string "The TRAINER's way requires both time\n"
+	.string "and sacrifice. Only then will you sow\n"
+	.string "strong roots, roots that will stand\l"
+	.string "against any adversity.$"
 
 IlexForest_Escena_Texto_12:
-	.string "Acumular energía y poner ilusión, como\n"
-	.string "tú en este SCYTHER, nunca es fútil,\l"
-	.string "nunca en vano. Siempre está regando\l"
-	.string "algo.$"
+	.string "This energy, this emotion; the one\n"
+	.string "you're putting into your SCYTHER is\n"
+	.string "never a futile action. It will always\l"
+	.string "have a meaning.$"
 
 IlexForest_Escena_Texto_13:
-	.string "Esa es la esencia de los grandes\n"
-	.string "maestros de JOHTO.$"
+	.string "That's but the essence of the greatest\n"
+	.string "masters in JOHTO.$"
 
 IlexForest_Escena_Texto_14:
 	.string "Oh…$"
 
 IlexForest_Escena_Texto_15:
-	.string "Tú, jovencita{PAUSE 25}…{PAUSE 25} tienes todo lo que hace\n"
-	.string "falta: tiempo y talento.$"
+	.string "You, young girl{PAUSE 25}…{PAUSE 25} You have everything\n"
+	.string "that's needed: both time and talent.$"
 
 IlexForest_Escena_Texto_16:
-	.string "JOHTO te espera, y depende de ti acudir\n"
-	.string "a su llamada. ¿Acudirás?$"
+	.string "JOHTO is awaiting you…\p"
+	.string "Will you come to its call?$"
 
 IlexForest_Escena_Texto_17:
-	.string "¡Claro que acudiré!$"
+	.string "Of course, I will!$"
 
 IlexForest_Escena_Texto_18:
-	.string "En ese caso{PAUSE 35}…{PAUSE 35} ¡JOHTO te observa!\n"
-	.string "¡Jo, jo, jo!$"
+	.string "Well, in that case{PAUSE 35}…{PAUSE 35} JOHTO is observing\n"
+	.string "you! Ho, ho, ho!$"
 
 IlexForest_Escena_Texto_19:
-	.string "Vamos, SCYTHER.\n"
-	.string "¡La grandeza nos espera!$"
+	.string "Come on, SCYTHER.\n"
+	.string "Greatness awaits us!$"
 
 IlexForest_Escena_Texto_20:
-	.string "¡Ther!$"
+	.string "Ther!$"
 
 IlexForest_Escena_Despues_Move_1:
 walk_in_place_down
@@ -1053,199 +1055,195 @@ walk_down
 step_end
 
 IlexForest_Escena_Despues_Texto_1:
-	.string "¡SCYTHER! ¡Otra vez!$"
+	.string "SCYTHER! Again!$"
 
 IlexForest_Escena_Despues_Texto_2:
-	.string "¡Ther!$"
+	.string "Ther!$"
 
 IlexForest_Escena_Despues_Texto_3:
-	.string "Maldita sea{PAUSE 25}…{PAUSE 25}$"
+	.string "Darn it all{PAUSE 25}…{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_4:
-	.string "¿Por qué estoy ahora empeorando? ¿Y\n"
-	.string "por qué me siento más cansada que hace\l"
-	.string "tan solo unas semanas?$"
+	.string "Why am I getting worse at this? And why\n"
+	.string "do I feel more tired than a few weeks\n"
+	.string "ago?$"
 
 IlexForest_Escena_Despues_Texto_5:
-	.string "Nunca creí que las leyes\n"
-	.string "del mundo fueran tan duras.$"
+	.string "I never thought the laws of the\n"
+	.string "POKÉMON WORLD were so harsh.$"
 
 IlexForest_Escena_Despues_Texto_6:
-	.string "Es como si estuviera anclada a la\n"
-	.string "tierra. Estoy aún tan lejos de esos\l"
-	.string "grandes maestros y, sin embargo, ya\l"
-	.string "estancada.$"
+	.string "Feels like I'm so bogged down. There's\n"
+	.string "so much more to go before I reach the\n"
+	.string "level of the masters… but I'm already\l"
+	.string "stuck in a rut!$"
 
 IlexForest_Escena_Despues_Texto_7:
-	.string "Las cuentas no salen{PAUSE 25}…{PAUSE 25}$"
+	.string "The math's just not adding up{PAUSE 25}…{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_8:
-	.string "¿Será una prueba?$"
+	.string "Could it be some kind of trial?$"
 
 IlexForest_Escena_Despues_Texto_9:
-	.string "Pero{PAUSE 35}…{PAUSE 35} si de verdad JOHTO está\n"
-	.string "observándome, no se siente.$"
+	.string "But{PAUSE 35}…{PAUSE 35} if JOHTO truly is observing me… I'm\n"
+	.string "not feeling it at all.$"
 
 IlexForest_Escena_Despues_Texto_10:
 	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 IlexForest_Escena_Despues_Texto_11:
-	.string "¡Ey, chica!$"
+	.string "Yo, girl!$"
 
 IlexForest_Escena_Despues_Texto_12:
-	.string "¿Quieres ser guay como nosotros?$"
+	.string "Wanna be cool like us?$"
 
 IlexForest_Escena_Despues_Texto_13:
-	.string "¿A qué te refieres?$"
+	.string "Huh? What do you mean?$"
 
 IlexForest_Escena_Despues_Texto_14:
-	.string "Hemos oído todo ese rollo del -camino\n"
-	.string "del Entrenador- que ese anciano te ha\l"
-	.string "soltado.$"
+	.string "We heard all that crap 'bout that\n"
+	.string "“TRAINER's way” that old man told ya.$"
 
 IlexForest_Escena_Despues_Texto_15:
-	.string "Nosotros podemos enseñarte el\n"
-	.string "verdadero camino. ¿Has estado en\l"
-	.string "CIUDAD TRIGAL?$"
+	.string "We can show you the true way. Ever been\n"
+	.string "in GOLDENROD CITY?$"
 
 IlexForest_Escena_Despues_Texto_16:
-	.string "No, soy de PUEBLO AZALEA.$"
+	.string "No, I'm from AZALEA TOWN.$"
 
 IlexForest_Escena_Despues_Texto_17:
-	.string "Vaya, ese SCYTHER parece muy fuerte.\n"
-	.string "Nosotros teníamos uno, ¿sabes que en\l"
-	.string "TRIGAL venden una piedra para\l"
-	.string "evolucionarlo a SCIZOR?$"
+	.string "Woah, that SCYTHER's built as hell. We\n"
+	.string "had one too. You know that in\n"
+	.string "GOLDENROD, they sell a stone that\l"
+	.string "evolves it to SCIZOR?$"
 
 IlexForest_Escena_Despues_Texto_18:
-	.string "¡¿De verdad?!$"
+	.string "Really?!$"
 
 IlexForest_Escena_Despues_Texto_19:
-	.string "Aunque{PAUSE 15}…{PAUSE 15} he visto varios SCIZOR;\n"
-	.string "KLEAVOR, únicamente el de CÉSAR.$"
+	.string "Though{PAUSE 15}…{PAUSE 15} I've seen many SCIZOR… but\n"
+	.string "only one KLEAVOR: KURT's.$"
 
 IlexForest_Escena_Despues_Texto_20:
-	.string "¿KLEAVOR?$"
+	.string "KLEAVOR?$"
 
 IlexForest_Escena_Despues_Texto_21:
-	.string "Jovencita. Tienes cualquier POKÉMON\n"
-	.string "que desees al alcance de tu mano. No\l"
-	.string "solo SCIZOR, también hay\l"
-	.string "PSEUDOLEGENDARIOS, INICIALES,\l"
-	.string "POKÉMON exóticos…$"
+	.string "Girl. You got whatever 'MON you want in\n"
+	.string "the palm of your hand. Not only SCIZOR,\n"
+	.string "you got PSEUDOs, STARTERs, some exotic,\l"
+	.string "foreign 'MONs… Your pick!$"
 
 IlexForest_Escena_Despues_Texto_22:
-	.string "¿¡Qué!?$"
+	.string "WHAT!?$"
 
 IlexForest_Escena_Despues_Texto_23:
-	.string "¡Y no te olvides de PORYGON! Si compras\n"
-	.string "sus complementos, ¡puedes tener un\l"
-	.string "PORYGON-Z directamente!$"
+	.string "And don't forget uncle PORYGON! If you\n"
+	.string "get some stuff too, you can get a\n"
+	.string "PORYGON-Z in the blink of an eye!$"
 
 IlexForest_Escena_Despues_Texto_24:
-	.string "¡¿Sin entrenarlo nada?!$"
+	.string "No training!?$"
 
 IlexForest_Escena_Despues_Texto_25:
-	.string "¡Por supuesto! ¡Ahora cualquier novato\n"
-	.string "puede tener un equipo completo de\l"
-	.string "POKÉMON evolucionados!$"
+	.string "Sure thing! Now anyone can have a fully\n"
+	.string "evolved team. No matter how noob they\n"
+	.string "are!$"
 
 IlexForest_Escena_Despues_Texto_26:
-	.string "¡Oh!$"
+	.string "Oh!$"
 
 IlexForest_Escena_Despues_Texto_27:
-	.string "Cortando árboles aquí vas a quedar\n"
-	.string "agotada, ¿y todo para qué? A ese ritmo,\l"
-	.string "pasarán años antes de que alcances un\l"
-	.string "nivel considerable.$"
+	.string "If you keep chucking wood like this,\n"
+	.string "you'll end up dead tired. And all that\n"
+	.string "for what? Like this, you'll need years\l"
+	.string "to reach some serious gains.$"
 
 IlexForest_Escena_Despues_Texto_28:
-	.string "Tenéis razón{PAUSE 35}…{PAUSE 35} el mundo ha cambiado. Si\n"
-	.string "no aprovecho estas herramientas, ¡me\l"
-	.string "quedaré atrás!$"
+	.string "That's right{PAUSE 35}…{PAUSE 35} The world's moving on. If I\n"
+	.string "don't hurry and catch up, I'll just get\n"
+	.string "left behind.$"
 
 IlexForest_Escena_Despues_Texto_28.1:
-	.string "Así se habla.\n"
-	.string "Serás tan guay como cualquiera.$"
+	.string "Now that's the ticket! You'll be cooler\n"
+	.string "than a COOL TRAINER.$"
 
 IlexForest_Escena_Despues_Texto_29:
-	.string "Espera aquí, SCYTHER. ¿O tal vez\n"
-	.string "debería decir SCIZOR?$"
+	.string "Wait here, SCYTHER.\p"
+	.string "Or should I call you SCIZOR?$"
 
 IlexForest_Escena_Despues_Texto_30:
-	.string "¡TRIGAL! ¡Allá vamos!$"
+	.string "GOLDENROD, let's go!$"
 
 IlexForest_Escena_Despues_Texto_31:
-	.string "????: Así que EL ENCINAR{PAUSE 15}…{PAUSE 15}$"
+	.string "????: So this is the ILEX FOREST{PAUSE 15}…{PAUSE 15}$"
 
 IlexForest_Escena_Despues_Texto_32:
-	.string "La leyenda dice que un poderoso\n"
-	.string "guardián protege este bosque.$"
+	.string "A mighty warden is said to\n"
+	.string "guard this forest.$"
 
 IlexForest_Escena_Despues_Texto_33:
-	.string "Me pregunto qué ocurrirá si\n"
-	.string "agito un poco las aguas.$"
+	.string "So pray tell, what might ripple if I were\n"
+	.string "to stir the waters here?$"
 
 IlexForest_Escena_Despues_Texto_34:
-	.string "¡Ram!$"
+	.string "Ram!$"
 
 IlexForest_Escena_Despues_Texto_35:
-	.string "Aunque, pensándolo mejor{PAUSE 15}…{PAUSE 15}$"
+	.string "But on second thought{PAUSE 15}…{PAUSE 15}$"
 
 IlexForest_Escena_Despues_Texto_36:
-	.string "Las leyendas acaban decepcionando.$"
+	.string "These legends end up dissapointing.$"
 
 IlexForest_Escena_Despues_Texto_37:
-	.string "La gran mayoría sangra como todos. Solo\n"
-	.string "que{PAUSE 25}…{PAUSE 25} tuvieron la suerte de no llegar a\l"
-	.string "hacerlo en presencia de otros.$"
+	.string "The masses bleed at the slightest\n"
+	.string "touch. That said{PAUSE 25}…{PAUSE 25} some bear the\n"
+	.string "fortune of upholding their bravado\l"
+	.string "before their fellows.$"
 
 IlexForest_Escena_Despues_Texto_38:
-	.string "Esos otros fueron los que tan a la\n"
-	.string "ligera otorgaron ese estatus a\l"
-	.string "cualquier legendario menor.$"
+	.string "Those were the ones that easily gave\n"
+	.string "this status to any MINOR LEGENDARY.$"
 
 IlexForest_Escena_Despues_Texto_39:
-	.string "Puedes estar tranquilo, leyenda del\n"
-	.string "bosque. No me interesa exponer tus\l"
-	.string "vergüenzas.$"
+	.string "Still your heart, legend of the forest.\n"
+	.string "I've no interest in exposing your shame.$"
 
 IlexForest_Escena_Despues_Texto_40:
-	.string "La única leyenda de verdad me espera.$"
+	.string "The only true legend awaits me.$"
 
 IlexForest_Escena_Despues_Texto_41:
-	.string "¡Ther!$"
+	.string "Ther!$"
 
 IlexForest_Escena_Despues_Texto_42:
-	.string "¿Hmm? No parece un SCYTHER\n"
-	.string "convencional.$"
+	.string "Hmm… That SCYTHER isn't among the\n"
+	.string "average ilk.$"
 
 IlexForest_Escena_Despues_Texto_43:
-	.string "Mejor o peor entrenado. Bendecido o no,\n"
-	.string "es irrelevante.$"
+	.string "Trained or lousy. Blessed or otherwise.\n"
+	.string "Neither matter.$"
 
 IlexForest_Escena_Despues_Texto_44:
-	.string "¡Ther!$"
+	.string "Ther!$"
 
 IlexForest_Escena_Despues_Texto_45:
-	.string "De modo que{PAUSE 25}…{PAUSE 25} ¿te empeñas en ignorar\n"
-	.string "tus propios límites?$"
+	.string "So{PAUSE 25}…{PAUSE 25} you care not regardless? You still\n"
+	.string "aim to overcome your boundaries?$"
 
 IlexForest_Escena_Despues_Texto_46:
-	.string "En ese caso, te los mostraré;\n"
-	.string "considéralo un regalo.$"
+	.string "So be it. I shall show you.\p"
+	.string "Consider it your final rites.$"
 
 IlexForest_Escena_Despues_Texto_47:
-	.string "¡Ram!$"
+	.string "Ram!$"
 
 IlexForest_Escena_Despues_Texto_48:
-	.string "Tratar de suplir con coraje una\n"
-	.string "diferencia de base insalvable. Absurdo.$"
+	.string "Compensating for the gulf between your\n"
+	.string "STATs with mere willpower. How boorish.$"
 
 IlexForest_Escena_Despues_Texto_49:
-	.string "Tal es la fragilidad de los mortales.$"
+	.string "That is but the fragility of a mortal.$"
 
 IlexForest_Escena_Despues_Texto_50:
-	.string "Ya va siendo hora{PAUSE 35}…{PAUSE 35} de visitar los\n"
-	.string "lugares de JOHTO que de verdad\l"
-	.string "importan.$"
+	.string "Now, the time has come{PAUSE 35}…{PAUSE 35} for me to visit\n"
+	.string "the places that truly matter in this\n"
+	.string "region called JOHTO.$"
