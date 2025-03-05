@@ -44,7 +44,7 @@ end
 
 LavenderTown_Mart_Text_4:
     .string "I'm searching for items that raise\n"
-    .string "the stats of POKÉMON.\p"
+    .string "the STATs of POKÉMON.\p"
     .string "They're effective over the course\n"
     .string "of a single battle.\p"
     .string "X ATTACK, X DEFEND, X SPEED, \n"

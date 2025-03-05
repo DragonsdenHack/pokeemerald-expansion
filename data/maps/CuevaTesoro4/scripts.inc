@@ -204,7 +204,7 @@ CuevaTesoro4_Jefe_Final_Texto_8:
 
 CuevaTesoro4_Jefe_Final_Texto_9:
 	.string "It's not just one of the best at\n"
-	.string "distributing its STATS; its\l"
+	.string "distributing its STATs; its\l"
 	.string "regeneration properties and lack of\l"
 	.string "will make it an ideal subject for study.$"
 

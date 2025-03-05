@@ -587,7 +587,7 @@ UndergroundPath_5F_Emboscada_Texto_22:
 	.string "????: Enough.$"
 
 UndergroundPath_5F_Emboscada_Texto_23:
-	.string "Th{PAUSE 15}-the bikers!$"
+	.string "Th{PAUSE 15}-the BIKERS!$"
 
 UndergroundPath_5F_Emboscada_Texto_24:
 	.string "TETSUO: Get the heck outta here before\n"

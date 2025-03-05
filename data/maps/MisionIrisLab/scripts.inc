@@ -124,7 +124,7 @@ MisionIrisLab_Primer_Cientifico_Texto_3:
 	.string "Here, we deal with serious matters. Tell\n"
 	.string "me, have you heard of the law of\l"
 	.string "diminishing returns? Or the\l"
-	.string "optimization of BASE STATS?$"
+	.string "optimization of BASE STATs?$"
 
 MisionIrisLab_Primer_Cientifico_Texto_4:
 	.string "In your region, you have a POKÉMON like\n"

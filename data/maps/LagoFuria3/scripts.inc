@@ -297,7 +297,7 @@ end
 LagoFuria_S3_Cientifico_2_Texto_1:
 	.string "It seems that POKÉMON is fiercer than\n"
 	.string "GYARADOS itself. What do you think its\l"
-	.string "BASE STATS will be?$"
+	.string "BASE STATs will be?$"
 
 
 LagoFuria_S3_Cientifico_3::

@@ -42,7 +42,7 @@ IndigoJohto_Text_3:
 	.string "of KANTO and JOHTO. After JOHTO won\l"
 	.string "the war, it also retained control of\l"
 	.string "ROUTE 26. Perhaps now, as relations\l"
-	.string "improve, this route may once again be\l"
+	.string "improve, this ROUTE may once again be\l"
 	.string "considered a transition between both\l"
 	.string "regions.$"
 

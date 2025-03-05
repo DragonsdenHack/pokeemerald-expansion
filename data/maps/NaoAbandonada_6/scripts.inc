@@ -592,7 +592,7 @@ NaoAbandonada_7_Encuentro_Zafiro_Texto_18:
 
 NaoAbandonada_7_Encuentro_Zafiro_Texto_19:
 	.string "Hmmm… Al final, todo ese malgasto de\n"
-	.string "stats en ese inútil ATAQUE FÍSICO sí\l"
+	.string "STATs en ese inútil ATAQUE FÍSICO sí\l"
 	.string "que pasa factura. El poder desbordante\l"
 	.string "sin control pierde mucha eficiencia.$"
 

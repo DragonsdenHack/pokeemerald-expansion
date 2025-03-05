@@ -254,82 +254,81 @@ MemorialPillar_ChicoOnix_Despues_Texto_1:
 	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_2:
-	.string "A TECTONIX le encantaban las limonadas,\n"
-	.string "me gustaría poder colocar algunas como\l"
-	.string "homenaje.$"
+	.string "TECTONIX used to love lemonade. If only\n"
+	.string "I could place a bottle here as a\n"
+	.string "tribute…$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_3:
-	.string "Pero hace tiempo que dejaron de\n"
-	.string "venderse en ARCHI7.$"
+	.string "However, you can't find them in SEVII\n"
+	.string "anymore.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_4:
-	.string "Aunque hay un cocinero… suele pasar\n"
-	.string "por el CENTRO PKMN de la isla.$"
+	.string "Unless… Yes, there's this chef… He comes\n"
+	.string "by the PKMN CENTER from time to time.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_5:
-	.string "Él sí que tiene limonadas, el problema\n"
-	.string "es que solo las emplea para sus ricos\l"
-	.string "clientes, que se la compran a precio de\l"
-	.string "oro junto con el resto de sus menús.$"
+	.string "He got lemonades. However, he only sells\n"
+	.string "those to his rich customers, who buy\n"
+	.string "them along his expensive-as-gold\l"
+	.string "menus.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_6:
-	.string "Dime, ¿tú podrías convencerle para que\n"
-	.string "me vendiera algunas?$"
+	.string "Say, could you talk him into selling me a\n"
+	.string "few of ‘em?$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_7:
-	.string "¡Oh! ¿De verdad? Eso sería genial.$"
+	.string "For real? That would be awesome.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_8:
-	.string "Si lo logras, te estaré muy agradecido, y\n"
-	.string "te daré algo muy especial.$"
+	.string "If you make it, I'll never be grateful\n"
+	.string "enough, and I may give you a little\n"
+	.string "something.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_9:
-	.string "Dime, ¿lograste convencerlo? Suele\n"
-	.string "parar en el CENTRO PKMN de ISLA INTA a\l"
-	.string "descansar.$"
+	.string "Say, did you make it? He usually comes\n"
+	.string "by FIVE ISLAND PKMN CENTER to rest.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_10:
-	.string "¡¡{PLAYER} le entregó la caja de\n"
-	.string "limonadas al ENTRENADOR!!$"
+	.string "{PLAYER} gave a box of lemonades to\n"
+	.string "the TRAINER!!$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_11:
-	.string "¡Guau! ¿De verdad pudiste convencerlo?\n"
-	.string "Te han debido de costar una fortuna.$"
+	.string "Wow! You actually convinced him? These\n"
+	.string "must have cost you a few grand.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_12:
 	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_13:
-	.string "¡Oh! ¿Entonces ha sido un regalo? No\n"
-	.string "sabía que fuera alguien tan generoso,\l"
-	.string "está claro que las apariencias engañan.$"
+	.string "Huh! A gift? I didn't know he was that\n"
+	.string "generous, well for sure you can't judge a\n"
+	.string "book by its cover.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_14:
-	.string "Yo no seré menos. Ahora mi ONIX tiene su\n"
-	.string "merecido tributo, y este POKÉMON es\l"
-	.string "para ti.$"
+	.string "I won't be less than that. Now my ONIX\n"
+	.string "has his worthy tribute, and this other\n"
+	.string "POKÉMON is for you.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_15:
-	.string "¡¡OBTUVISTE UN PHANPY AL NV.8!!$"
+	.string "YOU OBTAINED A LV.8 PHANPY!!$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_16:
-	.string "Viene con un raro objeto, que encontré\n"
-	.string "paseando por CUEVA CAMBIANTE.$"
+	.string "It holds a rare item that I found when I\n"
+	.string "was walking around the ALTERING CAVE.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_17:
-	.string "Toma esto también.$"
+	.string "Hey, take these as well.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_18:
-	.string "¡¡{PLAYER} obtuvo 6 limonadas!!$"
+	.string "{PLAYER} obtained 6 lemonades!!$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_19:
-	.string "Con el resto de la caja tengo de sobra.\p"
-	.string "¡Espero ver también al cocinero para\n"
-	.string "darle las gracias!$"
+	.string "I got more than enough with what's left\n"
+	.string "in the box. I hope I can see the chef so\n"
+	.string "I can thank him!$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_20:
-	.string "Si algo aprendí de TECTONIX, es que la\n"
-	.string "enfermedad es un impedimento del\l"
-	.string "cuerpo, pero no del albedrío, a menos\l"
-	.string "que él lo consienta.$"
+	.string "If I learned something from TECTONIX is\n"
+	.string "that an illness may block your body, but\n"
+	.string "not your will, unless it allows it to.$"
 

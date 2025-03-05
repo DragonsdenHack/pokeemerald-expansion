@@ -10,7 +10,7 @@ end
 
 RocketHideout7F_Text_1:
 	.string "There's a considerable increase from\n"
-	.string "600 to 680 BASE STATS; certainly, many\l"
+	.string "600 to 680 BASE STATs; certainly, many\l"
 	.string "POKÉMON have the potential to fit\l"
 	.string "within this broad range.$"
 
@@ -26,7 +26,7 @@ end
 RocketHideout7F_Text_2:
 	.string "In this region, there is a cult that\n"
 	.string "believes in the non-existence of a\l"
-	.string "POKÉMON with 680 BASE STATS. They\l"
+	.string "POKÉMON with 680 BASE STATs. They\l"
 	.string "attribute this to the undiscovered\l"
 	.string "latent power of MEW, which they worship.\l"
 	.string "According to them, this power, if gets\l"
@@ -162,9 +162,9 @@ end
 RocketHideout7F_Text_10:
 	.string "The fact is that exists another\n"
 	.string "POKÉMON that could be in this HOENN\l"
-	.string "list of the best BASE STATS POKÉMON\l"
+	.string "list of the best BASE STATs POKÉMON\l"
 	.string "and even taking the first places:\l"
-	.string "SLAKING, with 670 BASE STATS,\l"
+	.string "SLAKING, with 670 BASE STATs,\l"
 	.string "nevertheless we consider an affront\l"
 	.string "and a disagreeable joke the existence\l"
 	.string "of a POKÉMON with those numbers and an\l"
@@ -434,10 +434,10 @@ end
 
 RocketHideout7F_Text_24:
 	.string "The common people are surprised to see\n"
-	.string "POKÉMON with more than 500 BASE STATS,\l"
+	.string "POKÉMON with more than 500 BASE STATs,\l"
 	.string "and they are taken aback by any\l"
 	.string "PSEUDO-LEGENDARY or LOW TIER\l"
-	.string "LEGENDARY below 580 BASE STATS. I don't\l"
+	.string "LEGENDARY below 580 BASE STATs. I don't\l"
 	.string "think they are prepared to see POKÉMON\l"
 	.string "that laugh at these numbers; their\l"
 	.string "minds wouldn't grasp it, as they are\l"
@@ -641,9 +641,9 @@ RocketHideout7FDocumento_Text_106:
 	.string "An unique case that defies this world\n"
 	.string "laws, the only one known by reaching\l"
 	.string "the pure perfection in a certain stat,\l"
-	.string "that peaks the 255 base stats of HP, if\l"
-	.string "we ignore it 10 stats of physical\l"
-	.string "attack, all of it functional stats are\l"
+	.string "that peaks the 255 BASE STATs of HP, if\l"
+	.string "we ignore it 10 STATs of physical\l"
+	.string "attack, all of it functional STATs are\l"
 	.string "higher than all pseudo-legendary and\l"
 	.string "mostly of legendaries.$"
 
@@ -700,7 +700,7 @@ RocketHideout7FDocumento_Text_108:
 	.string "because is able to use FLARE BLITZ,\l"
 	.string "EXTREME SPEED and even SACRED FIRE,\l"
 	.string "which it shares with HO-OH, and better\l"
-	.string "stats than KANTO dog although it lacks\l"
+	.string "STATs than KANTO dog although it lacks\l"
 	.string "the ability to use INTIMIDATE.$"
 
 
@@ -724,7 +724,7 @@ RocketHideout7FDocumento_Text_109:
 	.string "SPEED: 85\l"
 	.string "TOTAL: 580\p"
 	.string "One of the three legendary beasts and\n"
-	.string "the best at distributing its stats, it\l"
+	.string "the best at distributing its STATs, it\l"
 	.string "is considered one of the hardest tanks\l"
 	.string "to knock down, able to purify all around\l"
 	.string "contamination that is ahead.$"
@@ -807,7 +807,7 @@ RocketHideout7FDocumento_Text_112:
 	.string "defensive wall famed, its strength\l"
 	.string "rivals MEWTWO. Closely related with\l"
 	.string "JOHTO history and mythology, it has the\l"
-	.string "max 680 base stats as HO-OH and\l"
+	.string "max 680 BASE STATs as HO-OH and\l"
 	.string "RAYQUAZA, one of the best combinations\l"
 	.string "that the arbitrary and random\l"
 	.string "conditions of nature have shown us by\l"
@@ -838,7 +838,7 @@ RocketHideout7FDocumento_Text_113:
 	.string "grand natural strength rivals MEWTWO.\l"
 	.string "Closely related with JOHTO history and\l"
 	.string "mythology, it has the max 680 base\l"
-	.string "stats as LUGIA and RAYQUAZA, one of\l"
+	.string "STATs as LUGIA and RAYQUAZA, one of\l"
 	.string "the best combinations that the\l"
 	.string "arbitrary and random conditions of\l"
 	.string "nature have shown us by far.$"
@@ -950,7 +950,7 @@ RocketHideout7FDocumento_Text_117:
 	.string "The rocks composing REGIROCK's body\n"
 	.string "can be found in all geological strata,\l"
 	.string "providing it a overwhelming physical\l"
-	.string "defense of 200 at the base stat. Its\l"
+	.string "defense of 200 at the BASE STATs. Its\l"
 	.string "origin remains unclear, but its behavior\l"
 	.string "closely resembles that of a relentless\l"
 	.string "robot that stops at nothing.$"
@@ -1134,7 +1134,7 @@ RocketHideout7FDocumento_Text_Latias_1:
 RocketHideout7FDocumento_Text_Latias_2:
 	.string "Sus números son similares a los de un\n"
 	.string "PSEUDOLEGENDARIO con buen reparto de\l"
-	.string "stats, sin embargo, equipado con el\l"
+	.string "STATs, sin embargo, equipado con el\l"
 	.string "ROCÍO BONDAD alcanza cotas de\l"
 	.string "LEGENDARIO MAYOR.$"
 
@@ -1169,7 +1169,7 @@ RocketHideout7FDocumento_Text_Latios_1:
 RocketHideout7FDocumento_Text_Latios_2:
 	.string "Sus números son similares a los de un\n"
 	.string "PSEUDOLEGENDARIO con buen reparto de\l"
-	.string "stats, sin embargo, equipado con el\l"
+	.string "STATs, sin embargo, equipado con el\l"
 	.string "ROCÍO BONDAD alcanza cotas de\l"
 	.string "LEGENDARIO MAYOR.$"
 
@@ -1436,7 +1436,7 @@ RocketHideout7FDocumento_Text_130:
 	.string "itself would never have allowed those\l"
 	.string "paltry 5 points in PHYSICAL ATTACK,\l"
 	.string "which give it an average of 103 BASE\l"
-	.string "points in each of its useful STATS,\l"
+	.string "points in each of its useful STATs,\l"
 	.string "making it faster, sturdier, and more\l"
 	.string "powerful than VOLCARONA, by far the\l"
 	.string "BUG TYPE with the greatest overall\l"
@@ -1510,7 +1510,7 @@ RocketHideout7FDocumento_Text_132:
 	.string "bird with the most impressive\l"
 	.string "adaptations we've seen.\p"
 	.string "Just with an SPECIAL ATTACK of 45,\n"
-	.string "for a global 590 BASE STATS.$"
+	.string "for a global 590 BASE STATs.$"
 
 
 
@@ -1646,7 +1646,7 @@ RocketHideout7FDocumento_Text_136:
 	.string "The emblematic POKÉMON of CHIEF ADMIN.\l"
 	.string "{PLAYER}, illustrating the extent to\l"
 	.string "which an ordinary ROCKET can ascend.\l"
-	.string "Boasting a base stat of 660, it's nearer\l"
+	.string "Boasting a BASE STATs of 660, it's nearer\l"
 	.string "to a MAJOR LEGENDARY than a MINOR one,\l"
 	.string "with an outstanding SPEED.\p"
 	.string "Thanks to COMPOUND EYES, no POKÉMON\n"
@@ -1679,7 +1679,7 @@ RocketHideout7FDocumento_Text_136_2:
 	.string "The emblematic POKÉMON of the CHIEF\l"
 	.string "ADMIN. ANDRA, illustrating the extent\l"
 	.string "to which an ordinary ROCKET can ascend,\l"
-	.string "boasting a base stat of 660, it's nearer\l"
+	.string "boasting a BASE STATs of 660, it's nearer\l"
 	.string "to a MAJOR LEGENDARY than a MINOR one,\l"
 	.string "with an outstanding ATTACK.\p"
 	.string "Thanks to LEVITATE, the x4 GROUND\n"
@@ -1814,7 +1814,7 @@ RocketHideout7FDocumento_Text_140:
 	.string "cobertura con el ACERO.\l"
 	.string "Inferior en ratio AT.ESP/VELOCIDAD\l"
 	.string "a ALAKAZAM-MEGA o GENGAR-MEGA, pero\l"
-	.string "si tenemos en cuenta su bulk y stats\l"
+	.string "si tenemos en cuenta su bulk y STATs\l"
 	.string "globales, sus números son casi\l"
 	.string "imbatibles para cualquier mortal.$"
 
@@ -1842,13 +1842,13 @@ RocketHideout7FDocumento_Text_141:
 	.string "TOTAL: 608\p"
 	.string "TYPE: PSYCHIC\n"
 	.string "ABILITY: MAGIC BOUNCE\l"
-	.string "Elevó drásticamente sus poderes\l"
-	.string "psíquicos gracias a la sincronización\l"
-	.string "con su ENTRENADOR y a las décadas de\l"
-	.string "reclusión. Todo ello lo volvió inmune a\l"
-	.string "cualquier cambio de estado, lo que\l"
-	.string "unido a BARRERA y RECUPERACIÓN, puede\l"
-	.string "volverlo un POKÉMON indestructible.$"
+	.string "It dramatically elevated its psychic\l"
+	.string "powers through synchronization with\l"
+	.string "its TRAINER and decades of seclusion.\p"
+	.string "All this made it immune to any status\n"
+	.string "changes, which, combined with BARRIER\l"
+	.string "and RECOVER, can convert HYPNO-& into\l"
+	.string "an indestructible POKÉMON.$"
 
 
 
@@ -1874,20 +1874,17 @@ RocketHideout7FDocumento_Text_142:
 	.string "TOTAL: 675\p"
 	.string "TYPE: BUG/FIRE\n"
 	.string "ABILITY: MAGIC GUARD\l"
-	.string "POKÉMON tan inesperado como\l"
-	.string "sorprendente para nosotros.\l"
-	.string "Rompió todos los esquemas al\l"
-	.string "cruzar el que creíamos era el\l"
-	.string "límite alcanzable en AT.ESPECIAL,\l"
-	.string "(DEOXYS-180).\l"
-	.string "Un POKÉMON con el poder del sol,\l"
-	.string "que se refleja en esos infernales\l"
-	.string "190 de base enAT.ESPECIAL.\l"
-	.string "Dificilmente la naturaleza pueda\l"
-	.string "volver a reproducir un NO\l"
-	.string "LEGENDARIO de semejantes\l"
-	.string "características: 675 de BASE para\l"
-	.string "un ATAQUE de solo 50.$"
+	.string "A POKÉMON as unexpected as astonishing.\l"
+	.string "Destroyed our expectations about what we\l"
+	.string "thought was the achievable limit in\l"
+	.string "SPECIAL ATTACK, seted by DEOXYS at 180.\l"
+	.string "We are not mistaken in saying that this\l"
+	.string "POKÉMON possesses a kind of sunpower,\l"
+	.string "with a blow-mind base 190 SPECIAL ATTACK.\p"
+	.string "It's pretty improbable that nature\n"
+	.string "could produce another NON-LEGENDARY with\l"
+	.string "such amazing features: 675 BASE STATs,\l"
+	.string "with a small base 50 ATTACK.$"
 
 
 
@@ -1913,16 +1910,17 @@ RocketHideout7FDocumento_Text_143:
 	.string "TOTAL: 655\p"
 	.string "TYPE: ICE/GROUND\n"
 	.string "ABILITY: REFRIGERATE\l"
-	.string "Sorprendentemente, alcanza cotas de\l"
-	.string "poder equivalente a toda una MEGA de\l"
-	.string "PSEUDOLEGENDARIO; la comparación con\l"
-	.string "MEGA-GARCHOMP se vuelve inevitable.\l"
-	.string "MAMOSWINE-& lo iguala en ATAQUE (170),\l"
-	.string "supera en VELOCIDAD y sus defensas\l"
-	.string "son similares. Pasó tanto tiempo bajo\l"
-	.string "temperaturas extremas que su propio\l"
-	.string "cuerpo acabó adaptándose, ganando\l"
-	.string "con ello PIEL HELADA por habilidad.$"
+	.string "Remarkably, it attains power levels akin\l"
+	.string "to those of a MEGA PSEUDO-LEGENDARY,\l"
+	.string "leading to an inevitable comparison\l"
+	.string "with MEGA-GARCHOMP.\l"
+	.string "MAMOSWINE-& equals it in ATTACK at 170,\l"
+	.string "exceeds it in SPEED, with an equal bulk\l"
+	.string "for both.\p"
+	.string "Due to the exposure to extreme temperatures,\n"
+	.string "its body adapted, resulting in the\l"
+	.string "acquisition of REFRIGERATE, which means\l"
+	.string "an extremely powerful HEAD CHARGE.$"
 
 
 
@@ -1980,18 +1978,17 @@ RocketHideout7FDocumento_Text_145:
 	.string "TOTAL: 650\p"
 	.string "TYPE: NORMAL\n"
 	.string "ABILITY: PROTEAN\l"
-	.string "Un caso único, al evolucionar\l"
-	.string "de EEVEE, y sufrir directamente\l"
-	.string "el incremento de +125 respecto a\l"
-	.string "sus otras formas evolucionadas.\l"
-	.string "Se transformará en el tipo de\l"
-	.string "cualquier movimiento justo antes\l"
-	.string "de ejecutarlo, obteniendo STAB de\l"
-	.string "ello. Aun así, cuenta con ESTRUENDO\l"
-	.string "como gran STAB de su tipo por defecto.\l"
-	.string "Un movepool está a la\l"
-	.string "altura del de MEW, con\l"
-	.string "infinitas opciones.$"
+	.string "There is still disagreement about\l"
+	.string "whether we are facing the ancestor of\l"
+	.string "all EEVEE, inherited by the MASTER of\l"
+	.string "ECRUTEAK CITY, or a form of DEEP BOND.\l"
+	.string "However, this EEVEE will transform into\l"
+	.string "the TYPE of any move just before\l"
+	.string "executing it, gaining STAB from it, not\l"
+	.string "to mention its 140 power BOOMBURST and\l"
+	.string "STAB for the NORMAL TYPE.\p"
+	.string "Its movepool is on par with MEW's one,\n"
+	.string "with endless options as well.$"
 
 
 
@@ -2007,7 +2004,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_146:
-	.string "AERODACTYL ESQUELETO:\p"
+	.string "AERODACTYL SKELETON:\p"
 	.string "HP: 80\n"
 	.string "ATTACK: 145\l"
 	.string "DEFENSE: 95\l"
@@ -2017,14 +2014,14 @@ RocketHideout7FDocumento_Text_146:
 	.string "TOTAL: 615\p"
 	.string "TYPE: FLYING/GHOST\n"
 	.string "ABILITY: SHADOW TAG\l"
-	.string "Vestigio de la verdadera forma en\l"
-	.string "estado salvaje de AERODACTYL, la\l"
-	.string "magia de RUINAS ALFA le restó\l"
-	.string "VELOCIDAD, pero ganó en ATAQUE y\l"
-	.string "variedad ofensiva.\p"
-	.string "Otro POKÉMON singular que defiende\n"
-	.string "el acceso a las cámaras más\l"
-	.string "importantes de RUINAS ALFA.$"
+	.string "Remnant of the true wild form of\l"
+	.string "AERODACTYL, the magic of the RUINS OF\l"
+	.string "ALPH reduced its SPEED but increased\l"
+	.string "its ATTACK and changed the ROCK TYPE\l"
+	.string "into a GHOST TYPE.\p"
+	.string "Another unique POKÉMON that guards\n"
+	.string "access to the most important chambers\l"
+	.string "of the RUINS OF ALPH.$"
 
 
 
@@ -2139,7 +2136,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_150:
-	.string "KYUREM COMPLETO:\p"
+	.string "KYUREM COMPLETE:\p"
 	.string "HP: 125\n"
 	.string "ATTACK: 170\l"
 	.string "DEFENSE: 120\l"
@@ -2149,18 +2146,16 @@ RocketHideout7FDocumento_Text_150:
 	.string "TOTAL: 800\p"
 	.string "TYPE: DRAGON/ICE\n"
 	.string "ABILITY: NO GUARD\l"
-	.string "La forma incompleta del DRAGÓN\l"
-	.string "ORIGINAL, resultado de volver a\l"
-	.string "unir al TRÍO TAO de forma forzosa\l"
-	.string "sin la intervención directa del\l"
-	.string "POKÉMON ESENCIA.\l"
-	.string "Aun así, irradia poder por todos\l"
-	.string "lados, aunque lo desata de forma\l"
-	.string "ineficiente, con una baja\l"
-	.string "VELOCIDAD y varias debilidades a\l"
-	.string "causa de su combinación de tipos,\l"
-	.string "que le siguen haciendo vulnerable\l"
-	.string "ante POKÉMON mortales.$"
+	.string "The ORIGINAL DRAGON's incomplete form\l"
+	.string "resulted from forcibly reuniting the\l"
+	.string "TAO TRIO without the direct\l"
+	.string "intervention of the ESSENCE POKÉMON.\p"
+	.string "Nevertheless, it radiates power on\n"
+	.string "every hand, albeit unleashing it\l"
+	.string "inefficiently. Due to its type\l"
+	.string "combination, it has low SPEED and\l"
+	.string "several weaknesses, which still make it\l"
+	.string "vulnerable to normal POKÉMON.$"
 
 
 
@@ -2322,7 +2317,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_155:
-	.string "DRAGÓN ORIGINAL:\p"
+	.string "ORIGINAL DRAGON:\p"
 	.string "HP: 125\n"
 	.string "ATTACK: 195\l"
 	.string "DEFENSE: 120\l"
@@ -2336,7 +2331,7 @@ RocketHideout7FDocumento_Text_155:
 	.string "existed even before the birth of our\l"
 	.string "universe. ITS power of destruction is\l"
 	.string "unparalleled, leading to a total of 905\l"
-	.string "BASE STATS, the highest global power\l"
+	.string "BASE STATs, the highest global power\l"
 	.string "among the 3 CREATORS. Everything about\l"
 	.string "IT surpasses MEGA-RAYQUAZA,\l"
 	.string "reinforcing ITS position as the\l"
@@ -2633,14 +2628,14 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_6:
 .string "This is NIDOKING-X, do you remember it?\n"
 	.string "I used it to test your strength before\l"
 	.string "you faced OAK, you can take a look at\l"
-	.string "all its stats if you want.$"
+	.string "all its STATs if you want.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_7:
 .string "We also have NIDOQUEEN-Y, specialized\n"
 	.string "in SPECIAL ATTACK. Both POKÉMON are\l"
 	.string "the result of artificially enhancing\l"
 	.string "the base power of the NIDORAN family,\l"
-	.string "specifically adding 100 BASE STATS to\l"
+	.string "specifically adding 100 BASE STATs to\l"
 	.string "NIDOKING and NIDOQUEEN.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_8:
@@ -2698,7 +2693,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_16:
 	.string "MEGA-EVOLUTION, which, combined with\l"
 	.string "the mentioned experiments, makes it\l"
 	.string "possible to increase a POKÉMON's base\l"
-	.string "stats by 100.$"
+	.string "STATs by 100.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_17:
 	.string "However, the phenomenon of the DEEP\n"
@@ -2706,12 +2701,12 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_17:
 	.string "other processes; it is the most potent\l"
 	.string "method we know to enhance a POKÉMON's\l"
 	.string "performance. The tests revealed that\l"
-	.string "the BASE STATS of my RHYPERIOR\l"
+	.string "the BASE STATs of my RHYPERIOR\l"
 	.string "increased by 110.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_18:
 	.string "Furthermore, the distribution of those\n"
-	.string "STATS appears more efficient than\l"
+	.string "STATs appears more efficient than\l"
 	.string "those of MEGA-EVOLUTION and artificial\l"
 	.string "modification.$"
 

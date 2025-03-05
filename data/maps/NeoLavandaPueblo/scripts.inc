@@ -280,7 +280,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_12:
 
 NeoLavandaPueblo_Combate_Eusine_Texto_13:
 	.string "Who wouldn't want a super SACRED BEAST\n"
-	.string "with 690 BASE STATS, which makes the\l"
+	.string "with 690 BASE STATs, which makes the\l"
 	.string "original LUGIA and HO-OH look like\l"
 	.string "amateurs?$"
 

@@ -72,7 +72,7 @@ end
 
 LavenderRadioP10_Quinto_Cientifico_Texto_1:
 	.string "BILL is stubborn, he'll never surpass\n"
-	.string "the 650 BASE STATS mark using PORYGON\l"
+	.string "the 650 BASE STATs mark using PORYGON\l"
 	.string "as a base model, something we've\l"
 	.string "already achieved with other\l"
 	.string "prototypes.$"

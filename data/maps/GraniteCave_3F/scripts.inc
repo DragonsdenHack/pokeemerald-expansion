@@ -435,7 +435,7 @@ end
 GraniteCave_Segundo_Cientifico_Texto_1:
 	.string "El CRADILY-P del ADMIN.ESMERALDA\n"
 	.string "puede ser terrible. Si logra activar el\l"
-	.string "incremento de stats con PODER PASADO,\l"
+	.string "incremento de STATs con PODER PASADO,\l"
 	.string "¡no habrá forma de echarlo del combate!$"
 
 GraniteCave_Tercer_Cientifico::

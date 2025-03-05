@@ -309,7 +309,7 @@ step_end
 ViridianCity_Gym_Explicacion_Base_Texto_1:
 	.string "R.EXECUTIVE: We've been expecting you,\n"
 	.string "EXECUTIVE {PLAYER}. I see you have\l"
-	.string "all 7 BADGES. Giovanni didn't expect\l"
+	.string "all 7 BADGES. GIOVANNI didn't expect\l"
 	.string "anything less from you. However…{PAUSE 20}$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_2:

@@ -160,7 +160,7 @@ end
 Route17Documento_Text_104:
 	.string "Imminent closure of the CERULEAN -\n"
 	.string "VERMILION and LAVENDER - CELADON\l"
-	.string "underground paths, due to bikers\l"
+	.string "underground paths, due to BIKERS\l"
 	.string "invasion on it.$"
 
 

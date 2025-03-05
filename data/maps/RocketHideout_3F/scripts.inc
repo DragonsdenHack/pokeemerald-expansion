@@ -39,10 +39,10 @@ release
 end
 
 RocketHideout3F_Text_3:
-	.string "-You'll never be a real Rocket until you\n"
+	.string "-You'll never be a real ROCKET until you\n"
 	.string "set your emotions aside and become a\l"
 	.string "cold, ruthless machine.- That was the\l"
-	.string "old view of the average Rocket Grunt.\l"
+	.string "old view of the average ROCKET GRUNT.\l"
 	.string "Nothing could be further from the\l"
 	.string "truth. That's just propaganda pushed by\l"
 	.string "the current government. Every time we\l"
@@ -73,7 +73,7 @@ end
 
 RocketHideout_3F_Maquina_Teletransporte_YesNo:
 .string "The machine is ready.\n"
-	.string "Want to teleport to\l"
+	.string "Want to TELEPORT to\l"
 	.string "the base on Route 5?$"
 
 RocketHideout_3F_Maquina_Teletransporte_No::
@@ -132,7 +132,7 @@ RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1:
 
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
-	.string "Go, {PLAYER}. Giovanni is\n"
+	.string "Go, {PLAYER}. GIOVANNI is\n"
 	.string "waiting for you.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Move_1:

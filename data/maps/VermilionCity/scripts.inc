@@ -70,7 +70,7 @@ VermilionCity_Text6:
 	.string "COMMITTEE will approve a law that\l"
 	.string "prohibits the transportation of\l"
 	.string "ROCKETs on the VERMILION-FIVE ISLAND\l"
-	.string "route and from there to here.$"
+	.string "ROUTE and from there to here.$"
 
 
 VermilionCity7::

@@ -181,8 +181,8 @@ release
 end
 
 RocketHideoutViridian_Combate_Proton_Texto_1:
-	.string "PROTON: You're here, {PLAYER}.\n"
-	.string "Considering your track record, it was\l"
+	.string "PROTON: You're here, {PLAYER}.\p"
+	.string "Considering your track record, it was\n"
 	.string "expected that you wouldn't take long\l"
 	.string "to defeat the GYM LEADERS and make it\l"
 	.string "here, to our SECRET BASE with the best\l"
@@ -198,7 +198,7 @@ RocketHideoutViridian_Combate_Proton_Texto_2:
 	.string "extreme testing measures…$"
 
 RocketHideoutViridian_Combate_Proton_Texto_3:
-	.string "Gym Leaders are a good benchmark, but\n"
+	.string "GYM LEADERS are a good benchmark, but\n"
 	.string "you must prove that you're the most\l"
 	.string "qualified ROCKET for such an important\l"
 	.string "mission. The strongest EXECUTIVES and\l"
@@ -283,7 +283,7 @@ RocketHideoutViridian_Combate_Petrel_Texto_1:
 	.string "you defeated a HIGH RANK GRUNT, I saw\l"
 	.string "you had potential and that was why I\l"
 	.string "ordered you that risky mission to go to\l"
-	.string "BILL'S HOUSE.$"
+	.string "BILL's HOUSE.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_2:
 	.string "However you have overpassed all\n"
@@ -299,7 +299,7 @@ RocketHideoutViridian_Combate_Petrel_Texto_3:
 	.string "We also have the obligation to use all\n"
 	.string "our capacities when the situation\l"
 	.string "requires it, the region's and TEAM\l"
-	.string "ROCKET'S future are in your hand, I will\l"
+	.string "ROCKET's future are in your hand, I will\l"
 	.string "personally ensure that you go to\l"
 	.string "challenge the POKÉMON LEAGUE with all\l"
 	.string "the guarantees!$"

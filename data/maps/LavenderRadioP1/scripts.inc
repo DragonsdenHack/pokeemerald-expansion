@@ -62,9 +62,9 @@ end
 LavenderRadioP1_Text_4:
 	.string "At certain frequencies, the radio waves\n"
 	.string "we work with can turn exposed POKÉMON\l"
-	.string "into <Shinies>. Here, we're only\l"
+	.string "into <Shinys>. Here, we're only\l"
 	.string "interested in the pure increase of BASE\l"
-	.string "STATS, but this utility might come in\l"
+	.string "STATs, but this utility might come in\l"
 	.string "handy for giving a scare or two.$"
 
 

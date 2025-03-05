@@ -496,7 +496,7 @@ BaseRocketHoennDocumento_Text_100:
 	.string "boasts extraordinary defensive\l"
 	.string "attributes, surpassing even the\l"
 	.string "POKÉMON GOD itself in both DEFENSE and\l"
-	.string "SPECIAL DEFENSE, with 130 BASE STATS\l"
+	.string "SPECIAL DEFENSE, with 130 BASE STATs\l"
 	.string "in each. Despite having good SPEED, its\l"
 	.string "offensive capability is mediocre for a\l"
 	.string "LEGENDARY.$"
@@ -555,7 +555,7 @@ BaseRocketHoennDocumento_Text_102:
 	.string "One of the 3 LEGENDARY ELVES of\l"
 	.string "SINOHH. It represents emotions. It is\l"
 	.string "the most balanced of the 3, surpassing\l"
-	.string "100 BASE STATS in 4 different\l"
+	.string "100 BASE STATs in 4 different\l"
 	.string "attributes, which is almost unheard of\l"
 	.string "in a MINOR LEGENDARY. For many, this\l"
 	.string "distribution is a burden, as it fails to\l"
@@ -592,7 +592,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "significant damage with STAB moves in\l"
 	.string "both cases, and a SPECIAL ATTACK stat\l"
 	.string "of only 80 points to efficiently\l"
-	.string "allocate its total of 600 BASE STATS…\l"
+	.string "allocate its total of 600 BASE STATs…\l"
 	.string "Some even argue it's capable of\l"
 	.string "challenging MAJOR LEGENDARIES.$"
 
@@ -688,7 +688,7 @@ BaseRocketHoennDocumento_Text_106:
 	.string "interesting defensive capability, more\l"
 	.string "due to its extraordinary FIRE/STEEL\l"
 	.string "typing than its notable defensive\l"
-	.string "stats.$"
+	.string "STATs.$"
 
 
 
@@ -716,7 +716,7 @@ BaseRocketHoennDocumento_Text_107:
 	.string "regard, although, as a consequence, its\l"
 	.string "ability to deal direct damage is greatly\l"
 	.string "diminished. The price to pay for\l"
-	.string "maintaining remarkable stats for a\l"
+	.string "maintaining remarkable STATs for a\l"
 	.string "major LEGENDARY in HP, DEFENSE, and\l"
 	.string "SPECIAL DEFENSE.$"
 
@@ -750,7 +750,7 @@ BaseRocketHoennDocumento_Text_108:
 	.string "evokes. Moreover, triple 90s in HP,\l"
 	.string "DEFENSE, and SPECIAL DEFENSE are\l"
 	.string "exceedingly noteworthy for a\l"
-	.string "LEGENDARY with 600 BASE STATS.$"
+	.string "LEGENDARY with 600 BASE STATs.$"
 
 
 
@@ -776,7 +776,7 @@ BaseRocketHoennDocumento_Text_109:
 	.string "that dragged continents with ropes,\l"
 	.string "still slumbers. Estimates suggest that\l"
 	.string "in all its splendor, its PHYSICAL ATTACK\l"
-	.string "would exceed 200 BASE STATS. In its\l"
+	.string "would exceed 200 BASE STATs. In its\l"
 	.string "current form, its ABILITY leads it\l"
 	.string "toward mediocrity,, squandering its\l"
 	.string "unique natural potential.$"
@@ -867,9 +867,9 @@ BaseRocketHoennDocumento_Text_112:
 	.string "upon entering our world. The golden\l"
 	.string "number of 150 points goes to its HEALTH\l"
 	.string "POINTS, which, combined with 120 BASE\l"
-	.string "STATS in both defenses, makes this\l"
+	.string "STATs in both defenses, makes this\l"
 	.string "POKÉMON one of the top 3 walls in terms\l"
-	.string "of BASE STATS. Its SHADOW FORCE is the\l"
+	.string "of BASE STATs. Its SHADOW FORCE is the\l"
 	.string "most unavoidable move there is.$"
 
 
@@ -895,11 +895,11 @@ BaseRocketHoennDocumento_Text_113:
 	.string "The GOD POKÉMON, theoretically, of our\n"
 	.string "universe. In its actual form, it\l"
 	.string "maintains a consistent 120 points in all\l"
-	.string "6 STATS. Recent revelations from the\l"
+	.string "6 STATs. Recent revelations from the\l"
 	.string "CHIEF ADMIN. {PLAYER} unveil that in\l"
 	.string "its PRIMAL FORM, it attains the golden\l"
 	.string "number of 150 BASE in each of its 6\l"
-	.string "STATS, establishing this figure as the\l"
+	.string "STATs, establishing this figure as the\l"
 	.string "constant of the gods.$"
 
 
@@ -1313,7 +1313,7 @@ BaseRocketHoennDocumento_Text_126:
 	.string "A POKÉMON product of a modification of\n"
 	.string "the deadliest BUG TYPE predator from\l"
 	.string "UNOVA 300 million years ago, of which we\l"
-	.string "are unaware of its BASE STATS, but we\l"
+	.string "are unaware of its BASE STATs, but we\l"
 	.string "estimate them to be between 520-540,\l"
 	.string "with a significantly low SPECIAL ATTACK\l"
 	.string "ranging from 40 to 60 points. Its main\l"
@@ -1374,14 +1374,14 @@ BaseRocketHoennDocumento_Text_128:
 	.string "behind after the split of the ORIGINAL\l"
 	.string "DRAGON into RESHIRAM and ZEKROM.\l"
 	.string "Exceeding 120 points, the limit set by\l"
-	.string "ARCEUS, in 3 of the 6 stats,\l"
+	.string "ARCEUS, in 3 of the 6 STATs,\l"
 	.string "particularly in health and both\l"
 	.string "attacks, is evidence that we are\l"
 	.string "dealing with a highly unconventional\l"
 	.string "POKÉMON. Its lacking SPEED and an ICE\l"
 	.string "TYPE with significant weaknesses\l"
 	.string "deprive it, despite having MAJOR\l"
-	.string "LEGENDARY stats, of being much more\l"
+	.string "LEGENDARY STATs, of being much more\l"
 	.string "formidable.$"
 
 
@@ -1470,8 +1470,8 @@ BaseRocketHoennDocumento_Text_131:
 	.string "TOTAL: 552\p"
 	.string "One of the NON LEGENDARY or\n"
 	.string "PSEUDOLEGENDARY POKÉMON with the best\l"
-	.string "stats, boasting a total of 552 BASE\l"
-	.string "STATS, manages to match the 154 points\l"
+	.string "STATs, boasting a total of 552 BASE\l"
+	.string "STATs, manages to match the 154 points\l"
 	.string "in SPECIAL DEFENSE of LUGIA and HO-OH,\l"
 	.string "in addition to 112 in SPECIAL ATTACK.\l"
 	.string "This reinforces its role as the\l"
@@ -1598,7 +1598,7 @@ BaseRocketHoennDocumento_Text_135:
 	.string "combination, it boasts immunity to the\l"
 	.string "latter thanks to WATER ABSORB and a x4\l"
 	.string "resistance to fire. Despite its\l"
-	.string "impressive stats, its greatest\l"
+	.string "impressive STATs, its greatest\l"
 	.string "drawback lies in its lackluster ATTACK\l"
 	.string "of 110 and a highly improvable SPEED of\l"
 	.string "70. Nonetheless, its STEAM ERUPTION is\l"

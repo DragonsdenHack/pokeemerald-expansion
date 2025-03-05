@@ -41,7 +41,7 @@ Route11Path2FDocumento_Text_101:
 	.string "To get to LAVENDER TOWN from\n"
 	.string "CERULEAN CITY…\p"
 	.string "ROCK TUNNEL appears to be a good\n"
-	.string "route to take.$"
+	.string "ROUTE to take.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak::
 lock

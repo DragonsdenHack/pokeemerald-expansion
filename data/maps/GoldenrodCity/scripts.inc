@@ -312,7 +312,7 @@ msgbox GoldenrodCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_106:
-	.string "The world is a bike path!\n"
+	.string "The world is a BIKE PATH!\n"
 	.string "BIKE SHOP$"
 
 

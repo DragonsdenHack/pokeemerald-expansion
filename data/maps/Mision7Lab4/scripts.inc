@@ -316,7 +316,7 @@ Mision7Lab4_Dialogo_Oak_Texto_7:
 
 Mision7Lab4_Dialogo_Oak_Texto_8:
 	.string "S.MIGUEL: We're talking about POKÉMON\n"
-	.string "with well-distributed +600 BASE STATS\l"
+	.string "with well-distributed +600 BASE STATs\l"
 	.string "and good abilities. They have been\l"
 	.string "created for combat; only a few trainers\l"
 	.string "could pass this test.$"

@@ -48,7 +48,7 @@ release
 end
 
 RocketHideout5F_Text_4:
-	.string "GIOVANNI is the best leader that we\n"
+	.string "GIOVANNI is the best LEADER that we\n"
 	.string "could have, and will never let the TEAM\l"
 	.string "ROCKET fall down.$"
 
@@ -227,7 +227,7 @@ RocketHideout5F_Text_18:
 	.string "the great bird it is. Also, he can reach\l"
 	.string "its maximum potential with\l"
 	.string "MEGA-EVOLUTION, reaching 579 base\l"
-	.string "stats. Exactly 1 point below the\l"
+	.string "STATs. Exactly 1 point below the\l"
 	.string "legendary birds, with 580 points.\l"
 	.string "Coincidence? I don't think so. It looks\l"
 	.string "like the legendary ones are saying -it\l"
@@ -480,7 +480,7 @@ RocketHideout5F_Text_33:
 	.string "physical facts, and neither fool this\l"
 	.string "world essential laws, if you want to\l"
 	.string "optimize a POKÉMON efficiency, or to\l"
-	.string "find out the best STATS BASE\l"
+	.string "find out the best BASE STATs\l"
 	.string "distribution, two plus two must be four.$"
 
 
@@ -730,7 +730,7 @@ RocketHideout5F_Text_47:
 	.string "properly, you won't need those items in\l"
 	.string "the long run, though they are useful\l"
 	.string "for selectively boosting specific\l"
-	.string "stats.$"
+	.string "STATs.$"
 
 
 
@@ -765,7 +765,7 @@ RocketHideout5F_Text_50:
 	.string "seen here, HOENN too, here, however, our\l"
 	.string "only pseudolegendary, DRAGONITE, and\l"
 	.string "the legendary MEW are our limits, with a\l"
-	.string "stats base of 600, the unique weapon\l"
+	.string "total BASE STATs of 600, the unique weapon\l"
 	.string "that KANTO can use to compete against\l"
 	.string "other regions is its technology…$"
 
@@ -877,7 +877,7 @@ end
 
 RocketHideout5F_Text_57:
 	.string "EXEGGUTOR or KINGLER are two of\n"
-	.string "POKÉMON with tremendous base stats\l"
+	.string "POKÉMON with tremendous BASE STATs\l"
 	.string "that are usually ignored by average\l"
 	.string "trainers, no one would say that KINGLER\l"
 	.string "has 130 base of ATTACK, or EXEGGUTOR\l"
@@ -924,7 +924,7 @@ RocketHideout5FDocumento_Text_100:
 .string "SPEED: 65\l"
 .string "TOTAL: 525\p"
 	.string "The evolved form of EEVEE that\n"
-	.string "distributes its stats less efficiently,\l"
+	.string "distributes its STATs less efficiently,\l"
 	.string "nonetheless a flare blitz of this\l"
 	.string "POKÉMON with the ability guts\l"
 	.string "activated will burn everything that\l"
@@ -1014,7 +1014,7 @@ RocketHideout5FDocumento_Text_103:
 	.string "ability SHEER FORCE and holding a LIFE\l"
 	.string "ORB, those 80 in special attack raises\l"
 	.string "to 120, apart from that, her defensive\l"
-	.string "stats are notable, and her moves\l"
+	.string "STATs are notable, and her moves\l"
 	.string "variety, excellent.$"
 
 
@@ -1101,7 +1101,7 @@ RocketHideout5FDocumento_Text_106:
 .string "SPEED: 30\l"
 	.string "TOTAL: 540\p"
 	.string "If we ignore the speed, just DRAGONITE\n"
-	.string "would have a higher global stats, (510\l"
+	.string "would have a higher global STATs, (510\l"
 	.string "to 520), even so SNORLAX would keep\l"
 	.string "having an unuseless 65 of special\l"
 	.string "attack, which makes it greater than\l"
@@ -1327,7 +1327,7 @@ RocketHideout5FDocumento_Text_113:
 	.string "TOTAL: 555\p"
 	.string "The highest global power\n"
 	.string "non-pseudo-legendary POKÉMON, despite\l"
-	.string "not distributing its stats as\l"
+	.string "not distributing its STATs as\l"
 	.string "efficiently as others, makes good use\l"
 	.string "of its physical attack with a flare\l"
 	.string "blitz with STAB, extreme speed, and\l"
@@ -1381,7 +1381,7 @@ end
 RocketHideout5FDocumento_Text_115:
 .string "OBSERVATIONS:\p"
 	.string "Apparently exists some kind of -sacred\n"
-	.string "line-, at the 580 BASE STATS, marked by\l"
+	.string "line-, at the 580 BASE STATs, marked by\l"
 	.string "the LEGENDARY BIRDS besides other sub\l"
 	.string "legendaries POKÉMON in other regions,\l"
 	.string "that disables to the rest of mortals\l"
@@ -1405,29 +1405,29 @@ release
 end
 
 RocketHideout5FDocumento_Text_116:
-.string "THE POWER OF BASE STATS:\p"
-	.string "BASE STATS are the most objective and\n"
+.string "THE POWER OF BASE STATs:\p"
+	.string "BASE STATs are the most objective and\n"
 	.string "measurable quality of every POKÉMON.\l"
-	.string "Each POKÉMON has some BASE STATS\l"
+	.string "Each POKÉMON has some BASE STATs\l"
 	.string "attached to it specie, as the result of\l"
 	.string "the sum of each stat HP, AT, DEF, SP.DEF,\l"
 	.string "SP.AT, and SPE, the six essential\l"
 	.string "parameters, some POKÉMON have better\l"
-	.string "BASE STATS than others, and one of the\l"
+	.string "BASE STATs than others, and one of the\l"
 	.string "reasons MEWTWO became so strong is the\l"
 	.string "fact that it boasts with an\l"
 	.string "extraordinary amount of 680 points of\l"
-	.string "BASE STATS, with an insane SPECIAL\l"
+	.string "BASE STATs, with an insane SPECIAL\l"
 	.string "ATTACK and SPEED, not any POKÉMON from\l"
 	.string "KANTO could reach that total BASE\l"
-	.string "STATS amount. In conclusión, the BASE\l"
-	.string "STATS could be considered as the\l"
+	.string "STATs amount. In conclusión, the BASE\l"
+	.string "STATs could be considered as the\l"
 	.string "overall physical, athletic, and mental\l"
 	.string "condition of certain species of\l"
 	.string "POKÉMON, indeed, pure power and energy,\l"
 	.string "the reason of vast number of\l"
 	.string "experiments in search of manipulating\l"
-	.string "and raising these BASE STATS until the\l"
+	.string "and raising these BASE STATs until the\l"
 	.string "infinite, MEWTWO is a proof of that,\l"
 	.string "would new cases emerge?$"
 
@@ -1467,13 +1467,13 @@ RocketHideout5FDocumento_Text_118:
 	.string "defeated with a good strategy,\l"
 	.string "focusing on the weak points of the\l"
 	.string "opponent and bringing up your own\l"
-	.string "strengths. In conclusion, BASE STATS\l"
+	.string "strengths. In conclusion, BASE STATs\l"
 	.string "are important, but an appropriate\l"
 	.string "strategy along with game knowledge are\l"
 	.string "the elements that will turn you into a\l"
 	.string "champion, with, of course, a powerful\l"
 	.string "and balanced team or…{PAUSE 20} with high BASE\l"
-	.string "STATS, whatever you prefer to call it.$"
+	.string "STATs, whatever you prefer to call it.$"
 
 
 

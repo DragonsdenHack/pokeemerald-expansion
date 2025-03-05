@@ -219,9 +219,9 @@ struct // MENU_CUSTOM
 };
 
 // Menu left side option names text
-static const u8 sText_HpBar[]       = _("Barra Salud");
-static const u8 sText_ExpBar[]      = _("Barra Exp.");
-static const u8 sText_UnitSystem[]  = _("Sistema unidad");
+static const u8 sText_HpBar[]       = _("HP BAR");
+static const u8 sText_ExpBar[]      = _("EXP BAR");
+static const u8 sText_UnitSystem[]  = _("UNIT SYSTEM");
 static const u8 *const sOptionMenuItemsNamesMain[MENUITEM_MAIN_COUNT] =
 {
     [MENUITEM_MAIN_TEXTSPEED]   = gText_TextSpeed,
@@ -283,20 +283,20 @@ static bool8 CheckConditions(int selection)
 
 // Descriptions
 static const u8 sText_Empty[]                   = _("");
-static const u8 sText_Desc_Save[]               = _("Guarda los cambios.");
-static const u8 sText_Desc_TextSpeed[]          = _("Elige cuán rápido se muestra\nel texto en pantalla.");
-static const u8 sText_Desc_BattleScene_On[]     = _("Muestra las animaciones\nde las batallas POKéMON.");
-static const u8 sText_Desc_BattleScene_Off[]    = _("No muestra las animaciones\nde las batallas POKéMON.");
-static const u8 sText_Desc_BattleStyle_Shift[]  = _("Puedes predecir el siguiente\nPOKéMON de tu rival.");
-static const u8 sText_Desc_BattleStyle_Set[]    = _("No puedes predecir el siguiente\nPOKéMON de tu rival.");
-static const u8 sText_Desc_SoundMono[]          = _("Sonido en calidad mono.\nRecomendado para hardware original.");
-static const u8 sText_Desc_SoundStereo[]        = _("Sonido en calidad estéreo.\nRecomendado para mejor experiencia.");
-static const u8 sText_Desc_ButtonMode[]         = _("Botones por defecto.");
-static const u8 sText_Desc_ButtonMode_LR[]      = _("En ocasiones, podrás usar L y R\ncomo izq. y der. respectivamente.");
-static const u8 sText_Desc_ButtonMode_LA[]      = _("El botón L actúa como\nsi pulsarás el botón A.");
-static const u8 sText_Desc_UnitSystemImperial[] = _("Información de los POKéMON\nen pulgadas y libras.");
-static const u8 sText_Desc_UnitSystemMetric[]   = _("Información de los POKéMON\nen metros y gramos.");
-static const u8 sText_Desc_FrameType[]          = _("Elige el diseño de las\nventanas.");
+static const u8 sText_Desc_Save[]               = _("Save the changes.");
+static const u8 sText_Desc_TextSpeed[]          = _("Choose how fast goes\nthe screen text.");
+static const u8 sText_Desc_BattleScene_On[]     = _("Show the animations of\nthe moves in battle.");
+static const u8 sText_Desc_BattleScene_Off[]    = _("Not show the animations\nof the moves in battle.");
+static const u8 sText_Desc_BattleStyle_Shift[]  = _("You can change the same turn\nthe rival sends a new POKÉMON.");
+static const u8 sText_Desc_BattleStyle_Set[]    = _("You can't change the same turn\nthe rival sends a new POKÉMON.");
+static const u8 sText_Desc_SoundMono[]          = _("Sound mono.\nRecommended for original hardware.");
+static const u8 sText_Desc_SoundStereo[]        = _("Sound stereo.\nRecomendado for a best experience.");
+static const u8 sText_Desc_ButtonMode[]         = _("");
+static const u8 sText_Desc_ButtonMode_LR[]      = _("\n");
+static const u8 sText_Desc_ButtonMode_LA[]      = _("\n");
+static const u8 sText_Desc_UnitSystemImperial[] = _("POKÉMON information given\nat inches and pounds.");
+static const u8 sText_Desc_UnitSystemMetric[]   = _("POKÉMON information given\nat meters and grammes.");
+static const u8 sText_Desc_FrameType[]          = _("Choose the screen design.\n");
 static const u8 *const sOptionMenuItemDescriptionsMain[MENUITEM_MAIN_COUNT][3] =
 {
     [MENUITEM_MAIN_TEXTSPEED]   = {sText_Desc_TextSpeed,            sText_Empty,                sText_Empty},
@@ -410,8 +410,8 @@ static void VBlankCB(void)
 }
 
 static const u8 sText_TopBar_Main[]         = _("GENERAL");
-static const u8 sText_TopBar_Main_Right[]   = _("{R_BUTTON}OTROS");
-static const u8 sText_TopBar_Custom[]       = _("OTROS");
+static const u8 sText_TopBar_Main_Right[]   = _("{R_BUTTON}OTHERS");
+static const u8 sText_TopBar_Custom[]       = _("OTHERS");
 static const u8 sText_TopBar_Custom_Left[]  = _("{L_BUTTON}GENERAL");
 static void DrawTopBarText(void)
 {

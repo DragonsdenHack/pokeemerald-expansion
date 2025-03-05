@@ -263,7 +263,7 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 	.string "POKÉMON CONTESTS.\p"
 	.string "They're events where one can show off\n"
 	.string "POKÉMON for the world to see!\p"
-	.string "However, they're held in far-off towns,\n"
+	.string "However, they're held in far-off TOWNS,\n"
 	.string "so I cannot participate often enough.\p"
 	.string "That is why we gather here to show\n"
 	.string "off our POKÉMON, and have others\l"

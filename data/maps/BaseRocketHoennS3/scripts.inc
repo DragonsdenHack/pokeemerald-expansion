@@ -110,7 +110,7 @@ BaseRocketHoennS3Documento_Text_103:
 	.string "SP. DEF: 85\l"
 	.string "SPEED: 145\l"
 	.string "TOTAL: 630\p"
-	.string "Its impressive BASE stats of 145 in\n"
+	.string "Its impressive BASE STATs of 145 in\n"
 	.string "both SPECIAL ATTACK and SPEED are\l"
 	.string "extraordinary for a NON-LEGENDARY\l"
 	.string "POKÉMON, numbers it utilizes\l"
@@ -177,7 +177,7 @@ BaseRocketHoennS3Documento_Text_105:
 	.string "SPEED: 20\l"
 	.string "TOTAL: 480\p"
 	.string "One of the most annoying POKÉMON to\n"
-	.string "fight, despite its mediocre STATS. Its\l"
+	.string "fight, despite its mediocre STATs. Its\l"
 	.string "DARK/GHOST type combination, along\l"
 	.string "with solid defenses and the MAGIC\l"
 	.string "BOUNCE ability, combined with the\l"
@@ -209,7 +209,7 @@ BaseRocketHoennS3Documento_Text_106:
 	.string "TOTAL: 640\p"
 	.string "Despite being extremely slow and having\n"
 	.string "a glaring x4 weakness to WATER, it\l"
-	.string "excels in other areas, boasting 4 stats\l"
+	.string "excels in other areas, boasting 4 STATs\l"
 	.string "at 120 or higher base points. Its\l"
 	.string "SPECIAL ATTACK peaks at an impressive\l"
 	.string "165 points, which, combined with SHEER\l"
@@ -271,7 +271,7 @@ BaseRocketHoennS3Documento_Text_108:
 	.string "DANCE, HEAL BELL, and ROOST, the\l"
 	.string "possibilities for this POKÉMON are\l"
 	.string "numerous. The significant balance in all\l"
-	.string "its stats, its FAIRY TYPE condition, and\l"
+	.string "its STATs, its FAIRY TYPE condition, and\l"
 	.string "a vast movepool covering all its\l"
 	.string "weaknesses make it one of the most\l"
 	.string "reliable MEGAS, although lacking the\l"
@@ -359,17 +359,17 @@ BaseRocketHoennS3Documento_Text_111:
 	.string "SP. DEF: 150\l"
 	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-	.string "A regular LEGENDARY with stats akin to\n"
+	.string "A regular LEGENDARY with STATs akin to\n"
 	.string "those of a top-tier LEGENDARY;\l"
 	.string "excluding its 100 BASE ATTACK, its\l"
-	.string "remaining 5 useful STATS average\l"
+	.string "remaining 5 useful STATs average\l"
 	.string "around 120 points, the same as ARCEUS\l"
-	.string "across its 6 STATS. Nonetheless, its\l"
+	.string "across its 6 STATs. Nonetheless, its\l"
 	.string "sibling M LATIOS often holds greater\l"
 	.string "competitive value, given the\l"
 	.string "substantial disparity resulting from\l"
 	.string "having a SPECIAL ATTACK of 160 despite\l"
-	.string "wasting STATS on ATTACK (130).$"
+	.string "wasting STATs on ATTACK (130).$"
 
 
 
@@ -393,7 +393,7 @@ BaseRocketHoennS3Documento_Text_112:
 	.string "TOTAL: 700\p"
 	.string "Some argue that its decrease in SPEED\n"
 	.string "never compensated for the +110 in its\l"
-	.string "other 5 STATS. Its ABILITY turns it\l"
+	.string "other 5 STATs. Its ABILITY turns it\l"
 	.string "into a destruction machine under the\l"
 	.string "sandstorm, where with HONE CLAWS it can\l"
 	.string "utilize DRAGON RUSH, IRON TAIL, and\l"
@@ -451,10 +451,10 @@ BaseRocketHoennS3Documento_Text_114:
 	.string "SP. DEF: 110\l"
 	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-	.string "This POKÉMON boasts STATS that are\n"
+	.string "This POKÉMON boasts STATs that are\n"
 	.string "truly unique, with only 50 in HP, yet\l"
 	.string "averaging an astonishing 130 points\l"
-	.string "across its remaining 5 STATS, notably\l"
+	.string "across its remaining 5 STATs, notably\l"
 	.string "with both ATTACK and SPECIAL ATTACK\l"
 	.string "reaching 160 each. With its ABILITY,\l"
 	.string "MAGIC BOUNCE, it can launch attacks\l"
@@ -682,7 +682,7 @@ BaseRocketHoennS3Documento_Text_121:
 	.string "ABILITY: SOLID ROCK\l"
 	.string "The reduction of 40 points in ATTACK\n"
 	.string "allowed for an investment of 140 points\l"
-	.string "in its other 5 STATS, resulting in a\l"
+	.string "in its other 5 STATs, resulting in a\l"
 	.string "monstrous SPECIAL DEFENSE (167).\l"
 	.string "Surpassing LUGIA in both defenses, it\l"
 	.string "also exceeds HO-OH in SPECIAL ATTACK,\l"
@@ -849,7 +849,7 @@ release
 end
 
 BaseRocketHoennS3_Primer_Cientifico_Texto_1:
-	.string "The diversity in the STATS of the\n"
+	.string "The diversity in the STATs of the\n"
 	.string "ancient JOHTO POKÉMON is fascinating.\l"
 	.string "Nowadays, they are much more uniform\l"
 	.string "and predictable, perhaps because they\l"
@@ -897,7 +897,7 @@ release
 end
 
 RocketHideout5F_Tercer_Cartel_Texto_1:
-.string "ZONE 3: OPTIMAL STATS BASE PERFORMANCE$"
+.string "ZONE 3: OPTIMAL BASE STATs PERFORMANCE$"
 
 RocketHideout5F_Cuarto_Cartel::
 lock
@@ -1018,7 +1018,7 @@ BaseRocketHoennS3Documento_Gorochu_Texto_1:
 	.string "Discovered due to the GOLDEN STONE,\l"
 	.string "we're unaware of the reasons why\l"
 	.string "RAICHU was able to evolve into GOROCHU\l"
-	.string "in a distant past. Its total BASE STATS\l"
+	.string "in a distant past. Its total BASE STATs\l"
 	.string "(555) are similar to ARCANINE, placing it\l"
 	.string "at the top of the hierarchy among\l"
 	.string "KANTO's NON-LEGENDARIES. Despite a\l"

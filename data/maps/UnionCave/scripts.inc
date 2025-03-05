@@ -206,12 +206,12 @@ UnionCave_Combate_Elm_Texto_9:
 	.string "obsolete in JOHTO.$"
 
 UnionCave_Combate_Elm_Texto_10:
-	.string "Show me your POKÉMON, CHIEF\n"
-	.string "ADMINISTRATOR ROCKET!$"
+	.string "Show me your POKÉMON,\n"
+	.string "CHIEF ADMIN ROCKET!$"
 
 UnionCave_Combate_Elm_Texto_11:
-	.string "Hmmm… Very interesting. I'll\n"
-	.string "be sure to take notes.$"
+	.string "Hmmm… Very interesting.\n"
+	.string "I take note.$"
 
 UnionCave_Combate_Elm_Texto_12:
 	.string "Now I understand why you're one of the\n"

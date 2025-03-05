@@ -145,7 +145,7 @@ IlexForest_Llamada_Giovanni_Texto_1:
 	.string "acquired intel on KURT's DEEP BOND\l"
 	.string "BUTTERFREE. Its most extraordinary\l"
 	.string "aspect isn't the combined total of its\l"
-	.string "STATS at 505, but rather, how finely\l"
+	.string "STATs at 505, but rather, how finely\l"
 	.string "they'd been distributed. Like its\l"
 	.string "ATTACK pushed to the extreme minimum\l"
 	.string "of… five. Together with its\l"
@@ -154,7 +154,7 @@ IlexForest_Llamada_Giovanni_Texto_1:
 	.string "PSEUDO-LEGENDARIES on a practical\l"
 	.string "level. Isn't it incredible to see the\l"
 	.string "heights an otherwise mediocre POKÉMON\l"
-	.string "doomed to its 395-BASE STATS can\l"
+	.string "doomed to its 395 BASE STATs can\l"
 	.string "achieve? Just how terrifying such a\l"
 	.string "thing can become?$"
 

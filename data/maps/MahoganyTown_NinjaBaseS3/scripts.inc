@@ -65,7 +65,7 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_8:
-	.string "The progress in terms of BASE STATS for\n"
+	.string "The progress in terms of BASE STATs for\n"
 	.string "POKÉMON over the last six months has\l"
 	.string "been remarkable. Do you think POKÉMON\l"
 	.string "like NIDOKING or NIDOQUEEN will cease\l"

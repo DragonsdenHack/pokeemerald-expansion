@@ -235,13 +235,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1:
-	.string "The POKÉMON League has remained\n"
+	.string "The POKÉMON LEAGUE has remained\n"
 	.string "unchallenged since the war, but having\l"
 	.string "no opposition has also weakened them.\l"
-	.string "Lance relies on his POKÉMON's superior\l"
-	.string "base stats, but you defeated the\l"
-	.string "Sacred KANTO Birds. You know firsthand\l"
-	.string "that stats aren't everything in a\l"
+	.string "LANCE relies on his POKÉMON's superior\l"
+	.string "BASE STATs, but you defeated the\l"
+	.string "SACRED KANTO BIRDs. You know firsthand\l"
+	.string "that STATs aren't everything in a\l"
 	.string "battle.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak::
@@ -250,8 +250,8 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1:
-	.string "Go to the POKÉMON Mansion, {PLAYER},\n"
-	.string "and show Oak how a Trainer in sync with\l"
+	.string "Go to the POKÉMON MANSION, {PLAYER},\n"
+	.string "and show OAK how a TRAINER in sync with\l"
 	.string "their POKÉMON should battle.$"
 
 
@@ -262,7 +262,7 @@ end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
 	.string "That secret entrance might be just\n"
-	.string "outside Lavender Town. Have you\l"
+	.string "outside LAVENDER TOWN. Have you\l"
 	.string "checked the southern path, on Route\l"
 	.string "12?$"
 
@@ -272,10 +272,10 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1:
-	.string "Speak to the Silph receptionist. She'll\n"
+	.string "Speak to the SILPH receptionist. She'll\n"
 	.string "show you to the private library they\l"
 	.string "have in the basement. According to the\l"
-	.string "President, the data on that Essence\l"
+	.string "PRESIDENT, the data on that ESSENCE\l"
 	.string "POKÉMON is in S3, in the last room.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas::
@@ -286,7 +286,7 @@ end
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
 	.string "Relax and enjoy the islands, {PLAYER}. There's a\n"
 	.string "lot to do there if you know where to\l"
-	.string "look. Maybe if you visit Archer at our\l"
+	.string "look. Maybe if you visit ARCHER at our\l"
 	.string "headquarters, he'll show you some of its\l"
 	.string "secrets, knows the Sevii Islands\l"
 	.string "better than anyone.$"
@@ -300,11 +300,11 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
 	.string "You can tackle the gyms in any order\n"
 	.string "you like, {PLAYER}, but I recommend following the\l"
 	.string "traditional route. By the way, Cinnabar\l"
-	.string "Gym is closed right now, so you'll have to\l"
-	.string "wait for that coward Blaine to reopen\l"
+	.string "GYM is closed right now, so you'll have to\l"
+	.string "wait for that coward BLAINE to reopen\l"
 	.string "it. And remember, once you've earned the\l"
 	.string "first seven badges, you still have our\l"
-	.string "Gym in Viridian City to conquer.$"
+	.string "GYM in VIRIDIAN CITY to conquer.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -313,10 +313,10 @@ end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1:
 	.string "I have the utmost faith in you,\n"
-	.string "{PLAYER}. Silph's security is known to\l"
+	.string "{PLAYER}. SILPH's security is known to\l"
 	.string "be tight, but they've never faced\l"
-	.string "Trainers like you or Andra before. Go to\l"
-	.string "Silph and show them how a real Rocket\l"
+	.string "TRAINERS like you, or ANDRA before. Go to\l"
+	.string "SILPH and show them how a real ROCKET\l"
 	.string "fights!$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves::
@@ -325,16 +325,16 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1:
-	.string "We have located Articuno at the\n"
+	.string "We have located ARTICUNO at the\n"
 	.string "Seafoam Islands. To get there, you'll\l"
-	.string "first need to head to Lavender town\l"
+	.string "first need to head to LAVENDER TOWN\l"
 	.string "and then south, through through Routes\l"
 	.string "12, 13, 14, and 15, and then across the\l"
-	.string "sea by Fuchsia City. Don't get too\l"
+	.string "sea by FUCHSIA CITY. Don't get too\l"
 	.string "confident, {PLAYER}. My advice is to use the long\l"
-	.string "journey to Articuno as training. It takes\l"
+	.string "journey to ARTICUNO as training. It takes\l"
 	.string "more than just battle skills to defeat\l"
-	.string "a Sacred Bird.$"
+	.string "a SACRED BIRD.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1 MSGBOX_AUTOCLOSE
@@ -374,11 +374,11 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan_Texto_1:
-	.string "Well? I want that Kangaskhan out of\n"
-	.string "Rock Tunnel. You can get there through\l"
-	.string "the underground path east of Celadon;\l"
-	.string "it'll take you to Lavender Town. Once\l"
-	.string "you're there, Rock Tunnel is just to the\l"
+	.string "Well? I want that KANGASKHAN out of\n"
+	.string "ROCK TUNNEL. You can get there through\l"
+	.string "the underground path east of CELADON;\l"
+	.string "it'll take you to LAVENDER TOWN. Once\l"
+	.string "you're there, ROCK TUNNEL is just to the\l"
 	.string "north. And remember, I don't want you\l"
 	.string "entering POKÉMON TOWER, we have plans\l"
 	.string "there.$"
@@ -411,8 +411,8 @@ end
 RocketHideout4F_Text_5:
 	.string "Show some respect and keep your\n"
 	.string "distance when you approach the boss,\l"
-	.string "recruit. If there's one thing Team\l"
-	.string "Rocket is known for, it's our strict\l"
+	.string "recruit. If there's one thing TEAM\l"
+	.string "ROCKET is known for, it's our strict\l"
 	.string "protocols.$"
 
 
@@ -546,18 +546,18 @@ walk_up
 step_end
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
-.string "ANDRA: Always late!\n"
-	.string "While you took your sweet time getting\l"
-	.string "here, our great leader has already given\l"
+.string "ANDRA: Always late!\p"
+	.string "While you took your sweet time getting\n"
+	.string "here, our great BOSS has already given\l"
 	.string "me a mission. There's been some trouble\l"
-	.string "with the bikers on the Cycling Road in\l"
-	.string "Fuchsia City, and guess who's going in as\l"
+	.string "with the BIKERS on the CYCLING ROAD in\l"
+	.string "FUCHSIA, and guess who's going in as\l"
 	.string "'mediators'? That's right, us.$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_2:
 	.string "So, what do you think of the new digs?\n"
 	.string "Petrel might have been exaggerating\l"
-	.string "when he said the Celadon hideout was\l"
+	.string "when he said the CELADON HQ was\l"
 	.string "nothing like the one on Route 5. Sure,\l"
 	.string "it's bigger, but it looks pretty similar,\l"
 	.string "don't you think?$"
@@ -577,7 +577,7 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1:
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_4:
 .string "Like I said!\n"
-	.string "Fuchsia City is mine!$"
+	.string "FUCHSIA CITY is mine!$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_move_1:
 walk_down
@@ -1047,8 +1047,8 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_17:
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_18:
 .string "KOGA: Haven't you heard?\n"
-	.string "A Kangaskhan has been\l"
-	.string "spotted deep in Rock Tunnel!$"
+	.string "A KANGASKHAN has been\l"
+	.string "spotted deep in ROCK TUNNEL!$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_19:
 .string "GIOVANNI: Go on.$"
@@ -1112,8 +1112,8 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_23:
 .string "KOGA: Cuento contigo, entonces.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_24:
-	.string "GIOVANNI: No one who isn't a Rocket will\n"
-	.string "leave that place with a Kangaskhan if\l"
+	.string "GIOVANNI: No one who isn't a ROCKET will\n"
+	.string "leave that place with a KANGASKHAN if\l"
 	.string "there is one to be found.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_25:

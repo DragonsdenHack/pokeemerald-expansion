@@ -350,7 +350,7 @@ CeladonCity_Entrenador_Especial_Texto_4:
 	.string "create a unique offensive combo!$"
 
 CeladonCity_Entrenador_Especial_Texto_5:
-	.string "Wow! Trainers with all the BADGES don't\n"
+	.string "Wow! TRAINERS with all the BADGES don't\n"
 	.string "come by every day! You must have a\l"
 	.string "formidable team. If you honor me with a\l"
 	.string "battle and manage to defeat me, I'll\l"

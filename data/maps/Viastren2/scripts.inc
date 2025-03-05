@@ -9,7 +9,7 @@ release
 end
 
 ViasTren2_Text_1:
-	.string "We're halfway through the route from\n"
+	.string "We're halfway through the ROUTE from\n"
 	.string "GOLDENROD to SAFFRON. If it feels too\l"
 	.string "long, you can always use the BIKE!$"
 

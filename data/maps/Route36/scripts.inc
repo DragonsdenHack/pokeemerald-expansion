@@ -107,7 +107,7 @@ end
 
 Route36Documento_Text_100:
 	.string "SCYTHER and PINSIR are the best\n"
-	.string "POKEMON you can catch in the NATIONAL\l"
+	.string "POKÉMON you can catch in the NATIONAL\l"
 	.string "PARK!$"
 
 
@@ -118,9 +118,9 @@ end
 
 Route36_SudowoodoRest_Text:
 	.string "…\n"
-	.string "…\l"
-	.string "(It's a POKÉMON; it seems\l"
-	.string "like it's resting.)$"
+	.string "…\p"
+	.string "-It's a POKÉMON; it seems\n"
+	.string "like it's resting.-$"
 
 
 
@@ -167,12 +167,12 @@ end
 
 Route36_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: Good job, {PLAYER}. That\n"
-	.string "KINGDRA's balanced total of 650 BASE\l"
-	.string "STATS surprises our scientists. Did you\l"
-	.string "know five out of its six STATS have a\l"
-	.string "base of 115? The JOHTO beasts you\l"
-	.string "faced had only two of 115 as their best\l"
-	.string "BASE STATS.$"
+	.string "KINGDRA's balanced total of 665 BASE\l"
+	.string "STATs surprises our scientists. Did you\l"
+	.string "know four out of its six STATs have a\l"
+	.string "BASE 120?\p"
+	.string "The JOHTO beasts you faced had only two\n"
+	.string "115 as their best BASE STATs.$"
 
 Route36_Llamada_Giovanni_Texto_2:
 	.string "Now that you've seen GOLDENROD CITY, I\n"

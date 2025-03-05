@@ -60,7 +60,7 @@ end
 
 RocketHideoutP1_Text_4:
 	.string "How does it feel to be the\n"
-	.string "administrator of all this?$"
+	.string "ADMINISTRATOR of all this?$"
 
 
 
@@ -86,7 +86,7 @@ RocketHideoutP1_Text_6:
 	.string "species. The conclusion was as\l"
 	.string "expected: the DEEP BOND yields an even\l"
 	.string "more drastic performance improvement\l"
-	.string "than the MEGA EVOLUTION. With its +110\l"
+	.string "than the MEGA EVOLUTION. With its +125\l"
 	.string "BASE and only 5 in PHYSICAL ATTACK,\l"
 	.string "KURT's BUTTERFREE surpasses the MEGA\l"
 	.string "BUTTERFREE by 20 BASE points. It's much\l"
@@ -152,7 +152,7 @@ RocketHideoutP1_Text_11:
 	.string "Many would consider the power levels we\n"
 	.string "are dealing with here absurd. A\l"
 	.string "NON-LEGENDARY POKÉMON with 700 BASE\l"
-	.string "STATS. Who would have thought!$"
+	.string "STATs. Who would have thought!$"
 
 
 
@@ -714,8 +714,8 @@ RocketHideoutJohtoP1Documento_Text_109:
 	.string "that will never miss due to its ABILITY.\l"
 	.string "Despite that and its SPEED, it falls\l"
 	.string "just one point short of the 580 BASE\l"
-	.string "STAT TOTAL of KANTO's LEGENDARY BIRDS.\l"
-	.string "However, its STATS bear a more\l"
+	.string "STAT TOTAL of KANTO's LEGENDARY BIRDS.\p"
+	.string "However, its STATs bear a more\n"
 	.string "effective distribution.$"
 
 

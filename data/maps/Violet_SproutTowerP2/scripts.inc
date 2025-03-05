@@ -316,13 +316,13 @@ end
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1:
 	.string "{PLAYER} obtained the HM05 from\n"
-	.string "ELDER!!$"
+	.string "ELDER MASTER!!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_1:
 	.string "That man will one day find himself in\n"
 	.string "trouble. He's blinded by just one of the\l"
 	.string "qualities that define a POKÉMON: BASE\l"
-	.string "STATS. And that prevents him from\l"
+	.string "STATs. And that prevents him from\l"
 	.string "seeing the other virtues that each\l"
 	.string "POKÉMON has.$"
 

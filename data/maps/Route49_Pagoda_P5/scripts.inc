@@ -215,7 +215,7 @@ Route49_Pagoda_P5_Encuentro_Texto_9:
 	.string "training to the limit, as few have\l"
 	.string "managed. Its overwhelming desire to\l"
 	.string "break free from its form also led it to\l"
-	.string "modify its BASE STATS, becoming\l"
+	.string "modify its BASE STATs, becoming\l"
 	.string "something that no one, not even the\l"
 	.string "gods of the POKÉMON WORLD, could\l"
 	.string "foresee or control.$"

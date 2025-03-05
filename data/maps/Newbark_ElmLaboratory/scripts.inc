@@ -118,12 +118,12 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
 	.string "{PLAYER}, this is the result. BILL's\l"
 	.string "PORYGON3, BLAINE's MAGMORTAR-Y, OAK's\l"
 	.string "experiments{PAUSE 25}…{PAUSE 25} They're all now part of\l"
-	.string "KANTO and JOHTO's efforts. The\l"
-	.string "collaboration between these two\l"
+	.string "KANTO and JOHTO's efforts.\p"
+	.string "The collaboration between these two\n"
 	.string "regions will make them the dominant\l"
 	.string "force in the POKÉMON world, and you'll\l"
-	.string "be among their top leaders. That's why\l"
-	.string "I'm giving you this.$"
+	.string "be among their top LEADERs.\p"
+	.string "That's why I'm giving you this.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
 	.string "BILL's main collaborator managed to\n"

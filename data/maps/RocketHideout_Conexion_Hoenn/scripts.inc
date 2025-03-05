@@ -15,7 +15,7 @@ end
 
 RocketHideout_Conexion_Hoenn_Maquina_Teletransporte_YesNo:
 	.string "The machine is ready to be used. Do you\n"
-	.string "want to teleport to the HOENN BASE?$"
+	.string "want to TELEPORT to the HOENN BASE?$"
 
 
 

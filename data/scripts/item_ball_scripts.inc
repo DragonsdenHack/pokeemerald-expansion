@@ -1781,7 +1781,7 @@ finditem ITEM_BIG_PEARL
     end
 
 RocketInta_EventScript_RocaRey::
-finditem ITEM_KINGS_ROCK
+finditem 475
     end
 
 CuevaPerdida_EventScript_BolaHumo::

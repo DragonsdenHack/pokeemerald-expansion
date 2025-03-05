@@ -761,17 +761,17 @@ RocketHideout_6F_Petrel_Text_Mision_2_3:
 	.string "expel you from TEAM ROCKET altogether.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_4:
-	.string "But that said, maybe the leader of the\n"
+	.string "But that said, maybe the leader of that\n"
 	.string "mission's a rough and impatient sort.\l"
 	.string "Maybe he's lost his objectivity and\l"
-	.string "impartiality in the heat of the mission.$"
+	.string "impartiality in a situation like this.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_5:
 	.string "It's not every day the average GRUNT\n"
 	.string "faces down their superior and comes\l"
 	.string "out on top. Either you're incredibly\l"
-	.string "brave or incredibly stupid. Or both. So\l"
-	.string "let's find out.$"
+	.string "brave or incredibly stupid. Or both.\l"
+	.string "So{PAUSE 15}…{PAUSE 15} let's find out.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_6:
 	.string "I've got a mission for you. Let's see\n"
@@ -2318,7 +2318,7 @@ end
 
 RocketHideout_6F_Maquina_Teletransporte_YesNo:
 .string "The machine is ready for use.\n"
-	.string "Do you want to teleport to the CELADON BASE?$"
+	.string "Do you want to TELEPORT to the CELADON BASE?$"
 
 RocketHideout_6F_Maquina_Teletransporte_No::
 release
@@ -2468,7 +2468,7 @@ RocketHideout_6F_Petrel_Texto_2:
 	.string "shown there are still ROCKETs worth\l"
 	.string "their salt. I only hope you and ANDRA\l"
 	.string "live up to the demands of our great\l"
-	.string "leader GIOVANNI.$"
+	.string "BOSS, GIOVANNI.$"
 
 RocketHideout_6F_Cientifico_Maquina::
 lock
@@ -2535,6 +2535,6 @@ SeteoIvs_Texto_1:
 SeteoIvs_Texto_2:
 	.string "As a result, any POKÉMON subjected to\n"
 	.string "our treatment will have 31 IVs in all 6\l"
-	.string "STATS.$"
+	.string "STATs.$"
 
 

@@ -53,7 +53,7 @@ Mision7Lab5_Documento_Text_101:
 	.string "TYPE: PSYCHIC/STEEL\n"
 	.string "ABILITY: FILTRER\l"
 	.string "After numerous attempts, we managed to\l"
-	.string "reproduce the +100 BASE STATS increase\l"
+	.string "reproduce the +100 BASE STATs increase\l"
 	.string "of prototypes X and Y in MEWTWO…\l"
 	.string "without the need to create a MEGA\l"
 	.string "STONE. Thanks to its custom-made\l"

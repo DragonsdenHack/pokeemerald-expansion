@@ -9,7 +9,7 @@ release
 end
 
 Route18_Path1F_Text_1:
-	.string "I don't give a damn if you use a bike to\n"
+	.string "I don't give a damn if you use a BIKE to\n"
 	.string "get into the CYCLING ROAD or not;\l"
 	.string "you're already on the blacklist. You're a\l"
 	.string "lost cause, and I'm not going to bother\l"

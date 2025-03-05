@@ -10,12 +10,12 @@ end
 
 LavenderRadioP4_Text_1:
 	.string "MEGA EVOLUTION increases a POKÉMON's\n"
-	.string "BASE STATS by 100. DEEP BOND increases\l"
-	.string "it by 110, along with generally better\l"
+	.string "BASE STATs by 100. DEEP BOND increases\l"
+	.string "it by 125, along with generally better\l"
 	.string "distribution. There are no limits with\l"
 	.string "the radio waves modifications; they can\l"
 	.string "be increased by less than 100, but we\l"
-	.string "might be able to exceed those +110 from\l"
+	.string "might be able to exceed those +125 from\l"
 	.string "DEEP BOND.$"
 
 
@@ -1089,11 +1089,11 @@ LavenderRadioP4_Devon_Combates_Texto_11:
 
 LavenderRadioP4_Devon_Combates_Texto_12:
 	.string "OAK: MEWTWO represented an increase of\n"
-	.string "80 BASE STATS compared to MEW.\l"
+	.string "80 BASE STATs compared to MEW.\l"
 	.string "Recently, MEGAS and conventional\l"
 	.string "prototypes have led to an increase of\l"
 	.string "+100 compared to the base forms. The\l"
-	.string "DEEP BOND increases a +110{PAUSE 25}…{PAUSE 25} What can\l"
+	.string "DEEP BOND increases a +125{PAUSE 25}…{PAUSE 25} What can\l"
 	.string "we expect from this new technology,\l"
 	.string "ELM?$"
 
@@ -1106,7 +1106,7 @@ LavenderRadioP4_Devon_Combates_Texto_13:
 LavenderRadioP4_Devon_Combates_Texto_14:
 	.string "However, due to these processes, we are\n"
 	.string "confident that we can increase the\l"
-	.string "initial BASE STATS of the target\l"
+	.string "initial BASE STATs of the target\l"
 	.string "POKÉMON by 150.$"
 
 LavenderRadioP4_Devon_Combates_Texto_14.1:
@@ -1471,7 +1471,7 @@ LavenderRadioP4_Devon_Combates_Texto_80:
 LavenderRadioP4_Devon_Combates_Texto_81:
 	.string "It will completely overshadow any other\n"
 	.string "TRAINER, at least in terms of BASE\l"
-	.string "STATS potential. It will make them look\l"
+	.string "STATs potential. It will make them look\l"
 	.string "ridiculous in the face of that\l"
 	.string "artificially created perfection.$"
 

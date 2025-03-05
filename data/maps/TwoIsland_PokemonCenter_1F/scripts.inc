@@ -150,65 +150,65 @@ TwoIslandPokemonCenter_3_Despues_Texto_1:
 	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_2:
-	.string "¿Se puede saber qué quieres?$"
+	.string "What do you want, kid?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_3:
 	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_4:
-	.string "¿Quieres comprar LIMONADA?$"
+	.string "You want to buy LEMONADE?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_5:
-	.string "¿Por qué me has tomado, mocoso?\p"
-	.string "¿Por una expendedora del CENTRO\n"
-	.string "COMERCIAL AZULONA?$"
+	.string "Who do you think I am?\p"
+	.string "A CELADON's vending machine?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_6:
-	.string "Ese producto no existe en todo el\n"
-	.string "ARCHI7, deberás pagar 10.000¥ por cada\l"
-	.string "unidad.$"
+	.string "This product can't be found in the whole\n"
+	.string "archipelago. Every single bottle will\n"
+	.string "cost you 10,000¥.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_7:
-	.string "Pensándolo mejor, aunque pudieras\n"
-	.string "pagarlo, que lo dudo, no haré ningún\l"
-	.string "trato contigo.$"
+	.string "Second thought, even if you could\n"
+	.string "afford it, which I doubt, I won't be\n"
+	.string "making a deal with you.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_8:
-	.string "Yo tengo una reputación que mantener,\n"
-	.string "¿entiendes?$"
+	.string "I got a reputation to maintain, you\n"
+	.string "know?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_9:
-	.string "LORELEI, CELIO, la CÓNSUL… yo cocino\n"
-	.string "para todas esas personalidades del\l"
-	.string "ARCHI7. ¿Para qué mezclarse con chusma\l"
-	.string "como tú?$"
+	.string "LORELEI, CELIO, the CONSUL… I cook for\n"
+	.string "celebrities all over the SEVII islands.\n"
+	.string "Why bothering getting involved with\l"
+	.string "scum like you?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_10:
-	.string "Así que insistes… Muy bien.$"
+	.string "So you won't give up like this, huh…\p"
+	.string "Very well.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_11:
-	.string "¡Te voy a mostrar la diferencia entre\n"
-	.string "un POKÉMON de la élite y uno de las\l"
-	.string "cloacas!$"
+	.string "I'll show you the differences between\n"
+	.string "an elite TEAM and one that came from a\n"
+	.string "sewer!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_12:
-	.string "Pero… ¡mi TOTODILE es especial!$"
+	.string "No… wait! My TOTODILE is special!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_13:
-	.string "¡¡Esto no puede ser!!$"
+	.string "This can't be!!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_14:
-	.string "Grrrr… Tú no eres un ROCKET norm…$"
+	.string "Grrrr… You're not a normal ROCK…$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_15:
-	.string "¡¡{PLAYER} le quitó una caja de\n"
-	.string "limonadas al cocinero!!$"
+	.string "{PLAYER} got a lemonade's box from\n"
+	.string "the chef!!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_16:
-	.string "¡Tú! ¡¿Cómo te atreves?!$"
+	.string "You! How you dare?!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_17:
-    .string "¡Verás cuando vuelva a KANTO! ¡Voy a\n"
-	.string "informar a todas las autoridades del\l"
-	.string "chiringuito que tenéis aquí montado!$"
+	.string "You'll see when I get back to KANTO! I'll\n"
+	.string "tell the authorities of the little\n"
+	.string "scheme you got here!$"
 

@@ -411,7 +411,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_7:
 	.string "counterproductive.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_8:
-	.string "Thats why, you must focus on nurturing\n"
+	.string "That's why you must focus on nurturing\n"
 	.string "the flawless BELDUM your father\l"
 	.string "bestowed upon you. With the iconic\l"
 	.string "HOENN fossils in hand, you possess the\l"

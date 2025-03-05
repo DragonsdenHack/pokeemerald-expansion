@@ -16,7 +16,7 @@ end
 
 RocketHideout_10F_Maquina_Teletransporte_YesNo:
 .string "The machine is ready to be used, do you\n"
-.string "want to teleport to JOHTO HQ?$"
+.string "want to TELEPORT to JOHTO HQ?$"
 
 
 
@@ -34,7 +34,7 @@ end
 
 RocketHideout_Johto_Maquina_Teletransporte_YesNo:
 .string "The machine is ready to be used, do you\n"
-.string "want to teleport to KANTO HQ?$"
+.string "want to TELEPORT to KANTO HQ?$"
 
 
 

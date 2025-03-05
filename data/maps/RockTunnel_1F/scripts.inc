@@ -207,8 +207,8 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
-	.string "You defeating me? Now thats funny!\n"
-	.string "Don't you know the COOL TRAINERS\l"
+	.string "You defeating me? Now that's funny!\p"
+	.string "Don't you know the COOL TRAINERS\n"
 	.string "reputation? We are the most\l"
 	.string "sophisticated kind of TRAINER,\l"
 	.string "everyone that is here at this tunnel is\l"

@@ -183,7 +183,7 @@ release
 end
 
 LavenderTown_Barrera_Sur_Texto_1:
-	.string "-That route does not match with any\n"
+	.string "-That ROUTE does not match with any\n"
 	.string "assigned mission, better to not waste\l"
 	.string "time.-$"
 

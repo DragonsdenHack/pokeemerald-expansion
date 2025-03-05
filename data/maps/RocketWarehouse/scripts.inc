@@ -203,7 +203,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_11:
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_12:
 	.string "It's known to share lines with DEWGONG,\n"
-	.string "although its BASE STATS and type\l"
+	.string "although its BASE STATs and type\l"
 	.string "combination surpass it. Your\l"
 	.string "determination and principles are\l"
 	.string "perfect to care for it.$"
@@ -354,7 +354,7 @@ RocketWarehouseDocumento_Text_106:
 	.string "process of POKÉMON, induce mutations\l"
 	.string "that alter their original color, and in\l"
 	.string "extreme instances, alter their overall\l"
-	.string "BASE STATS, resulting in complete gene\l"
+	.string "BASE STATs, resulting in complete gene\l"
 	.string "modification.$"
 
 

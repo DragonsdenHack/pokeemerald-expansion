@@ -95,7 +95,7 @@ end
 MahoganyTown_NinjaBaseS2_Text_11:
 	.string "According to our calculations, radio\n"
 	.string "waves could potentially boost a regular\l"
-	.string "POKÉMON's base stats by more than 100\l"
+	.string "POKÉMON's BASE STATs by more than 100\l"
 	.string "points.$"
 
 

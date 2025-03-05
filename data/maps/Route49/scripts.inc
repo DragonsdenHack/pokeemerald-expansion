@@ -438,7 +438,7 @@ end
 Route49_Barrera_Texto_1:
 	.string "Whoever you are, you can't enter this\n"
 	.string "sacred place. Only by obtaining the\l"
-	.string "GOLDEN STONE on the northern route will\l"
+	.string "GOLDEN STONE on the northern ROUTE will\l"
 	.string "you prove that you deserve a place\l"
 	.string "here.$"
 

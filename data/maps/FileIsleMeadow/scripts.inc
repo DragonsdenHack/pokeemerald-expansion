@@ -158,7 +158,7 @@ end
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10:
 .string "{PLAYER} obtained 5 ULTRA BALL\n"
-	.string "from Rocket Executive!!$"
+	.string "from ROCKET EXECUTIVE!!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_1:
 .string "CHIEF ADMIN. {PLAYER}!$"

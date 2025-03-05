@@ -113,7 +113,7 @@ release
 end
 
 OlivineCity_LightHouse_Text_13:
-	.string "The OLIVINE-GOLDENROD sea route is\n"
+	.string "The OLIVINE-GOLDENROD sea ROUTE is\n"
 	.string "full of rocks, making it impassable.\l"
 	.string "Otherwise, GOLDENROD would have long\l"
 	.string "established a huge port to further\l"

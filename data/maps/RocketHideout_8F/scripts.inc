@@ -2196,12 +2196,12 @@ RocketHideout_8F_Mision_Gimnasios_texto_12:
 	.string "gracia, viniendo de ellos.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
-.string "Gracias, ALTO RANGO.\n"
-	.string "Puedes retirarte.$"
+.string "Thanks, HIGH RANK.\n"
+	.string "It's enough.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "ALTO RANGO: Señor{PAUSE 15}…{PAUSE 15}\n"
-	.string "Ejecutivos{PAUSE 15}…{PAUSE 15}$"
+.string "HIGH RANK: Sir{PAUSE 15}…{PAUSE 15}\n"
+	.string "EXECUTIVES{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
 	.string "ANDRA: Damn BLAINE! He has betrayed\n"
@@ -2265,8 +2265,8 @@ RocketHideout_8F_Mision_Gimnasios_texto_23:
 	.string "trouble entering any GYM.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_23.1:
-	.string "YOU OBTAINED A TRAINER LICENSE FROM\n"
-	.string "GIOVANNI'S HANDS!$"
+	.string "You obtained a TRAINER LICENSE from\n"
+	.string "GIOVANNI's hands!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_24:
 	.string "Still, of course, they can deny you\n"
@@ -4199,7 +4199,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2:
 	.string "190 BASE SPECIAL ATTACK-far\l"
 	.string "outstripping that of the highest\l"
 	.string "recorded, DEOXYS' 180. Together with\l"
-	.string "its other STATS, it achieves a total of\l"
+	.string "its other STATs, it achieves a total of\l"
 	.string "660. There isn't a shred of doubt this\l"
 	.string "POKÉMON surpasses even LEGENDARY\l"
 	.string "POKÉMON like LUGIA and HO-OH in\l"
@@ -4574,7 +4574,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_15:
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_16:
 	.string "However, JOHTO is much more than its\n"
-	.string "towns and cities; unlike KANTO, it has\l"
+	.string "TOWNS and CITIES; unlike KANTO, it has\l"
 	.string "many places yet to be explored$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_17:
@@ -4604,7 +4604,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_21:
 	.string "of every new POKÉMON you encounter be\l"
 	.string "sent to our database, it will also be\l"
 	.string "recorded for your own use. You'll even\l"
-	.string "be able to see the BASE STATS if you\l"
+	.string "be able to see the BASE STATs if you\l"
 	.string "manage to catch the POKÉMON.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_22:

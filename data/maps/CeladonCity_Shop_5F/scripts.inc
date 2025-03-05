@@ -205,7 +205,7 @@ CeladonCity_Shop5F_Text_Oak_12:
 
 CeladonCity_Shop5F_Text_Oak_13:
 	.string "DAISY: It is okay, we have 50 VITAMINS\n"
-	.string "for each one of the 6 stats, good\l"
+	.string "for each one of the 6 STATs, good\l"
 	.string "enough for this week.$"
 
 CeladonCity_Shop_5F_Oak_move_1:

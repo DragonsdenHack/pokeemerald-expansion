@@ -295,18 +295,18 @@ EventoLagoFuria5_Combate_Final_Texto_8:
 
 EventoLagoFuria5_Combate_Final_Texto_9:
 	.string "You'll need more than just wandering\n"
-	.string "through the towns and routes of this\l"
+	.string "through the TOWNS and ROUTES of this\l"
 	.string "primitive region to defeat one of the\l"
 	.string "EXECUTIVES of the all-mighty DEVON!$"
 
 EventoLagoFuria5_Combate_Final_Texto_10:
-	.string "Who are you? No trainer on any route in\n"
+	.string "Who are you? No trainer on any ROUTE in\n"
 	.string "this region could defeat me!$"
 
 EventoLagoFuria5_Combate_Final_Texto_11:
-	.string "Those POKÉMON…They've experienced\n"
+	.string "Those POKÉMON… They've experienced\n"
 	.string "more than just aimless wandering\l"
-	.string "through routes and towns; they're{PAUSE 25}…{PAUSE 25} a\l"
+	.string "through ROUTES and TOWNS; they're{PAUSE 25}…{PAUSE 25} a\l"
 	.string "fusion of our technology, yet also of\l"
 	.string "the bond with POKÉMON that defines\l"
 	.string "this region.$"
@@ -339,7 +339,7 @@ EventoLagoFuria5_Combate_Final_Texto_18:
 	.string "So, a BASE SPEED of 82{PAUSE 15}…{PAUSE 15} It must have\n"
 	.string "evolved over millions of years, becoming\l"
 	.string "a predator to GYARADOS. Its solid\l"
-	.string "DEFENSE and total BASE STATS just one\l"
+	.string "DEFENSE and total BASE STATs, just one\l"
 	.string "point higher than MEGA GYARADOS\l"
 	.string "reinforce this fact…$"
 

@@ -899,7 +899,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_63:
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_64:
 	.string "It's known that with MEWTWO, we reached\n"
-	.string "680 BASE STATS.$"
+	.string "680 BASE STATs.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_65:
 .string "Our expectations…$"
@@ -909,7 +909,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_66:
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_67:
 	.string "GIOVANNI: … suggest that it's possible\n"
-	.string "to easily exceed the 700 base limit, and\l"
+	.string "to easily exceed the 700 BASE limit, and\l"
 	.string "even breach the 800 mark.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_68:
@@ -963,7 +963,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_76:
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_77:
 	.string "You're doing an excellent job in HOENN,\n"
 	.string "ANDRA. We'll learn a lot from the unique\l"
-	.string "STATS distribution of those REGIS.$"
+	.string "STATs distribution of those REGIS.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_78:
 	.string "{PLAYER}, if I'm not wrong, you've 5\n"
@@ -971,7 +971,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_78:
 	.string "got about DEEP BOND POLIWRATH has\l"
 	.string "been very useful to us; that POKÉMON is\l"
 	.string "a tough rock in every aspect. It\l"
-	.string "outperforms MACHAMP in all 6 STATS, and\l"
+	.string "outperforms MACHAMP in all 6 STATs, and\l"
 	.string "with IRON FIST supported by its huge\l"
 	.string "defenses and a BASE ATTACK of 145, it's\l"
 	.string "a really life-draining and\l"
@@ -1976,7 +1976,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_3:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_4:
 	.string "BILL: Wait for GIOVANNI to talk about\n"
-	.string "the new prototypes and the STATS{PAUSE 15}…{PAUSE 15} If\l"
+	.string "the new prototypes and the STATs{PAUSE 15}…{PAUSE 15} If\l"
 	.string "it were up to me, I'd skip straight to\l"
 	.string "that part; the rest is just formalities!$"
 
@@ -2063,7 +2063,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_19:
 	.string "Furthermore, due to the recent\n"
 	.string "intervention of CHIEF ADMIN.\l"
 	.string "{PLAYER}, the GOLDENROD-SAFFRON\l"
-	.string "route will soon be inaugurated without\l"
+	.string "ROUTE will soon be inaugurated without\l"
 	.string "any further obstacles.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_20:
@@ -2211,8 +2211,8 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_47:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_48:
 	.string "Firstly, level I prototypes encompass a\n"
-	.string "range of BASE STATS between 570 and\l"
-	.string "660 BASE STATS…$"
+	.string "range of BASE STATs between 570 and\l"
+	.string "660 BASE STATs…$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_49:
 	.string "In this group, the vast majority of\n"
@@ -2226,14 +2226,14 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_51:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_52:
 	.string "GIOVANNI: Exactly, pushing its limit to\n"
-	.string "645 BASE STATS, 30 points more than\l"
+	.string "645 BASE STATs, 30 points more than\l"
 	.string "PORYGON3, albeit with the\l"
 	.string "inconvenience of carrying a MEGA STONE\l"
 	.string "as an item.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_53:
 	.string "Then we have the level II prototypes,\n"
-	.string "those ranging from 660 BASE STATS to\l"
+	.string "those ranging from 660 BASE STATs to\l"
 	.string "780…$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_54:
@@ -2283,14 +2283,14 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_61:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_62:
 .string "GIOVANNI: Esto supone un +125 en\n"
-	.string "STATS BASE, lo que les mete de lleno en\l"
+	.string "STATs BASE, lo que les mete de lleno en\l"
 	.string "los prototipos de nivel II, con un total\l"
 	.string "de 705, pero aún hay más{PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_63:
 .string "Nuestro mayor avance ha sido el que\n"
 	.string "marca el límite de los prototipos de\l"
-	.string "nivel II, con 780 STATS BASE{PAUSE 15}…{PAUSE 15}$"
+	.string "nivel II, con 780 STATs BASE{PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_64:
 	.string "We managed to synthesize a MEGA STONE\n"
@@ -2390,7 +2390,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_80:
 	.string "GIOVANNI: Revealing such numbers\n"
 	.string "wouldn't be wise{PAUSE 15}…{PAUSE 15} not yet. Nobody is\l"
 	.string "ready to comprehend figures exceeding\l"
-	.string "800 BASE STATS, at least not in the\l"
+	.string "800 BASE STATs, at least not in the\l"
 	.string "current context.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81:
@@ -2649,7 +2649,7 @@ GoldenrodRadioTowerP5_Tercera_Reunion_Texto_2:
 	.string "GIOVANNI: Tal y como se ha expuesto: el\n"
 	.string "prototipo de nivel III, si bien no podrá\l"
 	.string "acercarse en poder bruto a ese total de\l"
-	.string "900 STATS BASE que son el límite\l"
+	.string "900 STATs BASE que son el límite\l"
 	.string "conocido…$"
 
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_3:

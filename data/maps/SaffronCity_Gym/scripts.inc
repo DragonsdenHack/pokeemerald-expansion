@@ -995,7 +995,7 @@ Cinnabar_Island_Lider_Gimnasio_Texto_3:
 Cinnabar_Island_Lider_Gimnasio_Texto_4:
 .string "Hah!\p"
     .string "The VOLCANOBADGE heightens the\n"
-    .string "SPECIAL stats of your POKÉMON.\p"
+    .string "SPECIAL STATs of your POKÉMON.\p"
     .string "Here, you can have this, too!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_5:
