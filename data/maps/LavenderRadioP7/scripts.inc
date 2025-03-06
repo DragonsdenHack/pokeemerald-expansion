@@ -200,7 +200,7 @@ release
 end
 
 LavenderRadioP7_Quinto_Rocket_Texto_1:
-	.string "I heard some EXECUTIVES talking with\n"
+	.string "I heard some EXECUTIVEs talking with\n"
 	.string "ARCHER; apparently, there are items that\l"
 	.string "increase the performance of certain\l"
 	.string "POKÉMON. They mentioned GIOVANNI's\l"

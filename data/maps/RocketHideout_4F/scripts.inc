@@ -2034,9 +2034,9 @@ walk_in_place_up
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1:
-	.string "WARNING TO ALL GRUNTS! A mysterious\n"
-	.string "TRAINER dressed as RED has infiltrated\l"
-	.string "into our BASE!$"
+	.string "Warning to all GRUNTs!\p"
+	.string "A mysterious RED TRAINER has\n"
+	.string "infiltrated into our BASE!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
 	.string "GIOVANNI: Oh, we don't need to keep\n"
@@ -2049,8 +2049,8 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
 	.string "POKÉMON power!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
-	.string "PROTON: Call all HIGH RANK GRUNTS and\n"
-	.string "EXECUTIVES available in the BASE!\l"
+	.string "PROTON: Call all HIGH RANK GRUNTs and\n"
+	.string "EXECUTIVEs available in the BASE!\l"
 	.string "Protect the access to our LEADER! If\l"
 	.string "the situation requires it, resort to our\l"
 	.string "special specimens roo…$"
@@ -3925,7 +3925,7 @@ unlock_facing_direction
 step_end
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_1:
-.string "PROTON: GRUNTS responsible for the\n"
+.string "PROTON: GRUNTs responsible for the\n"
 	.string "LAVENDER TOWN mission present\l"
 	.string "themselves, SIR.$"
 
@@ -3933,17 +3933,17 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
 .string "GIOVANNI: And?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
-.string "And…{PAUSE 25} And what, exactly? Sir…{PAUSE 25}.$"
+.string "And…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir…{PAUSE 25}.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 .string "GIOVANNI: I thought I was clear enough\n"
 	.string "when I told you what to do in the\l"
 	.string "POKÉMON TOWER. You didn't just get\l"
-	.string "CUBONE's skulls and make some noise. You\l"
-	.string "went further, why?$"
+	.string "CUBONE's skulls and make some noise.\p"
+	.string "You went further, why?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4:
-.string "GRUNTS: It was an accident, sir. We just\n"
+.string "GRUNTs: It was an accident, sir. We just\n"
 	.string "wanted not to be bored, but the mother\l"
 	.string "of CUBONE took it really seriously and…\l"
 	.string "We couldn't manage it properly.$"
@@ -3969,7 +3969,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7:
 	.string "offensive repertory.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
-.string "GRUNTS: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
+.string "GRUNTs: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
 .string "GIOVANNI: Nevertheless…{PAUSE 25}.$"
@@ -4009,7 +4009,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
 	.string "to that cause. Any inconvenience?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:
-.string "GRUNTS: No, sir, no!$"
+.string "GRUNTs: No, sir, no!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_17:
 .string "GIOVANNI: This is your chance. One year\n"
@@ -4033,7 +4033,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
 	.string "starts now!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20:
-.string "GRUNTS: Sir, yes, sir!$"
+.string "GRUNTs: Sir, yes, sir!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21:
 .string "GIOVANNI: Damn unconscious, now\n"

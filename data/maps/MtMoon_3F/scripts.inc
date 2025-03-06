@@ -143,8 +143,8 @@ MtMoon3F_Text_11_2:
 	.string "FOSSILs-enough to wrap up the mission.$"
 
 MtMoon3F_Text_11_3:
-.string "Calling up all MT. MOON mission GRUNTS!\n"
-	.string "The mission is over. Come back to the\l"
+.string "Calling up all MT. MOON mission GRUNTs!\p"
+	.string "The mission is over. Come back to the\n"
 	.string "gathering point!$"
 
 MtMoon3F_Text_11_4:

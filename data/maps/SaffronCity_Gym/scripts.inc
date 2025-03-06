@@ -825,7 +825,7 @@ Fuchsia_City_Lider_Gimnasio_Texto_1.1:
 	.string "I won't make it easy for you {PLAYER},\n"
 	.string "no one handles POISON TYPE POKÉMON\l"
 	.string "like me, not even the ROCKET\l"
-	.string "EXECUTIVES!$"
+	.string "EXECUTIVEs!$"
 
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:

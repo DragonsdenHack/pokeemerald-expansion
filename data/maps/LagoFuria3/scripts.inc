@@ -237,7 +237,7 @@ LagoFuria_S3_Combates_Cientificos_Texto_12:
 LagoFuria_S3_Combates_Cientificos_Texto_13:
 	.string "Even with those POKÉMON, you wouldn't\n"
 	.string "stand a chance against one of our\l"
-	.string "EXECUTIVES.$"
+	.string "EXECUTIVEs.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_14:
 	.string "It appears that in this area, folks have\n"

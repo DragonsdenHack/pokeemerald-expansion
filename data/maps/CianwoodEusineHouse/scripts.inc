@@ -88,7 +88,7 @@ CianwoodEusineHouse_Combate_Texto_4:
 CianwoodEusineHouse_Combate_Texto_5:
 	.string "Does someone like you deserve to visit\n"
 	.string "it? A pristine place, pure and distant\l"
-	.string "from all those GOLDENROD EXECUTIVES,\l"
+	.string "from all those GOLDENROD EXECUTIVEs,\l"
 	.string "who seem to have forgotten who we are\l"
 	.string "and where we come from.$"
 

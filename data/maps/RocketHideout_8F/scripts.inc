@@ -1223,7 +1223,7 @@ RocketHideout_8F_Mision_Silph_text_5:
 	.string "GIOVANNI: Because of all this, both\n"
 	.string "ANDRA and {PLAYER}, you have earned\l"
 	.string "my trust, and both of you are promoted\l"
-	.string "to ROCKET EXECUTIVES.$"
+	.string "to ROCKET EXECUTIVEs.$"
 
 RocketHideout_8F_Mision_Silph_text_6:
 	.string "{PLAYER} has been promoted to ROCKET\n"
@@ -2200,8 +2200,8 @@ RocketHideout_8F_Mision_Gimnasios_texto_13:
 	.string "It's enough.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "HIGH RANK: Sir{PAUSE 15}…{PAUSE 15}\n"
-	.string "EXECUTIVES{PAUSE 15}…{PAUSE 15}$"
+.string "HIGH RANK: Sir{PAUSE 15}…{PAUSE 15}\p"
+	.string "EXECUTIVEs{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
 	.string "ANDRA: Damn BLAINE! He has betrayed\n"
@@ -3402,7 +3402,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_16:
 
 RocketHideout8F_Mision_Mansion_Oak_Text_17:
 	.string "Call ARCHER, PETREL, CHAMPION BLUE, and\n"
-	.string "all the ROCKET EXECUTIVES in here. We\l"
+	.string "all the ROCKET EXECUTIVEs in here. We\l"
 	.string "need to make sure OAK and BLAINE stay\l"
 	.string "put in the POKÉMON MANSION, and\l"
 	.string "{PLAYER} doesn't face any threats.$"
@@ -5535,7 +5535,7 @@ RocketHideout_8F_Final_DLC_Texto_8:
 RocketHideout_8F_Final_DLC_Texto_9:
 	.string "He personally confronted his PRESIDENT\n"
 	.string "and was defeated. This occurred while\l"
-	.string "the EXECUTIVES restrained BILL, ANDRA\l"
+	.string "the EXECUTIVEs restrained BILL, ANDRA\l"
 	.string "and ELM.$"
 
 RocketHideout_8F_Final_DLC_Texto_10:

@@ -425,15 +425,15 @@ UndergroundPath2F_Secundaria_Eevees_Texto_7:
 
 UndergroundPath2F_Secundaria_Eevees_Texto_8:
 .string "It's {PLAYER}! One of the most\n"
-	.string "powerful ROCKET EXECUTIVES! Let's get\l"
+	.string "powerful ROCKET EXECUTIVEs! Let's get\l"
 	.string "the hell out of here!$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_9:
 .string "Do you have any idea what you just did?$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_10:
-.string "({PLAYER} recovered 60 of the 70\n"
-	.string "stolen EEVEES!).$"
+.string "-{PLAYER} recovered 60 of the 70\n"
+	.string "stolen EEVEEs!-$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_11:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Are you partnered with SILPH now?\n"

@@ -366,7 +366,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_20:
 TwoIsland_Torre_P4_Evento_Final_Texto_21:
 	.string "You're not going anywhere, {PLAYER}.\n"
 	.string "There's no turning back; we are two\l"
-	.string "former EXECUTIVES and a former ROCKET\l"
+	.string "former EXECUTIVEs and a former ROCKET\l"
 	.string "ADMINISTRATOR. No matter how skilled\l"
 	.string "you are, you have no chance.$"
 

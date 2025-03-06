@@ -293,7 +293,7 @@ Goldenrod_RadioTowerP8_Proton_Texto_13:
 Goldenrod_RadioTowerP8_Proton_Texto_14:
 	.string "Now, there he is, importing HOENN's\n"
 	.string "POKÉMON and hiring SINNOH's scientists\n"
-	.string "and, of course, ROCKET EXECUTIVES as\l"
+	.string "and, of course, ROCKET EXECUTIVEs as\l"
 	.string "security.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_15:

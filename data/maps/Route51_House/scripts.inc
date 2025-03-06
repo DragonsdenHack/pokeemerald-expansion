@@ -278,7 +278,7 @@ Route51HouseDocumento_Text_100Yes12:
 	.string "LANCE tailored measures to prevent a\l"
 	.string "coup against the POKÉMON LEAGUE. In a\l"
 	.string "desperate attempt, TEAM ROCKET relies\l"
-	.string "on two of its ADMINISTRATORS, who\l"
+	.string "on two of its ADMINISTRATORs, who\l"
 	.string "possess exceptional abilities for\l"
 	.string "POKÉMON battles, to clandestinely\l"
 	.string "seize the title of the POKÉMON LEAGUE.$"

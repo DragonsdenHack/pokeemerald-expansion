@@ -165,7 +165,7 @@ Olivine_Pub_Mision_Secundaria_Texto_2:
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
 	.string "Oh… So you're something more than those\n"
-	.string "GOLDENROD EXECUTIVES. Maybe you can…$"
+	.string "GOLDENROD EXECUTIVEs. Maybe you can…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
 	.string "Listen. GOLDENROD is very big. I used to\n"

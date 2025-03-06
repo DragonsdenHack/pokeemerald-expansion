@@ -220,7 +220,7 @@ RocketHideout6F_Text_21:
 	.string "Apparently ARCHER, the EXECUTIVE\n"
 	.string "running the CHRONO ISLAND WAREHOUSE,\l"
 	.string "is the strongest of the three ROCKET\l"
-	.string "ADMINISTRATORS. I've heard he's got a\l"
+	.string "ADMINISTRATORs. I've heard he's got a\l"
 	.string "SCYTHER that can make mincemeat of\l"
 	.string "anything with its blades.$"
 
@@ -1817,8 +1817,8 @@ step_end
 
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_1:
-	.string "PETREL: Excellent work, GRUNTS.\n"
-	.string "GIOVANNI'll be eager to start\l"
+	.string "PETREL: Excellent work, GRUNTs.\p"
+	.string "GIOVANNI'll be eager to start\n"
 	.string "investigating the contents of that\l"
 	.string "flask.$"
 

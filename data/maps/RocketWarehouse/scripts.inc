@@ -456,17 +456,17 @@ end
 RocketWarehouseSoldado_Text_Soldado1:
     .string "Not so fast, ARCHER has expressly\n"
     .string "asked me to take care of the 4 new\l"
-    .string "GRUNTS, only by defeating me, you\l"
+    .string "GRUNTs, only by defeating me, you\l"
     .string "will earn the right to compete for an\l"
     .string "exclusive mission, actually 2 of the 3\l"
-    .string "GRUNTS have already lost that\l"
+    .string "GRUNTs have already lost that\l"
     .string "opportunity since I have defeated\l"
     .string "them . You are the last one to examine!$"
 
 
 
 RocketWarehouseSoldado_Text_Soldado2:
-    .string "Wow, so we have 2 GRUNTS that are\n"
+    .string "Wow, so we have 2 GRUNTs that are\n"
     .string "worthy. Interesting.$"
 
 
@@ -711,7 +711,7 @@ RocketWarehouse_Text_MisionAtlas6:
 
 
 RocketWarehouse_Text_MisionAtlas7:
-.string "I've defeated the other two GRUNTS\n"
+.string "I've defeated the other two GRUNTs\n"
     .string "before, there's no way you can beat me,\l"
     .string "I've trained harder than you!$"
 
@@ -759,7 +759,7 @@ RocketWarehouse_Text_MisionAtlas10_3:
 	.string "Initially, due to its inefficiency: we\n"
 	.string "could capture large quantities of\l"
 	.string "SENTRET at once and use them as a\l"
-	.string "reserve for new GRUNTS, but…$"
+	.string "reserve for new GRUNTs, but…$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
 	.string "The main reason is 'new generations':\n"
@@ -972,41 +972,35 @@ release
 end
 
 RocketWarehouse_Text_Vuelta_MisionAtlas1:
-.string "ATLAS: Buen trabajo.\p"
-	.string "Como ya sabréis del discurso de\n"
-	.string "entrada, en el TEAM ROCKET sabemos\l"
-	.string "recompensar la meritocracia, damos\l"
-	.string "prioridad al resultado final.$"
+	.string "ARCHER: Alright. You've come back, as\n"
+	.string "you're aware from the opening speech,\l"
+	.string "at TEAM ROCKET, we believe in rewarding\l"
+	.string "merit and the final profits.$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas1_1:
-	.string "Dado que en este caso el balance\n"
-	.string "ha sido positivo, esta\l"
-	.string "es vuestra recompensa.$"
+	.string "Since you have succeed,\n"
+	.string "here is your reward.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
-	.string "¡Te has embolsado 25.000¥!$"
+	.string "{PLAYER} EARNED 25,000¥!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
-.string "¡ANDRA se ha embolsado 25.000¥!$"
+.string "ANDRA EARNED 25,000¥!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
-.string "ATLAS: Ahora podréis costearos\n"
-	.string "ciertos recursos para vuestros\l"
-	.string "POKÉMON, y así mejorar las\l"
-	.string "prestaciones de vuestro\l"
-	.string "equipo.$"
+	.string "ARCHER: With that, you'll be able to\n"
+	.string "afford certain resources for your\l"
+	.string "POKÉMON and thus enhance your team's\l"
+	.string "performance.$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4.1:
-	.string "No lo malgastéis en tonterías; el\n"
-	.string "dinero te da mayor libertad de\l"
-	.string "elección, pero de nada sirve si en\l"
-	.string "última instancia lo ponéis en\l"
-	.string "movimiento de la forma incorrecta\l"
-	.string "o no aprovecháis lo que adquirís\l"
-	.string "gracias a él.$"
+	.string "Don't waste it on frivolities.\p"
+	.string "Having money provides greater freedom,\n"
+	.string "but it's futile if mismanaged or if you\l"
+	.string "don't use what you acquire effectively.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas5:
@@ -1015,64 +1009,59 @@ RocketWarehouse_Text_Vuelta_MisionAtlas5:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
-.string "ATLAS: Debéis saber que aquí\n"
-	.string "actuamos como un solo cuerpo, eso\l"
-	.string "nos hace fuertes. Lejos de ser un\l"
-	.string "acto de cobardía, es un acto de\l"
-	.string "inteligencia y entendimiento de\l"
-	.string "que dos mentes valen más que una.\l"
-	.string "Ninguna organización grande se ha\l"
-	.string "formado a partir de un único\l"
-	.string "individuo.$"
+    .string "ARCHER: It's important for you to\n"
+	.string "understand that we function as a\l"
+	.string "unified entity here, which strengthens\l"
+	.string "us. This isn't a sign of weakness; it's a\l"
+	.string "demonstration of intelligence and\l"
+	.string "recognition that collaboration is key.\l"
+	.string "No major organization has arisen from\l"
+	.string "the efforts of a solitary individual.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas7:
-.string "ATLAS: Creí haber dejado claro que\n"
-	.string "ambos negociaríais a la vez con la\l"
-	.string "CÓNSUL, cubriéndoos las espaldas\l"
-	.string "en caso de torcerse las cosas.$"
+	.string "I thought I was clear when I said that\n"
+	.string "both of you would negotiate with the\l"
+	.string "CONSUL at the same time, having each\l"
+	.string "other's backs in case things went\l"
+	.string "wrong.$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
-	.string "¿Cómo es, ANDRA, que no esperaste a\n"
-	.string "{PLAYER} y decidiste entrar sola al\l"
-	.string "lugar?$"
+	.string "What's wrong with you, ANDRA?\p"
+	.string "Why didn't you wait for {PLAYER}?$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
-.string "ANDRA: Creí que mis habilidades\n"
-	.string "eran suficientes para afrontar el\l"
-	.string "reto, SR.ATLAS.\p"
-	.string "No conté con ese MAREEP y su\n"
-	.string "IMPACTRUENO, me equivoqué.$"
+	.string "I believed my skills were sufficient to\n"
+	.string "face the challenge, MR.ARCHER.\p"
+	.string "But I didn't count with that MAREEP\n"
+	.string "and its THUNDERSHOCK. I failed.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
-	.string "Has mostrado valor e iniciativa\n"
-	.string "propias al entrar tú sola, y\l"
-	.string "admitido tu error.\l"
-	.string "Con eso basta, pero que te sirva\l"
-	.string "de ejemplo y experiencia.$"
+	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}\p"
+	.string "You have shown courage and initiative,\n"
+	.string "and admitted your mistake. For now,\l"
+	.string "that's enough, but let it serve as an\l"
+	.string "example and experience.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas10:
-.string "ATLAS: Dicho esto, zarpáis de\n"
-	.string "inmediato a KANTO.$"
+	.string "ARCHER: With that said, you will\n"
+	.string "set sail immediately to KANTO.$"
 	
 RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
-	.string "Requerimos de más efectivos en\n"
-	.string "nuestro principal centro financiero,\l"
-	.string "un barco en el puerto os espera.$"
+    .string "We need more and staff at our\n"
+	.string "main financial center.\p"
+	.string "A ship in the harbor awaits you.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
-	.string "No quiero que os vayáis de esta\n"
-	.string "isla sin ningún recuerdo que os\l"
-	.string "vincule con vuestra pequeña\l"
-	.string "estancia en ella.\l"
-	.string "Puede que volváis algún día,\l"
-	.string "mientras tanto, cuidad de esto.$"
+	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}\p"
+	.string "I don't want you to leave this island\n"
+	.string "without something to remember your\l"
+	.string "short time here. You might come back\l"
+	.string "someday. For now, take care of this.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas12:
@@ -1084,16 +1073,14 @@ RocketWarehouse_Text_Vuelta_MisionAtlas13:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14:
-.string "ATLAS: Acabáis de recibir dos\n"
-	.string "huevos que contienen preciados\l"
-	.string "POKÉMON de JOHTO, difíciles de\l"
-	.string "encontrar por estas zonas.$"
+	.string "ARCHER: You've just received an EGG,\n"
+	.string "containing valuable JOHTO POKÉMON,\l"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14.1:	
-	.string "Ahora, id al puerto cuanto antes.\n"
-	.string "En KANTO se os darán todos\l"
-	.string "los detalles sobre vuestras\l"
-	.string "nuevas misiones.$"
+	.string "That's all.\p"
+	.string "Go to the port as soon as possible;\n"
+	.string "at your arrival in KANTO, you'll be\l"
+	.string "briefed on your new missions.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas15:

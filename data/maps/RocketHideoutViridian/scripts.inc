@@ -201,8 +201,8 @@ RocketHideoutViridian_Combate_Proton_Texto_3:
 	.string "GYM LEADERS are a good benchmark, but\n"
 	.string "you must prove that you're the most\l"
 	.string "qualified ROCKET for such an important\l"
-	.string "mission. The strongest EXECUTIVES and\l"
-	.string "ADMINISTRATORS have power equal to or\l"
+	.string "mission. The strongest EXECUTIVEs and\l"
+	.string "ADMINISTRATORs have power equal to or\l"
 	.string "greater than any GYM LEADER. Don't\l"
 	.string "believe me? I'll prove it to you!$"
 
@@ -216,7 +216,7 @@ RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "than earned that position as ROCKET\l"
 	.string "EXECUTIVE, {PLAYER}. I recommend\l"
 	.string "healing your team before continuing.\l"
-	.string "The remaining ADMINISTRATORS are more\l"
+	.string "The remaining ADMINISTRATORs are more\l"
 	.string "powerful than me. I bet sparks will fly\l"
 	.string "in those battles…$"
 

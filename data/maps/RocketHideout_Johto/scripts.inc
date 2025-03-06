@@ -511,7 +511,7 @@ end
 RocketHideoutJohto_Text_31:
 .string "1000 REVIVES and 700 HYPER POTIONS…\n"
 .string "Seriously{PAUSE 20}…{PAUSE 20} What's wrong with the\l"
-.string "GRUNTS from KANTO? Do they all carry\l"
+.string "GRUNTs from KANTO? Do they all carry\l"
 .string "RATTATAS and ZUBATS?$"
 
 

@@ -76,7 +76,7 @@ Goldenrod_RadioTowerP10_NPC_5_Texto_1:
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_2:
 	.string "I am but one of the most powerful\n"
-	.string "ROCKET EXECUTIVES.$"
+	.string "ROCKET EXECUTIVEs.$"
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_3:
 	.string "GIOVANNI put me in here. As a sign of\n"

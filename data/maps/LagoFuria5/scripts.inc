@@ -297,7 +297,7 @@ EventoLagoFuria5_Combate_Final_Texto_9:
 	.string "You'll need more than just wandering\n"
 	.string "through the TOWNS and ROUTES of this\l"
 	.string "primitive region to defeat one of the\l"
-	.string "EXECUTIVES of the all-mighty DEVON!$"
+	.string "EXECUTIVEs of the all-mighty DEVON!$"
 
 EventoLagoFuria5_Combate_Final_Texto_10:
 	.string "Who are you? No trainer on any ROUTE in\n"

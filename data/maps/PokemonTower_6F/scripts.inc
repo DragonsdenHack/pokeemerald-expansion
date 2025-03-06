@@ -172,7 +172,7 @@ delay_8
 step_end
 
 PokemonTower_6F_Combate_Fuji_Texto_1:
-	.string "GRUNTS: So strong old man, not even the\n"
+	.string "GRUNTs: So strong old man, not even the\n"
 	.string "three of us together have been able to\l"
 	.string "bring you down!$"
 
@@ -184,7 +184,7 @@ PokemonTower_6F_Combate_Fuji_Texto_2:
 	.string "late.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
-	.string "GRUNTS: Come on, that MAROWAK got in\n"
+	.string "GRUNTs: Come on, that MAROWAK got in\n"
 	.string "our way! He forced us to end his life,\l"
 	.string "that's all!$"
 
@@ -201,7 +201,7 @@ PokemonTower_6F_Combate_Fuji_Texto_5:
 	.string "W-Wait old man, there is no need of…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
-.string "GRUNTS: HIGH RANK {PLAYER}!!\n"
+.string "GRUNTs: HIGH RANK {PLAYER}!!\p"
 	.string "How opportunate!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_7:
