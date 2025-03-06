@@ -31,9 +31,9 @@ RocketHideoutJohto_Text_2:
 	.string "It's in this BASE here where we gather\n"
 	.string "up all of JOHTO's resources and\l"
 	.string "transform them into all kinds of POKÉ\l"
-	.string "BALLs, POTIONs, and other goods. That's\l"
-	.string "right! This is where all the products in\l"
-	.string "the CELADON BASE come from!$"
+	.string "BALLS, POTIONS, and other items.\p"
+	.string "That's right! This is where all the\n"
+	.string "products in the CELADON BASE come from!$"
 
 
 

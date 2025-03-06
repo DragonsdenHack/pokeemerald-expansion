@@ -2607,8 +2607,8 @@ RocketHideout5F_Secundaria_Frank_Texto_7:
 RocketHideout5F_Secundaria_Frank_Texto_8:
 	.string "So a bit success has inflated your ego.\n"
 	.string "How stupid, considering that you're not\l"
-	.string "even the best in your promotion, the\l"
-	.string "HIGH RANK ANDRA is a superior trainer\l"
+	.string "even the best in your promotion{PAUSE 15}…{PAUSE 15}\p"
+	.string "HIGH-RANK ANDRA is a superior TRAINER\n"
 	.string "and will achieve greater heights than\l"
 	.string "you.$"
 
@@ -2616,7 +2616,7 @@ RocketHideout5F_Secundaria_Frank_Texto_9:
 	.string "Be careful about what you say, kid. As\n"
 	.string "EXECUTIVE I had access to POKÉMON of\l"
 	.string "an unattainable power that you have\l"
-	.string "never seen before. The HIGH RANKS like\l"
+	.string "never seen before. HIGH-RANKS like\l"
 	.string "you must conform with the leftovers\l"
 	.string "that no one in this region wants, high\l"
 	.string "quality leftovers because you are HIGH\l"
@@ -2649,10 +2649,10 @@ RocketHideout5F_Secundaria_Frank_Texto_14:
 
 RocketHideout5F_Secundaria_Frank_Texto_15:
 	.string "When I will get ascended to ADMIN, and\n"
-	.string "if you stay stuck being a HIGH RANK,\l"
+	.string "if you stay stuck being a HIGH-RANK,\l"
 	.string "the first thing I'll do to celebrate\l"
 	.string "that, is send you back to gather\l"
-	.string "fossils like a simple GRUNT!$"
+	.string "FOSSILS like a simple GRUNT!$"
 
 
 Ruinas_Alfa_Post_DLC::

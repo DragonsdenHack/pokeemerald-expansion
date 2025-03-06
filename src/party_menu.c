@@ -4534,8 +4534,8 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
 
 void Task_AbilityCapsule(u8 taskId)
 {
-    static const u8 askText[] = _("¿Te gustaría cambiar la habilidad de\n{STR_VAR_1} por {STR_VAR_2}?");
-    static const u8 doneText[] = _("¡La habilidad de {STR_VAR_1}\ncambió a {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("Would you like to change\n{STR_VAR_1} for {STR_VAR_2}?");
+    static const u8 doneText[] = _("{STR_VAR_1} was changed\nfor {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)
@@ -4622,8 +4622,8 @@ void ItemUseCB_AbilityCapsule(u8 taskId, TaskFunc task)
 
 void Task_AbilityPatch(u8 taskId)
 {
-    static const u8 askText[] = _("¿Te gustaría cambiar la habilidad de\n{STR_VAR_1} por {STR_VAR_2}?");
-    static const u8 doneText[] = _("¡La habilidad de {STR_VAR_1}\ncambió a {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("Would you like to change\n{STR_VAR_1} for {STR_VAR_2}?");
+    static const u8 doneText[] = _("{STR_VAR_1} was changed\nfor {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)
@@ -7555,8 +7555,8 @@ void IsLastMonThatKnowsSurf(void)
 #define tOldFunc        4
 #define tNewNature      data[6]
 
-static const u8 sText_AskMint[] = _("¿Te gustaría cambiar la naturaleza\nde {STR_VAR_1} a {STR_VAR_2}?");
-static const u8 sText_MintDone[] = _("¡La naturaleza de {STR_VAR_1}\nahora es {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_AskMint[] = _("Would you like to change {STR_VAR_1}'s\nnature to {STR_VAR_2}?");
+static const u8 sText_MintDone[] = _("{STR_VAR_1}'s nature became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 static void Task_Mints(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;

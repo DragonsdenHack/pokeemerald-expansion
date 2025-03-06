@@ -1254,14 +1254,14 @@ Route111_Text_BeauPostBattle:
 	.string "and my POKÉMON stronger.$"
 
 Route111_Text_BeckyIntro:
-	.string "I heard there are fossils to be found\n"
+	.string "I heard there are FOSSILS to be found\n"
 	.string "in the desert. Where could they be?$"
 
 Route111_Text_BeckyDefeat:
 	.string "I came up short…$"
 
 Route111_Text_BeckyPostBattle:
-	.string "If they can find fossils in the desert,\n"
+	.string "If they can find FOSSILS in the desert,\n"
 	.string "it must have been a sea before.$"
 
 Route111_Text_DustyIntro:
@@ -5108,7 +5108,7 @@ Route6_Text_Cazabichos2PostBattle:
 	.string "JOHTO region were using pokemon as\l"
 	.string "ARIADOS. Some from KANTO like PINSIR or\l"
 	.string "SCYTHER would be a good fit for some of\l"
-	.string "your HIGH RANKS!$"
+	.string "your HIGH-RANKs!$"
 
 
 MtMoon1F_Text_HikerIntro:
@@ -5194,7 +5194,7 @@ MtMoon1F_Text_CientificoPostBattle:
 	.string "At the moment, my victory rate against\n"
 	.string "TEAM ROCKET is 57%. I've defeated 4\l"
 	.string "GRUNTS. Only you, another girl, and\l"
-	.string "another stern-faced HIGH RANK GRUNT\l"
+	.string "another stern-faced HIGH-RANK GRUNT\l"
 	.string "have managed to defeat me.$"
 
 
@@ -7233,8 +7233,8 @@ Route14_Motorista2PostBattle:
 
 
 Route14_Text_Motorista3Intro:
-	.string "FUCHSIA is under control, HIGH RANK\n"
-	.string "{PLAYER}!$"
+	.string "FUCHSIA is under control,\n"
+	.string "HIGH-RANK {PLAYER}!$"
 
 
 

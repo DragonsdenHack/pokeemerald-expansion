@@ -84,7 +84,7 @@ end
 PewterCityDocumento_Text_102:
 .string "NOTICE!\p"
     .string "Thieves have been stealing POKÉMON\n"
-    .string "fossils from MT. MOON.\p"
+    .string "FOSSILS from MT. MOON.\p"
     .string "Please call the PEWTER POLICE if\n"
     .string "you have any information.$"
 
@@ -390,7 +390,7 @@ PewterCity_Petrel_Texto_3:
 PewterCity_Petrel_Texto_4:
 .string "PETREL: -NOTICE!\p"
     .string "Thieves have been stealing POKÉMON\n"
-    .string "fossils from MT. MOON.\p"
+    .string "FOSSILS from MT. MOON.\p"
     .string "Please call the PEWTER POLICE if\n"
     .string "you have any information-.$"
 

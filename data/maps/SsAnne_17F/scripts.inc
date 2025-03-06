@@ -22,5 +22,5 @@ release
 end
 
 SsAnne_17F_Text_2:
-	.string "The SS Anne is famous for the\n"
+	.string "The S.S. ANNE is famous for the\n"
 	.string "extraordinary parties held on board!$"

@@ -46,7 +46,7 @@ Cianwood_PkmnCenter_Text_3:
 	.string "CHUCK's FIGHTING TYPE POKÉMON are\n"
 	.string "incredibly strong; can you believe that\l"
 	.string "a high-level MACHAMP is his weakest\l"
-	.string "Pokémon?$"
+	.string "POKÉMON?$"
 
 
 

@@ -272,7 +272,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_6:
 	.string "Life takes some unexpected turns,\n"
 	.string "doesn't it? In our last encounter, I was\l"
 	.string "close to becoming an ADMINISTRATOR,\l"
-	.string "and you were still a HIGH RANK. Now, as I\l"
+	.string "and you were still a HIGH-RANK. Now, as I\l"
 	.string "understand it, you've saved KANTO and\l"
 	.string "are GIOVANNI's right-hand.$"
 

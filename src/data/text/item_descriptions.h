@@ -385,83 +385,103 @@ static const u8 sAbilityPatchDesc[] = _( // Todo
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Atk, -Def.");
 
 static const u8 sAdamantMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Atk, -SpA.");
 
 static const u8 sNaughtyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Atk, -SpD.");
 
 static const u8 sBraveMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Atk, -Spe.");
 
 static const u8 sBoldMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Def, -Atk.");
 
 static const u8 sImpishMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Def, -SpA.");
 
 static const u8 sLaxMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Def, -SpD.");
 
 static const u8 sRelaxedMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Def, -Spe.");
 
 static const u8 sModestMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpA, -Atk.");
 
 static const u8 sMildMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpA, -Def.");
 
 static const u8 sRashMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpA, -SpD.");
 
 static const u8 sQuietMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpA, -Spe.");
 
 static const u8 sCalmMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpD, -Atk.");
 
 static const u8 sGentleMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpD, -Def.");
 
 static const u8 sCarefulMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpD, -SpA.");
 
 static const u8 sSassyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+SpD, -Spe.");
 
 static const u8 sTimidMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Spe, -Atk.");
 
 static const u8 sHastyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Spe, -Def.");
 
 static const u8 sJollyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Spe, -SpA.");
 
 static const u8 sNaiveMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKÉMON.");
+    "nature's POKÉMON.\n"
+    "+Spe, -SpD.");
 
 static const u8 sSeriousMintDesc[] = _( // Todo
     "Mint for to change\n"

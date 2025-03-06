@@ -320,7 +320,7 @@ SilphS3_Miguel_Batalla_Texto_9:
 
 SilphS3_Miguel_Batalla_Texto_10:
 	.string "According to my theories, the genuine\n"
-	.string "potential of fossils is significantly\l"
+	.string "potential of FOSSILS is significantly\l"
 	.string "different from what they originally\l"
 	.string "possessed in the wild. A considerable\l"
 	.string "portion of their essence is lost during\l"

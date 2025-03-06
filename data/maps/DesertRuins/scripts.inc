@@ -414,7 +414,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_8:
 	.string "That's why you must focus on nurturing\n"
 	.string "the flawless BELDUM your father\l"
 	.string "bestowed upon you. With the iconic\l"
-	.string "HOENN fossils in hand, you possess the\l"
+	.string "HOENN FOSSILS in hand, you possess the\l"
 	.string "essential instruments to one day\l"
 	.string "become a CHAM…$"
 

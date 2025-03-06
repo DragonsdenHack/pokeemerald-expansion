@@ -915,7 +915,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_8:
 	.string "How's the mission going?$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_9:
-	.string "Oh! A HIGH RANK ROCKET GRUNT? Mm, yes,\n"
+	.string "Oh! A HIGH-RANK ROCKET GRUNT? Mm, yes,\n"
 	.string "your POKÉMON seem to pack a punch. Tell\l"
 	.string "me, would you like to do a little job for\l"
 	.string "me?$"

@@ -280,7 +280,7 @@ RocketHideoutViridian_Combate_Petrel_Texto_1:
 	.string "PETREL: I never thought that you could\n"
 	.string "reach this far, when you failed your\l"
 	.string "first mission in KANTO and although it,\l"
-	.string "you defeated a HIGH RANK GRUNT, I saw\l"
+	.string "you defeated a HIGH-RANK GRUNT, I saw\l"
 	.string "you had potential and that was why I\l"
 	.string "ordered you that risky mission to go to\l"
 	.string "BILL's HOUSE.$"

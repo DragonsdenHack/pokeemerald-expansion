@@ -1251,7 +1251,7 @@ RocketHideout_8F_Mision_Silph_text_11:
 
 RocketHideout_8F_Mision_Silph_text_12:
 	.string "Lastly, this POKÉMON, the rarest and\n"
-	.string "most powerful of the KANTO fossils, I\l"
+	.string "most powerful of the KANTO FOSSILS, I\l"
 	.string "am sure that it will be a great addition\l"
 	.string "to your team.$"
 
@@ -2196,11 +2196,11 @@ RocketHideout_8F_Mision_Gimnasios_texto_12:
 	.string "gracia, viniendo de ellos.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
-.string "Thanks, HIGH RANK.\n"
+.string "Thanks, HIGH-RANK.\n"
 	.string "It's enough.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "HIGH RANK: Sir{PAUSE 15}…{PAUSE 15}\p"
+.string "HIGH-RANK: Sir{PAUSE 15}…{PAUSE 15}\p"
 	.string "EXECUTIVEs{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:

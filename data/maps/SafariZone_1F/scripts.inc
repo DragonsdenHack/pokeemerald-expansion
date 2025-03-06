@@ -312,11 +312,11 @@ step_end
 SafariZone_1F_Escena_3_Andra_Texto_1:
 	.string "GRUNT: The total count is; 48 SCYTHER,\n"
 	.string "45 TAUROS, 38 KANGASKHAN, 35 CHANSEY\l"
-	.string "and 26 DRATINI, HIGH RANK GRUNT ANDRA.$"
+	.string "and 26 DRATINI, HIGH-RANK GRUNT ANDRA.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_2:
-	.string "ANDRA: Good job grunt, return to your\n"
-	.string "place.$"
+	.string "ANDRA: Good job, GRUNT.\p"
+	.string "Return to your place.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_3:
 	.string "And good job, TEDDIURSA. You have\n"

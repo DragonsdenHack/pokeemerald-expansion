@@ -25,7 +25,7 @@ LavenderRadioP7_EventScript_TakeDarumaka::
 
 
 LavenderRadioP7_Text_TakeDarumaka:
-	.string "Recently, we discovered a Pokémon\n"
+	.string "Recently, we discovered a POKÉMON\n"
 	.string "capable of corrupting the STEEL TYPE\l"
 	.string "and even poisoning the POISON TYPE\l"
 	.string "itself.$"

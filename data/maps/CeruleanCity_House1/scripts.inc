@@ -10,6 +10,6 @@ end
 
 Text_1:
 	.string "I'll never expose the valuable secrets\n"
-	.string "of the GYM BADGEs to a ROCKET. … …\l"
-	.string "What? You don't need those stupid\l"
-	.string "BADGEs to walk around using any HM?$"
+	.string "of the GYM BADGES to a ROCKET. {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
+	.string "What? You don't need those stupid\n"
+	.string "BADGES to walk around using any HM?$"

@@ -216,7 +216,7 @@ MtMoon_2F_AltoRango_Text_4.3:
 	.string "¿Ha quedado claro?$"
 
 MtMoon_2F_AltoRango_Text_5:
-.string "ROGER THAT, HIGH RANK FRANK!!$"
+.string "ROGER THAT, HIGH-RANK FRANK!!$"
 
 MtMoon_2F_AltoRango_Text_6:
 	.string "Well then. Get moving, you\n"

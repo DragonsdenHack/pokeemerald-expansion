@@ -103,7 +103,7 @@ SlowpokeWellS1_Combate_Texto_5:
 
 SlowpokeWellS1_Combate_Texto_6:
 	.string "All right! You'll need more than just\n"
-	.string "brute strength to crack open my\l"
+	.string "brute STRENGTH to crack open my\l"
 	.string "POKÉMON's shell!$"
 
 SlowpokeWellS1_Combate_Texto_7:

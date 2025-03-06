@@ -62,7 +62,7 @@ end
 
 Route4_PokemonCenter_Text_4:
 	.string "Hey, you! Quit staring at the six POKÉ\n"
-	.string "BALLs on my belt! You ain't stealing 'em!$"
+	.string "BALLS on my belt! You ain't stealing 'em!$"
 
 
 

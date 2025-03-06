@@ -1373,7 +1373,7 @@ LavenderRadioP4_Devon_Combates_Texto_67:
 LavenderRadioP4_Devon_Combates_Texto_67.1:
 	.string "BILL: I can't believe this. No matter\n"
 	.string "what they offered him, even the chance\l"
-	.string "to research new fossils{PAUSE 15}…{PAUSE 15} he would have\l"
+	.string "to research new FOSSILS{PAUSE 15}…{PAUSE 15} he would have\l"
 	.string "never betrayed us like that. They must\l"
 	.string "have offered him something else.$"
 

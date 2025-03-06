@@ -288,8 +288,8 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
 	.string "lot to do there if you know where to\l"
 	.string "look. Maybe if you visit ARCHER at our\l"
 	.string "headquarters, he'll show you some of its\l"
-	.string "secrets, knows the Sevii Islands\l"
-	.string "better than anyone.$"
+	.string "secrets, knows the SEVII ISLANDS better\l"
+	.string "than anyone.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1 MSGBOX_AUTOCLOSE
@@ -298,12 +298,12 @@ end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
 	.string "You can tackle the gyms in any order\n"
-	.string "you like, {PLAYER}, but I recommend following the\l"
-	.string "traditional route. By the way, Cinnabar\l"
+	.string "you like, {PLAYER}, but I recommend following\l"
+	.string "the traditional route. By the way, CINNABAR\l"
 	.string "GYM is closed right now, so you'll have to\l"
 	.string "wait for that coward BLAINE to reopen\l"
 	.string "it. And remember, once you've earned the\l"
-	.string "first seven badges, you still have our\l"
+	.string "first seven BADGES, you still have our\l"
 	.string "GYM in VIRIDIAN CITY to conquer.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph::
@@ -361,7 +361,7 @@ end
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda_Texto_1:
 	.string "That meeting with MR. FUJI is crucial for\n"
 	.string "our goals, {PLAYER}. Once you arrive\l"
-	.string "to the POKÉMON TOWER, Blue will secure\l"
+	.string "to the POKÉMON TOWER, BLUE will secure\l"
 	.string "the lower floors. You will stand guard\l"
 	.string "on the upper levels and alert Proton at\l"
 	.string "once if anything goes wrong. Do you\l"
@@ -2049,11 +2049,11 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
 	.string "POKÉMON power!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
-	.string "PROTON: Call all HIGH RANK GRUNTs and\n"
+	.string "PROTON: Call all HIGH-RANK GRUNTs and\n"
 	.string "EXECUTIVEs available in the BASE!\l"
-	.string "Protect the access to our LEADER! If\l"
-	.string "the situation requires it, resort to our\l"
-	.string "special specimens roo…$"
+	.string "Protect the access to our LEADER!\p"
+	.string "If the situation requires it, resort\n"
+	.string "to our special specimens roo…$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5:
 .string "GIOVANNI: HOLD ON!$"
@@ -4023,14 +4023,14 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18:
 .string "But if you keep yourselves stoic, at\n"
 	.string "the end of the year you will earn not\l"
 	.string "only forgiveness, but also you will be\l"
-	.string "promoted to HIGH RANK, due to you\l"
+	.string "promoted to HIGH-RANK, due to you\l"
 	.string "having shown strength, constancy and,\l"
 	.string "specially, the ability of learning from\l"
 	.string "your mistakes.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
-.string "Now, get out of my sight. Your DAY ONE\n"
-	.string "starts now!$"
+.string "Now, get out of my sight!\p"
+	.string "Your DAY ONE starts now!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20:
 .string "GRUNTs: Sir, yes, sir!$"

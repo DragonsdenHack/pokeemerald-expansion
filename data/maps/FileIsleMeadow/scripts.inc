@@ -251,7 +251,7 @@ end
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_10:
 .string "{PLAYER} obtained 5 GREAT BALL\n"
-	.string "from HIGH RANK GRUNT hands!!$"
+	.string "from HIGH-RANK GRUNT hands!!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_1:
 .string "{PLAYER}!$"
@@ -265,7 +265,7 @@ FileIsleMeadow_Recluta_Balls_AltoRango_texto_2:
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_3:
 	.string "I've also climbed up in the\n"
-	.string "organization; now I'm a HIGH RANK\l"
+	.string "organization; now I'm a HIGH-RANK\l"
 	.string "GRUNT!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_4:
@@ -295,8 +295,8 @@ FileIsleMeadow_Recluta_Balls_AltoRango_texto_9:
 	.string "accept this; it may not be the most\l"
 	.string "suitable BALL for someone of your\l"
 	.string "expertise, but it will save you from\l"
-	.string "having to waste ULTRA BALLs or MASTER\l"
-	.string "BALLs on POKÉMON that aren't worthy!$"
+	.string "having to waste ULTRA BALLS or MASTER\l"
+	.string "BALLS on POKÉMON that aren't worthy!$"
 
 FileIsleMeadow_Recluta_Balls_Debil::
 msgbox FileIsleMeadow_Recluta_Balls_Debil_Texto_1 MSGBOX_AUTOCLOSE
@@ -341,7 +341,7 @@ FileIsleMeadow_Recluta_Balls_Text_3:
 
 FileIsleMeadow_Recluta_Balls_Text_4:
 	.string "By avoiding battles, you can only aspire\n"
-	.string "to be a poor GRUNT, trust me!$"
+	.string "to be a no-name GRUNT, trust me!$"
 
 FileIsleMeadow_Combate_Azul_Der::
 playse SE_PIN

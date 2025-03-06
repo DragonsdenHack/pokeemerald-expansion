@@ -101,5 +101,5 @@ AzaleaPkmnCenter_Text_MensajeWimpod:
 AzaleaPkmnCenter_Text_1:
 	.string "Don't even think about underestimating\n"
 	.string "that tadpole! When it grows up, it gets\l"
-	.string "the strength of a HERACROSS and the\l"
+	.string "the STRENGTH of a HERACROSS and the\l"
 	.string "toughness of a SKARMORY!$"

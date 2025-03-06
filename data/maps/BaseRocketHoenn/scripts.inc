@@ -924,7 +924,7 @@ BaseRocketHoennDocumento_Text_114:
 	.string "TOTAL: 550\p"
 	.string "The majestic moth of UNOVA. It\n"
 	.string "unleashes its FIRE TYPE moves with\l"
-	.string "such strength and vigor that they seem\l"
+	.string "such STRENGTH and vigor that they seem\l"
 	.string "to originate from the sun itself. It was\l"
 	.string "worshipped in ancient cultures, with\l"
 	.string "many legends surrounding its history.\l"

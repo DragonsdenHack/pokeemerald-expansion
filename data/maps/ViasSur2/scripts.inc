@@ -17,5 +17,5 @@ end
 ViasSur2_Primer_Obrero_Texto_1:
 	.string "Our ELECTRIC and ROCK TYPES POKÉMON\n"
 	.string "should theoretically be able to stop\l"
-	.string "that Pokémon, but we haven't been able\l"
+	.string "that POKÉMON, but we haven't been able\l"
 	.string "to spot it.$"

@@ -58,7 +58,7 @@ end
 
 LavenderRadioP9_Primer_Rocket_Texto_1:
 	.string "Do you think I would ever become an\n"
-	.string "EXECUTIVE? Ascending to a HIGH RANK is\l"
+	.string "EXECUTIVE? Ascending to a HIGH-RANK is\l"
 	.string "something you can achieve over time, if\l"
 	.string "you're consistent and show loyalty to\l"
 	.string "TEAM ROCKET, but the step to EXECUTIVE\l"

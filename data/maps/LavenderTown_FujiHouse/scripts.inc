@@ -360,7 +360,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_15:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16:
 	.string "LT. SURGE: You two will come with me.\n"
-	.string "What are you? HIGH RANK? EXECUTIVE?\l"
+	.string "What are you? HIGH-RANK? EXECUTIVE?\l"
 	.string "We're gonna have some fun in the\l"
 	.string "interrogation room.$"
 

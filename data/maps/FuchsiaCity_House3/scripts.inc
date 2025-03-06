@@ -29,7 +29,7 @@ msgbox FuchsiaCityHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_100:
-.string "Photos and fossils of POKÉMON\n"
+.string "Photos and FOSSILS of POKÉMON\n"
 .string "display.$"
 
 

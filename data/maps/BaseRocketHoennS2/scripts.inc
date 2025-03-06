@@ -1335,7 +1335,7 @@ BaseRocketHoennS2Documento_Text_126:
 	.string "default PHYSICAL DEFENSE,\l"
 	.string "damage-absorbing moves like DRAIN\l"
 	.string "PUNCH/LEECH LIFE, and characteristic\l"
-	.string "ability, make this Pokémon a top user of\l"
+	.string "ability, make this POKÉMON a top user of\l"
 	.string "this item, perhaps only surpassed by\l"
 	.string "CONKELDURR.$"
 
@@ -1450,7 +1450,7 @@ BaseRocketHoennS2Documento_Text_130:
 	.string "SP. DEF: 65\l"
 	.string "SPEED: 34\l"
 	.string "TOTAL: 600\p"
-	.string "Its physical strength is immense,\n"
+	.string "Its physical STRENGTH is immense,\n"
 	.string "surpassing POKÉMON like BUZZWOLE or\l"
 	.string "RHYPERIOR by a considerable margin in\l"
 	.string "terms of HP/ATTACK/DEFENSE. Its\l"
@@ -1462,7 +1462,7 @@ BaseRocketHoennS2Documento_Text_130:
 	.string "move out there. If not for its abysmal\l"
 	.string "SPEED and vulnerability on the SPECIAL\l"
 	.string "side, MELMETAL would dominate with an\l"
-	.string "iron fist against 99% of Pokémon.$"
+	.string "iron fist against 99% of POKÉMON.$"
 
 
 

@@ -233,7 +233,7 @@ end
 
 CeruleanCity_Text_Abajo:     
 	.string "-My mission's going to MT. MOON to\n"
-	.string "collect FOSSILs!\p"
+	.string "collect FOSSILS!\p"
 	.string "Not roaming CERULEAN CITY!-$"
 
 

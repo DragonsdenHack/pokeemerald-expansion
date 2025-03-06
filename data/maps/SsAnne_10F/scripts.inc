@@ -24,10 +24,10 @@ release
 end
 
 SsAnne10F_Text_4:
-	.string "The SS Anne is supposed to travel\n"
+	.string "The S.S. ANNE is supposed to travel\n"
 	.string "across regions, bringing trainers from\l"
 	.string "all over the world. But all I see here are\l"
-	.string "KANTO Pokémon!$"
+	.string "KANTO POKÉMON!$"
 
 
 

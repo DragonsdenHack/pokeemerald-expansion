@@ -16,7 +16,7 @@ end
 
 Route4_Text_1:
 .string "Ouch!\n"
-.string "I stumbled upon a rocky Pokémon,\l"
+.string "I stumbled upon a rocky POKÉMON,\l"
 .string "GEODUDE!$"
 
 

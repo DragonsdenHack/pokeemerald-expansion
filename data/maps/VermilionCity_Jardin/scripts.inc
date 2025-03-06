@@ -366,8 +366,8 @@ VermilionCity_Jardin_Final_Texto_10:
 	.string "… …$"
 
 VermilionCity_Jardin_Final_Texto_11:
-	.string "TEAM ROCKET?! A HIGH RANK one and… you\n"
-	.string "know the ROCKET BOSS personally?!$"
+	.string "TEAM ROCKET?! A HIGH-RANK one and…\n"
+	.string "You know the ROCKET BOSS personally?!$"
 
 VermilionCity_Jardin_Final_Texto_12:
 	.string "… …$"

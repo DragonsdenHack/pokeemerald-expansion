@@ -128,9 +128,9 @@ void GetBerryCountString(u8 *dst, const u8 *berryName, u32 quantity)
     else
         berryString = gText_Berries;
 
-    txtPtr = StringCopy(dst, berryString);
+    txtPtr = StringCopy(dst, berryName);
     *txtPtr = CHAR_SPACE;
-    StringCopy(txtPtr + 1, berryName);
+    StringCopy(txtPtr + 1, berryString);
 }
 
 bool8 IsBagPocketNonEmpty(u8 pocket)

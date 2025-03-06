@@ -291,7 +291,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_8:
 	.string "proudly say that my role in the\l"
 	.string "construction of this GRAVEYARD has been\l"
 	.string "crucial, and GIOVANNI promoted me to a\l"
-	.string "HIGH RANK GRUNT because of it.$"
+	.string "HIGH-RANK GRUNT because of it.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_9:
 	.string "If it weren't for that second\n"
@@ -305,7 +305,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_10:
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_11:
 .string "{PLAYER} obtained the TM105 SNARL\n"
-	.string "from the HIGH RANK GRUNT!!$"
+	.string "from the HIGH-RANK GRUNT!!$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_12:
 	.string "It's an honor to have you here. I hope\n"

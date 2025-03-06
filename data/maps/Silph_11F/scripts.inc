@@ -1267,7 +1267,7 @@ Silph_11F_Presidente_Charlas_Texto_3:
 	.string "PRESIDENT: Yes, 5 MASTER BALL, use\n"
 	.string "them only with those POKÉMON that are\l"
 	.string "really hard to catch with the rest of\l"
-	.string "the balls. We gave one MASTER BALL to\l"
+	.string "the BALLS. We gave one MASTER BALL to\l"
 	.string "RED after believing he had won for the\l"
 	.string "sake of justice, just to convince him\l"
 	.string "that his intervention had truly saved\l"

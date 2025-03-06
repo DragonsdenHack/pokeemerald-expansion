@@ -140,7 +140,7 @@ MtMoon3F_Text_11_1:
 MtMoon3F_Text_11_2:
 	.string "Mmm… Maybe you're not as useless as I'd\n"
 	.string "thought. With this one, that's three\l"
-	.string "FOSSILs-enough to wrap up the mission.$"
+	.string "FOSSILS-enough to wrap up the mission.$"
 
 MtMoon3F_Text_11_3:
 .string "Calling up all MT. MOON mission GRUNTs!\p"
@@ -301,7 +301,7 @@ end
 MtMoon_3F_Azul_Text_1:
 	.string "????: Well. Yet again, not an OLD AMBER.\n"
 	.string "I'll have to be satisfied with these\l"
-	.string "HELIX and DOME FOSSILs. What a pity.\l"
+	.string "HELIX and DOME FOSSILS. What a pity.\l"
 	.string "AERODACTYL would've made a fine\l"
 	.string "addition to the team.$"
 
@@ -325,7 +325,7 @@ MtMoon_3F_Azul_Text_4:
 
 MtMoon_3F_Azul_Text_5:
 	.string "I don't care how much you're making off\n"
-	.string "of those FOSSILs, ROCKET. All I care\l"
+	.string "of those FOSSILS, ROCKET. All I care\l"
 	.string "about is just the priceless advantage\l"
 	.string "of building a strong and well-rounded\l"
 	.string "team.$"
@@ -410,7 +410,7 @@ MtMoon_3F_Fosil_text_1:
 
 MtMoon_3F_Fosil_text_2:
 	.string "-The DOME FOSSIL is mine.\p"
-	.string "I should inform the HIGH RANK.-$"
+	.string "I should inform the HIGH-RANK.-$"
 
 
 
@@ -524,7 +524,7 @@ MtMoon_3F_Miguel_Rojo_text_1:
 	.string "{PAUSE 10}…{PAUSE 10}$"
 
 MtMoon_3F_Miguel_Rojo_text_2:
-	.string "Really now? You're gathering FOSSILs,\n"
+	.string "Really now? You're gathering FOSSILS,\n"
 	.string "and you've got one right here?$"
 
 MtMoon_3F_Miguel_Rojo_text_3:
@@ -542,7 +542,7 @@ MtMoon_3F_Miguel_Rojo_text_5:
 	.string "POKÉMON that once lived\l"
 	.string "three-hundred-million years ago. You\l"
 	.string "wanna make some quick dosh? Let's bet\l"
-	.string "our FOSSILs for the other-winner takes\l"
+	.string "our FOSSILS for the other-winner takes\l"
 	.string "all. … …$"
 
 MtMoon_3F_Miguel_Rojo_text_6:
@@ -551,7 +551,7 @@ MtMoon_3F_Miguel_Rojo_text_6:
 MtMoon_3F_Miguel_Rojo_text_7:
 	.string "I'd expect no less of a ROCKET. Alea\n"
 	.string "jacta est. The winner takes home both\l"
-	.string "FOSSILs. Now leave yours next to mine\l"
+	.string "FOSSILS. Now leave yours next to mine\l"
 	.string "to seal the deal.$"
 
 MtMoon_3F_Miguel_Rojo_text_8:
@@ -560,7 +560,7 @@ MtMoon_3F_Miguel_Rojo_text_8:
 	.string "GRUNT like you. Thanks for dropping the\l"
 	.string "DOME FOSSIL right in my lap. How great!\l"
 	.string "'Cause of you, I'll go home today with\l"
-	.string "both the DOME and HELIX FOSSILs!$"
+	.string "both the DOME and HELIX FOSSILS!$"
 
 MtMoon_3F_Miguel_Rojo_text_9:
 	.string "This was supposed to be under control!$"
@@ -568,7 +568,7 @@ MtMoon_3F_Miguel_Rojo_text_9:
 MtMoon_3F_Miguel_Rojo_text_10:
 	.string "Grr… You're no ordinary ROCKET. I hate\n"
 	.string "it when some scrub goes around defying\l"
-	.string "stats. About the FOSSILs…$"
+	.string "stats. About the FOSSILS…$"
 
 MtMoon_3F_Miguel_Rojo_text_11:
 	.string "Calling up {PLAYER}!! A dangerous\n"
@@ -838,7 +838,7 @@ MtMoon_3F_Pelea_Frank_texto4:
 	.string "mysterious TRAINER on fell almost\l"
 	.string "immediately, bar none, so it'd be totally\l"
 	.string "unfair to punish just one guy over it.\l"
-	.string "And we still have two FOSSILs, so in the\l"
+	.string "And we still have two FOSSILS, so in the\l"
 	.string "end, it's not all bad.$"
 
 MtMoon_3F_Pelea_Frank_texto5:
@@ -848,7 +848,7 @@ MtMoon_3F_Pelea_Frank_texto5:
 	.string "overcome the situation.$"
 
 MtMoon_3F_Pelea_Frank_texto6:
-	.string "You should've snagged the FOSSILs and\n"
+	.string "You should've snagged the FOSSILS and\n"
 	.string "fled with an ESCAPE ROPE immediately\l"
 	.string "after receiving my message, instead of\l"
 	.string "sticking around to get slapped around\l"
@@ -857,7 +857,7 @@ MtMoon_3F_Pelea_Frank_texto6:
 	.string "mention how you ignored that scientist\l"
 	.string "who ultimately tricked you. That shady\l"
 	.string "prick must've gotten away with one of\l"
-	.string "the FOSSILs. You've become the class\l"
+	.string "the FOSSILS. You've become the class\l"
 	.string "clown, {PLAYER}. Your negligence has\l"
 	.string "cost us hundreds of thousands of POKÉ.\l"
 	.string "Do you have any idea how many years of\l"
@@ -882,15 +882,15 @@ MtMoon_3F_Pelea_Frank_texto8:
 	.string "your TEAM next!$"
 
 MtMoon_3F_Pelea_Frank_texto9:
-.string "Me? A HIGH RANK defeated by a mere\n"
-	.string "GRUNT?$"
+.string "Me? A HIGH-RANK?\n"
+	.string "Defeated by a no-name GRUNT?$"
 
 MtMoon_3F_Pelea_Frank_texto10:
 .string "This is inadmissible…$"
 
 MtMoon_3F_Pelea_Frank_texto11:
 	.string "Enough. The mission's over. Your balance\n"
-	.string "is down two FOSSILs. You'll be held\l"
+	.string "is down two FOSSILS. You'll be held\l"
 	.string "accountable by PETREL, so present\l"
 	.string "yourselves to him in the ROUTE 5 BASE.\l"
 	.string "And there, you'll be given your next\l"
@@ -898,7 +898,7 @@ MtMoon_3F_Pelea_Frank_texto11:
 
 MtMoon_3F_Pelea_Frank_texto12:
 	.string "ANDRA: Wow, you see that? Everyone's\n"
-	.string "just stunned. HIGH RANK FRANK's\l"
+	.string "just stunned. HIGH-RANK FRANK's\l"
 	.string "downright notorious for hazing the\l"
 	.string "newbies, but you held your ground and\l"
 	.string "faced him head on!$"

@@ -500,9 +500,9 @@ RocketHideout_6F_Petrel_Text_Mision_3.1:
 
 RocketHideout_6F_Petrel_Text_Mision_4:
 	.string "Once there, you'll be cleaning out all\n"
-	.string "the FOSSILs, MOON STONEs, NUGGETs, and\l"
+	.string "the FOSSILS, MOON STONEs, NUGGETs, and\l"
 	.string "any other valuables you find. Prioritize\l"
-	.string "the FOSSILs foremost. Their value on\l"
+	.string "the FOSSILS foremost. Their value on\l"
 	.string "the black market trump any POKÉMON we\l"
 	.string "could ever sell in the CELADON GAME\l"
 	.string "CORNER.$"
@@ -743,10 +743,10 @@ step_end
 RocketHideout_6F_Petrel_Text_Mision_2_1:
 	.string "PETREL: GRUNT {PLAYER}, we've gotten\n"
 	.string "word on your performance at MT. MOON.\l"
-	.string "HIGH RANK GRUNT FRANK's already told me\l"
+	.string "HIGH-RANK GRUNT FRANK's already told me\l"
 	.string "his side of the story-how we would've\l"
-	.string "gotten two more FOSSILs in our wallets.\l"
-	.string "Do you have any idea how much money\l"
+	.string "gotten two more FOSSILS in our wallets.\p"
+	.string "Do you have any idea how much money\n"
 	.string "that is, {PLAYER}? The projects and\l"
 	.string "resources we'd fund with that?$"
 
@@ -1389,8 +1389,8 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_15.2:
 	.string "tiempo{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
-.string "{PLAYER} got promoted to HIGH RANK\n"
-	.string "GRUNT!!$"
+.string "{PLAYER} got promoted to\n"
+	.string "HIGH-RANK GRUNT!!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "PETREL: To celebrate your new status\n"
@@ -1830,7 +1830,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
 	.string "PETREL: In addition, take this: twenty\n"
-	.string "GREAT BALLs for each of you. Recruits\l"
+	.string "GREAT BALLS for each of you. Recruits\l"
 	.string "like you need some means at their\l"
 	.string "disposal.$"
 

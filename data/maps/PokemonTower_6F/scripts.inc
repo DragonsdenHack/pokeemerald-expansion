@@ -201,7 +201,7 @@ PokemonTower_6F_Combate_Fuji_Texto_5:
 	.string "W-Wait old man, there is no need of…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
-.string "GRUNTs: HIGH RANK {PLAYER}!!\p"
+.string "GRUNTs: HIGH-RANK {PLAYER}!!\p"
 	.string "How opportunate!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_7:
@@ -218,7 +218,7 @@ PokemonTower_6F_Combate_Fuji_Texto_9:
 	.string "I disappointed you CUBONE, forgive me…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
-	.string "-{PLAYER} gave FUJI the CUBONE.-$"
+	.string "-{PLAYER} gave the CUBONE to FUJI.-$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10.1:
 .string "FUJI: {PAUSE 25}Oh…{PAUSE 25}Then…{PAUSE 25}You…?{PAUSE 25}$"

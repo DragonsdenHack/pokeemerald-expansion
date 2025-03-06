@@ -184,7 +184,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_5:
 	.string "You don't know what you're doing, ROCKET.\n"
 	.string "Your POKÉMON can't compete against the\l"
 	.string "best beasts in KANTO. Even if you're a\l"
-	.string "HIGH RANK or whatever you claim to be.\l"
+	.string "HIGH-RANK or whatever you claim to be.\l"
 	.string "My sea-caught POKÉMON have a\l"
 	.string "fierceness you can't even imagine.$"
 

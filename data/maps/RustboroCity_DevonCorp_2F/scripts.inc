@@ -316,7 +316,7 @@ RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKÉMON from fossils…\p"
+	.string "that resurrects POKÉMON from FOSSILS…\p"
 	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
@@ -334,11 +334,11 @@ RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "Oh, now that's a surprise!\n"
-	.string "You have not one, but two, fossils?\p"
+	.string "You have not one, but two, FOSSILS?\p"
 	.string "Unfortunately, my machine can only\n"
 	.string "regenerate one POKÉMON at a time.\p"
 	.string "Would you like to pick one of your\n"
-	.string "fossils for regeneration?$"
+	.string "FOSSILS for regeneration?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 	.string	"¡Maravilloso!\n"

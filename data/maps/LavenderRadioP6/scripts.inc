@@ -375,7 +375,7 @@ LavenderRadioP6_Reunion_Texto_7:
 	.string "the most interested parties.$"
 
 LavenderRadioP6_Reunion_Texto_8:
-	.string "BILL: Bah! He's obsessed with fossils\n"
+	.string "BILL: Bah! He's obsessed with FOSSILS\n"
 	.string "of limited potential. We've shown that\l"
 	.string "the future lies in PORYGON, MEWTWO, and\l"
 	.string "LEGENDARIES like the JOHTO BEASTS.$"

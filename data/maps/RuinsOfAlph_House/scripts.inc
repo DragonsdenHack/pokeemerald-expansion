@@ -145,7 +145,7 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_5:
 	.string "We know they have a small LABORATORY in\n"
 	.string "some city in JOHTO. I think they meant\l"
 	.string "ECRUTEAK CITY. That must be where they\l"
-	.string "have our FOSSILs. If you retrieve them,\l"
+	.string "have our FOSSILS. If you retrieve them,\l"
 	.string "I'll reward you properly.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_6:

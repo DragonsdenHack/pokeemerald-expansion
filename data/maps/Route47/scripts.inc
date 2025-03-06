@@ -266,7 +266,7 @@ Route47_Encuentro_Andra_Texto_7:
 	.string "west.$"
 
 Route47_Encuentro_Andra_Texto_8:
-	.string "See you {PLAYER}, keep your Pokémon\n"
+	.string "See you {PLAYER}, keep your POKÉMON\n"
 	.string "in shape!$"
 
 
