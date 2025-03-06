@@ -207,7 +207,7 @@ ResortGeorgeous_House1_Text_Consul_10:
 	.string "WAREHOUSE waiting to give you props.$"
 
 ResortGeorgeous_House1_Text_Consul_11:
-.string "Let's go, 'CONSUL'!!$
+.string "Let's go, 'CONSUL'!!$"
 
 ResortGeorgeous_House1_Text_Consul_12:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}\p"
