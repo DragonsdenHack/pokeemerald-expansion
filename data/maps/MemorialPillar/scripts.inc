@@ -59,26 +59,26 @@ release
 end
 
 MemorialPillar_Text_Onyx:
-.string "Aunque debieras vivir 3000 años, y\n"
-	.string "aún 10 veces otros tantos,\l"
-	.string "acuérdate siempre que no se pierde\l"
-	.string "otra vida que la que se vive y que\l"
-	.string "solo se vive la que se pierde.$"
+.string "Even if you should live 3000 years, and\n"
+    .string "even 10 times as many, always remember\l"
+    .string "that no more life is lost than the one\l"
+    .string "that is lived and that only the one\l"
+    .string "that is lost is lived.$"
 
 MemorialPillar_Text_Onyx_Texto_2:
-	.string "Así, la más larga vida y la más\n"
-	.string "corta vienen a reducirse a lo\l"
-	.string "mismo, el momento presente que se\l"
-	.string "vive es igual para todos, el que\l"
-	.string "se pierde también, y este que se\l"
-	.string "pierde llega a parecernos\l"
-	.string "indivisible.$"
+    .string "Thus, the longest life and the shortest\n"
+    .string "one come to be reduced to the same thing,\l"
+    .string "the present moment that is lived is the\l"
+    .string "same for everyone, the one that is lost\l"
+    .string "too, and this one that is lost comes to\l"
+    .string "seem indivisible to us.$"
 
 MemorialPillar_Text_Onyx_Texto_3:
-	.string "Y es que no se pierde ni el pasado\n"
-	.string "ni el futuro, puesto que lo que no\l"
-	.string "poseemos cómo podría\l"
-	.string "arrebatársenos.$"
+    .string "And the thing is{PAUSE 15}…{PAUSE 15}\p"
+    .string "It's not neither the past nor the\n"
+    .string "future is lost, since what we do not\l"
+    .string "possess, how could it be taken away\l"
+    .string "from us?$"
 
 
 MemorialPillar_Move_1:

@@ -258,8 +258,8 @@ PokemonTower1F_Agatha_Texto_5:
 	.string "years.$"
 
 PokemonTower1F_Agatha_Texto_6:
-	.string "By these days, even exorcists steer\n"
-	.string "clear of it.$"
+	.string "By these days, even CHANNELERS\n"
+	.string "steer clear of it.$"
 
 PokemonTower1F_Agatha_Texto_7:
 	.string "But you… you're the CHAMPION. You have\n"

@@ -89,80 +89,81 @@ emote_exclamation_mark
 step_end
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_1:
-	.string "Vaya, qué sorpresa. ¿Quién eres tú?$"
+    .string "Uh? I'm surpred.\p"
+	.string "Who are you?$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_2:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_3:
-	.string "Así que KANTO, vienes de muy lejos.$"
+	.string "So, KANTO you say?\p"
+	.string "That's quite far from here.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_4:
-	.string "Yo vivía antes en ARCHI7, decidí\n"
-	.string "mudarme a JOHTO cuando cerraron los\l"
-	.string "gimnasios.$"
+	.string "I used to live in the SEVII islands. I\n"
+	.string "moved here after the gyms closed.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_5:
-	.string "En esa época se hablaba de lo mucho que\n"
-	.string "se parecían esas dos regiones, aunque\l"
-	.string "cada vez queda menos de eso.$"
+	.string "Back in the day it was said a lot how\n"
+	.string "similar these two regions are; now the\n"
+	.string "differential is growing every day.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_6:
-	.string "Me pregunto si ARCHI7 también habrá\n"
-	.string "cambiado tanto. Solo hay una cosa de la\l"
-	.string "que me arrepiento…$"
+	.string "I wonder how much the SEVII islands\n"
+	.string "have changed nowadays. However, there's\n"
+	.string "a single thing I regret…$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_7:
-	.string "Y es no haber podido encontrar el\n"
-	.string "AMULETO de mi difunto POKÉMON.$"
+	.string "I never found the OVAL CHARM\n"
+	.string "of my deceased POKÉMON.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_8:
-	.string "Lo perdí un día, en lo profundo del\n"
-	.string "BOSQUE BAYA, y no volví a saber de él.$"
+	.string "I lost it in the BERRY FOREST a long\n"
+	.string "time ago, and I never saw it again.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_9:
-	.string "De eso hace ya más de una década.\p"
-	.string "Supongo que… tendré que aceptar que se\n"
-	.string "perdió para siempre.$"
+	.string "It's been more than a decade since that.\p"
+	.string "I think… it's time to let it go.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_10:
 	.string "{PAUSE 15}… {PAUSE 15}…$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_11:
-	.string "¡{PLAYER} entregó a exorcista el\n"
-	.string "AMULETO OVAL!$"
+	.string "{PLAYER} gave the OVAL CHARM\n"
+	.string "to the CHANNELER!$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_12:
-	.string "No{PAUSE 15}…{PAUSE 15} no es posible{PAUSE 15}…{PAUSE 15} vuelvo a tenerlo\n"
-	.string "entre mis manos.$"
+	.string "No{PAUSE 15}…{PAUSE 15} it can't be{PAUSE 15}…{PAUSE 15}\p"
+	.string "It has returned to my hands.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_13:
-	.string "Es{PAUSE 15}…{PAUSE 15} asombroso, solo alguien que conoce\n"
-	.string "todos los misterios de ISLA TERA podría\l"
-	.string "haberlo encontrado.$"
+	.string "It's{PAUSE 15}...{PAUSE 15} amazing, only someone who knows\n"
+	.string "every inch and mystery of THREE ISLAND\n"
+	.string "could possibly find it.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_14:
-	.string "Por desgracia, algunos de esos\n"
-	.string "misterios ya han quedado sepultados\l"
-	.string "para siempre, y solo están en la memoria\l"
-	.string "de unos pocos. Yo puedo mostrarte\l"
-	.string "alguno de esos misterios.$"
+	.string "Unfortunately, some of those mysteries\n"
+	.string "are long gone in the flow of time. Only a\n"
+	.string "few people remember them, and it won't\l"
+	.string "be like that forever. I can only show\l"
+	.string "you a few of them… the ones I know\l"
+	.string "about.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_15:
-	.string "¡HAS RECIBIDO UN MARSHADOW AL NV.80!$"
+	.string "YOU RECEIVED A LV.80 MARSHADOW!! $"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_16:
-	.string "Según el antiguo LÍDER de ISLA TERA,\n"
-	.string "ver uno es 100 veces más raro que\l"
-	.string "encontrar un POKÉMON variocolor.$"
+	.string "The ex-THREE ISLAND gym LEADER says\n"
+	.string "that finding one of these is a hundred\n"
+	.string "times harder than a shiny POKÉMON.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_17:
-	.string "Un explorador como tú seguro que es\n"
-	.string "justo lo que necesita este POKÉMON.$"
+	.string "An explorer like you is for sure what\n"
+	.string "this POKÉMON needs best.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_18:
-	.string "A veces, siento curiosidad por saber\n"
-	.string "qué ha sido de todo lo que dejé atrás en\l"
-	.string "ARCHI7, pero nunca me siento preparada\l"
-	.string "para volver a ese lugar.$"
+	.string "Sometimes, I feel curious about what is\n"
+	.string "now of everything I left behind in the\n"
+	.string "SEVII ISLANDS, but I've never felt\l"
+	.string "ready to return there.$"
 

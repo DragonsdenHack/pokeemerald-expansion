@@ -121,104 +121,101 @@ emote_exclamation_mark
 step_end
 
 SixIsland_Laboratorio_Acromo_Texto_1:
-	.string "????: Vaya, extraordinario.$"
+	.string "????: Well, this is indeed outstanding.$"
 
 SixIsland_Laboratorio_Acromo_Texto_2:
-	.string "Me complace saber que no soy el único\n"
-	.string "que se aventura más allá de la ley.$"
+	.string "It relieves me knowing that I'm not the\n"
+	.string "only willing to go further than the law.$"
 
 SixIsland_Laboratorio_Acromo_Texto_3:
-	.string "Este lugar, al igual que otros del\n"
-	.string "archipiélago, es un misterio.$"
+	.string "This place, more like the whole\n"
+	.string "archipelago, is a mystery.$"
 
 SixIsland_Laboratorio_Acromo_Texto_4:
-	.string "Yo provengo de una región lejana, y he\n"
-	.string "podido comprobar que muchas de sus\l"
-	.string "especies se hallan aquí también.$"
+	.string "I come from a distant region, and I have\n"
+	.string "seen that a lot of its species can be\n"
+	.string "found here as well.$"
 
 SixIsland_Laboratorio_Acromo_Texto_5:
-	.string "El investigar esta curiosa conexión es\n"
-	.string "lo que me ha llevado a quedarme en este\l"
-	.string "claro oculto.$"
+	.string "It is nothing but this peculiar\n"
+	.string "connection that made me stay in this\n"
+	.string "hidden clearing.$"
 
 SixIsland_Laboratorio_Acromo_Texto_6:
-	.string "Parece que también eres un alma\n"
-	.string "inquieta, ¿verdad? Tal vez tú hayas\l"
-	.string "encontrado algo que pueda ayudarme en\l"
-	.string "mi investigación.$"
+	.string "It looks like you're an uneasy soul as\n"
+	.string "well, aren't you? In fact, you may have\n"
+	.string "found something that could help my\l"
+	.string "investigations.$"
 
 SixIsland_Laboratorio_Acromo_Texto_7:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 SixIsland_Laboratorio_Acromo_Texto_8:
-	.string "Mmm{PAUSE 20}…{PAUSE 20} No.$"
+	.string "Mhhh{PAUSE 20}…{PAUSE 20} No.$"
 
 SixIsland_Laboratorio_Acromo_Texto_9:
-	.string "Si crees encontrar algo que pueda\n"
-	.string "arrojar luz a mi investigación, ven a\l"
-	.string "verme. Te recompensaré con un POKÉMON\l"
-	.string "muy especial.$"
+	.string "If you ever find something that you\n"
+	.string "think may help my work here, come to\n"
+	.string "visit me. I shall reward you with a very\l"
+	.string "special POKÉMON.$"
 
 SixIsland_Laboratorio_Acromo_Texto_10:
-	.string "¿Has descubierto algo?$"
+	.string "Did you find anything?$"
 
 SixIsland_Laboratorio_Acromo_Texto_11:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 SixIsland_Laboratorio_Acromo_Texto_12:
-	.string "Mmm{PAUSE 10}…{PAUSE 10} Ese METEORITO{PAUSE 10}…{PAUSE 10} Dime, ¿de dónde\n"
-	.string "sale?$"
+	.string "Mhh{PAUSE 10}…{PAUSE 10}\n"
+	.string "This METEORITE{PAUSE 10}…{PAUSE 10}\n"
+	.string "Where did you get it?$"
 
 SixIsland_Laboratorio_Acromo_Texto_13:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 SixIsland_Laboratorio_Acromo_Texto_14:
-	.string "Así que CUEVA CAMBIANTE.\p"
-	.string "Muy interesante.$"
+	.string "So… the ALTERING CAVE…\p"
+	.string "Very interesting.$"
 
 SixIsland_Laboratorio_Acromo_Texto_15:
-	.string "Creo que es justo lo que andaba\n"
-	.string "buscando. Con ello, estaré más cerca\l"
-	.string "de encontrar la razón de toda esta\l"
-	.string "biodiversidad.$"
+	.string "I think this is exactly what I was\n"
+	.string "looking for. Thanks to it, I'll be one\n"
+	.string "step nearer to the answers I'm seeking\l"
+	.string "about all this biodiversity.$"
 
 SixIsland_Laboratorio_Acromo_Texto_16:
-	.string "¡¡{PLAYER} entregó el METEORITO a\n"
-	.string "científico misterioso!!$"
+	.string "{PLAYER} gave the METEORITE to the\n"
+	.string "mysterious scientist!!$"
 
 SixIsland_Laboratorio_Acromo_Texto_17:
-	.string "¡Oh! Sorprendente. Me lo entregas sin\n"
-	.string "vacilar; eso quiere decir que, como\l"
-	.string "ENTRENADOR, debes sentirte completo.$"
+	.string "Oh!$"
 
 SixIsland_Laboratorio_Acromo_Texto_18:
-	.string "Al final de todo, mi meta es la de\n"
-	.string "desarrollar al máximo el potencial de\l"
-	.string "los POKÉMON, y tú me has acercado más a\l"
-	.string "ella.$"
+	.string "In the end, my only purpose is reaching\n"
+	.string "the maximum in terms of the potential\n"
+	.string "of a POKÉMON, and you have pushed me\l"
+	.string "nearer to my objective.$"
 
 SixIsland_Laboratorio_Acromo_Texto_19:
-	.string "Te ruego que aceptes este POKÉMON,\n"
-	.string "como muestra de mi agradecimiento.$"
+	.string "Accept this POKÉMON as a reward.\n"
+	.string "I am deeply grateful.$"
 
 SixIsland_Laboratorio_Acromo_Texto_20:
-	.string "¡¡OBTUVISTE UN DURALUDON AL NV.50!!$"
+	.string "YOU RECEIVED A LV.50 DURALUDON!!$"
 
 SixIsland_Laboratorio_Acromo_Texto_21:
-	.string "Este POKÉMON es digno de estudio,\n"
-	.string "créeme. No se lleva muy bien con\l"
-	.string "TYRANITAR, y según mis avances, puede\l"
-	.string "alcanzar un potencial aún mayor.$"
+	.string "This POKÉMON is worth studying, trust\n"
+	.string "me. It won't befriend a TYRANITAR, and\n"
+	.string "as I discovered, it can reach an even\l"
+	.string "greater potential.$"
 
 SixIsland_Laboratorio_Acromo_Texto_22:
-	.string "¿Cómo lograrlo? Es todo un misterio,\n"
-	.string "al menos por ahora.$"
+	.string "How?\n"
+	.string "That's a mystery…{PAUSE 25} For now.$"
 
 SixIsland_Laboratorio_Acromo_Texto_23:
-	.string "Si realmente existe un cénit\n"
-	.string "inalcanzable mediante la interacción\l"
-	.string "con los POKÉMON, resulta razonable\l"
-	.string "pensar que se puede alcanzar mediante\l"
-	.string "métodos científicos y no\l"
-	.string "sentimentales. ¿No estás de acuerdo?$"
+	.string "If there really is a peak, unreachable\n"
+	.string "by interacting with POKÉMON, don't you\n"
+	.string "think it may be reachable by scientific\l"
+	.string "methods rather than emotional ones?$"
 

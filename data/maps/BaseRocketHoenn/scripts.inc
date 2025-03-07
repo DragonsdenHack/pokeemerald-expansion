@@ -2626,12 +2626,11 @@ BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4:
 	.string "que inicie su aventura por HOENN.$"
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.1:
-	.string "Observe.$"
+	.string "Watch out.$"
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4.2:
-	.string "La LLAVE que le he dado abre también\n"
-	.string "esa puerta, sirve de atajo para llegar\l"
-	.string "al DESPACHO, si así lo desea.$"
+	.string "This KEY opens that door as well, and\n"
+	.string "it's a shortcut to your OFFICE.$"
 
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:

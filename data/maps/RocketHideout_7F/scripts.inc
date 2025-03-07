@@ -1125,18 +1125,18 @@ RocketHideout7FDocumento_Text_Latias:
 	.string "TOTAL: 600$"
 
 RocketHideout7FDocumento_Text_Latias_1:
-	.string "Junto con LATIOS, forma uno de los dúos\n"
-	.string "LEGENDARIOS más esquivos para el\l"
-	.string "humano. Cuenta con mayor eficiencia,\l"
-	.string "pero menor poder ofensivo que su\l"
-	.string "hermano.$"
+	.string "Along with LATIOS, it forms one of the\n"
+	.string "most evasive LEGENDARY duo for the\n"
+	.string "human eye. Is more efficient than her\l"
+	.string "brother, but she's second in the\l"
+	.string "offensive.$"
 
 RocketHideout7FDocumento_Text_Latias_2:
-	.string "Sus números son similares a los de un\n"
-	.string "PSEUDOLEGENDARIO con buen reparto de\l"
-	.string "STATs, sin embargo, equipado con el\l"
-	.string "ROCÍO BONDAD alcanza cotas de\l"
-	.string "LEGENDARIO MAYOR.$"
+	.string "Its numbers are similar to a PSEUDO\n"
+	.string "LEGENDARY, with a good stats division;\n"
+	.string "however, if you give him the SOUL DEW, it\l"
+	.string "will rise to the levels of a MAJOR\l"
+	.string "LEGENDARY.$"
 
 RocketHideout7FDocumento_Latios::
 lock     
@@ -1160,18 +1160,17 @@ RocketHideout7FDocumento_Text_Latios:
 	.string "TOTAL: 600$"
 
 RocketHideout7FDocumento_Text_Latios_1:
-	.string "Junto con LATIAS, forma uno de los dúos\n"
-	.string "LEGENDARIOS más esquivos para el\l"
-	.string "humano. Cuenta con menor eficiencia,\l"
-	.string "pero mayor poder ofensivo que su\l"
-	.string "hermana.$"
+	.string "Along with LATIAS, it forms one of the\n"
+	.string "most evasive LEGENDARY duo for the\n"
+	.string "human eye. Is not as efficient as his\l"
+	.string "sister, but he wins in the offensive.$"
 
 RocketHideout7FDocumento_Text_Latios_2:
-	.string "Sus números son similares a los de un\n"
-	.string "PSEUDOLEGENDARIO con buen reparto de\l"
-	.string "STATs, sin embargo, equipado con el\l"
-	.string "ROCÍO BONDAD alcanza cotas de\l"
-	.string "LEGENDARIO MAYOR.$"
+	.string "Its numbers are similar to a PSEUDO\n"
+	.string "LEGENDARY, with a good stats division;\n"
+	.string "however, if you give him the SOUL DEW, it\l"
+	.string "will rise to the levels of a MAJOR\l"
+	.string "LEGENDARY.$"
 
 
 RocketHideout7FDocumento_123::
@@ -2973,11 +2972,11 @@ release
 end
 
 RocketHideout7F_27_Text_1:
-	.string "GIOVANNI es muy exigente con todos\n"
-	.string "nosotros. Trabajamos día y noche,\l"
-	.string "aunque nunca nos pide más de lo que él\l"
-	.string "mismo está dispuesto a dar.$"
+	.string "GIOVANNI is a very demanding man. We\n"
+	.string "work from dawn to dusk and from dusk to\n"
+	.string "dawn. However, he never demands us to\l"
+	.string "do more than he's willing to do himself.$"
 
 RocketHideout7F_27_Text_2:
-	.string "Por eso, hay veces que necesito un\n"
-	.string "empujón extra para mantener el ritmo.$"
+	.string "That's why I sometimes need a little\n"
+	.string "push, so I can keep the pace.$"
