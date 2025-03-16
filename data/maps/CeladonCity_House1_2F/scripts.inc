@@ -94,10 +94,10 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
 	.string "Someone like you can't do anything\n"
 	.string "against my POKÉMON, raised for giving a\l"
 	.string "good show. You're no one even in this\l"
-	.string "organization. What are you gonna do?\l"
-	.string "Use BITE with your paper ZUBAT that\l"
-	.string "will be ONE-SHOT as soon as I order my\l"
-	.string "SANDSLASH crush you with his SLASH?$"
+	.string "organization. What are you gonna do?\p"
+	.string "Will you use BITE with a weak ZUBAT?\p"
+	.string "I'll crush that bagel as soon as I\n"
+	.string "order my SANDSLASH to use SLASH!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6:
 	.string "You can still change your mind, you're\n"

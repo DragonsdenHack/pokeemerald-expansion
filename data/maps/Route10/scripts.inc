@@ -317,8 +317,8 @@ Route10_Combate_Andra_Texto_4.1:
 Route10_Combate_Andra_Texto_4.2:
 	.string "Todo apunta a que ciertas prácticas\n"
 	.string "poco éticas se llevaron a cabo en este\l"
-	.string "lugar.\l"
-	.string "Sea como sea, no he podido averiguar\l"
+	.string "lugar.\p"
+	.string "Sea como sea, no he podido averiguar\n"
 	.string "más; la policía llegó hace poco con una\l"
 	.string "orden oficial de protección, guarda y\l"
 	.string "custodia firmada por el COMITÉ de la\l"
@@ -341,16 +341,16 @@ Route10_Combate_Andra_Texto_6:
 	.string "interior, un ser capaz de generar\l"
 	.string "energía casi infinita, ¿existirá\l"
 	.string "un POKÉMON ELÉCTRICO de esas\l"
-	.string "características?\l"
-	.string "Si tan solo hubiera podido\l"
+	.string "características?\p"
+	.string "Si tan solo hubiera podido\n"
 	.string "adentrarme un poco más{PAUSE 5}…{PAUSE 5}$"
 
 Route10_Combate_Andra_Texto_7:
 .string "Podríamos proponerle a GIOVANNI un\n"
 	.string "asalto a la CENTRAL, a su debido\l"
 	.string "tiempo claro, primero deberemos de\l"
-	.string "demostrarle lo que valemos.\l"
-	.string "Pero{PAUSE 15}…{PAUSE 15} un POKÉMON con esa presencia\l"
+	.string "demostrarle lo que valemos.\p"
+	.string "Pero{PAUSE 15}…{PAUSE 15} un POKÉMON con esa presencia\n"
 	.string "debe ser muy fuerte, quizás nuestros\l"
 	.string "superiores de KANTO sepan algo más.$"
 
@@ -365,12 +365,12 @@ Route10_Combate_Andra_Texto_8:
 
 Route10_Combate_Andra_Texto_8.1:
 	.string "Pero{PAUSE 25}…{PAUSE 25} ¿sabes qué?\n"
-	.string "Yo no me he quedado atrás, {PLAYER}.\l"
-	.string "Te dije que sería la ROCKET más\l"
+	.string "Yo no me he quedado atrás, {PLAYER}.\p"
+	.string "Te dije que sería la ROCKET más\n"
 	.string "fuerte de toda la organización y\l"
 	.string "lo mantengo; ya somos RECLUTAS DE\l"
-	.string "ALTO RANGO, la cuestión es{PAUSE 15}…{PAUSE 15}\l"
-	.string "¿¡qué ALTO RANGO es\l"
+	.string "ALTO RANGO, la cuestión es{PAUSE 15}…{PAUSE 15}\p"
+	.string "¿¡Qué ALTO RANGO es\n"
 	.string "mejor ENTRENADOR?!$"
 
 Route10_Combate_Andra_Texto_9:
@@ -398,10 +398,10 @@ Route10_Combate_Andra_Texto_11.1:
 	.string "en el MT.MOON!$"
 
 Route10_Combate_Andra_Texto_12:
-.string "ANDRA: Bah, me vuelvo al cuartel.\n"
-	.string "La máquina teletransportadora debe\l"
+.string "ANDRA: Bah, me vuelvo al cuartel.\p"
+	.string "La máquina teletransportadora debe\n"
 	.string "estar casi lista, ultima tus\l"
-	.string "preparativos y no tardes:\l"
+	.string "preparativos y no tardes:\p"
 	.string "¡CIUDAD AZULONA ESPERA!$"
 
 Route10_Combate_Andra_move_1:

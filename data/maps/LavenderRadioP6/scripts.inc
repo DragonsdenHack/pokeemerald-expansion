@@ -746,7 +746,6 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.4:
 	.string "Y todo esto de las ondas de radio, a\n"
 	.string "mí me genera inquietud{PAUSE 5}…{PAUSE 5}$"
 
-
 LavenderRadioP6_Encuentro_Andra_Texto_3:
 .string "Ya hemos estado en esta situación\n"
 	.string "muchas veces, {PLAYER}. Estar\l"

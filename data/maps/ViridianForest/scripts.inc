@@ -276,7 +276,6 @@ ViridianForest_Combate_Guays_Texto_2:
 	.string "the mostly of mediocre bugcatchers\l"
 	.string "around this place can't even imagine.$"
 
-
 ViridianForest_Combate_Guays_Texto_3:
 	.string "VERO: I know who you are, you were at\n"
 	.string "ROCK TUNNEL when the rumor of there\l"
@@ -338,14 +337,14 @@ ViridianForest_Combate_Guays_Texto_13:
 	.string "the rest of our POKÉMON!$"
 
 ViridianForest_Combate_Guays_Texto_14:
-	.string "JUAN: Ok let's head out VERO, I have\n"
-	.string "heard that on JOHTO there are bugs\l"
+	.string "JUAN: Ok let's head out, VERO.\p"
+	.string "I heard in JOHTO there are some bugs\n"
 	.string "even better than the ones here, and an\l"
 	.string "old man will give you a DRATINI if you\l"
 	.string "can complete his quest.$"
 
 ViridianForest_Combate_Guays_Texto_15:
-.string "VERO: No more talking then.\n"
+.string "VERO: No more talking, then.\p"
 	.string "To the next destination!$"
 
 ViridianForest_Combate_Guays_Move_1:

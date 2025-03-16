@@ -9,8 +9,8 @@ release
 end
 
 ViridianCity_School_Text_1:
-.string "This is so boring!\n"
-.string "Why do I have to learn\l"
+.string "This is so boring!\p"
+.string "Why do I have to learn\n"
 .string "that in spanish?$"
 
 
@@ -23,6 +23,6 @@ release
 end
 
 ViridianCity_School_Text_2:
-.string "I already explained it!\n"
-.string "Everyone asks for your Spanish level\l"
+.string "I already explained it!\p"
+.string "Everyone asks for your Spanish level\n"
 .string "in nowadays, so dont complain!$"

@@ -34,16 +34,11 @@ Route35House_Text_TakeNosepass:
 	.string "always been SPECIAL DEFENSE, but I\l"
 	.string "know one that's notable for it.$"
 
-
-
 Route35House_Text_TakeNosepass2:
 	.string "Look!$"
 
-
-
 Route35House_Text_MensajeNosepass:
 .string "YOU OBTAINED A LV.25 NOSEPASS!$"
-
 
 Route35House_Text_1:
 	.string "Although its attacking prowess is\n"

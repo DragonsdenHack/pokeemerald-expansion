@@ -72,10 +72,7 @@ FourIsland_House1_Entrenador_Especial_Texto_3:
 	.string "it generates quite substantial damage\l"
 	.string "simply for enduring the hit. Can you\l"
 	.string "picture a CLEFABLE using DOUBLE SLAP\l"
-	.string "against a FERROTHORN wearing this\l"
-	.string "HELMET? We'd have to rush the CLEFABLE\l"
-	.string "to the hospital before the FERROTHORN\l"
-	.string "even makes a move!$"
+	.string "against a ROCKY HELMET FERROTHORN?$"
 
 FourIsland_House1_Entrenador_Especial_Texto_4:
 	.string "Well! I'll show you!$"

@@ -278,11 +278,11 @@ MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-	.string "MAXIE: You again, I warned you once,\n"
-	.string "and I won't do it again. I have more\l"
-	.string "important things to do.\p"
-	.string "HIGH-RANK KAREN! Don't let him go\n"
-	.string "past this point!$"
+	.string "MAXIE: You again?\p"
+	.string "I warned you once, and I won't do\n"
+	.string "it again.\p"
+	.string "HIGH-RANK KAREN! Don't let\n"
+	.string "him go past this point!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_8:
 	.string "HR.KAREN: I won't let him touch you, sir.$"

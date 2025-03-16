@@ -288,7 +288,6 @@ MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
 	.string	"El despegue ha sido todo un éxito.\n"
 	.string	"Con éste ya son un total de {STR_VAR_1}.$"
 
-
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
 	.string	"Ya sé que hay mucho lío\n"
 	.string	"en este momento, pero…\p"

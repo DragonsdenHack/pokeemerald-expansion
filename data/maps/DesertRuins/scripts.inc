@@ -594,6 +594,7 @@ applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_3
 applymovement 2, DesertRuins_Evento_Andra_Move_8
 waitmovement 0x0
 playse SE_EXIT
+clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2
 removeobject 2
 setvar VAR_UNUSED_0x40F7, 189
@@ -666,8 +667,8 @@ DesertRuins_Evento_Andra_Texto_4:
 	.string "well. Any thoughts on who it might be?$"
 
 DesertRuins_Evento_Andra_Texto_5:
-	.string "We should be careful, {PLAYER}. Let's\n"
-	.string "enter together.$"
+	.string "We should be careful, {PLAYER}.\p"
+	.string "Let's enter together.$"
 
 
 DesertRuins_Dialogo_Regirock::
@@ -677,8 +678,8 @@ release
 end
 
 DesertRuins_Dialogo_Regirock_Texto_1:
-.string "The POKÉMON seems to be deeply asleep.\n"
-	.string "Better not to disturb it.$"
+.string "-The POKÉMON seems to be deeply asleep.\n"
+	.string "Better not to disturb it.-$"
 
 
 Bloqueo_Neo_Canela::

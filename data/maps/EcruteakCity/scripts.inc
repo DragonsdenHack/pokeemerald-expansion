@@ -51,9 +51,9 @@ end
 
 EcruteakCity_Text_5:
 	.string "The trace of history is still evident in\n"
-	.string "places like this. We can no longer\l"
-	.string "change what it was, but we can learn\l"
-	.string "from it.$"
+	.string "places like this.\p"
+	.string "We can no longer change what it was,\n"
+	.string "but we can learn from it.$"
 
 
 
@@ -84,12 +84,12 @@ EcruteakCity_Text_8:
 	.string "what your eyes have seen. You can take\l"
 	.string "pictures, and they can hear the birds\l"
 	.string "chirping or the snow rustling the\l"
-	.string "branches of the trees. You can write\l"
-	.string "about it, and they might even feel the\l"
-	.string "wind on their face or the scent of wet\l"
-	.string "earth. But you can never make them feel\l"
+	.string "branches of the trees.\p"
+	.string "You can write it, and they might even feel\n"
+	.string "the wind on their face.\p"
+	.string "But you can never make them feel\n"
 	.string "the emotion that you felt by being\l"
-	.string "present.$"
+	.string "in the present moment.$"
 
 
 
@@ -176,8 +176,6 @@ EcruteakCityDocumento_Text_101:
 	.string "LEADER: JADEN\l"
 	.string "A past legend\l"
 	.string "in present days!$"
-
-
 
 
 EcruteakCityDocumento_102::
@@ -665,7 +663,6 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_22:
 	.string "those accustomed to seeing GASTLY and\l"
 	.string "HAUNTER in LAVENDER TOWN TOWER could\l"
 	.string "never imagine in a GHOST-TYPE PÓKÉMON.$"
-
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_23:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"

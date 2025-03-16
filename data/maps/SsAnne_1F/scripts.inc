@@ -147,7 +147,7 @@ release
 end
 
 SsAnne_1F_Acabado_Text_1:
-.string "(I have nothing else to do here.)$"
+.string "-I have nothing else to do here.-$"
 
 
 SsAnne_1F_Acabado_move_1:

@@ -40,8 +40,8 @@ release
 end
 
 TwoIsland_Torre_P1_Trabajador_Texto_1:
-.string "Who are you?\n"
-	.string "As long as you leave me working alone, I\l"
+.string "Who are you?\p"
+	.string "As long as you leave me working alone, I\n"
 	.string "won't do anything to you for now,\l"
 	.string "someone else will deal with you.$"
 

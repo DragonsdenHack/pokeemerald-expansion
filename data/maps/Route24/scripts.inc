@@ -113,7 +113,6 @@ Route24_Recluta_text_1:
 	.string "gullible TRAINERs over there think it's\l"
 	.string "just some social initiative. How dumb!$"
 
-
 Route24_Recluta_text_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
@@ -132,18 +131,18 @@ Route24_Recluta_text_3:
 Route24_Recluta_text_4:
 	.string "You'll find him at the end of CERULEAN\n"
 	.string "CAPE, just east of ROUTE 25. Here's to\l"
-	.string "your success, comrade. None of us at\l"
-	.string "TEAM ROCKET can stand BILL's guts,\l"
+	.string "your success, comrade. None of us, at\l"
+	.string "TEAM ROCKET, can stand BILL's guts,\l"
 	.string "egotistical, elitist brat that he is. Got\l"
 	.string "himself a swelled head just 'cuz he's\l"
-	.string "dropped the dosh for rare POKÉMON.\l"
+	.string "dropped the dosh for rare POKÉMON.\p"
 	.string "Knock him down a peg for us!$"
 
 Route24_Recluta_text_5:
 	.string "You did it! I'd have paid good money to\n"
 	.string "see BILL's face as his prized purchases\l"
-	.string "got trounced by a ROCKET. You've\l"
-	.string "honored our name!$"
+	.string "got trounced by a ROCKET.\p"
+	.string "You've honored our name!$"
 
 
 Route24_Recluta_move1:

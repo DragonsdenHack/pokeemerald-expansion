@@ -28,8 +28,8 @@ RocketHideout7F_Text_2:
 	.string "believes in the non-existence of a\l"
 	.string "POKÉMON with 680 BASE STATs. They\l"
 	.string "attribute this to the undiscovered\l"
-	.string "latent power of MEW, which they worship.\l"
-	.string "According to them, this power, if gets\l"
+	.string "latent power of MEW, which they worship.\p"
+	.string "According to them, this power, if gets\n"
 	.string "revealed, would exceed the historical\l"
 	.string "680 base barrier.$"
 
@@ -123,15 +123,15 @@ RocketHideout7F_Text_8:
 	.string "highest legendaries number are, It's\l"
 	.string "the one we know the least about due how\l"
 	.string "far is and a poor connection, but many\l"
-	.string "of the POKÉMON that are there are\l"
-	.string "really interesting, seems like -150- is\l"
-	.string "the ensign of the region legendaries, it\l"
-	.string "repeats in the GROUDON attack, the\l"
-	.string "KYOGRE special attack, REGISTEEL\l"
-	.string "defenses, DEOXYS speed or both\l"
-	.string "RAYQUAZA attacks, like a symbol,\l"
-	.string "-anyone with this digit has a huge\l"
-	.string "skill-, and it is.$"
+	.string "of the POKÉMON that are there are really\l"
+	.string "interesting, seems like - 150 - is the\l"
+	.string "- GOLDEN NUMBER - for MAJOR LEGENDARIES.\p"
+	.string "GROUDON BASE ATTACK, both REGISTEEL\n"
+	.string "defenses, KYOGRE BASE SP. ATK, DEOXYS\l"
+	.string "speed or both RAYQUAZA attacks.\p"
+	.string "It seems to be a symbol, like if\n"
+	.string "'anyone with this digit is sacred,\l"
+	.string "legendary-. Indeed, it is.$"
 
 
 
@@ -163,8 +163,8 @@ RocketHideout7F_Text_10:
 	.string "The fact is that exists another\n"
 	.string "POKÉMON that could be in this HOENN\l"
 	.string "list of the best BASE STATs POKÉMON\l"
-	.string "and even taking the first places:\l"
-	.string "SLAKING, with 670 BASE STATs,\l"
+	.string "and even taking the first places:\p"
+	.string "SLAKING, with 670 BASE STATs,\n"
 	.string "nevertheless we consider an affront\l"
 	.string "and a disagreeable joke the existence\l"
 	.string "of a POKÉMON with those numbers and an\l"
@@ -269,7 +269,7 @@ end
 RocketHideout7F_Text_15:
 	.string "We didn't believe that in nature there\n"
 	.string "could exist a POKÉMON that matched\l"
-	.string "MEWTWO in sheer power, but it turns out\l"
+	.string "MEWTWO in raw power, but it turns out\l"
 	.string "that JOHTO has two with those\l"
 	.string "characteristics. We've tried multiple\l"
 	.string "times to find the location of LUGIA and\l"
@@ -306,7 +306,7 @@ RocketHideout7F_Text_17:
 	.string "would have the most powerful POKÉMON\l"
 	.string "that could ever exist. Obviously, there\l"
 	.string "isn't even close to a body that could\l"
-	.string "tolerate all those combined virtues.\l"
+	.string "tolerate all those combined virtues.\p"
 	.string "The opportunity cost is tough, buddy!$"
 
 
@@ -644,8 +644,8 @@ RocketHideout7FDocumento_Text_106:
 	.string "that peaks the 255 BASE STATs of HP, if\l"
 	.string "we ignore it 10 STATs of physical\l"
 	.string "attack, all of it functional STATs are\l"
-	.string "higher than all pseudo-legendary and\l"
-	.string "mostly of legendaries.$"
+	.string "higher than all PSEUDO-LEGENDARY and\l"
+	.string "mostly of LEGENDARIES.$"
 
 
 
@@ -835,8 +835,8 @@ RocketHideout7FDocumento_Text_113:
 	.string "The phoenix bird from JOHTO and the\n"
 	.string "proof of a perfect harmony between\l"
 	.string "humans and POKÉMON is possible, its\l"
-	.string "grand natural strength rivals MEWTWO.\l"
-	.string "Closely related with JOHTO history and\l"
+	.string "grand natural strength rivals MEWTWO.\p"
+	.string "Closely related with JOHTO history and\n"
 	.string "mythology, it has the max 680 base\l"
 	.string "STATs as LUGIA and RAYQUAZA, one of\l"
 	.string "the best combinations that the\l"
@@ -895,8 +895,8 @@ RocketHideout7FDocumento_Text_115:
 	.string "common POKÉMON or a kind of MINOR\l"
 	.string "LEGENDARY. Its origins as FEEBAS shows\l"
 	.string "that it is indeed non-legendary,\l"
-	.string "therefore being the most powerful ever\l"
-	.string "registered.$"
+	.string "therefore being the most powerful\l"
+	.string "ever registered.$"
 
 
 
@@ -1005,15 +1005,15 @@ RocketHideout7FDocumento_Text_119:
 	.string "SP. DEF: 80\l"
 	.string "SPEED: 100\l"
 	.string "TOTAL: 600\p"
-	.string "The offensive version of DRAGONITE in\n"
-	.string "HOENN. It is feared by the greatest\l"
-	.string "part of POKÉMON in that region due to\l"
-	.string "its powerful Outrages combined with\l"
-	.string "Flamethrowers, backed by a base Special\l"
-	.string "Attack of 110 and a Speed of 100, give\l"
-	.string "it one of the best coverages and\l"
-	.string "combinations of statistics ever seen in\l"
-	.string "a non-legendary POKÉMON.$"
+	.string "The offensive version of DRAGONITE.\p"
+	.string "It is feared by the greatest part\n"
+	.string "of POKÉMON in that region due to\l"
+	.string "its powerful OUTRAGE, combined with\l"
+	.string "FLAMETHROWER, backed by a BASE 110\l"
+	.string "SP. ATTACK, and a BASE 100 SPEED.\p"
+	.string "Has one of the best coverages and\n"
+	.string "combinations of statistics ever seen\l"
+	.string "in a non-legendary POKÉMON.$"
 
 
 
@@ -1193,9 +1193,9 @@ RocketHideout7FDocumento_Text_123:
 	.string "TOTAL: 670\p"
 	.string "The creator of the continents and\n"
 	.string "owner of colossal physical power. His\l"
-	.string "ability -DROUGHT- will mitigate his\l"
-	.string "weakness to the WATER TYPE. The force\l"
-	.string "of his Earthquakes knows no equal.$"
+	.string "ability - DROUGHT - will mitigate his\l"
+	.string "weakness to the WATER TYPE. The power\l"
+	.string "of his GROUND MOVES are unmatched.$"
 
 
 
@@ -1219,9 +1219,9 @@ RocketHideout7FDocumento_Text_124:
 	.string "TOTAL: 670\p"
 	.string "The creator of the seas and owner of\n"
 	.string "immense special power. Its ability\l"
-	.string "DRIZZLE will turn the Water spout and\l"
-	.string "Surf of this POKÉMON into apocalyptic\l"
-	.string "hues, while its THUNDER will never fail.$"
+	.string "- DRIZZLE - will turn moves like SURF\l"
+	.string "and WATER SPOUT into apocalyptic hues,\l"
+	.string "while its THUNDER will never fail.$"
 
 
 
@@ -1250,7 +1250,7 @@ RocketHideout7FDocumento_Text_125:
 	.string "and the most devastating flying\l"
 	.string "attacks that exist. It enters, along\l"
 	.string "with HO-OH and LUGIA, at the top of the\l"
-	.string "680 base, the best combination that\l"
+	.string "680 BASE, the best combination that\l"
 	.string "the arbitrary and capricious conditions\l"
 	.string "of nature have shown us so far.$"
 
@@ -2581,8 +2581,8 @@ emote_exclamation_mark
 step_end
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
-.string "{PLAYER} received a &-DETECTOR from\n"
-	.string "GIOVANNI!!$"
+.string "{PLAYER} received a &-DETECTOR\n"
+	.string "from GIOVANNI!!$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1:
 .string "Supongo que, después de lo ocurrido\n"

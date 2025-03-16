@@ -155,13 +155,13 @@ MtSilver_Combate_Andra_Texto_12:
 
 MtSilver_Combate_Andra_Texto_13:
 	.string "I'll be hanging around JOHTO a bit.\n"
-	.string "GIOVANNI wants me here for now. I think\l"
-	.string "he can tell a storm's brewing. I'm\l"
-	.string "intrigued too. We haven't gotten even a\l"
-	.string "blip after that earthquake on SEVEN\l"
-	.string "ISLAND-or seen LUGIA or HO-OH, for that\l"
-	.string "matter. And that enigmatic ESSENCE\l"
-	.string "POKÉMON remains elusive…$"
+	.string "GIOVANNI wants me here for now; I think\l"
+	.string "he can tell a storm's brewing.\p"
+	.string "I'm intrigued, too. We haven't gotten\n"
+	.string "even a blip after that earthquake on\l"
+	.string "SEVEN ISLAND, same with LUGIA and HO-OH.\p"
+	.string "And the ESSENCE POKÉMON{PAUSE 15}…{PAUSE 15}\p"
+	.string "Remains an unknown…$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark

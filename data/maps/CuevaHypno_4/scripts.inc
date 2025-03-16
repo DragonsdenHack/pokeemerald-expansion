@@ -77,7 +77,6 @@ CuevaHypno_4_Lider_Texto_3:
 	.string "there, back when LAVENDER TOWN had\l"
 	.string "one.$"
 
-
 CuevaHypno_4_Lider_Texto_4:
 	.string "AGATHA and I were the top students of\n"
 	.string "the only CHAMPION in the region who\l"
@@ -112,7 +111,6 @@ CuevaHypno_4_Lider_Texto_8:
 	.string "training is something I would do even if\l"
 	.string "I were alone on a deserted island, until\l"
 	.string "the end of my days.$"
-
 
 CuevaHypno_4_Lider_Texto_9:
 	.string "This is not the right place for a battle.\n"

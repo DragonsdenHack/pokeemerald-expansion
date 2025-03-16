@@ -13,8 +13,8 @@ release
 end
 
 SeafoamIslands5F_6_texto_1:
-	.string "(Apparently this rock blocks the strong\n"
-	.string "currents here).$"
+	.string "-Apparently this rock blocks the strong\n"
+	.string "currents here.-$"
 
 
 

@@ -116,7 +116,6 @@ msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_AUTOCLOSE
 release
 end
 
-
 Curacion_Centros_Pokemon_Kanto_Texto_1:
     .string "Hello, and welcome to\n"
     .string "the POKÉMON CENTER.\p"

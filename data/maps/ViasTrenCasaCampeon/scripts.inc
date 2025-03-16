@@ -240,7 +240,6 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
 	.string "Ah{PAUSE 15}…{PAUSE 15} You are {PLAYER}, aren't you?$"
 
-
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
 	.string "To be honest, I didn't expect to see you\n"
 	.string "again. Who would even care about what\l"

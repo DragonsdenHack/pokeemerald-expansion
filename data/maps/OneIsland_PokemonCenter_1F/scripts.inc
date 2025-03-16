@@ -86,11 +86,11 @@ release
 end
 
 OneIsland_PokemonCenter_Text_6:
-	.string "My master CELIO paid millions POKÉ in\n"
-	.string "the black market to have both RUBY and\l"
-	.string "SAPPHIRE which he needed for his grand\l"
-	.string "project. We installed our machine due to\l"
-	.string "the supposed existence of these ores\l"
+	.string "My master, CELIO, paid millions in\n"
+	.string "the black market to have both thr RUBY\l"
+	.string "and the SAPPHIRE.\p"
+	.string "We installed our machine due to the\n"
+	.string "supposed existence of these ores\l"
 	.string "in SEVII ISLANDS, however we never\l"
 	.string "found it, and we had no other choice but\l"
 	.string "to ask BILL for a loan…{PAUSE 20}$"

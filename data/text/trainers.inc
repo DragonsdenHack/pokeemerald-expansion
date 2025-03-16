@@ -17615,7 +17615,7 @@ Cave_Regigigas_Devon_3_Text_PoliciaDefeat:
 
 Cave_Regigigas_Devon_3_Text_PoliciaPostBattle:
 	.string "Es imposible que llegues a nuestros\n"
-	.string "superiores facilmente, antes tendrás\l"
+	.string "superiores fácilmente, antes tendrás\l"
 	.string "que pasar por encima de nosotros.$"
 
 Cave_Regigigas_Devon_4_Text_PoliciaIntro:

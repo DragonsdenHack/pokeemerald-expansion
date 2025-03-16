@@ -318,7 +318,6 @@ LakeofRageHouse1_Evento_Devon_Texto_16:
 	.string "wild POKÉMON will destroy us all before\l"
 	.string "we can continue moving forward!$"
 
-
 LakeofRageHouse1_Evento_Devon_Texto_17:
 	.string "????: I'll handle that{PAUSE 15}…{PAUSE 15} with the help of\n"
 	.string "my POKÉMON. Let's move!$"

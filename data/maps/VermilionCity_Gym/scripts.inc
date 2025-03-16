@@ -586,8 +586,8 @@ Cinnabar_Gym_Can_Pass_Texto_1:
 	.string "ahead, please.$"
 
 Cinnabar_Gym_NoPass_Texto_1:
-.string "What kind of joke is this? A ROCKET\n"
-	.string "entering here?$"
+.string "What kind of joke is this?\p"
+	.string "A ROCKET entering here?$"
 
 Cinnabar_Gym_NoPass_Texto_2:
 .string "Either you disappear or you will have\n"

@@ -65,18 +65,19 @@ release
 end
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
-	.string "SWORDS DANCE sharply boosts ATTACK. If\n"
-	.string "your POKÉMON's already quick or has\l"
-	.string "solid priority moves, it can sweep an\l"
-	.string "entire team.$"
+	.string "SWORDS DANCE sharply boosts ATTACK.\p"
+	.string "If your POKÉMON's already quick or\n"
+	.string "has solid priority moves, it can sweep\l"
+	.string "an entire team.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
 	.string "{PLAYER} obtained the TM81 SWORDS\n"
    	.string "DANCE from ZINNIA!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
-	.string "Ha! You thought that was it? I'll give\n"
-	.string "you something more!$"
+	.string "Ha!\p"
+	.string "You thought that was it?\p"
+	.string "I'll give you something more!$"
 
 GimnasioAnciana_Combate_Gimnasio_2::
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_9 MSGBOX_NPC

@@ -57,9 +57,9 @@ Bill_Garden_Warp_text_1:
 
 Bill_Garden_Warp_Text_YesNo:
     .string "…{PAUSE 20}\n"
-	.string "…{PAUSE 20}\l"
-    .string "This poster seems to be covering some\l"
-	.string "tunnel that leads somewhere else.\l"
+	.string "…{PAUSE 20}\p"
+    .string "This poster seems to be covering some\n"
+	.string "tunnel that leads somewhere else.\p"
 	.string "Wanna cross it?$"
 
 Bill_Garden_Warp_move1:
@@ -249,8 +249,8 @@ Bill_Garden_Policia_Atlas_text_2.1:
 Bill_Garden_Policia_Atlas_text_2.2:
 	.string "¿Qué se siente al saber que tus\n"
 	.string "propios superiores te enviaron al\l"
-	.string "matadero?\l"
-	.string "No me extraña, no sois más que un\l"
+	.string "matadero?\p"
+	.string "No me extraña, no sois más que un\n"
 	.string "puñado de ladrones sin principios\l"
 	.string "ni criterio alguno.$"
 
@@ -266,22 +266,22 @@ Bill_Garden_Policia_Atlas_text_4:
 Bill_Garden_Policia_Atlas_text_5:
 .string "ATLAS: No he podido evitar oír\n"
 	.string "ciertos ataques hacia nuestra\l"
-	.string "organización.\l"
-	.string "Como puedes ver, aquí estoy.\l"
-	.string "Te equivocas, en el TEAM ROCKET\l"
+	.string "organización.\p"
+	.string "Como puedes ver, aquí estoy.\p"
+	.string "Te equivocas, en el TEAM ROCKET\n"
 	.string "nunca dejamos solo a quién lo\l"
 	.string "merezca.$"
 
 Bill_Garden_Policia_Atlas_text_5.1:
-	.string "¿Falta de principios?\n"
-	.string "¿Ladrones?\l"
-	.string "Me temo que esos términos se\l"
+	.string "¿Falta de principios?\p"
+	.string "¿Ladrones?\p"
+	.string "Me temo que esos términos se\n"
 	.string "quedan muy cortos para lo que\l"
 	.string "vosotros hacéis en esta región.$"
 
 Bill_Garden_Policia_Atlas_text_6:
-.string "BILL: DETAIN BOTH OF THEM! DO NOT LET\n"
-	.string "THEM ESCAPE!$"
+.string "BILL: DETAIN BOTH OF THEM!\p"
+	.string "DO NOT LET THEM ESCAPE!$"
 
 Bill_Garden_Policia_Atlas_text_7:
 .string "ARCHER: SKARMORY, USE FLY!$"

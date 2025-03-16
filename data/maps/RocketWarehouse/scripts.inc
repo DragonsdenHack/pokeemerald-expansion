@@ -464,11 +464,9 @@ RocketWarehouseSoldado_Text_Soldado1:
     .string "them . You are the last one to examine!$"
 
 
-
 RocketWarehouseSoldado_Text_Soldado2:
     .string "Wow, so we have 2 GRUNTs that are\n"
     .string "worthy. Interesting.$"
-
 
 
 RocketWarehouseSoldado_Text_Soldado3:
@@ -981,14 +979,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas1_1:
 	.string "Since you have succeed,\n"
 	.string "here is your reward.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
 	.string "{PLAYER} EARNED 25,000¥!$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
 .string "ANDRA EARNED 25,000¥!$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
 	.string "ARCHER: With that, you'll be able to\n"
@@ -1002,11 +997,9 @@ RocketWarehouse_Text_Vuelta_MisionAtlas4.1:
 	.string "but it's futile if mismanaged or if you\l"
 	.string "don't use what you acquire effectively.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas5:
 	.string "Having said that, you've completed the\n"
 	.string "mission, but suboptimally.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
     .string "ARCHER: It's important for you to\n"
@@ -1017,7 +1010,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas6:
 	.string "recognition that collaboration is key.\l"
 	.string "No major organization has arisen from\l"
 	.string "the efforts of a solitary individual.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas7:
 	.string "I thought I was clear when I said that\n"
@@ -1030,13 +1022,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
 	.string "What's wrong with you, ANDRA?\p"
 	.string "Why didn't you wait for {PLAYER}?$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
 	.string "I believed my skills were sufficient to\n"
 	.string "face the challenge, MR.ARCHER.\p"
 	.string "But I didn't count with that MAREEP\n"
 	.string "and its THUNDERSHOCK. I failed.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
 	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}\p"
@@ -1044,7 +1034,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas9:
 	.string "and admitted your mistake. For now,\l"
 	.string "that's enough, but let it serve as an\l"
 	.string "example and experience.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas10:
 	.string "ARCHER: With that said, you will\n"
@@ -1055,7 +1044,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
 	.string "main financial center.\p"
 	.string "A ship in the harbor awaits you.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
 	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20}\p"
 	.string "I don't want you to leave this island\n"
@@ -1063,14 +1051,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas11:
 	.string "short time here. You might come back\l"
 	.string "someday. For now, take care of this.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas12:
 	.string "PLAYER OBTAINED A POKÉMON EGG!$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas13:
 	.string "ANDRA OBTAINED A POKÉMON EGG!$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14:
 	.string "ARCHER: You've just received an EGG,\n"
@@ -1081,7 +1066,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas14.1:
 	.string "Go to the port as soon as possible;\n"
 	.string "at your arrival in KANTO, you'll be\l"
 	.string "briefed on your new missions.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas15:
 	.string "ANDRA: YES, SIR!$"

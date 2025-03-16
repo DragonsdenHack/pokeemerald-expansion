@@ -161,15 +161,10 @@ VioletTrainerSchool_Text_TakeStarly:
 	.string "You were in FALKNER's class too, weren't\n"
 	.string "you?$"
 
-
-
-
 VioletTrainerSchool_Text_TakeStarly2:
 	.string "It's pretty rad how much he knows about\n"
 	.string "FLYING TYPEs. Plus, he always solves\l"
 	.string "questions in a practical way.$"
-
-
 
 VioletTrainerSchool_Text_TakeStarly3:
 	.string "Heck, he even gave me a bird from some\n"
@@ -179,11 +174,8 @@ VioletTrainerSchool_Text_TakeStarly3:
 	.string "when I paired it with my PIDGEOT. I'll\l"
 	.string "give you one!$"
 
-
-
 VioletTrainerSchool_Text_MensajeStarly:
 .string "YOU OBTAINED A LV.10 STARLY!$"
-
 
 VioletTrainerSchool_Text_9:
 	.string "Be careful with STARLY when it grows.\n"

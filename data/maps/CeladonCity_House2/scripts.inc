@@ -9,8 +9,8 @@ release
 end
 
 CeladonCity_House2_Text_1:
-	.string "The business is prospering, grunt! Keep\n"
-	.string "it up!$"
+	.string "The business is prospering, grunt!\p"
+	.string "Keep it up!$"
 
 
 

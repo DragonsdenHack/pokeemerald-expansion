@@ -157,16 +157,16 @@ PokemonTower2F_Azul_Texto_1:
 PokemonTower2F_Azul_Texto_2:
 .string "Los otros ROCKET se encuentran en\n"
 	.string "los pisos superiores, causando\l"
-	.string "disturbios y atrapando CUBONES.\l"
-	.string "Si ese tal FUJI adora tanto este\l"
+	.string "disturbios y atrapando CUBONES.\p"
+	.string "Si ese tal FUJI adora tanto este\n"
 	.string "lugar, no debería tardar en venir.$"
 
 PokemonTower2F_Azul_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower2F_Azul_Texto_4:
-.string "Oye, no te confundas.\n"
-	.string "No formo parte de vuestra organización,\l"
+.string "Oye, no te confundas.\p"
+	.string "No formo parte de vuestra organización,\n"
 	.string "solo soy una especie de colaborador,\l"
 	.string "que puede hacer trabajos y favores\l"
 	.string "puntuales, ¿ha quedado claro?$"
@@ -197,8 +197,8 @@ PokemonTower2F_Azul_Texto_7.1:
 	.string "perfecto; parece llevar siempre\l"
 	.string "todo al día, tener en cuenta todas\l"
 	.string "las posibles opciones al combatir,\l"
-	.string "y ese silencio{PAUSE 15}…{PAUSE 15}\l"
-	.string "Eso es lo que más me irrita,\l"
+	.string "y ese silencio{PAUSE 15}…{PAUSE 15}\p"
+	.string "Eso es lo que más me irrita,\n"
 	.string "siquiera se digna a entablar\l"
 	.string "conversación: llega, te vence y te\l"
 	.string "deja ahí tirado, como si fueras un\l"

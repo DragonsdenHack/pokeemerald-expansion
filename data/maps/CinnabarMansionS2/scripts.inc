@@ -290,8 +290,6 @@ CinnabarMansionS2Documento_Text_107Yes:
 	.string "existence of 2 pseudo-legendaries in\l"
 	.string "the same region are different.$"
 
-
-
 CinnabarMansionS2Documento_Text_107Yes2:
 	.string "DEVON CO. is the SILPH CO. of HOENN,\n"
 	.string "however, it has never publicly released\l"
@@ -302,8 +300,6 @@ CinnabarMansionS2Documento_Text_107Yes2:
 	.string "we know it has resources and capability\l"
 	.string "to, like SILPH, create an artificial\l"
 	.string "POKÉMON, like PORYGON.$"
-
-
 
 CinnabarMansionS2Documento_Text_107Yes3:
 	.string "This is the point where the son of\n"
@@ -316,8 +312,6 @@ CinnabarMansionS2Documento_Text_107Yes3:
 	.string "creates a custom POKÉMON to ensure\l"
 	.string "STEVEN has the necessary prowess to\l"
 	.string "claim the CHAMPION title.$"
-
-
 
 
 CinnabarMansionS2Documento_Text_107Yes4:
@@ -334,8 +328,6 @@ CinnabarMansionS2Documento_Text_107Yes4:
 	.string "and calculating, with a type combo\l"
 	.string "that's way too convenient, like it was\l"
 	.string "custom-made or something.$"
-
-
 
 
 CinnabarMansionS2Documento_Text_107Yes5:

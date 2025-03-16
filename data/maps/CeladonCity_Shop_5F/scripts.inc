@@ -129,8 +129,8 @@ end
 
 CeladonCity_Shop5F_Text_Oak_1:
 	.string "SUPERNERD: 9800 POKÉ?! This is a scam!\n"
-	.string "Just a month ago it cost 7000! And a\l"
-	.string "year ago it cost 3000!$"
+	.string "Just a month ago it cost 7000!\p"
+	.string "And a year ago it cost 3000!$"
 
 
 CeladonCity_Shop5F_Text_Oak_2:
@@ -153,23 +153,19 @@ CeladonCity_Shop5F_Text_Oak_4:
 	.string "established, we just are following\l"
 	.string "orders.$"
 
-
 CeladonCity_Shop5F_Text_Oak_5:
 	.string "SUPERNERD: How would I raise my\n"
 	.string "MAGNEMITE's SPECIAL ATTACK now? It\l"
 	.string "doesn't make any sense!$"
-
 
 CeladonCity_Shop5F_Text_Oak_6:
 	.string "????: Quite the opposite, makes all\n"
 	.string "the sense that can be given at this\l"
 	.string "region.$"
 
-
 CeladonCity_Shop5F_Text_Oak_7:
 	.string "GIRL: So stupid. Could go up at POKÉMON\n"
 	.string "TOWER and train there his MAGNEMITE.$"
-
 
 CeladonCity_Shop5F_Text_Oak_8:
 	.string "????: Not everyone has been educated\n"
@@ -179,13 +175,11 @@ CeladonCity_Shop5F_Text_Oak_8:
 	.string "POKÉMON species. If they knew how big\l"
 	.string "this world is…$"
 
-
 CeladonCity_Shop5F_Text_Oak_9:
 	.string "DAISY: It's not surprising that no one\n"
 	.string "has approached the POKÉMON LEAGUE in\l"
 	.string "the last few years. Do you think those\l"
 	.string "two have any chance?$"
-
 
 CeladonCity_Shop5F_Text_Oak_10:
 	.string "????: They just started their trip. It\n"
@@ -193,15 +187,12 @@ CeladonCity_Shop5F_Text_Oak_10:
 	.string "the potential that they have is\l"
 	.string "encouraging, especially…$"
 
-
 CeladonCity_Shop5F_Text_Oak_11:
 	.string "Hello? MR.LANCE. Okay. Right away.$"
-
 
 CeladonCity_Shop5F_Text_Oak_12:
 	.string "They are calling me from POKÉMON LEAGUE\n"
 	.string "HQ. Shopping is over, DAISY.$"
-
 
 CeladonCity_Shop5F_Text_Oak_13:
 	.string "DAISY: It is okay, we have 50 VITAMINS\n"

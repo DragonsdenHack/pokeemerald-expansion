@@ -799,7 +799,7 @@ end
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
 .string "…\n"
 	.string "…\l"
-	.string "(He is asleep!)$"
+	.string "-He is asleep!-$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:
 .string "Where the heck did you come from?\n"

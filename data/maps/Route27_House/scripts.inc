@@ -9,6 +9,6 @@ release
 end
 
 Route27_House1_Text_1:
-	.string "Both humans and POKÉMON benefit from\n"
-	.string "experience. Avoid laziness and\l"
-	.string "complacency.$"
+	.string "Both humans and POKÉMON benefit\n"
+	.string "from experience.\p"
+	.string "Avoid laziness and complacency.$"

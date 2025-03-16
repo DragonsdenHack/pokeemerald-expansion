@@ -66,7 +66,7 @@ release
 end
 
 Subterraneo_Bloqueo_Texto_1:
-.string "The underground was closed.$"
+.string "-The underground was closed.-$"
 
 NeoRoute19_Obras::
 compare VAR_UNUSED_0x40F7, 202

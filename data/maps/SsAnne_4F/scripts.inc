@@ -235,8 +235,8 @@ SsAnne_4F_Combate_Azul_text_1:
 
 SsAnne_4F_Combate_Azul_text_1.1:
 	.string "Incluso los marineros del SS.ANNE no\n"
-	.string "sacan más que TENTACOOL, menudo\l"
-	.string "fraude.$"
+	.string "sacan más que TENTACOOL.\p"
+	.string "Menudo fraude.$"
 
 SsAnne_4F_Combate_Azul_text_2:
 .string "¿Eres ese ROCKET al que cedí\n"
@@ -246,8 +246,8 @@ SsAnne_4F_Combate_Azul_text_2.1:
  .string "No voy a preguntarte cómo\n"
 	.string "es que alguien como tú está en\l"
 	.string "en un lugar así, ya imagino que\l"
-	.string "has entrado de forma ilegítima.\l"
-	.string "Sinceramente, me da exactamente\l"
+	.string "has entrado de forma ilegítima.\p"
+	.string "Sinceramente, me da exactamente\n"
 	.string "igual.$"
 
 SsAnne_4F_Combate_Azul_text_3:
@@ -260,7 +260,7 @@ SsAnne_4F_Combate_Azul_text_3:
 SsAnne_4F_Combate_Azul_text_3.1:
 	.string "¡Es hora de ver si eres uno más\n"
 	.string "del montón, o en cambio tienes\l"
-	.string "algo que decir!\l"
+	.string "algo que decir!\p"
 	.string "¡En guardia, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
@@ -268,8 +268,8 @@ SsAnne_4F_Combate_Azul_text_4:
 
 SsAnne_4F_Combate_Azul_text_5:
 .string "{PAUSE 20}…{PAUSE 20}\n"
-	.string "{PAUSE 20}…{PAUSE 20}\l"
-	.string "So, you're not just another ROCKET\l"
+	.string "{PAUSE 20}…{PAUSE 20}\p"
+	.string "So, you're not just another ROCKET\n"
 	.string "grunt… High-ranking, are you? Honestly,\l"
 	.string "you all look the same to me! But I'll give\l"
 	.string "you this - you're the only one who's\l"
@@ -281,7 +281,7 @@ SsAnne_4F_Combate_Azul_text_6:
 	.string "????: Bah. I suppose I'll wander around\n"
 	.string "the cabins and see if anyone else here\l"
 	.string "can manage to give me a remotely\l"
-	.string "interesting battle - though I seriously\l"
+	.string "interesting battle, though I seriously\l"
 	.string "doubt it.$"
 
 SsAnne_4F_Combate_Azul_move1:

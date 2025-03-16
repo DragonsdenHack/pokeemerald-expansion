@@ -30,8 +30,8 @@ release
 end
 
 PewterCity_House1_Text_3:
-	.string "There are children at this house\n"
+	.string "There are children at this house,\n"
 	.string "ROCKET, you should be ashamed of\l"
 	.string "getting into a private property like\l"
-	.string "this, at the minimum hint of trying\l"
+	.string "this. At the minimum hint of trying\l"
 	.string "something suspicious I will call police.$"

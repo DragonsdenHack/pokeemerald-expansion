@@ -252,7 +252,6 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 	.string "ooparts to me. Anyway{PAUSE 15}…{PAUSE 15} it doesn't\l"
 	.string "matters, we won't cross paths again.$"
 
-
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
 	.string "Mmm{PAUSE 15}…{PAUSE 15} upon further reflection, your\n"
 	.string "bond with those POKÉMON, the legend of\l"

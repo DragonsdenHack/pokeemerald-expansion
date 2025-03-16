@@ -140,5 +140,5 @@ release
 end
 
 CeladonCity_Casino_Text_11:
-	.string "Don't worry, comrade! With me over here\n"
-	.string "our base is secure!$"
+	.string "Don't worry, comrade!\p"
+	.string "With me over here, our base is secure!$"

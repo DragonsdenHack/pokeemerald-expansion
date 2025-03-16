@@ -9,9 +9,9 @@ release
 end
 
 Route11Path2F_Text_1:
-	.string "What? A POKÉMON trade with you? I\n"
-    .string "wouldn't negotiate with a ROCKET even\l"
-    .string "if you offer me a ZAPDOS!$"
+	.string "What? A POKÉMON trade with you?\p"
+    .string "I wouldn't negotiate with a ROCKET\n"
+    .string "even if you offer me a ZAPDOS!$"
 
 
 

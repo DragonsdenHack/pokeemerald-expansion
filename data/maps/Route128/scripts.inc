@@ -320,6 +320,6 @@ walk_slow_left
 step_end
 
 Route128_Barrera_Texto_1:
-	.string "Más al este solo está la LIGA POKÉMON\n"
-	.string "de HOENN. Por ahora no necesito ir allí.$"
+	.string "-Más al este solo está la LIGA POKÉMON\n"
+	.string "de HOENN. Por ahora no necesito ir allí.-$"
 

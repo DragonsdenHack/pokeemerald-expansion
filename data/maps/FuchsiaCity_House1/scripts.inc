@@ -37,9 +37,9 @@ release
 end
 
 FuchsiaCity_House1_Text_3:
-	.string "SLOWPOKE knows a lot about POKÉMON! He\n"
-	.string "even has several FOSSILS of rare and\l"
-	.string "extinct POKÉMON!$"
+	.string "SLOWPOKE knows a lot about POKÉMON!\p"
+	.string "He even has several FOSSILS of\n"
+	.string "rare and extinct POKÉMON!$"
 
 
 

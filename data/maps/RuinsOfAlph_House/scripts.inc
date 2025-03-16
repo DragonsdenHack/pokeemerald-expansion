@@ -25,8 +25,11 @@ end
 RuinsOfAlph_House1_Text_2:
 	.string "I really distrust those individuals in\n"
 	.string "black who arrived shortly after the\l"
-	.string "earthquake. … … What? You are their\l"
-	.string "boss?!$"
+	.string "earthquake.\p"
+	.string "…\p"
+    .string "…\p"
+    .string "What?\p"
+	.string "You are their boss?!$"
 
 
 
@@ -128,7 +131,6 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_1:
 	.string "different region, promising only to\l"
 	.string "research our FOSSILS, but they've\l"
 	.string "disappeared without a trace…$"
-
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"

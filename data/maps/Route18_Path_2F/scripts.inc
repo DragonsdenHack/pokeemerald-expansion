@@ -24,8 +24,6 @@ Route18Path2FDocumento_Text_100:
     .string "to show…\p"
     .string "PALLET TOWN is in the west.$"
 
-
-
 Route18Path2FDocumento_101::
 msgbox Route18Path2FDocumento_Text_101, MSGBOX_SIGN   
 end

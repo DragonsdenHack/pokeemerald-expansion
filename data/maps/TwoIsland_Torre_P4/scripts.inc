@@ -20,7 +20,7 @@ release
 end
 
 TwoIsland_Torre_P4_Dormido_Texto_2:
-.string "(He's taking a nap!)$"
+.string "-He's taking a nap!-$"
 
 TwoIsland_Torre_P4_Dormido_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"

@@ -105,15 +105,11 @@ TinTowerP4_Text_TakeHonedge:
 	.string "It's not very common to see youngsters\n"
 	.string "like you these days.$"
 
-
-
 TinTowerP4_Text_TakeHonedge2:
 	.string "I can see the respect you hold for this\n"
 	.string "place. Despite being surrounded by\l"
 	.string "temptations, given your position, you\l"
 	.string "haven't forgotten where you come from.$"
-
-
 
 TinTowerP4_Text_TakeHonedge3:
 	.string "Therefore, I present you with this\n"
@@ -121,11 +117,8 @@ TinTowerP4_Text_TakeHonedge3:
 	.string "serve as a shield against the most\l"
 	.string "adverse situations.$"
 
-
-
 TinTowerP4_Text_MensajeHonedge:
 .string "YOU OBTAINED A LV.10 HONEDGE!!$"
-
 
 TinTowerP4_Text_4:
 	.string "HONEDGE can serve as a shield against\n"

@@ -140,8 +140,6 @@ PewterCity_3_Text_3Yes:
 .string "That's right!\n"
     .string "It's hard work!$"
 
-
-
 PewterCity_3_Text_3No:
 .string "I'm spraying REPEL to keep wild\n"
     .string "POKÉMON out of my garden!$"

@@ -81,8 +81,6 @@ end
 FileIsleMeadow6_Text_6Yes:
 	.string "Well said! TEAM ROCKET rules!$"
 
-
-
 FileIsleMeadow6_Text_6No:
 	.string "Any self-respecting ROCKET knows that\n"
 	.string "industrial landscapes are the best in\l"
@@ -425,8 +423,8 @@ face_up
 step_end
 
 FileIsleMeadow_Combate_Azul_Texto_1:
-	.string "BLUE: Ah, {PLAYER}. Returning to your\n"
-	.string "roots, huh?$"
+	.string "BLUE: Ah, {PLAYER}!\p"
+	.string "Returning to your roots, huh?$"
 
 FileIsleMeadow_Combate_Azul_Texto_2:
 	.string "ARCHER has been telling me all about\n"
@@ -489,12 +487,13 @@ FileIsleMeadow_Combate_Azul_Texto_11:
 	.string "for as I keep on going.$"
 
 FileIsleMeadow_Combate_Azul_Texto_12:
-	.string "{PLAYER}! Enjoy your well-deserved\n"
-	.string "break! I'm sure GIOVANNI will want you\l"
-	.string "in on some big TEAM ROCKET stuff! Maybe\l"
+	.string "{PLAYER}!\p"
+	.string "Enjoy your well-deserved break!\p"
+	.string "I'm sure GIOVANNI will want you in,\n"
+	.string "on some big TEAM ROCKET stuff! Maybe\l"
 	.string "one day everyone will know about your\l"
-	.string "adventures, but honestly, who cares?\l"
-	.string "What happened, happened, whether 10 or\l"
+	.string "adventures, but honestly, who cares?\p"
+	.string "What happened, happened, whether 10 or\n"
 	.string "100,000 people know about it.$"
 
 FileIsleMeadow_Combate_Azul_Move_1:

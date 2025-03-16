@@ -2639,7 +2639,7 @@ warpsilent MAP_SEAFLOOR_CAVERN_ROOM8, 5, 3
 delay 100
 release
 end
- 
+
 GoldenrodRadioTowerP5_Tercera_Reunion_Texto_1:
 	.string "????: …Y hemos llegado más lejos de\n"
 	.string "lo que cualquiera de nosotros pudiera\l"

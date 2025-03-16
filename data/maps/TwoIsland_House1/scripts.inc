@@ -71,8 +71,8 @@ release
 end
 
 TwoIslandHouse_Primer_Motero_Texto_1:
-.string "Hah!\n"
-	.string "Look how I scratch the ground with my\l"
+.string "Hah!\p"
+	.string "Look how I scratch the ground with my\n"
 	.string "motorcycle! What does it matter, we will\l"
 	.string "take it down anyways!$"
 

@@ -27,8 +27,8 @@ release
 end
 
 Route4_PokemonCenter_Text_2:
-	.string "-TEAM ROCKET robs CERULEAN citizens-\n"
-	.string "You ought to be ashamed of showing up\l"
+	.string "-TEAM ROCKET robs CERULEAN citizens-\p"
+	.string "You ought to be ashamed of showing up\n"
 	.string "in the news for that. You'd turned a\l"
 	.string "house upside-down to steal all of their\l"
 	.string "TM DIGs. I hope you weren't involved\l"

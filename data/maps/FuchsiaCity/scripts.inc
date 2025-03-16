@@ -93,10 +93,9 @@ Text_18:
 	.string "A ROCKET like you will never be able to\n"
 	.string "enter the SAFARI ZONE! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} What? You\l"
 	.string "don't need it and you've already caught a\l"
-	.string "KANGASKHAN in the ROCK TUNNEL? In\l"
-	.string "addition to being a thief, you're a liar;\l"
-	.string "it has been proven that the existence\l"
-	.string "of a KANGASKHAN there, it was a hoax!$"
+	.string "KANGASKHAN in the ROCK TUNNEL?\p"
+	.string "In addition to being a thief, you're a\n"
+	.string "liar; KOGA said it was a fake new!$"
 
 NeoFuchsiaCityDocumento_100::
 msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN   

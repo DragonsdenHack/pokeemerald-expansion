@@ -947,7 +947,6 @@ Route110_Text_TrickHouseSign:
 	.string	"para llegar a la fantástica\l"
 	.string	"CASA TRETA.”$"
 
-
 Route110_Text_BestRecord:
 	.string	"EL MEJOR RÉCORD HASTA LA FECHA:\p"
 	.string	"N.º de colisiones: {STR_VAR_1}\p"

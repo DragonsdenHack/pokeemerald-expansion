@@ -48,8 +48,8 @@ end
 
 SaffronCity_PokemonCenter_Text_3:
 	.string "SAFFRON is the financial center of\n"
-	.string "KANTO, no matter how much you insist, we\l"
-	.string "won't fall.$"
+	.string "KANTO, no matter how much you insist,\l"
+	.string "we won't fall.$"
 
 
 

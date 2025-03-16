@@ -13,8 +13,11 @@ RuinsOfAlph_Text_1:
 	.string "radio to a specific frequency inside\l"
 	.string "the ruins, you'll hear some really weird\l"
 	.string "sounds? I knew it! It's all a conspiracy\l"
-	.string "between the UNOWN and the RADIO TOWER!\l"
-	.string "… … What? That makes no sense at all?$"
+	.string "between the UNOWN and the RADIO TOWER!\p"
+	.string "…\p"
+    .string "…\p"
+    .string "What?\p"
+	.string "That makes no sense at all?$"
 
 
 
@@ -27,9 +30,10 @@ end
 
 RuinsOfAlph_Text_2:
 	.string "-We, humans, must walk along them.\n"
-	.string "That's why, we go-. The phrase is\l"
-	.string "recorded in one of the chambers. What\l"
-	.string "could it mean?$"
+	.string "That's why, we go-.\p"
+	.string "The phrase is recorded in one\n"
+	.string "of the chambers.\p"
+	.string "What could it mean?$"
 
 
 
@@ -65,9 +69,9 @@ release
 end
 
 RuinsOfAlph_Terremoto_Texto_1:
-	.string "(Something that had been closed for a\n"
+	.string "-Something that had been closed for a\n"
 	.string "long time has opened to the south of\l"
-	.string "the RUINS OF ALPH).$"
+	.string "the RUINS OF ALPH.-$"
 
 RuinsOfAlph_Terremoto_Move_1:
 emote_exclamation_mark

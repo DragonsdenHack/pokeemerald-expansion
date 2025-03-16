@@ -203,6 +203,6 @@ walk_in_place_right
 step_end
 
 Route121_Bloqueo_Texto_1:
-	.string "Debería primero buscar a ANDRA\n"
-	.string "en el MONTE PÍRICO.$"
+	.string "-Debería primero buscar a ANDRA\n"
+	.string "en el MONTE PÍRICO.-$"
 

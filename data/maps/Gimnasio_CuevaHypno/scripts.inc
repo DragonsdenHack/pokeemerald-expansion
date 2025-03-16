@@ -177,9 +177,9 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_1:
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
 	.string "I had my doubts; regular people would\n"
-	.string "run scared from such a eerie place. But\l"
-	.string "you're already one of the few who would\l"
-	.string "explore BERRY FOREST just for the\l"
+	.string "run scared from such a eerie place.\p"
+	.string "But you're already one of the few who\n"
+	.string "would explore BERRY FOREST just for the\l"
 	.string "pleasure of it. Your curiosity has\l"
 	.string "brought you here, even the islanders\l"
 	.string "themselves have forgotten about this\l"
@@ -222,7 +222,6 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_8:
 	.string "The rest is history: this place was\n"
 	.string "forgotten; no one from that time lives\l"
 	.string "in THREE ISLAND anymore.$"
-
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_9:
 	.string "The only vestiges that remain from the\n"

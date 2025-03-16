@@ -544,9 +544,9 @@ PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
 	.string "and is plaguing the TOWER with GHOSTS!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4:
-.string "BLUE: {PLAYER}!\n"
-	.string "RED just defeated me!\l"
-	.string "Oh, I thought I could beat him this time\l"
+.string "BLUE: {PLAYER}!\p"
+	.string "RED just defeated me!\p"
+	.string "Oh, I thought I could beat him this time\n"
 	.string "damn it! Notice PROTON and get out of\l"
 	.string "there as soon as possible!$"
 

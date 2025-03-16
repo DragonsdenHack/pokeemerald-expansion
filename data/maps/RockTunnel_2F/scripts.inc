@@ -409,7 +409,7 @@ RockTunnel_2F_Combate_Miguel_Texto_11:
 .string "¡En SILPH me dijeron que con la\n"
 	.string "última actualización, el nivel de\l"
 	.string "mi equipo podría tumbar hasta a un\l"
-	.string "LÍDER DE GIMNASIO!\l"
+	.string "LÍDER DE GIMNASIO!\p"
 	.string "¡Me han estafado!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_12:
@@ -445,7 +445,7 @@ RockTunnel_2F_Combate_Miguel_Texto_16.1:
 	.string "deberías de regresar cuanto antes,\l"
 	.string "GIOVANNI estará esperándote, listo\l"
 	.string "para recompensarte y preguntarte por\l"
-	.string "los detalles de la misión.\l"
+	.string "los detalles de la misión.\p"
 	.string "¡Salve GIOVANNI!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17:
@@ -644,9 +644,9 @@ RockTunnel_2F_Entrenador_Especial_Texto_4:
 
 RockTunnel_2F_Entrenador_Especial_Texto_5:
 	.string "Is it what I think it is? You must be\n"
-	.string "very strong to defeat all LEADERS! My\l"
-	.string "team is excited to discover its limits\l"
-	.string "at once!$"
+	.string "very strong to defeat all LEADERS!\p"
+	.string "My team is excited to discover\n"
+	.string "its limits at once!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_6:
 .string "So, do you accept the challenge?$"

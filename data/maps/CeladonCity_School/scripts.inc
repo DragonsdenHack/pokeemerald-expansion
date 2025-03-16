@@ -35,9 +35,9 @@ end
 
 CeladonCity_Karateka_Texto_1:
 	.string "I know all about the POKÉMON, also. I\n"
-	.string "know that your LEADER GIOVANNI uses\l"
-	.string "RHYHORN as a POKÉMON. RHYHORN as a\l"
-	.string "flagship POKÉMON. What a wimp!$"
+	.string "know that our BOSS, GIOVANNI, uses\l"
+	.string "RHYHORN as his last POKÉMON.\p"
+	.string "What a wimp!$"
 
 CeladonCity_Eevee::
 lock

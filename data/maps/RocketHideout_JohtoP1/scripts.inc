@@ -486,7 +486,6 @@ RocketHideoutJohtoP1Documento_Text_100:
 	.string "posters. To blot the outside world and\l"
 	.string "guide our people's thoughts.$"
 
-
 RocketHideoutJohtoP1Documento_Text_101:
 	.string "It's a self-feeding cycle, and the\n"
 	.string "further it goes, the less evidence\l"

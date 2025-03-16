@@ -402,8 +402,8 @@ Vermilion_City_Lider_Gimnasio_Texto_1:
 	.string "the POWER PLANT! First that redhead\l"
 	.string "friend of yours, and now you, you damn\l"
 	.string "insurgents! You're going to feel the\l"
-	.string "true fury of my ELECTRIC POKÉMON.\l"
-	.string "You'll see why everyone feared me in the\l"
+	.string "true fury of my ELECTRIC POKÉMON.\p"
+	.string "You'll see why everyone feared me in the\n"
 	.string "war! After I finish off your POKÉMON,\l"
 	.string "I'll fry you with electric shocks too!$"
 
@@ -814,11 +814,11 @@ release
 end
 
 Fuchsia_City_Lider_Gimnasio_Texto_1:
-	.string "KOGA: {PLAYER}! You are back! So you\n"
-	.string "will venture into the lion's den\l"
-	.string "challenging the POKÉMON LEAGUE! From\l"
-	.string "here you have all my support,\l"
-	.string "{PLAYER}, I will never forget what you\l"
+	.string "KOGA: {PLAYER}! You are back!\p"
+	.string "So you will venture into the lion's den\n"
+	.string "challenging the POKÉMON LEAGUE!\p"
+	.string "From here, you have all my support,\n"
+	.string "I will never forget what you\l"
 	.string "did for the BIKERS and KANTO.$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_1.1:
@@ -826,7 +826,6 @@ Fuchsia_City_Lider_Gimnasio_Texto_1.1:
 	.string "no one handles POISON TYPE POKÉMON\l"
 	.string "like me, not even the ROCKET\l"
 	.string "EXECUTIVEs!$"
-
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:
 	.string "I didn't expect less from you, you\n"

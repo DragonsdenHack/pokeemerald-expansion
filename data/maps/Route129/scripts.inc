@@ -69,8 +69,8 @@ walk_slow_right
 step_end
 
 Route129_Barrera_Texto_1:
-	.string "Esta ruta se aleja de mis próximos\n"
+	.string "-Esta ruta se aleja de mis próximos\n"
 	.string "objetivos: encontrar a KYOGRE en la\l"
 	.string "CAVERNA ABISAL y esperar a ANDRA en\l"
-	.string "CIUDAD ALGARIA.$"
+	.string "CIUDAD ALGARIA.-$"
 

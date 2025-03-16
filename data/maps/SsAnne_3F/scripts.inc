@@ -28,8 +28,8 @@ release
 end
 
 SsAnne3F_Text_3:
-.string "Yeah!\n"
-.string "Teach that beardless young man from\l"
+.string "Yeah!\p"
+.string "Teach that beardless young man from\n"
 	.string "KANTO how we fight here!$"
 
 
@@ -41,7 +41,7 @@ release
 end
 
 SsAnne3F_Text_4:
-.string "Come on, POLIWHIRL!\n"
+.string "Come on, POLIWHIRL!\p"
 	.string "Fly our fleet's flag!$"
 
 
@@ -122,9 +122,9 @@ release
 end
 
 SsAnne3F_Andra_lista_Text_1:
-	.string "{PLAYER}! We're good to go! Let's show\n"
-	.string "that CAPTAIN how ROCKET handles\l"
-	.string "things here in KANTO!$"
+	.string "{PLAYER}! We're good to go!\p"
+	.string "Let's show that CAPTAIN how ROCKET\n"
+	.string "handles things here in KANTO!$"
 
 SsAnne3F_Andra_lista_move1:
 walk_up

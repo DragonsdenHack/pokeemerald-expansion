@@ -59,16 +59,16 @@ BillGarden_House1_Bill_Combate_Text_1:
 .string "BILL: Stop right there, ROCKET.$"
 
 BillGarden_House1_Bill_Combate_Text_2:
-	.string "Three cops ought to have done the job.\n"
-	.string "But maybe my restraint in taking three\l"
+	.string "Three cops ought to have done the job.\p"
+	.string "But maybe my restraint in taking three\n"
 	.string "was a mistake, as opposed to the twenty\l"
 	.string "I should've done from the start.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
 	.string "Either way, there's no exit. Say you\n"
 	.string "beat me. The whole of CERULEAN law\l"
-	.string "enforcement's on its way now. You were\l"
-	.string "just too brash…$"
+	.string "enforcement's on its way now.\p"
+	.string "You were just too brash…$"
 
 BillGarden_House1_Bill_Combate_Text_4:
 	.string "Still, it's not all that common to see\n"
@@ -105,10 +105,10 @@ BillGarden_House1_Bill_Combate_Text_9:
 	.string "him away.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-	.string "It's over. Do whatever you want. Your\n"
-	.string "sole option's to go out and submit.\l"
-	.string "Enjoy your last moments with the\l"
-	.string "patent in your hands.$"
+	.string "It's over. Do whatever you want.\p"
+	.string "Your sole option's to go out and\n"
+	.string "submit. Enjoy your last moments\l"
+	.string "with the patent in your hands.$"
 
 BillGarden_House1_Bill_Combate_move1:
 walk_in_place_up
@@ -163,7 +163,7 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-	.string "It's over. Do whatever you want. Your\n"
-	.string "sole option's to go out and submit.\l"
-	.string "Enjoy your last moments with the\l"
-	.string "patent in your hands.$"
+	.string "It's over. Do whatever you want.\p"
+	.string "Your sole option's to go out and\n"
+	.string "submit. Enjoy your last moments\l"
+	.string "with the patent in your hands.$"

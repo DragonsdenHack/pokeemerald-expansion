@@ -136,14 +136,14 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
 .string "from OAK'S AIDE!-$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
-	.string "NO! A ROCKET cannot be that strong!\n"
-    .string "When I tell the authorities about this\l"
+	.string "NO! A ROCKET cannot be that strong!\p"
+    .string "When I tell the authorities about this\n"
     .string "you'll return what you stole from me\l"
     .string "multiplied by 10!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_9:
-.string "That's it, just the way I like it. Trash to the\n"
-.string "garbage can.$"
+.string "That's it, just the way I like it.\p"
+.string "Trash to the garbage can.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

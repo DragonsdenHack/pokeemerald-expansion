@@ -229,7 +229,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_14:
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
 .string "Aunque{PAUSE 15}…{PAUSE 15}\n"
 	.string "Pareces venir de muy lejos, y\l"
-	.string "y ser un apasionado del combate.\p"
+	.string "ser un apasionado del combate.\p"
 	.string "No eres muy diferente a MIRTO.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_16:

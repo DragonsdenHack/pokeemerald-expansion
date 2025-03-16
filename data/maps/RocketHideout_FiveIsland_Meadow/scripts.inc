@@ -475,8 +475,6 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
     .string "receive a ZUBAT imported directly from\l"
     .string "MT. MOON. Any questions?$"
 
-
-
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
 .string "Sir, I couldn't help but see all those\n"
     .string "powerful POKÉMON in the background,\l"
@@ -488,11 +486,8 @@ RocketHideoutFiveIslandMeadow_Text_Atlas4:
     .string "exactly a good tool, maybe a NIDOR…$"
 
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas5:
     .string "ARCHER: Enough.$"
-
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6:
     .string "ARCHER: Let's see{PAUSE 20}…{PAUSE 20} You have\n"
@@ -509,14 +504,11 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6.1:
 	.string "GUARDS!!\p"
 	.string "Take him off the base!$"
 
-
-
 RocketHideoutFiveIslandMeadow_Text_Atlas7:
     .string "ARCHER: The last thing TEAM ROCKET\n"
     .string "needs is well-off people claiming\l"
     .string "privileges before they have proven\l"
     .string "anything.$"
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas8:
     .string "ARCHER: A ZUBAT, although many of you\n"
@@ -541,7 +533,6 @@ RocketHideoutFiveIslandMeadow_Text_Atlas8.3:
     .string "through the process of training a\l"
     .string "ZUBAT first?!$"
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas9:
 .string "Here we will provide you with the initial\n"
     .string "tool from which you will be able to build\l"
@@ -553,15 +544,11 @@ RocketHideoutFiveIslandMeadow_Text_Atlas9:
 RocketHideoutFiveIslandMeadow_Text_Atlas9.1:
     .string "GRUNT NUMBER 1!!$"
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas10:
 .string "GRUNT NUMBER 2!!$"
 
-
-
 RocketHideoutFiveIslandMeadow_Text_Atlas11:
 .string "GRUNT NUMBER 3!!$"
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas12:
 .string "GRUNT NUMBER 4!!$"

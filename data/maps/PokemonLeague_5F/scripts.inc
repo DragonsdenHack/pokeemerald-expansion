@@ -328,10 +328,12 @@ step_end
 
 
 PokemonLeague_5F_Azul_Rojo_Texto_1:
-	.string "ANDRA: {PLAYER} finally! {PAUSE 25}…{PAUSE 25} …{PAUSE 25} BLUE was\n"
-	.string "the first one to defeat LANCE, but\l"
-	.string "there is no good news, he is being\l"
-	.string "massacred by RED, look…$"
+	.string "ANDRA: {PLAYER}! Finally!\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "BLUE was the first one to defeat\n"
+	.string "LANCE, but there is no good news,\l"
+	.string "he is being massacred by RED, look…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_2:
 .string "Char!$"
@@ -343,14 +345,13 @@ PokemonLeague_5F_Azul_Rojo_Texto_4:
 .string "RED: {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_5:
-	.string "BLUE: NO!\n"
-	.string "That can't be!\l"
+	.string "BLUE: NO!\p"
+	.string "That can't be!\p"
 	.string "You beat me at my best!\p"
 	.string "After all that work to become\n"
 	.string "the LEAGUE CHAMP?\p"
 	.string "My reign is over already?\n"
 	.string "It's not fair!$"
-
 
 PokemonLeague_5F_Azul_Rojo_Texto_6:
 	.string "Why?\n"

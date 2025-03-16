@@ -13,8 +13,8 @@ release
 end
 
 RuinsOfAlphS1_Rocket_Cadaver_Texto_1:
-	.string "(Seems like one of the ROCKET members\n"
-	.string "who entered the ruins…)$"
+	.string "-Seems like one of the ROCKET members\n"
+	.string "who entered the ruins…-$"
 
 RuinsOfAlphS1_Atlas_Piedra::
 lock
@@ -23,8 +23,8 @@ release
 end
 
 RuinsOfAlphS1_Atlas_Piedra_Texto_1:
-	.string "(CHIEF ADMIN. ARCHER\n"
-	.string "is completely petrified.)$"
+	.string "-CHIEF ADMIN. ARCHER\n"
+	.string "is completely petrified.-$"
 
 RuinsOfAlphS1_Andra::
 lock
@@ -147,7 +147,7 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
 .string "…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
-	.string "(The mysterious energy has dissipated.)$"
+	.string "-The mysterious energy has dissipated.-$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_4:
 	.string "ANDRA: Was that the UNOWN causing all\n"
@@ -301,9 +301,9 @@ release
 end
 
 RuinsOfAlph_S1_Apertura_Texto_1:
-	.string "(It seems you've activated something\n"
+	.string "-It seems you've activated something\n"
 	.string "very dangerous by stepping into this\l"
-	.string "area)$"
+	.string "area.-$"
 
 RuinsOfAlph_S1_Apertura_Move_1:
 emote_exclamation_mark
@@ -342,7 +342,7 @@ RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
-	.string "(The mysterious energy has dissipated)$"
+	.string "-The mysterious energy has dissipated.-$"
 
 
 RuinsOfAlph_S1_Combate_Kabutops_Move_1:

@@ -22,6 +22,11 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_CIANWOOD_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": -20,
+      "map": "MAP_OLIVINE_PORT"
     }
   ],
   "object_events": [

@@ -10,8 +10,8 @@ end
 
 Route11Path1F_Text_1:
 	.string "Be careful, ROCKET, you'll have\n"
-	.string "constant surveillance while you're in\l"
-	.string "this shed.$"
+	.string "constant surveillance while you're\l"
+	.string "in this shed.$"
 
 
 
@@ -24,5 +24,5 @@ end
 
 Route11Path1F_Text_2:
 	.string "Be careful, ROCKET, you'll have\n"
-	.string "constant surveillance while you're in\l"
-	.string "this shed.$"
+	.string "constant surveillance while you're\l"
+	.string "in this shed.$"

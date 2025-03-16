@@ -750,7 +750,6 @@ RocketHideout_6F_Petrel_Text_Mision_2_1:
 	.string "that is, {PLAYER}? The projects and\l"
 	.string "resources we'd fund with that?$"
 
-
 RocketHideout_6F_Petrel_Text_Mision_2_2:
 .string "…$"
 
@@ -2194,14 +2193,15 @@ release
 end
 
 RocketHideout_6F_Escena_Lance_Texto_13:
-.string "This is awful! What are we going to do\n"
-	.string "now?$"
+.string "This is awful!\p"
+	.string "What are we going to do now?$"
 
 RocketHideout_6F_Escena_Lance_Texto_14:
 	.string "PETREL: Calm down, GRUNT. We have\n"
 	.string "more than enough resources to manage\l"
-	.string "on our own. All this means is that they\l"
-	.string "see us as a threat.$"
+	.string "on our own.\p"
+	.string "The only thing this means is{PAUSE 25}…{PAUSE 25}\p"
+	.string "They see us as a threat.$"
 
 RocketHideout_6F_Escena_Lance_Texto_15:
 .string "Why are you all standing here?!\n"
@@ -2416,7 +2416,7 @@ release
 end
 
 Text_CompraPokemon_Ruta_5:
-.string "How's everything going, comrade?\n"
+.string "How's everything going, comrade?\p"
 	.string "How can I help you?$"
 
 EventScript_Voltorb_Texto_1:

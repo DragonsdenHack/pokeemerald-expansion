@@ -613,14 +613,10 @@ RocketHideoutJohto_Text_TakeRalts:
 .string "ALAKAZAM or HYPNO, even beyond ESPEON\l"
 .string "or XATU in JOHTO.$"
 
-
-
 RocketHideoutJohto_Text_TakeRalts2:
 .string "The problem is that KANTO and JOHTO\n"
 .string "have always been very closed to other\l"
 .string "regions.$"
-
-
 
 RocketHideoutJohto_Text_TakeRalts3:
 .string "However, a colleague of mine who works\n"
@@ -629,12 +625,8 @@ RocketHideoutJohto_Text_TakeRalts3:
 .string "ALAKAZAM from that region. I'd like a\l"
 .string "ROCKET like you to have one.$"
 
-
-
-
 RocketHideoutJohto_Text_MensajeRalts:
 .string "YOU OBTAINED A LV.10 RALTS!$"
-
 
 RocketHideoutJohto_Text_19:
 .string "I've heard that RALTS has 2 final\n"

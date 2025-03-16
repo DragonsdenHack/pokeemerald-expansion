@@ -780,7 +780,6 @@ BaseRocketHoennS2Documento_Text_b110:
 	.string "SPEED: 150\l"
 	.string "TOTAL: 680$"
 
-
 BaseRocketHoennS2Documento_Text_c110:
 	.string "The best virtue of this POKÉMON is its\n"
 	.string "ability to establish synergy with\l"
@@ -1647,11 +1646,8 @@ BaseRocketHoennS2_Text_TakeShinx:
 	.string "TRAINER as skilled as you, do I?\l"
 	.string "Nonetheless, here you go.$"
 
-
-
 BaseRocketHoennS2_Text_MensajeShinx:
 .string "YOU OBTAINED A SHINX AT LV.5!$"
-
 
 BaseRocketHoennS2_Text_12:
 	.string "It's a SHINX, they live in SINNOH, it was\n"

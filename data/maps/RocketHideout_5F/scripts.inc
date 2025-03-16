@@ -18,8 +18,8 @@ RocketHideout5F_2_Texto_1:
 	.string "Welcome to the express healing CENTER…$"
 
 RocketHideout5F_2_Texto_2:
-	.string "Thank you! Your POKÉMON are fighting\n"
-	.string "fit!$"
+	.string "Thank you!\p"
+	.string "Your POKÉMON are fighting fit!$"
 
 end
 
@@ -131,8 +131,8 @@ RocketHideout5F_Text_11:
 	.string "mundo feliz-. KANTO no está tan\l"
 	.string "controlada como describe Orwell,\l"
 	.string "aunque sus ciudadanos sí que están\l"
-	.string "desbordados con el exceso de trabajo.\l"
-	.string "En cuanto a -Un mundo feliz-{PAUSE 25}…{PAUSE 25} la\l"
+	.string "desbordados con el exceso de trabajo.\p"
+	.string "En cuanto a -Un mundo feliz-{PAUSE 25}…{PAUSE 25} la\n"
 	.string "ilusión de la liga POKÉMON y el sueño de\l"
 	.string "ser maestro POKÉMON podrían ser la\l"
 	.string "dosis de soma moderno que mantiene\l"
@@ -220,16 +220,16 @@ end
 RocketHideout5F_Text_18:
 	.string "Sometimes, the laws of nature are\n"
 	.string "stronger than our personal desires.\l"
-	.string "PIDGEOT is a reference for KANTO birds.\l"
-	.string "His base total is 479, the highest among\l"
+	.string "PIDGEOT is a reference for KANTO birds.\p"
+	.string "His base total is 479, the highest among\n"
 	.string "NON-LEGENDARIES. He must have evolved\l"
 	.string "all along these years until it became\l"
 	.string "the great bird it is. Also, he can reach\l"
 	.string "its maximum potential with\l"
 	.string "MEGA-EVOLUTION, reaching 579 base\l"
 	.string "STATs. Exactly 1 point below the\l"
-	.string "legendary birds, with 580 points.\l"
-	.string "Coincidence? I don't think so. It looks\l"
+	.string "legendary birds, with 580 points.\p"
+	.string "Coincidence? I don't think so. It looks\n"
 	.string "like the legendary ones are saying -it\l"
 	.string "doesn't matter how hard you try, we're in\l"
 	.string "separate leagues, we're the chosen\l"
@@ -259,12 +259,12 @@ RocketHideout5F_Text_19:
 	.string "with you: prioritize yourself first,\l"
 	.string "then tackle non-urgent tasks that may\l"
 	.string "consume some time but can make a\l"
-	.string "significant difference for you. This is\l"
-	.string "how you can leverage this law, as it\l"
-	.string "compels you to address tasks that are\l"
-	.string "both important and urgent\l"
-	.string "simultaneously, aiming for efficiency.\l"
-	.string "When individuals are compelled to\l"
+	.string "significant difference for you.\p"
+	.string "This is how you can leverage this law,\n"
+	.string "as it compels you to address tasks\l"
+	.string "that are both important and urgent\l"
+	.string "simultaneously, aiming for efficiency.\p"
+	.string "When individuals are compelled to\n"
 	.string "heighten their senses and are pushed\l"
 	.string "to their limits, they often surpass\l"
 	.string "expectations. Without this drive,\l"
@@ -287,7 +287,7 @@ end
 RocketHideout5F_Text_21:
 	.string "Destiny or freedom? The answer to that\n"
 	.string "question doesn't depend on you, so shut\l"
-	.string "the f''k up and get moving on what does.\l"
+	.string "the f''k up and get moving on what does.\p"
 	.string "That's all.$"
 
 
@@ -647,7 +647,7 @@ release
 end
 
 RocketHideout5F_Text_42:
-	.string "NIDOKING and NIDOQUEEN, are two of the\n"
+	.string "NIDOKING and NIDOQUEEN: two of the\n"
 	.string "most appreciated POKÉMON of our\l"
 	.string "organization, if you can get one of\l"
 	.string "those, everyone will respect you here.$"
@@ -681,9 +681,9 @@ RocketHideout5F_Text_44:
 	.string "This place is one example of the\n"
 	.string "science potential, do we lose\l"
 	.string "performance, capacity, and health by\l"
-	.string "being disconnected from nature? Well\l"
-	.string "we bring nature to our offices, GOD\l"
-	.string "SAVE GIOVANNI!$"
+	.string "being disconnected from nature?\p"
+	.string "Well, we bring nature to our\n"
+	.string "offices, GOD SAVE GIOVANNI!$"
 
 
 
@@ -798,11 +798,11 @@ end
 RocketHideout5F_Text_52:
 	.string "Fools! They thought they would limit us\n"
 	.string "to basic healing services, and we have a\l"
-	.string "private resource system 10 times\l"
-	.string "better than that nonsense of public\l"
-	.string "stores! Come on grunt, you are at home,\l"
-	.string "nowhere else will you find a greater\l"
-	.string "variety of products at a better price!\l"
+	.string "private resource system 10 times better\l"
+	.string "than that nonsense of public stores!\p"
+	.string "Come on, grunt! You are at home!\p"
+	.string "Nowhere else will you find a greater\n"
+	.string "variety of products at a better price!\p"
 	.string "Buahahahaha! HAIL GIOVANNI!$"
 
 
@@ -923,10 +923,10 @@ RocketHideout5FDocumento_Text_100:
 .string "SP. DEF: 110\l"
 .string "SPEED: 65\l"
 .string "TOTAL: 525\p"
-	.string "The evolved form of EEVEE that\n"
+	.string "The evolved form of EEVEE, which\n"
 	.string "distributes its STATs less efficiently,\l"
 	.string "nonetheless a flare blitz of this\l"
-	.string "POKÉMON with the ability guts\l"
+	.string "POKÉMON with the ability - GUTS -\l"
 	.string "activated will burn everything that\l"
 	.string "could touch, it is impossible to find it\l"
 	.string "on the wild, only evolvable through an\l"
@@ -1011,8 +1011,8 @@ RocketHideout5FDocumento_Text_103:
 .string "SPEED: 76\l"
 .string "TOTAL: 530\p"
 	.string "The ROCKET queen, if we consider her\n"
-	.string "ability SHEER FORCE and holding a LIFE\l"
-	.string "ORB, those 80 in special attack raises\l"
+	.string "ability - SHEER FORCE - and the LIFE\l"
+	.string "ORB combo, those 80 SP. ATK powers up\l"
 	.string "to 120, apart from that, her defensive\l"
 	.string "STATs are notable, and her moves\l"
 	.string "variety, excellent.$"
@@ -1041,10 +1041,10 @@ RocketHideout5FDocumento_Text_104:
 	.string "due to his deadly combination of SHEER\l"
 	.string "FORCE and LIFE ORB, reaching the power\l"
 	.string "of most of its special moves, such as\l"
-	.string "Sludge Bomb, Thunder, Flamethrower,\l"
-	.string "Earth Power, or Ice Beam, with a double\l"
+	.string "SLUDGE BOMB, THUNDER, FLAMETHROWER,\l"
+	.string "EARTH POWER, or ICE BEAM, with a double\l"
 	.string "increase of 30% in their usual power and\l"
-	.string "turning that base of 90 special attack\l"
+	.string "turning from a base 90 SPECIAL ATTACK\l"
 	.string "into something much more dangerous\l"
 	.string "than the number says.$"
 
@@ -1229,11 +1229,11 @@ RocketHideout5FDocumento_Text_110:
 	.string "por el trono helado de la región,\l"
 	.string "mantiene intacta su capacidad de\l"
 	.string "golpear a pesar de sus grandes\l"
-	.string "defensas, gracias a Rayo, Psíquico,\l"
-	.string "y STAB con Rayo Hielo y Surf.\p"
-	.string "Pokémon característico de la\n"
-	.string "miembro del alto mando LORELEI y\l"
-	.string "que completa el trío de Pokémon\l"
+	.string "defensas, gracias a RAYO, PSÍQUICO,\l"
+	.string "y STAB con RAYO HIELO y SURF.\p"
+	.string "POKÉMON característico de la\n"
+	.string "miembro del ALTO MANDO LORELEI y\l"
+	.string "que completa el trío de POKÉMON\l"
 	.string "singulares de los altos mandos.$"
 
 
@@ -1263,15 +1263,15 @@ RocketHideout5FDocumento_Text_111:
 	.string "region, symbolizing the utmost\l"
 	.string "achievement for a fighting type, it\l"
 	.string "stands as the top choice for BRUNO\l"
-	.string "from the Elite Four, its exceptional\l"
+	.string "from the ELITE FOUR, its exceptional\l"
 	.string "physical endurance has made it to\l"
 	.string "overcome the perceived weakness of\l"
 	.string "fighting against flying types,\l"
 	.string "perfectly withstanding the physical\l"
 	.string "onslaughts of these POKÉMON with its\l"
 	.string "base 110 DEFENSE and then knocking\l"
-	.string "them down with a stone edge that never\l"
-	.string "fails.$"
+	.string "them down with a STONE EDGE that\l"
+	.string "never fails.$"
 
 
 
@@ -1296,11 +1296,11 @@ RocketHideout5FDocumento_Text_112:
 	.string "The essence and spiritual vibes of\n"
 	.string "LAVENDER TOWN materialized in a\l"
 	.string "POKÉMON, the one with the highest\l"
-	.string "special attack of KANTO despite some\l"
+	.string "SPECIAL ATTACK of KANTO despite some\l"
 	.string "swearing that was; it great rival\l"
 	.string "ALAKAZAM, characteristic POKÉMON of\l"
 	.string "AGATHA, it perfectly exploits its STAB\l"
-	.string "moves with Shadow Ball and Sludge Bomb\l"
+	.string "moves with SHADOW BALL and SLUDGE BOMB\l"
 	.string "on the special side, but the potential\l"
 	.string "techniques and variations of this\l"
 	.string "POKÉMON go far beyond these two moves.$"
@@ -1329,16 +1329,16 @@ RocketHideout5FDocumento_Text_113:
 	.string "non-pseudo-legendary POKÉMON, despite\l"
 	.string "not distributing its STATs as\l"
 	.string "efficiently as others, makes good use\l"
-	.string "of its physical attack with a flare\l"
-	.string "blitz with STAB, extreme speed, and\l"
-	.string "close combat. Its Intimidate ability,\l"
-	.string "along with Will-O-Wisp and access to\l"
-	.string "Morning Sun, also provide it with solid\l"
+	.string "of its physical attack with a STAB FLARE\l"
+	.string "BLITZ, EXTREMESPEED, and CLOSE COMBAT.\p"
+	.string "Its ability - INTIMIDATE -, along\n"
+	.string "with WILL-O-WISP and access to\l"
+	.string "MORNING SUN, also provide it with solid\l"
 	.string "defensive attributes, it was often\l"
 	.string "mistaken as the fourth legendary in\l"
 	.string "KANTO, but it has been confirmed that\l"
-	.string "its origin is distinct from that of the\l"
-	.string "three sacred birds.$"
+	.string "its origin is distinct from that of\l"
+	.string "the three sacred birds.$"
 
 
 
@@ -1362,7 +1362,7 @@ RocketHideout5FDocumento_Text_114:
 	.string "TOTAL: 600\p"
 	.string "The KANTO's pseudo-legendary, even\n"
 	.string "though it is thought to have origins in\l"
-	.string "the Dragon's Den of JOHTO, its\l"
+	.string "the DRAGON's DEN of JOHTO, its\l"
 	.string "evolutionary line is regarded as the\l"
 	.string "most sacred and pure, its final form\l"
 	.string "have a power on par with the most of\l"
@@ -1407,8 +1407,8 @@ end
 RocketHideout5FDocumento_Text_116:
 .string "THE POWER OF BASE STATs:\p"
 	.string "BASE STATs are the most objective and\n"
-	.string "measurable quality of every POKÉMON.\l"
-	.string "Each POKÉMON has some BASE STATs\l"
+	.string "measurable quality of every POKÉMON.\p"
+	.string "Each POKÉMON has some BASE STATs\n"
 	.string "attached to it specie, as the result of\l"
 	.string "the sum of each stat HP, AT, DEF, SP.DEF,\l"
 	.string "SP.AT, and SPE, the six essential\l"
@@ -1525,7 +1525,7 @@ msgbox RocketHideout5FDocumento_Text_119, MSGBOX_SIGN
 end
 
 RocketHideout5FDocumento_Text_119:
-.string "ROCKETS MORAL CODE \n"
+.string "ROCKETS MORAL CODE\n"
     .string"AND CONDUCT\l"
     .string "1.- My presence in the organization is a\l"
     .string "privilege, not a right, and I must gain\l"
@@ -1811,8 +1811,8 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1:
 .string "{PLAYER}{PAUSE 25}…{PAUSE 25} estás aquí.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
-.string "El combate ha acabado.\n"
-	.string "Como era de esperar, me ha derrotado\l"
+.string "El combate ha acabado.\p"
+	.string "Como era de esperar, me ha derrotado\n"
 	.string "muy fácilmente, ese CHARIZARD es toda\l"
 	.string "una rareza en nuestra región{PAUSE 25}…{PAUSE 25} solo\l"
 	.string "alguien como OAK ha podido\l"
@@ -1839,8 +1839,8 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.1:
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.2:
 	.string "No ha entrado a nuestra base para\n"
-	.string "-detener nuestros malvados planes-,\l"
-	.string "solo estuvo aquí porque le parecía su\l"
+	.string "-detener nuestros malvados planes-.\p"
+	.string "Solo estuvo aquí porque le parecía su\n"
 	.string "mejor hoja de ruta, no ve diferencia\l"
 	.string "entre derrotarte a ti o a mí que en\l"
 	.string "derrotar al DOMINGUERO de turno que\l"
@@ -1860,7 +1860,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
 .string "Quiero que hagas una visita a\n"
-	.string "PUEBLO PALETA.\l"
+	.string "PUEBLO PALETA.\p"
 	.string "Ese es el lugar de origen de ROJO.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1:
@@ -1871,8 +1871,8 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1:
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
 .string "De las 7 misiones que llevas al\n"
 	.string "servicio del TEAM ROCKET, esta\l"
-	.string "puede ser la de mayor importancia.\l"
-	.string "Explora ese lugar, su casa, el\l"
+	.string "puede ser la de mayor importancia.\p"
+	.string "Explora ese lugar, su casa, el\n"
 	.string "laboratorio de OAK{PAUSE 15}…{PAUSE 15} en busca de\l"
 	.string "cualquier dato que pueda sernos útil.$"
 
@@ -1883,20 +1883,20 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
 	.string "Otra cosa más, {PLAYER}.\n"
 	.string "Evita a OAK, el dueño del laboratorio\l"
-	.string "de investigación del pueblo.\l"
-	.string "Lleva varios años retirado, y renunció\l"
+	.string "de investigación del pueblo.\p"
+	.string "Lleva varios años retirado, y renunció\n"
 	.string "a sus POKÉMON tras el ascenso de LANCE,\l"
 	.string "pero hoy en día, no creo ni la mitad de\l"
 	.string "cosas que se dicen sobre él.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
 	.string "Fue un ducho ENTRENADOR en el pasado,\n"
-	.string "antes de renunciar a sus principios.\l"
+	.string "antes de renunciar a sus principios.\p"
 	.string "Actúa con precaución.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9:
-.string "Eso es todo.\n"
-	.string "Estaré en mi despacho del S5, a la espera\l"
+.string "Eso es todo.\p"
+	.string "Estaré en mi despacho del S5, a la espera\n"
 	.string "de resultados, el de verdad, no ese sucio\l"
 	.string "sótano del S4 cuya única utilidad es\l"
 	.string "guardar las apariencias.$"
@@ -2059,8 +2059,8 @@ RocketHideout_5F_Combate_Andra_Texto_1:
 	.string "cuando nos dijo que la base de AZULONA\l"
 	.string "nada tenía que ver con las otras.\l"
 	.string "No solo podemos comprar lo que en una\l"
-	.string "tienda normal hay, la oferta es mayor.\l"
-	.string "¿Has visto todas las zonas de\l"
+	.string "tienda normal hay, la oferta es mayor.\p"
+	.string "¿Has visto todas las zonas de\n"
 	.string "investigación que hay?\l"
 	.string "Parece que se toman muy en serio la\l"
 	.string "ciencia detrás del poder de los POKÉMON.$"
@@ -2114,8 +2114,8 @@ RocketHideout_5F_Combate_Andra_Texto_5:
 
 RocketHideout_5F_Combate_Andra_Texto_6:
 .string "¡¿El ENTRENADOR misterioso\n"
-	.string "está aquí?!\l"
-	.string "¿Y GIOVANNI no quiere que movamos\l"
+	.string "está aquí?!\p"
+	.string "¿GIOVANNI no quiere que movamos\n"
 	.string "un dedo de este lugar hasta que\l"
 	.string "ese renacuajo se largue?$"
 
@@ -2154,9 +2154,9 @@ RocketHideout_5F_Combate_Andra_Texto_10:
 	.string "libres de salir al exterior.-$"
 
 RocketHideout_5F_Combate_Andra_Texto_11:
-.string "ANDRA: Perfecto.\n"
-	.string "KANTO me espera, {PLAYER}.\l"
-	.string "Voy a llevar a cabo un entrenamiento\l"
+.string "ANDRA: Perfecto.\p"
+	.string "KANTO me espera, {PLAYER}.\p"
+	.string "Voy a llevar a cabo un entrenamiento\n"
 	.string "especial, mientras no me soliciten para\l"
 	.string "ninguna misión, ¡no reconocerás a mis\l"
 	.string "POKÉMON la próxima vez que los tengas\l"
@@ -2592,8 +2592,8 @@ RocketHideout5F_Secundaria_Frank_Texto_4:
 RocketHideout5F_Secundaria_Frank_Texto_5:
 	.string "You still are inferior to me, and being\n"
 	.string "under my orders. Better to keep the\l"
-	.string "respect to me, GRUNT! Now get out of my\l"
-	.string "way!$"
+	.string "respect to me, GRUNT!\p"
+	.string "Now get out of my way!$"
 
 RocketHideout5F_Secundaria_Frank_Texto_6:
 .string "{PAUSE 20}…{PAUSE 20}$"

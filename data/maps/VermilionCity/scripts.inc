@@ -156,8 +156,8 @@ release
 end
 
 VermilionCity_Text_Derecha:     
-.string "(I should go to heal my team, just in\n"
-	.string "case).$"
+.string "-I should go to heal my team,\n"
+	.string "just in case.-$"
 
 
 VermilionCityDerechaMove1:
@@ -179,8 +179,8 @@ release
 end
 
 VermilionCity_Text_Izq:     
-.string "(I should go to heal my team, just in\n"
-	.string "case).$"
+.string "-I should go to heal my team,\n"
+	.string "just in case.-$"
 
 
 VermilionCityIzqMove1:
@@ -318,7 +318,7 @@ end
 VermilionCity_Text_Surge:
 	.string "????: Careful there, kid. You'd better\n"
 	.string "respect the peace around here if you\l"
-	.string "don't wanna find yourself in hot water.\l"
+	.string "don't wanna find yourself in hot water.\p"
 	.string "I warned you.$"
 
 VermilionCitySurge_move1:
@@ -469,9 +469,9 @@ end
 VermilioCity_Motorista_Text_1:
 .string "ANDRA: ¿Alguna noticia de nuestro\n"
 	.string "supuesto comodín para entrar al\l"
-	.string "SS.ANNE?\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "SS.ANNE?\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "Ya veo.$"
 
 VermilioCity_Motorista_Text_2:
@@ -519,9 +519,9 @@ VermilioCity_Motorista_Text_6:
 VermilioCity_Motorista_Text_7:
 	.string "TETSUO: Hey, look. Lemme tell you what\n"
 	.string "we're gonna do here. I scoped this guy\l"
-	.string "out, and he loves marine POKÉMON. I'm\l"
-	.string "gonna rile him up so you guys can sneak\l"
-	.string "onto the S.S. ANNE.$"
+	.string "out, and he loves marine POKÉMON.\p"
+	.string "I'm gonna rile him up so you guys can\n"
+	.string "sneak onto the S.S. ANNE.$"
 
 VermilioCity_Motorista_Text_8:
 	.string "TETSUO: When I give the order, hurry\n"
@@ -533,13 +533,13 @@ VermilioCity_Motorista_Text_9:
 VermilioCity_Motorista_Text_10:
 	.string "Yeah, you! The heck're you wasting away\n"
 	.string "in a dump like this for, fawning over\l"
-	.string "your squishy, wimpy WATER POKÉMON?\l"
-	.string "Darn those TENTACOOL! All they're good\l"
+	.string "your squishy, wimpy WATER POKÉMON?\p"
+	.string "Darn those TENTACOOL! All they're good\n"
 	.string "for is clogging up our summer!$"
 
 VermilioCity_Motorista_Text_11:
-	.string "SAILOR: What did you just say?\n"
-	.string "Run that by me again, you POISON-loving\l"
+	.string "SAILOR: What did you just say?\p"
+	.string "Run that by me again, you POISON-loving\n"
 	.string "runt! Newsflash-TENTACOOL's a POISON\l"
 	.string "POKÉMON too!$"
 
@@ -915,10 +915,11 @@ VermilionCity_Secundaria_AncianoMachop_Texto_8:
 	.string "How's the mission going?$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_9:
-	.string "Oh! A HIGH-RANK ROCKET GRUNT? Mm, yes,\n"
-	.string "your POKÉMON seem to pack a punch. Tell\l"
-	.string "me, would you like to do a little job for\l"
-	.string "me?$"
+	.string "Oh!\p"
+	.string "A HIGH-RANK ROCKET GRUNT?\p"
+	.string "Mm, yes, your POKÉMON seem to pack a punch.\p"
+	.string "Tell me, would you like to do a little\n"
+	.string "job for me?$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_10:
 	.string "Good! Now listen up! The CHAIRMAN of\n"

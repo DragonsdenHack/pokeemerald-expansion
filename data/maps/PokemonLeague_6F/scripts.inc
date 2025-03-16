@@ -560,8 +560,8 @@ PokemonLeague_6F_Final_Texto_7:
 PokemonLeague_6F_Final_Texto_8:
 .string "Un ENTRENADOR invencible, capaz de\n"
 	.string "tomar por sí solo las mejores decisiones\l"
-	.string "decisiones posibles en cuanto a captura\l"
-	.string "de POKÉMON, estrategia en batalla,\l"
+	.string "posibles en cuanto a captura de\l"
+	.string "POKÉMON, estrategia en batalla,\l"
 	.string "entrenamiento y asignación de objetos\l"
 	.string "y movimientos. Capaz de exprimir al\l"
 	.string "máximo un equipo de 6 POKÉMON con\l"

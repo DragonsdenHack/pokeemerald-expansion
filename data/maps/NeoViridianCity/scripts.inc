@@ -59,8 +59,6 @@ NeoViridianCity_Anciano_YesNo_Texto_2:
 	.string "now, but I was an expert at catching\l"
 	.string "POKÉMON.$"
 
-
-
 NeoViridianCity_Anciano_YesNo_Texto_1:
 	.string "Hey, kid! I just had a double shot of\n"
 	.string "espresso, and I am wired!$"
@@ -76,7 +74,6 @@ NeoViridianCity_Anciano_No_Texto_1:
 	.string "What? You little whelp! If I were just a\n"
 	.string "bit younger, I'd show you a thing or two.\l"
 	.string "Humph!$"
-
 
 NeoViridianCity_Anciano_Yes:
 	.string "Good, good. Yes, I was something out of\n"

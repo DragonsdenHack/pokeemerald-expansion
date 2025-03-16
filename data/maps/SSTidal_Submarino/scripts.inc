@@ -597,7 +597,7 @@ SSTidal_Submarino_Segunda_Escena_Texto_14:
 	.string "Ha prestado usted un gran servicio a\n"
 	.string "DEVON. Sin sus conocimientos náuticos,\l"
 	.string "no hubiéramos podido llegar hasta aquí\l"
-	.string "tan facilmente.$"
+	.string "tan fácilmente.$"
 
 SSTidal_Submarino_Segunda_Escena_Texto_15:
 	.string "????: Me quedaré guardando la nave. No\n"

@@ -72,8 +72,8 @@ NeoLavanda_Ruta_Oeste_Policia_Texto_3:
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_2:
 	.string "I apologize, sir, but the UNDERGROUND\n"
-	.string "PATH will be closing shortly. You know,\l"
-	.string "it's orders from above.$"
+	.string "PATH will be closing shortly.\p"
+	.string "You know, orders from above.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_1:
 	.string "The UNDERGROUND PATH is closed\n"

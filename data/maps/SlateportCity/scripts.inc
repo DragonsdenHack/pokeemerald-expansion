@@ -1421,8 +1421,8 @@ release
 end
 
 SlateportCity_Cuarto_Bloqueo_Texto_1:
-	.string "¿De cuánto será la donación?\n"
-	.string "¿20.000.000¥?\l"
+	.string "¿De cuánto será la donación?\p"
+	.string "¿20.000.000¥?\p"
 	.string "¡Nosotros tendremos la exclusiva!$"
 
 SlateportCity_Quinto_Bloqueo::

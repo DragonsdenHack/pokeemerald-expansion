@@ -598,7 +598,7 @@ Snowpoint_Templo_S5_Amatista_Texto_16:
 	.string "Esperable.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_17:
-	.string "Este equipo ganaría facilmente la LIGA\n"
+	.string "Este equipo ganaría fácilmente la LIGA\n"
 	.string "POKÉMON de HOENN. Pero perder contra\l"
 	.string "ti no es ninguna sorpresa.$"
 

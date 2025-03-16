@@ -20,8 +20,6 @@ LavenderTown_Mart_Text_2:
     .string "If that happens, you have to send\n"
     .string "out two POKÉMON to battle, too.$"
 
-
-
 LavenderTownMart_3::
 lock     
 faceplayer     
@@ -32,8 +30,6 @@ end
 LavenderTown_Mart_Text_3:
     .string "Did you buy some REVIVES?\n"
     .string "They revive any fainted POKÉMON!$"
-
-
 
 LavenderTownMart_4::
 lock     

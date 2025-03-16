@@ -11,8 +11,8 @@ end
 KindleRoad_Text_1:
 	.string "We're sorry, but there has been a\n"
 	.string "landslide, and access to MT.EMBER will\l"
-	.string "be closed until safety is ensured. We\l"
-	.string "apologize for the inconvenience.$"
+	.string "be closed until safety is ensured.\p"
+	.string "We apologize for the inconvenience.$"
 
 
 KindleRoad2::
@@ -26,8 +26,8 @@ KindleRoad_Text_2:
 	.string "We regret to inform you that there has\n"
 	.string "been a landslide. MT.EMBER acces will be\l"
 	.string "unavailable until safety measures are\l"
-	.string "in place. We apologize for the\l"
-	.string "inconvenience.$"
+	.string "in place.\p"
+	.string "We apologize for the inconvenience.$"
 
 
 KindleRoad3::

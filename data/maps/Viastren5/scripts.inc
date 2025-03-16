@@ -23,8 +23,8 @@ release
 end
 
 ViasTren5_Text_6:
-	.string "We've passed CERULEAN. SAFFRON is right\n"
-	.string "next!$"
+	.string "We've passed CERULEAN.\p"
+	.string "SAFFRON is right next!$"
 
 
 

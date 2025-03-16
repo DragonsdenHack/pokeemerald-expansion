@@ -458,7 +458,6 @@ Silph_7F_Encuentro_Azul_Texto_10:
 	.string "waiting your signal to drop the CARD KEY\l"
 	.string "once the negotiation finishes.$"
 
-
 Silph7F_12_Texto_1:
 	.string "BLUE: Hurry up, {PLAYER}, and defeat\n"
 	.string "what's left of the security before\l"

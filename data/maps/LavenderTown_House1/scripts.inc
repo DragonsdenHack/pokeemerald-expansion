@@ -13,7 +13,5 @@ LavenderTownHouse1_1_Texto_1:
 	.string "ROCKET? Well, I hope LANCE hits you with\l"
 	.string "the same rule!$"
 
-
-
 LavenderTownHouse1_2::
 end

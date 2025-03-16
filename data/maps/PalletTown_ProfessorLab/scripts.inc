@@ -46,8 +46,8 @@ end
 
 PalletTown_ProfessorLab_Despues_Text_2:
 	.string "OAK va a participar en el programa de\n"
-	.string "radio de CIUDAD TRIGAL. Es toda una\l"
-	.string "eminencia.$"
+	.string "radio de CIUDAD TRIGAL.\p"
+	.string "Es toda una eminencia.$"
 
 
 PalletTownProfessorLab3::
@@ -201,13 +201,13 @@ face_player
 step_end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
-.string "????: Hm, OAK's not here?\n"
-	.string "He could be at ZONE 0.$"
+.string "????: Hm, OAK's not here?\p"
+	.string "He must be at ZONE 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-	.string "????: Do you need something, sir? I'm\n"
-	.string "OAK's granddaughter and BLUE's big\l"
-	.string "sister…$"
+	.string "????: Do you need something, sir?\p"
+	.string "I'm OAK's granddaughter and\n"
+	.string "BLUE's big sister…$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
 	.string "So you know my brother! He's a good boy,\n"
@@ -221,7 +221,7 @@ PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DAISY: GRANDPA's last POKÉMON!\n"
+.string "DAISY: GRANDPA's last POKÉMON!\p"
 	.string "I was right to suspect that uniform!$"
 
 PalletTown_ProfessorLab_Lab_Texto_6:
@@ -231,7 +231,7 @@ PalletTown_ProfessorLab_Lab_Texto_6:
 
 PalletTown_ProfessorLab_Lab_Texto_7:
 .string "DALIA: Nada te exhime de robar un\n"
-	.string "Pokémon ajeno, ROCKET.\l"
+	.string "POKÉMON ajeno, ROCKET.\p"
 	.string "¡Vas a pagar por ello!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:

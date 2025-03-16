@@ -107,29 +107,29 @@ PokemonTower_7F_Proton_Texto_1:
 	.string "it? I hope you think about our offer!$"
 
 PokemonTower_7F_Proton_Texto_2:
-	.string "PROTON: I see, anyways FUJI and I\n"
-	.string "finished, time to go back to the\l"
-	.string "headquarter {PLAYER}!$"
+	.string "PROTON: I see. Anyways, I'm done\n"
+	.string "with FUJI. Time to go back to the\l"
+	.string "headquarter, {PLAYER}!$"
 
 PokemonTower_7F_Proton_Texto_3:
-.string "PROTON: Grunts!\n"
+.string "PROTON: Grunts!\p"
 	.string "Come upstairs immediately!$"
 
 PokemonTower_7F_Proton_Texto_4:
 .string "PROTÓN: Custodiad a FUJI hasta que\n"
-	.string "no se os dé otra orden,\l"
-	.string "¡¿entendido?!$"
+	.string "no se os dé otra orden.\p"
+	.string "¡¿Entendido?!$"
 
 PokemonTower_7F_Proton_Texto_5:
 .string "RECLUTAS: ¡Totalmente, SIR!$"
 
 PokemonTower_7F_Proton_Texto_6:
 .string "PROTÓN: Siempre hay que guardar\n"
-	.string "las apariencias, {PLAYER}.\l"
-	.string "Si ese necio sube hasta aquí, creerá\l"
+	.string "las apariencias, {PLAYER}.\p"
+	.string "Si ese necio sube hasta aquí, creerá\n"
 	.string "lo que todos creen: que unos\l"
 	.string "descerebrados delincuentes secuestran\l"
-	.string "a un anciano sin sentido alguno.$"
+	.string "a un anciano, sin sentido alguno.$"
 
 PokemonTower_7F_Proton_Texto_6.1:
 	.string "Después de todo, nadie puede\n"
@@ -137,7 +137,7 @@ PokemonTower_7F_Proton_Texto_6.1:
 	.string "que siquiera conoce.$"
 
 PokemonTower_7F_Proton_Texto_7:
-.string "PROTON: CLEFAIRY! \n"
+.string "PROTON: CLEFAIRY!\p"
 	.string "TELEPORT to the warehouse!$"
 
 PokemonTower_7F_Proton_Texto_8:

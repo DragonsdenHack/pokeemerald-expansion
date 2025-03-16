@@ -1737,11 +1737,8 @@ BaseRocketHoenn_Text_TakeTynamo:
 	.string "there's a POKÉMON with no weaknesses?\l"
 	.string "No? Take it!$"
 
-
-
 BaseRocketHoenn_Text_MensajeTynamo:
 .string "YOU OBTAINED A LV.25 TYNAMO!$"
-
 
 BaseRocketHoenn_Text_27:
 	.string "The evolutionary line of TYNAMO is pure\n"

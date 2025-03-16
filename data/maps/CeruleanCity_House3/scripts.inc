@@ -24,10 +24,10 @@ end
 
 CeruleanCity_House3_Text_2:
 	.string "Long ago, far off in FLOE ISLAND, you\n"
-	.string "could capture JYNX in ICEFALL CAVE.\l"
-	.string "Nowadays, I'd trade one of those for a\l"
+	.string "could capture JYNX in ICEFALL CAVE.\p"
+	.string "Nowadays, I'd trade one of those for a\n"
 	.string "POLIWHIRL. It's a bad deal, I know, but I\l"
 	.string "just don't have the energy to catch a\l"
-	.string "POLIWAG and evolve it myself… … … How?\l"
-	.string "You? I'd never do business with a\l"
+	.string "POLIWAG and evolve it myself… … … How?\p"
+	.string "You? I'd never do business with a\n"
 	.string "ROCKET!$"

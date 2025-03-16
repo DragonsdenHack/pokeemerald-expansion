@@ -52,8 +52,6 @@ EcruteakHouse2Documento_Text_100Yes:
 	.string "burned down. And since then, neither of\l"
 	.string "the two POKÉMON has been seen.$"
 
-
-
 EcruteakHouse2Documento_Text_100Yes2:
 	.string "In ECRUTEAK CITY, there were also three\n"
 	.string "POKÉMON that roamed throughout the\l"

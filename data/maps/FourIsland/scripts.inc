@@ -200,8 +200,8 @@ FourIsland_Encuentro_Zeus_Texto_8:
 FourIsland_Encuentro_Zeus_Texto_9:
 	.string "If you spot anything unusual, inform me\n"
 	.string "right away; I'll be exploring in the\l"
-	.string "ALTERING CAVE. See you later,\l"
-	.string "-TRAINER-.$"
+	.string "ALTERING CAVE.\p"
+	.string "See you later, -TRAINER-.$"
 
 FourIsland_Encuentro_Zeus_Move_1:
 face_right

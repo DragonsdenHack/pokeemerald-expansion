@@ -36,9 +36,9 @@ release
 end
 
 ViridianCity_Text5:
-.string "What?\n"
-.string "Teach you how to catch POKÉMON?\l"
-.string "To learn to steal them faster, eh!\l"
+.string "What?\p"
+.string "Teach you how to catch POKÉMON?\p"
+.string "To learn to steal them faster, eh!\p"
 .string "Never, ROCKET!$"
 
 

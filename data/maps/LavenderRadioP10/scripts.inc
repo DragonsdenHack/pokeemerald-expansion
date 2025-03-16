@@ -112,10 +112,10 @@ end
 
 LavenderRadioP10_Rocket_Texto_1:
 	.string "The ROCKET STONE is extremely limited,\n"
-	.string "even for high-ranked ROCKET. Only when\l"
-	.string "you become an EXECUTIVE are you\l"
-	.string "granted one, but it must be amazing to\l"
-	.string "have a POKÉMON that you know is on the\l"
-	.string "level and hierarchy of a LEGENDARY, and\l"
-	.string "also represents the ROCKET style.$"
+	.string "even for high-ranked ROCKET.\p"
+	.string "Only becoming an EXECUTIVE, you'll be\n"
+	.string "worthy to have one; must be amazing to\l"
+	.string "have a POKÉMON on the same level and\l"
+	.string "status of a LEGENDARY, and, also,\l"
+	.string "represents the ROCKET style.$"
 

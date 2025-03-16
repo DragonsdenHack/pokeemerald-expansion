@@ -181,9 +181,9 @@ end
 Route11_Policias_Text:
 	.string "Do you think we're idiots? Did you really\n"
 	.string "think we wouldn't catch you trying to\l"
-	.string "sneak by using SURF? Turn around\l"
-	.string "unless you want me to call Lance\l"
-	.string "himself!$"
+	.string "sneak by using SURF?\p"
+	.string "Turn around unless you want me\n"
+	.string "to call LANCE himself!$"
 
 Route11_Policias_move1:
 face_down

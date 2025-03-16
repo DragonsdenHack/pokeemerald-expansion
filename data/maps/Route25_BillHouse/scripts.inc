@@ -349,9 +349,9 @@ Route25_BillHouse_Warp_text_1:
 
 Route25_BillHouse_Warp_Text_YesNo:
     .string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-    .string "This poster seems to be covering some\l"
-	.string "tunnel that leads somewhere else.\l"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+    .string "This poster seems to be covering some\n"
+	.string "tunnel that leads somewhere else.\p"
 	.string "Wanna cross it?$"
 
 Route25_BillHouse_Warp_move1:
