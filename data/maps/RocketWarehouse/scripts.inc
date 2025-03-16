@@ -182,7 +182,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
 	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-	.string "-{PLAYER} has earned 300,000¥!-$"
+	.string "-{PLAYER} has earned ¥300,000!-$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
 	.string "And most importantly, I'll give you this\n"
@@ -980,10 +980,10 @@ RocketWarehouse_Text_Vuelta_MisionAtlas1_1:
 	.string "here is your reward.$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
-	.string "{PLAYER} EARNED 25,000¥!$"
+	.string "{PLAYER} EARNED ¥25,000!$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
-.string "ANDRA EARNED 25,000¥!$"
+.string "ANDRA EARNED ¥25,000!$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
 	.string "ARCHER: With that, you'll be able to\n"

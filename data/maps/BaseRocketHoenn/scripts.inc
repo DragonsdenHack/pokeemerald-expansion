@@ -2338,39 +2338,39 @@ end
 
 EventScript_Jangmo_Texto_1:
 .string "Are you sure you want JANGMO-O?\n"
-	.string "It will cost 168000 POKÉ.$"
+	.string "It will cost ¥168,000.$"
 
 EventScript_Poplio_Texto_1:
 .string "Are you sure you want POPLIO?\n"
-	.string "It will cost 76000 POKÉ.$"
+	.string "It will cost ¥76,000.$"
 
 EventScript_Chimchar_Texto_1:
 .string "Are you sure you want CHIMCHAR?\n"
-	.string "It will cost 82000 POKÉ.$"
+	.string "It will cost ¥82,000.$"
 
 EventScript_Oshawott_Texto_1:
 .string "Are you sure you want OSHAWOTT?\n"
-	.string "It will cost 68000 POKÉ.$"
+	.string "It will cost ¥68,000.$"
 
 EventScript_Bouffalant_Texto_1:
 .string "Are you sure you want BOUFFALANT?\n"
-	.string "It will cost 60000 POKÉ.$"
+	.string "It will cost ¥60,000.$"
 
 EventScript_Frosmoth_Texto_1:
 .string "Are you sure you want FROSMOTH?\n"
-	.string "It will cost 48000 POKÉ.$"
+	.string "It will cost ¥48,000.$"
 
 EventScript_Timburr_Texto_1:
 .string "Are you sure you want TIMBURR?\n"
-	.string "It will cost 30000 POKÉ.$"
+	.string "It will cost ¥30,000.$"
 
 EventScript_Drilbur_Texto_1:
 .string "Are you sure you want DRILBUR?\n"
-	.string "It will cost 22500 POKÉ.$"
+	.string "It will cost ¥22,500.$"
 
 EventScript_Rockruff_Texto_1:
 .string "Are you sure you want ROCKRUFF?\n"
-	.string "It will cost 15000 POKÉ.$"
+	.string "It will cost ¥15,000.$"
 
 BaseRocketHoenn_Potencial_Sinohh::
 lock

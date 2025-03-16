@@ -187,7 +187,7 @@ end
 
 RocketHideout6F_Text_18:
 	.string "-A SCYTHER's inside. It seems to go for\n"
-	.string "110,000¥ in the GAME CORNER.-$"
+	.string "¥110,000 in the GAME CORNER.-$"
 
 
 
@@ -200,7 +200,7 @@ end
 
 RocketHideout6F_Text_19:
 	.string "-A DRATINI's inside. It seems to go for\n"
-	.string "53,000¥ in the GAME CORNER.-$"
+	.string "¥53,000 in the GAME CORNER.-$"
 
 
 
@@ -315,7 +315,7 @@ end
 
 RocketHideout6FDocumento_Text_100:
 	.string "-A DRATINI's inside. It seems to go for\n"
-	.string "53,000¥ in the GAME CORNER.-$"
+	.string "¥53,000 in the GAME CORNER.-$"
 
 
 
@@ -326,7 +326,7 @@ end
 
 RocketHideout6FDocumento_Text_101:
 	.string "-A SCYTHER's inside. It seems to go for\n"
-	.string "110,000¥ in the GAME CORNER.-$"
+	.string "¥110,000 in the GAME CORNER.-$"
 
 
 
@@ -1397,19 +1397,19 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "your respective missions, these are\l"
 	.string "your rewards. To you, {PLAYER}, given\l"
 	.string "the savings this patent will bring and\l"
-	.string "as compensation for the POKÉ taken\l"
-	.string "after the MT. MOON mission, you get the\l"
-	.string "following…$"
+	.string "as compensation for the ¥ taken\l"
+	.string "after the MT. MOON mission, you get\l"
+	.string "the following…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
-.string "You've just earned 125,000¥!$"
+.string "You've just earned ¥125,000!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
 	.string "PETREL: And for you, ANDRA. Your\n"
 	.string "warning to ARCHER was also crucial, and\l"
 	.string "you'd completed your task in VERMILION\l"
 	.string "CITY. In your case, the total reward is\l"
-	.string "75,000 POKÉ.$"
+	.string "¥75,000.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_20:
 .string "PETREL: So now…\n"
@@ -1825,7 +1825,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_2:
 .string "PETREL: Here's your reward.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
-	.string "You've just earned 80,000¥!$"
+	.string "You've just earned ¥80,000!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
 	.string "PETREL: In addition, take this: twenty\n"
@@ -2421,19 +2421,19 @@ Text_CompraPokemon_Ruta_5:
 
 EventScript_Voltorb_Texto_1:
 .string "Are you sure you want VOLTORB? It'll\n"
-	.string "cost 9,000 POKÉ.$"
+	.string "cost ¥9,000.$"
 
 EventScript_Koffing_Texto_1:
 .string "Are you sure you want KOFFING? I'll\n"
-	.string "cost 11,000 POKÉ.$"
+	.string "cost ¥11,000.$"
 
 EventScript_Mankey_Texto_1:
 .string "Are you sure you want MANKEY? It'll\n"
-	.string "cost 8,000 POKÉ.$"
+	.string "cost ¥8,000.$"
 
 EventScript_Rattata_Texto_1:
 .string "Are you sure you want RATTATA? It'll\n"
-	.string "cost 3,000 POKÉ.$"
+	.string "cost ¥3,000.$"
 
 RocketHideout_6F_Petrel::
 lock
@@ -2524,7 +2524,7 @@ SeteoIvs_No_Texto_1:
 	.string "As you wish, CHIEF ADMIN.$"
 
 SeteoIvs_Texto_3:
-	.string "It will cost only 100,000 POKÉ.\n"
+	.string "It will cost only ¥100,000.\n"
 	.string "Are you interested, SIR?$"
 
 SeteoIvs_Texto_1:

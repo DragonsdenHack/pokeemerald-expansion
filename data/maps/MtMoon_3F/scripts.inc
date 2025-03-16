@@ -860,9 +860,9 @@ MtMoon_3F_Pelea_Frank_texto6:
 	.string "the FOSSILS.\p"
 	.string "You've become the class clown, {PLAYER}.\p"
 	.string "Your negligence it's gonna cost us\n"
-	.string "like 600.000¥.\p"
-	.string "Do you have any idea how many years\n"
-	.string "of your wages that is?$"
+	.string "like ¥600,000!\p"
+	.string "Do you have any idea about the projects\n"
+	.string "could we fund with that amount!?$"
 
 MtMoon_3F_Pelea_Frank_texto7:
 .string "H.R. FRANK: What? Are you telling me\n"

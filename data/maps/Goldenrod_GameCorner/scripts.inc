@@ -396,7 +396,7 @@ EventScript_Compra_Porygon_Texto_4:
 	.string "Are you interested?$"
 
 EventScript_Compra_Porygon_Texto_3:
-	.string "For only 220000 ¥ you can\n"
+	.string "For just ¥220,000, you can\n"
 	.string "have one.$"
 
 EventScript_Compra_Porygon_Texto_2:

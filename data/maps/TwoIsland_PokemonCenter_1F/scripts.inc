@@ -165,7 +165,7 @@ TwoIslandPokemonCenter_3_Despues_Texto_5:
 TwoIslandPokemonCenter_3_Despues_Texto_6:
 	.string "This product can't be found in the whole\n"
 	.string "archipelago. Every single bottle will\n"
-	.string "cost you 10,000¥.$"
+	.string "cost you ¥10,000.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_7:
 	.string "Second thought, even if you could\n"

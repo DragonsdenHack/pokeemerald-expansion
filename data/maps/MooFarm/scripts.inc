@@ -215,9 +215,9 @@ release
 end
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_1:
-	.string "We sell a dozen MOOMOO MILK for 5,000\n"
-	.string "POKÉ, saving you 1000 POKÉ compared to\l"
-	.string "anywhere else. Will you buy?$"
+	.string "We sell a dozen MOOMOO MILK for ¥5,000.\n"
+	.string "You save ¥1,000.\p"
+	.string "Will you buy?$"
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_2:
 .string "Please come again!$"

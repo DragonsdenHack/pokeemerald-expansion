@@ -2389,27 +2389,27 @@ Text_CompraPokemon_Base_Profunda:
 
 EventScript_Sneasel_Texto_1:
 .string "Wanna buy a SNEASEL?\n"
-	.string "It will cost 55,000 POKÉ.$"
+	.string "It will cost ¥55,000.$"
 
 EventScript_Electabuzz_Texto_1:
 .string "Wanna buy an ELECTABUZZ?\n"
-	.string "It will cost 80,000 POKÉ.$"
+	.string "It will cost ¥80,000.$"
 
 EventScript_Nidorino_Texto_1:
 .string "Wanna buy a NIDORINO?\n"
-	.string "It will cost 42,000 POKÉ.$"
+	.string "It will cost ¥42,000.$"
 
 EventScript_Rhyhorn_Texto_1:
 .string "Wanna buy a RHYHORN?\n"
-	.string "It will cost 35,000 POKÉ.$"
+	.string "It will cost ¥35,000.$"
 
 EventScript_Shellder_Texto_1:
 .string "Wanna buy a SHELLDER?\n"
-	.string "It will cost 17,500 POKÉ.$"
+	.string "It will cost ¥17,500.$"
 
 EventScript_NidoranF_Texto_1:
 .string "Wanna buy a NIDORAN♀?\n"
-	.string "It will cost 12,000 POKÉ.$"
+	.string "It will cost ¥12,000.$"
 
 
 RocketHideout5F_64_NPC::

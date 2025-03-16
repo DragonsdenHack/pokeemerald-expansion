@@ -128,9 +128,9 @@ release
 end
 
 CeladonCity_Shop5F_Text_Oak_1:
-	.string "SUPERNERD: 9800 POKÉ?! This is a scam!\n"
-	.string "Just a month ago it cost 7000!\p"
-	.string "And a year ago it cost 3000!$"
+	.string "SUPERNERD: Really ¥9,800?! No way!\p"
+	.string "Just a month ago it cost ¥7,000!\p"
+	.string "And a year ago it cost ¥3,000!$"
 
 
 CeladonCity_Shop5F_Text_Oak_2:

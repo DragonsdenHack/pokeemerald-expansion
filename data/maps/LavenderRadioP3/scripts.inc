@@ -167,11 +167,11 @@ end
 
 EventScript_MasterBall_Texto_1:
 .string "Do you want a MASTER BALL?\n"
-	.string "It will cost 300,000 POKÉ.$"
+	.string "It will cost ¥300,000.$"
 
 EventScript_PiedraRocket_Texto_1:
 .string "Do you want a ROCKET STONE?\n"
-	.string "It will cost 2,500,000 POKÉ.$"
+	.string "It will cost ¥2,500,000.$"
 
 
 LavenderRadioP3_Tienda_Pokemon::
@@ -347,35 +347,35 @@ end
 
 EventScript_Cryogonal_Texto_1:
 .string "Are you sure you want CRYOGONAL?\n"
-	.string "It will cost 105,000 POKÉ.$"
+	.string "It will cost ¥105,000.$"
 
 EventScript_Cramorant_Texto_1:
 .string "Are you sure you want CRAMORANT?\n"
-	.string "It will cost 110,000 POKÉ.$"
+	.string "It will cost ¥110,000.$"
 
 EventScript_Gible_Texto_1:
 .string "Are you sure you want GIBLE?\n"
-	.string "It will cost 175,000 POKÉ.$"
+	.string "It will cost ¥175,000.$"
 
 EventScript_Grookey_Texto_1:
 .string "Are you sure you want GROOKEY?\n"
-	.string "It will cost 80,000 POKÉ.$"
+	.string "It will cost ¥80,000.$"
 
 EventScript_Ferroseed_Texto_1:
 .string "Are you sure you want FERROSEED?\n"
-	.string "It will cost 60,000 POKÉ.$"
+	.string "It will cost ¥60,000.$"
 
 EventScript_Toxel_Texto_1:
 .string "Are you sure you want TOXELL?\n"
-	.string "It will cost 57,000 POKÉ.$"
+	.string "It will cost ¥57,000.$"
 
 EventScript_Wooloo_Texto_1:
 .string "Are you sure you want WOOLOO?\n"
-	.string "It will cost 40,000 POKÉ.$"
+	.string "It will cost ¥40,000.$"
 
 EventScript_Espurr_Texto_1:
 .string "Are you sure you want ESPURR?\n"
-	.string "It will cost 30,000 POKÉ.$"
+	.string "It will cost ¥30,000.$"
 
 Text_CompraPokemon:
 .string "Welcome, sir.\n"

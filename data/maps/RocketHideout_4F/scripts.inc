@@ -3240,7 +3240,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
 	.string "with just money.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17:
-.string "YOU INVOICED 1,000,000¥!!$"
+.string "YOU INVOICED ¥1,000,000!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 .string "Not only that, but as you know, we\n"

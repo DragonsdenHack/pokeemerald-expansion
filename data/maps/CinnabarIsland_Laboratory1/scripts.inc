@@ -235,8 +235,8 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12:
 	.string "try to sell them on the black market,\l"
 	.string "where the EEVEE have an enormous\l"
 	.string "value, with the 70 EEVEES that SILPH\l"
-	.string "provided us, he could easily earn 70\l"
-	.string "million POKÉ, at a million per EEVEE, that\l"
+	.string "provided us, he could easily earn like\l"
+	.string "¥70,000,000; a million per EEVEE, that\l"
 	.string "is enough money to leave KANTO and\l"
 	.string "disappear forever without leave a hint.$"
 

@@ -537,7 +537,7 @@ MisionTrigal4_Tercer_Encuentro_Texto_21:
 	.string "gratitude.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_22:
-	.string "You obtained 2,250,000¥!$"
+	.string "You have just earned ¥2,250,000!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_23:
 	.string "You won't regret giving us another\n"

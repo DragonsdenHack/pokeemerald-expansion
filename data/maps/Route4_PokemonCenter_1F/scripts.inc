@@ -147,8 +147,8 @@ Route4_PokemonCenter_1F_Estafa_Texto_6:
 	.string "You can't even go to the POLICE since\n"
 	.string "they're after you, and no one's gonna\l"
 	.string "listen, let alone believe you. It's the\l"
-	.string "ultimate business, selling bait for 500\l"
-	.string "POKÉ.$"
+	.string "ultimate business, selling bait for\l"
+	.string "¥500.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_7:
 	.string "See you never, ROCKET. You won't hook\n"

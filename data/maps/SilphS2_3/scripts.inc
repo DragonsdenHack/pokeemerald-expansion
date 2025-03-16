@@ -394,7 +394,7 @@ SilphS2_3_Carta_Texto_8:
 
 SilphS2_3_Carta_Texto_9:
 	.string "Its market price\n"
-	.string "would be 9800¥.$"
+	.string "would be ¥9,800.$"
 
 SilphS2_3_Carta_Texto_10:
 	.string "However, as with the MASTER BALL, it\n"

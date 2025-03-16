@@ -811,7 +811,7 @@ end
 RocketHideout_8F_Mision_Silph_No_Texto_1:
 	.string "-You have been promoted to EXECUTIVE,\n"
 	.string "received 50 ULTRA BALL, an AERODACTYL\l"
-	.string "and 500.000¥.\p"
+	.string "and ¥500,000.\p"
 	.string "Next mission is at SAFFRON CITY -SILPH-.\p"
 	.string "To see the skin change, you have to\n"
 	.string "leave this room.$"
@@ -1242,7 +1242,7 @@ RocketHideout_8F_Mision_Silph_text_9:
 .string "GIOVANNI: This shall be your reward.$"
 
 RocketHideout_8F_Mision_Silph_text_10:
-	.string "-YOU'VE JUST EARNED 500,000¥!-$"
+	.string "-YOU'VE JUST EARNED ¥500,000!-$"
 
 RocketHideout_8F_Mision_Silph_text_11:
 	.string "Take this too, someone of your level\n"
@@ -3717,7 +3717,7 @@ RocketHideout8F_Mision_Johto_Text_2:
 	.string "but before that{PAUSE 15}…{PAUSE 15} Here are your rewards.$"
 
 RocketHideout8F_Mision_Johto_Text_3:
-	.string "YOU JUST INVOICED 1,500,000¥!!$"
+	.string "YOU JUST INVOICED ¥1,500,000!!$"
 
 RocketHideout8F_Mision_Johto_Text_4:
 .string "GIOVANNI: {PAUSE 25}…{PAUSE 25}$"
@@ -4530,7 +4530,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_7:
 .string "Before anything else, your rewards.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_8:
-.string "YOU JUST EARNED 2,000,000¥!$"
+.string "YOU JUST EARNED ¥2,000,000!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 	.string "And not only that, thanks to all the\n"
@@ -5305,7 +5305,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_2:
 	.string "you some of them.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_3:
-	.string "-{PLAYER} JUST EARNED 2,000,000¥!-$"
+	.string "-{PLAYER} JUST EARNED ¥2,000,000!-$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_4:
 	.string "Take this as well, it's a project that\n"

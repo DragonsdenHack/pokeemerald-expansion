@@ -310,18 +310,18 @@ end
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1.2:
 	.string "I specialize in EXP training.\p"
-	.string "It's 9,000¥ for a full training session.\n"
+	.string "It's ¥9,000 for a full training session.\n"
 	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1.1:
 	.string "I specialize in EXP training.\p"
-	.string "It's 7,500¥ for a full training session.\n"
+	.string "It's ¥7,500 for a full training session.\n"
 	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1:
-	.string "I specialize in EXP training. It's 5,000\n"
-	.string "POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in EXP training.\p"
+	.string "It's ¥5,000 for a full training session.\n"
+	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_2:
 	.string "Alright, let's do this!$"
@@ -347,8 +347,8 @@ release
 end
 
 RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1:
-	.string "I specialize in SP.ATTACK training. It's\n"
-	.string "2,000 POKÉ for a full training session.\l"
+	.string "I specialize in SP.ATTACK training.\p"
+	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"
 
 
@@ -370,9 +370,9 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Texto_1:
-	.string "I specialize in DEFENSE training. It's\n"
-	.string "2,000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in DEFENSE training. It's\p"
+	.string "It's ¥2,000 for a full training session.\n"
+	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Velocidad::
 lock
@@ -392,9 +392,9 @@ end
 
 
 RocketHideout_9F_Entrenador_Velocidad_Texto_1:
-	.string "I specialize in SPEED training. It's\n"
-	.string "2,000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in SPEED training. It's\p"
+	.string "It's ¥2,000 for a full training session.\n"
+	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Ataque::
 lock
@@ -413,9 +413,9 @@ release
 end
 
 RocketHideout_9F_Entrenador_Ataque_Texto_1:
-	.string "I specialize in ATTACK training. It's\n"
-	.string "2,000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in ATTACK training. It's\p"
+	.string "It's ¥2,000 for a full training session.\n"
+	.string "Do you accept?$"
 
 
 
@@ -437,9 +437,9 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
-	.string "I specialize in SP.DEFENSE training. It's\n"
-	.string "2,000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in SP.DEFENSE training. It's\p"
+	.string "It's ¥2,000 for a full training session.\n"
+	.string "Do you accept?$"
 
 RocketHideout_9F_Entrenador_Salud::
 lock
@@ -458,6 +458,6 @@ release
 end
 
 RocketHideout_9F_Entrenador_Salud_Texto_1:
-	.string "I specialize in HP training. It's\n"
-	.string "2,000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "I specialize in HP training. It's\p"
+	.string "It's ¥2,000 for a full training session.\n"
+	.string "Do you accept?$"

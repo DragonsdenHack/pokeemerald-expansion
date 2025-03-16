@@ -479,10 +479,10 @@ end
 
 SilphS2_Text_24:
 	.string "Honestly, we were sick of the rules set\n"
-	.string "by LANCE's government. For every 10\l"
-	.string "POKÉ we made, 8 went straight to\l"
-	.string "LANCE's government. Who in their right\l"
-	.string "mind would accept such a tax squeeze?$"
+	.string "by LANCE's government. For each ¥10\l"
+	.string "we made, 8 went straight to LANCE's\l"
+	.string "government. Who in their right mind\l"
+	.string "would accept such a tax squeeze?$"
 
 
 
