@@ -77,7 +77,7 @@ msgbox LavenderRadioDocumento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioDocumento_Text_100:
-.string "Anima a tus Pokémon con los\n"
+.string "Anima a tus POKÉMON con los\n"
 	.string "melodiosos sonidos de la\l"
 	.string "Poké Flauta en la Cadena 20$"
 

@@ -471,7 +471,6 @@ Silph_7F_Encuentro_Azul_Texto_10:
 	.string "MAGNÉTICA una vez finalice la\l"
 	.string "negociación.$"
 
-
 Silph7F_12_Texto_1:
 	.string "AZUL: Date prisa, {PLAYER}, y\n"
 	.string "derrota lo que queda de seguridad\l"

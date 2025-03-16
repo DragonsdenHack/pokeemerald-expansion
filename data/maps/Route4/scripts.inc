@@ -75,7 +75,6 @@ Route4_Text_6:
 	.string "de sorprender y resquebrajar su\l"
 	.string "defensa, no darle tiempo a\l"
 	.string "recuperarse.$"
-end
 
 
 

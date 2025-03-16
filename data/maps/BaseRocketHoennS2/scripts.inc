@@ -790,7 +790,6 @@ BaseRocketHoennS2Documento_Text_b110:
 	.string "VELOCIDAD: 150\l"
 	.string "TOTAL: 680$"
 
-
 BaseRocketHoennS2Documento_Text_c110:
 	.string "La gran virtud de este POKÉMON es su\n"
 	.string "capacidad para establecer una sinergia\l"
@@ -1661,11 +1660,8 @@ BaseRocketHoennS2_Text_TakeShinx:
 	.string "completo como tú, ¿no crees? Aun así,\l"
 	.string "toma.$"
 
-
-
 BaseRocketHoennS2_Text_MensajeShinx:
 .string "¡OBTUVISTE UN SHINX AL NV.5!$"
-
 
 BaseRocketHoennS2_Text_12:
     .string "Es un SHINX, viven en SINNOH. Me lo\n"

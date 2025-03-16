@@ -227,9 +227,9 @@ release
 end
 
 SaffronCity_Lider_Gimnasio_Texto_1:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "Vaya, es curioso, hace poco me\l"
+.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "Vaya, es curioso, hace poco me\n"
 	.string "ocurrió también con otra chica\l"
 	.string "vestida de ROCKET, pero vuestra\l"
 	.string "llegada me pilla totalmente por\l"
@@ -240,8 +240,8 @@ SaffronCity_Lider_Gimnasio_Texto_1:
 	.string "abierto aún por escribir, pura\l"
 	.string "potencialidad. Aprovechadla, es un\l"
 	.string "don poco común en estos días que\l"
-	.string "corren…\l"
-	.string "En fin, ya estoy divagando\l"
+	.string "corren…\p"
+	.string "En fin, ya estoy divagando\n"
 	.string "perdóname, la realidad es que\l"
 	.string "prefiero hablar de esos temas más\l"
 	.string "que combatir, pero se me dio el\l"
@@ -409,8 +409,8 @@ release
 end
 
 Vermilion_City_Lider_Gimnasio_Texto_1:
-.string "¿¡Esto es en serio?!\n"
-	.string "¡Tenéis la caradura de entrar aquí\l"
+.string "¿¡Esto es en serio?!\p"
+	.string "¡Tenéis la caradura de entrar aquí\n"
 	.string "después de lo ocurrido en la\l"
 	.string "CENTRAL ENERGÍA!\l"
 	.string "¡Primero esa pelirroja amiga tuya\l"
@@ -418,8 +418,8 @@ Vermilion_City_Lider_Gimnasio_Texto_1:
 	.string "¡Vas a probar la verdadera furia\l"
 	.string "de mis POKÉMON ELÉCTRICOS, verás\l"
 	.string "el porqué todos me temían en la\l"
-	.string "guerra!\l"
-	.string "¡Después de acabar con tus POKÉMON\l"
+	.string "guerra!\p"
+	.string "¡Después de acabar con tus POKÉMON\n"
 	.string "te freiré a base de descargas a ti\l"
 	.string "también!$"
 
@@ -485,7 +485,7 @@ Pewter_City_Gym_Guy_Texto_1:
 	.string "fracaso en SILPH debe de terminar.$"
 
 Pewter_City_Gym_Guy_Texto_2:
-.string "¡Llevarás un look pésimo pero le\n"
+.string "¡Llevarás un look pésimo, pero le\n"
 	.string "has dado una buena tunda a BROCK!$"
 
 Pewter_City_Estatua::
@@ -838,28 +838,28 @@ release
 end
 
 Fuchsia_City_Lider_Gimnasio_Texto_1:
-.string "KOGA: ¡{PLAYER}!\n"
-	.string "¡Has vuelto!\l"
-	.string "¡Así que vas a meterte en la boca\l"
+.string "KOGA: ¡{PLAYER}!\p"
+	.string "¡Has vuelto!\p"
+	.string "¡Así que vas a meterte en la boca\n"
 	.string "del lobo retando a la LIGA\l"
-	.string "POKÉMON!\l"
-	.string "Desde aquí tienes todo mi apoyo\l"
+	.string "POKÉMON!\p"
+	.string "Desde aquí tienes todo mi apoyo\n"
 	.string "{PLAYER}, nunca olvidaré lo que\l"
 	.string "hiciste por los MOTORISTAS y por\l"
 	.string "KANTO en general.$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_1.1:
-.string "No te lo pondré fácil {PLAYER},\n"
-	.string "nadie maneja los POKÉMON del TIPO\l"
+.string "¡No te lo pondré fácil!\p"
+	.string "Nadie maneja los POKÉMON del TIPO\n"
 	.string "VENENO como yo, ¡ni siquiera los\l"
 	.string "EJECUTIVOS ROCKET!$"
 
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:
-.string "No esperaba menos de ti,\n"
-	.string "mereces la confianza de GIOVANNI y\l"
+.string "No esperaba menos de ti.\p"
+	.string "Mereces la confianza de GIOVANNI y\n"
 	.string "de todo el que luche por una KANTO\l"
-	.string "mejor.\l"
+	.string "mejor.\p"
 	.string "¡Aquí tienes la MEDALLA ALMA!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_3:

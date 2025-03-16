@@ -180,8 +180,8 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_1:
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
 .string "Tenía mis dudas, la gente normal\n"
 	.string "huiría espantada de un lugar tan\l"
-	.string "tétrico.\l"
-	.string "Pero tú ya eres de los pocos que\l"
+	.string "tétrico.\p"
+	.string "Pero tú ya eres de los pocos que\n"
 	.string "exploraría el BOSQUE BAYA por el mero\l"
 	.string "placer de hacerlo. La curiosidad te\l"
 	.string "ha llevado hasta aquí, e incluso los\l"
@@ -213,8 +213,8 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_6:
 .string "Ya como HYPNO, nuestros poderes\n"
 	.string "PSÍQUICOS se retroalimentaban\l"
 	.string "mutuamente, estabamos perfectamente\l"
-	.string "sincronizados.\l"
-	.string "Ello provocó algo inaudito, pero que\l"
+	.string "sincronizados.\p"
+	.string "Ello provocó algo inaudito, pero que\n"
 	.string "al parecer los antiguos de JOHTO\l"
 	.string "conocen bien: la progresión de mi\l"
 	.string "HYPNO no se detuvo ahí, continuó\l"
@@ -224,7 +224,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_7:
 .string "Sin embargo, sus poderes se volvieron\n"
 	.string "también inestables y{PAUSE 25}…{PAUSE 25}peligrosos\l"
 	.string "para la gente común.\l"
-	.string "Como consecuencia tuvimos que cerrar\l"
+	.string "Como consecuencia, tuvimos que cerrar\l"
 	.string "el GIMNASIO, a lo que le siguieron el\l"
 	.string "resto poco después.$"
 
@@ -232,7 +232,6 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_8:
 .string "El resto ya es historia: este lugar\n"
 	.string "quedó olvidado, nadie de esa época\l"
 	.string "vive ya en ISLA TERA.$"
-
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_9:
 .string "Los únicos vestigios que quedan del\n"
@@ -277,9 +276,9 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_14:
 	.string "Fácil, ¿no?$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_15:
-.string "¡Ah!\n"
-	.string "Y una cosa más.\l"
-	.string "Debes saber que las preguntas son\l"
+.string "¡Ah!\p"
+	.string "¡Y una cosa más!\p"
+	.string "Debes saber que las preguntas son\n"
 	.string "personalizadas para cada individuo.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_16:

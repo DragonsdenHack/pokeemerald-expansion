@@ -24,8 +24,8 @@ release
 end
 
 ViasTren5_Text_6:
-.string "Hemos pasado AZULONA. ¡AZAFRÁN está al\n"
-.string "lado!$"
+.string "Hemos pasado AZULONA.\p"
+.string "¡AZAFRÁN está al lado!$"
 
 
 

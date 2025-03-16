@@ -15,7 +15,7 @@ end
 
 LavenderTown_FujiHouse_Text_1:
 .string "¡Ahhhhh!\n"
-.string "¡No me hagas daño por favor!$"
+.string "¡No me hagas daño, por favor!$"
 
 
 
@@ -47,9 +47,9 @@ end
 
 LavenderTown_FujiHouse_Text_4:
 .string "El señor FUJI no está aquí, y\n"
-.string "aunque lo estuviera dudo mucho que\l"
-.string "quisiera recibir a un ROCKET como\l"
-.string "invitado.$"
+.string "aunque lo estuviera, dudo mucho\l"
+.string "que quisiera recibir a un ROCKET\l"
+.string "como invitado.$"
 
 
 

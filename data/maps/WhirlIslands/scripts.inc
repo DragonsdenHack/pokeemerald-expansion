@@ -42,8 +42,8 @@ release
 end
 
 WhirIslands_Evento_Cascada_Texto_1:
-.string "(Parece que ha habido una feroz\n"
-	.string "batalla hace poco aquí).$"
+.string "-Parece que ha habido una feroz\n"
+	.string "batalla hace poco aquí.-$"
 
 WhirIslands_Evento_Cascada_Move_1:
 emote_exclamation_mark

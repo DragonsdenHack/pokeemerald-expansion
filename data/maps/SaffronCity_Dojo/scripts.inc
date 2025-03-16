@@ -39,9 +39,9 @@ release
 end
 
 SaffronCityDojo5_Texto_1:
-.string "He perdido, pero he conservado mi honor.\n"
-	.string "¡No cómo esos POKÉMON PSÍQUICO del\l"
-	.string "GIMNASIO de al lado que rehuyen el\l"
+.string "He perdido, pero he conservado mi honor.\p"
+	.string "¡No cómo esos POKÉMON PSÍQUICO del\n"
+	.string "GIMNASIO de al lado, que rehuyen el\l"
 	.string "combate cuerpo a cuerpo!$"
 
 

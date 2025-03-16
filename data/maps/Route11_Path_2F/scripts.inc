@@ -9,11 +9,11 @@ release
 end
 
 Route11Path2F_Text_1:
-.string "¿Cómo?\n"
-.string "¿Un intercambio de POKÉMON?\l"
-.string "¡No aceptaría negociar con un\l"
-.string "ROCKET ni aunque me ofrecieses un\l"
-.string "ZAPDOS!$"
+.string "¿Cómo?\p"
+.string "¿Un intercambio de POKÉMON?\p"
+.string "¡No aceptaría negociar con un\n"
+.string "ROCKET ni aunque me ofrecieses\l"
+.string "un ZAPDOS!$"
 
 
 

@@ -74,15 +74,15 @@ release
 end
 
 SsAnne6F_Text_7:
-.string "¡JA, JA!\n"
-.string "¿Sabías por qué a la gente le\l"
-.string "gusta tanto la fiesta?\l"
-.string "{PAUSE 25}…{PAUSE 25}\l"
-.string "¡Porque por unas horas les\l"
+.string "¡JA, JA!\p"
+.string "¿Sabías por qué a la gente le\n"
+.string "gusta tanto la fiesta?\p"
+.string "{PAUSE 25}…{PAUSE 25}\p"
+.string "¡Porque por unas horas les\n"
 .string "evade de todos los problemas y\l"
-.string "carencias que sus míseras vidas\l"
-.string "tienen!\l"
-.string "¡JA!\l"
+.string "carencias que sus miserables\l"
+.string "vidas tienen!\p"
+.string "¡JA!\p"
 .string "¡Camarero, otro licor de SHUCKLE!$"
 
 
@@ -100,9 +100,9 @@ SsAnne6F_Text_8:
 .string "era el premio final, irónicamente\l"
 .string "he sido más dichoso entrenando\l"
 .string "para llegar aquí que una vez\l"
-.string "llegado aquí.\l"
-.string "¡Los viernes siempre decepcionan\l"
-.string "chico!$"
+.string "llegado aquí.\p"
+.string "¡Los viernes siempre\n"
+.string "decepcionan, chico!$"
 
 
 
@@ -129,8 +129,8 @@ release
 end
 
 SsAnne6F_Text_10:
-.string "Puafff…\n"
-.string "Ni se te ocurra aceptar el licor\l"
+.string "Puafff…\p"
+.string "Ni se te ocurra aceptar el licor\n"
 .string "extraño que sirve ese camarero de\l"
 .string "ahí, creo que voy a vomitar{PAUSE 5}…{PAUSE 5}$"
 
@@ -172,8 +172,8 @@ release
 end
 
 SsAnne6F_Text_12:
-.string "¿Estaré soñando?\n"
-	.string "¡He tenido el honor de ver al\l"
+.string "¿Estaré soñando?\p"
+	.string "¡He tenido el honor de ver al\n"
 	.string "majestuoso y legendario DRAGONITE\l"
 	.string "de LANCE sobrevolando el SS.ANNE!$"
 
@@ -328,8 +328,8 @@ SSAnne6F_Lance_Surge_Text_1:
 
 
 SSAnne6F_Lance_Surge_Text_2:
-.string "LANCE: Seré breve, SURGE.\n"
-	.string "Las grandes ciudades están siendo\l"
+.string "LANCE: Seré breve, SURGE.\p"
+	.string "Las grandes ciudades están siendo\n"
 	.string "sometidas a una rutina de\l"
 	.string "inspección y control, para\l"
 	.string "asegurarnos de que el engranaje\l"
@@ -341,17 +341,17 @@ SSAnne6F_Lance_Surge_Text_2.1:
 
 SSAnne6F_Lance_Surge_Text_3:
 .string "LT.SURGE: Todo marcha\n"
-	.string "perfectamente, SR.LANCE.\l"
-	.string "El PUERTO amplificará poco a\l"
+	.string "perfectamente, SR.LANCE.\p"
+	.string "El PUERTO amplificará poco a\n"
 	.string "poco su red de contactos con\l"
-	.string "otras regiones.\l"
-	.string "Paralelamente, estamos valorando\l"
+	.string "otras regiones.\p"
+	.string "Paralelamente, estamos valorando\n"
 	.string "el construir un FARO, similar al\l"
 	.string "de CIUDAD OLIVO.$"
 
 SSAnne6F_Lance_Surge_Text_4:
-.string "LANCE: Todo eso está genial, SURGE.\n"
-	.string "La economía de KANTO está\l"
+.string "LANCE: Todo eso está genial, SURGE.\p"
+	.string "La economía de KANTO está\n"
 	.string "experimentando un repunte sin\l"
 	.string "precedentes{PAUSE 5}…{PAUSE 5}$"
 
@@ -380,8 +380,8 @@ SSAnne6F_Lance_Surge_Text_6.1:
 SSAnne6F_Lance_Surge_Text_7:
 .string "LT.SURGE: Me temo que el tema de\n"
 	.string "la guerra sigue siendo tabú\l"
-	.string "por toda KANTO.\l"
-	.string "Especialmente aquí, SR.LANCE, la\l"
+	.string "por toda KANTO.\p"
+	.string "Especialmente aquí, SR.LANCE, la\n"
 	.string "gente prefiere no hablar de ello,\l"
 	.string "dejarlo atrás y continuar con sus\l"
 	.string "vidas como si nada hubiera pasado.\l"
@@ -395,8 +395,8 @@ SSAnne6F_Lance_Surge_Text_8:
 
 SSAnne6F_Lance_Surge_Text_9:
 .string "LT.SURGE: Ellos podrían ser\n"
-	.string "el mayor ejemplo.\l"
-	.string "Se expandieron a raíz del\l"
+	.string "el mayor ejemplo.\p"
+	.string "Se expandieron a raíz del\n"
 	.string "inconformismo por el nuevo\l"
 	.string "gobierno post-guerra, pero sus\l"
 	.string "actos delictivos, unidos a una\l"
@@ -408,13 +408,13 @@ SSAnne6F_Lance_Surge_Text_9:
 SSAnne6F_Lance_Surge_Text_9.1:
 	.string "A pesar de ello, aún existen\n"
 	.string "gremios que los apoyan, que se\l"
-	.string "ven identificados con su causa.\l"
-	.string "Los MOTORISTAS serían el\l"
+	.string "ven identificados con su causa.\p"
+	.string "Los MOTORISTAS serían el\n"
 	.string "mayor ejemplo de ello.$"
 
 SSAnne6F_Lance_Surge_Text_10:
-.string "LANCE: {PAUSE 25}…{PAUSE 25}\n"
-	.string "Ya veo, el COMITÉ DE LA LIGA\l"
+.string "LANCE: {PAUSE 25}…{PAUSE 25}\p"
+	.string "Ya veo, el COMITÉ DE LA LIGA\n"
 	.string "POKÉMON tomará las medidas\l"
 	.string "pertinentes respecto a esto.$"
 
@@ -435,8 +435,8 @@ SSAnne6F_Lance_Surge_Text_10.2:
 	.string "modo que paciencia.$"
 
 SSAnne6F_Lance_Surge_Text_10.3:
-	.string "Solo necesitamos tiempo. La\n"
-	.string "estabilización y progresión\l"
+	.string "Solo necesitamos tiempo.\p"
+	.string "La estabilización y progresión\n"
 	.string "adecuada{PAUSE 25}…{PAUSE 25}y KANTO aceptará el\l"
 	.string "NUEVO ORDEN MUNDIAL casi sin darse\l"
 	.string "cuenta.$"
@@ -445,14 +445,14 @@ SSAnne6F_Lance_Surge_Text_11:
 .string "LT.SURGE: A la orden, SR.LANCE.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-	.string "LANCE: Eso es todo, SURGE.\n"
-	.string "Espero que la fiesta sea un\l"
+	.string "LANCE: Eso es todo, SURGE.\p"
+	.string "Espero que la fiesta sea un\n"
 	.string "éxito, los grandes eventos\l"
 	.string "distraen y evaden a la plebe.$"
 
 SSAnne6F_Lance_Surge_Text_13:
 .string "LT.SURGE: Estas fiestas nunca\n"
-	.string "fueron lo mío.\l"
+	.string "fueron lo mío.\p"
 	.string "¡ELECTABUZZ! ¡TELETRANSPORTE!$"
 
 SSAnne6F_Lance_Surge_move1.5:

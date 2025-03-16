@@ -120,7 +120,6 @@ msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_AUTOCLOSE
 release
 end
 
-
 Curacion_Centros_Pokemon_Kanto_Texto_1:
     .string "¡Éste es el CENTRO POKÉMON!\p"
     .string "Nosotros curamos a los POKÉMON\n"

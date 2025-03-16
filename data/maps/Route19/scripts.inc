@@ -144,6 +144,6 @@ release
 end
 
 Route19_Barrera_Sur_Texto_1:
-.string "(Debería ayudar a KOGA y\n"
+.string "-Debería ayudar a KOGA y\n"
 	.string "después buscarle por las afueras\l"
-	.string "de FUCSIA).$"
+	.string "de FUCSIA.-$"

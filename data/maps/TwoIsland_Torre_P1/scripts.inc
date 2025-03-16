@@ -39,8 +39,8 @@ release
 end
 
 TwoIsland_Torre_P1_Trabajador_Texto_1:
-.string "¿Quién eres tú?\n"
-	.string "Mientras me dejes trabajar en paz no\l"
+.string "¿Quién eres tú?\p"
+	.string "Mientras me dejes trabajar en paz no\n"
 	.string "te haré nada, ya se encargarán otros\l"
 	.string "de ti.$"
 

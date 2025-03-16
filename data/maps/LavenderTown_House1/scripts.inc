@@ -13,7 +13,5 @@ LavenderTownHouse1_1_Texto_1:
 	.string "ROCKET? ¡Ojalá LANCE aplique esa misma\l"
 	.string "regla contra vosotros!$"
 
-
-
 LavenderTownHouse1_2::
 end

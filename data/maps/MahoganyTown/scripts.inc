@@ -221,7 +221,7 @@ MahoganyTown_Encuentro_Rocket_Texto_5:
 	.string "mostraré dónde está la BASE NINJA.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_6:
-.string "Es aqui. Tenemos rodeado el\n"
+.string "Es aquí. Tenemos rodeado el\n"
 	.string "exterior, pero somos incapaces de\l"
 	.string "adentrarnos en lo profundo de la\l"
 	.string "base.$"
@@ -296,8 +296,8 @@ release
 end
 
 Caoba_Barrera_Texto_1:
-.string "(Debería ayudar antes al TEAM\n"
-	.string "ROCKET a limpiar la BASE CAOBA)$"
+.string "-Debería ayudar antes al TEAM\n"
+	.string "ROCKET a limpiar la BASE CAOBA.-$"
 
 Caoba_Barrera_Move_1:
 walk_in_place_down

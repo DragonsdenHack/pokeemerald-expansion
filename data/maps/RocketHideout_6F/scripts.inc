@@ -786,7 +786,6 @@ RocketHideout_6F_Petrel_Text_Mision_2_1:
 	.string "proyectos y recursos que podríamos\l"
 	.string "mantener con ello?$"
 
-
 RocketHideout_6F_Petrel_Text_Mision_2_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
@@ -2248,15 +2247,15 @@ release
 end
 
 RocketHideout_6F_Escena_Lance_Texto_13:
-.string "¡Esto es horrible!¡¿Qué vamos a hacer\n"
-	.string "ahora?$"
+.string "¡Esto es horrible!\p"
+	.string "¡¿Qué vamos a hacer ahora?$"
 
 RocketHideout_6F_Escena_Lance_Texto_14:
-	.string "PETREL: Tranquilízate, RECLUTA.\n"
-	.string "Tenemos recursos más que de sobra\l"
-	.string "para apañárnoslas solos. Lo único que\l"
-	.string "esto significa es que nos ven como una\l"
-	.string "amenaza.$"
+	.string "PETREL: Tranquilízate, RECLUTA.\p"
+	.string "Tenemos recursos más que de sobra\n"
+	.string "para apañárnoslas solos.\l"
+	.string "Lo único que esto significa es\l"
+	.string "que nos ven como una amenaza.$"
 
 RocketHideout_6F_Escena_Lance_Texto_15:
 	.string "¿¡Qué estáis haciendo aquí parados!?\n"
@@ -2474,8 +2473,8 @@ release
 end
 
 Text_CompraPokemon_Ruta_5:
-.string "¿Cómo va todo camarada? ¿En qué puedo\n"
-	.string "ayudarte?$"
+.string "¿Cómo va todo, camarada?\p"
+	.string "¿En qué puedo ayudarte?$"
 
 EventScript_Voltorb_Texto_1:
 .string "¿Seguro que quieres a VOLTORB?\n"

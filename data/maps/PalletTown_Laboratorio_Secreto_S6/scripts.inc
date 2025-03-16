@@ -982,7 +982,7 @@ PalletTown_Laboratorio_S6_Final_Texto_50:
 	.string "ninguna amenaza para él, o eso cree{PAUSE 15}…{PAUSE 15}$"
 
 PalletTown_Laboratorio_S6_Final_Texto_51:
-	.string "Sera un gran acontecimiento, evadiendo\n"
+	.string "Será un gran acontecimiento, evadiendo\n"
 	.string "al pueblo de sus laboriosas vidas.$"
 
 PalletTown_Laboratorio_S6_Final_Texto_52:

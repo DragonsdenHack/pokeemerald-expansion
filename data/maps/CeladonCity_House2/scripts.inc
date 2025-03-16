@@ -9,8 +9,8 @@ release
 end
 
 CeladonCity_House2_Text_1:
-.string "¡El negocio va sobre ruedas\n"
-.string "recluta!\l"
+.string "¡El negocio va sobre ruedas,\n"
+.string "recluta!\p"
 .string "¡Continuad así!$"
 
 

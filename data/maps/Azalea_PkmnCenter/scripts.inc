@@ -96,7 +96,7 @@ AzaleaPkmnCenter_Text_TakeWimpod3:
 	.string "aún se mantiene activo en su\l"
 	.string "GIMNASIO pasados los 60 años.\l"
 	.string "Gracias a sus viajes trajo varios\l"
-	.string "POKÉMON de otras regiones, y dió\l"
+	.string "POKÉMON de otras regiones, y dio\l"
 	.string "algunos ejemplares a sus más\l"
 	.string "allegados. Quiero que tú tengas\l"
 	.string "uno también.$"

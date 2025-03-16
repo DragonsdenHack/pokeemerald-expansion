@@ -24,8 +24,6 @@ Route18Path2FDocumento_Text_100:
 .string "Has usado los prismáticos…\p"
 	.string "¡PUEBLO PALETA está al oeste!$"
 
-
-
 Route18Path2FDocumento_101::
 msgbox Route18Path2FDocumento_Text_101, MSGBOX_SIGN   
 end

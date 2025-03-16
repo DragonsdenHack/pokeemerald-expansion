@@ -13,8 +13,8 @@ release
 end
 
 SeafoamIslands5F_6_texto_1:
-.string "(Parece que esta roca bloquea las\n"
-	.string "fuertes corrientes aquí).$"
+.string "-Parece que esta roca bloquea las\n"
+	.string "fuertes corrientes aquí.-$"
 
 
 

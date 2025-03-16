@@ -39,8 +39,8 @@ end
 CeladonCity_Karateka_Texto_1:
 .string "Lo sé todo sobre los POKÉMON, también\n"
 	.string "sé que vuestro LÍDER GIOVANNI usa a\l"
-	.string "RHYHORN como POKÉMON insignia. ¡Qué\l"
-	.string "debilucho!$"
+	.string "RHYHORN como POKÉMON insignia.\p"
+	.string "¡Qué debilucho!$"
 
 CeladonCity_Eevee::
 lock

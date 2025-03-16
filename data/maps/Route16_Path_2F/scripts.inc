@@ -23,7 +23,7 @@ release
 end
 
 Route16_Path2F_Text_2:
-.string "Si intentas algo raro llamaré\n"
+.string "Si intentas algo raro, llamaré\n"
 .string "al POLICÍA de abajo.$"
 
 

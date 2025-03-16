@@ -13,7 +13,7 @@ release
 end
 
 ResortGorgeous_Text_2:
-.string "¡Buen día camarada!\n"
+.string "¡Buen día, camarada!\n"
 .string "ATLAS ya nos ha informado de\l"
 .string "vuestra misión en CASA CÓNSUL, tu\l"
 .string "compañera ya está dentro al\l"

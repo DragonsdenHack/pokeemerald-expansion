@@ -81,7 +81,7 @@ release
 end
 
 CeladonCity_Text7:
-.string "¿Qué hay de nuevo camarada?\n"
+.string "¿Qué hay de nuevo, camarada?\n"
 .string "¿Mucho ajetreo con esas misiones?$"
 
 

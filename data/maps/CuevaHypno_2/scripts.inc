@@ -21,7 +21,7 @@ walk_in_place_up
 step_end
 
 CuevaHypno_2_Bloqueo_Gym_Texto_1:
-.string "(La puerta está cerrada)$"
+.string "-La puerta está cerrada.-$"
 
 CuevaTesoro4_Prueba::
 lock

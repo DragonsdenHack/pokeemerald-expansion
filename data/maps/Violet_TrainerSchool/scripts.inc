@@ -168,16 +168,11 @@ VioletTrainerSchool_Text_TakeStarly:
     .string "¿Tú estuviste también en la clase\n"
 	.string "de PEGASO, verdad?$"
 
-
-
-
 VioletTrainerSchool_Text_TakeStarly2:
 	.string "Es increíble lo que sabe acerca\n"
 	.string "del TIPO VOLADOR. Además, trata\l"
 	.string "siempre de resolver dudas de\l"
 	.string "la forma más práctica.$"
-
-
 
 VioletTrainerSchool_Text_TakeStarly3:
 	.string "Me llegó incluso a dar un ave de\n"
@@ -189,11 +184,8 @@ VioletTrainerSchool_Text_TakeStarly3:
 	.string "que dieron a luz.\p"
 	.string "¡Te daré uno de los que salieron!$"
 
-
-
 VioletTrainerSchool_Text_MensajeStarly:
 .string "¡OBTUVISTE UN STARLY AL NV.10!$"
-
 
 VioletTrainerSchool_Text_9:
     .string "Ten cuidado con STARLY\n"

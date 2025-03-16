@@ -677,8 +677,8 @@ release
 end
 
 DesertRuins_Dialogo_Regirock_Texto_1:
-.string "El POKÉMON parece estar inmerso en un\n"
-	.string "profundo sueño. Mejor no molestarlo.$"
+.string "-El POKÉMON parece estar inmerso en un\n"
+	.string "profundo sueño. Mejor no molestarlo.-$"
 
 
 Bloqueo_Neo_Canela::
@@ -700,7 +700,7 @@ walk_down
 step_end
 
 Bloqueo_Neo_Canela_Texto_1:
-.string "(GIOVANNI me ha convocado en su\n"
-	.string "despacho urgentemente).$"
+.string "-GIOVANNI me ha convocado en su\n"
+	.string "despacho urgentemente.-$"
 
 

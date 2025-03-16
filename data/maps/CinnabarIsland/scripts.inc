@@ -107,9 +107,9 @@ walk_slow_down
 step_end
 
 Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
-.string "(El GIMNASIO parece estar\n"
+.string "-El GIMNASIO parece estar\n"
 	.string "completamente cerrado, mejor ir\l"
-	.string "mientras a por las otras MEDALLAS).$"
+	.string "mientras a por las otras MEDALLAS.-$"
 
 CinnabarIsland_Escena_8::
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3

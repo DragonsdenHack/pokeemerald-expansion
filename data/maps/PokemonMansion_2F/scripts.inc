@@ -41,7 +41,7 @@ end
 PokemonMansion2FDocumento_Text_100:
 	.string "Diario: 10 de Julio\n"
 	.string "Bautizamos como Mew al nuevo\l"
-	.string "Pokémon descubierto.$"
+	.string "POKÉMON descubierto.$"
 
 
 PokemonMansion2FDocumento_101::
@@ -53,5 +53,5 @@ end
 PokemonMansion2FDocumento_Text_101:
 	.string "Diario: 5 de Julio\n"
 	.string "Guyana, Sudamérica, un nuevo\l"
-	.string "Pokémon ha sido descubierto en lo\l"
+	.string "POKÉMON ha sido descubierto en lo\l"
 	.string "más profundo de la jungla.$"

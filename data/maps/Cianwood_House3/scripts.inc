@@ -63,16 +63,11 @@ CianwoodCity_Aron_Text_TakeNosepass:
 	.string "ROCA también increíbles en otras\l"
 	.string "regiones.$"
 
-
-
 CianwoodCity_Aron_Text_TakeNosepass2:
 	.string "Mira, aquí tienes un ejemplo.$"
 
-
-
 CianwoodCity_Aron_Text_MensajeNosepass:
 .string "¡OBTUVISTE UN ARON AL NV.25!$"
-
 
 CianwoodCity_Aron_Text_1:
 	.string "ARON puede evolucionar a un POKÉMON\n"

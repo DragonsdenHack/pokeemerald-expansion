@@ -786,8 +786,8 @@ RuinsOfAlph_S5_Combate_Unown_Texto_2:
 .string "… … … …{PAUSE 5}$"
 
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado)$"
+.string "-La energía misteriosa se ha\n"
+	.string "esfumado.-$"
 
 RuinsOfAlph_S5_Combate_Unown_Despierta2:
 walk_in_place_down

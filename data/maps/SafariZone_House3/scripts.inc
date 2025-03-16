@@ -9,8 +9,8 @@ release
 end
 
 SafariZone_House31_Text_1:
-.string "Dirígete al ZONA más profunda del\n"
-.string "SAFARI. ¡Ganarás un premio!$"
+.string "Dirígete a la ZONA más profunda\n"
+.string "del SAFARI. ¡Ganarás un premio!$"
 
 
 

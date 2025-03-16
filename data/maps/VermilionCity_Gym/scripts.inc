@@ -463,8 +463,6 @@ CeladonCityGym_NoPass_Texto_4:
 	.string "que se vendieran uniformes ROCKET\l"
 	.string "a modo de cosplay, pasa por favor!$"
 
-
-
 VermilionCityGym_NoPass_Text_1:
     .string "¡De modo que tenemos otro\n"
 	.string "aspirante más al título eh!\l"
@@ -482,8 +480,7 @@ VermilionCityGym_NoPass_Text_3:
 	.string "a las autoridades, ningún LÍDER DE\l"
 	.string "GIMNASIO va a perder el tiempo con\l"
 	.string "un mísero ROCKET!$"
-	
-	
+
 VermilionCity_Gym_Text_NopeOnlyTrashHere:
 .string "Aquí solo hay basura.$"	
 
@@ -601,10 +598,10 @@ Cinnabar_Gym_Can_Pass_Texto_1:
 	.string "señor. Pase, por favor.$"
 
 Cinnabar_Gym_NoPass_Texto_1:
-.string "¿Qué broma es esta? ¿Un ROCKET\n"
-	.string "entrando aquí?$"
+.string "¿Qué broma es esta?\n"
+	.string "¿Un ROCKET entrando aquí?$"
 
 Cinnabar_Gym_NoPass_Texto_2:
-	.string "O desapareces o tienes a LANCE y sus\n"
+	.string "O desapareces, o tienes a LANCE y sus\n"
 	.string "dragones en menos tiempo del que\l"
 	.string "durásteis en SILPH, ¡canallas!$"

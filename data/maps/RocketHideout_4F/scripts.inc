@@ -226,8 +226,8 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
 	.string "historia y tradición que existe en\l"
 	.string "el mundo conocido, es indudable\l"
 	.string "que hay algo{PAUSE 25}…{PAUSE 25}espiritual en ese\l"
-	.string "lugar.\l"
-	.string "Y aunque tal vez nunca podamos\l"
+	.string "lugar.\p"
+	.string "Y aunque tal vez nunca podamos\n"
 	.string "llegar a comprenderlo claramente,\l"
 	.string "no podemos ignorar su poder.$"
 
@@ -264,7 +264,7 @@ end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
 .string "Tal vez esa entrada secreta esté en\n"
-	.string "antiguas zonas de PUEBLO LAVANDA.\l"
+	.string "antiguas zonas de PUEBLO LAVANDA.\p"
 	.string "¿Has mirado en TORRE POKÉMON?$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
@@ -286,8 +286,8 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
-.string "Relájate y disfruta del ARCHI7, {PLAYER}.\n"
-	.string "Hay mucho por hacer allí, si sabes\l"
+.string "Relájate y disfruta del ARCHI7, {PLAYER}.\p"
+	.string "Hay mucho por hacer allí, si sabes\n"
 	.string "adonde ir, tal vez si visitas a\l"
 	.string "ATLAS en nuestro cuartel él te muestre\l"
 	.string "algunos de sus secretos, conoce mejor\l"
@@ -555,12 +555,12 @@ walk_up
 step_end
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
-.string "ANDRA: ¡Tarde como siempre!\n"
-	.string "¡Aún no has visto a GIOVANNI y\l"
+.string "ANDRA: ¡Tarde como siempre!\p"
+	.string "¡Aún no has visto a GIOVANNI y\n"
 	.string "nuestro gran líder ya me ha\l"
-	.string "asignado una misión!\l"
-	.string "¿Qué te parece?\l"
-	.string "Al parecer está habiendo bastantes\l"
+	.string "asignado una misión!\p"
+	.string "¿Qué te parece?\p"
+	.string "Al parecer está habiendo bastantes\n"
 	.string "disturbios en CIUDAD FUCSIA con el\l"
 	.string "tema de los motoristas y el CAMINO\l"
 	.string "BICIS, y ahí es donde entraremos\l"
@@ -569,8 +569,8 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_2:
 .string "¿Qué te parece nuestra nueva zona\n"
-	.string "de trabajo?\l"
-	.string "Parece que PETREL estaba\l"
+	.string "de trabajo?\p"
+	.string "Parece que PETREL estaba\n"
 	.string "exagerando cuando dijo que la\l"
 	.string "guarida de AZULONA no tenía nada\l"
 	.string "que ver con la de RUTA 5, es\l"
@@ -591,7 +591,7 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1:
 	.string "ti.$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_4:
-.string "¡Lo dicho!\n"
+.string "¡Lo dicho!\p"
 	.string "¡CIUDAD FUCSIA es mía!$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_move_1:
@@ -930,7 +930,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_3.1:
 	.string "peleando hasta el final.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_4:
-.string "GIOVANNI: Excelente, PROTÓN.\n"
+.string "GIOVANNI: Excelente, PROTÓN.\p"
 	.string "Gracias por la presentación.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_5:
@@ -1520,8 +1520,8 @@ face_down
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
-.string "GIOVANNI: ¡{PLAYER}, qué oportuno!\n"
-	.string "Ya me han informado de tu\l"
+.string "GIOVANNI: ¡{PLAYER}, qué oportuno!\p"
+	.string "Ya me han informado de tu\n"
 	.string "excelente trabajo, quitándole el\l"
 	.string "KANGASKHAN de las manos a ese\l"
 	.string "miserable en el último momento.$"
@@ -1562,7 +1562,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 	.string "el nivel 28, si no recuerdo mal.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5.1:
-	.string "¡PROTÓN!\n"
+	.string "¡PROTÓN!\p"
 	.string "¡Entrega el KABUTO a {PLAYER}!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6:
@@ -1579,8 +1579,8 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
 	.string "que todo eso{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8:
-.string "Por ahora, el tema queda zanjado.\n"
-	.string "Examinaremos a ese KANGASKHAN, para\l"
+.string "Por ahora, el tema queda zanjado.\p"
+	.string "Examinaremos a ese KANGASKHAN, para\n"
 	.string "determinar su procedencia; sigue\l"
 	.string "siendo todo un misterio su presencia\l"
 	.string "en el TÚNEL ROCA.$"
@@ -1640,12 +1640,12 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14:
 	.string "Diría que{PAUSE 15}…{PAUSE 15} ya os conocéis{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15:
-.string "GIOVANNI: ¿Sorprendido?\n"
-	.string "AZUL accedió a aliarse con\l"
+.string "GIOVANNI: ¿Sorprendido?\p"
+	.string "AZUL accedió a aliarse con\n"
 	.string "nosotros en su paso por el PUENTE\l"
 	.string "PEPITA, al tiempo de tu actuación\l"
 	.string "en la casa de BILL.\l"
-	.string "Su condición de nieto del PROF.OAK\l"
+	.string "Su condición de nieto del PROF.OAK,\l"
 	.string "y rival directo de ROJO, hacen de\l"
 	.string "él un agente doble perfecto.$"
 
@@ -1719,8 +1719,8 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3:
 .string "¡{PLAYER} obtuvo un SCOPE SILPH!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20:
-.string "¡{PLAYER}!{PAUSE 35}\n"
-	.string "¡No quiero que busques la revancha\l"
+.string "¡{PLAYER}!{PAUSE 35}\p"
+	.string "¡No quiero que busques la revancha\n"
 	.string "con ROJO! ¡En caso de que se te\l"
 	.string "informe de su llegada inminente, subirás\l"
 	.string "al último piso y avisarás a PROTÓN!\l"
@@ -1742,8 +1742,8 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22:
 	.string "nos interese{PAUSE 25}…{PAUSE 25} y ganar tiempo.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
-.string "AZUL: ¡Hmph!\n"
-	.string "Revertiré las tornas respecto a\l"
+.string "AZUL: ¡Hmph!\p"
+	.string "Revertiré las tornas respecto a\n"
 	.string "ROJO, ya lo veréis.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24:
@@ -2053,8 +2053,8 @@ walk_in_place_up
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1:
-.string "¡AVISO A TODOS LOS RECLUTAS!\n"
-	.string "¡Un ENTRENADOR misterioso vestido\l"
+.string "¡AVISO A TODOS LOS RECLUTAS!\p"
+	.string "¡Un ENTRENADOR misterioso vestido\n"
 	.string "de ROJO se ha infiltrado en\l"
 	.string "nuestra BASE!$"
 
@@ -2065,8 +2065,8 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
 	.string "en la boca del lobo.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
-.string "RECLUTA: ¡Señor, órdenes!\n"
-	.string "¡Todos nosotros estamos cayendo\l"
+.string "RECLUTA: ¡Señor, órdenes!\p"
+	.string "¡Todos nosotros estamos cayendo\n"
 	.string "como fichas de dominó ante la\l"
 	.string "potencia de sus POKÉMON!$"
 
@@ -2171,11 +2171,11 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_20:
 	.string "nada le impide su acceso a usted.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_21:
-.string "GIOVANNI: Espléndido.\n"
-	.string "¡{PLAYER}!\l"
-	.string "¡PROTÓN!\l"
-	.string "¡Adentro, ya!\l"
-	.string "¡Se avisará a todo el personal\l"
+.string "GIOVANNI: Espléndido.\p"
+	.string "¡{PLAYER}!\p"
+	.string "¡PROTÓN!\p"
+	.string "¡Adentro, ya!\p"
+	.string "¡Se avisará a todo el personal\n"
 	.string "cuando esto acabe!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_22:
@@ -2764,8 +2764,8 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19:
 	.string "con el PC de PROTÓN.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20:
-.string "GIOVANNI: Eso es todo por ahora.\n"
-	.string "A falta de nuevas misiones, os\l"
+.string "GIOVANNI: Eso es todo por ahora.\p"
+	.string "A falta de nuevas misiones, os\n"
 	.string "concedo tiempo libre para que\l"
 	.string "exploréis la -BASE ROCKET PROFUNDA-.$"
 
@@ -2778,8 +2778,8 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_21:
 	.string "su confianza en nosotros, GIOVANNI!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_22:
-.string "ANDRA: Nos vemos allí abajo, {PLAYER}.\n"
-	.string "¡Voy a disfrutar como una niña,\l"
+.string "ANDRA: Nos vemos allí abajo, {PLAYER}.\p"
+	.string "¡Voy a disfrutar como una niña,\n"
 	.string "explorando cada rincón de uno\l"
 	.string "de los lugares más secretos y\l"
 	.string "confidenciales de esta región!$"
@@ -3149,7 +3149,7 @@ end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1:
 .string "????: Ya no tienes la sartén por\n"
-	.string "el mango, LANCE.\l"
+	.string "el mango, LANCE.\p"
 	.string "Sugiero que te calmes.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1:
@@ -3164,8 +3164,8 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2:
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3:
 .string "Provocar la renuncia de ROJO al título\n"
-	.string "de CAMPEÓN, y borrarlo del mapa.\l"
-	.string "Quiero fuera de juego a ese experimento\l"
+	.string "de CAMPEÓN, y borrarlo del mapa.\p"
+	.string "Quiero fuera de juego a ese experimento\n"
 	.string "de OAK, llevadlo a algún lugar apartado\l"
 	.string "y decid a los medios que está realizando\l"
 	.string "una especie de entrenamiento secreto.$"
@@ -3579,8 +3579,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_3:
 .string "BLAINE: ¿Querías verme, GIOVANNI?$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_4:
-.string "GIOVANNI: Así es, iré al grano, BLAINE.\n"
-	.string "Me temo que tendré que retirarte los\l"
+.string "GIOVANNI: Así es, iré al grano, BLAINE.\p"
+	.string "Me temo que tendré que retirarte los\n"
 	.string "fondos para seguir produciendo\l"
 	.string "PORYGON en masa.$"
 
@@ -3628,12 +3628,10 @@ PokemonTower5F_Escena_4_Blaine_Texto_10:
 PokemonTower5F_Escena_4_Blaine_Texto_11:
 .string "BLAINE: Sabes que nada superará al\n"
 	.string "proyecto original, GIOVANNI. $"
-	
-	
+
 PokemonTower5F_Escena_4_Blaine_Texto_11_1:
 .string "GIOVANNI: Basta con que supere a un\n"
 	.string "LEGENDARIO normal y corriente.$"
-	
 
 PokemonTower5F_Escena_4_Blaine_Texto_12:
 .string "BLAINE: ¡¿Uno{PAUSE 25}…{PAUSE 25}?! ¡A 3 más bien!$"
@@ -4398,7 +4396,7 @@ RocketHideout_4F_Dialogo_Proton_Texto_2:
 	.string "PETREL y ATLAS, este último siendo\l"
 	.string "ADMIN.JEFE, ya que dentro de nuestra\l"
 	.string "sucursal en ISLAS SETE es la máxima\l"
-	.string "autoridad.$"
+	.string "autoridadü.$"
 
 RocketHideout_4F_Dialogo_Proton_Texto_1:
 .string "Los distintos rangos de esta\n"

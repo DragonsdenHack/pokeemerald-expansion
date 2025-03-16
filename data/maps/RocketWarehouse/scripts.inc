@@ -468,11 +468,9 @@ RocketWarehouseSoldado_Text_Soldado1:
 	.string "puesto que les he vencido.\l"
 	.string "¡Tú eres el último por examinar!$"
 
-
 RocketWarehouseSoldado_Text_Soldado2:
 .string "Vaya, tenemos dos RECLUTAS que\n"
 	.string "valen la pena para variar.$"
-
 
 RocketWarehouseSoldado_Text_Soldado3:
 .string "ATLAS te está esperando junto con\n"
@@ -986,14 +984,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas1_1:
 	.string "ha sido positivo, esta\l"
 	.string "es vuestra recompensa.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
 	.string "¡Te has embolsado 25.000¥!$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
 .string "¡ANDRA se ha embolsado 25.000¥!$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
 .string "ATLAS: Ahora podréis costearos\n"
@@ -1011,12 +1006,10 @@ RocketWarehouse_Text_Vuelta_MisionAtlas4.1:
 	.string "o no aprovecháis lo que adquirís\l"
 	.string "gracias a él.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas5:
 .string "ATLAS: Dicho esto, habéis cumplido\n"
 	.string "la misión, pero de forma\l"
 	.string "subóptima.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
 .string "ATLAS: Debéis saber que aquí\n"
@@ -1029,7 +1022,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas6:
 	.string "formado a partir de un único\l"
 	.string "individuo.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas7:
 .string "ATLAS: Creí haber dejado claro que\n"
 	.string "ambos negociaríais a la vez con la\l"
@@ -1041,14 +1033,12 @@ RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
 	.string "{PLAYER} y decidiste entrar sola al\l"
 	.string "lugar?$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
 .string "ANDRA: Creí que mis habilidades\n"
 	.string "eran suficientes para afrontar el\l"
 	.string "reto, SR.ATLAS.\p"
 	.string "No conté con ese MAREEP y su\n"
 	.string "IMPACTRUENO, me equivoqué.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
 .string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
@@ -1057,7 +1047,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas9:
 	.string "admitido tu error.\l"
 	.string "Con eso basta, pero que te sirva\l"
 	.string "de ejemplo y experiencia.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas10:
 .string "ATLAS: Dicho esto, zarpáis de\n"
@@ -1068,7 +1057,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
 	.string "nuestro principal centro financiero,\l"
 	.string "un barco en el puerto os espera.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
 .string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
 	.string "No quiero que os vayáis de esta\n"
@@ -1078,14 +1066,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas11:
 	.string "Puede que volváis algún día,\l"
 	.string "mientras tanto, cuidad de esto.$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas12:
 .string "¡{PLAYER} OBTUVO UN HUEVO POKÉMON!$"
 
-
 RocketWarehouse_Text_Vuelta_MisionAtlas13:
 .string "¡ANDRA OBTUVO UN HUEVO POKÉMON!$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14:
 .string "ATLAS: Acabáis de recibir dos\n"
@@ -1098,7 +1083,6 @@ RocketWarehouse_Text_Vuelta_MisionAtlas14.1:
 	.string "En KANTO se os darán todos\l"
 	.string "los detalles sobre vuestras\l"
 	.string "nuevas misiones.$"
-
 
 RocketWarehouse_Text_Vuelta_MisionAtlas15:
 .string "ANDRA: ¡ENTENDIDO, SIR!$"

@@ -145,8 +145,8 @@ release
 end
 
 Route9_Aviso_Petrel_Texto_1:
-.string "PETREL: ¿{PLAYER}?\n"
-	.string "El sistema de teletransporte está\l"
+.string "PETREL: ¿{PLAYER}?\p"
+	.string "El sistema de teletransporte está\n"
 	.string "listo para ser puesto en práctica,\l"
 	.string "vuelve al cuartel inmediatamente y\l"
 	.string "prepárate para tu traslado inmediato\l"

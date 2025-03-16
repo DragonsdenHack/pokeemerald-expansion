@@ -59,8 +59,6 @@ NeoViridianCity_Anciano_YesNo_Texto_2:
 	.string "pero yo era un experto atrapando\l"
 	.string "POKÉMON.$"
 
-
-
 NeoViridianCity_Anciano_YesNo_Texto_1:
 .string "¡Hola! ¡Me acabo de tomar un café doble\n"
 	.string "y estoy como una moto!$"
@@ -76,7 +74,6 @@ NeoViridianCity_Anciano_No_Texto_1:
 .string "¿Qué? ¡Serás insolente! Si fuera un\n"
 	.string "poco más joven, te enseñaría un par de\l"
 	.string "cosas. ¡Vaya!$"
-
 
 NeoViridianCity_Anciano_Yes:
 .string "Muy bien. Sí, yo era algo fuera de lo\n"

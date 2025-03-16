@@ -20,11 +20,11 @@ end
 
 AzaleaTown_Text_2:
 .string "El GIMNASIO queda reservado para\n"
-.string "disípulos de CÉSAR. Tal y\l"
+.string "discípulos de CÉSAR. Tal y\l"
 .string "como está el asunto no tiene\l"
 .string "responsabilidad alguna de poner en\l"
-.string "juego su MEDALLA.\l"
-.string "A no ser que cuentes con una\l"
+.string "juego su MEDALLA.\p"
+.string "A no ser que cuentes con una\n"
 .string "invitación expresa, no puedo\l"
 .string "dejarte entrar.$"
 
@@ -212,8 +212,8 @@ end
 
 AzaleaTownDocumento_Text_106:
 .string "…\n"
-	.string "…\l"
-	.string "(Está holgazaneando).$"
+	.string "…\p"
+	.string "-Está holgazaneando.-$"
 
 
 
@@ -226,8 +226,8 @@ end
 
 AzaleaTownDocumento_Text_107:
 .string "…\n"
-	.string "…\l"
-	.string "(Está holgazaneando).$"
+	.string "…\p"
+	.string "-Está holgazaneando.-$"
 
 
 
@@ -405,7 +405,7 @@ end
 
 AzaleaTownDocumento_Text_121:
 .string "AMPHAROS: ¡Amph!\n"
-	.string "(Su cola irradia una gran energía).$"
+	.string "-Su cola irradia una gran energía.-$"
 
 
 

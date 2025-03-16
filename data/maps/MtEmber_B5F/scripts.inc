@@ -279,11 +279,11 @@ MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 .string "Todos adentro, ¡ya!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-.string "MAGNO: ¿Tú otra vez? \n"
-	.string "Te advertí una vez, y no volveré\l"
+.string "MAGNO: ¿Tú otra vez?\p"
+	.string "Te advertí una vez, y no volveré\n"
 	.string "a hacerlo, tengo asuntos más\l"
-	.string "importantes que ocuparme de ti.\l"
-	.string "¡ALTO RANGO KAREN!\l"
+	.string "importantes que ocuparme de ti.\p"
+	.string "¡ALTO RANGO KAREN!\p"
 	.string "¡Que no pase de este lugar!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_8:
@@ -291,8 +291,8 @@ MtEmber_B5F_Encuentro_Magno_Texto_8:
 	.string "le ponga la mano encima, señor.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_9:
-.string "MAGNO: Ahí te quedas, GROUDON espera.\n"
-	.string "Aunque pudieras llegar hasta mí, para\l"
+.string "MAGNO: Ahí te quedas, GROUDON espera.\p"
+	.string "Aunque pudieras llegar hasta mí, para\n"
 	.string "cuando lo hicieres, sería demasiado tarde.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_10:

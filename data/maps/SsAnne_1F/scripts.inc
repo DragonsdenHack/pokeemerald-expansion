@@ -32,8 +32,8 @@ SsAnne_1F_Andra_Ida_Text_2:
 	.string "eso nos dará la ventaja de pasar\l"
 	.string "desapercibidos y acceder al\l"
 	.string "camarote del CAPITÁN sin\l"
-	.string "levantar sospechas.\l"
-	.string "Una vez allí, identificamos el\l"
+	.string "levantar sospechas.\p"
+	.string "Una vez allí, identificamos el\n"
 	.string "frasco y nos lo llevamos.$"
 
 SsAnne_1F_Andra_Ida_Text_3:
@@ -91,8 +91,8 @@ release
 end
 
 SsAnne_1F_Andra_Vuelta_Text_1:
-.string "ANDRA: ¡Lo hemos logrado, {PLAYER}!\n"
-	.string "Ese CAPITÁN era duro, ¿eh? Nunca\l"
+.string "ANDRA: ¡Lo hemos logrado, {PLAYER}!\p"
+	.string "Ese CAPITÁN era duro, ¿eh? Nunca\n"
 	.string "había visto esos POKÉMON, deben de\l"
 	.string "venir de otras regiones. Sea como\l"
 	.string "sea, tenemos esa reliquia{PAUSE 5}…{PAUSE 5}$"
@@ -106,10 +106,10 @@ SsAnne_1F_Andra_Vuelta_Text_2:
 	.string "de mesas y demás material.$"
 
 SsAnne_1F_Andra_Vuelta_Text_3:
-.string "ANDRA: Más nos vale irnos ya. Por\n"
-	.string "cierto, encontré varias de estas en\l"
-	.string "la mesa del CAPITÁN, seguro que te\l"
-	.string "son de utilidad a ti también.$"
+.string "ANDRA: Más nos vale irnos ya.\p"
+	.string "Por cierto{PAUSE 15}…{PAUSE 15} encontré varias de\n"
+	.string "estas en la mesa del CAPITÁN.\p"
+	.string "¡Seguro que pueden sernos útiles!$"
 
 SsAnne_1F_Andra_Vuelta_Text_4:
 .string "ANDRA: Nos vemos en\n"
@@ -154,7 +154,7 @@ release
 end
 
 SsAnne_1F_Acabado_Text_1:
-.string "(Ya no tengo nada más que hacer aquí).$"
+.string "-Ya no tengo nada más que hacer aquí.-$"
 
 
 SsAnne_1F_Acabado_move_1:

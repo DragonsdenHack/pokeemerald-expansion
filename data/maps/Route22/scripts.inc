@@ -26,8 +26,8 @@ release
 end
 
 Ruta22_No_Puedes_Pasar_Texto_1:
-.string "(Aquí está toda la POLICÍA de la región,\n"
-	.string "no es buena idea entrar).$"
+.string "-Aquí está toda la POLICÍA de la región,\n"
+	.string "no es buena idea entrar.-$"
 
 Route22_Combate_Azul_Izq::
 playse SE_PIN
@@ -568,10 +568,10 @@ RocketHideoutViridian_Escena_9_Texto_21:
 .string "¡YO SOLO!$"
 
 RocketHideoutViridian_Escena_9_Texto_22:
-.string "GIOVANNI: Eso espero PLATA, es lo mejor\n"
-	.string "para ambos. Crece alejado de esta\l"
-	.string "farsa, mejora por tu cuenta. Mientras…\l"
-	.string "Yo me encargaré de moldear como es\l"
+.string "GIOVANNI: Eso espero, PLATA. Es lo mejor\n"
+	.string "para ambos; crece alejado de esta\l"
+	.string "farsa, mejora por tu cuenta. Mientras{PAUSE 15}…{PAUSE 15}\p"
+	.string "Yo me encargaré de moldear como es\n"
 	.string "debido la región sobre la que vives{PAUSE 25}…{PAUSE 25} a\l"
 	.string "cualquier precio.$"
 

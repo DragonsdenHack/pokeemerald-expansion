@@ -183,10 +183,10 @@ end
 
 
 Route11_Policias_Text:
-.string "¿Nos tomas por tontos?\n"
-	.string "¿De verdad crees que no vamos a\l"
-	.string "verte por pasar usando SURF?\l"
-	.string "¡Da media vuelta si no quieres que\l"
+.string "¿Nos tomas por tontos?\p"
+	.string "¿De verdad crees que no vamos a\n"
+	.string "verte por pasar usando SURF?\p"
+	.string "¡Da media vuelta si no quieres que\n"
 	.string "llame al mismísimo LANCE!$"
 
 Route11_Policias_move1:

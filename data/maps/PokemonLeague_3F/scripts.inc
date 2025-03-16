@@ -97,7 +97,6 @@ PokemonLeague_3F_Combate_Agatha_Texto_1:
 	.string "hacer que tu equipo POKÉMON hable\l"
 	.string "en el campo.$"
 
-
 PokemonLeague_3F_Combate_Agatha_Texto_2:
 .string "¿Pero qué tenemos aquí?\n"
 	.string "No me gusta esta moda de vestir\l"

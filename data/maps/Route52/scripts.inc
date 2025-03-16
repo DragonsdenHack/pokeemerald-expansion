@@ -72,8 +72,8 @@ release
 end
 
 Route52_Bloqueo_Base_Texto_1:
-.string "La puerta está completamente\n"
-	.string "cerrada{PAUSE 5}…{PAUSE 5}$"
+.string "-La puerta está completamente\n"
+	.string "cerrada{PAUSE 5}…{PAUSE 5}-$"
 
 Route52_Bloqueo_Base_Move_1:
 walk_in_place_up

@@ -26,10 +26,10 @@ end
 RuinsOfAlph_House1_Text_2:
 .string "No me gustan nada esos individuos\n"
 .string "de negro que vinieron poco después\l"
-.string "del terremoto.\l"
-.string "…\l"
-.string "…\l"
-.string "¿Qué?\l"
+.string "del terremoto.\p"
+.string "…\p"
+.string "…\p"
+.string "¿Qué?\p"
 .string "¿¡Tú eres su superior?!$"
 
 
@@ -43,8 +43,8 @@ end
 
 RuinsOfAlph_House1_Text_3:
 .string "Las RUINAS datan de hace unos 1500\n"
-.string "años.\l"
-.string "Pero ignoramos por qué o por quién\l"
+.string "años.\p"
+.string "Pero ignoramos por qué o por quién\n"
 .string "fueron construidas.$"
 
 RuinsOfAlph_House_Mision_Secundaria::
@@ -133,7 +133,6 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_1:
 	.string "región, nos prometieron solo investigar\l"
 	.string "nuestros FÓSILES, pero han\l"
 	.string "desaparecido sin apenas dejar rastro{PAUSE 5}…{PAUSE 5}$"
-
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_2:
 .string "{PAUSE 5}… {PAUSE 5}…{PAUSE 5}$"

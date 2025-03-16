@@ -30,4 +30,4 @@ end
 PewterCity_Mart_Text_3:
 .string "¡Un misterioso anciano me vendió\n"
 .string "este extraño pez POKéMON!\p"
-.string "¡Es muy débil y cuesta 500!$"
+.string "¡Es muy débil y cuesta 500¥!$"

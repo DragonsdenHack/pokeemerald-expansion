@@ -34,19 +34,14 @@ LakeofRageHouse2_Text_TakeWailmer:
 	.string "POKÉMON tan enorme surcar los\l"
 	.string "mares.$"
 
-
-
 LakeofRageHouse2_Text_TakeWailmer2:
 	.string "Ten, quiero que tú también lo\n"
 	.string "conozcas. Aquí tienes, ¡su\l"
 	.string "preevolución es ya del tamaño de\l"
 	.string "un LAPRAS adulto!$"
 
-
-
 LakeofRageHouse2_Text_MensajeWailmer:
 .string "¡OBTUVISTE UN WAILMER AL NV.50!$"
-
 
 LakeofRageHouse2_Text_1:
     .string "Ver a un WAILORD salir a flote,\n"

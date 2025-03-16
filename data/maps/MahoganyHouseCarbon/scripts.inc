@@ -74,7 +74,7 @@ end
 
 MahoganyHouseCarbon_Secundaria_Texto_1:
 .string "Esos malditos empresarios… nos la han\n"
-	.string "jugado a mi y a mi mujer.$"
+	.string "jugado a mí y a mi mujer.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"

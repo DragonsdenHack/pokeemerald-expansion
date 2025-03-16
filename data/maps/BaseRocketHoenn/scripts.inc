@@ -531,7 +531,7 @@ BaseRocketHoennDocumento_Text_101:
 	.string "TOTAL: 580\p"
 	.string "Uno de los 3 ELFOS LEGENDARIOS de\n"
 	.string "SINNOH. Representa la voluntad. Con\l"
-	.string "diferencia el de mayor cappacidad\l"
+	.string "diferencia el de mayor capacidad\l"
 	.string "ofensiva de los 3 ELFOS, aún a costa de\l"
 	.string "ser el más frágil, su gran variedad de\l"
 	.string "movimientos tanto físicos como\l"
@@ -593,7 +593,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "DEFENSA ESPECIAL: 85\l"
 	.string "VELOCIDAD: 102\l"
 	.string "TOTAL: 600\p"
-.string "Para muchos, el PSEUDOLEGENDARIO\n"
+    .string "Para muchos, el PSEUDOLEGENDARIO\n"
 	.string "número 1. Lo tiene todo para ser un\l"
 	.string "POKÉMON dominante: VELOCIDAD\l"
 	.string "superior a 100, ATAQUE FÍSICO\l"
@@ -626,7 +626,7 @@ BaseRocketHoennDocumento_Text_104:
 	.string "DEFENSA ESPECIAL: 100\l"
 	.string "VELOCIDAD: 100\l"
 	.string "TOTAL: 600\p"
-.string "Se cree que está en total simbiosis con\n"
+    .string "Se cree que está en total simbiosis con\n"
 	.string "la fauna y flora de SINNOH, de ahí su\l"
 	.string "característico FOGONAZO. Su FORMA\l"
 	.string "CIELO es la más interesante\l"
@@ -1758,11 +1758,8 @@ BaseRocketHoenn_Text_TakeTynamo:
    .string "¿Me creerías si te dijera que existe un\n"
 	.string "POKÉMON sin debilidades? ¿No? ¡Toma!$"
 
-
-
 BaseRocketHoenn_Text_MensajeTynamo:
 .string "¡OBTUVISTE UN TYNAMO AL NV.25!$"
-
 
 BaseRocketHoenn_Text_27:
     .string "La línea evolutiva de TYNAMO es del\n"
@@ -2157,9 +2154,9 @@ release
 end
 
 BaseRocketHoenn_Salida_Base_Texto_1:
-.string "(Esta es la salida, debería ver antes\n"
+.string "-Esta es la salida, debería ver antes\n"
 .string "la BASE con ANDRA, tal y como\l"
-	.string "acordamos).$"
+	.string "acordamos.-$"
 
 BaseRocketHoenn_Salida_Base_Move_1:
 walk_in_place_down

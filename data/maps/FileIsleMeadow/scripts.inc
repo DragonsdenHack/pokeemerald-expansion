@@ -86,8 +86,6 @@ FileIsleMeadow6_Text_6Yes:
 .string "¡Así se habla!\n"
 	.string "¡TEAM ROCKET al poder!$"
 
-
-
 FileIsleMeadow6_Text_6No:
 .string "¡Todo ROCKET que se precie sabe\n"
 	.string "que los paisajes industriales son\l"
@@ -430,7 +428,7 @@ face_up
 step_end
 
 FileIsleMeadow_Combate_Azul_Texto_1:
-.string "AZUL: Ah, {PLAYER}.\n"
+.string "AZUL: Ah, {PLAYER}.\p"
 	.string "Volviendo a los orígenes, ¿eh?$"
 
 FileIsleMeadow_Combate_Azul_Texto_2:
@@ -455,13 +453,13 @@ FileIsleMeadow_Combate_Azul_Texto_5:
 	.string "CAMPEÓN para demostrar a los\l"
 	.string "otros mi valía, para estar por\l"
 	.string "encima de ROJO y quedar como el\l"
-	.string "mejor de entre los dos.\l"
+	.string "mejor de entre los dos.\p"
 	.string "No por pura iniciativa mía.$"
 
 FileIsleMeadow_Combate_Azul_Texto_6:
 .string "Ahora que soy el CAMPEÓN, me doy cuenta\n"
-	.string "de que este título no vale nada.\l"
-	.string "Solo soy el mejor a ojos de las masas,\l"
+	.string "de que este título no vale nada.\p"
+	.string "Solo soy el mejor a ojos de las masas,\n"
 	.string "pero la realidad es bien distinta.$"
 
 FileIsleMeadow_Combate_Azul_Texto_7:
@@ -502,10 +500,10 @@ FileIsleMeadow_Combate_Azul_Texto_11:
 	.string "mientras sigo mi camino.$"
 
 FileIsleMeadow_Combate_Azul_Texto_12:
-.string "¡{PLAYER}!\n"
-	.string "¡Disfruta de tus\l"
-	.string "merecidas vacaciones!\l"
-	.string "¡No tengo duda de que GIOVANNI te\l"
+.string "¡{PLAYER}!\p"
+	.string "¡Disfruta de tus\n"
+	.string "merecidas vacaciones!\p"
+	.string "¡No tengo duda de que GIOVANNI te\n"
 	.string "solicitará para ser participe de los\l"
 	.string "más grandes proyectos del TEAM ROCKET!\l"
 	.string "Tal vez algún día tus hazañas sean\l"

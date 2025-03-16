@@ -9,7 +9,7 @@ release
 end
 
 ViridianCity_House1_Text_1:
-.string "Ponerle motes a los Pokémon es\n"
+.string "Ponerle motes a los POKÉMON es\n"
 .string "divertido, pero a veces no es\l"
 .string "fácil.\l"
 .string "Está bien poner motes elaborados,\l"
@@ -27,7 +27,7 @@ end
 
 ViridianCity_House1_Text_2:
 .string "A mi padre también le encantan los\n"
-.string "Pokémon.$"
+.string "POKÉMON.$"
 
 
 

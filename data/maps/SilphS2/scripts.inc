@@ -409,7 +409,7 @@ end
 SilphS2_Text_20:
 .string "¿Crees que estoy maquinando algún\n"
 .string "plan maléfico?\l"
-.string "¿O creando algún Pokémon\l"
+.string "¿O creando algún POKÉMON\l"
 .string "invencible desde mi computadora?\l"
 .string "{PAUSE 15}…{PAUSE 15}\l"
 .string "¡Estás en lo cierto!$"
@@ -433,7 +433,7 @@ SilphS2_Text_20_EventScript_ReceivedTM33::
 SilphS2_Text_20_Text_TM33:
 .string "¿Crees que estoy maquinando algún\n"
 .string "plan maléfico?\l"
-.string "¿O creando algún Pokémon\l"
+.string "¿O creando algún POKÉMON\l"
 .string "invencible desde mi computadora?\l"
 .string "{PAUSE 15}…{PAUSE 15}\l"
 .string "¡Estás en lo cierto!$"

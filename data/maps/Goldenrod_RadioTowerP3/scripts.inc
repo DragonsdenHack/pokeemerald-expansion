@@ -206,17 +206,12 @@ RadioHouse_Text_TakeNosepass:
 	.string "mundo. En TORRE RADIO manejamos cada\l"
 	.string "vez más contactos.$"
 
-
-
 RadioHouse_Text_TakeNosepass2:
 	.string "Mira este POKÉMON, es un claro ejemplo\n"
 	.string "de ello.$"
 
-
-
 RadioHouse_Text_MensajeNosepass:
 .string "¡OBTUVISTE UN ELECTRIKE AL NV.25!$"
-
 
 RadioHouse_Text_1:
 	.string "Al parecer ELECTRIKE evoluciona en un\n"

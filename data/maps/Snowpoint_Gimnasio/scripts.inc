@@ -78,8 +78,8 @@ Snowpoint_Gimnasio_Lider_Texto_2:
 	.string "de pelar porque sé centrarme.$"
 
 Snowpoint_Gimnasio_Lider_Texto_3:
-	.string "Pokémon, moda, amor… ¡Todo es cuestión\n"
-	.string "de concentración!$"
+	.string "POKÉMON, moda, amor…\n"
+	.string "¡Todo es cuestión de concentración!$"
 
 Snowpoint_Gimnasio_Lider_Texto_4:
 	.string "Ahora lo verás. ¡Prepárate para perder!$"

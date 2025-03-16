@@ -654,14 +654,10 @@ RocketHideoutJohto_Text_TakeRalts:
 	.string "allá de ALAKAZAM o HYPNO, incluso\l"
 	.string "de ESPEON o XATU, en JOHTO.$"
 
-
-
 RocketHideoutJohto_Text_TakeRalts2:
 	.string "El problema es que KANTO y JOHTO\n"
 	.string "han sido siempre muy cerradas a\l"
 	.string "otras regiones.$"
-
-
 
 RocketHideoutJohto_Text_TakeRalts3:
 	.string "Sin embargo, un colega mío que\n"
@@ -672,12 +668,8 @@ RocketHideoutJohto_Text_TakeRalts3:
 	.string "región, me gustaría que un ROCKET\l"
 	.string "como tú se quedara con uno.$"
 
-
-
-
 RocketHideoutJohto_Text_MensajeRalts:
 .string "¡OBTUVISTE UN RALTS AL NV.10!$"
-
 
 RocketHideoutJohto_Text_19:
 .string "He oído que RALTS cuenta con 2\n"

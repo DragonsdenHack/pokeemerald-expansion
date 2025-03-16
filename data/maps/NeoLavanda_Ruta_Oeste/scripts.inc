@@ -71,7 +71,7 @@ NeoLavanda_Ruta_Oeste_Policia_Texto_3:
 	.string "arreglar la situación.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_2:
-.string "Discúlpeme señor, pero la VÍA\n"
+.string "Discúlpeme, señor, pero la VÍA\n"
 	.string "SUBTERRÁNEA se cerrará en breves. Ya\l"
 	.string "sabe, son órdenes que vienen desde\l"
 	.string "arriba.$"

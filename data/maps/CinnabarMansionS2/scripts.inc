@@ -318,8 +318,6 @@ CinnabarMansionS2Documento_Text_107Yes:
 	.string "pseudolegendarios en una misma\l"
 	.string "región son otros.$"
 
-
-
 CinnabarMansionS2Documento_Text_107Yes2:
 .string "DEVON S.A. es la SILPH S.A. de\n"
 	.string "HOENN, sin embargo, jamás ha hecho\l"
@@ -331,8 +329,6 @@ CinnabarMansionS2Documento_Text_107Yes2:
 	.string "con recursos y capacidad para, al\l"
 	.string "igual que SILPH, crear un POKÉMON\l"
 	.string "artificial estilo PORYGON.$"
-
-
 
 CinnabarMansionS2Documento_Text_107Yes3:
     .string "Es aquí donde entra el hijo del\n"
@@ -347,8 +343,6 @@ CinnabarMansionS2Documento_Text_107Yes3:
 	.string "la carta por parte de DEVON para\l"
 	.string "asegurar a MÁXIMO la jerarquía\l"
 	.string "suficiente como para ser CAMPEÓN.$"
-
-
 
 CinnabarMansionS2Documento_Text_107Yes4:
 .string "No existe ni un solo BELDUM en\n"
@@ -371,8 +365,6 @@ CinnabarMansionS2Documento_Text_107Yes4:
 	.string "sospechosamente favorable, como si\l"
 	.string "hubiera sido introducida a la\l"
 	.string "carta.$"
-
-
 
 CinnabarMansionS2Documento_Text_107Yes5:
 .string "De confirmarse todo esto,\n"

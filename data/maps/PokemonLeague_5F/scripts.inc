@@ -328,10 +328,10 @@ step_end
 
 
 PokemonLeague_5F_Azul_Rojo_Texto_1:
-.string "ANDRA: ¡{PLAYER}, al fin!\n"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "AZUL fue el primero en derrotar\l"
+.string "ANDRA: ¡{PLAYER}, al fin!\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "AZUL fue el primero en derrotar\n"
 	.string "a LANCE, pero no hay buenas\l"
 	.string "noticias, está siendo masacrado\l"
 	.string "por ROJO, mira{PAUSE 25}…{PAUSE 5}$"
@@ -346,12 +346,12 @@ PokemonLeague_5F_Azul_Rojo_Texto_4:
 .string "ROJO: {PAUSE 25}…{PAUSE 15}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_5:
-.string "AZUL: ¡No!\n"
-	.string "¡Eso es imposible!\l"
-	.string "¡Me has derrotado!\l"
-	.string "¡Tras tantos esfuerzos por\l"
+.string "AZUL: ¡No!\p"
+	.string "¡Eso es imposible!\p"
+	.string "¡Me has derrotado!\p"
+	.string "¡Tras tantos esfuerzos por\n"
 	.string "convertirme en CAMPEÓN de la LIGA!\l"
-	.string "¿Se ha terminado ya mi reinado?\l"
+	.string "¿Se ha terminado ya mi reinado?\p"
 	.string "¡No es justo!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_6:

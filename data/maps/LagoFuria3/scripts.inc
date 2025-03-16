@@ -279,7 +279,7 @@ release
 end
 
 LagoFuria_S3_Cientifico_1_Texto_1:
-.string "Por tu culpa ya no podremos ver en\n"
+.string "Por tu culpa, ya no podremos ver en\n"
 	.string "directo la aparición del POKÉMON del\l"
 	.string "LAGO. No podemos presentarnos ahí\l"
 	.string "después de ser derrotados, pero\l"

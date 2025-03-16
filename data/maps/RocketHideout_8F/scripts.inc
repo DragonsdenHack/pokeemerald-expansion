@@ -3437,10 +3437,8 @@ RocketHideout8F_Mision_Mansion_Oak_Text_17:
 	.string "POKÉMON, y de que {PLAYER} no corra\l"
 	.string "ningún peligro.$"
 
-
 RocketHideout8F_Mision_Mansion_Oak_Text_18:
 .string "PROTÓN: ¡A LA ORDEN, SEÑOR!$"
-
 
 RocketHideout8F_Mision_Mansion_Oak_Text_19:
 .string "GIOVANNI: Ve, {PLAYER}.\p"
@@ -4548,8 +4546,8 @@ emote_exclamation_mark
 step_end
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_1:
-.string "GIOVANNI: ¡{PLAYER}!\n"
-	.string "¡Eres extraordinario, pudiste con los 3\l"
+.string "GIOVANNI: ¡{PLAYER}!\p"
+	.string "¡Eres extraordinario, pudiste con los 3\n"
 	.string "POKÉMON más poderosos de la historia!\p"
 	.string "¿Entiendes el motivo de tu victoria?\p"
 	.string "En el momento en que la inmortalidad de\n"

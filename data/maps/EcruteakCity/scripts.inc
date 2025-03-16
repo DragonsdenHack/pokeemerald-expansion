@@ -54,8 +54,8 @@ end
 EcruteakCity_Text_5:
 .string "La huella de la historia aún se\n"
 .string "deja entrever en lugares como\l"
-.string "este.\l"
-.string "Ya no podemos cambiar lo que fue,\l"
+.string "este.\p"
+.string "Ya no podemos cambiar lo que fue,\n"
 .string "pero podemos aprender de ello.$"
 
 
@@ -86,15 +86,15 @@ end
 EcruteakCity_Text_8:
 .string "Lo podrás explicar, y la gente\n"
 .string "podrá ver lo que han visto tus\l"
-.string "ojos.\l"
-.string "Podrás hacer fotografías y podrán\l"
+.string "ojos.\p"
+.string "Podrás hacer fotografías y podrán\n"
 .string "escuchar cómo silban los pájaros o\l"
 .string "cómo la nieve mece las ramas de\l"
-.string "los árboles.\l"
-.string "Podrás escribirlo y podrán incluso\l"
+.string "los árboles.\p"
+.string "Podrás escribirlo y podrán incluso\n"
 .string "sentir el viento en la cara o el\l"
-.string "olor a tierra mojada.\l"
-.string "Pero nunca podrás lograr que\l"
+.string "olor a tierra mojada.\p"
+.string "Pero nunca podrás lograr que\n"
 .string "sientan la emoción que tú has\l"
 .string "sentido al estar presente.$"
 
@@ -185,8 +185,6 @@ EcruteakCityDocumento_Text_101:
 	.string "LÍDER: JADEN\l"
 	.string "Una leyenda del pasado en tiempos\l"
 	.string "presentes.$"
-
-
 
 EcruteakCityDocumento_102::
 msgbox EcruteakCityDocumento_Text_102, MSGBOX_SIGN   
@@ -679,7 +677,6 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_22:
 	.string "ver GASTLY y HAUNTER en TORRE\l"
 	.string "LAVANDA nunca podrían imaginar en\l"
 	.string "un TIPO FANTASMA.$"
-
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_23:
 .string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"

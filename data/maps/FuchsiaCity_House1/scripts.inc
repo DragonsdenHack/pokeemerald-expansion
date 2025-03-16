@@ -41,9 +41,9 @@ end
 
 FuchsiaCity_House1_Text_3:
 .string "¡SLOWPOKE sabe mucho sobre los\n"
-.string "Pokémon!\l"
+.string "POKÉMON!\l"
 .string "¡Tiene hasta varios fósiles de\l"
-.string "Pokémon raros y extintos!$"
+.string "POKÉMON raros y extintos!$"
 
 
 

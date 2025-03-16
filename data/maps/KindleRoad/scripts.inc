@@ -9,11 +9,11 @@ release
 end
 
 KindleRoad_Text_1:
-.string "Lo sentimos pero ha habido un\n"
+.string "Lo sentimos, pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"
-.string "se garantice la seguridad, perdona\l"
-.string "las molestias.$"
+.string "se garantice la seguridad.\p"
+.string "Perdone las molestias.$"
 
 
 KindleRoad2::
@@ -24,11 +24,11 @@ release
 end
 
 KindleRoad_Text_2:
-.string "Lo sentimos pero ha habido un\n"
+.string "Lo sentimos, pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"
-.string "se garantice la seguridad, perdona\l"
-.string "las molestias.$"
+.string "se garantice la seguridad.\p"
+.string "Perdone las molestias.$"
 
 
 KindleRoad3::

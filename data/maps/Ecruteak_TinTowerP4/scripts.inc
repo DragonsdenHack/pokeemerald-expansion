@@ -105,8 +105,6 @@ TinTowerP4_Text_TakeHonedge:
     .string "No es muy común ver a jóvenes como\n"
 	.string "tú en estos días que corren.$"
 
-
-
 TinTowerP4_Text_TakeHonedge2:
 	.string "Puedo ver el respeto que profesas\n"
 	.string "hacia este lugar. A pesar de estar\l"
@@ -114,19 +112,14 @@ TinTowerP4_Text_TakeHonedge2:
 	.string "posición, no has olvidado de donde\l"
 	.string "vienes.$"
 
-
-
 TinTowerP4_Text_TakeHonedge3:
 	.string "Por ello, te hago entrega de este\n"
 	.string "POKÉMON. Si lo entrenas bien, te\l"
 	.string "servirá de escudo ante la más\l"
 	.string "adversa de las situaciones.$"
 
-
-
 TinTowerP4_Text_MensajeHonedge:
 .string "¡OBTUVISTE UN HONEDGE AL NV.10!$"
-
 
 TinTowerP4_Text_4:
     .string "HONEDGE puede servirte de escudo\n"

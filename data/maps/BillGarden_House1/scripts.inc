@@ -60,15 +60,15 @@ BillGarden_House1_Bill_Combate_Text_1:
 
 BillGarden_House1_Bill_Combate_Text_2:
 	.string "Debería de haber sido más que\n"
-	.string "suficiente con 3 policías.\l"
-	.string "Tal vez mi error fue no\l"
+	.string "suficiente con 3 policías.\p"
+	.string "Tal vez mi error fue no\n"
 	.string "contratar a 20 en lugar de 3.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
 .string "Sea como sea, no tienes salida,\n"
 	.string "aunque consigas derrotarme, toda\l"
 	.string "la policía de CELESTE está de\l"
-	.string "camino.\l"
+	.string "camino.\p"
 	.string "Has actuado precipitadamente{PAUSE 5}…{PAUSE 5}$"
 
 BillGarden_House1_Bill_Combate_Text_4:
@@ -92,7 +92,7 @@ BillGarden_House1_Bill_Combate_Text_6:
 .string "Esto debe de ser una broma.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-.string "{PLAYER} robó la patente.$"
+.string "-{PLAYER} robó la patente.-$"
 
 BillGarden_House1_Bill_Combate_Text_8:
 .string "POLICÍA CELESTE: SR.BILL, le\n"
@@ -107,8 +107,8 @@ BillGarden_House1_Bill_Combate_Text_9:
 	.string "antes de llevarlo preso.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-.string "Se acabó. Haz lo que quieras.\n"
-	.string "Tu única opción es salir y\l"
+.string "Se acabó, haz lo que quieras.\p"
+	.string "Tu única opción es salir y\n"
 	.string "entregarte. Disfruta de tus\l"
 	.string "últimos momentos con la\l"
 	.string "patente en tu poder.$"
@@ -166,8 +166,8 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-.string "Se acabó, haz lo que quieras.\n"
-	.string "Tu única opción es salir y\l"
+.string "Se acabó, haz lo que quieras.\p"
+	.string "Tu única opción es salir y\n"
 	.string "entregarte, disfruta de tus\l"
 	.string "últimos momentos con la patente en\l"
 	.string "tu poder.$"

@@ -56,7 +56,7 @@ MtPyre_3F_Text_KaylaPostBattle:
 	.string "alcanzar la cima. ¡Yo puedo!$"
 
 MtPyre_3F_Text_GabrielleIntro:
-	.string "¿Por qué has venido hasta aqui?$"
+	.string "¿Por qué has venido hasta aquí?$"
 
 MtPyre_3F_Text_GabrielleDefeat:
 	.string "¡Ha sido impresionante! Tienes\n"

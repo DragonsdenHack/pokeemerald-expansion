@@ -46,7 +46,7 @@ msgbox VermilionClubDocumento_Text_101, MSGBOX_SIGN
 end
 
 VermilionClubDocumento_Text_101:
-	.string "Si alguien se rie, devuélvele la\n"
+	.string "Si alguien se ríe, devuélvele la\n"
 	.string "sonrisa.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop::

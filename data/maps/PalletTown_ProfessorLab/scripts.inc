@@ -13,7 +13,7 @@ end
 PalletTown_ProfessorLab_Text_1:
 .string "Los mejores entrenadores de la\n"
 .string "región provienen de este lugar, la\l"
-.string "curiosidad mató al gato, chico.\l"
+.string "curiosidad mató al gato, chico.\p"
 .string "Espero que me hayas entendido.$"
 
 PalletTownProfessorLab1_2::
@@ -48,8 +48,8 @@ end
 
 PalletTown_ProfessorLab_Despues_Text_2:
 	.string "OAK va a participar en el programa de\n"
-	.string "radio de CIUDAD TRIGAL. Es toda una\l"
-	.string "eminencia.$"
+	.string "radio de CIUDAD TRIGAL.\p"
+	.string "Es toda una eminencia.$"
 
 
 PalletTownProfessorLab3::
@@ -98,7 +98,7 @@ msgbox PalletTownProfessorLabDocumento_Text_101, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_101:
-	.string "Todos los Pokémon cuentan con\n"
+	.string "Todos los POKÉMON cuentan con\n"
 	.string "fortalezas y debilidades frente a\l"
 	.string "otros.$"
 
@@ -115,7 +115,7 @@ PalletTownProfessorLabDocumento_Text_102:
 	.string "¡Los mejores entrenadores de la\l"
 	.string "LIGA POKÉMON están listos para\l"
 	.string "derrotarlos a todos!\l"
-	.string "¡Traed a vuestros mejores Pokémon\l"
+	.string "¡Traed a vuestros mejores POKÉMON\l"
 	.string "y probaremos vuestra valía como\l"
 	.string "entrenadores!\l"
 	.string "CG de la LIGA POKÉMON.\l"
@@ -209,17 +209,17 @@ face_player
 step_end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
-.string "????: Vaya, ¿no está aquí OAK?\n"
+.string "????: Vaya, ¿no está aquí OAK?\p"
 	.string "Tal vez esté en la ZONA 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-.string "????: ¿Querías algo, chico?\n"
-	.string "Yo soy la nieta de OAK, y hermana\l"
+.string "????: ¿Querías algo, chico?\p"
+	.string "Yo soy la nieta de OAK, y hermana\n"
 	.string "mayor de AZUL{PAUSE 25}…{PAUSE 15}$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
-.string "¡Así que conoces a mi hermano!\n"
-	.string "Es un buen chico, aunque sea muy\l"
+.string "¡Así que conoces a mi hermano!\p"
+	.string "Es un buen chico, aunque sea muy\n"
 	.string "competitivo y a veces arrogante,\l"
 	.string "va de frente y dice lo que tiene\l"
 	.string "que decirte a la cara, solo espero\l"
@@ -229,9 +229,9 @@ PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DALIA: ¡El último POKÉMON de OAK!\n"
-	.string "¡Has sido tú, ROCKET!\l"
-	.string "¡Ya veía sospechoso ver a alguien\l"
+.string "DALIA: ¡El último POKÉMON de OAK!\p"
+	.string "¡Has sido tú, ROCKET!\p"
+	.string "¡Ya veía sospechoso ver a alguien\n"
 	.string "con la gran R merodeando por aquí!$"
 
 PalletTown_ProfessorLab_Lab_Texto_6:
@@ -241,7 +241,7 @@ PalletTown_ProfessorLab_Lab_Texto_6:
 
 PalletTown_ProfessorLab_Lab_Texto_7:
 .string "DALIA: Nada te exhime de robar un\n"
-	.string "Pokémon ajeno, ROCKET.\l"
+	.string "POKÉMON ajeno, ROCKET.\p"
 	.string "¡Vas a pagar por ello!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:

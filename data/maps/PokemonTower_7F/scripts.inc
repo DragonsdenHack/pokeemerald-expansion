@@ -102,35 +102,35 @@ step_end
 PokemonTower_7F_Proton_Texto_1:
 .string "PROTÓN: Tú creaste nuestra única\n"
 	.string "esperanza de escapar de este\l"
-	.string "sistema esclavista, FUJI.\l"
-	.string "¿No crees que ese fin justifica\l"
-	.string "cualquier posible medio para obtenerlo?\l"
+	.string "sistema esclavista, FUJI.\p"
+	.string "¿No crees que ese fin justifica\n"
+	.string "cualquier posible medio para obtenerlo?\p"
 	.string "¡Espero que medites nuestra oferta!$"
 
 PokemonTower_7F_Proton_Texto_2:
 .string "PROTÓN: Ya veo, de todos modos,\n"
-	.string "FUJI y yo ya hemos acabado.\l"
+	.string "FUJI y yo ya hemos acabado.\p"
 	.string "¡Hora de volver al cuartel, {PLAYER}!$"
 
 PokemonTower_7F_Proton_Texto_3:
-.string "PROTÓN: ¡Reclutas!\n"
+.string "PROTÓN: ¡Reclutas!\p"
 	.string "¡Subid arriba inmediatamente!$"
 
 PokemonTower_7F_Proton_Texto_4:
 .string "PROTÓN: Custodiad a FUJI hasta que\n"
-	.string "no se os dé otra orden,\l"
-	.string "¡¿entendido?!$"
+	.string "no se os dé otra orden.\p"
+	.string "¡¿Entendido?!$"
 
 PokemonTower_7F_Proton_Texto_5:
 .string "RECLUTAS: ¡Totalmente, SIR!$"
 
 PokemonTower_7F_Proton_Texto_6:
 .string "PROTÓN: Siempre hay que guardar\n"
-	.string "las apariencias, {PLAYER}.\l"
-	.string "Si ese necio sube hasta aquí, creerá\l"
+	.string "las apariencias, {PLAYER}.\p"
+	.string "Si ese necio sube hasta aquí, creerá\n"
 	.string "lo que todos creen: que unos\l"
 	.string "descerebrados delincuentes secuestran\l"
-	.string "a un anciano sin sentido alguno.$"
+	.string "a un anciano, sin sentido alguno.$"
 
 PokemonTower_7F_Proton_Texto_6.1:
 	.string "Después de todo, nadie puede\n"
@@ -138,7 +138,7 @@ PokemonTower_7F_Proton_Texto_6.1:
 	.string "que siquiera conoce.$"
 
 PokemonTower_7F_Proton_Texto_7:
-.string "PROTÓN: ¡CLEFAIRY!\n"
+.string "PROTÓN: ¡CLEFAIRY!\p"
 	.string "¡Teletransporte hacia la guarida!$"
 
 PokemonTower_7F_Proton_Texto_8:

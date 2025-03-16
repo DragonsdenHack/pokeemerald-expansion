@@ -73,8 +73,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_1:
 .string "¿Tienes algún problema conmigo?\n"
 	.string "Alguien como tú jamás podrá\l"
 	.string "permitirse estar en una MANSIÓN\l"
-	.string "como esta.\l"
-	.string "¡Largo de aquí antes de que pierda\l"
+	.string "como esta.\p"
+	.string "¡Largo de aquí antes de que pierda\n"
 	.string "la paciencia y aplaste a tus\l"
 	.string "miserables POKÉMON, ROCKET!$"
 
@@ -97,9 +97,9 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
 	.string "hacer contra mis POKÉMON hechos\l"
 	.string "para dar espectáculo, no eres\l"
 	.string "nadie siquiera dentro de esa\l"
-	.string "organización.\l"
-	.string "¿Qué vas a hacer?\l"
-	.string "¿Usar MORDISCO con tu ZUBAT de\l"
+	.string "organización.\p"
+	.string "¿Qué vas a hacer?\p"
+	.string "¿Usar MORDISCO con tu ZUBAT de\n"
 	.string "papel? Mi SANDSLASH de un CUCHILLADA\l"
 	.string "destuye a todos tus POKÉMON.$"
 
@@ -141,12 +141,12 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11:
 	.string "arruinarme el negocio?!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_12:
-.string "¡Está bien, tú ganas!\n"
-	.string "¡Dejaré de hablar de esa estúpida\l"
+.string "¡Está bien, tú ganas!\p"
+	.string "¡Dejaré de hablar de esa estúpida\n"
 	.string "CAÑA VIEJA que solo captura\l"
-	.string "MAGIKARPS!\l"
-	.string "¡Te lo prometo!\l"
-	.string "¡Pero no os metáis con mi negocio,\l"
+	.string "MAGIKARPS!\p"
+	.string "¡Te lo prometo!\p"
+	.string "¡Pero no os metáis con mi negocio,\n"
 	.string "eso nunca!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Move_1:

@@ -817,7 +817,7 @@ end
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
 .string "…\n"
 	.string "…\l"
-	.string "(¡Está dormido!)$"
+	.string "-¡Está dormido!-$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:
 .string "¿De dónde sales tú?\p"

@@ -96,8 +96,8 @@ release
 end
 
 FiveIsland_Text_Derecha:     
-    .string "(No puedo alejarme del ALMACÉN sin\n"
-	.string "saber qué quiere ATLAS de mi).$"
+    .string "-No puedo alejarme del ALMACÉN sin\n"
+	.string "saber qué quiere ATLAS de mí.-$"
 
 
 FiveIslandDerechaMove1:

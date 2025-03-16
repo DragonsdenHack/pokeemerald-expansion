@@ -179,20 +179,20 @@ PokemonTower_6F_Combate_Fuji_Texto_1:
 PokemonTower_6F_Combate_Fuji_Texto_2:
 .string "FUJI: Inconscientes, le habéis\n"
 	.string "privado a este CUBONE de su figura\l"
-	.string "materna, y todo por dinero.\l"
-	.string "El daño es ya irreparable, abandonad\l"
+	.string "materna, y todo por dinero.\p"
+	.string "El daño es ya irreparable, abandonad\n"
 	.string "este lugar antes de que sea tarde.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
-.string "RECLUTAS: ¡Vamos!\n"
-	.string "Ese MAROWAK se interpuso en nuestro\l"
+.string "RECLUTAS: ¡Vamos!\p"
+	.string "Ese MAROWAK se interpuso en nuestro\n"
 	.string "camino! ¡Nos forzó a acabar con su\l"
 	.string "vida, nada más!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
 .string "FUJI: Ya veo, el resultado es lo\n"
-	.string "único que cuenta, ¿no?\l"
-	.string "Entonces os diré lo que vamos a\l"
+	.string "único que cuenta, ¿no?\p"
+	.string "Entonces os diré lo que vamos a\n"
 	.string "hacer: mi HAUNTER lanzará su\l"
 	.string "PESADILLA sobre vosotros, al tiempo\l"
 	.string "que os quedáis sin todos los cráneos\l"
@@ -205,7 +205,7 @@ PokemonTower_6F_Combate_Fuji_Texto_5:
 	.string "hay necesidad de{PAUSE 15}…{PAUSE 5}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
-.string "RECLUTAS: ¡¡ALTO RANGO {PLAYER}!!\n"
+.string "RECLUTAS: ¡¡ALTO RANGO {PLAYER}!!\p"
 	.string "¡Qué oportuno!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_7:
@@ -238,8 +238,8 @@ PokemonTower_6F_Combate_Fuji_Texto_12:
 .string "PROTÓN: Buen trabajo, {PLAYER}. Todo\n"
 	.string "va según lo planeado, FUJI y yo\l"
 	.string "vamos al último piso, donde\l"
-	.string "podamos charlar tranquilamente.\l"
-	.string "Confío en ti para que ni la más\l"
+	.string "podamos charlar tranquilamente.\p"
+	.string "Confío en ti para que ni la más\n"
 	.string "mínima mota de polvo se cuele en\l"
 	.string "esa reunión.$"
 
@@ -553,11 +553,11 @@ PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
 	.string "la zona!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4:
-.string "AZUL: ¡{PLAYER}!\n"
-	.string "¡ROJO acaba de derrotarme!\l"
-	.string "¡Oh, pensaba que esta vez\l"
-	.string "podría, maldita sea!\l"
-	.string "¡Avisa a PROTÓN y salid de\l"
+.string "AZUL: ¡{PLAYER}!\p"
+	.string "¡ROJO acaba de derrotarme!\p"
+	.string "¡Oh, pensaba que esta vez\n"
+	.string "podría, maldita sea!\p"
+	.string "¡Avisa a PROTÓN y salid de\n"
 	.string "ahí cuanto antes!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Move_1:

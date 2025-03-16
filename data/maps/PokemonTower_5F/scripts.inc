@@ -15,10 +15,10 @@ end
 
 PokemonTower5F_Text_2:
 .string "Todas las almas pueden ser\n"
-.string "reconducidas.\l"
-.string "Descansa aquí ROCKET y tal vez eso\l"
-.string "te haga recapacitar sobre tus\l"
-.string "actos pecaminosos.$"
+.string "reconducidas.\p"
+.string "Descansa aquí, ROCKET, tal vez\n"
+.string "eso te haga recapacitar sobre\l"
+.string "tus actos pecaminosos.$"
 
 
 

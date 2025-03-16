@@ -27,7 +27,7 @@ end
 
 FuchsiaCity_House2_Text_2:
 .string "BILL guarda los datos de sus\n"
-.string "Pokémon en su PC.\l"
+.string "POKÉMON en su PC.\l"
 .string "¿Te los enseñó?$"
 
 

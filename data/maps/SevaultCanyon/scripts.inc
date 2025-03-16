@@ -321,8 +321,8 @@ SevaultCanyon_Combate_Andra_Texto_2:
 .string "GIOVANNI también me ha destinado a\n"
 	.string "este lugar, pero a diferencia tuya, yo\l"
 	.string "me he ofrecido a explorar las ruinas\l"
-	.string "que hay más al sur.\l"
-	.string "Me ha confiado la pequeña piedra del\l"
+	.string "que hay más al sur.\p"
+	.string "Me ha confiado la pequeña piedra del\n"
 	.string "frasco que robamos por, si sirve de algo.$"
 
 SevaultCanyon_Combate_Andra_Texto_3:
@@ -343,8 +343,8 @@ SevaultCanyon_Combate_Andra_Texto_4.1:
 	.string "entrar a ayudarte con ROJO, pero{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_5:
-.string "Justo en ese momento apareció LANCE.\n"
-	.string "Un LANCE distinto al que enfrenté horas\l"
+.string "Justo en ese momento apareció LANCE.\p"
+	.string "Un LANCE distinto al que enfrenté horas\n"
 	.string "antes; sin mediar palabra sacó a un\l"
 	.string "DRAGONITE que nunca antes había visto;\l"
 	.string "de un solo ENFADO fue tumbando, de un\l"
@@ -416,8 +416,8 @@ SevaultCanyon_Combate_Andra_Texto_11:
 SevaultCanyon_Combate_Andra_Texto_12:
 .string "En cualquier caso, ¡no he venido hasta\n"
 	.string "aquí para filosofar sobre el uso\l"
-	.string "o no uso de LEGENDARIOS!\l"
-	.string "¡Voy a descubrir qué diablos es\l"
+	.string "o no uso de LEGENDARIOS!\p"
+	.string "¡Voy a descubrir qué diablos es\n"
 	.string "esta piedra, y por el camino\l"
 	.string "seguiré mejorando mi equipo!$"
 
@@ -426,8 +426,8 @@ SevaultCanyon_Combate_Andra_Texto_13:
 	.string "como tú por estas islas.\l"
 	.string "Eso significa{PAUSE 15}…{PAUSE 15} que la mayor prueba\l"
 	.string "a la que me puedo enfrentar aquí,\l"
-	.string "en este momento, eres tú.\l"
-	.string "¡Muéstrame cómo bailan los POKÉMON\l"
+	.string "en este momento, eres tú.\p"
+	.string "¡Muéstrame cómo bailan los POKÉMON\n"
 	.string "del verdadero CAMPEÓN de KANTO!$"
 
 SevaultCanyon_Combate_Andra_Texto_14:
@@ -451,8 +451,8 @@ SevaultCanyon_Combate_Andra_Texto_15.2:
 
 SevaultCanyon_Combate_Andra_Texto_16:
 .string "Las ruinas del sur deben estar ya\n"
-	.string "cerca.\l"
-	.string "No me extraña que las levantaran\l"
+	.string "cerca.\p"
+	.string "No me extraña que las levantaran\n"
 	.string "aquí, el ambiente a pura naturaleza\l"
 	.string "que se respira es espectacular.$"
 

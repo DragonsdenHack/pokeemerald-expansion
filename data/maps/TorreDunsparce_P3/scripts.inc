@@ -194,7 +194,6 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_2:
 	.string "llevaron hasta aquí, atraídos por la\l"
 	.string "energía del POKÉMON equivocado.$"
 
-
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_3:
 .string "Según los de la pagoda del sur, fue\n"
 	.string "en este lugar donde la voluntad como\l"
@@ -258,7 +257,6 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 	.string "vosotros. En un lugar como este{PAUSE 25}…{PAUSE 25}\l"
 	.string "sois como ooparts para mí, ¿pero qué\l"
 	.string "más da? No nos volveremos a ver.$"
-
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
 .string "Mmm{PAUSE 25}…{PAUSE 25} pensándolo mejor, vuestro\n"

@@ -37,10 +37,10 @@ release
 end
 
 ViridianCity_Text5:
-.string "¿Cómo?\n"
-.string "¿Enseñarte a atrapar POKÉMON?\l"
+.string "¿Cómo?\p"
+.string "¿Enseñarte a atrapar POKÉMON?\n"
 .string "¡Para así aprender a robarlos más\l"
-.string "rápido, eh!\l"
+.string "rápido, eh!\p"
 .string "¡Jamás, ROCKET!$"
 
 
@@ -76,10 +76,10 @@ end
 ViridianCityDocumento_Text_100:
 .string "Consejos de entrenador:\n"
 	.string "La cantidad de veces que un\l"
-	.string "Pokémon puede ejecutar un\l"
+	.string "POKÉMON puede ejecutar un\l"
 	.string "movimiento está limitada por los\l"
 	.string "PPs, para restaurarlos acude al\l"
-	.string "Centro Pokémon.$"
+	.string "Centro POKÉMON.$"
 
 
 
@@ -129,7 +129,7 @@ end
 
 ViridianCity_7_Text_7YesNo:
     .string "¿Te gustaría conocer acerca de los\n"
-	.string "dos Pokémon insecto?$"
+	.string "dos POKÉMON insecto?$"
 
 
 ViridianCity_7No::
@@ -141,7 +141,7 @@ end
 ViridianCity_7_Text_7Yes:
     .string "CATERPIE no tiene veneno, pero\n"
 	.string "WEEDLE si.\l"
-	.string "Pon cuidado a que tus Pokémon no\l"
+	.string "Pon cuidado a que tus POKÉMON no\l"
 	.string "sean envenenados por su Picotazo\l"
 	.string "Venenoso.$"
 

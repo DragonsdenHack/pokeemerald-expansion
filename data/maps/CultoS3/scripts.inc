@@ -1085,8 +1085,8 @@ release
 end
 
 Culto_Bloqueo_Texto_1:
-.string "(Un aura horrible impide seguir\n"
-	.string "adelante)$"
+.string "-Un aura horrible impide seguir\n"
+	.string "adelante.-$"
 
 Culto_Bloqueo_Move_1:
 walk_in_place_down

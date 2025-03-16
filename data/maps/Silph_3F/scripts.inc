@@ -35,7 +35,7 @@ Silph3F_3_Texto_1:
 .string "¡Os arrepentiréis de esto!$"
 
 Silph3F_3_Texto_2:
-.string "¡Tuvisteis vuestro merecido\n"
+.string "¡Tuvisteis vuestro merecido,\n"
 	.string "ROCKET!$"
 
 Silph3F_4::

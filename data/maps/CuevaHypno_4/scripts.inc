@@ -80,7 +80,6 @@ CuevaHypno_4_Lider_Texto_3:
 	.string "cuando PUEBLO LAVANDA contaba con\l"
 	.string "uno.$"
 
-
 CuevaHypno_4_Lider_Texto_4:
 	.string "AGATHA y yo fuimos los mejores\n"
 	.string "alumnos de la única CAMPEONA de la\l"
@@ -118,7 +117,6 @@ CuevaHypno_4_Lider_Texto_8:
 	.string "entrenar es algo que haría aunque\l"
 	.string "estuviera solo en una isla desierta,\l"
 	.string "hasta el fin de mis días.$"
-
 
 CuevaHypno_4_Lider_Texto_9:
 .string "Este no es lugar para combatir, si lo\n"

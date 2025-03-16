@@ -191,7 +191,7 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_6:
 	.string "ROCKET, no tienes porqué ayudar a\l"
 	.string "esos MOTORISTAS, y tus intereses\l"
 	.string "no tienen porqué confrontarse con\l"
-	.string "los míos.\l"
+	.string "los míos.\p"
 	.string "¿Qué opinas?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_7:
@@ -201,8 +201,8 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_7:
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_8:
 .string "Una pena que esto tenga que\n"
-	.string "terminar así.\l"
-	.string "En fin, mis POKÉMON y yo nos\l"
+	.string "terminar así.\p"
+	.string "En fin, mis POKÉMON y yo nos\n"
 	.string "encargaremos de darte una lección.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_9:
@@ -215,19 +215,19 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_10:
 	.string "guarda más sorpresas de las que{PAUSE 5}…{PAUSE 5}$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_11:
-.string "¿¡Qué!?\n"
-	.string "¿Trabajas para GIOVANNI de forma\l"
+.string "¿¡Qué!?\p"
+	.string "¿Trabajas para GIOVANNI de forma\n"
 	.string "directa, y ostentas uno de los\l"
 	.string "cargos más importantes dentro del\l"
-	.string "TEAM ROCKET?\l"
-	.string "Si no detengo mis intenciones\l"
+	.string "TEAM ROCKET?\p"
+	.string "Si no detengo mis intenciones\n"
 	.string "de quitar esos túneles informarás\l"
 	.string "a GIOVANNI de esto?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_12:
-.string "Bien, bien.\n"
-	.string "Calma, chico.\l"
-	.string "Me parece que ha habido un malentendido,\l"
+.string "Bien, bien.\p"
+	.string "Calma, chico.\p"
+	.string "Me parece que ha habido un malentendido,\n"
 	.string "el proceso de construcción de las vías\l"
 	.string "de tren llevará aún un par de años más,\l"
 	.string "esos túneles no me importan por ahora.\l"

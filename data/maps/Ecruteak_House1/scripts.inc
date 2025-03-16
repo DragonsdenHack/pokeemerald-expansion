@@ -54,8 +54,6 @@ EcruteakHouse2Documento_Text_100Yes:
 	.string "no se ha visto a ninguno de los\l"
 	.string "dos POKÉMON.$"
 
-
-
 EcruteakHouse2Documento_Text_100Yes2:
     .string "En CIUDAD IRIS también vivían\n"
 	.string "tres POKÉMON que corrían por toda\l"

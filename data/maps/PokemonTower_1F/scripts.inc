@@ -311,7 +311,7 @@ end
 
 PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
 	.string "Este pilar está hueco. Debajo hay unas\n"
-	.string "escaleras que llevan a pisos inferiores.\l"
+	.string "escaleras que llevan a pisos inferiores.\p"
 	.string "¿Quieres pasar?$"
 
 PokemonTowerS3_Activador_Entrada_Pasa::
@@ -336,6 +336,6 @@ step_end
 
 PokemonTowerS3_Activador_Entrada_Pasa_Text_YesNo:
 	.string "Esta tumba esconde algo. Debajo hay unas\n"
-	.string "antiguas escaleras que llevan más abajo.\l"
+	.string "antiguas escaleras que llevan más abajo.\p"
 	.string "¿Quieres pasar?$"
 

@@ -9,17 +9,17 @@ release
 end
 
 RuinsOfAlph_Text_1:
-.string "¡Chst!\n"
-.string "¿Sabías que si sintonizas la radio\l"
+.string "¡Chst!\p"
+.string "¿Sabías que si sintonizas la radio\n"
 .string "a una frecuencia determinada\l"
 .string "dentro de las ruinas se\l"
-.string "escucharán sonidos extrañísimos?\l"
-.string "¡Lo sabía!\l"
-.string "¡Es todo una conspiración entre\l"
-.string "los UNOWN y la TORRE RADIO!\l"
-.string "…\l"
-.string "…\l"
-.string "¿Cómo?\l"
+.string "escucharán sonidos extrañísimos?\p"
+.string "¡Lo sabía!\p"
+.string "¡Es todo una conspiración entre\n"
+.string "los UNOWN y la TORRE RADIO!\p"
+.string "…\p"
+.string "…\p"
+.string "¿Cómo?\p"
 .string "¿Eso no tiene ningún sentido?$"
 
 
@@ -34,9 +34,9 @@ end
 RuinsOfAlph_Text_2:
 .string "-Nosotros, humanos, debemos caminar\n"
 .string "junto a ellos. Por ello, nosotros\l"
-.string "partimos.-\l"
-.string "La frase está grabada en\l"
-.string "una de las cámaras.\l"
+.string "partimos.-\p"
+.string "La frase está grabada en\n"
+.string "una de las cámaras.\p"
 .string "¿Qué querrá decir?$"
 
 
@@ -73,9 +73,9 @@ release
 end
 
 RuinsOfAlph_Terremoto_Texto_1:
-.string "(Algo que llevaba mucho\n"
+.string "-Algo que llevaba mucho\n"
 	.string "tiempo cerrado se ha abierto al\l"
-	.string "sur de RUINAS ALFA)$"
+	.string "sur de RUINAS ALFA.-$"
 
 RuinsOfAlph_Terremoto_Move_1:
 emote_exclamation_mark

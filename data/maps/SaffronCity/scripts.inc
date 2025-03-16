@@ -226,7 +226,7 @@ SaffronCityDocumento_Text_101:
 	.string "Consejos de entrenador:\n"
 	.string "La nueva Super Ball ofrece un\l"
 	.string "doble de posibilidades de atrapar\l"
-	.string "a un Pokémon que la convencional\l"
+	.string "a un POKÉMON que la convencional\l"
 	.string "Poké Ball.$"
 
 
@@ -302,12 +302,12 @@ SaffronCityDocumento_Text_108:
 	.string "REQUERIMIENTOS PARA SOBREVIVIR\l"
 	.string "EN LA CIUDAD:\l"
 	.string "-Mínimo de horas de trabajo\l"
-	.string "diarias requeridas: 10 horas 5\l"
+	.string "diarias requeridas: 10 horas, 5\l"
 	.string "días por semana.\l"
 	.string "-Inversión de 1500 dólares al mes\l"
 	.string "por habitante en I+D\l"
 	.string "- Ser un entrenador muy superior a\l"
-	.string "la media (en el 20% bueno)\l"
+	.string "la media (en el percentil 10%)\l"
 	.string "- Actitud permanente de mejora,\l"
 	.string "autorealización, optimización del\l"
 	.string "rendimiento y fidelidad hacia\l"

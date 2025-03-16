@@ -9,8 +9,8 @@ release
 end
 
 VermilionCity_House2_Text_1:
-.string "¡Mi pobre FARFETCH'D!\n"
-.string "¡Jamás lo dejaría en manos de un\l"
-.string "ROCKET!\l"
-.string "¡Aunque me ofrecieses un poderoso\l"
+.string "¡Mi pobre FARFETCH'D!\p"
+.string "¡Jamás lo dejaría en manos de un\n"
+.string "ROCKET!\p"
+.string "¡Aunque me ofrecieses un poderoso\n"
 .string "y majestuoso PIDGEOT!$"

@@ -128,47 +128,40 @@ end
 
 CeladonCity_Shop5F_Text_Oak_1:
 .string "SUPERNECIO: ¡¿9800¥?! ¡Esto es un\n"
-	.string "atraco! ¡Hace 1 mes costaban 7000¥! ¡Y\l"
-	.string "hace un año 3000¥!$"
-
+	.string "atraco! ¡Hace 1 mes costaban 7000¥!\p"
+	.string "¡Y hace un año 3000¥!$"
 
 CeladonCity_Shop5F_Text_Oak_2:
 	.string "VENDEDOR: Yo no soy quien fija los\n"
 	.string "precios, desde arriba se ha\l"
-	.string "determinado que manipular los EVs de\l"
-	.string "un POKÉMON debe ser costoso.$"
-
+	.string "determinado que manipular los EVs\l"
+	.string "de un POKÉMON debe ser costoso.$"
 
 CeladonCity_Shop5F_Text_Oak_3:
 	.string "SUPERNECIO: ¿Costoso? Nadie comprará\n"
-	.string "PROTEINA ni CALCIO a este precio. La\l"
-	.string "gente se limitará a usar las que\l"
-	.string "encuentren extraviadas.$"
-
+	.string "PROTEINA ni CALCIO a este precio.\l"
+	.string "La gente se limitará a usar las\l"
+	.string "que encuentren extraviadas.$"
 
 CeladonCity_Shop5F_Text_Oak_4:
 	.string "VENDEDOR: Son los precios impuestos\n"
 	.string "por el COMITÉ de la LIGA POKÉMON, nos\l"
 	.string "limitamos a cumplir órdenes.$"
 
-
 CeladonCity_Shop5F_Text_Oak_5:
 	.string "SUPERNECIO: ¿Y ahora cómo voy a subir\n"
 	.string "el ATAQUE ESPECIAL de mi MAGNEMITE?\l"
 	.string "¡No tiene ningún sentido!$"
-
 
 CeladonCity_Shop5F_Text_Oak_6:
 	.string "????: Al contrario, tiene todo el\n"
 	.string "sentido que se le pueda dar dentro de\l"
 	.string "esta región.$"
 
-
 CeladonCity_Shop5F_Text_Oak_7:
 	.string "CHICA: Qué estúpido. Podría subir a\n"
 	.string "TORRE POKÉMON y entrenar ahí a su\l"
 	.string "MAGNEMITE.$"
-
 
 CeladonCity_Shop5F_Text_Oak_8:
 	.string "????: No todos han recibido tu\n"
@@ -180,13 +173,11 @@ CeladonCity_Shop5F_Text_Oak_8:
 	.string "diferentes de POKÉMON. Si supieran lo\l"
 	.string "amplio que es este mundo{PAUSE 5}…{PAUSE 5}$"
 
-
 CeladonCity_Shop5F_Text_Oak_9:
 	.string "DALIA: No es de extrañar que nadie se\n"
 	.string "haya acercado a la LIGA POKÉMON en los\l"
 	.string "últimos años. ¿Crees que ellos dos\l"
 	.string "tienen alguna opción?$"
-
 
 CeladonCity_Shop5F_Text_Oak_10:
 	.string "????: Acaban de empezar su viaje. Aún\n"
@@ -194,15 +185,12 @@ CeladonCity_Shop5F_Text_Oak_10:
 	.string "el potencial que atesoran es\l"
 	.string "esperanzador, especialmente{PAUSE 5}…{PAUSE 5}$"
 
-
 CeladonCity_Shop5F_Text_Oak_11:
 	.string "¿Diga? {PAUSE 15}… {PAUSE 35}SR.LANCE.{PAUSE 35} Sí.{PAUSE 35} Inmediatamente.{PAUSE 35}$"
-
 
 CeladonCity_Shop5F_Text_Oak_12:
 	.string "Me reclaman en el CG de la LIGA POKÉMON.\n"
 	.string "Se acabaron las compras, DALIA.$"
-
 
 CeladonCity_Shop5F_Text_Oak_13:
 	.string "DALIA: No hay problema, ya tenemos 50\n"

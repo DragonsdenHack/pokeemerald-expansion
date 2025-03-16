@@ -104,8 +104,8 @@ release
 end
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
-.string "Aléjate de mí, ROCKET inmundo.\n"
-	.string "Soy ayudante directo del PROF.OAK\l"
+.string "Aléjate de mí, ROCKET inmundo.\p"
+	.string "Soy ayudante directo del PROF.OAK\n"
 	.string "y parte de la élite de esta región,\l"
 	.string "alguien de tu nivel no puede cruzar\l"
 	.string "una sola mirada conmigo.$"
@@ -136,15 +136,15 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
 	.string "AYUDANTE DE OAK-$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
-.string "¡NO!\n"
-	.string "¡Un ROCKET no puede\l"
-	.string "ser tan fuerte!\l"
-	.string "¡Cuando avise a las autoridades me\l"
+.string "¡NO!\p"
+	.string "¡Un ROCKET no puede\n"
+	.string "ser tan fuerte!\p"
+	.string "¡Cuando avise a las autoridades me\n"
 	.string "devolverás lo que me has robado\l"
 	.string "multiplicado por 10!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_9:
-.string "Eso es, así me gusta.\n"
+.string "Eso es, así me gusta.\p"
 	.string "La basura al basurero.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Move_1:

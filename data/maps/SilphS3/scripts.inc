@@ -567,7 +567,7 @@ SilphS3_Bill_Batalla_Texto_6:
 
 SilphS3_Bill_Batalla_Texto_6.1:
 	.string "Tengo todo cuanto quiero de esta región.\n"
-	.string "Lon ejemplares de las AVES, todos los\l"
+	.string "Los ejemplares de las AVES, todos los\l"
 	.string "FÓSILES en mis vitrinas, toda la línea\l"
 	.string "evolutiva de DRATINI a mi disposición{PAUSE 15}…{PAUSE 15}$"
 

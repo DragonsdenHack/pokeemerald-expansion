@@ -197,7 +197,7 @@ FourIsland_Encuentro_Zeus_Texto_8:
 FourIsland_Encuentro_Zeus_Texto_9:
 .string "Si ves algo fuera de lo normal, avísame\n"
 	.string "de inmediato, estaré investigando en la\l"
-	.string "CUEVA CAMBIANTE.\l"
+	.string "CUEVA CAMBIANTE.\p"
 	.string "Hasta la vista, -ENTRENADOR-.$"
 
 FourIsland_Encuentro_Zeus_Move_1:

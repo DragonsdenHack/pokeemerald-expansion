@@ -84,9 +84,9 @@ step_end
 
 Magma1_Combate_Admin_Texto_1:
 .string "Así que has conseguido derrotar a\n"
-	.string "nuestra ALTO RANGO…\l"
-	.string "¿ADMINISTRADOR del TEAM ROCKET?\l"
-	.string "Entonces no os habéis disuelto tal y\l"
+	.string "nuestra ALTO RANGO…\p"
+	.string "¿ADMINISTRADOR del TEAM ROCKET?\p"
+	.string "Entonces no os habéis disuelto tal y\n"
 	.string "como dicen. Pero no importa, alguien\l"
 	.string "como tú no pinta nada aquí.$"
 
@@ -114,10 +114,10 @@ Magma1_Combate_Admin_Texto_4.1:
 	.string "todo para siempre!$"
 
 Magma1_Combate_Admin_Texto_5:
-.string "Veo que te niegas a entrar en razón.\n"
-	.string "En ese caso{PAUSE 15}…{PAUSE 15}\l"
-	.string "¡Préparate para conocer el poder\l"
-	.string "de los POKÉMON terrestres\l"
+.string "Veo que te niegas a entrar en razón.\p"
+	.string "En ese caso{PAUSE 15}…{PAUSE 15}\p"
+	.string "¡Préparate para conocer el poder\n"
+	.string "de los POKÉMON terrestres\p"
 	.string "ADMINISTRADOR ROCKET!$"
 
 Magma1_Combate_Admin_Texto_6:
@@ -129,10 +129,10 @@ Magma1_Combate_Admin_Texto_7:
 	.string "Será MAGNO quién acabe contigo.$"
 
 Magma1_Combate_Admin_Texto_8:
-.string "¿Oyes eso?\n"
-	.string "¡GROUDON está al caer!\l"
-	.string "No tiene sentido seguir aquí.\l"
-	.string "¡Debo volver a nuestra nave y preparar\l"
+.string "¿Oyes eso?\p"
+	.string "¡GROUDON está al caer!\p"
+	.string "No tiene sentido seguir aquí.\p"
+	.string "¡Debo volver a nuestra nave y preparar\n"
 	.string "todo para nuestro regreso a HOENN!$"
 
 Magma1_Combate_Admin_Texto_8.1:

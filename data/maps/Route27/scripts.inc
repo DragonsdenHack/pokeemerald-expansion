@@ -274,7 +274,7 @@ release
 end
 
 Route27_Cartel_Texto_2:
-.string "(Esto último está tachado)$"
+.string "-Esto último está tachado.-$"
 
 Route27_Cartel_Texto_1:
 .string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"

@@ -49,7 +49,7 @@ end
 
 SaffronCity_PokemonCenter_Text_3:
 .string "AZAFRÁN es el centro financiero de\n"
-.string "KANTO, por mucho que insistáis\l"
+.string "KANTO, por mucho que insistáis,\l"
 .string "jamás caeremos.$"
 
 

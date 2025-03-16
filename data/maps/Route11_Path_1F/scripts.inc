@@ -9,9 +9,9 @@ release
 end
 
 Route11Path1F_Text_1:
-.string "Ándate con ojo ROCKET, vas a tener\n"
-.string "dos ojos en tu nuca mientras estés\l"
-.string "en esta caseta.$"
+.string "Ándate con ojo, ROCKET.\p"
+.string "Vas a tener dos ojos en tu\n"
+.string "nuca mientras estés aquí.$"
 
 
 
@@ -23,6 +23,6 @@ release
 end
 
 Route11Path1F_Text_2:
-.string "Ándate con ojo ROCKET, vas a tener\n"
-.string "dos ojos en tu nuca mientras estés\l"
-.string "en esta caseta.$"
+.string "Ándate con ojo, ROCKET.\p"
+.string "Vas a tener dos ojos en tu\n"
+.string "nuca mientras estés aquí.$"

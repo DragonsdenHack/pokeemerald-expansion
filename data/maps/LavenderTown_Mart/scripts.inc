@@ -20,8 +20,6 @@ LavenderTown_Mart_Text_2:
 .string "Cuando esto ocurra, para luchar\n"
 .string "tú también necesitarás dos POKéMON.$"
 
-
-
 LavenderTownMart_3::
 lock     
 faceplayer     
@@ -33,8 +31,6 @@ LavenderTown_Mart_Text_3:
 .string "¿Conoces REVIVIR?\n"
 .string "Devuelve la energía a los POKéMON\l"
 .string "debilitados.$"
-
-
 
 LavenderTownMart_4::
 lock     

@@ -169,8 +169,8 @@ MtSilver_Combate_Andra_Texto_13:
 	.string "intrigada, desde ese terremoto en\l"
 	.string "ISLA SÉTIMA, todo son incógnitas.\p"
 	.string "No hemos vuelto a ver a LUGIA o a\n"
-	.string "a HO-OH.\l"
-	.string "Mucho menos a ese POKÉMON ESENCIA{PAUSE 5}…{PAUSE 5}$"
+	.string "HO-OH.\p"
+	.string "Mucho menos a ese 'POKÉMON ESENCIA'{PAUSE 5}…{PAUSE 5}$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark

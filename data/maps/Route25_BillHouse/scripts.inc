@@ -365,10 +365,10 @@ Route25_BillHouse_Warp_text_1:
 
 Route25_BillHouse_Warp_Text_YesNo:
     .string "…\n"
-	.string "…\l"
-	.string "Este póster está cubriendo un\l"
+	.string "…\p"
+	.string "Este póster está cubriendo un\n"
 	.string "pequeño túnel que lleva a algún\l"
-	.string "otro lugar.\l"
+	.string "otro lugar.\p"
 	.string "¿Quieres arrastrarte por el túnel?$"
 
 Route25_BillHouse_Warp_move1:

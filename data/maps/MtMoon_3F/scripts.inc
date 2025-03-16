@@ -33,7 +33,7 @@ release
 end
 
 MtMoon3F_Text_5:
-.string "¡Nada por aquí camarada!$"
+.string "¡Nada por aquí, camarada!$"
 
 
 
@@ -854,12 +854,12 @@ MtMoon_3F_Pelea_Frank_texto2:
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 MtMoon_3F_Pelea_Frank_texto3:
-.string "¡¡TUVISTE 2 FÓSILES EN TU MANO!!\n"
-	.string "¡¡Y te has dejado engañar por un\l"
+.string "¡¿TUVISTE 2 FÓSILES EN TU MANO?!\p"
+	.string "¡¿Y te has dejado engañar por un\n"
 	.string "estúpido aprendiz de científico,\l"
 	.string "solo para después perder contra el\l"
-	.string "entrenador misterioso!!\l"
-	.string "¡Tu ineptitud es desesperante, voy\l"
+	.string "entrenador misterioso?!\p"
+	.string "¡Tu ineptitud es desesperante, voy\n"
 	.string "a recomendar a PETREL tu despido\l"
 	.string "inmediato, alguien tan\l"
 	.string "incompetente no merece formar\l"
@@ -876,8 +876,8 @@ MtMoon_3F_Pelea_Frank_texto4:
 	.string "perdido en un abrir y cerrar de\l"
 	.string "ojos, no sería justo condenar a\l"
 	.string "uno cuando todos han caído de\l"
-	.string "igual forma, ¿no cree?\l"
-	.string "Además, finalmente tenemos 2\l"
+	.string "igual forma, ¿no cree?\p"
+	.string "Además, finalmente tenemos 2\n"
 	.string "FÓSILES, no ha sido tan malo si\l"
 	.string "miramos en perspectiva.$"
 
@@ -896,14 +896,14 @@ MtMoon_3F_Pelea_Frank_texto6:
 	.string "mensaje. Pero te quedaste como un\l"
 	.string "estúpido a pelear de tú a tú\l"
 	.string "contra un ENTRENADOR del que ya\l"
-	.string "conocías su nivel.\l"
-	.string "No solo eso, descuidaste a ese\l"
+	.string "conocías su nivel.\p"
+	.string "No solo eso, descuidaste a ese\n"
 	.string "necio y acabó jugándotela también.\l"
 	.string "El muy canalla debió de largarse\l"
 	.string "con uno de esos dos FÓSILES, seguro.\l"
 	.string "Has quedado como el más tonto\l"
-	.string "de la clase {PLAYER}.\l"
-	.string "Tu negligencia va a costarle más\l"
+	.string "de la clase {PLAYER}.\p"
+	.string "Tu negligencia va a costarle más\n"
 	.string "de 600.000¥ al TEAM ROCKET.\l"
 	.string "¿Tienes idea de cuántos\l"
 	.string "meses de tu sueldo es eso?$"

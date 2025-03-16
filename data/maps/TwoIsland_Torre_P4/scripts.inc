@@ -20,7 +20,7 @@ release
 end
 
 TwoIsland_Torre_P4_Dormido_Texto_2:
-.string "(¡Está echando la siesta!)$"
+.string "-¡Está echando la siesta!-$"
 
 TwoIsland_Torre_P4_Dormido_Texto_1:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"

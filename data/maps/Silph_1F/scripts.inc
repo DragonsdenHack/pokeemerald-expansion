@@ -33,7 +33,7 @@ release
 end
 
 Silph1F_Text_2:
-.string "PETREL: Confío en vosotros\n"
+.string "PETREL: Confío en vosotros,\n"
 .string "{PLAYER}, yo me quedaré aquí\l"
 .string "asegurándome de que no entre nada\l"
 .string "que pueda comprometer la misión,\l"
@@ -433,7 +433,7 @@ step_end
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
 .string "¡Jamás olvidaré lo que habéis\n"
-	.string "hecho aquí ROCKET!$"
+	.string "hecho aquí, ROCKET!$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
 .string "…\n"

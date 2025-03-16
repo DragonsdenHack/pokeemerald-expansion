@@ -158,7 +158,7 @@ unlock_facing_direction
 step_end
 
 CuevaTesoro4_Jefe_Final_Texto_1:
-.string "(???? derrotó al POKÉMON MISTERIOSO).$"
+.string "-???? derrotó al POKÉMON MISTERIOSO.-$"
 
 CuevaTesoro4_Jefe_Final_Texto_2:
 .string "Debes ser un ENTRENADOR muy\n"
@@ -251,7 +251,7 @@ CuevaTesoro4_Jefe_Final_Texto_16:
 	.string "cúspide.$"
 
 CuevaTesoro4_Jefe_Final_Texto_17:
-.string "(???? OBTUVO UNA MUESTRA DE NIHILEGO).$"
+.string "-???? OBTUVO UNA MUESTRA DE NIHILEGO.-$"
 
 CuevaTesoro4_Jefe_Final_Texto_18:
 .string "Con esto nos basta y nos sobra,\n"

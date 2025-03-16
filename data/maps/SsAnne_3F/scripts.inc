@@ -15,8 +15,8 @@ end
 
 SsAnne3F_Text_2:
 .string "¡Vamos, relájate, estás aquí para\n"
-.string "pasarlo bien!\l"
-.string "¡Ni que estuvieras de infiltrado\l"
+.string "pasarlo bien!\p"
+.string "¡Ni que estuvieras de infiltrado\n"
 .string "en una misión de alto secreto!$"
 
 
@@ -28,8 +28,8 @@ release
 end
 
 SsAnne3F_Text_3:
-.string "¡Así!\n"
-	.string "¡Enséñale a ese joven imberbe de\l"
+.string "¡Así!\p"
+	.string "¡Enséñale a ese joven imberbe de\n"
 	.string "KANTO cómo nos las gastamos aquí!$"
 
 
@@ -41,8 +41,8 @@ release
 end
 
 SsAnne3F_Text_4:
-.string "¡Vamos, POLIWHIRL!\n"
-	.string "¡Mantén alto el nombre de\l"
+.string "¡Vamos, POLIWHIRL!\p"
+	.string "¡Mantén alto el nombre de\n"
 	.string "nuestra flota!$"
 
 
@@ -71,8 +71,8 @@ release
 end
 
 SsAnne3F_Text_7:
-.string "¡Aficionados!\n"
-	.string "¡Si saco a mi PINSIR este combate\l"
+.string "¡Aficionados!\p"
+	.string "¡Si saco a mi PINSIR, este combate\n"
 	.string "se acaba ahora mismo!$"
 
 SsAnne3F_Andra::
@@ -89,9 +89,9 @@ release
 end
 
 SsAnne3F_Andra_Text_1:
-.string "ANDRA: Al parecer este es el\n"
-	.string "camarote del CAPITÁN.\l"
-	.string "PETREL me ha pedido que esperemos\l"
+.string "ANDRA: Al parecer, este es el\n"
+	.string "camarote del CAPITÁN.\p"
+	.string "PETREL me ha pedido que esperemos\n"
 	.string "un poco antes de darnos unas\l"
 	.string "últimas indicaciones, aprovecha si\l"
 	.string "quieres mientras para darte una\l"
@@ -127,9 +127,9 @@ release
 end
 
 SsAnne3F_Andra_lista_Text_1:
-.string "¡{PLAYER}!\n"
-	.string "¡Ya está todo listo para entrar!\l"
-	.string "¡Vamos a enseñarle a ese CAPITÁN\l"
+.string "¡{PLAYER}!\p"
+	.string "¡Ya está todo listo para entrar!\p"
+	.string "¡Vamos a enseñarle a ese CAPITÁN\n"
 	.string "cómo se las gastan los ROCKET\l"
 	.string "aquí en KANTO!$"
 

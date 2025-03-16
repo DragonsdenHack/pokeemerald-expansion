@@ -128,8 +128,8 @@ end
 
 Route3_Frontera_Text_1:
 .string "No te recomiendo pasar por aquí si\n"
-	.string "quieres ser libre, ROCKET.\l"
-	.string "¡La policía está llevando no\l"
+	.string "quieres ser libre, ROCKET.\p"
+	.string "¡La policía está llevando no\n"
 	.string "se qué investigación por toda\l"
 	.string "CIUDAD PLATEADA!$"
 

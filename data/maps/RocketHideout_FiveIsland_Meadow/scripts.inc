@@ -209,26 +209,26 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_100, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_100:
-.string "CÓDIGO MORAL Y DE CONDUCTA ROCKET:\n"
-	.string "1.-Mi presencia en la organización\l"
+.string "CÓDIGO MORAL Y DE CONDUCTA ROCKET:\p"
+	.string "1.-Mi presencia en la organización\n"
 	.string "es un privilegio, no un derecho, y\l"
-	.string "debo ganármela en la acción.\l"
-	.string "2.-La lealtad y el compromiso\l"
+	.string "debo ganármela en la acción.\p"
+	.string "2.-La lealtad y el compromiso\n"
 	.string "total de la organización son\l"
-	.string "innegociables.\l"
-	.string "3.-Las insubordinaciones y\l"
-	.string "traiciones se pagan con la muerte.\l"
-	.string "4.-Actuamos como un solo cuerpo,\l"
+	.string "innegociables.\p"
+	.string "3.-Las insubordinaciones y\n"
+	.string "traiciones se pagan con la muerte.\p"
+	.string "4.-Actuamos como un solo cuerpo,\n"
 	.string "unidad por encima de\l"
-	.string "individualidad, lo que…\l"
-	.string "5.-No quita que todo Rocket deba\l"
+	.string "individualidad, lo que…\p"
+	.string "5.-No quita que todo Rocket deba\n"
 	.string "de tener iniciativa propia,\l"
 	.string "actitud de búsqueda y mejora\l"
 	.string "constantes por convertirse en un\l"
-	.string "mejor entrenador.\l"
-	.string "6.-Llega, analiza, adáptate y\l"
-	.string "gana.\l"
-	.string "7.-Cada miembro de la organización\l"
+	.string "mejor entrenador.\p"
+	.string "6.-Llega, analiza, adáptate y\n"
+	.string "gana.\p"
+	.string "7.-Cada miembro de la organización\n"
 	.string "cuenta, desde el Recluta más\l"
 	.string "básico hasta los más altos cargos,\l"
 	.string "funcionamos como un enorme\l"
@@ -244,9 +244,9 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
     .string "…\n"
 	.string "…\l"
-	.string "Contiene un NIDORINO en su\l"
+	.string "-Contiene un NIDORINO en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado…$"
+	.string "demasiado…-$"
 
 
 
@@ -257,9 +257,9 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
     .string "…\n"
 	.string "…\l"
-	.string "Contiene un RHYHORN en su\l"
+	.string "-Contiene un RHYHORN en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado…$"
+	.string "demasiado…-$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -466,8 +466,8 @@ RocketHideoutFiveIslandMeadow_Text_Atlas2:
     .string "Para quién aún no se haya\n"
 	.string "enterado, ahora formáis parte del\l"
 	.string "TEAM ROCKET, con todo lo que ello\l"
-	.string "conlleva.\l"
-	.string "Soy ATLAS, mano derecha de GIOVANNI,\l"
+	.string "conlleva.\p"
+	.string "Soy ATLAS, mano derecha de GIOVANNI,\n"
 	.string "ADMIN.JEFE principal y LÍDER\l"
 	.string "aquí en ISLAS SETE{PAUSE 5}…{PAUSE 5}$"
 
@@ -479,16 +479,14 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
 	.string "KANTO, no esperéis un trato\l"
 	.string "amigable por parte de sus\l"
 	.string "ciudadanos; seréis vistos como la\l"
-	.string "mayor escoria de la región.\l"
-	.string "Entretanto, pasemos a la entrega\l"
+	.string "mayor escoria de la región.\p"
+	.string "Entretanto, pasemos a la entrega\n"
 	.string "de vuestros POKÉMON, pertenecéis\l"
 	.string "al 4to pelotón, por lo que cada\l"
 	.string "uno de vosotros recibirá un ZUBAT,\l"
 	.string "importado directamente desde el\l"
-	.string "MT.MOON.\l"
+	.string "MT.MOON.\p"
 	.string "¿Alguna pregunta?$"
-
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
     .string "Recluta nº10: S{PAUSE 25}…{PAUSE 25}\n"
@@ -499,16 +497,13 @@ RocketHideoutFiveIslandMeadow_Text_Atlas4:
 	.string "desempeñemos nuestra función de la\l"
 	.string "mejor manera posible, si no nos da\l"
 	.string "las herramientas adecuadas para\l"
-	.string "ello?\l"
-	.string "No es por criticar, pero un ZUBAT\l"
+	.string "ello?\p"
+	.string "No es por criticar, pero un ZUBAT\n"
 	.string "no es una buena herramienta\l"
 	.string "precisamente, tal vez un NIDOR{PAUSE 5}…{PAUSE 5}$"
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas5:
     .string "ATLAS: Suficiente.$"
-
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6:
     .string "ATLAS: Esto es lo que haremos: ya\n"
@@ -526,15 +521,12 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6.1:
 	.string "¡¡GUARDIAS!!\l"
 	.string "¡Lleváoslo fuera de la BASE!$"
 
-
-
 RocketHideoutFiveIslandMeadow_Text_Atlas7:
     .string "ATLAS: {PAUSE 25}…{PAUSE 25}\n"
 	.string "Lo último que necesita esta\l"
 	.string "organización es gente acomodada\l"
 	.string "que reclama privilegios antes de\l"
 	.string "haber demostrado nada.$"
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas8:
     .string "Un ZUBAT, aunque muchos lo\n"
@@ -559,7 +551,6 @@ RocketHideoutFiveIslandMeadow_Text_Atlas8.3:
 	.string "solo por tener que pasar por el\l"
 	.string "proceso de entrenar a un ZUBAT?$"
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas9:
     .string "Aquí os proporcionamos la\n"
 	.string "herramienta inicial a partir de la\l"
@@ -574,15 +565,11 @@ RocketHideoutFiveIslandMeadow_Text_Atlas9:
 RocketHideoutFiveIslandMeadow_Text_Atlas9.1:
     .string "ATLAS: ¡¡RECLUTA NÚMERO 1!!$"
 
-
 RocketHideoutFiveIslandMeadow_Text_Atlas10:
     .string "ATLAS: ¡¡RECLUTA NÚMERO 2!!$"
 
-
-
 RocketHideoutFiveIslandMeadow_Text_Atlas11:
     .string "ATLAS: ¡¡RECLUTA NÚMERO 3!!$"
-
 
 RocketHideoutFiveIslandMeadow_Text_Atlas12:
     .string "ATLAS: ¡¡RECLUTA NÚMERO 4!!$"
@@ -1157,7 +1144,7 @@ RocketHideoutFiveIslanMeadowCajaZubat::
 
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
     .string "Esta fue la caja de la que\n"
-	.string "provino mi primer POKÉMON.$"
+	.string "provino ZUBAT.$"
 
 
 MovePostZubat1:

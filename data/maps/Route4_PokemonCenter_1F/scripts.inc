@@ -29,8 +29,8 @@ end
 Route4_PokemonCenter_Text_2:
 .string "-El TEAM ROCKET atraca a mano\n"
 .string "armada a los ciudadanos de CIUDAD\l"
-.string "CELESTE-\l"
-.string "Debería de darte vergüenza salir\l"
+.string "CELESTE-\p"
+.string "Debería de darte vergüenza salir\n"
 .string "en las noticias por motivos así,\l"
 .string "habéis puesto patas arriba una\l"
 .string "vivienda y robado todas sus MT\l"

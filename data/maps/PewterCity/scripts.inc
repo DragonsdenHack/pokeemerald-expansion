@@ -147,11 +147,9 @@ PewterCity_3_Text_3Yes:
     .string "¡Así es!\n"
 	.string "¡Es un duro trabajo!$"
 
-
-
 PewterCity_3_Text_3No:
 	.string "¡Estoy rociando Repelente para\n"
-	.string "mantener a los Pokémon salvajes\l"
+	.string "mantener a los POKÉMON salvajes\l"
 	.string "alejados de mi jardín!$"
 
 PewterCity_3_Cazabichos_Move_1:
@@ -551,5 +549,5 @@ step_end
 
 
 PewterCity_Ayuda_Texto_1:
-.string "(Debería asistir a la reunión de PETREL,\n"
-	.string "en la otra caseta)$"
+.string "-Debería asistir a la reunión de PETREL,\n"
+	.string "en la otra caseta.-$"

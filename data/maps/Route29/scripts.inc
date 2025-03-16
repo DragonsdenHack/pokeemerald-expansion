@@ -210,8 +210,8 @@ release
 end
 
 Primavera_Barrera_Sur_Texto_1:
-.string "(Aún me faltan por ver los últimos\n"
-	.string "pisos de la BASE ROCKET de JOHTO)$"
+.string "-Aún me faltan por ver los últimos\n"
+	.string "pisos de la BASE ROCKET de JOHTO.-$"
 
 Primavera_Barrera_Sur_Move_1:
 walk_in_place_right

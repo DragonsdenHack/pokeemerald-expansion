@@ -520,7 +520,6 @@ RocketHideoutJohtoP1Documento_Text_100:
 	.string "proveniente de fuera y limitar el\l"
 	.string "pensamiento.$"
 
-
 RocketHideoutJohtoP1Documento_Text_101:
 .string "Esto hace que sea cada vez más\n"
 	.string "difícil de desenmascarar este\l"

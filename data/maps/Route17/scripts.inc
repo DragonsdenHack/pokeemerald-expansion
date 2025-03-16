@@ -126,8 +126,8 @@ end
 
 Route17Documento_Text_101:
 .string "CONSEJOS DE ENTRENADOR:\n"
-	.string "Cada Pokémon es único.\l"
-	.string "Incluso Pokémon de la misma\l"
+	.string "Cada POKÉMON es único.\l"
+	.string "Incluso POKÉMON de la misma\l"
 	.string "especie y mismo nivel tienen\l"
 	.string "claras diferencias en sus\l"
 	.string "estadísticas globales, los\l"

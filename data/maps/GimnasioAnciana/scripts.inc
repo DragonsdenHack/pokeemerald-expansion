@@ -65,9 +65,9 @@ release
 end
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
-.string "Con DANZA ESPADA elevarás\n"
-	.string "drásticamente el ATAQUE.\l"
-	.string "Si tu POKÉMON ya es rápido de por sí\l"
+.string "Con DANZA ESPADA, elevarás\n"
+	.string "drásticamente el ATAQUE.\p"
+	.string "Si tu POKÉMON ya es rápido de por sí\n"
 	.string "o cuenta con buenos movimientos de\l"
 	.string "prioridad, puede acabar rápido con el\l"
 	.string "combate.$"
@@ -77,8 +77,8 @@ GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
 	.string "ESPADA de manos de ZOE!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
-.string "¡Ja!\n"
-	.string "¿Creías que eso era todo?\l"
+.string "¡Ja!\p"
+	.string "¿Creías que eso era todo?\p"
 	.string "¡Te daré algo más!$"
 
 GimnasioAnciana_Combate_Gimnasio_2::

@@ -233,7 +233,6 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
 .string "Ah{PAUSE 25}…{PAUSE 25} Eras {PLAYER}, ¿no?$"
 
-
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
 .string "Si te soy sincera, no esperaba volver a\n"
 	.string "verte, ¿a quién puede interesarle lo\l"

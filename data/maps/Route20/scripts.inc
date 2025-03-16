@@ -146,9 +146,9 @@ release
 end
 
 Ruta_20_Barrera_Sur_Texto_1:
-.string "(No estoy de vacaciones para\n"
+.string "-No estoy de vacaciones para\n"
 	.string "ponerme a explorar KANTO, tengo\l"
-	.string "cosas más importantes que hacer).$"
+	.string "cosas más importantes que hacer.-$"
 
 Ruta_20_Barrera_Sur_Move_1:
 walk_in_place_left

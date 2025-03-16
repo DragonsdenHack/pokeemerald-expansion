@@ -153,6 +153,6 @@ release
 end
 
 CeladonCity_Casino_Text_11:
-.string "¡Tranquilo camarada!\n"
+.string "¡Tranquilo, camarada!\n"
 .string "¡Conmigo aquí nuestra guarida está\l"
 .string "a salvo!$"

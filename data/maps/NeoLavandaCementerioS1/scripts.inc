@@ -309,7 +309,6 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_11:
 .string "¡¡{PLAYER} obtuvo la MT105 ALARIDO\n"
 	.string "de manos de Alto Rango Rocket!!$"
 
-
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_12:
 .string "Es un honor contar con su presencia\n"
 	.string "aquí, espero verle más a menudo ahora\l"

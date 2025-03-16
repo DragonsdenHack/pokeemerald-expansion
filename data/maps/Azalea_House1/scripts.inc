@@ -205,9 +205,9 @@ step_end
 
 
 Azalea_House1_Activacion_Sotano_Texto_1.2:
-.string "(Parece el cuadro del que hablaba el\n"
+.string "-Parece el cuadro del que hablaba el\n"
 	.string "anciano… Hay un botón secreto detrás,\l"
-	.string "¿quieres pulsarl…?)$"
+	.string "¿quieres pulsarl…?-$"
 
 Azalea_House1_Activacion_Sotano_Texto_1.1:
 .string "-Este cuadro es un poco raro, no parece\n"

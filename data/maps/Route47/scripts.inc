@@ -398,7 +398,7 @@ Route47_Dialogo_Maestro_Anciano_2_Texto_4:
 .string "Uno de mis POKÉMON más fieles, tal vez\n"
 	.string "contigo pueda seguir viviendo grandes\l"
 	.string "aventuras. ¡Con este viejo carcamal ya\l"
-	.string "esta difícil que eso suceda jo, jo, jo!$"
+	.string "está difícil que eso suceda jo, jo, jo!$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_5:
 .string "La ilusión despierta el empeño y\n"

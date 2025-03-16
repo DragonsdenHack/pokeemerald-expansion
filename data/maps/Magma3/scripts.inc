@@ -292,19 +292,19 @@ Magma3_Combate_Magno_Texto_2:
 	.string "Todo está dispuesto.$"
 
 Magma3_Combate_Magno_Texto_2.1:
-	.string "¡Aproxímate, ROCKET!\n"
+	.string "¡Aproxímate, ROCKET!\p"
 	.string "¡Ahora!$"
 
 Magma3_Combate_Magno_Texto_3:
-.string "GROUDON descansa aquí.\n"
-	.string "Todo cuanto necesitamos para convocarle\l"
+.string "GROUDON descansa aquí.\p"
+	.string "Todo cuanto necesitamos para convocarle\n"
 	.string "es hacer brillar la ESFERA ROJA una\l"
 	.string "vez más.$"
 
 Magma3_Combate_Magno_Texto_4:
-.string "¡GROUDON!\n"
-	.string "¡AL FIN!\l"
-	.string "¡Ahora podrás terminar de una vez\l"
+.string "¡GROUDON!\p"
+	.string "¡AL FIN!\p"
+	.string "¡Ahora podrás terminar de una vez\n"
 	.string "por todas la noble tarea que se te\l"
 	.string "encomendó!\p"
 	.string "¡Habrá tierra suficiente para todos!\n"
@@ -377,8 +377,8 @@ Magma3_Combate_Magno_Texto_12:
 	.string "una mera pieza más dentro de…!$"
 
 Magma3_Combate_Magno_Texto_13:
-.string "ZEUS: Ya no puedes hacer nada.\n"
-	.string "¡FLOETTE!\l"
+.string "ZEUS: Ya no puedes hacer nada.\p"
+	.string "¡FLOETTE!\p"
 	.string "¡PSÍQUICO!$"
 
 Magma3_Combate_Magno_Texto_14:
@@ -397,18 +397,18 @@ Magma3_Combate_Magno_Texto_17:
 	.string "nada importante; tus compañeros\l"
 	.string "nos han hablado de un tal GROUDON,\l"
 	.string "y de una ESFERA AZUL que lo\l"
-	.string "despierta.\l"
+	.string "despierta.\p"
 	.string "Pero eso está en HOENN{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_18:
-.string "MAGNO: ¡GROUDON! ¡Sí!\n"
-	.string "¡Debo encontrar esa ESFERA AZUL,\l"
+.string "MAGNO: ¡GROUDON! ¡Sí!\p"
+	.string "¡Debo encontrar esa ESFERA AZUL,\n"
 	.string "queda mucho por hacer!\l"
 	.string "¡Volvemos a HOENN!$"
 
 Magma3_Combate_Magno_Texto_19:
-.string "ZEUS: No te preocupes, {PLAYER}.\n"
-	.string "Solo le he borrado esa parte de la\l"
+.string "ZEUS: No te preocupes, {PLAYER}.\p"
+	.string "Solo le he borrado esa parte de la\n"
 	.string "memoria relacionada con la ESFERA\l"
 	.string "ROJA, el resto de regiones y viajes\l"
 	.string "que ha realizado todos estos años.$"
@@ -429,8 +429,8 @@ Magma3_Combate_Magno_Texto_19.3:
 	.string "en peligro{PAUSE 5}…{PAUSE 5}$"
 
 Magma3_Combate_Magno_Texto_20:
-.string "De nuevo me has impresionado, {PLAYER}.\n"
-	.string "Sabes cómo combatir y sacar el máximo\l"
+.string "De nuevo me has impresionado, {PLAYER}.\p"
+	.string "Sabes cómo combatir y sacar el máximo\n"
 	.string "potencial a tus POKÉMON; empiezo a\l"
 	.string "creer que de verdad eres el\l"
 	.string "verdadero CAMPEÓN de KANTO.$"

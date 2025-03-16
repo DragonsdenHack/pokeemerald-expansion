@@ -11,7 +11,7 @@ msgbox MtSilverHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 MtSilverHouseDocumento_Text_100:
-.string "LIGA POKÉMON DE JOHTO, 1978.\p"
+.string "LIGA DE JOHTO, 1978.\p"
 	.string "EQUIPO DEL CAMPEÓN:\p"
 	.string "- CROBAT\n"
 	.string "- HERACROSS\l"

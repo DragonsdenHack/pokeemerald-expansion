@@ -75,8 +75,8 @@ face_up
 step_end
 
 PokemonMansion1F_7_Texto_1:
-.string "¿Quieres algo ROCKET?\n"
-	.string "¿No ves que solo somos dos\l"
+.string "¿Quieres algo, ROCKET?\p"
+	.string "¿No ves que solo somos dos\n"
 	.string "honrados trabajadores que tratan\l"
 	.string "de ganarse la vida como todos?\l"
 	.string "No nos hagas perder más el tiempo.$"
@@ -574,9 +574,9 @@ PokemonMansion_1F_Ladrones_Texto_2:
 	.string "aquí{PAUSE 5}…{PAUSE 5}$"
 
 PokemonMansion_1F_Ladrones_Texto_3:
-.string "¿Quién eres tú?\n"
-	.string "¿Un ROCKET?\l"
-	.string "Ocúpate de lo tuyo, si vuestro\l"
+.string "¿Quién eres tú?\p"
+	.string "¿Un ROCKET?\p"
+	.string "Ocúpate de lo tuyo, si vuestro\n"
 	.string "negocio no funciona, no es nuestro\l"
 	.string "problema.$"
 

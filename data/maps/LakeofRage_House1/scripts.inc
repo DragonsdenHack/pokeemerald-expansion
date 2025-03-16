@@ -322,7 +322,6 @@ LakeofRageHouse1_Evento_Devon_Texto_16:
 	.string "acabaran con todos nosotros antes de\l"
 	.string "que podamos seguir avanzando!$"
 
-
 LakeofRageHouse1_Evento_Devon_Texto_17:
 .string "????: De eso nos encargaremos yo{PAUSE 25}…{PAUSE 25} y mis\n"
 	.string "POKÉMON. ¡Andando!$"

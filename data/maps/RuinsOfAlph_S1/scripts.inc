@@ -13,8 +13,8 @@ release
 end
 
 RuinsOfAlphS1_Rocket_Cadaver_Texto_1:
-.string "(Parece uno de los ROCKET que\n"
-	.string "entraron a las ruinas…)$"
+.string "-Parece uno de los ROCKET que\n"
+	.string "entraron a las ruinas…-$"
 
 RuinsOfAlphS1_Atlas_Piedra::
 lock
@@ -149,8 +149,8 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
 .string "… … … …{PAUSE 5}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado).$"
+.string "-La energía misteriosa se ha\n"
+	.string "esfumado.-$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_4:
 .string "ANDRA: ¿Ese era el UNOWN causante\n"
@@ -308,7 +308,7 @@ end
 
 RuinsOfAlph_S1_Apertura_Texto_1:
 .string "-Parece que has activado algo de\n"
-	.string "gran peligro al pisar esta zona-$"
+	.string "gran peligro al pisar esta zona.-$"
 
 RuinsOfAlph_S1_Apertura_Move_1:
 emote_exclamation_mark
@@ -348,7 +348,7 @@ RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
 .string "-La energía misteriosa se ha\n"
-	.string "esfumado-$"
+	.string "esfumado.-$"
 
 
 RuinsOfAlph_S1_Combate_Kabutops_Move_1:

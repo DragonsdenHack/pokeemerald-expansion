@@ -83,8 +83,8 @@ release
 end
 
 SsAnne4F_Text_6:
-.string "Oh…\n"
-	.string "¿Estás seguro de que podemos\l"
+.string "Oh…\p"
+	.string "¿Estás seguro de que podemos\n"
 	.string "permitirnos esta cena?$"
 
 
@@ -97,7 +97,7 @@ end
 
 SsAnne4F_Text_7:
 .string "De modo que le gusta apostar\n"
-	.string "fuerte señor FUJITA, le haré una\l"
+	.string "fuerte, señor FUJITA. Le haré una\l"
 	.string "oferta que no podrá rechazar{PAUSE 5}…{PAUSE 5}$"
 
 
@@ -109,11 +109,11 @@ release
 end
 
 SsAnne4F_Text_8:
-.string "Hablemos claro señor NOMURA, puedo\n"
+.string "Hablemos claro, señor NOMURA; puedo\n"
 	.string "comprarle el 20% de las acciones o\l"
 	.string "puedo comprarle todo, o puedo\l"
 	.string "entrar yo mismo en este negocio y\l"
-	.string "enterrarle, usted elige.$"
+	.string "enterrarle. Usted elige.$"
 
 
 
@@ -126,7 +126,7 @@ release
 end
 
 SsAnne4F_Text_9:
-.string "¿Todo en orden caballero?$"
+.string "¿Todo en orden, caballero?$"
 
 
 
@@ -138,8 +138,8 @@ end
 
 SsAnne4F_Text_10:
 .string "Lo mejor de esta clase de fiestas\n"
-	.string "es la comida.\l"
-	.string "Te recomiendo el salazón de\l"
+	.string "es la comida.\p"
+	.string "Te recomiendo el salazón de\n"
 	.string "SHARPEDO, está exquisito y no\l"
 	.string "podrás encontrarlo en ningún lugar\l"
 	.string "de KANTO.$"
@@ -186,12 +186,11 @@ SsAnne4F_Text_14:
 .string "Oh, tu siempre igual. Ya comes eso\n"
 	.string "todos los días en el restaurante\l"
 	.string "de AZULONA, podrías aprovechar\l"
-	.string "para probar nuevos platos. El\l"
-	.string "HUNTAIL a la plancha que he pedido\l"
-	.string "está delicioso por ejemplo. Dicen\l"
-	.string "que los mares de HOENN cuentan con\l"
-	.string "las especies más diversas y una\l"
-	.string "flora y fauna incomparable.$"
+	.string "para probar nuevos platos.\p"
+	.string "El HUNTAIL a la plancha que he\n"
+	.string "pedido está delicioso, por ejemplo.\l"
+	.string "La diversidad que hay en los mares\l"
+	.string "de HOENN es incomparable.$"
 
 SsAnne_4F_Combate_Azul::
 msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_DEFAULT
@@ -246,8 +245,8 @@ SsAnne_4F_Combate_Azul_text_1:
 
 SsAnne_4F_Combate_Azul_text_1.1:
 	.string "Incluso los marineros del SS.ANNE no\n"
-	.string "sacan más que TENTACOOL, menudo\l"
-	.string "fraude.$"
+	.string "sacan más que TENTACOOL.\p"
+	.string "Menudo fraude.$"
 
 SsAnne_4F_Combate_Azul_text_2:
 .string "¿Eres ese ROCKET al que cedí\n"
@@ -257,8 +256,8 @@ SsAnne_4F_Combate_Azul_text_2.1:
  .string "No voy a preguntarte cómo\n"
 	.string "es que alguien como tú está en\l"
 	.string "en un lugar así, ya imagino que\l"
-	.string "has entrado de forma ilegítima.\l"
-	.string "Sinceramente, me da exactamente\l"
+	.string "has entrado de forma ilegítima.\p"
+	.string "Sinceramente, me da exactamente\n"
 	.string "igual.$"
 
 SsAnne_4F_Combate_Azul_text_3:
@@ -271,7 +270,7 @@ SsAnne_4F_Combate_Azul_text_3:
 SsAnne_4F_Combate_Azul_text_3.1:
 	.string "¡Es hora de ver si eres uno más\n"
 	.string "del montón, o en cambio tienes\l"
-	.string "algo que decir!\l"
+	.string "algo que decir!\p"
 	.string "¡En guardia, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
@@ -282,16 +281,16 @@ SsAnne_4F_Combate_Azul_text_5:
 .string "…\n"
 	.string "…\l"
 	.string "Entonces no eres un ROCKET\l"
-	.string "cualquiera…¿ALTO RANGO?\l"
-	.string "¡Para mí todos lucís iguales!\l"
-	.string "De todos modos, eres el único que\l"
+	.string "cualquiera{PAUSE 15}…{PAUSE 15} ¿ALTO RANGO?\p"
+	.string "¡Para mí todos lucís iguales!\p"
+	.string "De todos modos, eres el único que\n"
 	.string "ha podido derrotarme después de\l"
 	.string "ese palurdo de ROJO, te tendré en\l"
 	.string "cuenta a partir de ahora.$"
 
 SsAnne_4F_Combate_Azul_text_6:
 .string "????: Bah. Voy a darme una vuelta\n"
-	.string "por los camarotes a ver si alguien\l"
+	.string "por los camarotes, a ver si alguien\l"
 	.string "más puede darme algún combate\l"
 	.string "interesante, aunque lo dudo.$"
 

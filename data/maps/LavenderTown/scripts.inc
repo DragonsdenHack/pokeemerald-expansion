@@ -104,8 +104,6 @@ LavenderTown_3_Text_3Yes:
     .string "¿En serio?\n"
 	.string "Hay quien no cree…{PAUSE 5}$"
 
-
-
 LavenderTown_3_Text_3No:
 	.string "Hahaha, ya lo sabía.\n"
 	.string "Esa mano blanca detrás de tu\l"
@@ -144,8 +142,8 @@ LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
 	.string "alejarse de la TORRE POKÉMON.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
-.string "(ROJO aún puede estar dentro de\n"
-	.string "TORRE POKÉMON)$"
+.string "-ROJO aún puede estar dentro de\n"
+	.string "TORRE POKÉMON.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Move_1:
 walk_in_place_up
@@ -810,8 +808,8 @@ LavenderTown_Entrevista_Oak_Texto_4:
 
 LavenderTown_Entrevista_Oak_Texto_5:
 	.string "OAK: Verá, me he llevado muchas\n"
-	.string "desilusiones esperando cosas a lo largo\l"
-	.string "de estos años.$"
+	.string "desilusiones esperando cosas a lo\l"
+	.string "largo de estos años.$"
 
 LavenderTown_Entrevista_Oak_Texto_6:
 	.string "A estas alturas, si alguien espera algo,\n"
@@ -921,8 +919,8 @@ LavenderTown_Entrevista_Oak_Texto_28:
 
 LavenderTown_Entrevista_Oak_Texto_29:
 	.string "Ahora nos espera su antigua amiga,\n"
-	.string "AGATHA, dentro de TORRE POKÉMON. ¿No\l"
-	.string "nos acompaña?$"
+	.string "AGATHA, dentro de TORRE POKÉMON.\p"
+	.string "¿No nos acompaña?$"
 
 LavenderTown_Entrevista_Oak_Texto_30:
 	.string "OAK: {PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"

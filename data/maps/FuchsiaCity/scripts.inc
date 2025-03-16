@@ -94,14 +94,14 @@ end
 
 Text_18:
 .string "¡Los ROCKET como vosotros nunca\n"
-.string "podréis entrar a la ZONA SAFARI!\l"
-.string "…\l"
-.string "…\l"
-.string "¿Cómo? ¿No lo necesitas y ya\l"
+.string "podréis entrar a la ZONA SAFARI!\p"
+.string "…\p"
+.string "…\p"
+.string "¿Cómo? ¿No lo necesitas y ya\n"
 .string "capturaste un KANGASKHAN en el\l"
-.string "TÚNEL ROCA?\l"
-.string "¡Además de ladrón, mentiroso!\l"
-.string "¡Se demostró que la existencia de\l"
+.string "TÚNEL ROCA?\p"
+.string "¡Además de ladrón, mentiroso!\p"
+.string "¡Se demostró que la existencia de\n"
 .string "un KANGASKHAN allí era un bulo!$"
 
 NeoFuchsiaCityDocumento_100::

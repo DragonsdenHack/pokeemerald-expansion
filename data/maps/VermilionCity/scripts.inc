@@ -158,8 +158,8 @@ release
 end
 
 VermilionCity_Text_Derecha:     
-    .string "(Debería ir a curar a mi equipo\n"
-	.string "antes por si las moscas).$"
+    .string "-Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas.-$"
 
 
 VermilionCityDerechaMove1:
@@ -181,8 +181,8 @@ release
 end
 
 VermilionCity_Text_Izq:     
-    .string "(Debería ir a curar a mi equipo\n"
-	.string "antes por si las moscas).$"
+    .string "-Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas.-$"
 
 
 VermilionCityIzqMove1:
@@ -318,10 +318,10 @@ release
 end
 
 VermilionCity_Text_Surge:
-    .string "????: Ándate con cuidado chaval,\n"
-	.string "más te vale respetar la\l"
+    .string "????: Ándate con cuidado, chaval.\p"
+	.string "Más te vale respetar la\n"
 	.string "tranquilidad de este lugar\l"
-	.string "si no quieres problemas.\l"
+	.string "si no quieres problemas.\p"
 	.string "Advertido quedas.$"
 
 VermilionCitySurge_move1:
@@ -472,9 +472,9 @@ end
 VermilioCity_Motorista_Text_1:
 .string "ANDRA: ¿Alguna noticia de nuestro\n"
 	.string "supuesto comodín para entrar al\l"
-	.string "SS.ANNE?\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "SS.ANNE?\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "Ya veo.$"
 
 VermilioCity_Motorista_Text_2:
@@ -516,18 +516,17 @@ VermilioCity_Motorista_Text_5:
 
 VermilioCity_Motorista_Text_6:
 .string "TETSUO, uno de los jefes de la\n"
-	.string "ASOCIACIÓN DE MOTORISTAS DE KANTO,\l"
-	.string "pero eso poco importa.$"
+	.string "ASOCIACIÓN DE MOTORISTAS DE KANTO.\p"
+	.string "Pero eso poco importa.$"
 
 VermilioCity_Motorista_Text_7:
 .string "TETSUO: Mirad, os diré lo que\n"
 	.string "vamos a hacer: he investigado a\l"
 	.string "ese tipo y es un apasionado de\l"
 	.string "los POKÉMON marinos, si soy capaz\l"
-	.string "de darle donde más le duele\l"
-	.string "captaré su atención lo suficiente\l"
-	.string "como para que desatienda su\l"
-	.string "puesto.$"
+	.string "de darle donde más le duele, podré\l"
+	.string "captar su atención lo suficiente\l"
+	.string "como para que desatienda su puesto.$"
 
 VermilioCity_Motorista_Text_8:
 .string "TETSUO: Cuando os dé la orden\n"
@@ -541,34 +540,34 @@ VermilioCity_Motorista_Text_10:
 .string "Sí, tú. No sé que haces perdiendo\n"
 	.string "el tiempo en un lugar así,\l"
 	.string "dedicando tu vida a inútiles\l"
-	.string "POKÉMON TIPO AGUA.\l"
-	.string "¡Malditos TENTACOOL, solo están\l"
+	.string "POKÉMON TIPO AGUA.\p"
+	.string "¡Malditos TENTACOOL, solo están\n"
 	.string "para arruinarnos los veranos!$"
 
 VermilioCity_Motorista_Text_11:
-.string "MARINERO: ¡¿Como dices?!\n"
-	.string "¡Insolente MOTORISTA, por si no\l"
+.string "MARINERO: ¡¿Como dices?!\p"
+	.string "¡Insolente MOTORISTA, por si no\n"
 	.string "lo sabías, TENTACOOL es también\l"
 	.string "del TIPO VENENO que tanto adoráis!$"
 
 VermilioCity_Motorista_Text_12:
-.string "TETSUO: Y así le va, los POKÉMON\n"
+.string "TETSUO: Y así le va. Los POKÉMON\n"
 	.string "tipo VENENO de verdad, como\l"
 	.string "WEEZING, GENGAR o GOLBAT, saben\l"
 	.string "lidiar con su mejor enemigo: el\l"
-	.string "tipo TIERRA.\l"
-	.string "TENTACOOL y TENTACRUEL no tienen\l"
+	.string "tipo TIERRA.\p"
+	.string "TENTACOOL y TENTACRUEL no tienen\n"
 	.string "remedio, se han visto contaminados\l"
 	.string "por el tipo más nefasto de todos:\l"
-	.string "el AGUA.\l"
-	.string "¡El TIPO AGUA intoxica\l"
+	.string "el AGUA.\p"
+	.string "¡El TIPO AGUA intoxica\n"
 	.string "al resto de tipos!$"
 
 VermilioCity_Motorista_Text_13:
 .string "MARINERO: ¡No voy a consentir que\n"
 	.string "un gamberro como tú hable de los\l"
-	.string "POKÉMON acuáticos en ese tono!\l"
-	.string "¡Te voy a demostrar lo\l"
+	.string "POKÉMON acuáticos en ese tono!\p"
+	.string "¡Te voy a demostrar lo\n"
 	.string "equivocado que estás!$"
 
 VermilioCity_Motorista_Text_14:
@@ -898,23 +897,23 @@ VermilionCity_Secundaria_AncianoMachop_Texto_3:
 	.string "negocio.$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_4:
-.string "¡Mi proyecto va como la seda\n"
-	.string "ROCKET!\l"
-	.string "¡En 3 años este solar contará con\l"
+.string "¡Mi proyecto va como la\n"
+	.string "seda, ROCKET!\p"
+	.string "¡En 3 años este solar contará con\n"
 	.string "un edificio aún mayor que la SEDE\l"
-	.string "SILPH de AZAFRÁN!\l"
+	.string "SILPH de AZAFRÁN!\p"
 	.string "¡Ya lo verás!$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_5:
-.string "¡Así que lo derrotaste!\n"
-	.string "¡Honestamente dudaba de que\l"
+.string "¿¡Así que lo derrotaste!?\p"
+	.string "¡Honestamente, dudaba de que\n"
 	.string "pudieras tener oportunidad!\l"
 	.string "¡No voy a negar que sus POKÉMON\l"
-	.string "son una rareza en esta ciudad!\l"
-	.string "¡Seguro que se le han bajado esos\l"
-	.string "humos después de perder ante todos\l"
-	.string "sus seguidores!\l"
-	.string "¡Alguien como tú seguro que sabe\l"
+	.string "son una rareza en esta ciudad!\p"
+	.string "Seguro que se le han bajado esos\n"
+	.string "humos, después de perder ante\l"
+	.string "todos sus seguidores.\p"
+	.string "¡Alguien como tú seguro que sabe\n"
 	.string "exprimir el potencial de mi\l"
 	.string "HITMONLEE!$"
 
@@ -933,16 +932,16 @@ VermilionCity_Secundaria_AncianoMachop_Texto_8:
 .string "¿Cómo va la misión?$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_9:
-.string "¡Oh!\n"
-	.string "¿ALTO RANGO ROCKET, dices?\l"
-	.string "Sí, tus POKÉMON parecen tener\l"
+.string "¡Oh!\p"
+	.string "¿ALTO RANGO ROCKET, dices?\p"
+	.string "Sí, tus POKÉMON parecen tener\n"
 	.string "cierto desarrollo, dime, ¿te\l"
 	.string "interesaría hacer un pequeño\l"
-	.string "trabajo?$"
+	.string "trabajo para mí?$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_10:
-.string "¡Genial!\n"
-	.string "Escucha, el PRESIDENTE del CLUB DE\l"
+.string "¡Genial!\p"
+	.string "Escucha, el PRESIDENTE del CLUB DE\n"
 	.string "FANS de esta ciudad es un señor\l"
 	.string "con una gran reputación, que no ha\l"
 	.string "hecho más que boicotear mi\l"
@@ -1054,8 +1053,8 @@ release
 end
 
 VermilionCity_Marinero_Texto_1:
-.string "¡Insolente motorista!\n"
-	.string "¡Que una manada de WAILORDS se\l"
+.string "¡Insolente motorista!\p"
+	.string "¡Que una manada de WAILORDS se\n"
 	.string "abalance con su SALPICAR sobre\l"
 	.string "vuestro CAMINO BICIS y quede\l"
 	.string "inundado, me dirás ahí si los\l"

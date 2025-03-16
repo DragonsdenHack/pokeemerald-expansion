@@ -35,16 +35,11 @@ Route35House_Text_TakeNosepass:
 	.string "pero conozco a uno con\l"
 	.string "una bastante notable.$"
 
-
-
 Route35House_Text_TakeNosepass2:
 	.string "¡Mira!$"
 
-
-
 Route35House_Text_MensajeNosepass:
 .string "¡OBTUVISTE UN NOSEPASS AL NV.25!$"
-
 
 Route35House_Text_1:
     .string "Aunque su capacidad de atacar sea\n"

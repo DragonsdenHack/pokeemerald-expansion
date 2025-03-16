@@ -97,17 +97,12 @@ LavaridgeTown_Torchic_Text_TakeNosepass:
 	.string	"Haces bien. Son muy recomendables.\p"
 	.string	"¡Me has gustado! ¡Toma esto!$"
 
-
-
 LavaridgeTown_Torchic_Text_TakeNosepass2:
 	.string "¡Un POKÉMON muy raro que\n"
 	.string "solo verás en HOENN!$"
 
-
-
 LavaridgeTown_Torchic_Text_MensajeNosepass:
 .string "¡OBTUVISTE UN TORCHIC AL NV.50!$"
-
 
 LavaridgeTown_Torchic_Text_1:
 	.string "La línea evolutiva de TORCHIC es cada\n"

@@ -77,8 +77,8 @@ release
 end
 
 PacifidlogTown_Barrera_Texto_1:
-	.string "No puedo irme de PUEBLO OROMAR sin\n"
-	.string "hablar con ANDRA.$"
+	.string "-No puedo irme de PUEBLO OROMAR\n"
+	.string "sin hablar con ANDRA.-$"
 
 PacifidlogTown_Rubi::
 lock
