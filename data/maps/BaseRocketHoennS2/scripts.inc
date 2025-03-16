@@ -852,7 +852,7 @@ release
 end
 
 BaseRocketHoennS2Documento_Text_a112:
-.string "NÚMERO 2: ZAMAZENTA-ESCUDO SUPREMO:\p"
+.string "NÚMERO 2: ZAMAZENTA:\p"
     .string "PS: 92\n"
 	.string "ATAQUE: 130\l"
 	.string "DEFENSA: 115\l"
@@ -872,7 +872,7 @@ BaseRocketHoennS2Documento_Text_112:
 	.string "TOTAL: 720\p"
 	.string "El hecho de no poder curarse más allá de\n"
 	.string "DESCANSO le coloca un peldaño por\l"
-	.string "debajo de su hermano ZACIAN. Aún con\l"
+	.string "debajo de su hermana, ZACIAN. Aún con\l"
 	.string "una capacidad defensiva muy superior a\l"
 	.string "la de REGISTEEL, se las arregla para\l"
 	.string "tener el ATAQUE BASE de GARCHOMP, y\l"

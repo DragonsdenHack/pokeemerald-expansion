@@ -4753,7 +4753,7 @@ const struct Item gItems[] =
 
     [ITEM_METAL_POWDER] =
     {
-        .name = _("Rev.Metálico"),
+        .name = _("P.Metálico"),
         .itemId = ITEM_METAL_POWDER,
         .price = 1000,
         .holdEffect = HOLD_EFFECT_METAL_POWDER,

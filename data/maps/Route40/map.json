@@ -25,12 +25,12 @@
     },
     {
       "direction": "right",
-      "offset": 28,
+      "offset": 46,
       "map": "MAP_OLIVINE_PORT"
     },
     {
       "direction": "right",
-      "offset": 24,
+      "offset": 30,
       "map": "MAP_OLIVINE_PORT"
     }
   ],

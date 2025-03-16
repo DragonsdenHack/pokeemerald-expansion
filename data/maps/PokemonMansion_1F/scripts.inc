@@ -653,7 +653,7 @@ PokemonMansion_1F_Ladrones_Texto_14:
 .string "¿Yo también he perdido?$"
 
 PokemonMansion_1F_Ladrones_Texto_15:
-.string "¿Donde has comprado esos POKÉMON?\n"
+.string "¿Dónde has comprado esos POKÉMON?\n"
 	.string "Me dijeron que ya no quedaban mejores\l"
 	.string "ejemplares en el mercado negro.\l"
 	.string "¡No puede ser!$"

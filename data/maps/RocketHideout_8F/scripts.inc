@@ -386,9 +386,9 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
 	.string "Por lo que me cuentas, algo muy\n"
-	.string "extraño pasa en ese lugar, o OAK\l"
+	.string "extraño pasa en ese lugar, u OAK\l"
 	.string "se ha teletransportado usando algún\l"
-	.string "POKÉMON o ese LABORATORIO no es tan\l"
+	.string "POKÉMON, o ese LABORATORIO no es tan\l"
 	.string "inocente y caritativo como lo pintan.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_3:
@@ -499,12 +499,12 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1:
 	.string "Esto incluye también a la mayoría\n"
-	.string "de ROCKET.\l"
-	.string "Es aquí donde se llevamos a cabo los\l"
-	.string "proyectos de verdad, esos que marcarán\l"
+	.string "de ROCKET.\p"
+	.string "Es aquí donde se llevan a cabo los\n"
+	.string "proyectos de verdad; esos que marcarán\l"
 	.string "una diferencia real, y gran parte de su\l"
-	.string "valor diferencial radica en su secretismo.\l"
-	.string "Por ello, estas misiones y estos planes\l"
+	.string "valor diferencial radica en su secretismo.\p"
+	.string "Por ello, estas misiones y estos planes\n"
 	.string "no existen: solo nos dedicamos a robar y\l"
 	.string "extorsionar, ¿entendido?$"
 
@@ -2903,7 +2903,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2:
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_3:
 .string "Pero{PAUSE 25}…{PAUSE 25}\n"
-	.string "¿Donde?\l"
+	.string "¿Dónde?\l"
 	.string "La TORRE POKÉMON sería el único\l"
 	.string "lugar destacable, pero conocemos\l"
 	.string "de ella todos sus rincones.$"
@@ -3818,7 +3818,7 @@ RocketHideout8F_Mision_Johto_Text_15:
 	.string "alejan de aquí.$"
 
 RocketHideout8F_Mision_Johto_Text_16:
-.string "ANDRA: ¿Donde iremos, señor?$"
+.string "ANDRA: ¿Dónde iremos, señor?$"
 
 RocketHideout8F_Mision_Johto_Text_17:
 .string "Yo dedicaré todos mis esfuerzos en\n"
@@ -4201,6 +4201,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Culto_Lavanda_Segunda_
 applymovement 6, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_7.3
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_103_RIVAL
+removeobject 6
 playse SE_EXIT
 waitse
 delay 10

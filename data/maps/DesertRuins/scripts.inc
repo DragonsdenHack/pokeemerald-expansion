@@ -594,6 +594,7 @@ applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_3
 applymovement 2, DesertRuins_Evento_Andra_Move_8
 waitmovement 0x0
 playse SE_EXIT
+clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2
 removeobject 2
 setvar VAR_UNUSED_0x40F7, 189
@@ -666,7 +667,7 @@ DesertRuins_Evento_Andra_Texto_4:
 	.string "lo que puede ser?$"
 
 DesertRuins_Evento_Andra_Texto_5:
-.string "Hay que estar atentos, {PLAYER}.\n"
+.string "Hay que estar atentos, {PLAYER}.\p"
 	.string "Entremos juntos.$"
 
 
