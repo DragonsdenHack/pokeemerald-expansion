@@ -655,9 +655,9 @@ step_end
 
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
-	.string "A 4 MILLION POKÉ transaction for a\n"
-	.string "CHARMANDER done. This is going\l"
-	.string "smoothly…$"
+	.string "A ¥4,000,000 transaction for the\n"
+	.string "CHARMANDER, done.\p"
+	.string "This is going smoothly…$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
 	.string "How did you manage to reach this point?\n"
@@ -752,8 +752,8 @@ Route52_Maze_Dialogo_Primer_Trabajador_Texto_1:
 Route52_Maze_Dialogo_Primer_Trabajador_Texto_2:
 	.string "Recently, we sold our most powerful\n"
 	.string "TYRANITAR to someone who appears to\l"
-	.string "be quickly climbing the ranks in TEAM\l"
-	.string "ROCKET. He paid 1.25 million POKÉ for it.$"
+	.string "be a top TEAM ROCKET EXECUTIVE.\p"
+	.string "He paid ¥1,250,000 for it.$"
 
 Route52_Maze_Dialogo_Segundo_Trabajador::
 lock

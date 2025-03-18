@@ -552,28 +552,26 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
 	.string "me a mission. There's been some trouble\l"
 	.string "with the BIKERS on the CYCLING ROAD in\l"
 	.string "FUCHSIA, and guess who's going in as\l"
-	.string "'mediators'? That's right, us.$"
+	.string "'mediators'? That's right: us.$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_2:
-	.string "So, what do you think of the new digs?\n"
-	.string "Petrel might have been exaggerating\l"
+	.string "So, what do you think of the new digs?\p"
+	.string "PETREL might have been exaggerating\n"
 	.string "when he said the CELADON HQ was\l"
 	.string "nothing like the one on Route 5. Sure,\l"
 	.string "it's bigger, but it looks pretty similar,\l"
 	.string "don't you think?$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_3:
-.string "Sea como sea, me largo ya, mi\n"
-	.string "primera misión aquí no puede tener\l"
-	.string "ningún fallo, se cumplirá de forma\l"
-	.string "impecable.$"
+	.string "Anyway, I'm off. My first mission here is\n"
+	.string "going to be perfect, no mistakes, just\l"
+	.string "flawless execution!$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_3.1:
-	.string "A propósito, GIOVANNI me ha\n"
-	.string "preguntado por ti, deberías de\l"
-	.string "presentarte ya en su despacho,\l"
-	.string "puede que quiera algo concreto de\l"
-	.string "ti.$"
+    .string "Oh!\p"
+	.string "And GIOVANNI asked for you!\p"
+	.string "He might have something important\n"
+	.string "lined up for you, too.$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_4:
 .string "Like I said!\p"
@@ -885,77 +883,75 @@ delay_8
 step_end
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_1:
-.string "????: {PLAYER}, am I right?\n"
+.string "????: {PLAYER}, am I right?\p"
 	.string "Come in.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_2:
-	.string "????: High-Ranking Grunt {PLAYER},\n"
-	.string "sir, reporting for duty.$"
+	.string "????: HIGH RANK GRUNT {PLAYER},\n"
+	.string "SIR, reporting for duty.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_3:
-.string "Ha servido de forma oficial en 4\n"
-	.string "misiones, teniendo éxito en 3 de\l"
-	.string "ellas; le paró los pies a la\l"
-	.string "CÓNSUL de ISLA INTA antes de que\l"
-	.string "comprometiese nuestra situación\l"
-	.string "comercial; fue clave en el robo a\l"
-	.string "la patente de BILL que ha mejorado\l"
-	.string "radicalmente nuestras comunicaciones;\l"
-	.string "autor también del robo a la famosa\l"
-	.string "reliquia del CAPITÁN del SS.ANNE{PAUSE 15}…{PAUSE 15}$"
+	.string "SIR, this GRUNT has officially served on\n"
+	.string "four missions, succeeding in three of\l"
+	.string "them. He stopped the CONSUL of CHRONO\l"
+	.string "ISLAND, before she could compromise our\l"
+	.string "commercial interests; played a key role\l"
+	.string "in the theft of BILL's patent, which has\l"
+	.string "exponentially improved our logistics.\p"
+	.string "And he's the one who stole the famous\n"
+	.string "relic jar from the SS. ANNE's CAPTAIN.$"
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_3.1:
-	.string "Su única derrota en combate fue a\n"
-	.string "manos de ese misterioso ENTRENADOR,\l"
-	.string "durante el fiasco del MT.MOON.\l"
-	.string "Según los presentes, fue el único\l"
-	.string "RECLUTA que no se dejó intimidar por\l"
-	.string "el ridículo poder de su rival,\l"
-	.string "peleando hasta el final.$"
+    .string "All in all, his only defeat was\n"
+	.string "at the hands of that mysterious\l"
+	.string "TRAINER from PALLET TOWN, in the MT. MOON\l"
+	.string "fiasco, and from what I've heard, he was\l"
+	.string "the only GRUNT who wasn't intimidated by\l"
+	.string "his rival's so-called power, fighting\l"
+	.string "until the very end.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_4:
-.string "GIOVANNI: Excelente, PROTÓN.\p"
-	.string "Gracias por la presentación.$"
+.string "GIOVANNI: An excellent introduction, PROTON.\p"
+	.string "Thank you.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_5:
-.string "Como puedes ver, aquí no\n"
-	.string "dejamos nada al azar. Tenemos en\l"
-	.string "cuenta cada uno de los resultados\l"
-	.string "de cada una de las células que\l"
-	.string "forman esta gran organización, su\l"
-	.string "correcta combinación y evaluación\l"
-	.string "es la forma más justa de determinar\l"
-	.string "qué lugar ocupa cada miembro.$"
+	.string "As you can see, {PLAYER}, TEAM ROCKET\n"
+	.string "leaves nothing to chance. Every action,\l"
+	.string "every result, is like a thread in the\l"
+	.string "tapestry of this great organization.\p"
+	.string "We carefully weave and evaluate each\n"
+	.string "one to ensure the fairest determination\l"
+	.string "of where each member belongs.\p"
+	.string "Wouldn't you agree?$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_6:
-.string "Con que vienes de ISLA INTA{PAUSE 15}…{PAUSE 15}\n"
-	.string "Muchas de las cosas que has visto\l"
-	.string "en KANTO te parecerán extrañas, te\l"
-	.string "aseguro que es una región que vale\l"
-	.string "la pena visitar; cuenta con lugares\l"
-	.string "icónicos, muy buenos POKÉMON y una\l"
-	.string "historia única. Sin embargo, su\l"
-	.string "gente{PAUSE 25}…{PAUSE 25} es otro decir.$"
+	.string "So, you're from CHRONO ISLAND. Many of\n"
+	.string "the things you've seen here in KANTO\l"
+	.string "must seem odd to you. I assure you, it's\l"
+	.string "a region worth visiting and exploring.\l"
+	.string "It's filled with iconic landmarks, strong\l"
+	.string "POKÉMON, and a fascinating history.\p"
+	.string "However, the people… well,\n"
+	.string "that's another story.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_7:
-.string "Como ROCKET, te enrolaste en\n"
-	.string "nuestra organización con el fin de\l"
-	.string "robar POKÉMON u otros objetos\l"
-	.string "valiosos, que equilibren la balanza\l"
-	.string "de nuestros flujos de efectivo.$"
+	.string "As a ROCKET GRUNT, you joined our\n"
+	.string "organization to steal POKÉMON and\l"
+	.string "other valuable items, in order to\l"
+	.string "balance our cash flow.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_7.1:
-	.string "Esa es la función que tienen el\n"
-	.string "90% de ROCKET, función poco ética\l"
-	.string "pero necesaria, he de añadir.$"
+    .string "That's the role of 90% of GRUNTs.\p"
+	.string "A task that's not exactly ethical\n"
+	.string "but, I must add, necessary.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_8:
-.string "No obstante, tanto ANDRA como tú\n"
-	.string "fuisteis ascendidos a ALTO RANGO.\l"
-	.string "Ello os aleja de este tipo de misiones,\l"
-	.string "para pasar a ser parte de cuestiones\l"
-	.string "mucho más relevantes en el futuro\l"
-	.string "a medio y largo plazo del TEAM ROCKET.$"
+	.string "However, now that both you and ANDRA\n"
+	.string "have been promoted to HIGH RANKs\l"
+	.string "GRUNTs, you're beyond those routine\l"
+	.string "missions. From now on, you'll be involved\l"
+	.string "in operations that are vital to the\l"
+	.string "long-term future of TEAM ROCKET.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_9:
 	.string "This also means you'll have privileged\n"
@@ -965,203 +961,193 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_9:
 	.string "true history of this region.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_10:
-.string "Pero aún es demasiado pronto,\n"
-	.string "quiero que crezcáis y mejoréis aún\l"
-	.string "más bajo mi mando, que exploréis\l"
-	.string "un poco más la región, disfrutéis\l"
-	.string "de ello{PAUSE 25}…{PAUSE 25} y a su debido tiempo\l"
-	.string "tendremos una reunión.$"
+	.string "But it's still too soon. I expect you\n"
+	.string "both to grow and sharpen your skills\l"
+	.string "even further under my command. Explore\l"
+	.string "the region more, take in all it has to\l"
+	.string "offer and{PAUSE 15}…{PAUSE 15} when the time is right, we'll\l"
+	.string "have a serious meeting.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_11:
-.string "Eso por un lado, ahora pasemos a\n"
-	.string "la segunda parte de esta charla:\l"
-	.string "quiero que me hables de ese\l"
-	.string "misterioso ENTRENADOR.$"
+	.string "That's one matter settled. Now, let's get\n"
+	.string "to the heart of the second. I need you\l"
+	.string "to tell me everything you know about\l"
+	.string "that mysterious TRAINER.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_11.1:
-	.string "Fuiste tú quien más tiempo lo enfrentó,\n"
-	.string "cuéntame todo sobre él, sus POKÉMON,\l"
-	.string "objetos y movimientos que usó, forma\l"
-	.string "de combatir, rasgos, actitud, puntos\l"
-	.string "débiles{PAUSE 25}…{PAUSE 25} todo lo que se te pase\l"
-	.string "por la cabeza.$"
+	.string "You faced him at MT. MOON, so I expect a\l"
+	.string "full report: his POKÉMON, items, moves,\l"
+	.string "fighting style, physical traits,\l"
+	.string "attitude, potential weaknesses… leave\l"
+	.string "nothing out. Every detail matters.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_12:
-.string "GIOVANNI: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}\n"
-	.string "Ya veo, no parece alguien\l"
-	.string "convencional, un CHARMELEON no se\l"
-	.string "ve así como así en la KANTO actual.\l"
-	.string "Solo las élites tienen acceso a esa\l"
-	.string "clase de POKÉMON, inexistentes desde\l"
-	.string "hace tiempo en estado salvaje.$"
+	.string "GIOVANNI: {PAUSE 25}…{PAUSE 25} {PAUSE 15}…{PAUSE 15} I see. This isn't just any\n"
+	.string "trainer. CHARMELEON is not the kind of\l"
+	.string "POKÉMON you can catch nowadays; only the\l"
+	.string "elite have access to such specimen,\l"
+	.string "especially since they vanished as\l"
+	.string "wild POKÉMON, after the KANTO WAR.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_12.1:
-	.string "Si también llevaba una POKÉDEX,\n"
-	.string "todo indica a que ese niño viene\l"
-	.string "de PUEBLO PALETA. El equipo que me\l"
-	.string "has descrito es absurdamente\l"
-	.string "poderoso, teniendo en cuenta la\l"
-	.string "distancia entre PUEBLO PALETA y el\l"
-	.string "MT.MOON, además del poco bagaje que\l"
-	.string "debe llevar como ENTRENADOR.$"
+    .string "Another fact is{PAUSE 15}…{PAUSE 15}\p"
+	.string "He was carrying a POKÉDEX, so the kid\n"
+	.string "is from PALLET TOWN, but{PAUSE 15}…{PAUSE 15} the team\l"
+	.string "you've described is far too powerful for\l"
+	.string "someone with so little experience and\l"
+	.string "such a short journey from PALLET TOWN\l"
+	.string "to MT. MOON. This isn't just raw talent;\l"
+	.string "there's something more at play here{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_13:
-.string "Tal vez veas a alguien de esas\n"
-	.string "dimensiones como inalcanzable, y\l"
-	.string "ciertamente es una amenaza.$"
+	.string "You might see someone of that caliber\n"
+	.string "as untouchable, and yes, he is a threat.$"
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_13.1:
-	.string "Pero{PAUSE 15}…{PAUSE 15} créeme cuando te digo que KANTO es\n"
-	.string "mucho más que un ENTRENADOR. Por muy\l"
-	.string "fuerte que sea, nadie, absolutamente\l"
-	.string "nadie, es intocable y todos, de un\l"
-	.string "modo u otro, pueden llegar a caer\l"
-	.string "ante la oposición adecuada.$"
-	
+	.string "But believe me when I say that KANTO is\n"
+	.string "much more than one TRAINER. No matter\l"
+	.string "how strong he is: no one, absolutely no\l"
+	.string "one, is untouchable.\p"
+	.string "Everyone has a weakness, every TRAINER\n"
+	.string "can be defeated.$"
+
 RocketHideout_4F_Giovanni_Mision_1_Texto_13.2:
-	.string "Te irás dando cuenta de lo lejos que\n"
-	.string "están lo que ahora tienes por límites,\l"
-	.string "conforme más te vayas adentrando en\l"
-	.string "nuestra organización.$"
+	.string "As you continue rising within our\n"
+	.string "organization, you'll start to see just\l"
+	.string "how far beyond your current limits you\l"
+	.string "can go.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_14:
-.string "Eso es todo en cuanto a 'ROJO'.\n"
-	.string "Ahora, pasemos a la tercera y\l"
-	.string "última parte de tu convocatoria\l"
-	.string "aquí, hablemos de{PAUSE 5}…{PAUSE 5}$"
+	.string "That's all there is to discuss regarding\n"
+	.string "the mysterious trainer. Now, let's move\l"
+	.string "on to the third and final reason why\l"
+	.string "you're here; let's talk about…$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_15:
-.string "RECLUTA: Disculpe, señor.\n"
-	.string "El LÍDER de GIMNASIO de CIUDAD FUCSIA\l"
-	.string "quiere verle inmediatamente, dice\l"
-	.string "que es urgente, señor.$"
+	.string "GRUNT: Excuse me, SIR.\p"
+	.string "FUCHSIA CITY GYM LEADER wants to see\n"
+	.string "you immediately. He says it's urgent.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_16:
-.string "GIOVANNI: Hacedle pasar.$"
+.string "GIOVANNI: Let him in.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_17:
-.string "GIOVANNI: Espero que tu causa sea\n"
-	.string "de fuerza mayor, KOGA.\l"
-	.string "Acabas de interrumpir mi reunión\l"
-	.string "con el joven recluta {PLAYER}.$"
+	.string "GIOVANNI: This had better be important,\n"
+	.string "KOGA. You've just interrupted my\l"
+	.string "meeting with HIGH RANK {PLAYER}.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_18:
-.string "KOGA: Haven't you heard?\n"
-	.string "A KANGASKHAN has been\l"
-	.string "spotted deep in ROCK TUNNEL!$"
+.string "KOGA: Haven't you heard?\p"
+	.string "A KANGASKHAN has been spotted!\p"
+	.string "Deep in ROCK TUNNEL!$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_19:
 .string "GIOVANNI: Go on.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_20:
-.string "KOGA: Si eso llegara a ser cierto,\n"
-	.string "la ZONA SAFARI perdería una enorme\l"
-	.string "cantidad de público, lanzándose a\l"
-	.string "la caza del raro POKÉMON maternal\l"
-	.string "por su cuenta.$"
+	.string "KOGA: If that's true, the SAFARI ZONE\n"
+	.string "could lose a massive number of visitors,\l"
+	.string "with everyone rushing off to hunt the\l"
+	.string "rare maternal POKÉMON on their own!$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_20.1:
-	.string "Hemos vendido la ZONA SAFARI como\n"
-	.string "un lugar único, en el que existen\l"
-	.string "POKÉMON que solo pueden encontrarse\l"
-	.string "allí, KANGASKHAN es uno de los mayores\l"
-	.string "símbolos de esa flora y fauna.$"
+	.string "We sold the SAFARI ZONE as a unique,\n"
+	.string "place, the only one where certain POKÉMON\l"
+	.string "can be found, and we converted KANGASKHAN\l"
+	.string "into the main symbol of that.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_20.2:
-	.string "Su procedencia supuestamente es\n"
-	.string "debida a nuestra crianza en\l"
-	.string "cautiverio, y a nada más.\l"
-	.string "No pueden surgir de la nada, alguien\l"
-	.string "debió de hacer la gracia, soltando\l"
-	.string "uno atrapado allí.$"
+	.string "We claimed it's only there due to our\n"
+	.string "breeding, nothing else.\p"
+	.string "It can't just appear out of nowhere!\p"
+	.string "Someone must have let a captured\n"
+	.string "KANGASKHAN loose from our SAFARI!$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_21:
-.string "KOGA: GIOVANNI, como dueño del 20%\n"
-	.string "de las acciones totales de la ZONA\l"
-	.string "SAFARI que eres, vengo a informarte,\l"
-	.string "pero sobre todo a pedirte que te\l"
-	.string "hagas cargo de esta situación.$"
+	.string "KOGA: GIOVANNI, you own 20% of the\n"
+	.string "SAFARI ZONE's total shares!\p"
+	.string "I'm not just informing you, I'm begging\n"
+	.string "you to take control of this situation.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_21.1:
-	.string "Las pérdidas serían millonarias al\n"
-	.string "instante de confirmarse este rumor,\l"
-	.string "y nuestra imagen de exclusividad se\l"
-	.string "rompería en pedazos.$"
+	.string "If this rumor is confirmed, our losses\n"
+	.string "would be catastrophic!\p"
+	.string "The entire image of the SAFARI ZONE's\n"
+	.string "exclusivity would be ruined!$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_22:
-.string "GIOVANNI: Entiendo, KOGA.\n"
-	.string "Me haré cargo de la situación,\l"
-	.string "pero ya sabes lo que pienso.$"
+	.string "GIOVANNI: I understand, KOGA.\p"
+	.string "TEAM ROCKET will handle this, no\n"
+	.string "need to worry.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_22.1:
-	.string "ZONA SAFARI fue una gran inversión,\n"
-	.string "que con el paso del tiempo ha ido a\l"
-	.string "menos. Incluso bajando los precios a\l"
-	.string "niveles ridículos, la gente cada\l"
-	.string "vez va menos, este movimiento solo\l"
-	.string "retrasará su inevitable caída.$"
+    .string "But{PAUSE 15}…{PAUSE 15} you already know how I feel\n"
+	.string "about the SAFARI ZONE: it was a great\l"
+	.string "investment once, but it's been in\l"
+	.string "decline for a while now; even with\l"
+	.string "prices slashed to ridiculous levels,\l"
+	.string "people keep losing interest.\p"
+	.string "This move will only delay the inevitable.$"
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_22.2:
-	.string "Mi pronóstico es que en menos de 3\n"
-	.string "años dejará de existir. Aun así,\l"
-	.string "el frenar esa caída puede suponer\l"
-	.string "varias decenas de millones de\l"
-	.string "ganancias respecto a dejarla caer.$"
+    .string "My prediction is clearIn less than 3\n"
+	.string "years, I expect it'll be gone. But,\l"
+	.string "if we can slow that fall, we can still\l"
+	.string "make millions with that.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_23:
-.string "KOGA: Cuento contigo, entonces.$"
+.string "KOGA: I'm counting on you, then.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_24:
 	.string "GIOVANNI: No one who isn't a ROCKET will\n"
-	.string "leave that place with a KANGASKHAN if\l"
+	.string "leave that place with a KANGASKHAN, if\l"
 	.string "there is one to be found.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_25:
-	.string "KOGA: I'll be keeping an eye on the news.\n"
+	.string "KOGA: I'll be keeping an eye on the news.\p"
 	.string "We need to act fast; the area will soon\l"
 	.string "be swarming with gawkers hoping for a\l"
 	.string "glimpse.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_26:
-.string "GIOVANNI: Eso es todo, KOGA.\n"
-	.string "Te haré saber lo ocurrido, ahora si me\l"
-	.string "disculpas, tengo una charla por terminar.$"
+	.string "GIOVANNI: That's all, KOGA.\p"
+	.string "I'll send you the results.\p"
+	.string "Now, if you'll excuse me, I have\n"
+	.string "some business to finish.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_27:
-.string "KOGA: {PAUSE 15}… {PAUSE 15}…{PAUSE 15}\n"
-	.string "Viva la vieja KANTO.$"
+.string "KOGA: {PAUSE 15}… {PAUSE 15}…{PAUSE 15}\p"
+	.string "Long live old KANTO.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_28:
-.string "GIOVANNI: Cambio de planes, {PLAYER}.\n"
-	.string "Ya has oído a KOGA, tu misión ahora\l"
-	.string "será limpiar hasta el último rincón\l"
-	.string "del TÚNEL ROCA.\l"
-	.string "Borra toda prueba, todo indicio\l"
-	.string "posible que pueda indicar que un\l"
-	.string "KANGASKHAN estuvo allí.$"
+	.string "GIOVANNI: Change of plans, {PLAYER}.\n"
+	.string "You heard KOKA: your mission now is to\l"
+	.string "scour every inch of the ROCK TUNNEL for\l"
+	.string "that supposed KANGASKHAN.\p"
+	.string "Erase any evidence, every possible trace\n"
+	.string "that could indicate a KANGASKHAN was\l"
+	.string "ever there. Leave nothing behind.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_29:
-.string "Podrás encontrar el TÚNEL ROCA\n"
-	.string "pasando primero por la VÍA\l"
-	.string "SUBTERRÁNEA, al este de la ciudad.\l"
-	.string "A partir de ahí no tiene pérdida,\l"
-	.string "llegarás a PUEBLO LAVANDA, y una\l"
-	.string "vez allí, el TÚNEL ROCA está al\l"
-	.string "norte.$"
+	.string "To reach ROCK TUNNEL, take the\n"
+	.string "UNDERGROUND PATH, east of CELADON.\l"
+	.string "Once you exit, head straight to\l"
+	.string "LAVENDER TOWN; once there, you'll\l"
+	.string "find the tunnel just to the north.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_30:
-.string "Eso es todo, {PLAYER}.\n"
-	.string "Si ese KANGASKHAN existe, hazte con\l"
-	.string "él y tráelo aquí como prueba.$" 
-	
+	.string "That's all, {PLAYER}.\p"
+	.string "If that KANGASKHAN exists, capture\n"
+	.string "it and bring it here as proof.$"
+
 RocketHideout_4F_Giovanni_Mision_1_Texto_30.1:
-	.string "Otra cosa más, evita la TORRE POKÉMON\n"
-	.string "de PUEBLO LAVANDA. No quiero ROCKETS\l"
-	.string "en ese lugar, al menos por ahora\l"
-	.string "¿entendido?$"
+	.string "And{PAUSE 15}…{PAUSE 15} one more thing.\n"
+	.string "Stay away from LAVENDER's POKÉMON TOWER.\p"
+	.string "I don't want any ROCKET there,\n"
+	.string "at least not for now. Understood?$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_31:
-.string "GIOVANNI: ¡Entonces, a trabajar!$"
+    .string "GIOVANNI: Then get to work!$"
 
 
 RocketHideout_4F_Giovanni_Mision_1_move_1:
@@ -1502,50 +1488,45 @@ face_down
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
-.string "GIOVANNI: ¡{PLAYER}, qué oportuno!\p"
-	.string "Ya me han informado de tu\n"
-	.string "excelente trabajo, quitándole el\l"
-	.string "KANGASKHAN de las manos a ese\l"
-	.string "miserable en el último momento.$"
+	.string "Ah, {PLAYER}, excellent timing!\p"
+	.string "I've already been informed of how you\n"
+	.string "skillfully snatched that KANGASKHAN\l"
+	.string "from that opportunist's grasp.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
-.string "Tengo entendido que ese científico\n"
-	.string "ya se aprovechó antes de la\l"
-	.string "situación, en el MT.MOON. Has de\l"
-	.string "saber que no es la primera vez que\l"
-	.string "nos da problemas, es una especie\l"
-	.string "de oportunista, un carroñero,\l"
-	.string "fanático de los POKÉMON raros.\p"
-	.string "Hará todo para obtenerlos, sin importar\n"
-	.string "los medios, igual que BILL, pero\l"
-	.string "sin sus recursos económicos.$"
-	
+	.string "Wll, I know that scientist has taken\n"
+	.string "advantage of situations before, like at\l"
+	.string "MT. MOON. You should know this isn't the\l"
+	.string "first time he's caused us trouble; he's\l"
+	.string "a scavenger, obsessed with rare POKÉMON,\l"
+	.string "and willing to do anything to get them,\l"
+	.string "no matter the cost. He's like BILL, but\l"
+	.string "without the financial backing.$"
+
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2.1:
-	.string "Me alegra que hayas puesto en su\n"
-	.string "lugar a ese cobarde, en el nombre\l"
-	.string "del TEAM ROCKET. Eso, junto a encontrar\l"
-	.string "al famoso KANGASKHAN, merecen una buena\l"
-	.string "recompensa.$"
+	.string "I'm glad you put such coward in his\n"
+	.string "place. That, along with capturing\l"
+	.string "gthe infamous KANGASKHAN, certainly\l"
+	.string "deserves a reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3:
-	.string "¡Te has embolsado 95.000¥!$"
+	.string "You just earnt ¥95,000!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4:
-.string "GIOVANNI: Y aún más. Para celebrar\n"
-	.string "tu venganza sobre ese aprovechado,\l"
-	.string "el TEAM ROCKET te recompensará\l"
-	.string "también con un KABUTO.$"
+	.string "GIOVANNI: And there's more to celebrate.\p"
+	.string "TEAM ROCKET will also reward you\n"
+	.string "with a KABUTO.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
-.string "Técnicamente estás recuperando el\n"
-	.string "FÓSIL DOMO que te fue arrebatado\l"
-	.string "en su momento, y con intereses. Ya\l"
-	.string "convertido en KABUTO y criado hasta\l"
-	.string "el nivel 28, si no recuerdo mal.$"
+	.string "Technically, you're reclaiming the DOME\n"
+	.string "FOSSIL that scientist took from you at\l"
+	.string "MT. MOON, with interest: now revived\l"
+	.string "into a KABUTO and raised to level 28,\l"
+	.string "if I'm not mistaken.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5.1:
-	.string "¡PROTÓN!\p"
-	.string "¡Entrega el KABUTO a {PLAYER}!$"
+	.string "PROTÓN!\p"
+	.string "Hand over the KABUTO to {PLAYER}!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6:
 .string "PROTON: With pleasure, boss.$"
@@ -1554,127 +1535,125 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1:
 .string "Obtained a LV.28 KABUTO!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
-.string "GIOVANNI: Técnicamente, su valor es\n"
-	.string "de varios cientos de miles en\l"
-	.string "el mercado negro, pero tu\l"
-	.string "historia con este FÓSIL vale más\l"
-	.string "que todo eso{PAUSE 15}…{PAUSE 15}$"
+	.string "GIOVANNI: Technically, this fossil is\n"
+	.string "worth hundreds of thousands of -¥ -\l"
+	.string "on the black market, but your history\l"
+	.string "with it makes it worth even more…$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8:
-.string "Por ahora, el tema queda zanjado.\p"
-	.string "Examinaremos a ese KANGASKHAN, para\n"
-	.string "determinar su procedencia; sigue\l"
-	.string "siendo todo un misterio su presencia\l"
-	.string "en el TÚNEL ROCA.$"
+	.string "With that settled, we'll examine this\n"
+	.string "KANGASKHAN to determine its true origin.\l"
+	.string "It's still a mystery how a POKÉMON\l"
+	.string "like that ended there.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_9:
-.string "Bien, {PLAYER}. En tu última misión\n"
-	.string "te recalqué la importancia de no\l"
-	.string "acercarte a la TORRE POKÉMON, ese\l"
-	.string "lugar está muy relacionado con\l"
-	.string "nuestro próximo movimiento{PAUSE 5}…{PAUSE 5}$"
+	.string "During your last mission, I emphasized\n"
+	.string "the importance of staying away from\l"
+	.string "POKÉMON TOWER. That place is closely\l"
+	.string "tied to our next move…$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_10:
-.string "Vamos a enviar a un pelotón\n"
-	.string "completo, para recolectar el máximo\l"
-	.string "número de cráneos de CUBONE posible.\l"
-	.string "Algo de gran valor en el mercado negro.$"
+	.string "We're deploying a full squad to the\n"
+	.string "POKÉMON TOWER to gather as many CUBONE\l"
+	.string "skulls as possible. They hold immense\l"
+	.string "value on the black market.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11:
-.string "Sin embargo, esta es solo la\n"
-	.string "tapadera, la excusa hacia la que\l"
-	.string "todos mirarán debido a nuestra\l"
-	.string "fama.$"
-	
-RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11.1:
-	.string "El verdadero objetivo es llamar la\n"
-	.string "atención de FUJI, para que acuda a\l"
-	.string "TORRE POKÉMON en el momento exacto{PAUSE 5}…{PAUSE 5}$"
+	.string "However{PAUSE 25}…{PAUSE 25} this is merely the cover story,\n"
+	.string "the distraction everyone will focus on,\l"
+	.string "due to our reputation.$"
 
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11.1:
+	.string "The main goal is to lure MR. FUJI\n"
+	.string "into the POKÉMON TOWER at the right\l"
+	.string "moment{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_12:
-.string "FUJI fue uno de nuestros mejores\n"
-	.string "científicos en el pasado.\l"
-	.string "Es el único que conoce en detalle\l"
-	.string "datos cruciales de uno de nuestros\l"
-	.string "más grandes proyectos.$"
+	.string "FUJI was one of the greatest scientists\n"
+	.string "ever under our command. He's the only\l"
+	.string "one who knows the crucial details of\l"
+	.string "one of our greatest projects,\l"
+	.string "{PLAYER}.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13:
-.string "Tu misión es simple, {PLAYER}.$"
+.string "Then, that's the plan.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.1:
-	.string "PROTÓN se encargará de llevar a\n"
-	.string "FUJI hasta el último piso para\l"
-	.string "negociar en privado.$"
+	.string "PROTON will have a business meeting\n"
+	.string "with FUJI, at POKÉMON TOWER 7F.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.2:
-	.string "Mientras, tú te encargarás de garantizar\n"
-	.string "la confidencialidad de dicha reunión;\l"
-	.string "no quiero que absolutamente nadie\l"
-	.string "interceda mientras la negociación dure.\l"
-	.string "¿Ha quedado claro?$"
+	.string "Meanwhile, you'll be at the 6F.\p"
+	.string "So, in case that something happens, you\n"
+	.string "can warn both of them and also will be\l"
+	.string "guaranteeing the privacy of the meeting.\l"
+	.string "No KANTO citizen must get to the 7F, at\l"
+	.string "least until the business talk is done.\p"
+	.string "Understood?$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14:
-.string "Perfecto, nada debe de salir mal\n"
-	.string "en esta misión.\l"
-	.string "Por ello, además del resto de reclutas,\l"
-	.string "formarás equipo con otro ENTRENADOR.\l"
-	.string "Diría que{PAUSE 15}…{PAUSE 15} ya os conocéis{PAUSE 5}…{PAUSE 5}$"
+.string "Good, nothing mustn't go wrong in this\n"
+	.string "mission, {PLAYER}. Because of that,\l"
+	.string "you will team up, apart from other\l"
+	.string "grunts, with a TRAINER that, as far as\l"
+	.string "I know, you already know each other…$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15:
-.string "GIOVANNI: ¿Sorprendido?\p"
-	.string "AZUL accedió a aliarse con\n"
-	.string "nosotros en su paso por el PUENTE\l"
-	.string "PEPITA, al tiempo de tu actuación\l"
-	.string "en la casa de BILL.\l"
-	.string "Su condición de nieto del PROF.OAK,\l"
-	.string "y rival directo de ROJO, hacen de\l"
-	.string "él un agente doble perfecto.$"
+	.string "GIOVANNI: Hmm{PAUSE 15}…{PAUSE 15} surprised?\n"
+	.string "BLUE agreed to become our ally while he was\l"
+	.string "crossing the NUGGET BRIDGE on ROUTE 24.\p"
+	.string "He's OAK's grandson and RED's direct\n"
+	.string "rival, that means{PAUSE 15}…{PAUSE 15} he's the perfect\l"
+	.string "person for becoming our double agent.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16:
-.string "AZUL: Así que el ROCKET del\n"
-	.string "SS.ANNE{PAUSE 15}…{PAUSE 15}$"
-	
+	.string "BLUE: So you're that ROCKET, the one\n"
+	.string "I fought in the SS. ANNE.$"
+
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16.1:
-	.string "Escondes bien a tus soldados más\n"
-	.string "valiosos, GIOVANNI. Ya podrías soltar\l"
-	.string "a más como {PLAYER} por las rutas, es\l"
-	.string "imposible seguir mejorando con gente\l"
-	.string "tan mediocre deambulando en ellas.$"
+	.string "Why are top ROCKETs so hidden, GIOVANNI?\p"
+	.string "You'd deploy more GRUNTs like {PLAYER}\n"
+	.string "all over the common ROUTES. It's hardly\l"
+	.string "impossible to train hard with the poor\l"
+	.string "staff around there.\p"
+	.string "Could you believe that most GRUNTs are\n"
+	.string "still carrying ZUBAT or RATTATA?\p"
+	.string "You'd fire 'em all ‘cause of\n"
+	.string "incompetents!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17:
-.string "GIOVANNI: Te queda mucho por ver\n"
-	.string "de esta región, jovencito. Si crees\l"
-	.string "que los LÍDERES DE GIMNASIO son lo\l"
-	.string "mejor de por aquí, estás muy errado.$"
+    .string "GIOVANNI: You are still too young for\n"
+	.string "knowing about your own region, BLUE.\l"
+	.string "GYM LEADERS aren't the best TRAINERs;\l"
+	.string "current KANTO is drowned in mediocrity.\l"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.1:
-	.string "Las auténticas leyendas de KANTO, así\n"
-	.string "como las de JOHTO, tienden a permanecer\l"
-	.string "en las sombras.$"
+	.string "Real top KANTO TRAINERs, as well as\n"
+	.string "the JOHTO ones, tend to remain in the\l"
+	.string "shadows.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.2:
-	.string "Pero no te culpo, esta es ahora la\n"
-	.string "nueva KANTO, y la única que gente a\l"
-	.string "partir de tu edad conocerá.$"
+	.string "But I don't blame you, this is now\n"
+	.string "the 'NEW KANTO', indeed, the only\l"
+	.string "one for new TRAINERs like you.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.3:
-	.string "AZUL: Mmm{PAUSE 15}…{PAUSE 15}$"
+	.string "BLUE: Mmm{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18:
-.string "Volviendo al plan: la única variable\n"
-	.string "capaz de torcerlo es ROJO, mis fuentes\l"
-	.string "lo sitúan en RUTA 10, ya en TÚNEL ROCA.$"
+	.string "Back to the plan, only RED could ruin it.\n"
+	.string "My sources ubicates him at ROUTE 10,\l"
+	.string "near ROCK TUNNEL.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.1:
-	.string "Por su ritmo de avance, todo apunta\n"
-	.string "a que llegará a PUEBLO LAVANDA en plena\l"
-	.string "misión. Si por algún casual decide\l"
-	.string "colarse en la TORRE POKÉMON, no podemos\l"
-	.string "arriesgarnos a tener un MT.MOON 2.0.$"
+	.string "According to his rate of progress, he\n"
+	.string "shall arrive to LAVENDER TOWN at the\l"
+	.string "same time as the mission.\p"
+	.string "If he enters POKÉMON TOWER, we\n"
+	.string "can't risk having a MT. MOON 2.0.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.2:
-	.string "Aquí es donde entras tú, AZUL.$"
+	.string "This is when you will act, BLUE.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
 .string "Se te avisará de la llegada de\n"
@@ -1686,41 +1665,40 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
 	.string "convencerlo para que dé media vuelta.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1:
-	.string "Háblale de los fantasmas, de que\n"
-	.string "necesita un SCOPE SILPH{PAUSE 15}…{PAUSE 15}\l"
-	.string "Si decidiese subir de todos modos,\l"
-	.string "avisa a {PLAYER} inmediatamente.$"
+	.string "Talk him about the GHOST, about the\l"
+	.string "SCOPE SILPH needed{PAUSE 15}…{PAUSE 15} if he continues ahead\l"
+	.string "anyways, notify {PLAYER} immediately.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2:
-	.string "Por otro lado, esto es para\n"
-	.string "vosotros, un SCOPE SILPH.\l"
-	.string "Con ello podréis capturar cualquier\l"
-	.string "fantasma dentro de TORRE POKÉMON.$"
+	.string "By the way, that's for you,\n"
+	.string "a SCOPE SILPH.\p"
+	.string "With that, you'll be able to see\n"
+	.string "and catch the POKÉMON TOWER GHOSTs.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3:
-.string "¡{PLAYER} obtuvo un SCOPE SILPH!$"
+.string "{PLAYER} obtained a SCOPE SILPH!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20:
 	.string "{PLAYER}! I don't want you to seek\n"
 	.string "revenge with RED, in case you get\l"
 	.string "notified of his imminent arrival, go up\l"
-	.string "to the last floor and you will notify\l"
-	.string "PROTON, that's the only reason to\l"
-	.string "interrupt their meeting.$"
+	.string "to the last floor and notify PROTON!\p"
+	.string "That's the only reason to\n"
+	.string "interrupt their meeting!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_21:
-	.string "BLUE: Why do you care that much about\n"
-	.string "RED! If I fight together with\l"
-	.string "{PLAYER} for sure we would defeat\l"
-	.string "him!$"
+	.string "BLUE: Why do you care that much\n"
+	.string "about RED?!\p"
+	.string "If I fight along with {PLAYER}, we\n"
+	.string "could defeat him, for sure!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22:
 	.string "GIOVANNI: The truth is that no one\n"
 	.string "actually was even close to defeating\l"
-	.string "him, to an unattainable strength we\l"
+	.string "him, to an unattainable strength, we\l"
 	.string "just can use our cunning to make him\l"
-	.string "appear where we want…{PAUSE 25} and gain some\l"
-	.string "time.$"
+	.string "appear where we want{PAUSE 15}…{PAUSE 15} and gain\l"
+	.string "some time.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
 .string "BLUE: Hmph!\p"
@@ -1728,18 +1706,18 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
 	.string "RED, you are going to see.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24:
-.string "GIOVANNI: Algo arrogante y\n"
-	.string "prepotente, pero con potencial{PAUSE 25}…{PAUSE 25}$"
+	.string "GIOVANNI: As arrogant and prepotent\n"
+	.string "as his grandfather.\p"
+	.string "Let's see if he is as talented.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.1:
-	.string "PROTÓN se reunirá en breves\n"
-	.string "contigo, {PLAYER}. Adelántate junto\l"
-	.string "con el resto de reclutas para iniciar\l"
-	.string "el señuelo de los CUBONE, y atraer a\l"
-	.string "FUJI.$"
+	.string "PROTON will meet you soon, {PLAYER},\n"
+	.string "get ahead along all the rest of GRUNTs\l"
+	.string "to start with the CUBONEs lure and\l"
+	.string "attract FUJI.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24.2:
-	 .string "Cuento contigo.$"
+	 .string "I count on you.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1:
 walk_up
@@ -2039,120 +2017,122 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1:
 	.string "infiltrated into our BASE!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
-	.string "GIOVANNI: Oh, we don't need to keep\n"
-	.string "spying to get information about him, he\l"
-	.string "just came to the lion's den.$"
+	.string "GIOVANNI: Oh! We don't need to keep\n"
+	.string "spying to get information about him,\l"
+	.string "he just came to the lion's den.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
-	.string "GRUNT: Sir orders! All of us are falling\n"
+	.string "GRUNT: SIR, orders! All of us are falling\n"
 	.string "as dominoes tokens against their\l"
 	.string "POKÉMON power!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
 	.string "PROTON: Call all HIGH-RANK GRUNTs and\n"
-	.string "EXECUTIVEs available in the BASE!\l"
+	.string "EXECUTIVEs available in the BASE!\p"
 	.string "Protect the access to our LEADER!\p"
 	.string "If the situation requires it, resort\n"
-	.string "to our special specimens roo…$"
+	.string "to our special specimens ro…$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5:
-.string "GIOVANNI: HOLD ON!$"
+.string "GIOVANNI: HOLD ON!!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_6:
-.string "GIOVANNI: No vamos a hacer nada\n"
-	.string "de eso, PROTÓN.$"
+.string "We are not going to do any\n"
+	.string "of that, PROTON.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_7:
-.string "PROTÓN: P{PAUSE 15}-{PAUSE 15}pero señor{PAUSE 15}…{PAUSE 15}$"
+.string "PROTON: B{PAUSE 15}…{PAUSE 15}but{PAUSE 15}…{PAUSE 15} SIR{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8:
-.string "GIOVANNI: Quiero a todos los\n"
-	.string "EJECUTIVOS y ROCKET DE ALTO RANGO\l"
-	.string "dentro de la BASE ROCKET PROFUNDA.$"
+	.string "GIOVANNI: I want all EXECUTIVEs and\n"
+	.string "HIGH RANK GRUNTs inside DEEP ROCKET\l"
+	.string "BASE right now.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8.1:
-	.string "¡YA!$"
+	.string "RIGHT NOW!!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_9:
-.string "RECLUTA: ¡A sus órdenes, JEFE!$"
+	.string "GRUNT: As you wish, BOSS!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_10:
 	.string "GIOVANNI: PROTON, provide me detailed\n"
-	.string "information about his team and the\l"
-	.string "actual level that manages the CELADON\l"
-	.string "CITY GYM LEADER, ERIKA.$"
+	.string "information about his team, and the\l"
+	.string "current level that manages the\l"
+	.string "CELADON CITY GYM LEADER.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_11:
-.string "PROTON: Right away sir.$"
+.string "PROTON: SIR? {PAUSE 15}…{PAUSE 15} Right away.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_12:
-	.string "PROTON: The LEADER ERIKA has today a\n"
-	.string "VICTREEBEL at level 29, a TANGELA at\l"
-	.string "level 24 and a VILEPLUME at level 29.$"
+	.string "PROTON: The LEADER ERIKA uses, for new\n"
+	.string "challengers, a LV.29 VICTREEBEL, a LV.24\l"
+	.string "TANGELA, and a LV.29 VILEPLUME.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_13:
 	.string "GIOVANNI: All right, what level has the\n"
-	.string "lost KANGASKHAN that {PLAYER}\l"
-	.string "caught at ROCK TUNNEL?$"
+	.string "lost KANGASKHAN?\p"
+	.string "The one {PLAYER} caught at ROCK TUNNEL.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_14:
-.string "PROTON: Exactly at level 29, sir.$"
+.string "PROTON: Exactly at LV.29, SIR.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_15:
 	.string "GIOVANNI: Well…{PAUSE 25} feels perfect as a\n"
-	.string "hierarchy that miserable trainer could\l"
-	.string "expect for someone like me, bring that\l"
+	.string "hierarchy that miserable TRAINER could\l"
+	.string "expect from someone like me; bring that\l"
 	.string "KANGASKHAN and some other two POKÉMON\l"
 	.string "of slightly lesser strength and level,\l"
-	.string "an ONYX and RHYHORN to fit in well.$"
+	.string "an ONYX and RHYHORN would work.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_16:
-.string "PROTON: Right away, sir.$"
+.string "PROTON: Right away, SIR.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17:
-.string "GIOVANNI: Nunca enseñes todas las\n"
-	.string "cartas a tu enemigo, {PLAYER}.\l"
-	.string "Por muy fuerte que ese ROJO sea, nunca\l"
-	.string "podrá combatir contra algo que siquiera\l"
-	.string "sabe de su existencia.$"
+	.string "GIOVANNI: Never show your cards to the\n"
+	.string "enemy, {PLAYER}: no TRAINER can fight\l"
+	.string "against something that doesn't even\l"
+	.string "know that exists, no matter how\l"
+	.string "strong he is.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17.1:
-	.string "Para cuando lo sepa, será demasiado\n"
-	.string "tarde para él, pues no habrá dispuesto\l"
-	.string "de tiempo para adaptarse, nunca\l"
-	.string "llegará a nuestro nivel combatiendo con\l"
-	.string "la mediocridad que abunda en los\l"
-	.string "pueblos y ciudades de la KANTO actual.$"
+	.string "And{PAUSE 15}…{PAUSE 15} it will be too late when he\l"
+	.string "notices, as there won't be enough time\l"
+	.string "to adapt, he will never reach our level\l"
+	.string "fighting against the mediocrity that\l"
+	.string "surrounds the current towns and cities\l"
+	.string "of our dear KANTO.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_18:
-.string "PROTÓN: Aquí tiene, señor.$"
+.string "PROTON: Here you go, sir.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19:
-.string "GIOVANNI: No quiero que cometas\n"
-	.string "ninguna estupidez, {PLAYER}.\l"
-	.string "Sé que deseas medir fuerzas con ese\l"
-	.string "ENTRENADOR, y vengarte por tu\l"
-	.string "derrota en el MT.MOON.$"
+	.string "GIOVANNI: I don't want you to act as a\n"
+	.string "fool right now, {PLAYER}, I know that\l"
+	.string "you want to fight against that TRAINER,\l"
+	.string "after the MT. MOON defeat.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19.1:
-	.string "Ahora eres más fuerte y capaz que en\n"
-	.string "ese entonces, pero aún no es el\l"
-	.string "momento; lo prioritario ahora es\l"
-	.string "mantener a ese chico en la ignorancia,\l"
-	.string "al menos hasta averiguar sus intenciones{PAUSE 5}…{PAUSE 5}$"
+	.string "You have become stronger, but not enough.\p"
+	.string "Moreover, this is not the time, not until\n"
+	.string "we know his true intentions,\p"
+	.string "Remember this, the most powerful piece\n"
+	.string "is not the one that begins by showing\n"
+	.string "its strength, but the one that knows\l"
+	.string "how to wait for the perfect moment to\l"
+	.string "reveal it.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_20:
-	.string "GRUNT: Sir, he has just got the LIFT KEY\n"
-	.string "from a grunt. There's nothing to prevent\l"
-	.string "him from reaching you now.$"
+	.string "GRUNT: SIR! He got a LIFT KEY!\p"
+	.string "There's nothing to prevent him\n"
+	.string "from reaching you to this point!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_21:
-	.string "GIOVANNI: Good. {PLAYER}! PROTON!\p"
+	.string "GIOVANNI: Amazing. {PLAYER}! PROTON!\p"
 	.string "Get inside now! You all will be told when\n"
 	.string "this is over!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_22:
-	.string "PROTON: Sir, yes, sir!$"
+	.string "PROTON: SIR! Yes, SIR!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1:
 emote_exclamation_mark
@@ -2379,10 +2359,6 @@ delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6.2
 waitmovement 0x0
 delay 10
-msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.3 MSGBOX_AUTOCLOSE
-delay 10
-msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.4 MSGBOX_AUTOCLOSE
-delay 10
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2.4
 waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10 MSGBOX_AUTOCLOSE
@@ -2547,213 +2523,196 @@ RocketHideout_4F_Warp_Text_YesNo:
 	.string "entrance?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1:
-.string "GIOVANNI: Excelente trabajo, ANDRA.\n"
-	.string "Los DRATINI y SCYTHER recolectados en\l"
-	.string "la ZONA SAFARI se venderán a precio de\l"
-	.string "oro, como premio en el CASINO.\l"
-	.string "Aquí tienes tu recompensa.$"
+	.string "GIOVANNI: Excellent work in FUCHSIA,\n"
+	.string "ANDRA. Now those DRATINI and SCYTHER\l"
+	.string "will be sold at the price of gold as\l"
+	.string "prizes in the GAME CORNER.\p"
+	.string "Here is your reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2:
-.string "GIOVANNI: Tú también estás de\n"
-	.string "vuelta, {PLAYER}.\l"
-	.string "Mantuviste en privado, tal y como te\l"
-	.string "ordené, la conversación entre FUJI y\l"
-	.string "PROTÓN; una negociación clave para\l"
-	.string "nosotros, por ello, aquí tienes.$"
+	.string "GIOVANNI: You have returned as well,\n"
+	.string "{PLAYER}, you have maintained the\l"
+	.string "chat between FUJI and PROTON private,\l"
+	.string "as I instructed, which has been key for\l"
+	.string "us. Then you deserve your reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_3:
-	.string "¡Te has embolsado 135.000¥!$"
+	.string "You earned ¥135,000!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
-.string "GIOVANNI: Y otra cosa más, en el\n"
-	.string "nombre del TEAM ROCKET, te obsequio\l"
-	.string "con uno de los CUBONE robados en\l"
-	.string "la TORRE POKÉMON.\l"
-	.string "Pero no un CUBONE cualquiera, este\l"
-	.string "lleva equipado un HUESO GRUESO, objeto\l"
-	.string "que multiplica por 2 su ATAQUE, tanto a\l"
-	.string "CUBONE como a su evolución, MAROWAK.$"
+	.string "GIOVANNI: Also, in the name of TEAM\n"
+	.string "ROCKET, I'm rewarding you with one of the\l"
+	.string "CUBONES that were stolen from the\l"
+	.string "POKÉMON TOWER. But this is not an usual\l"
+	.string "one; this CUBONE has holding the\l"
+	.string "THICK CLUB, an object that duplicates\l"
+	.string "it's physical attack, even once\l"
+	.string "evolved into MAROWAK.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4.1:
-	.string "Un regalo digno de aquel que\n"
-	.string "pudo batir al MAROWAK de FUJI.\l"
-	.string "¿No crees?$"
+    .string "It's, certainly, a proper gift\n"
+	.string "for the one that, fighting FUJI,\l"
+	.string "made it's capture possible.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_5:
-.string "¡HAS RECIBIDO UN CUBONE AL NV.20!$"
+.string "YOU JUST RECEIVED A CUBONE AT LV:20!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_6:
-.string "GIOVANNI: Cerrando este tema…\n"
-	.string "Os interesará saber que, investigando al\l"
-	.string "KANGASKHAN encontrado en el TÚNEL ROCA,\l"
-	.string "vimos que su fisiología era muy similar\l"
-	.string "al de la línea evolutiva CUBONE-MAROWAK.$"
+	.string "GIOVANNI: To wrap up{PAUSE 15}…{PAUSE 15} You'll be\n"
+	.string "interested to know that, after a\l"
+	.string "research about the KANGASKHAN sighted\l"
+	.string "on the ROCK TUNNEL, we discovered\l"
+	.string "that it's physiology is particularly\l"
+	.string "similar to the evolution line of\l"
+	.string "CUBONE-MAROWAK.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7:
-.string "En la ZONA SAFARI, todos los KANGASKHAN\n"
-	.string "son criados en cautiverio.\l"
-	.string "Con todo tipo de comodidades, es natural\l"
-	.string "que las crías se desarrollen siempre\l"
-	.string "hasta alcanzar esa fase…$"
+.string "Well{PAUSE 15}…{PAUSE 15} In the SAFARI ZONE, all\n"
+	.string "KANGASKHAN grow in comfort, and the\l"
+	.string "offspring always develop until they\l"
+	.string "reach that stage{PAUSE 20}…{PAUSE 20}$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.1:
-	.string "Pero la línea evolutiva CUBONE-MAROWAK\n"
-	.string "no está clara; CUBONE surge como tal\l"
-	.string "en el momento de tomar el cráneo de su\l"
-	.string "madre fallecida.$"
+	.string "But the CUBONE-MAROWAK line is\n"
+	.string "uncertain; we know a CUBONE emerges\l"
+	.string "when it takes the skull of its\l"
+	.string "deceased mother.$"
 	
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.2:
-	.string "Sin embargo, ¿y si su madre no fallece?\n"
-	.string "¿En qué se convertiría CUBONE?$"
+	.string "However, what if MAROWAK lives?\p"
+	.string "What would the CUBONE become?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.3:
-	.string "Según lo que indica nuestro\n"
-	.string "estudio, en un KANGASKHAN.$"
+	.string "According to our research,\p"
+	.string "a KANGASKHAN.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8:
-.string "Esto es difícilmente demostrable.\n"
-	.string "Solo en el supuesto de que TORRE POKÉMON\l"
-	.string "dejara de existir, se podría ver lo\l"
-	.string "que ocurre con los CUBONE de allí que\l"
-	.string "emigren en masa hacia el TÚNEL ROCA.$"
-
+	.string "GIOVANNI: The most accurate way to\n"
+	.string "prove this would be to demolish the\l"
+	.string "POKÉMON TOWER, force all the CUBONE\l"
+	.string "there to migrate in mass to ROCK\l"
+	.string "TUNNEL, and let time pass.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9:
-    .string "TÚNEL ROCA es, en realidad, un lugar más\n"
-	.string "propicio para la reproducción y super-\l"
-	.string "vivencia de CUBONE que TORRE POKÉMON.$"
-
+    .string "If, with the passage of time, some\n"
+	.string "KANGASKHAN started appearing, more\l"
+	.string "frequently, it would constitute proof\l"
+	.string "of this link between species.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.1:
-.string "Si con el paso de generaciones comenzaran\n"
-	.string "a aparecer también KANGASKHAN, este\l"
-	.string "hecho constituiría una prueba irrefutable\l"
-	.string "del vínculo entre ambas especies.$"
-
+	.string "That means{PAUSE 15}…{PAUSE 15} the KANGASKHAN phenomenon in\l"
+	.string "ROCK TUNNEL was an isolated case of an\l"
+	.string "offspring that, without becoming a\l"
+	.string "CUBONE, migrated to the tunnel, managed\l"
+	.string "to survive, and became a KANGASKHAN on\l"
+	.string "its own.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.2:
-.string "Basándonos en esta hipótesis, la\n"
-	.string "presencia del KANGASKHAN que allí\l"
-	.string "capturaste, {PLAYER}, cobra sentido.$"
-
-
-RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.3:
-	.string "Así es, tal vez ese KANGASKHAN sea el\n"
-	.string "primer caso de una cría que, sin llegar\l"
-	.string "a ser CUBONE, emigró al túnel, logró\l"
-	.string "sobrevivir y se convirtió en KANGASKHAN\l"
-	.string "por su cuenta.$"
-
-RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.4:
-	.string "Tal vez sea un fenómeno que veamos\n"
-	.string "cada vez con más frecuencia, solo\l"
-	.string "tiempo lo dirá.$"
+    .string "Maybe a phenomenon that we will\n"
+	.string "observe increasingly over time.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10:
-.string "GIOVANNI: Dejando esto de lado, y\n"
-	.string "aprovechando que ambos estáis aquí, es\l"
-    .string "el momento de dar el siguiente paso.$"
+.string "But that's enough for this.\p"
+	.string "I would like to take this opportunity,\n"
+	.string "with you two here, to acknowledge\l"
+	.string "your competence.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.1:
-    .string "ANDRA: ¿A qué se refiere?$"
+    .string "ANDRA: What do you mean?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.2:
-	.string "GIOVANNI: Los dos habéis demostrado ser\n"
-	.string "competentes y dignos de confianza.\l"
-	.string "Ya lleváis 6 misiones con nosotros,\l"
-	.string "cumpliendo deforma satisfactoria en 5\l"
-	.string "de ellas, muy pocos pueden decir eso\l"
-	.string "en tan poco tiempo.$"
+	.string "GIOVANNI: Both of you have completed 6\n"
+	.string "missions with us, and have succeeded\l"
+	.string "in 5 of them.\p"
+	.string "These missions has earned you a\n"
+	.string "good amount of income.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_11:
-.string "Pero, como habréis podido comprobar,\n"
-	.string "el TEAM ROCKET tiene vetada su\l"
-	.string "presencia en cualquier comercio\l"
-	.string "público de la región, incluso del\l"
-	.string "CENTRO COMERCIAL AZULONA.$"
+    .string "However, as you have been able\n"
+	.string "to verify, TEAM ROCKET is banned\l"
+	.string "from entering any public pokémart in\l"
+	.string "the region, including this city's main\l"
+	.string "shopping center.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_12:
-.string "Pese a ello, no debéis preocuparos.\n"
-	.string "Sé que dos ALTO RANGO en ascenso\l"
-	.string "estarán ansiosos de poder invertir el\l"
-	.string "dinero que buenamente han ganado en\l"
-	.string "mejorar aún más a sus POKÉMON.$"
+.string "But there is no need to worry.\p"
+	.string "I know that two TRAINERS like yourselves\n"
+	.string "will be eager to invest that\l"
+	.string "hard'earned money into improving\l"
+	.string "even more your POKÉMON team.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_13:
-.string "En esta organización nunca dejamos\n"
-	.string "nada al azar, hace ya tiempo que\l"
-	.string "nos procuramos una inmensa red comercial\l"
-	.string "privada, mayor que la propia oferta\l"
-	.string "impuesta y fijada por esas sanguijuelas\l"
-	.string "de la MESETA AÑIL.$"
+    .string "In this organization, we never leave\n"
+	.string "anything to chance.\p"
+	.string "Time ago, we established an immense\n"
+	.string "private commercial network, larger than\l"
+	.string "the supply imposed and set by those\l"
+	.string "leeches of the INDIGO PLATEAU.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14:
-.string "A vuestra llegada aquí, se os avisó\n"
-	.string "de que poco a poco iríais descubriendo\l"
-	.string "algunos de los secretos que el TEAM\l"
-	.string "ROCKET guarda.$"
+.string "When you arrived at this HQ, I told both\n"
+	.string "of you that I would be showing you some\l"
+	.string "secrets of our organization but only\l"
+	.string "when you'd have gained some experience.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.1:
-	.string "Pues bien{PAUSE 25}…{PAUSE 25} ha llegado el momento de\n"
-	.string "desvelar uno de ellos.$"
+	.string "Well, now I'll show you one of\n"
+	.string "them…{PAUSE 30}$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.2:
-	.string "¡PROTÓN!$"
+	.string "PROTON!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_15:
-.string "PROTÓN: A la orden, jefe.$"
+    .string "PROTON: As you wish, sir.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16:
 .string "ANDRA: Wow! A secret base hidden inside\n"
 	.string "a secret base? How clever!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17:
-.string "GIOVANNI: Así es, ANDRA.\n"
-	.string "Lo verdaderamente importante de este\l"
-	.string "lugar se encuentra a partir de esas\l"
-	.string "escaleras, muchos piensan que el\l"
-	.string "CASINO es la tapadera de esta BASE.$"
+.string "GIOVANNI: Indeed, ANDRA; in fact, it's\n"
+	.string "downstairs where what truly matters is.\p"
+	.string "Many people believe in the GAME CORNER\n"
+	.string "as a cover'up for this base.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17.1:
-	.string "Pero se equivocan…\n"
-	.string "Esta BASE es la tapadera de lo que\l"
-	.string "ahí abajo hay realmente.$"
+	.string "But they're wrong{PAUSE 20}…{PAUSE 20} This base\n"
+	.string "is the cover'up for what's downstairs.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18:
-.string "Espero que seáis conscientes de la\n"
-	.string "magnitud de este secreto.\l"
-	.string "Si las autoridades de KANTO tuvieran\l"
-	.string "la más mínima idea de la que tenemos\l"
-	.string "aquí montada, no dudarían en destinar\l"
-	.string "todos sus recursos en destruirnos.$"
+    .string "I hope you are aware of what\n"
+	.string "I have just shown you.\p"
+	.string "If the authorities had any idea of what\n"
+	.string "we have here, they wouldn't hesitate to\l"
+	.string "bomb the GAME CORNER along the entire\l"
+	.string "CELADON CITY if necessary.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19:
-.string "GIOVANNI: Solo nuestros científicos y\n"
-	.string "soldados a partir de ALTO RANGO tienen\l"
-	.string "acceso a este lugar, podréis entrar\l"
-	.string "siempre y cuando queráis, interactuando\l"
-	.string "con el PC de PROTÓN.$"
+.string "Only our top scientists and HIGH RANK\n"
+	.string "GRUNTs can access there, now, you can\l"
+	.string "access it whenever you want, by just\l"
+	.string "interacting with PROTON's laptop.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20:
-.string "GIOVANNI: Eso es todo por ahora.\p"
-	.string "A falta de nuevas misiones, os\n"
-	.string "concedo tiempo libre para que\l"
-	.string "exploréis la -BASE ROCKET PROFUNDA-.$"
+    .string "That's all, for now.\p"
+	.string "You have no new missions, so you may\l"
+	.string "have some time off to explore the\l"
+	.string "- DEEP ROCKET BASE -.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20.1:
-	.string "Así, os iréis haciendo una idea de en\n"
-	.string "qué invertimos todos nuestros recursos.$"
+	.string "There, you'll get acknowledgement about\n"
+	.string "how we really invest our resources.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_21:
-.string "ANDRA: ¡Todo un honor que deposite\n"
-	.string "su confianza en nosotros, GIOVANNI!$"
+.string "ANDRA: It's quite an honor that you\n"
+	.string "trust us this much, GIOVANNI!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_22:
-.string "ANDRA: Nos vemos allí abajo, {PLAYER}.\p"
-	.string "¡Voy a disfrutar como una niña,\n"
-	.string "explorando cada rincón de uno\l"
-	.string "de los lugares más secretos y\l"
-	.string "confidenciales de esta región!$"
+.string "Well, see ya down there, {PLAYER}!\p"
+	.string "I'm gonna enjoy it like a kid,\n"
+	.string "exploring every meter of one of the\l"
+	.string "most secret and confidential places\l"
+	.string "in this region!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_1:
 face_left
@@ -3119,125 +3078,120 @@ release
 end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1:
-.string "????: Ya no tienes la sartén por\n"
-	.string "el mango, LANCE.\p"
-	.string "Sugiero que te calmes.$"
+.string "????: You no longer have the upper hand,\n"
+	.string "LANCE, now you better calm down.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1:
-	.string "????: Pero{PAUSE 25}…{PAUSE 25} ahora vienes a mí a decir{PAUSE 25}…{PAUSE 25}\n"
-	.string "que lleve todo esto de la forma más\l"
-	.string "justa posible y escuche tus exigencias.$"
+.string "????: But{PAUSE 15}…{PAUSE 15} Now you come to me to say{PAUSE 15}…{PAUSE 15}\p"
+	.string "That I take this in the most fair way\n"
+	.string "possible, hearing your demands.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2:
-.string "GIOVANNI: Si quieres conservar parte de\n"
-	.string "tus privilegios y tu poder, deberás\l"
-	.string "cumplir con las siguientes condiciones{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: If you want to keep some of\n"
+	.string "your privileges and power, you shall\l"
+	.string "accept those conditions…$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3:
-.string "Provocar la renuncia de ROJO al título\n"
-	.string "de CAMPEÓN, y borrarlo del mapa.\p"
-	.string "Quiero fuera de juego a ese experimento\n"
-	.string "de OAK, llevadlo a algún lugar apartado\l"
-	.string "y decid a los medios que está realizando\l"
-	.string "una especie de entrenamiento secreto.$"
+.string "Cause the resignation of RED from the\n"
+	.string "CHAMPION title, and wipe him from the\l"
+	.string "map, I want that crazy OAK experiment\l"
+	.string "out of the game; take him to an isolated\l"
+	.string "place and tell the media he is realizing\l"
+	.string "some sort of secret training.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4:
-.string "Con ello, mantendréis a AZUL como\n"
-	.string "vigente CAMPEÓN, él nos informará de\l"
-	.string "cualquier paso en falso que tratéis de\l"
-	.string "dar en contra nuestra, LANCE.$"
+    .string "With that you will maintain BLUE as\n"
+	.string "the current CHAMPION, he will inform\l"
+	.string "us of any possible misstep that you\l"
+	.string "could try to take against us, LANCE.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4.1:
-    .string "Por tu bien, espero que no\n"
-	.string "cometas ninguna estupidez.$"
+	.string "For your own sake, LANCE, I hope\n"
+	.string "you won't do anything stupid.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_5:
-.string "Confirmaréis la disolución definitiva\n"
-	.string "del TEAM ROCKET; ello implica que todo\l"
-	.string "ROCKET real que sea visto, será tomado\l"
-	.string "como un ciudadano más, con su respectivo\l"
-	.string "permiso para entrar en las tiendas.$"
+.string "You will confirm the definitive\n"
+	.string "dissolution of TEAM ROCKET, that\l"
+	.string "implies that every real ROCKET will be\l"
+	.string "seen as another citizen, and will be\l"
+	.string "allowed to enter every store in KANTO.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6:
 .string "LANCE: {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7:
-.string "GIOVANNI: Y por último, reduciréis en\n"
-	.string "un 80% toda la presión fiscal, tanto de\l"
-	.string "SILPH como del resto de pequeños\l"
-	.string "negocios de KANTO; se acabó el chuparle\l"
-	.string "la sangre a los ciudadanos, y el\l"
-	.string "mantenerlos bajo un régimen de\l"
-	.string "esclavitud camuflado.$"
+.string "GIOVANNI: And lastly, you will reduce\n"
+	.string "all the tax pressure from SILPH and the\l"
+	.string "other small businesses of KANTO; the\l"
+	.string "time of leeching off the citizens and\l"
+	.string "keeping them in camouflaged slave\l"
+	.string "conditions is over, maybe with that,\l"
+	.string "they'll start to like you a little.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8:
-.string "Eso es todo. Y recuerda, un solo mal\n"
-	.string "gesto, un leve indicio de que intentas\l"
-	.string "algo raro, y toda KANTO sabrá lo\l"
-	.string "ocurrido en el HALL DE LA FAMA.$"
+    .string "That's all, and remember, any misconduct,\n"
+	.string "a little hint that you'll try something,\l"
+	.string "and the entire KANTO region will\l"
+	.string "know what happened in the HALL OF FAME.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8.1:
-	.string "¡Ahora, fuera de mi vista!$"
+	.string "Now get off my sight!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9:
-.string "PROTÓN: Señor, ¿cree que hacemos\n"
-	.string "lo correcto negociando con gente\l"
-	.string "así?\l"
-	.string "¿No deberíamos…?$"
+.string "PROTON: SIR, do you believe we are doing\n"
+	.string "the right thing negotiating with people\l"
+	.string "like that? Shouldn't we…?$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_10:
-.string "GIOVANNI: Lo sé, PROTÓN, pero KANTO\n"
-	.string "no está preparada para asimilar todo\l"
-	.string "lo ocurrido; todo cuanto necesita es\l"
-	.string "alcanzar de nuevo la estabilidad, no\l"
-	.string "una nueva revolución por todo lo alto\l"
-	.string "que meta aún más caos a la región.\l"
-	.string "Por el momento, LANCE está atado, y\l"
-	.string "con las nuevas condiciones impuestas,\l"
-	.string "todo tenderá a mejorar{PAUSE 5}…{PAUSE 5}$"
+.string "GIOVANNI: I know, PROTON, but KANTO is\n"
+	.string "not prepared to assimilate everything\l"
+	.string "that has happen, everything it needs is\l"
+	.string "to reach stability again, not another\l"
+	.string "revolution that brings more chaos into\l"
+	.string "the region. For the moment, LANCE is\l"
+	.string "tied up, and with these conditions,\l"
+	.string "everything will tend to get better…$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_11:
-.string "GIOVANNI: {PLAYER}, demostraste ser\n"
-	.string "un ENTRENADOR excepcional en el\l"
-	.string "HALL DE LA FAMA, único, de esos\l"
-	.string "que aparecen una vez cada 50 años,\l"
-	.string "solo alguien así pudo haber derrotado a\l"
-	.string "un equipo con un poder tan incontenible\l"
-	.string "como el que tenía LANCE.$"
+.string "Ah, {PLAYER}!\p"
+	.string "You proved to be an excellent TRAINER\n"
+	.string "in the HALL OF FAME, one of those who\l"
+	.string "appear each 50 years, only someone\l"
+	.string "like that could have stopped a team as\l"
+	.string "powerful as the one LANCE had.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_12:
-.string "Por fortuna, hemos devuelto a\n"
-	.string "RAIKOU, ENTEI y SUICUNE a sus\l"
-	.string "hábitats naturales de JOHTO.\l"
-	.string "Esperemos que ningún maníaco como\l"
-	.string "LANCE tenga la intención y el poder\l"
-	.string "como para volver a atraparlos{PAUSE 5}…{PAUSE 5}$"
+.string "Luckily, we brought back RAIKOU, ENTEI\n"
+	.string "and SUICUNE to their natural habitats\l"
+	.string "in JOHTO, let's hope there isn't another\l"
+	.string "maniac like LANCE with the intention\l"
+	.string "and power to re'capture them…$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13:
-.string "GIOVANNI: {PAUSE 5}…{PAUSE 5}$"
+.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
-.string "Hemos cumplido con el propósito\n"
-	.string "por el que el TEAM ROCKET renació,\l"
-	.string "{PLAYER}: salvar KANTO de las garras\l"
-	.string "de LANCE, y tú has sido más que\l"
-	.string "fundamental para ello.\l"
-	.string "Junto con ATLAS y ANDRA, has alcanzado\l"
-	.string "el rango más alto que puedo ofrecer a\l"
-	.string "un miembro del TEAM ROCKET en KANTO.$"
+    .string "We have fulfilled the purpose of why\n"
+	.string "TEAM ROCKET was created, {PLAYER}.\p"
+	.string "you were fundamental in saving KANTO\n"
+	.string "from the hands of LANCE, along with\l"
+	.string "ARCHER and ANDRA, you have reached the\l"
+	.string "highest rank I can give to any member\l"
+	.string "of TEAM ROCKET in KANTO:\p"
+	.string "TEAM ROCKET ADMINISTRATOR.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15:
 .string "{PLAYER} HAS BEEN PROMOTED TO\n"
-	.string "ADMINISTRATOR!!$"
+	.string "TEAM ROCKET ADMINISTRATOR!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
-.string "GIOVANNI: TEAM ROCKET is your home\n"
-	.string "{PLAYER}, you have completely gained\l"
-	.string "that rank, this is your reward for your\l"
+    .string "TEAM ROCKET is your home, {PLAYER}.\p"
+	.string "You have completely gained that\n"
+	.string "rank, this is your reward for your\l"
 	.string "achievement in the POKÉMON LEAGUE,\l"
 	.string "consider it as a symbolic payment, what\l"
-	.string "you did in the HALL OF FAME can't be paid\l"
-	.string "with just money.$"
+	.string "you did in the HALL OF FAME can't be\l"
+	.string "paid with just money.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17:
 .string "YOU INVOICED ¥1,000,000!!$"
@@ -3261,44 +3215,43 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21:
 .string "YOU RECEIVED A LV.15 MOLTRES!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
-.string "GIOVANNI: Use them or not on your team\n"
-	.string "is a personal decision, you have\l"
-	.string "demonstrated that you have an enough\l"
-	.string "level for managing POKÉMON of this\l"
-	.string "caliber.$"
+.string "Using them or not on your team, is\n"
+	.string "a personal decision; you proved to\l"
+	.string "have more than enough level for\l"
+	.string "managing SACRED POKÉMON like these.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23:
-.string "With this we focus on the second reason\n"
-	.string "of the foundation of TEAM ROCKET:\l"
-	.string "learn about the POKÉMON world and its\l"
+.string "Now, we can focus on the second reason\n"
+	.string "of the foundation of TEAM ROCKET:\p"
+	.string "Learn about the POKÉMON world and its\n"
 	.string "mysteries, explore the limits of its\l"
 	.string "potential and reach where no one else\l"
-	.string "has reached.$"
+	.string "has ever reached.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24:
 .string "Of course, we still have MEWTWO as a\n"
 	.string "milestone; still is a danger that\l"
-	.string "we have to take care of.\l"
-	.string "But… I don't want to involve you in\l"
+	.string "we have to take care of.\p"
+	.string "But{PAUSE 15}…{PAUSE 15} I don't want to involve you in\n"
 	.string "a mission like that for the moment.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25:
 .string "After what you have done, you deserve\n"
 	.string "to take some good vacations, give you\l"
 	.string "the time to celebrate and assimilate\l"
-	.string "everything that you have achieved\l"
+	.string "everything that you have achieved,\l"
 	.string "before you have to go again in new\l"
-	.string "challenges even harder.$"
+	.string "challenges, even harder ones.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26:
-.string "That's why I want you to travel to SEVII\n"
-	.string "ISLANDS, your natal place, again, and\l"
-	.string "explore the islands in peace, I've heard\l"
-	.string "there's very good TRAINERS, as well as\l"
+.string "That's why I want you to travel through\n"
+	.string "SEVII ISLANDS, your natal place, and\l"
+	.string "explore them in peace. I've heard\l"
+	.string "there are good TRAINERS, as well as\l"
 	.string "kind of POKÉMON very similar to JOHTO ones.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27:
-.string "With this you can travel legally by\n"
+.string "With this, you can travel legally by\n"
 	.string "taking the VERMILION FERRY.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28:
@@ -3313,10 +3266,8 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_29:
 	.string "sort of secret.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_30:
-.string "Do you remember the jar you and ANDRA\n"
-	.string "stole from the CAPTAIN of the SS.ANNE\l"
-	.string "just before working directly under my\l"
-	.string "orders?$"
+.string "Do you remember the jar you stole\n"
+	.string "from the CAPTAIN of the SS.ANNE?$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31:
 .string "We believe its content comes from the\n"
@@ -3327,10 +3278,10 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31:
 	.string "find something.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32:
-.string "That's all for the moment {PLAYER}, we\n"
+.string "That's all for the moment, {PLAYER}, we\n"
 	.string "will notify you when we have news of\l"
-	.string "MEWTWO or any other singular POKÉMON,\l"
-	.string "SEVII ISLANDS and its mysteries are\l"
+	.string "MEWTWO or any other singular POKÉMON.\p"
+	.string "SEVII ISLANDS and its mysteries are\n"
 	.string "waiting, go and enjoy your vacations.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1:
@@ -3553,7 +3504,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_4:
 	.string "of PORYGON.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_5:
-.string "BLAINE: W'What…{PAUSE 30} B'B'But…{PAUSE 20} Why???$"
+.string "BLAINE: W'What{PAUSE 10}…{PAUSE 30} B'B'But{PAUSE 10}…{PAUSE 20} Why???$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_6:
 .string "GIOVANNI: You did a great job, that's\n"
@@ -3576,15 +3527,14 @@ PokemonTower5F_Escena_4_Blaine_Texto_8:
 	.string "that SILPH has developed an optimized\l"
 	.string "version of PORYGON. The cost of the new\l"
 	.string "PORYGON2 is three times the one of the\l"
-	.string "normal PORYGON, making it\l"
-	.string "non-profitable as a mass market\l"
-	.string "product.$"
+	.string "first PORYGON, making it non-profitable\l"
+	.string "as a mass market product.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_9:
-.string "It's competitive value is another thing\n"
-	.string "that we'll talk about later. As it seems,\l"
-	.string "PORYGON2 is not the end, it's potential\l"
-	.string "may be higher.$"
+    .string "It's competitive value is another thing\n"
+	.string "that we'll talk about later.\p"
+	.string "As it seems, PORYGON2 is not the end,\n"
+	.string "it's potential may be higher.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_10:
 .string "Therefore, I offer you, as compensation\n"
@@ -3600,22 +3550,20 @@ PokemonTower5F_Escena_4_Blaine_Texto_11:
 PokemonTower5F_Escena_4_Blaine_Texto_11_1:
 .string "GIOVANNI: It's enough if it surpasses\n"
 	.string "an ordinary LEGENDARY.$"
-	
 
 PokemonTower5F_Escena_4_Blaine_Texto_12:
-.string "BLAINE: Hah. What about 3!?$"
+.string "BLAINE: Hah! What about 3!?$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_13:
-.string "GIOVANNI: Will you then accept my\n"
-	.string "offer? A scientist like you deserves a\l"
-	.string "second chance. Opposite from FUJI, you\l"
-	.string "still have that inner flame of wanting\l"
-	.string "even more.$"
+.string "GIOVANNI: Will you accept my offer?\p"
+	.string "A scientist like you deserves a\n"
+	.string "second chance; unlike FUJI, you\l"
+	.string "still have that inner flame.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_14:
-.string "BLAINE: I'm sorry, GIOVANNI. Even\n"
-	.string "MEWTWO was too much for me. What's the\l"
-	.string "deal of creating something as powerful\l"
+.string "BLAINE: I'm sorry, GIOVANNI.\p"
+	.string "MEWTWO was too much for me; what's the\n"
+	.string "deal of creating something as powerful,\l"
 	.string "if you cannot control it?$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_15:
@@ -3631,21 +3579,21 @@ PokemonTower5F_Escena_4_Blaine_Texto_16:
 	.string "reason. We could have fallen inside\l"
 	.string "LANCE's claws during the great purge,\l"
 	.string "and ended up in a jail for the rest of\l"
-	.string "our lives. But because of X or because\l"
-	.string "of Y you're still in CINNABAR and I'm still\l"
-	.string "hidden in the shadows.$"
+	.string "our lives, but we survived.\p"
+	.string "You're still in CINNABAR, and I'm\n"
+	.string "still hidden in the shadows.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_17:
 .string "BLAINE: Forgiven?! We're under their\n"
 	.string "mercy! They can burn to the ground this\l"
 	.string "base if they discovered it, or burn up\l"
-	.string "my lab tomorrow if they did a single\l"
+	.string "my lab tomorrow, if they did a single\l"
 	.string "inspection! We're outlaws!$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_18:
 .string "GIOVANNI: Doing less that what we're\n"
-	.string "capable of for improving this region is\l"
-	.string "wasting that gift, BLAINE.$"
+	.string "capable of for improving this region\l"
+	.string "is wasting that gift, BLAINE.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_19:
 .string "BLAINE: {PAUSE 20} …{PAUSE 20}$"
@@ -3658,8 +3606,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_21:
 	.string "still make the project of your life.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_22:
-.string "BLAINE: That will always be a\n"
-	.string "possibility, until the last of my days.$"
+    .string "BLAINE: That will always be possible,\n"
+	.string "until the last of my days.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_23:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -3667,7 +3615,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_23:
 PokemonTower5F_Escena_4_Blaine_Texto_24:
 .string "How fortunate that you ignore why I\n"
 	.string "got to keep my position at CINNABAR,\l"
-	.string "ex-CHAMPION.$"
+	.string "OCTO-CHAMPION of KANTO.$"
 
 PokemonTower5F_Escena_4_Blaine_Move_1:
 walk_down
@@ -3932,7 +3880,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
 .string "GIOVANNI: And?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
-.string "And…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir…{PAUSE 25}.$"
+.string "And{PAUSE 15}…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir{PAUSE 15}…{PAUSE 25}.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 .string "GIOVANNI: I thought I was clear enough\n"
@@ -3942,27 +3890,27 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 	.string "You went further, why?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4:
-.string "GRUNTs: It was an accident, sir. We just\n"
+.string "GRUNTs: It was an accident, SIR! We just\n"
 	.string "wanted not to be bored, but the mother\l"
-	.string "of CUBONE took it really seriously and…\l"
+	.string "of CUBONE took it really seriously and…\p"
 	.string "We couldn't manage it properly.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5:
 .string "GIOVANNI: Do you realize that you have\n"
 	.string "just shown a really poor image not only\l"
 	.string "to FUJI, with whom we were negotiating,\l"
-	.string "but to the entire population of KANTO?\l"
-	.string "If LANCE's government's discrediting\l"
+	.string "but to the entire population of KANTO?!\p"
+	.string "If LANCE's government's discrediting\n"
 	.string "campaigns weren't enough, now\l"
-	.string "everybody knows what the ROCKETS have\l"
-	.string "done in LAVENDER TOWN.$"
+	.string "everybody knows what TEAM ROCKET\l"
+	.string "has done in LAVENDER TOWN!!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_6:
 .string "Your lack of common sense and ethics\n"
-	.string "deserves the maximum penalty.$"
+	.string "deserves the maximum penalty!!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7:
-.string "Believe me when I say that if I punished\n"
+.string "Believe me when I say that, if I punished\n"
 	.string "you proportionally of your mistakes, my\l"
 	.string "NIDOKING would get to 0 PP in his whole\l"
 	.string "offensive repertory.$"
@@ -3971,12 +3919,12 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
 .string "GRUNTs: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
-.string "GIOVANNI: Nevertheless…{PAUSE 25}.$"
+.string "GIOVANNI: Nevertheless{PAUSE 15}…{PAUSE 15}.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
-.string "We are no assassins. Although your\n"
-	.string "recent actions make it seem opposite.\l"
-	.string "I'm offering you an opportunity of\l"
+.string "We are no assassins, although your\n"
+	.string "recent actions make it seem opposite.\p"
+	.string "I'm offering you an opportunity of\n"
 	.string "redemption.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
@@ -3984,34 +3932,34 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 	.string "you've caused, you'll be donating 70% of\l"
 	.string "your wages to LAVENDER's charity.\l"
 	.string "Meanwhile, TEAM ROCKET will be paying\l"
-	.string "for your basic needs…{PAUSE 25} as long as you\l"
+	.string "for your basic needs{PAUSE 15}…{PAUSE 15} as long as you\l"
 	.string "fulfill your part of the agreement.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
-.string "GRUNT: S-{PAUSE 25}Sir…{PAUSE 25} Thanks for this second\n"
-	.string "chance. I swear you won't regret about\l"
+.string "GRUNT: S{PAUSE 15}-{PAUSE 15}SIR{PAUSE 15}…{PAUSE 15} Thanks for this second\n"
+	.string "chance! I swear you won't regret about\l"
 	.string "not using your NIDOK….$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
 .string "GIOVANNI: That's not all.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14:
-.string "RECLUTA: {PAUSE 25}…{PAUSE 25}$"
+.string "GRUNT: {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
-.string "GIOVANNI: A large underground\n"
+    .string "GIOVANNI: Listen. A large underground\n"
 	.string "GRAVEYARD is going to be built in south\l"
 	.string "LAVENDER TOWN. FUJI will need help, and\l"
 	.string "you'll be there for anything that he may\l"
 	.string "require. In addition to your usual\l"
-	.string "ROCKET function, your time off will go\l"
-	.string "to that cause. Any inconvenience?$"
+	.string "ROCKET function, your free time will\l"
+	.string "go to that cause. Any inconvenience?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:
-.string "GRUNTs: No, sir, no!$"
+.string "GRUNTs: No, SIR, no!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_17:
-.string "GIOVANNI: This is your chance. One year\n"
+.string "GIOVANNI: Here is your chance: one year\n"
 	.string "of economic and recreational\l"
 	.string "deprivation, in exchange for cleansing\l"
 	.string "your stain. I warn you in advance, at\l"
@@ -4029,37 +3977,37 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
 .string "Now, get out of my sight!\p"
-	.string "Your DAY ONE starts now!$"
+	.string "Your - DAY ONE - starts now!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20:
-.string "GRUNTs: Sir, yes, sir!$"
+.string "GRUNTs: SIR, yes, SIR!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21:
-.string "GIOVANNI: Damn unconscious, now\n"
-	.string "everyone in KANTO will confuse malice\l"
-	.string "with ignorance…$"
+.string "GIOVANNI: Damn unconscious, now,\n"
+	.string "everyone in KANTO will confuse\l"
+	.string "malice with ignorance…$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22:
-	.string "PROTÓN: That's why DEEP BASE is only\n"
+	.string "PROTON: That's why DEEP BASE is only\n"
 	.string "reserved for a few.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23:
-.string "PROTON: But…$"
+.string "But…$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_24:
 .string "GIOVANNI: What's the matter, PROTON?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_25:
 .string "PROTON: There is something I didn't\n"
-	.string "understand. A large underground\l"
+	.string "understand: a large underground\l"
 	.string "GRAVEYARD in LAVENDER TOWN? I thought\l"
 	.string "POKÉMON TOWER was more than enough to\l"
 	.string "host all the graves.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26:
 .string "GIOVANNI: It is yet too soon to talk\n"
-	.string "about that, PROTON, too soon. That time\l"
-	.string "will arrive.$"
+	.string "about that, PROTON, too soon.\p"
+	.string "That time will arrive.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Move_1:
 walk_in_place_left

@@ -210,7 +210,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_11:
 	.string "able to defeat the RAYQUAZA passed\l"
 	.string "down through my lineage. It appears I\l"
 	.string "underestimated the ultimate limits\l"
-	.string "that a trainer in tune with their team\l"
+	.string "that a TRAINER in tune with their team\l"
 	.string "can achieve, though it remains small\l"
 	.string "compared to certain powers.$"
 

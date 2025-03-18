@@ -545,7 +545,7 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
 	.string "do physical damage, anyone who uses it\l"
 	.string "on a CHARIZARD is an incompetent, I'm\l"
 	.string "willing to give something that really\l"
-	.string "causes damage to the trainer capable\l"
+	.string "causes damage to the TRAINER capable\l"
 	.string "of collecting all 8 GYM BADGES.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_2:

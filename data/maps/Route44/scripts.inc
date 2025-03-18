@@ -313,7 +313,7 @@ Route44_Combate_Mirto_Texto_5.1:
 
 Route44_Combate_Mirto_Texto_5.2:
 	.string "The region's CHAMPION is the strongest\n"
-	.string "trainer there. You know what I mean,\l"
+	.string "TRAINER there. You know what I mean,\l"
 	.string "right?$"
 
 Route44_Combate_Mirto_Texto_5.3:

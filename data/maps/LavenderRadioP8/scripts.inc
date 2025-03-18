@@ -228,7 +228,7 @@ LavenderRadioP8_Encuentro_Devon_Texto_4:
 LavenderRadioP8_Encuentro_Devon_Texto_5:
 	.string "Even the toughest of the old-school\n"
 	.string "champions would bow to the standard\l"
-	.string "trainer of these days, just if the sheer\l"
+	.string "TRAINER of these days, just if the sheer\l"
 	.string "force of their POKÉMON were enough.$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_6:

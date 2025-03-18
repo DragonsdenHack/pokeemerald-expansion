@@ -4585,7 +4585,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_17:
 RocketHideout_8F_Mision_Lago_Furia_Texto_18:
 	.string "The opening of the station connecting\n"
 	.string "GOLDENROD with SAFFRON, and the\l"
-	.string "demolition of LAVENDER TOWER, are\l"
+	.string "demolition of POKÉMON TOWER, are\l"
 	.string "approaching, but while awaiting these\l"
 	.string "events, your mission will be to continue\l"
 	.string "expanding what we know about POKÉMON.$"

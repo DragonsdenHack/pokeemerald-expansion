@@ -120,9 +120,9 @@ end
 
 NeoLavandaCementerioS1_Text_15:
 	.string "Welcome, {PLAYER}, to the new\n"
-	.string "LAVENDER TOWER GRAVEYARD! FUJI already\l"
-	.string "informed me that you'd be coming. You're\l"
-	.string "quite a legend around here.$"
+	.string "LAVENDER TOWN GRAVEYARD!\p"
+	.string "FUJI already informed me that you'd be\n"
+	.string "coming. You're a legend around here.$"
 
 
 
@@ -259,8 +259,8 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_4:
 	.string "I doubt you remember me; I was there\n"
-	.string "during your LAVENDER TOWER mission. If\l"
-	.string "it wasn't for you, FUJIi would have made\l"
+	.string "during your POKÉMON TOWER mission. If\l"
+	.string "it wasn't for you, FUJI would have made\l"
 	.string "things really tough for us.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_5:

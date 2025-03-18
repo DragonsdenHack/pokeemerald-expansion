@@ -288,15 +288,15 @@ end
 
 SaffronCityDocumento_Text_108:
 	.string "TIPS, APTITUDES AND REQUIREMENTS TO\n"
-	.string "SURVIVE IN THE CITY: - Required minimum\l"
-	.string "daily working hours: 10 hours, 5 days\l"
-	.string "per week. - A ¥150,000 inversion for\l"
-	.string "every month per habitant in I + D + i\l"
-	.string "(Investigation, developing and\l"
-	.string "innovation). - Be a great trainer very\l"
-	.string "above the average (in the fifth\l"
-	.string "quartile). - Permanent improvement\l"
-	.string "attitude, self-realization, efficiency\l"
+	.string "SURVIVE IN THE CITY:\p"
+	.string "-Daily working hours: 10 hours, 5 days\n"
+	.string "per week.\p"
+	.string "- A ¥150,000 inversion, each month,\n"
+	.string "per habitant, in R&D and Innovation\p"
+	.string "- You have to be a great TRAINER, far\n"
+	.string "above the average.\p"
+	.string "- Permanent improvement attitude,\n"
+	.string "self-realization, efficiency,\l"
 	.string "optimization and loyalty to SILPH.$"
 
 SaffronCity_Combate_Andra_Izq_Arriba::

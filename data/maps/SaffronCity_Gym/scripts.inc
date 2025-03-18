@@ -230,8 +230,8 @@ SaffronCity_Lider_Gimnasio_Texto_1:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Wow, it is curious. A short time ago,\n"
 	.string "the same thing happened with another\l"
 	.string "girl dressed as a ROCKET. But your\l"
-	.string "arrival catches me totally by surprise.\l"
-	.string "It seems that, unlike many others who\l"
+	.string "arrival catches me totally by surprise.\p"
+	.string "It seems that, unlike many others who\n"
 	.string "have come through here, you are not\l"
 	.string "bound by destiny. You are like an open\l"
 	.string "book yet to be written, pure\l"
@@ -242,7 +242,7 @@ SaffronCity_Lider_Gimnasio_Texto_1:
 	.string "topics rather than battling, but I was\l"
 	.string "given the gift of reading minds and\l"
 	.string "predicting the future, which has made\l"
-	.string "me an extraordinary trainer of PSYCHIC\l"
+	.string "me an extraordinary TRAINER of PSYCHIC\l"
 	.string "POKÉMON.$"
 
 SaffronCity_Lider_Gimnasio_Texto_1.1:

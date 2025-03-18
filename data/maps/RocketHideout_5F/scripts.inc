@@ -724,7 +724,7 @@ RocketHideout5F_Text_47:
 	.string "resumes: this place offers facilities\l"
 	.string "for elite soldiers to bring out their\l"
 	.string "best, outside, they impose all kinds of\l"
-	.string "obstacles on the average trainer who\l"
+	.string "obstacles on the average TRAINER who\l"
 	.string "can't afford those exorbitant prices,\l"
 	.string "nevertheless, if you train your POKÉMON\l"
 	.string "properly, you won't need those items in\l"
@@ -2582,7 +2582,7 @@ RocketHideout5F_Secundaria_Frank_Texto_2:
 RocketHideout5F_Secundaria_Frank_Texto_3:
 	.string "You are not the only one who's getting\n"
 	.string "promoted, {PLAYER}. You're now a HIGH\l"
-	.string "RANK, as I was back then at MT.MOON.$"
+	.string "RANK, as I was back then at MT. MOON.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_4:
 	.string "But, as you can see, now I am a ROCKET\n"

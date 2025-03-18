@@ -103,7 +103,7 @@ ViasTrenCasaCampeon_Agatha_Texto_8:
 	.string "AGATHA: When I saw you in the POKÉMON\n"
 	.string "LEAGUE, I knew you had potential, but…\l"
 	.string "look at you now, you've defeated the\l"
-	.string "best trainer I've ever known. The world\l"
+	.string "best TRAINER I've ever known. The world\l"
 	.string "is yours to keep surpassing limits.$"
 
 

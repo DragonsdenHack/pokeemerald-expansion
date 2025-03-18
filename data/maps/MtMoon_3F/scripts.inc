@@ -871,7 +871,7 @@ MtMoon_3F_Pelea_Frank_texto7:
 	.string "enemy, nor flee? And that will be seen\l"
 	.string "as weakness and lack of values, and\l"
 	.string "that we should have beaten that\l"
-	.string "trainer all together?$"
+	.string "TRAINER all together?$"
 
 MtMoon_3F_Pelea_Frank_texto8:
 	.string "FRANK: This is outrageous. I don't need\n"

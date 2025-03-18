@@ -394,7 +394,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_3:
 
 Lavender_Secta_Pasadizo_Oak_Texto_4:
 	.string "OAK: Greatness can't come from just\n"
-	.string "anywhere. Neither in a trainer nor\n"
+	.string "anywhere. Neither in a TRAINER nor\n"
 	.string "POKÉMON.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_5:

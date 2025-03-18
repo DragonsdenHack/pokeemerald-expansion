@@ -300,7 +300,7 @@ EventoLagoFuria5_Combate_Final_Texto_9:
 	.string "EXECUTIVEs of the all-mighty DEVON!$"
 
 EventoLagoFuria5_Combate_Final_Texto_10:
-	.string "Who are you? No trainer on any ROUTE in\n"
+	.string "Who are you? No TRAINER on any ROUTE in\n"
 	.string "this region could defeat me!$"
 
 EventoLagoFuria5_Combate_Final_Texto_11:

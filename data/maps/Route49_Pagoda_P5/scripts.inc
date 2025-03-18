@@ -244,5 +244,5 @@ Route49_Pagoda_P5_Encuentro_Texto_12:
 
 Route49_Pagoda_P5_Encuentro_Texto_13:
 	.string "Who knows, maybe I can advise another\n"
-	.string "trainer as extraordinary as you again.\l"
+	.string "TRAINER as extraordinary as you again.\l"
 	.string "But honestly{PAUSE 25}…{PAUSE 25} I doubt it.$"

@@ -592,7 +592,7 @@ Cave_Regigigas_S7_Doctor_Texto_20:
 
 Cave_Regigigas_S7_Doctor_Texto_21:
 	.string "Te confesaré algo, {PLAYER}. Cuando\n"
-	.string "ese ROJO nos destrozó en el MT.MOON\l"
+	.string "ese ROJO nos destrozó en el MT. MOON\l"
 	.string "sentí una profunda rabia.$"
 
 Cave_Regigigas_S7_Doctor_Texto_22:

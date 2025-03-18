@@ -203,7 +203,7 @@ end
 Silph1F_Text_14:
 	.string "If our LEADER GIOVANNI decided to\n"
 	.string "fight using all his power, I don't think\l"
-	.string "there's a trainer in the whole region\l"
+	.string "there's a TRAINER in the whole region\l"
 	.string "today capable of keeping up with him. He\l"
 	.string "has become extraordinarily strong; all\l"
 	.string "these years of media harassment have\l"

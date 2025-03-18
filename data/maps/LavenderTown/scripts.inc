@@ -455,7 +455,7 @@ LavenderTown_Cierre_Torre_Texto_5:
 	.string "past?$"
 
 LavenderTown_Cierre_Torre_Texto_6:
-	.string "ARCHER: What LAVENDER TOWER has been\n"
+	.string "ARCHER: What POKÉMON TOWER has been\n"
 	.string "for KANTO is carefully documented;\l"
 	.string "nothing can erase its role in history.\l"
 	.string "In 1000 years, they will know just as\l"

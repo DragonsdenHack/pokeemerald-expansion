@@ -54,7 +54,7 @@ DiggletCave1F_Frontera_Text_1:
 	.string "Hold on!\l"
 	.string "Right now the surroundings of PEWTER\l"
 	.string "CITY are full of police due to what\l"
-	.string "happened at MT.MOON! You better make\l"
+	.string "happened at MT. MOON! You better make\l"
 	.string "sure they don't see you around those\l"
 	.string "places!$"
 

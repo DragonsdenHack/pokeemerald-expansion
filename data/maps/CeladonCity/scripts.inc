@@ -152,9 +152,9 @@ release
 end
 
 CeladonCity_Text14:
-.string "Nobody wants you here ROCKET. You are\n"
-	.string "destroying with your stupid CASINO all\l"
-	.string "our attempts to keep this city clean!$"
+.string "Nobody wants you here, ROCKET.\p"
+	.string "Our GAME CORNER is destroying all\n"
+	.string "the attempts to keep this city clean!$"
 
 
 

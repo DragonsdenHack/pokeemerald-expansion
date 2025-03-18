@@ -271,7 +271,7 @@ LavenderRadioP2_Evento_Fuji_Texto_2:
 LavenderRadioP2_Evento_Fuji_Texto_3:
 	.string "The RADIO TOWER has preserved the\n"
 	.string "original measurements and floors of the\l"
-	.string "LAVENDER TOWER. Although it will only be\l"
+	.string "POKÉMON TOWER. Although it will only be\l"
 	.string "perceptible to those of us who work\l"
 	.string "here, the rest will not be able to go\l"
 	.string "beyond the first floor, and for a\l"

@@ -580,8 +580,8 @@ PokemonMansion_1F_Ladrones_Texto_4:
 
 PokemonMansion_1F_Ladrones_Texto_5:
 	.string "What are you saying? Do you want to\n"
-	.string "retrieve the 2 million POKÉ we charged a\l"
-	.string "scientist for a METEORITE?$"
+	.string "retrieve the ¥2,000,000 we charged a\l"
+	.string "scientist, for a METEORITE?$"
 
 PokemonMansion_1F_Ladrones_Texto_6:
 	.string "That's all in the past. He should have\n"

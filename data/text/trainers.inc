@@ -13631,8 +13631,8 @@ Route43_Text_GuardaPostBattle:
 	.string "Excuse my bluntness, but some lack\n"
 	.string "respect for places like this. They would\l"
 	.string "even set up a booth just to charge a\l"
-	.string "paltry 1000 POKÉS for access to FURY\l"
-	.string "LAKE. You don't seem to be one of them.$"
+	.string "paltry ¥1000 for access to LAKE of RAGE.\p"
+	.string "You don't seem to be one of them.$"
 
 
 Route43_Text_ChicaIntro:

@@ -35,7 +35,7 @@ end
 
 CeladonCity_Restaurant_Text_3:
 	.string "The man on that corner lost everything\n"
-	.string "he has in the CASINO.$"
+	.string "he has in the GAME CORNER.$"
 
 
 

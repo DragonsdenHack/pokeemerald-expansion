@@ -400,8 +400,8 @@ PewterCity_Petrel_Texto_5:
 
 PewterCity_Petrel_Texto_6:
 	.string "If a scientist takes a FOSSIL at\n"
-	.string "MT.MOON, no problem, it is for his\l"
-	.string "investigation.$"
+	.string "MT. MOON, no problem, it is for\l"
+	.string "his investigation.$"
 
 PewterCity_Petrel_Texto_7:
 .string "Si un par de niños malcriados\n"

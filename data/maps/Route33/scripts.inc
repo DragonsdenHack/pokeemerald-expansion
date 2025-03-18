@@ -31,7 +31,7 @@ end
 Route33_Text_5:
 	.string "That legend about a rare and powerful\n"
 	.string "POKÉMON lurking in the depths of UNION\l"
-	.string "CAVE attracts many a trainer to the\l"
+	.string "CAVE attracts many a TRAINER to the\l"
 	.string "area.$"
 
 

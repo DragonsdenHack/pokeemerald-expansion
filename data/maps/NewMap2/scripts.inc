@@ -47,8 +47,8 @@ end
 
 NewMap2_Caballero_Texto_1:
 .string "You look like you've participated in the\n"
-.string "robbery of MT.MOON. Next time, you'll all\l"
-.string "be apprehended!$"
+.string "robbery of MT. MOON. Next time, you'll\l"
+.string "all be apprehended!$"
 
 
 NewMap2_Chico::

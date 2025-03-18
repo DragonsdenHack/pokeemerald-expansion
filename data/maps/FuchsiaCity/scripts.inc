@@ -670,7 +670,7 @@ FuchsiaCity_Estafado_Texto_15:
 	.string "deduction, it is the last place they\l"
 	.string "have left, they've already acted in\l"
 	.string "FUCHSIA, CELADON, at the foot of\l"
-	.string "MT.MOON…$"
+	.string "MT. MOON…$"
 
 FuchsiaCity_Estafado_Texto_16:
 	.string "I hope you are a great TRAINER, ROCKET,\n"
