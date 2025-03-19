@@ -15645,7 +15645,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_EverGrande",
+      "secondary_tileset": "gTileset_gTileset_PalletTown",
       "border_filepath": "data/layouts/Route204/border.bin",
       "blockdata_filepath": "data/layouts/Route204/map.bin"
     },
@@ -15657,7 +15657,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Slateport",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route205/border.bin",
       "blockdata_filepath": "data/layouts/Route205/map.bin"
     },
@@ -15669,7 +15669,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Fallarbor",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route206/border.bin",
       "blockdata_filepath": "data/layouts/Route206/map.bin"
     },
@@ -15693,7 +15693,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route208/border.bin",
       "blockdata_filepath": "data/layouts/Route208/map.bin"
     },
@@ -15705,7 +15705,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route209/border.bin",
       "blockdata_filepath": "data/layouts/Route209/map.bin"
     },
@@ -15933,7 +15933,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/Route205b/border.bin",
       "blockdata_filepath": "data/layouts/Route205b/map.bin"
     }
