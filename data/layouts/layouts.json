@@ -15681,7 +15681,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route207/border.bin",
       "blockdata_filepath": "data/layouts/Route207/map.bin"
     },
@@ -15717,7 +15717,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route210/border.bin",
       "blockdata_filepath": "data/layouts/Route210/map.bin"
     },
@@ -15729,7 +15729,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route210b/border.bin",
       "blockdata_filepath": "data/layouts/Route210b/map.bin"
     },
@@ -15753,7 +15753,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Slateport",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route211b/border.bin",
       "blockdata_filepath": "data/layouts/Route211b/map.bin"
     },
@@ -15765,7 +15765,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/Route212/border.bin",
       "blockdata_filepath": "data/layouts/Route212/map.bin"
     },
@@ -15777,7 +15777,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_cinnabar_island",
       "border_filepath": "data/layouts/Route212b/border.bin",
       "blockdata_filepath": "data/layouts/Route212b/map.bin"
     },
@@ -15801,7 +15801,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattlePike",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route214/border.bin",
       "blockdata_filepath": "data/layouts/Route214/map.bin"
     },
@@ -15813,7 +15813,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route215/border.bin",
       "blockdata_filepath": "data/layouts/Route215/map.bin"
     },
@@ -15849,7 +15849,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route218/border.bin",
       "blockdata_filepath": "data/layouts/Route218/map.bin"
     },
@@ -15885,19 +15885,19 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/Route221/border.bin",
       "blockdata_filepath": "data/layouts/Route221/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE222",
       "name": "Route222_Layout",
-      "width": 92,
+      "width": 97,
       "height": 32,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattlePike",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route222/border.bin",
       "blockdata_filepath": "data/layouts/Route222/map.bin"
     },
@@ -15921,7 +15921,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mossdeep",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route224/border.bin",
       "blockdata_filepath": "data/layouts/Route224/map.bin"
     },
@@ -15933,7 +15933,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_fuchsia_city",
+      "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/Route205b/border.bin",
       "blockdata_filepath": "data/layouts/Route205b/map.bin"
     }
