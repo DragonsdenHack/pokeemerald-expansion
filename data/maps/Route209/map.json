@@ -177,7 +177,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route209_Cartel_Norte"
     },
     {
       "type": "sign",
@@ -185,7 +185,7 @@
       "y": 42,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route209_Cartel"
     },
     {
       "type": "sign",
@@ -193,7 +193,7 @@
       "y": 61,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route209_Cartel_Oeste"
     }
   ]
 }

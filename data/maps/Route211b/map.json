@@ -86,7 +86,15 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route211_Cartel_Oeste"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route211_Cartel_Este"
     }
   ]
 }

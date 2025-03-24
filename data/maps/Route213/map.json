@@ -353,7 +353,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route213_Cartel_Oeste"
     },
     {
       "type": "sign",
@@ -361,7 +361,15 @@
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route213_Casa"
+    },
+    {
+      "type": "sign",
+      "x": 64,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route213_Hotel"
     }
   ]
 }

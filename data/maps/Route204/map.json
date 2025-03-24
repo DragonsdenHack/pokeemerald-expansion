@@ -148,7 +148,7 @@
       "y": 65,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route204_Cartel_Sur"
     },
     {
       "type": "sign",
@@ -156,7 +156,7 @@
       "y": 52,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route204_Senda"
     }
   ]
 }

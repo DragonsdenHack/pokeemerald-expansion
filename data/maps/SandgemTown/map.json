@@ -117,7 +117,7 @@
       "y": 21,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SandgemTown_Leon"
     },
     {
       "type": "sign",
@@ -125,7 +125,7 @@
       "y": 21,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SandgemTown_Cartel"
     },
     {
       "type": "sign",
@@ -133,7 +133,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SandgemTown_Tienda"
     },
     {
       "type": "sign",
@@ -141,7 +141,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SandgemTown_Centro"
     },
     {
       "type": "sign",
@@ -149,7 +149,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SandgemTown_Laboratorio"
     }
   ]
 }

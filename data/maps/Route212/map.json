@@ -355,7 +355,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route212_Segundo_NPC",
       "flag": "0"
     },
     {
@@ -391,7 +391,23 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route212_Tercer_Cartel"
+    },
+    {
+      "type": "sign",
+      "x": 124,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route212_Cartel_Este"
+    },
+    {
+      "type": "sign",
+      "x": 77,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route212_Segundo_Cartel"
     }
   ]
 }
