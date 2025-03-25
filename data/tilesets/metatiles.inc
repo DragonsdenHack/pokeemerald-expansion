@@ -1071,3 +1071,17 @@ gMetatiles_General2::
 	.align 1
 gMetatileAttributes_General2::
 	.incbin "data/tilesets/primary/general2/metatile_attributes.bin"
+	.align 1
+gMetatiles_twinleaf_town::
+	.incbin "data/tilesets/secondary/twinleaf_town/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_twinleaf_town::
+	.incbin "data/tilesets/secondary/twinleaf_town/metatile_attributes.bin"
+	.align 1
+gMetatiles_jubilife_city::
+	.incbin "data/tilesets/secondary/jubilife_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_jubilife_city::
+	.incbin "data/tilesets/secondary/jubilife_city/metatile_attributes.bin"
