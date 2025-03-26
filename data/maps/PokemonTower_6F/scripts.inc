@@ -172,9 +172,9 @@ delay_8
 step_end
 
 PokemonTower_6F_Combate_Fuji_Texto_1:
-	.string "GRUNTs: So strong old man, not even the\n"
-	.string "three of us together have been able to\l"
-	.string "bring you down!$"
+	.string "GRUNTs: So strong, old man.\p"
+	.string "Not even the three of us together\n"
+	.string "have been able to bring you down!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_2:
 	.string "FUJI: Reckless, you have taken away\n"
@@ -184,7 +184,7 @@ PokemonTower_6F_Combate_Fuji_Texto_2:
 	.string "late.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
-	.string "GRUNTs: Come on, that MAROWAK got in\n"
+	.string "GRUNTs: Come on! That MAROWAK got in\n"
 	.string "our way! He forced us to end his life,\l"
 	.string "that's all!$"
 
@@ -198,7 +198,7 @@ PokemonTower_6F_Combate_Fuji_Texto_4:
 	.string "is by taking away everything you value.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
-	.string "W-Wait old man, there is no need of…$"
+	.string "W{PAUSE 25}-{PAUSE 25}Wait old man, there is no need of…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
 .string "GRUNTs: HIGH-RANK {PLAYER}!!\p"
@@ -225,23 +225,23 @@ PokemonTower_6F_Combate_Fuji_Texto_10.1:
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 	.string "PROTON: You knew this was going to\n"
-	.string "happen FUJI, you can't escape forever\l"
-	.string "of your past.$"
+	.string "happen, FUJI. You can't escape forever\l"
+	.string "from your past.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12:
-	.string "PROTON: Good job {PLAYER},\n"
-	.string "everything is going well, FUJI and I are\l"
+	.string "PROTON: Good job, {PLAYER}.\p"
+	.string "Everything is going well, FUJI and I are\n"
 	.string "heading to the last floor, where we can\l"
 	.string "talk in peace, I trust you to prevent\l"
 	.string "even the slightest speck of dust from\l"
 	.string "getting into the meeting.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.1:
-	.string "Para ello, quiero a tus POKÉMON\l"
-	.string "en plena forma, los curaré.$"
+	.string "I want your team at his prime.\p"
+	.string "Let me heal your POKÉMON.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.2:
-.string "Confío en ti.$"
+    .string "I trust you.$"
 
 PokemonTower_6F_Combate_Fuji_Move_1:
 walk_in_place_left

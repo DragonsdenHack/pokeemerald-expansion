@@ -105,8 +105,8 @@ release
 end
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
-.string "Stay away from me dirty ROCKET, I'm\n"
-.string "a direct assistant of PROF. OAK\l"
+.string "Stay away from me, dirty ROCKET.\p"
+.string "I'm a direct assistant of PROF. OAK\n"
 .string "and part of the elite of this\l"
 .string "region, someone of your level can't\l"
 .string "even make eye contact with me.$"

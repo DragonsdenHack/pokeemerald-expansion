@@ -305,15 +305,15 @@ RocketHideoutViridian_Combate_Petrel_Texto_3:
 	.string "the guarantees!$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_4:
-	.string "Great fight {PLAYER}, you are a\n"
-	.string "true ROCKET EXECUTIVE.$"
+	.string "Great fight, {PLAYER}.\n"
+	.string "You are a true ROCKET EXECUTIVE.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_5:
-	.string "HAH! Marvelous! I didn't expect less\n"
+	.string "HAH! Marvelous! I didn't expect less,\n"
 	.string "coming from the one who defeated BRUNO\l"
 	.string "and saved my BIKERS colleagues! I'm happy\l"
-	.string "to see you're on our side, {PLAYER}, if\l"
-	.string "you happen to encounter that guy\l"
+	.string "to see you're on our side, {PLAYER}.\p"
+	.string "If you happen to encounter that guy\n"
 	.string "named RED, you know, the one who thinks\l"
 	.string "he's in a league of his own and sees\l"
 	.string "himself as invincible and untouchable,\l"
@@ -439,8 +439,8 @@ RocketHideoutViridian_Combate_Atlas_Texto_1:
 	.string "EXECUTIVE {PLAYER}.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_2:
-	.string "ARCHER: Come in, don't stay there, be\n"
-	.string "comfortable.$"
+	.string "ARCHER: Come in, don't stay there,\n"
+	.string "be comfortable.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_3:
 	.string "It is a curious contrast between this\n"
@@ -698,7 +698,7 @@ RocketHideoutViridian_Escena_8_Texto_1:
 .string "PROTON: Is it over?$"
 
 RocketHideoutViridian_Escena_8_Texto_2:
-	.string "GIOVANNI: Indeed PROTON. Officially,\n"
+	.string "GIOVANNI: Indeed, PROTON. Officially,\n"
 	.string "for KANTO we no longer exist.$"
 
 RocketHideoutViridian_Escena_8_Texto_3:
@@ -731,16 +731,14 @@ RocketHideoutViridian_Escena_8_Texto_6:
 	.string "its doors to ANDRA and {PLAYER}!$"
 
 RocketHideoutViridian_Escena_8_Texto_7:
-	.string "PROTON: Everything is prepared, sir. As\n"
-	.string "for his…$"
+	.string "PROTON: Everything is prepared, SIR.\p"
+	.string "As for his s…$"
 
 RocketHideoutViridian_Escena_8_Texto_8:
 	.string "GIOVANNI: I know, I must leave\n"
 	.string "immediately. Announcing publicly my\l"
-	.string "dissolution has upset him, he needs to\l"
-	.string "calm down.$"
-
-
+	.string "dissolution has upset him, he needs\l"
+	.string "to calm down.$"
 
 RocketHideoutViridian_Warp_Escena_9::
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG

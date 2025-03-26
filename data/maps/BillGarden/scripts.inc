@@ -232,52 +232,46 @@ Bill_Garden_Policia_Atlas_text_1:
 	.string "patent.$"
 
 Bill_Garden_Policia_Atlas_text_2:
-.string "BILL: Qué pena que esto vaya a\n"
-	.string "acabar así, debieron de informarte\l"
-	.string "de las consecuencias que tenía\l"
-	.string "meterse con el gran BILL en esta\l"
-	.string "región.$"
+.string "BILL: Too bad that this has to end like\n"
+	.string "this, you should've been informed about\l"
+	.string "the consequences of messing up with\l"
+	.string "BILL in this region.$"
 
 Bill_Garden_Policia_Atlas_text_2.1:
-	.string "Un desperdicio, perder a un\n"
-	.string "ENTRENADOR de tu nivel de esta\l"
-	.string "forma tan ridícula. Parece que\l"
-	.string "vuestros ADMINISTRADORES y\l"
-	.string "EJECUTIVOS no son tan buenos a la\l"
-	.string "hora de tomar decisiones.$"
+	.string "Yeah! Honestly, it's a shame that a\n"
+	.string "TRAINER like you end up like this, your\l"
+	.string "ADMINISTRATORs and EXECUTIVEs aren't\l"
+	.string "too good making decisions.$"
 
 Bill_Garden_Policia_Atlas_text_2.2:
-	.string "¿Qué se siente al saber que tus\n"
-	.string "propios superiores te enviaron al\l"
-	.string "matadero?\p"
-	.string "No me extraña, no sois más que un\n"
-	.string "puñado de ladrones sin principios\l"
-	.string "ni criterio alguno.$"
+	.string "Ho, ho, ho! Let me know, how is the\l"
+	.string "feeling of being sent to die by your own\l"
+	.string "superiors? It's OK, in the end you are\l"
+	.string "just a bunch of moral-less thieves with\l"
+	.string "no criteria.$"
 
 Bill_Garden_Policia_Atlas_text_2.3:
-	.string "¡Ahora estás sol…!$"
+	.string "Now, you're alon…!$"
 
 Bill_Garden_Policia_Atlas_text_3:
-.string "????: You're wrong.$"
+.string "????: That's wrong.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: ADMINISTRADOR JEFE ATLAS{PAUSE 5}…{PAUSE 5}$"
+.string "BILL: CHIEF ADMIN ARCHER{PAUSE 5}…{PAUSE 5}$"
 
 Bill_Garden_Policia_Atlas_text_5:
-.string "ATLAS: No he podido evitar oír\n"
-	.string "ciertos ataques hacia nuestra\l"
-	.string "organización.\p"
-	.string "Como puedes ver, aquí estoy.\p"
-	.string "Te equivocas, en el TEAM ROCKET\n"
-	.string "nunca dejamos solo a quién lo\l"
-	.string "merezca.$"
+.string "ARCHER: I couldn't prevent myself from\n"
+	.string "hearing some attacks against our\l"
+	.string "organization; as you can see, I'm here.\p"
+	.string "You're wrong, in TEAM ROCKET we never\n"
+	.string "leave alone anyone who deserves it.$"
 
 Bill_Garden_Policia_Atlas_text_5.1:
-	.string "¿Falta de principios?\p"
-	.string "¿Ladrones?\p"
-	.string "Me temo que esos términos se\n"
-	.string "quedan muy cortos para lo que\l"
-	.string "vosotros hacéis en esta región.$"
+	.string "Lack of principles?\p"
+	.string "Thieves?\p"
+	.string "I'm afraid that terms are not\n"
+	.string "enough to describe what you're\l"
+	.string "doing to the region.$"
 
 Bill_Garden_Policia_Atlas_text_6:
 .string "BILL: DETAIN BOTH OF THEM!\p"

@@ -47,20 +47,19 @@ release
 end
 
 SafariZone_House5_Combate_Domador_Texto_1:
-.string "Siento decepcionarte, pero aquí no\n"
-	.string "ofrecemos ningún tipo de premio a\l"
-	.string "nuestros clientes VIP, es solo para\l"
-	.string "quienes pagan la entrada.$"
+	.string "I'm so sorry to disappoint you, but we\n"
+	.string "don't give any prize to our VIP clients,\l"
+	.string "it is just for the ones who paid the\l"
+	.string "entrance.$"
 
 SafariZone_House5_Combate_Domador_Texto_1.1:
-	.string "De todos modos, jamás le daría el\n"
-	.string "premio del SAFARI a alguien que\l"
-	.string "viste así. Más aún, si estuviera\l"
-	.string "en mi mano, me hubiera encargado de\l"
-	.string "que no pusieras un pie aquí, siquiera\l"
-	.string "pagando.\l"
-	.string "Ahí tienes tu respuesta a si hay o\l"
-	.string "no hay premio aquí.$"
+	.string "You know what? Anyway, I'll never give\n"
+	.string "the SAFARI prize to someone who wears\l"
+	.string "a TEAM ROCKET cosplay. Moreover, if I\l"
+	.string "were the man in charge I would have\l"
+	.string "forbidden you to enter here even if you\l"
+	.string "pay the entrance, there is your answer\l"
+	.string "if there is any prize here for you.$"
 
 SafariZone_House5_Combate_Domador_Texto_2:
 .string "…\n"
@@ -94,12 +93,12 @@ SafariZone_House5_Combate_Domador_Texto_7:
 .string "My brave POKÉMON!$"
 
 SafariZone_House5_Combate_Domador_Texto_8:
-	.string "({PLAYER} stole a HM03 from the\n"
-	.string "SAFARI TAMER)$"
+	.string "-{PLAYER} stole a HM03 from the\n"
+	.string "SAFARI TAMER!-$"
 
 SafariZone_House5_Combate_Domador_Texto_9:
-	.string "Damn it, how dare you? You are a ROCKET\n"
-	.string "after all! I will complain to KOGA about\l"
+	.string "Damn it, how dare you? Are you a ROCKET\n"
+	.string "after all?! I will complain to KOGA about\l"
 	.string "this; you'll see how he gets your SAFARI\l"
 	.string "PASS revoked!$"
 

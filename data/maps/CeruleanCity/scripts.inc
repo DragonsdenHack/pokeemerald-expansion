@@ -119,9 +119,9 @@ release
 end
 
 CeruleanCityDocumento_Text_102:
-	.string "TRAINER TIPS\n"
-.string "A POKÉMON can be made to hold an item.\l"
-	.string "Some items can even be used by the\l"
+.string "TRAINER TIPS\p"
+.string "A POKÉMON can be made to hold an item.\p"
+	.string "Some items can even be used by the\n"
 	.string "holding POKÉMON in battle.$"
 
 CeruleanCityDocumento_103::
@@ -190,21 +190,19 @@ end
 
 
 CeruleanCity_Rocket_Excavar_Text_1:
-.string "¡Hey, ROCKET!\n"
-	.string "¿Te gustaría formar parte de un buen\l"
-	.string "negocio?\l"
-	.string "Nos han encargado a mí y a otro\l"
-	.string "colega una misión en CIUDAD\l"
-	.string "CELESTE y pensamos que nos vendría\l"
-	.string "bien algo de ayuda, ¿qué dices?$"
+	.string "Hey, ROCKET! You want in on a good deal?\p"
+	.string "PETREL sent me and another GRUNT on a\n"
+	.string "mission in CERULEAN CITY, and we\l"
+	.string "thought an extra hand would do\l"
+	.string "some good. You in?$"
 
 CeruleanCity_Rocket_Excavar_Text_1.1:
 	.string "…\n"
 	.string "…$"
 
 CeruleanCity_Rocket_Excavar_Text_1.2:
-	.string "¡Perfecto!\n"
-	.string "¡Allá vamos!$"
+	.string "Good!\p"
+	.string "Let's go!$"
 
 CeruleanCity_Rocket_Excavar_move1:
 walk_in_place_up

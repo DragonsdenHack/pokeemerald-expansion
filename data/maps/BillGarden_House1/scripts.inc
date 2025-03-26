@@ -76,16 +76,15 @@ BillGarden_House1_Bill_Combate_Text_4:
 	.string "officers.$"
 
 BillGarden_House1_Bill_Combate_Text_5:
-.string "Ya que vas a pasar mucho tiempo\n"
-	.string "reflexionando entre rejas, al\l"
-	.string "menos te daré el honor de combatir\l"
-	.string "conmigo, siéntete afortunado.$"
+	.string "But since you'll be sitting in the clank\n"
+	.string "for a long time, I'll at least give you\l"
+	.string "the honor of battling me. Lucky you.$"
 
 BillGarden_House1_Bill_Combate_Text_5.1:
-	.string "¡No todos los días tiene uno la\n"
-	.string "suerte de presenciar la gran\l"
-	.string "colección de BILL, el POKEMANÍACO\l"
-	.string "número 1!$"
+	.string "Not every day street trash like you\l"
+	.string "has the opportunity to witness the\l"
+	.string "great collection of BILL, number one\l"
+	.string "POKÉMANIAC!$"
 
 BillGarden_House1_Bill_Combate_Text_6:
 	.string "This must be a joke.$"
@@ -96,8 +95,8 @@ BillGarden_House1_Bill_Combate_Text_7:
 BillGarden_House1_Bill_Combate_Text_8:
 	.string "CERULEAN POLICE: MR.BILL, we inform you\n"
 	.string "that we have completely surrounded the\l"
-	.string "shed of your secret garden. That\l"
-	.string "ROCKET has no way out.$"
+	.string "shed of your secret garden.\p"
+	.string "That ROCKET has no way out.$"
 
 BillGarden_House1_Bill_Combate_Text_9:
 	.string "BILL: Perfect. Make sure to take the\n"

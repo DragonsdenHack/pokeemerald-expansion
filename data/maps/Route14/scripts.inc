@@ -251,102 +251,102 @@ walk_in_place_up
 step_end
 
 Route14_Combate_Azul_Texto_1:
-.string "Ya era hora, {PLAYER}.\n"
-	.string "Estaba esperándote.$"
+	.string "Finally you are here, {PLAYER}.\p"
+	.string "I was waiting for you.$"
 
 Route14_Combate_Azul_Texto_2:
-.string "Ya sé que ahora mismo debería de\n"
-	.string "estar rumbo a ISLA PRIMA.\l"
-	.string "Pero, entre tú y yo, acabaré esta\l"
-	.string "misión mucho antes que vosotros.\l"
-	.string "Mi BLASTOISE está hecho a medida de\l"
-	.string "MOLTRES, aún siendo un LEGENDARIO{PAUSE 15}…{PAUSE 15}$"
+	.string "I know that I should be on way to ONE\n"
+	.string "ISLAND to fight MOLTRES, but let's be\l"
+	.string "honest, I will finish that mission much\l"
+	.string "faster than you two, my BLASTOISE is a\l"
+	.string "perfect counter for that POKÉMON, even\l"
+	.string "if it's a LEGENDARY…$"
 
 Route14_Combate_Azul_Texto_3:
-.string "ANDRA es la que debería de andarse con\n"
-	.string "ojo: vuestros GOLBAT no pueden\l"
-	.string "hacer nada contra un ZAPDOS.\l"
-	.string "Espero que el resto de su equipo\l"
-	.string "cubra esa debilidad, y la estrategia\l"
-	.string "que tienen planeada funcione.$"
+	.string "ANDRA should keep an eye out, your\n"
+	.string "GOLBATS would do nothing against a\l"
+	.string "ZAPDOS, I hope the strat that you\l"
+	.string "thought about, would work.$"
 
 Route14_Combate_Azul_Texto_3.1:
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route14_Combate_Azul_Texto_4:
-.string "Mi abuelo solía decir que un LEGENDARIO\n"
-	.string "era un POKÉMON intocable, que no\l"
-	.string "convenía tentar a los hijos predilectos\l"
-	.string "de la naturaleza.$"
+	.string "My grandpa used to tell me about\n"
+	.string "LEGENDARY POKÉMON as untouchable\l"
+	.string "beasts, it wasn't advisable to tempt\l"
+	.string "the favored children of nature.$"
 	
 Route14_Combate_Azul_Texto_4.1:
-	.string "-Ellos forman un mundo aparte, sus\n"
-	.string "origenes son diferentes a los de un\l"
-	.string "POKÉMON común, y sus genes parecieran\l"
-	.string "estar pulidos por el mismo creador,\l"
-	.string "en comparación con la mediocridad\l"
-	.string "que reina en los mortales-.$"
+	.string "They're part of a separate world, their\n"
+	.string "origins are different from those of a\l"
+	.string "common POKÉMON, and their genes seem\l"
+	.string "to be polished by the same creator,\l"
+	.string "compared to the mediocrity of the\l"
+	.string "rest-.$"
 
 Route14_Combate_Azul_Texto_5:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route14_Combate_Azul_Texto_6:
-.string "Qué tontería.\n"
-	.string "¿Para qué quieres saber que existen\l"
-	.string "POKÉMON increíbles si vas a quedarte\l"
-	.string "escondido, sin descubrir de lo que\l"
-	.string "sois capaces tú y tu equipo ante\l"
-	.string "esos supuestos seres superiores?$"
+.string "What nonsense.\p"
+	.string "Why do you want to know about these\n"
+	.string "incredible POKÉMON, if you're going\l"
+	.string "to stay hidden, without exploring\l"
+	.string "what you and your team are capable\l"
+	.string "of against those supposed superior\l"
+	.string "beasts?$"
 
 Route14_Combate_Azul_Texto_6.1:
-	.string "¿Qué mejor forma hay de admirar a las\n"
-	.string "AVES, que retarlas a un combate?\l"
-	.string "Es precisamente lo místico y sagrado\l"
-	.string "lo que más merece ser puesto a prueba.$"
+	.string "What better way is there to admire\n"
+	.string "the SACRED BIRDS than to challenge\l"
+	.string "them with your own team?\p"
+    .string "More than the rest, it's precisely\n"
+	.string "the mystical and sacred what most\l"
+	.string "deserves to be pushed to the limit.$"
 
 Route14_Combate_Azul_Texto_7:
-.string "Esto también podría aplicarse a\n"
-	.string "los entrenadores, ¿no crees?$"
+.string "This logic could be applied for\n"
+	.string "TRAINERS, too. Don't you think so?$"
 
 Route14_Combate_Azul_Texto_7.1:
-	.string "Después de lo del SS.ANNE, sigo\n"
-	.string "sin tener claro en qué clase de\l"
-	.string "ENTRENADOR te mueves.$"
+	.string "Since the SS. ANNE events, I'm\n"
+	.string "still confused about your real\l"
+	.string "trainerclass, HIGH RANK GRUNT.$"
 
 Route14_Combate_Azul_Texto_7.2:
-	.string "He mejorado mucho desde entonces,\n"
-	.string "tal vez{PAUSE 15}…{PAUSE 15}\l"
-	.string "¡Ahora pueda descubrirlo!$"
+	.string "Since then, many things just happened,\n"
+	.string "and my team is completely different.\p"
+	.string "Now, show me the way you act, your\n"
+	.string "very nature!$"
 
 Route14_Combate_Azul_Texto_8:
 	.string "So this team is not good enough yet.$"
 
 Route14_Combate_Azul_Texto_9:
-.string "Poco a poco vas haciéndote un\n"
-	.string "hueco entre los ROCKET más\l"
-	.string "fuertes, ¿eh?\l"
-	.string "Solo veo a ATLAS y al propio GIOVANNI\l"
-	.string "como los ROCKET que claramente podrían\l"
-	.string "hacerte morder el polvo.$"
+	.string "Bit by bit, you're carving out a spot\n"
+	.string "among the strongest ROCKETs, huh?\p"
+	.string "I only see ARCHER and GIOVANNI as\n"
+	.string "the only ROCKETs who could clearly\l"
+	.string "make you bite the dust.$"
 
 Route14_Combate_Azul_Texto_10:
-.string "Ya hemos perdido demasiado tiempo,\n"
-	.string "me largo a ISLA PRIMA de una vez.\l"
-	.string "Más le vale a ese MOLTRES estar\l"
-	.string "preparado para el SURF de un BLASTOISE\l"
-	.string "equipado con el CHALECO ASALTO, que\l"
-	.string "resistirá cualquier LLAMARADA.$"
+	.string "We already have wasted a lot of time, I\n"
+	.string "will go to KNOT ISLAND at once, that\l"
+	.string "MOLTRES better be resistant to a\l"
+	.string "super-effective SURF from an ASSAULT\l"
+	.string "VEST BLASTOISE, which'll withstand\l"
+	.string "any special Fire-type.$"
 	
 Route14_Combate_Azul_Texto_10.1:
-	.string "Ninguna divinidad y genética\n"
-	.string "suprema le salvará de este hecho.$"
+	.string "Not any divinity nor top genetics\n"
+	.string "will save MOLTRES from this fact.$"
 
 Route14_Combate_Azul_Texto_11:
-.string "ORNITÓLOGO: ¡Eso fue un PIDGEOT real!\n"
-	.string "¡Acabo de ver desplegar las alas\l"
-	.string "del mejor ave no legendaria de KANTO!\l"
-	.string "¡Sabía que pasar por RUTA 14\l"
-	.string "era buena idea!$"
+	.string "BIRD KEEPER: That was a real PIDGEOT!?\p"
+	.string "I saw the majestic wings of the best\n"
+	.string "non-legendary bird in the region!\p"
+	.string "Wow!$"
 
 Route14_Combate_Azul_Move_1:
 walk_in_place_down

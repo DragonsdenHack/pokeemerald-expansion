@@ -172,29 +172,26 @@ Route25_BillHouse_Evento_Policia_text_3:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Route25_BillHouse_Evento_Policia_text_4:
-.string "¿Quieres mi patente para realizar\n"
-	.string "teletransportes a largas distancias?\l"
-	.string "Buena jugada. Pero, para\l"
-	.string "desgracia tuya{PAUSE 5}…{PAUSE 5}$"
+.string "Don't you want my patent for long\n"
+	.string "distance teleportation!? {PAUSE 15}…{PAUSE 15} \p"
+	.string "Well played, but unlucky for you…$"
 
 Route25_BillHouse_Evento_Policia_text_5:
-.string "El gobierno de la ÉLITE 4 ya me ha\n"
-	.string "hecho una oferta por la patente:\l"
-	.string "20.000.000¥, además de licencia\l"
-	.string "para investigar a las AVES\l"
-	.string "LEGENDARIAS.$"
+.string "The ELITE 4 government has already\n"
+	.string "offered me 20,000,000¥, and an\l"
+	.string "exclusive license for investigating\l"
+	.string "the LEGENDARY BIRDS.$"
 
 Route25_BillHouse_Evento_Policia_text_5.1:
-	.string "Me sorprende vuestra ingenuidad.\n"
-	.string "¿De verdad pretendíais que un pobre\l"
-	.string "RECLUTA ROCKET robase al gran BILL la\l"
-	.string "propiedad intelectual de uno de\l"
-	.string "sus grandes inventos?\l"
-	.string "Esto te queda demasiado grande.$"
+	.string "Your ingenuity amazes me; did you really\l"
+	.string "thought about a single ROCKET stealing\l"
+	.string "from the great BILL the intellectual\l"
+	.string "property of his greatest inventions?\p"
+	.string "This is too much for you, ROCKET.$"
 
 Route25_BillHouse_Evento_Policia_text_6:
-	.string "GUARDs! Sweep up this walking GRIMER. I\n"
-	.string "don't want to see it ever again!$"
+	.string "GUARDs! Sweep up this walking GRIMER.\p"
+	.string "I don't want to see it ever again!$"
 
 Route25_BillHouse_Evento_Policia_text_7:
 	.string "You're hereby under arrest, ROCKET.\n"

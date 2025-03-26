@@ -81,33 +81,28 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 
 
 PokemonLeague_1F_Combate_Lorelei_Texto_1:
-.string "No puede ser, de nuevo derrotada,\n"
-	.string "creo que un periodo de descanso en\l"
-	.string "ISLA CUARTA no me vendría mal…\l"
-	.string "Sigue adelante, chico.\p"
-	.string "La LIGA POKÉMON te reserva\n"
-	.string "muchas sorpresas.$"
+	.string "Oh crap, defeated once again, I think I\n"
+	.string "need a vacation time at FLOE ISLAND…\p"
+	.string "Go ahead kid, the POKÉMON LEAGUE\n"
+	.string "awaits you with some surprises.$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_2:
-.string "Bienvenido a la LIGA POKÉMON.\n"
-	.string "Me llamo LORELEI, de la ÉLITE 4.\l"
-	.string "Tengo la impresión de haberte\l"
-	.string "visto antes en algún lugar, ¿o no?\l"
-	.string "En fin, hoy está siendo un día\l"
-	.string "duro, nunca había visto a tantos\l"
-	.string "talentos juntos aspirar al título\l"
-	.string "de CAMPEÓN, más te vale ser como\l"
-	.string "ellos, porque nadie me supera\l"
-	.string "entrenando POKÉMON TIPO HIELO.$"
+	.string "Welcome to the POKÉMON LEAGUE. I am\n"
+	.string "LORELEI, of the ELITE FOUR. I have the\l"
+	.string "feeling I've seen you somewhere before,\l"
+	.string "or not? Anyway, today has been a tough\l"
+	.string "day, I've never seen so many talents\l"
+	.string "aiming to the CHAMPION title at once,\l"
+	.string "you better be good enough like them\l"
+	.string "because no one surpasses me in training\l"
+	.string "ICE-TYPE POKÉMON.$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_2.1:
-	.string "Los movimientos que congelan son\n"
-	.string "mi especialidad, tus POKÉMON\l"
-	.string "estarán a mi merced cuando eso\l"
-	.string "ocurra.\l"
-	.string "¡Hahaha!\l"
-	.string "¿Comenzamos?$"
+	.string "Freezing moves are my specialty, and\n"
+	.string "your POKÉMON will be helpless when\l"
+	.string "that happens. Hahaha!\p"
+	.string "Let's start?$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_4:
-.string "¡Esto no debería ser así!{PAUSE 5}…{PAUSE 5}$"
+.string "This should not be like this!…$"
 

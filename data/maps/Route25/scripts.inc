@@ -168,8 +168,8 @@ release
 end
 
 Route22_Entrada_Liga_Texto_1::
-	.string "-Este es el lugar con más policía de la\n"
-	.string "región, mejor no tentar a la suerte.-$"
+	.string "-This is the most heavily policed\n"
+	.string "place in the entire region.-$"
 
 Route25_Azul::
 lock
@@ -178,6 +178,6 @@ release
 end
 
 Route25_Azul_Texto_1:
-	.string "Un RATTATA{PAUSE 15}…{PAUSE 15} debe ser una broma. Lo\n"
-	.string "acepté por cortesía pero{PAUSE 15}…{PAUSE 15} no durará\l"
-	.string "mucho en mi equipo.$"
+	.string "A RATTATA{PAUSE 15}…{PAUSE 15} must be a joke.\n"
+	.string "I take it as a courtesy, but{PAUSE 15}…{PAUSE 15}\l"
+	.string "it won't last long in my team.$"
