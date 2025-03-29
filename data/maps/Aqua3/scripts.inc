@@ -310,256 +310,256 @@ walk_in_place_left
 step_end
 
 Aqua3_Combate_Aquiles_Texto_1:
-.string "AQUILES: Pronto serás libre, KYOGRE.\n"
-	.string "Aquellos que te confinaron pagarán por\l"
-	.string "haber cometido tal atrocidad a aquel\l"
-	.string "que posibilitó la proliferación de la\l"
-	.string "vida.\l"
-	.string "El mar recuperará a su hijo pródigo.$"
+	.string "ARCHIE: Soon, you will be free, KYOGRE.\p"
+	.string "Those who confined you will pay for\n"
+	.string "having done such a thing to the one who\l"
+	.string "made the proliferation of life possible\l"
+	.string "millions of years ago. The sea will\l"
+	.string "finally have its creator back.$"
 
 Aqua3_Combate_Aquiles_Texto_2:
-.string "¡Imposible!\n"
-	.string "¡Nadie del TEAM ROCKET debería poder\l"
-	.string "derrotar al ALMIRANTE TOLO!$"
+.string "Impossible!\p"
+	.string "No one from TEAM ROCKET should have\n"
+	.string "the level to defeat ADMIN.MATT!$"
 
 Aqua3_Combate_Aquiles_Texto_2.1:
-	.string "Tal vez te subestimé, chico.\n"
-	.string "Puede que no todos seáis como dicen.\p"
-	.string "Has demostrado un gran valor e interés\n"
-	.string "por lo desconocido, con esas cualidades\l"
-	.string "serías un gran miembro del EQUIPO AQUA.$"
+	.string "Perhaps I underestimated you, kid.\n"
+	.string "Maybe not all of TEAM ROCKET are as\l"
+	.string "the media says after all. You've shown\l"
+	.string "great courage and interest in the\l"
+	.string "unknown to get this far. With those\l"
+	.string "qualities, you'd be a great member of\l"
+	.string "our TEAM AQUA.$"
 
 Aqua3_Combate_Aquiles_Texto_2.2:
-	.string "Seguro que sabes apreciar el espectáculo\n"
-	.string "que está a punto de producirse aquí.\l"
-	.string "¡Vamos, ROCKET! ¡Camina!$"
+	.string "Someone like you surely knows how\n"
+	.string "to appreciate the spectacle that's\l"
+	.string "about to unfold here.\p"
+	.string "Come on, ROCKET, walk!$"
 
 Aqua3_Combate_Aquiles_Texto_2.3:
-	.string "¡¡Ya es demasiado tarde para\n"
-	.string "echarse atrás, la tormenta te\l"
-	.string "engullirá de todos modos!!$"
+	.string "It's already too late to\n"
+	.string "back down; the storm will\l"
+	.string "engulf you anyway!$"
 
 Aqua3_Combate_Aquiles_Texto_3:
-.string "KYOGRE duerme en lo profundo de esta\n"
-	.string "pequeña gruta marina; que un ser\l"
-	.string "destinado a gobernar con puño de hierro\l"
-	.string "los océanos haya estado confinado en\l"
-	.string "este charco por milenios, es un\l"
-	.string "sacrilegio al que pondré fin ahora.$"
+	.string "KYOGRE sleeps in the depths of this\n"
+	.string "small lake. Such a POKÉMON destined to\l"
+	.string "rule the oceans…{PAUSE 30} confined to this\l"
+	.string "puddle for millennia…{PAUSE 30} is sacrilege that\l"
+	.string "I will end right now.$"
 
 Aqua3_Combate_Aquiles_Texto_3.1:
-	.string "Solo necesito hacer brillar la\n"
-	.string "ESFERA AZUL por última vez, y\l"
-	.string "KYOGRE hará acto de presencia.$"
+	.string "I will end right now. I just need to make\n"
+	.string "the BLUE ORB shine one last time, and\l"
+	.string "KYOGRE will make its appearance.$"
 
 Aqua3_Combate_Aquiles_Texto_3.2:
-	.string "¡Observa con atencion, ROCKET!\n"
-	.string "¡No volverás a ver algo así jamás!$"
+	.string "Watch out, ROCKET! You won't see\n"
+	.string "something like this ever again!$"
 
 Aqua3_Combate_Aquiles_Texto_4:
-.string "¡KYOGRE!\n"
-	.string "¡Señor de los mares!\l"
-	.string "¡El mundo necesita de tu inmenso\l"
-	.string "poder para restaurar el equilibrio!\l"
-	.string "¡Contigo de nuevo, los mares recobrarán\l"
-	.string "su esencia y supremacía original!$"
+.string "KYOGRE!\p"
+	.string "Lord of the seas!\p"
+	.string "The world needs your immense power to\n"
+	.string "restore balance! With you, the seasl\l"
+	.string "wil regain their original essence!$"
 
 Aqua3_Combate_Aquiles_Texto_4.1:
-	.string "¡Hazme digno de navegar bajo la\n"
-	.string "peor de las tormentas que toda\l"
-	.string "tu furia pueda dar!\l"
-	.string "¡Mis POKÉMON y yo estamos\l"
-	.string "preparados!$"
+	.string "Make me worthy to sail under the worst\n"
+	.string "storm your fury can unleash!\p"
+	.string "My POKÉMON and I are ready!$"
 
 Aqua3_Combate_Aquiles_Texto_5:
-.string "Fin del juego, chico.\n"
-	.string "Es hora de que asumas las consecuencias\l"
-	.string "de tus actos; el valor te llevó a\l"
-	.string "a presenciar el despertar de KYOGRE;\l"
-	.string "la emoción por alcanzar esa peligrosa\l"
-	.string "recompensa, es la que te va a llevar\l"
-	.string "a la perdición.$"
+.string "Game over, kid.\p"
+	.string "It's time for you to face the\n"
+	.string "consequences of your actions; courage\l"
+	.string "led you to witness KYOGRE's awakening,\l"
+	.string "and the thrill of reaching that\l"
+	.string "dangerous reward, is what will\l"
+	.string "lead to your downfall.$"
 
 Aqua3_Combate_Aquiles_Texto_6:
-.string "He pasado por muchas aventuras, todas\n"
-	.string "ellas han hecho mejor a mi tripulación.$"
+	.string "I've been through many and very\n"
+	.string "dangerous adventures, but all of\l"
+	.string "them have made my team better.$"
 
 Aqua3_Combate_Aquiles_Texto_6.1:
-	.string "A diferencia de esos LÍDERES, como\n"
-	.string "esa MISTY de CELESTE, o PLUBIO en\l"
-	.string "ARRECÍPOLIS{PAUSE 15}…{PAUSE 15} mis POKÉMON del TIPO AGUA\l"
-	.string "están hechos de otra pasta, se han\l"
-	.string "curtido a base de surcar las aguas\l"
-	.string "más bravas del mundo.$"
+	.string "Unlike those GYM LEADERS; MISTY from\n"
+	.string "CERULEAN CITY, or JUAN in SOOTOPOLIS,\l"
+	.string "my Water-type POKÉMON are made of\l"
+	.string "sturdier stuff. They have toughened\l"
+	.string "themselves by navigating the roughest\l"
+	.string "waters in this world.$"
 
 Aqua3_Combate_Aquiles_Texto_6.2:
-	.string "Ahora, con KYOGRE como colofón\n"
-	.string "a esta gran aventura.\l"
-	.string "¡Nadie podrá frenarme!$"
-
+	.string "Now, with KYOGRE… all who opposes\n"
+	.string "TEAM AQUA will be silenced!!$"
 
 Aqua3_Combate_Aquiles_Texto_7:
-.string "¡Imposible! ¡Todo era perfecto!\n"
-	.string "¡¡KYOGRE!!$"
+	.string "Impossible! Everything was perfect!\n"
+	.string "KYOGRE!!$"
 
 Aqua3_Combate_Aquiles_Texto_8:
-.string "¡¿Qué significa esto?!\n"
-	.string "KYOGRE estaba a pleno rendimiento, no\l"
-	.string "he visto jamás ataques acuáticos de\l"
-	.string "semejante potencia.\l"
-	.string "¿De dónde has sacado la fortaleza\l"
-	.string "para lidiar con este poder ancestral?\l"
-	.string "¡Todo mi plan no puede echarse a perder\l"
-	.string "de esta manera en cuestión de segundos!$"
+	.string "What does this mean? KYOGRE was\n"
+	.string "performing at full capacity. I've never\l"
+	.string "seen aquatic attacks of such power in\l"
+	.string "my 20 years of travels. Where did you\l"
+	.string "find the strength to deal with this\l"
+	.string "ancestral power? My entire plan can't\l"
+	.string "fall apart just like that!$"
 
 Aqua3_Combate_Aquiles_Texto_9:
-.string "????: Ya se ha echado a perder, AQUILES.\n"
-	.string "No volverás a estar tan cerca de KYOGRE.$"
+	.string "????: It's already ruined, ARCHIE.\p"
+	.string "You'll never be this close to\n"
+	.string "controlling KYOGRE again.$"
 
 Aqua3_Combate_Aquiles_Texto_10:
 	.string "ARCHIE: YOU!$"
 
 Aqua3_Combate_Aquiles_Texto_11:
-.string "ZEUS: Alguien como tú no puede manejar\n"
-	.string "a tal POKÉMON como si fuera un juguete.\l"
-	.string "Ahora, KYOGRE volverá a estar\l"
-	.string "en las manos adecuadas.$"
+	.string "ZEUS: Someone like you can't handle\n"
+	.string "such a POKÉMON as if it were a toy. Now\l"
+	.string "KYOGRE will be back in the right hands.$"
 
 Aqua3_Combate_Aquiles_Texto_12:
-.string "AQUILES: ¿Las manos adecuadas?\n"
-	.string "¿No te referirás a las tuyas?\l"
-	.string "¡No me hagas reír!\l"
-	.string "¡Sabes lo mismo sobre KYOGRE que\l"
-	.string "yo sobre los POKÉMON terrestres!$"
+	.string "ARCHIE: The right hands? You don't\n"
+	.string "mean yours, do you? Don't make me laugh!\p"
+	.string "You know as much about KYOGRE as I do\n"
+	.string "about land POKÉMON!$"
 
 Aqua3_Combate_Aquiles_Texto_12.1:
-	.string "¡Solo eres un oportunista que…!$"
+	.string "You're just an opportunist who…!$"
 
 Aqua3_Combate_Aquiles_Texto_13:
 	.string "ZEUS: FLOETTE! PSYCHIC!$"
 
 Aqua3_Combate_Aquiles_Texto_14:
-.string "-ZEUS le arrebató a AQUILES todos\n"
-	.string "sus POKÉMON y la ESFERA AZUL.-$"
+	.string "-ZEUS took away all ARCHIE's\n"
+	.string "POKÉMON and the BLUE ORB.-$"
 
 Aqua3_Combate_Aquiles_Texto_15:
-.string "AQUILES: {PAUSE 15}…{PAUSE 15}$"
+.string "ARCHIE: {PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_16:
 .string "¿Q{PAUSE 15}-{PAUSE 15}qué hago yo aquí?$"
 
 Aqua3_Combate_Aquiles_Texto_17:
-.string "ZEUS: Eso mismo nos preguntamos nosotros.\n"
-	.string "Esta cueva no contiene nada importante,\l"
-	.string "tus compañeros nos han hablado de KYOGRE,\l"
-	.string "y de una ESFERA ROJA que lo despierta,\l"
-	.string "pero eso está en HOENN{PAUSE 15}…{PAUSE 15}$"
+	.string "ZEUS: That's exactly what we're\n"
+	.string "wondering too. This cave doesn't hold\l"
+	.string "anything significant. Your companions\l"
+	.string "have told us about some POKÉMON named\l"
+	.string "KYOGRE and a RED ORB that awakens it,\l"
+	.string "but that's in HOENN…{PAUSE 20}$"
 
 Aqua3_Combate_Aquiles_Texto_18:
-.string "AQUILES: ¡KYOGRE! ¡Sí!\n"
-	.string "¡Debo encontrar esa ESFERA ROJA,\l"
-	.string "queda mucho por hacer!\l"
-	.string "¡Volvemos a HOENN!$"
+	.string "ARCHIE: KYOGRE, yes! I must find that\n"
+	.string "RED ORB; there's a lot to do! We're going\l"
+	.string "back to HOENN!$"
 
 Aqua3_Combate_Aquiles_Texto_19:
-.string "ZEUS: Ahora, tanto AQUILES como MAGNO\n"
-	.string "están destinados a ser incompetentes,\l"
-	.string "no pondrán a nadie en peligro.\l"
-	.string "Aunque llegasen a recuperar las esferas,\l"
-	.string "al ser las equivocadas, todo su plan\l"
-	.string "fracasaría de nuevo.$"
+	.string "ZEUS: Now, both ARCHIE and MAXIE are\n"
+	.string "destined to be incompetent and won't\l"
+	.string "pose any threat. Even if they manage to\l"
+	.string "recover the orbs, since they are the\l"
+	.string "wrong ones, their entire plan would fail\l"
+	.string "again.$"
 
 Aqua3_Combate_Aquiles_Texto_20:
-.string "ZEUS: {PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_21:
-.string "¿Ves injusto que les arrebate también\n"
-	.string "el equipo que les ha llevado décadas?$"
+	.string "Do you perceive it as unjust that I\n"
+	.string "strip away the team they have spent\l"
+	.string "decades constructing?$"
 
 Aqua3_Combate_Aquiles_Texto_21.1:
-	.string "Es necesario, {PLAYER}.\n"
-	.string "Ahora solo conocen de HOENN, ¿qué crees\l"
-	.string "que pensaría AQUILES si ve que cuenta\l"
-	.string "con un POKÉMON llamado WISHIWASHI?$"
+	.string "That's necessary, {PLAYER}. At this\n"
+	.string "point, they only know about HOENN.\l"
+	.string "What do you anticipate ARCHIE would\l"
+	.string "feel upon discovering he possesses a\l"
+	.string "POKÉMON named WISHIWASHI?$"
 
 Aqua3_Combate_Aquiles_Texto_21.2:
-	.string "Exacto, se pondrá a investigar, y\n"
-	.string "de nuevo volveremos al ciclo.$"
+	.string "Exactly, he'll start making questions,\n"
+	.string "and we'll return to the cycle.$"
 
 Aqua3_Combate_Aquiles_Texto_22:
-.string "Sea como sea, ambos\n"
-	.string "estaban equivocados.$"
+	.string "Either way, both were wrong.$"
 
 Aqua3_Combate_Aquiles_Texto_23:
-.string "Más tierra, más agua{PAUSE 15}…{PAUSE 15}\n"
-	.string "Qué estupidez, solo el creador de\l"
-	.string "todo tiene poder para decidir\l"
-	.string "sobre el planeta en su conjunto.$"
+	.string "More land, more water…{PAUSE 30} What a dumb\n"
+	.string "idea. Only the creator of everything\l"
+	.string "has the authority to decide about the\l"
+	.string "entire planet.$"
 
 Aqua3_Combate_Aquiles_Texto_24:
-.string "Lo siento, {PLAYER}.\n"
-	.string "Pero no te conté toda la verdad, es\l"
-	.string "cierto que quería evitar que KYOGRE\l"
-	.string "y GROUDON cayeran en sus manos.$"
+	.string "Sorry, {PLAYER}, but I didn't give you\n"
+	.string "the whole truth. It's true I wanted to\l"
+	.string "stop ARCHIE and MAXIE from getting\l"
+	.string "KYOGRE and GROUDON…$"
 	
 Aqua3_Combate_Aquiles_Texto_24.1:
-	.string "Pero no para mantenerlos confinados\n"
-	.string "hasta el fin de los tiempos{PAUSE 15}…{PAUSE 15}$"
+	.string "…but not to lock them away forever.$"
 
 Aqua3_Combate_Aquiles_Texto_25:
-.string "AQUILES y MAGNO creían que iban detrás\n"
-	.string "de los mayores poderes en este mundo.\l"
-	.string "Efectivamente, son muy poderosos, ya\l"
-	.string "has tenido ocasión de comprobarlo{PAUSE 15}…{PAUSE 15}$"
+	.string "ARCHIE and MAXIE thought they were\n"
+	.string "chasing the most powerful POKÉMON in\l"
+	.string "this world. KYOGRE and GROUDON are\l"
+	.string "indeed very powerful. You've had a\l"
+	.string "chance to see it. But…{PAUSE 30}$"
 
 Aqua3_Combate_Aquiles_Texto_26:
-.string "Sin embargo, sus poderes palidecen\n"
-	.string "ante el verdadero origen de todo.$"
+	.string "Their powers are nothing compared to\n"
+	.string "the creator of everything.$"
 
 Aqua3_Combate_Aquiles_Texto_26.1:
-	.string "Los dos: KYOGRE y GROUDON, junto con\n"
-	.string "RAYQUAZA, son POKÉMON necesarios que,\l"
-	.string "unidos, harán aparecer al creador\l"
-	.string "original de todo.$"
+	.string "KYOGRE and GROUDON, along with RAYQUAZA,\n"
+	.string "are KEY POKÉMON that, when combined,\l"
+	.string "will summon the original creator of\l"
+	.string "everything.$"
 
 Aqua3_Combate_Aquiles_Texto_26.2:
-	.string "Un poder que sí puede cambiar al\n"
-	.string "mundo para siempre, ¿qué es un poco\l"
-	.string "más de agua o tierra, en comparación\l"
-	.string "con poder reducir todo a polvo de un\l"
-	.string "solo chasquido, o generar el mayor de\l"
-	.string "los paraísos?$"
+	.string "This is something that can really\n"
+	.string "make an impact on world. What's a bit\l"
+	.string "more water or land? Compared to a\l"
+	.string "POKÉMON that could wipe out everything\l"
+	.string "with a single snap, or create the best\l"
+	.string "paradises?$"
 
 Aqua3_Combate_Aquiles_Texto_27:
-.string "AQUILES y MAGNO se preguntaban el\n"
-	.string "porqué de sus derrotas, creían en\l"
-	.string "la perfección de KYOGRE y GROUDON.\l"
-	.string "Pero sus poderes son incompletos{PAUSE 5}…{PAUSE 5}$"
+	.string "ARCHIE and MAXIE wondered about the\n"
+	.string "reason for their defeats against you.\p"
+	.string "They believed in the perfection of\n"
+	.string "KYOGRE and GROUDON; however, their\l"
+	.string "powers are incomplete.$"
 
 Aqua3_Combate_Aquiles_Texto_28:
-.string "Nada me retiene ya aquí.\n"
-	.string "JOHTO es mi próximo destino, sospecho\l"
-	.string "que el ENTRENADOR más poderoso y sabio\l"
-	.string "de la región guarda otro de los POKÉMON\l"
-	.string "vinculados con el origen de todo.$"
+	.string "Nothing holds me here anymore; I must\n"
+	.string "go after the remaining KEY POKÉMON.\p"
+	.string "My next goal is in JOHTO, it seems the\n"
+	.string "most powerful and wise TRAINER in the\l"
+	.string "region possesses a POKÉMON that fits\l"
+	.string "with the description I'm looking for.$"
 
 Aqua3_Combate_Aquiles_Texto_29:
-.string "ZEUS: Espero, {PLAYER}, que ni se te\n"
-	.string "pase por la cabeza tratar de oponerte\l"
-	.string "a mi voluntad. En nuestro combate de\l"
-	.string "prueba no usé más del 50% de mi poder.$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}I hope, {PLAYER}, you're not\n"
+	.string "thinking about going against my will.\l"
+	.string "In our practice fight, I used less\l"
+	.string "than 50% of my power.$"
 
 Aqua3_Combate_Aquiles_Texto_29.1:
-	.string "No quisiera que me obligaras a emplear\n"
-	.string "el 100% de mis capacidades, pero no\l"
-	.string "dudaré en hacerlo si te pones en medio.$"
+	.string "I wouldn't want to be forced to\n"
+	.string "perform at 100% of my abilities,\l"
+	.string "but{PAUSE 15}…{PAUSE 15} I won't hesitate if you\l"
+	.string "stand in my way.$"
 
 Aqua3_Combate_Aquiles_Texto_30:
 	.string "GIOVANNI: ADMIN {PLAYER}? Are you\n"
-	.string "still in SEVII ISLANDS? We have many\l"
-	.string "matters to discuss. I require your\l"
-	.string "presence in my office as soon as\l"
-	.string "possible.$"
+	.string "still in SEVII ISLANDS?\p"
+	.string "We have many matters to discuss.\p"
+	.string "I require your presence in my\n"
+	.string "office as soon as possible.$"
 
 Aqua3_Combate_Aquiles_Move_1:
 walk_in_place_right

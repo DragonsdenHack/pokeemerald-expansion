@@ -1158,7 +1158,7 @@ release
 end
 
 Base_Johto_Llave_Derecha_Despues_Texto_1:
-	.string "Se requiere de una llave especial.$"
+	.string "A special KEY is required.$"
 
 Base_Johto_Llave_Derecha_Despues_Texto_2:
-	.string "¿Quieres ir al P2 de la BASE?$"
+	.string "Go to the 2F?$"

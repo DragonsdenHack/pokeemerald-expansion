@@ -255,10 +255,10 @@ end
 
 CinnabarMansionS2Documento_Text_107:
 .string "METAGROSS AND DEVON'S\n"
-	.string "MASQUERADE AT HOENN:\l"
-	.string "…\l"
-	.string "…\l"
-	.string "Most people know that the\l"
+	.string "MASQUERADE AT HOENN:\p"
+	.string "…\p"
+	.string "…\p"
+	.string "Most people know that the\n"
 	.string "characteristic PSEUDO.LEGENDARY of\l"
 	.string "HOENN is SALAMENCE, a dragon that\l"
 	.string "reflects the power inside a place as\l"
@@ -313,7 +313,6 @@ CinnabarMansionS2Documento_Text_107Yes3:
 	.string "STEVEN has the necessary prowess to\l"
 	.string "claim the CHAMPION title.$"
 
-
 CinnabarMansionS2Documento_Text_107Yes4:
 	.string "There ain't a single BELDUM anywhere in\n"
 	.string "HOENN except for STEVEN's ones, and\l"
@@ -328,7 +327,6 @@ CinnabarMansionS2Documento_Text_107Yes4:
 	.string "and calculating, with a type combo\l"
 	.string "that's way too convenient, like it was\l"
 	.string "custom-made or something.$"
-
 
 CinnabarMansionS2Documento_Text_107Yes5:
 	.string "If all of this were confirmed, we would\n"
@@ -422,106 +420,102 @@ CinnabarMansionS2_Blaine_Texto_1:
 	.string "BLAINE: So you came.$"
 
 CinnabarMansionS2_Blaine_Texto_2:
-.string "Nadie hubiera pensado que un ROCKET\n"
-	.string "daría tantos problemas, eres un caso\l"
-	.string "único, la excepción que confirma la\l"
-	.string "regla. Pero incluso esa excepción\l"
-	.string "responde a unos patrones que buenamente\l"
-	.string "nos hemos encargado de cubrir aquí{PAUSE 5}…{PAUSE 5}$"
+	.string "Who would've thought a ROCKET would\n"
+	.string "stir up so much trouble? You're one of a\l"
+	.string "kind, the exception that proves the\l"
+	.string "rule, but even you follow patterns we've\l"
+	.string "taken care of in this warehouse…$"
 
 CinnabarMansionS2_Blaine_Texto_3:
-.string "Observa este lugar, su única razón\n"
-	.string "de ser es explorar los límites que\l"
-	.string "las leyes de este mundo nos imponen.\p"
-	.string "Al igual que el TEAM ROCKET,\n"
-	.string "nuestro fin último es similar.$"
+	.string "Look at this place; its only reason for\n"
+	.string "existing is to explore the boundaries\l"
+	.string "that the laws of this world impose on\l"
+	.string "us, just like TEAM ROCKET; our end goal\l"
+	.string "is similar.$"
 
 CinnabarMansionS2_Blaine_Texto_4:
-.string "MAGMAR, CHARIZARD, ARCANINE…\n"
-	.string "Solo son números, lo que les\l"
-	.string "diferencia es un mayor o menor\l"
-	.string "grado en cada uno de los 6\l"
-	.string "parámetros que componen la\l"
-	.string "genética inherente a cada especie.$"
+	.string "MAGMAR, CHARIZARD, ARCANINE…{PAUSE 25}\p"
+	.string "Just numbers; what distinguishes them\n"
+	.string "is a greater or lesser degree in each of\l"
+	.string "the 6 parameters that constitute their\l"
+	.string "genetics.$"
 
 CinnabarMansionS2_Blaine_Texto_4.1:
-	.string "Lo único que tienen de especial\n"
-	.string "los LEGENDARIOS es un total mayor\l"
-	.string "en la suma de esos 6 parámetros,\l"
-	.string "no han hecho nada para ganarse ese\l"
-	.string "mayor total, solo ser -LEGENDARIOS-\l"
-	.string "por gracia del -creador-.$"
+	.string "The harsh truth is{PAUSE 25}…{PAUSE 25} the one thing\n"
+	.string "that makes LEGENDARIES special is a higher\l"
+	.string "total in the sum of those 6 parameters;\l"
+	.string "they haven't done anything to achieve\l"
+	.string "that higher total; just being -LEGENDARY-\l"
+	.string "just due to -the creator's favor-.$"
 
 CinnabarMansionS2_Blaine_Texto_4.2:
-	.string "Un MAGIKARP, por mucho que quiera,\n"
-	.string "jamás se acercará al peor DRAGONITE\l"
-	.string "que pueda existir, independientemente\l"
-	.string "de lo que cada uno haga.$"
+	.string "A MAGIKARP, no matter how much it tries,\n"
+	.string "will never even come close to the worst\l"
+	.string "DRAGONITE that could exist, regardless\l"
+	.string "of their efforts.$"
 
 CinnabarMansionS2_Blaine_Texto_5:
-.string "De este modo, quien sea capaz de\n"
-	.string "controlar y manipular estos 6\l"
-	.string "parámetros, al tiempo que las\l"
-	.string "combinaciones de tipos,\l"
-	.string "habilidades y movimientos, tiene\l"
-	.string "el poder de controlar este mundo.\p"
-	.string "Algunos, como LANCE, se rinden a\n"
-	.string "los POKÉMON divinos, buscan que la\l"
-	.string "naturaleza les dé todo hecho; sin\l"
-	.string "embargo, nosotros vamos más allá.$"
+	.string "In this way, whoever is capable of\n"
+	.string "controlling and manipulating these 6\l"
+	.string "parameters, along with the type\l"
+	.string "combinations, abilities, and moves…\l"
+	.string "holds the power to control this world.\p"
+	.string "Some, like LANCE, surrender to divine\n"
+	.string "POKÉMON, hoping nature will do\l"
+	.string "everything for them; we go beyond that.$"
 
 CinnabarMansionS2_Blaine_Texto_6:
-.string "Un LEGENDARIO únicamente es tal\n"
-	.string "por haber sido el ganador de la\l"
-	.string "lotería de la naturaleza, el más\l"
-	.string "agraciado, como he dicho, por\l"
-	.string "mera gracia del creador, pero\l"
-	.string "no aquí, no en este lugar{PAUSE 5}…{PAUSE 5}$"
+	.string "A LEGENDARY is only a LEGENDARY\n"
+	.string "because it won nature's lottery, the\l"
+	.string "luckiest, as I've said, just by the\l"
+	.string "creator's grace…\p"
+	.string "But not here, not in this place…$"
 
 CinnabarMansionS2_Blaine_Texto_7:
-.string "Si conocemos las reglas del juego,\n"
-	.string "podemos usarlas a nuestro favor,\l"
-	.string "para que esa lotería nos toque no\l"
-	.string "solo una vez, sino varias en el\l"
-	.string "mismo POKÉMON. Se acabaron los\l"
-	.string "tiempos de imperfecciones,\l"
-	.string "arbitrariedades y azar dictados\l"
-	.string "por la naturaleza.$"
+	.string "By understanding the rules of the game,\n"
+	.string "we can manipulate them in our favor, so\l"
+	.string "that the lottery smiles on us not just\l"
+	.string "once, but multiple times for the same\l"
+	.string "POKÉMON; the days of imperfections,\l"
+	.string "arbitrariness, and random chance\l"
+	.string "imposed by nature{PAUSE 25}…{PAUSE 25} are over.\p"
+	.string "Do you know what that means?!$"
 
 CinnabarMansionS2_Blaine_Texto_8:
-	.string "We are the ones who establish the rules\n"
-	.string "of the game now!$"
+	.string "We are the ones who establish\n"
+	.string "the rules of the game now!$"
 
 CinnabarMansionS2_Blaine_Texto_9:
 	.string "Impossible! Where the heck is that\n"
 	.string "power coming from!?$"
 
 CinnabarMansionS2_Blaine_Texto_10:
-.string "No tiene sentido, es ridículo{PAUSE 15}…{PAUSE 15}\p"
-	.string "¡Mi MAGMORTAR optimizado al máximo es\n"
-	.string "mejor que cada uno de tus POKÉMON!$"
+	.string "It doesn't make sense, it's absurd; my\n"
+	.string "buffed MAGMORTAR-Y is superior to each\l"
+	.string "of your POKÉMON.$"
 
 CinnabarMansionS2_Blaine_Texto_10.1:
-	.string "¡De un LLAMARADA pulveriza a todo\n"
-	.string "lo que golpee neutral, de un RAYO\l"
-	.string "pone de rodillas a MOLTRES!$"
+	.string "With one single FIRE BLAST destroys\n"
+	.string "93% of KANTO's POKÉMON!\p"
+	.string "Can even humiliate the 3 SACRED BIRDS!$"
 
 CinnabarMansionS2_Blaine_Texto_10.2:
-	.string "¿Qué es lo que te mantiene en pie?$"
+	.string "Which variable is the one that keeps\n"
+	.string "you on course!?$"
 
 CinnabarMansionS2_Blaine_Texto_11:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 CinnabarMansionS2_Blaine_Texto_12:
-.string "Aun así, no te será suficiente.\n"
-	.string "OAK ha alcanzado otro nivel; con uno\l"
-	.string "solo de sus POKÉMON podría tumbar a\l"
-	.string "todo mi equipo, no puedes ganar.$"
+	.string "But this time it won't be enough; OAK\n"
+	.string "has reached another level, with just\l"
+	.string "one of his POKÉMON, he could defeat my\l"
+	.string "entire team. You can't win.$"
 
 CinnabarMansionS2_Blaine_Texto_12.1:
-	.string "Sus POKÉMON te tumbarán de un golpe,\n"
-	.string "antes de que puedas siquiera ejecutar\l"
-	.string "un solo movimiento.$"
+	.string "Simply because his POKÉMON will knock\n"
+	.string "you out before you can even make a\l"
+	.string "single move.$"
 
 CinnabarMansionS2_Blaine_Texto_13:
 	.string "We've spent years here, quietly working\n"
@@ -529,25 +523,22 @@ CinnabarMansionS2_Blaine_Texto_13:
 	.string "and now we've succeeded; OAK has a\l"
 	.string "flawless team.$"
 
-
 CinnabarMansionS2_Blaine_Texto_14:
-.string "Lo único que has conseguido al\n"
-	.string "llegar hasta aquí, es tener el\l"
-	.string "privilegio de saber qué se siente\l"
-	.string "al enfrentar a semejante poder.$"
+	.string "All you've managed by getting here is to\n"
+	.string "have the privilege of experiencing how\l"
+	.string "it feels facing the impossible.$"
 
 CinnabarMansionS2_Blaine_Texto_14.1:	
-	.string "Vas a perseguir algo inalcanzable,\n"
-	.string "y verás como inevitablemente todas\l"
-	.string "las posibilidades te conducen a ser\l"
-	.string "masacrado por el mejor equipo jamás\l"
-	.string "comandado por un ENTRENADOR.$"
+	.string "Chasing something unattainable, and\n"
+	.string "to witness how every possibility\l"
+	.string "inevitably leads you to be obliterated\l"
+	.string "by the best team ever led by a PKMN\l"
+	.string "TRAINER.$"
 
 CinnabarMansionS2_Blaine_Texto_15:
-.string "Buena suerte, {PLAYER}.\n"
-	.string "Aunque{PAUSE 15}…{PAUSE 15} en este caso, no\l"
-	.string "tiene sentido hablar de ella; todos los\l"
-	.string "caminos conducirán al mismo resultado.$"
+	.string "Good luck, {PLAYER}, though honestly,\n"
+	.string "it doesn't really matter; it's all gonna\l"
+	.string "end up the same way.$"
 
 CinnabarMansionS2_Blaine_Move_1:
 walk_in_place_down
@@ -776,160 +767,149 @@ delay_8
 step_end
 
 CinnabarMansionS2_Oak_Texto_1:
-.string "OAK: Como esperaba, no has faltado\n"
-	.string "a tu palabra; pondremos fin a todo\l"
-	.string "esto de una vez por todas.\l"
-	.string "Aquí mismo, ¿qué mejor lugar?$"
+	.string "As I expected, you have not failed to\n"
+	.string "keep your word; we will put an end to all\l"
+	.string "of this once and for all, and right here,\l"
+	.string "what better place than this.$"
 
 CinnabarMansionS2_Oak_Texto_2:
-.string "Creí haber alcanzado la perfección\n"
-	.string "con ROJO, un ENTRENADOR imbatible,\l"
-	.string "y lo sigo diciendo: el único fallo\l"
-	.string "fue no exponerle al estímulo adecuado.\p"
-	.string "Si LANCE hubiera sido inteligente,\n"
-	.string "hubiera sabido ver su potencial, y al\l"
-	.string "poco que le dejara sobrecompensarse,\l"
-	.string "luchando frente a entrenadores de tu\l"
-	.string "altura, el efecto bola de nieve de su\l"
-	.string "inteligencia le hubiera hecho, junto\l"
-	.string "con los POKÉMON adecuados, imbatible.$"
+	.string "I believed I had achieved perfection\n"
+	.string "with RED, an unbeatable TRAINER, and I\l"
+	.string "continue to assert, the only mistake\l"
+	.string "was not exposing him to the proper\l"
+	.string "stimulus; if LANCE had been intelligent,\l"
+	.string "he would've recognized his potential,\l"
+	.string "and if he had allowed him to\l"
+	.string "overcompensate by battling trainers of\l"
+	.string "your caliber, the snowball effect of his\l"
+	.string "intelligence would have made him\l"
+	.string "unbeatable handling the right POKÉMON.$"
 
 CinnabarMansionS2_Oak_Texto_3:
-.string "Solo unas mejores herramientas te\n"
-	.string "dieron la victoria ante ROJO, pero\l"
-	.string "ahora es imposible.\p"
-	.string "Desde este remoto lugar, nos hemos\n"
-	.string "encargado de reunir un equipo que\l"
-	.string "marcará un antes y un después; lo\l"
-	.string "mejor de ambos mundos.$"
+	.string "Only better tools gave you the victory\n"
+	.string "against RED, but now it's impossible;\p"
+	.string "from this remote place, we have ensured\n"
+	.string "to assemble a team that will set a new\l"
+	.string "era, we have gathered the best of both\l"
+	.string "worlds.$"
 
 CinnabarMansionS2_Oak_Texto_4:
-.string "Por un lado: la singular combinación\n"
-	.string "genética de DEOXYS, inviable de replicar\l"
-	.string "con nuestra tecnología actual, el\l"
-	.string "representante de lo que implica\l"
-	.string "ser un LEGENDARIO.\l"
-	.string "Algo que LANCE y otros muchos adoran.$"
+	.string "DEOXYS's unique genetic mix, impossible\n"
+	.string "to recreate with our current\l"
+	.string "technology, is the ultimate example of\l"
+	.string "what it means to be a LEGENDARY,\l"
+	.string "something that LANCE and a lot of\l"
+	.string "other idiots are crazy about.$"
 
 CinnabarMansionS2_Oak_Texto_5:
-.string "A pesar de que{PAUSE 15}…{PAUSE 15} estos propios\n"
-	.string "legendarios siquiera sepan de\l"
-	.string "donde vienen sus poderes.$"
+	.string "Although{PAUSE 15}…{PAUSE 15} these LEGENDARIES themselves\n"
+	.string "may not even know where their powers\l"
+	.string "come from.$"
 	
 CinnabarMansionS2_Oak_Texto_5.1:
-	.string "Es un insulto para aquellos que de\n"
-	.string "verdad sabemos observar y detectar\l"
-	.string "cómo funcionan los mecanismos que\l"
-	.string "permiten a un POKÉMON ser mejor o\l"
-	.string "peor que otro; y a la vez, sentir\l"
-	.string "esa impotencia por la enorme\l"
-	.string "dificultad que implica el poder\l"
-	.string "activarlos para uso propio.$"
+	.string "Yes. It's an insult to those of us\n"
+	.string "who truly understand how to observe\l"
+	.string "and detect the mechanisms that allow a\l"
+	.string "POKÉMON to be better or worse than\l"
+	.string "another, while also feeling frustrated\l"
+	.string "by the enormous difficulty of being\l"
+	.string "able to activate them for personal use.$"
 
 CinnabarMansionS2_Oak_Texto_6:
-.string "Por otro lado, tenemos al futuro:\n"
-	.string "POKÉMON creados a la carta, que\l"
-	.string "dejarán en evidencia las\l"
-	.string "imperfecciones del resto.$"
+	.string "On the flip side, we have the future:\p"
+	.string "POKÉMON created to order, which will\n"
+	.string "highlight the imperfections of the\l"
+	.string "rest.$"
 	
 CinnabarMansionS2_Oak_Texto_6.1:
-	.string "Demostrarán que incluso los propios\n"
-	.string "LEGENDARIOS no dejan de ser POKÉMON,\l"
-	.string "con menos imperfecciones que los\l"
-	.string "demás, pero POKÉMON al fin y al cabo.$"
+	.string "Even showing that the LEGENDARIES\n"
+	.string "themselves are simply POKÉMON with\l"
+	.string "fewer imperfections than the others.$"
 
 CinnabarMansionS2_Oak_Texto_6.2:
-	.string "Solo les diferencia una base mayor\n"
-	.string "sobre la que poder construir.\p"
-	.string "La genética puede ahorrar años de\n"
-	.string "trabajo, y a veces toda una vida.$"
+	.string "However, this fact shouldn't be\n"
+	.string "underestimated, as they start from a\l"
+	.string "better base point; genetics can save\l"
+	.string "years of effort, and sometimes a whole\l"
+	.string "lifetime.$"
 
 CinnabarMansionS2_Oak_Texto_7:
-.string "De todos ellos, quien ha demostrado\n"
-	.string "tener mejor base genética ha sido,\l"
-	.string "por supuesto, MEW. El ancestro de\l"
-	.string "todos los POKÉMON, gracias al cual\l"
-	.string "pudimos crear un POKÉMON como MEWTWO.$"
+	.string "Out of all LEGENDARIES, who has shown to\n"
+	.string "have the best genetic base has been, of\l"
+	.string "course, MEW, the ancestor of all\l"
+	.string "POKÉMON and, all in all, a MEWTWO\l"
+	.string "with imperfections.$"
 
 CinnabarMansionS2_Oak_Texto_7.1:
-	.string "Ello es prueba del poder que te hablo,\n"
-	.string "un poder capaz de sacar las costuras\l"
-	.string "de incluso un -LEGENDARIO MAYOR-.$"
+	.string "This is proof of the power I speak of, a\n"
+	.string "power capable of pulling the seams out\l"
+	.string "of even a - MAJOR LEGENDARY -.$"
 
 CinnabarMansionS2_Oak_Texto_7.2:
-	.string "Con aún menos imperfecciones que un\n"
-	.string "LEGENDARIO COMÚN, pero aún con margen\l"
-	.string "de mejora y, por tanto, imperfectos.$"
+	.string "The top of the pyramid in the POKÉMON\n"
+	.string "world, with even less imperfections\l"
+	.string "than a MINOR LEGENDARY, but the\l"
+	.string "potential for enhancement remains.$"
 
 CinnabarMansionS2_Oak_Texto_7.3:
-	.string "De nuevo, que MEWTWO haya igualado el\n"
-	.string "poder de LUGIA o HO-OH, es una prueba\l"
-	.string "irrefutable de esto, y también de lo\l"
-	.string "que está por venir.$"
+	.string "MEWTWO equaling LUGIA and HO-OH is\n"
+	.string "irrefutable proof of this.$"
 
 CinnabarMansionS2_Oak_Texto_8:
-.string "Esos estúpidos entrenadores que hablan\n"
-	.string "de -vínculo con tus POKÉMON-, querer\l"
-	.string "a tu equipo y demás chorradas, no se\l"
-	.string "dan cuenta de que lo que hagan es\l"
-	.string "irrelevante; sus POKÉMON no van a\l"
-	.string "mejorar su potencial intrínseco en\l"
-	.string "base a eso.$"
+	.string "Those foolish TRAINERS who talk about\n"
+	.string "'bonds with your POKÉMON', loving your\l"
+	.string "team, and other nonsense, fail to\l"
+	.string "realize that what they do is irrelevant;\l"
+	.string "they're not going to improve their\l"
+	.string "intrinsic potential thanks to that.$"
 
 CinnabarMansionS2_Oak_Texto_8.1:
-	.string "Están ya limitados de nacimiento, por\n"
-	.string "una ley tan injusta como arbitraria,\l"
-	.string "que decide a dedo quien es mejor\l"
-	.string "que otro; el entrenar o querer a\l"
-	.string "tus POKÉMON te llevará tan lejos\l"
-	.string "como quiera esta ley{PAUSE 5}…{PAUSE 5}$"
+	.string "They're limited from birth by a law as\n"
+	.string "unfair as it is arbitrary, which decides\l"
+	.string "arbitrarily who's better than another.\p"
+	.string "Training or loving your POKÉMON will\n"
+	.string "only take you as far as this law allows.$"
 
 CinnabarMansionS2_Oak_Texto_9:
-    .string "Sin embargo, desde aquí acabaremos\n"
-	.string "con eso, quien sea que esté jugando\l"
-	.string "a los dados allí arriba, dejará de\l"
-	.string "hacerlo.\p"
-	.string "Pondremos fin a la lotería genética,\n"
-	.string "todos los POKÉMON serán iguales,\l"
-	.string "iguales a la alza y perfectos.$"
+	.string "But from here, we'll end that. Whoever's\n"
+	.string "playing dice up with mere mortals like\l"
+	.string "us, will fail now. We'll put an end to the\l"
+	.string "genetic lottery. All POKÉMON will be\l"
+	.string "equal, equally raised and perfect.$"
 
 CinnabarMansionS2_Oak_Texto_9.1:
-	.string "La habilidad prevalecerá solo cuando\n"
-	.string "sea tan superior a la habilidad del otro\l"
-	.string "que no se ponga a prueba la voluntad.$"
+	.string "Skill will prevail only when it is so\n"
+	.string "superior to the skill of the other that\n"
+	.string "the will is not tested.$"
 
 CinnabarMansionS2_Oak_Texto_9.2:
-	.string "Así, el mejor de entre ellos lo será\n"
-	.string "porque de verdad mediante su voluntad,\l"
-	.string "o la de su ENTRENADOR, ha sido capaz de\l"
-	.string "ir más allá que el resto, no porque\l"
-	.string "posee un don divino que el resto no.$"
+	.string "So the best among them will be because\n"
+	.string "they've truly, through their will or\l"
+	.string "their trainer's, gone beyond the rest,\l"
+	.string "not because they have some divine gift\l"
+	.string "the rest don't.$"
 
 CinnabarMansionS2_Oak_Texto_9.3:
-	.string "¿De verdad crees que esto es tan\n"
-	.string "malo {PLAYER}?\l"
-	.string "¡Acabaremos con la mayor\l"
-	.string "injusticia de este mundo!$"
+	.string "Once listened, do you really think\n"
+	.string "this is so bad? We'll end with the\l"
+	.string "biggest injustice in this world!$"
 
 CinnabarMansionS2_Oak_Texto_10:
-.string "Después de lo que he dicho,\n"
-	.string "comprenderás que sé apreciar lo\l"
-	.string "que alguien como tú hizo en la\l"
-	.string "LIGA POKÉMON, es muestra de lo\l"
-	.string "lejos que alguien puede llegar si\l"
-	.string "lleva al extremo lo que está en su\l"
-	.string "mano controlar.$"
+	.string "After what I've said, you'll understand\n"
+	.string "that I appreciate what someone like\l"
+	.string "you did in the POKÉMON LEAGUE. It shows\l"
+	.string "how far someone can go when they push\l"
+	.string "to the extreme what they can control.$"
 
 CinnabarMansionS2_Oak_Texto_10.1:
-	.string "Pero sigues estando limitado por tus\n"
-	.string "POKÉMON. Quieras o no, tu CROBAT jamás\l"
-	.string "podrá superar los 374 puntos en\l"
-	.string "SALUD, o los 394 en VELOCIDAD,\l"
-	.string "cifra notable he de añadir.\p"
-	.string "Te pongas como te pongas y por\n"
-	.string "mucho que quieras a tu CROBAT, no\l"
-	.string "pasará de ahí, y por ello te he\l"
-	.string "hecho venir hasta aquí, {PLAYER}.$"
+	.string "But you're still limited by your POKÉMON,\n"
+	.string "whether you like it or not. Your CROBAT\l"
+	.string "will never surpass 374 points in HEALTH,\l"
+	.string "or 394 in SPEED, a noteworthy number, I\l"
+	.string "must add. No matter how much you may\l"
+	.string "try to argue, or how much you love your\l"
+	.string "CROBAT, it won't go beyond that.\p"
+	.string "That's the reason I've brought you here.$"
 
 CinnabarMansionS2_Oak_Texto_11:
 	.string "I want you to be the first to see the\n"
@@ -952,26 +932,27 @@ CinnabarMansionS2_Oak_Texto_14:
 	.string "What just happened here?$"
 
 CinnabarMansionS2_Oak_Texto_15:
-.string "No{PAUSE 25}…{PAUSE 25} no tiene sentido{PAUSE 15}…{PAUSE 15} mi equipo es\n"
-	.string "imbatible{PAUSE 15}…{PAUSE 15} nadie, ni LANCE{PAUSE 15}…{PAUSE 15} ni GIOVANNI{PAUSE 15}…{PAUSE 15}$"
+	.string "{PAUSE 20}No…{PAUSE 30} it makes no sense; my team is\n"
+	.string "unbeatable. Nobody{PAUSE 15}…{PAUSE 15} not even LANCE{PAUSE 15}…{PAUSE 15} not\l"
+	.string "GIOVANNI…{PAUSE 30}$"
 
 CinnabarMansionS2_Oak_Texto_15.1:
-	.string "¡Ni dios podría derrotarme!$"
+	.string "Not even GOD could defeat me!$"
 
 CinnabarMansionS2_Oak_Texto_16:
 .string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarMansionS2_Oak_Texto_17:
-	.string "Is there another force? Another law\n"
-	.string "that I missed?$"
+	.string "Is there another force?\p"
+	.string "Another law that I missed?$"
 
 CinnabarMansionS2_Oak_Texto_18:
 	.string "I just saw how, due to the imperfection\n"
 	.string "of your POKÉMON, something perfect\l"
 	.string "came out as the final product, maybe\l"
 	.string "not absolutely and eternally, but\l"
-	.string "certainly for this battle, this specific\l"
-	.string "moment.$"
+	.string "certainly for this battle, this\l"
+	.string "specific moment.$"
 
 CinnabarMansionS2_Oak_Texto_19:
 	.string "I thought this battle would shatter\n"
@@ -981,10 +962,9 @@ CinnabarMansionS2_Oak_Texto_19:
 	.string "opposite.$"
 
 CinnabarMansionS2_Oak_Texto_20:
-	.string "Does this mean that training alone can\n"
-	.string "elevate a POKÉMON to incalculable\l"
-	.string "levels?$"
-
+	.string "Does this mean that - training - for\n"
+	.string "its own, can elevate a POKÉMON to\l"
+	.string "incalculable levels!?$"
 
 CinnabarMansionS2_Oak_Texto_21:
 	.string "So I've been a fool talking about limits.\n"
@@ -995,28 +975,28 @@ CinnabarMansionS2_Oak_Texto_21:
 	.string "can calculate…$"
 
 CinnabarMansionS2_Oak_Texto_22:
-	.string "I have had enough already. {PAUSE 20}RED {PAUSE 20}…{PAUSE 20} The\n"
+	.string "That's too much for me. {PAUSE 20}RED {PAUSE 20}…{PAUSE 20} The\n"
 	.string "creation of MEWTWO…{PAUSE 20} Keeping this\l"
-	.string "laboratory alive in the shadows…{PAUSE 20} All to\l"
-	.string "barely scratch the surface of how a\l"
-	.string "POKÉMON truly works.$"
+	.string "laboratory alive in the shadows…{PAUSE 20} all\l"
+	.string "to{PAUSE 15}…{PAUSE 15} barely scratch the surface\l"
+	.string "of how a POKÉMON truly works.$"
 
 CinnabarMansionS2_Oak_Texto_23:
 	.string "Do whatever you want with this lab,\n"
-	.string "ROCKET. Maybe you'll find something we\l"
-	.string "missed.$"
+	.string "ROCKET. Maybe you'll find something\l"
+	.string "we missed.$"
 
 CinnabarMansionS2_Oak_Texto_24:
 	.string "I'm aware about the entire TEAM ROCKET\n"
 	.string "waiting for me outside. Don't worry, I\l"
-	.string "don't intend to do anything else.\l"
-	.string "MEWTWO will be given to GIOVANNI. Who\l"
-	.string "better than my old rival to carry on\l"
-	.string "with this project?$"
+	.string "don't intend to do anything else.\p"
+	.string "MEWTWO will be given to GIOVANNI.\p"
+	.string "Who better than my old rival to\n"
+	.string "carry on with this project?$"
 
 CinnabarMansionS2_Oak_Texto_25:
-	.string "I'm going back to PALLET TOWN; I need\n"
-	.string "some time to think.$"
+	.string "I'm going back to PALLET TOWN; my\n"
+	.string "only hope is to find myself there.$"
 
 CinnabarMansionS2_Oak_Move_1:
 walk_in_place_left

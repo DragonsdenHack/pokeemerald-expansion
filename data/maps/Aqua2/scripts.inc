@@ -132,92 +132,92 @@ walk_in_place_down
 step_end
 
 Aqua2_Combate_Admin_Texto_1:
-.string "Vaya{PAUSE 5}…{PAUSE 5} no muchos están a la\n"
-	.string "altura de SILVINA; parece que tu\l"
-	.string "presencia aquí no es pura casualidad.$"
+	.string "Well, not many trainers measure up with\n"
+	.string "SHELLY. It seems your presence here\l"
+	.string "isn't purely coincidental after all.$"
 
 Aqua2_Combate_Admin_Texto_1.1:
-	.string "Pero llegados a este punto, lo que\n"
-	.string "alguien como tú o como yo podamos hacer\l"
-	.string "carece de importancia, en comparación\l"
-	.string "con lo que está a punto de ocurrir\l"
-	.string "tras esta sala.$"
+	.string "However, at this point, what someone\n"
+	.string "like you or me can do is insignificant\l"
+	.string "compared to what is about to happen in\l"
+	.string "the deepest part of this place.$"
 
 Aqua2_Combate_Admin_Texto_2:
-.string "No tienes la menor idea de\n"
-	.string "quienes somos, ROCKET.\l"
-	.string "A diferencia de esos falsos capitanes,\l"
-	.string "como el del SS.ANNE o el CAP.BABOR,\l"
-	.string "nosotros hemos navegado por los 7 mares,\l"
-	.string "sin obedecer nada más que a nuestra\l"
-	.string "voluntad y sensación insaciable de\l"
-	.string "exploración.$"
+	.string "You have no idea who we are, ROCKET.\n"
+	.string "Unlike those fake captains, like the\l"
+	.string "one on the SS ANNE or CAPT.STERN, we've\l"
+	.string "sailed the seven seas without obeying\l"
+	.string "anything other than our will and\l"
+	.string "insatiable sense of exploration.$"
 	
 Aqua2_Combate_Admin_Texto_2.1:
-	.string "Hemos tenido el valor de perdernos para\n"
-	.string "hallar destinos inalcanzables, y ello\l"
-	.string "nos ha curtido a base de bien.$"
+	.string "We had the courage to get lost to reach\n"
+	.string "unreachable destinations. All of this\l"
+	.string "has made us have the roughest crew and\l"
+	.string "the bravest sea POKÉMON you can imagine.$"
 
 Aqua2_Combate_Admin_Texto_2.2:
-	.string "¡Todos nuestros viajes, con un solo\n"
-	.string "propósito final{PAUSE 15}…{PAUSE 15} hallar al rey,\l"
-	.string "al origen del mar: KYOGRE!$"
+	.string "All our journey, only with a clear\n"
+	.string "purpose{PAUSE 15}…{PAUSE 15} find the king,\l"
+	.string "the origin of the sea: KYOGRE!$"
 
 Aqua2_Combate_Admin_Texto_2.3:
-	.string "Nuestro LÍDER, AQUILES, es la persona\n"
-	.string "ideal para despertarlo.\l"
-	.string "¡Y sus POKÉMON marinos los únicos\l"
-	.string "merecedores de presenciar su renacer!$"
+	.string "Our leader, ARCHIE, is the ideal\l"
+	.string "person to awaken it, and his sea\l"
+	.string "POKÉMON are the only ones worthy of\l"
+	.string "witnessing the rebirth of KYOGRE.$"
 
 Aqua2_Combate_Admin_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 Aqua2_Combate_Admin_Texto_4:
-.string "Me parece que aún no eres\n"
-	.string "consciente de lo que hay detrás\l"
-	.string "de estas paredes, chico.$"
+	.string "It seems you're still not aware of what\n"
+	.string "lies behind these walls, kid.$"
 
 Aqua2_Combate_Admin_Texto_4.1:
-	.string "Con mover una de sus aletas, KYOGRE\n"
-	.string "es capaz de crear tsunamis que\l"
-	.string "inundarían ciudades enteras.$"
+	.string "With just a flap of its fins, KYOGRE\n"
+	.string "can create tsunamis that would flood\l"
+	.string "entire cities.$"
 
 Aqua2_Combate_Admin_Texto_4.2:
-	.string "Si decidiera hacer uso de todo su\n"
-	.string "poder, podría convertir todo el\l"
-	.string "planeta en una gigante esfera azul,\l"
-	.string "con solo agua en su superficie.$"
+	.string "If it decided to unleash its full\n"
+	.string "power, it could turn the entire planet\l"
+	.string "into a giant blue sphere with only water\l"
+	.string "on its surface.$"
 
 Aqua2_Combate_Admin_Texto_4.3:
-	.string "Por fortuna, nosotros conocemos bien a\n"
-	.string "KYOGRE, y solo lo usaremos en su justa\l"
-	.string "medida, para que todo vuelva a su cauce.$"
+	.string "Fortunately for the world, we\n"
+	.string "know how KYOGRE works, and we'll\l"
+	.string "only use it in moderation to restore\l"
+	.string "everything to its original course.$"
 
 Aqua2_Combate_Admin_Texto_5:
-.string "Lo que acabo de contarte sigue sin\n"
-	.string "convencerte, ¿no?$"
+	.string "What I've just told you still hasn't\n"
+	.string "convinced you to turn back?$"
 
 Aqua2_Combate_Admin_Texto_5.1:
-	.string "Tú lo has querido.\n"
-	.string "El deber es lo primero, y me obligas\l"
-	.string "a hacer uso de la fuerza.$"
+	.string "Then, you asked for it.\p"
+	.string "Duty comes first, and you\n"
+	.string "are forcing me to fight.$"
 
 Aqua2_Combate_Admin_Texto_5.2:
-	.string "¡Ahora verás a mi tripulación\n"
-	.string "curtida en alta mar!$"
+	.string "My POKÉMON are more than seasoned from\n"
+	.string "traveling the seven seas. It won't be\l"
+	.string "any problem for them to take down a\l"
+	.string "lightweight like you!$"
 
 Aqua2_Combate_Admin_Texto_6:
 	.string "My loyal POKÉMON! Really?$"
 
 Aqua2_Combate_Admin_Texto_7:
-.string "Así que seguirás adelante hasta\n"
-	.string "las últimas consecuencias{PAUSE 15}…{PAUSE 15}\l"
-	.string "Tú lo has querido, y tú escoges el\l"
-	.string "curso de tu fatal destino.$"
+	.string "So, you'll persist until the final\n"
+	.string "consequences; you brought this upon\l"
+	.string "yourself. Don't claim later that we\l"
+	.string "didn't warn you.$"
 
 Aqua2_Combate_Admin_Texto_8:
-.string "¡Escucha!\n"
-	.string "¡El renacer de KYOGRE ha comenzado!\l"
-	.string "¡Debo disponer todo para nuestro\l"
-	.string "regreso triunfal a HOENN!$"
+.string "Listen!\p"
+	.string "The rebirth of KYOGRE has begun!\p"
+	.string "I must prepare everything for\n"
+	.string "our triumphant return to HOENN!$"
 

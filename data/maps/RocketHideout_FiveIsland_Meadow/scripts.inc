@@ -1118,7 +1118,7 @@ RocketHideoutFiveIslanMeadowCajaZubat::
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
 .string "If ARCHER catches me trying to steal\n"
     .string "any other POKÉMON, GIOVANNI is going\l"
-    .string "to punish me with his NIDOKING$"
+    .string "to punish me with his NIDOKING…$"
 
 
 

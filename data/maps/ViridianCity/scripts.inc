@@ -207,8 +207,8 @@ release
 end
 
 ViridianCity_Entrenador_Especial_Texto_1.1:
-	.string "You obtained BLACK SLUDGE from\n"
-	.string "TRAINER!$"
+	.string "You obtained a BLACK SLUDGE\n"
+	.string "from TRAINER!$"
 
 ViridianCity_Entrenador_Especial_Texto_1:
 	.string "DREAM EATER is the ultimate damaging\n"

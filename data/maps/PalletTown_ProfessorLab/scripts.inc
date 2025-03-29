@@ -230,32 +230,33 @@ PalletTown_ProfessorLab_Lab_Texto_6:
 	.string "wanted to pay GRANDPA a visit?$"
 
 PalletTown_ProfessorLab_Lab_Texto_7:
-.string "DALIA: Nada te exhime de robar un\n"
-	.string "POKÉMON ajeno, ROCKET.\p"
-	.string "¡Vas a pagar por ello!$"
+	.string "Nothing excuses you from stealing\n"
+	.string "someone else's POKÉMON.\p"
+	.string "You're going to pay for this!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:
-.string "¡OH! ¡Y en nuestra propia casa!$"
+	.string "Oh! And in our own house!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9:
-.string "Esto es el colmo, de modo que esta es\n"
-	.string "la clase de amistades que mi\l"
-	.string "hermanito está haciendo.$"
+	.string "DAISY: I can't believe this, so this is\n"
+	.string "the kind of friends that my lil brother\l"
+	.string "is making.$"
 
 PalletTown_ProfessorLab_Lab_Texto_9.1:
-	.string "Siempre fue un rebelde que quería\n"
-	.string "hacerlo todo por sus propios medios,\l"
-	.string "ya le aconsejamos que se hiciera\l"
-	.string "amigo de BILL, el PRESIDENTE de SILPH,\l"
-	.string "LANCE y demás miembros de la ÉLITE.$"
+	.string "Anyways, he's always been a rebel,\n"
+	.string "wanting to do everything his own way,\l"
+	.string "we suggested he to make friends as\l"
+	.string "BILL, the president of SILPH, LANCE,\l"
+	.string "and other ELITE members.$"
 	
 PalletTown_ProfessorLab_Lab_Texto_9.2:
-	.string "Verás cuando OAK se entere de esto.$"
+	.string "OAK will be furious when he hears\n"
+	.string "about this.$"
 
 PalletTown_ProfessorLab_Lab_Texto_10:
-.string "Disfruta de ese triste BULBASAUR.\n"
-	.string "Por si no lo sabías, OAK tiene decenas\l"
-	.string "de ellos en su reserva personal.$"
+	.string "Nah! Enjoy that poor BULBASAUR!\p"
+	.string "If you didn't know this, OAK has tens\n"
+	.string "of them at his personal collection!$"
 
 PalletTown_ProfessorLab_Lab_Move_1:
 walk_in_place_down

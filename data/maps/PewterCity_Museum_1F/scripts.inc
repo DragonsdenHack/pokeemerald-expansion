@@ -34,7 +34,6 @@ PewterMuseum1_Texto_1:
 	.string "comes.$"
 
 
-
 PewterMuseum2::
 lock     
 faceplayer     
@@ -276,99 +275,98 @@ PewterCity_Museum_1F_Miguel_Texto_2:
 .string "S.MIGUEL: YOU!$"
 
 PewterCity_Museum_1F_Miguel_Texto_3:
-.string "PETREL: Con que este es el canalla\n"
-	.string "que nos la jugó en el MT.MOON.\l"
-	.string "Creí que más tarde le diste su\l"
-	.string "merecido en el TÚNEL ROCA.$"
+	.string "PETREL: So this is the scientist that\n"
+	.string "fooled us at MT.MOON, I thought you\l"
+	.string "teached him a lesson at ROCK TUNNEL.$"
 
 PewterCity_Museum_1F_Miguel_Texto_4:
-.string "C.MIGUEL: Y así fue, os asegurásteis de\n"
-	.string "que no volviera, arrebatándome todos\l"
-	.string "mis POKÉMON.$"
+	.string "S.MIGUEL: So it was, you made sure I\n"
+	.string "wouldn't come back by taking away all my\l"
+	.string "POKÉMON.$"
 	
 PewterCity_Museum_1F_Miguel_Texto_4.1:
-	.string "Pero para vuestra desgracia, uno de\n"
-	.string "los mandamases de esta región se\l"
-	.string "interesó por mi historia y me hizo\l"
-	.string "su cómplice.$"
+	.string "But to your misfortune, one of\n"
+	.string "the top ELITE guys in this region got\l"
+	.string "interested in my story, and made me\l"
+	.string "his workmate.$"
 
 PewterCity_Museum_1F_Miguel_Texto_4.2:
-	.string "Ahora tengo incluso mejores POKÉMON\n"
-	.string "que en el TÚNEL ROCA.\l"
-	.string "¡Nada te salvará esta vez, {PLAYER}!$"
+	.string "With his resources, I have even better\n"
+	.string "POKÉMON than the last time we battled,\p"
+	.string "Nothing will save you this time!$"
 
 PewterCity_Museum_1F_Miguel_Texto_5:
-.string "El temido AERODACTYL, el depredador\n"
-	.string "más fiero de la prehistoria{PAUSE 15} …{PAUSE 15}\l"
-	.string "Dicen que su forma en estado salvaje era\l"
-	.string "aún más poderosa que la obtenida por los\l"
-	.string "métodos de resurrección actuales.$"
+	.string "The dreaded AERODACTYL…\p"
+	.string "Fiercest predator of prehistory, it's\n"
+	.string "said his wild form 300 million years\l"
+	.string "ago was even stronger than the one\l"
+	.string "obtained by current resurrection\l"
+	.string "methods.$"
 
 PewterCity_Museum_1F_Miguel_Texto_5.1:
-	.string "El mismísimo LANCE lo incluye en su\n"
-	.string "ejército de dragones{PAUSE 5}…{PAUSE 5}$"
+	.string "Even CHAMPION LANCE includes it\n"
+	.string "in his dragon army…$"
 
 PewterCity_Museum_1F_Miguel_Texto_6:
-.string "Con un POKÉMON así, con el rey\n"
-	.string "de los FÓSILES de KANTO{PAUSE 15}…{PAUSE 15}\l"
-	.string "Mi equipo daría un salto de calidad,\l"
-	.string "¡me convertiría en una eminencia y\l"
-	.string "la envidia de los POKÉMANÍACOS!$"
+	.string "Yes! With a POKÉMON like this, the\n"
+	.string "top FOSSIL, my team would take a leap\l"
+	.string "to the next level, I would become an\l"
+	.string "authority and the envy of POKÉMANIACS!$"
 
 PewterCity_Museum_1F_Miguel_Texto_7:
-.string "C.MUSEO: ¡Eres una vergüenza para\n"
-	.string "la comunidad científica!$"
+	.string "S.MUSEUM: You are a shame to the\n"
+	.string "scientific community!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8:
-.string "C.MIGUEL: ¿Y qué esperas que haga,\n"
-	.string "quedarme mirando cómo la región\l"
-	.string "se cae a pedazos?$"
+.string "S.MIGUEL: And what do you expect me\n"
+	.string "to do? Stand by and watch how the\l"
+	.string "region is plunged into mediocrity?$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.1:
-	.string "Siempre los mismos CUBONE, SLOWPOKE,\n"
-	.string "RHYHORN o a lo sumo LICKITUNG, los\l"
-	.string "entrenadores que tienen un mísero\l"
-	.string "PIDGEOTTO o un NIDORINO ya son\l"
-	.string "considerados superiores a la\l"
-	.string "media.$"
+	.string "I'm tired of seeing the same CUBONE,\n"
+	.string "SLOWPOKE, RHYHORN or LICKITUNG.\l"
+	.string "TRAINERS with a measly PIDGEOTTO or\l"
+	.string "NIDORINO are already considered above\l"
+	.string "average.$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.2:
-	.string "En esta KANTO, si quieres tener POKÉMON\n"
-	.string "fuertes de verdad, las únicas vías son\l"
-	.string "venderse a las élites o pisotear al\l"
-	.string "prójimo.$"
+	.string "In the current KANTO, if you want to\n"
+	.string "have really strong POKEMON, the only\l"
+	.string "ways are: sell your soul to the elites\l"
+	.string "or cheating.$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.3:
-	.string "Pero eso gente como vosotros lo sabe\n"
-	.string "bien, ¿verdad, {PLAYER}?$"
+	.string "But people like you know that fact well.\p"
+	.string "Don't you, {PLAYER}$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.4:
-	.string "El resultado es lo que cuenta, y con\n"
-	.string "con este ÁMBAR solo yo, LANCE y BILL\l"
-	.string "tendremos un AERODACTYL en KANTO.$"
+	.string "Only matters the final result, at the\n"
+	.string "end of the day, only BILL, LANCE and\l"
+	.string "me will have an AERODACTYL!$"
 
 PewterCity_Museum_1F_Miguel_Texto_9:
-.string "PETREL: Estás soñando, tienes delante\n"
-	.string "tuya a un EJECUTIVO ROCKET y a\l"
-	.string "uno de nuestros mejores ALTO RANGO.\l"
-	.string "No vas a ir a ninguna parte.$"
+	.string "PETREL: You are hallucinating, you have\n"
+	.string "a ROCKET EXECUTIVE and one of our top\l"
+	.string "HIGH RANKS in front of you; you're not\l"
+	.string "going anywhere with that FOSSIL.$"
 
 PewterCity_Museum_1F_Miguel_Texto_10:
-.string "C.MIGUEL: Tú no me interesas, PETREL.\n"
-	.string "Mi lucha es con {PLAYER},\l"
-	.string "Le dije que me las iba a pagar por\l"
-	.string "lo del TÚNEL ROCA, y aquí estamos.$"
+	.string "S.MIGUEL: I don't care about you\n"
+	.string "PETREL, my fight is against {PLAYER},\l"
+	.string "I told him that he will pay for the ROCK\l"
+	.string "TUNNEL thing and here we are.$"
 
 PewterCity_Museum_1F_Miguel_Texto_10.1:
-	.string "¡Prepárate a sufrir, {PLAYER}!$"
+	.string "Prepare to experience a world\n"
+	.string "of pain, {PLAYER}!$"
 
 PewterCity_Museum_1F_Miguel_Texto_11:
 	.string "But my POKÉMON are even stronger!!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
-	.string "S.MIGUEL: Grrrr…{PAUSE 15} So it was not enough, I\n"
-	.string "won't let you capture me again like last\l"
-	.string "time.$"
+	.string "S.MIGUEL: Grrrr…{PAUSE 15} So it was not enough.\p"
+	.string "I won't let you capture me again\n"
+	.string "like last time.$"
 
 PewterCity_Museum_1F_Miguel_Texto_13:
 	.string "PETREL: Take away his POKÉMON!$"
@@ -379,8 +377,8 @@ PewterCity_Museum_1F_Miguel_Texto_14:
 PewterCity_Museum_1F_Miguel_Texto_15:
 	.string "PETREL: Damn scientist. The next time\n"
 	.string "we won't take away his POKÉMON, we will\l"
-	.string "take him directly to the jail so that\l"
-	.string "way he doesn't cause any more trouble.$"
+	.string "take him directly to the jail, that\l"
+	.string "way, he won't cause any more trouble.$"
 
 PewterCity_Museum_1F_Miguel_Texto_16:
 	.string "He was just about to take the AMBER\n"
@@ -392,35 +390,34 @@ PewterCity_Museum_1F_Miguel_Texto_17:
 .string "YOU RECEIVED A LV:30 OMANYTE!$"
 
 PewterCity_Museum_1F_Miguel_Texto_18:
-	.string "PETREL: For real you became much\n"
+	.string "PETREL: Wow, {PLAYER}!! You became\n"
 	.string "stronger since you went to work along\l"
 	.string "with GIOVANNI, even an EXECUTIVE as me\l"
 	.string "would have had a tough time against the\l"
 	.string "team that scientist had.$"
 
 PewterCity_Museum_1F_Miguel_Texto_19:
-	.string "After all this, we are indebted to you,\n"
-	.string "if you want to do some tests with the\l"
-	.string "FOSSIL for a while, we are fine with\l"
-	.string "that.$"
+	.string "S.MUSEUM: After this, we are indebted\n"
+	.string "to you, if you want to do some tests\l"
+	.string "with the FOSSIL for a while, we are\l"
+	.string "fine with that.$"
 
 PewterCity_Museum_1F_Miguel_Texto_20:
-	.string "PETREL: Perfect, you won't regret it! We\n"
-	.string "will allocate a percentage of our\l"
+	.string "PETREL: Perfect, you won't regret it!\p"
+	.string "We will allocate a percentage of our\n"
 	.string "profits for your collaboration, TEAM\l"
 	.string "ROCKET knows how to reciprocate favors\l"
 	.string "like these and generously.$"
 
 PewterCity_Museum_1F_Miguel_Texto_21:
-	.string "PETREL: This was possible due you\n"
-	.string "{PLAYER}, take this like a personal\l"
-	.string "present.$"
+	.string "This was possible due you, {PLAYER}.\p"
+	.string "Take this as a personal present.$"
 
 PewterCity_Museum_1F_Miguel_Texto_22:
-	.string "PETREL: The POISON BARB boosts a 20%\n"
-	.string "the POISON TYPE moves. Equipping it will\l"
-	.string "make your GOLBAT's POISON FANG even\l"
-	.string "more lethal!$"
+	.string "The POISON BARB boosts a 20%\n"
+	.string "the POISON TYPE moves.\p"
+	.string "Will make your GOLBAT's POISON\n"
+	.string "FANG even more lethal!$"
 
 PewterCity_Museum_1F_Miguel_Texto_23:
 	.string "Cya later, {PLAYER}, scientists…$"

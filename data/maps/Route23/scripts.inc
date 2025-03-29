@@ -270,92 +270,92 @@ face_down
 step_end
 
 Route23_Combate_Andra_Texto_1:
-.string "Así que tú también has llegado.\n"
-	.string "No ha sido fácil, ¿eh?\l"
-	.string "Entre nosotros, necesité de varios\l"
-	.string "intentos para poder derrotar a ATLAS y\l"
-	.string "obtener la última MEDALLA, era incluso\l"
-	.string "más fuerte de lo que pensaba.$"
+	.string "You have arrived too, {PLAYER}.\n"
+	.string "It wasn't easy, huh? I'll tell you a\l"
+	.string "secret; I needed several attempts to\l"
+	.string "defeat ARCHER and obtain the last\l"
+	.string "BADGE, he was stronger than I\l"
+	.string "thought.$"
 
 Route23_Combate_Andra_Texto_2:
-.string "Pero es una suerte tener a alguien así\n"
-	.string "al mando; AZUL y ROJO no han tenido la\l"
-	.string "oportunidad de luchar contra alguien\l"
-	.string "de ese nivel, antes de enfrentar a\l"
-	.string "la ÉLITE 4.\l"
-	.string "¿Recuerdas cuando en la CENTRAL\l"
-	.string "ENERGÍA logró derrotar a LORELEI?$"
+	.string "But we are lucky to have someone in\n"
+	.string "charge as him, BLUE and RED had no\l"
+	.string "chance to fight against someone like\l"
+	.string "him before to challenge ELITE 4.\p"
+	.string "Remember when he defeated LORELEI at\n"
+	.string "the POWER PLANT?$"
 
 Route23_Combate_Andra_Texto_3:
-.string "No quiero imaginarme el nivel\n"
-	.string "actual de nuestro GIOVANNI.\l"
-	.string "No solo fue CAMPEÓN varias veces,\l"
-	.string "sino que todo lo ocurrido desde\l"
-	.string "entonces le ha vuelto aún más\l"
-	.string "fuerte, es admirable.$"
+	.string "I don't even want to imagine the\n"
+	.string "current level of the BOSS, GIOVANNI.\p"
+	.string "Not only has been the champion a few\n"
+	.string "times, but everything that has\l"
+	.string "happened since then, has made him\l"
+	.string "even stronger. That's admirable.$"
 
 Route23_Combate_Andra_Texto_4:
-    .string "No esperas gran cosa de CALLE VICTORIA.\n"
-	.string "Tienen el nivel justo para servir de\l"
-	.string "entrenamiento, empiezo a creer que\l"
-	.string "muchos de ellos solo están allí por\l"
-	.string "haber comprado las MEDALLAS en el\l"
-	.string "mercado negro.$"
+	.string "If you're expecting great things from\n"
+	.string "VICTORY ROAD, I am sorry to disappoint\l"
+	.string "you, {PLAYER}, but they are just at\l"
+	.string "the worst level to serve as training.\p"
+	.string "I'm starting to believe that many of\n"
+	.string "them are only there because they\l"
+	.string "bought their BADGES in some sort\l"
+	.string "of black market.$"
 
 Route23_Combate_Andra_Texto_4.1:
-	.string "Tiene gracia, ¿no? Los que van a\n"
-	.string "entrar ahí de forma legal, somos\l"
-	.string "precisamente nosotros.$"
+	.string "It's funny, isn't it? The ones who are\n"
+	.string "going to go in there legally are\l"
+	.string "precisely us.$"
 
 Route23_Combate_Andra_Texto_5:
-.string "Sin embargo{PAUSE 25}…{PAUSE 25}\n"
-	.string "Aún puedo prepararme algo más.\l"
-	.string "Ha costado, pero mi equipo al fin está\l"
-	.string "completo, un poco más de nivel, ¡y\l"
-	.string "la ÉLITE 4 no podrá derrotarme!$"
+	.string "However, I can still train a little bit\n"
+	.string "before challenging the ELITE FOUR. It\l"
+	.string "has been tough, but my team is finally\l"
+	.string "complete, I just need to level up a\l"
+	.string "bit more, and the ELITE 4 will not be\l"
+	.string "able to defeat me.$"
 
 Route23_Combate_Andra_Texto_5.1:
-	.string "Dime, {PLAYER}.\l"
-	.string "¿¡Tú podrías derrotarlos ya!?$"
+	.string "Tell me, {PLAYER}.\p"
+	.string "Would you be able to defeat them yet!?$"
 
 Route23_Combate_Andra_Texto_6:
 .string "So I'm not ready yet.$"
 
 Route23_Combate_Andra_Texto_7:
-.string "Vaya{PAUSE 25}…{PAUSE 25}\n"
-	.string "Pensé que después de quedar en empate\l"
-	.string "técnico con AZUL, tendría oportunidad\l"
-	.string "contigo.$"
+	.string "Wow, I thought after drawing with BLUE,\n"
+	.string "I would have a chance against you.$"
 	
 Route23_Combate_Andra_Texto_7.1:
-    .string "Si me enfrento a él por el campeonato,\n"
-	.string "la próxima mi CROBAT quedará con salud\l"
-	.string "suficiente como para sobrevivir al PÁJARO\l"
-	.string "OSADO, después de tumbar a su BLASTOISE.$"
+	.string "Yeah! Technically, I won, but if I\n"
+	.string "face him for the championship, next\l"
+	.string "time my CROBAT will have enough health\l"
+	.string "left to survive against the BRAVE BIRD\l"
+	.string "recoil, after taking down his BLASTOISE!$"
 
 Route23_Combate_Andra_Texto_7.2:
-	.string "En cuanto a ti{PAUSE 25}…{PAUSE 25}\n"
-	.string "Espero tenerte cerca si llegamos a\l"
-	.string "las salas finales, ya oiste a GIOVANNI.$"
+	.string "As for you{PAUSE 20}…{PAUSE 20} I hope to have you nearby\l"
+	.string "if we make it to the final rounds.\p"
+	.string "You heard GIOVANNI{PAUSE 15}…{PAUSE 15}\l"
 
 Route23_Combate_Andra_Texto_7.3:
-	.string "LANCE cuenta con un poder inmenso, y\n"
-	.string "ROJO es una incógnita: ha pasado mucho\l"
-	.string "desde que nos encontramos con él en el\l"
-	.string "MT.MOON, pero sigue siendo el único al\l"
-	.string "que yo haya visto derrotarte{PAUSE 5}…{PAUSE 5}$"
+	.string "It's a fact that LANCE has immense\n"
+	.string "power, and that RED is a mystery.\p"
+	.string "True… long time since we encountered\n"
+	.string "him at MT. MOON, but he is still the\l"
+	.string "only one I've seen defeat you…$"
 
 Route23_Combate_Andra_Texto_8:
-.string "En fin, {PLAYER}, te deseo suerte.\n"
-	.string "Llegó la hora de poner a prueba a\l"
-	.string "nuestros POKÉMON contra los mejores,\l"
-	.string "tengo plena confianza en que van a\l"
-	.string "estar a la altura.$"
+	.string "Anyway {PLAYER}, I wish you luck, it is\n"
+	.string "time to test our POKÉMON against the\l"
+	.string "best TRAINERS, I trust completely that\l"
+	.string "they will live up to the challenge.$"
 
 Route23_Combate_Andra_Texto_9:
-.string "Aprovecha tu último entrenamiento en la\n"
-	.string "CALLE VICTORIA, la próxima vez que nos\l"
-	.string "veamos, será ya en el campo de batalla.$"
+	.string "Make the most of your latest training\n"
+	.string "on VICTORY ROAD: next time we meet\l"
+	.string "will be on the battlefield.$"
 
 Route23_Combate_Andra_Move_1:
 walk_in_place_up

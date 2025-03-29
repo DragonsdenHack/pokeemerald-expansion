@@ -188,43 +188,43 @@ BirthIsland_Blaine_Texto_5:
 BirthIsland_Blaine_Texto_6:
 	.string "????: That POKÉMON is DEOXYS, girl, a\n"
 	.string "space virus with a genetic combination\l"
-	.string "impossible to imitate here on the\l"
-	.string "planet.$"
+	.string "impossible to imitate here, on the\l"
+	.string "entire planet.$"
 
 BirthIsland_Blaine_Texto_7:
 .string "ANDRA: You! Betrayer!$"
 
 BirthIsland_Blaine_Texto_8:
-.string "BLAINE: ¿Traidor? ¿A quién?\n"
-	.string "¿Al TEAM ROCKET?\l"
-	.string "Por supuesto que sí.$"
+.string "BLAINE: Betrayer for who?\p"
+	.string "For TEAM ROCKET?\p"
+	.string "That's right.$"
 
 BirthIsland_Blaine_Texto_9:
-.string "Podréis ser todo lo fuerte que queráis,\n"
-	.string "pero no os dará tiempo a derrotar a\l"
-	.string "cuatro AYUDANTES de OAK, al tiempo que\l"
-	.string "evitáis que escape con este objeto.$"
+	.string "You can be as strong as you want to be,\n"
+	.string "but you won't have time to defeat four\l"
+	.string "of our top scientists while preventing\l"
+	.string "me from escaping with the triangle.$"
 
 BirthIsland_Blaine_Texto_10:
-.string "OAK te envía un mensaje, {PLAYER}.{PAUSE 35}\p"
-	.string "-Si tienes el valor, te esperamos en\n"
-	.string "lo más profundo de la MANSIÓN POKÉMON.-$"
+	.string "OAK sends you a message, {PLAYER}: if\n"
+	.string "you have the courage, we await you in\l"
+	.string "the depths of the POKÉMON MANSION.$"
 
 BirthIsland_Blaine_Texto_10.1:
-	.string "Quiere que veas de primera mano el\n"
-	.string "verdadero poder de la tecnología y la\l"
-	.string "ciencia, antes de mostrárselo al mundo.$"
+	.string "He wants you to see firsthand the true\n"
+	.string "power of technology and science,\l"
+	.string "before revealing it to the world.$"
 
 BirthIsland_Blaine_Texto_10.2:
-	.string "Demostrarte que tus victorias ante\n"
-	.string "ROJO y LANCE no fueron más que simples\l"
-	.string "errores; ahora que ha encontrado la\l"
-	.string "fórmula del equipo perfecto, nada podrá\l"
-	.string "oponerse a su voluntad.$"
+	.string "Prove that your LEAGUE victories\n"
+	.string "against RED and LANCE were nothing but\l"
+	.string "mere mistakes; now that he has found\l"
+	.string "the formula to have a perfect team,\l"
+	.string "nothing can oppose his will.$"
 
 BirthIsland_Blaine_Texto_10.3:
-	.string "Reconstruiremos KANTO\n"
-	.string "a nuestro modo.$"
+	.string "We'll rebuild KANTO in\n"
+	.string "our own way.$"
 
 BirthIsland_Blaine_Texto_11:
 	.string "Have a good day.$"
@@ -254,14 +254,15 @@ BirthIsland_Blaine_Texto_16:
 	.string "you've failed!$"
 
 BirthIsland_Blaine_Texto_17:
-.string "ANDRA: Tenemos que informar a GIOVANNI\n"
-	.string "de esto, {PLAYER}.\l"
-	.string "Han robado ese triángulo justo cuando\l"
-	.string "lo hemos descubierto, ¿habrán estado\l"
-	.string "todo este tiempo vigilándonos?$"
+	.string "ANDRA: We must notify GIOVANNI about\n"
+	.string "this, {PLAYER}! They've stolen that\l"
+	.string "triangle just when we found it.\p"
+	.string "Could they have been keeping an\n"
+	.string "eye on us all that time?$"
 
 BirthIsland_Blaine_Texto_18:
-.string "Nos vemos en el cuartel, {PLAYER}.$"
+	.string "See you at the CELADON HQ,\n"
+	.string "{PLAYER}.$"
 
 BirthIsland_Blaine_Move_14.1:
 face_down

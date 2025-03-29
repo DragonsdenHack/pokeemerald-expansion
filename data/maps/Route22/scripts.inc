@@ -161,80 +161,74 @@ walk_up
 step_end
 
 Route22_Combate_Azul_Texto_1:
-.string "AZUL: Así que tu también\n"
-	.string "estás listo.$"
+.string "BLUE: So you're ready, too.$"
 
 Route22_Combate_Azul_Texto_2:
-.string "Acabo de volver de entrenar en la\n"
-	.string "CALLE VICTORIA, aún no me atrevo a\l"
-	.string "entrar al ALTO MANDO{PAUSE 5}…{PAUSE 5}$"
+	.string "I just came back from training in\n"
+	.string "VICTORY ROAD, but I don't dare yet\l"
+	.string "to enter into the ELITE 4…$"
 
 Route22_Combate_Azul_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 Route22_Combate_Azul_Texto_4:
-.string "La verdad es que ROJO ha vuelto a\n"
-	.string "derrotarme, no puedo entrar a la\l"
-	.string "LIGA sabiendo que aún está por\l"
-	.string "encima mío.\l"
-	.string "Debo asegurarme de que mi equipo es\l"
-	.string "mucho mejor que el de ese entonces.$"
+	.string "The truth is…{PAUSE 40} RED defeated me again, I\n"
+	.string "can't enter the LEAGUE knowing he's\l"
+	.string "still above me, so I must ensure that\l"
+	.string "my team has a last extra training.$"
 
 Route22_Combate_Azul_Texto_5:
-.string "No te preocupes, ROJO siempre ha\n"
-	.string "sido un tardón, llegará de todos\l"
-	.string "modos después de mí a retar al\l"
-	.string "ALTO MANDO.\l"
-	.string "Además, he estado en el CENTRO PKMN de\l"
-	.string "allí, puedo volver volando en un momento.$"
+	.string "Do not worry, RED has always been a late\n"
+	.string "person, he'll arrive anyway after me to\l"
+	.string "challenge the ELITE FOUR, it always\l"
+	.string "happens, besides, I've been to the\l"
+	.string "POKÉMON CENTER there; I can fly back\l"
+	.string "in just a bit.$"
 
 Route22_Combate_Azul_Texto_6:
-.string "Solo estoy buscando algo de\n"
-	.string "entrenamiento extra; los\l"
-	.string "ENTRENADORES de CALLE VICTORIA\l"
-	.string "no son suficiente; necesito algo\l"
-	.string "más.$"
-	
+	.string "I'm just in search of extra training.\p"
+	.string "VICTORY ROAD TRAINERS are not\n"
+	.string "enough, I need something else{PAUSE 15}…{PAUSE 15}$"
+
 Route22_Combate_Azul_Texto_6.1:
-	.string "¡Vamos, estamos en el mismo bando!\l"
-	.string "¡Quiero ver lo preparado que\l"
-	.string "estás para afrontar este reto!$"
+	.string "Come on! We are on the same side!\p"
+	.string "I want to see how much you are\n"
+	.string "prepared to afront this challenge!$"
 
 Route22_Combate_Azul_Texto_7:
 .string "It can't be, you too!$"
 
 Route22_Combate_Azul_Texto_8:
 	.string "This can't be, my POKÉMON need a higher\n"
-	.string "level, I won't stop until they exceed 60,\l"
-	.string "with that no one could catch me.$"
+	.string "level, I won't stop until they exceed 60!\p"
+	.string "With that, no one could catch me.$"
 
 Route22_Combate_Azul_Texto_9:
-.string "Por cierto, ¿no sabrás por casualidad\n"
-	.string "a esa amiguita tuya, ANDRA?$"
+	.string "By the way, don't you know where your\n"
+	.string "ROCKET friend is? {PAUSE 25}…{PAUSE 25} ANDRA. Isn't it?$"
 
 Route22_Combate_Azul_Texto_9.1:
-	.string "Si va a retar también al ALTO MANDO,\n"
-	.string "es porque también sabe lo que se hace.\l"
-	.string "Veré si la encuentro más adelante, me\l"
-	.string "servirá para subir unos cuantos\l"
-	.string "niveles más.$"
+	.string "She defeated ARCHER{PAUSE 15}…{PAUSE 15} must also have a\n"
+	.string "good team, and she plains to challenge\l"
+	.string "the ELITE 4, too.\p"
+	.string "Maybe she's at INDIGO PLATEAU yet, can\n"
+	.string "help me to level up a few levels more.$"
 
 Route22_Combate_Azul_Texto_10:
-.string "¡Bah! Me piro, {PLAYER}.\n"
-	.string "Llegados este momento, el\l"
-	.string "tiempo es oro.$"
+	.string "Bah, Imma head out, {PLAYER}.\p"
+	.string "time is precious at this moment.$"
 
 Route22_Combate_Azul_Texto_10.1:
-	.string "Te deseo suerte, de verdad, si\n"
-	.string "quisiera que alguien saliera CAMPEÓN\l"
-	.string "CAMPEÓN e hiciera morder el polvo\l"
-	.string "a ROJO, ese alguien, aparte de mí,\l"
-	.string "serías tú.$"
+	.string "I wish you the best of lucks.\p"
+	.string "Truly, if I wanted someone to become\n"
+	.string "the CHAMPION and make RED bite the\l"
+	.string "dust besides me, it would be you.$"
 
 Route22_Combate_Azul_Texto_11:
-.string "¡Ah! Y una última cosa, ni se te ocurra\n"
-	.string "recoger los CARAMELO RARO que\l"
-	.string "encuentres, ¡son míos!$"
+	.string "And a last thing: don't even try to\n"
+	.string "collect the hidden RARE CANDIES.\p"
+	.string "Those are mine!$"
+
 
 Route22_Combate_Azul_Move_1:
 walk_in_place_up

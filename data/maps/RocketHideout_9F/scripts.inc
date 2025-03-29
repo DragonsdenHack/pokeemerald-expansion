@@ -158,35 +158,37 @@ walk_slow_down
 step_end
 
 RocketHideout_9F_Presentacion_Sala_Texto_6:
-	.string "Nunca pongas a tu enemigo entre la\n"
-	.string "espada y la pared, sacará lo mejor de sí.$"
+	.string "Never, ever, put a foe between the\n"
+	.string "sword and the wall; he'll give his\n"
+	.string "absolute best.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_7:
-	.string "Hasta ahora, nos hemos guiado por esa\n"
-	.string "máxima en lo que a ROJO se refiere.$"
+	.string "Well, for now we've followed that\n"
+	.string "statement, refering to RED.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_8:
-	.string "Pero ha llegado el momento de mostrar\n"
-	.string "todas las cartas, somos nosotros los\l"
-	.string "que hemos llegado a esa situación.$"
+	.string "But now, the time has come. The time to\n"
+	.string "show our full hand, we're the ones\l"
+	.string "between the sword and the wall.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_9:
-	.string "¡No te contengas, {PLAYER}!$"
+	.string "Don't hold back, {PLAYER}!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_10:
-	.string "¡Da lo mejor de ti en la LIGA POKÉMON!$"
+	.string "Give it all in the INDIGO PLATEAU!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_11:
-	.string "¡Pon a ROJO entre la espada y la pared,\n"
-	.string "muéstrale algo que jamás ha visto, y\l"
-	.string "entonces{PAUSE 15}…{PAUSE 15}!$"
+	.string "Corner RED! Put his neck between your\n"
+	.string "sword and the wall! Show him what you're\l"
+	.string "made of, perform at a level he's never\l"
+	.string "seen! And then{PLAYER}…{PAUSE 15}!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_12:
-	.string "Entonces{PAUSE 15}…{PAUSE 15}$"
+	.string "Then{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_13:
-	.string "{PAUSE 15}…{PAUSE 15}será incapaz de reaccionar a\n"
-	.string "tiempo, de dar lo mejor de sí.$"
+	.string "{PAUSE 15}…{PAUSE 15}he won't be able to react in time,\n"
+	.string "to give his all.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
 	.string "GIOVANNI: Alright, you're here. Take a\n"

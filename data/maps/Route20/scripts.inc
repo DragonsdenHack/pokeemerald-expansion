@@ -200,44 +200,45 @@ release
 end
 
 Ruta_20_Andra_Texto_1:
-	.string "ANDRA: ¡Ey, {PLAYER}! ¿Que tal vas?$"
+	.string "ANDRA: Yo, {PLAYER}! How are you doin'?$"
 
 Ruta_20_Andra_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_3:
-	.string "¿ISLAS ESPUMA, ya? ¡Vas en serio!$"
+	.string "SEAFOAM ISLANDS already? You kiddin' right?$"
 
 Ruta_20_Andra_Texto_4:
-	.string "Yo he entrenado a un SNEASEL, hasta\n"
-	.string "que aprendiera PUÑO HIELO.$"
+	.string "I've been training a SNEASEL 'till he\n"
+	.string "learnt ICE PUNCH.$"
 
 Ruta_20_Andra_Texto_5:
-	.string "Te daré un consejo: usa las BANDA FOCUS\n"
-	.string "que venden en BASE PROFUNDA.$"
+	.string "I'll give you a piece of advice: you\n"
+	.string "should make a good use of the FOCUS\l"
+	.string "SASH, they sell 'em in the DEEP BASE.$"
 
 Ruta_20_Andra_Texto_6:
-	.string "Gracias a ello, mi SNEASEL podrá dar de\n"
-	.string "lleno en su punto débil; entre ese golpe\l"
-	.string "y una embestida de mi URSARING, ¡esa\l"
-	.string "AVE SAGRADA caerá!$"
+	.string "We can kick that BIRD where it hurts.\n"
+	.string "And combining that with my URSARING's\l"
+	.string "SLASH, that petty BIRD will be no\l"
+	.string "match for us!$"
 
 Ruta_20_Andra_Texto_7:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_8:
-	.string "Ve con cuidado, {PLAYER}.$"
+	.string "Be safe, {PLAYER}.$"
 
 Ruta_20_Andra_Texto_9:
-	.string "Siendo un único POKÉMON, más poderoso\n"
-	.string "que cualquiera de los nuestros, la línea\l"
-	.string "es delgada. Si ganamos, debe ser por\l"
-	.string "inteligencia y estrategia.$"
+	.string "It's only him against all of us, in a 1v1\n"
+	.string "he'll turn us into ashes. However, in a\n"
+	.string "6v1, in the long game, we have a chance\l"
+	.string "to profane a SACRED POKÉMON.$"
 
 Ruta_20_Andra_Texto_10:
-	.string "Eso es todo. Ya tenemos todo listo para\n"
-	.string "colarnos en la CENTRAL ENERGÍA sin ser\l"
-	.string "vistos.$"
+	.string "Well, that's it. We're ready to get inside\n"
+	.string "that POWER PLANT without being\n"
+	.string "spotted.$"
 
 Ruta_20_Andra_Texto_11:
-	.string "¡Suerte!$"
+	.string "Good luck!$"

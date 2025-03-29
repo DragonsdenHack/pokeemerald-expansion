@@ -46,8 +46,8 @@ static const u8 sViseGripDescription[] = _(
     "powerful pincers.");
 
 static const u8 sGuillotineDescription[] = _(
-    "Causa estragos en el rival,\n"
-    "pero inmoviliza un turno.");
+    "Powerful, but leaves the\n"
+    "user immobile the next turn.");
 
 static const u8 sRazorWindDescription[] = _(
     "A 2-turn move that strikes\n"
@@ -126,8 +126,8 @@ static const u8 sFuryAttackDescription[] = _(
     "with sharp horns, etc.");
 
 static const u8 sHornDrillDescription[] = _(
-    "Ataque taladro. Daña al usua-\n"
-    "rio con 1/2 del daño causado.");
+    "Devastating drill attack.\n"
+    "50% recoil damage.");
 
 static const u8 sTackleDescription[] = _(
     "Charges the foe with a full-\n"
@@ -389,8 +389,8 @@ static const u8 sEarthquakeDescription[] = _(
     "no effect on flying foes.");
 
 static const u8 sFissureDescription[] = _(
-    "A one-hit KO move that\n"
-    "drops the foe in a fissure.");
+    "Top power earth move.\n"
+    "Drops user's Atk and Def.");
 
 static const u8 sDigDescription[] = _(
     "Digs underground the first\n"
@@ -793,7 +793,7 @@ static const u8 sOctazookaDescription[] = _(
     "damage and cut accuracy.");
 
 static const u8 sSpikesDescription[] = _(
-    "Sets spikes that hurt a \n"
+    "Sets spikes that hurt a\n"
     "foe switching in.");
 
 static const u8 sZapCannonDescription[] = _(

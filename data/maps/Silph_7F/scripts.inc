@@ -422,15 +422,17 @@ Silph_7F_Encuentro_Azul_Texto_6:
 	.string "other people's items and sticking his\l"
 	.string "nose where it doesn't belong, then, he'll\l"
 	.string "do us the favor of reaching GIOVANNI\l"
-	.string "to pretend he's been defeated\l"
-	.string "miserably, the fool will think he's come\l"
-	.string "out on top, and trust me, he will, he's\l"
-	.string "used to battling opponents far worse\l"
+	.string "to pretend he's been defeated.$"
+
+Silph_7F_Encuentro_Azul_Texto_6.1:
+	.string "The fool will think he's truly won.\p"
+	.string "Yeah! Trust me, he will, he's only\n"
+	.string "battling against opponents far worse\l"
 	.string "than GIOVANNI's already mediocre team\l"
-	.string "that he'll bring here to SILPH, we'll\l"
-	.string "even leave the weaker ROCKETS behind\l"
-	.string "to highlight the difference in skill\l"
-	.string "levels.$"
+	.string "that he'll bring here to SILPH.\p"
+	.string "You'll even leave the weaker ROCKETs\n"
+	.string "behind to highlight the difference in\l"
+	.string "skill levels.$"
 
 Silph_7F_Encuentro_Azul_Texto_7:
 	.string "After this, you will have what you want\n"
@@ -438,7 +440,7 @@ Silph_7F_Encuentro_Azul_Texto_7:
 	.string "the new CHAMP.$"
 
 Silph_7F_Encuentro_Azul_Texto_8:
-	.string "Don't worry ROCKETS, nothing would be\n"
+	.string "Don't worry ROCKETs, nothing would be\n"
 	.string "better for you more than having a CHAMP\l"
 	.string "related to your organization instead of\l"
 	.string "LANCE, don't you think?$"

@@ -622,7 +622,7 @@ PokemonMansion_1F_Ladrones_Texto_10:
 	.string "market!$"
 
 PokemonMansion_1F_Ladrones_Texto_11:
-.string "It can't be!\n"
+.string "It can't be!\p"
 	.string "I've been scammed!$"
 
 PokemonMansion_1F_Ladrones_Texto_12:
@@ -694,48 +694,43 @@ PokemonMansion_1F_Ladrones_Texto_25:
 .string "{PLAYER} found 10 PROTEINS!$"
 
 PokemonMansion_1F_Ladrones_Texto_26:
-.string "¡{PLAYER} encontró 3\n"
-	.string "CARAMELOSRARO!$"
+.string "{PLAYER} found\n"
+	.string "3 RARE CANDY!$"
 
 PokemonMansion_1F_Ladrones_Texto_26.1:
-.string "¡{PLAYER} encontró 3\n"
-	.string "MINI SETAS!$"
+.string "{PLAYER} found\n"
+	.string "3 TINY MUSHROOM!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
-.string "¡¡OBTUVISTE UN CHARMANDER AL NV.5!!$"
+.string "YOU FOUND A LV.5 CHARMANDER!!$"
 
 PokemonMansion_1F_Ladrones_Texto_28:
-.string "¡¡NO!!\n"
-	.string "¡El CHARMANDER que íbamos\l"
-	.string "a vender en JOHTO!\l"
-	.string "¡Allí ofrecen 400.000¥!$"
+.string "NO!!\p"
+	.string "We were going to sell that\n"
+	.string "CHARMANDER in JOHTO!\p"
+	.string "Some rich guy offered us 800.000¥!$"
 
 PokemonMansion_1F_Ladrones_Texto_29:
-.string "¿¡Qué crees que estás haciendo!?\n"
-	.string "¡Detente y…!$"
+.string "What the hell are you doing!?\p"
+	.string "Stop right n…!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
-.string "¡{PLAYER} encontró los 2.000.000¥\n"
-	.string "robados al científico!$"
+.string "{PLAYER} found the 2.000.000¥\n"
+	.string "stolen from the scientist!$"
 
 PokemonMansion_1F_Ladrones_Texto_31:
-.string "¡Ya es suficiente!\n"
-	.string "¡No creas que has ganado, ROCKET!\l"
-	.string "¡La mayoría de la mercancía ya\l"
-	.string "está dentro de nuestro camión,\l"
-	.string "rumbo a JOHTO!\l"
-	.string "¡Solo has llegado a arrebatarnos\l"
-	.string "las migajas que faltaban por\l"
-	.string "embarcar!$"
+.string "That's enough!\p"
+	.string "Don't think that you have won!\p"
+	.string "Our most valuable merchandise\n"
+	.string "is already on the truck, way to JOHTO!$"
 
 PokemonMansion_1F_Ladrones_Texto_32:
-.string "Alguien como tú jamás visitará\n"
-	.string "JOHTO, de modo que esto es un\l"
-	.string "adios para siempre.\l"
-	.string "¡Disfruta de la pobreza que asola\l"
-	.string "a esta región, ROCKET!\l"
-	.string "¡Pobreza a la que nosotros hemos\l"
-	.string "contribuido, jo, jo, jo!$"
+	.string "Someone like you will never visit JOHTO,\n"
+	.string "so this is a for-ever-goodbye.\p"
+	.string "Take pleasure in the poverty that\n"
+	.string "afflicts this region, poor ROCKET!\p"
+	.string "Poverty that we have helped create,\n"
+	.string "hahaha! See you never!$"
 
 PokemonMansion_1F_Ladrones_Move_1:
 emote_exclamation_mark

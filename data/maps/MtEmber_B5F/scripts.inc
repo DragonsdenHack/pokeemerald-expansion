@@ -248,31 +248,30 @@ MtEmber_B5F_Encuentro_Magno_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3:
-.string "Ese estúpido CELIO{PAUSE 15}…{PAUSE 15}\n"
-	.string "Quería obtener el RUBÍ para usarlo en\l"
-	.string "ese burdo proyecto de conexión entre\l"
-	.string "regiones.$"
+.string "That foolish CELIO{PAUSE 15}…{PAUSE 15}\p"
+	.string "Wanted to obtain the RUBY to use it in\n"
+	.string "that stupid project of interregional\l"
+	.string "connection.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3.1:
-	.string "¡Semejante sacrilegio solo hubiera\n"
-	.string "estado a la altura de su ignorancia!$"
+	.string "Such sacrilege would only\n"
+	.string "have matched by his ignorance.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_4:
-.string "Afortunadamente, este RUBÍ ha caído\n"
-	.string "en las manos adecuadas, le daremos\l"
-	.string "el verdadero uso, el propósito por\l"
-	.string "el que fue creado, ¡observad!$"
+	.string "Fortunately, this RUBY has fallen into\n"
+	.string "the right hands; we'll give it the true\l"
+	.string "use, the purpose, for which it was\l"
+	.string "created. Watch!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_5:
-.string "Si juntamos ambos objetos, la\n"
-	.string "ESFERA ROJA y el RUBÍ, dentro de\l"
-	.string "este lugar, la reacción es la\l"
-	.string "siguiente{PAUSE 5}…{PAUSE 5}$"
+	.string "If we combine both items, the RED ORB\n"
+	.string "and the RUBY, within this place, the\l"
+	.string "reaction is as follows…$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
-.string "Ya queda poco, GROUDON.\n"
-	.string "Tu poder ha sido contenido por mucho\l"
-	.string "tiempo, pero ya no más{PAUSE 5}…{PAUSE 5}$"
+.string "So close… GROUDON.\p"
+	.string "Your power has been restrained\n"
+	.string "for a long time, but no more…$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"

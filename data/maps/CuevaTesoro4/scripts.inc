@@ -276,9 +276,9 @@ release
 end
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_1:
-	.string "This POKÉMON has no more energy. It\n"
-	.string "appears to want to be saved from this\l"
-	.string "location.$"
+	.string "This POKÉMON has no energy left.\p"
+	.string "It appears to want to be saved\n"
+	.string "from this place.$"
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_2:
 	.string "Do you want to take it with you?$"
@@ -321,8 +321,8 @@ release
 end
 
 CuevaTesoro4_Cascada_Texto_1:
-.string "Esta cascada no conduce\l"
-.string "a ninguna parte{PAUSE 5}…{PAUSE 5}$"
+.string "This waterfall leads\l"
+.string "nowhere{PAUSE 5}…{PAUSE 5}$"
 
 
 CuevaTesoro4_Combate_Stakataka::

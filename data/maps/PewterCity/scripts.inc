@@ -377,10 +377,10 @@ PewterCity_Petrel_Texto_1:
 	.string "around here, {PLAYER}!$"
 
 PewterCity_Petrel_Texto_2:
-	.string "So an important mission at PALLET TOWN,\n"
-	.string "you are tireless, eh? GIOVANNI already\l"
-	.string "told me that you are doing an excellent\l"
-	.string "job there.$"
+	.string "So an important mission at PALLET TOWN?\p"
+	.string "You are tireless! GIOVANNI already\n"
+	.string "told me that you are doing an\l"
+	.string "excellent job at CELADON.$"
 
 PewterCity_Petrel_Texto_3:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
@@ -404,57 +404,55 @@ PewterCity_Petrel_Texto_6:
 	.string "his investigation.$"
 
 PewterCity_Petrel_Texto_7:
-.string "Si un par de niños malcriados\n"
-	.string "limpian la cueva de FÓSILES, nadie dice\l"
-	.string "nada, puesto que, por supuesto, no\l"
-	.string "pueden quedarse sin completar sus\l"
-	.string "POKÉDEX, de añadir uno más a su\l"
-	.string "-colección-, como si los POKÉMON fueran\l"
-	.string "cromos intercambiables.$"
+	.string "If a couple of stupid kids clean out\n"
+	.string "FOSSILS from MT. MOON, no one cares.\p"
+	.string "Why? Of course, they can't be left\n"
+	.string "without completing their POKÉDEX,\l"
+	.string "adding one more to their -collection-,\l"
+	.string "as if POKÉMON were interchangeable\l"
+	.string "trading cards.$"
 
 PewterCity_Petrel_Texto_7.1:
-    .string "¡Ridículo!$"
+    .string "That's ridiculous!$"
 
 PewterCity_Petrel_Texto_8:
-.string "Pero si un grupo privado, como nosotros,\n"
-	.string "decide recolectar FÓSILES para\l"
-	.string "satisfacer una demanda local, somos\l"
-	.string "unos ladrones y la peor escoria.$"
+	.string "When a private group like us decides to\n"
+	.string "gather FOSSILS to satisfy a demand\l"
+	.string "from the population, we are thieves,\l"
+	.string "and the worst scum in KANTO.$"
 
 PewterCity_Petrel_Texto_8.1:
-	.string "Como si esos FÓSILES perteneciesen\n"
-	.string "a alguien, cuando cualquier idiota\l"
-	.string "puede tomarlos en cualquier momento\l"
-	.string "si es que los encuentra.$"
+	.string "As if those FOSSILS belonged to someone,\n"
+	.string "when any idiot can take them at any\l"
+	.string "moment, if is able to find one.$"
 
 PewterCity_Petrel_Texto_9:
-.string "Hablando de FÓSILES, he venido\n"
-	.string "hasta aquí a visitar a un viejo\l"
-	.string "amigo, que tiene la suerte de ser\l"
-	.string "uno de los peces gordos del MUSEO\l"
-	.string "DE LA CIENCIA DE CIUDAD PLATEADA.$"
+	.string "Talking about FOSSILS, I've come here\n"
+	.string "to visit an old friend who is fortunate\l"
+	.string "enough to be one of the top guys at\l"
+	.string "the SCIENCE MUSEUM of PEWTER CITY.$"
 
 PewterCity_Petrel_Texto_9.1:
-	.string "Al parecer han encontrado un\n"
-	.string "ejemplar de ÁMBAR VIEJO, que\l"
-	.string "contiene el FÓSIL más poderoso y\l"
-	.string "valioso de nuestra región.$"
-	
+	.string "Seems they have found a specimen of\n"
+	.string "OLD AMBER, which contains the most\l"
+	.string "powerful and valuable FOSSIL in our\l"
+	.string "region.$"
+
 PewterCity_Petrel_Texto_9.2:
-	.string "Sé que con la correcta negociación,\n"
-	.string "podría convencerlo de que nos lo preste\l"
-	.string "para investigarlo; hemos desarrollado\l"
-	.string "un sistema de clonación que podría\l"
-	.string "replicar ese ÁMBAR VIEJO a un costo\l"
-	.string "inferior a su precio de mercado, así que\l"
-	.string "no podemos dejar pasar esta oportunidad.$"
+	.string "I believe that, with the right\n"
+	.string "negotiation, I can persuade him to\l"
+	.string "lend it to us for research, we have\l"
+	.string "developed a cloning system that could\l"
+	.string "replicate that OLD AMBER at a lower\l"
+	.string "cost than its market price, so I can't\l"
+	.string "let this opportunity pass.$"
 
 PewterCity_Petrel_Texto_10:
-.string "Si te animas, estás invitado a esa\n"
-	.string "reunión: estaremos en la caseta\l"
-	.string "trasera al MUSEO oficial abierto\l"
-	.string "al público.\l"
-	.string "Allí te espero, si decides venir.$"
+	.string "If you're up for it, you're invited to\n"
+	.string "that meeting, we'll be in the back booth\l"
+	.string "behind the museum officially open to\l"
+	.string "the public, I'll be waiting for you\l"
+	.string "there.$"
 
 PewterCity_Petrel_Move_1:
 walk_in_place_left

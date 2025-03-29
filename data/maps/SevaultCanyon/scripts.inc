@@ -316,152 +316,148 @@ delay_8
 step_end
 
 SevaultCanyon_Combate_Andra_Texto_1:
-.string "ANDRA: ¿También por aquí, {PLAYER}?\n"
-	.string "¡Este lugar es un paraíso! ¿Eh?$"
+	.string "ANDRA: {PLAYER}, you here too? This\n"
+	.string "place is like a paradise, huh?$"
 
 SevaultCanyon_Combate_Andra_Texto_2:
-.string "GIOVANNI también me ha destinado a\n"
-	.string "este lugar, pero a diferencia tuya, yo\l"
-	.string "me he ofrecido a explorar las ruinas\l"
-	.string "que hay más al sur.\p"
-	.string "Me ha confiado la pequeña piedra del\n"
-	.string "frasco que robamos por, si sirve de algo.$"
+	.string "GIOVANNI also threw me into this place,\n"
+	.string "but unlike you, I offered to explore\l"
+	.string "those mysterious ruins down south. He\l"
+	.string "gave me the small stone from the vial we\l"
+	.string "grabbed, just in case it does something.$"
 
 SevaultCanyon_Combate_Andra_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 SevaultCanyon_Combate_Andra_Texto_4:
-.string "Todavía me cuesta creer que derrotaras\n"
-	.string "a LANCE. Después de que entraras al HALL\l"
-	.string "de LA FAMA para enfrentar a ROJO, fui\l"
-	.string "derrotando, uno por uno, a todos los\l"
-	.string "policías que salieron al paso.$"
+	.string "It's still hard for me to believe you\n"
+	.string "beat LANCE. After entering the HALL OF\l"
+	.string "FAME to face RED, I took down all the\l"
+	.string "police officers who tried to stop us.$"
 
 SevaultCanyon_Combate_Andra_Texto_4.1:
-	.string "Una vez derrotado el último, sentía\n"
-	.string "que era invencible.\l"
-	.string "Habíamos alcanzado otro nivel, y aún me\l"
-	.string "quedaban fuerzas, pensé incluso en\l"
-	.string "entrar a ayudarte con ROJO, pero{PAUSE 5}…{PAUSE 5}$"
+	.string "Once the last one was defeated, I felt\n"
+	.string "invincible, really! My team had never\l"
+	.string "reached that level, and I still had\l"
+	.string "energy left. I even thought about\l"
+	.string "joining you to help with RED, but…$"
 
 SevaultCanyon_Combate_Andra_Texto_5:
-.string "Justo en ese momento apareció LANCE.\p"
-	.string "Un LANCE distinto al que enfrenté horas\n"
-	.string "antes; sin mediar palabra sacó a un\l"
-	.string "DRAGONITE que nunca antes había visto;\l"
-	.string "de un solo ENFADO fue tumbando, de un\l"
-	.string "solo golpe a todos mis POKÉMON, sin que\l"
-	.string "pudieran hacer nada{PAUSE 5}…{PAUSE 5}$"
+	.string "At that very moment, a different LANCE\n"
+	.string "from the one I battled hours earlier\l"
+	.string "showed up. Without saying a word, he\l"
+	.string "released a DRAGONITE I'd never seen\l"
+	.string "before. Just using OUTRAGE, he knocked\l"
+	.string "out each of my POKÉMON with a single\l"
+	.string "hit, leaving them unable to do anything.$"
 
 SevaultCanyon_Combate_Andra_Texto_5.1:
-	.string "Solo mi CROBAT pudo llegar a tocarlo,\n"
-	.string "antes de igualmente caer{PAUSE 5}…{PAUSE 5}$"
+	.string "Only my CROBAT managed to land a hit\n"
+	.string "before being defeated by OUTRAGE.$"
 
 SevaultCanyon_Combate_Andra_Texto_6:
-.string "Después de presenciar ese poder, creí\n"
-	.string "que todo estaba perdido, aún si llegaras\l"
-	.string "a derrotar a ROJO, LANCE estaba a otro\l"
-	.string "nivel. Debiste sacar todo lo que tenías\l"
-	.string "y más para sobrevivir a tal poder.$"
+	.string "After witnessing that power, I thought\n"
+	.string "all was lost. Even if you were able to\l"
+	.string "defeat RED, LANCE was on another level.\p"
+	.string "You must have summoned everything you\n"
+	.string "had and more to survive such power.$"
 
 SevaultCanyon_Combate_Andra_Texto_7:
-.string "Más tarde, entró GIOVANNI, junto con\n"
-	.string "ATLAS y PETREL, me fui con estos dos\l"
-	.string "últimos rápidamente a curar mis POKÉMON.\l"
-	.string "El resto es ya historia.$"
+	.string "Later on, GIOVANNI entered, along with\n"
+	.string "ARCHER and PETREL. I quickly went with\l"
+	.string "the latter two to heal my POKÉMON.\p"
+	.string "The rest is history yet.$"
 
 SevaultCanyon_Combate_Andra_Texto_8:
-.string "El poder mostrado por LANCE ahí me ha\n"
-	.string "hecho reflexionar sobre los límites\l"
-	.string "últimos a los que podemos llegar.$"
+	.string "The power LANCE showed there got me\n"
+	.string "thinking about the absolute limits a\l"
+	.string "TRAINER can hit…$"
 
 SevaultCanyon_Combate_Andra_Texto_8.1:
-	.string "Sobre la fuerza bruta que algunos\n"
-	.string "POKÉMON pueden alcanzar, pero también\l"
-	.string "sobre cómo un ROCKET de ISLA INTA pudo\l"
-	.string "lidiar con ello, demostrando que es\l"
-	.string "posible domar al mayor de los poderes,\l"
-	.string "a cualquier LEGENDARIO tocado por la\l"
-	.string "varita, si se dispone de la suficiente\l"
-	.string "habilidad, entrenamiento y, en especial,\l"
-	.string "un estrecho vínculo con los tuyos.$"
+	.string "… about the raw strength every\n"
+	.string "POKÉMON guards. It also shows how a\l"
+	.string "ROCKET from FIVE ISLAND dealt with it,\l"
+	.string "proving you can tame the biggest\l"
+	.string "powers, any LEGENDARIES touched by\l"
+	.string "the magic wand, with enough skill\l"
+	.string "and well-trained POKÉMON.$"
 
 SevaultCanyon_Combate_Andra_Texto_9:
-.string "Es por ello, por tu actuación en el\n"
-	.string "HALL DE LA FAMA, que decidí no usar\l"
-	.string "POKÉMON LEGENDARIOS en mi equipo.$"
+	.string "That's the reason, considering your\n"
+	.string "performance in the HALL OF FAME, of\l"
+	.string "not including LEGENDARY POKÉMON on\l"
+	.string "my team.$"
 
 SevaultCanyon_Combate_Andra_Texto_10:
-.string "Así es: rechazé a ARTICUNO, ZAPDOS y\n"
-	.string "MOLTRES cuando GIOVANNI me los ofreció.$"
+	.string "Yeah! I declined ARTICUNO, ZAPDOS,\n"
+	.string "and MOLTRES when GIOVANNI offered\l"
+	.string "them to me!$"
 
 SevaultCanyon_Combate_Andra_Texto_10.1:
-	.string "No los necesito para alcanzar mi mejor\n"
-	.string "versión posible, porque ahora sé que un\l"
-	.string "POKÉMON fuerte puede provenir de\l"
-	.string "cualquier lugar, lo único que diferencia\l"
-	.string "a un LEGENDARIO de un mortal, es que\l"
-	.string "este último necesitará pasar por cierto\l"
-	.string "proceso para alcanzar su máximo.$"
+	.string "I don't need them to reach my\n"
+	.string "best possible version. Now, I know\l"
+	.string "that a strong POKÉMON can come from\l"
+	.string "anywhere. The only difference between\l"
+	.string "a LEGENDARY POKÉMON and a\l"
+	.string "non-legendary one is that the latter\l"
+	.string "needs to go through a certain process\l"
+	.string "to unlock its full potential.$"
 
 SevaultCanyon_Combate_Andra_Texto_10.2:
-	.string "Debes de estar dispuesto a ayudarle, a\n"
-	.string "educarle y creer en él, pero en última\l"
-	.string "instancia, creo firmemente que, en\l"
-	.string "ambos casos, puede llegar a tocarse el\l"
-	.string "mismo cielo.$"
+	.string "You must be willing to help, educate,\n"
+	.string "and believe in the journey. I firmly\l"
+	.string "believe that the peak performance in\l"
+	.string "both cases, whether LEGENDARY or\l"
+	.string "common POKÉMON, is similar.$"
 
 SevaultCanyon_Combate_Andra_Texto_11:
-	.string "Maybe this works for people too, don't\n"
-	.string "ya think?$"
+	.string "Maybe this works for people too,\n"
+	.string "don't ya think?$"
 
 SevaultCanyon_Combate_Andra_Texto_12:
-.string "En cualquier caso, ¡no he venido hasta\n"
-	.string "aquí para filosofar sobre el uso\l"
-	.string "o no uso de LEGENDARIOS!\p"
-	.string "¡Voy a descubrir qué diablos es\n"
-	.string "esta piedra, y por el camino\l"
-	.string "seguiré mejorando mi equipo!$"
+	.string "Anyhow, I didn't come all the way here\n"
+	.string "to chat about using LEGENDARIES or\l"
+	.string "not! My main goal is to figure out\l"
+	.string "what the heck this stone is and make\l"
+	.string "improvements along the way!$"
 
 SevaultCanyon_Combate_Andra_Texto_13:
-.string "Dudo mucho que exista un ENTRENADOR\n"
-	.string "como tú por estas islas.\l"
-	.string "Eso significa{PAUSE 15}…{PAUSE 15} que la mayor prueba\l"
-	.string "a la que me puedo enfrentar aquí,\l"
-	.string "en este momento, eres tú.\p"
-	.string "¡Muéstrame cómo bailan los POKÉMON\n"
-	.string "del verdadero CAMPEÓN de KANTO!$"
+	.string "I highly doubt there's anyone else on\n"
+	.string "these islands who can match up to you.\l"
+	.string "So, you're the biggest challenge I've\l"
+	.string "got right now. Let's see how the\l"
+	.string "POKÉMON of the true KANTO CHAMPION\l"
+	.string "dance!$"
 
 SevaultCanyon_Combate_Andra_Texto_14:
-.string "Mmm…\n"
-	.string "Tan cerca y tan lejos, lucharé por\l"
-	.string "ese 1% que me falta.$"
+	.string "Hmm{PAUSE 20}…{PAUSE 20} So close yet so far.\n"
+	.string "I will fight for that remaining 1%.$"
 
 SevaultCanyon_Combate_Andra_Texto_15:
-.string "No has perdido la forma, ¿eh?\n"
-	.string "Me alegra saber que sigues progresando,\l"
-	.string "cuanto más mejores, más lo haré yo.$"
+	.string "You're still on fire, huh? Great!\p"
+	.string "The more you get better, the more\n"
+	.string "I'll raise the level.$"
 
 SevaultCanyon_Combate_Andra_Texto_15.1:
-	.string "Dos rivales que se empujan hasta el\n"
-	.string "extremo, alcanzan cotas mayores de las\l"
-	.string "que jamás podrían alcanzar por separado.$"
+	.string "Two rivals pushing each other to\n"
+	.string "the limit, can reach heights they\l"
+	.string "could never reach on their own.$"
 
 SevaultCanyon_Combate_Andra_Texto_15.2:
-	.string "Para el próximo combate, no te quepa\n"
-	.string "duda: te obligaré a aún más lejos.$"
+	.string "I'll be ready for our next\n"
+	.string "battle, that's for sure!$"
 
 SevaultCanyon_Combate_Andra_Texto_16:
-.string "Las ruinas del sur deben estar ya\n"
-	.string "cerca.\p"
-	.string "No me extraña que las levantaran\n"
-	.string "aquí, el ambiente a pura naturaleza\l"
-	.string "que se respira es espectacular.$"
+	.string "We must be close to reaching the\n"
+	.string "southern ruins. It's no surprise they\l"
+	.string "erected them here: the pure natural\l"
+	.string "vibe is spectacular.$"
 
 SevaultCanyon_Combate_Andra_Texto_17:
-.string "Si me buscas, probablemente esté en\n"
-	.string "las cámaras de esas 7 pequeñas islas\l"
-	.string "que hay más al sur, ¡mantente alerta!$"
+	.string "If you're looking for me, I'll likely be\n"
+	.string "chilling in the chambers of those seven\l"
+	.string "small islands down south.\p"
+	.string "Keep an eye out!$"
 
 SevaultCanyon_Combate_Andra_Move_1:
 walk_in_place_up

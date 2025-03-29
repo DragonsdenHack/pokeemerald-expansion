@@ -184,89 +184,84 @@ release
 end
 
 PokemonMansion_4F_Blaine_Fuji_Texto_1:
-	.string "????: This is our last chance BLAINE,\n"
-	.string "you know where it hides, now the TEAM\l"
+	.string "????: This is our last chance, BLAINE.\p"
+	.string "You know where it hides, now the TEAM\n"
 	.string "ROCKET has the MASTER BALL, only left\l"
 	.string "to catch it and we will finish this!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_2:
-.string "BLAINE: No es tan sencillo, FUJI.\n"
-	.string "OAK también sabe lo de MEWTWO,\l"
-	.string "¿crees que no le dirá a LANCE que\l"
-	.string "el TEAM ROCKET trama algo en cuanto\l"
-	.string "presienta que va tras él?\l"
-	.string "Además, tenía entendido que la\l"
-	.string "invasión a SILPH fue un fracaso.$"
+	.string "BLAINE: Is not that easy, FUJI, OAK\n"
+	.string "also knows about MEWTWO, do you think\l"
+	.string "he wont tell LANCE that the TEAM\l"
+	.string "ROCKET plans something, when he\l"
+	.string "discovers that you are going in search\l"
+	.string "of our creation? Also, I had understood\l"
+	.string "that the invasion at SILPH was a\l"
+	.string "failure.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_3:
-.string "FUJI: Eso es lo que han hecho\n"
-	.string "creer a los medios.\l"
-	.string "Un EJECUTIVO ROCKET, PROTÓN, me ha\l"
-	.string "informado de lo que acaba de ocurrir\l"
-	.string "allí.\l"
-	.string "Al parecer, GIOVANNI ha convencido al\l"
-	.string "PRESIDENTE de rebelarse contra LAN…$"
+	.string "FUJI: That's what they had made\n"
+	.string "believe to the people, one of the\l"
+	.string "ROCKET EXECUTIVES, PROTON, has\l"
+	.string "informed me about what just happened\l"
+	.string "there, apparently GIOVANNI had\l"
+	.string "convinced the PRESIDENT to rebel\l"
+	.string "against LAN…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
-.string "BLAINE: ¡Ilusos!$"
+.string "BLAINE: Dreamers!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4.1:
-	.string "¿Creéis que un LEGENDARIO basta\n"
-	.string "para detener a LANCE?\l"
-	.string "¿Te tengo que recordar los\l"
-	.string "destrozos que causó usando tres?\l"
-	.string "¡TRES!\l"
-	.string "Legendarios diferentes, MEWTWO por\l"
-	.string "sí solo es el POKÉMON más poderoso\l"
-	.string "jamás creado, hicimos un gran\l"
-	.string "trabajo en este laboratorio en su\l"
-	.string "día, pero LANCE tiene a toda la\l"
-	.string "ÉLITE 4 protegiéndole, y esos\l"
-	.string "dragones…\l"
-	.string "¿Se te olvida que tiene no 1, si no\l"
-	.string "3 de esos pseudolegendarios\l"
-	.string "guardándole las espaldas?$"
+	.string "Damn! Did you really think a MINOR\n"
+	.string "LEGENDARY is enough to defeat LANCE?\p"
+	.string "Do I need to remind you what the\n"
+	.string "three beasts did to our region? THREE!\l"
+	.string "Different LEGENDARIES, MEWTWO by itself\l"
+	.string "is the most powerful POKÉMON ever\l"
+	.string "created, we did a great job in this\l"
+	.string "laboratory back in the day, but LANCE\l"
+	.string "has the entire ELITE 4 protecting him,\l"
+	.string "and those dragons… Don't you forget he\l"
+	.string "has not just one, but three of those\l"
+	.string "PSEUDO-LEGENDARIES watching his back?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_5:
-.string "BLAINE: Todo el que quiera\n"
-	.string "revelarse contra LANCE, a día de hoy,\l"
-	.string "es un suicida, cuenta con demasiado\l"
-	.string "poder, a pesar de desconocer la\l"
-	.string "existencia de MEWTWO.\l"
-	.string "Ha hecho honor a su fama de\l"
-	.string "ENTRENADOR de POKÉMON SAGRADOS.$"
+	.string "There is no way out, all who wants to\n"
+	.string "rebel against LANCE is a suicide, he\l"
+	.string "has too much power, despite he doesn't\l"
+	.string "know about MEWTWO's existence.\p"
+	.string "Sadly, he has made honor to his fame,\n"
+	.string "as the best DRAGON TAMER of this era.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_6:
-.string "FUJI: GIOVANNI cuenta con\n"
-	.string "tecnología para clonar a las AVES\l"
-	.string "de KANTO también BLAINE, puede que\l"
-	.string "no tengamos una ocasión como esta\l"
-	.string "en mucho tiempo, siempre has sido\l"
-	.string "alguien con el que se puede razonar.\l"
-	.string "¿Qué te frena a intentarlo?$"
+	.string "FUJI: GIOVANNI has technology to clone\n"
+	.string "the KANTO's BIRDS, BLAINE!\l"
+	.string "We wouldn't have a chance like this in\l"
+	.string "a long time, you've always been someone\l"
+	.string "who can be reasoned with, what's\l"
+	.string "holding you back from trying?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_7:
-.string "BLAINE: Así que las AVES{PAUSE 5}…{PAUSE 5}$"
+.string "BLAINE: So{PAUSE 15}…{PAUSE 15} the THREE SACRED BIRDS{PAUSE 15}…{PAUSE 15}$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_8:
-.string "Veré qué puedo hacer, FUJI.\n"
-	.string "Vuelve a PUEBLO LAVANDA, no es\l"
-	.string "recomendable que te vean por aquí,\l"
-	.string "podrían sospechar: dos ex-científicos\l"
-	.string "como nosotros reunidos{PAUSE 5}…{PAUSE 5}$"
+	.string "Hmmm{PAUSE 15}…{PAUSE 15} I will see what I can do, FUJI.\p"
+	.string "Go back to LAVENDER TOWN, it is not\n"
+	.string "recommendable that people see you\l"
+	.string "around here, they could suspect us, two\l"
+	.string "ex-scientists as us together…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_9:
-.string "FUJI: ¡Por fin has entrado en\n"
-	.string "razón, verás como GIOVANNI\l"
-	.string "podrá poner fin a todo esto!$"
+	.string "FUJI: Finally! You have come to your\n"
+	.string "senses, BLAINE!\p"
+	.string "Trust in GIOVANNI!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
-.string "BLAINE: Tendrás noticias mías en\n"
-	.string "las próximas horas, hasta\l"
-	.string "entonces{PAUSE 5}…{PAUSE 5}$"
+	.string "BLAINE: You'll hear from me in the next\n"
+	.string "few hours. For sure{PAUSE 15}…{PAUSE 15} ntil then…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_11:
-.string "BLAINE: MAGMAR, TELEPORT!$"
+.string "MAGMAR, TELEPORT!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_12:
 .string "Mag!$"
@@ -279,9 +274,9 @@ PokemonMansion_4F_Blaine_Fuji_Texto_14:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_15:
 	.string "GIOVANNI: {PLAYER}? The assault on\n"
-	.string "SILPH was a success in every way. RED\l"
-	.string "took the bait. We're all back at the\l"
-	.string "BASE now. Present yourself in my office\l"
+	.string "SILPH was a success in every way.\l"
+	.string "RED took the bait; we're all back at the\l"
+	.string "HQ now, present yourself in my office\l"
 	.string "as soon as possible.$"
 
 PokemonMansion_4F_Blaine_Fuji_Move_1:

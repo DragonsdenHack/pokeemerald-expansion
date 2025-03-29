@@ -43,8 +43,8 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_3:
-.string "Voy a preparar una comida para\n"
-.string "una persona muy importante.$"
+    .string "I'm on my way to prepare a meal\n"
+    .string "for a certain high-society person.$"
 
 TwoIslandPokemonCenter_Move_1:
 emote_exclamation_mark
@@ -164,12 +164,12 @@ TwoIslandPokemonCenter_3_Despues_Texto_5:
 
 TwoIslandPokemonCenter_3_Despues_Texto_6:
 	.string "This product can't be found in the whole\n"
-	.string "archipelago. Every single bottle will\n"
+	.string "archipelago. Every single bottle will\l"
 	.string "cost you ¥10,000.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_7:
 	.string "Second thought, even if you could\n"
-	.string "afford it, which I doubt, I won't be\n"
+	.string "afford it, which I doubt, I won't be\l"
 	.string "making a deal with you.$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_8:
@@ -178,8 +178,8 @@ TwoIslandPokemonCenter_3_Despues_Texto_8:
 
 TwoIslandPokemonCenter_3_Despues_Texto_9:
 	.string "LORELEI, CELIO, the CONSUL… I cook for\n"
-	.string "celebrities all over the SEVII islands.\n"
-	.string "Why bothering getting involved with\l"
+	.string "celebrities all over the SEVII islands.\p"
+	.string "Why bothering getting involved with\n"
 	.string "scum like you?$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_10:
@@ -188,8 +188,8 @@ TwoIslandPokemonCenter_3_Despues_Texto_10:
 
 TwoIslandPokemonCenter_3_Despues_Texto_11:
 	.string "I'll show you the differences between\n"
-	.string "an elite TEAM and one that came from a\n"
-	.string "sewer!$"
+	.string "a high-society elite TEAM and one\l"
+	.string "that came from a street trash!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_12:
 	.string "No… wait! My TOTODILE is special!$"
@@ -208,7 +208,7 @@ TwoIslandPokemonCenter_3_Despues_Texto_16:
 	.string "You! How you dare?!$"
 
 TwoIslandPokemonCenter_3_Despues_Texto_17:
-	.string "You'll see when I get back to KANTO! I'll\n"
-	.string "tell the authorities of the little\n"
-	.string "scheme you got here!$"
+	.string "You'll see when I get back to KANTO!\p"
+	.string "I'll tell the authorities about the\n"
+	.string "little scheme you got here!$"
 

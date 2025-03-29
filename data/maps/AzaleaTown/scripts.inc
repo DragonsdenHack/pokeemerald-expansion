@@ -812,7 +812,7 @@ release
 end
 
 Kangaskhan_Cry_Text_1:
-.string "¡Kan!$"
+.string "Kan!$"
 
 Kangaskhan_Cry_Default::
 lock    

@@ -48,16 +48,13 @@ release
 end
 
 CinnabarMansionS1_Text_4:
-.string "Si no acaban contigo, puedes\n"
-.string "recuperarte de los más duros\l"
-.string "golpes, y volver incluso más\l"
-.string "fuerte que antes, la forma en que\l"
-.string "hemos mantenido este lugar activo\l"
-.string "y hemos por fin acabado nuestro\l"
-.string "gran proyecto a pesar de todo lo\l"
-.string "que ocurrió es prueba de ello,\l"
-.string "nadie, siquiera tú, nos arrebatará\l"
-.string "este hecho.$"
+	.string "If they can't take you down, you can\n"
+	.string "bounce back from the toughest hits and\l"
+	.string "come back even stronger than before.\l"
+	.string "The way we've kept this place going and\l"
+	.string "finally finished our big project despite\l"
+	.string "all the craziness is proof; no one, not\l"
+	.string "even you, can revert this fact.$"
 
 CinnabarMansionS1_Dalia_Move_1:
 walk_in_place_right

@@ -365,16 +365,16 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16:
 	.string "interrogation room.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.1:
-	.string "Dime. El ZAPDOS de la CENTRAL ENERGÍA\n"
-	.string "sigue allí, a pesar de que pudísteis\l"
-	.string "haberlo atrapado.$"
+	.string "Say, the ZAPDOS that lives in the POWER\n"
+	.string "PLANT is still there, eleven when you\l"
+	.string "had the chance to get him.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.2:
-	.string "¿Por qué?$"
+	.string "Why?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_17:
-	.string "PROTÓN: No es de tu incumbencia, SURGE.\n"
-	.string "Y no vamos a ir a ninguna parte.$"
+	.string "PROTON: That's none of your business,\n"
+	.string "SURGE. And we're not going anywhere.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_18:
 	.string "LT. SURGE: You guys are mistaken if you\n"

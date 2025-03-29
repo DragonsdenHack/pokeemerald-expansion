@@ -107,37 +107,35 @@ PokemonTower_7F_Proton_Texto_1:
 	.string "it? I hope you think about our offer!$"
 
 PokemonTower_7F_Proton_Texto_2:
-	.string "PROTON: I see. Anyways, I'm done\n"
-	.string "with FUJI. Time to go back to the\l"
+	.string "I see. Anyways, I'm done with FUJI.\p"
+	.string "Time to go back to the\n"
 	.string "headquarter, {PLAYER}!$"
 
 PokemonTower_7F_Proton_Texto_3:
-.string "PROTON: Grunts!\p"
+.string "GRUNTs!\p"
 	.string "Come upstairs immediately!$"
 
 PokemonTower_7F_Proton_Texto_4:
-.string "PROTÓN: Custodiad a FUJI hasta que\n"
-	.string "no se os dé otra orden.\p"
-	.string "¡¿Entendido?!$"
+	.string "Guard FUJI until you receive any\n"
+	.string "other instructions. Understood?$"
 
 PokemonTower_7F_Proton_Texto_5:
-.string "RECLUTAS: ¡Totalmente, SIR!$"
+.string "GRUNTS: Understood, SIR!$"
 
 PokemonTower_7F_Proton_Texto_6:
-.string "PROTÓN: Siempre hay que guardar\n"
-	.string "las apariencias, {PLAYER}.\p"
-	.string "Si ese necio sube hasta aquí, creerá\n"
-	.string "lo que todos creen: que unos\l"
-	.string "descerebrados delincuentes secuestran\l"
-	.string "a un anciano, sin sentido alguno.$"
+	.string "PROTON: It's always important to keep\n"
+	.string "up appearances, {PLAYER}, if that\l"
+	.string "foolish RED makes his way up here, he'll\l"
+	.string "believe what everyone else believes,\l"
+	.string "that mindless criminals are senselessly\l"
+	.string "abducting an old man.$"
 
 PokemonTower_7F_Proton_Texto_6.1:
-	.string "Después de todo, nadie puede\n"
-	.string "actuar en contra de una realidad\l"
-	.string "que siquiera conoce.$"
+	.string "After all, no one can act\n"
+	.string "against an unknown reality.$"
 
 PokemonTower_7F_Proton_Texto_7:
-.string "PROTON: CLEFAIRY!\p"
+.string "CLEFAIRY!\p"
 	.string "TELEPORT to the warehouse!$"
 
 PokemonTower_7F_Proton_Texto_8:

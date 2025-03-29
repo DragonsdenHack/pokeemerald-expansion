@@ -201,9 +201,8 @@ face_player
 step_end
 
 MemorialPillar_ChicoOnix_Texto_1:
-.string "Aquí yace mi ONIX, llamado TECTONIX.\n"
-	.string "Levanté este lugar en su honor, para\l"
-	.string "que todos recuerden su nombre.$"
+    .string "This is where I buried my ONIX…\n"
+    .string "It was named TECTONIX…$"
 
 
 MemorialPillar_ChicoOnix_Post::
@@ -255,7 +254,7 @@ MemorialPillar_ChicoOnix_Despues_Texto_1:
 
 MemorialPillar_ChicoOnix_Despues_Texto_2:
 	.string "TECTONIX used to love lemonade. If only\n"
-	.string "I could place a bottle here as a\n"
+	.string "I could place a bottle here as a\l"
 	.string "tribute…$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_3:
@@ -268,20 +267,20 @@ MemorialPillar_ChicoOnix_Despues_Texto_4:
 
 MemorialPillar_ChicoOnix_Despues_Texto_5:
 	.string "He got lemonades. However, he only sells\n"
-	.string "those to his rich customers, who buy\n"
+	.string "those to his rich customers, who buy\l"
 	.string "them along his expensive-as-gold\l"
 	.string "menus.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_6:
-	.string "Say, could you talk him into selling me a\n"
-	.string "few of ‘em?$"
+	.string "Say, could you talk him into selling\n"
+	.string "me a few of ‘em?$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_7:
 	.string "For real? That would be awesome.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_8:
 	.string "If you make it, I'll never be grateful\n"
-	.string "enough, and I may give you a little\n"
+	.string "enough, and I may give you a little\l"
 	.string "something.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_9:
@@ -301,12 +300,12 @@ MemorialPillar_ChicoOnix_Despues_Texto_12:
 
 MemorialPillar_ChicoOnix_Despues_Texto_13:
 	.string "Huh! A gift? I didn't know he was that\n"
-	.string "generous, well for sure you can't judge a\n"
+	.string "generous, well for sure you can't judge a\l"
 	.string "book by its cover.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_14:
 	.string "I won't be less than that. Now my ONIX\n"
-	.string "has his worthy tribute, and this other\n"
+	.string "has his worthy tribute, and this other\l"
 	.string "POKÉMON is for you.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_15:
@@ -324,11 +323,11 @@ MemorialPillar_ChicoOnix_Despues_Texto_18:
 
 MemorialPillar_ChicoOnix_Despues_Texto_19:
 	.string "I got more than enough with what's left\n"
-	.string "in the box. I hope I can see the chef so\n"
+	.string "in the box. I hope I can see the chef so\l"
 	.string "I can thank him!$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_20:
 	.string "If I learned something from TECTONIX is\n"
-	.string "that an illness may block your body, but\n"
+	.string "that an illness may block your body, but\l"
 	.string "not your will, unless it allows it to.$"
 

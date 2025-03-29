@@ -1808,98 +1808,98 @@ face_right
 step_end
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1:
-.string "{PLAYER}{PAUSE 25}…{PAUSE 25} estás aquí.$"
+.string "GIOVANNI: {PLAYER}{PAUSE 25}…{PAUSE 25} you're here.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
-.string "El combate ha acabado.\p"
-	.string "Como era de esperar, me ha derrotado\n"
-	.string "muy fácilmente, ese CHARIZARD es toda\l"
-	.string "una rareza en nuestra región{PAUSE 25}…{PAUSE 25} solo\l"
-	.string "alguien como OAK ha podido\l"
-	.string "proporcionárselo.$"
+	.string "The battle is over, as expected he\n"
+	.string "defeated me very easily, that\l"
+	.string "CHARIZARD is an eccentricity in our\l"
+	.string "region…{PAUSE 20} just someone like OAK could\l"
+	.string "have given it.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3:
-.string "Aun así, no es invencible, nadie\n"
-	.string "lo es; a día de hoy nuestros mejores\l"
-	.string "EJECUTIVOS y ADMINISTRADORES podrían\l"
-	.string "neutralizarlo. Pero no le daremos el\l"
-	.string "lujo y la satisfacción de fortalecer\l"
-	.string "su experiencia con ellos, para que más\l"
-	.string "tarde sea él quien doble las tornas.$"
+	.string "Even so, he is not unattainable, no one\n"
+	.string "is, currently our best men could\l"
+	.string "neutralize him but we won't grant him\l"
+	.string "the satisfaction of enhancing his\l"
+	.string "experience with our trust men, ensuring\l"
+	.string "he'll be the one to reverse the\l"
+	.string "situation later.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
-.string "Ese ROJO es bueno, muy bueno. Pero\n"
-	.string "tiene un claro punto débil, {PLAYER}.$"
+	.string "That RED is good, very good.\p"
+	.string "But has a clear weakness, {PLAYER}.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.1:
-	.string "Para él, todo esto es un juego, podrá\n"
-	.string "ir de héroe o lo que quiera pero lo\l"
-	.string "cierto es que no sigue ningún tipo de\l"
-	.string "principio ni persigue algo en concreto.$"
+	.string "For him, that's just a game; he can play\n"
+	.string "the hero or whatever he wants, but the\l"
+	.string "truth is, deep down, he doesn't act\l"
+	.string "according to any principle, he's not\l"
+	.string "pursuing a specific goal.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.2:
-	.string "No ha entrado a nuestra base para\n"
-	.string "-detener nuestros malvados planes-.\p"
-	.string "Solo estuvo aquí porque le parecía su\n"
-	.string "mejor hoja de ruta, no ve diferencia\l"
-	.string "entre derrotarte a ti o a mí que en\l"
-	.string "derrotar al DOMINGUERO de turno que\l"
-	.string "se encuentre en la RUTA 9.$"
+	.string "He hasn't even entered our BASE to\n"
+	.string "- stop our evil plans -, he just did\l"
+	.string "because it looked as the best option\l"
+	.string "in his paper route, he might even got\l"
+	.string "bored; he doesn't perceives even a\l"
+	.string "little difference between defeating\l"
+	.string "you or me, or a random PICKNICKER\l"
+	.string "at ROUTE 9.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4.3:
-	.string "Cree que el ganar un combate le\n"
-	.string "respalda, como un principio universal\l"
-	.string "bajo el cual puede hacer u obtener\l"
-	.string "cualquier cosa, y ahí está su error:\l"
-	.string "creer que este mundo le pertenece\l"
-	.string "cuando apenas ha asomado a ver la\l"
-	.string "punta del iceberg.$"
+	.string "That's the point: he believes that\n"
+	.string "winning a battle validates him, as a\l"
+	.string "universal principle that enables him to\l"
+	.string "do and achieve anything. And that's\l"
+	.string "where he goes wrong: thinking this\l"
+	.string "world belongs to him when he has just\l"
+	.string "peered at the tip of the iceberg.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
 .string "{PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}… {PAUSE 10}…{PAUSE 5}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
-.string "Quiero que hagas una visita a\n"
-	.string "PUEBLO PALETA.\p"
-	.string "Ese es el lugar de origen de ROJO.$"
+	.string "I want you to visit PALLET TOWN.\p"
+	.string "Apparently, RED's origin place.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1:
-.string "Le he dejado un regalo, con el\n"
-	.string "que se mantendrá entretenido un rato.\l"
-	.string "Así que no deberás preocuparte por él.$"
+.string "I gave him a present, with which\n"
+	.string "he'll be entertained at LAVENDER.\p"
+	.string "So don't care about him now.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
-.string "De las 7 misiones que llevas al\n"
-	.string "servicio del TEAM ROCKET, esta\l"
-	.string "puede ser la de mayor importancia.\p"
-	.string "Explora ese lugar, su casa, el\n"
-	.string "laboratorio de OAK{PAUSE 15}…{PAUSE 15} en busca de\l"
-	.string "cualquier dato que pueda sernos útil.$"
+	.string "Among all your missions at TEAM ROCKET\n"
+	.string "service, this one could be the most\l"
+	.string "crucial, explore that place, his home,\l"
+	.string "OAK's lab, in search of any data that\l"
+	.string "could be interesting to us.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
-.string "Si conseguimos averiguar el porqué de\n"
-	.string "sus actos, podremos neutralizarlo{PAUSE 25}…{PAUSE 25}$"
+	.string "If we can figure out the reasons why he\n"
+	.string "acts like this, we could definitely\l"
+	.string "neutralize him…$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
-	.string "Otra cosa más, {PLAYER}.\n"
+	.string "One more thing, {PLAYER}.\n"
 	.string "Evita a OAK, el dueño del laboratorio\l"
 	.string "de investigación del pueblo.\p"
-	.string "Lleva varios años retirado, y renunció\n"
-	.string "a sus POKÉMON tras el ascenso de LANCE,\l"
-	.string "pero hoy en día, no creo ni la mitad de\l"
-	.string "cosas que se dicen sobre él.$"
+	.string "He retired from battles years ago, publicy\n"
+	.string "releasing his team, after LANCE victory.\p"
+	.string "But nowadays, I don't a single word it's\n"
+	.string "said in the social media about him.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
-	.string "Fue un ducho ENTRENADOR en el pasado,\n"
-	.string "antes de renunciar a sus principios.\p"
-	.string "Actúa con precaución.$"
+	.string "He was a skilled TRAINER in the past,\n"
+	.string "before renouncing to his principles.\p"
+	.string "You must proceed with caution.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9:
-.string "Eso es todo.\p"
-	.string "Estaré en mi despacho del S5, a la espera\n"
-	.string "de resultados, el de verdad, no ese sucio\l"
-	.string "sótano del S4 cuya única utilidad es\l"
-	.string "guardar las apariencias.$"
+.string "That's all.\p"
+	.string "I'll be in my private office waiting\n"
+	.string "for results, the real one, not that\l"
+	.string "dirty basement at the B4F, whose only\l"
+	.string "usefulness is to keep up appearances.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_move_1:
 emote_exclamation_mark
@@ -2050,34 +2050,31 @@ walk_slow_down
 step_end
 
 RocketHideout_5F_Prohibido_Salir_Texto_1:
-.string "-Tengo órdenes directas de\n"
-	.string "permanecer en este lugar hasta\l"
-	.string "nuevo aviso.-$"
+	.string "-I have received explicit orders to\n"
+	.string "stay in this place until new notices.-$"
 
 RocketHideout_5F_Combate_Andra_Texto_1:
-.string "Así que a esto se refería PETREL,\n"
-	.string "cuando nos dijo que la base de AZULONA\l"
-	.string "nada tenía que ver con las otras.\l"
-	.string "No solo podemos comprar lo que en una\l"
-	.string "tienda normal hay, la oferta es mayor.\p"
-	.string "¿Has visto todas las zonas de\n"
-	.string "investigación que hay?\l"
-	.string "Parece que se toman muy en serio la\l"
-	.string "ciencia detrás del poder de los POKÉMON.$"
+	.string "{PLAYER}{PAUSE 15}…{PAUSE 15} So this is what PETREL referred\n"
+	.string "to when telling us about the CELADON's\l"
+	.string "base has no comparison with the others,\l"
+	.string "it's not just the usual store offerings\l"
+	.string "we can buy; the variety is even more\l"
+	.string "extensive, have you checked out all the\l"
+	.string "research zones? It appears they are\l"
+	.string "quite committed to the science behind\l"
+	.string "the real power of a POKÉMON.$"
 
 RocketHideout_5F_Combate_Andra_Texto_1.1:
 	.string "…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout_5F_Combate_Andra_Texto_1.2:
-	.string "Aunque parece que aún no tenemos\n"
-	.string "acceso a las salas de mayor\l"
-	.string "importancia, sabía que el TEAM\l"
-	.string "ROCKET era una organización\l"
-	.string "poderosa, pero el día de la\l"
-	.string "presentación en ISLA INTA, cuando\l"
-	.string "conocimos a ATLAS, no cabía en mi\l"
-	.string "cabeza que existieran lugares\l"
-	.string "así{PAUSE 15}…{PAUSE 15}$"
+	.string "It seems we still don't have access to\n"
+	.string "the most important rooms, I knew TEAM\l"
+	.string "ROCKET was a formidable organization,\l"
+	.string "however, on the day of the\l"
+	.string "presentation at FIVE ISLAND, when we\l"
+	.string "met ARCHER, I couldn't grasp that\l"
+	.string "places like these existed…$"
 
 RocketHideout_5F_Combate_Andra_Texto_2:
 	.string "Either way, we're both in a phase of\n"
@@ -2086,81 +2083,77 @@ RocketHideout_5F_Combate_Andra_Texto_2:
 	.string "thieves, don't you agree?$"
 
 RocketHideout_5F_Combate_Andra_Texto_3:
-.string "Voy a quedarme aquí un rato,\n"
-	.string "reflexionando sobre este lugar.\l"
-	.string "Tal vez tú debas hacer lo mismo,\l"
-	.string "espero volver a coincidir\l"
-	.string "contigo en misiones futuras.$"
+	.string "I'll stay here for a while,\n"
+	.string "thinking about this place, maybe you\l"
+	.string "must do the same, {PLAYER}. Hope to\l"
+	.string "concur with you in the future!$"
 
 RocketHideout_5F_Combate_Andra_Texto_4:
-.string "¿Sabes que, {PLAYER}?\n"
-	.string "Creo que detrás de estas puertas se\l"
-	.string "hallan muchas cosas que las élites de\l"
-	.string "esta región no quieren que sepamos,\l"
-	.string "un conocimiento que va mucho más\l"
-	.string "allá de la región de KANTO.$"
+	.string "You know what, {PLAYER}?\p"
+	.string "I think behind these doors, there\n"
+	.string "are many things the elites of this\l"
+	.string "region don't want us to discover, a\l"
+	.string "knowledge that extends far beyond the\l"
+	.string "KANTO region.$"
 
 RocketHideout_5F_Combate_Andra_Texto_4.1:
-	.string "Yo también quiero formar parte de este\n"
-	.string "lugar, y eso pasa por ser la mejor\l"
-	.string "ENTRENADORA posible.\l"
-	.string "No hay tiempo que perder, {PLAYER}:\l"
-	.string "seguiré entrenando hasta que nadie de\l"
-	.string "esta organización pueda siquiera\l"
-	.string "acercarse a mi nivel.$"
+	.string "You know: I want to be part of this\n"
+	.string "place too, and that means being the\l"
+	.string "best TRAINER I can be, I don't have time\l"
+	.string "to waste, {PLAYER}; I'll keep training\l"
+	.string "my POKÉMON until no one in this\l"
+	.string "organization can even come close\l"
+	.string "to me.$"
 
 RocketHideout_5F_Combate_Andra_Texto_5:
 .string "{PAUSE 15}…{PAUSE 15} … {PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout_5F_Combate_Andra_Texto_6:
-.string "¡¿El ENTRENADOR misterioso\n"
-	.string "está aquí?!\p"
-	.string "¿GIOVANNI no quiere que movamos\n"
-	.string "un dedo de este lugar hasta que\l"
-	.string "ese renacuajo se largue?$"
+	.string "The mysteriously TRAINER is here?\p"
+	.string "GIOVANNI doesn't want us to move even\n"
+	.string "a bit of this place until that shrimp\l"
+	.string "gets out?$"
 
 RocketHideout_5F_Combate_Andra_Texto_7:
-.string "No puedo perder más el tiempo.\n"
-	.string "Ya he derrotado a todos los ALTO RANGO\l"
-	.string "de aquí, quería seguir mejorando aún\l"
-	.string "más, antes de volver a tener un combate\l"
-	.string "contigo pero{PAUSE 25}…{PAUSE 25}\l"
-	.string "¡No te haces una idea de lo mucho\l"
-	.string "que han crecido mis POKÉMON!$"
+	.string "I can't waste more time.\p"
+	.string "I already have defeated all the HIGH\n"
+	.string "RANKS of this place, I wanted to keep\l"
+	.string "improving even more until fighting\l"
+	.string "against you but{PAUSE 15}…{PAUSE 15}\p"
+	.string "You have no idea how much my POKÉMON\n"
+	.string "have grown since our last battle!$"
 
 RocketHideout_5F_Combate_Andra_Texto_8:
 	.string "I still don't understand how you do it.$"
 
 RocketHideout_5F_Combate_Andra_Texto_9:
-.string "Debí suponer que tú también sabrías\n"
-	.string "sacar provecho de los objetos y recursos\l"
-	.string "que aquí nos ofrecen. Veo que te has\l"
-	.string "endurecido aún más, gracias a tus\l"
-	.string "misiones en PUEBLO LAVANDA y el TÚNEL\l"
-	.string "ROCA.$"
+	.string "Damn! I should have supposed that you\n"
+	.string "also take advantage of the items and\l"
+	.string "resources that we have access, and I\l"
+	.string "see that you became even tougher due\l"
+	.string "to your missions at LAVENDER and ROCK\l"
+	.string "TUNNEL.$"
 	
 RocketHideout_5F_Combate_Andra_Texto_9.1:
-	.string "Tengo el convencimiento de que, si tú y\n"
-	.string "yo saliéramos ahora mismo al S4 y\l"
-	.string "enfrentáramos a ese ROJO, le\l"
-	.string "derrotaríamos. ¡Hemos cambiado\l"
-	.string "mucho desde la misión del MT.MOON!$"
+	.string "Now I'm convinced: if you and I went\n"
+	.string "to the upper floor right now and faced\l"
+	.string "RED, we would defeat him!\p"
+	.string "We are not the same like we were\n"
+	.string "at the MT.MOON mission!$"
 
 RocketHideout_5F_Combate_Andra_Texto_10:
-.string "-AVISO PARA TODOS LOS RECLUTAS DE\n"
-	.string "ALTO RANGO Y EJECUTIVOS-\p"
-	.string "-El misterioso ENTRENADOR acaba de\n"
-	.string "abandonar nuestra BASE, ya sois\l"
-	.string "libres de salir al exterior.-$"
+	.string "- WARNING FOR ALL HIGH RANKS\n"
+	.string "AND ROCKET EXECUTIVES -\p"
+	.string "RED just left our base, you're\n"
+	.string "free to go outside now.$"
 
 RocketHideout_5F_Combate_Andra_Texto_11:
-.string "ANDRA: Perfecto.\p"
-	.string "KANTO me espera, {PLAYER}.\p"
-	.string "Voy a llevar a cabo un entrenamiento\n"
-	.string "especial, mientras no me soliciten para\l"
-	.string "ninguna misión, ¡no reconocerás a mis\l"
-	.string "POKÉMON la próxima vez que los tengas\l"
-	.string "delante!$"
+.string "ANDRA: Perfect!\p"
+	.string "KANTO is waiting for me, {PLAYER}.\p"
+	.string "I'll be undergoing special training,\n"
+	.string "as long as I'm not assigned to any\l"
+	.string "missions, you won't recognize my\l"
+	.string "POKÉMON the next time we battle!$"
 
 RocketHideout_5F_Combate_Andra_Move_1:
 walk_in_place_up

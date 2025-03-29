@@ -83,59 +83,58 @@ emote_exclamation_mark
 step_end
 
 Magma1_Combate_Admin_Texto_1:
-.string "Así que has conseguido derrotar a\n"
-	.string "nuestra ALTO RANGO…\p"
-	.string "¿ADMINISTRADOR del TEAM ROCKET?\p"
-	.string "Entonces no os habéis disuelto tal y\n"
-	.string "como dicen. Pero no importa, alguien\l"
-	.string "como tú no pinta nada aquí.$"
+	.string "So, you've managed to defeat our HIGH\n"
+	.string "RANK{PAUSE 20}…{PAUSE 20} TEAM ROCKET ADMINISTRATOR?\p"
+	.string "Then, you haven't disbanded as it's\n"
+	.string "said; either way, someone like you\l"
+	.string "doesn't belong here.$"
 
 Magma1_Combate_Admin_Texto_2:
-.string "Nuestro LÍDER MAGNO pasó años\n"
-	.string "creando el mejor equipo del TIPO\l"
-	.string "FUEGO y TIERRA posible, solo como\l"
-	.string "preparación, para autoconsiderarse\l"
-	.string "digno de hacer acto de presencia\l"
-	.string "ante GROUDON.$"
+	.string "Our LEADER MAXIE spent years creating\n"
+	.string "the best team of FIRE and GROUND-type\l"
+	.string "POKÉMON possible, solely as a\l"
+	.string "preparation to deem himself worthy of\l"
+	.string "being in GROUDON presence.$"
 
 Magma1_Combate_Admin_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 Magma1_Combate_Admin_Texto_4:
-.string "Creo que aún no me has entendido, ROCKET.\n"
-	.string "En tu región no existen POKÉMON de\l"
-	.string "la talla de GROUDON, esas AVES no\l"
-	.string "tienen ni su jerarquía, ni su fuerza\l"
-	.string "bruta ni su poder global.$"
+	.string "ROCKET, I believe you still haven't\n"
+	.string "understood. In your region, there is\l"
+	.string "no MAJOR LEGENDARY like GROUDON;\l"
+	.string "those LEGENDARY BIRDS don't even\l"
+	.string "compare in hierarchy and raw power.$"
 
 Magma1_Combate_Admin_Texto_4.1:
-	.string "¡Una fuerza de la naturaleza en estado\n"
-	.string "puro, que cuando despierte cambiará\l"
-	.string "todo para siempre!$"
+	.string "It's a force of nature in its purest\n"
+	.string "state that, once awakened, will\l"
+	.string "change the game.$"
 
 Magma1_Combate_Admin_Texto_5:
-.string "Veo que te niegas a entrar en razón.\p"
-	.string "En ese caso{PAUSE 15}…{PAUSE 15}\p"
-	.string "¡Préparate para conocer el poder\n"
-	.string "de los POKÉMON terrestres\p"
-	.string "ADMINISTRADOR ROCKET!$"
+	.string "It seems you're unwilling to reconsider.\n"
+	.string "If that's your choice, you'll have to\l"
+	.string "defeat me first, and by then, GROUDON's\l"
+	.string "awakening will be unavoidable. Prepare\l"
+	.string "to witness the might of ground-type\l"
+	.string "POKÉMON, ROCKET ADMINISTRATOR!$"
 
 Magma1_Combate_Admin_Texto_6:
-	.string "I thought everyone in TEAM ROCKET was\n"
-	.string "weak!$"
+	.string "I thought everyone in\n"
+	.string "TEAM ROCKET was weak!$"
 
 Magma1_Combate_Admin_Texto_7:
-.string "Tú lo has buscado.\n"
-	.string "Será MAGNO quién acabe contigo.$"
+	.string "Well, if that's how you want it, our\n"
+	.string "LEADER will take care of you.$"
 
 Magma1_Combate_Admin_Texto_8:
-.string "¿Oyes eso?\p"
-	.string "¡GROUDON está al caer!\p"
-	.string "No tiene sentido seguir aquí.\p"
-	.string "¡Debo volver a nuestra nave y preparar\n"
-	.string "todo para nuestro regreso a HOENN!$"
+.string "Did you hear that?\p"
+	.string "GROUDON is about to awaken!\p"
+	.string "It makes no sense to stay here.\p"
+	.string "I must return to our nave and prepare\n"
+	.string "everything for our return to HOENN.$"
 
 Magma1_Combate_Admin_Texto_8.1:
-	.string "Si aún te queda algo de cordura,\n"
-	.string "deberías hacer lo mismo, antes de que\l"
-	.string "la ira de GROUDON te explote en la cara.$"
+	.string "If you still have any sanity left,\n"
+	.string "you should do the same, before\l"
+	.string "GROUDON's fury explodes in your face.$"
