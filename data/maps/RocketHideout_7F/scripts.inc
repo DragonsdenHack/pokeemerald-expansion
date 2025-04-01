@@ -2585,35 +2585,32 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
 	.string "from GIOVANNI!!$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1:
-.string "Supongo que, después de lo ocurrido\n"
-	.string "en ROCA OMBLIGO, esperas noticias\l"
-	.string "acerca de LUGIA y HO-OH.$"
+.string "I guess after what happened at NAVEL\n"
+	.string "ROCK, you are expecting some news\l"
+	.string "about LUGIA and HO-OH.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1.1:
-	.string "Lamento decirte que no tenemos\n"
-	.string "nada, ya he enviado a un grupo a\l"
-	.string "investigar RUINAS ALFA, y el lugar,\l"
-	.string "junto con todas sus cámaras, sigue\l"
-	.string "exactamente igual.$"
+	.string "I'm sorry to disappoint you; we have\n"
+	.string "nothing; I already sent a group to\l"
+	.string "investigate the RUINS OF ALPH, and the\l"
+	.string "place, along with all its chambers,\l"
+	.string "remains totally the same.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_2:
-.string "Sea como sea, en JOHTO debe estar\n"
-	.string "la respuesta, LUGIA y HO-OH han\l"
-	.string "vuelto a su región de origen,\l"
-	.string "estoy seguro; tal vez en CIUDAD\l"
-	.string "IRIS, ISLAS REMOLINO{PAUSE 15}…{PAUSE 15}\p"
-	.string "En todos esos lugares se les ha\n"
-	.string "llegado a avistar en el pasado.\l"
-	.string "Puede que ahí encontremos respuestas,\l"
-	.string "que finalmente nos conduzcan hacia el\l"
-	.string "POKÉMON ESENCIA.$"
+.string "Anyway, in JOHTO must be the answer.\p"
+	.string "LUGIA and HO-OH went back to their\n"
+	.string "original region, I'm sure, maybe in\l"
+	.string "ECRUTEAK CITY, WHIRL ISLANDS{PAUSE 15}…{PAUSE 15}\l"
+	.string "Has been possible to see POKÉMON in\l"
+	.string "those places in the past. Maybe we would\l"
+	.string "be able to find some answers that could\l"
+	.string "lead us to discover ESSENCE POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_3:
-.string "Pero no te he destinado a JOHTO\n"
-	.string "únicamente para cazar LEGENDARIOS,\l"
-	.string "te he enviado también para{PAUSE 25}…{PAUSE 25}dejar\l"
-	.string "registrada una parte de su historia,\l"
-	.string "antes de que se pierda.$"
+.string "But I didn't send you to JOHTO just to\n"
+	.string "hunt LEGENDARIES; I also sent you to…\l"
+	.string "register a part of its history before\l"
+	.string "it gets lost.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_4:
 .string "Look, {PLAYER}.$"
@@ -2624,8 +2621,8 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_5:
 	.string "they created for?$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_6:
-.string "This is NIDOKING-X, do you remember it?\n"
-	.string "I used it to test your strength before\l"
+.string "This is NIDOKING-X, do you remember it?\p"
+	.string "I used it to test your strength before\n"
 	.string "you faced OAK, you can take a look at\l"
 	.string "all its STATs if you want.$"
 
@@ -2634,35 +2631,36 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_7:
 	.string "in SPECIAL ATTACK. Both POKÉMON are\l"
 	.string "the result of artificially enhancing\l"
 	.string "the base power of the NIDORAN family,\l"
-	.string "specifically adding 100 BASE STATs to\l"
-	.string "NIDOKING and NIDOQUEEN.$"
+	.string "specifically adding 100 BASE STATs,\l"
+	.string "compared to NIDOKING and NIDOQUEEN.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_8:
 .string "Other examples of POKÉMON created\n"
-	.string "through pure genetic modification\l"
+	.string "through pure genetic engineering\l"
 	.string "include BILL's PORYGON3 or BLAINE's\l"
 	.string "MAGMORTAR-Y.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_9:
 	.string "But no, this room isn't reserved solely\n"
-	.string "for our most successful experiments.\l"
-	.string "We'll also analyze every POKÉMON to\l"
-	.string "whom nature and-above all else-the bond\l"
-	.string "with their TRAINER has been given the\l"
-	.string "gift of the extraordinary.$"
+	.string "for our most successful experiments.\p"
+	.string "We'll also analyze every POKÉMON to\n"
+	.string "whom nature and, above all else, the\l"
+	.string "BOND with their TRAINER has been given\l"
+	.string "the gift of the extraordinary.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_10:
-	.string "The main reason you will journey\n"
+	.string "The main reason you'll journey\n"
 	.string "through JOHTO is this, {PLAYER}.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_11:
-	.string "That's right-RHYPERIOR. You shouldn't\n"
-	.string "confuse this POKÉMON with its\l"
-	.string "pre-evolutions. This POKÉMON was and\l"
-	.string "still is my RHYHORN, the very same who's\l"
-	.string "been with me for decades. It hasn't\l"
-	.string "reached this form through any\l"
-	.string "alteration of science.$"
+	.string "That's right, my RHYPERIOR.\p"
+	.string "You shouldn't confuse this POKÉMON\n"
+	.string "the others genetic creations.\p"
+	.string "No, that's different. This POKÉMON was\n"
+	.string "and still is my RHYHORN, the very same\l"
+	.string "who's been with me for decades; it\l"
+	.string "hasn't reached this form through\l"
+	.string "any alteration of science.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_12:
 	.string "Of course, I was the first surprised to\n"
@@ -2671,9 +2669,9 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_12:
 RocketHideout_7F_Fuerte_Vinculo_Texto_13:
 	.string "Our best scientists have conducted\n"
 	.string "countless tests on it and have decided\l"
-	.string "to christen this phenomenon as -DEEP\l"
-	.string "BOND-, represented with an -&- in\l"
-	.string "battle.$"
+	.string "to christen this phenomenon as…\p"
+	.string "… -DEEP BOND-, represented with\n"
+	.string "an -&- in battle.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_14:
 	.string "The term DEEP BOND has been used in\n"
@@ -2683,31 +2681,31 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_14:
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_15:
 	.string "Only an extremely powerful link between\n"
-	.string "the TRAINER and their POKÉMON, unique\l"
-	.string "and irreplaceable, seems to be able to\l"
-	.string "trigger this phenomenon.$"
+	.string "the TRAINER and the POKÉMON, unique\l"
+	.string "and irreplaceable, seems to be able\l"
+	.string "to trigger this phenomenon.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_16:
-	.string "Recently, we gained knowledge of\n"
+	.string "Recently, we gained knowledge about\n"
 	.string "MEGA-EVOLUTION, which, combined with\l"
 	.string "the mentioned experiments, makes it\l"
-	.string "possible to increase a POKÉMON's base\l"
-	.string "STATs by 100.$"
+	.string "possible to increase a POKÉMON's\l"
+	.string "base STATs by 100.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_17:
 	.string "However, the phenomenon of the DEEP\n"
 	.string "BOND is visibly more drastic than these\l"
 	.string "other processes; it is the most potent\l"
 	.string "method we know to enhance a POKÉMON's\l"
-	.string "performance. The tests revealed that\l"
-	.string "the BASE STATs of my RHYPERIOR\l"
-	.string "increased by 110.$"
+	.string "performance.\p"
+	.string "The tests revealed that my RHYPERIOR's\n"
+	.string "BASE STATs{PAUSE 25}…{PAUSE 25} increased by 125.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_18:
 	.string "Furthermore, the distribution of those\n"
 	.string "STATs appears more efficient than\l"
-	.string "those of MEGA-EVOLUTION and artificial\l"
-	.string "modification.$"
+	.string "the MEGA-EVOLUTION or genetic\l"
+	.string "engineering ones.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_19:
 	.string "But the most interesting thing is that\n"
@@ -2719,97 +2717,83 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_19:
 RocketHideout_7F_Fuerte_Vinculo_Texto_20:
 	.string "The fact that DEEP BOND is capable of\n"
 	.string "changing the HP stat flips our\l"
-	.string "perception and possibilities as a mere\l"
-	.string "pancake.$"
+	.string "perception and possibilities as a\l"
+	.string "mere pancake.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_21:
-.string "¿Entiendes ahora el porqué quiero\n"
-	.string "que viajes por JOHTO?\p"
-	.string "No hay una región con una\n"
-	.string "tradición igual, y el hermetismo\l"
-	.string "que rodea a sus más destacados\l"
-	.string "ENTRENADORES, los cuales siquiera\l"
-	.string "se dignaron a participar en la\l"
-	.string "guerra, me hace sospechar con que\l"
-	.string "el fenómeno del FUERTE VÍNCULO no\l"
-	.string "es algo que haya descubierto yo.\p"
-	.string "En JOHTO siempre se habló de ese\n"
-	.string "-vínculo- con tus POKÉMON, y templos\l"
-	.string "como TORRE BELLSPROUT o TORRE CAMPANA\l"
-	.string "tienen su sentido en honrar a las\l"
-	.string "relaciones, al -vínculo-, entre\l"
-	.string "humanos y POKÉMON.$"
+	.string "You get now why I want you to travel to\n"
+	.string "JOHTO? No region has the tradition, nor\l"
+	.string "the hermeticism of its best TRAINERS,\l"
+	.string "who didn't even participate in the war.\l"
+	.string "This makes me suspect that the DEEP\l"
+	.string "BOND is not something discovered by me.\l"
+	.string "In JOHTO that term of “bond” was used\l"
+	.string "to refer to the most important thing\l"
+	.string "while training a POKÉMON. Even some\l"
+	.string "places, like SPROUT TOWER or BELL\l"
+	.string "TOWER, were built to honor that\l"
+	.string "“bond” between human and POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_22:
-.string "Es por ello, {PLAYER}, que quiero\n"
-	.string "que recorras la región en busca de\l"
-	.string "sus mejores ENTRENADORES. Podrás\l"
-	.string "identificarlos fácilmente, puesto\l"
-	.string "los GIMNASIOS, aunque carecen\l"
-	.string "ahora de validez para la LIGA\l"
-	.string "POKÉMON, siguen estando abiertos\l"
-	.string "en su mayoría.$"
+	.string "That's why, {PLAYER}, I want you to\n"
+	.string "travel the region in search of its best\l"
+	.string "TRAINERs. You'll identify them readily,\l"
+	.string "as the GYMs, though they lack the\l"
+	.string "validity of the POKÉMON LEAGUE now,\l"
+	.string "are still mostly open.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_23:
-.string "Para eso están todos los\n"
-	.string "documentos que ves aquí, para ser\l"
-	.string "rellenados con la información de\l"
-	.string "todo POKÉMON excepcional y único.\l"
-	.string "Si es FUERTE VÍNCULO, mejor.\p"
-	.string "Ten esto, será vital para que\n"
-	.string "podamos llevar a cabo este gran\l"
-	.string "proyecto.$"
+	.string "That's what all these documents are\n"
+	.string "for; to be filled with information on\l"
+	.string "every exceptional and unique POKÉMON.\p"
+	.string "If it's a DEEP BOND, even better.\p"
+	.string "Take this, it'll be vital in\n"
+	.string "carrying out this great project.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24:
-.string "Con este aparato toda información\n"
-	.string "acerca de un POKÉMON quedará\l"
-	.string "registrada, únicamente con poner a\l"
-	.string "dicho POKÉMON a combatir.\p"
-	.string "Los datos que recopile durante el\n"
-	.string "combate serán enviados de inmediato\l"
-	.string "a la base de datos de esta sala.$"
+	.string "This device logs information about\n"
+	.string "any POKÉMON, just by engaging it in\l"
+	.string "battle, and its data will automatically\l"
+	.string "transmit to the database in this room.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_25:
-.string "Supongo que no hace falta que te\n"
-	.string "diga que te prepares bien: si de\l"
-	.string "verdad existen más FUERTE VÍNCULO,\l"
-	.string "no quiero imaginarme el poder de\l"
-	.string "un equipo de 6 manejado por tal\l"
-	.string "ENTRENADOR.$"
+	.string "I suppose you don't need to be told to\n"
+	.string "get prepared. If there are indeed more\l"
+	.string "DEEP BOND individuals out there, I don't\l"
+	.string "want to imagine the power of a team of\l"
+	.string "six handled by such a TRAINER.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_26:
-.string "No tengo nada más que decirte,\n"
-	.string "{PLAYER}. Te preguntarás ahora cómo\l"
-	.string "llegar a JOHTO, muy fácil,\l"
-	.string "técnicamente lo tienes al lado.$"
+	.string "I've said all I need to, {PLAYER}.\p"
+	.string "Now, you must be wondering how to get\n"
+	.string "to JOHTO. Well, it's quite easy,\l"
+	.string "technically, it's right beside you.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_26.1:
-	.string "Solo tienes que usar nuestro\n"
-	.string "sistema de teletransporte, en la\l"
-	.string "sala que se encuentra en el límite\l"
-	.string "este de nuestra BASE PROFUNDA.$"
+	.string "Just use our teleportation system\n"
+	.string "in the eastmost of our DEEP BASE.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_27:
-.string "Eso es todo, tendrás noticias mías\n"
-	.string "más pronto que tarde {PLAYER}, hay\l"
-	.string "importantes negocios y acuerdos\l"
-	.string "que cerrar en JOHTO también{PAUSE 5}…{PAUSE 5}$"
+	.string "That's all. You'll receive news from me\n"
+	.string "sooner rather than later, {PLAYER}.\p"
+	.string "There are important business deals and\n"
+	.string "agreements to be made in JOHTO as well…$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_28:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29:
-.string "Tal vez el hermetismo y frugalidad\n"
-	.string "con la que estos personajes viven\l"
-	.string "sea una de las claves para alcanzar\l"
-	.string "ese estado de -flujo- con tu POKÉMON.$"
+	.string "Perhaps the secrecy and frugality with\n"
+	.string "which these JOHTO MASTER live, is one\l"
+	.string "of the keys to achieving that state of\l"
+	.string "'flow' with a POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29.1:
-	.string "Fue en mi etapa de mayor reclusión,\n"
-	.string "tras todas las mentiras que se\l"
-	.string "vertieron sobre mi persona, cuando\l"
-	.string "RHYPERIOR y yo, sin ya nada que\l"
-	.string "perder, pudimos alcanzar ese punto.$"
+	.string "At least{PAUSE 15}…{PAUSE 15} in my case{PAUSE 15}…{PAUSE 15} it was during\n"
+	.string "my period of greatest seclusion, after\l"
+	.string "all the lies that were spread about me,\l"
+	.string "when RHYPERIOR and me, with nothing left\l"
+	.string "to lose, were able to reach that point.$"
 
 RocketHideout_7F_Fuerte_Vinculo_move_1:
 walk_up

@@ -1049,7 +1049,7 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_XS] = // Todo
     {
-        .name = _("Caramelo-XS"),
+        .name = _("Exp.Candy-XS"),
         .itemId = ITEM_EXP_CANDY_XS,
         .price = 1500,
         .description = sExpCandyXSDesc,
@@ -1060,7 +1060,7 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_S] = // Todo
     {
-        .name = _("Caramelo-S"),
+        .name = _("Exp.Candy-S"),
         .itemId = ITEM_EXP_CANDY_S,
         .price = 3000,
         .description = sExpCandySDesc,
@@ -1071,7 +1071,7 @@ const struct Item gItems[] =
 	
 	[ITEM_EXP_CANDY_XM] = // Todo
     {
-        .name = _("Caramelo-XM"),
+        .name = _("Exp.Candy-XM"),
         .itemId = ITEM_EXP_CANDY_XM,
         .price = 4500,
         .description = sExpCandyXMDesc,
@@ -1082,7 +1082,7 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_M] = // Todo
     {
-        .name = _("Caramelo-M"),
+        .name = _("Exp.Candy-M"),
         .itemId = ITEM_EXP_CANDY_M,
         .price = 6500,
         .description = sExpCandyMDesc,
@@ -1093,7 +1093,7 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_L] = // Todo
     {
-        .name = _("Caramelo-L"),
+        .name = _("Exp.Candy-L"),
         .itemId = ITEM_EXP_CANDY_L,
         .price = 7500,
         .description = sExpCandyLDesc,
@@ -1104,7 +1104,7 @@ const struct Item gItems[] =
 
     [ITEM_EXP_CANDY_XL] = // Todo
     {
-        .name = _("Caramelo-XL"),
+        .name = _("Exp.Candy-XL"),
         .itemId = ITEM_EXP_CANDY_XL,
         .price = 8500,
         .description = sExpCandyXLDesc,
@@ -1115,7 +1115,7 @@ const struct Item gItems[] =
 
     [ITEM_DYNAMAX_CANDY] = // Todo
     {
-        .name = _("Súpercaramelo"),
+        .name = _("Dynamax Candy"),
         .itemId = ITEM_DYNAMAX_CANDY,
         .price = 9500,
         .description = sDynamaxCandyDesc,
@@ -1126,7 +1126,7 @@ const struct Item gItems[] =
 	
 	[ITEM_DYNAMAX_CANDY2] = // Todo
     {
-        .name = _("Hipercaramelo"),
+        .name = _("Dyn.Candy-S"),
         .itemId = ITEM_DYNAMAX_CANDY2,
         .price = 10500,
         .description = sDynamaxCandy2Desc,

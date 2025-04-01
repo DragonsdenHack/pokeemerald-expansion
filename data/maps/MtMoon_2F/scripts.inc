@@ -165,88 +165,75 @@ walk_left
 step_end
 
 MtMoon_2F_AltoRango_Text_1:
-.string "Como podéis ver, la situación\n"
-	.string "se ha complicado.$"
+.string "As you can see, the situation has\n"
+	.string "become serious.$"
 
 MtMoon_2F_AltoRango_Text_2:
-	.string "¿Qué clase de tomadura de\n"
-	.string "pelo es esta, RECLUTA?\l"
-	.string "¡Tu presencia fue requerida hace\l"
-	.string "ya rato y tienes la caradura de\l"
-	.string "presentarte tarde!\l"
-	.string "¿Te crees mejor que tus demás\l"
-	.string "compañeros?\l"
-	.string "¡Espero que tengas una buena\l"
-	.string "justificación para tu falta!$"
+.string "What kind of joke is this, GRUNT? Your\n"
+	.string "presence was required a long time ago\l"
+	.string "and you have the guts to come late!\p"
+	.string "Do you think you're better than your\n"
+	.string "comrades? I hope you have a good\l"
+	.string "excuse for that, GRUNT!$"
 
 MtMoon_2F_AltoRango_Text_3:
-.string "Que hayas ayudado a otros RECLUTAS\n"
-	.string "con su misión no te exime de\l"
-	.string "cumplir con tu prioridad principal,\l"
-	.string "que era esta. Más te vale\l"
-	.string "compensar tu insubordinación con\l"
-	.string "un buen papel en esta misión, por\l"
-	.string "fortuna para ti, aún estamos en\l"
-	.string "plena operación.$"
+	.string "Helping other GRUNTs with their mission\n"
+	.string "doesn't relieve you of your own duties.\l"
+	.string "You'd better compensate for this\l"
+	.string "insubordination with a good\l"
+	.string "performance on this mission; luckily\l"
+	.string "for you, we're still in the middle of it.$"
 
 MtMoon_2F_AltoRango_Text_4:
-.string "Bien, recapitulemos: hasta el\n"
-	.string "momento hemos recolectado\l"
-	.string "únicamente un solo FÓSIL,\l"
-	.string "encontrado por la RECLUTA ANDRA.$"
+	.string "Let's recap. We've snagged one\n"
+	.string "FOSSIL, thanks to GRUNT ANDRA.$"
 
 MtMoon_2F_AltoRango_Text_4.1:
-	.string "Pero, como varios sabéis, un\n"
-	.string "misterioso entrenador portaba\l"
-	.string "un WARTORTLE, uno de los 3\l"
-	.string "INICIALES de la región, y ha\l"
-	.string "derrotado ya a 4 de nosotros,\l"
-	.string "arrebatándonos 2 FÓSILES delante\l"
-	.string "de nuestras narices.$"
-	
+	.string "But, as many of you know, a mysterious\n"
+	.string "TRAINER was carrying a WARTORTLE, one\l"
+	.string "of the 3 KANTO STARTERS, and has\l"
+	.string "already defeated 4 of us, snatching us\l"
+	.string "2 FOSSILS.$"
+
 MtMoon_2F_AltoRango_Text_4.2:
-	.string "Sabemos que aún quedan FÓSILES.\n"
-	.string "La prioridad será encontrarlos\l"
-	.string "y evitar que ese ENTRENADOR\l"
-	.string "vuelva a jugárnosla.$"
+	.string "We know that there are still FOSSILS.\n"
+	.string "The priority will be to find them and\l"
+	.string "prevent that TRAINER from taking them\l"
+	.string "away from us again.$"
 
 MtMoon_2F_AltoRango_Text_4.3:
-	.string "Si lo véis por algún lado,\n"
-	.string "avisadme a mí: yo le someteré.\l"
-	.string "¿Ha quedado claro?$"
+	.string "If you see him, call me: I'll show\n"
+	.string "him the difference between a TEAM\l"
+	.string "ROCKET GRUNT, and a HIGH RANKED one.\p"
+	.string "Is that clear?$"
 
 MtMoon_2F_AltoRango_Text_5:
 .string "ROGER THAT, HIGH-RANK FRANK!!$"
 
 MtMoon_2F_AltoRango_Text_6:
-	.string "Well then. Get moving, you\n"
-	.string "shambling pile of bones.$"
+	.string "Well then. Get moving!\p"
+	.string "You shambling pile of bones!$"
 
 MtMoon_2F_AltoRango_Text_7:
 .string "I'm remembering both your name and your\n"
 	.string "face. You'll learn really badly how we\l"
-	.string "manage this, newbie. ROCKET discipline\l"
-	.string "is non-negotiable.$"
+	.string "manage this, newbie.\p"
+	.string "ROCKET discipline is non-negotiable.$"
 
 MtMoon_2F_AltoRango_Text_8:
-.string "No le tomes tan en serio, solo\n"
-	.string "está frustrado porque en un\l"
-	.string "momento ha pasado de firmar una\l"
-	.string "misión exitosa como RECLUTA DE\l"
-	.string "ALTO RANGO a verse todo\l"
-	.string "comprometido por la actuación de\l"
-	.string "un chaval.$"
+	.string "Hey, don't worry about that.\p"
+	.string "He's just peeved, cause his clean\n"
+	.string "mission record's just been smashed by\l"
+	.string "some ten year old kid.$"
 	
 MtMoon_2F_AltoRango_Text_8.1:
-	.string "Yo no me he cruzado con ese\n"
-	.string "entrenador, ¡si se pone en mi\l"
-	.string "camino no le daré cuartel!\l"
-	.string "Vamos a demostrarles a todos el\l"
-	.string "valor de los RECLUTAS de la\l"
-	.string "promoción de ISLA INTA.$"
+	.string "I haven't seen this WARTORTLE yet.\n"
+	.string "If we meet, I'll have no mercy!\p"
+	.string "Let's show everyone how strong\n"
+	.string "we CHRONO ISLAND GRUNTS are!$"
 
 MtMoon_2F_AltoRango_Text_8.2:
-	.string "Suerte en la búsqueda.$"
+	.string "I wish you luck, {PLAYER}.$"
 
 MtMoon_2F_AltoRango_move1:
 walk_in_place_left

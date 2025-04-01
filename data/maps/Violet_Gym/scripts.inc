@@ -91,7 +91,7 @@ VioletGym_Estatua_Texto_1:
 	.string "VIOLET POKÉMON GYM\n"
 	.string "LEADER: FALKNER\p"
 	.string "WINNING TRAINERS:\n"
-	.string "(It is empty!)$"
+	.string "-It is empty!-$"
 
 
 VioletGym_Estatua_Texto_2:
@@ -139,8 +139,8 @@ VioletGym_Gym_Dude_Texto_2:
 	.string "about it!$"
 
 VioletGym_Gym_Dude_Texto_3:
-	.string "I can't believe it! A challenger! The GYM\n"
-	.string "will have a high-flying battle again\l"
+	.string "I can't believe it! A challenger!\p"
+	.string "We'll have a high-flying battle again\n"
 	.string "after so long! Listen, let me give you\l"
 	.string "some advice. FALKNER knows everything\l"
 	.string "about FLYING TYPEs, even how to defend\l"
@@ -154,7 +154,8 @@ VioletGym_Gym_Dude_Texto_3:
 	.string "speed and offense. I'd say to take a\l"
 	.string "ROCK TYPE wearing an ASSAULT VEST and\l"
 	.string "some ELECTRIC speedsters for the best\l"
-	.string "odds of success. Good luck!$"
+	.string "odds of success.\p"
+	.string "Good luck!$"
 
 Violet_Gym_Conversacion_Pegaso::
 lock
@@ -287,8 +288,8 @@ Violet_Gym_Conversacion_Pegaso_Texto_3:
 	.string "than we ever could've separately.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_4:
-	.string "Now, return to SPROUT TOWER. I have a\n"
-	.string "pending battle.$"
+	.string "Now, return to SPROUT TOWER.\n"
+	.string "I have a pending battle.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_5:
 .string "FALKNER: But, Dad!\n"
@@ -375,7 +376,6 @@ Violet_Gym_Combate_Pegaso_Texto_11.2:
 	.string "FALKNER!!$"
 
 
-
 Violet_Gym_Combate_Pegaso_2::
 lock
 faceplayer
@@ -442,8 +442,8 @@ Violet_Gym_Combate_Pegaso_Texto_9.1:
 	.string "the ZEPHYR BADGE.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.2:
-	.string "Also, I want to give you something more\n"
-	.string "practical: could you take this\l"
+	.string "Also, I want to give you something\n"
+	.string "more practical: could you take this\l"
 	.string "POKÉMON?$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:

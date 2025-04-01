@@ -122,7 +122,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_1.1:
 	.string "have messed up your house.$"
 	
 CeruleanCity_House2_Batalla_Montañero_Text_1.2:
-	.string "Now, we'll just be taking all\l"
+	.string "Now, we'll just be taking all\n"
 	.string "those TMs you were being stingy\l"
 	.string "with when we'd asked nicely.$"
 
@@ -149,19 +149,19 @@ CeruleanCity_House2_Batalla_Montañero_Text_3:
 	.string "You'll regret it!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh{PAUSE 10}…{PAUSE 10} No{PAUSE 10}…{PAUSE 10} Por favor{PAUSE 10}…{PAUSE 10}$"
+.string "Oh{PAUSE 10}…{PAUSE 10} No{PAUSE 10}…{PAUSE 10} Please{PAUSE 10}…{PAUSE 10}$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "That's what happens when you\n"
 	.string "underestimate ROCKETS.\p"
-	.string "You will pay for your arrogance.$"
+	.string "You'll pay for your arrogance.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
 	.string "What's your name? {PLAYER}?\p"
 	.string "Wow! This HIKER had twenty TM DIGs!\n"
 	.string "And he was gonna hog it all! Thanks to\l"
 	.string "you, we got to nab ‘em. Know that we'll\l"
-	.string "put in a good word with PETREL about this.\l"
+	.string "put in a good word with PETREL about you.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6.1:
 	.string "Take this. You deserve it.$"

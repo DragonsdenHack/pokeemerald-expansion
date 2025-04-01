@@ -208,8 +208,8 @@ Route30_Anciano_Togepi_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route30_Anciano_Togepi_Texto_3:
-	.string "Hmm? Nothing's happening here now? Take\n"
-	.string "a closer look, youngster!$"
+	.string "Hmm? Nothing's happening here now?\n"
+	.string "Take a closer look, youngster!$"
 
 Route30_Anciano_Togepi_Texto_4:
 	.string "Witness the gradual growth of new\n"

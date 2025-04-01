@@ -5011,17 +5011,15 @@ LostCaveB1FPath3_Text_MediumPostBattle:
 
 LostCaveB1FLastRoom_Text_RicaIntro:
 	.string "CONSUL: You again?!\n"
-.string "Look what you've done!!\l"
-.string "confined in this CAVE under\l"
+.string "Look what you've done!!\p"
+.string "Confined in this cave, under\n"
 .string "strict surveillance, they have\l"
 .string "taken away my beloved MAREEP, my\l"
 .string "WOOPER and left only my\l"
-.string "MEOWTHS, you're going to pay for this!$"	
-
+.string "MEOWTHS, you're going to pay!$"	
 
 LostCaveB1FLastRoom_Text_RicaDefeated:
 	.string "I've lost again!$"
-
 
 LostCaveB1FLastRoom_Text_RicaPostBattle:
 	.string "CONSUL: Someday someone will come and\n"
@@ -16159,7 +16157,6 @@ DottedHole_B4F_Aqua_1PostBattle:
 	.string "I hope for your sake that you've just\n"
 	.string "gotten lost; don't even think about\l"
 	.string "going down the hole right behind you.$"
-
 
 DottedHole_B4F_Text_Aqua_2Intro:
 	.string "The Lord of the Seas was unjustly\n"

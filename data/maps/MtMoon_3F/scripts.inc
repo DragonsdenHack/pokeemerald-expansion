@@ -140,7 +140,7 @@ MtMoon3F_Text_11_1:
 MtMoon3F_Text_11_2:
 	.string "Mmm… Maybe you're not as useless as I'd\n"
 	.string "thought. With this one, that's three\l"
-	.string "FOSSILS-enough to wrap up the mission.$"
+	.string "FOSSILS, enough to wrap up the mission.$"
 
 MtMoon3F_Text_11_3:
 .string "Calling up all MT. MOON mission GRUNTs!\p"
@@ -313,10 +313,10 @@ MtMoon_3F_Azul_Text_2:
 
 MtMoon_3F_Azul_Text_3:
 	.string "Fortunately, I've already got a DOME\n"
-	.string "FOSSIL-don't need this one too, see. Take\l"
-	.string "it if you want. But who wants an\l"
-	.string "OMASTAR or KABUTOPS anyway when\l"
-	.string "you've got a BLASTOISE?$"
+	.string "FOSSIL, don't need this one too, see.\p"
+	.string "Take it if you want; after all, who\n"
+	.string "wants an OMASTAR or KABUTOPS, when I\l"
+	.string "can have a BLASTOISE?$"
 
 MtMoon_3F_Azul_Text_4:
 	.string "What? You telling me I'm getting big\n"
@@ -324,11 +324,11 @@ MtMoon_3F_Azul_Text_4:
 	.string "competition go scot-free?$"
 
 MtMoon_3F_Azul_Text_5:
-	.string "I don't care how much you're making off\n"
-	.string "of those FOSSILS, ROCKET. All I care\l"
-	.string "about is just the priceless advantage\l"
-	.string "of building a strong and well-rounded\l"
-	.string "team.$"
+	.string "I don't care about how much money are\n"
+	.string "you making for those FOSSILS. All I\l"
+	.string "care about is just the priceless\l"
+	.string "advantage of building a strong and\l"
+	.string "balanced team.$"
 
 MtMoon_3F_Azul_move1:
 walk_in_place_right
@@ -409,7 +409,7 @@ MtMoon_3F_Fosil_text_1:
 .string "-YOU GOT A DOME FOSSIL!!-$"
 
 MtMoon_3F_Fosil_text_2:
-	.string "-The DOME FOSSIL is mine.\p"
+	.string "-The DOME FOSSIL is mine.\n"
 	.string "I should inform the HIGH-RANK.-$"
 
 
@@ -852,7 +852,7 @@ MtMoon_3F_Pelea_Frank_texto6:
 	.string "fled with an ESCAPE ROPE immediately\l"
 	.string "after receiving my message, instead of\l"
 	.string "sticking around to get slapped around\l"
-	.string "like a fool-especially after being\l"
+	.string "like a fool, especially after being\l"
 	.string "warned of his outstanding skill. Not to\l"
 	.string "mention how you ignored that scientist\l"
 	.string "who ultimately tricked you. That shady\l"
@@ -874,13 +874,13 @@ MtMoon_3F_Pelea_Frank_texto7:
 	.string "TRAINER all together?$"
 
 MtMoon_3F_Pelea_Frank_texto8:
-	.string "FRANK: This is outrageous. I don't need\n"
+	.string "This is outrageous, I don't need\n"
 	.string "some backwoods newb to talk to me\l"
 	.string "about the ROCKET honor code. You'll\l"
-	.string "regret running your trap-people like you\l"
-	.string "need to be taught some hard lessons.\l"
-	.string "I'm not responsible for what becomes of\l"
-	.string "your TEAM next!$"
+	.string "regret mentioning it. People like\l"
+	.string "you need to be taught some hard lessons.\p"
+	.string "After this, I won't care about\n"
+	.string "your POKÉMON TEAM shake!$"
 
 MtMoon_3F_Pelea_Frank_texto9:
 .string "Me? A HIGH-RANK?\n"
@@ -944,9 +944,9 @@ MtMoon_3F_Pelea_Frank_texto19.1:
 	.string "… …$"
 
 MtMoon_3F_Pelea_Frank_texto19.2:
-	.string "Tranquilo, {PLAYER}. No creo que te\n"
-	.string "expulsen, sabes combatir; todos lo\l"
-	.string "hemos visto.$"
+	.string "Relax, {PLAYER}. I don't think you'll\n"
+	.string "get expelled, you know how to fight;\l"
+	.string "we've all seen it.$"
 
 MtMoon_3F_Pelea_Frank_texto20:
 	.string "Next we meet, I hope your team's\n"

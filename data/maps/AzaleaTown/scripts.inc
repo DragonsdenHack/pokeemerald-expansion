@@ -114,12 +114,13 @@ release
 end
 
 AzaleaTown_Text_9_Hoenn:
-	.string "Antiguamente, aquí venían los grandes\n"
-	.string "maestros de CIUDAD ENDRINO, en busca\l"
-	.string "de CARBÓN para calentar su fría\l"
-	.string "guarida. Ver a sus dragones era todo un\l"
-	.string "espectáculo, por desgracia, esa\l"
-	.string "tradición se perdió hace tiempo.$"
+	.string "In the old days, the great masters of\n"
+	.string "BLACKTHORN CITY came here, in search of\l"
+	.string "coal to warm their cold lair. Watching\l"
+	.string "their dragons was quite a spectacle,\l"
+	.string "but unfortunately, that tradition was\l"
+	.string "lost long ago.$"
+
 
 
 
@@ -627,29 +628,27 @@ face_left
 step_end
 
 AzaleaTown_Encuentro_Mirto_Texto_1:
-.string "????: No está aquí, debe\n"
-	.string "encontrarse en su casa de\l"
-	.string "PUEBLO AZALEA.$"
+.string "????: He's not here.\p"
+	.string "Must be at his home,\n"
+	.string "at AZALEA.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_2:
-.string "????: Tú tampoco tienes pinta de\n"
-	.string "ser de por aquí, ¿verdad?$"
+.string "You're not from JOHTO, too.\p"
+	.string "Isn't it?$"
 
 AzaleaTown_Encuentro_Mirto_Texto_3:
-.string "????: Pareces un buen ENTRENADOR.\p"
-	.string "Estaría encantado de conversar\n"
-	.string "contigo, pero tendrás que\l"
-	.string "disculparme.$"
+.string "You seem peculiar.\p"
+	.string "I'd be happy to chat with you, but\n"
+	.string "you'll have to excuse me.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_4:
-.string "????: He viajado desde muy lejos,\n"
-	.string "por los avanzados conocimientos\l"
-	.string "en medicina que esta región ha\l"
-	.string "tenido desde siempre.$"
+	.string "I have travelled from far away, because\n"
+	.string "of the advanced medical knowledge that\l"
+	.string "this region has always had.$"
 
 AzaleaTown_Encuentro_Mirto_Texto_5:
-.string "Es lo único que puede salvar a mi\n"
-	.string "POKÉMON, mi última esperanza.$"
+.string "That's my only chance to save\n"
+	.string "my POKÉMON, my last hope.$"
 
 AzaleaTown_Encuentro_Mirto_Move_1:
 emote_exclamation_mark

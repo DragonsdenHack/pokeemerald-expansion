@@ -188,7 +188,7 @@ CeladonCity_Shop5F_Text_Oak_10:
 	.string "encouraging, especially…$"
 
 CeladonCity_Shop5F_Text_Oak_11:
-	.string "Hello? MR.LANCE. Okay. Right away.$"
+	.string "Hello?{PAUSE 25}…{PAUSE 25} MR.LANCE{PAUSE 25}…{PAUSE 25} Okay{PAUSE 15}…{PAUSE 15} Right away.$"
 
 CeladonCity_Shop5F_Text_Oak_12:
 	.string "They are calling me from POKÉMON LEAGUE\n"

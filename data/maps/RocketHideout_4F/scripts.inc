@@ -558,7 +558,7 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_2:
 	.string "So, what do you think of the new digs?\p"
 	.string "PETREL might have been exaggerating\n"
 	.string "when he said the CELADON HQ was\l"
-	.string "nothing like the one on Route 5. Sure,\l"
+	.string "nothing like the one on ROUTE 5. Sure,\l"
 	.string "it's bigger, but it looks pretty similar,\l"
 	.string "don't you think?$"
 

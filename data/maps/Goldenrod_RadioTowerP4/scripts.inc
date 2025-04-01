@@ -303,30 +303,31 @@ Goldenrod_RadioTower_P4_Reunion_Texto_5:
 .string "DIRECTOR: Is that him?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_6:
-.string "ATLAS: Así es, {PLAYER} fue el que\n"
-	.string "derrotó a LANCE en un combate\l"
-	.string "POKÉMON, obligándole así a ceder\l"
-	.string "sus poderes.$"
+	.string "ARCHER: That's right. {PLAYER} was\n"
+	.string "the one who defeated LANCE in a\l"
+	.string "POKÉMON battle, compelling him to\l"
+	.string "relinquish his powers.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-.string "PRESIDENTE: Notable hazaña, chico,\n"
-	.string "más para tu edad. Pero no sé si\l"
-	.string "sabéis que en JOHTO hay varios\l"
-	.string "ENTRENADORES que dejarían a LANCE\l"
-	.string "en pañales.$"
+	.string "DIRECTOR: Quite a impressive feat,\p"
+	.string "Especially considering your age.\p"
+	.string "But are you aware that in JOHTO, there\n"
+	.string "are some TRAINERs who would put\l"
+	.string "LANCE to shame?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7.1:
-	.string "La diferencia con ese DOMADRAGÓN es\n"
-	.string "que no van pregonando a los 4 vientos\l"
-	.string "su poder; están más ocupados en su\l"
-	.string "búsqueda de la virtud, que en los\l"
-	.string "meros asuntos mundanos.$"
+	.string "The difference between them and that\n"
+	.string "petty DRAGON TAMER is that they aren't\n"
+	.string "showing off their power every day of\l"
+	.string "every week. They are focused on\l"
+	.string "achieving greatness, in pursuing\l"
+	.string "virtue, rather than those trivial\l"
+	.string "matters.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_8:
-.string "ATLAS: Lo sabemos, PRESIDENTE.\n"
-	.string "{PLAYER} de hecho está aquí en\l"
-	.string "buena parte para aprender de esos\l"
-	.string "ENTRENADORES.$"
+	.string "ARCHER: We are aware about that,\n"
+	.string "DIRECTOR. {PLAYER} is actually here\l"
+	.string "primarily to learn from those TRAINERs.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_9:
 	.string "DIRECTOR: Then he had better hurry, as\n"
@@ -338,7 +339,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_9:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_10:
 	.string "ARCHER: We know that, and we wish to\n"
-	.string "document the heights they reached\l"
+	.string "compile the heights they reached\l"
 	.string "before it's too late.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_11:
@@ -346,8 +347,8 @@ Goldenrod_RadioTower_P4_Reunion_Texto_11:
 	.string "for academic interest, eh? Don't make\l"
 	.string "me laugh, ARCHER. In exchange for your\l"
 	.string "efforts, you'll get invaluable\l"
-	.string "information about the limits a POKÉMON\l"
-	.string "can reach.$"
+	.string "information about the limits a\l"
+	.string "POKÉMON can reach.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_12:
 	.string "ARCHER: The fair price for such work,\n"
@@ -369,7 +370,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_14:
 	.string "actions we'll take.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_15:
-	.string "DIRECTOR: B-but right now, your\n"
+	.string "DIRECTOR: B{PAUSE 15}-{PAUSE 15}but right now, your\n"
 	.string "organization is off the map in the eyes\l"
 	.string "of the population.$"
 
@@ -394,20 +395,20 @@ Goldenrod_RadioTower_P4_Reunion_Texto_18:
 	.string "works in the long run.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_19:
-.string "DIRECTOR: {PAUSE 15}…{PAUSE 15} $"
+.string "{PAUSE 15}…{PAUSE 15} $"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
-	.string "DIRECTOR: You'll have that meeting. I\n"
-	.string "will be in contact with GIOVANNI for the\l"
-	.string "details of this. Thank you both for\l"
-	.string "coming.$"
+	.string "DIRECTOR: You'll have that meeting.\p"
+	.string "I'll be in contact with GIOVANNI for\p"
+	.string "the details of this.\p"
+	.string "Thank you both for coming.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_21:
 	.string "ARCHER: Delighted to be back in my\n"
 	.string "region, DIRECTOR.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_22:
-	.string "ARCHER: Excellent security detail here\n"
+	.string "By the way… excellent security here,\n"
 	.string "in the RADIO TOWER. I don't suppose\l"
 	.string "you've heard, but SILPH had a similar\l"
 	.string "one, just to be breached by some\l"
@@ -701,7 +702,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7:
 	.string "about to begin.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
-.string "ANDRA: B-but…\n"
+.string "ANDRA: B-but…\p"
 	.string "There's no one here.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
@@ -725,9 +726,9 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
 	.string "ANDRA: Let's go, {PLAYER}! The most\n"
 	.string "influential and powerful people from\l"
-	.string "both regions will be here. TEAM ROCKET\l"
-	.string "is going to change the course of\l"
-	.string "history.$"
+	.string "both regions will be here.\p"
+	.string "TEAM ROCKET is going to change the\n"
+	.string "course of history!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1:
 face_down

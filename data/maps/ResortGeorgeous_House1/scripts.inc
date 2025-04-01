@@ -165,7 +165,7 @@ ResortGeorgeous_House1_Text_Consul_3:
 	.string "centers.$"
 
 ResortGeorgeous_House1_Text_Consul_3.1:
-	.string "Now, excuse me, I need to talk\l"
+	.string "Now, excuse me, I need to talk\n"
 	.string "with my KANTO manager. Ho, ho, ho!$"
 
 ResortGeorgeous_House1_Text_Consul_4:
@@ -198,7 +198,7 @@ ResortGeorgeous_House1_Text_Consul_8:
     .string "you.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
-.string "CÓNSUL: Oh{PAUSE 15}…{PAUSE 15} no please{PAUSE 15}…{PAUSE 15}$"
+.string "CONSUL: Oh{PAUSE 15}…{PAUSE 15} no please{PAUSE 15}…{PAUSE 15}$"
 
 ResortGeorgeous_House1_Text_Consul_10:
 	.string "As for you guys, you can be proud. This\n"

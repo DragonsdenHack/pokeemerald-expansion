@@ -74,7 +74,7 @@ end
 RocketHideout_3F_Maquina_Teletransporte_YesNo:
 .string "The machine is ready.\n"
 	.string "Want to TELEPORT to\l"
-	.string "the base on Route 5?$"
+	.string "the base on ROUTE 5?$"
 
 RocketHideout_3F_Maquina_Teletransporte_No::
 release

@@ -136,9 +136,9 @@ msgbox OlivineCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_104:
-	.string "FARO DE OLIVO\n"
-	.string "También conocido como el FARO\l"
-	.string "BRILLANTE.$"
+	.string "OLIVINE LIGHTHOUSE\n"
+	.string "Also known as the\l"
+	.string "GLITTER LIGHTHOUSE.$"
 
 OlivineCity_Norman_Bloqueo::
 compare VAR_UNUSED_0x40F7, 200

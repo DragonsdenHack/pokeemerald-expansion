@@ -52,6 +52,7 @@ end
 VioletSprotTowerP1Documento_Text_100:
 	.string "It is the solemn statue of a\n"
 	.string "BELLSPROUT. Engraved upon it in golden\l"
-	.string "letters is: -We all start from different\l"
-	.string "points… but we can all reach the same\l"
-	.string "sky-.$"
+	.string "letters is:\p"
+	.string "-We all start from different points…\n"
+	.string "but we can all reach the same sky-.$"
+

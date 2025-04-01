@@ -112,69 +112,61 @@ release
 end
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
-.string "Este lugar no es para mendigos\n"
-	.string "como vosotros que apenas podéis\l"
-	.string "pagar por vuestra existencia, si no\l"
-	.string "tienes el millón de POKES que cuesta\l"
-	.string "la BICICLETA, no pintas nada aquí.$"
+	.string "This isn't the place for beggars like\n"
+	.string "you who can hardly afford their own\l"
+	.string "existence. If you aren't stacked with\l"
+	.string "the ¥1,000,000 my BICYCLEs cost,\l"
+	.string "don't bother me!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
-.string "Voy a tener una charla con ese\n"
-	.string "PRESIDENTE del CLUB DE FANS, eres\l"
-	.string "el tercero que me viene mendigando\l"
-	.string "una BICI gratis gracias a ese\l"
-	.string "BONO, no importa que lo haya\l"
-	.string "pagado él antes.$"
+	.string "I'll be having a chat with that FAN CLUB\n"
+	.string "CHAIRMAN later. You're the third punk in\l"
+	.string "a row to waltz on in for a free BICYCLE\l"
+	.string "with that BIKE VOUCHER of his. I don't\l"
+	.string "give a flying RATTATA about him paying\l"
+	.string "the cost for it!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.1:
-	.string "¿Sabes cómo se resiente la\n"
-	.string "reputación de mi negocio al\l"
-	.string "enterarse la gente de que un par\l"
-	.string "de críos vulgares y un ROCKET van\l"
-	.string "con BICIS de mi marca?$"
+	.string "You see how my business's rep\n"
+	.string "tanks when people catch wind\l"
+	.string "about two brats and a ROCKET\l"
+	.string "walking out with my trademark BIKEs?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.2:
-	.string "¡Eso condiciona la decisión final\n"
-	.string "de los que de verdad me compran,\l"
-	.string "solo comprarán la BICI si saben\l"
-	.string "que es un producto que muy pocos\l"
-	.string "tienen!$"
+	.string "That plays into the final decision of my\n"
+	.string "buyers. They'll buy me out if it's a\l"
+	.string "product of prestige and scarcity!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}\n"
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
-.string "It can't be! A BIKE VOUCHER! Where did\n"
-	.string "you get it from?$"
+.string "It can't be! A BIKE VOUCHER!\p"
+	.string "Where did you get it from?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
-.string "¿El PRESIDENTE del\n"
-	.string "CLUB de FANS de CARMÍN?\l"
-	.string "¿Y quién es él para determinar que\l"
-	.string "eso tiene validez en mi tienda?\l"
-	.string "Yo dirijo aquí un negocio, no un\l"
-	.string "asilo, ¿comprendes?$"
+	.string "That FAN CLUB CHAIRMAN in VERMILION?\p"
+	.string "And who is he to decide if that's valid\n"
+	.string "in my shop? I lead a serious business,\l"
+	.string "not some dingey asylum. Did you get it?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.1:
-	.string "No puedo dejar que vengan cada dos\n"
-	.string "por tres con un BONO de regalo, eso\l"
-	.string "supone una pérdida de 1.000.000¥.\l"
-	.string "Alguien como tú no ganará tal cifra\l"
-	.string "en su vida.$"
+	.string "I can't just let people barge in with\n"
+	.string "a gift VOUCHER. That ¥1,000,000 is\l"
+	.string "for something: a street trash like\l"
+	.string "you mustn't ever dream of this BIKE.$"
 	
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.2:
-	.string "Si esta tienda tiene éxito es por\n"
-	.string "ricachones que no conocen el valor\l"
-	.string "real de las cosas, y están dispuestos\l"
-	.string "a pagar cualquier precio por cualquier\l"
-	.string "producto, no por ladrones que viven\l"
-	.string "al día como tú.$"
+	.string "If this shop sees any success, it's\n"
+	.string "'cause of rich dummies who'd pay any\l"
+	.string "price in their blissful ignorance, not\l"
+	.string "for thieves like you.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:
-	.string "Oh, now you've got me riled up! You'll see\n"
-	.string "how we handle thieves like you playing\l"
-	.string "coy.$"
+	.string "Oh, now you've got me riled up!\p"
+	.string "You'll see how we handle thieves\n"
+	.string "like you playing coy.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_7:
 	.string "No! The POKÉMON I'd trained with my\n"

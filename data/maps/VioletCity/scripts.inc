@@ -20,7 +20,7 @@ end
 VioletCity_Text_2:
 	.string "My ancestors built this temple 1000\n"
 	.string "years ago to honor the resilience of\l"
-	.string "BELLSPROUT.. The current ELDER of the\l"
+	.string "BELLSPROUT… The current ELDER of the\l"
 	.string "SPROUT TOWER still possesses the last\l"
 	.string "specimen of that sacred BELLSPROUT\l"
 	.string "lineage. Yes, his BELLSPROUT is the\l"

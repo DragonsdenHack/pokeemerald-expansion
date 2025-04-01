@@ -616,7 +616,7 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-warpsilent MAP_SNOWPOINT_CITY, 29, 41
+changeavatar 4
 release
 end
 

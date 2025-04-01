@@ -120,8 +120,8 @@ RocketHideout6F_Text_6:
 	.string "left for personal business. What a\l"
 	.string "waste to lose four of them just like\l"
 	.string "that! But that's why TEAM ROCKET's\l"
-	.string "where it is-procrastination doesn't\l"
-	.string "exist here! What're you doing, GRUNT?!\l"
+	.string "where it is, procrastination doesn't\l"
+	.string "exist here! What're you doing, GRUNT?!\p"
 	.string "Go do your job!$"
 
 
@@ -135,7 +135,7 @@ end
 
 RocketHideout6F_Text_7:
 	.string "I don't see anything wrong with what we\n"
-	.string "do here. We all win-just look at those\l"
+	.string "do here. We all win, just look at those\l"
 	.string "POKÉMON. They're happy in the company\l"
 	.string "of their species. They get stronger,\l"
 	.string "the TRAINERs are happy, and we make\l"
@@ -264,7 +264,7 @@ release
 end
 
 RocketHideout6F_Text_24:
-	.string "This BASE earns more than a million POKÉ\n"
+	.string "This BASE earns more than ¥1,000,000\n"
 	.string "per week as payment for tending to\l"
 	.string "POMÉMON. What no one out there knows is\l"
 	.string "that it's a mere cover for our real\l"
@@ -288,7 +288,7 @@ RocketHideout6F_Text_25:
 	.string "TRAINERs treat their treat their\l"
 	.string "POKÉMON well, even us ROCKETs. Us\l"
 	.string "whipping them? That's just an overblown\l"
-	.string "cliché. Though it's true that some\l"
+	.string "cliche. Though it's true that some\l"
 	.string "among our numbers are that.$"
 
 
@@ -337,7 +337,7 @@ end
 
 RocketHideout6FDocumento_Text_102:
 .string "VALUE IN GAME CORNER COINS\n"
-	.string "OF THE FOLLOWING GOODS:p"
+	.string "OF THE FOLLOWING GOODS:\p"
 	.string "- ABRA(LV:9): 180\n"
 	.string "- CLEFAIRY(LV:8): 500\l"
 	.string "- NUGGET: 500\l"
@@ -463,7 +463,7 @@ step_end
 
 RocketHideout_6F_Petrel_Text_Mision_1:
 	.string "????: Welcome to our DAYCARE's BASE on\n"
-	.string "Route 5, new GRUNTs. You're the latest\l"
+	.string "ROUTE 5, new GRUNTs. You're the latest\l"
 	.string "to join our work in KANTO. I'm PETREL,\l"
 	.string "ROCKET ADMINISTRATOR and chief in\l"
 	.string "command of this BASE.$"
@@ -488,7 +488,7 @@ RocketHideout_6F_Petrel_Text_Mision_3:
 
 RocketHideout_6F_Petrel_Text_Mision_3.1:
     .string "As the Rookie GRUNTs you are,\n"
-	.string "you'll take on your II MISSION,l"
+	.string "you'll take on your II MISSION,\l"
 	.string "with other GRUNTs stationed at\l"
 	.string "MT. MOON.$"
 
@@ -539,13 +539,13 @@ RocketHideout_6F_Petrel_Text_Mision_8:
 
 RocketHideout_6F_Petrel_Text_Mision_9:
 	.string "PETREL: All right. Then get going. Your\n"
-	.string "arrival here and this mission have\p"
-	.string "coincided, and now, you're out of time.\n"
-	.string "We'll have enough time later to explain\l"
+	.string "arrival here and this mission have\l"
+	.string "coincided, and now, you're out of time.\p"
+	.string "We'll have enough time later to explain\n"
 	.string "how things works here.$"
 
 RocketHideout_6F_Petrel_Text_Mision_9.1:
-	.string "Now, grab those FOSSILs and crush all\l"
+	.string "Now, grab those FOSSILs and crush all\n"
 	.string "who oppose TEAM ROCKET!$"
 
 RocketHideout_6F_Petrel_Text_Mision_10:
@@ -733,7 +733,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_1:
 	.string "PETREL: GRUNT {PLAYER}, we've gotten\n"
 	.string "word on your performance at MT. MOON.\p"
 	.string "HIGH-RANK GRUNT FRANK's already told me\n"
-	.string "his side of the story-how we would've\l"
+	.string "his side of the story; how we would've\l"
 	.string "gotten two more FOSSILS in our wallets.\p"
 	.string "Do you have any idea how much money\n"
 	.string "that is, {PLAYER}? The projects and\l"
@@ -763,9 +763,9 @@ RocketHideout_6F_Petrel_Text_Mision_2_5:
 
 RocketHideout_6F_Petrel_Text_Mision_2_6:
 	.string "I've got a mission for you. Let's see\n"
-	.string "just how far your bravery as a TRAINER\l"
-	.string "and that -ROCKET code of honor- of yours\l"
-	.string "takes you.$"
+	.string "how far your bravery as a TRAINER and\l"
+	.string "that -ROCKET code of honor- it takes\l"
+	.string "you.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_7:
 	.string "But before that, you have to take\n"
@@ -775,7 +775,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_7:
 	.string "¥600,000 on the black market.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_7.1:
-	.string "So{PAUSE 15}…{PAUSE 15} you'll be forking over each\l"
+	.string "So{PAUSE 15}…{PAUSE 15} you'll be forking over each\n"
 	.string "- ¥ - you've got right now, right this,\l"
 	.string "you'll give TEAM ROCKET part of the\l"
 	.string "potential profits. Agreed?$"
@@ -796,7 +796,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 	.string "the lifeline between KANTO and CHRONO\l"
 	.string "ISLAND. However, KANTO's pigs've been\l"
 	.string "snooping, and bribing sailors to import\l"
-	.string "goods and troops from CHRINO ISLAND's\l"
+	.string "goods and troops from CHRONO ISLAND's\l"
 	.string "just gotten both impractical and pricey.$"
 
 
@@ -1341,7 +1341,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_13:
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_14:
 	.string "As for you, I apologize again.\n"
 	.string "Especially you, {PLAYER}. Many\l"
-	.string "thought CHRINO ISLAND offered only\l"
+	.string "thought CHRONO ISLAND offered only\l"
 	.string "weaklings and incompetent ROCKETs. But\l"
 	.string "you've just proven that isn't the case.$"
 

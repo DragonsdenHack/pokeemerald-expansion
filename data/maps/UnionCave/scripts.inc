@@ -228,10 +228,10 @@ UnionCave_Combate_Elm_Texto_14:
 	.string "Oh, and by the way, there's an upcoming\n"
 	.string "event, a significant one here in JOHTO.\l"
 	.string "GIOVANNI will probably inform you about\l"
-	.string "it soon. Given what I've witnessed in\l"
+	.string "it, soon. Given what I've witnessed in\l"
 	.string "this cave, I comprehend why he\l"
-	.string "consistently involves you in the most\l"
-	.string "crucial affairs.$"
+	.string "consistently involves you in the\l"
+	.string "most crucial affairs.$"
 
 UnionCave_Combate_Elm_Move_1:
 walk_in_place_down

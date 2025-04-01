@@ -494,44 +494,44 @@ static const u8 sRareCandyDesc[] = _(
     "one.");
 
 static const u8 sExpCandyXSDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.1 y Nv.15.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.1 and LV.15.");
 
 static const u8 sExpCandySDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.15 y Nv.30.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.15 and LV.30.");
 
 static const u8 sExpCandyXMDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.30 y Nv.45.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.30 and LV.45.");
 
 static const u8 sExpCandyMDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.45 y Nv.65.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.45 and LV.65.");
 
 static const u8 sExpCandyLDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.65 y Nv.75.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.65 and LV.75.");
 
 static const u8 sExpCandyXLDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.75 y Nv.85.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.75 and LV.85.");
 
 static const u8 sDynamaxCandyDesc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.85 y Nv.95.");
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.85 and LV.95.");
 	
 static const u8 sDynamaxCandy2Desc[] = _( // Todo
-    "Aumenta 1 nivel\n"
-	"al POKéMON entre\n"
-	"el Nv.95 y Nv.105.");	
+    "Raises the level\n"
+	"of a Pkmn between\n"
+	"LV.95 and LV.105.");
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _(
@@ -4420,7 +4420,7 @@ static const u8 sKeyToRoom6Desc[] = _(
 
 static const u8 sMeteoriteDesc[] = _(
     "A meteorite found\n"
-    "at Meteor Falls.");
+    "at Sevii Islands.");
 
 static const u8 sMagmaEmblemDesc[] = _(
     "A medal-like item in\n"

@@ -146,7 +146,7 @@ release
 end
 
 Route4_Evento_Karatekas_Text_1:
-	.string "What do you want, ROCKET? … MEGA PUNCH\n"
+	.string "What do you want, ROCKET? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} MEGA PUNCH\n"
 	.string "and MEGA KICK? Of course, we're experts\l"
 	.string "on those those moves. Nothing like a\l"
 	.string "good kick to KO the opponent, don't you\l"
@@ -189,7 +189,7 @@ Route4_Evento_Karatekas_Text_9:
 	.string "METAPOD with that!$"
 
 Route4_Evento_Karatekas_Text_10:
-.string "{PAUSE 15}…{PAUSE 15}\n"
+.string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route4_Evento_Karatekas_Text_11:
@@ -253,9 +253,9 @@ end
 
 Route4_Frank_Text1:
 	.string "FRANK: GRUNT {PLAYER}? Where the\n"
-	.string "heck are you?! Get back here right now!\l"
-	.string "You me a good explanation for what just\l"
-	.string "happened!$"
+	.string "heck are you?! Get back here right now!\p"
+	.string "You'll have to give me a good\n"
+	.string "explanation for what just happened!$"
 
 Route4_Frank_move1:
 emote_exclamation_mark

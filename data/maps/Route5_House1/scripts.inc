@@ -313,91 +313,76 @@ Route5_PokemonDayCare_Text_DontHaveEnoughMoney::
 	.string "You don't have enough money.$"
 
 Route5_House1_Criador_1:
-    .string "CRIAPOKÉMON: Bien{PAUSE 25}…{PAUSE 25} ya estáis aquí,\n"
-	.string "sabed que la información que voy a\l"
-	.string "revelaros a partir de ahora es\l"
-	.string "totalmente confidencial, la sola\l"
-	.string "insinuación de dicha información\l"
-	.string "fuera del ámbito ROCKET es\l"
-	.string "castigada con la pena máxima aquí.$"
+	.string "POKÉMON BREEDER: Right. Here you are.\n"
+	.string "The information I'm passing on now is\l"
+	.string "highly confidential. Even a peep would\l"
+	.string "end in maximum punishment by law.$"
 
 Route5_House1_Criador_1.1:
-	.string "Ya sois ROCKET, por lo que\n"
-	.string "presupongo que estáis dispuestos\l"
-	.string "a aceptar estas condiciones.$"
+	.string "As ROCKET GRUNTs, you must already\n"
+	.string "be ready to face the risks.$"
 
 Route5_House1_Criador_2:
     .string "ANDRA: Yes!\n"
 	.string "Go ahead!$"
 
 Route5_House1_Criador_3:
-    .string "(El CRIAPOKÉMON CERRÓ\n"
-	.string "CON CANDADO LA PUERTA).$"
+    .string "-THE POKÉMON BREEDER BLOCKED\n"
+	.string "THE DOOR WITH A LOCK-$"
 
 Route5_House1_Criador_4:
-    .string "CRIAPOKÉMON: Bien, como\n"
-	.string "sospecharéis, esta no es una\l"
-	.string "guardería normal, se trata de una\l"
-	.string "BASE ROCKET encubierta, uno de\l"
-	.string "nuestros tantos negocios en la\l"
-	.string "sombra.$"
+	.string "POKÉMON BREEDER: Well. You must surely\n"
+	.string "know by now, but this isn't your average\l"
+	.string "daycare. This is a ROCKET BASE run\l"
+	.string "through one of many shell corporations.$"
 
 Route5_House1_Criador_4.1:
-	.string "Básicamente sí, hacemos lo que\n"
-	.string "prometemos, cuidar de los queridos\l"
-	.string "POKÉMON de los entrenadores, no\l"
-	.string "obstante, el contrato no habla de\l"
-	.string "las condiciones ni de la comisión\l"
-	.string "extra que cobramos por ello, esto\l"
-	.string "es, el negocio aquí proviene de\l"
-	.string "emparejar aquellos POKÉMON cedidos\l"
-	.string "que son de la misma especie para\l"
-	.string "crear HUEVOS POKÉMON, es decir,\l"
-	.string "nuestros beneficios.$"
+	.string "We tend to our clients' beloved POKÉMON\n"
+	.string "as agreed, but our contracts are\l"
+	.string "hush-hush about the conditions and\l"
+	.string "stipulations. The real money comes from\l"
+	.string "pairing off the POKÉMON for EGGs.$"
 	
 Route5_House1_Criador_4.2:
-	.string "Algunos, como el caso de CLEFAIRY o\n"
-	.string "ABRA son enviados al CASINO, otros\l"
-	.string "directamente vendidos en el mercado\l"
-	.string "negro.\l"
-	.string "Vuestra querida CÓNSUL, sin ir más\l"
-	.string "lejos, compró un MEOWTH proveniente\l"
-	.string "de un HUEVO nacido aquí.$"
+	.string "GAME CORNER offers our rarer species\n"
+	.string "like CLEFAIRY and ABRA as prizes, but\l"
+	.string "we make a pretty penny on the black\l"
+	.string "market too. In fact, your dear CHRONO\l"
+	.string "ISLAND CONSUL had made a discreet\l"
+	.string "purchase for a MEOWTH hatched here.$"
 
 Route5_House1_Criador_5:
 	.string "ANDRA: Ingenious! So the CELADON BASE\n"
 	.string "isn't the only one that TEAM ROCKET\l"
-	.string "runs in the region! I had no idea. It's\l"
-	.string "the perfect business!$"
+	.string "runs in the region! I had no idea.\p"
+	.string "It's the perfect business!$"
 
 Route5_House1_Criador_6:
-    .string "CRIAPOKÉMON: Ya te enterarás de\n"
-	.string "varias cosas más si sigues aquí lo\l"
-	.string "suficiente joven recluta, por el\l"
-	.string "momento, PETREL os está esperando\l"
-	.string "abajo en su despacho.$"
+	.string "POKÉMON BREEDER: You'll discover more\n"
+	.string "if you can last, young recruit. Now\l"
+	.string "though, PETREL awaits you in his office\l"
+	.string "downstairs.$"
 	
 Route5_House1_Criador_6.1:
-	.string "Para bajar, solo tenéis que acercaros\n"
-	.string "a la zona superior izquierda de color\l"
-	.string "verde.\l"
-	.string "Allí hay una trampilla que se\l"
-	.string "difumina con el pavimento, esa\l"
-	.string "es la entrada secreta.$"
+	.string "To enter, just take a peek at the\n"
+	.string "green area in the top-left here, and\l"
+	.string "you'll come upon a trapdoor blending\l"
+	.string "with the pavement. There's the secret\l"
+	.string "entrance.$"
 
 Route5_House1_Criador_7:
-    .string "(EL CRIAPOKÉMON VOLVIÓ\n"
-	.string "A ABRIR LA PUERTA)$"
+	.string "-POKÉMON BREEDER OPENED\n"
+	.string "THE DOOR AGAIN-$"
 
 Route5_House1_Criador_8:
-	.string "POKÉMON BREEDER: Now hurry along!\n"
-	.string "Clients could arrive any moment, and\l"
+	.string "POKÉMON BREEDER: Now, hurry along!\p"
+	.string "Clients could arrive any moment, and\n"
 	.string "there's nothing worse than a business\l"
-	.string "getting tangled with TEAM ROCKET. Get\l"
-	.string "going!$"
+	.string "getting tangled with TEAM ROCKET.\p"
+	.string "Get going!$"
 
 Route5_House1_Criador_9:
-    .string "ANDRA: It was true!$"
+    .string "ANDRA: Oh! It was true!$"
 
 
 Route5_House1_Criador_1_move1:

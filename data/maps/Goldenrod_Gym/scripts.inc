@@ -130,8 +130,8 @@ GoldenrodGym_Encuentro_Valeria_Texto_4:
 	.string "Whatever you want…$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_5:
-.string "????: A challenger?\n"
-	.string "I'm sorry, but this isn't the right\l"
+.string "????: A challenger?\p"
+	.string "I'm sorry, but this isn't the right\n"
 	.string "moment.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_6:

@@ -9,8 +9,8 @@ release
 end
 
 Route11_Text_1:
-	.string "Route 11 and Diglett Cave are closed\n"
-	.string "for repairs. Get out of here, Rocket,\l"
+	.string "ROUTE 11 and DIGLETT CAVE are closed\n"
+	.string "for repairs. Get out of here, ROCKET,\l"
 	.string "before you give us the perfect excuse\l"
 	.string "to arrest you.$"
 

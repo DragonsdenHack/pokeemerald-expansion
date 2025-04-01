@@ -23,8 +23,8 @@ release
 end
 
 BurnedTower2_Texto_1:
-.string "Ahh!\n"
-	.string "I came down out of curiosity to see\l"
+.string "Ahh!\p"
+	.string "I came down out of curiosity to see\n"
 	.string "what was happening. I only saw a huge\l"
 	.string "POKÉMON with immense strength. It\l"
 	.string "knocked down all of our SAGES' POKÉMON\l"

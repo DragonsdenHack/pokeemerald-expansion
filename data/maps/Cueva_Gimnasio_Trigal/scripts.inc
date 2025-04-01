@@ -142,27 +142,28 @@ Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "Was my loyal KINGDRA defeated?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-.string "Oh…\p"
-	.string "Me has dejado en shock, creí que\n"
-	.string "nadie podía igualar la potencia y\l"
-	.string "explosividad de mi KINGDRA. Cuando\l"
-	.string "se transformó una última vez,\l"
-	.string "después de toda una vida junto a\l"
-	.string "él, y vi la tremenda energía que\l"
-	.string "desplegaba, creí haber tocado techo.\p"
-	.string "Me has mostrado que no.$"
+	.string "Oh… You've stunned me. I thought\n"
+	.string "nobody could match the power and\l"
+	.string "explosiveness of my KINGDRA. When it\l"
+	.string "transformed one last time after a\l"
+	.string "lifetime together and I witnessed the\l"
+	.string "tremendous energy it unleashed, I\l"
+	.string "thought it was unbeatable.\p"
+	.string "You've proven me wrong.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9:
-.string "Incluso ese gran maestro de CIUDAD\n"
-	.string "ENDRINO quedó impresionado, aunque\l"
-	.string "decepcionado al ver que perdía el\l"
-	.string "DRAGÓN.\l"
-	.string "Su nieta parecía muy celosa por mi\l"
-	.string "POKÉMON, atrapó un HORSEA y todo{PAUSE 15}…{PAUSE 15}$"
+	.string "Even that ELDER MASTER from BLACKTHORN\n"
+	.string "CITY was impressed, though\l"
+	.string "disappointed to see how my KINGDRA lost\l"
+	.string "the DRAGON TYPE in exchange for the\l"
+	.string "DARK TYPE. His granddaughter seemed\l"
+	.string "very jealous of my POKÉMON; she\l"
+	.string "even chose HORSEA as starter,\l"
+	.string "hoping to reach the same level…$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.5:
-	.string "He aprendido mucho con\n"
-	.string "este combate. Gracias.$"
+	.string "But coming back to you…\l"
+	.string "I've learned a lot from this battle.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
 	.string "Take this. There you have\n"
@@ -170,7 +171,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
 	
 Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
 	.string "I want to thank you. I can't remember\n"
-	.string "the last time I faced a rival like you.\l"
+	.string "the last time I faced a rival like you.\p"
 	.string "This POKÉMON is for you.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:

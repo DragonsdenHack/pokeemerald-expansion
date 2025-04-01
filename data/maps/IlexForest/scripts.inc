@@ -145,18 +145,18 @@ IlexForest_Llamada_Giovanni_Texto_1:
 	.string "acquired intel on KURT's DEEP BOND\l"
 	.string "BUTTERFREE. Its most extraordinary\l"
 	.string "aspect isn't the combined total of its\l"
-	.string "STATs at 505, but rather, how finely\l"
-	.string "they'd been distributed. Like its\l"
-	.string "ATTACK pushed to the extreme minimum\l"
-	.string "of… five. Together with its\l"
+	.string "STATs at 520, but rather, how finely\l"
+	.string "they'd been distributed.\l"
+	.string "The ATTACK pushed to the extreme low\l"
+	.string "limit of… 5 points. Together with its\l"
 	.string "ADAPTABILITY, it's orders more\l"
 	.string "dangerous than than most\l"
-	.string "PSEUDO-LEGENDARIES on a practical\l"
-	.string "level. Isn't it incredible to see the\l"
+	.string "PSEUDO-LEGENDARIES.\p"
+	.string "Isn't it incredible to see the\n"
 	.string "heights an otherwise mediocre POKÉMON\l"
 	.string "doomed to its 395 BASE STATs can\l"
-	.string "achieve? Just how terrifying such a\l"
-	.string "thing can become?$"
+	.string "achieve? Just how powerful can\l"
+	.string "weakness be able to become?$"
 
 IlexForest_Llamada_Giovanni_Texto_2:
 	.string "That aside, I've sent ARCHER ahead to\n"
@@ -200,18 +200,15 @@ IlexForest_Texto_1.1:
 	.string "from BUG CATCHER!$"
 
 IlexForest_Texto_1:
-.string "Estoy aquí, desarrollando\n"
-	.string "en secreto el movimiento TIPO\l"
-	.string "BICHO defintivo en cuanto a\l"
-	.string "estrategia. IDA Y VUELTA marcará\l"
-	.string "un antes y un después en el ritmo\l"
-	.string "de los combates. Mira.$"
+	.string "I'm here secretly developing the\n"
+	.string "ultimate BUG-TYPE move in terms of\l"
+	.string "strategy. U-TURN will revolutionize\l"
+	.string "battle dynamics. Take a look.$"
 
 IlexForest_Texto_2:
-.string "¡Vas a tener a los POKÉMON más\n"
-	.string "escurridizos e impredecibles\l"
-	.string "gracias a IDA Y VUELTA, ya lo\l"
-	.string "verás!$"
+	.string "You're going to have the most elusive\n"
+	.string "and unpredictable POKÉMON thanks to\l"
+	.string "U-TURN. You'll see!$"
 
 IlexForest_Escena_Move_1:
 walk_up

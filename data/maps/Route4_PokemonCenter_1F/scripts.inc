@@ -126,9 +126,9 @@ Route4_PokemonCenter_1F_Estafa_Texto_1:
 Route4_PokemonCenter_1F_Estafa_Texto_2:
 	.string "Would you like to get your hands on an\n"
 	.string "extraordinary POKÉMON that'll make you\l"
-	.string "feared and respected-all for 500 POKÉ?\l"
-	.string "You won't get a good haul with anyone\l"
-	.string "but me!$"
+	.string "feared and respected, for just ¥500?\p"
+	.string "You won't get a good haul with\n"
+	.string "anyone but me!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_3:
 	.string "Nice. Hooked another fool.$"
