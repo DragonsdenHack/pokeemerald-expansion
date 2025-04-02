@@ -125,18 +125,17 @@ release
 end
 
 RocketHideout5F_Text_11:
-.string "KANTO ahora mismo parece una parodia\n"
-	.string "de aquellas grandes obras distópicas\l"
-	.string "de principios del siglo XX: -1984- y -Un\l"
-	.string "mundo feliz-. KANTO no está tan\l"
-	.string "controlada como describe Orwell,\l"
-	.string "aunque sus ciudadanos sí que están\l"
-	.string "desbordados con el exceso de trabajo.\p"
-	.string "En cuanto a -Un mundo feliz-{PAUSE 25}…{PAUSE 25} la\n"
-	.string "ilusión de la liga POKÉMON y el sueño de\l"
-	.string "ser maestro POKÉMON podrían ser la\l"
-	.string "dosis de soma moderno que mantiene\l"
-	.string "cuerda a KANTO.$"
+	.string "KANTO right now seems like a parody of\n"
+	.string "those great dystopian works of the\l"
+	.string "early 20th century: -1984- and -A\l"
+	.string "Brave New World-. KANTO is not as\l"
+	.string "controlled as Orwell describes,\l"
+	.string "although its citizens are overwhelmed\l"
+	.string "with overwork. As for -A Brave New\l"
+	.string "World-{PAUSE 25}…{PAUSE 25} the illusion of the POKEMON\l"
+	.string "league and the dream of being a POKEMON\l"
+	.string "master might be the dose of modern\l"
+	.string "soma that keeps KANTO sane.$"
 
 
 
@@ -204,9 +203,9 @@ RocketHideout5F_Text_17:
 	.string "This last century has confirmed that\n"
 	.string "there is a huge economic dependence on\l"
 	.string "science. No matter how it is, we shall\l"
-	.string "accept this game 's rules and if it is\l"
-	.string "needed we will sell PORYGONS at 200,000\l"
-	.string "POKÉ each.$"
+	.string "accept this game 's rules and if it's\l"
+	.string "needed, we'll sell PORYGONs at ¥200,000\l"
+	.string "each one.$"
 
 
 
@@ -219,7 +218,7 @@ end
 
 RocketHideout5F_Text_18:
 	.string "Sometimes, the laws of nature are\n"
-	.string "stronger than our personal desires.\l"
+	.string "stronger than our personal desires.\p"
 	.string "PIDGEOT is a reference for KANTO birds.\p"
 	.string "His base total is 479, the highest among\n"
 	.string "NON-LEGENDARIES. He must have evolved\l"
@@ -535,20 +534,12 @@ RocketHideout5F_36::
 lock
 faceplayer     
 msgbox RocketHideout5F_Text_36, MSGBOX_DEFAULT
-msgbox RocketHideout5F_Text_36.1, MSGBOX_DEFAULT
-msgbox RocketHideout5F_Text_36.2, MSGBOX_DEFAULT
-msgbox RocketHideout5F_Text_36.3, MSGBOX_DEFAULT
 release     
 end
 
 RocketHideout5F_Text_36:
-.string "Si la gente supiera los beneficios\n"
-.string "que tiene sostener una pequeña\l"
-.string "mejora a largo plazo, comenzarían\l"
-.string "a ser constantes con todo cuanto\l"
-.string "hicieren, ¿crees que mejorar 2 KG\l"
-.string "al mes tu press de banca es una\l"
-.string "mejora pésima?$"
+	.string "Power tends to corrupt, and absolute\n"
+	.string "power corrupts absolutely.$"
 
 RocketHideout5F_Text_36.1:
 .string "Sosténlo durante un año, y mejorarás\n"
@@ -1525,26 +1516,25 @@ msgbox RocketHideout5FDocumento_Text_119, MSGBOX_SIGN
 end
 
 RocketHideout5FDocumento_Text_119:
-.string "ROCKETS MORAL CODE\n"
-    .string"AND CONDUCT\l"
-    .string "1.- My presence in the organization is a\l"
+.string "- ROCKETS MORAL CODE AND CONDUCT -\p"
+    .string "1.- My presence in the organization is a\n"
     .string "privilege, not a right, and I must gain\l"
-    .string "it in action. 2.- The loyalty and total\l"
-    .string "commitment of the organization are\l"
-    .string "undeniable. 3.- Insubordination and\l"
-    .string "betrayal are sentenced to death. 4.-\l"
-    .string "We act as a single body, unity above\l"
-    .string "individuality, but also…{PAUSE 20} 5.- Does not\l"
-    .string "mean that every ROCKET must have\l"
-    .string "their own initiative, an attitude of\l"
+    .string "it in action.{PAUSE 15}\p"
+    .string "2.- The loyalty and total commitment of\n"
+    .string "the organization are undeniable.{PAUSE 15}\p"
+    .string "3.- Insubordination and betrayal are\n"
+    .string "payed with the own life.{PAUSE 15}\p"
+    .string "4.- We act as a single body, unity above\n"
+    .string "individuality, but also…{PAUSE 25}\p"
+    .string "5.- Does not mean that every ROCKET must\n"
+    .string "have their own initiative, an attitude of\l"
     .string "constant search and improvement to\l"
-    .string "become a better trainer. 6.- Arrive,\l"
-    .string "analyze, adapt and win. 7.- Every\l"
-    .string "member of the organization counts,\l"
-    .string "from the most basic GRUNT to the\l"
-    .string "highest positions, we function as a\l"
-    .string "huge mechanism where no one is left\l"
-    .string "behind.$"
+    .string "become a better trainer.{PAUSE 15}\p"
+    .string "6.- Arrive, analyze, adapt and win.{PAUSE 15}\p"
+    .string "7.- Each member of the organization\n"
+    .string "counts, from the most basic GRUNT to the\l"
+    .string "highest positions, we function as a huge\l"
+    .string "mechanism where no one is left behind.$"
 
 
 
@@ -1881,13 +1871,13 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
 	.string "neutralize him…$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
-	.string "One more thing, {PLAYER}.\n"
-	.string "Evita a OAK, el dueño del laboratorio\l"
-	.string "de investigación del pueblo.\p"
-	.string "He retired from battles years ago, publicy\n"
+	.string "One more thing, {PLAYER}.\p"
+	.string "Avoid OAK, the owner of PALLET\n"
+	.string "TOWN POKÉMON RESEARCH LAB.\p"
+	.string "He retired from battles ages ago, publicy\n"
 	.string "releasing his team, after LANCE victory.\p"
-	.string "But nowadays, I don't a single word it's\n"
-	.string "said in the social media about him.$"
+	.string "But nowadays, I don't believe a single\n"
+	.string "word it's said in the social media.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
 	.string "He was a skilled TRAINER in the past,\n"
@@ -2641,11 +2631,11 @@ RocketHideout5F_Secundaria_Frank_Texto_14:
 	.string "combat skills if you want to climb up.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_15:
-	.string "When I will get ascended to ADMIN, and\n"
-	.string "if you stay stuck being a HIGH-RANK,\l"
+	.string "When I'll get promoted to ADMIN, and\n"
+	.string "you'll stay stuck being a HIGH-RANK,\l"
 	.string "the first thing I'll do to celebrate\l"
 	.string "that, is send you back to gather\l"
-	.string "FOSSILS like a simple GRUNT!$"
+	.string "FOSSILS like a low-class GRUNT!$"
 
 
 Ruinas_Alfa_Post_DLC::

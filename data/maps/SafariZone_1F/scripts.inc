@@ -381,7 +381,7 @@ SafariZone_1F_Escena_3_Andra_Texto_13:
 	.string "Is it really that strong?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
-.string "SCIENTIST: Even more than some LEGENDARIES.\n"
+.string "SCIENTIST: More than some LEGENDARIES.\n"
 	.string "Has even more BASE ATTACK than URSARING.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14.1:
@@ -390,7 +390,7 @@ SafariZone_1F_Escena_3_Andra_Texto_14.1:
 	.string "it's a 6-0 in the overall stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
-.string "ANDRA: {PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_16:
 	.string "SCIENTIST: I don't want to offend you,\n"

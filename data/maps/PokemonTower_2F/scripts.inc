@@ -195,7 +195,7 @@ PokemonTower2F_Azul_Texto_7.1:
 	.string "perfect, he seems to always\l"
 	.string "have everything in order, considering\l"
 	.string "all possible options in battle, and\l"
-	.string "that silence…{PAUSE 30}\l"
+	.string "that silence…{PAUSE 30}$"
 	
 PokemonTower2F_Azul_Texto_7.2:
 	.string "That's the most irritating\n"
@@ -231,7 +231,7 @@ PokemonTower2F_Azul_Texto_11:
 PokemonTower2F_Azul_Texto_12:
 	.string "As for me, I'll stay here as GIOVANNI\n"
 	.string "said, I will warn you if RED comes here.\l"
-	.string "Do not worry, I will entertain for a\l"
+	.string "Don't worry, I will entertain for a\l"
 	.string "while!$"
 
 PokemonTower2F_Azul_Move_1:

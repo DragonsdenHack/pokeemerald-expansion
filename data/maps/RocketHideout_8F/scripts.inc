@@ -2127,7 +2127,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_6.1:
 	.string "????: They are warned.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.2:
-	.string "GIOVANNI: PROTÓN, what happens?$"
+	.string "GIOVANNI: PROTON, what happens?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.3:
 	.string "I came back to talk with FUJI,\n"
@@ -2658,9 +2658,8 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1:
 	.string "Entraría más en el perfil de JIRACHI\l"
 	.string "en HOENN o{PAUSE 5}…{PAUSE 5}$"
 
-
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
-.string "PROTÓN: {PAUSE 15}…{PAUSE 15}$"
+.string "PROTON: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}CELEBI en JOHTO.$"

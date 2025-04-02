@@ -1525,7 +1525,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 	.string "if I'm not mistaken.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5.1:
-	.string "PROTÓN!\p"
+	.string "PROTON!\p"
 	.string "Hand over the KABUTO to {PLAYER}!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6:
@@ -1600,10 +1600,10 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15:
 	.string "GIOVANNI: Hmm{PAUSE 15}…{PAUSE 15} surprised?\n"
-	.string "BLUE agreed to become our ally while he was\l"
-	.string "crossing the NUGGET BRIDGE on ROUTE 24.\p"
+	.string "BLUE agreed to become our ally while he\l"
+	.string "was at the NUGGET BRIDGE on ROUTE 24.\p"
 	.string "He's OAK's grandson and RED's direct\n"
-	.string "rival, that means{PAUSE 15}…{PAUSE 15} he's the perfect\l"
+	.string "rival, that means{PAUSE 25}…{PAUSE 25} he's the perfect\l"
 	.string "person for becoming our double agent.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16:
@@ -1611,7 +1611,8 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16:
 	.string "I fought in the SS. ANNE.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16.1:
-	.string "Why are top ROCKETs so hidden, GIOVANNI?\p"
+	.string "Why are top ROCKETs\n"
+	.string "so hidden, GIOVANNI?\p"
 	.string "You'd deploy more GRUNTs like {PLAYER}\n"
 	.string "all over the common ROUTES. It's hardly\l"
 	.string "impossible to train hard with the poor\l"
@@ -1625,7 +1626,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17:
     .string "GIOVANNI: You are still too young for\n"
 	.string "knowing about your own region, BLUE.\l"
 	.string "GYM LEADERS aren't the best TRAINERs;\l"
-	.string "current KANTO is drowned in mediocrity.\l"
+	.string "current KANTO is drowned in mediocrity.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.1:
 	.string "Real top KANTO TRAINERs, as well as\n"
@@ -1656,18 +1657,17 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.2:
 	.string "This is when you will act, BLUE.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
-.string "Se te avisará de la llegada de\n"
-	.string "ROJO, y te colocarás en los pisos\l"
-	.string "inferiores de la TORRE, una vez\l"
-	.string "aparezca, fingirás estar ahí de\l"
-	.string "forma espontánea, sin nombrar\l"
-	.string "nunca al TEAM ROCKET, tratarás de\l"
-	.string "convencerlo para que dé media vuelta.$"
-	
+	.string "You'll be notified when RED arrives,\n"
+	.string "and you'll be on the lower floors of\l"
+	.string "the TOWER, once he appears.\p"
+	.string "Pretend being there spontaneously,\n"
+	.string "without mentioning TEAM ROCKET, try\l"
+	.string "convincing him to back away.$"
+
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1:
-	.string "Talk him about the GHOST, about the\l"
-	.string "SCOPE SILPH needed{PAUSE 15}…{PAUSE 15} if he continues ahead\l"
-	.string "anyways, notify {PLAYER} immediately.$"
+	.string "Talk him about the GHOST, about the\n"
+	.string "SCOPE SILPH needed{PAUSE 15}…{PAUSE 15} if he continues\l"
+	.string "ahead, notify {PLAYER} immediately.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2:
 	.string "By the way, that's for you,\n"
@@ -2041,7 +2041,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_6:
 	.string "of that, PROTON.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_7:
-.string "PROTON: B{PAUSE 15}…{PAUSE 15}but{PAUSE 15}…{PAUSE 15} SIR{PAUSE 15}…{PAUSE 15}$"
+.string "PROTON: B{PAUSE 25}…{PAUSE 25}but{PAUSE 25}…{PAUSE 25} {PAUSE 15}…{PAUSE 15} SIR{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8:
 	.string "GIOVANNI: I want all EXECUTIVEs and\n"
@@ -2061,12 +2061,12 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_10:
 	.string "CELADON CITY GYM LEADER.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_11:
-.string "PROTON: SIR? {PAUSE 15}…{PAUSE 15} Right away.$"
+.string "PROTON: SIR? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} Right away.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_12:
 	.string "PROTON: The LEADER ERIKA uses, for new\n"
-	.string "challengers, a LV.29 VICTREEBEL, a LV.24\l"
-	.string "TANGELA, and a LV.29 VILEPLUME.$"
+	.string "challengers, a LV.29 VICTREEBEL, a\l"
+	.string "LV.24 TANGELA, and a LV.29 VILEPLUME.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_13:
 	.string "GIOVANNI: All right, what level has the\n"
@@ -2095,7 +2095,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17:
 	.string "strong he is.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17.1:
-	.string "And{PAUSE 15}…{PAUSE 15} it will be too late when he\l"
+	.string "And{PAUSE 15}…{PAUSE 15} it will be too late when he\n"
 	.string "notices, as there won't be enough time\l"
 	.string "to adapt, he will never reach our level\l"
 	.string "fighting against the mediocrity that\l"
@@ -2114,9 +2114,9 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19:
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19.1:
 	.string "You have become stronger, but not enough.\p"
 	.string "Moreover, this is not the time, not until\n"
-	.string "we know his true intentions,\p"
+	.string "we know his true intentions.\p"
 	.string "Remember this, the most powerful piece\n"
-	.string "is not the one that begins by showing\n"
+	.string "is not the one that begins by showing\l"
 	.string "its strength, but the one that knows\l"
 	.string "how to wait for the perfect moment to\l"
 	.string "reveal it.$"
@@ -2183,13 +2183,13 @@ walk_in_place_down
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8:
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
-walk_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
 walk_left
 walk_left
 step_end
@@ -2583,7 +2583,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.2:
 	.string "What would the CUBONE become?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.3:
-	.string "According to our research,\p"
+	.string "According to our research,\n"
 	.string "a KANGASKHAN.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8:
@@ -2600,9 +2600,9 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9:
 	.string "of this link between species.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.1:
-	.string "That means{PAUSE 15}…{PAUSE 15} the KANGASKHAN phenomenon in\l"
-	.string "ROCK TUNNEL was an isolated case of an\l"
-	.string "offspring that, without becoming a\l"
+	.string "That means{PAUSE 15}…{PAUSE 15} the KANGASKHAN phenomenon\n"
+	.string "in ROCK TUNNEL was an isolated case of\l"
+	.string "an offspring that, without becoming a\l"
 	.string "CUBONE, migrated to the tunnel, managed\l"
 	.string "to survive, and became a KANGASKHAN on\l"
 	.string "its own.$"
@@ -2695,7 +2695,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19:
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20:
     .string "That's all, for now.\p"
-	.string "You have no new missions, so you may\l"
+	.string "You have no new missions, so you may\n"
 	.string "have some time off to explore the\l"
 	.string "- DEEP ROCKET BASE -.$"
 
@@ -3489,7 +3489,8 @@ release
 end
 
 PokemonTower5F_Escena_4_Blaine_Texto_1:
-.string "GRUNT: CINNABAR LEADER has arrived, SIR.$"
+.string "GRUNT: CINNABAR LEADER\n"
+.string "has arrived, SIR.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_2:
 .string "GIOVANNI: Let him in.$"
@@ -3498,13 +3499,13 @@ PokemonTower5F_Escena_4_Blaine_Texto_3:
 .string "BLAINE: You wanted to see me, GIOVANNI?$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_4:
-.string "GIOVANNI: Indeed. I'll make it quick, BLAINE.\p"
+.string "GIOVANNI: I'll make it quick, BLAINE.\p"
 	.string "I'm afraid I will be retiring you\n"
 	.string "the founding for mass production\l"
 	.string "of PORYGON.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_5:
-.string "BLAINE: W'What{PAUSE 10}…{PAUSE 30} B'B'But{PAUSE 10}…{PAUSE 20} Why???$"
+.string "BLAINE: W{PAUSE 10}-{PAUSE 10}What? {PAUSE 20}…{PAUSE 20} B{PAUSE 10}-{PAUSE 10}B{PAUSE 10}-{PAUSE 10}But{PAUSE 10}…{PAUSE 20} Why???$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_6:
 .string "GIOVANNI: You did a great job, that's\n"

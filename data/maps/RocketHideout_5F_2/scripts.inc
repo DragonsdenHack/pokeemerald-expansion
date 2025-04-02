@@ -11,14 +11,13 @@ release
 end
 
 RocketHideout_5F_2_Primer_Ejecutivo_Texto_2:
-	.string "Yo dirigí el proyecto de construcción\n"
-	.string "de nuestra base en JOHTO. Tuve que\l"
-	.string "derrotar y silenciar a muchos para\l"
-	.string "lograrlo, ¿tú que hiciste?$"
+	.string "I led the project to build our JOHTO HQ,\n"
+	.string "I had to defeat and silence many to do\l"
+	.string "it. What did you do?$"
 
 RocketHideout_5F_2_Primer_Ejecutivo_Texto_1:
-	.string "Todos los que estamos aquí hicimos algo\n"
-	.string "importante para el TEAM ROCKET.$"
+	.string "All of us here, at VIP AREA, did\n"
+	.string "something great for TEAM ROCKET.$"
 
 RocketHideout_5F_2_Segundo_Ejecutivo::
 lock
@@ -32,21 +31,19 @@ release
 end
 
 RocketHideout_5F_2_Segundo_Ejecutivo_Texto_1:
-	.string "Si quieres un consejo, compra un\n"
-	.string "LARVITAR y entrénalo.$"
+	.string "If you want a good advice, buy a\n"
+	.string "LARVITAR and train it.$"
 
 RocketHideout_5F_2_Segundo_Ejecutivo_Texto_2:
-	.string "Con un NIDOKING o NIDOQUEEN los ROCKET\n"
-	.string "te respetarán, pero con un TYRANITAR\l"
-	.string "te temerán.$"
+	.string "With a NIDOKING or NIDOQUEEN, TEAM\n"
+	.string "ROCKET members will respect you; but\l"
+	.string "with a TYRANITAR, they'll fear you.$"
 
 RocketHideout_5F_2_Segundo_Ejecutivo_Texto_3:
-	.string "Como PSEUDOLEGENDARIO y TIPO\n"
-	.string "ROCA/SINIESTRO, es lo máximo en cuanto\l"
-	.string "estatus y jerarquía. Incluso para un\l"
-	.string "EJECUTIVO ROCKET.$"
-
-
+	.string "As a PSEUDOLEGENDARY and ROCK/DARK\n"
+	.string "TYPE, it's the top refering to status\l"
+	.string "and hierarchy; even for a ROCKET\l"
+	.string "EXECUTIVE.$"
 
 
 
@@ -58,9 +55,9 @@ release
 end
 
 RocketHideout_5F_2_Tercer_Ejecutivo_Texto_1:
-	.string "Una idea no sobrevive porque sea mejor\n"
-	.string "que otra, sino porque ha sobrevivido la\l"
-	.string "persona que cree en ella.$"
+	.string "An idea does not survive because it is\n"
+	.string "better than another, but because the\l"
+	.string "person who believes in it has survived.$"
 
 RocketHideout_5F_2_Cuarto_Ejecutivo::
 lock
@@ -70,11 +67,11 @@ release
 end
 
 RocketHideout_5F_2_Cuarto_Ejecutivo_Texto_1:
-	.string "Gracias a un contacto en SINNOH,\n"
-	.string "podemos contar con unos pocos POKÉMON\l"
-	.string "de esa región. La oferta es muy escasa,\l"
-	.string "y por eso el mercado es exclusivo para\l"
-	.string "EJECUTIVOS.$"
+	.string "Thanks to a contact at SINNOH, we can\n"
+	.string "count on a few POKEMON from that\l"
+	.string "region. The supply is very limited, so\l"
+	.string "the market is exclusively for\l"
+	.string "EXECUTIVES.$"
 
 BaseRocketEjecutiva_Tienda_Pokemon::
 lock
@@ -208,28 +205,28 @@ release
 end
 
 EventScript_Buneary_Texto_1:
-.string "¿Seguro que quiere a BUNEARY?\n"
-	.string "Costará 14.000¥.$"
+.string "Are you sure you want BUNEARY?\n"
+	.string "It'll cost ¥14,000.$"
 
 EventScript_Croagunk_Texto_1:
-.string "¿Seguro que quiere a CROAGUNK?\n"
-	.string "Costará 25.000¥.$"
+.string "Are you sure you want CROAGUNK?\n"
+	.string "It'll cost ¥25,000.$"
 
 EventScript_Budew_Texto_1:
-.string "¿Seguro que quiere a BUDEW?\n"
-	.string "Costará 29.000¥.$"
+.string "Are you sure you want BUDEW?\n"
+	.string "It'll cost ¥29,000$"
 
 EventScript_Hippopotas_Texto_1:
-.string "¿Seguro que quiere a HIPPOPOTAS?\n"
-	.string "Costará 33.000¥.$"
+.string "Are you sure you want HIPPOPOTAS?\n"
+	.string "It'll cost ¥33,000$"
 
 EventScript_Shieldon_Texto_1:
-.string "¿Seguro que quiere a SHIELDON?\n"
-	.string "Costará 110.000¥.$"
+.string "Are you sure you want SHIELDON?\n"
+	.string "It'll cost ¥110,000.$"
 
 EventScript_Larvitar_Texto_1.1:
-.string "¿Seguro que quiere a LARVITAR?\n"
-	.string "Costará 170.000¥.$"
+.string "Are you sure you want LARVITAR?\n"
+	.string "It'll cost ¥170,000.$"
 
 Base_Profunda_Mercado_Ejecutivos_EventScript_Clerk::
 	lock
@@ -261,11 +258,11 @@ release
 end
 
 RocketHideout_5F_2_Quinto_Ejecutivo_Texto_1:
-	.string "Si fuera tú, comprobaría en el puesto\n"
-	.string "de arriba todos los MOVIMIENTOS HUEVO\l"
-	.string "que pueden aprender tus POKÉMON. Más\l"
-	.string "de un EJECUTIVO se ha llevado una grata\l"
-	.string "sorpresa.$"
+	.string "If I were you, I'd check out the mart\n"
+	.string "above, for all the EGG MOVES your\l"
+	.string "POKEMON can learn. More than one\l"
+	.string "EXECUTIVE has been pleasantly\l"
+	.string "surprised.$"
 
 RocketHideout_5F_2_Cartel::
 lock
@@ -274,7 +271,7 @@ release
 end
 
 RocketHideout_5F_2_Cartel_Texto_1:
-	.string "ZONA VIP EXCLUSIVA PARA EJECUTIVOS.$"
+	.string "VIP AREA - EXECUTIVES ONLY$"
 
 RocketHideout_5F_2_Llave::
 compare VAR_UNUSED_0x40F7, 71
@@ -306,9 +303,9 @@ release
 end
 
 RocketHideout_5F_2_Texto_2:
-	.string "¿Quieres usar la LLAVE SALA VIP?$"
+	.string "Want to use the VIP AREA KEY?$"
 
 RocketHideout_5F_2_Texto_1:
-	.string "Se requiere de una llave especial.$"
+	.string "-A special key is required-$"
 
 

@@ -102,7 +102,7 @@ step_end
 PokemonTower_7F_Proton_Texto_1:
 	.string "PROTON: You created our only chance to\n"
 	.string "escape from this enslaving system\l"
-	.string "FUJI, Don't you think that end\l"
+	.string "FUJI, don't you think that milestone\l"
 	.string "justifies any possible means to achieve\l"
 	.string "it? I hope you think about our offer!$"
 

@@ -190,7 +190,7 @@ PokemonTower_6F_Combate_Fuji_Texto_3:
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
 	.string "FUJI: I see, the result is all that\n"
-	.string "matters, right?, well, then I'll tell you\l"
+	.string "matters, right? Well, then I'll tell you\l"
 	.string "what we're going to do, my HAUNTER will\l"
 	.string "cast its NIGHTMARE upon you while\l"
 	.string "you're losing all the stolen skulls,\l"
@@ -206,8 +206,8 @@ PokemonTower_6F_Combate_Fuji_Texto_6:
 
 PokemonTower_6F_Combate_Fuji_Texto_7:
 	.string "FUJI: A young one like you should not\n"
-	.string "waste his life serving these purposes.\l"
-	.string "{PLAYER}?, come on reconsider it…,$"
+	.string "waste his life serving these purposes.\p"
+	.string "{PLAYER}? Come on reconsider it{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_8:
 	.string "FUJI: Okay, I have no more option that\n"
