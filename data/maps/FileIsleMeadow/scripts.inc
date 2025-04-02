@@ -173,7 +173,7 @@ FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_3:
 	.string "in SEVII.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_4:
-	.string "Excuse my indiscretion, sir, but it would\n"
+	.string "Excuse my indiscretion, SIR, but it would\n"
 	.string "be an honor to have the opportunity to\l"
 	.string "battle you and further strengthen my\l"
 	.string "POKÉMON.$"
@@ -193,7 +193,7 @@ FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_8:
 	.string "ROCKET's elite.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_9:
-	.string "I won't forget this lesson, sir. Please\n"
+	.string "I won't forget this lesson, SIR. Please\n"
 	.string "accept this, as a payment of gratitude\l"
 	.string "for your time, that someone of your\l"
 	.string "caliber should use at least ULTRA BALL.$"
@@ -267,7 +267,7 @@ FileIsleMeadow_Recluta_Balls_AltoRango_texto_3:
 	.string "GRUNT!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_4:
-	.string "I apologize for my impertinence, sir,\n"
+	.string "I apologize for my impertinence, SIR,\n"
 	.string "but it would be a tremendous honor for\l"
 	.string "me to have a battle with you. It would\l"
 	.string "also help in furthering the strength of\l"
@@ -289,7 +289,7 @@ FileIsleMeadow_Recluta_Balls_AltoRango_texto_8:
 	.string "elite.$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_9:
-	.string "Thank you for the lesson, sir! Please\n"
+	.string "Thank you for the lesson, SIR! Please\n"
 	.string "accept this; it may not be the most\l"
 	.string "suitable BALL for someone of your\l"
 	.string "expertise, but it will save you from\l"
@@ -441,7 +441,7 @@ FileIsleMeadow_Combate_Azul_Texto_4:
 	.string "POKÉMON LEAGUE, but we both know that\l"
 	.string "what happened there was entirely\l"
 	.string "different. It was you who defeated the\l"
-	.string "top trainers…{PAUSE 30} including RED.$"
+	.string "top TRAINERS{PAUSE 30}…{PAUSE 30} including RED.$"
 
 FileIsleMeadow_Combate_Azul_Texto_5:
 	.string "That's when I realized I wanted to be\n"

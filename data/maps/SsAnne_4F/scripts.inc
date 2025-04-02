@@ -51,7 +51,7 @@ SsAnne4F_Text_4:
 	.string "everything we've been through, we'd be\l"
 	.string "sitting here in 1996, with all this\l"
 	.string "luxury and all these opportunities at\l"
-	.string "our fingertips? And most importantly -\l"
+	.string "our fingertips? And most importantly;\l"
 	.string "the ability to keep on living and\l"
 	.string "dreaming!$"
 
@@ -118,7 +118,7 @@ release
 end
 
 SsAnne4F_Text_9:
-.string "Is everything all right, sir?$"
+.string "Is everything all right, SIR?$"
 
 
 
@@ -226,61 +226,59 @@ release
 end
 
 SsAnne_4F_Combate_Azul_text_1:
-.string "????: Estas fiestas siempre acaban\n"
-	.string "siendo un rollo. He venido aquí\l"
-	.string "para combatir contra POKÉMON de\l"
-	.string "todo el mundo y me encuentro los\l"
-	.string "mismos PIDGEY, RATATTA y\l"
-	.string "NIDORAN de siempre.$"
+	.string "????: These parties always end up being\n"
+	.string "a drag. I came here to battle POKÉMON\l"
+	.string "from all over the world, but all I find\l"
+	.string "are the same old PIDGEY, RATTATA, and\l"
+	.string "NIDORAN.$"
 
 SsAnne_4F_Combate_Azul_text_1.1:
-	.string "Incluso los marineros del SS.ANNE no\n"
-	.string "sacan más que TENTACOOL.\p"
-	.string "Menudo fraude.$"
+	.string "Even the so-called sailors from\n"
+	.string "the SS. ANNE only ever bring out\l"
+	.string "TENTACOOL!\p"
+	.string "This is a scam.$"
 
 SsAnne_4F_Combate_Azul_text_2:
-.string "¿Eres ese ROCKET al que cedí\n"
-	.string "un FÓSIL en el MT.MOON?$"
-	
+	.string "So, you're the ROCKET I handed that\n"
+	.string "FOSSIL to on MT. MOON.$"
+
 SsAnne_4F_Combate_Azul_text_2.1:
- .string "No voy a preguntarte cómo\n"
-	.string "es que alguien como tú está en\l"
-	.string "en un lugar así, ya imagino que\l"
-	.string "has entrado de forma ilegítima.\p"
-	.string "Sinceramente, me da exactamente\n"
-	.string "igual.$"
+	.string "A ROCKET here{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} I won't bother\n"
+	.string "asking how someone like you managed\l"
+	.string "to get into a place like this; I can\l"
+	.string "easily guess you sneaked in somehow.\p"
+	.string "Honestly, I couldn't care less.$"
 
 SsAnne_4F_Combate_Azul_text_3:
-.string "En el MT.MOON hice la vista gorda,\n"
-	.string "viendo la mediocridad de todos los\l"
-	.string "ROCKET. Pero te atreviste a darme\l"
-	.string "a mí lecciones morales, ¿sabes lo\l"
-	.string "que eso significa, no?$"
+	.string "On MT. MOON, I turned a blind eye to the\n"
+	.string "mediocrity of you ROCKETs, and you had\l"
+	.string "the audacity to lecture me on morality.\p"
+	.string "Do you even realize what that means?$"
 
 SsAnne_4F_Combate_Azul_text_3.1:
-	.string "¡Es hora de ver si eres uno más\n"
-	.string "del montón, o en cambio tienes\l"
-	.string "algo que decir!\p"
-	.string "¡En guardia, ROCKET!$"
+	.string "Let's see if you're just another\n"
+	.string "worthless GRUNT or if you actually\l"
+	.string "have something worthwhile to show.\l"
+	.string "Get ready, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
-	.string "…Did I seriously just lose to a ROCKET?$"
+	.string "… Did I seriously just lose to a ROCKET?$"
 
 SsAnne_4F_Combate_Azul_text_5:
 .string "{PAUSE 20}…{PAUSE 20}\n"
 	.string "{PAUSE 20}…{PAUSE 20}\p"
 	.string "So, you're not just another ROCKET\n"
-	.string "grunt… High-ranking, are you? Honestly,\l"
+	.string "GRUNT{PAUSE 20}…{PAUSE 20} HIGH RANK, are you? Honestly,\l"
 	.string "you all look the same to me! But I'll give\l"
-	.string "you this - you're the only one who's\l"
+	.string "you this: you're the only one who's\l"
 	.string "managed to defeat me besides that\l"
 	.string "backwoods bumpkin, RED. I suppose I'll\l"
 	.string "have to keep an eye on you from now on.$"
 
 SsAnne_4F_Combate_Azul_text_6:
-	.string "????: Bah. I suppose I'll wander around\n"
-	.string "the cabins and see if anyone else here\l"
-	.string "can manage to give me a remotely\l"
+	.string "Bah! I suppose I'll wander around\n"
+	.string "the cabins and see if anyone else\l"
+	.string "here can manage to give me a remotely\l"
 	.string "interesting battle, though I seriously\l"
 	.string "doubt it.$"
 

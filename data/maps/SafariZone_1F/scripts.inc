@@ -377,16 +377,17 @@ SafariZone_1F_Escena_3_Andra_Texto_12:
 	.string "potential of a dragon as DRATINI is.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_13:
-.string "ANDRA: Oh, vaya{PAUSE 25}…{PAUSE 25}\n"
-	.string "¿Tan fuerte es una vez desarrollado?$"
+.string "ANDRA: Oh, so{PAUSE 25}…{PAUSE 25}\n"
+	.string "Is it really that strong?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
-.string "CIENTÍFICO: Más que varios LEGENDARIOS.\n"
-	.string "Supera en BASE de ATAQUE a URSARING.$"
+.string "SCIENTIST: Even more than some LEGENDARIES.\n"
+	.string "Has even more BASE ATTACK than URSARING.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14.1:
-	.string "Es más, lo supera en todo: VELOCIDAD,\n"
-	.string "SALUD, DEFENSA{PAUSE 25}…{PAUSE 25} Es un 6 a 0 en stats.$"
+	.string "Moreover, it surpasses it in everything:\n"
+	.string "SPEED, HEALTH POINTS, DEFENSE{PAUSE 15}…{PAUSE 15}\l"
+	.string "it's a 6-0 in the overall stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
@@ -398,48 +399,50 @@ SafariZone_1F_Escena_3_Andra_Texto_16:
 	.string "it has been touched by some divinity.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_17:
-.string "ANDRA: Por eso todos le temen a LANCE…\n"
-	.string "Ya entiendo.$"
+	.string "ANDRA: So that's the reason why people\n"
+	.string "fear LANCE{PAUSE 15}…{PAUSE 15} I get it.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_18:
-	.string "CIENTÍFICO: No solo por eso, también{PAUSE 5}…{PAUSE 5}$"
+	.string "SCIENTIST: That's not the only\n"
+	.string "reason, also…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_19:
-.string "ANDRA: Me niego a creer que mi URSARING\n"
-	.string "ya está destinado a ser peor que un\l"
-	.string "DRAGONITE en todo; en mi cabeza este\l"
-	.string "URSARING es capaz de superar esa base\l"
-	.string "en ATAQUE… y tal vez más{PAUSE 15}…{PAUSE 15}$"
+	.string "ANDRA: I refuse to accept that my\n"
+	.string "URSARING will now be worse than a\l"
+	.string "DRAGONITE in everything by decree, in\l"
+	.string "my mind, this URSARING is capable of\l"
+	.string "exceeding that BASE ATTACK{PAUSE 15}…{PAUSE 15} and\l"
+	.string "maybe more…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
-.string "CIENTÍFICO: Los STATS son inamovibles.\n"
-	.string "No se trata de merecer o de entrenar más,\l"
-	.string "por esas vías tu URSARING podrá derrotar\l"
-	.string "a un DRAGONITE{PAUSE 15}…{PAUSE 15} que no explote tanto\l"
-	.string "su potencial.$"
+	.string "SCIENTIST: BASE STATS are invariant.\p"
+	.string "It's not about your achievements,\n"
+	.string "nor about training.\p"
+	.string "Through those means, your URSARING may\n"
+	.string "defeat a DRAGONITE{PAUSE 15}…{PAUSE 15} that doesn't fully\l"
+	.string "exploit its potential.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20.1:
-	.string "Pero a igualdad de todo, no hay nada\n"
-	.string "que hacer. Es el potencial intrínseco\l"
-	.string "a cada especie. ¿Por qué crees que los\l"
-	.string "MAGIKARP son tan débiles? En mayor o\l"
-	.string "menor grado, todos tienen límites.$"
+	.string "That's about the intrinsic potential of\n"
+	.string "each species, nothing to do with that.\p"
+	.string "Why do you think MAGIKARPs are so weak?\p"
+	.string "To a greater or lesser degree, all\n"
+	.string "POKÉMON have limits.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
-.string "ANDRA: Entiendo lo que dices, pero{PAUSE 15}…{PAUSE 15}\n"
-     .string "Aun así{PAUSE 15}…{PAUSE 15} siento en este\l"
-	.string "URSARING un poco de ese potencial al\l"
-	.string "que te refieres, aún por explotar.$"
+	.string "ANDRA: Even so{PAUSE 15}…{PAUSE 15} I feel this URSARING\n"
+	.string "has a bit of that potential that you\l"
+	.string "mean, still to be unlocked{PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_22:
-.string "CIENTÍFICO: Si recurrimos a ingeniería\n"
-	.string "genética, eso es otra cosa.\l"
-	.string "Tenemos a varios candidatos que aspiran\l"
-	.string "a elevar su total de STATS BASE con ello.\l"
-	.string "Fuera de eso, es imposible.$"
+	.string "SCIENTIST: If we go to genetic\n"
+	.string "engineering, that's another thing. We\l"
+	.string "have several candidates who aspire to\l"
+	.string "raise their total BASE STATS with it.\p"
+	.string "Other way, it's impossible.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_23:
-.string "ANDRA: Quién sabe{PAUSE 25}…{PAUSE 25}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} Who knows{PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Move_1:
 walk_in_place_right

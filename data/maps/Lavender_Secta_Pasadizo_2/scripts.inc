@@ -127,22 +127,22 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_3:
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_4:
 	.string "A place as old as the region itself,\n"
-	.string "timeless and blind to everything beyond\n"
+	.string "timeless and blind to everything beyond\l"
 	.string "its borders.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_5:
 	.string "That's it. The beating heart of KANTO is\n"
-	.string "neither SILPH's offices nor the INDIGO\n"
+	.string "neither SILPH's offices nor the INDIGO\l"
 	.string "HQ.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_6:
 	.string "Here and only here you shall be judged\n"
-	.string "by the GODS of this world. Not in the\n"
+	.string "by the GODS of this world. Not in the\l"
 	.string "LEAGUE, nor as a CHAMPION.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_7:
 	.string "Come on, {PLAYER}. Make them blush!\n"
-	.string "Show them how you bend to your\n"
+	.string "Show them how you bend to your\l"
 	.string "advantage those same rules they\l"
 	.string "created!$"
 
@@ -158,12 +158,12 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_10:
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_11:
 	.string "You'd rent asunder the chains of\n"
-	.string "LANCE's KANTO, and a realm of potential\n"
+	.string "LANCE's KANTO, and a realm of potential\l"
 	.string "is open to you.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_12:
 	.string "Not even in your insanest dreams you'd\n"
-	.string "have imagined what awaits you, what you\n"
+	.string "have imagined what awaits you, what you\l"
 	.string "have still to live, see, and feel. KANTO\l"
 	.string "will be a witness to every single bit of\l"
 	.string "it.$"

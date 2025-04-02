@@ -506,7 +506,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_20.2:
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_21:
 	.string "In DUN TOWER, that form of DUNSPARCE\n"
 	.string "has been attained by our most skilled\l"
-	.string "trainers.$"
+	.string "TRAINERS.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_22:
 .string "ANDRA: How?$"

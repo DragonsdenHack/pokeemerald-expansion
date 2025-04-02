@@ -164,7 +164,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
-	.string "S{PAUSE 15}…{PAUSE 15}Sir{PAUSE 15}…{PAUSE 15} It's {PLAYER}, one of the\n"
+	.string "S{PAUSE 15}…{PAUSE 15}SIR{PAUSE 15}…{PAUSE 15} It's {PLAYER}, one of the\n"
 	.string "strongest ROCKET members.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_6:

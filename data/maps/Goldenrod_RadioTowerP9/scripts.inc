@@ -130,7 +130,7 @@ release
 end
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_1:
-	.string "Excuse me, sir. You are {PLAYER},\n"
+	.string "Excuse me, SIR. You are {PLAYER},\n"
 	.string "aren't you? I need you to come with me.$"
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_2:
@@ -476,7 +476,7 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_17:
 	.string "where we have come from.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_18:
-	.string "ARCHER: Sir… I can understand the\n"
+	.string "ARCHER: SIR… I can understand the\n"
 	.string "MASTER, but LANCE?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_19:
@@ -487,7 +487,7 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_20:
 	.string "consequences that this implies.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_21:
-	.string "ARCHER: What do you mean, sir?!$"
+	.string "ARCHER: What do you mean, SIR?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_22:
 	.string "GIOVANNI: You needn't worry… LANCE's\n"

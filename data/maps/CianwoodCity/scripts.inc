@@ -486,7 +486,7 @@ face_right
 step_end
 
 CianwoodCity_Recluta_Texto_1:
-	.string "I've been looking for you, sir! GIOVANNI\n"
+	.string "I've been looking for you, SIR! GIOVANNI\n"
 	.string "sends an urgent message; the scheduled\l"
 	.string "meeting is going to take place in\l"
 	.string "GOLDENROD CITY. Right now, he's too\l"
@@ -498,7 +498,7 @@ CianwoodCity_Recluta_Texto_2:
 	.string "GOLDENROD RADIO TOWER immediately and\l"
 	.string "attend the big meeting like the rest of\l"
 	.string "the high-ranking TEAM ROCKET members.\l"
-	.string "That's all, sir.$"
+	.string "That's all, SIR.$"
 
 CianwoodCity_Eusine_Camino_Secreto::
 lock

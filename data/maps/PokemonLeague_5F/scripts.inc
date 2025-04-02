@@ -541,7 +541,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_33:
 	.string "After seeing RED in action, I've\n"
 	.string "realized that you're the only one\l"
 	.string "with a chance to battle against that\l"
-	.string "steamroller that knocks down trainers\l"
+	.string "steamroller that knocks down TRAINERS\l"
 	.string "like nothing.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_33.1:

@@ -161,7 +161,7 @@ Route51HouseDocumento_Text_100Yes:
 	.string "prove inadequate to inflict damage on\l"
 	.string "KANTO, which boasts superior\l"
 	.string "technology and a roster of seasoned\l"
-	.string "trainers, notably including OAK and\l"
+	.string "TRAINERS, notably including OAK and\l"
 	.string "GIOVANNI.$"
 
 Route51HouseDocumento_Text_100Yes2:

@@ -11,7 +11,7 @@ release
 end
 
 PalletTown_ProfessorLab_Text_1:
-	.string "The best trainers in the region come\n"
+	.string "The best TRAINERS in the region come\n"
 	.string "from this place. Curiosity can be\l"
 	.string "dangerous. I hope you got that.$"
 
@@ -205,7 +205,7 @@ PalletTown_ProfessorLab_Lab_Texto_1:
 	.string "He must be at ZONE 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-	.string "????: Do you need something, sir?\p"
+	.string "????: Do you need something, SIR?\p"
 	.string "I'm OAK's granddaughter and\n"
 	.string "BLUE's big sister…$"
 

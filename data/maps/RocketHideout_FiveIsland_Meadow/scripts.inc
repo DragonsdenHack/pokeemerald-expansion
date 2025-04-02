@@ -476,7 +476,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
     .string "MT. MOON. Any questions?$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
-.string "Sir, I couldn't help but see all those\n"
+.string "SIR, I couldn't help but see all those\n"
     .string "powerful POKÉMON in the background,\l"
     .string "and I was wondering how our BOSS,\l"
     .string "GIOVANNI, wants us to perform our role\l"

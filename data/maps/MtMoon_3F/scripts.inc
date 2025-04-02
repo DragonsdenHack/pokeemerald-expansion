@@ -831,10 +831,10 @@ MtMoon_3F_Pelea_Frank_texto3:
 	.string "organization!$"
 
 MtMoon_3F_Pelea_Frank_texto4:
-	.string "ANDRA: Sorry for interrupting, sir\n"
+	.string "ANDRA: Sorry for interrupting, SIR\n"
 	.string "H.R.FRANK, but I've seen {PLAYER}\l"
 	.string "fighting, and he's not as weak as\l"
-	.string "you think, sir. That trainer{PAUSE 15}…{PAUSE 15}\p"
+	.string "you think, SIR. That trainer{PAUSE 15}…{PAUSE 15}\p"
 	.string "Each ROCKET who fought against him,\n"
 	.string "was defeated, so it'd be totally\l"
 	.string "unfair to punish {PLAYER} for that.\p"
@@ -919,7 +919,7 @@ MtMoon_3F_Pelea_Frank_texto14:
 	.string "PETREL: Calling up GRUNT ANDRA.$"
 
 MtMoon_3F_Pelea_Frank_texto15:
-	.string "ANDRA: Right here, sir. What is it?$"
+	.string "ANDRA: Right here, SIR. What is it?$"
 
 MtMoon_3F_Pelea_Frank_texto16:
 	.string "PETREL: You were given a mission\n"
@@ -930,7 +930,7 @@ MtMoon_3F_Pelea_Frank_texto16:
 
 MtMoon_3F_Pelea_Frank_texto17:
 .string "ANDRA: Roger that. Yes, {PLAYER} is\n"
-	.string "here, sir.$"
+	.string "here, SIR.$"
 
 MtMoon_3F_Pelea_Frank_texto18:
 .string "PETREL: Tell him I want him in my office\n"

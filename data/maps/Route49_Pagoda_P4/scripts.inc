@@ -62,7 +62,7 @@ end
 Route49_Pagoda_P4_Quinto_Pensador_Texto_1:
 	.string "The number of POKÉMON that react to\n"
 	.string "the GOLDEN STONE is immeasurable. One\l"
-	.string "of our most skilled trainers evolved a\l"
+	.string "of our most skilled TRAINERS evolved a\l"
 	.string "BASCULIN with it. Now it's a powerful\l"
 	.string "BASCULEGION.$"
 
@@ -75,7 +75,7 @@ release
 end
 
 Route49_Pagoda_P4_Sexto_Pensador_Texto_1:
-	.string "There are many skilled trainers around\n"
+	.string "There are many skilled TRAINERS around\n"
 	.string "here. As you continue to ascend, you'll\l"
 	.string "notice it more.$"
 

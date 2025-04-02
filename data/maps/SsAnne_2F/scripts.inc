@@ -24,8 +24,8 @@ release
 end
 
 SsAnne2F_Text_2:
-.string "La fiesta de lujo del SS.ANNE es\n"
-.string "incomparable.$"
+.string "SS. ANNE luxury party is unmatched\n"
+.string "across all regions.$"
 
 SsAnne2F_Puerta_Cerrada::
 lock
@@ -46,4 +46,4 @@ walk_up
 step_end
 
 SsAnne2F_Puerta_Cerrada_Texto_1:
-	.string "Esta puerta está cerrada.$"
+	.string "-This door is closed.-$"

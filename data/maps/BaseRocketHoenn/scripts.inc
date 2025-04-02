@@ -583,7 +583,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "SP. DEF: 85\l"
 	.string "SPEED: 102\l"
 	.string "TOTAL: 580\p"
-	.string "For many trainers, it's the best\n"
+	.string "For many TRAINERS, it's the best\n"
 	.string "PSEUDO-LEGENDARY. It possesses all\l"
 	.string "the attributes necessary to be a\l"
 	.string "dominant POKÉMON: SPEED surpassing\l"

@@ -25,9 +25,9 @@ end
 
 SsAnne10F_Text_4:
 	.string "The S.S. ANNE is supposed to travel\n"
-	.string "across regions, bringing trainers from\l"
-	.string "all over the world. But all I see here are\l"
-	.string "KANTO POKÉMON!$"
+	.string "across regions, bringing TRAINERS from\l"
+	.string "all over the world. But all I see here\l"
+	.string "are KANTO POKÉMON!$"
 
 
 

@@ -45,7 +45,7 @@ release
 end
 
 RocketHideoutJohto_Text_3:
-.string "Have a nice day, sir!$"
+.string "Have a nice day, SIR!$"
 
 
 
@@ -359,7 +359,7 @@ RocketHideoutJohto_Text_22_2:
 	.string "usted termine habremos acabado.$"
 
 RocketHideoutJohto_Text_22:
-	.string "Pardon me, sir. Access to the upper\n"
+	.string "Pardon me, SIR. Access to the upper\n"
 	.string "floors is restricted to personnel\l"
 	.string "directly tied to ongoing projects. I've\l"
 	.string "heard GIOVANNI intends to introduce\l"
@@ -447,7 +447,7 @@ release
 end
 
 RocketHideoutJohto_Text_27:
-	.string "Everything's under control, sir! It's a\n"
+	.string "Everything's under control, SIR! It's a\n"
 	.string "It's a pleasure to have you in JOHTO!$"
 
 
@@ -494,7 +494,7 @@ release
 end
 
 RocketHideoutJohto_Text_30:
-	.string "JOHTO is yours, sir! Show all them the\n"
+	.string "JOHTO is yours, SIR! Show all them the\n"
     .string "power of TEAM ROCKET!$"
 
 

@@ -780,7 +780,7 @@ CinnabarMansionS2_Oak_Texto_2:
 	.string "stimulus; if LANCE had been intelligent,\l"
 	.string "he would've recognized his potential,\l"
 	.string "and if he had allowed him to\l"
-	.string "overcompensate by battling trainers of\l"
+	.string "overcompensate by battling TRAINERS of\l"
 	.string "your caliber, the snowball effect of his\l"
 	.string "intelligence would have made him\l"
 	.string "unbeatable handling the right POKÉMON.$"

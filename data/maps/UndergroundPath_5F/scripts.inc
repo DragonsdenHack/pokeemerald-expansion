@@ -500,12 +500,12 @@ step_end
 
 UndergroundPath_5F_Emboscada_Texto_1:
 	.string "The new GAME CORNER PORYGON's a total\n"
-	.string "scam. No one can afford it. And besides,\n"
+	.string "scam. No one can afford it. And besides,\l"
 	.string "everyone's saying it's total crap!$"
 
 UndergroundPath_5F_Emboscada_Texto_2:
 	.string "Lookin' a bit different there, ain't ya?\n"
-	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}?$"
+	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_3:
 	.string "Hold up…{PAUSE 15}…{PAUSE 15}$"
@@ -516,10 +516,10 @@ UndergroundPath_5F_Emboscada_Texto_4:
 
 UndergroundPath_5F_Emboscada_Texto_5:
 	.string "Lookin' a bit different there, ain't ya?\n"
-	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}?$"
+	.string "Maybe you'll be…? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_6:
-	.string "He's gotta be a suit. Think of the dosh\n"
+	.string "He must be a HIGH RANK! Think of the dosh\n"
 	.string "we'll roll in if we turn him in to LANCE!$"
 
 UndergroundPath_5F_Emboscada_Texto_7:
@@ -530,32 +530,32 @@ UndergroundPath_5F_Emboscada_Texto_8:
 	.string "Yeah!$"
 
 UndergroundPath_5F_Emboscada_Texto_9:
-	.string "Besides{PAUSE 15}…{PAUSE 15} We're doing the region a huge\n"
+	.string "Besides{PAUSE 25}…{PAUSE 25} We're doing the region a huge\n"
 	.string "favor.$"
 
 UndergroundPath_5F_Emboscada_Texto_10:
-	.string "Your days of freedom are over. I hope it\n"
-	.string "was worth it!$"
+	.string "Your days of freedom are over.\p"
+	.string "I hope it was worth it!$"
 
 UndergroundPath_5F_Emboscada_Texto_11:
 	.string "Are you fighting back?$"
 
 UndergroundPath_5F_Emboscada_Texto_12:
-	.string "Pfff{PAUSE 15}…{PAUSE 15} So{PAUSE 15}…{PAUSE 15} it seems like you trained\n"
+	.string "Hugh{PAUSE 15}…{PAUSE 15} So{PAUSE 15}…{PAUSE 15} it seems like you trained\n"
 	.string "your POKÉMON well.$"
 
 UndergroundPath_5F_Emboscada_Texto_13:
 	.string "I'll keep a couple of them before\n"
-	.string "handing you over to justice. No one will\n"
-	.string "care anyway!$"
+	.string "handing you over to justice.\p"
+	.string "No one will care anyway!$"
 
 UndergroundPath_5F_Emboscada_Texto_14:
 	.string "Give up already!$"
 
 UndergroundPath_5F_Emboscada_Texto_15:
-	.string "Darn you! He's gotta be a bigwig! If we\n"
-	.string "haul his bum to the LEAGUE HQ, we'll make\n"
-	.string "it big!$"
+	.string "Darn you! He must be even an EXECUTIVE!\p"
+	.string "If we haul his bum to the LEAGUE HQ,\n"
+	.string "we'll make it big!$"
 
 UndergroundPath_5F_Emboscada_Texto_16:
 	.string "Don't worry. I got this.\n"
@@ -574,20 +574,20 @@ UndergroundPath_5F_Emboscada_Texto_19:
 
 UndergroundPath_5F_Emboscada_Texto_20:
 	.string "Dang…{PAUSE 15}…{PAUSE 15} If I had a DRAGONAIR, you'd\n"
-	.string "have been whooped. If only it weren't\n"
-	.string "such a pain{PAUSE 15}…{PAUSE 15}…$"
+	.string "have been whooped. If only it weren't\l"
+	.string "such a pain to train{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_21:
 	.string "Grr{PAUSE 15}…{PAUSE 15} You keep your butt there{PAUSE 15}…{PAUSE 15} I'm\n"
-	.string "ringing up a buddy from CELADON\n"
-	.string "MANSION. He'll be here lickity-split. You\l"
+	.string "ringing up a buddy from CELADON\l"
+	.string "MANSION. He'll be here quickly; you\l"
 	.string "won't even have the chance to{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_22:
 	.string "????: Enough.$"
 
 UndergroundPath_5F_Emboscada_Texto_23:
-	.string "Th{PAUSE 15}-the BIKERS!$"
+	.string "Th{PAUSE 15}-{PAUSE 15}the BIKERS!$"
 
 UndergroundPath_5F_Emboscada_Texto_24:
 	.string "TETSUO: Get the heck outta here before\n"
@@ -606,8 +606,8 @@ UndergroundPath_5F_Emboscada_Texto_27:
 
 UndergroundPath_5F_Emboscada_Texto_28:
 	.string "His reign dug deep and tore the region a\n"
-	.string "new one like it were putty. Then LANCE\n"
-	.string "gave it the perfect mold… for him at\l"
+	.string "new one like it were putty. Then LANCE\l"
+	.string "gave it the perfect mold{PAUSE 15}…{PAUSE 15} for him at\l"
 	.string "least.$"
 
 UndergroundPath_5F_Emboscada_Texto_29:
@@ -627,8 +627,8 @@ UndergroundPath_5F_Emboscada_Texto_32:
 
 UndergroundPath_5F_Emboscada_Texto_33:
 	.string "But even though LANCE's government\n"
-	.string "had made the good ol' KANTO go up in\n"
-	.string "smoke{PAUSE 15} …{PAUSE 15}$"
+	.string "had made the good old KANTO go up in\l"
+	.string "smoke{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_34:
 	.string "{PAUSE 15}…{PAUSE 15} Being your own owner's a priceless\n"
@@ -636,6 +636,6 @@ UndergroundPath_5F_Emboscada_Texto_34:
 
 UndergroundPath_5F_Emboscada_Texto_35:
 	.string "Just getting that chance in itself\n"
-	.string "makes taking a chance worth it. Don't\n"
-	.string "you forget it, {PLAYER}.$"
+	.string "makes taking a chance worth it.\p"
+	.string "Don't you forget it, {PLAYER}.$"
 

@@ -244,7 +244,7 @@ Bill_Garden_Policia_Atlas_text_2.1:
 	.string "too good making decisions.$"
 
 Bill_Garden_Policia_Atlas_text_2.2:
-	.string "Ho, ho, ho! Let me know, how is the\l"
+	.string "Ho, ho, ho! Let me know, how is the\n"
 	.string "feeling of being sent to die by your own\l"
 	.string "superiors? It's OK, in the end you are\l"
 	.string "just a bunch of moral-less thieves with\l"

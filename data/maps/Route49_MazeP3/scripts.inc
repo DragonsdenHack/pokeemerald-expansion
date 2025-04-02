@@ -38,7 +38,7 @@ end
 Route49_MazeP3_Text4:
 	.string "The upper limit for POKÉMON is higher\n"
 	.string "now, only the wisest and most\l"
-	.string "experienced trainers may have noticed\l"
+	.string "experienced TRAINERS may have noticed\l"
 	.string "it. Have you felt it yet?$"
 
 

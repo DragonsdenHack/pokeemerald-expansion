@@ -111,8 +111,8 @@ RadioTowerP4_7_Texto_3:
 RadioTowerP4_7_Texto_1:
 	.string "{PLAYER}! Explore and enjoy every\n"
 	.string "corner of this region. Everything you\l"
-	.string "can learn from it and its trainers is a\l"
-	.string "gift.$"
+	.string "can learn from it and its TRAINERS is\l"
+	.string "a gift.$"
 
 RadioTowerP4_7_Texto_2:
 	.string "So, it will be that way… We have a lot of\n"

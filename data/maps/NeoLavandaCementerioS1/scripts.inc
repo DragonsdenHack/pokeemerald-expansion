@@ -255,7 +255,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
-.string "Oh, sir! I didn't expect to see you here.$"
+.string "Oh, SIR! I didn't expect to see you here.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_4:
 	.string "I doubt you remember me; I was there\n"

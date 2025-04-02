@@ -10,7 +10,7 @@ end
 
 SsAnne8F_Text_2:
 	.string "ANDRA: {PLAYER}, make sure the\n"
-	.string "Captain can't escape. Let's you and I\l"
+	.string "CAPTAIN can't escape. Let's you and I\l"
 	.string "have a little chat with him.$"
 
 
@@ -108,6 +108,7 @@ playse SE_PIN
 applymovement 2, SsAnne_8F_Capitan_move_9.1
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_8F_Capitan_move_9.1
 waitmovement 0x0
+waitse
 delay 15
 msgbox SsAnne_8F_Capitan_Text_11.1 MSGBOX_AUTOCLOSE
 delay 15
@@ -310,7 +311,7 @@ SsAnne_8F_Capitan_Text_1:
 
 SsAnne_8F_Capitan_Text_2:
 	.string "ANDRA: Actually, there is. You see,\n"
-	.string "Captain, you're known as a living legend\l"
+	.string "CAPTAIN, you're known as a living legend\l"
 	.string "in the seafaring world; you've sailed the\l"
 	.string "seven seas and seen many rare POKÉMON,\l"
 	.string "isn't that right?$"
@@ -318,7 +319,7 @@ SsAnne_8F_Capitan_Text_2:
 SsAnne_8F_Capitan_Text_3:
 	.string "We were wondering if you might show us a\n"
 	.string "glimpse of all those travels by letting\l"
-	.string "us see that famous jar - the jar that is\l"
+	.string "us see that famous jar; the jar that is\l"
 	.string "said to hold one of the greatest\l"
 	.string "mysteries in the world…$"
 
@@ -326,7 +327,7 @@ SsAnne_8F_Capitan_Text_4:
 	.string "CAPTAIN: You mean, this jar here?$"
 
 SsAnne_8F_Capitan_Text_5:
-.string "ANDRA: Wow, it's so… mysterious.$"
+.string "ANDRA: Wow, it's so{PAUSE 25}…{PAUSE 25} mysterious.$"
 
 SsAnne_8F_Capitan_Text_6:
 	.string "CAPTAIN: That's right, kid. The POKÉMON\n"
@@ -336,7 +337,7 @@ SsAnne_8F_Capitan_Text_6:
 	.string "PSEUDO-LEGENDARY POKÉMON?$"
 
 SsAnne_8F_Capitan_Text_7:
-	.string "ANDRA: PSEUDO-LEGENDARY POKÉMON, sir?$"
+	.string "ANDRA: PSEUDO-LEGENDARY POKÉMON, SIR?$"
 
 SsAnne_8F_Capitan_Text_8:
 	.string "CAPTAIN: In this region, you have\n"
@@ -385,7 +386,7 @@ SsAnne_8F_Capitan_Text_13:
 	.string "CAPTAIN: And you two seem like young\n"
 	.string "people eager to learn. I'd be happy to\l"
 	.string "teach you, if it weren't for the fact\l"
-	.string "that…$"
+	.string "that{PAUSE 15}…{PAUSE 15}$"
 
 SsAnne_8F_Capitan_Text_14:
 	.string "Indeed. I know who you are and why\n"
@@ -396,11 +397,11 @@ SsAnne_8F_Capitan_Text_14:
 	.string "description exactly.$"
 
 SsAnne_8F_Capitan_Text_14.1:
-.string "ANDRA:{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SsAnne_8F_Capitan_Text_15:
 	.string "You know, I've sailed many seas, but\n"
-	.string "none compare to Hoenn's vast, wild, and\l"
+	.string "none compare to HOENN's vast, wild, and\l"
 	.string "full of life. They're the only ones that\l"
 	.string "truly make you feel free, like you've\l"
 	.string "left all the corruption of this world\l"
@@ -413,7 +414,7 @@ SsAnne_8F_Capitan_Text_16:
 	.string "criminals from a region where the\l"
 	.string "waters are polluted by the POWER PLANT\l"
 	.string "and CYCLING ROAD are going to just\l"
-	.string "waltz in here and steal from me-a\l"
+	.string "waltz in here and steal from me a\l"
 	.string "one-of-a-kind item that reflects my 30\l"
 	.string "years of work as a sailor?$"
 
@@ -433,13 +434,13 @@ SsAnne_8F_Capitan_Text_18:
 	.string "girl. I take it you both come from there.$"
 
 SsAnne_8F_Capitan_Text_19:
-	.string "You might be right. The Sevii Islands\n"
+	.string "You might be right. The SEVII ISLANDS\n"
 	.string "are still on my list to fully explore.\l"
 	.string "I've heard that among the waters\l"
 	.string "connecting the seven main islands,\l"
-	.string "there are some islets-unexplored but\l"
-	.string "home to certain tribes.\p"
-	.string "And that's not all…$"
+	.string "there are some islets, unexplored\l"
+	.string "but home to certain tribes.\p"
+	.string "And that's not all{PAUSE 15}…{PAUSE 15}$"
 
 SsAnne_8F_Capitan_Text_20:
 	.string "Topographic maps show 8, 9, and maybe\n"
@@ -492,7 +493,7 @@ SsAnne_8F_Capitan_Text_28:
 	.string "CAPTAIN: This can't be happening.\n"
 	.string "My crew, outdone and humiliated by\l"
 	.string "a couple of young grunts from a\l"
-	.string "local gang.\l"
+	.string "local gang.\p"
 	.string "What a disgrace!$"
 
 SsAnne_8F_Capitan_Text_29:

@@ -62,7 +62,7 @@ Route5_Text_7:
 	.string "The POWER PLANT has been considered\n"
 	.string "our region's patrimony, since now it will\l"
 	.string "be protected by police and won't be\l"
-	.string "opened for exploration.Better you\l"
+	.string "opened for exploration. Better you\l"
 	.string "don't try any foolishness or justice\l"
 	.string "will pursue you.$"
 
@@ -79,7 +79,7 @@ Route5_Text_8:
 	.string "The POWER PLANT has been considered\n"
 	.string "our region's patrimony, since now it will\l"
 	.string "be protected by police and won't be\l"
-	.string "opened for exploration.Better you\l"
+	.string "opened for exploration. Better you\l"
 	.string "don't try any foolishness or justice\l"
 	.string "will pursue you.$"
 
@@ -358,7 +358,7 @@ Route10_Combate_Andra_Texto_8:
 	.string "the SS. ANNE's one.$"
 
 Route10_Combate_Andra_Texto_8.1:
-	.string "But I haven't been left behind,\l"
+	.string "But I haven't been left behind,\n"
 	.string "{PLAYER}, I told you I will be the\l"
 	.string "strongest GRUNT in the entire\l"
 	.string "organization, and I keep it. Now,\l"

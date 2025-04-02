@@ -296,7 +296,7 @@ CeruleanCityGym_Can_Pass_Texto_1:
 	.string "It's impossible! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} The LICENSE forged\n"
 	.string "in the historic dispatches of the HQ of\l"
 	.string "the KANTO POKÉMON LEAGUE.{PAUSE 15} …{PAUSE 15} …{PAUSE 15} Excuse\l"
-	.string "me, sir! You can enter our humble GYM!$"
+	.string "me, SIR! You can enter our humble GYM!$"
 
 
 CeruleanCityGym_NoPass_Der::
@@ -382,7 +382,7 @@ PewterCityGym_CanPass_Texto_2:
 PewterCityGym_CanPass_Texto_3:
 	.string "A TRAINER LICENSE? {PAUSE 15}… {PAUSE 15}…{PAUSE 15} Signed and\n"
 	.string "approved by the POKÉMON LEAGUE\l"
-	.string "MINISTRY itself… Excuse me, sir. With\l"
+	.string "MINISTRY itself… Excuse me, SIR. With\l"
 	.string "the failed SILPH raid, it's hard to\l"
 	.string "distinguish between real ROCKETs and\l"
 	.string "their lampooners. Go ahead.$"
@@ -543,8 +543,8 @@ FuchsiaCityGym_Can_Pass_Texto_1:
 	.string "along with LANCE and the ELITE FOUR,\l"
 	.string "authorize this TRAINER to be a POKÉMON\l"
 	.string "LEAGUE CHAMPIONSHIP participant… I'm\l"
-	.string "so sorry, sir. KOGA must be eager to\l"
-	.string "fight you.$"
+	.string "so sorry, SIR.\p"
+	.string "KOGA must be eager to fight you.$"
 
 FuchsiaCityGym_NoPass_Texto_1:
 	.string "Social dregs aren't allowed entry to\n"
@@ -582,8 +582,8 @@ Cinnabar_Gym_Can_Pass_Texto_1:
 	.string "… No, it can't be! A LICENSE approved\n"
 	.string "and signed by LANCE himself! There's\l"
 	.string "even your picture and TRAINER ID!\l"
-	.string "Excuse my misunderstanding, sir. Go\l"
-	.string "ahead, please.$"
+	.string "Excuse my misunderstanding, SIR.\p"
+	.string "Go ahead, please.$"
 
 Cinnabar_Gym_NoPass_Texto_1:
 .string "What kind of joke is this?\p"

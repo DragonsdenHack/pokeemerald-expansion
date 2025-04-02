@@ -137,7 +137,7 @@ end
 Route30Documento_Text_100:
 	.string "ROUTE 30\n"
 	.string "A fresh grass path\l"
-	.string "where trainers battle.$"
+	.string "where TRAINERS battle.$"
 
 
 

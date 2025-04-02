@@ -365,7 +365,7 @@ release
 end
 
 RocketHideout5F_Text_27:
-	.string "You won't see a lot of trainers with\n"
+	.string "You won't see a lot of TRAINERS with\n"
 	.string "POKÉMON like PINSIR, SCYTHER, TAUROS,\l"
 	.string "KANGASKHAN or the EEVEE evolutions, all\l"
 	.string "those considered strong and uncommon\l"
@@ -629,7 +629,7 @@ RocketHideout5F_Text_40:
 	.string "resources, it's a much better team than\l"
 	.string "all that scum roaming the routes and\l"
 	.string "common cities, calling themselves\l"
-	.string "trainers…{PAUSE 20} the best trainers in the\l"
+	.string "TRAINERS…{PAUSE 20} the best TRAINERS in the\l"
 	.string "region are hidden quite effectively.$"
 
 
@@ -815,7 +815,7 @@ release
 end
 
 RocketHideout5F_Text_53:
-	.string "You won't see a lot of trainers with\n"
+	.string "You won't see a lot of TRAINERS with\n"
 	.string "POKÉMON like PINSIR, SCYTHER, TAUROS,\l"
 	.string "KANGASKHAN or the EEVEE evolutions, all\l"
 	.string "those considered strong and uncommon\l"
@@ -879,7 +879,7 @@ RocketHideout5F_Text_57:
 	.string "EXEGGUTOR or KINGLER are two of\n"
 	.string "POKÉMON with tremendous BASE STATs\l"
 	.string "that are usually ignored by average\l"
-	.string "trainers, no one would say that KINGLER\l"
+	.string "TRAINERS, no one would say that KINGLER\l"
 	.string "has 130 base of ATTACK, or EXEGGUTOR\l"
 	.string "with 125 base of SPECIAL ATTACK,\l"
 	.string "although there is and surprises lot of\l"

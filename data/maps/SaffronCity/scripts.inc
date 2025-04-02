@@ -51,7 +51,7 @@ end
 
 SaffronCity_Text_4:
 	.string "SAFFRON belongs to TEAM ROCKET now!\n"
-	.string "Everything is in order, sir!$"
+	.string "Everything is in order, SIR!$"
 
 
 SaffronCity5::
@@ -107,7 +107,7 @@ end
 SaffronCity_Text_9:
 	.string "Did you really defeat BRUNO of the\n"
 	.string "ELITE 4? What an honor to work for you,\l"
-	.string "sir!$"
+	.string "SIR!$"
 
 
 SaffronCity10::
@@ -179,7 +179,7 @@ release
 end
 
 SaffronCity_Text_16:
-	.string "We were waiting for you sir, with you as\n"
+	.string "We were waiting for you SIR, with you as\n"
 	.string "EXECUTIVE in charge we won't fail! I\l"
 	.string "have direct orders from GIOVANNI to\l"
 	.string "block the access to that RED acting as\l"

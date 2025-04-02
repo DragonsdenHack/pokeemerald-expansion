@@ -60,14 +60,13 @@ BillGarden_House1_Bill_Combate_Text_1:
 
 BillGarden_House1_Bill_Combate_Text_2:
 	.string "Three cops ought to have done the job.\p"
-	.string "But maybe my restraint in taking three\n"
-	.string "was a mistake, as opposed to the twenty\l"
-	.string "I should've done from the start.$"
+	.string "My mistake may be the fact I didn't\n"
+	.string "hire 20 cops instead of just 3.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
-	.string "Either way, there's no exit. Say you\n"
-	.string "beat me. The whole of CERULEAN law\l"
-	.string "enforcement's on its way now.\p"
+	.string "Either way, there's no way out for you,\n"
+	.string "even beating me; the entire city police\l"
+	.string "is coming here, right now.\p"
 	.string "You were just too brash…$"
 
 BillGarden_House1_Bill_Combate_Text_4:
@@ -81,7 +80,7 @@ BillGarden_House1_Bill_Combate_Text_5:
 	.string "the honor of battling me. Lucky you.$"
 
 BillGarden_House1_Bill_Combate_Text_5.1:
-	.string "Not every day street trash like you\l"
+	.string "Not every day street trash like you\n"
 	.string "has the opportunity to witness the\l"
 	.string "great collection of BILL, number one\l"
 	.string "POKÉMANIAC!$"

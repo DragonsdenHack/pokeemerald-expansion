@@ -25,7 +25,7 @@ end
 RocketHideout3F_Text_2:
 	.string "Our job here is simple: increase\n"
 	.string "production, optimize, and automate as\l"
-	.string "much as possible. What you did at Bill's\l"
+	.string "much as possible. What you did at BILL's\l"
 	.string "has helped significantly, there's no\l"
 	.string "doubt about that.$"
 
@@ -109,15 +109,15 @@ release
 end
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_1:
-	.string "Wow! You must be {PLAYER}. It takes guts to mess\n"
-	.string "with someone as well-protected as Bill\l"
-	.string "and come out on top!$"
+	.string "Wow! You must be {PLAYER}. It takes guts\n"
+	.string "to mess with someone as well-protected\l"
+	.string "as BILL and come out on top!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_2:
-	.string "The big boss, Giovanni, is in his office\n"
-	.string "on the -4th floor, one level down from\l"
-	.string "here. He wanted to see you the second\l"
-	.string "you arrived. Don't keep him waiting!$"
+	.string "The big boss, GIOVANNI, is in his office\n"
+	.string "on the B4F, one level down from here.\l"
+	.string "He wanted to see you the second you\l"
+	.string "arrived. Don't keep him waiting!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
 	.string "One more thing: to reach his office, you\n"
@@ -129,7 +129,6 @@ RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1:
 .string "Obtained the ELEVATOR KEY\n"
 	.string "from the ROCKET SCIENTIST!$"
-
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
 	.string "Go, {PLAYER}. GIOVANNI is\n"

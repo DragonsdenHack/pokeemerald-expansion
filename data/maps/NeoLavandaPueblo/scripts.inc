@@ -417,7 +417,7 @@ end
 
 NeoLavandaPueblo_Policía_Texto_1.1:
 	.string "How's going the assault on the\n"
-	.string "UNDERGROUND PATH, sir? You can count\l"
+	.string "UNDERGROUND PATH, SIR? You can count\l"
 	.string "on us for anything you need.$"
 
 NeoLavandaPueblo_Policia_Move_15:
@@ -532,7 +532,7 @@ face_up
 step_end
 
 NeoLavandaPueblo_Policía_Texto_1:
-	.string "We apologize, sir. The radio tower just\n"
+	.string "We apologize, SIR. The radio tower just\n"
 	.string "needs a few final touches before it's\l"
 	.string "opened permanently. Why not visit the\l"
 	.string "CEM…?$"
@@ -576,7 +576,7 @@ NeoLavandaPueblo_Policía_Texto_11:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaPueblo_Policía_Texto_12:
-.string "Oh{PAUSE 15}…{PAUSE 15} You{PAUSE 15}…{PAUSE 15} Sir{PAUSE 15}…$"
+.string "Oh{PAUSE 15}…{PAUSE 15} You{PAUSE 15}…{PAUSE 15} SIR{PAUSE 15}…$"
 
 NeoLavandaPueblo_Policía_Texto_13:
 	.string "I see, you want to take care of it\n"
@@ -606,7 +606,7 @@ release
 end
 
 NeoLavandaPueblo_Segundo_Policia_Texto_1:
-	.string "Apologize, sir, but the LAVENDER RADIO\n"
+	.string "Apologize, SIR, but the LAVENDER RADIO\n"
 	.string "TOWER is still in the early stages of\l"
 	.string "construction. We won't be long since\l"
 	.string "it's being built at a record pace, but\l"

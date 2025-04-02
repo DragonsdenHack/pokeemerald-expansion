@@ -183,7 +183,7 @@ Route25_BillHouse_Evento_Policia_text_5:
 	.string "the LEGENDARY BIRDS.$"
 
 Route25_BillHouse_Evento_Policia_text_5.1:
-	.string "Your ingenuity amazes me; did you really\l"
+	.string "Your ingenuity amazes me; did you really\n"
 	.string "thought about a single ROCKET stealing\l"
 	.string "from the great BILL the intellectual\l"
 	.string "property of his greatest inventions?\p"
@@ -198,7 +198,7 @@ Route25_BillHouse_Evento_Policia_text_7:
 	.string "You'll be sitting in the clank for the\l"
 	.string "rest of your days for the attempted\l"
 	.string "theft of an essential intellectual\l"
-	.string "property of our region. … … Resisting\l"
+	.string "property of our region. {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} Resisting\l"
 	.string "arrest? Then we'll judge you to the\l"
 	.string "fullest extent of the law!$"
 

@@ -95,7 +95,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_2:
 GimnasioAnciana_Combate_Gimnasio_Texto_3:
 	.string "I'll be straightforward, I'm excited to\n"
 	.string "see you battle. I always say new\l"
-	.string "trainers are wimps who give up too\l"
+	.string "TRAINERS are wimps who give up too\l"
 	.string "easily. Show me otherwise!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_4:

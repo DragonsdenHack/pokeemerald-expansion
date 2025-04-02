@@ -37,7 +37,7 @@ end
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_1:
 	.string "Oh, well. It seems that you're one of\n"
-	.string "those trainers who hasn't been handed\l"
+	.string "those TRAINERS who hasn't been handed\l"
 	.string "anything. There are many kids out there\l"
 	.string "who think they're special just because\l"
 	.string "they've received some rare or powerful\l"

@@ -284,7 +284,7 @@ MtEmber_B5F_Encuentro_Magno_Texto_7:
 	.string "him go past this point!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_8:
-	.string "HR.KAREN: I won't let him touch you, sir.$"
+	.string "HR.KAREN: I won't let him touch you, SIR.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_9:
 	.string "MAXIE: You stay there, GROUDON awaits,\n"

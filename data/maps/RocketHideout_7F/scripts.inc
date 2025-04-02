@@ -44,7 +44,7 @@ end
 
 RocketHideout7F_Text_3:
 	.string "The power digits that we manage here\n"
-	.string "are so big for the 99% of the trainers, I\l"
+	.string "are so big for the 99% of the TRAINERS, I\l"
 	.string "hope you are one of the remaining 1%.$"
 
 
@@ -404,7 +404,7 @@ release
 end
 
 RocketHideout7F_Text_22:
-	.string "You don't stop, sir! At this rate, you'll\n"
+	.string "You don't stop, SIR! At this rate, you'll\n"
 	.string "travel through all the regions of the\l"
 	.string "POKÉMON world!$"
 

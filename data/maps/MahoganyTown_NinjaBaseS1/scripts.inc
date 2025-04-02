@@ -111,7 +111,7 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_12:
-	.string "You're the best, sir! Not even twenty\n"
+	.string "You're the best, SIR! Not even twenty\n"
 	.string "TRAINERS together were enough to stop\l"
 	.string "you!$"
 

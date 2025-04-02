@@ -9,7 +9,7 @@ release
 end
 
 Goldenrod_bikeshop_Text_1:
-	.string "Bikes? I'm sorry, sir. We just opened and\n"
+	.string "Bikes? I'm sorry, SIR. We just opened and\n"
 	.string "we don't have a lot of inventory. For\l"
 	.string "now, we only sell motorcycles.$"
 

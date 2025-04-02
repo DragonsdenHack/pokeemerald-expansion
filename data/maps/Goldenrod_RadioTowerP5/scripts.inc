@@ -2383,7 +2383,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_78:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_79:
 	.string "ARCHER: You should have provided more\n"
 	.string "details about the level III prototypes,\l"
-	.string "sir. It would have been a reality check\l"
+	.string "SIR. It would have been a reality check\l"
 	.string "for BILL.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_80:

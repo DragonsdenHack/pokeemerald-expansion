@@ -74,10 +74,10 @@ end
 
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_1:
-	.string "Darn that TAMER… Because of him,\n"
+	.string "Darn that TAMER{PAUSE 15}…{PAUSE 15} Because of him,\n"
 	.string "everybody makes fun of my OLD ROD. I\l"
 	.string "can't let things stay like this, or my\l"
-	.string "brothers'll hog all the glory…$"
+	.string "brothers'll hog all the glory{PAUSE 15}…{PAUSE 15}$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_2:
 .string "…\n"
@@ -105,35 +105,24 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_5:
 	.string "Say, this whopper'll help out a lot.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_6:
-.string "¡OBTUVISTE UN MAGIKARP AL NV.5!$"
+.string "YOU OBTAINED A LV.5 MAGIKARP!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7:
-.string "¿Cómo?\n"
-	.string "¿Esperabas algo mejor?\l"
-	.string "Déjame decirte ROCKET, que este\l"
-	.string "POKÉMON guarda un potencial muy\l"
-	.string "especial en su interior, solo\l"
-	.string "debes preocuparte de cuidarlo\l"
-	.string "adecuadamente y hacerlo crecer, y\l"
-	.string "tendrás a uno de los mejores\l"
-	.string "POKÉMON de toda KANTO, un DRAGÓN\l"
-	.string "en toda regla que el mismísimo\l"
-	.string "LANCE tiene en su equipo.$"
+	.string "What? Did you expect a better haul?\p"
+	.string "Lemme tell you, ROCKET. This is one of\n"
+	.string "the best catches in all of KANTO. A real\l"
+	.string "DRAGON even LANCE himself fields in his\l"
+	.string "dragons army.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_7.1:
-	.string "Por si fuera poco, te he dado un\n"
-	.string "CARAMELORARO de regalo equipado en\l"
-	.string "el MAGIKARP para que se te haga\l"
-	.string "menos duro entrenarlo, muy pocos\l"
-	.string "tienen ese detalle, ¿eh?\l"
-	.string "¡Úsalo cuando esté en el NIVEL 19\l"
-	.string "y disfruta de la transformación\l"
-	.string "más radical que podrás ver en el\l"
-	.string "mundo POKÉMON!$"
+	.string "Moreover, I held that MAGIKARP with a\n"
+	.string "RARE CANDY; Use it when reaches LV.19,\l"
+	.string "and enjoy the most radical evolution\l"
+	.string "you'll ever get to see!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_8:
-.string "¿Pudiste encontrar a ese DOMADOR?\n"
-	.string "¡Recuerda! ¡Está en AZULONA!$"
+.string "Did you find that TAMER?\n"
+	.string "Remember! He's in CELADON MANSION!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 .string "Would you be willing to make a small\n"
@@ -161,12 +150,12 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_11:
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_12:
 	.string "I want you to head over to CELADON\n"
-	.string "CITY-that's where he lives. Just teach\l"
+	.string "CITY, that's where he lives. Just teach\l"
 	.string "him a lesson from VERMILION CITY's\l"
 	.string "FISHING GURU. That ought'a make him cut\l"
 	.string "the trash talk about my OLD ROD. Just\l"
 	.string "be clear that TEAM ROCKET doesn't give\l"
-	.string "second warnings-maybe threaten to make\l"
+	.string "second warnings, maybe threaten to make\l"
 	.string "him go under or something. When you\l"
 	.string "finish up, come on back, and I'll give\l"
 	.string "you a fantastic POKÉMON.$"

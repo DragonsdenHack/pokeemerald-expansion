@@ -101,8 +101,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6:
 	.string "You can still change your mind, you're\n"
-	.string "lucky that I've had a good day and I'll be\l"
-	.string "willingly to forget your insolence.$"
+	.string "lucky that I've had a good day and I'll\l"
+	.string "be willingly to forget your insolence.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_7:
 	.string "It seems there are still ROCKETS with\n"

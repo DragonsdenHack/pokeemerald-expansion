@@ -71,7 +71,7 @@ release
 end
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_1:
-	.string "At your service sir, BOSS ADMIN\n"
+	.string "At your service SIR, BOSS ADMIN\n"
 	.string "{PLAYER}.$"
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_2:

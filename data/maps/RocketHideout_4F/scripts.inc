@@ -902,16 +902,16 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_3:
 	.string "relic jar from the SS. ANNE's CAPTAIN.$"
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_3.1:
-    .string "All in all, his only defeat was\n"
-	.string "at the hands of that mysterious\l"
-	.string "TRAINER from PALLET TOWN, in the MT. MOON\l"
+    .string "All in all, his only defeat was at\n"
+	.string "the hands of that mysterious TRAINER\l"
+	.string "from PALLET TOWN, in the MT. MOON\l"
 	.string "fiasco, and from what I've heard, he was\l"
 	.string "the only GRUNT who wasn't intimidated by\l"
 	.string "his rival's so-called power, fighting\l"
 	.string "until the very end.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_4:
-.string "GIOVANNI: An excellent introduction, PROTON.\p"
+.string "GIOVANNI: Excellent, PROTON.\p"
 	.string "Thank you.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_5:
@@ -975,7 +975,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_11:
 	.string "that mysterious TRAINER.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_11.1:
-	.string "You faced him at MT. MOON, so I expect a\l"
+	.string "You faced him at MT. MOON, so I expect a\n"
 	.string "full report: his POKÉMON, items, moves,\l"
 	.string "fighting style, physical traits,\l"
 	.string "attitude, potential weaknesses… leave\l"
@@ -984,7 +984,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_11.1:
 RocketHideout_4F_Giovanni_Mision_1_Texto_12:
 	.string "GIOVANNI: {PAUSE 25}…{PAUSE 25} {PAUSE 15}…{PAUSE 15} I see. This isn't just any\n"
 	.string "trainer. CHARMELEON is not the kind of\l"
-	.string "POKÉMON you can catch nowadays; only the\l"
+	.string "the POKÉMON you can catch nowadays; only\l"
 	.string "elite have access to such specimen,\l"
 	.string "especially since they vanished as\l"
 	.string "wild POKÉMON, after the KANTO WAR.$"
@@ -1052,9 +1052,9 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_20:
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_20.1:
 	.string "We sold the SAFARI ZONE as a unique,\n"
-	.string "place, the only one where certain POKÉMON\l"
-	.string "can be found, and we converted KANGASKHAN\l"
-	.string "into the main symbol of that.$"
+	.string "place, the only one where certain\l"
+	.string "POKÉMON can be found, and we converted\l"
+	.string "KANGASKHAN into the main symbol of that.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_20.2:
 	.string "We claimed it's only there due to our\n"
@@ -1105,7 +1105,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_24:
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_25:
 	.string "KOGA: I'll be keeping an eye on the news.\p"
-	.string "We need to act fast; the area will soon\l"
+	.string "We need to act fast; the area will soon\n"
 	.string "be swarming with gawkers hoping for a\l"
 	.string "glimpse.$"
 
@@ -2103,7 +2103,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17.1:
 	.string "of our dear KANTO.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_18:
-.string "PROTON: Here you go, sir.$"
+.string "PROTON: Here you go, SIR.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19:
 	.string "GIOVANNI: I don't want you to act as a\n"
@@ -2663,7 +2663,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_14.2:
 	.string "PROTON!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_15:
-    .string "PROTON: As you wish, sir.$"
+    .string "PROTON: As you wish, SIR.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16:
 .string "ANDRA: Wow! A secret base hidden inside\n"

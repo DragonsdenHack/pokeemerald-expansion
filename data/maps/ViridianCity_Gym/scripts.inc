@@ -205,9 +205,9 @@ ViridianCity_Gym_Pase_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 ViridianCity_Gym_Pase_Texto_3:
-	.string "Oh…{PAUSE 20} just like that girl who passed\n"
+	.string "Oh{PAUSE 20}…{PAUSE 20} just like that girl who passed\n"
 	.string "through here not long ago. I apologize\l"
-	.string "for the impertinence, sir, but this joke\l"
+	.string "for the impertinence, SIR, but this joke\l"
 	.string "of dressing as a ROCKET is not pleasing\l"
 	.string "the higher-ups in INDIGO PLATEAU. It's\l"
 	.string "not wise to anger them.$"

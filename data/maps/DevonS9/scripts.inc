@@ -391,7 +391,7 @@ DevonS10_DLC_Escena_Final_Texto_4:
 
 DevonS10_DLC_Escena_Final_Texto_5:
 	.string "????: I see, it's only reserved for the\n"
-	.string "most capable trainers, who have\l"
+	.string "most capable TRAINERS, who have\l"
 	.string "developed a special bond with one of\l"
 	.string "their own.$"
 

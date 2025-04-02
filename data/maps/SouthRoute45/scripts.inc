@@ -66,7 +66,7 @@ release
 end
 
 SouthRoute45_Text_10:
-	.string "Is everything okay, sir? We wish you\n"
+	.string "Is everything okay, SIR? We wish you\n"
 .string "luck in your journey through JOHTO!$"
 
 

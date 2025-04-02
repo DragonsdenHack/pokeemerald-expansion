@@ -16,11 +16,10 @@ release
 end
 
 UndergroundPath6F_Text_1:
-.string "LANCE os prohibió hace poco entrar\n"
-.string "también al CENTRO COMERCIAL\l"
-.string "AZULONA, os está bien empleado así\l"
-.string "aprenderéis a respetar los\l"
-.string "derechos de los ciudadanos.$"
+	.string "LANCE recently banned you from\n"
+	.string "entering the CELADON DEPT. STORE, too.\l"
+	.string "I'm glad about that, you have to learn\l"
+	.string "to respect the law!$"
 
 UndergroundPath6F_Text_2:
 .string "A juzgar por tu indumentaria, yo\n"

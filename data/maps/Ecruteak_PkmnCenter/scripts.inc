@@ -28,8 +28,8 @@ end
 
 Ecruteak_PkmnCenter_Text_2:
 	.string "The KIMONO GIRLS are very skilled\n"
-	.string "dancers, as well as adept trainers. They\l"
-	.string "are amazing!$"
+	.string "dancers, as well as adept TRAINERS.\p"
+	.string "They are amazing!$"
 
 
 

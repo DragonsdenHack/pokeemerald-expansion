@@ -339,7 +339,7 @@ release
 end
 
 BaseRocketHoennS2_Text_25:
-	.string "Sir! How does it feel to be in a place\n"
+	.string "SIR! How does it feel to be in a place\n"
 	.string "that isn't documented, but where\l"
 	.string "everything is decided?$"
 

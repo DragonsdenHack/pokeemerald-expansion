@@ -155,7 +155,7 @@ FourIsland_Encuentro_Zeus_Texto_2:
 	.string "You don't appear to be from this place,\n"
 	.string "and you also don't seem like a typical\l"
 	.string "trainer, but what does that matter; all\l"
-	.string "trainers along with their POKÉMON are\l"
+	.string "TRAINERS along with their POKÉMON are\l"
 	.string "equal against the creator of\l"
 	.string "everything.$"
 
@@ -337,12 +337,12 @@ FourIsland_Secundaria_Anciana_Texto_6.1:
 	.string "Perhaps if you check the rocks, you\n"
 	.string "might find a gap to move forward, even\l"
 	.string "if it seems impossible…{PAUSE 20} That's what\l"
-	.string "sets true trainers apart, going beyond\l"
+	.string "sets true TRAINERS apart, going beyond\l"
 	.string "apparent limits, right?$"
 
 FourIsland_Secundaria_Anciana_Texto_7:
-	.string "If you come across something, would you\n"
-	.string "be able to show me that unique\l"
+	.string "If you come across something, would\n"
+	.string "you be able to show me that unique\l"
 	.string "POKÉMON?$"
 
 FourIsland_Secundaria_Anciana_Texto_8:

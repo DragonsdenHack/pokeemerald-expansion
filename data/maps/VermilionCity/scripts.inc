@@ -467,64 +467,58 @@ release
 end
 
 VermilioCity_Motorista_Text_1:
-.string "ANDRA: ¿Alguna noticia de nuestro\n"
-	.string "supuesto comodín para entrar al\l"
-	.string "SS.ANNE?\p"
+.string "ANDRA: Any signal about our supposed\n"
+	.string "wild card to enter S.S. ANNE?\p"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "Ya veo.$"
+	.string "I see.$"
 
 VermilioCity_Motorista_Text_2:
-.string "Las cosas parecen haber mejorado\n"
-	.string "mucho para nosotros desde el\l"
-	.string "fiasco del MT.MOON, solo era\l"
-	.string "cuestión de tiempo para que\l"
-	.string "reconocieran tu nivel, y ahora\l"
-	.string "somos RECLUTAS DE ALTO RANGO.$"
+	.string "Things've been looking up for us since\n"
+	.string "the failure at MT. MOON. It was just\l"
+	.string "about time for them to recognize your\l"
+	.string "skill, and now we're here, as HIGH\l"
+	.string "RANK GRUNTS.$"
 
 VermilioCity_Motorista_Text_2.1:
-	.string "¿Sabes lo que eso significa, no?\n"
-	.string "Nos concederán misiones de cada\l"
-	.string "vez más importancia, y podremos\l"
-	.string "empezar a movernos entre los peces\l"
-	.string "gordos de la organización, esta ya\l"
-	.string "no parece una misión convencional.$"
+	.string "You know what that means, don't you?\p"
+	.string "They'll assign us more important\n"
+	.string "missions, so we'll be moving between the\l"
+	.string "big fishes of this organization. This\l"
+	.string "doesn't seem like a run-of-the-mill\l"
+	.string "mission either.$"
 
 VermilioCity_Motorista_Text_2.2:
-	.string "¿Viste nuestras caras cuando nos\n"
-	.string "enteramos de que el mismo GIOVANNI\l"
-	.string "en persona había ordenado esta\l"
-	.string "misión?$"
+	.string "Did you see our faces when\n"
+	.string "we knew about GIOVANNI himself\l"
+	.string "ordering this mission?$"
 
 VermilioCity_Motorista_Text_3:
-.string "Sea lo que sea que contenga ese\n"
-	.string "frasco del CAPITÁN, lo\l"
-	.string "encontraremos{PAUSE 15}…{PAUSE 15}\l"
-	.string "Me pregunto si podremos llegar a\l"
-	.string "ver a GIOVANNI en pers…{PAUSE 5}$"
+	.string "Whatever's in that CAPTAIN's flask,\n"
+	.string "we'll find it. I wonder if we'll get\l"
+	.string "to see GIOVANNI after…$"
 
 VermilioCity_Motorista_Text_4:
-.string "Debéis de ser los ROCKET\n"
-	.string "enviados por PETREL,\l"
-	.string "¿cierto?$"
+.string "You must be the HIGH RANK GRUNTS\n"
+	.string "sent by PETREL, aren't you?$"
 
 VermilioCity_Motorista_Text_5:
 .string "ANDRA: Indeed, so who are you?$"
 
 VermilioCity_Motorista_Text_6:
-.string "TETSUO, one of KANTO MOTORISTS\n"
+.string "TETSUO, one of KANTO BIKERS\n"
 	.string "ASSOCIATION bosses, but it doesn't\l"
-	.string "care right now.$"
+	.string "matters right now.$"
 
 VermilioCity_Motorista_Text_7:
-	.string "TETSUO: Hey, look. Lemme tell you what\n"
+	.string "Hey, look. Lemme tell you what\n"
 	.string "we're gonna do here. I scoped this guy\l"
 	.string "out, and he loves marine POKÉMON.\p"
 	.string "I'm gonna rile him up so you guys can\n"
 	.string "sneak onto the S.S. ANNE.$"
 
 VermilioCity_Motorista_Text_8:
-	.string "TETSUO: When I give the order, hurry\n"
+	.string "When I give the order, hurry\n"
 	.string "aboard and leave the rest to me…$"
 
 VermilioCity_Motorista_Text_9:
@@ -545,20 +539,20 @@ VermilioCity_Motorista_Text_11:
 
 VermilioCity_Motorista_Text_12:
 	.string "TETSUO: Yeah, whatever. Real POISON\n"
-	.string "POKÉMON like WEEZING, GENGAR, or GOLBAT\l"
-	.string "can handle their worst enemy, no\l"
-	.string "problem: GROUND POKÉMON. TENTACOOL\l"
+	.string "POKÉMON like WEEZING, GENGAR, or\l"
+	.string "GOLBAT, can handle their worst enemy,\l"
+	.string "no problem: GROUND POKÉMON. TENTACOOL\l"
 	.string "and TENTACRUEL though? All that WATER\l"
 	.string "sure doesn't do jack to keep ‘em from\l"
-	.string "getting buried-all it does is just wash\l"
+	.string "getting buried; all it does is just wash\l"
 	.string "out everything that makes a POISON\l"
 	.string "POKÉMON good! All WATER's good for is\l"
 	.string "just drowning out all the positives of\l"
 	.string "every other type!$"
 
 VermilioCity_Motorista_Text_13:
-	.string "SAILOR: Oh, that's it, you bastard! I'll\n"
-	.string "make you pay for running your\l"
+	.string "SAILOR: Oh, that's it, you bastard!\p"
+	.string "I'll make you pay for running your\n"
 	.string "motormouth over the purity of WATER\l"
 	.string "POKÉMON! Now lemme show you just how\l"
 	.string "wrong you really are!$"
@@ -917,7 +911,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_8:
 VermilionCity_Secundaria_AncianoMachop_Texto_9:
 	.string "Oh!\p"
 	.string "A HIGH-RANK ROCKET GRUNT?\p"
-	.string "Mm, yes, your POKÉMON seem to pack a punch.\p"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} yes, your POKÉMON seem strong.\p"
 	.string "Tell me, would you like to do a little\n"
 	.string "job for me?$"
 
@@ -926,9 +920,9 @@ VermilionCity_Secundaria_AncianoMachop_Texto_10:
 	.string "the local FAN CLUB's got a big\l"
 	.string "reputation here, and now he's gone and\l"
 	.string "made fun of my aspirations. He's\l"
-	.string "complained about my project-says in\l"
-	.string "three years, this'll stay an empty solar,\l"
-	.string "and I'll be long gone.$"
+	.string "complained about my project; says\l"
+	.string "in three years, this'll stay an\l"
+	.string "empty solar, and I'll be long gone.$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_11:
 	.string "Now see here. What I want you to do is\n"
@@ -948,7 +942,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_12:
 
 VermilionCity_Secundaria_AncianoMachop_Texto_13:
 .string "No? Well{PAUSE 15}…{PAUSE 15}\n"
-	.string "If you change your mind, I'll be right here.$"
+	.string "If you change your mind, I'll be here.$"
 
 VermilionCity_Secundaria_AncianoMachop_Move_1:
 emote_exclamation_mark
@@ -1310,11 +1304,11 @@ release
 end
 
 Vermilion_Motorista_Texto_1:
-.string "¿Sabías que WEEZING puede aprender\n"
-	.string "RAYO?\l"
-	.string "¡Voy a fundir a todos tus POKÉMON\l"
-	.string "acuáticos solo con ese bendito\l"
-	.string "movimiento!$"
+.string "Did you know WEEZING can\n"
+	.string "learn THUNDERBOLT?\p"
+	.string "I'm going to sweep your entire\n"
+	.string "WATER-TYPE team with one single\l"
+	.string "move!$"
 
 Vermilion_Anciano_Bill::
 lock

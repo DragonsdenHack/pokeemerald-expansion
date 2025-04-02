@@ -10,7 +10,7 @@ end
 
 Goldenrod_ShopP5_Text_1:
 	.string "In this city, there are some overly\n"
-	.string "competitive trainers; I think they\l"
+	.string "competitive TRAINERS; I think they\l"
 	.string "should relax and enjoy all the\l"
 	.string "possibilities that GOLDENROD allows,\l"
 	.string "that's all. But we have the complete\l"

@@ -132,7 +132,7 @@ walk_in_place_down
 step_end
 
 Aqua2_Combate_Admin_Texto_1:
-	.string "Well, not many trainers measure up with\n"
+	.string "Well, not many TRAINERS measure up with\n"
 	.string "SHELLY. It seems your presence here\l"
 	.string "isn't purely coincidental after all.$"
 

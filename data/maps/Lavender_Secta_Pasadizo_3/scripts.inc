@@ -414,13 +414,13 @@ Lavender_Secta_Pasadizo_Lider_Texto_13:
 
 Lavender_Secta_Pasadizo_Lider_Texto_14:
 	.string "That new enterprise, SILPH. They're\n"
-	.string "building their HQ there. They say the\n"
+	.string "building their HQ there. They say the\l"
 	.string "building will be taller than the POKÉMON\l"
 	.string "TOWER itself.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_15:
 	.string "And besides that, a new GYM may open\n"
-	.string "there, alongside the grand opening of\n"
+	.string "there, alongside the grand opening of\l"
 	.string "SILPH.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_16:
@@ -434,11 +434,11 @@ Lavender_Secta_Pasadizo_Lider_Texto_18:
 
 Lavender_Secta_Pasadizo_Lider_Texto_19:
 	.string "????: Once the new GYM is built, there\n"
-	.string "won't be a place for this one anywhere\n"
+	.string "won't be a place for this one anywhere\l"
 	.string "in KANTO.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_20:
-	.string "It'll become a place for helping trainers.$"
+	.string "It'll become a place for helping TRAINERS.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_21:
 	.string "C. FRIDA: Helping?$"
@@ -456,13 +456,13 @@ Lavender_Secta_Pasadizo_Lider_Texto_24:
 
 Lavender_Secta_Pasadizo_Lider_Texto_25:
 	.string "????: The NAME RATER will be in charge\n"
-	.string "of it. But these tombs are quite old.\n"
+	.string "of it. But these tombs are quite old.\l"
 	.string "Sooner or later, this place will be\l"
 	.string "forgotten.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_26:
 	.string "C. FRIDA: I see. Well, at least… some of\n"
-	.string "this GYM will live under these new\n"
+	.string "this GYM will live under these new\l"
 	.string "generations.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_27:
@@ -492,7 +492,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_33:
 
 Lavender_Secta_Pasadizo_Lider_Texto_34:
 	.string "At that moment, I realized that the old,\n"
-	.string "forgotten, and mistreated tombstone\n"
+	.string "forgotten, and mistreated tombstone\l"
 	.string "still held something.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_35:
@@ -505,7 +505,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_36:
 
 Lavender_Secta_Pasadizo_Lider_Texto_37:
 	.string "You're the strongest and noblest\n"
-	.string "POKÉMON that I have ever known, but\n"
+	.string "POKÉMON that I have ever known, but\l"
 	.string "somehow you fear returning to that\l"
 	.string "place.$"
 
@@ -518,7 +518,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_39:
 
 Lavender_Secta_Pasadizo_Lider_Texto_40:
 	.string "If you desire so, I will end my days\n"
-	.string "without knowing where those stairs\n"
+	.string "without knowing where those stairs\l"
 	.string "lead.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_41:

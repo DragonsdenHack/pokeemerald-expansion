@@ -1261,7 +1261,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_2:
 	.string "his back.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_2.1:
-    .string "And{PAUSE 15}…{PAUSE 15} if that weren't enough,\l"
+    .string "And{PAUSE 15}…{PAUSE 15} if that weren't enough,\n"
 	.string "the CERULEAN CITY POLICE prioritizes\l"
 	.string "his protection above all else. It was\l"
 	.string "reckless to send one of us to steal\l"
@@ -1342,8 +1342,8 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_14:
 	.string "As for you, I apologize again.\n"
 	.string "Especially you, {PLAYER}. Many\l"
 	.string "thought CHRONO ISLAND offered only\l"
-	.string "weaklings and incompetent ROCKETs. But\l"
-	.string "you've just proven that isn't the case.$"
+	.string "weaklings and incompetent ROCKETs.\p"
+	.string "You've just proven that isn't the case.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 	.string "Because of your excellent performance\n"
@@ -1431,7 +1431,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_26:
 	.string "that fragment in a flask. He's shown it\l"
 	.string "off in all sorts of interviews, and he\l"
 	.string "always keeps it by his side. You'll be\l"
-	.string "entering his cabin to steal it by force.\l"
+	.string "entering his cabin to steal it by force.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_26.1:
 	.string "There's no other way, and that's why\n"
@@ -1448,8 +1448,8 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_28:
 	.string "rudimentary, but should work.\p"
 	.string "Your partner will await you at the\n"
 	.string "VERMILION harbor; don't worry about\l"
-	.string "distinguishing him-you'll recognize him\l"
-	.string "immediately.$"
+	.string "distinguishing him, you'll recognize\l"
+	.string "him immediately.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
 .string "{PAUSE 15}…{PAUSE 15}$"
@@ -1475,7 +1475,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_33:
 	.string "shown great skill in battle.$"
 	
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_33.1:
-	.string "CAPTAIN's got experience from getting\l"
+	.string "CAPTAIN's got experience from getting\n"
 	.string "flagged down in seas across the world,\l"
 	.string "and his POKÉMON will prove it; keep your\l"
 	.string "POKÉMON strong to disarm him.$"
@@ -1789,7 +1789,8 @@ step_end
 
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_1:
-	.string "PETREL: Excellent work, HIGH RANK GRUNTs.\p"
+	.string "PETREL: Excellent work,\n"
+	.string "HIGH RANK GRUNTs.\p"
 	.string "GIOVANNI'll be eager to start\n"
 	.string "investigating the contents of\l"
 	.string "that flask.$"
@@ -1881,7 +1882,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_13.2:
 	.string "possible shape to GIOVANNI.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_13.3:
-	.string "This HQ is a musty shed infested with\l"
+	.string "This HQ is a musty shed infested with\n"
 	.string "RATTATA, compared to the immaculate\l"
 	.string "offices of our underground facilities\l"
 	.string "in CELADON CITY.$"
@@ -1918,14 +1919,14 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_17:
 	.string "PETREL: {PAUSE 15}…{PAUSE 15}They're convinced we'd be the\n"
 	.string "villains of a B-rated film, exactly!\p"
 	.string "Exactly, ANDRA! This is the power of a\n"
-	.string "corrective smearing campaign-the\l"
-	.string "manipulation of information, of facts,\l"
+	.string "corrective smearing campaign, the\l"
+	.string "manipulation of info and facts.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17.1:
 	.string "LANCE is the KANTO CHAMPION and\n"
 	.string "GOBERNOR at the same time, that\l"
 	.string "means power, power to manipulate\l"
-	.string "the story as he pleases$"
+	.string "the story as he pleases.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17.2:
 	.string "The truth is{PAUSE 15}…{PAUSE 15}\p"
@@ -2181,7 +2182,7 @@ RocketHideout_6F_Escena_Lance_Texto_17:
 	.string "immediately. I have news for you.$"
 
 RocketHideout_6F_Escena_Lance_Texto_18:
-	.string "ANDRA: Yes, sir!$"
+	.string "ANDRA: Yes, SIR!$"
 
 RocketHideout_6F_Escena_Lance_2_move1:
 walk_in_place_up
@@ -2263,7 +2264,7 @@ end
 RocketHideout_6F_Maquina_Teletransporte_Texto_1:
 .string "…\n"
 	.string "…\p"
-.string "-Seems that this machine's development\n"
+    .string "-Seems that this machine's development\n"
 	.string "is still in the earliest stages.-$"
 
 RocketHideout_6F_Maquina_Teletransporte_2::
@@ -2279,8 +2280,9 @@ release
 end
 
 RocketHideout_6F_Maquina_Teletransporte_YesNo:
-.string "The machine is ready for use.\n"
-	.string "Do you want to TELEPORT to the CELADON BASE?$"
+.string "The machine is ready for use.\p"
+    .string "Do you want to TELEPORT to\n"
+	.string "the CELADON BASE?$"
 
 RocketHideout_6F_Maquina_Teletransporte_No::
 release

@@ -431,7 +431,7 @@ Silph_11F_Bill_Presidente_Texto_2.4:
 
 Silph_11F_Bill_Presidente_Texto_2.5:
 	.string "Unfortunately for you, there are still\n"
-	.string "trainers that haven't been infected\l"
+	.string "TRAINERS that haven't been infected\l"
 	.string "with the virus of mediocrity and\l"
 	.string "conformity.$"
 
@@ -662,7 +662,7 @@ Silph_11F_Bill_Presidente_Texto_27:
 	.string "POKÉMON.$"
 
 Silph_11F_Bill_Presidente_Texto_28:
-	.string "S.MIGUEL: Sir BILL! We better go out\n"
+	.string "S.MIGUEL: SIR BILL! We better go out\n"
 	.string "before the rest of ROCKETS notices our\l"
 	.string "failure, it could be risky, you know how\l"
 	.string "much some ROCKETS hate you, and they\l"

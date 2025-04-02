@@ -269,7 +269,7 @@ ViridianForest_Combate_Guays_Texto_1:
 
 ViridianForest_Combate_Guays_Texto_2:
 	.string "JUAN: With this latest addition, we'll be\n"
-	.string "the envy of all the cool trainers, no\l"
+	.string "the envy of all the COOL-TRAINERS, no\l"
 	.string "one has a team like ours, the SCYTHER we\l"
 	.string "catched in the SAFARI ZONE is the\l"
 	.string "perfect complement, two BUG TYPE that\l"
@@ -311,7 +311,7 @@ ViridianForest_Combate_Guays_Texto_8:
 ViridianForest_Combate_Guays_Texto_9:
 	.string "JUAN: I for real didn't expect this, a\n"
 	.string "ROCKET defeating the most cools of the\l"
-	.string "cool trainers.$"
+	.string "COOL-TRAINERS.$"
 
 ViridianForest_Combate_Guays_Texto_10:
 	.string "VERO: Seems like you are competent,\n"

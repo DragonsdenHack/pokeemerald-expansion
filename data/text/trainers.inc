@@ -5840,7 +5840,7 @@ Route9_Text_HikerPostBattle:
 
 Route9_Text_ChicoIntro:
 	.string "You don't seem like a\n"
-	.string "normal ROCKET GRUNT\l"
+	.string "normal ROCKET GRUNT.\l"
 	.string "On guard!$"
 
 

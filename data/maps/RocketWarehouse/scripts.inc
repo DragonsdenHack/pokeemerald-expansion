@@ -198,8 +198,8 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_11:
 	.string "It is a very special POKÉMON, with a big\n"
 	.string "heart and loyal to its TRAINER. It\l"
 	.string "belongs to the ancient JOHTO, extinct\l"
-	.string "in the wild, only a few old trainers from\l"
-	.string "the region possess one.$"
+	.string "in the wild, only a few old TRAINERS\l"
+	.string "from the region possess one.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_12:
 	.string "It's known to share lines with DEWGONG,\n"

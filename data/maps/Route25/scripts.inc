@@ -9,9 +9,9 @@ release
 end
 
 Route25_Text_1:
-	.string "This cape is a nice place to come with\n"
-	.string "your mate. MISTY, our GYM LEADER, comes\l"
-	.string "here often.$"
+	.string "This cape is a nice place to come\n"
+	.string "with your mate. MISTY, our GYM\l"
+	.string "LEADER, comes here often.$"
 
 
 Route25_2::
@@ -25,7 +25,7 @@ Route25_Text_2:
 .string "Are you coming alone?\n"
 .string "…\l"
 .string "…\l"
-.string "Well, you're supposed to come with someone.$"
+.string "You're supposed to come with someone.$"
 
 
 Route25_3::

@@ -212,7 +212,7 @@ LavenderRadioP8_Encuentro_Devon_Texto_2:
 .string "A shame, isn't it?$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_3:
-	.string "Back in the day, trainers would develop\n"
+	.string "Back in the day, TRAINERS would develop\n"
 	.string "talent, ability and a bond with their\l"
 	.string "POKÉMON so they could achieve victory.\l"
 	.string "Old champions were what they were\l"

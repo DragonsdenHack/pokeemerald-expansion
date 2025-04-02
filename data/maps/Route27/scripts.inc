@@ -26,7 +26,7 @@ end
 Route27_Text_1:
 	.string "ROUTE 26 has been reopened, but\n"
 	.string "proceed with caution; wild POKÉMON need\l"
-	.string "time to get used to seeing trainers.$"
+	.string "time to get used to seeing TRAINERS.$"
 
 
 

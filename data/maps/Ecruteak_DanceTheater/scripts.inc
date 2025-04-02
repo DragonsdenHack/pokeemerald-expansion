@@ -392,7 +392,7 @@ Ecruteak_DanceTheater_Batallas_Texto_6:
 	.string "you can't see places like this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_7:
-.string "It's my turn now, kind sir.$"
+.string "It's my turn now, kind SIR.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_8:
 	.string "Has my sister KOUME tired you out? I\n"
@@ -458,7 +458,7 @@ Ecruteak_DanceTheater_Batallas_Texto_22:
 	.string "with your courage and bravery!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_23:
-	.string "Come, good sir. Let us present you with\n"
+	.string "Come, good SIR. Let us present you with\n"
 	.string "this item, so you can quickly restore\l"
 	.string "your entire team of POKÉMON.$"
 

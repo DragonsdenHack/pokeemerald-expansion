@@ -56,9 +56,9 @@ end
 VioletGym_Frontera_Texto_1:
 	.string "Hey! Where do you think you're headed?\n"
 	.string "Our LEADER's no longer accepting\l"
-	.string "challenges from aspiring trainers. If\l"
-	.string "you wish to battle, you'll have to\l"
-	.string "change his mind.$"
+	.string "challenges from aspiring TRAINERS.\p"
+	.string "If you wish to battle, you'll have\n"
+	.string "to change his mind.$"
 
 VioletGym_Frontera_Move_1:
 face_up

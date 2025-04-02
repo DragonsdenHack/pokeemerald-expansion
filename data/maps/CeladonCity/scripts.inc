@@ -360,7 +360,7 @@ CeladonCity_Entrenador_Especial_Texto_6:
 .string "So, do you accept the challenge?$"
 
 CeladonCity_Entrenador_Especial_Texto_7:
-	.string "I'll see if the young trainers from\n"
+	.string "I'll see if the young TRAINERS from\n"
 	.string "KANTO are as good as they used to be!$"
 
 CeladonCity_Entrenador_Especial_Texto_8:

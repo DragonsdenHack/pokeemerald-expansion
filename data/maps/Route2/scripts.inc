@@ -43,7 +43,7 @@ release
 end
 
 Route2_Text_5:
-	.string "Those cool trainers said that we would\n"
+	.string "Those COOL-TRAINERS said that we would\n"
 	.string "find a wild PINSIR here.$"
 
 

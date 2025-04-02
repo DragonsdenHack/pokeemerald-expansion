@@ -23,7 +23,7 @@ release
 end
 
 RuinsOfAlph_Cave2_Text_2:
-	.string "Roger that, sir. We've secured the\n"
+	.string "Roger that, SIR. We've secured the\n"
 	.string "entire area around the RUINS OF ALPH.$"
 
 

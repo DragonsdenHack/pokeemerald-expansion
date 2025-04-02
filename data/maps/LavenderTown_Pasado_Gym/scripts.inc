@@ -618,7 +618,7 @@ LavenderTown_Pasado_Gym_Texto_3:
 
 LavenderTown_Pasado_Gym_Texto_4:
 	.string "????: I'll someday become KANTO's\n"
-	.string "CHAMPION. I should hear an actual one\n"
+	.string "CHAMPION. I should hear an actual one\l"
 	.string "so I can get the idea.$"
 
 LavenderTown_Pasado_Gym_Texto_5:
@@ -638,7 +638,7 @@ LavenderTown_Pasado_Gym_Texto_8:
 
 LavenderTown_Pasado_Gym_Texto_9:
 	.string "AGATHA: Well guess what? My master's\n"
-	.string "GHOST POKÉMON are as strong as a\n"
+	.string "GHOST POKÉMON are as strong as a\l"
 	.string "LEGENDARY! Even one of hers is one!$"
 
 LavenderTown_Pasado_Gym_Texto_10:
@@ -646,7 +646,7 @@ LavenderTown_Pasado_Gym_Texto_10:
 
 LavenderTown_Pasado_Gym_Texto_11:
 	.string "AGATHA: It's not! GASTLY, HAUNTER, and\n"
-	.string "GENGAR are not the only ghosts in this\n"
+	.string "GENGAR are not the only ghosts in this\l"
 	.string "TOWN.$"
 
 LavenderTown_Pasado_Gym_Texto_12:
@@ -664,7 +664,7 @@ LavenderTown_Pasado_Gym_Texto_15:
 
 LavenderTown_Pasado_Gym_Texto_16:
 	.string "A sneaky, mysterious, and hard to\n"
-	.string "understand type. But it hides a huge\n"
+	.string "understand type. But it hides a huge\l"
 	.string "power which not anyone can control.$"
 
 LavenderTown_Pasado_Gym_Texto_17:
@@ -672,7 +672,7 @@ LavenderTown_Pasado_Gym_Texto_17:
 
 LavenderTown_Pasado_Gym_Texto_18:
 	.string "She'd made the young DRAGON MASTER of\n"
-	.string "JOHTO bow down{PAUSE 15}…{PAUSE 15} and realized the\n"
+	.string "JOHTO bow down{PAUSE 15}…{PAUSE 15} and realized the\l"
 	.string "impossible.$"
 
 LavenderTown_Pasado_Gym_Texto_19:
@@ -692,7 +692,7 @@ LavenderTown_Pasado_Gym_Texto_22:
 
 LavenderTown_Pasado_Gym_Texto_23:
 	.string "Here and nowhere else is where I could\n"
-	.string "become the best GYM LEADER that I\n"
+	.string "become the best GYM LEADER that I\l"
 	.string "could.$"
 
 LavenderTown_Pasado_Gym_Texto_24:
@@ -701,12 +701,12 @@ LavenderTown_Pasado_Gym_Texto_24:
 
 LavenderTown_Pasado_Gym_Texto_25:
 	.string "We cannot see it, and we may not even\n"
-	.string "understand it. But we certainly cannot\n"
+	.string "understand it. But we certainly cannot\l"
 	.string "ignore its power.$"
 
 LavenderTown_Pasado_Gym_Texto_26:
 	.string "That is what helped me and my POKÉMON\n"
-	.string "overcome my limits, and so it did make me\n"
+	.string "overcome my limits, and so it did make me\l"
 	.string "realize a certain and undeniable truth,\l"
 	.string "a truth that always was and always will\l"
 	.string "be.$"
@@ -715,7 +715,7 @@ LavenderTown_Pasado_Gym_Texto_27:
 	.string "OAK: And that truth is supposed to be…$"
 
 LavenderTown_Pasado_Gym_Texto_28:
-	.string "C. FRIDA: … That great trainers can\n"
+	.string "C. FRIDA: … That great TRAINERS can\n"
 	.string "come from anywhere.$"
 
 LavenderTown_Pasado_Gym_Texto_29:
@@ -729,7 +729,7 @@ LavenderTown_Pasado_Gym_Texto_31:
 
 LavenderTown_Pasado_Gym_Texto_32:
 	.string "Did he really defeat the strongest\n"
-	.string "DRAGONITE west of MT.SILVER after\n"
+	.string "DRAGONITE west of MT.SILVER after\l"
 	.string "evolving?$"
 
 LavenderTown_Pasado_Gym_Texto_33:

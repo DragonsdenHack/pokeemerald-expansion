@@ -10,7 +10,7 @@ end
 
 MahoganyTown_NinjaBase_Text_1:
 .string "Behind that poster is the button\n"
-.string "that opens the secret entrance, sir.$"
+.string "that opens the secret entrance, SIR.$"
 
 
 
@@ -23,7 +23,7 @@ end
 
 MahoganyTown_NinjaBase_Text_2:
 	.string "You've arrived at just the right moment,\n"
-	.string "sir. I heard GIOVANNI was going to\l"
+	.string "SIR. I heard GIOVANNI was going to\l"
 	.string "notify the other CHIEF ADMINS., but\l"
 	.string "with you here, it won't be necessary.$"
 

@@ -1604,7 +1604,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2:
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1:
 .string "CHIEF ADMIN. {PLAYER},\n"
-	.string " we were waiting for you, sir.$"
+	.string " we were waiting for you, SIR.$"
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2:
 	.string "As the LEADER of our branch in JOHTO,\n"

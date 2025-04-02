@@ -145,7 +145,7 @@ FuchsiaCity_Path_Barrera_Texto_4:
 	.string "completely justified.$"
 
 FuchsiaCity_Path_Barrera_Texto_5:
-	.string "Have a nice day sir, and excuse me for\n"
+	.string "Have a nice day SIR, and excuse me for\n"
 	.string "the confusion.$"
 
 FuchsiaCity_Path_Barrera_Move_1:

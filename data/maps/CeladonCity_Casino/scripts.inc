@@ -75,8 +75,8 @@ end
 CeladonCity_Casino_Text_6:
 	.string "You should stop robbing and learn\n"
 	.string "something about big fishes, whoever\l"
-	.string "conducts this casino knows how to build\l"
-	.string "a business!$"
+	.string "conducts the GAME CORNER knows how\l"
+	.string "to build a business!$"
 
 
 

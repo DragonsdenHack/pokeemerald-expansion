@@ -222,7 +222,7 @@ LagoFuria_S3_Combates_Cientificos_Texto_9:
 .string "Take care of him, he must not follow us.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_10:
-.string "Immediately, sir.$"
+.string "Immediately, SIR.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_11:
 	.string "You've been lucky. If our commanding\n"

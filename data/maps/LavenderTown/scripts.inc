@@ -786,7 +786,7 @@ end
 
 LavenderTown_Entrevista_Oak_Texto_1:
 	.string "JOURNALIST: We are with SAMUEL OAK;\n"
-	.string "seven-time CHAMPION of the POKÉMON\n"
+	.string "seven-time CHAMPION of the POKÉMON\l"
 	.string "LEAGUE of KANTO during the 70s and 80s.$"
 
 LavenderTown_Entrevista_Oak_Texto_2:
@@ -795,21 +795,21 @@ LavenderTown_Entrevista_Oak_Texto_2:
 
 LavenderTown_Entrevista_Oak_Texto_3:
 	.string "He is a renowned researcher and\n"
-	.string "brilliant trainer; for many, the\n"
+	.string "brilliant trainer; for many, the\l"
 	.string "greatest living legend of this region.$"
 
 LavenderTown_Entrevista_Oak_Texto_4:
-	.string "Tell me. For a person like you…\n"
+	.string "Tell me. For a person like you{PAUSE 15}…{PAUSE 15}\n"
 	.string "What do you expect from KANTO?$"
 
 LavenderTown_Entrevista_Oak_Texto_5:
 	.string "OAK: You see, I've had many\n"
-	.string "disappointments waiting for miracles\n"
+	.string "disappointments waiting for miracles\l"
 	.string "over the years.$"
 
 LavenderTown_Entrevista_Oak_Texto_6:
 	.string "At this point, if anyone is expecting\n"
-	.string "anything, it's KANTO itself that\n"
+	.string "anything, it's KANTO itself that\l"
 	.string "expects something from me.$"
 
 LavenderTown_Entrevista_Oak_Texto_7:
@@ -818,33 +818,33 @@ LavenderTown_Entrevista_Oak_Texto_7:
 
 LavenderTown_Entrevista_Oak_Texto_8:
 	.string "JOURNALIST: It didn't go badly for you\n"
-	.string "with that way of thinking. You'd\n"
+	.string "with that way of thinking. You'd\l"
 	.string "recently invented the POKÉDEX.$"
 
 LavenderTown_Entrevista_Oak_Texto_9:
 	.string "OAK: That's right. Creating the POKÉDEX\n"
-	.string "for young trainers and reopening the\n"
+	.string "for young TRAINERS and reopening the\l"
 	.string "LEAGUE championship are two\l"
 	.string "initiatives I am very proud of.$"
 
 LavenderTown_Entrevista_Oak_Texto_10:
 	.string "JOURNALIST: However, many say you're\n"
-	.string "just not the same. That you've changed\n"
+	.string "just not the same. That you've changed\l"
 	.string "and gotten soft. Would you like to say\l"
 	.string "anything about that?$"
 
 LavenderTown_Entrevista_Oak_Texto_11:
 	.string "OAK: The world's far more vast than a\n"
-	.string "battlefield balancing two teams of six\n"
+	.string "battlefield balancing two teams of six\l"
 	.string "POKÉMON.$"
 
 LavenderTown_Entrevista_Oak_Texto_12:
-	.string "JOURNALIST: Mm… I see. This year, you\n"
-	.string "were busy with some other stuff. One\n"
-	.string "last question. This one's kind of…$"
+	.string "JOURNALIST: Mm{PAUSE 25}…{PAUSE 25} I see. This year, you\n"
+	.string "were busy with some other stuff. One\l"
+	.string "last question. This one's kind of{PAUSE 15}…{PAUSE 15}$"
 
 LavenderTown_Entrevista_Oak_Texto_13:
-	.string "OAK: Kind of… {PAUSE 15}what?$"
+	.string "OAK: Kind of{PAUSE 25}…{PAUSE 15} what?$"
 
 LavenderTown_Entrevista_Oak_Texto_14:
 	.string "JOURNALIST: I don't know if you can\n"
@@ -852,18 +852,18 @@ LavenderTown_Entrevista_Oak_Texto_14:
 
 LavenderTown_Entrevista_Oak_Texto_15:
 	.string "When we'd consulted the archives of the\n"
-	.string "POKÉMON LEAGUE HQ, one CHAMPION title\n"
+	.string "POKÉMON LEAGUE HQ, one CHAMPION title\l"
 	.string "was redacted in a big 'X' nearly ten\l"
 	.string "times between the 70's and 80's.$"
 
 LavenderTown_Entrevista_Oak_Texto_16:
 	.string "Do you have any idea of who could that\n"
-	.string "person be? Any name that could hide\n"
+	.string "person be? Any name that could hide\l"
 	.string "behind that 'X'?$"
 
 LavenderTown_Entrevista_Oak_Texto_17:
 	.string "OAK: You know, I have this bad habit of\n"
-	.string "forgetting every single name that's not\n"
+	.string "forgetting every single name that's not\l"
 	.string "worth remembering.$"
 
 LavenderTown_Entrevista_Oak_Texto_18:
@@ -871,15 +871,15 @@ LavenderTown_Entrevista_Oak_Texto_18:
 
 LavenderTown_Entrevista_Oak_Texto_19:
 	.string "…when I think that far back, that past\n"
-	.string "KANTO's all so blurry. And I just think\n"
+	.string "KANTO's all so blurry. And I just think\l"
 	.string "to myself that all of it was just a\l"
-	.string "dream…{PAUSE 15} A bad dream.$"
+	.string "dream{PAUSE 15}…{PAUSE 15} A bad dream.$"
 
 LavenderTown_Entrevista_Oak_Texto_20:
 	.string "There are thousands of reasons: data\n"
-	.string "lost after the war, years that the\n"
+	.string "lost after the war, years that the\l"
 	.string "league wasn't celebrated, foreign\l"
-	.string "trainers' victories…$"
+	.string "TRAINERS' victories{PAUSE 15}…{PAUSE 15}$"
 
 LavenderTown_Entrevista_Oak_Texto_21:
 	.string "JOURNALIST: I see. Nevertheless, it is\n"
@@ -890,18 +890,18 @@ LavenderTown_Entrevista_Oak_Texto_22:
 
 LavenderTown_Entrevista_Oak_Texto_23:
 	.string "Questioning reality and imagining a\n"
-	.string "world that goes further than the scope\n"
+	.string "world that goes further than the scope\l"
 	.string "of our vision is a great exercise.$"
 
 LavenderTown_Entrevista_Oak_Texto_24:
-	.string "I myself am also a dreamer, you know?\n"
-	.string "But sometimes, I believe in the\n"
-	.string "impossible.$"
+	.string "I'm also a dreamer, you know?\p"
+	.string "Indeed. Sometimes, I believe in\n"
+	.string "the impossible.$"
 
 LavenderTown_Entrevista_Oak_Texto_25:
 	.string "“TRAINER 'X' who'd beaten the LEAGUE\n"
-	.string "eight times before vanishing from\n"
-	.string "history.”$"
+	.string "eight times, just before vanishing\l"
+	.string "from history books.”$"
 
 LavenderTown_Entrevista_Oak_Texto_26:
 	.string "What a spicy fiction title.$"
@@ -916,7 +916,7 @@ LavenderTown_Entrevista_Oak_Texto_28:
 
 LavenderTown_Entrevista_Oak_Texto_29:
 	.string "Now, we'll be heading to meet your\n"
-	.string "friend, AGATHA, inside the POKÉMON\n"
+	.string "friend, AGATHA, inside the POKÉMON\l"
 	.string "TOWER. Will you join us?$"
 
 LavenderTown_Entrevista_Oak_Texto_30:
@@ -926,8 +926,8 @@ LavenderTown_Entrevista_Oak_Texto_31:
 	.string "OAK: Too soon for that.$"
 
 LavenderTown_Entrevista_Oak_Texto_32:
-	.string "JOURNALIST: What a pity. Well, as you\n"
-	.string "wish. Thank you again for your time.$"
+	.string "JOURNALIST: Oh{PAUSE 10}…{PAUSE 10} What a pity. Well, as\n"
+	.string "you wish. Thank you again for your time.$"
 
 LavenderTown_Agatha::
 lock

@@ -39,7 +39,7 @@ end
 
 NeoSaffronCity_Segundo_Chico_Texto_1:
 	.string "I went to the GYM, raring for battles\n"
-	.string "against trainers… It turns out, I\l"
+	.string "against TRAINERS… It turns out, I\l"
 	.string "stumbled into the unused GYM next door.\l"
 	.string "Boy, I was pretty embarrassed.$"
 

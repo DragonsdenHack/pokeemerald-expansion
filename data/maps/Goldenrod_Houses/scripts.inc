@@ -73,7 +73,7 @@ Goldenrod_House1_Text_6:
 	.string "The atmosphere in GOLDENROD is growing\n"
 	.string "more competitive by the day. It wasn't\l"
 	.string "like this before, and there were many\l"
-	.string "superior trainers compared to those of\l"
+	.string "superior TRAINERS compared to those of\l"
 	.string "today, such as the LEADER they want to\l"
 	.string "replace…$"
 

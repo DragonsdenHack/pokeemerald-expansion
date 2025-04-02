@@ -414,7 +414,7 @@ Route49_MazeP4_Combate_Maestro_Texto_13:
 	.string "Do you understand? You have shaped\n"
 	.string "the reality of your POKÉMON through\l"
 	.string "your will and consciousness. Only a few\l"
-	.string "trainers could do that.$"
+	.string "TRAINERS could do that.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_14:
 	.string "Your case is an example of the infinite\n"

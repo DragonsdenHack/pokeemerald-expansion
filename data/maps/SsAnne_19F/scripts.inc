@@ -10,7 +10,7 @@ end
 
 SsAnne_19F_Text_1:
 	.string "People like you could use some time to\n"
-	.string "reflect on your actions-behind bars!$"
+	.string "reflect on your actions, behind bars!$"
 
 
 

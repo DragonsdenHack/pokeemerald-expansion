@@ -179,7 +179,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_10:
 	.string "an OLD ROD that only allows him to fish\l"
 	.string "MAGIKARPS, which is a respectable and\l"
 	.string "necessary thing, as thanks to him, many\l"
-	.string "trainers have the opportunity to have\l"
+	.string "TRAINERS have the opportunity to have\l"
 	.string "the most fearsome POKÉMON in these\l"
 	.string "waters.$"
 

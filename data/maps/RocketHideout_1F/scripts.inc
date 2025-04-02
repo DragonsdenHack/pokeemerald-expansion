@@ -36,8 +36,8 @@ end
 RocketHideout1F_Text_2:
 	.string "Don't worry about this base being\n"
 	.string "discovered. The people out there are so\l"
-	.string "blind, they wouldn't notice a Zapdos\l"
-	.string "using Thunder right in front of them.$"
+	.string "blind, they wouldn't notice a ZAPDOS\l"
+	.string "using THUNDER right in front of them.$"
 
 
 
@@ -49,8 +49,8 @@ release
 end
 
 RocketHideout1F_Text_3:
-	.string "The casino upstairs is our main cash\n"
-	.string "flow. The best part? We count on\l"
+	.string "The GAME CORNER upstairs is our main\n"
+	.string "cash flow. The best part? We count on\l"
 	.string "people's poor judgment to play a game\l"
 	.string "they know they're statistically doomed\l"
 	.string "to lose.$"
@@ -85,7 +85,7 @@ end
 RocketHideout1F_Text_6:
 	.string "Only show your enemy what you want\n"
 	.string "them to see. Burn that into your memory,\l"
-	.string "young Rocket-that's the key to success.$"
+	.string "young ROCKET, that's the key to success.$"
 
 
 

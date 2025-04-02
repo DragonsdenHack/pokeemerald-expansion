@@ -97,7 +97,7 @@ PokemonLeague_LancesRoom_EventScript_DefeatedLance::
 	end
 
 PokemonLeague_4F_Combate_Lance_Texto_1:
-	.string "So in KANTO, there were still trainers\n"
+	.string "So in KANTO, there were still TRAINERS\n"
 	.string "capable of challenging the power of a\l"
 	.string "PSEUDOLEGENDARY, I won't say that what\l"
 	.string "you've done isn't commendable, but had\l"

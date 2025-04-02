@@ -37,7 +37,7 @@ end
 
 VermilionClubDocumento_Text_100:
 .string "Let's listen politely to the rest of the\n"
-	.string "trainers!$"
+	.string "TRAINERS!$"
 
 
 
@@ -169,7 +169,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_9:
 	.string "you with just three POKÉMON. My\l"
 	.string "RAPIDASH's power should've been enough\l"
 	.string "to buck any ordinary TRAINER. I've got\l"
-	.string "to admit-I'm impressed.$"
+	.string "to admit I'm impressed.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_10:
 	.string "Take this as a gift in good faith. You\n"

@@ -301,7 +301,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_4:
 .string "We{PAUSE 15}…{PAUSE 15} we didn't expect to see you here.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_5:
-	.string "Listen, sir{PAUSE 15}…{PAUSE 15} the BIKERS, we respect you\n"
+	.string "Listen, SIR{PAUSE 15}…{PAUSE 15} the BIKERS, we respect you\n"
 	.string "a lot for what you did by defeating\l"
 	.string "LANCE. But to be honest, the recent\l"
 	.string "decisions made by TEAM ROCKET\l"

@@ -1582,7 +1582,7 @@ RocketHideout_8F_Mision_Silph_text_41:
 	.string "in the entire region, extending its\l"
 	.string "influence to the SEVII ISLANDS,\l"
 	.string "single-handedly produces the vast\l"
-	.string "majority of items for trainers\l"
+	.string "majority of items for TRAINERS\l"
 	.string "throughout KANTO. It has just dropped\l"
 	.string "a bombshell, a revolution in the\l"
 	.string "capture of POKÉMON.$"
@@ -1687,7 +1687,7 @@ RocketHideout_8F_Mision_Silph_text_50:
 	.string "belief that we are finished.$"
 
 RocketHideout_8F_Mision_Silph_text_51:
-	.string "PROTON: A brilliant plan, sir.$"
+	.string "PROTON: A brilliant plan, SIR.$"
 
 RocketHideout_8F_Mision_Silph_text_52:
 	.string "GIOVANNI: Which is already in motion.\n"
@@ -2220,7 +2220,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_17:
 
 RocketHideout_8F_Mision_Gimnasios_texto_18:
 	.string "ANDRA, {PLAYER}, both of you have\n"
-	.string "proven to be extraordinary trainers.\l"
+	.string "proven to be extraordinary TRAINERS.\l"
 	.string "{PLAYER}'s ability to defeat BRUNO is\l"
 	.string "evidence that you can compete\l"
 	.string "against the top KANTO TRAINERS.$"
@@ -2246,7 +2246,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_21:
 RocketHideout_8F_Mision_Gimnasios_texto_22:
 	.string "GIOVANNI: And that's how it is, ANDRA.\p"
 	.string "Your status as a ROCKET falls among the\n"
-	.string "cases of trainers without a LICENSE,\l"
+	.string "cases of TRAINERS without a LICENSE,\l"
 	.string "which is what is truly needed to\l"
 	.string "compete for the BADGES. It is assumed\l"
 	.string "that a ROCKET doesn't have a license,\l"
@@ -3292,7 +3292,7 @@ emote_exclamation_mark
 step_end
 
 RocketHideout8F_Mision_Mansion_Oak_Text_1:
-.string "ANDRA: Sir, that's the whole story.$"
+.string "ANDRA: SIR, that's the whole story.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_2:
 	.string "GIOVANNI: Excellent job, ANDRA. Both\n"
@@ -3304,7 +3304,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_2:
 	.string "maniacs are up to.$"
 	
 RocketHideout8F_Mision_Mansion_Oak_Text_2.1:
-	.string "And… once both OAK and BLAINE are\n"
+	.string "And{PAUSE 25}…{PAUSE 25} once both OAK and BLAINE are\n"
 	.string "under control, KANTO will finally be\l"
 	.string "able to reach the peace. But…\p"
 	.string "We don't know what those two are up to.$"
@@ -3771,7 +3771,7 @@ RocketHideout8F_Mision_Johto_Text_15:
 	.string "your destinies are far away from here.$"
 
 RocketHideout8F_Mision_Johto_Text_16:
-.string "ANDRA: Where will we go, sir?$"
+.string "ANDRA: Where will we go, SIR?$"
 
 RocketHideout8F_Mision_Johto_Text_17:
 .string "I am going to dedicate all my efforts to\n"
@@ -4230,7 +4230,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6:
 	.string "you.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7:
-.string "ANDRA: Sir, yes, sir!$"
+.string "ANDRA: SIR, yes, SIR!$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
 .string "No me dijiste que ese tipo contaba\n"
@@ -4609,14 +4609,14 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_22:
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_23:
 	.string "Does that mean I'm not returning to\n"
-	.string "HOENN, sir?$"
+	.string "HOENN, SIR?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_24:
 	.string "GIOVANNI: That's right, ANDRA, for now\n"
 	.string "you will stay in JOHTO and perform the\l"
 	.string "same task that {PLAYER} has been\l"
 	.string "doing. Both of you are the strongest\l"
-	.string "trainers in the entire organization, and\l"
+	.string "TRAINERS in the entire organization, and\l"
 	.string "a mission like this, where you could\l"
 	.string "face anything, requires the highest\l"
 	.string "possible preparation.$"
@@ -4946,7 +4946,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_22:
 	.string "call.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_23:
-	.string "ANDRA: Don't worry sir, {PLAYER} won't\n"
+	.string "ANDRA: Don't worry, SIR. {PLAYER} won't\n"
 	.string "waste any time there, I'm sure!$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_24:
