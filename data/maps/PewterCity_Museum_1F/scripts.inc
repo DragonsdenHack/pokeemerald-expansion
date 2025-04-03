@@ -337,7 +337,7 @@ PewterCity_Museum_1F_Miguel_Texto_8.2:
 
 PewterCity_Museum_1F_Miguel_Texto_8.3:
 	.string "But people like you know that fact well.\p"
-	.string "Don't you, {PLAYER}$"
+	.string "Don't you, {PLAYER}? Tell the truth!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.4:
 	.string "Only matters the final result, at the\n"
@@ -351,10 +351,10 @@ PewterCity_Museum_1F_Miguel_Texto_9:
 	.string "going anywhere with that FOSSIL.$"
 
 PewterCity_Museum_1F_Miguel_Texto_10:
-	.string "S.MIGUEL: I don't care about you\n"
-	.string "PETREL, my fight is against {PLAYER},\l"
-	.string "I told him that he will pay for the ROCK\l"
-	.string "TUNNEL thing and here we are.$"
+	.string "S.MIGUEL: I don't care about you,\n"
+	.string "PETREL. My fight is against {PLAYER}.\p"
+	.string "I told him that he will pay for the\n"
+	.string "ROCK TUNNEL event, and here we are.$"
 
 PewterCity_Museum_1F_Miguel_Texto_10.1:
 	.string "Prepare to experience a world\n"
@@ -364,7 +364,7 @@ PewterCity_Museum_1F_Miguel_Texto_11:
 	.string "But my POKÉMON are even stronger!!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
-	.string "S.MIGUEL: Grrrr…{PAUSE 15} So it was not enough.\p"
+	.string "S.MIGUEL: Grrrr{PAUSE 15}…{PAUSE 15} So it was not enough.\p"
 	.string "I won't let you capture me again\n"
 	.string "like last time.$"
 
@@ -381,9 +381,9 @@ PewterCity_Museum_1F_Miguel_Texto_15:
 	.string "way, he won't cause any more trouble.$"
 
 PewterCity_Museum_1F_Miguel_Texto_16:
-	.string "He was just about to take the AMBER\n"
-	.string "from us if it weren't for your\l"
-	.string "intervention, take this as a thank you,\l"
+	.string "He was just about to take the OLD\n"
+	.string "AMBER from us, if it weren't for your\l"
+	.string "intervention. Take this as a reward,\l"
 	.string "young ROCKET.$"
 
 PewterCity_Museum_1F_Miguel_Texto_17:

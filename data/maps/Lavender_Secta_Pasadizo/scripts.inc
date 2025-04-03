@@ -394,7 +394,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_3:
 
 Lavender_Secta_Pasadizo_Oak_Texto_4:
 	.string "OAK: Greatness can't come from just\n"
-	.string "anywhere. Neither in a TRAINER nor\n"
+	.string "anywhere. Neither in a TRAINER nor\l"
 	.string "POKÉMON.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_5:
@@ -402,7 +402,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_5:
 
 Lavender_Secta_Pasadizo_Oak_Texto_6:
 	.string "OAK: Environment influences way too\n"
-	.string "much. If it weren't for LAVENDER TOWN,\n"
+	.string "much. If it weren't for LAVENDER TOWN,\l"
 	.string "you'd have never become the GHOST\l"
 	.string "master that you are now.$"
 
@@ -412,7 +412,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_7:
 
 Lavender_Secta_Pasadizo_Oak_Texto_8:
 	.string "OAK: Worse yet, if we had imprisoned you\n"
-	.string "in the ROCK TUNNEL, you couldn't have\n"
+	.string "in the ROCK TUNNEL, you couldn't have\l"
 	.string "developed the slightest of your\l"
 	.string "potential.$"
 
@@ -451,7 +451,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_17:
 
 Lavender_Secta_Pasadizo_Oak_Texto_18:
 	.string "With that, there's always a probability\n"
-	.string "of change. And that probability is what\n"
+	.string "of change. And that probability is what\l"
 	.string "causes more of it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_19:
@@ -459,7 +459,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_19:
 
 Lavender_Secta_Pasadizo_Oak_Texto_20:
 	.string "Sometimes, life is like a dark tunnel.\n"
-	.string "You can't always see the light at the\n"
+	.string "You can't always see the light at the\l"
 	.string "end of the tunnel, but if you just keep\l"
 	.string "moving… you will come to a better place.\l"
 	.string "Even in the darkest place, you give\l"
@@ -468,7 +468,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_20:
 
 Lavender_Secta_Pasadizo_Oak_Texto_21:
 	.string "OAK: This is still total crock! Nothing\n"
-	.string "more than desperate desires of how you\n"
+	.string "more than desperate desires of how you\l"
 	.string "want the world to work.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_22:
@@ -477,12 +477,12 @@ Lavender_Secta_Pasadizo_Oak_Texto_22:
 
 Lavender_Secta_Pasadizo_Oak_Texto_23:
 	.string "But we both know that it is your talent\n"
-	.string "combined with luck that got the job\n"
+	.string "combined with luck that got the job\l"
 	.string "done.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_24:
 	.string "Without the final result, not a single\n"
-	.string "soul would take your little speech\n"
+	.string "soul would take your little speech\l"
 	.string "seriously.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_25:
@@ -512,7 +512,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_31:
 
 Lavender_Secta_Pasadizo_Oak_Texto_32:
 	.string "If you want proof, you must start your\n"
-	.string "own search. Don't try to start building\n"
+	.string "own search. Don't try to start building\l"
 	.string "a house from the roof.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_33:
@@ -527,7 +527,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_35:
 
 Lavender_Secta_Pasadizo_Oak_Texto_36:
 	.string "I'm afraid that won't happen. My\n"
-	.string "POKÉMON and I will be going on a\n"
+	.string "POKÉMON and I will be going on a\l"
 	.string "journey, far from KANTO and JOHTO.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_37:
@@ -536,7 +536,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_37:
 
 Lavender_Secta_Pasadizo_Oak_Texto_38:
 	.string "C. FRIDA: I have nothing else to\n"
-	.string "demonstrate that I haven't already\n"
+	.string "demonstrate that I haven't already\l"
 	.string "done.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_39:
@@ -560,30 +560,30 @@ Lavender_Secta_Pasadizo_Oak_Texto_43:
 
 Lavender_Secta_Pasadizo_Oak_Texto_44:
 	.string "OAK: But it won't last long… History\n"
-	.string "won't remember you for long. You only\n"
+	.string "won't remember you for long. You only\l"
 	.string "got the title once.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_45:
 	.string "With the years, only vague witnesses\n"
-	.string "will remember you. Your story will remain\n"
+	.string "will remember you. Your story will remain\l"
 	.string "a myth, a kid's bed time story.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_46:
 	.string "On the other hand, I won't get it once\n"
-	.string "nor twice… I will maintain my position so\n"
+	.string "nor twice… I will maintain my position so\l"
 	.string "I become the greatest, most\l"
 	.string "long-standing CHAMPION that ever\l"
 	.string "lived!$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_47:
 	.string "I will show everyone my POKÉMON, no\n"
-	.string "illusion or phantom. All my feats will be\n"
+	.string "illusion or phantom. All my feats will be\l"
 	.string "in everyone's memory, in sight of every\l"
 	.string "single living person.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_48:
 	.string "And when I become the one with the most\n"
-	.string "trophies, I'll have proven I am the best\n"
+	.string "trophies, I'll have proven I am the best\l"
 	.string "TRAINER ever. You can say whatever you\l"
 	.string "want, but numbers never lie.$"
 
@@ -592,7 +592,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_49:
 
 Lavender_Secta_Pasadizo_Oak_Texto_50:
 	.string "There's a saying, back in JOHTO:{PAUSE 20} “It's\n"
-	.string "impossible to find the ideal twice, even\n"
+	.string "impossible to find the ideal twice, even\l"
 	.string "very few find it once”.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_51:
@@ -604,12 +604,12 @@ Lavender_Secta_Pasadizo_Oak_Texto_52:
 
 Lavender_Secta_Pasadizo_Oak_Texto_53:
 	.string "However… if your only aspiration is to\n"
-	.string "extend your sight but seal your\n"
+	.string "extend your sight but seal your\l"
 	.string "senses… you won't ever find it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
 	.string "You'll live, but you'll never get to\n"
-	.string "witness what awaits on the other side.\n"
+	.string "witness what awaits on the other side.\l"
 	.string "Time waits for no one, do you\l"
 	.string "understand?$"
 
@@ -618,7 +618,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_55:
 
 Lavender_Secta_Pasadizo_Oak_Texto_56:
 	.string "OAK: Nonsense. There is no such thing\n"
-	.string "as an “ideal.” The only things that\n"
+	.string "as an “ideal.” The only things that\l"
 	.string "exist are those measurable,\l"
 	.string "upgradeable and registrable.$"
 

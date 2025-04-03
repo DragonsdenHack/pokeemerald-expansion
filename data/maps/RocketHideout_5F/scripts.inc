@@ -1207,7 +1207,7 @@ release
 end
 
 RocketHideout5FDocumento_Text_110:
-.string "NÚMERO 5: LAPRAS\p"
+.string "NUMBER 5: LAPRAS\p"
 	.string "HP: 140\n"
 	.string "ATTACK: 85\l"
 	.string "DEFENSE: 80\l"
@@ -1215,17 +1215,13 @@ RocketHideout5FDocumento_Text_110:
 	.string "SP. DEF: 105\l"
 	.string "SPEED: 45\l"
 	.string "TOTAL: 550\p"
-	.string "El muro de KANTO, capaz de\n"
-	.string "competir contra el mismo ARTICUNO\l"
-	.string "por el trono helado de la región,\l"
-	.string "mantiene intacta su capacidad de\l"
-	.string "golpear a pesar de sus grandes\l"
-	.string "defensas, gracias a RAYO, PSÍQUICO,\l"
-	.string "y STAB con RAYO HIELO y SURF.\p"
-	.string "POKÉMON característico de la\n"
-	.string "miembro del ALTO MANDO LORELEI y\l"
-	.string "que completa el trío de POKÉMON\l"
-	.string "singulares de los altos mandos.$"
+	.string "KANTO's wall, capable of competing\n"
+	.string "against ARTICUNO for the region's icy\l"
+	.string "throne, keeps intact its ability to hit\l"
+	.string "despite its great defenses, thanks to\l"
+	.string "THUNDERBOLT, PSYCHIC, and STAB with\l"
+	.string "ICE BEAM and SURF. Top POKEMON of\l"
+	.string "LORELEI from the ELITE 4.$"
 
 
 

@@ -119,11 +119,11 @@ addobject 4
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_4
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_5
 waitmovement 0x0
-delay 10
-msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
-delay 10
-msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
@@ -385,7 +385,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
 	.string "and BLUE's sister.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
-	.string "Per your report, something incredibly\l"
+	.string "Per your report, something incredibly\n"
 	.string "unusual is taking place there. Either\l"
 	.string "OAK's used a POKEMON to vacate the\l"
 	.string "premises, or that LABORATORY's not as\l"
@@ -496,7 +496,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "Now, you must know all missions I'll be\n"
 	.string "assigning here are confidential in\l"
 	.string "totality to any outsider to the B5F of\l"
-	.string "this BASE, even for the other GRUNTs.\l"
+	.string "this BASE, even for the other GRUNTs.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16.1:
 	.string "I daresay, with all the hearsay of TEAM\n"
@@ -589,7 +589,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.1:
 	.string "seen by the authorities.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2:
-	.string "On the other hand, BLUE will head\l"
+	.string "On the other hand, BLUE will head\n"
 	.string "straight to ONE ISLAND. I have\l"
 	.string "arranged a transfer in VERMILION that\l"
 	.string "will take you directly to the island.\p"

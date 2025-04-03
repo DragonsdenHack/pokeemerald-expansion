@@ -331,10 +331,10 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1:
 	.string "and then south, through through Routes\l"
 	.string "12, 13, 14, and 15, and then across the\l"
 	.string "sea by FUCHSIA CITY. Don't get too\l"
-	.string "confident, {PLAYER}. My advice is to use the long\l"
-	.string "journey to ARTICUNO as training. It takes\l"
-	.string "more than just battle skills to defeat\l"
-	.string "a SACRED BIRD.$"
+	.string "confident, {PLAYER}. My advice is using\l"
+	.string "the road to FUCHSIA as training.\p"
+	.string "It takes more than just battle\n"
+	.string "skills to defeat a SACRED BIRD.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1 MSGBOX_AUTOCLOSE
@@ -3815,6 +3815,8 @@ applymovement 15, RocketHideout_4F_Giovanni_Mision_1_move_1
 delay 5
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_4F_Escena_Castigo_Reclutas_Move_1.1
 applymovement 13, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
 delay 5
 applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
@@ -3822,6 +3824,7 @@ delay 5
 applymovement 15, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
 delay 5
 waitmovement 0x0
+special RemoveCameraObject
 delay 20
 applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_2
 waitmovement 0x0
@@ -3881,7 +3884,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
 .string "GIOVANNI: And?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
-.string "And{PAUSE 15}…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir{PAUSE 15}…{PAUSE 25}.$"
+.string "And{PAUSE 15}…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir{PAUSE 15}…{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 .string "GIOVANNI: I thought I was clear enough\n"
@@ -3920,7 +3923,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
 .string "GRUNTs: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
-.string "GIOVANNI: Nevertheless{PAUSE 15}…{PAUSE 15}.$"
+.string "GIOVANNI: Nevertheless{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
 .string "We are no assassins, although your\n"
@@ -3939,7 +3942,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
 .string "GRUNT: S{PAUSE 15}-{PAUSE 15}SIR{PAUSE 15}…{PAUSE 15} Thanks for this second\n"
 	.string "chance! I swear you won't regret about\l"
-	.string "not using your NIDOK….$"
+	.string "not using your NIDOK…$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
 .string "GIOVANNI: That's not all.$"
@@ -4012,6 +4015,11 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Move_1:
 walk_in_place_left
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_1.1:
+walk_fast_up
+walk_fast_up
 step_end
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Move_2:

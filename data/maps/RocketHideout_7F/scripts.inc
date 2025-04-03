@@ -125,13 +125,13 @@ RocketHideout7F_Text_8:
 	.string "far is and a poor connection, but many\l"
 	.string "of the POKÉMON that are there are really\l"
 	.string "interesting, seems like - 150 - is the\l"
-	.string "- GOLDEN NUMBER - for MAJOR LEGENDARIES.\p"
+	.string "-GOLDEN NUMBER- for MAJOR LEGENDARIES.\p"
 	.string "GROUDON BASE ATTACK, both REGISTEEL\n"
 	.string "defenses, KYOGRE BASE SP. ATK, DEOXYS\l"
 	.string "speed or both RAYQUAZA attacks.\p"
 	.string "It seems to be a symbol, like if\n"
 	.string "'anyone with this digit is sacred,\l"
-	.string "legendary-. Indeed, it is.$"
+	.string "LEGENDARY'. Indeed, it is.$"
 
 
 
@@ -178,27 +178,24 @@ RocketHideout7F_Text_10:
 
 RocketHideout7F_11::
 lock     
-faceplayer     
+faceplayer
 msgbox RocketHideout7F_Text_11, MSGBOX_DEFAULT
 msgbox RocketHideout7F_Text_11.1, MSGBOX_DEFAULT
 release     
 end
 
 RocketHideout7F_Text_11.1:
-	.string "Nadie ha estado tan expuesto y ha\n"
-	.string "demostrado tanto como nuestro LÍDER, y\l"
-	.string "es por ello que tenemos fe ciega en él.$"
+	.string "No one has been as exposed and\n"
+	.string "demonstrated as much as our LEADER,\l"
+	.string "and that's why we have blind faith\l"
+	.string "in him.$"
 
 RocketHideout7F_Text_11:
-	.string "If we could combine the HP of BLISSEY,\n"
-	.string "the defenses of SHUCKLE, and the\l"
-	.string "offense of DEOXYS into a single\l"
-	.string "POKÉMON, we would have the most\l"
-	.string "powerful POKÉMON that could ever exist.\l"
-	.string "Obviously, there isn't even close to a\l"
-	.string "body that could withstand all those\l"
-	.string "combined virtues. The opportunity cost\l"
-	.string "is difficult, buddy!$"
+	.string "The one has never sinned is less\n"
+	.string "trustworthy than he one has sinned\l"
+	.string "only once, and the one has made many\l"
+	.string "mistakes is more trustworthy than the\l"
+	.string "one has made none.$"
 
 
 
@@ -229,7 +226,7 @@ end
 RocketHideout7F_Text_13:
 	.string "JOHTO has much more history and\n"
 	.string "tradition than KANTO, both towers of\l"
-	.string "ECRUTEAK CITY are millennia-old$"
+	.string "ECRUTEAK CITY are millennia-old.$"
 
 
 
@@ -464,13 +461,12 @@ RocketHideout7FDocumento_Text_100:
 	.string "SP. DEF: 125\l"
 	.string "SPEED: 85\l"
 	.string "TOTAL: 580\p"
-	.string "El ave helada de nuestra región,\n"
-	.string "la de mayores atributos defensivos\l"
-	.string "pero peor combinación de tipos.\p"
-	.string "A pesar de ello, gracias a INDEFENSO\n"
-	.string "mantiene cierto peligro ofensivo, al\l"
-	.string "poder hacer uso de VENTISCA y\l"
-	.string "VENDAVAL sin fallar.$"
+	.string "The frozen bird of our region, with the\n"
+	.string "highest defensive stats but the worst\l"
+	.string "types combination, due to his NO GUARD,\l"
+	.string "both BLIZZARD and HURRICANE will\l"
+	.string "never fail, providing ARTICUNO with\l"
+	.string "a certain offensive capacity too.$"
 
 
 
@@ -492,15 +488,16 @@ RocketHideout7FDocumento_Text_101:
 	.string "SP. DEF: 90\l"
 	.string "SPEED: 100\l"
 	.string "TOTAL: 580\p"
-	.string "El trueno de KANTO y AVE SAGRADA\n"
-	.string "con mejores atributos ofensivos.\p"
-	.string "Gracias a DESCARGA podrá golpear con\n"
-	.string "una potencia aún mayor, además de\l"
-	.string "cubrir gran parte de sus amenazas,\l"
-	.string "gracias a movimientos como ONDA ÍGNEA,\l"
-	.string "METEOROBOLA y PARANORMAL.\p"
-	.string "Se estima que su techo biológico es el\n"
-	.string "mayor de entre las 3 AVES SAGRADAS.$"
+	.string "The thunder of KANTO and SACRED BIRD\n"
+	.string "with better offensive attributes.\p"
+	.string "Thanks to DOWNLOAD, it will be able to\n"
+	.string "hit with even greater power, in addition\l"
+	.string "to covering a large part of his threats,\l"
+	.string "thanks to moves such as HEAT WAVE,\l"
+	.string "WEATHER BALL and EXTRASENSORY.\p"
+	.string "Its biological ceiling is estimated to\n"
+	.string "be the highest among the 3 SACRED\l"
+	.string "BIRDS.$"
 
 
 
@@ -522,15 +519,15 @@ RocketHideout7FDocumento_Text_102:
 	.string "SP. DEF: 100\l"
 	.string "SPEED: 90\l"
 	.string "TOTAL: 580\p"
-	.string "La llama de KANTO, y el AVE SAGRADA\n"
-	.string "que más daño puede generar, gracias\l"
-	.string "a su habilidad, POTENCIA BRUTA.\l"
-	.string "Con ello, su LLAMARADA supera en\l"
-	.string "potencia a LEGENDARIOS MAYORES como\l"
+	.string "The flame of KANTO, and the SACRED BIRD\n"
+	.string "that can generate the most damage,\l"
+	.string "thanks to its ability, SHEER POWER. With\l"
+	.string "this, his FIRE BLAST hits harder than\l"
+	.string "ever FIRE MAJOR LEGENDARIES, like\l"
 	.string "HO-OH.\p"
-	.string "Una VELOCIDAD mejorable y frágil\n"
-	.string "combinación de tipos, lo vuelven\l"
-	.string "vulnerable ante POKÉMON mortales.$"
+	.string "A suboptimal SPEED and weak type\n"
+	.string "combination, make it vulnerable to\l"
+	.string "NON-LEGENDARY POKÉMON.$"
 
 
 
@@ -1115,7 +1112,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_Latias:
-.string "NÚMERO 5: LATIAS\p"
+.string "NUMBER 5: LATIAS\p"
 	.string "HP: 80\n"
 	.string "ATTACK: 80\l"
 	.string "DEFENSE: 90\l"
@@ -1126,16 +1123,16 @@ RocketHideout7FDocumento_Text_Latias:
 
 RocketHideout7FDocumento_Text_Latias_1:
 	.string "Along with LATIOS, it forms one of the\n"
-	.string "most evasive LEGENDARY duo for the\n"
+	.string "most evasive LEGENDARY duo for the\l"
 	.string "human eye. Is more efficient than her\l"
 	.string "brother, but she's second in the\l"
 	.string "offensive.$"
 
 RocketHideout7FDocumento_Text_Latias_2:
 	.string "Its numbers are similar to a PSEUDO\n"
-	.string "LEGENDARY, with a good stats division;\n"
-	.string "however, if you give him the SOUL DEW, it\l"
-	.string "will rise to the levels of a MAJOR\l"
+	.string "LEGENDARY, with a good stats division;\l"
+	.string "however, if you give him the SOUL DEW,\l"
+	.string "it will rise to the levels of a MAJOR\l"
 	.string "LEGENDARY.$"
 
 RocketHideout7FDocumento_Latios::
@@ -1150,7 +1147,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_Latios:
-.string "NÚMERO 4: LATIOS\p"
+.string "NUMBER 4: LATIOS\p"
 	.string "HP: 80\n"
 	.string "ATTACK: 90\l"
 	.string "DEFENSE: 80\l"
@@ -1161,15 +1158,15 @@ RocketHideout7FDocumento_Text_Latios:
 
 RocketHideout7FDocumento_Text_Latios_1:
 	.string "Along with LATIAS, it forms one of the\n"
-	.string "most evasive LEGENDARY duo for the\n"
+	.string "most evasive LEGENDARY duo for the\l"
 	.string "human eye. Is not as efficient as his\l"
 	.string "sister, but he wins in the offensive.$"
 
 RocketHideout7FDocumento_Text_Latios_2:
 	.string "Its numbers are similar to a PSEUDO\n"
-	.string "LEGENDARY, with a good stats division;\n"
-	.string "however, if you give him the SOUL DEW, it\l"
-	.string "will rise to the levels of a MAJOR\l"
+	.string "LEGENDARY, with a good stats division;\l"
+	.string "however, if you give him the SOUL DEW,\l"
+	.string "it will rise to the levels of a MAJOR\l"
 	.string "LEGENDARY.$"
 
 
@@ -2957,7 +2954,7 @@ end
 
 RocketHideout7F_27_Text_1:
 	.string "GIOVANNI is a very demanding man. We\n"
-	.string "work from dawn to dusk and from dusk to\n"
+	.string "work from dawn to dusk and from dusk to\l"
 	.string "dawn. However, he never demands us to\l"
 	.string "do more than he's willing to do himself.$"
 

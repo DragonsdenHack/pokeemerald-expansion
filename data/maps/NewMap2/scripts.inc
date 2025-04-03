@@ -73,6 +73,6 @@ release
 end
 
 NewMap2_Chica_Personalidades_Texto_1:
-.string "Oh, don't get closer! People who go against\n"
-.string "society don't suit my\l"
+.string "Oh, don't get closer! People who go\n"
+.string "against society don't suit my\l"
 .string "personality.$"

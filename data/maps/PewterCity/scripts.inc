@@ -255,7 +255,7 @@ PewterCity_3_Texto_7:
 
 PewterCity_3_Texto_8:
 	.string "Okay, listen up. A few days back, I had\n"
-	.string "this job in VERMILION. I had this garden\n"
+	.string "this job in VERMILION. I had this garden\l"
 	.string "that drawfed the one here, and it was\l"
 	.string "sprawling with weird berries and spices.$"
 
@@ -269,12 +269,12 @@ PewterCity_3_Texto_10:
 
 PewterCity_3_Texto_11:
 	.string "His government expropriated my lands,\n"
-	.string "then got some goons from JOHTO to\n"
+	.string "then got some goons from JOHTO to\l"
 	.string "regulate them.$"
 
 PewterCity_3_Texto_12:
 	.string "Now they're harvesting the actual\n"
-	.string "fruits of my labor to export them\n"
+	.string "fruits of my labor to export them\l"
 	.string "outside the region for record-breaking\l"
 	.string "profits.$"
 

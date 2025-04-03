@@ -350,8 +350,8 @@ end
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1:
 	.string "This POKÉ BALL apparently contains the\n"
 	.string "uncommon and powerful BULBASAUR. It\l"
-	.string "seems like it'll just collect dust. Do you\l"
-	.string "want to steal it?$"
+	.string "seems like it'll just collect dust.\p"
+	.string "Do you want to steal it?$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2:
 	.string "This POKÉMON is really quite energetic!$"
@@ -1199,7 +1199,8 @@ release
 end
 
 PalletTown_ProfessorLab_ZonaCero_Activador_Texto_1:
-	.string "Parece una de tantas otras máquinas.$"
+	.string "Lights in different colors are\n"
+	.string "flashing on and off.$"
 
 PalletTown_ProfessorLab_ZonaCero_Activador_Texto_2:
 	.string "Es la máquina que lleva a la ZONA 0.\n"

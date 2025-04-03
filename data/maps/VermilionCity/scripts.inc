@@ -1535,7 +1535,7 @@ Vermilion_Cazabichos_Texto_5:
 
 Vermilion_Cazabichos_Texto_6:
 	.string "I ain't a good TRAINER, but if lending\n"
-	.string "you a helping hand would make a\n"
+	.string "you a helping hand would make a\l"
 	.string "difference, I'll do it.$"
 
 Vermilion_Cazabichos_Texto_7:
@@ -1544,7 +1544,7 @@ Vermilion_Cazabichos_Texto_7:
 
 Vermilion_Cazabichos_Texto_8:
 	.string "But now that I see you here, I realized\n"
-	.string "we have one last resort: using sheer\n"
+	.string "we have one last resort: using sheer\l"
 	.string "force.$"
 
 

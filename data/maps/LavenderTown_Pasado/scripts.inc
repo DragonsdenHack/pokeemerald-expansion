@@ -320,7 +320,7 @@ LavenderTown_Pasado_Agatha_Texto_6:
 
 LavenderTown_Pasado_Agatha_Texto_7:
 	.string "Well, yes, but… GENGAR is the best GHOST\n"
-	.string "all over KANTO and JOHTO. I'll train no\n"
+	.string "all over KANTO and JOHTO. I'll train no\l"
 	.string "matter what or how much it's needed so\l"
 	.string "this little one turns into one.$"
 
@@ -528,7 +528,7 @@ LavenderTown_Pasado_Lider_Texto_4:
 
 LavenderTown_Pasado_Lider_Texto_5:
 	.string "MORPHEUS: But… they say that city folk\n"
-	.string "are more and more interested in\n"
+	.string "are more and more interested in\l"
 	.string "battling.$"
 
 LavenderTown_Pasado_Lider_Texto_6:
@@ -543,13 +543,13 @@ LavenderTown_Pasado_Lider_Texto_8:
 	.string "happens, there are many years to go.$"
 
 LavenderTown_Pasado_Lider_Texto_9:
-	.string "I've seen you, as every day I do. Both\n"
-	.string "of you have talent, and more\n"
+	.string "I've seen you, as every day I do.\p"
+	.string "Both of you have talent, and more\n"
 	.string "importantly, you're quite spirited.$"
 
 LavenderTown_Pasado_Lider_Texto_10:
 	.string "You will become a great TRAINER before\n"
-	.string "that happens. You can be sure that this\n"
+	.string "that happens. You can be sure that this\l"
 	.string "GYM will see you as a LEADER before its\l"
 	.string "days come to a close.$"
 

@@ -504,7 +504,7 @@ VermilionCity_Secundaria_Moteros_Texto_23:
 
 VermilionCity_Secundaria_Moteros_Texto_24:
 	.string "Useless, useless, useless… Beaten up by\n"
-	.string "a ROCKET and a BUG CATCHER. You're all\n"
+	.string "a ROCKET and a BUG CATCHER. You're all\l"
 	.string "useless piles of… bah is not even worth\l"
 	.string "mentioning it.$"
 

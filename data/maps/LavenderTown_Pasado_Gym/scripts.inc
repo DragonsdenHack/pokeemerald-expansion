@@ -745,12 +745,12 @@ LavenderTown_Pasado_Gym_Texto_35:
 
 LavenderTown_Pasado_Gym_Texto_36:
 	.string "It feels like it was yesterday when I\n"
-	.string "found him in this very GYM. I was even\n"
+	.string "found him in this very GYM. I was even\l"
 	.string "younger than you, AGATHA.$"
 
 LavenderTown_Pasado_Gym_Texto_37:
 	.string "On such a day, the little girl and that\n"
-	.string "little VULPIX fused their destinies\n"
+	.string "little VULPIX fused their destinies\l"
 	.string "forever since.$"
 
 LavenderTown_Pasado_Gym_Texto_38:
@@ -760,8 +760,8 @@ LavenderTown_Pasado_Gym_Texto_39:
 	.string "C. FRIDA: Indeed.$"
 
 LavenderTown_Pasado_Gym_Texto_40:
-	.string "But… I always knew that little guy I'd\n"
-	.string "found stirring around a mysterious\n"
+	.string "But{PAUSE 25}…{PAUSE 25} I always knew that little guy I'd\n"
+	.string "found stirring around a mysterious\l"
 	.string "tombstone had a lot of that TYPE\l"
 	.string "hidden somewhere inside him.$"
 
@@ -775,7 +775,7 @@ LavenderTown_Pasado_Gym_Texto_42:
 
 LavenderTown_Pasado_Gym_Texto_43:
 	.string "Thanks to my abilities, I managed to\n"
-	.string "withstand them. But the last of his\n"
+	.string "withstand them. But the last of his\l"
 	.string "dragons… That power was… beyond any\l"
 	.string "control.$"
 
@@ -789,12 +789,12 @@ LavenderTown_Pasado_Gym_Texto_45:
 
 LavenderTown_Pasado_Gym_Texto_46:
 	.string "One way or another, all that potential{PAUSE 15}…{PAUSE 15}\n"
-	.string "all those abstracts that I always knew\n"
+	.string "all those abstracts that I always knew\l"
 	.string "were there{PAUSE 15}…{PAUSE 15} suddenly… manifested.$"
 
 LavenderTown_Pasado_Gym_Texto_47:
 	.string "Now, you could see it, smell it, feel it:\n"
-	.string "that GHOST TYPE that was always within\n"
+	.string "that GHOST TYPE that was always within\l"
 	.string "that VULPIX became materialized!$"
 
 LavenderTown_Pasado_Gym_Texto_48:
@@ -802,13 +802,13 @@ LavenderTown_Pasado_Gym_Texto_48:
 
 LavenderTown_Pasado_Gym_Texto_49:
 	.string "C. FRIDA: In the beginning, they\n"
-	.string "thought it was a bluff. A mere illusion\n"
+	.string "thought it was a bluff. A mere illusion\l"
 	.string "provoked by hypnosis and its sense\l"
 	.string "alteration.$"
 
 LavenderTown_Pasado_Gym_Texto_50:
 	.string "But no, it was very real. And it is the\n"
-	.string "form my NINETALES will maintain for\n"
+	.string "form my NINETALES will maintain for\l"
 	.string "ever and ever.$"
 
 LavenderTown_Pasado_Gym_Texto_51:
@@ -817,12 +817,12 @@ LavenderTown_Pasado_Gym_Texto_51:
 
 LavenderTown_Pasado_Gym_Texto_52:
 	.string "His mental powers also got enhanced,\n"
-	.string "same as his agility and performance in\n"
+	.string "same as his agility and performance in\l"
 	.string "battle.$"
 
 LavenderTown_Pasado_Gym_Texto_53:
 	.string "Even the CHAMPION was surprised; not\n"
-	.string "even fighting more and more could\n"
+	.string "even fighting more and more could\l"
 	.string "prevent the outcome.$"
 
 LavenderTown_Pasado_Gym_Texto_54:
@@ -834,7 +834,7 @@ LavenderTown_Pasado_Gym_Texto_55:
 
 LavenderTown_Pasado_Gym_Texto_56:
 	.string "C. FRIDA: Maybe, without knowing it… we\n"
-	.string "had been preparing all these years for\n"
+	.string "had been preparing all these years for\l"
 	.string "this exact moment.$"
 
 LavenderTown_Pasado_Gym_Texto_57:
@@ -850,7 +850,7 @@ LavenderTown_Pasado_Gym_Texto_59:
 
 LavenderTown_Pasado_Gym_Texto_60:
 	.string "OAK: I'll train one too until it evolves.\n"
-	.string "With that fine addition to my\n"
+	.string "With that fine addition to my\l"
 	.string "collection, my team will be stronger and\l"
 	.string "more equilibrated.$"
 
@@ -867,18 +867,18 @@ LavenderTown_Pasado_Gym_Texto_63:
 
 LavenderTown_Pasado_Gym_Texto_64:
 	.string "AGATHA: Haven't you listened to\n"
-	.string "anything she said? Her NINETALES\n"
+	.string "anything she said? Her NINETALES\l"
 	.string "evolved because they were connected:\l"
 	.string "a special and unique bond made it\l"
 	.string "possible.$"
 
 LavenderTown_Pasado_Gym_Texto_65:
 	.string "OAK: What a load of crock! It was just a\n"
-	.string "mere coincidence. A lucky level-up.\n"
+	.string "mere coincidence. A lucky level-up.\p"
 	.string "Nothing more, nothing less.$"
 
 LavenderTown_Pasado_Gym_Texto_66:
-	.string "C. FRIDA: On the contrary, young one.\n"
+	.string "C. FRIDA: On the contrary, young one.\p"
 	.string "Sometimes, the greatest mysteries are\n"
 	.string "hidden in the simplest things{PAUSE 15}…{PAUSE 15} in sight\l"
 	.string "of everyone.$"
@@ -891,7 +891,7 @@ LavenderTown_Pasado_Gym_Texto_68:
 
 LavenderTown_Pasado_Gym_Texto_69:
 	.string "Let her rest. The battle she won was\n"
-	.string "long and hard, and it's a long way from\n"
+	.string "long and hard, and it's a long way from\l"
 	.string "JOHTO.$"
 
 LavenderTown_Pasado_Gym_Texto_70:

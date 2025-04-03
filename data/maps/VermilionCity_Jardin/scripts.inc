@@ -328,12 +328,12 @@ VermilionCity_Jardin_Final_Texto_1:
 
 VermilionCity_Jardin_Final_Texto_2:
 	.string "LANCE himself approved the\n"
-	.string "exploitation of these grounds, which\n"
+	.string "exploitation of these grounds, which\l"
 	.string "are now under our possession.$"
 
 VermilionCity_Jardin_Final_Texto_3:
 	.string "We're providing a great service to\n"
-	.string "JOHTO. The LEAGUE COMMITTEE concluded\n"
+	.string "JOHTO. The LEAGUE COMMITTEE concluded\l"
 	.string "that KANTO's citizens are not suitable\l"
 	.string "for the products that we're making\l"
 	.string "here.$"
@@ -343,7 +343,7 @@ VermilionCity_Jardin_Final_Texto_4:
 
 VermilionCity_Jardin_Final_Texto_5:
 	.string "So, privatizing resources is over? Are\n"
-	.string "you returning to the people what\n"
+	.string "you returning to the people what\l"
 	.string "rightfully belongs to them?$"
 
 VermilionCity_Jardin_Final_Texto_6:
@@ -352,7 +352,7 @@ VermilionCity_Jardin_Final_Texto_6:
 
 VermilionCity_Jardin_Final_Texto_7:
 	.string "If there's any reclamation to be had,\n"
-	.string "it's your team into our hands. You all\n"
+	.string "it's your team into our hands. You all\l"
 	.string "can contribute, all right, as fertilizer!$"
 
 VermilionCity_Jardin_Final_Texto_8:
@@ -363,21 +363,21 @@ VermilionCity_Jardin_Final_Texto_9:
 	.string "first to know of this!$"
 
 VermilionCity_Jardin_Final_Texto_10:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 VermilionCity_Jardin_Final_Texto_11:
 	.string "TEAM ROCKET?! A HIGH-RANK one and…\n"
 	.string "You know the ROCKET BOSS personally?!$"
 
 VermilionCity_Jardin_Final_Texto_12:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 VermilionCity_Jardin_Final_Texto_13:
-	.string "Okay… hold up there, buddy!$"
+	.string "Okay{PAUSE 25}…{PAUSE 25} hold up there, buddy!$"
 
 VermilionCity_Jardin_Final_Texto_14:
 	.string "We just got off on the wrong foot!\n"
-	.string "There's no need to get your BOSS\n"
+	.string "There's no need to get your BOSS\l"
 	.string "involved. We'll just be on our way!$"
 
 VermilionCity_Jardin_Final_Texto_15:
@@ -390,7 +390,7 @@ VermilionCity_Jardin_Final_Texto_16:
 
 VermilionCity_Jardin_Final_Texto_17:
 	.string "I'm returning to JOHTO! The hectic life\n"
-	.string "of the sea tugs at me way more than\n"
+	.string "of the sea tugs at me way more than\l"
 	.string "some embossed tombstone in the\l"
 	.string "POKÉMON TOWER!$"
 
@@ -399,21 +399,21 @@ VermilionCity_Jardin_Final_Texto_18:
 
 VermilionCity_Jardin_Final_Texto_19:
 	.string "I saw that HOUNDOOM. It would've\n"
-	.string "roasted my poor BUGs out of their\n"
+	.string "roasted my poor BUGs out of their\l"
 	.string "exoskeletons. If I'd recovered my\l"
 	.string "garden, it'd be thanks to you.$"
 
 VermilionCity_Jardin_Final_Texto_20:
-	.string "Hey, look up there… Those berries\n"
+	.string "Hey, look up there{PAUSE 15}…{PAUSE 15} Those berries\n"
 	.string "weren't there last time.$"
 
 VermilionCity_Jardin_Final_Texto_21:
 	.string "They've planted so much{PAUSE 35}…{PAUSE 35}all of it to\n"
-	.string "squeeze every drop of wealth they\n"
+	.string "squeeze every drop of wealth they\l"
 	.string "could.$"
 
 VermilionCity_Jardin_Final_Texto_22:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 VermilionCity_Jardin_Final_Texto_23:
 	.string "That's it! I know exactly how I can\n"
@@ -421,24 +421,24 @@ VermilionCity_Jardin_Final_Texto_23:
 
 VermilionCity_Jardin_Final_Texto_24:
 	.string "I'll work the land again. Even with the\n"
-	.string "typical berries, I've got enough to\n"
+	.string "typical berries, I've got enough to\l"
 	.string "rebuild my business. Just gotta keep it\l"
 	.string "on the down-low.$"
 
 VermilionCity_Jardin_Final_Texto_25:
-	.string "But drop by whenever you want.\n"
+	.string "But drop by whenever you want.\p"
 	.string "Whatever's grown in the northern plots,\n"
 	.string "they're yours for the taking.$"
 
 VermilionCity_Jardin_Final_Texto_26:
 	.string "Loads of TRAINERs want these: berries\n"
-	.string "that cut back on your EVs and mints\n"
+	.string "that cut back on your EVs and mints\l"
 	.string "that change the very NATURE of your\l"
 	.string "POKÉMON.$"
 
 VermilionCity_Jardin_Final_Texto_27:
 	.string "Depending on the season, mints'll grow\n"
-	.string "one way or another. You should stop by\n"
+	.string "one way or another. You should stop by\l"
 	.string "sometime and see what's grown. No\l"
 	.string "worries. They'll grow again someday.$"
 

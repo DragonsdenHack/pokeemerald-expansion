@@ -17798,54 +17798,53 @@ Cave_Regigigas_Devon_17_Text_PoliciaPostBattle:
 	.string "destino le es revelado.$"
 
 VermilionCity_Jardin_Text_CriadorIntro:
-	.string "¿Quién eres tú? ¿No habrás venido a\n"
-	.string "quitarnos el trabajo?$"
+	.string "Who are you?\n"
+	.string "Are you trying to take our job?$"
 
 VermilionCity_Jardin_Text_CriadorDefeated:
-	.string "Derrotado por alguien de KANTO…$"
+	.string "Defeated by a KANTO TRAINER…$"
 
 VermilionCity_Jardin_Text_CriadorPostBattle:
-	.string "Esta tierra tiene algo especial. Todo\n"
-	.string "florece más rápido en ella.$"
+	.string "There is something special about this\n"
+	.string "land. Everything blooms faster here.$"
 
 VermilionCity_Jardin_Text_CriadoraIntro:
-	.string "Aquí cultivamos bayas y hierbas muy\n"
-	.string "especiales. ¡No puedes pasar!$"
+	.string "Here we grow very special berries\n"
+	.string "and herbs. You can't come in!$"
 
 VermilionCity_Jardin_Text_CriadoraDefeated:
-	.string "Nuestro JEFE se va a enfadar.$"
+	.string "Our BOSS is going to be angry.$"
 
 VermilionCity_Jardin_Text_CriadoraPostBattle:
-	.string "Con las mentas podemos darle cualquier\n"
-	.string "personalidad a nuestros POKÉMON. Son\l"
-	.string "un objeto muy preciado.$"
+	.string "With the mints we can give any\n"
+	.string "personality to our POKEMON, there are a\l"
+	.string "very precious object.$"
 
 Goldenrod_RadioTowerP7_Text_PoliciaIntro:
-	.string "Debes de ser {PLAYER}. Pero… ¿quién\n"
-	.string "me asegura que no eres un impostor? No\l"
-	.string "tendrás problema en derrotarme si lo\l"
-	.string "eres, ¿verdad?$"
+	.string "You must be {PLAYER}. But… who can\n"
+	.string "assure me you're not an imposter? You\l"
+	.string "won't have a problem defeating me, if\l"
+	.string "you are the KANTO CHAMPION, will you?$"
 
 Goldenrod_RadioTowerP7_Text_PoliciaDefeated:
-	.string "No… no lo tuviste.$"
+	.string "No… you didn't.$"
 
 Goldenrod_RadioTowerP7_Text_PoliciaPostBattle:
-	.string "Dicen que tú solo destrozaste a toda\n"
-	.string "la seguridad de SILPH. ¿Es cierto?$"
+	.string "It's said you single-handedly\n"
+	.string "destroyed all SILPH security.\p"
+	.string "Is it true?$"
 
 Goldenrod_RadioTowerP9_Text_PoliciaIntro:
-	.string "El LÍDER ROCKET y su mano derecha\n"
-	.string "acaban de subir. Aún hay tiempo para\l"
-	.string "combatir con el supuesto salvador de\l"
-	.string "KANTO.$"
+	.string "TEAM ROCKET BOSS and his right hand\n"
+	.string "just went upstairs. There is still time\l"
+	.string "to fight KANTO's supposed savior!$"
 
 Goldenrod_RadioTowerP9_Text_PoliciaDefeated:
-	.string "Ahora entiendo que pudieras salvar la\n"
-	.string "región.$"
+	.string "Now I understand how you could save\n"
+	.string "the region.$"
 
 Goldenrod_RadioTowerP9_Text_PoliciaPostBattle:
-	.string "¿De verdad LANCE tenía a las BESTIAS\n"
-	.string "de JOHTO?$"
+	.string "Did LANCE really have JOHTO's BEASTS?$"
 
 
 
