@@ -324,7 +324,7 @@ Route14_Combate_Azul_Texto_8:
 	.string "So this team is not good enough yet.$"
 
 Route14_Combate_Azul_Texto_9:
-	.string "Bit by bit, you're carving out a spot\n"
+	.string "Gradually, you're carving out a spot\n"
 	.string "among the strongest ROCKETs, huh?\p"
 	.string "I only see ARCHER and GIOVANNI as\n"
 	.string "the only ROCKETs who could clearly\l"

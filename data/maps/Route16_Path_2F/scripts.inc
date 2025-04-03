@@ -131,10 +131,10 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_7:
 .string "from OAK'S AIDE.-$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "This doesn't make sense, you're not supposed\n"
-.string "to have anything better than a RATICATE or\l"
-.string "KOFFING on your team,\l"
-.string "you'll see when I report this to OAK.$"
+.string "This doesn't make sense, you're not\n"
+.string "supposed to have anything better\l"
+.string "than RATICATE or KOFFING.\p"
+.string "You'll see when I report this to OAK!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_9:
 .string "Next time I won't be so\n"

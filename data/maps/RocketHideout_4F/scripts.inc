@@ -315,9 +315,9 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1:
 	.string "I have the utmost faith in you,\n"
 	.string "{PLAYER}. SILPH's security is known to\l"
 	.string "be tight, but they've never faced\l"
-	.string "TRAINERS like you, or ANDRA before. Go to\l"
-	.string "SILPH and show them how a real ROCKET\l"
-	.string "fights!$"
+	.string "TRAINERS like you, or ANDRA before.\p"
+	.string "Go to SILPH and show them how a\n"
+	.string "real ROCKET fights!$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1 MSGBOX_AUTOCLOSE

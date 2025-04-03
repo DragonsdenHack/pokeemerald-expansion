@@ -124,19 +124,18 @@ goto_if_eq Sala_Ejecutiva_No
 goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon_2
 
 Sala_Ejecutiva_MoveRelearner_Texto_4:
-		.string "Vuelva cuando guste, SIR.$"
+		.string "Come back anytime, SIR.$"
 	
 Sala_Ejecutiva_MoveRelearner_Texto_3:
-		.string "Como usted guste, SIR.$"
+		.string "As you wish, SIR.$"
 
 Sala_Ejecutiva_MoveRelearner_Texto_2:
-	.string "Costará 5000¥ el movimiento.\n"
-	.string "¿Te interesa?$"
+	.string "It will cost ¥5,000 per move.\n"
+	.string "Are you interested?$"
 
 Sala_Ejecutiva_MoveRelearner_Texto_1:
-	.string "Hemos desarrollado tecnología capaz de\n"
-	.string "hacer recordar forzosamente\l"
-	.string "MOVIMIENTOS HUEVO a los POKÉMON.$"
+	.string "We have developed technology capable\n"
+	.string "of forcibly remind EGG MOVES.$"
 
 
 Sala_Ejecutiva_No::

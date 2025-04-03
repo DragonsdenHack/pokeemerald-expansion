@@ -206,7 +206,7 @@ Ruta_20_Andra_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_3:
-	.string "SEAFOAM ISLANDS already? You kiddin' right?$"
+	.string "SEAFOAM ISLANDS already? You kiddin'?$"
 
 Ruta_20_Andra_Texto_4:
 	.string "I've been training a SNEASEL 'till he\n"
@@ -231,13 +231,13 @@ Ruta_20_Andra_Texto_8:
 
 Ruta_20_Andra_Texto_9:
 	.string "It's only him against all of us, in a 1v1\n"
-	.string "he'll turn us into ashes. However, in a\n"
+	.string "he'll turn us into ashes. However, in a\l"
 	.string "6v1, in the long game, we have a chance\l"
 	.string "to profane a SACRED POKÉMON.$"
 
 Ruta_20_Andra_Texto_10:
 	.string "Well, that's it. We're ready to get inside\n"
-	.string "that POWER PLANT without being\n"
+	.string "that POWER PLANT without being\l"
 	.string "spotted.$"
 
 Ruta_20_Andra_Texto_11:

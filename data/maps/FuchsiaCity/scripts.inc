@@ -354,7 +354,7 @@ FuchsiaCity_Encuentro_Koga_Texto_1:
 	.string "kicked BRUNO out the CYCLING ROAD!$"
 
 FuchsiaCity_Encuentro_Koga_Texto_1.1:
-	.string "Trust me, you're not aware of the\l"
+	.string "Trust me, you're not aware of the\n"
 	.string "importance of what you've done.\p"
 	.string "I'll inform GIOVANNI about\n"
 	.string "your feat!$"
@@ -390,7 +390,7 @@ FuchsiaCity_Encuentro_Koga_Texto_4.2:
 
 FuchsiaCity_Encuentro_Koga_Texto_4.3:
 	.string "As absurd as it sounds, it is a loophole:\n"
-	.string "there is no way to prove otherwise, and\n"
+	.string "there is no way to prove otherwise, and\l"
 	.string "he will be forced to let you pass.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_5:

@@ -253,9 +253,7 @@ delay 20
 applymovement 14, Route15_Koga_Bruno_Move_4
 waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_15 MSGBOX_AUTOCLOSE
-delay 10
-msgbox Route15_Koga_Bruno_Texto_15.1 MSGBOX_AUTOCLOSE
-delay 10
+delay 15
 msgbox Route15_Koga_Bruno_Texto_15.2 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 14, Route15_Koga_Bruno_Move_9
@@ -394,22 +392,21 @@ Route15_Koga_Bruno_Texto_5:
 	.string "ELITE.$"
 
 Route15_Koga_Bruno_Texto_6:
-	.string "KOGA: It is not a crime to let the\n"
+	.string "KOGA: It's not a crime to let the\n"
 	.string "people express their ideas, BRUNO.$"
 
 Route15_Koga_Bruno_Texto_7:
-.string "BRUNO: Por el momento{PAUSE 15}…{PAUSE 15}\n"
-	.string "Por suerte para ti, vas a poder\l"
-	.string "lavarte las manos con todo este\l"
-	.string "asunto: un ALTO MANDO como yo no\l"
-	.string "viaja a un lugar como este a no\l"
-	.string "ser que tenga un motivo de peso{PAUSE 5}…{PAUSE 5}$"
+	.string "BRUNO: For the moment{PAUSE 15}…{PAUSE 15} Lucky for you,\n"
+	.string "you're going to be able to wash your\l"
+	.string "hands of the whole thing: an ELITE4\l"
+	.string "member like me doesn't travel to a place\l"
+	.string "like this for no reason{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_7.1:
-.string "KOGA: W-{PAUSE 25}What{PAUSE 25}…{PAUSE 25} you are going to do?$"
+.string "KOGA: W-{PAUSE 25}What{PAUSE 25}…{PAUSE 25} are you going to do?$"
 
 Route15_Koga_Bruno_Texto_8:
-	.string "BRUNO: …{PAUSE 45} Acting under direct LANCE\n"
+	.string "BRUNO: {PAUSE 15}…{PAUSE 35} Acting under direct LANCE\n"
 	.string "orders, to enter at the CYCLING ROAD.$"
 
 Route15_Koga_Bruno_Texto_8.1:
@@ -473,7 +470,7 @@ Route15_Koga_Bruno_Texto_15.2:
 	.string "No way! A dictature imposed by the\n"
 	.string "force, moreover, coming from an\l"
 	.string "outsider like LANCE, will never\l"
-	.string "have my support…$"
+	.string "have my support!$"
 
 Route15_Koga_Bruno_Texto_15.3:
 	.string "I refuse to capitulate…\p"

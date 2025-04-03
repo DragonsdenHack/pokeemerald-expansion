@@ -127,7 +127,7 @@ Route17Documento_Text_101:
 	.string "TRAINER TIPS\p"
 	.string "All POKÉMON are unique.\p"
 	.string "Even POKÉMON of the same species\n"
-	.string "and level grow at different rates, the\n"
+	.string "and level grow at different rates, the\l"
 	.string "referred to as IVs, as well as natures.$"
 
 

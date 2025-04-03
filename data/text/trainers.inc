@@ -7550,7 +7550,7 @@ Route17_Text_Motorista7Defeated:
 
 Route17_Motorista7PostBattle:
 	.string "The recent policies adopted by the\n"
-	.string "Elite 4 government are terrible.$"
+	.string "Elite 4 government are bullshit.$"
 
 
 

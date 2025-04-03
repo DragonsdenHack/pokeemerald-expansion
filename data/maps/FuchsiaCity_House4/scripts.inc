@@ -208,73 +208,68 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_9:
 	.string "My powerful GYARADOS!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
-.string "Esto no tiene sentido, debes de\n"
-	.string "ser algo más dentro del TEAM ROCKET.\l"
-	.string "¿EJECUTIVO, ADMINISTRADOR, quizás?$"
+	.string "This makes no sense, you must be\n"
+	.string "something else inside the TEAM ROCKET,\l"
+	.string "an EXECUTIVE, ADMINISTRATOR perhaps,\l"
+	.string "am I wrong?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
-.string "Pero{PAUSE 15}…{PAUSE 15}\n"
-	.string "Lamentablemente para ti, yo nunca\l"
-	.string "pierdo, nunca.\l"
-	.string "¿como crees que he mantenido mi\l"
-	.string "reputación impoluta hasta ahora?\l"
-	.string "Yo siempre guardo mis espaldas.$"
+	.string "But{PAUSE 15}…{PAUSE 15} Unfortunately for you, I never\n"
+	.string "lose, never. How do you think I've kept\l"
+	.string "my perfect reputation spotless until\l"
+	.string "now? I always watch my back.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_12:
-.string "Has hecho demasiado ruido, ROCKET.\n"
-	.string "No podemos permitir que salgas\l"
-	.string "ganador de aquí.$"
+	.string "You've been too loud ROCKET, we can't let\n"
+	.string "you win in this situation.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_12.1:
-	.string "Como POKÉGUARDA de la ZONA SAFARI,\n"
-	.string "entenderás que no puedo permitir\l"
-	.string "que nadie perturbe el orden de\l"
-	.string "esta ciudad; nadie va a salir de\l"
-	.string "aquí diciendo que el mejor gurú de\l"
-	.string "la región, de FUCSIA, salió derrotado\l"
-	.string "por un ROCKET.$"
+	.string "Ahem{PAUSE 15}…{PAUSE 15} as the POKEGUARD of the\n"
+	.string "SAFARI ZONE, you'll understand that I\l"
+	.string "cannot allow anyone to disturb the\l"
+	.string "order of this city. No one is going to\l"
+	.string "leave here saying the best guru in the\l"
+	.string "region was defeated by a ROCKET.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_13:
-.string "Ahora que tus POKÉMON están\n"
-	.string "cansados, ¡solo me queda darte\l"
-	.string "el golpe de gracia!$"
+	.string "Now that your POKÉMON are tired, I just\n"
+	.string "have to deliver the final blow!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_14:
 .string "This can't be, my SLOWKING!\n"
 	.string "Who are you?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
-.string "Esto sí que no estaba en\n"
-	.string "nuestros planes.\l"
-	.string "¡Ni KOGA podría salir victorioso frente\l"
-	.string "a nosotros dos a la vez!$"
+	.string "This wasn't in our plans at all, not even\n"
+	.string "KOGA would come out victorious against\l"
+	.string "both of us!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15.1:
-	.string "Sea como sea, nadie te creerá, porque\n"
-	.string "nadie ha visto estos combat{PAUSE 5}…{PAUSE 5}$"
+	.string "Anyway, no one will believe you,\n"
+	.string "no one has seen this two battl…$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
-.string "¡Guau!\n"
-	.string "¡Ha sido increíble, un ROCKET le ha\l"
-	.string "dado una lección al gurú de FUCSIA!$"
+.string "Wow!\p"
+	.string "It was amazing, a ROCKET gave the\n"
+	.string "FUCHSIA FISHING GURU a lesson!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.1:
-	.string "¡Y aún más!\n"
-	.string "¡También a SLOWPOKE, el\l"
-	.string "POKÉGUARDA del SAFARI!$"
+	.string "And even more!\p"
+	.string "He defeated SLOWPOKE, the SAFARI\n"
+	.string "ZONE GUARD, in a row!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16.2:
-	.string "¡No puedo esperar a ver la cara de\n"
-	.string "mis amigos cuando se enteren!$"
+	.string "I can't wait to see my friends\n"
+	.string "faces when they know!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_17:
-.string "¡¿Tienes idea de lo que acabas de\n"
-	.string "hacer, ROCKET?!$"
+	.string "Do you have any idea what you\n"
+	.string "just did, ROCKET?!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_17.1:
-	.string "¡Espero que te merezca la pena la\n"
-	.string "recompensa de mi hermano!\l"
-	.string "¡Acabas de iniciar una guerra!$"
+	.string "I hope the reward from my brother\n"
+	.string "is worth it!\l"
+	.string "You've just started a war!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Move_1:
 emote_exclamation_mark

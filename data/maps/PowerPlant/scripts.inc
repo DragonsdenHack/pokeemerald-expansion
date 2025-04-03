@@ -251,7 +251,7 @@ PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "ARCHER and I had to go in without you…\p"
 	.string "We saw how LORELEI of the ELITE FOUR\n"
 	.string "arrived at the PLANT to stop ANDRA,\l"
-	.string "and we had to intervene{PAUSE 25}…{PAUSE 25} ARCHER is\l"
+	.string "and we had to intervene{PAUSE 25}…{PAUSE 25}$"
 
 PowerPlant_Encuentro_Petrel_Texto_1.1:
 	.string "ARCHER is currently battling her,\n"
