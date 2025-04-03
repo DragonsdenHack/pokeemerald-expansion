@@ -94,7 +94,7 @@ static u8 GetMapsecType(u16 mapSecId);
 static u16 CorrectSpecialMapSecId_Internal(u16 mapSecId);
 static u16 GetTerraOrMarineCaveMapSecId(void);
 static void GetMarineCaveCoords(u16 *x, u16 *y);
-static bool32 IsPlayerInAquaHideout(u8 mapSecId);
+static bool32 IsPlayerInAquaHideout(u16 mapSecId);
 static void GetPositionOfCursorWithinMapSec(void);
 static bool8 RegionMap_IsMapSecIdInNextRow(u16 y);
 static void SpriteCB_CursorMapFull(struct Sprite *sprite);
@@ -1659,7 +1659,7 @@ static void GetMarineCaveCoords(u16 *x, u16 *y)
 
 // Probably meant to be an "IsPlayerInIndoorDungeon" function, but in practice it only has the one mapsec
 // Additionally, because the mapsec doesnt exist in Emerald, this function always returns FALSE
-static bool32 IsPlayerInAquaHideout(u8 mapSecId)
+static bool32 IsPlayerInAquaHideout(u16 mapSecId)
 {
     u32 i;
 
@@ -2034,7 +2034,7 @@ bool8 IsRegionMapZoomed(void)
     return gRegionMap->zoomed;
 }
 
-bool32 IsEventIslandMapSecId(u8 mapSecId)
+bool32 IsEventIslandMapSecId(u16 mapSecId)
 {
     u32 i;
 

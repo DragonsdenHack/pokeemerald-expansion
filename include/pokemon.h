@@ -46,8 +46,8 @@ struct PokemonSubstruct2
 
 struct PokemonSubstruct3
 {
- /* 0x00 */ u8 pokerus;
- /* 0x01 */ u8 metLocation;
+ ///* 0x00 */ u8 pokerus;
+ /* 0x01 */ u16 metLocation;
 
  /* 0x02 */ u16 metLevel:7;
  /* 0x02 */ u16 metGame:4;

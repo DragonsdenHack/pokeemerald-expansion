@@ -10,7 +10,7 @@ struct Landmark
 
 struct LandmarkList
 {
-    u8 mapSection;
+    u16 mapSection;
     u8 id;
     const struct Landmark *const *landmarks;
 };
@@ -387,9 +387,9 @@ static const struct LandmarkList gLandmarkLists[] =
     {MAPSEC_NONE, 0, NULL},
 };
 
-static const struct Landmark *const *GetLandmarks(u8 mapSection, u8 id);
+static const struct Landmark *const *GetLandmarks(u16 mapSection, u8 id);
 
-const u8 *GetLandmarkName(u8 mapSection, u8 id, u8 count)
+const u8 *GetLandmarkName(u16 mapSection, u8 id, u8 count)
 {
     const struct Landmark *const *landmarks = GetLandmarks(mapSection, id);
 
@@ -416,7 +416,7 @@ const u8 *GetLandmarkName(u8 mapSection, u8 id, u8 count)
     return (*landmarks)->name;
 }
 
-static const struct Landmark *const *GetLandmarks(u8 mapSection, u8 id)
+static const struct Landmark *const *GetLandmarks(u16 mapSection, u8 id)
 {
     u16 i = 0;
 

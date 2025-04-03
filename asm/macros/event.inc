@@ -1641,7 +1641,7 @@
 	.macro setmonmetlocation slot:req, location:req
 	.byte 0xd2
 	.2byte \slot
-	.byte \location
+	.2byte \location
 	.endm
 
 	@ For the rotating tile puzzles in Mossdeep Gym / Trick House Room 7. Moves the objects one rotation

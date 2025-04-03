@@ -26,10 +26,10 @@
 
 // Function Declarations
 static void Task_RunMapPreviewScreenForest(u8 taskId);
-static u16 MapPreview_GetDuration(u8 mapsec);
+static u16 MapPreview_GetDuration(u16 mapsec);
 static bool32 MapPreview_IsGfxLoadFinished(void);
 static void MapPreview_Unload(s32 windowId);
-static u16 MapPreview_CreateMapNameWindow(u8 mapsec);
+static u16 MapPreview_CreateMapNameWindow(u16 mapsec);
 
 // EWRAM
 static EWRAM_DATA bool8 sHasVisitedMapBefore = FALSE;
@@ -772,7 +772,7 @@ static const struct BgTemplate sMapPreviewBgTemplate[1] =
 };
 
 // Functions
-static u8 GetMapPreviewScreenIdx(u8 mapsec)
+static u8 GetMapPreviewScreenIdx(u16 mapsec)
 {
     s32 i;
 
@@ -786,7 +786,7 @@ static u8 GetMapPreviewScreenIdx(u8 mapsec)
     return MPS_COUNT;
 }
 
-bool8 MapHasPreviewScreen(u8 mapsec, u8 type)
+bool8 MapHasPreviewScreen(u16 mapsec, u8 type)
 {
     u8 idx;
 
@@ -828,7 +828,7 @@ static void MapPreview_InitBgs(void)
     ShowBg(0);
 }
 
-void MapPreview_LoadGfx(u8 mapsec)
+void MapPreview_LoadGfx(u16 mapsec)
 {
     u8 idx;
 
@@ -866,7 +866,7 @@ static bool32 MapPreview_IsGfxLoadFinished(void)
     return FreeTempTileDataBuffersIfPossible();
 }
 
-void MapPreview_StartForestTransition(u8 mapsec)
+void MapPreview_StartForestTransition(u16 mapsec)
 {
     u8 taskId;
 
@@ -889,7 +889,7 @@ void MapPreview_StartForestTransition(u8 mapsec)
     ScriptContext2_Enable();
 }
 
-static u16 MapPreview_CreateMapNameWindow(u8 mapsec)
+static u16 MapPreview_CreateMapNameWindow(u16 mapsec)
 {
     u16 windowId;
     u32 xctr;
@@ -999,7 +999,7 @@ static void Task_RunMapPreviewScreenForest(u8 taskId)
     }
 }
 
-const struct MapPreviewScreen * GetDungeonMapPreviewScreenInfo(u8 mapsec)
+const struct MapPreviewScreen * GetDungeonMapPreviewScreenInfo(u16 mapsec)
 {
     u8 idx;
 
@@ -1014,7 +1014,7 @@ const struct MapPreviewScreen * GetDungeonMapPreviewScreenInfo(u8 mapsec)
     }
 }
 
-static u16 MapPreview_GetDuration(u8 mapsec)
+static u16 MapPreview_GetDuration(u16 mapsec)
 {
     u8 idx;
     u16 flagId;
@@ -1132,7 +1132,7 @@ static void Task_MapPreviewScreen_0(u8 taskId)
     }
 }
 
-void RunMapPreviewScreen(u8 mapSecId)
+void RunMapPreviewScreen(u16 mapSecId)
 {
     u8 taskId = CreateTask(Task_MapPreviewScreen_0, 0);
     gTasks[taskId].data[3] = mapSecId;

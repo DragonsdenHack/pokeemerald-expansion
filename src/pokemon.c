@@ -4861,9 +4861,9 @@ u32 GetBoxMonData(struct BoxPokemon *boxMon, s32 field, u8 *data)
     case MON_DATA_SHEEN:
         retVal = substruct2->sheen;
         break;
-    case MON_DATA_POKERUS:
-        retVal = substruct3->pokerus;
-        break;
+    // case MON_DATA_POKERUS:
+    //     retVal = substruct3->pokerus;
+    //     break;
     case MON_DATA_MET_LOCATION:
         retVal = substruct3->metLocation;
         break;
@@ -5238,11 +5238,11 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
     case MON_DATA_SHEEN:
         SET8(substruct2->sheen);
         break;
-    case MON_DATA_POKERUS:
-        SET8(substruct3->pokerus);
-        break;
+    // case MON_DATA_POKERUS:
+    //     SET8(substruct3->pokerus);
+    //     break;
     case MON_DATA_MET_LOCATION:
-        SET8(substruct3->metLocation);
+        SET16(substruct3->metLocation);
         break;
     case MON_DATA_MET_LEVEL:
     {

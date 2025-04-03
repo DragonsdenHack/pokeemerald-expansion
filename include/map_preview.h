@@ -98,7 +98,7 @@ enum MapPreviewScreenId
 
 struct MapPreviewScreen
 {
-    u8 mapsec;
+    u16 mapsec;
     u8 type;
     u16 flagId;
     const void * tilesptr;
@@ -107,12 +107,12 @@ struct MapPreviewScreen
 };
 
 void MapPreview_SetFlag(u16 a0);
-bool8 MapHasPreviewScreen(u8 mapsec, u8 type);
+bool8 MapHasPreviewScreen(u16 mapsec, u8 type);
 bool32 ForestMapPreviewScreenIsRunning(void);
-const struct MapPreviewScreen * GetDungeonMapPreviewScreenInfo(u8 mapsec);
-bool32 MapHasPreviewScreen_HandleQLState2(u8 mapsec, u8 type);
-void MapPreview_LoadGfx(u8 mapsec);
-void MapPreview_StartForestTransition(u8 mapsec);
-void RunMapPreviewScreen(u8 mapSecId);
+const struct MapPreviewScreen * GetDungeonMapPreviewScreenInfo(u16 mapsec);
+bool32 MapHasPreviewScreen_HandleQLState2(u16 mapsec, u8 type);
+void MapPreview_LoadGfx(u16 mapsec);
+void MapPreview_StartForestTransition(u16 mapsec);
+void RunMapPreviewScreen(u16 mapsecId);
 
 #endif //GUARD_MAP_PREVIEW_SCREEN_H

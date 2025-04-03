@@ -205,7 +205,6 @@ function  Generation2En._readBoxMon(game, address, nameAddress, otAddress)
 		emu:read8(address + 26),
 	}
 	mon.friendship = emu:read8(address + 27)
-	mon.pokerus = emu:read8(address + 28)
 	local caughtData = _read16BE(emu, address + 29)
 	mon.metLocation = (caughtData >> 8) & 0x7F
 	mon.metLevel = caughtData & 0x1F
@@ -314,7 +313,6 @@ function Generation3En._readBoxMon(game, address)
 	mon.tough = (ss2[2] >> 16) & 0xFF
 	mon.sheen = ss2[2] >> 24
 
-	mon.pokerus = ss3[0] & 0xFF
 	mon.metLocation = (ss3[0] >> 8) & 0xFF
 	flags = ss3[0] >> 16
 	mon.metLevel = flags & 0x7F

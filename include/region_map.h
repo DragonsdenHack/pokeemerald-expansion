@@ -101,7 +101,7 @@ void FreeRegionMapIconResources(void);
 u16 GetRegionMapSecIdAt(u16 x, u16 y);
 void CreateRegionMapPlayerIcon(u16 x, u16 y);
 void CreateRegionMapCursor(u16 tileTag, u16 paletteTag);
-bool32 IsEventIslandMapSecId(u8 mapSecId);
+bool32 IsEventIslandMapSecId(u16 mapSecId);
 u8 *GetMapName(u8 *, u16, u16);
 u8 *GetMapNameGeneric(u8 *dest, u16 mapSecId);
 u8 *GetMapNameHandleAquaHideout(u8 *dest, u16 mapSecId);

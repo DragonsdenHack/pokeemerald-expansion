@@ -4482,7 +4482,7 @@ static void _CreateInGameTradePokemon(u8 whichPlayerMon, u8 whichInGameTrade)
     u8 level = GetMonData(&gPlayerParty[whichPlayerMon], MON_DATA_LEVEL);
 
     struct Mail mail;
-    u8 metLocation = METLOC_IN_GAME_TRADE;
+    u16 metLocation = METLOC_IN_GAME_TRADE;
     u8 isMail;
     struct Pokemon *pokemon = &gEnemyParty[0];
 

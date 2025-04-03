@@ -254,11 +254,11 @@
 #define MAPSEC_ROUTE_40						0xFA
 #define MAPSEC_ROUTE_41						0xFB   
 
-#define MAPSEC_NONE							0xFC
+#define MAPSEC_NONE							0xFFFC
 
-#define METLOC_SPECIAL_EGG                  0xFD
-#define METLOC_IN_GAME_TRADE                0xFE
-#define METLOC_FATEFUL_ENCOUNTER            0xFF
+#define METLOC_SPECIAL_EGG                  0xFFFD
+#define METLOC_IN_GAME_TRADE                0xFFFE
+#define METLOC_FATEFUL_ENCOUNTER            0xFFFF
 
 #define KANTO_MAPSEC_START  MAPSEC_PALLET_TOWN
 #define KANTO_MAPSEC_END    MAPSEC_SPECIAL_AREA

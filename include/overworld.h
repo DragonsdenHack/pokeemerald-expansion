@@ -136,8 +136,8 @@ u8 GetLastUsedWarpMapType(void);
 bool8 IsMapTypeOutdoors(u8 mapType);
 bool8 Overworld_MapTypeAllowsTeleportAndFly(u8 mapType);
 bool8 IsMapTypeIndoors(u8 mapType);
-u8 GetSavedWarpRegionMapSectionId(void);
-u8 GetCurrentRegionMapSectionId(void);
+u16 GetSavedWarpRegionMapSectionId(void);
+u16 GetCurrentRegionMapSectionId(void);
 u8 GetCurrentMapBattleScene(void);
 void CleanupOverworldWindowsAndTilemaps(void);
 bool32 IsOverworldLinkActive(void);
@@ -169,6 +169,6 @@ bool32 Overworld_RecvKeysFromLinkIsRunning(void);
 bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
-u8 GetLastUsedWarpMapSectionId(void);
+u16 GetLastUsedWarpMapSectionId(void);
 
 #endif // GUARD_OVERWORLD_H
