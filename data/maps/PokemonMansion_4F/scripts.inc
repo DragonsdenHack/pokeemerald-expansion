@@ -258,7 +258,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_9:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
 	.string "BLAINE: You'll hear from me in the next\n"
-	.string "few hours. For sure{PAUSE 15}…{PAUSE 15} ntil then…$"
+	.string "few hours. For sure{PAUSE 15}…{PAUSE 15} until then…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_11:
 .string "MAGMAR, TELEPORT!$"

@@ -435,118 +435,111 @@ delay_8
 step_end
 
 SaffronCity_Combate_Andra_Texto_1:
-.string "PETREL: Bien, ya estamos todos, la\n"
-	.string "invasión a SILPH puede dar comienzo.$"
+	.string "PETREL: Alright, everyone is ready, the\n"
+	.string "invasion to SILPH can begin.$"
 
 SaffronCity_Combate_Andra_Texto_2:
-.string "Por lo que hemos podido averiguar, el\n"
-	.string "PRESIDENTE se encuentra en el despacho\l"
-	.string "del 11F, protegido por su guardia\l"
-	.string "personal. Es además imposible acceder\l"
-	.string "únicamente subiendo por el ascensor,\l"
-	.string "hemos de usar las baldosas.$"
+	.string "From what we know, the PRESIDENT is in\n"
+	.string "his office on the 11F, he is protected\l"
+	.string "by his personal guard, it's also\l"
+	.string "impossible to access the office by\l"
+	.string "elevator, we must use the teleportation\l"
+	.string "tiles.$"
 
 SaffronCity_Combate_Andra_Texto_2.1:
-	.string "Y aún más, solo podremos entrar en\n"
-	.string "su despacho si obtenemos la LLAVE\l"
-	.string "MAGNÉTICA, necesaria para abrir su\l"
-	.string "puerta.$"
+	.string "Overmore, we can only enter his\n"
+	.string "office if we get the CARD KEY to\l"
+	.string "open the door.$"
 
 SaffronCity_Combate_Andra_Texto_3:
-.string "ANDRA: Tenemos entonces que encontrar\n"
-	.string "primero esa llave.\l"
-	.string "¿Alguna idea de dónde puede estar?$"
+	.string "ANDRA: First of all, we need to find\n"
+	.string "that key, does anyone have an idea of\l"
+	.string "where it can be?$"
 
 SaffronCity_Combate_Andra_Texto_4:
-.string "PETREL: Un objeto así solo debe de\n"
-	.string "estar al acceso de miembros importantes\l"
-	.string "dentro de la empresa.\l"
-	.string "No nos quedará otra que registrar\l"
-	.string "a cada uno de los trabajadores.$"
+	.string "PETREL: An item like that, should only\n"
+	.string "be accessible to important members of\l"
+	.string "the company. We'll have to check all of\l"
+	.string "the employees.$"
 
 SaffronCity_Combate_Andra_Texto_5:
-.string "SILPH y el gobierno de LANCE no se\n"
-	.string "llevan muy bien, de modo que es de\l"
-	.string "esperar que parte de la ÉLITE 4 no\l"
-	.string "se presente, tal y como ocurrió en la\l"
-	.string "CENTRAL ENERGÍA.$"
+	.string "SILPH and LANCE's government don't get\n"
+	.string "along very well, so it's very possible\l"
+	.string "that the ELITE 4 won't show up as they\l"
+	.string "did in the POWER PLANT.$"
 	
 SaffronCity_Combate_Andra_Texto_5.1:
-	.string "Aun así, debemos estar preparados para\n"
-	.string "todo lo que pueda pasar.\l"
-	.string "Una vez encontremos esa LLAVE MAGNÉTICA,\l"
-	.string "avisaremos a GIOVANNI inmediatamente, y\l"
-	.string "vosotros dos os quedaréis al pie del\l"
-	.string "del cañón haciendo de escudo para\l"
-	.string "que GIOVANNI pueda negociar\l"
-	.string "tranquilamente con el PRESIDENTE\l"
-	.string "sin ningún tipo de interferencias,\l"
-	.string "¿ha quedado claro?$"
+	.string "But we must be prepared for anything.\p"
+	.string "Once we find that CARD KEY, we'll inform\n"
+	.string "GIOVANNI immediately; both of you will\l"
+	.string "stay on guard for GIOVANNI, allowing\l"
+	.string "him to negotiate with the PRESIDENT\l"
+	.string "calmly, without any interference.\p"
+	.string "Did you get it?$"
 
 SaffronCity_Combate_Andra_Texto_6:
-	.string "ANDRA: I can't wait any longer, let's move\n"
-	.string "to action now!$"
+	.string "ANDRA: I can't wait any longer!\n"
+	.string "Let's move into action!$"
 
 SaffronCity_Combate_Andra_Texto_7:
-.string "PETREL: Esa es la actitud.\n"
-	.string "Vamos a ello, SILPH es nuestra.$"
+	.string "PETREL: That's the attitude. Let's go,\n"
+	.string "SILPH is ours.$"
 
 SaffronCity_Combate_Andra_Texto_8:
-.string "ANDRA: Una cosa, {PLAYER}.\n"
-	.string "Aún no te he dado las gracias por lo de\l"
-	.string "la CENTRAL ENERGÍA, con esta son ya 2\l"
-	.string "veces las que has tenido que intervenir\l"
-	.string "debido a mi incapacidad para cumplir la\l"
-	.string "misión yo sola. Aunque me tendieran una\l"
-	.string "emboscada, eso no es excusa.$"
+	.string "ANDRA: One last thing, {PLAYER}. I\n"
+	.string "haven't thanked you yet for your help in\l"
+	.string "the POWER PLANT incident, this makes it\l"
+	.string "the second time you've had to come to\l"
+	.string "rescue me in due to my inability to\l"
+	.string "complete the mission on my own.\p"
+	.string "Even if I was, that's no excuse.$"
 	
 SaffronCity_Combate_Andra_Texto_8.1:
-    .string "¡Debí haber podido con toda la policía,\n"
-	.string "y después haber batido a ZAPDOS yo sola!$"
+	.string "I should have been able to take on all\n"
+	.string "the police, and then have beaten ZAPDOS\l"
+	.string "in a row!$"
 
 SaffronCity_Combate_Andra_Texto_9:
-.string "Esta región es idónea para progresar y\n"
-	.string "mejorar como ENTRENADOR, me sorprende el\l"
-	.string "contraste que hay entre lugares como\l"
-	.string "este y PUEBLO LAVANDA.\l"
-	.string "Todos al fin y al cabo con un ambiente\l"
-	.string "único que les caracteriza.$"
+	.string "This region is perfect for progressing\n"
+	.string "and improving as a trainer, I'm\l"
+	.string "surprised by the difference between\l"
+	.string "places like this and LAVENDER TOWN, but\l"
+	.string "all of them, in the end, have an unique\l"
+	.string "atmosphere that characterizes them.$"
 
 SaffronCity_Combate_Andra_Texto_10:
-.string "Ahora mismo mi equipo está en\n"
-	.string "óptimas condiciones.\l"
-	.string "¿Recuerdas el discurso de ATLAS\l"
-	.string "nuestro primer día?\l"
-	.string "La verdad es que he llegado ya más\l"
-	.string "lejos de lo que podría imaginar, y\l"
-	.string "aun así, sigo viendo margen para\l"
-	.string "seguir mejorando.$"
+	.string "Right now my team is in optimal\n"
+	.string "condition, do you remember the ARCHER\l"
+	.string "speech he told us on our first day? To\l"
+	.string "be honest I've come further than I\l"
+	.string "could imagine, and even I think I am\l"
+	.string "still capable of improving myself a lot\l"
+	.string "more.$"
 
 SaffronCity_Combate_Andra_Texto_11:
-.string "Espero que este lugar y toda su\n"
-	.string "tecnología estén a la altura de lo\l"
-	.string "que puedo esperar, sin embargo{PAUSE 15}…{PAUSE 15}$"
+	.string "I hope this place and all its technology\n"
+	.string "are high enough to my standards, but…$"
 
 SaffronCity_Combate_Andra_Texto_12:
-.string "No veo ahora mismo mayor reto que\n"
-	.string "enfrentarme a ti, {PLAYER}.\l"
-	.string "Tú eres la verdadera vara de medir para\l"
-	.string "mí, el único al que aún no he podido\l"
-	.string "derrotar en igualdad de condiciones.$"
+	.string "Right now, I don't think there's a bigger\n"
+	.string "challenge than facing you, {PLAYER},\l"
+	.string "you are the real way to know if my team\l"
+	.string "is strong enough, the only one I haven't\l"
+	.string "defeated yet on equal terms.$"
 
 SaffronCity_Combate_Andra_Texto_13:
-.string "Desde nuestro combate en la BASE ROCKET,\n"
-	.string "he estado entrenando más duro que nunca,\l"
-	.string "informándome acerca de los mejores\l"
-	.string "POKÉMON de esta región, y de cómo\l"
-	.string "mejorar a los que ya tengo{PAUSE 5}…{PAUSE 5}$"
+	.string "Since our battle in the ROCKET BASE,\n"
+	.string "I've been training harder than ever.\l"
+	.string "Studying about the best POKÉMON from\l"
+	.string "this region, and how to improve mine…$"
 
 SaffronCity_Combate_Andra_Texto_14:
-.string "De EJECUTIVO a EJECUTIVO{PAUSE 15}…{PAUSE 15}$"
+	.string "From ROCKET EXECUTIVE to\n"
+	.string "ROCKET EXECUTIVE{PAUSE 15}…{PAUSE 15}$"
 
 SaffronCity_Combate_Andra_Texto_14.1:
-	.string "¡Quiero que veas la arrolladora\n"
-	.string "fuerza de mi equipo!$"
+	.string "I want you to witness the\n"
+	.string "unstoppable power of my team!$"
 
 SaffronCity_Combate_Andra_Texto_15:
 	.string "I can't believe it, what else can I do?$"

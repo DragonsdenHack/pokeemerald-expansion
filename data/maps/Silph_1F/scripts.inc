@@ -250,8 +250,8 @@ end
 
 Silph1F_Text_17:
 	.string "SILPH's power extends to the SEVII\n"
-	.string "ISLANDS. The TEAM ROCKET's power will be\l"
-	.string "global!$"
+	.string "ISLANDS. The TEAM ROCKET's power\l"
+	.string "will be global!$"
 
 
 
