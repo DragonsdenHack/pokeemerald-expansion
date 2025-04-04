@@ -73,10 +73,43 @@ setdisguise 363, 0, 0, 1, 0, 0
 	end
 
 Debug_Script_4::
+	giveegg SPECIES_MUDKIP
 	end
 
 Debug_Script_5::
+	goto Debug_HatchAnEgg
 	end
+
+Debug_HatchAnEgg::
+	lockall
+	getpartysize
+	goto_if_eq VAR_RESULT, 0, Debug_NoPokemon
+	special ChoosePartyMon
+	waitstate
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Debug_HatchAnEgg_End
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_ne VAR_RESULT, SPECIES_EGG, DebugScript_HatchAnEgg_CantForceHatch
+	special EggHatch
+	waitstate
+Debug_HatchAnEgg_End::
+	releaseall
+	end
+
+Debug_NoPokemon::
+	msgbox DebugScript_Text_EmptyParty, MSGBOX_DEFAULT
+	releaseall
+	end
+
+DebugScript_HatchAnEgg_CantForceHatch::
+	msgbox DebugScript_HatchAnEgg_Text_NotAnEgg, MSGBOX_DEFAULT
+	releaseall
+	end
+
+DebugScript_Text_EmptyParty::
+	.string "You have no Pokémon nor Eggs.$"
+
+DebugScript_HatchAnEgg_Text_NotAnEgg::
+	.string "That's not a Pokémon Egg.$"
 
 Debug_Script_6::
 	end
