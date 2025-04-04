@@ -979,7 +979,7 @@ void GabbyAndTyAfterInterview(void)
     gSaveBlock1Ptr->gabbyAndTyData.playerUsedHealingItem2 = gSaveBlock1Ptr->gabbyAndTyData.playerUsedHealingItem;
     gSaveBlock1Ptr->gabbyAndTyData.playerThrewABall2 = gSaveBlock1Ptr->gabbyAndTyData.playerThrewABall;
     gSaveBlock1Ptr->gabbyAndTyData.onAir = TRUE;
-    gSaveBlock1Ptr->gabbyAndTyData.mapnum = gMapHeader.regionMapSectionId; //TODO Xiros: Check if this is necessary to change
+    gSaveBlock1Ptr->gabbyAndTyData.mapnum = gMapHeader.regionMapSectionId; //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
     IncrementGameStat(GAME_STAT_GOT_INTERVIEWED);
 }
 
@@ -1165,7 +1165,7 @@ static void InitWorldOfMastersShowAttempt(void)
     show->worldOfMasters.numPokeCaught++;
     show->worldOfMasters.caughtPoke = gBattleResults.caughtMonSpecies;
     show->worldOfMasters.species = gBattleResults.playerMon1Species;
-    show->worldOfMasters.location = gMapHeader.regionMapSectionId; //TODO Xiros
+    show->worldOfMasters.location = gMapHeader.regionMapSectionId; //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
 }
 
 static void TryPutPokemonTodayFailedOnTheAir(void)
@@ -1193,7 +1193,7 @@ static void TryPutPokemonTodayFailedOnTheAir(void)
                 show->pokemonTodayFailed.species2 = gBattleResults.lastOpponentSpecies;
                 show->pokemonTodayFailed.nBallsUsed = ballsUsed;
                 show->pokemonTodayFailed.outcome = gBattleOutcome;
-                show->pokemonTodayFailed.location = gMapHeader.regionMapSectionId;  //TODO Xiros
+                show->pokemonTodayFailed.location = gMapHeader.regionMapSectionId;  //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
                 StringCopy(show->pokemonTodayFailed.playerName, gSaveBlock2Ptr->playerName);
                 StorePlayerIdInRecordMixShow(show);
                 show->pokemonTodayFailed.language = gGameLanguage;
@@ -1504,7 +1504,7 @@ void TryPutSmartShopperOnAir(void)
                 show = &gSaveBlock1Ptr->tvShows[sCurTVShowSlot];
                 show->smartshopperShow.kind = TVSHOW_SMART_SHOPPER;
                 show->smartshopperShow.active = FALSE; // NOTE: Show is not active until passed via Record Mix.
-                show->smartshopperShow.shopLocation = gMapHeader.regionMapSectionId;  //TODO Xiros
+                show->smartshopperShow.shopLocation = gMapHeader.regionMapSectionId;  //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
                 for (i = 0; i < SMARTSHOPPER_NUM_ITEMS; i++)
                 {
                     show->smartshopperShow.itemIds[i] = gMartPurchaseHistory[i].itemId;
@@ -1842,7 +1842,7 @@ void TryPutTodaysRivalTrainerOnAir(void)
             show->rivalTrainer.dexCount = GetNationalPokedexCount(FLAG_GET_CAUGHT);
         else
             show->rivalTrainer.dexCount = GetHoennPokedexCount(FLAG_GET_CAUGHT);
-        show->rivalTrainer.location = gMapHeader.regionMapSectionId;  //TODO Xiros
+        show->rivalTrainer.location = gMapHeader.regionMapSectionId;  //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
         show->rivalTrainer.mapLayoutId = gMapHeader.mapLayoutId;
         show->rivalTrainer.nSilverSymbols = 0;
         show->rivalTrainer.nGoldSymbols = 0;
@@ -1891,7 +1891,7 @@ void TryPutTreasureInvestigatorsOnAir(void)
         show->treasureInvestigators.kind = TVSHOW_TREASURE_INVESTIGATORS;
         show->treasureInvestigators.active = FALSE; // NOTE: Show is not active until passed via Record Mix.
         show->treasureInvestigators.item = gSpecialVar_0x8005;
-        show->treasureInvestigators.location = gMapHeader.regionMapSectionId;  //TODO Xiros
+        show->treasureInvestigators.location = gMapHeader.regionMapSectionId;  //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
         show->treasureInvestigators.mapLayoutId = gMapHeader.mapLayoutId;
         StringCopy(show->treasureInvestigators.playerName, gSaveBlock2Ptr->playerName);
         StorePlayerIdInRecordMixShow(show);
@@ -2119,7 +2119,7 @@ void TryPutBreakingNewsOnAir(void)
         balls = 0;
         for (i = 0; i < POKEBALL_COUNT; i++)
             balls += gBattleResults.catchAttempts[i];
-        show->breakingNews.location = gMapHeader.regionMapSectionId;  //TODO Xiros
+        show->breakingNews.location = gMapHeader.regionMapSectionId;  //Xiros: Asumo esto no se usa, por eso no cambie el mapnum a u16 (ocuparia mas saveblock innecesariamente)
         StringCopy(show->breakingNews.playerName, gSaveBlock2Ptr->playerName);
         show->breakingNews.poke1Species = gBattleResults.playerMon1Species;
         switch (gBattleOutcome)
