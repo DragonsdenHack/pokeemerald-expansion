@@ -321,7 +321,7 @@ applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_1.1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_1.1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2.5
 waitmovement 0x0
 release
@@ -336,9 +336,9 @@ applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_1 MSGBOX_AUTOCLOSE
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_2 MSGBOX_AUTOCLOSE
 clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 addobject 7
 playse SE_PIN
@@ -351,60 +351,60 @@ waitmovement 0x0
 delay 15
 applymovement 6, NeoLavandaPueblo_Policia_Move_5
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_3 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_6
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_4 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_4 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 6, NeoLavandaPueblo_Policia_Move_3
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_5 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_6
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 6, NeoLavandaPueblo_Policia_Move_5
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_7 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 6, NeoLavandaPueblo_Policia_Move_5
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_8 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_8 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_7
 waitmovement 0x0
 delay 10
 applymovement 6, NeoLavandaPueblo_Policia_Move_8
 waitmovement 0x0
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_9 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_9
 waitmovement 0x0
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_12 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_12 MSGBOX_AUTOCLOSE
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_11 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_13 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_13 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 6, NeoLavandaPueblo_Policia_Move_1
 waitmovement 0x0
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_14 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_14 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 7, NeoLavandaPueblo_Policia_Move_6
 waitmovement 0x0
 delay 10
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_11
 waitmovement 0x0
-msgbox NeoLavandaPueblo_Policía_Texto_15 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_15 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_12
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_13
 waitmovement 0x0
 applymovement 7, NeoLavandaPueblo_Policia_Move_14
 waitmovement 0x0
 delay 10
-msgbox NeoLavandaPueblo_Policía_Texto_16 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policia_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_15
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
@@ -414,7 +414,7 @@ setvar VAR_ROUTE105_STATE, 7
 release
 end
 
-NeoLavandaPueblo_Policía_Texto_1.1:
+NeoLavandaPueblo_Policia_Texto_1.1:
 .string "¿Cómo va el asalto a la VÍA\n"
 	.string "SUBTERRÁNEA, señor? Cuente con\l"
 	.string "nosotros para todo lo que necesite.$"
@@ -530,65 +530,65 @@ delay_8
 face_up
 step_end
 
-NeoLavandaPueblo_Policía_Texto_1:
+NeoLavandaPueblo_Policia_Texto_1:
 .string "Lo sentimos, señor. A la torre radio le\n"
 	.string "quedan unos últimos retoques antes de\l"
 	.string "ser abierta de forma definitiva, ¿por\l"
 	.string "qué no visita el CEM…?$"
 
-NeoLavandaPueblo_Policía_Texto_2:
+NeoLavandaPueblo_Policia_Texto_2:
 .string "????: ¡Necesitamos refuerzos!$"
 
-NeoLavandaPueblo_Policía_Texto_3:
+NeoLavandaPueblo_Policia_Texto_3:
 .string "¡¿Qué ocurre?!$"
 
-NeoLavandaPueblo_Policía_Texto_4:
+NeoLavandaPueblo_Policia_Texto_4:
 .string "El desalojo de la VIA SUBTERRANEA, todo\n"
 	.string "ha salido mal.$"
 
-NeoLavandaPueblo_Policía_Texto_5:
+NeoLavandaPueblo_Policia_Texto_5:
 .string "¡Eso no puede ser!$"
 
-NeoLavandaPueblo_Policía_Texto_6:
+NeoLavandaPueblo_Policia_Texto_6:
 .string "Los MOTORISTAS…{PAUSE 35} se han atrincherado\n"
 	.string "dentro, han reabierto los extensos\l"
 	.string "túneles que sirvieron de refugio\l"
 	.string "durante la guerra…{PAUSE 25} ¡y no hay forma de\l"
 	.string "sacarles de ahí!$"
 
-NeoLavandaPueblo_Policía_Texto_7:
+NeoLavandaPueblo_Policia_Texto_7:
 .string "Acordamos con los altos cargos de\n"
 	.string "JOHTO tener todo cerrado antes de\l"
 	.string "la inauguración de la TORRE RADIO.\p"
 	.string "Esto es inadmisible.$"
 
-NeoLavandaPueblo_Policía_Texto_8:
+NeoLavandaPueblo_Policia_Texto_8:
 .string "¡Llama a la SEDE SILPH! ¡Qué te pongan\n"
 	.string "con el PRESIDENTE, exigimos refuerz…!$"
 
-NeoLavandaPueblo_Policía_Texto_9:
+NeoLavandaPueblo_Policia_Texto_9:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
-NeoLavandaPueblo_Policía_Texto_11:
+NeoLavandaPueblo_Policia_Texto_11:
 .string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
-NeoLavandaPueblo_Policía_Texto_12:
+NeoLavandaPueblo_Policia_Texto_12:
 .string "Oh{PAUSE 25}…{PAUSE 25} Usted{PAUSE 25}…{PAUSE 25} Señor{PAUSE 25}…{PAUSE 25}$"
 
-NeoLavandaPueblo_Policía_Texto_13:
+NeoLavandaPueblo_Policia_Texto_13:
 .string "Ya veo, quiere encargarse\n"
 	.string "personalmente de ello, después de todo\l"
 	.string "los MOTORISTAS han sido aliados del\l"
 	.string "TEAM ROCKET desde sus inicios.$"
 
-NeoLavandaPueblo_Policía_Texto_14:
+NeoLavandaPueblo_Policia_Texto_14:
 .string "Confiamos en usted para que resuelva\n"
 	.string "esto de la mejor manera posible.$"
 
-NeoLavandaPueblo_Policía_Texto_15:
+NeoLavandaPueblo_Policia_Texto_15:
 .string "Venga conmigo, ADMIN.JEFE {PLAYER}.$"
 
-NeoLavandaPueblo_Policía_Texto_16:
+NeoLavandaPueblo_Policia_Texto_16:
 .string "No tiene pérdida, debe haber pasado por\n"
 	.string "ahí varias veces en sus inicios como\l"
 	.string "ROCKET, la VÍA SUBTERRÁNEA está un\l"
