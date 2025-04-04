@@ -7275,98 +7275,100 @@ u16 GetMonEVCount(struct Pokemon *mon)
 
 void RandomlyGivePartyPokerus(struct Pokemon *party)
 {
-    u16 rnd = Random();
-    if (rnd == 0x4000 || rnd == 0x8000 || rnd == 0xC000)
-    {
-        struct Pokemon *mon;
+    // u16 rnd = Random();
+    // if (rnd == 0x4000 || rnd == 0x8000 || rnd == 0xC000)
+    // {
+    //     struct Pokemon *mon;
 
-        do
-        {
-            do
-            {
-                rnd = Random() % PARTY_SIZE;
-                mon = &party[rnd];
-            }
-            while (!GetMonData(mon, MON_DATA_SPECIES, 0));
-        }
-        while (GetMonData(mon, MON_DATA_IS_EGG, 0));
+    //     do
+    //     {
+    //         do
+    //         {
+    //             rnd = Random() % PARTY_SIZE;
+    //             mon = &party[rnd];
+    //         }
+    //         while (!GetMonData(mon, MON_DATA_SPECIES, 0));
+    //     }
+    //     while (GetMonData(mon, MON_DATA_IS_EGG, 0));
 
-        if (!(CheckPartyHasHadPokerus(party, gBitTable[rnd])))
-        {
-            u8 rnd2;
+    //     if (!(CheckPartyHasHadPokerus(party, gBitTable[rnd])))
+    //     {
+    //         u8 rnd2;
 
-            do
-            {
-                rnd2 = Random();
-            }
-            while ((rnd2 & 0x7) == 0);
+    //         do
+    //         {
+    //             rnd2 = Random();
+    //         }
+    //         while ((rnd2 & 0x7) == 0);
 
-            if (rnd2 & 0xF0)
-                rnd2 &= 0x7;
+    //         if (rnd2 & 0xF0)
+    //             rnd2 &= 0x7;
 
-            rnd2 |= (rnd2 << 4);
-            rnd2 &= 0xF3;
-            rnd2++;
+    //         rnd2 |= (rnd2 << 4);
+    //         rnd2 &= 0xF3;
+    //         rnd2++;
 
-            SetMonData(&party[rnd], MON_DATA_POKERUS, &rnd2);
-        }
-    }
+    //         SetMonData(&party[rnd], MON_DATA_POKERUS, &rnd2);
+    //     }
+    // }
 }
 
 u8 CheckPartyPokerus(struct Pokemon *party, u8 selection)
 {
-    u8 retVal;
+    return 0;
+    // u8 retVal;
 
-    int partyIndex = 0;
-    unsigned curBit = 1;
-    retVal = 0;
+    // int partyIndex = 0;
+    // unsigned curBit = 1;
+    // retVal = 0;
 
-    if (selection)
-    {
-        do
-        {
-            if ((selection & 1) && (GetMonData(&party[partyIndex], MON_DATA_POKERUS, 0) & 0xF))
-                retVal |= curBit;
-            partyIndex++;
-            curBit <<= 1;
-            selection >>= 1;
-        }
-        while (selection);
-    }
-    else if (GetMonData(&party[0], MON_DATA_POKERUS, 0) & 0xF)
-    {
-        retVal = 1;
-    }
+    // if (selection)
+    // {
+    //     do
+    //     {
+    //         if ((selection & 1) && (GetMonData(&party[partyIndex], MON_DATA_POKERUS, 0) & 0xF))
+    //             retVal |= curBit;
+    //         partyIndex++;
+    //         curBit <<= 1;
+    //         selection >>= 1;
+    //     }
+    //     while (selection);
+    // }
+    // else if (GetMonData(&party[0], MON_DATA_POKERUS, 0) & 0xF)
+    // {
+    //     retVal = 1;
+    // }
 
-    return retVal;
+    // return retVal;
 }
 
 u8 CheckPartyHasHadPokerus(struct Pokemon *party, u8 selection)
 {
-    u8 retVal;
+    return 0;
+    // u8 retVal;
 
-    int partyIndex = 0;
-    unsigned curBit = 1;
-    retVal = 0;
+    // int partyIndex = 0;
+    // unsigned curBit = 1;
+    // retVal = 0;
 
-    if (selection)
-    {
-        do
-        {
-            if ((selection & 1) && GetMonData(&party[partyIndex], MON_DATA_POKERUS, 0))
-                retVal |= curBit;
-            partyIndex++;
-            curBit <<= 1;
-            selection >>= 1;
-        }
-        while (selection);
-    }
-    else if (GetMonData(&party[0], MON_DATA_POKERUS, 0))
-    {
-        retVal = 1;
-    }
+    // if (selection)
+    // {
+    //     do
+    //     {
+    //         if ((selection & 1) && GetMonData(&party[partyIndex], MON_DATA_POKERUS, 0))
+    //             retVal |= curBit;
+    //         partyIndex++;
+    //         curBit <<= 1;
+    //         selection >>= 1;
+    //     }
+    //     while (selection);
+    // }
+    // else if (GetMonData(&party[0], MON_DATA_POKERUS, 0))
+    // {
+    //     retVal = 1;
+    // }
 
-    return retVal;
+    // return retVal;
 }
 
 void UpdatePartyPokerusTime(u16 days)
@@ -7395,32 +7397,32 @@ void UpdatePartyPokerusTime(u16 days)
 
 void PartySpreadPokerus(struct Pokemon *party)
 {
-    if ((Random() % 3) == 0)
-    {
-        int i;
-        for (i = 0; i < PARTY_SIZE; i++)
-        {
-            if (GetMonData(&party[i], MON_DATA_SPECIES, 0))
-            {
-                u8 pokerus = GetMonData(&party[i], MON_DATA_POKERUS, 0);
-                u8 curPokerus = pokerus;
-                if (pokerus)
-                {
-                    if (pokerus & 0xF)
-                    {
-                        // Spread to adjacent party members.
-                        if (i != 0 && !(GetMonData(&party[i - 1], MON_DATA_POKERUS, 0) & 0xF0))
-                            SetMonData(&party[i - 1], MON_DATA_POKERUS, &curPokerus);
-                        if (i != (PARTY_SIZE - 1) && !(GetMonData(&party[i + 1], MON_DATA_POKERUS, 0) & 0xF0))
-                        {
-                            SetMonData(&party[i + 1], MON_DATA_POKERUS, &curPokerus);
-                            i++;
-                        }
-                    }
-                }
-            }
-        }
-    }
+    // if ((Random() % 3) == 0)
+    // {
+    //     int i;
+    //     for (i = 0; i < PARTY_SIZE; i++)
+    //     {
+    //         if (GetMonData(&party[i], MON_DATA_SPECIES, 0))
+    //         {
+    //             u8 pokerus = GetMonData(&party[i], MON_DATA_POKERUS, 0);
+    //             u8 curPokerus = pokerus;
+    //             if (pokerus)
+    //             {
+    //                 if (pokerus & 0xF)
+    //                 {
+    //                     // Spread to adjacent party members.
+    //                     if (i != 0 && !(GetMonData(&party[i - 1], MON_DATA_POKERUS, 0) & 0xF0))
+    //                         SetMonData(&party[i - 1], MON_DATA_POKERUS, &curPokerus);
+    //                     if (i != (PARTY_SIZE - 1) && !(GetMonData(&party[i + 1], MON_DATA_POKERUS, 0) & 0xF0))
+    //                     {
+    //                         SetMonData(&party[i + 1], MON_DATA_POKERUS, &curPokerus);
+    //                         i++;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 bool8 TryIncrementMonLevel(struct Pokemon *mon)
