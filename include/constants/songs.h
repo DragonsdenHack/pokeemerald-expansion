@@ -627,6 +627,7 @@
 #define MUS_TOWER      				689 // 639 // FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 #define MUS_ABNORMAL_WEATHER2		690 // 640
 #define MUS_ZINNIA                  691 // 641
+#define MUS_TWINLEAF                692 // 642
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

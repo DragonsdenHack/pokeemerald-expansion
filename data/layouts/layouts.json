@@ -3164,7 +3164,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/map.bin"
@@ -3176,7 +3176,7 @@
       "height": 72,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_General2",
       "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
       "border_filepath": "data/layouts/BattleFrontier_OutsideWest/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideWest/map.bin"
@@ -3188,7 +3188,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleElevator/border.bin",
       "blockdata_filepath": "data/layouts/BattleElevator/map.bin"
@@ -4136,7 +4136,7 @@
       "height": 72,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_General2",
       "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
       "border_filepath": "data/layouts/BattleFrontier_OutsideEast/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideEast/map.bin"
@@ -15645,7 +15645,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_gTileset_PalletTown",
+      "secondary_tileset": "gTileset_jubilife_city",
       "border_filepath": "data/layouts/Route204/border.bin",
       "blockdata_filepath": "data/layouts/Route204/map.bin"
     },

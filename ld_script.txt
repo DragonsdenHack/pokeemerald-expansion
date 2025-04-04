@@ -1333,6 +1333,7 @@ SECTIONS {
 		sound/songs/midi/mus_tower.o(.rodata);
 		sound/songs/midi/mus_abnormal_weather2.o(.rodata);
 		sound/songs/midi/mus_zinnia.o(.rodata);
+		sound/songs/midi/mus_twinleaf.o(.rodata);
     } =0
 
     lib_rodata :

@@ -643,6 +643,7 @@ gSongTable::
 	song mus_tower 0, 0
 	song mus_abnormal_weather2 0, 0
 	song mus_zinnia 0,0
+	song mus_twinleaf 0,0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2
