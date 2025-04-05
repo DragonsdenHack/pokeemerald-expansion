@@ -859,12 +859,12 @@ gText_WhichFloorWouldYouLike::
 	.string	"¿A qué planta vas?$"
 
 gText_SandstormIsVicious::
-	.string	"La tormenta de arena es demasiado\n"
-	.string	"fuerte. No se puede avanzar.$"
+	.string "The sandstorm is vicious.\n"
+	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string	"Puedes asignar cualquier objeto\n"
-	.string	"de la MOCHILA al Botón SELECT.$"
+	.string "An item in the BAG can be\n"
+	.string "registered to SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::
 	.string "There's an e-mail from POKÉMON TRAINER\n"

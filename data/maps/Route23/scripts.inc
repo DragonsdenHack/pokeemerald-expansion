@@ -335,9 +335,9 @@ Route23_Combate_Andra_Texto_7.1:
 	.string "recoil, after taking down his BLASTOISE!$"
 
 Route23_Combate_Andra_Texto_7.2:
-	.string "As for you{PAUSE 20}…{PAUSE 20} I hope to have you nearby\l"
+	.string "As for you{PAUSE 20}…{PAUSE 20} I hope to have you nearby\n"
 	.string "if we make it to the final rounds.\p"
-	.string "You heard GIOVANNI{PAUSE 15}…{PAUSE 15}\l"
+	.string "You heard GIOVANNI{PAUSE 15}…{PAUSE 15}$"
 
 Route23_Combate_Andra_Texto_7.3:
 	.string "It's a fact that LANCE has immense\n"

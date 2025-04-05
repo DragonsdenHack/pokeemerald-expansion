@@ -134,10 +134,10 @@ CinnabarIsland_Escena_8_Texto_1:
 	.string "have 7 BADGES? Excellent!$"
 
 CinnabarIsland_Escena_8_Texto_2:
-.string "Escucha {PLAYER}, GIOVANNI en estos\n"
-	.string "momentos está muy ocupado, no puedo\l"
-	.string "darte detalles, pero debes dirigirte al\l"
-	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"
+	.string "Listen, {PLAYER}; GIOVANNI is very\n"
+	.string "busy at the moment, I can't give you\l"
+	.string "details, but you must go to the GYM in\l"
+	.string "VIRIDIAN CITY. That's all.$"
 
 CinnabarIsland_Oak::
 lock
@@ -336,52 +336,52 @@ CinnabarIsland_Oak_Texto_2:
 
 CinnabarIsland_Oak_Texto_3:
 	.string "The world is all yours. You have every\n"
-	.string "little thing you need to compete in this\n"
+	.string "little thing you need to compete in the\l"
 	.string "KANTO LEAGUE: you're both ignorant and\l"
 	.string "immature.$"
 
 CinnabarIsland_Oak_Texto_4:
 	.string "When you think about it, you realize how\n"
-	.string "much of a privilege ignorance is these\n"
+	.string "much of a privilege ignorance is these\l"
 	.string "days.$"
 
 CinnabarIsland_Oak_Texto_5:
 	.string "Without it, it'd be impossible to stay\n"
-	.string "sane in these coming times. Doubly so,\n"
+	.string "sane in these coming times. Doubly so,\l"
 	.string "presenting yourself to the LEAGUE\l"
 	.string "CHAMPIONSHIP.$"
 
 CinnabarIsland_Oak_Texto_6:
 	.string "And about being immature{PAUSE 25}…{PAUSE 25} With the\n"
-	.string "willpower of immaturity, anyone can\n"
+	.string "willpower of immaturity, anyone can\l"
 	.string "achieve almost anything!$"
 
 CinnabarIsland_Oak_Texto_7:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_8:
-	.string "Mocking you? HAH!\n"
+	.string "Mocking you? HAH!\p"
 	.string "It's the opposite, actually.$"
 
 CinnabarIsland_Oak_Texto_9:
 	.string "Mmm…$"
 
 CinnabarIsland_Oak_Texto_10:
-	.string "Six BADGEs{PAUSE 25}…{PAUSE 25} Interesting. I'm sure\n"
-	.string "you've experienced lots of adventures\n"
-	.string "that'll stick in your head for the years\l"
-	.string "to come.$"
+	.string "Six BADGEs{PAUSE 25}…{PAUSE 25} Interesting.\n"
+	.string "I'm sure you've experienced lots of\l"
+	.string "adventures that'll stick in your head\l"
+	.string "for the rest of your life.$"
 
 CinnabarIsland_Oak_Texto_10.1:
 	.string "Just the same as the thousands of\n"
-	.string "other kids starting their own journeys\n"
+	.string "other kids starting their own journeys\l"
 	.string "year after year, why would yours be any\l"
 	.string "better? The wheel still turns, and it\l"
 	.string "won't stop for anyone.$"
 
 CinnabarIsland_Oak_Texto_11:
 	.string "Despite this, I envy you. If you had\n"
-	.string "known what I know, you'd have never\n"
+	.string "known what I know, you'd have never\l"
 	.string "started this journey.$"
 
 CinnabarIsland_Oak_Texto_12:
@@ -390,10 +390,10 @@ CinnabarIsland_Oak_Texto_12:
 
 CinnabarIsland_Oak_Texto_13:
 	.string "But this is the way. New generations\n"
-	.string "deserve the opportunity. The chance of\n"
+	.string "deserve the opportunity: the chance of\l"
 	.string "losing, of knowing the cruel truth of\l"
 	.string "this reality, or of{PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_13.1:
-	.string "…making a miracle happen.$"
+	.string "{PAUSE 15}…{PAUSE 35}making a miracle happen.$"
 

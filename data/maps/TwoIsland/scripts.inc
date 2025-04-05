@@ -103,8 +103,8 @@ release
 end
 
 TwoIsland_Corriente_Arriba_Texto_1:
-	.string "(Apparently it is not recommended to go\n"
-	.string "near those currents).$"
+	.string "-Apparently it is not recommended\n"
+	.string "to go near those currents.-$"
 
 
 TwoIsland_Corriente_Derecha::

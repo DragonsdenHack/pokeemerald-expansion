@@ -1091,7 +1091,7 @@ Celadon_Ciyy_Lider_Gimnasio_Texto_1:
     .string "My POKÉMON are solely of the\n"
     .string "GRASS type.\p"
     .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.\p"
+    .string "you wished to challenge me.$"
 	
 Celadon_Ciyy_Lider_Gimnasio_Texto_1.1:
  .string "Very well, but I shall not lose.$"

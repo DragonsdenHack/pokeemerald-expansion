@@ -183,13 +183,13 @@ Text_WantToStrength:
 	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrength:
-	.string	"{STR_VAR_1} usó FUERZA.\p"
-	.string	"La FUERZA de {STR_VAR_1} logró\n"
-	.string	"desplazar la roca a un lado.$"
-	
+	.string "{STR_VAR_1} used STRENGTH!\p"
+	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "possible to move boulders around!$"
+
 Text_MonUsedStrength2:
-	.string	"La FUERZA de tus POKéMON logró\n"
-	.string	"desplazar la roca a un lado.$"	
+	.string "STRENGTH made it possible to move\n"
+	.string "boulders around.$"
 
 Text_CantStrength:
 	.string "It's a big boulder, but a POKÉMON\n"
@@ -248,11 +248,11 @@ Text_WantToWaterfall:
 	.string "Would you like to use WATERFALL?$"
 
 Text_MonUsedWaterfall:
-	.string	"{STR_VAR_1} usó CASCADA.$"
+	.string "{STR_VAR_1} used WATERFALL.$"
 	
 Text_MonUsedWaterfall2:
-	.string	"El ímpetu de tus POKéMON permitió\n"
-	.string "cruzar la CASCADA.$"	
+	.string "The momentum of your POKéMONs allowed\n"
+	.string "you to cross the WATERFALL.$"
 
 EventScript_UseDive::
 	lockall

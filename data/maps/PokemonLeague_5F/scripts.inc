@@ -390,14 +390,12 @@ PokemonLeague_5F_Azul_Rojo_Texto_9:
 	.string "Without them, you will never\n"
 	.string "become a CHAMP again!$"
 
-
 PokemonLeague_5F_Azul_Rojo_Texto_10:
 	.string "OAK: RED!\p"
 	.string "You understand that your victory\n"
 	.string "was not just your own doing.\p"
 	.string "The bond you share with your\n"
-	.string "POKÉMON is marvelous.\p"
-
+	.string "POKÉMON is marvelous.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_11:
 	.string "RED!\n"
@@ -487,7 +485,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_23:
 	.string "ends right here, right now.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_23.1:
-	.string "At this time, we have more than enough\l"
+	.string "At this time, we have more than enough\n"
 	.string "evidence to prosecute you for life due\l"
 	.string "to all your crimes, if you behave and\l"
 	.string "don't resist, maybe we'll let you out\l"

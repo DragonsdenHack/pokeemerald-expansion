@@ -15617,8 +15617,7 @@ VictoryRoad3F_Text_Pareja1Defeated:
 
 
 VictoryRoad3F_Text_Pareja1PostBattle:
-	.string "DESI: We would defeat you in a flash. To\n"
-	.string "face us, you must have two POKÉMON.$"
+.string "DESI: I can't believe it!$"
 
 
 

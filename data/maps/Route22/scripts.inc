@@ -216,7 +216,7 @@ Route22_Combate_Azul_Texto_9.1:
 
 Route22_Combate_Azul_Texto_10:
 	.string "Bah, Imma head out, {PLAYER}.\p"
-	.string "time is precious at this moment.$"
+	.string "Time is precious at this point.$"
 
 Route22_Combate_Azul_Texto_10.1:
 	.string "I wish you the best of lucks.\p"
@@ -227,7 +227,7 @@ Route22_Combate_Azul_Texto_10.1:
 Route22_Combate_Azul_Texto_11:
 	.string "And a last thing: don't even try to\n"
 	.string "collect the hidden RARE CANDIES.\p"
-	.string "Those are mine!$"
+	.string "All of them are mine!$"
 
 
 Route22_Combate_Azul_Move_1:

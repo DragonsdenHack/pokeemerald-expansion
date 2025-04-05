@@ -379,8 +379,8 @@ static const u8 sAbilityCapsuleDesc[] = _(
     "mon's ability.");
 
 static const u8 sAbilityPatchDesc[] = _( // Todo
-    "Cambia la habilidad\n"
-    "oculta del POKéMON.");
+    "Switches a Pkmn\n"
+    "hidden ability.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
@@ -606,9 +606,9 @@ static const u8 sXSpAtkDesc[] = _(
     "battle.");
 
 static const u8 sXSpDefDesc[] = _(
-    "Aumenta la\n"
-    "DEF. ESP durante\n"
-    "un combate.");
+    "Raises the stat\n"
+    "Sp. Def during one\n"
+    "battle.");
 
 static const u8 sXSpeedDesc[] = _(
     "Raises the stat\n"
@@ -950,64 +950,64 @@ static const u8 sDyniteOreDesc[] = _( // Todo
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "Sale ZIGZAGOON.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A ZIGZAGOON-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sHarborMailDesc[] = _(
-    "Sale WINGULL.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A WINGULL-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "Sale PIKACHU.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A PIKACHU-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sMechMailDesc[] = _(
-    "Sale MAGNEMITE.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A MAGNEMITE-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sWoodMailDesc[] = _(
-    "Sale SLAKOTH.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A SLAKOTH-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sWaveMailDesc[] = _(
-    "Sale WAILMER.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A WAILMER-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sBeadMailDesc[] = _(
-    "Carta con la imagen\n"
-   	"del POKÉMON que la\n"
-   	"lleva.");
+    "MAIL featuring a\n"
+    "sketch of the\n"
+    "holding POKéMON.");
 
 static const u8 sShadowMailDesc[] = _(
-    "Sale DUSKULL.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A DUSKULL-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sTropicMailDesc[] = _(
-    "Sale BELLOSSOM.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A BELLOSSOM-print\n"
+    "MAIL to be held by\n"
+    "a POKéMON.");
 
 static const u8 sDreamMailDesc[] = _(
-    "Carta con la imagen\n"
-   	"del POKÉMON que la\n"
-   	"lleva.");
+    "MAIL featuring a\n"
+    "sketch of the\n"
+    "holding POKéMON.");
 
 static const u8 sFabMailDesc[] = _(
-    "Fabuloso dibujo.\n"
-   	"Debe llevarla\n"
-   	"un POKÉMON.");
+    "A gorgeous-print\n"
+    "MAIL to be held\n"
+    "by a POKéMON.");
 
 static const u8 sRetroMailDesc[] = _(
-    "Carta con las\n"
-   	"imágenes de tres\n"
-   	"POKÉMON.");
+    "MAIL featuring the\n"
+    "drawings of three\n"
+    "POKéMON.");
 
 // Evolution Items
 static const u8 sFireStoneDesc[] = _(
@@ -2050,29 +2050,29 @@ static const u8 sPureIncenseDesc[] = _(
 
 // Contest Scarves
 static const u8 sRedScarfDesc[] = _(
-    "Al llevarlo en los\n"
-   	"CONCURSOS,\n"
-   	"sube el CARISMA.");
+    "A hold item that\n"
+    "raises COOL in\n"
+    "CONTESTS.");
 
 static const u8 sBlueScarfDesc[] = _(
-    "Al llevarlo en los\n"
-   	"CONCURSOS,\n"
-   	"sube la BELLEZA.");
+    "A hold item that\n"
+    "raises BEAUTY in\n"
+    "CONTESTS.");
 
 static const u8 sPinkScarfDesc[] = _(
-    "Al llevarlo en los\n"
-   	"CONCURSOS,\n"
-   	"sube la DULZURA.");
+    "A hold item that\n"
+    "raises CUTE in\n"
+    "CONTESTS.");
 
 static const u8 sGreenScarfDesc[] = _(
-    "Al llevarlo en los\n"
-   	"CONCURSOS,\n"
-   	"sube el INGENIO.");
+    "A hold item that\n"
+    "raises SMART in\n"
+    "CONTESTS.");
 
 static const u8 sYellowScarfDesc[] = _(
-    "Al llevarlo en los\n"
-   	"CONCURSOS,\n"
-   	"aumenta la DUREZA.");
+    "A hold item that\n"
+    "raises TOUGH in\n"
+    "CONTESTS.");
 
 // EV Gain Modifiers
 static const u8 sMachoBraceDesc[] = _(

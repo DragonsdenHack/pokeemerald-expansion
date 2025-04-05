@@ -81,10 +81,10 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
     .string "a move to one POKÉMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "¡Oh! ¡Eso es! ¡Eso es una\n"
-	.string "MINI SETA!\p"
-	.string "Déjame adivinar, ¿quieres que enseñe\n"
-	.string "algún movimiento a tus POKÉMON?$"
+    .string "Sniff, sniff…\n"
+    .string "Hm! You smell of MUSHROOMS!\p"
+    .string "Do you want me to teach a move\n"
+    .string "to a POKéMON of yours?$"
 	
 FallarborTown_MoveRelearnersHouse_Text_EggMove:
 	.string "Me sé todos los movimientos\n"
@@ -108,11 +108,11 @@ FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
     .string "If your POKÉMON need to learn a\n"
-    .string "move, I need a MUSHROOM or two.$"
+    .string "move, bring me a TINY MUSHROOM.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "¿Qué? No puedo enseñar nada\n"
-	.string "a un HUEVO.$"
+    .string "Hunh? There isn't a single move\n"
+    .string "that I can teach an EGG.$"
 
 Sala_Ejecutiva_MoveRelearnersHouse_EventScript_MoveRelearner::
 lock

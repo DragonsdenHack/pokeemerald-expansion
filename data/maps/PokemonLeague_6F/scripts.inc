@@ -610,7 +610,7 @@ PokemonLeague_6F_Final_Texto_12:
 	.string "GOVERNOR himself.$"
 
 PokemonLeague_6F_Final_Texto_12.1:
-	.string "That means{PAUSE 15}…{PAUSE 15} whoever controls RED\l"
+	.string "That means{PAUSE 15}…{PAUSE 15} whoever controls RED\n"
 	.string "has the power to change everything, to\l"
 	.string "adapt to any situation, and ultimately\l"
 	.string "emerge victorious at the end of the\l"
@@ -689,7 +689,7 @@ PokemonLeague_6F_Final_Texto_24:
 	.string "catch in KANTO!$"
 
 PokemonLeague_6F_Final_Texto_25:
-.string "There isn't any other possible explanation!\p"
+.string "There isn't another possible explanation!\p"
 	.string "YOU!\p"
 	.string "You…!$"
 

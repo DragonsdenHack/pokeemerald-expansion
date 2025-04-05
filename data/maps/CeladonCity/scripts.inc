@@ -373,8 +373,8 @@ CeladonCity_Entrenador_Especial_Texto_9:
 	.string "good use of it.$"
 
 CeladonCity_Entrenador_Especial_Texto_10:
-.string "Reusar un combate a un anciano{PAUSE 10}…{PAUSE 10}\n"
-	.string "Habráse visto{PAUSE 10}…{PAUSE 10}$"
+.string "Refusing a combat to an old man{PAUSE 10}…{PAUSE 10}\n"
+	.string "What disrespect{PAUSE 10}…{PAUSE 10}$"
 
 
 CeladonCity_Bloqueo_Paleta::
@@ -396,5 +396,5 @@ walk_right
 step_end
 
 CeladonCity_Bloqueo_Paleta_Texto_1:
-	.string "-Debo investigar PUEBLO PALETA antes\n"
-	.string "de volver a la BASE ROCKET.-$"
+	.string "-I must investigate PALETT TOWN before\n"
+	.string "returning to the HQ.-$"

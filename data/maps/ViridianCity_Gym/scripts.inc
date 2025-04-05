@@ -164,10 +164,15 @@ walk_slow_down
 step_end
 
 ViridianCity_Gym_Escena_8_Texto_1:
-	.string "I've lost, I'm no longer worthy to lead\n"
-	.string "my minions! The TEAM ROCKET is over! I'll\l"
-	.string "dedicate my life to studying POKÉMON! I\l"
-	.string "hope we meet again! Goodbye!$"
+    .string "Having lost in this fashion, \n"
+    .string "I can't face my followers.\l"
+    .string "I have betrayed their trust.\p"
+    .string "As of today, TEAM ROCKET is\n"
+    .string "finished forever!\p"
+    .string "As for myself, I shall dedicate\n"
+    .string "my life to training again.\p"
+    .string "Let us meet again someday!\n"
+    .string "Farewell!$"
 
 ViridianCity_Gym_Pase::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Gym_Pase_Move_2

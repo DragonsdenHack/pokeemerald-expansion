@@ -159,7 +159,7 @@ step_end
 
 RocketHideout_9F_Presentacion_Sala_Texto_6:
 	.string "Never, ever, put a foe between the\n"
-	.string "sword and the wall; he'll give his\n"
+	.string "sword and the wall; he'll give his\l"
 	.string "absolute best.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_7:
@@ -181,7 +181,7 @@ RocketHideout_9F_Presentacion_Sala_Texto_11:
 	.string "Corner RED! Put his neck between your\n"
 	.string "sword and the wall! Show him what you're\l"
 	.string "made of, perform at a level he's never\l"
-	.string "seen! And then{PLAYER}…{PAUSE 15}!$"
+	.string "seen! And then, {PLAYER}…{PAUSE 15}!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_12:
 	.string "Then{PAUSE 15}…{PAUSE 15}$"
@@ -372,7 +372,7 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Texto_1:
-	.string "I specialize in DEFENSE training. It's\p"
+	.string "I specialize in DEFENSE training.\p"
 	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"
 
@@ -394,7 +394,7 @@ end
 
 
 RocketHideout_9F_Entrenador_Velocidad_Texto_1:
-	.string "I specialize in SPEED training. It's\p"
+	.string "I specialize in SPEED training.\p"
 	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"
 
@@ -415,7 +415,7 @@ release
 end
 
 RocketHideout_9F_Entrenador_Ataque_Texto_1:
-	.string "I specialize in ATTACK training. It's\p"
+	.string "I specialize in ATTACK training.\p"
 	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"
 
@@ -439,7 +439,7 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
-	.string "I specialize in SP.DEFENSE training. It's\p"
+	.string "I specialize in SP.DEFENSE training.\p"
 	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"
 
@@ -460,6 +460,6 @@ release
 end
 
 RocketHideout_9F_Entrenador_Salud_Texto_1:
-	.string "I specialize in HP training. It's\p"
+	.string "I specialize in HP training.\p"
 	.string "It's ¥2,000 for a full training session.\n"
 	.string "Do you accept?$"

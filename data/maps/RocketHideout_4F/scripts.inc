@@ -284,10 +284,10 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
-	.string "Relax and enjoy the islands, {PLAYER}. There's a\n"
-	.string "lot to do there if you know where to\l"
-	.string "look. Maybe if you visit ARCHER at our\l"
-	.string "headquarters, he'll show you some of its\l"
+	.string "Relax and enjoy the islands, {PLAYER}.\n"
+	.string "There's a lot to do there, if you know\l"
+	.string "where to look. Maybe if you visit ARCHER\l"
+	.string "at our HQ, he'll show you some of its\l"
 	.string "secrets, knows the SEVII ISLANDS better\l"
 	.string "than anyone.$"
 
@@ -298,10 +298,10 @@ end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
 	.string "You can tackle the gyms in any order\n"
-	.string "you like, {PLAYER}, but I recommend following\l"
-	.string "the traditional route. By the way, CINNABAR\l"
-	.string "GYM is closed right now, so you'll have to\l"
-	.string "wait for that coward BLAINE to reopen\l"
+	.string "you like, but I recommend following the\l"
+	.string "traditional route. By the way, CINNABAR\l"
+	.string "GYM is closed right now, so you'll have\l"
+	.string "to wait for that coward BLAINE to reopen\l"
 	.string "it. And remember, once you've earned the\l"
 	.string "first seven BADGES, you still have our\l"
 	.string "GYM in VIRIDIAN CITY to conquer.$"
@@ -3173,7 +3173,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13:
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
     .string "We have fulfilled the purpose of why\n"
 	.string "TEAM ROCKET was created, {PLAYER}.\p"
-	.string "you were fundamental in saving KANTO\n"
+	.string "You were fundamental in saving KANTO\n"
 	.string "from the hands of LANCE, along with\l"
 	.string "ARCHER and ANDRA, you have reached the\l"
 	.string "highest rank I can give to any member\l"

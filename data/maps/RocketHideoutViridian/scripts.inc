@@ -311,8 +311,8 @@ RocketHideoutViridian_Combate_Petrel_Texto_4:
 RocketHideoutViridian_Combate_Petrel_Texto_5:
 	.string "HAH! Marvelous! I didn't expect less,\n"
 	.string "coming from the one who defeated BRUNO\l"
-	.string "and saved my BIKERS colleagues! I'm happy\l"
-	.string "to see you're on our side, {PLAYER}.\p"
+	.string "and saved my BIKERS colleagues! I'm\l"
+	.string "happy to see you're on our side.\p"
 	.string "If you happen to encounter that guy\n"
 	.string "named RED, you know, the one who thinks\l"
 	.string "he's in a league of his own and sees\l"
