@@ -238,6 +238,7 @@ waitmovement 0x0
 special RemoveCameraObject
 clearflag FLAG_HOENN_684
 setflag FLAG_HOENN_7
+setflag FLAG_HOENN_9
 removeobject 2
 addobject 8
 setvar VAR_UNUSED_0x40F8, 4
