@@ -12,7 +12,7 @@ msgbox SnowpointCity_Cartel_Texto_1, MSGBOX_SIGN
 end
 
 SnowpointCity_Cartel_Texto_1:
-	.string "CIUDAD PUNTANEVA\p"
+	.string "CIUDAD PUNTANEVA\n"
 	.string "Donde vive la nieve$"
 
 SnowpointCity_Primer_Npc::

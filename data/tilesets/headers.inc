@@ -1622,3 +1622,36 @@ gTileset_silph_co2::
 	.4byte gMetatiles_silph_co2
 	.4byte gMetatileAttributes_silph_co2
 	.4byte NULL
+
+	.align 2
+gTileset_General2::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_General2
+	.4byte gTilesetPalettes_General2
+	.4byte gMetatiles_General2
+	.4byte gMetatileAttributes_General2
+	.4byte NULL
+
+	.align 2
+gTileset_twinleaf_town::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_twinleaf_town
+	.4byte gTilesetPalettes_twinleaf_town
+	.4byte gMetatiles_twinleaf_town
+	.4byte gMetatileAttributes_twinleaf_town
+	.4byte NULL
+
+	.align 2
+gTileset_jubilife_city::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_jubilife_city
+	.4byte gTilesetPalettes_jubilife_city
+	.4byte gMetatiles_jubilife_city
+	.4byte gMetatileAttributes_jubilife_city
+	.4byte NULL

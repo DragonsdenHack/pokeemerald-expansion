@@ -135,6 +135,24 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route129_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route129_Barrera"
     }
   ],
   "bg_events": [
