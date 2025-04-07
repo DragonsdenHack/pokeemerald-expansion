@@ -326,8 +326,8 @@ Magma3_Combate_Magno_Texto_6:
 
 Magma3_Combate_Magno_Texto_6.1:
 	.string "Many options, discards, changes{PAUSE 20}…{PAUSE 20}\n"
-	.string "POKÉMON that more or less fit the essence\l"
-	.string "of my plan…$"
+	.string "POKÉMON that more or less fit the\l"
+	.string "essence of my plan…$"
 
 Magma3_Combate_Magno_Texto_6.2:
 	.string "But finally, after so much, I've\n"
@@ -355,7 +355,7 @@ Magma3_Combate_Magno_Texto_8.1:
 	.string "It makes no sense!$"
 
 Magma3_Combate_Magno_Texto_9:
-	.string "????: That's enough, MAXIE,\p"
+	.string "????: That's enough, MAXIE.\p"
 	.string "You've gone far enough.$"
 
 Magma3_Combate_Magno_Texto_10:

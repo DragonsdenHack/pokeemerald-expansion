@@ -55,7 +55,7 @@ applymovement 1, Goldenrod_Casa_Secreta_Exorcista_Move_3
 waitmovement 0x0
 playfanfare MUS_OBTAIN_TMHM
 msgbox Goldenrod_Casa_Secreta_Exorcista_Texto_15 MSGBOX_DEFAULT
-givemon SPECIES_MARSHADOW, 80, ITEM_FIGHTING_GEM
+givemon SPECIES_MARSHADOW, 75, ITEM_FIGHTING_GEM
 waitfanfare
 msgbox Goldenrod_Casa_Secreta_Exorcista_Texto_16 MSGBOX_AUTOCLOSE
 msgbox Goldenrod_Casa_Secreta_Exorcista_Texto_17 MSGBOX_AUTOCLOSE
@@ -150,7 +150,7 @@ Goldenrod_Casa_Secreta_Exorcista_Texto_14:
 	.string "about.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_15:
-	.string "YOU RECEIVED A LV.80 MARSHADOW!! $"
+	.string "YOU RECEIVED A LV.75 MARSHADOW!! $"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_16:
 	.string "The ex-THREE ISLAND gym LEADER says\n"

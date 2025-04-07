@@ -133,17 +133,17 @@ SixIsland_Laboratorio_Acromo_Texto_3:
 
 SixIsland_Laboratorio_Acromo_Texto_4:
 	.string "I come from a distant region, and I have\n"
-	.string "seen that a lot of its species can be\n"
+	.string "seen that a lot of its species can be\l"
 	.string "found here as well.$"
 
 SixIsland_Laboratorio_Acromo_Texto_5:
 	.string "It is nothing but this peculiar\n"
-	.string "connection that made me stay in this\n"
+	.string "connection that made me stay in this\l"
 	.string "hidden clearing.$"
 
 SixIsland_Laboratorio_Acromo_Texto_6:
 	.string "It looks like you're an uneasy soul as\n"
-	.string "well, aren't you? In fact, you may have\n"
+	.string "well, aren't you? In fact, you may have\l"
 	.string "found something that could help my\l"
 	.string "investigations.$"
 
@@ -155,7 +155,7 @@ SixIsland_Laboratorio_Acromo_Texto_8:
 
 SixIsland_Laboratorio_Acromo_Texto_9:
 	.string "If you ever find something that you\n"
-	.string "think may help my work here, come to\n"
+	.string "think may help my work here, come to\l"
 	.string "visit me. I shall reward you with a very\l"
 	.string "special POKÉMON.$"
 
@@ -166,8 +166,8 @@ SixIsland_Laboratorio_Acromo_Texto_11:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 SixIsland_Laboratorio_Acromo_Texto_12:
-	.string "Mhh{PAUSE 10}…{PAUSE 10}\n"
-	.string "This METEORITE{PAUSE 10}…{PAUSE 10}\n"
+	.string "Mhh{PAUSE 10}…{PAUSE 10}\p"
+	.string "This METEORITE{PAUSE 10}…{PAUSE 10}\p"
 	.string "Where did you get it?$"
 
 SixIsland_Laboratorio_Acromo_Texto_13:
@@ -179,7 +179,7 @@ SixIsland_Laboratorio_Acromo_Texto_14:
 
 SixIsland_Laboratorio_Acromo_Texto_15:
 	.string "I think this is exactly what I was\n"
-	.string "looking for. Thanks to it, I'll be one\n"
+	.string "looking for. Thanks to it, I'll be one\l"
 	.string "step nearer to the answers I'm seeking\l"
 	.string "about all this biodiversity.$"
 
@@ -192,7 +192,7 @@ SixIsland_Laboratorio_Acromo_Texto_17:
 
 SixIsland_Laboratorio_Acromo_Texto_18:
 	.string "In the end, my only purpose is reaching\n"
-	.string "the maximum in terms of the potential\n"
+	.string "the maximum in terms of the potential\l"
 	.string "of a POKÉMON, and you have pushed me\l"
 	.string "nearer to my objective.$"
 
@@ -205,17 +205,17 @@ SixIsland_Laboratorio_Acromo_Texto_20:
 
 SixIsland_Laboratorio_Acromo_Texto_21:
 	.string "This POKÉMON is worth studying, trust\n"
-	.string "me. It won't befriend a TYRANITAR, and\n"
+	.string "me. It won't befriend a TYRANITAR, and\l"
 	.string "as I discovered, it can reach an even\l"
 	.string "greater potential.$"
 
 SixIsland_Laboratorio_Acromo_Texto_22:
-	.string "How?\n"
+	.string "How?\p"
 	.string "That's a mystery…{PAUSE 25} For now.$"
 
 SixIsland_Laboratorio_Acromo_Texto_23:
 	.string "If there really is a peak, unreachable\n"
-	.string "by interacting with POKÉMON, don't you\n"
+	.string "by interacting with POKÉMON, don't you\l"
 	.string "think it may be reachable by scientific\l"
 	.string "methods rather than emotional ones?$"
 

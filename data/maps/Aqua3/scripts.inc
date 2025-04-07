@@ -310,7 +310,7 @@ walk_in_place_left
 step_end
 
 Aqua3_Combate_Aquiles_Texto_1:
-	.string "ARCHIE: Soon, you will be free, KYOGRE.\p"
+	.string "ARCHIE: Soon, you'll be free, KYOGRE.\p"
 	.string "Those who confined you will pay for\n"
 	.string "having done such a thing to the one who\l"
 	.string "made the proliferation of life possible\l"
@@ -442,7 +442,7 @@ Aqua3_Combate_Aquiles_Texto_15:
 .string "ARCHIE: {PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_16:
-.string "¿Q{PAUSE 15}-{PAUSE 15}qué hago yo aquí?$"
+.string "¿W{PAUSE 15}-{PAUSE 15}What am I doing here?$"
 
 Aqua3_Combate_Aquiles_Texto_17:
 	.string "ZEUS: That's exactly what we're\n"
@@ -454,8 +454,8 @@ Aqua3_Combate_Aquiles_Texto_17:
 
 Aqua3_Combate_Aquiles_Texto_18:
 	.string "ARCHIE: KYOGRE, yes! I must find that\n"
-	.string "RED ORB; there's a lot to do! We're going\l"
-	.string "back to HOENN!$"
+	.string "RED ORB; there's a lot to do!\p"
+	.string "We're going back to HOENN!$"
 
 Aqua3_Combate_Aquiles_Texto_19:
 	.string "ZEUS: Now, both ARCHIE and MAXIE are\n"

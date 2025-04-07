@@ -196,23 +196,23 @@ LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
 	.string	"toda la decoración de mi casa!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
-	.string	"Uf… ¡Qué sed tengo!$"
+	.string "Ohh… I'm bone-dry thirsty!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
-	.string	"Es una MÁQUINA EXPENDEDORA.\n"
-	.string	"No sé si beber algo…$"
+	.string "It's a VENDING MACHINE.\n"
+	.string "Which drink would you like?$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
-	.string	"¡Clang!\p"
-	.string	"Ha caído una lata de {STR_VAR_1}.$"
+	.string "Clang!\p"
+	.string "A can of {STR_VAR_1} dropped down.$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
-	.string	"¡Clang!\p"
-	.string	"¡Qué suerte! ¡Ha caído otra\n"
-	.string	"lata de {STR_VAR_1}!$"
+	.string "Clang!\p"
+	.string "Score! An extra can of {STR_VAR_1}\n"
+	.string "dropped down!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
-	.string	"No tengo bastante dinero…$"
+	.string "Not enough money…$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
-	.string	"Mejor no compro nada de beber…$"
+	.string "Decided against buying a drink.$"

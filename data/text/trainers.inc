@@ -10854,7 +10854,7 @@ SevaultCanyon_Text_ChicaDefeated:
 
 SevaultCanyon_Text_ChicaPostBattle:
     .string "TEAM ROCKET bought those\n"
-    .string "snazzy RUNNING SHOES for\p"
+    .string "snazzy RUNNING SHOES for\l"
     .string "you? Amazing!$"
 
 

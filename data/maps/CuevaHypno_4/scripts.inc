@@ -67,8 +67,8 @@ CuevaHypno_4_Lider_Texto_1:
 CuevaHypno_4_Lider_Texto_2:
 	.string "So you saw me when that HYPNO attacked\n"
 	.string "the children. But you're not from THREE\l"
-	.string "ISLAND, right? BERRY FOREST is already a\l"
-	.string "forgotten place for the island\l"
+	.string "ISLAND, right? BERRY FOREST is already\l"
+	.string "a forgotten place for the island\l"
 	.string "residents; it wasn't always like this…{PAUSE 20}$"
 
 CuevaHypno_4_Lider_Texto_3:
@@ -89,8 +89,8 @@ CuevaHypno_4_Lider_Texto_5:
 	.string "Is AGATHA still part of the ELITE FOUR?\n"
 	.string "Well…{PAUSE 20} she's holding up well, then I'm not\l"
 	.string "the only one still resisting letting the\l"
-	.string "passage of time degrade it. I'm glad to\l"
-	.string "know that.$"
+	.string "passage of time degrade it.\p"
+	.string "I'm glad to know that.$"
 
 CuevaHypno_4_Lider_Texto_6:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -101,8 +101,8 @@ CuevaHypno_4_Lider_Texto_7:
 	.string "for you as well. You seem to have lived a\l"
 	.string "lot already, but your adventure has\l"
 	.string "only just begun, and you're eager to see\l"
-	.string "all that this world has to offer. Isn't\l"
-	.string "that so?$"
+	.string "all that this world has to offer.\p"
+	.string "Isn't that so?$"
 
 CuevaHypno_4_Lider_Texto_8:
 	.string "Perhaps I can contribute to that.\n"

@@ -162,7 +162,7 @@ Aqua2_Combate_Admin_Texto_2.2:
 	.string "the origin of the sea: KYOGRE!$"
 
 Aqua2_Combate_Admin_Texto_2.3:
-	.string "Our leader, ARCHIE, is the ideal\l"
+	.string "Our leader, ARCHIE, is the ideal\n"
 	.string "person to awaken it, and his sea\l"
 	.string "POKÉMON are the only ones worthy of\l"
 	.string "witnessing the rebirth of KYOGRE.$"

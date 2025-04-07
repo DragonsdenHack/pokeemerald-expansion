@@ -2596,173 +2596,168 @@ delay_8
 step_end
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_1:
-.string "GIOVANNI: ¡Oh, {PLAYER}!\n"
-.string "¡Te veo algo cambiado!\p"
-	.string "No diría que has estado precisamente\n"
-	.string "tomando con calma tus vacaciones.\l"
-	.string "¿Me equivoco?$"
+.string "GIOVANNI: Oh, {PLAYER}!\p"
+.string "You look a bit changed!\p"
+	.string "I wouldn't say you've exactly been\n"
+	.string "taking it easy on your vacation.\p"
+	.string "Am I wrong?$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
-.string "Antes de nada, debo darte una mala\n"
-	.string "noticia, y es que OAK ha desaparecido.$"
+	.string "First and foremost, I must give you\n"
+	.string "some unfortunate news: OAK has\l"
+	.string "completely vanished from the map.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_2.1:
-	.string "Después de lo ocurrido en la LIGA,\n"
-	.string "quedamos en recluirlo en su laboratorio\l"
-	.string "de PUEBLO PALETA, pero ha encontrado la\l"
-	.string "la forma de desaparecer.$"
+	.string "After the POKÉMON LEAGUE, we agreed to\n"
+	.string "confine him to his laboratory in PALLET\l"
+	.string "TOWN, but he has found a way to\l"
+	.string "disappear.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_2.2:
-	.string "Creemos que puede estar tramando algo,\n"
-	.string "junto con BLAINE; el otro traidor que\l"
-	.string "también ha desaparecido.\p"
-	.string "Y mientras…{PAUSE 25} FUJI aún entre rejas,\n"
-	.string "por fortuna, queda poco para su vuelta{PAUSE 5}…{PAUSE 5}$"
+	.string "The thing is{PAUSE 15}…{PAUSE 15} we suspect he might be\n"
+	.string "scheming something with BLAINE, the\l"
+	.string "other traitor who, curiously, has also\l"
+	.string "vanished.\p"
+	.string "Meanwhile, FUJI is still under arrest…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
-.string "Pero no te hecho regresar para\n"
-	.string "hablar de OAK.\l"
-	.string "El encargo que estoy a punto de darte\l"
-	.string "es mucho más trascendental para la\l"
-	.string "historia de nuestra región, escucha{PAUSE 5}…{PAUSE 5}$"
+	.string "But I haven't brought back my top\n"
+	.string "ROCKET to talk about OAK. The task I'm\l"
+	.string "about to assign you is much more\l"
+	.string "transcendental for the history of\l"
+	.string "our region. Listen…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
-.string "Desde siempre, aquellos ciudadanos de\n"
-	.string "KANTO con la mente lo suficientemente\l"
-	.string "abierta como para ver más allá de los\l"
-	.string "150 originales; los que conocían otras\l"
-	.string "regiones, habían viajado hasta la vecina\l"
-	.string "JOHTO, o la lejana HOENN, se hacían una\l"
-	.string "pregunta{PAUSE 15}…{PAUSE 15}$"
+	.string "For as long as anyone can remember,\n"
+	.string "KANTO citizens with open minds, those\l"
+	.string "who've looked beyond the original 150,\l"
+	.string "who've known about other regions, like\l"
+	.string "JOHTO or HOENN, asked about{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4.1:
-	.string "¿Por qué no existe en KANTO un\n"
-	.string "POKÉMON de las dimensiones de\l"
-	.string "HO-OH, GROUDON o RAYQUAZA?$"
+	.string "Why isn't here, in KANTO, a POKÉMON with\n"
+	.string "the characteristics of HO-OH, GROUDON,\l"
+	.string "or RAYQUAZA? Each region has, at least,\l"
+	.string "one 'MAJOR LEGENDARY', except for\l"
+	.string "KANTO, which is quite peculiar…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4.2:
-	.string "El patrón de los -LEGENDARIOS MAYORES-\n"
-	.string "se repite en todas las regiones\l"
-	.string "conocidas, sin excepción.\l"
-	.string "Todas{PAUSE 15}…{PAUSE 15} excepto nuestra KANTO.$"
+	.string "Each region has, at least, one\n"
+	.string "'MAJOR LEGENDARY', except for\l"
+	.string "KANTO, which is quite peculiar…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
-.string "Surgieron muchas teorías que trataban\n"
-	.string "de responder a esta pregunta; algunos\l"
-	.string "científicos e investigadores señalaron\l"
-	.string "que era MEW dicho POKÉMON.$"
+	.string "Several theories emerged trying to\n"
+	.string "answer this question. Some scientists\l"
+	.string "and researchers claimed it was MEW.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5.1:
-	.string "Pero no podemos meterlo en el mismo\n"
-	.string "saco que RAYQUAZA, o LUGIA{PAUSE 5}…{PAUSE 5}\l"
-	.string "Entraría más en el perfil de JIRACHI\l"
-	.string "en HOENN o{PAUSE 5}…{PAUSE 5}$"
+	.string "However, we can't group MEW with\n"
+	.string "RAYQUAZA or LUGIA. It aligns more with\l"
+	.string "the profile of JIRACHI in HOENN or…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
 .string "PROTON: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
-.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}CELEBI en JOHTO.$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}CELEBI in JOHTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
-.string "Otros apuntaban a que KANTO era una\n"
-	.string "región desprovista de un POKÉMON así.$"
+	.string "Some argued that KANTO just didn't\n"
+	.string "have one single MAJOR LEGENDARY.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8.1:
-	.string "Sus POKÉMON de mayor jerarquía serían,\n"
-	.string "en ese caso, DRAGONITE y MEW.\l"
-	.string "Estableciendo el límite de poder de\l"
-	.string "la región en 600 STATS BASE.$"
+	.string "Then, DRAGONITE and MEW would be the\n"
+	.string "top power here.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8.2:
-	.string "Después de todo, la historia de KANTO\n"
-	.string "pudo propiciar que no se diesen los\l"
-	.string "ingredientes necesarios para que surja\l"
-	.string "un LUGIA o un HO-OH; mero azar.$"
+	.string "After all, KANTO's history might not\n"
+	.string "have provided the conditions for a\l"
+	.string "LUGIA or HO-OH to develop here. In that\l"
+	.string "sense, it might be a matter of mere\l"
+	.string "chance, natural selection.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8.3:
-	.string "De ser el caso, ello quedaría en una\n"
-	.string "curiosa coincidencia, sin embargo{PAUSE 15}…{PAUSE 15}$"
+	.string "If this were the case, it would be a\n"
+	.string "curious coincidence, but{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
-.string "Un último grupo de investigadores\n"
-	.string "apunta a que, efectivamente, dicho\l"
-	.string "POKÉMON existiría; el único motivo\l"
-	.string "por el que no lo conocemos sería\l"
-	.string "ese: aún no ha sido encontrado.$"
+	.string "One last group of researchers points\n"
+	.string "out that such a POKÉMON would, indeed,\l"
+	.string "exist; the only reason we don't know\l"
+	.string "about it's precisely that: we haven't\l"
+	.string "found it yet.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_10:
-.string "Esta última teoría se subdivide en\n"
-	.string "otras dos teorías.$"
+	.string "This last theory breaks down\n"
+	.string "into two others.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_10.1:
-	.string "Una afirma que ese POKÉMON nos es\n"
-	.string "ignoto por su escurridiza naturaleza.$"
+	.string "One says we don't know about this\n"
+	.string "POKÉMON because of its elusive nature.$"
 	
 RocketHideout8F_Mision_Subterraneo_Silph_Text_10.2:
-	.string "La otra{PAUSE 15}…{PAUSE 15} afirma que es debido\n"
-	.string "a su vasto poder, de tal magnitud que\l"
-	.string "sobrepasaría el de un -LEGENDARIO MAYOR-.$"
+	.string "The other claims its power is so great\n"
+	.string "that it exceeds even the 'MAJOR\l"
+	.string "LEGENDARIES' ones, so powerful that it\l"
+	.string "would be able to become invisible to\l"
+	.string "human eyes.\p"
+	.string "Maybe it's both, or none{PAUSE 20}…{PAUSE 20} I don't know.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_11:
 .string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_12:
-.string "Este tema siempre me ha fascinado.\n"
-	.string "La posibilidad de que tal POKÉMON\l"
-	.string "exista cambiaría la forma en que\l"
-	.string "vemos KANTO para siempre.$"
+    .string "This topic has always intrigued me,\n"
+	.string "{PLAYER}. The existence of such a\l"
+	.string "POKÉMON could reshape our perception\l"
+	.string "of KANTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_12.1:
-	.string "Entre nuestra cruzada para liberar\n"
-	.string "la región de las garras de LANCE, y\l"
-	.string "la poca información sobre dicho tema,\l"
-	.string "el TEAM ROCKET dejó este asunto en\l"
-	.string "pausa.\p"
-	.string "Ahora, con KANTO recuperándose, y\n"
-	.string "nuestra situación actual, es el momento\l"
-	.string "de reiniciar esta investigación.$"
+	.string "Due to our main goal: saving KANTO\n"
+	.string "from LANCE, and the lack of information\l"
+	.string "about this, we paused the research.\p"
+	.string "But now it's time to kickstart this\n"
+	.string "investigation.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
-.string "Desde que SILPH es aliada nuestra, he\n"
-	.string "tenido ocasión de reunirme varias\l"
-	.string "veces con su PRESIDENTE.\p"
-	.string "El caso es que en nuestra última\n"
-	.string "reunión, salió este tema y{PAUSE 5}…{PAUSE 5}$"
+	.string "Since SILPH became our ally, I've had\n"
+	.string "the opportunity to meet several times\l"
+	.string "with the PRESIDENT.\p"
+	.string "The thing is, in our last meeting,\n"
+	.string "this topic came up, and…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
-.string "Resulta que SILPH cuenta con una gran\n"
-	.string "biblioteca privada en sus pisos\l"
-	.string "inferiores.\p"
-	.string "No solo es la empresa más exitosa\n"
-	.string "de KANTO, también es una de las más\l"
-	.string "antiguas; dentro de esa biblioteca\l"
-	.string "hay algunos documentos que hablan de\l"
-	.string "un POKÉMON que podría encajar con lo\l"
-	.string "que buscamos.$"
+	.string "SILPH actually has a huge private\n"
+	.string "library in their lower floors, off-limits\l"
+	.string "to the public. SILPH isn't just KANTO's\l"
+	.string "most successful company, but also one\l"
+	.string "of the oldest. In that private library,\l"
+	.string "there are some documents talking about\l"
+	.string "the existence of a POKÉMON that could\l"
+	.string "fit with what we're looking for.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
-.string "Tu misión es muy simple, {PLAYER}.\n"
-	.string "Solo tendrás que volver a SILPH y\l"
-	.string "hablar con la recepcionista, ella\l"
-	.string "te indicará cómo entrar a los pisos\l"
-	.string "inferiores.\l"
-	.string "Una vez allí, irás en busca de tan\l"
-	.string "reveladores archivos.$"
+	.string "Your mission is quite simple,\n"
+	.string "{PLAYER}: you just have to return to\l"
+	.string "SILPH and speak with the receptionist\l"
+	.string "to get access to the lower floors.\p"
+	.string "Thus you could reach those potentially\n"
+	.string "revealing documents.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_16:
-.string "No solo yo, el PRESIDENTE de SILPH\n"
-	.string "se mostró encantado de que fueras\l"
-	.string "tú quien volviera a SILPH.\p"
-	.string "En ese sentido, no encontrarás\n"
-	.string "oposición alguna.$"
+	.string "It's not just me; SILPH PRESIDENT was\n"
+	.string "excited about your return to SILPH.\l"
+	.string "In that sense, you won't encounter\l"
+	.string "any opposition.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_17:
-.string "Eso es todo, y recuerda: la\n"
-	.string "recepcionista de SILPH te dará\l"
-	.string "acceso a los pisos inferiores.\l"
-	.string "Saluda al PRESIDENTE de mi parte,\l"
-	.string "si es que llegas a verlo.$"
+	.string "GIOVANNI: Alright, {PLAYER},\n"
+	.string "remember, the SILPH receptionist will\l"
+	.string "get you into the lower floors.\l"
+	.string "Send my regards to the PRESIDENT for me,\l"
+	.string "if you get to see him.\p"
+	.string "That's all!$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Move_1:
 walk_up
