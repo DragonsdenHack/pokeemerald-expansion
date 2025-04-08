@@ -136,10 +136,9 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_1:
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_2:
 	.string "ZEUS: I'd arrived believing this place\n"
-	.string "would reveal invaluable information on\l"
-	.string "the two LEGENDARIES of JOHTO-allow me\l"
-	.string "to glean the history of this region. Yet\l"
-	.string "only doddering, old men are here, bowing\l"
+	.string "would reveal invaluable information\l"
+	.string "about the two LEGENDARIES of JOHTO.\p"
+	.string "And what's the reality? Old men, bowing\n"
 	.string "to the mediocrity of BELLSPROUT.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_3:

@@ -43,7 +43,7 @@ end
 
 Goldenrod_RadioTowerP3_Text_4:
 	.string "GOLDENROD CITY isn't just the most\n"
-	.string "populated city of JOHTO-no city in KANTO\l"
+	.string "populated city of JOHTO; no city in KANTO\l"
 	.string "could even match its numbers. And this\l"
 	.string "RADIO TOWER is a key element in that.$"
 

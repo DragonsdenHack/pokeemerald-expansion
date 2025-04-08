@@ -16,7 +16,7 @@ Goldenrod_RadioTowerP7_NPC_2_Texto_1:
 
 Goldenrod_RadioTowerP7_NPC_2_Texto_2:
 	.string "That said… If you leave your value to\n"
-	.string "the world's determination, it'll see only\n"
+	.string "the world's determination, it'll see only\l"
 	.string "nil.$"
 
 Goldenrod_RadioTowerP7_NPC_3::
@@ -34,7 +34,7 @@ Goldenrod_RadioTowerP7_NPC_3_Texto_1:
 
 Goldenrod_RadioTowerP7_NPC_3_Texto_2:
 	.string "The other departments actually open to\n"
-	.string "the public are but a front to fund the\n"
+	.string "the public are but a front to fund the\l"
 	.string "research people like me take on here.$"
 
 Goldenrod_RadioTowerP7_NPC_4::
@@ -57,7 +57,7 @@ end
 
 Goldenrod_RadioTowerP7_NPC_4_Texto_1:
 	.string "Everyday, we discover new interesting\n"
-	.string "facts about waves. Some are more\n"
+	.string "facts about waves. Some are more\l"
 	.string "interesting than others though.$"
 
 Goldenrod_RadioTowerP7_NPC_4_Texto_2:
@@ -69,7 +69,7 @@ Goldenrod_RadioTowerP7_NPC_4_Texto_3:
 
 Goldenrod_RadioTowerP7_NPC_4_Texto_4:
 	.string "The world is changing at an outstanding\n"
-	.string "speed. Heh, only God can know where we\n"
+	.string "speed. Heh, only God can know where we\l"
 	.string "will be a year from now.$"
 
 Goldenrod_RadioTowerP7_NPC_5::
@@ -81,7 +81,7 @@ end
 
 Goldenrod_RadioTowerP7_NPC_5_Texto_1:
 	.string "The DIRECTOR isn't that good with\n"
-	.string "POKËMON. He focused on economics and\n"
+	.string "POKËMON. He focused on economics and\l"
 	.string "business instead.$"
 
 Goldenrod_RadioTowerP7_NPC_6::
@@ -98,7 +98,7 @@ Goldenrod_RadioTowerP7_NPC_6_Texto_1:
 
 Goldenrod_RadioTowerP7_NPC_6_Texto_2:
 	.string "They're bringing us POKÉMON from all\n"
-	.string "over the world so we can improve our\n"
+	.string "over the world so we can improve our\l"
 	.string "performance on duty. My personal\l"
 	.string "favourites are MANECTRIC and\l"
 	.string "ARCANINE.$"

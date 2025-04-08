@@ -16,7 +16,7 @@ end
 
 Goldenrod_RadioTowerP9_NPC5_Texto_1:
 	.string "Legal, illegal, creative, destructive…\n"
-	.string "If it makes some cash, it will prosper\n"
+	.string "If it makes some cash, it will prosper\l"
 	.string "here.$"
 
 Goldenrod_RadioTowerP9_NPC7::
@@ -28,7 +28,7 @@ end
 
 Goldenrod_RadioTowerP9_NPC7_Texto_1:
 	.string "The perfection road is plain and\n"
-	.string "straight; the genius' one, is devious\n"
+	.string "straight; the genius' one, is devious\l"
 	.string "and uncertain.$"
 
 Goldenrod_RadioTowerP9_Llave_1::
@@ -135,7 +135,7 @@ Goldenrod_RadioTowerP9_Policia_Llave_Texto_1:
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_2:
 	.string "The security from now on is more strict.\n"
-	.string "If you want to go upstairs, you'll need\n"
+	.string "If you want to go upstairs, you'll need\l"
 	.string "this special key.$"
 
 Goldenrod_RadioTowerP9_Policia_Llave_Texto_3:
@@ -400,7 +400,7 @@ step_end
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_1:
 	.string "????: We would never imagine that such\n"
-	.string "things had occurred on the other side\n"
+	.string "things had occurred on the other side\l"
 	.string "of MT. SILVER.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_2:
@@ -420,7 +420,7 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_5:
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_6:
 	.string "He was wrong when he thought that\n"
-	.string "LANCE would continue his legacy,\n"
+	.string "LANCE would continue his legacy,\l"
 	.string "trusting and hoping that he would stay\l"
 	.string "on the right path, pure and virtuous,\l"
 	.string "respecting tradition and all of what he\l"
@@ -428,18 +428,18 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_6:
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_7:
 	.string "At least this is what you did. As well as\n"
-	.string "your master before you and his master\n"
+	.string "your master before you and his master\l"
 	.string "before him. I understand you: there was\l"
 	.string "no way to predict it could happen\l"
 	.string "otherwise.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_8:
-	.string "DRAGON MASTER: I was blind… and I\n"
+	.string "DRAGON MASTER: I was blind{PAUSE 25}…{PAUSE 25} and I\n"
 	.string "didn't see what he was turning into…$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_9:
 	.string "GIOVANNI: Now, the easy way is to blame\n"
-	.string "the whole region of JOHTO for letting\n"
+	.string "the whole region of JOHTO for letting\l"
 	.string "LANCE get into power.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_10:
@@ -451,32 +451,32 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_11:
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_12:
 	.string "And I'll gain nothing from rendering\n"
-	.string "judgment on the elderly pretending to\n"
+	.string "judgment on the elderly pretending to\l"
 	.string "be deaf-mutes.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_13:
 	.string "And not because they don't care about\n"
-	.string "KANTO, but because of their true way:\n"
+	.string "KANTO, but because of their true way:\l"
 	.string "battling.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_14:
 	.string "To follow the old way of the TRAINER,\n"
-	.string "that exact one that requires escaping\n"
+	.string "that exact one that requires escaping\l"
 	.string "from the mundane. How on earth could\l"
 	.string "this be punishable?$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_15:
-	.string "ARCHER: …$"
+	.string "ARCHER: {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_16:
 	.string "DRAGON MASTER: Fine. I will help you.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_17:
-	.string "But… I refuse to forget who we are and\n"
+	.string "But{PAUSE 25}…{PAUSE 35} I refuse to forget who we are and\n"
 	.string "where we have come from.$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_18:
-	.string "ARCHER: SIR… I can understand the\n"
+	.string "ARCHER: SIR{PAUSE 15}…{PAUSE 15} I can understand the\n"
 	.string "MASTER, but LANCE?!$"
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_19:
@@ -495,5 +495,5 @@ Goldenrod_RadioTowerP9_Giovanni_Texto_22:
 
 Goldenrod_RadioTowerP9_Giovanni_Texto_23:
 	.string "Now, let's get moving. There are things\n"
-	.string "far more important to discuss, and only\n"
+	.string "far more important to discuss, and only\l"
 	.string "{PLAYER} and us are left.$"

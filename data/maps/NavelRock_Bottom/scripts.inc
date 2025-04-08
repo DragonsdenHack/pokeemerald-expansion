@@ -311,10 +311,10 @@ NavelRock_Bottom_Combate_Lugia_Texto_7:
 	.string "to catch.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_8:
-.string "Ambos han desaparecido, sí{PAUSE 15}…{PAUSE 15}\p"
-	.string "Pero creo que hemos activado algo\n"
-	.string "importante, después de ser capaces\l"
-	.string "de derrotarlos, ese terremoto{PAUSE 15}…{PAUSE 15}$"
+	.string "They're both gone, yes{PAUSE 15}…{PAUSE 15}…{PAUSE 15} But I think\n"
+	.string "we've triggered something important,\l"
+	.string "after we were able to defeat them, that\l"
+	.string "earthquake{PAUSE 15}…{PAUSE 15}$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_8.1:
 	.string "I got a call from our JOHTO HQ, saying it\n"

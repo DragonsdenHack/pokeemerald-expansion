@@ -879,8 +879,8 @@ CinnabarMansionS2_Oak_Texto_9:
 
 CinnabarMansionS2_Oak_Texto_9.1:
 	.string "Skill will prevail only when it is so\n"
-	.string "superior to the skill of the other that\n"
-	.string "the will is not tested.$"
+	.string "superior to the skill of the other\l"
+	.string "that the will is not tested.$"
 
 CinnabarMansionS2_Oak_Texto_9.2:
 	.string "So the best among them will be because\n"
@@ -933,8 +933,8 @@ CinnabarMansionS2_Oak_Texto_14:
 
 CinnabarMansionS2_Oak_Texto_15:
 	.string "{PAUSE 20}No…{PAUSE 30} it makes no sense; my team is\n"
-	.string "unbeatable. Nobody{PAUSE 15}…{PAUSE 15} not even LANCE{PAUSE 15}…{PAUSE 15} not\l"
-	.string "GIOVANNI…{PAUSE 30}$"
+	.string "unbeatable. Nobody{PAUSE 15}…{PAUSE 15} not even LANCE{PAUSE 15}…{PAUSE 15}\p"
+	.string "Not GIOVANNI…{PAUSE 30}$"
 
 CinnabarMansionS2_Oak_Texto_15.1:
 	.string "Not even GOD could defeat me!$"

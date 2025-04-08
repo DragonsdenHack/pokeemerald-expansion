@@ -559,7 +559,7 @@ const struct Item gItems[] =
 
     [ITEM_REVIVAL_HERB] =
     {
-        .name = _("Hier. Revivir"),
+        .name = _("Revival Herb"),
         .itemId = ITEM_REVIVAL_HERB,
         .price = 2800,
         .description = sRevivalHerbDesc,
@@ -2167,7 +2167,7 @@ const struct Item gItems[] =
 
     [ITEM_WISHING_PIECE] = // Todo
     {
-        .name = _("Ala Arcoíris"),
+        .name = _("Rainbow Wing"),
         .itemId = ITEM_WISHING_PIECE,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_ALA_ARCOIRIS,
@@ -2179,7 +2179,7 @@ const struct Item gItems[] =
 
     [ITEM_GALARICA_TWIG] = // Todo
     {
-        .name = _("Ala Plateada"),
+        .name = _("Silver Wing"),
         .itemId = ITEM_WISHING_PIECE,
         .price = 50000,
         .holdEffect = HOLD_EFFECT_ALA_PLATEADA,

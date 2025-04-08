@@ -453,7 +453,7 @@ IlexForest_Escena_Texto_3:
 
 IlexForest_Escena_Texto_4:
 	.string "It's truly delightful to see a young girl\n"
-	.string "like you with such enthusiasm nowadays.\n"
+	.string "like you with such enthusiasm nowadays.\l"
 	.string "It's relieving that old values still\l"
 	.string "persist in the present time.$"
 
@@ -463,7 +463,7 @@ IlexForest_Escena_Texto_5:
 
 IlexForest_Escena_Texto_6:
 	.string "Yes{PAUSE 25}…{PAUSE 25} Of course{PAUSE 25}…{PAUSE 25} You see it all the time.\n"
-	.string "You can't appreciate it, but every\n"
+	.string "You can't appreciate it, but every\l"
 	.string "action, every decision, every battle… is\l"
 	.string "making a great difference.$"
 
@@ -473,28 +473,28 @@ IlexForest_Escena_Texto_7:
 
 IlexForest_Escena_Texto_8:
 	.string "Oh, if you just knew all the things he\n"
-	.string "went through before he could evolve his\n"
+	.string "went through before he could evolve his\l"
 	.string "SCYTHER!$"
 
 IlexForest_Escena_Texto_9:
 	.string "Only after traveling to every corner of\n"
-	.string "the region, unveiling every secret and\n"
+	.string "the region, unveiling every secret and\l"
 	.string "not a moment before, could he do it.$"
 
 IlexForest_Escena_Texto_10:
 	.string "But{PAUSE 25}…{PAUSE 25} I don't even know all the secrets\n"
-	.string "of this ILEX FOREST… How could I\n"
+	.string "of this ILEX FOREST… How could I\l"
 	.string "possibly do that!$"
 
 IlexForest_Escena_Texto_11:
 	.string "The TRAINER's way requires both time\n"
-	.string "and sacrifice. Only then will you sow\n"
+	.string "and sacrifice. Only then will you sow\l"
 	.string "strong roots, roots that will stand\l"
 	.string "against any adversity.$"
 
 IlexForest_Escena_Texto_12:
 	.string "This energy, this emotion; the one\n"
-	.string "you're putting into your SCYTHER is\n"
+	.string "you're putting into your SCYTHER is\l"
 	.string "never a futile action. It will always\l"
 	.string "have a meaning.$"
 
@@ -1062,7 +1062,7 @@ IlexForest_Escena_Despues_Texto_3:
 
 IlexForest_Escena_Despues_Texto_4:
 	.string "Why am I getting worse at this? And why\n"
-	.string "do I feel more tired than a few weeks\n"
+	.string "do I feel more tired than a few weeks\l"
 	.string "ago?$"
 
 IlexForest_Escena_Despues_Texto_5:
@@ -1071,7 +1071,7 @@ IlexForest_Escena_Despues_Texto_5:
 
 IlexForest_Escena_Despues_Texto_6:
 	.string "Feels like I'm so bogged down. There's\n"
-	.string "so much more to go before I reach the\n"
+	.string "so much more to go before I reach the\l"
 	.string "level of the masters… but I'm already\l"
 	.string "stuck in a rut!$"
 
@@ -1110,7 +1110,7 @@ IlexForest_Escena_Despues_Texto_16:
 
 IlexForest_Escena_Despues_Texto_17:
 	.string "Woah, that SCYTHER's built as hell. We\n"
-	.string "had one too. You know that in\n"
+	.string "had one too. You know that in\l"
 	.string "GOLDENROD, they sell a stone that\l"
 	.string "evolves it to SCIZOR?$"
 
@@ -1126,7 +1126,7 @@ IlexForest_Escena_Despues_Texto_20:
 
 IlexForest_Escena_Despues_Texto_21:
 	.string "Girl. You got whatever 'MON you want in\n"
-	.string "the palm of your hand. Not only SCIZOR,\n"
+	.string "the palm of your hand. Not only SCIZOR,\l"
 	.string "you got PSEUDOs, STARTERs, some exotic,\l"
 	.string "foreign 'MONs… Your pick!$"
 
@@ -1135,7 +1135,7 @@ IlexForest_Escena_Despues_Texto_22:
 
 IlexForest_Escena_Despues_Texto_23:
 	.string "And don't forget uncle PORYGON! If you\n"
-	.string "get some stuff too, you can get a\n"
+	.string "get some stuff too, you can get a\l"
 	.string "PORYGON-Z in the blink of an eye!$"
 
 IlexForest_Escena_Despues_Texto_24:
@@ -1143,7 +1143,7 @@ IlexForest_Escena_Despues_Texto_24:
 
 IlexForest_Escena_Despues_Texto_25:
 	.string "Sure thing! Now anyone can have a fully\n"
-	.string "evolved team. No matter how noob they\n"
+	.string "evolved team. No matter how noob they\l"
 	.string "are!$"
 
 IlexForest_Escena_Despues_Texto_26:
@@ -1151,13 +1151,13 @@ IlexForest_Escena_Despues_Texto_26:
 
 IlexForest_Escena_Despues_Texto_27:
 	.string "If you keep chucking wood like this,\n"
-	.string "you'll end up dead tired. And all that\n"
+	.string "you'll end up dead tired. And all that\l"
 	.string "for what? Like this, you'll need years\l"
 	.string "to reach some serious gains.$"
 
 IlexForest_Escena_Despues_Texto_28:
 	.string "That's right{PAUSE 35}…{PAUSE 35} The world's moving on. If I\n"
-	.string "don't hurry and catch up, I'll just get\n"
+	.string "don't hurry and catch up, I'll just get\l"
 	.string "left behind.$"
 
 IlexForest_Escena_Despues_Texto_28.1:
@@ -1193,7 +1193,7 @@ IlexForest_Escena_Despues_Texto_36:
 
 IlexForest_Escena_Despues_Texto_37:
 	.string "The masses bleed at the slightest\n"
-	.string "touch. That said{PAUSE 25}…{PAUSE 25} some bear the\n"
+	.string "touch. That said{PAUSE 25}…{PAUSE 25} some bear the\l"
 	.string "fortune of upholding their bravado\l"
 	.string "before their fellows.$"
 
@@ -1242,5 +1242,6 @@ IlexForest_Escena_Despues_Texto_49:
 
 IlexForest_Escena_Despues_Texto_50:
 	.string "Now, the time has come{PAUSE 35}…{PAUSE 35} for me to visit\n"
-	.string "the places that truly matter in this\n"
+	.string "the places that truly matter in this\l"
 	.string "region called JOHTO.$"
+

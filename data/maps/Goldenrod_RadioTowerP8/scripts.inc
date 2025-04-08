@@ -22,7 +22,7 @@ end
 
 Goldenrod_RadioTowerP8_NPC3_Texto_1:
 	.string "I took on that red-headed chick, but\n"
-	.string "wow, who'd have thought someone that\n"
+	.string "wow, who'd have thought someone that\l"
 	.string "young would already be part of the\l"
 	.string "elite?$"
 
@@ -52,7 +52,7 @@ end
 
 Goldenrod_RadioTowerP8_NPC4_Texto_1:
 	.string "We've been studying the possibility of\n"
-	.string "including a foreign POKÉMON in security.\n"
+	.string "including a foreign POKÉMON in security.\p"
 	.string "Have one for yourself. Take it.$"
 
 Goldenrod_RadioTowerP8_NPC4_Texto_2:
@@ -60,12 +60,12 @@ Goldenrod_RadioTowerP8_NPC4_Texto_2:
 
 Goldenrod_RadioTowerP8_NPC4_Texto_3:
 	.string "It's been demonstrated that STOUTLAND\n"
-	.string "is a great POKÉMON for the POLICE.\n"
+	.string "is a great POKÉMON for the POLICE.\l"
 	.string "However, we are resilient to change.$"
 
 Goldenrod_RadioTowerP8_NPC4_Texto_4:
 	.string "POKÉMON like MANECTRIC and ARCANINE\n"
-	.string "are easy to get in here, all thanks to\n"
+	.string "are easy to get in here, all thanks to\l"
 	.string "being close to their home regions.$"
 
 Goldenrod_RadioTowerP8_NPC5::
@@ -80,17 +80,17 @@ end
 
 Goldenrod_RadioTowerP8_NPC5_Texto_1:
 	.string "This is the seventh floor. Here, we're in\n"
-	.string "charge of optimizing the radio waves'\n"
+	.string "charge of optimizing the radio waves'\l"
 	.string "performance in the best way possible.$"
 
 Goldenrod_RadioTowerP8_NPC5_Texto_2:
 	.string "You can see a sign post on every floor\n"
-	.string "that describes the main job of each\n"
+	.string "that describes the main job of each\l"
 	.string "one.$"
 
 Goldenrod_RadioTowerP8_NPC5_Texto_3:
 	.string "Thanks to your investigations,\n"
-	.string "powerful executives enveloped in a suit\n"
+	.string "powerful executives enveloped in a suit\l"
 	.string "will be able to get stronger and\l"
 	.string "stronger POKÉMON with just pressing a\l"
 	.string "button. Isn't it great?$"
@@ -237,29 +237,29 @@ Goldenrod_RadioTowerP8_Proton_Texto_1:
 
 Goldenrod_RadioTowerP8_Proton_Texto_2:
 	.string "I used to see you around the DEEP\n"
-	.string "BASE… Now that you'll be moving to\n"
+	.string "BASE{PAUSE 15}…{PAUSE 15} Now that you'll be moving to\l"
 	.string "JOHTO, I won't see you that often.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_3:
 	.string "I'll be sticking around for a while.\n"
-	.string "ARCHER put me in charge of the security\n"
+	.string "ARCHER put me in charge of the security\l"
 	.string "of the RADIO TOWER. Also, I gained the\l"
 	.string "trust of the DIRECTOR.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_4:
 	.string "We're using quite advanced techniques\n"
-	.string "and protocols. Also, we're importing\n"
+	.string "and protocols. Also, we're importing\l"
 	.string "POKÉMON from various regions.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_5:
-	.string "Mmm…$"
+	.string "Mmm{PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_6:
-	.string "You know…$"
+	.string "You know{PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_7:
 	.string "GIOVANNI is having a little chat\n"
-	.string "upstairs, just before the big meeting,\n"
+	.string "upstairs, just before the big meeting,\l"
 	.string "so we got time.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_8:
@@ -271,12 +271,12 @@ Goldenrod_RadioTowerP8_Proton_Texto_9:
 
 Goldenrod_RadioTowerP8_Proton_Texto_10:
 	.string "Seems like JOHTO is toughing you up\n"
-	.string "even more, isn't it? Say, what do you\n"
+	.string "even more, isn't it? Say, what do you\l"
 	.string "think about GOLDENROD?$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_11:
 	.string "Ten years ago, it was a completely\n"
-	.string "different place. For the last few years,\n"
+	.string "different place. For the last few years,\l"
 	.string "it's opening itself to the world. And not\l"
 	.string "only GOLDENROD, but the whole of JOHTO.$"
 
@@ -286,19 +286,19 @@ Goldenrod_RadioTowerP8_Proton_Texto_12:
 
 Goldenrod_RadioTowerP8_Proton_Texto_13:
 	.string "The RADIO TOWER is a symbol of the\n"
-	.string "modern era; the DIRECTOR himself will\n"
+	.string "modern era; the DIRECTOR himself will\l"
 	.string "ensure it stands tall and moves\l"
 	.string "forward.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_14:
 	.string "Now, there he is, importing HOENN's\n"
-	.string "POKÉMON and hiring SINNOH's scientists\n"
+	.string "POKÉMON and hiring SINNOH's scientists\l"
 	.string "and, of course, ROCKET EXECUTIVEs as\l"
 	.string "security.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_15:
 	.string "The best of each place, don't you\n"
-	.string "think? Seems like we're up to very\n"
+	.string "think? Seems like we're up to very\l"
 	.string "interesting times.$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_16:
@@ -311,7 +311,7 @@ Goldenrod_RadioTowerP8_Proton_Texto_17:
 
 Goldenrod_RadioTowerP8_Proton_Texto_18:
 	.string "I like it here. I may stay a few days.\n"
-	.string "The views are delightful, and this city\n"
+	.string "The views are delightful, and this city\l"
 	.string "has everything one needs.$"
 
 

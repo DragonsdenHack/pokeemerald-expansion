@@ -3801,15 +3801,15 @@ RocketHideout8F_Mision_Johto_Text_23:
 RocketHideout8F_Mision_Johto_Text_24:
 .string "ANDRA: Do not expect that I will use\n"
 	.string "exotic LEGENDARIES from HOENN in our\l"
-	.string "next fight {PLAYER}, I told you that I\l"
-	.string "will be the best just using NO\l"
-	.string "LEGENDARIES, and I am going to keep it.\l"
-	.string "I hope someday you visit HOENN, maybe I\l"
-	.string "could go around for JOHTO, as the\l"
+	.string "next fight, {PLAYER}; I told you that\l"
+	.string "I will be the best just using NO\l"
+	.string "LEGENDARIES, and I am going to keep it.\p"
+	.string "I hope someday you visit HOENN, maybe I\n"
+	.string "could go around for JOHTO, if the\l"
 	.string "situation requires it!$"
 
 RocketHideout8F_Mision_Johto_Text_25:
-.string "GIOVANNI: Well {PLAYER}, you know\n"
+.string "GIOVANNI: Well, {PLAYER}, you know\n"
 	.string "there are a lot loose ends that are not\l"
 	.string "solved because OAK interrupted us, but\l"
 	.string "you should know before going to JOHTO.$"
@@ -3835,8 +3835,8 @@ RocketHideout8F_Mision_Johto_Text_28:
 	.string "pursuing in JOHTO.$"
 
 RocketHideout8F_Mision_Johto_Text_29:
-.string "GIOVANNI: A last thing {PLAYER},\n"
-	.string "since now you are in charge of TEAM\l"
+.string "GIOVANNI: A last thing, {PLAYER}.\p"
+	.string "Since now, you are in charge of TEAM\n"
 	.string "ROCKET in the JOHTO region! You are\l"
 	.string "promoted to BOSS ADMIN ROCKET and\l"
 	.string "JOHTO LEADER!$"

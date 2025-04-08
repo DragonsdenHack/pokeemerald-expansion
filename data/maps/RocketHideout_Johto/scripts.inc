@@ -332,7 +332,7 @@ RocketHideoutJohto_Text_21:
 	.string "more. However, thanks to studying it, we\l"
 	.string "created NIDOKING-X and NIDOQUEEN-Y.\l"
 	.string "Though their STATs only rose by 100, as\l"
-	.string "opposed to the 110 of GIOVANNI's\l"
+	.string "opposed to the 125 of GIOVANNI's\l"
 	.string "RHYPERIOR…$"
 
 

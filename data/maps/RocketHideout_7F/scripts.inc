@@ -315,10 +315,9 @@ release
 end
 
 RocketHideout7F_Text_18:
-.string "No sabemos dónde está el límite de\n"
-.string "poder base alcanzable por un\l"
-.string "POKÉMON, pero si sabemos dónde no\l"
-.string "está{PAUSE 5}…{PAUSE 5}$"
+	.string "We don't know where the limit of base\n"
+	.string "power achievable by a POKEMON is, but\l"
+	.string "we do know where it is not{PAUSE 5}…{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout7F_Bombalodo_Hoenn::
 lock
@@ -328,11 +327,11 @@ release
 end
 
 RocketHideout7F_Bombalodo_Hoenn_Texto_1:
-	.string "Se dice que los mejores caballos\n"
-	.string "pierden cuando compiten con otros más\l"
-	.string "lentos y que ganan con rivales a su\l"
-	.string "altura: la ausencia de retos perjudica\l"
-	.string "a los mejores.$"
+	.string "It is said that the best horses lose\n"
+	.string "when they compete with slower horses\l"
+	.string "and win with rivals at their level: the\l"
+	.string "absence of challenge is a disadvantage\l"
+	.string "for the best ones.$"
 
 
 
@@ -388,7 +387,7 @@ RocketHideout7F_Text_21:
 	.string "That DEVON in HOENN is growing more and\n"
 	.string "more, but they have no chance against a\l"
 	.string "combined SILPH and TEAM ROCKET. Either\l"
-	.string "thwy accept our conditions or they will\l"
+	.string "they accept our conditions or they will\l"
 	.string "be wiped off the playing field.$"
 
 
@@ -2666,8 +2665,8 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_12:
 RocketHideout_7F_Fuerte_Vinculo_Texto_13:
 	.string "Our best scientists have conducted\n"
 	.string "countless tests on it and have decided\l"
-	.string "to christen this phenomenon as…\p"
-	.string "… -DEEP BOND-, represented with\n"
+	.string "to christen this phenomenon as{PAUSE 15}…{PAUSE 35}\p"
+	.string "{PAUSE 25}…{PAUSE 25} -DEEP BOND-, represented with\n"
 	.string "an -&- in battle.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_14:

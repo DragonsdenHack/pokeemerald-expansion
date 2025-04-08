@@ -10,7 +10,7 @@ end
 
 Goldenrod_RadioTowerP10_NPC_1_Texto_1:
 	.string "By studying radio waves, we're\n"
-	.string "discovering new moves, some of them we\n"
+	.string "discovering new moves, some of them we\l"
 	.string "find quite interesting.$"
 
 Goldenrod_RadioTowerP10_NPC_2::
@@ -28,7 +28,7 @@ Goldenrod_RadioTowerP10_NPC_2_Texto_1:
 
 Goldenrod_RadioTowerP10_NPC_2_Texto_2:
 	.string "But a MAJOR one like LUGIA or HO-OH…\n"
-	.string "Well, that's a whole different story,\n"
+	.string "Well, that's a whole different story,\l"
 	.string "and I doubt they will be surpassed this\l"
 	.string "easily.$"
 
@@ -80,7 +80,7 @@ Goldenrod_RadioTowerP10_NPC_5_Texto_2:
 
 Goldenrod_RadioTowerP10_NPC_5_Texto_3:
 	.string "GIOVANNI put me in here. As a sign of\n"
-	.string "the KANTO-JOHTO union, he didn't\n"
+	.string "the KANTO-JOHTO union, he didn't\l"
 	.string "hesitate to fund the RADIO TOWER.$"
 
 Goldenrod_RadioTowerP10_NPC_6::
@@ -92,7 +92,7 @@ end
 
 Goldenrod_RadioTowerP10_NPC_6_Texto_1:
 	.string "SILPH, the RADIO TOWER, and TEAM\n"
-	.string "ROCKET are the triumvirate of the new\n"
+	.string "ROCKET are the triumvirate of the new\l"
 	.string "KANTO-JOHTO.$"
 
 Goldenrod_RadioTowerP10_NPC_7::
@@ -118,7 +118,7 @@ end
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_1:
 	.string "SACRED ASH is very rare to see. On the\n"
-	.string "other hand, there are some parts of\n"
+	.string "other hand, there are some parts of\l"
 	.string "HO-OH's body that are extremely rare.\l"
 	.string "Parts that weren't reduced to dust.$"
 
@@ -131,12 +131,12 @@ Goldenrod_RadioTowerP10_NPC_7_Texto_3:
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_4:
 	.string "Our studies have concluded that this\n"
-	.string "item can increase HO-OH's attack and\n"
+	.string "item can increase HO-OH's attack and\l"
 	.string "defense by 20%.$"
 
 Goldenrod_RadioTowerP10_NPC_7_Texto_5:
 	.string "In reality, it's impossible, but if you\n"
-	.string "managed to get a HO-OH, you'd have a\n"
+	.string "managed to get a HO-OH, you'd have a\l"
 	.string "great battler.$"
 
 Goldenrod_RadioTowerP10_Llave_1::
