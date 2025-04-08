@@ -2834,7 +2834,7 @@ const struct Item gItems[] =
 
     [ITEM_FLAME_PLATE] =
     {
-        .name = _("Tabla Llama"),
+        .name = _("Flame Plate"),
         .itemId = ITEM_FLAME_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2848,7 +2848,7 @@ const struct Item gItems[] =
 
     [ITEM_SPLASH_PLATE] =
     {
-        .name = _("Tabla Linfa"),
+        .name = _("Splash Plate"),
         .itemId = ITEM_SPLASH_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2862,7 +2862,7 @@ const struct Item gItems[] =
 
     [ITEM_ZAP_PLATE] =
     {
-        .name = _("Tabla Trueno"),
+        .name = _("Zap Plate"),
         .itemId = ITEM_ZAP_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2876,7 +2876,7 @@ const struct Item gItems[] =
 
     [ITEM_MEADOW_PLATE] =
     {
-        .name = _("Tabla Pradal"),
+        .name = _("Meadow Plate"),
         .itemId = ITEM_MEADOW_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2890,7 +2890,7 @@ const struct Item gItems[] =
 
     [ITEM_ICICLE_PLATE] =
     {
-        .name = _("Tabla Helada"),
+        .name = _("Icicle Plate"),
         .itemId = ITEM_ICICLE_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2904,7 +2904,7 @@ const struct Item gItems[] =
 
     [ITEM_FIST_PLATE] =
     {
-        .name = _("Tabla Fuerte"),
+        .name = _("Fist Plate"),
         .itemId = ITEM_FIST_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2918,7 +2918,7 @@ const struct Item gItems[] =
 
     [ITEM_TOXIC_PLATE] =
     {
-        .name = _("Tabla Tóxica"),
+        .name = _("Toxic Plate"),
         .itemId = ITEM_TOXIC_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2932,7 +2932,7 @@ const struct Item gItems[] =
 
     [ITEM_EARTH_PLATE] =
     {
-        .name = _("Tabla Terrax"),
+        .name = _("Earth Plate"),
         .itemId = ITEM_EARTH_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2946,7 +2946,7 @@ const struct Item gItems[] =
 
     [ITEM_SKY_PLATE] =
     {
-        .name = _("Tabla Cielo"),
+        .name = _("Sky Plate"),
         .itemId = ITEM_SKY_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2960,7 +2960,7 @@ const struct Item gItems[] =
 
     [ITEM_MIND_PLATE] =
     {
-        .name = _("Tabla Mental"),
+        .name = _("Mind Plate"),
         .itemId = ITEM_MIND_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2974,7 +2974,7 @@ const struct Item gItems[] =
 
     [ITEM_INSECT_PLATE] =
     {
-        .name = _("Tabla Bicho"),
+        .name = _("Insect Plate"),
         .itemId = ITEM_INSECT_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -2988,7 +2988,7 @@ const struct Item gItems[] =
 
     [ITEM_STONE_PLATE] =
     {
-        .name = _("Tabla Pétrea"),
+        .name = _("Stone Plate"),
         .itemId = ITEM_STONE_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -3002,7 +3002,7 @@ const struct Item gItems[] =
 
     [ITEM_SPOOKY_PLATE] =
     {
-        .name = _("Tabla Terror"),
+        .name = _("Spooky Plate"),
         .itemId = ITEM_SPOOKY_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -3016,7 +3016,7 @@ const struct Item gItems[] =
 
     [ITEM_DRACO_PLATE] =
     {
-        .name = _("Tabla Draco"),
+        .name = _("Draco Plate"),
         .itemId = ITEM_DRACO_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -3030,7 +3030,7 @@ const struct Item gItems[] =
 
     [ITEM_DREAD_PLATE] =
     {
-        .name = _("Tabla Oscura"),
+        .name = _("Dread Plate"),
         .itemId = ITEM_DREAD_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -3044,7 +3044,7 @@ const struct Item gItems[] =
 
     [ITEM_IRON_PLATE] =
     {
-        .name = _("Tabla Acero"),
+        .name = _("Iron Plate"),
         .itemId = ITEM_IRON_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,
@@ -3058,7 +3058,7 @@ const struct Item gItems[] =
 
     [ITEM_PIXIE_PLATE] =
     {
-        .name = _("Tabla Duende"),
+        .name = _("Pixie Plate"),
         .itemId = ITEM_PIXIE_PLATE,
         .price = 10000,
         .holdEffect = HOLD_EFFECT_PLATE,

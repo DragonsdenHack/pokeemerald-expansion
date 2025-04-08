@@ -238,20 +238,18 @@ end
 
 
 SilphS2_Text_12:
-.string "Si quieres pedirle algo a alguien,\n"
-.string "que sea una persona ocupada; esta\l"
-.string "llevará tal inercia de trabajo que\l"
-.string "tu petición no será más que otra\l"
-.string "tarea más a realizar sobre la marcha.$"
+	.string "When asking for something, pick a busy\n"
+	.string "person; they already have the work\l"
+	.string "momentum, and your request becomes\l"
+	.string "just another task on their to-do list.$"
 
 SilphS2_Text_12.1:
-.string "En cambio, quien no tiene nada que\n"
-.string "hacer, deberá poner mucha más energía\l"
-.string "en ponerse en movimiento exclusivamente\l"
-.string "para llevar a cabo tu petición.\p"
-.string "Las leyes de inercia y coeficiente\n"
-.string "de rozamiento también pueden ser\l"
-.string "aplicables a las personas.$"
+	.string "On the contrary, someone with nothing\n"
+	.string "to do will need to put in much more\l"
+	.string "effort just to get started on your\l"
+	.string "request. After all, even the easiest\l"
+	.string "task becomes hard with no inertia and a\l"
+	.string "lack of motivation.$"
 
 
 
@@ -356,10 +354,10 @@ end
 
 
 SilphS2_Text_19:
-.string "Prefiero invertir mi tiempo en hacer\n"
-.string "la tarea, que en malgastarlo en hablar\l"
-.string "y formular 1000 teorías acerca de\l"
-.string "cómo hacer la tarea.$"
+	.string "I would rather spend my time doing the\n"
+	.string "work, than wasting it talking and\l"
+	.string "formulating 1000 theories about how to\l"
+	.string "do the work.$"
 
 SilphS2_20_5::
 lock     
@@ -370,9 +368,9 @@ end
 
 
 SilphS2_Text_20_5:
-	.string "Trabajamos y somos explotados durante\n"
-	.string "el año para poder viajar y explotar a\l"
-	.string "otros en verano.$"
+	.string "We work and are exploited during the\n"
+	.string "year so that we can travel and exploit\l"
+	.string "others in the summer.$"
 
 
 
@@ -406,20 +404,17 @@ SilphS2_Text_20_EventScript_ReceivedTM33::
 	end
 
 SilphS2_Text_20_Text_TM33:
-.string "¿Crees que estoy maquinando algún\n"
-.string "plan maléfico?\l"
-.string "¿O creando algún POKÉMON\l"
-.string "invencible desde mi computadora?\l"
-.string "{PAUSE 15}…{PAUSE 15}\l"
-.string "¡Estás en lo cierto!$"
+.string "You reckon I'm plotting some evil\n"
+.string "scheme? Or creating a kick-ass\l"
+.string "POKÉMON on my computer?\p"
+.string "{PAUSE 15}…{PAUSE 15}\p"
+.string "Spot on!$"
 
 SilphS2_Text_20_Text_ExplainTM33:
-	.string "Con MAQUINACIÓN, elevarás\n"
-	.string "drásticamente el AT.ESPECIAL\l"
-	.string "del POKÉMON que lo ejecute.\l"
-	.string "Es sorprendente lo que puede\l"
-	.string "lograr uno por su propia cuenta.\l"
-	.string "¿No crees?$"
+	.string "With NASTY PLOT, you'll drastically\n"
+	.string "raise the SP.ATK of the user. It's\l"
+	.string "amazing what you can achieve on your\l"
+	.string "own, don't you think?$"
 
 
 
@@ -635,27 +630,25 @@ end
 
 
 SilphS2_Text_35:
-.string "KANTO cuenta con buenos POKÉMON, sólidos\n"
-.string "y equilibrados, sin embargo, no es una\l"
-.string "región de extremos; aquí no encontrarás\l"
-.string "a nadie con el ATAQUE FÍSICO de un\l"
-.string "HAXORUS, las defensas de SHUCKLE o\l"
-.string "la VELOCIDAD de NINJASK.\p"
-.string "Pero no importa, puedes, con POKÉMON\n"
-.string "de KANTO, formar un equipo que compita\l"
-.string "con alguien que tenga a su disposición\l"
-.string "a todos los POKÉMON que existen.$"
+	.string "KANTO boasts reliable and balanced\n"
+	.string "POKÉMON. It's not known for extremes\l"
+	.string "like the sheer physical prowess of\l"
+	.string "HAXORUS, the impregnable defenses of\l"
+	.string "SHUCKLE, or the lightning speed of\l"
+	.string "NINJASK. Nevertheless, a team composed\l"
+	.string "of KANTO POKÉMON can hold its own\l"
+	.string "against those with access to the full\l"
+	.string "spectrum.$"
 
 SilphS2_Text_35.1:
-.string "Contar con más POKÉMON abre tu abanico\n"
-.string "de opciones, puede dar una ventaja\l"
-.string "estratégica, pero también vuelve la\l"
-.string "elección más difícil.$"
+	.string "Having more POKÉMON opens up your\n"
+	.string "range of options, it can give you a\l"
+	.string "strategic advantage, but it also makes\l"
+	.string "the choice more difficult.$"
 
 SilphS2_Text_35.2:
-.string "Al final, los mejores POKÉMON y\n"
-.string "ENTRENADORES pueden provenir de\l"
-.string "cualquier lugar.$"
+	.string "In the end, best POKEMON and TRAINERS\n"
+	.string "can both come from anywhere.$"
 
 
 
@@ -716,7 +709,7 @@ end
 
 
 SilphS2_Text_39:
-	.string "You should visit Johto at least once in\n"
+	.string "You should visit JOHTO at least once in\n"
 	.string "your life, places like TIN TOWER or the\l"
 	.string "LAKE OF RAGE make me wonder at what\l"
 	.string "point we gave up living in rural areas\l"
@@ -734,8 +727,8 @@ end
 
 SilphS2_Text_41:
 	.string "Many changes are on the horizon in\n"
-	.string "KANTO. Watch out ROCKET, your\l"
-	.string "organization could play a pivotal role\l"
+	.string "KANTO. Watch out, ROCKET; your\l"
+	.string "organization could play a top role\l"
 	.string "in the future of this region.$"
 
 
@@ -826,30 +819,29 @@ end
 
 
 SilphS2_Text_48:
-.string "No importa si ganas por mucho o\n"
-.string "por poco, ganar es ganar.$"
+	.string "Whether you win by a landslide or a\n"
+	.string "narrow margin, a victory is a victory.$"
 
 SilphS2_Text_48.1:
-.string "A nadie le importa si a causa de\n"
-.string "un tropiezo perdiste injustamente\l"
-.string "en el último momento, nadie se\l"
-.string "acuerda de un segundo lugar; en el\l"
-.string "medallero olímpico, da igual que\l"
-.string "tengas 50 medallas de plata, si tu\l"
-.string "rival tiene una sola más de oro,\l"
-.string "quedará por delante en la\l"
-.string "clasificación global.$" 
+	.string "Nobody cares if a mere stumble led to an\n"
+	.string "unjust loss at the final moment; in the\l"
+	.string "end, nobody remembers second place. In\l"
+	.string "the Olympic medal tally, it matters\l"
+	.string "little if you have 50 silver medals; if\l"
+	.string "your competitor has just one more gold,\l"
+	.string "will surpass you in the overall ranking.$"
 
 SilphS2_Text_48.2:
-.string "Para alguien anclado solo en el\n"
-.string "resultado final, la sola idea de que\l"
-.string "no pueda acabar ganando realmente el\l"
-.string "mejor es desalentadora.$"
+	.string "For those solely fixated on the\n"
+	.string "ultimate outcome, the notion of\l"
+	.string "not emerging victorious can be\l"
+	.string "disheartening.$"
 
 SilphS2_Text_48.3:
-.string "Ante esto, solo queda ver el resultado\n"
-.string "como una consecuencia de nuestro\l"
-.string "trabajo previo, no el fin último.$"
+	.string "In such moments, it's crucial to\n"
+	.string "regard the final result as a\l"
+	.string "product of our preceding efforts,\l"
+	.string "not the ultimate goal.$"
 
 
 
@@ -1054,10 +1046,10 @@ Silph_S2_Discoxtrano_Texto_1.1:
 	.string "DISC from Scientist!$"
 
 Silph_S2_Discoxtrano_Text_1:
-	.string "Con el DISCOXTRAÑO podrás evolucionar\n"
-	.string "a PORYGON2 en PORYGON-Z, una versión\l"
-	.string "algo más vulnerable a los ataques, pero\l"
-	.string "con una ofensiva extraordinaria.$"
+	.string "With the DUBIOUS DISC, you can evolve\n"
+	.string "PORYGON2 into PORYGON-Z, this update\l"
+	.string "has weaker defenses, but its offensive\l"
+	.string "capabilities are much higher.$"
 
 Silph_S2_Llave_Texto_1:
 	.string "A special KEY is required.$"

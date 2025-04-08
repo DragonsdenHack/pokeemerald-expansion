@@ -208,29 +208,29 @@ SilphS2_3_Presidente_Texto_1:
 
 SilphS2_3_Presidente_Texto_2:
 	.string "Perhaps you're simply unaware of the\n"
-	.string "extent of the consequences your\n"
-	.string "actions in the LEAGUE will bear.\l"
-	.string "Nonetheless, they will ripple through\l"
-	.string "history.$"
+	.string "extent of the consequences your\l"
+	.string "actions in the LEAGUE will bear.\p"
+	.string "Nonetheless, they will ripple\n"
+	.string "through history.$"
 
 SilphS2_3_Presidente_Texto_3:
-	.string "Well, you got me there, boy. I was wrong\n"
-	.string "about TEAM ROCKET.$"
+	.string "Well, you got me there, boy.\n"
+	.string "I was wrong about TEAM ROCKET.$"
 
 SilphS2_3_Presidente_Texto_4:
 	.string "When I saw your LEADER was the\n"
-	.string "extraordinary TRAINER who'd ages ago\n"
+	.string "extraordinary TRAINER who'd ages ago\l"
 	.string "conquered KANTO's LEAGUE so many\l"
 	.string "times, a myriad of questions struck me.$"
 
 SilphS2_3_Presidente_Texto_5:
 	.string "GIOVANNI informed me of his history:\n"
-	.string "TEAM ROCKET's founding, the BIRDS,\n"
+	.string "TEAM ROCKET's founding, the BIRDS,\l"
 	.string "MEWTWO, the MASTERBALL, the raid on the\l"
 	.string "LEAGUE HQ…$"
 
 SilphS2_3_Presidente_Texto_6:
-	.string "He risked me surrendering him to LANCE.\n"
+	.string "He risked me surrendering him to LANCE.\p"
 	.string "But he knew that his offer was\n"
 	.string "irrefusable.$"
 
@@ -240,17 +240,17 @@ SilphS2_3_Presidente_Texto_7:
 
 SilphS2_3_Presidente_Texto_8:
 	.string "GIOVANNI assured me that he would\n"
-	.string "watch SILPH's back if anything went\n"
+	.string "watch SILPH's back if anything went\l"
 	.string "wrong.$"
 
 SilphS2_3_Presidente_Texto_9:
 	.string "But even without that guarantee, I'd\n"
-	.string "have no doubt accepted, if only in the\n"
+	.string "have no doubt accepted, if only in the\l"
 	.string "hopes of renewing the good, old days of\l"
 	.string "KANTO.$"
 
 SilphS2_3_Presidente_Texto_10:
-	.string "And we're on it now, aren't we?\n"
+	.string "And we're on it now, aren't we?\p"
 	.string "That's why you're here.$"
 
 SilphS2_3_Presidente_Texto_11:
@@ -259,10 +259,10 @@ SilphS2_3_Presidente_Texto_11:
 
 SilphS2_3_Presidente_Texto_12:
 	.string "However{PAUSE 15}…{PAUSE 15} it also means that we'll be\n"
-	.string "turning this region into a\n"
-	.string "technological powerhouse. What you're\l"
-	.string "seeing right here is barely the\l"
-	.string "beginning.$"
+	.string "turning this region into a\l"
+	.string "technological powerhouse.\p"
+	.string "What you're seeing right here\n"
+	.string "is barely the beginning.$"
 
 SilphS2_3_Presidente_Texto_13:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -272,8 +272,8 @@ SilphS2_3_Presidente_Texto_14:
 
 SilphS2_3_Presidente_Texto_15:
 	.string "You'll be squaring up against a true\n"
-	.string "old-school team of KANTO, and even the\n"
-	.string "one!$"
+	.string "old-school team of KANTO, and even\l"
+	.string "the new one!$"
 
 SilphS2_3_Presidente_Texto_16:
 	.string "And once again… you returned me to the\n"
@@ -292,24 +292,24 @@ SilphS2_3_Presidente_Texto_19:
 
 SilphS2_3_Presidente_Texto_20:
 	.string "With this, you'll be able to explore\n"
-	.string "further in the library. But bear in mind\n"
+	.string "further in the library. But bear in mind\l"
 	.string "that many things were lost over the\l"
 	.string "years.$"
 
 SilphS2_3_Presidente_Texto_21:
 	.string "You may find what you seek down there.{PAUSE 25}\n"
-	.string "Though it may be impossible to show now.\n"
+	.string "Though it may be impossible to show now.\l"
 	.string "History weathers without fail, eroding\l"
 	.string "even the things that were once\l"
 	.string "everyday occurrences.$"
 
 SilphS2_3_Presidente_Texto_22:
 	.string "Now, the question is: are you capable of\n"
-	.string "finding things whose existences we're\n"
+	.string "finding things whose existences we're\l"
 	.string "not even aware of?$"
 
 SilphS2_3_Presidente_Texto_23:
-	.string "KANTO is observing you, ho, ho, ho!$"
+	.string "KANTO watches you, ho, ho, ho!$"
 
 SilphS2_3_Carta_No::
 release
@@ -368,23 +368,23 @@ SilphS2_3_Carta_Texto_3:
 
 SilphS2_3_Carta_Texto_4:
 	.string "As I told you, I can confirm that most\n"
-	.string "of KANTO's POKÉMON had still potential\n"
+	.string "of KANTO's POKÉMON had still potential\l"
 	.string "yet to be discovered.$"
 
 SilphS2_3_Carta_Texto_5:
 	.string "Our isolation from the world at large\n"
-	.string "has blinded us to facts commonplace to\n"
+	.string "has blinded us to facts commonplace to\l"
 	.string "that very world.$"
 
 SilphS2_3_Carta_Texto_6:
 	.string "However, the methods for obtaining\n"
-	.string "these results aren't conclusive at all.\n"
+	.string "these results aren't conclusive at all.\l"
 	.string "They have never appeared to be either\l"
 	.string "clear or standardized.$"
 
 SilphS2_3_Carta_Texto_7:
 	.string "Yet now, we have a most elementary\n"
-	.string "advantage to those regions. We have\n"
+	.string "advantage to those regions. We have\l"
 	.string "created a special stone to evolve\l"
 	.string "these POKÉMON as efficiently as\l"
 	.string "possible.$"
@@ -398,7 +398,7 @@ SilphS2_3_Carta_Texto_9:
 
 SilphS2_3_Carta_Texto_10:
 	.string "However, as with the MASTER BALL, it\n"
-	.string "shall never be made available. Nor will\n"
+	.string "shall never be made available. Nor will\l"
 	.string "the public know its existence.$"
 
 SilphS2_3_Carta_Texto_11:
@@ -411,7 +411,7 @@ SilphS2_3_Carta_Texto_12:
 
 SilphS2_3_Carta_Texto_13:
 	.string "The LINK STONE is merely the beginning.\n"
-	.string "The first of many advancements that\n"
+	.string "The first of many advancements that\l"
 	.string "will forever shape our understanding of\l"
 	.string "the art of battle.$"
 
@@ -421,7 +421,7 @@ SilphS2_3_Carta_Texto_14:
 
 SilphS2_3_Carta_Texto_15:
 	.string "PS: I've attached a list of all the\n"
-	.string "POKÉMON that can be evolved through\n"
+	.string "POKÉMON that can be evolved through\l"
 	.string "this method.$"
 
 SilphS2_3_Carta_Texto_16:

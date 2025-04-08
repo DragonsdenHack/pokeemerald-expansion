@@ -239,18 +239,18 @@ PokemonTower1F_Agatha_Texto_1:
 
 PokemonTower1F_Agatha_Texto_2:
 	.string "Its resilience is remarkable, but the\n"
-	.string "reality of what we see is just a mere\n"
+	.string "reality of what we see is just a mere\l"
 	.string "fraction of what it once was.$"
 
 PokemonTower1F_Agatha_Texto_3:
 	.string "I can help you with that. Back in the\n"
-	.string "day, before the war started, the lower\n"
+	.string "day, before the war started, the lower\l"
 	.string "floors were opened for everyone.\p"
 	.string "However…$"
 
 PokemonTower1F_Agatha_Texto_4:
 	.string "Those zones became more and more\n"
-	.string "unstable, to the point that they were\n"
+	.string "unstable, to the point that they were\l"
 	.string "closed.$"
 
 PokemonTower1F_Agatha_Texto_5:
@@ -263,12 +263,12 @@ PokemonTower1F_Agatha_Texto_6:
 
 PokemonTower1F_Agatha_Texto_7:
 	.string "But you… you're the CHAMPION. You have\n"
-	.string "the right to unveil every single secret\n"
+	.string "the right to unveil every single secret\l"
 	.string "and mystery that crosses your way.$"
 
 PokemonTower1F_Agatha_Texto_8:
 	.string "If you look closely, you'll see that this\n"
-	.string "pillar is hollow. Under it, you'll find a\n"
+	.string "pillar is hollow. Under it, you'll find a\l"
 	.string "staircase to the basement.$"
 
 PokemonTower1F_Agatha_Texto_9:
@@ -280,12 +280,12 @@ PokemonTower1F_Agatha_Texto_10:
 
 PokemonTower1F_Agatha_Texto_11:
 	.string "And, to be honest, I would rather put my\n"
-	.string "efforts into getting better at what I\n"
+	.string "efforts into getting better at what I\l"
 	.string "already know.$"
 
 PokemonTower1F_Agatha_Texto_12:
 	.string "After all, we live in a confined\n"
-	.string "terrain{PAUSE 15}…{PAUSE 15}yet one that simply can't be\n"
+	.string "terrain{PAUSE 15}…{PAUSE 15}yet one that simply can't be\l"
 	.string "bound. Ho, ho, ho!$"
 
 PokemonTower1F_Activador_Entrada::
@@ -309,8 +309,8 @@ end
 
 PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
 	.string "This pillar is hollow. Under it, there is a\n"
-	.string "staircase that leads to the lower\l"
-	.string "floors. Wanna go through?$"
+	.string "staircase that leads to the lower floors.\l"
+	.string "Wanna go through?$"
 
 PokemonTowerS3_Activador_Entrada_Pasa::
 delay 15

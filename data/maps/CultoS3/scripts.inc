@@ -160,17 +160,16 @@ release
 end
 
 CultoS3_Text_11:
-.string "Este lugar es más antiguo que la\n"
-.string "propia TORRE POKÉMON, que fue\l"
-.string "creada como un mero complemento\l"
-.string "para los rituales más suaves.$"
+	.string "This place is older than POKÉMON TOWER,\n"
+	.string "which was just made as an add-on for\l"
+	.string "the gentler rituals open to the public.$"
 
 CultoS3_Text_11.1:
-.string "Hace tanto que perdimos el contacto con\n"
-.string "el exterior, que la existencia de esta\l"
-.string "gran cámara subterránea ha sido borrada\l"
-.string "de la memoria, incluso de los más\l"
-.string "ancianos de PUEBLO LAVANDA.$"
+	.string "It's been so long since we lost touch\n"
+	.string "with the outside world that even the\l"
+	.string "oldest folks in LAVENDER TOWN don't\l"
+	.string "remember this massive underground\l"
+	.string "chamber.$"
 
 
 
@@ -441,16 +440,16 @@ CultoS3_30::
 lock     
 faceplayer     
 msgbox CultoS3_Text_30, MSGBOX_DEFAULT
-msgbox CultoS3_Text_30.1, MSGBOX_DEFAULT
 release     
 end
 
 CultoS3_Text_30:
-.string "Toda causa tiene su efecto, todo\n"
-.string "efecto tiene su causa, todo sucede\l"
-.string "de acuerdo a la ley, la suerte o\l"
-.string "el azar no es más que el nombre\l"
-.string "que damos a la ley no reconocida.$"
+	.string "Every cause has its effect; every\n"
+	.string "effect has its cause; everything\l"
+	.string "happens according to law; chance is but\l"
+	.string "a name for law not recognized; there are\l"
+	.string "many planes of causation, but nothing\l"
+	.string "escapes the law.$"
 
 CultoS3_Text_30.1:
 .string "Hay muchos planos de casualidad, pero\n"
@@ -871,7 +870,7 @@ Culto_S3_Batalla_Texto_15:
 	.string "what truly matters.$"
 
 Culto_S3_Batalla_Texto_15.1:
-	.string "Let's see your true nature: I'll not\l"
+	.string "Let's see your true nature: I'll not\n"
 	.string "only offer you the chance to return to\l"
 	.string "the outside if you can surpass your\l"
 	.string "previous self in your battle with LANCE,\l"
@@ -952,7 +951,7 @@ Culto_S3_Batalla_Texto_23:
 Culto_S3_Batalla_Texto_23.1:
 	.string "The reaction resulting from their\n"
 	.string "approach, as creatures involved in the\l"
-	.string "creation of KANTO and JOHTO, would$"
+	.string "creation of KANTO and JOHTO, would\l"
 	.string "compel the ultimate creator of\l"
 	.string "everything to appear:\p"
 	.string "That's the ESSENCE POKÉMON.$"

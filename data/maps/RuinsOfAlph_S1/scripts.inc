@@ -336,7 +336,7 @@ release
 end
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_1:
-.string "(A mysterious energy attacks you!)$"
+.string "-A mysterious energy attacks you!-$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"

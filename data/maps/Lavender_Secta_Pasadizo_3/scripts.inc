@@ -377,7 +377,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_2:
 	.string "LEADER in this GYM.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_3:
-	.string "????: Yeah, about that…$"
+	.string "????: Yeah, about that{PAUSE 15}…{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_4:
 	.string "C. FRIDA: That's what I thought.$"
@@ -461,7 +461,7 @@ Lavender_Secta_Pasadizo_Lider_Texto_25:
 	.string "forgotten.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_26:
-	.string "C. FRIDA: I see. Well, at least… some of\n"
+	.string "C. FRIDA: I see. Well, at least{PAUSE 15}…{PAUSE 15} some of\n"
 	.string "this GYM will live under these new\l"
 	.string "generations.$"
 

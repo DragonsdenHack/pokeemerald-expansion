@@ -1061,12 +1061,12 @@ LavenderTown_Agatha_Texto_2.2:
 
 LavenderTown_Agatha_Texto_2.3:
 	.string "Listen up, youngster. I've been training\n"
-	.string "my POKÉMON for decades. When I started,\n"
+	.string "my POKÉMON for decades. When I started,\l"
 	.string "you weren't even born.$"
 
 LavenderTown_Agatha_Texto_2.4:
 	.string "I know this region and its people well\n"
-	.string "enough to know what's going on. And I\n"
+	.string "enough to know what's going on. And I\l"
 	.string "know exactly everything that happened\l"
 	.string "that day back in the HALL OF FAME.$"
 
@@ -1076,12 +1076,12 @@ LavenderTown_Agatha_Texto_1:
 
 LavenderTown_Agatha_Texto_2:
 	.string "Your adventure in the POKÉMON LEAGUE\n"
-	.string "is the greatest thing I've witnessed in\n"
+	.string "is the greatest thing I've witnessed in\l"
 	.string "the last decades!$"
 
 LavenderTown_Agatha_Texto_3:
 	.string "Now, every time I have a walk over these\n"
-	.string "streets, I can only see fresh sprouts\n"
+	.string "streets, I can only see fresh sprouts\l"
 	.string "of hope!$"
 
 LavenderTown_Agatha_Texto_4:
@@ -1090,7 +1090,7 @@ LavenderTown_Agatha_Texto_4:
 
 LavenderTown_Agatha_Texto_5:
 	.string "The fact that we're overcoming hard\n"
-	.string "times made me conscious of how\n"
+	.string "times made me conscious of how\l"
 	.string "fortunate we really are.$"
 
 LavenderTown_Agatha_Texto_6:
@@ -1098,19 +1098,19 @@ LavenderTown_Agatha_Texto_6:
 
 LavenderTown_Agatha_Texto_7:
 	.string "I was raised in this place. After all\n"
-	.string "these years, I finally got to visit it as\n"
+	.string "these years, I finally got to visit it as\l"
 	.string "it deserves.$"
 
 LavenderTown_Agatha_Texto_8:
 	.string "Everything I know about GHOST POKÉMON,\n"
-	.string "I learnt it here, and if I got something\n"
+	.string "I learnt it here, and if I got something\l"
 	.string "clear, it's the fact that the world's\l"
 	.string "greatest mysteries are far beyond our\l"
 	.string "sight.$"
 
 LavenderTown_Agatha_Texto_9:
 	.string "But you didn't come all the way here\n"
-	.string "just to hear an old lady yapping about\n"
+	.string "just to hear an old lady yapping about\l"
 	.string "her nostalgia, did you?$"
 
 LavenderTown_Agatha_Texto_10:
@@ -1130,7 +1130,7 @@ release
 end
 
 LavenderTown_Pasado_Cartel_Texto_1:
-	.string "Convierte lo invisible en visible de\n"
-	.string "forma natural. Adquiere habilidades de\l"
-	.string "introspección en el GIMNASIO LAVANDA.$"
+	.string "Turn the invisible into the visible in a\n"
+	.string "natural way. Acquire introspection\l"
+	.string "skills in the LAVENDER GYM.$"
 

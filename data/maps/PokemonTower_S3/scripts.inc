@@ -246,43 +246,42 @@ PokemonTower_S3_Tumba_Texto_3:
 
 PokemonTower_S3_Tumba_Texto_4:
 	.string "'The TRAINER that lies here has\n"
-	.string "achieved every possible achievement in\n"
-	.string "this world…$"
+	.string "achieved every possible achievement\l"
+	.string "in this world{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_5:
-	.string "… Unbeaten CHAMPION of his region for\n"
-	.string "decades, 32 GYM BADGES, every single\n"
+	.string "{PAUSE 15}…{PAUSE 15} Unbeaten CHAMPION of his region for\n"
+	.string "decades, 32 GYM BADGES, every single\l"
 	.string "POKÉMON known in existence in his\l"
-	.string "hands…$"
+	.string "hands{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_6:
-	.string "… No matter what challenge dared to\n"
-	.string "face him, no matter what the dimensions\n"
+	.string "{PAUSE 15}…{PAUSE 25} no matter what challenge dared to\n"
+	.string "face him, no matter what the dimensions\l"
 	.string "of it were, no single thing was out of\l"
-	.string "his reach…$"
+	.string "his reach{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_7:
-	.string "… However, despite his countless\n"
+	.string "{PAUSE 15}…{PAUSE 25} however, despite his countless\n"
 	.string "battles, journeys and feats…$"
 
 PokemonTower_S3_Tumba_Texto_8:
-	.string "… His efforts were worthless… It didn't\n"
-	.string "matter how good of a master he was…$"
+	.string "{PAUSE 15}…{PAUSE 25} his efforts were worthless{PAUSE 15}…{PAUSE 15} It didn't\n"
+	.string "matter how good of a master he was{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_9:
-	.string "… He couldn't avoid death…$"
+	.string "{PAUSE 15}…{PAUSE 15} he couldn't avoid death…$"
 
 PokemonTower_S3_Tumba_Texto_10:
-	.string "… Every single thing about his\n"
-	.string "legendary life remains here. His\n"
+	.string "{PAUSE 15}…{PAUSE 15} every single thing about his\n"
+	.string "legendary life remains here. His\l"
 	.string "contemporaries were forgotten with the\l"
-	.string "slow and steady course of time…$"
+	.string "slow and steady course of time{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_11:
-	.string "… After all, that memory of him may be\n"
-	.string "the same deep desire of his to be\n"
-	.string "immortal…$"
-
+	.string "{PAUSE 15}…{PAUSE 25} After all, that memory of him may be\n"
+	.string "the same deep desire of his to be\l"
+	.string "immortal{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_12:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -297,7 +296,7 @@ PokemonTower_S3_Tumba_Texto_15:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_16:
-	.string "CHAMPION… True CHAMPION?$"
+	.string "CHAMPION{PAUSE 15}…{PAUSE 15} True CHAMPION?$"
 
 PokemonTower_S3_Tumba_Texto_17:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -318,7 +317,7 @@ PokemonTower_S3_Tumba_Texto_22:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_23:
-	.string "Let's rewind… Fifty years ago…$"
+	.string "Let's rewind{PAUSE 15}…{PAUSE 15} Fifty years ago{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Epitafio::
 lock

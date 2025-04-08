@@ -2852,61 +2852,56 @@ delay_8
 step_end
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_1:
-.string "GIOVANNI: ¿Y bien?\n"
-	.string "¿Qué has averiguado, {PLAYER}?$"
+	.string "GIOVANNI: And? What information\n"
+	.string "did you uncover, {PLAYER}?$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_2:
-.string "GIOVANNI: Mmm{PAUSE 25}…{PAUSE 25}\n"
-	.string "Por lo que me dices, el texto que\l"
-	.string "leíste ni siquiera cuestiona la\l"
-	.string "existencia de ese POKÉMON.\p"
-	.string "La da por hecho, y parece que se\n"
-	.string "encuentra más cerca de lo que\l"
-	.string "pensamos, en PUEBLO LAVANDA.$"
+.string "Mmm{PAUSE 25}…{PAUSE 25}\p"
+	.string "So{PAUSE 20}…{PAUSE 20} From what you're\n"
+	.string "telling me, the text you read doesn't\l"
+	.string "even question the existence of that\l"
+	.string "POKÉMON; it takes it for granted.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_3:
-.string "Pero{PAUSE 25}…{PAUSE 25}\n"
-	.string "¿Dónde?\l"
-	.string "La TORRE POKÉMON sería el único\l"
-	.string "lugar destacable, pero conocemos\l"
-	.string "de ella todos sus rincones.$"
+.string "But{PAUSE 25}…{PAUSE 25}\p"
+	.string "Where?\p"
+	.string "The POKÉMON TOWER is the only notable\n"
+	.string "place, but we've explored every inch\l"
+	.string "of it.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_4:
-.string "Tal vez{PAUSE 15}…{PAUSE 15}\n"
-	.string "Sea de esos lugares imposibles de\l"
-	.string "acceder, excepto para aquellos que\l"
-	.string "ya saben donde está; si fuera el\l"
-	.string "caso, nos quedaríamos sin saber la\l"
-	.string "verdad{PAUSE 5}…{PAUSE 5}$"
+	.string "Perhaps{PAUSE 20}…{PAUSE 20} It's one of those places\n"
+	.string "impossible to access, except for those\l"
+	.string "who already know where it is. If that\l"
+	.string "were the case, we would remain without\l"
+	.string "knowing the truth.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5:
-.string "GIOVANNI: ¡{PLAYER}!\n"
-	.string "¡Tenemos que agotar todas\l"
-	.string "las posibilidades!\p"
-	.string "No puedo enviar a decenas de\n"
-	.string "soldados a que se pongan a limpiar\l"
-	.string "cada centímetro de PUEBLO LAVANDA,\l"
-	.string "levantaría muchas sospechas.$"
+.string "{PLAYER}!\p"
+	.string "We must explore every option!\p"
+	.string "I can't send tons of ROCKET GRUNTs\n"
+	.string "to comb through every corner of\l"
+	.string "LAVENDER TOWN, just to looking for\l"
+	.string "some ancient hidden passage; that\l"
+	.string "would raise too many suspicions.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6:
-.string "Pero, sabiendo de esto solo los\n"
-	.string "aquí presentes, puedes ser tú quien,\l"
-	.string "de forma discreta, investigue cada\l"
-	.string "rincón de PUEBLO LAVANDA.$"
+	.string "However, with only those present here\n"
+	.string "knowing about this, you can discreetly\l"
+	.string "be the one to investigate it.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_6.1:
-	.string "Irás tras algo que ha pasado inadvertido\n"
-	.string "por incontables generaciones, tras un\l"
-	.string "espejismo, {PLAYER}.$"
-
+	.string "You'll go after something that has\n"
+	.string "gone unnoticed for countless\l"
+	.string "generations, after a mirage, {PLAYER}.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8:
-.string "Eso es todo.\n"
-	.string "Y recuerda, cada paso que des podrían\l"
-	.string "ser nuevas páginas escritas en la\l"
-	.string "historia reciente de KANTO.\l"
-	.string "Quizá{PAUSE 15}…{PAUSE 15} destapemos algo que hace\l"
-	.string "mucho debió de saberse{PAUSE 5}…{PAUSE 5}$"
+	.string "That concludes it, {PLAYER}.\p"
+	.string "Keep this in mind; every step you take\n"
+	.string "could add new pages to the recent\l"
+	.string "history of KANTO. Perhaps{PAUSE 25}…{PAUSE 25} we'll\l"
+	.string "uncover something that should have been\l"
+	.string "known a long time ago.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_1:
 walk_up
@@ -3046,117 +3041,108 @@ walk_in_place_down
 step_end
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_1:
-.string "GIOVANNI: ¿Encontraste algo,\n"
+	.string "GIOVANNI: Did you find anything,\n"
 	.string "{PLAYER}?$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_2:
-.string "Una historia increíble, increíble{PAUSE 25}…{PAUSE 25}\p"
-	.string "¿Quién diría que semejante lugar se\n"
-	.string "encuentra bajo PUEBLO LAVANDA?\l"
-	.string "Era real después de todo, si ese\l"
-	.string "lugar es real, el POKÉMON ESENCIA\l"
-	.string "debe también serlo.$"
+	.string "An incredible story, incredible{PAUSE 20}…{PAUSE 20} Who\n"
+	.string "would have thought that such a place is\l"
+	.string "right beneath LAVENDER TOWN? It was\l"
+	.string "real after all; if that place is real,\l"
+	.string "the POKÉMON must be real too.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_3:
-.string "Y el LÍDER del culto te pidió\n"
-	.string "expresamente guardar en secreto la\l"
-	.string "forma de convocar a tal POKÉMON.\l"
-	.string "Salvo por 2 o 3 ENTRENADORES en\l"
-	.string "toda KANTO{PAUSE 15}…{PAUSE 15}$"
+	.string "And the cult LEADER expressly asked\n"
+	.string "you to keep secret the way to summon\l"
+	.string "such a POKEMON. Except for the very top\l"
+	.string "KANTO TRAINERS{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
-.string "Supongo que se referiría a OAK y a\n"
-	.string "mí también; no cabe duda de que hay\l"
-	.string "cosas que aún se nos escapan.$"
+	.string "I guess he meant OAK and me. There's\n"
+	.string "definitely a lot we still don't know.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1:
-	.string "Que tuviera también a MEW,\n"
-	.string "desaparecido desde que creamos\l"
-	.string "a MEWTWO{PAUSE 15} …{PAUSE 15}$"
+	.string "The fact of having MEW, missed since we\n"
+	.string "created MEWTWO{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2:
-	.string "Para esto se fundó el TEAM ROCKET, para\n"
-	.string "descubrir los límites últimos del mundo.\l"
-	.string "Y por eso, iremos ahora a ROCA OMBLIGO.$"
+	.string "That's the reason TEAM ROCKET was\n"
+	.string "founded for, to unlock the ultimate\l"
+	.string "limits of the world. And that's why we\l"
+	.string "are now going to NAVEL ROCK.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_6:
-.string "Uno de los trabajos que ATLAS ha\n"
-	.string "estado haciendo en las ISLAS SETE,\l"
-	.string "es encontrar y dejar registradas\l"
-	.string "todas las rutas alternativas que\l"
-	.string "hay de conexión entre las islas.$"
+	.string "ARCHER has been busy in the SEVII\n"
+	.string "ISLANDS, finding and logging all the\l"
+	.string "alternative routes connecting the\l"
+	.string "islands.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7:
-.string "En teoría existen 7 islas, de ahí\n"
-	.string "el nombre de ISLAS SETE, pero en\l"
-	.string "la práctica se podrían considerar\l"
-	.string "10 porciones de tierra de tamaño\l"
-	.string "considerable.$" 
+	.string "Theoretically, there are 7 islands,\n"
+	.string "hence the name 'SEVII'.\l"
+	.string "However, actually we could count 10\l"
+	.string "substantial landmasses.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.1:
-	.string "Así, habría una octava isla justo al\n"
-	.string "sur de ISLA SECUNDA, una novena al\l"
-	.string "este de las ruinas de ISLA SÉTIMA, y\l"
-	.string "una décima, que se encuentra algunos\l"
-	.string "grados al noroeste de ISLA INTA.$"
+	.string "'EIGHT ISLAND' is south of TWO ISLAND.\p"
+	.string "'NINE ISLAND' is east of SEVEN ISLAND.\p"
+	.string "'TEN ISLAND' is northwest of ONE ISLAND.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2:
-	.string "Esta última es ROCA OMBLIGO.$"
+	.string "This 'TEN ISLAND' is called NAVEL ROCK.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8:
-.string "LUGIA y HO-OH cuentan con un poder\n"
-	.string "similar al de MEWTWO; nuestro plan\l"
-	.string "de emergencia para salvar KANTO, tras\l"
-	.string "el fracaso de MEWTWO, era precisamente\l"
-	.string "el encontrar estos dos POKÉMON.$"
+	.string "LUGIA and HO-OH have power on par with\n"
+	.string "MEWTWO. Our emergency plan to save\l"
+	.string "KANTO after MEWTWO's escape was to\l"
+	.string "locate these two POKÉMON.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1:
-	.string "Al igual que LANCE, jamás pudimos\n"
-	.string "hacerlo.\p"
-	.string "Pero después de lo ocurrido en la LIGA\n"
-	.string "POKÉMON, ATLAS me envió un informe con\l"
-	.string "el reciente descubrimiento.$"
+	.string "However, as happened to LANCE,\n"
+	.string "we were not able to do it.\p"
+	.string "After the POKÉMON LEAGUE, ARCHER\n"
+	.string "sent me a report about this new\l"
+	.string "discovery.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2:
-	.string "Esa décima isla esta el centro de\n"
-	.string "las 7, cubierta de fuertes mareas,\l"
-	.string "y con una gran cueva en su interior,\l"
-	.string "aún por explorar.$"
+	.string "A tenth island, just in the center of\n"
+	.string "the 7, covered by strong tides and\l"
+	.string "hiding an unexplored cave.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9:
-.string "No se me ocurre otro lugar donde\n"
-	.string "puedan estar estas dos bestias,\l"
-	.string "vistas por última vez hace décadas.$"
+	.string "I can't think on another place where\n"
+	.string "these two beasts, last seen decades\l"
+	.string "ago, could be.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10:
-.string "¡{PLAYER}!\n"
-	.string "ROCA OMBLIGO está relativamente\l"
-	.string "cerca de ISLA INTA, sin embargo,\l"
-	.string "las corrientes entre ellas son las\l"
-	.string "más fuertes de todo el ARCHI7.\p"
-	.string "Sería correr demasiados riesgos,\n"
-	.string "sin embargo{PAUSE 5}…{PAUSE 5}$"
+.string "{PLAYER}!\p"
+	.string "NAVEL ROCK is relatively close to\n"
+	.string "FIVE ISLAND; however, the currents\l"
+	.string "between them are the strongest of\l"
+	.string "all the SEVEN ISLANDS.\l"
+	.string "It would be too risky to attempt\l"
+	.string "to pass through there, fortunately{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11:
-.string "ATLAS descubrió una ruta alternativa,\n"
-	.string "partiendo del puerto de ISLA SECUNDA.\p"
-	.string "Es más larga, pero las corrientes\n"
-	.string "son menos traicioneras.$"
+	.string "ARCHER discovered an alternative\n"
+	.string "route, starting from the TWO ISLAND\l"
+	.string "port. It's longer, but the currents are\l"
+	.string "less treacherous.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11.1:
-	.string "Cruzaremos por ahí, ignora el cartel de\n"
-	.string "precaución, lo han colocado más para\l"
-	.string "ahorrarse problemas y lavarse las manos\l"
-	.string "ante cualquier accidente, que por la\l"
-	.string "verdadera peligrosidad de sus aguas.$"
+	.string "We'll go through that way.\p"
+	.string "Don't worry about the caution sign;\n"
+	.string "it's more of a precaution to avoid\l"
+	.string "trouble than an indication of real\l"
+	.string "danger.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_12:
-.string "Te espero en ROCA OMBLIGO, {PLAYER}.\n"
-	.string "Esta vez seré yo en persona quien\l"
-	.string "te haga compañía en esta misión.$"
+	.string "I'll wait you there, {PLAYER}.\p"
+	.string "This time, it's me who's gonna\n"
+	.string "join you on this mission.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Move_1:
 walk_up

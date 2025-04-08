@@ -766,7 +766,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_1:
     .string "-THE LEGEND OF THE ESSENCE POKÉMON,\n"
 	.string "THE ONE THAT GIVE MEANING TO KANTO-\p"
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}p"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
 	.string "The establishment of LAVENDER TOWN\n"
 	.string "and its POKÉMON TOWER to the south of\l"
 	.string "ROCK TUNNEL is not mere chance; it was\l"

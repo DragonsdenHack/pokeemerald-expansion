@@ -132,75 +132,73 @@ walk_left
 step_end
 
 NavelRock_Fork_Giovanni_Texto_1:
-.string "GIOVANNI: Conforme más nos\n"
-	.string "adentramos en este lugar, más\l"
-	.string "convencido estoy de que aquí\l"
-	.string "duermen LUGIA y HO-OH.$"
+	.string "GIOVANNI: The deeper we go into this\n"
+	.string "place, the more sure I am that LUGIA\l"
+	.string "and HO-OH are resting here.$"
 
 NavelRock_Fork_Giovanni_Texto_2:
-.string "A partir de este punto el camino\n"
-	.string "se divide en dos: uno hacia el\l"
-	.string "cielo, otro hacia el abismo.\p"
-	.string "Parece claro a qué POKÉMON\n"
-	.string "corresponde cada cual, ¿no?$"
+	.string "From this point, the path divides into\n"
+	.string "two: one towards the sky, the other\l"
+	.string "towards the abyss. It seems clear which\l"
+	.string "POKÉMON each corresponds to, don't you\l"
+	.string "think?$"
 
 NavelRock_Fork_Giovanni_Texto_3:
-.string "Aunque es extraño, pareciera este\n"
-	.string "lugar haber sido creado por\l"
-	.string "alguien solo para confinar a\l"
-	.string "estas aves, más que ser un paraje\l"
-	.string "natural alejado de la civilización.\p"
-	.string "Debemos andarnos con ojo, {PLAYER}.$"
+    .string "It's odd, but this seems this place was\n"
+	.string "intentionally created to confine these\l"
+	.string "birds rather than being a remote\l"
+	.string "natural area.\p"
+	.string "We need to be cautious, {PLAYER}.$"
 
 NavelRock_Fork_Giovanni_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 NavelRock_Fork_Giovanni_Texto_5:
-.string "Yo iré a por HO-OH, tomaré las\n"
-	.string "escaleras que llevan a la cima.\p"
-	.string "Tú te encargarás de LUGIA, de\n"
-	.string "modo que aquí nuestros caminos\l"
-	.string "se separan.$"
+	.string "I'll go after HO-OH, {PLAYER}.\p"
+	.string "You'll take care of LUGIA, so\n"
+	.string "we'll split up here.$"
 
 NavelRock_Fork_Giovanni_Texto_6:
-.string "Estate alerta, {PLAYER}.\n"
-	.string "El hecho de que cuentes con un equipo\l"
-	.string "de 6 no es garantía de nada.$"
+	.string "Be cautious, {PLAYER}. Just because\n"
+	.string "you have a full team of 6 POKÉMON\l"
+	.string "doesn't mean that your victory is\l"
+	.string "guaranteed.$"
 
 NavelRock_Fork_Giovanni_Texto_6.1:
-	.string "LUGIA y HO-OH han sido considerados por\n"
-	.string "la cultura popular de KANTO-JOHTO, como\l"
-	.string "los POKÉMON más poderosos del mundo.$"
+	.string "In the old days, LUGIA and HO-OH\n"
+	.string "were always considered as the most\l"
+	.string "powerful POKÉMON of the known world.$"
 
 NavelRock_Fork_Giovanni_Texto_6.2:
-	.string "Son LEGENDARIOS de otro nivel, hechos\n"
-	.string "de una pasta diferente, que solo MEWTWO\l"
-	.string "por la tecnología pudo igualar.$"
+	.string "As MAJOR LEGENDARIES, both are\n"
+	.string "made of a different material; only\l"
+	.string "MEWTWO, with its advanced technology,\l"
+	.string "could equal them.$"
 
 NavelRock_Fork_Giovanni_Texto_6.3:
-	.string "En cuanto a LUGIA{PAUSE 15}…{PAUSE 15}\n"
-	.string "Es extremadamente resistente, te hará\l"
-	.string "falta algo más que potencia y fuerza\l"
-	.string "bruta para tumbarle a base de golpes.$"
+	.string "Refering to LUGIA in particular{PAUSE 15}…{PAUSE 15} is\n"
+	.string "exceptionally resilient. You'll need\l"
+	.string "more than sheer strength and force to\l"
+	.string "defeat it, {PLAYER}.$"
 
 NavelRock_Fork_Giovanni_Texto_6.4:
-	.string "Pero{PAUSE 15}…{PAUSE 15} por algo eres el\n"
-	.string "CAMPEÓN de KANTO.\l"
-	.string "Seguro que encuentras una solución.$"
+	.string "But{PAUSE 15}…{PAUSE 15} you aren't\n"
+	.string "the KANTO CHAMPION by accident.\l"
+	.string "I'm sure you'll find a solution.$"
 
 NavelRock_Fork_Giovanni_Texto_7:
-.string "Vamos a ello.\p"
-	.string "Nos reuniremos aquí de nuevo, si algo\n"
-	.string "saliera mal, llama inmediatamente.$"
+	.string "Alright, let's do this. Good luck,\n"
+	.string "{PLAYER}. We'll reconvene here. If\l"
+	.string "something goes wrong, call right away.$"
 
 NavelRock_Fork_Giovanni_Texto_8:
-.string "Sigo sin creer lo mucho que has crecido\n"
-	.string "desde que entraste a formar parte de\l"
-	.string "nuestra organización.$"
+	.string "It's amazing to see how much you've\n"
+	.string "grown since you became part of our\l"
+	.string "organization.$"
 
 NavelRock_Fork_Giovanni_Texto_8.1:
-	.string "Qué recluta nos hubiéramos perdido\n"
-	.string "de no haber tomado esa elección.$"
+	.string "TEAM ROCKET wouldn't have been\n"
+	.string "the same without you.$"
 
 NavelRock_Fork_Abajo::
 applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Fork_Abajo_Move_1
@@ -237,4 +235,4 @@ walk_slow_right
 step_end
 
 NavelRock_Fork_Abajo_Texto_1:
-	.string "GIOVANNI has already taken this path.$"
+	.string "-GIOVANNI has already taken this path.-$"

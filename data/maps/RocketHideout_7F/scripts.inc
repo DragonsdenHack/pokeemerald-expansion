@@ -76,7 +76,7 @@ release
 end
 
 RocketHideout7F_Text_5:
-	.string "We are so sorry {PLAYER}, but this\n"
+	.string "We are so sorry, {PLAYER}, but this\n"
 	.string "place is still under experimental phase,\l"
 	.string "just our best scientists have access.$"
 
@@ -90,7 +90,7 @@ release
 end
 
 RocketHideout7F_Text_6:
-	.string "We are so sorry {PLAYER}, but this\n"
+	.string "We are so sorry, {PLAYER}, but this\n"
 	.string "place is still under experimental phase,\l"
 	.string "just our best scientists have access.$"
 

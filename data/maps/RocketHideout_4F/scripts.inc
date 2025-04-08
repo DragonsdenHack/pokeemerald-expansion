@@ -261,10 +261,9 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
-	.string "That secret entrance might be just\n"
-	.string "outside LAVENDER TOWN. Have you\l"
-	.string "checked the southern path, on Route\l"
-	.string "12?$"
+	.string "That secret entrance might be in\n"
+	.string "LAVENDER TOWN. Maybe some old man\l"
+	.string "could know about it?$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1 MSGBOX_AUTOCLOSE

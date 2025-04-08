@@ -461,7 +461,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_20:
 	.string "Sometimes, life is like a dark tunnel.\n"
 	.string "You can't always see the light at the\l"
 	.string "end of the tunnel, but if you just keep\l"
-	.string "moving… you will come to a better place.\l"
+	.string "moving{PAUSE 15}…{PAUSE 15} you will come to a better place.\l"
 	.string "Even in the darkest place, you give\l"
 	.string "yourself hope, and that's true\l"
 	.string "willpower.$"
@@ -504,7 +504,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_29:
 	.string "C. FRIDA: I refuse.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_30:
-	.string "OAK: But… why?$"
+	.string "OAK: But{PAUSE 25}…{PAUSE 25} why?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_31:
 	.string "C. FRIDA: My POKÉMON is not a relic to be\n"
@@ -540,8 +540,8 @@ Lavender_Secta_Pasadizo_Oak_Texto_38:
 	.string "done.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_39:
-	.string "OAK: No… Impossible… A true CHAMPION\n"
-	.string "would never do so…$"
+	.string "OAK: No{PAUSE 15}…{PAUSE 15} Impossible{PAUSE 15}…{PAUSE 15} A true CHAMPION\n"
+	.string "would never do so{PAUSE 15}…{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_40:
 	.string "This is all a lie.$"
@@ -552,16 +552,16 @@ Lavender_Secta_Pasadizo_Oak_Texto_41:
 	.string "A bait everyone bit.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_42:
-	.string "Yeah… That's why you're leaving… You\n"
+	.string "Yeah{PAUSE 15}…{PAUSE 15} That's why you're leaving{PAUSE 15}…{PAUSE 15} You\n"
 	.string "want to keep your legend bright.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_43:
 	.string "C. FRIDA: You think so?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_44:
-	.string "OAK: But it won't last long… History\n"
-	.string "won't remember you for long. You only\l"
-	.string "got the title once.$"
+	.string "OAK: But it won't last long{PAUSE 15}…{PAUSE 15}\p"
+	.string "History won't remember you for long.\n"
+	.string "You only got the title once.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_45:
 	.string "With the years, only vague witnesses\n"
@@ -570,7 +570,7 @@ Lavender_Secta_Pasadizo_Oak_Texto_45:
 
 Lavender_Secta_Pasadizo_Oak_Texto_46:
 	.string "On the other hand, I won't get it once\n"
-	.string "nor twice… I will maintain my position so\l"
+	.string "nor twice{PAUSE 15}…{PAUSE 15} I will maintain my position so\l"
 	.string "I become the greatest, most\l"
 	.string "long-standing CHAMPION that ever\l"
 	.string "lived!$"
@@ -591,21 +591,21 @@ Lavender_Secta_Pasadizo_Oak_Texto_49:
 	.string "C. FRIDA: I see.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_50:
-	.string "There's a saying, back in JOHTO:{PAUSE 20} “It's\n"
-	.string "impossible to find the ideal twice, even\l"
-	.string "very few find it once”.$"
+	.string "There's a saying, back in JOHTO:{PAUSE 20}\p"
+	.string "“It's impossible to find the ideal\n"
+	.string "twice, even very few find it once”.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_51:
 	.string "I found it once along with my\n"
 	.string "NINETALES.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_52:
-	.string "You… You have what you need to seek it.$"
+	.string "You{PAUSE 15}…{PAUSE 15} You have what you need to seek it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_53:
-	.string "However… if your only aspiration is to\n"
+	.string "However{PAUSE 15}…{PAUSE 15} if your only aspiration is to\n"
 	.string "extend your sight but seal your\l"
-	.string "senses… you won't ever find it.$"
+	.string "senses{PAUSE 15}…{PAUSE 15} you won't ever find it.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
 	.string "You'll live, but you'll never get to\n"
@@ -645,5 +645,5 @@ walk_slow_right
 step_end
 
 Lavender_Secta_Pasadizo_Bloqueo_Texto_1:
-	.string "A mysterious energy prevents you from\n"
-	.string "coming back.$"
+	.string "-A mysterious energy prevents\n"
+	.string "you from coming back.-$"

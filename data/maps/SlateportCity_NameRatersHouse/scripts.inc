@@ -258,25 +258,25 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_1:
 	.string "POKÉMON's nickname.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_2:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_3:
 	.string "You want to chat away with me?\n"
 	.string "Sure thing, kid.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_5:
-	.string "Mhh… Where exactly did you hear that?$"
+	.string "Mhh{PAUSE 15}…{PAUSE 15} Where exactly did you hear that?$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_6:
 	.string "No one has ever asked about that place\n"
-	.string "so far. And I've been here for more than\n"
+	.string "so far. And I've been here for more than\l"
 	.string "three decades.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_7:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_8:
 	.string "AGATHA! Now I get it.$"
@@ -295,12 +295,12 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_11:
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_12:
 	.string "This little GRAVEYARD closed its doors\n"
-	.string "more than three decades ago, when the\n"
+	.string "more than three decades ago, when the\l"
 	.string "first NAME RATER arrived in town.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_13:
 	.string "The ladder that leads there was hidden\n"
-	.string "under a trapdoor after the GYM got\n"
+	.string "under a trapdoor after the GYM got\l"
 	.string "demolished.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_14:
@@ -319,7 +319,7 @@ SlateportCity_NameRatersHouse_Trampilla_Texto_17:
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_18:
 	.string "Now, it's yours; you may go in and out as\n"
-	.string "you please. It's the least I can do for\n"
+	.string "you please. It's the least I can do for\l"
 	.string "you.$"
 
 Lavender_Motes_Activador_Entrada::
@@ -343,7 +343,7 @@ end
 
 Lavender_Motes_Activador_Entrada_Pasa_Text_YesNo:
 	.string "Under the MAP, there's the OLD\n"
-	.string "GRAVEYARD. Wanna use the TRAPDOOR'S\n"
-	.string "KEY?$"
+	.string "GRAVEYARD.\p"
+	.string "Wanna use the TRAPDOOR'S KEY?$"
 
 

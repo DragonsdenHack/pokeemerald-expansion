@@ -846,7 +846,7 @@ LavenderTown_Pasado_Gym_Texto_58:
 	.string "ARCANINE's. Even MOLTRES's!$"
 
 LavenderTown_Pasado_Gym_Texto_59:
-	.string "MORFEO: OAK…$"
+	.string "MORPHEUS: OAK…$"
 
 LavenderTown_Pasado_Gym_Texto_60:
 	.string "OAK: I'll train one too until it evolves.\n"
@@ -873,7 +873,7 @@ LavenderTown_Pasado_Gym_Texto_64:
 	.string "possible.$"
 
 LavenderTown_Pasado_Gym_Texto_65:
-	.string "OAK: What a load of crock! It was just a\n"
+	.string "OAK: What a bullshit! It was just a\n"
 	.string "mere coincidence. A lucky level-up.\p"
 	.string "Nothing more, nothing less.$"
 

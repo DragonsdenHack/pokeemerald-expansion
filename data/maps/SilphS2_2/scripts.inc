@@ -10,7 +10,7 @@ end
 
 SilphS2_2_Cientifico_1_Texto_1:
 	.string "Dedicating time to a non-productive\n"
-	.string "objective may lead to a source of\n"
+	.string "objective may lead to a source of\l"
 	.string "creativity.$"
 
 SilphS2_2_Cientifico_2::
@@ -24,13 +24,13 @@ end
 
 SilphS2_2_Cientifico_2_Texto_1:
 	.string "I wonder what'll become of OAK and his\n"
-	.string "family now. Those explosive battles\n"
+	.string "family now. Those legendary battles\l"
 	.string "between him and your LEADER shook\l"
 	.string "every soul in the region.$"
 
 SilphS2_2_Cientifico_2_Texto_2:
 	.string "I think GIOVANNI would forgive him in\n"
-	.string "respect to their old rivalry. But OAK's\n"
+	.string "respect to their old rivalry. But OAK's\l"
 	.string "pride may lead him to reject that\l"
 	.string "forgiveness.$"
 
@@ -219,11 +219,11 @@ release
 end
 
 SilphS2_2_Lorelei_Texto_1:
-	.string "LORELEI: You. {PLAYER}, isn't it?$"
+	.string "LORELEI: You{PAUSE 15}…{PAUSE 15} {PLAYER}, isn't it?$"
 
 SilphS2_2_Lorelei_Texto_2:
 	.string "I didn't expect you'd be so close to\n"
-	.string "SILPH's PRESIDENT. Then again, you\n"
+	.string "SILPH's PRESIDENT. Then again, you\l"
 	.string "wouldn't be here otherwise.$"
 
 SilphS2_2_Lorelei_Texto_3:
@@ -239,17 +239,17 @@ SilphS2_2_Lorelei_Texto_5:
 
 SilphS2_2_Lorelei_Texto_6:
 	.string "I'm retiring to FOUR ISLAND. Those\n"
-	.string "passionate days of battling are\n"
+	.string "passionate days of battling are\l"
 	.string "dwindling for me nowadays.$"
 
 SilphS2_2_Lorelei_Texto_7:
 	.string "I was certain ICE POKÉMON would see me\n"
-	.string "through to victory, yet these losses\n"
+	.string "through to victory, yet these losses\l"
 	.string "have woken me up.$"
 
 SilphS2_2_Lorelei_Texto_8:
 	.string "I suppose ICE at its root is rather\n"
-	.string "inflexible and stagnant, wouldn't you\n"
+	.string "inflexible and stagnant, wouldn't you\l"
 	.string "say?$"
 
 SilphS2_2_Lorelei_Texto_9:
@@ -261,23 +261,23 @@ SilphS2_2_Lorelei_Texto_10:
 
 SilphS2_2_Lorelei_Texto_11:
 	.string "Frankly, I'd have liked that girl before\n"
-	.string "you to have come out on top instead.\n"
+	.string "you to have come out on top instead.\l"
 	.string "That SNEASEL she carried had great\l"
 	.string "potential.$"
 
 SilphS2_2_Lorelei_Texto_12:
 	.string "But that's how the cookie crumbles: RED\n"
-	.string "defeated BLUE and won the title of\n"
+	.string "defeated BLUE and won the title of\l"
 	.string "CHAMPION.$"
 
 SilphS2_2_Lorelei_Texto_13:
 	.string "What a waste, that RED. Holing up like a\n"
-	.string "hermit in MT. SILVER to train in such a{PAUSE 25}…{PAUSE 25}\n"
+	.string "hermit in MT. SILVER to train in such a{PAUSE 25}…{PAUSE 25}\l"
 	.string "desolate cavern.$"
 
 SilphS2_2_Lorelei_Texto_14:
 	.string "There were some old glories there in the\n"
-	.string "past, certainly. But now? He'll just\n"
+	.string "past, certainly. But now? He'll just\l"
 	.string "waste away.$"
 
 SilphS2_2_Lorelei_Texto_15:
@@ -285,12 +285,12 @@ SilphS2_2_Lorelei_Texto_15:
 
 SilphS2_2_Lorelei_Texto_16:
 	.string "Very few have the privilege to walk\n"
-	.string "through these halls. I'm sure you're\n"
+	.string "through these halls. I'm sure you're\l"
 	.string "here for a reason.$"
 
 SilphS2_2_Lorelei_Texto_17:
 	.string "But this is no longer my business. Now, I\n"
-	.string "just want some quiet{PAUSE 15}…{PAUSE 15}to return to my\n"
+	.string "just want some quiet{PAUSE 15}…{PAUSE 15}to return to my\l"
 	.string "roots.$"
 
 SilphS2_2_Lorelei_Texto_18:
