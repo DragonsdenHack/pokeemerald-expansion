@@ -68,7 +68,7 @@ EcruteakCity_Text_6:
 	.string "ECRUTEAK CITY and VIOLET CITY are the\n"
 	.string "only ones that have kept their essence\l"
 	.string "over time. Let's hope they continue in\l"
-	.string "this form for much longer$"
+	.string "this form for much longer.$"
 
 
 

@@ -309,7 +309,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_6:
 	.string "relinquish his powers.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-	.string "DIRECTOR: Quite a impressive feat,\p"
+	.string "DIRECTOR: Quite a impressive feat,\n"
 	.string "Especially considering your age.\p"
 	.string "But are you aware that in JOHTO, there\n"
 	.string "are some TRAINERs who would put\l"
@@ -317,7 +317,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_7:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7.1:
 	.string "The difference between them and that\n"
-	.string "petty DRAGON TAMER is that they aren't\n"
+	.string "petty DRAGON TAMER is that they aren't\l"
 	.string "showing off their power every day of\l"
 	.string "every week. They are focused on\l"
 	.string "achieving greatness, in pursuing\l"
@@ -399,7 +399,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_19:
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
 	.string "DIRECTOR: You'll have that meeting.\p"
-	.string "I'll be in contact with GIOVANNI for\p"
+	.string "I'll be in contact with GIOVANNI for\n"
 	.string "the details of this.\p"
 	.string "Thank you both for coming.$"
 

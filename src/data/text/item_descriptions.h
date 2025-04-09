@@ -1129,9 +1129,9 @@ static const u8 sSachetDesc[] = _(
    	"up to a 30%.");
 
 static const u8 sOvalStoneDesc[] = _(
-    "Hace evolucionar\n"
-   	"a varias especies\n"
-   	"de POKÉMON.");
+    "Peculiar stone\n"
+    "that evolves a\n"
+    "certain Pokémon.");
 
 static const u8 sMinnegroDesc[] = _(
     "Raises Kleavor's\n"
@@ -1968,9 +1968,9 @@ static const u8 sMetalPowderDesc[] = _(
     "Defense.");
 
 static const u8 sQuickPowderDesc[] = _(
-    "Si lo lleva DITTO,\n"
-   	"su VELOCID. subirá\n"
-   	"en un 100%.");
+    "A hold item that\n"
+    "raises the Speed\n"
+    "of Ditto.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "Raises Gorebyss's\n"

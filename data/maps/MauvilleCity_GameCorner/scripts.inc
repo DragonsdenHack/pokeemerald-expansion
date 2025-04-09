@@ -709,7 +709,7 @@ MauvilleCity_GameCorner_Text_SoYourChoiceIsX:
 	.string "¿Así que quieres {STR_VAR_1}?$"
 
 MauvilleCity_GameCorner_Text_HereYouGo:
-	.string "¡Aquí tienes!$"
+	.string "Here you go!$"
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
@@ -721,7 +721,7 @@ MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
 	.string	"¿Quieres uno?$"
 
 MauvilleCity_GameCorner_Text_HereYouGo2:
-	.string	"¡Aquí tienes!$"
+	.string "Here you go!$"
 
 MauvilleCity_GameCorner_Text_YouWantItButNotNow:
 	.string	"¿Qué? ¿Que sí lo quieres,\n"
@@ -985,7 +985,7 @@ msgbox CancelTMSelect_Negocios_Texto_1 MSGBOX_AUTOCLOSE
 	end
 
 CancelTMSelect_Negocios_Texto_1:
-	.string "Un placer hacer negocios.$"
+	.string "Thank you.$"
 
 MauvilleCity_GameCorner_EventScript_CancelTMSelect_Simple::
 msgbox CancelTMSelect_Simple_Texto_1 MSGBOX_AUTOCLOSE
@@ -994,7 +994,7 @@ msgbox CancelTMSelect_Simple_Texto_1 MSGBOX_AUTOCLOSE
 	end
 
 CancelTMSelect_Simple_Texto_1:
-	.string "¡Gracias por su compra!$"
+	.string "Thank you very much!$"
 
 Mauville_Pokemon_Items::
 msgbox Goldenrod_Underground_Items_Texto_1 MSGBOX_AUTOCLOSE

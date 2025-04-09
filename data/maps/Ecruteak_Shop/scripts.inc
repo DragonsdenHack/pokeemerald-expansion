@@ -15,9 +15,9 @@ end
 
 Ecruteak_ShopText_2:
 	.string "ECRUTEAK CITY is the only place that\n"
-	.string "still sells SACRED ASH. It costs 14000\l"
-	.string "POKÉ, but I can tell you that this item\l"
-	.string "would cost much more in KANTO.$"
+	.string "still sells SACRED ASH. It costs\l"
+	.string "¥14,000, but I can tell you that this\l"
+	.string "item would cost much more in KANTO.$"
 
 
 
