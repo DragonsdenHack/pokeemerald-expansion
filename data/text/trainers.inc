@@ -11831,8 +11831,8 @@ UnionCave_Text_KaratekaPostBattle:
 
 UnionCave_Text_Necio2Intro:
 	.string "Jah!\n"
-	.string "Mi colección es incomparable!\l"
-	.string "Observa y llora!$"
+	.string "My collection is the best!\l"
+	.string "Watch and cry!$"
 
 
 UnionCave_Text_Necio2Defeated:
@@ -11958,7 +11958,7 @@ Route33_Text_SabioPostBattle:
 
 AzaleaGym_Text_CazabichosIntro:
 	.string "All my knowledge about BUG TYPE comes\n"
-	.string "from CÉSAR. I won't allow you go so\l"
+	.string "from KURT. I won't allow you go so\l"
 	.string "easily!$"
 
 
@@ -11995,7 +11995,7 @@ AzaleaGym_Text_Cazabichos2PostBattle:
 
 AzaleaGym_Text_SabioIntro:
 	.string "You must be a very special trainer to\n"
-	.string "have caught CÉSAR's attention. Show me\l"
+	.string "have caught KURT's attention. Show me\l"
 	.string "your POKÉMON!$"
 
 
@@ -12005,7 +12005,7 @@ AzaleaGym_Text_SabioDefeated:
 
 AzaleaGym_Text_SabioPostBattle:
 	.string "Despite being a bit younger than me, I\n"
-	.string "have a lot of respect for CÉSAR. This\l"
+	.string "have a lot of respect for KURT. This\l"
 	.string "town wouldn't be the same without him.$"
 
 

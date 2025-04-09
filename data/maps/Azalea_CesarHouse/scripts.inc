@@ -151,7 +151,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_3:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
 	.string "KURT: The difference is that mine\n"
-	.string "started from a very modest power\n"
+	.string "started from a very modest power\l"
 	.string "overall. After the DEEP BOND it\l"
 	.string "became extremely efficient, but only\l"
 	.string "'noticeable' in the overall. It has not\l"
@@ -160,7 +160,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_4:
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
 	.string "Your POKEMON, on the other hand, was\n"
-	.string "already extraordinary, even before\n"
+	.string "already extraordinary, even before\l"
 	.string "experiencing the DEEP BOND. What has\l"
 	.string "resulted from merge something that was\l"
 	.string "already special, some that could\l"

@@ -364,9 +364,9 @@ release
 end
 
 Ecruteak_DanceTheater_Batallas_Texto_1:
-.string "Oh!\n"
-	.string "But how audacious! \l"
-	.string "No one steps onto our stage\l"
+.string "Oh!\p"
+	.string "But how audacious!\p"
+	.string "No one steps onto our stage\n"
 	.string "with no consequences!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_2:
@@ -510,28 +510,25 @@ Ecruteak_DanceTheater_Batallas_Texto_31:
 	.string "that the actual CHAMP…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_32:
-	.string "ALDER: You are the real CHAMPION!?$"
+	.string "You are the real CHAMPION!?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_33:
-.string "MIRTO: No puede ser cierto.$"
+.string "This can't be true{PAUSE 25}…{PAUSE 25} Really?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_33.1:
-	.string "En ese caso, ¿estarías dispuesto\n"
-	.string "a ayudarme y convencer a los\l"
-	.string "PENSADORES del lugar?$"
+	.string "In that case, would you help me and\n"
+	.string "try to convince the ECRUTEAK SAGES?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_34:
-.string "MIRTO: No tengo palabras de\n"
-	.string "agradecimiento, de verdad, {PLAYER}.\l"
-	.string "No olvidaré esto.$"
+	.string "I have no words of gratitude, truly.\n"
+	.string "I won't forget this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_35:
-.string "MIRTO: Te espero en el acceso a\n"
-	.string "SENDA DINDÓN, entonces.$"
+	.string "I will be waiting for you at the\n"
+	.string "BELLCHIME TRAIL access, then.$"
 	
 Ecruteak_DanceTheater_Batallas_Texto_35.1:
-	.string "Gracias por su atención,\n"
-	.string "señoritas.$"
+	.string "Thanks for your attention, ladies.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_36:
 	.string "We understand, as most people prefer to\n"

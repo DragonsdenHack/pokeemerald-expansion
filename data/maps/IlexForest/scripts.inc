@@ -84,7 +84,7 @@ release
 end
 
 IllexForest_Text_9:
-	.string "So-FARFETCH'D is pretty weak, but no\n"
+	.string "So… FARFETCH'D is pretty weak, but no\n"
 	.string "other POKÉMON's as handy at chopping\l"
 	.string "up trees.$"
 

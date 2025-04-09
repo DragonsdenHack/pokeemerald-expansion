@@ -140,7 +140,7 @@ AzaleaGym_Combate_Cesar_Texto_6:
 	.string "of JOHTO during battle? Let's find out!$"
 
 AzaleaGym_Combate_Cesar_Texto_7:
-.string "Ah{PAUSE 15}…{PAUSE 15} Este combate sí.$"
+.string "Ah{PAUSE 15}…{PAUSE 15} this time yes.$"
 
 AzaleaGym_Combate_Cesar_Texto_8:
 	.string "I can't remember the last time that\n"

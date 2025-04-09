@@ -34,7 +34,7 @@ release
 end
 
 Goldenrod_ShopP4_Text_4:
-.string "40,000 for DAZZLING GLEAM!?\n"
+.string "40,000 for DAZZLING GLEAM!?\p"
 	.string "Do you know how many shorts I'd have to\n"
 	.string "sell to gather that amount? And how\l"
 	.string "hard would my TOGETIC hit with that\l"

@@ -105,12 +105,12 @@ Goldenrod_Casa_Secreta_Exorcista_Texto_4:
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_5:
 	.string "Back in the day it was said a lot how\n"
-	.string "similar these two regions are; now the\n"
+	.string "similar these two regions are; now the\l"
 	.string "differential is growing every day.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_6:
 	.string "I wonder how much the SEVII islands\n"
-	.string "have changed nowadays. However, there's\n"
+	.string "have changed nowadays. However, there's\l"
 	.string "a single thing I regret…$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_7:
@@ -138,12 +138,12 @@ Goldenrod_Casa_Secreta_Exorcista_Texto_12:
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_13:
 	.string "It's{PAUSE 15}...{PAUSE 15} amazing, only someone who knows\n"
-	.string "every inch and mystery of THREE ISLAND\n"
+	.string "every inch and mystery of THREE ISLAND\l"
 	.string "could possibly find it.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_14:
 	.string "Unfortunately, some of those mysteries\n"
-	.string "are long gone in the flow of time. Only a\n"
+	.string "are long gone in the flow of time. Only a\l"
 	.string "few people remember them, and it won't\l"
 	.string "be like that forever. I can only show\l"
 	.string "you a few of them… the ones I know\l"
@@ -154,7 +154,7 @@ Goldenrod_Casa_Secreta_Exorcista_Texto_15:
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_16:
 	.string "The ex-THREE ISLAND gym LEADER says\n"
-	.string "that finding one of these is a hundred\n"
+	.string "that finding one of these is a hundred\l"
 	.string "times harder than a shiny POKÉMON.$"
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_17:
@@ -163,7 +163,7 @@ Goldenrod_Casa_Secreta_Exorcista_Texto_17:
 
 Goldenrod_Casa_Secreta_Exorcista_Texto_18:
 	.string "Sometimes, I feel curious about what is\n"
-	.string "now of everything I left behind in the\n"
+	.string "now of everything I left behind in the\l"
 	.string "SEVII ISLANDS, but I've never felt\l"
 	.string "ready to return there.$"
 

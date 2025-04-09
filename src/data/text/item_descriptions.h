@@ -48,9 +48,9 @@ static const u8 sDiveBallDesc[] = _(
     "on the ocean floor.");
 
 static const u8 sDuskBallDesc[] = _(
-    "Funciona mejor con\n"
-   	"los POKéMON de\n"
-   	"las cuevas.");
+    "Works well if\n"
+    "used in a\n"
+    "dark place.");
 
 static const u8 sTimerBallDesc[] = _(
     "A Ball that gains\n"
@@ -93,9 +93,9 @@ static const u8 sFriendBallDesc[] = _(
     "when caught.");
 
 static const u8 sLoveBallDesc[] = _(
-    "Funciona mejor con\n"
-   	"los POKÉMON del\n"
-   	"género opuesto.");
+    "Works well on\n"
+    "Pokémon of the\n"
+    "opposite gender.");
 
 static const u8 sFastBallDesc[] = _(
     "Works well on\n"
@@ -103,9 +103,9 @@ static const u8 sFastBallDesc[] = _(
     "Pokémon.");
 
 static const u8 sHeavyBallDesc[] = _(
-    "Funciona mejor con\n"
-   	"los POKÉMON más\n"
-   	"pesados.");
+    "Works well on\n"
+    "very heavy\n"
+    "Pokémon.");
 
 static const u8 sDreamBallDesc[] = _(
     "A Poké Ball used in\n"

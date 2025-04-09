@@ -348,30 +348,29 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
 	.string "recently just resigne…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
-	.string "????: {PLAYER}! It's a pleasure to\n"
-	.string "see you again!.$"
+	.string "????: {PLAYER}!\p"
+	.string "It's a pleasure to see you again!.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
-.string "A{PAUSE 15}…{PAUSE 15}ALTO MANDO AGATHA, un honor\n"
-	.string "volver a verla.$"
+	.string "E{PAUSE 15}-{PAUSE 15}ELITE FOUR AGATHA, it's an honor to\n"
+	.string "see you again.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14:
-.string "AGATHA: Quién iba a decir que\n"
-	.string "acabarías visitando JOHTO, a este\l"
-	.string "paso vas a terminar explorando\l"
-	.string "cada rincón del mundo POKÉMON.\p"
-	.string "Tan activo y dispuesto,\n"
-	.string "¡bendita juventud!$"
+	.string "AGATHA: Who would have thought you'd\n"
+	.string "end up visiting JOHTO? At this rate,\l"
+	.string "you'll explore every corner of the\l"
+	.string "world. You're everywhere, just\l"
+	.string "ready for anything, blessed youth!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15:
-.string "AGATHA: Dicen la verdad.\n"
-	.string "Sé que TORRE CAMPANA y vosotros,\l"
-	.string "sus PENSADORES, sois discretos.$"
+	.string "AGATHA: They're telling the truth. I\n"
+	.string "know that the BELL TOWER and you,\l"
+	.string "SAGES, are discreet.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15.1:
-	.string "Por ello, has de saber que tienes\n"
-	.string "delante al verdadero CAMPEÓN de\l"
-	.string "KANTO.$"
+	.string "Therefore, you should know that\n"
+	.string "you're facing the current CHAMPION\l"
+	.string "of KANTO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16:
 	.string "Please accept my apologies; it's truly\n"
@@ -379,8 +378,8 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16:
 	.string "to grace our temple with your presence.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17:
-.string "MIRTO: Entonces{PAUSE 15}…{PAUSE 15}\n"
-	.string "¿Podemos entrar todos?$"
+.string "ALDER: Then{PAUSE 15}…{PAUSE 15}\n"
+	.string "We can pass to BELL TOWER?$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
 .string "Estamos ante un caso excepcional.\p"
@@ -390,9 +389,9 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
 	.string "GRAN MAESTRO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
-.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}\p"
-	.string "Mi POKÉMON está enfermo, su GRAN\n"
-	.string "MAESTRO podría ayudarle a sanar.$"
+.string "ALDER: But{PAUSE 15}…{PAUSE 15}\p"
+	.string "My POKEMON is sick, your GREAT MASTER\n"
+	.string "could help it to heal.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
 .string "AGATHA: Su compañero es un\n"
@@ -403,15 +402,15 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
 	.string "caso más extremo conocido.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21:
-.string "Oh{PAUSE 15}…{PAUSE 15}\n"
-	.string "Entiendo{PAUSE 15}…{PAUSE 15}\l"
-	.string "Entiendo{PAUSE 15}…{PAUSE 15}$"
+.string "Oh{PAUSE 15}…{PAUSE 15}\p"
+	.string "I understand{PAUSE 15}…{PAUSE 15}\p"
+	.string "Indeed{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21.1:
-	.string "Esta situación merece ser\n"
-	.string "abordada de inmediato.\p"
-	.string "No hay duda, nuestro GRAN MAESTRO\n"
-	.string "así lo querría.$"
+	.string "This situation deserves to be\n"
+	.string "addressed immediately. There is no\l"
+	.string "doubt, our GREAT MASTER would want it\l"
+	.string "that way.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_22:
 .string "ALDER: Thank you so much.$"

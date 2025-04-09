@@ -264,49 +264,43 @@ face_right
 step_end
 
 CianwoodCity_Evento_Mirto_Texto_1:
-.string "MIRTO: ¿Quién?$"
+.string "ALDER: … Who?$"
 
 CianwoodCity_Evento_Mirto_Texto_2:
-.string "Oh, {PLAYER}. Qué sorpresa.$"
+.string "Oh, {PLAYER}, what a surprise.$"
 
 CianwoodCity_Evento_Mirto_Texto_3:
-.string "Lamento que no pudieras entrar con\n"
-	.string "nosotros a TORRE CAMPANA, esa\l"
-	.string "AGATHA se ve que te aprecia mucho.\p"
-	.string "Solo es cuestión de tiempo que el\n"
-	.string "GRAN MAESTRO te invite a entrar,\l"
-	.string "ha estado muy ocupado últimamente\l"
-	.string "poniendo en orden varios asuntos{PAUSE 5}…{PAUSE 5}$"
+	.string "I apologize that you couldn't come with\n"
+	.string "us to BELL TOWER; AGATHA clearly holds\l"
+	.string "you in high esteem. It's only a matter\l"
+	.string "of time before the GRAND MASTER\l"
+	.string "invites you in; he's been very busy\l"
+	.string "lately, with some meetings…$"
 
 CianwoodCity_Evento_Mirto_Texto_4:
-.string "{PAUSE 5}…{PAUSE 5}\n"
-	.string "{PAUSE 5}…{PAUSE 5}$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 CianwoodCity_Evento_Mirto_Texto_5:
-.string "En cuanto a mi POKÉMON, probamos\n"
-	.string "de todo, pero sigue igual. Ninguno\l"
-	.string "de los remedios que con el resto\l"
-	.string "de POKÉMON funcionan tiene\l"
-	.string "aplicación en mi VOLCARONA.$"
+	.string "As for my POKÉMON, we've tried\n"
+	.string "everything, but it's still the same. None\l"
+	.string "of the treatments that work with other\l"
+	.string "POKÉMON seem to apply to my VOLCARONA.$"
 
 CianwoodCity_Evento_Mirto_Texto_5.1:
-	.string "Me recomendaron venir a esta\n"
-	.string "FARMACIA, la más antigua de JOHTO,\l"
-	.string "pero nada parece afectarle al\l"
-	.string "cuerpo de mi POKÉMON. Nada más que\l"
-	.string "su propia energía, la misma que le\l"
-	.string "está comiendo por dentro.$"
+	.string "I was recommended to visit this\l"
+	.string "PHARMACY, the oldest in JOHTO, but\l"
+	.string "nothing appears to affect my POKÉMON's\l"
+	.string "body. Only its own energy, the same\l"
+	.string "energy that's devouring it.$"
 
 CianwoodCity_Evento_Mirto_Texto_6:
-.string "Muchos quieren tener POKÉMON más\n"
-	.string "fuertes, hablan del poder como si\l"
-	.string "fueran simples números lanzados al\l"
-	.string "aire, pero no se dan cuenta del\l"
-	.string "enorme costo que supone llegar a\l"
-	.string "ciertos niveles para la fisiología\l"
-	.string "de los POKÉMON.\p"
-	.string "Solo ven el resultado, no las causas\n"
-	.string "y efectos que llevan a él.$"
+	.string "Many desire to have stronger POKÉMON;\n"
+	.string "talking about power as mere numbers\l"
+	.string "tossed in the air, but they fail to\l"
+	.string "realize the enormous cost involved in\l"
+	.string "reaching certain levels.\p"
+	.string "They only see the outcome, not the\n"
+	.string "causes and effects that lead to it.$"
 
 CianwoodCity_Evento_Mirto_Texto_7:
 	.string "Whatever happens, I will never see the\n"
@@ -319,31 +313,30 @@ CianwoodCity_Evento_Mirto_Texto_7:
 	.string "antagonist: illness.$"
 
 CianwoodCity_Evento_Mirto_Texto_8:
-.string "Volveré una vez más a TORRE CAMPANA,\n"
-	.string "para agotar todas mis opciones.\p"
-	.string "El ENTRENADOR más sabio y poderoso\n"
-	.string "de la región visitará el lugar,\l"
-	.string "dentro de poco. El LÍDER de CIUDAD\l"
-	.string "IRIS me ha hablado de él, es el\l"
-	.string "único con un POKÉMON FUERTE\l"
-	.string "VÍNCULO de mayor poder global que\l"
-	.string "mi VOLCARONA.$"
+	.string "I'll return once again to BELL TOWER.\p"
+	.string "I must explore all our possibilities,\n"
+	.string "and the wisest and most formidable\l"
+	.string "TRAINER in the region will be there.\l"
+	.string "The ECRUTEAK GYM LEADER said he's\l"
+	.string "the only one with a DEEP BOND POKÉMON\l"
+	.string "of greater overall power than my\l"
+	.string "VOLCARONA.$"
 	
 CianwoodCity_Evento_Mirto_Texto_8.1:
-	.string "Así es, la diferencia es que el\n"
-	.string "suyo es un PSEUDOLEGENDARIO, y no\l"
-	.string "podemos medirlo con la misma vara.\l"
-	.string "Pero tal vez{PAUSE 15}…{PAUSE 15} él sepa algo que\l"
-	.string "hemos pasado por alto.$"
+	.string "That's right, the difference is{PAUSE 15}…{PAUSE 15} he has\n"
+	.string "a -PSEUDOLEGENDARY DEEP BOND-, and we\l"
+	.string "can't measure him with the same\l"
+	.string "yardstick. But maybe{PAUSE 15}…{PAUSE 15} he knows\l"
+	.string "something we have overlooked.$"
 
 CianwoodCity_Evento_Mirto_Texto_9:
-.string "Adiós, {PLAYER}. Si me doy prisa,\n"
-	.string "aún podré contemplar el crepúsculo\l"
-	.string "cernirse sobre CIUDAD IRIS.$"
+	.string "Goodbye, {PLAYER}. If I hurry, I'll\n"
+	.string "still be able to watch the twilight\l"
+	.string "hover over ECRUTEAK CITY.$"
 
 CianwoodCity_Evento_Mirto_Texto_9.1:
-	.string "¿Quién sabe{PAUSE 15}…{PAUSE 15} cuantos más podré\n"
-	.string "admirar con VOLCARONA a mi lado?$"
+    .string "Who knows how much more I'll be able\n"
+	.string "to see along with VOLCARONA?$"
 
 CianwoodCity_Evento_Mirto_Move_3.1:
 face_up
