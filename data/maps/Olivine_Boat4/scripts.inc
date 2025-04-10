@@ -81,7 +81,7 @@ Olivine_Boat4_Combate_Capitan_Texto_2:
 	.string "LT. SURGE told me about you all, and he\n"
 	.string "didn't have very kind words for TEAM\l"
 	.string "ROCKET. He warned me about some of the\l"
-	.string "worst thieves-the shame of KANTO,\l"
+	.string "worst thieves; the shame of KANTO,\l"
 	.string "according to him.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_3:
@@ -102,7 +102,7 @@ Olivine_Boat4_Combate_Capitan_Texto_4:
 	.string "the MEGA STONES and some\l"
 	.string "PSEUDO-LEGENDARIES that could\l"
 	.string "benefit from them, reaching\l"
-	.string "the-impossible until recently-700 BASE.$"
+	.string "the - impossible - 700 BASE.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_5:
 	.string "After everything that's happened, it's\n"

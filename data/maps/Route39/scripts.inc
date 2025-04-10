@@ -106,9 +106,9 @@ end
 
 Route39_SudowoodoRest_Text:
 	.string "…\n"
-	.string "…\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "…\p"
+	.string "-It's a POKÉMON.\p"
+	.string "It seems to be resting.-$"
 
 
 
@@ -127,9 +127,9 @@ msgbox Route39Documento_Text_101, MSGBOX_SIGN
 end
 
 Route39Documento_Text_101:
-	.string "GRANJA MU-MU\n"
-	.string "¡Prueba nuestra rica leche fresca,\l"
-	.string "al mejor precio!$"
+	.string "MOO-MOO FARM\p"
+	.string "Try our delicious fresh milk\n"
+	.string "at the best price!$"
 
 Route39_EventScript_TM138::
 	lock
@@ -150,18 +150,17 @@ Route39_EventScript_ReceivedTM138::
 	end
 
 Route39_Text_TM138:
-.string "Una buena coz puede ser la solución\n"
-.string "de muchos POKÉMON ante los duros\l"
-.string "ACERO y ROCA.\l"
-.string "De tanto criar TAUROS y MILTANK,\l"
-.string "lo sé bien.$"
+	.string "A good kick can be the solution for\n"
+	.string "many POKEMON against the tough STEEL\l"
+	.string "and ROCK TYPES. From breeding TAUROS\l"
+	.string "and MILTANK, I know it well.$"
 
 Route39_Text_TM138_2:
-.string "¡Toma esto!$"
+.string "Take this!$"
 
 Route39_Text_ExplainTM138:
-	.string "Embestir con fuerza no basta\n"
-	.string "contra determinados POKÉMON.\l"
-	.string "Con FUERZA EQUINA, ¡tendrás\l"
-	.string "el movimiento perfecto para\l"
-	.string "complementar fuertes embestidas!$"
+	.string "Ramming hard isn't enough against\n"
+	.string "certain POKEMONs. With HIGH\l"
+	.string "HORSEPOWER, you'll have the perfect\l"
+	.string "move to complement strong head\l"
+	.string "charges!$"

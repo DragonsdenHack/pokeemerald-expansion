@@ -9,7 +9,8 @@ release
 end
 
 Cianwood_House2_Text_1:
-.string "The peace this place brings me is irreplaceable.$"
+.string "The peace this place brings to me\n"
+.string "is irreplaceable.$"
 
 
 

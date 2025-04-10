@@ -199,14 +199,14 @@ Cianwood_Gym_Combate_Anibal_3_Texto_5:
 
 Cianwood_Gym_Combate_Anibal_3_Texto_6:
 	.string "Mmm, I see. What you're saying is\n"
-	.string "true-that place exists. It was\l"
+	.string "true; that place exists. It was\l"
 	.string "discovered by the most skilled HIKERS\l"
 	.string "of this city. But the history of the\l"
 	.string "origin of that place is much older.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_7:
 	.string "In the past, I explored it\n"
-	.string "myself-decades ago. I wouldn't be able\l"
+	.string "myself, decades ago. I wouldn't be able\l"
 	.string "to tell you the exact location now.\l"
 	.string "However, I know someone who knows it\l"
 	.string "perfectly.$"
@@ -293,7 +293,7 @@ Cianwood_Gym_Combate_Anibal_Texto_12:
 	.string "I think I can hold on for one more year;\n"
 	.string "after that, I'll release my POKÉMON and\l"
 	.string "start fresh with a MANKEY and a\l"
-	.string "POLIWAG-without any pretenses or\l"
+	.string "POLIWAG, without any pretenses or\l"
 	.string "pressure.$"
 
 CianwoodGym_Gym_Dude::

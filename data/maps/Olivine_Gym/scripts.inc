@@ -11,11 +11,11 @@ end
 OlivineCity_Gym_Text_2:
 	.string "I see CROM so far above everyone, but\n"
 	.string "here I am with just my ONIX and\l"
-	.string "MAGNEMITE. He says not to worry-just\l"
-	.string "focus on the process-but I believe each\l"
-	.string "generation and their TRAINERs are\l"
-	.string "unique. Unfortunately though, this\l"
-	.string "one's on its last legs.$"
+	.string "MAGNEMITE. He says not to worry, just\l"
+	.string "focus on the process, but I believe\l"
+	.string "each generation and their TRAINERs\l"
+	.string "are unique. Unfortunately though,\l"
+	.string "this one's on its last legs.$"
 
 
 
@@ -179,7 +179,7 @@ Olivine_Gym_Combate_Crom_Texto_11:
 	.string "even more.$"
 
 Olivine_Gym_Combate_Crom_Texto_12:
-	.string "And one last thing-you should attend\n"
+	.string "And one last thing: you should attend\n"
 	.string "the opening event of OLIVINE PORT.\l"
 	.string "Take this.$"
 

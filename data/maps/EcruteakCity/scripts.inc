@@ -118,11 +118,11 @@ release
 end
 
 EcruteakCity_Text_10:
-.string "Dos torres se elevaban sobre\n"
-.string "CIUDAD IRIS, una al este y otra al\l"
-.string "oeste. Ahora únicamente queda una,\l"
-.string "y espero que se mantenga por\l"
-.string "muchos siglos.$"
+	.string "In ECRUTEAK CITY, there were two\n"
+	.string "towers once, one to the east and one to\l"
+	.string "the west. Now only one remains, and I\l"
+	.string "hope it will stand for many more\l"
+	.string "centuries.$"
 
 
 
@@ -134,9 +134,8 @@ release
 end
 
 EcruteakCity_Text_11:
-.string "¡El TEATRO DE LA DANZA me viene\n"
-.string "que ni pintado para mantenerme en\l"
-.string "forma!$"
+	.string "DANCE THEATER is a great way for\n"
+	.string "me to stay in good shape!$"
 
 
 
@@ -148,9 +147,9 @@ release
 end
 
 EcruteakCity_Text_12:
-.string "Adoro pasear por estas calles, es\n"
-.string "como si continuara escribiendo la\l"
-.string "magnífica historia de esta ciudad.$"
+	.string "I love walking through these streets,\n"
+	.string "it's as if I were continuing to write the\l"
+	.string "magnificent history of this city.$"
 
 
 

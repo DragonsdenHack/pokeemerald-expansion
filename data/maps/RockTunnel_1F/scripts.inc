@@ -210,8 +210,8 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
 	.string "You defeating me? Now that's funny!\p"
 	.string "Don't you know the COOL TRAINERS\n"
 	.string "reputation? We are the most\l"
-	.string "sophisticated kind of TRAINER,\l"
-	.string "everyone that is here at this tunnel is\l"
+	.string "sophisticated TRAINERCLASS!\p"
+	.string "Everyone around here at this tunnel is\n"
 	.string "not even worth mentioning compared to\l"
 	.string "us!$"
 

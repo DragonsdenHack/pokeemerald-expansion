@@ -285,9 +285,9 @@ Olivine_Boat_3_Ceremonia_Texto_1:
 	.string "rediscovered peace. Let's celebrate,\l"
 	.string "for this is just the first step; in three\l"
 	.string "years, no one will remember what\l"
-	.string "happened five years ago! Hooray,\l"
-	.string "OLIVINE CITY! Hooray, the KANTO-JOHTO\l"
-	.string "union!$"
+	.string "happened five years ago!\p"
+	.string "Hooray, OLIVINE CITY!\p"
+	.string "Hooray, the KANTO-JOHTO union!$"
 
 Olivine_Boat_3_Ceremonia_Texto_2:
 .string "Hooray!$"

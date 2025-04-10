@@ -267,7 +267,7 @@ MisionTrigal4_Segundo_Encuentro_Texto_1:
 	.string "smoothly, hoh…$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_2:
-.string "What the hell are you supposed\l"
+.string "What the hell are you supposed\n"
 .string "to be doing here?$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_3:
@@ -489,7 +489,8 @@ MisionTrigal4_Tercer_Encuentro_Texto_10:
 	.string "you're a social outcast!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_11:
-.string "This is just not possible! Who the hell are you?$"
+.string "This is just not possible!\n"
+.string "Who the hell are you?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_12:
 	.string "No one else in the city has the\n"

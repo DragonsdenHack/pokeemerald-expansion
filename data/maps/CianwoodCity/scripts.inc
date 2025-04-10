@@ -287,7 +287,7 @@ CianwoodCity_Evento_Mirto_Texto_5:
 	.string "POKÉMON seem to apply to my VOLCARONA.$"
 
 CianwoodCity_Evento_Mirto_Texto_5.1:
-	.string "I was recommended to visit this\l"
+	.string "I was recommended to visit this\n"
 	.string "PHARMACY, the oldest in JOHTO, but\l"
 	.string "nothing appears to affect my POKÉMON's\l"
 	.string "body. Only its own energy, the same\l"

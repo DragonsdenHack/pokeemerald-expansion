@@ -370,7 +370,7 @@ step_end
 Olivine_Lighthouse_Combate_Farero_Texto_1:
 	.string "????: The expansion of the PORT to\n"
 	.string "other regions will be a great\l"
-	.string "success-just wait and see.$"
+	.string "success, just wait and see.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_2:
 .string "????: Can I help you?$"
@@ -381,48 +381,43 @@ Olivine_Lighthouse_Combate_Farero_Texto_3:
 	.string "KEEPER.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_4:
-.string "FARERO: Al LÍDER lo tienes justo\n"
-	.string "ahí, estábamos debatiendo el\l"
-	.string "futuro de CIUDAD OLIVO.\p"
-	.string "Su PUERTO, su FARO, su GIMNASIO{PAUSE 5}…{PAUSE 5}$"
+	.string "LIGHTHOUSE KEEPER: The LEADER is\n"
+	.string "literally there. We are debating the\l"
+	.string "future of OLIVINE CITY, its PORT, its\l"
+	.string "LIGHTHOUSE, its GYM{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_5:
-.string "CROM: Pronto vendrán muchos\n"
-	.string "cambios, esperemos que para bien.\p"
-	.string "Mi viejo amigo y yo intentaremos\n"
-	.string "dejar esta ciudad en las mejores\l"
-	.string "condiciones posibles, antes de\l"
-	.string "partir.$"
+	.string "CROM: Many changes are coming soon.\p"
+	.string "Let's hope for the best. My old friend\n"
+	.string "and I will try to leave this city in the\l"
+	.string "best possible condition before we\l"
+	.string "depart.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_6:
-.string "Hace tiempo que no acepto ningún\n"
-	.string "reto de forma oficial.\p"
-	.string "Perdona, joven, pero cuando este\n"
-	.string "periodo de transición acabe,\l"
-	.string "podrás retar a la nueva LÍDER que\l"
-	.string "he escogido: YASMINA.$"
+	.string "It's been a while since I've accepted\n"
+	.string "any challenges officially. I'm sorry,\l"
+	.string "kid, but when this transition period is\l"
+	.string "over, you can challenge the new LEADER\l"
+	.string "I've chosen: JASMINE.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_6.1:
-	.string "Si logra evolucionar de una vez a\n"
-	.string "su ONIX, claro.$"
+	.string "If she manages to finally\n"
+	.string "evolve her ONIX{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_7:
-.string "Le queda mucho camino por\n"
-	.string "recorrer, y me temo que para\l"
-	.string "alguien como tú aparentas ser,\l"
-	.string "no supondrá un gran reto.$"
+	.string "She still has a long way to go, so if\n"
+	.string "you're experienced, I'm afraid you won't\l"
+	.string "have any trouble defeating her.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_8:
-.string "Aunque{PAUSE 25}…{PAUSE 15}$"
+.string "Although…$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_9:
-.string "Me agrada la idea de un último\n"
-	.string "gran combate, antes de partir.\p"
-	.string "Sería la guinda sobre el pastel a\n"
-	.string "mi estancia en CIUDAD OLIVO.\p"
-	.string "La cuestión es…\p"
-	.string "¿Estarías tú a la altura de ese\n"
-	.string "último gran combate?$"
+	.string "I like the idea of a last great battle\n"
+	.string "before I leave; it would be the perfect\l"
+	.string "culmination of my stay in OLIVINE CITY.\p"
+	.string "The question is… Are you up to the task\n"
+	.string "for that last dance?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_10:
 	.string "LIGHTHOUSE KEEPER: We can verify it\n"
@@ -432,14 +427,13 @@ Olivine_Lighthouse_Combate_Farero_Texto_11:
 .string "CROM: Certainly.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_12:
-.string "No conozco mejor vara de medir por\n"
-	.string "los alrededores que mi viejo amigo\l"
-	.string "y dueño actual de este FARO. Es tú\l"
-	.string "único tren para combatir conmigo.$"
+	.string "I know no better judge of skill around\n"
+	.string "here other than my old friend and\l"
+	.string "current owner of this LIGHTHOUSE.\p"
+	.string "That's your only chance to face me.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_12.1:
-	.string "¡O lo tomas ahora o lo pierdes\n"
-	.string "para siempre!$"
+	.string "Take it now or lost it forever!$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_13:
 .string "Very good. Enough talk.$"

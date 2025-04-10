@@ -349,7 +349,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
 	.string "????: {PLAYER}!\p"
-	.string "It's a pleasure to see you again!.$"
+	.string "It's a pleasure to see you again!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
 	.string "E{PAUSE 15}-{PAUSE 15}ELITE FOUR AGATHA, it's an honor to\n"
@@ -382,11 +382,11 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17:
 	.string "We can pass to BELL TOWER?$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
-.string "Estamos ante un caso excepcional.\p"
-	.string "AGATHA aquí es considerada como\n"
-	.string "una más, pero en esta situación, la\l"
-	.string "última palabra la tiene nuestro\l"
-	.string "GRAN MAESTRO.$"
+	.string "This is an extraordinary circumstance.\p"
+	.string "AGATHA is beloved and respected in\n"
+	.string "ECRUTEAK CITY; in this instance, the\l"
+	.string "ultimate decision lies with our GRAND\l"
+	.string "MASTER.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
 .string "ALDER: But{PAUSE 15}…{PAUSE 15}\p"
@@ -394,12 +394,12 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
 	.string "could help it to heal.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
-.string "AGATHA: Su compañero es un\n"
-	.string "POKÉMON muy especial, CÉSAR me lo\l"
-	.string "dijo. Has de saber, PENSADOR, que\l"
-	.string "su POKÉMON no solo ha experimentado\l"
-	.string "el FUERTE VÍNCULO, sino que es el\l"
-	.string "caso más extremo conocido.$"
+	.string "ALDER's partner is quite a unique\n"
+	.string "POKÉMON, as KURT told me. You must\l"
+	.string "understand, SAGE, that his POKÉMON has\l"
+	.string "not only reached the DEEP BOND, no…\p"
+	.string "Has become one of the most extreme\n"
+	.string "DEEP BOND POKÉMON ever known.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21:
 .string "Oh{PAUSE 15}…{PAUSE 15}\p"

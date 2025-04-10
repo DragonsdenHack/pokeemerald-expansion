@@ -259,7 +259,7 @@ Olivine_Llamada_Giovanni_Texto_1:
 	.string "despite being FLYING TYPE, is close to\l"
 	.string "CLOYSTER's. Not to mention its immunity\l"
 	.string "to the ELECTRIC TYPE-according to our\l"
-	.string "scientists-due to the stainless steel\l"
+	.string "scientists, due to the stainless steel\l"
 	.string "layer that covers it. … … I'm on my way to\l"
 	.string "GOLDENROD, {PLAYER}. I'll be busy\l"
 	.string "sorting out the meeting at RADIO TOWER,\l"

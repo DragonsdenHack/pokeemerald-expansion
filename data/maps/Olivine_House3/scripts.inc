@@ -27,11 +27,11 @@ end
 
 OlivineCity_House3_Text_2:
 	.string "In my living over a decade here, it only\n"
-	.string "happened once-I got to see CROM's\l"
-	.string "strongest POKÉMON in person. An\l"
-	.string "enormous bird covered in steel. No\l"
-	.string "ELECTRIC attacks affected it-it had\l"
+	.string "happened once: I got to see CROM's\l"
+	.string "strongest POKÉMON.\p"
+	.string "An enormous bird covered in steel.\p"
+	.string "No ELECTRIC attacks affected it… had\n"
 	.string "the SPEED of a DODRIO and the\l"
-	.string "aggressiveness of a STARAPTOR… And its\l"
-	.string "DEFENSEs were impenetrable. It was\l"
-	.string "magnificent!$"
+	.string "aggressiveness of a STARAPTOR… moreover,\l"
+	.string "its physical DEFENSE were impenetrable.\p"
+	.string "It was magnificent!$"

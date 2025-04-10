@@ -22,7 +22,7 @@ release
 end
 
 OlivineCity_Port_Text_2:
-	.string "Our kind of TRAINER will disappear soon\n"
+	.string "Our TRAINERCLASS will disappear soon\n"
 	.string "in JOHTO. There's no CYCLING ROAD here.\l"
 	.string "And the OLIVINE PORT tempts us a lot to\l"
 	.string "work as sailors. For example, I stroll\l"
@@ -155,9 +155,9 @@ OlivinePort_Barrera_Texto_2:
 	.string "The party is over. Thank you for coming.$"
 
 OlivinePort_Barrera_Texto_3:
-.string "Ah!\n"
-	.string "I see you have the PARTYCKET!\l"
-	.string "Come in. You're arriving at the perfect time!$"
+.string "Ah!\p"
+	.string "I see you have the PARTYCKET! Come in!\n"
+	.string "You're arriving at the perfect time!$"
 
 OlivinePort_Barrera_Move_1.1:
 walk_in_place_up

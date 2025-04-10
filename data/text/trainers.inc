@@ -12868,7 +12868,7 @@ MtMortar2_Text_KaratekaDefeated:
 MtMortar2_Text_KaratekaPostBattle:
 	.string "CHUCK is likely farther inside; I'd be\n"
 	.string "interested in seeing his LEGENDARY\l"
-	.string "FIGHTING POKÉMON$"
+	.string "FIGHTING POKÉMON.$"
 
 
 
@@ -12946,7 +12946,7 @@ OlivineBoat2_Text_MarineroDefeated:
 
 OlivineBoat2_Text_MarineroPostBattle:
 	.string "We will take numerous passengers along\n"
-	.string "the CARMINE-OLIVE route from now on.$"
+	.string "the VERMILION-OLIVINE route from now on.$"
 
 
 

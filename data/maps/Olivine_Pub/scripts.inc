@@ -170,7 +170,7 @@ Olivine_Pub_Mision_Secundaria_Texto_3:
 Olivine_Pub_Mision_Secundaria_Texto_4:
 	.string "Listen. GOLDENROD is very big. I used to\n"
 	.string "be part of a large network of POKÉMON\l"
-	.string "trafficking. Eventually, I left-I\l"
+	.string "trafficking. Eventually, I left it; I\l"
 	.string "couldn't stand some of their practices.\l"
 	.string "Now I'm here, trying to become a SAILOR.$"
 

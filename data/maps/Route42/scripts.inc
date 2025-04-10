@@ -106,9 +106,9 @@ end
 
 Route42_SudowoodoRest_Text:
 	.string "…\n"
-	.string "…\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "…\p"
+	.string "-It's a POKÉMON.\p"
+	.string "It seems to be resting.-$"
 
 
 
