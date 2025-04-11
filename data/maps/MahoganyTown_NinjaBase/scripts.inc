@@ -75,7 +75,7 @@ end
 
 Ninja_Base_Poster_Texto_1:
  	.string "Behind this poster…\n"
-	.string "There is a button$"
+	.string "There is a button.$"
 
 Ninja_Base_Poster_Text_YesNo:
 .string "Do you want to push it?$"

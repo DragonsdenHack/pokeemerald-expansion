@@ -71,8 +71,9 @@ release
 end
 
 BlackthornCity_Gym_Gym_Dude_Texto_1:
-	.string "Oh, un aspirante. ¡Espera! ¡Ya tienes la\n"
-	.string "MEDALLA DRAGÓN!$"
+	.string "Oh, a contender.\p"
+	.string "Wait!\p"
+	.string "You already have the RISING BADGE!!$"
 
 BlackthornCity_Gym_Gym_Dude_Texto_2:
 	.string "Juraría que no ha habido aspirantes\n"

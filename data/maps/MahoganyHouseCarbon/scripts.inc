@@ -73,8 +73,8 @@ release
 end
 
 MahoganyHouseCarbon_Secundaria_Texto_1:
-	.string "Those damn businessmen… They've\n"
-	.string "betrayed us-me and my wife.$"
+	.string "Those damn businessmen…\n"
+	.string "They've betrayed us…$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"

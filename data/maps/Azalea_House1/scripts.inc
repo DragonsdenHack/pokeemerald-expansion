@@ -71,7 +71,7 @@ Azalea_House1_Anciano_Texto_3:
 
 Azalea_House1_Anciano_Texto_4:
 	.string "It's a key part of our secret\n"
-	.string "CHARCOAL-making process, but don't\l"
+	.string "CHARCOAL, making process, but don't\l"
 	.string "fret, we still have my wife's MADAAMU.\l"
 	.string "Just make sure you take good care of\l"
 	.string "mine; its destructive power is insane.$"

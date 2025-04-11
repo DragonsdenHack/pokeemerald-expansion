@@ -15329,7 +15329,7 @@ SilphS2_Text_Cientifico4PostBattle:
 
 AzaleaCarbonS1_Text_ObreroIntro:
 	.string "An envoy? Those elders had no money,\n"
-	.string "how did they hire you$"
+	.string "how did they hire you?$"
 
 
 AzaleaCarbonS1_Text_ObreroDefeated:

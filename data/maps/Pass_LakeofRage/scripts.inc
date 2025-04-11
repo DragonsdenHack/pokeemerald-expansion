@@ -8,8 +8,8 @@ release
 end
 
 Pass_LakeofRage_Primer_Policia_Texto_1:
-	.string "Nadie podría invadir este puesto de\n"
-	.string "vigilancia sin nuestro consentimiento.$"
+	.string "No one could invade this guard\n"
+	.string "post without our consent.$"
 
 Pass_LakeofRage_Segundo_Policia::
 lock
@@ -18,6 +18,6 @@ release
 end
 
 Pass_LakeofRage_Segundo_Policia_Texto_1:
-	.string "Este lugar es un regalo de la\n"
-	.string "naturaleza, que cualquiera puede\l"
-	.string "admirar sin pagar un solo ¥.$"
+	.string "This place is a gift of nature, which\n"
+	.string "anyone can admire without paying a\l"
+	.string "single ¥.$"

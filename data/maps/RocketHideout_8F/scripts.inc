@@ -4168,7 +4168,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2:
 	.string "GIOVANNI: Do you realize the kind of\n"
 	.string "POKÉMON you've just faced? Our\l"
 	.string "scientists have estimated it to have\l"
-	.string "190 BASE SPECIAL ATTACK-far\l"
+	.string "190 BASE SPECIAL ATTACK, far\l"
 	.string "outstripping that of the highest\l"
 	.string "recorded, DEOXYS' 180. Together with\l"
 	.string "its other STATs, it achieves a total of\l"
@@ -4213,20 +4213,19 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_7:
 .string "ANDRA: SIR, yes, SIR!$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
-.string "No me dijiste que ese tipo contaba\n"
-	.string "con KYOGRE, GROUDON y RAYQUAZA.\l"
-	.string "¿De verdad enfrentaste a los tres\l"
-	.string "LEGENDARIOS de HOENN a la vez?\p"
-	.string "Ten mucho cuidado, he estudiado su\n"
-	.string "mitología, y la leyenda habla de\l"
-	.string "FORMAS PRIMIGENIAS aún más poderosas.$"
+	.string "You didn't tell me that guy had KYOGRE,\n"
+	.string "GROUDON and RAYQUAZA. Did you really\l"
+	.string "faced the SUPER-ANCIENT HOENN trio?\p"
+	.string "Be very careful, I've studied their\n"
+	.string "mythology, and the legend talks about\l"
+	.string "even stronger PRIMAL FORMS.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8.1:
-	.string "Así es, las que de verdad crearon\n"
-	.string "la tierra y el mar.\p"
-	.string "No sé si ese tipo querrá comprobar la\n"
-	.string "veracidad de esa leyenda, pero tenlo\l"
-	.string "en cuenta.$"
+	.string "That's right, the ones who really\n"
+	.string "created the land and the sea.\p"
+	.string "I don't know if this guy will want to\n"
+	.string "check the veracity of this legend, but\l"
+	.string "keep it in mind.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_1:
 face_right

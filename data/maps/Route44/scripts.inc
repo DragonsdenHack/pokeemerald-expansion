@@ -273,40 +273,39 @@ delay_8
 step_end
 
 Route44_Combate_Mirto_Texto_1:
-.string "????: ¡{PLAYER}!\p"
-	.string "¡Espera!$"
+.string "????: {PLAYER}!\p"
+	.string "Wait!$"
 
 Route44_Combate_Mirto_Texto_2:
-.string "Sabía que te alcanzaría por aquí,\n"
-	.string "has derrotado a 7 de los 8 mejores\l"
-	.string "ENTRENADORES de JOHTO, ¿verdad?\p"
-	.string "Solo te queda el último y más\n"
-	.string "difícil: el M.DRAGÓN de ENDRINO.\p"
-	.string "Por eso vas hacia la RUTA HELADA.$"
+	.string "I figured I'd find you here. You've\n"
+	.string "taken down seven of the top eight\l"
+	.string "TRAINERS in JOHTO, haven't you? You're\l"
+	.string "only left with the last and toughest\l"
+	.string "one: the DRAGON MASTER of BLACKTHORN.\p"
+	.string "That's why you're heading toward the\n"
+	.string "ICE PATH.$"
 
 Route44_Combate_Mirto_Texto_3:
-.string "Vengo a despedirme, {PLAYER}.$"
+.string "I came to say goodbye, {PLAYER}.$"
 
 Route44_Combate_Mirto_Texto_3.1:
-	.string "Así es, en breve volveré a\n"
-	.string "TESELIA, mi región de origen.$"
+	.string "Indeed. Soon, I will go back to\l"
+	.string "UNOVA, my homeland.$"
 
 Route44_Combate_Mirto_Texto_4:
-.string "Quiero que mi POKÉMON vuelva a estar\n"
-	.string "por última vez en la región que\l"
-	.string "le vio crecer.$"
+	.string "I want my POKÉMON to see the region\n"
+	.string "where it grew up one last time.$"
 
 Route44_Combate_Mirto_Texto_5:
-.string "Todos los intentos por recuperar\n"
-	.string "la salud de VOLCARONA han\l"
-	.string "fracasado, pero este viaje no ha\l"
-	.string "sido en vano; he aprendido mucho\l"
-	.string "de los mejores maestros de JOHTO.\p"
-	.string "Me han hecho ver que la situación\n"
-	.string "de mi POKÉMON es privilegiada,\l"
-	.string "tiene un don para el combate, y\l"
-	.string "sería un pecado no explorar los\l"
-	.string "límites de algo tan singular.$"
+	.string "All my attempts to restore my VOLCARONA's\n"
+	.string "health have failed, but this journey\l"
+	.string "has not been in vain. I have learned a\l"
+	.string "lot from the best masters of JOHTO.\p"
+	.string "They have made me realize that my\n"
+	.string "POKÉMON's situation is privileged; it\l"
+	.string "has a gift for combat, and it would be a\l"
+	.string "sin not to explore the limits of such a\l"
+	.string "unique POKÉMON.$"
 
 Route44_Combate_Mirto_Texto_5.1:
 	.string "{PAUSE 5}…{PAUSE 5}$"
@@ -325,8 +324,8 @@ Route44_Combate_Mirto_Texto_5.3:
 Route44_Combate_Mirto_Texto_5.4:
 	.string "However, we achieve this thanks to our\n"
 	.string "effort, development, and interactions\l"
-	.string "we maintain with other POKÉMON-mortals\l"
-	.string "like us-throughout our lives.$"
+	.string "we maintain with other POKÉMON, mortals\l"
+	.string "like us, throughout our lives.$"
 
 Route44_Combate_Mirto_Texto_5.5:
 	.string "I have no doubt those kinds of acts\n"

@@ -82,8 +82,8 @@ msgbox Route43Documento_Text_100, MSGBOX_SIGN
 end
 
 Route43Documento_Text_100:
-	.string "RUTA 43\n"
-	.string "LAGO DE LA FURIA - PUEBLO CAOBA$"
+	.string "ROUTE 43\n"
+	.string "LAKE OF RAGE - MAHOGANY TOWN$"
 
 
 
@@ -92,7 +92,6 @@ msgbox Route43Documento_Text_101, MSGBOX_SIGN
 end
 
 Route43Documento_Text_101:
-	.string "Según la leyenda, MAGIKARP y\n"
-	.string "GYARADOS no son las únicas\l"
-	.string "especies que habitan en el LAGO DE\l"
-	.string "LA FURIA.$"
+	.string "According to legend, MAGIKARP and\n"
+	.string "GYARADOS are not the only species\l"
+	.string "that inhabit the LAKE OF RAGE.$"

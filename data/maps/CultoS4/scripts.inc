@@ -169,7 +169,7 @@ step_end
 CultoS4_Rezando_Esencia_Texto_1:
 	.string "Our essence is to lack essence and, at\n"
 	.string "the same time, potentially to be able to\l"
-	.string "build it. We are pure possibility-that is,\l"
+	.string "build it. We are pure possibility,\l"
 	.string "a nothingness that is potentially\l"
 	.string "everything.$"
 

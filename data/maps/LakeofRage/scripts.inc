@@ -24,13 +24,14 @@ release
 end
 
 LakeofRage_Text_8:
-.string "Ese GURÚ de KANTO, que vive en\n"
-.string "FUCSIA, lo único que hizo fue\l"
-.string "capturar 3 GYARADOS aquí, cuando\l"
-.string "había a montones, y mudarse a otra\l"
-.string "región donde escasean. Ahora vive\l"
-.string "de la fama que esos 3 GYARADOS le\l"
-.string "dieron.$"
+	.string "That GURU from KANTO, who lives in\n"
+	.string "FUCHSIA, all he did was catching 3\l"
+	.string "GYARADOS here, when there were plenty\l"
+	.string "of them, and move to another region\l"
+	.string "where they are seen as rare and\l"
+	.string "powerful POKÉMON.\p"
+	.string "Now he lives thanks to the fame\n"
+	.string "that those 3 GYARADOS gave him.$"
 
 
 
@@ -213,27 +214,27 @@ LakeofRage_Fredo_Texto_4:
 	.string "MASTER, would have acted immediately.$"
 
 LakeofRage_Fredo_Texto_4.1:
-	.string "Así es, nuestras propias costumbres\n"
-	.string "nos traicionaron.$"
+	.string "That's right, our own traditions\n"
+	.string "betrayed us.$"
 
 LakeofRage_Fredo_Texto_5:
-.string "Ahora, tengo fe en vosotros.\p"
-	.string "Sé que no actuáis por altruismo,\n"
-	.string "pero tenéis principios.\p"
-	.string "Vuestro LÍDER estaba en los más\n"
-	.string "alto, cayó a la fosa más profunda\l"
-	.string "y logró subir de nuevo: sabe lo\l"
-	.string "que hay.$"
+.string "Now, I have faith in you.\p"
+	.string "I know you don't act for altruism,\n"
+	.string "but you have principles.\p"
+	.string "Our BOSS was at the top, fell into the\n"
+	.string "deepest pit and managed to come back\l"
+	.string "from hell.$"
 
 LakeofRage_Fredo_Texto_5.1:
-	.string "Además, con lo que planteó en la\n"
-	.string "reunión de TRIGAL, algo como lo\l"
-	.string "de LANCE hubiera sido imposible.$"
+	.string "Moreover, with the points treated at\n"
+	.string "the GOLDENROD meeting, LANCE would\l"
+	.string "would never have been able to do what\l"
+	.string "he did.$"
 
 LakeofRage_Fredo_Texto_6:
-.string "Creo que ya he andado bastante, es\n"
-	.string "hora de volver a CAOBA.\p"
-	.string "Disfruta del paseo, {PLAYER}.$"
+	.string "I think I've walked enough for now;\n"
+	.string "it's time to come back to MAHOGANY.\p"
+	.string "Enjoy the walk, {PLAYER}.$"
 
 
 
@@ -267,7 +268,7 @@ LakeofRage_Drenaje_Texto_1:
 
 LakeofRage_Drenaje_Texto_2:
 	.string "FIGHTING-TYPE POKÉMON often have\n"
-	.string "poor SPECIAL DEF. If you combine this\l"
+	.string "poor SP.DEFENSE. If you combine this\l"
 	.string "move with the ASSAULT VEST, your\l"
 	.string "POKÉMON will be quite the wall while\l"
 	.string "hitting hard and recovering health!$"

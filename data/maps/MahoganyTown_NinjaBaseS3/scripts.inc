@@ -10,7 +10,7 @@ end
 
 MahoganyTown_NinjaBaseS3_Text_1:
 	.string "It is said that PRYCE possesses a\n"
-	.string "unique form of ARTICUNO-its PRIMAL\l"
+	.string "unique form of ARTICUNO; its PRIMAL\l"
 	.string "form, I guess. I wonder if there are\l"
 	.string "equivalents for ZAPDOS and MOLTRES…$"
 
@@ -277,26 +277,24 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7:
 .string "It can't be!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8:
-.string "Así que sigues en pie.\n"
-	.string "Veo que no eres como los demás.\l"
-	.string "Eso que dicen de los ROCKET, que solo\l"
-	.string "sois fuertes en número, parece ser\l"
-	.string "mentira.$"
+	.string "So, you're still standing. I see you're\n"
+	.string "not like the other ROCKETS.\l"
+	.string "It's said that your strength lies only\l"
+	.string "in the group, may be false after all.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9:
-.string "Tal vez seas el mejor ENTRENADOR.\p"
-	.string "Pero no en esta situación.\p"
-	.string "Aquí juegas con nuestras reglas.$"
+.string "You can be the best TRAINER among us.\p"
+	.string "But that doesn't matter here.\p"
+	.string "You play with our rules here.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9.1:
-	.string "¡MACUTO!\p"
-	.string "¡Remátalo!$"
+	.string "MACUTO!\p"
+	.string "Finish him!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10:
-.string "Voy a aplastarte con toda mi\n"
-	.string "fuerza bruta.\p"
-	.string "¡Verás por qué me conocen como\n"
-	.string "el mayor matón de toda JOHTO!$"
+	.string "I'm going to crush you with all my sheer\n"
+	.string "force. You'll see why they call me the\l"
+	.string "biggest CUE BALL in all of JOHTO!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
 .string "You!\n"
@@ -392,55 +390,47 @@ emote_exclamation_mark
 walk_in_place_down
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\p"
-	.string "¿Estás ya en PUEBLO CAOBA?\p"
-	.string "Perfecto.\p"
+.string "GIOVANNI: {PLAYER}?\p"
+	.string "Are you in MAHOGANY TOWN?\p"
+	.string "Perfect.\p"
 	.string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "Bien, veo que te has adelantado,\n"
-	.string "iba a enviar a ATLAS y ANDRA a\l"
-	.string "recuperar la BASE CAOBA, pero\l"
-	.string "confío en que contigo sea\l"
-	.string "suficiente, espero que pueda estar\l"
-	.string "despejada y lista para trabajar\l"
-	.string "cuanto antes.$"
+	.string "Well, I was going to send ARCHER and\n"
+	.string "ANDRA to recover the MAHOGANY BASE,\l"
+	.string "but I trust in you; I hope it can be\l"
+	.string "cleared and ready to work as soon as\l"
+	.string "possible.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
-.string "¿Así que has derrotado al\n"
-	.string "GRAN MAESTRO de CIUDAD IRIS?\p"
-	.string "El mecanismo de evolución de\n"
-	.string "de su EEVEE-& es todo un misterio.\l"
-	.string "Puede transformarse en el tipo de\l"
-	.string "cada uno de los movimientos que\l"
-	.string "ejecute.\p"
-	.string "Debió ser un duro rival.\p"
-	.string "{PAUSE 15}…{PAUSE 15}\l"
-	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "¡¿HO-OH apareció?!\n"
-	.string "¿En la cima de TORRE CAMPANA?\p"
+	.string "So you have defeated the GREAT MASTER\n"
+	.string "of ECRUTEAK? The evolution mechanism\l"
+	.string "of his EEVEE-& is a mystery. It can\l"
+	.string "transform into the type of every single\l"
+	.string "move it executes. He must have been a\l"
+	.string "tough opponent.\p"
 	.string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "¿Un ENTRENADOR que solo usa\n"
-	.string "LEGENDARIOS MAYORES apareció y\l"
-	.string "lo capturó?\p"
-	.string "¿¡También tenía a LUGIA!?$"
+	.string "HO-OH appeared?!\n"
+	.string "At the top of BELL TOWER?!\p"
+	.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\p"
+	.string "A TRAINER who only uses MAJOR\n"
+	.string "LEGENDARIES cathed HO-HO?!{PAUSE 25}\p"
+	.string "He had LUGIA too!?$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
-.string "Esto rompe nuestros esquemas.\p"
-	.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "¿Dices que ya lo conoces del\n"
-	.string "ARCHI7, y allí ya se hizo\l"
-	.string "con los LEGENDARIOS de HOENN?\p"
-	.string "Debe de ser alguien muy peligroso,\n"
-	.string "y tal vez busque lo mismo que\l"
-	.string "nosotros. Haré redoblar la guardia\l"
-	.string "en RUINAS ALFA.$"
+.string "That changes the game.\p"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\n"
+	.string "Then{PAUSE 15}…{PAUSE 15} you already meet him at SEVII?\p"
+	.string "He must be someone very dangerous, and\n"
+	.string "maybe he's looking for the same thing\l"
+	.string "we are. I will redouble the guard at\l"
+	.string "RUINS OF ALPH.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
-.string "Estate atento, {PLAYER}.\p"
-	.string "Debemos actuar en consecuencia,\n"
-	.string "nos mantenemos en contacto.$"
+.string "Be careful, {PLAYER}.\p"
+	.string "We must act accordingly.\n"
+	.string "We'll be in touch again soon.$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja::
 applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
