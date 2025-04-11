@@ -145,7 +145,7 @@ $(MID_SUBDIR)/mus_end.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G102 -V036
 
 $(MID_SUBDIR)/mus_help.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310-V078
+	$(MID) $< $@ -E -R$(STD_REVERB) -G056 -V078
 
 $(MID_SUBDIR)/mus_level_up.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V090 -P5
@@ -619,7 +619,7 @@ $(MID_SUBDIR)/mus_mt_chimney.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G052 -V078
 
 $(MID_SUBDIR)/mus_follow_me.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V074
+	$(MID) $< $@ -E -R$(STD_REVERB) -G066 -V074
 
 $(MID_SUBDIR)/mus_vs_frontier_brain.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G115 -V090 -P1
@@ -652,7 +652,7 @@ $(MID_SUBDIR)/mus_bw_castillo2.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/mus_bw_route10.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V040
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V020
 
 $(MID_SUBDIR)/mus_encounter_mirto.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
@@ -841,40 +841,40 @@ $(MID_SUBDIR)/mus_gsc_route34.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G153 -V090
 	
 $(MID_SUBDIR)/mus_vs_mirto.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V040
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V060
 
 $(MID_SUBDIR)/mus_ns_castle_bridge.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_victory_plasma.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_vs_kyurem.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_ns_castle.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_vs_colress.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_vs_eusine.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_hooh_summoning.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_hooh_battle.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_hgss_route47.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V070
 	
 $(MID_SUBDIR)/mus_vs_devon.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V090
 
 $(MID_SUBDIR)/mus_victory_devon.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V090
 	
 $(MID_SUBDIR)/mus_sinjoh_ruins.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V090
@@ -883,10 +883,7 @@ $(MID_SUBDIR)/mus_tower.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V050
 
 $(MID_SUBDIR)/mus_abnormal_weather2.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
-
-$(MID_SUBDIR)/mus_zinnia.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080		
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080		
 	
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
