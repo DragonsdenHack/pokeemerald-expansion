@@ -194,8 +194,8 @@ RuinsOfAlphS3_Evento_Final_Texto_8:
 	.string "We've still got time!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_9:
-.string "GIOVANNI: ANDRA!\n"
-	.string "Your team isn't ready to deal\l"
+.string "GIOVANNI: ANDRA!\p"
+	.string "Your team isn't ready to deal\n"
 	.string "with a PRIMAL LUG…!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_10:
@@ -205,31 +205,29 @@ RuinsOfAlphS3_Evento_Final_Texto_11:
 .string "GIOVANNI: ¿L{PAUSE 25}…{PAUSE 25} lo ha logrado?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
-.string "ANDRA: Toda esa energía, esa\n"
-	.string "tensión en el ambiente, se ha…\p"
-	.string "Esfumado{PAUSE 5}…{PAUSE 5}$"
+	.string "ANDRA: All that energy and tension\n"
+	.string "in the air{PAUSE 25}…{PAUSE 25} It's all gone{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-.string "GIOVANNI: Entonces…\p"
-	.string "{PLAYER}, el FUERTE VÍNCULO,\n"
-	.string "¿han triunfado?\p"
-	.string "¿Quiere decir que las enseñanzas\n"
-	.string "de los sabios de JOHTO eran ciertas?\p"
-	.string "¿Un POKÉMON mortal puede alcanzar\n"
-	.string "la inmortalidad si estamos dispuestos\l"
-	.string "a acompañarle en el camino?\p"
-	.string "¿A creer en él?$"
+.string "GIOVANNI: So{PAUSE 25}…{PAUSE 25}\p"
+	.string "{PLAYER}, the DEEP BOND{PAUSE 15}…{PAUSE 15}\n"
+	.string "Just succeeded?\p"
+	.string "So the teachings of the sages of\n"
+	.string "JOHTO were true? Can a mortal POKÉMON\l"
+	.string "achieve immortality if we are willing\l"
+	.string "to stay on course along with it?\p"
+	.string "To believe in it?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13.1:
-	.string "¿Todos parten de puntos diferentes,\n"
-	.string "pero a la vez todos pueden llegar\l"
-	.string "a tocar el mismo cielo?$"
+	.string "We all start from different points,\n"
+	.string "but, at the same time, we are all\l"
+	.string "able to touch the same sky?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
 .string "{PAUSE 5}…{PAUSE 5}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_15:
-.string "Mucho nos queda aún por aprender{PAUSE 5}…{PAUSE 5}$"
+	.string "There is still so much to learn{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS3_Evento_Final_Move_1:
 walk_slow_right
@@ -364,51 +362,49 @@ walk_in_place_left
 step_end
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_1:
-.string "GIOVANNI: Esta es la última prueba,\n"
-	.string "{PLAYER}. Lo presiento.$"
+	.string "GIOVANNI: This is the final test,\n"
+	.string "{PLAYER}. I can feel it.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
-.string "Antes fue el HO-OH dorado,\n"
-	.string "ahora debe de venir{PAUSE 5}…{PAUSE 5}$"
+	.string "Before, it was the GOLDEN HO-OH.\p"
+	.string "Now, it must be…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
-.string "{PAUSE 5}…{PAUSE 5}$"
+.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
-.string "No podré continuar.$"
+.string "I won't be able to continue.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4.1:
-	.string "Si la leyenda es cierta, LUGIA-P\n"
-	.string "recupera todo el poder de las\l"
-	.string "profundidades del océano.\p"
-	.string "Mis POKÉMON TIERRA no podrán ante tal\n"
-	.string "portento, la etiqueta de LEGENDARIO\l"
-	.string "MAYOR se le queda corta.$"
+	.string "If the legend is true, PRIMAL LUGIA\n"
+	.string "regains all the power from the depths\l"
+	.string "of the ocean.\l"
+	.string "My GROUND TYPE POKÉMON won't stand a\l"
+	.string "chance against such a POKÉMON.\p"
+	.string "The title of 'MAJOR LEGENDARY' doesn't\n"
+	.string "even make justice to his massive level.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4.2:
-	.string "Si tan solo hubiéramos podido acelerar\n"
-	.string "un poco más las últimas versiones de\l"
-	.string "MEWTWO{PAUSE 5}…{PAUSE 5}$"
+	.string "If only we could have accelerated\n"
+	.string "a bit more the latest versions of\l"
+	.string "MEWTWO…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
-.string "Ahora depende de ti, {PLAYER}.\n"
-	.string "Los dragones huyen del HO-OH\l"
-	.string "dorado nada más verlo, los TIPO\l"
-	.string "TIERRA nada pueden hacer ante la\l"
-	.string "bestia de los mares.\p"
-	.string "Definitivamente, hemos subestimado\n"
-	.string "este lugar, pero tú eres lo más\l"
-	.string "cercano al límite alcanzable por\l"
-	.string "un ENTRENADOR que conozco.\p"
-	.string "Si tenemos opciones, pasan\n"
-	.string "por tu mano.$"
+	.string "Now it's up to you, {PLAYER}. DRAGONs\n"
+	.string "flee the GOLDEN HO-OH on sight, and\l"
+	.string "GROUND POKÉMON are impotent against\l"
+	.string "PRIMAL LUGIA. We'd absolutely\l"
+	.string "underestimated this place, but you're\l"
+	.string "the only one I know is closest to\l"
+	.string "push until the limit achievable by any\l"
+	.string "TRAINER.\p"
+	.string "JOHTO's fate will be up to you.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_6:
-.string "Es todo lo que puedo hacer por ti,\n"
-	.string "tu equipo POKÉMON vuelve a estar\l"
-	.string "en plenas facultades.\p"
-	.string "¡Demuéstrales a esos LEGENDARIOS\n"
-	.string "el poder del FUERTE VÍNCULO!$"
+	.string "That's all I can do for you now. Your\n"
+	.string "POKÉMON team is back in full strength.\l"
+	.string "Show those LEGENDARIES the power of\l"
+	.string "the DEEP BOND!$"
 
 RuinsOfAlphS3_Combate_Giovanni_Move_1:
 emote_exclamation_mark

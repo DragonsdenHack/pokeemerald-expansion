@@ -364,32 +364,33 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_12:
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_13:
 .string "No!\n"
-	.string "How has an imperceptible error occurred?!\l"
-	.string "Then once more!$"
+	.string "The gods belong to me!\l"
+	.string "How could you…?!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_14:
 .string "KYUREM!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
-.string "¿¡No es posible!?\p"
-	.string "Los PRIMIGENIOS, el mismísimo dios\n"
-	.string "POKÉMON, el DRAGÓN ORIGINAL…\p"
-	.string "¿Cómo tú…?$"
+.string "IMPOSSIBLE!!\p"
+	.string "The SUPER-ANCIENT trio PRIMALS!\n"
+	.string "GOD!!\p"
+	.string "The ORIGINAL DRAGON!!!\p"
+	.string "How you…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
-.string "????: Estúpido iluso.$"
+.string "????: Stupid fool.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16.1:
-	.string "¿De verdad crees que eso era\n"
-	.string "el DRAGÓN ORIGINAL?\p"
-	.string "Pretender volver a formar algo\n"
-	.string "perfecto juntando imperfecciones\l"
-	.string "como si fueran piezas de un puzzle.\l"
-	.string "Patético.$"
+	.string "Did you really though that was\n"
+	.string "the true ORIGINAL DRAGON?\p"
+    .string "Trying to reform perfection by\n"
+	.string "piecing some imperfections, as if\l"
+	.string "they were mere puzzle pieces.\p"
+	.string "Pathetic.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_17:
-.string "ZEUS: No entiendo.\p"
-	.string "¿¡Quién eres tú!?$"
+.string "ZEUS: That makes no sense.\p"
+	.string "Who are you!?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_18:
 .string "TAAAAAAAALL!$"
@@ -414,7 +415,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "closer to IT.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-	.string "(JONES collected all of ZEUS's POKÉMON.)$"
+	.string "-JONES took all of ZEUS's POKÉMON.-$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
 	.string "{PLAYER}, unlike that ZEUS, I have\n"
