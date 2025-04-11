@@ -11530,7 +11530,7 @@ Route30_Text_CazabichosPostBattle:
 Route31_Text_ChicoIntro:
 	.string "Now that I have the best non-legendary\n"
 	.string "bird in KANTO, I will finally be accepted\l"
-	.string "as a disciple of the great PEGASUS.$"
+	.string "as a disciple of the great FALKNER.$"
 
 
 Route31_Text_ChicoDefeated:
@@ -11538,7 +11538,7 @@ Route31_Text_ChicoDefeated:
 
 
 Route31_Text_ChicoPostBattle:
-	.string "PEGASUS is not only the best trainer in\n"
+	.string "FALKNER is not only the best trainer in\n"
 	.string "VIOLET CITY but is also regarded as the\l"
 	.string "greatest FLYING TYPE master in the\l"
 	.string "world. His son, named FALKNER, still has\l"
@@ -11649,13 +11649,13 @@ VioletGym_Text_ChicoPostBattle:
 	.string "My team isn't sufficient to beat the\n"
 	.string "top ones. I need even stronger birds,\l"
 	.string "but... I'll have to undertake a long\l"
-	.string "journey, just like PEGASUS did.$"
+	.string "journey, just like FALKNER did.$"
 
 
 VioletGym_Text_Chico2Intro:
 	.string "You're lucky to have arrived now; you'll\n"
 	.string "get to witness the extraordinary\l"
-	.string "collection of birds that PEGASUS has\l"
+	.string "collection of birds that FALKNER has\l"
 	.string "gathered over the course of his\l"
 	.string "journeys.$"
 
@@ -11665,7 +11665,7 @@ VioletGym_Text_Chico2Defeated:
 
 
 VioletGym_Text_Chico2PostBattle:
-	.string "One of PEGASUS's POKÉMON is even\n"
+	.string "One of FALKNER's POKÉMON is even\n"
 	.string "capable of absorbing electricity. Every\l"
 	.string "FLYING TYPE POKÉMON dream!$"
 
@@ -13312,7 +13312,7 @@ Route27_Text_OrnitologoDefeated:
 
 
 Route27_Text_OrnitologoPostBattle:
-	.string "PEGASUS gave me a STARLY a while back;\n"
+	.string "FALKNER gave me a STARLY a while back;\n"
 	.string "STARAPTOR has become my favorite bird.\l"
 	.string "It has much more strength and\l"
 	.string "aggressiveness than PIDGEOT!$"

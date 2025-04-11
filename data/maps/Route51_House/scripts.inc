@@ -379,11 +379,10 @@ release
 end
 
 Route51House_NPC3_Exorcista_Text_1:
-	.string "Considera un grano de arena apilado\n"
-	.string "sobre otros granos de arena, que\l"
-	.string "enseguida serán cubiertos por nuevos\l"
-	.string "granos de arena. Así ocurre en la vida,\l"
-	.string "unos eventos apilados sobre otros que\l"
-	.string "en breve serán cubiertos por eventos\l"
-	.string "nuevos.$"
+	.string "Consider a grain of sand piled on top of\n"
+	.string "other grains of sand, which will soon be\l"
+	.string "covered by new grains of sand.\p"
+	.string "That's life: some events piled on top of\n"
+	.string "others that will soon be covered by new\l"
+	.string "events.$"
 

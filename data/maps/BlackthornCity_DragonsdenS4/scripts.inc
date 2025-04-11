@@ -262,33 +262,32 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_13:
 	.string "utmost mortals like you can aspire to.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
-.string "M.DRAGÓN: Fuiste tú quién atrapó a\n"
-	.string "HO-OH a sangre fría, debería darte\l"
-	.string "vergüenza encerrar así algo tan\l"
-	.string "puro, aprovechando el gran combate\l"
-	.string "que el M.JADEN y {PLAYER} tuvieron.$"
+	.string "DRAGON M.: So it was you who coldly\n"
+	.string "captured HO-OH. You should be ashamed\l"
+	.string "to cage something so pure, taking\l"
+	.string "advantage of the great battle that the\l"
+	.string "ECRUTEAK MASTER and {PLAYER} had.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
-.string "ZEUS: Lo importante es que HO-OH\n"
-	.string "ahora me pertenece, también LUGIA.\p"
-	.string "¿Qué importa la forma?\p"
-	.string "Y ahora{PAUSE 15}…{PAUSE 15} Al fin{PAUSE 15}…{PAUSE 15}\p"
-	.string "KYUREM también{PAUSE 15}…{PAUSE 15}$"
+	.string "ZEUS: The important thing is that\n"
+	.string "HO-OH and LUGIA are both in my\l"
+	.string "possession.\p"
+	.string "Only the final result matters.\n"
+	.string "And now{PAUSE 15}…{PAUSE 15} At long last{PAUSE 15}…{PAUSE 15} KYUREM too{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
-.string "-ZEUS le quitó el KYUREM al\n"
-	.string "M.DRAGÓN-.$"
+	.string "-ZEUS took the KYUREM from\n"
+	.string "the DRAGON MASTER.-$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17:
-.string "M.DRAGÓN: ¡¿Q{PAUSE 15}…{PAUSE 15}Qué?!\n"
-	.string "¿¡Qúe vas a hacer con\l"
-	.string "ese POKÉMON!?$"
+	.string "DRAGON M.: What? {PAUSE 25}…{PAUSE 25} What are you\n"
+	.string "going to do with that POKÉMON?$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18:
-.string "ZEUS: No te hagas el tonto, anciano.\p"
-	.string "Sabes todo sobre el TIPO DRAGÓN, y\n"
-	.string "seguro que conoces también la\l"
-	.string "leyenda del DRAGÓN ORIGINAL.$"
+	.string "ZEUS: Don't be so coy, old man. You know\n"
+	.string "of every matter regarding DRAGON TYPE.\l"
+	.string "I'm certain you're aware of the\l"
+	.string "legend of the ORIGINAL DRAGON.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
 	.string "DRAGON M.: It's not a legend-that\n"
@@ -314,9 +313,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
 	.string "case someone like you got this far.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22:
-.string "ZEUS: {PAUSE 20}…{PAUSE 20}\n"
-	.string "{PAUSE 20}…{PAUSE 20}\l"
-	.string "RESHIRAM and ZEKROM\l"
+.string "ZEUS: {PAUSE 20}…{PAUSE 20} {PAUSE 20}…{PAUSE 20}\p"
+	.string "RESHIRAM and ZEKROM\n"
 	.string "also belong to me.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23:

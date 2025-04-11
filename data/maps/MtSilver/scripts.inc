@@ -116,7 +116,7 @@ MtSilver_Combate_Andra_Texto_6:
 	.string "imagined.$"
 
 MtSilver_Combate_Andra_Texto_7:
-	.string "RED is-and will keep being-an\n"
+	.string "RED is, and will keep being, an\n"
 	.string "extraordinary TRAINER, but he's limited\l"
 	.string "by his reality. Technically, he's already\l"
 	.string "achieved perfection with what he has.$"
@@ -146,11 +146,11 @@ MtSilver_Combate_Andra_Texto_12:
 	.string "Even with everything I'd thrown at you\n"
 	.string "to ramp up the difficulty, you'd still\l"
 	.string "trounced me again. But still, I'll never\l"
-	.string "stop pushing-growing stronger and more\l"
+	.string "stop pushing, growing stronger and more\l"
 	.string "experienced with each challenge. After\l"
 	.string "all, we're the ELITE of TEAM ROCKET.\l"
 	.string "Can't get bogged in regrets and\l"
-	.string "what-ifs; just gotta look ahead and\l"
+	.string "-what ifs-; just gotta look ahead and\l"
 	.string "keep trucking on.$"
 
 MtSilver_Combate_Andra_Texto_13:

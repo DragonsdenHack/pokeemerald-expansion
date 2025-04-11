@@ -29,9 +29,12 @@ end
 
 NewBarkTown_Text_2:
 	.string "And in less than three years,\n"
-	.string "everything's ready to start THE TRUMAN\l"
-	.string "SHOW! Oops! Sorry! I shouldn't have said\l"
-	.string "that!$"
+	.string "everything's ready to start\l"
+	.string "THE TRUMAN SHOW!\p"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\p"
+	.string "Oops!\p"
+	.string "Sorry!\p"
+	.string "I shouldn't have said that!$"
 
 NewBarkTown3::
 end
@@ -122,18 +125,18 @@ NewBarkTown_Encuentro_Elm_Texto_2:
 	.string "few who already lived there…$"
 
 NewBarkTown_Encuentro_Elm_Texto_3:
-	.string "You're unlike the others, aren't you? I\n"
-	.string "assume you're not venturing to ROUTE\l"
-	.string "26 or 27. Instead, you are going to MT.\l"
-	.string "SILVER, right?$"
+	.string "You're not like the others, aren't you?\n"
+	.string "I assume you're not here just to explore\l"
+	.string "these ROUTEs.\p"
+	.string "You are going to MT. SILVER, right?$"
 
 NewBarkTown_Encuentro_Elm_Texto_4:
-	.string "I must admit, you've surprised me. Five\n"
-	.string "JOHTO LEADERS already… When GIOVANNI\l"
-	.string "talked to me about you, I thought he\l"
-	.string "was exaggerating. Now, I see there's no\l"
+	.string "I must admit{PAUSE 25}…{PAUSE 25} you've surprised me.\n"
+	.string "Five JOHTO LEADERS{PAUSE 15}…{PAUSE 15} When GIOVANNI\l"
+	.string "talked about you, I thought he was\l"
+	.string "exaggerating. Now, I see there's no\l"
 	.string "one better than you to travel through\l"
-	.string "JOHTO and face its past LEADERS before\l"
+	.string "JOHTO and face its past LEADERS, before\l"
 	.string "their legacies are lost forever.$"
 
 NewBarkTown_Encuentro_Elm_Texto_5:
@@ -144,8 +147,8 @@ NewBarkTown_Encuentro_Elm_Texto_5:
 	.string "now, your LEADER is hesitant about\l"
 	.string "pushing this research forward, but OAK,\l"
 	.string "who is also very interested in it, and I,\l"
-	.string "will eventually convince him, you'll see.\l"
-	.string "It'll be quite exciting to see\l"
+	.string "will eventually convince him, you'll see.\p"
+	.string "It'll be quite exciting to see\n"
 	.string "everything in action if it does come to\l"
 	.string "fruition, like a game, but in real life.$"
 
@@ -221,7 +224,7 @@ release
 end
 
 NewBarkTown_Barrera_Texto_1:
-.string "La puerta está cerrada.$"
+.string "-The door is locked.-$"
 
 NewBarkTown_Barrera_Move_1:
 walk_in_place_up
@@ -238,7 +241,7 @@ release
 end
 
 NewBarkTown_Cartel_Vacio_Texto_1:
-.string "-No hay nada escrito aquí.-$"
+.string "- Nothing written here -$"
 
 NewBarkTown_Cartel::
 lock
@@ -249,9 +252,9 @@ release
 end
 
 NewBarkTown_Cartel_Texto_1:
-	.string "PUEBLO PRIMAVERA\p"
-	.string "El pueblo donde soplan\n"
-	.string "vientos de un nuevo amanecer.$"
+	.string "NEW BARK TOWN\p"
+	.string "The Town Where the Winds of a\n"
+	.string "New Beginning Blow.$"
 
 NewBarkTown_NPC_Primer::
 lock
@@ -287,7 +290,7 @@ release
 end
 
 NewBarkTown_Cartel_Oro_Texto_1:
-.string "Casa de ORO.$"
+.string "GOLD'S HOUSE.$"
 
 NewBarkTown_Cartel_Elm::
 lock
@@ -298,7 +301,7 @@ release
 end
 
 NewBarkTown_Cartel_Elm_Texto_1:
-.string "Casa de ELM.$"
+.string "ELM'S HOUSE.$"
 
 NewBarkTown_Cartel_Laboratorio::
 lock
@@ -309,5 +312,5 @@ release
 end
 
 NewBarkTown_Cartel_Laboratorio_Texto_1:
-.string "LABORATORIO del PROF.ELM.$"
+.string "ELM'S LABORATORY.$"
 

@@ -1067,16 +1067,16 @@ RejectedEVs:
 	end
 
 EVsSetSuccessfully:
-	.string "Los IVs de su POKÉMON han sido\n"
-	.string "elevados a 31 con éxito.\p"
-	.string "Vuelva cuando guste, señor.$"
+	.string "IVs changed successfully.\n"
+	.string "Now your POKÉMON are perfect.\p"
+	.string "Come back anytime, SIR.$"
 
 RejectEVs:
-	.string "Lo siento, no puedo modificar\n"
-	.string "los genes de un HUEVO.$"
+	.string "Sorry, SIR.\n"
+	.string "I can't manipulate an EGG.$"
 
 ComeBackAnytimeEVs:
-	.string "Vuelva cuando guste señor.$"
+	.string "Come back anytime, SIR.$"
 
 
 SetIVs::
@@ -1132,16 +1132,16 @@ RejectedIVs:
 	end
 
 IVsSetSuccessfully:
-	.string "Los IVs de su POKÉMON han sido\n"
-	.string "elevados a 31 con éxito.\p"
-	.string "Vuelva cuando guste, señor.$"
+	.string "IVs changed successfully.\n"
+	.string "Now your POKÉMON are perfect.\p"
+	.string "Come back anytime, SIR.$"
 
 RejectIVs:
-	.string "Lo siento, no puedo modificar\n"
-	.string "los genes de un HUEVO.$"
+	.string "Sorry, SIR.\n"
+	.string "I can't manipulate an EGG.$"
 
 ComeBackAnytimeIvs:
-	.string "Vuelva cuando guste señor.$"
+	.string "Come back anytime, SIR.$"
 
 CheckIvs::
 msgbox CheckIvs_Texto_1, MSGBOX_DEFAULT
@@ -1176,31 +1176,31 @@ SetIVs_Proceed2:
 	end
 
 CheckIvs_Texto_2:
-	.string "¿Quiere chequear algún POKÉMON?$"
+	.string "Do you want to chek any POKÉMON?$"
 
 CheckIvs_Texto_1:
-	.string "Aquí le puedo informar de los IVs que\n"
-	.string "cada POKÉMON de su equipo tiene.$"
+	.string "Here, you can check the IVs\n"
+	.string "from your team.$"
 
 Text_IVChecker_1:
-	.string "Veamos...$"
+	.string "Let's see…$"
 
 Text_IVChecker_2:
-	.string "IV de PS: {STR_VAR_1}.\p"
-	.string "IV de ATAQUE: {STR_VAR_2}.\p"
-	.string "IV de DEFENSA: {STR_VAR_3}.$"
+	.string "IV from HP: {STR_VAR_1}.\p"
+	.string "IV from ATTACK: {STR_VAR_2}.\p"
+	.string "IV from DEFENSE: {STR_VAR_3}.$"
 
 Text_IVChecker_3:
-	.string "IV de AT.ESP: {STR_VAR_1}.\p"
-	.string "IV de DEF.ESP: {STR_VAR_2}.\p"
-	.string "IV de VELOCIDAD: {STR_VAR_3}.$"
+	.string "IV from SP.ATK: {STR_VAR_1}.\p"
+	.string "IV from SP.DEF: {STR_VAR_2}.\p"
+	.string "IV from SPEED: {STR_VAR_3}.$"
 
 CheckEvs_Texto_2:
-	.string "¿Quiere chequear algún POKÉMON?$"
+	.string "Do you want to chek any POKÉMON?$"
 
 CheckEvs_Texto_1:
-	.string "Aquí le puedo informar de los EVs que\n"
-	.string "cada POKÉMON de su equipo tiene.$"
+	.string "Here, you can check the EVs\n"
+	.string "from your team.$"
 
 
 CheckEvs::
@@ -1236,17 +1236,17 @@ SetEVs_Proceed2:
 	end
 
 Text_EVChecker_1:
-	.string "Veamos...$"
+	.string "Let's see…$"
 
 Text_EVChecker_2:
-	.string "Sus EVs en PS son: {STR_VAR_1}.\p"
-	.string "Sus EVs en ATAQUE son: {STR_VAR_2}.\p"
-	.string "Sus EVs en DEFENSA son: {STR_VAR_3}.$"
+	.string "EVs from HP: {STR_VAR_1}.\p"
+	.string "EVs from ATTACK: {STR_VAR_2}.\p"
+	.string "EVs from DEFENSE: {STR_VAR_3}.$"
 
 Text_EVChecker_3:
-	.string "Sus EVs en AT.ESP son: {STR_VAR_1}.\p"
-	.string "Sus EVs en DEF.ESP son: {STR_VAR_2}.\p"
-	.string "Sus EVs en VELOCIDAD son: {STR_VAR_3}.$"
+	.string "EVs from SP.ATK: {STR_VAR_1}.\p"
+	.string "EVs from SP.DEF: {STR_VAR_2}.\p"
+	.string "EVs from SPEED: {STR_VAR_3}.$"
 
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"

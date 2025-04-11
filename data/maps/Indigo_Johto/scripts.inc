@@ -24,8 +24,8 @@ end
 
 IndigoJohto_Text_2:
 	.string "KANTO and JOHTO collaborating for a\n"
-	.string "single POKÉMON LEAGUE-can you imagine\l"
-	.string "it?$"
+	.string "single POKÉMON LEAGUE.\l"
+	.string "Can you imagine it?$"
 
 
 

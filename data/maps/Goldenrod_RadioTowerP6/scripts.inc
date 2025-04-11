@@ -29,7 +29,7 @@ release
 end
 
 Goldenrod_RadioTowerP8_Cartel_Texto_1:
-	.string "F6 - OPTIMIZATION OF PERFORMANCE OF\n"
+	.string "F7 - OPTIMIZATION OF PERFORMANCE OF\n"
 	.string "RADIO WAVES$"
 
 Goldenrod_RadioTowerP9_Cartel::

@@ -81,5 +81,5 @@ AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 	.string	"pero la puerta se ha abierto.$"
 
 AbandonedShip_Text_TheDoorIsOpen:
-	.string	"La puerta está abierta.$"
+.string "-The door is locked.-$"
 

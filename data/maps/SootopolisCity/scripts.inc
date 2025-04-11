@@ -1373,7 +1373,7 @@ SootopolisCity_Text_CitySign:
 	.string	"en los brazos de la historia.”$"
 
 SootopolisCity_Text_DoorIsClosed:
-	.string	"La puerta está cerrada.$"
+   .string "-The door is locked.-$"
 
 SootopolisCity_Text_PhysicallyFitLivingHere:
 	.string	"Bucear en el mar. Subir y bajar\n"

@@ -259,11 +259,10 @@ release
 end
 
 Llave_Despacho_Hoenn_Atajo_Texto_1:
-	.string "Se necesita una llave concreta\n"
-	.string "para abrir esta puerta.$"
+	.string "-A special key is required-$"
 
 Llave_Despacho_Hoenn_Atajo_Text_YesNo:
-	.string "¿Quieres abrir esta puerta?$"
+	.string "Want to open this door?$"
 
 Llave_Despacho_Hoenn_Despues_Atajo::
 goto Llave_Despacho_Hoenn_Atajo_Abierto

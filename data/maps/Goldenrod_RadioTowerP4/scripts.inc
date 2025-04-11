@@ -687,7 +687,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
 	.string "we've put in and the skills we have to\l"
 	.string "show for it took us right to the top. I'd\l"
 	.string "say we can finally leverage our current\l"
-	.string "positions to solve the mysteries of thi-$"
+	.string "positions to solve the mysteries of th…$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
 	.string "You're CHIEF ADMIN. {PLAYER}, and\n"

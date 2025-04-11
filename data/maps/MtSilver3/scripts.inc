@@ -99,7 +99,7 @@ MtSilver3_Combate_Rojo_Texto_1:
 .string "RED: {PAUSE 25}…{PAUSE 25}$"
 
 MtSilver3_Combate_Rojo_Texto_2:
-.string "¡…!$"
+.string "…!$"
 
 MtSilver3_Combate_Rojo_Texto_3:
 .string "????: {PLAYER}? Am I wrong?\n"
@@ -131,8 +131,8 @@ MtSilver3_Combate_Rojo_Texto_7:
 MtSilver3_Combate_Rojo_Texto_8:
 	.string "It was a historic act, no doubt, but the\n"
 	.string "real question is: did you do it for the\l"
-	.string "benefit of KANTO-or to swap one\l"
-	.string "dictatorship for another?$"
+	.string "benefit of KANTO?\p"
+	.string "Or to swap one dictatorship for another?$"
 
 MtSilver3_Combate_Rojo_Texto_9:
 	.string "Regardless, it's evident that you\n"

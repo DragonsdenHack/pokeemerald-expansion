@@ -9977,7 +9977,7 @@ const struct Item gItems[] =
 
     [ITEM_REINS_OF_UNITY] = // Todo
     {
-        .name = _("Riendas unión"),
+        .name = _("Reins of Unit"),
         .itemId = ITEM_REINS_OF_UNITY,
         .price = 0,
 		.importance = 1,

@@ -46,9 +46,11 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_4:
-	.string "Si pones un tizón apagado junto al que\n"
-	.string "está ardiendo, o aquel apagará a este, o\l"
-	.string "este hará que aquel prenda.$"
+	.string "If you put an extinguished blight next\n"
+	.string "to a burning one, the first one will\l"
+	.string "extinguish the second one, or the\l"
+	.string "second one will cause the first one to\l"
+	.string "ignite.$"
 
 
 

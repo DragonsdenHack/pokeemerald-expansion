@@ -116,24 +116,26 @@ RocketHideoutJohtoP2Documento_Text_100:
 RocketHideoutJohtoP2Documento_Text_100.1:
 	.string "Dear {PLAYER}, we haven't been idle\n"
 	.string "either. Our top scientists within the\l"
-	.string "DEEP BASE have at long last created the\l"
-	.string "POKÉMON STONE-an item that can evolve a\l"
-	.string "POKÉMON past its natural limit. In\l"
-	.string "short, we can recreate any experiment\l"
+	.string "DEEP BASE have been working for months\l"
+	.string "in the -ULTIMATE STONE- an item that\l"
+	.string "could allow certain POKÉMON to evolve\l"
+	.string "one last time.\p"
+	.string "Yes, now we can recreate any experiment\n"
 	.string "or prototype developed at our hands or\l"
-	.string "those of our former foes. The creation\l"
+	.string "those of our past enemies. The creation\l"
 	.string "of a single stone, however, comes at an\l"
 	.string "immense economic cost. That's why only\l"
 	.string "the three ADMINs of JOHTO, HOENN, and\l"
-	.string "the SEVII ISLANDS have been given one\l"
-	.string "unit each. Compatible POKÉMON will gain\l"
-	.string "100 BASE STATs, much like MEGA\l"
+	.string "the SEVII ISLANDS will have one single\l"
+	.string "unit, for the moment.\p"
+	.string "Compatible POKÉMON will receive a +100\n"
+	.string "in the total amount of STATs; as the MEGA\l"
 	.string "EVOLUTION, but without the drawback of\l"
-	.string "having no item. Thanks to the\l"
-	.string "collaboration of BILL, BLAINE, OAK, and\l"
-	.string "ELM, we have a wide variety of POKÉMON\l"
-	.string "that will respond to the STONE. They are\l"
-	.string "as follows:$"
+	.string "having no item.\l"
+	.string "Thanks to BILL, BLAINE, OAK, and ELM,\l"
+	.string "we have a wide variety of POKÉMON\l"
+	.string "that can react to the - ROCKET STONE -.\p"
+	.string "Are the following ones:$"
 
 RocketHideoutJohtoP2Documento_Text_101:
 .string "- ELECTRODE\n"
@@ -155,9 +157,9 @@ msgbox RocketHideoutJohtoP2Documento_Text_102, MSGBOX_SIGN
 end
 
 RocketHideoutJohtoP2Documento_Text_102:
-	.string "-This place belongs to the TRAINER\n"
-	.string "where the old and the new have come\l"
-	.string "together-$"
+	.string "This place belongs to the TRAINER in\n"
+	.string "which the old and the new has become a\l"
+	.string "single thing.$"
 
 RocketHideoutJohtoP2_Obtencion_Deoxys::
 lock
@@ -229,7 +231,7 @@ RocketHideoutJohtoP2_Obtencion_Regis_Texto_2:
 	.string "chambers housing the so-called REGIs\l"
 	.string "and cracked the puzzles hiding them.\l"
 	.string "Then our scientists managed to clone\l"
-	.string "their genetic material-just like the\l"
+	.string "their genetic material, just like the\l"
 	.string "LEGENDARIES of KANTO and JOHTO. Here\l"
 	.string "are three of the first successful\l"
 	.string "replicas. If anyone can maximize their\l"
@@ -353,7 +355,7 @@ release
 end
 
 Ascenso_Rocket_Rangos_Texto_1:
-.string "¿Qué indumentaria quieres llevar?$"
+.string "What rank do you want to wear?$"
 
 EventScript_Recluta::
 delay 10
@@ -458,7 +460,7 @@ release
 end
 
 Ascenso_Rocket_Rangos_Cartel_Texto_1:
-.string "VESTIDOR\p"
-	.string "Interactúa con el vestidor de\n"
-	.string "arriba para cambiar tu aspecto.$"
+.string "DRESSING ROOM\p"
+	.string "Interact with the dressing room\n"
+	.string "above to change your look.$"
 

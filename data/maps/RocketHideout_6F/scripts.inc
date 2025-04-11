@@ -2482,7 +2482,7 @@ release
 end
 
 SeteoIvs_Texto_4:
-	.string "Escoga al POKÉMON que quiere potenciar.$"
+	.string "Which POKÉMON do you want to improve?$"
 
 SeteoIvs_No_Texto_1:
 	.string "As you wish, CHIEF ADMIN.$"

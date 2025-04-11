@@ -8,8 +8,8 @@ release
 end
 
 Goldenrod_RadioTowerP8_NPC2_Texto_1:
-	.string "People here dress casually across the\n"
-	.string "week, but go formal on Sunday.\p"
+	.string "People used to dress casually across\n"
+	.string "the week, but went formal on Sunday.\p"
 	.string "Today though, it's vice versa.$"
 
 Goldenrod_RadioTowerP8_NPC3::

@@ -285,7 +285,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_4:
 	.string "its essence!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_5:
-	.string "Make no mistake-the gods have\n"
+	.string "Make no mistake… the gods have\n"
 	.string "witnessed this battle.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_6:
@@ -363,30 +363,27 @@ Ecruteak_TinTowerRoof_Zeus_Texto_18:
 	.string "rotting in BELL TOWER.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_19:
-.string "Solo he venido a recuperar lo que\n"
-	.string "por derecho propio me pertenece.\p"
-	.string "¿Crees que te necesito a ti, o\n"
-	.string "a {PLAYER}, para lograrlo?\p"
-	.string "¿De verdad crees que necesito que\n"
-	.string "vuestros equipos estén mermados?\p"
-	.string "Podría aplastaros a los 2 juntos\n"
-	.string "y a vuestros POKÉMON en plenitud\l"
-	.string "sin pestañear.\p"
-	.string "¿Quieres una pequeña prueba?\p"
-	.string "La tendrás.$"
+	.string "I've only come to take back what is\n"
+	.string "rightfully mine. Do you think I need you,\n"
+	.string "or {PLAYER}, to do that? Do you really\l"
+	.string "think I need to nerf your teams to\l"
+	.string "defeat both of you? I could crush you\l"
+	.string "two, with your teams at his prime\l"
+	.string "without batting an eye.\p"
+	.string "You want a little proof?\p"
+	.string "You'll get it.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_20:
-.string "Se acabaron los juegos, {PLAYER}.\n"
-	.string "Con tus acciones, me has dejado\l"
-	.string "claro que te entrometes en mi\l"
-	.string "propósito. No me dejas otra opción\l"
-	.string "que obligarme a usar el 80% de mi\l"
-	.string "poder.\p"
-	.string "Nadie te salvará, los dioses de\n"
-	.string "los que este anciano habla{PAUSE 15}…{PAUSE 15}$"
+	.string "Game over, {PLAYER}. By your actions,\n"
+	.string "you have made it clear to me that you\l"
+	.string "are meddling with my purpose. You leave\l"
+	.string "me no choice but to force me to use 80%\l"
+	.string "of my power.\p"
+	.string "No one will save you, the gods about\n"
+	.string "this old man refers to{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_20.1:
-	.string "¡¡Yo tengo a esos dioses!!$"
+	.string "Those gods are mine!!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_21:
 .string "How is this possible?$"

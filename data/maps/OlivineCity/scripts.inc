@@ -152,7 +152,7 @@ release
 end
 
 OlivineCity_Norman_Bloqueo_Texto_1:
-.string "-La puerta está cerrada.-$"
+.string "-The door is locked.-$"
 
 OlivineCity_Norman_Bloqueo_Move_1:
 walk_in_place_up

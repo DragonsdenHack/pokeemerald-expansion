@@ -57,8 +57,8 @@ Ecruteak_TinTowerp2_Text_4:
 	.string "but it's also a great source of tunnel\l"
 	.string "vision and ultimately anxiety. Yet it's\l"
 	.string "still a privilege and another sign we\l"
-	.string "still live-and that we're fighting for\l"
-	.string "the things that matter to us.$"
+	.string "still alive and fighting for these\l"
+	.string "things that really matter.$"
 
 
 

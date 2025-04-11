@@ -362,7 +362,7 @@ release
 end
 
 PalletTown_Puerta_Cerrada_Texto_1:
-	.string "La puerta está cerrada.$"
+.string "-The door is locked.-$"
 
 PalletTown_Puerta_Cerrada_Move_1:
 walk_in_place_up

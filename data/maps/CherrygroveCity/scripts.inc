@@ -398,28 +398,28 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_7:
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_8:
 	.string "Some take that difference as proof of\n"
-	.string "the genetic limits between species-that\l"
-	.string "a normal POKÉMON will never match the\l"
-	.string "OLYMPUS of the LEGENDARIES. But I\l"
-	.string "think it's just a coincidence.$"
+	.string "the genetic limits between species,\l"
+	.string "that a normal POKÉMON will never match\l"
+	.string "the OLYMPUS of the LEGENDARIES.\l"
+	.string "But I think it's just a coincidence.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
 	.string "HORACE has taken care of his PIDGEOT\n"
 	.string "since he can remember. From childhood\l"
 	.string "nursing this once-frail PIDGEY, he kept\l"
-	.string "his belief in it-and now stands the same,\l"
+	.string "his belief in it, and now stands the one,\l"
 	.string "mighty PIDGEOT before you. None of it's\l"
-	.string "invisible, {PLAYER}. It carries\l"
-	.string "through in battle.$"
+	.string "invisible, {PLAYER}.\l"
+	.string "It carries through in battle.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_10:
-.string "PIDGEOT: ¡Bi bibii!$"
+.string "PIDGEOT: Bi bibii!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_11:
 	.string "HORACE's PIDGEOT can handle itself\n"
 	.string "against any well-trained LEGENDARY.\l"
-	.string "You saw it for yourself-it's combined the\l"
-	.string "best offensive and defensive\l"
+	.string "You saw it for yourself; has combined\l"
+	.string "the best offensive and defensive\l"
 	.string "attributes a PIDGEOT could have.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_12:
@@ -525,8 +525,7 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1:
-.string "{PAUSE 15}…{PAUSE 15}\n"
-	.string "{PAUSE 15}…{PAUSE 15}$"
+	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_2:
 	.string "It's said that many birdkeepers in\n"
@@ -549,8 +548,8 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_5:
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_6:
 	.string "That's what I expected. My birds are\n"
-	.string "ready to fly. I won't make it easy for\l"
-	.string "you!$"
+	.string "ready to fly.\p"
+	.string "I won't make it easy for you!$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_7:
 .string "My PIDGEOT's impetus faded…$"
@@ -561,11 +560,11 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_8:
 	.string "you this.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_9:
-	.string "Few know of PIDGEOT's real potential,\n"
+	.string "Few know about PIDGEOT's real potential,\n"
 	.string "and fewer yet have the necessary item\l"
-	.string "to achieve it-the PIDGEOTITE. Only\l"
-	.string "FALKNER and I have one in the entire\l"
-	.string "region.$"
+	.string "to achieve it: the PIDGEOTITE.\p"
+	.string "Only FALKNER and I have one in\n"
+	.string "the entire region.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_10:
 	.string "It's okay. I'll be training here if you\n"
