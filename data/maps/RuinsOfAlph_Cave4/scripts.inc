@@ -263,18 +263,19 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_14:
 RuinsOfAlph_S4_Entrada_Unowns_Texto_15:
 	.string "GIOVANNI: We won't miss the chance to\n"
 	.string "analyze the power of perhaps the\l"
-	.string "greatest POKÉMON of all time. ESSENCE\l"
-	.string "POKÉMON? ORIGINAL DRAGON? Maybe\l"
-	.string "they're different names for the same\l"
-	.string "thing. Either way, we'll find out, and\l"
-	.string "with the information gathered here, our\l"
-	.string "scientists will be much closer to\l"
-	.string "creating the strongest POKÉMON\l"
+	.string "greatest POKÉMON of all time.\p"
+	.string "ESSENCE POKÉMON?\p"
+	.string "ORIGINAL DRAGON?\p"
+	.string "Different names for the same thing?\p"
+	.string "Either way, we'll find out, and\n"
+	.string "with the information gathered here,\l"
+	.string "our scientists will be much closer\l"
+	.string "to creating the strongest POKÉMON\l"
 	.string "possible.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_16:
-	.string "ELDER.M: Don't be foolish, GIOVANNI!\n"
-	.string "That POKÉMON is beyond any and all of\l"
+	.string "ELDER.M: Don't be foolish, GIOVANNI!\p"
+	.string "That POKÉMON is beyond any and all of\n"
 	.string "your estimations! The priority should\l"
 	.string "be to prevent ZEUS from creating it.$"
 
@@ -296,9 +297,9 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
 	.string "ANDRA: It's the eternal debate, isn't\n"
 	.string "it? That's why I decided not to train\l"
-	.string "LEGENDARIES. I'm with GIOVANNI-no\l"
-	.string "ORIGINAL DRAGON is going to tell me how\l"
-	.string "far I can or can't go.$"
+	.string "LEGENDARIES. I'm with GIOVANNI; no\l"
+	.string "ORIGINAL DRAGON is going to tell me\l"
+	.string "how far I can or can't go.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_21:
 	.string "No matter what we find behind those\n"
