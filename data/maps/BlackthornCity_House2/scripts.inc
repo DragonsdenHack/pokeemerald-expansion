@@ -9,16 +9,14 @@ release
 end
 
 BlackthornCity_House2_Text_1:
-.string "Creo que nuestro GRAN MAESTRO no\n"
-.string "está del todo contento con su\l"
-.string "nieta, DÉBORA, y razón no le\l"
-.string "falta. Al igual que acabó\l"
-.string "demostrando LANCE, no representa\l"
-.string "para nada los valores que nuestro\l"
-.string "GRAN MAESTRO trató de\l"
-.string "transmitirles. El poder del TIPO\l"
-.string "DRAGÓN acabó corrompiendo a LANCE,\l"
-.string "DÉBORA va por el mismo camino.$"
+	.string "I believe that our GREAT MASTER is not\n"
+	.string "entirely happy with his granddaughter,\l"
+	.string "CLAIR, and he is right. Just as LANCE\l"
+	.string "ended up proving, she doesn't represent\l"
+	.string "the values that our GREAT MASTER tried\l"
+	.string "to transmit to them. The power of the\l"
+	.string "DRAGON TYPE ended up corrupting LANCE,\l"
+	.string "CLAIR is going down the same path.$"
 
 
 
@@ -30,11 +28,10 @@ release
 end
 
 BlackthornCity_House2_Text_2:
-.string "Muchos creen que criar dragones es\n"
-.string "súper guay, por su potencial de\l"
-.string "volverse tan fuertes, pero\l"
-.string "necesitas mucha paciencia y\l"
-.string "responsabilidad para de verdad\l"
-.string "sacar lo mejor de ellos. Por eso\l"
-.string "hay tan pocos con un DRAGONITE en\l"
-.string "su equipo.$"
+	.string "Many people think that breeding\n"
+	.string "dragons is super cool, because of their\l"
+	.string "potential to become so strong, but you\l"
+	.string "need a lot of patience and\l"
+	.string "responsibility to really get the best\l"
+	.string "out of them. That's why there are so few\l"
+	.string "with a DRAGONITE in their team.$"

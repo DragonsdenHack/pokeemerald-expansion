@@ -306,7 +306,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
 	.string "DRAGON M.: The ORIGINAL DRAGON\n"
 	.string "represents the point of\l"
-	.string "balance-perfection. You will never be\l"
+	.string "balance, perfection. You will never be\l"
 	.string "able to summon it; you need the other\l"
 	.string "two DRAGONs. KYUREM is just the empty\l"
 	.string "shell I was once assigned to protect in\l"
@@ -337,18 +337,18 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25:
 	.string "longer apply to it.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_26:
-	.string "DRAGON M.: This… This… is\n"
-	.string "impossible-that fool doesn't know what\l"
-	.string "he's about to awaken.$"
+	.string "DRAGON M.: This{PAUSE 20}…{PAUSE 20} This{PAUSE 20}…{PAUSE 20} is\n"
+	.string "impossible! That fool doesn't know what\l"
+	.string "he's about to awaken!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_27:
-	.string "{PLAYER}! The RUINS OF ALPH! He\n"
-	.string "mentioned LUGIA and HO-OH; he knew\l"
+	.string "{PLAYER}! The RUINS OF ALPH!\p"
+	.string "He mentioned LUGIA and HO-OH; he knew\n"
 	.string "everything from the beginning. He knows\l"
 	.string "he needed those two LEGENDARIES to\l"
-	.string "enter deep into the RUINS OF ALPH. It's\l"
-	.string "the only place where he can unite the\l"
-	.string "three DRAGONs.$"
+	.string "enter deep into the RUINS OF ALPH.\l"
+	.string "It's the only place where he can unite\l"
+	.string "the three DRAGONs.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_28:
 	.string "There's no time, {PLAYER}. We must\n"
