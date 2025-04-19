@@ -111,21 +111,20 @@ release
 end
 
 RocketHideoutJohto_Text_8:
-.string "PS de 125 de BASE…\n"
-.string "ATAQUE FÍSICO de 175…\l"
-.string "DEFENSA FÍSICA de 175…\l"
-.string "Una media de 158,333 de BASE\l"
-.string "entre los 3 primeros STATS…\p"
+.string "BASE 125 HP…\p"
+.string "BASE 175 ATTACK…\p"
+.string "BASE 175 DEFENSE…\p"
+.string "BASE 158,333 in these\n"
+.string "three STATs overall…\p"
 .string "…\n"
 .string "…\p"
-.string "No, no me estoy inventando a este\n"
-.string "POKÉMON, estoy hablando del\l"
-.string "RHYPERIOR-& de nuestro LÍDER\l"
-.string "GIOVANNI, me cuesta creer que\l"
-.string "exista otro POKÉMON de un poder\l"
-.string "físico similar.\p"
-.string "¡Ni un LEGENDARIO como\n"
-.string "GROUDON se le acerca!$"
+.string "No, I'm not dreaming, I'm talking about\n"
+.string "the RHYPERIOR-& of our BOSS. I find it\l"
+.string "hard to believe that could exist\l"
+.string "another POKEMON of similar physical\l"
+.string "power.\p"
+.string "Not even a MAJOR LEGENDARY\n"
+.string "like GROUDON can match this!$"
 
 
 

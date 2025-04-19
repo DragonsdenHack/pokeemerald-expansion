@@ -12540,7 +12540,7 @@ BurnedTower_Text_ChicoDefeated:
 
 
 BurnedTower_Text_ChicoPostBattle:
-	.string "Some say BURN TOWER fire was caused by\n"
+	.string "Some say BURNED TOWER fire was caused by\n"
 	.string "man. Others say it was a lightning bolt\l"
 	.string "that burned the tower. Either way, on\l"
 	.string "that day, the POKÉMON resting here lost\l"
@@ -13506,8 +13506,8 @@ TinTowerP5_Text_MonjeDefeated:
 TinTowerP5_Text_MonjePostBattle:
 	.string "TIN TOWER was the name that the\n"
 	.string "current BELL TOWER had before BRASS\l"
-	.string "TOWER became BURN TOWER after the fire\l"
-	.string "150 years ago.$"
+	.string "TOWER became BURNED TOWER after the\l"
+	.string "fire 150 years ago.$"
 
 
 TinTowerP6_Text_MonjeIntro:
@@ -14328,8 +14328,8 @@ Route49MazeP1_Text_SabioDefeated:
 
 
 Route49MazeP1_Text_SabioPostBattle:
-	.string "For over 1000 years, our MASTER has\n"
-	.string "inherited the POKÉMON that initiated\l"
+	.string "For over a thousand years, our MASTER\n"
+	.string "has inherited the POKÉMON that initiated\l"
 	.string "the bond with humans.$"
 
 

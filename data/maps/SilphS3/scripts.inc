@@ -171,27 +171,29 @@ release
 end
 
 SilphS3Documento_Text_104:
-	.string "PORYGON3: NORMAL/GHOST\p"
-	.string "HP: 85\n"
-	.string "ATTACK: 75\l"
+	.string "PORYGON3:\p"
+	.string "HP: 95\n"
+	.string "ATTACK: 65\l"
 	.string "DEFENSE: 70\l"
 	.string "SP. ATK: 155\l"
 	.string "SP. DEF: 95\l"
 	.string "SPEED: 135\l"
 	.string "TOTAL: 615\p"
+	.string "TYPE: NORMAL/GHOST\n"
+	.string "ABILITY: ADAPTABILITY\p"
 	.string "After countless attempts, we have been\n"
 	.string "able to optimize up to 99% the maximum\l"
 	.string "potential achievable by the original\l"
 	.string "PORYGON base. PORYGON3 has achieved\l"
 	.string "the impossible of breaking through the\l"
-	.string "154 BASE SPECIAL ATTACK barrier\l"
-	.string "imposed by MEWTWO by just one point,\l"
-	.string "surpassing it in SPEED as well to have\l"
-	.string "an unprecedented offensive capability.\l"
+	.string "BASE 154 SPECIAL ATTACK barrier,\l"
+	.string "imposed by MEWTWO, by just one point.\p"
+	.string "Moreover, has also more SPEED and, all\n"
+	.string "in all an unprecedented offensive.\l"
 	.string "Such destructive power was impossible\l"
 	.string "to sustain without sacrificing its\l"
-	.string "PHYSICAL DEFENSE, which inevitably fell\l"
-	.string "to 70 BASE.$"
+	.string "PHYSICAL DEFENSE, which inevitably\l"
+	.string "fell to 70 BASE.$"
 
 SilphS3_Miguel_Batalla_Derecha::
 applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_1

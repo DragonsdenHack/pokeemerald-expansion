@@ -163,7 +163,7 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_6:
 	.string "But if I'm honest, you truly are suited\n"
 	.string "to this pagoda. For those constrained\l"
 	.string "by the boundaries of mortal POKÉMON,\l"
-	.string "eking out the barest mote of\l"
+	.string "seeking out the barest mote of\l"
 	.string "improvement might be possible. But\l"
 	.string "that's neither here nor there.$"
 

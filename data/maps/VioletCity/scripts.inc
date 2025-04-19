@@ -18,8 +18,8 @@ release
 end
 
 VioletCity_Text_2:
-	.string "My ancestors built this temple 1000\n"
-	.string "years ago to honor the resilience of\l"
+	.string "My ancestors built this temple thousands\n"
+	.string "of years ago, to honor the resilience of\l"
 	.string "BELLSPROUT… The current ELDER of the\l"
 	.string "SPROUT TOWER still possesses the last\l"
 	.string "specimen of that sacred BELLSPROUT\l"

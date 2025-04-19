@@ -150,10 +150,7 @@ AzaleaGym_Combate_Cesar_Texto_8:
 AzaleaGym_Combate_Cesar_Texto_9:
 	.string "Whoever you are, there is no doubt that\n"
 	.string "you have high goals. The skill level of\l"
-	.string "your team represents that. I would like\l"
-	.string "you to have this POKÉMON I'd gotten\l"
-	.string "various specimens of long ago, in one of\l"
-	.string "my many journeys.$"
+	.string "your team represents that.$"
 
 AzaleaGym_Combate_Cesar_Texto_9.1:
 	.string "Take this, here you have\n"

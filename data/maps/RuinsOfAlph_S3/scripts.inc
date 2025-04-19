@@ -199,10 +199,10 @@ RuinsOfAlphS3_Evento_Final_Texto_9:
 	.string "with a PRIMAL LUG…!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_10:
-.string "ANDRA: What was that?$"
+.string "ANDRA: What was that?!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: ¿L{PAUSE 25}…{PAUSE 25} lo ha logrado?$"
+.string "GIOVANNI: ¿H{PAUSE 25}…{PAUSE 25} He did it?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
 	.string "ANDRA: All that energy and tension\n"

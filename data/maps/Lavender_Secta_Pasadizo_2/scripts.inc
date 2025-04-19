@@ -157,7 +157,7 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_10:
 	.string "No. You're not here by coincidence.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_11:
-	.string "You'd rent asunder the chains of\n"
+	.string "You'd teared apart the chains of\n"
 	.string "LANCE's KANTO, and a realm of potential\l"
 	.string "is open to you.$"
 

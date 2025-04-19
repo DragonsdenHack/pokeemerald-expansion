@@ -37,7 +37,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_100:
-	.string "TAUROS-X: ROCK/NORMAL\p"
+	.string "TAUROS-X:\p"
 	.string "HP: 75\n"
 	.string "ATTACK: 155\l"
 	.string "DEFENSE: 150\l"
@@ -45,17 +45,18 @@ CinnabarMansionS2Documento_Text_100:
 	.string "SP. DEF: 90\l"
 	.string "SPEED: 90\l"
 	.string "TOTAL: 590\p"
+	.string "TYPE: ROCK/NORMAL\n"
+	.string "ABILITY: ROCK HEAD\p"
 	.string "We succeeded in enhancing the wild\n"
-	.string "charging capacity of TAUROS. We\l"
-	.string "discovered that its SPEED and NORMAL\l"
+	.string "charging capacity of TAUROS, thanks\l"
+	.string "to discover that its SPEED and NORMAL\l"
 	.string "TYPE were major constraints for\l"
 	.string "developing its full strength and\l"
 	.string "endurance. Once we were able to reduce\l"
-	.string "its SPEED while incorporating the genes\l"
-	.string "of RHYDON responsible for its ROCK\l"
-	.string "TYPE, its physical ability surged to\l"
-	.string "unprecedented levels; anything it\l"
-	.string "strikes is obliterated.$"
+	.string "its SPEED, using RHYDON'S genes, its\l"
+	.string "physical power raised to the limit.\p"
+	.string "Anything striked with HEAD CHARGE\n"
+	.string "or HEAD SMASH is obliterated.$"
 
 
 
@@ -69,7 +70,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_101:
-	.string "MAGMORTAR-Y: FIRE\p"
+	.string "MAGMORTAR-Y:\p"
 	.string "HP: 75\n"
 	.string "ATTACK: 95\l"
 	.string "DEFENSE: 97\l"
@@ -77,6 +78,8 @@ CinnabarMansionS2Documento_Text_101:
 	.string "SP. DEF: 105\l"
 	.string "SPEED: 103\l"
 	.string "TOTAL: 640\p"
+	.string "TYPE: FIRE\n"
+	.string "ABILITY: NO GUARD\p"
 	.string "BLAINE's belief about MAGMAR line being\n"
 	.string "the FIRE-TYPE POKÉMON with the\l"
 	.string "greatest special potential in all of\l"
@@ -85,7 +88,7 @@ CinnabarMansionS2Documento_Text_101:
 	.string "flames of MAGMORTAR-Y will outshine\l"
 	.string "the LEGENDARY ones. Any target in the\l"
 	.string "sights of its massive cannons will be\l"
-	.string "struck with no fail %.$"
+	.string "struck with 0% probability of failure.$"
 
 
 
@@ -163,13 +166,14 @@ CinnabarMansionS2Documento_Text_104:
 	.string "SPEED: 140\l"
 	.string "TOTAL: 615\p"
 	.string "TYPE: ROCK/DRAGON\n"
-	.string "ABILITY: LEVITATE\l"
-	.string "La verdadera forma en estado\l"
-	.string "salvaje de AERODACTYL hace 300\l"
-	.string "millones de años, el depredador\l"
-	.string "más temible en su momento, con una\l"
-	.string "VELOCIDAD inigualable de la que\l"
-	.string "ninguna presa podía escapar.$"
+	.string "ABILITY: LEVITATE\p"
+	.string "The true wild form of AERODACTYL, 300\n"
+	.string "million years ago. A bit slower but with\l"
+	.string "greater physical power than his modern\l"
+	.string "mega-evolution form.\p"
+	.string "Back in time, was the most fearsome\n"
+	.string "predator; with unmatched SPEED, no\l"
+	.string "prey was able to escape.$"
 
 
 

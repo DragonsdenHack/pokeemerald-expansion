@@ -1570,7 +1570,7 @@ Vermilion_Activador_Entrada_Texto_1:
 
 Vermilion_Activador_Entrada_Pasa_Text_YesNo:
 	.string "You can access the house via this\n"
-	.string "passage. Wanna go though?$"
+	.string "passage. Wanna go through?$"
 
 Vermilion_Activador_Entrada_Pasa_No::
 release

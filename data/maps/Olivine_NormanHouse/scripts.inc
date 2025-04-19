@@ -48,11 +48,11 @@ OlivineNormanHouse_EventScript_ReceiveSlakoth::
 OlivineNormanHouse_EventScript_TakeSlakoth::
     msgbox OlivineNormanHouse_Text_TakeSlakoth MSGBOX_DEFAULT
 	msgbox OlivineNormanHouse_Text_TakeSlakoth2 MSGBOX_DEFAULT
-	msgbox OlivineNormanHouse_Text_6, MSGBOX_DEFAULT
     playfanfare MUS_OBTAIN_TMHM
 	msgbox OlivineNormanHouse_Text_MensajeSlakoth, MSGBOX_DEFAULT
 	givemon SPECIES_SLAKOTH, 15, ITEM_NORMAL_GEM
-	waitfanfare  
+	waitfanfare
+	msgbox OlivineNormanHouse_Text_6, MSGBOX_DEFAULT
 	release
 	end 
 

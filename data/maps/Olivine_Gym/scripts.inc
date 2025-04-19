@@ -153,12 +153,10 @@ Olivine_Gym_Combate_Crom_Texto_9:
 	.string "I will be eternally grateful to you, as I\n"
 	.string "have just concluded my time in OLIVINE\l"
 	.string "CITY with a battle worthy of being\l"
-	.string "witnessed in the OLYMPUS of POKÉMON.\l"
-	.string "Therefore, I want you to take care of\l"
-	.string "this little one.$"
+	.string "witnessed in the OLYMPUS of POKÉMON.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.1:
-	.string "Here it is the MINERALBADGE.\n"
+	.string "Here it is the MINERALBADGE.\p"
 	.string "Take it.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.2:

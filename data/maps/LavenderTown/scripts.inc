@@ -458,9 +458,9 @@ LavenderTown_Cierre_Torre_Texto_6:
 	.string "ARCHER: What POKÉMON TOWER has been\n"
 	.string "for KANTO is carefully documented;\l"
 	.string "nothing can erase its role in history.\l"
-	.string "In 1000 years, they will know just as\l"
-	.string "much as we do today about this place.\l"
-	.string "Its memory will endure if that's what\l"
+	.string "In one thousand years, they'll know just\l"
+	.string "as much as we do today about this place.\p"
+	.string "Its memory will endure if that's what\n"
 	.string "concerns you.$"
 
 LavenderTown_Cierre_Torre_Texto_7:

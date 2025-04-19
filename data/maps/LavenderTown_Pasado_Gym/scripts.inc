@@ -873,8 +873,8 @@ LavenderTown_Pasado_Gym_Texto_64:
 	.string "possible.$"
 
 LavenderTown_Pasado_Gym_Texto_65:
-	.string "OAK: What a bullshit! It was just a\n"
-	.string "mere coincidence. A lucky level-up.\p"
+	.string "OAK: That's bullshit! It was just a\n"
+	.string "mere coincidence; a lucky level-up.\p"
 	.string "Nothing more, nothing less.$"
 
 LavenderTown_Pasado_Gym_Texto_66:

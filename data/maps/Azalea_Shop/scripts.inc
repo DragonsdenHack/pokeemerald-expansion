@@ -46,5 +46,5 @@ end
 
 AzaleaShop_Text_4:
 	.string "I love the peace and tranquility around\n"
-	.string "these parts! GOLDENROD CITY's\l"
+	.string "these parts! GOLDENROD CITY is\l"
 	.string "overwhelming in comparison!$"

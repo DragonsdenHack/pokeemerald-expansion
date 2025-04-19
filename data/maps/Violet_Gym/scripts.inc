@@ -434,17 +434,16 @@ Violet_Gym_Combate_Pegaso_Texto_9:
 	.string "currently hold no significance for the\l"
 	.string "POKÉMON LEAGUE, hence the lack of\l"
 	.string "conventional BADGES. Nevertheless, I'll\l"
-	.string "offer you something far more useful; I\l"
-	.string "want you to take this POKÉMON with you.$"
+	.string "offer you something one as souvenir.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.1:
-	.string "So, you have earned\n"
-	.string "the ZEPHYR BADGE.$"
+	.string "Here you have our\n"
+	.string "old ZEPHYR BADGE.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.2:
 	.string "Also, I want to give you something\n"
-	.string "more practical: could you take this\l"
-	.string "POKÉMON?$"
+	.string "more practical: could you take care\l"
+	.string "of this POKÉMON?$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:
 .string "YOU OBTAINED A LV.25 RUFFLET!!$"

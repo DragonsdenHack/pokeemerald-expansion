@@ -439,7 +439,7 @@ Route49_MazeP4_Combate_Maestro_Texto_17:
 Route49_MazeP4_Combate_Maestro_Texto_18:
 	.string "EN, RAI, and SUI were the first POKÉMON\n"
 	.string "to experience a bond similar to your\l"
-	.string "CROBAT. Over 1000 years ago, the first\l"
+	.string "CROBAT. Thousands of years ago, the first\l"
 	.string "GRAND MASTER of this tower managed to\l"
 	.string "establish that bond with 3 POKÉMON at\l"
 	.string "once. 3 POKÉMON that were primitive\l"

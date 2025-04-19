@@ -467,9 +467,9 @@ Lavender_Secta_Pasadizo_Oak_Texto_20:
 	.string "willpower.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_21:
-	.string "OAK: This is still total crock! Nothing\n"
-	.string "more than desperate desires of how you\l"
-	.string "want the world to work.$"
+	.string "OAK: you're full of crap!\p"
+	.string "Nothing more than desperate desires of\n"
+	.string "how you want the world to work.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_22:
 	.string "You got this far in spite of believing in\n"
