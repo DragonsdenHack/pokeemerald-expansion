@@ -210,7 +210,7 @@ msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_4 MSGBOX_DEFAULT
 givemon SPECIES_REGISTEEL, 75, ITEM_NONE
 waitfanfare
 playfanfare MUS_OBTAIN_TMHM
-msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_3 MSGBOX_DEFAULT
+msgbox RocketHideoutJohtoP2_Obtencion_Regis_Texto_5 MSGBOX_DEFAULT
 givemon SPECIES_REGICE, 75, ITEM_NONE
 waitfanfare
 delay 20

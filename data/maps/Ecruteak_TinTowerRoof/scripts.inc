@@ -341,7 +341,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_15:
 	.string "STONE EDGE!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_16:
-.string "ECRUTEAK M.: You scoundrel! \n"
+.string "ECRUTEAK M.: You scoundrel!\n"
 	.string "How dare you do that\l"
 	.string "to something so pure?$"
 
@@ -364,7 +364,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_18:
 
 Ecruteak_TinTowerRoof_Zeus_Texto_19:
 	.string "I've only come to take back what is\n"
-	.string "rightfully mine. Do you think I need you,\n"
+	.string "rightfully mine. Do you think I need you,\l"
 	.string "or {PLAYER}, to do that? Do you really\l"
 	.string "think I need to nerf your teams to\l"
 	.string "defeat both of you? I could crush you\l"
@@ -416,16 +416,16 @@ Ecruteak_TinTowerRoof_Zeus_Texto_25:
 	.string "what I was referring to when HO-OH\l"
 	.string "appeared! No matter how much he wants\l"
 	.string "to deny it, you've shown him that brute\l"
-	.string "power and BASE STATs aren't everything.\l"
-	.string "Your mortal POKÉMON can compete\l"
+	.string "power and BASE STATs aren't everything.\p"
+	.string "Your mortal POKÉMON can compete\n"
 	.string "against the greatest gods of this\l"
 	.string "world!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_26:
 	.string "Here you are, {PLAYER}. I want you to\n"
 	.string "have this POKÉMON. I brought it from a\l"
-	.string "far region, but it loves the ambience of\l"
-	.string "ECRUTEAK CITY.$"
+	.string "far region, but it loves the ambience\l"
+	.string "of ECRUTEAK CITY.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_27:
 .string "YOU OBTAINED A LV.25 FLABÉBÉ!!$"

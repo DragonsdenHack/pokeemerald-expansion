@@ -196,13 +196,30 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1:
-	.string "Make the most of JOHTO,  {PLAYER}.\n"
-	.string "Explore every hidden corner and push\l"
-	.string "beyond where anyone else has gone. One\l"
-	.string "day, you'll look back and realize just\l"
-	.string "how much you've seen and done. Every\l"
-	.string "story has its end, but this one… not\l"
-	.string "just yet.$"
+	.string "GIOVANNI: {PLAYER}! You're amazing!\p"
+	.string "You defeated the three most powerful\n"
+	.string "POKÉMON of all time!\p"
+	.string "Do you understand the reason for your\n"
+	.string "victory? At the moment the immortality\l"
+	.string "of such POKÉMON was subject to the rules\l"
+	.string "governing POKÉMON battles between two\l"
+	.string "TRAINERS, their powers ceased to be\l"
+	.string "infinite and, therefore, vulnerable.\p"
+	.string "I'm amazed that you have made it this\n"
+	.string "far. Big changes are coming, the future\l"
+	.string "of KANTO is uncertain.\p"
+	.string "I hope you enjoyed the JOHTO arc, that's\n"
+	.string "the 'season 3' of this hack; DLC arc will\l"
+	.string "be 'season 4'.\l"
+	.string "As always, you can find me both on the\l"
+	.string "Dragonsden Power youtube channel, or at\l"
+	.string "pokecomunnity (ROM hacks Showcase post).\p"
+	.string "The transition to G/S/C neo KANTO-JOHTO\n"
+	.string "is waiting, every story has an end, but\l"
+	.string "this one{PAUSE 25}…{PAUSE 25} not yet, you are\l"
+	.string "still being part of it, of its destiny.\p"
+	.string "So, thanks for playing and{PAUSE 25}…{PAUSE 25}keep improving\n"
+	.string "until the next version.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1 MSGBOX_AUTOCLOSE

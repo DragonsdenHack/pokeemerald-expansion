@@ -60,7 +60,7 @@ IcePath_Llamada_Giovanni_Texto_1:
 IcePath_Llamada_Giovanni_Texto_1.1:
 	.string "PRYCE's MAMOSWINE-& is extraordinary,\n"
 	.string "boasting the same ATTACK and better\l"
-	.string "SPEED than MEGA GARCHOMP-and with\l"
+	.string "SPEED than MEGA GARCHOMP, along with\l"
 	.string "similar defenses. In its useful STATs,\l"
 	.string "it's completely comparable to the MEGA\l"
 	.string "of a PSEUDO-LEGENDARY.$"

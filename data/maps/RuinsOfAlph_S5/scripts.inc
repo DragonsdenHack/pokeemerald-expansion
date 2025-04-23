@@ -473,16 +473,16 @@ RuinsOfAlph_S5_Final_Texto_3:
 	.string "HO-OH were needed to get here?$"
 
 RuinsOfAlph_S5_Final_Texto_4:
-	.string "Both towers have stood 700 years… A\n"
-	.string "small fraction compared to the time our\l"
-	.string "cult has been in existence. It was here\l"
-	.string "that the ESSENCE POKÉMON migrated\l"
+	.string "Both towers have stood 700 years{PAUSE 15}…{PAUSE 15}\p"
+	.string "A small fraction compared to the time our\n"
+	.string "cult has been in existence; it was here\l"
+	.string "that the ESSENCE POKÉMON migrated,\l"
 	.string "after rejecting our cult.$"
 
 RuinsOfAlph_S5_Final_Texto_5:
-.string "But it belongs to KANTO!\n"
-	.string "And it will return to KANTO!\l"
-	.string "The ESSENCE POKÉMON!$"
+.string "But it belongs to KANTO!{PAUSE 25}\p"
+	.string "And to KANTO must return!{PAUSE 25}\p"
+	.string "The ESSENCE POKÉMON!{PAUSE 25}$"
 
 RuinsOfAlph_S5_Final_Texto_6:
 	.string "Watch closely, {PLAYER}. The greatest\n"
@@ -521,7 +521,8 @@ RuinsOfAlph_S5_Final_Texto_11:
 	.string "the three UNOVA DRAGONS would be\l"
 	.string "enough, but only the ESSENCE POKÉMON\l"
 	.string "can restore it to its original form\l"
-	.string "predating the BIG BANG. Watch!$"
+	.string "predating the BIG BANG.\p"
+	.string "Watch!$"
 
 RuinsOfAlph_S5_Final_Texto_12:
 	.string "Its offense is incomparable. Master of\n"
@@ -529,8 +530,8 @@ RuinsOfAlph_S5_Final_Texto_12:
 	.string "just a crude lizard compared to it.$"
 
 RuinsOfAlph_S5_Final_Texto_13:
-.string "ARCEUS…\n"
-	.string "The GOD of our universe, diminished over\l"
+.string "ARCEUS{PAUSE 15}…{PAUSE 15}\p"
+	.string "The GOD of our universe, diminished over\n"
 	.string "15 trillion years by creating\l"
 	.string "everything known, but that's over now.$"
 
@@ -605,9 +606,9 @@ RuinsOfAlph_S5_Final_Texto_24:
 .string "k4nv%bjs&!$"
 
 RuinsOfAlph_S5_Final_Texto_25:
-.string "N…\n"
-	.string "Now I get it…\l"
-	.string "I was the one who failed…$"
+.string "N{PAUSE 15}…{PAUSE 15}\p"
+	.string "Now I get it{PAUSE 15}…{PAUSE 15}\p"
+	.string "I was the one who failed{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S5_Final_Texto_26:
 .string "I guess{PAUSE 25}…{PAUSE 25} perfection is something\n"
@@ -775,8 +776,7 @@ RuinsOfAlph_S5_Combate_Unown_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
-.string "-La energía misteriosa se ha\n"
-	.string "esfumado.-$"
+	.string "-The mysterious energy has dissipated.-$"
 
 RuinsOfAlph_S5_Combate_Unown_Despierta2:
 walk_in_place_down

@@ -616,7 +616,8 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_12:
 	.string "what it could have been.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_13:
-	.string "OAK: Not even BELL TOWER will last forever.$"
+    .string "OAK: Not even BELL TOWER\n"
+	.string "will last forever.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_14:
 	.string "AGATHA: As stubborn as ever. It's\n"
@@ -628,7 +629,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_15:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_16:
-.string "Oh! {PLAYER}?$"
+.string "Oh! {PLAYER}?!$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_17:
 .string "Did you hear us?$"
@@ -653,8 +654,8 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_20:
 	.string "this, {PLAYER}.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_21:
-	.string "YOU OBTAINED A GENGARITE FROM\n"
-	.string "AGATHA!!$"
+	.string "YOU OBTAINED A GENGARITE\n"
+	.string "FROM E4 AGATHA!!$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_22:
 	.string "With this item, GENGAR will be able to\n"
@@ -669,8 +670,8 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_23:
 Ecruteak_Conversacion_Agatha_Oak_Texto_24:
 	.string "I'm aware that the creature they call\n"
 	.string "MEWTWO was mistakenly dubbed the\l"
-	.string "POKÉMON with the highest special power.\l"
-	.string "MEGA GENGAR surpasses it by far in that\l"
+	.string "POKÉMON with the highest special power.\p"
+	.string "MEGA GENGAR surpasses it by far in that\n"
 	.string "regard. But of course, they didn't know\l"
 	.string "that.$"
 

@@ -1176,7 +1176,7 @@ SetIVs_Proceed2:
 	end
 
 CheckIvs_Texto_2:
-	.string "Do you want to chek any POKÉMON?$"
+	.string "Do you want to check any POKÉMON?$"
 
 CheckIvs_Texto_1:
 	.string "Here, you can check the IVs\n"
@@ -1196,7 +1196,7 @@ Text_IVChecker_3:
 	.string "IV from SPEED: {STR_VAR_3}.$"
 
 CheckEvs_Texto_2:
-	.string "Do you want to chek any POKÉMON?$"
+	.string "Do you want to check any POKÉMON?$"
 
 CheckEvs_Texto_1:
 	.string "Here, you can check the EVs\n"

@@ -58,8 +58,7 @@ trainerbattle_no_intro TRAINER_SALAZAR, BlakthornCity_DragonsdenS4_Combate_Maest
 applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1
 waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8 MSGBOX_AUTOCLOSE
-msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9 MSGBOX_AUTOCLOSE
-delay 10
+delay 15
 playfanfare MUS_OBTAIN_BADGE
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1 MSGBOX_DEFAULT
 waitfanfare
@@ -198,7 +197,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3:
 	.string "look like child's play.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5:
 	.string "If I'm not wrong, you've managed to\n"
@@ -216,12 +215,12 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_6:
 	.string "the true art of POKÉMON training. You\l"
 	.string "are an exception. You have not let\l"
 	.string "yourself be influenced by the times\l"
-	.string "despite your position. That's why… I\l"
-	.string "must ascertain your readiness!$"
+	.string "despite your position. That's why{PAUSE 15}…{PAUSE 15}\p"
+	.string "I must ascertain your readiness!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_7:
-	.string "Magnificent! It was like a return\n"
-	.string "to the old days of JOHTO.$"
+	.string "Magnificent! It was like returning\n"
+	.string "to the good old days of JOHTO!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8:
 	.string "A TRAINER like you only appears once\n"
@@ -290,7 +289,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18:
 	.string "legend of the ORIGINAL DRAGON.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
-	.string "DRAGON M.: It's not a legend-that\n"
+	.string "DRAGON M.: It's not a legend, that\n"
 	.string "POKÉMON existed. It was real.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:

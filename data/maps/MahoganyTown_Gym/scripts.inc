@@ -74,7 +74,6 @@ delay 20
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_FREDO, MahoganyTown_Gym_Combate_Fredo_Texto_7
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_8 MSGBOX_AUTOCLOSE
-msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9 MSGBOX_AUTOCLOSE
 delay 10
 playfanfare MUS_OBTAIN_BADGE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9.1 MSGBOX_DEFAULT

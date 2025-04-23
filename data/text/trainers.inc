@@ -13634,8 +13634,8 @@ Route43_Text_GuardaPostBattle:
 
 
 Route43_Text_ChicaIntro:
-	.string "I enjoy taking a walk around the area\n"
-	.string "of FURY LAKE, particularly after rainy\l"
+	.string "I enjoy taking a walk around the LAKE\n"
+	.string "of RAGE, particularly after rainy\l"
 	.string "days!$"
 
 

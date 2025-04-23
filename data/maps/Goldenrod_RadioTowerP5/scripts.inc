@@ -782,7 +782,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_48:
 	.string "GIOVANNI: It will be converted into the\n"
 	.string "LAVENDER RADIO TOWER, where you will\l"
 	.string "also be able to broadcast your radio\l"
-	.string "programs, extendir them to KANTO.\p"
+	.string "programs, extending them to KANTO.\p"
 	.string "Capisci?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_49:
