@@ -4,7 +4,7 @@
 #include "item_menu.h"
 
 
-	ALIGNED(4) const u8 gText_WonderCards[] = _("Archi7");
+	ALIGNED(4) const u8 gText_WonderCards[] = _("Sevii");
     ALIGNED(4) const u8 gText_WonderNews[] = _("Johto");
 	ALIGNED(4) const u8 gText_Dlc[] = _("Dlc");
 	ALIGNED(4) const u8 gText_Hoenn2[] = _("Hoenn");
