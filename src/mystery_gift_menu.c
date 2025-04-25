@@ -3650,7 +3650,7 @@ static const struct WindowTemplate sWindowTemplate_ThreeOptions = {
     .tilemapLeft = 8,
     .tilemapTop = 5,
     .width = 14,
-    .height = 10,
+    .height = 6,
     .paletteNum = 12,
     .baseBlock = 0x0155
 };
@@ -3709,8 +3709,8 @@ static const struct WindowTemplate sWindowTemplate_GiftSelect_1Option = {
 static const struct ListMenuItem sListMenuItems_CardsOrNews[] = {
     { gText_WonderCards,  0 },
     { gText_WonderNews,   1 },
-	{ gText_Dlc,          2 },
-	{ gText_Hoenn2,       3 },
+	// { gText_Dlc,          2 },
+	// { gText_Hoenn2,       3 },
     { gText_Exit3,        LIST_CANCEL }
 };
 
@@ -3724,8 +3724,8 @@ static const struct ListMenuTemplate sListMenuTemplate_ThreeOptions = {
     .items = NULL,
     .moveCursorFunc = ListMenuDefaultCursorMoveFunc,
     .itemPrintFunc = NULL,
-    .totalItems = 5,
-    .maxShowed = 5,
+    .totalItems = 3,
+    .maxShowed = 3,
     .windowId = 0,
     .header_X = 0,
     .item_X = 8,
@@ -8022,17 +8022,17 @@ static void Task_MysteryGift(u8 taskId)
         switch (MysteryGift_HandleThreeOptionMenu(&data->textState, &data->var, FALSE))
         {
         case 0: // "Wonder Cards"
-                data->state = MG_STATE_EXIT; //KANTO
+                data->state = PRUEBA; //KANTO
             break;
         case 1: // "Wonder News"    // SEVII
-                data->state = MG_STATE_EXIT;
+                data->state = SEVII1;
 				break;
-		case 2: //JOHTO
-			data->state = MG_STATE_EXIT;
-				break;
-		case 3: //HOENN
-			data->state = HOENN1;
-				break;		
+		// case 2: //JOHTO
+			// data->state = MG_STATE_EXIT;
+				// break;
+		// case 3: //HOENN
+			// data->state = HOENN1;
+				// break;		
         case LIST_CANCEL:
             data->state = MG_STATE_EXIT;
             break;

@@ -2471,9 +2471,8 @@ static const u8 sRazorFangDesc[] = _(
    	"up to a 30%.");
 
 static const u8 sEvioliteDesc[] = _(
-    "Eleva en un 50% las\n"
-    "defensas de un {PKMN}\n"
-    "con evolución.");
+    "Raises {PKMN}'s\n"
+    "defenses to 50%.");
 
 static const u8 sFloatStoneDesc[] = _(
     "Reduce el peso a la\n"
