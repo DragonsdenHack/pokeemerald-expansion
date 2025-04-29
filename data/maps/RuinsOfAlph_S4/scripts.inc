@@ -396,7 +396,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_18:
 .string "TAAAAAAAALL!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_19:
-	.string "JONES: Someone who believes\n"
+	.string "LAIREB: Someone who believes\n"
 	.string "themselves superior to others by divine\l"
 	.string "providence doesn't deserve to keep\l"
 	.string "living.$"
@@ -415,7 +415,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "closer to IT.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-	.string "-JONES took all of ZEUS's POKÉMON.-$"
+	.string "-LAIREB took ZEUS's POKÉMON.-$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
 	.string "{PLAYER}, unlike that ZEUS, I have\n"

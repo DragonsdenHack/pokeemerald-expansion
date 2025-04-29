@@ -194,7 +194,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     {
         .effect = EFFECT_RECHARGE,
         .power = 170,
-        .type = TYPE_NORMAL,
+        .type = TYPE_DARK,
         .accuracy = 90,
         .pp = 5,
         .secondaryEffectChance = 0,

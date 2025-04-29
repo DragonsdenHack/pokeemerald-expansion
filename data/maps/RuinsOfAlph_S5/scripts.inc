@@ -456,8 +456,8 @@ release
 end
 
 RuinsOfAlph_S5_Final_Texto_1:
-	.string "JONES: Do you have any idea where we\n"
-	.string "are, {PLAYER}?$"
+	.string "LAIREB: Did you have any idea\n"
+	.string "about this place, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Texto_2:
 	.string "That's correct. At this very moment,\n"
@@ -820,6 +820,6 @@ end
 
 RuinsOfAlph_S5_Mensaje_Esencia_Texto_1:
 brailleformat 5, 0, 25, 19, 8, 3
-	.braille "AHORA\n"
-	.braille "ERES JOHTO.$"
+	.braille "NOW YOU\n"
+	.braille "ARE JOHTO.$"
 
