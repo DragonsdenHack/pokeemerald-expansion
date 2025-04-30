@@ -465,7 +465,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas2:
     .string "ISLANDS.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas3:
-    .string "Most of you will be inmediately\n"
+    .string "Most of you will be immediately\n"
     .string "transferred to KANTO, do not expect\l"
     .string "friendly treatment from its citizens,\l"
     .string "you will be seen as the scum of the\l"
@@ -497,8 +497,8 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6:
     .string "There is no reason for you to continue\n"
     .string "belonging to our organization{PAUSE 20}…{PAUSE 20} I hope\l"
     .string "for your sake that you don't say a\l"
-    .string "single word about you may have seen\l"
-    .string "here.$"
+    .string "single word about what you may have\l"
+    .string "seen here.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6.1:
 	.string "GUARDS!!\p"
@@ -1032,7 +1032,7 @@ Zubat_Text_YesNo:
 
 
 Zubat_Text_Yes:
-   .string "Doesn't seem like this POKÉMON have\n"
+   .string "Doesn't seem like this POKÉMON has\n"
     .string "much energy.$"
 
 
@@ -1044,22 +1044,19 @@ RocketHideoutFiveIslanMeadow_Text_MensajeZubat:
    .string "{PLAYER} received a ZUBAT!$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat2:
-.string "Well, now that you all have a POKÉMON,\n"
-    .string "let's proceed to explain your roles on\l"
-    .string "our organization, and I will be short\l"
-    .string "explaining, basically you will be the\l"
-    .string "ones who have to do the dirty work:\p"
-    .string "Extortion, theft, settling scores, you\n"
-    .string "will clean the land and you will obtain\l"
-    .string "all the ilegal money possible for TEAM\l"
-    .string "ROCKET, collaborating in the financing\l"
-    .string "of the projects. While you can't prove\l"
-    .string "otherwise, to me and the rest of the\l"
-    .string "world, you are as low as possible, if you\l"
-    .string "are competent and do your job\l"
-    .string "correctly, you will gain respect,\l"
-    .string "rewards and accolades, not before\l"
-    .string "that.$"
+	.string "Let me explain your role in our\n"
+	.string "organization. I'll keep it brief. You'll\l"
+	.string "be the ones handling the dirty work:\p"
+	.string "extortion, theft, settling scores. In\n"
+	.string "the eyes of the world, you'll be viewed\l"
+	.string "as scum. However, your job is to clear\l"
+	.string "the path and collect as much illegal\l"
+	.string "money as possible to fund TEAM\l"
+	.string "ROCKET's projects. Although you\l"
+	.string "currently sit at the bottom of this\l"
+	.string "organization, if you prove yourself\l"
+	.string "competent and do your job well, you'll\l"
+	.string "earn respect, rewards, and accolades.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat3:
 .string "GRUNTs from 5 to 13, the last two\n"

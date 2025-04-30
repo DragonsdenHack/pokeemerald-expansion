@@ -3222,13 +3222,13 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 	.string "them possible.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19:
-.string "YOU RECEIVED A LV.15 ARTICUNO!!$"
+.string "YOU RECEIVED A LV.60 ARTICUNO!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20:
-.string "YOU RECEIVED A LV.15 ZAPDOS!!$"
+.string "YOU RECEIVED A LV.60 ZAPDOS!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21:
-.string "YOU RECEIVED A LV.15 MOLTRES!!$"
+.string "YOU RECEIVED A LV.60 MOLTRES!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
 .string "Using them or not on your team, is\n"

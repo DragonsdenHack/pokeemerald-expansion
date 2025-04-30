@@ -58,8 +58,8 @@ static const u8 sSwordsDanceDescription[] = _(
     "sharply raises Attack.");
 
 static const u8 sCutDescription[] = _(
-    "Corta con garras, uñas...\n"
-    "50% de bajar la Defensa.");
+    "Cuts the foe with sharp\n"
+    "scythes, claws, etc.");
 
 static const u8 sGustDescription[] = _(
     "Strikes the foe with a gust\n"
@@ -146,9 +146,9 @@ static const u8 sTakeDownDescription[] = _(
     "that also hurts the user.");
 
 static const u8 sThrashDescription[] = _(
-    "Dura de 2 a 3 turnos\n"
-    "y acaba confundiéndote.");
-    
+    "A rampage of 2 to 3 turns\n"
+    "that confuses the user.");
+
 // GEN 8
 
 static const u8 sDireClawDescription[] = _(

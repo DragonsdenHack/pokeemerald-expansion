@@ -12851,7 +12851,7 @@ MtMortar2_Text_NecioPostBattle:
 	.string "I've had my FOSSILS for years, back\n"
 	.string "when MT. MOON was still filled with them,\l"
 	.string "without kids or thieves ruining all the\l"
-	.string "staff.$"
+	.string "stuff.$"
 
 
 MtMortar2_Text_KaratekaIntro:

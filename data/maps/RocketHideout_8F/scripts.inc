@@ -3723,13 +3723,13 @@ RocketHideout8F_Mision_Johto_Text_9:
 	.string "are clones.$"
 
 RocketHideout8F_Mision_Johto_Text_10:
-.string "YOU OBTAINED A RAIKOU AT LV:25!!$"
+.string "YOU OBTAINED A RAIKOU AT LV:70!!$"
 
 RocketHideout8F_Mision_Johto_Text_11:
-.string "YOU OBTAINED A ENTEI AT LV:25!!$"
+.string "YOU OBTAINED A ENTEI AT LV:70!!$"
 
 RocketHideout8F_Mision_Johto_Text_12:
-.string "YOU OBTAINED A SUICUNE AT LV:25!!$"
+.string "YOU OBTAINED A SUICUNE AT LV:70!!$"
 
 RocketHideout8F_Mision_Johto_Text_13:
 .string "Now, get comfortable, we have a lot to\n"

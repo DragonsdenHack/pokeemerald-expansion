@@ -270,7 +270,7 @@ Goldenrod_RadioTowerP8_Proton_Texto_9:
 	.string "So yours grew too, huh…$"
 
 Goldenrod_RadioTowerP8_Proton_Texto_10:
-	.string "Seems like JOHTO is toughing you up\n"
+	.string "Seems like JOHTO is toughening you up\n"
 	.string "even more, isn't it? Say, what do you\l"
 	.string "think about GOLDENROD?$"
 

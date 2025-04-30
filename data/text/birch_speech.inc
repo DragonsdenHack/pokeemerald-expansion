@@ -2,8 +2,8 @@ gText_Birch_Welcome::
 	.string "Welcome to TEAM ROCKET!\p"
 	.string "So you're one of those who\n"
 	.string "were selected to be part of\l"
-	.string "the FIVE ISLAND platton, right?\p"
-	.string "I'm ARCHER, top GIOVANNI's ADMIN.\n"
+	.string "the FIVE ISLAND platoon, right?\p"
+	.string "I'm ARCHER, GIOVANNI's top ADMIN.\n"
 	.string "and right-hand man…\p"
 	.string "$"
 

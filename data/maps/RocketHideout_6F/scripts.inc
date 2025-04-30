@@ -1924,7 +1924,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_17:
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17.1:
 	.string "LANCE is the KANTO CHAMPION and\n"
-	.string "GOBERNOR at the same time, that\l"
+	.string "GOVERNOR at the same time, that\l"
 	.string "means power, power to manipulate\l"
 	.string "the story as he pleases.$"
 
