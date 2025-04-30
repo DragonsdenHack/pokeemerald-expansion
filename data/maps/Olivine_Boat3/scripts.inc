@@ -10,7 +10,7 @@ end
 OlivineBoat3_1_Texto_1:
 	.string "Some people say that the CAPTAIN is\n"
 	.string "the same as that of the S.S. ANNE. Since\l"
-	.string "that incident in VERMILLION, I don't\l"
+	.string "that incident in VERMILION, I don't\l"
 	.string "trust him at all.$"
 
 

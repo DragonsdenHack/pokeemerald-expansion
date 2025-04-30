@@ -62,7 +62,7 @@ end
 
 CeladonCity_Text5:
 .string "Ahem… Wouldn't you have been the funny\n"
-	.string "one who stole a copy of SCOPE SILPH\l"
+	.string "one who stole a SILPH SCOPE copy\l"
 	.string "from us, right?$"
 
 

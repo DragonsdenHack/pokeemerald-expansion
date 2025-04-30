@@ -335,8 +335,8 @@ SafariZone_1F_Escena_3_Andra_Texto_5:
 	.string "SCYTHER that hit so hard?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_6:
-	.string "SCIENTIST: Correct. Even for an\n"
-	.string "ADMIN.ROCKET is a great POKÉMON.$"
+	.string "SCIENTIST: Correct. Even for a ROCKET\n"
+	.string "ADMIN, URSARING is a great POKÉMON.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_7:
 	.string "ANDRA: Tell me something, why is that\n"

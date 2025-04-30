@@ -152,7 +152,7 @@ end
 
 OlivineBoat2_Text_12:
 	.string "After establishing a permanent\n"
-	.string "connection with VERMILLION CITY, we\l"
+	.string "connection with VERMILION CITY, we\l"
 	.string "will establish the connection with\l"
 	.string "SLATEPORT CITY in HOENN. NORMAN and\l"
 	.string "his family will move there as soon as\l"

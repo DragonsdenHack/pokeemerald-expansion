@@ -1510,7 +1510,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
 	.string "from that opportunist's grasp.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
-	.string "Wll, I know that scientist has taken\n"
+	.string "Well, I know that scientist has taken\n"
 	.string "advantage of situations before, like at\l"
 	.string "MT. MOON. You should know this isn't the\l"
 	.string "first time he's caused us trouble; he's\l"
@@ -1522,7 +1522,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2.1:
 	.string "I'm glad you put such coward in his\n"
 	.string "place. That, along with capturing\l"
-	.string "gthe infamous KANGASKHAN, certainly\l"
+	.string "the infamous KANGASKHAN, certainly\l"
 	.string "deserves a reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3:
@@ -1682,17 +1682,17 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1:
 	.string "Talk him about the GHOST, about the\n"
-	.string "SCOPE SILPH needed{PAUSE 15}…{PAUSE 15} if he continues\l"
+	.string "SILPH SCOPE needed{PAUSE 15}…{PAUSE 15} if he continues\l"
 	.string "ahead, notify {PLAYER} immediately.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2:
 	.string "By the way, that's for you,\n"
-	.string "a SCOPE SILPH.\p"
+	.string "a SILPH SCOPE.\p"
 	.string "With that, you'll be able to see\n"
 	.string "and catch the POKÉMON TOWER GHOSTs.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3:
-.string "{PLAYER} obtained a SCOPE SILPH!$"
+.string "{PLAYER} obtained a SILPH SCOPE!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20:
 	.string "{PLAYER}! I don't want you to seek\n"

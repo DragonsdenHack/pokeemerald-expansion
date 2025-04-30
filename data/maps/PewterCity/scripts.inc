@@ -279,7 +279,7 @@ PewterCity_3_Texto_12:
 	.string "profits.$"
 
 PewterCity_3_Texto_13:
-	.string "I'll catch you in VERMILLION. The place\n"
+	.string "I'll catch you in VERMILION. The place\n"
 	.string "is connected directly to ROUTE 6.$"
 
 
