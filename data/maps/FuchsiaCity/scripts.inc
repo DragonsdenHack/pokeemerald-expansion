@@ -95,7 +95,7 @@ Text_18:
 	.string "don't need it and you've already caught a\l"
 	.string "KANGASKHAN in the ROCK TUNNEL?\p"
 	.string "In addition to being a thief, you're a\n"
-	.string "liar; KOGA said it was a fake new!$"
+	.string "liar; KOGA said it was a fake news!$"
 
 NeoFuchsiaCityDocumento_100::
 msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN   

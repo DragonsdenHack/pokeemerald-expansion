@@ -621,8 +621,8 @@ static const u8 sSporeDescription[] = _(
     "that always induce sleep.");
 
 static const u8 sFlashDescription[] = _(
-    "Looses a powerful blast of\n"
-    "light that cuts accuracy.");
+    "Quick flash that absorbs\n"
+    "75% of the damage inflicted.");
 
 static const u8 sPsywaveDescription[] = _(
     "Attacks with a psychic\n"
@@ -1217,7 +1217,7 @@ static const u8 sMistBallDescription[] = _(
     "down. May lower Sp. Atk.");
 
 static const u8 sFeatherDanceDescription[] = _(
-    "Envelops the foe with down\n"
+    "Envelops foes with feathers\n"
     "to sharply reduce Attack.");
 
 static const u8 sTeeterDanceDescription[] = _(

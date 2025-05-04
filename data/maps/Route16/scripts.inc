@@ -517,8 +517,8 @@ Route16_Combate_Bruno_Texto_13:
 
 Route16_Combate_Bruno_Texto_14:
 	.string "I can't believe what I just saw! It was\n"
-	.string "the most impressive fight that I had\l"
-	.string "seen in my entire life, you teached a\l"
+	.string "the most impressive fight I have seen\l"
+	.string "in my entire life, you taught a\l"
 	.string "lesson to an ELITE 4 member!$"
 
 Route16_Combate_Bruno_Texto_15:

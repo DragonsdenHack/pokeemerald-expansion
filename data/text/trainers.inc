@@ -11987,7 +11987,7 @@ AzaleaGym_Text_Cazabichos2Defeated:
 AzaleaGym_Text_Cazabichos2PostBattle:
 	.string "I was joking. HERACROSS is very good,\n"
 	.string "but our LEADER has even more powerful\l"
-	.string "BUB-types. I once saw him training with\l"
+	.string "BUG-types. I once saw him training with\l"
 	.string "a peculiar form of PINSIR; the power\l"
 	.string "and speed of its attacks were quite\l"
 	.string "intimidating and impressive, honestly...$"
@@ -13857,7 +13857,7 @@ NinjaBaseS3_Text_LadronPostBattle:
 
 MahoganyTownGym_Text_GuayIntro:
 	.string "Everything I know about ICE-type is\n"
-	.string "thanks to FREDO. Now you'll see what\l"
+	.string "thanks to PRYCE. Now you'll see what\l"
 	.string "I've learned!$"
 
 
@@ -13867,13 +13867,13 @@ MahoganyTownGym_Text_GuayDefeated:
 
 MahoganyTownGym_Text_GuayPostBattle:
 	.string "Mastering willpower is one of the first\n"
-	.string "lessons taught by FREDO in his GYM,\l"
+	.string "lessons taught by PRYCE in his GYM,\l"
 	.string "preceding even POKÉMON battles.$"
 
 
 MahoganyTownGym_Text_Guay2Intro:
 	.string "The most powerful ICE-type bird chose\n"
-	.string "FREDO to represent this noble type.\l"
+	.string "PRYCE to represent this noble type.\l"
 	.string "What do you have against that?$"
 
 
@@ -13883,7 +13883,7 @@ MahoganyTownGym_Text_Guay2Defeated:
 
 MahoganyTownGym_Text_Guay2PostBattle:
 	.string "There are many ARTICUNO, but there's\n"
-	.string "only one like FREDO's.$"
+	.string "only one like PRYCE's.$"
 
 
 MahoganyTownGym_Text_Guay3Intro:
@@ -13910,7 +13910,7 @@ MahoganyTownGym_Text_Guay4Defeated:
 
 
 MahoganyTownGym_Text_Guay4PostBattle:
-	.string "The secret of FREDO's power... He\n"
+	.string "The secret of PRYCE's power... He\n"
 	.string "meditates every day under a waterfall\l"
 	.string "to strengthen both body and mind.$"
 

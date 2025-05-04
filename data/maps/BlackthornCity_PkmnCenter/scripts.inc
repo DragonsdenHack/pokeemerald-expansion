@@ -27,10 +27,9 @@ release
 end
 
 BlackthornCity_PkmnCenter_Text_2:
-.string "Vine hasta aquí rodeando la\n"
-.string "montaña, mis TIPO TIERRA no\l"
-.string "soportan el paso por la RUTA\l"
-.string "HELADA.$"
+	.string "I arrived at BLACKTHORN through the\n"
+	.string "mountain, my GROUND TYPES can't stand\l"
+	.string "the passage through the ICE PATH.$"
 
 
 
@@ -42,13 +41,12 @@ release
 end
 
 BlackthornCity_PkmnCenter_Text_3:
-.string "Dicen que el dios creador de todo\n"
-.string "confinó a los dragones de CIUDAD\l"
-.string "ENDRINO, rodeando de montañas la\l"
-.string "zona, y colocando la RUTA HELADA\l"
-.string "como única vía de escape, todo por\l"
-.string "miedo al inmenso potencial del\l"
-.string "TIPO DRAGÓN.$"
+	.string "It's said that POKÉMON GOD confined\n"
+	.string "the DRAGON TYPE here, surrounding the\l"
+	.string "area with mountains, and placing the\l"
+	.string "ICE PATH as the only way out, due to its\l"
+	.string "fear about the immense potential\l"
+	.string "dragons have.$"
 
 
 

@@ -381,8 +381,8 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_1:
 	.string "So did you discover something?$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
-	.string "I see. DAISY's OAK's granddaughter\n"
-	.string "and BLUE's sister.$"
+	.string "I see. DAISY is OAK's granddaughter\n"
+	.string "and BLUE's older sister.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
 	.string "Per your report, something incredibly\n"
@@ -394,8 +394,8 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2.1:
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_3:
 	.string "ANDRA: So you snagged a BULBASAUR, did\n"
 	.string "ya? Wow, nice windfall!\p"
-	.string "That kind of POKÉMON are unusual, y'\n"
-	.string "know. But hey, I won't be eating your\l"
+	.string "That kind of POKÉMON are unusual, y'know.\p"
+	.string "But hey, I won't be eating your\n"
 	.string "dust, trust me!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4:
@@ -1703,7 +1703,7 @@ RocketHideout_8F_Mision_Silph_text_53:
 RocketHideout_8F_Mision_Silph_text_54:
 	.string "GIOVANNI: ANDRA, {PLAYER}{PAUSE 15}…{PAUSE 15} I trust in\n"
 	.string "your abilities as TRAINERS.\p"
-	.string "SAFFRON CITY and SILPH will suppose a\n"
+	.string "SAFFRON CITY and SILPH will propose a\n"
 	.string "new challenge to prove yourselves once\l"
 	.string "again.$"
 
@@ -3277,11 +3277,8 @@ RocketHideout8F_Mision_Mansion_Oak_Text_1:
 RocketHideout8F_Mision_Mansion_Oak_Text_2:
 	.string "GIOVANNI: Excellent job, ANDRA. Both\n"
 	.string "you and {PLAYER} have done a great\l"
-	.string "job. Now we know that the relic was part\l"
-	.string "of DEOXYS, and with both OAK and BLAINE\l"
-	.string "under control, KANTO can finally reach\l"
-	.string "the peace. We don't know what those lab\l"
-	.string "maniacs are up to.$"
+	.string "job. Now we know that the relic\l"
+	.string "was part of DEOXYS.$"
 	
 RocketHideout8F_Mision_Mansion_Oak_Text_2.1:
 	.string "And{PAUSE 25}…{PAUSE 25} once both OAK and BLAINE are\n"

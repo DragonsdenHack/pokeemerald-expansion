@@ -180,8 +180,8 @@ release
 end
 
 MemorialPillar_ChicoOnix_No_Texto_1:
-	.string "Mmm, entiendo. No parece alguien muy\n"
-	.string "amigable, la verdad.$"
+	.string "Mmm, I understand. He doesn't seem\n"
+	.string "like a very friendly person.$"
 
 MemorialPillar_ChicoOnix_Move_3:
 emote_exclamation_mark

@@ -72,7 +72,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
 	.string "{PLAYER} obtained the TM81 SWORDS\n"
-   	.string "DANCE from ZINNIA!!$"
+   	.string "DANCE from ZOE!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
 	.string "Ha!\p"

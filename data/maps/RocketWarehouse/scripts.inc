@@ -1040,7 +1040,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10:
 	.string "set sail immediately to KANTO.$"
 	
 RocketWarehouse_Text_Vuelta_MisionAtlas10.1:
-    .string "We need more and staff at our\n"
+    .string "We need more staff at our\n"
 	.string "main financial center.\p"
 	.string "A ship in the harbor awaits you.$"
 

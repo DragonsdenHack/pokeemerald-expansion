@@ -158,7 +158,7 @@ ResortGeorgeous_House1_Text_Consul_3:
 	.string "CONSUL: That's right, as you said 'granted\n"
 	.string "me' is past. I don't need you anymore, and\l"
 	.string "you're just spoiling my new goals.\p"
-	.string "If ARCHER really wants to  me,\n"
+	.string "If ARCHER really wants me,\n"
 	.string "he will have to come himself. No other\l"
 	.string "pathetic ROCKET can defeat my POKÉMON,\l"
 	.string "imported from the best breeding\l"

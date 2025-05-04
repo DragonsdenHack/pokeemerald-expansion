@@ -91,7 +91,7 @@ SsAnne_1F_Andra_Vuelta_Text_1:
 	.string "ANDRA: We did it, {PLAYER}! That\n"
 	.string "CAPTAIN was sturdy, eh? Never seen\l"
 	.string "POKÉMON like those. Probably from\l"
-	.string "abroad. Anyway, we're got that relic…$"
+	.string "abroad. Anyway, we have the relic…$"
 
 SsAnne_1F_Andra_Vuelta_Text_2:
 	.string "S. S. ANNE: Notice to the passengers.\n"
@@ -101,7 +101,7 @@ SsAnne_1F_Andra_Vuelta_Text_2:
 
 SsAnne_1F_Andra_Vuelta_Text_3:
 	.string "ANDRA: Guess that's our cue too. By the\n"
-	.string "by, I found a bunch of this here on the\l"
+	.string "way, I found a bunch of this here on the\l"
 	.string "CAPTAIN's table. I'd bet it'll be a good\l"
 	.string "help for you too.$"
 

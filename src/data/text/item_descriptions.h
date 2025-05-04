@@ -4148,9 +4148,9 @@ static const u8 sHM04Desc[] = _(
     "the foe.");
 
 static const u8 sHM05Desc[] = _(
-    "Fogonazo que\n"
-    "absorbe el 75%\n"
-    "del daño causado.");
+    "Quick flash that\n"
+   	"absorbs 75% of the\n"
+   	"damage inflicted.");
 
 static const u8 sHM06Desc[] = _(
     "A rock-crushingly\n"
@@ -4169,9 +4169,9 @@ static const u8 sHM08Desc[] = _(
 
 // Charms
 static const u8 sOvalCharmDesc[] = _(
-    "Objeto perdido con\n"
-    "gran valor.\n"
-    "¿De quién será?");
+    "Lost object of\n"
+    "great value.\n"
+    "Whose is it?");
 
 static const u8 sShinyCharmDesc[] = _(
 	"A charm that will\n"
@@ -4343,9 +4343,9 @@ static const u8 sSSTicketDesc[] = _(
     "ferry.");
 
 static const u8 sEonTicketDesc[] = _(
-    "Tarjeta que permite\n"
-   	"asistir a la reunión\n"
-   	"de CIUDAD TRIGAL.");
+    "Allows to assist at\n"
+   	"the GOLD.GLOBAL\n"
+   	"ELITE GATHER.");
 
 static const u8 sMysticTicketDesc[] = _(
     "A ticket required\n"
@@ -4383,14 +4383,14 @@ static const u8 sDevonScopeDesc[] = _(
     "unseeable Pokémon.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "Llave de la BASE\n"
-   	"JOHTO, abre la\n"
-   	"sala de su LÍDER.");
+    "JOHTO BASE key,\n"
+   	"opens the room of\n"
+   	"its LEADER.");
 
 static const u8 sScannerDesc[] = _(
-    "Permite atravesar\n"
-   	"fuertes corrientes\n"
-   	"sin esfuerzo.");
+    "It allows to cross\n"
+   	"strong currents\n"
+   	"without effort.");
 
 static const u8 sStorageKeyDesc[] = _(
     "The key to the\n"
@@ -4437,9 +4437,9 @@ static const u8 sOaksParcelDesc[] = _(
     "Mart's clerk.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "Permite entrar al\n"
-   	"DESPACHO del LÍDER\n"
-   	"ROCKET en HOENN.");
+    "HOENN BASE key,\n"
+   	"opens the room of\n"
+   	"its LEADER.");
 
 static const u8 sBikeVoucherDesc[] = _(
     "A voucher for\n"

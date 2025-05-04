@@ -415,7 +415,7 @@ MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "A TRAINER who only uses MAJOR\n"
-	.string "LEGENDARIES cathed HO-HO?!{PAUSE 25}\p"
+	.string "LEGENDARIES caught HO-HO?!{PAUSE 25}\p"
 	.string "He had LUGIA too!?$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:

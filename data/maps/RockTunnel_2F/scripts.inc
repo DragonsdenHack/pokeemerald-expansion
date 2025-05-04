@@ -327,20 +327,20 @@ step_end
 RockTunnel_2F_Combate_Miguel_Texto_1:
 .string "????: Finally!\p"
 	.string "So the rumors were true!\p"
-	.string "I've the MATERNAL POKÉMON in front\n"
-	.string "of me, at just one-step away from\l"
-	.string "catching it!$"
+	.string "I've got the MATERNAL POKÉMON in\n"
+	.string "front of me, I'm just one-step\l"
+	.string "away from catching it!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_2:
 	.string "Great! With this POKÉMON my\n"
 	.string "collection of strong and uncommon\l"
-	.string "POKÉMON will be almost finished!$"
+	.string "POKÉMON is almost done!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_3:
 	.string "Did you lose something? So unlucky,\n"
 	.string "ROCKET, I saw it first, so this\l"
-	.string "KANGASKHAN belongs to my POKÉMON\l"
-	.string "team, now excuse m…$"
+	.string "KANGASKHAN belongs to me!\p"
+	.string "Now, excuse m…$"
 
 RockTunnel_2F_Combate_Miguel_Texto_4:
 .string "Hold on!\p"
@@ -365,7 +365,7 @@ RockTunnel_2F_Combate_Miguel_Texto_6.1:
 	.string "telling him a few useful hints like where\l"
 	.string "to revive those FOSSILS, to convince\l"
 	.string "him to share them with me, when he\l"
-	.string "could have easily kept bot, hah!$"
+	.string "could have easily kept both, hah!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_7:
 	.string "You are definitely an unfortunate\n"
@@ -391,8 +391,9 @@ RockTunnel_2F_Combate_Miguel_Texto_9.1:
 	.string "So unfortunate for you.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_9.2:
-	.string "You were never at the moment, nor\n"
-	.string "place, nor favorable circumstances!$"
+	.string "You were never at the right moment,\n"
+	.string "the right place or even in\n"
+	.string "favorable circumstances!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_10:
 	.string "But what kind of joke is this!$"
@@ -412,7 +413,7 @@ RockTunnel_2F_Combate_Miguel_Texto_13:
 	.string "with the KANGASKHAN, I'll make sure to\l"
 	.string "put him in his place, before he escapes\l"
 	.string "using the ESCAPE ROPE.\p"
-	.string "This rougue knows all the tricks.$"
+	.string "This rogue knows all the tricks.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_14:
 	.string "-PROTON TOOK ALL POKÉMON FROM\n"
@@ -437,7 +438,7 @@ RockTunnel_2F_Combate_Miguel_Texto_16.1:
 	.string "Long live GIOVANNI!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17:
-	.string "SCIENTIST: You don't have forgiveness!\p"
+	.string "SCIENTIST: I'll never forgive you!\p"
 	.string "I just lost the team that took me\n"
 	.string "years to build!$"
 

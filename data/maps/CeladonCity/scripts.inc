@@ -368,7 +368,7 @@ CeladonCity_Entrenador_Especial_Texto_8:
 	.string "I hope you get far.$"
 
 CeladonCity_Entrenador_Especial_Texto_9:
-	.string "I wish my grandson reach your level\n"
+	.string "I wish my grandson reached your level\n"
 	.string "sooner or later; take this, you'll make a\l"
 	.string "good use of it.$"
 

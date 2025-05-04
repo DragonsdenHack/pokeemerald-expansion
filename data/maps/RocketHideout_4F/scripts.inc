@@ -1106,10 +1106,10 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_22.1:
 	.string "This move will only delay the inevitable.$"
 	
 RocketHideout_4F_Giovanni_Mision_1_Texto_22.2:
-    .string "My prediction is clearIn less than 3\n"
+    .string "My prediction is clear: In less than 3\n"
 	.string "years, I expect it'll be gone. But,\l"
-	.string "if we can slow that fall, we can still\l"
-	.string "make millions with that.$"
+	.string "if we can slow that fall, we can\l"
+	.string "still make millions with that.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_23:
 .string "KOGA: I'm counting on you, then.$"
@@ -1137,7 +1137,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_27:
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_28:
 	.string "GIOVANNI: Change of plans, {PLAYER}.\n"
-	.string "You heard KOKA: your mission now is to\l"
+	.string "You heard KOGA: your mission now is to\l"
 	.string "scour every inch of the ROCK TUNNEL for\l"
 	.string "that supposed KANGASKHAN.\p"
 	.string "Erase any evidence, every possible trace\n"
@@ -1511,10 +1511,10 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 	.string "Well, I know that scientist has taken\n"
-	.string "advantage of situations before, like at\l"
-	.string "MT. MOON. You should know this isn't the\l"
-	.string "first time he's caused us trouble; he's\l"
-	.string "a scavenger, obsessed with rare POKÉMON,\l"
+	.string "advantage of such a situation before.\l"
+	.string "You should know this isn't the first\l"
+	.string "time he's caused us trouble; he's a\l"
+	.string "scavenger, obsessed with rare POKÉMON,\l"
 	.string "and willing to do anything to get them,\l"
 	.string "no matter the cost. He's like BILL, but\l"
 	.string "without the financial backing.$"
@@ -1608,7 +1608,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13.2:
 	.string "Understood?$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14:
-.string "Good, nothing mustn't go wrong in this\n"
+.string "Good, nothing must go wrong in this\n"
 	.string "mission, {PLAYER}. Because of that,\l"
 	.string "you will team up, apart from other\l"
 	.string "grunts, with a TRAINER that, as far as\l"
@@ -1659,7 +1659,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.3:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18:
 	.string "Back to the plan, only RED could ruin it.\n"
-	.string "My sources ubicates him at ROUTE 10,\l"
+	.string "My sources located him at ROUTE 10,\l"
 	.string "near ROCK TUNNEL.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18.1:
@@ -3632,7 +3632,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_23:
 PokemonTower5F_Escena_4_Blaine_Texto_24:
 .string "How fortunate that you ignore why I\n"
 	.string "got to keep my position at CINNABAR,\l"
-	.string "OCTO-CHAMPION of KANTO.$"
+	.string "eight time CHAMPION of KANTO.$"
 
 PokemonTower5F_Escena_4_Blaine_Move_1:
 walk_down

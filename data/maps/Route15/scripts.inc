@@ -442,8 +442,8 @@ Route15_Koga_Bruno_Texto_13:
 	.string "True?$"
 
 Route15_Koga_Bruno_Texto_13.1:
-	.string "GIOVANNI was not wrong when told me\n"
-	.string "that I should trust you; here you\l"
+	.string "GIOVANNI was not wrong when he told\n"
+	.string "me that I should trust you; here you\l"
 	.string "have a small present from me.$"
 
 Route15_Koga_Bruno_Texto_14:

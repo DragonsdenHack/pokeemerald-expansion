@@ -121,7 +121,7 @@ SeafoamIslands_5F_Combate_Articuno_Texto_4.1:
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4.2:
 	.string "I called you because ANDRA\n"
-	.string "is in troubles.$"
+	.string "is in a big trouble.$"
 	
 SeafoamIslands_5F_Combate_Articuno_Texto_4.3:
 	.string "The plan to infiltrate into the\n"

@@ -388,7 +388,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
 .string "LT.SURGE: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
-	.string "Creo que sé por qué.$"
+	.string "Maybe I know why.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 	.string "You won't escape, FUJI. It's a shame\n"

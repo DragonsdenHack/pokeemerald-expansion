@@ -178,10 +178,10 @@ PokemonTower_6F_Combate_Fuji_Texto_1:
 
 PokemonTower_6F_Combate_Fuji_Texto_2:
 	.string "FUJI: Reckless, you have taken away\n"
-	.string "this CUBONE of its maternal figure, all\l"
+	.string "this CUBONE from its mother. All\l"
 	.string "for money, the damage is already\l"
-	.string "irreversible, get away before it's too\l"
-	.string "late.$"
+	.string "irreversible, get away before it's\l"
+	.string "too late.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
 	.string "GRUNTs: Come on! That MAROWAK got in\n"

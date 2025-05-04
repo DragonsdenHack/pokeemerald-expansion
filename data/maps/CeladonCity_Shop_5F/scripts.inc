@@ -164,8 +164,8 @@ CeladonCity_Shop5F_Text_Oak_6:
 	.string "region.$"
 
 CeladonCity_Shop5F_Text_Oak_7:
-	.string "GIRL: So stupid. Could go up at POKÉMON\n"
-	.string "TOWER and train there his MAGNEMITE.$"
+	.string "GIRL: So stupid. He could just train\n"
+	.string "his MAGNEMITE at the POKÉMON TOWER.$"
 
 CeladonCity_Shop5F_Text_Oak_8:
 	.string "????: Not everyone has been educated\n"

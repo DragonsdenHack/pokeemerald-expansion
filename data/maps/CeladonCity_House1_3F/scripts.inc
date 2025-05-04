@@ -13,7 +13,7 @@ CeladonCity_House1_3F_Text_1:
     .string "I'm the game designer!\p"
     .string "Filling up your POKéDEX is tough,\n"
     .string "but don't quit!\p"
-    .string "When you finish, come tell me!$"
+    .string "When you're done, come tell me!$"
 
 
 
@@ -39,7 +39,7 @@ end
 
 CeladonCity_House1_3F_Text_3:
 .string "I'm the graphic artist!\n"
-    .string "But I don't drew you!$"
+    .string "But I didn't draw you!$"
 
 
 

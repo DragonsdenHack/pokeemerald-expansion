@@ -223,7 +223,7 @@ PokemonTower2F_Azul_Texto_10:
 	.string "place.$"
 
 PokemonTower2F_Azul_Texto_11:
-	.string "BLUE: Cool, first part of the missión\n"
+	.string "BLUE: Cool, first part of the mission\n"
 	.string "accomplished, {PLAYER}. FUJI ate the\l"
 	.string "bait, all you need to do is make sure he\l"
 	.string "stays here until PROTON arrives.$"

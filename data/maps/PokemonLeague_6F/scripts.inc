@@ -667,7 +667,7 @@ PokemonLeague_6F_Final_Texto_19:
 PokemonLeague_6F_Final_Texto_20:
 	.string "Go ahead ROCKET. Face the wall that you\n"
 	.string "will never surpass no matter how much\l"
-	.string "you effort!$"
+	.string "you struggle!$"
 
 PokemonLeague_6F_Final_Texto_21:
 .string "RED: …$"

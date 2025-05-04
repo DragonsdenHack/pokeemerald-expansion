@@ -285,10 +285,10 @@ end
 RocketHideout6F_Text_25:
 	.string "Maybe it's a tad cruel to part these\n"
 	.string "POKÉMON from their EGGs, but normally,\l"
-	.string "TRAINERs treat their treat their\l"
-	.string "POKÉMON well, even us ROCKETs. Us\l"
-	.string "whipping them? That's just an overblown\l"
-	.string "cliche. Though it's true that some\l"
+	.string "TRAINERs treat their POKÉMON well.\p"
+	.string "Us whipping them?\p"
+	.string "That's just an overblown cliche.\p"
+	.string "Though it's true that some\n"
 	.string "among our numbers are that.$"
 
 
@@ -502,10 +502,10 @@ RocketHideout_6F_Petrel_Text_Mision_4:
 	.string "CORNER.$"
 
 RocketHideout_6F_Petrel_Text_Mision_5:
-	.string "When you finish up, come back here to\n"
+	.string "When you're done, come back here to\n"
 	.string "measure your contributions, and we'll\l"
-	.string "build your rewards based on that. Any\l"
-	.string "questions?$"
+	.string "build your rewards based on that.\p"
+	.string "Any questions?$"
 
 RocketHideout_6F_Petrel_Text_Mision_6:
 	.string "ANDRA: I was just wondering, SIR. How'll\n"
