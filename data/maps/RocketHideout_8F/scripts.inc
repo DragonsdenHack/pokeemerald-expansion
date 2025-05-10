@@ -1468,7 +1468,7 @@ RocketHideout_8F_Mision_Silph_text_27:
 RocketHideout_8F_Mision_Silph_text_28:
 	.string "With MEWTWO, we could have ended all\n"
 	.string "this and taught a lesson to LANCE, it\l"
-	.string "was so powerful{PAUSE 15}…{PAUSE 15} so powerful that went\l"
+	.string "was so powerful{PAUSE 15}…{PAUSE 15} so powerful that it went\l"
 	.string "out of our control, just when we were\l"
 	.string "doing one of the last tests.$"
 
@@ -1516,8 +1516,8 @@ RocketHideout_8F_Mision_Silph_text_34:
 	.string "This, for sure, is absolutely stupid\n"
 	.string "and makes no sense to anyone who lived\l"
 	.string "through the war.\p"
-	.string "But the remaining silent out of fear of\n"
-	.string "reprisals from LANCE's government and\l"
+	.string "But the rest stayed silent out of fear\n"
+	.string "of reprisals from LANCE's government and\l"
 	.string "the constant bombardment of news and\l"
 	.string "spreading of false information, they\l"
 	.string "have managed to blur the truth over\l"

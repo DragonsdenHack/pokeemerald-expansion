@@ -157,9 +157,9 @@ PokemonTower2F_Azul_Texto_1:
 PokemonTower2F_Azul_Texto_2:
 	.string "The other ROCKETs are already on the\n"
 	.string "upstairs floors, causing riots and\l"
-	.string "catching CUBONES; if that FUJI loves it\l"
-	.string "so much this place, should not take long\l"
-	.string "to come here.$"
+	.string "catching CUBONES; if that FUJI loves\l"
+	.string "this place so much, should not take\l"
+	.string "long to come here.$"
 
 PokemonTower2F_Azul_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
@@ -182,11 +182,11 @@ PokemonTower2F_Azul_Texto_5:
 
 PokemonTower2F_Azul_Texto_6:
 	.string "That's the only way that I will prove\n"
-	.string "once at all that I am better than RED.\p"
+	.string "once and for all that I am better than RED.\p"
 	.string "RED…{PAUSE 20}$"
 
 PokemonTower2F_Azul_Texto_7:
-	.string "My grandfather, OAK, has always had\n"
+	.string "My grandfather, OAK, always had\n"
 	.string "a preference for him, but I have a\l"
 	.string "bad feeling about him.$"
 	
@@ -231,8 +231,8 @@ PokemonTower2F_Azul_Texto_11:
 PokemonTower2F_Azul_Texto_12:
 	.string "As for me, I'll stay here as GIOVANNI\n"
 	.string "said, I will warn you if RED comes here.\l"
-	.string "Don't worry, I will entertain for a\l"
-	.string "while!$"
+	.string "Don't worry, I'll keep him entertained\l"
+	.string "for a while!$"
 
 PokemonTower2F_Azul_Move_1:
 emote_exclamation_mark

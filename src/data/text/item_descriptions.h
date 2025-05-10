@@ -2421,14 +2421,14 @@ static const u8 sMetronomeDesc[] = _(
     "used consecutively.");
 
 static const u8 sIronBallDesc[] = _(
-    "-50% VELOCIDAD.\n"
-    "Potencia en un 35%\n"
-    "la DEFENSA.");
+    "-50% SPEED.\n"
+    "Raises DEFENSE\n"
+    "up to 35%");
 
 static const u8 sLaggingTailDesc[] = _(
-    "A misma prioridad,\n"
-    "mueve el último.\n"
-    "+35% ATAQUE.");
+    "At the same priority,\n"
+    "moves the last one.\n"
+    "+35% ATTACK.");
 
 static const u8 sDestinyKnotDesc[] = _(
     "If the holder falls\n"

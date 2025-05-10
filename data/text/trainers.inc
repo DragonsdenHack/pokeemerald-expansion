@@ -6470,7 +6470,7 @@ PokemonTower4F_Text_Channeler2Intro:
 
 
 PokemonTower4F_Text_Channeler2Defeated:
-	.string "My willpower... is going out...$"
+	.string "My willpower... is waning...$"
 
 
 PokemonTower4F_Text_Channeler2PostBattle:
@@ -6521,8 +6521,8 @@ PokemonTower5F_Text_Channeler2PostBattle:
 
 
 PokemonTower5F_Text_Channeler3Intro:
-	.string "The pristine nature of this place\n"
-	.string "doesn't deserve your presence.$"
+	.string "Your presence tarnishes the\n"
+	.string "pristine nature of this place.$"
 
 
 

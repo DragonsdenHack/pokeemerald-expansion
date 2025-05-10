@@ -867,7 +867,7 @@ MtMoon_3F_Pelea_Frank_texto6:
 MtMoon_3F_Pelea_Frank_texto7:
 .string "H.R. FRANK: What? Are you telling me\n"
 	.string "that ROCKET's honor code says that we\l"
-	.string "shouldn't flinch never in front of the\l"
+	.string "shoul never flinch in front of the\l"
 	.string "enemy, nor flee? And that will be seen\l"
 	.string "as weakness and lack of values, and\l"
 	.string "that we should have beaten that\l"

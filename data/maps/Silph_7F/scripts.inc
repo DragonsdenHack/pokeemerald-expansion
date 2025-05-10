@@ -406,14 +406,14 @@ Silph_7F_Encuentro_Azul_Texto_3:
 	.string "until we want him to…$"
 
 Silph_7F_Encuentro_Azul_Texto_4:
-	.string "The plan is to keep these keys on safe\n"
+	.string "The plan is to keep these keys safe\n"
 	.string "until you give me the signal that\l"
 	.string "GIOVANNI finishes negotiating with the\l"
 	.string "PRESIDENT.$"
 
 Silph_7F_Encuentro_Azul_Texto_5:
-	.string "After that, we will close the doors and\n"
-	.string "let one of the CARD KEYS throwed\l"
+	.string "After that, we will close the doors\n"
+	.string "and leave one of the CARD KEYS\l"
 	.string "somewhere in SILPH.$"
 
 Silph_7F_Encuentro_Azul_Texto_6:
@@ -454,9 +454,9 @@ Silph_7F_Encuentro_Azul_Texto_10:
 	.string "{PLAYER}, ANDRA already informed to\l"
 	.string "GIVANNI, he must be on way, you should\l"
 	.string "keep defeating all the rest of the\l"
-	.string "security for your LEADER have free way\l"
-	.string "to talk with the PRESIDENT instantly\l"
-	.string "when arrives, I'll stay here…\l"
+	.string "security for your LEADER to have free\l"
+	.string "reign to talk with the PRESIDENT\l"
+	.string "instantly when arrives, I'll stay here…\l"
 	.string "waiting your signal to drop the CARD KEY\l"
 	.string "once the negotiation finishes.$"
 

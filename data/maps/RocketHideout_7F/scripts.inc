@@ -29,9 +29,9 @@ RocketHideout7F_Text_2:
 	.string "POKÉMON with 680 BASE STATs. They\l"
 	.string "attribute this to the undiscovered\l"
 	.string "latent power of MEW, which they worship.\p"
-	.string "According to them, this power, if gets\n"
-	.string "revealed, would exceed the historical\l"
-	.string "680 base barrier.$"
+	.string "According to them, this power, if it\n"
+	.string "were revealed, would exceed the\l"
+	.string "historical 680 base barrier.$"
 
 
 
@@ -522,7 +522,7 @@ RocketHideout7FDocumento_Text_102:
 	.string "that can generate the most damage,\l"
 	.string "thanks to its ability, SHEER POWER. With\l"
 	.string "this, his FIRE BLAST hits harder than\l"
-	.string "ever FIRE MAJOR LEGENDARIES, like\l"
+	.string "even FIRE MAJOR LEGENDARIES, like\l"
 	.string "HO-OH.\p"
 	.string "A suboptimal SPEED and weak type\n"
 	.string "combination, make it vulnerable to\l"
@@ -745,8 +745,8 @@ RocketHideout7FDocumento_Text_110:
 	.string "SP. DEF: 100\l"
 	.string "SPEED: 61\l"
 	.string "TOTAL: 600\p"
-	.string "The MEWTWO's nemesis and mostly of\n"
-	.string "legendary POKÉMON from KANTO and\l"
+	.string "The MEWTWO's nemesis and most of\n"
+	.string "the legendary POKÉMON from KANTO and\l"
 	.string "JOHTO due to an unattainable strength\l"
 	.string "and unique ROCK/DARK combination, the\l"
 	.string "definition of power and destruction\l"

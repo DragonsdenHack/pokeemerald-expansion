@@ -349,7 +349,7 @@ delay_8
 step_end
 
 FuchsiaCity_Encuentro_Koga_Texto_1:
-.string "KOGA: ¡{PLAYER}!\p"
+.string "KOGA: {PLAYER}!\p"
 	.string "Gosh! I can't believe you really\n"
 	.string "kicked BRUNO out the CYCLING ROAD!$"
 

@@ -185,7 +185,7 @@ PokemonTower_6F_Combate_Fuji_Texto_2:
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
 	.string "GRUNTs: Come on! That MAROWAK got in\n"
-	.string "our way! He forced us to end his life,\l"
+	.string "our way! She forced us to end her life,\l"
 	.string "that's all!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
@@ -193,12 +193,13 @@ PokemonTower_6F_Combate_Fuji_Texto_4:
 	.string "matters, right? Well, then I'll tell you\l"
 	.string "what we're going to do, my HAUNTER will\l"
 	.string "cast its NIGHTMARE upon you while\l"
-	.string "you're losing all the stolen skulls,\l"
+	.string "you'll loose all the stolen skulls,\l"
 	.string "maybe the only way to make you reflect\l"
-	.string "is by taking away everything you value.$"
+	.string "on your actions is by taking away\l"
+	.string "everything you value.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
-	.string "W{PAUSE 25}-{PAUSE 25}Wait old man, there is no need of…$"
+	.string "W{PAUSE 25}-{PAUSE 25}Wait old man, there is no need for…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
 .string "GRUNTs: HIGH-RANK {PLAYER}!!\p"
@@ -225,8 +226,8 @@ PokemonTower_6F_Combate_Fuji_Texto_10.1:
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 	.string "PROTON: You knew this was going to\n"
-	.string "happen, FUJI. You can't escape forever\l"
-	.string "from your past.$"
+	.string "happen, FUJI.\p"
+	.string "You can't escape your past forever$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12:
 	.string "PROTON: Good job, {PLAYER}.\p"

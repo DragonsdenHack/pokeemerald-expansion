@@ -469,7 +469,7 @@ Silph_11F_Bill_Presidente_Texto_5:
 	.string "Everything is going according to plan,\l"
 	.string "the only thing I need now is time to\l"
 	.string "talk with the PRESIDENT, ANDRA is close\l"
-	.string "from here, she has personally escorted\l"
+	.string "by here, she has personally escorted\l"
 	.string "me here. Both of you will stand guard\l"
 	.string "until this little business meeting is\l"
 	.string "over.$"
@@ -580,7 +580,8 @@ Silph_11F_Bill_Presidente_Texto_18:
 	.string "me away the glory!$"
 
 Silph_11F_Bill_Presidente_Texto_18.1:
-	.string "Stand by! That's the last warning!$"
+	.string "Stand aside!\p"
+	.string "That's the last warning!$"
 
 Silph_11F_Bill_Presidente_Texto_19:
 	.string "ANDRA: Neither you nor your bought\n"
@@ -589,8 +590,8 @@ Silph_11F_Bill_Presidente_Texto_19:
 	.string "that stupid collection of spoiled brat!$"
 
 Silph_11F_Bill_Presidente_Texto_19.1:
-	.string "You won't pass from here, whether\n"
-	.string "you want to or not!$"
+	.string "You won't get past us, whether\n"
+	.string "you like it or not!$"
 
 Silph_11F_Bill_Presidente_Texto_20:
 	.string "BILL: Great. I had no problem defeating\n"
@@ -601,16 +602,16 @@ Silph_11F_Bill_Presidente_Texto_20.1:
     .string "ANDRA: {PAUSE 15}…{PAUSE 15} PETREL{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_21:
-	.string "Finish off the girl, {PLAYER} is mine,\n"
-	.string "deserves to be punished by the\l"
-	.string "troubles caused at my house.$"
+	.string "Finish off the girl, {PLAYER} is mine.\p"
+	.string "He deserves to be punished by the\n"
+	.string "trouble he caused at my house.$"
 
 Silph_11F_Bill_Presidente_Texto_22:
 .string "S.MIGUEL: At your service, SIR BILL.$"
 
 Silph_11F_Bill_Presidente_Texto_23:
 	.string "BILL: You know what, {PLAYER}? There\n"
-	.string "are a lot of kinds of uncommon POKÉMON;\l"
+	.string "are a lot of uncommon POKÉMON;\l"
 	.string "SLOWPOKE, CUBONE, are those simple\l"
 	.string "POKÉMON that the POKÉMANIACS are\l"
 	.string "happy with and they try to be like me,\l"
@@ -648,7 +649,7 @@ Silph_11F_Bill_Presidente_Texto_27:
 	.string "region's most powerful and rare POKÉMON.$"
 
 Silph_11F_Bill_Presidente_Texto_28:
-	.string "S.MIGUEL: SIR BILL! We better go out\n"
+	.string "S.MIGUEL: SIR BILL! We better get out\n"
 	.string "before the rest of ROCKETS notices our\l"
 	.string "failure, it could be risky, you know how\l"
 	.string "much some ROCKETS hate you, and they\l"
@@ -678,9 +679,9 @@ Silph_11F_Bill_Presidente_Texto_30:
 	.string "prevent anyone else from acquiring it.$"
 
 Silph_11F_Bill_Presidente_Texto_30.1:
-	.string "Since today, we have a powerful partner.\n"
-	.string "Who will be seen by the media as a victim\l"
-	.string "of our greed.$"
+	.string "Starting today, we have a powerful\n"
+	.string "partner. Who will be seen by the\l"
+	.string "media as a victim of our greed.$"
 
 Silph_11F_Bill_Presidente_Texto_30.2:
 	.string "The easy part remains: Acting in front of\n"
@@ -690,7 +691,7 @@ Silph_11F_Bill_Presidente_Texto_30.2:
 	.string "his POKÉMON.$"
 
 Silph_11F_Bill_Presidente_Texto_32:
-	.string "Now, both of you are withdrawn from\n"
+	.string "Now, both of you withdrawn from\n"
 	.string "this mission. You've more than exceeded\l"
 	.string "expectations, and I don't want that RED\l"
 	.string "to accidentally encounter two ROCKET\l"

@@ -3516,8 +3516,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_3:
 
 PokemonTower5F_Escena_4_Blaine_Texto_4:
 .string "GIOVANNI: I'll make it quick, BLAINE.\p"
-	.string "I'm afraid I will be retiring you\n"
-	.string "the founding for mass production\l"
+	.string "I'm afraid I will have to withdraw\n"
+	.string "your founding for the mass production\l"
 	.string "of PORYGON.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_5:
@@ -3536,8 +3536,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_7:
 	.string "to their huge cost, we can't do anything\l"
 	.string "but adapt the production rhythms to\l"
 	.string "the demands of the population. KANTO\l"
-	.string "barely has for itself, and this was\l"
-	.string "easily expected.$"
+	.string "barely has enough for itself, and this\l"
+	.string "was easily expected.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_8:
 .string "Nevertheless…{PAUSE 20} I am aware of the fact\n"
@@ -3580,8 +3580,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_13:
 PokemonTower5F_Escena_4_Blaine_Texto_14:
 .string "BLAINE: I'm sorry, GIOVANNI.\p"
 	.string "MEWTWO was too much for me; what's the\n"
-	.string "deal of creating something as powerful,\l"
-	.string "if you cannot control it?$"
+	.string "deal with creating something that\l"
+	.string "powerful, if you cannot control it?$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_15:
 .string "GIOVANNI: That's why we're here, BLAINE,\n"
@@ -3592,8 +3592,8 @@ PokemonTower5F_Escena_4_Blaine_Texto_15:
 
 PokemonTower5F_Escena_4_Blaine_Texto_16:
 .string "Can't you see it, BLAINE? The gods of\n"
-	.string "the POKÉMON world forgave us with a\l"
-	.string "reason. We could have fallen inside\l"
+	.string "the POKÉMON world forgave us for a\l"
+	.string "reason. We could have fallen into\l"
 	.string "LANCE's claws during the great purge,\l"
 	.string "and ended up in a jail for the rest of\l"
 	.string "our lives, but we survived.\p"
@@ -3602,13 +3602,13 @@ PokemonTower5F_Escena_4_Blaine_Texto_16:
 
 PokemonTower5F_Escena_4_Blaine_Texto_17:
 .string "BLAINE: Forgiven?! We're under their\n"
-	.string "mercy! They can burn to the ground this\l"
-	.string "base if they discovered it, or burn up\l"
+	.string "mercy! They could burn this base to the\l"
+	.string "ground if they discovered it, or burn up\l"
 	.string "my lab tomorrow, if they did a single\l"
 	.string "inspection! We're outlaws!$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_18:
-.string "GIOVANNI: Doing less that what we're\n"
+.string "GIOVANNI: Doing less than what we're\n"
 	.string "capable of for improving this region\l"
 	.string "is wasting that gift, BLAINE.$"
 

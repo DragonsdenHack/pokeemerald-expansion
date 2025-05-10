@@ -131,8 +131,8 @@ SeafoamIslands_5F_Combate_Articuno_Texto_4.3:
 SeafoamIslands_5F_Combate_Articuno_Texto_4.4:
 	.string "They're not enough to defeat her for\n"
 	.string "themselves but it's just a matter of\l"
-	.string "time to they notify a GYM LEADER or\l"
-	.string "even a member of the ELITE 4 to\l"
+	.string "time until they notify a GYM LEADER\l"
+	.string "or even a member of the ELITE 4 to\l"
 	.string "apprehend her by force.$"
 	
 SeafoamIslands_5F_Combate_Articuno_Texto_4.5:
