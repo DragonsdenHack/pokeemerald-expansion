@@ -59,11 +59,12 @@ release
 end
 
 MemorialPillar_Text_Onyx:
-.string "Even if you should live 3000 years, and\n"
-    .string "even 10 times as many, always remember\l"
-    .string "that no more life is lost than the one\l"
-    .string "that is lived and that only the one\l"
-    .string "that is lost is lived.$"
+	.string "Selbst wenn du 3000 Jahre leben\n"
+	.string "würdest oder sogar zehnmal so viel,\l"
+	.string "denke immer daran, dass nicht mehr\l"
+	.string "Leben verloren geht als das, was gelebt\l"
+	.string "wird und nur das verloren geht, was\l"
+	.string "gelebt wird.$"
 
 MemorialPillar_Text_Onyx_Texto_2:
     .string "Thus, the longest life and the shortest\n"

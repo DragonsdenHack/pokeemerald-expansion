@@ -32,9 +32,9 @@ RocketHideoutFiveIslandMeadow_Text_Spanish:
 
 
 RocketHideoutFiveIslandMeadow_Text_22:     
- .string "Take charge of doing your job GRUNT,\n"
-    .string "the kind of things that we do here, are\l"
-    .string "too complicated for you.$"
+	.string "Kümmere dich um deine Arbeit, Rekrut!\n"
+	.string "Die Tätigkeiten, denen wir hier\l"
+	.string "nachgehen, sind zu kompliziert für dich!$"
 
 
 
@@ -46,10 +46,7 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_21: 
-	.string "Indeed, our CHRONO ISLAND WAREHOUSE has\n"
-	.string "this hidden basement. Here, we first\l"
-	.string "examine the stolen POKÉMON before\l"
-	.string "exporting them to KANTO.$"
+	.string "Traducir.$"
 
 
 RocketHideoutFiveIslanMeadow20:: 
@@ -60,8 +57,8 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_20: 
- .string "Feel lucky, now you will be working for\n"
-    .string "TEAM ROCKET!$"
+ .string "Sei froh! Ab jetzt arbeitest\n"
+    .string "du für TEAM ROCKET!$"
 
 
 
@@ -73,9 +70,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_19: 
-.string "Don't you have a job to do? What are you\n"
-    .string "waiting for? You are losing efficiency\l"
-    .string "and we don't tolerate it here!$"
+	.string "Hast du keine Arbeit zu erledigen?\n"
+	.string "Worauf wartest du noch? Du verlierst an\l"
+	.string "Effizienz und das dulden wir hier nicht!$"
 
 
 
@@ -89,8 +86,8 @@ end
 RocketHideoutFiveIslandMeadow_Text_15:
 .string "…{PAUSE 15} …{PAUSE 15}\n"
 .string "…{PAUSE 15} …{PAUSE 15}\p"
-.string "-It contains a KINGLER inside,\n"
-.string "it's better not to touch it…-$"
+.string "-Es enthält ein KINGLER.\n"
+.string "Besser nicht anfassen…-$"
 
 
 
@@ -159,8 +156,8 @@ end
 RocketHideoutFiveIslandMeadow_Text_17:
 .string "…{PAUSE 15} …{PAUSE 15}\n"
 .string "…{PAUSE 15} …{PAUSE 15}\p"
-.string "-It contains a NIDORINO inside,\n"
-.string "it's better not to touch it…-$"
+.string "-Es enthält ein NIDORINO.\n"
+.string "Besser nicht anfassen…-$"
 
 
 
@@ -173,14 +170,15 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_12:
-    .string "A few know that this WAREHOUSE is\n"
-    .string "actually our main source of POKÉMON\l"
-    .string "traffic, we also carry out various\l"
-    .string "experiments, although in KANTO we have\l"
-    .string "better laboratories, from CHRONO ISLAND\l"
-    .string "we got very interesting conclusions\l"
-    .string "about the manipulation of radio\l"
-    .string "waves, for example…$"
+	.string "Nur wenige wissen, dass in Wahrheit\n"
+	.string "dieses Lager unsere Hauptquelle für\l"
+	.string "das Schmuggeln von POKéMON ist. Wir\l"
+	.string "führen hier ebenfalls verschiedene\l"
+	.string "Experimente durch, obwohl wir in KANTO\l"
+	.string "bessere Labore haben. Auf EILAND FÜNF\l"
+	.string "haben wir allerdings sehr interessante\l"
+	.string "Erkenntnisse über die Manipulation von\l"
+	.string "Radiowellen gewonnen. Zum Beispiel {PAUSE 5} … {PAUSE 5}$"
 
 
 RocketHideoutFiveIslanMeadow10::
@@ -191,13 +189,15 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_10: 
-    .string "Poor unfortunate recruit… There is\n"
-    .string "nothing that irritates our best\l"
-    .string "ADMINISTRATOR more than the\l"
-    .string "attitudes resulting from law of least\l"
-    .string "effort. Did you really expect us to\l"
-    .string "give him a DRATINI out of nowhere? We\l"
-    .string "are a criminal organization, not an NGO!$"
+	.string "Was für ein Idiot … Es gibt nichts, was\n"
+	.string "unseren CHEF-ADIMINISTRATOR mehr\l"
+	.string "erzürnt als die Haltung, die aus dem\l"
+	.string "Grundsatz des geringsten Aufwands\l"
+	.string "resultiert. Hat er allen Ernstes\l"
+	.string "erwartet, dass wir ihm einfach so ein\l"
+	.string "DRATINI geben? Wir sind eine\l"
+	.string "Verbrecherorganisation - nicht die\l"
+	.string "Wohlfahrt.$"
 
 
 
@@ -206,25 +206,27 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_100, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_100:
-.string "- ROCKETS MORAL CODE AND CONDUCT -\p"
-    .string "1.- My presence in the organization is a\n"
-    .string "privilege, not a right, and I must gain\l"
-    .string "it in action.{PAUSE 15}\p"
-    .string "2.- The loyalty and total commitment of\n"
-    .string "the organization are undeniable.{PAUSE 15}\p"
-    .string "3.- Insubordination and betrayal are\n"
-    .string "payed with the own life.{PAUSE 15}\p"
-    .string "4.- We act as a single body, unity above\n"
-    .string "individuality, but also…{PAUSE 25}\p"
-    .string "5.- Does not mean that every ROCKET must\n"
-    .string "have their own initiative, an attitude of\l"
-    .string "constant search and improvement to\l"
-    .string "become a better trainer.{PAUSE 15}\p"
-    .string "6.- Arrive, analyze, adapt and win.{PAUSE 15}\p"
-    .string "7.- Each member of the organization\n"
-    .string "counts, from the most basic GRUNT to the\l"
-    .string "highest positions, we function as a huge\l"
-    .string "mechanism where no one is left behind.$"
+.string "T.ROCKETS VERHALTENS- UND MORALKODEX\p"
+    .string "1.- Meine Anwesenheit in der Organisation\n"
+    .string "ist ein Privileg, kein Recht, und ich\l"
+    .string "muss sie mir durch Taten verdienen.{PAUSE 15}\p"
+    .string "2.- Loyalität und der volle Einsatz für\n"
+    .string "die Organisation sind unabdinglich.{PAUSE 15}\p"
+    .string "3.- Ungehorsam und Verrat werden\n"
+    .string "mit dem Tod bestraft.{PAUSE 15}\p"
+    .string "4.- Wir agieren als eine Einheit. Die\n"
+    .string "Einheit steht über der Individualität…{PAUSE 25}\p"
+    .string "5.- aber nicht bedeutet, dass nicht jedes\n"
+    .string "MITGLIED Eigeninitiative und das\l"
+    .string "ständige Streben nach Verbesserung\l"
+    .string "haben muss, um ein besserer Trainer\l"
+    .string "zu werden.{PAUSE 15}\p"
+    .string "6.- Kommt, analysiert, adaptiert\p"
+    .string "und gewinnt.{PAUSE 15}\p"
+    .string "7.- Jedes Mitglied der Organisation, vom\n"
+    .string "neuesten Rekruten bis zum hochrangigsten\l"
+    .string "Administrator, zählt. Wir alle ziehen an\l"
+    .string "einem Strang und lassen niemanden zurück.$"
 
 
 
@@ -236,8 +238,8 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
 .string "…{PAUSE 15} …{PAUSE 15}\n"
 .string "…{PAUSE 15} …{PAUSE 15}\p"
-.string "-It contains a NIDORINO inside,\n"
-.string "it's better not to touch it…-$"
+.string "-Es enthält ein NIDORINO.\n"
+.string "Besser nicht anfassen…-$"
 
 
 
@@ -249,8 +251,8 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
 .string "…{PAUSE 15} …{PAUSE 15}\n"
 .string "…{PAUSE 15} …{PAUSE 15}\p"
-.string "-It contains a RHYHORN inside,\n"
-.string "it's better not to touch it…-$"
+.string "-Es enthält ein RHYHORN.\n"
+.string "Besser nicht anfassen…-$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -265,8 +267,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Abajo:     
-.string "-Everyone is in their places,\n"
-    .string "I can't leave now!-$"
+	.string "Jeder befindet sich bereits\n"
+	.string "an seinem Platz.\l"
+	.string "Ich kann jetzt nicht einfach gehen.$"
 
 
 
@@ -292,8 +295,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Derecha:     
-.string "-Everyone is in their places,\n"
-    .string "I can't leave now!-$"
+	.string "Jeder befindet sich bereits\n"
+	.string "an seinem Platz.\l"
+	.string "Ich kann jetzt nicht einfach gehen.$"
 
 
 
@@ -313,8 +317,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Izquierda:     
-.string "-Everyone is in their places,\n"
-    .string "I can't leave now!-$"
+	.string "Jeder befindet sich bereits\n"
+	.string "an seinem Platz.\l"
+	.string "Ich kann jetzt nicht einfach gehen.$"
 
 
 
@@ -452,106 +457,120 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Atlas:
-.string "ARCHER: Ok, we're all here.$"
+.string "ATLAS: In Ordnung. Alle sind anwesend.$"
 
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas2:
-.string "ARCHER: For those who haven't heard,\n"
-    .string "you are now part of TEAM ROCKET,\l"
-    .string "with everything that means.\p"
-    .string "I'm ARCHER, GIOVANNI's right hand, main\n"
-    .string "ADMINISTRATOR and BOSS here at SEVII\l"
-    .string "ISLANDS.$"
+	.string "Für diejenigen, die es noch nicht\n"
+	.string "gemerkt haben. Ihr seid nun Teil von\l"
+	.string "TEAM ROCKET - mit allem, was dazu\l"
+	.string "gehört. Mein Name ist ATLAS. Ich bin\l"
+	.string "GIOVANNIs rechte Hand,\l"
+	.string "CHEF-ADMINISTRATOR und leite unsere\l"
+	.string "Geschäfte hier in den SEVII EILANDEN {PAUSE 5} …\l"
+	.string "{PAUSE 5}$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas3:
-    .string "Most of you will be immediately\n"
-    .string "transferred to KANTO, do not expect\l"
-    .string "friendly treatment from its citizens,\l"
-    .string "you will be seen as the scum of the\l"
-    .string "region. Meanwhile, let's give you\l"
-    .string "your starter POKÉMON, You belong to\l"
-    .string "the fourth platoon, so each of you will\l"
-    .string "receive a ZUBAT imported directly from\l"
-    .string "MT. MOON. Any questions?$"
+	.string "Die Meisten von euch werden umgehend\n"
+	.string "nach KANTO versetzt. Erwartet nicht,\l"
+	.string "freundlich von dessen Bewohnern\l"
+	.string "behandelt zu werden. Ihr werdet als der\l"
+	.string "Abschaum der Region gelten. Indes\l"
+	.string "lasst uns euch euer Starter-POKéMON\l"
+	.string "übergeben. Ihr gehört zum vierten\l"
+	.string "Trupp. Dementsprechend wird jeder ein\l"
+	.string "ZUBAT erhalten, welches direkt vom\l"
+	.string "Mondberg importiert wurde. Hat jemand\l"
+	.string "Fragen?$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
-.string "SIR, I couldn't help but see all those\n"
-    .string "powerful POKÉMON in the background,\l"
-    .string "and I was wondering how our BOSS,\l"
-    .string "GIOVANNI, wants us to perform our role\l"
-    .string "in the best possible way, if he doesn't\l"
-    .string "give us the appropriate tools to do so?\p"
-    .string "Not to criticize, but ZUBAT is not\n"
-    .string "exactly a good tool, maybe a NIDOR…$"
+	.string "REKRUT Nr. 10: S… {PAUSE 25} Sir. Ich konnte nicht\n"
+	.string "umhin, all diese mächtigen POKéMON im\l"
+	.string "hinteren Teil des Raumes zu bemerken.\l"
+	.string "Dabei habe ich mich gefragt, wie unser\l"
+	.string "BOSS beabsichtigt, dass wir unsere\l"
+	.string "Rolle auf die bestmögliche Weise\l"
+	.string "erfüllen, wenn er uns nicht die\l"
+	.string "entsprechenden Werkzeuge zur\l"
+	.string "Verfügung stellt? Nichts für ungut,\l"
+	.string "aber ZUBAT ist nicht gerade das, was\l"
+	.string "man unter einem starken Werkzeug\l"
+	.string "versteht. Ein NIDOR… {PAUSE 5}$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas5:
-    .string "ARCHER: Enough.$"
+    .string "ATLAS: Genug!$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6:
-    .string "ARCHER: Let's see{PAUSE 20}…{PAUSE 20} You have\n"
-    .string "prejudged the decisions of our LEADER\l"
-    .string "GIOVANNI, and you are not happy with\l"
-    .string "our policy towards new GRUNTs. So…\p"
-    .string "There is no reason for you to continue\n"
-    .string "belonging to our organization{PAUSE 20}…{PAUSE 20} I hope\l"
-    .string "for your sake that you don't say a\l"
-    .string "single word about what you may have\l"
-    .string "seen here.$"
+	.string "ATLAS: Mal sehen … {PAUSE 20} Mir kommt da eine\n"
+	.string "Idee: Da du die Entscheidungen unseres\l"
+	.string "ANFÜHRERS GIOVANNI in Frage gestellt\l"
+	.string "hast und offenbar nicht mit unserer\l"
+	.string "Verfahrensweise bezüglich neuen\l"
+	.string "Rekruten zufrieden bist, gibt es keinen\l"
+	.string "Grund, warum du weiterhin Teil dieser\l"
+	.string "Organisation sein solltest. {PAUSE 25} … {PAUSE 25} Ich\l"
+	.string "hoffe, zu deinem eigenen Wohl versteht\l"
+	.string "sich, dass du kein Sterbenswort über\l"
+	.string "das verlieren wirst, was du hier gesehen\l"
+	.string "hast.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6.1:
-	.string "GUARDS!!\p"
-	.string "Take him off the base!$"
+	.string "WACHEN!!\p"
+	.string "Schafft ihn mir aus den Augen!$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas7:
-    .string "ARCHER: The last thing TEAM ROCKET\n"
-    .string "needs is well-off people claiming\l"
-    .string "privileges before they have proven\l"
-    .string "anything.$"
+	.string "ATLAS: {PAUSE 25} … {PAUSE 25} Das Letzte, was wir in dieser\n"
+	.string "Organisation brauchen, sind Schnösel,\l"
+	.string "die Privilegien einfordern, bevor sie\l"
+	.string "überhaupt etwas bewiesen haben.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas8:
-    .string "ARCHER: A ZUBAT, although many of you\n"
-    .string "would consider it useless, it can\l"
-    .string "become one of the best POKÉMON if you\l"
-    .string "take care of it.$"
+	.string "Ein ZUBAT, wenngleich es viele von euch\n"
+	.string "als nutzlos erachten mögen, kann zu\l"
+	.string "einem der besten POKéMON mutieren,\l"
+	.string "wenn man es anständig trainiert.$"
 	
 RocketHideoutFiveIslandMeadow_Text_Atlas8.1:
-    .string "GOLBAT is a POKÉMON worthy of a top\n"
-    .string "ROCKET ADMIN, even AGATHA for the\l"
-    .string "ELITE 4 uses it.$"
+	.string "GOLBAT ist ein POKéMON, welches eines\n"
+	.string "ROCKET-ADMINISTRATORS würdig ist und\l"
+	.string "sogar ein Mitglied der TOP VIER, AGATHE,\l"
+	.string "nutzt eins in ihrem Team.$"
 	
 RocketHideoutFiveIslandMeadow_Text_Atlas8.2:
-    .string "CROBAT is already in the top three\n"
-    .string "best poison-type POKÉMON known…\p"
-    .string "Agile as an AERODACTYL, both\n"
-    .string "resistant and lethal.$"
+	.string "Und letztlich IKSBAT: So agil wie ein\n"
+	.string "AERODACTYL, widerstandsfähig wie ein\l"
+	.string "GEOWAZ und auch tödlich. Es gehört zu\l"
+	.string "den fünf besten POKéMON vom Typen\l"
+	.string "Gift, die existieren.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas8.3:
-    .string "And you GRUNTs are going to reject that\n"
-    .string "opportunity because you have to go\l"
-    .string "through the process of training a\l"
-    .string "ZUBAT first?!$"
+	.string "Und ihr wollt euch diese Chance\n"
+	.string "entgehen lassen, nur weil ihr zuerst den\l"
+	.string "Prozess durchlaufen müsst, ein ZUBAT\l"
+	.string "zu trainieren?$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas9:
-.string "Here we will provide you with the initial\n"
-    .string "tool from which you will be able to build\l"
-    .string "better tools, that's what GIOVANNI\l"
-    .string "expects, that you learn to climb\l"
-    .string "starting from the lowest, let's start\l"
-    .string "with the delivery of your initials.$"
+	.string "Hier werden wir euch das erste Werkzeug\n"
+	.string "zur Verfügung stellen, auf dem ihr\l"
+	.string "aufbauen könnt. Nur wenn ihr bei Null\l"
+	.string "anfängt, könnt ihr Außergewöhnliches\l"
+	.string "vollbringen. Das ist es, was GIOVANNI\l"
+	.string "erwartet. Beginnen wir nun mit der\l"
+	.string "Vergabe eures ZUBATs.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas9.1:
-    .string "GRUNT NUMBER 1!!$"
+    .string "RÜPEL NUMMER 1!!$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas10:
-.string "GRUNT NUMBER 2!!$"
+.string "RÜPEL NUMMER 2!!$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas11:
-.string "GRUNT NUMBER 3!!$"
+.string "RÜPEL NUMMER 3!!$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas12:
-.string "GRUNT NUMBER 4!!$"
+.string "RÜPEL NUMMER 4!!$"
 
 Move1:
 walk_slow_up
@@ -850,11 +869,12 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Vuelveatupuesto:     
-    .string "GRUNT NUMBER 4!! You're not on the\n"
-    .string "blacklist yet and I hope I don't have\l"
-    .string "to include you on the first day! Pick up\l"
-    .string "your initial, return to your place and\l"
-    .string "don't waste any more time!$"
+	.string "NUMMER 4!! Du stehst noch nicht auf der\n"
+	.string "schwarzen Liste und ich hoffe, dass ich\l"
+	.string "das nicht schon am ersten Tag ändern\l"
+	.string "muss! Nimm deinen Starter, kehre an\l"
+	.string "keinen Platz zurück und verschwende\l"
+	.string "nicht noch mehr unserer Zeit!$"
 
 
 
@@ -1027,82 +1047,97 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	end
 
 Zubat_Text_YesNo:
-.string "So do you want ZUBAT, the PLAGUE\n"
-    .string "POKÉMON, as your starter?$"
+.string "Du möchtest ZUBAT, das\n"
+    .string "PEST-POKÉMON als deinen Starter?$"
 
 
 Zubat_Text_Yes:
-   .string "Doesn't seem like this POKÉMON has\n"
-    .string "much energy.$"
+   .string "Es scheint nicht so, als hätte\n"
+    .string "dieses POKéMON viel Energie.$"
 
 
 Zubat_Text_No:
-.string "No? Too bad, it's your unique option\n"
-    .string "anyway.$"
+.string "Nein? Ach wie schade, dass kein\n"
+    .string "anderes POKÉMON zur Auswahl steht.$"
 
 RocketHideoutFiveIslanMeadow_Text_MensajeZubat:
-   .string "{PLAYER} received a ZUBAT!$"
+   .string "{PLAYER} ERHÄLT EIN LEVEL 5 ZUBAT!$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat2:
-	.string "Let me explain your role in our\n"
-	.string "organization. I'll keep it brief. You'll\l"
-	.string "be the ones handling the dirty work:\p"
-	.string "extortion, theft, settling scores. In\n"
-	.string "the eyes of the world, you'll be viewed\l"
-	.string "as scum. However, your job is to clear\l"
-	.string "the path and collect as much illegal\l"
-	.string "money as possible to fund TEAM\l"
-	.string "ROCKET's projects. Although you\l"
-	.string "currently sit at the bottom of this\l"
-	.string "organization, if you prove yourself\l"
-	.string "competent and do your job well, you'll\l"
-	.string "earn respect, rewards, and accolades.$"
+	.string "Gut. Jetzt wo ihr alle ein POKéMON\n"
+	.string "besitzt, lasst mich erklären, welche\l"
+	.string "Rolle euch in unserer Organisation\l"
+	.string "zukommt. Ich werde es kurz machen. Ihr\l"
+	.string "seid grundsätzlich diejenigen, die die\l"
+	.string "Drecksarbeit erledigen müssen:\l"
+	.string "Erpressung, Diebstahl und offene\l"
+	.string "Rechnungen begleichen - versteht sich.\l"
+	.string "Ihr werdet dafür sorgen, dass sich\l"
+	.string "keiner TEAM ROCKET in den Weg stellt\l"
+	.string "und so viel Schwarzgeld wie möglich für\l"
+	.string "uns beschaffen, welches zur\l"
+	.string "Finanzierung unserer Projekte dient.\l"
+	.string "Solange ihr nicht das Gegenteil\l"
+	.string "beweist, seid ihr für mich und den Rest\l"
+	.string "der Welt der unterste Abschaum. Seid\l"
+	.string "ihr stattdessen kompetent und führt\l"
+	.string "euren Job korrekt aus, erhaltet ihr im\l"
+	.string "Gegenzug Respekt, Belohnungen und\l"
+	.string "Auszeichnungen. Erst dann und nicht\l"
+	.string "früher.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat3:
-.string "GRUNTs from 5 to 13, the last two\n"
-    .string "rows, will be transferred immediately\l"
-    .string "to KANTO, right now there is a boat in\l"
-    .string "CHRONO ISLANDs port waiting.\p"
-    .string "Prepare your things, you will set\n"
-    .string "sail in one hour.$"
+	.string "Die Rekruten 5-13, in den letzten\n"
+	.string "beiden Reihen, werden sofort nach\l"
+	.string "Kanto versetzt. Im Hafen von EILAND\l"
+	.string "FÜNF wartet bereits ein Schiff auf\l"
+	.string "euch. Packt eure Sachen. Das Schiff\l"
+	.string "wird in einer Stunde auslaufen.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat3.1:
-	.string "Now get out of my sight!$"
+	.string "Nun geht mir aus den Augen!$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat4:
-.string "Well, there are 4 of you left, it's a\n"
-    .string "tradition to keep some of the grunts\l"
-    .string "we exported to KANTO from CHRONO ISLAND,\l"
-    .string "at least for a short period of time, and\l"
-    .string "you are lucky, this way you will delay\l"
-    .string "witnessing the circus that the region\l"
-    .string "has become.$"
+	.string "Jetzt sind noch vier von euch übrig. Es\n"
+	.string "ist Tradition, dass wir zumindest einige\l"
+	.string "der Rekruten, die wir von EILAND FÜNF\l"
+	.string "nach KANTO schicken, für kurze Zeit\l"
+	.string "hier behalten. Ihr habt Glück, denn auf\l"
+	.string "diese Weise werdet ihr es hinauszögern,\l"
+	.string "den Zirkus zu erleben, zu dem KANTO\l"
+	.string "verkommen ist.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat4.1:
-    .string "Come to my office, and I will\n"
-    .string "give you details of your mission.\p"
-    .string "meanwhile, show off your new POKÉMON,\n"
-    .string "for sure, WAREHOUSE grunts will be\l"
-    .string "happy to fight with you.$"
+	.string "Kommt in mein Büro und ich werde euch\n"
+	.string "die Einzelheiten für eure Mission geben.\p"
+	.string "In der Zwischenzeit könnt ihr euch mit\n"
+	.string "eurem neuen POKéMON vertraut machen.\l"
+	.string "Die Rekruten im ROCKET-LAGER hier\l"
+	.string "werden sich mit Sicherheit freuen,\l"
+	.string "gegen euch anzutreten.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat5:
-    .string "GRUNT 1: So we will stay on CHRONO ISLAND\n"
-    .string "for a while, that ARCHER doesn't fool\l"
-    .string "around, that's why people say that just\l"
-    .string "GIOVANNI is above him, have you seen\l"
-    .string "that GRUNT's face when ARCHER got\l"
-    .string "closer to answer him? I doubt if he can\l"
-    .string "live in peace after this.$"
+	.string "REKRUT NUMMER 1: Also werden wir eine\n"
+	.string "Weile auf EILAND-FÜNF bleiben. Dieser\l"
+	.string "ATLAS macht keine halben Sachen.\l"
+	.string "Deswegen sagt man, dass nur GIOVANNI\l"
+	.string "über ihm steht. Hast du das Gesicht von\l"
+	.string "dem Rekruten gesehen, als ATLAS sich\l"
+	.string "ihm genähert hat, um ihm zu antworten?\l"
+	.string "Ich denke nicht, dass er nach diesem\l"
+	.string "Vorfall noch ruhig schlafen kann.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat6:
-    .string "GRUNT 3: I doubt he's alive, although\n"
-    .string "he hasn't seen much, he's seen enough\l"
-    .string "to get menaced, as for us, as ARCHER said,\l"
-    .string "we're now part from TEAM ROCKET, we'd\l"
-    .string "better go to his office soon and see\l"
-    .string "what exactly he wants of us, there\l"
-    .string "aren't exactly a lot of things to do on\l"
-    .string "this island.$"
+	.string "REKRUT 3: Ich bezweifle sogar, dass er\n"
+	.string "noch am Leben ist. Obwohl er nicht viel\l"
+	.string "gesehen hat, war es dennoch genug, um\l"
+	.string "bedroht zu werden. Was uns betrifft.\l"
+	.string "Wie ATLAS schon gesagt hat, sind wir ab\l"
+	.string "jetzt Teil von TEAM ROCKET. Wir sollten\l"
+	.string "besser bald in seinem Büro erscheinen\l"
+	.string "und herausfinden, was er genau von uns\l"
+	.string "möchte. Es gibt nicht gerade viel auf\l"
+	.string "dieser Insel zu tun.$"
 
 
 
@@ -1113,9 +1148,7 @@ RocketHideoutFiveIslanMeadowCajaZubat::
    end
 
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
-.string "If ARCHER catches me trying to steal\n"
-    .string "any other POKÉMON, GIOVANNI is going\l"
-    .string "to punish me with his NIDOKING…$"
+    .string "traducir$"
 
 
 

@@ -64,11 +64,10 @@ end
 
 
 FileIsleMeadow6_Text_6YesNo:
-	.string "Some say that our WAREHOUSE destroys\n"
-	.string "and contaminates the island's\l"
-	.string "landscape, but I believe it adds a\l"
-	.string "unique touch and certain personality.\l"
-	.string "Are you with me?$"
+	.string "Einige glauben, unser LAGER ruiniert\n"
+	.string "und verschmutzt die Landschaft der\l"
+	.string "Insel. Aber ich finde, es gibt ihr das\l"
+	.string "gewisse Etwas. Stimmst du mir zu?$"
 
 
 
@@ -79,12 +78,12 @@ end
 
 
 FileIsleMeadow6_Text_6Yes:
-	.string "Well said! TEAM ROCKET rules!$"
+	.string "Genau so ist es! TEAM ROCKET rockt!$"
 
 FileIsleMeadow6_Text_6No:
-	.string "Any self-respecting ROCKET knows that\n"
-	.string "industrial landscapes are the best in\l"
-	.string "the world! You're a disgrace!$"
+	.string "Ein wahrer ROCKET weiß, dass\n"
+	.string "Industrielandschaften die besten sind.\p"
+	.string "Du bist eine Schande für uns!$"
 
 
 FileIsleMeadow_Recluta_Balls::
@@ -107,8 +106,8 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Text_3.1:
-.string "{PLAYER} obtained 5 POKÉ BALL\n"
-	.string "from ROCKET GRUNT!!$"
+.string "{PLAYER} erhält 5 POKéBÄLLE\n"
+	.string "vom Team Rocket-Rüpel!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo::
 lock
@@ -155,8 +154,8 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10:
-.string "{PLAYER} obtained 5 ULTRA BALL\n"
-	.string "from ROCKET EXECUTIVE!!$"
+.string " {PLAYER} erhält 5 ULTRABÄLLE\n"
+	.string "vom Team Rocket-Rüpel!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_1:
 .string "CHIEF ADMIN. {PLAYER}!$"
@@ -302,10 +301,11 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Debil_Texto_1:
-	.string "You appear to be another ordinary\n"
-	.string "ROCKET among the crowd. If you succeed\l"
-	.string "in securing a special mission from\l"
-	.string "ARCHER, come back and speak with me.$"
+	.string "Scheinst nur ein weiterer gewöhnlicher\n"
+	.string "ROCKET zu sein … Wenn du es schaffst,\l"
+	.string "eine Spezialmission von ATLAS zu\l"
+	.string "bekommen, dann komm zurück und rede\l"
+	.string "mit mir.$"
 
 FileIsleMeadow_Recluta_Balls_No::
 msgbox FileIsleMeadow_Recluta_Balls_Text_4, MSGBOX_AUTOCLOSE
@@ -315,31 +315,33 @@ end
 
 
 FileIsleMeadow_Recluta_Balls_Text_1:
-	.string "Hey, comrade! Running low on items? I\n"
-	.string "want to become a HIGH-RANK GRUNT as\l"
-	.string "soon as possible. If you help me train,\l"
-	.string "I'll give you some POKÉ BALLS so you can\l"
-	.string "improve too.$"
+	.string "Hey, Kamerad! Gehen dir die Items aus?\n"
+	.string "Wenn ja, dann verzage nicht. Ich will so\l"
+	.string "schnell wie möglich zum HOCHRANGIGEN\l"
+	.string "RÜPEL aufsteigen. Wenn du mir beim\l"
+	.string "Trainieren hilfst, gebe ich dir paar\l"
+	.string "POKéBÄLLE, damit du auch besser wirst.$"
 
 FileIsleMeadow_Recluta_Balls_Text_YesNo:
-	.string "Then, wanna fight?$"
+	.string "Also, willst du kämpfen?$"
 
 FileIsleMeadow_Recluta_Balls_Text_Yes:
-	.string "That's the expected response. Prepare\n"
-	.string "to witness the power of a future\l"
-	.string "HIGH-RANK!$"
+	.string "Gute Entscheidung. Mach dich bereit,\n"
+	.string "die Stärke eines zukünftigen\l"
+	.string "HOCHRANGIGEN RÜPELS zu spüren!$"
 
 FileIsleMeadow_Recluta_Balls_Text_2:
-	.string "You've got talent…$"
+	.string "Du hast Talent {PAUSE 5}…{PAUSE 5}$"
 
 FileIsleMeadow_Recluta_Balls_Text_3:
-	.string "You have great potential, comrade. If\n"
-	.string "you stay on track, you'll go far in TEAM\l"
-	.string "ROCKET. Take this!$"
+	.string "Ich sehe echt großes Potential in dir,\n"
+	.string "Kamerad. Wenn du am Ball bleibst, wirst\l"
+	.string "du es weit in TEAM ROCKET bringen.\p"
+	.string "Hier, für dich!$"
 
 FileIsleMeadow_Recluta_Balls_Text_4:
-	.string "By avoiding battles, you can only aspire\n"
-	.string "to be a no-name GRUNT, trust me!$"
+	.string "Glaub mir. Wer Kämpfen aus dem Weg geht,\n"
+	.string "wird stets ein lausiger RÜPEL bleiben.$"
 
 FileIsleMeadow_Combate_Azul_Der::
 playse SE_PIN
