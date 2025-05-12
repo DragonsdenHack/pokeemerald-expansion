@@ -2205,16 +2205,16 @@ static const u8 sFlyingPressDescription[] = _(
     "la fois de t.Combat et de t.Vol.");
 
 static const u8 sMatBlockDescription[] = _(
-    "Evades damaging moves\n"
-    "for one turn.");
+    "Esquive l'attaque, mais\n"
+    "peut échouer si réutilisé.");
 
 static const u8 sBelchDescription[] = _(
-    "Lets out a loud belch.\n"
-    "Must eat a Berry to use it.");
+    "Ne fnctnn que si le lanceur\n"
+    "consomme la Baie qu'il tient.");
 
 static const u8 sRototillerDescription[] = _(
-    "Ups the Attack and Sp. Atk\n"
-    "of Grass-type Pokémon.");
+    "Augmente l'Att et l'Att.Sp\n"
+    "des Pokémon de type Plante.");
 
 static const u8 sStickyWebDescription[] = _(
     "Weaves a sticky net that\n"
