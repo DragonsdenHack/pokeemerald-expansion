@@ -67,19 +67,20 @@ MemorialPillar_Text_Onyx:
 	.string "gelebt wird.$"
 
 MemorialPillar_Text_Onyx_Texto_2:
-    .string "Thus, the longest life and the shortest\n"
-    .string "one come to be reduced to the same thing,\l"
-    .string "the present moment that is lived is the\l"
-    .string "same for everyone, the one that is lost\l"
-    .string "too, and this one that is lost comes to\l"
-    .string "seem indivisible to us.$"
+	.string "Demnach werden das längste und\n"
+	.string "kürzeste Leben auf das Gleiche\l"
+	.string "reduziert: Der gegenwärtige Moment,\l"
+	.string "der gelebt wird, ist für alle derselbe-\l"
+	.string "ebenso der, der verloren geht.\p"
+	.string "Und dieser verlorene Moment erscheint\n"
+	.string "uns als unteilbar.$"
 
 MemorialPillar_Text_Onyx_Texto_3:
-    .string "And the thing is{PAUSE 15}…{PAUSE 15}\p"
-    .string "It's not neither the past nor the\n"
-    .string "future is lost, since what we do not\l"
-    .string "possess, how could it be taken away\l"
-    .string "from us?$"
+	.string "Die Sache ist, dass weder die\n"
+	.string "Vergangenheit noch die Zukunft\l"
+	.string "verloren sind. Denn was wir nicht nicht\l"
+	.string "besitzen, kann uns auch nicht genommen\l"
+	.string "werden.$"
 
 
 MemorialPillar_Move_1:
@@ -181,8 +182,7 @@ release
 end
 
 MemorialPillar_ChicoOnix_No_Texto_1:
-	.string "Mmm, entiendo. No parece alguien muy\n"
-	.string "amigable, la verdad.$"
+	.string "traducir$"
 
 MemorialPillar_ChicoOnix_Move_3:
 emote_exclamation_mark
@@ -202,8 +202,9 @@ face_player
 step_end
 
 MemorialPillar_ChicoOnix_Texto_1:
-    .string "This is where I buried my ONIX…\n"
-    .string "It was named TECTONIX…$"
+	.string "Hier habe ich mein ONIX begraben. Ich\n"
+	.string "hatte ihm den Spitznamen TECTONIX\l"
+	.string "gegeben.$"
 
 
 MemorialPillar_ChicoOnix_Post::

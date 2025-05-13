@@ -27,9 +27,10 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_2:
-	.string "Do you want to catch all the POKÉMON\n"
-	.string "you come across? Incredible!… Hey, let\l"
-	.string "me know if you catch any strong ones!$"
+	.string "Du bestreitest ein Abenteuer, auf dem\n"
+	.string "du jedes POKéMON fangen willst? {PAUSE 25}…{PAUSE 25}\p"
+	.string "Unglaublich! Gib mir bitte Bescheid,\n"
+	.string "wenn du ein Starkes gefangen hast!$"
 
 
 
@@ -43,8 +44,8 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_3:
-    .string "I'm on my way to prepare a meal\n"
-    .string "for a certain high-society person.$"
+	.string "Ich bin gerade dabei, ein Essen für\n"
+	.string "eine gewisse Berühmtheit zuzubereiten.$"
 
 TwoIslandPokemonCenter_Move_1:
 emote_exclamation_mark

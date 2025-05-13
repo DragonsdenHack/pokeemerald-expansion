@@ -140,79 +140,93 @@ end
 
 
 ResortGeorgeous_House1_Text_Consul_1:
-	.string "Did you really think that with such a\n"
-	.string "weak team, you could force me to accept\l"
-	.string "your terms? I already told ARCHER that\l"
-	.string "it can't match the benefits that the\l"
-	.string "KANTO GOVERNMENT offers me.$"
+	.string "KONSULIN: Hast du wirklich geglaubt,\n"
+	.string "dass du mich mit so einem schwachen\l"
+	.string "Team dazu zwingen könntest, dem Willen\l"
+	.string "deiner Organisation nachzugeben?\l"
+	.string "Ich habe ATLAS bereits gesagt, dass\p"
+	.string "ihr nicht mit dem Angebot mithalten\n"
+	.string "könnt, welches mir die REGIERUNG VON\l"
+	.string "KANTO gemacht hat.$"
 
 ResortGeorgeous_House1_Text_Consul_2:
-	.string "ANDRA: I thought we had an agreement.\p"
-	.string "Where is your loyalty to TEAM ROCKET?\n"
-	.string "Without us, you would never have been\l"
-	.string "chosen as CONSUL of this place, and now\l"
-	.string "you want to undermine the business\l"
-	.string "that granted you this authority.$"
+	.string "ANDRA: Ich dachte, wir hätten eine\n"
+	.string "Abmachung! Wo bleibt Ihre Loyalität\l"
+	.string "gegenüber TEAM ROCKET? Ohne uns wären\l"
+	.string "Sie hier nie KONSULIN geworden und\l"
+	.string "jetzt wollen Sie die Geschäfte\l"
+	.string "derjenigen ruinieren, die Ihnen diese\l"
+	.string "Position verschafft haben?$"
 
 ResortGeorgeous_House1_Text_Consul_3:
-	.string "CONSUL: That's right, as you said 'granted\n"
-	.string "me' is past. I don't need you anymore, and\l"
-	.string "you're just spoiling my new goals.\p"
-	.string "If ARCHER really wants to  me,\n"
-	.string "he will have to come himself. No other\l"
-	.string "pathetic ROCKET can defeat my POKÉMON,\l"
-	.string "imported from the best breeding\l"
-	.string "centers.$"
+	.string "KONSULIN: Es stimmt, dass ihr mir diese\n"
+	.string "Position verschafft habt - Betonung\l"
+	.string "auf habt. Das liegt in der\l"
+	.string "Vergangenheit. Ihr seid Vergangenheit.\p"
+	.string "Ich brauche euch nicht mehr und ihr\n"
+	.string "steht mir ohnehin nur bei meinen neuen\l"
+	.string "Zielen im Weg. Wenn ATLAS mich wirklich\l"
+	.string "aufhalten möchte, sollte er am besten\l"
+	.string "selbst kommen. Kein anderer mickriger\l"
+	.string "ROCKET kann es mit meinen POKéMON\l"
+	.string "aufnehmen, die aus den besten Horten\l"
+	.string "importiert wurden.$"
 
 ResortGeorgeous_House1_Text_Consul_3.1:
-	.string "Now, excuse me, I need to talk\n"
-	.string "with my KANTO manager. Ho, ho, ho!$"
+	.string "Und nun entschuldige mich. Ich muss mit\n"
+	.string "dem Vertreter KANTOs sprechen.\p"
+	.string "Hohohoho!$"
 
 ResortGeorgeous_House1_Text_Consul_4:
 	.string "ANDRA: {PLAYER}!$"
 
 ResortGeorgeous_House1_Text_Consul_5:
-	.string "CONSUL: It seems there was still some\n"
-	.string "garbage left to remove; let's put an end\l"
-	.string "to this as soon as possible.$"
+	.string "KONSULIN: Anscheinend gibt es noch\n"
+	.string "mehr Müll, der zur Tür rausgetragen\l"
+	.string "werden muss. Bringen wir es hinter uns.$"
 
 ResortGeorgeous_House1_Text_Consul_5.1:
-	.string "Well{PAUSE 15}…{PAUSE 15} I hope your weak\n"
-	.string "ZUBAT can entertain my MAREEP more\l"
-	.string "than your companion's ZUBAT did!$"
+	.string "Ich hoffe, dein ZUBAT kann mein\n"
+	.string "VOLTILAMM besser unterhalten als\l"
+	.string "das deiner kleinen Freundin.$"
 
 ResortGeorgeous_House1_Text_Consul_6:
-	.string "Wait, what? Did my high-class POKÉMON\n"
-	.string "just lose to some basic ROCKET GRUNT?$"
+	.string "Haben meine hochklassigen POKéMON\n"
+	.string "gerade gegen einen gewöhnlichen\l"
+	.string "ROCKET verloren?$"
 
 ResortGeorgeous_House1_Text_Consul_7:
-	.string "This is unreal{PAUSE 15}…{PAUSE 15}\p"
-	.string "You can't mess with my career!$"
+	.string "Das ist unmöglich! Du kannst meine\n"
+	.string "Karriere nicht ruinieren!$"
 
 ResortGeorgeous_House1_Text_Consul_8:
-	.string "Game over, CONSUL. You messed up by\n"
-	.string "thinking you were the smartest,\l"
-	.string "betraying us when it suited you.\p"
-	.string "Now, you'll pay for it. A period of\n"
-	.string "reflection in the LOST CAVE won't hurt\l"
-    .string "you.$"
+	.string "Es ist aus, KONSULIN. Sie hätten nicht\n"
+	.string "die Hand beißen sollen, die Sie füttert.\p"
+	.string "Sie haben sich für die Klügste gehalten\n"
+	.string "und uns bei der erstbesten Gelegenheit\l"
+	.string "verraten. Und dafür werden Sie jetzt\l"
+	.string "bezahlen. Ich denke, etwas Zeit in der\l"
+	.string "VERLORENEN HÖHLE wird Sie wieder zur\l"
+	.string "Vernunft bringen.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
-.string "CONSUL: Oh{PAUSE 15}…{PAUSE 15} no please{PAUSE 15}…{PAUSE 15}$"
+.string "KONSULIN: Oh {PAUSE 15}…{PAUSE 15} nein {PAUSE 15}…{PAUSE 15}$"
 
 ResortGeorgeous_House1_Text_Consul_10:
-	.string "As for you guys, you can be proud. This\n"
-	.string "was serious stuff, and you've done a\l"
-	.string "good job. ARCHER will be in the\l"
-	.string "WAREHOUSE waiting to give you props.$"
+	.string "Was euch betrifft. Ihr könnt stolz auf\n"
+	.string "euch sein. Das war keine leichte\l"
+	.string "Mission. Ihr habt gute Arbeit geleistet.\p"
+	.string "ATLAS wird im LAGER auf euch warten, um\n"
+	.string "euch zu loben.$"
+
 
 ResortGeorgeous_House1_Text_Consul_11:
-.string "Let's go, 'CONSUL'!!$"
+.string "GEHEN WIR, KONSULIN!!!$"
 
 ResortGeorgeous_House1_Text_Consul_12:
 .string "ANDRA: {PAUSE 15}…{PAUSE 15}\p"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "{PAUSE 15}I'll see you later.$"
+	.string "{PAUSE 15}Wir sehen uns im Lager.$"
 
 
 ResortGeorgeous_House1_Consul_move_1:
