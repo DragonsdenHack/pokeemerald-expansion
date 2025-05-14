@@ -1089,22 +1089,22 @@ release
 end
 
 VermilionCity_Barco_Texto_1:
-	.string "No one's getting into the dock without\n"
-	.string "my say so, ROCKET! Now beat it!$"
+	.string "Niemand gelangt ohne meine Erlaubnis an\n"
+	.string "Bord, ROCKET! Und jetzt verschwinde!$"
 
 VermilionCity_Barco_Texto_2:
-.string "Ah, you have a RAINBOW PASS. Would you\n"
-	.string "like to board a SEAGALLOP ferry?$"
+	.string "Ah, du hast den BUNT-PASS. Möchtest du\n"
+	.string "an Bord der SEESPRINT-Fähre?$"
 
 VermilionCity_Barco_Texto_3:
-.string "Okay, everything's in order for you to\n"
-	.string "board a special ferry. SEAGALLOP\l"
-	.string "HI-SPEED 7 will be departing\l"
-	.string "immediately.$"
+.string "O.K.! Alles klar!\p"
+	.string "SEESPRINT TEMPO 7\n"
+	.string "wird in Kürze ablegen.$"
 
 VermilionCity_Barco_Texto_4:
-.string "All right! Everyone on the SEAGALLOP\n"
-	.string "HI-SPEED 7 board!$"
+.string "In Ordnung!\p"
+.string "Los, SEESPRINT\n"
+	.string "TEMPO 7!$"
 
 EventScript_Setima::
 msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
@@ -1319,11 +1319,9 @@ release
 end
 
 Vermilion_Motorista_Texto_1:
-.string "Did you know WEEZING can\n"
-	.string "learn THUNDERBOLT?\p"
-	.string "I'm going to sweep your entire\n"
-	.string "WATER-TYPE team with one single\l"
-	.string "move!$"
+	.string "Wusstest du, dass SMOGMOG DONNERBLITZ\n"
+	.string "lernen kann? Damit brate ich all deine\l"
+	.string "POKéMON!$"
 
 Vermilion_Anciano_Bill::
 lock

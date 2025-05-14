@@ -293,10 +293,12 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-	.string "It's impossible! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} The LICENSE forged\n"
-	.string "in the historic dispatches of the HQ of\l"
-	.string "the KANTO POKÉMON LEAGUE.{PAUSE 15} …{PAUSE 15} …{PAUSE 15} Excuse\l"
-	.string "me, SIR! You can enter our humble GYM!$"
+	.string "Unmöglich! {PAUSE 25}…{PAUSE 25} Die LIZENZ, geschmiedet\n"
+	.string "auf den ehrwürdigen Anweisungen des\l"
+	.string "HAUPTQUARTIERS der KANTO POKéMON\l"
+	.string "LIGA! {PAUSE 25}…{PAUSE 25} Verzeihen Sie, Sir! Sie dürfen\l"
+	.string "nach Belieben in unsere bescheidene\l"
+	.string "ARENA eintreten.$"
 
 
 CeruleanCityGym_NoPass_Der::
@@ -371,21 +373,24 @@ release
 end
 
 PewterCityGym_CanPass_Texto_1:
-.string "This is not a place for thieves like you\n"
-	.string "ROCKET. Go back to the sewer that you\l"
-	.string "came from if you don't want to get into\l"
-	.string "tr…$"
+	.string "Das ist kein Ort für Diebe wie dich,\n"
+	.string "ROCKET! Verzieh dich zurück in die\l"
+	.string "Kanalisation, aus der herkommst,\l"
+	.string "wenn du keine Probl…$"
 
 PewterCityGym_CanPass_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCityGym_CanPass_Texto_3:
-	.string "A TRAINER LICENSE? {PAUSE 15}… {PAUSE 15}…{PAUSE 15} Signed and\n"
-	.string "approved by the POKÉMON LEAGUE\l"
-	.string "MINISTRY itself… Excuse me, SIR. With\l"
-	.string "the failed SILPH raid, it's hard to\l"
-	.string "distinguish between real ROCKETs and\l"
-	.string "their lampooners. Go ahead.$"
+	.string "EINE TRAINER-LIZENZ? {PAUSE 15}…{PAUSE 15}\n"
+	.string "Unterschreiben und autorisiert von dem\l"
+	.string "POKéMON LIGA MINISTERIUM\l"
+	.string "höchstpersönlich {PAUSE 15}…{PAUSE 15} Verzeihen Sie, Sir.\p"
+	.string "Nach dem gescheiterten Überfall auf\n"
+	.string "die SILPH COMPANY ist es schwer\l"
+	.string "zwischen den echten ROCKETs und ihren\l"
+	.string "Nachahmern zu unterscheiden. Gehen Sie\l"
+	.string "ruhig weiter.$"
 
 CeladonCityGym_NoPass::
 applymovement OBJ_EVENT_ID_PLAYER, VermilionCityGym_NoPass_move_1
@@ -437,42 +442,49 @@ release
 end
 
 CeladonCityGym_NoPass_Texto_1:
-.string "Oh, no!$"
+.string "Oh, nein!$"
 
 CeladonCityGym_NoPass_Texto_2:
-	.string "TEAM ROCKET shall not pass here! Our\n"
-	.string "LEADER would never fight you!$"
+	.string "Ihr von TEAM ROCKET kommt hier nicht\n"
+	.string "vorbei! Unsere ARENALEITERIN würde\l"
+	.string "sich niemals dazu herablassen, gegen\l"
+	.string "deinesgleichen zu kämpfen!$"
 
 CeladonCityGym_NoPass_Texto_3:
-	.string "If you go ahead, I'll call the police! You\n"
-	.string "won't contaminate this place with your\l"
-	.string "presence!$"
+	.string "Wenn du noch einen Schritt weitergehst,\n"
+	.string "werde ich die POLIZEI verständigen! Du\l"
+	.string "wirst diesen heiligen Ort nicht mit\l"
+	.string "deiner Anwesenheit beschmutzen!$"
 
 CeladonCityGym_NoPass_Texto_4:
-	.string "Is that a real OFFICIAL TRAINER\n"
-	.string "LICENSE?! Oh, excuse me. I thought you\l"
-	.string "were a TEAM ROCKET member. I didn't\l"
-	.string "know they sell ROCKET uniforms as\l"
-	.string "cosplay. Go ahead, please!$"
+	.string "Ist das eine echte OFFIZIELLE\n"
+	.string "TRAINER-LIZENZ?! Oh, Verzeihung. Ich\l"
+	.string "dachte, du gehörst zu TEAM ROCKET. Ich\l"
+	.string "hatte keine Ahnung, dass sie\l"
+	.string "mittlerweile TEAM ROCKET Uniformen als\l"
+	.string "Kostüme verkaufen. Geh ruhig weiter!$"
 
 VermilionCityGym_NoPass_Text_1:
-	.string "So we've got another aspiring\n"
-	.string "CHAMPION-to-be, uh? Wait…$"
+	.string "Soso. Noch ein angehender Champion,\n"
+	.string "was? Moment mal {PAUSE 25}…{PAUSE 25}$"
 
 VermilionCityGym_NoPass_Text_2:
-	.string "You're a ROCKET! You've got some guts\n"
-	.string "waltzing on in like nothing happened\l"
-	.string "when the ban's been officially approved\l"
-	.string "by the POKÉMON LEAGUE!$"
+	.string "Du gehörst zu TEAM ROCKET! Du hast Mut\n"
+	.string "hier reinzuspazieren, als wäre nichts\l"
+	.string "gewesen! Und das obwohl das Verbot\l"
+	.string "offiziell von der POKéMON LIGA\l"
+	.string "bestätigt wurde!$"
 
 VermilionCityGym_NoPass_Text_3:
-	.string "Get away from here before I call the\n"
-	.string "authorities! No GYM LEADER would waste\l"
-	.string "their time with a simple ROCKET like you!$"
+	.string "Mach, dass du hier wegkommst, bevor ich\n"
+	.string "die Behörden verständige! Kein\l"
+	.string "ARENALEITER, der etwas auf sich hält,\l"
+	.string "würde gegen einen armseligen ROCKET\l"
+	.string "kämpfen!$"
 	
 	
 VermilionCity_Gym_Text_NopeOnlyTrashHere:
-.string "Nope, only trash here.$"	
+.string "Hier ist nichts, bloß Abfall.$"	
 
 
 VermilionCityGym_NoPass_move_1:
@@ -539,20 +551,23 @@ release
 end
 
 FuchsiaCityGym_Can_Pass_Texto_1:
-	.string "Hold on! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} The KANTO DELEGATION,\n"
-	.string "along with LANCE and the ELITE FOUR,\l"
-	.string "authorize this TRAINER to be a POKÉMON\l"
-	.string "LEAGUE CHAMPIONSHIP participant… I'm\l"
-	.string "so sorry, SIR.\p"
-	.string "KOGA must be eager to fight you.$"
+	.string "Sekunde! {PAUSE 25}…{PAUSE 25} Die KANTO-DELEGATION,\n"
+	.string "gemeinsam mit SIEGFRIED und der TOP\l"
+	.string "VIER, ermächtigt diesen TRAINER zur\l"
+	.string "Teilnahme an der POKéMON\l"
+	.string "LIGA-MEISTERSCHAFT {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Es tut mir leid,\l"
+	.string "Sir. KOGA muss schon sehr darauf\l"
+	.string "brennen, gegen Sie zu kämpfen.$"
 
 FuchsiaCityGym_NoPass_Texto_1:
-	.string "Social dregs aren't allowed entry to\n"
-	.string "GYMs. You ought to already know that.$"
+	.string "Der Abschaum der Gesellschaft hat kein\n"
+	.string "Recht, ARENEN zu betreten! Das\l"
+	.string "solltest du doch längst wissen!$"
 
 FuchsiaCityGym_NoPass_Texto_2:
-	.string "Either you leave peacefully or I'll call\n"
-	.string "the INDIGO PLATEAU POLICE!$"
+	.string "Entweder gehst du aus freien Stücken\n"
+	.string "oder ich wende mich an die POLIZEI DES\l"
+	.string "INDIGO-PLATEAUs!$"
 
 
 Cinnabar_Gym_Can_Pass::
@@ -579,18 +594,20 @@ release
 end
 
 Cinnabar_Gym_Can_Pass_Texto_1:
-	.string "… No, it can't be! A LICENSE approved\n"
-	.string "and signed by LANCE himself! There's\l"
-	.string "even your picture and TRAINER ID!\l"
-	.string "Excuse my misunderstanding, SIR.\p"
-	.string "Go ahead, please.$"
+	.string "{PAUSE 25}…{PAUSE 25} Nein. Das kann nicht sein! Eine\n"
+	.string "LIZENZ, autorisiert und unterschrieben\l"
+	.string "von SIEGFRIED höchstpersönlich! Da ist\l"
+	.string "sogar dein Foto und eine TRAINER-ID\l"
+	.string "NUMMER drauf! Verzeihen Sie das\l"
+	.string "Missverständnis, Sir. Fahren Sie bitte\l"
+	.string "Ihres Weges fort!$"
 
 Cinnabar_Gym_NoPass_Texto_1:
-.string "What kind of joke is this?\p"
-	.string "A ROCKET entering here?$"
+	.string "Ist das ein schlechter Scherz? Ein\n"
+	.string "ROCKET, der hier hereinspaziert?$"
 
 Cinnabar_Gym_NoPass_Texto_2:
-.string "Either you disappear or you will have\n"
-	.string "LANCE and their dragons in less time\l"
-	.string "that you disappeared on SILPH,\l"
-	.string "scoundrels!$"
+	.string "Mach dich ganz schnell vom Acker oder\n"
+	.string "SIEGFRIED und seine Drachen sind\l"
+	.string "schneller bei dir, als ihr damals von\l"
+	.string "SILPH weggerannt seid! Ihr Schurken!$"

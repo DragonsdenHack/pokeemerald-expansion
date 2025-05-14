@@ -9,9 +9,10 @@ release
 end
 
 VermilionCity_House3_Text_1:
-.string "I want to exchange MAIL with all sorts\n"
-	.string "of people. I send my PIDGEY to a UNION\l"
-	.string "ROOM to exchange MAIL for me.$"
+	.string "Ich möchte mit allen Menschen BRIEFE\n"
+	.string "austauschen. Ich schicke mein TAUBSI\l"
+	.string "in einen KONNEX-KLUB, um BRIEFE für\l"
+	.string "mich auszutauschen.$"
 
 
 
@@ -28,8 +29,8 @@ release
 end
 
 VermilionCity_House3_Text_3:
-.string "I'm getting my PIDGEY to fly a letter to\n"
-	.string "SAFFRON in the north.$"
+	.string "Ich lasse TAUBSI einen Brief nach\n"
+	.string "SAFFRONIA CITY im Norden bringen!$"
 
 
 
@@ -43,6 +44,7 @@ msgbox VermilionCityHouse3Documento_Text_100, MSGBOX_SIGN
 end
 
 VermilionCityHouse3Documento_Text_100:
-.string "Dear PIPPI, I hope to see you soon. I\n"
-	.string "heard SAFFRON has problems with TEAM\l"
-	.string "ROCKET. VERMILION appears to be safe.$"
+	.string "Liebe NIKKI! Ich hoffe, wir sehen uns\n"
+	.string "bald wieder! Wie ich höre, stiftet TEAM\l"
+	.string "ROCKET in SAFFRONIA CITY Unruhe! In\l"
+	.string "ORANIA CITY scheint es sicher zu sein.$"

@@ -423,134 +423,144 @@ face_up
 step_end
 
 VermilionCity_Secundaria_Moteros_Texto_1:
-	.string "Bah! This sucks! Can't believe we got\n"
-	.string "saddled with idling here all day.$"
+	.string "Ey, das nervt! Den ganzen Tag hocken\n"
+	.string "wir hier nur rum und machen nichts!$"
 
 VermilionCity_Secundaria_Moteros_Texto_2:
-	.string "Wanna can it, fool? You plan on hopping\n"
-	.string "out right where everyone can see you?$"
+	.string "Halt's Maul, du Dummkopf! Willst du\n"
+	.string "rausgehen, damit uns jeder bemerkt?$"
 
 VermilionCity_Secundaria_Moteros_Texto_3:
-	.string "The BOSS was clear. We can only take the\n"
-	.string "product outside between 4 and 6AM.$"
+	.string "Der BOSS war deutlich: Wir dürfen die\n"
+	.string "Waren nur morgens zwischen 04:00 und\l"
+	.string "06:00 Uhr rausbringen!$"
 
 VermilionCity_Secundaria_Moteros_Texto_4:
-	.string "We've got one job. And it's serious dosh\n"
-	.string "without even lifting a finger.$"
+	.string "Wir haben eine Aufgabe, eine einzige.\n"
+	.string "Und dafür gibt's ordentlich Kohle, ohne\l"
+	.string "dass wir 'nen Finger krumm machen\l"
+	.string "müssen.$"
 
 VermilionCity_Secundaria_Moteros_Texto_5:
-	.string "You're right. Those preppies from\n"
-	.string "GOLDENROD are crazy for these mints.$"
+	.string "Hast ja recht. Die Schnösel von DUKATIA\n"
+	.string "CITY sind alle verrückt nach diesen\l"
+	.string "Minzen.$"
 
 VermilionCity_Secundaria_Moteros_Texto_6:
-	.string "You'd be pressed to find one in JOHTO,\n"
-	.string "so that's a fun, little niche.$"
+	.string "In JOHTO findet man die kaum. Ist also\n"
+	.string "eine kleine, nette Marktlücke.$"
 
 VermilionCity_Secundaria_Moteros_Texto_7:
-	.string "Who's there? Reveal yourself!$"
+	.string "Wer ist da? Zeig dich, verdammt!$"
 
 VermilionCity_Secundaria_Moteros_Texto_8:
-	.string "Ho, ho, ho… Finally, some fun.$"
+	.string "Hahaha… Endlich mal 'n bisschen Action.$"
 
 VermilionCity_Secundaria_Moteros_Texto_9:
-	.string "Ah, crud. They're packing serious heat.$"
+	.string "Na toll … Unvorbereitet sind die nicht\n"
+	.string "hergekommen.$"
 
 VermilionCity_Secundaria_Moteros_Texto_10:
-	.string "Not a soul is to leave this place. We'll\n"
-	.string "truss up this petty BUG CATCHER.$"
+	.string "Keiner von euch kommt hier lebend raus!\n"
+	.string "Den kleinen KÄFERSAMMLER fesseln wir!$"
 
 VermilionCity_Secundaria_Moteros_Texto_11:
-	.string "And you? You get that ROCKET.$"
+	.string "Und ihr … Ihr schnappt euch den ROCKET!$"
 
 VermilionCity_Secundaria_Moteros_Texto_12:
-	.string "About time!\p"
-	.string "No more books or patrols for me!$"
+	.string "Wurde auch Zeit! Keine Bücher und\n"
+	.string "Wachrunden mehr für mich!$"
 
 VermilionCity_Secundaria_Moteros_Texto_13:
-	.string "Oh, I'll make you feel real TOXIC now!$"
+	.string "Ich werd dir zeigen, was\n"
+	.string "TOXIN wirklich ist!$"
 
 VermilionCity_Secundaria_Moteros_Texto_14:
-	.string "What? This is it?$"
+	.string "Was? Das war's schon?$"
 
 VermilionCity_Secundaria_Moteros_Texto_15:
-	.string "You TRUBBISH heap. Leave 'em to me!$"
+	.string "Du bist nutzlos! Ich regel das!$"
 
 VermilionCity_Secundaria_Moteros_Texto_16:
-	.string "Darn! How could I lose to a BUG\n"
-	.string "CATCHER?$"
+	.string "Verdammt! Wie konnte ich gegen 'nen\n"
+	.string "KÄFERSAMMLER verlieren?$"
 
 VermilionCity_Secundaria_Moteros_Texto_17:
-	.string "I'll finish him.$"
+	.string "Ich mach ihn fertig.$"
 
 VermilionCity_Secundaria_Moteros_Texto_18:
-	.string "Hey! You there!$"
+	.string "Ey, du! Ja, du!$"
 
 VermilionCity_Secundaria_Moteros_Texto_19:
-	.string "Are you fighting or what?$"
+	.string "Kämpfen wir jetzt, oder was?$"
 
 VermilionCity_Secundaria_Moteros_Texto_20:
-	.string "You ROCKETs know jack about JOHTO\n"
-	.string "POKÉMON. Here's something new!$"
+	.string "Ihr ROCKETs wisst 'n Scheiß über die\n"
+	.string "POKéMON aus JOHTO. Zeit für 'ne kleine\l"
+	.string "Lehrstunde!$"
 
 VermilionCity_Secundaria_Moteros_Texto_21:
-	.string "You ain't from KANTO!$"
+	.string "Du bist nicht aus KANTO!$"
 
 VermilionCity_Secundaria_Moteros_Texto_22:
-	.string "No! BEEDRILL!$"
+	.string "BIBOR! Nein!$"
 
 VermilionCity_Secundaria_Moteros_Texto_23:
-	.string "This is it, bub. The end of the line.\p"
-	.string "Now face the consequenc…$"
+	.string "Das war's, Kumpel. Zeit für dich, die\n"
+	.string "Konsequenzen zu tra…$"
 
 VermilionCity_Secundaria_Moteros_Texto_24:
-	.string "Useless, useless, useless… Beaten up by\n"
-	.string "a ROCKET and a BUG CATCHER. You're all\l"
-	.string "useless piles of… bah is not even worth\l"
-	.string "mentioning it.$"
+	.string "Versager … Ihr alle! Von einem ROCKET\n"
+	.string "und einem KÄFERSAMMLER besiegt! Ihr\l"
+	.string "seid alle nutzlose Hau… pff. Ach, was\l"
+	.string "soll's!$"
 
 VermilionCity_Secundaria_Moteros_Texto_25:
-	.string "I'll be taking care of it myself!$"
+	.string "Ich erledige das selbst!$"
 
 VermilionCity_Secundaria_Moteros_Texto_26:
-	.string "You can't be a ROCKET!$"
+	.string "Du kannst kein ROCKET sein!$"
 
 VermilionCity_Secundaria_Moteros_Texto_27:
-	.string "This is not good… The BOSS won't be\n"
-	.string "liking this…$"
+	.string "Das ist übel … Dem Boss wird das\n"
+	.string "überhaupt nicht gefallen …$"
 
 VermilionCity_Secundaria_Moteros_Texto_28:
-	.string "Huh? You're giving us the boot?$"
+	.string "Was? Du schmeißt uns raus?$"
 
 VermilionCity_Secundaria_Moteros_Texto_29:
 	.string "… …$"
 
 VermilionCity_Secundaria_Moteros_Texto_30:
-	.string "Well, you heard him. Everyone, move! And\n"
-	.string "you'd better go unseen!$"
+	.string "Ihr habt ihn gehört, Jungs! Also raus\n"
+	.string "hier! Und bleibt bloß unentdeckt!$"
 
 VermilionCity_Secundaria_Moteros_Texto_31:
-	.string "And about you…{PAUSE 20} We'll be in touch.$"
+	.string "Und was dich betrifft … Man sieht sich\n"
+	.string "immer zweimal im Leben.$"
 
 VermilionCity_Secundaria_Moteros_Texto_32:
-	.string "Our BOSS's 'MONs are terrifying.$"
+	.string "Die POKéMON von unserem BOSS sind\n"
+	.string "furchterregend.$"
 
 VermilionCity_Secundaria_Moteros_Texto_33:
-	.string "He'll take you down. Then we'll return to\n"
-	.string "wring you of every, last drop.$"
+	.string "Er wird dich plattmachen! Und dann\n"
+	.string "kommen wir wieder zurück und geben dir\l"
+	.string "den Rest!$"
 
 VermilionCity_Secundaria_Moteros_Texto_34:
-	.string "Hold up.$"
+	.string "Warte kurz.$"
 
 VermilionCity_Secundaria_Moteros_Texto_35:
-	.string "There you go! Now your buds are all\n"
-	.string "patched up.$"
+	.string "So. Jetzt sind deine\n"
+	.string "POKéMON wieder fit.$"
 
 VermilionCity_Secundaria_Moteros_Texto_36:
 	.string "…$"
 
 VermilionCity_Secundaria_Moteros_Texto_37:
-	.string "Behind that door, you'll find my garden.$"
+	.string "Hinter dieser Tür liegt mein Garten.$"
 
 VermilionCity_Secundaria_Moteros_Texto_38:
-	.string "The time's come for me to reclaim what\n"
-	.string "was and still is mine.$"
+	.string "Es ist Zeit, dass ich mir endlich das\n"
+	.string "zurückhole, was mir gehört!$"

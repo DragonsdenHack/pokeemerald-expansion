@@ -14,8 +14,8 @@ release
 end
 
 VermilionCity_Mart_VermilionCity_Mart_Text_2:
-.string "I think POKÉMON can be good or bad. It\n"
-	.string "depends on the TRAINER.$"
+	.string "POKéMON können gut oder böse sein. Das\n"
+	.string "hängt ganz von ihrem Trainer ab!$"
 
 
 
@@ -27,8 +27,9 @@ release
 end
 
 VermilionCity_Mart_VermilionCity_Mart_Text_3:
-.string "There are wicked people who will use\n"
-	.string "POKÉMON for criminal acts. TEAM ROCKET\l"
-	.string "traffics in rare POKÉMON, for example.\l"
-	.string "They also abandon POKÉMON that they\l"
-	.string "consider unpopular or useless.$"
+	.string "Es gibt böse Menschen, die POKéMON für\n"
+	.string "Verbrechen missbrauchen. TEAM ROCKET\l"
+	.string "macht mit seltenen POKéMON Geschäfte.\l"
+	.string "Die POKéMON, die ihrer Meinung nach\l"
+	.string "nicht selten genug sind, werden von\l"
+	.string "ihnen ausgesetzt.$"

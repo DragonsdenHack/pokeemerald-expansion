@@ -9,7 +9,8 @@ release
 end
 
 VermilionCity_House2_Text_1:
-	.string "My poor FARFETCH'D! I'd never let it\n"
-	.string "touch a ROCKET's hand! Not even if you\l"
-	.string "offered me a powerful and majestic\l"
-	.string "PIDGEOT!$"
+	.string "Mein armes PORENTA! Ich würde es\n"
+	.string "niemals einem von TEAM ROCKET\l"
+	.string "überlassen! Nicht mal, wenn du mir ein\l"
+	.string "mächtiges und majestätisches TAUBOSS\l"
+	.string "anbieten würdest!$"

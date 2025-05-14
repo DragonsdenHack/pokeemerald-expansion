@@ -9,6 +9,7 @@ release
 end
 
 UndergroundPath1F_Text_1:
-.string "Oh, no! I would never trade my POKÉMON\n"
-	.string "with someone like you! I'm sure you are\l"
-	.string "mean with your POKÉMON!$"
+	.string "Oh, nein! Ich würde niemals meine\n"
+	.string "POKéMON mit jemandem wie dir tauschen!\p"
+	.string "Ich bin mir sicher, dass du gemein zu\n"
+	.string "deinen POKéMON bist!$"

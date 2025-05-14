@@ -27,9 +27,9 @@ release
 end
 
 VermilionCity_PokemonCenter_Text_2:
-.string "What?\n"
-.string "The VS SEEKER?\l"
-.string "I don't give gifts to thieves like you!$"
+.string "Was?\n"
+.string "Einen KAMPFFAHNDER?\l"
+.string "Ich verschenke nichts an Diebe wie dich!$"
 
 
 
@@ -41,10 +41,11 @@ release
 end
 
 VermilionCity_PokemonCenter_Text_3:
-	.string "Health is considered essential in any\n"
-	.string "region. That's why you ROCKETs can\l"
-	.string "freely come in and heal at POKÉMON\l"
-	.string "CENTERs.$"
+	.string "Gesundheit gilt in jeder Region als\n"
+	.string "essentiell. Deswegen könnt selbst ihr\l"
+	.string "von TEAM ROCKET euch frei in\l"
+	.string "POKéMON-CENTERN bewegen und die\l"
+	.string "üblichen Dienste in Anspruch nehmen.$"
 
 
 
@@ -56,8 +57,8 @@ release
 end
 
 VermilionCity_PokemonCenter_Text_4:
-.string "My POKÉMON was poisoned. It fainted\n"
-	.string "while we were walking.$"
+	.string "Mein POKéMON wurde vergiftet! Das Gift\n"
+	.string "hat es lange nach dem Kampf besiegt!$"
 
 
 
@@ -69,11 +70,12 @@ release
 end
 
 VermilionCity_PokemonCenter_Text_5:
-.string "It is true that a higher-level POKÉMON\n"
-	.string "will be more powerful…{PAUSE 25} But, all POKÉMON\l"
-	.string "will have weak points against specific\l"
-	.string "types. So, there appears to be no\l"
-	.string "universally strong POKÉMON.$"
+	.string "Es stimmt, dass ein POKéMON mit einem\n"
+	.string "hohen Level sehr stark ist … Allerdings\n"
+	.string "haben alle POKéMON Schwächen. Die\l"
+	.string "richtige Attacke kann sie leicht\l"
+	.string "besiegen! Daher gibt es kein\l"
+	.string "Universal-POKéMON.$"
 
 
 
