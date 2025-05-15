@@ -9,7 +9,9 @@ release
 end
 
 Text_1:
-	.string "I'll never expose the valuable secrets\n"
-	.string "of the GYM BADGES to a ROCKET. {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
-	.string "What? You don't need those stupid\n"
-	.string "BADGES to walk around using any HM?$"
+	.string "Ich werde niemals einen von TEAM\n"
+	.string "ROCKET in die heiligen Geheimnisse der\l"
+	.string "ARENAORDEN einweihen. … … Was? Du\l"
+	.string "brauchst diese dummen ORDEN gar nicht,\l"
+	.string "um VMs außerhalb von Kämpfen\l"
+	.string "verwenden zu können? … {PAUSE 5}…{PAUSE 5}$"

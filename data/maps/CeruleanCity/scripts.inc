@@ -190,19 +190,20 @@ end
 
 
 CeruleanCity_Rocket_Excavar_Text_1:
-	.string "Hey, ROCKET! You want in on a good deal?\p"
-	.string "PETREL sent me and another GRUNT on a\n"
-	.string "mission in CERULEAN CITY, and we\l"
-	.string "thought an extra hand would do\l"
-	.string "some good. You in?$"
+	.string "Hey ROCKET! Bock ein bisschen Kasse zu\n"
+	.string "machen? LAMBDA hat mir und 'nem\l"
+	.string "anderen RÜPEL eine Mission in AZURIA\l"
+	.string "CITY gegeben und wir dachten, ein\l"
+	.string "bisschen zusätzliche Hilfe könnte\l"
+	.string "nicht schaden. Biste dabei?$"
 
 CeruleanCity_Rocket_Excavar_Text_1.1:
 	.string "…\n"
 	.string "…$"
 
 CeruleanCity_Rocket_Excavar_Text_1.2:
-	.string "Good!\p"
-	.string "Let's go!$"
+	.string "Geil!\p"
+	.string "Los geht's!$"
 
 CeruleanCity_Rocket_Excavar_move1:
 walk_in_place_up
@@ -230,9 +231,9 @@ release
 end
 
 CeruleanCity_Text_Abajo:     
-	.string "-My mission's going to MT. MOON to\n"
-	.string "collect FOSSILS!\p"
-	.string "Not roaming CERULEAN CITY!-$"
+	.string "-Meine Mission lautet, auf dem MONDBERG\n"
+	.string "FOSSILIEN zu sammeln, und nicht in\l"
+	.string "AZURIA CITY rumzugammeln.-$"
 
 
 CeruleanCityAbajoMove1:
@@ -253,8 +254,8 @@ release
 end
 
 CeruleanCity_Text_Abajo_2:
-	.string "-PETREL wants me in his office.\n"
-	.string "Where exactly am I off to?-$"
+	.string "-LAMBDA hat mich in sein Büro bestellt.\n"
+	.string "Warum laufe ich also in diese Richtung?-$"
 
 CeruleanCity_Nino::
 lock
@@ -264,8 +265,8 @@ release
 end
 
 CeruleanCity_Nino_Texto_1:
-	.string "My momma said men like you with an\n"
-	.string "R on your clothes are baddies.$"
+	.string "Meine Mama sagt, Leute wie du mit einem\n"
+	.string "R auf der Kleidung sind böse.$"
 
 CeruleanCity_Bayas::
 lock
@@ -275,10 +276,10 @@ release
 end
 
 CeruleanCity_Bayas_Texto_1:
-	.string "Bold of you. Did you know this city's got\n"
-	.string "the biggest police station in KANTO?\l"
-	.string "C'mon… Just land me the excuse to phone\l"
-	.string "over the boys, ROCKET.$"
+	.string "Mutig von dir. Wusstest du, dass diese\n"
+	.string "Stadt die größte Polizeistation in ganz\l"
+	.string "KANTO hat? Komm schon {PAUSE 15}…{PAUSE 15} ROCKET, Gib mir\l"
+	.string "einen Grund, die Jungs zu holen! Bitte!$"
 
 CeruleanCity_Nina::
 lock
@@ -288,7 +289,7 @@ release
 end
 
 CeruleanCity_Nina_Texto_1:
-	.string "My SLOWBRO's pretty lazy. I'd bet some\n"
-	.string "discipline would shape it up, but I don't\l"
-	.string "suppose you ROCKETs would have any\l"
-	.string "experience with that, now would you?$"
+	.string "Mein LAHMUS ist ziemlich faul. Ich\n"
+	.string "wette, ein bisschen Disziplin würde ihm\l"
+	.string "guttun. Nicht, dass ihr ROCKETs etwas\l"
+	.string "davon versteht. Ist doch so, oder?$"

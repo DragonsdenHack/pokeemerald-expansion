@@ -33,7 +33,7 @@ release
 end
 
 MtMoon3F_Text_5:
-.string "Nothing here, comrade!$"
+.string "Hier ist nichts, Alter!$"
 
 
 
@@ -45,9 +45,10 @@ release
 end
 
 MtMoon3F_Text_6:
-	.string "ANDRA: Looks like there's nothing\n"
-	.string "important over there. Maybe in those\l"
-	.string "stairs leading to the other entrance…$"
+	.string "ANDRA: Sieht so aus, als wäre da drüben\n"
+	.string "nichts Wertvolles. Vielleicht ja in den\l"
+	.string "Untergeschossen, die man über diese\l"
+	.string "Leitern hier erreicht {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -72,16 +73,19 @@ release
 end
 
 MtMoon3F_Text_9:
-	.string "That's him. That's the kid causing us so\n"
-	.string "much trouble. Tried stopping him, but he\l"
-	.string "utterly crushed me. All I can do is just\l"
-	.string "stand and watch…$"
+	.string "Das ist er! Das ist der Arsch, der uns so\n"
+	.string "viele Probleme macht! Ich habe\l"
+	.string "versucht, ihn aufzuhalten, aber er hat\l"
+	.string "mich komplett auseinandergenommen!\p"
+	.string "Alles, was ich jetzt tun kann, ist hier\n"
+	.string "dumm rumzustehen und zuzusehen {PAUSE 5}…{PAUSE 5}$"
 
 
 MtMoon3F_Text_9_2:
-.string "Wow! I don't know what you just told him\n"
-	.string "but he left without the FOSSIL! Now\l"
-	.string "PETREL will reward us even more!$"
+	.string "Wow! Ich weiß nicht, was du ihm gesagt\n"
+	.string "hast, aber er ist ohne das FOSSIL\l"
+	.string "verschwunden! Jetzt wird uns LAMBDA\l"
+	.string "noch mehr belohnen!$"
 
 MtMoon3F_10::
 end
@@ -129,33 +133,34 @@ end
 
 
 MtMoon3F_Text_11:
-.string "Stop wasting time and keep searching.\n"
-	.string "Can't you see I'm already looking around\l"
-	.string "here?$"
+	.string "Hör auf, Zeit zu verschwenden und such\n"
+	.string "gefälligst weiter! Siehst du nicht, dass\l"
+	.string "ich bereits hier suche?$"
 
 MtMoon3F_Text_11_1:
-.string "{PLAYER} showed the FOSSIL to HIGH\n"
-	.string "RANK FRANK!$"
+	.string "{PLAYER} zeigt dem HOCHRANGINGEN\n"
+	.string "RÜPEL FRANK das FOSSIL!$"
 
 MtMoon3F_Text_11_2:
-	.string "Mmm… Maybe you're not as useless as I'd\n"
-	.string "thought. With this one, that's three\l"
-	.string "FOSSILS, enough to wrap up the mission.$"
+	.string "Mmm{PAUSE 25}…{PAUSE 25} Vielleicht bist du ja doch nicht so\n"
+	.string "nutzlos, wie ich dachte. Mit diesem\l"
+	.string "haben wir jetzt drei FOSSILIEN. Das ist\l"
+	.string "genug, um die Mission abzuschließen.$"
 
 MtMoon3F_Text_11_3:
-.string "Calling up all MT. MOON mission GRUNTs!\p"
-	.string "The mission is over. Come back to the\n"
-	.string "gathering point!$"
+	.string "An alle RÜPEL der MONDBERG Mission! Die\n"
+	.string "Mission ist vorbei! Kehrt zum\l"
+	.string "Treffpunkt zurück!$"
 
 MtMoon3F_Text_11_4:
-	.string "Perfect! I'm rushing the others'\n"
-	.string "arrivals so I can find another FOSSIL.\l"
-	.string "Get moving, GRUNT. And watch what you\l"
-	.string "carry!$"
+	.string "Perfekt! Ich hetze die Anderen, damit\n"
+	.string "ich noch ein weiteres FOSSIL finden\l"
+	.string "kann. Beweg dich, RÜPEL! Und pass auf,\l"
+	.string "dass du nichts verlierst!$"
 
 MtMoon3F_Text_11_5:
-	.string "Get back to the gathering point, GRUNT!\n"
-	.string "I'd better not have to repeat myself!$"
+	.string "Geh zurück zum Treffpunkt, RÜPEL! Ich\n"
+	.string "will mich nicht wiederholen müssen!$"
 
 
 MtMoon3F_9_2_move1:
@@ -299,36 +304,41 @@ release
 end
 
 MtMoon_3F_Azul_Text_1:
-	.string "????: Well. Yet again, not an OLD AMBER.\n"
-	.string "I'll have to be satisfied with these\l"
-	.string "HELIX and DOME FOSSILS. What a pity.\l"
-	.string "AERODACTYL would've made a fine\l"
-	.string "addition to the team.$"
+	.string "????: Tja. Schon wieder kein\n"
+	.string "ALTBERNSTEIN. Ich muss mich wohl mit\l"
+	.string "diesen HELIX- und DOMFOSSILIEN\l"
+	.string "zufriedengeben. Schade.\p"
+	.string "Ein AERODACTYL wäre eine super\n"
+	.string "Ergänzung für mein Team gewesen.$"
 
 MtMoon_3F_Azul_Text_2:
-	.string "Another ROCKET? You guys are\n"
-	.string "everywhere, but I don't wanna burn more\l"
-	.string "time beating you too. At your level, I\l"
-	.string "can't even get a good warm-up.$"
+	.string "Noch ein ROCKET? Ihr seid ja überall!\p"
+	.string "Aber ich will nicht noch mehr Zeit damit\n"
+	.string "verschwenden, dich auch noch zu\l"
+	.string "besiegen. Nimm das nicht persönlich,\l"
+	.string "aber bei deinem Können geht das nicht\l"
+	.string "mal als Aufwärmtraining durch.$"
 
 MtMoon_3F_Azul_Text_3:
-	.string "Fortunately, I've already got a DOME\n"
-	.string "FOSSIL, don't need this one too, see.\p"
-	.string "Take it if you want; after all, who\n"
-	.string "wants an OMASTAR or KABUTOPS, when I\l"
-	.string "can have a BLASTOISE?$"
+	.string "Zu deinem Glück habe ich schon ein\n"
+	.string "DOMFOSSIL. Also brauche ich dieses hier\l"
+	.string "nicht. Du kannst es haben. Aber wer will\l"
+	.string "schon ein AMOROSO oder KABUTOPS haben,\l"
+	.string "wenn es TURTOK gibt?$"
 
 MtMoon_3F_Azul_Text_4:
-	.string "What? You telling me I'm getting big\n"
-	.string "headed just ‘cuz I'm letting my\l"
-	.string "competition go scot-free?$"
+	.string "Was? Du willst mir erzählen, dass ich\n"
+	.string "überheblich bin, nur weil ich die\l"
+	.string "Konkurrenz ungeschoren davonkommen\l"
+	.string "lasse?$"
 
 MtMoon_3F_Azul_Text_5:
-	.string "I don't care about how much money are\n"
-	.string "you making for those FOSSILS. All I\l"
-	.string "care about is just the priceless\l"
-	.string "advantage of building a strong and\l"
-	.string "balanced team.$"
+	.string "Mir ist es egal, wie viel Geld ihr mit\n"
+	.string "diesen FOSSILIEN macht, ROCKET! Alles,\l"
+	.string "was mich interessiert, ist ein mächtiges\l"
+	.string "und ausgeglichenes Team aufzubauen!\p"
+	.string "Das ist mir mehr wert als alles Geld der\n"
+	.string "Welt!$"
 
 MtMoon_3F_Azul_move1:
 walk_in_place_right
@@ -406,11 +416,12 @@ release
 end
 
 MtMoon_3F_Fosil_text_1:
-.string "-YOU GOT A DOME FOSSIL!!-$"
+.string "DU ERHÄLTST EIN DOMFOSSIL!!$"
 
 MtMoon_3F_Fosil_text_2:
-	.string "-The DOME FOSSIL is mine.\n"
-	.string "I should inform the HIGH-RANK.-$"
+	.string "-Ich habe jetzt ein DOMFOSSIL. Ich\n"
+	.string "sollte meinen Vorgesetzten darüber\l"
+	.string "informieren.-$"
 
 
 
@@ -519,64 +530,72 @@ release
 end
 
 MtMoon_3F_Miguel_Rojo_text_1:
-.string "Lost something here, ROCKET?\n"
+.string "Hast du etwas verloren, ROCKET?\n"
 	.string "{PAUSE 10}…{PAUSE 10}\l"
 	.string "{PAUSE 10}…{PAUSE 10}$"
 
 MtMoon_3F_Miguel_Rojo_text_2:
-	.string "Really now? You're gathering FOSSILS,\n"
-	.string "and you've got one right here?$"
+	.string "Wirklich? Du sammelst FOSSILIEN und\n"
+	.string "trägst eins mit dir?$"
 
 MtMoon_3F_Miguel_Rojo_text_3:
-	.string "-Aha, these ROCKETs are some easy\n"
-	.string "suckers, aren't they? If I handle\l"
-	.string "things right, I'll score a second\l"
-	.string "FOSSIL.-$"
+	.string "-Ha! Diese ROCKETs sind echt dämlich,\n"
+	.string "was? Wenn ich meine Karten richtig\l"
+	.string "spiele, werde ich hier mit zwei\l"
+	.string "FOSSILIEN hinausspazieren.-$"
 
 MtMoon_3F_Miguel_Rojo_text_4:
-.string "Hey, ROCKET, I'm offering you a deal.$"
+	.string "Hey, ROCKET! Ich mache dir ein Angebot.$"
 
 MtMoon_3F_Miguel_Rojo_text_5:
-	.string "That over there's a HELIX FOSSIL, the\n"
-	.string "remains of an OMANYTE, an ancestral\l"
-	.string "POKÉMON that once lived\l"
-	.string "three-hundred-million years ago. You\l"
-	.string "wanna make some quick dosh? Let's bet\l"
-	.string "our FOSSILS for the other-winner takes\l"
-	.string "all. … …$"
+	.string "Das da drüben ist ein HELIXFOSSIL. Es\n"
+	.string "sind die Überreste eines AMONITAS - ein\l"
+	.string "urzeitliches POKéMON, das vor 300\l"
+	.string "Millionen Jahren gelebt hat. Du willst\l"
+	.string "schnelles Geld machen? Gut, dann lass\l"
+	.string "uns unsere FOSSILIEN gegeneinander\l"
+	.string "wetten. Der Gewinner kriegt beide.$"
 
 MtMoon_3F_Miguel_Rojo_text_6:
-.string "What do you say? Do we have a deal?$"
+.string "Was sagst du? Haben wir eine Abmachung?$"
 
 MtMoon_3F_Miguel_Rojo_text_7:
-	.string "I'd expect no less of a ROCKET. Alea\n"
-	.string "jacta est. The winner takes home both\l"
-	.string "FOSSILS. Now leave yours next to mine\l"
-	.string "to seal the deal.$"
+	.string "Ich habe nichts anderes von einem\n"
+	.string "ROCKET erwartet. Alea jacta est - die\l"
+	.string "Würfel sind gefallen. Der Gewinner\l"
+	.string "bekommt beide FOSSILIEN. Jetzt leg\l"
+	.string "deins neben meins, um das Geschäft zu\l"
+	.string "besiegeln.$"
 
 MtMoon_3F_Miguel_Rojo_text_8:
-	.string "Ha! And there's your fatal mistake. My\n"
-	.string "POKÉMON will never fall to some middling\l"
-	.string "GRUNT like you. Thanks for dropping the\l"
-	.string "DOME FOSSIL right in my lap. How great!\l"
-	.string "'Cause of you, I'll go home today with\l"
-	.string "both the DOME and HELIX FOSSILS!$"
+	.string "Ha! Und damit hast du dir dein eigenes\n"
+	.string "Grab geschaufelt! Meine POKéMON werden\l"
+	.string "niemals gegen einen durchschnittlichen\l"
+	.string "RÜPEL verlieren! Danke, dass du mir das\l"
+	.string "DOMFOSSIL auf dem Silbertablett\l"
+	.string "serviert hast! Fantastisch! Dank dir\l"
+	.string "werde ich heute mit einem DOM- und\l"
+	.string "HELIXFOSSIL nach Hause gehen!$"
 
 MtMoon_3F_Miguel_Rojo_text_9:
-	.string "This was supposed to be under control!$"
+	.string "Das hätte eine einfache Angelegenheit\n"
+	.string "sein sollen!$"
 
 MtMoon_3F_Miguel_Rojo_text_10:
-	.string "Grr… You're no ordinary ROCKET. I hate\n"
-	.string "it when some scrub goes around defying\l"
-	.string "stats. About the FOSSILS…$"
+	.string "Grr… Du bist kein gewöhnlicher ROCKET!\n"
+	.string "Ich hasse es, wenn irgendein\l"
+	.string "dahergelaufener Möchtegern sämtlichen\l"
+	.string "Statistiken trotzt.\p"
+	.string "Was die FOSSILIEN angeht{PAUSE 5}…{PAUSE 5}$"
 
 MtMoon_3F_Miguel_Rojo_text_11:
-	.string "Calling up {PLAYER}!! A dangerous\n"
-	.string "TRAINER just turned up. He beat us\l"
-	.string "effortlessly, and he's headed toward\l"
-	.string "you. Protect the FOSSIL with your life.\l"
-	.string "Repeat: protect the FOSSIL with your\l"
-	.string "life. That's an order!$"
+	.string "Achtung, {PLAYER}!! Ein gefährlicher\n"
+	.string "TRAINER ist gerade aufgetaucht! Er hat\l"
+	.string "uns alle mühelos besiegt und ist auf\l"
+	.string "dem Weg zu dir! Beschütze das FOSSIL\l"
+	.string "mit deinem Leben! Ich wiederhole:\p"
+	.string "Beschütze das FOSSIL mit deinem Leben!\n"
+	.string "Das ist ein Befehl!$"
 
 MtMoon_3F_Miguel_Rojo_text_12:
 .string "????: {PAUSE 45}…{PAUSE 45}$"
@@ -585,10 +604,11 @@ MtMoon_3F_Miguel_Rojo_text_13:
 .string "{PAUSE 45}…{PAUSE 45}$"
 
 MtMoon_3F_Miguel_Rojo_text_14:
-	.string "And here, I thought you ROCKETs were\n"
-	.string "slower than that. Are you seriously\l"
-	.string "betraying your criminal nature? C'mon,\l"
-	.string "give it another thought.$"
+	.string "Und ich dachte, ihr ROCKETs würdet\n"
+	.string "weder Risiko noch Wetten scheuen.\p"
+	.string "Willst du etwa deinem\n"
+	.string "Verbrecher-Dasein untreu werden? Komm\l"
+	.string "schon, denk nochmal drüber nach!$"
 
 MtMoon_3F_Miguel_Rojo_move1:
 walk_in_place_up
@@ -807,11 +827,13 @@ release
 end
 
 MtMoon_3F_Pelea_Frank_texto1:
-	.string "FRANK: You've got some guts turning up\n"
-	.string "again. You were given a mission,\l"
-	.string "{PLAYER}: protect the FOSSIL with\l"
-	.string "your life, and you failed spectacularly!\l"
-	.string "Got anything to say for yourself?$"
+	.string "HOCHRANGIGER RÜPEL FRANK: Du hast\n"
+	.string "echt Nerven, hier wieder aufzutauchen!\p"
+	.string "Du hattest einen Befehl, {PLAYER}:\n"
+	.string "Das FOSSIL mit deinem Leben zu\l"
+	.string "beschützen, und du hast auf ganzer\l"
+	.string "Linie versagt! Hast du irgendetwas zu\l"
+	.string "deiner Verteidigung zu sagen?$"
 
 MtMoon_3F_Pelea_Frank_texto2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
@@ -820,139 +842,118 @@ MtMoon_3F_Pelea_Frank_texto2:
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Pelea_Frank_texto3:
-	.string "YOU HAD TWO FOSSILS?!\p"
-	.string "And you got fooled by some science\n"
-	.string "geek, just to, in the end, lose\l"
-	.string "against the mysterious TRAINER?!\p"
-	.string "Your incompetence is astounding!\p"
-	.string "I'll recommend PETREL your immediate\n"
-	.string "dismissal; an incompetent fool like\l"
-	.string "you doesn't deserve a place in this\l"
-	.string "organization!$"
+	.string "DU HATTEST ZWEI FOSSILIEN IN DEINEM\n"
+	.string "BESITZ!! Und dann hast du dich von\l"
+	.string "irgendeinem Streber übers Ohr hauen\l"
+	.string "lassen, nur um direkt danach gegen den\l"
+	.string "mysteriösen TRAINER zu verlieren!!\p"
+	.string "Deine Inkompetenz macht mich krank!\p"
+	.string "Ich werde LAMBDA raten, dich sofort aus\n"
+	.string "TEAM ROCKET rauszuwerfen! Ein\l"
+	.string "unfähiges Stück Scheiße wie du hat in\l"
+	.string "dieser Organisation nichts verloren!$"
 
 MtMoon_3F_Pelea_Frank_texto4:
-	.string "ANDRA: Sorry for interrupting, SIR\n"
-	.string "H.R.FRANK, but I've seen {PLAYER}\l"
-	.string "fighting, and he's not as weak as\l"
-	.string "you think, SIR. That trainer{PAUSE 15}…{PAUSE 15}\p"
-	.string "Each ROCKET who fought against him,\n"
-	.string "was defeated, so it'd be totally\l"
-	.string "unfair to punish {PLAYER} for that.\p"
-	.string "We still have two FOSSILS.\p"
-	.string "In the end, it's not all bad.$"
+	.string "ANDRA: Entschuldigung, dass ich Sie\n"
+	.string "unterbreche, Sir. Aber ich habe\l"
+	.string "{PLAYER} kämpfen sehen und er ist\l"
+	.string "nicht so schwach, wie Sie denken.\p"
+	.string "Jeder, der gegen diesen mysteriösen\n"
+	.string "TRAINER angetreten ist, wurde beinahe\l"
+	.string "augenblicklich besiegt - ohne\l"
+	.string "Ausnahme. Es wäre also sehr unfair, nur\l"
+	.string "ihn dafür zu bestrafen. Außerdem haben\l"
+	.string "wir immer noch zwei FOSSILIEN. Also ist\l"
+	.string "es nicht ganz so schlimm.$"
 
 MtMoon_3F_Pelea_Frank_texto5:
-	.string "FRANK: We ain't judging his level as a\n"
-	.string "TRAINER, ANDRA, but his lack of cunning\l"
-	.string "and intelligence in the moment to\l"
-	.string "overcome the situation.$"
+	.string "HOCHRANGIGER RÜPEL FRANK: Wir urteilen\n"
+	.string "hier nicht über seine Stärke als\l"
+	.string "TRAINER, ANDRA, sondern über seinen\l"
+	.string "Mangel an Raffinesse und Intelligenz,\l"
+	.string "diese Situation zu meistern.$"
 
 MtMoon_3F_Pelea_Frank_texto6:
-	.string "You should've snagged the FOSSILS and\n"
-	.string "fled with an ESCAPE ROPE immediately\l"
-	.string "after receiving my message, instead of\l"
-	.string "sticking around to get slapped around\l"
-	.string "like a fool, especially after being\l"
-	.string "warned of his outstanding skill. Not to\l"
-	.string "mention how you ignored that scientist\l"
-	.string "who ultimately tricked you. That shady\l"
-	.string "prick must've gotten away with one of\l"
-	.string "the FOSSILS.\p"
-	.string "You've become the class clown, {PLAYER}.\p"
-	.string "Your negligence it's gonna cost us\n"
-	.string "like ¥600,000!\p"
-	.string "Do you have any idea about the projects\n"
-	.string "could we fund with that amount!?$"
+	.string "traducir$"
 
 MtMoon_3F_Pelea_Frank_texto7:
-.string "H.R. FRANK: What? Are you telling me\n"
-	.string "that ROCKET's honor code says that we\l"
-	.string "shouldn't flinch never in front of the\l"
-	.string "enemy, nor flee? And that will be seen\l"
-	.string "as weakness and lack of values, and\l"
-	.string "that we should have beaten that\l"
-	.string "TRAINER all together?$"
+	.string "traducir$"
 
 MtMoon_3F_Pelea_Frank_texto8:
-	.string "This is outrageous, I don't need\n"
-	.string "some backwoods newb to talk to me\l"
-	.string "about the ROCKET honor code. You'll\l"
-	.string "regret mentioning it. People like\l"
-	.string "you need to be taught some hard lessons.\p"
-	.string "After this, I won't care about\n"
-	.string "your POKÉMON TEAM shake!$"
+	.string "traducir$"
 
 MtMoon_3F_Pelea_Frank_texto9:
-.string "Me? A HIGH-RANK?\n"
-	.string "Defeated by a no-name GRUNT?$"
+	.string "Ich, ein hochrangiges Mitglied dieser\n"
+	.string "Organisation, besiegt von einem\l"
+	.string "gewöhnlichen RÜPEL?!$"
 
 MtMoon_3F_Pelea_Frank_texto10:
-.string "This is inadmissible…$"
+.string "Das ist inakzeptabel…{PAUSE 5}$"
 
 MtMoon_3F_Pelea_Frank_texto11:
-	.string "Enough. The mission's over. Your balance\n"
-	.string "is down two FOSSILS. You'll be held\l"
-	.string "accountable by PETREL, so present\l"
-	.string "yourselves to him in the ROUTE 5 BASE.\l"
-	.string "And there, you'll be given your next\l"
-	.string "mission. Smoke bomb, go!!$"
+	.string "traducir$"
 
 MtMoon_3F_Pelea_Frank_texto12:
-	.string "ANDRA: Wow, you see that? Everyone's\n"
-	.string "just stunned. HIGH-RANK FRANK's\l"
-	.string "downright notorious for hazing the\l"
-	.string "newbies, but you held your ground and\l"
-	.string "faced him head on!$"
+	.string "ANDRA: Krass! Siehst du das? Alle sind\n"
+	.string "völlig baff! FRANK ist bekannt dafür,\l"
+	.string "Neulinge ohne Gnade zu testen, aber du\l"
+	.string "hast dich nicht unterkriegen lassen\l"
+	.string "und ihm ordentlich die Stirn geboten!$"
 
 MtMoon_3F_Pelea_Frank_texto13:
-	.string "Couldn't get a hold of that mysterious\n"
-	.string "TRAINER. Did he have a CHARMELEON?\l"
-	.string "Looks like we've got ourselves a tough\l"
-	.string "crowd here. We'd better train up so that\l"
-	.string "kid won't take us down like today. But\l"
-	.string "what'll PETREL say? FRANK's probably\l"
-	.string "smeared you in the report, so you'd\l"
-	.string "better share your side of things in the\l"
-	.string "quarters quick.$"
+	.string "Ich bin dem mysteriösen TRAINER leider\n"
+	.string "nicht begegnet. Er hatte ein GLUTEXO?\p"
+	.string "Sieht so aus, als hätten wir es hier mit\n"
+	.string "einem harten Gegner zu tun. Wir sollten\l"
+	.string "besser noch mehr trainieren, damit uns\l"
+	.string "dieser Knirps nicht nochmal so\l"
+	.string "bloßstellt wie heute. Aber was wird wohl\l"
+	.string "LAMBDA sagen? FRANK hat dich in seinem\l"
+	.string "Bericht bestimmt so schlecht wie\l"
+	.string "möglich dargestellt, also schau, dass du\l"
+	.string "so schnell wie möglich in die Basis\l"
+	.string "kommst und deine Seite der Dinge\l"
+	.string "erklärst!$"
 
 MtMoon_3F_Pelea_Frank_texto14:
-	.string "PETREL: Calling up GRUNT ANDRA.$"
+	.string "LAMBDA: RÜPEL ANDRA!$"
 
 MtMoon_3F_Pelea_Frank_texto15:
-	.string "ANDRA: Right here, SIR. What is it?$"
+	.string "ANDRA: Ja, Sir! Was gibt es?$"
 
 MtMoon_3F_Pelea_Frank_texto16:
-	.string "PETREL: You were given a mission\n"
-	.string "alongside six GRUNTs. Depart for\l"
-	.string "VERMILION CITY immediately. Details\l"
-	.string "will be provided on the way. Is\l"
-	.string "{PLAYER} there?$"
+	.string "LAMBDA: Du wurdest mit sechs weiteren\n"
+	.string "RÜPELN für eine Mission eingeteilt.\p"
+	.string "Brich sofort nach ORANIA CITY auf.\n"
+	.string "Die Details erfährst du unterwegs.\l"
+	.string "Ist RÜPEL {PLAYER} anwesend?$"
 
 MtMoon_3F_Pelea_Frank_texto17:
-.string "ANDRA: Roger that. Yes, {PLAYER} is\n"
-	.string "here, SIR.$"
+	.string "ANDRA: Verstanden! Ja, RÜPEL\n"
+	.string "{PLAYER} ist hier, SIR.$"
 
 MtMoon_3F_Pelea_Frank_texto18:
-.string "PETREL: Tell him I want him in my office\n"
-	.string "right now. You're dismissed.$"
+	.string "LAMBDA: Sag ihm, dass ich ihn sofort in\n"
+	.string "meinem Büro sprechen will! Abmarsch!$"
 
 MtMoon_3F_Pelea_Frank_texto19:
-	.string "ANDRA: Well, you heard him. Looks like\n"
-	.string "our missions are different this time.$"
+	.string "ANDRA: Du hast ihn gehört. Es scheint,\n"
+	.string "als hätten wir dieses Mal\l"
+	.string "unterschiedliche Missionen zu\l"
+	.string "erledigen.$"
 
 MtMoon_3F_Pelea_Frank_texto19.1:
 	.string "… …$"
 
 MtMoon_3F_Pelea_Frank_texto19.2:
-	.string "Relax, {PLAYER}. I don't think you'll\n"
-	.string "get expelled, you know how to fight;\l"
-	.string "we've all seen it.$"
+	.string "traducir$"
 
 MtMoon_3F_Pelea_Frank_texto20:
-	.string "Next we meet, I hope your team's\n"
-	.string "unrecognizable. But y' know, mine'll be\l"
-	.string "way tougher too. See ya, CHRONO ISLAND\l"
-	.string "comrade.$"
+	.string "Das nächste Mal, wenn wir uns treffen,\n"
+	.string "hoffe ich, dass dein Team nicht\l"
+	.string "wiederzuerkennen ist, denn meins wird\l"
+	.string "viel stärker sein. Man sieht sich,\l"
+	.string "EILAND FÜNF Kamerad!$"
 
 MtMoon_3F_Pelea_Frank_move1:
 walk_down

@@ -14,12 +14,13 @@ release
 end
 
 CeruleanCity_Mart_Text_2:
-.string "Use REPELS to avoid bugs and weak\n"
-	.string "POKÉMON. Place your strongest POKÉMON\l"
-	.string "at the top of your team to achieve\l"
-	.string "better results! If your first POKÉMON\l"
-	.string "is strong, the REPEL will have a greater\l"
-	.string "effect.$"
+	.string "Benutze einen SCHUTZ, um Käfer und\n"
+	.string "schwächere POKéMON von dir\l"
+	.string "fernzuhalten! Für optimalen Schutz\l"
+	.string "solltest du das stärkste POKéMON an\l"
+	.string "die Spitze der Liste setzen! Wenn das\l"
+	.string "POKéMON, das an erster Stelle steht,\l"
+	.string "stark ist, wirkt SCHUTZ noch besser!$"
 
 
 
@@ -31,5 +32,6 @@ release
 end
 
 CeruleanCity_Mart_Text_3:
-.string "Have you seen any RARE CANDY? They say\n"
-	.string "POKÉMON level up if they eat one!$"
+	.string "Besitzt du SONDERBONBONs? Gibt man\n"
+	.string "einem POKéMON ein solches BONBON, dann\l"
+	.string "erreicht es den nächsten Level!$"

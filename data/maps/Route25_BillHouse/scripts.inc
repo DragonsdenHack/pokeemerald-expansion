@@ -14,8 +14,8 @@ release
 end
 
 Route25_BillHouse_Text_3:
-	.string "The only way you'll be leaving\n"
-	.string "is in cuffs.$"
+	.string "Du kommst hier nur in Handschellen\n"
+	.string "raus!$"
 
 
 
@@ -27,8 +27,8 @@ release
 end
 
 Route25_BillHouse_Text_4:
-.string "The only way you can leave here is being\n"
-	.string "detained.$"
+	.string "Du kommst hier nur in Handschellen\n"
+	.string "raus!$"
 
 
 
@@ -40,8 +40,8 @@ release
 end
 
 Route25_BillHouse_Text_5:
-.string "The only way you can leave here is being\n"
-	.string "detained.$"
+	.string "Du kommst hier nur in Handschellen\n"
+	.string "raus!$"
 
 Route25_BillHouse_Evento_Policia::
 delay 20
@@ -156,90 +156,100 @@ face_down
 step_end
 
 Route25_BillHouse_Evento_Policia_text_1:
-	.string "BILL: That SILPH. I'd made myself clear\n"
-	.string "when I said I wanted that UP-GRADE for\l"
-	.string "my PORYGON. The sooner, the better. I'll\l"
-	.string "be the first one in KANTO with a\l"
-	.string "PORYGON2, the latest in technology.$"
+	.string "BILL: Diese dumme SILPH COMPANY … Ich\n"
+	.string "hatte mich doch klar und deutlich\l"
+	.string "ausgedrückt, dass ich ein UP-GRADE für\l"
+	.string "mein PORYGON haben will! Je früher,\l"
+	.string "desto besser! Ich werde der Erste in\l"
+	.string "KANTO mit einem PORYGON2 sein - das\l"
+	.string "POKéMON auf dem neuesten Stand der\l"
+	.string "Technik!$"
+
 
 Route25_BillHouse_Evento_Policia_text_2:
-	.string "What kind of joke is this? Get out of my\n"
-	.string "house, you ROCKET. I don't do business\l"
-	.string "with criminals. Besides, I've got every\l"
-	.string "POKÉMON you could offer me.$"
+	.string "Soll das ein Witz sein? Verschwinde aus\n"
+	.string "meinem Haus, ROCKET. Ich mache keine\l"
+	.string "Geschäfte mit Kriminellen.\p"
+	.string "Außerdem besitze ich bereits jedes\n"
+	.string "POKéMON, das du mir anbieten könntest.$"
 
 Route25_BillHouse_Evento_Policia_text_3:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Route25_BillHouse_Evento_Policia_text_4:
-.string "Don't you want my patent for long\n"
-	.string "distance teleportation!? {PAUSE 15}…{PAUSE 15} \p"
-	.string "Well played, but unlucky for you…$"
+	.string "traducir$"
 
 Route25_BillHouse_Evento_Policia_text_5:
-.string "The ELITE 4 government has already\n"
-	.string "offered me 20,000,000¥, and an\l"
-	.string "exclusive license for investigating\l"
-	.string "the LEGENDARY BIRDS.$"
+	.string "Die Regierung der TOP VIER hat mir\n"
+	.string "bereits 20,000,000¥ und eine\l"
+	.string "Lizenz zur Erforschung der\l"
+	.string "LEGENDÄREN VÖGEL angeboten.$"
 
 Route25_BillHouse_Evento_Policia_text_5.1:
-	.string "Your ingenuity amazes me; did you really\n"
-	.string "thought about a single ROCKET stealing\l"
-	.string "from the great BILL the intellectual\l"
-	.string "property of his greatest inventions?\p"
-	.string "This is too much for you, ROCKET.$"
+	.string "traducir$"
 
 Route25_BillHouse_Evento_Policia_text_6:
-	.string "GUARDs! Sweep up this walking GRIMER.\p"
-	.string "I don't want to see it ever again!$"
+	.string "WACHEN! Schafft mir dieses SLEIMA auf\n"
+	.string "zwei Beinen aus den Augen! Ich möchte\l"
+	.string "es nie wieder sehen!$"
 
 Route25_BillHouse_Evento_Policia_text_7:
-	.string "You're hereby under arrest, ROCKET.\n"
-	.string "You'll be sitting in the clank for the\l"
-	.string "rest of your days for the attempted\l"
-	.string "theft of an essential intellectual\l"
-	.string "property of our region. {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} Resisting\l"
-	.string "arrest? Then we'll judge you to the\l"
-	.string "fullest extent of the law!$"
+	.string "Du bist hiermit verhaftet, ROCKET! Für\n"
+	.string "den versuchten Diebstahl eines\l"
+	.string "essenziellen geistigen Eigentums\l"
+	.string "unserer Region wirst du den Rest deines\l"
+	.string "Lebens hinter Gittern verbringen! {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\p"
+	.string "Du leistest Widerstand gegen die\n"
+	.string "Festnahme? Dann werden wir dich mit der\l"
+	.string "vollen Härte des Gesetzes bestrafen!$"
 
 Route25_BillHouse_Evento_Policia_text_8:
-.string "You won't beat us all up!$"
+.string "Du kannst uns nicht alle besiegen!$"
 
 Route25_BillHouse_Evento_Policia_text_9:
-	.string "Y' know, good behavior might've reduced\n"
-	.string "your sentence, pal. Now you'll be\l"
-	.string "penalized for resisting authority too!$"
+	.string "Weißt du was, Freundchen. Dich\n"
+	.string "kooperativ zu verhalten, hätte\l"
+	.string "vielleicht deine Strafe gemindert.\p"
+	.string "Aber jetzt kommt auch noch\n"
+	.string "Widerstand gegen Beamte oben drauf!$"
 
 Route25_BillHouse_Evento_Policia_text_10:
-.string "I couldn't neither?$"
+.string "Auch ich habe verloren?$"
 
 Route25_BillHouse_Evento_Policia_text_11:
-.string "I've seen enough. Justice won't show\n"
-	.string "mercy after this play of yours. There\l"
-	.string "won't be even a judgment!$"
+	.string "Ich habe genug gesehen! Die\n"
+	.string "Gerechtigkeit wird nach dieser Nummer\l"
+	.string "hier keine Gnade mehr mit dir haben!\p"
+	.string "Es wird nicht einmal ein\n"
+	.string "Gerichtsverfahren geben!$"
 
 Route25_BillHouse_Evento_Policia_text_12:
-	.string "Three officers beaten at the\n"
-	.string "hands of some ROCKET?$"
+	.string "Drei Polizisten … besiegt\n"
+	.string "von einem ROCKET?!$"
 
 Route25_BillHouse_Evento_Policia_text_13:
-.string "What kind of joke is this? Common\n"
-	.string "ROCKETS don't resist this much. You ain't\l"
-	.string "getting away with this!$"
+	.string "Ist das ein schlechter Scherz?\n"
+	.string "Gewöhnliche ROCKETs leisten doch\l"
+	.string "keinen so starken Widerstand!\p"
+	.string "Du wirst damit nicht davonkommen!$"
 
 Route25_BillHouse_Evento_Policia_text_14:
-	.string "Backup requested! I repeat: backup\n"
-	.string "requested! A rogue ROCKET's been\l"
-	.string "contained in BILL's house for the\l"
-	.string "attempted theft of a million-dollar\l"
-	.string "patent! We have three men down!\l"
-	.string "Reinforcements requested immediately!$"
+	.string "Fordere Verstärkung an! Ich\n"
+	.string "wiederhole: fordere Verstärkung an!\p"
+	.string "Einer von TEAM ROCKET wird im Haus von\n"
+	.string "BILL festgehalten, aufgrund des\l"
+	.string "versuchten Diebstahls eines Patents,\l"
+	.string "welches Millionen von POKéDOLLARN wert\l"
+	.string "ist! Drei von uns wurden bereits\l"
+	.string "besiegt! Wir brauchen sofortige\l"
+	.string "Verstärkung!$"
 
 Route25_BillHouse_Evento_Policia_text_15:
-	.string "It's over. Reinforcements will arrive\n"
-	.string "soon, and your TEAM's about down. You\l"
-	.string "won't be scurrying off. Do whatever you\l"
-	.string "like, you'll only be leaving in cuffs.$"
+	.string "Es ist aus! Die Verstärkung wird bald\n"
+	.string "auftauchen und dein TEAM ist\l"
+	.string "erschöpft! Du wirst nicht entkommen!\p"
+	.string "Mach, was du willst, aber du wirst dieses\n"
+	.string "Haus nur in Handschellen verlassen!$"
 
 Route25_BillHouse_Evento_Policia_move1:
 walk_up
@@ -347,9 +357,9 @@ Route25_BillHouse_Warp_text_1:
 Route25_BillHouse_Warp_Text_YesNo:
     .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-    .string "This poster seems to be covering some\n"
-	.string "tunnel that leads somewhere else.\p"
-	.string "Wanna cross it?$"
+	.string "Dieses Poster scheint einen Tunnel zu\n"
+	.string "verdecken, der irgendwo hinführt.\p"
+	.string "Willst du hindurchgehen?$"
 
 Route25_BillHouse_Warp_move1:
 emote_exclamation_mark

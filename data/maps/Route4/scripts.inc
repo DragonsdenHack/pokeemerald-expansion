@@ -15,9 +15,9 @@ release
 end
 
 Route4_Text_1:
-.string "Ouch!\n"
-.string "I stumbled upon a rocky POKÉMON,\l"
-.string "GEODUDE!$"
+.string "Aua! \n"
+.string "Ich bin über ein KLEINSTEIN\l"
+.string "gestolpert, ein STEIN-POKéMON!$"
 
 
 Route4_2::
@@ -28,12 +28,14 @@ release
 end
 
 Route4_Text_2:
-	.string "If it weren't for the ban on challenging\n"
-	.string "POKÉMON GYMs, I might've considered\l"
-	.string "becoming a ROCKET GRUNT myself. A life\l"
-	.string "of crime on the wrong side of the law\l"
-	.string "has always intrigued me, but I prefer\l"
-	.string "facing BROCK!$"
+	.string "Wäre es nicht verboten, als Mitglied von\n"
+	.string "TEAM ROCKET POKéMON-ARENEN\l"
+	.string "herauszufordern, hätte ich vielleicht\l"
+	.string "darüber nachgedacht, ein RÜPEL bei\l"
+	.string "euch zu werden. Ein Leben auf der\l"
+	.string "falschen Seite des Gesetzes hat mich\l"
+	.string "schon immer fasziniert. Aber ich würde\l"
+	.string "noch lieber gegen ROCKO kämpfen!$"
 
 
 Route4_3::
@@ -52,10 +54,13 @@ release
 end
 
 Route4_Text_5:
-.string "Better to have sustained, constant and\n"
-	.string "controlled power that causes\l"
-	.string "permanent wear and tear on the\l"
-	.string "opponent than power without control!$"
+	.string "Halbe Sachen bringen dich nicht weiter!\n"
+	.string "Wenn du deinen Gegner besiegen willst,\l"
+	.string "musst du mit roher, ungebändigter Kraft\l"
+	.string "zuschlagen! Nur so kannst du seine\l"
+	.string "Verteidigung überraschen und\l"
+	.string "durchbrechen, ohne ihm eine Chance\l"
+	.string "zur Erholung zu geben!$"
 
 
 Route4_6::
@@ -146,63 +151,70 @@ release
 end
 
 Route4_Evento_Karatekas_Text_1:
-	.string "What do you want, ROCKET? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} MEGA PUNCH\n"
-	.string "and MEGA KICK? Of course, we're experts\l"
-	.string "on those those moves. Nothing like a\l"
-	.string "good kick to KO the opponent, don't you\l"
-	.string "think?$"
+	.string "Was willst du, ROCKET? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} MEGAHIEB und\n"
+	.string "MEGAKICK? Natürlich. Wir sind Experten,\l"
+	.string "was diese Attacken angeht! Nichts ist\l"
+	.string "besser, als deinen Gegner mit einem\l"
+	.string "Tritt auf die Bretter zu schicken!\p"
+	.string "Denkst du nicht auch so?$"
 
 Route4_Evento_Karatekas_Text_2:
-	.string "Don't you pay him any attention. MEGA\n"
-	.string "PUNCH is the best move out there. We're\l"
-	.string "forbidden from offering our move\l"
-	.string "tutoring services to ROCKETs, but we\l"
-	.string "can give you a demonstration!$"
+	.string "Ignorier ihn einfach! MEGAHIEB ist die\n"
+	.string "beste Attacke, die es gibt! Uns ist es\l"
+	.string "zwar verboten, diese Attacken ROCKETs\l"
+	.string "beizubringen, aber eine kleine\l"
+	.string "Kostprobe dürfte schon klargehen!$"
 
 Route4_Evento_Karatekas_Text_3:
-.string "Wasn't my offense enough?$"
+.string "War meine Offensive nicht stark genug?$"
 
 Route4_Evento_Karatekas_Text_4:
-	.string "What a gut punch! Only rocky POKÉMON\n"
-	.string "can withstand my MEGA PUNCH!$"
+	.string "Boah, der hat gesessen! Nur steinharte\n"
+	.string "POKéMON können meinem MEGAHIEB\l"
+	.string "standhalten!$"
 
 Route4_Evento_Karatekas_Text_5:
-.string "HA! I told you already that your move\n"
-	.string "doesn't have enough power to subdue!$"
+	.string "HA! Hab ich's dir doch gesagt! Deine\n"
+	.string "Angriffe haben nicht genug Kraft, um\l"
+	.string "jemanden umzuhauen!$"
 
 Route4_Evento_Karatekas_Text_6:
-	.string "Now I'll show you a real kicker! All your\n"
-	.string "POKÉMON will fall in one fell swoop!$"
+	.string "Jetzt zeige ich dir, was ein richtiger\n"
+	.string "Tritt ist! All deine POKéMON werden auf\l"
+	.string "einmal k.o. gehen!$"
 
 Route4_Evento_Karatekas_Text_7:
-.string "Did I fail too?$"
+.string "Habe ich etwa auch versagt?$"
 
 Route4_Evento_Karatekas_Text_8:
-.string "I told you! Your MEGA KICK just misses!\n"
-	.string "Why do you want so much power if you\l"
-	.string "don't hit the target half the time?$"
+	.string "Hab ich es dir doch gesagt! Dein\n"
+	.string "MEGAKICK geht ständig daneben! Was\l"
+	.string "bringt dir all diese Kraft, wenn du die\l"
+	.string "Hälfte der Zeit dein Ziel verfehlst?$"
 
 Route4_Evento_Karatekas_Text_9:
-	.string "I'd rather trip up with a miss instead of\n"
-	.string "handing my opponent a love tap with\l"
-	.string "MEGA PUNCH. You couldn't even tip over a\l"
-	.string "METAPOD with that!$"
+	.string "Ich verfehle lieber ab und zu mein Ziel,\n"
+	.string "als meinen Gegner mit einem MEGAHIEB zu\l"
+	.string "streicheln! Damit kannst du nicht\l"
+	.string "einmal ein SAFCON umhauen!$"
 
 Route4_Evento_Karatekas_Text_10:
 .string "{PAUSE 15}…{PAUSE 15}\p"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route4_Evento_Karatekas_Text_11:
-	.string "Thanks for helping us out our new moves\n"
-	.string "into practice. We can't legally teach\l"
-	.string "you them, but we can hand you this.$"
+	.string "Danke fürs Helfen beim Üben unserer\n"
+	.string "neuen Attacken. Wir dürfen sie dir zwar\l"
+	.string "beibringen, aber wir können dir das hier\l"
+	.string "geben.$"
 
 Route4_Evento_Karatekas_Text_12:
-	.string "It's our little secret to make our moves\n"
-	.string "pack a good punch. NORMAL moves'll hit\l"
-	.string "harder by 20% with it. You'll get a real\l"
-	.string "kick out of it if you toss it on a TAUROS\l"
-	.string "or KANGASKHAN!$"
+	.string "Das ist unser kleines Geheimnis, um\n"
+	.string "unseren Attacken mehr Wumms zu\l"
+	.string "verleihen! NORMALE Attacken werden\l"
+	.string "damit um 20 % stärker! Gib es einem\l"
+	.string "TAUROS oder KANGAMA und du wirst\l"
+	.string "sehen, was ich meine!$"
 
 Route4_Evento_Karatekas_move1:
 walk_in_place_up
@@ -252,10 +264,11 @@ release
 end
 
 Route4_Frank_Text1:
-	.string "FRANK: GRUNT {PLAYER}? Where the\n"
-	.string "heck are you?! Get back here right now!\p"
-	.string "You'll have to give me a good\n"
-	.string "explanation for what just happened!$"
+	.string "FRANK: RÜPEL {PLAYER}? Wo zum Teufel\n"
+	.string "steckst du?! Komm sofort zurück! Du\l"
+	.string "schuldest mir eine verdammt gute\l"
+	.string "Erklärung für das, was gerade passiert\l"
+	.string "ist!$"
 
 Route4_Frank_move1:
 emote_exclamation_mark

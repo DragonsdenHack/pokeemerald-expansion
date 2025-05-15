@@ -106,43 +106,49 @@ end
 
 
 Route24_Recluta_text_1:
-	.string "Not bad for a ROCKET. Too bad this\n"
-	.string "challenge doesn't apply to you… I'm also\l"
-	.string "a ROCKET. This whole spectacle on\l"
-	.string "NUGGET BRIDGE is recruitment. Those\l"
-	.string "gullible TRAINERs over there think it's\l"
-	.string "just some social initiative. How dumb!$"
+	.string "Nicht übel für einen ROCKET. Schade nur,\n"
+	.string "dass diese Herausforderung für\l"
+	.string "deinesgleichen nicht zählt, denn ich\l"
+	.string "gehöre auch zu TEAM ROCKET. Diese\l"
+	.string "ganze NUGGETBRÜCKEN Geschichte ist in\l"
+	.string "Wahrheit nur eine Rekrutierungsaktion.\p"
+	.string "Diese leichtgläubigen TRAINER da\n"
+	.string "drüben denken wirklich, es sei nur eine\l"
+	.string "Art soziales Projekt. Was für Idioten!$"
 
 Route24_Recluta_text_2:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Route24_Recluta_text_3:
-	.string "You were given a mission? Steal some\n"
-	.string "patents from BILL? You'll find him at\l"
-	.string "the end of CERULEAN CAPE, just east of\l"
-	.string "ROUTE 25. Here's to your success,\l"
-	.string "comrade. None of us at TEAM ROCKET can\l"
-	.string "stand BILL's guts, egotistical, elitist\l"
-	.string "brat that he is. Got himself a swelled\l"
-	.string "head just 'cuz he's dropped the dosh for\l"
-	.string "rare POKÉMON. Knock him down a peg for\l"
-	.string "us!$"
+	.string "Du bist gerade auf einer Mission? Du\n"
+	.string "sollst ein Patent von BILL stehlen?\p"
+	.string "Du wirst ihn östlich von ROUTE 25\n"
+	.string "antreffen. Viel Erfolg, Kumpel! Keiner\l"
+	.string "von uns bei TEAM ROCKET kann BILL\l"
+	.string "leiden - diesen egoistischen, elitären\l"
+	.string "Wichtigtuer! Hält sich für etwas\l"
+	.string "Besseres, nur weil er einen Haufen Kohle\l"
+	.string "für seltene POKéMON rausgehauen hat!\p"
+	.string "Erteile ihm eine Lektion in unserem\n"
+	.string "Namen!$"
 
 Route24_Recluta_text_4:
-	.string "You'll find him at the end of CERULEAN\n"
-	.string "CAPE, just east of ROUTE 25. Here's to\l"
-	.string "your success, comrade. None of us, at\l"
-	.string "TEAM ROCKET, can stand BILL's guts,\l"
-	.string "egotistical, elitist brat that he is. Got\l"
-	.string "himself a swelled head just 'cuz he's\l"
-	.string "dropped the dosh for rare POKÉMON.\p"
-	.string "Knock him down a peg for us!$"
+	.string "Du wirst BILL östlich von ROUTE 25\n"
+	.string "antreffen. Viel Erfolg, Kumpel! Keiner\l"
+	.string "von uns bei TEAM ROCKET kann BILL\l"
+	.string "leiden - diesen egoistischen, elitären\l"
+	.string "Wichtigtuer! Hält sich für etwas\l"
+	.string "Besseres, nur weil er einen Haufen Kohle\l"
+	.string "für seltene POKéMON rausgehauen hat!\p"
+	.string "Erteile ihm eine Lektion in unserem\n"
+	.string "Namen!$"
 
 Route24_Recluta_text_5:
-	.string "You did it! I'd have paid good money to\n"
-	.string "see BILL's face as his prized purchases\l"
-	.string "got trounced by a ROCKET.\p"
-	.string "You've honored our name!$"
+	.string "Du hast es geschafft. Ich hätte gutes\n"
+	.string "Geld dafür bezahlt, BILLs Gesicht zu\l"
+	.string "sehen, als seine Nobel-POKéMON von\l"
+	.string "einem ROCKET vernichtet wurden! Du\l"
+	.string "hast unserem Namen alle Ehre gemacht!$"
 
 
 Route24_Recluta_move1:

@@ -9,9 +9,9 @@ release
 end
 
 Route25_Text_1:
-	.string "This cape is a nice place to come\n"
-	.string "with your mate. MISTY, our GYM\l"
-	.string "LEADER, comes here often.$"
+	.string "Dieser Kap ist sehr beliebt bei Pärchen.\n"
+	.string "Unsere ARENALEITERIN MISTY kommt oft\l"
+	.string "hierher.$"
 
 
 Route25_2::
@@ -22,10 +22,11 @@ release
 end
 
 Route25_Text_2:
-.string "Are you coming alone?\n"
+.string "Hallo! Bist du alleine hier?\n"
 .string "…\l"
 .string "…\l"
-.string "You're supposed to come with someone.$"
+	.string "Wenn du am Kap von AZURIA CITY bist,\l"
+	.string "solltest du jemanden dabei haben{PAUSE 5}…{PAUSE 5}$"
 
 
 Route25_3::
@@ -144,8 +145,9 @@ release
 end
 
 Route25_Casa_Bill_Text_Abajo:     
-.string "-After all events here, it's better not\n"
-	.string "to tempt luck.-$"
+	.string "-Nach allem, was hier vorgefallen ist,\n"
+	.string "sollte ich mein Glück besser nicht\l"
+	.string "herausfordern.-$"
 
 
 Route25_Casa_Bill_AbajoMove1:
@@ -168,8 +170,7 @@ release
 end
 
 Route22_Entrada_Liga_Texto_1::
-	.string "-This is the most heavily policed\n"
-	.string "place in the entire region.-$"
+	.string "traducir$"
 
 Route25_Azul::
 lock
@@ -178,6 +179,4 @@ release
 end
 
 Route25_Azul_Texto_1:
-	.string "A RATTATA{PAUSE 15}…{PAUSE 15} must be a joke.\n"
-	.string "I take it as a courtesy, but{PAUSE 15}…{PAUSE 15}\l"
-	.string "it won't last long in my team.$"
+	.string "traducir$"

@@ -58,9 +58,9 @@ Bill_Garden_Warp_text_1:
 Bill_Garden_Warp_Text_YesNo:
     .string "…{PAUSE 20}\n"
 	.string "…{PAUSE 20}\p"
-    .string "This poster seems to be covering some\n"
-	.string "tunnel that leads somewhere else.\p"
-	.string "Wanna cross it?$"
+	.string "Dieses Poster scheint einen Tunnel zu\n"
+	.string "verdecken, der irgendwo hinführt.\p"
+	.string "Willst du hindurchgehen?$"
 
 Bill_Garden_Warp_move1:
 emote_exclamation_mark
@@ -226,38 +226,39 @@ step_end
 
 
 Bill_Garden_Policia_Atlas_text_1:
-	.string "You're under arrest, ROCKET. You have\n"
-	.string "committed multiple crimes and resisted\l"
-	.string "authority. Now, give us back the stolen\l"
-	.string "patent.$"
+	.string "Du bist verhaftet, ROCKET! Du hast\n"
+	.string "mehrere Verbrechen begangen und dich\l"
+	.string "den Behörden widersetzt! Gib uns\l"
+	.string "sofort das gestohlene Patent zurück.$"
 
 Bill_Garden_Policia_Atlas_text_2:
-.string "BILL: Too bad that this has to end like\n"
-	.string "this, you should've been informed about\l"
-	.string "the consequences of messing up with\l"
-	.string "BILL in this region.$"
+	.string "BILL: Eine Schande, dass es so enden\n"
+	.string "muss. Du hättest dich besser über die\l"
+	.string "Konsequenzen informieren sollen, bevor\l"
+	.string "du dich mit mir anlegst.$"
 
 Bill_Garden_Policia_Atlas_text_2.1:
-	.string "Yeah! Honestly, it's a shame that a\n"
-	.string "TRAINER like you end up like this, your\l"
-	.string "ADMINISTRATORs and EXECUTIVEs aren't\l"
-	.string "too good making decisions.$"
+	.string "Eine verdammte Schande, dass ein\n"
+	.string "TRAINER wie du so ein Ende findet.\p"
+	.string "Und das alles nur wegen den\n"
+	.string "miserablen Entscheidungen deiner\l"
+	.string "inkompetenten Vorgesetzten.$"
 
 Bill_Garden_Policia_Atlas_text_2.2:
-	.string "Ho, ho, ho! Let me know, how is the\n"
-	.string "feeling of being sent to die by your own\l"
-	.string "superiors? It's OK, in the end you are\l"
-	.string "just a bunch of moral-less thieves with\l"
-	.string "no criteria.$"
+	.string "Na, wie fühlt sich der Strick an, den Sie\n"
+	.string "dir um den Hals gelegt haben? Ist auch\n"
+	.string "egal. Ihr seid sowieso nur ein Haufen\l"
+	.string "gewissenloser Verbrecher ohne\l"
+	.string "Prinzipien!$"
 
 Bill_Garden_Policia_Atlas_text_2.3:
-	.string "Now, you're alon…!$"
+	.string "Und jetzt bist du ganz allei…$"
 
 Bill_Garden_Policia_Atlas_text_3:
-.string "????: That's wrong.$"
+.string "????: Da liegst du falsch.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: CHIEF ADMIN ARCHER{PAUSE 5}…{PAUSE 5}$"
+.string "BILL: CHEF-ADMINISTRATOR ATLAS{PAUSE 5}…{PAUSE 5}$"
 
 Bill_Garden_Policia_Atlas_text_5:
 .string "ARCHER: I couldn't prevent myself from\n"

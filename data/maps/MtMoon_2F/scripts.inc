@@ -165,75 +165,69 @@ walk_left
 step_end
 
 MtMoon_2F_AltoRango_Text_1:
-.string "As you can see, the situation has\n"
-	.string "become serious.$"
+	.string "Wie ihr sehen könnt, hat sich\n"
+	.string "die Lage verkompliziert.$"
 
 MtMoon_2F_AltoRango_Text_2:
-.string "What kind of joke is this, GRUNT? Your\n"
-	.string "presence was required a long time ago\l"
-	.string "and you have the guts to come late!\p"
-	.string "Do you think you're better than your\n"
-	.string "comrades? I hope you have a good\l"
-	.string "excuse for that, GRUNT!$"
+	.string "Sag mal, ist das dein Ernst, RÜPEL?! Du\n"
+	.string "hättest schon längst hier sein sollen\l"
+	.string "und dann hast du auch noch die Nerven,\l"
+	.string "dich zu verspäten! Denkst du, du bist\l"
+	.string "was Besseres als deine Kameraden?!\p"
+	.string "Ich hoffe, du hast eine verdammt\n"
+	.string "gute Erklärung parat!$"
 
 MtMoon_2F_AltoRango_Text_3:
-	.string "Helping other GRUNTs with their mission\n"
-	.string "doesn't relieve you of your own duties.\l"
-	.string "You'd better compensate for this\l"
-	.string "insubordination with a good\l"
-	.string "performance on this mission; luckily\l"
-	.string "for you, we're still in the middle of it.$"
+	.string "Anderen RÜPELN bei ihrer Mission zu\n"
+	.string "helfen, entbindet dich nicht von deinen\l"
+	.string "eigenen Pflichten! Du kannst deine\l"
+	.string "Befehlsverweigerung nur mit einer\l"
+	.string "herausragenden Leistung bei dieser\l"
+	.string "Mission ausgleichen! Zu deinem Glück\l"
+	.string "sind wir hier noch nicht fertig!$"
 
 MtMoon_2F_AltoRango_Text_4:
-	.string "Let's recap. We've snagged one\n"
-	.string "FOSSIL, thanks to GRUNT ANDRA.$"
+	.string "Okay, fassen wir zusammen. Momentan\n"
+	.string "haben wir dank RÜPEL ANDRA bisher ein\l"
+	.string "FOSSIL.$"
 
 MtMoon_2F_AltoRango_Text_4.1:
-	.string "But, as many of you know, a mysterious\n"
-	.string "TRAINER was carrying a WARTORTLE, one\l"
-	.string "of the 3 KANTO STARTERS, and has\l"
-	.string "already defeated 4 of us, snatching us\l"
-	.string "2 FOSSILS.$"
+	.string "traducir$"
 
 MtMoon_2F_AltoRango_Text_4.2:
-	.string "We know that there are still FOSSILS.\n"
-	.string "The priority will be to find them and\l"
-	.string "prevent that TRAINER from taking them\l"
-	.string "away from us again.$"
+	.string "traducir$"
 
 MtMoon_2F_AltoRango_Text_4.3:
-	.string "If you see him, call me: I'll show\n"
-	.string "him the difference between a TEAM\l"
-	.string "ROCKET GRUNT, and a HIGH RANKED one.\p"
-	.string "Is that clear?$"
+	.string "traducir$"
 
 MtMoon_2F_AltoRango_Text_5:
-.string "ROGER THAT, HIGH-RANK FRANK!!$"
+.string "JAWOHL, SIR!!$"
 
 MtMoon_2F_AltoRango_Text_6:
-	.string "Well then. Get moving!\p"
-	.string "You shambling pile of bones!$"
+	.string "Gut. Dann macht euch an die\n"
+	.string "Arbeit, ihr faulen Säcke!$"
 
 MtMoon_2F_AltoRango_Text_7:
-.string "I'm remembering both your name and your\n"
-	.string "face. You'll learn really badly how we\l"
-	.string "manage this, newbie.\p"
-	.string "ROCKET discipline is non-negotiable.$"
+	.string "Ich werde mir deinen Namen und dein\n"
+	.string "Gesicht merken! Du wirst lernen, wie die\l"
+	.string "Dinge hier laufen, Frischling! Disziplin\l"
+	.string "ist bei TEAM ROCKET nicht verhandelbar!$"
 
 MtMoon_2F_AltoRango_Text_8:
-	.string "Hey, don't worry about that.\p"
-	.string "He's just peeved, cause his clean\n"
-	.string "mission record's just been smashed by\l"
-	.string "some ten year old kid.$"
+	.string "Hey, Mann. Mach dir keinen Stress wegen\n"
+	.string "dem Typen. Der ist nur angepisst, weil\l"
+	.string "so ein zehnjähriger Knirps seine\l"
+	.string "perfekte Missionsquote ruiniert hat.$"
 	
 MtMoon_2F_AltoRango_Text_8.1:
-	.string "I haven't seen this WARTORTLE yet.\n"
-	.string "If we meet, I'll have no mercy!\p"
-	.string "Let's show everyone how strong\n"
-	.string "we CHRONO ISLAND GRUNTS are!$"
+	.string "Ich habe den Kleinen noch nicht\n"
+	.string "gesehen, aber wenn er mir über den Weg\l"
+	.string "läuft, werde ich keine Gnade zeigen!\p"
+	.string "Zeigen wir allen, wie stark wir EILAND\n"
+	.string "FÜNF RÜPEL sind!$"
 
 MtMoon_2F_AltoRango_Text_8.2:
-	.string "I wish you luck, {PLAYER}.$"
+	.string "Auf eine erfolgreiche Suche!$"
 
 MtMoon_2F_AltoRango_move1:
 walk_in_place_left

@@ -14,8 +14,8 @@ release
 end
 
 CeruleanCity_BikeShop_Text_2:
-.string "A ROCKET!\n"
-.string "Don't hurt me!$"
+.string "EIN … R-ROCKET!\n"
+.string "Bitte tu mir nicht weh!$"
 
 
 
@@ -27,9 +27,11 @@ release
 end
 
 CeruleanCity_BikeShop_Text_3:
-	.string "No one'll sell you a BICYCLE here with\n"
-	.string "your dirty blood money. Now scat before\l"
-	.string "I call the POLICE!$"
+	.string "Niemand hier wird dir ein FAHRRAD\n"
+	.string "verkaufen! Dein schmutziges Blutgeld\l"
+	.string "will niemand haben! Und jetzt mach dich\l"
+	.string "vom Acker, bevor ich die POLIZEI\l"
+	.string "verständige!$"
 
 
 
@@ -38,7 +40,7 @@ msgbox CeruleanCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeruleanCityBikeShopDocumento_Text_100:
-.string "A new and shiny bicycle!$"
+.string "Ein brandneues Fahrrad!$"
 
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta::
@@ -112,79 +114,93 @@ release
 end
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
-	.string "This isn't the place for beggars like\n"
-	.string "you who can hardly afford their own\l"
-	.string "existence. If you aren't stacked with\l"
-	.string "the ¥1,000,000 my BICYCLEs cost,\l"
-	.string "don't bother me!$"
+	.string "Das ist kein Ort für Bettler wie dich,\n"
+	.string "die sich kaum ihr eigenes Leben\l"
+	.string "finanzieren können! Wenn du nicht\l"
+	.string "zufällig 1,000,000¥ mit dir\l"
+	.string "rumträgst, das so ein FAHRRAD hier\l"
+	.string "kostet, dann hast du hier nichts zu\l"
+	.string "suchen!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
-	.string "I'll be having a chat with that FAN CLUB\n"
-	.string "CHAIRMAN later. You're the third punk in\l"
-	.string "a row to waltz on in for a free BICYCLE\l"
-	.string "with that BIKE VOUCHER of his. I don't\l"
-	.string "give a flying RATTATA about him paying\l"
-	.string "the cost for it!$"
+	.string "Ich werde nachher mal ein ernstes\n"
+	.string "Wörtchen mit dem VORSITZENDEN des\l"
+	.string "FANCLUBS reden! Du bist schon der\l"
+	.string "Dritte, der hier mit einem RAD-COUPON\l"
+	.string "reinspaziert, um sich ein kostenloses\l"
+	.string "FAHRRAD abzuholen! Ist mir scheiß egal,\l"
+	.string "ob er die Kosten trägt!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.1:
-	.string "You see how my business's rep\n"
-	.string "tanks when people catch wind\l"
-	.string "about two brats and a ROCKET\l"
-	.string "walking out with my trademark BIKEs?$"
+	.string "Weißt du, wie es dem Geschäft schadet,\n"
+	.string "wenn es die Runde macht, dass zwei\l"
+	.string "Rotzlöffel und einer von TEAM ROCKET\l"
+	.string "mit meinen edlen FAHRRÄDERN hier raus\l"
+	.string "spazieren?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2.2:
-	.string "That plays into the final decision of my\n"
-	.string "buyers. They'll buy me out if it's a\l"
-	.string "product of prestige and scarcity!$"
+	.string "Das beeinflusst die Kaufentscheidung\n"
+	.string "meiner Kunden! Sie kaufen meine\l"
+	.string "FAHRRÄDER nur, wenn sie als\l"
+	.string "Prestigeobjekte gelten und\l"
+	.string "Raritäten sind!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}\n"
 	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
-.string "It can't be! A BIKE VOUCHER!\p"
-	.string "Where did you get it from?$"
+.string "Unmöglich! Ein RAD COUPON!\p"
+	.string "Wo hast du den her?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
-	.string "That FAN CLUB CHAIRMAN in VERMILION?\p"
-	.string "And who is he to decide if that's valid\n"
-	.string "in my shop? I lead a serious business,\l"
-	.string "not some dingey asylum. Did you get it?$"
+	.string "Vom VORSITZENDEN des\n"
+	.string "POKéMON-FANCLUBS in ORANIA CITY? Für\l"
+	.string "wen hält er sich, dass er denkt, dass\l"
+	.string "das Ding in meinem Laden gültig ist? Ich\l"
+	.string "leite ein seriöses Geschäft und keine\l"
+	.string "Wohltätigkeitsorganisation! Kapiert?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.1:
-	.string "I can't just let people barge in with\n"
-	.string "a gift VOUCHER. That ¥1,000,000 is\l"
-	.string "for something: a street trash like\l"
-	.string "you mustn't ever dream of this BIKE.$"
+	.string "Ich kann doch nicht einfach zulassen,\n"
+	.string "dass Leute hier ständig mit einem\n"
+	.string "RAD-COUPON reinstolzieren! Das sind\l"
+	.string "jedes Mal 1,000,000¥, die flöten\l"
+	.string "gehen!\p"
+	.string "Mehr Geld, als du Abschaum je in\n"
+	.string "deinem Leben verdienen wirst!$"
 	
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5.2:
-	.string "If this shop sees any success, it's\n"
-	.string "'cause of rich dummies who'd pay any\l"
-	.string "price in their blissful ignorance, not\l"
-	.string "for thieves like you.$"
+	.string "Der Grund, warum dieser Laden so gut\n"
+	.string "läuft, sind reiche Idioten, die ohne\l"
+	.string "groß nachzudenken bereit sind, jeden\l"
+	.string "Preis zu zahlen - und nicht wegen\l"
+	.string "Ganoven wie dir!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:
-	.string "Oh, now you've got me riled up!\p"
-	.string "You'll see how we handle thieves\n"
-	.string "like you playing coy.$"
+	.string "Jetzt hast du's geschafft, mich richtig\n"
+	.string "wütend zu machen! Ich werde dir zeigen,\l"
+	.string "was mit Dieben wie dir geschieht, die\l"
+	.string "einen auf Saubermann machen!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_7:
-	.string "No! The POKÉMON I'd trained with my\n"
-	.string "whip!$"
+	.string "Nein! Die POKéMON, die ich so\n"
+	.string "hart trainiert habe!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_8:
-	.string "My brave POKÉMON! This isn't what I'd\n"
-	.string "planned at all! How could a ROCKET beat\l"
-	.string "back my POKÉMON?!$"
+	.string "Meine tapferen POKéMON! Das lief\n"
+	.string "überhaupt nicht nach Plan! Wie konnte\l"
+	.string "einer von TEAM ROCKET meine POKéMON\l"
+	.string "so leicht besiegen?!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_9:
-	.string "Hey, look, man. I'll exchange the damned\n"
-	.string "VOUCHER for the BICYCLE and make\l"
-	.string "things good between us, all right?$"
+	.string "Hey, hör zu Mann. Ich akzeptiere diesen\n"
+	.string "verfluchten COUPON für das FAHRRAD!\l"
+	.string "Damit ist alles gut zwischen uns, okay?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_10:
-.string "{PLAYER} exchanged the BIKE VOUCHER\n"
-	.string "for a BICYCLE.$"
+	.string "{PLAYER} tauscht den RAD-COUPON\n"
+	.string "gegen ein FAHRRAD ein!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1:
 emote_exclamation_mark

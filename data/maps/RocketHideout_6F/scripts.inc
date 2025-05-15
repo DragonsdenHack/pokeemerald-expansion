@@ -2296,17 +2296,20 @@ release
 end
 
 RocketHideout_6F_Aviso_Cientifico_Texto_1:
-	.string "Finally, HIGH RANK GRUNT {PLAYER},\n"
-	.string "thanks to the patent you'd robbed BILL\l"
-	.string "of, we've established connections\l"
-	.string "between bases through teleportation.\p"
-	.string "You can use it as you please.$"
+	.string "Endlich! HOCHRANGIGER RÜPEL\n"
+	.string "{PLAYER}. Dank des Patents, dass du\l"
+	.string "diesem Idiot BILL gestohlen hast,\l"
+	.string "haben wir es geschafft, Verbindungen\l"
+	.string "zwischen unseren Basen durch\l"
+	.string "Teleportationsmaschinen herzustellen.\p"
+	.string "Du kannst sie nach Belieben nutzen.$"
 
 RocketHideout_6F_Aviso_Cientifico_Texto_1.1:
-	.string "ANDRA's just teleported to the CELADON\n"
-	.string "HQ, as per assignment.\l"
-	.string "They await your arrival at the barracks\l"
-	.string "for the start of your next mission.$"
+	.string "ANDRA hat sich bereits zur PRISMANIA\n"
+	.string "BASIS teleportiert, wie es ihr befohlen\l"
+	.string "wurde. Man erwartet dort auch deine\l"
+	.string "Ankunft, damit du deine nächste Mission\l"
+	.string "antreten kannst.$"
 
 RocketHideout_6F_Aviso_Cientifico_Move_1:
 emote_exclamation_mark
@@ -2329,8 +2332,9 @@ end
 RocketHideout_6F_Maquina_Teletransporte_Texto_1:
 .string "…\n"
 	.string "…\p"
-    .string "-Seems that this machine's development\n"
-	.string "is still in the earliest stages.-$"
+	.string "-Sieht aus, als befände sich die\n"
+	.string "Entwicklung dieser Maschine noch ganz\l"
+	.string "am Anfang.-$"
 
 RocketHideout_6F_Maquina_Teletransporte_2::
 msgbox RocketHideout_6F_Maquina_Teletransporte_YesNo, MSGBOX_YESNO
@@ -2345,9 +2349,9 @@ release
 end
 
 RocketHideout_6F_Maquina_Teletransporte_YesNo:
-.string "The machine is ready for use.\p"
-    .string "Do you want to TELEPORT to\n"
-	.string "the CELADON BASE?$"
+	.string "Die Maschine ist einsatzbereit.\p"
+	.string "Möchtest du dich zur PRISMANIA\n"
+	.string "BASIS teleportieren?$"
 
 RocketHideout_6F_Maquina_Teletransporte_No::
 release
@@ -2445,24 +2449,28 @@ release
 end
 
 Text_CompraPokemon_Ruta_5:
-.string "How's everything going, comrade?\p"
-	.string "How can I help you?$"
+.string "Wie läuft's, Kamerad?\p"
+	.string "Wie kann ich dir helfen?$"
 
 EventScript_Voltorb_Texto_1:
-.string "Are you sure you want VOLTORB?\n"
-	.string "It'll cost ¥9,000.$"
+	.string "Bist du sicher, dass du\n"
+	.string "VOLTOBAL haben willst?\p"
+	.string "Es kostet 9.000¥.$"
 
 EventScript_Koffing_Texto_1:
-.string "Are you sure you want KOFFING?\n"
-	.string "It'll cost ¥11,000.$"
+	.string "Bist du sicher, dass du\n"
+	.string "SMOGON haben willst?\p"
+	.string "Es kostet 11.000¥.$"
 
 EventScript_Mankey_Texto_1:
-.string "Are you sure you want MANKEY?\n"
-	.string "It'll cost ¥8,000.$"
+	.string "Bist du sicher, dass du\n"
+	.string "MENKI haben willst?\p"
+	.string "Es kostet 8.000¥.$"
 
 EventScript_Rattata_Texto_1:
-.string "Are you sure you want RATTATA?\n"
-	.string "It'll cost ¥3,000.$"
+	.string "Bist du sicher, dass du\n"
+	.string "RATTFRATZ haben willst?\p"
+	.string "Es kostet 3.000¥.$"
 
 RocketHideout_6F_Petrel::
 lock
@@ -2485,19 +2493,22 @@ release
 end
 
 RocketHideout_6F_Petrel_Texto_1:
-	.string "PETREL: Kid, you ought to know that\n"
-	.string "ROCKET ADMINs aren't to be interrupted\l"
-	.string "for trivial matters. Our time's is too\l"
-	.string "valuable.$"
+	.string "LAMBDA: Kleiner. Du solltest doch\n"
+	.string "wissen, dass man ROCKET\l"
+	.string "ADMINISTRATOREN nicht wegen\l"
+	.string "belanglosen Dingen in ihrer Arbeit\l"
+	.string "stört. Unsere Zeit ist zu kostbar für\l"
+	.string "sowas.$"
 
 RocketHideout_6F_Petrel_Texto_2:
-	.string "PETREL: It's been a source of pride for\n"
-	.string "me to have been your chief ADMIN in\l"
-	.string "your first contact with KANTO. You've\l"
-	.string "shown there are still ROCKETs worth\l"
-	.string "their salt. I only hope you and ANDRA\l"
-	.string "live up to the demands of our great\l"
-	.string "BOSS, GIOVANNI.$"
+	.string "LAMBDA: Es war mir eine Ehre, dich bei\n"
+	.string "deinen Anfängen in KANTO begleiten zu\l"
+	.string "dürfen. Du und ANDRA habt bewiesen,\l"
+	.string "dass es immer noch ROCKETs gibt, die\l"
+	.string "sich auf ihr Handwerk verstehen. Ich\l"
+	.string "hoffe nur, dass ihr den Anforderungen\l"
+	.string "unseres großen Anführers GIOVANNI\l"
+	.string "gerecht werdet.$"
 
 RocketHideout_6F_Cientifico_Maquina::
 lock
@@ -2514,18 +2525,20 @@ release
 end
 
 RocketHideout_6F_Cientifico_Maquina_Texto_1:
-.string "We are working on a long-distance\n"
-	.string "teleportation system that connects\l"
-	.string "the bases of CELADON CITY and this\l"
-	.string "one. Do you know how much money we\l"
-	.string "would save on transportation if we\l"
-	.string "manage to achieve it?$"
+	.string "Wir arbeiten an einem\n"
+	.string "Langstrecken-Teleportationssystem,\l"
+	.string "das die Basis von PRISMANIA CITY mit\l"
+	.string "der hier verbindet. Weißt du, wie viel\l"
+	.string "Transportkosten wir in der Zukunft\l"
+	.string "sparen würden, wenn wir das hinkriegen?$"
 
 RocketHideout_6F_Cientifico_Maquina_Texto_2:
-	.string "We did it! All thanks to you stealing\n"
-	.string "BILL's patents. Use the system\l"
-	.string "whenever you want. You just need to\l"
-	.string "interact with the machine to teleport.$"
+	.string "Wir haben es geschafft und das nur\n"
+	.string "dank dir! Weil du BILLS Patent\l"
+	.string "gestohlen hast! Nutze das System, wann\l"
+	.string "immer du willst!\p"
+	.string "Du musst nur die Maschine aktivieren,\n"
+	.string "um dich zu teleportieren.$"
 
 
 SeteoIvs::

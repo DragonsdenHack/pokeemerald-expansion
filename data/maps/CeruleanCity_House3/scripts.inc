@@ -9,9 +9,9 @@ release
 end
 
 CeruleanCity_House3_Text_1:
-	.string "Watch what you do, ROCKET. Here in\n"
-	.string "CERULEAN CITY, we've got POLICE around\l"
-	.string "every corner.$"
+	.string "Benimm dich besser, ROCKET! Hier in\n"
+	.string "AZURIA CITY wimmelt es nur so von\l"
+	.string "POLIZISTEN!$"
 
 
 
@@ -23,11 +23,13 @@ release
 end
 
 CeruleanCity_House3_Text_2:
-	.string "Long ago, far off in FLOE ISLAND, you\n"
-	.string "could capture JYNX in ICEFALL CAVE.\p"
-	.string "Nowadays, I'd trade one of those for a\n"
-	.string "POLIWHIRL. It's a bad deal, I know, but I\l"
-	.string "just don't have the energy to catch a\l"
-	.string "POLIWAG and evolve it myself… … … How?\p"
-	.string "You? I'd never do business with a\n"
-	.string "ROCKET!$"
+	.string "Vor langer Zeit konnte man ROSSANA auf\n"
+	.string "EILAND VIER in der EISKASKADENHÖHLE\l"
+	.string "fangen. Heute würde ich eins gegen ein\l"
+	.string "QUAPUTZI tauschen. Schlechter Handel,\l"
+	.string "ich weiß. Aber ich habe einfach nicht\l"
+	.string "mehr die Energie, ein QUAPSEL zu fangen\l"
+	.string "und es selber zu entwickeln … … …\p"
+	.string "Wie bitte? Mit dir tauschen? Ich\n"
+	.string "würde niemals mit einem von\l"
+	.string "TEAM ROCKET Geschäfte machen!$"

@@ -139,8 +139,9 @@ release
 end
 
 MtMoon1F_Balding_Texto_1:
-	.string "You'd better watch your step! BROCK is\n"
-	.string "my friend. Try robbing me, and our\l"
-	.string "LEADER will crush you with his ROCK\l"
-	.string "POKÉMON.$"
+	.string "Pass lieber auf, mit wem du dich\n"
+	.string "anlegst! ROCKO ist mein Freund! Versuch\l"
+	.string "mich auszurauben, und unser\l"
+	.string "ARENALEITER wird dich mit seinen\l"
+	.string "GESTEIN-POKéMON zerquetschen.$"
 

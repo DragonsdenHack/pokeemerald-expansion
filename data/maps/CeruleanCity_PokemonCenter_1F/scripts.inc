@@ -27,9 +27,10 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_2:
-.string "Stop wasting your time belonging to a\n"
-	.string "bunch of thieves with no future and do\l"
-	.string "something with your life, kid.$"
+	.string "Hör auf, deine Zeit mit diesen elenden\n"
+	.string "Verbrechern zu verschwenden und mach\l"
+	.string "gefälligst was aus deinem Leben,\l"
+	.string "Bursche!$"
 
 
 
@@ -41,8 +42,9 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_3:
-.string "You should be ashamed of wearing those\n"
-	.string "clothes in public!$"
+	.string "Du solltest dich schämen mit diesen\n"
+	.string "Klamotten in der Öffentlichkeit\l"
+	.string "rumzulaufen!$"
 
 
 
@@ -54,10 +56,10 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_4:
-	.string "If it were up to me, I'd ban you from\n"
-	.string "stepping foot in POKÉMON CENTERs. You\l"
-	.string "ROCKETs don't deserve even essential\l"
-	.string "services.$"
+	.string "Wenn es nach mir ginge, dürftest du\n"
+	.string "keinen Fuß in ein POKéMON-CENTER\l"
+	.string "setzen! Ihr ROCKETs verdient nicht\l"
+	.string "einmal grundlegende Dienstleistungen.$"
 
 
 
@@ -69,8 +71,9 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_5:
-.string "They say that BILL has POKÉMON that no\n"
-	.string "one else has. I would like to see them!$"
+	.string "Wort auf der Straße ist, BILL hätte\n"
+	.string "POKéMON, die sonst keiner besitzt. Ich\l"
+	.string "würde sie gerne mal sehen!$"
 
 
 
