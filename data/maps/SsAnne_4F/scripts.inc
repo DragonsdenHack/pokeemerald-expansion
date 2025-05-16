@@ -9,8 +9,7 @@ release
 end
 
 SsAnne4F_Text_1:
-.string "The party's a\n"
-.string "total success!$"
+.string "Die Party ist ein voller Erfolg!$"
 
 
 
@@ -22,8 +21,7 @@ release
 end
 
 SsAnne4F_Text_2:
-.string "The party is going\n"
-.string "well!$"
+.string "Die Party ist ein voller Erfolg!$"
 
 
 
@@ -34,8 +32,9 @@ release
 end
 
 SsAnne4F_Text_3:
-	.string "We'll make our allotted time something\n"
-	.string "unique. Who cares how long it is?$"
+	.string "Wir machen das Beste aus unserer Zeit\n"
+	.string "hier! Wie viel wir von ihr haben,\l"
+	.string "spielt doch keine Rolle!$"
 
 SsAnne4F_4::
 lock         
@@ -44,16 +43,13 @@ release
 end
 
 SsAnne4F_Text_4:
-	.string "A toast! To everything we've\n"
-	.string "experienced over these long 70 years,\l"
-	.string "and to everything that still lies ahead.\l"
-	.string "Who would have thought that after\l"
-	.string "everything we've been through, we'd be\l"
-	.string "sitting here in 1996, with all this\l"
-	.string "luxury and all these opportunities at\l"
-	.string "our fingertips? And most importantly;\l"
-	.string "the ability to keep on living and\l"
-	.string "dreaming!$"
+	.string "Ein Toast auf alles, was wir in diesen 70\n"
+	.string "langen Jahren erlebt haben und auf\l"
+	.string "alles, was noch vor uns liegt! Wer hätte\l"
+	.string "sich träumen lassen, dass wir nach\l"
+	.string "allem, was wir durchgemacht haben, hier\l"
+	.string "im Jahr 1996 sitzen würden - mit allem,\l"
+	.string "was wir uns je erträumt haben!$"
 
 SsAnne4F_5::
 lock          
@@ -62,10 +58,11 @@ release
 end
 
 SsAnne4F_Text_5:
-	.string "Experiences are priceless, my dear.\n"
-	.string "There isn't any amount of money in the\l"
-	.string "world that could buy the value of this\l"
-	.string "moment, so let's make the most of it.$"
+	.string "Erlebnisse sind unbezahlbar, mein\n"
+	.string "Lieber. Es gibt keinen Preis der Welt,\l"
+	.string "der dem Wert dieses Moments\l"
+	.string "gleichkommen könnte. Also lasst\l"
+	.string "uns das Beste daraus machen!$"
 
 
 
@@ -76,8 +73,8 @@ release
 end
 
 SsAnne4F_Text_6:
-.string "Oh… Are you sure we\n"
-	.string "can afford this meal?$"
+	.string "Oh … Bist du dir sicher, dass wir\n"
+	.string "uns dieses Menü leisten können?$"
 
 
 
@@ -88,9 +85,9 @@ release
 end
 
 SsAnne4F_Text_7:
-	.string "So, you like to make bold bets, Mr.\n"
-	.string "FUJITA. I'll make you an offer you can't\l"
-	.string "refuse…$"
+	.string "Sie mögen also Risiko, Mr. FUJITA. Ich\n"
+	.string "werde Ihnen ein Angebot machen, das Sie\l"
+	.string "nicht ablehnen können {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -101,11 +98,11 @@ release
 end
 
 SsAnne4F_Text_8:
-	.string "Let us be perfectly clear, Mr. NOMURA. I\n"
-	.string "can buy 20% of your shares or I can buy\l"
-	.string "all of them. Or I can enter this\l"
-	.string "business myself and bury you. The\l"
-	.string "choice is yours.$"
+	.string "Reden wir Klartext, Mr. NOMURA. Ich kann\n"
+	.string "20 % Ihrer Anteile kaufen oder auch\l"
+	.string "gleich alle. Ich kann ebenfalls in\l"
+	.string "dieses Geschäft hier einsteigen und Sie\l"
+	.string "ruinieren. Die Wahl liegt ganz bei Ihnen.$"
 
 
 
@@ -118,7 +115,7 @@ release
 end
 
 SsAnne4F_Text_9:
-.string "Is everything all right, SIR?$"
+.string "Ist alles in Ordnung bei Ihnen, Sir?$"
 
 
 
@@ -129,10 +126,11 @@ release
 end
 
 SsAnne4F_Text_10:
-	.string "The best thing about this kind of party\n"
-	.string "is the food. I highly recommend the\l"
-	.string "salted SHARPEDO - it's exquisite, and\l"
-	.string "you won't find it anywhere else in KANTO!$"
+	.string "Das Beste an dieser Art von Partys ist\n"
+	.string "das Essen. Ich kann jedem nur\l"
+	.string "wärmstens den gesalzenen TOHAIDO\l"
+	.string "empfehlen. Er ist exquisit und\l"
+	.string "nirgendwo sonst in KANTO zu finden!$"
 
 
 
@@ -143,9 +141,9 @@ release
 end
 
 SsAnne4F_Text_11:
-.string "Hurry up, or the best\n"
-	.string "dishes will be gone!\l"
-	.string "You snooze, you lose!$"
+	.string "Beeil dich oder die besten Gerichte\n"
+	.string "werden weg sein! Wer zu spät kommt,\l"
+	.string "den bestraft das Leben!$"
 
 
 
@@ -161,8 +159,9 @@ release
 end
 
 SsAnne4F_Text_13:
-	.string "In my opinion, the TAUROS tail stew is\n"
-	.string "the best dish there is.$"
+	.string "Also wenn man mich fragt, ist der\n"
+	.string "TAUROS-Schwanzeintopf das beste\l"
+	.string "Gericht überhaupt!$"
 
 
 
@@ -173,14 +172,17 @@ release
 end
 
 SsAnne4F_Text_14:
-	.string "Oh, you're always the same. You eat that\n"
-	.string "same meal every day at the restaurant\l"
-	.string "in CELADON. You should take this\l"
-	.string "opportunity to try something new! The\l"
-	.string "grilled HUNTAIL I ordered is delicious,\l"
-	.string "for example. They say the seas of HOENN\l"
-	.string "have the most diverse species, and\l"
-	.string "unparalleled flora and fauna!$"
+	.string "Ach! Es ist immer dasselbe mit dir! Du\n"
+	.string "bestellst jeden Tag dasselbe Gericht im\l"
+	.string "Restaurant in PRISMANIA! Du solltest\l"
+	.string "diese Gelegenheit nutzen, um mal etwas\l"
+	.string "Neues auszuprobieren! Wie zum Beispiel\l"
+	.string "das gegrillte AALABYSS, das ich\l"
+	.string "bestellt habe. Es ist köstlich! Man sagt\l"
+	.string "sich, dass die Meere von HOENN die\l"
+	.string "vielfältigsten Arten beherbergen und\l"
+	.string "eine unvergleichbare Flora und Fauna\l"
+	.string "besitzen!$"
 
 SsAnne_4F_Combate_Azul::
 msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_DEFAULT
@@ -226,61 +228,67 @@ release
 end
 
 SsAnne_4F_Combate_Azul_text_1:
-	.string "????: These parties always end up being\n"
-	.string "a drag. I came here to battle POKÉMON\l"
-	.string "from all over the world, but all I find\l"
-	.string "are the same old PIDGEY, RATTATA, and\l"
-	.string "NIDORAN.$"
+	.string "????: Diese Parties erweisen sich immer\n"
+	.string "als reinste Zeitverschwendung. Ich bin\l"
+	.string "hierhergekommen, um gegen Trainer aus\l"
+	.string "aller Welt zu kämpfen! Aber alles, was\l"
+	.string "ich hier gefunden habe, sind die\l"
+	.string "üblichen Verdächtigen:\p"
+	.string "TAUBSI, RATTFRATZ und NIDORAN!$"
 
 SsAnne_4F_Combate_Azul_text_1.1:
-	.string "Even the so-called sailors from\n"
-	.string "the SS. ANNE only ever bring out\l"
-	.string "TENTACOOL!\p"
-	.string "This is a scam.$"
+	.string "Sogar die Matrosen der M.S. ANNE haben\n"
+	.string "nur TENTACHA!\p"
+	.string "Das ist doch Verarsche!$"
 
 SsAnne_4F_Combate_Azul_text_2:
-	.string "So, you're the ROCKET I handed that\n"
-	.string "FOSSIL to on MT. MOON.$"
+	.string "Bist du nicht der ROCKET, dem ich beim\n"
+	.string "MONDBERG das FOSSIL geschenkt habe?$"
 
 SsAnne_4F_Combate_Azul_text_2.1:
-	.string "A ROCKET here{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15} I won't bother\n"
-	.string "asking how someone like you managed\l"
-	.string "to get into a place like this; I can\l"
-	.string "easily guess you sneaked in somehow.\p"
-	.string "Honestly, I couldn't care less.$"
+	.string "Ich spare mir die Frage, wie jemand wie\n"
+	.string "du es an Bord dieses Schiffs geschafft\l"
+	.string "hat. Ich bin mir sicher, dass du dich\l"
+	.string "hier irgendwie eingeschlichen hast.\p"
+	.string "Ganz ehrlich? Könnte mir nicht egaler\n"
+	.string "sein.$"
 
 SsAnne_4F_Combate_Azul_text_3:
-	.string "On MT. MOON, I turned a blind eye to the\n"
-	.string "mediocrity of you ROCKETs, and you had\l"
-	.string "the audacity to lecture me on morality.\p"
-	.string "Do you even realize what that means?$"
+	.string "Auf dem MONDBERG habe ich ein Auge\n"
+	.string "zugedrückt, als es um die\l"
+	.string "Mittelmäßigkeit von deinesgleichen\l"
+	.string "ging und trotzdem hattest du die\l"
+	.string "Nerven, mir eine Moralpredigt zu halten!\p"
+	.string "Du weißt, was das zur Folge hat, oder?$"
 
 SsAnne_4F_Combate_Azul_text_3.1:
-	.string "Let's see if you're just another\n"
-	.string "worthless GRUNT or if you actually\l"
-	.string "have something worthwhile to show.\l"
-	.string "Get ready, ROCKET!$"
+	.string "Mal sehen, ob du nur ein weiterer\n"
+	.string "nichtsnutziger Rüpel bist oder ob du\l"
+	.string "tatsächlich was drauf hast!\p"
+	.string "Mach dich bereit, ROCKET!$"
 
 SsAnne_4F_Combate_Azul_text_4:
-	.string "… Did I seriously just lose to a ROCKET?$"
+	.string "Habe ich gerade ernsthaft gegen\n"
+	.string "einen ROCKET verloren?$"
 
 SsAnne_4F_Combate_Azul_text_5:
 .string "{PAUSE 20}…{PAUSE 20}\n"
 	.string "{PAUSE 20}…{PAUSE 20}\p"
-	.string "So, you're not just another ROCKET\n"
-	.string "GRUNT{PAUSE 20}…{PAUSE 20} HIGH RANK, are you? Honestly,\l"
-	.string "you all look the same to me! But I'll give\l"
-	.string "you this: you're the only one who's\l"
-	.string "managed to defeat me besides that\l"
-	.string "backwoods bumpkin, RED. I suppose I'll\l"
-	.string "have to keep an eye on you from now on.$"
+	.string "Du bist also kein gewöhnlicher ROCKET {PAUSE 15}…{PAUSE 15}\n"
+	.string "Einer von den HOCHRANGIGEN, was? Ganz\l"
+	.string "ehrlich. Ihr seht für mich alle gleich\l"
+	.string "aus. Aber ich gebe es zu. Du bist der\l"
+	.string "Einzige, der mich bisher besiegen\l"
+	.string "konnte, abgesehen von diesem\l"
+	.string "Hinterwäldler ROT. Ich schätze, ich\l"
+	.string "werde dich ab jetzt im Auge behalten.$"
 
 SsAnne_4F_Combate_Azul_text_6:
-	.string "Bah! I suppose I'll wander around\n"
-	.string "the cabins and see if anyone else\l"
-	.string "here can manage to give me a remotely\l"
-	.string "interesting battle, though I seriously\l"
-	.string "doubt it.$"
+	.string "????: Bah. Ich glaube, ich werde noch\n"
+	.string "durch die Kabinen schlendern und sehen,\l"
+	.string "ob mir hier irgendjemand einen auch nur\l"
+	.string "ansatzweise interessanten Kampf\l"
+	.string "liefern kann. Ich bezweifle es.$"
 
 SsAnne_4F_Combate_Azul_move1:
 emote_exclamation_mark

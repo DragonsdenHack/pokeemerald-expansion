@@ -261,22 +261,24 @@ Bill_Garden_Policia_Atlas_text_4:
 .string "BILL: CHEF-ADMINISTRATOR ATLAS{PAUSE 5}…{PAUSE 5}$"
 
 Bill_Garden_Policia_Atlas_text_5:
-.string "ARCHER: I couldn't prevent myself from\n"
-	.string "hearing some attacks against our\l"
-	.string "organization; as you can see, I'm here.\p"
-	.string "You're wrong, in TEAM ROCKET we never\n"
-	.string "leave alone anyone who deserves it.$"
+	.string "ATLAS: Ich konnte deine respektlosen\n"
+	.string "Bemerkungen hinsichtlich unserer\l"
+	.string "Organisation nicht überhören. Wie du\l"
+	.string "siehst, bin ich hier. Dementsprechend\l"
+	.string "liegst du falsch. TEAM ROCKET lässt\l"
+	.string "niemals jemanden von sich im Stich,\l"
+	.string "der Hilfe braucht.$"
 
 Bill_Garden_Policia_Atlas_text_5.1:
-	.string "Lack of principles?\p"
-	.string "Thieves?\p"
-	.string "I'm afraid that terms are not\n"
-	.string "enough to describe what you're\l"
-	.string "doing to the region.$"
+	.string "Verbrecherisch?\p"
+	.string "Ohne Prinzipien?\p"
+	.string "Ich fürchte, diese Begriffe kommen\n"
+	.string "nicht annähernd an den Schaden heran,\l"
+	.string "den du in dieser Region anrichtest.$"
 
 Bill_Garden_Policia_Atlas_text_6:
-.string "BILL: DETAIN BOTH OF THEM!\p"
-	.string "DO NOT LET THEM ESCAPE!$"
+.string "BILL: NEHMT SIE BEIDE FEST!\p"
+	.string "LASST SIE NICHT ENTKOMMEN!$"
 
 Bill_Garden_Policia_Atlas_text_7:
-.string "ARCHER: SKARMORY, USE FLY!$"
+.string "ATLAS: PANZAERON, SETZE FLIEGEN EIN!$"

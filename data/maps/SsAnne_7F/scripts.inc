@@ -14,7 +14,8 @@ release
 end
 
 SsAnne7F_Text_2:
-.string "Order up! Galician-style Octillery!$"
+	.string "Fertig zum Servieren!\n"
+	.string "OCTILLERY nach Galar-Art!$"
 
 
 
@@ -26,8 +27,9 @@ release
 end
 
 SsAnne7F_Text_3:
-	.string "Our CAPTAIN loves HOENN POKÉMON,\n"
-	.string "especially Water types!$"
+	.string "Unser KAPITÄN liebt die POKéMON\n"
+	.string "aus der HOENN Region. Vor allem\l"
+	.string "die Wasser-Typen!$"
 
 
 
@@ -39,8 +41,9 @@ release
 end
 
 SsAnne7F_Text_4:
-.string "'Join as a sailor,' they said…\n"
-	.string "'You'll have grand adventures,' they said…$"
+	.string "'Werde Matrose' haben sie gesagt … 'Du\n"
+	.string "wirst unglaubliche Abenteuer erleben'\l"
+	.string "haben sie gesagt …$"
 
 
 
@@ -52,9 +55,10 @@ release
 end
 
 SsAnne7F_Text_5:
-.string "Sniff…\n"
-.string "Sniff…\l"
-.string "Look man, I'm just peeling onions…$"
+.string "Wimmer …\n"
+.string "Wimmer …\p"
+	.string "Schau, Mann! Ich schäle die ganze Zeit\n"
+	.string "nur Zwiebeln {PAUSE 5}...{PAUSE 5}$"
 
 
 
@@ -66,9 +70,9 @@ release
 end
 
 SsAnne7F_Text_6:
-.string "Hum-de-hum-de-ho…\n"
-.string "I peel spuds every day!\l"
-.string "Hum-hum…$"
+	.string "Alles, was ich tue, ist Kartoffeln\n"
+	.string "schälen! Meine Hände sind deswegen\l"
+	.string "schon ganz schmutzig!$"
 
 
 
@@ -80,15 +84,14 @@ release
 end
 
 SsAnne7F_Text_7:
-	.string "You should be at the party, but since\n"
-	.string "you're here, I'll let you in on a secret:\l"
-	.string "the real party is happening right here.\l"
-	.string "Without our work, that celebration out\l"
-	.string "there wouldn't even be possible.\l"
-	.string "Honestly, I find it way more satisfying\l"
-	.string "to enjoy the process that makes things\l"
-	.string "happen rather than just reaching the\l"
-	.string "end goal.$"
+	.string "Du solltest eigentlich auf der Party\n"
+	.string "sein, aber wenn du schon hier bist,\l"
+	.string "weihe ich dich in ein Geheimnis ein.\p"
+	.string "Die eigentliche Party findet hier statt!\p"
+	.string "Denn ohne wäre sie gar nicht möglich!\p"
+	.string "Ich finde den Prozess, der die Dinge\n"
+	.string "möglich macht, viel befriedigender\l"
+	.string "als das Resultat selbst.$"
 
 
 
@@ -100,5 +103,6 @@ release
 end
 
 SsAnne7F_Text_8:
-	.string "We're swamped! We've got to serve all the\n"
-	.string "party guests in record time!$"
+	.string "Wir sind komplett überfordert! Wir\n"
+	.string "müssen alle Partygäste in Rekordzeit\l"
+	.string "bedienen!$"

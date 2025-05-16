@@ -145,10 +145,11 @@ release
 end
 
 Route9_Aviso_Petrel_Texto_1:
-	.string "PETREL: {PLAYER}? The teleport\n"
-	.string "system is ready. Come back to HQ now\l"
-	.string "and get ready for your immediate\l"
-	.string "transfer to AZULONA CITY base.$"
+	.string "LAMBDA: {PLAYER}? Das\n"
+	.string "Teleportations-System ist fertig. Komm\l"
+	.string "zur BASIS zurück und mach dich bereit\l"
+	.string "für deinen sofortigen Transfer nach\l"
+	.string "PRISMANIA CITY.$"
 
 Route9_Aviso_Petrel_Move_1:
 walk_in_place_left

@@ -14,10 +14,11 @@ release
 end
 
 SsAnne3F_Text_2:
-	.string "C'mon! Chill, man! We're here for some\n"
-	.string "fun! I mean, not like you're some\l"
-	.string "infiltrator on a top-secret mission,\l"
-	.string "right?$"
+	.string "Komm schon! Entspann dich, Mann! Wir\n"
+	.string "sind hier, um Spaß zu haben! Ich meine,\l"
+	.string "es ist ja nicht so, als wärst du hier in\l"
+	.string "streng geheimer Mission unterwegs,\l"
+	.string "oder?$"
 
 
 
@@ -28,9 +29,9 @@ release
 end
 
 SsAnne3F_Text_3:
-.string "Yeah!\p"
-.string "Teach that beardless young man from\n"
-	.string "KANTO how we fight here!$"
+.string "Ja!\p"
+.string "Zeig diesem Milchbart aus\n"
+	.string "KANTO, wie wir hier kämpfen!$"
 
 
 
@@ -41,8 +42,8 @@ release
 end
 
 SsAnne3F_Text_4:
-.string "Come on, POLIWHIRL!\p"
-	.string "Fly our fleet's flag!$"
+.string "Na los, QUAPUTZI!\p"
+	.string "Hiss die Flagge unseres Kreuzers!$"
 
 
 
@@ -55,8 +56,8 @@ release
 end
 
 SsAnne3F_Text_5:
-.string "POLIWHIRL!\n"
-	.string "BUBBLE BEAM!$"
+.string "QUAPUTZI!\n"
+	.string "Setz BLUBBSTRAHL ein!$"
 
 SsAnne3F_Text_5_2:
 .string "Whirl!$"
@@ -70,8 +71,8 @@ release
 end
 
 SsAnne3F_Text_7:
-	.string "Amateurs! If I send out my PINSIR, this\n"
-	.string "match'd be over instantly!$"
+	.string "Amateure! Mit meinem PINSIR wäre\n"
+	.string "dieser Kampf im Handumdrehen vorbei!$"
 
 SsAnne3F_Andra::
 lock
@@ -87,11 +88,12 @@ release
 end
 
 SsAnne3F_Andra_Text_1:
-	.string "ANDRA: Seems like this is the CAPTAIN's\n"
-	.string "cabin. PETREL wanted us to hold up a\l"
-	.string "sec before he gives us our last signal.\l"
-	.string "Wouldn't hurt to roam a bit and get some\l"
-	.string "training in.$"
+	.string "ANDRA: Scheint so, als wäre das hier die\n"
+	.string "Kammer des KAPITÄNs. LAMBDA hat uns\l"
+	.string "befohlen, auf sein Signal zu warten,\l"
+	.string "bevor wir reingehen. Kann nicht\l"
+	.string "schaden, sich hier ein wenig umzusehen\l"
+	.string "und etwas zu trainieren.$"
 
 SsAnne3F_Andra_move_1:
 walk_in_place_up
@@ -122,9 +124,9 @@ release
 end
 
 SsAnne3F_Andra_lista_Text_1:
-	.string "{PLAYER}! We're good to go!\p"
-	.string "Let's show that CAPTAIN how ROCKET\n"
-	.string "handles things here in KANTO!$"
+	.string "{PLAYER}! Wir können loslegen!\p"
+	.string "Lass uns diesem KAPITÄN zeigen, wie\n"
+	.string "TEAM ROCKET die Dinge in KANTO regelt!$"
 
 SsAnne3F_Andra_lista_move1:
 walk_up

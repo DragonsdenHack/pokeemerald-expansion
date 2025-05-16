@@ -8,8 +8,8 @@ release
 end
 
 SsAnne6F_Text_1:
-.string "I'm the coolest guy around\n"
-	.string "here… and you know it.$"
+	.string "Ich bin der coolste Typ hier {PAUSE 25}…{PAUSE 25} und das\n"
+	.string "weißt du auch!$"
 
 
 
@@ -20,7 +20,8 @@ release
 end
 
 SsAnne6F_Text_2:
-.string "Oh… what a COOL TRAINER so… cool!$"
+	.string "Ohhh! Was für ein ASS-TRAINER! So {PAUSE 25}…{PAUSE 25}\n"
+	.string "cool!$"
 
 
 
@@ -42,11 +43,12 @@ release
 end
 
 SsAnne6F_Text_5:
-	.string "I'm the type who prefers to observe at\n"
-	.string "events like these. You learn more about\l"
-	.string "someone by watching them at a party\l"
-	.string "like this one than by talking to them\l"
-	.string "for hours.$"
+	.string "Ich bin die Sorte Mensch, der bei\n"
+	.string "solchen Events lieber beobachtet. Man\l"
+	.string "lernt mehr über jemanden, wenn man ihn\l"
+	.string "auf einer Party wie dieser beobachtet,\l"
+	.string "als wenn man sich stundenlang mit ihm\l"
+	.string "unterhält.$"
 
 
 
@@ -59,8 +61,9 @@ end
 
 SsAnne6F_Text_6:
 .string "HAHAHA!\n"
-.string "Waiter!\l"
-.string "Get me another SHUCKLE brandy!$"
+.string "Kellner!\p"
+.string "Bringen Sie mir noch 'nen\n"
+.string "POTTROT Brandy!$"
 
 
 
@@ -72,12 +75,11 @@ release
 end
 
 SsAnne6F_Text_7:
-	.string "HA, HA! Y'know why… people love to party\n"
-	.string "so much? … … ‘Cause for a few hours… it\l"
-	.string "lets ‘em escape all the problems… and\l"
-	.string "shortcomings of their miserable lives!\p"
-	.string "HA! Waiter! Get me another CACTURNE\n"
-	.string "tequila!$"
+	.string "HA, HA! Weißt du warum … es Leute so\n"
+	.string "sehr lieben zu feiern? {PAUSE 25}…{PAUSE 25} Weil sie für 'n\l"
+	.string "paar Stunden … all die Probleme … ihres\l"
+	.string "elenden Lebens vergessen können! HA!\p"
+	.string "Kellner! Noch 'n NOKTUSKA Tequila!$"
 
 
 
@@ -89,12 +91,12 @@ release
 end
 
 SsAnne6F_Text_8:
-	.string "So after all that effort and discipline,\n"
-	.string "this was supposed to be the grand\l"
-	.string "prize. Funny enough, I found more joy in\l"
-	.string "the journey than in finally getting here.\p"
-	.string "The finish line is always a let\n"
-	.string "down, kid!$"
+	.string "Nach all meinen Leiden und Strapazen\n"
+	.string "soll das hier die große Belohnung sein?!\p"
+	.string "Ironischerweise hatte ich mehr Freude\n"
+	.string "auf der Reise hierher. Das Ziel erweist\l"
+	.string "sich wohl immer als Enttäuschung,\l"
+	.string "Kleiner!$"
 
 
 
@@ -106,9 +108,11 @@ release
 end
 
 SsAnne6F_Text_9:
-	.string "Ugh, I was having a lovely time until\n"
-	.string "that lovey-dovey couple showed up\l"
-	.string "being all sappy and gross. Get a room!$"
+	.string "Ugh. Ich hatte hier eine wundervolle\n"
+	.string "Zeit, bis diese Turteltäubchen\l"
+	.string "aufgetaucht sind und begonnen haben,\l"
+	.string "sich kitschig aufzuführen.\p"
+	.string "Sucht euch gefälligst ein Zimmer!$"
 
 
 
@@ -120,10 +124,10 @@ release
 end
 
 SsAnne6F_Text_10:
-	.string "Ugh… Don't even think about trying any\n"
-	.string "of that weird drink the waiter over\l"
-	.string "there is serving. I think I'm gonna\l"
-	.string "throw up…$"
+	.string "Ugh … Ich will nicht einmal an diesen\n"
+	.string "seltsamen Drink denken, den der Kellner\l"
+	.string "da drüben serviert. Ich glaube, ich muss\l"
+	.string "kotzen {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -139,19 +143,17 @@ release
 end
 
 SsAnne6F_Text_11:
-.string "The uncertainty of the moment,\n"
-.string "let intuition work for you{PAUSE 15}…{PAUSE 15}$"
+	.string "Die Unvorhersehbarkeit des Moments,\n"
+	.string "einfach nach dem Bauchgefühl zu\l"
+	.string "handeln {PAUSE 15}…{PAUSE 15}$"
 
 SsAnne6F_Text_11.1:
-	.string "A big party event, the drunkenness of\n"
-	.string "the community at it, the secret of the\l"
-	.string "loss of personality among the crowd{PAUSE 15}…{PAUSE 15}$"
+	.string "traducir$"
 
 SsAnne6F_Text_11.2:
-	.string "I still don't understand what's the\n"
-	.string "ultimate essence capable of providing\l"
-	.string "the exact formula that will finally make\l"
-	.string "me enjoy these events{PAUSE 15}…{PAUSE 15}$"
+	.string "Ich habe immer noch nicht ganz\n"
+	.string "verstanden, wie man das Meiste aus\l"
+	.string "solchen Feiern herausholt {PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -162,10 +164,11 @@ release
 end
 
 SsAnne6F_Text_12:
-	.string "Am I dreaming? I just had the incredible\n"
-	.string "honor of seeing LANCE's majestic,\l"
-	.string "legendary DRAGONITE flying over the\l"
-	.string "SS. ANNE!$"
+	.string "Ist das ein Traum? Mir wurde gerade die\n"
+	.string "unglaubliche Ehre zuteil, SIEGFRIEDs\l"
+	.string "majestätisches und legendäres\l"
+	.string "DRAGORAN über die M.S. ANNE\l"
+	.string "fliegen sehen zu dürfen!$"
 
 
 
@@ -176,7 +179,7 @@ release
 end
 
 SsAnne6F_Text_13:
-	.string "That was LANCE himself, in the flesh!$"
+	.string "Das war SIEGFRIED höchstpersönlich!$"
 
 SsAnne6F_EventScript_Marinero::
 	trainerbattle_single TRAINER_JESSICA_5, SsAnne6F_Text_MarineroIntro, SsAnne6F_Text_MarineroDefeated
@@ -309,122 +312,127 @@ release
 end
 
 SSAnne6F_Lance_Surge_Text_1:
-	.string "????: It's a pleasure to see you again,\n"
-	.string "LANCE, CHAMPION of the new KANTO. What\l"
-	.string "brings you here today, on such a special\l"
-	.string "occasion as the annual return of the\l"
-	.string "SS. ANNE?$"
+	.string "????: Es ist mir ein Vergnügen, dich\n"
+	.string "wiederzusehen SIEGFRIED, Champion des\l"
+	.string "neuen KANTOs. Was führt dich heute\l"
+	.string "hierher, an dem Tag der alljährlichen\l"
+	.string "Rückkehr der M.S. ANNE?$"
 
 SSAnne6F_Lance_Surge_Text_2:
-	.string "LANCE: I'll be brief, LT. SURGE.\p"
-	.string "All major cities are undergoing routine\n"
-	.string "inspections and controls to ensure the\l"
-	.string "safety and comfort of our citizens, and\l"
-	.string "to confirm that the mechanisms driving\l"
-	.string "this region are operating flawlessly.$"
+	.string "SIEGFRIED: Ich fasse mich kurz, BOB.\p"
+	.string "Alle großen Städte unterliegen\n"
+	.string "routinemäßigen Inspektionen und\l"
+	.string "Kontrollen, um die Sicherheit und den\l"
+	.string "Komfort unserer Bürger zu\l"
+	.string "gewährleisten und sicherzustellen,\l"
+	.string "dass die Dinge, die diese Region\l"
+	.string "antreiben, einwandfrei funktionieren.$"
 
 SSAnne6F_Lance_Surge_Text_2.1:
-	.string "How are the people of VERMILION, SURGE?$"
+	.string "Wie geht es den Menschen in ORANIA,\n"
+	.string "MAJOR?$"
 
 SSAnne6F_Lance_Surge_Text_3:
-	.string "LT.SURGE: Everything is going\n"
-	.string "correctly, SIR LANCE. VERMILION's\l"
-	.string "harbor exponentially amplifies their\l"
-	.string "contact networks with other regions,\l"
-	.string "and I have understood that other\l"
-	.string "cities, like CELADON with their big DEPT.\l"
-	.string "STORE or FUCHSIA with the SAFARI ZONE,\l"
-	.string "do the same with their own assets.$"
+	.string "MAJOR BOB: Alles läuft wie geschmiert,\n"
+	.string "Sir. ORANIAs Hafen weitet sein Netzwerk\l"
+	.string "an Kontakten mit anderen Regionen\l"
+	.string "immer mehr aus.$"
 
 SSAnne6F_Lance_Surge_Text_4:
-	.string "LANCE: That's great to hear, SURGE. The\n"
-	.string "economy of the region is experiencing\l"
-	.string "an unprecedented boom.$"
+	.string "SIEGFRIED: Das freut mich zu hören,\n"
+	.string "MAJOR. Die Wirtschaft unserer Region\l"
+	.string "erlebt einen noch nie dagewesenen\l"
+	.string "Aufschwung {PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_4.1:
-	.string "This was foreseeable: it was just a\n"
-	.string "matter of tidying up and deciding for\l"
-	.string "citizens where to channel their own\l"
-	.string "efforts.$"
+	.string "traducir$"
 
 SSAnne6F_Lance_Surge_Text_5:
-    .string "But{PAUSE 35}…{PAUSE 35} that's not the question I\n"
-    .string "was asking, SURGE.\p"
-	.string "What I really want to know is{PAUSE 15}…{PAUSE 15}$"
+	.string "SIEGFRIED: Aber {PAUSE 15}...{PAUSE 15} das war nicht meine\n"
+	.string "Frage, BOB. Was ich wirklich wissen will,\l"
+	.string "ist {PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_6:
-	.string "How are people handling the fact that\n"
-	.string "one of the enemy's commanding officers\l"
-	.string "during the KANTO WAR is now a GYM LEADER\l"
-	.string "and the main icon of VERMILION?$"
+	.string "SIEGFRIED: Wie gehen die Menschen mit\n"
+	.string "der Tatsache um, dass einer der\l"
+	.string "Befehlshaber der feindlichen Armee im\l"
+	.string "Großen Krieg jetzt der Arenaleiter und\l"
+	.string "das Aushängeschild von ORANIA ist?$"
 
 SSAnne6F_Lance_Surge_Text_6.1:
-	.string "Have they accepted your\n"
-	.string "change of role?$"
+	.string "Akzeptieren sie dich?$"
 
 SSAnne6F_Lance_Surge_Text_7:
-	.string "LT.SURGE: I'm afraid the war is still a\n"
-	.string "taboo topic throughout KANTO,\l"
-	.string "especially here, SIR. People prefer not\l"
-	.string "to talk about it, to leave it behind and\l"
-	.string "move on with their lives as if nothing\l"
-	.string "ever happened. There might still be\l"
-	.string "some lingering resentment from certain\l"
-	.string "factions…$"
+	.string "MAJOR BOB: Ich fürchte, der Krieg ist in\n"
+	.string "ganz KANTO noch immer ein Tabuthema.\p"
+	.string "Besonders hier, Sir. Die Menschen ziehen\n"
+	.string "es vor, nicht darüber zu sprechen und\l"
+	.string "ihr Leben so weiterzuführen, als wäre\l"
+	.string "nichts geschehen.\p"
+	.string "Gewisse Gruppierungen hegen vielleicht\n"
+	.string "noch immer einen Groll …$"
 
 SSAnne6F_Lance_Surge_Text_8:
-.string "LANCE: Are you referring to\n"
-	.string "TEAM ROCKET?$"
+	.string "SIEGFRIED: Und mit gewissen\n"
+	.string "Gruppierungen meinst du TEAM ROCKET?$"
 
 SSAnne6F_Lance_Surge_Text_9:
-	.string "LT.SURGE: They're probably the best\n"
-	.string "example. They started out as a protest\l"
-	.string "group, unhappy with the new post-war\l"
-	.string "government. But with their criminal\l"
-	.string "activities, their extreme ideas, and the\l"
-	.string "effective smear campaign in recent\l"
-	.string "years, public opinion on the ROCKETs\l"
-	.string "is what it is today.$"
+	.string "MAJOR BOB: Ich hatte niemand\n"
+	.string "Spezielles im Kopf, aber ja. Ich denke,\l"
+	.string "sie sind wohl das beste Beispiel.\p"
+	.string "Angefangen haben sie als eine\n"
+	.string "Protestbewegung, die nach dem Krieg\l"
+	.string "unzufrieden mit der neuen Regierung\l"
+	.string "war. Doch durch ihre Verbrechen, ihren\l"
+	.string "radikalen Idealen und der gezielten\l"
+	.string "Hetzkampagne in den letzten Jahren ist\l"
+	.string "die öffentliche Meinung über TEAM\l"
+	.string "ROCKET zu der geworden, die sie heute\l"
+	.string "ist.$"
 
 SSAnne6F_Lance_Surge_Text_9.1:
-	.string "There are still some groups that\n"
-	.string "sympathize with them and share their\l"
-	.string "anti-patriotic views, like the BIKERS\l"
-	.string "on CYCLING ROAD, for example.$"
+	.string "Es gibt allerdings noch immer einige\n"
+	.string "Gruppen, die mit ihnen sympathisieren\l"
+	.string "und ihre anti-patriotischen Ansichten\l"
+	.string "teilen. Wie zum Beispiel die BIKER auf\l"
+	.string "dem RADWEG.$"
 
 SSAnne6F_Lance_Surge_Text_10:
-	.string "LANCE: {PAUSE 25}…{PAUSE 25} {PAUSE 25}…{PAUSE 25} I see. The POKÉMON LEAGUE\n"
-	.string "COMMITTEE will take the necessary\l"
-	.string "steps regarding this.$"
+	.string "SIEGFRIED: {PAUSE 25}…{PAUSE 25} Verstehe. Die LEITUNG DER\n"
+	.string "POKéMON LIGA wird diesbezüglich die\l"
+	.string "notwendigen Schritte in die Wege\l"
+	.string "leiten.$"
 
 SSAnne6F_Lance_Surge_Text_10.1:
-	.string "In the meantime, keep maintaining order\n"
-	.string "and discipline in VERMILION. If people\l"
-	.string "see progress, they'll accept you as the\l"
-	.string "sheriff here.$"
+	.string "Sorge in der Zwischenzeit weiter für\n"
+	.string "Ruhe und Ordnung in ORANIA. Wenn die\l"
+	.string "Menschen Verbesserungen sehen, werden\l"
+	.string "sie dich als den Beschützer der Stadt\l"
+	.string "akzeptieren.$"
 	
 SSAnne6F_Lance_Surge_Text_10.2:
-	.string "People have short memories, SURGE; good\n"
-	.string "deeds can overshadow the past.\p"
-	.string "So be patient.$"
+	.string "Das Gedächtnis des Menschen ist kurz,\n"
+	.string "MAJOR. Gute Taten können die\l"
+	.string "Vergangenheit vergessen machen.\p"
+	.string "Also habe noch ein wenig Geduld.$"
 
 SSAnne6F_Lance_Surge_Text_10.3:
-	.string "We just need time. With the right\n"
-	.string "progress, KANTO will accept the New\l"
-	.string "World Order without even realizing it.$"
+	.string "Mit dem richtigen Fortschritt {PAUSE 25}...{PAUSE 25} wird\n"
+	.string "KANTO die neue Weltordnung\l"
+	.string "akzeptieren, ohne es überhaupt\l"
+	.string "zu merken.$"
 
 SSAnne6F_Lance_Surge_Text_11:
-.string "LT.SURGE: SIR, yes SIR.$"
+.string "MAJOR BOB: Sir, ja, Sir.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-	.string "LANCE: That's all for now, SURGE. Enjoy\n"
-	.string "the party here on the SS. ANNE, it's one\l"
-	.string "of the best markers of progress.$"
+	.string "traducir$"
 
 SSAnne6F_Lance_Surge_Text_13:
-.string "LT.SURGE: This kind of party was\n"
-	.string "never really my thing.\p"
-	.string "ELECTABUZZ! TELEPORT!$"
+	.string "MAJOR BOB: Partys waren noch\n"
+	.string "nie mein Ding.\p"
+    .string "ELEKTEK!\p"
+	.string "Setz TELEPORT ein!$"
 
 SSAnne6F_Lance_Surge_move1.5:
 emote_exclamation_mark

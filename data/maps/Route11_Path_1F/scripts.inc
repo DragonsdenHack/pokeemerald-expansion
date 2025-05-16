@@ -9,9 +9,9 @@ release
 end
 
 Route11Path1F_Text_1:
-	.string "Be careful, ROCKET, you'll have\n"
-	.string "constant surveillance while you're\l"
-	.string "in this shed.$"
+	.string "Sei ganz vorsichtig, ROCKET. Solange du\n"
+	.string "hier bist, stehst du unter ständiger\l"
+	.string "Überwachung.$"
 
 
 
@@ -23,6 +23,6 @@ release
 end
 
 Route11Path1F_Text_2:
-	.string "Be careful, ROCKET, you'll have\n"
-	.string "constant surveillance while you're\l"
-	.string "in this shed.$"
+	.string "Sei ganz vorsichtig, ROCKET. Solange du\n"
+	.string "hier bist, stehst du unter ständiger\l"
+	.string "Überwachung.$"

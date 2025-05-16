@@ -56,57 +56,66 @@ release
 end
 
 BillGarden_House1_Bill_Combate_Text_1:
-.string "BILL: Stop right there, ROCKET.$"
+.string "BILL: Keinen Schritt weiter, ROCKET!$"
 
 BillGarden_House1_Bill_Combate_Text_2:
-	.string "Three cops ought to have done the job.\p"
-	.string "My mistake may be the fact I didn't\n"
-	.string "hire 20 cops instead of just 3.$"
+	.string "Eigentlich hätten drei Polizisten\n"
+	.string "ausreichen sollen. Aber vielleicht\l"
+	.string "war es ein Fehler, nur so wenige\l"
+	.string "mitzubringen. Ich hätte stattdessen\l"
+	.string "von Anfang an mit 20 aufwarten sollen.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
-	.string "Either way, there's no way out for you,\n"
-	.string "even beating me; the entire city police\l"
-	.string "is coming here, right now.\p"
-	.string "You were just too brash…$"
+	.string "Wie dem auch sei. Hier gibt es sowieso\n"
+	.string "keinen Ausweg für dich. Nehmen wir an,\l"
+	.string "du besiegst mich. Die gesamte\l"
+	.string "AZURIA-Polizei ist bereits auf dem Weg\l"
+	.string "hierher. Du hast dich einfach\l"
+	.string "übernommen, mein Freund{PAUSE 5}…{PAUSE 5}$"
 
 BillGarden_House1_Bill_Combate_Text_4:
-	.string "Still, it's not all that common to see\n"
-	.string "someone successfully defy three\l"
-	.string "officers.$"
+	.string "Trotzdem ist es alles andere als\n"
+	.string "gewöhnlich, dass sich jemand wie du\l"
+	.string "gegen drei Polizisten durchsetzt.$"
 
 BillGarden_House1_Bill_Combate_Text_5:
-	.string "But since you'll be sitting in the clank\n"
-	.string "for a long time, I'll at least give you\l"
-	.string "the honor of battling me. Lucky you.$"
+	.string "Aber da du für eine lange Zeit hinter\n"
+	.string "Gittern wandern wirst, erweise ich dir\l"
+	.string "zumindest die Ehre, gegen mich zu\l"
+	.string "kämpfen.\p"
+	.string "Du solltest dich geehrt fühlen.$"
 
 BillGarden_House1_Bill_Combate_Text_5.1:
-	.string "Not every day street trash like you\n"
-	.string "has the opportunity to witness the\l"
-	.string "great collection of BILL, number one\l"
-	.string "POKÉMANIAC!$"
+	.string "Nicht jedem wird das Privileg zuteil,\n"
+	.string "die unvergleichliche Sammlung des\l"
+	.string "legendären BILL zu bestaunen - der\l"
+	.string "Nummer eins unter den POKÉMANIACs!$"
 
 BillGarden_House1_Bill_Combate_Text_6:
-	.string "This must be a joke.$"
+	.string "Das kann doch nur ein schlechter\n"
+	.string "Scherz sein.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-	.string "-{PLAYER} stole the patent!-$"
+	.string "-{PLAYER} reißt das Patent an sich.-$"
 
 BillGarden_House1_Bill_Combate_Text_8:
-	.string "CERULEAN POLICE: MR.BILL, we inform you\n"
-	.string "that we have completely surrounded the\l"
-	.string "shed of your secret garden.\p"
-	.string "That ROCKET has no way out.$"
+	.string "AZURIA-POLIZEI: HERR BILL! Wir haben\n"
+	.string "den Schuppen in ihrem geheimen Garten\l"
+	.string "umzingelt. Dieser ROCKET wird\l"
+	.string "nirgendwo hingehen!$"
 
 BillGarden_House1_Bill_Combate_Text_9:
-	.string "BILL: Perfect. Make sure to take the\n"
-	.string "patent off his hands before you take\l"
-	.string "him away.$"
+	.string "BILL: Perfekt! Stellt sicher, dass ihr\n"
+	.string "ihm das Patent abnehmt, bevor ihr ihn\l"
+	.string "abführt.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-	.string "It's over. Do whatever you want.\p"
-	.string "Your sole option's to go out and\n"
-	.string "submit. Enjoy your last moments\l"
-	.string "with the patent in your hands.$"
+	.string "Tja, das war's dann wohl. Du kannst tun,\n"
+	.string "was du willst, aber letzten Endes bleibt\l"
+	.string "dir nur die Möglichkeit, rauszugehen\l"
+	.string "und dich zu ergeben. Genieße deine\l"
+	.string "letzten Momente mit meinem Patent in\l"
+	.string "deinen Händen.$"
 
 BillGarden_House1_Bill_Combate_move1:
 walk_in_place_up
@@ -161,7 +170,9 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-	.string "It's over. Do whatever you want.\p"
-	.string "Your sole option's to go out and\n"
-	.string "submit. Enjoy your last moments\l"
-	.string "with the patent in your hands.$"
+	.string "Tja, das war's dann wohl. Du kannst tun,\n"
+	.string "was du willst, aber letzten Endes bleibt\l"
+	.string "dir nur die Möglichkeit, rauszugehen\l"
+	.string "und dich zu ergeben.\p"
+	.string "Genieße deine letzten Momente mit\n"
+	.string "meinem Patent in deinen Händen.$"

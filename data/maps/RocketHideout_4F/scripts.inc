@@ -227,11 +227,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1:
-	.string "We're going to unravel the mystery of\n"
-	.string "the Essence POKÉMON once and for all.\l"
-	.string "Once we do, nothing will stop us from\l"
-	.string "turning KANTO and JOHTO into the\l"
-	.string "powerhouses of the POKÉMON world.$"
+	.string "Wir werden ein für alle mal hinter das\n"
+	.string "Geheimnis des ESSENZ-POKéMON kommen.\p"
+	.string "Und sobald uns das gelungen ist, wird\n"
+	.string "uns nichts und niemand mehr aufhalten\l"
+	.string "können, KANTO und JOHTO zu den\l"
+	.string "mächtigsten Regionen der gesamten\l"
+	.string "POKéMON-WELT zu machen.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1 MSGBOX_AUTOCLOSE
@@ -239,12 +241,14 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
-	.string "The JOHTO region is the most historical\n"
-	.string "and traditional place in the known\l"
-	.string "world. There's something… spiritual\l"
-	.string "about it, no doubt. And while we may\l"
-	.string "never fully understand it, we cannot\l"
-	.string "ignore its power.$"
+	.string "JOHTO ist die geschichtsträchtigste\n"
+	.string "und traditionsreichste Region der Welt.\p"
+	.string "Zumindest von den Regionen, die uns\n"
+	.string "bekannt sind. An ihr ist zweifellos\l"
+	.string "etwas {PAUSE 25}…{PAUSE 25} Spirituelles. Und auch wenn es\l"
+	.string "sich uns vielleicht nie vollständig\l"
+	.string "erschließen wird, können wir ihre Macht\l"
+	.string "nicht ignorieren.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1 MSGBOX_AUTOCLOSE
@@ -252,14 +256,17 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1:
-	.string "The POKÉMON LEAGUE has remained\n"
-	.string "unchallenged since the war, but having\l"
-	.string "no opposition has also weakened them.\l"
-	.string "LANCE relies on his POKÉMON's superior\l"
-	.string "BASE STATs, but you defeated the\l"
-	.string "SACRED KANTO BIRDs. You know firsthand\l"
-	.string "that STATs aren't everything in a\l"
-	.string "battle.$"
+	.string "Die POKéMON LIGA wurde seit dem Krieg\n"
+	.string "nicht mehr ernsthaft herausgefordert.\p"
+	.string "Der Mangel an würdigen Gegnern hat sie\n"
+	.string "allerdings geschwächt. SIEGFRIED\l"
+	.string "verlässt sich zu sehr auf die\l"
+	.string "überlegenen Statuswerte seiner\l"
+	.string "POKéMON. Doch du hast zwei der\l"
+	.string "LEGENDÄREN KANTO VÖGEL besiegt.\p"
+	.string "Du weißt also aus erster Hand, dass\n"
+	.string "Statuswerte nicht alles in einem Kampf\l"
+	.string "sind.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1 MSGBOX_AUTOCLOSE
@@ -267,9 +274,10 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1:
-	.string "Go to the POKÉMON MANSION, {PLAYER},\n"
-	.string "and show OAK how a TRAINER in sync with\l"
-	.string "their POKÉMON should battle.$"
+	.string "Gehe zum POKéMON-HAUS, {PLAYER} und\n"
+	.string "zeige EICH, wie ein Trainer kämpft, der\l"
+	.string "wirklich im Einklang mit seinen POKéMON\l"
+	.string "ist!$"
 
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera::
@@ -278,9 +286,7 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
-	.string "That secret entrance might be in\n"
-	.string "LAVENDER TOWN. Maybe some old man\l"
-	.string "could know about it?$"
+	.string "traducir$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -288,11 +294,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1:
-	.string "Speak to the SILPH receptionist. She'll\n"
-	.string "show you to the private library they\l"
-	.string "have in the basement. According to the\l"
-	.string "PRESIDENT, the data on that ESSENCE\l"
-	.string "POKÉMON is in S3, in the last room.$"
+	.string "Sprich mit der Empfangsdame von SILPH.\n"
+	.string "Sie wird dich in die private Bibliothek\l"
+	.string "im Untergeschoss führen. Laut dem\l"
+	.string "Präsidenten befinden sich die\l"
+	.string "Informationen über das\l"
+	.string "ESSENZ-POKéMON in Sektion 3,\l"
+	.string "im letzten Raum.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1 MSGBOX_AUTOCLOSE
@@ -300,12 +308,14 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
-	.string "Relax and enjoy the islands, {PLAYER}.\n"
-	.string "There's a lot to do there, if you know\l"
-	.string "where to look. Maybe if you visit ARCHER\l"
-	.string "at our HQ, he'll show you some of its\l"
-	.string "secrets, knows the SEVII ISLANDS better\l"
-	.string "than anyone.$"
+	.string "Ruhe dich aus und genieße die Inseln,\n"
+	.string "{PLAYER}. Es gibt dort eine Menge zu\l"
+	.string "entdecken, sofern du weißt, wo du\l"
+	.string "suchen musst. Vielleicht weiht dich\l"
+	.string "ATLAS, den du in unserer BASIS auf\l"
+	.string "EILAND FÜNF findest, in einige\l"
+	.string "Geheimnisse ein. Er kennt die SEVII\l"
+	.string "EILANDE besser als jeder andere.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1 MSGBOX_AUTOCLOSE
@@ -313,14 +323,18 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
-	.string "You can tackle the gyms in any order\n"
-	.string "you like, but I recommend following the\l"
-	.string "traditional route. By the way, CINNABAR\l"
-	.string "GYM is closed right now, so you'll have\l"
-	.string "to wait for that coward BLAINE to reopen\l"
-	.string "it. And remember, once you've earned the\l"
-	.string "first seven BADGES, you still have our\l"
-	.string "GYM in VIRIDIAN CITY to conquer.$"
+	.string "{PLAYER}, du kannst die Arenen in\n"
+	.string "beliebiger Reihenfolge herausfordern,\l"
+	.string "aber ich empfehle nach der\l"
+	.string "traditionellen Reihenfolge vorzugehen.\p"
+	.string "Übrigens. Die ARENA auf der\n"
+	.string "ZINNOBERINSEL ist derzeit\l"
+	.string "geschlossen. Du wirst also warten\l"
+	.string "müssen, bis dieser Feigling PYRO sie\l"
+	.string "wieder eröffnet. Und vergiss nicht:\p"
+	.string "Wenn du die ersten sieben Orden\n"
+	.string "gesammelt hast, wartet immer noch\l"
+	.string "unsere Arena in VERTANIA CITY auf dich.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -328,12 +342,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1:
-	.string "I have the utmost faith in you,\n"
-	.string "{PLAYER}. SILPH's security is known to\l"
-	.string "be tight, but they've never faced\l"
-	.string "TRAINERS like you, or ANDRA before.\p"
-	.string "Go to SILPH and show them how a\n"
-	.string "real ROCKET fights!$"
+	.string "Ich habe großes Vertrauen in dich,\n"
+	.string "{PLAYER}! SILPHs\l"
+	.string "Sicherheitsvorkehrungen sind zwar sehr\l"
+	.string "streng, aber sie hatten noch nie mit\l"
+	.string "Trainern wie dir oder ANDRA zu tun.\p"
+	.string "Geh zu SILPH und zeig ihnen, wie ein\n"
+	.string "wahrer ROCKET kämpft!$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1 MSGBOX_AUTOCLOSE
@@ -341,16 +356,19 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1:
-	.string "We have located ARTICUNO at the\n"
-	.string "Seafoam Islands. To get there, you'll\l"
-	.string "first need to head to LAVENDER TOWN\l"
-	.string "and then south, through through Routes\l"
-	.string "12, 13, 14, and 15, and then across the\l"
-	.string "sea by FUCHSIA CITY. Don't get too\l"
-	.string "confident, {PLAYER}. My advice is using\l"
-	.string "the road to FUCHSIA as training.\p"
-	.string "It takes more than just battle\n"
-	.string "skills to defeat a SACRED BIRD.$"
+	.string "Wir haben ARKTOS auf den\n"
+	.string "SEESCHAUMINSELN lokalisiert. Um\l"
+	.string "dorthin zu gelangen, musst du zuerst\l"
+	.string "nach LAVANDIA und dann gen Süden\l"
+	.string "gehen - sprich über die ROUTEN 12, 13,\l"
+	.string "14 und 15. Schließlich musst du dann\l"
+	.string "noch über das Meer südlich FUCHSANIA\l"
+	.string "CITY surfen. Falle nicht dem Hochmut\l"
+	.string "anheim, {PLAYER}! Ich an deiner Stelle\l"
+	.string "würde den langen Weg zu ARKTOS zum\l"
+	.string "Trainieren nutzen. Es braucht mehr als\l"
+	.string "bloße Kampffähigkeiten, um einen\l"
+	.string "legendären Vogel zu bezwingen!$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1 MSGBOX_AUTOCLOSE

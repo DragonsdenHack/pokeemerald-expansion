@@ -23,18 +23,21 @@ release
 end
 
 SsAnne_1F_Andra_Ida_Text_1:
-	.string "ANDRA: It sure was easier to waltz\n"
-	.string "on in than it looked, eh?$"
+	.string "Es war doch einfacher als gedacht,\n"
+	.string "hier reinzuspazieren, was?$"
 
 SsAnne_1F_Andra_Ida_Text_2:
-	.string "Most of this luxury cruise's passengers\n"
-	.string "are foreigners. It'll be easier to blend\l"
-	.string "in and hop into the CAPTAIN's cabin\l"
-	.string "without getting side-eyed. Once we get\l"
-	.string "in, we'll track the jar and sneak it off.$"
+	.string "Die meisten Passagiere auf diesem\n"
+	.string "Luxus-Kreuzer sind Ausländer. Das\l"
+	.string "macht es leichter, unauffällig zu\l"
+	.string "bleiben und in die Kammer des KAPITÄNs\l"
+	.string "zu schleichen, ohne Aufsehen zu\l"
+	.string "erregen. Sobald wir drin sind, finden wir\l"
+	.string "die Phiole und verschwinden wieder von\l"
+	.string "hier.$"
 
 SsAnne_1F_Andra_Ida_Text_3:
-.string "Let's go.$"
+.string "Legen wir los!$"
 
 SsAnne_1F_Andra_Ida_move_1:
 walk_in_place_down
@@ -88,25 +91,29 @@ release
 end
 
 SsAnne_1F_Andra_Vuelta_Text_1:
-	.string "ANDRA: We did it, {PLAYER}! That\n"
-	.string "CAPTAIN was sturdy, eh? Never seen\l"
-	.string "POKÉMON like those. Probably from\l"
-	.string "abroad. Anyway, we're got that relic…$"
+	.string "ANDRA: Wir haben es geschafft,\n"
+	.string "{PLAYER}! Der KAPITÄN war eine harte\l"
+	.string "Nuss, nicht wahr? Ich habe noch nie\l"
+	.string "solche POKéMON gesehen? Sie stammen\l"
+	.string "wahrscheinlich aus anderen Regionen.\l"
+	.string "Egal. Wir haben die Phiole {PAUSE 5}…{PAUSE 5}$"
 
 SsAnne_1F_Andra_Vuelta_Text_2:
-	.string "S. S. ANNE: Notice to the passengers.\n"
-	.string "The party is now over. Please return to\l"
-	.string "your cabins to allow the crew to\l"
-	.string "commence cleanup.$"
+	.string "M.S. ANNE: Achtung, liebe Gäste. Die\n"
+	.string "Feier ist nun vorbei. Kehren Sie bitte in\l"
+	.string "Ihre Kabinen zurück, damit das Personal\l"
+	.string "mit den Aufräumarbeiten beginnen kann.$"
 
 SsAnne_1F_Andra_Vuelta_Text_3:
-	.string "ANDRA: Guess that's our cue too. By the\n"
-	.string "by, I found a bunch of this here on the\l"
-	.string "CAPTAIN's table. I'd bet it'll be a good\l"
-	.string "help for you too.$"
+	.string "ANDRA: Tja, das ist dann wohl unser\n"
+	.string "Stichwort. Übrigens {PAUSE 15}…{PAUSE 15} habe eine Menge\l"
+	.string "hiervon auf dem Tisch des KAPITÄNs\l"
+	.string "gefunden. Ich wette, du kannst auch\l"
+	.string "eins gebrauchen.$"
 
 SsAnne_1F_Andra_Vuelta_Text_4:
-	.string "Catch you in the barracks, {PLAYER}.$"
+	.string "Wir sehen uns in der Kaserne,\n"
+	.string "{PLAYER}.$"
 
 SsAnne_1F_Andra_Vuelta_move_1:
 walk_up
@@ -147,7 +154,7 @@ release
 end
 
 SsAnne_1F_Acabado_Text_1:
-.string "-I have nothing else to do here.-$"
+.string "-Ich habe hier nichts mehr zu tun.-$"
 
 
 SsAnne_1F_Acabado_move_1:

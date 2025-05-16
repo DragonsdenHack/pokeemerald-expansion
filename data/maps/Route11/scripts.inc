@@ -9,10 +9,11 @@ release
 end
 
 Route11_Text_1:
-	.string "ROUTE 11 and DIGLETT CAVE are closed\n"
-	.string "for repairs. Get out of here, ROCKET,\l"
-	.string "before you give us the perfect excuse\l"
-	.string "to arrest you.$"
+	.string "ROUTE 11 und die DIGDA-HÖHLE sind\n"
+	.string "wegen Reparaturarbeiten gesperrt.\p"
+	.string "Verschwinde, ROCKET, bevor du uns\n"
+	.string "noch einen Vorwand lieferst, dich\l"
+	.string "festzunehmen!$"
 
 
 
@@ -24,11 +25,11 @@ release
 end
 
 Route11_Text_2:
-.string "The way that leads to ROUTE 11 and\n"
-	.string "DIGLETT'S CAVE is blocked due to repair\l"
-	.string "works. Turn back, ROCKET, turn back\l"
-	.string "before we find the perfect excuse for\l"
-	.string "detaining you.$"
+	.string "ROUTE 11 und die DIGDA-HÖHLE sind\n"
+	.string "wegen Reparaturarbeiten gesperrt.\p"
+	.string "Verschwinde, ROCKET, bevor du uns\n"
+	.string "noch einen Vorwand lieferst, dich\l"
+	.string "festzunehmen!$"
 
 
 
@@ -40,11 +41,11 @@ release
 end
 
 Route11_Text_3:
-	.string "Heads up, ROCKET, the ways to ROUTE 11\n"
-	.string "and DIGLETT CAVE are closed for some\l"
-	.string "repair work. You better turn around\l"
-	.string "before we've got a reason to detain\l"
-	.string "you.$"
+	.string "ROUTE 11 und die DIGDA-HÖHLE sind\n"
+	.string "wegen Reparaturarbeiten gesperrt.\p"
+	.string "Verschwinde, ROCKET, bevor du uns\n"
+	.string "noch einen Vorwand lieferst, dich\l"
+	.string "festzunehmen!$"
 
 
 Route11_4::
@@ -179,11 +180,14 @@ end
 
 
 Route11_Policias_Text:
-	.string "Do you think we're idiots? Did you really\n"
-	.string "think we wouldn't catch you trying to\l"
-	.string "sneak by using SURF?\p"
-	.string "Turn around unless you want me\n"
-	.string "to call LANCE himself!$"
+	.string "Hältst du uns für dämlich? Dachtest du\n"
+	.string "wirklich, wir würden es nicht merken,\l"
+	.string "wenn sich jemand mit SURFER an uns\l"
+	.string "vorbei schleichen will? Dachtest du, du\l"
+	.string "wärst auf diese Weise unsichtbar, oder\l"
+	.string "was?\p"
+	.string "Dreh um, außer du willst, dass ich\n"
+	.string "SIEGFRIED höchstpersönlich verständige!$"
 
 Route11_Policias_move1:
 face_down
@@ -210,5 +214,6 @@ release
 end
 
 Route11_Frontera_Tunel_Texto_1:
-	.string "-No missions this way.\n"
-	.string "I'd better not waste time.-$"
+	.string "-Hier führen mich aktuell keine\n"
+	.string "Missionen hin. Ich sollte besser\l"
+	.string "keine weitere Zeit verlieren.-$"

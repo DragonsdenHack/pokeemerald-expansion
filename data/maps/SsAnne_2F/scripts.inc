@@ -9,10 +9,10 @@ release
 end
 
 SsAnne2F_Text_1:
-	.string "It's pretty uncommon to see people with\n"
-	.string "those clothes around here. Is it a\l"
-	.string "custom of any town in this region at\l"
-	.string "all?$"
+	.string "Es kommt nicht häufig vor, dass einem\n"
+	.string "hier Leute in solcher Kleidung\l"
+	.string "begegnen. Ist das ein Modetrend aus\l"
+	.string "irgendeiner Stadt dieser Region?$"
 
 
 
@@ -24,8 +24,8 @@ release
 end
 
 SsAnne2F_Text_2:
-.string "SS. ANNE luxury party is unmatched\n"
-.string "across all regions.$"
+.string "Die Luxuspartys der M.S. ANNE\n"
+.string "suchen ihresgleichen.$"
 
 SsAnne2F_Puerta_Cerrada::
 lock
@@ -46,4 +46,4 @@ walk_up
 step_end
 
 SsAnne2F_Puerta_Cerrada_Texto_1:
-	.string "-This door is closed.-$"
+	.string "-Diese Tür ist verschlossen.-$"

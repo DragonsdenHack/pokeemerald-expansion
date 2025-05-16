@@ -27,8 +27,7 @@ release
 end
 
 Route10_PokemonCenter_Text_2:
-    .string "A NUGGET is totally useless.\n"
-    .string "So I sold it for ¥5000.$"
+    .string "traducir$"
 
 
 
@@ -40,10 +39,7 @@ release
 end
 
 Route10_PokemonCenter_Text_3:
-    .string "The types of POKÉMON match up\n"
-    .string "differently with each other.\p"
-    .string "Every type is stronger than some\n"
-    .string "types and weaker than others.$"
+    .string "traducir$"
 
 
 
@@ -60,8 +56,7 @@ release
 end
 
 Route10_PokemonCenter_Text_5:
-    .string "I heard that ghosts haunt\n"
-    .string "LAVENDER TOWN.$"
+    .string "traducir$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak::
 lock
@@ -105,45 +100,49 @@ release
 end
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
-.string "Stay away from me, dirty ROCKET.\p"
-.string "I'm a direct assistant of PROF. OAK\n"
-.string "and part of the elite of this\l"
-.string "region, someone of your level can't\l"
-.string "even make eye contact with me.$"
+	.string "Halt dich von mir fern, du\n"
+	.string "Drecks-ROCKET! Ich bin ein Assistent\l"
+	.string "von PROFESSOR EICH höchstpersönlich\l"
+	.string "und gehöre damit der Elite dieser\l"
+	.string "Region an! Jemand wie du verdient es\l"
+	.string "nicht einmal, dieselbe Luft wie ich zu\l"
+	.string "atmen!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_3:
-.string "Do you want to see how I make you\n"
-.string "leave by force?$"
+	.string "Willst du wirklich erleben, wie ich\n"
+	.string "dich eigenhändig hier rauswerfe?$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_4:
-.string "You have no idea who you're\n"
-.string "messing with, ROCKET, when OAK\l"
-.string "knows about this, you won't\l"
-.string "see the sunlight again.$"
+	.string "Du hast keine Ahnung, mit wem du dich\n"
+	.string "hier anlegst, ROCKET! Sobald PROFESSOR\l"
+	.string "EICH davon erfährt, wirst du nie wieder\l"
+	.string "das Tageslicht erblicken!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_5:
-.string "It will be quick, faster than lighting.$"
+	.string "Das wird ein Klacks. Ich mache dich\n"
+	.string "fertig, bevor du Team Rocket\l"
+	.string "buchstabieren kannst!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_6:
-.string "This doesn't make any sense!$"
+.string "Das darf doch nicht wahr sein!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
-.string "-{PLAYER} stole an EVERSTONE\n"
-.string "from OAK'S AIDE!-$"
+.string "-{PLAYER} stiehlt einen EWIGSTEIN\n"
+.string "von EICHs ASSISTENTEN!-$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
-	.string "NO! A ROCKET cannot be that strong!\p"
-    .string "When I tell the authorities about this\n"
-    .string "you'll return what you stole from me\l"
-    .string "multiplied by 10!$"
+	.string "NEIN! Ein ROCKET kann nicht so stark\n"
+	.string "sein! Wenn ich das den Behörden melde,\l"
+	.string "wirst du mir das Gestohlene zehnfach\l"
+	.string "zurückzahlen!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_9:
-.string "That's it, just the way I like it.\p"
-.string "Trash to the garbage can.$"
+	.string "Genau so gehört sich das. Dreck\n"
+	.string "wie du gehört in den Müll!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

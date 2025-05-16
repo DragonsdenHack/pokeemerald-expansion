@@ -9,9 +9,10 @@ release
 end
 
 Route11Path2F_Text_1:
-	.string "What? A POKÉMON trade with you?\p"
-    .string "I wouldn't negotiate with a ROCKET\n"
-    .string "even if you offer me a ZAPDOS!$"
+	.string "Was? Mit dir POKéMON tauschen? Ich\n"
+	.string "würde nicht einmal mit einem ROCKET wir\l"
+	.string "dir tauschen, selbst wenn du mir ein\l"
+	.string "ZAPDOS anbietest!$"
 
 
 
@@ -85,49 +86,52 @@ release
 end
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_1:
-    .string "The social scourge like you is a\n"
-    .string "disgrace to this region, get out of here\l"
-    .string "before your presence contaminates my\l"
-    .string "status.$"
+	.string "Du bist eine Schande für diese Region,\n"
+	.string "eine Seuche! Verzieh dich, bevor du\l"
+	.string "meine Berufung mit deiner Anwesenheit\l"
+	.string "befleckst!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_3:
-	.string "Do you want to lose the small amount of\n"
-    .string "freedom that remains in your miserable\l"
-    .string "existence?$"
+	.string "Möchtest du das kleine bisschen\n"
+	.string "Freiheit verlieren, die dir in deinem\l"
+	.string "armseligen Leben noch bleibt?$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_4:
-	.string "Just wait, ROCKET, I'll suggest a set of\n"
-    .string "actions to the POKÉMON LEAGUE\l"
-    .string "COMMITTEE to finish squashing you, like\l"
-    .string "bugs you and your organization are,\l"
-    .string "this time you won't escape.$"
-
+	.string "Warte nur ab, ROCKET! Ich werde der\n"
+	.string "LIGA-LEITUNG eine Reihe von Maßnahmen\l"
+	.string "vorschlagen, mit denen sie euch wie\l"
+	.string "Insekten, die du und deine Organisation\l"
+	.string "seid, endgültig ausrotten könnt!\p"
+	.string "Und dieses Mal wird es für euch\n"
+	.string "kein Entkommen geben!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_5:
-	.string "As you wish, it was your choice.$"
+	.string "Wie du willst. Du wolltest es so.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_6:
-	.string "It must be a mistake! ROCKETS doesn't\n"
-    .string "have more than a RATTATA or ZUBAT!$"
+	.string "Das ist unmöglich! ROCKETs besitzen\n"
+	.string "doch nur RATTFRATZ und ZUBAT!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_7:
-	.string "{PLAYER} stole an ITEMFINDER from\n"
-    .string "OAK's AIDE.$"
+	.string "-{PLAYER} stiehlt einen ITEMRADAR\n"
+	.string "von EICHs ASSISTENTEN-$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_8:
-	.string "Just wait, ROCKET, I'll suggest a set of\n"
-    .string "actions to the POKÉMON LEAGUE\l"
-    .string "COMMITTEE to finish squashing you, like\l"
-    .string "bugs you and your organization are,\l"
-    .string "this time you won't escape.$"
+	.string "Warte nur ab, ROCKET! Ich werde der\n"
+	.string "LIGA-LEITUNG eine Reihe von Maßnahmen\l"
+	.string "vorschlagen, mit denen sie euch wie\l"
+	.string "Insekten, die du und deine Organisation\l"
+	.string "seid, endgültig ausrotten könnt!\p"
+	.string "Und dieses Mal wird es für euch\n"
+	.string "kein Entkommen geben!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_9:
-	.string "It appears you're still rational, at\n"
-    .string "least.$"
+	.string "Anscheinend hast du doch noch\n"
+	.string "eine Gehirnzelle übrig.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark
