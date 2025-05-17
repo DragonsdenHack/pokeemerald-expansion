@@ -14,13 +14,9 @@ release
 end
 
 CeladonCity_Shop4F_Text_2:
-.string "I heard something useful.\p"
-    .string "If a wild POKÉMON appears, you can\n"
-    .string "distract it with a POKé DOLL.\p"
-    .string "You can run away while the wild\n"
-    .string "POKÉMON is distracted.$"
-
-
+	.string "Ich habe einen Tipp bekommen! Du\n"
+	.string "kannst vor wilden POKéMON fliehen, wenn\l"
+	.string "du sie mit einer POKéPUPPE ablenkst!$"
 
 CeladonShop4F_3::
 lock     
@@ -30,10 +26,9 @@ release
 end
 
 CeladonCity_Shop4F_Text_3:
-.string "I'm getting a present for my\n"
-    .string "girlfriend.\p"
-    .string "I guess a POKé DOLL will be it.\n"
-    .string "It's the popular thing.$"
+	.string "Ich kaufe ein Geschenk für meine\n"
+	.string "Freundin. Sie freut sich bestimmt\l"
+	.string "über eine POKéPUPPE!$"
 
 
 
@@ -42,7 +37,7 @@ msgbox CeladonShop4FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop4FDocumento_Text_100:
-.string "Express yourself with gifts!\n"
-    .string "4F: WISE MAN GIFTS\p"
-    .string "Evolution Special!\n"
-    .string "Element STONES on sale now!$"
+	.string "Bereite anderen mit Geschenken eine\n"
+	.string "Freude! S3: GESCHENKARTIKEL\l"
+	.string "SONDERANGEBOTE!\p"
+	.string "Sonderpreise für ELEMENT-STEINE!$"

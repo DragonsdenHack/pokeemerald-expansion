@@ -24,10 +24,11 @@ release
 end
 
 CeladonMansion_Text_4:
-	.string "You should be ashamed of your actions,\n"
-	.string "young one! The problems of a region can\l"
-	.string "be solved by cooperating, not by\l"
-	.string "declaring a war by yourself!$"
+	.string "Du solltest dich schämen, junger Mann!\p"
+	.string "Die Probleme einer Region löst man\n"
+	.string "nicht, indem man eigenmächtig einen\l"
+	.string "Krieg anzettelt, sondern durch\l"
+	.string "Zusammenarbeit!$"
 
 
 

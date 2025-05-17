@@ -4058,134 +4058,159 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
 .string "GIOVANNI: Und?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
-.string "And{PAUSE 15}…{PAUSE 25} And what, exactly? {PAUSE 25}…{PAUSE 25} Sir{PAUSE 15}…{PAUSE 25}$"
+	.string "Und {PAUSE 15}…{PAUSE 15} und was genau, Sir?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
-.string "GIOVANNI: I thought I was clear enough\n"
-	.string "when I told you what to do in the\l"
-	.string "POKÉMON TOWER. You didn't just get\l"
-	.string "CUBONE's skulls and make some noise.\p"
-	.string "You went further, why?$"
+	.string "GIOVANNI: Ich dachte, ich hatte mich\n"
+	.string "deutlich ausgedrückt, als ich euch eure\l"
+	.string "Aufgaben für die Mission beim\l"
+	.string "POKéMON-TURM mitgeteilt habe.\p"
+	.string "Statt wie angeordnet nur Schädel von\n"
+	.string "TRAGOSSO zu beschaffen und etwas Lärm\l"
+	.string "zu machen, seid ihr weiter gegangen.\p"
+	.string "Warum?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4:
-.string "GRUNTs: It was an accident, SIR! We just\n"
-	.string "wanted not to be bored, but the mother\l"
-	.string "of CUBONE took it really seriously and…\p"
-	.string "We couldn't manage it properly.$"
+	.string "RÜPEL: Es war nur nen Versehen, Sir. Uns\n"
+	.string "war langweilig, aber die Mutter von\l"
+	.string "einem der TRAGOSSO hat das Ganze 'nen\l"
+	.string "bisschen zu Ernst genommen und {PAUSE 25}…{PAUSE 25} wir\l"
+	.string "naja konnten sie nicht in Schach\l"
+	.string "halten.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5:
-.string "GIOVANNI: Do you realize that you have\n"
-	.string "just shown a really poor image not only\l"
-	.string "to FUJI, with whom we were negotiating,\l"
-	.string "but to the entire population of KANTO?!\p"
-	.string "If LANCE's government's discrediting\n"
-	.string "campaigns weren't enough, now\l"
-	.string "everybody knows what TEAM ROCKET\l"
-	.string "has done in LAVENDER TOWN!!$"
+	.string "GIOVANNI: Habt ihr Idioten auch nur\n"
+	.string "den Hauch einer Ahnung, was für einen\l"
+	.string "Schaden ihr mit eurer Aktion\l"
+	.string "angerichtet habt?! Seid ihr euch\l"
+	.string "bewusst, dass ihr nicht nur FUJI, mit\l"
+	.string "dem wir in Verhandlungen standen,\l"
+	.string "sondern auch der gesamten Bevölkerung\l"
+	.string "von KANTO einen sehr schlechten\l"
+	.string "Eindruck von uns vermittelt habt?! Als\l"
+	.string "wären die Hetzkampagnen der Regierung\l"
+	.string "unter SIEGFRIEDs Führung noch nicht\l"
+	.string "genug gewesen, weiß jetzt auch noch\l"
+	.string "jeder in Kanto, was TEAM ROCKET in\l"
+	.string "LAVANDIA getan hat!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_6:
-.string "Your lack of common sense and ethics\n"
-	.string "deserves the maximum penalty!!$"
+	.string "Euer Mangel an gesundem\n"
+	.string "Menschenverstand und Moral verdient\l"
+	.string "die Höchststrafe!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7:
-.string "Believe me when I say that, if I punished\n"
-	.string "you proportionally of your mistakes, my\l"
-	.string "NIDOKING would get to 0 PP in his whole\l"
-	.string "offensive repertory.$"
+	.string "Glaubt mir, wenn ich euch sage, dass,\n"
+	.string "wenn ich euch euren Fehlern\l"
+	.string "entsprechend bestrafen würde, die APs\l"
+	.string "sämtlicher Attacken meines NIDOKING\l"
+	.string "am Ende bei Null wären!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
-.string "GRUNTs: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
+.string "RÜPEL: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
-.string "GIOVANNI: Nevertheless{PAUSE 15}…{PAUSE 15}$"
+.string "GIOVANNI: Nichtsdestotrotz {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
-.string "We are no assassins, although your\n"
-	.string "recent actions make it seem opposite.\p"
-	.string "I'm offering you an opportunity of\n"
-	.string "redemption.$"
+	.string "Wir sind keine Mörder, auch wenn eure\n"
+	.string "jüngsten Taten etwas Anderes vermuten\l"
+	.string "lassen. Ich biete euch die Möglichkeit,\l"
+	.string "euch zu rehabilitieren.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
-.string "In compensation for the damage that\n"
-	.string "you've caused, you'll be donating 70% of\l"
-	.string "your wages to LAVENDER's charity.\l"
-	.string "Meanwhile, TEAM ROCKET will be paying\l"
-	.string "for your basic needs{PAUSE 15}…{PAUSE 15} as long as you\l"
-	.string "fulfill your part of the agreement.$"
+	.string "Als Wiedergutmachung für den Schaden,\n"
+	.string "den ihr angerichtet habt, werdet ihr 70\l"
+	.string "% eures Gehaltes an die\l"
+	.string "Wohltätigkeitsorganisation in\l"
+	.string "LAVANDIA spenden. Währenddessen wird\l"
+	.string "TEAM ROCKET für eure Grundbedürfnisse\l"
+	.string "aufkommen - solange ihr euch an euren\l"
+	.string "Teil der Abmachung hält, versteht sich.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
-.string "GRUNT: S{PAUSE 15}-{PAUSE 15}SIR{PAUSE 15}…{PAUSE 15} Thanks for this second\n"
-	.string "chance! I swear you won't regret about\l"
-	.string "not using your NIDOK…$"
+	.string "RÜPEL: V{PAUSE 25}-{PAUSE 25}vielen Dank für die zweite\n"
+	.string "Chance, S{PAUSE 25}-{PAUSE 25}Sir. Wir schwören, dass Sie es\l"
+	.string "nicht bereuen werden Ihr NIDO{PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
-.string "GIOVANNI: That's not all.$"
+	.string "GIOVANNI: Ich bin noch nicht fertig.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14:
-.string "GRUNT: {PAUSE 25}…{PAUSE 25}$"
+.string "RÜPEL: {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
-    .string "GIOVANNI: Listen. A large underground\n"
-	.string "GRAVEYARD is going to be built in south\l"
-	.string "LAVENDER TOWN. FUJI will need help, and\l"
-	.string "you'll be there for anything that he may\l"
-	.string "require. In addition to your usual\l"
-	.string "ROCKET function, your free time will\l"
-	.string "go to that cause. Any inconvenience?$"
+	.string "GIOVANNI: Südlich von LAVANDIA ist die\n"
+	.string "Errichtung eines großen unterirdischen\l"
+	.string "FRIEDHOFs geplant. FUJI wird jede Hilfe\l"
+	.string "brauchen, die er kriegen kann und\l"
+	.string "besagte Hilfe werdet ihr ihm anbieten.\p"
+	.string "Ihr werdet alles tun, was er verlangt!\p"
+	.string "Neben euren Pflichten bei TEAM ROCKET,\n"
+	.string "werdet ihr diesem Projekt eure Freizeit\l"
+	.string "widmen.\p"
+	.string "Irgendwelche Einwände?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:
-.string "GRUNTs: No, SIR, no!$"
+.string "RÜPEL: Sir, nein, Sir!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_17:
-.string "GIOVANNI: Here is your chance: one year\n"
-	.string "of economic and recreational\l"
-	.string "deprivation, in exchange for cleansing\l"
-	.string "your stain. I warn you in advance, at\l"
-	.string "the slightest mistake, you will be\l"
-	.string "exiled forever.$"
+	.string "GIOVANNI: Das ist eure Chance. Ein Jahr\n"
+	.string "voller finanzieller und freizeitlicher\l"
+	.string "Einschränkungen, als Preis für die\l"
+	.string "Wiedergutmachung eurer Schandtaten.\l"
+	.string "Ich warne euch im Voraus.\p"
+	.string "Beim geringsten Fehltritt werdet ihr\n"
+	.string "für immer von Team Rocket verbannt {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18:
-.string "But if you keep yourselves stoic, at\n"
-	.string "the end of the year you will earn not\l"
-	.string "only forgiveness, but also you will be\l"
-	.string "promoted to HIGH-RANK, due to you\l"
-	.string "having shown strength, constancy and,\l"
-	.string "specially, the ability of learning from\l"
-	.string "your mistakes.$"
+	.string "Wenn ihr euch jedoch als standhaft\n"
+	.string "erweist, wird euch nicht nur vergeben,\l"
+	.string "sondern ihr werdet auch zu\l"
+	.string "HOCHRANGIGEN RÜPELN befördert, da ihr\l"
+	.string "Stärke, Ausdauer und vor allem die viel\l"
+	.string "zu selten vorhandene Fähigkeit\l"
+	.string "bewiesen habt, aus euren Fehlern\l"
+	.string "lernen zu können.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
-.string "Now, get out of my sight!\p"
-	.string "Your - DAY ONE - starts now!$"
+	.string "Und nun macht, dass ihr mir aus den\n"
+	.string "Augen kommt.\p"
+	.string "Der ERSTE TAG eurer Sühne\n"
+	.string "beginnt jetzt!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20:
-.string "GRUNTs: SIR, yes, SIR!$"
+.string "RÜPEL: Sir, ja, Sir!$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21:
-.string "GIOVANNI: Damn unconscious, now,\n"
-	.string "everyone in KANTO will confuse\l"
-	.string "malice with ignorance…$"
+	.string "GIOVANNI: Diese verdammte\n"
+	.string "Unachtsamkeit! Jetzt wird jeder in ganz\l"
+	.string "KANTO Boshaftigkeit mit Unwissenheit\l"
+	.string "verwechseln {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22:
-	.string "PROTON: That's why DEEP BASE is only\n"
-	.string "reserved for a few.$"
+	.string "LANCE: Genau das ist der Grund, warum\n"
+	.string "die UNTERIRDISCHE BASIS nur wenigen\l"
+	.string "zugänglich ist.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23:
-.string "But…$"
+.string "LANCE: {PAUSE 15}Aber {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_24:
-.string "GIOVANNI: What's the matter, PROTON?$"
+	.string "GIOVANNI: Was beschäftigt dich, LANCE?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_25:
-.string "PROTON: There is something I didn't\n"
-	.string "understand: a large underground\l"
-	.string "GRAVEYARD in LAVENDER TOWN? I thought\l"
-	.string "POKÉMON TOWER was more than enough to\l"
-	.string "host all the graves.$"
+	.string "LANCE: Eine Sache erschließt sich mir\n"
+	.string "nicht. Warum wird ein großer\l"
+	.string "unterirdischer FRIEDHOF in LAVANDIA\l"
+	.string "gebaut? Ist der POKéMON-TURM nicht\l"
+	.string "groß genug, um alle Gräber zu\l"
+	.string "beherbergen?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26:
-.string "GIOVANNI: It is yet too soon to talk\n"
-	.string "about that, PROTON, too soon.\p"
-	.string "That time will arrive.$"
+	.string "GIOVANNI: Es ist noch zu früh, um das\n"
+	.string "zu besprechen, LANCE. Viel zu früh. Aber\l"
+	.string "der Zeitpunkt wird kommen …$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Move_1:
 walk_in_place_left
@@ -4483,20 +4508,24 @@ release
 end
 
 RocketHideout_4F_Dialogo_Proton_Texto_2:
-	.string "Even though I'm still an EXECUTIVE, I'm\n"
-	.string "GIOVANNI's most trusted one. Meanwhile,\l"
-	.string "PETREL and ARCHER are the only ADMINS,\l"
-	.string "with ARCHER as the HEAD ADMIN, since\l"
-	.string "he's the highest authority in our\l"
-	.string "SEVII ISLANDS branch.$"
+	.string "Obwohl ich immer noch ein OFFIZIER bin,\n"
+	.string "bin ich GIOVANNIs engster Vertrauter.\p"
+	.string "LAMBDA und ATLAS hingegen sind\n"
+	.string "ADMINISTRATOREN, wobei ATLAS\l"
+	.string "CHEF-ADMINISTRATOR ist, da er die\l"
+	.string "Leitung unserer SEVII-Niederlassung\l"
+	.string "innehat.$"
 
 
 RocketHideout_4F_Dialogo_Proton_Texto_1:
-	.string "The organization's hierarchy consists\n"
-	.string "of several levels, starting with GRUNT,\l"
-	.string "then HIGH-RANK GRUNT, followed by\l"
-	.string "EXECUTIVE, ADMINISTRATOR, CHIEF\l"
-	.string "ADMINISTRATOR, and finally, LEADER.$"
+	.string "Die Hierarchie unserer Organisation\n"
+	.string "besteht aus mehreren Stufen.\p"
+	.string "Die unterste Stufe bildet der Rüpel.\n"
+	.string "Über ihm befindet sich der HOCHRANGIGE\l"
+	.string "RÜPEL, dann der OFFIZIER, dann der\l"
+	.string "ADMINISTRATOR, dann der\l"
+	.string "CHEF-ADMINISTRATOR und ganz oben\l"
+	.string "schließlich unser BOSS.$"
 
 
 

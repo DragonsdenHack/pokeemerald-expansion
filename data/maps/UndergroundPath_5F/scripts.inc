@@ -18,11 +18,7 @@ release
 end
 
 UndergroundPath_5F_Policias_Texto_1:
-	.string "We can only go through individually, and\n"
-	.string "when we exit on the other side, there\l"
-	.string "are several BIKERS guarding the\l"
-	.string "entrance. Only a great TRAINER like you\l"
-	.string "can get through the shelters.$"
+	.string "traducir$"
 
 
 UndergroundPath_5F_Activador_Entrada::
@@ -43,8 +39,7 @@ release
 end
 
 UndergroundPath_5F_Entrada_Pasa_Text_YesNo:
-	.string "The entrance to the shelters seems to\n"
-	.string "be here. Want to enter?$"
+	.string "traducir$"
 
 UndergroundPath_5F_Emboscada_Move_1:
 walk_in_place_right
@@ -499,143 +494,152 @@ walk_in_place_up
 step_end
 
 UndergroundPath_5F_Emboscada_Texto_1:
-	.string "The new GAME CORNER PORYGON's a total\n"
-	.string "scam. No one can afford it. And besides,\l"
-	.string "everyone's saying it's total crap!$"
+	.string "Die neuen PORYGON in der SPIELHALLE\n"
+	.string "sind reine Abzocke!\p"
+	.string "Die kann sich doch keiner leisten!\p"
+	.string "Und außerdem sagen sowieso alle,\n"
+	.string "dass es komplett Schrott ist!$"
 
 UndergroundPath_5F_Emboscada_Texto_2:
-	.string "Lookin' a bit different there, ain't ya?\n"
-	.string "Maybe you'll be…?{PAUSE 15}…{PAUSE 15}$"
+	.string "Hab ich doch gesagt! Das Beste, was du\n"
+	.string "tun kannst, ist zu sparen, bis du genug\l"
+	.string "für 'n DRATINI hast.$"
 
 UndergroundPath_5F_Emboscada_Texto_3:
-	.string "Hold up…{PAUSE 15}…{PAUSE 15}$"
+	.string "Warte mal kurz {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_4:
-	.string "A TEAM ROCKET grunt? Whatcha\n"
-	.string "scheming?$"
+	.string "Ein RÜPEL von TEAM ROCKET?\p"
+	.string "Was hast du vor?$"
 
 UndergroundPath_5F_Emboscada_Texto_5:
-	.string "Lookin' a bit different there, ain't ya?\n"
-	.string "Maybe you'll be…? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
+	.string "Irgendwie siehst du anders aus …\n"
+	.string "Vielleicht bist du {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_6:
-	.string "He must be a HIGH RANK! Think of the dosh\n"
-	.string "we'll roll in if we turn him in to LANCE!$"
+	.string "Der ist bestimmt 'n hohes Tier! Denkt mal\n"
+	.string "an die fette Belohnung, wenn wir ihn an\l"
+	.string "SIEGFRIED ausliefern!$"
 
 UndergroundPath_5F_Emboscada_Texto_7:
-	.string "You'd be able to buy that PORYGON, a\n"
-	.string "DRATINI, or heck, a SCYTHER!$"
+	.string "Dann könntest du dir dieses PORYGON\n"
+	.string "kaufen, oder 'n DRATINI oder sogar 'n\l"
+	.string "verdammtes SICHLOR!$"
 
 UndergroundPath_5F_Emboscada_Texto_8:
-	.string "Yeah!$"
+	.string "Ja, Mann!$"
 
 UndergroundPath_5F_Emboscada_Texto_9:
-	.string "Besides{PAUSE 25}…{PAUSE 25} We're doing the region a huge\n"
-	.string "favor.$"
+	.string "Und mal ehrlich {PAUSE 15}…{PAUSE 15} wir tun der Region 'n\l"
+	.string "großen Gefallen.$"
 
 UndergroundPath_5F_Emboscada_Texto_10:
-	.string "Your days of freedom are over.\p"
-	.string "I hope it was worth it!$"
+	.string "Das war's mit deiner Freiheit!\p"
+	.string "Hoffentlich war's das alles wert!$"
 
 UndergroundPath_5F_Emboscada_Texto_11:
-	.string "Are you fighting back?$"
+	.string "Wehrst du dich etwa? Echt jetzt?$"
 
 UndergroundPath_5F_Emboscada_Texto_12:
-	.string "Hugh{PAUSE 15}…{PAUSE 15} So{PAUSE 15}…{PAUSE 15} it seems like you trained\n"
-	.string "your POKÉMON well.$"
+	.string "Tss {PAUSE 15}…{PAUSE 15} Also {PAUSE 15}…{PAUSE 15} Scheint so, als hättest du\n"
+	.string "deine POKéMON ganz okay trainiert …$"
 
 UndergroundPath_5F_Emboscada_Texto_13:
-	.string "I'll keep a couple of them before\n"
-	.string "handing you over to justice.\p"
-	.string "No one will care anyway!$"
+	.string "Ich werd 'n paar von denen an mich\n"
+	.string "nehmen, bevor ich dich ausliefere.\p"
+	.string "Wird sowieso niemanden jucken!$"
 
 UndergroundPath_5F_Emboscada_Texto_14:
-	.string "Give up already!$"
+	.string "Hör auf zu kämpfen und\n"
+	.string "ergib dich endlich!$"
 
 UndergroundPath_5F_Emboscada_Texto_15:
-	.string "Darn you! He must be even an EXECUTIVE!\p"
-	.string "If we haul his bum to the LEAGUE HQ,\n"
-	.string "we'll make it big!$"
+	.string "Mist! Der Typ muss wirklich 'n hohes\n"
+	.string "Tier sein! Wenn wir ihn beim\l"
+	.string "LIGA-HAUPTQUARTIER abliefern,\l"
+	.string "machen wir fett Beute!$"
 
 UndergroundPath_5F_Emboscada_Texto_16:
-	.string "Don't worry. I got this.\n"
-	.string "He's tuckered out.$"
+	.string "Entspann dich. Ich regel das.\p"
+	.string "Der ist komplett am Ende.$"
 
 UndergroundPath_5F_Emboscada_Texto_17:
-	.string "This chump's meager junk'll be a total\n"
-	.string "wash against my collection!$"
+	.string "Die Viecher von dem Loser haben keine\n"
+	.string "Chance gegen meine edle Sammlung!$"
 
 UndergroundPath_5F_Emboscada_Texto_18:
-	.string "Get your luggage; next stop:\n"
-	.string "INDIGO PLATEAU!$"
+	.string "Pack schon mal deine Sachen!\p"
+	.string "Nächster Halt: INDIGO-PLATEAU!$"
 
 UndergroundPath_5F_Emboscada_Texto_19:
-	.string "Who do you think you are?$"
+	.string "Für wen hältst du dich eigentlich?$"
 
 UndergroundPath_5F_Emboscada_Texto_20:
-	.string "Dang…{PAUSE 15}…{PAUSE 15} If I had a DRAGONAIR, you'd\n"
-	.string "have been whooped. If only it weren't\l"
-	.string "such a pain to train{PAUSE 15}…{PAUSE 15}$"
+	.string "Verdammt! Hätte ich 'n DRAGONIR, wärst\n"
+	.string "du längst erledigt! Wenn's bloß nicht so\l"
+	.string "schwer wär, eins zu kriegen {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_21:
-	.string "Grr{PAUSE 15}…{PAUSE 15} You keep your butt there{PAUSE 15}…{PAUSE 15} I'm\n"
-	.string "ringing up a buddy from CELADON\l"
-	.string "MANSION. He'll be here quickly; you\l"
-	.string "won't even have the chance to{PAUSE 15}…{PAUSE 15}$"
+	.string "Grr {PAUSE 15}…{PAUSE 15} Beweg dich ja nicht von der Stelle!\p"
+	.string "Ich ruf 'nen Kumpel aus der\n"
+	.string "PRISMANIA-VILLA. Der ist ganz schnell\l"
+	.string "hier! Du wirst nicht mal 'ne Chance\l"
+	.string "haben, zu {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_22:
-	.string "????: Enough.$"
+	.string "????: Genug!$"
 
 UndergroundPath_5F_Emboscada_Texto_23:
-	.string "Th{PAUSE 15}-{PAUSE 15}the BIKERS!$"
+	.string "D{PAUSE 25}-{PAUSE 25}die BIKER!$"
 
 UndergroundPath_5F_Emboscada_Texto_24:
-	.string "TETSUO: Get the heck outta here before\n"
-	.string "you regret it.$"
+	.string "TETSUO: Verpisst euch von hier, sonst\n"
+	.string "kriegt ihr's mit uns zu tun!$"
 
 UndergroundPath_5F_Emboscada_Texto_25:
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_26:
-	.string "I know what may be going through your\n"
-	.string "head, but please don't blame 'em.$"
+	.string "Ich kann mir denken, was dir durch den\n"
+	.string "Kopf geht, aber nimm's ihnen nicht übel.$"
 
 UndergroundPath_5F_Emboscada_Texto_27:
-	.string "The stench of LANCE's reign still\n"
-	.string "lingers across KANTO.$"
+	.string "Der Gestank von SIEGFRIEDs Regierung\n"
+	.string "zieht immer noch durch ganz KANTO.$"
 
 UndergroundPath_5F_Emboscada_Texto_28:
-	.string "His reign dug deep and tore the region a\n"
-	.string "new one like it were putty. Then LANCE\l"
-	.string "gave it the perfect mold{PAUSE 15}…{PAUSE 15} for him at\l"
-	.string "least.$"
+	.string "Seine Herrschaft hat sich tief in die\n"
+	.string "Region eingegraben und sie neu geformt,\l"
+	.string "als wäre sie aus Ton. Und er hat ihr\l"
+	.string "genau die Form verpasst, die er wollte.$"
 
 UndergroundPath_5F_Emboscada_Texto_29:
-	.string "They're just engines guzzling the only\n"
-	.string "fuel they know. And I kinda get it.$"
+	.string "Sie sind wie Motoren, die nur einen\n"
+	.string "Kraftstoff kennen.\p"
+	.string "Und irgendwie versteh ich das.$"
 
 UndergroundPath_5F_Emboscada_Texto_30:
-	.string "I mean, not everyone's willing to risk\n"
-	.string "catching fire for their creed.$"
+	.string "Ich mein, nicht jeder ist bereit,\n"
+	.string "für seine Überzeugungen in Flammen\n"
+	.string "aufzugehen.$"
 
 UndergroundPath_5F_Emboscada_Texto_31:
-	.string "But{PAUSE 25}…{PAUSE 25} not you, right, {PLAYER}?$"
+	.string "Aber {PAUSE 25}…{PAUSE 25} du gehörst nicht dazu, oder?$"
 
 UndergroundPath_5F_Emboscada_Texto_32:
-	.string "You look like a guy who doesn't flinch in\n"
-	.string "front of an overwhelming force.$"
+	.string "Du wirkst nicht wie jemand, der sich von\n"
+	.string "einer großen Macht einschüchtern\l"
+	.string "lässt.$"
 
 UndergroundPath_5F_Emboscada_Texto_33:
-	.string "But even though LANCE's government\n"
-	.string "had made the good old KANTO go up in\l"
-	.string "smoke{PAUSE 15}…{PAUSE 15}$"
+	.string "Auch wenn SIEGFRIEDs Regierung das\n"
+	.string "gute alte KANTO in Schutt und Asche\l"
+	.string "gelegt hat {PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath_5F_Emboscada_Texto_34:
-	.string "{PAUSE 15}…{PAUSE 15} Being your own owner's a priceless\n"
-	.string "privilege.$"
+	.string "{PAUSE 15}…{PAUSE 15} Freiheit ist unbezahlbar.$"
 
 UndergroundPath_5F_Emboscada_Texto_35:
-	.string "Just getting that chance in itself\n"
-	.string "makes taking a chance worth it.\p"
-	.string "Don't you forget it, {PLAYER}.$"
+	.string "Allein die Chance darauf ist jedes\n"
+	.string "Risiko wert. Vergiss das nie, {PLAYER}.$"
 

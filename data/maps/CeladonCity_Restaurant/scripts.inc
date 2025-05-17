@@ -9,8 +9,8 @@ release
 end
 
 CeladonCity_Restaurant_Text_1:
-	.string "My POKÉMON are weak, so I usually go to\n"
-	.string "the POKÉ MART for medicine.$"
+	.string "Meine POKéMON sind ziemlich schwach.\n"
+	.string "Deshalb gehe ich oft zur DROGERIE.$"
 
 
 
@@ -22,7 +22,9 @@ release
 end
 
 CeladonCity_Restaurant_Text_2:
-	.string "A COIN CASE? Get a life, ROCKET!$"
+	.string "DU WILLST EINEN MÜNZKORB? Fange\n"
+	.string "endlich mal was Nützliches mit deinem\l"
+	.string "Leben an, du DRECKS-ROCKET!$"
 
 
 
@@ -34,8 +36,8 @@ release
 end
 
 CeladonCity_Restaurant_Text_3:
-	.string "The man on that corner lost everything\n"
-	.string "he has in the GAME CORNER.$"
+	.string "Mampf … Der Mann dort drüben am\n"
+	.string "Tisch hat Haus und Hof verzockt.$"
 
 
 
@@ -47,8 +49,8 @@ release
 end
 
 CeladonCity_Restaurant_Text_4:
-	.string "I'm sorry, but we're currently having a\n"
-	.string "break.$"
+	.string "Es tut mir leid, aber wir machen im\n"
+	.string "Moment eine Pause.$"
 
 
 
@@ -60,6 +62,6 @@ release
 end
 
 CeladonCity_Restaurant_Text_5:
-	.string "I get a bad vibe from this GAME CORNER,\n"
-	.string "I am sure you guys have something to do\l"
-	.string "with it.$"
+	.string "Ich habe ein ganz ungutes Gefühl, was\n"
+	.string "die SPIELHALLE angeht. Ich wette, ihr\l"
+	.string "steckt dahinter.$"

@@ -9,8 +9,9 @@ release
 end
 
 CeladonCity_Casino2_Text_1:
-	.string "I want a PORYGON! But getting all those\n"
-	.string "TOKENS will be harsh!$"
+	.string "Ich will unbedingt ein PORYGON haben!\n"
+	.string "Aber all die erforderlichen MÜNZEN zu\l"
+	.string "sammeln, wird die Hölle!$"
 
 
 
@@ -22,8 +23,8 @@ release
 end
 
 CeladonCity_Casino2_Text_2:
-	.string "Hahahaha! Today is my day! Just if\n"
-	.string "every other day were just like today…$"
+	.string "Hahahaha! Heute ist mein Tag! Wenn nur\n"
+	.string "jeder Tag wie heute wäre {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -35,8 +36,9 @@ release
 end
 
 CeladonCity_Casino2_Text_3:
-	.string "Selling TOKENS to ROCKETS is forbidden,\n"
-	.string "GAME CORNER rules.$"
+	.string "MITGLIEDERN VON TEAM ROCKET ist es\n"
+	.string "nicht erlaubt, hier MÜNZEN zu kaufen.\p"
+	.string "So sagen es die Regeln der SPIELHALLE.$"
 
 
 
@@ -48,5 +50,6 @@ release
 end
 
 CeladonCity_Casino2_Text_4:
-	.string "Selling TOKENS to ROCKETS is forbidden,\n"
-	.string "GAME CORNER rules.$"
+	.string "MITGLIEDERN VON TEAM ROCKET ist es\n"
+	.string "nicht erlaubt, hier MÜNZEN zu kaufen.\n"
+	.string "So sagen es die Regeln der SPIELHALLE.$"

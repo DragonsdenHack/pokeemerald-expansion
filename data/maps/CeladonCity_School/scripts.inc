@@ -22,9 +22,9 @@ msgbox CeladonCitySchoolDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonCitySchoolDocumento_Text_101:
-	.string "Life changes through all those days\n"
-	.string "when everything seems to stay the\l"
-	.string "same.$"
+	.string "Das Leben verändert sich an all jenen\n"
+	.string "Tagen, an denen alles gleich zu bleiben\l"
+	.string "scheint.$"
 
 CeladonCity_Karateka::
 lock
@@ -34,10 +34,11 @@ release
 end
 
 CeladonCity_Karateka_Texto_1:
-	.string "I know all about the POKÉMON, also. I\n"
-	.string "know that our BOSS, GIOVANNI, uses\l"
-	.string "RHYHORN as his last POKÉMON.\p"
-	.string "What a wimp!$"
+	.string "Ich weiß alles über POKéMON. Unter\n"
+	.string "anderem auch, dass dein BOSS GIOVANNI\l"
+	.string "ein RIHORN benutzt. Ein RIHORN als sein\l"
+	.string "Ass zu verwenden …\p"
+	.string "Was für ein Schwächling!$"
 
 CeladonCity_Eevee::
 lock
@@ -66,7 +67,8 @@ face_down
 step_end
 
 CeladonCity_Eevee_Texto_1:
-	.string "Really, ROCKET!!! Get your grubby hands\n"
-	.string "off that POKE BALL, a POKÉMON of\l"
-	.string "EEVEE's the size of EEVEE is too big for\l"
-	.string "you thieves of your ilk.$"
+	.string "Ist das dein Ernst, ROCKET?! Nimm deine\n"
+	.string "dreckigen Hände von diesem POKÉBALL\l"
+	.string "weg, bevor ich sie dir breche! Für einen\l"
+	.string "Gauner wie dich ist EVOLI eine Nummer\l"
+	.string "zu groß!$"

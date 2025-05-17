@@ -9,11 +9,11 @@ release
 end
 
 CeladonCity_House1_3F_Text_1:
-.string "Is that right?\p"
-    .string "I'm the game designer!\p"
-    .string "Filling up your POKéDEX is tough,\n"
-    .string "but don't quit!\p"
-    .string "When you finish, come tell me!$"
+.string "Gefällt dir das Spiel?\p"
+    .string "Ich habe das Spiel gestaltet!\p"
+	.string "Auch wenn es sehr mühsam ist, den\n"
+	.string "POKéDEX zu erstellen: Gib nicht auf!\p"
+	.string "Zeige ihn mir, wenn er komplett ist!$"
 
 
 

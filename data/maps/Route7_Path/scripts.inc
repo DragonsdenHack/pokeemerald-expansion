@@ -28,10 +28,11 @@ release
 end
 
 Route7_Path_Frontera_Text:
-.string "What kind of joke is this?\n"
-	.string "Only the elite enters this city.\l"
-	.string "Disappear if you don't want an\l"
-	.string "expedited record!$"
+	.string "Willst du mich verarschen? Nur die Elite\n"
+	.string "der Region dürfen hier weiter!\p"
+	.string "Verschwinde du VERBRECHER! Es sei\n"
+	.string "denn, du willst, dass ich das hier\l"
+	.string "offiziell mache!$"
 
 Route7_Path_Frontera_move1:
 emote_exclamation_mark

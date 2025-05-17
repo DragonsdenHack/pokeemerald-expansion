@@ -37,9 +37,9 @@ release
 end
 
 CeladonCity_Text3:
-.string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+	.string "QUAPPO ist mein bester Freund! Es\n"
+	.string "entwickelte sich, als ich einem\l"
+	.string "QUAPUTZI einen WASSERSTEIN gab.$"
 
 CeladonCity4::
 lock     
@@ -49,8 +49,8 @@ release
 end
 
 CeladonCity_Text4:
-.string "We will destroy all who dares to stand in\n"
-	.string "our way!$"
+	.string "Wir werden alle vernichten, die\n"
+	.string "sich uns in den Weg stellen!$"
 
 
 CeladonCity5::
@@ -61,9 +61,9 @@ release
 end
 
 CeladonCity_Text5:
-.string "Ahem… Wouldn't you have been the funny\n"
-	.string "one who stole a SILPH SCOPE copy\l"
-	.string "from us, right?$"
+	.string "Ähm … Du bist doch derjenige, der\n"
+	.string "eine Kopie der SILPH SCOPE von uns\l"
+	.string "gestohlen hat, nicht wahr?$"
 
 
 CeladonCity6::
@@ -78,8 +78,8 @@ release
 end
 
 CeladonCity_Text7:
-.string "What 's up, comrade?\n"
-.string "A lot of hustle from those missions?$"
+.string "Was geht, Alter?\n"
+.string "War bei den Missionen viel los?$"
 
 
 CeladonCity8::
@@ -90,10 +90,11 @@ release
 end
 
 CeladonCity_Text8:
-.string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+.string "Mist!\n"
+    .string "Ich habe alles verspielt!\p"
+	.string "Hätte ich doch meine MÜNZEN\n"
+	.string "rechtzeitig gegen einen Preis\l"
+	.string "eingetauscht!$"
 
 
 CeladonCity9::
@@ -108,12 +109,11 @@ release
 end
 
 CeladonCity_Text10:
-.string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+	.string "Argh, oh … Ich habe meine Zunge\n"
+	.string "verbrüht! Die nette, alter Dame in der\l"
+	.string "VILLA gab mir TEE. Aber er war kochend\l"
+	.string "heiß! Ich muss ihn erst abkühlen, ehe\l"
+	.string "ich ihn trinke!$"
 
 
 CeladonCity11::
@@ -127,8 +127,7 @@ release
 end
 
 CeladonCity12_Texto_1:
-.string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+	.string "Hehe! Diese ARENA ist voller Frauen …$"
 
 
 CeladonCity13::
@@ -139,9 +138,9 @@ release
 end
 
 CeladonCity_Text13:
-.string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+	.string "Ich habe SMOGON auf der ZINNOBERINSEL\n"
+	.string "gefangen! Es ist nett, doch wenn man es\l"
+	.string "ärgert, atmet es Gift aus!$"
 
 
 CeladonCity14::
@@ -152,9 +151,9 @@ release
 end
 
 CeladonCity_Text14:
-.string "Nobody wants you here, ROCKET.\p"
-	.string "Our GAME CORNER is destroying all\n"
-	.string "the attempts to keep this city clean!$"
+	.string "Niemand will euch hier haben, TEAM\n"
+	.string "ROCKET! Eure dumme SPIELHALLE richtet\l"
+	.string "die Stadt zugrunde!$"
 
 
 
@@ -321,60 +320,70 @@ release
 end
 
 CeladonCity_Entrenador_Especial_Texto_1.1:
-.string "You obtained FLAME ORB from OLD MAN!$"
+.string "Du erhältst HEIß-ORB vom ALTEN HERRN.$"
 
 CeladonCity_Entrenador_Especial_Texto_1:
-.string "Pollution in CELADON is getting worse,\n"
-	.string "something underground must be the\l"
-	.string "problem. If my grandson got back here\l"
-	.string "and saw the situation{PAUSE 15}…{PAUSE 15} Ah, I wish I\l"
-	.string "could remember the good old days with a\l"
-	.string "true combat.$"
+	.string "PRISMANIA wird immer schlimmer! Die\n"
+	.string "Unterwelt hat irgendetwas damit zu\l"
+	.string "tun! Wenn doch nur mein Enkelsohn\l"
+	.string "hierher zurückkehren und sehen würde,\l"
+	.string "was hier vor sich geht … Ach, ich\l"
+	.string "vermisse die guten alten Zeiten, wo\l"
+	.string "noch richtig gekämpft wurde.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CeladonCity_Entrenador_Especial_Texto_3:
-.string "No, I don't think my POKÉMON could even\n"
-	.string "warm-up with yours.$"
+	.string "Nein. Ich glaube nicht, dass meine\n"
+	.string "POKéMON gegen deine überhaupt ins\l"
+	.string "Schwitzen kommen würden.$"
 
 CeladonCity_Entrenador_Especial_Texto_4:
-	.string "The FLAME ORB automatically burns the\n"
-	.string "POKÉMON that holds it, unless the\l"
-	.string "POKÉMON is a FIRE type or has the\l"
-	.string "ability WATER VEIL. It might seem\l"
-	.string "useless, but those POKÉMON with the\l"
-	.string "ability GUTS will become a threat. If\l"
-	.string "you combine it with FACADE, you'll\l"
-	.string "create a unique offensive combo!$"
+	.string "Der HEIß ORB verbrennt automatisch\n"
+	.string "seinen TRÄGER. Ausnahmen sind POKéMON,\l"
+	.string "die selber vom Typ FEUER sind oder die\l"
+	.string "Fähigkeit AQUAHÜLLE besitzen. Es mag\l"
+	.string "nutzlos erscheinen, doch POKéMON,\l"
+	.string "welche die Fähigkeit ADRENALIN\l"
+	.string "besitzen, werden damit zu einer\l"
+	.string "waschechten Bedrohung. Kombinierst du\l"
+	.string "es darüber hinaus noch mit der Attacke\l"
+	.string "FASSADE, erschaffst du damit eine\l"
+	.string "einzigartige offensive Kombination.$"
 
 CeladonCity_Entrenador_Especial_Texto_5:
-	.string "Wow! TRAINERS with all the BADGES don't\n"
-	.string "come by every day! You must have a\l"
-	.string "formidable team. If you honor me with a\l"
-	.string "battle and manage to defeat me, I'll\l"
-	.string "give you helpful stuff.$"
+	.string "Nicht schlecht! Trainer, die alle Orden\n"
+	.string "besitzen, sieht man nicht alle Tage!\p"
+	.string "Du musst ein außergewöhnlich starkes\n"
+	.string "Team haben. Wenn du mir die Ehre eines\l"
+	.string "Kampfes erweist und mich besiegst,\l"
+	.string "werde ich dir etwas Nützliches mit\l"
+	.string "auf den Weg geben.$"
 
 CeladonCity_Entrenador_Especial_Texto_6:
-.string "So, do you accept the challenge?$"
+.string "Also, nimmst du die Herausforderung an?$"
 
 CeladonCity_Entrenador_Especial_Texto_7:
-	.string "I'll see if the young TRAINERS from\n"
-	.string "KANTO are as good as they used to be!$"
+	.string "Wollen wir mal sehen, ob die jungen\n"
+	.string "Trainer von KANTO noch genauso gut\l"
+	.string "sind wie sie es früher einmal waren!$"
 
 CeladonCity_Entrenador_Especial_Texto_8:
-.string "Yes, you have something special, guy.\n"
-	.string "I hope you get far.$"
+	.string "Ja … ja. Du bist etwas Besonderes, mein\n"
+	.string "Junge. Ich wünsche dir alles Gute.$"
 
 CeladonCity_Entrenador_Especial_Texto_9:
-	.string "I wish my grandson reach your level\n"
-	.string "sooner or later; take this, you'll make a\l"
-	.string "good use of it.$"
+	.string "Es wäre schön, wenn mein Enkelsohn\n"
+	.string "irgendwann so stark werden würde wie\l"
+	.string "du. Nimm das. Ich bin mir sicher, dass du\l"
+	.string "seinen Wert zu schätzen wissen wirst.$"
 
 CeladonCity_Entrenador_Especial_Texto_10:
-.string "Refusing a combat to an old man{PAUSE 10}…{PAUSE 10}\n"
-	.string "What disrespect{PAUSE 10}…{PAUSE 10}$"
+	.string "Einem alten Mann den Kampf zu\n"
+	.string "verweigern {PAUSE 10}…{PAUSE 10} Wer hätte das kommen\l"
+	.string "sehen können {PAUSE 10}…{PAUSE 10}$"
 
 
 CeladonCity_Bloqueo_Paleta::

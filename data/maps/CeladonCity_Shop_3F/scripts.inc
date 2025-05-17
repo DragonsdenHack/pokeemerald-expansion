@@ -9,10 +9,11 @@ release
 end
 
 CeladonCity_Shop3F_Text_1:
-.string "Captured POKÉMON are registered\n"
-    .string "with an ID No. and the OT.\p"
-    .string "OT stands for “Original TRAINER” -\n"
-    .string "the TRAINER that caught it first.$"
+	.string "Jedes gefangene POKéMON erhält eine\n"
+	.string "ID-Nr. und wird mit dem Namen des\l"
+	.string "ORIGINALTRAINERS, OT, registriert.\p"
+	.string "Der OT ist der Trainer, der das\n"
+	.string "POKéMON gefangen hat!$"
 
 
 
@@ -29,8 +30,9 @@ release
 end
 
 CeladonCity_Shop3F_Text_3:
-.string "You can identify POKÉMON you get\n"
-    .string "in trades by their ID Numbers.$"
+	.string "Anhand ihrer ID-Nr. kannst du POKéMON,\n"
+	.string "die du bei einem Tausch erhalten hast,\l"
+	.string "identifizieren!$"
 
 
 
@@ -42,9 +44,8 @@ release
 end
 
 CeladonCity_Shop3F_Text_4:
-.string "All right!\p"
-    .string "My buddy's going to trade me his\n"
-    .string "KANGASKHAN for my HAUNTER!$"
+	.string "Mein Kumpel tauscht sein KANGAMA\n"
+	.string "gegen mein GEOROK!$"
 
 
 
@@ -56,12 +57,11 @@ release
 end
 
 CeladonCity_Shop3F_Text_5:
-.string "Come on, HAUNTER!\p"
-    .string "I love HAUNTER!\n"
-    .string "I collect them!\p"
-    .string "Huh?\p"
-    .string "HAUNTER turned into a different\n"
-    .string "POKÉMON while being traded!$"
+.string "Komm, GEOROK!\p"
+    .string "Ich bin GEOROK-Sammler!\n"
+    .string "Nanu?\p"
+	.string "GEOROK hat sich zu einem anderen\n"
+	.string "POKéMON entwickelt!$"
 
 
 
@@ -163,41 +163,49 @@ release
 end
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
-.string "You got MT53 GIGA IMPACT\n"
-	.string "from the hands of SALESMAN!$"
+.string "Du erhältst TM53 GIGASTOß\n"
+	.string "vom VERKÄUFER!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:
-	.string "If a POKÉMON resists a physical move\n"
-	.string "and uses COUNTER, it will return double\l"
-	.string "the damage it just caused to its\l"
-	.string "opponent. That is why we must make sure\l"
-	.string "that our physical movements are\l"
-	.string "definitive and do not give the opponent\l"
-	.string "the option to move! If you defeat me I\l"
-	.string "will teach you how to destroy your rival\l"
-	.string "with a single blow!$"
+	.string "Übersteht ein POKéMON einen\n"
+	.string "physischen Angriff und nutzt daraufhin\l"
+	.string "KONTER, wird es seinem Gegner den\l"
+	.string "Schaden, den es gerade eingesteckt\l"
+	.string "hat, mit doppelter Münze heimzahlen.\p"
+	.string "Daher müssen wir dafür sorgen, dass\n"
+	.string "unsere physischen Angriffe den Gegner\l"
+	.string "sofort ausschalten und ihm keine\l"
+	.string "Möglichkeit geben, uns zu kontern!\p"
+	.string "Wenn du mich besiegst, werde ich dir\n"
+	.string "beibringen, deinen Gegner mit einem\l"
+	.string "einzigen Angriff auf die Bretter zu\l"
+	.string "schicken!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_2:
-.string "Do you accept the challenge?$"
+	.string "Wirst du dich der Herausforderung\n"
+	.string "stellen?$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_3:
-	.string "GIGA IMPACT has a whopping 170 POWER,\n"
-	.string "used on NORMAL type POKÉMON it will\l"
-	.string "also receive STAB, TAUROS or SNORLAX\l"
-	.string "are the best options, they will give the\l"
-	.string "final blow to that POKÉMON that is so\l"
-	.string "difficult to knock down, you'll see!$"
+	.string "GIGASTOß hat ganze 170 STÄRKE. Wird es\n"
+	.string "obendrein von einem POKéMON vom Typen\l"
+	.string "NORMAL verwendet, erhält es zudem\l"
+	.string "STAB. TAUROS UND RELAXO sind die\l"
+	.string "besten Kandidaten für diese Attacke.\p"
+	.string "Ich versichere dir, dass die Beiden den\n"
+	.string "finalen Schlag gegen jene POKéMON, die\l"
+	.string "schwer zu besiegen sind, landen werden.$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_4:
-.string "You won't regret!$"
+.string "Du wirst es nicht bereuen!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_5:
 .string "Wow!\n"
-	.string "So powerful!$"
+	.string "Du bist stark!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_6:
-	.string "Your POKÉMON are a defensive whirlwind!\n"
-	.string "This TM will be perfect for you.$"
+	.string "Deine POKéMON sind eine defensive\n"
+	.string "Macht! Diese TM passt perfekt zu\l"
+	.string "deinem Kampfstil.$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_7:
-.string "Ok you miss it!$"
+.string "Tja. Dein Pech!$"

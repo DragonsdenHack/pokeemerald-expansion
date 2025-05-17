@@ -19,8 +19,8 @@ release
 end
 
 LavenderTown_Text1:
-	.string "You have no shame nor regard for our\n"
-	.string "region's traditions!$"
+	.string "Du hast weder Scham noch Respekt vor\n"
+	.string "den Traditionen unserer Region!$"
 
 
 LavenderTown2::
@@ -31,10 +31,9 @@ release
 end
 
 LavenderTown_Text2:
-.string "This town is known as the grave\n"
-    .string "site of POKÉMON.\p"
-    .string "Memorial services are held in\n"
-    .string "POKÉMON TOWER.$"
+	.string "Diese Stadt ist als Ruhestätte für\n"
+	.string "POKéMON bekannt. Im POKéMON-TURM\l"
+	.string "werden Andachten gehalten.$"
 
 
 
@@ -137,12 +136,13 @@ release
 end
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
-	.string "-GIOVANNI was so clear about keep\n"
-	.string "distances from POKÉMON TOWER.-$"
+	.string "-GIOVANNI hat deutlich zu verstehen\n"
+	.string "gegeben, dass du dich vom POKéMON\l"
+	.string "TURM fernhalten sollst.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
-	.string "-RED could be still inside the\n"
-	.string "POKÉMON TOWER!-$"
+	.string "-ROT könnte sich immer noch im\n"
+	.string "POKéMON-TURM aufhalten.-$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Move_1:
 walk_in_place_up
@@ -183,9 +183,8 @@ release
 end
 
 LavenderTown_Barrera_Sur_Texto_1:
-	.string "-That ROUTE does not match with any\n"
-	.string "assigned mission, better to not waste\l"
-	.string "time.-$"
+	.string "-Diese Route ist nicht Teil der Mission.\n"
+	.string "Es ist besser, keine Zeit zu verlieren.-$"
 
 LavenderTown_Barrera_Sur_Move_1:
 walk_in_place_down
@@ -785,149 +784,162 @@ release
 end
 
 LavenderTown_Entrevista_Oak_Texto_1:
-	.string "JOURNALIST: We are with SAMUEL OAK;\n"
-	.string "seven-time CHAMPION of the POKÉMON\l"
-	.string "LEAGUE of KANTO during the 70s and 80s.$"
+	.string "JOURNALISTIN: Wir sind hier mit\n"
+	.string "PROFESSOR SAMUEL EICH, dem\l"
+	.string "siebenfachen CHAMPION der POKéMON\l"
+	.string "LIGA von KANTO in den 70er und\l"
+	.string "80er Jahren.$"
 
 LavenderTown_Entrevista_Oak_Texto_2:
-	.string "Later, his figure was crucial to\n"
-	.string "achieving peace with JOHTO.$"
+	.string "Später spielte er eine entscheidende\n"
+	.string "Rolle beim Friedensschluss mit JOHTO.$"
 
 LavenderTown_Entrevista_Oak_Texto_3:
-	.string "He is a renowned researcher and\n"
-	.string "brilliant trainer; for many, the\l"
-	.string "greatest living legend of this region.$"
+	.string "Er ist ein renommierter Forscher und\n"
+	.string "brillanter Trainer. Für viele gilt er als\l"
+	.string "die größte lebende Legende der Region.$"
 
 LavenderTown_Entrevista_Oak_Texto_4:
-	.string "Tell me. For a person like you{PAUSE 15}…{PAUSE 15}\n"
-	.string "What do you expect from KANTO?$"
+	.string "Verraten Sie mir, Professor, was\n"
+	.string "erhofft sich ein Mann wie Sie noch\l"
+	.string "von KANTO?$"
 
 LavenderTown_Entrevista_Oak_Texto_5:
-	.string "OAK: You see, I've had many\n"
-	.string "disappointments waiting for miracles\l"
-	.string "over the years.$"
+	.string "EICH: Sehen Sie - während ich im Laufe\n"
+	.string "der Jahre auf Wunder gewartet habe,\l"
+	.string "habe ich stattdessen viele\l"
+	.string "Enttäuschungen erlebt.$"
 
 LavenderTown_Entrevista_Oak_Texto_6:
-	.string "At this point, if anyone is expecting\n"
-	.string "anything, it's KANTO itself that\l"
-	.string "expects something from me.$"
+	.string "Mittlerweile ist es eher KANTO, das\n"
+	.string "etwas von mir erwartet - nicht\l"
+	.string "umgekehrt.$"
 
 LavenderTown_Entrevista_Oak_Texto_7:
-	.string "Nowadays, I just humbly do my part, and\n"
-	.string "whatever must come will come.$"
+	.string "Heutzutage leiste ich einfach meinen\n"
+	.string "Beitrag - und was kommen muss, wird\l"
+	.string "kommen.$"
 
 LavenderTown_Entrevista_Oak_Texto_8:
-	.string "JOURNALIST: It didn't go badly for you\n"
-	.string "with that way of thinking. You'd\l"
-	.string "recently invented the POKÉDEX.$"
+	.string "Mit dieser Einstellung sind Sie ganz gut\n"
+	.string "gefahren. Immerhin haben Sie erst vor\l"
+	.string "Kurzem den POKéDEX erfunden.$"
 
 LavenderTown_Entrevista_Oak_Texto_9:
-	.string "OAK: That's right. Creating the POKÉDEX\n"
-	.string "for young TRAINERS and reopening the\l"
-	.string "LEAGUE championship are two\l"
-	.string "initiatives I am very proud of.$"
+	.string "EICH: Das stimmt. Den POKéDEX für junge\n"
+	.string "Trainer zu entwickeln und die\l"
+	.string "Liga-Meisterschaft wiederzueröffnen,\l"
+	.string "sind zwei Erfolge, die mich mit großem\l"
+	.string "Stolz erfüllen.$"
 
 LavenderTown_Entrevista_Oak_Texto_10:
-	.string "JOURNALIST: However, many say you're\n"
-	.string "just not the same. That you've changed\l"
-	.string "and gotten soft. Would you like to say\l"
-	.string "anything about that?$"
+	.string "JOURNALISTIN: Allerdings heißt es, Sie\n"
+	.string "seien nicht mehr derselbe. Dass Sie sich\l"
+	.string "verändert haben und weich geworden\l"
+	.string "sind. Möchten Sie etwas dazu sagen?$"
 
 LavenderTown_Entrevista_Oak_Texto_11:
-	.string "OAK: The world's far more vast than a\n"
-	.string "battlefield balancing two teams of six\l"
-	.string "POKÉMON.$"
+	.string "EICH: Die Welt ist weit mehr als ein\n"
+	.string "Kampfplatz, auf dem sich zwei Teams\l"
+	.string "aus je sechs POKéMON gegenüberstehen.$"
 
 LavenderTown_Entrevista_Oak_Texto_12:
-	.string "JOURNALIST: Mm{PAUSE 25}…{PAUSE 25} I see. This year, you\n"
-	.string "were busy with some other stuff. One\l"
-	.string "last question. This one's kind of{PAUSE 15}…{PAUSE 15}$"
+	.string "JOURNALISTIN: Hm {PAUSE 15}…{PAUSE 15} ich verstehe.\n"
+	.string "Sie waren ja dieses Jahr mit anderen\l"
+	.string "Dingen beschäftigt.\p"
+	.string "Eine letzte Frage noch - sie ist etwas{PAUSE 15}…{PAUSE 15}$"
 
 LavenderTown_Entrevista_Oak_Texto_13:
-	.string "OAK: Kind of{PAUSE 25}…{PAUSE 15} what?$"
+	.string "EICH: Etwas?$"
 
 LavenderTown_Entrevista_Oak_Texto_14:
-	.string "JOURNALIST: I don't know if you can\n"
-	.string "actually help us.$"
+	.string "JOURNALISTIN: Ich bin mir nicht sicher,\n"
+	.string "ob Sie uns dazu etwas sagen können.$"
 
 LavenderTown_Entrevista_Oak_Texto_15:
-	.string "When we'd consulted the archives of the\n"
-	.string "POKÉMON LEAGUE HQ, one CHAMPION title\l"
-	.string "was redacted in a big 'X' nearly ten\l"
-	.string "times between the 70's and 80's.$"
+	.string "Als wir die Archive der POKéMON LIGA\n"
+	.string "durchgesehen haben, haben wir zu\l"
+	.string "unserer großen Überraschung\l"
+	.string "festgestellt, dass der CHAMPION-Titel\l"
+	.string "in den 70ern und 80ern achtmal mit\l"
+	.string "einem großen -X- versehen wurde.$"
 
 LavenderTown_Entrevista_Oak_Texto_16:
-	.string "Do you have any idea of who could that\n"
-	.string "person be? Any name that could hide\l"
-	.string "behind that 'X'?$"
+	.string "Haben Sie eine Ahnung, wer sich hinter\n"
+	.string "diesem -X- verbergen könnte?$"
 
 LavenderTown_Entrevista_Oak_Texto_17:
-	.string "OAK: You know, I have this bad habit of\n"
-	.string "forgetting every single name that's not\l"
-	.string "worth remembering.$"
+	.string "EICH: Wissen Sie, ich habe diese\n"
+	.string "bedauerliche Angewohnheit, jeden\l"
+	.string "Namen zu vergessen, der nicht von\l"
+	.string "Bedeutung ist.$"
 
 LavenderTown_Entrevista_Oak_Texto_18:
-	.string "But, now seriously…$"
+	.string "Spaß beiseite …$"
 
 LavenderTown_Entrevista_Oak_Texto_19:
-	.string "…when I think that far back, that past\n"
-	.string "KANTO's all so blurry. And I just think\l"
-	.string "to myself that all of it was just a\l"
-	.string "dream{PAUSE 15}…{PAUSE 15} A bad dream.$"
+	.string "… Wenn ich so weit in die Vergangenheit\n"
+	.string "zurückdenke, verschwimmt das Bild vom\l"
+	.string "damaligen KANTO vor meinen Augen.\p"
+	.string "Manchmal glaube ich, dass alles nur\n"
+	.string "ein Traum war {PAUSE 25}…{PAUSE 25} ein Albtraum.$"
 
 LavenderTown_Entrevista_Oak_Texto_20:
-	.string "There are thousands of reasons: data\n"
-	.string "lost after the war, years that the\l"
-	.string "league wasn't celebrated, foreign\l"
-	.string "TRAINERS' victories{PAUSE 15}…{PAUSE 15}$"
+	.string "Gründe gäbe es viele: Archive, die nach\n"
+	.string "dem Krieg verloren gingen, Jahre ohne\l"
+	.string "Liga-Meisterschaft, die Siege\l"
+	.string "ausländischer Trainer …$"
 
 LavenderTown_Entrevista_Oak_Texto_21:
-	.string "JOURNALIST: I see. Nevertheless, it is\n"
-	.string "still intriguing.$"
+	.string "JOURNALISTIN: Ich verstehe.\p"
+	.string "Es ist trotzdem faszinierend.$"
 
 LavenderTown_Entrevista_Oak_Texto_22:
-	.string "OAK: Oh, indeed, it is!$"
+	.string "EICH: Oh, das ist es in der Tat!$"
 
 LavenderTown_Entrevista_Oak_Texto_23:
-	.string "Questioning reality and imagining a\n"
-	.string "world that goes further than the scope\l"
-	.string "of our vision is a great exercise.$"
+	.string "Die Realität zu hinterfragen und sich\n"
+	.string "eine Welt vorzustellen, die über\l"
+	.string "unseren Horizont hinausgeht, ist\l"
+	.string "eine großartige Übung.$"
 
 LavenderTown_Entrevista_Oak_Texto_24:
-	.string "I'm also a dreamer, you know?\p"
-	.string "Indeed. Sometimes, I believe in\n"
-	.string "the impossible.$"
+	.string "Ich bin selbst auch ein Träumer, wissen\n"
+	.string "Sie? Und manchmal glaube ich sogar an\l"
+	.string "das Unmögliche.$"
 
 LavenderTown_Entrevista_Oak_Texto_25:
-	.string "“TRAINER 'X' who'd beaten the LEAGUE\n"
-	.string "eight times, just before vanishing\l"
-	.string "from history books.”$"
+	.string "-TRAINER X, der die LIGA achtmal\n"
+	.string "bezwang, bevor er spurlos verschwand.-$"
 
 LavenderTown_Entrevista_Oak_Texto_26:
-	.string "What a spicy fiction title.$"
+	.string "Klingt wie der Titel eines\n"
+	.string "spektakulären Romans.$"
 
 LavenderTown_Entrevista_Oak_Texto_27:
-	.string "OAK: But I was there, and I regret to\n"
-	.string "inform you that 'X' doesn't exist.$"
+	.string "EICH: Aber ich war damals dort und muss\n"
+	.string "Ihnen leider sagen, dass es -X- nicht\l"
+	.string "gibt.$"
 
 LavenderTown_Entrevista_Oak_Texto_28:
-	.string "JOURNALIST: I see. Anyway, thank you\n"
-	.string "so much for your time, PROFESSOR.$"
+	.string "JOURNALISTIN: Verstehe. Wie dem auch\n"
+	.string "sei. Vielen Dank für Ihre Zeit,\l"
+	.string "PROFESSOR.$"
 
 LavenderTown_Entrevista_Oak_Texto_29:
-	.string "Now, we'll be heading to meet your\n"
-	.string "friend, AGATHA, inside the POKÉMON\l"
-	.string "TOWER. Will you join us?$"
+	.string "Wir gehen nun in den POKéMON-TURM, um\n"
+	.string "Ihre Freundin AGATHE zu treffen.\p"
+	.string "Möchten Sie uns begleiten?$"
 
 LavenderTown_Entrevista_Oak_Texto_30:
-	.string "OAK: {PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
+	.string "EICH: {PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
 
 LavenderTown_Entrevista_Oak_Texto_31:
-	.string "OAK: Too soon for that.$"
+	.string "EICH: Nein … Dafür ist es noch zu früh.$"
 
 LavenderTown_Entrevista_Oak_Texto_32:
-	.string "JOURNALIST: Oh{PAUSE 10}…{PAUSE 10} What a pity. Well, as\n"
-	.string "you wish. Thank you again for your time.$"
+	.string "JOURNALISTIN: Ach wie schade. Aber na\n"
+	.string "ja. Nochmals vielen Dank für Ihre Zeit.$"
 
 LavenderTown_Agatha::
 lock

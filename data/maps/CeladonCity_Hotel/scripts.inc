@@ -9,9 +9,9 @@ release
 end
 
 CeladonCity_Hotel_Text_1:
-	.string "This hotel is for people. Both POKÉMON\n"
-	.string "and criminals like you are banned from\l"
-	.string "entering.$"
+	.string "Dieses Hotel ist nur für Menschen.\p"
+	.string "POKéMON und Kriminellen wie dir ist der\n"
+	.string "Zutritt verboten!$"
 
 
 
@@ -23,8 +23,8 @@ release
 end
 
 CeladonCity_Hotel_Text_2:
-.string "Why?\n"
-    .string "Why did she bring her brother?$"
+	.string "Warum nur musste sie ihren\n"
+	.string "Bruder mitnehmen?$"
 
 
 
@@ -36,7 +36,7 @@ release
 end
 
 CeladonCity_Hotel_Text_3:
-	.string "Don't come a step closer, you thief!$"
+	.string "Komm bloß keinen Schritt näher, du Dieb!$"
 
 
 
@@ -48,5 +48,6 @@ release
 end
 
 CeladonCity_Hotel_Text_4:
-	.string "My bigger sister says that I shouldn't\n"
-	.string "talk to people like you.$"
+	.string "Meine große Schwester hat mir gesagt,\n"
+	.string "dass ich nicht mit Leuten wie dir\l"
+	.string "reden soll.$"

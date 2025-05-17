@@ -9,8 +9,9 @@ release
 end
 
 CeladonCity_Casino_Text_1:
-	.string "ROCKETS are not allowed to buy TOKENS,\n"
-	.string "GAME CORNER's rules.$"
+	.string "MITGLIEDERN VON TEAM ROCKET ist es\n"
+	.string "nicht erlaubt, hier MÜNZEN zu kaufen!\p"
+	.string "So sagen es die Regeln der SPIELHALLE!$"
 
 
 
@@ -22,8 +23,9 @@ release
 end
 
 CeladonCity_Casino_Text_2:
-	.string "ROCKETS are not allowed to buy TOKENS,\n"
-	.string "GAME CORNER's rules.$"
+	.string "MITGLIEDERN VON TEAM ROCKET ist es\n"
+	.string "nicht erlaubt, hier MÜNZEN zu kaufen!\p"
+	.string "So sagen es die Regeln der SPIELHALLE!$"
 
 
 
@@ -35,8 +37,9 @@ release
 end
 
 CeladonCity_Casino_Text_3:
-	.string "I know you have much to do with this\n"
-	.string "ROCKETS, you can't fool me.$"
+	.string "Mich täuscht ihr nicht, ihr Dreckskerle!\p"
+	.string "Ich weiß, dass ihr hier eure Hand im\n"
+	.string "Spiel habt.$"
 
 
 
@@ -48,7 +51,8 @@ release
 end
 
 CeladonCity_Casino_Text_4:
-	.string "I think this arcade are manipulated.$"
+	.string "An den Dingern wurde rumgepfuscht,\n"
+	.string "das sehe ich!$"
 
 
 
@@ -60,8 +64,9 @@ release
 end
 
 CeladonCity_Casino_Text_5:
-	.string "What? You want tokens? Get outta\n"
-	.string "here before I call the cops!$"
+	.string "Was? Du willst Münzen? Verschwinde,\n"
+	.string "bevor ich dir die Bullen auf den\l"
+	.string "Hals hetze!$"
 
 
 
@@ -73,10 +78,11 @@ release
 end
 
 CeladonCity_Casino_Text_6:
-	.string "You should stop robbing and learn\n"
-	.string "something about big fishes, whoever\l"
-	.string "conducts the GAME CORNER knows how\l"
-	.string "to build a business!$"
+	.string "Du solltest dein Kleinkriminellendasein\n"
+	.string "an den Nagel hängen und von den Großen\l"
+	.string "lernen! Wie dem Besitzer diese\l"
+	.string "Spielhalle! Der weiß, wie man ein\l"
+	.string "Geschäft groß aufzieht!$"
 
 
 
@@ -88,9 +94,10 @@ release
 end
 
 CeladonCity_Casino_Text_7:
-	.string "Win, lose, it's all a matter of luck.\n"
-	.string "Where's the fun part in that? {PAUSE 20}…{PAUSE 20} I don't\l"
-	.string "care, I can't stop playing anyway!$"
+	.string "Ist doch alles nur Glückssache, ob man\n"
+	.string "gewinnt oder verliert! Wo bleibt da der\l"
+	.string "Spaß? … Ach, mir doch egal. Ich kann\l"
+	.string "sowieso nicht mit dem Zocken aufhören!$"
 
 
 
@@ -102,8 +109,8 @@ release
 end
 
 CeladonCity_Casino_Text_8:
-	.string "It's so easy to get hanged by these\n"
-	.string "games!$"
+	.string "Es ist so verdammt leicht, süchtig nach\n"
+	.string "diesen Spielen zu werden!$"
 
 
 
@@ -115,8 +122,9 @@ release
 end
 
 CeladonCity_Casino_Text_9:
-	.string "The false sensation of control is the\n"
-	.string "key to success in these games.$"
+	.string "Der Grund, warum diese Spiele so\n"
+	.string "erfolgreich sind, ist, dass sie einem\l"
+	.string "glauben lassen, man hätte die Kontrolle.$"
 
 
 
@@ -128,7 +136,8 @@ release
 end
 
 CeladonCity_Casino_Text_10:
-	.string "The key is on staring at the screen!$"
+	.string "Der Trick liegt darin, den Bildschirm\n"
+	.string "nicht aus den Augen zu lassen!$"
 
 
 
@@ -140,5 +149,5 @@ release
 end
 
 CeladonCity_Casino_Text_11:
-	.string "Don't worry, comrade!\p"
-	.string "With me over here, our base is secure!$"
+	.string "Mach dir keinen Stress, Alter! Solange\n"
+	.string "ich hier bin, ist die Basis sicher!$"

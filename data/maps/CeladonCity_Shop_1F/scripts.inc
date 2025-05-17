@@ -9,10 +9,9 @@ release
 end
 
 CeladonCity_Shop1F_Text_1:
-.string "Hello!\n"
-    .string "Welcome to CELADON DEPT. STORE.\p"
-    .string "The board on the right describes\n"
-    .string "the store layout.$"
+	.string "Willkommen im EINKAUFSZENTRUM von\n"
+	.string "PRISMANIA CITY! Auf der Tafel rechts\n"
+	.string "findest du eine Übersicht.$"
 
 
 

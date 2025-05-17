@@ -19,11 +19,10 @@ release
 end
 
 CeladonCity_Shop2F_Text_3:
-.string "We have a customer, LANCE, who\n"
-    .string "occasionally comes.\p"
-    .string "He always buys capes.\p"
-    .string "I wonder…{PAUSE 20} Does he have many\n"
-    .string "identical capes at home?$"
+	.string "Es gibt einen Kunden namens SIEGFRIED,\n"
+	.string "der gelegentlich vorbeikommt. Er kauft\l"
+	.string "stets Umhänge. Ich frage mich, ob er\l"
+	.string "viele gleiche Umhänge zu Hause hat.$"
 
 CeladonShop2F_4::
 lock     
@@ -33,8 +32,8 @@ release
 end
 
 CeladonCity_Shop2F_Text_4:
-.string "For long outings, you should buy\n"
-    .string "REVIVE.$"
+	.string "Vor längeren Ausflügen solltest\n"
+	.string "du BELEBER kaufen.$"
 
 
 CeladonShop2FDocumento_100::
@@ -42,5 +41,5 @@ msgbox CeladonShop2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop2FDocumento_Text_100:
-.string "Top-Grade Items for TRAINERS!\p"
-    .string "2F: TRAINER'S MARKET$"
+.string "Nützliche Items für TRAINER!\p"
+    .string "1S: ZUBEHÖR FÜR TRAINER$"

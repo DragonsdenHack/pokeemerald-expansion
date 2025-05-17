@@ -9,7 +9,7 @@ release
 end
 
 UndergroundPath4F_Text_1:
-	.string "Because of jerks like you and those\n"
-	.string "FUCHSIA BIKERS, these underground\l"
-	.string "places aren't safe. They'll probably\l"
-	.string "shut them down eventually!$"
+	.string "Wegen Blödmännern wie euch und diesen\n"
+	.string "BIKERN von FUCHSANIA sind die\l"
+	.string "TUNNELPFADE nicht mehr sicher! Sie\l"
+	.string "werden sie vermutlich bald dichtmachen!$"

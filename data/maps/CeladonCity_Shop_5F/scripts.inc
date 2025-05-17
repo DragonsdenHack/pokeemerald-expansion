@@ -25,12 +25,10 @@ release
 end
 
 CeladonCity_Shop5F_Text_3:
-.string "I'm here for POKÉMON stat\n"
-    .string "enhancers.\p"
-    .string "PROTEIN increases the base ATTACK\n"
-    .string "power.\p"
-    .string "IRON increases the base DEFENSE\n"
-    .string "stat.$"
+	.string "Ich bin wegen der leistungs-fördernden\n"
+	.string "Mittel für POKéMON hier. PROTEIN\l"
+	.string "steigert die ANGRIFFS-STÄRKE.\p"
+	.string "EISEN stärkt die ABWEHR!$"
 
 
 
@@ -42,16 +40,16 @@ release
 end
 
 CeladonCity_Shop5F_Text_4:
-.string "POKÉMON stat enhancers can be\n"
-    .string "bought only here.\p"
-    .string "HP UP increases the base HP of a\n"
-    .string "POKÉMON.\p"
-    .string "CALCIUM raises the base SP. ATK\n"
-    .string "stat of one POKÉMON.\p"
-    .string "ZINC boosts the base SP. DEF stat\n"
-    .string "of one POKÉMON.\p"
-    .string "CARBOS enhances the base SPEED\n"
-    .string "stat.$"
+	.string "Nur hier kannst du leistungs-fördernde\n"
+	.string "Mittel für deine POKéMON kaufen!\p"
+    .string "KP-PLUS hebt die Basis-KP\n"
+    .string "eines POKéMON.\p"
+    .string "KALZIUM steigert die Stärke\n"
+    .string "von SPEZIAL-ATTACKEN!\p"
+    .string "ZINK hebt den Basis-Wert\n"
+    .string "der SP. VER. eines POKéMON\p"
+    .string "CARBON erhöht die\n"
+    .string "INITIATIVE.$"
 
 
 
@@ -128,76 +126,83 @@ release
 end
 
 CeladonCity_Shop5F_Text_Oak_1:
-	.string "SUPERNERD: Really ¥9,800?! No way!\p"
-	.string "Just a month ago it cost ¥7,000!\p"
-	.string "And a year ago it cost ¥3,000!$"
-
+	.string "STREBER: 9.800¥?! Das ist\n"
+	.string "doch Betrug! Vor einem Monat lag der\l"
+	.string "Preis noch bei 7.000¥ und vor einem\l"
+	.string "Jahr bei 3.000¥!$"
 
 CeladonCity_Shop5F_Text_Oak_2:
-	.string "SALESMAN: I'm not the one who set up\n"
-	.string "the prices, those above had\l"
-	.string "established that manipulating a\l"
-	.string "POKÉMON EV's must be expensive.$"
-
+	.string "VERKÄUFER: Verzeihen Sie, aber ich bin\n"
+	.string "nicht derjenige, der die Preise\l"
+	.string "festlegt. Die, die das Sagen haben,\l"
+	.string "haben beschlossen, dass das\l"
+	.string "EV-TRAINING teurer sein muss.$"
 
 CeladonCity_Shop5F_Text_Oak_3:
-	.string "SUPERNERD: Expensive? No one will buy\n"
-	.string "PROTEIN nor CALCIUM at this price.\l"
-	.string "People will be so limited by the ones\l"
-	.string "that are found around.$"
-
+	.string "STREBER: Teuer? Niemand bei klarem\n"
+	.string "Menschenverstand wird PROTEIN UND\l"
+	.string "KALZIUM zu diesen Preisen kaufen!\p"
+	.string "Die Trainer werden auf die NÄHRSTOFFE\n"
+	.string "beschränkt sein, die sie in der Gegend\l"
+	.string "finden!$"
 
 CeladonCity_Shop5F_Text_Oak_4:
-	.string "SALESMAN: Those are the prices that\n"
-	.string "the POKÉMON LEAGUE COMMITTEE\l"
-	.string "established, we just are following\l"
-	.string "orders.$"
+	.string "Das sind die Preise, welche die LEITUNG\n"
+	.string "DER POKéMON LIGA festgelegt hat. Wir\l"
+	.string "halten uns lediglich an ihre Vorgaben.$"
 
 CeladonCity_Shop5F_Text_Oak_5:
-	.string "SUPERNERD: How would I raise my\n"
-	.string "MAGNEMITE's SPECIAL ATTACK now? It\l"
-	.string "doesn't make any sense!$"
+	.string "STREBER: Wie soll ich denn jetzt nur den\n"
+	.string "SPEZIAL-ANGRIFF meines MAGNETILOS\l"
+	.string "erhöhen? Das ergibt doch alles\l"
+	.string "keinen Sinn!$"
 
 CeladonCity_Shop5F_Text_Oak_6:
-	.string "????: Quite the opposite, makes all\n"
-	.string "the sense that can be given at this\l"
-	.string "region.$"
+	.string "????: Ganz im Gegenteil. Es ergibt sehr\n"
+	.string "wohl Sinn, wenn man das Gesamtbild\l"
+	.string "betrachtet …$"
 
 CeladonCity_Shop5F_Text_Oak_7:
-	.string "GIRL: So stupid. Could go up at POKÉMON\n"
-	.string "TOWER and train there his MAGNEMITE.$"
+	.string "JUNGE DAME: Was für ein Idiot!\p"
+	.string "Er könnte doch einfach in den\n"
+	.string "POKéMON-TURM gehen und dort sein\l"
+	.string "MAGNETILO trainieren.$"
 
 CeladonCity_Shop5F_Text_Oak_8:
-	.string "????: Not everyone has been educated\n"
-	.string "as you, DAISY. Reliable information is\l"
-	.string "not common today. There are people who\l"
-	.string "keep believing that there are just 150\l"
-	.string "POKÉMON species. If they knew how big\l"
-	.string "this world is…$"
+	.string "????: Nicht jeder ist so klug wie du,\n"
+	.string "SARAH. Verlässliche Informationen sind\l"
+	.string "heutzutage schwer zu finden.\p"
+	.string "Es gibt noch immer Menschen, die fest\n"
+	.string "davon überzeugt sind, dass nur 150\l"
+	.string "POKéMON-Arten existieren. Wenn sie nur\l"
+	.string "wüssten, wie groß die Welt in\l"
+	.string "Wirklichkeit ist {PAUSE 5}…{PAUSE 5}$"
 
 CeladonCity_Shop5F_Text_Oak_9:
-	.string "DAISY: It's not surprising that no one\n"
-	.string "has approached the POKÉMON LEAGUE in\l"
-	.string "the last few years. Do you think those\l"
-	.string "two have any chance?$"
+	.string "SARAH: Kein Wunder, dass niemand in den\n"
+	.string "letzten Jahren die POKéMON LIGA\l"
+	.string "herausgefordert hat. Glaubst du, dass\l"
+	.string "die Beiden es packen werden?$"
 
 CeladonCity_Shop5F_Text_Oak_10:
-	.string "????: They just started their trip. It\n"
-	.string "is too soon to predict something, but\l"
-	.string "the potential that they have is\l"
-	.string "encouraging, especially…$"
+	.string "????: Ihre Reise hat gerade erst\n"
+	.string "begonnen. Noch kann ich nichts mit\l"
+	.string "Sicherheit sagen, aber ihr Potenzial\l"
+	.string "stimmt mich zuversichtlich. Vor allem {PAUSE 5}…{PAUSE 5}$"
 
 CeladonCity_Shop5F_Text_Oak_11:
-	.string "Hello?{PAUSE 25}…{PAUSE 25} MR.LANCE{PAUSE 25}…{PAUSE 25} Okay{PAUSE 15}…{PAUSE 15} Right away.$"
+	.string "Ja? {PAUSE 15}…{PAUSE 35} HERR SIEGFRIED. {PAUSE 35} Natürlich. {PAUSE 35} Ich\n"
+	.string "komme sofort. {PAUSE 35}$"
 
 CeladonCity_Shop5F_Text_Oak_12:
-	.string "They are calling me from POKÉMON LEAGUE\n"
-	.string "HQ. Shopping is over, DAISY.$"
+	.string "Ein Anruf aus dem HAUPTQUARTIER DER\n"
+	.string "POKéMON LIGA. Dann war's das wohl mit\n"
+	.string "dem Einkaufen, SARAH.$"
 
 CeladonCity_Shop5F_Text_Oak_13:
-	.string "DAISY: It is okay, we have 50 VITAMINS\n"
-	.string "for each one of the 6 STATs, good\l"
-	.string "enough for this week.$"
+	.string "SARAH: Passt schon. Wir haben 50\n"
+	.string "NÄHRSTOFFE für alle sechs Werte.\p"
+	.string "Das sollte für die Woche reichen.$"
 
 CeladonCity_Shop_5F_Oak_move_1:
 walk_up

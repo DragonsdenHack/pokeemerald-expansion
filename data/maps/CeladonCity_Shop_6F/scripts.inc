@@ -9,8 +9,8 @@ release
 end
 
 CeladonCity_Shop6F_Text_1:
-	.string "My brother told me to not talk with TEAM\n"
-	.string "ROCKET members.$"
+	.string "Mein Bruder hat mir gesagt, nicht mit\n"
+	.string "Leuten von TEAM ROCKET zu reden.$"
 
 
 
@@ -22,10 +22,10 @@ release
 end
 
 CeladonCity_Shop6F_Text_2:
-.string "My sister is a TRAINER, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
+	.string "Ob du es glaubst oder nicht: Meine\n"
+	.string "Schwester ist eine TRAINERin! Aber sie\l"
+	.string "ist so kindisch!\p"
+	.string "Ich werde noch ganz verrückt!$"
 
 
 

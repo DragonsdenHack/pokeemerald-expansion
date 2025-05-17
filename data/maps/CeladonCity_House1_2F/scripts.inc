@@ -70,71 +70,89 @@ release
 end
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_1:
-	.string "Gotta problem, ROCKET? Someone like\n"
-	.string "you won't ever be able to afford a\l"
-	.string "mansion like this. Get out of here\l"
-	.string "before I lose my patience and crush\l"
-	.string "your miserable POKÉMON!$"
+	.string "Was willst denn du KLEINKRIMINELLER\n"
+	.string "hier? Sehe dich gut um! Abschaum wie du\l"
+	.string "wird niemals so eine Villa besitzen! Und\l"
+	.string "jetzt verschwinde, bevor ich die Geduld\l"
+	.string "verliere und dich und deine mickrigen\l"
+	.string "POKéMON ins Krankenhaus befördere!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
-	.string "You got my word, that FISHERMAN and his\n"
-	.string "OLD ROD don't longer exist for me.$"
+	.string "Du hast mein Wort. Dieser ANGLER und\n"
+	.string "seine ANGEL gehören für mich von nun\l"
+	.string "an der Vergangenheit an.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
-	.string "Does the FISHERMAN GURU of VERMILION\n"
-	.string "CITY send you to settle scores for my\l"
-	.string "defamation about his OLD ROD? What\l"
-	.string "kind of joke is this?$"
+	.string "Hat dich der ANGLER von ORANIA CITY zu\n"
+	.string "mir geschickt, um sich an meinen\l"
+	.string "Aussagen bezüglich seiner ANGEL zu\l"
+	.string "rächen?\p"
+	.string "Ist das ein schlechter Scherz?!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
-	.string "Someone like you can't do anything\n"
-	.string "against my POKÉMON, raised for giving a\l"
-	.string "good show. You're no one even in this\l"
-	.string "organization. What are you gonna do?\p"
-	.string "Will you use BITE with a weak ZUBAT?\p"
-	.string "I'll crush that bagel as soon as I\n"
-	.string "order my SANDSLASH to use SLASH!$"
+	.string "Jemand wie du kann doch nichts gegen\n"
+	.string "meine POKéMON, ausrichten, die für die\l"
+	.string "große Bühne trainiert wurden.\p"
+	.string "Du bist sogar in deiner schändlichen\n"
+	.string "Organisation ein Niemand. Was willst du\l"
+	.string "machen? Mit deinem erbärmlichen ZUBAT\l"
+	.string "BISS einsetzen und dann hilflos\l"
+	.string "zusehen, wie ich meinem SANDAMER\l"
+	.string "befehle, mit seinem SCHLITZER deine\l"
+	.string "POKéMON einen nach dem anderen auf\l"
+	.string "die Bretter zu schicken?$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6:
-	.string "You can still change your mind, you're\n"
-	.string "lucky that I've had a good day and I'll\l"
-	.string "be willingly to forget your insolence.$"
+	.string "Es steht dir immer noch frei, es dir\n"
+	.string "anders zu überlegen. Du hast Glück,\l"
+	.string "dass ich heute gute Laune habe. Wenn du\l"
+	.string "jetzt verschwindest, bin ich bereit,\l"
+	.string "deine dreiste Aktion zu vergessen.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_7:
-	.string "It seems there are still ROCKETS with\n"
-	.string "brains, vanish here before I change my\l"
-	.string "mind.$"
+	.string "Scheint so, als gäbe es noch ROCKETs\n"
+	.string "mit intakten Gehirnen. Und jetzt mach\l"
+	.string "dich vom Acker, bevor ich es mir anders\l"
+	.string "überlege!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_8:
-	.string "You've tried my tolerance, I will send\n"
-	.string "you straight back to where you belong.\l"
-	.string "The sewers of CELADON CITY!$"
+	.string "Du hast meine Geduld überstrapaziert,\n"
+	.string "Bursche! Ich werde dich dorthin\l"
+	.string "zurückschicken, wo Gesindel wie du\l"
+	.string "hingehören: in die Kanalisation von\l"
+	.string "PRISMANIA CITY!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_9:
-.string "SANDSLASH, ARBOK!\n"
-	.string "KEEP FIGHTING!$"
+.string "SANDAMER! ARBOK!\n"
+	.string "KÄMPFT WEITER!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_10:
-	.string "Grrrrr{PAUSE 20}…{PAUSE 20} I didn't expect a ROCKET GRUNT\n"
-	.string "could be so strong, that FISHERMAN has\l"
-	.string "been lucky to come across you.$"
+	.string "Grrrrr{PAUSE 20}…{PAUSE 20}  Ich hätte nicht erwartet, dass\n"
+	.string "ein RÜPEL von TEAM ROCKET so stark sein\l"
+	.string "könnte. Dieser ANGLER kann sich\l"
+	.string "glücklich schätzen, dass er dir\l"
+	.string "begegnet ist.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11:
-	.string "What?! You're someone important within\n"
-	.string "the organization! And if I don't stop my\l"
-	.string "criticisms towards that FISHERMAN, will\l"
-	.string "you use all your power and influence to\l"
-	.string "ruin my business?!$"
+	.string "Wie ist das möglich?! Du musst eine\n"
+	.string "bedeutende Rolle in deiner Organisation\l"
+	.string "innehaben! Was? Wenn ich nicht aufhöre,\l"
+	.string "den ANGLER öffentlich niederzumachen,\l"
+	.string "wirst du all deine Macht und deinen\l"
+	.string "Einfluss nutzen, um meine Geschäfte zu\l"
+	.string "ruinieren?!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_12:
-	.string "Alright, you win! I'll stop talking about\n"
-	.string "that stupid OLD ROD that only catches\l"
-	.string "MAGIKARPS! You have my word! But don't\l"
-	.string "mess with my business, never that!$"
+	.string "In Ordnung! Du hast gewonnen! Ich\n"
+	.string "werde nichts mehr über seine dumme\l"
+	.string "ANGEL sagen, die nur KARPADOR an Land\l"
+	.string "zieht! Ich gebe dir mein Wort!\p"
+	.string "Aber halte dich gefälligst von\n"
+	.string "meinen Geschäften fern!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Move_1:
 emote_exclamation_mark
