@@ -1713,7 +1713,7 @@ const struct Item gItems[] =
 
     [ITEM_RELIC_COPPER] = // Todo
     {
-        .name = _("Relic Cooper"),
+        .name = _("Relic Copper"),
         .itemId = ITEM_RELIC_COPPER,
         .price = 1000,
         .description = sRelicCopperDesc,

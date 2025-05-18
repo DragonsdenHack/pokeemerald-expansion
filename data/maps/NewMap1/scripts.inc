@@ -41,10 +41,10 @@ release
 end
 
 Route3_Text_9:
-	.string "Although it does not seem, there are a\n"
-	.string "lot of people that support you. It is\l"
-	.string "just that they are fear screwed for how\l"
-	.string "LANCE could react.$"
+	.string "Although it doesn't seem like it, a\n"
+	.string "lot of people actually support you.\p"
+	.string "It is just that they are fear\n"
+	.string "screwed for how LANCE could react.$"
 
 
 

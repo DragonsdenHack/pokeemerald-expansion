@@ -279,14 +279,14 @@ end
 RocketHideoutViridian_Combate_Petrel_Texto_1:
 	.string "PETREL: I never thought that you could\n"
 	.string "reach this far, when you failed your\l"
-	.string "first mission in KANTO and although it,\l"
+	.string "first mission in KANTO and although,\l"
 	.string "you defeated a HIGH-RANK GRUNT, I saw\l"
 	.string "you had potential and that was why I\l"
 	.string "ordered you that risky mission to go to\l"
 	.string "BILL's HOUSE.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_2:
-	.string "However you have overpassed all\n"
+	.string "However you have surpassed all\n"
 	.string "expectations, ROCKET ADMINS are\l"
 	.string "required to have many skills, including\l"
 	.string "having a POKÉMON team worthy of the\l"
@@ -463,8 +463,8 @@ RocketHideoutViridian_Combate_Atlas_Texto_4:
 RocketHideoutViridian_Combate_Atlas_Texto_5:
 	.string "This also applies for innocent and\n"
 	.string "naives children, as RED for example, he\l"
-	.string "thinks that within 10 years has ruled\l"
-	.string "the world and makes fun of an entire\l"
+	.string "thinks that a 10 year old can rule\l"
+	.string "the world and make fun of an entire\l"
 	.string "organization just for winning a few\l"
 	.string "rigged fights.$"
 

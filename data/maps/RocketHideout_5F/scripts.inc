@@ -1870,10 +1870,10 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
 	.string "One more thing, {PLAYER}.\p"
 	.string "Avoid OAK, the owner of PALLET\n"
 	.string "TOWN POKÉMON RESEARCH LAB.\p"
-	.string "He retired from battles ages ago, publicy\n"
+	.string "He retired from battles ages ago, publicly\n"
 	.string "releasing his team, after LANCE victory.\p"
 	.string "But nowadays, I don't believe a single\n"
-	.string "word it's said in the social media.$"
+	.string "word said in social medias.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
 	.string "He was a skilled TRAINER in the past,\n"
@@ -2593,13 +2593,13 @@ RocketHideout5F_Secundaria_Frank_Texto_8:
 
 RocketHideout5F_Secundaria_Frank_Texto_9:
 	.string "Be careful about what you say, kid. As\n"
-	.string "EXECUTIVE I had access to POKÉMON of\l"
-	.string "an unattainable power that you have\l"
-	.string "never seen before. HIGH-RANKS like\l"
+	.string "EXECUTIVE I have access to POKÉMON of\l"
+	.string "an unattainable level of power that you\l"
+	.string "have never seen before. HIGH-RANKS like\l"
 	.string "you must conform with the leftovers\l"
-	.string "that no one in this region wants, high\l"
-	.string "quality leftovers because you are HIGH\l"
-	.string "RANK, but leftovers anyway.$"
+	.string "that no one in this region wants.\p"
+	.string "High quality leftovers since you are\n"
+	.string "HIGH RANK, but leftovers anyway.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_10:
 	.string "I will show you what I am talking about.$"

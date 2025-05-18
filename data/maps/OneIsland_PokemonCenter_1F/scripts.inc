@@ -87,7 +87,7 @@ end
 
 OneIsland_PokemonCenter_Text_6:
 	.string "My master, CELIO, paid millions in\n"
-	.string "the black market to have both thr RUBY\l"
+	.string "the black market to have both the RUBY\l"
 	.string "and the SAPPHIRE.\p"
 	.string "We installed our machine due to the\n"
 	.string "supposed existence of these ores\l"

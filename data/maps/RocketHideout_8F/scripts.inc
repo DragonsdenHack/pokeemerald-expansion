@@ -2118,7 +2118,8 @@ RocketHideout_8F_Mision_Gimnasios_texto_5:
 RocketHideout_8F_Mision_Gimnasios_texto_6:
 	.string "GIOVANNI: There will be time to catch\n"
 	.string "you up, BLUE. What you need to know now\l"
-	.string "is… at the moment we know its location\l"
+	.string "is that{PAUSE 15}…{PAUSE 15}\p"
+	.string "At the moment we know its location\n"
 	.string "and capture it, we will have everything\l"
 	.string "we need to invade the POKÉMON LEAGUE\l"
 	.string "and overthrow LANCE once and for…$"
@@ -2131,11 +2132,11 @@ RocketHideout_8F_Mision_Gimnasios_texto_6.2:
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.3:
 	.string "I came back to talk with FUJI,\n"
-	.string "as well as you said, SIR.$"
+	.string "like you asked me to, SIR.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.4:
-	.string "Someone tipped us off, the KANTO\n"
-	.string "POLICE arrived at LAVENDER TOWN.\p"
+	.string "Someone tipped off the authorities\n"
+	.string "and the KANTO POLICE arrived.\p"
 	.string "FUJI was arrested, and I was able\n"
 	.string "to escape, thanks to TELEPORT.$"
 
@@ -2193,7 +2194,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_12:
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
 .string "Thanks, HIGH-RANK.\p"
-	.string "Can retire.$"
+	.string "You can go now.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
 .string "HIGH-RANK: SIR{PAUSE 15}…{PAUSE 15}\p"
@@ -2353,16 +2354,16 @@ RocketHideout_8F_Mision_Gimnasios_texto_36.2:
 
 RocketHideout_8F_Mision_Gimnasios_texto_37:
 	.string "Since you obtained your starter, you\n"
-	.string "have faced all kinds of difficulties.\l"
-	.string "Everything you have, you have obtained\l"
+	.string "have faced all kinds of difficulties.\p"
+	.string "Everything you have, you have obtained\n"
 	.string "through your own merits; you know the\l"
 	.string "true face of this region, and you have\l"
 	.string "been forced to adapt to it.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37.1:
 	.string "That{PAUSE 15}…{PAUSE 15} overall{PAUSE 15}…{PAUSE 15} will give\n"
-	.string "you some kind of strtength that can't\l"
-	.string "be bought, ¡go and show it to KANTO!$"
+	.string "you some kind of strength that can't\l"
+	.string "be bought, go and show it to KANTO!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
 walk_up

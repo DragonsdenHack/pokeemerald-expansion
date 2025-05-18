@@ -311,7 +311,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_4:
 	.string "completely.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_5:
-	.string "FUJI: After the CINNABAR disaster,\n"
+	.string "FUJI: After the CINNABAR disaster, it\n"
 	.string "disappeared completely. Making another\l"
 	.string "one is possible, but it would take too\l"
 	.string "long, especially without OAK's help.$"
@@ -366,7 +366,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.1:
 	.string "Say, the ZAPDOS that lives in the POWER\n"
-	.string "PLANT is still there, eleven when you\l"
+	.string "PLANT is still there, even when you\l"
 	.string "had the chance to get him.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16.2:
@@ -387,8 +387,8 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 	.string "PROTON: SLOWBRO! TELEPORT!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
-.string "LT.SURGE: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
-	.string "Maybe I know why.$"
+.string "LT.SURGE: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
+	.string "Maybe{PAUSE 15}…{PAUSE 15} I know the reason.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 	.string "You won't escape, FUJI. It's a shame\n"

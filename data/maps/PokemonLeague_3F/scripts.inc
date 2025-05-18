@@ -88,8 +88,8 @@ PokemonLeague_3F_Combate_Agatha_Texto_1:
 	.string "tell you this, {PLAYER}, but political\l"
 	.string "interests had crossed these walls.\p"
 	.string "Yes. LANCE is the CHAMP and KANTO's\n"
-	.string "DICTATOR at the same time, will never\l"
-	.string "renounce his CHAMP title against\l"
+	.string "DICTATOR at the same time, he will\l"
+	.string "never renounce his CHAMP title against\l"
 	.string "someone that could risk his reign, once\l"
 	.string "you know this, go to the next room; you\l"
 	.string "still have the chance to let your\l"
@@ -97,8 +97,8 @@ PokemonLeague_3F_Combate_Agatha_Texto_1:
 
 PokemonLeague_3F_Combate_Agatha_Texto_2:
 	.string "What do we have here? I don't like that\n"
-	.string "style of wearing as a ROCKET, you don't\l"
-	.string "mind if I said that, right?\p"
+	.string "style of dressing like a ROCKET, you\l"
+	.string "don't mind if I said that, right?\p"
 	.string "I'm AGATHA of the ELITE4, the GHOST type\n"
 	.string "specialist, a type with lot of mysteries\l"
 	.string "yet to be solved, and whose potential\l"

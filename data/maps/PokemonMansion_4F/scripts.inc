@@ -186,27 +186,26 @@ end
 PokemonMansion_4F_Blaine_Fuji_Texto_1:
 	.string "????: This is our last chance, BLAINE.\p"
 	.string "You know where it hides, now the TEAM\n"
-	.string "ROCKET has the MASTER BALL, only left\l"
-	.string "to catch it and we will finish this!$"
+	.string "ROCKET has the MASTER BALL, the only\l"
+	.string "thing left is to catch it and we\l"
+	.string "will finish this!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_2:
 	.string "BLAINE: Is not that easy, FUJI, OAK\n"
 	.string "also knows about MEWTWO, do you think\l"
-	.string "he wont tell LANCE that the TEAM\l"
-	.string "ROCKET plans something, when he\l"
-	.string "discovers that you are going in search\l"
-	.string "of our creation? Also, I had understood\l"
-	.string "that the invasion at SILPH was a\l"
-	.string "failure.$"
+	.string "he wont tell LANCE that TEAM ROCKET\l"
+	.string "plans something, when he discovers that\l"
+	.string "you are going in search of our creation?\p"
+	.string "Also, I had understood that the\n"
+	.string "invasion at SILPH was a failure.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_3:
-	.string "FUJI: That's what they had made\n"
-	.string "believe to the people, one of the\l"
-	.string "ROCKET EXECUTIVES, PROTON, has\l"
-	.string "informed me about what just happened\l"
-	.string "there, apparently GIOVANNI had\l"
-	.string "convinced the PRESIDENT to rebel\l"
-	.string "against LAN…$"
+	.string "FUJI: That's what they want people\n"
+	.string "to believe: one of the top ROCKET\l"
+	.string "EXECUTIVES has informed me about\l"
+	.string "what just happened there, apparently\l"
+	.string "GIOVANNI had convinced the PRESIDENT\l"
+	.string "to rebel against LAN…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
 .string "BLAINE: Dreamers!$"
@@ -226,10 +225,10 @@ PokemonMansion_4F_Blaine_Fuji_Texto_4.1:
 	.string "PSEUDO-LEGENDARIES watching his back?$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_5:
-	.string "There is no way out, all who wants to\n"
-	.string "rebel against LANCE is a suicide, he\l"
-	.string "has too much power, despite he doesn't\l"
-	.string "know about MEWTWO's existence.\p"
+	.string "There is no way out, everyone who\n"
+	.string "rebels against lance know it's suicide,\l"
+	.string "he has too much power, besides hel"
+	.string "doesn't know about MEWTWO's existence.\p"
 	.string "Sadly, he has made honor to his fame,\n"
 	.string "as the best DRAGON TAMER of this era.$"
 

@@ -9634,7 +9634,7 @@ Route23_Text_PoliciaDefeated:
 
 
 Route23_Text_PoliciaPostBattle:
-	.string "You are able to earn the CASCADE BADGE.\n"
+	.string "You were able to earn the CASCADE BADGE.\n"
 	.string "Keep going!$"
 
 

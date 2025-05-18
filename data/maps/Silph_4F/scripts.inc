@@ -47,7 +47,7 @@ release
 end
 
 Silph4F_6_Texto_1:
-.string "Oh, no! You find me!\n"
+.string "Oh, no! You found me!\n"
 	.string "Don't hurt me!$"
 
 Silph4F_6_Texto_2:

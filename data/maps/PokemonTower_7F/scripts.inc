@@ -104,7 +104,8 @@ PokemonTower_7F_Proton_Texto_1:
 	.string "escape from this enslaving system\l"
 	.string "FUJI, don't you think that milestone\l"
 	.string "justifies any possible means to achieve\l"
-	.string "it? I hope you think about our offer!$"
+	.string "it?\p"
+	.string "I hope you'll think about our offer!$"
 
 PokemonTower_7F_Proton_Texto_2:
 	.string "I see. Anyways, I'm done with FUJI.\p"

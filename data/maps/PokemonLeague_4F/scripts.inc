@@ -100,7 +100,7 @@ PokemonLeague_4F_Combate_Lance_Texto_1:
 	.string "So in KANTO, there were still TRAINERS\n"
 	.string "capable of challenging the power of a\l"
 	.string "PSEUDOLEGENDARY, I won't say that what\l"
-	.string "you've done isn't commendable, but had\l"
+	.string "you've done isn't commendable, but I had\l"
 	.string "to said it, now, we have a new CHAMPION.\p"
 	.string "You, that other girl, and OAK's\n"
 	.string "rebellious grandson can take a look if\l"

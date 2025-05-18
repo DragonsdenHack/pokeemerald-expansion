@@ -1130,7 +1130,7 @@ RocketHideout7FDocumento_Text_Latias_1:
 RocketHideout7FDocumento_Text_Latias_2:
 	.string "Its numbers are similar to a PSEUDO\n"
 	.string "LEGENDARY, with a good stats division;\l"
-	.string "however, if you give him the SOUL DEW,\l"
+	.string "however, if you give her the SOUL DEW,\l"
 	.string "it will rise to the levels of a MAJOR\l"
 	.string "LEGENDARY.$"
 

@@ -462,8 +462,8 @@ RocketHideoutViridian_Escena_9_Texto_1:
 	.string "discover who you are?$"
 
 RocketHideoutViridian_Escena_9_Texto_2:
-	.string "????: What does it care! How dare you?\n"
-	.string "Dissolve the organization you've\l"
+	.string "????: Why does it matter! How dare you?\p"
+	.string "Dissolve the organization you've\n"
 	.string "fought for all these years! You're a\l"
 	.string "joke in all of the media in KANTO!$"
 
@@ -478,89 +478,93 @@ RocketHideoutViridian_Escena_9_Texto_3:
 
 RocketHideoutViridian_Escena_9_Texto_4:
 	.string "????: There is nothing to understand,\n"
-	.string "you have failed and that's all! You've\l"
-	.string "been defeated, and you gave up!$"
+	.string "you have failed and that's all!\p"
+	.string "You've been defeated, and you gave up!$"
 
 RocketHideoutViridian_Escena_9_Texto_4.1:
-	.string "Sometimes not everything is as simple\n"
+	.string "GIOVANNI: Not everything is as simple\n"
 	.string "as winning or losing. The events that\l"
-	.string "have unfolded serve a greater purpose,\l"
-	.string "impossible to understand at all if seen\l"
+	.string "have unfolded serve a greater purpose.{PAUSE 25}…{PAUSE 25}\p"
+	.string "Impossible to understand at all if seen\n"
 	.string "one by one from the outside, like a mere\l"
 	.string "spectator, but as a whole…$"
 
 RocketHideoutViridian_Escena_9_Texto_5:
-	.string "The best…{PAUSE 40} You told me you wanted to be\n"
-	.string "the best TRAINER in the world!$"
+	.string "????: You told me…\n"
+	.string "you were the number one in the world!$"
 
 RocketHideoutViridian_Escena_9_Texto_6:
-.string "And now you want to give up?\p"
-.string "And what do you think to do now then?$"
+.string "Are you gonna quit?\p"
+.string "What are you doing to do now?$"
 
 RocketHideoutViridian_Escena_9_Texto_7:
-.string "…$"
+.string "…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…$"
 
 RocketHideoutViridian_Escena_9_Texto_8:
-	.string "GIOVANNI: A man who can't recognize a\n"
-	.string "defeat is unable to improve…$"
+	.string "GIOVANNI: One must acknowledge one's defeat\n"
+	.string "before he can move on…$"
 
 RocketHideoutViridian_Escena_9_Texto_9:
-	.string "I must be alone a while to create an\n"
-	.string "organization even stronger.$"
+	.string "I will go solo{PAUSE 25}…{PAUSE 25} for now{PAUSE 5}…{PAUSE 5}\p"
+	.string "So that one day I will form\n"
+	.string "a stronger organization!$"
 
 RocketHideoutViridian_Escena_9_Texto_10:
-	.string "Pfft! A bunch of lackeys in that\n"
-	.string "organization, and when it really\l"
-	.string "matters, they get beaten by someone so\l"
-	.string "young. How embarrassing!$"
+	.string "????: What aspect of you was\n"
+	.string "number one?\p"
+	.string "Gathering so many only to be defeated\n"
+	.string "by a mere child!$"
 
 RocketHideoutViridian_Escena_9_Texto_11:
-	.string "GIOVANNI: A well-structured\n"
-	.string "organization with sufficient resources\l"
-	.string "should be able to wield great power.$"
+	.string "GIOVANNI: Putting together the potential\n"
+	.string "of many is how you produce a huge power\l"
+	.string "That's what an organization is.$"
 
 RocketHideoutViridian_Escena_9_Texto_12:
-	.string "An organization aims for that.$"
+	.string "That's the strength of\l"
+	.string "an organization!$"
 
 RocketHideoutViridian_Escena_9_Texto_13:
-	.string "I haven't been able to take advantage\n"
-	.string "of the potential of my subordinates…$"
+	.string "I failed… to make the best use of\n"
+	.string "my subordinates' potential…!$"
 
 RocketHideoutViridian_Escena_9_Texto_14:
-	.string "I swear someday I will resurrect TEAM\n"
-	.string "ROCKET!$"
+	.string "But you shall witness one day\n"
+	.string "the revival of me and my TEAM ROCKET!$"
 
 RocketHideoutViridian_Escena_9_Texto_15:
-	.string "????: I don't understand all that\n"
-	.string "nonsense talk!$"
+	.string "????: I don't understand you!$"
 
 RocketHideoutViridian_Escena_9_Texto_16:
-	.string "Your delirium makes no sense to me!$"
+	.string "You don't make any sense!$"
 
 RocketHideoutViridian_Escena_9_Texto_17:
-	.string "…{PAUSE 35} You will understand it someday.$"
+    .string "…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…{PAUSE 5}…\n"
+	.string "One day, you will understand.$"
 
 RocketHideoutViridian_Escena_9_Texto_18:
-	.string "????: I prefer to not understand it!$"
+    .string "????: I don't want to\n"
+	.string "understand you!$"
 
 RocketHideoutViridian_Escena_9_Texto_19:
-	.string "I won't become like you! Surrounded by\n"
-	.string "pathetic lackeys who join your\l"
-	.string "organization just to feel important and\l"
-	.string "alive, as they are nothing on their own.$"
+	.string "I will never become someone like you.\p"
+	.string "A coward when you're alone and\n"
+	.string "acting like a tyrant when you're in\l"
+	.string "front of other cowards!$"
 
 RocketHideoutViridian_Escena_9_Texto_20:
-	.string "I will be a strong man by myself, with no\n"
-	.string "one helping me! Only me!$"
+	.string "I will become strong!\p"
+	.string "I will become a stronger man all\n"
+	.string "by myself!$"
 
 RocketHideoutViridian_Escena_9_Texto_21:
-.string "ONLY ME!$"
+.string "ALL BY MYSELF!$"
 
 RocketHideoutViridian_Escena_9_Texto_22:
-	.string "GIOVANNI: I hope that, SILVER, It's the\n"
-	.string "best decision for both of us. Distance\l"
-	.string "yourself from this charade, improve\l"
-	.string "independently. Meanwhile, I'll shape the\l"
-	.string "region you live in as it should be…{PAUSE 45} at\l"
-	.string "any cost.$"
+	.string "GIOVANNI: I hope that, SILVER.\p"
+	.string "It's the best decision.\p"
+	.string "Distance yourself from this charade,\n"
+	.string "improve independently.\p"
+	.string "Meanwhile, I'll shape the region you\n"
+	.string "live {PAUSE 25}…{PAUSE 45} at any cost.$"
 

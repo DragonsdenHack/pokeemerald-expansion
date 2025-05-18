@@ -227,7 +227,7 @@ release
 end
 
 SaffronCity_Lider_Gimnasio_Texto_1:
-	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Wow, it is curious. A short time ago,\n"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Wow, that's curious. A short time ago,\n"
 	.string "the same thing happened with another\l"
 	.string "girl dressed as a ROCKET. But your\l"
 	.string "arrival catches me totally by surprise.\p"
@@ -409,13 +409,13 @@ Vermilion_City_Lider_Gimnasio_Texto_1:
 
 Vermilion_City_Lider_Gimnasio_Texto_2:
 	.string "It can not be true, I lost again! I do\n"
-	.string "not have another option that give you\l"
-	.string "the THUNDERBADGE!$"
+	.string "not have another option than to give\l"
+	.string "you the THUNDERBADGE!$"
 
 Vermilion_City_Lider_Gimnasio_Texto_3:
 	.string "I will give you a little advice, run away\n"
-	.string "of this region before all of the LANCE's\l"
-	.string "fury blows up in your face.$"
+	.string "from this region before all of the\l"
+	.string "LANCE's fury blows up in your face.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_3.1:
 .string "Habrás ganado la batalla, pero\n"
@@ -828,17 +828,17 @@ Fuchsia_City_Lider_Gimnasio_Texto_1.1:
 	.string "EXECUTIVEs!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:
-	.string "I didn't expect less from you, you\n"
+	.string "I didn't expect any less from you, you\n"
 	.string "deserve GIOVANNI's trust and everyone\l"
-	.string "who battles for a better KANTO. Here\l"
-	.string "you have the SOULBADGE!$"
+	.string "who battles for a better KANTO.\l"
+	.string "Here you have the SOULBADGE!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_3:
 	.string "Joining TEAM ROCKET was the best\n"
 	.string "decision you made, look at you, you've\l"
 	.string "built up a strong character and\l"
 	.string "personality, understanding the truths\l"
-	.string "hidden within this region, whereas RD\l"
+	.string "hidden within this region, whereas RED\l"
 	.string "lives in his fantasy world, believing\l"
 	.string "this is just a game, do me the favor of\l"
 	.string "delivering a hefty dose of reality to\l"

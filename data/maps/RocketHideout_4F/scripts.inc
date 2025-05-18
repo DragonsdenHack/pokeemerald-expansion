@@ -2541,16 +2541,17 @@ RocketHideout_4F_Warp_Text_YesNo:
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1:
 	.string "GIOVANNI: Excellent work in FUCHSIA,\n"
 	.string "ANDRA. Now those DRATINI and SCYTHER\l"
-	.string "will be sold at the price of gold as\l"
-	.string "prizes in the GAME CORNER.\p"
+	.string "will be sold at the price as golden\l"
+	.string "as prizes are at the GAME CORNER.\p"
 	.string "Here is your reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2:
 	.string "GIOVANNI: You have returned as well,\n"
 	.string "{PLAYER}, you have maintained the\l"
-	.string "chat between FUJI and PROTON private,\l"
-	.string "as I instructed, which has been key for\l"
-	.string "us. Then you deserve your reward.$"
+	.string "chat between FUJI and PROTON private\l"
+	.string "as I instructed you, which has been\l"
+	.string "key for us.\p"
+	.string "You then deserve a reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_3:
 	.string "You earned ¥135,000!$"
@@ -2560,24 +2561,23 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
 	.string "ROCKET, I'm rewarding you with one of the\l"
 	.string "CUBONES that were stolen from the\l"
 	.string "POKÉMON TOWER. But this is not an usual\l"
-	.string "one; this CUBONE has holding the\l"
-	.string "THICK CLUB, an object that duplicates\l"
-	.string "it's physical attack, even once\l"
-	.string "evolved into MAROWAK.$"
+	.string "one; this CUBONE is holding a THICK CLUB.\p"
+	.string "That object duplicates it's physical\n"
+	.string "attack, even once evolved into MAROWAK.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4.1:
     .string "It's, certainly, a proper gift\n"
-	.string "for the one that, fighting FUJI,\l"
+	.string "for the one that, by fighting FUJI,\l"
 	.string "made it's capture possible.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_5:
 .string "YOU JUST RECEIVED A CUBONE AT LV:20!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_6:
-	.string "GIOVANNI: To wrap up{PAUSE 15}…{PAUSE 15} You'll be\n"
-	.string "interested to know that, after a\l"
-	.string "research about the KANGASKHAN sighted\l"
-	.string "on the ROCK TUNNEL, we discovered\l"
+	.string "GIOVANNI: To wrap it up{PAUSE 15}…{PAUSE 15}\p"
+	.string "You may be intrested to know that,\n"
+	.string "after researching the KANGASKHAN\l"
+	.string "sightings in ROCK TUNNEL, we discovered\l"
 	.string "that it's physiology is particularly\l"
 	.string "similar to the evolution line of\l"
 	.string "CUBONE-MAROWAK.$"
@@ -2605,7 +2605,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7.3:
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8:
 	.string "GIOVANNI: The most accurate way to\n"
 	.string "prove this would be to demolish the\l"
-	.string "POKÉMON TOWER, force all the CUBONE\l"
+	.string "POKÉMON TOWER, forcing all the CUBONE\l"
 	.string "there to migrate in mass to ROCK\l"
 	.string "TUNNEL, and let time pass.$"
 
@@ -2628,7 +2628,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.2:
 	.string "observe increasingly over time.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10:
-.string "But that's enough for this.\p"
+.string "But enough about this.\p"
 	.string "I would like to take this opportunity,\n"
 	.string "with you two here, to acknowledge\l"
 	.string "your competence.$"
@@ -2640,12 +2640,11 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10.2:
 	.string "GIOVANNI: Both of you have completed 6\n"
 	.string "missions with us, and have succeeded\l"
 	.string "in 5 of them.\p"
-	.string "These missions has earned you a\n"
-	.string "good amount of income.$"
+	.string "These missions have earned you a\n"
+	.string "good amount of money.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_11:
-    .string "However, as you have been able\n"
-	.string "to verify, TEAM ROCKET is banned\l"
+	.string "As you know, TEAM ROCKET is banned\n"
 	.string "from entering any public pokémart in\l"
 	.string "the region, including this city's main\l"
 	.string "shopping center.$"
@@ -2660,8 +2659,8 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_12:
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_13:
     .string "In this organization, we never leave\n"
 	.string "anything to chance.\p"
-	.string "Time ago, we established an immense\n"
-	.string "private commercial network, larger than\l"
+	.string "Some time ago, we established an immense\n"
+	.string "underground black market, larger than\l"
 	.string "the supply imposed and set by those\l"
 	.string "leeches of the INDIGO PLATEAU.$"
 
@@ -2700,12 +2699,12 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18:
 	.string "I have just shown you.\p"
 	.string "If the authorities had any idea of what\n"
 	.string "we have here, they wouldn't hesitate to\l"
-	.string "bomb the GAME CORNER along the entire\l"
-	.string "CELADON CITY if necessary.$"
+	.string "bomb the GAME CORNER along with the\l"
+	.string "entire CELADON CITY if necessary.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19:
 .string "Only our top scientists and HIGH RANK\n"
-	.string "GRUNTs can access there, now, you can\l"
+	.string "GRUNTs have access there, now, you can\l"
 	.string "access it whenever you want, by just\l"
 	.string "interacting with PROTON's laptop.$"
 
@@ -3289,7 +3288,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31:
 .string "We believe its content comes from the\n"
 	.string "ruins, I won't tell you directly to go\l"
 	.string "investigate as another mission, I just\l"
-	.string "inform you of it, if you feel curious,\l"
+	.string "wanted to inform you, if you feel curious,\l"
 	.string "you can go look at the ruins and try to\l"
 	.string "find something.$"
 

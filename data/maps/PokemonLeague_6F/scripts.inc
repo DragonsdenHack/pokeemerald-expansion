@@ -540,9 +540,9 @@ PokemonLeague_6F_Final_Texto_4:
 	.string "KANTO.$"
 
 PokemonLeague_6F_Final_Texto_5:
-	.string "I know perfectly your BOSS, wanted to\n"
-	.string "save the region at his own way and just\l"
-	.string "brought ruin.$"
+	.string "I know exactly who your BOSS is: he\n"
+	.string "wanted to save the region his own way\l"
+	.string "and just brought ruin.$"
 
 PokemonLeague_6F_Final_Texto_6:
 	.string "He and his silly followers didn't realize\n"
@@ -617,14 +617,14 @@ PokemonLeague_6F_Final_Texto_12.1:
 	.string "day. There is no escape possibility.$"
 
 PokemonLeague_6F_Final_Texto_13:
-	.string "Don't you notice? No one, not even\n"
-	.string "LANCE, would win against a RED\l"
+	.string "Didn't you notice? No one, not even\n"
+	.string "LANCE, could win against a RED\l"
 	.string "long-term, exposed to enough\l"
 	.string "stimulus to perfect his team.$"
 
 PokemonLeague_6F_Final_Texto_14:
 	.string "Do you think that I do not want to use\n"
-	.string "it for saving KANTO from LANCE tyranny?\p"
+	.string "it to save KANTO from LANCE's tyranny?\p"
 	.string "If not for starting my own dictature?$"
 
 PokemonLeague_6F_Final_Texto_15:
@@ -681,12 +681,12 @@ PokemonLeague_6F_Final_Texto_23:
 	.string "INCONCEIVABLE!$"
 
 PokemonLeague_6F_Final_Texto_24:
-	.string "You must not have won! RED was made\n"
-	.string "specifically for this! There is not any\l"
-	.string "possible way that you could have\l"
-	.string "defeated him with your resources that\l"
-	.string "you have and the POKÉMON that you can\l"
-	.string "catch in KANTO!$"
+	.string "You couldn't have won!\p"
+	.string "RED was made specifically for this!\p"
+	.string "There is not any possible way that\n"
+	.string "you could have defeated him with your\l"
+	.string "resources that you have and the\l"
+	.string "POKÉMON that you can catch in KANTO!$"
 
 PokemonLeague_6F_Final_Texto_25:
 .string "There isn't another possible explanation!\p"
@@ -710,7 +710,7 @@ PokemonLeague_6F_Final_Texto_28:
 	.string "position for as long as we desire-.$"
 
 PokemonLeague_6F_Final_Texto_29:
-	.string "That were your words, OAK, when you\n"
+	.string "Those were your words, OAK, when you\n"
 	.string "convinced me to re-open the chance\l"
 	.string "to win the LEAGUE CHAMPIONSHIP.$"
 
@@ -748,7 +748,7 @@ PokemonLeague_6F_Final_Texto_31:
 
 PokemonLeague_6F_Final_Texto_31.1:
 	.string "A ROCKET, OAK!\p"
-	.string "HAS BEEN A ROCKET!$"
+	.string "SOME HAS BEEN A ROCKET!$"
 
 PokemonLeague_6F_Final_Texto_31.2:
 	.string "Perhaps you underestimated the\n"
@@ -760,7 +760,7 @@ PokemonLeague_6F_Final_Texto_31.2:
 
 PokemonLeague_6F_Final_Texto_32:
 	.string "OAK: Lemme{PAUSE 15}…{PAUSE 15} let you explain{PAUSE 25}…{PAUSE 25} MR.LANCE{PAUSE 15}…{PAUSE 15}\p"
-	.string "RED was not ready yet, still needs\n"
+	.string "RED was not ready yet, it still needs\n"
 	.string "to be exposed at…$"
 
 PokemonLeague_6F_Final_Texto_33:
@@ -877,7 +877,7 @@ PokemonLeague_6F_Final_Texto_47:
 	.string "How?$"
 
 PokemonLeague_6F_Final_Texto_48:
-	.string "LANCE: This can't be! No one had stood a\n"
+	.string "LANCE: This can't be! No one has stood a\n"
 	.string "chance against my best POKÉMON; they\l"
 	.string "are the best around! There's nothing\l"
 	.string "stronger in the entire KANTO region!$"
@@ -914,8 +914,8 @@ PokemonLeague_6F_Final_Texto_53:
 	.string "risk of attracting media attention!\p"
 	.string "You've proven the invaluable worth of\n"
 	.string "properly trained POKÉMON, regardless\l"
-	.string "of their origin, you have made them a\l"
-	.string "totally champions, capable of\l"
+	.string "of their origin, you have made them\l"
+	.string "total champions, capable of\l"
 	.string "overcoming any situation!$"
 
 PokemonLeague_6F_Final_Texto_54:

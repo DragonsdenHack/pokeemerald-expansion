@@ -368,9 +368,9 @@ face_up
 step_end
 
 PokemonTower_6F_Cultistas_Texto_1:
-	.string "????: So you are the guy that had been\n"
-	.string "causing all the commotion into a sacred\l"
-	.string "place like this.$"
+	.string "????: So you are the cause of all\n"
+	.string "the commotion happening in such a\l"
+	.string "sacred place like this.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -417,12 +417,13 @@ PokemonTower_6F_Cultistas_Texto_10:
 
 PokemonTower_6F_Cultistas_Texto_11:
 	.string "This world is much bigger than\n"
-	.string "dictators that are submitting KANTO, I\l"
-	.string "just hope you could survive to see it.\l"
+	.string "dictators that are submitting KANTO,\l"
+	.string "I just hope you can survive long\l"
+	.string "enough to see it.\p"
 	.string "Let me heal your POKÉMON team.$"
 
 PokemonTower_6F_Cultistas_Texto_12:
-	.string "Continue your path.$"
+	.string "Keep your journey alive.$"
 
 PokemonTower_6F_Cultistas_Move_1:
 emote_exclamation_mark

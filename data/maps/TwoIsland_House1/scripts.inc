@@ -97,7 +97,7 @@ end
 
 TwoIslandHouse_Tercer_Motero_Texto_1:
 .string "What are you looking for?\n"
-	.string "Get away from here, kid!$"
+	.string "Get away from here, dude!$"
 
 TwoIslandHouse_Cuarto_Motero::
 lock

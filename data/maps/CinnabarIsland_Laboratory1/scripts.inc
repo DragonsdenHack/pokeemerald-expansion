@@ -181,9 +181,9 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_5:
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_6:
 	.string "Take this, EXECUTIVE {PLAYER}, you\n"
 	.string "deserve that: I'll give you 5 of these 60\l"
-	.string "EEVEE, you will take a better advantage\l"
-	.string "than those dirty that bought the other\l"
-	.string "10 EEVEE,I am pretty sure.$"
+	.string "EEVEE, you'll take more advantage of them\l"
+	.string "than those filthy lowlifes that bought\l"
+	.string "the other 10 EEVEE,I am pretty sure.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_7:
 	.string "YOU RECEIVED 5 EEVEE AT LV.25!!$"
@@ -215,7 +215,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
 	.string "Always able for everything! This is the\n"
-	.string "aptitude! I count on you EXECUTIVE\l"
+	.string "aptitude! I'm counting on you, EXECUTIVE\l"
 	.string "{PLAYER}! Both my colleague and I\l"
 	.string "were given a large number of EEVEE\l"
 	.string "specimens by SILPH, which is one of the\l"
