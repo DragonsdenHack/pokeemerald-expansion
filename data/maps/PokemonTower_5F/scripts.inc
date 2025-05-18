@@ -14,9 +14,10 @@ release
 end
 
 PokemonTower5F_Text_2:
-	.string "All souls can be redeemed. Rest here\n"
-	.string "ROCKET and perhaps that will make you\l"
-	.string "reflect on your sinful deeds.$"
+	.string "Alle Seelen können Erlösung erfahren.\p"
+	.string "Ruh dich hier aus, RÜPEL. Vielleicht\n"
+	.string "bringt dich das dazu, über deine\l"
+	.string "Schandtaten nachzudenken.$"
 
 
 
@@ -88,9 +89,9 @@ walk_in_place_down
 step_end
 
 PokemonTower5F_Curacion_Texto_1:
-	.string "Entered the purified and protected\n"
-	.string "zone. {PLAYER}'s POKÉMON were fully\l"
-	.string "healed.$"
+	.string "Du hast einen geschützten Bereich\n"
+	.string "betreten! Die POKéMON von\l"
+	.string "{PLAYER} wurden geheilt!$"
 
 
 

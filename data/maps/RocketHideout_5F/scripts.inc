@@ -15,11 +15,12 @@ release
 end
 
 RocketHideout5F_2_Texto_1:
-	.string "Welcome to the express healing CENTER…$"
+	.string "Willkommen beim\n"
+	.string "SCHNELL-HEILUNGS-CENTER {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout5F_2_Texto_2:
-	.string "Thank you!\p"
-	.string "Your POKÉMON are fighting fit!$"
+	.string "Danke!\p"
+	.string "Deine POKéMON sind wieder kampfbereit!$"
 
 end
 
@@ -33,10 +34,10 @@ release
 end
 
 RocketHideout5F_Text_3:
-	.string "We're interested in KANTO thinking we're\n"
-	.string "a gang of brainless incompetents, you\l"
-	.string "can't defend yourself properly against\l"
-	.string "something you're not aware of.$"
+	.string "Unsere Absicht ist, dass KANTO uns für\n"
+	.string "inkompetente Idioten hält. Kannst dich\l"
+	.string "nicht gegen etwas verteidigen, was dir\l"
+	.string "nicht bewusst ist.$"
 
 
 
@@ -48,9 +49,9 @@ release
 end
 
 RocketHideout5F_Text_4:
-	.string "GIOVANNI is the best LEADER that we\n"
-	.string "could have, and will never let the TEAM\l"
-	.string "ROCKET fall down.$"
+	.string "GIOVANNI ist der beste Anführer aller\n"
+	.string "Zeiten! Er würde TEAM ROCKET niemals\l"
+	.string "im Stich lassen!$"
 
 
 
@@ -77,10 +78,11 @@ release
 end
 
 RocketHideout5F_Text_8:
-	.string "Every great business is built around a\n"
-	.string "big secret hidden from the outside\l"
-	.string "world. This place is one of our big\l"
-	.string "hidden secrets.$"
+	.string "Jedes erfolgreiche Geschäft basiert\n"
+	.string "auf einem großen Geheimnis, das von der\l"
+	.string "Außenwelt verborgen bleibt.\p"
+	.string "Dieser Ort hier ist einer unserer\n"
+	.string "großen Geheimnisse.$"
 
 
 
@@ -92,12 +94,12 @@ release
 end
 
 RocketHideout5F_Text_9:
-	.string "You're now in the AREA 1 of the true\n"
-	.string "CELADON BASE, where we intend to\l"
-	.string "extract the highest potential possible\l"
-	.string "that each NON-LEGENDARY POKÉMON can\l"
-	.string "offer to us, which sometimes is quite\l"
-	.string "impressive.$"
+	.string "Du befindest dich jetzt in BEREICH 1\n"
+	.string "der eigentlichen PRISMANIA BASIS, wo\l"
+	.string "wir beabsichtigen, das größtmögliche\l"
+	.string "Potenzial aus jedem NICHT-LEGENDÄREN\l"
+	.string "POKéMON rauszuholen, welches manchmal\l"
+	.string "ziemlich beeindruckend ist.$"
 
 
 
@@ -109,11 +111,11 @@ release
 end
 
 RocketHideout5F_Text_10:
-	.string "It is said that -The Seven Habits of\n"
-	.string "Highly Effective People- by Doc.\l"
-	.string "Stephen Covey made GIOVANNI to\l"
-	.string "increase the observable performance of\l"
-	.string "the organization by 20%.$"
+	.string "Es wird gesagt, dass Doktor Stephen\n"
+	.string "Coveys Buch -Die 7 Wege zur\l"
+	.string "Effektivität- GIOVANNI dabei geholfen\l"
+	.string "hat, die sichtbare Leistung der\l"
+	.string "Organisation um 20 % zu steigern.$"
 
 
 
@@ -125,17 +127,7 @@ release
 end
 
 RocketHideout5F_Text_11:
-	.string "KANTO right now seems like a parody of\n"
-	.string "those great dystopian works of the\l"
-	.string "early 20th century: -1984- and -A\l"
-	.string "Brave New World-. KANTO is not as\l"
-	.string "controlled as Orwell describes,\l"
-	.string "although its citizens are overwhelmed\l"
-	.string "with overwork. As for -A Brave New\l"
-	.string "World-{PAUSE 25}…{PAUSE 25} the illusion of the POKEMON\l"
-	.string "league and the dream of being a POKEMON\l"
-	.string "master might be the dose of modern\l"
-	.string "soma that keeps KANTO sane.$"
+	.string "traducir$"
 
 
 
@@ -152,11 +144,11 @@ release
 end
 
 RocketHideout5F_Text_14:
-	.string "Try to automate as much as you can the\n"
-	.string "transitions between tasks, don't let'em\l"
-	.string "a breath or else you'll get lost in them,\l"
-	.string "and you'll end up losing many hours a\l"
-	.string "day.$"
+	.string "Automatisiere die Übergänge zwischen\n"
+	.string "deinen Aufgaben so gut wie möglich.\p"
+	.string "Gib den Ablenkungen keine Chance,\n"
+	.string "sonst verlierst du dich darin und\l"
+	.string "verschwendest viele Stunden am Tag.$"
 
 
 
@@ -168,13 +160,14 @@ release
 end
 
 RocketHideout5F_Text_15:
-	.string "Those who rule know the rules\n"
-	.string "frighteningly well. As much as it seems\l"
-	.string "that they cheat, even worse, they have\l"
-	.string "arranged the rules in a way that allows\l"
-	.string "them to cheat. So, the only chance is an\l"
-	.string "armored coup; there is no such thing as\l"
-	.string "justice.$"
+	.string "Diejenigen, die herrschen, kennen die\n"
+	.string "Regeln erschreckend gut. So sehr es\l"
+	.string "auch scheint, dass sie betrügen, ist es\l"
+	.string "in Wahrheit noch schlimmer. Sie haben\l"
+	.string "die Regeln so gestaltet, dass sie ihnen\l"
+	.string "das Betrügen ermöglicht. Die einzige\l"
+	.string "Chance ist also ein Staatsstreich.\p"
+	.string "Gerechtigkeit ist nur eine Illusion.$"
 
 
 
@@ -186,9 +179,11 @@ release
 end
 
 RocketHideout5F_Text_16:
-	.string "Comfort confines the people of KANTO\n"
-	.string "in the fear of a very low pain threshold,\l"
-	.string "leaving them as they are now.$"
+	.string "Die Bequemlichkeit fesselt die\n"
+	.string "Menschen von KANTO an die Furcht, das\l"
+	.string "kleinste bisschen Luxus zu verlieren.\p"
+	.string "Deswegen bleiben die Dinge\n"
+	.string "unverändert.$"
 
 
 
@@ -200,12 +195,13 @@ release
 end
 
 RocketHideout5F_Text_17:
-	.string "This last century has confirmed that\n"
-	.string "there is a huge economic dependence on\l"
-	.string "science. No matter how it is, we shall\l"
-	.string "accept this game 's rules and if it's\l"
-	.string "needed, we'll sell PORYGONs at ¥200,000\l"
-	.string "each one.$"
+	.string "Das letzte Jahrhundert hat uns\n"
+	.string "gelehrt, dass eine enorme\l"
+	.string "wirtschaftliche Abhängigkeit von der\l"
+	.string "Wissenschaft herrscht. Wir akzeptieren\l"
+	.string "die Regeln des Spiels, ganz egal wie die\l"
+	.string "Lage auch sein mag - und wenn nötig,\l"
+	.string "verkaufen wir PORYGON für je 200.000¥.$"
 
 
 
@@ -217,27 +213,30 @@ release
 end
 
 RocketHideout5F_Text_18:
-	.string "Sometimes, the laws of nature are\n"
-	.string "stronger than our personal desires.\p"
-	.string "PIDGEOT is a reference for KANTO birds.\p"
-	.string "His base total is 479, the highest among\n"
-	.string "NON-LEGENDARIES. He must have evolved\l"
-	.string "all along these years until it became\l"
-	.string "the great bird it is. Also, he can reach\l"
-	.string "its maximum potential with\l"
-	.string "MEGA-EVOLUTION, reaching 579 base\l"
-	.string "STATs. Exactly 1 point below the\l"
-	.string "legendary birds, with 580 points.\p"
-	.string "Coincidence? I don't think so. It looks\n"
-	.string "like the legendary ones are saying -it\l"
-	.string "doesn't matter how hard you try, we're in\l"
-	.string "separate leagues, we're the chosen\l"
-	.string "ones, do whatever you want, ‘cause you'll\l"
-	.string "never reach us-. Even though we think\l"
-	.string "that the potential can reach\l"
-	.string "unsuspected levels, we also admit that\l"
-	.string "there exists some limit established by\l"
-	.string "the universe laws.$"
+	.string "Manchmal sind die Gesetze der Natur\n"
+	.string "stärker als unser Begehren. TAUBOSS\l"
+	.string "gilt als Referenz der KANTO Vögel\l"
+	.string "betrachtet werden. Sein Gesamtwert\l"
+	.string "beträgt 479 und ist damit der höchste\l"
+	.string "unter allen NICHT-LEGENDÄREN. Es muss\l"
+	.string "sich über all die Jahre entwickelt\l"
+	.string "haben, bis es zu dem großartigen Vogel\l"
+	.string "wurde, der er heute ist. Sein maximales\l"
+	.string "Potenzial kann er durch die\l"
+	.string "MEGA-ENTWICKLUNG erreichen, mit der\l"
+	.string "seine Gesamtwerte auf 579 ansteigen.\p"
+	.string "Genau ein Punkt unter den legendären\n"
+	.string "Vögeln. Zufall? Ich denke nicht. Es ist,\l"
+	.string "als würden die legendären POKéMON\l"
+	.string "sagen: -Es spielt keine Rolle, wie sehr\l"
+	.string "ihr es auch versucht. Ihr werdet uns\l"
+	.string "niemals das Wasser reichen können. Wir\l"
+	.string "sind die Auserwählten, nicht ihr.-\p"
+	.string "Obwohl wir glauben, dass das Potenzial\n"
+	.string "eines POKéMON ungeahnte Höhen\l"
+	.string "erreichen kann, müssen wir auch\l"
+	.string "zugeben, dass vom Universum\l"
+	.string "festgelegte Grenzen existieren.$"
 
 
 
@@ -249,25 +248,28 @@ release
 end
 
 RocketHideout5F_Text_19:
-	.string "Parkinson's Law dictates that work\n"
-	.string "expands to fill the time available for\l"
-	.string "its completion. Therefore, if you're\l"
-	.string "given 12 hours to complete a task,\l"
-	.string "you'll likely use all 12 hours; if given 9,\l"
-	.string "you'll use 9. That's why I'm sharing this\l"
-	.string "with you: prioritize yourself first,\l"
-	.string "then tackle non-urgent tasks that may\l"
-	.string "consume some time but can make a\l"
-	.string "significant difference for you.\p"
-	.string "This is how you can leverage this law,\n"
-	.string "as it compels you to address tasks\l"
-	.string "that are both important and urgent\l"
-	.string "simultaneously, aiming for efficiency.\p"
-	.string "When individuals are compelled to\n"
-	.string "heighten their senses and are pushed\l"
-	.string "to their limits, they often surpass\l"
-	.string "expectations. Without this drive,\l"
-	.string "Parkinson's Law wouldn't exist.$"
+	.string "Laut dem Parkinsonschen Gesetz dehnt\n"
+	.string "sich Arbeit genau so weit aus, wie Zeit\l"
+	.string "für ihre Erledigung vorhanden ist. Wenn\l"
+	.string "dir 12 Stunden zur Verfügung stehen,\l"
+	.string "wirst du diese 12 Stunden nutzen; bei 9\l"
+	.string "Stunden nutzt du eben diese 9.\p"
+	.string "Daher rate ich dir folgendes: Sei dir\n"
+	.string "selbst der Nächste, bevor du dich den\l"
+	.string "weniger dringenden Aufgaben widmest, die\l"
+	.string "zwar Zeit in Anspruch nehmen, aber einen\l"
+	.string "bedeutenden Unterschied für dich\l"
+	.string "machen können. Auf diese Weise kannst\l"
+	.string "du dieses Gesetz zu deinem Vorteil\l"
+	.string "nutzen, da es dich dazu zwingt, wichtige\l"
+	.string "und dringende Aufgaben gleichzeitig\l"
+	.string "anzugehen, mit dem Ziel, effizient zu\l"
+	.string "sein. Wenn Menschen gezwungen werden,\l"
+	.string "ihre Sinne zu schärfen und an ihre\l"
+	.string "Grenzen zu gehen, übertreffen sie oft\l"
+	.string "die an sie gestellten Erwartungen.\p"
+	.string "Ohne diesen Antrieb gäbe es das\n"
+	.string "Parkinsonsche Gesetz nicht.$"
 
 
 
@@ -284,10 +286,11 @@ release
 end
 
 RocketHideout5F_Text_21:
-	.string "Destiny or freedom? The answer to that\n"
-	.string "question doesn't depend on you, so shut\l"
-	.string "the f''k up and get moving on what does.\p"
-	.string "That's all.$"
+	.string "Schicksal oder Freiheit? Die harte\n"
+	.string "Wahrheit ist, dass die Antwort auf\l"
+	.string "diese Frage nicht von dir abhängig ist.\p"
+	.string "Also halt die Fresse und mache dich\n"
+	.string "wieder an die Arbeit! Das ist alles!$"
 
 
 
@@ -304,11 +307,10 @@ release
 end
 
 RocketHideout5F_Text_23:
-	.string "LANCE's government is really\n"
-	.string "comfortable right where it is, and that's\l"
-	.string "precisely its weak spot, they've resting\l"
-	.string "on one's laurels, and they shall pay for\l"
-	.string "that.$"
+	.string "SIEGFRIEDs Regierung fühlt sich zu\n"
+	.string "sicher und das ist ihre Schwäche.\p"
+	.string "Sie ruhen sich auf ihren Lorbeeren\n"
+	.string "aus und das wird ihr Untergang.$"
 
 
 
@@ -320,13 +322,14 @@ release
 end
 
 RocketHideout5F_Text_24:
-	.string "Genetics, a crucial word. Why is a\n"
-	.string "MAGIKARP so weak? Why are the sacred\l"
-	.string "birds so strong? It is all about\l"
-	.string "genetics, here we investigate the\l"
-	.string "limits of genetics trying to extract all\l"
-	.string "the possible potential of the\l"
-	.string "strongest POKÉMON of the region.$"
+	.string "Genetik ist das entscheidende Wort.\p"
+	.string "Warum ist ein KARPADOR so schwach?\p"
+	.string "Warum sind die legendären Vögel so\n"
+	.string "stark? Alles dreht sich um die Genetik\l"
+	.string "und hier erforschen wir die Grenzen der\l"
+	.string "Genetik, um das gesamte mögliche\l"
+	.string "Potential der stärksten POKéMON\l"
+	.string "dieser Region herauszuholen.$"
 
 
 
@@ -339,15 +342,18 @@ release
 end
 
 RocketHideout5F_Text_25:
-	.string "This room was intended for evaluating\n"
-	.string "our progress and establishing new\l"
-	.string "objectives, however, other departments\l"
-	.string "already handle that, I suppose that's a\l"
-	.string "risk you assume when building a place\l"
-	.string "like this,the larger it is, the more\l"
-	.string "dispensable space there is, it's better\l"
-	.string "to make a mistake by going too far than\l"
-	.string "not reaching far enough though.$"
+	.string "Dieser Raum war ursprünglich dazu\n"
+	.string "gedacht, unseren Fortschritt zu\l"
+	.string "überprüfen und neue Ziele festzulegen.\p"
+	.string "Jedoch kümmern sich bereits andere\n"
+	.string "Abteilungen um diese Aufgaben. Ich\l"
+	.string "schätze, das ist das Risiko, das man\l"
+	.string "eingeht, wenn man so einen Ort\l"
+	.string "erschafft. Je größer er ist, desto mehr\l"
+	.string "Platz wird letztlich überflüssig.\p"
+	.string "Trotzdem ist es besser den Fehler zu\n"
+	.string "machen, zu weit zu gehen, als nicht\l"
+	.string "genug zu erreichen.$"
 
 
 
@@ -364,13 +370,14 @@ release
 end
 
 RocketHideout5F_Text_27:
-	.string "You won't see a lot of TRAINERS with\n"
-	.string "POKÉMON like PINSIR, SCYTHER, TAUROS,\l"
-	.string "KANGASKHAN or the EEVEE evolutions, all\l"
-	.string "those considered strong and uncommon\l"
-	.string "POKÉMON, and those first 4 cacheable at\l"
-	.string "SAFARI ZONE, which is on part, their\l"
-	.string "success reason.$"
+	.string "Du wirst nicht vielen Trainern mit\n"
+	.string "POKéMON wie PINSIR, SICHLOR, TAUROS,\l"
+	.string "KANGAMA oder den EVOLI-Evolutionen\l"
+	.string "begegnen. Sämtliche dieser POKéMON\l"
+	.string "gelten als stark und selten.\p"
+	.string "Nur die ersten vier der Genannten sind\n"
+	.string "in der SAFARI-ZONE fangbar, was teil-\l"
+	.string "weise der Grund für ihren Erfolg ist.$"
 
 
 
@@ -382,12 +389,14 @@ release
 end
 
 RocketHideout5F_Text_28:
-	.string "The expectation, feelings, optimism,\n"
-	.string "planification and big future plans that\l"
-	.string "you feel here is unique, don't you feel\l"
-	.string "it? Stay here for an entire week and\l"
-	.string "you will be absolutely certain that you\l"
-	.string "can achieve whatever you set out to do.$"
+	.string "Die Erwartung, die Gefühle, der\n"
+	.string "Optimismus, die Planung und die großen\l"
+	.string "Zukunftspläne, die man hier wahrnimmt,\l"
+	.string "sind einzigartig. Spürst du es nicht?\p"
+	.string "Verbringe eine Woche hier und du wirst\n"
+	.string "absolut davon überzeugt sein, dass du\l"
+	.string "alles erreichen kannst, was du dir\l"
+	.string "vornimmst.$"
 
 
 
@@ -399,17 +408,19 @@ release
 end
 
 RocketHideout5F_Text_29:
-	.string "Someone once said that obsession is\n"
-	.string "the word that lazy people use to\l"
-	.string "describe dedicated people, it's almost a\l"
-	.string "given that as soon as you start\l"
-	.string "excelling in something, to a greater or\l"
-	.string "lesser extent, they'll label you as\l"
-	.string "obsessed, but what's wrong with wanting\l"
-	.string "to explore your limits in any aspect?,\l"
-	.string "that just could make you stronger and\l"
-	.string "make you more conscious of the laws\l"
-	.string "that rule this world.$"
+	.string "Jemand sagte einst, dass Besessenheit\n"
+	.string "das Wort sei, mit dem faule Menschen die\l"
+	.string "Hingebungsvollen beschreiben.\p"
+	.string "Es ist beinahe eine Tatsache, dass man,\n"
+	.string "sobald man in etwas mehr oder weniger\l"
+	.string "hervorsticht, von anderen als besessen\l"
+	.string "betrachtet wird. Aber wo liegt der\l"
+	.string "Fehler in dem Verlangen, seine Grenzen\l"
+	.string "in einem bestimmten Bereich ausreizen\l"
+	.string "zu wollen? Das zu tun, könnte einen\l"
+	.string "stärker machen und ein besseres\l"
+	.string "Verständnis für die Gesetze verleihen,\l"
+	.string "die diese Welt bestimmen.$"
 
 
 
@@ -421,21 +432,23 @@ release
 end
 
 RocketHideout5F_Text_30:
-	.string "Here, we advocate for a constant and\n"
-	.string "gradual progress, but we also\l"
-	.string "acknowledge the unparalleled potential\l"
-	.string "of intuition and spontaneity, you just\l"
-	.string "need to see an inspired sportsman to\l"
-	.string "notice of that potential, when someone\l"
-	.string "is in the famous -flow state-, that is\l"
-	.string "able to score 5 goals in 10 minutes, or\l"
-	.string "to annihilate the 11-time champion of\l"
-	.string "the championship by winning 7 games to\l"
-	.string "0, controlling the entire set of\l"
-	.string "variables that lead to that state is\l"
-	.string "incredibly complex but if we could keep\l"
-	.string "that state over time, we would unleash\l"
-	.string "nearly 100% of humanity potential.$"
+	.string "Wir setzen hier zwar auf ständigen und\n"
+	.string "allmählichen Fortschritt, doch\l"
+	.string "erkennen wir auch das unvergleichbare\l"
+	.string "Potential von Intuition und\l"
+	.string "Spontanität an. Man muss sich nur einen\l"
+	.string "Athleten im berüchtigsten sogenannten\l"
+	.string "-Flow-Zustand- ansehen. In diesem kann\l"
+	.string "er fünf Tore in zehn Minuten schießen\l"
+	.string "oder einen elfmaligen Champ mit 7:0\l"
+	.string "vernichten. Die Kontrolle über die\l"
+	.string "komplexen Variablen, die diesen Zustand\l"
+	.string "ermöglichen, ist äußerst schwierig.\p"
+	.string "Doch wenn es uns gelänge, diesen\n"
+	.string "Zustand über längere Zeit\l"
+	.string "aufrechtzuerhalten, könnten wir\l"
+	.string "nahezu 100 % des menschlichen\l"
+	.string "Potenzials entfesseln.$"
 
 
 
@@ -452,14 +465,15 @@ release
 end
 
 RocketHideout5F_Text_32:
-	.string "Just a few people knows that the TEAM\n"
-	.string "ROCKET was not established by\l"
-	.string "GIOVANNI, but it was for his mother,\l"
-	.string "MADAME BOSS, the initial founder, who\l"
-	.string "invested all her efforts in capturing\l"
-	.string "the legendary MEW, the ancestor of all\l"
-	.string "POKÉMON back in 1975, just if she sees\l"
-	.string "how much we had achievement…$"
+	.string "Nur wenige wissen, dass TEAM ROCKET\n"
+	.string "nicht von GIOVANNI, sondern von seiner\l"
+	.string "Mutter, MADAME BOSS, gegründet wurde.\p"
+	.string "Sie ist die ursprüngliche Gründerin,\n"
+	.string "die 1975 all ihre Energie darauf\l"
+	.string "konzentriert hat, das legendäre MEW zu\l"
+	.string "fangen, der Urahn aller POKéMON.\p"
+	.string "Wenn sie nur sehen könnte, wie weit\n"
+	.string "wir gekommen sind {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -471,16 +485,18 @@ release
 end
 
 RocketHideout5F_Text_33:
-	.string "Out there, reality distorts in so many\n"
-	.string "possible ways, and it's understandable\l"
-	.string "that it does, in politics or religion, two\l"
-	.string "and two can add up to five, but that's\l"
-	.string "impossible here, you can't ignore the\l"
-	.string "physical facts, and neither fool this\l"
-	.string "world essential laws, if you want to\l"
-	.string "optimize a POKÉMON efficiency, or to\l"
-	.string "find out the best BASE STATs\l"
-	.string "distribution, two plus two must be four.$"
+	.string "Draußen verzerrt sich die Realität auf\n"
+	.string "so viele mögliche Arten und Weisen und\l"
+	.string "es ist verständlich, warum es passiert.\p"
+	.string "In der Politik und Religion können zwei\n"
+	.string "und zwei fünf ergeben. Aber hier ist das\l"
+	.string "unmöglich. Du kannst die physischen\l"
+	.string "Fakten nicht ignorieren und auch nicht\l"
+	.string "die Naturgesetze täuschen. Wenn du die\l"
+	.string "Effizienz eines POKéMON optimieren\l"
+	.string "oder die beste Verteilung der\l"
+	.string "STATUSWERTE herausfinden willst,\l"
+	.string "müssen zwei plus zwei vier ergeben.$"
 
 
 
@@ -492,25 +508,29 @@ release
 end
 
 RocketHideout5F_Text_34:
-	.string "Why are the results and the numbers so\n"
-	.string "important for us? Our belief is that\l"
-	.string "everything, from this city to the entire\l"
-	.string "region, including the seasons, the\l"
-	.string "time's flux, and life itself, exists\l"
-	.string "precisely for us to see what can be\l"
-	.string "done with it, what changes we can\l"
-	.string "implement, and how far we can push the\l"
-	.string "potentiality of all these natural laws,\l"
-	.string "achieving perceptible progress in a\l"
-	.string "reasonable time period is one of the\l"
-	.string "main purposes through which we can\l"
-	.string "connect with what many in LAVENDER\l"
-	.string "TOWN refer to as -the essence-, that\l"
-	.string "will make that we appreciate more the\l"
-	.string "environment that we see, and to\l"
-	.string "accomplish this we must do often\l"
-	.string "evaluations and researches, numbers\l"
-	.string "are essential.$"
+	.string "Warum sind uns die Ergebnisse und\n"
+	.string "Zahlen so wichtig? Wir sind der\l"
+	.string "Überzeugung, dass alles, von dieser\l"
+	.string "Stadt bis hin zur gesamten Region,\l"
+	.string "einschließlich der Jahreszeiten, des\l"
+	.string "Zeitflusses und des Lebens selbst,\l"
+	.string "genau dafür existiert - damit wir sehen\l"
+	.string "können, was wir damit anstellen, welche\l"
+	.string "Veränderungen wir umsetzen und wie\l"
+	.string "weit wir das Potenzial all dieser\l"
+	.string "natürlichen Gesetze ausschöpfen\l"
+	.string "können. Erkennbaren Fortschritt in\l"
+	.string "einem angemessenen Zeitraum zu\l"
+	.string "erreichen, ist eines der Hauptziele,\l"
+	.string "durch das wir uns mit dem verbinden\l"
+	.string "können, was viele in LAVANDIA als -die\l"
+	.string "Essenz- bezeichnen.\p"
+	.string "Das wird uns helfen, die Umwelt, die\n"
+	.string "wir sehen, mehr schätzen zu lernen und\l"
+	.string "um dies zu erreichen, müssen wir häufig\l"
+	.string "Auswertungen und Forschungen\l"
+	.string "durchführen.\p"
+	.string "Zahlen sind dabei unerlässlich.$"
 
 
 
@@ -522,11 +542,12 @@ release
 end
 
 RocketHideout5F_Text_35:
-	.string "Competitive today's world is complex,\n"
-	.string "never again in history will any other\l"
-	.string "sector return to be as crucial as just\l"
-	.string "for a participation to be enough to\l"
-	.string "build a great company.$"
+	.string "Heutzutage ist die Wettbewer-\n"
+	.string "bsfähigkeit von komplexer Natur.\p"
+	.string "In der Geschichte wird es niemals\n"
+	.string "wieder einen Sektor geben, in dem\l"
+	.string "alleine die Teilnahme ausreicht, um ein\l"
+	.string "erfolgreiches Unternehmen aufzubauen.$"
 
 
 
@@ -538,8 +559,8 @@ release
 end
 
 RocketHideout5F_Text_36:
-	.string "Power tends to corrupt, and absolute\n"
-	.string "power corrupts absolutely.$"
+	.string "Macht korrumpiert, und absolute\n"
+	.string "macht korrumpiert absolut.$"
 
 RocketHideout5F_Text_36.1:
 .string "Sosténlo durante un año, y mejorarás\n"
@@ -569,10 +590,11 @@ release
 end
 
 RocketHideout5F_Text_37:
-	.string "Buahahahahahahaha! It is so funny, we\n"
-	.string "are 130 feets underground, but we have\l"
-	.string "CELADON CITY under our control; from\l"
-	.string "here, we will manage everything!$"
+	.string "Muahahahahahahaha! Witzig, wie wir ca.\p"
+	.string "40 Meter unter der Erde sind, aber\n"
+	.string "trotzdem PRISMANIA CITY unter unserer\l"
+	.string "Kontrolle haben.\p"
+	.string "Von hier aus werden wir alles lenken!$"
 
 
 
@@ -584,11 +606,14 @@ release
 end
 
 RocketHideout5F_Text_38:
-	.string "The past retains everything, for better\n"
-	.string "or worse, your past actions cannot be\l"
-	.string "undone, everything remains forever, it\l"
-	.string "is just untouched by time's flux…{PAUSE 20} and\l"
-	.string "that's also another form of immortality.$"
+	.string "Die Vergangenheit vergisst nichts, ob\n"
+	.string "es nun Segen oder Fluch ist.\p"
+	.string "Deine vergangenen Taten können nicht\n"
+	.string "rückgängig gemacht werden. Sie bleiben\l"
+	.string "für alle Ewigkeit bestehen, unberührt\l"
+	.string "vom Lauf der Zeit {PAUSE 25}…{PAUSE 25} und das ist\l"
+	.string "ebenfalls eine Form von\l"
+	.string "Unsterblichkeit.$"
 
 
 
@@ -600,10 +625,10 @@ release
 end
 
 RocketHideout5F_Text_39:
-	.string "Some say that thinking is free, so\n"
-	.string "ironical. It's getting extremely\l"
-	.string "expensive for the population of KANTO\l"
-	.string "to not doing it!$"
+	.string "Einige sagen, dass Denken umsonst sei.\n"
+	.string "Wie ironisch. Für die Bewohner von KANTO\l"
+	.string "wird es allerdings immer teurer, nicht zu\l"
+	.string "denken!$"
 
 
 
@@ -615,13 +640,15 @@ release
 end
 
 RocketHideout5F_Text_40:
-	.string "Your team has some imperfections, I can\n"
-	.string "see it, but I must admit that, for your\l"
-	.string "resources, it's a much better team than\l"
-	.string "all that scum roaming the routes and\l"
-	.string "common cities, calling themselves\l"
-	.string "TRAINERS…{PAUSE 20} the best TRAINERS in the\l"
-	.string "region are hidden quite effectively.$"
+	.string "Dein Team weist einige Mängel auf. Ich\n"
+	.string "sehe so etwas. Aber ich muss zugeben,\l"
+	.string "dass dein Team angesichts deiner Mittel\l"
+	.string "viel besser als das dieses Abschaums\l"
+	.string "ist, das auf den Routen und in den\l"
+	.string "weniger beeindruckenden Städten\l"
+	.string "herumlungert und sich selber Trainer\l"
+	.string "nennen. Die besten Trainer der Region\l"
+	.string "wissen sich gut zu verstecken.$"
 
 
 
@@ -638,10 +665,11 @@ release
 end
 
 RocketHideout5F_Text_42:
-	.string "NIDOKING and NIDOQUEEN: two of the\n"
-	.string "most appreciated POKÉMON of our\l"
-	.string "organization, if you can get one of\l"
-	.string "those, everyone will respect you here.$"
+	.string "NIDOKING und NIDOQUEEN gehören zu den\n"
+	.string "am meisten geschätzten POKéMON in\l"
+	.string "unserer Organisation. Wenn du einen von\l"
+	.string "beiden hast, wird dich jeder in der\l"
+	.string "Organisation respektieren.$"
 
 
 
@@ -653,11 +681,13 @@ release
 end
 
 RocketHideout5F_Text_43:
-	.string "The fountain is a great symbol of power,\n"
-	.string "resource abundance and hierarchy, no\l"
-	.string "one can beat the TEAM ROCKET, that is\l"
-	.string "why we ordered this 1.5 times bigger\l"
-	.string "than the SILPH's one.$"
+	.string "Der Brunnen verkörpert Stärke,\n"
+	.string "Überfluss an Ressourcen und unseren\l"
+	.string "Platz in der Hierarchie. Niemand kann\l"
+	.string "TEAM ROCKET besiegen.\p"
+	.string "Deswegen haben wir einen bauen lassen,\n"
+	.string "der anderthalbmal so groß ist wie\l"
+	.string "der von der SILPH COMPANY.$"
 
 
 
@@ -669,12 +699,14 @@ release
 end
 
 RocketHideout5F_Text_44:
-	.string "This place is one example of the\n"
-	.string "science potential, do we lose\l"
-	.string "performance, capacity, and health by\l"
-	.string "being disconnected from nature?\p"
-	.string "Well, we bring nature to our\n"
-	.string "offices, GOD SAVE GIOVANNI!$"
+	.string "Dieser Ort ist ein Beispiel für das\n"
+	.string "Potential der Wissenschaft. Wie bitte?\p"
+	.string "Wir verlieren an Leistung, Kapazität\n"
+	.string "und schaden unserer Gesundheit, wenn\l"
+	.string "wir von der Natur getrennt sind? Kein\l"
+	.string "Problem. Wir bringen die Natur einfach\l"
+	.string "in unsere Büros.\p"
+	.string "GOTT SEGNE GIOVANNI!$"
 
 
 
@@ -686,12 +718,13 @@ release
 end
 
 RocketHideout5F_Text_45:
-	.string "SILPH'S PRESIDENT and GIOVANNI had\n"
-	.string "always kept an intense rivalry, if SILPH\l"
-	.string "knew that a fountain like this exists,\l"
-	.string "the PRESIDENT would build even a bigger\l"
-	.string "one just to look better, even placing it\l"
-	.string "on the rooftop, but he would build it…$"
+	.string "SILPHS PRÄSIDENT und GIOVANNI waren\n"
+	.string "stets erbitterte Rivalen. Wenn die\l"
+	.string "SILPH COMPANY von unserem Brunnen\l"
+	.string "wüsste, würden sie einen noch Größeren\l"
+	.string "bauen und auf ihrem Dach zur Schau\l"
+	.string "stellen. Einfach, um sich überlegen\l"
+	.string "zu fühlen {PAUSE 5}...{PAUSE 5}$"
 
 
 
@@ -708,20 +741,23 @@ release
 end
 
 RocketHideout5F_Text_47:
-	.string "The price of items that boost a\n"
-	.string "POKÉMON's effort values (PROTEIN,\l"
-	.string "IRON…) and the price difference\l"
-	.string "between this place and the outside\l"
-	.string "resumes: this place offers facilities\l"
-	.string "for elite soldiers to bring out their\l"
-	.string "best, outside, they impose all kinds of\l"
-	.string "obstacles on the average TRAINER who\l"
-	.string "can't afford those exorbitant prices,\l"
-	.string "nevertheless, if you train your POKÉMON\l"
-	.string "properly, you won't need those items in\l"
-	.string "the long run, though they are useful\l"
-	.string "for selectively boosting specific\l"
-	.string "STATs.$"
+	.string "Der Preis der Items, welche die\n"
+	.string "Basispunkte (FP) eines POKéMON\l"
+	.string "steigern (Protein, Eisen …) und der\l"
+	.string "Preisunterschied zwischen hier und der\l"
+	.string "Außenwelt lässt sich folgendermaßen\l"
+	.string "zusammenfassen: Dieser Ort bietet\l"
+	.string "Einrichtungen für Elitesoldaten, um das\l"
+	.string "Beste aus ihnen herauszuholen, während\l"
+	.string "draußen alle Arten von Hindernissen für\l"
+	.string "den durchschnittlichen Trainer\l"
+	.string "aufgebaut werden, der sich diese\l"
+	.string "abnormalen Preise nicht leisten kann.\p"
+	.string "Dennoch gilt, dass, wenn du deine\n"
+	.string "POKéMON richtig trainierst, du diese\l"
+	.string "Items auf lange Sicht nicht benötigen\l"
+	.string "wirst, obwohl sie nützlich sind, um\l"
+	.string "bestimmte Werte gezielt zu steigern.$"
 
 
 
@@ -743,22 +779,27 @@ release
 end
 
 RocketHideout5F_Text_50:
-	.string "The fact is that our region has nothing\n"
-	.string "special, many think we have the best\l"
-	.string "POKÉMON, others also think that there\l"
-	.string "are just 150 species from KANTO,\l"
-	.string "however, the reality is that other\l"
-	.string "regions boast POKÉMON much more\l"
-	.string "powerful than what can be imagined here\l"
-	.string "in KANTO. Some, like HOENN, have 2\l"
-	.string "pseudolegendaries, in JOHTO, LUGIA and\l"
-	.string "HO-OH wield power that is nowhere near\l"
-	.string "seen here, HOENN too, here, however, our\l"
-	.string "only pseudolegendary, DRAGONITE, and\l"
-	.string "the legendary MEW are our limits, with a\l"
-	.string "total BASE STATs of 600, the unique weapon\l"
-	.string "that KANTO can use to compete against\l"
-	.string "other regions is its technology…$"
+	.string "Tatsache ist, dass unsere Region\n"
+	.string "nichts besonderes ist. Viele glauben,\l"
+	.string "dass wir die besten POKéMON haben.\p"
+	.string "Andere sind der Ansicht, dass nur 150\n"
+	.string "Arten aus KANTO stammen. Aber die\l"
+	.string "Wahrheit ist, dass andere Regionen\l"
+	.string "POKéMON besitzen, die weitaus stärker\l"
+	.string "sind, als man es sich hier in KANTO\l"
+	.string "vorstellen kann. Einige, wie HOENN haben\l"
+	.string "zwei Pseudo-Legendäre. JOHTO hat\l"
+	.string "LUGIA und HO-OH, die beide jeweils eine\l"
+	.string "Macht besitzen, wie sie hier noch nie\l"
+	.string "gesehen wurden. Für HOENN gilt das\l"
+	.string "Gleiche. Hier jedoch ist unser einziges\l"
+	.string "Pseudo-Legendäre POKéMON DRAGORAN\l"
+	.string "und was die Legendären angeht, bildet\l"
+	.string "MEW mit seinen 600 Statuswerten die\l"
+	.string "obere Grenze. Die einzige Waffe, die\l"
+	.string "KANTO nutzen kann, um mit den anderen\l"
+	.string "Regionen zu konkurrieren, ist\l"
+	.string "Technologie {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -770,12 +811,15 @@ release
 end
 
 RocketHideout5F_Text_51:
-	.string "This big table collects the essential\n"
-	.string "data of the 15 most powerful POKÉMON\l"
-	.string "non-legendaries of the region, it is\l"
-	.string "very important to have info about the\l"
-	.string "available tools, as for you and as for\l"
-	.string "your enemy, don't you think so?$"
+	.string "Auf diesem Tisch befinden sich die\n"
+	.string "wichtigsten Daten der 15 mächtigsten\l"
+	.string "nicht-legendären POKéMON dieser\l"
+	.string "Region. Es ist sehr wichtig,\l"
+	.string "Informationen über sämtliche\l"
+	.string "verfügbaren Werkzeuge zu haben -\l"
+	.string "sowohl für dich als auch für deinen\l"
+	.string "Gegner.\p"
+	.string "Denkst du nicht auch?$"
 
 
 
@@ -787,14 +831,17 @@ release
 end
 
 RocketHideout5F_Text_52:
-	.string "Fools! They thought they would limit us\n"
-	.string "to basic healing services, and we have a\l"
-	.string "private resource system 10 times better\l"
-	.string "than that nonsense of public stores!\p"
-	.string "Come on, grunt! You are at home!\p"
-	.string "Nowhere else will you find a greater\n"
-	.string "variety of products at a better price!\p"
-	.string "Buahahahaha! HAIL GIOVANNI!$"
+	.string "Idioten! Sie dachten, sie könnten uns\n"
+	.string "auf die standardmäßigen\l"
+	.string "Heilungsdienste reduzieren.\p"
+	.string "Dabei haben wir ein System an Ressourcen,\n"
+	.string "die zehnmal besser sind, als die\l"
+	.string "lächerlichen öffentlichen Märkte! Na\l"
+	.string "los, Rüpel! Hier bist du zu Hause!\p"
+	.string "Nirgendwo sonst wirst du eine größere\n"
+	.string "Auswahl an Produkten zu besseren\l"
+	.string "Preisen finden! Muahahahaha!\p"
+	.string "LANG LEBE GIOVANNI!$"
 
 
 
@@ -806,13 +853,14 @@ release
 end
 
 RocketHideout5F_Text_53:
-	.string "You won't see a lot of TRAINERS with\n"
-	.string "POKÉMON like PINSIR, SCYTHER, TAUROS,\l"
-	.string "KANGASKHAN or the EEVEE evolutions, all\l"
-	.string "those considered strong and uncommon\l"
-	.string "POKÉMON, and those first 4 cacheable at\l"
-	.string "SAFARI ZONE, which is on part, their\l"
-	.string "success reason.$"
+	.string "Du wirst nicht vielen Trainern mit\n"
+	.string "POKéMON wie PINSIR, SICHLOR, TAUROS,\l"
+	.string "KANGAMA oder den EVOLI Evolutionen\l"
+	.string "begegnen. Sämtliche dieser POKéMON\l"
+	.string "gelten als stark und selten. Nur die\l"
+	.string "ersten vier der Genannten sind in der\l"
+	.string "SAFARI-ZONE fangbar, was teilweise der\l"
+	.string "Grund für ihren Erfolg ist.$"
 
 
 
@@ -824,8 +872,8 @@ release
 end
 
 RocketHideout5F_Text_54:
-	.string "Fear is the worst enemy of the\n"
-	.string "progress, buddy.$"
+	.string "Furcht ist des Fortschritts\n"
+	.string "größter Feind, Kumpel.$"
 
 
 
@@ -837,12 +885,13 @@ release
 end
 
 RocketHideout5F_Text_55:
-	.string "We've managed it really well, those\n"
-	.string "wealthy people, who stroll through\l"
-	.string "CELADON DEPARTAMENT STORE thinking\l"
-	.string "they are buying exclusive products,\l"
-	.string "have no idea what we have here. Keep\l"
-	.string "your marts, we don't need them!$"
+	.string "Wir haben es wirklich gut hinbekommen.\n"
+	.string "Diese reichen Pinkel, die durch das\l"
+	.string "PRISMANIA-EINKAUFSZENTRUM\l"
+	.string "schlendern und denken, dass sie\l"
+	.string "exklusive Produkte kaufen, haben keine\l"
+	.string "Ahnung, was wir hier haben. Behaltet\l"
+	.string "eure Geschäfte. Wir brauchen sie nicht!$"
 
 
 
@@ -854,8 +903,9 @@ release
 end
 
 RocketHideout5F_Text_56:
-	.string "More than one would blow their mind if\n"
-	.string "they saw what we have going on here.$"
+	.string "Die Meisten würden durchdrehen, wenn\n"
+	.string "sie wüssten, was wir hier wirklich\l"
+	.string "treiben.$"
 
 
 

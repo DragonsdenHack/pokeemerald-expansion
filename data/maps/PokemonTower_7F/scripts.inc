@@ -100,46 +100,50 @@ delay_8
 step_end
 
 PokemonTower_7F_Proton_Texto_1:
-	.string "PROTON: You created our only chance to\n"
-	.string "escape from this enslaving system\l"
-	.string "FUJI, don't you think that milestone\l"
-	.string "justifies any possible means to achieve\l"
-	.string "it? I hope you think about our offer!$"
+	.string "LANCE: Du hast unsere einzige\n"
+	.string "Möglichkeit geschaffen, diesem\l"
+	.string "unterdrückenden System zu entfliehen,\l"
+	.string "FUJI. Glaubst du nicht auch, dass\l"
+	.string "dieser Zweck jedes erdenkliche Mittel\l"
+	.string "heiligt? Ich hoffe, du denkst über\l"
+	.string "unser Angebot nach!$"
 
 PokemonTower_7F_Proton_Texto_2:
-	.string "I see. Anyways, I'm done with FUJI.\p"
-	.string "Time to go back to the\n"
-	.string "headquarter, {PLAYER}!$"
+	.string "Verstehe. Nun gut, FUJI und ich sind\n"
+	.string "hier fertig. Es wird Zeit, dass wir\n"
+	.string "zur Basis zurückkehren, {PLAYER}!$"
 
 PokemonTower_7F_Proton_Texto_3:
-.string "GRUNTs!\p"
-	.string "Come upstairs immediately!$"
+.string "Rüpel!\p"
+	.string "Kommt sofort her!$"
 
 PokemonTower_7F_Proton_Texto_4:
-	.string "Guard FUJI until you receive any\n"
-	.string "other instructions. Understood?$"
+	.string "Bewacht FUJI bis ihr weitere\n"
+	.string "Anweisungen erhaltet! Ist das klar?!$"
 
 PokemonTower_7F_Proton_Texto_5:
-.string "GRUNTS: Understood, SIR!$"
+.string "RÜPEL: SIR, ja, SIR!$"
 
 PokemonTower_7F_Proton_Texto_6:
-	.string "PROTON: It's always important to keep\n"
-	.string "up appearances, {PLAYER}, if that\l"
-	.string "foolish RED makes his way up here, he'll\l"
-	.string "believe what everyone else believes,\l"
-	.string "that mindless criminals are senselessly\l"
-	.string "abducting an old man.$"
+	.string "LANCE: Es ist immer wichtig den Schein\n"
+	.string "zu wahren, {PLAYER}. Wenn dieser\l"
+	.string "Idiot ROT hier nach oben kommt, wird er\l"
+	.string "glauben, was alle anderen auch glauben.\p"
+	.string "Und zwar, dass hirnlose Kriminelle ohne\n"
+	.string "ersichtlichen Grund einen alten Mann\l"
+	.string "entführen wollen.$"
 
 PokemonTower_7F_Proton_Texto_6.1:
-	.string "After all, no one can act\n"
-	.string "against an unknown reality.$"
+	.string "Niemand kann gegen etwas vorgehen,\n"
+	.string "was er nicht versteht.$"
 
 PokemonTower_7F_Proton_Texto_7:
-.string "CLEFAIRY!\p"
-	.string "TELEPORT to the warehouse!$"
+.string "PIEPI!\p"
+	.string "Setze TELEPORT zu unserem\n"
+	.string "Unterschlupf ein!$"
 
 PokemonTower_7F_Proton_Texto_8:
-.string "CLEFAIRY: Faaaaa!$"
+.string "PIEPI: Faaaaa!$"
 
 PokemonTower_7F_Proton_Move_1:
 walk_up

@@ -15,7 +15,7 @@ end
 
 LavenderTown_FujiHouse_Text_1:
 .string "Ahhhhh!\n"
-.string "Don't hurt me please!$"
+.string "Bitte tu mir nicht weh!$"
 
 
 
@@ -32,9 +32,10 @@ release
 end
 
 LavenderTown_FujiHouse_Text_3:
-	.string "No way, get out of here, ROCKET! If FUJI\n"
-	.string "were around, you'd get a taste of your\l"
-	.string "own medicine!$"
+	.string "Keine Chance. Und nun verschwinde,\n"
+	.string "ROCKET! Wenn FUJI hier wäre, würde er\l"
+	.string "dir eine Kostprobe deiner eigenen\l"
+	.string "Medizin geben!$"
 
 
 
@@ -46,9 +47,9 @@ release
 end
 
 LavenderTown_FujiHouse_Text_4:
-	.string "MR.FUJI is not here, and even if he were,\n"
-	.string "I highly doubt he would want to receive\l"
-	.string "a ROCKET as a guest.$"
+	.string "MR. FUJI ist nicht hier und selbst wenn\n"
+	.string "er es wäre, bezweifle ich, dass er einen\l"
+	.string "ROCKET als Gast empfangen würde.$"
 
 
 

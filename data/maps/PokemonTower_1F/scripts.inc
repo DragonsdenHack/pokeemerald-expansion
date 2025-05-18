@@ -18,9 +18,8 @@ release
 end
 
 PokemonTower1F_Text_1:
-.string "I am a CHANNELER.\p"
-    .string "There are spirits up to mischief.\n"
-    .string "I sense them high in the TOWER.$"
+.string "Ich bin eine EXORZISTIN!\p"
+    .string "Die Geister hier stiften Unruhe!$"
 
 
 
@@ -32,8 +31,8 @@ release
 end
 
 PokemonTower1F_Text_2:
-.string "POKÉMON TOWER was erected in the\n"
-    .string "memory of POKÉMON that died.$"
+	.string "Der POKéMON-TURM wurde im Andenken\n"
+	.string "an verblichene POKéMON errichtet.$"
 
 
 
@@ -45,8 +44,8 @@ release
 end
 
 PokemonTower1F_Text_3:
-.string "My GROWLITHE…\n"
-    .string "Why did you die?$"
+.string "FUKANO…\n"
+    .string "Warum hast du mich verlassen?$"
 
 
 
@@ -58,8 +57,9 @@ release
 end
 
 PokemonTower1F_Text_4:
-	.string "A ROCKET paying respects to the\n"
-	.string "departed? No one buys that story!$"
+	.string "Einer von TEAM ROCKET, der den\n"
+	.string "Verstorbenen Respekt zollt?\p"
+	.string "Das kauft dir keiner ab!$"
 
 
 
@@ -71,8 +71,9 @@ release
 end
 
 PokemonTower1F_Text_5:
-	.string "You have no respect, nor memory, nor\n"
-	.string "shame! Dirty criminals!$"
+	.string "Ihr besitzt weder Respekt, noch\n"
+	.string "Anstand oder Scham! Dreckige\l"
+	.string "Verbrecher!$"
 
 PokemonTower_1F_SetFlags::
 lock

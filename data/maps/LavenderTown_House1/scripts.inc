@@ -9,9 +9,10 @@ release
 end
 
 LavenderTownHouse1_1_Texto_1:
-	.string "You think the end justifies the means,\n"
-	.string "ROCKET? Well, I hope LANCE hits you with\l"
-	.string "the same rule!$"
+	.string "Du glaubst also, der Zweck heiligt die\n"
+	.string "Mittel, was ROCKET? Schön. Ich hoffe,\l"
+	.string "dass SIEGFRIED euch gegenüber die\l"
+	.string "gleiche Philosophie entwickelt!$"
 
 LavenderTownHouse1_2::
 end

@@ -27,10 +27,8 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_2:
-	.string "TEAM ROCKET will do whatever it takes\n"
-	.string "for money! There is no dirty work or\l"
-	.string "acts of vandalism that you are not\l"
-	.string "capable of doing!$"
+	.string "TEAM ROCKET würde alles\n"
+	.string "für Geld tun!$"
 
 
 
@@ -42,9 +40,8 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_3:
-    .string "You know how the CUBONE species\n"
-    .string "wears skulls, right?\p"
-    .string "People will pay a lot for one.$"
+    .string "TRAGOSSO tragen Schädelmasken!\p"
+    .string "Man zahlt für sie eine Menge Geld!$"
 
 
 
@@ -56,8 +53,9 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_4:
-	.string "I just moved to LAVENDER. I heard\n"
-	.string "MR.FUJI isn't from here either.$"
+	.string "Ich bin erst vor kurzem in diese Stadt\n"
+	.string "gezogen! Ich hörte, dass MR. Fuji auch\l"
+	.string "nicht von hier stammt!$"
 
 
 
@@ -69,8 +67,8 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_5:
-	.string "You're scum! Stealing won't get you\n"
-	.string "anywhere!$"
+	.string "Du bist Abschaum.\n"
+	.string "Stehlen wird dir nichts bringen!$"
 
 Curacion_Centros_Pokemon_Johto::
 lock
@@ -117,24 +115,22 @@ release
 end
 
 Curacion_Centros_Pokemon_Kanto_Texto_1:
-    .string "Hello, and welcome to\n"
-    .string "the POKÉMON CENTER.\p"
-    .string "We restore your tired POKÉMON\n"
-    .string "to full health.$"
+	.string "Willkommen im POKéMON-CENTER!\n"
+	.string "Wir heilen deine POKéMON und machen\l"
+	.string "sie wieder fit.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_2:
-    .string "Would you like to rest your POKÉMON?$"
+    .string "O.K. Wir benötigen deine POKéMON.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_3:
-    .string "Okay, I'll take your POKÉMON\n"
-    .string "for a few seconds.$"
+	.string "Okay, ich nehme deine POKéMON für\n"
+	.string "einen Moment in meine Obhut.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_4:
-    .string "Thank you for waiting.\p"
-    .string "We've restored your POKÉMON\n"
-    .string "to full health.$"
+	.string "Danke! Deine POKéMON sind\n"
+	.string "wieder topfit!$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_5::
-    .string "We hope to see you again!$"
+    .string "Komm jederzeit wieder vorbei!$"
 
 

@@ -38,13 +38,15 @@ release
 end
 
 RockTunnel1F_Text_5:
-	.string "The KANGASKHAN rarity is on par with\n"
-	.string "DOME and HELIX FOSSILS, DRATINI or the\l"
-	.string "extinct AERODACTYL, the ones in the\l"
-	.string "SAFARI ZONE are so scarce that\l"
-	.string "catching one there is nearly impossible,\l"
-	.string "a true POKÉMANIAC cannot miss this\l"
-	.string "opportunity!$"
+	.string "Die Seltenheit von KANGAMA ist auf\n"
+	.string "einem Level mit den DOM- und\l"
+	.string "HELIXFOSSILIEN, DRATINI oder sogar\l"
+	.string "dem ausgestorbenen AERODACTYL.\p"
+	.string "In der SAFARI-ZONE gibt es so wenige\n"
+	.string "von ihnen, dass es nahezu unmöglich\l"
+	.string "ist, eines zu fangen. Ein wahrer\l"
+	.string "POKÉMANIAC kann und darf sich diese\l"
+	.string "Chance nicht entgehen lassen!$"
 
 
 
@@ -56,9 +58,10 @@ release
 end
 
 RockTunnel1F_Text_6:
-	.string "That KANGASKHAN will be our, any COOL\n"
-	.string "TRAINER won't be as cool as we will be\l"
-	.string "after we catch that oddity.$"
+	.string "Dieses KANGAMA wird uns gehören! Kein\n"
+	.string "ASS-TRAINER wird mit unserer Coolness\l"
+	.string "mithalten können, nachdem wir diese\l"
+	.string "Rarität gefangen haben.$"
 
 
 
@@ -193,45 +196,49 @@ release
 end
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_1:
-	.string "We had been searching for a while and\n"
-	.string "not even a hint about that KANGASKHAN,\l"
-	.string "seems like the rumors were false, and to\l"
-	.string "make it worse, TEAM ROCKET appeared,\l"
-	.string "what a nuisance! Look, I don't wanna\l"
-	.string "offend you but you are dreadful\l"
-	.string "TRAINERS, you just use simple ZUBATS\l"
-	.string "and RATTATAS, you don't even have a\l"
-	.string "chance against me.$"
+	.string "Wir suchen hier schon eine Ewigkeit und\n"
+	.string "haben immer noch nicht die geringste\l"
+	.string "Ahnung, wo dieses KANGAMA steckt!\p"
+	.string "Scheint so, als wären die Gerüchte nur\n"
+	.string "leere Luft und als ob das noch nicht\l"
+	.string "beschissen genug ist, ist auch noch\l"
+	.string "TEAM ROCKET hier aufgetaucht! Ist das\l"
+	.string "bescheuert! Guck mal. Ich will dich\l"
+	.string "nicht beleidigen oder so, aber ihr seid\l"
+	.string "wirklich miese TRAINER, die nur ZUBAT\l"
+	.string "und RATTFRATZ benutzen.\p"
+	.string "Du weißt doch selbst, dass du mit denen\n"
+	.string "keine Chance gegen mich hast.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
-	.string "You defeating me? Now that's funny!\p"
-	.string "Don't you know the COOL TRAINERS\n"
-	.string "reputation? We are the most\l"
-	.string "sophisticated TRAINERCLASS!\p"
-	.string "Everyone around here at this tunnel is\n"
-	.string "not even worth mentioning compared to\l"
-	.string "us!$"
+	.string "Du? Mich besiegen?\p"
+	.string "Wie süß!\p"
+	.string "Du hast keine Peilung, welchen Ruf wir\n"
+	.string "ASS-TRAINER haben, oder? Wir sind die\l"
+	.string "Elite unter den TRAINERN! Verglichen\l"
+	.string "mit uns sind alle hier nur Amateure!$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_4:
-	.string "You just got me mad, I will show you how\n"
-	.string "a real TRAINER battles!$"
+	.string "Jetzt reicht's! Ich zeig dir, wie\n"
+	.string "ein richtiger TRAINER kämpft!$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_5:
-	.string "Did a ROCKET teached me a lesson for\n"
-	.string "real?$"
+	.string "Habe ich gerade wirklich gegen einen\n"
+	.string "ROCKET verloren?$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_6:
-	.string "This is ridiculous, our reputation as\n"
-	.string "TRAINERS would fall down if someone\l"
-	.string "knew that a ROCKET like you defeated\l"
-	.string "me, I am so tired of this cave, it is\l"
-	.string "empty, I will call my partner and we are\l"
-	.string "heading out of here, anyways, there is a\l"
-	.string "rumor that a PINSIR is on VIRIDIAN\l"
-	.string "FOREST.$"
+	.string "Wie peinlich! Unser Ruf als Elite unter\n"
+	.string "den TRAINERN wäre ruiniert, wenn jemand\l"
+	.string "erfährt, dass ein ROCKET wie du mich\l"
+	.string "besiegt hast! Ich habe sowieso die\l"
+	.string "Schnauze voll von der Höhle! Hier gibt\l"
+	.string "es nichts! Ich rufe meinen Partner und\l"
+	.string "dann verschwinden wir von hier.\p"
+	.string "Angeblich wurde ein PINSIR im\n"
+	.string "VERTANIA-WALD gesichtet.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Move_1:
 emote_exclamation_mark

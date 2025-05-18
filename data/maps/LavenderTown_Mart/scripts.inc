@@ -14,11 +14,10 @@ release
 end
 
 LavenderTown_Mart_Text_2:
-    .string "Sometimes, a TRAINER duo will\n"
-    .string "challenge you with two POKÉMON\l"
-    .string "at the same time.\p"
-    .string "If that happens, you have to send\n"
-    .string "out two POKÉMON to battle, too.$"
+	.string "Manchmal fordert sich ein TRAINER-Duo\n"
+	.string "mit zwei POKéMON zum Kampf heraus. In\l"
+	.string "diesem Fall musst du auch zwei POKéMON\l"
+	.string "in den Kampf schicken!$"
 
 LavenderTownMart_3::
 lock     
@@ -28,8 +27,9 @@ release
 end
 
 LavenderTown_Mart_Text_3:
-    .string "Did you buy some REVIVES?\n"
-    .string "They revive any fainted POKÉMON!$"
+    .string "Kennst du den BELEBER?\p"
+	.string "Damit kannst du bereits besiegten\n"
+	.string "POKéMON wieder Kraft geben!$"
 
 LavenderTownMart_4::
 lock     
@@ -39,10 +39,9 @@ release
 end
 
 LavenderTown_Mart_Text_4:
-    .string "I'm searching for items that raise\n"
-    .string "the STATs of POKÉMON.\p"
-    .string "They're effective over the course\n"
-    .string "of a single battle.\p"
-    .string "X ATTACK, X DEFEND, X SPEED, \n"
-    .string "and X SPECIAL are what I'm after.\p"
-    .string "Do you know where I can get them?$"
+	.string "Ich suche nach Items, die die\n"
+	.string "Fähigkeiten meiner POKéMON während\l"
+	.string "eines Kampfes verbessern!\p"
+	.string "Zum Beispiel X-ANGRIFF, X-ABWEHR,\n"
+	.string "X-TEMPO und X-SPEZIAL.\p"
+	.string "Weißt du, wo ich sie kaufen kann?$"

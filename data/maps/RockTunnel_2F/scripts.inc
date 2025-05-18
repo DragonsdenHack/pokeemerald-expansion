@@ -69,12 +69,13 @@ release
 end
 
 RockTunnel2F_Text_22:
-	.string "ARBOK, PERSIAN, TAUROS or SANDSLASH\n"
-	.string "are so appreciated POKÉMON for TAMERS\l"
-	.string "like me, but there is not any with a\l"
-	.string "KANGASKHAN, do you even imagine how\l"
-	.string "successfully will be my shows with that\l"
-	.string "POKÉMON under my whip control?$"
+	.string "Für DOMPTEURE wie mich sind ARBOK,\n"
+	.string "SNOBILIKAT, TAUROS und SANDAMER\l"
+	.string "großartige POKéMON. Aber ein KANGAMA?\p"
+	.string "Das wäre der ultimative Fang! Kannst du\n"
+	.string "dir vorstellen, wie viel erfolgreicher\l"
+	.string "meine Aufführungen mit diesem POKéMON\l"
+	.string "unter meiner Peitsche wären?$"
 
 
 
@@ -86,9 +87,10 @@ release
 end
 
 RockTunnel2F_Text_28:
-	.string "Do you imagine a BUG CATCHER with a\n"
-	.string "KANGASKHAN? All the prejudices labeling\l"
-	.string "us as weaklings would finish!$"
+	.string "Stell dir mal einen KÄFERSAMMLER mit\n"
+	.string "einem KANGAMA VOR! All diese dummen\l"
+	.string "Vorurteile, die uns als schwach\l"
+	.string "abstempeln, wären sofort Geschichte!$"
 
 
 
@@ -325,126 +327,143 @@ face_left
 step_end
 
 RockTunnel_2F_Combate_Miguel_Texto_1:
-.string "????: Finally!\p"
-	.string "So the rumors were true!\p"
-	.string "I've the MATERNAL POKÉMON in front\n"
-	.string "of me, at just one-step away from\l"
-	.string "catching it!$"
+.string "????: ENDLICH!\p"
+	.string "Die Gerüchte waren also wahr!\p"
+	.string "Vor mir steht ein WEIBCHEN und ich bin\n"
+	.string "nur noch einen Schritt davon entfernt,\l"
+	.string "es zu fangen!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_2:
-	.string "Great! With this POKÉMON my\n"
-	.string "collection of strong and uncommon\l"
-	.string "POKÉMON will be almost finished!$"
+	.string "Perfekt! Mit diesem POKéMON ist meine\n"
+	.string "Sammlung starker und seltener POKéMON\l"
+	.string "fast fertig!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_3:
-	.string "Did you lose something? So unlucky,\n"
-	.string "ROCKET, I saw it first, so this\l"
-	.string "KANGASKHAN belongs to my POKÉMON\l"
-	.string "team, now excuse m…$"
+	.string "Hast du etwas verloren? So ein Pech,\n"
+	.string "ROCKET! Ich habe das KANGAMA zuerst\l"
+	.string "entdeckt und gefangen, also gehört es\l"
+	.string "jetzt zu meinem POKéMON-TEAM. Wenn du\l"
+	.string "mich jetzt entschuldigen würd{PAUSE 15}…{PAUSE 15}$"
 
 RockTunnel_2F_Combate_Miguel_Texto_4:
-.string "Hold on!\p"
-	.string "You're that ROCKET I made the\n"
-	.string "FOSSILS bet with, in MT. MOON!$"
+.string "Sekunde!\p"
+	.string "Du bist doch der ROCKET vom MONDBERG,\n"
+	.string "mit dem ich um die FOSSILEN gewettet\l"
+	.string "habe!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_5:
-	.string "I must admit that you were so\n"
-	.string "unlucky, and I was so lucky…$"
+	.string "Okay. Ich gebe zu, dass dein Pech\n"
+	.string "einfach groß und mein Glück riesig war {PAUSE 5}…{PAUSE 5}$"
 
 RockTunnel_2F_Combate_Miguel_Texto_6:
-	.string "That fool might be as strong as he\n"
-	.string "wants, but he's socially inept, he would\l"
-	.string "accept any ideal you propose without\l"
-	.string "denying it, despite having the power\l"
-	.string "of his POKÉMON to do his will.$"
+	.string "Dieser Dussel mag so stark sein, wie er\n"
+	.string "will, aber er verfügt über keinerlei\l"
+	.string "soziale Kompetenzen. Er nimmt jeden\l"
+	.string "Deal an, den du ihm anbietest, obwohl\l"
+	.string "er mit seinen POKéMON einfach jeden\l"
+	.string "Handel erzwingen könnte.$"
 	
 RockTunnel_2F_Combate_Miguel_Texto_6.1:
-	.string "Fortunately for me, just a few\n"
-	.string "words claiming my ownership of those\l"
-	.string "two FOSSILS were enough, along with\l"
-	.string "telling him a few useful hints like where\l"
-	.string "to revive those FOSSILS, to convince\l"
-	.string "him to share them with me, when he\l"
-	.string "could have easily kept bot, hah!$"
+	.string "Zum Glück waren ein paar Worte, in denen\n"
+	.string "ich meinen Besitz an den beiden\l"
+	.string "FOSSILIEN zum Ausdruck gebracht habe\l"
+	.string "- zusammen mit ein paar hilfreichen\l"
+	.string "Tipps, wo man die FOSSILIEN\l"
+	.string "wiederbeleben kann, mehr als genug, um\l"
+	.string "ihn davon zu überzeugen, sie mit mir zu\l"
+	.string "teilen, obwohl er sie genauso gut hätte\l"
+	.string "für sich behalten können. Ha!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_7:
-	.string "You are definitely an unfortunate\n"
-	.string "GRUNT: you missed your chance in\l"
-	.string "MT.MOON at the last moment, and now you\l"
-	.string "are seeing how I catch this valuable\l"
-	.string "KANGASKHAN in front of you.$"
+	.string "Du bist wirklich ein Pechvogel, ROCKET.\p"
+	.string "Zuerst hast du deine Chance auf dem\n"
+	.string "MONDBERG im allerletzten Moment\l"
+	.string "vermasselt und jetzt musstest du dabei\l"
+	.string "zusehen, wie ich dieses wertvolle\l"
+	.string "KANGAMA vor deinen Augen fange.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_8:
-	.string "What? Is nobody going anywhere?\p"
-	.string "That KANGASKHAN is yours?$"
+	.string "Was? Niemand geht hier irgendwo hin\n"
+	.string "und das KANGAMA gehört jetzt dir?$"
 
 RockTunnel_2F_Combate_Miguel_Texto_9:
-	.string "Poor dreamer{PAUSE 15}…{PAUSE 15} you think I'm the same as\n"
-	.string "back then, but for your information,\l"
-	.string "I've been training in the secret floors\l"
-	.string "of the all-mighty SILPH, where they had\l"
-	.string "optimized my POKÉMON's potential.$"
+	.string "Du armer kleiner hoffnungsloser\n"
+	.string "Träumer! Denkst du wirklich, dass ich\l"
+	.string "noch derselbe bin wie letztes Mal? Zu\l"
+	.string "deiner Info. Ich habe in den geheimen\l"
+	.string "Etagen der allmächtigen SILPH COMPANY\l"
+	.string "trainiert, wo sie das Potenzial meiner\l"
+	.string "POKéMON optimiert haben!$"
 	
 RockTunnel_2F_Combate_Miguel_Texto_9.1:
-	.string "After that, all the TRAINERS around\n"
-	.string "me are like ants, even H.R GRUNTS.\p"
-	.string "So unfortunate for you.$"
+	.string "Im Vergleich zu mir sind alle anderen\n"
+	.string "TRAINER hier Insekten!\p"
+	.string "Wie schade für dich ROCKET!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_9.2:
-	.string "You were never at the moment, nor\n"
-	.string "place, nor favorable circumstances!$"
+	.string "Du hattest nie den Hauch einer Chance!\p"
+	.string "Du hast nie den richtigen Zeitpunkt,\n"
+	.string "den richtigen Ort oder günstige\l"
+	.string "Umstände erwischt!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_10:
-	.string "But what kind of joke is this!$"
+	.string "Wie kann das sein?!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_11:
-	.string "At SILPH they told me that I would be\n"
-	.string "able to defeat even a GYM LEADER with\l"
-	.string "this last update! They scammed me!$"
+	.string "Bei SILPH haben sie mir versichert, dass\n"
+	.string "ich mit diesem Update sogar einen\l"
+	.string "ARENALEITER besiegen könnte.\p"
+	.string "Sie haben mich verarscht!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_12:
-	.string "????: And it's said by someone who built\n"
-	.string "his current team by scamming people.$"
+	.string "????: Und das sagt ausgerechnet\n"
+	.string "jemand, der sein jetziges Team durch\l"
+	.string "das Täuschen anderer Leute aufgebaut\l"
+	.string "hat.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_13:
-	.string "PROTON: Good job, {PLAYER}, you've\n"
-	.string "just disarmed a dangerous trainer along\l"
-	.string "with the KANGASKHAN, I'll make sure to\l"
-	.string "put him in his place, before he escapes\l"
-	.string "using the ESCAPE ROPE.\p"
-	.string "This rougue knows all the tricks.$"
+	.string "LANCE: Gute Arbeit, {PLAYER}! Du hast\n"
+	.string "soeben einen gefährlichen Trainer\l"
+	.string "mitsamt seines KANGAMA besiegt. Ich\l"
+	.string "werde persönlich dafür sorgen, dass er\l"
+	.string "lernt, wo er hingehört, bevor er ein\l"
+	.string "FLUCHTSEIL zur Flucht verwenden kann.\p"
+	.string "Dieser Schuft ist mit allen Wassern\n"
+	.string "gewaschen!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_14:
-	.string "-PROTON TOOK ALL POKÉMON FROM\n"
-	.string "SCIENTIST MIGUEL!!-$"
+	.string "-LANCE HAT SÄMTLICHE POKéMON DES\n"
+	.string "STREBERS MIGUEL AN SICH GENOMMEN.-$"
 
 RockTunnel_2F_Combate_Miguel_Texto_15:
- .string "SCIENTIST: NO! WAIT!$"
+ .string "STREBER MIGUEL: NO!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_16:
-	.string "PROTON: So the rumors were true, who\n"
-	.string "would say that in this cave would\l"
-	.string "inhabit a KANGASKHAN{PAUSE 15}…{PAUSE 20}$"
+	.string "LANCE: Die Gerüchte waren also wahr.\p"
+	.string "Wer hätte gedacht, dass ein KANGAMA\n"
+	.string "in dieser Höhle lebt …$"
 
 RockTunnel_2F_Combate_Miguel_Texto_16.1:
-	.string "Anyways, the work is done: Imma\n"
-	.string "return immediately to the HQ,\l"
-	.string "{PLAYER}, the importance of what I\l"
-	.string "carry with me requires it. You should\l"
-	.string "also return as soon as possible,\l"
-	.string "GIOVANNI will be pleased to reward you\l"
-	.string "and inquire about the mission's details.\p"
-	.string "Long live GIOVANNI!$"
+	.string "Okay. Ich werde sofort zur Basis\n"
+	.string "zurückkehren, {PLAYER}. Das, was ich\l"
+	.string "bei mir trage, ist von entscheidender\l"
+	.string "Bedeutung. Du solltest ebenfalls\l"
+	.string "schnellstmöglich zurückkehren.\p"
+	.string "GIOVANNI wird zufrieden mit dir sein,\n"
+	.string "dich für deine Leistungen belohnen und\l"
+	.string "nach den Einzelheiten der Mission\l"
+	.string "fragen. Lang lebe GIOVANNI!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17:
-	.string "SCIENTIST: You don't have forgiveness!\p"
-	.string "I just lost the team that took me\n"
-	.string "years to build!$"
+	.string "STREBER MIGUEL: Ich werde dir niemals\n"
+	.string "verzeihen! Wegen dir habe ich das Team,\l"
+	.string "an dem ich jahrelang gearbeitet habe,\l"
+	.string "innerhalb weniger Sekunden verloren.$"
 
 RockTunnel_2F_Combate_Miguel_Texto_17.1:
-	.string "Don't forget my words, {PLAYER}!\p"
-	.string "I won't rest until I witness your\n"
-	.string "downfall!!$"
+	.string "Merk dir meine Worte, {PLAYER}!\p"
+	.string "Ich werde nicht ruhen, bis ich\n"
+	.string "mich an dir gerächt habe!$"
 
 RockTunnel_2F_Combate_Miguel_Move_1:
 face_left
@@ -594,66 +613,70 @@ release
 end
 
 RockTunnel_2F_Entrenador_Especial_Texto_1.1:
-	.string "You obtained TM71 STONE EDGE from a\n"
-	.string "TRAINER!$"
+	.string "Du erhältst TM71 STEINKANTE\n"
+	.string "vom TRAINER!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_1:
-	.string "ROCK SLIDE is a great move, but\n"
-	.string "sometimes its power is not enough, and\l"
-	.string "that flinch bonus is not worthy many of\l"
-	.string "ROCK-types as GOLEM or RHYDON due\l"
-	.string "their poor speed, It's been a while\l"
-	.string "since I've been looking for a TRAINER\l"
-	.string "worthy of battling me. You have no idea\l"
-	.string "how long I've been training in this cave,\l"
-	.string "those HIKERS and POKÉMANIACS already\l"
-	.string "bore me due their low level, I will fight\l"
-	.string "you against someone that have the 8\l"
-	.string "GYM BADGES, if you have them and defeat\l"
-	.string "me, I will give you something even more\l"
-	.string "devastating than ROCK SLIDE.$"
+	.string "STEINHAGEL ist eine krasse Attacke,\n"
+	.string "aber manchmal ist die Power nicht genug\l"
+	.string "und der Zurückschreck-Bonus ist für\l"
+	.string "viele GESTEINS-POKéMON nichts wert,\l"
+	.string "wie GEOWAZ und RIZEROS, weil sie\l"
+	.string "langsam sind. Ich suche schon lange\l"
+	.string "nach ‘nem Trainer, der es mit mir\l"
+	.string "aufnehmen kann. Du hast ja keine\l"
+	.string "Ahnung, wie lange ich schon in dieser\l"
+	.string "Höhle trainiere. Diese WANDERER und\l"
+	.string "POKÉMANIACs sind keine\l"
+	.string "Herausforderung - viel zu schwach.\p"
+	.string "Ich werde nur gegen jemanden kämpfen,\n"
+	.string "der alle ACHT ORDEN hat. Wenn du die\l"
+	.string "hast und mich besiegst, gib ich dir\l"
+	.string "noch was viel besseres als STEINHAGEL.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_3:
-	.string "Nah, seems like that you are not ready\n"
-	.string "enough yet, I will keep training alone\l"
-	.string "here until a worthy opponent appears.$"
+	.string "Ne. Du bist noch nicht gut genug.\n"
+	.string "Ich trainiere hier weiter, bis ein\n"
+	.string "guter Gegner kommt.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_4:
-	.string "STONE EDGE has 100 of POWER and 80 of\n"
-	.string "ACCURATE, although it improvable\l"
-	.string "ACCURATION, it has an high critical-hit\l"
-	.string "chance, and it is perfect coverage for\l"
-	.string "EARTHQUAKE, POKÉMON as RHYDON, GOLEM,\l"
-	.string "AERODACTYL, or even MACHAMP will\l"
-	.string "destroy battles with this movement.$"
+	.string "STEINKANTE hat 100 POWER und trifft\n"
+	.string "mit ‘ner WAHRSCHEINLICHKEIT von 80.\p"
+	.string "Die Trefferwahrscheinlichkeit könnte\n"
+	.string "zwar besser sein, hat aber eine hohe\l"
+	.string "Volltrefferquote und ist ‘ne perfekte\l"
+	.string "Ergänzung zu ERDBEBEN. POKéMON wie\l"
+	.string "RIZEROS, GEOWAZ und AERODACTYL oder\l"
+	.string "auch MACHOMAI werden mit dieser\l"
+	.string "Attacke Kämpfe dominieren.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_5:
-	.string "Is it what I think it is? You must be\n"
-	.string "very strong to defeat all LEADERS!\p"
-	.string "My team is excited to discover\n"
-	.string "its limits at once!$"
+	.string "Ist es das, was ich denke? Du musst\n"
+	.string "krass sein, wenn du alle ARENALEITER\l"
+	.string "besiegt hast! Mein Team brennt darauf,\l"
+	.string "sich mal richtig auszutoben!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_6:
-.string "So, do you accept the challenge?$"
+.string "Also, willst du kämpfen?$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_7:
-	.string "Let's see if you are able to get me out\n"
-	.string "of my boredom.$"
+	.string "Mal sehen, ob ich endlich mal ‘nen\l"
+	.string "spannenden Kampf erlebe.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_8:
-	.string "It was the best fight I had since I\n"
-	.string "came here!$"
+	.string "Das war der geilste Kampf, den\n"
+	.string "ich hier bisher hatte!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_9:
-	.string "Hell, definitely, you have the skill of\n"
-	.string "the best TRAINERS on this region, as I\l"
-	.string "said, here you have.$"
+	.string "Verdammt. Du bist echt auf ‘nem Level\n"
+	.string "mit den besten TRAINERN der Region!\p"
+	.string "Wie versprochen, hier nimm.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_10:
-	.string "Sadly, I'll have to keep training with\n"
-	.string "the same HIKERS and POKÉMANIACS\l"
-	.string "again…$"
+	.string "Leider muss ich ab jetzt wohl weiter\n"
+	.string "gegen dieselben schwachen WANDERERN\l"
+	.string "und POKÉMANIACs kämpfen {PAUSE 5}…{PAUSE 5}$"
