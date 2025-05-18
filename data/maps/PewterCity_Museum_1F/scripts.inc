@@ -340,9 +340,9 @@ PewterCity_Museum_1F_Miguel_Texto_8.3:
 	.string "Don't you, {PLAYER}? Tell the truth!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.4:
-	.string "Only matters the final result, at the\n"
-	.string "end of the day, only BILL, LANCE and\l"
-	.string "me will have an AERODACTYL!$"
+	.string "In the end of the day, only the final\n"
+	.string "result matter, only BILL, LANCE and I\l"
+	.string "will have an AERODACTYL!$"
 
 PewterCity_Museum_1F_Miguel_Texto_9:
 	.string "PETREL: You are hallucinating, you have\n"
@@ -410,7 +410,7 @@ PewterCity_Museum_1F_Miguel_Texto_20:
 	.string "like these and generously.$"
 
 PewterCity_Museum_1F_Miguel_Texto_21:
-	.string "This was possible due you, {PLAYER}.\p"
+	.string "This was possible due to you, {PLAYER}.\p"
 	.string "Take this as a personal present.$"
 
 PewterCity_Museum_1F_Miguel_Texto_22:

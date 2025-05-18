@@ -227,7 +227,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_9:
 
 ThreeIsland_Secundaria_Recreativos_Texto_10:
 	.string "Now they haven't even paid us, and the\n"
-	.string "JOYFUL GAME CORNER are filled with\l"
+	.string "JOYFUL GAME CORNER is filled with\l"
 	.string "undesirables. We can't even get close\l"
 	.string "to TWO ISLAND without them sending\l"
 	.string "their POKÉMON against us.$"

@@ -1686,7 +1686,7 @@ release
 end
 
 Llave_Despacho_Warp_Text_2_YesNo:
-	.string "Would you like to left your office?$"
+	.string "Would you like to leave your office?$"
 
 RocketHideoutJohtoP1_LanzaMugre::
 lock     

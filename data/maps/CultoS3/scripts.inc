@@ -914,7 +914,7 @@ Culto_S3_Batalla_Texto_19.2:
 
 Culto_S3_Batalla_Texto_19.3:
 	.string "{PAUSE 15}…{PAUSE 15} the ones you consider\n"
-	.string "could performance as well as you did.\p"
+	.string "could perform as well as you did.\p"
 	.string "You'll be able to identify them{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_20:

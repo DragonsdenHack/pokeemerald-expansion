@@ -156,7 +156,7 @@ RocketHideout_6F_Escena_Lance_Texto_6:
 	.string "ROCKET. Everyone who would dare to sell\l"
 	.string "any product, provide resources or to\l"
 	.string "carry out any type of economic deal\l"
-	.string "with the TEAM ROCKET, will be severely\l"
+	.string "with TEAM ROCKET, will be severely\l"
 	.string "punished.$"
 
 RocketHideout_6F_Escena_Lance_Texto_7:

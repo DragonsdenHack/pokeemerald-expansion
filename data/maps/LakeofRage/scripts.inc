@@ -228,7 +228,7 @@ LakeofRage_Fredo_Texto_5:
 LakeofRage_Fredo_Texto_5.1:
 	.string "Moreover, with the points treated at\n"
 	.string "the GOLDENROD meeting, LANCE would\l"
-	.string "would never have been able to do what\l"
+	.string "never have been able to do what\l"
 	.string "he did.$"
 
 LakeofRage_Fredo_Texto_6:

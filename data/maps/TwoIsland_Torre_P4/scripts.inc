@@ -417,7 +417,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_32:
 TwoIsland_Torre_P4_Evento_Final_Texto_33:
 	.string "How do I know? Between us, you would\n"
 	.string "have preferred a thousand times more\l"
-	.string "the fantastic plan I've talked to you\l"
+	.string "fantastic plan I've talked to you\l"
 	.string "about for this place than the useless\l"
 	.string "role it plays now.$"
 

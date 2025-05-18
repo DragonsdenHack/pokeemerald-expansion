@@ -508,7 +508,7 @@ VermilioCity_Motorista_Text_5:
 VermilioCity_Motorista_Text_6:
 .string "TETSUO, one of KANTO BIKERS\n"
 	.string "ASSOCIATION bosses, but it doesn't\l"
-	.string "matters right now.$"
+	.string "matter right now.$"
 
 VermilioCity_Motorista_Text_7:
 	.string "Hey, look. Lemme tell you what\n"

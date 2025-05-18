@@ -647,8 +647,8 @@ SilphS2_Text_35.1:
 	.string "the choice more difficult.$"
 
 SilphS2_Text_35.2:
-	.string "In the end, best POKEMON and TRAINERS\n"
-	.string "can both come from anywhere.$"
+	.string "In the end, the best POKEMON and\n"
+	.string "TRAINERS can both come from anywhere.$"
 
 
 
@@ -694,7 +694,7 @@ end
 SilphS2_Text_38:
 	.string "Within the walls of SILPH lie countless\n"
 	.string "secrets, mysteries that people like\l"
-	.string "that enigmatic RED, could dare to\l"
+	.string "that enigmatic RED, couldn't dare to\l"
 	.string "conceive.$"
 
 
@@ -829,7 +829,7 @@ SilphS2_Text_48.1:
 	.string "the Olympic medal tally, it matters\l"
 	.string "little if you have 50 silver medals; if\l"
 	.string "your competitor has just one more gold,\l"
-	.string "will surpass you in the overall ranking.$"
+	.string "they'll surpass you in the overall ranking.$"
 
 SilphS2_Text_48.2:
 	.string "For those solely fixated on the\n"

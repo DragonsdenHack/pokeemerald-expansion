@@ -2106,7 +2106,7 @@ RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_16:
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17:
 	.string "GIOVANNI: Never show your cards to the\n"
 	.string "enemy, {PLAYER}: no TRAINER can fight\l"
-	.string "against something that doesn't even\l"
+	.string "against something that he doesn't even\l"
 	.string "know that exists, no matter how\l"
 	.string "strong he is.$"
 
@@ -3942,8 +3942,8 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
 .string "We are no assassins, although your\n"
-	.string "recent actions make it seem opposite.\p"
-	.string "I'm offering you an opportunity of\n"
+	.string "recent actions make it seem otherwise.\p"
+	.string "I'm offering you an opportunity for\n"
 	.string "redemption.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
@@ -3956,8 +3956,8 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
 .string "GRUNT: S{PAUSE 15}-{PAUSE 15}SIR{PAUSE 15}…{PAUSE 15} Thanks for this second\n"
-	.string "chance! I swear you won't regret about\l"
-	.string "not using your NIDOK…$"
+	.string "chance! I swear you won't regret not\l"
+	.string "using your NIDOK…$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
 .string "GIOVANNI: That's not all.$"
@@ -3990,9 +3990,9 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18:
 	.string "the end of the year you will earn not\l"
 	.string "only forgiveness, but also you will be\l"
 	.string "promoted to HIGH-RANK, due to you\l"
-	.string "having shown strength, constancy and,\l"
-	.string "specially, the ability of learning from\l"
-	.string "your mistakes.$"
+	.string "having shown strength, consistency,\l"
+	.string "and specially, the ability to learn\l"
+	.string "from your mistakes.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
 .string "Now, get out of my sight!\p"

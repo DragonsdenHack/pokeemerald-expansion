@@ -621,7 +621,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.1:
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.2:
 	.string "I advise you to take ROUTE 12,\n"
-	.string "south o LAVENDER TOWN.$"
+	.string "south of LAVENDER TOWN.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24.3:
 	.string "Yes, it will be a long journey to\n"
@@ -2202,7 +2202,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_14:
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
 	.string "ANDRA: Damn BLAINE! He betrayed us!\p"
-	.string "FUJI was wrong about his loyality!\p"
+	.string "FUJI was wrong about his loyalty!\p"
 	.string "If LANCE would be able to find\n"
 	.string "MEWTWO, what could happen?$"
 

@@ -67,7 +67,7 @@ release
 end
 
 ViridianForest_Text_9:
-	.string "There are not strong POKÉMON around\n"
+	.string "There are no strong POKÉMON around\n"
 	.string "here{PAUSE 20}…{PAUSE 20} apparently.$"
 
 

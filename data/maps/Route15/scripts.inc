@@ -353,9 +353,9 @@ Route15_Koga_Bruno_Texto_1.2:
 
 Route15_Koga_Bruno_Texto_2:
 .string "KOGA: You offend me, BRUNO.\p"
-	.string "You know as well as me that my maximum\n"
-	.string "concern has always been the region\l"
-	.string "welfare.$"
+	.string "You know as well as I do that my\n"
+	.string "upmost concern has always been\l"
+	.string "the region welfare.$"
 
 Route15_Koga_Bruno_Texto_2.1:
 	.string "I understand that your position as\n"
@@ -421,11 +421,11 @@ Route15_Koga_Bruno_Texto_10:
 	.string "BRUNO: Don't worry about the CYCLING\n"
 	.string "ROAD, it will still have BIKERS…{PAUSE 25} loyal to\l"
 	.string "us, you won't even need to explain\l"
-	.string "something to anyone.$"
+	.string "anything to anyone.$"
 
 Route15_Koga_Bruno_Texto_11:
-	.string "BRUNO: I have no more to say to you,\n"
-	.string "KOGA, since you don't want to\l"
+	.string "BRUNO: I have nothing more to say to\n"
+	.string "you, KOGA, since you don't want to\l"
 	.string "cooperate, at least stay away and do\l"
 	.string "not hinder. Have a nice day.$"
 
@@ -447,7 +447,7 @@ Route15_Koga_Bruno_Texto_13.1:
 	.string "have a small present from me.$"
 
 Route15_Koga_Bruno_Texto_14:
-	.string "With these glasses holded in any\n"
+	.string "If these glasses are held by a\n"
 	.string "POKÉMON, their DARK moves power\l"
 	.string "will be increased by 20%. If you have\l"
 	.string "POKÉMON like HOUNDOOM or MURKROW will\l"
@@ -458,8 +458,8 @@ Route15_Koga_Bruno_Texto_15:
 	.string "I was not lying to BRUNO when I told him\n"
 	.string "that my unique concern has always been\l"
 	.string "the region's welfare, the problem is\l"
-	.string "that my welfare idea is totally far away\l"
-	.string "from his one.$"
+	.string "that my welfare idea is completely\l"
+	.string "different from his one.$"
 
 Route15_Koga_Bruno_Texto_15.1:
 	.string "Una dictadura impuesta por la fuerza,\n"
@@ -492,8 +492,8 @@ Route15_Koga_Bruno_Texto_16.1:
 
 Route15_Koga_Bruno_Texto_17:
 .string "I can't confront him, {PLAYER}.\p"
-	.string "Keep my LEADER position can be so\n"
-	.string "much useful for TEAM ROCKET.$"
+	.string "Keeping my LEADER position can be\n"
+	.string "so much useful for TEAM ROCKET.$"
 
 Route15_Koga_Bruno_Texto_17.1:
 	.string "But you{PAUSE 15}…{PAUSE 15} you {PLAYER}{PAUSE 15}…{PAUSE 15} you could\n"

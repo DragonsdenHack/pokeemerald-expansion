@@ -164,7 +164,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_8:
 
 Route12_House_1_Secundaria_Squirtle_Texto_9:
 	.string "Listen up, are you interested in doing a\n"
-	.string "mission for me? If you have success, I\l"
+	.string "mission for me? If you succeed, I\l"
 	.string "will give you the best reward that any\l"
 	.string "fisherman could offer you in KANTO.\p"
 	.string "Do you accept it?$"
@@ -209,12 +209,13 @@ Route12_House_1_Secundaria_Squirtle_Texto_11.2:
 Route12_House_1_Secundaria_Squirtle_Texto_12:
 	.string "Here is where you will act, ROCKET.\p"
 	.string "If you go to his FUCHSIA CITY house\n"
-	.string "and you defeat him, would be a severe\l"
-	.string "blow to his reputation, not just for\l"
-	.string "being defeated, but for being defeated\l"
-	.string "by a ROCKET who, pardon my directness,\l"
-	.string "as trainerclass is considered among the\l"
-	.string "weakest, along with the BUG CATCHERS.$"
+	.string "and you defeat him, it would be a\l"
+	.string "severe blow to his reputation, not\l"
+	.string "just for being defeated, but for being\l"
+	.string "defeated by a ROCKET who, pardon my\l"
+	.string "directness, as trainerclass is consid-\l"
+	.string "ered among the weakest, along with the\l"
+	.string "BUG CATCHERS.$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_12.1:
 	.string "If that were to happen, my GOOD ROD and\n"

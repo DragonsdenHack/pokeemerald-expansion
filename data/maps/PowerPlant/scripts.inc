@@ -134,7 +134,7 @@ PowerPlant18_Texto_1:
 	.string "ARCHER: I am not one of those mediocre\n"
 	.string "TRAINERS that are pretty common\l"
 	.string "around here, LORELEI, neither a GYM\l"
-	.string "LEADER, you will have to do it better if\l"
+	.string "LEADER, you will have to do better if\l"
 	.string "you want to defeat me…$"
 
 

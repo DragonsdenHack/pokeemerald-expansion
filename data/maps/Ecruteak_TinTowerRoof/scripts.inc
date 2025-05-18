@@ -368,7 +368,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_19:
 	.string "or {PLAYER}, to do that? Do you really\l"
 	.string "think I need to nerf your teams to\l"
 	.string "defeat both of you? I could crush you\l"
-	.string "two, with your teams at his prime\l"
+	.string "two, with your teams at its prime\l"
 	.string "without batting an eye.\p"
 	.string "You want a little proof?\p"
 	.string "You'll get it.$"

@@ -6857,10 +6857,10 @@ ViridianForest_Text_Cazabichos5Defeated:
 
 
 ViridianForest_Cazabichos5PostBattle:
-	.string "At the end, I believe I need more\n"
+	.string "In the end, I believe I need more\n"
 	.string "powerful insects to excel; with a\l"
 	.string "SCYTHER or a PINSIR on my team,\l"
-	.string "everyone would give me respect.$"
+	.string "everyone would respect me.$"
 
 
 
@@ -6935,7 +6935,7 @@ Route12_Text_ChicoDefeated:
 
 
 Route12_ChicoPostBattle:
-	.string "People of your profile could use an\n"
+	.string "People like you could use an\n"
 	.string "ELECTABUZZ to their advantage.$"
 
 
@@ -7215,7 +7215,7 @@ Route14_MotoristaPostBattle:
 
 
 Route14_Text_Motorista2Intro:
-	.string "Someone said me that in JOHTO, there's a\n"
+	.string "Someone told me that in JOHTO, there's a\n"
 	.string "POKÉMON named GRANBULL; I want to get\l"
 	.string "one!$"
 
@@ -10983,11 +10983,7 @@ SilphS1_Text_CientificoPostBattle:
 	.string "You were vital in helping this region\n"
 	.string "regain its sovereignty, so SILPH is your\l"
 	.string "home; you have access to everything\l"
-	.string "you want to see, ROCKET. You were\l"
-	.string "essential for this region to recover its\l"
-	.string "sovereignty, that's why SILPH is your\l"
-	.string "home, and you have access to anything\l"
-	.string "you want to see, ROCKET.$"
+	.string "you want to see, TEAM ROCKET ADMIN.$"
 
 
 SilphS2_Text_PoliciaIntro:
@@ -16241,7 +16237,7 @@ TwoIsland_Text_Biker2PostBattle:
 	.string "don't like.$"
 
 TwoIsland_Torre_P2_Text_BikerIntro:
-	.string "The JOYFUL GAME CORNER around here\n"
+	.string "The JOYFUL GAME CORNER's around here\n"
 	.string "have always been pitiful. You wouldn't\l"
 	.string "want to leave them as they were, would\l"
 	.string "you?$"

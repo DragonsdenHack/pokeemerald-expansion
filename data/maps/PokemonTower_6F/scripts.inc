@@ -238,7 +238,7 @@ PokemonTower_6F_Combate_Fuji_Texto_12:
 	.string "getting into the meeting.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.1:
-	.string "I want your team at his prime.\p"
+	.string "I want your team at its prime.\p"
 	.string "Let me heal your POKÉMON.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.2:

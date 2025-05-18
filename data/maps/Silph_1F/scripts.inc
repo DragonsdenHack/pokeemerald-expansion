@@ -442,7 +442,7 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
 	.string "except for our PRESIDENT…$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
-	.string "He has expressly make it know that you\n"
+	.string "He has expressly made it known that you\n"
 	.string "are welcome to enter whenever you want.$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6:

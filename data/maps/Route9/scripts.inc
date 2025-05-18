@@ -148,7 +148,7 @@ Route9_Aviso_Petrel_Texto_1:
 	.string "PETREL: {PLAYER}? The teleport\n"
 	.string "system is ready. Come back to HQ now\l"
 	.string "and get ready for your immediate\l"
-	.string "transfer to AZULONA CITY base.$"
+	.string "transfer to CELADON CITY base.$"
 
 Route9_Aviso_Petrel_Move_1:
 walk_in_place_left

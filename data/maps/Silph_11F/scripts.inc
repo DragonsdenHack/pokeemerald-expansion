@@ -456,8 +456,7 @@ Silph_11F_Bill_Presidente_Texto_3:
 	.string "So, {PLAYER}. Listen, {PLAYER}, I\n"
 	.string "can forget all of this and make you work\l"
 	.string "for SILPH, a TRAINER of your level has\l"
-	.string "nothing to do with the TEAM ROCKET, if\l"
-	.string "only…$"
+	.string "nothing to do with TEAM ROCKET, if only…$"
 
 Silph_11F_Bill_Presidente_Texto_4:
 	.string "????: Spare your persuasive techniques\n"
@@ -513,7 +512,7 @@ Silph_11F_Bill_Presidente_Texto_9:
 
 Silph_11F_Bill_Presidente_Texto_9.1:
 	.string "That's where MEWTWO was created, the\n"
-	.string "socalled 'strongest POKÉMON ever'.$"
+	.string "so called 'strongest POKÉMON ever'.$"
 
 Silph_11F_Bill_Presidente_Texto_9.2:
 	.string "Do you think GIOVANNI has any idea\n"
@@ -1060,10 +1059,10 @@ Silph_11F_Reunión_Presidente_Lance_Texto_2:
 
 Silph_11F_Reunión_Presidente_Lance_Texto_3:
 	.string "LANCE: I understand, you are a true\n"
-	.string "defender of the original 150. An\l"
-	.string "specialist in KANTO POKÉMON. And you\l"
+	.string "defender of the original 150.\p"
+	.string "A specialist in KANTO POKÉMON. And you\n"
 	.string "don't completely like the idea of\l"
-	.string "someone from outside taking the lead.\l"
+	.string "someone from outside taking the lead.\p"
 	.string "Right, PRESIDENT?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_4:

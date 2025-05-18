@@ -238,7 +238,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12:
 	.string "provided us, he could easily earn like\l"
 	.string "¥70,000,000; a million per EEVEE, that\l"
 	.string "is enough money to leave KANTO and\l"
-	.string "disappear forever without leave a hint.$"
+	.string "disappear forever without leaving a hint.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_13:
 	.string "Not only has he left me stranded in the\n"

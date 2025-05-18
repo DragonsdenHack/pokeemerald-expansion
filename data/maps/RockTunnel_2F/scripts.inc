@@ -608,11 +608,11 @@ RockTunnel_2F_Entrenador_Especial_Texto_1:
 	.string "worthy of battling me. You have no idea\l"
 	.string "how long I've been training in this cave,\l"
 	.string "those HIKERS and POKÉMANIACS already\l"
-	.string "bore me due their low level, I will fight\l"
-	.string "you against someone that have the 8\l"
-	.string "GYM BADGES, if you have them and defeat\l"
-	.string "me, I will give you something even more\l"
-	.string "devastating than ROCK SLIDE.$"
+	.string "bore me due their low level.\p"
+	.string "I will fight against someone that have\n"
+	.string "the 8 GYM BADGES, if you have them and\l"
+	.string "defeat me, I will give you something even\l"
+	.string "more devastating than ROCK SLIDE.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"

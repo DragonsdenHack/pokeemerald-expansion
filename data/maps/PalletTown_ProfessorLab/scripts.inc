@@ -245,7 +245,7 @@ PalletTown_ProfessorLab_Lab_Texto_9:
 PalletTown_ProfessorLab_Lab_Texto_9.1:
 	.string "Anyways, he's always been a rebel,\n"
 	.string "wanting to do everything his own way,\l"
-	.string "we suggested he to make friends as\l"
+	.string "we suggested him to make friends like\l"
 	.string "BILL, the president of SILPH, LANCE,\l"
 	.string "and other ELITE members.$"
 	

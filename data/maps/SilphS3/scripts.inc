@@ -267,8 +267,7 @@ SilphS3_Miguel_Batalla_Texto_2:
 	.string "S.MIGUEL: The PRESIDENT already\n"
 	.string "informed us that soon a ROCKET could\l"
 	.string "pay us a little visit to this privileged\l"
-	.string "place; I don't know why I'm not about\l"
-	.string "who's in charge.$"
+	.string "place; obviously, it was you.$"
 
 SilphS3_Miguel_Batalla_Texto_3:
 	.string "As you can see, ROCKET ADMIN, you're\n"

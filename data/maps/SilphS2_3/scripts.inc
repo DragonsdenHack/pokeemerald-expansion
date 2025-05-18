@@ -368,7 +368,7 @@ SilphS2_3_Carta_Texto_3:
 
 SilphS2_3_Carta_Texto_4:
 	.string "As I told you, I can confirm that most\n"
-	.string "of KANTO's POKÉMON had still potential\l"
+	.string "of KANTO's POKÉMON still had potential\l"
 	.string "yet to be discovered.$"
 
 SilphS2_3_Carta_Texto_5:

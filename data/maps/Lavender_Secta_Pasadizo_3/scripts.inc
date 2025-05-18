@@ -399,8 +399,8 @@ Lavender_Secta_Pasadizo_Lider_Texto_9:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_10:
-	.string "Who could have told this GYM wouldn't\n"
-	.string "last forever.$"
+	.string "Who could have known this GYM\n"
+	.string "wouldn't last forever.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_11:
 	.string "C. FRIDA: Nothing does.$"

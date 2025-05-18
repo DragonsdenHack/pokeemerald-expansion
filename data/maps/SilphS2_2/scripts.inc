@@ -290,8 +290,8 @@ SilphS2_2_Lorelei_Texto_16:
 
 SilphS2_2_Lorelei_Texto_17:
 	.string "But this is no longer my business. Now, I\n"
-	.string "just want some quiet{PAUSE 15}…{PAUSE 15}to return to my\l"
-	.string "roots.$"
+	.string "just want some peace and quiet{PAUSE 15}…{PAUSE 15}to\l"
+	.string "return to my roots.$"
 
 SilphS2_2_Lorelei_Texto_18:
 	.string "If you happen to stop by FOUR ISLAND,\n"

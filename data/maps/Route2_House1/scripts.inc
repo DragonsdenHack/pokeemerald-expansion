@@ -10,7 +10,7 @@ end
 
 Route2_House1_Text_1:
 	.string "When the legal system works as it damn\n"
-	.string "it should, you ROCKETS will finally stop\l"
+	.string "should, you ROCKETS will finally stop\l"
 	.string "scavenging the crumbs we leave behind,\l"
 	.string "it's the only thing that remains within\l"
 	.string "your miserable existence.$"

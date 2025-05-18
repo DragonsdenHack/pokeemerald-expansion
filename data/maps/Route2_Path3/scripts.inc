@@ -74,9 +74,9 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_3:
 	.string "OAK'S AIDE?$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_4:
-	.string "The OAK's pupil will crunch all your\n"
-	.string "POKÉMON as if they were thin sheets of\l"
-	.string "paper.$"
+	.string "OAK's pupil will crunch all your\n"
+	.string "POKÉMON as if they were thin sheets\l"
+	.string "of paper.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_5:
 	.string "It will be the last thing that you do.$"
@@ -89,9 +89,9 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_7:
 	.string "HYPERBEAM from OAK'S AIDE!-$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_8:
-	.string "You are going to pay this, ROCKET, I will\n"
-	.string "burn all your entire organization for\l"
-	.string "what you did here.$"
+	.string "You are going to pay for this, ROCKET,\n"
+	.string "I will burn your entire organization\l"
+	.string "for what you did here.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_9:
 	.string "You still have time to disappear before\n"

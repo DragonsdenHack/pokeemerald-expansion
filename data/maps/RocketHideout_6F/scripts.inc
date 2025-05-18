@@ -1791,7 +1791,7 @@ step_end
 RocketHideout_6F_Petrel_Post_SSanne_Texto_1:
 	.string "PETREL: Excellent work,\n"
 	.string "HIGH RANK GRUNTs.\p"
-	.string "GIOVANNI'll be eager to start\n"
+	.string "GIOVANNI will be eager to start\n"
 	.string "investigating the contents of\l"
 	.string "that flask.$"
 

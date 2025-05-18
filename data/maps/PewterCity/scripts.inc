@@ -395,8 +395,7 @@ PewterCity_Petrel_Texto_4:
 PewterCity_Petrel_Texto_5:
 	.string "Obviously, with -thieves-, it refers to\n"
 	.string "our organization, it's funny, I enjoy\l"
-	.string "the double standard in this region. I\l"
-	.string "love the double standard in this region.$"
+	.string "the double standard in this region.$"
 
 PewterCity_Petrel_Texto_6:
 	.string "If a scientist takes a FOSSIL at\n"
@@ -424,7 +423,7 @@ PewterCity_Petrel_Texto_8:
 PewterCity_Petrel_Texto_8.1:
 	.string "As if those FOSSILS belonged to someone,\n"
 	.string "when any idiot can take them at any\l"
-	.string "moment, if is able to find one.$"
+	.string "moment, if they are able to find one.$"
 
 PewterCity_Petrel_Texto_9:
 	.string "Talking about FOSSILS, I've come here\n"
@@ -450,7 +449,7 @@ PewterCity_Petrel_Texto_9.2:
 PewterCity_Petrel_Texto_10:
 	.string "If you're up for it, you're invited to\n"
 	.string "that meeting, we'll be in the back booth\l"
-	.string "behind the museum officially open to\l"
+	.string "behind the museum officially opened to\l"
 	.string "the public, I'll be waiting for you\l"
 	.string "there.$"
 

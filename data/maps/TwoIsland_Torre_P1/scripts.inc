@@ -18,8 +18,8 @@ release
 end
 
 TwoIsland_Torre_P1_Primer_Motero_Texto_1:
-	.string "We will turn this island into SEVII main\n"
-	.string "place. What are they complaining so\l"
+	.string "We will turn this island into SEVII's main\n"
+	.string "hub. What are they complaining so\l"
 	.string "much about?$"
 
 TwoIsland_Torre_P1_Segundo_Motero::

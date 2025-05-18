@@ -362,8 +362,8 @@ Aqua3_Combate_Aquiles_Texto_4:
 .string "KYOGRE!\p"
 	.string "Lord of the seas!\p"
 	.string "The world needs your immense power to\n"
-	.string "restore balance! With you, the seasl\l"
-	.string "wil regain their original essence!$"
+	.string "restore balance! With you, the seas\l"
+	.string "will regain their original essence!$"
 
 Aqua3_Combate_Aquiles_Texto_4.1:
 	.string "Make me worthy to sail under the worst\n"
@@ -442,7 +442,7 @@ Aqua3_Combate_Aquiles_Texto_15:
 .string "ARCHIE: {PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_16:
-.string "¿W{PAUSE 15}-{PAUSE 15}What am I doing here?$"
+.string "W{PAUSE 15}-{PAUSE 15}What am I doing here?$"
 
 Aqua3_Combate_Aquiles_Texto_17:
 	.string "ZEUS: That's exactly what we're\n"

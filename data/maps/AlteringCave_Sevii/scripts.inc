@@ -287,8 +287,8 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_14:
 AlteringCave_Sevii_Commbate_Zeus_Texto_14.1:
 	.string "Thanks to this, they have been able\n"
 	.string "find the place where my ancestors\l"
-	.string "confined them. Yes, was here, at\l"
-	.string "SEVII, and I'm the only one, as\l"
+	.string "confined them. Yes, right here, in the\l"
+	.string "SEVII ISLANDS, and I'm the only one, as\l"
 	.string "RAYQUAZA's master, who can stop them.$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_15:

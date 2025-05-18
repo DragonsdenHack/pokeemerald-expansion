@@ -107,7 +107,7 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_7:
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_8:
 	.string "You don't know what you've just done,\n"
-	.string "ROCKET. You're unlucky that I won't call\l"
+	.string "ROCKET. You're lucky that I won't call\l"
 	.string "the POLICE right now, just to see how\l"
 	.string "OAK crushes your entire team when he\l"
 	.string "finds out what you're up to.$"

@@ -2014,39 +2014,39 @@ static const u8 sLaxIncenseDesc[] = _(
     "foe's accuracy.");
 
 static const u8 sOddIncenseDesc[] = _(
-    "Al llevarlo, forta-\n"
-   	"lece un 10% los\n"
-   	"ataques PSÍQUICOS.");
+    "A hold item that\n"
+    "boosts Psychic-\n"
+    "type moves.");
 
 static const u8 sRockIncenseDesc[] = _(
-    "Al llevarlo, forta-\n"
-   	"lece un 10% los\n"
-   	"ataques tipo ROCA.");
+    "A hold item that\n"
+    "raises the power of\n"
+    "Rock-type moves.");
 
 static const u8 sFullIncenseDesc[] = _(
-    "Al llevarlo,el\n"
-   	"POKÉMON se vuelve\n"
-   	"más lento.");
+    "A held item that\n"
+    "makes the holder\n"
+    "move slower.");
 
 static const u8 sWaveIncenseDesc[] = _(
-    "Al llevarlo, forta-\n"
-   	"lece un 10% los\n"
-   	"ataques tipo AGUA.");
+    "A hold item that\n"
+    "slightly boosts\n"
+    "Water-type moves.");
 
 static const u8 sRoseIncenseDesc[] = _(
-    "Al llevarlo, forta-\n"
-   	"lece un 10% los\n"
-   	"ataques tipo PLANTA.");
+    "A hold item that\n"
+    "raises the power of\n"
+    "Grass-type moves.");
 
 static const u8 sLuckIncenseDesc[] = _(
-    "Al llevarlo, duplica\n"
-   	"el dinero ganado\n"
-   	"en un combate.");
+    "Doubles money in\n"
+    "battle if the\n"
+    "holder takes part.");
 
 static const u8 sPureIncenseDesc[] = _(
-    "Al llevarlo, repele\n"
-   	"a los POKÉMON\n"
-   	"salvajes.");
+    "A hold item that\n"
+    "helps repel wild\n"
+    "Pokémon.");
 
 // Contest Scarves
 static const u8 sRedScarfDesc[] = _(

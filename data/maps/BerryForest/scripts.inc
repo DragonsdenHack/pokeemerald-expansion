@@ -218,8 +218,8 @@ BerryForest_Evento_Hypno_Texto_9:
 	.string "LOSTELLE: Y-yes!$"
 
 BerryForest_Evento_Hypno_Texto_10:
-	.string "????: It's been close; this can't go on\n"
-	.string "like this…{PAUSE 20}$"
+	.string "????: That was close; it can't go\n"
+	.string "on like this…{PAUSE 20}$"
 
 BerryForest_Paso_Cueva_Hypno::
 delay 15
