@@ -18,9 +18,9 @@ release
 end
 
 ViridianForest_Text_1:
-	.string "I came here with some friends They're\n"
-	.string "all itching to get into some POKÉMON\l"
-	.string "battles!$"
+	.string "Meine Freunde und ich wollten hier\n"
+	.string "KÄFER-POKéMON fangen … Unsere\l"
+	.string "POKéMON wollen kämpfen!!!$"
 
 
 
@@ -67,8 +67,8 @@ release
 end
 
 ViridianForest_Text_9:
-	.string "There are not strong POKÉMON around\n"
-	.string "here{PAUSE 20}…{PAUSE 20} apparently.$"
+	.string "Es gibt hier wohl keine starken\n"
+	.string "POKéMON…$"
 
 
 
@@ -263,36 +263,40 @@ release
 end
 
 ViridianForest_Combate_Guays_Texto_1:
-	.string "VERO: I told you! PINSIR was not an\n"
-	.string "extinct POKÉMON in this forest! And we\l"
-	.string "were so lucky to discover a couple!$"
+	.string "VERO: Habe ich's dir doch gesagt! PINSIR\n"
+	.string "ist kein ausgestorbenes POKéMON in\l"
+	.string "diesem Wald! Und wir hatten richtig\l"
+	.string "Glück, gleich ein Paar von ihnen zu\l"
+	.string "entdecken!$"
 
 ViridianForest_Combate_Guays_Texto_2:
-	.string "JUAN: With this latest addition, we'll be\n"
-	.string "the envy of all the COOL-TRAINERS, no\l"
-	.string "one has a team like ours, the SCYTHER we\l"
-	.string "catched in the SAFARI ZONE is the\l"
-	.string "perfect complement, two BUG TYPE that\l"
-	.string "the mostly of mediocre bugcatchers\l"
-	.string "around this place can't even imagine.$"
+	.string "JUAN: Mit dieser neuesten Ergänzung in\n"
+	.string "unserem Team werden uns alle\l"
+	.string "Ass-Trainer beneiden. Niemand hat ein\l"
+	.string "Team wie wir. Das SICHLOR, das wir in\l"
+	.string "der SAFARI-ZONE gefangen haben, ist\l"
+	.string "ebenfalls eine Bereicherung. Zwei\l"
+	.string "KÄFER-TYPEN, von denen die meisten\l"
+	.string "mittelmäßigen Käfersammler hier nicht\l"
+	.string "einmal träumen können.$"
 
 ViridianForest_Combate_Guays_Texto_3:
-	.string "VERO: I know who you are, you were at\n"
-	.string "ROCK TUNNEL when the rumor of there\l"
-	.string "was a KANGASKHAN spreaded around,\l"
-	.string "seems like it was just a lie, instead\l"
-	.string "this{PAUSE 20}…{PAUSE 20} No one would believe that would\l"
-	.string "remain a PINSIR here and results that\l"
-	.string "here is one.$"
+	.string "VERO: Ich erinnere mich an dich. Du\n"
+	.string "warst im FELSTUNNEL, als das Gerücht\l"
+	.string "mit dem KANGAMA rumging. Scheint so, als\l"
+	.string "wäre es nur eine Lüge gewesen,\l"
+	.string "verglichen mit dem hier … Niemand hätte\l"
+	.string "geglaubt, dass hier noch ein PINSIR\l"
+	.string "sein würde und doch ist hier eins.$"
 
 ViridianForest_Combate_Guays_Texto_4:
-	.string "JUAN: This is the ROCKET that defeated\n"
-	.string "you?$"
+	.string "JUAN: Ist das der Typ von TEAM ROCKET,\n"
+	.string "der dich besiegt hat?$"
 
 ViridianForest_Combate_Guays_Texto_5:
-	.string "VERO: Indeed, must be a commandant or\n"
-	.string "something, common ROCKETS are not even\l"
-	.string "close to his skill.$"
+	.string "VERO: Ja. Er muss ein Kommandant sein\n"
+	.string "oder so. Gewöhnliche ROCKETs sind bei\l"
+	.string "weitem nicht so stark wie er.$"
 
 ViridianForest_Combate_Guays_Texto_6:
 	.string "JUAN: I want to check that, a ROCKET\n"

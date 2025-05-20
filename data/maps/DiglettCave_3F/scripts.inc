@@ -18,7 +18,6 @@ release
 end
 
 DiggletCave3F_Text_1:
-.string "Well, isn't this a surprise!\n"
-    .string "DIGLETT dug this long tunnel!\p"
-    .string "It goes right to VIRIDIAN CITY,\n"
-    .string "they tell me.$"
+	.string "Das ist cool! DIGDA hat einen Tunnel\n"
+	.string "gegraben! Er führt direkt nach\l"
+	.string "VERTANIA CITY!$"

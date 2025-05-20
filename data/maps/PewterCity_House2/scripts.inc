@@ -9,10 +9,10 @@ release
 end
 
 PewterCity_House2_Text_1:
-.string "POKÉMON learn new techniques as\n"
-    .string "they grow.\p"
-    .string "But some moves must be taught to\n"
-    .string "them by people.$"
+	.string "POKéMON sind einfacher zu fangen, wenn\n"
+	.string "sie verletzt sind oder schlafen!\p"
+	.string "Trotzdem gibt es keine\n"
+	.string "Erfolgsgarantie!$"
 
 
 
@@ -24,9 +24,7 @@ release
 end
 
 PewterCity_House2_Text_2:
-    .string "A POKÉMON becomes easier to \n"
-    .string "catch if it has a status problem.\p"
-    .string "Sleep, poison, burn, or paralysis…\n"
-    .string "Those are all effective.\p"
-    .string "But catching POKÉMON is never\n"
-    .string "a sure thing!$"
+	.string "Mit wachsender Erfahrung lernen\n"
+	.string "POKéMON neue Attacken! Manche\l"
+	.string "Attacken kann ihnen jedoch nur\l"
+	.string "ein TRAINER beibringen!$"

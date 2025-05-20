@@ -9,10 +9,10 @@ release
 end
 
 ViridianCity_House1_Text_1:
-    .string "Coming up with nicknames is fun,\n"
-    .string "but it's not so easy to do.\p"
-    .string "Clever names are nice, but simple\n"
-    .string "names are easier to remember.$"
+	.string "Es macht Spaß, sich Spitznamen\n"
+	.string "auszudenken. Aber es erfordert viel\l"
+	.string "Einfallsreichtum! Einfache Namen kann\l"
+	.string "man sich leichter merken!$"
 
 
 
@@ -24,7 +24,7 @@ release
 end
 
 ViridianCity_House1_Text_2:
-    .string "My daddy loves POKÉMON, too.$"
+ 	.string "Mein Papa mag POKéMON auch sehr gerne!$"
 
 
 

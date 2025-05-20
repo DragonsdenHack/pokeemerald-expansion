@@ -9,9 +9,9 @@ release
 end
 
 PewterCity_Museum_Text_1:
-.string "I want a PIKACHU!\n"
-    .string "It's so cute!\p"
-    .string "I asked my daddy to catch me one!$"
+.string "Ich hätte gerne ein PIKACHU!\n"
+    .string "Es ist so furchtbar süß!\p"
+    .string "Mein Papa soll mir eines fangen!$"
 
 
 
@@ -23,7 +23,8 @@ release
 end
 
 PewterCity_Museum_Text_2:
-.string "Yeah, a PIKACHU soon, I promise!$"
+	.string "Ja, ein PIKACHU! Ich verspreche,\n"
+	.string "ich fange eins!$"
 
 
 
@@ -40,9 +41,9 @@ release
 end
 
 PewterCity_Museum_Text_4:
-	.string "MOON STONE, huh? What's so special\n"
-	.string "about it? Looks like an ordinary rock to\l"
-	.string "me.$"
+	.string "MONDSTEIN, was? Was ist daran so\n"
+	.string "besonders? Sieht für mich wie ein\l"
+	.string "normaler Stein aus.$"
 
 
 
@@ -54,9 +55,10 @@ release
 end
 
 PewterCity_Museum_Text_5:
-	.string "This month, we're running a space\n"
-	.string "exhibit, where, of course, you are not\l"
-	.string "invited.$"
+	.string "Diesen Monat läuft unsere\n"
+	.string "Weltraumausstellung, zu der du\l"
+	.string "selbstverständlich eingeladen bist.\l"
+	.string "NICHT!$"
 
 
 PewterMuseum2FDocumento_100::
@@ -149,76 +151,85 @@ emote_exclamation_mark
 step_end
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_1:
-	.string "July 20, 1969! Humankind first set foot\n"
-	.string "on the moon that day. I bought a color\l"
-	.string "TV just so I could watch that news.$"
+	.string "Der 20. Juli 1969! Die erste\n"
+	.string "Mondlandung! Für die\l"
+	.string "Fernsehübertragung hatte ich extra\l"
+	.string "einen Farbfernseher gekauft!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_2:
-	.string "Keep it on your mind ROCKET, you've only\n"
-	.string "managed to delay the date when those\l"
-	.string "underground paths will be closed, in 3\l"
-	.string "years, there won't be a trace of them.$"
+	.string "Merkt euch das, TEAM ROCKET! Ihr habt\n"
+	.string "es nur geschafft, die Schließung der\l"
+	.string "Tunnelpfade hinauszuzögern. In drei\l"
+	.string "Jahren wird es keine Spur mehr von\l"
+	.string "ihnen geben!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_4:
-	.string "Did you come in the name of the BIKERS\n"
-	.string "to tell me that do not touch your\l"
-	.string "UNDERGROUND PATHS?$"
+	.string "Bist du im Namen der BIKER gekommen, um\n"
+	.string "mir zu sagen, dass ich die TUNNELPFADE\l"
+	.string "nicht anrühren soll?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_5:
-	.string "I will be clear kid, I came from JOHTO\n"
-	.string "and your internal war, if you are or not\l"
-	.string "from the TEAM ROCKET, or BIKER, it is\l"
-	.string "the same for me, it is not personal it's\l"
-	.string "just business, the only thing those\l"
-	.string "BIKERS are afraid of is their black\l"
-	.string "market running dry that they have\l"
-	.string "armed down there, but I don't care\l"
-	.string "about that.$"
+	.string "Ich sage es ganz deutlich, Kleiner!\p"
+	.string "Ich bin den ganzen Weg von JOHTO\n"
+	.string "hergekommen! Eure internen Konflikte\l"
+	.string "sind mir scheißegal! Ob du zu TEAM\l"
+	.string "ROCKET oder den BIKERN gehörst, ist mir\l"
+	.string "scheißegal! Ist doch beides sowieso\l"
+	.string "dasselbe! Es ist nichts Persönliches!\p"
+	.string "Es geht nur ums Geschäft! Das Einzige,\n"
+	.string "wovor diese BIKER Angst haben, ist,\l"
+	.string "dass ihr kleiner Schwarzmarkt, den\l"
+	.string "sie da unten aufgebaut haben,\l"
+	.string "zusammenbricht! Aber das interessiert\l"
+	.string "mich nicht die Bohne!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_6:
-	.string "You look like someone reasonable and\n"
-	.string "important in the TEAM ROCKET, you don't\l"
-	.string "need to help those BIKERS, and your\l"
-	.string "interests do not have a reason to\l"
-	.string "confront the mine. What do you think?$"
+	.string "Du siehst wie jemand aus, der Verstand\n"
+	.string "hat und etwas bei TEAM ROCKET zu sagen\l"
+	.string "hat. Du musst diesen BIKERN nicht\l"
+	.string "helfen. Deine Interessen müssen nicht\l"
+	.string "meinen im Weg stehen. Was denkst du?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_7:
-	.string "That is what I meant! Maybe we could do\n"
-	.string "some business, kid!$"
+	.string "Genau das meine ich! Vielleicht kommen\n"
+	.string "wir ja doch noch ins Geschäft, Kleiner!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_8:
-	.string "What a pity that this has to finish like\n"
-	.string "this, anyway, my POKÉMON and me we will\l"
-	.string "care of teaching you a lesson.$"
+	.string "Wie schade, dass es so enden muss. Naja,\n"
+	.string "egal. Meine POKéMON und ich werden eine\l"
+	.string "Lektion erteilen, die du nicht so\l"
+	.string "schnell vergessen wirst!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_9:
-	.string "Did my AMPHAROS's light extinguish?$"
+	.string "Ist das Licht meines AMPHAROS\n"
+	.string "erloschen?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_10:
-	.string "I didn't know that in KANTO there would\n"
-	.string "exist such strong people apart from\l"
-	.string "the GYM LEADERS, this region is more\l"
-	.string "than I expected…$"
+	.string "Ich hätte nicht gedacht, dass es,\n"
+	.string "abgesehen von den ARENALEITERN, so\l"
+	.string "starke Trainer in KANTO gibt. Diese\l"
+	.string "Region hat mehr zu bieten, als ich\l"
+	.string "dachte {PAUSE 5}…{PAUSE 5}$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_11:
-	.string "What!? That you work for GIOVANNI\n"
-	.string "directly under his orders and you hold\l"
-	.string "one of the most important positions\l"
-	.string "within the TEAM ROCKET? And If I do not\l"
-	.string "stop my intentions of removing those\l"
-	.string "underground paths you will tell this to\l"
-	.string "GIOVANNI?$"
+	.string "Was!? Du arbeitest direkt unter\n"
+	.string "GIOVANNI und hast eine der wichtigsten\l"
+	.string "Positionen bei TEAM ROCKET inne?\p"
+	.string "Und wenn ich meine Pläne, diese\n"
+	.string "unterirdischen Wege zu entfernen,\l"
+	.string "nicht aufgebe, wirst du GIOVANNI\l"
+	.string "davon berichten?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_12:
-	.string "Okay, okay. Calm down kid, I think there\n"
-	.string "has been a misunderstanding, the\l"
-	.string "magnetrain track construction process\l"
-	.string "will take another couple of years, I\l"
-	.string "don't care about those paths for now,\l"
-	.string "it can continue for 1, 2, or 3 more years,\l"
-	.string "there will be time to worry about them,\l"
-	.string "don't you think?$"
+	.string "Okay, okay. Entspann dich, Mann!\p"
+	.string "Ich denke, das ist alles ein großes\n"
+	.string "Missverständnis! Der Bau der Schienen\l"
+	.string "für den Magnetzug wird noch ein paar\l"
+	.string "Jahre dauern. Die Tunnelpfade sind mir\l"
+	.string "im Moment egal. Darüber kann man sich\l"
+	.string "auch später noch Gedanken machen.\p"
+	.string "Findest du nicht auch?$"

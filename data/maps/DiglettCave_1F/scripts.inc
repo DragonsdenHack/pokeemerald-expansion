@@ -18,10 +18,10 @@ release
 end
 
 DiggletCave1F_Text_1:
-.string "I went inside ROCK TUNNEL, but it's\n"
-    .string "pitch-black and scary in there.\p"
-    .string "If I could get a POKÉMON to use\n"
-    .string "FLASH and light it up…$"
+	.string "Im FELSTUNNEL ist es stockdunkel und\n"
+	.string "furchtbar gruselig! Wenn nur ein\l"
+	.string "POKéMON mit einem BLITZ für Licht\l"
+	.string "sorgen könnte…$"
 
 DiggletCave1F_Frontera:: 
 compare VAR_UNUSED_0x40F7, 55
@@ -50,13 +50,13 @@ release
 end
 
 DiggletCave1F_Frontera_Text_1:
-.string "Ehh!\n"
-	.string "Hold on!\l"
-	.string "Right now the surroundings of PEWTER\l"
-	.string "CITY are full of police due to what\l"
-	.string "happened at MT. MOON! You better make\l"
-	.string "sure they don't see you around those\l"
-	.string "places!$"
+.string "Ähm!\p"
+	.string "Warte!\p"
+	.string "Die Umgebung von MARMORIA CITY ist\n"
+	.string "momentan voll von Polizisten wegen dem,\l"
+	.string "was auf dem MONDBERG passiert ist! Du\l"
+	.string "solltest besser darauf achten, dass sie\l"
+	.string "dich nicht in der Gegend sehen!$"
 
 
 DiggletCave1F_Frontera_Move1:

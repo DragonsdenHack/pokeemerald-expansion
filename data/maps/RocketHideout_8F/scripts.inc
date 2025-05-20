@@ -2204,253 +2204,269 @@ RocketHideout_8F_Mision_Gimnasios_texto_5:
 	.string "POKéMON gehört.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6:
-	.string "GIOVANNI: There will be time to catch\n"
-	.string "you up, BLUE. What you need to know now\l"
-	.string "is… at the moment we know its location\l"
-	.string "and capture it, we will have everything\l"
-	.string "we need to invade the POKÉMON LEAGUE\l"
-	.string "and overthrow LANCE once and for…$"
+	.string "GIOVANNI: Es wird sich noch die\n"
+	.string "Gelegenheit ergeben, dir alles zu\l"
+	.string "erzählen, BLAU. Was du für den Moment\l"
+	.string "wissen musst, ist, dass, sobald wir\l"
+	.string "seinen Standort kennen und es\l"
+	.string "gefangen haben, wir alles haben werden,\l"
+	.string "was wir brauchen, um die POKéMON LIGA\l"
+	.string "zu stürmen und SIEGFRIED ein für alle\l"
+	.string "mal das Handwerk zu legen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.1:
-	.string "????: They are warned.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.2:
-	.string "GIOVANNI: PROTON, what happens?$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.3:
-	.string "I came back to talk with FUJI,\n"
-	.string "as well as you said, SIR.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.4:
-	.string "Someone tipped us off, the KANTO\n"
-	.string "POLICE arrived at LAVENDER TOWN.\p"
-	.string "FUJI was arrested, and I was able\n"
-	.string "to escape, thanks to TELEPORT.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.5:
-	.string "GIOVANNI: This{PAUSE 25}…{PAUSE 25} can't be{PAUSE 15}…{PAUSE 15}$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.6:
-	.string "Moreover, they're aware about all\n"
-	.string "our projects with the KANTO BIRDS.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.7:
-	.string "Someone must have informed them about\n"
-	.string "the latest news in genetic engineering,\l"
-	.string "and how it's possible to clone them.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_7:
-	.string "That BLAINE{PAUSE 15}…{PAUSE 15} He has betrayed us, there\n"
-	.string "is no other explanation. He works for\l"
-	.string "LANCE, or worse yet, for OAK.$"
+	.string "PYRO! Er hat uns verraten! Es kann\n"
+	.string "keine andere Erklärung geben! Er\l"
+	.string "arbeitet für SIEGFRIED oder noch\l"
+	.string "schlimmer: für EICH!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_8:
-	.string "H.R.GRUNT: SIR, forgive me for\n"
-	.string "interrupting, but it's urgent.\p"
-	.string "The POKÉMON LEAGUE HQ updated\n"
-	.string "the points required to compete\l"
-	.string "in the KANTO POKÉMON LEAGUE.$"
+	.string "HOCHRANGIGER RÜPEL: Verzeihen Sie\n"
+	.string "bitte die Störung, Sir, aber es ist\l"
+	.string "dringend. Die Liga-Leitung hat gerade\l"
+	.string "eine Erklärung veröffentlicht, in der\l"
+	.string "sie die Anforderungen für die Teilnahme\l"
+	.string "an der POKéMON LIGA erneuert haben.\p"
+	.string "Ich zitiere:$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_9:
-	.string "Well, SIR, I'll quote: - In addition\n"
-	.string "to the 8 GYM BADGES, given that we\l"
-	.string "only know of the existence of three\l"
-	.string "LEGENDARY BIRDS in our region, which\l"
-	.string "are closely protected, it will be\l"
-	.string "strictly prohibited to participate with\l"
-	.string "any of these three POKÉMON. This is not\l"
-	.string "only as a show of respect but also due\l"
-	.string "to the impossibility of obtaining them\l"
-	.string "through legal means. Therefore, any\l"
-	.string "TRAINER in possession of these\l"
-	.string "LEGENDARIES will have engaged in\l"
-	.string "illegal practices that we, by no\l"
-	.string "means, approve of-.$"
+	.string "-Neben der Bedingung, alle acht Orden\n"
+	.string "zu besitzen, ist der Einsatz der drei\l"
+	.string "LEGENDÄREN VÖGEL strengtens verboten.\p"
+	.string "Da nur drei von ihnen in der Region\n"
+	.string "gesichtet wurden und diese unter dem\l"
+	.string "Schutz des Staates stehen, wird jeder\l"
+	.string "TRAINER, der eines dieser POKéMON\l"
+	.string "besitzt, wegen illegaler Handlungen\l"
+	.string "verhaftet, die von uns keinesfalls\l"
+	.string "toleriert werden.-$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_10:
-	.string "GIOVANNI: I see{PAUSE 15}…{PAUSE 15} those who make\n"
-	.string "the law, can shape it to their liking.$"
+	.string "traducir$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_12:
-	.string "-Illegal practices that we, by\n"
-	.string "no means, approve of-.\p"
-	.string "It's amusing coming from them.$"
+	.string "GIOVANNI: -wegen illegaler Handlungen\n"
+	.string "verhaftet, die von uns keinesfalls\l"
+	.string "toleriert werden.- Und das kommt\l"
+	.string "ausgerechnet von denen …$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_13:
-.string "Thanks, HIGH-RANK.\p"
-	.string "Can retire.$"
+	.string "GIOVANNI: Danke. Du kannst gehen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "HIGH-RANK: SIR{PAUSE 15}…{PAUSE 15}\p"
-	.string "EXECUTIVEs{PAUSE 15}…{PAUSE 15}$"
+.string "HOCHRANGIGER RÜPEL: Ja, Sir!\p"
+	.string "Offiziere {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
-	.string "ANDRA: Damn BLAINE! He betrayed us!\p"
-	.string "FUJI was wrong about his loyality!\p"
-	.string "If LANCE would be able to find\n"
-	.string "MEWTWO, what could happen?$"
+	.string "ANDRA: Dieser verdammte PYRO! Er hat\n"
+	.string "uns verraten! Und dabei war sich FUJI\l"
+	.string "sicher, dass er auf unserer Seite sei!\p"
+	.string "Was würde passieren, wenn SIEGFRIED\n"
+	.string "von MEWTU erfährt?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_16:
-	.string "GIOVANNI: No, ANDRA, we must trust\n"
-	.string "that, like OAK, he has kept the secret.\p"
-	.string "LANCE with MEWTWO in his possession\n"
-	.string "would be the greatest catastrophe in\l"
-	.string "the history of this region.$"
+	.string "GIOVANNI: Nein, ANDRA. Wir können\n"
+	.string "darauf vertrauen, dass er, wie schon\l"
+	.string "EICH, die Sache für sich behält.\p"
+	.string "SIEGFRIED mit MEWTU in seinem Besitz\n"
+	.string "wäre die größte Katastrophe in der\l"
+	.string "Geschichte dieser Region.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_17:
-	.string "Having been pushed to this extreme, all\n"
-	.string "that's left is to settle this by the\l"
-	.string "old school way.\p"
-	.string "So{PAUSE 15}…{PAUSE 15} a LEAGUE without LEGENDARIES…$"
+	.string "Jetzt, wo wir am Rande des Abgrunds\n"
+	.string "stehen, bleibt uns nichts anderes\l"
+	.string "übrig, als die Sache auf die altmodische\l"
+	.string "Weise zu klären: die LIGA ohne\l"
+	.string "LEGENDÄRE POKéMON herauszufordern. {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_18:
-	.string "ANDRA, {PLAYER}, both of you have\n"
-	.string "proven to be extraordinary TRAINERS.\l"
-	.string "{PLAYER}'s ability to defeat BRUNO is\l"
-	.string "evidence that you can compete\l"
-	.string "against the top KANTO TRAINERS.$"
+	.string "ANDRA, {PLAYER}. Ihr habt euch als\n"
+	.string "außergewöhnliche Trainer erwiesen.\p"
+	.string "{PLAYER}s Sieg über BRUNO beweist,\n"
+	.string "dass ihr es mit den Besten aufnehmen\l"
+	.string "könnt {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_19:
-	.string "Both of you, along with BLUE, will be\n"
-	.string "candidates to claim the title of the\l"
-	.string "POKÉMON LEAGUE.$"
+	.string "Ihr beide werdet zusammen mit BLAU zu\n"
+	.string "Herausforderern, die den Champ-Titel\l"
+	.string "der POKéMON LIGA erlangen können.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_20:
-	.string "You will gather the 8 GYM BADGES and\n"
-	.string "head to INDIGO PLATEAU, no cheats, no\l"
-	.string "shortcuts with LEGENDARIES{PAUSE 20}…{PAUSE 20} You'll\l"
-	.string "use the same POKÉMON that you have been\l"
-	.string "training and raising since you joined\l"
-	.string "TEAM ROCKET.$"
+	.string "Ihr werdet alle acht ORDEN sammeln und\n"
+	.string "zum INDIGO PLATEAU gehen. Ihr werdet\l"
+	.string "das weder durch Schummeln noch\l"
+	.string "Abkürzungen wie die Nutzung von\l"
+	.string "LEGENDÄREN POKéMON erreichen.\p"
+	.string "Stattdessen nutzt ihr die POKéMON, die\n"
+	.string "euch schon seit eurem Anfang bei TEAM\l"
+	.string "ROCKET tatkräftig zur Seite gestanden\l"
+	.string "haben.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_21:
-	.string "ANDRA: But, SIR! I thought TEAM ROCKET\n"
-	.string "couldn't challenge GYM LEADERS for the\l"
-	.string "BADGES!$"
+	.string "ANDRA: Aber Sir. Wurde es ROCKETs nicht\n"
+	.string "verboten, die ARENALEITER\l"
+	.string "herauszufordern und somit ORDEN\l"
+	.string "zu sammeln?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_22:
-	.string "GIOVANNI: And that's how it is, ANDRA.\p"
-	.string "Your status as a ROCKET falls among the\n"
-	.string "cases of TRAINERS without a LICENSE,\l"
-	.string "which is what is truly needed to\l"
-	.string "compete for the BADGES. It is assumed\l"
-	.string "that a ROCKET doesn't have a license,\l"
-	.string "and that's why you are kicked out of\l"
-	.string "the GYMS, not for being a ROCKET, but\l"
-	.string "for not having a LICENSE.$"
+	.string "GIOVANNI: Das stimmt, ANDRA. Euer\n"
+	.string "Status als ROCKETs verhindert, dass ihr\l"
+	.string "eine TRAINER-LIZENZ erhaltet.\p"
+	.string "Und genau diese braucht ihr, um\n"
+	.string "ARENALEITER herausfordern zu können.\l"
+	.string "Es wird stets davon ausgegangen, dass\l"
+	.string "ROCKETs keine Lizenzen besitzen und\l"
+	.string "dementsprechend werdet ihr immer\l"
+	.string "sofort aus den Arenen rausgeworfen:\l"
+	.string "Also nicht, weil ihr ROCKETs seid,\l"
+	.string "sondern weil ihr keine LIZENZ habt.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_23:
-	.string "GIOVANNI: Here you go, completely\n"
-	.string "legal. They won't be able to give you any\l"
-	.string "trouble entering any GYM.$"
+	.string "Also nehmt die hier. Diese sind völlig\n"
+	.string "legal. Ihr werdet nun keine Probleme\l"
+	.string "mehr haben, eine ARENA zu betreten.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_23.1:
-	.string "You obtained a TRAINER LICENSE from\n"
-	.string "GIOVANNI's hands!$"
+	.string "DU ERHÄLTST EINE TRAINER-LIZENZ\n"
+	.string "VON GIOVANNI!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_24:
-	.string "Still, of course, they can deny you\n"
-	.string "entry for being a ROCKET. What you will\l"
-	.string "do is wear our uniform - as a mockery -\l"
-	.string "laughing at TEAM ROCKET and ridiculing\l"
-	.string "it. Our supposed failure at SILPH will\l"
-	.string "fit perfectly with that.$"
+	.string "Natürlich könnte euch trotzdem der\n"
+	.string "Zugang verwehrt werden, weil ihr\l"
+	.string "ROCKETs seid. Daher werdet ihr das\l"
+	.string "Tragen eurer TEAM ROCKET Uniform damit\l"
+	.string "erklären, dass ihr es aus Jux tut - als\l"
+	.string "eine sarkastische Anspielung unseres\l"
+	.string "vermeintlichen Scheiterns beim Angriff\l"
+	.string "auf SILPH.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_25:
-	.string "ANDRA: They will smell something fishy,\n"
-	.string "and LT. SURGE{PAUSE 15}…{PAUSE 15} he has already\l"
-	.string "seen us several times.$"
+	.string "ANDRA: Aber sie werden doch merken,\n"
+	.string "dass etwas nicht stimmt. Zumal uns\l"
+	.string "MAJOR BOB schon mehrmals gesehen hat.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_26:
-	.string "GIOVANNI: LT. SURGE believes that no\n"
-	.string "one has a chance against LANCE, and\l"
-	.string "moreover, his military code will prevent\l"
-	.string "him from denying {PLAYER} a battle,\l"
-	.string "once he is in front of him.$"
+	.string "GIOVANNI: MAJOR BOB ist fest davon\n"
+	.string "überzeugt, dass niemand eine Chance\l"
+	.string "gegen SIEGFRIED hat. Außerdem wird ihn\l"
+	.string "sein Ehrenkodex daran hindern, eure\l"
+	.string "Herausforderungen abzulehnen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_27:
-	.string "BLUE, do you know how many BADGES RED\n"
-	.string "has right now?$"
+	.string "BLAU, weißt du zufällig, wie viele\n"
+	.string "ORDEN ROT aktuell besitzt?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_28:
-	.string "BLUE: I think 6. After SILPH, he went\n"
-	.string "straight to the SAFFRON GYM. Right now,\l"
-	.string "he must be close to CINNABAR GYM.$"
+	.string "BLAU: Ich denke sechs. Nach der ganzen\n"
+	.string "SILPH Geschichte hat er direkt die\l"
+	.string "ARENA in SAFFRONIA herausgefordert.\p"
+	.string "Er müsste mittlerweile auf dem Weg\n"
+	.string "zur ZINNOBERINSEL sein.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_29:
-	.string "GIOVANNI: Mmm{PAUSE 20}…{PAUSE 20} There's no time to\n"
-	.string "waste. Your top priority should be\l"
-	.string "winning those 7 GYM BADGES as soon as\l"
-	.string "possible. As for you, BLUE, since you're\l"
-	.string "missing one, I think there's a solution\l"
-	.string "for that…$"
+	.string "GIOVANNI: Gut. Wir haben keine Zeit zu\n"
+	.string "verlieren. Eure oberste Priorität ist\n"
+	.string "nun, so schnell wie möglich die ersten\l"
+	.string "sieben ORDEN zu sammeln. Und was dich\l"
+	.string "betrifft, BLAU. Du brauchst nur noch\l"
+	.string "einen. Glücklicherweise kann ich dir\l"
+	.string "dabei helfen {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_30:
-	.string "-GIOVANNI GAVE BLUE THE EARTH BADGE!-$"
+	.string "-GIOVANNI ÜBERREICHT BLAU DEN ERDORDEN-$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_31:
-	.string "BLUE: A{PAUSE 20}-{PAUSE 20}Are you the last GYM LEADER?!$"
+	.string "BLAU: Du bist der achte ARENALEITER?!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_32:
-	.string "GIOVANNI: Sometimes yes, sometimes no,\n"
-	.string "it depends on when it's convenient,\l"
-	.string "and now, indeed, it is.$"
+	.string "GIOVANNI: Manchmal ja, manchmal nein.\p"
+	.string "Je nachdem, wie es mir passt. Und gerade\n"
+	.string "passt es mir.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_33:
-	.string "BLUE: Excuse me, but I need to prepare\n"
-	.string "thoroughly for the POKÉMON LEAGUE.\l"
-	.string "I won't disappoint you, GIOVANNI!$"
+	.string "BLAU: Alles klar. Wenn ihr mich\n"
+	.string "entschuldigen würdet. Ich habe noch\l"
+	.string "viel Arbeit vor mir, bevor ich die\l"
+	.string "POKéMON LIGA herausfordere. Ich werde\l"
+	.string "dich nicht enttäuschen, GIOVANNI.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_34:
-	.string "ANDRA, {PLAYER}, show how far a\n"
-	.string "dedicated, disciplined, and committed\l"
-	.string "ROCKET can go with their POKÉMON.\p"
-	.string "Defeat all the KANTO GYM LEADERS, and I\n"
-	.string "will give you the last BADGE, just like\l"
-	.string "I did with BLUE.$"
+	.string "ANDRA, {PLAYER}. Zeigt, wie weit es ein\n"
+	.string "entschlossener und disziplinierter\l"
+	.string "ROCKET mit seinen POKéMON bringen\l"
+	.string "kann! Besiegt alle ARENALEITER in\l"
+	.string "KANTO! Dann werde ich euch den letzten\l"
+	.string "ORDEN übergeben, wie ich gerade bei\l"
+	.string "BLAU getan habe.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_35:
-	.string "ANDRA: I can't wait anymore!\p"
-	.string "GYM LEADERS are going to fall like flies!\p"
-	.string "Finally, I'll be able to face the\n"
-	.string "supposed ELITE of the region!$"
+	.string "ANDRA: Ich halte es nicht länger aus!\p"
+	.string "Ich werde alle ARENALEITER dem\n"
+	.string "Erdboden gleichmachen! Endlich kann\l"
+	.string "ich mir diese Hochstapler vorknöpfen,\l"
+	.string "die sich für die Elite KANTOs halten!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_36:
-	.string "GIOVANNI: Only a real TRAINER would\n"
-	.string "react like this. She doesn't see the\l"
-	.string "LEAGUE restrictions as a problem but as\l"
-	.string "an opportunity that will force her to\l"
-	.string "improve much more.$"
+	.string "GIOVANNI: Nur ein wahrer Trainer\n"
+	.string "reagiert so! Sie sieht die\l"
+	.string "Einschränkungen der LIGA nicht als\l"
+	.string "Hindernis, sondern als Gelegenheit,\l"
+	.string "noch stärker zu werden.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_36.1:
-	.string "{PLAYER}{PAUSE 15}…{PAUSE 15} I hope you also face this\n"
-	.string "challenge with the same enthusiasm.\p"
-	.string "GYM LEADERS adjust their power based\n"
-	.string "on who they have in front of them. BLUE\l"
-	.string "and RED are protected by OAK and, as\l"
-	.string "such, have certain privileges.$"
+	.string "Ich hoffe, du stellst dich dieser\n"
+	.string "Herausforderung mit demselben Eifer,\l"
+	.string "{PLAYER}! Sei vorsichtig: Die\l"
+	.string "ARENALEITER passen ihre Stärke an die\l"
+	.string "Herausforderer an. BLAU und ROT stehen\l"
+	.string "unter EICHs Gunst und genießen\l"
+	.string "dementsprechend gewisse Privilegien.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_36.2:
-	.string "Including being able to compete in the\n"
-	.string "POKÉMON LEAGUE without a LICENSE, and\l"
-	.string "facing somewhat weakened GYM LEADERS.\p"
-	.string "But I don't want that for you.$"
+	.string "Unter anderem dürfen sie an der\n"
+	.string "POKéMON LIGA ohne LIZENZ teilnehmen\l"
+	.string "und kämpfen dabei gegen schwächere\l"
+	.string "Teams der ARENALEITER. Aber für ANDRA\l"
+	.string "und dich will ich das nicht.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37:
-	.string "Since you obtained your starter, you\n"
-	.string "have faced all kinds of difficulties.\l"
-	.string "Everything you have, you have obtained\l"
-	.string "through your own merits; you know the\l"
-	.string "true face of this region, and you have\l"
-	.string "been forced to adapt to it.$"
+	.string "Seit du dein erstes POKéMON erhalten\n"
+	.string "hast, hast du dich vielen\l"
+	.string "Herausforderungen gestellt. Alles, was\l"
+	.string "du besitzt, hast du dir hart erarbeitet.\p"
+	.string "Du bist dir mittlerweile über die wahre\n"
+	.string "Natur dieser Region im Klaren und hast\l"
+	.string "gelernt, dich ihr anzupassen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37.1:
-	.string "That{PAUSE 15}…{PAUSE 15} overall{PAUSE 15}…{PAUSE 15} will give\n"
-	.string "you some kind of strtength that can't\l"
-	.string "be bought, ¡go and show it to KANTO!$"
+	.string "Das verleiht dir einen Vorteil und eine\n"
+	.string "Stärke, die man sich mit Geld nicht\l"
+	.string "kaufen kann.\p"
+	.string "Geh und zeig es ihnen allen!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
 walk_up

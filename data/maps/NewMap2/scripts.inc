@@ -22,8 +22,7 @@ release
 end
 
 NewMap2_Primer_Gamer_Texto_1:
-    .string "I really want a PIKACHU, so I'm\n"
-    .string "trading my CLEFAIRY for one.$"
+    .string "traducir$"
 
 NewMap2_Segundo_Gamer::
 lock
@@ -33,10 +32,7 @@ release
 end
 
 NewMap2_Segundo_Gamer_Texto_1:
-    .string "I'm trading POKÉMON with that kid\n"
-    .string "there.\p"
-    .string "I had two PIKACHU, so I figured\n"
-    .string "I might as well trade one.$"
+    .string "traducir$"
 
 NewMap2_Caballero::
 lock
@@ -46,9 +42,9 @@ release
 end
 
 NewMap2_Caballero_Texto_1:
-.string "You look like you've participated in the\n"
-.string "robbery of MT. MOON. Next time, you'll\l"
-.string "all be apprehended!$"
+	.string "Ich wette, du warst am Überfall auf dem\n"
+	.string "MONDBERG beteiligt. Beim nächsten Mal\l"
+	.string "fassen sie euch!$"
 
 
 NewMap2_Chico::
@@ -59,11 +55,7 @@ release
 end
 
 NewMap2_Chico_Texto_1:
-    .string "Yawn!\p"
-    .string "When JIGGLYPUFF sings, POKÉMON get\n"
-    .string "drowsy…\p"
-    .string "…Me, too…\n"
-    .string "Snore…$"
+    .string "traducir$"
 
 NewMap2_Chica_Personalidades::
 lock
@@ -73,6 +65,5 @@ release
 end
 
 NewMap2_Chica_Personalidades_Texto_1:
-.string "Oh, don't get closer! People who go\n"
-.string "against society don't suit my\l"
-.string "personality.$"
+.string "Oh, ich passe.\n"
+.string "Verbrecher sind nicht mein Typ.$"

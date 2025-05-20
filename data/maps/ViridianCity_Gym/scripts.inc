@@ -122,7 +122,8 @@ release
 end
 
 Viridian_Gym_Texto_Prohibido_Pasar:
-.string "(The GYM is closed).$"
+	.string "-Die Türen der ARENA sind\n"
+	.string "verschlossen …-$"
 
 Viridian_City_Frontera_Gym_Move_2:
 walk_slow_right
@@ -164,15 +165,12 @@ walk_slow_down
 step_end
 
 ViridianCity_Gym_Escena_8_Texto_1:
-    .string "Having lost in this fashion, \n"
-    .string "I can't face my followers.\l"
-    .string "I have betrayed their trust.\p"
-    .string "As of today, TEAM ROCKET is\n"
-    .string "finished forever!\p"
-    .string "As for myself, I shall dedicate\n"
-    .string "my life to training again.\p"
-    .string "Let us meet again someday!\n"
-    .string "Farewell!$"
+	.string "Ich habe meinen Meister gefunden!\p"
+	.string "Meine Taten waren schlecht … Ich löse\n"
+	.string "TEAM ROCKET auf! Von nun an widme ich\l"
+	.string "mein Leben dem Studium von POKéMON!\p"
+	.string "Vielleicht sehen wir uns eines Tages\n"
+	.string "wieder! Leb wohl!$"
 
 ViridianCity_Gym_Pase::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Gym_Pase_Move_2
@@ -201,21 +199,23 @@ walk_in_place_up
 step_end
 
 ViridianCity_Gym_Pase_Texto_1:
-	.string "Not another step! This GYM is known for\n"
-	.string "being the strictest regarding the\l"
-	.string "policy towards TEAM ROCKET. Get out of\l"
-	.string "here if you don't want to…!{PAUSE 20}$"
+	.string "Keinen Schritt weiter! Diese ARENA ist\n"
+	.string "bekannt dafür, dass sie die striktesten\l"
+	.string "Richtlinien bezüglich TEAM ROCKET hat.\p"
+	.string "Also verschwinde, wenn du nicht …!$"
 
 ViridianCity_Gym_Pase_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 ViridianCity_Gym_Pase_Texto_3:
-	.string "Oh{PAUSE 20}…{PAUSE 20} just like that girl who passed\n"
-	.string "through here not long ago. I apologize\l"
-	.string "for the impertinence, SIR, but this joke\l"
-	.string "of dressing as a ROCKET is not pleasing\l"
-	.string "the higher-ups in INDIGO PLATEAU. It's\l"
-	.string "not wise to anger them.$"
+	.string "Oh {PAUSE 25}…{PAUSE 25} wie bei der jungen Frau, die vor\n"
+	.string "Kurzem hier war. Entschuldigen Sie\l"
+	.string "bitte das Missverständnis, Sir. Aber\l"
+	.string "dieser Verhöhnungs-Trend sich als\l"
+	.string "ROCKET zu verkleiden, kommt bei den\l"
+	.string "Chefs der LIGA-LEITUNG überhaupt\l"
+	.string "nicht gut an.\p"
+	.string "Es ist unklug, sie zu verärgern.$"
 
 
 ViridianCity_Gym_Guy::
@@ -233,18 +233,21 @@ release
 end
 
 ViridianCity_Gym_Guy_Texto_1:
-	.string "It's said this GYM LEADER is as strong\n"
-	.string "as the ELITE 4, but a kid dressed in RED\l"
-	.string "defeated him in the blink of an eye not\l"
-	.string "long ago. Nobody knows the LEADER's\l"
-	.string "identity. Will you tell me when you\l"
-	.string "battle him?$"
+	.string "Es wird gesagt, dass dieser\n"
+	.string "ARENALEITER der TOP VIER ebenbürtig\l"
+	.string "ist, doch ein in rot gekleideter Junge\l"
+	.string "hat ihn erst kürzlich mit spielender\l"
+	.string "Leichtigkeit besiegt. Niemand kennt die\l"
+	.string "Identität dieses ARENALEITERs.\p"
+	.string "Wirst du sie mir verraten, nachdem du\n"
+	.string "gegen ihn gekämpft hast?$"
 
 ViridianCity_Gym_Guy_Texto_2:
-	.string "Did you defeat the mysterious LEADER?\n"
-	.string "…{PAUSE 20} …{PAUSE 20} Ah, I see, he works secretly for\l"
-	.string "LANCE's GOVERNMENT. That explains\l"
-	.string "everything.$"
+	.string "Also, hast du den mysteriösen\n"
+	.string "ARENALEITER besiegt? {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Ah, ich\l"
+	.string "verstehe. Er arbeitet insgeheim für\l"
+	.string "SIEGFRIEDs REGIERUNG.\p"
+	.string "Jetzt ergibt alles einen Sinn!$"
 
 
 ViridianCity_Gym_Estatuas::
@@ -260,16 +263,16 @@ release
 end
 
 ViridianCity_Gym_Estatuas_Texto_1:
- .string "VIRIDIAN POKÉMON GYM\n"
-    .string "LEADER: ????\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED and ANDRA$"
+ .string "VERTANIA POKéMON-ARENA\n"
+    .string "LEITUNG: ?\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT & ANDRA$"
 
 ViridianCity_Gym_Estatuas_Texto_2:
- .string "VIRIDIAN POKÉMON GYM\n"
-    .string "LEADER: ????\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, ANDRA and {PLAYER}$"
+ .string "VERTANIA POKéMON-ARENA\n"
+    .string "LEITUNG: ?\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 
 
@@ -312,26 +315,30 @@ walk_in_place_down
 step_end
 
 ViridianCity_Gym_Explicacion_Base_Texto_1:
-	.string "R.EXECUTIVE: We've been expecting you,\n"
-	.string "EXECUTIVE {PLAYER}. I see you have\l"
-	.string "all 7 BADGES. GIOVANNI didn't expect\l"
-	.string "anything less from you. However…{PAUSE 20}$"
+	.string "OFFIZIER: Wir haben Sie bereits\n"
+	.string "erwartet, OFFIZIER {PLAYER}. Wie ich\l"
+	.string "sehe, haben Sie bereits sieben ORDEN\l"
+	.string "gesammelt. GIOVANNI hat nichts\l"
+	.string "geringeres von Ihnen erwartet. Aber …$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_2:
-	.string "You'll need to step up your game if you\n"
-	.string "want to obtain the EARTH BADGE, watch\l"
-	.string "closely.$"
+	.string "Sie müssen noch einen drauflegen, wenn\n"
+	.string "Sie den ERDORDEN haben wollen.\p"
+	.string "Passen Sie gut auf.$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_3:
-	.string "Right below the EARTH BADGE insignia,\n"
-	.string "where the LEADER usually stands,\l"
-	.string "there's a small trapdoor leading to our\l"
-	.string "real VIRIDIAN CITY BASE.$"
+	.string "Direkt unter dem Symbol des ERDORDENs,\n"
+	.string "dort, wo normalerweise der ARENALEITER\l"
+	.string "steht, befindet sich eine kleine\l"
+	.string "Falltür. Sie führt zu unserer BASIS\l"
+	.string "in ORANIA CITY.$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_4:
-	.string "To obtain the GYM BADGE, you'll have\n"
-	.string "to pass the test we have prepared for\l"
-	.string "you. It won't be easy, believe me.$"
+	.string "Um den finalen ORDEN zu erhalten,\n"
+	.string "müssen Sie die Prüfung bestehen, die\l"
+	.string "wir für sie vorbereitet haben. Es wird\l"
+	.string "nicht einfach.\p"
+	.string "So viel kann ich Ihnen versprechen.$"
 
 
 ViridianCity_Gym_Warp::
@@ -351,9 +358,10 @@ release
 end
 
 ViridianCity_Gym_Warp_Text_YesNo:
-	.string "There's a trapdoor subtly revealing\n"
-	.string "stairs leading to an underground area.\l"
-	.string "Do you want to enter the ROCKET BASE?$"
+	.string "Da ist eine Falltür, die den Blick auf\n"
+	.string "eine Treppe freigibt, die in einen\l"
+	.string "unterirdischen Bereich führt. Möchtest\l"
+	.string "du die ROCKET-BASIS betreten?$"
 
 ViridianCity_Gym_Warp_move1:
 walk_slow_down
@@ -392,8 +400,9 @@ release
 end
 
 Viridian_Gym_Base_Warp_Text_YesNo:
-	.string "A narrow passage leads to the\n"
-	.string "VERMILION GYM. Do you want to cross it?$"
+	.string "Ein schmaler Gang führt direkt zur\n"
+	.string "ARENA von ORANIA CITY.\p"
+	.string "Möchtest du ihn passieren?$"
 
 Viridian_Gym_Base_Warp_move1:
 walk_slow_up

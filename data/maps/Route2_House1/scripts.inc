@@ -9,11 +9,13 @@ release
 end
 
 Route2_House1_Text_1:
-	.string "When the legal system works as it damn\n"
-	.string "it should, you ROCKETS will finally stop\l"
-	.string "scavenging the crumbs we leave behind,\l"
-	.string "it's the only thing that remains within\l"
-	.string "your miserable existence.$"
+	.string "Wenn das Rechtssystem zur Abwechslung\n"
+	.string "mal so funktionieren würde, wie es\l"
+	.string "verflucht nochmal sollte, würdet ihr\l"
+	.string "ROCKETs aufhören, die Krümel zu\l"
+	.string "aufzupicken, die wir zurücklassen.\p"
+	.string "Das ist das Einzige, was euch in\n"
+	.string "eurer erbärmlichen Existenz bleibt.$"
 
 
 
@@ -25,5 +27,6 @@ release
 end
 
 Route2_House1_Text_2:
-	.string "I would never let my POKÉMON under the\n"
-	.string "care of a ROCKET, be sure.$"
+	.string "Ich würde meine POKéMON niemals einem\n"
+	.string "von TEAM ROCKET anvertrauen.\p"
+	.string "Darauf kannst du Gift nehmen.$"

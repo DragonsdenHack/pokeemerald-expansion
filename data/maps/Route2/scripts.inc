@@ -9,9 +9,9 @@ release
 end
 
 Route2_Text_1:
-	.string "Can you leave me alone? Don't you see\n"
-	.string "that I am trying to teach CUT to my\l"
-	.string "SCYTHER?$"
+	.string "Kannst du mich allein lassen? Siehst du\n"
+	.string "nicht, dass ich versuche meinem\l"
+	.string "SICHLOR ZERSCHNEIDER beizubringen?$"
 
 
 Route2_2::
@@ -22,9 +22,10 @@ release
 end
 
 Route2_Text_2:
-	.string "Do you have any problems? If you wanna\n"
-	.string "pass take another way, what a ROCKET\l"
-	.string "has or not to do I care a shit.$"
+	.string "Hast du ein Problem? Wenn du weiter\n"
+	.string "willst, nimm einen anderen Weg. Was einer\l"
+	.string "von TEAM ROCKET zu tun hat oder nicht,\l"
+	.string "ist mir scheißegal.$"
 
 
 Route2_3::
@@ -43,8 +44,8 @@ release
 end
 
 Route2_Text_5:
-	.string "Those COOL-TRAINERS said that we would\n"
-	.string "find a wild PINSIR here.$"
+	.string "Diese Ass-Trainer sagten, wir würden\n"
+	.string "hier ein PINSIR finden.$"
 
 
 Route2_6::
@@ -55,8 +56,8 @@ release
 end
 
 Route2_Text_6:
-	.string "It is impossible for a wild PINSIR to\n"
-	.string "exist in this forest.$"
+	.string "Es ist unmöglich, dass ein wildes\n"
+	.string "PINSIR in diesem Wald lebt!$"
 
 
 Route2_7::
@@ -92,7 +93,7 @@ release
 end
 
 Route2_Cazabichos_Texto_1:
-	.string "If I had a SCYTHER, everyone at\n"
-	.string "VIRIDIAN FOREST would respect me, and\l"
-	.string "this tree would disappear in one fell\l"
-	.string "swoop…$"
+	.string "Wenn ich ein SICHLOR hätte, würde mich\n"
+	.string "jeder im VERTANIA-WALD respektieren\l"
+	.string "und dieser Baum hier wäre auf einen\l"
+	.string "Schlag gefällt {PAUSE 5}…{PAUSE 5}$"

@@ -9,11 +9,11 @@ release
 end
 
 Route2_Path_Text_1:
-	.string "There are a lot of POKÉMON that just\n"
-	.string "walk around in forests or caves. You\l"
-	.string "will need to stay awake and be\l"
-	.string "consistent if you want to have all of\l"
-	.string "them.$"
+	.string "Es gibt viele POKéMON, die einfach nur\n"
+	.string "in Wäldern oder Höhlen herumlaufen.\p"
+	.string "Du musst wachsam sein und Ausdauer\n"
+	.string "mitbringen, wenn du sie alle fangen\l"
+	.string "willst.$"
 
 
 
@@ -25,10 +25,9 @@ release
 end
 
 Route2_Path_Text_2:
-	.string "In this place there is nothing more\n"
-	.string "interesting than a COOL TRAINER like\l"
-	.string "me, except for those legends that talk\l"
-	.string "about the existence of a wild PINSIR…$"
+	.string "An diesem Ort ist nichts interessanter\n"
+	.string "als ein ASS-TRAINER wie ich. Außer den\l"
+	.string "Gerüchten eines wilden PINSIRS {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -40,6 +39,6 @@ release
 end
 
 Route2_Path_Text_3:
-	.string "The eternal VIRIDIAN FOREST! Ahhh! Not\n"
-	.string "even this place will resist the time\l"
-	.string "flux!$"
+	.string "Der unsterbliche VERTANIA WALD! Ahhh!\n"
+	.string "Nicht einmal dieser Ort wird dem Zahn\l"
+	.string "der Zeit standhalten!$"

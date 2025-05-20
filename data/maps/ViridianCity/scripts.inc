@@ -124,8 +124,8 @@ end
 
 
 ViridianCity_7_Text_7YesNo:
-.string "You want to know about the two\n"
-    .string "kinds of caterpillar POKÉMON?$"
+	.string "Möchtest du etwas über die zwei\n"
+	.string "RAUPEN-POKéMON erfahren?$"
 
 
 ViridianCity_7No::
@@ -135,15 +135,13 @@ end
 
 
 ViridianCity_7_Text_7Yes:
-.string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
-    .string "Watch that your POKÉMON aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+	.string "RAUPY ist nicht giftig, aber HORNLIU!\n"
+	.string "Achte auf seinen GIFTSTACHEL!$"
 
 
 
 ViridianCity_7_Text_7No:
-.string "Oh, okay then!$"
+.string "O.K., alles klar!$"
 
 ViridianCity_Escena_5::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Escena_5_Move_1
@@ -207,61 +205,64 @@ release
 end
 
 ViridianCity_Entrenador_Especial_Texto_1.1:
-	.string "You obtained a BLACK SLUDGE\n"
-	.string "from TRAINER!$"
+	.string "Du erhältst GIFTSCHLEIM vom TRAINER!$"
 
 ViridianCity_Entrenador_Especial_Texto_1:
-	.string "DREAM EATER is the ultimate damaging\n"
-	.string "and recuperation move, if the opponent\l"
-	.string "is asleep, that is, I wouldn't teach a\l"
-	.string "move with that potential to a ROCKET.\l"
-	.string "However, I could make an exception and\l"
-	.string "offer you something even better if you\l"
-	.string "collect all the BADGES.$"
+	.string "TRAUMFRESSER ist die ultimative\n"
+	.string "Schadens- und Heilungsattacke … wenn\l"
+	.string "das POKéMON schläft, versteht sich. Ich\l"
+	.string "würde so eine starke Attacke niemals\l"
+	.string "jemandem von TEAM ROCKET beibringen.\p"
+	.string "Aber ich könnte eine Ausnahme machen\n"
+	.string "und dir sogar noch etwas Besseres\l"
+	.string "anbieten, wenn du alle ORDEN hast.$"
 
 ViridianCity_Entrenador_Especial_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10}\n"
 	.string "{PAUSE 10}…{PAUSE 10}$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
-.string "HAH!\n"
-	.string "What I expected!\l"
-	.string "A ROCKET with all the GYM BADGES!\l"
-	.string "I'm sorry kid, there is no deal!$"
+.string "HA!\n"
+	.string "Genau was ich erwartet habe!\p"
+	.string "Einer von TEAM ROCKET mit allen\n"
+	.string "ARENA-ORDEN! Tut mir leid, Kleiner,\l"
+	.string "aber die Abmachung ist geplatzt!$"
 
 ViridianCity_Entrenador_Especial_Texto_4:
-	.string "BLACK SLUDGE will restore 1/16 of the\n"
-	.string "POKÉMON HEALTH every turn, but be\l"
-	.string "carefull! Only will work with the POISON\l"
-	.string "type! If any other POKÉMON equips it\l"
-	.string "will remove 1/8 of its health! Isn't it\l"
-	.string "ideal for those thieves that try to\l"
-	.string "take your objects in half battle?$"
+	.string "GIFTSCHLEIM stellt jede Runde 1/16 der\n"
+	.string "KP eines POKéMON wieder her. Aber es\l"
+	.string "gibt einen Haken. Er wirkt nur bei\l"
+	.string "GIFT-POKéMON! Jedes andere POKéMON\l"
+	.string "verliert stattdessen jede Runde 1/8\l"
+	.string "seiner KP! Perfekt gegen die Diebe, die\l"
+	.string "dir mitten im Kampf deine Items klauen\l"
+	.string "wollen, oder?$"
 
 ViridianCity_Entrenador_Especial_Texto_5:
-	.string "Impossible! It must be a joke! All right,\n"
-	.string "I know too what it is to have won the 8\l"
-	.string "BADGES, kid, if you want me to give you\l"
-	.string "the object you must defeat me in a\l"
-	.string "fight.$"
+	.string "Unmöglich. Das kann nicht wahr sein!\n"
+	.string "Alles klar. Ich weiß selbst, wie hart es\l"
+	.string "ist, alle acht ORDEN zu erringen,\l"
+	.string "Kleiner. Wenn du das Item willst,\l"
+	.string "musst du mich im Kampf besiegen!$"
 
 ViridianCity_Entrenador_Especial_Texto_6:
-.string "So, do you accept the challenge?$"
+.string "Also, stellst du dich dem Kampf?$"
 
 ViridianCity_Entrenador_Especial_Texto_7:
-	.string "Perfect. Let's check if those BADGES\n"
-	.string "are the real ones or you are just a\l"
-	.string "faker!$"
+	.string "Perfekt. Lass uns sehen, ob diese ORDEN\n"
+	.string "echt sind oder du einfach nur ein\l"
+	.string "Blender bist!$"
 
 ViridianCity_Entrenador_Especial_Texto_8:
-	.string "Impressive, someone like you must have\n"
-	.string "what I will give you.$"
+	.string "Beeindruckend. Jemand wie du muss das\n"
+	.string "hier haben.$"
 
 ViridianCity_Entrenador_Especial_Texto_9:
-	.string "Well, surprisingly it's true. Just a few\n"
-	.string "will take better advantage of this item\l"
-	.string "than you.$"
+	.string "Nun, überraschenderweise ist es wahr.\p"
+	.string "Nur wenige Trainer können aus diesem\n"
+	.string "Item mehr herausholen als du.$"
 
 ViridianCity_Entrenador_Especial_Texto_10:
-	.string "I already expected this: those BADGES\n"
-	.string "are fake or stolen. Get out of here!$"
+	.string "Das habe ich mir schon gedacht: Diese\n"
+	.string "ORDEN sind gefälscht oder gestohlen.\p"
+	.string "Und jetzt verschwinde von hier!$"

@@ -41,10 +41,10 @@ release
 end
 
 Route3_Text_9:
-	.string "Although it does not seem, there are a\n"
-	.string "lot of people that support you. It is\l"
-	.string "just that they are fear screwed for how\l"
-	.string "LANCE could react.$"
+	.string "Auch wenn's anders aussieht, gibt's viele\n"
+	.string "Leute, die euch unterstützen. Sie haben\l"
+	.string "einfach nur Angst davor, wie SIEGFRIED\l"
+	.string "reagieren wird, wenn er's herausfindet.$"
 
 
 
@@ -126,10 +126,11 @@ release
 end
 
 Route3_Frontera_Text_1:
-	.string "I do not recommend you to walk around\n"
-	.string "here if you wanna be free ROCKET, the\l"
-	.string "police are in search of I don't know\l"
-	.string "what all around PEWTER CITY!$"
+	.string "Ich empfehle dir, hier nicht\n"
+	.string "herumzulaufen, wenn dir deine Freiheit\l"
+	.string "am Herzen liegt, ROCKET!\p"
+	.string "Die Polizei sucht irgendetwas in der\n"
+	.string "Gegend von MARMORIA CITY!$"
 
 Route3_Frontera_Move1.1:
 walk_in_place_down
