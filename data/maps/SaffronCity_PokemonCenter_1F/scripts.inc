@@ -33,9 +33,10 @@ release
 end
 
 SaffronCity_PokemonCenter_Text_2:
-	.string "Everyone here knows what SILPH is, it\n"
-	.string "has been a victim of its fame, which\l"
-	.string "does not allow you to do what you did.$"
+	.string "Alle hier wissen, was SILPH wirklich ist.\p"
+	.string "Es ist seinem Erfolg zum Opfer gefallen.\p"
+	.string "Doch das rechtfertigt nicht, was ihr\n"
+	.string "getan habt!$"
 
 
 
@@ -47,9 +48,9 @@ release
 end
 
 SaffronCity_PokemonCenter_Text_3:
-	.string "SAFFRON is the financial center of\n"
-	.string "KANTO, no matter how much you insist,\l"
-	.string "we won't fall.$"
+	.string "SAFFRONIA ist das Finanzzentrum von\n"
+	.string "KANTO. Egal, was ihr versucht, wir\l"
+	.string "werden nicht fallen.$"
 
 
 

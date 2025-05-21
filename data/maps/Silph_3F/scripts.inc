@@ -32,10 +32,11 @@ release
 end
 
 Silph3F_3_Texto_1:
-.string "You will regret this!$"
+.string "Das werdet ihr noch bereuen!$"
 
 Silph3F_3_Texto_2:
-	.string "You got what you deserved, ROCKET!$"
+	.string "Ihr habt eure gerechte\n"
+	.string "Strafe bekommen, ROCKET!$"
 
 Silph3F_4::
 end

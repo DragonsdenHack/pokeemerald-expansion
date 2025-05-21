@@ -9,9 +9,8 @@ release
 end
 
 SafariZone_House4_Text_1:
-	.string "I think TRAINERS are so cool when\n"
-	.string "they're battling.\p"
-	.string "Don't you think so, too?$"
+	.string "Ich denke, dass kämpfende TRAINER\n"
+	.string "cool sind. Denkst du genauso?$"
 
 
 
@@ -23,9 +22,11 @@ release
 end
 
 SafariZone_House4_Text_2:
-	.string "BILL is so cool, right? I like the way he\n"
-	.string "speaks. I would love it if he came here\l"
-	.string "someday!$"
+	.string "MAJOR BOB ist so cool! Ich mag die\n"
+	.string "Sprechweise. Ich würde es sehr\l"
+	.string "schätzen, diese Person einmal zu\l"
+	.string "treffen.$"
+
 
 
 
@@ -37,10 +38,9 @@ release
 end
 
 SafariZone_House4_Text_3:
-	.string "Hmm…\n"
-	.string "And you are?\p"
-	.string "Were you hoping to sign up for\n"
-	.string "a membership in our FAN CLUB?$"
+	.string "Wir alle hier sind Fans von POKéMON\n"
+	.string "TRAINER Wie sie im Kampf auftreten …\l"
+	.string "Sie sind der Inbegriff von Coolness!$"
 
 
 
@@ -52,12 +52,9 @@ release
 end
 
 SafariZone_House4_Text_4:
-.string "BROCK's my hero!\n"
-    .string "He's a man among men!\p"
-    .string "Heheh, I got my mom to do\n"
-    .string "something for me.\p"
-    .string "I got her to embroider “BROCK”\n"
-    .string "on my shorts!$"
+	.string "ROCKO ist einfach gigacool, daran gibt\n"
+	.string "es keinen Zweifel! Ich möchte auch\l"
+	.string "gerne so ein Kerl sein!$"
 
 
 
@@ -69,9 +66,9 @@ release
 end
 
 SafariZone_House4_Text_5:
-	.string "Everyone has been talking about AGATHA\n"
-	.string "lately. Her fighting style… I like it a\l"
-	.string "lot.$"
+	.string "In letzter Zeit hatte BLAU einen Lauf!\p"
+	.string "Sein Kampfstil … entspricht genau\n"
+	.string "meiner Vorstellung!$"
 
 
 
@@ -83,10 +80,10 @@ release
 end
 
 SafariZone_House4_Text_6:
-	.string "The truth is that LORELEI imposes\n"
-	.string "respect… I love her. Am I the only one\l"
-	.string "who perceives her solemnity aura that\l"
-	.string "surrounds her?$"
+	.string "Mentor KOGA ist so würdevoll … Er ist\n"
+	.string "genau mein Typ! Warum erkennen die\l"
+	.string "anderen nicht die Würde, die er\l"
+	.string "personifiziert?$"
 
 
 
@@ -98,12 +95,11 @@ release
 end
 
 SafariZone_House4_Text_7:
-	.string "Hiyah! There is but one TRAINER\n"
-	.string "who has my respect.\p"
-	.string "And that is none other than my\n"
-	.string "MASTER at the FIGHTING DOJO.\p"
-	.string "You should become a fan of my\n"
-	.string "MASTER like me! Hiyah!$"
+	.string "Yippie! Es gibt nur einen TRAINER, den\n"
+	.string "ich respektiere! Das ist kein Geringerer\l"
+	.string "als mein MEISTER im KAMPF-DOJO.\p"
+	.string "Du solltest wie ich auch ein Fan\n"
+	.string "von meinem MEISTER werden!$"
 
 
 
@@ -115,12 +111,10 @@ release
 end
 
 SafariZone_House4_Text_8:
-.string "Even if I'm the only one, I won't\n"
-    .string "stop being SABRINA's fan.\p"
-    .string "My dream is to be like SABRINA,\n"
-    .string "cute, but cool.\p"
-    .string "I want to be a psychic girl just\n"
-    .string "like her!$"
+    .string "Weißt du was?\p"
+    .string "Ich will wie SABRINA sein!\p"
+    .string "Ich möchte auch ein\n"
+    .string "Psychomädchen wie sie sein!$"
 
 
 

@@ -41,12 +41,12 @@ release
 end
 
 Silph10F_5_Texto_1:
-.string "Waaaaa!\n"
-	.string "I'm afraid!$"
+	.string "traducir$"
 
 Silph10F_5_Texto_2:
-	.string "Are you really that cynical to come\n"
-	.string "back here after all you've done?$"
+	.string "Bist du wirklich so schamlos, hierher\n"
+	.string "zurückzukommen, nach allem, was\l"
+	.string "du hier angerichtet hast?$"
 
 
 

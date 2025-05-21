@@ -24,10 +24,8 @@ release
 end
 
 SaffronCity_Mart_Text_2:
-.string "MAX REPEL keeps weaker POKÉMON\n"
-    .string "from appearing.\p"
-    .string "MAX REPEL stays effective longer\n"
-    .string "than SUPER REPEL.$"
+	.string "TOP-SCHUTZ hält schwache POKéMON\n"
+	.string "länger von dir fern als SUPERSCHUTZ!$"
 
 
 
@@ -39,5 +37,5 @@ release
 end
 
 SaffronCity_Mart_Text_3:
-.string "REVIVE is costly, but it revives\n"
-    .string "fainted POKÉMON!$"
+	.string "BELEBER ist zwar teuer, aber besiegte\n"
+	.string "POKéMON werden damit wieder fit!$"

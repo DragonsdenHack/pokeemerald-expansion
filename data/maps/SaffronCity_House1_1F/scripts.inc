@@ -9,10 +9,9 @@ release
 end
 
 SafariZone_House11F_Text_1:
-	.string "My daughter likes to mimic people.\n"
-	.string "It's rather vexing.\p"
-	.string "Her mimicry has earned her the\n"
-	.string "nickname COPYCAT around here.$"
+	.string "Meine Tochter ahmt gerne Leute nach.\p"
+	.string "Wegen ihres Mienenspiels nennt man sie\n"
+	.string "die NACHAHMERIN!$"
 
 
 
@@ -24,8 +23,8 @@ release
 end
 
 SafariZone_House11F_Text_2:
-	.string "My daughter is so self-centered.\n"
-	.string "She has but a few friends.$"
+	.string "Meine Tochter ist furchtbar\n"
+	.string "schüchtern! Sie hat nur wenige Freunde!$"
 
 
 

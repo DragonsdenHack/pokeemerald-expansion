@@ -27,17 +27,17 @@ release
 end
 
 Chica_Iman_Texto_1:
-	.string "Oh, no! Wait! I am not allowed to teach\n"
-	.string "THUNDER WAVE to your POKÉMON! But I\l"
-	.string "can give you something better! Look!$"
+	.string "Oh nein! Warte! Ich darf deinen POKéMON\n"
+	.string "nicht DONNERWELLE beibringen! Aber ich\l"
+	.string "habe etwas Besseres für dich!\p"
+	.string "Schau mal!$"
 
 Chica_Iman_Texto_2:
-	.string "With the MAGNET being held by a\n"
-	.string "POKÉMON, its electric-type attacks will\l"
-	.string "be boosted by 20%. Doesn't that seem\l"
-	.string "better than that boring move THUNDER\l"
-	.string "WAVE that only paralyses your\l"
-	.string "opponents in battles?$"
+	.string "Der MAGNET verstärkt die\n"
+	.string "ELEKTRO-Attacken eines POKéMON um 20\l"
+	.string "%. Ist das nicht viel besser als diese\l"
+	.string "öde DONNERWELLE, die den Gegner nur\l"
+	.string "paralysiert?$"
 
 
 

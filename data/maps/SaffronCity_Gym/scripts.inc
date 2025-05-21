@@ -840,40 +840,42 @@ Fuchsia_City_Lider_Gimnasio_Texto_1.1:
 	.string "ich, nicht einmal die ROCKET OFFIZIERE!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:
-	.string "I didn't expect less from you, you\n"
-	.string "deserve GIOVANNI's trust and everyone\l"
-	.string "who battles for a better KANTO. Here\l"
-	.string "you have the SOULBADGE!$"
+	.string "Ich habe nichts anderes von dir\n"
+	.string "erwartet! Du genießt zurecht\l"
+	.string "GIOVANNIs vollstes Vertrauen und\l"
+	.string "das aller, die für ein besseres\l"
+	.string "KANTO kämpfen!\p"
+	.string "Ich reiche dir den SEELENORDEN!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_3:
-	.string "Joining TEAM ROCKET was the best\n"
-	.string "decision you made, look at you, you've\l"
-	.string "built up a strong character and\l"
-	.string "personality, understanding the truths\l"
-	.string "hidden within this region, whereas RD\l"
-	.string "lives in his fantasy world, believing\l"
-	.string "this is just a game, do me the favor of\l"
-	.string "delivering a hefty dose of reality to\l"
-	.string "that spoiled child if you encounter him\l"
-	.string "in the LEAGUE!$"
+	.string "TEAM ROCKET beizutreten, war die beste\n"
+	.string "Entscheidung deines Lebens. Sieh dich\l"
+	.string "an! Du hast einen starken Charakter\l"
+	.string "und eine beeindruckende Persönlichkeit\l"
+	.string "entwickelt und verstehst nun die\l"
+	.string "verborgenen Wahrheiten dieser Region!\p"
+	.string "Währenddessen lebt ROT in seiner\n"
+	.string "Fantasiewelt und glaubt, dass das alles\l"
+	.string "hier nur ein Spiel sei! Falls du ihm in\l"
+	.string "der LIGA über den Weg läufst, dann tue\l"
+	.string "mir den Gefallen und verpasse diesem\l"
+	.string "verwöhnten Balg eine ordentliche\l"
+	.string "Abreibung, damit er endlich in der\l"
+	.string "Realität ankommt!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_4:
-	.string "Now that you have the SOULBADGE,\n"
-	.string "the DEFENSE of your POKÉMON rises.\p"
-	.string "It also lets you SURF outside of\n"
-	.string "battle.\p"
-	.string "Ah!\n"
-	.string "Take this, too!$"
+	.string "Nun, da du Träger des SEELENORDENS\n"
+	.string "bist, wird die ABWEHR deiner POKéMON\l"
+	.string "steigen! Ferner kannst du SURFER nun\l"
+	.string "auch außerhalb von Kämpfen nutzen!\p"
+	.string "Bitte nimm auch dieses Geschenk!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_5:
-	.string "{PLAYER} received TM06\n"
-	.string "from KOGA.$"
+	.string "{PLAYER} erhält TM06!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_6:
-	.string "Sealed within that TM06 lies\n"
-	.string "TOXIC!\p"
-	.string "It is a secret technique dating\n"
-	.string "back some four hundred years.$"
+	.string "TM06 ist TOXIN! Es ist eine mehr\n"
+	.string "als 400 Jahre alte Technik!$"
 
 Cinnabar_Island_Lider_Gimnasio::
 lock
@@ -952,71 +954,71 @@ release
 end
 
 Cinnabar_Island_Gym_Guy_Texto_1:
-	.string "So, is it on trend to dress as ROCKET\n"
-	.string "for their failure at SILPH? They\l"
-	.string "deserved it, hah!$"
+	.string "Ist es jetzt Mode, sich als ROCKET zu\n"
+	.string "verkleiden, um sich über ihr Versagen\l"
+	.string "bei SILPH lustig zu machen?\p"
+	.string "Verdient haben sie es ja, haha!$"
 
 Cinnabar_Island_Gym_Guy_Texto_2:
-	.string "I dont know why, but with you, he used a\n"
-	.string "more powerful team than against a kid\l"
-	.string "who passed through here not long ago.\l"
-	.string "But still, you've defeated that walking\l"
-	.string "torch!$"
+	.string "Ich weiß nicht warum, aber gegen dich\n"
+	.string "hat er ein viel stärkeres Team\l"
+	.string "eingesetzt als gegen das Kind, das vor\l"
+	.string "Kurzem hier war. Trotzdem hast du diese\l"
+	.string "wandelnde Fackel besiegt!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1:
-.string "Hah!\p" 
-.string "I am BLAINE, the red-hot LEADER\n" 
-.string "of CINNABAR GYM!\p" 
-.string "My fiery POKÉMON are all rough\n" 
-.string "and ready with intense heat!\p" 
-.string "They incinerate all challengers!\p"
+	.string "Haha! Ich bin PYRO, der ARENALEITER der\n"
+	.string "ZINNOBERINSEL! Meine FEUER-POKéMON\l"
+	.string "lassen die Siegesträume meiner\l"
+	.string "Gegner in Flammen aufgehen!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.1:
-.string "Hah!\n"
-    .string "You better have BURN HEAL!$"
+	.string "Du solltest FEUERHEILER parat halten!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.2:
-	.string "On the other hand, you'll have to excuse\n"
-	.string "my GYM, but lately, there have been many\l"
-	.string "contenders, and we haven't had time to\l"
-	.string "set up new puzzles.$"
+	.string "Auf der anderen Seite musst du\n"
+	.string "Nachsicht mit meiner ARENA haben.\p"
+	.string "In letzter Zeit gab es viele\n"
+	.string "Herausforderer, sodass wir keine Zeit\l"
+	.string "hatten neue Rätsel vorzubereiten.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.3:
-	.string "You should know that I don't like the\n"
-	.string "trend of cosplaying as TEAM ROCKET.\l"
-	.string "They are traitors to the true KANTO and\l"
-	.string "deserve to disappear from its history.\l"
-	.string "Acts like that only solidify their place\l"
-	.string "in the collective imagination, do you\l"
-	.string "understand?$"
+	.string "Ich missbillige diesen Trend, sich als\n"
+	.string "Mitglieder von TEAM ROCKET zu\l"
+	.string "verkleiden. Sie sind Verräter des\l"
+	.string "wahren KANTOs und sollten aus seiner\l"
+	.string "Geschichte getilgt werden. Solche\l"
+	.string "Aktionen sorgen nur dafür, dass sie\l"
+	.string "in den Erinnerungen aller weiter\l"
+	.string "existieren.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_2:
-.string "I have burned down to nothing!\n"
-.string "Not even ashes remain!\p"
-.string "You have earned the VOLCANOBADGE.$"
+	.string "Mein Feuer ist erloschen! Du hast dir\n"
+	.string "den VULKANORDEN redlich verdient.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_3:
-	.string "The TM38 contains FIRE BLAST; very few\n"
-	.string "moves have a better POWER-ACCURACY\l"
-	.string "ratio, it's the perfect universal fire\l"
-	.string "move. MAGMAR or CHARIZARD will destroy\l"
-	.string "their enemies with this and their great\l"
-	.string "SPECIAL ATTACK!$"
+	.string "TM 38 enthält FEUERSTURM. Nur wenige\n"
+	.string "Attacken haben ein besseres\l"
+	.string "STÄRKE-GENAUIGKEITS Verhältnis.\p"
+	.string "Es ist die perfekte universelle\n"
+	.string "Feuer-Attacke. MAGMAR oder GLURAK\l"
+	.string "werden ihre Feinde mit dieser Attacke\l"
+	.string "und ihren hohen\l"
+	.string "SPEZIAL-ANGRIFFSWERTEN vernichten!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_4:
-.string "Hah!\p"
-    .string "The VOLCANOBADGE heightens the\n"
-    .string "SPECIAL STATs of your POKÉMON.\p"
-    .string "Here, you can have this, too!$"
+.string "Haha!\p"
+	.string "Der VULKANORDEN steigert die\n"
+	.string "SPEZIAL-FÄHIGKEITEN deiner POKéMON!\p"
+	.string "Nimm zusätzlich dieses Geschenk!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} received TM38\n"
-    .string "from BLAINE.$"
+    .string "{PLAYER} erhält TM38!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_6:
-.string "FIRE BLAST is the ultimate fire\n"
-    .string "technique.\p"
-    .string "Don't waste it on WATER POKÉMON.$"
+	.string "FEUERSTURM ist die mächtigste\n"
+	.string "Feuerattacke! Allerdings ist sie\l"
+	.string "gegen WASSER-POKéMON machtlos!$"
 
 Celadon_Ciyy_Estatua::
 compare VAR_ROUTE107_STATE, 0
@@ -1091,50 +1093,41 @@ end
 
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_1:
-.string "Hello…\n"
-    .string "Lovely weather, isn't it?\l"
-    .string "It's so pleasant…\p"
-    .string "…Oh, dear…\n"
-    .string "I must have dozed off. Welcome.\p"
-    .string "My name is ERIKA.\n"
-    .string "I am the LEADER of CELADON GYM.\p"
-    .string "I am a student of the art of\n"
-    .string "flower arranging.\p"
-    .string "My POKÉMON are solely of the\n"
-    .string "GRASS type.\p"
-    .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.$"
+	.string "Ist das Wetter nicht wundervoll?\p"
+	.string "Einfach herrlich! Du meine Güte … ich\n"
+	.string "muss kurz eingenickt sein! Willkommen!\p"
+	.string "Ich bin ERIKA, die ARENALEITERIN von\n"
+	.string "PRISMANIA CITY! Ich liebe die Kräfte\l"
+	.string "der Natur! Deshalb trainiere ich\l"
+	.string "PFLANZEN-POKéMON. Du möchtest gegen\l"
+	.string "mich antreten? Also gut!$"
 	
 Celadon_Ciyy_Lider_Gimnasio_Texto_1.1:
- .string "Very well, but I shall not lose.$"
+ .string "Ich werde ohnehin nicht verlieren!$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_2:
-.string "Oh!\n"
-    .string "I concede defeat.\l"
-    .string "You are remarkably strong.\p"
-    .string "I must confer on you the\n"
-    .string "RAINBOWBADGE.$"
+	.string "Ich muss meine Niederlage eingestehen!\p"
+	.string "Deine Stärke ist beachtlich!\p"
+	.string "Ich übergebe dir den FARBORDEN!$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_3:
- .string "You are cataloging POKÉMON?\n"
-    .string "I must say I'm impressed.\p"
-    .string "I would never collect POKÉMON if\n"
-    .string "they were unattractive.$"
+	.string "Du katalogisierst POKéMON? Ich bin\n"
+	.string "beeindruckt! Ich würde niemals POKéMON\l"
+	.string "sammeln, die mich nicht interessieren!$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_4:
-.string "The RAINBOWBADGE will make\n"
-    .string "POKÉMON up to Lv. 50 obey.\p"
-    .string "It also allows POKÉMON to use\n"
-    .string "STRENGTH in and out of battle.\p"
-    .string "Please also take this with you.$"
+	.string "Der FARBORDEN lässt POKéMON bis Level\n"
+	.string "50 deinen Befehlen folgen! Außerdem\l"
+	.string "können deine POKéMON nun STÄRKE\l"
+	.string "außerhalb von Kämpfen anwenden.\p"
+	.string "Nimm bitte noch dieses Geschenk:$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} received TM19\n"
-    .string "from ERIKA.$"
+    .string "{PLAYER} erhält TM19!$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_6:
-.string "TM19 contains GIGA DRAIN.\p"
-    .string "Half the damage it inflicts is\n"
-    .string "drained to heal your POKÉMON.\p"
-    .string "Wouldn't you agree that it's a\n"
-    .string "wonderful move?$"
+	.string "TM19 ist GIGASAUGER. Dein POKéMON\n"
+	.string "erhält die Hälfte der KP, die diese\l"
+	.string "Attacke dem Gegner abzieht!$"
+
+

@@ -43,12 +43,13 @@ release
 end
 
 Silph7F_6_Texto_1:
-.string "No please!\n"
-	.string "I want somebody to rescue me!$"
+.string "Nein! Bitte!\n"
+	.string "Ich will, dass mich jemand rettet!$"
 
 Silph7F_6_Texto_2:
-	.string "You are not so brave now once you have\n"
-	.string "fallen miserably down, huh!$"
+	.string "Tja. Jetzt bist du nicht mehr so mutig,\n"
+	.string "nachdem ihr so kläglich gescheitert\l"
+	.string "seid, was!$"
 
 
 
@@ -72,10 +73,12 @@ release
 end
 
 Silph7F_8_Texto_1:
-	.string "The MASTER BALL will be a luxury just\n"
-	.string "available to the most prominent\l"
-	.string "TRAINERS that could buy it, that BALL\l"
-	.string "is too much for thieves like you!$"
+	.string "Der MEISTERBALL wird ein\n"
+	.string "Premium-Artikel, den sich nur die\l"
+	.string "angesehensten TRAINER werden leisten\l"
+	.string "können. Dieser BALL ist eine Nummer zu\l"
+	.string "groß für Diebe wie euch!$"
+
 
 Silph7F_8_Texto_2:
 	.string "Look what you've done! Due to your\n"
@@ -104,13 +107,14 @@ release
 end
 
 Silph7F_10_Texto_1:
-	.string "You will never make this company fall\n"
-	.string "down, our PRESIDENT knows how to deal\l"
-	.string "with thieves like you!$"
+	.string "Ihr werdet dieses Unternehmen nie zu\n"
+	.string "Fall bringen! Unser PRÄSIDENT weiß, wie\l"
+	.string "man mit Dieben wie euch umgeht!$"
 
 Silph7F_10_Texto_2:
-	.string "You got what you deserved ROCKETS, now\n"
-	.string "just we need to wait for your judgment.$"
+	.string "Ihr habt bekommen, was ihr verdient,\n"
+	.string "ROCKETs! Jetzt müssen wir nur noch das\l"
+	.string "Urteil abwarten!$"
 
 
 
@@ -197,36 +201,40 @@ emote_exclamation_mark
 step_end
 
 Silph_7F_Combate_Empleado_Texto_1:
-	.string "Without the CARD KEY no one of you will\n"
-	.string "reach nowhere, you won't touch our\l"
-	.string "PRESIDENT.$"
+	.string "Ohne den TÜRÖFFNER wird keiner von\n"
+	.string "euch zum PRÄSIDENTEN gelangen!$"
 
 Silph_7F_Combate_Empleado_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Silph_7F_Combate_Empleado_Texto_3:
 .string "Hmm?\n"
-	.string "You want me to tell you where it is?$"
+	.string "Du willst, dass ich dir verrate,\n"
+	.string "wo du einen findest?$"
 
 Silph_7F_Combate_Empleado_Texto_4:
-	.string "I am not like the rest of the employees\n"
-	.string "here, ROCKET, I won't be staying here\l"
-	.string "seeing how you menace us, prepare to be\l"
-	.string "crushed!$"
+	.string "Ich bin nicht wie die anderen\n"
+	.string "Angestellten hier, ROCKET! Ich werde\l"
+	.string "nicht einfach tatenlos dabei zusehen,\l"
+	.string "wie ihr uns bedroht! Mach dich bereit,\l"
+	.string "vernichtet zu werden!$"
 
 Silph_7F_Combate_Empleado_Texto_5:
-	.string "Did a ROCKET just smash me, really?$"
+	.string "Wurde ich gerade ernsthaft von\n"
+	.string "einem ROCKET geschlagen?$"
 
 Silph_7F_Combate_Empleado_Texto_6:
-	.string "Okay okay, I will talk. One of our\n"
-	.string "employees at 5F is the one in charge of\l"
-	.string "security, he is a coward so you will\l"
-	.string "easily get the CARD KEY if you talk to\l"
-	.string "him about it.$"
+	.string "Okay, okay … Ich rede. Einer unserer\n"
+	.string "Angestellten auf Etage 5 ist für die\l"
+	.string "Sicherheit zuständig. Er ist ein\l"
+	.string "Feigling, also wirst du den TÜRÖFFNER\l"
+	.string "ohne Gegenwehr von ihm bekommen, wenn\l"
+	.string "du ihn darauf ansprichst.$"
 
 Silph_7F_Combate_Empleado_Texto_7:
-	.string "What do you want from me now? Already\n"
-	.string "told you all I know, leave me alone!$"
+	.string "Was willst du denn noch von mir? Ich\n"
+	.string "habe dir doch schon alles gesagt, was\l"
+	.string "ich weiß! Also lass mich in Ruhe!$"
 
 
 Silph_7F_Encuentro_Azul_Arriba::
@@ -388,80 +396,92 @@ walk_in_place_up
 step_end
 
 Silph_7F_Encuentro_Azul_Texto_1:
-	.string "BLUE: So you were here, {PLAYER}!$"
+	.string "Du bist also auch hier, {PLAYER}!$"
 
 Silph_7F_Encuentro_Azul_Texto_2:
-	.string "GIOVANNI sent me to SAFFRON, he wants\n"
-	.string "me to keep him informed, especially\l"
-	.string "about RED's whereabouts, let's set up a\l"
-	.string "trap for him, surely the fool will fall\l"
-	.string "for it, thinking he's the smartest one\l"
-	.string "in the room, listen.$"
+	.string "GIOVANNI hat mich ebenfalls\n"
+	.string "hierhergeschickt. Er will, dass ich ihn\l"
+	.string "auf dem Laufenden halte - vor allem,\l"
+	.string "was ROTs Aufenthaltsort angeht. Lass\l"
+	.string "uns ihm eine Falle stellen. Er wird\l"
+	.string "bestimmt darauf reinfallen, weil er sich\l"
+	.string "immer für den Klügsten im Raum hält.\p"
+	.string "Hör zu.$"
 
 Silph_7F_Encuentro_Azul_Texto_3:
-	.string "ANDRA and I were able to obtain 2 CARD\n"
-	.string "KEYS from the SILPH employees, without\l"
-	.string "these, RED could not reach the meeting\l"
-	.string "between GIOVANNI and the PRESIDENT\l"
-	.string "until we want him to…$"
+	.string "ANDRA und ich haben es geschafft, zwei\n"
+	.string "TÜRÖFFNER von SILPH-Angestellten in\l"
+	.string "die Finger zu kriegen. Ohne die kann ROT\l"
+	.string "nicht zum Treffen von GIOVANNI und dem\l"
+	.string "PRÄSIDENTEN gelangen - bis wir es\l"
+	.string "wollen {PAUSE 15}…{PAUSE 15}$"
 
 Silph_7F_Encuentro_Azul_Texto_4:
-	.string "The plan is to keep these keys on safe\n"
-	.string "until you give me the signal that\l"
-	.string "GIOVANNI finishes negotiating with the\l"
-	.string "PRESIDENT.$"
+	.string "Der Plan ist, diese Karten so lange\n"
+	.string "sicher aufzubewahren, bis ihr mir das\l"
+	.string "Zeichen gibt, dass GIOVANNI mit seinen\l"
+	.string "Verhandlungen fertig ist.$"
 
 Silph_7F_Encuentro_Azul_Texto_5:
-	.string "After that, we will close the doors and\n"
-	.string "let one of the CARD KEYS throwed\l"
-	.string "somewhere in SILPH.$"
+	.string "Danach verriegeln wir wieder die Türen\n"
+	.string "und platzieren einen der TÜRÖFFNER\l"
+	.string "irgendwo im Gebäude hier.$"
 
 Silph_7F_Encuentro_Azul_Texto_6:
-	.string "That obtrusive RED for sure will find it\n"
-	.string "someway, he's an expert at snatching\l"
-	.string "other people's items and sticking his\l"
-	.string "nose where it doesn't belong, then, he'll\l"
-	.string "do us the favor of reaching GIOVANNI\l"
-	.string "to pretend he's been defeated.$"
+	.string "Dieser aufdringliche Idiot wird ihn\n"
+	.string "sicher irgendwie finden. Er ist ein\l"
+	.string "Experte darin, Sachen von anderen zu\l"
+	.string "klauen und seine dreckige Nase in\l"
+	.string "Angelegenheiten zu stecken, die ihn\l"
+	.string "nichts angehen. Dann wird er uns den\l"
+	.string "Gefallen tun, GIOVANNI zu -besiegen-.$"
 
 Silph_7F_Encuentro_Azul_Texto_6.1:
-	.string "The fool will think he's truly won.\p"
-	.string "Yeah! Trust me, he will, he's only\n"
-	.string "battling against opponents far worse\l"
-	.string "than GIOVANNI's already mediocre team\l"
-	.string "that he'll bring here to SILPH.\p"
-	.string "You'll even leave the weaker ROCKETs\n"
-	.string "behind to highlight the difference in\l"
-	.string "skill levels.$"
+	.string "Der Trottel wird denken, er hätte\n"
+	.string "gewonnen. Und glaub mir, das wird er. Er\l"
+	.string "ist es gewohnt, gegen viel schlechtere\l"
+	.string "Trainer als GIOVANNI zu kämpfen. Dieser\l"
+	.string "wird sowieso nur ein mittelmäßiges Team\l"
+	.string "hierher mitbringen. Giovanni lässt\l"
+	.string "sogar absichtlich nur die schwächeren\l"
+	.string "ROCKETs hier zurück, um den\l"
+	.string "Unterschied, was Fähigkeiten angeht,\l"
+	.string "noch deutlicher zu machen.$"
 
 Silph_7F_Encuentro_Azul_Texto_7:
-	.string "After this, you will have what you want\n"
-	.string "and I will continue with my plans to be\l"
-	.string "the new CHAMP.$"
+	.string "Sobald das erledigt ist, habt ihr das,\n"
+	.string "was ihr wollt und ich kann mich weiter\l"
+	.string "darauf konzentrieren, der nächste\l"
+	.string "CHAMP zu werden.$"
 
 Silph_7F_Encuentro_Azul_Texto_8:
-	.string "Don't worry ROCKETs, nothing would be\n"
-	.string "better for you more than having a CHAMP\l"
-	.string "related to your organization instead of\l"
-	.string "LANCE, don't you think?$"
+	.string "Ihr ROCKETs müsst euch keine Sorgen\n"
+	.string "machen. Ihr habt doch sicher lieber\l"
+	.string "einen CHAMP, der sich gut mit eurer\l"
+	.string "Organisation versteht als jemanden\l"
+	.string "wie SIEGFRIED, oder?$"
 
 Silph_7F_Encuentro_Azul_Texto_9:
-	.string "If everything goes well, this region\n"
-	.string "could make a lot of changes very soon.$"
+	.string "Wenn alles gut läuft, könnte sich in\n"
+	.string "dieser Region schon bald einiges\l"
+	.string "ändern.$"
 
 Silph_7F_Encuentro_Azul_Texto_10:
-	.string "I won't keep wasting your time\n"
-	.string "{PLAYER}, ANDRA already informed to\l"
-	.string "GIVANNI, he must be on way, you should\l"
-	.string "keep defeating all the rest of the\l"
-	.string "security for your LEADER have free way\l"
-	.string "to talk with the PRESIDENT instantly\l"
-	.string "when arrives, I'll stay here…\l"
-	.string "waiting your signal to drop the CARD KEY\l"
-	.string "once the negotiation finishes.$"
+	.string "Ich werde dich nicht länger aufhalten,\n"
+	.string "{PLAYER}. ANDRA hat GIOVANNI bereits\l"
+	.string "benachrichtigt. Also wird er schon auf\l"
+	.string "dem Weg hierher sein. Kümmer dich um die\l"
+	.string "restlichen Sicherheitskräfte, damit\l"
+	.string "euer BOSS ungehindert mit dem\l"
+	.string "PRÄSIDENTEN sprechen kann, sobald er\l"
+	.string "hier eintrifft. Ich bleibe hier und\l"
+	.string "warte auf dein Signal, um den TÜRÖFFNER\l"
+	.string "heimlich irgendwo zu platzieren, wenn\l"
+	.string "die Verhandlungen beendet sind.$"
 
 Silph7F_12_Texto_1:
-	.string "BLUE: Hurry up, {PLAYER}, and defeat\n"
-	.string "what's left of the security before\l"
-	.string "GIOVANNI shows up.$"
+	.string "BLAU: Beeil dich, {PLAYER} und\n"
+	.string "erledige die restlichen\l"
+	.string "Sicherheitskräfte, bevor GIOVANNI\l"
+	.string "hier ankommt!$"
 

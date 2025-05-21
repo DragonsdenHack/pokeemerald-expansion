@@ -20,10 +20,10 @@ release
 end
 
 Silph8F_Text_2:
-	.string "Your BOSS is a cruel dictator! He only\n"
-	.string "uses POKÉMON as weapons to achieve his\l"
-	.string "goals! Someone like him will never take\l"
-	.string "charge of SILPH!$"
+	.string "Euer BOSS ist ein grausamer Tyrann! Er\n"
+	.string "sieht POKéMON nur als Werkzeuge und\l"
+	.string "benutzt sie auf grausame Weise, um\l"
+	.string "seine Ziele zu erreichen!$"
 
 
 
@@ -52,14 +52,15 @@ release
 end
 
 Silph8F_5_Texto_1:
-	.string "Have mercy! I'll stay here quietly and\n"
-	.string "won't cause any troubles, please trust\l"
-	.string "me!$"
+	.string "Verschon mich! Ich bleibe auch ganz\n"
+	.string "ruhig und werde keinen Ärger machen.\p"
+	.string "Bitte glaub mir!$"
 
 Silph8F_5_Texto_2:
-	.string "Your time has come! All those involved\n"
-	.string "in this assault will be found and\l"
-	.string "judged!$"
+	.string "Eure Zeit ist abgelaufen! Alle, die an\n"
+	.string "diesem Überfall beteiligt waren, werden\l"
+	.string "schon bald gefunden und zur\l"
+	.string "Rechenschaft gezogen!$"
 
 
 

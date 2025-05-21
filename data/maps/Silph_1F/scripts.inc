@@ -33,9 +33,10 @@ release
 end
 
 Silph1F_Text_2:
-	.string "I trust you, {PLAYER}, I'll stay here\n"
-	.string "to ensure nothing compromises the\l"
-	.string "mission. Hurry up!$"
+	.string "LAMBDA: Ich vertraue dir, {PLAYER}.\p"
+	.string "Ich werde hier bleiben und dafür\n"
+	.string "sorgen, dass nichts schiefgeht.\p"
+	.string "Beeil dich!$"
 
 
 
@@ -47,7 +48,7 @@ release
 end
 
 Silph1F_Text_3:
-.string "At your orders, EXECUTIVE {PLAYER}!$"
+	.string "Zu Ihrem Befehl, OFFIZIER {PLAYER}!$"
 
 
 
@@ -59,9 +60,9 @@ release
 end
 
 Silph1F_Text_4:
-	.string "This day will be in the history books as\n"
-	.string "the day the TEAM ROCKET took control\l"
-	.string "of everything!$"
+	.string "Dieser Tag wird als der Tag in die\n"
+	.string "Geschichtsbücher eingehen, an dem TEAM\l"
+	.string "ROCKET endgültig die Macht ergriff!$"
 
 
 
@@ -73,7 +74,7 @@ release
 end
 
 Silph1F_Text_5:
-.string "Come to me, SILPH's security!$"
+.string "Kommt her, SILPH-Wachen!$"
 
 
 
@@ -85,10 +86,10 @@ release
 end
 
 Silph1F_Text_6:
-	.string "That feeling of uncertainty before the\n"
-	.string "action begins is why I joined TEAM\l"
-	.string "ROCKET. You will never feel as alive as\l"
-	.string "now!$"
+	.string "Dieses Gefühl von Unsicherheit vor dem\n"
+	.string "großen Moment … Genau deswegen bin ich\l"
+	.string "TEAM ROCKET beigetreten! Du wirst dich\l"
+	.string "niemals so lebendig fühlen wie jetzt!$"
 
 
 
@@ -100,8 +101,8 @@ release
 end
 
 Silph1F_Text_7:
-	.string "This fountain is horrible compared to\n"
-	.string "ours!$"
+	.string "Dieser Brunnen ist peinlich, wenn\n"
+	.string "man ihn mit unserem vergleicht!$"
 
 
 
@@ -113,7 +114,7 @@ release
 end
 
 Silph1F_Text_8:
-	.string "Let's show SILPH who's in charge here!$"
+	.string "Zeigen wir SILPH, wer hier der Boss ist!$"
 
 
 
@@ -125,9 +126,9 @@ release
 end
 
 Silph1F_Text_9:
-	.string "To be honest, from outside SILPH is\n"
-	.string "impressive. There's no other place as\l"
-	.string "tall as this in this region.$"
+	.string "Ganz ehrlich. Von außen macht SILPH\n"
+	.string "echt was her. Kein anderes Gebäude in\l"
+	.string "dieser Region ist so hoch.$"
 
 
 
@@ -139,16 +140,18 @@ release
 end
 
 Silph1F_Text_10:
-	.string "The TEAM ROCKET ELITE has nothing to\n"
-	.string "do with a common GRUNT, right now, all\l"
-	.string "of our POKÉMON are between levels\l"
-	.string "35-40, of course, we have GIOVANNI's\l"
-	.string "orders to disappear as soon as he\l"
-	.string "finishes telling the PRESIDENT what he\l"
-	.string "need to tell him. Furthermore, we are\l"
-	.string "forbidden from battling against that\l"
-	.string "RED. He doesn't want him to know what\l"
-	.string "we're capable of.$"
+	.string "Die ELITE von TEAM ROCKET kann man\n"
+	.string "nicht mit gewöhnlichen RÜPELN\n"
+	.string "vergleichen. Jetzt gerade sind all\l"
+	.string "unsere POKéMON zwischen Level 35-40.\p"
+	.string "Aber natürlich haben wir den Befehl von\n"
+	.string "GIOVANNI, uns sofort zurückzuziehen,\l"
+	.string "sobald er dem PRÄSIDENTEN gesagt hat,\l"
+	.string "was er zu sagen hat. Auch wurde uns\l"
+	.string "strengstens verboten, gegen diesen\l"
+	.string "ROT zu kämpfen. GIOVANNI will nicht,\l"
+	.string "dass er merkt, wozu TEAM ROCKET\l"
+	.string "wirklich fähig ist.$"
 
 
 
@@ -160,8 +163,9 @@ release
 end
 
 Silph1F_Text_11:
-	.string "I like the atmosphere of this place. It's\n"
-	.string "kinda similar to our DEEP ROCKET BASE.$"
+	.string "Ich mag die Atmosphäre hier.\p"
+	.string "Hat Ähnlichkeiten mit unserer\n"
+	.string "UNTERIRDISCHEN BASIS.$"
 
 
 
@@ -173,10 +177,10 @@ release
 end
 
 Silph1F_Text_12:
-	.string "The ideas and objectives of SILPH and\n"
-	.string "TEAM ROCKET are similar. More than you\l"
-	.string "imagine, and we'll use that to convince\l"
-	.string "the PRESIDENT.$"
+	.string "Die Ziele von SILPH und TEAM ROCKET\n"
+	.string "sind sich ähnlicher, als du denkst.\p"
+	.string "Und genau das werden wir nutzen, um\n"
+	.string "den PRÄSIDENTEN zu überzeugen!$"
 
 
 
@@ -188,8 +192,8 @@ release
 end
 
 Silph1F_Text_13:
-	.string "It's sure that SILPH and TEAM ROCKET\n"
-	.string "can reach a good deal!$"
+	.string "SILPH und TEAM ROCKET werden\n"
+	.string "sich bestimmt einig!$"
 
 
 
@@ -201,15 +205,17 @@ release
 end
 
 Silph1F_Text_14:
-	.string "If our LEADER GIOVANNI decided to\n"
-	.string "fight using all his power, I don't think\l"
-	.string "there's a TRAINER in the whole region\l"
-	.string "today capable of keeping up with him. He\l"
-	.string "has become extraordinarily strong; all\l"
-	.string "these years of media harassment have\l"
-	.string "only served to toughen him even more\l"
-	.string "than he was when he got the title of\l"
-	.string "CHAMPION OF KANTO.$"
+	.string "Sollte unser BOSS GIOVANNI\n"
+	.string "beschließen, mit seiner vollen Stärke zu\l"
+	.string "kämpfen, gibt's glaube ich keinen\l"
+	.string "Trainer in der ganzen Region, der es mit\l"
+	.string "ihm aufnehmen könnte. Er ist\l"
+	.string "außergewöhnlich stark geworden.\p"
+	.string "All diese Jahre, in der er die\n"
+	.string "Schmutzkampagne durchstehen musste,\l"
+	.string "haben ihn noch härter gemacht, als er\l"
+	.string "es bereits war, als er den CHAMP-TITEL\l"
+	.string "gewann.$"
 
 
 
@@ -221,10 +227,9 @@ release
 end
 
 Silph1F_Text_15:
-	.string "If everything goes according to the\n"
-	.string "plan, we'll be in the shadows for a\l"
-	.string "season. But we'll keep becoming\l"
-	.string "stronger.$"
+	.string "Wenn alles nach Plan läuft, ziehen wir\n"
+	.string "uns eine Zeit lang zurück. Aber unsere\l"
+	.string "Stärke wird immer weiter zunehmen.$"
 
 
 
@@ -236,8 +241,8 @@ release
 end
 
 Silph1F_Text_16:
-	.string "Very important things are going to\n"
-	.string "happen here today.$"
+	.string "Heute wird hier\n"
+	.string "Geschichte geschrieben!$"
 
 
 
@@ -249,9 +254,9 @@ release
 end
 
 Silph1F_Text_17:
-	.string "SILPH's power extends to the SEVII\n"
-	.string "ISLANDS. The TEAM ROCKET's power\l"
-	.string "will be global!$"
+	.string "SILPHs Einfluss erstreckt sich bis zu\n"
+	.string "den SEVII EILANDEN. Der von TEAM\l"
+	.string "ROCKET wird auf globaler Ebene sein!$"
 
 
 
@@ -264,8 +269,8 @@ release
 end
 
 Silph1F_Text_18:
-	.string "In the TEAM ROCKET we act as a single\n"
-	.string "body, which makes us strong.$"
+	.string "In TEAM ROCKET handeln wir als eine\n"
+	.string "Einheit, was uns stark macht.$"
 
 
 
@@ -277,11 +282,13 @@ release
 end
 
 Silph1F_Text_19:
-	.string "The workers from here aren't used to\n"
-	.string "seeing us; they live in a city detached\l"
-	.string "from reality. It won't be surprising if a\l"
-	.string "lot of them were really scared. Even\l"
-	.string "though we won't hurt them, of course.$"
+	.string "Die Angestellten hier sind nicht daran\n"
+	.string "gewöhnt, uns zu sehen. Sie leben in\l"
+	.string "einer Stadt, die völlig losgelöst von\l"
+	.string "der Realität existiert. Es würde mich\l"
+	.string "nicht überraschen, wenn viele von ihnen\l"
+	.string "Angst bekommen. Auch wenn wir ihnen\l"
+	.string "natürlich nichts antun werden.$"
 
 
 
@@ -422,34 +429,35 @@ walk_in_place_down
 step_end
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
-	.string "I will never forget what you have done\n"
-	.string "here, ROCKET!$"
+	.string "Ich werde niemals vergessen, was ihr\n"
+	.string "hier getan habt, ROCKET!$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
-	.string "Oh, yes! So you are the guy who was\n"
-	.string "going to come in name of TEAM ROCKET to\l"
-	.string "see our library. You are so lucky, you\l"
-	.string "know it?$"
+	.string "Oh ja! Du bist derjenige, der im Auftrag\n"
+	.string "von TEAM ROCKET hier ist, um unsere\l"
+	.string "Bibliothek zu besuchen.\p"
+	.string "Du hast echt Glück, weißt du das?$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
-	.string "Nobody outside of this company has\n"
-	.string "ever entered here, and only our most\l"
-	.string "prominent employees can enter there,\l"
-	.string "except for our PRESIDENT…$"
+	.string "Niemand außerhalb dieses Unternehmens\n"
+	.string "hat jemals diesen Ort betreten.\p"
+	.string "Abgesehen von unserem PRÄSIDENTEN\n"
+	.string "dürfen nur die wichtigsten\l"
+	.string "Angestellten diesen Bereich betreten.$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
-	.string "He has expressly make it know that you\n"
-	.string "are welcome to enter whenever you want.$"
+	.string "Er hat angeordnet, dass du freien\n"
+	.string "Zugang hast, wann immer du willst.$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6:
-	.string "From now on, you will be able to access\n"
-	.string "our lower floors only by interacting\l"
-	.string "with my computer. Good luck with your\l"
-	.string "search!$"
+	.string "Von nun an hast du jederzeit Zugang zu\n"
+	.string "unseren unteren Etagen. Dafür musst du\l"
+	.string "nur meinen Computer benutzen.\p"
+	.string "Viel Glück!$"
 
 Silph_1F_Activador_Entrada::
 compare VAR_UNUSED_0x40F7, 102
@@ -495,7 +503,7 @@ release
 end
 
 Silph_1F_Activador_Entrada_Texto_1:
-	.string "It seems like this computer is\n"
-	.string "performing a very important function.$"
+	.string "Es scheint, als würde dieser Computer\n"
+	.string "eine sehr wichtige Funktion ausführen.$"
 
 

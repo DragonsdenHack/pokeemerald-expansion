@@ -36,12 +36,14 @@ release
 end
 
 Silph6F_4_Texto_1:
-	.string "If the MASTER BALL is what your\n"
-	.string "organization wants, our PRESIDENT will\l"
-	.string "never give you it!$"
+	.string "Wenn ihr hinter dem MEISTERBALL her\n"
+	.string "seid, dann lasst euch eines sagen:\l"
+	.string "Unser PRÄSIDENT wird ihn euch niemals\l"
+	.string "geben!$"
 
 Silph6F_4_Texto_2:
-	.string "That kid gave you what you deserve!$"
+	.string "Dieser Junge hat euch richtig\n"
+	.string "fertiggemacht!$"
 
 
 
@@ -65,11 +67,13 @@ release
 end
 
 Silph6F_6_Texto_1:
-	.string "Don't you see that he is a coward?$"
+	.string "Siehst du nicht, dass er ein\n"
+	.string "Feigling ist?$"
 
 Silph6F_6_Texto_2:
-	.string "He was so defenseless… To be honest I\n"
-	.string "married just to take care of him.$"
+	.string "Er war völlig hilflos … Um ehrlich zu\n"
+	.string "sein, habe ich ihn nur geheiratet, um\l"
+	.string "mich um ihn zu kümmern.$"
 
 
 
@@ -88,10 +92,12 @@ release
 end
 
 Silph6F_7_Texto_1:
-	.string "You will never conquer this company!$"
+	.string "Dieses Unternehmen wird niemals\n"
+	.string "euch gehören!$"
 
 Silph6F_7_Texto_2:
-	.string "You have failed, you are doomed!$"
+	.string "Ihr habt versagt!\n"
+	.string "Euer Schicksal ist besiegelt!$"
 
 
 
@@ -115,11 +121,12 @@ release
 end
 
 Silph6F_9_Texto_1:
-	.string "Don't hurt me, I won't cause trouble!$"
+	.string "Tu mir nichts! Ich werde auch keinen\n"
+	.string "Widerstand leisten!$"
 
 Silph6F_9_Texto_2:
-	.string "HAH, you got what you deserved,\n"
-	.string "cowards!$"
+	.string "HA! Das geschieht euch recht,\n"
+	.string "ihr Feiglinge!$"
 
 
 
@@ -188,28 +195,29 @@ release
 end
 
 Silph_6F_Empleado_Llave_Texto_1:
-.string "A ROCKET!\n"
-	.string "Mercy, please!$"
+.string "EIN ROCKET!\n"
+	.string "Gnade! BITTE!$"
 
 Silph_6F_Empleado_Llave_Texto_2:
-.string "You can't hurt me now!\n"
-	.string "Muahaha!$"
+	.string "Du kannst mir jetzt nichts\n"
+	.string "mehr anhaben! Muahaha!$"
 
 Silph_6F_Empleado_Llave_Texto_3:
-	.string "No! Don't hurt me!$"
+	.string "Nein! Bitte tu mir nicht weh!$"
 
 Silph_6F_Empleado_Llave_Texto_4:
 .string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 Silph_6F_Empleado_Llave_Texto_5:
-.string "What?\n"
-	.string "The CARD KEY?\l"
-	.string "I will give you whatever you\l"
-	.string "want but have mercy!$"
+.string "Was?\n"
+	.string "Der TÜRÖFFNER?\p"
+	.string "Ich gebe dir, was immer du willst!\n"
+	.string "Nur verschone mich!$"
 
 Silph_6F_Empleado_Llave_Texto_6:
-	.string "I already gave you what you wanted,\n"
-	.string "leave me alone please!$"
+	.string "Du hast doch schon das bekommen, was\n"
+	.string "du wolltest! Bitte lass mich in Ruhe!$"
 
 Silph_6F_Empleado_Llave_Texto_7:
-	.string "The EMPLOYEE gave you a CARD KEY!$"
+	.string "-Der ANGESTELLTE übergibt\n"
+	.string "dir den TÜRÖFFNER!-$"

@@ -31,10 +31,12 @@ release
 end
 
 Silph9F_4_Texto_1:
-	.string "Heal you? For you to keep invading us?\n"
-	.string "Public centers heal you because it's a\l"
-	.string "law, we are a private company, I hope all\l"
-	.string "your POKÉMON faint!$"
+	.string "Dein Team heilen? Damit du uns weiter\n"
+	.string "überfallen kannst? Öffentliche\l"
+	.string "Gebäude heilen dein Team, weil es\l"
+	.string "Gesetz ist. Aber wir sind ein privates\l"
+	.string "Unternehmen. Ich hoffe, alle deine\l"
+	.string "POKéMON gehen k.o.!$"
 
 
 
