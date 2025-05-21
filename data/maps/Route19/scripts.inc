@@ -144,5 +144,6 @@ release
 end
 
 Route19_Barrera_Sur_Texto_1:
-	.string "-I should help KOGA and search him on\n"
-	.string "the outskirts of FUCHSIA.-$"
+	.string "-Ich sollte KOGA helfen und ihn\n"
+	.string "irgendwo am Rand von FUCHSANIA\l"
+	.string "suchen.-$"

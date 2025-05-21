@@ -124,11 +124,10 @@ msgbox Route17Documento_Text_101, MSGBOX_SIGN
 end
 
 Route17Documento_Text_101:
-	.string "TRAINER TIPS\p"
-	.string "All POKÉMON are unique.\p"
-	.string "Even POKÉMON of the same species\n"
-	.string "and level grow at different rates, the\l"
-	.string "referred to as IVs, as well as natures.$"
+	.string "TIPPS FÜR TRAINER\p"
+	.string "Jedes POKéMON ist einzigartig.\p"
+	.string "Selbst gleiche POKéMON mit identischem\n"
+	.string "Level unterscheiden sich voneinander.$"
 
 
 
@@ -158,10 +157,10 @@ msgbox Route17Documento_Text_104, MSGBOX_SIGN
 end
 
 Route17Documento_Text_104:
-	.string "Imminent closure of the CERULEAN -\n"
-	.string "VERMILION and LAVENDER - CELADON\l"
-	.string "underground paths, due to BIKERS\l"
-	.string "invasion on it.$"
+	.string "Die TUNNELPFADE zwischen AZURIA und\n"
+	.string "ORANIA, und LAVANDIA und PRISMANIA\l"
+	.string "werden aufgrund des Biker-Angriffs\l"
+	.string "bald geschlossen.$"
 
 
 

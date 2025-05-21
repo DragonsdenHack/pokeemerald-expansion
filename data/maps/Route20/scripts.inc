@@ -28,10 +28,10 @@ release
 end
 
 Route20_Text_7:
-	.string "Strong TRAINERS and WATER POKÉMON\n"
-	.string "are common sights in these parts.\p"
-	.string "They say that MISTY of the\n"
-	.string "CERULEAN GYM trains here.$"
+	.string "Starke TRAINER und WASSER-POKéMON\n"
+	.string "sind hier weit verbreitet. Man sagt,\l"
+	.string "dass MISTY aus der ARENA von AZURIA\l"
+	.string "CITY hier häufig trainiert.$"
 
 Route20_8::
 end
@@ -145,8 +145,9 @@ release
 end
 
 Ruta_20_Barrera_Sur_Texto_1:
-	.string "-I am not on vacation to explore KANTO\n"
-	.string "right now, great events are waiting.-$"
+	.string "-Ich habe im Moment keine Zeit, um\n"
+	.string "KANTO zu erkunden.\l"
+	.string "Ich habe Wichtigeres zu tun.-$"
 
 Ruta_20_Barrera_Sur_Move_1:
 walk_in_place_left
@@ -200,45 +201,34 @@ release
 end
 
 Ruta_20_Andra_Texto_1:
-	.string "ANDRA: Yo, {PLAYER}! How are you doin'?$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_3:
-	.string "SEAFOAM ISLANDS already? You kiddin'?$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_4:
-	.string "I've been training a SNEASEL 'till he\n"
-	.string "learnt ICE PUNCH.$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_5:
-	.string "I'll give you a piece of advice: you\n"
-	.string "should make a good use of the FOCUS\l"
-	.string "SASH, they sell 'em in the DEEP BASE.$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_6:
-	.string "We can kick that BIRD where it hurts.\n"
-	.string "And combining that with my URSARING's\l"
-	.string "SLASH, that petty BIRD will be no\l"
-	.string "match for us!$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_7:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_8:
-	.string "Be safe, {PLAYER}.$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_9:
-	.string "It's only him against all of us, in a 1v1\n"
-	.string "he'll turn us into ashes. However, in a\l"
-	.string "6v1, in the long game, we have a chance\l"
-	.string "to profane a SACRED POKÉMON.$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_10:
-	.string "Well, that's it. We're ready to get inside\n"
-	.string "that POWER PLANT without being\l"
-	.string "spotted.$"
+	.string "traducir$"
 
 Ruta_20_Andra_Texto_11:
-	.string "Good luck!$"
+	.string "traducir$"

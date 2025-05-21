@@ -39,10 +39,10 @@ release
 end
 
 SaffronCityDojo5_Texto_1:
-	.string "I've lost, but I have kept my honor\n"
-	.string "intact. Not like those PSYCHIC POKÉMON\l"
-	.string "from the other GYM that avoid the close\l"
-	.string "combat!$"
+	.string "Ich habe verloren, aber meine Ehre\n"
+	.string "bleibt unversehrt. Nicht so wie diese\l"
+	.string "Psychos aus der Arena nebenan, die\l"
+	.string "sich vor echten Kämpfen drücken!$"
 
 
 
@@ -58,10 +58,10 @@ release
 end
 
 SaffronCityDojo7_Texto_1:
-	.string "This POKÉ BALL is very well kept, also\n"
-	.string "very clean. It must contain a very\l"
-	.string "important POKÉMON for the KARATE\l"
-	.string "MASTER.$"
+	.string "Dieser POKéBALL wird sorgfältig\n"
+	.string "aufbewahrt und ist blitzsauber.\p"
+	.string "Es muss ein POKéMON enthalten,\n"
+	.string "dass dem SCHWARZGURT heilig ist.$"
 
 
 
@@ -144,28 +144,29 @@ walk_in_place_up
 step_end
 
 SaffronCity_Dojo_Combate_Maestro_Texto_1:
-	.string "Grunt!\p"
-	.string "I am the KARATE MASTER!\n"
-	.string "I am the LEADER here!\p"
-	.string "You wish to challenge us?\n"
-	.string "Expect no mercy!\p"
-	.string "Fwaaa!$"
+	.string "Willkommen!\p"
+	.string "Ich bin der KARATE-MEISTER!\n"
+	.string "Ich leite diese POKéMON-ARENA!\p"
+	.string "Du forderst mich heraus?\n"
+	.string "Also gut!\p"
+	.string "Ich kenne keine Gnade!$"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_2:
-.string "Hwa!\n"
-	.string "Arrrgh! I lost!$"
+.string "Arrgh!\n"
+	.string "Ich wurde geschlagen!$"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_3:
-	.string "Indeed, I have lost!\p"
-	.string "But, I beseech you, do not take\n"
-	.string "our emblem as your trophy!\p"
-	.string "In return, I will give this valuable\n"
-	.string "object!\p"
+	.string "Ich bin deiner Gnade unwürdig! Trotzdem\n"
+	.string "flehe ich dich an, unser Emblem nicht\l"
+	.string "als Trophäe mitzunehmen! Zum Ersatz\l"
+	.string "gebe ich dir dieses wertvolle Item.$"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_4:
-	.string "The BLACK BELT increases the power of\n"
-	.string "FIGHTING moves by 20%, Holding on\l"
-	.string "POKÉMON with already high physical\l"
-	.string "attack, such as HITMONLEE or MACHAMP,\l"
-	.string "their FIGHTING moves will destroy\l"
-	.string "everything they hit neutral, believe me!$"
+	.string "Dieser SCHWARZGURT erhöht die Stärke\n"
+	.string "aller KAMPF-Attacken um 20 %. Wenn du\l"
+	.string "ihn einem POKéMON mit hohem physischen\l"
+	.string "Angriff gibst, wie KICKLEE oder\l"
+	.string "MACHOMAI, machen sie mit ihren\l"
+	.string "KAMPF-ATTACKEN kurzen Prozess mit\l"
+	.string "allem, was sich ihnen in den Weg stellt!\p"
+	.string "Glaub mir!$"

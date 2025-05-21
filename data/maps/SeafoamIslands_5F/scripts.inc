@@ -13,8 +13,8 @@ release
 end
 
 SeafoamIslands5F_6_texto_1:
-	.string "-Apparently this rock blocks the strong\n"
-	.string "currents here.-$"
+	.string "-Offenbar blockiert dieser Fels hier\n"
+	.string "die starken Strömungen.-$"
 
 
 
@@ -23,8 +23,8 @@ msgbox SeafoamIslands5FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SeafoamIslands5FDocumento_Text_100:
-.string "Hint: Boulders might change the\n"
-    .string "flow of water.$"
+.string "Felsen könnten die Strömung\n"
+    .string "vielleicht umlenken!$"
 
 
 
@@ -101,51 +101,59 @@ release
 end
 
 SeafoamIslands_5F_Combate_Articuno_Texto_1:
-.string "Artic!$"
+.string "Ark!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_2:
-.string "Artic…$"
+.string "Ark…$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_3:
-	.string "You obtained a feather of the\n"
-	.string "LEGENDARY ARTICUNO!$"
+	.string "Du hast dem LEGENDÄREN POKéMON ARKTOS\n"
+	.string "eine Feder gezupft!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4:
-	.string "GIOVANNI: {PLAYER}?{PAUSE 35} …{PAUSE 35} …{PAUSE 35} Did you\n"
-	.string "defeat ARTICUNO right now? Great, good\l"
-	.string "job {PLAYER}, BLUE also finished his\l"
-	.string "mission defeating MOLTRES at MT.EMBER.$"
+	.string "GIOVANNI: {PLAYER}! {PAUSE 35}… {PAUSE 35}…{PAUSE 35} Hast du\n"
+	.string "bereits ARKTOS besiegt? Großartig!\p"
+	.string "Gut gemacht, {PLAYER}! BLAU hat\n"
+	.string "ebenfalls seine Mission mit dem Sieg\l"
+	.string "über LAVADOS am GLUTBERG erfolgreich\l"
+	.string "zum Abschluss gebracht.$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4.1:
 	.string "{PAUSE 35}… {PAUSE 35}…{PAUSE 35}$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4.2:
-	.string "I called you because ANDRA\n"
-	.string "is in troubles.$"
+	.string "Ich rufe dich an, weil ANDRA\n"
+	.string "in Schwierigkeiten steckt.$"
 	
 SeafoamIslands_5F_Combate_Articuno_Texto_4.3:
-	.string "The plan to infiltrate into the\n"
-	.string "POWER PLANT failed and now she is\l"
-	.string "surrounded by the police.$"
+	.string "Der Plan, unauffällig ins KRAFTWERK\n"
+	.string "einzudringen, ist gescheitert und jetzt\l"
+	.string "ist sie von Polizisten umzingelt.$"
 	
 SeafoamIslands_5F_Combate_Articuno_Texto_4.4:
-	.string "They're not enough to defeat her for\n"
-	.string "themselves but it's just a matter of\l"
-	.string "time to they notify a GYM LEADER or\l"
-	.string "even a member of the ELITE 4 to\l"
-	.string "apprehend her by force.$"
+	.string "Natürlich haben diese allein keine\n"
+	.string "Chance gegen sie. Aber es ist nur eine\l"
+	.string "Frage der Zeit, bis sie einen\l"
+	.string "ARENALEITER oder sogar ein Mitglied der\l"
+	.string "TOP VIER benachrichtigen, um sie mit\l"
+	.string "Gewalt festzunehmen!$"
 	
 SeafoamIslands_5F_Combate_Articuno_Texto_4.5:
-	.string "I want you to be part of the rescue\n"
-	.string "team, I require the assistance of our\l"
-	.string "top ROCKETS to escape from there.$"
+	.string "Ich möchte, dass du dich dem\n"
+	.string "Rettungsteam anschließt, {PLAYER}.\p"
+	.string "Falls es brenzlig wird, brauchen wir\n"
+	.string "unsere stärksten Trainer vor Ort, um\l"
+	.string "sie von dort rauszuholen.$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4.6:
-	.string "ARCHER and PETREL will await you.\n"
-	.string "Don't be late, each second is crucial.$"
+	.string "Die anderen Mitglieder des Teams warten\n"
+	.string "außerhalb des KRAFTWERKs auf ROUTE 10\l"
+	.string "auf dich. Beeil dich!\p"
+	.string "Jede Sekunde zählt!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_5:
-	.string "-Seems like it is too weak to battle.-$"
+	.string "-Es scheint zu schwach zum\n"
+	.string "Kämpfen zu sein.-$"
 
 SeafoamIslands_5F_Combate_Articuno_Move_1:
 emote_exclamation_mark

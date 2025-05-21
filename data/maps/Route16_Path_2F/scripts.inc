@@ -9,10 +9,9 @@ release
 end
 
 Route16_Path2F_Text_1:
-	.string "Do not get closer to me ROCKET, if\n"
-	.string "someone sees me interacting with\l"
-	.string "someone like you no one would be my\l"
-	.string "friend!$"
+	.string "Bleib mir vom Leib, ROCKET! Wenn jemand\n"
+	.string "sieht, wie ich mit dir rede, will niemand\l"
+	.string "mehr was mit mir zu tun haben!$"
 
 
 
@@ -24,8 +23,8 @@ release
 end
 
 Route16_Path2F_Text_2:
-.string "If you touch me I'll\n"
-.string "call the POLICEMAN at 1F.$"
+	.string "Wenn du irgendetwas Dummes versuchst,\n"
+	.string "werde ich die WACHE unten alarmieren!$"
 
 
 
@@ -101,41 +100,46 @@ emote_exclamation_mark
 step_end
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
-.string "Once the region is rid of parasites like\n"
-.string "you and your organization, we can finally\l"
-.string "shape KANTO as it should be.$"
+	.string "Sobald diese Region von Parasiten wie\n"
+	.string "dir und deiner Organisation befreit ist,\l"
+	.string "können wir KANTO endlich nach unseren\l"
+	.string "Vorstellungen formen - die Region so\l"
+	.string "gestalten, wie sie wirklich sein sollte.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_3:
-.string "Get out of my sight, I don't want to\n"
-.string "see your face again, do you dare\l"
-.string "to contradict an OAK'S AIDE?$"
+	.string "Verschwinde aus meinem Blickfeld! Ich\n"
+	.string "will dein Gesicht hier nie wieder sehen!\p"
+	.string "Wagst du es etwa, dich einem\n"
+	.string "Assistenten von PROFESSOR EICH\l"
+	.string "zu widersetzen?$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_4:
-	.string "TEAM ROCKET's days are running out,\n"
-    .string "we're preparing something big to take\l"
-    .string "you all down.$"
+	.string "TEAM ROCKETs Tage sind gezählt! Wir\n"
+	.string "haben etwas Großes geplant, um euch\l"
+	.string "zu Fall zu bringen!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_5:
-.string "It will be the last thing you do, ROCKET.$"
+	.string "Das wird das Letzte sein, was du\n"
+	.string "tun wirst, ROCKET!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_6:
-.string "Where did all those POKÉMON\n"
-.string "come from?!$"
+	.string "Wo zum Teufel hast du diese\n"
+	.string "POKéMON her?!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "-{PLAYER} stole an AMULET COIN\n"
-.string "from OAK'S AIDE.-$"
+	.string "-{PLAYER} stiehlt das MÜNZAMULETT\n"
+	.string "von PROFESSOR EICHs Assistenten.-$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "This doesn't make sense, you're not\n"
-.string "supposed to have anything better\l"
-.string "than RATICATE or KOFFING.\p"
-.string "You'll see when I report this to OAK!$"
+	.string "Das kann nicht sein! Du dürftest doch\n"
+	.string "keine besseren POKéMON als RATTIKARL\l"
+	.string "oder SMOGON haben! Warte nur ab, bis\l"
+	.string "ich das EICH erzähle!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_9:
-.string "Next time I won't be so\n"
-.string "compassionate with you.$"
+	.string "Das nächste Mal werde ich nicht so\n"
+	.string "nachsichtig mit dir sein!$"

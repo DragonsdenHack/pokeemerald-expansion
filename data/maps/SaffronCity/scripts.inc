@@ -14,8 +14,8 @@ release
 end
 
 SaffronCity_Text_1:
-.string "Oh!\n"
-.string "But haven't you gone already?$"
+	.string "Oh! Seid ihr nicht schon\n"
+	.string "längst verschwunden?$"
 
 
 SaffronCity2::
@@ -26,7 +26,7 @@ release
 end
 
 SaffronCity_Text_2:
-.string "All set for boarding, SIR!$"
+.string "Wir sind startklar, SIR!$"
 
 
 SaffronCity3::
@@ -37,9 +37,9 @@ release
 end
 
 SaffronCity_Text_3:
-.string "Yeah!\n"
-.string "You have failed, ROCKETS!\l"
-.string "The city is safe again!$"
+.string "Ha!\n"
+.string "Ihr habt versagt, ROCKETs!\l"
+.string "Die Stadt ist wieder sicher!$"
 
 
 SaffronCity4::
@@ -50,8 +50,8 @@ release
 end
 
 SaffronCity_Text_4:
-	.string "SAFFRON belongs to TEAM ROCKET now!\n"
-	.string "Everything is in order, SIR!$"
+	.string "SAFFRONIA gehört jetzt TEAM ROCKET!\n"
+	.string "Es ist alles unter Kontrolle, Sir!$"
 
 
 SaffronCity5::
@@ -62,9 +62,9 @@ release
 end
 
 SaffronCity_Text_5:
-	.string "Dont worry, EXECUTIVE {PLAYER}! No\n"
-	.string "one will leave this GYM to help SILPH as\l"
-	.string "long I'm here!$"
+	.string "Keine Sorge, OFFIZIER {PLAYER}!\p"
+	.string "Niemand kommt aus der ARENA, um SILPH\n"
+	.string "zu helfen, solange ich hier bin!$"
 
 
 SaffronCity6::
@@ -75,9 +75,10 @@ release
 end
 
 SaffronCity_Text_6:
-	.string "With my PIDGEOT I saw how your BOSS ran\n"
-	.string "away miserably from SILPH after your\l"
-	.string "failure. You are doomed!$"
+	.string "Mein TAUBOSS und ich haben genau\n"
+	.string "gesehen, wie dein BOSS nach eurer\l"
+	.string "Niederlage jämmerlich geflohen ist.\p"
+	.string "Ihr seid geliefert!$"
 
 
 SaffronCity7::
@@ -92,9 +93,9 @@ release
 end
 
 SaffronCity_Text_8:
-	.string "You have failed, ROCKETS! I can't wait\n"
-	.string "to see when LANCE gives you all the\l"
-	.string "final blow!$"
+	.string "Ihr habt versagt, ROCKETs! Ich kann es\n"
+	.string "kaum erwarten zu sehen, wie SIEGFRIED\l"
+	.string "euch den Rest gibt!$"
 
 
 SaffronCity9::
@@ -105,9 +106,9 @@ release
 end
 
 SaffronCity_Text_9:
-	.string "Did you really defeat BRUNO of the\n"
-	.string "ELITE 4? What an honor to work for you,\l"
-	.string "SIR!$"
+	.string "Haben Sie wirklich BRUNO von den TOP\n"
+	.string "VIER besiegt? Es ist mir eine Ehre,\l"
+	.string "für Sie zu arbeiten, Sir!$"
 
 
 SaffronCity10::
@@ -118,8 +119,8 @@ release
 end
 
 SaffronCity_Text_10:
-	.string "Under your orders, EXECUTIVE\n"
-	.string "{PLAYER}! Everything's fine here!$"
+	.string "Zu Befehl, OFFIZIER {PLAYER}!\n"
+	.string "Hier ist alles unter Kontrolle, Sir!$"
 
 
 SaffronCity11::
@@ -130,8 +131,9 @@ release
 end
 
 SaffronCity_Text_11:
-	.string "I saw your BOSS run away miserably from\n"
-	.string "SILPH. You are doomed!$"
+	.string "Dein Boss ist wie ein jämmerlicher\n"
+	.string "Feigling aus SILPH geflohen!\l"
+	.string "Das war's für euch!$"
 
 
 SaffronCity12::
@@ -142,8 +144,8 @@ release
 end
 
 SaffronCity_Text_12:
-	.string "The ELITE FOUR will teach you all a\n"
-	.string "lesson!$"
+	.string "Die TOP VIER werden euch alle\n"
+	.string "den Arsch versohlen!$"
 
 
 SaffronCity13::
@@ -154,8 +156,8 @@ release
 end
 
 SaffronCity_Text_13:
-	.string "My life as a criminal makes me feel\n"
-	.string "so alive!$"
+	.string "Ich fühle mich so lebendig,\n"
+	.string "wenn ich böse bin!$"
 
 
 SaffronCity14::
@@ -166,9 +168,9 @@ release
 end
 
 SaffronCity_Text_14:
-	.string "Don't worry SIR, the city is under our\n"
-	.string "control, you can focus on assault\l"
-	.string "SILPH!$"
+	.string "Keine Sorge, Sir! Die Stadt gehört uns!\p"
+	.string "Sie können sich ganz auf den Angriff\n"
+	.string "auf SILPH konzentrieren!$"
 
 
 SaffronCity16::
@@ -179,18 +181,20 @@ release
 end
 
 SaffronCity_Text_16:
-	.string "We were waiting for you SIR, with you as\n"
-	.string "EXECUTIVE in charge we won't fail! I\l"
-	.string "have direct orders from GIOVANNI to\l"
-	.string "block the access to that RED acting as\l"
-	.string "if I am sleeping, according to our\l"
-	.string "LEADER, RED couldn't care less about\l"
-	.string "what we do or don't do here, he'll only\l"
-	.string "enter if he sees he physically has a\l"
-	.string "clear path to the door, and he will…\l"
-	.string "When we want him to! LONG LIFE TO TEAM\l"
-	.string "ROCKET! HAIL EXECUTIVE {PLAYER}! GOD\l"
-	.string "SAVE GIOVANNI!$"
+	.string "Wir haben auf Sie gewartet, SIR! Mit\n"
+	.string "Ihnen als Anführer kann nichts schief\n"
+	.string "gehen! Ich habe direkte Befehle von\l"
+	.string "GIOVANNI, den Eingang zu blockieren,\l"
+	.string "damit ROT nicht reinkommt, indem ich so\l"
+	.string "tue, als würde ich schlafen. Unserem\l"
+	.string "BOSS zufolge interessiert es ROT nicht\l"
+	.string "die Bohne, was wir hier treiben. Er geht\l"
+	.string "nur rein, wenn er einen freien Weg zur\l"
+	.string "Tür sieht und er wird ihn sehen … wenn\l"
+	.string "wir es wollen!\p"
+	.string "LANG LEBE TEAM ROCKET!\p"
+	.string "HULDIGT OFFIZIER {PLAYER}!\p"
+	.string "GOTT SCHÜTZE GIOVANNI!$"
 
 
 SaffronCity17::
@@ -287,17 +291,21 @@ msgbox SaffronCityDocumento_Text_108, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_108:
-	.string "TIPS, APTITUDES AND REQUIREMENTS TO\n"
-	.string "SURVIVE IN THE CITY:\p"
-	.string "-Daily working hours: 10 hours, 5 days\n"
-	.string "per week.\p"
-	.string "- A ¥150,000 inversion, each month,\n"
-	.string "per habitant, in R&D and Innovation\p"
-	.string "- You have to be a great TRAINER, far\n"
-	.string "above the average.\p"
-	.string "- Permanent improvement attitude,\n"
-	.string "self-realization, efficiency,\l"
-	.string "optimization and loyalty to SILPH.$"
+	.string "TIPPS, NOTWENDIGE FÄHIGKEITEN UND\n"
+	.string "ANFORDERUNGEN, UM IN DER STADT ZU\n"
+	.string "ÜBERLEBEN: - Mindestarbeitszeit pro\l"
+	.string "Tag: 10 Stunden, 5 Tage die Woche. -\l"
+	.string "Jeder Einwohner muss monatlich\l"
+	.string "150.000¥ in die Forschung, Entwicklung\l"
+	.string "und Innovationen investieren. - Sei ein\l"
+	.string "herausragender Trainer - weit über dem\l"
+	.string "Durchschnitt (in den Top 10 %). - Ein\l"
+	.string "Bestreben, sich ständig\l"
+	.string "weiterzuentwickeln, selbst zu\l"
+	.string "verwirklichen, seine Effizienz zu\l"
+	.string "steigern - und schließlich eine\l"
+	.string "unerschütterliche Loyalität gegenüber\l"
+	.string "der SILPH COMPANY.$"
 
 SaffronCity_Combate_Andra_Izq_Arriba::
 applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1
@@ -435,123 +443,130 @@ delay_8
 step_end
 
 SaffronCity_Combate_Andra_Texto_1:
-	.string "PETREL: Alright, everyone is ready, the\n"
-	.string "invasion to SILPH can begin.$"
+	.string "LAMBDA: Okay. Wir sind startklar.\n"
+	.string "Der Sturm auf SILPH kann beginnen!$"
 
 SaffronCity_Combate_Andra_Texto_2:
-	.string "From what we know, the PRESIDENT is in\n"
-	.string "his office on the 11F, he is protected\l"
-	.string "by his personal guard, it's also\l"
-	.string "impossible to access the office by\l"
-	.string "elevator, we must use the teleportation\l"
-	.string "tiles.$"
+	.string "Unseren Informationen zufolge\n"
+	.string "befindet sich der PRÄSIDENT in seinem\l"
+	.string "Büro in der 11. Etage und wird von\l"
+	.string "seiner persönlichen Leibgarde bewacht.\p"
+	.string "Der Aufzug ist keine Option. Wir müssen\n"
+	.string "stattdessen die Teleporter benutzen.$"
 
 SaffronCity_Combate_Andra_Texto_2.1:
-	.string "Overmore, we can only enter his\n"
-	.string "office if we get the CARD KEY to\l"
-	.string "open the door.$"
+	.string "Und dazu kommt noch, dass wir für die\n"
+	.string "Tür zu seinem Büro einen TÜRÖFFNER\l"
+	.string "brauchen.$"
 
 SaffronCity_Combate_Andra_Texto_3:
-	.string "ANDRA: First of all, we need to find\n"
-	.string "that key, does anyone have an idea of\l"
-	.string "where it can be?$"
+	.string "ANDRA: Als Erstes brauchen wir also\n"
+	.string "diesen TÜRÖFFNER. Hat irgendjemand\l"
+	.string "hier eine Idee, wo er sein könnte?$"
 
 SaffronCity_Combate_Andra_Texto_4:
-	.string "PETREL: An item like that, should only\n"
-	.string "be accessible to important members of\l"
-	.string "the company. We'll have to check all of\l"
-	.string "the employees.$"
+	.string "LAMBDA: So ein Gegenstand sollte nur\n"
+	.string "den hochrangigen Angestellten der\l"
+	.string "Firma zugänglich sein. Wir müssen sie\l"
+	.string "uns also alle nacheinander vornehmen.$"
 
 SaffronCity_Combate_Andra_Texto_5:
-	.string "SILPH and LANCE's government don't get\n"
-	.string "along very well, so it's very possible\l"
-	.string "that the ELITE 4 won't show up as they\l"
-	.string "did in the POWER PLANT.$"
+	.string "Die SILPH COMPANY und SIEGFRIEDs\n"
+	.string "Regierung haben nicht gerade das beste\l"
+	.string "Verhältnis zueinander. Also stehen die\l"
+	.string "Chancen gut, dass sich die TOP VIER\l"
+	.string "diesmal nicht einmischen wird, wie sie es\l"
+	.string "im KRAFTWERK getan haben.$"
 	
 SaffronCity_Combate_Andra_Texto_5.1:
-	.string "But we must be prepared for anything.\p"
-	.string "Once we find that CARD KEY, we'll inform\n"
-	.string "GIOVANNI immediately; both of you will\l"
-	.string "stay on guard for GIOVANNI, allowing\l"
-	.string "him to negotiate with the PRESIDENT\l"
-	.string "calmly, without any interference.\p"
-	.string "Did you get it?$"
+	.string "Trotzdem müssen wir auf alles gefasst\n"
+	.string "sein. Sobald wir diesen TÜRÖFFNER\l"
+	.string "haben, geben wir sofort GIOVANNI\l"
+	.string "Bescheid. Euer Job wird dann sein,\l"
+	.string "vor dem Büro Wache zu halten, damit\l"
+	.string "GIOVANNI in Ruhe mit dem PRÄSIDENTEN\l"
+	.string "verhandeln kann. Verstanden?$"
 
 SaffronCity_Combate_Andra_Texto_6:
-	.string "ANDRA: I can't wait any longer!\n"
-	.string "Let's move into action!$"
+	.string "ANDRA: Ich halt's nicht mehr aus!\n"
+	.string "Legen wir los!$"
 
 SaffronCity_Combate_Andra_Texto_7:
-	.string "PETREL: That's the attitude. Let's go,\n"
-	.string "SILPH is ours.$"
+	.string "LAMBDA: Das ist die richtige\n"
+	.string "Einstellung! Los geht's! SILPH wird\l"
+	.string "schon bald unser Verbündeter sein!$"
 
 SaffronCity_Combate_Andra_Texto_8:
-	.string "ANDRA: One last thing, {PLAYER}. I\n"
-	.string "haven't thanked you yet for your help in\l"
-	.string "the POWER PLANT incident, this makes it\l"
-	.string "the second time you've had to come to\l"
-	.string "rescue me in due to my inability to\l"
-	.string "complete the mission on my own.\p"
-	.string "Even if I was, that's no excuse.$"
+	.string "ANDRA: Eine Sache noch, {PLAYER}. Ich\n"
+	.string "habe mich noch nicht bei dir für deine\l"
+	.string "Hilfe beim KRAFTWERK bedankt. Das ist\l"
+	.string "schon das zweite Mal, dass du mir zur\l"
+	.string "Hilfe eilen musstest, weil ich zu\l"
+	.string "unfähig war, eine Mission alleine\l"
+	.string "abzuschließen.$"
 	
 SaffronCity_Combate_Andra_Texto_8.1:
-	.string "I should have been able to take on all\n"
-	.string "the police, and then have beaten ZAPDOS\l"
-	.string "in a row!$"
+	.string "traducir$"
 
 SaffronCity_Combate_Andra_Texto_9:
-	.string "This region is perfect for progressing\n"
-	.string "and improving as a trainer, I'm\l"
-	.string "surprised by the difference between\l"
-	.string "places like this and LAVENDER TOWN, but\l"
-	.string "all of them, in the end, have an unique\l"
-	.string "atmosphere that characterizes them.$"
+	.string "Diese Region ist perfekt, um sich als\n"
+	.string "Trainer weiterzuentwickeln. Es ist\l"
+	.string "faszinierend, wie verschieden Orte wie\l"
+	.string "dieser und LAVANDIA sind. Aber jeder\l"
+	.string "dieser Orte hat seine eigene\l"
+	.string "Atmosphäre, die ihn einzigartig macht.$"
 
 SaffronCity_Combate_Andra_Texto_10:
-	.string "Right now my team is in optimal\n"
-	.string "condition, do you remember the ARCHER\l"
-	.string "speech he told us on our first day? To\l"
-	.string "be honest I've come further than I\l"
-	.string "could imagine, and even I think I am\l"
-	.string "still capable of improving myself a lot\l"
-	.string "more.$"
+	.string "Jetzt gerade ist mein Team in Topform.\p"
+	.string "Erinnerst du dich noch an ATLAS' Rede\n"
+	.string "an unserem ersten Tag? Ehrlich gesagt\l"
+	.string "bin ich weiter gekommen, als ich es je\l"
+	.string "für möglich gehalten hätte.\p"
+	.string "Und trotzdem glaube ich, dass ich noch\n"
+	.string "viel stärker werden kann!$"
 
 SaffronCity_Combate_Andra_Texto_11:
-	.string "I hope this place and all its technology\n"
-	.string "are high enough to my standards, but…$"
+	.string "Ich hoffe, dass dieser Ort mit all\n"
+	.string "seiner fortschrittlichen Technologie\l"
+	.string "meinen Erwartungen gerecht wird, aber {PAUSE 15}…{PAUSE 15}$"
 
 SaffronCity_Combate_Andra_Texto_12:
-	.string "Right now, I don't think there's a bigger\n"
-	.string "challenge than facing you, {PLAYER},\l"
-	.string "you are the real way to know if my team\l"
-	.string "is strong enough, the only one I haven't\l"
-	.string "defeated yet on equal terms.$"
+	.string "So wie die Dinge jetzt stehen, gibt es\n"
+	.string "für mich glaube ich keine größere\l"
+	.string "Herausforderung, als du {PLAYER}. Nur\l"
+	.string "in einem Kampf gegen dich kann ich die\l"
+	.string "Gewissheit erlangen, ob mein Team\l"
+	.string "wirklich stark ist. Du bist der Einzige,\l"
+	.string "den ich noch nicht unter fairen\l"
+	.string "Bedingungen besiegt habe!$"
 
 SaffronCity_Combate_Andra_Texto_13:
-	.string "Since our battle in the ROCKET BASE,\n"
-	.string "I've been training harder than ever.\l"
-	.string "Studying about the best POKÉMON from\l"
-	.string "this region, and how to improve mine…$"
+	.string "Seit unserem Kampf in der ROCKET-BASIS\n"
+	.string "habe ich wie verrückt trainiert. Ich\l"
+	.string "habe die besten POKéMON dieser Region\l"
+	.string "studiert und pausenlos überlegt, wie\l"
+	.string "ich meine eigenen verbessern kann.$"
 
 SaffronCity_Combate_Andra_Texto_14:
-	.string "From ROCKET EXECUTIVE to\n"
-	.string "ROCKET EXECUTIVE{PAUSE 15}…{PAUSE 15}$"
+	.string "Von ROCKET OFFIZIER zu ROCKET\n"
+	.string "OFFIZIER {PAUSE 15}…{PAUSE 15}$"
 
 SaffronCity_Combate_Andra_Texto_14.1:
-	.string "I want you to witness the\n"
-	.string "unstoppable power of my team!$"
+	.string "Erlebe die unaufhaltsame\n"
+	.string "Kraft meines Teams!$"
 
 SaffronCity_Combate_Andra_Texto_15:
-	.string "I can't believe it, what else can I do?$"
+	.string "Ich fasse es nicht! Was kann ich\n"
+	.string "denn noch tun?$"
 
 SaffronCity_Combate_Andra_Texto_16:
-	.string "This time I was convinced I would\n"
-	.string "defeat you, I was a fool for thinking\l"
-	.string "that. You have defeated BRUNO and 2\l"
-	.string "LEGENDARY POKÉMON, maybe it's too soon,\l"
-	.string "but you have to know this {PLAYER},\l"
-	.string "my limit is far away from what you've\l"
-	.string "seen today!$"
+	.string "Diesmal war ich mir sicher, dass ich\n"
+	.string "gewinnen würde! Es war dumm von mir, so\l"
+	.string "zu denken. Du hast BRUNO und ZWEI\l"
+	.string "LEGENDÄRE POKéMON besiegt. Vielleicht\l"
+	.string "ist es noch zu früh, aber vergiss nicht,\l"
+	.string "{PLAYER}: Ich habe mein Potenzial\l"
+	.string "noch lange nicht ausgeschöpft!$"
 
 SaffronCity_Combate_Andra_Move_1:
 walk_right
@@ -736,92 +751,95 @@ face_player
 step_end
 
 SaffronCity_Secundaria_Motorista_Texto_1:
-	.string "That stupid old piece of trash{PAUSE 15}…{PAUSE 15} He's\n"
-	.string "going to make all KANTO hate the\l"
-	.string "BIKERS.$"
+	.string "Dieses alte Stück Scheiße … Wegen ihm\n"
+	.string "wird ganz KANTO uns BIKER hassen!$"
 
 SaffronCity_Secundaria_Motorista_Texto_2:
 .string "…\n"
 	.string "…$"
 
 SaffronCity_Secundaria_Motorista_Texto_3:
-	.string "ROCKET EXECUTIVE {PLAYER}! Haven't\n"
-	.string "you heard? They want to remove the\l"
-	.string "UNDERGROUND PATHS as a connection\l"
-	.string "point between CERULEAN and VERMILION,\l"
-	.string "also between CELADON and LAVENDER!\l"
-	.string "The worst thing is that they are going\l"
-	.string "to blame us, the BIKERS, for causing\l"
-	.string "supposed disturbances there! And all\l"
-	.string "because they want the people to pass\l"
-	.string "through SAFFRON CITY, right where the\l"
-	.string "company they're going to create will be,\l"
-	.string "at the expense of our reputation!$"
+	.string "ROCKET OFFIZIER {PLAYER}! Hast du's\n"
+	.string "schon gehört? Die wollen die\l"
+	.string "TUNNELPFADE zwischen AZURIA und\l"
+	.string "ORANIA sowie zwischen PRISMANIA und\l"
+	.string "LAVANDIA schließen! Und das Schlimmste\l"
+	.string "ist, sie schieben uns BIKERN die Schuld\l"
+	.string "in die Schuhe, weil wir angeblich dort\l"
+	.string "für “Unruhe” gesorgt haben! Alles nur,\l"
+	.string "damit die Leute gezwungen sind, durch\l"
+	.string "SAFFRONIA zu latschen, wo sie ganz\l"
+	.string "zufällig 'ne neue Firma eröffnen werden.\p"
+	.string "Auf Kosten unseres Rufs!$"
 
 SaffronCity_Secundaria_Motorista_Texto_4:
-	.string "Wow! You're amazing {PLAYER}! So for\n"
-	.string "now he has abandoned his idea of\l"
-	.string "removing the UNDERGROUND PATH! Wait to\l"
-	.string "see when I tell the others!$"
+	.string "Wow! Du bist der Hammer, {PLAYER}!\p"
+	.string "Der Typ hat seine Schnapsidee, die\n"
+	.string "TUNNELPFADE zu schließen fürs Erste\l"
+	.string "aufgegeben! Ich kann's kaum erwarten,\l"
+	.string "den Jungs Bescheid zu sagen!$"
 
 SaffronCity_Secundaria_Motorista_Texto_5:
-	.string "Now I understand your fame as an\n"
-	.string "exceptional TRAINER, here you have the\l"
-	.string "POKÉMON I mentioned before.$"
+	.string "Jetzt versteh ich, warum du so 'nen Ruf\n"
+	.string "als überragenden TRAINER hast!\p"
+	.string "Hier ist das POKéMON, von dem ich\n"
+	.string "gesprochen habe!$"
 
 SaffronCity_Secundaria_Motorista_Texto_6:
-	.string "YOU OBTAINED A LV.37 HITMONCHAN!!$"
+	.string "-DU ERHÄLTST EIN LEVEL 37 NOCKCHAN!!-$"
 
 SaffronCity_Secundaria_Motorista_Texto_7:
-	.string "The truth is that it was a gift from my\n"
-	.string "friend, the KARATE MASTER, but a BIKER\l"
-	.string "like me has nothing to do with a POKÉMON\l"
-	.string "like HITMONCHAN, I hope you will use it\l"
-	.string "properly. Now I'm going to leave,\l"
-	.string "{PLAYER}, you know we will always help\l"
-	.string "the TEAM ROCKET.$"
+	.string "Eigentlich war das ein Geschenk von\n"
+	.string "'nem Kumpel, dem KARATE-MEISTER, aber\l"
+	.string "ein BIKER wie ich kann mit einem\l"
+	.string "NOCKCHAN nichts anfangen.\p"
+	.string "Ich geh jetzt, {PLAYER}. Du weißt,\n"
+	.string "wir werden TEAM ROCKET immer helfen!$"
 
 SaffronCity_Secundaria_Motorista_Texto_8:
-	.string "How is the missing going? Remember, the\n"
-	.string "person you must find usually spends\l"
-	.string "hours at the PEWTER CITY MUSEUM, there\l"
-	.string "you should find him.$"
+	.string "Wie läuft's mit der Mission? Denk dran.\p"
+	.string "Der Typ, den du aufmischen sollst,\n"
+	.string "hängt normalerweise stundenlang in\l"
+	.string "MARMORIAs MUSEUM DER WISSENSCHAFT\l"
+	.string "rum. Ich schätz' mal, da wirst du ihn\l"
+	.string "finden.$"
 
 SaffronCity_Secundaria_Motorista_Texto_9:
-	.string "Only someone with your power and\n"
-	.string "influence can put the businessman\l"
-	.string "behind all of this in his place. If you\l"
-	.string "help us with this problem, I'll give you a\l"
-	.string "strong and rare POKÉMON. Do you accept\l"
-	.string "it?$"
+	.string "Nur jemand mit deiner Kraft und deinem\n"
+	.string "Einfluss kann diesen Schlipsträger\l"
+	.string "stoppen! Wenn du uns bei unserem\l"
+	.string "Problem hilfst, gebe ich dir dafür ein\l"
+	.string "krass-seltenes POKéMON!\p"
+	.string "Was sagst du?$"
 
 SaffronCity_Secundaria_Motorista_Texto_10:
-	.string "I knew you wouldn't let us down! That's\n"
-	.string "the spirit of cooperation among\l"
-	.string "comrades! Listen {PLAYER}! The man\l"
-	.string "responsible for all of this is a FOSSIL\l"
-	.string "enthusiast and spends hours at the\l"
-	.string "PEWTER CITY MUSEUM.$"
+	.string "Ich wusste, dass uns nicht hängen\n"
+	.string "lässt!! Das ist wahre Kameradschaft!\p"
+	.string "Hör mal, {PLAYER}! Der Typ, der hinter\n"
+	.string "allem steckt, ist ein totaler\l"
+	.string "Fossilienfreak und hockt ständig in\l"
+	.string "MARMORIAs MUSEUM DER WISSENSCHAFT\l"
+	.string "rum.$"
 
 SaffronCity_Secundaria_Motorista_Texto_11:
-	.string "Actually he is the owner of a railway\n"
-	.string "company that wants to connect JOHTO\l"
-	.string "with KANTO, but he thinks that the\l"
-	.string "region's UNDERGROUND PATHS would\l"
-	.string "affect his business if they remain\l"
-	.string "active. That's why he wants to get rid\l"
-	.string "of them through any possible way.$"
+	.string "Er ist der Boss einer\n"
+	.string "Eisenbahngesellschaft, die JOHTO mit\l"
+	.string "KANTO verbinden will. Aber er glaubt,\l"
+	.string "dass die TUNNELPFADE seinem Geschäft\l"
+	.string "schaden. Deshalb will er sie um jeden\l"
+	.string "Preis loswerden!$"
 
 SaffronCity_Secundaria_Motorista_Texto_12:
-	.string "If someone like you shows him how we\n"
-	.string "manage things here, we'll keep\l"
-	.string "UNDERGROUND PATHS and our reputations\l"
-	.string "intact. We trust you, {PLAYER}.$"
+	.string "Wenn jemand wie du ihm zeigt, wie der\n"
+	.string "Hase hier läuft, dann bleibt alles beim\l"
+	.string "Alten: Die TUNNELPFADE und unser Ruf\l"
+	.string "bleiben intakt.\p"
+	.string "Wir zählen auf dich, {PLAYER}!$"
 
 SaffronCity_Secundaria_Motorista_Texto_13:
-	.string "I understand, comrade, you must be\n"
-	.string "already very busy because of\l"
-	.string "GIOVANNI's orders.$"
+	.string "Ich versteh schon, Kumpel. Mit all den\n"
+	.string "Aufträgen von GIOVANNI hast du sicher\l"
+	.string "schon genug um die Ohren.$"
 
 
 Silph_Barrera::
@@ -847,8 +865,8 @@ release
 end
 
 Silph_Barrera_Texto_1:
-	.string "(If I enter here now, I could ruin the\n"
-	.string "entire mission).$"
+	.string "-Wenn ich jetzt hier reingehe, könnte\n"
+	.string "ich die ganze Mission vermasseln.-$"
 
 Silph_Barrera_Move_1:
 walk_in_place_down

@@ -9,9 +9,11 @@ release
 end
 
 Route16_Path1F_Text_1:
-	.string "But what a hell? It is uncommon to see\n"
-	.string "normal people going through here, but a\l"
-	.string "ROCKET? I had never seen it!$"
+	.string "Was zum Teufel erblicken meine Augen\n"
+	.string "da? Es ist schon selten genug, dass\l"
+	.string "normale Leute hier vorbeikommen, aber\l"
+	.string "ein ROCKET? Das habe ich ja noch nie\l"
+	.string "erlebt!$"
 
 
 
@@ -23,8 +25,12 @@ release
 end
 
 Route16_Path1F_Text_2:
-	.string "I do not care if you use a BIKE or not\n"
-	.string "to enter CYCLING ROAD, ROCKET, you are\l"
-	.string "already in the black list, you have no\l"
-	.string "redemption and I wont waste my time\l"
-	.string "trying to reinsert you in the society.$"
+	.string "Ist mir scheißegal, ob du auf einem\n"
+	.string "FAHRRAD fährst oder nicht, um den\l"
+	.string "RADWEG zu betreten, ROCKET! Du stehst\l"
+	.string "auf der Fahndungsliste! Für Abschaum\l"
+	.string "wie dich gibt es keine Gnade und ich\l"
+	.string "werde ganz bestimmt keine Zeit damit\l"
+	.string "verschwenden, Leuten wie dir dabei zu\l"
+	.string "helfen, sich wieder in die Gesellschaft\l"
+	.string "zu integrieren!$"
