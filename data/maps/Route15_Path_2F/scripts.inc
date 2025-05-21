@@ -72,50 +72,53 @@ release
 end
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_1:
-	.string "I know that your zero IQ can't let you\n"
-	.string "understand it, but recognized\l"
-	.string "scientists like us don't associate with\l"
-	.string "social scum, get out of here before I\l"
-	.string "tell the guard that you've stolen from\l"
-	.string "me, people like you will never be\l"
-	.string "believed.$"
+	.string "Ich bezweifle, dass dein mickriger\n"
+	.string "Verstand das begreift, aber ein\l"
+	.string "angesehener WISSENSCHAFTLER wie ich\l"
+	.string "gibt sich nicht mit dem Abschaum der\l"
+	.string "Gesellschaft ab - das wärst du.\l"
+	.string "Verschwinde, bevor ich dem Wächter da\l"
+	.string "unten sage, dass du mich bestohlen\l"
+	.string "hast!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
-	.string "It is the last warning. Are you looking\n"
-	.string "for trouble?$"
+	.string "Das ist die letzte Warnung! Willst du\n"
+	.string "dich wirklich mit mir anlegen?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_4:
-	.string "We already have plans for the future of\n"
-	.string "this region, ROCKET, and none of them\l"
-	.string "include you, get ready for extinction.$"
+	.string "Wir haben bereits Pläne für die Zukunft\n"
+	.string "dieser Region und du kommst in keinem\l"
+	.string "von ihnen vor, ROCKET!\p"
+	.string "Mach dich bereit, vernichtet zu werden!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_5:
-	.string "You've just signed your sentence\n"
-	.string "ROCKET.$"
+	.string "Damit hast du dein Todesurteil\n"
+	.string "unterschrieben, ROCKET!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_6:
-.string "That's impossible!\n"
-	.string "Who are you?$"
+.string "Das ist unmöglich!\n"
+	.string "Wer zum Teufel bist du?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_7:
-	.string "-{PLAYER} stole a TOXIC ORB from\n"
-	.string "OAK's AIDE!-$"
+	.string "-{PLAYER} stiehlt einen TOXIK-ORB\n"
+	.string "von EICHs ASSISTENTEN.-$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_8:
-	.string "You don't know what you've just done,\n"
-	.string "ROCKET. You're unlucky that I won't call\l"
-	.string "the POLICE right now, just to see how\l"
-	.string "OAK crushes your entire team when he\l"
-	.string "finds out what you're up to.$"
+	.string "Du hast keine Ahnung, was du hiermit\n"
+	.string "angerichtet hast, ROCKET! Du wirst dir\l"
+	.string "noch wünschen, ich hätte die POLIZEI\l"
+	.string "gerufen, wenn EICH, sobald er hiervon\l"
+	.string "erfährt, dein gesamtes Team in seine\l"
+	.string "Einzelteile zerlegt!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_9:
-	.string "I understand, you already have enough\n"
-	.string "problems dragging that miserable life\l"
-	.string "with you, disappear.$"
+	.string "Ich verstehe. Du hast schon genug mit\n"
+	.string "deinem kümmerlichen Leben zu kämpfen.\p"
+	.string "Verschwinde!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

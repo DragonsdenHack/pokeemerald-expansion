@@ -24,8 +24,10 @@ release
 end
 
 FuchsiaCity_House1_Text_2:
-	.string "We nicknamed the GUARD: SLOWPOKE. They\n"
-	.string "are quite similar; all day doing nothing!$"
+	.string "Der WÄRTER trägt den Spitznamen\n"
+	.string "FLEGMON. Er und FLEGMON ähneln sich\l"
+	.string "sehr! Den ganzen Tag über machen sie\l"
+	.string "nichts.$"
 
 
 
@@ -37,9 +39,9 @@ release
 end
 
 FuchsiaCity_House1_Text_3:
-	.string "SLOWPOKE knows a lot about POKÉMON!\p"
-	.string "He even has several FOSSILS of\n"
-	.string "rare and extinct POKÉMON!$"
+	.string "FLEGMON weiß eine Menge über POKéMON!\p"
+	.string "Er besitzt sogar einige Fossilien\n"
+	.string "ausgestorbener URZEIT-POKéMON!$"
 
 
 
@@ -51,6 +53,7 @@ release
 end
 
 FuchsiaCity_House1_Text_4:
-	.string "SLOWPOKE came, but I couldn't\n"
-	.string "understand anything. I think he doesn't\l"
-	.string "know articulate well.$"
+	.string "FLEGMON war hier, aber ich konnte\n"
+	.string "nichts von dem verstehen, was er\l"
+	.string "gesagt hat. Ich denke, er kann sich\l"
+	.string "einfach nicht gut ausdrücken.$"

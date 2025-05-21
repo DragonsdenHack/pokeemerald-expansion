@@ -9,9 +9,9 @@ release
 end
 
 Route1_1_Texto_1:
-	.string "Give you a promotional POTION? Why\n"
-	.string "would I bother about that when you\l"
-	.string "can't even enter the shops!$"
+	.string "Dir einen Werbe-TRANK schenken? Warum\n"
+	.string "sollte ich das tun, wenn du nicht einmal\l"
+	.string "in öffentlichen Läden willkommen bist!$"
 
 
 Route1_2::
@@ -22,10 +22,11 @@ release
 end
 
 Route1_Text_2:
-	.string "When LANCE finishes cleaning up the\n"
-	.string "region, you ROCKETS will not have any\l"
-	.string "other choice that run away from KANTO\l"
-	.string "like the rats you are.$"
+	.string "Sobald SIEGFRIED hier mal so richtig\n"
+	.string "aufgeräumt hat, werdet ihr von TEAM\l"
+	.string "ROCKET gezwungen sein, aus KANTO zu\l"
+	.string "fliehen!\p"
+	.string "Ganz wie die Ratten, die ihr seid!$"
 
 
 

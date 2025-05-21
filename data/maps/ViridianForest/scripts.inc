@@ -299,57 +299,63 @@ ViridianForest_Combate_Guays_Texto_5:
 	.string "weitem nicht so stark wie er.$"
 
 ViridianForest_Combate_Guays_Texto_6:
-	.string "JUAN: I want to check that, a ROCKET\n"
-	.string "with good POKÉMON! That is harder than\l"
-	.string "finding PINSIR in places like this!$"
+	.string "JUAN: Einer von TEAM ROCKET mit guten\n"
+	.string "POKéMON! Davon will ich mich selbst\l"
+	.string "überzeugen. So jemand ist schwerer zu\l"
+	.string "finden, als ein PINSIR in diesem Wald!$"
 
 ViridianForest_Combate_Guays_Texto_7:
-	.string "VERO: We have completed the ultimate\n"
-	.string "team that we wanted. There is no chance\l"
-	.string "for you to stop us!$"
+	.string "VERO: Wir haben das ultimative Team,\n"
+	.string "das wir wollten, vervollständigt!\p"
+	.string "Keine Chance, dass du uns besiegst!$"
 
 ViridianForest_Combate_Guays_Texto_8:
-	.string "It had to be a ROCKET who made us bite\n"
-	.string "the dust!$"
+	.string "Es musste ausgerechnet einer von TEAM\n"
+	.string "ROCKET sein, der uns Staub fressen\l"
+	.string "lässt!$"
 
 ViridianForest_Combate_Guays_Texto_9:
-	.string "JUAN: I for real didn't expect this, a\n"
-	.string "ROCKET defeating the most cools of the\l"
-	.string "COOL-TRAINERS.$"
+	.string "JUAN: Ich hätte wirklich nicht\n"
+	.string "erwartet, dass ein ROCKET die Asse\l"
+	.string "unter den ASS-TRAINERN besiegt.$"
 
 ViridianForest_Combate_Guays_Texto_10:
-	.string "VERO: Seems like you are competent,\n"
-	.string "although we are sometimes a bit\l"
-	.string "arrogant we recognize when someone is\l"
-	.string "better than us.$"
+	.string "VERO: Du bist wohl wirklich gut. Obwohl\n"
+	.string "wir manchmal etwas arrogant sind,\l"
+	.string "merken wir, wenn jemand besser ist\l"
+	.string "als wir.$"
 
 ViridianForest_Combate_Guays_Texto_11:
-	.string "JUAN: I want you to have the other\n"
-	.string "PINSIR that we found, a TRAINER like\l"
-	.string "you would take advantage of it more\l"
-	.string "than anyone who we can give it to, and\l"
-	.string "we are not your organization to sell it\l"
-	.string "at the black market, you get it.$"
+	.string "JUAN: Ich will, dass du das andere\n"
+	.string "PINSIR bekommst, das wir gefunden\l"
+	.string "haben. Ein TRAINER wie du wird es besser\l"
+	.string "benutzen können, als jeder andere, dem\l"
+	.string "wir es geben könnten. Wir sind nicht wie\l"
+	.string "deine Organisation, die es auf dem\l"
+	.string "Schwarzmarkt verkaufen würde.\p"
+	.string "Verstehst du?$"
 
 ViridianForest_Combate_Guays_Texto_12:
-.string "YOU OBTAINED A LV.25 PINSIR!$"
+.string "DU ERHÄLTST EIN LEVEL 15 PINSIR!$"
 
 ViridianForest_Combate_Guays_Texto_13:
-	.string "VERO: Don't abuse! We weren't going to\n"
-	.string "give you the other PINSIR! We've used\l"
-	.string "all our rare candies to level it up to\l"
-	.string "the rest of our POKÉMON!$"
+	.string "VERO: Tu uns nicht weh! Wir werden dir\n"
+	.string "nicht auch noch das andere PINSIR\l"
+	.string "geben! Wir haben all unsere\l"
+	.string "Sonderbonbons benutzt, um den Rest\l"
+	.string "unserer POKéMON hochzuleveln.$"
 
 ViridianForest_Combate_Guays_Texto_14:
-	.string "JUAN: Ok let's head out, VERO.\p"
-	.string "I heard in JOHTO there are some bugs\n"
-	.string "even better than the ones here, and an\l"
-	.string "old man will give you a DRATINI if you\l"
-	.string "can complete his quest.$"
+	.string "JUAN: Okay. Lass uns gehen, VERO. Ich\n"
+	.string "habe gehört, dass es in JOHTO sogar\l"
+	.string "noch bessere Käfer-POKéMON gibt als\l"
+	.string "hier. Und ein alter Mann soll einem ein\l"
+	.string "DRATINI geben, wenn man seine Aufgabe\l"
+	.string "erfolgreich abschließt.$"
 
 ViridianForest_Combate_Guays_Texto_15:
-.string "VERO: No more talking, then.\p"
-	.string "To the next destination!$"
+.string "VERO: Verschwenden wir keine Zeit.\p"
+	.string "Auf zum nächsten Ziel!$"
 
 ViridianForest_Combate_Guays_Move_1:
 walk_in_place_down

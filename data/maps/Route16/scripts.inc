@@ -48,7 +48,8 @@ release
 end
 
 Route16_Text_11:
-.string "That HITMONLEE hit so hard…$"
+	.string "Scheiße! Sein KICKLEE hat so heftig\n"
+	.string "zugetreten {PAUSE 5}…{PAUSE 5}$"
 
 
 Route16_12::
@@ -58,8 +59,8 @@ release
 end
 
 Route16_Text_12:
-	.string "He defeated all of us just using two\n"
-	.string "POKÉMON…$"
+	.string "Er hat vier von uns mit nur zwei POKéMON\n"
+	.string "plattgemacht {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -70,8 +71,9 @@ release
 end
 
 Route16_Text_13:
-	.string "Losers…{PAUSE 15} No one that defies an ELITE 4\n"
-	.string "member can come out well…$"
+	.string "Schwächlinge … Niemand legt sich mit\n"
+	.string "einem Mitglied der TOP VIER an und\l"
+	.string "kommt ungeschoren davon.$"
 
 
 Route16_14::
@@ -81,7 +83,8 @@ release
 end
 
 Route16_Text_14:
-	.string "So this is the ELITE 4 real power…$"
+	.string "Das ist also die wahre Macht der TOP\n"
+	.string "VIER {PAUSE 5}…{PAUSE 5}$"
 
 Route16_15::
 lock        
@@ -90,7 +93,8 @@ release
 end
 
 Route16_Text_15:
-	.string "You can only confess…{PAUSE 25} or go to prison.$"
+	.string "Ihr könnt entweder gestehen … oder ins\n"
+	.string "Gefängnis gehen.$"
 
 
 Route16_16::
@@ -100,7 +104,8 @@ release
 end
 
 Route16_Text_16:
-	.string "We have them where we wanted them…$"
+	.string "Wir haben sie da, wo wir sie haben\n"
+	.string "wollten {PAUSE 5}…{PAUSE 5}$"
 
 
 Route16_17::
@@ -110,8 +115,10 @@ release
 end
 
 Route16_Text_17:
-	.string "Damn it…{PAUSE 25} My WEEZING was not even able\n"
-	.string "to touch that big steel snake…$"
+	.string "Kacke … Mein SMOGMOG hat's nicht mal\n"
+	.string "geschafft, dieser riesigen\l"
+	.string "Stahlschlange einen Kratzer\l"
+	.string "zuzufügen {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -417,18 +424,20 @@ delay_8
 step_end
 
 Route16_Combate_Bruno_Texto_1:
-	.string "BRUNO: Game over, BIKERS. It was so\n"
-	.string "stupid of you thinking that your poor\l"
-	.string "POISON type POKÉMON could even touch\l"
-	.string "my powerful STEEL, even more stupid\l"
-	.string "believing your FIGHT type were enough\l"
-	.string "good rivals for mine.$"
+	.string "BRUNO: Das war's Biker. Es war dumm von\n"
+	.string "euch anzunehmen, dass eure armseligen\l"
+	.string "GIFT-POKéMON meinem mächtigen\l"
+	.string "Stahl-POKéMON überhaupt ein Haar\l"
+	.string "krümmen könnte. Noch dümmer war es zu\l"
+	.string "denken, dass eure Schwächlinge von\l"
+	.string "KAMPF-POKéMON meinem das Wasser\l"
+	.string "reichen könnten.$"
 
 Route16_Combate_Bruno_Texto_1.1:
-	.string "Well, well{PAUSE 15}…{PAUSE 15} now that you are\n"
-	.string "calmed down and you have no more POKÉMON\l"
-	.string "left. I will tell you what are we\l"
-	.string "going to do now…$"
+	.string "Nun, wo ihr euch beruhigt habt und all\n"
+	.string "eure POKéMON kampfunfähig seid, werde\l"
+	.string "ich euch erzählen, was wir jetzt tun\l"
+	.string "werden {PAUSE 15}…{PAUSE 15}$"
 
 Route16_Combate_Bruno_Texto_2:
 	.string "You are going to talk to the rest of\n"

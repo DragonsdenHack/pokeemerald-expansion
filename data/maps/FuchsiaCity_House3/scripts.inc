@@ -14,13 +14,14 @@ release
 end
 
 FuchsiaCityHouse3_3_Texto_1:
-	.string "It's all about connections. I get along\n"
-	.string "well with none other than OAK himself,\l"
-	.string "and do him favors. The GURU from\l"
-	.string "FUCHSIA is famous worldwide thanks to\l"
-	.string "my influences, the world works like\l"
-	.string "that. The ones who have nothing to\l"
-	.string "offer, like you, are erased from history.$"
+	.string "Beziehungen sind alles. Ich verstehe\n"
+	.string "mich bestens mit niemand Geringerem als\l"
+	.string "Professor EICH und tue ihm hin und\l"
+	.string "wieder einen Gefallen. Dank meines\l"
+	.string "Einflusses ist der PROFIANGLER von\l"
+	.string "FUCHSANIA CITY weltweit bekannt. So\l"
+	.string "läuft das eben. Wer nichts anzubieten\l"
+	.string "hat, wird vergessen - so wie du.$"
 
 
 

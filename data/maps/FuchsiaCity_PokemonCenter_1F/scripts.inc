@@ -27,10 +27,10 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_2:
-.string "You can't become a good TRAINER\n"
-    .string "with just one strong POKÉMON.\p"
-    .string "But raising many POKÉMON evenly\n"
-    .string "is no easy task, either.$"
+	.string "Man kann nicht mit nur einem starken\n"
+	.string "POKéMON gewinnen! Es ist mühsam, doch\l"
+	.string "alle POKéMON sollten ungefähr den\l"
+	.string "gleichen Level haben.$"
 
 
 
@@ -43,9 +43,9 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_3:
-	.string "The ELITE 4 will teach you a lesson; you\n"
-	.string "will be exterminated like the vermin you\l"
-	.string "are!$"
+	.string "Die TOP VIER werden dir eine Lektion\n"
+	.string "erteilen! Du wirst zerquetscht werden,\l"
+	.string "wie das kümmerliche Insekt, das du bist!$"
 
 
 
@@ -57,7 +57,7 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_4:
-.string "There's a narrow trail west of\n"
-    .string "VIRIDIAN CITY.\p"
-    .string "It goes to the POKÉMON LEAGUE HQ.\n"
-    .string "The HQ governs all TRAINERS.$"
+	.string "Westlich von VERTANIA CITY liegt ein\n"
+	.string "Pfad. Er führt zum Hauptquartier der\l"
+	.string "POKéMON LIGA, der höchsten Instanz für\l"
+	.string "TRAINER.$"

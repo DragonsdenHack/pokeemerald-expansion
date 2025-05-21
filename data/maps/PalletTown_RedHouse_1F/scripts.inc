@@ -35,17 +35,17 @@ end
 
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_1:
-.string "Hm, what?\n"
-	.string "RED?\l"
-	.string "No, no, he isn't here.$"
+.string "Hmm, wie bitte?\n"
+	.string "ROT?\l"
+	.string "Nein, nein. Er ist nicht hier.$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_2:
 .string "… … … … … … …$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_3:
-	.string "Please excuse me. I'm quite busy at the\n"
-	.string "moment, so I'd like you to leave me to it.\l"
-	.string "Thank you.$"
+	.string "Bitte entschuldige mich. Ich habe im\n"
+	.string "Moment viel zu tun und würde es\l"
+	.string "bevorzugen, allein zu sein. Danke.$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Move_1:
 emote_exclamation_mark

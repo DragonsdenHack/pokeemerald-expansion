@@ -15,10 +15,10 @@ release
 end
 
 Route12Path2F_Text_2:
-	.string "My POKÉMON's ashes are stored in\n"
-	.string "POKÉMON TOWER.\p"
-	.string "You can have this TM.\n"
-	.string "I don't need it anymore…$"
+	.string "Meine POKéMON wurden im POKéMON-TURM\n"
+	.string "zur letzten Ruhe gebettet. Ich gebe Dir\l"
+	.string "diese TM. Ich benötige sie nicht länger\l"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route12Path2F_1_Despues::
 msgbox Route12Path2F_Text_1, MSGBOX_AUTOCLOSE
@@ -26,13 +26,13 @@ release
 end
 
 Route12Path2F_1_Texto_1.1:
-.string "{PLAYER} received TM27\n"
-    .string "from the little girl.$"
+    .string "traducir$"
 
 Route12Path2F_Text_1:
-	.string "You are not conscious of the friendship\n"
-	.string "power, the frustration heads nowhere,\l"
-	.string "trust me.$"
+	.string "Du hast keine Ahnung, was für eine\n"
+	.string "Stärke wahre Freundschaft einem\l"
+	.string "verleihen kann. Zorn bringt dich\l"
+	.string "nicht weiter. Glaub mir.$"
 
 
 

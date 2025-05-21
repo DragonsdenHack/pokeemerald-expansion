@@ -9,11 +9,11 @@ release
 end
 
 FuchsiaCity_House2_Text_1:
-    .string "Hmm?\n"
-    .string "You've met BILL?\p"
-    .string "He's my grandson!\p"
-    .string "He always liked collecting things,\n"
-    .string "even as a child!$"
+	.string "Hast du schon BILL getroffen? Er ist\n"
+	.string "mein Enkel! Schon als kleines Kind hat\l"
+	.string "er gerne alles Mögliche gesammelt! Seit\l"
+	.string "seiner Kindheit betrachtet er POKéMON\l"
+	.string "als Trophäen {PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -25,9 +25,8 @@ release
 end
 
 FuchsiaCity_House2_Text_2:
-    .string "BILL files his own POKéMON data on\n"
-    .string "his PC.\p"
-    .string "Did he show you?$"
+	.string "BILL sammelt auf seinem PC Daten über\n"
+	.string "POKéMON. Hat er sie dir gezeigt?$"
 
 
 
@@ -39,6 +38,5 @@ release
 end
 
 FuchsiaCity_House2_Text_3:
-    .string "The SAFARI ZONE's WARDEN is old, \n"
-    .string "but he's still very much active.\p"
-    .string "All his teeth are false, though.$"
+	.string "DER WÄRTER der SAFARI-ZONE ist sehr\n"
+	.string "alt! Aber er ist noch immer im Dienst.$"

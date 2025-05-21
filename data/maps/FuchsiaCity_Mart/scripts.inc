@@ -14,10 +14,9 @@ release
 end
 
 FuchsiaCity_Mart_Text_2:
-	.string "Do you have any pennants\n"
-	.string "promoting the SAFARI ZONE?\p"
-	.string "How about some paper lanterns?\n"
-	.string "And calendars?$"
+	.string "Du hast einen Wimpel aus der\n"
+	.string "SAFARI-ZONE? Kein Programmheft\l"
+	.string "oder einen Kalender?$"
 
 
 
@@ -29,5 +28,6 @@ release
 end
 
 FuchsiaCity_Mart_Text_3:
-	.string "Did you try X SPEED?\n"
-	.string "It speeds up a POKÉMON in battle.$"
+	.string "Hast du schon einmal X-TEMPO\n"
+	.string "ausprobiert? Dein POKéMON wird\l"
+	.string "dadurch im Kampf schneller!$"

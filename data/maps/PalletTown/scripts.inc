@@ -19,11 +19,11 @@ release
 end
 
 PalletTown_Text_2.1:
-.string "¡La tecnología es increíble!$" 
+	.string "Die Technik heutzutage ist unglaublich!$"
 
 PalletTown_Text_2: 
-	.string "People like you should be banned from\n"
-	.string "accessing technology.$"
+	.string "Zugriff auf Technologie sollte für\n"
+	.string "deinesgleichen verboten werden!$"
 
 
 PalletTown3::
@@ -34,8 +34,8 @@ release
 end
 
 PalletTown_Text_3:
-.string "A ROCKET here?\n"
-.string "What are you plotting?$"
+.string "Einer von TEAM ROCKET? Hier?\n"
+.string "Was hast du vor?$"
 
 
 PalletTownDocumento_100::
@@ -184,9 +184,9 @@ release
 end
 
 Pueblo_Paleta_Barrera_Sur_Texto_1:
-	.string "-I am not on vacation to go exploring\n"
-	.string "KANTO, I have more important things to\l"
-	.string "do.-$"
+	.string "-Ich habe im Moment keine Zeit, um\n"
+	.string "KANTO zu erkunden. Ich habe\l"
+	.string "Wichtigeres zu tun.-$"
 
 Pueblo_Paleta_Barrera_Sur_Move_1:
 walk_in_place_down

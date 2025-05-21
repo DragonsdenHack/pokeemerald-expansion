@@ -9,6 +9,6 @@ release
 end
 
 Route12Path1F_Text_1:
-	.string "The moment there's any irregularity,\n"
-	.string "you get arrested, come on, make it easy\l"
-	.string "for me!$"
+	.string "Eine falsche Bewegung und du wirst\n"
+	.string "verhaftet! Komm schon! Gib mir einen\l"
+	.string "Grund! Nur einen!$"

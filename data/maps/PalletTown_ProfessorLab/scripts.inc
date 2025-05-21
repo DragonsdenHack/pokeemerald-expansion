@@ -11,9 +11,9 @@ release
 end
 
 PalletTown_ProfessorLab_Text_1:
-	.string "The best TRAINERS in the region come\n"
-	.string "from this place. Curiosity can be\l"
-	.string "dangerous. I hope you got that.$"
+	.string "Die besten Trainer der Region kommen\n"
+	.string "von hier. Neugier kann gefährlich sein.\p"
+	.string "Ich hoffe, du hast mich verstanden.$"
 
 PalletTownProfessorLab1_2::
 msgbox PalletTown_ProfessorLab_Despues_Text_1, MSGBOX_DEFAULT
@@ -35,9 +35,9 @@ release
 end
 
 PalletTown_ProfessorLab_Text_2:
-	.string "Do you not see that OAK is not here? If\n"
-	.string "you keep insisting, we will call the\l"
-	.string "POLICE!$"
+	.string "Siehst du nicht, dass EICH nicht hier\n"
+	.string "ist? Wenn du so weitermachst, werden\l"
+	.string "wir die POLIZEI verständigen!$"
 
 PalletTownProfessorLab2_2::
 msgbox PalletTown_ProfessorLab_Despues_Text_2, MSGBOX_DEFAULT
@@ -60,9 +60,11 @@ release
 end
 
 PalletTown_ProfessorLab_Text_3:
-	.string "This place is way too big for you, I\n"
-	.string "suggest you leave before the professor\l"
-	.string "decides to finish you off.$"
+	.string "Dieser Ort ist eine Nummer zu groß für\n"
+	.string "dich. Ich schlage vor, du nimmst deine\l"
+	.string "Beine in die Hand, bevor der Professor\l"
+	.string "beschließt, dich ein für alle Mal zu\l"
+	.string "erledigen.$"
 
 PalletTownProfessorLab3_2::
 msgbox PalletTown_ProfessorLab_Despues_Text_3, MSGBOX_DEFAULT
@@ -201,62 +203,70 @@ face_player
 step_end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
-.string "????: Hm, OAK's not here?\p"
-	.string "He must be at ZONE 0.$"
+	.string "????: Hm, ist EICH nicht da? Vielleicht\n"
+	.string "ist er ja in ZONE 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-	.string "????: Do you need something, SIR?\p"
-	.string "I'm OAK's granddaughter and\n"
-	.string "BLUE's big sister…$"
+	.string "????: Kann ich dir helfen? Ich bin\n"
+	.string "EICHs Enkelin und BLAUs große\l"
+	.string "Schwester {PAUSE 25}…{PAUSE 15}$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
-	.string "So you know my brother! He's a good boy,\n"
-	.string "though he's got a bit of an ego and a\l"
-	.string "competitive streak. If he's got\l"
-	.string "something to say, he'll say it to your\l"
-	.string "face. I just hope he's not influenced\l"
-	.string "by…$"
+	.string "Du hast meinen Bruder also schon\n"
+	.string "kennengelernt! Er ist ein guter Junge,\l"
+	.string "auch wenn er ein bisschen zu\l"
+	.string "eingebildet ist und Wettkämpfe zu\l"
+	.string "ernst nimmt. Wenn er etwas zu sagen\l"
+	.string "hat, sagt er es einem direkt ins\l"
+	.string "Gesicht. Ich hoffe nur, dass er sich\l"
+	.string "beeinflussen lässt, von {PAUSE 25}...{PAUSE 15}$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DAISY: GRANDPA's last POKÉMON!\p"
-	.string "I was right to suspect that uniform!$"
+	.string "SARAH: Das ist doch GROßVATERs\n"
+	.string "verbliebenes POKéMON! Ich hätte sofort\l"
+	.string "anhand deiner Uniform wissen müssen,\l"
+	.string "dass mit dir etwas nicht stimmt!$"
 
 PalletTown_ProfessorLab_Lab_Texto_6:
-	.string "What?\n"
-	.string "You didn't want any trouble? You just\l"
-	.string "wanted to pay GRANDPA a visit?$"
+	.string "Wie bitte? Du willst keinen Ärger,\n"
+	.string "sondern nur GROßVATER einen Besuch\l"
+	.string "abstatten?$"
 
 PalletTown_ProfessorLab_Lab_Texto_7:
-	.string "Nothing excuses you from stealing\n"
-	.string "someone else's POKÉMON.\p"
-	.string "You're going to pay for this!$"
+	.string "SARAH: Es gibt keine Entschuldigung\n"
+	.string "dafür, das POKéMON eines anderen zu\l"
+	.string "stehlen, ROCKET!\p"
+	.string "Dafür wirst du hier und jetzt bezahlen!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:
-	.string "Oh! And in our own house!$"
+	.string "Oh nein! Und das in unserem\n"
+	.string "eigenen Labor!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9:
-	.string "DAISY: I can't believe this, so this is\n"
-	.string "the kind of friends that my lil brother\l"
-	.string "is making.$"
+	.string "Ich kann's nicht glauben! Mit solchen\n"
+	.string "Leuten gibt sich mein kleiner Bruder\n"
+	.string "also ab!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9.1:
-	.string "Anyways, he's always been a rebel,\n"
-	.string "wanting to do everything his own way,\l"
-	.string "we suggested he to make friends as\l"
-	.string "BILL, the president of SILPH, LANCE,\l"
-	.string "and other ELITE members.$"
+	.string "Er war schon immer ein Rebell! Hat immer\n"
+	.string "sein eigenes Ding durchgezogen! Wir\l"
+	.string "wollten, dass er sich mit BILL, dem\l"
+	.string "SILPH-Präsidenten, SIEGFRIED und den\l"
+	.string "anderen Mitgliedern der TOP VIER gut\l"
+	.string "stellt.$"
 	
 PalletTown_ProfessorLab_Lab_Texto_9.2:
-	.string "OAK will be furious when he hears\n"
-	.string "about this.$"
+	.string "Oh … Warte nur ab, bis\n"
+	.string "GROßVATER hiervon erfährt!$"
 
 PalletTown_ProfessorLab_Lab_Texto_10:
-	.string "Nah! Enjoy that poor BULBASAUR!\p"
-	.string "If you didn't know this, OAK has tens\n"
-	.string "of them at his personal collection!$"
+	.string "Genieße ruhig dein BISASAM, ROCKET.\p"
+	.string "Nur damit du's weißt! Großvater\n"
+	.string "hat noch Dutzende davon in seiner\l"
+	.string "Privatsammlung!$"
 
 PalletTown_ProfessorLab_Lab_Move_1:
 walk_in_place_down
@@ -348,24 +358,26 @@ release
 end
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1:
-	.string "This POKÉ BALL apparently contains the\n"
-	.string "uncommon and powerful BULBASAUR. It\l"
-	.string "seems like it'll just collect dust.\p"
-	.string "Do you want to steal it?$"
+	.string "Dieser POKÉBALL beherbergt offenbar\n"
+	.string "ein seltenes und mächtiges BISASAM. Es\l"
+	.string "sieht so aus, als würde der Ball hier nur\l"
+	.string "Staub ansammeln. Willst du ihn stehlen?$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2:
-	.string "This POKÉMON is really quite energetic!$"
+	.string "Dieses POKéMON strotzt nur so vor\n"
+	.string "Energie!$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_3:
-.string "{PLAYER} stole the BULBASAUR!$"
+.string "{PLAYER} hat BISASAM gestohlen!$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4:
-	.string "PROTON: {PLAYER}! How's the mission at\n"
-	.string "PALLET TOWN? Did you discover\l"
-	.string "something? GIOVANNI requires your\l"
-	.string "immediate presence. He'll be waiting in\l"
-	.string "his private office in the ROCKET DEEP\l"
-	.string "BASE.$"
+	.string "LANCE: {PLAYER}! Wie läuft die Mission\n"
+	.string "in ALABASTIA? Hast du etwas\l"
+	.string "herausgefunden? GIOVANNI hat nach dir\l"
+	.string "gerufen. Er will dich sofort in seinem\l"
+	.string "Privatbüro in der\l"
+	.string "UNTERIRDISCHEN-ROCKET-BASIS\l"
+	.string "sprechen.$"
 
 
 PalletTown_ProfessorLab_Genesect::

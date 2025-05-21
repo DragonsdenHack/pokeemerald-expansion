@@ -331,189 +331,195 @@ delay_8
 step_end
 
 Route15_Koga_Bruno_Texto_1:
-	.string "????: You are a shame for GYM LEADERS,\n"
-	.string "KOGA.$"
+	.string "????: Du bist eine Schande für\n"
+	.string "sämtliche ARENALEITER, KOGA!$"
 
 Route15_Koga_Bruno_Texto_1.01:
-	.string "And you should be grateful about not\n"
-	.string "reporting this to LANCE; not only\l"
-	.string "do you refuse to lend your aid in\l"
-	.string "eradicating the most radical BIKERS on\l"
-	.string "CYCLING ROAD.$"
+	.string "Und du solltest froh sein, dass ich das\n"
+	.string "nicht SIEGFRIED melde! Nicht nur\l"
+	.string "weigerst du dich, uns bei der\l"
+	.string "Beseitigung der radikalsten BIKER\l"
+	.string "auf dem RADWEG zu helfen …$"
 
 Route15_Koga_Bruno_Texto_1.1:
-	.string "But you also acknowledge that\n"
-	.string "you understand their cause!$"
+	.string "… sondern gibst auch noch zu, dass\n"
+	.string "du Verständnis für sie hast!$"
 
 Route15_Koga_Bruno_Texto_1.2:
-	.string "Haven't you had contact with the\n"
-	.string "criminal gang ROCKET as well?\p"
-	.string "You know that would mean your immediate\n"
-	.string "removal as GYM LEADER, right?$"
+	.string "Und hattest du nicht auch noch Kontakt\n"
+	.string "zu dieser kriminellen Bande TEAM ROCKET\l"
+	.string "gehabt? Du weißt, dass das deinen\l"
+	.string "sofortigen Rücktritt als ARENALEITER\l"
+	.string "zur Folge hätte, oder?$"
 
 Route15_Koga_Bruno_Texto_2:
-.string "KOGA: You offend me, BRUNO.\p"
-	.string "You know as well as me that my maximum\n"
-	.string "concern has always been the region\l"
-	.string "welfare.$"
+	.string "KOGA: Du tust mir Unrecht, BRUNO! Du\n"
+	.string "weißt genau so gut wie ich, dass das\l"
+	.string "Wohlergehen dieser Region immer meine\l"
+	.string "oberste Priorität war!$"
 
 Route15_Koga_Bruno_Texto_2.1:
-	.string "I understand that your position as\n"
-	.string "a member of the ELITE 4 comes with\l"
-	.string "certain obligations, but it's not my role\l"
-	.string "to force a handful of BIKERS to stop\l"
-	.string "being affiliated with TEAM ROCKET.$"
+	.string "Mir ist klar, dass deine Position als\n"
+	.string "Mitglied der TOP VIER mit gewissen\l"
+	.string "Pflichten einherkommt, aber es ist\l"
+	.string "nicht meine Aufgabe, eine Handvoll\l"
+	.string "Biker dazu zu zwingen, ihren Kontakt\l"
+	.string "mit TEAM ROCKET abzubrechen!$"
 
 Route15_Koga_Bruno_Texto_3:
-	.string "BRUNO: It seems you haven't understood\n"
-	.string "me, KOGA.\p"
-	.string "It's not about whether they want\n"
-	.string "to be affiliated or not; it's about\l"
-	.string "anyone showing any sign of collaboration\l"
-	.string "with those criminals, must face the law.$"
+	.string "BRUNO: Ich glaube, du hast mich nicht\n"
+	.string "verstanden, KOGA. Es geht nicht darum,\l"
+	.string "ob sie mit TEAM ROCKET assoziiert\l"
+	.string "werden wollen oder nicht. Jeder, der\l"
+	.string "auch nur das geringste Anzeichen von\l"
+	.string "Kooperation mit diesen Kriminellen\l"
+	.string "zeigt, muss mit der vollen Härte des\l"
+	.string "Gesetzes rechnen!$"
 
 Route15_Koga_Bruno_Texto_3.1:
-	.string "Coincidentally here, in FUCHSIA, is\n"
-	.string "where the main focus of insurgents are.\p"
-	.string "If you don't act about it, you'll be\n"
-	.string "treated as guilty, KOGA.$"
+	.string "Zufällig ist FUCHSANIA der\n"
+	.string "Hauptstützpunkt dieser Rebellen und\l"
+	.string "indem du nichts dagegen unternimmst,\l"
+	.string "machst du dich mitschuldig, KOGA!$"
 
 Route15_Koga_Bruno_Texto_4:
-	.string "KOGA: Don't do this to me, BRUNO, you\n"
-	.string "know that, after AGATHA's retirement,\l"
-	.string "you'll move up a notch within the ELITE\l"
-	.string "4, and the vacant spot will be mine.$"
+	.string "KOGA: Tu mir das nicht an, BRUNO! Du\n"
+	.string "weißt ganz genau, dass du in der TOP\l"
+	.string "VIER einen Rang aufsteigen wirst, wenn\l"
+	.string "AGATHE zurücktritt! Und dass der freie\l"
+	.string "Platz an mich gehen wird!$"
 
 Route15_Koga_Bruno_Texto_5:
-	.string "BRUNO: That's why I'm worried about,\n"
-	.string "someone displaying such an inability\l"
-	.string "to maintain order and discipline in\l"
-	.string "FUCHSIA, shouldn't be part of KANTO's\l"
-	.string "ELITE.$"
+	.string "BRUNO: Genau das macht mir ja Sorgen.\n"
+	.string "Jemand der so unfähig ist in FUCHSANIA\l"
+	.string "für Ordnung und Disziplin zu sorgen,\l"
+	.string "sollte kein Teil von KANTOs ELITE\l"
+	.string "werden!$"
 
 Route15_Koga_Bruno_Texto_6:
-	.string "KOGA: It's not a crime to let the\n"
-	.string "people express their ideas, BRUNO.$"
+	.string "KOGA: Es ist kein Verbrechen, wenn\n"
+	.string "Leute ihre Meinungen äußern, BRUNO.$"
 
 Route15_Koga_Bruno_Texto_7:
-	.string "BRUNO: For the moment{PAUSE 15}…{PAUSE 15} Lucky for you,\n"
-	.string "you're going to be able to wash your\l"
-	.string "hands of the whole thing: an ELITE4\l"
-	.string "member like me doesn't travel to a place\l"
-	.string "like this for no reason{PAUSE 5}…{PAUSE 5}$"
+	.string "BRUNO: Noch nicht {PAUSE 15}…{PAUSE 15} Zu deinem Glück\n"
+	.string "kannst du dich aus der ganzen Sache\l"
+	.string "noch herauswinden, denn ein\l"
+	.string "ELITE-TRAINER wie ich kommt nicht ohne\l"
+	.string "Grund an so einen Ort {PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_7.1:
 .string "KOGA: W-{PAUSE 25}What{PAUSE 25}…{PAUSE 25} are you going to do?$"
 
 Route15_Koga_Bruno_Texto_8:
-	.string "BRUNO: {PAUSE 15}…{PAUSE 35} Acting under direct LANCE\n"
-	.string "orders, to enter at the CYCLING ROAD.$"
+	.string "BRUNO: Ich bin auf SIEGFRIEDS\n"
+	.string "Anweisung hier, um den RADWEG von allen\l"
+	.string "zu befreien, die gegen unsere Regierung\l"
+	.string "sind.$"
 
 Route15_Koga_Bruno_Texto_8.1:
-	.string "I'll clean the place for all those who\n"
-	.string "are against our government, they'll get\l"
-	.string "arrested and will be jailed immediately.$"
+	.string "Sie werden festgenommen und ohne\n"
+	.string "Umwege ins Gefängnis befördert!$"
 
 Route15_Koga_Bruno_Texto_9:
 .string "KOGA: {PAUSE 15}…{PAUSE 15}$"
 
 Route15_Koga_Bruno_Texto_10:
-	.string "BRUNO: Don't worry about the CYCLING\n"
-	.string "ROAD, it will still have BIKERS…{PAUSE 25} loyal to\l"
-	.string "us, you won't even need to explain\l"
-	.string "something to anyone.$"
+	.string "BRUNO: Du musst dir keine Sorgen um den\n"
+	.string "RADWEG machen. Es wird dort weiterhin\l"
+	.string "BIKER geben, aber nur welche, die uns\l"
+	.string "gegenüber loyal sind. Keine Sorge. Du\l"
+	.string "wirst dich vor niemandem verantworten\l"
+	.string "müssen.$"
 
 Route15_Koga_Bruno_Texto_11:
-	.string "BRUNO: I have no more to say to you,\n"
-	.string "KOGA, since you don't want to\l"
-	.string "cooperate, at least stay away and do\l"
-	.string "not hinder. Have a nice day.$"
+	.string "Mehr gibt es nicht zu sagen, KOGA. Wenn\n"
+	.string "du schon nicht helfen willst, dann halt\l"
+	.string "dich wenigstens aus der Sache raus!\l"
+	.string "Einen schönen Tag noch.$"
 
 Route15_Koga_Bruno_Texto_12:
-	.string "KOGA: That BRUNO…{PAUSE 35} since he joined the\n"
-	.string "ELITE 4, his ego has grown too much,\l"
-	.string "he's nothing like the person who used\l"
-	.string "to lead the FIGHTING DOJO in SAFFRON…$"
+	.string "KOGA: BRUNO {PAUSE 15}…{PAUSE 15} Seit er der TOP VIER\n"
+	.string "beigetreten ist, ist ihm der Erfolg zu\l"
+	.string "Kopf gestiegen. In ihm steckt nichts\l"
+	.string "mehr von dem edlen Mann, der einst das\l"
+	.string "KAMPFARENA in SAFFRONIA geleitet hat\l"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_13:
-	.string "{PLAYER}, am I wrong? It was you who\n"
-	.string "captured the lost KANGASKHAN and\l"
-	.string "saved the SAFARI ZONE business.\p"
-	.string "True?$"
+	.string "{PLAYER}, nicht wahr? Du bist doch\n"
+	.string "derjenige, der das umherirrende\l"
+	.string "KANGAMA gefangen und damit die\l"
+	.string "SAFARI-ZONE gerettet hat, oder?$"
 
 Route15_Koga_Bruno_Texto_13.1:
-	.string "GIOVANNI was not wrong when told me\n"
-	.string "that I should trust you; here you\l"
-	.string "have a small present from me.$"
+	.string "GIOVANNI hatte Recht, als er mir sagte,\n"
+	.string "ich solle dir vertrauen. Hier ist ein\l"
+	.string "kleines Dankeschön von mir.$"
 
 Route15_Koga_Bruno_Texto_14:
-	.string "With these glasses holded in any\n"
-	.string "POKÉMON, their DARK moves power\l"
-	.string "will be increased by 20%. If you have\l"
-	.string "POKÉMON like HOUNDOOM or MURKROW will\l"
-	.string "hit very strongly with DARK PULSE or\l"
-	.string "NIGHT SLASH.$"
+	.string "Wenn ein POKéMON SCHATTENGLAS trägt,\n"
+	.string "werden seine UNLICHT-Attacken um 20 %\l"
+	.string "verstärkt. Falls du POKéMON wie\l"
+	.string "HUNDEMON oder KRAMURX besitzt, werden\l"
+	.string "ihre FINSTERAURAs oder NACHTHIEBE\l"
+	.string "deutlich stärker.$"
 
 Route15_Koga_Bruno_Texto_15:
-	.string "I was not lying to BRUNO when I told him\n"
-	.string "that my unique concern has always been\l"
-	.string "the region's welfare, the problem is\l"
-	.string "that my welfare idea is totally far away\l"
-	.string "from his one.$"
+	.string "Ich habe BRUNO nicht angelogen, als ich\n"
+	.string "ihm sagte, dass mir das Wohl der Region\l"
+	.string "am wichtigsten ist. Das Problem liegt\l"
+	.string "darin, dass sich mein Verständnis vom\l"
+	.string "Wohle der Region völlig von seinem\l"
+	.string "unterscheidet.$"
 
 Route15_Koga_Bruno_Texto_15.1:
-	.string "Una dictadura impuesta por la fuerza,\n"
-	.string "y además venida de alguien de fuera\l"
-	.string "como LANCE nunca contará con mi apoyo.$"
+	.string "Eine Diktatur, die auf Gewalt fußt und\n"
+	.string "noch dazu unter der Führung eines\l"
+	.string "Außenstehenden ist, wird niemals meine\l"
+	.string "Unterstützung erhalten.$"
 
 Route15_Koga_Bruno_Texto_15.2:
-	.string "No way! A dictature imposed by the\n"
-	.string "force, moreover, coming from an\l"
-	.string "outsider like LANCE, will never\l"
-	.string "have my support!$"
+	.string "traducir$"
 
 Route15_Koga_Bruno_Texto_15.3:
-	.string "I refuse to capitulate…\p"
-	.string "I still remember what KANTO was like,\n"
-	.string "and I will do my best as a LEADER to\n"
-	.string "bring it back.$"
+	.string "traducir$"
 
 Route15_Koga_Bruno_Texto_16:
-	.string "BRUNO goes directly to CYCLING ROAD, he\n"
-	.string "will try to persuade most of the BIKERS\l"
-	.string "to switch sides.$"
+	.string "Wenn ihm das nicht gelingt, wird er sie\n"
+	.string "mit Gewalt verhaften und einsperren\l"
+	.string "lassen! Wenn das passiert, sind sie\l"
+	.string "am Ende!$"
 
 Route15_Koga_Bruno_Texto_16.1:
-	.string "If he fails convincing them, he'll use\n"
-	.string "force to arrest all the BIKERS, if that\l"
-	.string "happens, they are doomed; BRUNO's\l"
-	.string "POKÉMON are light-years ahead, in both\l"
-	.string "strength and level…$"
+	.string "Wenn ihm das nicht gelingt, wird er sie\n"
+	.string "mit Gewalt verhaften und einsperren\l"
+	.string "lassen! Wenn das passiert, sind sie am\l"
+	.string "Ende!$"
 
 Route15_Koga_Bruno_Texto_17:
-.string "I can't confront him, {PLAYER}.\p"
-	.string "Keep my LEADER position can be so\n"
-	.string "much useful for TEAM ROCKET.$"
+	.string "Ich kann aus offensichtlichen\n"
+	.string "Gründen nicht eingreifen.$"
 
 Route15_Koga_Bruno_Texto_17.1:
-	.string "But you{PAUSE 15}…{PAUSE 15} you {PLAYER}{PAUSE 15}…{PAUSE 15} you could\n"
-	.string "face him! GIOVANNI said that you are\l"
-	.string "one of the TRAINERS with the greatest\l"
-	.string "potential and future. Yes, BRUNO is part\l"
-	.string "of the ELITE, but I doubt he'll bring\l"
-	.string "his top POKÉMON here.\p"
-	.string "If anyone can stop him, it's you.$"
+	.string "Aber du {PLAYER}, du kannst es!\p"
+	.string "GIOVANNI hat mir erzählt, du seist einer\n"
+	.string "der vielversprechendsten ROCKETs. Ja,\l"
+	.string "BRUNO ist Teil der TOP VIER. Aber ich\l"
+	.string "bezweifle, dass er für die Sache hier\l"
+	.string "seine besten POKéMON mitgebracht hat.\p"
+	.string "Wenn ihn also einer aufhalten kann,\n"
+	.string "dann du!$"
 
 Route15_Koga_Bruno_Texto_18:
-	.string "I will be at my GYM, {PLAYER}.\p"
-	.string "Unfortunately, I can't let you in, at\n"
-	.string "least for now, however, I'll stay\l"
-	.string "updated on everything occurring on the\l"
-	.string "CYCLING ROAD, you can be sure about\l"
-	.string "that.$"
+	.string "Ich werde in meiner ARENA sein. Leider\n"
+	.string "kann ich dich im Moment nicht\l"
+	.string "reinlassen. Aber ich werde die\l"
+	.string "Geschehnisse auf dem RADWEG\l"
+	.string "genauestens verfolgen!\p"
+	.string "Darauf kannst du Gift nehmen!$"
 
 Route15_Koga_Bruno_Texto_19:
-.string "I trust you, {PLAYER}.$"
+.string "KOGA: Ich zähle auf dich, {PLAYER}!$"
 
 Route15_Koga_Bruno_Move_1:
 walk_in_place_left
