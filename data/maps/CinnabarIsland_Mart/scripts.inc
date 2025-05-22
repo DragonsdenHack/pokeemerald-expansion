@@ -14,9 +14,8 @@ release
 end
 
 CinnabarIsland_Mart_Text_2:
-.string "Don't they have X ATTACK?\p"
-    .string "I like it because it raises the\n"
-    .string "ATTACK stat in battle.$"
+	.string "Haben Sie kein X-ANGRIFF?\n"
+	.string "Es ist in Kämpfen sehr nützlich!$"
 
 
 
@@ -28,5 +27,5 @@ release
 end
 
 CinnabarIsland_Mart_Text_3:
-.string "It never hurts to have extra items.\n"
-    .string "You never know what might happen.$"
+	.string "Man sollte immer einige Items\n"
+	.string "bei sich tragen!$"

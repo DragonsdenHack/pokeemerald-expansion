@@ -27,10 +27,11 @@ release
 end
 
 CinnabarIsland_Center_Text_2:
-.string "POKÉMON can still learn techniques\n"
-    .string "after canceling evolution.\p"
-    .string "Evolution can wait until new moves\n"
-    .string "have been learned.$"
+	.string "Brichst du ihre Entwicklung ab, dann\n"
+	.string "können deine POKéMON dennoch weitere\l"
+	.string "Attacken lernen. Die weitere\l"
+	.string "Entwicklung kann warten, bis sie neue\l"
+	.string "Attacken gelernt haben!$"
 
 
 
@@ -42,9 +43,10 @@ release
 end
 
 CinnabarIsland_Center_Text_3:
-	.string "You ROCKETS are not welcome here, our\n"
-	.string "GYM LEADER would never let this place\l"
-	.string "infect, with people like you.$"
+	.string "Ihr ROCKETs seid hier nicht willkommen!\p"
+	.string "Unser ARENALEITER würde niemals\n"
+	.string "zulassen, dass ihr diesen Ort mit\l"
+	.string "eurer Anwesenheit beschmutzt!$"
 
 
 
@@ -56,14 +58,12 @@ release
 end
 
 CinnabarIsland_Center_Text_4:
-.string "I came to visit the CINNABAR GYM,\n"
-    .string "but the door is locked tight.\p"
-    .string "There should be a key for it\n"
-    .string "somewhere.\p"
-    .string "Could it be in that burned-out\n"
-    .string "mansion?\p"
-    .string "The GYM LEADER's friend used to\n"
-    .string "live there, they say.$"
+	.string "Ich wollte die ARENA der ZINNOBERINSEL\n"
+	.string "besuchen, aber die Türen sind\l"
+	.string "verschlossen. Es muss irgendwo einen\l"
+	.string "Schlüssel geben. Vielleicht in dieser\l"
+	.string "abgebrannten Villa? Der Freund des\l"
+	.string "ARENALEITERs hat dort gewohnt.$"
 
 
 
