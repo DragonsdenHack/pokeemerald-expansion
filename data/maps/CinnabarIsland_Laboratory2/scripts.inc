@@ -14,8 +14,8 @@ release
 end
 
 Text_2:
-.string "EEVEE can evolve into one of three\n"
-    .string "kinds of POKÉMON.$"
+	.string "EVOLI kann sich zu einem von drei\n"
+	.string "verschiedenen POKéMON entwickeln.$"
 
 
 
@@ -89,69 +89,75 @@ release
 end
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1.1:
-	.string "You obtained an ASSAULT VEST from\n"
-	.string "SUPER NERD!$"
+	.string "-Du erhältst eine OFFENSIVWESTE\n"
+	.string "vom STREBER!-$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1:
-	.string "You have no idea of the vastness of\n"
-	.string "variables we can use to our advantage\l"
-	.string "to face a POKÉMON battle with higher\l"
-	.string "chances of triumph, if the scientists in\l"
-	.string "this laboratory at least had a minimum\l"
-	.string "of combat knowledge.$"
+	.string "Du hast keine Vorstellung davon, wie\n"
+	.string "viele Variablen wir zu unserem Vorteil\l"
+	.string "nutzen können, um unsere\l"
+	.string "Erfolgschancen in einem POKéMON-Kampf\l"
+	.string "zu maximieren! Wenn die\l"
+	.string "WISSENSCHAFTLER in diesem Labor doch\l"
+	.string "nur ein wenig Kampferfahrung hätten …$"
+
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2:
 .string "{PAUSE 10}…{PAUSE 10}\n"
 	.string "{PAUSE 10}…{PAUSE 10}$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
-	.string "Nah, you neither look to have the skill\n"
-	.string "enough, maybe if you obtain all the\l"
-	.string "BADGES I will give you the chance to\l"
-	.string "fight against me.$"
+	.string "Nee. Du scheinst noch nicht gut genug\n"
+	.string "zu sein. Vielleicht gebe ich dir eine\l"
+	.string "Chance, wenn du alle ORDEN gesammelt\l"
+	.string "hast.$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_4:
-	.string "The ASSAULT VEST boosts a 50% the\n"
-	.string "SPECIAL DEFENSE of the POKÉMON that\l"
-	.string "helds it. But it only allows the\l"
-	.string "use of direct damage moves, making it a\l"
-	.string "perfect item to stop special attackers\l"
-	.string "in their tracks, it works very well with\l"
-	.string "POKÉMON with the ability REGENERATOR,\l"
-	.string "and moves like DRAIN PUNCH or GIGA\l"
-	.string "DRAIN!$"
+	.string "Die OFFENSIVWESTE erhöht die\n"
+	.string "SPEZIAL-VERTEIDIGUNG des TRÄGERS um\l"
+	.string "50 %, erlaubt aber nur die Ausführung\l"
+	.string "von Attacken, die direkten Schaden\l"
+	.string "verursachen. Sie ist perfekt gegen\l"
+	.string "spezielle Angreifer und harmoniert\l"
+	.string "gut mit POKéMON, die die Fähigkeit\l"
+	.string "BELEBEKRAFT oder Attacken wie\l"
+	.string "ABLEITHIEB oder GIGASAUGER haben.$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_5:
-	.string "Wow! There seems to be something\n"
-	.string "worthwhile amidst the mediocrity of\l"
-	.string "this island, so, are you aiming to defeat\l"
-	.string "the ELITE 4? If you can defeat me in a\l"
-	.string "battle, I'll grant you something to aid\l"
-	.string "you in that endeavor.$"
+	.string "Wow! Es gibt ja doch noch Hoffnung auf\n"
+	.string "dieser auf dieser ansonsten\l"
+	.string "mittelmäßigen Insel. Du willst also die\l"
+	.string "TOP VIER fertigmachen, was? Wenn du\l"
+	.string "mich besiegst, bekommst du von mir\l"
+	.string "etwas, das dir dabei helfen wird!$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_6:
-.string "So, do you accept the challenge?$"
+	.string "Also, stellst du dich der\n"
+	.string "Herausforderung?$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_7:
-.string "That is how a real TRAINER talks.\n"
-	.string "You won't regret!$"
+	.string "So spricht ein wahrer TRAINER!\p"
+	.string "Du wirst es nicht bereuen!$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_8:
-	.string "Oh! You were not lying about\n"
-	.string "challenging the ELITE 4!$"
+	.string "Oh! Du hast es echt ernst gemeint, als\n"
+	.string "du gesagt hast, dass du die TOP VIER\l"
+	.string "herausfordern willst.$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_9:
-	.string "It's evident that you're the kind of\n"
-	.string "person who carefully considers every\l"
-	.string "detail during a battle, meticulously\l"
-	.string "selecting the best items to construct\l"
-	.string "a formidable team, someone like you\l"
-	.string "should always have this in their arsenal\l"
-	.string "of potential options.$"
+	.string "Es ist offensichtlich, dass du die Art\n"
+	.string "von TRAINER bist, der jedes Detail\l"
+	.string "eines Kampfes genau durchdenkt und\l"
+	.string "sorgfältig die besten Items auswählt,\l"
+	.string "um ein starkes Team zusammenzustellen.\p"
+	.string "Jemand wie du sollte das hier besitzen!$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_10:
-	.string "You have no idea what you're missing\n"
-	.string "out on, kid. I hope when you get struck\l"
-	.string "by THUNDERBOLT or PSYCHIC, you get\l"
-	.string "knocked out in one shot for refusing\l"
-	.string "this battle.$"
+	.string "Du hast keine Ahnung, was dir entgeht,\n"
+	.string "Kleiner! Ich hoffe, dass, wenn dein\l"
+	.string "POKéMON von einem DONNERBLITZ oder\l"
+	.string "einer PSYCHOKINESE getroffen wird, es\l"
+	.string "sofort k.o. geht! Und das alles nur, weil\l"
+	.string "du diesen einen Kampf abgelehnt hast!$"
+
+

@@ -19,10 +19,9 @@ release
 end
 
 CinnabarIsland_Text_1:
-.string "CINNABAR GYM's BLAINE is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+	.string "PYRO, der ARENALEITER der\n"
+	.string "ZINNOBERINSEL, ist ein seltsamer Mann.\p"
+	.string "Er lebt hier seit Jahren.$"
 
 
 CinnabardIsland2::
@@ -33,10 +32,8 @@ release
 end
 
 CinnabarIsland_Text_2:
-.string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "POKÉMON MANSION.$"
+	.string "Forscher experimentieren in dem\n"
+	.string "ausgebrannten Gebäude.$"
 
 
 
@@ -106,8 +103,9 @@ walk_slow_down
 step_end
 
 Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
-	.string "-GYM is apparently totally closed, I\n"
-	.string "better go for the other BADGES.-$"
+	.string "-Die ARENA scheint geschlossen zu sein.\n"
+	.string "Ich sollte besser zuerst die anderen\l"
+	.string "ORDEN sammeln.-$"
 
 CinnabarIsland_Escena_8::
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
@@ -130,14 +128,15 @@ release
 end
 
 CinnabarIsland_Escena_8_Texto_1:
-	.string "PETREL: {PLAYER}?! So you already\n"
-	.string "have 7 BADGES? Excellent!$"
+	.string "LAMBDA: {PLAYER}?! Du hast also\n"
+	.string "schon sieben ORDEN? Großartig!$"
 
 CinnabarIsland_Escena_8_Texto_2:
-	.string "Listen, {PLAYER}; GIOVANNI is very\n"
-	.string "busy at the moment, I can't give you\l"
-	.string "details, but you must go to the GYM in\l"
-	.string "VIRIDIAN CITY. That's all.$"
+	.string "Hör mal, {PLAYER}. GIOVANNI ist\n"
+	.string "gerade sehr beschäftigt. Ich kann dir\l"
+	.string "keine Einzelheiten geben, aber du musst\l"
+	.string "zur ARENA in VERTANIA CITY kommen.\p"
+	.string "Das ist alles.$"
 
 CinnabarIsland_Oak::
 lock
@@ -331,69 +330,69 @@ CinnabarIsland_Oak_Texto_1:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_2:
-	.string "I love seeing these young challengers,\n"
-	.string "all inspired and energetic.$"
+	.string "Ich liebe es, junge Herausforderer wie\n"
+	.string "dich zu sehen, die nur so vor Motivation\l"
+	.string "und Tatendrang strotzen.$"
 
 CinnabarIsland_Oak_Texto_3:
-	.string "The world is all yours. You have every\n"
-	.string "little thing you need to compete in the\l"
-	.string "KANTO LEAGUE: you're both ignorant and\l"
-	.string "immature.$"
+	.string "Die Welt liegt euch zu Füßen! Ihr habt\n"
+	.string "alles, was man für die POKéMON LIGA\l"
+	.string "braucht: Ihr seid sowohl unwissend\l"
+	.string "als auch unreif.$"
 
 CinnabarIsland_Oak_Texto_4:
-	.string "When you think about it, you realize how\n"
-	.string "much of a privilege ignorance is these\l"
-	.string "days.$"
+	.string "Wenn man darüber nachdenkt, erkennt\n"
+	.string "man, welch ein Segen Unwissenheit\l"
+	.string "heutzutage ist.$"
 
 CinnabarIsland_Oak_Texto_5:
-	.string "Without it, it'd be impossible to stay\n"
-	.string "sane in these coming times. Doubly so,\l"
-	.string "presenting yourself to the LEAGUE\l"
-	.string "CHAMPIONSHIP.$"
+	.string "Ohne sie wäre es unmöglich, in diesen\n"
+	.string "Zeiten bei Verstand zu bleiben. Vor\l"
+	.string "allem, wenn man die LIGA herausfordert.$"
 
 CinnabarIsland_Oak_Texto_6:
-	.string "And about being immature{PAUSE 25}…{PAUSE 25} With the\n"
-	.string "willpower of immaturity, anyone can\l"
-	.string "achieve almost anything!$"
+	.string "Und was die Unreife betrifft … Mit der\n"
+	.string "Willenskraft, die sie einem verleiht,\l"
+	.string "kann man fast alles erreichen!$"
 
 CinnabarIsland_Oak_Texto_7:
 	.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_8:
-	.string "Mocking you? HAH!\p"
-	.string "It's the opposite, actually.$"
+	.string "Dich verspotten? Haha!\p"
+	.string "Nein, mein Junge - ganz im Gegenteil$"
 
 CinnabarIsland_Oak_Texto_9:
-	.string "Mmm…$"
+	.string "Mmm …$"
 
 CinnabarIsland_Oak_Texto_10:
-	.string "Six BADGEs{PAUSE 25}…{PAUSE 25} Interesting.\n"
-	.string "I'm sure you've experienced lots of\l"
-	.string "adventures that'll stick in your head\l"
-	.string "for the rest of your life.$"
+	.string "Sechs ORDEN {PAUSE 25}…{PAUSE 25} interessant. Du hast\n"
+	.string "sicher viele Abenteuer erlebt, an die du\l"
+	.string "dich noch lange erinnern wirst.$"
 
 CinnabarIsland_Oak_Texto_10.1:
-	.string "Just the same as the thousands of\n"
-	.string "other kids starting their own journeys\l"
-	.string "year after year, why would yours be any\l"
-	.string "better? The wheel still turns, and it\l"
-	.string "won't stop for anyone.$"
+	.string "Genau wie die Tausenden anderer Kinder,\n"
+	.string "die Jahr für Jahr ihre Reise antreten.\p"
+	.string "Was macht deine so besonders? Das Rad\n"
+	.string "der Zeit dreht sich weiter … und hält\l"
+	.string "für niemanden an.$"
 
 CinnabarIsland_Oak_Texto_11:
-	.string "Despite this, I envy you. If you had\n"
-	.string "known what I know, you'd have never\l"
-	.string "started this journey.$"
+	.string "Und dennoch beneide ich dich.\p"
+	.string "Hättest du gewusst, was ich weiß,\n"
+	.string "wärst du deine Reise nie angetreten.$"
 
 CinnabarIsland_Oak_Texto_12:
-	.string "Being ignorant is all that keeps that\n"
-	.string "little flame of yours roaring.$"
+	.string "Es ist allein deine Unwissenheit, die die\n"
+	.string "kleine Flamme in dir noch am Lodern hält.$"
 
 CinnabarIsland_Oak_Texto_13:
-	.string "But this is the way. New generations\n"
-	.string "deserve the opportunity: the chance of\l"
-	.string "losing, of knowing the cruel truth of\l"
-	.string "this reality, or of{PAUSE 15}…{PAUSE 15}$"
+	.string "Aber so ist nun mal der Lauf der Dinge.\p"
+	.string "Die neuen Generationen verdienen eine\n"
+	.string "Chance: Eine Chance zu scheitern und\l"
+	.string "so die grausame Realität dieser Welt zu\l"
+	.string "erkennen, oder {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarIsland_Oak_Texto_13.1:
-	.string "{PAUSE 15}…{PAUSE 35}making a miracle happen.$"
+	.string "{PAUSE 15}…{PAUSE 35} das Unmögliche möglich zu machen.$"
 

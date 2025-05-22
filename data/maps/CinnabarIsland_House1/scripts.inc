@@ -9,11 +9,12 @@ release
 end
 
 _CinnabarIsland_House1_Text_1:
-	.string "We don't trade POKÉMON with ROCKETS,\n"
-	.string "kid, we don't want your POKÉMON\l"
-	.string "obtained by illegal ways, we would never\l"
-	.string "let our POKÉMON be raised by people like\l"
-	.string "you.$"
+	.string "Wir tauschen keine POKéMON mit\n"
+	.string "ROCKETs, Kleiner. Wir haben kein\l"
+	.string "Interesse an euren POKéMON, die auf\l"
+	.string "illegalem Wege beschafft wurden!\p"
+	.string "Wir würden unsere POKéMON niemals\n"
+	.string "in eure Obhut geben!$"
 
 
 
@@ -25,10 +26,10 @@ release
 end
 
 _CinnabarIsland_House1_Text_2:
-	.string "I found this most remarkable fossil\n"
-	.string "inside MT. MOON.\p"
-	.string "I think it's of a rare, prehistoric\n"
-	.string "POKÉMON.$"
+	.string "Ich habe auf dem MONDBERG ein\n"
+	.string "seltsames Fossil gefunden!\p"
+	.string "Ich denke, es stammt von einem\n"
+	.string "seltenen URZEIT-POKéMON!$"
 
 
 
@@ -40,5 +41,5 @@ release
 end
 
 _CinnabarIsland_House1_Text_3:
-	.string "Leave my POKÉMON alone or I'll call the\n"
-	.string "police!$"
+	.string "Hey! Finger weg von meinen POKéMON,\n"
+	.string "sonst rufe ich die Polizei!$"
