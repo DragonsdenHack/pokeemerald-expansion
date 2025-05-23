@@ -81,28 +81,32 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 
 
 PokemonLeague_1F_Combate_Lorelei_Texto_1:
-	.string "Oh crap, defeated once again, I think I\n"
-	.string "need a vacation time at FLOE ISLAND…\p"
-	.string "Go ahead kid, the POKÉMON LEAGUE\n"
-	.string "awaits you with some surprises.$"
+	.string "Verdammt! Schon wieder verloren! … Ich\n"
+	.string "sollte mir wohl endlich mal eine Pause\l"
+	.string "auf EILAND VIER gönnen. Na los, Kleiner.\l"
+	.string "Geh ruhig weiter. Die POKéMON LIGA hält\l"
+	.string "noch einige Überraschungen für dich\l"
+	.string "bereit. So viel kann ich dir sagen.$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_2:
-	.string "Welcome to the POKÉMON LEAGUE. I am\n"
-	.string "LORELEI, of the ELITE FOUR. I have the\l"
-	.string "feeling I've seen you somewhere before,\l"
-	.string "or not? Anyway, today has been a tough\l"
-	.string "day, I've never seen so many talents\l"
-	.string "aiming to the CHAMPION title at once,\l"
-	.string "you better be good enough like them\l"
-	.string "because no one surpasses me in training\l"
-	.string "ICE-TYPE POKÉMON.$"
+	.string "Willkommen in der POKéMON LIGA! Ich bin\n"
+	.string "LORELEI und gehöre zu den TOP VIER!\p"
+	.string "Irgendwie kommt mir dein Gesicht\n"
+	.string "bekannt vor… oder vielleicht auch\l"
+	.string "nicht? Wie auch immer. Heute ist ein\l"
+	.string "harter Tag. Ich habe noch nie so viele\l"
+	.string "talentierte Herausforderer auf einmal\l"
+	.string "gesehen, die den TITEL wollen.\p"
+	.string "Du solltest mindestens genauso gut wie\n"
+	.string "sie sein, denn niemand kann sich mit mir\l"
+	.string "messen, wenn es um EIS-POKéMON geht!$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_2.1:
-	.string "Freezing moves are my specialty, and\n"
-	.string "your POKÉMON will be helpless when\l"
-	.string "that happens. Hahaha!\p"
-	.string "Let's start?$"
+	.string "Die Kraft von EIS-Attacken ist\n"
+	.string "unglaublich. Du wirst um Gnade winseln,\l"
+	.string "wenn ich deine POKéMON eingefroren\l"
+	.string "habe! Hahaha! Bist du bereit!$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_4:
-.string "This should not be like this!…$"
+.string "… es sollte nicht so laufen!$"
 

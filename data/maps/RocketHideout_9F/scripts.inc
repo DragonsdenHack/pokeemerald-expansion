@@ -158,69 +158,62 @@ walk_slow_down
 step_end
 
 RocketHideout_9F_Presentacion_Sala_Texto_6:
-	.string "Never, ever, put a foe between the\n"
-	.string "sword and the wall; he'll give his\l"
-	.string "absolute best.$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_7:
-	.string "Well, for now we've followed that\n"
-	.string "statement, refering to RED.$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_8:
-	.string "But now, the time has come. The time to\n"
-	.string "show our full hand, we're the ones\l"
-	.string "between the sword and the wall.$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_9:
-	.string "Don't hold back, {PLAYER}!$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_10:
-	.string "Give it all in the INDIGO PLATEAU!$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_11:
-	.string "Corner RED! Put his neck between your\n"
-	.string "sword and the wall! Show him what you're\l"
-	.string "made of, perform at a level he's never\l"
-	.string "seen! And then, {PLAYER}…{PAUSE 15}!$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_12:
 	.string "Then{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_13:
-	.string "{PAUSE 15}…{PAUSE 15}he won't be able to react in time,\n"
-	.string "to give his all.$"
+	.string "traducir$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
-	.string "GIOVANNI: Alright, you're here. Take a\n"
-	.string "look at this place, {PLAYER}.$"
+	.string "GIOVANNI: Gut. Da bist du ja.\n"
+	.string "Sieh dich hier um, {PLAYER}.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_2:
-	.string "Here, we aim to give our best ROCKETS\n"
-	.string "the tools they need to maximize the\l"
-	.string "only variable that's entirely within our\l"
-	.string "control: training.$"
+	.string "Hier statten wir unsere besten ROCKETs\n"
+	.string "mit allem aus, was sie brauchen, um das\l"
+	.string "Meiste aus dem Einzigen herauszuholen,\l"
+	.string "was wir wirklich kontrollieren können:\l"
+	.string "das Training.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_3:
-	.string "All the essentials to elevate your\n"
-	.string "POKÉMON's abilities to the next level\l"
-	.string "are available here, easily accessible to\l"
-	.string "you.$"
+	.string "Hier findest du alles, was du brauchst,\n"
+	.string "um deine POKéMON auf die nächste Stufe\l"
+	.string "zu bringen. Alles in diesem Raum steht\l"
+	.string "dir uneingeschränkt zur Verfügung.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_4:
-	.string "So, in this room, it's all up to you. You\n"
-	.string "decide whether to hit pause or keep\l"
-	.string "pushing forward. Make sure you make it\l"
-	.string "count before you take on the POKÉMON\l"
-	.string "LEAGUE once and for all.$"
+	.string "Dieser Raum richtet sich nach dir. Du\n"
+	.string "entscheidest, ob du eine Pause einlegst\l"
+	.string "oder weiterkämpfst. Hole das Meiste aus\l"
+	.string "diesem Raum raus, bevor du dich der\l"
+	.string "POKéMON LIGA stellst.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_5:
-	.string "I trust you, {PLAYER}. No matter the\n"
-	.string "caliber of powers you're going to face,\l"
-	.string "if you can keep a level head and bring\l"
-	.string "out the best in your team. From here,\l"
-	.string "we'll be monitoring whatever happens,\l"
-	.string "{PLAYER}. You won't be alone facing\l"
-	.string "the ELITE 4.$"
+	.string "Ich glaube an dich, {PLAYER}. Egal, wie\n"
+	.string "stark deine Gegner sind - solange du\l"
+	.string "einen kühlen Kopf bewahrst und dein\l"
+	.string "Team auf die bestmögliche Weise\l"
+	.string "einsetzt, wirst du bestehen. Wir werden\l"
+	.string "alles von hier aus verfolgen,\l"
+	.string "{PLAYER}. Du wirst nicht alleine sein,\l"
+	.string "wenn du der TOP VIER gegenübertrittst.$"
 
 RocketHideout_9F_Presentacion_Sala_Move_1:
 walk_up
@@ -311,26 +304,29 @@ release
 end
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1.2:
-	.string "I specialize in EXP training.\p"
-	.string "It's ¥9,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf EXP-Training spezialisiert.\p"
+	.string "Eine vollständige Trainingseinheit\n"
+	.string "kostet 9.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1.1:
-	.string "I specialize in EXP training.\p"
-	.string "It's ¥7,500 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf EXP-Training spezialisiert.\p"
+	.string "Eine vollständige Trainingseinheit\n"
+	.string "kostet 7.500¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1:
-	.string "I specialize in EXP training.\p"
-	.string "It's ¥5,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf EXP-Training spezialisiert.\p"
+	.string "Eine vollständige Trainingseinheit\n"
+	.string "kostet 5.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_2:
-	.string "Alright, let's do this!$"
+	.string "Alles klar. Legen wir los!$"
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_3:
-	.string "Serving you to enhance your team is\n"
-	.string "truly an honor.$"
+	.string "Es war mir eine Ehre, Ihnen dabei zu\n"
+	.string "helfen, Ihr Team zu verbessern.$"
 
 RocketHideout_9F_Entrenador_Ataque_Especial::
 lock
@@ -349,9 +345,10 @@ release
 end
 
 RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1:
-	.string "I specialize in SP.ATTACK training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf SPEZIAL-ANGRIFFS-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 
 RocketHideout_9F_Entrenador_Defensa::
@@ -372,9 +369,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Texto_1:
-	.string "I specialize in DEFENSE training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf VERTEIDIGUNGS-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Velocidad::
 lock
@@ -394,9 +392,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Velocidad_Texto_1:
-	.string "I specialize in SPEED training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf INITIATIVE-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Ataque::
 lock
@@ -415,9 +414,10 @@ release
 end
 
 RocketHideout_9F_Entrenador_Ataque_Texto_1:
-	.string "I specialize in ATTACK training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf ANGRIFFS-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 
 
@@ -439,9 +439,10 @@ end
 
 
 RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
-	.string "I specialize in SP.DEFENSE training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf SPZ-VERT-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
 
 RocketHideout_9F_Entrenador_Salud::
 lock
@@ -460,6 +461,9 @@ release
 end
 
 RocketHideout_9F_Entrenador_Salud_Texto_1:
-	.string "I specialize in HP training.\p"
-	.string "It's ¥2,000 for a full training session.\n"
-	.string "Do you accept?$"
+	.string "Ich bin auf KP-Training\n"
+	.string "spezialisiert. Eine vollständige\l"
+	.string "Trainingseinheit kostet 2.000¥.\p"
+	.string "Sind Sie interessiert?$"
+
+

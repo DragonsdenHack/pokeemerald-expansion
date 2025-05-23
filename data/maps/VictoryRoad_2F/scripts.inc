@@ -129,55 +129,52 @@ release
 end
 
 VictoryRoad_2F_Entrenador_Especial_Texto_1:
-	.string "Moves with recoil damage are incredibly\n"
-	.string "strong, but they come with their risks.\l"
-	.string "DOUBLE-EDGE is known for its powerful\l"
-	.string "yet risky nature. While I'd be happy to\l"
-	.string "teach you, I've already instructed\l"
-	.string "someone else. However, I can offer you\l"
-	.string "an alternative, provided you\l"
-	.string "demonstrate your worthiness. It's not\l"
-	.string "something I give out lightly.$"
-
+	.string "Rückstoß-Attacken sind extrem stark,\n"
+	.string "aber auch riskant. RISIKOTACKLE ist\l"
+	.string "bekannt für seine starke, aber auch\l"
+	.string "gefährliche Natur. Ich würde sie dir ja\l"
+	.string "gerne beibringen, aber ich habe sie\l"
+	.string "bereits jemand anderem beigebracht.\l"
+	.string "Wenn du dich aber als würdig erweist,\l"
+	.string "kann ich dir eine Alternative bieten.\p"
+	.string "Es ist aber nichts, was ich einfach\n"
+	.string "so weitergebe.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_2:
-	.string "So, you gonna take on the challenge or\n"
-	.string "what?$"
+	.string "Na, nimmst du die Herausforderung\n"
+	.string "an oder nicht?$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_3:
-	.string "LIFE ORB offers a unique advantage by\n"
-	.string "amplifying the power of offensive\l"
-	.string "moves by 30%. However, its usage comes\l"
-	.string "at a cost, deducting 10% of the user's\l"
-	.string "health with each turn. Strategically\l"
-	.string "employed, it has the potential to\l"
-	.string "foster POKÉMON of remarkable strength.\l"
-	.string "Yet, it's crucial to consider the\l"
-	.string "repercussions of recoil damage.\l"
-	.string "Combining it with moves like\l"
-	.string "DOUBLE-EDGE or BRAVE BIRD can result\l"
-	.string "in devastating blows to opponents,\l"
-	.string "though at the expense of the user's\l"
-	.string "own health. Given its rarity in KANTO, it\l"
-	.string "should be utilized judiciously.$"
+	.string "Der LEBEN-ORB verstärkt Attacken um\n"
+	.string "30 %, zieht aber dem Träger jede Runde\l"
+	.string "10 % seiner KP ab. Wenn man es richtig\l"
+	.string "einsetzt, kann es POKéMON unglaublich\l"
+	.string "stark machen. Aber man sollte auch die\l"
+	.string "Folgen des Rückstoßschadens bedenken.\p"
+	.string "Kombiniert mit Attacken wie\n"
+	.string "RISIKOTACKLE oder STURZFLUG kann es\l"
+	.string "zwar den Gegner richtig hart treffen,\l"
+	.string "aber auch dem Anwender selbst schweren\l"
+	.string "Schaden zufügen. Da es selten in KANTO\l"
+	.string "ist, solltest du es klug benutzen.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_4:
-	.string "Alright! Get set, I'm the baddest\n"
-	.string "COOLTRAINER you'll run into on VICTORY\l"
-	.string "ROAD!$"
+	.string "Okay! Mach dich bereit!\p"
+	.string "Ich bin der krasseste ASS-TRAINER\n"
+	.string "in der gesamten SIEGESSTRAßE!$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_5:
-	.string "Wow, that's awesome! Someone like you\n"
-	.string "totally deserves what I'm gonna give\l"
-	.string "you.$"
+	.string "Wow! Du hast es echt drauf! Jemand wie\n"
+	.string "du verdient es, das hier zu haben.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_6:
-	.string "Dang, you beat me! You're something\n"
-	.string "else, you know? So, here's your prize.$"
+	.string "Verdammt, du hast gewonnen!\p"
+	.string "Du bist echt krass, weißt du?\p"
+	.string "Hier ist deine Belohnung.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_7:
-	.string "Alright, I hear ya. Not everyone's got\n"
-	.string "what it takes to go up against a real\l"
-	.string "COOLTRAINER, y'know.$"
+	.string "Tja. Ich kann's dir nicht verübeln.\p"
+	.string "Nicht jeder hat das Zeug, es mit\n"
+	.string "einem echten ASS-TRAINER aufzunehmen.$"
 
 	

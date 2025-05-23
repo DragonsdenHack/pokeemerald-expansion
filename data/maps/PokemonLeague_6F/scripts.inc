@@ -520,430 +520,469 @@ walk_in_place_down
 step_end
 
 PokemonLeague_6F_Final_Texto_1:
-	.string "-OAK finished entering RED's data in the\n"
-	.string "HALL OF FAME.-$"
+	.string "-EICH ist gerade damit fertig geworden,\n"
+	.string "ROTs Daten in die RUHMESHALLE\l"
+	.string "einzutragen.-$"
 
 PokemonLeague_6F_Final_Texto_2:
-	.string "OAK: It is official now, you are the new\n"
-	.string "CHAMPION, you accomplished the purpose\l"
-	.string "that you were created for.$"
+	.string "EICH: Es ist nun offiziell! Du bist der\n"
+	.string "neue CHAMPION! Du hast den Zweck\l"
+	.string "erfüllt, für den du geschaffen wurdest!$"
 
 PokemonLeague_6F_Final_Texto_3:
-.string "OAK: …$"
+.string "…$"
 
 PokemonLeague_6F_Final_Texto_4:
-	.string "OAK: I know why you are here, ROCKET,\n"
-	.string "you think crowning you as the CHAMPION\l"
-	.string "you will gain enough influence to clean\l"
-	.string "up the image of TEAM ROCKET and\l"
-	.string "restore autonomy to the population of\l"
-	.string "KANTO.$"
+	.string "EICH: Ich weiß, warum du hier bist,\n"
+	.string "ROCKET. Du glaubst, dass deine\l"
+	.string "Ernennung zum CHAMPION dir genug\l"
+	.string "Einfluss verschaffen wird, um TEAM\l"
+	.string "ROCKETs Ruf reinzuwaschen und der\l"
+	.string "Bevölkerung von KANTO ihre Freiheit\l"
+	.string "zurückzugeben.$"
 
 PokemonLeague_6F_Final_Texto_5:
-	.string "I know perfectly your BOSS, wanted to\n"
-	.string "save the region at his own way and just\l"
-	.string "brought ruin.$"
+	.string "Ich kenne deinen Anführer sehr gut.\p"
+	.string "Er wollte die Region auf seine Weise\n"
+	.string "retten, doch hat er sie letzten Endes\l"
+	.string "nur noch tiefer in den Ruin getrieben.$"
 
 PokemonLeague_6F_Final_Texto_6:
-	.string "He and his silly followers didn't realize\n"
-	.string "that they approached everything the\l"
-	.string "wrong way; creating a POKÉMON with\l"
-	.string "overwhelming and uncontrollable power\l"
-	.string "results in exactly that:\p"
-	.string "Being unable to control it.$"
+	.string "Er und seine törichten Anhänger haben\n"
+	.string "die Sache aus dem völlig falschen\l"
+	.string "Blickwinkel betrachtet. Das wir damals\l"
+	.string "ein POKéMON mit solch überwältigender\l"
+	.string "Kraft erschaffen haben, konnte nur auf\l"
+	.string "eine Weise enden:\p"
+	.string "Das wir es nicht kontrollieren können.$"
 
 PokemonLeague_6F_Final_Texto_7:
-	.string "Instead, we left unexplored the most\n"
-	.string "crucial aspect in the equation that\l"
-	.string "leads to victory in battles.$"
+	.string "Stattdessen haben wir den wichtigsten\n"
+	.string "Faktor, der zum Sieg in Kämpfen führt,\l"
+	.string "völlig außer Acht gelassen:\p"
+	.string "Den TRAINER selbst!$"
 
 PokemonLeague_6F_Final_Texto_8:
-	.string "An unbeatable TRAINER, capable of\n"
-	.string "independently making the best possible\l"
-	.string "decisions regarding POKÉMON capture,\l"
-	.string "battle strategy, training, and\l"
-	.string "allocation of items and moves, able to\l"
-	.string "maximize a team of 6 POKÉMON with the\l"
-	.string "available resources.$"
+	.string "Genauer gesagt einen unbesiegbaren\n"
+	.string "TRAINER, der in der Lage ist, völlig\l"
+	.string "eigenständig stets die bestmöglichen\l"
+	.string "Entscheidungen zu treffen. Sei es bei\l"
+	.string "der Auswahl und dem Fangen von\l"
+	.string "POKéMON, der Strategie, dem Training\l"
+	.string "oder der optimalen Vergabe von Items\l"
+	.string "und Attacken, um das bestmögliche Team\l"
+	.string "aus sechs POKéMON mit denen ihm zur\l"
+	.string "Verfügung stehenden Ressourcen zu\l"
+	.string "erschaffen.$"
 
 PokemonLeague_6F_Final_Texto_9:
-	.string "Is not that much better than depending\n"
-	.string "on just one overpowered POKÉMON.\p"
-	.string "That would be managed by the clumsy\n"
-	.string "hands of a human susceptible to\l"
-	.string "failure?$"
+	.string "Ist das nicht viel besser, als alles auf\n"
+	.string "ein einziges, übermächtiges POKéMON zu\l"
+	.string "setzen, das von einem fehlerhaften,\l"
+	.string "unvollkommenen Menschen genutzt wird?$"
 
 PokemonLeague_6F_Final_Texto_10:
-	.string "To all the rest of mortals, RED will be\n"
-	.string "considered unreachable, since he is the\l"
-	.string "limit, I personally made sure he covers\l"
-	.string "every possible variable that could\l"
-	.string "affect a battle, he is the perfect\l"
-	.string "combination of technology and\l"
-	.string "humanity.$"
+	.string "Für den Rest der Welt wird ROT als das\n"
+	.string "Maß aller Dinge gelten, als\l"
+	.string "unerreichbar, eben weil er die Grenze\l"
+	.string "ist! Ich persönlich habe dafür gesorgt,\l"
+	.string "dass er in der Lage ist, jede nur\l"
+	.string "erdenkliche Möglichkeit zu registrieren\l"
+	.string "und optimal auf sie zu reagieren, die\l"
+	.string "einen Kampf beeinflussen könnte!\p"
+	.string "Er ist die perfekte Verschmelzung aus\n"
+	.string "Mensch und Technologie!$"
 	
 PokemonLeague_6F_Final_Texto_10.1:
-	 .string "But{PAUSE 25}…{PAUSE 25} most importantly{PAUSE 15}…{PAUSE 15}$"
+	 .string "Doch das wirklich Entscheidende ist{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_11:
-	.string "Unlike MEWTWO, all its potential, the\n"
-	.string "possibilities that it offers and its\l"
-	.string "resources, is purposeless, no\l"
-	.string "questions, RED is just an empty shell,\l"
-	.string "prepared to be replaced by anyone.$"
+	.string "… dass ROT bei all seinem\n"
+	.string "unermessliches Potenzial und den\l"
+	.string "sämtlichen Möglichkeiten, die sie ihm\l"
+	.string "bieten, anders als MEWTU, keinem Zweck\l"
+	.string "folgt und nichts hinterfragt. Er ist\l"
+	.string "schlicht und einfach eine leere Hülle,\l"
+	.string "jederzeit bereit, eingesetzt zu werden.$"
 
 PokemonLeague_6F_Final_Texto_11.1:
-	.string "You're right, ROCKET.\p"
-	.string "Thereby enabling RED to assume the\n"
-	.string "purpose of whoever handles him like\l"
-	.string "a simple puppet.$"
+	.string "Das erlaubt ROT, ohne Komplikationen\n"
+	.string "den Willen desjenigen anzunehmen, der\l"
+	.string "ihn wie eine Marionette lenkt.$"
 
 PokemonLeague_6F_Final_Texto_12:
-	.string "You will understand then, the\n"
-	.string "importance of having something like him\l"
-	.string "with these characteristics, in a world\l"
-	.string "where absolutely everyone, as a\l"
-	.string "universal principle, shuts up in front\l"
-	.string "of you if you can defeat them in a\l"
-	.string "battle; becoming the CHAMPION of this\l"
-	.string "silly game holds the same weight as the\l"
-	.string "GOVERNOR himself.$"
+	.string "Du verstehst also, wie entscheidend es\n"
+	.string "ist, jemanden wie ihn zu haben - in einer\l"
+	.string "Welt, in der sich jeder ohne Ausnahme,\l"
+	.string "als universelles Prinzip, demjenigen\l"
+	.string "fügt, der ihn in einem Kampf besiegt.\p"
+	.string "In diesem törichten System kommt der\n"
+	.string "Titel des CHAMPIONs mit der Stellung\l"
+	.string "des Gouverneurs der Region einher.$"
 
 PokemonLeague_6F_Final_Texto_12.1:
-	.string "That means{PAUSE 15}…{PAUSE 15} whoever controls RED\n"
-	.string "has the power to change everything, to\l"
-	.string "adapt to any situation, and ultimately\l"
-	.string "emerge victorious at the end of the\l"
-	.string "day. There is no escape possibility.$"
+	.string "Wer also ROT kontrolliert, besitzt die\n"
+	.string "Macht, alles zu verändern, sich jeder\l"
+	.string "Situation anzupassen und am Ende als\l"
+	.string "Sieger hervorzugehen.\p"
+	.string "Und es gibt keine Möglichkeit dem\n"
+	.string "entgegenzuwirken!$"
 
 PokemonLeague_6F_Final_Texto_13:
-	.string "Don't you notice? No one, not even\n"
-	.string "LANCE, would win against a RED\l"
-	.string "long-term, exposed to enough\l"
-	.string "stimulus to perfect his team.$"
+	.string "Verstehst du es denn nicht? Niemand,\n"
+	.string "nicht einmal ein SIEGFRIED, könnte auf\l"
+	.string "lange Sicht gegen einen ROT bestehen,\l"
+	.string "wenn er genügend Anreize bekommt,\l"
+	.string "sein Team zu perfektionieren.$"
 
 PokemonLeague_6F_Final_Texto_14:
-	.string "Do you think that I do not want to use\n"
-	.string "it for saving KANTO from LANCE tyranny?\p"
-	.string "If not for starting my own dictature?$"
+	.string "Glaubst du, ich will ihn nicht nutzen, um\n"
+	.string "KANTO vor der Tyrannei SIEGFRIEDs zu\l"
+	.string "befreien?\p"
+	.string "Oder um meine eigene Diktatur zu errichten?$"
 
 PokemonLeague_6F_Final_Texto_15:
-	.string "Not even god has an answer for that\n"
-	.string "question, ROCKET, you would not have\l"
-	.string "a way to know it.$"
+	.string "Nicht einmal die Götter der\n"
+	.string "POKéMON-Welt könnten dir diese\l"
+	.string "Fragen beantworten, ROCKET!\p"
+	.string "Du würdest es nie herausfinden!$"
 
 PokemonLeague_6F_Final_Texto_16:
-	.string "So you want to stop me, even after\n"
-	.string "all you have heard.$"
+	.string "Selbst nachdem du all dies gehört hast,\n"
+	.string "gedenkst du mich aufzuhalten?$"
 
 PokemonLeague_6F_Final_Texto_17:
-	.string "Quite typical of criminals like you, they\n"
-	.string "think they are free, with a choice\l"
-	.string "capacity and an entire world full of\l"
-	.string "possibilities at their feet, until\l"
-	.string "reality knocks them down with a single\l"
-	.string "stroke, without even giving them time\l"
-	.string "to understand what has happened, just\l"
-	.string "like the insect that is crushed in a\l"
-	.string "second fraction.$"
+	.string "Das ist ganz typisch für Kriminelle wie\n"
+	.string "dich. Ihr denkt ihr wäret frei, könnten\l"
+	.string "eigenständige Entscheidungen treffen\l"
+	.string "und hätten eine Welt voller\l"
+	.string "Möglichkeiten zu euren Füßen, bis die\l"
+	.string "Realität an eure Tür klopft und euch\l"
+	.string "mit einem Schlag auf den Boden der\l"
+	.string "Tatsachen befördert, ohne euch auch\l"
+	.string "nur Zeit zu geben, zu begreifen, was\l"
+	.string "geschehen ist.$"
 
 PokemonLeague_6F_Final_Texto_18:
-	.string "Excuse RED, entering the HALL OF FAME\n"
-	.string "was his unique purpose. Beyond that,\l"
-	.string "and once his purpose is finished,\l"
-	.string "nothing that occurs afterward can be\l"
-	.string "retained in his memory, it simply does\l"
-	.string "not exist for him. Nevertheless, he\l"
-	.string "keeps his combat functions.$"
+	.string "Du musst ROTs Verhalten entschuldigen.\p"
+	.string "Die RUHMESHALLE zu betreten, war sein\n"
+	.string "Daseinszweck. Darüber hinaus und\l"
+	.string "sobald er seinen Zweck erfüllt hat,\l"
+	.string "wird er sich an nichts, was danach\l"
+	.string "geschieht, erinnern können.\p"
+	.string "Es existiert für ihn schlicht und\n"
+	.string "einfach nicht. Dennoch behält er\l"
+	.string "sein Können als Trainer bei.$"
 
 PokemonLeague_6F_Final_Texto_19:
-	.string "No one has even been close to\n"
-	.string "defeating him. If that's what you want,\l"
-	.string "you'll get what you're looking for,\l"
-	.string "you're merely another pawn that I'll\l"
-	.string "have to silence following our ridiculous\l"
-	.string "combat code.$"
+	.string "Niemand war jemals auch nur annähernd\n"
+	.string "in der Lage, ihn zu besiegen. Wenn das\l"
+	.string "dein Wunsch ist, wird er dir erfüllt\l"
+	.string "werden. Du bist lediglich ein weiterer\l"
+	.string "Bauer, den ich zum Fallen bringen muss -\l"
+	.string "ganz nach den Regeln unseres dämlichen\l"
+	.string "Kampf-Kodex.$"
 
 PokemonLeague_6F_Final_Texto_20:
-	.string "Go ahead ROCKET. Face the wall that you\n"
-	.string "will never surpass no matter how much\l"
-	.string "you effort!$"
+	.string "Nur zu, ROCKET. Tritt der Mauer\n"
+	.string "entgegen, die du niemals wirst\l"
+	.string "durchbrechen können - ganz gleich,\l"
+	.string "wie viel Mühe du dir auch gibst!$"
 
 PokemonLeague_6F_Final_Texto_21:
-.string "RED: …$"
+.string "ROT: …$"
 
 PokemonLeague_6F_Final_Texto_22:
 .string "…!$"
 
 PokemonLeague_6F_Final_Texto_23:
-.string "NO!\p"
-	.string "IMPOSIBLE!\p"
-	.string "INCONCEIVABLE!$"
+.string "NEIN!\p"
+	.string "DAS KANN NICHT SEIN!\p"
+	.string "UNMÖGLICH!$"
 
 PokemonLeague_6F_Final_Texto_24:
-	.string "You must not have won! RED was made\n"
-	.string "specifically for this! There is not any\l"
-	.string "possible way that you could have\l"
-	.string "defeated him with your resources that\l"
-	.string "you have and the POKÉMON that you can\l"
-	.string "catch in KANTO!$"
+	.string "Du kannst nicht gewonnen haben! ROT\n"
+	.string "wurde eigens hierfür geschaffen! Es\l"
+	.string "gibt keine Möglichkeit, wie du ihn mit\l"
+	.string "den Ressourcen, die dir zur Verfügung\l"
+	.string "stehen, und den POKéMON, die hier\l"
+	.string "gefangen werden können, besiegen\l"
+	.string "konntest!$"
 
 PokemonLeague_6F_Final_Texto_25:
-.string "There isn't another possible explanation!\p"
-	.string "YOU!\p"
-	.string "You…!$"
+.string "Es gibt keine andere mögliche Erklärung!\p"
+	.string "DU!\p"
+	.string "DUUUUU!$"
 
 PokemonLeague_6F_Final_Texto_26:
-.string "????: We had a deal, OAK.$"
+.string "????: Wir hatten eine Abmachung, EICH.$"
 
 PokemonLeague_6F_Final_Texto_27:
-.string "OAK: Oh{PAUSE 25},{PAUSE 25} LANCE{PAUSE 25}…{PAUSE 15}\p"
-	.string "I{PAUSE 25}-{PAUSE 25}was{PAUSE 25}…{PAUSE 25}\p"
-	.string "Was{PAUSE 5}…{PAUSE 5}$"
+.string "EICH: Oh{PAUSE 25}…{PAUSE 25} SIEGFRIED {PAUSE 25}…{PAUSE 25}\p"
+	.string "I{PAUSE 25}-{PAUSE 25}Ic{PAUSE 25}…{PAUSE 25}\p"
+	.string "ha{PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_28:
-	.string "LANCE: -A Trainer beyond reach,\n"
-	.string "unbeatable by anyone, capable of\l"
-	.string "guaranteeing us a CHAMPION aligned\l"
-	.string "with our interests, impossible to\l"
-	.string "overthrow, and who will maintain said\l"
-	.string "position for as long as we desire-.$"
+	.string "SIEGFRIED: 'Ein TRAINER, der gegen\n"
+	.string "niemanden verlieren wird - einen\l"
+	.string "garantierten CHAMPION, der mit unseren\l"
+	.string "Zielen übereinstimmt, der unantastbar\l"
+	.string "ist und der diese Position so lange\l"
+	.string "halten wird, wie wir es wollen.'$"
 
 PokemonLeague_6F_Final_Texto_29:
-	.string "That were your words, OAK, when you\n"
-	.string "convinced me to re-open the chance\l"
-	.string "to win the LEAGUE CHAMPIONSHIP.$"
+	.string "Das waren deine Worte, EICH, als du mich\n"
+	.string "davon überzeugt hast, die Chance, den\l"
+	.string "CHAMPION-TITEL zu gewinnen, noch\l"
+	.string "einmal zu ermöglichen.$"
 
 PokemonLeague_6F_Final_Texto_30:
-	.string "You presented it to me as a way to bring\n"
-	.string "back the illusion and hope to KANTO,\l"
-	.string "along with a method to gain that\l"
-	.string "difficult loyalty and trust in the\l"
-	.string "system.$"
+	.string "Du hast mir das Ganze als eine\n"
+	.string "Möglichkeit präsentiert, eine Illusion\l"
+	.string "und obendrein die Hoffnung nach KANTO\l"
+	.string "zurückzubringen, zusammen mit einer\l"
+	.string "Methode, die schwer zu erlangende\l"
+	.string "Loyalität und das Vertrauen in das\l"
+	.string "System wiederzuerlangen.$"
 
 PokemonLeague_6F_Final_Texto_30.1:
-	.string "Yes, a brilliant strategy, OAK; this\n"
-	.string "way, we could achieve our goals without\l"
-	.string "getting deeply involved, as the LEAGUE\l"
-	.string "CHAMPIONSHIP would be little more than\l"
-	.string "an illusion for any citizen, already\l"
-	.string "overwhelmed by the hard work routine.$"
+	.string "Eine brillante Strategie, EICH. So\n"
+	.string "könnten wir unsere Ziele erreichen,\l"
+	.string "ohne uns zu sehr einmischen zu müssen,\l"
+	.string "da die Liga-Meisterschaft für die\l"
+	.string "Bürger nur eine Illusion wäre.$"
 
 PokemonLeague_6F_Final_Texto_30.2:
-	.string "Preventing them from excelling in\n"
-	.string "anything beyond their daily lives…$"
+	.string "Stets überlastet von ihrer täglichen\n"
+	.string "Arbeit, wäre es für sie unmöglich, sich\l"
+	.string "in etwas zu beweisen, das über ihr\l"
+	.string "alltägliches Leben hinausgeht.$"
 
 PokemonLeague_6F_Final_Texto_30.3:
-	.string "Especially with a TRAINER like RED, a\n"
-	.string "symbol of perfection and the ultimate\l"
-	.string "strategist in combat.\p"
-	.string "Defeating him, then, must be a\n"
-	.string "statistically impossible feat to\l"
-	.string "achieve in the current KANTO.$"
+	.string "Besonders mit einem TRAINER wie ROT,\n"
+	.string "einem Symbol der Perfektion und dem\l"
+	.string "ultimativen Stratege im Kampf, wäre es\l"
+	.string "eine statistisch unmögliche Leistung,\l"
+	.string "in dieser Region Champion zu werden.$"
 
 PokemonLeague_6F_Final_Texto_31:
-	.string "It appears, OAK, that it hasn't even\n"
-	.string "been a citizen who has surpassed your\l"
-	.string "mastermind experiment.$"
+	.string "Es kommt mir so vor, EICH, als wäre es\n"
+	.string "nicht einmal ein Bürger gewesen, der\l"
+	.string "dein Meisterwerk geschlagen hat.$"
 
 PokemonLeague_6F_Final_Texto_31.1:
-	.string "A ROCKET, OAK!\p"
-	.string "HAS BEEN A ROCKET!$"
+	.string "ES WAR EIN MITGLIED VON TEAM ROCKET,\n"
+	.string "EICH! EINER VOM TEAM ROCKET!$"
 
 PokemonLeague_6F_Final_Texto_31.2:
-	.string "Perhaps you underestimated the\n"
-	.string "effects of that excessive work you\l"
-	.string "spoke of as a performance inhibitor,\l"
-	.string "at least for those capable of surviving\l"
-	.string "it and redirecting it in the correct\l"
-	.string "direction.$"
+	.string "Vielleicht hast du die Auswirkungen\n"
+	.string "dieser -harten Arbeit-, die du so\l"
+	.string "abwertend als Leistungsbremse\l"
+	.string "bezeichnet hast, unterschätzt.\p"
+	.string "Naja, zumindest für diejenigen, die in\n"
+	.string "der Lage sind, sie zu überstehen und\l"
+	.string "in die richtige Richtung zu lenken.$"
 
 PokemonLeague_6F_Final_Texto_32:
-	.string "OAK: Lemme{PAUSE 15}…{PAUSE 15} let you explain{PAUSE 25}…{PAUSE 25} MR.LANCE{PAUSE 15}…{PAUSE 15}\p"
-	.string "RED was not ready yet, still needs\n"
-	.string "to be exposed at…$"
+	.string "EICH: Bitte, SIEGFRIED, lass es mich\n"
+	.string "erklären! ROT war noch nicht bereit. Er\n"
+	.string "muss noch {PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_33:
-	.string "LANCE: I've had enough of listening to\n"
-	.string "you talk, OAK, I don't want assumptions.\p"
-	.string "I want results.\n"
-	.string "We'll handle this in my own way.$"
+	.string "SIEGFRIED: Ich habe mir genug von\n"
+	.string "deinem Gelaber angehört, EICH!\p"
+	.string "Ich möchte keine Vermutungen hören!\p"
+	.string "Ich will Ergebnisse! Wir werden\n"
+	.string "das auf meine Weise klären!$"
 
 PokemonLeague_6F_Final_Texto_34:
-	.string "I should've advised myself that\n"
-	.string "such a thing might happen with you.$"
+	.string "Ich hätte wissen müssen, dass\n"
+	.string "so etwas passieren würde.$"
 
 PokemonLeague_6F_Final_Texto_34.1:
-	.string "When I employed a stronger team than\n"
-	.string "the one I used against the other 3\l"
-	.string "competitors, to quickly remove you from\l"
-	.string "the competition, and still you came out\l"
-	.string "unscathed.$"
+	.string "Du musst wissen, dass ich gegen dich ein\n"
+	.string "Team mit etwas höheren Levels\l"
+	.string "eingesetzt habe, als bei den anderen,\l"
+	.string "um dich schnell von hier loszuwerden.\p"
+	.string "Und trotzdem hast du den Kampf\n"
+	.string "unversehrt überstanden.$"
 
 PokemonLeague_6F_Final_Texto_34.2:
-	.string "But don't worry.\p"
-	.string "I won't repeat that mistake.$"
+	.string "Aber keine Sorge. Nur ein Narr stolpert\n"
+	.string "zweimal über denselben Stein.\p"
+	.string "Und ich bin kein Narr!$"
 
 PokemonLeague_6F_Final_Texto_35:
-.string "OAK: Wh{PAUSE 15}-{PAUSE 15}what are you{PAUSE 15}…{PAUSE 15} going to do?$"
+.string "EICH: W{PAUSE 25}-{PAUSE 25}was gedenkst du zu tun?$"
 
 PokemonLeague_6F_Final_Texto_36:
-.string "OAK: We a{PAUSE 15}-{PAUSE 15}are doomed{PAUSE 15}…{PAUSE 15}\p"
-	.string "He is{PAUSE 15}…{PAUSE 15}\p"
-	.string "Going to{PAUSE 15}…{PAUSE 15}\p"
-	.string "Release the beas…$"
+.string "EICH: Wir sind verdammt {PAUSE 25}…{PAUSE 25}\p"
+	.string "Er {PAUSE 25}…{PAUSE 25}\p"
+	.string "wird {PAUSE 15}…{PAUSE 15}\p"
+	.string "sie freilassen, die Besti{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_37:
-	.string "LANCE: CHAMPION, GOVERNOR{PAUSE 15}…{PAUSE 15}\p"
-	.string "Just words, who has the power\n"
-	.string "rules the world.$"
+	.string "SIEGFRIED: CHAMPION, GOUVERNEUR {PAUSE 25}…{PAUSE 25}\n"
+	.string "alles nur Worte. Der, der die Macht\l"
+	.string "besitzt, wird diese Welt regieren!$"
 
 PokemonLeague_6F_Final_Texto_38:
-	.string "Why do you think people love and\n"
-	.string "venerate that much  both LEGENDARIES\l"
-	.string "and PSEUDOLEGENDARIES?\p"
-	.string "We don't care where they come from.\p"
-	.string "Only thing that we care about is; that\n"
-	.string "compared to the rest of POKÉMON, they\l"
-	.string "have a great and exceptional unique\l"
-	.string "power.$"
+	.string "Warum glaubst du lieben und verehren\n"
+	.string "Menschen LEGENDÄRE POKéMON und\l"
+	.string "PSEUDO-LEGENDÄRE so sehr?\p"
+	.string "Ganz einfach. Uns interessiert nicht,\n"
+	.string "woher sie kommen. Das Einzige, was uns\l"
+	.string "interessiert, ist ihre Macht, die\l"
+	.string "im Vergleich zu anderen POKéMON\l"
+	.string "außergewöhnlich und einzigartig ist!$"
 
 PokemonLeague_6F_Final_Texto_39:
-	.string "That's where its magic lies, in the\n"
-	.string "unknown of that power, and in this case,\l"
-	.string "it's inaccessible to the rest.$"
-	
+	.string "Darin liegt die Magie - im Unbekannten\n"
+	.string "dieser Macht, und in diesem Fall ist sie\l"
+	.string "für den Rest unerreichbar.$"
+
 PokemonLeague_6F_Final_Texto_39.1:
-	.string "As far as I know, science has not yet\n"
-	.string "managed to reproduce the miraculous\l"
-	.string "combination capable of emulate the\l"
-	.string "power of a LEGENDARY POKÉMON.$"
+	.string "Soweit ich weiß, hat es die\n"
+	.string "Wissenschaft noch nicht geschafft,\l"
+	.string "herauszufinden, wie man ein LEGENDÄRES\l"
+	.string "POKéMON erschafft.$"
 
 PokemonLeague_6F_Final_Texto_40:
-	.string "So many years of hard work to discover\n"
-	.string "better fruits in nature, OAK.$"
+	.string "So viele Jahre der harten Arbeit, EICH,\n"
+	.string "nur um schließlich festzustellen, dass\l"
+	.string "die Natur bessere Früchte\l"
+	.string "hervorbringt.$"
 
 PokemonLeague_6F_Final_Texto_40.1:
-	.string "You were foolish to believe you could\n"
-	.string "play with the rules of the game better\l"
-	.string "than the creator of those rules.$"
+	.string "Es war töricht von dir zu denken, du\n"
+	.string "könntest das Spiel besser beherrschen\l"
+	.string "als derjenige, der die Regeln\l"
+	.string "geschaffen hat.$"
 
 PokemonLeague_6F_Final_Texto_41:
-	.string "I will do what I should have done a\n"
-	.string "long time ago: govern this region\l"
-	.string "with no mercy.$"
+	.string "Ich werde das tun, was ich schon vor\n"
+	.string "Jahren hätte tun sollen: Diese Region\l"
+	.string "ohne jegliche Gnade regieren.$"
 
 PokemonLeague_6F_Final_Texto_41.1:
-	.string "YES! Who better than me, LANCE?\p"
-	.string "The greatest expert in the most sacred\n"
-	.string "and powerful type that exists: the\l"
-	.string "DRAGON TYPE, to assume that role.$"
+	.string "Und wer wäre besser für den Job\n"
+	.string "geeignet als ich, SIEGFRIED, der größte\l"
+	.string "Experte des mächtigsten und heiligsten\l"
+	.string "Typs: der DRACHEN!$"
 
 PokemonLeague_6F_Final_Texto_42:
-	.string "Concerning you, ROCKET.\p"
-	.string "That's simple: after crushing you like\n"
-	.string "a simple insect, I will publicly expose\l"
-	.string "whatever is left of you and your team,\l"
-	.string "as an example and a warning of what\l"
-	.string "awaits anyone daring to show the\l"
-	.string "slightest insubordination against\l"
-	.string "my government.$"
+	.string "Was dich angeht {PAUSE 15}…{PAUSE 15}\p"
+	.string "Nachdem ich dich wie ein mickriges\n"
+	.string "Insekt zerstampft habe, werde an dir\l"
+	.string "und dem, was von deinem Team übrig\l"
+	.string "bleibt, ein Exempel statuieren - als\l"
+	.string "Beispiel und Warnung für alle, die es\l"
+	.string "wagen, auch nur den geringsten\l"
+	.string "Widerstand gegen meine Regierung\l"
+	.string "zu leisten!$"
 
 PokemonLeague_6F_Final_Texto_43:
-	.string "But, be positive.\p"
-	.string "You shall be remembered as the one\n"
-	.string "that made 'LANCE I' use his sacred\l"
-	.string "POKÉMON just before the dawn of the\l"
-	.string "new era of his reign…$"
+	.string "Sei stolz, ROCKET!\p"
+	.string "Du wirst als derjenige in Erinnerung\n"
+	.string "bleiben, der SIEGFRIED I. dazu brachte,\l"
+	.string "seine heiligen POKéMON einzusetzen -\l"
+	.string "kurz vor dem Beginn der neuen Ära\l"
+	.string "seines Regimes {PAUSE 5}…{PAUSE 5}$"
 
 PokemonLeague_6F_Final_Texto_44:
-.string "LANCE: {PAUSE 15}…{PAUSE 15}$"
+.string "SIEGFRIED: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_45:
-	.string "{PAUSE 15}…{PAUSE 15} There is no honor in beating up\n"
-	.string "an opponent weakened by the hard way\l"
-	.string "to this room: I want you to see how I\l"
-	.string "crush your team at ist's peak.\p"
-	.string "You'll understand once and for all\n"
-	.string "that there are powers that mortals\l"
-	.string "like you can only bow to them.$"
+	.string "Aber es ist keine Leistung, einen\n"
+	.string "geschwächten Gegner zu bezwingen.\p"
+	.string "Ich will, dass du mit eigenen Augen\n"
+	.string "siehst, wie ich dein Team auf dem\l"
+	.string "Höhepunkt seiner Stärke zermalme!\p"
+	.string "Du wirst ein für alle Mal verstehen,\n"
+	.string "dass es Mächte gibt, von denen\l"
+	.string "Sterbliche wie du nur träumen können!$"
 
 PokemonLeague_6F_Final_Texto_46:
-	.string "I AM THE STATE!!$"
+	.string "ICH BIN DER STAAT!!$"
 
 PokemonLeague_6F_Final_Texto_47:
-.string "My dragons!\p"
-	.string "My sacred beasts!\p"
-	.string "How?$"
+.string "Meine Drachen!\p"
+	.string "Meine Legendären Bestien!\p"
+	.string "Wie kann das sein!$"
 
 PokemonLeague_6F_Final_Texto_48:
-	.string "LANCE: This can't be! No one had stood a\n"
-	.string "chance against my best POKÉMON; they\l"
-	.string "are the best around! There's nothing\l"
-	.string "stronger in the entire KANTO region!$"
+	.string "SIEGFRIED: Das ist unmöglich! Niemand\n"
+	.string "hatte jemals eine Chance gegen meine\l"
+	.string "besten POKéMON! Sie sind die Besten der\l"
+	.string "Besten!\p"
+	.string "Es gibt keine Besseren in ganz KANTO!$"
 
 PokemonLeague_6F_Final_Texto_49:
-	.string "????: You are wrong, LANCE.$"
+	.string "????: Da liegst du falsch, SIEGFRIED.$"
 
 PokemonLeague_6F_Final_Texto_50:
-	.string "GIOVANNI: Your ego and arrogance have\n"
-	.string "led to your downfall; while you were\l"
-	.string "complacent in the safety of a power\l"
-	.string "whose origin you were unaware of{PAUSE 15}…{PAUSE 15}\p"
-	.string "Others toiled tirelessly, we knew your\n"
-	.string "limits and strove day by day to forge an\l"
-	.string "even greater power.$"
+	.string "GIOVANNI: Dein Ego und deine Arroganz\n"
+	.string "sind dein Untergang. Während du dich in\l"
+	.string "der Sicherheit einer Macht wiegtest,\l"
+	.string "deren Ursprung dir unbekannt war,\l"
+	.string "haben wir anderen unermüdlich\l"
+	.string "gearbeitet. Wir kannten deine Grenzen\l"
+	.string "und strebten Tag für Tag danach, eine\l"
+	.string "noch größere Macht zu erschaffen.$"
 
 PokemonLeague_6F_Final_Texto_51:
-	.string "With no necessity feeding your power,\n"
-	.string "it has weakened, and during this time,\l"
-	.string "our greatest motivation was to\l"
-	.string "challenge your tyranny.\p"
-	.string "Now, it's time for you to return to\n"
-	.string "the nature which belongs to it.$"
+	.string "Ohne die Notwendigkeit noch stärker zu\n"
+	.string "werden, wurdest du schwächer. In dieser\l"
+	.string "Zeit lag unsere größte Motivation\l"
+	.string "darin, deiner Tyrannei ein Ende zu\l"
+	.string "setzen. Jetzt ist es Zeit, dass du der\l"
+	.string "Natur das zurückgibst, was ihr gehört.$"
 
 PokemonLeague_6F_Final_Texto_52:
-.string "LANCE: NO! ENTEI, RAIKOU, SUICUNE!$"
+.string "SIEGFRIED: NO! ENTEI, RAIKOU, SUICUNE!$"
 
 PokemonLeague_6F_Final_Texto_53:
-	.string "GIOVANNI: {PLAYER}! I never thought\n"
-	.string "you could go this far. As soon as ANDRA\l"
-	.string "notified me of the situation and your\l"
-	.string "achievement in the HALL OF FAME, I\l"
-	.string "chose to come personally, even at the\l"
-	.string "risk of attracting media attention!\p"
-	.string "You've proven the invaluable worth of\n"
-	.string "properly trained POKÉMON, regardless\l"
-	.string "of their origin, you have made them a\l"
-	.string "totally champions, capable of\l"
-	.string "overcoming any situation!$"
+	.string "GIOVANNI: {PLAYER}! Ich hätte\n"
+	.string "niemals gedacht, dass du es so weit\l"
+	.string "bringen würdest! {PAUSE 25} Nachdem ANDRA mich\l"
+	.string "über die Lage und deinen Einzug in die\l"
+	.string "RUHMESHALLE informiert hatte,\l"
+	.string "beschloss ich, persönlich\l"
+	.string "hierherzukommen, auch wenn ich damit\l"
+	.string "das Risiko eingehe, die Aufmerksamkeit\l"
+	.string "der Medien auf mich zu ziehen! {PAUSE 25}\p"
+	.string "Du hast den unschätzbaren Wert von gut\n"
+	.string "trainierten POKéMON bewiesen und das\l"
+	.string "sie, unabhängig von ihrer Herkunft,\l"
+	.string "zu echten Champions werden können,\l"
+	.string "imstande jede Situation zu meistern!$"
 
 PokemonLeague_6F_Final_Texto_54:
-	.string "Those who thought they had control\n"
-	.string "over everything in their surroundings,\l"
-	.string "simplifying the world to a simple\l"
-	.string "equation.$"
+	.string "Diejenigen, die dachten, sie hätten die\n"
+	.string "volle Kontrolle über alles um sie herum\l"
+	.string "und das sie alles auf eine einfache\l"
+	.string "Gleichung reduzieren könnten.$"
 
 PokemonLeague_6F_Final_Texto_55:
-.string "OAK: …$"
+.string "EICH: …$"
 
 PokemonLeague_6F_Final_Texto_56:
-	.string "GIOVANNI: And whose who played the\n"
-	.string "role of gods, thinking themselves\l"
-	.string "superior to the rest simply by\l"
-	.string "being born that way.$"
+	.string "Und jene, die Gott spielten, überzeugt\n"
+	.string "davon, der restlichen Welt allein durch\l"
+	.string "ihre Herkunft überlegen zu sein.$"
 
 PokemonLeague_6F_Final_Texto_57:
-	.string "{PLAYER}! You've proven that, in the\n"
-	.string "end, nothing exceeds the action driven\l"
-	.string "by an unbreakable will to achieve a\l"
-	.string "top milestone!$"
+	.string "GIOVANNI: Du hast bewiesen, dass\n"
+	.string "letzten Endes nichts die Macht einer\n"
+	.string "Handlung übertrifft, die von einem\l"
+	.string "unerschütterlichen Willen angetrieben\l"
+	.string "wird, ein Ziel zu erreichen.$"
 
 PokemonLeague_6F_Final_Texto_58:
-	.string "There is no doubt: only someone like\n"
-	.string "you, deserves a place in the history\l"
-	.string "books, immortalized in the HALL OF FAME!\p"
-	.string "Nothing will be the same after this!$"
+	.string "GIOVANNI: {PLAYER}! Nur jemand wie\n"
+	.string "du verdient einen Platz in den\l"
+	.string "Geschichtsbüchern - für immer in der\l"
+	.string "RUHMESHALLE verewigt zu werden!$"
 
 PokemonLeague_6F_Final_Move_1:
 emote_exclamation_mark
@@ -1155,3 +1194,5 @@ walk_slow_right
 walk_slow_up
 walk_in_place_up
 step_end
+
+

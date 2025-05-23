@@ -37,12 +37,13 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_3:
-	.string "I don't know who you are nor where you\n"
-	.string "came from, but that doesn't really care,\l"
-	.string "kid, this championship already has an\l"
-	.string "owner. Indeed, I heard LANCE saying\l"
-	.string "that a kid from PALLET TOWN is destined\l"
-	.string "to be the new CHAMP.$"
+	.string "Ich weiß nicht, wer du bist oder wo du\n"
+	.string "herkommst, aber das ist auch egal,\l"
+	.string "Kleiner! Die Liga hat quasi schon einen\l"
+	.string "Sieger! SIEGFRIED höchstpersönlich\l"
+	.string "hat verlauten lassen, dass dieser Junge\l"
+	.string "aus ALABASTIA dazu bestimmt ist, der\l"
+	.string "neue CHAMP zu werden.$"
 
 
 
@@ -54,11 +55,13 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_4:
-	.string "We apologize for the inconvenience, but\n"
-	.string "in the last POKÉMON LEAGUE, there were\l"
-	.string "some technical issues. We will need time\l"
-	.string "to rearrange the championship. Thank\l"
-	.string "you.$"
+	.string "Wir bitten um Entschuldigung für die\n"
+	.string "Unannehmlichkeiten. Bei der letzten\l"
+	.string "LIGA-MEISTERSCHAFT sind technische\l"
+	.string "Störungen aufgetreten.\p"
+	.string "Wir benötigen Zeit, um die\n"
+	.string "Meisterschaft neu zu organisieren.\p"
+	.string "Wir danken Ihnen für Ihr Verständnis.$"
 
 
 
@@ -70,16 +73,15 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_5:
-	.string "AGATHA's GHOST-type POKÉMON are\n"
-	.string "horrifically terrifying in toughness.\p"
-	.string "I took my FIGHTING-type POKÉMON\n"
-	.string "and raised them to the max.\p"
-	.string "I went at AGATHA feeling pretty\n"
-	.string "confident, but she whupped us.\p"
-	.string "That old lady's also got a really\n"
-	.string "short fuse, too.\p"
-	.string "It doesn't take anything to get\n"
-	.string "that scary lady hollering.$"
+	.string "AGATHEs GEIST-POKéMON sind\n"
+	.string "erschreckend hartnäckig. Ich habe\l"
+	.string "meine KAMPF-POKéMON bis zum Äußersten\l"
+	.string "trainiert. Ich bin selbstbewusst zu\l"
+	.string "AGATHE gegangen, aber sie hat uns mit\l"
+	.string "Leichtigkeit besiegt. Die alte Dame ist\l"
+	.string "auch leicht zu verärgern.\p"
+	.string "Es bedarf nur einer Bagatelle und die\n"
+	.string "Angst einflößende Dame legt los.$"
 
 
 
@@ -91,11 +93,11 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_6:
-	.string "Maybe becoming an ELITE FOUR\n"
-	.string "member is in the blood.\p"
-	.string "From what I've heard, LANCE has\n"
-	.string "a cousin who's a GYM LEADER\l"
-	.string "somewhere far away.$"
+	.string "Vielleicht liegt eine Mitgliedschaft bei\n"
+	.string "den TOP VIER in den Genen. Ich habe\l"
+	.string "gehört, dass Siegfried einen Cousin\l"
+	.string "hat, der irgendwo weit weg Arenaleiter\l"
+	.string "ist.$"
 
 
 

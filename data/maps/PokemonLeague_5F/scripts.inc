@@ -328,12 +328,14 @@ step_end
 
 
 PokemonLeague_5F_Azul_Rojo_Texto_1:
-	.string "ANDRA: {PLAYER}! Finally!\p"
+	.string "ANDRA: {PLAYER}! Da bist du ja endlich!\p"
 	.string "{PAUSE 15}…{PAUSE 15}\n"
 	.string "{PAUSE 15}…{PAUSE 15}\p"
-	.string "BLUE was the first one to defeat\n"
-	.string "LANCE, but there is no good news,\l"
-	.string "he is being massacred by RED, look…$"
+	.string "Ich habe eine gute und eine schlechte\n"
+	.string "Nachricht. Die Gute ist, BLAU hat\l"
+	.string "SIEGFRIED als Erstes besiegt. Die\l"
+	.string "Schlechte ist, dass er gerade von ROT\l"
+	.string "regelrecht vernichtet wird. Sieh nur …$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_2:
 .string "Char!$"
@@ -342,216 +344,224 @@ PokemonLeague_5F_Azul_Rojo_Texto_3:
 .string "Blas…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_4:
-.string "RED: {PAUSE 25}…{PAUSE 25}$"
+.string "ROT: {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_5:
-	.string "BLUE: NO!\p"
-	.string "That can't be!\p"
-	.string "You beat me at my best!\p"
-	.string "After all that work to become\n"
-	.string "the LEAGUE CHAMP?\p"
-	.string "My reign is over already?\n"
-	.string "It's not fair!$"
+	.string "BLAU: NEIN!\p"
+	.string "Das kann nicht wahr sein!\p"
+	.string "Meine besten POKÉMON sind geschlagen!\p"
+	.string "Mein SIEGESZUG ist schon vorbei?\p"
+	.string "Nach all den Anstrengungen\n"
+	.string "LIGA-CHAMPION zu werden?\p"
+	.string "Das ist nicht fair!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_6:
-	.string "Why?\n"
-	.string "Why did I lose?\p"
-	.string "I never made any mistakes raising\n"
-	.string "my POKÉMON…{PAUSE 20}\p"
-	.string "Darn it! You're the new POKÉMON\n"
-	.string "LEAGUE CHAMPION!\p"
-	.string "Although I don't like to admit it…$"
+	.string "Wieso?\n"
+	.string "Wieso habe ich verloren?\p"
+	.string "Ich habe meine POKéMON doch sehr\n"
+	.string "sorgfältig aufgezogen … Verdammt!\p"
+	.string "Du bist der neue CHAMPION der POKéMON\n"
+	.string "LIGA! Aber ich gönne dir das nicht!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_7:
-.string "OAK: RED!$"
+.string "EICH: ROT!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_8:
-	.string "OAK: So, you've won!\n"
-	.string "Sincerely, congratulations!\p"
-	.string "You're the new POKÉMON LEAGUE\n"
-	.string "CHAMPION!{PAUSE 30}\p"
-	.string "You've grown up so much since you\n"
-	.string "first left with CHARMANDER to work\l"
-	.string "on the POKéDEX.\p"
-	.string "RED, you have come of age!$"
-
+	.string "EICH: Du hast also gewonnen!\n"
+	.string "Glückwunsch!\p"
+	.string "Du bist der neue Champion\n"
+	.string "der POKéMON LIGA!{PAUSE 30}\p"
+	.string "Du hast viel dazugelernt, seit du dich\n"
+	.string "mit GLUMANDA auf den Weg gemacht hast.\p"
+	.string "Du bist schon viel erfahrener!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_9:
-	.string "OAK: BLUE…{PAUSE 35}\n"
-	.string "I'm disappointed in you.\p"
-	.string "I came when I heard you'd beaten\n"
-	.string "the ELITE FOUR.\p"
-	.string "But, when I got here, you had\n"
-	.string "already lost!\p"
-	.string "BLUE, do you understand why\n"
-	.string "you lost?\p"
-	.string "You have forgotten to treat your\n"
-	.string "POKÉMON with love and trust.\p"
-	.string "Without them, you will never\n"
-	.string "become a CHAMP again!$"
+	.string "OAK: EICH: BLAU…{PAUSE 35}\n"
+	.string "Du hast mich sehr enttäuscht!\p"
+	.string "Als ich hörte, du hättest die TOP VIER\n"
+	.string "besiegt, kam ich hierher! Doch als ich\l"
+	.string "ankam, warst du der Verlierer! BLAU,\l"
+	.string "weißt du, warum du verloren hast?\p"
+	.string "Du hast deinen POKéMON nicht genug\n"
+	.string "Liebe und Vertrauen entgegengebracht!\p"
+	.string "So wirst du niemals Sieger werden!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_10:
-	.string "OAK: RED!\p"
-	.string "You understand that your victory\n"
-	.string "was not just your own doing.\p"
-	.string "The bond you share with your\n"
-	.string "POKÉMON is marvelous.$"
+	.string "EICH: ROT!\p"
+	.string "Du hast begriffen, dass dein Sieg nicht\n"
+	.string "alleine dein Verdienst war!\p"
+	.string "Die Beziehung zu deinen POKéMON\n"
+	.string "ist vorbildlich!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_11:
-	.string "RED!\n"
-	.string "Come with me!$"
+	.string "ROT!\n"
+	.string "Folge mir!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_12:
-.string "BLUE: {PAUSE 25}…{PAUSE 25}$"
+.string "BLAU: {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_13:
-	.string "Gr-{PAUSE 45}Grandpa…{PAUSE 35} Wait…{PAUSE 35} Please…{PAUSE 35} I did my\n"
-	.string "best…!{PAUSE 25} I have treated my POKÉMON with\l"
-	.string "kindness and trust…!{PAUSE 35} Since the\l"
-	.string "beginning, it has always been like this;\l"
-	.string "I've never disappointed them, and I've\l"
-	.string "never treated them as simple cards in a\l"
-	.string "deck like RED does…{PAUSE 35}$"
+	.string "O-{PAUSE 45}Opa…{PAUSE 35} Warte…{PAUSE 35} Bitte…{PAUSE 35}\p"
+	.string "Ich habe mein Bestes gegeben …!{PAUSE 25}\p"
+	.string "Ich habe meine POKéMON von Anfang an\n"
+	.string "mit Liebe und Vertrauen behandelt …!\p"
+	.string "Ich habe sie nie enttäuscht oder als\n"
+	.string "bloße Werkzeuge gesehen, so wie ROT\l"
+	.string "es tut …!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_14:
-	.string "After all I went through, the issues I\n"
-	.string "had, I thought you would be proud of\l"
-	.string "me…{PAUSE 35} although I lost against RED, I\l"
-	.string "thought you would be proud of me for\l"
-	.string "trying my best and that I have a team\l"
-	.string "worthy of defeating the entire ELITE 4.$"
+	.string "Nach allem, was ich durchgestanden\n"
+	.string "habe, nach all den Schwierigkeiten,\l"
+	.string "dachte ich, du wärst stolz auf mich …\l"
+	.string "auch wenn ich gegen ROT verloren habe!\p"
+	.string "Ich dachte, du würdest zumindest\n"
+	.string "anerkennen, dass ich mein Bestes\l"
+	.string "gegeben habe und ein Team aufgebaut\l"
+	.string "habe, das stark genug war, um die TOP\l"
+	.string "VIER zu besiegen!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_15:
-	.string "But that never happened, grandpa…{PAUSE 35} I\n"
-	.string "see that you are the kind of person who\l"
-	.string "leaves you dying on the floor if you are\l"
-	.string "not the best! What happened here today\l"
-	.string "won't be erased from my memory!$"
+	.string "Aber das hast du noch nie getan, OPA {PAUSE 15}…{PAUSE 15}\n"
+	.string "Ich verstehe jetzt, dass du zu den\l"
+	.string "Menschen gehörst, die einen einfach\l"
+	.string "fallen lassen, wenn sie nicht mehr die\l"
+	.string "Besten sind! Was hier heute passiert\l"
+	.string "ist … werde ich nie vergessen!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_16:
-	.string "ANDRA: BLUE! Calm down! I saw the fight\n"
-	.string "and you have improved a lot since the\l"
-	.string "last time we battled, you achieved what\l"
-	.string "you aimed for; a strong and balanced\l"
-	.string "POKÉMON team, all at level 60, don't\l"
-	.string "blame yourself for not being able to\l"
-	.string "defeat RED! His fighting style…{PAUSE 25} And the\l"
-	.string "strength and energy of his POKÉMON…{PAUSE 25}\l"
-	.string "It's unnatural…$"
+	.string "ANDRA: Komm runter, BLAU! Ich habe den\n"
+	.string "Kampf gesehen. Du bist viel besser\l"
+	.string "geworden, seit wir das letzte Mal\l"
+	.string "gekämpft haben. Du hast genau das\l"
+	.string "erreicht, was du wolltest: Ein starkes\l"
+	.string "und ausgeglichenes Team. Gib dir nicht\l"
+	.string "die Schuld für deine Niederlage gegen\l"
+	.string "ROT. Sein Kampfstil {PAUSE 25}…{PAUSE 25} Und die Stärke und\l"
+	.string "Energie seiner POKéMON {PAUSE 25}…{PAUSE 25} sind einfach\l"
+	.string "nicht normal {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_17:
-.string "BLUE: {PLAYER}!!!\p"
-	.string "You are here!$"
+.string "BLAU: {PLAYER}!!!\p"
+	.string "Da bist du ja!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_18:
-	.string "This can't finish like this! I'm so mad\n"
-	.string "about that invincibility aura that\l"
-	.string "surrounds RED, I had enough of thinking\l"
-	.string "he's the untouchable and immaculate\l"
-	.string "TRAINER who never loses, also acting\l"
-	.string "mysterious without even deigning to\l"
-	.string "talk to you after trashing you in\l"
-	.string "battle. Just can't end like this!$"
+	.string "So kann es nicht enden! Ich habe es so\n"
+	.string "satt, diese Aura der Unbesiegbarkeit um\l"
+	.string "ROT herum zu spüren! Ich habe genug\l"
+	.string "davon, dass er als unantastbarer und\l"
+	.string "makelloser TRAINER dargestellt wird,\l"
+	.string "der nie verliert! Und dann noch dieses\l"
+	.string "geheimnisvolle Getue gepaart mit dieser\l"
+	.string "Respektlosigkeit, dir nicht mal ein\l"
+	.string "einziges Wort zu sagen, nachdem er dich\l"
+	.string "vernichtet hat! Das ist so respektlos!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_18.1:
 	.string "{PLAYER}!\p"
-	.string "You have to defea…!{PAUSE 25}$"
+	.string "Du musst ihn fertig ma…!{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_19:
-	.string "COP: The party is over, kids:\p"
-	.string "We have a new CHAMPION, the POKÉMON\n"
-	.string "LEAGUE challenge has finished.$"
+	.string "POLIZIST: Die Party ist vorbei, Kinder!\p"
+	.string "Wir haben einen neuen CHAMPION!\p"
+	.string "Die POKéMON LIGA Herausforderung\n"
+	.string "ist hiermit offiziell vorbei!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_20:
-	.string "ANDRA: Huh, hold on! {PLAYER} and I\n"
-	.string "just defeated ELITE 4 too! As RED did\l"
-	.string "just a bit before with BLUE, both of us\l"
-	.string "deserve a chance to fight against RED\l"
-	.string "for the title, because we have come\l"
-	.string "this far!$"
+	.string "ANDRA: Moment mal! {PLAYER} und ich\n"
+	.string "haben gerade ebenfalls die TOP VIER\l"
+	.string "besiegt! So wie ROT vorhin die Chance\l"
+	.string "hatte, gegen BLAU zu kämpfen,\l"
+	.string "verdienen wir es, ROT um den Titel\l"
+	.string "herauszufordern! Immerhin haben wir\l"
+	.string "es bis hierher geschafft!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_21:
-	.string "COP: You're not exactly in condition to\n"
-	.string "argue anything, girl.$"
+	.string "POLIZIST: Du bist wirklich nicht in der\n"
+	.string "Position, hier irgendwelche Forderungen\l"
+	.string "zu stellen, Kleine!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_22:
-.string "You get away from there!\p"
-	.string "You are a shame to OAK's family.$"
+.string "Ihr verdient es nicht, hier zu stehen!\p"
+	.string "Ihr seid eine Schande für EICH!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_23:
-	.string "BRUNO has informed us about who\n"
-	.string "you truly are. Both things, the\l"
-	.string "POKÉMON LEAGUE and your freedom,\l"
-	.string "ends right here, right now.$"
+	.string "BRUNO hat uns die ganze Sache erklärt.\p"
+	.string "Sowohl die POKéMON LIGA, als auch eure\n"
+	.string "Freiheit enden hier und jetzt!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_23.1:
-	.string "At this time, we have more than enough\n"
-	.string "evidence to prosecute you for life due\l"
-	.string "to all your crimes, if you behave and\l"
-	.string "don't resist, maybe we'll let you out\l"
-	.string "in a couple of decades.$"
+	.string "Wir haben genug Beweise, um euch\n"
+	.string "lebenslang hinter Gitter zu bringen!\p"
+	.string "Wenn ihr kooperiert und keinen\n"
+	.string "Widerstand leistet, lassen wir euch\l"
+	.string "vielleicht in ein paar Jahrzehnten\l"
+	.string "wieder frei!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_24:
-.string "ANDRA: {PAUSE 15}…{PAUSE 15} So{PAUSE 15}…{PAUSE 15} 9 cops{PAUSE 15}…{PAUSE 15}$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} Neun{PAUSE 15}…{PAUSE 15} Bullen{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_25:
-.string "POLICEMAN: What do you mean?$"
+.string "POLIZIST: Wie war das?$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_26:
-	.string "ANDRA: You should know{PAUSE 15}…{PAUSE 15} about what kind\n"
-	.string "of TRAINERS are you talking to{PAUSE 15}…{PAUSE 15}\p"
-	.string "We've just beaten the ELITE 4…$"
+	.string "ANDRA: Du solltest wissen, wen du hier\n"
+	.string "vor dir hast.\p"
+	.string "Wir haben vorhin die TOP VIER besiegt {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_27:
-.string "IS THAT ALL YOU HAVE!!??\p"
-	.string "COM'ON, BRING MORE!\p"
+.string "DAS SOLL ALLES SEIN?\p"
+	.string "KOMMT SCHON! SCHICKT NOCH MEHR!\p"
 	.string "10!{PAUSE 20}…{PAUSE 20}\n"
 	.string "20!{PAUSE 20}…{PAUSE 20}\p"
 	.string "50!{PAUSE 20}…{PAUSE 20}\p"
-	.string "You will need something else than that\n"
-	.string "to bend our will and the will of our\l"
-	.string "POKÉMON!$"
+	.string "Ich werdet schon mehr brauchen, um\n"
+	.string "unseren Willen und den unserer\l"
+	.string "POKéMON zu brechen!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_28:
-	.string "COP: Insolent girl! Don't dar…!$"
+	.string "POLIZIST: Du unverschämte Göre!\p"
+	.string "Wage es ja nicht …!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_29:
-.string "ANDRA: HERACROSS!\p"
-	.string "CLOSE COMBAT TO THE\n"
-	.string "HALL OF FAME'S DOOR!$"
+.string "ANDRA: SKARABORN!\p"
+	.string "SETZE NAHKAMPF GEGEN DIE TÜR\n"
+	.string "DER RUHMESHALLE EIN!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_30:
 .string "cross!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_31:
-	.string "BLUE: Wow! That HERACROSS has become\n"
-	.string "even stronger, what an attack!$"
+	.string "BLAU: Wow! Dieses SKARABORN ist seit\n"
+	.string "dem letzten Mal noch stärker geworden!\p"
+	.string "Was für eine Kraft!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_32:
 .string "ANDRA: {PLAYER}!\p"
-	.string "Run!$"
+	.string "Lauf!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_33:
 	.string "ANDRA: {PLAYER}!\p"
-	.string "You enter in!\p"
-	.string "I'll contain these amateurs! You don't\n"
-	.string "have to fear, with me around!\p"
-	.string "After seeing RED in action, I've\n"
-	.string "realized that you're the only one\l"
-	.string "with a chance to battle against that\l"
-	.string "steamroller that knocks down TRAINERS\l"
-	.string "like nothing.$"
+	.string "Geh rein!\p"
+	.string "Ich kümmer mich schon um diese\n"
+	.string "Schwächlinge! Mach dir also keine\l"
+	.string "Sorgen! Nachdem ich ROT gerade in\l"
+	.string "Aktion gesehen habe, ist mir klar\l"
+	.string "geworden, dass du der Einzige bist, der\l"
+	.string "eine Chance gegen diese Dampfwalze\l"
+	.string "hat, die Trainer wie Dominosteine\l"
+	.string "umhaut.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_33.1:
-	.string "In TEAM ROCKET's name!\p"
-	.string "Here is your chance!\p"
-	.string "You're a completely different TRAINER\n"
-	.string "than the one who was defeated in MT.\l"
-	.string "MOON. You've seen a KANTO that this RED\l"
-	.string "will never have the privilege to know.\p"
-	.string "I trust you and all the improvements\n"
-	.string "you've made! Show him once and for all\l"
-	.string "what you're worth!$"
+	.string "Im Namen von TEAM ROCKET!\p"
+	.string "Das ist deine Chance!\p"
+	.string "Du bist nicht mehr der TRAINER, der\n"
+	.string "damals gegen ihn im MONDBERG verloren\l"
+	.string "hat! Du hast ein KANTO gesehen, das\l"
+	.string "dieser ROT niemals kennenlernen wird!\p"
+	.string "Ich glaube an dich und all die\n"
+	.string "Fortschritte, die du gemacht hast!\p"
+	.string "Zeig ihm ein für alle mal, was du\n"
+	.string "wirklich drauf hast!$"
 
 PokemonLeague_5F_Azul_Rojo_Move_1:
 walk_in_place_up
