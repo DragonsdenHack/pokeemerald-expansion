@@ -9,8 +9,8 @@ release
 end
 
 SafariZone_House31_Text_1:
-	.string "Go to the deepest part of the\n"
-	.string "SAFARI ZONE. You will win a prize!$"
+	.string "Gehe in die SAFARI-ZONE!\n"
+	.string "Du kannst dort einen Preis gewinnen!$"
 
 
 
@@ -22,12 +22,12 @@ release
 end
 
 SafariZone_House31_Text_2:
-	.string "The SAFARI ZONE's huge, wouldn't\n"
-	.string "you say?\p"
-	.string "FUCHSIA's GYM LEADER, KOGA, \n"
-	.string "patrols the grounds every so often.\p"
-	.string "Thanks to him, we can play here\n"
-	.string "knowing that we're safe.$"
+	.string "Die SAFARI-ZONE ist riesig,\n"
+	.string "nicht?\p"
+	.string "Der ARENALEITER von FUCHSANIA CITY,\n"
+	.string "KOGA, hält hier gelegentlich Wache.\p"
+	.string "Dank ihm können wir hier in\n"
+	.string "Sicherheit spielen.$"
 
 
 
@@ -39,10 +39,9 @@ release
 end
 
 SafariZone_House31_Text_3:
-	.string "You can keep any item you find in\n"
-	.string "the SAFARI ZONE.\p"
-	.string "But, you'll run out of time if you\n"
-	.string "try for all of them at once.$"
+	.string "Alle Items, die du findest, gehören dir!\p"
+	.string "Aber dir wird die Zeit davonlaufen, wenn\n"
+	.string "du alle auf einmal einsammeln möchtest!$"
 
 
 
@@ -55,6 +54,6 @@ release
 end
 
 SafariZone_House31_Text_4:
-	.string "My EEVEE evolved into FLAREON.\p"
-	.string "But, a friend's EEVEE turned into a\n"
-	.string "VAPOREON. I wonder why?$"
+	.string "Mein EVOLI hat sich zu FLAMARA\n"
+	.string "entwickelt! Aber bei einem Freund hat\l"
+	.string "sich EVOLI zu AQUANA entwickelt!$"

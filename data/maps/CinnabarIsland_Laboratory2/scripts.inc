@@ -24,7 +24,7 @@ msgbox CinnabarIslandLaboratory2Documento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory2Documento_Text_100:
-.string "An amber pipe!$"
+.string "Eine Pfeife aus Bernstein!$"
 
 
 
@@ -33,16 +33,14 @@ msgbox CinnabarIslandLaboratory2Documento_Text_101, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory2Documento_Text_101:
-.string "There's an e-mail message.\p"
+.string "Eine E-Mail ist angekommen!\p"
     .string "… … …\p"
-    .string "There are three legendary bird\n"
-    .string "POKÉMON.\p"
-    .string "They are ARTICUNO, ZAPDOS, and\n"
-    .string "MOLTRES.\p"
-    .string "Their whereabouts are unknown.\p"
-    .string "We plan to explore the cavern\n"
-    .string "close to CERULEAN.\p"
-    .string "From: POKÉMON RESEARCH TEAM…$"
+	.string "ARKTOS, ZAPDOS und LAVADOS sind die\n"
+	.string "drei legendären VOGEL-POKéMON. Niemand\l"
+	.string "weiß, in welcher Gegend sie leben.\p"
+	.string "Wir werden als nächstes in der Höhle\n"
+	.string "nahe AZURIA CITY suchen.$"
+    .string "Von: POKéMON-FORSCHUNGSTEAM…$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial::
 lock

@@ -128,8 +128,8 @@ msgbox MtMoon1FDocumento_Text_100, MSGBOX_SIGN
 end
 
 MtMoon1FDocumento_Text_100:
-.string "Be careful!\n"
-	.string "ZUBAT are bloodsuckers!$"
+.string "Sei vorsichtig!\n"
+	.string "ZUBAT ist ein Blutsauger!$"
 
 MtMoon1F_Balding::
 lock

@@ -124,8 +124,11 @@ end
 
 SaffronCityHouse4Documento_Text_100:
 .string "POKÉMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's BRUNO!\p"
-	.string "BRUNO apparently joined the ELITE\n"
-	.string "FOUR out of his burning ambition to\l"
-	.string "battle the best TRAINERS.$"
+	.string "Sonderreportage:\n"
+	.string "BRUNO von den TOP VIER!\p"
+	.string "BRUNO hat sich offensichtlich den TOP\n"
+	.string "VIER angeschlossen, um sein Verlangen,\l"
+	.string "nur gegen die besten TRAINER zu\l"
+	.string "kämpfen, zu stillen.$"
+
+

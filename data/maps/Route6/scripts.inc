@@ -68,5 +68,5 @@ msgbox Route6Documento_Text_100, MSGBOX_SIGN
 end
 
 Route6Documento_Text_100:
-	.string "UNDERGROUND PATH\n"
-	.string "CERULEAN CITY - VERMILION CITY$"
+	.string "TUNNELPFAD\n"
+	.string "AZURIA CITY - ORANIA CITY$"

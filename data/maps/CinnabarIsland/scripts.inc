@@ -42,7 +42,7 @@ msgbox CinnabarIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_100:
-.string "POKÉMON LAB$"
+.string "POKéMON-LABOR$"
 
 
 
@@ -51,8 +51,8 @@ msgbox CinnabarIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_101:
-.string "CINNABAR ISLAND\n"
-    .string "The Fiery Town of Burning Desire$"
+.string "ZINNOBERINSEL\n"
+    .string "Die Stadt brennender Leidenschaft!$"
 
 
 
@@ -61,9 +61,9 @@ msgbox CinnabarIslandDocumento_Text_102, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_102:
-    .string "CINNABAR ISLAND POKÉMON GYM\n"
-    .string "LEADER: BLAINE\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "ZINNOBERINSEL POKéMON-ARENA\n"
+    .string "ARENALEITER: PYRO\l"
+    .string "Der Hitzköpfige Quizmaster!$"
 
 
 Cinnabar_Island_Gimnasio_Cerrado::

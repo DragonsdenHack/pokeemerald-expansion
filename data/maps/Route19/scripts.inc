@@ -115,8 +115,8 @@ msgbox Route19Documento_Text_100, MSGBOX_SIGN
 end
 
 Route19Documento_Text_100:
-.string "SEA ROUTE 19\n"
-    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"
+.string "SEE-ROUTE 19\n"
+    .string "FUCHSANIA CITY - SEESCHAUMINSELN$"
 
 
 

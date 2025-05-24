@@ -11,7 +11,7 @@ msgbox Route22Documento_Text_100, MSGBOX_SIGN
 end
 
 Route22Documento_Text_100:
-.string "POKÉMON LEAGUE ENTRANCE$"
+.string "POKéMON LIGA Haupteingang$"
 
 Ruta22_No_Puedes_Pasar::
 compare VAR_UNUSED_0x40F7, 89

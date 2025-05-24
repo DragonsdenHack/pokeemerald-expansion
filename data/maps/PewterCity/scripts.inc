@@ -61,7 +61,7 @@ msgbox PewterCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_100:
-.string "PEWTER MUSEUM OF SCIENCE$"
+	.string "MARMORIA CITY WISSENSCHAFTS-MUSEUM$"
 
 
 
@@ -71,9 +71,9 @@ msgbox PewterCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_101:
-.string "PEWTER CITY POKÉMON GYM\n"
-    .string "LEADER: BROCK\l"
-    .string "The Rock-Solid POKÉMON TRAINER!$"
+.string "MARMORIA CITY POKéMON-ARENA\n"
+    .string "ARENALEITER: ROCKO\l"
+    .string "Der Steinharte POKéMON TRAINER!$"
 
 
 
@@ -82,11 +82,12 @@ msgbox PewterCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_102:
-.string "NOTICE!\p"
-    .string "Thieves have been stealing POKÉMON\n"
-    .string "FOSSILS from MT. MOON.\p"
-    .string "Please call the PEWTER POLICE if\n"
-    .string "you have any information.$"
+.string "ACHTUNG!\p"
+	.string "Diebe haben POKéMON-Fossilien vom\n"
+	.string "MONDBERG gestohlen! Wenn Sie\l"
+	.string "sachdienliche Hinweise haben, wenden\l"
+	.string "Sie sich bitte an die Polizei in\l"
+	.string "MARMORIA CITY!$"
 
 
 
@@ -95,8 +96,8 @@ msgbox PewterCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_103:
-	.string "PEWTER CITY\n"
-    .string "A Stone Gray City$"
+	.string "MARMORIA CITY\n"
+    .string "Die steingraue Stadt!$"
 
 
 
@@ -105,9 +106,11 @@ msgbox PewterCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_104:
-.string "TRAINER TIPS\p"
-    .string "All POKÉMON that appear in battle,\n"
-    .string "however briefly, earn EXP Points.$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Unabhängig von der Dauer seines\n"
+	.string "Einsatzes erhält jedes POKéMON für\l"
+	.string "die Teilnahme an einem Kampf\l"
+	.string "Erfahrungspunkte, E.-Punkte!$"
 
 
 
@@ -125,8 +128,8 @@ end
 
 
 PewterCity_3_Text_3YesNo:
-.string "Stimmt!\n"
-    .string "Es ist harte Arbeit!$"
+.string "Pst!\n"
+    .string "Weißt du, was ich hier mache?$"
 
 
 PewterCity_3No::

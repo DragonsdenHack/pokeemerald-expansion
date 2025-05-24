@@ -207,8 +207,8 @@ msgbox SaffronCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_100:
-.string "SILPH's latest product!\n"
-    .string "Release to be determined…$"
+.string "Das neueste Produkt der SILPH CO.!\n"
+    .string "Verkaufsstart: Demnächst!$"
 
 
 
@@ -217,12 +217,10 @@ msgbox SaffronCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_101:
-.string "TRAINER TIPS\p"
-    .string "FULL HEAL cures all ailments like\n"
-    .string "burns, paralysis, poisoning,\l"
-    .string "freezing, and sleep.\p"
-    .string "It costs a bit more, but it's more\n"
-    .string "convenient than buying other items.$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Der SUPERBALL erhöht die Fangquote.\p"
+	.string "Probiere ihn bei POKéMON aus, die\n"
+	.string "schwer zu fangen sind!$"
 
 
 
@@ -231,7 +229,7 @@ msgbox SaffronCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_102:
-.string "SILPH CO. OFFICE BUILDING$"
+.string "SILPH CO. BÜROGEBÄUDE$"
 
 
 
@@ -240,8 +238,8 @@ msgbox SaffronCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_103:
-.string "SAFFRON CITY\n"
-    .string "Shining, Golden Land of Commerce$"
+.string "SAFFRONIA CITY\n"
+    .string "Die goldglänzende Handelsstadt!$"
 
 
 
@@ -250,7 +248,7 @@ msgbox SaffronCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_104:
-.string "MR. PSYCHIC'S HOUSE$"
+.string "PSYCHOLOGEN-HAUS$"
 
 
 
@@ -259,7 +257,7 @@ msgbox SaffronCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_105:
-.string "FIGHTING DOJO$"
+.string "KAMPFARENA$"
 
 
 
@@ -268,9 +266,9 @@ msgbox SaffronCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_106:
-.string "SAFFRON CITY POKÉMON GYM\n"
-    .string "LEADER: SABRINA\l"
-    .string "The Master of PSYCHIC POKÉMON!$"
+.string "SAFFRONIA CITY POKéMON-ARENA\n"
+    .string "ARENALEITERIN: SABRINA\l"
+    .string "Die Herrin der PSYCHO-POKéMON!$"
 
 
 
@@ -279,9 +277,9 @@ msgbox SaffronCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_107:
-.string "POKÉMON TRAINER FAN CLUB\p"
-    .string "Many TRAINERS have scribbled their\n"
-    .string "names on this sign.$"
+.string "POKéMON TRAINER-FANCLUB\p"
+	.string "Die Namen von TRAINERn sind\n"
+	.string "auf dem Schild eingeritzt.$"
 
 
 

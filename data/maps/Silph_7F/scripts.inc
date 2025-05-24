@@ -165,8 +165,8 @@ msgbox Silph7FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph7FDocumento_Text_100:
-.string "SILPH CO. HEAD OFFICE\n"
-    .string "7F$"
+.string "SILPH CO. BÜRO DES PRÄSIDENTEN\n"
+    .string "6 OG$"
 
 Silph_7F_Combate_Empleado::
 lock

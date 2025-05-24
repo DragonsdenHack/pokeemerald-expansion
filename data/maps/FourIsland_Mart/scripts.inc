@@ -14,12 +14,12 @@ release
 end
 
 FourIsland_Mart_Text_2:
-.string "We've had a great and powerful\n"
-    .string "TRAINER grow up on this island.\p"
-    .string "I bet even you'd know her.\n"
-    .string "It's LORELEI of the ELITE FOUR!\p"
-    .string "When LORELEI was just a tyke,\n"
-    .string "I taught her about POKÉMON.$"
+	.string "Ein wunderbarer, starker TRAINER ist\n"
+	.string "hier aufgewachsen. Ich wette, du\l"
+	.string "kennst sie auch. Es ist LORELEI von der\l"
+	.string "TOP VIER. Als LORELEI noch klein war,\l"
+	.string "habe ich ihr viel über POKéMON\l"
+	.string "beigebracht!$"
 
 
 
@@ -31,9 +31,8 @@ release
 end
 
 FourIsland_Mart_Text_3:
-.string "The SEVII ISLANDS are in a warm\n"
-    .string "region overall.\p"
-    .string "But there is one exception you\n"
-    .string "need to know about.\p"
-    .string "The ICEFALL CAVE is frigid because\n"
-    .string "of the POKÉMON that live in it.$"
+	.string "SEVII EILAND liegt in warmen Gefilden.\n"
+	.string "Aber es gibt eine Ausnahme, die du\l"
+	.string "kennen solltest. Die EISKASKADENHÖHLE\l"
+	.string "ist aufgrund der POKéMON, Die dort\l"
+	.string "leben, kalt.$"

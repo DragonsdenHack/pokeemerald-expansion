@@ -70,7 +70,7 @@ msgbox CeladonShop3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_100:
-.string "3F: TV GAME SHOP$"
+.string "2S: VIDEOSPIELE-SHOP$"
 
 
 
@@ -79,8 +79,8 @@ msgbox CeladonShop3FDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_101:
-.string "Red and Green!\n"
-    .string "Both are POKÉMON!$"
+.string "Die Rot und Grüne\n"
+    .string "POKéMON-Edition! Cool!$"
 
 
 
@@ -90,7 +90,7 @@ msgbox CeladonShop3FDocumento_Text_102, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_102:
-.string "It's a Super NES.$"
+.string "Das ist ein SUPER NINTENDO!$"
 
 
 
@@ -99,8 +99,8 @@ msgbox CeladonShop3FDocumento_Text_103, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_103:
-.string "An RPG!\n"
-    .string "There's no time for that!$"
+.string "Ein Rollenspiel!\n"
+    .string "Ich habe keine Zeit! Schade!$"
 
 
 
@@ -109,16 +109,16 @@ msgbox CeladonShop3FDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_104:
-.string "A sports game!\n"
-    .string "Dad'll like that!$"
+.string "Ein Rennspiel!\n"
+    .string "Das würde meinem Vater gefallen!$"
 
 CeladonShop3FDocumento_105::
 msgbox CeladonShop3FDocumento_Text_105, MSGBOX_SIGN   
 end
 
 CeladonShop3FDocumento_Text_105:
-.string "A puzzle game!\n"
-    .string "Looks addictive!$"
+.string "Ein Puzzle-Spiel!\n"
+    .string "Es ist bestimmt fesselnd!$"
 
 
 
@@ -127,8 +127,8 @@ msgbox CeladonShop3FDocumento_Text_106, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_106:
-.string "A fighting game!\n"
-    .string "Looks tough!$"
+.string "Ein Kampfsport-Spiel!\n"
+    .string "Aufregend!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial::
 lock

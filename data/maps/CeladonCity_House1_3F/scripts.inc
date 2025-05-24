@@ -25,8 +25,8 @@ release
 end
 
 CeladonCity_House1_3F_Text_2:
-.string "Me?\n"
-    .string "I'm the programmer!$"
+.string "Ich?\n"
+    .string "Ich bin der Programmierer!$"
 
 
 
@@ -38,8 +38,8 @@ release
 end
 
 CeladonCity_House1_3F_Text_3:
-.string "I'm the graphic artist!\n"
-    .string "But I don't drew you!$"
+.string "Ich bin der Grafiker!\n"
+    .string "Ich habe dies alles gezeichnet!$"
 
 
 
@@ -51,10 +51,10 @@ release
 end
 
 CeladonCity_House1_3F_Text_4:
-.string "I wrote the story!\n"
-    .string "Isn't ERIKA cute?\p"
-    .string "I like MISTY a lot, too!\n"
-    .string "Oh, and SABRINA, I like her!$"
+	.string "Die Geschichte stammt von mir!\p"
+	.string "Ist ERIKA nicht süß? Aber MISTY\n"
+	.string "mag ich auch gerne!\p"
+	.string "Und nicht zu vergessen, SABRINA!$"
 
 
 
@@ -63,28 +63,27 @@ msgbox CeladonMansion3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonMansion3FDocumento_Text_100:
-.string "GAME FREAK Development Room$"
+.string "GAME FREAK Entwicklungs-Abteilung$"
 
 CeladonMansion3FDocumento_101::
 msgbox CeladonMansion3FDocumento_Text_101, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_101:
-.string "It's the script!\n"
-    .string "Better not look at the ending!$"
+.string "Das Drehbuch!\n"
+.string "Ich schaue mir das Ende besser nicht an!$"
 
 CeladonMansion3FDocumento_102::
 msgbox CeladonMansion3FDocumento_Text_102, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_102:
-.string "Someone's playing a game instead of\n"
-    .string "working!$"
+    .string "Dort spielt jemand, anstatt zu arbeiten!$"
 
 CeladonMansion3FDocumento_103::
 msgbox CeladonMansion3FDocumento_Text_103, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_103:
-.string "It's the game program! Messing with\n"
-    .string "it could bug out the game!$"
+.string "Der Programmcode!\n"
+    .string "Davon sollte man besser die Finger lassen!$"

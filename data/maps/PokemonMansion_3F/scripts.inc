@@ -47,6 +47,8 @@ release
 end
 
 PokemonMansion3FDocumento_Text_100:
-.string "Diary: Feb. 6\n"
-    .string "MEW gave birth.\p"
-    .string "We named the newborn MEWTWO.$"
+.string "TAGEBUCH: 6. FEBRUAR\n"
+    .string "MEW hat ein Junges geboren!\p"
+    .string "Wir haben es MEWTU genannt.$"
+
+

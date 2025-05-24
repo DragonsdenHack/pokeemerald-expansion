@@ -98,8 +98,8 @@ msgbox VermilionCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 VermilionCityDocumento_Text_100:
-.string "POKÉMON FAN CLUB\n"
-	.string "All POKÉMON fans welcome!$"
+.string "POKéMON-FANCLUB\n"
+	.string "Alle POKéMON-Fans sind willkommen!$"
 
 
 
@@ -108,9 +108,9 @@ msgbox VermilionCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 VermilionCityDocumento_Text_101:
-	.string "VERMILION CITY LEADER GYM\n"
-	.string "LEADER: LT. SURGE\l"
-	.string "The lighting American!$"
+	.string "ORANIA CITY POKéMON-ARENA\n"
+	.string "ARENALEITER: MAJOR BOB\l"
+	.string "Der blitzschnelle Arenaleiter!$"
 
 
 
@@ -119,9 +119,9 @@ msgbox VermilionCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 VermilionCityDocumento_Text_102:
-	.string "VERMILION CITY\n"
-	.string "The Port of Exquisite\l"
-	.string "Sunsets.$"
+	.string "ORANIA CITY\n"
+	.string "Die Hafenstadt der einmaligen\l"
+	.string "Sonnenuntergänge!$"
 
 
 
@@ -130,7 +130,7 @@ msgbox VermilionCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 VermilionCityDocumento_Text_103:
-	.string "VERMILION HARBOR$"
+	.string "HAFEN VON ORANIA CITY$"
 
 
 

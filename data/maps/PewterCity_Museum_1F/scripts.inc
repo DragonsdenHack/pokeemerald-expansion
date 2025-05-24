@@ -73,10 +73,10 @@ end
 
 PewterMuseumDocumento_Text_100:
 .string "POKÉMON JOURNAL\p"
-	.string "Special Feature: PEWTER GYM\n"
-	.string "LEADER BROCK!\p"
-	.string "BROCK rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+	.string "SONDERREPORTAGE: ARENALEITER ROCKO\n"
+	.string "aus MARMORIA CITY! ROCKO lacht selten,\l"
+	.string "aber er kann nicht aufhören, wenn er\l"
+	.string "angefangen hat.$"
 
 
 
@@ -88,8 +88,8 @@ hidemonpic
 end
 
 PewterMuseumDocumento_Text_101:
-.string "AERODACTYL Fossil\n"
-    .string "A primitive and rare POKÉMON.$"
+.string "AERODACTYL-Fossil\n"
+    .string "Ein urzeitliches und seltenes POKéMON.$"
 
 
 
@@ -101,8 +101,8 @@ hidemonpic
 end
 
 PewterMuseumDocumento_Text_102:
-	.string "KABUTOPS Fossil\n"
-    .string "A primitive and rare POKÉMON.$"
+	.string "KABUTOPS-Fossil\n"
+    .string "Ein urzeitliches und seltenes POKéMON.$"
 
 PewterCity_Museum_1F_Miguel::
 applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Museum_1F_Miguel_Move_1

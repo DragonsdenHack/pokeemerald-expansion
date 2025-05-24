@@ -122,7 +122,7 @@ msgbox Route20Documento_Text_100, MSGBOX_SIGN
 end
 
 Route20Documento_Text_100:
-.string "SEAFOAM ISLANDS$"
+.string "SEESCHAUMINSELN$"
 
 
 
@@ -131,7 +131,7 @@ msgbox Route21Documento_Text_101, MSGBOX_SIGN
 end
 
 Route21Documento_Text_101:
-.string "SEAFOAM ISLANDS$"
+.string "SEESCHAUMINSELN$"
 
 Ruta_20_Barrera_Sur::
 compare VAR_UNUSED_0x40F7, 74

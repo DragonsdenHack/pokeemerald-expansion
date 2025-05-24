@@ -107,8 +107,9 @@ msgbox CeruleanCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_101:
-.string "Grass and caves handled easily!\n"
-	.string "BIKE SHOP$"
+.string "FAHRRADLADEN\p"
+	.string "Fahre leicht und schnell mit\n"
+	.string "dem Rad durch Höhlen und Gras!$"
 
 
 
@@ -119,19 +120,20 @@ release
 end
 
 CeruleanCityDocumento_Text_102:
-.string "TRAINER TIPS\p"
-.string "A POKÉMON can be made to hold an item.\p"
-	.string "Some items can even be used by the\n"
-	.string "holding POKÉMON in battle.$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Einem POKéMON kann ein Item zum Halten\n"
+	.string "gegeben werden. Manche Items können\l"
+	.string "sogar vom POKéMON im Kampf eingesetzt\l"
+	.string "werden.$"
 
 CeruleanCityDocumento_103::
 msgbox CeruleanCityDocumento_Text_103, MSGBOX_SIGN   
 end
 
 CeruleanCityDocumento_Text_103:
-	.string "CERULEAN CITY\n"
-	.string "A Mysterious, Blue Aura Surrounds It.$"
-
+	.string "AZURIA CITY\p"
+	.string "Eine mysteriöse blaue Aura\n"
+	.string "umgibt die Stadt!$"
 
 
 CeruleanCityDocumento_104::
@@ -139,9 +141,9 @@ msgbox CeruleanCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_104:
-	.string "CERULEAN CITY POKÉMON GYM\n"
-	.string "LEADER: MISTY\l"
-	.string "The Tomboyish Mermaid!$"
+	.string "AZURIA CITY POKéMON-ARENA\n"
+	.string "ARENALEITERIN: MISTY\l"
+	.string "Die Burschikose Meerjungfrau!$"
 
 CeruleanCityIzq::     
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove1

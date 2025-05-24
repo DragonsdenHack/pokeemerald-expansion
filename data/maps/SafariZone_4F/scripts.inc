@@ -21,12 +21,11 @@ msgbox SafariZone4FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_100:
-	.string "REQUEST NOTICE\p"
-	.string "Please find the SAFARI WARDEN's\n"
-	.string "lost GOLD TEETH.\l"
-	.string "They're around here somewhere.\p"
-	.string "Reward offered!\n"
-	.string "Contact: WARDEN$"
+	.string "BELOHNUNG!\p"
+	.string "Wer die GOLDZÄHNE des Parkwächters der\n"
+	.string "SAFARI-ZONE findet, erhält eine\l"
+	.string "Belohnung! Finder melden sich\l"
+	.string "bitte beim Parkwächter!$"
 
 
 
@@ -35,9 +34,9 @@ msgbox SafariZone4FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_101:
-	.string "TRAINER TIPS\p"
-	.string "Zone Exploration Campaign!\n"
-	.string "The Search for the SECRET HOUSE!$"
+	.string "TIPPS FÜR TRAINER\p"
+	.string "Erforsche die SAFARI-ZONE!\n"
+	.string "Finde das GEHEIME HAUS!$"
 
 
 
@@ -46,8 +45,8 @@ msgbox SafariZone4FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_102:
-	.string "AREA 3\n"
-	.string "EAST: CENTER AREA$"
+	.string "AREAL 3\n"
+	.string "OSTEN: ZENTRUM$"
 
 
 
@@ -56,4 +55,4 @@ msgbox SafariZone4FDocumento_Text_103, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_103:
-   .string "REST HOUSE$"
+   .string "RASTHAUS$"

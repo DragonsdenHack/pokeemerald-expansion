@@ -106,9 +106,10 @@ msgbox IndigoPlateauPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 IndigoPlateauPokemonCenterDocumento_Text_100:
-.string "POKÉMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LANCE!\p"
-	.string "LANCE's grandfather is thought to\n"
-	.string "be the elder of a famous clan of\l"
-	.string "dragon masters.$"
+.string "POKéMON JOURNAL:\p"
+	.string "Sonderreportage: SIEGFRIED von den\n"
+	.string "TOP VIER! Man sagt, dass der Großvater\l"
+	.string "von Siegfried der Älteste in einem\l"
+	.string "berühmten Drachenklan ist.$"
+
+

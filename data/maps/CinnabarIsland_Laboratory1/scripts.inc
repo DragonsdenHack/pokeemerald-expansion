@@ -25,8 +25,8 @@ msgbox CinnabarIslandLaboratory1Documento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_100:
-.string "A photo of the LAB's founder…\n"
-    .string "DR. FUJI?!$"
+.string "Der Gründer des LABORATORIUMS,\n"
+    .string "DR. FUJI!$"
 
 
 
@@ -36,8 +36,8 @@ msgbox CinnabarIslandLaboratory1Documento_Text_101, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_101:
-.string "POKÉMON LAB\n"
-    .string "Meeting Room$"
+.string "POKéMON-LABOR\n"
+    .string "Konferenzraum$"
 
 
 
@@ -46,8 +46,8 @@ msgbox CinnabarIslandLaboratory1Documento_Text_102, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_102:
-.string "POKÉMON LAB\n"
-    .string "R & D Room$"
+.string "POKéMON-LABOR\n"
+    .string "Forschung und Entwicklung$"
 
 
 
@@ -56,8 +56,8 @@ msgbox CinnabarIslandLaboratory1Documento_Text_103, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_103:
-.string "POKÉMON LAB\n"
-    .string "Testing Room$"
+.string "POKéMON-LABOR\n"
+    .string "Versuchsabteilung$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee::
 compare VAR_ROUTE127_STATE, 2

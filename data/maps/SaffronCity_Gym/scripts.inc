@@ -171,28 +171,29 @@ release
 end
 
 SaffronCity_Estatua_Texto_1:
-.string "SAFFRON CITY GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNER TRAINERS:\n"
-	.string "BLUE, RED and ANDRA$"
+.string "SAFFRONIA POKéMON-ARENA\n"
+	.string "LEITUNG: SABRINA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT & ANDRA$"
 
 SaffronCity_Estatua_Texto_2:
-.string "SAFFRON CITY GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNER TRAINERS:\n"
-	.string "BLUE, RED, ANDRA y {PLAYER}$"
+.string "SAFFRONIA POKéMON-ARENA\n"
+	.string "LEITUNG: SABRINA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 SaffronCity_Estatua_Texto_3:
-.string "SAFFRON CITY GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNER TRAINERS:\n"
-	.string "BLUE and RED$"
+.string "SAFFRONIA POKéMON-ARENA\n"
+	.string "LEITUNG: SABRINA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU & ROT$"
 
 SaffronCity_Estatua_Texto_4:
-.string "SAFFRON CITY GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNER TRAINERS:\n"
-.string "It is empty!$"
+.string "SAFFRONIA POKéMON-ARENA\n"
+	.string "LEITUNG: SABRINA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "Es ist leer!$"
+
 
 SaffronCity_Lider_Gimnasio::
 lock
@@ -335,28 +336,28 @@ release
 end
 
 Vermilion_City_Estatua_Texto_1:
-.string "VERMILION POKÉMON GYM\n"
-	.string "LEADER: LT .SURGE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED and ANDRA$"
+.string "ORANIA POKéMON-ARENA\n"
+	.string "LEITUNG: MAJOR BOB\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT & ANDRA$"
 
 Vermilion_City_Estatua_Texto_2:
-.string "VERMILION POKÉMON GYM\n"
-	.string "LEADER: LT .SURGE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, ANDRA and {PLAYER}$"
+.string "ORANIA POKéMON-ARENA\n"
+	.string "LEITUNG: MAJOR BOB\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 Vermilion_City_Estatua_Texto_3:
-.string "VERMILION POKÉMON GYM\n"
-	.string "LEADER: LT .SURGE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE and RED$"
+.string "ORANIA POKéMON-ARENA\n"
+	.string "LEITUNG: MAJOR BOB\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU & ROT$"
 
 Vermilion_City_Estatua_Texto_4:
-.string "VERMILION POKÉMON GYM\n"
-	.string "LEADER: LT .SURGE\p"
-	.string "WINNING TRAINERS:\n"
-           .string "It is empty!$"
+.string "ORANIA POKéMON-ARENA\n"
+	.string "LEITUNG: MAJOR BOB\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "Es ist leer!$"
 
 
 Vermilion_City_Lider_Gimnasio::
@@ -496,23 +497,23 @@ release
 end
 
 Pewter_City_Estatua_Texto_1:
-.string "PEWTER POKÉMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED and ANDRA$"
+.string "MARMORIA POKéMON-ARENA\n"
+    .string "LEITUNG: ROCKO\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT & ANDRA$"
 
 
 Pewter_City_Estatua_Texto_2:
-.string "PEWTER POKÉMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, ANDRA and {PLAYER}$"
+.string "MARMORIA POKéMON-ARENA\n"
+    .string "LEITUNG: ROCKO\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT, ANDRA & {PLAYER} $"
 
 Pewter_City_Estatua_Texto_3:
-.string "PEWTER POKÉMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE and RED$"
+.string "MARMORIA POKéMON-ARENA\n"
+    .string "LEITUNG: ROCKO\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU & ROT$"
 
 Pewter_City_Lider_Gimnasio::
 lock
@@ -639,29 +640,29 @@ release
 end
 
 Cerulean_City_Estatua_Texto_1:
-	.string "CERULEAN POKÉMON GYM\n"
-	.string "LEADER: MISTY\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED and ANDRA$"
+	.string "AZURIA POKéMON-ARENA\n"
+	.string "LEITUNG: MISTY\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT & ANDRA$"
 
 Cerulean_City_Estatua_Texto_2:
-	.string "CERULEAN POKÉMON GYM\n"
-	.string "LEADER: MISTY\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, ANDRA and {PLAYER}$"
+	.string "AZURIA POKéMON-ARENA\n"
+	.string "LEITUNG: MISTY\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 
 Cerulean_City_Estatua_Texto_3:
-	.string "CERULEAN POKÉMON GYM\n"
-	.string "LEADER: MISTY\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE and RED$"
+	.string "AZURIA POKéMON-ARENA\n"
+	.string "LEITUNG: MISTY\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU & ROT$"
 
 Cerulean_City_Estatua_Texto_4:
-	.string "CERULEAN POKÉMON GYM\n"
-	.string "LEADER: MISTY\p"
-	.string "WINNING TRAINERS:\n"
-	.string "It is empty!$"
+	.string "AZURIA POKéMON-ARENA\n"
+	.string "LEITUNG: MISTY\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "Es ist leer!$"
 
 Cerulean_City_Lider_Gimnasio::
 lock
@@ -775,22 +776,22 @@ release
 end
 
 Fuchsia_City_Estatua_Texto_1:
-	.string "FUCHSIA POKÉMON GYM\n"
-	.string "LEADER: KOGA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED and ANDRA$"
+	.string "FUCHSANIA POKéMON-ARENA\n"
+	.string "LEITUNG: KOGA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT & ANDRA$"
 
 Fuchsia_City_Estatua_Texto_2:
-	.string "FUCHSIA POKÉMON GYM\n"
-	.string "LEADER: KOGA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, ANDRA and {PLAYER}$"
+	.string "FUCHSANIA POKéMON-ARENA\n"
+	.string "LEITUNG: KOGA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 Fuchsia_City_Estatua_Texto_3:
-	.string "FUCHSIA POKÉMON GYM\n"
-	.string "LEADER: KOGA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE and RED$"
+	.string "FUCHSANIA POKéMON-ARENA\n"
+	.string "LEITUNG: KOGA\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU & ROT$"
 
 Fuchsia_City_Lider_Gimnasio::
 lock
@@ -927,16 +928,16 @@ release
 end
 
 Cinnabar_Island_Gym_Estatuas_Texto_1:
-	.string "CINNABAR POKÉMON GYM\n"
-	.string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED and ANDRA$"
+	.string "ZINNOBERINSEL POKéMON-ARENA\n"
+	.string "LEITUNG: PYRO\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT & ANDRA$"
 
 Cinnabar_Island_Gym_Estatuas_Texto_2:
-	.string "CINNABAR POKÉMON GYM\n"
-	.string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, ANDRA and {PLAYER}$"
+	.string "ZINNOBERINSEL POKéMON-ARENA\n"
+	.string "LEITUNG: PYRO\p"
+	.string "BISHERIGE SIEGER:\n"
+	.string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 
 Cinnabar_Island_Gym_Guy::
@@ -1040,22 +1041,22 @@ release
 end
 
 Celadon_Ciyy_Estatua_Texto_1:
- .string "CELADON POKÉMON GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED and ANDRA$"
+ .string "PRISMANIA POKéMON-ARENA\n"
+    .string "LEITUNG: ERIKA\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT & ANDRA$"
 
 Celadon_Ciyy_Estatua_Texto_2:
- .string "CELADON POKÉMON GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, ANDRA and {PLAYER}$"
+ .string "PRISMANIA POKéMON-ARENA\n"
+    .string "LEITUNG: ERIKA\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU, ROT, ANDRA & {PLAYER}$"
 
 Celadon_Ciyy_Estatua_Texto_3:
-.string "CELADON POKÉMON GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED$"
+ .string "PRISMANIA POKéMON-ARENA\n"
+    .string "LEITUNG: ERIKA\p"
+    .string "BISHERIGE SIEGER:\n"
+    .string "BLAU & ROT$"
 
 
 Celadon_Ciyy_Lider_Gimnasio::

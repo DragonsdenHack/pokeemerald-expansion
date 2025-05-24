@@ -116,9 +116,9 @@ release
 end
 
 Silph5FDocumento_Text_100:
-.string "It's a POKÉMON REPORT!\p"
-    .string "POKÉMON LAB created PORYGON,\n"
-    .string "the first virtual-reality POKÉMON.$"
+.string "Ein ARTIKEL über POKéMON!\p"
+	.string "PORYGON! POKéMON-LABOR ERZEUGT\n"
+	.string "VIRTUELLES POKéMON!$"
 
 
 
@@ -129,9 +129,9 @@ release
 end
 
 Silph5FDocumento_Text_101:
-.string "It's a POKÉMON REPORT!\p"
-    .string "Some POKÉMON have been confirmed\n"
-    .string "to evolve when they are traded.$"
+.string "Ein POKéMON-BERICHT!\p"
+	.string "Einige POKéMON entwickeln\n"
+	.string "sich erst beim Tausch.$"
 
 
 
@@ -142,9 +142,9 @@ release
 end
 
 Silph5FDocumento_Text_102:
-.string "It's a POKÉMON REPORT!\p"
-    .string "Over 350 POKÉMON techniques have\n"
-    .string "been confirmed.$"
+.string "Eine Studie über POKéMON!\p"
+	.string "Es gibt mehr als 350\n"
+	.string "POKéMON-Kampftechniken!$"
 
 
 
@@ -154,5 +154,5 @@ msgbox Silph5FDocumento_Text_103, MSGBOX_SIGN
 end
 
 Silph5FDocumento_Text_103:
-.string "SILPH CO. HEAD OFFICE\n"
-    .string "5F$"
+.string "SILPH CO. HAUPTSITZ\n"
+    .string "4 OG$"

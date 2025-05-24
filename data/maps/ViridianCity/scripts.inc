@@ -72,11 +72,11 @@ msgbox ViridianCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_100:
-.string "TRAINER TIPS\p"
-    .string "The battle moves of POKÉMON are\n"
-    .string "limited by their POWER POINTS, PP.\p"
-    .string "To replenish PP, rest your tired\n"
-    .string "POKÉMON at a POKÉMON CENTER.$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Die Attacken der POKéMON werden durch\n"
+	.string "ihre ANGRIFFSPUNKTE, AP, limitiert. Um\l"
+	.string "die AP wieder aufzufüllen, musst du die\l"
+	.string "POKéMON in ein POKéMON-CENTER bringen!$"
 
 
 ViridianCityDocumento_101::
@@ -84,8 +84,8 @@ msgbox ViridianCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_101:
-.string "VIRIDIAN CITY \n"
-    .string "The Eternally Green Paradise$"
+.string "VERTANIA CITY\n"
+    .string "Das immergrüne Paradies!$"
 
 
 
@@ -94,11 +94,10 @@ msgbox ViridianCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_102:
-.string "TRAINER TIPS\p"
-    .string "Catch POKÉMON and expand your\n"
-    .string "collection.\p"
-    .string "The more you have, the easier it\n"
-    .string "is to battle.$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Fange POKéMON, um deine Sammlung zu\n"
+	.string "erweitern! Je mehr du besitzt, desto\l"
+	.string "leichter werden die Kämpfe!$"
 
 
 
@@ -107,7 +106,7 @@ msgbox ViridianCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_103:
-.string "VIRIDIAN CITY POKÉMON GYM$"
+.string "VERTANIA CITY POKéMON-ARENA$"
 
 
 

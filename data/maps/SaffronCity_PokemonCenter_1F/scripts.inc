@@ -71,9 +71,11 @@ msgbox SaffronCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityPokemonCenterDocumento_Text_100:
-.string "POKÉMON JOURNAL\p"
-	.string "Special Feature: SAFFRON GYM\n"
-	.string "LEADER SABRINA!\p"
-	.string "People say that SABRINA can\n"
-	.string "communicate with her POKÉMON\l"
-	.string "during battle without speaking.$"
+.string "POKéMON JOURNAL\p"
+	.string "Sonderreportage: ARENALEITERIN\n"
+	.string "SABRINA aus SAFFRONIA CITY!\p"
+	.string "Man sagt, dass SABRINA im Kampf mit\n"
+	.string "ihren POKéMON ohne zu sprechen\l"
+	.string "kommunizieren kann.$"
+
+

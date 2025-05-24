@@ -136,8 +136,8 @@ msgbox Route8Documento_Text_100, MSGBOX_SIGN
 end
 
 Route8Documento_Text_100:
-.string "UNDERGROUND PATH\n"
-    .string "CELADON CITY - LAVENDER TOWN$"
+.string "TUNNELPFAD\n"
+    .string "PRISMANIA CITY - LAVANDIA$"
 
 Route8_EventScript_Gemela1::
 	trainerbattle_single TRAINER_AMY_AND_LIV_3, Route8_Text_Gemela1Intro, Route8_Text_Gemela1Defeated

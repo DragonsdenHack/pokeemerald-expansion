@@ -63,11 +63,9 @@ msgbox FujiHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 FujiHouseDocumento_Text_100:
-    .string "POKÉMON FAN MAGAZINE\n"
-    .string "Monthly Grand Prize Drawing!\p"
-    .string "The application form is…\p"
-    .string "Gone! It's been clipped out.\n"
-    .string "Someone must have applied already.$"
+    .string "GROßES POKéMON-GEWINNSPIEL!\p"
+	.string "Es sind keine Teilnahmekarten mehr\n"
+	.string "vorhanden! Sie wurden alle abgeschickt!$"
 
 
 
@@ -76,9 +74,9 @@ msgbox FujiHouseDocumento_Text_101, MSGBOX_SIGN
 end
 
 FujiHouseDocumento_Text_101:
-    .string "POKÉMON magazines line the shelf.\p"
-    .string "POKÉMON INSIDER…\p"
-    .string "POKÉMON FAN…$"
+    .string "POKéMON-Zeitschriften!\p"
+    .string "POKéMON-Notizbücher!\p"
+    .string "POKéMON-Schaubilder!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji::
 special SpawnCameraObject

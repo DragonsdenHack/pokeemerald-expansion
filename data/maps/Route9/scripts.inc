@@ -124,7 +124,7 @@ end
 
 Route9Documento_Text_100:
     .string "ROUTE 9\n"
-    .string "CERULEAN CITY - ROCK TUNNEL$"
+    .string "AZURIA CITY - FELSTUNNEL$"
 
 Route9_Aviso_Petrel::
 playse SE_POKENAV_ON

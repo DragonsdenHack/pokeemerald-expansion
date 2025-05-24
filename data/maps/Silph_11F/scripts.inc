@@ -67,8 +67,8 @@ msgbox Silph11FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph11FDocumento_Text_100:
-.string "SILPH CO. HEAD OFFICE\n"
-    .string "11F$"
+.string "SILPH CO. HAUPTSITZ\n"
+    .string "10 OG$"
 
 Silph_11F_Bill_Presidente_Izq::
 lockall

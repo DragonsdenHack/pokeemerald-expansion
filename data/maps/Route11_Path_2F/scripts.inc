@@ -26,9 +26,10 @@ msgbox Route11Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_100:
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "What a breathtaking view!$"
+	.string "Du schaust durch das\n"
+	.string "Fernrohr…\p"
+	.string "Mitten auf dem Weg schläft ein\n"
+	.string "großes POKéMON!$"
 
 
 
@@ -37,12 +38,9 @@ msgbox Route11Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_101:
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "To get to LAVENDER TOWN from\n"
-	.string "CERULEAN CITY…\p"
-	.string "ROCK TUNNEL appears to be a good\n"
-	.string "ROUTE to take.$"
+	.string "Du schaust durch das Fernrohr.\p"
+	.string "Der einzige Weg von AZURIA CITY nach\n"
+	.string "LAVANDIA führt durch den FELSTUNNEL.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak::
 lock

@@ -38,9 +38,9 @@ msgbox Route16Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_100:
-.string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's the CELADON DEPT. STORE!$"
+    .string "Du schaust durch das Fernrohr.\p"
+	.string "Du siehst das EINKAUFSZENTRUM\n"
+	.string "von PRISMANIA CITY!$"
 
 
 
@@ -49,10 +49,9 @@ msgbox Route16Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_101:
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a long path over water far\n"
-    .string "away.$"
+    .string "Du schaust durch das Fernrohr.\p"
+	.string "Dort führt ein langer Weg\n"
+	.string "über das Wasser!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak::
 lock

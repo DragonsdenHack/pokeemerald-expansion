@@ -14,11 +14,10 @@ end
 
 ResortGeorgeousDocumento_Text_100:
 	.string "POKÉMON JOURNAL\p"
-	.string "Special Feature: CINNABAR GYM\n"
-	.string "LEADER BLAINE!\p"
-	.string "BLAINE is said to remove his dark\n"
-	.string "shades only when he is thinking up\l"
-	.string "new quiz questions.$"
+	.string "Sonderreportage: ARENALEITER PYRO\n"
+	.string "von der ZINNOBERINSEL! PYRO nimmt\l"
+	.string "seine Sonnenbrille angeblich nur ab,\l"
+	.string "wenn er sich neue Quizfragen ausdenkt.$"
 
 ResortGeorgeous_House1_Consul_move_1.2:
 delay_8

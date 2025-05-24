@@ -131,7 +131,7 @@ end
 
 Route14Documento_Text_100:
 	.string "ROUTE 14\n"
-	.string "West to FUCHSIA CITY$"
+	.string "WESTEN: FUCHSANIA CITY$"
 
 
 

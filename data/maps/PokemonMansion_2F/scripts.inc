@@ -39,9 +39,9 @@ release
 end
 
 PokemonMansion2FDocumento_Text_100:
-.string "Diary: July 10\n"
-    .string "We christened the newly discovered\l"
-    .string "POKÉMON, MEW.$"
+.string "TAGEBUCH: 10. JULI\n"
+    .string "Wir nennen das neuentdeckte\l"
+    .string "POKéMON, MEW.$"
 
 
 PokemonMansion2FDocumento_101::
@@ -51,7 +51,7 @@ release
 end
 
 PokemonMansion2FDocumento_Text_101:
-    .string "Diary: July 5\n"
-    .string "Guyana, South America\p"
-    .string "A new POKÉMON was discovered deep\n"
-    .string "in the jungle.$"
+    .string "TAGEBUCH: 5. JULI\n"
+    .string "Der Dschungel im Niemandsland.\p"
+    .string "Wir haben tief im Dschungel ein\n"
+    .string "völlig neues POKéMON gefunden.$"

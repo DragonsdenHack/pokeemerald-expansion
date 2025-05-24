@@ -41,9 +41,8 @@ msgbox Route12Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_100:
-.string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a man fishing!$"
+    .string "Du schaust durch das Fernrohr.\p"
+    .string "Du siehst einen angelnden Mann!$"
 
 
 
@@ -52,6 +51,5 @@ msgbox Route12Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_101:
-.string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's POKÉMON TOWER!$"
+    .string "Du schaust durch das Fernrohr.\p"
+    .string "Du siehst den POKéMON-TURM!$"

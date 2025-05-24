@@ -27,10 +27,10 @@ release
 end
 
 FourIsland_PokemonCenter_Text_2:
-.string "There's a rare kind of ICE POKÉMON\n"
-    .string "that lives in the cave.\p"
-    .string "We get a lot of visitors hoping to\n"
-    .string "see that POKÉMON.$"
+	.string "Dort gibt es eine seltene Art\n"
+	.string "EIS-POKéMON in der Höhle. Viele\l"
+	.string "Besucher kommen nur, um dieses\l"
+	.string "POKéMON zu sehen.$"
 
 
 
@@ -42,9 +42,9 @@ release
 end
 
 FourIsland_PokemonCenter_Text_3:
-.string "What's this?\p"
-    .string "The new POKÉMON JOURNAL hasn't\n"
-    .string "arrived on this island?$"
+	.string "Was ist los? Die letzte Ausgabe vom\n"
+	.string "POKéMON JOURNAL ist noch nicht auf\l"
+	.string "dieser Insel angekommen?$"
 
 
 
@@ -56,12 +56,11 @@ release
 end
 
 FourIsland_PokemonCenter_Text_4:
-.string "Oh? A POKÉMON EGG?\n"
-    .string "…I have no idea.\p"
-    .string "…Oh, wait. The DAY-CARE people\n"
-    .string "in town were saying something.\p"
-    .string "They said that they'd found EGGS\n"
-    .string "before on their property.$"
+	.string "Oh! Ein POKéMON-EI? … ich habe keine\n"
+	.string "Ahnung! … oh, Moment, in der PENSION\l"
+	.string "habe ich etwas darüber gehört.\p"
+	.string "Sie sagten, sie haben früher schon\n"
+	.string "EIER auf ihrem Grundstück gefunden!$"
 
 
 
@@ -70,10 +69,10 @@ msgbox FourIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 FourIslandPokemonCenterDocumento_Text_100:
-.string "This is a POKÉMON JOURNAL from\n"
-	.string "years ago…\p"
-	.string "POKÉMON JOURNAL\n"
-	.string "CONTEST Special!\p"
-	.string "The Spring POKÉMON CONTEST's\n"
-	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+	.string "Dies ist ein Jahre altes POKéMON\n"
+	.string "JOURNAL…\p"
+	.string "WETTKAMPF-Sonderbericht! Der\n"
+	.string "Frühlingsmeister im POKéMON-WETTKAMPF\l"
+	.string "ist SARAH EICH aus ALABASTIA!$"
+
+

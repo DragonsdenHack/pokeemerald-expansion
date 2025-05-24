@@ -11,7 +11,7 @@ msgbox CeladonMansion2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonMansion2FDocumento_Text_100:
-.string "GAME FREAK Meeting Room$"
+.string "GAME FREAK Konferenzraum$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp::
 lock

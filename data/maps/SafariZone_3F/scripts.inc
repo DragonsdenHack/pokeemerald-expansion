@@ -22,7 +22,8 @@ end
 
 SafariZone3FDocumento_Text_100:
 	.string "TRAINER TIPS\p"
-	.string "The SECRET HOUSE is still ahead.$"
+	.string "Bis zum GEHEIMEN HAUS ist es\n"
+	.string "nicht mehr weit weg!$"
 
 
 
@@ -41,10 +42,10 @@ msgbox SafariZone3FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_102:
-	.string "TRAINER TIPS\p"
-	.string "POKÉMON hide in tall grass.\p"
-	.string "Zigzag through grassy areas to\n"
-	.string "flush them out.$"
+	.string "TIPPS FÜR TRAINER\p"
+	.string "POKéMON verstecken sich in hohem Gras!\p"
+	.string "Laufe durch das hohe Gras und scheuche\n"
+	.string "sie auf!$"
 
 
 
@@ -54,9 +55,9 @@ msgbox SafariZone3FDocumento_Text_103, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_103:
-	.string "TRAINER TIPS\p"
-	.string "Win a free HM for finding the\n"
-	.string "SECRET HOUSE.$"
+	.string "TIPPS FÜR TRAINER\p"
+	.string "Finde das GEHEIME HAUS.\n"
+	.string "Dann gewinnst du eine VM!$"
 
 
 
@@ -65,4 +66,4 @@ msgbox SafariZone3FDocumento_Text_104, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_104:
-	.string "REST HOUSE$"
+	.string "RASTHAUS$"

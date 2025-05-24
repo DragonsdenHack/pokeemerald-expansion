@@ -34,5 +34,5 @@ msgbox CeladonShop6FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop6FDocumento_Text_100:
-.string "ROOFTOP SQUARE:\n"
-    .string "VENDING MACHINES$"
+.string "DACHGARTEN:\n"
+    .string "AUTOMATEN$"

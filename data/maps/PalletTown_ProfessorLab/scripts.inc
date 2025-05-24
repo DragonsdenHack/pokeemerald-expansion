@@ -88,7 +88,7 @@ msgbox PalletTownProfessorLabDocumento_Text_100, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_100:
-	.string "Press START to open the MENU!$"
+	.string "Drücke START, um das MENÜ aufzurufen!$"
 
 
 
@@ -97,8 +97,9 @@ msgbox PalletTownProfessorLabDocumento_Text_101, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_101:
-	.string "All POKÉMON have strengths and\n"
-	.string "weaknesses against others.$"
+	.string "POKéMON besitzen unterschiedliche\n"
+	.string "Attacken, deren Wirkung je nach\l"
+	.string "Gegner variiert.$"
 
 
 
@@ -107,13 +108,14 @@ msgbox PalletTownProfessorLabDocumento_Text_102, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_102:
-	.string "There is an e-mail message here. …\n"
-	.string "Finally! The ultimate TRAINERS of the\l"
-	.string "POKÉMON LEAGUE are ready to take on all\l"
-	.string "comers! Bring your best POKÉMON and\l"
-	.string "see how you rate as a TRAINER! POKÉMON\l"
-	.string "LEAGUE HQ INDIGO PLATEAU PROF. OAK,\l"
-	.string "please visit us! …$"
+	.string "Im Briefkasten ist eine E-Mail! …\n"
+	.string "An alle POKéMON-TRAINER! Die\l"
+	.string "TRAINER-ELITE der POKéMON LIGA wartet\l"
+	.string "auf mutige Herausforderer! Bringt eure\l"
+	.string "stärksten POKéMON mit und zeigt, wie\l"
+	.string "gut ihr seid! POKéMON LIGA-LEITUNG\l"
+	.string "INDIGO-PLATEAU PS.: PROF. EICH, bitte\l"
+	.string "melden Sie sich bei uns! …$"
 
 PalletTown_ProfessorLab_Lab_Izq::
 lockall

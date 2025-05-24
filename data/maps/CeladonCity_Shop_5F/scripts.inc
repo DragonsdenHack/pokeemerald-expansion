@@ -58,7 +58,7 @@ msgbox CeladonShop5FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop5FDocumento_Text_100:
-.string "5F: DRUGSTORE$"
+.string "4S: DROGERIE$"
 
 CeladonCity_Shop_5F_Oak::
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG

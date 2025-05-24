@@ -42,8 +42,8 @@ msgbox LavenderTownDocumento_Text_100, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_100:
-.string "LAVENDER VOLUNTEER\n"
-    .string "POKÉMON HOUSE$"
+.string "LAVANDIA\n"
+    .string "POKéMON-HAUS$"
 
 
 
@@ -52,9 +52,8 @@ msgbox LavenderTownDocumento_Text_101, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_101:
-.string "New SILPH SCOPE!\n"
-    .string "Make the Invisible Plain to See!\p"
-    .string "SILPH CO.$"
+.string "SILPH SCOPE!\n"
+    .string "Macht das Unsichtbare sichtbar!$"
 
 
 
@@ -63,8 +62,8 @@ msgbox LavenderTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_102:
-.string "LAVENDER TOWN\n"
-    .string "The Noble Purple Town$"
+.string "LAVANDIA\n"
+    .string "Die edle, violette Stadt!$"
 
 
 
@@ -73,8 +72,8 @@ msgbox LavenderTownDocumento_Text_103, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_103:
-.string "POKÉMON TOWER\n"
-    .string "Becalm the Spirits of POKÉMON$"
+	.string "Mögen die Seelen der POKéMON im\n"
+	.string "POKéMON-TURM in Frieden ruhen!$"
 
 LavenderTown_3::
 lock
@@ -89,7 +88,7 @@ end
 
 
 LavenderTown_3_Text_3YesNo:
-.string "Do you believe in ghosts?$"
+.string "Glaubst du an GEISTER?$"
 
 
 LavenderTown_3No::
@@ -99,13 +98,13 @@ end
 
 
 LavenderTown_3_Text_3Yes:
-.string "Really?\n"
-    .string "So there are believers…$"
+.string "Echt?\n"
+    .string "Hätte ich nicht gedacht!$"
 
 LavenderTown_3_Text_3No:
-.string "Hahaha, I guess not.\p"
-    .string "That white hand on your shoulder…\n"
-    .string "I'm just imagining it.$"
+.string "Hahaha, natürlich nicht!\p"
+	.string "Und diese weiße Hand da auf deiner\n"
+	.string "Schulter ist natürlich nicht echt!$"
 
 LavenderTown_Barrera_Mision_Kangaskhan::
 compare VAR_UNUSED_0x40F7, 54

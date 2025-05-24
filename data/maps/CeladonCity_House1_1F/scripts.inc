@@ -37,5 +37,5 @@ msgbox CeladonMansionDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonMansionDocumento_Text_100:
-.string "CELADON MANSION\n"
-    .string "Manager's Suite$"
+.string "PRISMANIA-VILLA\n"
+    .string "Manager Suite$"

@@ -45,7 +45,7 @@ release
 end
 
 PalletTownDocumento_Text_100:
-.string "RED's House$"
+.string "Haus von ROT$"
 
 
 
@@ -56,7 +56,7 @@ release
 end
 
 PalletTownDocumento_Text_101:
-.string "BLUE's House$"
+.string "Haus von BLAU$"
 
 
 
@@ -65,7 +65,7 @@ msgbox PalletTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 PalletTownDocumento_Text_102:
-.string "OAK POKÉMON RESEARCH LAB$"
+.string "PROFESSOR EICH POKéMON-LABOR$"
 
 
 
@@ -76,8 +76,8 @@ release
 end
 
 PalletTownDocumento_Text_103:
-    .string "TRAINER TIPS\p"
-	.string "Press START to open the MENU!$"
+    .string "Drücke START,\n"
+	.string "um das MENÜ aufzurufen!$"
 
 
 
@@ -88,8 +88,8 @@ release
 end
 
 PalletTownDocumento_Text_104:
-.string "PALLET TOWN\n"
-    .string "Shades of your journey await!$"
+.string "ALABASTIA\n"
+    .string "Dich erwarten aufregende Abenteuer!$"
 
 PalletTown_Encuentro_Oak::
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2

@@ -11,10 +11,9 @@ msgbox Route15Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_100:
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "A large, shining bird is flying\n"
-	.string "toward the sea.$"
+	.string "Du schaust durch das Fernrohr.\p"
+	.string "Ein großer Vogel fliegt anmutig\n"
+	.string "aufs Meer hinaus.$"
 
 
 
@@ -24,10 +23,8 @@ msgbox Route15Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_101:
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "It looks like a small island on\n"
-	.string "the horizon!$"
+	.string "Du schaust durch das Fernrohr.\p"
+	.string "Hmm, das sieht wie eine kleine Insel aus!$"
 
 
 Route15_Path_2F_Combate_Ayudante_Oak::

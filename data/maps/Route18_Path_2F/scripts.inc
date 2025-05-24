@@ -20,15 +20,13 @@ msgbox Route18Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route18Path2FDocumento_Text_100:
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "PALLET TOWN is in the west.$"
+    .string "Du schaust durch das Fernrohr.\p"
+    .string "Im Westen liegt ALABASTIA!$"
 
 Route18Path2FDocumento_101::
 msgbox Route18Path2FDocumento_Text_101, MSGBOX_SIGN   
 end
 
 Route18Path2FDocumento_Text_101:
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There are people swimming.$"
+    .string "Du schaust durch das Fernrohr.\p"
+    .string "Dort drüben schwimmen Leute!$"

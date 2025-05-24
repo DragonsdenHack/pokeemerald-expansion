@@ -74,5 +74,5 @@ msgbox Silph10FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph10FDocumento_Text_100:
-.string "SILPH CO. HEAD OFFICE\n"
-    .string "10F$"
+.string "SILPH CO. HAUPTSITZ\n"
+    .string "9 OG$"

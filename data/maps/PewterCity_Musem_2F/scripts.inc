@@ -66,7 +66,7 @@ msgbox PewterMuseum2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterMuseum2FDocumento_Text_100:
-.string "Space Shuttle$"
+.string "SPACE SHUTTLE$"
 
 
 
@@ -75,8 +75,8 @@ msgbox PewterMuseum2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 PewterMuseum2FDocumento_Text_101:
-.string "A meteorite that fell on MT. MOON.\n"
-    .string "It is thought to be a MOON STONE.$"
+	.string "Auf dem MONDBERG gefundenes\n"
+	.string "Meteoritengestein (MONDSTEIN?)$"
 
 PewterCity_Musem_2F_Secundaria_Azafran::
 lock
@@ -233,3 +233,5 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_12:
 	.string "im Moment egal. Darüber kann man sich\l"
 	.string "auch später noch Gedanken machen.\p"
 	.string "Findest du nicht auch?$"
+
+

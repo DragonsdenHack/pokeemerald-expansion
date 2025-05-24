@@ -112,7 +112,7 @@ end
 
 Route12Documento_Text_100:
     .string "ROUTE 12 \n"
-    .string "North to LAVENDER$"
+    .string "NORDEN: LAVANDIA.$"
 
 
 Route12_EventScript_Pareja1::

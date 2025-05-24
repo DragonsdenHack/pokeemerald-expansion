@@ -70,5 +70,8 @@ msgbox OneIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 OneIslandDocumento_Text_101:
-.string "ONE ISLAND\n"
-    .string "Friends Gather at Knot Island$"
+.string "EILAND EINS\n"
+	.string "Freunde treffen sich auf der\n"
+	.string "Knoteninsel$"
+
+

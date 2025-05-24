@@ -38,5 +38,5 @@ msgbox ViridianCityHouse1Documento_Text_100, MSGBOX_SIGN
 end
 
 ViridianCityHouse1Documento_Text_100:
-    .string "SPEAROW\n"
-    .string "Name: SPEARY$"
+    .string "HABITAK\n"
+    .string "Spitzname: WILLI$"

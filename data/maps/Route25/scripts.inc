@@ -130,8 +130,8 @@ msgbox Route25Documento_Text_100, MSGBOX_SIGN
 end
 
 Route25Documento_Text_100:
-.string "SEA COTTAGE\n"
-    .string "BILL lives here!$"
+.string "KÜSTENHAUS\n"
+    .string "Hier wohnt BILL!$"
 
 Route25_Casa_Bill_Abajo::
 compare VAR_UNUSED_0x40F7, 22

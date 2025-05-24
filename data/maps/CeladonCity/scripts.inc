@@ -162,9 +162,9 @@ msgbox CeladonCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_100:
- .string "CELADON CITY POKÉMON GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+ .string "PRISMANIA CITY POKéMON-ARENA\n"
+    .string "ARENALEITERIN: ERIKA\l"
+    .string "Die Naturliebende Prinzessin!$"
 
 
 
@@ -173,8 +173,8 @@ msgbox CeladonCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_101:
-.string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+	.string "Im PRISMANIA CITY EINKAUFSZENTRUM\n"
+	.string "findest du alles, was du brauchst!$"
 
 
 
@@ -183,8 +183,8 @@ msgbox CeladonCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_102:
-	.string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+	.string "PRISMANIA CITY\n"
+    .string "Die Stadt der Regenbogen-Träume!$"
 
 
 
@@ -193,7 +193,7 @@ msgbox CeladonCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_103:
-.string "CELADON MANSION$"
+.string "PRISMANIA-VILLA$"
 
 
 
@@ -202,12 +202,13 @@ msgbox CeladonCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_104:
-.string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKÉMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "X-TREFFER erhöht die Genauigkeit von\n"
+	.string "Attacken! ANGRIFFPLUS erhöht die\l"
+	.string "Wahrscheinlichkeit, einen Volltreffer\l"
+	.string "zu landen! Diese Items kannst du im\l"
+	.string "EINKAUFSZENTRUM von PRISMANIA CITY\l"
+	.string "kaufen!$"
 
 
 
@@ -216,8 +217,8 @@ msgbox CeladonCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_105:
-.string "ROCKET GAME CORNER\n"
-    .string "The playground for grown-ups!$"
+.string "ROCKET SPIELHALLE\n"
+    .string "Ein Spielplatz für Erwachsene!$"
 
 
 
@@ -226,8 +227,8 @@ msgbox CeladonCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_106:
-.string "COINS exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+.string "WECHSELSTUBE\n"
+    .string "Tausche Münzen gegen Preise!$"
 
 
 
@@ -236,13 +237,12 @@ msgbox CeladonCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_107:
-.string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "MEGABLOCK schützt POKéMON vor\n"
+	.string "Statusverschlechterungen im Kampf.\p"
+	.string "Dieses Item kannst du im\n"
+	.string "EINKAUFSZENTRUM von PRISMANIA\l"
+	.string "CITY erstehen!$"
 
 Barrera_Tiendas::
 compare VAR_UNUSED_0x40F7, 30

@@ -9,8 +9,8 @@ release
 end
 
 SafariZone_House1_Text_1:
-	.string "SARA: Where did my boyfriend,\n"
-	.string "ERIK, go?$"
+	.string "SARAH: Wo ist bloß mein\n"
+	.string "Freund ERIK hingegangen?$"
 
 
 
@@ -22,5 +22,5 @@ release
 end
 
 SafariZone_House1_Text_2:
-	.string "I'm catching POKÉMON to take home\n"
-	.string "as gifts.$"
+	.string "Wenn ich POKéMON fange, verschenke ich\n"
+	.string "sie, wenn ich wieder zu Hause bin!$"

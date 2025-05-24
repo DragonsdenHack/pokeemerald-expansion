@@ -7,5 +7,5 @@ msgbox Route5Documento_Text_100, MSGBOX_SIGN
 end
 
 Route5Documento_Text_100:
-.string "UNDERGROUND PATH:\n"
-	.string "CERULEAN CITY - VERMILION CITY$"
+.string "TUNNELPFAD\n"
+	.string "AZURIA CITY - ORANIA CITY$"

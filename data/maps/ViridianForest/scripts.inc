@@ -127,8 +127,8 @@ msgbox ViridianForestDocumento_Text_100, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_100:
-.string "LEAVING VIRIDIAN FOREST\n"
-    .string "PEWTER CITY AHEAD$"
+	.string "AUF WIEDERSEHEN IM VERTANIA-WALD.\n"
+	.string "DER NÄCHSTE ORT IST MARMORIA CITY.$"
 
 
 
@@ -137,11 +137,10 @@ msgbox ViridianForestDocumento_Text_101, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_101:
-.string "TRAINER TIPS\p"
-    .string "You can't catch a POKÉMON that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw POKé BALLS only at wild\n"
-    .string "POKÉMON to catch them!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Es ist verboten, anderen Trainern\n"
+	.string "POKéMON zu stehlen! Fang nur wilde\l"
+	.string "POKéMON!$"
 
 
 
@@ -150,9 +149,9 @@ msgbox ViridianForestDocumento_Text_102, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_102:
-.string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
-    .string "get your POKéDEX evaluated!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Du kannst deinen POKéDEX jederzeit\n"
+	.string "PROF. EICH via PC bewerten lassen!$"
 
 
 
@@ -161,10 +160,9 @@ msgbox ViridianForestDocumento_Text_103, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_103:
-.string "TRAINER TIPS\p"
-    .string "If your POKÉMON are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Wenn du Kämpfe meiden möchtest,\n"
+	.string "bleibe hohem Gras fern!$"
 
 
 
@@ -173,10 +171,10 @@ msgbox ViridianForestDocumento_Text_104, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_104:
-.string "TRAINER TIPS\p"
-    .string "If your POKÉMON are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+.string "TIPPS FÜR TRAINER\p"
+	.string "Geschwächte POKéMON sind leichter\n"
+	.string "zu fangen! Sind sie bei Kräften,\l"
+	.string "könnten sie fliehen!$"
 
 
 
@@ -185,8 +183,9 @@ msgbox ViridianForestDocumento_Text_105, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_105:
-.string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKÉMON MARTS!$"
+	.string "Bei Vergiftungen hat sich das\n"
+	.string "GEGENGIFT aus dem POKéMON-SUPERMARKT\l"
+	.string "bewährt.$"
 
 ViridianForest_Combate_Guays_Arriba::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianForest_Combate_Guays_Arriba_Move_1

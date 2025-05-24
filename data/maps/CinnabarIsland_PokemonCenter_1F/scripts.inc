@@ -72,10 +72,11 @@ msgbox CinnabarIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandPokemonCenterDocumento_Text_100:
-.string "POKÉMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "MR. FUJI of POKÉMON HOUSE!\p"
-	.string "Editor: The shy MR. FUJI turned\n"
-	.string "down our interview requests.\p"
-	.string "He is a kindly man who is adored\n"
-	.string "and respected in LAVENDER TOWN.$"
+.string "POKéMON JOURNAL:\p"
+	.string "Sonderreportage: MR. FUJI vom\n"
+	.string "POKéMON-CLUBHAUS! Redakteur: Der\l"
+	.string "publikumsscheue MR. FUJI hat unsere\l"
+	.string "Interviewanfragen zurückgewiesen. Er\l"
+	.string "ist ein freundlicher Mann, der in\l"
+	.string "LAVANDIA verehrt und respektiert wird.$"
+

@@ -49,4 +49,4 @@ end
 
 Route18Documento_Text_101:
 .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "PRISMANIA CITY - FUCHSANIA CITY$"

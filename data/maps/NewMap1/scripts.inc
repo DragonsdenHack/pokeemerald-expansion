@@ -110,7 +110,7 @@ end
 
 Route3Documento_Text_100:
 .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"
+    .string "ZUM MONDBERG$"
 
 Route3_Frontera:: 
 compare VAR_UNUSED_0x40F7, 55

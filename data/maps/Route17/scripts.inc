@@ -115,7 +115,7 @@ msgbox Route17Documento_Text_100, MSGBOX_SIGN
 end
 
 Route17Documento_Text_100:
-	.string "CYCLING ROAD - BIKERS TERRITORY!$"
+	.string "RADWEG - BIKER TERRITORIUM!$"
 
 
 
@@ -147,7 +147,7 @@ end
 
 Route17Documento_Text_103:
 .string "ROUTE 17\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "PRISMANIA CITY - FUCHSANIA CITY$"
 
 
 
@@ -169,6 +169,6 @@ msgbox Route17Documento_Text_105, MSGBOX_SIGN
 end
 
 Route17Documento_Text_105:
-	.string "CYCLING ROAD\n"
-	.string "Slope ends here!$"
+	.string "Das Betreten des RADWEGES\n"
+	.string "ist Fußgängern untersagt!$"
 

@@ -170,7 +170,7 @@ end
 
 Route16Documento_Text_100:
 .string "ROUTE 16\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "PRISMANIA CITY - FUCHSANIA CITY$"
 
 
 
@@ -179,8 +179,8 @@ msgbox Route16Documento_Text_101, MSGBOX_SIGN
 end
 
 Route16Documento_Text_101:
-	.string "Enjoy the slope!\n"
-    .string "CYCLING ROAD$"
+	.string "RADWEG\n"
+    .string "Gute Abfahrt!$"
 
 
 

@@ -74,7 +74,7 @@ msgbox Route2Documento_Text_100, MSGBOX_SIGN
 end
 
 Route2Documento_Text_100:
-.string "DIGLETT'S CAVE$"
+.string "DIGDAs HÖHLE$"
 
 
 
@@ -84,7 +84,7 @@ end
 
 Route2Documento_Text_101:
 .string "ROUTE 2\n"
-	.string "VIRIDIAN CITY - PEWTER CITY$"
+	.string "VERTANIA CITY - MARMORIA CITY$"
 
 Route2_Cazabichos::
 lock

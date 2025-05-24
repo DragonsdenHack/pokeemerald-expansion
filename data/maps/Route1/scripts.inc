@@ -36,4 +36,4 @@ end
 
 Route1Documento_Text_100:
 .string "ROUTE 1\n"
-    .string "PALLET TOWN - VIRIDIAN CITY$"
+    .string "ALABASTIA - VERTANIA CITY$"

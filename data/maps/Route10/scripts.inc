@@ -164,7 +164,7 @@ msgbox Route10Documento_Text_101, MSGBOX_SIGN
 end
 
 Route10Documento_Text_101:
-.string "POWER PLANT$"
+.string "KRAFTWERK$"
 
 
 
@@ -173,7 +173,7 @@ msgbox Route10Documento_Text_102, MSGBOX_SIGN
 end
 
 Route10Documento_Text_102:
-.string "ROCK TUNNEL$"
+.string "FELSTUNNEL$"
 
 Route10_Combate_Andra::
 lock

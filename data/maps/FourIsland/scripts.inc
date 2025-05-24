@@ -48,10 +48,11 @@ release
 end
 
 FourIsland_Text_4:
-.string "Ooh, chilly!\p"
-    .string "I made a slushie using ice I\n"
-    .string "shaved inside ICEFALL CAVE.\p"
-    .string "It's chilly and tasty!$"
+.string "Oh, fröstel!\p"
+	.string "Ich habe aus dem Eis, das ich in der\n"
+	.string "EISKASKADENHÖHLE abgetragen habe,\l"
+	.string "einen Eis-Drink zubereitet.\p"
+	.string "Frostig und lecker!$"
 
 
 FourIsland5::
@@ -62,12 +63,12 @@ release
 end
 
 FourIsland_Text_5:
-.string "Oh, you found me!\n"
-    .string "Please don't tell LORELEI.\p"
-    .string "Did you know that LORELEI has lots\n"
-    .string "and lots of stuffed dolls?\p"
-    .string "Every time she comes back to\n"
-    .string "FOUR ISLAND, her collection grows!$"
+.string "Oh, du hast mich gefunden!\n"
+    .string "Bitte verrate LORELEI nichts.\p"
+	.string "Wusstest du, dass LORELEI eine ganze\n"
+	.string "Menge Plüschpuppen besitzt? Bei jedem\l"
+	.string "Besuch auf EILAND VIER wächst ihre\l"
+	.string "Sammlung!$"
 
 FourIsland6::
 end
@@ -82,8 +83,8 @@ msgbox FourIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 FourIslandDocumento_Text_100:
-.string "FOUR ISLAND\n"
-    .string "The Warm, Blue, Floe Island$"
+.string "EILAND VIER\n"
+    .string "Warmes, blaues Eisschollen-Eiland$"
 
 
 
@@ -92,7 +93,7 @@ msgbox FourIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 FourIslandDocumento_Text_101:
-.string "LORELEI'S HOUSE$"
+.string "Haus von LORELEI$"
 
 FourIsland_Encuentro_Zeus_Der::
 lock

@@ -33,8 +33,8 @@ msgbox SeafoamIslands5FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SeafoamIslands5FDocumento_Text_101:
-.string "DANGER\n"
-    .string "Fast current!$"
+.string "VORSICHT!\n"
+    .string "GEFÄHRLICHE STRÖMUNG!$"
 
 
 SeafoamIslands_5F_Combate_Articuno::

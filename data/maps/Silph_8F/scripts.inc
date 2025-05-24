@@ -96,5 +96,5 @@ msgbox Silph8FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph8FDocumento_Text_100:
-.string "SILPH CO. HEAD OFFICE\n"
-    .string "8F$"
+.string "SILPH CO. HAUPTSITZ\n"
+    .string "7 OG$"

@@ -11,9 +11,10 @@ msgbox CeladonCitySchoolDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonCitySchoolDocumento_Text_100:
-	.string "It's a report of TMs. {PAUSE 20}…{PAUSE 20} There are 50 TMs\n"
-	.string "and 7 HM, that can be used over and over\l"
-	.string "again. SILPH CO.$"
+	.string "Ein INFOBLATT über TM. …… Es gibt\n"
+	.string "insgesamt 50 TM. Außerdem gibt es\l"
+	.string "sieben VM, die mehrfach nutzbar sind.\p"
+	.string "SILPH CO.$"
 
 
 

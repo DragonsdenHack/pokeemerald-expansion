@@ -56,9 +56,10 @@ msgbox FiveIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 FiveIslandPokemonCenterDocumento_Text_100:
-	.string "POKÉMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LORELEI!\p"
-	.string "Known for her logical, calculated,\n"
-	.string "and cool battling style, LORELEI\l"
-	.string "has a surprising secret!$"
+	.string "POKéMON JOURNAL\p"
+	.string "Sonderreportage:\n"
+	.string "LORELEI von den TOP VIER!\p"
+	.string "Die für ihren logischen, coolen und\n"
+	.string "berechnenden Kampfstil bekannte\l"
+	.string "LORELEI hat ein überraschendes\l"
+	.string "Geheimnis!$"

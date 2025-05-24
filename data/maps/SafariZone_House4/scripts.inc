@@ -9,9 +9,9 @@ release
 end
 
 SafariZone_House41_Text_1:
-	.string "Using BAIT will make POKÉMON more\n"
-	.string "likely to stick around if they get\l"
-	.string "busy eating.$"
+	.string "Wenn Du ihnen KÖDER zuwirfst, bleiben\n"
+	.string "die POKéMON eher an einem Ort, da sie\l"
+	.string "mit dem Fressen beschäftigt sind!$"
 
 
 
@@ -24,9 +24,9 @@ release
 end
 
 SafariZone_House41_Text_2:
-	.string "Tossing ROCKS at POKÉMON might\n"
-	.string "make them run, but they'll be\l"
-	.string "easier to catch.$"
+	.string "Wenn Du STEINE auf POKéMON wirfst,\n"
+	.string "fliehen sie meistens.\p"
+	.string "Aber sind dann leichter zu fangen!$"
 
 
 
@@ -38,5 +38,5 @@ release
 end
 
 SafariZone_House41_Text_3:
-	.string "I hiked a lot, but I didn't see any\n"
-	.string "POKÉMON I wanted.$"
+	.string "Ich habe lange gesucht, aber\n"
+	.string "keine neuen POKéMON gefunden.$"
