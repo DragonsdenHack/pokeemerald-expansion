@@ -46,7 +46,11 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_21: 
-	.string "Traducir.$"
+	.string "Genau! Unser EILAND FÜNF Lager verfügt\n"
+	.string "über ein geheimes Untergeschoss.\p"
+	.string "Unsere Aufgabe ist es, jedes POKéMON\n"
+	.string "zu überprüfen, bevor wir sie nach KANTO\l"
+	.string "verschicken.$"
 
 
 RocketHideoutFiveIslanMeadow20:: 
@@ -1148,7 +1152,8 @@ RocketHideoutFiveIslanMeadowCajaZubat::
    end
 
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
-    .string "traducir$"
+	.string "Das ist die Box, in der ZUBAT aufbewahrt\n"
+	.string "wurde, bevor es hierherkam.$"
 
 
 
@@ -1262,6 +1267,6 @@ release
 end
 
 Curacion_Curacion_Guarida_Rocket_Texto_1:
-.string "Welcome to the ROCKET\n"
-	.string "PKMN CENTER…$"
+.string "Willkommen beim ROCKET\n"
+	.string "SCHNELLHEILUNGS-CENTER! {PAUSE 5}…{PAUSE 5}$"
 

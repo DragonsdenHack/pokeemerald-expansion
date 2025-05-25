@@ -392,7 +392,12 @@ PewterCity_Petrel_Texto_3:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PewterCity_Petrel_Texto_4:
-    .string "traducir$"
+	.string "LAMBDA: -Warnung! Diebe haben\n"
+	.string "FOSSILIEN vom MONDBERG gestohlen.\p"
+	.string "Bitte verständigen sie umgehend die\n"
+	.string "MARMORIA CITY POLIZEI, wenn sie\l"
+	.string "Hinweise haben, die bei der Ergreifung\l"
+	.string "der Täter helfen könnten.-$"
 
 PewterCity_Petrel_Texto_5:
 	.string "Offensichtlich meint er mit -Dieben-\n"

@@ -107,7 +107,8 @@ release
 end
 
 PowerPlant16_Texto_1:
-	.string "traducir$"
+	.string "LAMBDA: Kümmer dich um ZAPDOS!\n"
+	.string "Mach schon!$"
 
 
 
@@ -528,7 +529,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_10.1:
 
 PowerPlant_Combate_Zapdos_Surge_Texto_11:
 	.string "MAJOR BOB: Du musst ATLAS sein. Ja {PAUSE 15}…{PAUSE 15}\n"
-	.string "SIEGFRIED hat mich bereits davor\n"
+	.string "SIEGFRIED hat mich bereits davor\l"
 	.string "gewarnt, dass du hier auftauchen\l"
 	.string "könntest.$"
 
@@ -538,7 +539,9 @@ PowerPlant_Combate_Zapdos_Surge_Texto_11.1:
 	.string "Heimatregion stehst!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_11.2:
-	.string "traducir$"
+	.string "ATLAS: Damit wir uns verstehen, MAJOR.\p"
+	.string "SIEGFRIEDs Handlungen repräsentieren\n"
+	.string "nicht JOHTO.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_12:
 	.string "MAJOR BOB: Ich sehe keinen\n"
@@ -582,7 +585,9 @@ PowerPlant_Combate_Zapdos_Surge_Texto_15:
 	.string "so von Bullen wimmeln.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_16:
-	.string "traducir$"
+	.string "Wir müssen von hier verschwinden.\p"
+	.string "Heute{PAUSE 15}…{PAUSE 15} haben wir einen großen\n"
+	.string "Schritt zur Rettung KANTOs getan.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_17:
 	.string "-Es scheint zu schwach zum\n"

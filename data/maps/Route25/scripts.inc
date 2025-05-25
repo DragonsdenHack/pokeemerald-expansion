@@ -170,7 +170,8 @@ release
 end
 
 Route22_Entrada_Liga_Texto_1::
-	.string "traducir$"
+	.string "-Dies ist der am stärksten überwachte\n"
+	.string "Ort in der gesamten Region.-$"
 
 Route25_Azul::
 lock
@@ -179,4 +180,6 @@ release
 end
 
 Route25_Azul_Texto_1:
-	.string "traducir$"
+	.string "Ein RATTFRATZ {PAUSE 15}…{PAUSE 15} Ernsthaft? Ich nehme\n"
+	.string "es der Form halber mit {PAUSE 15}…{PAUSE 15} aber es wird\l"
+	.string "nicht lange in meinem Team bleiben.$"

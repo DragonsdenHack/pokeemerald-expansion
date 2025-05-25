@@ -1737,10 +1737,15 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17:
 	.string "BLAU.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.1:
-	.string "traducir$"
+	.string "Die wahren Top-TRAINER von KANTO und\n"
+	.string "auch JOHTO ziehen es vor, im\l"
+	.string "Verborgenen zu bleiben.$"
 	
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.2:
-	.string "traducir$"
+	.string "Aber ich mache dir keinen Vorwürfe.\p"
+	.string "Das ist nunmal das -NEUE KANTO- in dem\n"
+	.string "wir leben - das einzige, dass neue\l"
+	.string "TRAINER wie du kennen.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17.3:
 	.string "BLAU: Mmm{PAUSE 15}…{PAUSE 15}$"
@@ -1781,7 +1786,10 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.1:
 	.string "umgehend {PLAYER}.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.2:
-	.string "traducir$"
+	.string "Übrigens, das ist für dich. Es ist eine\n"
+	.string "SILPH SCOPE. Es erlaubt dir, die GEISTER\l"
+	.string "im POKéMON-TURM zu sehen und auch zu\l"
+	.string "fangen!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19.3:
 .string "{PLAYER} erhält ein SILPH SCOPE!$"
@@ -2734,7 +2742,10 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.1:
 	.string "Spezies.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9.2:
-	.string "traducir$"
+	.string "Vielleicht ist es ein Phänomen, das wir\n"
+	.string "mit der Zeit immer häufiger beobachten\l"
+	.string "werden, falls diese Hypothese\l"
+	.string "tatsächlich wahr ist.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10:
 	.string "GIOVANNI: Unabhängig von der aktuellen\n"

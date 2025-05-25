@@ -306,7 +306,8 @@ Route23_Combate_Andra_Texto_4:
 	.string "dem Schwarzmarkt gekauft haben.$"
 
 Route23_Combate_Andra_Texto_4.1:
-	.string "traducir$"
+	.string "Schon witzig, oder? Ausgerechnet\n"
+	.string "wir gehen da legal rein.$"
 
 Route23_Combate_Andra_Texto_5:
 	.string "Aber ich kann noch ein bisschen\n"
@@ -319,7 +320,9 @@ Route23_Combate_Andra_Texto_5:
 	.string "mich haben.$"
 
 Route23_Combate_Andra_Texto_5.1:
-	.string "traducir$"
+	.string "Sag mal, {PLAYER}. Glaubst du, du bist\n"
+	.string "jetzt schon stark genug, um sie zu\l"
+	.string "besiegen?!$"
 
 Route23_Combate_Andra_Texto_6:
 	.string "Dann bin ich also immer noch\n"

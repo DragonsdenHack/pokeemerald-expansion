@@ -158,28 +158,40 @@ walk_slow_down
 step_end
 
 RocketHideout_9F_Presentacion_Sala_Texto_6:
-	.string "traducir$"
+	.string "Dränge niemals einen Feind mit dem\n"
+	.string "Rücken zur Wand. Denn dann wird er all\l"
+	.string "seine Kraft aufbringen, um sich aus der\l"
+	.string "Situation zu befreien.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_7:
-	.string "traducir$"
+	.string "Nun ja. Bisher haben wir uns, was ROT\n"
+	.string "angeht, an dieser Weisheit orientiert.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_8:
-	.string "traducir$"
+	.string "Aber jetzt ist die Zeit gekommen, um\n"
+	.string "alle Karten offen auf den Tisch zu\l"
+	.string "legen. Denn nun sind wir es, die mit\l"
+	.string "dem Rücken zur Wand stehen.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_9:
-	.string "traducir$"
+	.string "Halte dich nicht zurück, {PLAYER}!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_10:
-	.string "traducir$"
+	.string "Gib alles im INDIGO-PLATEAU!$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_11:
-	.string "traducir$"
+	.string "Dränge ROT in die Enge und demonstriere\n"
+	.string "ihm deine wahre Stärke! Kämpfe auf\l"
+	.string "einem Level, das er noch nie gesehen\l"
+	.string "hat. Dann und nur dann {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_12:
 	.string "Then{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_13:
-	.string "traducir$"
+	.string "{PAUSE 15}…{PAUSE 15} wird er nicht in der Lage sein,\n"
+	.string "entsprechend zu reagieren, um\l"
+	.string "seinerseits alles zu geben.$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
 	.string "GIOVANNI: Gut. Da bist du ja.\n"

@@ -115,8 +115,8 @@ release
 end
 
 VictoryRoad_2F_Entrenador_Especial_Texto_1.1:
-.string "You obtained a LIFE ORB\n"
-	.string "from COOLTRAINER hands!$"
+.string "Du erhältst einen LEBEN-ORB\n"
+	.string "vom ASS-TRAINER!$"
 
 VictoryRoad_2F_Entrenador_Especial_2_No::
 msgbox VictoryRoad_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE

@@ -309,13 +309,20 @@ Route14_Combate_Azul_Texto_6.1:
 	.string "ebenbürtig ist.$"
 
 Route14_Combate_Azul_Texto_7:
-	.string "traducir$"
+	.string "Diese Logik lässt sich auch auf\n"
+	.string "TRAINER anwenden, oder?$"
 
 Route14_Combate_Azul_Texto_7.1:
-	.string "traducir$"
+	.string "Seit unserem Kampf auf der M.S. ANNE\n"
+	.string "denke ich darüber nach, welcher\l"
+	.string "Trainerklasse du wirklich angehörst,\l"
+	.string "HOCHRANGIGER RÜPEL.$"
 
 Route14_Combate_Azul_Texto_7.2:
-	.string "traducir$"
+	.string "Seitdem ist viel passiert und mein Team\n"
+	.string "ist nicht mehr wiederzuerkennen.\p"
+	.string "Zeig mir hier und jetzt, wie du\n"
+	.string "kämpfst - deine wahre Stärke!$"
 
 Route14_Combate_Azul_Texto_8:
 	.string "Dieses Team ist also noch nicht gut\n"

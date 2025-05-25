@@ -405,5 +405,5 @@ walk_right
 step_end
 
 CeladonCity_Bloqueo_Paleta_Texto_1:
-	.string "-I must investigate PALETT TOWN before\n"
-	.string "returning to the HQ.-$"
+	.string "-Ich muss zuerst ALABASTIA erkunden,\n"
+	.string "bevor ich in die BASIS zurückkehre.-$"

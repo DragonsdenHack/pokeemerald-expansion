@@ -14,13 +14,11 @@ release
 end
 
 FiveIsland_Text_1:
-    .string "As a ROCKET GRUNT, you should\n"
-    .string "know that QWILFISH and TENTACOOL\l"
-    .string "are two WATER/POISON type POKÉMON\l"
-    .string "that are strong while also matching\l"
-    .string "organization's profile, take\l"
-    .string "advantage of these waters to catch\l"
-    .string "them.$"
+	.string "Als ROCKET RÜPEL solltest du wissen,\n"
+	.string "dass BALDORFISH und TENTACHA zu den\l"
+	.string "nützlichsten WASSER/GIFT POKéMON\l"
+	.string "gehören, die es gibt. Du kannst sie\l"
+	.string "in diesen Gewässern fangen.$"
 
 
 
@@ -32,11 +30,11 @@ release
 end
 
 FiveIsland_Text_2:
-  .string "I don't like our new CHRONO ISLAND CONSUL.\n"
-    .string "She has built her house in the middle of\l"
-    .string "RECREATION AREA, we could play there\l"
-    .string "quietly before but since her arrival\l"
-    .string "there it is prohibited.$"
+	.string "Ich mag die neue EILAND FÜNF KONSULIN\n"
+	.string "nicht. Sie hat ihr neues Haus mitten im\l"
+	.string "FERIENPARADIES gebaut. Früher konnten\l"
+	.string "wir dort in Ruhe spielen, aber seit ihrer\l"
+	.string "Ankunft ist es strengstens verboten.$"
 
 
 
@@ -48,10 +46,10 @@ release
 end
 
 FiveIsland_Text_3:
-    .string "This island is considered a union\n"
-    .string "bridge, transitory between old and new,\l"
-    .string "maybe one day you will discover the\l"
-    .string "reason.$"
+	.string "Man sagt, diese Insel sei eine Brücke\n"
+	.string "der Einheit, zwischen Vergangenheit\l"
+	.string "und Zukunft. Vielleicht wirst du\l"
+	.string "eines Tages herausfinden, warum.$"
 
 
 FiveIsland4::
@@ -62,12 +60,14 @@ release
 end
 
 FiveIsland_Text_4:
-.string "The SEAGALLOP is doing enough with\n"
-    .string "contract that ARCHER made us sign to\l"
-    .string "ship certain ROCKETS to KANTO in this\l"
-    .string "political crisis. I don't want to see\l"
-    .string "you try anything weird outside of your\l"
-    .string "assigned times!$"
+	.string "Die SEESPRINT-FÄHRE tut schon mehr als\n"
+	.string "genug im Rahmen des Vertrags, den\l"
+	.string "ATLAS uns inmitten dieser politischen\l"
+	.string "Krise aufgezwungen hat, indem wir\l"
+	.string "bestimmte Mitglieder von TEAM ROCKET\l"
+	.string "nach KANTO schleusen.\p"
+	.string "Versuch bloß nichts außerhalb\n"
+	.string "der festgelegten Zeiten!$"
 
 
 
@@ -91,8 +91,8 @@ release
 end
 
 FiveIsland_Text_Derecha:     
-    .string "-I can't leave the WAREHOUSE\n"
-	.string "without talking to ARCHER!-$"
+	.string "-Ich kann das Lager nicht verlassen,\n"
+	.string "ohne zu wissen, was ATLAS von mir will.-$"
 
 
 FiveIslandDerechaMove1:
@@ -118,9 +118,9 @@ end
 
 
 FiveIsland_Text_RumboaKanto_1:
-    .string "Come, on! We are all waiting\n"
-	.string "for you!\l"
-	.string "Don't waste our time anymore!$"
+	.string "-Beeil dich! Wir warten schon alle\n"
+	.string "auf dich! Verschwende nicht noch\l"
+	.string "mehr unserer Zeit!-$"
 
 
 FiveIsland_RumboaKanto_move1:

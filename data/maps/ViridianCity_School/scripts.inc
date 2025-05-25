@@ -9,7 +9,8 @@ release
 end
 
 ViridianCity_School_Text_1:
-.string "traducir$"
+	.string "Das ist doch zum Kotzen! Warum muss ich\n"
+	.string "das auf Englisch lernen?$"
 
 
 
@@ -21,4 +22,7 @@ release
 end
 
 ViridianCity_School_Text_2:
-.string "traducir$"
+	.string "Das habe ich dir doch schon erklärt!\p"
+	.string "Heutzutage sind grundlegende\n"
+	.string "Englischkenntnisse ein Muss.\p"
+	.string "Also beschwere dich nicht!$"

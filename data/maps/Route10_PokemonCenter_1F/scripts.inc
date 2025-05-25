@@ -27,7 +27,8 @@ release
 end
 
 Route10_PokemonCenter_Text_2:
-    .string "traducir$"
+	.string "Ein NUGGET ist völlig nutzlos! Deswegen\n"
+	.string "habe Ich es für 5.000¥ verkauft!$"
 
 
 
@@ -39,7 +40,9 @@ release
 end
 
 Route10_PokemonCenter_Text_3:
-    .string "traducir$"
+	.string "POKéMON-Typen verhalten sich\n"
+	.string "unterschiedlich zueinander. Jeder Typ\l"
+	.string "hat seine Stärken und Schwächen.$"
 
 
 
@@ -56,7 +59,8 @@ release
 end
 
 Route10_PokemonCenter_Text_5:
-    .string "traducir$"
+	.string "Ich habe gehört, dass Geister in\n"
+	.string "LAVANDIA ihr Unwesen treiben!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak::
 lock

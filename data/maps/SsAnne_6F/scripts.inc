@@ -148,7 +148,10 @@ SsAnne6F_Text_11:
 	.string "handeln {PAUSE 15}…{PAUSE 15}$"
 
 SsAnne6F_Text_11.1:
-	.string "traducir$"
+	.string "Eine gewaltige Party, die kollektive\n"
+	.string "Trunkenheit und das Geheimnis hinter\l"
+	.string "dem Verlust der Persönlichkeit in\l"
+	.string "der Menge {PAUSE 15}…{PAUSE 15}$"
 
 SsAnne6F_Text_11.2:
 	.string "Ich habe immer noch nicht ganz\n"
@@ -334,9 +337,11 @@ SSAnne6F_Lance_Surge_Text_2.1:
 
 SSAnne6F_Lance_Surge_Text_3:
 	.string "MAJOR BOB: Alles läuft wie geschmiert,\n"
-	.string "Sir. ORANIAs Hafen weitet sein Netzwerk\l"
-	.string "an Kontakten mit anderen Regionen\l"
-	.string "immer mehr aus.$"
+	.string "Sir. ORANIAs Hafen hat sein Netzwerk an\l"
+	.string "Kontakten mit anderen Regionen\l"
+	.string "erheblich ausgeweitet. Zudem ziehen wir\l"
+	.string "in Erwägung, einen LEUCHTTURM zu bauen,\l"
+	.string "ähnlich wie der in OLIVIANA CITY.$"
 
 SSAnne6F_Lance_Surge_Text_4:
 	.string "SIEGFRIED: Das freut mich zu hören,\n"
@@ -345,7 +350,10 @@ SSAnne6F_Lance_Surge_Text_4:
 	.string "Aufschwung {PAUSE 5}…{PAUSE 5}$"
 
 SSAnne6F_Lance_Surge_Text_4.1:
-	.string "traducir$"
+	.string "Das war zu erwarten. Wir mussten\n"
+	.string "Ordnung schaffen und für die Bürger\l"
+	.string "entscheiden, in welche Richtung Sie\l"
+	.string "Ihre Anstrengungen lenken sollen.$"
 
 SSAnne6F_Lance_Surge_Text_5:
 	.string "SIEGFRIED: Aber {PAUSE 15}...{PAUSE 15} das war nicht meine\n"
@@ -426,7 +434,10 @@ SSAnne6F_Lance_Surge_Text_11:
 .string "MAJOR BOB: Sir, ja, Sir.$"
 
 SSAnne6F_Lance_Surge_Text_12:
-	.string "traducir$"
+	.string "SIEGFRIED: Das wär's fürs Erste, BOB.\n"
+	.string "Genieß die Feier hier auf der M.S. ANNE.\p"
+	.string "Sie ist eines unserer Vorzeigebeispiele\n"
+	.string "für den Fortschritt, den wir anstreben.$"
 
 SSAnne6F_Lance_Surge_Text_13:
 	.string "MAJOR BOB: Partys waren noch\n"

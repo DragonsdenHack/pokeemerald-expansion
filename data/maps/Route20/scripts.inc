@@ -201,34 +201,50 @@ release
 end
 
 Ruta_20_Andra_Texto_1:
-	.string "traducir$"
+	.string "ANDRA: Hey, {PLAYER}!\p"
+	.string "Wie läuft die Mission?$"
 
 Ruta_20_Andra_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_3:
-	.string "traducir$"
+	.string "Du bist schon bei den\n"
+	.string "SEESCHAUMINSELN?\p"
+	.string "Nicht schlecht!$"
 
 Ruta_20_Andra_Texto_4:
-	.string "traducir$"
+	.string "Ich habe mein SNIEBEL trainiert,\n"
+	.string "bis er EISHIEB gelernt hat.$"
 
 Ruta_20_Andra_Texto_5:
-	.string "traducir$"
+	.string "Ich habe einen Tipp für dich:\p"
+	.string "Nutze FOKUSGURTE. Sie werden in\n"
+	.string "der UNTERIRDISCHEN BASIS verkauft\l"
+	.string "und sind echt nützlich.$"
 
 Ruta_20_Andra_Texto_6:
-	.string "traducir$"
+	.string "Dank dieses Items wird mein SNIEBEL in\n"
+	.string "der Lage sein, die Schwäche des VOGELs\l"
+	.string "gut auszunutzen. Das kombiniert mit\l"
+	.string "dem SCHLITZER meines URSARINGs, wird\l"
+	.string "den VOGEL auf die Bretter schicken.$"
 
 Ruta_20_Andra_Texto_7:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ruta_20_Andra_Texto_8:
-	.string "traducir$"
+	.string "Pass gut auf dich auf, {PLAYER}.$"
 
 Ruta_20_Andra_Texto_9:
-	.string "traducir$"
+	.string "Die VÖGEL mögen zwar mächtig und\n"
+	.string "stärker als jedes unserer POKéMON sein,\l"
+	.string "aber sie kämpfen alleine. Wir können sie\l"
+	.string "mit Köpfchen und Strategie besiegen.$"
 
 Ruta_20_Andra_Texto_10:
-	.string "traducir$"
+	.string "Das wäre alles. Wir sind bereit,\n"
+	.string "unauffällig ins KRAFTWERK\l"
+	.string "einzudringen.$"
 
 Ruta_20_Andra_Texto_11:
-	.string "traducir$"
+	.string "Viel Glück!$"

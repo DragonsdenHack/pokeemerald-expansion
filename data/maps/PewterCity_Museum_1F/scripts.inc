@@ -326,7 +326,10 @@ PewterCity_Museum_1F_Miguel_Texto_7:
 	.string "wissenschaftliche Gemeinschaft!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8:
-	.string "traducir$"
+	.string "WISSENSCHAFTLER MIGUEL: Was soll ich\n"
+	.string "denn deiner Meinung nach machen?\p"
+	.string "Einfach tatenlos dabei zusehen, wie die\n"
+	.string "Region in Mittelmäßigkeit versinkt?$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.1:
 	.string "Ich bin es Leid, dieselben TRAGOSSO,\n"
@@ -337,13 +340,20 @@ PewterCity_Museum_1F_Miguel_Texto_8.1:
 	.string "überdurchschnittlich.$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.2:
-	.string "traducir$"
+	.string "Im jetzigen KANTO gibt es nur zwei\n"
+	.string "Möglichkeiten starke POKéMON zu\l"
+	.string "bekommen: Entweder verkaufst du deine\l"
+	.string "Seele an die Eliten der Region oder\l"
+	.string "du betrügst andere.$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.3:
-	.string "traducir$"
+	.string "Aber Leute wie ihr wisst das ganz genau.\p"
+	.string "Nicht wahr, {PLAYER}? Sei ehrlich!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8.4:
-	.string "traducir$"
+	.string "Am Ende zählt nur das Resultat - das\n"
+	.string "nur BILL, SIEGFRIED und ich ein\l"
+	.string "AERODACTYL haben werden!$"
 
 PewterCity_Museum_1F_Miguel_Texto_9:
 	.string "LAMBDA: Du bist wirklich selten dämlich.\p"

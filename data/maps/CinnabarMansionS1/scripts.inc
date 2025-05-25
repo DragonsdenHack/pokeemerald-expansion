@@ -15,7 +15,11 @@ release
 end
 
 CinnabarMansionS1_Text_1:
-	.string "traducir$"
+	.string "Dieser Ort wurde nach MEWTUs Flucht\n"
+	.string "zerstört. Vieles ging verloren, doch die\l"
+	.string "Bedeutung dessen, was hier geschehen\l"
+	.string "ist, hat sich unauslöschlich in unserem\l"
+	.string "Gedächtnis eingebrannt.$"
 
 
 
@@ -27,7 +31,14 @@ release
 end
 
 CinnabarMansionS1_Text_3:
-	.string "traducir$"
+	.string "Nichts hält dem Zahn der Zeit stand.\n"
+	.string "Vielleicht wird es diesen Ort in drei\l"
+	.string "Jahren nicht mehr geben. Es könnte\l"
+	.string "sogar passieren, dass die gesamte\l"
+	.string "ZINNOBERINSEL von ihrem Vulkan\l"
+	.string "verschlungen werden. Wer weiß … Aber\l"
+	.string "nichts davon kann das ungeschehen\l"
+	.string "machen, was hier passiert ist.$"
 
 
 
@@ -39,7 +50,14 @@ release
 end
 
 CinnabarMansionS1_Text_4:
-	.string "traducir$"
+	.string "Wenn man dich nicht bezwingen kann,\n"
+	.string "stehst du selbst nach den härtesten\l"
+	.string "Schlägen noch stärker auf.\p"
+	.string "Das wir diesen Ort am Leben gehalten\n"
+	.string "und unser großes Projekt trotz allem\l"
+	.string "abgeschlossen haben, ist der lebende\l"
+	.string "Beweis dafür. Niemand, nicht einmal du,\l"
+	.string "kann das ungeschehen machen.$"
 
 CinnabarMansionS1_Dalia_Move_1:
 walk_in_place_right

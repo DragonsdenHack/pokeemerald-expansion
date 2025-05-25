@@ -192,13 +192,25 @@ MtMoon_2F_AltoRango_Text_4:
 	.string "FOSSIL.$"
 
 MtMoon_2F_AltoRango_Text_4.1:
-	.string "traducir$"
+	.string "Wie einige von euch wissen, ist hier ein\n"
+	.string "mysteriöser Trainer unterwegs, der ein\l"
+	.string "SCHILLOK mit sich führt - eines der\l"
+	.string "STARTER-POKéMON der Region. Er hat\l"
+	.string "bereits vier unserer Leute erledigt\l"
+	.string "und sich zwei FOSSILIEN unter den\l"
+	.string "Nagel gerissen!$"
 
 MtMoon_2F_AltoRango_Text_4.2:
-	.string "traducir$"
+	.string "Wir wissen, dass es noch weitere\n"
+	.string "FOSSILIEN gibt. Unsere oberste\l"
+	.string "Priorität ist es, sie zuerst zu\l"
+	.string "finden und zu verhindern, dass uns\l"
+	.string "dieser TRAINER erneut reinlegt.$"
 
 MtMoon_2F_AltoRango_Text_4.3:
-	.string "traducir$"
+	.string "Solltet ihr ihn irgendwo sehen,\n"
+	.string "sagt mir sofort Bescheid!\p"
+	.string "Ich kümmere mich dann um ihn!$"
 
 MtMoon_2F_AltoRango_Text_5:
 .string "JAWOHL, SIR!!$"

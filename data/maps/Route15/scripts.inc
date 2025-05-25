@@ -408,7 +408,7 @@ Route15_Koga_Bruno_Texto_7:
 	.string "Grund an so einen Ort {PAUSE 5}…{PAUSE 5}$"
 
 Route15_Koga_Bruno_Texto_7.1:
-.string "KOGA: W-{PAUSE 25}What{PAUSE 25}…{PAUSE 25} are you going to do?$"
+.string "KOGA: W-Was {PAUSE 25}…{PAUSE 25} gedenkst du zu tun?$"
 
 Route15_Koga_Bruno_Texto_8:
 	.string "BRUNO: Ich bin auf SIEGFRIEDS\n"
@@ -479,10 +479,19 @@ Route15_Koga_Bruno_Texto_15.1:
 	.string "Unterstützung erhalten.$"
 
 Route15_Koga_Bruno_Texto_15.2:
-	.string "traducir$"
+	.string "Es wirkt so, als hätten die Menschen es\n"
+	.string "vergessen, aber {PAUSE 25}…{PAUSE 25} ich würde eher sagen,\l"
+	.string "dass sie es vorziehen, so zu tun, als\l"
+	.string "hätten die es vergessen. Manche wollen\l"
+	.string "es vielleicht sogar wirklich vergessen!$"
 
 Route15_Koga_Bruno_Texto_15.3:
-	.string "traducir$"
+	.string "Aber ich weigere mich aufzugeben!\p"
+	.string "Ich erinnere mich noch gut an das\n"
+	.string "alte KANTO und werde alles in meiner\l"
+	.string "Macht stehende als ARENALEITER tun,\l"
+	.string "um es wieder im alten Glanz\l"
+	.string "auferstehen zu lassen!$"
 
 Route15_Koga_Bruno_Texto_16:
 	.string "Wenn ihm das nicht gelingt, wird er sie\n"

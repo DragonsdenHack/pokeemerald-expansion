@@ -422,10 +422,10 @@ Vermilion_City_Lider_Gimnasio_Texto_3:
 	.string "reißt!$"
 
 Vermilion_City_Lider_Gimnasio_Texto_3.1:
-.string "Habrás ganado la batalla, pero\n"
-	.string "no la guerra.\p"
-	.string "La vida da muchas vueltas,\n"
-	.string "no lo olvides.$"
+	.string "Du hast vielleicht die Schlacht\n"
+	.string "gewonnen, aber nicht den Krieg.\p"
+	.string "Das Leben ist voller Wendungen\n"
+	.string "- vergiss das nicht.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_4:
 	.string "Denkst du wirklich, ich erkläre dir, was\n"

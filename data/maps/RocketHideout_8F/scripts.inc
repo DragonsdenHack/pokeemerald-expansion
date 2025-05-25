@@ -603,7 +603,10 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.2:
 	.string "Vulkan von EILAND EINS.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22.3:
-	.string "traducir$"
+	.string "Es ist zwar nicht so schnell wie ZAPDOS\n"
+	.string "und weniger widerstandsfähig als\l"
+	.string "ARKTOS, doch besitzt es dafür die\l"
+	.string "verheerendsten FEUER-ATTACKEN.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23:
     .string "Eure Missionen lauten wie folgt.$"
@@ -630,13 +633,16 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.2:
 	.string "lodernden Vogels zu ersticken {PAUSE 5}…{PAUSE 5}$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.3:
-	.string "traducir$"
+	.string "Gib ihm das und selbst LAVADOS' Flammen\n"
+	.string "werden nicht in der Lage sein, einen\l"
+	.string "KANTO-STARTER zu bezwingen.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.4:
-	.string "traducir$"
+	.string "BLAU erhält eine OFFENSIVWESTE!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23.5:
-	.string "traducir$"
+	.string "BLAU: Danke, SIR!\p"
+	.string "Jetzt ist mein TURTOK unbesiegbar!!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24:
 	.string "GIOVANNI: Und was dich betrifft,\n"
@@ -689,9 +695,10 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.1:
 	.string "LEGENDÄREN POKéMON.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27.2:
-	.string "That's all, and remember, KANTO's\n"
-	.string "history is being written now,\l"
-	.string "with every step you take.$"
+	.string "Das ist alles und merkt euch: KANTOs\n"
+	.string "Geschichte wird hier und jetzt\l"
+	.string "geschrieben - mit jedem Schritt,\l"
+	.string "den ihr macht.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28:
 	.string "ANDRA: Ich bin immer noch völlig baff,\n"
@@ -842,7 +849,12 @@ release
 end
 
 RocketHideout_8F_Mision_Silph_No_Texto_1:
-	.string "traducir$"
+	.string "-Du wurdest zum OFFIZIER befördert,\n"
+	.string "hast 50 ULTRABÄLLE erhalten, ein\l"
+	.string "AERODACTYL und dazu noch 500.000¥.\p"
+	.string "Deine nächste Mission ist in SAFFRONIA\n"
+	.string "CITY bei SILPH. Um deinen Skin-Wechsel\l"
+	.string "zu sehen, musst du den Raum verlassen.-$"
 
 RocketHideout_8F_Mision_Silph::
 lock
@@ -1217,7 +1229,10 @@ walk_left
 step_end
 
 RocketHideout_8F_Mision_Silph_Yes:
-	.string "traducir$"
+	.string "Möchtest du die Szene fortsetzen?\p"
+	.string "-Wenn du 'JA' drückst und ein Bug\n"
+	.string "auftritt, kannst du 'Nein' drücken,\l"
+	.string "um die Szene zu überspringen.-$"
 
 RocketHideout_8F_Mision_Silph_text_1:
 	.string "GIOVANNI: Ah, {PLAYER}!\p"
@@ -1298,19 +1313,25 @@ RocketHideout_8F_Mision_Silph_text_13:
 .string "DU ERHÄLTST EIN LEVEL 35 AERODACTYL!$"
 
 RocketHideout_8F_Mision_Silph_text_13.1:
-	.string "traducir$"
+	.string "Als ROCKET OFFIZIER habt ihr nun die\n"
+	.string "Erlaubnis, den südlichen Bereich der\l"
+	.string "UNTERIRDISCHEN BASIS zu betreten.$"
 
 RocketHideout_8F_Mision_Silph_text_13.2:
-	.string "traducir$"
+	.string "Hier, nimm den hier.$"
 
 RocketHideout_8F_Mision_Silph_text_13.3:
-	.string "traducir$"
+	.string "DU ERHÄLTST DEN VIP-SCHLÜSSEL!$"
 
 RocketHideout_8F_Mision_Silph_text_13.4:
-	.string "traducir$"
+	.string "Dort findet ihr einige exklusive\n"
+	.string "Ressourcen, mit denen ihr eure\l"
+	.string "Teams noch stärker machen könnt.$"
 
 RocketHideout_8F_Mision_Silph_text_13.5:
-	.string "traducir$"
+	.string "Es dient auch als ein Ruhebereich, den\n"
+	.string "ihr zusammen mit anderen OFFIZIEREN\l"
+	.string "teilt.$"
 
 RocketHideout_8F_Mision_Silph_text_14:
 .string "{PAUSE 15}…{PAUSE 15}$"
@@ -1611,7 +1632,18 @@ RocketHideout_8F_Mision_Silph_text_37.1:
 	.string "bis heute.$"
 
 RocketHideout_8F_Mision_Silph_text_38:
-	.string "traducir$"
+	.string "Das ist der Grund, warum wir so viele\n"
+	.string "Forschungsinstitute errichtet haben,\l"
+	.string "in die Gebiete der LEGENDÄREN VÖGEL\l"
+	.string "eingedrungen sind und auf illegale\l"
+	.string "Mittel zurückgegriffen haben, um uns\l"
+	.string "das notwendige Kapital zu beschaffen.\p"
+	.string "Das neue System macht es einem\n"
+	.string "unmöglich, Geld auf legale Weise\l"
+	.string "anzusammeln. In so einem Fall wird es\l"
+	.string "also schon fast zur moralischen Pflicht\l"
+	.string "für jeden, der Prinzipien hat, das\l"
+	.string "Gesetz selbst in die Hand zu nehmen.$"
 
 RocketHideout_8F_Mision_Silph_text_39:
 	.string "Alles, wonach TEAM ROCKET all die Jahre\n"
@@ -2215,25 +2247,35 @@ RocketHideout_8F_Mision_Gimnasios_texto_6:
 	.string "mal das Handwerk zu legen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.1:
-	.string "traducir$"
+	.string "????: Sie wissen es.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.2:
-	.string "traducir$"
+	.string "GIOVANNI: LANCE, was ist passiert?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.3:
-	.string "traducir$"
+	.string "Ich war bei FUJI, um mit ihm zu sprechen\n"
+	.string "- wie Sie es befohlen haben, Sir.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.4:
-	.string "traducir$"
+	.string "Jemand hat uns verraten. Die KANTO\n"
+	.string "POLIZEI ist in LAVANDIA aufgetaucht.\p"
+	.string "Ich konnte zwar dank TELEPORT fliehen,\n"
+	.string "aber FUJI hatte weniger Glück.\p"
+	.string "Sie haben ihn festgenommen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.5:
-	.string "traducir$"
+	.string "GIOVANNI: Das {PAUSE 25}…{PAUSE 25} kann nicht {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.6:
-	.string "traducir$"
+	.string "Das ist noch nicht alles. Sie wissen\n"
+	.string "auch über all unsere Projekte bezüglich\l"
+	.string "der LEGENDÄREN KANTO VÖGEL Bescheid.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6.7:
-	.string "traducir$"
+	.string "Jemand muss sie über unsere neuesten\n"
+	.string "Fortschritte in der Gentechnik\l"
+	.string "informiert haben - das wir nun in der\l"
+	.string "Lage sind, die VÖGEL zu klonen.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_7:
 	.string "PYRO! Er hat uns verraten! Es kann\n"
@@ -2263,7 +2305,9 @@ RocketHideout_8F_Mision_Gimnasios_texto_9:
 	.string "toleriert werden.-$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_10:
-	.string "traducir$"
+	.string "GIOVANNI: Verstehe {PAUSE 15}…{PAUSE} Diejenigen, die\n"
+	.string "die Gesetze machen, können sie sets so\l"
+	.string "zurechtbiegen, wie es ihnen passt.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
 .string "{PAUSE 15}…{PAUSE 15}$"

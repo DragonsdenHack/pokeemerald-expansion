@@ -127,7 +127,20 @@ release
 end
 
 RocketHideout5F_Text_11:
-	.string "traducir$"
+	.string "KANTO wirkt derzeit wie eine Parodie der\n"
+	.string "großen dystopischen Werke des frühen\l"
+	.string "20. Jahrhunderts: -1984- und -Schöne\l"
+	.string "neue Welt-. Zwar herrscht in KANTO\l"
+	.string "nicht die totale Kontrolle, wie sie\l"
+	.string "Orwell in seinem Werk schildert, doch\l"
+	.string "gehen die Bürger an ihrer Arbeit\l"
+	.string "zugrunde. Was -Schöne neue Welt-\l"
+	.string "angeht {PAUSE 25}…{PAUSE 25} so könnte die Illusion der\l"
+	.string "POKéMON LIGA und der damit\l"
+	.string "einhergehende Traum, CHAMP zu werden,\l"
+	.string "als eine moderne Version von Soma\l"
+	.string "gesehen werden - als etwas, was\l"
+	.string "KANTO bei Verstand hält.$"
 
 
 
@@ -1959,7 +1972,11 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
 	.string "Anscheinend ist es ROTs Heimat.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6.1:
-	.string "traducir$"
+	.string "Ich habe ihm ein kleines Geschenk\n"
+	.string "dagelassen, das ihn für eine Weile\l"
+	.string "beschäftigen wird.\p"
+	.string "Du brauchst dir im Moment also\n"
+	.string "keine Sorgen um ihn zu machen.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
 	.string "Unter allen Missionen, die du bisher im\n"
@@ -1975,12 +1992,21 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
 	.string "definitiv bezwingen {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
-	.string "Noch etwas, {PLAYER}: Vermeide EICH,\n"
+	.string "Noch etwas, {PLAYER}. Vermeide EICH,\n"
 	.string "den Besitzer des Forschungslabors, um\l"
-	.string "jeden Preis.$"
+	.string "jeden Preis. Er hat angeblich schon vor\l"
+	.string "Jahren das Kämpfen aufgeben und sein\l"
+	.string "Team in aller Öffentlichkeit entlassen,\l"
+	.string "nachdem SIEGFRIED den Krieg gewonnen\l"
+	.string "hatte. Aber mittlerweile glaube ich\l"
+	.string "nichts von dem mehr, was in den\l"
+	.string "Nachrichten gezeigt wird.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
-	.string "traducir$"
+	.string "Er war früher ein sehr guter Trainer,\n"
+	.string "bevor er seine Prinzipien über Bord\l"
+	.string "warf.\p"
+	.string "Sei auf der Hut.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9:
 .string "Das ist alles.\p"

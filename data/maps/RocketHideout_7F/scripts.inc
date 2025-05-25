@@ -200,10 +200,18 @@ release
 end
 
 RocketHideout7F_Text_11.1:
-	.string "traducir$"
+	.string "Kein anderer wurde so auf die Probe\n"
+	.string "gestellt und hat sich so sehr bewiesen\l"
+	.string "wie unser BOSS.\p"
+	.string "Deshalb vertrauen wir ihm blind.$"
 
 RocketHideout7F_Text_11:
-	.string "traducir$"
+	.string "Jemand, der nie gesündigt hat, ist\n"
+	.string "weniger vertrauenswürdig als jemand,\l"
+	.string "der nur einmal gesündigt hat.\p"
+	.string "Und wer viele Fehler gemacht hat,\n"
+	.string "ist vertrauenswürdiger als jemand,\l"
+	.string "der keinen begangen hat.$"
 
 
 
@@ -477,7 +485,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_100:
-.string "NUMMER 5: ARTICUNO\p"
+.string "NUMMER 5: ARKTOS\p"
 	.string "KRAFTPUNKTE: 90\n"
 	.string "ANGRIFF: 85\l"
 	.string "VERTEIDIGUNG: 100\l"
@@ -485,7 +493,13 @@ RocketHideout7FDocumento_Text_100:
 	.string "SPEZIAL-VERTEIDIGUNG: 125\l"
 	.string "INITIATIVE: 85\l"
 	.string "INSGESAMT: 580\p"
-	.string "traducir$"
+	.string "Der eisige Vogel unserer Region mit den\n"
+	.string "höchsten Verteidigungswerten, aber der\l"
+	.string "schlechtesten Typenkombination.\p"
+	.string "Dank seiner Fähigkeit SCHILDLOS verfehlen\n"
+	.string "BLIZZARD und ORKAN niemals ihr Ziel, was\l"
+	.string "ARKTOS auch offensiv eine gewisse\l"
+	.string "Schlagkraft verleiht.$"
 
 
 
@@ -507,7 +521,16 @@ RocketHideout7FDocumento_Text_101:
 	.string "SPEZIAL-VERTEIDIGUNG: 90\l"
 	.string "INITIATIVE: 100\l"
 	.string "INSGESAMT: 580\p"
-	.string "traducir$"
+	.string "Der Donner KANTOs und der legendäre\n"
+	.string "Vogel mit den besten Angriffswerten.\p"
+	.string "Dank seiner Fähigkeit DOWNLOAD kann es\n"
+	.string "mit noch größerer Stärke angreifen.\p"
+	.string "Zudem deckt mit Attacken wie\n"
+	.string "HITZEWELLE, METEOROLOGE und\l"
+	.string "SONDERSENSOR einen Großteil seiner\l"
+	.string "Schwächen ab. Wir vermuten, dass\l"
+	.string "ZAPDOS der Vogel mit dem höchsten\l"
+	.string "Potential ist.$"
 
 
 
@@ -521,7 +544,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_102:
-.string "NUMMER 3: MOLTRES\p"
+.string "NUMMER 3: LAVADOS\p"
 	.string "KRAFTPUNKTE: 90\n"
 	.string "ANGRIFF: 85\l"
 	.string "VERTEIDIGUNG: 90\l"
@@ -529,7 +552,13 @@ RocketHideout7FDocumento_Text_102:
 	.string "SPEZIAL-VERTEIDIGUNG: 100\l"
 	.string "INITIATIVE: 90\l"
 	.string "INSGESAMT: 580\p"
-	.string "traducir$"
+	.string "Die Flamme KANTOs und derjenige der\n"
+	.string "drei Vögel, der den meisten Schaden\l"
+	.string "dank seiner Fähigkeit ROHE GEWALT\l"
+	.string "anrichten kann. Damit übertrifft\l"
+	.string "sein FEUERSTURM sogar den der\l"
+	.string "bedeutenderen LEGENDÄREN\l"
+	.string "FEUER-POKéMON - einschließlich HO-OH.$"
 
 
 
@@ -1161,18 +1190,18 @@ RocketHideout7FDocumento_Text_Latias:
 	.string "INSGESAMT: 600$"
 
 RocketHideout7FDocumento_Text_Latias_1:
-	.string "Along with LATIOS, it forms one of the\n"
-	.string "most evasive LEGENDARY duo for the\l"
-	.string "human eye. Is more efficient than her\l"
-	.string "brother, but she's second in the\l"
-	.string "offensive.$"
+	.string "Zusammen mit LATIOS bildet sie eines\n"
+	.string "der LEGENDÄREN Duos, welches kaum je\l"
+	.string "von Menschen erblickt wird. Sie ist\l"
+	.string "effizienter als ihr Bruder, steht ihm\l"
+	.string "aber in puncto Offensive nach.$"
 
 RocketHideout7FDocumento_Text_Latias_2:
-	.string "Its numbers are similar to a PSEUDO\n"
-	.string "LEGENDARY, with a good stats division;\l"
-	.string "however, if you give him the SOUL DEW,\l"
-	.string "it will rise to the levels of a MAJOR\l"
-	.string "LEGENDARY.$"
+	.string "Ihre Werte sind gut verteilt und ähneln\n"
+	.string "denen von PSEUDO-LEGENDÄREN POKéMON.\p"
+	.string "Gibt man ihr jedoch einen SEELENTAU,\n"
+	.string "erreicht sie das Level von stärkeren\l"
+	.string "LEGENDÄREN POKéMON.$"
 
 RocketHideout7FDocumento_Latios::
 lock     
@@ -1196,17 +1225,19 @@ RocketHideout7FDocumento_Text_Latios:
 	.string "INSGESAMT: 600$"
 
 RocketHideout7FDocumento_Text_Latios_1:
-	.string "Along with LATIAS, it forms one of the\n"
-	.string "most evasive LEGENDARY duo for the\l"
-	.string "human eye. Is not as efficient as his\l"
-	.string "sister, but he wins in the offensive.$"
+	.string "Zusammen mit LATIAS bildet er eines der\n"
+	.string "LEGENDÄREN Duos, welches kaum je von\l"
+	.string "Menschen erblickt wird. Er ist zwar\l"
+	.string "nicht so effizient wie seine Schwester,\l"
+	.string "doch ist er ihr in puncto Offensive\l"
+	.string "überlegen.$"
 
 RocketHideout7FDocumento_Text_Latios_2:
-	.string "Its numbers are similar to a PSEUDO\n"
-	.string "LEGENDARY, with a good stats division;\l"
-	.string "however, if you give him the SOUL DEW,\l"
-	.string "it will rise to the levels of a MAJOR\l"
-	.string "LEGENDARY.$"
+	.string "Seine Werte sind gut verteilt und\n"
+	.string "ähneln denen von PSEUDO-LEGENDÄREN\l"
+	.string "POKéMON. Gibt man ihm jedoch einen\l"
+	.string "SEELENTAU, erreicht er das Level von\l"
+	.string "stärkeren LEGENDÄREN POKéMON.$"
 
 
 RocketHideout7FDocumento_123::

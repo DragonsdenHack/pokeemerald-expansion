@@ -501,10 +501,14 @@ SaffronCity_Combate_Andra_Texto_8:
 	.string "schon das zweite Mal, dass du mir zur\l"
 	.string "Hilfe eilen musstest, weil ich zu\l"
 	.string "unfähig war, eine Mission alleine\l"
-	.string "abzuschließen.$"
+	.string "abzuschließen.\p"
+	.string "Das sie mir eine Falle gestellt\n"
+	.string "haben, ist keine Entschuldigung.$"
 	
 SaffronCity_Combate_Andra_Texto_8.1:
-	.string "traducir$"
+	.string "Ich hätte in der Lage sein müssen, alle\n"
+	.string "Polizisten fertigzumachen und dann\l"
+	.string "ZAPDOS zu besiegen!$"
 
 SaffronCity_Combate_Andra_Texto_9:
 	.string "Diese Region ist perfekt, um sich als\n"

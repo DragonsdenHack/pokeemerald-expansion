@@ -177,7 +177,9 @@ Route25_BillHouse_Evento_Policia_text_3:
 .string "{PAUSE 15}…{PAUSE 15}$"
 
 Route25_BillHouse_Evento_Policia_text_4:
-	.string "traducir$"
+	.string "Du willst mein Patent für\n"
+	.string "Langstrecken-Teleportationen? Gut\l"
+	.string "gespielt {PAUSE 15}…{PAUSE 15} also nicht wirklich.$"
 
 Route25_BillHouse_Evento_Policia_text_5:
 	.string "Die Regierung der TOP VIER hat mir\n"
@@ -186,7 +188,13 @@ Route25_BillHouse_Evento_Policia_text_5:
 	.string "LEGENDÄREN VÖGEL angeboten.$"
 
 Route25_BillHouse_Evento_Policia_text_5.1:
-	.string "traducir$"
+	.string "Deine Dreistigkeit erstaunt mich.\p"
+	.string "Dachtest du wirklich, ein einziger\l"
+	.string "ROCKET könnte das geistige Eigentum\l"
+	.string "der bahnbrechendsten Erfindung des\l"
+	.string "genialen BILLs stehlen?\p"
+	.string "Das ist zehn Nummern zu groß\n"
+	.string "für dich, ROCKET.$"
 
 Route25_BillHouse_Evento_Policia_text_6:
 	.string "WACHEN! Schafft mir dieses SLEIMA auf\n"

@@ -83,13 +83,13 @@ release
 end
 
 Curacion_Centros_Pokemon_Johto_Texto_1:
-.string "Welcome to the ROCKET\n"
-	.string "PKMN CENTER…$"
+.string "Willkommen beim ROCKET\n"
+	.string "SCHNELLHEILUNGS-CENTER! {PAUSE 5}…{PAUSE 5}$"
 
 Curacion_Centros_Pokemon_Johto_Texto_2:
-.string "Here we go!\p"
-	.string "All your POKÉMON are\n"
-	.string "in shape again!$"
+.string "Und fertig!\p"
+	.string "Deine POKéMON sind\n"
+	.string "wieder einsatzbereit!$"
 
 
 Curacion_Centros_Pokemon_Kanto::

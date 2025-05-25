@@ -44,10 +44,12 @@ release
 end
 
 FileIsleMeadow7_Text_7:
-	.string "'Goldeen need log' and 'Yes, nah,\n"
-	.string "Chansey'. The cleverness of our\l"
-	.string "passwords lies in their palindromic\l"
-	.string "nature.$"
+	.string "-ARBOK Kobra- und -HO-OH, ist das echt\n"
+	.string "HO-OH?- Unsere Passwörter sind so\l"
+	.string "genial, weil sie Palindrome sind.\p"
+	.string "Ich habe gehört, dass HO-OH ein\n"
+	.string "mächtiges POKéMON aus JOHTO ist -\l"
+	.string "der Region, aus der ATLAS stammt.$"
 
 
 

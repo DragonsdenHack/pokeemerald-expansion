@@ -22,7 +22,9 @@ release
 end
 
 NewMap2_Primer_Gamer_Texto_1:
-    .string "traducir$"
+	.string "Ich will unbedingt ein PIKACHU.\p"
+	.string "Deswegen tausche ich mein PIEPI\n"
+	.string "gegen eins.$"
 
 NewMap2_Segundo_Gamer::
 lock
@@ -32,7 +34,10 @@ release
 end
 
 NewMap2_Segundo_Gamer_Texto_1:
-    .string "traducir$"
+	.string "Ich tausche POKéMON mit dem Kind dort.\p"
+	.string "Ich habe zwei PIKACHU. Daher habe ich\n"
+	.string "kein Problem damit, eines von ihnen zu\l"
+	.string "tauschen.$"
 
 NewMap2_Caballero::
 lock
@@ -55,7 +60,9 @@ release
 end
 
 NewMap2_Chico_Texto_1:
-    .string "traducir$"
+	.string "Gäääähn! Wenn PUMMELUFF singt, werden\n"
+	.string "POKéMON schläfrig … … Ich auch …\l"
+	.string "Schnarch …$"
 
 NewMap2_Chica_Personalidades::
 lock

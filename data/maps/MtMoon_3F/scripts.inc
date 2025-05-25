@@ -874,13 +874,49 @@ MtMoon_3F_Pelea_Frank_texto5:
 	.string "diese Situation zu meistern.$"
 
 MtMoon_3F_Pelea_Frank_texto6:
-	.string "traducir$"
+	.string "Du hättest dir die FOSSILIEN schnappen\n"
+	.string "und sofort mit einem FLUCHTSEIL\l"
+	.string "abhauen sollen, nachdem du meine\l"
+	.string "Nachricht erhalten hast, anstatt wie\l"
+	.string "ein Trottel herumzustehen und dich\l"
+	.string "fertigmachen zu lassen!\p"
+	.string "Vor allem, nachdem du vor seinen\n"
+	.string "außergewöhnlichen Fähigkeiten gewarnt\l"
+	.string "wurdest! Ganz zu schweigen, dass du\l"
+	.string "auch noch den Streber aus den Augen\l"
+	.string "gelassen hast, der dich letztendlich\l"
+	.string "verarscht hat! Dieser zwielichtige\l"
+	.string "Mistkerl hat sich bestimmt mit einem\l"
+	.string "der FOSSILIEN aus dem Staub gemacht!\p"
+	.string "Gratuliere, {PLAYER}! Du bist nun\n"
+	.string "offiziell die Lachnummer der\l"
+	.string "Organisation! Deine Nachlässigkeit hat\l"
+	.string "uns ungefähr 600.000 ¥ gekostet. Hast\l"
+	.string "du auch nur den Hauch einer Ahnung, was\l"
+	.string "wir damit hätten finanzieren können?$"
 
 MtMoon_3F_Pelea_Frank_texto7:
-	.string "traducir$"
+	.string "HOCHRANGIGER RÜPEL FRANK: Was?\p"
+	.string "Du meinst, dass der TEAM ROCKET\n"
+	.string "Ehrenkodex gebietet, dass wir niemals\l"
+	.string "vor einem Feind zurückweichen,\l"
+	.string "geschweige denn fliehen dürfen?\p"
+	.string "Das es als Schwäche und Mangel an\n"
+	.string "Werten anzusehen wäre, und dass wir\l"
+	.string "diesen Trainer als Team hätten\l"
+	.string "bekämpfen sollen?$"
 
 MtMoon_3F_Pelea_Frank_texto8:
-	.string "traducir$"
+	.string "HOCHRANGIGER RÜPEL FRANK: Willst du\n"
+	.string "mich verarschen?! Ich brauche doch\l"
+	.string "keinen dahergelaufenen Neuling, der mir\l"
+	.string "den ROCKET-Ehrenkodex erklärt! Du\l"
+	.string "wirst es noch bereuen, dein Schandmaul\l"
+	.string "so weit aufgerissen zu haben! Leuten\l"
+	.string "wie dir muss man die Dinge auf die harte\l"
+	.string "Tour beibringen! Ich übernehme keine\l"
+	.string "Verantwortung für das, was gleich mit\l"
+	.string "deinem POKéMON-TEAM passiert!$"
 
 MtMoon_3F_Pelea_Frank_texto9:
 	.string "Ich, ein hochrangiges Mitglied dieser\n"
@@ -891,7 +927,13 @@ MtMoon_3F_Pelea_Frank_texto10:
 .string "Das ist inakzeptabel…{PAUSE 5}$"
 
 MtMoon_3F_Pelea_Frank_texto11:
-	.string "traducir$"
+	.string "Es reicht! Diese Mission ist vorbei!\p"
+	.string "Wegen dir haben wir zwei FOSSILIEN\n"
+	.string "eingebüßt! LAMBDA wird euch alle dafür\l"
+	.string "zur Rechenschaft ziehen! Also meldet\l"
+	.string "euch bei ihm in der BASIS auf ROUTE 5!\p"
+	.string "Dort bekommt ihr eure nächste Mission!\p"
+	.string "Rauchkugel, los!!$"
 
 MtMoon_3F_Pelea_Frank_texto12:
 	.string "ANDRA: Krass! Siehst du das? Alle sind\n"

@@ -9,9 +9,12 @@ release
 end
 
 FiveIsland_House2_Text_1:
-    .string "The meadow to the east has been my\n"
-    .string "family's propierty for generations, I\l"
-    .string "should have built a huge mansion on it.\p"
-    .string "It would be preferable instead of\n"
-    .string "having to put up with you and your\l"
-    .string "savage organization!$"
+	.string "Die Weide östlich von hier ist schon\n"
+	.string "seit Generationen im Besitz meiner\l"
+	.string "Familie. Ich hätte dort eine große Villa\l"
+	.string "bauen sollen, als ich es noch konnte.\p"
+	.string "Dann müsste ich mich nicht länger mit\n"
+	.string "dir und deiner verruchten Organisation\l"
+	.string "rumschlagen!$"
+
+

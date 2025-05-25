@@ -41,7 +41,7 @@ release
 end
 
 Silph10F_5_Texto_1:
-	.string "traducir$"
+	.string "Ahhhhhhhh! Ich habe Angst!$"
 
 Silph10F_5_Texto_2:
 	.string "Bist du wirklich so schamlos, hierher\n"

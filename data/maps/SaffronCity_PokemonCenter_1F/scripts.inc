@@ -62,8 +62,10 @@ release
 end
 
 SaffronCityPokemonCenter4_Texto_1:
-.string "SILPH is such an important company that\n"
-	.string "even LANCE came here for business.$"
+	.string "SILPH ist ein so bedeutendes\n"
+	.string "Unternehmen, dass sogar SIEGFRIED\l"
+	.string "höchstpersönlich aus\l"
+	.string "Geschäftsgründen hier war.$"
 
 
 SaffronCityPokemonCenterDocumento_100::

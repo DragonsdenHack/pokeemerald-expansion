@@ -115,7 +115,15 @@ release
 end
 
 RocketHideout6F_Text_6:
-	.string "traducir$"
+	.string "Wir verfügen nur über eine begrenzte\n"
+	.string "Menge an Willenskraft, die jedes Mal\l"
+	.string "abnimmt, wenn wir sie einsetzen. Die\l"
+	.string "Willenskraft ist keine Manifestation\l"
+	.string "unseres Charakters und auch keine\l"
+	.string "unerschöpfliche Energiequelle.\p"
+	.string "Sie funktioniert vielmehr wie ein Muskel,\n"
+	.string "der mit der Zeit ermüdet. Aber wie jeder\l"
+	.string "Muskel kann sie auch trainiert werden.$"
 
 
 
@@ -793,10 +801,18 @@ RocketHideout_6F_Petrel_Text_Mision_2_6:
 	.string "-ROCKET Ehrenkodex- bringen.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_7:
-	.string "traducir$"
+	.string "Aber vorher musst du noch für deine\n"
+	.string "mangelnde Effizienz geradestehen. Auf\l"
+	.string "dem Schwarzmarkt sind diese FOSSILIEN\l"
+	.string "mehr wert, als du es für TEAM ROCKET\l"
+	.string "bist.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_7.1:
-	.string "traducir$"
+	.string "Aus dem Grund wirst du all das Geld, was\n"
+	.string "du bei dir trägst, an TEAM ROCKET\l"
+	.string "übergeben. Es ist eine Strafe, aber\l"
+	.string "zugleich auch ein Test deiner Loyalität\l"
+	.string "gegenüber TEAM ROCKET.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_8:
 .string "Du hast jetzt ¥0.$"
@@ -1351,7 +1367,8 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_11:
 	.string "wertvolle Zeit und Millionen sparen.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_11.1:
-	.string "traducir$"
+	.string "LAMBDA: Verstanden,\n"
+	.string "CHEF-ADMINISTRATOR ATLAS.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
 	.string "ATLAS: Bilde dir nicht zu viel darauf\n"

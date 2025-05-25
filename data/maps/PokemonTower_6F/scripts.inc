@@ -231,7 +231,7 @@ PokemonTower_6F_Combate_Fuji_Texto_10:
 	.string "das TRAGOSSO.-$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10.1:
-.string "traducir$"
+	.string "FUJI: {PAUSE 35}Oh …{PAUSE 35} Dann … {PAUSE 35}, Du {PAUSE 25}…? {PAUSE 25}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 	.string "LANCE: Du wusstest, dass das eines\n"
@@ -250,11 +250,12 @@ PokemonTower_6F_Combate_Fuji_Texto_12:
 	.string "Gespräch stört.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.1:
-	.string "I want your team at its prime.\p"
-	.string "Let me heal your POKÉMON.$"
+	.string "Ich möchte, dass dein Team für diese\n"
+	.string "Aufgabe in Topform ist.\p"
+	.string "Lass mich deine POKéMON heilen.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12.2:
-    .string "I trust you.$"
+    .string "Ich zähle auf dich.$"
 
 PokemonTower_6F_Combate_Fuji_Move_1:
 walk_in_place_left
@@ -436,10 +437,14 @@ PokemonTower_6F_Cultistas_Texto_10:
 	.string "Glanz zu erblicken.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
-	.string "traducir$"
+	.string "Diese Welt ist so viel größer als die\n"
+	.string "Tyrannen, die KANTO unterjochen. Ich\l"
+	.string "hoffe lediglich, dass du lange genug\l"
+	.string "leben wirst, um das zu erkennen.\p"
+	.string "Lass mich dein POKéMON-Team heilen.$"
 
 PokemonTower_6F_Cultistas_Texto_12:
-	.string "traducir$"
+	.string "Nun setze deinen Weg fort.$"
 
 PokemonTower_6F_Cultistas_Move_1:
 emote_exclamation_mark

@@ -205,7 +205,13 @@ PokemonTower2F_Azul_Texto_7.1:
 	.string "weiterzieht.$"
 	
 PokemonTower2F_Azul_Texto_7.2:
-	.string "traducir$"
+	.string "Es scheint {PAUSE 15}…{PAUSE 15} als würde er einfach davon\n"
+	.string "ausgehen, dass er jeden besiegen wird\l"
+	.string "und sich die Sache damit erledigt\l"
+	.string "hätte! Doch {PAUSE 15}…{PAUSE 15} ich weigere mich, bloß ein\l"
+	.string "weiteres Glied in der Kette zu sein!\p"
+	.string "Kein TRAINER ist unbesiegbar, nicht\n"
+	.string "einmal er! Und ich werde es beweisen!$"
 
 PokemonTower2F_Azul_Texto_8:
 	.string "MR. FUJI: Die Exorzistinnen haben mir\n"

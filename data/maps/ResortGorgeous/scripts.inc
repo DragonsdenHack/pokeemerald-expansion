@@ -13,11 +13,11 @@ release
 end
 
 ResortGorgeous_Text_2:
-    .string "Good morning comrade! ARCHER has\n"
-    .string "already informed us of your mission in\l"
-    .string "CONSUL's HOUSE, your partner is already\l"
-    .string "inside apparently, you should go in as\l"
-    .string "soon as possible to help her.$"
+	.string "Guten Morgen, Genosse! ATLAS hat uns\n"
+	.string "bereits von deiner Mission im Haus der\l"
+	.string "KONSULIN informiert. Deine Partnerin\l"
+	.string "ist bereits drinnen. Du solltest\l"
+	.string "reingehen, um ihr zu helfen.$"
 
 ResortGorgeous3::
 end

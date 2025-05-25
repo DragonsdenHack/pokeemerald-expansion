@@ -26,7 +26,7 @@ release
 end
 
 Route12Path2F_1_Texto_1.1:
-    .string "traducir$"
+    .string "{PLAYER} erhältlich TM27!$"
 
 Route12Path2F_Text_1:
 	.string "Du hast keine Ahnung, was für eine\n"

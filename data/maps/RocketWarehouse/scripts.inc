@@ -218,8 +218,8 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
 
 RocketWarehouse_Text_6:
      .string "ARCHER: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\p"
-	.string "-It seems he's deep working\n"
-	.string "in a top project.-$"
+	.string "-Er scheint tief in ein sehr wichtiges\n"
+	.string "Projekt versunken zu sein.-$"
 
 
 
@@ -351,14 +351,16 @@ release
 end
 
 RocketWarehouseDocumento_Text_106:
-	.string "Based on our recent research, specific\n"
-	.string "radio frequencies have the potential\l"
-	.string "to directly impact the evolution\l"
-	.string "process of POKÉMON, induce mutations\l"
-	.string "that alter their original color, and in\l"
-	.string "extreme instances, alter their overall\l"
-	.string "BASE STATs, resulting in complete gene\l"
-	.string "modification.$"
+	.string "Unsere neuesten Forschungen haben\n"
+	.string "Erstaunliches zu bestimmten\l"
+	.string "Frequenzen von Radiowellen zutage\l"
+	.string "gefördert. Sie können die Entwicklung\l"
+	.string "eines POKéMON beeinflussen, es durch\l"
+	.string "Mutationen farblich verändern und im\l"
+	.string "Extremfall sogar die Statuswerte eines\l"
+	.string "POKéMON dauerhaft erhöhen, indem sie\l"
+	.string "dessen gesamten genetischen Code\l"
+	.string "verändern.$"
 
 
 
