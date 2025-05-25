@@ -188,7 +188,7 @@ RocketHideout_9F_Presentacion_Sala_Texto_12:
 
 RocketHideout_9F_Presentacion_Sala_Texto_13:
 	.string "{PAUSE 15}…{PAUSE 15}he won't be able to react in time,\n"
-	.string "to give his all.$"
+	.string "to give his all…$"
 
 RocketHideout_9F_Presentacion_Sala_Texto_1:
 	.string "GIOVANNI: Alright, you're here. Take a\n"
