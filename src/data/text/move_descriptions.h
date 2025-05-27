@@ -232,204 +232,204 @@ static const u8 sDisableDescription[] = _(
     "una mossa del nemico.");
 
 static const u8 sAcidDescription[] = _(
-    "Sprays a hide-melting acid.\n"
-    "May lower Defense.");
+    "10% anche ridurne\n"
+    "la Difesa Speciale.");
 
 static const u8 sEmberDescription[] = _(
-    "A weak fire attack that may\n"
-    "inflict a burn.");
+    "Debole attacco di\n"
+    "fuoco che può scottare.");
 
 static const u8 sFlamethrowerDescription[] = _(
-    "A powerful fire attack that\n"
-    "may inflict a burn.");
+    "intense fiammate che\n"
+    "possono anche scottarlo.");
 
 static const u8 sMistDescription[] = _(
-    "Creates a mist that stops\n"
-    "reduction of abilities.");
+    "Nebbia che blocca la\n"
+    "riduzione delle abilità.");
 
 static const u8 sWaterGunDescription[] = _(
-    "Squirts water to attack\n"
-    "the foe.");
+    "Colpito da un potente\n"
+    "getto d'acqua.");
 
 static const u8 sHydroPumpDescription[] = _(
-    "Blasts water at high power\n"
-    "to strike the foe.");
+    "Il nemico è travolto da\n"
+    "un potente getto d'acqua.");
 
 static const u8 sSurfDescription[] = _(
-    "Creates a huge wave, then\n"
-    "crashes it down on the foe.");
+    "Un'onda enorme sommerge\n"
+    "il campo di lotta.");
 
 static const u8 sIceBeamDescription[] = _(
-    "Blasts the foe with an icy\n"
-    "beam that may freeze it.");
+    "raggio di energia gelida,\n"
+    "10% di congelare.");
 
 static const u8 sBlizzardDescription[] = _(
-    "Hits the foe with an icy\n"
-    "storm that may freeze it.");
+    "Una tempesta di ghiaccio\n"
+    "che può congelare il nemico.");
 
 static const u8 sPsybeamDescription[] = _(
-    "Fires a peculiar ray that\n"
-    "may confuse the foe.");
+    "Può (10%) anche lasciare\n"
+    "il nemico confuso.");
 
 static const u8 sBubbleBeamDescription[] = _(
-    "Forcefully sprays bubbles\n"
-    "that may lower Speed.");
+    "Può (10%) anche ridurne la\n"
+    "Velocità.");
 
 static const u8 sAuroraBeamDescription[] = _(
-    "Fires a rainbow-colored\n"
-    "beam that may lower Attack.");
+    "Può (10%) ridurre l'attacco\n"
+    "dell'avversario.");
 
 static const u8 sHyperBeamDescription[] = _(
     "È potente, ma chi la usa\n"
     "perde il turno successivo.");
 
 static const u8 sPeckDescription[] = _(
-    "Attacks the foe with a\n"
-    "jabbing beak, etc.");
+    "Colpisce il nemico con\n"
+    "un becco appuntito.");
 
 static const u8 sDrillPeckDescription[] = _(
-    "A corkscrewing attack with\n"
-    "the beak acting as a drill.");
+    "Attacco con un becco aguzzo\n"
+    "che fa da trapano.");
 
 static const u8 sSubmissionDescription[] = _(
-    "A reckless body slam that\n"
-    "also hurts the user.");
+    "Riceve un danno da\n"
+    "contraccolpo pari al 25%.");
 
 static const u8 sLowKickDescription[] = _(
-    "A kick that inflicts more\n"
-    "damage on heavier foes.");
+    "Un calcio che danneggia\n"
+    "i nemici più pesanti.");
 
 static const u8 sCounterDescription[] = _(
-    "Retaliates any physical hit\n"
-    "with double the power.");
+    "Ripara qualsiasi colpo fisico\n"
+    "con una potenza doppia.");
 
 static const u8 sSeismicTossDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+    "Infligge un danno pari\n"
+    "al livello di chi la usa.");
 
 static const u8 sStrengthDescription[] = _(
-    "Builds enormous power,\n"
-    "then slams the foe.");
+    "Colpisce con la massima\n"
+    "energia.");
 
 static const u8 sAbsorbDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+    "Assorbe metà dei PS\n"
+    "sottratti al nemico.");
 
 static const u8 sMegaDrainDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+    "Assorbe metà dei PS\n"
+    "sottratti al nemico.");
 
 static const u8 sLeechSeedDescription[] = _(
-    "Plants a seed on the foe to\n"
-    "steal HP on every turn.");
+    "Pianta un seme sul nemico\n"
+    "per rubare HP a ogni turno.");
 
 static const u8 sGrowthDescription[] = _(
-    "Forces the body to grow\n"
-    "and heightens Sp. Atk.");
+    "Provoca la crescita del\n"
+    "corpo e aumenta l'Att. Spec.");
 
 static const u8 sRazorLeafDescription[] = _(
-    "Cuts the enemy with leaves.\n"
-    "High critical-hit ratio.");
+    "Foglie taglienti sferzano i\n"
+    "nemici intorno. +1 br.colpo.");
 
 static const u8 sSolarBeamDescription[] = _(
-    "Absorbs light in one turn,\n"
-    "then attacks next turn.");
+    "Al primo turno assorbe energia\n"
+    "e attacca nel successivo.");
 
 static const u8 sPoisonPowderDescription[] = _(
-    "Scatters a toxic powder\n"
-    "that may poison the foe.");
+    "Una nube di polvere può\n"
+    "avvelenare il bersaglio.");
 
 static const u8 sStunSporeDescription[] = _(
-    "Scatters a powder that may\n"
-    "paralyze the foe.");
+    "Investe con una nuvola\n"
+    "di polvere che paralizza.");
 
 static const u8 sSleepPowderDescription[] = _(
-    "Scatters a powder that may\n"
-    "cause the foe to sleep.");
+    "Polvere che può far\n"
+    "addormentare il nemico.");
 
 static const u8 sPetalDanceDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Attacco veemente di 2-3\n"
+    "turni: confonde chi lo usa.");
 
 static const u8 sStringShotDescription[] = _(
-    "Binds the foe with string\n"
-    "to reduce its Speed.");
+    "Lega il nemico con una\n"
+    "corda per ridurne la velocità.");
 
 static const u8 sDragonRageDescription[] = _(
-    "Launches shock waves that\n"
-    "always inflict 40 HP damage.");
+    "Attacco d'urto che\n"
+    "può far tentennare.");
 
 static const u8 sFireSpinDescription[] = _(
-    "Traps the foe in a ring of\n"
-    "fire for 2 to 5 turns.");
+    "Intrappola il nemico in un\n"
+    "anello di fuoco per 2-5 turni.");
 
 static const u8 sThunderShockDescription[] = _(
-    "An electrical attack that\n"
-    "may paralyze the foe.");
+    "Danneggia il bersaglio\n"
+    "con una scarica elettrica.");
 
 static const u8 sThunderboltDescription[] = _(
-    "A strong electrical attack\n"
-    "that may paralyze the foe.");
+    "Potente attacco elettrico\n"
+    "che può (10%) causare paralisi.");
 
 static const u8 sThunderWaveDescription[] = _(
-    "A weak jolt of electricity\n"
-    "that paralyzes the foe.");
+    "Una debole scarica di elettri-\n"
+    "cità che paralizza il nemico.");
 
 static const u8 sThunderDescription[] = _(
-    "A lightning attack that may\n"
-    "cause paralysis.");
+    "Un tuono che può (30%)\n"
+    "causare paralisi.");
 
 static const u8 sRockThrowDescription[] = _(
-    "Throws small rocks to\n"
-    "strike the foe.");
+    "Solleva una roccia e la\n"
+    "lancia contro il nemico.");
 
 static const u8 sEarthquakeDescription[] = _(
-    "A powerful quake, but has\n"
-    "no effect on flying foes.");
+    "Potente sisma, che non ha\n"
+    "effetto sui nemici volanti.");
 
 static const u8 sFissureDescription[] = _(
-    "Top power earth move.\n"
-    "Drops user's Atk and Def.");
+    "Mossa di terra di massima\n"
+    "potenza. Riduce l'Atk e la Def.");
 
 static const u8 sDigDescription[] = _(
-    "Digs underground the first\n"
-    "turn and strikes next turn.");
+    "Scava al primo turno e\n"
+    "attacca al successivo.");
 
 static const u8 sToxicDescription[] = _(
-    "Poisons the foe with an\n"
-    "intensifying toxin.");
+    "Avvelena il nemico con\n"
+    "intensità crescente.");
 
 static const u8 sConfusionDescription[] = _(
-    "A psychic attack that may\n"
-    "cause confusion.");
+    "Leggera forza telecinetica,\n"
+    "10% di confondere.");
 
 static const u8 sPsychicDescription[] = _(
-    "A powerful psychic attack\n"
-    "that may lower Sp. Def.");
+    "potente forza telecinetica\n"
+    "che può (10%) ridurne la D.Sp.");
 
 static const u8 sHypnosisDescription[] = _(
-    "A hypnotizing move that\n"
-    "may induce sleep.");
+    "Suggestione ipnotica per\n"
+    "far addormentare il nemico.");
 
 static const u8 sMeditateDescription[] = _(
-    "Meditates in a peaceful\n"
-    "fashion to raise Attack.");
+    "Medita in modo pacifico\n"
+    "per aumentare l'Attacco.");
 
 static const u8 sAgilityDescription[] = _(
-    "Relaxes the body to sharply\n"
-    "boost Speed.");
+    "Rilassa il corpo per\n"
+    "aumentare (+2) la velocità.");
 
 static const u8 sQuickAttackDescription[] = _(
-    "An extremely fast attack\n"
-    "that always strikes first.");
+    "Attacco rapidissimo che\n"
+    "colpisce sempre per primo.");
 
 static const u8 sRageDescription[] = _(
-    "Raises the user's Attack\n"
-    "every time it is hit.");
+    "Sale Attacco di chi la usa\n"
+    "ogni volta che è colpito.");
 
 static const u8 sTeleportDescription[] = _(
-    "A psychic move for fleeing\n"
-    "from battle instantly.");
+    "Mossa psichica per fuggire\n"
+    "istantaneamente dalla battaglia.");
 
 static const u8 sNightShadeDescription[] = _(
     "Inflicts damage identical\n"
@@ -828,8 +828,8 @@ static const u8 sLockOnDescription[] = _(
     "ensure the next move hits.");
 
 static const u8 sOutrageDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Attacco veemente di 2-3\n"
+    "turni: confonde chi lo usa.");
 
 static const u8 sSandstormDescription[] = _(
     "Causes a sandstorm that\n"
