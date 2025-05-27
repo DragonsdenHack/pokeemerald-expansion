@@ -432,204 +432,204 @@ static const u8 sTeleportDescription[] = _(
     "istantaneamente dalla battaglia.");
 
 static const u8 sNightShadeDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+    "Infligge un danno pari\n"
+    "al livello di chi la usa.");
 
 static const u8 sMimicDescription[] = _(
-    "Copies a move used by the\n"
-    "foe during one battle.");
+    "Copia una delle mosse usate\n"
+    "dal nemico durante la lotta.");
 
 static const u8 sScreechDescription[] = _(
-    "Emits a screech to sharply\n"
-    "reduce the foe's Defense.");
+    "Riduce di molto la\n"
+    "Difesa del nemico.");
 
 static const u8 sDoubleTeamDescription[] = _(
-    "Creates illusory copies to\n"
-    "raise evasiveness.");
+    "Copie illusorie\n"
+    "aumentano l'elusione.");
 
 static const u8 sRecoverDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+    "Ripresa ripristina il 50%\n"
+    "dei PS massimi.");
 
 static const u8 sHardenDescription[] = _(
-    "Stiffens the body's \n"
-    "muscles to raise Defense.");
+    "Irrigidisce i muscoli del\n"
+    "corpo per aumentare la difesa.");
 
 static const u8 sMinimizeDescription[] = _(
-    "Minimizes the user's size\n"
-    "to raise evasiveness.");
+    "Chi la usa si rimpicciolisce\n"
+    "aumentando l'elusione.");
 
 static const u8 sSmokescreenDescription[] = _(
-    "Lowers the foe's accuracy\n"
-    "using smoke, ink, etc.");
+    "Fumo o inchiostro riducono\n"
+    "la precisione del nemico.");
 
 static const u8 sConfuseRayDescription[] = _(
-    "A sinister ray that\n"
-    "confuses the foe.");
+    "Il nemico è colpito da un raggio\n"
+    "sinistro che lo confonde.");
 
 static const u8 sWithdrawDescription[] = _(
-    "Withdraws the body into its\n"
-    "hard shell to raise Defense.");
+    "Il corpo si ritira\n"
+    "per aumentare la Difesa.");
 
 static const u8 sDefenseCurlDescription[] = _(
-    "Curls up to conceal weak\n"
-    "spots and raise Defense.");
+    "Si arriccia per nascondere i\n"
+    "punti deboli e aumntr la dif.");
 
 static const u8 sBarrierDescription[] = _(
-    "Creates a barrier that\n"
-    "sharply raises Defense.");
+    "Barriera resistente che\n"
+    "aumenta molto la Difesa.");
 
 static const u8 sLightScreenDescription[] = _(
-    "Creates a wall of light that\n"
-    "lowers Sp. Atk damage.");
+    "Ridurre i danni degli attacchi\n"
+    "speciali per cinque turni.");
 
 static const u8 sHazeDescription[] = _(
-    "Creates a black haze that\n"
-    "eliminates all stat changes.");
+    "Annulla ogni modifica alle\n"
+    "statistiche di tutti i Pokémon.");
 
 static const u8 sReflectDescription[] = _(
-    "Creates a wall of light that\n"
-    "weakens physical attacks.");
+    "Ridurre i danni degli attacchi\n"
+    "fisici per cinque turni.");
 
 static const u8 sFocusEnergyDescription[] = _(
-    "Focuses power to raise the\n"
-    "critical-hit ratio.");
+    "Concentrazione energetica:\n"
+    "brutti colpi più probabili.");
 
 static const u8 sBideDescription[] = _(
-    "Endures attack for 2\n"
-    "turns to retaliate double.");
+    "Subisce per 2 turni, per\n"
+    "poi restituire il danno X 2.");
 
 static const u8 sMetronomeDescription[] = _(
-    "Waggles a finger to use any\n"
-    "Pokémon move at random.");
+    "Un dito oscilla per usare\n"
+    "una mossa Pokémon a caso.");
 
 static const u8 sMirrorMoveDescription[] = _(
-    "Counters the foe's attack\n"
-    "with the same move.");
+    "Colpisce il bersaglio copiandone\n"
+    "l'ultima mossa usata.");
 
 static const u8 sSelfDestructDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+    "Infligge un forte danno,\n"
+    "ma chi la usa va KO.");
 
 static const u8 sEggBombDescription[] = _(
-    "An egg is forcibly hurled at\n"
-    "the foe.");
+    "Grande uovo scaraventato\n"
+    "con enorme forza.");
 
 static const u8 sLickDescription[] = _(
-    "Licks with a long tongue to\n"
-    "injure. May also paralyze.");
+    "Infligge danni e può (30%)\n"
+    "anche paralizzarlo.");
 
 static const u8 sSmogDescription[] = _(
-    "An exhaust-gas attack\n"
-    "that may also poison.");
+    "Scarica di gas maleodoranti.\n"
+    "Può (40%) anche avvelenarlo.");
 
 static const u8 sSludgeDescription[] = _(
-    "Sludge is hurled to inflict\n"
-    "damage. May also poison.");
+    "Fango malsano che arreca\n"
+    "danno al nemico. 30% avvlnr.");
 
 static const u8 sBoneClubDescription[] = _(
-    "Clubs the foe with a bone.\n"
-    "May cause flinching.");
+    "Colpisce il nemico con\n"
+    "un osso. 10% tentennamento.");
 
 static const u8 sFireBlastDescription[] = _(
-    "Incinerates everything it\n"
-    "strikes. May cause a burn.");
+    "Intensa fiammata che fa terra\n"
+    "bruciata. 30% di scottare");
 
 static const u8 sWaterfallDescription[] = _(
-    "Charges the foe with speed\n"
-    "to climb waterfalls.");
+    "Carica il nemico di velocità\n"
+    "per scalare le cascate.");
 
 static const u8 sClampDescription[] = _(
-    "Traps and squeezes the\n"
-    "foe for 2 to 5 turns.");
+    "Intrappola e schiaccia il\n"
+    "nemico per 2-5 turni.");
 
 static const u8 sSwiftDescription[] = _(
-    "Sprays star-shaped rays\n"
-    "that never miss.");
+    "Raggi a forma di stella:\n"
+    "infallibili.");
 
 static const u8 sSkullBashDescription[] = _(
-    "Tucks in the head, then\n"
-    "attacks on the next turn.");
+    "Abbassa la testa per\n"
+    "attaccare dopo un turno.");
 
 static const u8 sSpikeCannonDescription[] = _(
-    "Launches sharp spikes that\n"
-    "strike 2 to 5 times.");
+    "Il nemico viene colpito\n"
+    "da due a cinque volte.");
 
 static const u8 sConstrictDescription[] = _(
-    "Constricts to inflict pain.\n"
-    "May lower Speed.");
+    "Impedimento che danneggia\n"
+    "e può ridurre la Velocità.");
 
 static const u8 sAmnesiaDescription[] = _(
-    "Forgets about something\n"
-    "and sharply raises Sp. Def.");
+    "Aumenta esponenzialmente\n"
+    "la difesa speciale.");
 
 static const u8 sKinesisDescription[] = _(
-    "Distracts the foe.\n"
-    "May lower accuracy.");
+    "Distrae il nemico e può\n"
+    "ridurne la precisione.");
 
 static const u8 sSoftBoiledDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+    "Ripresa ripristina il 50%\n"
+    "dei PS massimi.");
 
 static const u8 sHighJumpKickDescription[] = _(
-    "A jumping knee kick. If it\n"
-    "misses, the user is hurt.");
+    "Colpisce il nemico con\n"
+    "una ginocchiata in volo.");
 
 static const u8 sGlareDescription[] = _(
-    "Intimidates and frightens\n"
-    "the foe into paralysis.");
+    "Intimidisce e spaventa il\n"
+    "nemico fino a paralizzarlo.");
 
 static const u8 sDreamEaterDescription[] = _(
-    "Takes one half the damage\n"
-    "inflicted on a sleeping foe.");
+    "Riceve metà dei PS solo\n"
+    "su un nemico che dorme.");
 
 static const u8 sPoisonGasDescription[] = _(
-    "Envelops the foe in a toxic\n"
-    "gas that may poison.");
+    "Nuvola di gas tossico\n"
+    "che avvelena.");
 
 static const u8 sBarrageDescription[] = _(
-    "Hurls round objects at the\n"
-    "foe 2 to 5 times.");
+    "Scaglia oggetti rotondi contro\n"
+    "il nemico da 2 a 5 volte.");
 
 static const u8 sLeechLifeDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+    "Assorbe metà dei PS\n"
+    "sottratti al nemico.");
 
 static const u8 sLovelyKissDescription[] = _(
-    "Demands a kiss with a scary\n"
-    "face that induces sleep.");
+    "Un bacio rubato che può\n"
+    "costringere al sonno.");
 
 static const u8 sSkyAttackDescription[] = _(
-    "Searches out weak spots,\n"
-    "then strikes the next turn.");
+    "Attacco in due turni e\n"
+    "probabile brutto colpo.");
 
 static const u8 sTransformDescription[] = _(
-    "Alters the user's cells to\n"
-    "become a copy of the foe.");
+    "Chi la usa si trasforma in\n"
+    "una copia esatta del bersaglio.");
 
 static const u8 sBubbleDescription[] = _(
-    "An attack using bubbles.\n"
-    "May lower the foe's Speed.");
+    "Bolle che possono (10%) ridurre\n"
+    "la Velocità del nemico.");
 
 static const u8 sDizzyPunchDescription[] = _(
-    "A rhythmic punch that may\n"
-    "confuse the foe.");
+    "Sequenza di pugni che\n"
+    "può (20%) anche confonderlo.");
 
 static const u8 sSporeDescription[] = _(
-    "Scatters a cloud of spores\n"
-    "that always induce sleep.");
+    "Nube di spore che fa\n"
+    "sempre addormentare.");
 
 static const u8 sFlashDescription[] = _(
-    "Quick flash that absorbs\n"
-    "75% of the damage inflicted.");
+    "Lampo rapido che assorbe\n"
+    "il 75% dei danni inflitti.");
 
 static const u8 sPsywaveDescription[] = _(
-    "Attacks with a psychic\n"
-    "wave of varying intensity.");
+    "L'intensità dell'attacco\n"
+    "è variabile.");
 
 static const u8 sSplashDescription[] = _(
-    "It's just a splash...\n"
-    "Has no effect whatsoever.");
+    "Sguazza nell'acqua,\n"
+    "senza ottenere alcun effetto.");
 
 static const u8 sAcidArmorDescription[] = _(
     "Liquifies the user's body\n"
