@@ -2163,200 +2163,200 @@ static const u8 sBoltStrikeDescription[] = _(
     "paralizzare il bersaglio.");
 
 static const u8 sBlueFlareDescription[] = _(
-    "Engulfs the foe in a blue\n"
-    "flame. May inflict a burn.");
+    "Magnifiche e intense fiamme\n"
+    "blu. 20% di scottare.");
 
 static const u8 sFieryDanceDescription[] = _(
-    "Dances cloaked in flames.\n"
-    "May raise Sp. Atk.");
+    "50% di probabilità di\n"
+    "aumentare l'Attacco Speciale.");
 
 static const u8 sFreezeShockDescription[] = _(
-    "A powerful 2-turn move that\n"
-    "may paralyze the foe.");
+    "1/3 danno inferto.\n"
+    "30% di paralizzare.");
 
 static const u8 sIceBurnDescription[] = _(
-    "A powerful 2-turn move that\n"
-    "may inflict a burn.");
+    "1/3 danno inferto.\n"
+    "30% di scottare.");
 
 static const u8 sSnarlDescription[] = _(
-    "Yells and rants at the foe\n"
-    "lowering its Sp. Atk.");
+    "Diminuisce l'Attacco Speciale\n"
+    "dell'obiettivo.");
 
 static const u8 sIcicleCrashDescription[] = _(
-    "Drops large icicles on the\n"
-    "foe. May cause flinching.");
+    "30% di probabilità\n"
+    "di far tentennare.");
 
 static const u8 sVCreateDescription[] = _(
-    "Very powerful, but lowers\n"
-    "Defense, Sp. Def and Speed.");
+    "Diminuisce di un livello\n"
+    "Vel, Difesa e Difesa Speciale.");
 
 static const u8 sFusionFlareDescription[] = _(
-    "Summons a fireball. Works\n"
-    "well with a thunderbolt.");
+    "Chi la usa lancia una\n"
+    "fiammata enorme.");
 
 static const u8 sFusionBoltDescription[] = _(
-    "Summons a thunderbolt.\n"
-    "Works well with a fireball.");
+    "Chi la usa lancia\n"
+    "un fulmine enorme.");
 
 static const u8 sFlyingPressDescription[] = _(
-    "This attack does Fighting\n"
-    "and Flying-type damage.");
+    "Mossa di tipo Lotta e\n"
+    "Volante allo stesso tempo.");
 
 static const u8 sMatBlockDescription[] = _(
-    "Evades damaging moves\n"
-    "for one turn.");
+    "Evade le mosse dannose\n"
+    "per un turno.");
 
 static const u8 sBelchDescription[] = _(
-    "Lets out a loud belch.\n"
-    "Must eat a Berry to use it.");
+    "Chi la usa attacca il\n"
+    "bersaglio con un rutto potente.");
 
 static const u8 sRototillerDescription[] = _(
-    "Ups the Attack and Sp. Atk\n"
-    "of Grass-type Pokémon.");
+    "Aumenta l'At e l'At.Spc di\n"
+    "tutti i Pokémon di tipo Erba.");
 
 static const u8 sStickyWebDescription[] = _(
-    "Weaves a sticky net that\n"
-    "slows foes switching in.");
+    "Rete appiccicosa che rllnta\n"
+    "il passaggio dei nemici.");
 
 static const u8 sFellStingerDescription[] = _(
-    "If it knocks out a foe\n"
-    "the Attack stat is raised.");
+    "+3 Attacco alla mossa il\n"
+    "bersaglio va KO.");
 
 static const u8 sTrickOrTreatDescription[] = _(
-    "Goes trick-or-treating\n"
-    "making the foe Ghost-type.");
+    "Aggiunge il tipo\n"
+    "Spettro al bersaglio.");
 
 static const u8 sNobleRoarDescription[] = _(
-    "Intimidates the foe, to cut\n"
-    "Attack and Sp. Atk.");
+    "Diminuisce At e At.Spc\n"
+    "del bersaglio.");
 
 static const u8 sIonDelugeDescription[] = _(
-    "Electrifies Normal-type\n"
-    "moves with charged atoms.");
+    "Elettrizza le mosse di tipo\n"
+    "normale con atomi carichi.");
 
 static const u8 sParabolicChargeDescription[] = _(
-    "Damages adjacent Pokémon and\n"
-    "heals up by half of it.");
+    "Recupera PS pari alla\n"
+    "metà del danno inflitto.");
 
 static const u8 sForestsCurseDescription[] = _(
-    "Puts a curse on the foe\n"
-    "making the foe Grass-type.");
+    "Aggiunge il tipo Erba al\n"
+    "bersaglio.");
 
 static const u8 sPetalBlizzardDescription[] = _(
-    "Stirs up a violent storm\n"
-    "of petals to attack.");
+    "Suscita una violenta tempesta\n"
+    "di petali per attaccare.");
 
 static const u8 sFreezeDryDescription[] = _(
-    "Super effective on Water-\n"
-    "types. May cause freezing.");
+    "È superefficace sul t.Acqua.\n"
+    "10% di congelare.");
 
 static const u8 sDisarmingVoiceDescription[] = _(
-    "Lets out a charming cry\n"
-    "that cannot be evaded.");
+    "Ignora le modifiche alla\n"
+    "precisione e all'elusione.");
 
 static const u8 sPartingShotDescription[] = _(
-    "Lowers the foe's Attack and\n"
-    "Sp. Atk, then switches out.");
+    "Riduce l'At e l'At.Spc, poi\n"
+    "sostituisce l'utilizzatore.");
 
 static const u8 sTopsyTurvyDescription[] = _(
-    "Swaps all stat changes that\n"
-    "affect the target.");
+    "Inverte tutte le modifiche\n"
+    "alle statistiche del bersaglio.");
 
 static const u8 sDrainingKissDescription[] = _(
-    "An attack that absorbs over\n"
-    "half the damage inflicted.");
+    "Infligge danno e fa recuperare\n"
+    "PS pari al 75% del danno.");
 
 static const u8 sCraftyShieldDescription[] = _(
-    "Evades status moves for\n"
-    "one turn.");
+    "Evade le mosse di\n"
+    "stato per un turno.");
 
 static const u8 sFlowerShieldDescription[] = _(
-    "Raises the Defense of\n"
-    "Grass-type Pokémon.");
+    "Aumenta la Difesa di tutti i\n"
+    "Pokémon di tipo Erba.");
 
 static const u8 sGrassyTerrainDescription[] = _(
-    "The ground turns to grass\n"
-    "for 5 turns. Restores HP.");
+    "Per cinque turni trasforma il\n"
+    "terreno di lotta in un c.erboso.");
 
 static const u8 sMistyTerrainDescription[] = _(
-    "Covers the ground with mist\n"
-    "for 5 turns. Blocks status.");
+    "Per cinque turni trasforma il\n"
+    "terreno di lotta in un c.nebbioso.");
 
 static const u8 sElectrifyDescription[] = _(
-    "Electrifies the foe, making\n"
-    "its next move Electric-type.");
+    "Rende di tipo Elettro la mossa\n"
+    "che il bersgl sta per utlzzre.");
 
 static const u8 sPlayRoughDescription[] = _(
-    "Plays rough with the foe.\n"
-    "May lower Attack.");
+    "10% di probabilità di\n"
+    "diminuire l'Attacco.");
 
 static const u8 sFairyWindDescription[] = _(
-    "Stirs up a fairy wind to\n"
-    "strike the foe.");
+    "Attacca con un forte\n"
+    "vento fatato.");
 
 static const u8 sMoonblastDescription[] = _(
-    "Attacks with the power of\n"
-    "the moon. May lower Sp. Atk.");
+    "30% di probabilità di ridurre\n"
+    "l'At.Spc del bersaglio.");
 
 static const u8 sBoomburstDescription[] = _(
-    "Attacks everything with a\n"
-    "destructive sound wave.");
+    "Colpisce i Pkmn che ha intorno\n"
+    "con la forza di un bto dstrttv.");
 
 static const u8 sFairyLockDescription[] = _(
-    "Locks down the battlefield\n"
-    "preventing escape next turn.");
+    "Bloccando il campo di batt, imp-\n"
+    "edisce di fuggire durante il p.t.");
 
 static const u8 sKingsShieldDescription[] = _(
-    "Evades damage, and sharply\n"
-    "reduces Attack if struck.");
+    "Riduce inoltre l'Attacco\n"
+    "di mosse da contatto.");
 
 static const u8 sPlayNiceDescription[] = _(
-    "Befriend the foe, lowering\n"
-    "its Attack without fail.");
+    "Riduce l'Attacco del bersaglio\n"
+    "di un livello.");
 
 static const u8 sConfideDescription[] = _(
-    "Shares a secret with the\n"
-    "foe, lowering Sp. Atk.");
+    "Svela dei segreti distraendolo\n"
+    "e riducendone l'At.Spc.");
 
 static const u8 sDiamondStormDescription[] = _(
-    "Whips up a storm of\n"
-    "diamonds. May up Defense.");
+    "50% di aumentare la Difesa\n"
+    "di due livelli.");
 
 static const u8 sSteamEruptionDescription[] = _(
-    "Immerses the foe in heated\n"
-    "steam. May inflict a burn.");
+    "Ondata di vapore rovente,\n"
+    "30% di scottare l'avversario.");
 
 static const u8 sHyperspaceHoleDescription[] = _(
-    "Uses a warp hole to attack.\n"
-    "Can't be evaded.");
+    "È infallibile, ignorando\n"
+    "precisione e all'elusione.");
 
 static const u8 sWaterShurikenDescription[] = _(
-    "Throws 2 to 5 stars that\n"
-    "are sure to strike first.");
+    "Priorità di +1; può\n"
+    "colpire da 2 a 5 volte.");
 
 static const u8 sMysticalFireDescription[] = _(
-    "Breathes a special, hot\n"
-    "fire. Lowers Sp. Atk.");
+    "Diminuisce l'Attacco Speciale\n"
+    "del bersaglio di un livello.");
 
 static const u8 sSpikyShieldDescription[] = _(
-    "Evades attack, and damages\n"
-    "the foe if struck.");
+    "Evita gli attacchi e danneggia\n"
+    "il nemico se colpito.");
 
 static const u8 sAromaticMistDescription[] = _(
-    "Raises the Sp. Def of a\n"
-    "partner Pokémon.");
+    "Aumenta la Difesa Speciale\n"
+    "di un Pokémon alleato.");
 
 static const u8 sEerieImpulseDescription[] = _(
-    "Exposes the foe to a pulse\n"
-    "that sharply cuts Sp. Atk.");
+    "Riduce l'Attacco Speciale del\n"
+    "bersaglio di due livelli.");
 
 static const u8 sVenomDrenchDescription[] = _(
-    "Lowers the Attack, Sp. Atk\n"
-    "and Speed of a poisoned foe.");
+    "Liquido particolare che riduce\n"
+    "l'At, l'At.Spc e la Velocità.");
 
 static const u8 sPowderDescription[] = _(
-    "Damages the foe if it uses\n"
-    "a Fire-type move.");
+    "Danneggia il nemico se\n"
+    "utilizza una mossa di t.Fuoco.");
 
 static const u8 sGeomancyDescription[] = _(
     "Raises Sp. Atk, Sp. Def and\n"
