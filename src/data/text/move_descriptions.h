@@ -1803,200 +1803,200 @@ static const u8 sJudgmentDescription[] = _(
     "colpi di luce.");
 
 static const u8 sChargeBeamDescription[] = _(
-    "Fires a beam of electricity.\n"
-    "May raise Sp. Atk.");
+    "Fascio di elettricità.\n"
+    "70% di aumentare l'At.Spc.");
 
 static const u8 sWoodHammerDescription[] = _(
-    "Slams the body into a foe.\n"
-    "The user gets hurt too.");
+    "Danno da contraccolpo pari\n"
+    "a 1/3 del danno inferto.");
 
 static const u8 sAquaJetDescription[] = _(
-    "Strikes first by dashing\n"
-    "at the foe at a high speed.");
+    "Infligge danno ed è una\n"
+    "mossa ad alta priorità.");
 
 static const u8 sAttackOrderDescription[] = _(
-    "Underlings pummel the foe.\n"
-    "High critical-hit ratio.");
+    "Raduna i suoi sgherri.\n"
+    "Probabile brutto colpo.");
 
 static const u8 sDefendOrderDescription[] = _(
-    "Raises Defense and Sp. Def\n"
-    "with a living shield.");
+    "Raduna i suoi sgherri per creare\n"
+    "uno scudo. +1 Dif e Dif.Sp.");
 
 static const u8 sHealOrderDescription[] = _(
-    "The user's underlings show\n"
-    "up to heal half its max HP.");
+    "Raduna i propri sgherri.\n"
+    "Recupera metà dei PS massimi.");
 
 static const u8 sHeadSmashDescription[] = _(
-    "A life-risking headbutt that\n"
-    "seriously hurts the user.");
+    "Danno da contraccolpo pari\n"
+    "a 1/2 del danno inferto.");
 
 static const u8 sDoubleHitDescription[] = _(
-    "Slams the foe with a tail\n"
-    "etc. Strikes twice.");
+    "Colpisce il nemico con la\n"
+    "coda o simili 2 volte di fila.");
 
 static const u8 sRoarOfTimeDescription[] = _(
     "È potente, ma chi la usa\n"
     "perde il turno successivo.");
 
 static const u8 sSpacialRendDescription[] = _(
-    "Tears the foe, and space.\n"
-    "High critical-hit ratio.");
+    "Lacera il nemico e lo\n"
+    "spazio che lo circonda.");
 
 static const u8 sMagmaStormDescription[] = _(
-    "Traps the foe in a vortex\n"
-    "of fire for 2 to 5 turns.");
+    "Intrappola il nemico in una\n"
+    "colonna di fuoco da 2 a 5 turni.");
 
 static const u8 sDarkVoidDescription[] = _(
-    "Drags the foe into total\n"
-    "darkness, inducing Sleep.");
+    "Trascina i nemici in un mondo di\n"
+    "oscurità e li fa addormentare.");
 
 static const u8 sSeedFlareDescription[] = _(
-    "Generates a shock wave that\n"
-    "sharply reduces Sp. Def.");
+    "40% di diminuire la Difesa \n"
+    "Speciale del bersaglio.");
 
 static const u8 sOminousWindDescription[] = _(
     "Può (10%) aumentare tutte\n"
     "le statistiche.");
 
 static const u8 sShadowForceDescription[] = _(
-    "Vanishes on the first turn\n"
-    "then strikes the next turn.");
+    "Svanisce al primo turno e\n"
+    "colpisce al turno successivo.");
 
 static const u8 sHoneClawsDescription[] = _(
-    "Sharpens its claws to raise\n"
-    "Attack and Accuracy.");
+    "Affila i propri artigli,\n"
+    "aumentando Attacco e precsne.");
 
 static const u8 sWideGuardDescription[] = _(
-    "Evades wide-ranging attacks\n"
-    "for one turn.");
+    "Evade gli attacchi ad ampio\n"
+    "raggio per un turno.");
 
 static const u8 sGuardSplitDescription[] = _(
     "Averages changes to Defense\n"
     "and Sp. Def with the foe.");
 
 static const u8 sPowerSplitDescription[] = _(
-    "Averages changes to Attack\n"
-    "and Sp. Atk with the foe.");
+    "Somma l'Attacco e l'Att.Speciale\n"
+    "con quelli dell'avversario.");
 
 static const u8 sWonderRoomDescription[] = _(
-    "Defense and Sp. Def stats\n"
-    "are swapped for 5 turns.");
+    "Scambia la Dif e la Dif.Spc\n"
+    "di tutti in campo per 5 turni.");
 
 static const u8 sPsyshockDescription[] = _(
-    "Attacks with a psychic wave\n"
-    "that does physical damage.");
+    "Misterioso raggio psichico\n"
+    "che provoca danni fisici.");
 
 static const u8 sTailSlapDescription[] = _(
-    "Strikes the foe with its\n"
-    "tail 2 to 5 times.");
+    "Rastrella il nemico con artigli\n"
+    "affilati, ecc. da 2 a 5 volte.");
 
 static const u8 sVenoshockDescription[] = _(
-    "Does double damage if the\n"
-    "foe is poisoned.");
+    "Se questi è avvelenato, il\n"
+    "danno provocato raddoppia.");
 
 static const u8 sAutotomizeDescription[] = _(
-    "Sheds additional weight to\n"
-    "sharply boost Speed.");
+    "Si libera di tutti i pesi\n"
+    "aumentando di molto la Vel.");
 
 static const u8 sRagePowderDescription[] = _(
-    "Scatters powder to make\n"
-    "foes attack only the user.");
+    "Attira l'attenzione per far\n"
+    "sì che i nemici at. solo l'ut.");
 
 static const u8 sTelekinesisDescription[] = _(
-    "Makes the foe float. It is\n"
-    "easier to hit for 3 turns.");
+    "Priva il bersaglio del contatto\n"
+    "con il terreno, immune t.Terra.");
 
 static const u8 sMagicRoomDescription[] = _(
-    "Hold items lose their\n"
-    "effects for 5 turns.");
+    "Gli oggetti trattenuti perdono\n"
+    "i loro effetti per 5 turni.");
 
 static const u8 sSmackDownDescription[] = _(
-    "Throws a rock to knock the\n"
-    "foe down to the ground.");
+    "Può colpire anche un bersaglio\n"
+    "in volo e farlo cadere.");
 
 static const u8 sStormThrowDescription[] = _(
-    "This attack always results\n"
-    "in a critical hit.");
+    "Colpo micidiale. Brutto colpo\n"
+    "assicurato.");
 
 static const u8 sFlameBurstDescription[] = _(
-    "A bursting flame that does\n"
-    "damage to all foes.");
+    "Fiamma prorompente che\n"
+    "danneggia tutti i nemici.");
 
 static const u8 sSludgeWaveDescription[] = _(
-    "Swamps the foe with a wave\n"
-    "of sludge. May also poison.");
+    "Onda di fango.\n"
+    "10% di avvelenare il bersaglio.");
 
 static const u8 sQuiverDanceDescription[] = _(
-    "Dances to raise Sp. Atk\n"
-    "Sp. Def and Speed.");
+    "Aumenta Attacco Speciale, Difesa\n"
+    "Speciale e Velocità.");
 
 static const u8 sHeavySlamDescription[] = _(
-    "Does more damage if the\n"
-    "user outweighs the foe.");
+    "Un calcio che danneggia\n"
+    "i nemici più pesanti.");
 
 static const u8 sSynchronoiseDescription[] = _(
-    "An odd shock wave that only\n"
-    "damages same-type foes.");
+    "Danno a tutti che condividono\n"
+    "un tipo con l'utilizzatore.");
 
 static const u8 sElectroBallDescription[] = _(
-    "Hurls an orb that does more\n"
-    "damage to slower foes.");
+    "Più è rapido rispetto al\n"
+    "bersaglio e più danni arreca.");
 
 static const u8 sSoakDescription[] = _(
-    "Sprays water at the foe\n"
-    "making it Water-type.");
+    "Rende il bersaglio di tipo\n"
+    "Acqua puro.");
 
 static const u8 sFlameChargeDescription[] = _(
-    "Attacks in a cloak of\n"
-    "flames. Raises Speed.");
+    "Si copre di fuoco e attacca.\n"
+    "Aumenta la propria Velocità.");
 
 static const u8 sCoilDescription[] = _(
-    "Coils up to raise Attack\n"
-    "Defense and Accuracy.");
+    "Chi la usa si concentra, aumenta\n"
+    "Attacco, Difesa e precisione.");
 
 static const u8 sLowSweepDescription[] = _(
-    "Attacks the foe's legs\n"
-    "lowering its Speed.");
+    "Diminuisce la Velocità del\n"
+    "bersaglio di un livello.");
 
 static const u8 sAcidSprayDescription[] = _(
-    "Sprays a hide-melting acid.\n"
-    "Sharply reduces Sp. Def.");
+    "Diminuisce la Dif.Speciale del\n"
+    "bersaglio di due livelli");
 
 static const u8 sFoulPlayDescription[] = _(
-    "The higher the foe's Attack\n"
-    "the more damage caused.");
+    "Infligge danno utilizzando\n"
+    "l'Attacco del bersaglio.");
 
 static const u8 sSimpleBeamDescription[] = _(
-    "A beam that changes the\n"
-    "foe's ability to Simple.");
+    "Raggio psichico che trasforma\n"
+    "l'abilità in Disinvoltura.");
 
 static const u8 sEntrainmentDescription[] = _(
-    "Makes the foe mimic the\n"
-    "user, gaining its ability.");
+    "Cambia l'abilità del bersaglio\n"
+    "con quella del'utilizzatore.");
 
 static const u8 sAfterYouDescription[] = _(
-    "Helps out the foe, letting\n"
-    "it move next.");
+    "Aiuta un bersaglio permetten-\n"
+    "dogli di agire subito dopo.");
 
 static const u8 sRoundDescription[] = _(
-    "A song that inflicts damage.\n"
-    "Others can join in too.");
+    "Se usata durante lo stesso trn,\n"
+    "i danni inflitti aumentano.");
 
 static const u8 sEchoedVoiceDescription[] = _(
-    "Does more damage every turn\n"
-    "it is used.");
+    "Se usata a ripetizione\n"
+    "il danno aumenta.");
 
 static const u8 sChipAwayDescription[] = _(
-    "Strikes through the foe's\n"
-    "stat changes.");
+    "Il danno prescinde dalle\n"
+    "modifiche alle statistiche.");
 
 static const u8 sClearSmogDescription[] = _(
-    "Attacks with white haze that\n"
-    "eliminates all stat changes.");
+    "Nuvola di fumo spcle, annulla\n"
+    "ogni modifica alle statistiche.");
 
 static const u8 sStoredPowerDescription[] = _(
-    "The higher the user's stats\n"
-    "the more damage caused.");
+    "La potenza aumenta di 20 per\n"
+    "ciascuna modifica statistche +.");
 
 static const u8 sQuickGuardDescription[] = _(
     "Evades priority attacks\n"
