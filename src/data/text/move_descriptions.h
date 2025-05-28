@@ -1999,168 +1999,168 @@ static const u8 sStoredPowerDescription[] = _(
     "ciascuna modifica statistche +.");
 
 static const u8 sQuickGuardDescription[] = _(
-    "Evades priority attacks\n"
-    "for one turn.");
+    "Evade gli attacchi\n"
+    "prioritari per un turno.");
 
 static const u8 sAllySwitchDescription[] = _(
-    "The user switches places\n"
-    "with its partner.");
+    "L'utente scambia il posto\n"
+    "con il suo partner.");
 
 static const u8 sScaldDescription[] = _(
-    "Shoots boiling water at the\n"
-    "foe. May inflict a burn.");
+    "Getto d'acqua bollente.\n"
+    "30% di scottare l'avversario.");
 
 static const u8 sShellSmashDescription[] = _(
-    "Raises offensive stats, but\n"
-    "lowers defensive stats.");
+    "-1 Difesa e Difesa Speciale.\n"
+    "+2 Attacco, At.Spc e Velocità.");
 
 static const u8 sHealPulseDescription[] = _(
-    "Recovers up to half the\n"
-    "target's maximum HP.");
+    "Ripristina fino al 50%\n"
+    "dei PS massimi del bersaglio.");
 
 static const u8 sHexDescription[] = _(
-    "Does double damage if the\n"
-    "foe has a status problem.");
+    "x2 potenza se il bersaglio è\n"
+    "affetto da problemi di stato.");
 
 static const u8 sSkyDropDescription[] = _(
-    "Takes the foe into the sky\n"
-    "then drops it the next turn.");
+    "Porta il bersaglio in cielo\n"
+    "e lo scaglia a terra.");
 
 static const u8 sShiftGearDescription[] = _(
-    "Rotates its gears to raise\n"
-    "Attack and Speed.");
+    "Aumenta la Vel di due livelli\n"
+    "e l'Attacco di un livello.");
 
 static const u8 sCircleThrowDescription[] = _(
-    "Knocks the foe away to end\n"
-    "the battle.");
+    "Sconfigge il nemico per\n"
+    "porre fine alla battaglia.");
 
 static const u8 sIncinerateDescription[] = _(
-    "Burns up Berries and Gems\n"
-    "preventing their use.");
+    "Se il nemico ha una Bacca,\n"
+    "viene divorata dalle fiamme.");
 
 static const u8 sQuashDescription[] = _(
-    "Suppresses the foe, making\n"
-    "it move last.");
+    "Sopprime il nemico, facendolo\n"
+    "muovere per ultimo.");
 
 static const u8 sAcrobaticsDescription[] = _(
-    "Does double damage if the\n"
-    "user has no item.");
+    "La potenza è raddoppiata a 110\n"
+    "se il Pkmn non tiene strumenti.");
 
 static const u8 sReflectTypeDescription[] = _(
-    "The user reflects the foe's\n"
-    "type, copying it.");
+    "Cambia il proprio tipo in\n"
+    "quello del bersaglio.");
 
 static const u8 sRetaliateDescription[] = _(
-    "An attack that does more\n"
-    "damage if an ally fainted.");
+    "140 ptnza se, nel turno prcdnte,\n"
+    "un Pokémon è stato messo KO.");
 
 static const u8 sFinalGambitDescription[] = _(
-    "The user faints to damage\n"
-    "the foe equal to its HP.");
+    "Infligge al bersaglio un danno\n"
+    "pari ai PS che ha perso.");
 
 static const u8 sBestowDescription[] = _(
-    "The user gives its held\n"
-    "item to the foe.");
+    "Consegna il proprio strumento\n"
+    "al bersaglio se ne è sprovvisto.");
 
 static const u8 sInfernoDescription[] = _(
-    "Powerful and sure to inflict\n"
-    "a burn, but inaccurate.");
+    "Infligge danno e scotta\n"
+    "sempre il bersaglio.");
 
 static const u8 sWaterPledgeDescription[] = _(
-    "Attacks with a column of\n"
-    "water. May make a rainbow.");
+    "Attacca il nemico con una\n"
+    "colonna d'acqua.");
 
 static const u8 sFirePledgeDescription[] = _(
-    "Attacks with a column of\n"
-    "fire. May burn the grass.");
+    "Attacca il nemico con una\n"
+    "colonna di fuoco.");
 
 static const u8 sGrassPledgeDescription[] = _(
-    "Attacks with a column of\n"
-    "grass. May create a swamp.");
+    "Attacca il bersaglio con\n"
+    "una colonna d'erba.");
 
 static const u8 sStruggleBugDescription[] = _(
-    "Resisting, the user attacks\n"
-    "the foe. Lowers Sp. Atk.");
+    "Infligge danno e diminuisce\n"
+    "l'At.Speciale del bersaglio.");
 
 static const u8 sBulldozeDescription[] = _(
-    "Stomps down on the ground.\n"
-    "Lowers Speed.");
+    "Infligge danno e diminuisce\n"
+    "la Velocità del bersaglio.");
 
 static const u8 sWorkUpDescription[] = _(
-    "The user is roused.\n"
-    "Ups Attack and Sp. Atk.");
+    "Aumenta l'Attacco e l'Attacco\n"
+    "Speciale dell'utilizzatore.");
 
 static const u8 sElectrowebDescription[] = _(
-    "Snares the foe with an\n"
-    "electric net. Lowers Speed.");
+    "Infligge danno e diminuisce\n"
+    "la Velocità del bersaglio.");
 
 static const u8 sWildChargeDescription[] = _(
-    "An electrical tackle that\n"
-    "also hurts the user.");
+    "Danno da contraccolpo pari\n"
+    "a 1/4 del danno inferto.");
 
 static const u8 sDrillRunDescription[] = _(
-    "Spins its body like a drill.\n"
-    "High critical-hit ratio.");
+    "Ha un'elevata probabilità\n"
+    "di infliggere un brutto colpo.");
 
 static const u8 sDualChopDescription[] = _(
-    "Attacks with brutal hits\n"
-    "that strike twice.");
+    "Attacca due volte con dei\n"
+    "colpi estremamente forti.");
 
 static const u8 sHeartStampDescription[] = _(
-    "A sudden blow after a cute\n"
-    "act. May cause flinching.");
+    "30% di probabilità di\n"
+    "causare tentennamento.");
 
 static const u8 sRazorShellDescription[] = _(
-    "Tears at the foe with sharp\n"
-    "shells. May lower Defense.");
+    "50% di possibilità di\n"
+    "diminuire la Difesa.");
 
 static const u8 sLeafTornadoDescription[] = _(
-    "Circles the foe with leaves\n"
-    "to damage and cut accuracy.");
+    "50% di probabilità di\n"
+    "diminuire la precisione.");
 
 static const u8 sSteamrollerDescription[] = _(
-    "Crushes the foe with its\n"
-    "body. May cause flinching.");
+    "30% di probabilità di\n"
+    "far tentennare.");
 
 static const u8 sCottonGuardDescription[] = _(
-    "Wraps its body in cotton.\n"
-    "Drastically raises Defense.");
+    "aumenta la Difesa dell'util-\n"
+    "izzatore di tre livelli.");
 
 static const u8 sNightDazeDescription[] = _(
-    "Looses a pitch-black shock\n"
-    "wave. May lower accuracy.");
+    "40% di diminuire la\n"
+    "precisione del bersaglio.");
 
 static const u8 sHurricaneDescription[] = _(
-    "Traps the foe in a fierce\n"
-    "wind. May cause confusion.");
+    "Vento fortissimo. 30% di\n"
+    "confondere il bersaglio.");
 
 static const u8 sHeadChargeDescription[] = _(
-    "A charge using guard hair.\n"
-    "It hurts the user a little.");
+    "Contraccolpo pari al 25% del\n"
+    "danno ricevuto dal bersaglio.");
 
 static const u8 sGearGrindDescription[] = _(
-    "Throws two steel gears\n"
-    "that strike twice.");
+    "Colpendo due volte ogni\n"
+    "volta che è eseguita.");
 
 static const u8 sTechnoBlastDescription[] = _(
-    "The type varies with the\n"
-    "kind of Drive held.");
+    "Il tipo dipende dal modulo\n"
+    "tenuto dall'utilizzatore.");
 
 static const u8 sRelicSongDescription[] = _(
-    "Attacks with an ancient\n"
-    "song. May induce sleep.");
+    "10% di probabilità di\n"
+    "addormentare il bersaglio.");
 
 static const u8 sSecretSwordDescription[] = _(
-    "Cuts with a long horn that\n"
-    "does physical damage.");
+    "Misteriosa energia sprigionata,\n"
+    "provoca danni fisici.");
 
 static const u8 sGlaciateDescription[] = _(
-    "Blows very cold air at the\n"
-    "foe. It lowers their Speed.");
+    "folata d'aria gelida e\n"
+    "diminuisce la Velocità.");
 
 static const u8 sBoltStrikeDescription[] = _(
-    "Strikes with a great amount\n"
-    "of lightning. May paralyze.");
+    "20% di possibilità di\n"
+    "paralizzare il bersaglio.");
 
 static const u8 sBlueFlareDescription[] = _(
     "Engulfs the foe in a blue\n"
