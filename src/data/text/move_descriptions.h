@@ -1631,176 +1631,176 @@ static const u8 sNightSlashDescription[] = _(
     "Probabile brutto colpo.");
 
 static const u8 sAquaTailDescription[] = _(
-    "The user swings its tail\n"
-    "like a wave to attack.");
+    "Attacca agitando la coda\n"
+    "come una violenta ondata.");
 
 static const u8 sSeedBombDescription[] = _(
-    "A barrage of hard seeds\n"
-    "is fired at the foe.");
+    "Raffica di semi dal guscio\n"
+    "duro che colpiscono.");
 
 static const u8 sAirSlashDescription[] = _(
-    "Attacks with a blade of\n"
-    "air. May cause flinching.");
+    "30% di probabilità di\n"
+    "far tentennare il nemico.");
 
 static const u8 sXScissorDescription[] = _(
-    "Slashes the foe with crossed\n"
-    "scythes, claws, etc.");
+    "Colpisce il nemico usando\n"
+    "le sue falci o artigli.");
 
 static const u8 sBugBuzzDescription[] = _(
-    "A damaging sound wave that\n"
-    "may lower Sp. Def.");
+    "10% di diminuire la Difesa\n"
+    "Speciale del bersaglio.");
 
 static const u8 sDragonPulseDescription[] = _(
-    "Generates a shock wave to\n"
-    "damage the foe.");
+    "Onda d'urto generata\n"
+    "spalancando la bocca.");
 
 static const u8 sDragonRushDescription[] = _(
-    "Tackles the foe with menace.\n"
-    "May cause flinching.");
+    "20% di probabilità di far\n"
+    "tentennare il bersaglio.");
 
 static const u8 sPowerGemDescription[] = _(
-    "Attacks with rays of light\n"
-    "that sparkle like diamonds.");
+    "Raggio di luce che brilla come\n"
+    "se fosse fatto di pietre przse.");
 
 static const u8 sVacuumWaveDescription[] = _(
-    "Whirls its fists to send\n"
-    "a wave that strikes first.");
+    "Onda di vuoto assoluto.\n"
+    "Attacca per primo.");
 
 static const u8 sFocusBlastDescription[] = _(
-    "Attacks at full power.\n"
-    "May lower Sp. Def.");
+    "10% di diminuire la Difesa\n"
+    "Speciale del bersaglio.");
 
 static const u8 sEnergyBallDescription[] = _(
-    "Draws power from nature to\n"
-    "attack. May lower Sp. Def.");
+    "10% di diminuire la Difesa\n"
+    "Speciale del bersaglio.");
 
 static const u8 sBraveBirdDescription[] = _(
-    "A low altitude charge that\n"
-    "also hurts the user.");
+    "Danno da contraccolpo pari\n"
+    "a 1/3 del danno inferto.");
 
 static const u8 sEarthPowerDescription[] = _(
-    "Makes the ground erupt with\n"
-    "power. May lower Sp. Def.");
+    "10% di diminuire la Difesa\n"
+    "Speciale del bersaglio.");
 
 static const u8 sSwitcherooDescription[] = _(
-    "Swaps items with the foe\n"
-    "faster than the eye can see.");
+    "Scambia in maniera fulminea il\n"
+    "prpro oggetto con qllo del nmco.");
 
 static const u8 sNastyPlotDescription[] = _(
-    "Thinks bad thoughts to\n"
-    "sharply boost Sp. Atk.");
+    "Aumenta l'Attacco Speciale\n"
+    "dell'utilzztre di due livelli.");
 
 static const u8 sBulletPunchDescription[] = _(
-    "Punches as fast as a bul-\n"
-    "let. It always hits first.");
+    "Infligge danno ed è una\n"
+    "mossa ad alta priorità.");
 
 static const u8 sIceShardDescription[] = _(
-    "Hurls a chunk of ice that\n"
-    "always strike first.");
+    "Infligge danno ed è una\n"
+    "mossa ad alta priorità.");
 
 static const u8 sShadowClawDescription[] = _(
-    "Strikes with a shadow claw.\n"
-    "High critical-hit ratio.");
+    "Infligge danno ed è una\n"
+    "mossa ad alta priorità.");
 
 static const u8 sThunderFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe paralyzed.");
+    "10% di paralizzare.\n"
+    "10% di far tentennare.");
 
 static const u8 sIceFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe frozen.");
+    "10% di congelare.\n"
+    "10% di far tentennare.");
 
 static const u8 sFireFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe with a burn.");
+    "10% di scottare.\n"
+    "10% di far tentennare.");
 
 static const u8 sShadowSneakDescription[] = _(
-    "Extends the user's shadow\n"
-    "to strike first.");
+    "Estende la sua ombra e\n"
+    "attacca ad alta priorità.");
 
 static const u8 sMudBombDescription[] = _(
-    "Throws a blob of mud to\n"
-    "damage and cut accuracy.");
+    "30% di diminuire la precisione\n"
+    "del bersaglio.");
 
 static const u8 sPsychoCutDescription[] = _(
-    "Tears with psychic blades.\n"
-    "High critical-hit ratio.");
+    "Ha un'elevata probabilità di\n"
+    "infliggere un brutto colpo.");
 
 static const u8 sZenHeadbuttDescription[] = _(
-    "Hits with a strong head-\n"
-    "butt. May cause flinching.");
+    "20% di probabilità di\n"
+    "far tentennare il bersaglio.");
 
 static const u8 sMirrorShotDescription[] = _(
-    "Emits a flash of energy to\n"
-    "damage and cut accuracy.");
+    "30% di diminuire la precisione\n"
+    "del bersaglio.");
 
 static const u8 sFlashCannonDescription[] = _(
-    "Releases a blast of light\n"
-    "that may lower Sp. Def.");
+    "Attacca raccogliendo e\n"
+    "rilasciando energia luminosa.");
 
 static const u8 sRockClimbDescription[] = _(
-    "A charging attack that may\n"
-    "confuse the foe.");
+    "20% di possibilità di\n"
+    "confondere il bersaglio.");
 
 static const u8 sDefogDescription[] = _(
-    "Removes obstacles and\n"
-    "lowers evasion.");
+    "Rimuove gli ostacoli\n"
+    "e riduce l'evasione.");
 
 static const u8 sTrickRoomDescription[] = _(
-    "Slower Pokémon get to move\n"
-    "first for 5 turns.");
+    "Pokémon più lenti si muovono\n"
+    "per primi per cinque turni.");
 
 static const u8 sDracoMeteorDescription[] = _(
     "Riduce di molto il\n"
     "Attacco Speciale.");
 
 static const u8 sDischargeDescription[] = _(
-    "Zaps the foes with electri-\n"
-    "city. May paralyze them.");
+    "Bagliore elettrico. 30% di\n"
+    "paralizzare ogni bersaglio.");
 
 static const u8 sPowerWhipDescription[] = _(
-    "Violently lashes the foe\n"
-    "with vines or tentacles.");
+    "Agita violentemente liane\n"
+    "per sferzare il bersaglio.");
 
 static const u8 sCrossPoisonDescription[] = _(
-    "A slash that may poison a\n"
-    "foe and do critical damage.");
+    "10% di avvelenare il bersaglio.\n"
+    "Probabile brutto colpo.");
 
 static const u8 sGunkShotDescription[] = _(
-    "Shoots filthy garbage at\n"
-    "the foe. May also poison.");
+    "Rifiuti sudici. 30% di\n"
+    "avvelenare il bersaglio.");
 
 static const u8 sIronHeadDescription[] = _(
-    "Slams the foe with a hard\n"
-    "head. May cause flinching.");
+    "Testa dura come l'acciaio.\n"
+    "30% di far tentennare.");
 
 static const u8 sMagnetBombDescription[] = _(
-    "Launches a magnet that\n"
-    "strikes without fail.");
+    "Bombe d'acciaio.\n"
+    "Una mossa infallibile.");
 
 static const u8 sStoneEdgeDescription[] = _(
-    "Stabs the foe with stones.\n"
-    "High critical-hit ratio.");
+    "Pietre affilate.\n"
+    "Probabile brutto colpo.");
 
 static const u8 sCaptivateDescription[] = _(
-    "Makes the opposite gender\n"
-    "sharply reduce its Sp. Atk.");
+    "Diminuisce l'At.Speciale del\n"
+    "bersaglio di 2 livelli.");
 
 static const u8 sStealthRockDescription[] = _(
-    "Sets floating stones that\n"
-    "hurt a foe switching in.");
+    "Piazza una trappola di rocce\n"
+    "levitanti intorno al Pkmn avvrsr.");
 
 static const u8 sGrassKnotDescription[] = _(
-    "A snare attack that does\n"
-    "more damage to heavier foes.");
+    "Potenza è tanto maggiore quanto\n"
+    "più grande è il peso del bers.");
 
 static const u8 sChatterDescription[] = _(
-    "Attacks with a sound wave\n"
-    "that causes confusion.");
+    "Attacca creando un'onda\n"
+    "sonora con le parole imparate.");
 
 static const u8 sJudgmentDescription[] = _(
-    "The type varies with the\n"
-    "kind of Plate held.");
+    "Chi la usa rilascia numerosi\n"
+    "colpi di luce.");
 
 static const u8 sChargeBeamDescription[] = _(
     "Fires a beam of electricity.\n"
@@ -2427,8 +2427,8 @@ static const u8 sPrecipiceBladesDescription[] = _(
     "attack both foes.");
 
 static const u8 sLavaPlumeDescription[] = _(
-    "Scarlet flames torch\n"
-    "everything around the user.");
+    "Lancia fiamme scarlatte. 30%\n"
+    "di probabilità di scottarli.");
 
 static const u8 sLeafStormDescription[] = _(
     "Riduce di molto il\n"
