@@ -2868,108 +2868,108 @@ static const u8 sMeteorBeamDescription[] = _(
     "Attacca nel turno successivo.");
 
 static const u8 sShellSideArmDescription[] = _(
-    "Deals better of physical and\n"
-    "special damage. May poison.");
+    "20% di probabilità di\n"
+    "avvelenare il bersaglio.");
 
 static const u8 sMistyExplosionDescription[] = _(
-    "Hit everything and faint.\n"
-    "Powers up on Misty Terrain.");
+    "Attacca tutti i Pokémon\n"
+    "ma poi va KO. +50% C.Nebb.");
 
 static const u8 sGrassyGlideDescription[] = _(
-    "Gliding on ground, hits. Goes\n"
-    "first on Grassy Terrain.");
+    "+1 priorità se è attivo un\n"
+    "Campo Erboso.");
 
 static const u8 sRisingVoltageDescription[] = _(
-    "This move's power doubles\n"
-    "when on Electric Terrain.");
+    "x2 potenza si trova in\n"
+    "un Campo Elettrico.");
 
 static const u8 sTerrainPulseDescription[] = _(
-    "Type and power changes\n"
-    "depending on the terrain.");
+    "Il tipo e la potenza variano\n"
+    "dello stato del terreno stesso.");
 
 static const u8 sSkitterSmackDescription[] = _(
-    "User skitters behind foe to\n"
-    "attack. Lowers foe's Sp. Atk.");
+    "Riduce l'Attacco Speciale\n"
+    "del bersaglio di un livello.");
 
 static const u8 sBurningJealousyDescription[] = _(
-    "Foes that have stats upped\n"
-    "during the turn get burned.");
+    "Infligge danno a tutti gli\n"
+    "avversari adiacenti.");
 
 static const u8 sLashOutDescription[] = _(
-    "If stats lowered during this\n"
-    "turn, power is doubled.");
+    "Se le stat si abbassano durante\n"
+    "questo turno, x2 pot.");
 
 static const u8 sPoltergeistDescription[] = _(
-    "Control foe's item to attack.\n"
-    "Fails if foe has no item.");
+    "Infligge danno solo se il\n"
+    "bersaglio ha uno strumento.");
 
 static const u8 sCorrosiveGasDescription[] = _(
-    "Highly acidic gas melts items\n"
-    "held by surrounding Pokémon.");
+    "Rende inutilizzabile lo\n"
+    "strumento tenuto dal bersaglio.");
 
 static const u8 sCoachingDescription[] = _(
-    "Properly coaches allies to\n"
-    "up their Attack and Defense.");
+    "Aumenta Attacco e Difesa\n"
+    "dell'alleato di un livello.");
 
 static const u8 sFlipTurnDescription[] = _(
-    "Attacks and rushes back to\n"
-    "switch with a party Pokémon.");
+    "Infligge danno e\n"
+    "sostituisce l'utilizzatore.");
 
 static const u8 sTripleAxelDescription[] = _(
-    "A 3-kick attack that gets\n"
-    "more powerful with each hit.");
+    "Sferra fino a 3 calci cnsctvi,\n"
+    "la potnza aumenta a ogni colpo.");
 
 static const u8 sDualWingbeatDescription[] = _(
-    "User slams the target with\n"
-    "wings and hits twice in a row.");
+    "Colpisce due volte\n"
+    "ad ogni uso.");
 
 static const u8 sScorchingSandsDescription[] = _(
-    "Throws scorching sand at\n"
-    "the target. May leave a burn.");
+    "30% di probabilità di\n"
+    "scottare il bersaglio.");
 
 static const u8 sJungleHealingDescription[] = _(
-    "Heals HP and status of\n"
-    "itself and allies in battle.");
+    "+25% PS e cura i problemi\n"
+    "di stato.");
 
 static const u8 sWickedBlowDescription[] = _(
-    "Mastering the Dark style,\n"
-    "strikes with a critical hit.");
+    "Manda sempre a segno\n"
+    "un brutto colpo.");
 
 static const u8 sSurgingStrikesDescription[] = _(
-    "Mastering the Water style,\n"
-    "strikes with 3 critical hits.");
+    "Infligge danno tre volte e\n"
+    "manda sempre un brutto colpo.");
 
 static const u8 sThunderCageDescription[] = _(
-    "Traps the foe in a cage of\n"
-    "electricity for 2 to 5 turns.");
+    "Intrappola il bersaglio\n"
+    "per 4 o 5 turni.");
 
 static const u8 sDragonEnergyDescription[] = _(
-    "The higher the user's HP\n"
-    "the more damage caused.");
+    "La potenza cala man mano\n"
+    "che i PS diminuiscono.");
 
 static const u8 sFreezingGlareDescription[] = _(
-    "Shoots psychic power from\n"
-    "the eyes. May freeze the foe.");
+    "10% di probabilità di\n"
+    "congelare il bersaglio.");
 
 static const u8 sFieryWrathDescription[] = _(
-    "An attack fueled by your\n"
-    "wrath. May cause flinching.");
+    "20% di probabilità di\n"
+    "far tentennare il bersaglio.");
 
 static const u8 sThunderousKickDescription[] = _(
-    "Uses a lightning-like kick\n"
-    "to hit. Lowers foe's Defense.");
+    "Diminuisce la Difesa del\n"
+    "bersaglio di un livello.");
 
 static const u8 sGlacialLanceDescription[] = _(
-    "Strikes by hurling a blizzard-\n"
-    "cloaked icicle lance at a foe.");
+    "Attacca scagliando una\n"
+    "lancia di ghiaccio.");
 
 static const u8 sAstralBarrageDescription[] = _(
-    "Strikes by sending a frightful\n"
-    "amount of ghosts at a foe.");
+    "Attacca scatenandogli contro\n"
+    "una miriade di piccoli spttr.");
 
 static const u8 sEerieSpellDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Riduce di 3 i PP dell'ult\n"
+    "mossa usata dal bersaglio.");
 
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
