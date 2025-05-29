@@ -2707,165 +2707,165 @@ static const u8 sVeeveeVolleyDescription[] = _(
     "di precisione o elusione.");
 
 static const u8 sDoubleIronBashDescription[] = _(
-    "The user spins and hits with\n"
-    "its arms. May cause flinch.");
+    "Colpisce due volte. 30% di\n"
+    "far tentennare il bersaglio.");
     
 // GEN 8
 static const u8 sDynamaxCannonDescription[] = _(
-    "Fires a strong beam. Deals\n"
-    "2x damage to Dynamaxed foes.");
+    "Attacca emettendo un\n"
+    "raggio dal suo nucleo.");
     
 static const u8 sSnipeShotDescription[] = _(
-    "The user ignores effects\n"
-    "that draw in moves.");
+    "Maggiore probabilità di\n"
+    "infliggere un brutto colpo.");
     
 static const u8 sJawLockDescription[] = _(
-    "Prevents the user and\n"
-    "the target from escaping.");
+    "Impedisce a chi la usa e\n"
+    "al bersaglio di essere ssttti.");
     
 static const u8 sStuffCheeksDescription[] = _(
-    "Consumes the user's Berry,\n"
-    "then sharply raises Def.");
+    "Consuma la bacca e aumenta\n"
+    "la Difesa di due livelli.");
     
 static const u8 sNoRetreatDescription[] = _(
-    "Raises all of the user's\n"
-    "stats but prevents escape.");
+    "Aumenta tutte le statistiche\n"
+    "ma non può essere sostituito.");
     
 static const u8 sTarShotDescription[] = _(
-    "Lowers the foe's Speed and\n"
-    "makes it weak to Fire.");
+    "Riduce la vel del nemico e\n"
+    "lo rende debole al fuoco.");
     
 static const u8 sMagicPowderDescription[] = _(
-    "Magic powder changes the\n"
-    "target into a Psychic-type.");
+    "Rende il Pokémon colpito\n"
+    "di tipo Psico puro.");
     
 static const u8 sDragonDartsDescription[] = _(
-    "The user attacks twice. Two\n"
-    "targets are hit once each.");
+    "Colpisce due volte\n"
+    "a ogni utilizzo.");
     
 static const u8 sTeatimeDescription[] = _(
-    "All Pokémon have teatime\n"
-    "and eat their Berries.");
-    
+    "Tutti i Pkmn in campo mangino\n"
+    "le bacche in loro possesso.");
+
 static const u8 sOctolockDescription[] = _(
-    "Traps the foe to lower Def\n"
-    "and Sp. Def fall each turn.");
+    "Riduce la Dif e la Dif.Spc.\n"
+    "Previene la sostituzione");
     
 static const u8 sBoltBeakDescription[] = _(
-    "Double power if the user\n"
-    "moves before the target.");
+    "Se attacca per primo, la\n"
+    "potenza della mossa raddoppia.");
     
 static const u8 sFishiousRendDescription[] = _(
-    "Double power if the user\n"
-    "moves before the target.");
+    "Se attacca per primo, la\n"
+    "potenza della mossa raddoppia.");
     
 static const u8 sCourtChangeDescription[] = _(
-    "The user swaps effects on\n"
-    "either side of the field.");
+    "inverte gli effetti attivi\n"
+    "sul campo alleato e avversario.");
     
 static const u8 sClangorousSoulDescription[] = _(
-    "The user uses some of its\n"
-    "HP to raise all its stats.");
+    "Sacrifica 33% PS per\n"
+    "aumentare tutte le statistiche.");
     
 static const u8 sBodyPressDescription[] = _(
-    "Does more damage the\n"
-    "higher the user's Def.");
+    "Il danno viene calcolato\n"
+    "usando la Dif dell'utiliztre.");
     
 static const u8 sDecorateDescription[] = _(
-    "The user sharply raises\n"
-    "the target's Atk and Sp.Atk");
+    "+2 livelli l'Attacco e\n"
+    "l'At.Spc del bersaglio.");
     
 static const u8 sDrumBeatingDescription[] = _(
-    "Plays a drum to attack.\n"
-    "The foe's Speed is lowered.");
+    "Diminuisce di un livello\n"
+    "la Velocità del bersaglio.");
     
 static const u8 sSnapTrapDescription[] = _(
-    "Snares the target in a snap\n"
-    "trap for four to five turns.");
+    "Intrappola il bersaglio\n"
+    "per 4 o 5 turni.");
     
 static const u8 sPyroBallDescription[] = _(
-    "Launches a fiery ball at the\n"
-    "target. It may cause a burn.");
+    "10% di probabilità di\n"
+    "scottare il Pokémon colpito.");
     
 static const u8 sBehemothBladeDescription[] = _(
-    "Strikes as a sword. It deals\n"
-    "2x damage to Dynamaxed foes.");
+    "Si trasforma in un'enorme\n"
+    "spada e attacca.");
     
 static const u8 sBehemothBashDescription[] = _(
-    "Attacks as a shield. Deals\n"
-    "2x damage to Dynamaxed foes.");
+    "Si trasforma in un enorme\n"
+    "scudo e attacca.");
     
 static const u8 sAuraWheelDescription[] = _(
-    "Raises Speed to attack. The\n"
-    "Type is based on its form.");
+    "Aumenta la propria Vel.\n"
+    "Cambia in base a Morpeko.");
     
 static const u8 sBreakingSwipeDescription[] = _(
-    "Swings its tail to attack.\n"
-    "Lowers the Atk of those hit.");
+    "Diminuisce di un livello\n"
+    "l'Att dei Pokémon colpiti.");
     
 static const u8 sBranchPokeDescription[] = _(
-    "The user pokes the target\n"
-    "with a pointed branch.");
+    "Attacca con un ramo\n"
+    "incredibilmente appuntito.");
     
 static const u8 sOverdriveDescription[] = _(
-    "The user twangs its guitar,\n"
-    "causing strong vibrations.");
+    "Suona la chitarra creando\n"
+    "un'onda sonora potentissima.");
     
 static const u8 sAppleAcidDescription[] = _(
-    "Attacks with tart apple acid\n"
-    "to lower the foe's Sp. Def.");
+    "Riduce la Difesa Speciale\n"
+    "del bersaglio di un livello.");
     
 static const u8 sGravAppleDescription[] = _(
-    "Drops an apple from above.\n"
-    "Lowers the foe's Defense.");
+    "Riduce la Dif del bersaglio\n"
+    "di un livello.");
     
 static const u8 sSpiritBreakDescription[] = _(
-    "Attacks with spirit-breaking\n"
-    "force. Lowers Sp. Atk.");
+    "Diminuisce l'Attacco Speciale\n"
+    "del Pokémon colpito.");
     
 static const u8 sStrangeSteamDescription[] = _(
-    "Emits a strange steam to\n"
-    "potentially confuse the foe.");
+    "Getti di vapore. 20% di\n"
+    "confondere il bersaglio.");
     
 static const u8 sLifeDewDescription[] = _(
-    "Scatters water to restore\n"
-    "the HP of itself and allies.");
+    "Fa recuperare PS a sé\n"
+    "a agli alleati in campo.");
     
 static const u8 sObstructDescription[] = _(
-    "Protects itself, harshly\n"
-    "lowering Def on contact.");
+    "Se un Pokémon tocca, -2 Dif.\n"
+    "Eludere tutti gli attacchi.");
     
 static const u8 sFalseSurrenderDescription[] = _(
-    "Bows to stab the foe\n"
-    "with hair. It never misses.");
+    "Questa mossa va\n"
+    "sempre a segno.");
     
 static const u8 sMeteorAssaultDescription[] = _(
-    "Attacks with a thick leek.\n"
-    "The user must then rest.");
+    "Infligge danno e richiede\n"
+    "un turno di ricarica.");
     
 static const u8 sEternabeamDescription[] = _(
-    "Eternatus' strongest move.\n"
-    "The user rests next turn.");
+    "Nel turno successivo\n"
+    "non può agire.");
     
 static const u8 sSteelBeamDescription[] = _(
-    "Fires a beam of steel from\n"
-    "its body. It hurts the user.");
+    "Violento raggio potentissimo.\n"
+    "50% danno da contraccolpo.");
 
 static const u8 sExpandingForceDescription[] = _(
-    "Power goes up and damages\n"
-    "all foes on Psychic Terrain.");
+    "x2 danno se è attivo un C.Psi\n"
+    "è a contatto con il terreno.");
 
 static const u8 sSteelRollerDescription[] = _(
-    "Destroys terrain. Fails if\n"
-    "ground isn't terrain.");
+    "Rimuove l'effetto di\n"
+    "qualsiasi campo attivo.");
 
 static const u8 sScaleShotDescription[] = _(
-    "Shoots scales 2 to 5 times.\n"
-    "Ups Speed, lowers defense.");
+    "Squame da due a cinque volte.\n"
+    "+Velocità, -Difesa.");
 
 static const u8 sMeteorBeamDescription[] = _(
-    "A 2-turn move that raises\n"
-    "Sp. Attack before attacking.");
+    "+ At.Speciale nel primo turno.\n"
+    "Attacca nel turno successivo.");
 
 static const u8 sShellSideArmDescription[] = _(
     "Deals better of physical and\n"
