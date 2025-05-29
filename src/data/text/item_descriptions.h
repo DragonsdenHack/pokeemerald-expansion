@@ -249,28 +249,28 @@ static const u8 sMaxEtherDesc[] = _(
     "mossa.");
 
 static const u8 sElixirDesc[] = _(
-    "Restores the PP\n"
-    "of all moves by 10.");
+    "Restituisce 10 PP\n"
+    "a tutte le mosse\n"
+    "di un Pokémon.");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Fully restores the\n"
-    "PP of a Pokémon's\n"
-    "moves.");
+    "Restituisce tutti\n"
+    "i PP a tutte le\n"
+    "mosse di un Pkmn.");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "A 100% pure juice\n"
-    "that restores HP\n"
-    "by 20 points.");
+    "Puro succo di\n"
+    "bacca che\n"
+    "restituisce 20 PS.");
 
 static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted Pokémon.");
+    "Ristabilisce com-\n"
+    "pletamente ogni\n"
+    "Pokémon esausto.");
 
 static const u8 sSweetHeartDesc[] = _(
-    "A sweet chocolate\n"
-    "that restores HP\n"
-    "by 20 points.");
+    "Restituisce 20 PS\n"
+    "ad un Pokémon.");
 
 static const u8 sMaxHoneyDesc[] = _( // Todo
     "?????");
@@ -282,14 +282,14 @@ static const u8 sRageCandyBarDesc[] = _( // Todo
     "?????");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
-    "status problems.");
+    "Specialità locale\n"
+    "che cura tutti i\n"
+    "problemi di stato.");
 
 static const u8 sOldGateauDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one Pokémon.");
+    "Spclità dell'Antico\n"
+    "Chateau. Cura tutti\n"
+    "i problemi di stato.");
 
 static const u8 sCasteliaconeDesc[] = _( // Todo
     "?????");
@@ -301,194 +301,176 @@ static const u8 sShalourSableDesc[] = _( // Todo
     "?????");
 
 static const u8 sBigMalasadaDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one Pokémon.");
+    "Tipica di Alola.\n"
+    "Cura tutti i\n"
+    "problemi di stato.");
 
 // Vitamins
 static const u8 sHPUpDesc[] = _(
-    "Raises the base HP\n"
-    "of one Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base i PS\n"
+    "di un POKéMON.");
 
 static const u8 sProteinDesc[] = _(
-    "Raises the base\n"
-    "Attack stat of one\n"
-    "Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base l'ATTACCO\n"
+    "di un POKéMON.");
 
 static const u8 sIronDesc[] = _(
-    "Raises the base\n"
-    "Defense stat of\n"
-    "one Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base la DIFESA\n"
+    "di un POKéMON.");
 
 static const u8 sCalciumDesc[] = _(
-    "Raises the base\n"
-    "Sp. Atk stat of one\n"
-    "Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base l'ATT.SP\n"
+    "di un POKéMON.");
 
 static const u8 sZincDesc[] = _(
-    "Raises the base\n"
-    "Sp. Def stat of one\n"
-    "Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base la DIF.SPC\n"
+    "di un POKéMON.");
 
 static const u8 sCarbosDesc[] = _(
-    "Raises the base\n"
-    "Speed stat of one\n"
-    "Pokémon.");
+    "Aumenta 10 Punti\n"
+    "Base la VELOCITÀ\n"
+    "di un POKéMON.");
 
 static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+    "Aumenta i PP\n"
+    "massimi della\n"
+    "mossa selezionata.");
 
 static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+    "Porta al limite i\n"
+    "PP massimi di\n"
+    "una mossa.");
 
 // EV Feathers
 static const u8 sHealthFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base HP of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "PS del Pokémon\n"
+    "su cui lo si usa.");
 
 static const u8 sMuscleFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Attack of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "Attacco del Pokémon\n"
+    "su cui lo si usa.");
 
 static const u8 sResistFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Defense of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "Difesa del Pokémon\n"
+    "su cui lo si usa.");
 
 static const u8 sGeniusFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp.Attack of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "At.Spc del Pokémon\n"
+    "su cui lo si usa.");
 
 static const u8 sCleverFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp.Def of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "Dif.Spc del Pokémon\n"
+    "su cui lo si usa.");
 
 static const u8 sSwiftFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Speed of\n"
-    "a Pokémon.");
+    "Aumenta di 1 l'EV\n"
+    "Velocità del Pkmn\n"
+    "su cui lo si usa.");
 
 // Ability Modifiers
 static const u8 sAbilityCapsuleDesc[] = _(
-    "Switches a Poké-\n"
-    "mon's ability.");
+    "Che ha due abilità,\n"
+    "permette di\n"
+    "cambiare.");
 
 static const u8 sAbilityPatchDesc[] = _( // Todo
-    "Switches a Pkmn\n"
-    "hidden ability.");
+    "Che ha due abilità,\n"
+    "permette di cambiare\n"
+    "in una più rara.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Atk, -Def.");
+    "Cambia la natura.\n"
+    "+At, -Dif.");
 
 static const u8 sAdamantMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Atk, -SpA.");
+    "Cambia la natura.\n"
+    "+At, -At.Spc.");
 
 static const u8 sNaughtyMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Atk, -SpD.");
+    "Cambia la natura.\n"
+    "+At, -Vel.");
 
 static const u8 sBraveMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Atk, -Spe.");
+    "Cambia la natura.\n"
+    "+At, -Vel.");
 
 static const u8 sBoldMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Def, -Atk.");
+    "Cambia la natura.\n"
+    "+Dif, -At.");
 
 static const u8 sImpishMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Def, -SpA.");
+    "Cambia la natura.\n"
+    "+Dif, -At.Spc.");
 
 static const u8 sLaxMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Def, -SpD.");
+    "Cambia la natura.\n"
+    "+Dif, -Dif.Spc.");
 
 static const u8 sRelaxedMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Def, -Spe.");
+    "Cambia la natura.\n"
+    "+Dif, -Vel.");
 
 static const u8 sModestMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpA, -Atk.");
+    "Cambia la natura.\n"
+    "+At.Spc, -At.");
 
 static const u8 sMildMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpA, -Def.");
+    "Cambia la natura.\n"
+    "+At.Spc, -Dif.");
 
 static const u8 sRashMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpA, -SpD.");
+    "Cambia la natura.\n"
+    "+At.Spc, -Dif.Spc.");
 
 static const u8 sQuietMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpA, -Spe.");
+    "Cambia la natura.\n"
+    "+At.Spc, -Vel.");
 
 static const u8 sCalmMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpD, -Atk.");
+    "Cambia la natura.\n"
+    "+Dif.Spc, -At.");
 
 static const u8 sGentleMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpD, -Def.");
+    "Cambia la natura.\n"
+    "+Dif.Spc, -Dif.");
 
 static const u8 sCarefulMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpD, -SpA.");
+    "Cambia la natura.\n"
+    "+Dif.Spc, -At.Spc.");
 
 static const u8 sSassyMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+SpD, -Spe.");
+    "Cambia la natura.\n"
+    "+Dif.Spc, -Vel.");
 
 static const u8 sTimidMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Spe, -Atk.");
+    "Cambia la natura.\n"
+    "+Vel, -At.");
 
 static const u8 sHastyMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Spe, -Def.");
+    "Cambia la natura.\n"
+    "+Vel, -Dif.");
 
 static const u8 sJollyMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Spe, -SpA.");
+    "Cambia la natura.\n"
+    "+Vel, -At.Spc.");
 
 static const u8 sNaiveMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.\n"
-    "+Spe, -SpD.");
+    "Cambia la natura.\n"
+    "+Vel, -Dif.Spc.");
 
 static const u8 sSeriousMintDesc[] = _( // Todo
-    "Mint for to change\n"
-    "nature's POKÉMON.");
+    "Cambia la natura.");
 
 // Candy
 static const u8 sRareCandyDesc[] = _(
