@@ -708,133 +708,133 @@ static const u8 sBlueShardDesc[] = _(
     "a basso prezzo.");
 
 static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Coccio di un antico\n"
+    "strumento. Si vende\n"
+    "a basso prezzo.");
 
 static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Coccio di un antico\n"
+    "strumento. Si vende\n"
+    "a basso prezzo.");
 
 static const u8 sHeartScaleDesc[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+    "Una squama graziosa,\n"
+    "ambita dai\n"
+    "collezionisti.");
 
 static const u8 sHoneyDesc[] = _(
-    "Sweet honey that\n"
-    "attracts wild\n"
-    "Pokémon when used.");
+    "Miele dolce che\n"
+    "attrae i Pokémon\n"
+    "selvatici.");
 
 static const u8 sRareBoneDesc[] = _(
-    "A very rare bone.\n"
-    "It can be sold at\n"
-    "a high price.");
+    "Osso di altissimo\n"
+    "valore per la\n"
+    "archeologia.");
 
 static const u8 sOddKeystoneDesc[] = _(
-    "Raises Spiritomb's\n"
-   	"Sp.Attack and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta l'At.Sp e la\n"
+   	"Dif.Spc di Spiritomb\n"
+   	"fino al 30%.");
 
 static const u8 sPrettyFeatherDesc[] = _(
-    "A beautiful yet\n"
-    "plain feather that\n"
-    "does nothing.");
+    "Piuma molto bella.\n"
+    "Non ha alcun\n"
+    "effetto.");
 
 static const u8 sRelicCopperDesc[] = _( // Todo
-    "A copper coin used\n"
-  	"by an ancient cul-\n"
-  	"ture 3000 years ago.");
+    "Moneta di rame\n"
+  	"usata circa 3000\n"
+  	"anni.");
 
 static const u8 sRelicSilverDesc[] = _( // Todo
-    "A silver coin used\n"
-  	"by an ancient cul-\n"
-  	"ture 3000 years ago.");
+    "Moneta di argento\n"
+  	"usata circa 3000\n"
+  	"anni.");
 
 static const u8 sRelicGoldDesc[] = _( // Todo
-    "A gold coin used\n"
-  	"by an ancient cul-\n"
-  	"ture 3000 years ago.");
+    "Moneta d'oro\n"
+  	"usata circa\n"
+  	"3000 anni.");
 
 static const u8 sRelicVaseDesc[] = _( // Todo
-    "Ancient vase\n"
-  	"made 3000 years\n"
-  	"ago.");
+    "Vaso prodotto circa\n"
+  	"3000 anni fa da\n"
+  	"un'antica civiltà.");
 
 static const u8 sRelicBandDesc[] = _( // Todo
-    "Ancient band\n"
-  	"made 3000 years\n"
-  	"ago.");
+    "Braccialetto forgiato\n"
+  	"circa 3000 anni fa\n"
+  	"da un'antica cvltà.");
 
 static const u8 sRelicStatueDesc[] = _( // Todo
-    "Ancient statue\n"
-  	"made 3000 years\n"
-  	"ago.");
+    "Statua sclpta circa\n"
+  	"3000 anni fa da\n"
+  	"un'antica civiltà.");
 
 static const u8 sRelicCrownDesc[] = _( // Todo
-    "Ancient crown\n"
-  	"made 3000 years\n"
-  	"ago.");
+    "Corona frgta circa\n"
+  	"3000 anni fa. da\n"
+  	"un'antica civiltà.");
 
 static const u8 sStrangeSouvenirDesc[] = _( // Todo
     "?????");
 
 // Fossils
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "Pokémon's seashell.");
+    "Fossile di un Pkmn\n"
+    "antico che viveva\n"
+    "in mare.");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "Pokémon's shell.");
+    "Fossile di un Pkmn\n"
+    "antico che viveva\n"
+    "in mare.");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient Pokémon.");
+    "Ambra rossastra che\n"
+    "contiene i geni di\n"
+    "un Pokémon antico.");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling Pokémon.");
+    "Fossile di un Pkmn\n"
+    "antico che viveva\n"
+    "in mare.");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling Pokémon.");
+    "Fossile di un Pkmn\n"
+    "antico che viveva\n"
+    "in mare.");
 
 static const u8 sArmorFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's head.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "viveva sulla terra.");
 
 static const u8 sSkullFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's head.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "viveva sulla terra.");
 
 static const u8 sCoverFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's back.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "viveva nel mare.");
 
 static const u8 sPlumeFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's wing.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "solcava i cieli.");
 
 static const u8 sJawFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "large jaw.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "viv. sulla trrferma.");
 
 static const u8 sSailFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "skin sail.");
+    "Fossile di un Pkmn\n"
+    "preistorico che\n"
+    "viv. sulla trrferma.");
 
 static const u8 sFossilizedBirdDesc[] = _( // Todo
     "?????");
@@ -874,49 +874,42 @@ static const u8 sAmazeMulchDesc[] = _( // Todo
     "?????");
 // Apricorns
 static const u8 sRedApricornDesc[] = _(
-    "A red apricorn.\n"
-    "It assails your\n"
-    "nostrils.");
+    "Una Ghicocca di\n"
+    "colore rosso.");
 
 static const u8 sBlueApricornDesc[] = _(
-    "A blue apricorn.\n"
-    "It smells a bit\n"
-    "like grass.");
+    "Una Ghicocca di\n"
+    "colore blu.");
 
 static const u8 sYellowApricornDesc[] = _(
-    "A yellow apricorn.\n"
-    "It has an invigor-\n"
-    "ating scent.");
+    "Una Ghicocca di\n"
+    "colore giallo.");
 
 static const u8 sGreenApricornDesc[] = _(
-    "A green apricorn.\n"
-    "It has a strange,\n"
-    "aromatic scent.");
+    "Una Ghicocca di\n"
+    "colore verde.");
 
 static const u8 sPinkApricornDesc[] = _(
-    "A pink apricorn.\n"
-    "It has a nice,\n"
-    "sweet scent.");
+    "Una Ghicocca di\n"
+    "colore rosa.");
 
 static const u8 sWhiteApricornDesc[] = _(
-    "A white apricorn.\n"
-    "It doesn't smell\n"
-    "like anything.");
+    "Una Ghicocca di\n"
+    "colore bianca.");
 
 static const u8 sBlackApricornDesc[] = _(
-    "A black apricorn.\n"
-    "It has an inde-\n"
-    "scribable scent.");
+    "Una Ghicocca di\n"
+    "colore nera.");
 
 static const u8 sWishingPieceDesc[] = _(
-    "Raises Ho-Ho's\n"
-   	"Attack and Defense\n"
-   	"up to a 20%.");
+    "Aumenta l'attacco e\n"
+   	"la difesa di Ho-Ho\n"
+   	"fino al 20%.");
 
 static const u8 sGalaricaTwigDesc[] = _( // Todo
-    "Raises Lugia's\n"
-   	"Sp.Attack and Sp.Def\n"
-   	"up to a 20%.");
+    "Aumenta l'at.spc e\n"
+   	"la dif.spc di Lugia\n"
+   	"fino al 20%.");
 
 static const u8 sArmoriteOreDesc[] = _( // Todo
     "?????");
@@ -926,9 +919,9 @@ static const u8 sDyniteOreDesc[] = _( // Todo
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Zigzagoon.");
 
 static const u8 sHarborMailDesc[] = _(
     "A WINGULL-print\n"
