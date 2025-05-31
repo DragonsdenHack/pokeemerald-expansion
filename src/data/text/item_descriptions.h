@@ -1917,248 +1917,248 @@ static const u8 sLightBallDesc[] = _(
     "e l'Att di PIKACHU.");
 
 static const u8 sLeekDesc[] = _(
-    "A hold item that\n"
-    "raises Farfetch'd's\n"
-    "critical-hit ratio.");
+    "Strumento tenuto:\n"
+    "aumenta i brutti\n"
+    "colpi di Farfetch'd.");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises Cubone or\n"
-    "Marowak's Attack.");
+    "Strumento tenuto:\n"
+    "aumenta ATTACCO di\n"
+    "CUBONE e MAROWAK.");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "A hold item that\n"
-    "raises Chansey's\n"
-    "critical-hit rate.");
+    "Strumento tenuto:\n"
+    "aumenta i brutti\n"
+    "colpi di CHANSEY.");
 
 static const u8 sMetalPowderDesc[] = _(
-    "A hold item that\n"
-    "raises Ditto's\n"
-    "Defense.");
+    "Strumento tenuto:\n"
+    "aumenta la DIFESA\n"
+    "di DITTO.");
 
 static const u8 sQuickPowderDesc[] = _(
-    "A hold item that\n"
-    "raises the Speed\n"
-    "of Ditto.");
+    "Strumento tenuto:\n"
+    "aumenta la VELOCITÀ\n"
+    "di DITTO.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "Raises Gorebyss's\n"
-   	"Sp.Attack and Speed\n"
-   	"up to a 30%.");
+    "Aumenta l'att.spc e\n"
+   	"la Vel. di Gorebyss\n"
+   	"fino al 30%.");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "Raises Huntails's\n"
-   	"Attack and Speed\n"
-   	"up to a 30%.");
+    "Aumenta l'att e\n"
+   	"la Vel. di Huntail\n"
+   	"fino al 30%.");
 
 static const u8 sSoulDewDesc[] = _(
-    "Hold item: raises\n"
-    "Sp. Atk & Sp. Def of\n"
-    "Latios & Latias.");
+    "Strumento tenuto:\n"
+    "Aumenta Att.Sp e D.Sp\n"
+    "di Latios o Latias.");
 
 static const u8 sAdamantOrbDesc[] = _(
-    "Boosts the power of\n"
-    "Dialga's Dragon and\n"
-    "Steel-type moves.");
+    "Potenzia le mosse\n"
+    "Drago e Acciaio, da\n"
+    "far tenere a DIALGA.");
 
 static const u8 sLustrousOrbDesc[] = _(
-    "Boosts the power of\n"
-    "Palkia's Dragon and\n"
-    "Water-type moves.");
+    "Potenzia le mosse\n"
+    "Drago e Acqua, da\n"
+    "far tenere a PALKIA.");
 
 static const u8 sGriseousOrbDesc[] = _(
-    "Powers up Giratina's\n"
-    "Dragon and Ghost-\n"
-    "type moves.");
+    "Potenzia le mosse\n"
+    "Drago e Spettro, da\n"
+    "far tenr a GIRATINA.");
 
 // Incenses
 static const u8 sSeaIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "Water-type moves.");
+    "Strumento tenuto:\n"
+    "migliora le mosse\n"
+    "di tipo Acqua.");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly lowers the\n"
-    "foe's accuracy.");
+    "Strumento tenuto:\n"
+    "riduce di poco la\n"
+    "prcsne del nemico.");
 
 static const u8 sOddIncenseDesc[] = _(
-    "A hold item that\n"
-    "boosts Psychic-\n"
-    "type moves.");
+    "Strumento tenuto:\n"
+    "migliora le mosse\n"
+    "di tipo Psico.");
 
 static const u8 sRockIncenseDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "Rock-type moves.");
+    "Strumento tenuto:\n"
+    "migliora le mosse\n"
+    "di tipo Roccia.");
 
 static const u8 sFullIncenseDesc[] = _(
-    "A held item that\n"
-    "makes the holder\n"
-    "move slower.");
+    "Incenso dal profumo\n"
+    "esotico che rende\n"
+    "gonfi e lenti.");
 
 static const u8 sWaveIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "Water-type moves.");
+    "Strumento tenuto:\n"
+    "migliora le mosse\n"
+    "di tipo Acqua.");
 
 static const u8 sRoseIncenseDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "Grass-type moves.");
+    "Strumento tenuto:\n"
+    "migliora le mosse\n"
+    "di tipo Erba.");
 
 static const u8 sLuckIncenseDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "Raddoppia i guadagni\n"
+    "nella lotta se chi lo\n"
+    "tiene vi partecipa.");
 
 static const u8 sPureIncenseDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "Pokémon.");
+    "Riduce di un terzo\n"
+    "% di incontrare\n"
+    "Pokémon selvatici.");
 
 // Contest Scarves
 static const u8 sRedScarfDesc[] = _(
-    "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+    "Strumento tenuto\n"
+    "che aumenta la\n"
+    "Classe nelle Gare.");
 
 static const u8 sBlueScarfDesc[] = _(
-    "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+    "Strumento tenuto\n"
+    "che aumenta la\n"
+    "Bellezza nelle Gare.");
 
 static const u8 sPinkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+    "Strumento tenuto\n"
+    "che aumenta la\n"
+    "Grazia nelle Gare.");
 
 static const u8 sGreenScarfDesc[] = _(
-    "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+    "Strumento tenuto\n"
+    "che aumenta\n"
+    "l'Acume nelle Gare.");
 
 static const u8 sYellowScarfDesc[] = _(
-    "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
+    "Strumento tenuto\n"
+    "che aumenta la\n"
+    "Grinta nelle Gare.");
 
 // EV Gain Modifiers
 static const u8 sMachoBraceDesc[] = _(
-    "A hold item that\n"
-    "promotes growth,\n"
-    "but reduces Speed.");
+    "Strumento tenuto:\n"
+    "aiuta la crescita,\n"
+    "ma riduce Velocità.");
 
 static const u8 sPowerWeightDesc[] = _(
-    "A hold item that\n"
-    "promotes HP gain,\n"
-    "but reduces Speed.");
+    "+4 PS P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 static const u8 sPowerBracerDesc[] = _(
-    "A hold item that\n"
-    "promotes Atk gain,\n"
-    "but reduces Speed.");
+    "+4 ATT P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 static const u8 sPowerBeltDesc[] = _(
-    "A hold item that\n"
-    "promotes Def gain,\n"
-    "but reduces Speed.");
+    "+4 DIF P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 static const u8 sPowerLensDesc[] = _(
-    "Hold item that pro-\n"
-    "motes Sp. Atk gain,\n"
-    "but reduces Speed.");
+    "+4 A.SP P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 static const u8 sPowerBandDesc[] = _(
-    "Hold item that pro-\n"
-    "motes Sp. Def gain,\n"
-    "but reduces Speed.");
+    "+4 D.SP P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 static const u8 sPowerAnkletDesc[] = _(
-    "A hold item that\n"
-    "promotes Spd gain,\n"
-    "but reduces Speed.");
+    "+4 VEL P.Base ogni\n"
+    "volta che scnfgge.\n"
+    "Riduce la Velocità.");
 
 // Type-boosting Held Items
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Normal-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Normale.");
 
 static const u8 sCharcoalDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Fire-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Fuoco.");
 
 static const u8 sMysticWaterDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Water-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Acqua.");
 
 static const u8 sMagnetDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Electric-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Elettro.");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Grass-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Erba.");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Ice-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Ghiaccio.");
 
 static const u8 sBlackBeltDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Fighting-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Lotta.");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Poison-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Veleno.");
 
 static const u8 sSoftSandDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Ground-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Terra.");
 
 static const u8 sSharpBeakDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Flying-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Volante.");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Psychic-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Psico.");
 
 static const u8 sSilverPowderDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Bug-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Coleottero.");
 
 static const u8 sHardStoneDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Rock-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Roccia.");
 
 static const u8 sSpellTagDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Ghost-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Spettro.");
 
 static const u8 sDragonFangDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Dragon-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Drago.");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "A hold item, raises\n"
-    "(+20%) the power of\n"
-    "Dark-type moves.");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Buio.");
 
 static const u8 sMetalCoatDesc[] = _(
     "Raises Scizor and\n"
