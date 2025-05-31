@@ -1379,451 +1379,451 @@ static const u8 sJadeOrbDesc[] = _( // Todo
 
 // Mega Stones
 static const u8 sVenusauriteDesc[] = _(
-    "Data a Venusaur, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Venusaur.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sCharizarditeDesc[] = _(
-    "Data a Charizard, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Charizard.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sBlastoisiniteDesc[] = _(
-    "Data a Blastoise, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Blastoise.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sBeedrilliteDesc[] = _(
-    "Data a Beedrill, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Beedrill.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sPidgeotiteDesc[] = _(
-    "Data a Pidgeot, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Pidgeot.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sAlakaziteDesc[] = _(
-    "Data a Alakazam, gli\n"
-    "permette megaevolvrsi\n"
+    "Data a Alakazam.\n"
+    "Permette megaevolvrsi\n"
     "durante una lotta.");
 
 static const u8 sSlowbroniteDesc[] = _(
-    "This stone enables\n"
-    "Slowbro to Mega\n"
-    "Evolve in battle.");
+    "Data a Slowbro.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGengariteDesc[] = _(
-    "This stone enables\n"
-    "Gengar to Mega\n"
-    "Evolve in battle.");
+    "Data a Gengar.\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sKangaskhaniteDesc[] = _(
-    "This stone enables\n"
-    "Kangaskhan to Mega\n"
-    "Evolve in battle.");
+    "Data a Kangaskhan.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sPinsiriteDesc[] = _(
-    "This stone enables\n"
-    "Pinsir to Mega\n"
-    "Evolve in battle.");
+    "Data a Pinsir.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGyaradositeDesc[] = _(
-    "This stone enables\n"
-    "Gyarados to Mega\n"
-    "Evolve in battle.");
+    "Data a Gyarados.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAerodactyliteDesc[] = _(
-    "This stone enables\n"
-    "Aerodactyl to Mega\n"
-    "Evolve in battle.");
+    "Data a Aerodactyl.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sMewtwoniteDesc[] = _(
-    "This stone enables\n"
-    "Mewtwo to Mega\n"
-    "Evolve in battle.");
+    "Data a Mewtwo.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAmpharositeDesc[] = _(
-    "This stone enables\n"
-    "Ampharos to Mega\n"
-    "Evolve in battle.");
+    "Data a Ampharos.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSteelixiteDesc[] = _(
-    "This stone enables\n"
-    "Steelix to Mega\n"
-    "Evolve in battle.");
+    "Data a Steelix.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sScizoriteDesc[] = _(
-    "This stone enables\n"
-    "Scizor to Mega\n"
-    "Evolve in battle.");
+    "Data a Scizor.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sHeracroniteDesc[] = _(
-    "This stone enables\n"
-    "Heracross to Mega\n"
-    "Evolve in battle.");
+    "Data a Heracross.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sHoundoominiteDesc[] = _(
-    "This stone enables\n"
-    "Houndoom to Mega\n"
-    "Evolve in battle.");
+    "Data a Houndoom.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sTyranitariteDesc[] = _(
-    "This stone enables\n"
-    "Tyranitar to Mega\n"
-    "Evolve in battle.");
+    "Data a Tyranitar.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSceptiliteDesc[] = _(
-    "This stone enables\n"
-    "Sceptile to Mega\n"
-    "Evolve in battle.");
+    "Data a Sceptile.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sBlazikeniteDesc[] = _(
-    "This stone enables\n"
-    "Blaziken to Mega\n"
-    "Evolve in battle.");
+    "Data a Blaziken.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSwampertiteDesc[] = _(
-    "This stone enables\n"
-    "Swampert to Mega\n"
-    "Evolve in battle.");
+    "Data a Swampert.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGardevoiriteDesc[] = _(
-    "This stone enables\n"
-    "Gardevoir to Mega\n"
-    "Evolve in battle.");
+    "Data a Gardevoir.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSableniteDesc[] = _(
-    "This stone enables\n"
-    "Sableye to Mega\n"
-    "Evolve in battle.");
+    "Data a Sableye.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sMawiliteDesc[] = _(
-    "This stone enables\n"
-    "Mawile to Mega\n"
-    "Evolve in battle.");
+    "Data a Mawile.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAggroniteDesc[] = _(
-    "This stone enables\n"
-    "Aggron to Mega\n"
-    "Evolve in battle.");
+    "Data a Aggron.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sMedichamiteDesc[] = _(
-    "This stone enables\n"
-    "Medicham to Mega\n"
-    "Evolve in battle.");
+    "Data a Medicham.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sManectiteDesc[] = _(
-    "This stone enables\n"
-    "Manectric to Mega\n"
-    "Evolve in battle.");
+    "Data a Manectric.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSharpedoniteDesc[] = _(
-    "This stone enables\n"
-    "Sharpedo to Mega\n"
-    "Evolve in battle.");
+    "Data a Sharpedo.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sCameruptiteDesc[] = _(
-    "This stone enables\n"
-    "Camerupt to Mega\n"
-    "Evolve in battle.");
+    "Data a Camerupt.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAltarianiteDesc[] = _(
-    "This stone enables\n"
-    "Altaria to Mega\n"
-    "Evolve in battle.");
+    "Data a Altaria.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sBanettiteDesc[] = _(
-    "This stone enables\n"
-    "Banette to Mega\n"
-    "Evolve in battle.");
+    "Data a Banette.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAbsoliteDesc[] = _(
-    "This stone enables\n"
-    "Absol to Mega\n"
-    "Evolve in battle.");
+    "Data a Absol.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGlalititeDesc[] = _(
-    "This stone enables\n"
-    "Glalie to Mega\n"
-    "Evolve in battle.");
+    "Data a Glalie.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSalamenciteDesc[] = _(
-    "This stone enables\n"
-    "Salamence to Mega\n"
-    "Evolve in battle.");
+    "Data a Salamence.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sMetagrossiteDesc[] = _(
-    "This stone enables\n"
-    "Metagross to Mega\n"
-    "Evolve in battle.");
+    "Data a Metagross.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sLatiasiteDesc[] = _(
-    "This stone enables\n"
-    "Latias to Mega\n"
-    "Evolve in battle.");
+    "Data a Latias.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sLatiositeDesc[] = _(
-    "This stone enables\n"
-    "Latios to Mega\n"
-    "Evolve in battle.");
+    "Data a Latios.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sLopunniteDesc[] = _(
-    "This stone enables\n"
-    "Lopunny to Mega\n"
-    "Evolve in battle.");
+    "Data a Lopunnite.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGarchompiteDesc[] = _(
-    "This stone enables\n"
-    "Garchomp to Mega\n"
-    "Evolve in battle.");
+    "Data a Garchomp.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sLucarioniteDesc[] = _(
-    "This stone enables\n"
-    "Lucario to Mega\n"
-    "Evolve in battle.");
+    "Data a Lucario.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAbomasiteDesc[] = _(
-    "This stone enables\n"
-    "Abomasnow to Mega\n"
-    "Evolve in battle.");
+    "Data a Abomasnow.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sGalladiteDesc[] = _(
-    "This stone enables\n"
-    "Gallade to Mega\n"
-    "Evolve in battle.");
+    "Data a Gallade.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAudiniteDesc[] = _(
-    "This stone enables\n"
-    "Audino to Mega\n"
-    "Evolve in battle.");
+    "Data a Audino.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sDianciteDesc[] = _(
-    "This stone enables\n"
-    "Diance to Mega\n"
-    "Evolve in battle.");
+    "Data a Diancie.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sFlygoniteDesc[] = _(
-    "This stone enables\n"
-    "Flygon to Mega\n"
-    "Evolve in battle.");
+    "Data a Flygon.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sMiloticiteDesc[] = _(
-    "This stone enables\n"
-    "Milotic to Mega\n"
-    "Evolve in battle.");
+    "Data a Milotic.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sStarmietiteDesc[] = _(
-    "This stone enables\n"
-    "Starmie to Mega\n"
-    "Evolve in battle.");
+    "Data a Starmie.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sButterfriteDesc[] = _(
-    "This stone enables\n"
-    "Butterfree to Mega\n"
-    "Evolve in battle.");
+    "Data a Butterfree.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sDusknoiriteDesc[] = _(
-    "This stone enables\n"
-    "Dusknoir to Mega\n"
-    "Evolve in battle.");
+    "Data a Dusknoir.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sNoiverniteDesc[] = _(
-    "This stone enables\n"
-    "Noivern to Mega\n"
-    "Evolve in battle.");
+    "Data a Noivern.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sToxtriciteDesc[] = _(
-     "This stone enables\n"
-    "Toxtricity to Mega\n"
-    "Evolve in battle.");
+    "Data a Toxtricity.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sPorygonitDesc[] = _(
-    "This stone enables\n"
-    "Porygon-Z to Mega\n"
-    "Evolve in battle.");
+    "Data a Porygon-Z.\n"
+    "Permette megaevolvrsi\n"
+    "durante una lotta.");
 
 // Gems
 static const u8 sNormalGemDesc[] = _(
-    "Boosts a Normal\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Normale.\n"
+   	"Una sola volta.");
 
 static const u8 sFireGemDesc[] = _(
-    "Boosts a Fire\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Fuoco.\n"
+   	"Una sola volta.");
 
 static const u8 sWaterGemDesc[] = _(
-    "Boosts a Water\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Acqua.\n"
+   	"Una sola volta.");
 
 static const u8 sElectricGemDesc[] = _(
-    "Boosts a Electric\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Elettro.\n"
+   	"Una sola volta.");
 
 static const u8 sGrassGemDesc[] = _(
-    "Boosts a Grass\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Erba.\n"
+   	"Una sola volta.");
 
 static const u8 sIceGemDesc[] = _(
-    "Boosts a Ice\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Ghiaccio.\n"
+   	"Una sola volta.");
 
 static const u8 sFightingGemDesc[] = _(
-    "Boosts a Fighting\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Lotta.\n"
+   	"Una sola volta.");
 
 static const u8 sPoisonGemDesc[] = _(
-    "Boosts a Poison\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Veleno.\n"
+   	"Una sola volta.");
 
 static const u8 sGroundGemDesc[] = _(
-    "Boosts a Ground\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Terra.\n"
+   	"Una sola volta.");
 
 static const u8 sFlyingGemDesc[] = _(
-    "Boosts a Flying\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Volante.\n"
+   	"Una sola volta.");
 
 static const u8 sPsychicGemDesc[] = _(
-    "Boosts a Psychic\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Psico.\n"
+   	"Una sola volta.");
 
 static const u8 sBugGemDesc[] = _(
-    "Boosts a Bug\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Coleottr.\n"
+   	"Una sola volta.");
 
 static const u8 sRockGemDesc[] = _(
-    "Boosts a Rock\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Roccia.\n"
+   	"Una sola volta.");
 
 static const u8 sGhostGemDesc[] = _(
-    "Boosts a Ghost\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Spettro.\n"
+   	"Una sola volta.");
 
 static const u8 sDragonGemDesc[] = _(
-    "Boosts a Dragon\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Drago.\n"
+   	"Una sola volta.");
 
 static const u8 sDarkGemDesc[] = _(
-    "Boosts a Dark\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Buio.\n"
+   	"Una sola volta.");
 
 static const u8 sSteelGemDesc[] = _(
-    "Boosts a Steel\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Acciaio.\n"
+   	"Una sola volta.");
 
 static const u8 sFairyGemDesc[] = _(
-    "Boosts a Fairy\n"
-   	"type move by 40%.\n"
-   	"Only one use.");
+    "Potenzia +40% una\n"
+   	"mossa di T.Folletto.\n"
+   	"Una sola volta.");
 
 // Z-Crystals
 static const u8 sNormaliumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO NORMAL en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Normale\n"
+    "in mosse Z.");
 
 static const u8 sFiriumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO FUEGO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Fuoco\n"
+    "in mosse Z.");
 
 static const u8 sWateriumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO AGUA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Acqua\n"
+    "in mosse Z.");
 
 static const u8 sElectriumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO ELÉCTRICO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Elettro\n"
+    "in mosse Z.");
 
 static const u8 sGrassiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO PLANTA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Erba\n"
+    "in mosse Z.");
 
 static const u8 sIciumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO HIELO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Ghiaccio\n"
+    "in mosse Z.");
 
 static const u8 sFightiniumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO LUCHA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Lotta\n"
+    "in mosse Z.");
 
 static const u8 sPoisoniumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO VENENO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Veleno\n"
+    "in mosse Z.");
 
 static const u8 sGroundiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO TIERRA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Terra\n"
+    "in mosse Z.");
 
 static const u8 sFlyiniumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO VOLADOR en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Volante\n"
+    "in mosse Z.");
 
 static const u8 sPsychiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO PSÍQUICO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Psico\n"
+    "in mosse Z.");
 
 static const u8 sBuginiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO BICHO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Coleottero\n"
+    "in mosse Z.");
 
 static const u8 sRockiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO ROCA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Roccia\n"
+    "in mosse Z.");
 
 static const u8 sGhostiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO FANTASMA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Spettro\n"
+    "in mosse Z.");
 
 static const u8 sDragoniumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO DRAGÓN en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Drago\n"
+    "in mosse Z.");
 
 static const u8 sDarkiniumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO SINIESTRO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Buio\n"
+    "in mosse Z.");
 
 static const u8 sSteeliumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO ACERO en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Acciaio\n"
+    "in mosse Z.");
 
 static const u8 sFairiumZDesc[] = _(
-    "Transforma ataques\n"
-    "TIPO HADA en\n"
-    "movimientos Z.");
+    "Trasforma le mosse\n"
+    "di tipo Folletto\n"
+    "in mosse Z.");
 
 static const u8 sPikaniumZDesc[] = _(
     "Upgrade Pikachu's\n"
