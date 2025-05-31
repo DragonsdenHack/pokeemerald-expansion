@@ -474,91 +474,92 @@ static const u8 sSeriousMintDesc[] = _( // Todo
 
 // Candy
 static const u8 sRareCandyDesc[] = _(
-    "Raises the level\n"
-    "of a Pokémon by\n"
-    "one.");
+    "Fa salire un\n"
+    "Pokémon di\n"
+    "un livello.");
 
 static const u8 sExpCandyXSDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.1 and LV.15.");
 
 static const u8 sExpCandySDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.15 and LV.30.");
 
 static const u8 sExpCandyXMDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.30 and LV.45.");
 
 static const u8 sExpCandyMDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.45 and LV.65.");
 
 static const u8 sExpCandyLDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.65 and LV.75.");
 
 static const u8 sExpCandyXLDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.75 and LV.85.");
 
 static const u8 sDynamaxCandyDesc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.85 and LV.95.");
 	
 static const u8 sDynamaxCandy2Desc[] = _( // Todo
-    "Raises the level\n"
-	"of a Pkmn between\n"
+    "Eleva il Pokémon\n"
+	"di un livello tra\n"
 	"LV.95 and LV.105.");
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "Pokémon.");
+    "Flauto di vetro che\n"
+    "sveglia un Pokémon\n"
+    "addormentato.");
 
 static const u8 sYellowFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps Pokémon\n"
-    "out of confusion.");
+    "Flauto di vetro che\n"
+    "libera un Pokémon\n"
+    "dalla confusione.");
 
 static const u8 sRedFluteDesc[] = _(
-    "A glass flute that\n"
+    "Flauto di vetro che\n"
     "snaps Pokémon\n"
     "out of attraction.");
 
 // Encounter-modifying Flutes
 static const u8 sBlackFluteDesc[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "Pokémon.");
+    "Flauto di vetro\n"
+    "che tiene alla\n"
+    "larga i Pokémon.");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "A glass flute that\n"
-    "lures wild Pokémon.");
+    "Flauto di vetro che\n"
+    "attrae Pokémon\n"
+    "selvatici.");
 
 // Encounter Modifiers
 static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "Pokémon for 100\n"
-    "steps.");
+    "Allontana i POKéMON\n"
+    "selvatici deboli\n"
+    "per 100 passi.");
 
 static const u8 sSuperRepelDesc[] = _(
-    "Repels weak wild\n"
-    "Pokémon for 200\n"
-    "steps.");
+    "Allontana i POKéMON\n"
+    "selvatici deboli\n"
+    "per 200 passi.");
 
 static const u8 sMaxRepelDesc[] = _(
-    "Repels weak wild\n"
-    "Pokémon for 250\n"
-    "steps.");
+    "Allontana i POKéMON\n"
+    "selvatici deboli\n"
+    "per 250 passi.");
 
 static const u8 sLureDesc[] = _( // Todo
     "?????");
@@ -570,69 +571,63 @@ static const u8 sMaxLureDesc[] = _( // Todo
     "?????");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from a\n"
-    "cave or a dungeon.");
+    "Per fuggire da\n"
+    "grotte e\n"
+    "sotterranei.");
 
 // Battle items
 static const u8 sXAttackDesc[] = _(
-    "Raises the stat\n"
-    "Attack during one\n"
-    "battle.");
+    "Aumenta l'ATTACCO\n"
+    "per una lotta.");
 
 static const u8 sXDefenseDesc[] = _(
-    "Raises the stat\n"
-    "Defense during one\n"
-    "battle.");
+    "Aumenta la DIFESA\n"
+    "per una lotta.");
 
 static const u8 sXSpAtkDesc[] = _(
-    "Raises the stat\n"
-    "Sp. Atk during one\n"
-    "battle.");
+    "Aumenta l'At.Spc\n"
+    "per una lotta.");
 
 static const u8 sXSpDefDesc[] = _(
-    "Raises the stat\n"
-    "Sp. Def during one\n"
-    "battle.");
+    "Aumenta la Dif.Spc\n"
+    "per una lotta.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Raises the stat\n"
-    "Speed during one\n"
-    "battle.");
+    "Aumenta la VELOCITÀ\n"
+    "per una lotta.");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
+    "Aumenta la\n"
+    "PRECISIONE\n"
+    "per una lotta.");
 
 static const u8 sDireHitDesc[] = _(
-    "Raises the\n"
-    "critical-hit ratio\n"
-    "during one battle.");
+    "Brutti colpi\n"
+    "più probabili\n"
+    "per una lotta.");
 
 static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+    "Impedisce la\n"
+    "riduzione delle\n"
+    "stat.nella lotta.");
 
 // Escape Items
 static const u8 sPokeDollDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild Pokémon.");
+    "Bambola che\n"
+    "attrae i\n"
+    "Pokémon.");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild Pokémon.");
+    "Strumento che\n"
+    "arriva da\n"
+    "molto lontano.");
 
 static const u8 sPokeToyDesc[] = _( // Todo
     "?????");
 
 static const u8 sMaxMushroomsDesc[] = _( // Todo
-    "Seta muy poco\n"
-   	"común. Se vende\n"
-   	"a alto precio.");
+    "Prezzo di\n"
+   	"vendita: 4.000¥.");
 
 // Treasures
 static const u8 sBottleCapDesc[] = _( // Todo
@@ -642,79 +637,75 @@ static const u8 sGoldBottleCapDesc[] = _( // Todo
     "?????");
 
 static const u8 sNuggetDesc[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
+    "Pepita d'oro\n"
+    "puro. Si vende\n"
+    "a caro prezzo.");
 
 static const u8 sBigNuggetDesc[] = _( // Todo
-    "A big nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a very high price.");
+    "Prezzo di\n"
+   	"vendita: 20.000¥.");
 
 static const u8 sTinyMushroomDesc[] = _(
-    "A plain mushroom\n"
-    "that would sell\n"
-    "at a cheap price.");
+    "Un comune fungo.\n"
+    "Costa poco.");
 
 static const u8 sBigMushroomDesc[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
+    "Un fungo raro.\n"
+    "Molto costoso.");
 
 static const u8 sBalmMushroomDesc[] = _( // Todo
-    "Very rare mushroom\n"
-    "that would sell at a\n"
-    "very high price.");
+    "Prezzo di\n"
+   	"vendita: 6.250¥.");
 
 static const u8 sPearlDesc[] = _(
-    "A pretty pearl\n"
-    "that would sell at a\n"
-    "cheap price.");
+    "Una bella perla.\n"
+    "Si può vendere\n"
+    "a basso prezzo.");
 
 static const u8 sBigPearlDesc[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
+    "Una bella e grande\n"
+    "perla che si vende\n"
+    "a caro prezzo.");
 
 static const u8 sPearlStringDesc[] = _( // Todo
-    "Old large pearl\n"
-    "that would sell at a\n"
-    "very high price.");
+    "Grossa perla.\n"
+    "Prezzo di\n"
+   	"vendita: 7.500¥.");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+    "Bella sabbia rossa\n"
+    "che si vende a\n"
+    "caro prezzo.");
 
 static const u8 sStarPieceDesc[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+    "Frammento di gemma\n"
+    "rossa. Si vende\n"
+    "a caro prezzo.");
 
 static const u8 sCometShardDesc[] = _( // Todo
-    "A blue gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+    "Scheggia di cometa.\n"
+    "Prezzo di\n"
+   	"vendita: 15.000¥.");
 
 static const u8 sShoalSaltDesc[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "Shoal Cave.");
+    "Sale che si trova\n"
+    "in fondo alla\n"
+    "Grotta Ondosa.");
 
 static const u8 sShoalShellDesc[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "Shoal Cave.");
+    "Guscio che si trova\n"
+    "in fondo alla\n"
+    "Grotta Ondosa.");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Coccio di un antico\n"
+    "strumento. Si vende\n"
+    "a basso prezzo.");
 
 static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "Coccio di un antico\n"
+    "strumento. Si vende\n"
+    "a basso prezzo.");
 
 static const u8 sYellowShardDesc[] = _(
     "A shard from an\n"
