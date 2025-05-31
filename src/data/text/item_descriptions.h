@@ -924,110 +924,110 @@ static const u8 sOrangeMailDesc[] = _(
     "di Zigzagoon.");
 
 static const u8 sHarborMailDesc[] = _(
-    "A WINGULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Wingull.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Pikachu.");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Magnemite.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Slakoth.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Wailmer.");
 
 static const u8 sBeadMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "Messaggio con l'immg\n"
+    "del Pokémon che\n"
+    "lo tiene.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Duskull.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "Messaggio tenuto:\n"
+    "presenta l'immagine\n"
+    "di Bellossom.");
 
 static const u8 sDreamMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "Messaggio con l'immg\n"
+    "del Pokémon che\n"
+    "lo tiene.");
 
 static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "MAIL to be held\n"
-    "by a POKéMON.");
+    "Messaggio tenuto\n"
+    "che presenta una\n"
+    "stupenda immagine.");
 
 static const u8 sRetroMailDesc[] = _(
-    "MAIL featuring the\n"
-    "drawings of three\n"
-    "POKéMON.");
+    "Messaggio con\n"
+    "l'immagine di\n"
+    "tre Pokémon.");
 
 // Evolution Items
 static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sIceStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sShinyStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sDuskStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sDawnStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sSweetAppleDesc[] = _( // Todo
     "?????");
@@ -1048,74 +1048,74 @@ static const u8 sGalaricaWreathDesc[] = _( // Todo
     "?????");
 
 static const u8 sDragonScaleDesc[] = _(
-    "Raises Kindra's\n"
-   	"Defense and Speed\n"
-   	"up to a 30%.");
+    "Aumenta la difesa\n"
+   	"e la velocità di\n"
+   	"Kindra fino al 30%.");
 
 static const u8 sUpgradeDesc[] = _(
-    "Raises Porygon2's\n"
-   	"Sp.Attack and Speed\n"
-   	"up to a 30%.");
+    "Aumenta l'At.Spc e la\n"
+   	"Velocità di Porygon2\n"
+   	"fino al 30%.");
 
 static const u8 sProtectorDesc[] = _(
-    "Raises Rhyperior's\n"
-   	"Defense and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta la Difesa e\n"
+   	"la D.Spc di Rhyperior\n"
+   	"fino al 30%.");
 
 static const u8 sElectirizerDesc[] = _(
-    "Raises Electivire's\n"
-   	"Attack and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta l'att e la\n"
+   	"difesa di Electivire\n"
+   	"fino al 30%.");
 
 static const u8 sMagmarizerDesc[] = _(
-    "Raises Magmortar's\n"
-   	"Sp.Attack and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta l'att.spc e\n"
+   	"la D.Spc di Magmortar\n"
+   	"fino al 30%.");
 
 static const u8 sDubiousDiscDesc[] = _(
-    "Raises PorygonZ's\n"
-   	"Sp.Atk and Defense\n"
-   	"up to a 30%.");
+    "Aumenta l'att.spc e\n"
+   	"la dif di Porygon-Z\n"
+   	"fino al 30%.");
 
 static const u8 sReaperClothDesc[] = _(
-    "Raises Dusknoir's\n"
-   	"Attack and Speed\n"
-   	"up to a 30%.");
+    "Aumenta l'att e la\n"
+   	"Vel. di Dusknoir\n"
+   	"fino al 30%.");
 
 static const u8 sPrismScaleDesc[] = _(
-    "Raises Milotic's\n"
-   	"Sp.Def and Speed\n"
-   	"up to a 30%.");
+    "Aumenta la Velocità\n"
+   	"e la D.Spc di\n"
+   	"Milotic fino al 30%.");
 
 static const u8 sWhippedDreamDesc[] = _(
-    "Raises Slurpuff's\n"
-   	"Sp.Atk and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta l'att.spc e\n"
+   	"la D.Spc di Slurpuff\n"
+   	"fino al 30%.");
 
 static const u8 sSachetDesc[] = _(
-    "Raises Aromatisse's\n"
-   	"Defense and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta la Dif e la\n"
+   	"D.Spc di Aromatisse\n"
+   	"fino al 30%.");
 
 static const u8 sOvalStoneDesc[] = _(
-    "Peculiar stone\n"
-    "that evolves a\n"
-    "certain Pokémon.");
+    "Fa evolvere\n"
+    "determinate specie\n"
+    "di Pokémon.");
 
 static const u8 sMinnegroDesc[] = _(
-    "Raises Kleavor's\n"
-   	"Sp.Def and Speed\n"
-   	"up to a 30%.");
+    "Aumenta la Velocità e\n"
+   	"la D.Spc di Kleavor\n"
+   	"fino al 30%.");
 
 static const u8 sEscrojaDesc[] = _(
-    "Raises Gyarados's\n"
-   	"Defense and Sp.Def\n"
-   	"up to a 30%.");
+    "Aumenta la Dif e la\n"
+   	"D.Spc di Gyarados\n"
+   	"fino al 30%.");
 
 static const u8 sCondgasDesc[] = _(
-    "Reacts to Weezing.\n"
-   	"+30% Sp.Atk, Sp.Def\n"
-   	"and Defense.-30% Atk");
+    "+30% Dif, D.Spc e\n"
+   	"A.Spc di Weezing.\n"
+   	"-30% Attaco.");
 
 static const u8 sStrawberrySweetDesc[] = _( // Todo
     "?????");
@@ -1139,30 +1139,30 @@ static const u8 sRibbonSweetDesc[] = _( // Todo
     "?????");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "Strumento tenuto:\n"
+    "pietra magica che\n"
+    "blocca l'evoluzione.");
 
 // Nectars
 static const u8 sRedNectarDesc[] = _(
-    "Flower nectar that\n"
-    "changes the form\n"
-    "of certain Pokémon.");
+    "Fa cambiare forma\n"
+    "a una determinata\n"
+    "specie di Pokémon.");
 
 static const u8 sYellowNectarDesc[] = _(
-    "Flower nectar that\n"
-    "changes the form\n"
-    "of certain Pokémon.");
+    "Fa cambiare forma\n"
+    "a una determinata\n"
+    "specie di Pokémon.");
 
 static const u8 sPinkNectarDesc[] = _(
-    "Flower nectar that\n"
-    "changes the form\n"
-    "of certain Pokémon.");
+    "Fa cambiare forma\n"
+    "a una determinata\n"
+    "specie di Pokémon.");
 
 static const u8 sPurpleNectarDesc[] = _(
-    "Flower nectar that\n"
-    "changes the form\n"
-    "of certain Pokémon.");
+    "Fa cambiare forma\n"
+    "a una determinata\n"
+    "specie di Pokémon.");
 
 // Plates
 static const u8 sFlamePlateDesc[] = _(
