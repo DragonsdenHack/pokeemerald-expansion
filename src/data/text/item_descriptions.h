@@ -1912,9 +1912,9 @@ static const u8 sUltranecroziumZDesc[] = _(
 
 // Species-specific Held Items
 static const u8 sLightBallDesc[] = _(
-    "A hold item that\n"
-    "raises the Atk and\n"
-    "Sp. Atk of Pikachu.");
+    "Strumento tenuto:\n"
+    "aumenta l'Att.Sp.\n"
+    "e l'Att di PIKACHU.");
 
 static const u8 sLeekDesc[] = _(
     "A hold item that\n"
