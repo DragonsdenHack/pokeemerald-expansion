@@ -1166,196 +1166,196 @@ static const u8 sPurpleNectarDesc[] = _(
 
 // Plates
 static const u8 sFlamePlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Fire-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Fuoco.");
 
 static const u8 sSplashPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Water-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Acqua.");
 
 static const u8 sZapPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Electric-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Elettro.");
 
 static const u8 sMeadowPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Grass-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Erba.");
 
 static const u8 sIciclePlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Ice-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Ghiaccio.");
 
 static const u8 sFistPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Fighting-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Lotta.");
 
 static const u8 sToxicPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Poison-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Veleno.");
 
 static const u8 sEarthPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Ground-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Terra.");
 
 static const u8 sSkyPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Flying-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Volante.");
 
 static const u8 sMindPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Psychic-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Psico.");
 
 static const u8 sInsectPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Bug-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Coleottero.");
 
 static const u8 sStonePlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Rock-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Roccia.");
 
 static const u8 sSpookyPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Ghost-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Spettro.");
 
 static const u8 sDracoPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Dragon-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Drago.");
 
 static const u8 sDreadPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Dark-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Buio.");
 
 static const u8 sIronPlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Steel-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Acciaio.");
 
 static const u8 sPixiePlateDesc[] = _(
-    "Old tablet that ups\n"
-    "a 30% the power of\n"
-    "Fairy-type moves.");
+    "Vecchia tavoletta.\n"
+    "+30% potenza delle\n"
+    "mosse di T.Folletto.");
 
 // Drives
 static const u8 sDouseDriveDesc[] = _(
-    "+30% DEF y DEF.ESP\n"
-    "en GENESECT.\n"
-    "TECNO SHOCK es AGUA.");
+    "+30% Dif e Dif.Spc\n"
+   	"di Genesect.\n"
+    "Tecnobotto e T.Acqua.");
 
 static const u8 sShockDriveDesc[] = _(
-    "+30% DEF y DEF.ESP\n"
-    "en GENESECT.\n"
-    "TECNO SHOCK es ELÉC.");
+    "+30% Dif e Dif.Spc\n"
+   	"di Genesect.\n"
+    "Tecnobotto e T.Elettro.");
 
 static const u8 sBurnDriveDesc[] = _(
-    "+30% DEF y DEF.ESP\n"
-    "en GENESECT.\n"
-    "TECNO SHOCK es FUEGO.");
+    "+30% Dif e Dif.Spc\n"
+   	"di Genesect.\n"
+    "Tecnobotto e T.Fuoco.");
 
 static const u8 sChillDriveDesc[] = _(
-    "+30% DEF y DEF.ESP\n"
-    "en GENESECT.\n"
-    "TECNO SHOCK es HIELO.");
+    "+30% Dif e Dif.Spc\n"
+   	"di Genesect.\n"
+    "Tecnobotto e T.Ghiac.");
 
 // Memories
 static const u8 sFireMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo FUEGO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Fuoco.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sWaterMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo AGUA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Acqua.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sElectricMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo ELÉCTRICO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Elettro.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sGrassMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo PLANTA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Erba.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sIceMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo HIELO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Ghiaccio.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sFightingMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo LUCHA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Lotta.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sPoisonMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo VENENO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Veleno.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sGroundMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo TIERRA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Terra.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sFlyingMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo VOLADOR.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Volante.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sPsychicMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo PSÍQUICO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Psico.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sBugMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo BICHO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Coleottr.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sRockMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo ROCA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Roccia.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sGhostMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo FANTASMA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Spettro.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sDragonMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo DRAGÓN.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Drago.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sDarkMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo SINIESTRO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Buio.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sSteelMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo ACERO.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Acciaio.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sFairyMemoryDesc[] = _(
-    "Cambia a SILVALLY\n"
-    "al tipo HADA.\n"
-    "+30% AT y DEF.ESP.");
+    "Se tnta da Silvally\n"
+    "cambia a T.Folletto.\n"
+    "+30% Dif e Dif.Spc.");
 
 static const u8 sRustedSwordDesc[] = _( // Todo
     "?????");
@@ -1365,48 +1365,48 @@ static const u8 sRustedShieldDesc[] = _( // Todo
 
 // Colored Orbs
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "Sfera rossa\n"
+    "luminosa con\n"
+    "un antico potere.");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "Sfera blu\n"
+    "luminosa con\n"
+    "un antico potere.");
 
 static const u8 sJadeOrbDesc[] = _( // Todo
     "?????");
 
 // Mega Stones
 static const u8 sVenusauriteDesc[] = _(
-    "This stone enables\n"
-    "Venusaur to Mega\n"
-    "Evolve in battle.");
+    "Data a Venusaur, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sCharizarditeDesc[] = _(
-    "This stone enables\n"
-    "Charizard to Mega\n"
-    "Evolve in battle.");
+    "Data a Charizard, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sBlastoisiniteDesc[] = _(
-    "This stone enables\n"
-    "Blastoise to Mega\n"
-    "Evolve in battle.");
+    "Data a Blastoise, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sBeedrilliteDesc[] = _(
-    "This stone enables\n"
-    "Beedrill to Mega\n"
-    "Evolve in battle.");
+    "Data a Beedrill, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sPidgeotiteDesc[] = _(
-    "This stone enables\n"
-    "Pidgeot to Mega\n"
-    "Evolve in battle.");
+    "Data a Pidgeot, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sAlakaziteDesc[] = _(
-    "This stone enables\n"
-    "Alakazam to Mega\n"
-    "Evolve in battle.");
+    "Data a Alakazam, gli\n"
+    "permette megaevolvrsi\n"
+    "durante una lotta.");
 
 static const u8 sSlowbroniteDesc[] = _(
     "This stone enables\n"
