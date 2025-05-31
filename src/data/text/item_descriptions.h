@@ -2161,268 +2161,265 @@ static const u8 sBlackGlassesDesc[] = _(
     "Buio.");
 
 static const u8 sMetalCoatDesc[] = _(
-    "Raises Scizor and\n"
-   	"Steelix's Attack\n"
-   	"and Defense (+30%).");
+    "Potenzia (+20%) le\n"
+    "mosse di tipo\n"
+    "Acciaio.");
 
 // Choice Items
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+    "Potenzia una mossa,\n"
+    "ma obbliga ad usare\n"
+    "soltanto quella.");
 
 static const u8 sChoiceSpecsDesc[] = _(
-    "Boosts Sp. Atk, but\n"
-    "allows the use of\n"
-    "only one move.");
+    "+50% Att. Sp, ma\n"
+    "permettono l'uso\n"
+    "di una sola mossa.");
 
 static const u8 sChoiceScarfDesc[] = _(
-    "Boosts Speed, but\n"
-    "allows the use of\n"
-    "only one move.");
+    "+50% Velocità, ma\n"
+    "permettono l'uso\n"
+    "di una sola mossa.");
 
 // Status Orbs
 static const u8 sFlameOrbDesc[] = _(
-    "A bizarre orb that\n"
-    "inflicts a burn on\n"
-    "holder in battle.");
+    "Sfera bizzarra che\n"
+    "procura una scotta-\n"
+    "tura a chi la tiene.");
 
 static const u8 sToxicOrbDesc[] = _(
-    "A bizarre orb that\n"
-    "badly poisons the\n"
-    "holder in battle.");
+    "Sfera bizzarra che\n"
+    "avvelena gravemente\n"
+    "a chi la tiene.");
 
 // Weather Rocks
 static const u8 sDampRockDesc[] = _(
-    "Extends the length\n"
-    "of Rain Dance if\n"
-    "used by the holder.");
+    "Allunga la durata\n"
+    "della mossa\n"
+    "Pioggiadanza.");
 
 static const u8 sHeatRockDesc[] = _(
-    "Extends the length\n"
-    "of Sunny Day if\n"
-    "used by the holder.");
+    "Allunga la durata\n"
+    "della mossa\n"
+    "Giornodisole.");
 
 static const u8 sSmoothRockDesc[] = _(
-    "Extends the length\n"
-    "of Sandstorm if\n"
-    "used by the holder.");
+    "Allunga la durata\n"
+    "della mossa\n"
+    "Terrempesta.");
 
 static const u8 sIcyRockDesc[] = _(
-    "Extends the length\n"
-    "of the move Hail\n"
-    "used by the holder.");
+    "Allunga la durata\n"
+    "della mossa\n"
+    "Grandine.");
 
 // Terrain Seeds
 static const u8 sElectricSeedDesc[] = _(
-    "Boosts Defense on\n"
-    "Electric Terrain,\n"
-    "but only one time.");
+    "Fa aumentare la Dif\n"
+    "quando il terreno\n"
+    "è Campo Elettrico.");
 
 static const u8 sPsychicSeedDesc[] = _(
-    "Boosts Sp. Def. on\n"
-    "Psychic Terrain,\n"
-    "but only one time.");
+    "Fa aumentare la D.Sp\n"
+    "quando il terreno\n"
+    "è Campo Psichico.");
 
 static const u8 sMistySeedDesc[] = _(
-    "Boosts Sp. Def. on\n"
-    "Misty Terrain,\n"
-    "but only one time.");
+    "Fa aumentare la D.Sp\n"
+    "quando il terreno\n"
+    "è Campo Nebbioso.");
 
 static const u8 sGrassySeedDesc[] = _(
-    "Boosts Defense on\n"
-    "Grassy Terrain,\n"
-    "but only one time.");
+    "Fa aumentare la Dif\n"
+    "quando il terreno\n"
+    "è Campo Erboso.");
 
 // Type-activated Stat Modifiers
 static const u8 sAbsorbBulbDesc[] = _(
-    "Raises Sp. Atk if\n"
-    "the holder is hit by\n"
-    "a Water-type move.");
+    "Se subisce una mossa\n"
+    "di tipo Acqua, il\n"
+    "Att.Sp aumenta.");
 
 static const u8 sCellBatteryDesc[] = _(
-    "Raises Atk if the\n"
-    "holder is hit by an\n"
-    "Electric-type move.");
+    "Se subisce una mossa\n"
+    "di tipo Elettro, il\n"
+    "Attacco aumenta.");
 
 static const u8 sLuminousMossDesc[] = _(
-    "Raises Sp. Def if\n"
-    "the holder is hit by\n"
-    "a Water-type move.");
+    "Se subisce una mossa\n"
+    "di tipo Acqua, il\n"
+    "Dif.Sp aumenta.");
 
 static const u8 sSnowballDesc[] = _(
-    "Raises Atk if its\n"
-    "holder is hit by an\n"
-    "Ice-type move.");
+    "Se subisce una mossa\n"
+    "di tipo Ghiaccio, il\n"
+    "Attacco aumenta.");
 
 // Misc. Held Items
 static const u8 sBrightPowderDesc[] = _(
-    "A hold item that\n"
-    "casts a glare to\n"
-    "reduce accuracy.");
+    "Strumento tenuto:\n"
+    "abbaglia per rid\n"
+    "la precisione.");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "A hold item that\n"
-    "restores any\n"
-    "lowered stat.");
+    "Strumento tenuto:\n"
+    "annulla diminuzione\n"
+    "delle statistiche.");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets Exp. points\n"
-    "from battles.");
+    "Strumento tenuto:\n"
+    "ottiene punti ESP.\n"
+    "dalla lotta.");
 
 static const u8 sQuickClawDesc[] = _(
-    "A hold item that\n"
-    "occasionally allows\n"
-    "the first strike.");
+    "Strumento tenuto:\n"
+    "a volte permette di\n"
+    "colpire per primi.");
 
 static const u8 sSootheBellDesc[] = _(
-    "A hold item that\n"
-    "calms spirits and\n"
-    "fosters friendship.");
+    "Strumento tenuto:\n"
+    "placa gli animi e\n"
+    "cementa l'amicizia.");
 
 #if defined(BATTLE_ENGINE) && B_MENTAL_HERB >= GEN_5
 static const u8 sMentalHerbDesc[] = _(
-    "Snaps Pokémon out\n"
-    "of move-binding\n"
-    "effects.");
+    "Strumento tenuto:\n"
+    "libera un Pokémon\n"
+    "dall'infatuazione..");
 #else
 static const u8 sMentalHerbDesc[] = _(
-    "A hold item that\n"
-    "snaps Pokémon out\n"
-    "of infatuation.");
+    "Strumento tenuto:\n"
+    "libera un Pokémon\n"
+    "dall'infatuazione..");
 #endif
 
 static const u8 sKingsRockDesc[] = _(
-    "Raises Politoed and\n"
-   	"Slowking's Sp.Atk\n"
-   	"and Defense (+30%).");
+    "Aumenta l'att.spc e\n"
+   	"la Dif di Magmortar\n"
+   	"e Politoed: + 30%.");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "Doppi guadagni in\n"
+    "lotta se chi lo\n"
+    "tiene vi partecipa.");
 
 static const u8 sCleanseTagDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "Pokémon.");
+    "Aiuta a respingere\n"
+    "i Pokémon selvatici.");
 
 static const u8 sSmokeBallDesc[] = _(
-    "A hold item that\n"
-    "assures fleeing\n"
-    "from wild Pokémon.");
+    "Strumento tenuto che\n"
+    "assicura la fuga da\n"
+    "un Pokémon selvatico.");
 
 static const u8 sFocusBandDesc[] = _(
-    "A hold item that\n"
-    "occasionally\n"
-    "prevents fainting.");
+    "Strumento tenuto:\n"
+    "a volte impedisce\n"
+    "di andare KO.");
 
 static const u8 sLuckyEggDesc[] = _(
-    "A hold item that\n"
-    "boosts Exp. points\n"
-    "earned in battle.");
+    "Strumento tenuto:\n"
+    "aumenta punti Esp.\n"
+    "ottenuti lottando.");
 
 static const u8 sScopeLensDesc[] = _(
-    "A hold item that\n"
-    "improves the\n"
-    "critical-hit rate.");
+    "Strumento tenuto:\n"
+    "brutti colpi più\n"
+    "probabili.");
 
 static const u8 sLeftoversDesc[] = _(
-    "A hold item that\n"
-    "gradually restores\n"
-    "HP in battle.");
+    "Strumento tenuto:\n"
+    "aumenta per gradi\n"
+    "i PS nella lotta.");
 
 static const u8 sShellBellDesc[] = _(
-    "A hold item that\n"
-    "restores HP upon\n"
-    "striking the foe.");
+    "Strumento tenuto.\n"
+    "Fa recuperare PS\n"
+    "colpendo il nemico.");
 
 static const u8 sWideLensDesc[] = _(
-    "A magnifying lens,\n"
-    "boosts (10%) the\n"
-    "accuracy of moves.");
-
+    "Aumenta (10%) la\n"
+    "precisione delle\n"
+    "mosse.");
 
 static const u8 sMuscleBandDesc[] = _(
-    "A headband that\n"
-    "boosts (10%) physical\n"
-    "moves power.");
+    "Fascia che potenzia\n"
+    "(10%) gli attachi\n"
+    "fisici.");
 
 static const u8 sWiseGlassesDesc[] = _(
-    "A headband that\n"
-    "boosts (10%) special\n"
-    "moves power.");
+    "Lenti che potenzia\n"
+    "(10%) le mosse\n"
+    "speciali.");
 
 static const u8 sExpertBeltDesc[] = _(
-    "A belt that boosts\n"
-    "(20%) power of super\n"
-    "effective moves.");
+    "Cintura consumata\n"
+    "che potenzia (20%)\n"
+    "le mosse supereffcci.");
 
 static const u8 sLightClayDesc[] = _(
-    "Extends the length\n"
-    "of barrier moves\n"
-    "used by the holder.");
+    "Allunga la durata\n"
+    "delle Schermoluce\n"
+    "e Riflesso.");
 
 static const u8 sLifeOrbDesc[] = _(
-    "Boosts (30%) power of\n"
-    "moves at the cost\n"
-    "of some HP per turn.");
+    "Potenzia (30%) mosse,\n"
+    "a scapito di alcuni\n"
+    "(10%) PS per colpo.");
 
 static const u8 sPowerHerbDesc[] = _(
-    "Allows immediate\n"
-    "use of a move that\n"
-    "charges first.");
+    "Permette l'uso\n"
+    "immediato di una\n"
+    "mossa.");
 
 static const u8 sFocusSashDesc[] = _(
-    "If the holder has\n"
-    "full HP, it endures\n"
-    "KO hits with 1 HP.");
+    "Se ha tutti i PS,\n"
+    "può evitare un KO\n"
+    "restando con 1 PS.");
 
 static const u8 sZoomLensDesc[] = _(
-    "If the holder moves\n"
-    "after the foe, it'll\n"
-    "boost accuracy (20%).");
+    "Se attacca dopo,\n"
+    "aumenta 20% la\n"
+    "Precisione.");
 
 static const u8 sMetronomeDesc[] = _(
-    "A held item, boosts\n"
-    "(20% per turn) a move\n"
-    "used consecutively.");
+    "Un dito oscilla per\n"
+    "usare una mossa\n"
+    "Pokémon a caso.");
 
 static const u8 sIronBallDesc[] = _(
-    "-50% SPEED.\n"
-    "Raises DEFENSE\n"
-    "up to 35%");
+    "-50% Velocità.\n"
+    "+35% Difessa.");
 
 static const u8 sLaggingTailDesc[] = _(
-    "At the same priority,\n"
-    "moves the last one.\n"
-    "+35% ATTACK.");
+    "Rende più lenti\n"
+    "del normale.\n"
+    "+35% Attacco.");
 
 static const u8 sDestinyKnotDesc[] = _(
-    "If the holder falls\n"
-    "in love, the foe\n"
-    "does too.");
+    "Se il Pkmn rimane\n"
+    "infatuato, contagia\n"
+    "anche il nemico.");
 
 static const u8 sBlackSludgeDesc[] = _(
-    "Gradually restores\n"
-    "HP of Poison-types.\n"
-    "Damages others.");
+    "+PS ai tipo Veleno.\n"
+    "Danneggia tutti\n"
+    "gli altri.");
 
 static const u8 sGripClawDesc[] = _(
-    "Makes binding moves\n"
-    "used by the holder\n"
-    "go on for 7 turns.");
+    "Prolunga gli attcchi\n"
+    "multiturno come\n"
+    "Avvolgibotta.");
 
 static const u8 sStickyBarbDesc[] = _(
-    "Damages the holder\n"
-    "each turn. May latch\n"
-    "on to foes.");
+    "Danneggia chi lo\n"
+    "tiene ad ogni\n"
+    "turno.");
 
 static const u8 sShedShellDesc[] = _(
-    "Enables the holder\n"
-    "to switch out of\n"
-    "battle without fail.");
+    "Può sfuggire nemico\n"
+    "anche se questi ha\n"
+    "usato mosse o abilità.");
 
 static const u8 sBigRootDesc[] = _(
     "A held item that\n"
