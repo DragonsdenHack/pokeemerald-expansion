@@ -2667,255 +2667,255 @@ static const u8 sCornnBerryDesc[] = _(
     "terreno fertile.");
 
 static const u8 sMagostBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Magost.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Rabuta.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sNomelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Nomel.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Spelon.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Pamtre.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Watmel.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sDurinBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Durin.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sBelueBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Belue.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sChilanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Normal\n"
-    "move.");
+    "Indebolisce l'att\n"
+    "di tipo Normale\n"
+    "del nemico.");
 
 static const u8 sOccaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fire\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Fuoco\n"
+    "del nemico.");
 
 static const u8 sPasshoBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Water\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Acqua\n"
+    "del nemico.");
 
 static const u8 sWacanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Electric\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Elettro\n"
+    "del nemico.");
 
 static const u8 sRindoBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Grass\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Erba\n"
+    "del nemico.");
 
 static const u8 sYacheBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ice\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Ghiaccio\n"
+    "del nemico.");
 
 static const u8 sChopleBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fighting\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Lotta\n"
+    "del nemico.");
 
 static const u8 sKebiaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Poison\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Veleno\n"
+    "del nemico.");
 
 static const u8 sShucaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ground\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Terra\n"
+    "del nemico.");
 
 static const u8 sCobaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Flying\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Volante\n"
+    "del nemico.");
 
 static const u8 sPayapaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Psychic\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Psico\n"
+    "del nemico.");
 
 static const u8 sTangaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Bug\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Coleottero\n"
+    "del nemico.");
 
 static const u8 sChartiBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Rock\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Roccia\n"
+    "del nemico.");
 
 static const u8 sKasibBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ghost\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Spettro\n"
+    "del nemico.");
 
 static const u8 sHabanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Dragon\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Drago\n"
+    "del nemico.");
 
 static const u8 sColburBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Dark\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Buio\n"
+    "del nemico.");
 
 static const u8 sBabiriBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Steel\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Acciaio\n"
+    "del nemico.");
 
 static const u8 sRoseliBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fairy\n"
-    "move if weak to it.");
+    "Indebolisce l'att\n"
+    "di tipo Folletto\n"
+    "del nemico.");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "A hold item that\n"
-    "raises Attack in\n"
-    "a pinch.");
+    "Strumento tenuto:\n"
+    "in difficoltà\n"
+    "aumenta l'ATTACCO.");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "A hold item that\n"
-    "raises Defense in\n"
-    "a pinch.");
+    "Strumento tenuto:\n"
+    "in difficoltà\n"
+    "aumenta la DIFESA.");
 
 static const u8 sSalacBerryDesc[] = _(
-    "A hold item that\n"
-    "raises Speed in\n"
-    "a pinch.");
+    "Strumento tenuto:\n"
+    "in difficoltà\n"
+    "aumenta la VELOCITÀ.");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "A hold item that\n"
-    "raises Sp. Atk in\n"
-    "a pinch.");
+    "Strumento tenuto:\n"
+    "in difficoltà\n"
+    "aumenta l'AT.SP.");
 
 static const u8 sApicotBerryDesc[] = _(
-    "A hold item that\n"
-    "raises Sp. Def in\n"
-    "a pinch.");
+    "Strumento tenuto:\n"
+    "in difficoltà\n"
+    "aumenta la DIF.SP.");
 
 static const u8 sLansatBerryDesc[] = _(
-    "A hold item that\n"
-    "ups the critical-\n"
-    "hit rate in a pinch.");
+    "Strumento tenuto:\n"
+    "aumenta i brutti\n"
+    "colpi in difficoltà.");
 
 static const u8 sStarfBerryDesc[] = _(
-    "A hold item that\n"
-    "sharply boosts a\n"
-    "stat in a pinch.");
+    "Strumento tenuto:\n"
+    "aumenta di molto\n"
+    "1 stat. in diffclt.");
 
 static const u8 sEnigmaBerryDesc[] = _( // Todo
-    "En suelo fértil da\n"
-   	"algo raro. De ella\n"
-   	"se hacen {POKEBLOCK}S.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 static const u8 sMicleBerryDesc[] = _(
-    "When held, it ups\n"
-    "the Accuracy of a\n"
-    "move in a pinch.");
+    "Aumenta la precsn\n"
+    "quando i PS scndno\n"
+    "sotto il 33%.");
 
 static const u8 sCustapBerryDesc[] = _(
-    "It allows a Pokémon\n"
-    "in a pinch to move\n"
-    "first just once.");
+    "In difficoltà, il\n"
+    "Pokémon può fare\n"
+    "sua mossa primo.");
 
 static const u8 sJabocaBerryDesc[] = _(
-    "If hit by a physical\n"
-    "move, it will hurt\n"
-    "the attacker a bit.");
+    "Infligge danni se\n"
+    "chi la tiene\n"
+    "subisce un At.Fsico.");
 
 static const u8 sRowapBerryDesc[] = _(
-    "If hit by a special\n"
-    "move, it will hurt\n"
-    "the attacker a bit.");
+    "Infligge danni se\n"
+    "chi la tiene\n"
+    "subisce un At.Sp.");
 
 static const u8 sKeeBerryDesc[] = _(
-    "If hit by a physical\n"
-    "move, it raises the\n"
-    "Defense a bit.");
+    "Aumenta la Difesa\n"
+    "se subisce un\n"
+    "Attacco fisico.");
 
 static const u8 sMarangaBerryDesc[] = _(
-    "If hit by a special\n"
-    "move, it raises the\n"
-    "Sp. Def. a bit.");
+    "Aumenta la Difesa\n"
+    "se subisce un\n"
+    "Attacco speciale.");
 
 static const u8 sEnigmaBerryEReaderDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow a mystery.");
+    "{POKEBLOCK} ingrediente.\n"
+    "Piantala in un\n"
+    "terreno fertile.");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "Colpisce per ultima.\n"
+    "Chi la usa tentenna\n"
+    "se colpito.");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+    "Attacca con artigli\n"
+    "affilati che\n"
+    "graffiano.");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "Getto d'acqua.\n"
+    "20% di\n"
+    "confondere.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises Sp. Atk and\n"
-    "Sp. Def by focusing\n"
-    "the mind.");
+    "Concentrazione:\n"
+    "+1 Att. Sp. e\n"
+    "Dif. Sp.");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "Il Pokémon nemico\n"
+    "è costretto a\n"
+    "lasciare la lotta.");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+    "Avvelena il nemico\n"
+    "con intensità\n"
+    "crescente.");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except Ice.");
+    "Causa una grandinata\n"
+    "che dura\n"
+    "cinque turni.");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "Attack & Defense.");
+    "Incrementa l'Attacco\n"
+    "e la Difesa di\n"
+    "chi la usa.");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+    "Spara da due a\n"
+    "cinque raffiche\n"
+    "di semi.");
 
 static const u8 sTM10Desc[] = _(
     "The attack power\n"
