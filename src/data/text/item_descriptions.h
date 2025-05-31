@@ -2918,34 +2918,34 @@ static const u8 sTM09Desc[] = _(
     "di semi.");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different Pokémon.");
+    "L'efficacia e il\n"
+    "tipo dipendono da\n"
+    "chi la usa.");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "Fire-type moves\n"
-    "for 5 turns.");
+    "Aumenta la potenza\n"
+    "delle mosse di\n"
+    "T.Fuoco per 5 turni.");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+    "Induce il nemico\n"
+    "ad usare solo\n"
+    "mosse d'attacco.");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+    "Raggio di energia\n"
+    "gelida, 10% di\n"
+    "congelare.");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+    "Una tempesta di\n"
+    "ghiaccio che può\n"
+    "congelare il nemico.");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "È potente, ma chi\n"
+    "la usa perde il\n"
+    "turno successivo.");
 
 static const u8 sTM16Desc[] = _(
     "Creates a wall of\n"

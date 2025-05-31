@@ -260,7 +260,7 @@ static const u8 sSurfDescription[] = _(
     "il campo di lotta.");
 
 static const u8 sIceBeamDescription[] = _(
-    "raggio di energia gelida,\n"
+    "Raggio di energia gelida,\n"
     "10% di congelare.");
 
 static const u8 sBlizzardDescription[] = _(
