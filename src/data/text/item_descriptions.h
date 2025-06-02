@@ -3413,251 +3413,251 @@ static const u8 sTM109Desc[] = _( // Todo
     "10% di scottare.");
 
 static const u8 sTM110Desc[] = _( // Todo
-    "Searches out weak\n"
-   	"spots, then strikes\n"
-   	"the next turn.");
+    "Attacco in due\n"
+   	"turni e probabile\n"
+   	"brutto colpo.");
 
 static const u8 sTM111Desc[] = _( // Todo
-    "Attacks with a\n"
-   	"psychic wave of\n"
-   	"varying intensity.");
+    "L'intensità\n"
+   	"dell'attacco\n"
+   	"è variabile.");
 
 static const u8 sTM112Desc[] = _( // Todo
-    "Attacks with an\n"
-   	"aura blast that\n"
-   	"cannot be evaded.");
+    "Rilascia una forza\n"
+   	"eterea. La mossa\n"
+   	"è infallibile.");
 
 static const u8 sTM113Desc[] = _( // Todo
-    "Whips up a\n"
-   	"turbulent breeze\n"
-   	"that raises Speed.");
+    "Raddoppia la Vel\n"
+   	"di chi la usa e\n"
+   	"dei suoi alleati.");
 
 static const u8 sTM114Desc[] = _( // Todo
-    "Shoots filthy\n"
-   	"garbage at the\n"
-   	"foe. May poison.");
+    "Rifiuti sudici.\n"
+   	"30% di avvelenare\n"
+   	"il bersaglio.");
 
 static const u8 sTM115Desc[] = _( // Todo
-    "Slams the foe\n"
-   	"with a hard head.\n"
-   	"May cause flinch.");
+    "Testa dura come\n"
+   	"l'acciaio. 30% di\n"
+   	"di far tentennare.");
 
 static const u8 sTM116Desc[] = _( // Todo
-    "Electrifies the\n"
-   	"ground for 5 turns.\n"
-   	"Prevents sleep.");
+    "Trasforma il\n"
+   	"terreno di lotta\n"
+   	"in un c.elettrico.");
 
 static const u8 sTM117Desc[] = _( // Todo
-    "The ground turns\n"
-   	"to grass for 5\n"
-   	"turns. Restores HP.");
+    "Trasforma il\n"
+   	"terreno di lotta\n"
+   	"in un c.nebbioso.");
 
 static const u8 sTM118Desc[] = _( // Todo
-    "The ground turns\n"
-   	"weird for 5 turns.\n"
-   	"Blocks priority.");
+    "Trasforma il\n"
+   	"terreno di lotta\n"
+   	"in un c.psichico.");
 
 static const u8 sTM119Desc[] = _( // Todo
-    "Covers the ground\n"
-   	"with mist for 5 turns.\n"
-   	"Blocks status.");
+    "Trasforma il\n"
+   	"terreno di lotta\n"
+   	"in un c.nebbioso.");
 	
 static const u8 sTM120Desc[] = _( // Todo
-    "Does more damage if\n"
-	"the user outweighs\n"
-    "the foe.");	
+    "Un calcio che\n"
+	"danneggia i nemici\n"
+    "più pesanti.");	
 
 static const u8 sTM121Desc[] = _( // Todo
-    "A loud attack that\n"
-   	"uses sound waves to\n"
-   	"injure.");
+    "Attacco rumoroso\n"
+   	"che colpisce con\n"
+   	"onde sonore.");
 
 static const u8 sTM122Desc[] = _( // Todo
-    "Exposes the foe to a\n"
-   	"pulse that sharply\n"
-   	"cuts Sp. Atk.");
+    "Riduce l'At.Sp del\n"
+   	"bersaglio di\n"
+   	"due livelli.");
 
 static const u8 sTM123Desc[] = _( // Todo
-	"Charges first turn,\n"
-	"then chops with a\n"
-	"blade of light.");
+	"Si carica nel\n"
+   	"p.turno, attaccando\n"
+   	"nel trn successivo.");
 
 static const u8 sTM124Desc[] = _( // Todo
-    "Thunderous bite.\n"
-    "10% flinch.\n"
-    "10% paralyze.");
+    "10% paralizzare.\n"
+    "10% tentennare");
 
 static const u8 sTM125Desc[] = _( // Todo
-    "Icy bite.\n"
-    "10% flinch.\n"
-    "10% froze.");
+    "10% congelare.\n"
+    "10% tentennare");
 
 static const u8 sTM126Desc[] = _( // Todo
-    "Burning bite.\n"
-    "10% flinch.\n"
-    "10% burn.");
+    "10% scottare.\n"
+    "10% tentennare");
 
 static const u8 sTM127Desc[] = _( // Todo
-    "Snares the foe with\n"
-   	"an electric net.\n"
-   	"Lowers Speed.");
+    "Infligge danno e\n"
+   	"diminuisce la Vel\n"
+   	"del bersaglio.");
 
 static const u8 sTM128Desc[] = _( // Todo
-    "Top power earth move.\n"
-   	"Drops user's Atk\n"
-   	"and Def.");
+    "Mossa di terra di\n"
+   	"massima potenza.\n"
+   	"Riduce At e Dif.");
 
 static const u8 sTM129Desc[] = _( // Todo
-    "Has a high critical\n"
-   	"hit ratio. May also\n"
-   	"poison.");
+    "Colpisce con la\n"
+   	"coda e può (10%)\n"
+   	"avvelenare.");
 
 static const u8 sTM130Desc[] = _( // Todo
-    "Fires three types of\n"
-    "beams at the same\n"
-   	"time.");
+    "Spara tre tipi\n"
+    "di raggi\n"
+   	"contemporaneamente.");
 
 static const u8 sTM131Desc[] = _( // Todo
-    "Makes the ground\n"
-   	"erupt with power.\n"
-   	"May lower Sp. Def.");
+    "10% di diminuire la\n"
+   	"Dif.Sp del\n"
+   	"bersaglio.");
 
 static const u8 sTM132Desc[] = _( // Todo
-    "Thinks bad thoughts\n"
-    "to sharply boost\n"
-   	"Sp. Atk.");
+    "+2 At.Sp\n"
+    "dell'utilzztre\n"
+   	"di due livelli.");
 
 static const u8 sTM133Desc[] = _( // Todo
-    "Does more damage if\n"
-	"the user outweighs\n"
-    "the foe.");	
+    "Un calcio che\n"
+	"danneggia i nemici\n"
+    "più pesanti.");
 
 static const u8 sTM134Desc[] = _( // Todo
-    "A move that functions\n"
-   	"differently for\n"
-   	"GHOSTS.");
+    "Funziona in modo\n"
+   	"diverso per\n"
+   	"i GHOSTS.");
 
 static const u8 sTM135Desc[] = _( // Todo
-    "Whirls its fists to\n"
-   	"send a wave that\n"
-   	"strikes first.");
+    "Onda di vuoto\n"
+   	"assoluto. Attacca\n"
+   	"per primo.");
 
 static const u8 sTM136Desc[] = _( // Todo
-    "The move's type and\n"
-   	"power change with\n"
-   	"the weather.");
+    "Cui tipo e la cui\n"
+   	"potenza variano in\n"
+   	"base alle c.atm.");
 
 static const u8 sTM137Desc[] = _( // Todo
-    "Attacks with sharp\n"
-   	"fangs and cuts half\n"
-   	"the foe's HP.");
+    "Salta sul bersaglio\n"
+   	"facendogli perdere\n"
+   	"metà dei PS.");
 
 static const u8 sTM138Desc[] = _( // Todo
-    "Slams hard into the\n"
-   	"foe with its entire\n"
-   	"body.");
+    "Travolge il\n"
+   	"bersaglio con un\n"
+   	"attacco possente.");
 
 static const u8 sTM139Desc[] = _( // Todo
-    "Throws scorching\n"
-   	"sand at the target.\n"
-   	"30% burn.");
+    "30% di probabilità\n"
+   	"di scottare\n"
+   	"il bersaglio.");
 
 static const u8 sTM140Desc[] = _( // Todo
-    "Control foe's item to\n"
-   	"attack. Fails if foe\n"
-   	"has no item.");
+    "Infligge danno solo\n"
+   	"se il bersaglio\n"
+   	"ha uno strumento.");
 
 static const u8 sTM141Desc[] = _( // Todo
-    "Fires a beam of steel\n"
-   	"from its body.\n"
-   	"50% recoil.");
+    "Violento raggio.\n"
+   	"50% danno da\n"
+   	"contraccolpo.");
 
 static const u8 sTM142Desc[] = _( // Todo
-    "Tricks the foe into\n"
-   	"trading held items.");
+    "Induce il nemico a\n"
+    "scambiare gli\n"
+   	"oggetti posseduti.");
 
 static const u8 sTM143Desc[] = _( // Todo
-    "Steals half the\n"
-   	"damage inflicted.");
+    "Assorbe metà dei\n"
+    "PS sottratti\n"
+   	"al nemico.");
 
 static const u8 sTM144Desc[] = _( // Todo
-    "Hurls boulders at\n"
-   	"the foe 2 to 5 times\n"
-   	"in a row.");
+    "Colpisce tra 2-5\n"
+   	"volte per ogni\n"
+   	"utilizzo.");
 
 static const u8 sTM145Desc[] = _( // Todo
-    "The higher the\n"
-   	"user's stats the\n"
-   	"more damage caused");
+    "La potenza aumenta\n"
+   	"di 20 per ciascuna\n"
+   	"modifica stat +");
 
 static const u8 sTM146Desc[] = _( // Todo
-    "An attack that\n"
-   	"absorbs 75% the\n"
-   	"damage inflicted.");
+    "Fa recuperare\n"
+   	"PS pari al\n"
+   	"75% del danno.");
 
 static const u8 sTM147Desc[] = _( // Todo
-    "Recovers up to half\n"
-   	"the user's maximum\n"
-   	"HP.");
+    "Ripresa ripristina\n"
+   	"il 50% dei\n"
+   	"PS massimi.");
 
 static const u8 sTM148Desc[] = _( // Todo
-    "Takes one half the\n"
-   	"damage inflicted on\n"
-   	"a sleeping foe.");
+    "Riceve metà dei PS\n"
+   	"solo su un nemico\n"
+   	"che dorme.");
 
 static const u8 sTM149Desc[] = _( // Todo
-    "Powerful and sure to\n"
-   	"cause paralysis, but\n"
-   	"inaccurate.");
+    "Esplosione elettrica\n"
+   	"che infligge danni\n"
+   	"e paralizza.");
 
 static const u8 sTM150Desc[] = _( // Todo
-    "A full-body slam\n"
-   	"30% cause paralysis.");
+    "Carica con tutto il\n"
+    "corpo che può\n"
+   	"paralzzre il nemico.");
 
 static const u8 sTM151Desc[] = _( // Todo
-    "Attacks the foe by\n"
-   	"firing 2 to 5 icicles\n"
-   	"in a row.");
+    "Spara ghiaccioli\n"
+   	"affilati da due\n"
+   	"a cinque volte.");
 
 static const u8 sTM152Desc[] = _( // Todo
-    "A mysterious power\n"
-   	"strikes, raising the\n"
-   	"user's Sp. Atk.");
+    "Diminuisce l'At.Sp\n"
+   	"del bersaglio\n"
+   	"di un livello.");
 
 static const u8 sTM153Desc[] = _( // Todo
-    "Tears with psychic\n"
-   	"blades. High critical\n"
-   	"hit ratio.");
+    "Ha un'elevata %\n"
+   	"di infliggere\n"
+   	"un brutto colpo.");
 
 static const u8 sTM154Desc[] = _( // Todo
-    "A chilling attack\n"
-   	"that Harshly lowers\n"
-   	"the Sp. Atk.");
+    "Attacca abbassando\n"
+   	"la guardia.\n"
+   	"-1 Dif e Dif.Spcl.");
 
 static const u8 sTM155Desc[] = _( // Todo
-    "Does double damage\n"
-   	"if the foe is\n"
-   	"poisoned.");
+    "Se questi è avvlnto,\n"
+   	"il danno provocato\n"
+   	"raddoppia.");
 
 static const u8 sTM156Desc[] = _( // Todo
-    "Powerful, but leaves\n"
-   	"the user immobile the\n"
-   	"next turn.");
+    "È potente, ma chi\n"
+    "la usa perde il\n"
+    "turno successivo.");
 
 static const u8 sTM157Desc[] = _( // Todo
-    "Sharp pins are fired\n"
-   	"to strike 2 to 5\n"
-   	"times.");
+    "Il nemico viene\n"
+   	"colpito da due a\n"
+   	"cinque volte.");
 
 static const u8 sTM158Desc[] = _( // Todo
-    "Sprays a hide-melting\n"
-   	"acid. Sharply reduces\n"
-   	"Sp. Def.");
+    "Diminuisce la D.Sp\n"
+   	"del bersaglio di\n"
+   	"due livelli.");
 
 static const u8 sTM159Desc[] = _( // Todo
-    "The higher the foe's\n"
-   	"Attack the more\n"
-   	"damage caused.");
+    "Infligge danno\n"
+   	"utilizzando l'At\n"
+   	"del bersaglio.");
 
 static const u8 sTM160Desc[] = _( // Todo
     "Devastating drill\n"

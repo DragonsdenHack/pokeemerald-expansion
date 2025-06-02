@@ -389,7 +389,7 @@ static const u8 sEarthquakeDescription[] = _(
 
 static const u8 sFissureDescription[] = _(
     "Mossa di terra di massima\n"
-    "potenza. Riduce l'Atk e la Def.");
+    "potenza. Riduce l'Atk e la Dif.");
 
 static const u8 sDigDescription[] = _(
     "Scava al primo turno e\n"
@@ -795,7 +795,7 @@ static const u8 sSpikesDescription[] = _(
     "un nemico che si commuta.");
 
 static const u8 sZapCannonDescription[] = _(
-    "esplosione elettrica che\n"
+    "Esplosione elettrica che\n"
     "infligge danni e paralizza.");
 
 static const u8 sForesightDescription[] = _(
@@ -1396,7 +1396,7 @@ static const u8 sMudShotDescription[] = _(
 
 static const u8 sPoisonTailDescription[] = _(
     "Colpisce con la coda\n"
-    "e può (10%) avvelenare");
+    "e può (10%) avvelenare.");
 
 static const u8 sCovetDescription[] = _(
     "Infligge danno e ruba lo\n"
@@ -1611,7 +1611,7 @@ static const u8 sForcePalmDescription[] = _(
     "paralizzare il bersaglio.");
 
 static const u8 sAuraSphereDescription[] = _(
-    "Rilascia una forza eterea\n"
+    "Rilascia una forza eterea.\n"
     "La mossa è infallibile.");
 
 static const u8 sRockPolishDescription[] = _(
@@ -1960,7 +1960,7 @@ static const u8 sLowSweepDescription[] = _(
 
 static const u8 sAcidSprayDescription[] = _(
     "Diminuisce la Dif.Speciale del\n"
-    "bersaglio di due livelli");
+    "bersaglio di due livelli.");
 
 static const u8 sFoulPlayDescription[] = _(
     "Infligge danno utilizzando\n"
