@@ -811,7 +811,7 @@ static const u8 sPerishSongDescription[] = _(
     "canzone sviene in 3 turni.");
 
 static const u8 sIcyWindDescription[] = _(
-    "folata di aria gelida,\n"
+    "Folata di aria gelida,\n"
     "riduce anche la Velocità.");
 
 static const u8 sDetectDescription[] = _(
@@ -1408,7 +1408,7 @@ static const u8 sVoltTackleDescription[] = _(
 
 static const u8 sMagicalLeafDescription[] = _(
     "Sparpaglia strane foglie che\n"
-    "Questa mossa è infallibile.");
+    "questa mossa è infallibile.");
 
 static const u8 sWaterSportDescription[] = _(
     "Dimezza la potenza delle\n"
