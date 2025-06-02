@@ -944,7 +944,7 @@ static const u8 sPursuitDescription[] = _(
 
 static const u8 sRapidSpinDescription[] = _(
     "Elimina gli effetti delle\n"
-    "mosse. Aumenta la Velocità");
+    "mosse. Aumenta la Velocità.");
 
 static const u8 sSweetScentDescription[] = _(
     "Alletta il nemico per\n"
@@ -2123,7 +2123,7 @@ static const u8 sSteamrollerDescription[] = _(
     "far tentennare.");
 
 static const u8 sCottonGuardDescription[] = _(
-    "aumenta la Difesa dell'util-\n"
+    "Aumenta la Dif dell'util-\n"
     "izzatore di tre livelli.");
 
 static const u8 sNightDazeDescription[] = _(

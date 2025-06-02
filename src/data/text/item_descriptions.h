@@ -3904,118 +3904,119 @@ static const u8 sTM209Desc[] = _( // Todo
     "riduce l'evasione.");
 
 static const u8 sTM210Desc[] = _( // Todo
-    "Bounces up, then\n"
-    "down the next turn.\n"
-    "May (30%) paralyze.");
+    "Balza in alto e\n"
+    "ricade sul nemico\n"
+    "dopo un turno.");
 
 static const u8 sTM211Desc[] = _( // Todo
-    "A sharp-fanged\n"
-    "attack. Can (50%)\n"
-    "badly poison foes.");
+    "Morde il nemico\n"
+    "con denti avvlnti.\n"
+    "30% di iprvvenre.");
 
 static const u8 sTM212Desc[] = _( // Todo
-    "Lays roots that\n"
-    "restore HP. The user\n"
-    "can't switch out.");
+    "Radici che riprstnno\n"
+    "gli PS. L'utilizztre\n"
+    "non può uscire.");
 
 static const u8 sTM213Desc[] = _( // Todo
-    "Liquifies the\n"
-    "user's body to\n"
-    "sharply raise Def.");
+    "Modifica la struttura\n"
+    "cellulare,\n"
+    "liquefandosi +2 Dif.");
 
 static const u8 sTM214Desc[] = _( // Todo
-    "Attacks with thorny\n"
-    "arms. May (30%)\n"
-    "cause flinching.");
+    "Attacca con braccia\n"
+    "spinose. Può (30%)\n"
+    "di far tentennare.");
 
 static const u8 sTM215Desc[] = _( // Todo
-    "An uppercut thrown\n"
-    "as if leaping into\n"
-    "the sky.");
+    "Montante che può\n"
+    "arrivare fino\n"
+    "in cielo.");
 
 static const u8 sTM216Desc[] = _( // Todo
-    "Forms a veil of\n"
-    "water that restores\n"
-    "HP.");
+    "Velo d'acqua.\n"
+    "Recupera alcuni PS\n"
+    "ad ogni turno.");
 
 static const u8 sTM217Desc[] = _( // Todo
-    "Punches as fast as a\n"
-    "bullet. It always\n"
-    "hits first.");
+    "Infligge danno ed è\n"
+    "una mossa ad alta\n"
+    "priorità.");
 
 static const u8 sTM218Desc[] = _( // Todo
-    "A low altitude charge\n"
-    "that also hurts the\n"
-    "user.");
+    "Danno da contrcclpo\n"
+    "pari a 1/3 del\n"
+    "danno inferto.");
 
 static const u8 sTM219Desc[] = _( // Todo
-    "Underlings pummel\n"
-    "the foe. High\n"
-    "critical-hit ratio.");
+    "Raduna i suoi\n"
+    "sgherri. Probabile\n"
+    "brutto colpo.");
 
 static const u8 sTM220Desc[] = _( // Todo
-    "Raises Defense and\n"
-    "Sp. Def with a\n"
-    "living shield.");
+    "Raduna i suoi sgherri\n"
+    "per creare uno scudo.\n"
+    "+1 Dif e Dif.Sp.");
 
 static const u8 sTM221Desc[] = _( // Todo
-    "Coils up to raise\n"
-    "Attack Defense and\n"
-    "Accuracy.");
+    "Chi la usa si\n"
+    "concentra, aumenta\n"
+    "At, Dif e precsne.");
 
 static const u8 sTM222Desc[] = _( // Todo
-    "Steals half the\n"
-    "damage inflicted.");
+    "Assorbe metà dei\n"
+    "PS sottratti\n"
+    "al nemico.");
 
 static const u8 sTM223Desc[] = _( // Todo
-    "Wraps its body in\n"
-    "cotton. Drastically\n"
-    "raises (+3) Defense.");
+    "Aumenta la Dif\n"
+    "dell'utilizzatore\n"
+    "di tre livelli.");
 
 static const u8 sTM224Desc[] = _( // Todo
-    "Weaves a sticky net\n"
-    "that slows foes\n"
-    "switching in.");
+    "Rete appiccicosa\n"
+    "che rllnta il\n"
+    "passaggio dei nemici.");
 
 static const u8 sTM225Desc[] = _( // Todo
-    "Swings the fist to\n"
-    "strike. Lowers the\n"
-    "user's Speed.");
+    "Pugno molto potente.\n"
+    "Riduce la velocità\n"
+    "di chi la usa.");
 
 static const u8 sTM226Desc[] = _( // Todo
-    "Spins the body at\n"
-    "high speed to strike\n"
-    "the foe.");
+    "Elimina gli effetti\n"
+    "delle mosse. Aumenta\n"
+    "la Velocità.");
 
 static const u8 sTM227Desc[] = _( // Todo
-    "Boosts strength\n"
-    "sharply, but lowers\n"
-    "abilities.");
+    "Attacca il nemico\n"
+    "con grande forza,\n"
+    "-1 Attacco e Difesa.");
 
 static const u8 sTM228Desc[] = _( // Todo
-    "A powdery attack\n"
-    "that may (10%)\n"
-    "raise abilities.");
+    "Può (10%) aumentare\n"
+    "tutte le\n"
+    "statistiche.");
 
 static const u8 sTM229Desc[] = _( // Todo
-    "Slashes with a sharp\n"
-    "leaf. High critical\n"
-    "hit ratio.");
+    "Foglia affilata come\n"
+    "una spada. Probabile\n"
+    "brutto colpo.");
 
 static const u8 sTM230Desc[] = _( // Todo
-    "This attack always\n"
-    "results in a\n"
-    "critical hit.");
+    "Colpo micidiale.\n"
+    "Brutto colpo\n"
+    "assicurato.");
 
 static const u8 sTM231Desc[] = _( // Todo
-    "Raises (+2) offensive\n"
-    "stats, but lowers\n"
-    "(-1) defensive stats");
+    "-1 Dif e D.Sp.\n"
+    "+2 Att, At.Spc\n"
+    "e Velocità.");
 
 static const u8 sTM232Desc[] = _( // Todo
-    "Attacks with brutal\n"
-    "hits that strike\n"
-    "twice.");
+    "Attacca due volte\n"
+    "con dei colpi\n"
+    "estremamente forti.");
 
 static const u8 sTM233Desc[] = _( // Todo
     "Attacks with muddy\n"
