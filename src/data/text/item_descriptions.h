@@ -3168,251 +3168,249 @@ static const u8 sTM59Desc[] = _( // Todo
    	"Attacco e precsne.");
 
 static const u8 sTM60Desc[] = _( // Todo
-    "Attacks with a psy-\n"
-   	"chic wave that does\n"
-   	"physical damage.");
+    "Raggio psichico\n"
+   	"che provoca\n"
+   	"danni fisici.");
 
 static const u8 sTM61Desc[] = _( // Todo
-    "Restores the user's\n"
-   	"HP by half of its\n"
-   	"max HP.");
+    "Fermo e riposa,\n"
+   	"recuperando 50%\n"
+   	"dei propri PS.");
 
 static const u8 sTM62Desc[] = _( // Todo
-    "Throws a rock to\n"
-   	"knock the foe down\n"
-   	"to the ground.");
+    "Può colpire anche\n"
+   	"un bersaglio in volo\n"
+   	"e farlo cadere.");
 
 static const u8 sTM63Desc[] = _( // Todo
-    "Swamps the foe with\n"
-   	"a wave of sludge.\n"
-   	"May also poison.");
+    "Onda di fango.\n"
+   	"10% di avvelenare\n"
+   	"il bersaglio.");
 
 static const u8 sTM64Desc[] = _( // Todo
-    "Attacks in a cloak\n"
-   	"of flames.\n"
-   	"Raises Speed.");
+    "Si copre di fuoco\n"
+   	"e attacca. Aumenta\n"
+   	"la propria Velocità.");
 
 static const u8 sTM65Desc[] = _( // Todo
-    "Attacks the foe's\n"
-   	"legs lowering its\n"
-   	"Speed.");
+    "Diminuisce la Vel\n"
+   	"del bersaglio di\n"
+   	"un livello.");
 
 static const u8 sTM66Desc[] = _( // Todo
-    "Does more damage\n"
-   	"every turn\n"
-   	"it is used.");
+    "Se usata a\n"
+   	"ripetizione il\n"
+   	"danno aumenta.");
 
 static const u8 sTM67Desc[] = _( // Todo
-    "Draws power from\n"
-   	"nature to attack.\n"
-   	"May lower Sp. Def.");
+    "10% di diminuire\n"
+   	"la Dif.Sp\n"
+   	"del bersaglio..");
 
 static const u8 sTM68Desc[] = _( // Todo
-    "An attack that\n"
-   	"leaves the with\n"
-   	"at least 1 HP.");
+    "Attacco che lascia\n"
+   	"il nemico con\n"
+   	"almeno 1 PS.");
 
 static const u8 sTM69Desc[] = _( // Todo
-    "Shoots boiling water\n"
-   	"at the foe.\n"
-   	"May inflict a burn.");
+    "Getto d'acqua\n"
+   	"bollente.\n"
+   	"30% di scottare");
 
 static const u8 sTM70Desc[] = _( // Todo
-    "Fires a beam of\n"
-   	"electricity.\n"
-   	"May raise Sp. Atk.");
+    "Fascio di elettr.\n"
+   	"70% di aumentare\n"
+   	"l'At.Spc.");
 
 static const u8 sTM71Desc[] = _( // Todo
-    "Takes the foe into\n"
-   	"the sky then drops\n"
-   	"it the next turn.");
+    "Porta il bersaglio\n"
+   	"in cielo e lo\n"
+   	"scaglia a terra.");
 
 static const u8 sTM72Desc[] = _( // Todo
-    "Inflicts a burn\n"
-   	"on the foe with\n"
-   	"intense fire.");
+    "Infligge un'ustione\n"
+   	"al nemico con un\n"
+   	"fuoco intenso.");
 
 static const u8 sTM73Desc[] = _( // Todo
-    "Inflicts severe\n"
-   	"damage but makes\n"
-   	"the user faint.");
+    "Infligge un forte\n"
+   	"danno, ma chi la\n"
+   	"usa va KO.");
 
 static const u8 sTM74Desc[] = _( // Todo
-    "Strikes with a shadow\n"
-   	"claw. High critical-\n"
-   	"hit ratio.");
+    "Artigli d'ombra che\n"
+   	"a probabile brutto\n"
+   	"colpo.");
 
 static const u8 sTM75Desc[] = _( // Todo
-    "An attack that\n"
-   	"gains power if\n"
-   	"the user moves last.");
+    "La potenza diviene\n"
+   	"100 se chi la\n"
+   	"usa attacca dopo.");
 
 static const u8 sTM76Desc[] = _( // Todo
-    "An attack that does\n"
-   	"more damage if\n"
-   	"an ally fainted.");
+    "140 ptnza se nel trn\n"
+   	"prcdnte, un Pkmn è\n"
+   	"stato messo KO.");
 
 static const u8 sTM77Desc[] = _( // Todo
-    "Polishes the body\n"
-   	"to sharply raise\n"
-   	"Speed.");
+    "Aumenta la Velocità\n"
+   	"dell'util. di due\n"
+   	"livelli.");
 
 static const u8 sTM78Desc[] = _( // Todo
-    "Does damage then\n"
-   	"switches out\n"
-   	"the user.");
+    "Infligge danno e\n"
+   	"sostituisce\n"
+   	"l'utilizzatore.");
 
 static const u8 sTM79Desc[] = _( // Todo
-    "A weak jolt of\n"
-   	"electricity that\n"
-   	"paralyzes the foe.");
+    "Una debole scarica\n"
+   	"di elettricità che\n"
+   	"paralizza il nemico.");
 
 static const u8 sTM80Desc[] = _( // Todo
-    "A high-speed spin\n"
-   	"that does more dama-\n"
-   	"poge to faster foes.");
+    "Più lento è chi\n"
+   	"la usa, maggiore\n"
+   	"è il danno.");
 
 static const u8 sTM81Desc[] = _( // Todo
-    "A fighting dance\n"
-   	"that sharply raises\n"
-   	"Attack.");
+    "Una danza che\n"
+   	"potenzia fortemente\n"
+   	"l'Attacco.");
 
 static const u8 sTM82Desc[] = _( // Todo
-    "Resisting, the user\n"
-   	"attacks the foe.\n"
-   	"Lowers Sp. Atk.");
+    "Infligge danno e\n"
+   	"diminuisce l'At.Sp\n"
+   	"del bersaglio.");
 
 static const u8 sTM83Desc[] = _( // Todo
-    "Stomps down on\n"
-   	"the ground. Lowers\n"
-   	"Speed.");
+    "Infligge danno e\n"
+   	"diminuisce la Vel\n"
+   	"del bersaglio.");
 
 static const u8 sTM84Desc[] = _( // Todo
-    "This attack always\n"
-   	"results in a critical\n"
-   	"hit.");
+    "Colpo micidiale.\n"
+   	"Brutto colpo\n"
+   	"assicurato.");
 
 static const u8 sTM85Desc[] = _( // Todo
-    "Large boulders\n"
-   	"are hurled. May\n"
-   	"cause flinching.");
+    "Grandi massi\n"
+   	"lanciati sul nemico.\n"
+   	"30% tentennare.");
 
 static const u8 sTM86Desc[] = _( // Todo
-    "Knocks the foe\n"
-   	"away to end\n"
-   	"the battle.");
+    "Sconfigge il nemico\n"
+   	"per porre fine\n"
+   	"alla battaglia.");
 
 static const u8 sTM87Desc[] = _( // Todo
-    "A stabbing attack\n"
-   	"that may poison\n"
-   	"the foe.");
+    "30% di avvelenare\n"
+   	"il bersaglio.");
 
 static const u8 sTM88Desc[] = _( // Todo
-    "Snare attack that\n"
-   	"does more damage\n"
-   	"to heavier foes.");
+    "Potenza è tanto magg\n"
+   	"quanto più grande è\n"
+   	"il peso del bers.");
 
 static const u8 sTM89Desc[] = _( // Todo
-    "Confuses the foe,\n"
-   	"but also sharply\n"
-   	"raises Attack.");
+    "Confonde il nemico\n"
+   	"ma ne aumenta di\n"
+   	"molto l'Attacco.");
 
 static const u8 sTM90Desc[] = _( // Todo
-    "Eats the foe's\n"
-   	"held Berry gaining\n"
-   	"its effect.");
+    "Mangia la Bacca\n"
+   	"trattenuta, ottnndo\n"
+   	"il suo effetto.");
 
 static const u8 sTM91Desc[] = _( // Todo
-    "Does damage then\n"
-   	"switches out\n"
-   	"the user.");
+    "Infligge danno e\n"
+   	"sostituisce\n"
+   	"l'utilizzatore.");
 
 static const u8 sTM92Desc[] = _( // Todo
-    "Creates a decoy\n"
-   	"using 1/4 of the\n"
-   	"user's maximum HP.");
+    "Copia di se stesso\n"
+   	"usando PS. Serve\n"
+   	"come esca pr il nmc.");
 
 static const u8 sTM93Desc[] = _( // Todo
-    "Releases a blast\n"
-   	"of light that\n"
-   	"may lower Sp. Def.");
+    "Attacca raccogliendo\n"
+   	"e rilasciando\n"
+   	"energia luminosa.");
 
 static const u8 sTM94Desc[] = _( // Todo
-    "Slower Pokémon get\n"
-   	"to move first\n"
-   	"for 5 turns.");
+    "Pokémon più lenti\n"
+   	"si muovono per prm\n"
+   	"per cinque turni.");
 
 static const u8 sTM95Desc[] = _( // Todo
-    "Sets floating\n"
-   	"stones that hurt\n"
-   	"a foe switching in.");
+    "Piazza una trappola\n"
+   	"di rocce levitanti\n"
+   	"intorno al Pkmn.");
 
 static const u8 sTM96Desc[] = _( // Todo
-    "An attack that\n"
-   	"gains power if\n"
-   	"injured by the foe.");
+    "Infligge un danno\n"
+   	"doppio se si è stati\n"
+   	"colpiti dal nemico.");
 
 static const u8 sTM97Desc[] = _( // Todo
-    "Does double damage\n"
-   	"to foes with\n"
-   	"half HP.");
+    "Sua potenza diviene\n"
+   	"130 se il bersaglio\n"
+   	"ha -50% PS.");
 
 static const u8 sTM98Desc[] = _( // Todo
-    "An attack that\n"
-   	"absorbs half the\n"
-   	"damage inflicted");
+    "Assorbe metà dei\n"
+   	"PS sottratti\n"
+   	"al nemico.");
 
 static const u8 sTM99Desc[] = _( // Todo
-    "Generates a shock\n"
-   	"wave to damage\n"
-   	"the foe.");
+    "Onda d'urto genrta\n"
+   	"spalancando\n"
+   	"la bocca.");
 
 static const u8 sTM100Desc[] = _( // Todo
-    "Damages foes by\n"
-   	"emitting a bright\n"
-   	"flash.");
+    "Emette una luce\n"
+   	"potentissima che\n"
+   	"infligge danni.");
 
 static const u8 sTM101Desc[] = _( // Todo
-    "Violently swings\n"
-   	"around to hurt\n"
-   	"everyone nearby.");
+    "Colpisce tutti\n"
+   	"i Pokémon\n"
+   	"adiacenti.");
 
 static const u8 sTM102Desc[] = _( // Todo
-    "Hits with an\n"
-   	"accurate horn\n"
-   	"that never misses.");
+    "Corno appuntito.\n"
+   	"Questa mossa va\n"
+   	"sempre a segno.");
 
 static const u8 sTM103Desc[] = _( // Todo
-    "Weakens all attacks,\n"
-   	"but only usable\n"
-   	"with hail.");
+    "Può essere usata\n"
+   	"solo mentre grandina.\n"
+   	"1/2 danni.");
 
 static const u8 sTM104Desc[] = _( // Todo
-    "The foe is infested\n"
-   	"and attacked for\n"
-   	"2 to 5 turns.");
+    "Modula il colpo in\n"
+   	"modo da lasciargli\n"
+   	"almeno un PS.");
 
 static const u8 sTM105Desc[] = _( // Todo
-    "Yells and rants\n"
-   	"at the foe lowering\n"
-   	"its Sp. Atk.");
+    "Diminuisce l'At.Sp\n"
+   	"dell'obiettivo.");
 
 static const u8 sTM106Desc[] = _( // Todo
-    "A hard punch that\n"
-   	"raises the user's\n"
-   	"Attack.");
+    "Aumenta l'At di\n"
+   	"chi la usa di\n"
+   	"un livello.");
 
 static const u8 sTM107Desc[] = _( // Todo
-    "An icy punch.\n"
-    "May freeze.");
+    "Infligge danno.\n"
+    "10% di congelare.");
 
 static const u8 sTM108Desc[] = _( // Todo
-    "Electrified punch.\n"
-    "May paralyze.");
+    "Infligge danno.\n"
+    "10% di paralizzare.");
 
 static const u8 sTM109Desc[] = _( // Todo
-    "A fiery punch.\n"
-    "May burn.");
+    "Infligge danno.\n"
+    "10% di scottare.");
 
 static const u8 sTM110Desc[] = _( // Todo
     "Searches out weak\n"

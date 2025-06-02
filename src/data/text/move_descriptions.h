@@ -30,11 +30,11 @@ static const u8 sFirePunchDescription[] = _(
     "che infligge danno.");
 
 static const u8 sIcePunchDescription[] = _(
-    "infligge danno e ha una proba-\n"
+    "Infligge danno e ha una proba-\n"
     "bilità del 10% di congelare.");
 
 static const u8 sThunderPunchDescription[] = _(
-    "infligge danno e ha una proba-\n"
+    "Infligge danno e ha una proba-\n"
     "bilità del 10% di paralizzare.");
 
 static const u8 sScratchDescription[] = _(
@@ -1131,7 +1131,7 @@ static const u8 sIngrainDescription[] = _(
     "L'utilizzatore non può uscire.");
 
 static const u8 sSuperpowerDescription[] = _(
-    "attacca il nemico con grande\n"
+    "Attacca il nemico con grande\n"
     "forza, -1 Attacco e Difesa.");
 
 static const u8 sMagicCoatDescription[] = _(
@@ -1143,7 +1143,7 @@ static const u8 sRecycleDescription[] = _(
     "per un altro utilizzo.");
 
 static const u8 sRevengeDescription[] = _(
-    "infligge un danno doppio se\n"
+    "Infligge un danno doppio se\n"
     "si è stati colpiti dal nemico.");
 
 static const u8 sBrickBreakDescription[] = _(
@@ -1699,8 +1699,8 @@ static const u8 sIceShardDescription[] = _(
     "mossa ad alta priorità.");
 
 static const u8 sShadowClawDescription[] = _(
-    "Infligge danno ed è una\n"
-    "mossa ad alta priorità.");
+    "Artigli d'ombra che a\n"
+    "probabile brutto colpo.");
 
 static const u8 sThunderFangDescription[] = _(
     "10% di paralizzare.\n"
@@ -2051,7 +2051,7 @@ static const u8 sReflectTypeDescription[] = _(
     "quello del bersaglio.");
 
 static const u8 sRetaliateDescription[] = _(
-    "140 ptnza se, nel turno prcdnte,\n"
+    "140 ptnza se nel turno prcdnte,\n"
     "un Pokémon è stato messo KO.");
 
 static const u8 sFinalGambitDescription[] = _(
