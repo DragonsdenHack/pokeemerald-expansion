@@ -240,8 +240,8 @@ static const u8 sEmberDescription[] = _(
     "fuoco che può scottare.");
 
 static const u8 sFlamethrowerDescription[] = _(
-    "intense fiammate che\n"
-    "possono anche scottarlo.");
+    "Intense fiammate che\n"
+    "possono (10%) scottarlo.");
 
 static const u8 sMistDescription[] = _(
     "Nebbia che blocca la\n"
@@ -404,7 +404,7 @@ static const u8 sConfusionDescription[] = _(
     "10% di confondere.");
 
 static const u8 sPsychicDescription[] = _(
-    "potente forza telecinetica\n"
+    "Potente forza telecinetica\n"
     "che può (10%) ridurne la D.Sp.");
 
 static const u8 sHypnosisDescription[] = _(
@@ -533,7 +533,7 @@ static const u8 sBoneClubDescription[] = _(
 
 static const u8 sFireBlastDescription[] = _(
     "Intensa fiammata che fa terra\n"
-    "bruciata. 30% di scottare");
+    "bruciata. 30% di scottare.");
 
 static const u8 sWaterfallDescription[] = _(
     "Carica il nemico di velocità\n"
@@ -779,7 +779,7 @@ static const u8 sBellyDrumDescription[] = _(
     "metà dei PS massimi.");
 
 static const u8 sSludgeBombDescription[] = _(
-    "attacca lanciando fango sul\n"
+    "Attacca lanciando fango sul\n"
     "bersaglio. 30% di avvelenare.");
 
 static const u8 sMudSlapDescription[] = _(
@@ -951,7 +951,7 @@ static const u8 sSweetScentDescription[] = _(
     "ridurne l'elusione.");
 
 static const u8 sIronTailDescription[] = _(
-    "Robusta coda d'acciaio tail.\n"
+    "Robusta coda d'acciaio.\n"
     "Può (30%) ridurne la Difesa.");
 
 static const u8 sMetalClawDescription[] = _(

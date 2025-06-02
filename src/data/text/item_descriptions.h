@@ -2948,224 +2948,224 @@ static const u8 sTM15Desc[] = _(
     "turno successivo.");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "Sp. Atk damage.");
+    "Ridurre i danni\n"
+    "degli AT.SPECIALI\n"
+    "per cinque turni");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+    "Elude gli attacchi:\n"
+    "se usata ripetutmnte\n"
+    "può fallire.");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "Water-type moves\n"
-    "for 5 turns.");
+    "+50% potenza delle\n"
+    "mosse di T.Acqua\n"
+    "per 5 turni.");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+    "Assorbe metà dei\n"
+    "PS sottratti\n"
+    "al nemico.");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+    "Una forza mistica\n"
+    "previene tutti i\n"
+    "problemi di stato.");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "Più potente se\n"
+    "non ama il\n"
+    "Allenatore.");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "Al primo turno\n"
+    "assorbe energia e\n"
+    "att nel successivo");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower Defense.");
+    "Coda d'acciaio.\n"
+    "Può (30%)\n"
+    "ridurne la Difesa.");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+    "Potente att.elettr.\n"
+    "Può (10%)\n"
+    "causare paralisi.");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+    "Un tuono che può\n"
+    "(30%) causare\n"
+    "paralisi.");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+    "Potente sisma, che\n"
+    "non ha effetto\n"
+    "sui nemici volanti.");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "Aumenta di\n"
+    "potenza con\n"
+    "l'amicizia.");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+    "Scava al primo\n"
+    "turno e attacca\n"
+    "al successivo.");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower Sp. Def.");
+    "Potente forza\n"
+    "telecinetica. Può\n"
+    "(10%) rid la D.Sp.");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower Sp. Def.");
+    "Sfera nera che\n"
+    "può ridurre la\n"
+    "D.Sp. del nemico.");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like Light Screen\n"
-    "and causes damage.");
+    "Rompe barriere\n"
+    "come Riflesso\n"
+    "e Schermoluce.");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+    "Copie illusorie\n"
+    "aumentano\n"
+    "l'elusione.");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+    "Ridurre i danni\n"
+    "degli attacchi\n"
+    "fisici per 5 turni.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "Colpisce il nemico\n"
+    "con una scossa\n"
+    "di elettricità.");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+    "Intense fiammate\n"
+    "che possono (10%)\n"
+    "anche scottarlo.");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+    "Attacca lanciando\n"
+    "fango. 30% di\n"
+    "avvelenare.");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+    "Causa una tempesta\n"
+    "di sabbia per\n"
+    "cinque turni.");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+    "Intensa fiammata\n"
+    "che fa terra bructa.\n"
+    "30% di scottare.");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower Speed.");
+    "Colpisce il nemico\n"
+    "con rocce. Lo\n"
+    "rallenta -1 Vel.");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "Attacco estremamente\n"
+    "rapido e\n"
+    "inevitabile.");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+    "Il nemico non\n"
+    "può più usare\n"
+    "l'ultima mossa.");
 
 static const u8 sTM42Desc[] = _(
-    "Raises Attack when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+    "Più potente se è\n"
+    "scottato, avvlnto\n"
+    "o parlzzto.");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+    "L'effetto varia\n"
+    "secondo il\n"
+    "luogo.");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+    "Si addormenta per\n"
+    "due turni per\n"
+    "curare tutti i PS.");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "Nemici del sesso\n"
+    "opposto attaccano\n"
+    "meno facilmente.");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+    "Può rubare\n"
+    "l'oggetto in\n"
+    "possesso del nemc.");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+    "Colpisce il nemico\n"
+    "con ali d'acciaio.\n"
+    "10% +Difesa.");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+    "Scambia le abilità\n"
+    "speciali con\n"
+    "il bersaglio.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "Ruba gli effetti\n"
+    "della mossa che il\n"
+    "bsgl ut.successvmnt.");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers Sp. Atk.");
+    "Riduce di molto\n"
+    "il Attacco\n"
+    "Speciale.");
 
 static const u8 sTM51Desc[] = _( // Todo
-    "Attacks at full\n"
-    "power. May lower\n"
-    "Sp. Def.");
+    "10% di diminuire\n"
+    "la Difesa Speciale\n"
+    "del bersaglio.");
 
 static const u8 sTM52Desc[] = _( // Todo
-    "Does double damage\n"
-   	"if the user\n"
-   	"has no item.");
+    "La potenza è 110\n"
+   	"se il Pkmn non\n"
+   	"tiene strumenti.");
 
 static const u8 sTM53Desc[] = _( // Todo
-    "Powerful, but leaves\n"
-   	"the user immobile\n"
-   	"the next turn.");
+    "È potente, ma chi\n"
+    "la usa perde il\n"
+    "turno successivo.");
 
 static const u8 sTM54Desc[] = _( // Todo
-    "Attacks with a\n"
-   	"horrible aura.\n"
-   	"May cause flinching.");
+    "20% di far\n"
+   	"tentennare il\n"
+   	"bersaglio.");
 
 static const u8 sTM55Desc[] = _( // Todo
-    "An electrical tackle\n"
-   	"that also hurts the\n"
-   	"user.");
+    "Danno da contrcclpo\n"
+   	"pari a 1/4 del\n"
+   	"danno inferto.");
 
 static const u8 sTM56Desc[] = _( // Todo
-    "Stabs the foe with\n"
-   	"stones. High\n"
-   	"critical-hit ratio.");
+    "Pietre affilate.\n"
+   	"Probabile brutto\n"
+   	"colpo.");
 
 static const u8 sTM57Desc[] = _( // Todo
-    "A double-chopping\n"
-   	"attack. High\n"
-   	"critical-hit ratio.");
+    "10% di avvelenare.\n"
+   	"Probabile brutto\n"
+   	"colpo.");
 
 static const u8 sTM58Desc[] = _( // Todo
-    "Slashes the foe with\n"
-   	"crossed, scythes,\n"
-   	"claws, etc.");
+    "Colpisce il nemico\n"
+   	"usando le sue falci\n"
+   	"o artigli.");
 
 static const u8 sTM59Desc[] = _( // Todo
-    "Sharpens its claws\n"
-   	"to raise Attack\n"
-   	"and Accuracy.");
+    "Affila i propri\n"
+   	"artigli, aumentando\n"
+   	"Attacco e precsne.");
 
 static const u8 sTM60Desc[] = _( // Todo
     "Attacks with a psy-\n"
