@@ -4019,123 +4019,123 @@ static const u8 sTM232Desc[] = _( // Todo
     "estremamente forti.");
 
 static const u8 sTM233Desc[] = _( // Todo
-    "Attacks with muddy\n"
-    "water. May (10%)\n"
-    "lower accuracy.");
+    "Getto di fango che\n"
+    "può (30%) ridurre la\n"
+    "precsne dei nemici.");
 
 static const u8 sTM234Desc[] = _( // Todo
-    "Fires a meteor-like\n"
-    "punch. May (20%)\n"
-    "raise Attack.");
+    "Colpisce il nemico\n"
+    "con un pugno veloce.\n"
+    "20% +At.");
 
 static const u8 sTM235Desc[] = _( // Todo
-    "Hammers with a\n"
-    "pincer. Has a high\n"
-    "critical-hit ratio.");
+    "Colpisce il nemico\n"
+    "con una grande\n"
+    "tenaglia.");
 
 static const u8 sTM236Desc[] = _( // Todo
-    "The higher the\n"
-    "user's HP, the more\n"
-    "damage caused.");
+    "Cui potenza è\n"
+    "proporzionale ai\n"
+    "PS di chi lo usa.");
 
 static const u8 sTM237Desc[] = _( // Todo
-    "The higher the\n"
-    "user's HP, the more\n"
-    "damage caused.");
+    "Cui potenza è\n"
+    "proporzionale ai\n"
+    "PS di chi lo usa.");
 
 static const u8 sTM238Desc[] = _( // Todo
-    "A beam that changes\n"
-    "the foe's ability\n"
-    "to Simple.");
+    "Raggio psichico che\n"
+    "trasforma l'abilità\n"
+    "in Disinvoltura.");
 
 static const u8 sTM239Desc[] = _( // Todo
-    "Violently lashes the\n"
-    "foe with vines or\n"
-    "tentacles.");
+    "Agita violentemente\n"
+    "liane per sferzare\n"
+    "il bersaglio.");
 
 static const u8 sTM240Desc[] = _( // Todo
-    "Hurls mud at the foe\n"
-    "and reduces Speed.");
+    "Attacca lanciando\n"
+    "fango. Riduce anche\n"
+    "la Velocità.");
 
 static const u8 sTM241Desc[] = _( // Todo
-    "A kick with a high\n"
-    "critical hit ratio.\n"
-    "May (10%) burn.");
+    "Probabile brtto clp.\n"
+    "Può (10%) causare\n"
+    "una scottatura.");
 
 static const u8 sTM242Desc[] = _( // Todo
-    "Endures attack for 2\n"
-    "turns to retaliate\n"
-    "double.");
+    "Subisce per 2 turni,\n"
+    "per poi restituire\n"
+    "il danno X 2.");
 
 static const u8 sTM243Desc[] = _( // Todo
-    "The type of attack\n"
-    "varies depending on\n"
-    "the location.");
+    "Il tipo di questo\n"
+    "attacco varia\n"
+    "secondo il luogo.");
 
 static const u8 sTM244Desc[] = _( // Todo
-    "Hurls an orb that\n"
-    "does more damage to\n"
-    "slower foes.");
+    "Più è rapido rsptto\n"
+    "al bersaglio e\n"
+    "più danni arreca.");
 
 static const u8 sTM245Desc[] = _( // Todo
-    "Rotates its gears to\n"
-    "raise Attack (+1)\n"
-    "and Speed (+2).");
+    "Aumenta la Vel di\n"
+    "due livelli e l'At\n"
+    "di un livello.");
 
 static const u8 sTM246Desc[] = _( // Todo
-    "Strikes through the\n"
-    "foe's stat changes.");
+    "Il danno prescinde\n"
+    "dalle modifiche\n"
+    "alle statistiche.");
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "Attacca il nemico\n"
+    "con artigli o\n"
+    "falci affilate.");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "Ascienza alta e\n"
+    "attacco in un\n"
+    "solo turno.");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+    "Un'onda enorme\n"
+    "sommerge il campo\n"
+    "di lotta.");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+    "Colpisce con la\n"
+    "massima energia.");
 
 static const u8 sHM05Desc[] = _(
-    "Quick flash that\n"
-   	"absorbs 75% of the\n"
-   	"damage inflicted.");
+    "Lampo rapido che\n"
+   	"assorbe il 75% dei\n"
+   	"danni inflitti.");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower Defense.");
+    "Att schiacciasassi\n"
+    "che può (50%)\n"
+    "abbassare la Dif.");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "Carica il nemico\n"
+    "di velocità per\n"
+    "scalare le cascate.");
 
 static const u8 sHM08Desc[] = _(
-    "Dives underwater\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "Tuffa in acqua per\n"
+    "emergere e attccre\n"
+    "al turno seguente.");
 
 // Charms
 static const u8 sOvalCharmDesc[] = _(
-    "Lost object of\n"
-    "great value.\n"
-    "Whose is it?");
+    "Oggetto smarrito\n"
+    "di grande valore.\n"
+    "Di chi è?");
 
 static const u8 sShinyCharmDesc[] = _(
-	"A charm that will\n"
-    "raise the chance\n"
-    "of Shiny Pokémon.");
+	"+ % di incontrare\n"
+    "Pokémon cromatici.");
 
 static const u8 sCatchingCharmDesc[] = _( // Todo
     "?????");
