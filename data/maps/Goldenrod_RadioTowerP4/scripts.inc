@@ -309,7 +309,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_6:
 	.string "relinquish his powers.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-	.string "DIRECTOR: Quite a impressive feat,\n"
+	.string "DIRECTOR: Quite an impressive feat,\n"
 	.string "Especially considering your age.\p"
 	.string "But are you aware that in JOHTO, there\n"
 	.string "are some TRAINERs who would put\l"

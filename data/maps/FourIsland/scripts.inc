@@ -15,8 +15,8 @@ end
 
 FourIsland1_texto_1:
 	.string "We are so sorry, but we are\n"
-	.string "empty. Maybe in the future,\l"
-	.string "trainer.$"
+	.string "full.\p"
+	.string "Maybe in the future, trainer.$"
 
 
 FourIsland2::
@@ -163,7 +163,7 @@ FourIsland_Encuentro_Zeus_Texto_3:
 	.string "I'm pursuing two dangerous criminals;\n"
 	.string "someone very wise trapped two ANCIENT\l"
 	.string "POKÉMON on these islands, centuries\l"
-	.string "ago. Two POKÉMON with a power capable\l"
+	.string "ago. Two POKÉMON with powers capable\l"
 	.string "of shaking the world and altering its\l"
 	.string "weather conditions.$"
 
@@ -199,7 +199,7 @@ FourIsland_Encuentro_Zeus_Texto_8:
 
 FourIsland_Encuentro_Zeus_Texto_9:
 	.string "If you spot anything unusual, inform me\n"
-	.string "right away; I'll be exploring in the\l"
+	.string "right away; I'll be exploring the\l"
 	.string "ALTERING CAVE.\p"
 	.string "See you later, -TRAINER-.$"
 

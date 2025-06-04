@@ -238,7 +238,7 @@ PokemonTower_S3_Tumba_Texto_1:
 	.string "This tombstone is decrepit.$"
 
 PokemonTower_S3_Tumba_Texto_2:
-	.string "Despite that, you can see clearly\n"
+	.string "Despite that, you can clearly see\n"
 	.string "golden and silverish letters engraved.$"
 
 PokemonTower_S3_Tumba_Texto_3:
@@ -256,10 +256,9 @@ PokemonTower_S3_Tumba_Texto_5:
 	.string "hands{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_6:
-	.string "{PAUSE 15}…{PAUSE 25} no matter what challenge dared to\n"
-	.string "face him, no matter what the dimensions\l"
-	.string "of it were, no single thing was out of\l"
-	.string "his reach{PAUSE 15}…{PAUSE 15}$"
+	.string "{PAUSE 15}…{PAUSE 25} no matter what challenge came his\n"
+	.string "way, no matter its scale or form,\l"
+	.string "nothing was beyond his reach{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_7:
 	.string "{PAUSE 15}…{PAUSE 25} however, despite his countless\n"

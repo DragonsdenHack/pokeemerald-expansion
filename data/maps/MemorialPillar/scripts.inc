@@ -75,8 +75,8 @@ MemorialPillar_Text_Onyx_Texto_2:
 
 MemorialPillar_Text_Onyx_Texto_3:
     .string "And the thing is{PAUSE 15}…{PAUSE 15}\p"
-    .string "It's not neither the past nor the\n"
-    .string "future is lost, since what we do not\l"
+    .string "It's not the past nor the future\n"
+    .string "that is lost, since what we do not\l"
     .string "possess, how could it be taken away\l"
     .string "from us?$"
 
@@ -266,7 +266,7 @@ MemorialPillar_ChicoOnix_Despues_Texto_4:
 	.string "by the PKMN CENTER from time to time.$"
 
 MemorialPillar_ChicoOnix_Despues_Texto_5:
-	.string "He got lemonades. However, he only sells\n"
+	.string "He has lemonade. However, he only sells\n"
 	.string "those to his rich customers, who buy\l"
 	.string "them along his expensive-as-gold\l"
 	.string "menus.$"

@@ -474,7 +474,7 @@ RocketHideout_6F_Petrel_Text_Mision_2:
 	.string "financing for our top projects.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2.1:
-    .string "Here, we adhere ourselves go\n"
+    .string "Here, we adhere ourselves to\n"
 	.string "carrying research on potential\l"
 	.string "businesses and putting them into\l"
 	.string "practice, all to build funds for\l"

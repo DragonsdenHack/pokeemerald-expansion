@@ -118,8 +118,8 @@ CeruleanCity_House2_Batalla_Montañero_Text_1:
 CeruleanCity_House2_Batalla_Montañero_Text_1.1:
     .string "Too bad for you that TM -DIG-\n"
 	.string "would be pretty useful for us.\p"
-	.string "If you'd played nice, we wouldn't\n"
-	.string "have messed up your house.$"
+	.string "If you would have played nice, we\n"
+	.string "wouldn't have messed up your house.$"
 	
 CeruleanCity_House2_Batalla_Montañero_Text_1.2:
 	.string "Now, we'll just be taking all\n"

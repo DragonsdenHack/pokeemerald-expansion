@@ -162,11 +162,11 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_11:
 	.string "is open to you.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_12:
-	.string "Not even in your insanest dreams you'd\n"
-	.string "have imagined what awaits you, what you\l"
-	.string "have still to live, see, and feel. KANTO\l"
-	.string "will be a witness to every single bit of\l"
-	.string "it.$"
+	.string "Not even in your most insane dreams\n"
+	.string "you'd have imagined what awaits you, what\l"
+	.string "you have still to live, see, and feel.\p"
+	.string "KANTO will be a witness to every single\n"
+	.string "bit of it.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_13:
 	.string "But keep in mind{PAUSE 35}…{PAUSE 35} that essence can be\n"

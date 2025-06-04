@@ -381,7 +381,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_16:
 .string "????: Stupid fool.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16.1:
-	.string "Did you really though that was\n"
+	.string "Did you really think that was\n"
 	.string "the true ORIGINAL DRAGON?\p"
     .string "Trying to reform perfection by\n"
 	.string "piecing some imperfections, as if\l"

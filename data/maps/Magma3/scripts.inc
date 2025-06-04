@@ -286,7 +286,7 @@ Magma3_Combate_Magno_Texto_1:
 
 Magma3_Combate_Magno_Texto_2:
 	.string "So my loyal ADMIN.TABITHA couldn't stop\n"
-	.string "you, you must be an exceptional\l"
+	.string "you. You've must be an exceptional\l"
 	.string "TRAINER, definitely earned the\l"
 	.string "right to witness something grand.\p"
 	.string "Everything is ready.$"
@@ -297,7 +297,7 @@ Magma3_Combate_Magno_Texto_2.1:
 
 Magma3_Combate_Magno_Texto_3:
 .string "GROUDON rests here.\p"
-	.string "All we need to summon him is to\n"
+	.string "All we need to summon it is to\n"
 	.string "make the RED ORB shine once more.$"
 
 Magma3_Combate_Magno_Texto_4:
@@ -397,7 +397,7 @@ Magma3_Combate_Magno_Texto_17:
 Magma3_Combate_Magno_Texto_18:
 .string "MAXIE: GROUDON! Yes!\p"
 	.string "I remember! I must find that\n"
-	.string "BLUE SPHERE; there's so much to do!\p"
+	.string "BLUE ORB; there's so much to do!\p"
 	.string "We're going back to HOENN!$"
 
 Magma3_Combate_Magno_Texto_19:
@@ -415,12 +415,12 @@ Magma3_Combate_Magno_Texto_19.1:
 
 Magma3_Combate_Magno_Texto_19.2:
 	.string "That's the best solution for everyone,\n"
-	.string "even for him. Thanks to his new acquired\l"
-	.string "ignorance, he has a clear purpose once\l"
-	.string "again.$"
+	.string "even for him. Thanks to his newly\l"
+	.string "acquired ignorance, he has a clear\l"
+	.string "purpose once again.$"
 
 Magma3_Combate_Magno_Texto_19.3:
-	.string "Aand this time he won't endanger\n"
+	.string "And this time he won't endanger\n"
 	.string "anyone, even if he were to acquire\l"
 	.string "the BLUE ORB…$"
 

@@ -48,4 +48,4 @@ Ecruteak_ShopText_4:
 .string "Change…\n"
 .string "Change…\l"
 .string "And more change…\l"
-.string "Everything is in change!$"
+.string "Everything is changing!$"

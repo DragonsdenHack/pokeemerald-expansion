@@ -162,9 +162,9 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2:
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3:
 	.string "Wait! You are {PLAYER}, one of the\n"
-	.string "highest charges on TEAM ROCKET, that\l"
-	.string "made possible the assault on SILPH! Am\l"
-	.string "I wrong?$"
+	.string "highest in charge on TEAM ROCKET, who\l"
+	.string "made possible the assault on SILPH!\p"
+	.string "Am I wrong?$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_4:
 	.string "-{PLAYER} returned the 60 EEVEES\n"
@@ -214,9 +214,9 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 	.string "you it will be worthwhile.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
-	.string "Always able for everything! This is the\n"
-	.string "aptitude! I'm counting on you, EXECUTIVE\l"
-	.string "{PLAYER}! Both my colleague and I\l"
+	.string "Always ready for anything!\p"
+	.string "I trust in your aptitude and count\n"
+	.string "on you! Both my colleague and I\l"
 	.string "were given a large number of EEVEE\l"
 	.string "specimens by SILPH, which is one of the\l"
 	.string "rarest POKÉMON in the region. This was\l"
@@ -231,14 +231,14 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12:
 	.string "When I least expected it, overnight, my\n"
 	.string "colleague disappeared with all the\l"
-	.string "EEVEES, it's highly probably that he'll\l"
+	.string "EEVEES, it's highly probable that he'll\l"
 	.string "try to sell them on the black market,\l"
 	.string "where the EEVEE have an enormous\l"
 	.string "value, with the 70 EEVEES that SILPH\l"
 	.string "provided us, he could easily earn like\l"
 	.string "¥70,000,000; a million per EEVEE, that\l"
 	.string "is enough money to leave KANTO and\l"
-	.string "disappear forever without leaving a hint.$"
+	.string "disappear without leaving a trace.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_13:
 	.string "Not only has he left me stranded in the\n"
@@ -247,7 +247,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_13:
 	.string "one who must answer to SILPH, if this\l"
 	.string "isn't resolved and the EEVEES don't\l"
 	.string "show up, my entire career as a scientist\l"
-	.string "could finish within days. That's why,\l"
+	.string "could end within days. That's why,\l"
 	.string "{PLAYER}, I ask you to find that vile\l"
 	.string "scoundrel and retrieve the EEVEES\l"
 	.string "before it's too late and he sells them\l"

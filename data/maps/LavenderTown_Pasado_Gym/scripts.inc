@@ -795,7 +795,7 @@ LavenderTown_Pasado_Gym_Texto_46:
 LavenderTown_Pasado_Gym_Texto_47:
 	.string "Now, you could see it, smell it, feel it:\n"
 	.string "that GHOST TYPE that was always within\l"
-	.string "that VULPIX became materialized!$"
+	.string "that VULPIX became reality!$"
 
 LavenderTown_Pasado_Gym_Texto_48:
 	.string "AGATHA: Wow!$"
@@ -808,8 +808,8 @@ LavenderTown_Pasado_Gym_Texto_49:
 
 LavenderTown_Pasado_Gym_Texto_50:
 	.string "But no, it was very real. And it is the\n"
-	.string "form my NINETALES will maintain for\l"
-	.string "ever and ever.$"
+	.string "form my NINETALES will maintain since\l"
+	.string "then.$"
 
 LavenderTown_Pasado_Gym_Texto_51:
 	.string "His fur turned hard as pure steel. There\n"

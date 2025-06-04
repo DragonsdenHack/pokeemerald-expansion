@@ -116,7 +116,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_7:
 .string "YOU OBTAINED A LV.50 ZORUA-HISUI!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.1:
-	.string "Uh! I almost forgive it!\n"
+	.string "Uh! I almost forgot it!\n"
 	.string "Our old BADGE!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.2:

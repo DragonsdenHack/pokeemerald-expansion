@@ -298,15 +298,14 @@ BaseRocketHoennS3Documento_Text_109:
 	.string "SP. DEF: 83\l"
 	.string "SPEED: 75\l"
 	.string "TOTAL: 555\p"
-    .string "Pone en peligro a cualquier POKÉMON\n"
-	.string "enemigo, gracias a su combo\l"
-	.string "BROMISTA+MISMODESTINO, siempre que\l"
-	.string "quieran golpearlo estará en\l"
-	.string "disposición de llevarse por delante a\l"
-	.string "su rival. Fuera de ello, su\l"
-	.string "extraordinario ATAQUE (165), no puede\l"
-	.string "explotarse como es debido por la falta\l"
-	.string "de variedad y movimientos de potencia.$"
+	.string "It endangers any POKEMON, thanks to\n"
+	.string "its PRANKSTER+DESTINY BOND combo,\l"
+	.string "whenever they want to hit it, it will\l"
+	.string "always be able to carry away its rival.\p"
+	.string "Besides, his extraordinary base ATTACK\n"
+	.string "(165) cannot be exploited as it should\l"
+	.string "be due to the lack of variety and\l"
+	.string "powerful moves.$"
 
 
 

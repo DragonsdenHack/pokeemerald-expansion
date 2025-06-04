@@ -308,10 +308,10 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
 	.string "physiology is ancient.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
-	.string "The GRAND MASTER of BELL TOWER is one\n"
-	.string "the person that could help me. He saw\l"
-	.string "the LEGENDARY HO-OH and perfectly\l"
-	.string "mastered the healing properties of its\l"
+	.string "The GRAND MASTER of BELL TOWER is the\n"
+	.string "one who could help me.\p"
+	.string "He saw HO-OH and perfectly mastered\n"
+	.string "the healing properties of its\l"
 	.string "SACRED ASH, but to speak with him, I\l"
 	.string "have to climb to the top of BELL TOWER…$"
 
@@ -424,8 +424,8 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_23:
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_24:
 	.string "ALDER: Without your intervention,\n"
-	.string "{PLAYER} wouldn't have been able to\l"
-	.string "proceed.$"
+	.string "{PLAYER}, I wouldn't be been able\l"
+	.string "to proceed.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_25:
 .string "WARNING!\n"

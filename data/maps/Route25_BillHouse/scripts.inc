@@ -184,7 +184,7 @@ Route25_BillHouse_Evento_Policia_text_5:
 
 Route25_BillHouse_Evento_Policia_text_5.1:
 	.string "Your ingenuity amazes me; did you really\n"
-	.string "thought about a single ROCKET stealing\l"
+	.string "think about a single ROCKET stealing\l"
 	.string "from the great BILL the intellectual\l"
 	.string "property of his greatest inventions?\p"
 	.string "This is too much for you, ROCKET.$"

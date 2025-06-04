@@ -339,7 +339,7 @@ SilphS2_Text_17:
 	.string "Your move at the POKÉMON LEAGUE made a\n"
 	.string "huge difference for us. We're free from\l"
 	.string "LANCE's control, and now, we can keep\l"
-	.string "our secrets in this place. SILPH it's\l"
+	.string "our secrets in this place. SILPH is\l"
 	.string "like a second home for you and your\l"
 	.string "gang, ROCKET.$"
 

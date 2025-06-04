@@ -572,9 +572,9 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_11.3:
 	.string "from it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.1:
-	.string "Do you know? I'll also give you this TM;\n"
-	.string "someone like you surely knows how to\l"
-	.string "take advantage of it.$"
+	.string "Do you know waht? I'll also give\n"
+	.string "you this TM; someone like you surely\l"
+	.string "knows how to take advantage of it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2:
 	.string "{PLAYER} obtained TM94 TRICK ROOM\n"

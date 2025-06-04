@@ -179,7 +179,7 @@ SaffronCity_Estatua_Texto_2:
 .string "SAFFRON CITY GYM\n"
 	.string "LEADER: SABRINA\p"
 	.string "WINNER TRAINERS:\n"
-	.string "BLUE, RED, ANDRA y {PLAYER}$"
+	.string "BLUE, RED, ANDRA and {PLAYER}$"
 
 SaffronCity_Estatua_Texto_3:
 .string "SAFFRON CITY GYM\n"
@@ -418,10 +418,9 @@ Vermilion_City_Lider_Gimnasio_Texto_3:
 	.string "LANCE's fury blows up in your face.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_3.1:
-.string "Habrás ganado la batalla, pero\n"
-	.string "no la guerra.\p"
-	.string "La vida da muchas vueltas,\n"
-	.string "no lo olvides.$"
+	.string "You may have won the battle, but not\n"
+	.string "the war. Life takes many turns, don't\l"
+	.string "forget that.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_4:
 	.string "I am not going to tell you what the\n"

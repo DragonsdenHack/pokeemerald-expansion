@@ -1310,7 +1310,7 @@ RocketHideout7FDocumento_Text_127:
 	.string "to maintain a BASE 135 in SP.ATK, more\l"
 	.string "than enough to sweep opponents using\l"
 	.string "EARTH POWER or SLUDGE BOMB as main STABs.\p"
-	.string "Unlockes 99% of the latent potential in\n"
+	.string "Unlocks 99% of the latent potential in\n"
 	.string "NIDOQUEEN, at the only cost of reducing\l"
 	.string "its PHYSICAL ATTACK to a BASE 52.$"
 
@@ -2584,11 +2584,11 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_1.1:
 	.string "remains totally the same.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_2:
-.string "Anyway, in JOHTO must be the answer.\p"
+.string "Anyway, the answer must be in JOHTO.\p"
 	.string "LUGIA and HO-OH went back to their\n"
 	.string "original region, I'm sure, maybe in\l"
-	.string "ECRUTEAK CITY, WHIRL ISLANDS{PAUSE 15}…{PAUSE 15}\l"
-	.string "Has been possible to see POKÉMON in\l"
+	.string "ECRUTEAK CITY, WHIRL ISLANDS{PAUSE 15}…{PAUSE 15}\p"
+	.string "It has been possible to see POKÉMON in\n"
 	.string "those places in the past. Maybe we would\l"
 	.string "be able to find some answers that could\l"
 	.string "lead us to discover ESSENCE POKÉMON.$"
@@ -2642,7 +2642,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_10:
 RocketHideout_7F_Fuerte_Vinculo_Texto_11:
 	.string "That's right, my RHYPERIOR.\p"
 	.string "You shouldn't confuse this POKÉMON\n"
-	.string "the others genetic creations.\p"
+	.string "with the others genetic creations.\p"
 	.string "No, that's different. This POKÉMON was\n"
 	.string "and still is my RHYHORN, the very same\l"
 	.string "who's been with me for decades; it\l"
@@ -2698,7 +2698,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_19:
 	.string "But the most interesting thing is that\n"
 	.string "the HP stat, which is associated with\l"
 	.string "the nucleus of a POKÉMON's genetics,\l"
-	.string "also saw as the non-variable essence\l"
+	.string "also seen as the non-variable essence\l"
 	.string "of them. That stat got modified.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_20:

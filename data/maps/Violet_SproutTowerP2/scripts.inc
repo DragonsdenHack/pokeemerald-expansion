@@ -346,7 +346,7 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
 .string "Oh!\p"
-	.string "So FALKNER sends you?\n"
+	.string "So FALKNER sent you?\n"
 	.string "He must have seen something special in\l"
 	.string "you to send you here. Knowing that I'll\l"
 	.string "be your trial to access something as\l"

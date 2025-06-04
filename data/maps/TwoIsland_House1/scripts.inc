@@ -50,7 +50,7 @@ TwoIslandHouse1_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 TwoIslandHouse1_Texto_3:
-	.string "Do you enter here by force? I will show\n"
+	.string "You wanna enter by force? I will show\n"
 	.string "you how to get kicked out of here!$"
 
 TwoIslandHouse1_Texto_4:

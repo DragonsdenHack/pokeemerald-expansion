@@ -77,7 +77,7 @@ end
 Ecruteak_DanceTheater_Text_5:
 	.string "According to legend, each evolution of\n"
 	.string "the seven EEVEEs represents one of the\l"
-	.string "swven colors of HO-OH's rainbow,\l"
+	.string "seven colors of HO-OH's rainbow,\l"
 	.string "although I suspect there are more than\l"
 	.string "seven distinct EEVEE evolutions.$"
 

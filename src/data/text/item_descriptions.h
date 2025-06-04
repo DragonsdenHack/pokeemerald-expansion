@@ -933,7 +933,7 @@ static const u8 sBlackApricornDesc[] = _(
     "scribable scent.");
 
 static const u8 sWishingPieceDesc[] = _(
-    "Raises Ho-Ho's\n"
+    "Raises Ho-Oh's\n"
    	"Attack and Defense\n"
    	"up to a 20%.");
 
@@ -2471,8 +2471,9 @@ static const u8 sRazorFangDesc[] = _(
    	"up to a 30%.");
 
 static const u8 sEvioliteDesc[] = _(
-    "Raises {PKMN}'s\n"
-    "defenses to 50%.");
+    "+50 both Defenses\n"
+    "in {PKMN}'s who can\n"
+    "evolve yet.");
 
 static const u8 sFloatStoneDesc[] = _(
     "Reduce el peso a la\n"
@@ -3247,8 +3248,8 @@ static const u8 sTM67Desc[] = _( // Todo
 
 static const u8 sTM68Desc[] = _( // Todo
     "An attack that\n"
-   	"leaves the with\n"
-   	"at least 1 HP.");
+   	"leaves the Pokémon\n"
+   	"with at least 1 HP.");
 
 static const u8 sTM69Desc[] = _( // Todo
     "Shoots boiling water\n"
@@ -4133,9 +4134,8 @@ static const u8 sHM01Desc[] = _(
     "or claws.");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "Flies up and strikes\n"
+    "in the same turn.");
 
 static const u8 sHM03Desc[] = _(
     "Creates a huge\n"
@@ -4429,7 +4429,7 @@ static const u8 sMagmaEmblemDesc[] = _(
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"
     "for entering\n"
-    "Pokémon Contests.");
+    "Safari Zone.");
 
 static const u8 sOaksParcelDesc[] = _(
     "A parcel for Prof.\n"

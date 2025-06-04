@@ -215,10 +215,10 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3:
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4:
 	.string "We gotta be glad nobody's messed up\n"
-	.string "this place yet. I know about lot of\l"
-	.string "scientists who'd kill to sell a piece like\l"
-	.string "this to anyone, anywhere, even those\l"
-	.string "TEAM ROCKET losers.$"
+	.string "this place yet. I know about lots of\l"
+	.string "scientists who'd kill to sell a piece\l"
+	.string "like this to anyone, anywhere, even\l"
+	.string "those TEAM ROCKET losers.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4.1:
 	.string "Don't worry, KYOGRE!\p"
@@ -264,7 +264,7 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_8:
 .string "HR.SILVINE: With pleasure, SIR.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_9:
-	.string "ARCHIE: I hope you don't make the\n"
+	.string "ARCHIE: I hope you won't make the\n"
 	.string "mistake of trying to follow me. You\l"
 	.string "should have been taught to respect the\l"
 	.string "sea and its dangers from a young age.\p"

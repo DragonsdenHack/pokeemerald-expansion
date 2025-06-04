@@ -37,10 +37,10 @@ SilphS1_Text_2:
 	.string "I never thought I would say this, but I\n"
 	.string "extend my respects to a TEAM ROCKET\l"
 	.string "member. Thanks to you, tyranny in this\l"
-	.string "region has finished. I feel ashamed of\l"
-	.string "all the police officers who worked for\l"
-	.string "LANCE and collaborated in that damned\l"
-	.string "masked dictatorship.$"
+	.string "region is gone. I feel ashamed of all\l"
+	.string "the police officers who worked for\l"
+	.string "LANCE and collaborated in that\l"
+	.string "damned masked dictatorship.$"
 
 
 

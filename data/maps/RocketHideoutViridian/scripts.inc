@@ -533,7 +533,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "easily…$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:
-	.string "Imma go back to CHRONO ISLAND,\n"
+	.string "I'm gonna go back to CHRONO ISLAND,\n"
 	.string "{PLAYER}, maybe someday you have a\l"
 	.string "chance to walk around there, I will tell\l"
 	.string "GIOVANNI about your triumph here.$"

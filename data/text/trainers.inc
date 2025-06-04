@@ -11008,9 +11008,9 @@ SilphS2_Text_PoliciaPostBattle:
 
 
 SilphS2_Text_CientificoIntro:
-	.string "After his defeat in SILPH, it is said\n"
-	.string "BILL isolated himself in his laboratory\l"
-	.string "for a whole week.$"
+	.string "After his defeat in SILPH, it has been\n"
+	.string "said that BILL isolated himself in his\l"
+	.string "laboratory for a whole week.$"
 
 
 
@@ -11346,12 +11346,13 @@ WestBirthIsland_Text_MontaneroPostBattle:
 	.string "close connection to the ALPHA RUINS in\l"
 	.string "JOHTO, perhaps this place it's key to\l"
 	.string "unleash an indescribable and ancestral\l"
-	.string "power...$"
+	.string "power…$"
 
 
 CinnabarMansionS1_Text_CientificoIntro:
-	.string "Why bother OAK when I can be the one to\n"
-	.string "instruct you here and now?$"
+	.string "Why bother OAK when I can be the one\n"
+	.string "who will teach you a lesson here\l"
+	.string "and now?$"
 
 
 
@@ -11398,15 +11399,15 @@ CinnabarMansionS2_Text_Cientifico2Intro:
 
 CinnabarMansionS2_Text_Cientifico2Defeated:
 	.string "The strength of your POKÉMON doesn't\n"
-	.string "care us.$"
+	.string "scare us.$"
 
 
 
 CinnabarMansionS2_Text_Cientifico2PostBattle:
-	.string "You can't win this game just being the\n"
-	.string "most powerful trainer, something you\l"
-	.string "don't even have now, as OAK has finally\l"
-	.string "managed to assemble a perfect team.$"
+	.string "You can't win this game just by being\n"
+	.string "the most powerful trainer, which you\l"
+	.string "are not since OAK finally managed to\l"
+	.string "assemble the perfect team.$"
 
 
 CinnabarMansionS2_Text_Cientifico3Intro:
@@ -16233,8 +16234,8 @@ TwoIsland_Text_Biker2Defeated:
 	.string "No way!$"
 
 TwoIsland_Text_Biker2PostBattle:
-	.string "Up there, you might find something you\n"
-	.string "don't like.$"
+	.string "You might find something you\n"
+	.string "won't like up there.$"
 
 TwoIsland_Torre_P2_Text_BikerIntro:
 	.string "The JOYFUL GAME CORNER's around here\n"
@@ -16264,14 +16265,14 @@ TwoIsland_Torre_P2_Text_CalvoPostBattle:
 	.string "one of your POKÉMON with EXPLOSION.$"
 
 TwoIsland_Torre_P3_Text_CalvoIntro:
-	.string "It's finished; I'm going to crush you\n"
-	.string "using raw force.$"
+	.string "You're finished; I'm going to\n"
+	.string "crush you using raw force.$"
 
 TwoIsland_Torre_P3_Text_CalvoDefeated:
 	.string "URSARING! Keep fighting!$"
 
 TwoIsland_Torre_P3_Text_CalvoPostBattle:
-	.string "Do you believe you can come here and\n"
+	.string "Do you think you can come here and\n"
 	.string "act however you please?$"
 
 TwoIsland_Torre_P3_Text_RocketIntro:

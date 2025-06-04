@@ -94,7 +94,7 @@ Magma1_Combate_Admin_Texto_2:
 	.string "the best team of FIRE and GROUND-type\l"
 	.string "POKÉMON possible, solely as a\l"
 	.string "preparation to deem himself worthy of\l"
-	.string "being in GROUDON presence.$"
+	.string "being in GROUDON's presence.$"
 
 Magma1_Combate_Admin_Texto_3:
 .string "{PAUSE 5}…{PAUSE 5}$"
@@ -131,7 +131,7 @@ Magma1_Combate_Admin_Texto_8:
 .string "Did you hear that?\p"
 	.string "GROUDON is about to awaken!\p"
 	.string "It makes no sense to stay here.\p"
-	.string "I must return to our nave and prepare\n"
+	.string "I must return to our ship and prepare\n"
 	.string "everything for our return to HOENN.$"
 
 Magma1_Combate_Admin_Texto_8.1:

@@ -179,8 +179,8 @@ end
 SouthRoute45_SudowoodoRest_Text:
 	.string "…\n"
 	.string "…\p"
-	.string "-Es un POKÉMON, parece\n"
-	.string "estar reposando-.$"
+	.string "-It's a POKÉMON.\p"
+	.string "It seems to be resting.-$"
 
 SouthRoute45_Evento_Encinar::
 lock

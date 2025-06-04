@@ -346,13 +346,13 @@ Aqua3_Combate_Aquiles_Texto_3:
 	.string "KYOGRE sleeps in the depths of this\n"
 	.string "small lake. Such a POKÉMON destined to\l"
 	.string "rule the oceans…{PAUSE 30} confined to this\l"
-	.string "puddle for millennia…{PAUSE 30} is sacrilege that\l"
-	.string "I will end right now.$"
+	.string "puddle for millennia…{PAUSE 30} is a sacrilege\l"
+	.string "that I will end right now.$"
 
 Aqua3_Combate_Aquiles_Texto_3.1:
-	.string "I will end right now. I just need to make\n"
-	.string "the BLUE ORB shine one last time, and\l"
-	.string "KYOGRE will make its appearance.$"
+	.string "I just need to make the BLUE ORB\n"
+	.string "shine one last time, and KYOGRE\l"
+	.string "will make its appearance.$"
 
 Aqua3_Combate_Aquiles_Texto_3.2:
 	.string "Watch out, ROCKET! You won't see\n"
@@ -380,7 +380,7 @@ Aqua3_Combate_Aquiles_Texto_5:
 	.string "lead to your downfall.$"
 
 Aqua3_Combate_Aquiles_Texto_6:
-	.string "I've been through many and very\n"
+	.string "I've been through many very\n"
 	.string "dangerous adventures, but all of\l"
 	.string "them have made my team better.$"
 
@@ -481,8 +481,8 @@ Aqua3_Combate_Aquiles_Texto_21.1:
 	.string "POKÉMON named WISHIWASHI?$"
 
 Aqua3_Combate_Aquiles_Texto_21.2:
-	.string "Exactly, he'll start making questions,\n"
-	.string "and we'll return to the cycle.$"
+	.string "Exactly, he'll start to wonder\n"
+	.string "and restart the cycle.$"
 
 Aqua3_Combate_Aquiles_Texto_22:
 	.string "Either way, both were wrong.$"
@@ -490,8 +490,8 @@ Aqua3_Combate_Aquiles_Texto_22:
 Aqua3_Combate_Aquiles_Texto_23:
 	.string "More land, more water…{PAUSE 30} What a dumb\n"
 	.string "idea. Only the creator of everything\l"
-	.string "has the authority to decide about the\l"
-	.string "entire planet.$"
+	.string "has the authority to make decisions\l"
+	.string "about the entire planet.$"
 
 Aqua3_Combate_Aquiles_Texto_24:
 	.string "Sorry, {PLAYER}, but I didn't give you\n"

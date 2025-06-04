@@ -335,8 +335,8 @@ EventScript_Cyndaquil_Texto_1:
 	.string "It will cost 4,200 COINS.$"
 
 EventScript_Larvitar_Texto_1:
-.string "Do you want LARVITAR?\n"
-	.string "It will cost 5,500 COINS.$"
+.string "Do you want HITMONTOP?\n"
+	.string "It will cost 4,500 COINS.$"
 
 EventScript_Bagon::
 lock

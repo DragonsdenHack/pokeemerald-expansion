@@ -444,8 +444,8 @@ RocketHideout4F_Text_6:
 .string "Be sure to maintain distance and\n"
 	.string "respect if you talk to our LEADER,\l"
 	.string "grunt. If there is something that\l"
-	.string "defines us is our impeccable fulfillment\l"
-	.string "of the protocol.$"
+	.string "defines us, it's our impeccable\l"
+	.string "fulfillment of the protocol.$"
 
 
 
@@ -3150,7 +3150,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8:
 	.string "know what happened in the HALL OF FAME.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8.1:
-	.string "Now get off my sight!$"
+	.string "Now get out of my sight!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9:
 .string "PROTON: SIR, do you believe we are doing\n"

@@ -24,9 +24,9 @@ TwoIsland_Torre_P3_Cientifico_Texto_1:
 	.string "The few scientists you'll find on this\n"
 	.string "island are here for archaeological\l"
 	.string "purposes. This building is an exception;\l"
-	.string "from in here, it might seem like we're in\l"
-	.string "KANTO. Maybe we can import a bit of that\l"
-	.string "region to this island.$"
+	.string "From this place, it looks as if we were\l"
+	.string "in KANTO. Maybe we can import a bit\l"
+	.string "of that region to this island.$"
 
 TwoIsland_Torre_P3_Cientifico_2::
 lock

@@ -1307,10 +1307,11 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "dragon-type tamer lineage{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Silph_text_17.1:
-	.string "{PAUSE 15}…{PAUSE 15}since young, he was educated in the\n"
-	.string "art of training, for many, the strongest\l"
-	.string "and holiest type, showed a huge talent\l"
-	.string "for unleashing the maximum power of\l"
+	.string "{PAUSE 15}…{PAUSE 15}since he was young, he\n"
+	.string "trained with what seemed for many,\l"
+	.string "the strongest and holiest type,\l"
+	.string "he showed a huge talent for\l"
+	.string "unleashing the maximum power of\l"
 	.string "DRAGONITE, considered the most\l"
 	.string "powerful NON-LEGENDARY POKÉMON,\l"
 	.string "surpassing even the power of the\l"
@@ -1411,9 +1412,9 @@ RocketHideout_8F_Mision_Silph_text_25:
 RocketHideout_8F_Mision_Silph_text_25.1:
 	.string "FUJI took the lead in this project,\n"
 	.string "being the one who knew the POKÉMON\l"
-	.string "better than anyone else, due to him,\l"
-	.string "we managed to reach FARAWAY ISLAND\l"
-	.string "and capture MEW.$"
+	.string "better than anyone else.\p"
+	.string "Thanks to him, we managed to reach\n"
+	.string "FARAWAY ISLAND and capture MEW.$"
 
 RocketHideout_8F_Mision_Silph_text_25.2:
 	.string "MEW, on its own, wouldn't secure our\n"
@@ -1423,9 +1424,9 @@ RocketHideout_8F_Mision_Silph_text_25.2:
 
 RocketHideout_8F_Mision_Silph_text_25.3:
 	.string "It was at that moment when the - MEWTWO\n"
-	.string "PROJECT - born. With the only goal to\l"
-	.string "maximize the MEW's potential, and use\l"
-	.string "it in the war.$"
+	.string "PROJECT - was born. With the only goal\l"
+	.string "to maximize MEW's potential, and\l"
+	.string "use it in the war.$"
 
 RocketHideout_8F_Mision_Silph_text_25.4:
 	.string "It was not easy, the results left\n"
@@ -1502,11 +1503,11 @@ RocketHideout_8F_Mision_Silph_text_32:
 RocketHideout_8F_Mision_Silph_text_33:
 	.string "LANCE wasted no time launching a\n"
 	.string "tremendous smear campaign against me.\p"
-	.string "Despite I have gave my best to keep\n"
-	.string "KANTO in the hands of its habitants,\l"
-	.string "LANCE managed to convince the public\l"
-	.string "opinion that I was the villain, and he\l"
-	.string "was the savior; according to the\l"
+	.string "Despite the fact that I did my best to\n"
+	.string "keep KANTO in the hands of its habitants,\l"
+	.string "LANCE managed to make me a villain to\l"
+	.string "the eyes of the public, and he pictured\l"
+	.string "himself as a savior; according to the\l"
 	.string "official version, LANCE only had to\l"
 	.string "intervene after a blatant coup attempt\l"
 	.string "on my part when I sought to revenew my\l"
@@ -1603,9 +1604,9 @@ RocketHideout_8F_Mision_Silph_text_43:
 	.string "after escaping from CINNABAR ISLAND…$"
 
 RocketHideout_8F_Mision_Silph_text_44:
-	.string "But that is not the most important\n"
-	.string "objective of our assault on SILPH. I\l"
-	.string "want everything to go perfectly, so\l"
+	.string "But that is not the main objective\n"
+	.string "of our assault on SILPH.\p"
+	.string "I want everything to go perfectly, so\n"
 	.string "that in the eyes of the population,\l"
 	.string "TEAM ROCKET appears to be defeated.\p"
 	.string "They should lose sight of us just when\n"
@@ -2882,7 +2883,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_5:
 	.string "We must explore every option!\p"
 	.string "I can't send tons of ROCKET GRUNTs\n"
 	.string "to comb through every corner of\l"
-	.string "LAVENDER TOWN, just to looking for\l"
+	.string "LAVENDER TOWN, just to look for\l"
 	.string "some ancient hidden passage; that\l"
 	.string "would raise too many suspicions.$"
 
@@ -3066,8 +3067,8 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
 	.string "definitely a lot we still don't know.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.1:
-	.string "The fact of having MEW, missed since we\n"
-	.string "created MEWTWO{PAUSE 15}…{PAUSE 15}$"
+	.string "The fact that MEW has been missing\n"
+	.string "ever since we created MEWTWO{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5.2:
 	.string "That's the reason TEAM ROCKET was\n"
@@ -3096,7 +3097,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_7.2:
 	.string "This 'TEN ISLAND' is called NAVEL ROCK.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8:
-	.string "LUGIA and HO-OH have power on par with\n"
+	.string "LUGIA and HO-OH have powers on par with\n"
 	.string "MEWTWO. Our emergency plan to save\l"
 	.string "KANTO after MEWTWO's escape was to\l"
 	.string "locate these two POKÉMON.$"
@@ -3109,8 +3110,8 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.1:
 	.string "discovery.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8.2:
-	.string "A tenth island, just in the center of\n"
-	.string "the 7, covered by strong tides and\l"
+	.string "A 10th island, just in the center of\n"
+	.string "the 7th, covered by strong tides and\l"
 	.string "hiding an unexplored cave.$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_9:
@@ -3672,9 +3673,10 @@ RocketHideout8F_Mision_Johto_Text_29.1:
 
 RocketHideout8F_Mision_Johto_Text_1:
 .string "ANDRA: {PLAYER}! You are tireless! I\n"
-	.string "was ready to enter forcing the door to\l"
+	.string "was ready to enter forcing the door of\l"
 	.string "CINNABAR MANSION, then you went in\l"
-	.string "defeating everyone before!$"
+	.string "defeating everyone before I could\l"
+	.string "do anything!$"
 
 RocketHideout8F_Mision_Johto_Text_2:
 .string "GIOVANNI: You both have given TEAM\n"
@@ -3700,9 +3702,10 @@ RocketHideout8F_Mision_Johto_Text_5:
 RocketHideout8F_Mision_Johto_Text_6:
 .string "ANDRA: I'm sure, I don't need them to\n"
 	.string "build my best team.$"
-
+ 
 RocketHideout8F_Mision_Johto_Text_7:
-.string "GIOVANNI: It is your will, so be it.$"
+.string "GIOVANNI: If it is what you wish\n"
+.string "for, so be it.$"
 
 RocketHideout8F_Mision_Johto_Text_8:
 .string "You should know, {PLAYER}, that when\n"
@@ -3714,11 +3717,11 @@ RocketHideout8F_Mision_Johto_Text_8:
 
 RocketHideout8F_Mision_Johto_Text_9:
 .string "As one of the BOSS ADMIN, you are\n"
-	.string "entitled to a specimen of each one. I\l"
-	.string "hope it doesn't bring back painful\l"
+	.string "entitled to a specimen of each type.\p"
+	.string "I hope it doesn't bring back painful\n"
 	.string "memories for you about your fight\l"
-	.string "against LANCE. Keep in mind that those\l"
-	.string "are clones.$"
+	.string "against LANCE.\p"
+	.string "Keep in mind that those are clones.$"
 
 RocketHideout8F_Mision_Johto_Text_10:
 .string "YOU OBTAINED A RAIKOU AT LV:70!!$"
@@ -3736,16 +3739,15 @@ RocketHideout8F_Mision_Johto_Text_13:
 RocketHideout8F_Mision_Johto_Text_14:
 .string "With MEWTWO in our hands, KANTO BIRDS\n"
 	.string "clones and JOHTO BEASTS, TEAM ROCKET\l"
-	.string "has reached a power greater than\l"
-	.string "months ago we could dream.$"
-	
+	.string "has reached a power greater than we\l"
+	.string "could even dream of months ago.$"
 
 RocketHideout8F_Mision_Johto_Text_15:
 .string "OAK arrested, LANCE stranded{PAUSE 15}…{PAUSE 15} KANTO is\n"
 	.string "totally under our control, finally we\l"
 	.string "will be able to bring back all the\l"
-	.string "splendor the region had before war,\l"
-	.string "that will require just time, which is why\l"
+	.string "splendor the region had before the war,\l"
+	.string "it will require time, which is why\l"
 	.string "your destinies are far away from here.$"
 
 RocketHideout8F_Mision_Johto_Text_16:
@@ -3760,20 +3762,20 @@ RocketHideout8F_Mision_Johto_Text_17:
 
 RocketHideout8F_Mision_Johto_Text_18:
 .string "ANDRA! Now you will manage the TEAM\n"
-	.string "ROCKET on HOENN region! You are\l"
-	.string "promoted to BOSS ADMIN ROCKET and\l"
-	.string "HOENN LEADER!$"
+	.string "ROCKET in the HOENN region!\p"
+	.string "You are promoted to BOSS ADMIN\n"
+	.string "ROCKET and HOENN LEADER!$"
 
 RocketHideout8F_Mision_Johto_Text_19:
 .string "ANDRA: Wow!\n"
 	.string "I can't believe it!$"
 
 RocketHideout8F_Mision_Johto_Text_20:
-.string "Our branch at HOENN is not totally built\n"
-	.string "yet, but you can settle there at least\l"
-	.string "ANDRA, unfortunately, the distance\l"
-	.string "between both regions prevents to use\l"
-	.string "teleportation technology to send you\l"
+    .string "Our HOENN branch isn't completely done\n"
+	.string "yet, but you can at least settle there,\l"
+	.string "ANDRA. Unfortunately, the distance\l"
+	.string "between both regions prevent the use\l"
+	.string "of our teleportation to get you\l"
 	.string "there, but do not worry about that, we\l"
 	.string "have a FERRY on VERMILION waiting for\l"
 	.string "you.$"
@@ -3783,11 +3785,11 @@ RocketHideout8F_Mision_Johto_Text_21:
 	.string "ANCESTRAL POKÉMON, ANDRA, which is\l"
 	.string "why I am sending you to HOENN, we will\l"
 	.string "dust off that region's mysteries, which\l"
-	.string "are probably a lot.$"
+	.string "there are probably a lot of.$"
 
 RocketHideout8F_Mision_Johto_Text_22:
-.string "ANDRA: I guess you mean about those\n"
-	.string "RUINS that you can look at the DESERT,\l"
+.string "ANDRA: I guess you mean those RUINS\n"
+	.string "that you can look at the DESERT,\l"
 	.string "at DEWFORD TOWN north and at ROUTE\l"
 	.string "120.$"
 
@@ -3797,18 +3799,19 @@ RocketHideout8F_Mision_Johto_Text_23:
 	.string "you ANDRA, HOENN is waiting for you.$"
 
 RocketHideout8F_Mision_Johto_Text_24:
-.string "ANDRA: Do not expect that I will use\n"
-	.string "exotic LEGENDARIES from HOENN in our\l"
-	.string "next fight, {PLAYER}; I told you that\l"
-	.string "I will be the best just using NO\l"
-	.string "LEGENDARIES, and I am going to keep it.\p"
+    .string "ANDRA: Do not expect me to use any of\n"
+	.string "those exotic LEGENDARIES from HOENN in\l"
+	.string "our next fight, {PLAYER}; I told you\l"
+	.string "that I will be the best just using NO\l"
+	.string "LEGENDARIES, and I am going to keep\l"
+	.string "my word.\p"
 	.string "I hope someday you visit HOENN, maybe I\n"
-	.string "could go around for JOHTO, if the\l"
+	.string "could come around in JOHTO, if the\l"
 	.string "situation requires it!$"
 
 RocketHideout8F_Mision_Johto_Text_25:
-.string "GIOVANNI: Well, {PLAYER}, you know\n"
-	.string "there are a lot loose ends that are not\l"
+.string "GIOVANNI: Well, {PLAYER}, you know there\n"
+	.string "are a lot of loose ends that are not\l"
 	.string "solved because OAK interrupted us, but\l"
 	.string "you should know before going to JOHTO.$"
 
@@ -3816,9 +3819,8 @@ RocketHideout8F_Mision_Johto_Text_26:
 .string "First, take this.$"
 
 RocketHideout8F_Mision_Johto_Text_27:
-.string "With this MAP, you could locate yourself\n"
-	.string "as you should be, inside a totally new\l"
-	.string "region for you.$"
+.string "With this MAP, you'll be able to locate\n"
+	.string "yourself inside a totally new region.$"
 
 RocketHideout8F_Mision_Johto_Text_28:
 .string "Now, this is not the adequate place to\n"
@@ -3834,10 +3836,10 @@ RocketHideout8F_Mision_Johto_Text_28:
 
 RocketHideout8F_Mision_Johto_Text_29:
 .string "GIOVANNI: A last thing, {PLAYER}.\p"
-	.string "Since now, you are in charge of TEAM\n"
-	.string "ROCKET in the JOHTO region! You are\l"
-	.string "promoted to BOSS ADMIN ROCKET and\l"
-	.string "JOHTO LEADER!$"
+	.string "From now on, you are in charge of\n"
+	.string "TEAM ROCKET in the JOHTO region!\p"
+	.string "You are promoted to BOSS ADMIN\n"
+	.string "ROCKET and JOHTO LEADER!$"
 
 RocketHideout8F_Mision_Johto_move_1:
 walk_up

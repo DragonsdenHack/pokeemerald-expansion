@@ -254,14 +254,15 @@ MtEmber_B5F_Encuentro_Magno_Texto_3:
 	.string "connection.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3.1:
-	.string "Such sacrilege would only\n"
-	.string "have matched by his ignorance.$"
+	.string "Such sacrilege could only be\n"
+	.string "matched by his ignorance.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_4:
 	.string "Fortunately, this RUBY has fallen into\n"
-	.string "the right hands; we'll give it the true\l"
-	.string "use, the purpose, for which it was\l"
-	.string "created. Watch!$"
+	.string "the right hands; We'll use it for its\l"
+	.string "true purpose, the one for which it was\l"
+	.string "created.\p"
+	.string "Watch!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_5:
 	.string "If we combine both items, the RED ORB\n"
@@ -271,7 +272,7 @@ MtEmber_B5F_Encuentro_Magno_Texto_5:
 MtEmber_B5F_Encuentro_Magno_Texto_6:
 .string "So close… GROUDON.\p"
 	.string "Your power has been restrained\n"
-	.string "for a long time, but no more…$"
+	.string "for too long, but no more…$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"

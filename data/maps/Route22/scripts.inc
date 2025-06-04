@@ -211,8 +211,9 @@ Route22_Combate_Azul_Texto_9.1:
 	.string "She defeated ARCHER{PAUSE 15}…{PAUSE 15} must also have a\n"
 	.string "good team, and she plans to challenge\l"
 	.string "the ELITE 4, too.\p"
-	.string "Maybe she's at INDIGO PLATEAU yet, can\n"
-	.string "help me to level up a few levels more.$"
+	.string "Maybe she's not yet at INDIGO PLATEAU,\n"
+	.string "might help help me to level up a few\l"
+	.string "levels more.$"
 
 Route22_Combate_Azul_Texto_10:
 	.string "Bah, Imma head out, {PLAYER}.\p"

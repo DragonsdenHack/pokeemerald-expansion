@@ -436,14 +436,15 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
 	.string "know it?$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
-	.string "Nobody outside of this company has\n"
-	.string "ever entered here, and only our most\l"
+	.string "Nobody outside of our company has ever\n"
+	.string "entered this place, and only our most\l"
 	.string "prominent employees can enter there,\l"
 	.string "except for our PRESIDENT…$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
-	.string "He has expressly made it known that you\n"
-	.string "are welcome to enter whenever you want.$"
+	.string "He has expressly whenever you wish\n"
+	.string "that you are welcome to enter\l"
+	.string "whenever you want.$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6:
 	.string "From now on, you will be able to access\n"

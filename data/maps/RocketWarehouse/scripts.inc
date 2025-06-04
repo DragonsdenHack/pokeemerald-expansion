@@ -1025,7 +1025,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas7.1:
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
 	.string "I believed my skills were sufficient to\n"
 	.string "face the challenge, MR.ARCHER.\p"
-	.string "But I didn't count with that MAREEP\n"
+	.string "But I didn't count on that MAREEP\n"
 	.string "and its THUNDERSHOCK. I failed.$"
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:

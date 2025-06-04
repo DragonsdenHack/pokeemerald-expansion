@@ -49,7 +49,7 @@ end
 
 CinnabarMansionS1_Text_4:
 	.string "If they can't take you down, you can\n"
-	.string "bounce back from the toughest hits and\l"
+	.string "bounce back from the hardest of hits and\l"
 	.string "come back even stronger than before.\l"
 	.string "The way we've kept this place going and\l"
 	.string "finally finished our big project despite\l"
@@ -326,8 +326,8 @@ CinnabarMansionS1_Dalia_Texto_21:
 CinnabarMansionS1_Dalia_Texto_22:
 	.string "Then and only then would LANCE trust\n"
 	.string "entirely in one of them: the only ones\l"
-	.string "with the real chance of recovering\l"
-	.string "KANTO.$"
+	.string "with the real chance of making KANTO\l"
+	.string "recover.$"
 
 CinnabarMansionS1_Dalia_Texto_23:
 	.string "Besides.$"

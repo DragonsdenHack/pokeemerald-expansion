@@ -254,11 +254,11 @@ PokemonTower1F_Agatha_Texto_4:
 	.string "closed.$"
 
 PokemonTower1F_Agatha_Texto_5:
-	.string "Most ended up forgetting them with the\n"
-	.string "years.$"
+	.string "Most ended up forgetting them more\n"
+	.string "every year as life continued.$"
 
 PokemonTower1F_Agatha_Texto_6:
-	.string "By these days, even CHANNELERS\n"
+	.string "These days, even CHANNELERS\n"
 	.string "steer clear of it.$"
 
 PokemonTower1F_Agatha_Texto_7:
@@ -275,8 +275,8 @@ PokemonTower1F_Agatha_Texto_9:
 	.string "Now, I'm retiring, {PLAYER}.$"
 
 PokemonTower1F_Agatha_Texto_10:
-	.string "When you get my age, you'll realize that\n"
-	.string "these things aren't for everybody.$"
+	.string "When you get to my age, you'll realize\n"
+	.string "that these things aren't for everybody.$"
 
 PokemonTower1F_Agatha_Texto_11:
 	.string "And, to be honest, I would rather put my\n"
