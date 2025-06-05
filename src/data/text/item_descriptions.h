@@ -4395,60 +4395,60 @@ static const u8 sOaksParcelDesc[] = _(
     "Mart's clerk.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "HOENN BASE key,\n"
-   	"opens the room of\n"
-   	"its LEADER.");
+    "Chiave HOENN BASE,\n"
+   	"apre la stanza del\n"
+   	"suo LEADER.");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the Bike Shop.");
+    "Buono per una\n"
+    "Bicltta al Negozio\n"
+    "di Bici di Celest.");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the Safari\n"
-    "Zone's Warden.");
+    "Dentiera scntllnte,\n"
+    "persa Guardiano\n"
+    "della Zona Safari.");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in Silph\n"
-    "Co's office.");
+    "Chiave di porta a\n"
+    "scheda utilizzata\n"
+    "in SILPH SpA.");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in Team\n"
-    "Rocket's Hideout.");
+    "Chiave ascensore\n"
+    "nel RIFUGIO\n"
+    "di TEAM ROCKET.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "Silph Co's scope\n"
-    "makes unseeable\n"
-    "POKÉMON visible.");
+    "Rivela i POKéMON\n"
+    "invisibili, prodotta\n"
+    "dalla SILPH SpA.");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between One, Two,\n"
-    "and Three Island.");
+    "Consente al gcatore\n"
+    "di avere accesso le\n"
+    "prime tre Settiplgo.");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "Vermilion and the\n"
-    "Sevii Islands.");
+    "Consente al gcatore\n"
+    "di avere accesso\n"
+    "all'intero Settiplgo.");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+    "Bevanda calda\n"
+    "che è buona\n"
+    "per dissetarsi.");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+    "Gemma di un rosso\n"
+    "scintillante,\n"
+    "simb la passione.");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+    "Magnifica gemma\n"
+    "blu, simboleggia\n"
+    "l'ontestà.");
 
 static const u8 sMintDesc[] = _(
-    "Mint for to change\n"
-    "nature's POKÉMON.");	
+    "Menta per cambiare\n"
+    "natura.");	
