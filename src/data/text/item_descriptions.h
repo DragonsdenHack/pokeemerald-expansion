@@ -4148,9 +4148,9 @@ static const u8 sRotomCatalogDesc[] = _( // Todo
     "?????");
 
 static const u8 sGracideaDesc[] = _(
-    "Bouquets made with\n"
-    "it are offered as a\n"
-    "token of gratitude.");
+    "Un fiore, esprime\n"
+    "gratitudine in\n"
+    "occasioni speciali.");
 
 static const u8 sRevealGlassDesc[] = _( // Todo
     "?????");
@@ -4171,101 +4171,100 @@ static const u8 sNLunarizerDesc[] = _( // Todo
     "?????");
 
 static const u8 sReinsOfUnityDesc[] = _( // Todo
-    "Reins that unite\n"
-    "Calyrex with its\n"
-    "beloved steed.");
+    "Redini che uniscono\n"
+    "Calyrex al suo\n"
+    "amato destriero.");
 
 // Battle Mechanic Key Items
 static const u8 sKeyStoneDesc[] = _(
-    "A stone of untold\n"
-    "power that allows\n"
-    "Mega Evolution.");
+    "Può innescare\n"
+    "la megaevoluzione.");
 
 static const u8 sMegaRingDesc[] = _(
-    "Enables {PKMN} holding\n"
-    "their Mega Stone to\n"
-    "Mega Evolve.");
+    "Consente a un Pkmn\n"
+    "di megaevolversi\n"
+    "durante la lotta..");
 
 static const u8 sZPowerRingDesc[] = _(
-    "Extraño anillo\n"
-    "que activa un\n"
-    "movimiento-Z.");
+    "Strano anello che\n"
+    "attiva un movimento\n"
+    "Z.");
 
 static const u8 sDynamaxBandDesc[] = _( // Todo
     "?????");
 
 // Misc. Key Items
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the Running Shoes.");
+    "Bici pieghevole:\n"
+    "per andare veloce.");
 
 static const u8 sMachBikeDesc[] = _(
-    "A folding bicycle\n"
-    "that doubles your\n"
-    "speed or better.");
+    "Bici pieghevole:\n"
+    "la velocità è più\n"
+    "che raddoppiata.");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+    "Bici pieghevole:\n"
+    "permette salti\n"
+    "e impennate.");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild Pokémon.");
+    "Pesca POKéMON\n"
+    "selvatici in ogni\n"
+    "specchio d'acqua.");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild Pokémon.");
+    "Un buon amo\n"
+    "per i POKéMON\n"
+    "acqua.");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild Pokémon.");
+    "L'AMO migliore\n"
+    "per catturare\n"
+    "POKéMON.");
 
 static const u8 sDowsingMachineDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "Individua oggetti\n"
+    "invisibili grazie\n"
+    "al suono.");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "Utile mappa,\n"
+    "consultabile in\n"
+    "ogni situazione.");
 
 static const u8 sVsSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready Trainers.");
+    "Consente di rilevare\n"
+    "stats di pokémon\n"
+    "unici.");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+    "Contenitore per\n"
+    "le MT e MN. Si\n"
+    "trova nello Zaino.");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds Berries.");
+    "Contenitore per\n"
+    "le Bacche. Si\n"
+    "trova nello Zaino.");
 
 static const u8 sPokemonBoxLinkDesc[] = _( // Todo
     "?????");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 Coins.");
+    "Custodia che può\n"
+    "contenere fino a\n"
+    "9.999 Gettoni.");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores Berry\n"
-    "Powder made using\n"
-    "a Berry Crusher.");
+    "Contiene la Farina\n"
+    "di Bacche ottenuta\n"
+    "col Macinabacche.");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering Berries\n"
-    "and plants.");
+    "Si usa per\n"
+    "annaffiare Bacche\n"
+    "e piante.");
 
 static const u8 sPokeRadarDesc[] = _( // Todo
     "?????");
@@ -4276,14 +4275,14 @@ static const u8 sPokeblockCaseDesc[] = _(
     "a Berry Blender.");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+    "Sacco per\n"
+    "raccogliere la\n"
+    "cenere vulcanica.");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "Pokémon.");
+    "Flauto melodioso\n"
+    "che sembra poter\n"
+    "risvegliare qlssi.");
 
 static const u8 sFameCheckerDesc[] = _(
     "Stores information\n"
@@ -4297,64 +4296,64 @@ static const u8 sTeachyTVDesc[] = _(
 
 // Story Key Items
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+    "Biglietto per\n"
+    "salire su un\n"
+    "traghetto.");
 
 static const u8 sEonTicketDesc[] = _(
-    "Allows to assist at\n"
-   	"the GOLD.GLOBAL\n"
-   	"ELITE GATHER.");
+    "Permette assistere\n"
+   	"al raduno\n"
+   	"dell'élite globale.");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to Navel Rock.");
+    "Biglietto per la\n"
+    "nave che porta\n"
+    "al Monte Cordone.");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to Birth Island.");
+    "Biglietto per la\n"
+    "nave che porta\n"
+    "all'Isola Materna.");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "A faded sea chart\n"
-    "that shows the way\n"
-    "to a certain island.");
+    "Una mappa sbiadita\n"
+    "per raggiungere\n"
+    "una certa isola.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to Steven\n"
-    "from the President\n"
-    "of the Devon Corp.");
+    "Lettera per Rocco\n"
+    "dal Presidente\n"
+    "della Devon SpA.");
 
 static const u8 sDevonPartsDesc[] = _(
-    "A package that\n"
-    "contains Devon's\n"
-    "machine parts.");
+    "Si tratta di pezzi\n"
+    "meccanici prdtti\n"
+    "dalla Devon.");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+    "Proteggono dalle\n"
+    "tempeste di\n"
+    "sabbia.");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by Devon\n"
-    "that signals any\n"
-    "unseeable Pokémon.");
+    "Strumento della\n"
+    "Devon per scovare\n"
+    "Pokémon nascosti.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "JOHTO BASE key,\n"
-   	"opens the room of\n"
-   	"its LEADER.");
+    "Chiave JOHTO BASE,\n"
+   	"apre la stanza del\n"
+   	"suo LEADER.");
 
 static const u8 sScannerDesc[] = _(
-    "It allows to cross\n"
-   	"strong currents\n"
-   	"without effort.");
+    "Permette attrvrsre\n"
+   	"forti correnti\n"
+   	"senza sforzo.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "Abandoned Ship.");
+    "Apre la stiva\n"
+    "della Vecchia\n"
+    "Nave.");
 
 static const u8 sKeyToRoom1Desc[] = _(
     "A key that opens a\n"
@@ -4377,13 +4376,13 @@ static const u8 sKeyToRoom6Desc[] = _(
     "Abandoned Ship.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at Sevii Islands.");
+    "Meteorite trovato\n"
+    "alle Settipelago.");
 
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "Team Magma's mark.");
+    "Medaglia con\n"
+    "lo stemma del\n"
+    "Team Magma.");
 
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"
