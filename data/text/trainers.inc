@@ -8308,177 +8308,190 @@ Silph5F_Policia2PostBattle:
 
 
 Silph5F_Text_ChicoIntro:
-	.string "I didn't realize TEAM ROCKET is\n"
-	.string "recruiting youngsters like you.$"
+	.string "Ich wusste gar nicht, dass TEAM ROCKET\n"
+	.string "so junge Leute wie dich rekrutiert.$"
 
 
 Silph5F_Text_ChicoDefeated:
-	.string "I see why!$"
+	.string "Jetzt versteh ich warum!$"
 
 
 Silph5F_ChicoPostBattle:
-	.string "I was just passing through, only wanted\n"
-	.string "to have a couple of battles.$"
+	.string "Ich bin nur vorbeigekommen, um ein\n"
+	.string "bisschen zu kämpfen.$"
 
 
 Silph6F_Text_PoliciaIntro:
-	.string "Stop! You don't look like you have an\n"
-	.string "appointment with our PRESIDENT!$"
+	.string "Halt! Es sieht nicht so aus, als hättest\n"
+	.string "du einen Termin bei unserem Herrn\l"
+	.string "PRÄSIDENTEN!$"
 
 
 Silph6F_Text_PoliciaDefeated:
-	.string "I turned off!$"
+	.string "Aus und vorbei …!$"
 
 
 Silph6F_PoliciaPostBattle:
-	.string "It doesn't matter! My comrades will\n"
-	.string "avenge me!$"
+	.string "Mich magst du besiegt haben, aber an\n"
+	.string "meinen Kollegen wirst du nicht\l"
+	.string "vorbeikommen!$"
 
 
 Silph6F_Text_Policia2Intro:
-	.string "Do you dare betraying SILPH?$"
+	.string "Du wagst es, SILPH anzugreifen?$"
 
 
 Silph6F_Text_Policia2Defeated:
-	.string "Traitor!$"
+	.string "Elender Verbrecher!$"
 
 
 Silph6F_Policia2PostBattle:
-	.string "If you serve crime, you betray justice!$"
+	.string "Wenn du dein Leben dem Verbrechen\n"
+	.string "verschreibst, dann verrätst du damit\l"
+	.string "die Gerechtigkeit!$"
 
 
 Silph7F_Text_PoliciaIntro:
-	.string "So, you're the TEAM ROCKET core; I'll\n"
-	.string "take you down!$"
+	.string "Du gehörst also zu den höchstrangigen\n"
+	.string "Mitgliedern von TEAM ROCKET … Dann\l"
+	.string "werde ich dich hier und jetzt dingfest\l"
+	.string "machen!$"
 
 
 Silph7F_Text_PoliciaDefeated:
-	.string "I also failed!$"
+	.string "Ich habe ebenfalls versagt!$"
 
 
 Silph7F_PoliciaPostBattle:
-	.string "You're an exceptional TRAINER; SILPH\n"
-	.string "could offer you a great position here.$"
+	.string "Du bist ein außergewöhnlicher TRAINER.\p"
+	.string "SILPH könnte dir hier einen Spitzenjob\n"
+	.string "anbieten.$"
 
 
 Silph7F_Text_Policia2Intro:
-	.string "Our PRESIDENT is too important to\n"
-	.string "waste time with third-rate thieves like\l"
-	.string "you.$"
+	.string "Die Zeit unseres PRÄSIDENTEN ist zu\n"
+	.string "kostbar, um sie mit einem\l"
+	.string "Kleinkriminellen wie dir zu\l"
+	.string "verschwenden!$"
 
 
 Silph7F_Text_Policia2Defeated:
-	.string "Get lost!$"
+	.string "Verschwinde von hier!$"
 
 
 Silph7F_Policia2PostBattle:
-	.string "We have more than sufficient resources\n"
-	.string "to make you vanish.$"
+	.string "Wir verfügen über mehr als genug Mittel,\n"
+	.string "um dich verschwinden zu lassen!$"
 
 
 Silph7F_Text_Policia3Intro:
-	.string "If you persist with this behavior, you'll\n"
-	.string "be kicked out of here.$"
+	.string "Wenn du so weitermachst, dann\n"
+	.string "schmeißen wir dich hier raus!$"
 
 
 Silph7F_Text_Policia3Defeated:
-	.string "Lights off!$"
+	.string "Licht aus!$"
 
 
 Silph7F_Policia3PostBattle:
-	.string "You'll never find our PRESIDENT just\n"
-	.string "lurking around here!$"
+	.string "Du wirst unseren PRÄSIDENTEN niemals\n"
+	.string "finden, wenn du hier nur rumlungerst!$"
 
 
 Silph7F_Text_CientificoIntro:
-	.string "Several scientists around here\n"
-	.string "actually work for both SILPH and TEAM\l"
-	.string "ROCKET. The fact is, I just wanna have a\l"
-	.string "good battle!$"
+	.string "Tatsächlich arbeiten viele der\n"
+	.string "Wissenschaftler hier sowohl für SILPH\l"
+	.string "als auch für TEAM ROCKET. Aber ganz\l"
+	.string "ehrlich? Ich will einfach nur einen\l"
+	.string "guten Kampf!$"
 
 
 Silph7F_Text_CientificoDefeated:
-	.string "I'm finished!$"
+	.string "Ich bin erschöpft!$"
 
 
 Silph7F_CientificoPostBattle:
-	.string "Despite your age, you're a highly skilled\n"
-	.string "trainer!$"
+	.string "Trotz deines jungen Alters bist du\n"
+	.string "bereits ein hervorragender Trainer!$"
 
 
 Silph8F_Text_PoliciaIntro:
-	.string "Those who have confronted SILPH have\n"
-	.string "had a tough fate; it's no coincidence we\l"
-	.string "have a monopoly in KANTO!$"
+	.string "Alle, die sich bisher mit SILPH angelegt\n"
+	.string "haben, haben es am Ende bitter bereut!\l"
+	.string "Es ist kein Zufall, dass wir in KANTO ein\l"
+	.string "Monopol haben!$"
 
 
 Silph8F_Text_PoliciaDefeated:
-	.string "You're going to fall!$"
+	.string "Ihr werdet fallen!$"
 
 
 Silph8F_PoliciaPostBattle:
-	.string "You're still in time to correct\n"
-	.string "yourselves and go home.$"
+	.string "Es ist noch nicht zu spät, dich zu\n"
+	.string "besinnen und von hier zu verschwinden.$"
 
 
 Silph8F_Text_Policia2Intro:
-	.string "This has exceeded the limit!$"
+	.string "Das geht zu weit!$"
 
 
 Silph8F_Text_Policia2Defeated:
-	.string "I'm out of energy.$"
+	.string "Ich bin am Ende meiner Kräfte.$"
 
 
 Silph8F_Policia2PostBattle:
-	.string "You won't obtain anything from us.$"
+	.string "Von uns bekommt ihr nichts!$"
 
 
 Silph8F_Text_CientificoIntro:
-	.string "This structure is an engineering\n"
-	.string "miracle; someone of your caliber doesn't\l"
-	.string "even deserve to step on this floor.$"
+	.string "Dieses Gebäude ist ein Wunderwerk der\n"
+	.string "Ingenieurskunst! Jemand wie du\l"
+	.string "verdient es nicht einmal, den Boden\l"
+	.string "hier zu küssen!$"
 
 
 Silph8F_Text_CientificoDefeated:
-	.string "Huh? Did I lose?$"
+	.string "Wie? Habe ich verloren?$"
 
 
 Silph8F_CientificoPostBattle:
-	.string "What's visible isn't even close to\n"
-	.string "everything SILPH has in store, kid.$"
+	.string "Was du hier siehst, ist bei Weitem nicht\n"
+	.string "alles, was SILPH zu bieten hat, Kleiner.$"
 
 
 Silph9F_Text_CientificoIntro:
-	.string "Your POKÉMON have weaknesses. I can\n"
-	.string "see them!$"
+	.string "Deine POKéMON haben Schwächen und ich\n"
+	.string "kann sie sehen!$"
 
 
 Silph9F_Text_CientificoDefeated:
-.string "You surprised me!$"
+.string "Damit habe ich nicht gerechnet!$"
 
 
 Silph9F_CientificoPostBattle:
-	.string "Exploiting the opponent's weaknesses\n"
-	.string "is a great strategy, think about it.$"
+	.string "Die Schwächen des Gegners\n"
+	.string "auszunutzen, ist eine kluge Strategie.\l"
+	.string "Denk mal darüber nach.$"
 
 
 Silph9F_Text_PoliciaIntro:
-	.string "You villains! You'll pay for attacking\n"
-	.string "SILPH!$"
+	.string "Ihr Schurken! Ihr werdet für euren\n"
+	.string "Angriff auf SILPH bezahlen!$"
 
 
 Silph9F_Text_PoliciaDefeated:
-	.string "Your time will come!$"
+	.string "Du wirst schon noch bekommen, was du\n"
+	.string "verdienst!$"
 
 
 Silph9F_PoliciaPostBattle:
-	.string "Forgive me, SILPH, I couldn't protect\n"
-	.string "you!$"
+	.string "Vergebe mir, SILPH! Ich konnte dich\n"
+	.string "nicht beschützen!$"
 
 
 Silph9F_Text_Policia2Intro:
-	.string "It seems like your POKÉMON have a\n"
-	.string "strong bond with you.$"
+	.string "Man spürt die tiefe Verbindung\n"
+	.string "zwischen dir und deinen POKéMON.$"
 
 
 Silph9F_Text_Policia2Defeated:
@@ -8486,7 +8499,9 @@ Silph9F_Text_Policia2Defeated:
 
 
 Silph9F_Policia2PostBattle:
-	.string "If I had started training at your age...$"
+	.string "Hätte ich damals in deinem Alter\n"
+	.string "angefangen, meine POKéMON zu\l"
+	.string "trainieren …$"
 
 
 Silph10F_Text_CientificoIntro:
@@ -8498,61 +8513,65 @@ Silph10F_Text_CientificoDefeated:
 
 
 Silph10F_CientificoPostBattle:
-	.string "You won't achieve anything defeating\n"
-	.string "insignificant workers like me.$"
+	.string "Du wirst nichts erreichen, indem du\n"
+	.string "unbedeutende Arbeiter wie mich\l"
+	.string "besiegst.$"
 
 
 Silph10F_Text_PoliciaIntro:
-	.string "Do you really think you'll reach our\n"
-	.string "PRESIDENT only going up to the last\l"
-	.string "floor? Foolish!$"
+	.string "Dachtest du wirklich, du gelangst zu\n"
+	.string "unserem PRÄSIDENTEN, indem du einfach\l"
+	.string "bis zum höchsten Stockwerk gehst?\l"
+	.string "Wie dumm!$"
 
 
 
 Silph10F_Text_PoliciaDefeated:
-	.string "I'm confused!$"
+	.string "Ich bin verwirrt!$"
 
 
 Silph10F_PoliciaPostBattle:
-	.string "This place is much more than it appears\n"
-	.string "to the public, kid; perhaps someday\l"
-	.string "you'll realize.$"
+	.string "Dieser Ort ist mehr, als es nach außen\n"
+	.string "hin den Anschein hat, Kleiner. Vielleicht\l"
+	.string "wirst du es eines Tages begreifen.$"
+
 
 
 Silph11F_Text_PoliciaIntro:
-	.string "What? Do you want to meet our\n"
-	.string "PRESIDENT? TEAM ROCKET doesn't have\l"
-	.string "the standing to sit at a table and talk\l"
-	.string "with SILPH!$"
+	.string "Was? Du willst zu unserem PRÄSIDENTEN?\n"
+	.string "TEAM ROCKET ist zehn Nummern zu klein,\l"
+	.string "um an einem Tisch mit SILPH zu sitzen!$"
 
 
 Silph11F_Text_PoliciaDefeated:
-	.string "Destroyed!$"
+	.string "Ich wurde vernichtet!$"
 
 
 Silph11F_PoliciaPostBattle:
-	.string "Watch every step you take from now on,\n"
-	.string "ROCKET; you've been warned.$"
+	.string "Achte ab jetzt auf jeden Schritt, den\n"
+	.string "du machst, ROCKET! Du wurdest gewarnt!$"
 
 
 Silph11F_Text_Policia2Intro:
-	.string "But what sort of masquerade is this?\n"
-	.string "Where is the rest of the security? So,\l"
-	.string "you're going to have to learn the hard\l"
-	.string "way, kid. As the head of SILPH security,\l"
-	.string "I'll be the one to put a stop to your\l"
-	.string "insolence!$"
+	.string "Was für eine Art Schmierentheater ist\n"
+	.string "das hier? Wo sind die anderen\l"
+	.string "Wachmänner? Du wirst es auf die harte\l"
+	.string "Tour lernen müssen, Kleiner! Als Leiter\l"
+	.string "des SILPH-Sicherheitsteams werde ich\l"
+	.string "deinem Treiben ein Ende bereiten?$"
 
 
 Silph11F_Text_Policia2Defeated:
-	.string "Who are you?$"
+	.string "Wer bist du?$"
 
 
 Silph11F_Policia2PostBattle:
-	.string "I've failed SILPH and the PRESIDENT. At\n"
-	.string "least be polite and concise when\l"
-	.string "speaking; our PRESIDENT doesn't have\l"
-	.string "time for nonsenses.$"
+	.string "Ich habe sowohl SILPH als auch den\n"
+	.string "PRÄSIDENTEN enttäuscht. Sei\l"
+	.string "wenigstens höflich und sei präzise,\l"
+	.string "wenn du mit ihm redest. Die Zeit unseres\l"
+	.string "PRÄSIDENTEN ist zu kostbar für\l"
+	.string "Belanglosigkeiten.$"
 
 
 Route21_Text_PescadorIntro:
@@ -8634,8 +8653,8 @@ CinnabarPath_Text_NadadorDefeated:
 
 
 CinnabarPath_NadadorPostBattle:
-	.string "Where did you get your POKÉMON? Are\n"
-	.string "they stolen?$"
+	.string "Von wo hast du deine POKéMON her?\n"
+	.string "Hast du sie gestohlen?$"
 
 
 
@@ -8742,16 +8761,17 @@ Route20_OrnitologoPostBattle:
 
 
 Route20_Text_Chica2Intro:
-	.string "Are you also holidaying?$"
+	.string "Verbringst du deinen Urlaub auch hier?$"
 
 
 Route20_Text_Chica2Defeated:
-	.string "You're merciless!$"
+	.string "Du bist gnadenlos!$"
 
 
 Route20_Chica2PostBattle:
-	.string "In the past, SEAFOAM ISLANDS were\n"
-	.string "connected into a single island.$"
+	.string "Früher waren die SEESCHAUMINSELN\n"
+	.string "miteinander vereint und bildeten eine\l"
+	.string "Insel.$"
 
 
 
@@ -8888,9 +8908,10 @@ CeruleanCityGym_Text_ChicoPostBattle:
 
 
 CeruleanCityGym_Text_ChicaIntro:
-	.string "Nice cosplay, those ROCKETs\n"
-	.string "got what they deserved, and\l"
-	.string "everyone mocks them now.$"
+	.string "Nettes Kostüm. Jetzt wo TEAM ROCKET\n"
+	.string "das bekommen hat, was sie schon lange\l"
+	.string "verdient haben, macht sich jeder über\l"
+	.string "sie lustig.$"
 
 
 
@@ -8904,8 +8925,9 @@ CeruleanCityGym_Text_ChicaPostBattle:
 
 
 VermilionCityGym_Text_ChicoIntro:
-	.string "This is not a place for children! Even if\n"
-	.string "they're disguised as criminals!$"
+	.string "Das ist kein Ort für Kinder! Auch wenn\n"
+	.string "sie sich als Verbrecher verkleiden!$"
+
 
 
 
@@ -8985,8 +9007,8 @@ CeladonCityGym_Text_Chica2PostBattle:
 
 
 CeladonCityGym_Text_Chica3Intro:
-	.string "Your face looks familiar, are you not a\n"
-	.string "real criminal?$"
+	.string "Du kommst mir bekannt vor. Bist du nicht\n"
+	.string "ein echter Verbrecher?$"
 
 
 
@@ -9026,7 +9048,7 @@ CeladonCityGym_Text_Chica5Defeated:
 
 
 CeladonCityGym_Text_Chica5PostBattle:
-	.string "Your clothing is out of date!$"
+	.string "Deine Kleidung ist total aus der Mode!$"
 
 
 CeladonCityGym_Text_Chica6Intro:
@@ -9496,418 +9518,462 @@ ViridianCityGym_Text_Guay3PostBattle:
 
 
 RocketHideoutViridian_Text_RocketIntro:
-	.string "Well, it's time to see if you deserve to\n"
-	.string "undertake the mission we've assigned\l"
-	.string "to you. On guard!$"
+	.string "Nun, es wird Zeit, herauszufinden, ob\n"
+	.string "Sie für die Mission, die Ihnen zugeteilt\l"
+	.string "wurde, wirklich bereit sind. En Garde!$"
 
 
 
 RocketHideoutViridian_Text_RocketDefeated:
-	.string "Great fight, sir.$"
+	.string "Großartiger Kampf, Sir.$"
 
 
 RocketHideoutViridian_Text_RocketPostBattle:
-	.string "An underground base situated just\n"
-	.string "below a POKÉMON League-approved GYM,\l"
-	.string "quite ingenious, don't you think?$"
+	.string "Eine unterirdische Basis, die direkt\n"
+	.string "unter einer von der POKéMON LIGA\l"
+	.string "genehmigten ARENA liegt. Ziemlich\l"
+	.string "genial, oder?$"
 
 
 
 RocketHideoutViridian_Text_Rocket2Intro:
-	.string "GIOVANNI personally handed the EARTH\n"
-	.string "BADGE to RED, using one of his worst\l"
-	.string "teams. He won't go easy on you; he wants\l"
-	.string "you ready for what awaits you in the\l"
-	.string "LEAGUE!$"
+	.string "GIOVANNI hat ROT quasi den ERDORDEN\n"
+	.string "geschenkt, indem er eines seiner\l"
+	.string "schlechtesten Teams gegen ihn\l"
+	.string "eingesetzt hat. Ihnen wird er es nicht\l"
+	.string "so einfach machen. Er will, dass Sie für\l"
+	.string "das bereit sind, was Sie in der LIGA\l"
+	.string "erwartet!$"
 
 
 
 RocketHideoutViridian_Text_Rocket2Defeated:
-	.string "It's a great honor to serve you as\n"
-	.string "training, ADMIN {PLAYER}.$"
+	.string "Es war mir eine große Ehre Ihnen bei\n"
+	.string "Ihrem Training zu helfen, OFFIZIER\l"
+	.string "{PLAYER}!$"
 
 
 
 RocketHideoutViridian_Text_Rocket2PostBattle:
-	.string "If you want to have a chance in the\n"
-	.string "POKÉMON LEAGUE, you must be as\l"
-	.string "prepared as possible.$"
+	.string "Wenn Sie eine Chance in der POKéMON\n"
+	.string "LIGA haben wollen, müssen Sie so gut wie\l"
+	.string "möglich vorbereitet sein!$"
 
 
 
 RocketHideoutViridian_Text_Rocket3Intro:
-	.string "You're welcome to our base in VIRIDIAN\n"
-	.string "CITY, or should I say the last GYM?$"
+	.string "Willkommen in unserer Basis in VERTANIA\n"
+	.string "CITY, oder sollte ich sagen - der\l"
+	.string "letzten ARENA?$"
 
 
 
 RocketHideoutViridian_Text_Rocket3Defeated:
-	.string "So you're as strong as they say.$"
+	.string "Sie sind so stark, wie alle sagen.$"
 
 
 RocketHideoutViridian_Text_Rocket3PostBattle:
-	.string "We have a total of 3 ROCKET HIDEOUTS\n"
-	.string "spread throughout KANTO; this is the\l"
-	.string "smallest but the most strategically\l"
-	.string "important.$"
+	.string "Wir haben insgesamt drei\n"
+	.string "GEHEIMVERSTECKE, die über KANTO\l"
+	.string "verteilt sind. Diese hier ist zwar die\l"
+	.string "kleinste, aber dafür strategisch\l"
+	.string "wichtigste.$"
 
 
 
 RocketHideoutViridian_Text_Rocket4Intro:
-	.string "GIOVANNI has publicly declared the\n"
-	.string "dissolution of TEAM ROCKET after\l"
-	.string "feigning defeat for the third time\l"
-	.string "against RED. It was nothing more than a\l"
-	.string "strategic move to make them lose sight\l"
-	.string "of us while we are at our prime.$"
+	.string "GIOVANNI hat öffentlich die Auslösung\n"
+	.string "von TEAM ROCKET bekannt gegeben,\l"
+	.string "nachdem er zum dritten Mal eine\l"
+	.string "Niederlage gegen ROT vorgetäuscht hat.\p"
+	.string "Es war lediglich ein Schachzug, um der\n"
+	.string "Öffentlichkeit vorzutäuschen, dass wir\l"
+	.string "endgültig vernichtet seien, während wir\l"
+	.string "in Wahrheit unseren Höhepunkt\l"
+	.string "erreichen.$"
 
 
 RocketHideoutViridian_Text_Rocket4Defeated:
-	.string "I hope you to put that RED in his place.$"
+	.string "Ich hoffe, dass du diesem ROT einen\n"
+	.string "Denkzettel verpasst.$"
 
 
 RocketHideoutViridian_Text_Rocket4PostBattle:
-	.string "GIOVANNI has publicly declared the\n"
-	.string "dissolution of TEAM ROCKET after\l"
-	.string "feigning defeat for the third time\l"
-	.string "against RED. It was nothing more than a\l"
-	.string "strategic move to make them lose sight\l"
-	.string "of us while we are at our prime.$"
+	.string "GIOVANNI hat öffentlich die Auslösung\n"
+	.string "von TEAM ROCKET bekannt gegeben,\l"
+	.string "nachdem er zum dritten Mal eine\l"
+	.string "Niederlage gegen ROT vorgetäuscht hat.\p"
+	.string "Es war lediglich ein Schachzug, um der\n"
+	.string "Öffentlichkeit vorzutäuschen, dass wir\l"
+	.string "endgültig vernichtet seien, während wir\l"
+	.string "in Wahrheit unseren Höhepunkt\l"
+	.string "erreichen.$"
 
 
 
 RocketHideoutViridian_Text_Rocket5Intro:
-	.string "From here, we control everything that\n"
-	.string "happens in the southwest of KANTO,\l"
-	.string "especially the new contenders for the\l"
-	.string "CHAMPION title.$"
+	.string "Von hier aus kontrollieren wir alles, was\n"
+	.string "im Südwesten KANTOs passiert - vor\l"
+	.string "allem, was die neuen Herausforderer für\l"
+	.string "den Titel des CHAMPIONs angeht.$"
 
 
 RocketHideoutViridian_Text_Rocket5Defeated:
-	.string "Good job, aspirant.$"
+	.string "Gute Arbeit!$"
 
 
 RocketHideoutViridian_Text_Rocket5PostBattle:
-	.string "All those who aim to join the POKÉMON\n"
-	.string "LEAGUE must go through this GYM, which\l"
-	.string "is also under our control.$"
+	.string "Alle, die sich der POKéMON LIGA stellen\n"
+	.string "wollen, müssen zuerst an dieser ARENA\l"
+	.string "vorbei, wo wir das Sagen haben.$"
 
 
 
 RocketHideoutViridian_Text_Rocket6Intro:
-	.string "Make sure to keep the TEAM ROCKET\n"
-	.string "reputation!$"
+	.string "Machen Sie TEAM ROCKET alle Ehre!$"
 
 
 
 RocketHideoutViridian_Text_Rocket6Defeated:
-	.string "It appears you're really committed.$"
+	.string "Es sieht so aus, als wären Sie fest\n"
+	.string "entschlossen.$"
 
 
 RocketHideoutViridian_Text_Rocket6PostBattle:
-	.string "A few of our top ROCKETS are here. Could\n"
-	.string "you take on all of them?$"
+	.string "Ein paar unserer stärksten ROCKETs\n"
+	.string "sind hier. Glauben Sie, Sie können sie\l"
+	.string "alle besiegen?$"
 
 
 
 RocketHideoutViridian_Text_Rocket7Intro:
-	.string "The top members of TEAM ROCKET are\n"
-	.string "present. We've received direct orders\l"
-	.string "from GIOVANNI to defeat you!$"
+	.string "Die Elite TEAM ROCKETs ist hier. Wir\n"
+	.string "haben den Befehl von GIOVANNI, Sie zu\l"
+	.string "besiegen!$"
 
 
 
 RocketHideoutViridian_Text_Rocket7Defeated:
-	.string "Working for you is a privilege, sir!$"
+	.string "Es ist mir eine Ehre, für sie zu arbeiten,\n"
+	.string "Sir!$"
 
 
 RocketHideoutViridian_Text_Rocket7PostBattle:
-	.string "Good luck in your POKÉMON LEAGUE\n"
-	.string "challenge, EXECUTIVE {PLAYER}.$"
+	.string "Viel Glück in der POKéMON LIGA,\n"
+	.string "OFFIZIER {PLAYER}!$"
 
 
 
 RocketHideoutViridian_Text_Rocket8Intro:
-	.string "Don't worry, you won't face GIOVANNI,\n"
-	.string "but rather trainers much more powerful\l"
-	.string "than the weak version of GIOVANNI he's\l"
-	.string "forced to present to the public in this\l"
-	.string "GYM.$"
+	.string "Keine Sorge, Sie werden nicht gegen\n"
+	.string "GIOVANNI kämpfen. Stattdessen\l"
+	.string "erwarten Sie Trainer, die viel stärker\l"
+	.string "sind als die schwache Version, die er\l"
+	.string "der Öffentlichkeit in dieser Arena\l"
+	.string "präsentieren muss.$"
 
 
 
 RocketHideoutViridian_Text_Rocket8Defeated:
-	.string "Pure ROCKET power!$"
+	.string "Reine ROCKET-Power!$"
 
 
 RocketHideoutViridian_Text_Rocket8PostBattle:
-	.string "Now is when you'll have to show what\n"
-	.string "you're worth; the trainers ahead won't\l"
-	.string "give you anything for free. Be careful.$"
+	.string "Ab jetzt müssen Sie zeigen, was wirklich\n"
+	.string "in Ihnen steckt! Die Trainer, die Sie ab\l"
+	.string "jetzt erwarten, werden gnadenlos mit\l"
+	.string "Ihnen sein. Seien Sie auf der Hut.$"
 
 
 
 RocketHideoutViridian_Text_CientificoIntro:
-	.string "Radio waves are the future, kid. Do you\n"
-	.string "realize about the POKÉMON we can\l"
-	.string "create with them?$"
+	.string "Radiowellen sind die Zukunft. Können\n"
+	.string "Sie sich ausmalen, was für POKéMON wir\l"
+	.string "mit ihnen erschaffen können?$"
 
 
 
 RocketHideoutViridian_Text_CientificoDefeated:
-	.string "It looks like your POKÉMON don't require\n"
-	.string "any enhancements.$"
+	.string "Es scheint so, als bräuchten Ihre\n"
+	.string "POKéMON keine Modifikationen.$"
 
 
 
 RocketHideoutViridian_Text_CientificoPostBattle:
-	.string "You did a great job helping the\n"
-	.string "SILPH-ROCKET union; all the scientists\l"
-	.string "here are thankful for it.$"
+	.string "Sie haben bei dem SILPH-TEAM ROCKET\n"
+	.string "Bündnis großartige Arbeit geleistet!\p"
+	.string "Alle Wissenschaftler hier sind Ihnen\n"
+	.string "dafür sehr dankbar.$"
 
 
 
 RocketHideoutViridian_Text_Cientifico2Intro:
-	.string "BASE STATS lose much value without a\n"
-	.string "good ability; you should be aware of it.$"
+	.string "Ohne eine gute Fähigkeit verlieren\n"
+	.string "STATUSWERTE enorm an Wert. Sie sollten\l"
+	.string "sich dessen bewusst sein.$"
 
 
 
 RocketHideoutViridian_Text_Cientifico2Defeated:
-	.string "Both BASE STATS and ABILITY?$"
+	.string "Sowohl STATUSWERTE als auch\n"
+	.string "FÄHIGKEITEN?$"
 
 
 RocketHideoutViridian_Text_Cientifico2PostBattle:
-	.string "Better to have a POKÉMON with 480-500\n"
-	.string "BASE STATS and a good ability than\l"
-	.string "other with 567 BASE STATS and no\l"
-	.string "ability.$"
+	.string "Es ist besser, ein POKéMON mit 480-500\n"
+	.string "STATUSWERTEN und einer guten\l"
+	.string "Fähigkeit zu haben, als eins mit 567\l"
+	.string "STATUSWERTEN und ohne Fähigkeit?$"
 
 
 
 RocketHideoutViridian_Text_Cientifico3Intro:
-	.string "So, you're looking for some extra\n"
-	.string "training? I'll give you what you want!$"
+	.string "Sie suchen also nach etwas\n"
+	.string "Extra-Training? Kein Problem, das\l"
+	.string "bekommen Sie!$"
 
 
 
 RocketHideoutViridian_Text_Cientifico3Defeated:
-	.string "Keep improving.$"
+	.string "Machen Sie weiter so.$"
 
 
 RocketHideoutViridian_Text_Cientifico3PostBattle:
-	.string "Someone who is constantly subjected to\n"
-	.string "a stimulus is forced to adapt to it and\l"
-	.string "improve to a point where they can\l"
-	.string "tolerate it easily. On the other hand,\l"
-	.string "someone who is not exposed to the\l"
-	.string "appropriate stimulus atrophies and\l"
-	.string "falls far short of what they could be.\l"
-	.string "This second case is what GIOVANNI has\l"
-	.string "been putting into practice with that\l"
-	.string "RED. Our leader recognized the infinite\l"
-	.string "improvement potential in that boy and\l"
-	.string "decided to cut it off immediately.$"
+	.string "Jemand, der ständig einem Reiz\n"
+	.string "ausgesetzt ist, wird gezwungen, sich\l"
+	.string "anzupassen und sich so weit zu\l"
+	.string "steigern, dass er ihn problemlos\l"
+	.string "ertragen kann. Wer hingegen nicht dem\l"
+	.string "richtigen Reiz ausgesetzt wird,\l"
+	.string "verkümmert, und erreicht bei Weitem\l"
+	.string "nicht das Potenzial, das er erreichen\l"
+	.string "könnte. Letzteres hat GIOVANNI seit\l"
+	.string "seinem ersten Kampf gegen ROT\l"
+	.string "praktiziert. Unser Anführer sah das\l"
+	.string "unendliche Verbesserungspotenzial in\l"
+	.string "diesem Jungen und beschloss, es sofort\l"
+	.string "einzuschränken.$"
 
 
 
 RocketHideoutViridian_Text_Cientifico4Intro:
-	.string "Most scientists focus on STEEL and\n"
-	.string "PSYCHIC POKÉMON, but I argue that the\l"
-	.string "diversity of species is inherently the\l"
-	.string "most intriguing subject of study!$"
+	.string "Die meisten Wissenschaftler widmen\n"
+	.string "sich STAHL- und PSYCHO-POKéMON. Ich\l"
+	.string "aber vertrete den Standpunkt, dass\l"
+	.string "die Artenvielfalt an sich das\l"
+	.string "faszinierendste Forschungsthema ist.$"
 
 
 
 RocketHideoutViridian_Text_Cientifico4Defeated:
-	.string "Your team is truly worthy of study.$"
+	.string "Dein Team ist es wahrhaftig wert,\n"
+	.string "studiert zu werden.$"
 
 
 RocketHideoutViridian_Text_Cientifico4PostBattle:
-	.string "The FOSSILS, DRAGONS, the forms of\n"
-	.string "EEVEE, there are so many unanswered\l"
-	.string "questions.$"
+	.string "Zu den FOSSIL-POKéMON, DRACHEN und\n"
+	.string "den Entwicklungen von EVOLI gibt es\l"
+	.string "noch so viele offene Fragen.$"
 
 
 
 Route4_Text_ChicaIntro:
-	.string "Can't even gather mushrooms\n"
-	.string "peacefully!$"
+	.string "Nicht einmal in Ruhe Pilze sammeln kann\n"
+	.string "man hier!$"
 
 
 
 Route4_Text_ChicaDefeated:
-	.string "After all I did to catch them!$"
+	.string "Nach all dem Aufwand, sie zu sammeln!$"
 
 
 Route4_Text_ChicaPostBattle:
-	.string "There can't be many mushrooms left\n"
-	.string "around here. I think I've picked all of\l"
-	.string "them.$"
+	.string "Tja, viele Pilze werden hier wohl nicht\n"
+	.string "mehr zu finden sein. Ich glaube, ich\l"
+	.string "habe schon alle gesammelt.$"
 
 
 
 Route23_Text_PoliciaIntro:
-	.string "Stop right there! {PAUSE 30}…{PAUSE 30} CASCADE BADGE\n"
-	.string "identified; however, it's not enough.\l"
-	.string "Too many people have been entering\l"
-	.string "here in the last few hours. My job is to\l"
-	.string "ensure that everyone who enters does\l"
-	.string "so legitimately!$"
+	.string "Halt, keinen Schritt weiter! … Du trägst\n"
+	.string "den QUELLORDEN. Aber das alleine reicht\l"
+	.string "nicht. In den letzten Stunden waren zu\l"
+	.string "viele Trainer hier. Ich bin dafür\l"
+	.string "verantwortlich, sicherzustellen, dass\l"
+	.string "nur die würdigen TRAINER durchkommen!$"
 
 
 
 Route23_Text_PoliciaDefeated:
-	.string "Check out finished.$"
+	.string "Damit wäre die Überprüfung\n"
+	.string "abgeschlossen.$"
 
 
 Route23_Text_PoliciaPostBattle:
-	.string "You are able to earn the CASCADE BADGE.\n"
-	.string "Keep going!$"
+	.string "Du hast den QUELLORDEN auf jeden Fall\n"
+	.string "legitim erlangt! Du darfst weitergehen!$"
 
 
 
 Route23_Text_Policia2Intro:
-	.string "Stop right here! {PAUSE 30}…{PAUSE 30} THUNDER BADGE\n"
-	.string "identified. Here's some advice, kid:\l"
-	.string "don't dress like that, not even in jest.\l"
-	.string "In these areas, we take TEAM ROCKET\l"
-	.string "very seriously. You're making me ensure\l"
-	.string "you're not one of them!$"
+	.string "Halt, keinen Schritt weiter! … Du trägst\n"
+	.string "den DONNERORDEN. Hier ist ein\l"
+	.string "kostenloser Rat für dich, Kleiner: Lauf\l"
+	.string "nicht in dieser Uniform rum - nicht mal\l"
+	.string "zum Jux. Hier in dieser Gegend\l"
+	.string "verstehen wir keinen Spaß, was TEAM\l"
+	.string "ROCKET angeht. Ich muss sicherstellen,\l"
+	.string "dass du nicht wirklich zu ihnen gehörst!$"
 
 
 
 Route23_Text_Policia2Defeated:
-	.string "A ROCKET could never be that strong.$"
+	.string "Ein ROCKET könnte niemals so stark\n"
+	.string "sein.$"
 
 
 Route23_Text_Policia2PostBattle:
-	.string "Those inept folks from TEAM ROCKET\n"
-	.string "would never stand a chance against\l"
-	.string "SURGE. Keep going.$"
+	.string "Diese unfähigen Idioten von TEAM\n"
+	.string "ROCKET hätten nicht mal den Hauch\l"
+	.string "einer Chance gegen MAJOR BOB.\l"
+	.string "Du darfst weitergehen!$"
 
 
 
 Route23_Text_Policia3Intro:
-	.string "Hands up! {PAUSE 30}…{PAUSE 30} RAINBOW BADGE identified.\n"
-	.string "Just a moment ago, a girl dressed as\l"
-	.string "ROCKET passed too. I apologize, but for\l"
-	.string "safety reasons, I must battle you.$"
+	.string "Hände hoch! … Du trägst den FARBORDEN.\n"
+	.string "Erst kürzlich war eine junge Frau hier,\l"
+	.string "die ebenfalls eine ROCKET-Uniform trug.\p"
+	.string "Tut mir leid, aber aus\n"
+	.string "Sicherheitsgründen muss ich gegen dich\l"
+	.string "kämpfen!$"
 
 
 
 Route23_Text_Policia3Defeated:
-	.string "Verification completed.$"
+	.string "Damit wäre die Überprüfung\n"
+	.string "abgeschlossen.$"
 
 
 Route23_Text_Policia3PostBattle:
-	.string "You've demonstrated your victory at\n"
-	.string "CELADON GYM, good luck!$"
+	.string "Du hast hiermit deinen Sieg über die\n"
+	.string "ARENALEITERIN von PRISMANIA CITY\l"
+	.string "bestätigt. Viel Glück!$"
 
 
 
 Route23_Text_Policia4Intro:
-	.string "Don't move! {PAUSE 30}…{PAUSE 30} SOUL BADGE identified;\n"
-	.string "however, my job is to ensure that there\l"
-	.string "are no mistakes. I'm tired of stopping\l"
-	.string "thieves trying to pass with fake or\l"
-	.string "stolen BADGES. If you're one of them,\l"
-	.string "we'll beat you in battle!$"
+	.string "Halt, keinen Schritt weiter! … Du trägst\n"
+	.string "den SEELENORDEN. Aber meine Aufgabe\l"
+	.string "ist es, jeden möglichen Irrtum\l"
+	.string "auszuschließen. Ich bin es leid, Diebe\l"
+	.string "aufzuhalten, die versuchen, mit\l"
+	.string "gefälschten oder gestohlenen ORDEN\l"
+	.string "durchzukommen. Wenn du einer von denen\l"
+	.string "bist, wirst du diesen Kampf verlieren!$"
 
 
 
 Route23_Text_Policia4Defeated:
-	.string "Alright, you can proceed.$"
+	.string "In Ordnung.$"
 
 
 Route23_Text_Policia4PostBattle:
-	.string "You have the required level to beat\n"
-	.string "KOGA, proceed on your way.$"
+	.string "Du bist stark genug, um KOGA zu\n"
+	.string "besiegen. Du darfst weitergehen!$"
 
 
 
 Route23_Text_Policia5Intro:
-	.string "Stop right there! {PAUSE 30}…{PAUSE 30} MARSH BADGE\n"
-	.string "identified. RED and OAK's grandson have\l"
-	.string "been here before; everyone knows them.\l"
-	.string "However, you've come out of nowhere. As\l"
-	.string "you can understand, I can't let you\l"
-	.string "pass without even seeing your POKÉMON\l"
-	.string "team.$"
+	.string "Halt, keinen Schritt weiter! … Du trägst\n"
+	.string "den SUMPFORDEN. ROT und EICHs Enkel\l"
+	.string "waren schon hier - jeder kennt sie. Aber\l"
+	.string "dich kennt hier keiner. Du verstehst\l"
+	.string "sicherlich, dass ich dich nicht einfach\l"
+	.string "weitergehen lassen kann, ohne zuvor\l"
+	.string "dein POKéMON-Team getestet zu haben!$"
 
 
 
 Route23_Text_Policia5Defeated:
-	.string "Your team deserves the MARSH BADGE.$"
+	.string "Dein Team ist des SUMPFORDENs würdig.$"
 
 
 Route23_Text_Policia5PostBattle:
-	.string "No need to call SABRINA to prove you've\n"
-	.string "defeated her. Good luck at POKÉMON\l"
-	.string "LEAGUE.$"
+	.string "Es ist nicht nötig, SABRINA anzurufen,\n"
+	.string "um nachzuprüfen, ob du sie besiegt\l"
+	.string "hast. Viel Glück bei der POKéMON LIGA!$"
 
 
 
 Route23_Text_Policia6Intro:
-	.string "Take one wrong step and you're\n"
-	.string "detained! {PAUSE 30}…{PAUSE 30} VOLCANO BADGE identified,\l"
-	.string "very convincing, huh? You're not one of\l"
-	.string "those collectors who have never caught\l"
-	.string "a single POKÉMON but proudly display\l"
-	.string "badges for show, are you? Let's find\l"
-	.string "out!$"
+	.string "Eine falsche Bewegung und du wirst\n"
+	.string "verhaftet! … Du trägst den\l"
+	.string "VULKANORDEN. Sieht echt aus. Du bist\l"
+	.string "doch keiner dieser Sammler, die noch nie\l"
+	.string "selbst ein POKéMON gefangen haben,\l"
+	.string "aber ihre ORDEN stolz zur Schau stellen,\l"
+	.string "oder? Finden wir's raus!$"
 
 
 
 Route23_Text_Policia6Defeated:
-	.string "Okay, it's clear now.$"
+	.string "Okay. Jetzt habe ich Gewissheit.$"
 
 
 Route23_Text_Policia6PostBattle:
-	.string "You've shown you defeated BLAINE; feel\n"
-	.string "free to proceed.$"
+	.string "Mit deiner Leistung hast du bewiesen,\n"
+	.string "dass du PYRO besiegt hast. Du darfst\l"
+	.string "weitergehen!$"
 
 
 
 Route23_Text_Policia7Intro:
-	.string "Another one? {PAUSE 30}…{PAUSE 30} EARTH BADGE identified.\n"
-	.string "Lately, it seems like they're giving\l"
-	.string "away badges. People keep entering\l"
-	.string "VICTORY ROAD as if it were the most\l"
-	.string "trivial place in the world. Show respect!$"
+	.string "Noch einer? … Du trägst den ERDORDEN.\n"
+	.string "Kommt mir so vor, als würden die\l"
+	.string "ARENALEITER ihre Orden in letzter Zeit\l"
+	.string "geradezu verschenken. Die Leute\l"
+	.string "betreten die SIEGESSTRAßE, als wär es\l"
+	.string "ein x-beliebiger Ort. Zollt diesem\l"
+	.string "heiligen Ort gefälligst mal ein bisschen\l"
+	.string "Respekt - um Gottes willen!$"
 
 
 
 Route23_Text_Policia7Defeated:
-	.string "So, it wasn't accidental that you also\n"
-	.string "reached this point.$"
+	.string "War also kein Zufall, dass du es\n"
+	.string "ebenfalls bis hierher geschafft hast.$"
 
 
 Route23_Text_Policia7PostBattle:
-	.string "You have the level to access VICTORY\n"
-	.string "ROAD; from here, the POKÉMON LEAGUE\l"
-	.string "awaits you on the horizon. Good luck.$"
+	.string "Du bist gut genug, um die SIEGESSTRAßE\n"
+	.string "zu betreten. Die POKéMON LIGA erwartet\l"
+	.string "dich. Viel Glück.$"
 
 
 
 Route22Path_Text_PoliciaIntro:
-	.string "One moment {PAUSE 30}…{PAUSE 30} BOULDER BADGE checked.\n"
-	.string "Theoretically, you can pass…{PAUSE 30} However,\l"
-	.string "we've been alerted to possible medal\l"
-	.string "thieves, and, as you can understand, I\l"
-	.string "can't trust someone dressed like that.\l"
-	.string "You're going to have to prove to me\l"
-	.string "that you earned that badge\l"
-	.string "legitimately!$"
+	.string "Einen Moment … Du trägst den\n"
+	.string "FELSORDEN. Eigentlich kannst du weiter,\l"
+	.string "aber wir wurden vor potenziellen Dieben\l"
+	.string "gewarnt, die mit gestohlenen Orden\l"
+	.string "auftauchen könnten, um hier\l"
+	.string "durchzukommen. Wie du sicherlich\l"
+	.string "verstehen kannst, kann ich deswegen\l"
+	.string "niemandem, der diese Uniform trägt,\l"
+	.string "einen Vertrauensvorschuss schenken.\l"
+	.string "Du wirst mir beweisen müssen, dass du\l"
+	.string "diesen Orden rechtmäßig erlangt hast!$"
 
 
 
 Route22Path_Text_PoliciaDefeated:
-	.string "Well, keep walking.$"
+	.string "Nun gut.$"
 
 
 Route22Path_Text_PoliciaPostBattle:
-	.string "That's BOULDER BADGE, keep walking.$"
+	.string "Das ist ein rechtmäßig erlangter\n"
+	.string "FELSORDEN! Du darfst weitergehen!$"
 
 
 VictoryRoad1F_Text_GuayIntro:
@@ -10037,33 +10103,35 @@ VictoryRoad3F_Text_Guay2PostBattle:
 
 
 VictoryRoad3F_Text_Guay3Intro:
-    .string "TRAINERS live to seek stronger\n"
-    .string "opponents.$"
+	.string "Trainer leben einzig dafür, noch\n"
+	.string "stärkere Gegner herauszufordern!$"
 
 
 VictoryRoad3F_Text_Guay3Defeated:
-    .string "Oh!\n"
-    .string "So strong!$"
+    .string "Oooooh!\n"
+    .string "Du bist richtig stark!$"
 
 
 VictoryRoad3F_Text_Guay3PostBattle:
-    .string "By fighting tough battles, you get\n"
-    .string "stronger.$"
+	.string "Harte Kämpfe machen dich nur noch\n"
+	.string "stärker!$"
 
 
 VictoryRoad3F_Text_Guay4Intro:
-	.string "An impressive TRAINER was here not too\n"
-	.string "long ago.$"
+	.string "Erst vor Kurzem war ein\n"
+	.string "außergewöhnlicher TRAINER hier.$"
 
 
 
 VictoryRoad3F_Text_Guay4Defeated:
-	.string "You are not so impressive!$"
+	.string "Du bist nicht so außergewöhnlich wie er!$"
 
 
 VictoryRoad3F_Text_Guay4PostBattle:
-	.string "It is said this impressive TRAINER\n"
-	.string "defeated GIOVANNI from TEAM ROCKET.$"
+	.string "Man sagt, dass es dieser\n"
+	.string "außergewöhnliche TRAINER war, der\l"
+	.string "GIOVANNI, den Anführer von TEAM\l"
+	.string "ROCKET, besiegt hat.$"
 
 
 KindleRoad_Text_ChicaIntro:
