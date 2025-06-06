@@ -6853,75 +6853,79 @@ ViridianForest_Text_CazabichosDefeated:
 
 
 ViridianForest_CazabichosPostBattle:
-	.string "Seeing a ROCKET around here is rarer\n"
-	.string "than finding a wild PINSIR in this\l"
-	.string "place!$"
+	.string "Einem ROCKET hier über den Weg zu\n"
+	.string "laufen, ist noch seltener als einem\l"
+	.string "wilden PINSIR zu begegnen!$"
 
 
 ViridianForest_Text_Cazabichos2Intro:
-	.string "The BUG TYPE evolves earlier than any\n"
-	.string "other type.$"
+	.string "KÄFER-TYPEN entwickeln sich früher als\n"
+	.string "jeder anderer Typ.$"
 
 
 ViridianForest_Text_Cazabichos2Defeated:
-	.string "I evolved them too early!$"
+	.string "Ich habe sie viel zu früh entwickelt!$"
 
 
 ViridianForest_Cazabichos2PostBattle:
-	.string "The negative aspect of evolving so\n"
-	.string "soon is that they don't have the time\l"
-	.string "to develop as robustly as, for instance,\l"
-	.string "the DRATINI line.$"
+	.string "Der Nachteil an so frühen\n"
+	.string "Entwicklungen ist wohl, dass sie nicht\l"
+	.string "die Zeit haben, sich voll zu entfalten -\l"
+	.string "wie zum Beispiel die DRATINI\l"
+	.string "Entwicklungslinie.$"
 
 
 ViridianForest_Text_Cazabichos3Intro:
-	.string "My BUG TYPE is the strangest among all\n"
-	.string "the BUG CATCHERS here, making me\l"
-	.string "automatically the coolest!$"
+	.string "Meine KÄFER-POKéMON sind die\n"
+	.string "seltsamsten unter den KÄFERSAMMLERn\l"
+	.string "hier. Das macht mich automatisch zum\l"
+	.string "coolsten!$"
 
 
 ViridianForest_Text_Cazabichos3Defeated:
-	.string "I've made a bad impression!$"
+	.string "Da hab ich wohl einen schlechten\n"
+	.string "Eindruck hinterlassen!$"
 
 
 ViridianForest_Cazabichos3PostBattle:
-	.string "Sometimes, a rare POKÉMON doesn't have\n"
-	.string "to be a strong POKÉMON.$"
+	.string "Manchmal sind seltene POKéMON nicht\n"
+	.string "stark.$"
 
 
 
 ViridianForest_Text_Cazabichos4Intro:
-	.string "The sting of a BEEDRILL is the most\n"
-	.string "painful thing!$"
+	.string "Der Stich eines BIBORs, ist das\n"
+	.string "schmerzhafteste, was es gibt!$"
 
 
 
 ViridianForest_Text_Cazabichos4Defeated:
-	.string "My BUG POKÉMON!$"
+	.string "Meine KÄFER-POKéMON!$"
 
 
 ViridianForest_Cazabichos4PostBattle:
-	.string "PIDGEOT reigns as the terror of the\n"
-	.string "POKÉMON in this area, and there's\l"
-	.string "nothing they can do to elude becoming\l"
-	.string "its prey.$"
+	.string "TAUBOSS ist für jedes POKéMON in diesem\n"
+	.string "Gebiet der größte Albtraum, und sie\l"
+	.string "können nichts dagegen tun, seine\l"
+	.string "Beute zu werden!$"
 
 
 
 ViridianForest_Text_Cazabichos5Intro:
-	.string "My adventure through the SAFARI ZONE\n"
-	.string "expanded my collection.$"
+	.string "Mein Abenteuer in der SAFARI-ZONE hat\n"
+	.string "meine Sammlung vergrößert.$"
 
 
 ViridianForest_Text_Cazabichos5Defeated:
-	.string "It wasn't enough!$"
+	.string "Das war wohl nicht genug!$"
 
 
 ViridianForest_Cazabichos5PostBattle:
-	.string "At the end, I believe I need more\n"
-	.string "powerful insects to excel; with a\l"
-	.string "SCYTHER or a PINSIR on my team,\l"
-	.string "everyone would give me respect.$"
+	.string "Im Endeffekt glaube ich, dass ich\n"
+	.string "stärkere Käfer-POKéMON wie SICHLOR\l"
+	.string "oder PINSIR in meinem Team brauche,\l"
+	.string "um mir den nötigen Respekt zu\l"
+	.string "verschaffen.$"
 
 
 
@@ -6941,126 +6945,135 @@ Route12_PescadorPostBattle:
 
 
 Route12_Text_Pescador2Intro:
-	.string "It's easier to spot a wild DRAGONAIR in\n"
-	.string "this area than a ROCKET like you.$"
+	.string "Es ist einfacher ein DRAGONIR in diesem\n"
+	.string "Gebiet zu finden als einen ROCKET wie\l"
+	.string "dich.$"
 
 
 
 Route12_Text_Pescador2Defeated:
-	.string "My focus slipped!$"
+	.string "Meine Konzentration hat nachgelassen!$"
 
 
 Route12_Pescador2PostBattle:
-	.string "Your dark plans will never succeed!$"
+	.string "Eure düsteren Pläne werden niemals\n"
+	.string "aufgehen!$"
 
 
 Route12_Text_Pescador3Intro:
-	.string "The crazy fisherman against the lost\n"
-	.string "delinquent!$"
+	.string "Der verrückte Angler gegen den\n"
+	.string "verlorenen Verbrecher!$"
 
 
 Route12_Text_Pescador3Defeated:
-	.string "Touched and sunk!$"
+	.string "Getroffen und versenkt!$"
 
 
 Route12_Pescador3PostBattle:
-	.string "You may have beaten me, but at least I\n"
-	.string "won't end up in jail!$"
+	.string "Du hast mich zwar besiegt, aber\n"
+	.string "wenigstens ende ich nicht im Gefängnis!$"
 
 
 
 Route12_Text_Pescador4Intro:
-	.string "If I had a GYARADOS, I would command it\n"
-	.string "to make all your darn ROCKET POKÉMON\l"
-	.string "bite the dust!$"
+	.string "Hätte ich ein GARADOS, würde ich es\n"
+	.string "jedem ROCKET den Garaus machen!$"
 
 
 Route12_Text_Pescador4Defeated:
-	.string "Forgive me!$"
+	.string "Vergib mir!$"
 
 
 Route12_Pescador4PostBattle:
-	.string "People like you who go against the\n"
-	.string "natural course of things are going to\l"
-	.string "end up in a bad way!$"
+	.string "Mit Leuten wie dir, die sich gegen den\n"
+	.string "natürlichen Lauf der Dinge stellen, wird\l"
+	.string "es ein böses Ende nehmen!$"
 
 
 Route12_Text_ChicoIntro:
-	.string "I excel in electricity; sea POKÉMON\n"
-	.string "don't bother me!$"
+	.string "Ich bin ein Ass in Sachen Elektrizität.\p"
+	.string "Meeres-POKéMON sind für mich keine\n"
+	.string "Herausforderung!$"
 
 
 
 Route12_Text_ChicoDefeated:
-	.string "Shocked!$"
+	.string "Ich bin schockiert!$"
 
 
 Route12_ChicoPostBattle:
-	.string "People of your profile could use an\n"
-	.string "ELECTABUZZ to their advantage.$"
+	.string "Trainer von deinem Kaliber würden von\n"
+	.string "einem ELEKTEK profitieren.$"
 
 
 Route12_Text_Chico2Intro:
-	.string "I've heard your boss has a NIDOKING;\n"
-	.string "can you tell me how he evolved from\l"
-	.string "NIDORINO?$"
+	.string "Ich habe gehört, dein Boss hat ein\n"
+	.string "NIDOKING. Kannst du mir verraten, wie er\l"
+	.string "sein NIDORINO entwickelt hat?$"
 
 
 Route12_Text_Chico2Defeated:
-	.string "With NIDOKING, I could have won!$"
+	.string "Mit einem NIDOKING hätte ich gewonnen!$"
 
 
 Route12_Chico2PostBattle:
-	.string "So a MOON STONE, well...$"
+	.string "Mit einem MONDSTEIN also. Gut zu wissen\n"
+	.string "…$"
 
 
 Route12_Text_Pescador5Intro:
-	.string "Get ready to meet the greatest POKÉMON\n"
-	.string "of all time! Tremble!$"
+	.string "Sei bereit, das großartigste POKéMON\n"
+	.string "aller Zeiten zu erblicken!\l"
+	.string "Erzittere vor ihm!$"
 
 
 
 Route12_Text_Pescador5Defeated:
-	.string "Finished!$"
+	.string "Ich bin am Ende!$"
 
 
 Route12_Pescador5PostBattle:
-	.string "Laugh, it's all fun until MAGIKARP\n"
-	.string "evolves into GYARADOS.$"
+	.string "Lach ruhig! Wenn es sich zu GARADOS\n"
+	.string "entwickelt, wird dir das Lachen schon\l"
+	.string "noch vergehen!$"
 
 
 
 Route13_Text_ChicaIntro:
-	.string "Purchasing vitamins to enhance stats\n"
-	.string "is terrible; they're so expensive!$"
+	.string "Nährstoffe zu kaufen, um die Werte zu\n"
+	.string "erhöhen, ist die Hölle! Sie sind viel zu\l"
+	.string "teuer!$"
 
 
 
 Route13_Text_ChicaDefeated:
-	.string "With CARBOS I could have won!$"
+	.string "Mit ein paar CARBON hätte ich gewonnen!$"
 
 
 Route13_ChicaPostBattle:
-	.string "What? Do you sell vitamins at one-third\n"
-	.string "of the market price? I want some too!$"
+	.string "WAS? Ihr verkauft NÄHRSTOFFE für ein\n"
+	.string "DRITTEL des Marktpreises? Ich will\l"
+	.string "auch welche!$"
 
 
 
 Route13_Text_OrnitologoIntro:
-	.string "Did you know that the strongest\n"
-	.string "POKÉMON in this region share the FLYING\l"
-	.string "TYPE? Even LANCE's DRAGON!$"
+	.string "Wusstest du, dass die stärksten\n"
+	.string "POKéMON dieser Region dem Typ-FLUG\l"
+	.string "angehören? Die DRACHEN von SIEGFRIED\l"
+	.string "eingeschlossen!$"
 
 
 
 Route13_Text_OrnitologoDefeated:
-	.string "Did my PIDGEY-PIDGEOTTO combo lose?$"
+	.string "Wie konnte meine TAUBSI-TAUBOGA\n"
+	.string "Kombination nur verlieren?$"
 
 
 Route13_OrnitologoPostBattle:
-	.string "Unfortunately, other FLYING-type\n"
-	.string "POKÉMON don't even compare to the level\l"
-	.string "of DRAGONITE or the LEGENDARY BIRDS.$"
+	.string "Leider können die POKéMON vom Typ FLUG\n"
+	.string "nicht mit dem Level eines DRAGORAN oder\l"
+	.string "der LEGENDÄREN VÖGEL mithalten.$"
 
 
 
@@ -7079,59 +7092,64 @@ Route13_Chica2PostBattle:
 
 
 Route13_Text_ModeloIntro:
-	.string "Let's battle, but don't go overboard\n"
-	.string "with my POKÉMON!$"
+	.string "Lass uns kämpfen, aber übertreib es\n"
+	.string "nicht gegen meine POKéMON!$"
 
 
 
 Route13_Text_ModeloDefeated:
-	.string "You are cruel!$"
+	.string "Du bist grausam!$"
 
 
 Route13_ModeloPostBattle:
-	.string "I just wanted to have a good time!$"
+	.string "Ich wollte doch nur etwas Spaß haben!$"
 
 
 Route13_Text_Modelo2Intro:
-	.string "Let's go, but don't steal me afterward!$"
+	.string "Los geht's! Aber bestiehl mich nicht\n"
+	.string "danach!$"
 
 
 Route13_Text_Modelo2Defeated:
-	.string "Is it done?$"
+	.string "Ist es schon vorbei?$"
 
 
 Route13_Modelo2PostBattle:
-	.string "Actually, I don't know anything about\n"
-	.string "POKÉMON; I just choose them based on\l"
-	.string "their appearance.$"
+	.string "Weißt du, ich kenne mich gar nicht mit\n"
+	.string "POKéMON aus. Ich wähle sie einfach nach\l"
+	.string "ihrem Aussehen aus.$"
 
 
 Route13_Text_Chica3Intro:
-	.string "I'm curious to see the POKÉMON of a\n"
-	.string "fugitive.$"
+	.string "Ich bin neugierig auf die POKéMON, die\n"
+	.string "ein gesuchter Verbrecher besitzt.$"
 
 
 Route13_Text_Chica3Defeated:
-	.string "Amazing!$"
+	.string "Atemberaubend!$"
 
 
 Route13_Chica3PostBattle:
-	.string "The criminal life has evidently\n"
-	.string "toughened your POKÉMON!$"
+	.string "Dein Leben als Verbrecher hat\n"
+	.string "offensichtlich deine POKéMON\l"
+	.string "abgehärtet!$"
 
 
 Route13_Text_Chica4Intro:
-	.string "Oh! I don't want my POKÉMON to be\n"
-	.string "influenced in a bad way by a bandit!$"
+	.string "OH! Ich will nicht, dass meine POKéMON\n"
+	.string "unter dem schlechten Einfluss von\l"
+	.string "Banditen wie dir kommen!$"
 
 
 Route13_Text_Chica4Defeated:
-	.string "My POKÉMON won't bounce back from this!$"
+	.string "Meine POKéMON werden sich davon\n"
+	.string "niemals erholen!$"
 
 
 Route13_Chica4PostBattle:
-	.string "You poisoned my POKÉMON, take\n"
-	.string "responsibility!$"
+	.string "Du hast meine POKéMON vergiftet, also\n"
+	.string "übernimm gefälligst auch die\l"
+	.string "Verantwortung!$"
 
 
 Route13_Text_Ornitologo2Intro:
@@ -7149,17 +7167,17 @@ Route13_Ornitologo2PostBattle:
 
 
 Route13_Text_MotoristaIntro:
-	.string "What are you looking for?$"
+	.string "Suchst du was?$"
 
 
 Route13_Text_MotoristaDefeated:
-	.string "Ouch! I was wrong!$"
+	.string "AUTSCH! Ich lag wohl falsch!$"
 
 
 Route13_MotoristaPostBattle:
-	.string "Forgive me, {PLAYER}, I thought you\n"
-	.string "were one of those weaklings who only\l"
-	.string "use fragile FLYING-type POKÉMON.$"
+	.string "Vergib mir, {PLAYER}. Ich dachte, du\n"
+	.string "wärst einer dieser Schwächlinge, die nur\l"
+	.string "zerbrechliche FLUG-POKéMON benutzen.$"
 
 
 Route13_Text_Ornitologo3Intro:
@@ -7177,17 +7195,18 @@ Route13_Ornitologo3PostBattle:
 
 
 Route14_Text_OrnitologoIntro:
-	.string "I expect you to admire the beauty that\n"
-	.string "this route exudes.$"
+	.string "Ich erwarte, dass du die Schönheit\n"
+	.string "bewunderst, die diese Route\l"
+	.string "ausstrahlt!$"
 
 
 Route14_Text_OrnitologoDefeated:
-	.string "I'm not good enough yet.$"
+	.string "Ich bin wohl noch nicht gut genug.$"
 
 
 Route14_OrnitologoPostBattle:
-	.string "This area is perfect for raising my BIRD\n"
-	.string "POKÉMON; it's very spacious.$"
+	.string "Dieser Ort ist perfekt, um meine\n"
+	.string "FLUG-POKéMON zu trainieren.$"
 
 
 Route14_Text_Ornitologo2Intro:
@@ -7205,51 +7224,54 @@ Route14_Ornitologo2PostBattle:
 
 
 Route14_Text_Ornitologo3Intro:
-	.string "I've researched BIRD POKÉMON more than\n"
-	.string "anyone else!$"
+	.string "Ich habe FLUG-POKéMON eifriger als\n"
+	.string "jeder andere studiert!$"
 
 
 Route14_Text_Ornitologo3Defeated:
-	.string "Everything in vain!$"
+	.string "Es war alles umsonst!$"
 
 
 Route14_Ornitologo3PostBattle:
-	.string "I've heard that someone named FALKNER\n"
-	.string "in JOHTO is a FLYING-type master.$"
+	.string "Ich habe gehört, dass jemand namens\n"
+	.string "FALK in JOHTO ein Meister des\l"
+	.string "FLUG-Typs ist.$"
 
 
 Route14_Text_Ornitologo4Intro:
-	.string "Your vile POKÉMON will never be able to\n"
-	.string "reach my birds!$"
+	.string "Deine abscheulichen POKéMON werden\n"
+	.string "meine Vögel niemals schlagen können!$"
+
 
 
 Route14_Text_Ornitologo4Defeated:
-	.string "You've cut off my wings!$"
+	.string "Du hast mir die Flügel gestutzt!$"
 
 
 Route14_Ornitologo4PostBattle:
-	.string "In JOHTO, there's a big bird\n"
-	.string "covered in steel. Could it be true?$"
+	.string "Ich habe gehört, es gibt in JOHTO ein\n"
+	.string "Vogel-POKéMON, das komplett in Stahl\l"
+	.string "gehüllt ist. Könnte es wahr sein?$"
 
 
 Route14_Text_Ornitologo5Intro:
-	.string "You will never find the location of the\n"
-	.string "SACRED BIRDS!$"
+	.string "Du wirst niemals den Aufenthaltsort der\n"
+	.string "LEGENDÄREN VÖGEL finden!$"
 
 
 Route14_Text_Ornitologo5Defeated:
-	.string "What led to my loss?$"
+	.string "Was hat zu meiner Niederlage geführt?$"
 
 
 Route14_Ornitologo5PostBattle:
-	.string "What? Are you going to create clones\n"
-	.string "even more powerful than the original\l"
-	.string "SACRED BIRDS?$"
+	.string "WAS? Ihr wollt Klone erschaffen, die\n"
+	.string "sogar noch stärker als die originalen\l"
+	.string "LEGENDÄREN VÖGEL sind?!$"
 
 
 Route14_Text_Ornitologo6Intro:
-	.string "So, GOLBAT is your favorite bird, not\n"
-	.string "bad.$"
+	.string "Also, GOLBAT ist dein Lieblings\n"
+	.string "Flug-POKéMON. Nicht schlecht.$"
 
 
 Route14_Text_Ornitologo6Defeated:
@@ -7276,157 +7298,163 @@ Route14_MotoristaPostBattle:
 
 
 Route14_Text_Motorista2Intro:
-	.string "Someone said me that in JOHTO, there's a\n"
-	.string "POKÉMON named GRANBULL; I want to get\l"
-	.string "one!$"
+	.string "Jemand hat mir erzählt, dass es in JOHTO\n"
+	.string "ein POKéMON namens GRANBULL gibt.\l"
+	.string "ICH WILL EINS!$"
 
 
 
 Route14_Text_Motorista2Defeated:
-	.string "Your POKÉMON were stronger!$"
+	.string "Deine POKéMON sind stärker!$"
 
 
 Route14_Motorista2PostBattle:
-	.string "ARIADOS wouldn't be a bad choice\n"
-	.string "either!$"
+	.string "ARIADOS wäre ebenfalls keine schlechte\n"
+	.string "Wahl!$"
 
 
 Route14_Text_Motorista3Intro:
-	.string "FUCHSIA is under control,\n"
-	.string "HIGH-RANK {PLAYER}!$"
+	.string "FUCHSANIA ist unter Kontrolle,\n"
+	.string "HOCHRANGIGER RÜPEL {PLAYER}!$"
 
 
 
 Route14_Text_Motorista3Defeated:
-	.string "I deflated!$"
+	.string "Die Luft ist raus!$"
 
 
 Route14_Motorista3PostBattle:
-	.string "Battling against one of the top ROCKET\n"
-	.string "members has been a privilege!$"
+	.string "War mir 'ne Ehre gegen einer der Top\n"
+	.string "TEAM ROCKET Mitglieder zu kämpfen!$"
 
 
 Route14_Text_Motorista4Intro:
-    .string "WEEZING and MUK are the best!$"
+	.string "SMOGMOG und SLEIMOK sind die besten!$"
 
 
 Route14_Text_Motorista4Defeated:
-	.string "Argh! I lost! Get lost!$"
+	.string "AAHH! Ich habe verloren! Verschwinde!$"
 
 
 Route14_Motorista4PostBattle:
-	.string "What? Can GOLBAT evolve into a POKÉMON\n"
-	.string "even stronger than WEEZING or MUK?$"
+	.string "WAS? Ein GOLBAT kann sich in ein noch\n"
+	.string "stärkeres POKéMON als SMOGMOG und\l"
+	.string "SLEIMOK entwickeln?$"
 
 
 
 Route15_Text_MotoristaIntro:
-	.string "It's said that you're turning into one\n"
-	.string "of GIOVANNI's favorites.$"
+	.string "Es wird gesagt, dass du einer GIOVANNIs\n"
+	.string "Favoriten bist.$"
 
 
 
 Route15_Text_MotoristaDefeated:
-	.string "Now I see why.$"
+	.string "Jetzt verstehe ich, wieso.$"
 
 
 Route15_MotoristaPostBattle:
-	.string "Life is too short; this region forces us\n"
-	.string "to live outside the law. TEAM ROCKET\l"
-	.string "rules!$"
+	.string "Das Leben ist zu kurz. Diese Region\n"
+	.string "zwingt uns, außerhalb des Gesetzes zu\l"
+	.string "leben. TEAM ROCKET rockt!$"
 
 
 
 Route15_Text_Motorista2Intro:
-	.string "How about PETREL, GRUNT?$"
+	.string "Was hältst du von LAMBDA, RÜPEL?$"
 
 
 Route15_Text_Motorista2Defeated:
-	.string "I see.$"
+	.string "Verstehe.$"
 
 
 Route15_Motorista2PostBattle:
-	.string "We're at your service for any dirty jobs\n"
-	.string "we can undertake around here!$"
+	.string "Wir stehen euch zur Verfügung - für\n"
+	.string "jede noch so skrupellose Aufgabe!$"
 
 
 
 Route15_Text_BellaIntro:
-	.string "Please don't spoil the scenery; this\n"
-	.string "route is one of the region's gems!$"
+	.string "Bitte ruiniere diese Landschaft nicht.\p"
+	.string "Diese Route gehört zu den Schätzen\n"
+	.string "dieser Region!$"
 
 
 
 Route15_Text_BellaDefeated:
-	.string "Oh, it was a joke; don't take it\n"
-	.string "seriously.$"
+	.string "Ach, das war doch nur ein Scherz.\n"
+	.string "Nimm nicht alles so ernst!$"
 
 
 
 Route15_BellaPostBattle:
-	.string "Leave me alone!$"
+	.string "Lass mich in Ruhe!$"
 
 
 Route15_Text_Bella2Intro:
-	.string "I train my POKÉMON to safeguard me in\n"
-	.string "case I run into a delinquent like you!$"
+	.string "Ich trainiere meine POKéMON, damit sie\n"
+	.string "mich beschützen können, falls ich einem\l"
+	.string "Verbrecher wie dir über den Weg laufe!$"
 
 
 
 Route15_Text_Bella2Defeated:
-	.string "They didn't protect me!$"
+	.string "Sie haben mich nicht beschützen\n"
+	.string "können!$"
 
 
 Route15_Bella2PostBattle:
-	.string "Fortunately, you don't abuse your\n"
-	.string "power; others from your organization\l"
-	.string "would have already stolen everything\l"
-	.string "from me!$"
+	.string "Zum Glück missbrauchst du deine Macht\n"
+	.string "nicht. Andere aus deiner Organisation\l"
+	.string "hätten mir längst alles gestohlen!$"
 
 
 
 Route15_Text_ChicaIntro:
-	.string "I've recently traded some POKÉMON;\n"
-	.string "allow me to test them with you!$"
+	.string "Ich habe vor Kurzem einige POKéMON per\n"
+	.string "Tausch erhalten. Erlaube mir, sie an dir\l"
+	.string "zu testen!$"
 
 
 
 Route15_Text_ChicaDefeated:
-	.string "I wasn't good enough!$"
+	.string "Ich war nicht gut genug!$"
 
 
 Route15_ChicaPostBattle:
-	.string "I think I'll keep them.$"
+	.string "Ich denke, ich werde sie behalten.$"
 
 
 Route15_Text_OrnitologoIntro:
-	.string "My BIRDS tremble at the crack of your\n"
-	.string "whip!$"
+	.string "Meine Vögel erschaudern beim Knall\n"
+	.string "deiner Peitsche!$"
 
 
 
 Route15_Text_OrnitologoDefeated:
-	.string "I knew it!$"
+	.string "Ich wusste es!$"
 
 
 Route15_OrnitologoPostBattle:
-	.string "Moves like EARTHQUAKE or FISSURE don't\n"
-	.string "concern a BIRD KEEPER like me.$"
+	.string "Attacken wie ERDBEBEN oder GEOFISSUR\n"
+	.string "bereiten VOGEL-PROFIs wie mir nicht\l"
+	.string "die geringsten Sorgen.$"
 
 
 Route15_Text_Ornitologo2Intro:
-	.string "ROCKET members like you don't value the\n"
-	.string "beauty of BIRD POKÉMON.$"
+	.string "ROCKET-Mitglieder wie du wissen nicht\n"
+	.string "die Schönheit von FLUG-POKéMON zu\l"
+	.string "schätzen.$"
 
 
 
 Route15_Text_Ornitologo2Defeated:
-	.string "OW! How tragic!$"
+	.string "AAHH! Wie tragisch!$"
 
 
 Route15_Ornitologo2PostBattle:
-	.string "You've poisoned me with your vile\n"
-	.string "POKÉMON!$"
+	.string "Du hast mich mit deinen abscheulichen\n"
+	.string "POKéMON vergiftet!$"
 
 
 
@@ -7443,63 +7471,65 @@ Route15_Chica2PostBattle:
 
 
 Route15_Text_Chica3Intro:
-	.string "Don't hurt me!$"
+	.string "Tu mir nichts!$"
 
 
 Route15_Text_Chica3Defeated:
-	.string "So scary!$"
+	.string "So angsteinflößend!$"
 
 
 Route15_Chica3PostBattle:
-	.string "I could have beaten you with a MOON\n"
-	.string "STONE!$"
+	.string "Hätte ich einen MONDSTEIN, dann hätte\n"
+	.string "gewonnen!$"
 
 
 Route15_Text_Chica4Intro:
-	.string "BIKERS and ROCKETS like you scare me!$"
+	.string "BIKER und ROCKETs wie du machen mir\n"
+	.string "Angst!$"
 
 
 Route15_Text_Chica4Defeated:
-	.string "Mistake!$"
+	.string "Großer Fehler!$"
 
 
 Route15_Chica4PostBattle:
-	.string "Despite being much stronger, you don't\n"
-	.string "appear to have the wickedness of other\l"
-	.string "ROCKETS.$"
+	.string "Obwohl du viel stärker bist, kommst du\n"
+	.string "mir nicht so bösartig vor wie die\l"
+	.string "anderen ROCKETs.$"
 
 
 
 Route18_Text_OrnitologoIntro:
-	.string "We don't need a ROCKET taking away our\n"
-	.string "territory.$"
+	.string "Wir brauchen keinen ROCKET, der uns das\n"
+	.string "Gebiet streitig macht.$"
 
 
 
 Route18_Text_OrnitologoDefeated:
-	.string "Tch!$"
+	.string "Tssss!$"
 
 
 Route18_OrnitologoPostBattle:
-	.string "It was a joke; here in FUCHSIA, we're\n"
-	.string "PRO-ROCKET.$"
+	.string "Das war doch nur ein Scherz! Hier in\n"
+	.string "FUCHSANIA sind wir PRO-TEAM ROCKET.$"
 
 
 Route18_Text_Ornitologo2Intro:
-	.string "Excluding the LEGENDARY BIRDS,\n"
-	.string "PIDGEOT stands as the most powerful\l"
-	.string "bird in KANTO.$"
+	.string "Abgesehen von den LEGENDÄREN VÖGELN,\n"
+	.string "ist TAUBOSS der stärkste Vogel in\l"
+	.string "KANTO.$"
+
 
 
 
 Route18_Text_Ornitologo2Defeated:
-	.string "My powerful bird lost!$"
+	.string "Mein starker Vogel hat verloren?!$"
 
 
 Route18_Ornitologo2PostBattle:
-	.string "I think DODRIO competes quite well with\n"
-	.string "PIDGEOT for the title of the best bird\l"
-	.string "in the region.$"
+	.string "Ich denke, DODRI konkurriert mit\n"
+	.string "TAUBOSS um den Titel des besten Vogels\n"
+	.string "in dieser Region.$"
 
 
 Route18_Text_Ornitologo3Intro:
@@ -7517,33 +7547,34 @@ Route18_Ornitologo3PostBattle:
 
 
 Route17_Text_MotoristaIntro:
-	.string "It's a privilege to have you here,\n"
-	.string "{PLAYER}! Allow me this duel!$"
+	.string "Es ist 'n Privileg, dich hier zu haben,\n"
+	.string "{PLAYER}! Erlaub mir, mich mit dir zu\l"
+	.string "duellieren!$"
 
 
 Route17_Text_MotoristaDefeated:
-	.string "Pure ROCKET power!$"
+	.string "Reine ROCKET Kraft!$"
 
 
 Route17_MotoristaPostBattle:
-	.string "You're going to be the next ADMIN.\n"
-	.string "ROCKET!$"
+	.string "Du wirst der nächste ROCKET\n"
+	.string "ADMINISTRATOR!$"
 
 
 
 Route17_Text_Motorista2Intro:
-	.string "There are rumors about a new ROCKET\n"
-	.string "highly proficient in combat.$"
+	.string "Es gibt Gerüchte über 'n neuen ROCKET,\n"
+	.string "der richtig gut im Kämpfen ist.$"
 
 
 
 Route17_Text_Motorista2Defeated:
-	.string "Rumors were true!$"
+	.string "Die Gerüchte sind wahr!$"
 
 
 Route17_Motorista2PostBattle:
-	.string "Did you really give a lesson to that\n"
-	.string "pampered BILL?$"
+	.string "Hast du wirklich diesem verwöhnten\n"
+	.string "Schnösel BILL eine Lektion erteilt?$"
 
 
 
@@ -7600,161 +7631,171 @@ Route17_Motorista6PostBattle:
 
 
 Route17_Text_Motorista7Intro:
-	.string "TEAM ROCKET rules the streets, and we\n"
-	.string "rule the roads!$"
+	.string "TEAM ROCKET beherrscht die Straßen und\n"
+	.string "wir die Wege!$"
 
 
 
 Route17_Text_Motorista7Defeated:
-	.string "My bike broke down!$"
+	.string "Mein Motorrad hat jetzt 'nen Schaden!$"
 
 
 Route17_Motorista7PostBattle:
-	.string "The recent policies adopted by the\n"
-	.string "Elite 4 government are bullshit.$"
+	.string "Die jüngsten Gesetze der TOP VIER sind\n"
+	.string "schrecklich.$"
 
 
 
 Route17_Text_Motorista8Intro:
-	.string "You need some guts to challenge the\n"
-	.string "pampered kid of the ELITE 4, {PLAYER}.\l"
-	.string "Let's see what you're made of!$"
+	.string "Man braucht schon richtig Mumm, um den\n"
+	.string "Liebling der TOP VIER herauszufordern,\l"
+	.string "{PLAYER}. Schauen wir mal, aus welchem\l"
+	.string "Holz du geschnitzt bist!$"
 
 
 
 Route17_Text_Motorista8Defeated:
-	.string "Guau!$"
+	.string "AARGH!$"
 
 
 Route17_Motorista8PostBattle:
-	.string "Every BIKER cheered when you barged\n"
-	.string "into BILL's house and gave him a lesson;\l"
-	.string "that's how you earned our respect.$"
+	.string "Jeder BIKER hat gejubelt, als du in BILL\n"
+	.string "in seinem eigenen Haus eine Lektion\l"
+	.string "erteilt hast! Genau so verdient man\l"
+	.string "sich unseren Respekt!$"
 
 
 Route17_Text_Motorista9Intro:
-	.string "LONG LIFE TEAM ROCKET! HAIL GIOVANNI!$"
+	.string "LANG LEBE TEAM ROCKET!\n"
+	.string "GOTT SCHÜTZE GIOVANNI!$"
 
 
 Route17_Text_Motorista9Defeated:
-	.string "Good battle, comrade!$"
+	.string "Guter Kampf, Kamerad!$"
 
 
 Route17_Motorista9PostBattle:
-	.string "I love illegal races!$"
+	.string "Ich steh total auf illegale Rennen!$"
 
 
 Route17_Text_Motorista10Intro:
-	.string "PETREL spoke very positively about you.$"
+	.string "LAMBDA hat in den höchsten Tönen von\n"
+	.string "dir gesprochen.$"
 
 
 Route17_Text_Motorista10Defeated:
-	.string "Whoo!$"
+	.string "WOOAR!$"
 
 
 Route17_Motorista10PostBattle:
-	.string "It's not easy to earn PETREL's trust,\n"
-	.string "but it looks like you did it.$"
+	.string "Es ist nicht einfach, sich LAMBDAs\n"
+	.string "Vertrauen zu verdienen. Aber es schaut\l"
+	.string "so aus, als hättest du es geschafft.$"
 
 
 Route16_Text_MotoristaIntro:
-	.string "So, you're the young promising ROCKET\n"
-	.string "everyone's talking about!$"
+	.string "Du bist also der junge aufstrebende\n"
+	.string "ROCKET, über den alle reden!$"
 
 
 
 Route16_Text_MotoristaDefeated:
-	.string "Wrong, wrong, wrong!$"
+	.string "NEIN NEIN NEIN NEIN!$"
 
 
 Route16_MotoristaPostBattle:
-	.string "Remember, loyalty and honor come first\n"
-	.string "in TEAM ROCKET.$"
+	.string "Vergiss nicht: Loyalität und Ehre\n"
+	.string "stehen bei TEAM ROCKET an erster\l"
+	.string "Stelle.$"
 
 
 Route16_Text_Motorista2Intro:
-	.string "Hey! Let's have a good time!$"
+	.string "HEY! Lass uns Dampf ablassen!$"
 
 
 Route16_Text_Motorista2Defeated:
-	.string "Don't make me angry!$"
+	.string "Mach mich nicht wütend!$"
 
 
 Route16_Motorista2PostBattle:
-	.string "WEEZING and MUK are the best!$"
+	.string "SMOGMOG und SLEIMOK sind die besten\n"
+	.string "POKéMON!$"
 
 
 Route16_Text_Motorista3Intro:
-	.string "A ROCKET like you is not commonly seen\n"
-	.string "around here.$"
+	.string "Einen ROCKET wie dich sieht man hier\n"
+	.string "nicht alle Tage.$"
 
 
 Route16_Text_Motorista3Defeated:
-	.string "Kaboom!$"
+	.string "KABUMM. Schon wieder ‘n Platten!$"
 
 
 Route16_Motorista3PostBattle:
-	.string "This area has always belonged to us;\n"
-	.string "not even LANCE can kick us out.$"
+	.string "Dieses Gebiet hat uns schon immer\n"
+	.string "gehört. Nicht mal SIEGFRIED kann uns\l"
+	.string "von hier vertreiben!$"
 
 
 Route16_Text_Motorista4Intro:
-	.string "Sir, we are ready for the next move!$"
+	.string "Sir, wir sind bereit für den nächsten\n"
+	.string "Befehl!$"
 
 
 Route16_Text_Motorista4Defeated:
-	.string "What a move!$"
+	.string "Warte 'n Moment!$"
 
 
 Route16_Motorista4PostBattle:
-	.string "Here, we're always prepared to sacrifice\n"
-	.string "it all for TEAM ROCKET!$"
+	.string "Sieh mal. Wir sind immer bereit, alles für\n"
+	.string "TEAM ROCKET zu opfern!$"
 
 
 Route16_Text_Motorista5Intro:
-	.string "KOGA is also aligned with TEAM ROCKET\n"
-	.string "and us, though he can't confess it due\l"
-	.string "to his GYM LEADER role.$"
+	.string "KOGA sympathisiert mit euch und uns -\n"
+	.string "auch wenn er es nicht zugeben kann,\l"
+	.string "wegen seiner Rolle als ARENALEITER.$"
 
 
 Route16_Text_Motorista5Defeated:
-	.string "Knocked out!$"
+	.string "Ich seh nur noch Sternchen!$"
 
 
 Route16_Motorista5PostBattle:
-	.string "The reason we've held onto this\n"
-	.string "territory for so long it's KOGA\l"
-	.string "influence.$"
+	.string "Der Grund, warum wir dieses Gebiet so\n"
+	.string "lange halten konnten, ist KOGAs\l"
+	.string "Einfluss.$"
 
 
 Route16_Text_Motorista6Intro:
-	.string "Trust in WEEZING! It will never let you\n"
-	.string "down!$"
+	.string "Vertraue auf SMOGMOG! Es wird dich nie\n"
+	.string "im Stich lassen!$"
 
 
 Route16_Text_Motorista6Defeated:
-	.string "Don't laugh at me!$"
+	.string "Lach mich nicht aus!$"
 
 
 Route16_Motorista6PostBattle:
-	.string "The reason I really like about WEEZING\n"
-	.string "is that it can explode if the situation\l"
-	.string "demands it.$"
+	.string "Der Grund, warum ich SMOGMOG so mag,\n"
+	.string "ist, dass es explodieren kann, wenn es\l"
+	.string "die Situation erfordert.$"
 
 
 
 Route19_Text_NadadorIntro:
-	.string "Warming up before getting into the\n"
-	.string "water is crucial, though in your case, I\l"
-	.string "wouldn't care if you drowned.$"
+	.string "Sich vor dem Schwimmen aufzuwärmen ist\n"
+	.string "entscheidend! Aber in deinem Fall wär's\l"
+	.string "mir egal, wenn du ersäufst.$"
 
 
 Route19_Text_NadadorDefeated:
-	.string "Let's go into the water!$"
+	.string "Lass uns ins Wasser gehen!$"
 
 
 Route19_NadadorPostBattle:
-	.string "At least I'm ready to swim.$"
+	.string "Wenigstens bin ich jetzt bereit, zu\n"
+	.string "schwimmen.$"
 
 
 Route19_Text_Nadador2Intro:
@@ -7773,8 +7814,8 @@ Route19_Nadador2PostBattle:
 
 
 Route19_Text_Nadador3Intro:
-	.string "This water purifies many things, but\n"
-	.string "your past misdeeds are not one of them.$"
+	.string "Dieses Wasser reinigt viele Dinge.\n"
+	.string "Deine Missetaten gehören nicht dazu.$"
 
 
 
@@ -7789,46 +7830,49 @@ Route19_Nadador3PostBattle:
 
 
 Route19_Text_Nadador4Intro:
-	.string "It seems possible to dive with POKÉMON;\n"
-	.string "the question is, how do you breathe?$"
+	.string "Sieht so aus, als könnte man mit einem\n"
+	.string "POKéMON tauchen. Aber da stellt sich\l"
+	.string "mir eine Frage: Wie atmet man in der Zeit\l"
+	.string "unter Wasser?$"
 
 
 Route19_Text_Nadador4Defeated:
-	.string "Help!$"
+	.string "HILFEE!$"
 
 
 Route19_Nadador4PostBattle:
-	.string "Fishing is much safer than diving.$"
+	.string "Angeln ist viel sicherer als tauchen.$"
 
 
 Route19_Text_Nadador5Intro:
-	.string "You can't swim, ROCKET?$"
+	.string "Kannst du nicht schwimmen, ROCKET?$"
 
 
 Route19_Text_Nadador5Defeated:
-	.string "Glub!$"
+	.string "SCHLUCK!$"
 
 
 Route19_Nadador5PostBattle:
-	.string "I'm curious about what will occur if I\n"
-	.string "toss you from your so comfortable\l"
-	.string "position riding your surely stolen\l"
-	.string "POKÉMON!$"
+	.string "Ich bin gespannt, was passiert, wenn\n"
+	.string "ich dich von deiner sicheren Position\l"
+	.string "runterstoße, die du auf deinem\l"
+	.string "sicherlich gestohlenen POKEMON\l"
+	.string "innehast!$"
 
 
 
 Route19_Text_Nadador6Intro:
-	.string "I really enjoy swimming! It seems you\n"
-	.string "don't.$"
+	.string "Mir macht schwimmen viel Spaß!\n"
+	.string "Dir hingegen eher weniger.$"
 
 
 Route19_Text_Nadador6Defeated:
-	.string "Freefall!$"
+	.string "Freier Fall!$"
 
 
 Route19_Nadador6PostBattle:
-	.string "I can swim even faster than some marine\n"
-	.string "POKÉMON.$"
+	.string "Ich kann schneller schwimmen als so\n"
+	.string "manche Meeres-POKéMON.$"
 
 
 Route19_Text_Nadador7Intro:
@@ -7847,37 +7891,39 @@ Route19_Nadador7PostBattle:
 
 
 Route19_Text_NadadoraIntro:
-	.string "It's alright, ROCKET, just admit you\n"
-	.string "can't swim.$"
+	.string "Ist schon in Ordnung, ROCKET. Gib\n"
+	.string "einfach zu, dass du nicht schwimmen\l"
+	.string "kannst.$"
 
 
 Route19_Text_NadadoraDefeated:
-	.string "Oh! I lost!$"
+	.string "OHH! Ich hab verloren?!$"
 
 
 Route19_NadadoraPostBattle:
-	.string "It'll be a while before we get to\n"
-	.string "SEAFOAM ISLANDS... I think I'll go back\l"
-	.string "to FUCHSIA...$"
+	.string "Es ist noch weit bis zu den\n"
+	.string "SEESCHAUMINSELN … Ich glaube, ich\l"
+	.string "schwimme nach FUCHSANIA CITY zurück.$"
 
 
 Route19_Text_Nadadora2Intro:
-	.string "I thought TEAM ROCKET was forbidden to\n"
-	.string "use SURF; in fact, you're not even\l"
-	.string "allowed to compete for the badge that\l"
-	.string "grants it.$"
+	.string "Ich dachte, TEAM ROCKET wurde es\n"
+	.string "verboten, auf ihren POKéMON zu surfen.\p"
+	.string "Tatsache ist, dass ihr nicht mal um die\n"
+	.string "Orden kämpfen dürft, die es euch\l"
+	.string "erlauben, eben das zu tun.$"
 
 
 Route19_Text_Nadadora2Defeated:
-	.string "I am exhausted.$"
+	.string "Ich bin fix und fertig.$"
 
 
 Route19_Nadadora2PostBattle:
-	.string "If I had to choose a POKÉMON to take me\n"
-	.string "across the sea, I would undoubtedly\l"
-	.string "choose LAPRAS. LAPRAS is very large and\l"
-	.string "spacious; it would keep me away from\l"
-	.string "the water.$"
+	.string "Wenn ich mir aussuchen könnte, welches\n"
+	.string "POKéMON mich übers Meer bringt, würde\l"
+	.string "ich LAPRAS wählen. LAPRAS ist groß und\l"
+	.string "bietet genug Platz, um das Wasser von\l"
+	.string "mir fernzuhalten.$"
 
 
 Route19_Text_Nadadora3Intro:
@@ -7895,18 +7941,19 @@ Route19_Nadadora3PostBattle:
 
 
 Route20_Text_NadadorIntro:
-	.string "It's not very common to see a ROCKET\n"
-	.string "around here. What are you up to?$"
+	.string "Es kommt nicht häufig vor, dass man hier\n"
+	.string "einen ROCKET sieht. Was führst du im\l"
+	.string "Schilde?$"
 
 
 
 Route20_Text_NadadorDefeated:
-	.string "Splash!$"
+	.string "Platscher!$"
 
 
 Route20_NadadorPostBattle:
-	.string "I would like to be able to ride on my\n"
-	.string "POKÉMON. I hope you're not tired.$"
+	.string "Ich würde gerne auf meinem POKéMON\n"
+	.string "reiten. Ich hoffe, du bist nicht müde.$"
 
 
 
@@ -7939,120 +7986,123 @@ Route20_NadadoraPostBattle:
 
 
 Route20_Text_Nadadora2Intro:
-	.string "I love floating alongside the fish\n"
-	.string "among the waves.$"
+	.string "Ich liebe es, mit den Fischen hier in den\n"
+	.string "Wellen dahinzutreiben.$"
 
 
 Route20_Text_Nadadora2Defeated:
-	.string "Yowch!$"
+	.string "Keuchtz!$"
 
 
 Route20_Nadadora2PostBattle:
-	.string "You hurt my poor SEAKING!$"
+	.string "DUU hast mein armes GOLKING verletzt!$"
 
 
 PowerPlant_Text_PoliciaIntro:
-	.string "You and your little friend must\n"
-	.string "be judged by the authorities.$"
+	.string "Du und deine kleine Freundin müssen zur\n"
+	.string "Rechenschaft gezogen werden!$"
 
 
 PowerPlant_Text_PoliciaDefeated:
-	.string "Give us time...$"
+	.string "Gib uns etwas Zeit und dann …$"
 
 
 PowerPlant_PoliciaPostBattle:
-	.string "KANTO police catches everyone; sooner\n"
-	.string "or later, you'll all be in jail.$"
+	.string "Die Polizei von KANTO erwischt früher\n"
+	.string "oder später jeden. Ihr werdet alle im\l"
+	.string "Gefängnis landen.$"
 
 
 
 PowerPlant_Text_Policia2Intro:
-	.string "You're the one who miraculously escaped\n"
-	.string "a life sentence for robbing at BILL's\l"
-	.string "house. It's quite foolish of you to try\l"
-	.string "luck again.$"
+	.string "Du bist derjenige, der auf wundersamer\n"
+	.string "Weise von BILLs Haus entkommen konnte.\p"
+	.string "Es ist ganz schön dämlich von dir, dein\n"
+	.string "Glück noch weiter zu strapazieren.$"
 
 
 PowerPlant_Text_Policia2Defeated:
- 	.string "This time, we'll catch you.$"
+	.string "Dieses Mal entkommst du uns nicht!$"
 
 
 PowerPlant_Policia2PostBattle:
-	.string "Your ultimate destination is prison.$"
+	.string "Deine Endstation wird das Gefängnis\n"
+	.string "sein!$"
 
 
 PowerPlant_Text_Policia3Intro:
-	.string "All the new world order\n"
-	.string "traitors will be silenced!$"
+	.string "Alle Verräter der neuen Ordnung werden\n"
+	.string "zum Schweigen gebracht!$"
 
 
 PowerPlant_Text_Policia3Defeated:
-	.string "You traitor!$"
+	.string "DU VERRÄTER!$"
 
 
 PowerPlant_Policia3PostBattle:
-	.string "TEAM ROCKET is finished!$"
+	.string "Es ist aus für TEAM ROCKET!$"
 
 
 PowerPlant_Text_Policia4Intro:
-	.string "It's a nice gesture on your part to come\n"
-	.string "and rescue your teammate, even though\l"
-	.string "all you're going to do is keep her\l"
-	.string "company in the cell.$"
+	.string "Es ist eine nette Geste von dir,\n"
+	.string "hierherzukommen, um deine Kollegin zu\l"
+	.string "retten, obwohl du ihr am Ende nur im\l"
+	.string "Gefängnis Gesellschaft leisten wirst.$"
 
 
 PowerPlant_Text_Policia4Defeated:
-	.string "So, you resist...$"
+	.string "Also, widersetzt du dich …$"
 
 
 PowerPlant_Policia4PostBattle:
-	.string "One good act doesn't erase a whole life\n"
-	.string "of misdeeds.$"
+	.string "Eine gute Tat macht nicht ein Leben\n"
+	.string "voller Missetaten wieder wett.$"
 
 
 PowerPlant_Text_Policia5Intro:
-	.string "It seems you still haven't realized who\n"
-	.string "the true owners of this region are.$"
+	.string "Sieht so aus, als wäre euch noch nicht\n"
+	.string "klar, wer diese Region wirklich regiert.$"
 
 
 
 PowerPlant_Text_Policia5Defeated:
-	.string "Your strength doesn't matter.$"
+	.string "Deine Stärke ist unbedeutend.$"
 
 
 PowerPlant_Policia5PostBattle:
-	.string "Ha! Not even the GYM LEADERS know who\n"
-	.string "truly commands, and a poor ROCKET like\l"
-	.string "you won't find out!$"
+	.string "HA! Nicht mal die ARENALEITER wissen,\n"
+	.string "wer in dieser Region wirklich das Sagen\l"
+	.string "hat, und ein ROCKET wie du wird es erst\l"
+	.string "recht nicht herausfinden!$"
 
 
 SaffronCityDojo_Text_KaratekaIntro:
-	.string "Seeing ROCKETS in SAFFRON is getting on\n"
-	.string "my nerves!$"
+	.string "ROCKETs in SAFFRONIA zu sehen, geht mir\n"
+	.string "langsam auf die Nerven!$"
 
 
 SaffronCityDojo_Text_KaratekaDefeated:
-	.string "One hit KO!$"
+	.string "Ein Schlag, und das war's?!$"
 
 
 SaffronCityDojo_KaratekaPostBattle:
-	.string "Our master is a professional fighter.\n"
-	.string "Get ready to lose!$"
+	.string "Unser Meister ist ein professioneller\n"
+	.string "Kämpfer. Mach dich bereit, zu verlieren!$"
 
 
 
 SaffronCityDojo_Text_Karateka2Intro:
-	.string "Hwaah! Are you daring to invade our\n"
-	.string "DOJO!?$"
+	.string "HIYAAH! Wie kannst du es wagen, unser\n"
+	.string "DOJO zu betreten!$"
 
 
 SaffronCityDojo_Text_Karateka2Defeated:
-	.string "Oof! I surrender!$"
+	.string "UFF! Ich gebe auf!$"
 
 
 SaffronCityDojo_Karateka2PostBattle:
-	.string "The best fighters in the area train\n"
-	.string "here.$"
+	.string "Die besten Kämpfer der Gegend\n"
+	.string "trainieren hier.$"
 
 
 SaffronCityDojo_Text_Karateka3Intro:
@@ -8070,99 +8120,109 @@ SaffronCityDojo_Karateka3PostBattle:
 
 
 SaffronCityDojo_Text_Karateka4Intro:
-	.string "Hiyah! I'm not afraid of anything, much\n"
-	.string "less TEAM ROCKET!$"
+	.string "HIIYAAAH! Ich habe vor nichts Angst,\n"
+	.string "nicht mal vor TEAM ROCKET!$"
 
 
 SaffronCityDojo_Text_Karateka4Defeated:
-	.string "There's no mercy for you!$"
+	.string "Für dich gibt's keine Gnade!$"
 
 
 SaffronCityDojo_Karateka4PostBattle:
-	.string "Our only fear is psychic powers!$"
+	.string "Das Einzige, wovor wir Angst haben, sind\n"
+	.string "psychische Kräfte!$"
 
 
 Silph2F_Text_PoliciaIntro:
-	.string "SILPH will never fall!$"
+	.string "SILPH wird niemals fallen!$"
 
 
 Silph2F_Text_PoliciaDefeated:
-	.string "I fell!$"
+	.string "Ich bin gefallen!$"
 
 
 Silph2F_PoliciaPostBattle:
-	.string "SILPH working with TEAM ROCKET? Not\n"
-	.string "even in dreams!$"
+	.string "SILPH … mit TEAM ROCKET\n"
+	.string "zusammenarbeiten? Nicht mal in\l"
+	.string "deinen kühnsten Träumen!$"
 
 
 Silph2F_Text_Policia2Intro:
-	.string "You've messed with the wrong company,\n"
-	.string "ROCKET!$"
+	.string "Ihr habt euch mit der falschen\n"
+	.string "Firma angelegt, ROCKET!$"
 
 
 Silph2F_Text_Policia2Defeated:
-	.string "You're tough!$"
+	.string "Du bist ein harter Brocken!$"
 
 
 Silph2F_Policia2PostBattle:
-	.string "Our security is unbeatable; you will\n"
-	.string "never get to our PRESIDENT.$"
+	.string "Unser Sicherheitsteam ist unschlagbar!\p"
+	.string "Ihr gelangt niemals zu unserem\n"
+	.string "PRÄSIDENTEN.$"
 
 
 Silph2F_Text_CientificoIntro:
-	.string "You're beyond the limits! Go home!$"
+	.string "Ihr habt eine Grenze überschritten!\n"
+	.string "Verschwinde!$"
 
 
 Silph2F_Text_CientificoDefeated:
-	.string "You're good.$"
+	.string "Du bist gut.$"
 
 
 Silph2F_CientificoPostBattle:
-	.string "Moving around this area is not a simple\n"
-	.string "task, be aware!$"
+	.string "Es ist gar nicht so leicht, sich hier\n"
+	.string "zurechtzufinden.$"
 
 
 Silph2F_Text_Cientifico2Intro:
-	.string "Hey! I'm a ROCKET SCIENTIST!$"
+	.string "Hey! Ich arbeite für TEAM ROCKET!$"
 
 
 Silph2F_Text_Cientifico2Defeated:
-	.string "How did you know I was from SILPH?$"
+	.string "Woher wusstest du, dass ich für SILPH\n"
+	.string "arbeite!$"
 
 
 Silph2F_Cientifico2PostBattle:
-	.string "I work for both! SILPH and TEAM ROCKET!$"
+	.string "Ich arbeite für beide - SILPH und TEAM\n"
+	.string "ROCKET!$"
 
 
 Silph3F_Text_PoliciaIntro:
-	.string "You'll all be in prison after this!$"
+	.string "Nach all dem hier werdet ihr alle im\n"
+	.string "Gefängnis landen!$"
 
 
 Silph3F_Text_PoliciaDefeated:
-	.string "I give up!$"
+	.string "Ich gebe auf!$"
 
 
 Silph3F_PoliciaPostBattle:
-	.string "The MASTER BALL is ours; we won't offer\n"
-	.string "it to the public so easily.$"
+	.string "Der MEISTERBALL gehört uns! Wir werden\n"
+	.string "ihn nicht einfach an Außenseiter\l"
+	.string "vergeben.$"
 
 
 Silph3F_Text_CientificoIntro:
-	.string "I support SILPH more than TEAM ROCKET!$"
+	.string "Ich stehe mehr hinter SILPH als hinter\n"
+	.string "TEAM ROCKET!$"
 
 
 Silph3F_Text_CientificoDefeated:
-	.string "Relax, it was a joke!$"
+	.string "Entspann dich! War nur ein Scherz!$"
 
 
 Silph3F_CientificoPostBattle:
-	.string "I was lying, TEAM ROCKET has offered me\n"
-	.string "a better deal than SILPH!$"
+	.string "Ich habe gelogen. TEAM ROCKET hat mir\n"
+	.string "ein besseres Angebot gemacht als\l"
+	.string "SILPH.$"
 
 
 Silph4F_Text_PoliciaIntro:
-	.string "You have no idea about this building\n"
-	.string "conceals.$"
+	.string "Du hast keinen Schimmer, welche\n"
+	.string "Geheimnisse dieser Ort in sich birgt!$"
 
 
 Silph4F_Text_PoliciaDefeated:
@@ -8170,74 +8230,81 @@ Silph4F_Text_PoliciaDefeated:
 
 
 Silph4F_PoliciaPostBattle:
-	.string "Our technology is ten years ahead of\n"
-	.string "everyone else.$"
+	.string "Unsere Technologie ist der allen\n"
+	.string "anderen um zehn Jahre voraus!$"
 
 
 Silph4F_Text_Policia2Intro:
-	.string "Intruder detected!$"
+	.string "Eindringling gesichtet!$"
 
 
 Silph4F_Text_Policia2Defeated:
-	.string "Who are you?$"
+	.string "Wer bist du?$"
 
 
 Silph4F_Policia2PostBattle:
-	.string "I better notify the PRESIDENT!$"
+	.string "Ich werde sofort dem PRÄSIDENTEN\n"
+	.string "Bescheid geben!$"
 
 
 Silph4F_Text_CientificoIntro:
-	.string "My POKÉMON is my loyal servant.$"
+	.string "Mein POKéMON ist mein loyaler\n"
+	.string "Mitstreiter.$"
 
 
 Silph4F_Text_CientificoDefeated:
-	.string "Damn! You and your POKÉMON!$"
+	.string "Verdammt seien du und deine POKéMON!$"
 
 
 Silph4F_CientificoPostBattle:
-	.string "The doors are locked electronically.\n"
-	.string "It'll be impossible to open them without\l"
-	.string "the key.$"
+	.string "Die Türen sind elektronisch\n"
+	.string "verschlossen. Ohne den TÜRÖFFNER wird\l"
+	.string "es unmöglich sein, sie zu öffnen.$"
 
 
 Silph5F_Text_CientificoIntro:
-	.string "On this floor, we study POKÉ BALL\n"
-	.string "technology.$"
+	.string "Auf dieser Etage beschäftigen wir uns\n"
+	.string "mit der Technologie von POKÉBÄLLEN.$"
 
 
 Silph5F_Text_CientificoDefeated:
-	.string "Who are you?$"
+	.string "Wer bist du?$"
 
 
 Silph5F_CientificoPostBattle:
-	.string "Our MASTER BALL can catch any POKÉMON.$"
+	.string "Unser MEISTERBALL kann jedes POKéMON\n"
+	.string "mit Leichtigkeit fangen!$"
 
 
 Silph5F_Text_PoliciaIntro:
-	.string "It's rumored that a couple of ROCKET\n"
-	.string "EXECUTIVES are causing trouble.$"
+	.string "Es wird gesagt, dass ein paar\n"
+	.string "ROCKET-OFFIZIERE hier für Ärger\l"
+	.string "sorgen.$"
 
 
 Silph5F_Text_PoliciaDefeated:
-	.string "Boom!$"
+	.string "KABUMM!$"
 
 
 Silph5F_PoliciaPostBattle:
-	.string "Messing with SILPH isn't the brightest\n"
-	.string "idea, kid, I'll tell you in advance.$"
+	.string "Sich mit SILPH anzulegen, war nicht die\n"
+	.string "klügste Idee, Kleiner. Lass dir das\l"
+	.string "gesagt sein.$"
 
 
 Silph5F_Text_Policia2Intro:
-	.string "Show a little respect towards SILPH!$"
+	.string "Hab SILPH gegenüber gefälligst etwas\n"
+	.string "Respekt!$"
 
 
 Silph5F_Text_Policia2Defeated:
-	.string "Forgive me, PRESIDENT!$"
+	.string "Vergeben Sie mir, Herr PRÄSIDENT!$"
 
 
 Silph5F_Policia2PostBattle:
-	.string "Our teleporter tile maze is a puzzle\n"
-	.string "you'll never solve!$"
+	.string "Du wirst unser\n"
+	.string "Teleporter-Feld-Labyrinth niemals\l"
+	.string "lösen!$"
 
 
 Silph5F_Text_ChicoIntro:
