@@ -1068,71 +1068,78 @@ LavenderTown_Agatha_Texto_2.1:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Agatha_Texto_2.2:
-	.string "How do I know?$"
+	.string "Woher ich das weiß?$"
 
 LavenderTown_Agatha_Texto_2.3:
-	.string "Listen up, youngster. I've been training\n"
-	.string "my POKÉMON for decades. When I started,\l"
-	.string "you weren't even born.$"
+	.string "Hör mal gut zu, junger Mann. Ich\n"
+	.string "trainiere meine POKéMON schon seit\l"
+	.string "Jahrzehnten. Als ich anfing, warst du\l"
+	.string "noch nicht einmal geboren.$"
 
 LavenderTown_Agatha_Texto_2.4:
-	.string "I know this region and its people well\n"
-	.string "enough to know what's going on. And I\l"
-	.string "know exactly everything that happened\l"
-	.string "that day back in the HALL OF FAME.$"
+	.string "Ich kenne diese Region und ihre\n"
+	.string "Einwohner gut genug, um zu wissen, was\l"
+	.string "hier vor sich geht. Und ich weiß genau,\l"
+	.string "was an jenem Tag in der RUHMESHALLE\l"
+	.string "geschehen ist.$"
 
 LavenderTown_Agatha_Texto_1:
-	.string "{PLAYER}! You made the miracle\n"
-	.string "happen!$"
+	.string "{PLAYER}!\p"
+	.string "Du hast ein Wunder vollbracht!$"
 
 LavenderTown_Agatha_Texto_2:
-	.string "Your adventure in the POKÉMON LEAGUE\n"
-	.string "is the greatest thing I've witnessed in\l"
-	.string "the last decades!$"
+	.string "Deine Siege in der POKéMON LIGA sind\n"
+	.string "das Bedeutendste, was ich seit\l"
+	.string "Jahrzehnten erlebt habe!$"
 
 LavenderTown_Agatha_Texto_3:
-	.string "Now, every time I have a walk over these\n"
-	.string "streets, I can only see fresh sprouts\l"
-	.string "of hope!$"
+	.string "Jedes Mal, wenn ich nun durch diese\n"
+	.string "Straßen wandle, sehe ich überall\l"
+	.string "wiedererwachte Hoffnung!$"
 
 LavenderTown_Agatha_Texto_4:
-	.string "And however temporary it may be, this\n"
-	.string "peace is possible thanks to you.$"
+	.string "Und diesen Frieden, auch wenn er nur\n"
+	.string "von kurzer Dauer sein sollte, haben wir\l"
+	.string "nur dir zu verdanken.$"
 
 LavenderTown_Agatha_Texto_5:
-	.string "The fact that we're overcoming hard\n"
-	.string "times made me conscious of how\l"
-	.string "fortunate we really are.$"
+	.string "Das wir solche harten Zeiten\n"
+	.string "überstanden haben, hat mir bewusst\l"
+	.string "gemacht, wie viel Glück wir eigentlich\l"
+	.string "haben.$"
 
 LavenderTown_Agatha_Texto_6:
-	.string "Just… look at the POKÉMON TOWER.$"
+	.string "Schau dir doch nur mal den\n"
+	.string "POKéMON-TURM an.$"
 
 LavenderTown_Agatha_Texto_7:
-	.string "I was raised in this place. After all\n"
-	.string "these years, I finally got to visit it as\l"
-	.string "it deserves.$"
+	.string "Ich bin an diesem Ort aufgewachsen.\n"
+	.string "Nach all den Jahren kann ich ihn endlich\l"
+	.string "in aller Ruhe besuchen und ihm den\l"
+	.string "Respekt zollen, den er verdient.$"
 
 LavenderTown_Agatha_Texto_8:
-	.string "Everything I know about GHOST POKÉMON,\n"
-	.string "I learnt it here, and if I got something\l"
-	.string "clear, it's the fact that the world's\l"
-	.string "greatest mysteries are far beyond our\l"
-	.string "sight.$"
+	.string "Alles, was ich über GEIST-POKéMON weiß,\n"
+	.string "habe ich hier gelernt. Und wenn mir\l"
+	.string "eines klar geworden ist, dann ist es,\l"
+	.string "dass die größten Mysterien der Welt\l"
+	.string "weit außerhalb dessen liegen, was wir\l"
+	.string "mit unseren bloßen Augen sehen können.$"
 
 LavenderTown_Agatha_Texto_9:
-	.string "But you didn't come all the way here\n"
-	.string "just to hear an old lady yapping about\l"
-	.string "her nostalgia, did you?$"
+	.string "Aber du bist nicht den ganzen Weg\n"
+	.string "hierhergekommen, um den nostalgischen\l"
+	.string "Worten einer alten Frau zuzuhören …$"
 
 LavenderTown_Agatha_Texto_10:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 LavenderTown_Agatha_Texto_11:
-	.string "You seek mysteries! Well, in that case, I\n"
-	.string "can help you.$"
+	.string "Du suchst also nach Geheimnissen. Nun,\n"
+	.string "in dem Fall kann ich dir helfen.$"
 
 LavenderTown_Agatha_Texto_12:
-	.string "Come with me.$"
+	.string "Folge mir.$"
 
 LavenderTown_Pasado_Cartel::
 lock

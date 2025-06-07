@@ -16,6 +16,7 @@ release
 end
 
 PokemonTower_S1_Activador_Entrada_Pasa_Text_YesNo:
-	.string "This pillar is hollow. Under it, there is a\n"
-	.string "staircase that leads to the upper floors.\l"
-	.string "Wanna go through?$"
+	.string "Dieser Pfeiler ist hohl. Unter ihm führt\n"
+	.string "eine Treppe zu den oberen Stockwerken.\p"
+	.string "Willst du sie benutzen?$"
+

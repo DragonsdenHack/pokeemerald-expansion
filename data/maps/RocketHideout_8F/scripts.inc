@@ -1357,9 +1357,9 @@ RocketHideout_8F_Mision_Silph_text_16:
 RocketHideout_8F_Mision_Silph_text_17:
 	.string "Angeführt wurde dieser Angriff von\n"
 	.string "SIEGFRIED, dem Enkel eines alten\l"
-	.string "DRACHENMEISTERs aus EBENHOLZ CITY.\p"
-	.string "Er war ein außergewöhnlicher TRAINER\n"
-	.string "und offengestanden hätte es gar nicht\l"
+	.string "DRACHENMEISTERs aus EBENHOLZ CITY. Er\l"
+	.string "war ein außergewöhnlicher TRAINER und\l"
+	.string "offen gestanden hätte es gar nicht\l"
 	.string "anders kommen können. Er ist nämlich\l"
 	.string "ein direkter Nachkomme der\l"
 	.string "prestigeträchtigsten DRACHENPROFI\l"

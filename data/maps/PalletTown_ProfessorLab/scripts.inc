@@ -36,8 +36,8 @@ end
 
 PalletTown_ProfessorLab_Text_2:
 	.string "Siehst du nicht, dass EICH nicht hier\n"
-	.string "ist? Wenn du so weitermachst, werden\l"
-	.string "wir die POLIZEI verständigen!$"
+	.string "ist? Verschwinde von hier, sonst\l"
+	.string "verständigen wir die POLIZEI!$"
 
 PalletTownProfessorLab2_2::
 msgbox PalletTown_ProfessorLab_Despues_Text_2, MSGBOX_DEFAULT

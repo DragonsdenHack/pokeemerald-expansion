@@ -1992,15 +1992,15 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
 	.string "definitiv bezwingen {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.1:
-	.string "Noch etwas, {PLAYER}. Vermeide EICH,\n"
+	.string "ENoch etwas, {PLAYER}. Vermeide EICH,\n"
 	.string "den Besitzer des Forschungslabors, um\l"
 	.string "jeden Preis. Er hat angeblich schon vor\l"
-	.string "Jahren das Kämpfen aufgeben und sein\l"
-	.string "Team in aller Öffentlichkeit entlassen,\l"
-	.string "nachdem SIEGFRIED den Krieg gewonnen\l"
-	.string "hatte. Aber mittlerweile glaube ich\l"
-	.string "nichts von dem mehr, was in den\l"
-	.string "Nachrichten gezeigt wird.$"
+	.string "Jahren das Kämpfen aufgegeben und\l"
+	.string "sein Team in aller Öffentlichkeit\l"
+	.string "entlassen, nachdem SIEGFRIED den Krieg\l"
+	.string "gewonnen hatte. Aber mittlerweile\l"
+	.string "glaube ich nichts von dem mehr, was in\l"
+	.string "den Nachrichten gezeigt wird.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8.2:
 	.string "Er war früher ein sehr guter Trainer,\n"

@@ -389,7 +389,7 @@ PokemonTower_6F_Cultistas_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 PokemonTower_6F_Cultistas_Texto_3:
-	.string "Hmm {PAUSE 25}…{PAUSE 25} Offengestanden habe ich etwas\n"
+	.string "Hmm {PAUSE 25}…{PAUSE 25} Offen gestanden habe ich etwas\n"
 	.string "anderes erwartet. Du scheinst nicht an\l"
 	.string "dieselben Ketten gebunden zu sein, die\l"
 	.string "das Leben der meisten Menschen\l"

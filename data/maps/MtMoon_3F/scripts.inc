@@ -988,7 +988,10 @@ MtMoon_3F_Pelea_Frank_texto19.1:
 	.string "… …$"
 
 MtMoon_3F_Pelea_Frank_texto19.2:
-	.string "traducir$"
+	.string "Entspann dich, {PLAYER}. Ich glaube\n"
+	.string "nicht, dass sie dich rauswerfen werden.\p"
+	.string "Du weißt, wie man kämpft. Das haben wir\n"
+	.string "alle gesehen.$"
 
 MtMoon_3F_Pelea_Frank_texto20:
 	.string "Das nächste Mal, wenn wir uns treffen,\n"

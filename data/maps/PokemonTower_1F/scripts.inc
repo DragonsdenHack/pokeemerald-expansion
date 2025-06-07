@@ -239,55 +239,60 @@ PokemonTower1F_Agatha_Texto_1:
 	.string "KANTO itself.$"
 
 PokemonTower1F_Agatha_Texto_2:
-	.string "Its resilience is remarkable, but the\n"
-	.string "reality of what we see is just a mere\l"
-	.string "fraction of what it once was.$"
+	.string "Seine Widerstandsfähigkeit ist\n"
+	.string "bemerkenswert, doch in Wahrheit ist\l"
+	.string "das, was wir hier sehen, nur ein\l"
+	.string "Bruchteil dessen, was er einst war.$"
 
 PokemonTower1F_Agatha_Texto_3:
-	.string "I can help you with that. Back in the\n"
-	.string "day, before the war started, the lower\l"
-	.string "floors were opened for everyone.\p"
-	.string "However…$"
+	.string "Früher, noch vor dem Krieg, waren die\n"
+	.string "unteren Etagen für jedermann\l"
+	.string "zugänglich. Aber…$"
 
 PokemonTower1F_Agatha_Texto_4:
-	.string "Those zones became more and more\n"
-	.string "unstable, to the point that they were\l"
-	.string "closed.$"
+	.string "Diese Bereiche wurden nach und nach\n"
+	.string "instabiler, bis sie schließlich\l"
+	.string "geschlossen werden mussten.$"
 
 PokemonTower1F_Agatha_Texto_5:
-	.string "Most ended up forgetting them with the\n"
-	.string "years.$"
+	.string "Die Jahre vergingen und die meisten\n"
+	.string "vergaßen sie schließlich.$"
 
 PokemonTower1F_Agatha_Texto_6:
-	.string "By these days, even CHANNELERS\n"
-	.string "steer clear of it.$"
+	.string "Selbst die Exorzistinnen meiden\n"
+	.string "mittlerweile diese Bereiche.$"
 
 PokemonTower1F_Agatha_Texto_7:
-	.string "But you… you're the CHAMPION. You have\n"
-	.string "the right to unveil every single secret\l"
-	.string "and mystery that crosses your way.$"
+	.string "Aber du… du bist der CHAMP. Du hast das\n"
+	.string "Recht, jedem Geheimnis und Rätsel auf\l"
+	.string "den Grund zu gehen, das dir auf deinem\l"
+	.string "Weg begegnet.$"
 
 PokemonTower1F_Agatha_Texto_8:
-	.string "If you look closely, you'll see that this\n"
-	.string "pillar is hollow. Under it, you'll find a\l"
-	.string "staircase to the basement.$"
+	.string "Wenn du genau hinschaust, wirst du\n"
+	.string "erkennen, dass dieser Pfeiler hohl ist.\p"
+	.string "Unter ihm findest du eine Treppe, die\n"
+	.string "dich nach unten führt.$"
 
 PokemonTower1F_Agatha_Texto_9:
-	.string "Now, I'm retiring, {PLAYER}.$"
+	.string "Nun verlasse ich dich, {PLAYER}.$"
 
 PokemonTower1F_Agatha_Texto_10:
-	.string "When you get my age, you'll realize that\n"
-	.string "these things aren't for everybody.$"
+	.string "Wenn du erst mal so alt bist wie ich,\n"
+	.string "wirst du verstehen, dass diese Art von\l"
+	.string "Dingen nicht für jedermann sind.$"
 
 PokemonTower1F_Agatha_Texto_11:
-	.string "And, to be honest, I would rather put my\n"
-	.string "efforts into getting better at what I\l"
-	.string "already know.$"
+	.string "Und um ehrlich zu sein, würde ich meine\n"
+	.string "Energie lieber darauf verwenden, mich in\l"
+	.string "dem zu verbessern, was ich bereits\l"
+	.string "beherrsche.$"
 
 PokemonTower1F_Agatha_Texto_12:
-	.string "After all, we live in a confined\n"
-	.string "terrain{PAUSE 15}…{PAUSE 15}yet one that simply can't be\l"
-	.string "bound. Ho, ho, ho!$"
+	.string "Schließlich existieren wir alle in einer\n"
+	.string "begrenzten Sphäre - jedoch in einer,\l"
+	.string "die sich nicht so einfach bändigen\l"
+	.string "lässt. Ho, ho, ho!$"
 
 PokemonTower1F_Activador_Entrada::
 compare VAR_UNUSED_0x40F8, 12
@@ -309,9 +314,10 @@ release
 end
 
 PokemonTower1F_Activador_Entrada_Pasa_Text_YesNo:
-	.string "This pillar is hollow. Under it, there is a\n"
-	.string "staircase that leads to the lower floors.\l"
-	.string "Wanna go through?$"
+	.string "Dieser Pfeiler ist hohl. Unter ihm führt\n"
+	.string "eine Treppe zu den unteren\l"
+	.string "Stockwerken.\p"
+	.string "Möchtest du sie benutzen?$"
 
 PokemonTowerS3_Activador_Entrada_Pasa::
 delay 15
@@ -334,7 +340,7 @@ emote_exclamation_mark
 step_end
 
 PokemonTowerS3_Activador_Entrada_Pasa_Text_YesNo:
-	.string "This tomb hides something. Under it,\n"
-	.string "there are some old stairs that lead\l"
-	.string "deeper. Wanna go through?$"
+	.string "Dieses Grab verbirgt etwas. Darunter\n"
+	.string "führen alte Treppen tiefer hinab.\p"
+	.string "Möchtest du sie benutzen?$"
 
