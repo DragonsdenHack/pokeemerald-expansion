@@ -9,9 +9,9 @@ release
 end
 
 SilphS2_2_Cientifico_1_Texto_1:
-	.string "Dedicating time to a non-productive\n"
-	.string "objective may lead to a source of\l"
-	.string "creativity.$"
+	.string "Einem unproduktiven Ziel Zeit zu\n"
+	.string "widmen, entfacht nicht selten einen\l"
+	.string "Funken Kreativität.$"
 
 SilphS2_2_Cientifico_2::
 lock
@@ -23,16 +23,17 @@ release
 end
 
 SilphS2_2_Cientifico_2_Texto_1:
-	.string "I wonder what'll become of OAK and his\n"
-	.string "family now. Those legendary battles\l"
-	.string "between him and your LEADER shook\l"
-	.string "every soul in the region.$"
+	.string "Was wohl nun aus EICH und seiner Familie\n"
+	.string "wird? Seine intensiven Kämpfe gegen\l"
+	.string "deinen ANFÜHRER haben stets die ganze\l"
+	.string "Region in ihren Grundfesten\l"
+	.string "erschüttert.$"
 
 SilphS2_2_Cientifico_2_Texto_2:
-	.string "I think GIOVANNI would forgive him in\n"
-	.string "respect to their old rivalry. But OAK's\l"
-	.string "pride may lead him to reject that\l"
-	.string "forgiveness.$"
+	.string "Ich denke, GIOVANNI wäre bereit, ihm um\n"
+	.string "ihrer alten Rivalität willen zu\l"
+	.string "vergeben. Doch EICHs Stolz könnte ihn\l"
+	.string "daran hindern, diese Geste anzunehmen.$"
 
 SilphS2_2_Lorelei_Move_1:
 walk_down
@@ -219,81 +220,90 @@ release
 end
 
 SilphS2_2_Lorelei_Texto_1:
-	.string "LORELEI: You{PAUSE 15}…{PAUSE 15} {PLAYER}, isn't it?$"
+	.string "LORELEI: Hey! {PLAYER}, nicht wahr?$"
 
 SilphS2_2_Lorelei_Texto_2:
-	.string "I didn't expect you'd be so close to\n"
-	.string "SILPH's PRESIDENT. Then again, you\l"
-	.string "wouldn't be here otherwise.$"
+	.string "Ich hätte nicht gedacht, dass du dem\n"
+	.string "PRÄSIDENTEN von SILPH so nahestehst.\p"
+	.string "Aber ja, sonst wärst du wohl nicht hier.$"
 
 SilphS2_2_Lorelei_Texto_3:
-	.string "He's a great TRAINER.$"
+	.string "Er ist ein großartiger TRAINER.$"
 
 SilphS2_2_Lorelei_Texto_4:
-	.string "I'd come to offer him my position as a\n"
-	.string "member of the ELITE FOUR.$"
+	.string "Ich bin hergekommen, um ihn meine\n"
+	.string "Position als Mitglied der TOP VIER\l"
+	.string "anzubieten.$"
 
 SilphS2_2_Lorelei_Texto_5:
-	.string "Yet{PAUSE 15}…{PAUSE 15} he seems quite busy with SILPH,\n"
-	.string "so the position will remain open.$"
+	.string "Doch {PAUSE 15}…{PAUSE 15} scheint er sehr mit der Leitung\n"
+	.string "SILPHs beschäftigt zu sein. Also bleibt\l"
+	.string "die Position vorerst unbesetzt.$"
 
 SilphS2_2_Lorelei_Texto_6:
-	.string "I'm retiring to FOUR ISLAND. Those\n"
-	.string "passionate days of battling are\l"
-	.string "dwindling for me nowadays.$"
+	.string "Ich ziehe nach EILAND VIER. Die Tage,\n"
+	.string "an denen ich bei Kämpfen mit vollem\l"
+	.string "Herzen dabei bin, sind mit der Zeit\l"
+	.string "immer weniger geworden.$"
 
 SilphS2_2_Lorelei_Texto_7:
-	.string "I was certain ICE POKÉMON would see me\n"
-	.string "through to victory, yet these losses\l"
-	.string "have woken me up.$"
+	.string "Ich war mir so sicher, dass mich meine\n"
+	.string "EIS-POKéMON an die Spitze führen\l"
+	.string "würden. Doch die jüngsten Niederlagen\l"
+	.string "haben mir schließlich die Augen\l"
+	.string "geöffnet.$"
 
 SilphS2_2_Lorelei_Texto_8:
-	.string "I suppose ICE at its root is rather\n"
-	.string "inflexible and stagnant, wouldn't you\l"
-	.string "say?$"
+	.string "Ich denke, dass EIS in seinem Wesen\n"
+	.string "doch eher unflexibel und träge ist.\p"
+	.string "Findest du nicht auch?$"
 
 SilphS2_2_Lorelei_Texto_9:
-	.string "Well{PAUSE 15}…{PAUSE 15} what about you? Tell me!$"
+	.string "Nun {PAUSE 15}…{PAUSE 15} wie sieht's bei dir aus? Erzähl\n"
+	.string "schon!$"
 
 SilphS2_2_Lorelei_Texto_10:
-	.string "You were strong, but ultimately, the one\n"
-	.string "to reach the peak as CHAMPION was RED.$"
+	.string "Du warst stark. Doch am Ende war es ROT,\n"
+	.string "der CHAMP wurde.$"
 
 SilphS2_2_Lorelei_Texto_11:
-	.string "Frankly, I'd have liked that girl before\n"
-	.string "you to have come out on top instead.\l"
-	.string "That SNEASEL she carried had great\l"
-	.string "potential.$"
+	.string "Offen gestanden hätte ich es\n"
+	.string "bevorzugt, wenn die junge Dame den\l"
+	.string "Titel errungen hätte.\p"
+	.string "Ihr SNIEBEL hat großes Potenzial.$"
 
 SilphS2_2_Lorelei_Texto_12:
-	.string "But that's how the cookie crumbles: RED\n"
-	.string "defeated BLUE and won the title of\l"
-	.string "CHAMPION.$"
+	.string "Aber, so ist das nun mal. ROT hat BLAU\n"
+	.string "besiegt und wurde somit CHAMP.$"
 
 SilphS2_2_Lorelei_Texto_13:
-	.string "What a waste, that RED. Holing up like a\n"
-	.string "hermit in MT. SILVER to train in such a{PAUSE 25}…{PAUSE 25}\l"
-	.string "desolate cavern.$"
+	.string "Es ist so schade um ROT. Er hat sich wie\n"
+	.string "ein Einsiedler auf dem SILBERBERG\l"
+	.string "zurückgezogen, um in einer so {PAUSE 25}…{PAUSE 25}\l"
+	.string "trostlosen Höhle zu trainieren.$"
 
 SilphS2_2_Lorelei_Texto_14:
-	.string "There were some old glories there in the\n"
-	.string "past, certainly. But now? He'll just\l"
-	.string "waste away.$"
+	.string "Früher war es ein ehrerbietiger Ort.\n"
+	.string "Doch jetzt? Er wird dort einfach\l"
+	.string "dahinsiechen.$"
 
 SilphS2_2_Lorelei_Texto_15:
-	.string "You though{PAUSE 15}…{PAUSE 15}I see you can move forward.$"
+	.string "Du hingegen … Bei dir erkenne ich, dass\n"
+	.string "du dich noch weiter steigern kannst …$"
 
 SilphS2_2_Lorelei_Texto_16:
-	.string "Very few have the privilege to walk\n"
-	.string "through these halls. I'm sure you're\l"
-	.string "here for a reason.$"
+	.string "Nur wenigen ist das Privileg vergönnt,\n"
+	.string "durch diese Hallen zu schreiten.\p"
+	.string "Ich bin mir sicher, dass du aus einem\n"
+	.string "bestimmten Grund hier bist.$"
 
 SilphS2_2_Lorelei_Texto_17:
-	.string "But this is no longer my business. Now, I\n"
-	.string "just want some quiet{PAUSE 15}…{PAUSE 15}to return to my\l"
-	.string "roots.$"
+	.string "Aber das geht mich nichts mehr an. Ich\n"
+	.string "will lediglich meine Ruhe haben und zu\l"
+	.string "meinen Wurzeln zurückkehren.$"
 
 SilphS2_2_Lorelei_Texto_18:
-	.string "If you happen to stop by FOUR ISLAND,\n"
-	.string "don't forget to pay me a visit!$"
+	.string "Sollte dich dein Weg mal nach EILAND\n"
+	.string "VIER führen, dann besuche mich doch\l"
+	.string "mal.$"
 

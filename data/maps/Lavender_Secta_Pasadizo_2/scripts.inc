@@ -116,58 +116,64 @@ emote_exclamation_mark
 step_end
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_1:
-	.string "Then{PAUSE 15}…{PAUSE 15} you kept your will as it was.$"
+	.string "Dann {PAUSE 15}…{PAUSE 15} ist dein Wille also ungebrochen\n"
+	.string "geblieben.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_2:
-	.string "And it led you here.$"
+	.string "Und er hat dich hierhergeführt.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_3:
-	.string "Look around. You're nowhere else but\n"
-	.string "the core of the whole KANTO region.$"
+	.string "Schau dich um. Du befindest dich genau\n"
+	.string "im Herzen der gesamten KANTO-Region.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_4:
-	.string "A place as old as the region itself,\n"
-	.string "timeless and blind to everything beyond\l"
-	.string "its borders.$"
+	.string "An einem Ort, der so alt ist wie die\n"
+	.string "Region selbst. Ein Ort, der zeitlos und\l"
+	.string "blind gegenüber allem jenseits seiner\l"
+	.string "Grenzen ist.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_5:
-	.string "That's it. The beating heart of KANTO is\n"
-	.string "neither SILPH's offices nor the INDIGO\l"
-	.string "HQ.$"
+	.string "Genau so ist es. Das schlagende Herz\n"
+	.string "von KANTO ist weder das SILPH-COMPANY\l"
+	.string "noch das INDIGO-PLATEAU.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_6:
-	.string "Here and only here you shall be judged\n"
-	.string "by the GODS of this world. Not in the\l"
-	.string "LEAGUE, nor as a CHAMPION.$"
+	.string "Hier und nur hier wirst du von den\n"
+	.string "GÖTTERN dieser Welt gerichtet. Nicht in\l"
+	.string "der LIGA und auch nicht als CHAMP.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_7:
-	.string "Come on, {PLAYER}. Make them blush!\n"
-	.string "Show them how you bend to your\l"
-	.string "advantage those same rules they\l"
-	.string "created!$"
+	.string "Na los, {PLAYER}. Bringe sie zum\n"
+	.string "Erröten! Zeig ihnen, wie du dieselben\l"
+	.string "Regeln, die sie selbst einst aufgestellt\l"
+	.string "haben, zu deinem Vorteil zurechtbiegst!$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_8:
-	.string "Honor this place with a battle that\n"
-	.string "shall be remembered forever and ever!$"
+	.string "Erweise diesem Ort Respekt - in Form\n"
+	.string "eines Kampfes, der für alle Zeiten in\l"
+	.string "Erinnerung bleiben wird!$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_9:
-	.string "Essence{PAUSE 25}…{PAUSE 25} Essence is fragile.$"
+	.string "Die Essenz{PAUSE 25}…{PAUSE 25} Sie ist zerbrechlich.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_10:
-	.string "No. You're not here by coincidence.$"
+	.string "Nein. Deine Anwesenheit hier ist kein\n"
+	.string "Zufall.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_11:
-	.string "You'd teared apart the chains of\n"
-	.string "LANCE's KANTO, and a realm of potential\l"
-	.string "is open to you.$"
+	.string "Du hast die Ketten von SIEGFRIEDs\n"
+	.string "KANTO gesprengt und nun liegt dir ein\l"
+	.string "Welt voller Möglichkeiten zu Füßen.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_12:
-	.string "Not even in your insanest dreams you'd\n"
-	.string "have imagined what awaits you, what you\l"
-	.string "have still to live, see, and feel. KANTO\l"
-	.string "will be a witness to every single bit of\l"
-	.string "it.$"
+	.string "Nicht einmal in deinen kühnsten Träumen\n"
+	.string "hättest du dir ausmalen können, was was\l"
+	.string "dich erwartet und was du noch erleben,\l"
+	.string "sehen und fühlen wirst.\p"
+	.string "KANTO wird jedem einzelnen dieser\n"
+	.string "Momente beiwohnen.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_13:
-	.string "But keep in mind{PAUSE 35}…{PAUSE 35} that essence can be\n"
-	.string "corrupted.$"
+	.string "Aber vergiss nicht {PAUSE 35}…{PAUSE 35} Diese Essenz kann\n"
+	.string "korrumpiert werden.$"
+

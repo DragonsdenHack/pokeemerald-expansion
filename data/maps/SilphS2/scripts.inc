@@ -1052,10 +1052,12 @@ Silph_S2_Discoxtrano_Text_1:
 	.string "capabilities are much higher.$"
 
 Silph_S2_Llave_Texto_1:
-	.string "A special KEY is required.$"
+	.string "Du benötigst einen speziellen\n"
+	.string "SCHLÜSSEL.$"
 
 Silph_S2_Llave_Texto_2:
-	.string "Do you want to use SILPH B3 KEY?$"
+	.string "Möchtest du den SILPH U3-SCHLÜSSEL\n"
+	.string "verwenden?$"
 
 Silph_S2_Llave::
 compare VAR_UNUSED_0x40F8, 11

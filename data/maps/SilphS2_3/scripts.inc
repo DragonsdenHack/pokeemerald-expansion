@@ -203,113 +203,133 @@ walk_in_place_up
 step_end
 
 SilphS2_3_Presidente_Texto_1:
-	.string "Making a mockery of my security once\n"
-	.string "more, young man?$"
+	.string "Stellst du schon wieder meine\n"
+	.string "Sicherheitsvorkehrungen bloß,\l"
+	.string "junger Mann?$"
 
 SilphS2_3_Presidente_Texto_2:
-	.string "Perhaps you're simply unaware of the\n"
-	.string "extent of the consequences your\l"
-	.string "actions in the LEAGUE will bear.\p"
-	.string "Nonetheless, they will ripple\n"
-	.string "through history.$"
+	.string "Vielleicht bist du dir einfach noch\n"
+	.string "nicht bewusst, welche weitreichenden\l"
+	.string "Konsequenzen deine Handlungen - in der\l"
+	.string "LIGA - in der Zukunft haben werden -\l"
+	.string "schon in der nahen Zukunft. Und doch\l"
+	.string "werden sie Spuren in der Geschichte\l"
+	.string "hinterlassen.$"
 
 SilphS2_3_Presidente_Texto_3:
-	.string "Well, you got me there, boy.\n"
-	.string "I was wrong about TEAM ROCKET.$"
+	.string "Ich muss zugeben, du hast recht\n"
+	.string "behalten, mein Junge. Ich habe mich\l"
+	.string "in TEAM ROCKET geirrt.$"
 
 SilphS2_3_Presidente_Texto_4:
-	.string "When I saw your LEADER was the\n"
-	.string "extraordinary TRAINER who'd ages ago\l"
-	.string "conquered KANTO's LEAGUE so many\l"
-	.string "times, a myriad of questions struck me.$"
+	.string "Als ich erkannte, dass euer ANFÜHRER\n"
+	.string "jener außergewöhnliche TRAINER war,\l"
+	.string "der vor vielen Jahren die LIGA KANTOs\l"
+	.string "unzählige Male bezwungen hatte,\l"
+	.string "schossen mir unzählige Fragen durch\l"
+	.string "den Kopf.$"
 
 SilphS2_3_Presidente_Texto_5:
-	.string "GIOVANNI informed me of his history:\n"
-	.string "TEAM ROCKET's founding, the BIRDS,\l"
-	.string "MEWTWO, the MASTERBALL, the raid on the\l"
-	.string "LEAGUE HQ…$"
+	.string "GIOVANNI hat mir mittlerweile alles\n"
+	.string "erzählt: Von der Gründung TEAM\l"
+	.string "ROCKETs, MEWTU, den LEGENDÄREN VÖGELN,\l"
+	.string "dem MEISTERBALL und eurem Angriff auf\l"
+	.string "das INDIGO-PLATEAU …$"
 
 SilphS2_3_Presidente_Texto_6:
-	.string "He risked me surrendering him to LANCE.\p"
-	.string "But he knew that his offer was\n"
-	.string "irrefusable.$"
+	.string "Er ging das Risiko ein, dass ich ihn an\n"
+	.string "SIEGFRIED ausliefere. Aber er wusste\l"
+	.string "ganz genau, dass ich sein Angebot nicht\l"
+	.string "ablehnen konnte.$"
 
 SilphS2_3_Presidente_Texto_7:
-	.string "Returning KANTO its autonomy,\n"
-	.string "its past glory…$"
+	.string "Der KANTO Region ihre Freiheit\n"
+	.string "zurückzugeben und sie wieder im alten\l"
+	.string "Glanz erstrahlen zu lassen …$"
 
 SilphS2_3_Presidente_Texto_8:
-	.string "GIOVANNI assured me that he would\n"
-	.string "watch SILPH's back if anything went\l"
-	.string "wrong.$"
+	.string "GIOVANNI versicherte mir, dass er SILPH\n"
+	.string "beistehen würde, falls etwas schief\l"
+	.string "läuft.$"
 
 SilphS2_3_Presidente_Texto_9:
-	.string "But even without that guarantee, I'd\n"
-	.string "have no doubt accepted, if only in the\l"
-	.string "hopes of renewing the good, old days of\l"
-	.string "KANTO.$"
+	.string "Aber selbst ohne diese Zusicherung\n"
+	.string "hätte ich ohne Zögern zugestimmt -\l"
+	.string "alleine aufgrund der bloßen Hoffnung,\l"
+	.string "KANTOs ruhmreiche Tage wieder aufleben\l"
+	.string "zu lassen.$"
 
 SilphS2_3_Presidente_Texto_10:
-	.string "And we're on it now, aren't we?\p"
-	.string "That's why you're here.$"
+	.string "Und genau daran arbeiten wir jetzt\n"
+	.string "gerade, nicht wahr? Aus diesem Grund\l"
+	.string "bist du hierhergekommen.$"
 
 SilphS2_3_Presidente_Texto_11:
-	.string "Now that SILPH and TEAM ROCKET are\n"
-	.string "together, KANTO will keep its essence.$"
+	.string "Jetzt, wo SILPH und TEAM ROCKET\n"
+	.string "zusammenarbeiten, wird KANTO sein\l"
+	.string "wahres Wesen bewahren.$"
 
 SilphS2_3_Presidente_Texto_12:
-	.string "However{PAUSE 15}…{PAUSE 15} it also means that we'll be\n"
-	.string "turning this region into a\l"
-	.string "technological powerhouse.\p"
-	.string "What you're seeing right here\n"
-	.string "is barely the beginning.$"
+	.string "Allerdings {PAUSE 15}…{PAUSE 15} haben wir auch vor, diese\n"
+	.string "Region in eine technologische\l"
+	.string "Supermacht zu verwandeln. Was du hier\l"
+	.string "siehst, ist gerade mal der Anfang.$"
 
 SilphS2_3_Presidente_Texto_13:
 	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 SilphS2_3_Presidente_Texto_14:
-	.string "Let me show you what I mean.$"
+	.string "Gestatte mir, dir zu demonstrieren, was\n"
+	.string "ich meine.$"
 
 SilphS2_3_Presidente_Texto_15:
-	.string "You'll be squaring up against a true\n"
-	.string "old-school team of KANTO, and even\l"
-	.string "the new one!$"
+	.string "Du wirst es mit einem waschechten Team\n"
+	.string "der alten Schule KANTOs zu tun\l"
+	.string "bekommen - und sogar mit der neuen\l"
+	.string "Schule!$"
 
 SilphS2_3_Presidente_Texto_16:
-	.string "And once again… you returned me to the\n"
-	.string "past.$"
+	.string "Und schon wieder … erinnerst du mich an\n"
+	.string "die alten Zeiten.$"
 
 SilphS2_3_Presidente_Texto_17:
-	.string "Your talent is obvious, {PLAYER}. I\n"
-	.string "hope you use it for the good of KANTO.$"
+	.string "Du besitzt unglaubliches Talent,\n"
+	.string "{PLAYER}. Ich hoffe, du wirst es zum\l"
+	.string "Wohle KANTOs einsetzen.$"
 
 SilphS2_3_Presidente_Texto_18:
-	.string "And as far as I'm concerned, you've got\n"
-	.string "SILPH's full backing.$"
+	.string "Was mich angeht, genießt du SILPHs\n"
+	.string "volle Unterstützung.$"
 
 SilphS2_3_Presidente_Texto_19:
-	.string "{PLAYER} obtained SILPH's B3 KEY!$"
+	.string "{PLAYER} erhält den SILPH\n"
+	.string "U3-SCHLÜSSEL!$"
 
 SilphS2_3_Presidente_Texto_20:
-	.string "With this, you'll be able to explore\n"
-	.string "further in the library. But bear in mind\l"
-	.string "that many things were lost over the\l"
-	.string "years.$"
+	.string "Damit wirst du in der Lage sein, die\n"
+	.string "Bibliothek noch gründlicher zu\l"
+	.string "durchsuchen. Aber bedenke, dass im\l"
+	.string "Laufe der Jahre vieles verloren\l"
+	.string "gegangen ist.$"
 
 SilphS2_3_Presidente_Texto_21:
-	.string "You may find what you seek down there.{PAUSE 25}\n"
-	.string "Though it may be impossible to show now.\l"
-	.string "History weathers without fail, eroding\l"
-	.string "even the things that were once\l"
-	.string "everyday occurrences.$"
+	.string "Vielleicht findest du dort unten,\n"
+	.string "wonach du suchst. {PAUSE 25} Auch wenn wir uns\l"
+	.string "dessen Existenz vielleicht noch nicht\l"
+	.string "bewusst sind. Der Lauf der Zeit\l"
+	.string "schreitet stetig voran und lässt\l"
+	.string "selbst die Dinge in Vergessenheit\l"
+	.string "geraten, die einst Teil des alltäglichen\l"
+	.string "Lebens waren.$"
 
 SilphS2_3_Presidente_Texto_22:
-	.string "Now, the question is: are you capable of\n"
-	.string "finding things whose existences we're\l"
-	.string "not even aware of?$"
+	.string "Nun stellt sich die Frage, ob du in der\n"
+	.string "Lage bist, Dinge zu finden, von denen\l"
+	.string "wir nicht einmal wissen, dass sie\l"
+	.string "existieren …$"
 
 SilphS2_3_Presidente_Texto_23:
-	.string "KANTO watches you, ho, ho, ho!$"
+	.string "KANTO wacht über dich. Ho, ho, ho!$"
 
 SilphS2_3_Carta_No::
 release
@@ -358,23 +378,25 @@ release
 end
 
 SilphS2_3_Carta_Texto_1:
-	.string "It's a letter signed by GIOVANNI.$"
+	.string "Es ist ein Brief, der von GIOVANNI\n"
+	.string "unterzeichnet wurde.$"
 
 SilphS2_3_Carta_Texto_2:
-	.string "Wanna read it?$"
+	.string "Möchtest du ihn lesen?$"
 
 SilphS2_3_Carta_Texto_3:
-	.string "Dear PRESIDENT:$"
+	.string "Sehr geehrter Herr PRÄSIDENT,$"
 
 SilphS2_3_Carta_Texto_4:
-	.string "As I told you, I can confirm that most\n"
-	.string "of KANTO's POKÉMON had still potential\l"
-	.string "yet to be discovered.$"
+	.string "wie ich Ihnen bereits sagte, besitzen\n"
+	.string "die meisten POKéMON aus KANTO noch\l"
+	.string "unentdecktes Potenzial.$"
 
 SilphS2_3_Carta_Texto_5:
-	.string "Our isolation from the world at large\n"
-	.string "has blinded us to facts commonplace to\l"
-	.string "that very world.$"
+	.string "Unsere Abschottung vom Rest der Welt\n"
+	.string "hat uns blind gegenüber Tatsachen\l"
+	.string "gemacht, die dort als\l"
+	.string "selbstverständlich gelten.$"
 
 SilphS2_3_Carta_Texto_6:
 	.string "However, the methods for obtaining\n"

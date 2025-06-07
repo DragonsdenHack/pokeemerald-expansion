@@ -252,75 +252,81 @@ face_up
 step_end
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_1:
-	.string "Hi, hi! I'm the NAME RATER!\n"
-	.string "I'm the fortune-teller of names!\p"
-	.string "I shall be pleased to rate your\n"
-	.string "POKÉMON's nickname.$"
+	.string "Hallo! Ich bin der offizielle\n"
+	.string "NAMEN-BEWERTER! Soll ich die\l"
+	.string "Spitznamen deiner POKéMON bewerten?$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_2:
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_3:
-	.string "You want to chat away with me?\n"
-	.string "Sure thing, kid.$"
+	.string "Du willst dich stattdessen mit mir\n"
+	.string "unterhalten? Gerne, junger Mann.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_4:
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_5:
-	.string "Mhh{PAUSE 15}…{PAUSE 15} Where exactly did you hear that?$"
+	.string "Mhh{PAUSE 15}…{PAUSE 15} Wo genau hast du das gehört?$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_6:
-	.string "No one has ever asked about that place\n"
-	.string "so far. And I've been here for more than\l"
-	.string "three decades.$"
+	.string "Bislang hat sich niemals jemand nach\n"
+	.string "diesem Ort erkundigt. Und ich bin schon\l"
+	.string "seit über dreißig Jahren hier.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_7:
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_8:
-	.string "AGATHA! Now I get it.$"
+	.string "AGATHE! Jetzt verstehe ich!$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_9:
-	.string "So you are that one TRAINER she\n"
-	.string "appreciates so much.$"
+	.string "Du bist also der TRAINER, den sie so\n"
+	.string "sehr schätzt.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_10:
-	.string "If she trusts you,\n"
-	.string "I'm trusting you as well.$"
+	.string "Wenn sie dir vertraut, dann tu ich's\n"
+	.string "auch.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_11:
-	.string "If I can do anything to aid you,\n"
-	.string "I'll be doing it. Watch this.$"
+	.string "Wenn ich dir irgendwie behilflich sein\n"
+	.string "kann, dann lass es mich wissen.\p"
+	.string "Pass gut auf.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_12:
-	.string "This little GRAVEYARD closed its doors\n"
-	.string "more than three decades ago, when the\l"
-	.string "first NAME RATER arrived in town.$"
+	.string "Dieser kleine FRIEDHOF hat seine Türen\n"
+	.string "vor mehr als 30 Jahren geschlossen, als\l"
+	.string "der erste NAMEN-BEWERTER in die Stadt\l"
+	.string "kam.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_13:
-	.string "The ladder that leads there was hidden\n"
-	.string "under a trapdoor after the GYM got\l"
-	.string "demolished.$"
+	.string "Die Leiter, die dorthin führte, verbarg\n"
+	.string "man unter einer Falltür, nachdem die\l"
+	.string "ARENA dem Erdboden gleichgemacht\l"
+	.string "wurde.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_14:
-	.string "Now, they're below KANTO's map.$"
+	.string "Jetzt befindet sie sich unterhalb der\n"
+	.string "KARTE KANTOs dort.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_15:
-	.string "When I got here, they left me in charge\n"
-	.string "of the KEY that opens that trapdoor.$"
+	.string "Als ich hierherzog übertrug man mir die\n"
+	.string "Verantwortung für den SCHLÜSSEL, der\l"
+	.string "diese Falltür öffnet.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_16:
-	.string "I actually never used it. Nor I had the\n"
-	.string "least interest in what's down there.$"
+	.string "Ich habe ihn nie benutzt. Mich hat nie\n"
+	.string "interessiert, was da unten ist.$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_17:
-	.string "{PLAYER} got the TRAPDOOR'S KEY!$"
+	.string "{PLAYER} erhält den\n"
+	.string "FALLTÜR-SCHLÜSSEL!$"
 
 SlateportCity_NameRatersHouse_Trampilla_Texto_18:
-	.string "Now, it's yours; you may go in and out as\n"
-	.string "you please. It's the least I can do for\l"
-	.string "you.$"
+	.string "Nun gehört er dir. Du kannst hier rein-\n"
+	.string "und rausgehen, wann immer du willst.\p"
+	.string "Das ist das Mindeste, was ich für\n"
+	.string "dich tun kann.$"
 
 Lavender_Motes_Activador_Entrada::
 compare VAR_UNUSED_0x40F8, 25
@@ -342,8 +348,8 @@ release
 end
 
 Lavender_Motes_Activador_Entrada_Pasa_Text_YesNo:
-	.string "Under the MAP, there's the OLD\n"
-	.string "GRAVEYARD.\p"
-	.string "Wanna use the TRAPDOOR'S KEY?$"
+	.string "Unter der KARTE liegt der ALTE\n"
+	.string "FRIEDHOF. Willst du den\l"
+	.string "FALLTÜR-SCHLÜSSEL verwenden?$"
 
 
