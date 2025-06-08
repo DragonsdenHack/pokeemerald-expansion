@@ -9,10 +9,10 @@ release
 end
 
 ThreeIsland_House4_Text_1:
-.string "You must never, ever go out to\n"
-    .string "the BERRY FOREST alone.\p"
-    .string "Why?\n"
-    .string "There are ghosts there.$"
+.string "Du solltest nie alleine in den\n"
+    .string "BEERENFORST gehen!\p"
+    .string "Warum?\n"
+    .string "Es spukt dort!$"
 
 
 
@@ -24,5 +24,5 @@ release
 end
 
 ThreeIsland_House4_Text_2:
-.string "Papa keeps lying to me, and won't\n"
-    .string "let me go out and play!$"
+	.string "Papa lügt mich ständig an und lässt\n"
+	.string "mich nicht hinaus zum Spielen!$"

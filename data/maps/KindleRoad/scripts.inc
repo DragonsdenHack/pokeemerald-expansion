@@ -221,8 +221,8 @@ msgbox KindleRoadDocumento_Text_100, MSGBOX_SIGN
 end
 
 KindleRoadDocumento_Text_100:
-.string "Light the Fire in Your Heart!\n"
-    .string "EMBER SPA$"
+.string "Entfache das Feuer in dir!\n"
+    .string "GLUTTHERME$"
 
 
 
@@ -231,8 +231,8 @@ msgbox KindleRoadDocumento_Text_101, MSGBOX_SIGN
 end
 
 KindleRoadDocumento_Text_101:
-.string "This is KINDLE ROAD.\p"
-    .string "Go straight for MT. EMBER.$"
+.string "Das ist der GLÜHWEG.\p"
+    .string "Zum GLUTBERG geradeaus.$"
 
 
 

@@ -59,9 +59,9 @@ msgbox CanyonEntranceDocumento_Text_100, MSGBOX_SIGN
 end
 
 CanyonEntranceDocumento_Text_100:
-.string "SEVAULT CANYON ENTRANCE\p"
-    .string "TRAINERS are asked to refrain from\n"
-    .string "damaging plants in the CANYON.$"
+.string "EINGANG zur 7-SCHATZSCHLUCHT\p"
+	.string "TRAINER werden gebeten, die Pflanzen\n"
+	.string "in der SCHLUCHT nicht zu beschädigen.$"
 
 
 

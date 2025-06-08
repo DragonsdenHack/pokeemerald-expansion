@@ -10368,63 +10368,70 @@ MtEmberEntrance_Text_LuchadoraPostBattle:
 
 
 MtEmberB1F_Text_SoldadoIntro:
-	.string "Our LEADER has been planning this for\n"
-	.string "years; he's not going to throw it all\l"
-	.string "away just because a runt like you shows\l"
-	.string "up at the last moment.$"
+	.string "Unser ANFÜHRER verfolgt diesen Plan\n"
+	.string "schon seit Jahren! Glaubst du\l"
+	.string "ernsthaft, dass er ihn jetzt einfach so\l"
+	.string "über Bord werfen wird, nur weil so ein\l"
+	.string "Wicht wie du in letzter Minute\l"
+	.string "aufgetaucht ist?!$"
 
 
 MtEmberB1F_Text_SoldadoDefeated:
-	.string "Forgive me MAXIE!$"
+	.string "Vergebe mir MARC!$"
 
 
 
 MtEmberB1F_Text_SoldadoPostBattle:
-	.string "Our grand plan is almost done; when we\n"
-	.string "go back to HOENN, no one will be able to\l"
-	.string "stand in our way.$"
+	.string "Unser Meisterplan steht kurz vor der\n"
+	.string "Vollendung! Und wenn wir erst einmal\l"
+	.string "nach HOENN zurückkehren, wird uns\l"
+	.string "niemand mehr aufhalten können!$"
 
 
 
 MtEmberB2F_Text_SoldadoIntro:
-	.string "Hold on! We're in the midst of a crucial\n"
-	.string "operation in this location! TEAM\l"
-	.string "ROCKET? I thought you were finished!$"
+	.string "Bleib stehen! Wir sind hier gerade\n"
+	.string "mitten in einer entscheidenden Mission!\p"
+	.string "TEAM ROCKET, sagst du? Ich dachte, ihr\n"
+	.string "wärt Geschichte!$"
 
 
 
 MtEmberB2F_Text_SoldadoDefeated:
-	.string "TEAM MAGMA will be unstoppable.$"
+	.string "TEAM MAGMA wird unaufhaltsam sein!$"
 
 
 MtEmberB2F_Text_SoldadoPostBattle:
-	.string "Those rogues from TEAM AQUA are going\n"
-	.string "to pay when we achieve our objective\l"
-	.string "before them.$"
+	.string "Diese Taugenichtse von TEAM AQUA\n"
+	.string "werden endlich für alles bezahlen,\l"
+	.string "sobald wir erstmal unser Ziel erreicht\l"
+	.string "haben!$"
 
 
 
 MtEmberB3F_Text_SoldadoIntro:
-	.string "Everything that comes from earth\n"
-	.string "returns to earth sooner or later. Could\l"
-	.string "you be the naive one trying to resist\l"
-	.string "that universal law? Can't you see the\l"
-	.string "beauty of our plan?$"
+	.string "Alles, was der Erde entspringt, kehrt\n"
+	.string "eines Tages zu ihr zurück. Bist du\l"
+	.string "wirklich so naiv, dich diesem\l"
+	.string "universellem Prinzip zu widersetzen?\l"
+	.string "Erkennst du denn nicht die\l"
+	.string "Vollkommenheit unseres Vorhabens?$"
 
 
 
 MtEmberB3F_Text_SoldadoDefeated:
-	.string "This is what you wanted; my superiors\n"
-	.string "will handle you.$"
+	.string "Du hast es so gewollt! Meine\n"
+	.string "Vorgesetzten werden kurzen Prozess\l"
+	.string "mit dir machen!$"
 
 
 MtEmberB3F_Text_SoldadoPostBattle:
-	.string "At this point, top MAGMA GRUNTS should\n"
-	.string "be close to discovering the secret\l"
-	.string "entrance leading to GROUDON. You won't\l"
-	.string "make it to my BOSS in time; first, you'll\l"
-	.string "have to take down the strongest\l"
-	.string "recruits.$"
+	.string "Mittlerweile müssten unsere besten\n"
+	.string "MAGMA-RÜPEL kurz davor stehen, den\l"
+	.string "geheimen Eingang zu GROUDON zu finden.\p"
+	.string "Du wirst nicht rechtzeitig zu meinem\n"
+	.string "BOSS gelangen, denn zunächst musst du\l"
+	.string "unsere stärksten Mitglieder besiegen!$"
 
 
 BondBridge_Text_ChicaIntro:
@@ -11177,388 +11184,415 @@ TrainerTower_Text_ChicoPostBattle:
 
 
 SilphS1_Text_CientificoIntro:
-	.string "You were the one who arranged the\n"
-	.string "encounter between GIOVANNI and our\l"
-	.string "PRESIDENT?$"
+	.string "Bist du nicht derjenige, der das\n"
+	.string "Treffen zwischen GIOVANNI und unserem\l"
+	.string "PRÄSIDENTEN ermöglicht hat?$"
 
 
 
 SilphS1_Text_CientificoDefeated:
-	.string "Amazing.$"
+	.string "Beeindruckend!$"
 
 
 SilphS1_Text_CientificoPostBattle:
-	.string "You were vital in helping this region\n"
-	.string "regain its sovereignty, so SILPH is your\l"
-	.string "home; you have access to everything\l"
-	.string "you want to see, ROCKET. You were\l"
-	.string "essential for this region to recover its\l"
-	.string "sovereignty, that's why SILPH is your\l"
-	.string "home, and you have access to anything\l"
-	.string "you want to see, ROCKET.$"
+	.string "Ohne dich hätte die Region nie ihre\n"
+	.string "Freiheit wiedererlangt! Daher wird dich\l"
+	.string "SILPH stets mit offenen Armen\l"
+	.string "empfangen! Selbstverständlich hast du\l"
+	.string "freien Zugriff auf alles hier.$"
 
 
 SilphS2_Text_PoliciaIntro:
-	.string "Our security has improved significantly\n"
-	.string "since TEAM ROCKET assault. Don't trust\l"
-	.string "me? Bring it on!$"
+	.string "Seit eurem Angriff haben haben wir die\n"
+	.string "Sicherheitsmaßnahmen hier massiv\l"
+	.string "hochgeschraubt. Du glaubst mir nicht?\p"
+	.string "Dann zeig ichs dir!$"
 
 
 
 SilphS2_Text_PoliciaDefeated:
-	.string "Well, security isn't perfect yet.$"
+	.string "Nun ja … Scheint so, als wären die\n"
+	.string "Sicherheitsmaßnahmen hier doch noch\l"
+	.string "mehr ausbaufähig …$"
 
 
 SilphS2_Text_PoliciaPostBattle:
-	.string "When you invaded SILPH and defeated\n"
-	.string "countless guards easily, you forced us\l"
-	.string "to improve. Our level was still far from\l"
-	.string "what a balanced team in harmony with\l"
-	.string "its trainer can achieve. Now, our\l"
-	.string "security is better.$"
+	.string "Als du SILPH überfallen und im\n"
+	.string "Alleingang unzählige Sicherheitskräfte\l"
+	.string "mühelos besiegt hast, hast du uns\l"
+	.string "gezwungen, uns zu verbessern. Wir\l"
+	.string "wussten nicht, wie mangelhaft unsere\l"
+	.string "Sicherheitsmaßnahmen zu dieser Zeit\l"
+	.string "war. Aber mittlerweile sind sie viel\l"
+	.string "besser.$"
 
 
 
 SilphS2_Text_CientificoIntro:
-	.string "After his defeat in SILPH, it is said\n"
-	.string "BILL isolated himself in his laboratory\l"
-	.string "for a whole week.$"
+	.string "Man sagt, dass sich BILL nach seiner\n"
+	.string "Niederlage gegen dich, eine Woche lang\l"
+	.string "in seinem Labor eingeschlossen hat.$"
 
 
 
 SilphS2_Text_CientificoDefeated:
-	.string "I see why even BILL lost.$"
+	.string "Jetzt verstehe ich, warum sogar BILL\n"
+	.string "gegen dich verloren hat.$"
 
 
 SilphS2_Text_CientificoPostBattle:
-	.string "Certain things are difficult to\n"
-	.string "replicate completely, such as the bond\l"
-	.string "you have with your team.$"
+	.string "Es existieren Dinge, die sich selbst mit\n"
+	.string "der fortschrittlichsten Technologie\l"
+	.string "nur schwerlich nachbilden lassen.\p"
+	.string "Wie zum Beispiel die enge Beziehung,\n"
+	.string "die du zu deinem Team hast.$"
 
 
 
 SilphS2_Text_Cientifico2Intro:
-	.string "There are plenty of POKÉMON out there\n"
-	.string "worthy of investigation. Which ones are\l"
-	.string "yours?$"
+	.string "Da draußen gibt es viele POKéMON die es\n"
+	.string "wert sind, erforscht zu werden.\p"
+	.string "Welche sind es Ihrer Meinung nach?$"
 
 
 SilphS2_Text_Cientifico2Defeated:
-	.string "Thanks for the battle, ADMIN\n"
-	.string "{PLAYER}.$"
+	.string "Ich danke Ihnen für den Kampf,\n"
+	.string "ADMINISTRATOR {PLAYER}.$"
 
 
 SilphS2_Text_Cientifico2PostBattle:
-	.string "You don't need POKÉMON from other\n"
-	.string "regions to reach an extraordinary\l"
-	.string "level; KANTO or JOHTO has some\l"
-	.string "excellent POKÉMON as well, as you\l"
-	.string "demonstrated in the POKÉMON LEAGUE.$"
+	.string "Man braucht keine POKéMON aus den\n"
+	.string "fernen Regionen, um ein\l"
+	.string "außergewöhnlicher TRAINER zu werden.\p"
+	.string "KANTO und JOHTO besitzen viele\n"
+	.string "ausgezeichnete POKéMON und das haben\l"
+	.string "Sie mit Ihren Siegen in der POKéMON\l"
+	.string "LIGA eindrucksvoll bewiesen.$"
 
 
 SilphS2_Text_Policia2Intro:
-	.string "A TRAINER with your attributes appears\n"
-	.string "just once every 20 or 30 years; you\l"
-	.string "wouldn't expect me to pass on the\l"
-	.string "chance to battle you!$"
+	.string "Einem TRAINER mit deinen Fähigkeiten\n"
+	.string "begegnet man nur alle 20-30 Jahre. Du\l"
+	.string "erwartest doch nicht ernsthaft von mir,\l"
+	.string "dass ich mir die Chance entgehen lasse,\l"
+	.string "gegen dich zu kämpfen!$"
 
 
 SilphS2_Text_Policia2Defeated:
-	.string "So that's your level.$"
+	.string "Das ist also wahre Stärke.$"
 
 
 SilphS2_Text_Policia2PostBattle:
-	.string "I hope you remain in this region for a\n"
-	.string "while; with you, KANTO will stay\l"
-	.string "protected, and it can finally begin a\l"
-	.string "real stage of growth.$"
+	.string "Ich hoffe, du bleibst noch eine Weile in\n"
+	.string "dieser Region. Mit dir an unserer Seite\l"
+	.string "wird KANTO sicher bleiben und endlich\l"
+	.string "wirklich aufblühen können.$"
 
 
 
 SilphS2_Text_Cientifico3Intro:
-	.string "You defeated LANCE. I won't let go the\n"
-	.string "chance to analyze your POKÉMON!$"
+	.string "Sie haben SIEGFRIED besiegt! Ich werde\n"
+	.string "mir nicht die Chance entgehen lassen,\l"
+	.string "Ihre POKéMON zu studieren!$"
 
 
 SilphS2_Text_Cientifico3Defeated:
-	.string "Thanks for the battle, sir.$"
+	.string "Vielen Dank für den Kampf, Sir.$"
 
 
 SilphS2_Text_Cientifico3PostBattle:
-	.string "You must have pushed all your POKÉMON\n"
-	.string "to the limit just to be able to compete\l"
-	.string "against the array of legends that\l"
-	.string "LANCE gathered over the years.$"
+	.string "Sie müssen alles aus Ihren POKéMON\n"
+	.string "rausgeholt haben, um gegen die\l"
+	.string "LEGENDÄREN POKéMON zu bestehen, die\l"
+	.string "SIEGFRIED in seinem Team hatte.$"
 
 
 SilphS2_Text_Policia3Intro:
-	.string "Are you really that strong?$"
+	.string "Bist du wirklich so stark, wie\n"
+	.string "sie es sagen?$"
 
 
 SilphS2_Text_Policia3Defeated:
-	.string "I see...$"
+	.string "Das werte ich mal als ein Ja … $"
 
 
 SilphS2_Text_Policia3PostBattle:
-	.string "You will find the information you seek\n"
-	.string "below, {PLAYER}. Guarded closely by\l"
-	.string "our top trainers.$"
+	.string "Du wirst die Informationen, nach denen\n"
+	.string "du suchst, unten finden, {PLAYER} -\l"
+	.string "streng bewacht von unseren besten\l"
+	.string "TRAINERN.$"
 
 
 
 SilphS3_Text_PoliciaIntro:
-	.string "Stop there! Even someone of your\n"
-	.string "caliber must demonstrate their worth\l"
-	.string "to cross this point and access the\l"
-	.string "knowledge stored here. I hope you\l"
-	.string "haven't been slacking since the LANCE\l"
-	.string "encounter. On guard!$"
+	.string "Halt! Selbst jemand von deinem Kaliber\n"
+	.string "muss erst beweisen, dass er würdig ist,\l"
+	.string "Zugang zu den hier vorhandenen\l"
+	.string "Wissensschätzen zu erhalten. Ich\l"
+	.string "hoffe, du hast dich seit deinem Sieg\l"
+	.string "gegen SIEGFRIED nicht auf die faule\l"
+	.string "Haut gelegt.\p"
+	.string "En garde!$"
 
 
 SilphS3_Text_PoliciaDefeated:
-	.string "As expected, you're allowed to pass.$"
+	.string "Ich habe nichts anderes von dir\n"
+	.string "erwartet. Du darfst weitergehen.$"
 
 
 SilphS3_Text_PoliciaPostBattle:
-	.string "Many of the truths documented here\n"
-	.string "would horrify most of KANTO's\l"
-	.string "population.$"
+	.string "Die meisten Menschen in KANTO wären\n"
+	.string "zutiefst verstört, wenn sie auch nur\l"
+	.string "einen Bruchteil der Inhalte der hier\l"
+	.string "archivierten Aufzeichnungen kennen\l"
+	.string "würden.$"
 
 
 
 CultoS1_Text_MediumIntro:
-	.string "There have been rumors about a savior\n"
-	.string "who took down the tyrant ruling KANTO.\l"
-	.string "Was it you?$"
+	.string "Es gibt Gerüchte von einem Retter, der\n"
+	.string "den Tyrannen KANTOs stürzte.\p"
+	.string "Warst du das?$"
 
 
 CultoS1_Text_MediumDefeated:
-	.string "This is the strength of the savior of\n"
-	.string "KANTO.$"
+	.string "Das ist also die Stärke des\n"
+	.string "Retters von KANTO.$"
 
 
 CultoS1_Text_MediumPostBattle:
-	.string "You've raised your POKÉMON with\n"
-	.string "honesty and care, yet you're just a\l"
-	.string "speck of dust compared to our\l"
-	.string "shepherd's team.$"
+	.string "Du hast deine POKéMON mit Liebe und\n"
+	.string "Anstand erzogen. Dennoch sind du und\l"
+	.string "dein Team nichts weiter als\l"
+	.string "unbedeutende Staubkörnchen im\l"
+	.string "Vergleich zu unserem Hirten.$"
 
 
 CultoS1_Text_Medium2Intro:
-	.string "Only the chosen ones can go beyond\n"
-	.string "this door. KANTO may have chosen you,\l"
-	.string "but being the legitimate CHAMPION is\l"
-	.string "not enough!$"
+	.string "Nur die Auserwählten dürfen diese Tür\n"
+	.string "passieren. Du magst zwar der CHAMP\l"
+	.string "KANTOs sein, doch reicht das nicht aus!$"
 
 
 CultoS1_Text_Medium2Defeated:
-	.string "Alright, you wanted this.$"
+	.string "Wohlan. Du hast es nicht anders gewollt.$"
 
 
 CultoS1_Text_Medium2PostBattle:
-	.string "The top floor is only for members of our\n"
-	.string "cult. I won't take responsibility for\l"
-	.string "what happens to you inside.$"
+	.string "Die oberen Etagen sind ausschließlich\n"
+	.string "den Mitgliedern unseres Kultes\l"
+	.string "vorbehalten. Ich übernehme keine\l"
+	.string "Verantwortung für das, was dir dort\l"
+	.string "widerfährt.$"
 
 
 Culto2_Text_MediumIntro:
-	.string "You're not one of us. What brings you\n"
-	.string "here?$"
+	.string "Du bist keiner von uns.\n"
+	.string "Was führt dich hierher?$"
 
 
 Culto2_Text_MediumDefeated:
-	.string "Be careful, kid.$"
+	.string "Gib gut auf dich Acht.$"
 
 
 Culto2_Text_MediumPostBattle:
-	.string "For your own sake, your presence here\n"
-	.string "should be justified; not everyone can\l"
-	.string "enter this place.$"
+	.string "Ich hoffe zu deinem eigenen Wohl, dass\n"
+	.string "du einen guten Grund hast, warum du\l"
+	.string "hier bist. Dieser Ort ist nicht für\l"
+	.string "jedermann.$"
 
 
 Culto2_Text_Medium2Intro:
-	.string "Are you in search of answers? This is\n"
-	.string "the place, but regrettably, you have\l"
-	.string "not the level.$"
+	.string "Wenn du nach Antworten suchst, dann\n"
+	.string "bist du hier richtig. Bedauerlicherweise\l"
+	.string "bist du diesem Ort nicht gewachsen.$"
 
 
 Culto2_Text_Medium2Defeated:
-	.string "Well, if that's your wish...$"
+	.string "So sei es …$"
 
 
 Culto2_Text_Medium2PostBattle:
-	.string "Not everyone who seeks answers ends up\n"
-	.string "finding what they expected, be\l"
-	.string "cautious.$"
+	.string "Viele, die nach Antworten suchten,\n"
+	.string "liefen stattdessen in ihr Verderben.\p"
+	.string "Sei auf der Hut.$"
   
 
 CultoS3_Text_MediumIntro:
-	.string "Some people say you're the true\n"
-	.string "CHAMPION of KANTO, whoever you are, you\l"
-	.string "can't contribute anything more to this\l"
-	.string "place; we have all.$"
+	.string "Man sagt, du seist der wahre CHAMP von\n"
+	.string "KANTO. Aber das spielt keine Rolle.\p"
+	.string "Dieser Ort braucht dich nicht. Er ist\n"
+	.string "bereits vollkommen.$"
 
 
 CultoS3_Text_MediumDefeated:
-	.string "There's a lack of harmony in your team.$"
+	.string "Deinem Team mangelt es an Harmonie.$"
 
 
 CultoS3_Text_MediumPostBattle:
-	.string "The immensity of this place makes\n"
-	.string "winning or losing irrelevant.$"
+	.string "In Anbetracht der Vollkommenheit\n"
+	.string "dieses Ortes spielen Sieg und\l"
+	.string "Niederlage keine Rolle.$"
 
 
 CultoS3_Text_Medium2Intro:
-	.string "Being a CHAMPION or not is\n"
-	.string "inconsequential; you're just sand and\l"
-	.string "shadows, as everyone else.$"
+	.string "Es spielt keine Rolle, ob du der CHAMP\n"
+	.string "von KANTO bist oder nicht. Du bist nur\l"
+	.string "Staub und Asche - so wie alle anderen.$"
 
 
 CultoS3_Text_Medium2Defeated:
-	.string "Proceed on your journey.$"
+	.string "Fahre deines Weges fort.$"
 
 
 CultoS3_Text_Medium2PostBattle:
-	.string "At the eyes of THE CREATOR, every\n"
-	.string "POKÉMON is equal; there's nothing you\l"
-	.string "can do to alter that.$"
+	.string "In den Augen des Schöpfers sind alle\n"
+	.string "POKéMON gleich und es gibt nichts, was\l"
+	.string "du dagegen sagen und tun kannst.$"
 
 
 CultoS3_Text_ExorcistaIntro:
-	.string "Justice is what motivates the noble,\n"
-	.string "and greed the villain.$"
+	.string "Den Guten treibt die Gerechtigkeit an.\p"
+	.string "Beim Schurken entfacht sie die Gier.$"
 
 
 CultoS3_Text_ExorcistaDefeated:
-	.string "Now I see what motivates you, CHAMPION.$"
+	.string "Nun erkenne ich, was dich antreibt, CHAMP.$"
 
 
 CultoS3_Text_ExorcistaPostBattle:
-	.string "Evil doesn't reside in making mistakes\n"
-	.string "but in neglecting to correct them.$"
+	.string "Das Böse ruht nicht im Machen von\n"
+	.string "Fehlern, sondern darin, sie nicht\l"
+	.string "wiedergutzumachen.$"
 
 
 CultoS3_Text_Exorcista2Intro:
-	.string "Embrace uncertainty, and everything\n"
-	.string "will flow!$"
+	.string "Öffne dich der Ungewissheit und alles\n"
+	.string "wird sich fügen!$"
 
 
 CultoS3_Text_Exorcista2Defeated:
-	.string "That's it!$"
+	.string "Genau so!$"
 
 
 CultoS3_Text_Exorcista2PostBattle:
-	.string "Disorder and entropy allow us the\n"
-	.string "freedom to shape the chaos to our\l"
-	.string "liking. If everything adhered to an\l"
-	.string "orderly pattern, so would we, and\l"
-	.string "consequently, we'd only be intricate\l"
-	.string "machines. Thus, every time you find\l"
-	.string "yourself in a chaotic situation, use it\l"
-	.string "as an opportunity to mold it as you\l"
-	.string "wish!$"
+	.string "In der Unordnung liegt unser freier\n"
+	.string "Wille. Sie erlaubt es uns, das Chaos nach\l"
+	.string "unseren Vorstellungen zu formen. Würde\l"
+	.string "alles geordneten Mustern folgen, wären\l"
+	.string "wir ihnen unterworfen und damit nichts\l"
+	.string "weiter als Maschinen. Wann immer du dich\l"
+	.string "also in einer chaotischen Situation\l"
+	.string "wiederfindest, verzage nicht - sondern\l"
+	.string "sehe es als Gelegenheit dein Leben in\l"
+	.string "die eigene Hand zu nehmen!$"
 
 
 CultoS3_Text_Medium3Intro:
-	.string "So, you're after the ESSENCE POKÉMON?\n"
-	.string "Poor fool!$"
+	.string "Du bist also hinter dem ESSENZ-POKéMON\n"
+	.string "her? Törichter Narr!$"
 
 
 CultoS3_Text_Medium3Defeated:
-	.string "You will pay for your audacity!$"
+	.string "Du wirst für diese Frechheit bezahlen!$"
 
 
 CultoS3_Text_Medium3PostBattle:
-	.string "The ESSENCE POKÉMON is both present\n"
-	.string "and absent, existing everywhere and\l"
-	.string "nowhere at once. At the moment you\l"
-	.string "think spotted its shadow, it will\l"
-	.string "dissolve into the air, leaving your mind\l"
-	.string "grappling to understand what happened.$"
+	.string "Das ESSENZ-POKéMON ist überall und\n"
+	.string "nirgends zugleich. In dem Moment, wo du\l"
+	.string "glaubst, es gesehen zu haben,\l"
+	.string "verschwindet es wieder - deinen\l"
+	.string "Verstand verwirrt zurücklassend.$"
 
 
 CultoS3_Text_Medium4Intro:
-	.string "You better not cross this line if you\n"
-	.string "don't want to choose the path of pain.$"
+	.string "Überschreite diese Grenze nicht!\p"
+	.string "Es sei denn, du willst einen Pfad\n"
+	.string "des Leidens beschreiten.$"
 
 
 
 CultoS3_Text_Medium4Defeated:
-	.string "So be it.$"
+	.string "So sei es.$"
 
 
 CultoS3_Text_Medium4PostBattle:
-	.string "Don't return later with tears and\n"
-	.string "regretting your choice; in that moment,\l"
-	.string "it was what you desired.$"
+	.string "Komm nachher nicht weinend zu mir\n"
+	.string "zurückgerannt und sage, dass du deine\l"
+	.string "Entscheidung bereust!\p"
+	.string "Denn du hast sie getroffen!$"
 
 
 CultoS3_Text_Medium5Intro:
-	.string "No one has ever interrupted a ritual of\n"
-	.string "our cult, and you won't be the first one!$"
+	.string "Es wurde noch nie ein Ritual unseres\n"
+	.string "Kultes gestört - und du du wirst\l"
+	.string "garantiert nicht der Erste sein!$"
 
 
 CultoS3_Text_Medium5Defeated:
-.string "Face the consequences, then.$"
+.string "Dann trage auch die Konsequenzen!$"
 
 
 CultoS3_Text_Medium5PostBattle:
-	.string "The POKÉMON of our shepherd don't obey\n"
-	.string "the laws of this world; they exist on a\l"
-	.string "higher plane.$"
+	.string "Die POKéMON unseres Hirten sind nicht\n"
+	.string "an die Gesetze dieser Welt gebunden.\p"
+	.string "Sie existieren auf einer höheren Ebene.$"
 
 
 NavelRoad_Text_PescadorIntro:
-	.string "No one except the few FISHERMAN who\n"
-	.string "know the secret should be here.$"
+	.string "Nur eine Handvoll ANGLER kennen diesen\n"
+	.string "Ort. Du solltest nicht hier sein!$"
 
 
 NavelRoad_Text_PescadorDefeated:
-	.string "Welcome to the club!$"
+	.string "Willkommen im Klub!$"
 
 
 NavelRoad_Text_PescadorPostBattle:
-	.string "Most people out there are cowards and\n"
-	.string "followers of directives; they fear\l"
-	.string "getting a little wet with the currents\l"
-	.string "when the best of the sea is right here.\l"
-	.string "Let them stay locked in their herd; I'll\l"
-	.string "take the best pieces from this place!$"
+	.string "Die meisten da draußen sind Feiglinge\n"
+	.string "und Mitläufer, die sich davor fürchten,\l"
+	.string "ein wenig nass zu werden! Und dabei ist\l"
+	.string "das hier der beste Ort, den die Meere zu\l"
+	.string "bieten haben! Sollen die ruhig in ihrer\l"
+	.string "Herde bleiben, während ich die besten\l"
+	.string "Fänge mache!$"
 
 
 NavelRoad_Text_Pescador2Intro:
-	.string "This place is a nest of wild POKÉMON\n"
-	.string "that have grown in rough waters! Just\l"
-	.string "see how ferocious they are!$"
+	.string "Hier wimmelt es nur so von wilden\n"
+	.string "POKéMON, die in stürmischen Gewässern\l"
+	.string "großgeworden sind! Schau dir doch nur\l"
+	.string "an, wie wild sie sind!$"
 
 
 NavelRoad_Text_Pescador2Defeated:
-	.string "Incredible!$"
+	.string "Unglaublich!$"
 
 
 NavelRoad_Text_Pescador2PostBattle:
-	.string "You're brave to come here alone; nature\n"
-	.string "rewards those who take risks. If you\l"
-	.string "learn to dance in the storm, you'll fly\l"
-	.string "when calm returns.$"
+	.string "Es erfordert Mut, allein\n"
+	.string "hierherzukommen. Die Natur belohnt\l"
+	.string "jene, die bereit sind, Risiken\l"
+	.string "einzugehen. Wer im Sturm zu tanzen\l"
+	.string "lernt, ist für alles gewappnet.$"
 
 
 WestBirthIsland_Text_MontaneroIntro:
-	.string "First that girl, and now you! What's\n"
-	.string "happening with the secrecy and\l"
-	.string "discretion of this place?$"
+	.string "Zuerst die junge Frau und jetzt auch\n"
+	.string "noch du! Was ist nur mit der Diskretion\l"
+	.string "dieses Ortes geschehen?!$"
 
 
 WestBirthIsland_Text_MontaneroDefeated:
-	.string "My team in ruins!$"
+	.string "Mein Team ist am Ende!$"
 
 
 WestBirthIsland_Text_MontaneroPostBattle:
-	.string "It is believed that this place has a\n"
-	.string "close connection to the ALPHA RUINS in\l"
-	.string "JOHTO, perhaps this place it's key to\l"
-	.string "unleash an indescribable and ancestral\l"
-	.string "power...$"
+	.string "Es wird vermutet, dass dieser Ort in\n"
+	.string "enger Verbindung zu den ALPH-RUINEN in\l"
+	.string "JOHTO steht. Möglicherweise ist er der\l"
+	.string "Schlüssel zur Freisetzung einer\l"
+	.string "uralten, unermesslichen Macht …$"
 
 
 CinnabarMansionS1_Text_CientificoIntro:

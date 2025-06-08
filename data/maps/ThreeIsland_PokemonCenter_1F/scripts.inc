@@ -27,10 +27,9 @@ release
 end
 
 ThreeIsland_PokemonCenter_Text_2:
-.string "It's impossible to SURF between the\n"
-    .string "islands around these parts.\p"
-    .string "The tides are too fast and\n"
-    .string "treacherous.$"
+	.string "Es ist nicht möglich, zwischen den\n"
+	.string "Inseln in dieser Gegend zu SURFen! Die\l"
+	.string "Strömung ist zu stark und gefährlich!$"
 
 ThreeIslandPokemonCenter3::
 lock     
@@ -40,11 +39,11 @@ release
 end
 
 ThreeIsland_PokemonCenter_Text_3:
-.string "Hey, did you hear the news?\p"
-    .string "The PC network here can now link\n"
-    .string "with PCs in KANTO.\p"
-    .string "I don't know how that came about,\n"
-    .string "but it's fantastic!$"
+	.string "Heh! Hast du schon gehört? Das\n"
+	.string "PC-Netzwerk hier kann nun mit den PCs\l"
+	.string "in KANTO verbunden werden. Ich weiß\l"
+	.string "nicht, wie das zu Stande kam, aber es\l"
+	.string "ist großartig!$"
 
 
 
@@ -56,7 +55,7 @@ release
 end
 
 ThreeIsland_PokemonCenter_Text_4:
-.string "Let's crush BERRIES!\n"
-    .string "…That'd be wasting BERRIES?\p"
-    .string "You can always find some BERRIES\n"
-    .string "on the ground in BERRY FOREST.$"
+	.string "Lass uns BEEREN mahlen! … das wäre\n"
+	.string "BEERENverschwendung? Im BEERENFORST\l"
+	.string "kannst du stets BEEREN am Boden\l"
+	.string "finden!$"

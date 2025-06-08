@@ -30,4 +30,4 @@ msgbox TrainerTowerDocumento_Text_100, MSGBOX_SIGN
 end
 
 TrainerTowerDocumento_Text_100:
-	.string "OPEN SEA$"
+	.string "TRAINERTURM VORAUS$"

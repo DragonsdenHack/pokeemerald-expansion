@@ -14,13 +14,14 @@ release
 end
 
 EmberSpa_Text_2:
-    .string "After an honest day of training,\n"
-    .string "nothing beats a relaxing soak in\l"
-    .string "the hot spring pool.\p"
-    .string "BRUNO, who's a senior ahead of me,\n"
-    .string "visits the SPA on occasion.\p"
-    .string "He comes to rehab injuries, both\n"
-    .string "his own and his POKÉMON's.$"
+	.string "Nach einem harten Trainingstag kann\n"
+	.string "einem entspannenden Aufenthalt in\l"
+	.string "einem Thermalbad nichts das Wasser\l"
+	.string "reichen. BRUNO, der mir voransteht,\l"
+	.string "kommt gelegentlich auch in diesen\l"
+	.string "KURORT. Er kommt hierher, um seine\l"
+	.string "Gebrechen und die seiner POKéMON zu\l"
+	.string "lindern.$"
 
 
 
@@ -32,10 +33,10 @@ release
 end
 
 EmberSpa_Text_3:
-    .string "Have a look at my face.\n"
-    .string "See how smooth my skin is?\p"
-    .string "The hot spring's water keeps my\n"
-    .string "skin younger than my age.$"
+    .string "Sieh in mein Gesicht! Siehst du,\n"
+    .string "wie glatt meine Haut ist?\p"
+    .string "Das Wasser vom Thermalbad\n"
+    .string "hält meine Haut so jung und straff.$"
 
 
 
@@ -47,8 +48,8 @@ release
 end
 
 EmberSpa_Text_4:
-    .string "Soaking in a hot spring pool is\n"
-    .string "therapeutic, people say.$"
+    .string "Ein Thermalbad soll heilende\n"
+    .string "Wirkung haben, sagt man.$"
 
 
 
@@ -60,10 +61,10 @@ release
 end
 
 EmberSpa_Text_5:
-    .string "My favorite part of bathing comes\n"
-    .string "up right after this.\p"
-    .string "I enjoy a bowl of chowder to\n"
-    .string "warm me from the inside, too!$"
+	.string "Mein Lieblingsteil vom Baden kommt\n"
+	.string "jetzt gleich. Ich genehmige mir eine\l"
+	.string "sämige Fischsuppe, um mich auch von\l"
+	.string "innen aufzuwärmen!$"
 
 
 
@@ -76,9 +77,9 @@ end
 
 EmberSpa_Text_6:
     .string "Hm!\n"
-    .string "Haaaaaaaaaaah!\p"
-    .string "Aaaah! This is heavenly!\n"
-    .string "The water warms me to my core!\p"
-    .string "You should jump in, too.\p"
-    .string "Go to the middle, relax, and get\n"
-    .string "good and warm!$"
+    .string "Hah!\p"
+    .string "Argh! Das ist himmlisch!\n"
+    .string "Das Wasser wärmt mich überall!\p"
+    .string "Spring auch rein!\p"
+    .string "Schwimm in die Mitte, entspanne\n"
+    .string "dnd dir wird ganz wohlig warm.$"

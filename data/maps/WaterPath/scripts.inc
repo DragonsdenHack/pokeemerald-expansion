@@ -105,8 +105,8 @@ msgbox WaterPathDocumento_Text_100, MSGBOX_SIGN
 end
 
 WaterPathDocumento_Text_100:
-    .string "WATER PATH\n"
-    .string "Leads to RUIN VALLEY$"
+    .string "WASSERWEG\n"
+    .string "Führt ins RUINENTAL$"
 
 
 
@@ -115,8 +115,8 @@ msgbox WaterPathDocumento_Text_101, MSGBOX_SIGN
 end
 
 WaterPathDocumento_Text_101:
-    .string "Wanted!\n"
-    .string "The Ultimate Horn!$"
+    .string "Gesucht!\n"
+    .string "Das Ultimative Horn!$"
 
 
 

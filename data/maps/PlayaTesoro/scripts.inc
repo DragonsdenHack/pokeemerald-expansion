@@ -16,7 +16,7 @@ release
 end
 
 PlayaTesoro_Text2:
-.string "Good things get washed up by the\n"
-    .string "ocean current onto this beach.\p"
-    .string "That's why I often come here for\n"
-    .string "some beachcombing.$"
+	.string "Die Strömung spült einige brauch- bare\n"
+	.string "Dinge hier an den Strand.\p"
+	.string "Daher durchkämme ich den Strand\l"
+	.string "hier regelmäßig.$"

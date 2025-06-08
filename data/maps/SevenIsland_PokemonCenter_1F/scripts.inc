@@ -27,10 +27,11 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_2:
-	.string "On the island, different things happen\n"
-	.string "based on connections. What are\l"
-	.string "connections? You'll have to discover\l"
-	.string "that without anyone's help.$"
+	.string "Auf dieser Insel geschehen unter-\n"
+	.string "schiedliche Ereignisse, abhängig Von\l"
+	.string "den Verbindungen! Was diese\l"
+	.string "Verbindungen sind? Das musst du\l"
+	.string "alleine herausfinden!$"
 
 
 
@@ -42,10 +43,11 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_3:
-	.string "Have you come aboard the SEAGALLOP? I\n"
-	.string "think there are a total of ten fast\l"
-	.string "ships like that. But I don't know the\l"
-	.string "routes they cover.$"
+	.string "Bist du auf einer SEESPRINT-Fähre\n"
+	.string "hierhergekommen? Es gibt mindestens\l"
+	.string "zehn von diesen\l"
+	.string "Hochgeschwindigkeitsbooten. Ich weiß\l"
+	.string "nicht, woe sie alle abgeblieben sind…$"
 
 
 
@@ -57,9 +59,8 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_4:
-	.string "Many mysteries are waiting to be\n"
-	.string "uncovered on these islands, some of\l"
-	.string "which we can't even imagine.$"
+	.string "Wenn du selbstbewusst bist, solltest du\n"
+	.string "im TRAINERTURM vorbeischauen!$"
 
 
 
@@ -68,9 +69,11 @@ msgbox SevenIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevenIslandPokemonCenterDocumento_Text_100:
-.string "POKÉMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's AGATHA!\p"
-	.string "In her youth, AGATHA and PROF.\n"
-	.string "OAK were rivals who vied for\l"
-	.string "supremacy as TRAINERS.$"
+.string "POKéMON JOURNAL\p"
+	.string "Sonderreportage: AGATHE von den\n"
+	.string "TOP VIER!\p"
+	.string "In ihrer Jugend war AGATHE eine Rivalin\n"
+	.string "von PROF. EICH und hat mit ihm um die\l"
+	.string "Vorherrschaft als TRAINER gekämpft.$"
+
+

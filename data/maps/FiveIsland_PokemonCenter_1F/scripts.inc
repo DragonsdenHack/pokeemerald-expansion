@@ -27,10 +27,9 @@ release
 end
 
 FiveIsland_PokemonCenter_Text_2:
-    .string "Have you visited the GAME CORNER\n"
-    .string "already?\p"
-    .string "It's no good to go alone.\n"
-    .string "You have to take a friend along.$"
+    .string "Warst du schon in der SPIELHALLE?\p"
+    .string "Du solltest nicht allein dorthin\n"
+    .string "gehen! Nimm einen Freund mit!$"
 
 
 
@@ -42,12 +41,11 @@ release
 end
 
 FiveIsland_PokemonCenter_Text_3:
-    .string "Not many people live on\n"
-    .string "TWO ISLAND.\p"
-    .string "There is this old lady who lives\n"
-    .string "out on the cape.\p"
-    .string "She's been there since I don't know\n"
-    .string "when.$"
+    .string "Auf EILAND ZWEI leben nicht\n"
+    .string "viele Menschen!\p"
+    .string "Es gibt da eine alte Dame, die\n"
+    .string "draußen am Kap wohnt!\p"
+    .string "Sie ist schon immer da gewesen!$"
 
 
 

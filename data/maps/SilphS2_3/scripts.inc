@@ -399,55 +399,61 @@ SilphS2_3_Carta_Texto_5:
 	.string "selbstverständlich gelten.$"
 
 SilphS2_3_Carta_Texto_6:
-	.string "However, the methods for obtaining\n"
-	.string "these results aren't conclusive at all.\l"
-	.string "They have never appeared to be either\l"
-	.string "clear or standardized.$"
+	.string "Die Vorgehensweisen, mit denen diese\n"
+	.string "Resultate erzielt wurden, sind uns\l"
+	.string "jedoch keineswegs schlüssig.\l"
+	.string "Sie waren nie - weder klar definiert\l"
+	.string "noch einheitlich.$"
 
 SilphS2_3_Carta_Texto_7:
-	.string "Yet now, we have a most elementary\n"
-	.string "advantage to those regions. We have\l"
-	.string "created a special stone to evolve\l"
-	.string "these POKÉMON as efficiently as\l"
-	.string "possible.$"
+	.string "Inzwischen verfügen wir jedoch über\n"
+	.string "einen entscheidenden Vorteil\l"
+	.string "gegenüber den anderen Regionen.\p"
+	.string "Wir haben einen speziellen Stein\n"
+	.string "entwickelt, mit dem wir diese POKéMON\l"
+	.string "auf die bestmögliche Weise\l"
+	.string "weiterentwickeln können.$"
 
 SilphS2_3_Carta_Texto_8:
-	.string "We have named it the LINK STONE.$"
+	.string "Wir haben ihm den Namen TAUSCHSTEIN\n"
+	.string "gegeben.$"
 
 SilphS2_3_Carta_Texto_9:
-	.string "Its market price\n"
-	.string "would be ¥9,800.$"
+	.string "Der geschätzte Marktwert\n"
+	.string "läge bei 9.800¥.$"
 
 SilphS2_3_Carta_Texto_10:
-	.string "However, as with the MASTER BALL, it\n"
-	.string "shall never be made available. Nor will\l"
-	.string "the public know its existence.$"
+	.string "Wie im Falle des MEISTERBALLs wird er\n"
+	.string "jedoch niemals der Öffentlichkeit\l"
+	.string "zugänglich sein. Die Menschen werden\l"
+	.string "niemals von seiner Existenz erfahren.$"
 
 SilphS2_3_Carta_Texto_11:
-	.string "I'm sure you'll understand the power of\n"
-	.string "this tool.$"
+	.string "Ich bin mir sicher, dass Sie sich der\n"
+	.string "Macht dieses Items bewusst sind.$"
 
 SilphS2_3_Carta_Texto_12:
-	.string "A great era of progress and innovation\n"
-	.string "is approaching.$"
+	.string "Vor uns liegt ein neues Zeitalter der\n"
+	.string "Innovation und des Fortschritts.$"
 
 SilphS2_3_Carta_Texto_13:
-	.string "The LINK STONE is merely the beginning.\n"
-	.string "The first of many advancements that\l"
-	.string "will forever shape our understanding of\l"
-	.string "the art of battle.$"
+	.string "Der TAUSCHSTEIN ist lediglich der\n"
+	.string "Anfang. Es ist die erste von vielen\l"
+	.string "Entwicklungen, die unser Verständnis\l"
+	.string "von POKéMON-Kämpfen für immer\l"
+	.string "verändern werden.$"
 
 SilphS2_3_Carta_Texto_14:
-    .string "With appreciation:\p"
-	.string "Giovanni. April 5th, 1997.$"
+    .string "Hochachtungsvoll:\p"
+	.string "Giovanni. 05.04.1997$"
 
 SilphS2_3_Carta_Texto_15:
-	.string "PS: I've attached a list of all the\n"
-	.string "POKÉMON that can be evolved through\l"
-	.string "this method.$"
+	.string "PS: Anbei finden Sie eine Liste aller\n"
+	.string "POKéMON, die sich mit dem TAUSCHSTEIN\l"
+	.string "entwickeln können.$"
 
 SilphS2_3_Carta_Texto_16:
-	.string "Wanna read it?$"
+	.string "Möchtest du sie lesen?$"
 
 SilphS2_3_Carta_Texto_17:
 .string "- SLOWPOKE to SLOWKING\n"

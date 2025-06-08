@@ -69,13 +69,12 @@ release
 end
 
 Text_16:
-.string "Training by oneself is certainly\n"
-    .string "not a bad thing.\p"
-    .string "But it's also not bad to aim for\n"
-    .string "the top with a partner.\p"
-    .string "Even BRUNO…\n"
-    .string "He trained with a fellow by the\l"
-    .string "name of BRAWLY before.$"
+	.string "Für sich alleine zu trainieren ist mit\n"
+	.string "Sicherheit keine schlechte Idee. Aber\l"
+	.string "mit einem Partner nach den Sternen zu\l"
+	.string "greifen, ist auch in Ordnung. Auch BRUNO\l"
+	.string "… Er hat zuvor mit einem Kumpel namens\l"
+	.string "KAMILLO trainiert.$"
 
 
 SevaultCanyon17::
@@ -142,8 +141,8 @@ msgbox SevaultCanyonDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevaultCanyonDocumento_Text_100:
-.string "SEVAULT CANYON\n"
-    .string "TANOBY RUINS AHEAD$"
+.string "7-SCHATZSCHLUCHT\n"
+    .string "TANIBO-RUINEN VORAUS$"
 
 
 

@@ -76,8 +76,8 @@ msgbox FiveIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 FiveIslandDocumento_Text_100:
-    .string "FIVE ISLAND\n"
-    .string "Chrono Island: Where Time Goes$"
+    .string "EILAND FÜNF\n"
+    .string "Chrono Insel: Wo die Zeit rennt$"
 
 
 

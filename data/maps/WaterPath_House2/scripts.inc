@@ -9,8 +9,7 @@ release
 end
 
 WaterPath_House2_Text_1:
-    .string "My height is 67.0 inches on the\n"
-    .string "button.\p"
-    .string "I know it is this precisely because\n"
-    .string "my neighbor measured me.$"
+	.string "Ich bin genau 169 cm groß. Ich weiß das\n"
+	.string "so genau, weil mich mein Nachbar\l"
+	.string "gemessen hat.$"
 	

@@ -9,8 +9,8 @@ release
 end
 
 FourIsland_House1_Text_1:
-.string "There! Boing!\n"
-    .string "You're awfully heavy!$"
+.string "Hier! Boing!\n"
+    .string "Du bist schwer!$"
 
 
 

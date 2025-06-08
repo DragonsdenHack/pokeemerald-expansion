@@ -50,8 +50,8 @@ release
 end
 
 TwoIsland_Text_4:
-.string "The discerning TRAINER knows to\n"
-    .string "buy rare items here!$"
+	.string "Ein erfahrener TRAINER weiß, wo er hier\n"
+	.string "seine seltenen Items zu kaufen hat!$"
 
 
 TwoIsland5::
@@ -68,8 +68,8 @@ msgbox TwoIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_100:
-.string "DANGER! FAST CURRENT!\n"
-    .string "Fishing and surfing prohibited!$"
+.string "ACHTUNG! STARKE STRÖMUNG!\n"
+    .string "Angeln und Surfen verboten!$"
 
 
 
@@ -78,8 +78,8 @@ msgbox TwoIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_101:
-.string "TWO ISLAND\n"
-    .string "Boon Island for Two$"
+.string "EILAND ZWEI\n"
+    .string "Ein Paradies für Zwei$"
 
 
 
@@ -88,8 +88,8 @@ msgbox TwoIslandDocumento_Text_102, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_102:
-.string "Skip & Chomp!\n"
-    .string "Joyful GAME CORNER$"
+.string "Entertainment & Snacks!\n"
+    .string "Action pur in der SPIELHALLE$"
 
 TwoIsland_Corriente_Arriba::
 compare VAR_UNUSED_0x40F7, 108

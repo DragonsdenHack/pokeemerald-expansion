@@ -14,9 +14,10 @@ release
 end
 
 ThreeIsland_Mart_Text_2:
-.string "Is it true?\p"
-    .string "CELADON DEPT. STORE is several\n"
-    .string "times bigger than this shop?$"
+.string "Stimmt das?\p"
+	.string "Das EINKAUFSZENTRUM in PRISMANIA CITY\n"
+	.string "ist sehr viel größer als dieses\l"
+	.string "Geschäft?$"
 
 
 
@@ -28,9 +29,9 @@ release
 end
 
 ThreeIsland_Mart_Text_3:
-.string "Those BIKERS were about to trash\n"
-    .string "this POKÉMON MART.\p"
-    .string "Am I glad they decided to leave!$"
+	.string "Diese BIKER wollten den POKéMON-\n"
+	.string "SUPERMARKT in Schutt und Asche legen.\p"
+	.string "Ich bin froh, dass sie weg sind!$"
 
 
 
@@ -42,8 +43,8 @@ release
 end
 
 ThreeIsland_Mart_Text_4:
-.string "I sometimes buy medicine here.\p"
-    .string "But a lot of people heal POKÉMON\n"
-    .string "with BERRIES from BERRY FOREST.\p"
-    .string "After all, BERRIES are free and\n"
-    .string "they never run out.$"
+	.string "Ich kaufe hier manchmal Medizin. Viele\n"
+	.string "Leute heilen POKéMON mit BEEREN aus\l"
+	.string "dem BEERENFORST. Schließlich sind\l"
+	.string "BEEREN umsonst und ihr Vorrat ist\l"
+	.string "unerschöpflich!$"

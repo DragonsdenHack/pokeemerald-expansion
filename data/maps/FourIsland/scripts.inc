@@ -27,13 +27,9 @@ release
 end
 
 FourIsland_Text_2:
-.string "LORELEI has gone back.\p"
-    .string "The LAPRAS she has, I imagine it\n"
-    .string "to be the one she met as a child.\p"
-    .string "I believe it was in ICEFALL CAVE\n"
-    .string "that she caught it.\p"
-    .string "Perhaps that POKÉMON has been with\n"
-    .string "her ever since.$"
+.string "LORELEI ist zurückgekehrt.\p"
+    .string "War das Leben in der Stadt\n"
+    .string "etwa zu stressig?$"
 
 
 FourIsland3::

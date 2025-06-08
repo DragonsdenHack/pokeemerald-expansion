@@ -16,8 +16,8 @@ msgbox BerryForestDocumento_Text_100, MSGBOX_SIGN
 end
 
 BerryForestDocumento_Text_100:
-   .string "Beware of wild, BERRY-loving\n"
-    .string "POKÉMON!$"
+   .string "Nimm dich vor wilden POKéMON,\n"
+    .string "die BEEREN lieben, in Acht!$"
 
 
 
@@ -26,9 +26,9 @@ msgbox BerryForestDocumento_Text_101, MSGBOX_SIGN
 end
 
 BerryForestDocumento_Text_101:
-    .string "Welcome to the BERRY FOREST\p"
-    .string "Be friendly and share BERRIES with\n"
-    .string "others and POKÉMON.$"
+    .string "Willkommen im BEERENFORST!\p"
+    .string "Sei freundlich und teile die BEEREN\n"
+    .string "mit Anderen und POKéMON.$"
 
 
 BerryForest_Evento_Hypno::

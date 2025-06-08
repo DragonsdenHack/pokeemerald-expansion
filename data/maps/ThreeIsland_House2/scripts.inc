@@ -9,12 +9,11 @@ release
 end
 
 ThreeIsland_House2_Text_1:
-.string "Urrrrrrrrgggghhhh…\n"
-    .string "Kwaaaaah!\p"
-    .string "…It's useless! I can't make this\n"
-    .string "spoon bend with my mind.\p"
-    .string "Maybe I really don't have any\n"
-    .string "psychic powers.$"
+.string "Urgh!\n"
+    .string "Kiah!\p"
+	.string "… es ist unnütz! Ich kann diesen Löffel\n"
+	.string "nicht mit meiner Willenskraft verbiegen.\p"
+	.string "Vielleicht habe ich keine Psychokräfte!$"
 
 
 
@@ -26,10 +25,10 @@ release
 end
 
 ThreeIsland_House2_Text_2:
-.string "You know about a girl GYM LEADER\n"
-    .string "in SAFFRON CITY?\p"
-    .string "She uses PSYCHIC-type POKÉMON,\n"
-    .string "right?\p"
-    .string "I admire her, I really do.\p"
-    .string "I've heard that she's one cool\n"
-    .string "customer and beautiful, too.$"
+	.string "Kennst du ein Mädchen, das in\n"
+	.string "SAFFRONIA CITY ARENALEITERIN ist?\p"
+	.string "Sie setzt POKéMON der Element- klasse\n"
+	.string "PSYCHO ein, nicht wahr? Ich bewundere\l"
+	.string "sie wirklich! Ich hörte, dass sie ein\l"
+	.string "cooles Mädchen ist und sie soll schön\l"
+	.string "sein!$"

@@ -14,10 +14,9 @@ release
 end
 
 SixIsland_Text_1:
-.string "Keep going this way and you'll get\n"
-    .string "to the WATER PATH.\p"
-    .string "Stay on that and you'll get to\n"
-    .string "the RUIN VALLEY.$"
+	.string "Laufe hier weiter und du erreichst den\n"
+	.string "WASSERWEG. Wenn du noch weiter läufst,\l"
+	.string "erreichst du das RUINENTAL.$"
 
 
 SixIsland2::
@@ -28,8 +27,8 @@ release
 end
 
 SixIsland_Text_2:
-.string "When you're this far away from the\n"
-    .string "city, the sky at night is fantastic.$"
+	.string "Wenn man so weit weg von der Stadt ist,\n"
+	.string "sieht der Himmel fantastisch aus.$"
 
 
 
@@ -38,5 +37,5 @@ msgbox SixIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 SixIslandDocumento_Text_100:
-.string "SIX ISLAND\n"
-    .string "Fortune Island of Aged Wisdom$"
+.string "EILAND SECHS\n"
+    .string "Schicksalsinsel der Alten Weisheit$"

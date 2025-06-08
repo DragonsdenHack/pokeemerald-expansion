@@ -7,4 +7,5 @@ msgbox ThreeIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 ThreeIslandDocumento_Text_100:
-	.string "There are peculiar rocks and gemstones.$"
+	.string "Seltene Edelsteine werden hier\n"
+	.string "ausgestellt!$"
