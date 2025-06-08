@@ -5461,17 +5461,16 @@ Route25_Text_Chica2PostBattle:
 
 
 Route11_Text_AncianoIntro:
-    .string "Win, lose, or draw!$"
+    .string "Versuche dein Glück gegen mich!$"
 
 
 Route11_Text_AncianoDefeated:
-    .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "Das Glück hat mich verlassen!$"
 
 
 Route11_Text_AncianoPostBattle:
-    .string "POKÉMON is life!\n"
-    .string "And to live is to play games!$"
+    .string "Das ganze Leben ist\n"
+    .string "ein Glücksspiel!$"
 
 
 Route11_Text_ChicoIntro:
@@ -5488,18 +5487,17 @@ Route11_Text_ChicoPostBattle:
 
 
 Route11_Text_Chico2Intro:
-    .string "I raised my POKÉMON carefully.\n"
-    .string "They should be ready by now!$"
+    .string "Meine POKéMON müssten\n"
+    .string "bereit sein!$"
 
 
 Route11_Text_Chico2Defeated:
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "Das war schwach!$"
 
 
 Route11_Text_Chico2PostBattle:
-    .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "Ich muss ein paar\n"
+    .string "stärkere fangen!$"
 
 
 Route11_Text_Chico3Intro:
@@ -5519,31 +5517,32 @@ Route11_Text_Chico3PostBattle:
 
 
 Route11_Text_MecanicoIntro:
-	.string "Ich hoffe, du respektierst die\n"
-	.string "öffentliche Beleuchtung, ROCKET!$"
+	.string "Nimm dich vor Hochspannung\n"
+	.string "in Acht!$"
 
 
 Route11_Text_MecanicoDefeated:
-    .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "Au! Der Funke ist\n"
+    .string "übergesprungen!$"
 
 
 Route11_Text_MecanicoPostBattle:
-    .string "Well, better get back to work.$"
+    .string "Ich mache mich besser\n"
+	.string "wieder an die Arbeit.$"
 
 
 Route11_Text_Anciano2Intro:
-    .string "Competition!\n"
-    .string "I can't get enough!$"
+    .string "Wettkämpfe!\n"
+    .string "Ich kann ihnen nicht widerstehen!$"
 
 
 Route11_Text_Anciano2Defeated:
-    .string "I had a chance!$"
+    .string "Immerhin hatte ich eine Chance!$"
 
 
 Route11_Text_Anciano2PostBattle:
-    .string "You can't be a coward in the world\n"
-    .string "of POKÉMON!$"
+    .string "Feiglinge haben in der Welt der\n"
+    .string "POKéMON keine Chance!$"
 
 
 Route11_Text_Mecanico2Intro:
@@ -5561,45 +5560,46 @@ Route11_Text_Mecanico2PostBattle:
 
 
 Route11_Text_Anciano3Intro:
-    .string "I have never won before…$"
+    .string "Ich habe noch nie gewonnen…$"
 
 
 Route11_Text_Anciano3Defeated:
-    .string "I saw this coming…$"
+    .string "Das habe ich kommen sehen!$"
 
 
 Route11_Text_Anciano3PostBattle:
-    .string "I was unlucky, as always.$"
+    .string "Das war nichts als Glück.\n"
+    .string "Purer Zufall!$"
 
 
 Route11_Text_Chico4Intro:
-    .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "In meiner Klasse bin\n"
+    .string "ich der Beste!$"
 
 
 Route11_Text_Chico4Defeated:
-    .string "Darn!\n"
-    .string "My POKÉMON need to be stronger!$"
+    .string "Ich muss meine POKéMON\n"
+    .string "mehr trainieren!$"
 
 
 Route11_Text_Chico4PostBattle:
-    .string "There's a fat POKÉMON that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
-    .string "catch it.$"
+	.string "Aus den Bergen steigt manchmal ein\n"
+	.string "dickes POKéMON herab. Es ist sehr\l"
+	.string "stark! Versuche es zu fangen!$"
 
 
 Route11_Text_Anciano4Intro:
-    .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "Haha! Bisher habe ich\n"
+    .string "noch nie verloren!$"
 
 
 Route11_Text_Anciano4Defeated:
-    .string "My first loss!$"
+    .string "Es gibt immer ein erstes Mal…$"
 
 
 Route11_Text_Anciano4PostBattle:
-    .string "You were just lucky, that's all.$"
+    .string "Das war purer Zufall!\n"
+    .string "Nichts als Glück!$"
 
 
 SsAnne6F_Text_MarineroIntro:
@@ -5856,19 +5856,19 @@ Route9_Text_ChicaPostBattle:
 
 
 Route9_Text_HikerIntro:
-    .string "Bwahaha!\n"
-    .string "Great! I was bored, eh!$"
+    .string "Endlich kommt jemand!\n"
+    .string "Mir war richtig langweilig!$"
 
 
 Route9_Text_HikerDefeated:
-    .string "Keep it coming, eh!\p"
-    .string "Oh wait.\n"
-    .string "I'm out of POKÉMON!$"
+    .string "War das etwa schon alles?\p"
+    .string "Oh! Ich habe kein\n"
+    .string "einsatzbereites POKéMON übrig!$"
 
 
 Route9_Text_HikerPostBattle:
-    .string "You sure had guts standing up to\n"
-    .string "me there, eh?$"
+    .string "Deine Knie haben ganz schön\n"
+    .string "geschlackert, oder?$"
 
 
 Route9_Text_ChicoIntro:
@@ -5888,31 +5888,32 @@ Route9_Text_ChicoPostBattle:
 
 
 Route9_Text_CazabichosIntro:
-    .string "I got up early every day to raise\n"
-    .string "my POKÉMON from cocoons!$"
+	.string "Ich stehe jeden Tag früh auf, um meine\n"
+	.string "POKéMON in ihren Kokons zu pflegen!$"
 
 
 Route9_Text_CazabichosDefeated:
-    .string "WHAT?\p"
-    .string "What a total waste of time!$"
+    .string "WAS?\p"
+    .string "Das war die reinste Zeitverschwendung!$"
 
 
 Route9_Text_CazabichosPostBattle:
-    .string "I have to collect more than bugs\n"
-    .string "to get stronger…$"
+    .string "Ich sollte nicht nur Käfer sammeln,\n"
+    .string "um stärker zu werden…$"
 
 
 Route9_Text_Chico2Intro:
-    .string "I'm taking the ROCK TUNNEL to\n"
-    .string "go to LAVENDER…$"
+    .string "Ich gehe durch den FELSTUNNEL\n"
+    .string "nach LAVANDIA…$"
 
 
 Route9_Text_Chico2Defeated:
-    .string "Can't measure up…$"
+    .string "Mit dir habe ich mich übernommen!$"
 
 
 Route9_Text_Chico2PostBattle:
-    .string "Are you off to ROCK TUNNEL, too?$"
+	.string "Möchtest du auch den FELSTUNNEL\n"
+	.string "benutzen?$"
 
 
 Route9_Text_Cazabichos2Intro:
@@ -5965,18 +5966,18 @@ Route9_Text_Chica2PostBattle:
 
 
 Route9_Text_Hiker3Intro:
-    .string "Hahahaha!\n"
-    .string "Bring it on!$"
+    .string "Ha!\n"
+    .string "Wie wäre es mit einem Kampf?$"
 
 
 Route9_Text_Hiker3Defeated:
-    .string "Hahahaha!\n"
-    .string "You beat me fair!$"
+    .string "Haha!\n"
+    .string "Ein fairer Kampf!$"
 
 
 Route9_Text_Hiker3PostBattle:
-    .string "Hahahaha!\n"
-    .string "Us hearty guys always laugh!$"
+    .string "Haha!\n"
+    .string "Wir Scherzbolde lachen ständig!$"
 
 
 Route10_Text_ChicaIntro:
@@ -6009,17 +6010,18 @@ Route10_Text_HikerPostBattle:
 
 
 Route8_Text_NecioIntro:
-    .string "You look good at POKÉMON, but how\n"
-    .string "is your chemistry grade?$"
+    .string "Du weißt viel über POKéMON!\n"
+    .string "Doch wie sieht es mit Chemie aus?$"
 
 
 Route8_Text_NecioDefeated:
-    .string "Ow!\n"
-    .string "Meltdown!$"
+    .string "Au!\n"
+    .string "Eine Kernschmelze!$"
 
 
 Route8_Text_NecioPostBattle:
-    .string "I am better at school than this!$"
+    .string "Meine schulischen Leistungen\n"
+    .string "sind besser!$"
 
 
 Route8_Text_BikerIntro:
@@ -6052,17 +6054,17 @@ Route8_Text_Biker2PostBattle:
 
 
 Route8_Text_AncianoIntro:
-    .string "All right!\n"
-    .string "Let's play a game!$"
+    .string "O.K.!\n"
+    .string "Die Spiele mögen beginnen!$"
 
 
 Route8_Text_AncianoDefeated:
-    .string "Drat!\n"
-    .string "Came up short!$"
+    .string "Knapp vorbei ist\n"
+    .string "auch daneben!$"
 
 
 Route8_Text_AncianoPostBattle:
-    .string "Things didn't work today.$"
+    .string "Man kann nicht immer gewinnen!$"
 
 
 Route8_Text_ChicaIntro:
@@ -6097,76 +6099,80 @@ Route8_Text_Necio2PostBattle:
 
 
 Route8_Text_Chica2Intro:
-    .string "I like NIDORAN, so I collect them!$"
+.string "Ich mag alle NIDORAN sehr gerne!\n"
+    .string "Deshalb sammle ich sie!$"
 
 
 Route8_Text_Chica2Defeated:
-    .string "Why?\n"
-    .string "Why??$"
+    .string "Warum?\n"
+    .string "Warum nur?$"
 
 
 Route8_Text_Chica2PostBattle:
-    .string "When POKÉMON grow up, they get\n"
-    .string "ugly! They shouldn't evolve.$"
+	.string "Wenn POKéMON sich entwickeln, werden\n"
+	.string "sie groß und hässlich!\p"
+	.string "Sie sollten klein und goldig bleiben!$"
 
 
 Route8_Text_Chica3Intro:
-    .string "MEOWTH is so cute, meow, meow,\n"
-    .string "meow!$"
+    .string "MAUZI ist so süß!\n"
+    .string "Miau, miauz!$"
 
 
 Route8_Text_Chica3Defeated:
-	.string "Meeeeyow!$"
+	.string "Miauz!$"
 
 
 Route8_Text_Chica3PostBattle:
-    .string "I think PIDGEY and RATTATA are\n"
-    .string "cute, too!$"
+    .string "Aber TAUBSI und RATTFRATZ\n"
+    .string "sind auch niedlich!$"
 
 
 Route8_Text_Necio3Intro:
-    .string "You should be informed.\n"
-    .string "You need strategy to win at this!$"
+    .string "Um zu gewinnen, benötigst du\n"
+    .string "eine gute Strategie!$"
 
 
 Route8_Text_Necio3Defeated:
-    .string "It's not logical!$"
+.string "Ich habe verloren!\n"
+    .string "Das ist nicht logisch!$"
 
 
 
 Route8_Text_Necio3PostBattle:
-    .string "Go with GRIMER first…and…\n"
-    .string "…and…then…$"
+    .string "SLEIMA kämpft als Erstes… und…\n"
+    .string "und… dann…$"
 
 
 Route8_Text_Anciano2Intro:
-    .string "I'm a rambling, gaming dude!$"
+    .string "Ich bin ein weit herumgekommener\n"
+    .string "Glücksspieler!$"
 
 
 Route8_Text_Anciano2Defeated:
-    .string "Missed the big chance!$"
+    .string "Den Jackpot habe ich noch nicht\n"
+	.string "geknackt…$"
 
 
 Route8_Text_Anciano2PostBattle:
-    .string "Playing games and POKÉMON are like\n"
-    .string "eating peanuts! I just can't stop!$"
+    .string "Glücksspiele und POKéMON haben\n"
+	.string "eines gemeinsam: Man kann nicht\l"
+    .string "damit aufhören!$"
 
 
 Route8_Text_Chica4Intro:
-    .string "What's a cute, round, and fluffy\n"
-    .string "POKÉMON?$"
+    .string "Welches POKéMON ist süß,\n"
+    .string "pummelig und kuschlig?$"
 
 
 Route8_Text_Chica4Defeated:
-    .string "Stop!\p"
-    .string "Don't be so mean to my CLEFAIRY!$"
+    .string "Hör auf!\p"
+    .string "Sei nicht so gemein zu PIEPI!$"
 
 
 Route8_Text_Chica4PostBattle:
-    .string "I read that CLEFAIRY evolves when\n"
-    .string "it's exposed to a MOON STONE.\p"
-    .string "I read that in a POKÉMON JOURNAL.\n"
-    .string "I wonder if it's true?$"
+	.string "Ich habe gehört, PIEPI, entwickelt\n"
+	.string "sich, wenn man ihm einen MONDSTEIN gibt.$"
 
 
 Route10_Text_NecioIntro:
@@ -6183,32 +6189,31 @@ Route10_Text_NecioPostBattle:
 	.string "seltenen POKéMON!$"
 
 Route10_Text_Hiker2Intro:
-    .string "Ah!\n"
-    .string "This mountain air is delicious!$"
+    .string "Ahh! Die Bergluft ist so\n"
+    .string "wunderbar erfrischend!$"
 
 
 Route10_Text_Hiker2Defeated:
-    .string "That cleared my head!$"
+    .string "Ich kann wieder klar denken!$"
 
 
 Route10_Text_Hiker2PostBattle:
-    .string "I feel bloated on mountain air!$"
+    .string "Ich habe von Bergluft die\n"
+    .string "Nase gestrichen voll!$"
 
 
 Route10_Text_Hiker3Intro:
-    .string "Ha-hahah-ah-ha!$"
+    .string "Ha-ha-ha-ha! $"
 
 
 Route10_Text_Hiker3Defeated:
-    .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "Ha-ha!\n"
+    .string "Haha-ha-tschi!$"
 
 
 Route10_Text_Hiker3PostBattle:
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "Schnief…\n"
+    .string "Diese verdammte Erklärung!$"
 
 
 Route10_Text_Chica2Intro:
@@ -6232,19 +6237,20 @@ Route10_Text_Chica2PostBattle:
 
 
 RockTunnel1F_Text_HikerIntro:
-    .string "Hmm.\n"
-    .string "Maybe I'm lost in here…$"
+    .string "Könnte es sein, dass ich mich\n"
+    .string "verlaufen habe?$"
 
 
 RockTunnel1F_Text_HikerDefeated:
-    .string "Ease up!\n"
-    .string "What am I doing?\l"
-    .string "Which way is out?$"
+    .string "Sachte!\n"
+    .string "Wo bin ich?\l"
+    .string "Wo geht es nach draußen?$"
 
 
 RockTunnel1F_Text_HikerPostBattle:
-    .string "That sleeping POKÉMON on ROUTE 12\n"
-    .string "forced me to take this detour.$"
+    .string "Diesen Umweg muss ich nur wegen\n"
+	.string "des auf Route 12 schlafenden\l"
+    .string "POKéMON machen.$"
 
 
 RockTunnel1F_Text_Hiker2Intro:
@@ -6265,16 +6271,17 @@ RockTunnel1F_Text_Hiker2PostBattle:
 
 
 RockTunnel1F_Text_Hiker3Intro:
-    .string "Outsiders like you need to show me\n"
-    .string "some respect!$"
+    .string "Ein Möchtegern wie du sollte etwas\n"
+    .string "mehr Respekt zeigen!$"
 
 
 RockTunnel1F_Text_Hiker3Defeated:
-    .string "I give!$"
+    .string "Ich gebe auf!$"
 
 
 RockTunnel1F_Text_Hiker3PostBattle:
-    .string "You're talented enough to hike!$"
+    .string "Du hast Talent!\n"
+	.string "Du kannst kein Möchtegern sein!$"
 
 
 RockTunnel1F_Text_ChicaIntro:
@@ -6295,16 +6302,17 @@ RockTunnel1F_Text_ChicaPostBattle:
 
 
 RockTunnel1F_Text_NecioIntro:
-    .string "POKÉMON fight!\n"
-    .string "Ready, go!$"
+    .string "Meine POKéMON wollen kämpfen!\n"
+    .string "Los!$"
 
 
 RockTunnel1F_Text_NecioDefeated:
-    .string "Game over!$"
+    .string "GAME OVER!$"
 
 
 RockTunnel1F_Text_NecioPostBattle:
-    .string "Oh well, I'll get a ZUBAT as I go!$"
+	.string "Unterwegs werde ich mir ein ZUBAT\n"
+    .string "fangen!$"
 
 
 
@@ -6322,17 +6330,18 @@ RockTunnel1F_Text_Chica2PostBattle:
 
 
 RockTunnel1F_Text_Chica3Intro:
-    .string "Eek!\p"
-    .string "Don't try anything funny in the\n"
-    .string "dark!$"
+    .string "Huch!\p"
+    .string "Komm mir im Dunkeln bloß nicht\n"
+    .string "zu nahe!$"
 
 
 RockTunnel1F_Text_Chica3Defeated:
-    .string "It was too dark…$"
+    .string "Es war zu dunkel!$"
 
 
 RockTunnel1F_Text_Chica3PostBattle:
-    .string "I saw a MACHOP in this tunnel.$"
+    .string "Ich habe hier im Tunnel ein\n"
+    .string "MASCHOCK gesehen!$"
 
 
 RockTunnel2F_Text_NecioIntro:
@@ -6356,49 +6365,48 @@ RockTunnel2F_Text_NecioPostBattle:
 
 
 RockTunnel2F_Text_HikerIntro:
-    .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "Haha!\n"
+    .string "Kannst du mich besiegen?$"
 
 
 RockTunnel2F_Text_HikerDefeated:
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "Hups!\n"
+    .string "Das war zu viel des Guten!$"
 
 
 RockTunnel2F_Text_HikerPostBattle:
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "Ich trainiere lieber meine Muskeln\n"
+    .string "als mein Gehirn!!!$"
 
 
 RockTunnel2F_Text_ChicaIntro:
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "Weißt du wie man es vermeidet,\n"
+    .string "sich im Gebirge zu verlaufen?\p"
+    .string "Wanderer knicken Zweige, um\n"
+    .string "ihren Weg zu markieren.$"
 
 
 RockTunnel2F_Text_ChicaDefeated:
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "Ich habe mein Bestes gegeben!$"
 
 
 RockTunnel2F_Text_ChicaPostBattle:
-    .string "I want to go home!$"
+    .string "Ich will nach Hause!$"
 
 
 RockTunnel2F_Text_Chica2Intro:
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "Ich komme nicht oft hierher.\n"
+    .string "Aber ich will kämpfen!$"
 
 
 RockTunnel2F_Text_Chica2Defeated:
     .string "Oh!\n"
-    .string "I lost!$"
+    .string "Ich habe verloren!$"
 
 
 RockTunnel2F_Text_Chica2PostBattle:
-    .string "I like tiny POKÉMON.\n"
-    .string "Big ones are too scary!$"
+    .string "Ich mag nur kleine POKéMON, die\n"
+    .string "großen jagen mir Angst ein!$"
 
 
 RockTunnel2F_Text_Necio2Intro:
@@ -6418,46 +6426,45 @@ RockTunnel2F_Text_Necio2PostBattle:
 
 
 RockTunnel2F_Text_Necio3Intro:
-    .string "I draw illustrations of POKÉMON\n"
-    .string "when I'm home.$"
+    .string "Zuhause zeichnen ich\n"
+    .string "gerne POKéMON.$"
 
 
 RockTunnel2F_Text_Necio3Defeated:
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "Ich bin erschöpft!$"
 
 
 RockTunnel2F_Text_Necio3PostBattle:
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "Ich liebe die Kunst,\n"
+    .string "nicht den Kampf!$"
 
 
 RockTunnel2F_Text_Hiker2Intro:
-    .string "My POKÉMON techniques will leave\n"
-    .string "you crying!$"
+    .string "Mein POKéMON wird dich das\n"
+    .string "fürchten lehren!$"
 
 
 RockTunnel2F_Text_Hiker2Defeated:
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "Ich gebe auf!\n"
+    .string "Du bist besser!$"
 
 
 RockTunnel2F_Text_Hiker2PostBattle:
-    .string "In mountains, you'll often find\n"
-    .string "ROCK-type POKÉMON.$"
+    .string "In den Bergen findet man viele\n"
+    .string "STEIN-POKéMON.$"
 
 
 RockTunnel2F_Text_Hiker3Intro:
-    .string "Hit me with your best shot!$"
+    .string "Zeig mir, was du drauf hast!$"
 
 
 RockTunnel2F_Text_Hiker3Defeated:
-    .string "Fired away!$"
+    .string "Du bist gut!$"
 
 
 RockTunnel2F_Text_Hiker3PostBattle:
-    .string "I'll raise my POKÉMON to beat\n"
-    .string "yours, kid.$"
+    .string "Ich werde mit meinen POKéMON\n"
+    .string "trainieren!$"
 
 
 PokemonTower3F_Text_ChannelerIntro:
@@ -6475,18 +6482,18 @@ PokemonTower3F_Text_ChannelerPostBattle:
 
 
 PokemonTower3F_Text_Channeler2Intro:
-    .string "Kekeke…\n"
-    .string "Kwaaah!$"
+    .string "Buhuhuhu…\n"
+    .string "Hui… buuh!$"
 
 
 PokemonTower3F_Text_Channeler2Defeated:
     .string "Hmm?\n"
-    .string "What am I doing?$"
+    .string "Was mache ich hier?$"
 
 
 PokemonTower3F_Text_Channeler2PostBattle:
-    .string "Sorry!\n"
-    .string "I was possessed!$"
+    .string "Tut mir Leid!\n"
+    .string "Ich war besessen!$"
 
 
 PokemonTower3F_Text_Channeler3Intro:
@@ -6528,18 +6535,18 @@ PokemonTower4F_Text_Channeler2PostBattle:
 
 
 PokemonTower4F_Text_Channeler3Intro:
-    .string "Ghost! No!\n"
-    .string "Kwaaah!$"
+    .string "Ein GEIST! Nein!\n"
+    .string "Ahhhhh!$"
 
 
 
 PokemonTower4F_Text_Channeler3Defeated:
-    .string "Where is the ghost?$"
+    .string "Wohin ist der GEIST gegangen?$"
 
 
 PokemonTower4F_Text_Channeler3PostBattle:
-    .string "Rocket! No!\n"
-    .string "Kwaaah!$"
+    .string "Ein ROCKET! Nein!\n"
+    .string "Ahhhhh!$"
 
 
 
@@ -6556,18 +6563,18 @@ PokemonTower5F_Text_ChannelerPostBattle:
 
 
 PokemonTower5F_Text_Channeler2Intro:
-    .string "Urgah…\n"
-    .string "Urff…$"
+    .string "Buuh…\n"
+    .string "Buhuhu…$"
 
 
 
 PokemonTower5F_Text_Channeler2Defeated:
-    .string "Whoo!$"
+    .string "Das war knapp!$"
 
 
 PokemonTower5F_Text_Channeler2PostBattle:
-    .string "I fell to evil spirits despite my\n"
-    .string "training in the mountains…$"
+    .string "Trotz meiner Erfahrung bin ich\n"
+    .string "dem Bösen verfallen!$"
 
 
 PokemonTower5F_Text_Channeler3Intro:
@@ -6716,17 +6723,17 @@ RocketHideout5F_Text_Rocket4PostBattle:
 
 
 Route3_Text_ChicaIntro:
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Huch! Sollen das etwa\n"
+    .string "Annäherungsversuche sein?$"
 
 
 Route3_Text_ChicaDefeated:
-    .string "That's it?$"
+    .string "Bleib mir fern!$"
 
 
 Route3_Text_ChicaPostBattle:
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "Die ROUTE 4 liegt am Fuße\n"
+    .string "des MONDBERGES.$"
 
 
 Route3_Text_CazabichosIntro:
@@ -6930,18 +6937,18 @@ ViridianForest_Cazabichos5PostBattle:
 
 
 Route12_Text_PescadorIntro:
-    .string "Yeah!\n"
-    .string "I got a bite here!$"
+    .string "Cool!\n"
+    .string "Mir ist etwas ins Netz gegangen!$"
 
 
 Route12_Text_PescadorDefeated:
-    .string "Tch!\n"
-    .string "Just a small fry…$"
+    .string "Mist!\n"
+    .string "Bloß ein kleiner Fisch!$"
 
 
 Route12_PescadorPostBattle:
-    .string "Hang on!\n"
-    .string "My line's snagged!$"
+    .string "Irgendwann werde ich den\n"
+    .string "großen Fang machen!$"
 
 
 Route12_Text_Pescador2Intro:
@@ -7078,17 +7085,18 @@ Route13_OrnitologoPostBattle:
 
 
 Route13_Text_Chica2Intro:
-    .string "I'm told I'm good for a kid.$"
+    .string "Man sagt, für ein Kind\n"
+    .string "würde ich gut kämpfen!$"
 
 
 Route13_Text_Chica2Defeated:
-    .string "Ohh!\n"
-    .string "I lost!$"
+    .string "Oh!\n"
+    .string "Ich hab verloren!$"
 
 
 Route13_Chica2PostBattle:
-    .string "I want to become a good TRAINER.\n"
-    .string "I'll train hard, just watch.$"
+    .string "Ich werde fleißig üben, damit\n"
+    .string "ich ein guter TRAINER werde!$"
 
 
 Route13_Text_ModeloIntro:
@@ -7153,17 +7161,17 @@ Route13_Chica4PostBattle:
 
 
 Route13_Text_Ornitologo2Intro:
-    .string "I'm not going to lose.\n"
-    .string "Not when the wind's blowing my way!$"
+    .string "Bin unterwegs und habe\n"
+    .string "Rückenwind…$"
 
 
 Route13_Text_Ornitologo2Defeated:
-    .string "The wind turned!$"
+    .string "Der Wind dreht sich!$"
 
 
 Route13_Ornitologo2PostBattle:
-    .string "I'm beat.\n"
-    .string "I guess I'll FLY home.$"
+    .string "Ich bin besiegt!\n"
+    .string "Ich werde nach Hause fliegen!$"
 
 
 Route13_Text_MotoristaIntro:
@@ -7181,17 +7189,17 @@ Route13_MotoristaPostBattle:
 
 
 Route13_Text_Ornitologo3Intro:
-    .string "I always go with bird POKÉMON.\n"
-    .string "I've dedicated myself to them.$"
+    .string "Meine Vogel-POKéMON\n"
+    .string "begleiten mich immer!$"
 
 
 Route13_Text_Ornitologo3Defeated:
-    .string "Out of power!$"
+    .string "Die Luft ist raus!$"
 
 
 Route13_Ornitologo3PostBattle:
-    .string "I wish I could fly like PIDGEY and\n"
-    .string "PIDGEOTTO…$"
+    .string "Ach, wenn ich doch wie TAUBSI\n"
+    .string "und TAUBOGA fliegen könnte…$"
 
 
 Route14_Text_OrnitologoIntro:
@@ -7210,17 +7218,17 @@ Route14_OrnitologoPostBattle:
 
 
 Route14_Text_Ornitologo2Intro:
-    .string "My bird POKÉMON should be ready\n"
-    .string "for battle.$"
+    .string "Meine Vogel-POKéMON sind gut\n"
+    .string "auf Kämpfe vorbereitet!$"
 
 
 Route14_Text_Ornitologo2Defeated:
-    .string "Not ready yet!$"
+    .string "Sie waren nicht stark genug…$"
 
 
 Route14_Ornitologo2PostBattle:
-    .string "My bird POKÉMON need to learn\n"
-    .string "better moves.$"
+    .string "Sie müssen stärkere\n"
+    .string "Attacken lernen!$"
 
 
 Route14_Text_Ornitologo3Intro:
@@ -7270,31 +7278,33 @@ Route14_Ornitologo5PostBattle:
 
 
 Route14_Text_Ornitologo6Intro:
-	.string "Also, GOLBAT ist dein Lieblings\n"
-	.string "Flug-POKéMON. Nicht schlecht.$"
+	.string "Hast du die Legende von den\n"
+	.string "Illusionen mit Flügeln gehört?$"
 
 
 Route14_Text_Ornitologo6Defeated:
-    .string "I knew it!$"
+    .string "Warum hab ich verloren?$"
 
 
 Route14_Ornitologo6PostBattle:
-    .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+	.string "Nun, die Illusionen mit Flügeln sind die\n"
+	.string "legendären Vogel-POKéMON. Es gibt drei:\l"
+	.string "ARKTOS, ZAPDOS und LAVADOS.$"
 
 
 Route14_Text_MotoristaIntro:
-    .string "I need to burn some time.\n"
-    .string "Shut up and battle.$"
+    .string "Sehr gut!\n"
+    .string "Ich brauche einen Zeitvertreib!$"
 
 
 Route14_Text_MotoristaDefeated:
-    .string "What?\n"
-    .string "You!?$"
+    .string "Du hast mich besiegt?\n"
+    .string "Oh Mann!$"
 
 
 Route14_MotoristaPostBattle:
-    .string "Raising POKÉMON is a drag, man.$"
+    .string "Es ist ganz schön mühselig,\n"
+    .string "POKéMON zu trainieren!$"
 
 
 Route14_Text_Motorista2Intro:
@@ -7459,15 +7469,17 @@ Route15_Ornitologo2PostBattle:
 
 
 Route15_Text_Chica2Intro:
-    .string "Want to play with my POKÉMON?$"
+    .string "Möchtest du mit meinen\n"
+    .string "POKéMON spielen?$"
 
 
 Route15_Text_Chica2Defeated:
-    .string "I was too impatient!$"
+    .string "Ich war zu ungestüm!$"
 
 
 Route15_Chica2PostBattle:
-    .string "I'll go train with weaker people.$"
+    .string "Ich muss ein wenig mit\n"
+    .string "schwächeren TRAINERn üben…$"
 
 
 Route15_Text_Chica3Intro:
@@ -7618,16 +7630,17 @@ Route17_Motorista5PostBattle:
 
 
 Route17_Text_Motorista6Intro:
-    .string "Let VOLTORB electrify you!$"
+    .string "VOLTOBAL wird dich unter\n"
+	.string "Strom setzen!$"
 
 
 Route17_Text_Motorista6Defeated:
-    .string "Grounded out!$"
+    .string "Du hast mich geerdet!$"
 
 
 Route17_Motorista6PostBattle:
-    .string "I got my VOLTORB at the abandoned\n"
-    .string "POWER PLANT.$"
+    .string "Ich habe VOLTOBAL im verlassenen\n"
+    .string "KRAFTWERK gefangen.$"
 
 
 Route17_Text_Motorista7Intro:
@@ -8776,102 +8789,102 @@ Route20_Chica2PostBattle:
 
 
 PokemonMansion1F_Text_ChicoIntro:
-    .string "W-w-waah! You startled me!\n"
-    .string "I thought you were a ghost.$"
+    .string "Oh! Du hast mich überrascht!\n"
+    .string "Ich dachte, du wärst ein Geist!$"
 
 
 PokemonMansion1F_Text_ChicoDefeated:
-    .string "Tch!\n"
-    .string "I can't get any wins.$"
+    .string "Ts!\n"
+    .string "Ich kann nicht gewinnen!$"
 
 
 PokemonMansion1F_ChicoPostBattle:
-    .string "I was exploring here by myself,\n"
-    .string "but I feel spooked.\p"
-    .string "I ought to go soon.$"
+	.string "Ich habe das Gebiet hier auf eigene\n"
+	.string "Faust erforscht, aber es ist so\l"
+	.string "gruselig. Ich muss bald weg!$"
 
 
 PokemonMansion1F_Text_CientificoIntro:
-    .string "Who are you?\n"
-    .string "There shouldn't be anyone here.$"
+    .string "Wer bist du?\n"
+    .string "Hier hat niemand etwas zu suchen!$"
 
 
 PokemonMansion1F_Text_CientificoDefeated:
-    .string "Ouch!$"
+    .string "Autsch!$"
 
 
 PokemonMansion1F_CientificoPostBattle:
-    .string "A key? I don't know what you're\n"
-    .string "talking about.$"
+    .string "Ein Schlüssel?\n"
+    .string "Keine Ahnung, wovon du redest!$"
 
 
 PokemonMansion2F_Text_CientificoIntro:
-    .string "I can't get out!\n"
-    .string "This old place is one big puzzle.$"
+    .string "Ich finde keinen Weg nach draußen!\n"
+    .string "Der reinste Irrgarten!$"
 
 
 PokemonMansion2F_Text_CientificoDefeated:
-    .string "Oh, no!\n"
-    .string "My bag of loot!$"
+    .string "Oh nein!\n"
+    .string "Meine Beute!$"
 
 
 PokemonMansion2F_CientificoPostBattle:
-    .string "The switches here open and close\n"
-    .string "alternating sets of doors.$"
+    .string "Die Türen kannst du mittels\n"
+    .string "Schalter schließen oder öffnen!$"
 
 
 PokemonMansion3F_Text_CientificoIntro:
-    .string "This place is, like, huge!$"
+    .string "Dieses Gebiet hier ist riesig!$"
 
 
 PokemonMansion3F_Text_CientificoDefeated:
-    .string "Ayah!$"
+    .string "Tschüss!$"
 
 
 PokemonMansion3F_CientificoPostBattle:
-    .string "I wonder where my partner went.$"
+    .string "Ich frage mich, wo mein\n"
+	.string "Partner wohl sein mag!?$"
 
 
 PokemonMansion3F_Text_Cientifico2Intro:
-    .string "My mentor once lived here.$"
+    .string "Mein Mentor lebte einst hier…$"
 
 
 PokemonMansion3F_Text_Cientifico2Defeated:
-    .string "Whew!\n"
-    .string "Overwhelming!$"
+    .string "Wow!\n"
+    .string "Unglaublich!$"
 
 
 PokemonMansion3F_Cientifico2PostBattle:
-    .string "So, you're stuck?\n"
-    .string "Try jumping off over there!$"
+    .string "Du kommst nicht weiter?\n"
+    .string "Springe einfach da drüben herunter!$"
 
 
 PokemonMansion4F_Text_CientificoIntro:
-    .string "Uh-oh…\n"
-    .string "Where am I now?$"
+    .string "Wo bin ich hier gelandet?$"
 
 
 PokemonMansion4F_Text_CientificoDefeated:
-    .string "Awooh!$"
+    .string "Autsch!$"
 
 
 PokemonMansion4F_CientificoPostBattle:
-    .string "You can find stuff lying around.\n"
-    .string "The residents must've left them.$"
+    .string "Hier liegt viel nützliches\n"
+    .string "Zeug herum!.$"
 
 
 PokemonMansion4F_Text_Cientifico2Intro:
-    .string "This place is ideal for a lab.\n"
-    .string "Look at all this space.$"
+    .string "Hier wäre der ideale\n"
+    .string "Platz für ein Labor!$"
 
 
 PokemonMansion4F_Text_Cientifico2Defeated:
-    .string "What was that for?$"
+    .string "Was hab ich da nur falsch gemacht!$"
 
 
 PokemonMansion4F_Cientifico2PostBattle:
-    .string "I like it here.\n"
-    .string "It's conducive to my studies.$"
+    .string "Hier gefällt es mir!\n"
+    .string "Man kann prima forschen!$"
 
 
 PewterCityGym_Text_ChicoIntro:
