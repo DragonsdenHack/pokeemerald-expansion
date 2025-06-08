@@ -5431,33 +5431,34 @@ Route25_Text_Chico3PostBattle:
 
 
 Route25_Text_Chico4Intro:
-    .string "I had this feeling…\n"
-    .string "I knew I had to battle you!$"
+    .string "Ich wusste, dass wir miteinander\n"
+    .string "kämpfen würden!$"
 
 
 Route25_Text_Chico4Defeated:
-    .string "I knew I'd lose, too!$"
+    .string "Ich wusste auch, dass ich\n"
+    .string "verlieren würde!$"
 
 
 Route25_Text_Chico4PostBattle:
-    .string "If your POKÉMON gets confused,\n"
-    .string "switch it out.\p"
-    .string "That's a good tactic.$"
+    .string "Wenn eines deiner POKéMON verwirrt\n"
+    .string "Ist, wechsle es aus!\p"
+    .string "Das ist eine gute Taktik!$"
 
 
 Route25_Text_Chica2Intro:
-    .string "My friend has many cute POKÉMON.\n"
-    .string "I'm so jealous!$"
+	.string "Meine Freundin hat so ein süßes\n"
+	.string "POKéMON! Ich bin furchtbar neidisch!$"
+
 
 
 Route25_Text_Chica2Defeated:
-    .string "You came from MT. MOON?\n"
-    .string "May I have a CLEFAIRY?$"
+    .string "Ich bin nicht sauer!$"
 
 
 Route25_Text_Chica2PostBattle:
-	.string "Have you visited MT.MOON?\n"
-	.string "Did you see a CLEFAIRY?$"
+	.string "Du warst auf dem MONDBERG?\n"
+	.string "Hast du ein PIEPI gefunden?$"
 
 
 Route11_Text_AncianoIntro:
@@ -7545,17 +7546,17 @@ Route18_Ornitologo2PostBattle:
 
 
 Route18_Text_Ornitologo3Intro:
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "Das hier ist mein Gebiet!\n"
+    .string "Sieh zu, dass du Land gewinnst!$"
 
 
 Route18_Text_Ornitologo3Defeated:
-    .string "Darn!$"
+    .string "Verdammt!$"
 
 
 Route18_Ornitologo3PostBattle:
-    .string "This is my fave area for catching\n"
-    .string "POKÉMON.$"
+    .string "Hier habe ich sehr gerne\n"
+    .string "POKéMON gejagt.$"
 
 
 Route17_Text_MotoristaIntro:
@@ -7591,42 +7592,43 @@ Route17_Motorista2PostBattle:
 
 
 Route17_Text_Motorista3Intro:
-    .string "Be a rebel!$"
+    .string "Sei ein Rebell!$"
 
 
 Route17_Text_Motorista3Defeated:
-    .string "Aaaargh!$"
+    .string "Arrrgh!$"
 
 
 Route17_Motorista3PostBattle:
-    .string "Be ready to fight for your beliefs!$"
+    .string "Setze dich für deine Ideale ein!$"
 
 
 Route17_Text_Motorista4Intro:
-    .string "I need a little exercise!$"
+    .string "Ich muss ein wenig abnehmen!$"
 
 
 Route17_Text_Motorista4Defeated:
-    .string "Whew!\n"
-    .string "Good workout!$"
+    .string "Puh!\n"
+    .string "Eine gute Übung!$"
 
 
 Route17_Motorista4PostBattle:
-    .string "I'm sure I lost weight there!$"
+    .string "Ich habe sicher an Gewicht\n"
+    .string "verloren!$"
 
 
 Route17_Text_Motorista5Intro:
-    .string "I leveled up my POKÉMON, but it\n"
-    .string "won't evolve. Why?$"
+    .string "Mein POKéMON entwickelt\n"
+    .string "sich nicht weiter!$"
 
 
 Route17_Text_Motorista5Defeated:
-    .string "Why, you!$"
+    .string "Heh, was sollte das?$"
 
 
 Route17_Motorista5PostBattle:
-    .string "Maybe some POKÉMON need element\n"
-    .string "STONES to evolve.$"
+	.string "Manche POKéMON benötigen spezielle\n"
+	.string "STEINE, um sich zu entwickeln.$"
 
 
 Route17_Text_Motorista6Intro:
@@ -7812,34 +7814,34 @@ Route19_NadadorPostBattle:
 
 
 Route19_Text_Nadador2Intro:
-    .string "Wait! Slow down!\n"
-    .string "You'll have a heart attack!$"
+    .string "Warte! Sonst bekommst du\n"
+    .string "einenn Herzinfarkt!$"
 
 
 Route19_Text_Nadador2Defeated:
-    .string "Ooh!\n"
-    .string "That's chilly!$"
+    .string "Wuah!\n"
+    .string "Mir ist kalt!$"
 
 
 Route19_Nadador2PostBattle:
-    .string "Watch out for TENTACOOL.\n"
-    .string "They sting so painfully.$"
+    .string "Nimm dich vor\n"
+    .string "TENTACHA in Acht!$"
 
 
 Route19_Text_Nadador3Intro:
-	.string "Dieses Wasser reinigt viele Dinge.\n"
-	.string "Deine Missetaten gehören nicht dazu.$"
+	.string "Ich schaue auf das Meer,\n"
+	.string "um zu vergessen!$"
 
 
 
 Route19_Text_Nadador3Defeated:
-    .string "Ooh!\n"
-    .string "Traumatic!$"
+    .string "Nein!\n"
+    .string "Ein traumatisches Erlebnis!$"
 
 
 Route19_Nadador3PostBattle:
-    .string "I'm looking at the sea to forget\n"
-    .string "the bad thing that happened!$"
+    .string "Ich schaue auf das Meer,\n"
+    .string "um zu vergessen!$"
 
 
 Route19_Text_Nadador4Intro:
@@ -7889,18 +7891,17 @@ Route19_Nadador6PostBattle:
 
 
 Route19_Text_Nadador7Intro:
-    .string "Ahoy, there!\n"
-    .string "These waters are treacherous!$"
+    .string "Diese Gewässer sind\n"
+    .string "trügerisch!$"
 
 
 Route19_Text_Nadador7Defeated:
-    .string "Ooh!\n"
-    .string "Dangerous!$"
+    .string "Das war gefährlich!$"
 
 
 Route19_Nadador7PostBattle:
-    .string "M-my legs! They cramped up!\n"
-    .string "Glub, glub…$"
+    .string "Ich habe einen Krampf!\n"
+    .string "Blubber, gluck…$"
 
 
 Route19_Text_NadadoraIntro:
@@ -7940,17 +7941,17 @@ Route19_Nadadora2PostBattle:
 
 
 Route19_Text_Nadadora3Intro:
-    .string "Swimming's great!\n"
-    .string "Sunburns aren't!$"
+	.string "Schwimmen macht Spaß, aber man holt\n"
+	.string "sich schnell einen Sonnenbrand!$"
 
 
 Route19_Text_Nadadora3Defeated:
-    .string "Shocker!$"
+    .string "Du bist ein ganz schlimmer Finger!$"
 
 
 Route19_Nadadora3PostBattle:
-    .string "My boyfriend wanted to swim to\n"
-    .string "SEAFOAM ISLANDS.$"
+	.string "Mein Freund wollte zu den\n"
+	.string "SEESCHAUMINSELN schwimmen.$"
 
 
 Route20_Text_NadadorIntro:
@@ -7971,31 +7972,31 @@ Route20_NadadorPostBattle:
 
 
 Route20_Text_Nadador2Intro:
-    .string "Why are you riding a POKÉMON?\n"
-    .string "Can't you swim?$"
+    .string "Warum reistest du auf dem POKéMON?\n"
+    .string "Kannst du nicht schwimmen?$"
 
 
 Route20_Text_Nadador2Defeated:
-    .string "Ouch!\n"
-    .string "Torpedoed!$"
+    .string "Ich wurde torpediert!$"
 
 
 Route20_Nadador2PostBattle:
-    .string "Riding a POKÉMON sure looks fun!$"
+    .string "Es dürfte Spaß machen, auf einem\n"
+    .string "POKéMON zu reiten!$"
 
 
 Route20_Text_NadadoraIntro:
-    .string "SEAFOAM is a quiet getaway.\n"
-    .string "I'm vacationing here.$"
+    .string "Die SEESCHAUMINSELN sind ein\n"
+    .string "stiller Zufluchtsort!$"
 
 
 Route20_Text_NadadoraDefeated:
-    .string "Quit it!$"
+    .string "Schluss damit!$"
 
 
 Route20_NadadoraPostBattle:
-    .string "There's a huge cavern underneath\n"
-    .string "this island.$"
+    .string "Unter dieser Insel befindet sich\n"
+    .string "eine riesige Höhle!$"
 
 
 Route20_Text_Nadadora2Intro:
@@ -8588,72 +8589,73 @@ Silph11F_Policia2PostBattle:
 
 
 Route21_Text_PescadorIntro:
-	.string "I got a big haul!\n"
-	.string "Wanna go for it?$"
+	.string "Ich habe einen guten Fang\n"
+	.string "gemacht! Möchtest du ihn sehen?$"
 
 
 Route21_Text_PescadorDefeated:
-	.string "Heheh, MAGIKARP just don't make\n"
-	.string "the grade, do they?$"
+	.string "NEIN!\n"
+	.string "KARPADOR!$"
 
 
 Route21_PescadorPostBattle:
-	.string "I seem to only catch MAGIKARP!$"
+	.string "Oh nein! Ich habe schon wieder\n"
+	.string "ein KARPADOR gefangen!$"
 
 
 Route21_Text_Pescador2Intro:
-	.string "You want to know if the fish are\n"
-	.string "biting?$"
+	.string "Möchtest du wissen, ob die\n"
+	.string "Fische beißen?$"
 
 
 Route21_Text_Pescador2Defeated:
-	.string "Dang!$"
+	.string "Mist!$"
 
 
 Route21_Pescador2PostBattle:
-	.string "I can't catch anything good.\n"
-	.string "Not one good POKÉMON to be had!$"
+	.string "Bisher habe ich noch nichts\n"
+	.string "gefangen!$"
 
 
 Route21_Text_NadadorIntro:
-	.string "The sea cleanses my body and soul!$"
+	.string "Die See reinigt Körper und Seele!$"
 
 
 Route21_Text_NadadorDefeated:
-	.string "Ayah!$"
+	.string "Nein!$"
 
 
 Route21_NadadorPostBattle:
-	.string "The sea is great and all, but I\n"
-	.string "like the mountains, too.$"
+	.string "Aber ich mag die Berge genauso\n"
+	.string "gern!$"
 
 
 CinnabarPath_Text_PescadorIntro:
-	.string "Hey, don't scare away the fish!$"
+	.string "Heh, du verjagst die Fische!$"
 
 
 CinnabarPath_Text_PescadorDefeated:
-	.string "Sorry! I'm just so frustrated from\n"
-	.string "not catching anything.$"
+	.string "Entschuldigung, ich wollte nicht so\n"
+	.string "barsch sein!$"
 
 
 CinnabarPath_PescadorPostBattle:
-	.string "Sheesh, I haven't caught a thing.\n"
-	.string "Could this place actually be a\l"
-	.string "giant pool or something?$"
+	.string "Ich war nur sauer, weil ich noch\n"
+	.string "nichts gefangen habe.$"
 
 
 CinnabarPath_Text_Pescador2Intro:
-	.string "Keep me company till I get a hit.$"
-
+	.string "Leiste mir Gesellschaft,\n"
+    .string "bis etwas anbeißt!$"
 
 CinnabarPath_Text_Pescador2Defeated:
-	.string "That burned some time.$"
+    .string "Na ja, wenigstens ist etwas\n"
+	.string "Zeit vergangen!$"
 
 
 CinnabarPath_Pescador2PostBattle:
-	.string "Oh wait!\n"
-	.string "I got a bite! Yeah!$"
+	.string "Juchhu!\n"
+	.string "Etwas hat angebissen!$"
 
 
 CinnabarPath_Text_NadadorIntro:
@@ -8673,104 +8675,100 @@ CinnabarPath_NadadorPostBattle:
 
 CinnabarPath_Text_Nadador2Intro:
 	.string "Ahh!\n"
-	.string "Feel the sun and the wind!$"
+	.string "Genieße die Sonne und den Wind!$"
 
 
 CinnabarPath_Text_Nadador2Defeated:
-	.string "Yow!\n"
-	.string "I lost!$"
+	.string "Ups!\n"
+	.string "Ich hab verloren!$"
 
 
 CinnabarPath_Nadador2PostBattle:
-	.string "I'm sunburnt to a crisp!$"
+	.string "Die Sonne hat mich wie\n"
+	.string "ein Hähnchen geröstet!$"
 
 
 CinnabarPath_Text_Nadador3Intro:
-	.string "Right now, I'm in a triathlon meet.$"
+	.string "Ich nehme an einem Triathlon teil!$"
 
 
 CinnabarPath_Text_Nadador3Defeated:
-	.string "Pant…\n"
-	.string "Pant… Pant…$"
+	.string "Ächz, schnauf…$"
 
 
 CinnabarPath_Nadador3PostBattle:
-	.string "I'm beat! But, I still have the\n"
-	.string "bike race and marathon left!$"
+	.string "Du hast gewonnen! Aber ich kann noch\n"
+	.string "beim Marathon und im Radrennen siegen!$"
 
 
 Route20_Text_Nadadora4Intro:
-    .string "CINNABAR, in the west, has a LAB\n"
-    .string "for POKÉMON.\p"
-    .string "My daddy works there.$"
+    .string "Auf der ZINNOBERINSEL befindet\n"
+    .string "sich ein POKéMON-LABOR.$"
 
 
 Route20_Text_Nadadora4Defeated:
-    .string "Wait!\n"
-    .string "You're supposed to wait!$"
+    .string "Warte!$"
 
 
 Route20_Nadadora4PostBattle:
-    .string "CINNABAR is a volcanic island.\p"
-    .string "I heard it rose out of the sea\n"
+    .string "Die ZINNOBERINSEL ist ein\n"
     .string "when a volcano erupted.$"
 
 
 Route20_Text_ChicaIntro:
-    .string "I swam here from CINNABAR ISLAND.\n"
-    .string "It wasn't easy, I tell you.$"
+    .string "Ich bin von der ZINNOBERINSEL\n"
+    .string "vulkanisches Eiland!$"
 
 
 Route20_Text_ChicaDefeated:
-    .string "I'm so disappointed!$"
+    .string "Ich bin enttäuscht!$"
 
 
 Route20_ChicaPostBattle:
-    .string "POKÉMON have taken over an\n"
-    .string "abandoned mansion on CINNABAR.\p"
-    .string "They call it the POKÉMON MANSION\n"
-    .string "now.$"
+	.string "Auf der ZINNOBERINSEL haben POKéMON\n"
+	.string "eine verlassene Villa besiedelt!$"
 
 
 Route20_Text_Nadador3Intro:
-    .string "Check out my buff physique!$"
+    .string "Schau dir meinen gestählten\n"
+    .string "Körper ruhig an!$"
 
 
 Route20_Text_Nadador3Defeated:
-    .string "Wimpy!$"
+    .string "Waschlappen!$"
 
 
 Route20_Nadador3PostBattle:
-    .string "I should've been buffing up my\n"
-    .string "POKÉMON, not me!$"
+    .string "Ich hätte meine POKéMON stählen\n"
+    .string "sollen, nicht meinen Körper!$"
 
 
 Route20_Text_Nadadora3Intro:
-    .string "My boyfriend gave me big pearls.$"
+    .string "Mein Freund hat mir eine große\n"
+    .string "Perle geschenkt!$"
 
 
 Route20_Text_Nadadora3Defeated:
-    .string "Oh, no!\n"
-    .string "My pearls were in them!$"
+    .string "Lass die Finger von meiner Perle!$"
 
 
 Route20_Nadadora3PostBattle:
-    .string "Will my pearls grow bigger inside\n"
-    .string "CLOYSTER?$"
+    .string "Ob meine Perle in einem AUSTOS\n"
+    .string "größer werden würde?$"
 
 
 Route20_Text_OrnitologoIntro:
-    .string "I rode my bird POKÉMON here.$"
+    .string "Mein Vogel-POKéMON hat mich\n"
+    .string "hierher getragen!$"
 
 
 Route20_Text_OrnitologoDefeated:
-    .string "Oh, no!\n"
-    .string "Now what am I to do?$"
+    .string "Oh nein!$"
 
 
 Route20_OrnitologoPostBattle:
-    .string "My birds are exhausted.\n"
-    .string "They can't FLY me back!$"
+    .string "Kann ich mit meinen Vogel-POKéMON\n"
+    .string "noch zurückfliegen?$"
 
 
 Route20_Text_Chica2Intro:
@@ -9990,129 +9988,130 @@ Route22Path_Text_PoliciaPostBattle:
 
 
 VictoryRoad1F_Text_GuayIntro:
-    .string "I wonder if you are good enough\n"
-    .string "for me?$"
+    .string "Glaubst du etwa, du kannst es\n"
+    .string "mit mir aufnehmen?$"
 
 
 VictoryRoad1F_Text_GuayDefeated:
-    .string "I lost out…$"
+    .string "Ich bin raus!$"
 
 
 VictoryRoad1F_Text_GuayPostBattle:
-    .string "I never wanted to lose to anybody,\n"
-    .string "especially to a younger kid…$"
+	.string "Dabei wollte ich nie verlieren, schon\n"
+	.string "gar nicht gegen ein kleines Kind…$"
 
 
 VictoryRoad1F_Text_Guay2Intro:
-    .string "I can see you're good.\n"
-    .string "Let me see exactly how good!$"
+    .string "Ich glaube, du bist gut! Gut\n"
+    .string "genug, um mich zu schlagen?$"
 
 
 VictoryRoad1F_Text_Guay2Defeated:
-    .string "I had a chance…$"
-
+    .string "Immerhin hatte ich eine Chance!$"
 
 VictoryRoad1F_Text_Guay2PostBattle:
-    .string "Tch!\n"
-    .string "I concede, you are better than I!$"
+    .string "Ich muss gestehen,\n"
+    .string "du bist besser!$"
 
 
 VictoryRoad2F_Text_NecioIntro:
-    .string "If you can get through here,\n"
-    .string "you can go meet the ELITE FOUR.$"
+    .string "Wenn du an mir vorbeikommst,\n"
+    .string "kannst du zu den TOP VIER gehen!$"
 
 
 VictoryRoad2F_Text_NecioDefeated:
-    .string "No!\n"
-    .string "Unbelievable!$"
+    .string "Nein!\n"
+    .string "Unglaublich!$"
 
 
 VictoryRoad2F_Text_NecioPostBattle:
-    .string "I can beat you when it comes to\n"
-    .string "knowledge about POKÉMON!$"
+	.string "Und wenn schon… dafür übersteigt mein\n"
+	.string "Wissen über POKéMON deines bei weitem!$"
 
 
 VictoryRoad2F_Text_KaratekaIntro:
-    .string "This here is VICTORY ROAD.\n"
-    .string "It's the final test for TRAINERS!$"
+    .string "Die SIEGESSTRAßE stellt eine Art\n"
+    .string "Abschlussprüfung für TRAINER dar!$"
 
 
 VictoryRoad2F_Text_KaratekaDefeated:
-    .string "Atcho!$"
+    .string "Ahh!$"
 
 
 VictoryRoad2F_Text_KaratekaPostBattle:
-    .string "If you get stuck, try moving some\n"
-    .string "boulders around.$"
+	.string "Wenn du nicht vorankommst, versuche,\n"
+	.string "die Felsen zu verschieben!$"
 
 
 VictoryRoad2F_Text_ChicoIntro:
-    .string "Ah, so you wish to challenge the\n"
-    .string "ELITE FOUR?$"
+    .string "Du möchtest also die TOP VIER\n"
+    .string "herausfordern?$"
 
 
 VictoryRoad2F_Text_ChicoDefeated:
-    .string "You got me!$"
+    .string "Voll erwischt!$"
 
 
 VictoryRoad2F_Text_ChicoPostBattle:
-    .string "RED also came through here.$"
+    .string "Auch ROT kam hier vorbei!$"
 
 
 VictoryRoad2F_Text_Chico2Intro:
-    .string "Is VICTORY ROAD too tough?$"
+    .string "Die SIEGESSTRAßE ist sehr\n"
+    .string "schwer zu meistern!$"
 
 
 VictoryRoad2F_Text_Chico2Defeated:
-    .string "Well done!$"
+    .string "Gut gemacht!$"
 
 
 VictoryRoad2F_Text_Chico2PostBattle:
-    .string "Many TRAINERS give up their\n"
-    .string "challenge here and go home.$"
+    .string "Schon viele TRAINER haben\n"
+    .string "hier aufgegeben!$"
 
 
 VictoryRoad2F_Text_DomadorIntro:
-    .string "Come on!\n"
-    .string "I'll whip you!$"
+    .string "Komm nur her!\n"
+    .string "Ich werde dich besiegen!$"
 
 
 
 VictoryRoad2F_Text_DomadorDefeated:
-    .string "I got whipped!$"
+    .string "Auweia!\n"
+    .string "Ich bin besiegt!$"
 
 
 VictoryRoad2F_Text_DomadorPostBattle:
-    .string "You earned the right to be on\n"
-    .string "VICTORY ROAD…$"
+    .string "Du beschreitest die SIEGESSTRAßE\n"
+    .string "nicht ohne Grund!$"
 
 
 VictoryRoad3F_Text_GuayIntro:
-    .string "Only the chosen can pass here!$"
+    .string "Nur Auserwählte dürfen passieren!$"
 
 
 VictoryRoad3F_Text_GuayDefeated:
-    .string "I don't believe it!$"
+    .string "Ich fasse es nicht!$"
 
 
 VictoryRoad3F_Text_GuayPostBattle:
-    .string "All TRAINERS here are headed to\n"
-    .string "the POKÉMON LEAGUE.\p"
-    .string "Don't let down your guard.$"
+    .string "Die TRAINER hier sind auf dem Weg\n"
+    .string "zur POKéMON LIGA! Sei vorsichtig!$"
 
 
 VictoryRoad3F_Text_Guay2Intro:
-    .string "I'll show you just how good you\n"
-    .string "are. Not!$"
+    .string "Gleich siehst du, wie gut\n"
+    .string "du bist!$"
 
 
 VictoryRoad3F_Text_Guay2Defeated:
-    .string "I'm furious!$"
+    .string "Das darf doch nicht wahr sein!\n"
+    .string "Grrr!$"
 
 
 VictoryRoad3F_Text_Guay2PostBattle:
-    .string "You showed me just how good\n"
-    .string "I was…$"
+    .string "Du hast mich in die Schranken\n"
+    .string "verwiesen!$"
 
 
 VictoryRoad3F_Text_Guay3Intro:
