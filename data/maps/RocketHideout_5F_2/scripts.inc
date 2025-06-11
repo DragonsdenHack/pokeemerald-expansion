@@ -205,28 +205,34 @@ release
 end
 
 EventScript_Buneary_Texto_1:
-.string "Are you sure you want BUNEARY?\n"
-	.string "It'll cost ¥14,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "HASPIROR kaufen möchtest?\p"
+	.string "Das macht 14.000¥.$"
 
 EventScript_Croagunk_Texto_1:
-.string "Are you sure you want CROAGUNK?\n"
-	.string "It'll cost ¥25,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "GLIBUNKEL kaufen möchtest?\p"
+	.string "Das macht 25.000¥.$"
 
 EventScript_Budew_Texto_1:
-.string "Are you sure you want BUDEW?\n"
-	.string "It'll cost ¥29,000$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "KNOSPI kaufen möchtest?\p"
+	.string "Das macht 29.000¥.$"
 
 EventScript_Hippopotas_Texto_1:
-.string "Are you sure you want HIPPOPOTAS?\n"
-	.string "It'll cost ¥33,000$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "HIPPOPOTAS kaufen möchtest?\p"
+	.string "Das macht 33.000¥.$"
 
 EventScript_Shieldon_Texto_1:
-.string "Are you sure you want SHIELDON?\n"
-	.string "It'll cost ¥110,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "SCHILTERUS kaufen möchtest?\p"
+	.string "Das macht 110.000¥.$"
 
 EventScript_Larvitar_Texto_1.1:
-.string "Are you sure you want LARVITAR?\n"
-	.string "It'll cost ¥170,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "LARVITAR kaufen möchtest?\p"
+	.string "Das macht 170.000¥.$"
 
 Base_Profunda_Mercado_Ejecutivos_EventScript_Clerk::
 	lock

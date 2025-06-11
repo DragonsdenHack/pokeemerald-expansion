@@ -346,36 +346,44 @@ release
 end
 
 EventScript_Cryogonal_Texto_1:
-.string "Are you sure you want CRYOGONAL?\n"
-	.string "It will cost ¥105,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "FRIGOMETRI kaufen möchtest?\p"
+	.string "Das macht 105.000¥.$"
 
 EventScript_Cramorant_Texto_1:
-.string "Are you sure you want CRAMORANT?\n"
-	.string "It will cost ¥110,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "URGL kaufen möchtest?\p"
+	.string "Das macht 110.000¥.$"
 
 EventScript_Gible_Texto_1:
-.string "Are you sure you want GIBLE?\n"
-	.string "It will cost ¥175,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "KAUMALAT kaufen möchtest?\p"
+	.string "Das macht 175.000¥.$"
 
 EventScript_Grookey_Texto_1:
-.string "Are you sure you want GROOKEY?\n"
-	.string "It will cost ¥80,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "CHIMPEP kaufen möchtest?\p"
+	.string "Das macht 80.000¥.$"
 
 EventScript_Ferroseed_Texto_1:
-.string "Are you sure you want FERROSEED?\n"
-	.string "It will cost ¥60,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "KASTADUR kaufen möchtest?\p"
+	.string "Das macht 60.000¥.$"
 
 EventScript_Toxel_Texto_1:
-.string "Are you sure you want TOXELL?\n"
-	.string "It will cost ¥57,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "TOXEL kaufen möchtest?\p"
+	.string "Das macht 57.000¥.$"
 
 EventScript_Wooloo_Texto_1:
-.string "Are you sure you want WOOLOO?\n"
-	.string "It will cost ¥40,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "WOLLY kaufen möchtest?\p"
+	.string "Das macht 40.000¥.$"
 
 EventScript_Espurr_Texto_1:
-.string "Are you sure you want ESPURR?\n"
-	.string "It will cost ¥30,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "PSIAU kaufen möchtest?\p"
+	.string "Das macht 30.000¥.$"
 
 Text_CompraPokemon:
 .string "Welcome, SIR.\n"

@@ -11596,68 +11596,71 @@ WestBirthIsland_Text_MontaneroPostBattle:
 
 
 CinnabarMansionS1_Text_CientificoIntro:
-	.string "Why bother OAK when I can be the one to\n"
-	.string "instruct you here and now?$"
+	.string "Warum PROF. EICH in seiner Ruhe stören,\n"
+	.string "wenn ich dir hier und jetzt eine Lektion\l"
+	.string "erteile?$"
 
 
 
 CinnabarMansionS1_Text_CientificoDefeated:
-	.string "That's nonsense!$"
+	.string "Das ergibt keinen Sinn!$"
 
 
 CinnabarMansionS1_Text_CientificoPostBattle:
-	.string "All is ready, the cards are on the table,\n"
-	.string "your chances of winning are\l"
-	.string "nonexistent.$"
+	.string "Alles ist vorbereitet. Das Spiel ist\n"
+	.string "eröffnet und deine Siegeschancen\l"
+	.string "liegen bei null.$"
 
 
 
 CinnabarMansionS2_Text_CientificoIntro:
-	.string "We've been after the perfect team for\n"
-	.string "decades, and now that we've\l"
-	.string "successfully assembled the greatest\l"
-	.string "team ever, nothing can stand in our way.$"
+	.string "Seit Jahren arbeiten wir an der\n"
+	.string "Zusammenstellung des perfekten Teams.\p"
+	.string "Und jetzt, wo es uns gelungen ist, wird\n"
+	.string "uns niemand mehr aufhalten können!$"
 
 
 CinnabarMansionS2_Text_CientificoDefeated:
-	.string "That's it! Walk towards your end!$"
+	.string "Genau so! Schreite nur weiter deinem\n"
+	.string "Untergang entgegen!$"
 
 
 CinnabarMansionS2_Text_CientificoPostBattle:
-	.string "OAK will be remembered as the greatest\n"
-	.string "trainer of all time, whereas you will\l"
-	.string "never be recognized for what you did in\l"
-	.string "the League. If it's not recorded for\l"
-	.string "posterity, it never happened, neither\l"
-	.string "you nor your actions!$"
+	.string "PROF. EICH wird als der großartigste\n"
+	.string "TRAINER in die Geschichtsbücher\l"
+	.string "eingehen, während man dich vergessen\l"
+	.string "wird! Deine Taten in der LIGA wurden nie\l"
+	.string "irgendwo dokumentiert - und was nicht\l"
+	.string "dokumentiert ist, hat nie offiziell\l"
+	.string "stattgefunden!$"
 
 
 CinnabarMansionS2_Text_Cientifico2Intro:
-	.string "How does it feel to have won the\n"
-	.string "POKÉMON LEAGUE only to witness\l"
-	.string "PROFESSOR OAK's grandson becoming the\l"
-	.string "CHAMPION, while RED is hailed as a\l"
-	.string "legend? In society's eyes, you simply\l"
-	.string "don't exist! You are nothing more than\l"
-	.string "dust!$"
+	.string "Wie fühlt sich an, die POKéMON LIGA\n"
+	.string "bezwungen zu haben, nur um mitansehen\l"
+	.string "zu müssen, wie PROF. EICHs ENKEL zum\l"
+	.string "offiziellen CHAMP gekürt wurde und ROT\l"
+	.string "als lebende Legende gilt? Für die\l"
+	.string "Gesellschaft existiert du gar nicht!\p"
+	.string "Du bist ein Nichts!$"
 
 
 CinnabarMansionS2_Text_Cientifico2Defeated:
-	.string "The strength of your POKÉMON doesn't\n"
-	.string "care us.$"
+	.string "Die Stärke deines Teams macht uns\n"
+	.string "keine Angst.$"
 
 
 
 CinnabarMansionS2_Text_Cientifico2PostBattle:
-	.string "You can't win this game just being the\n"
-	.string "most powerful trainer, something you\l"
-	.string "don't even have now, as OAK has finally\l"
-	.string "managed to assemble a perfect team.$"
+	.string "Du kannst nicht länger nur mit Stärke\n"
+	.string "gewinnen, nachdem es PROF. EICH\l"
+	.string "gelungen ist, das perfekte Team\l"
+	.string "zusammenzustellen.$"
 
 
 CinnabarMansionS2_Text_Cientifico3Intro:
-	.string "Your end awaits you! Go for it and\n"
-	.string "confront your destiny!$"
+	.string "Dein Ende steht kurz bevor!\n"
+	.string "Füge dich deinem Schicksal!$"
 
 
 CinnabarMansionS2_Text_Cientifico3Defeated:
@@ -11665,11 +11668,11 @@ CinnabarMansionS2_Text_Cientifico3Defeated:
 
 
 CinnabarMansionS2_Text_Cientifico3PostBattle:
-	.string "You are just one more variable in our\n"
-	.string "vast plan to ensure our will is carried\l"
-	.string "out. A variable that, in all cases, ends\l"
-	.string "up being defeated. You cannot succeed\l"
-	.string "with the POKÉMON you are able to catch!$"
+	.string "Du bist nur ein weiterer Schritt in\n"
+	.string "unserem Meisterplan. Du wirst kläglich\l"
+	.string "scheitern. Du kannst nicht mit den\l"
+	.string "POKéMON gewinnen, die dir zur Verfügung\l"
+	.string "stehen!$"
 
 
 Route46_Text_ChicaIntro:
@@ -15157,68 +15160,79 @@ NeoLavandaCementerioS2_Text_Exorcista3PostBattle:
 
 
 GimnasioAnciana_Text_AncianoIntro:
-	.string "Don't try to figure out where on the map\n"
-	.string "we are. It's impossible!$"
+	.string "Versuch gar nicht erst herauszufinden,\n"
+	.string "wo wir uns auf der Karte befinden.\p"
+	.string "Es wird dir nicht gelingen!$"
 
 
 GimnasioAnciana_Text_AncianoDefeated:
-	.string "I lost the game!$"
+	.string "Ich habe den Kampf verloren!$"
 
 
 GimnasioAnciana_Text_AncianoPostBattle:
-	.string "Vegetation completely surrounded this\n"
-	.string "place decades ago; only the elderly\l"
-	.string "remember the time when we arrived here\l"
-	.string "without using the teleporter. The rest\l"
-	.string "knows nothing else.$"
+	.string "Die Natur hat diesen Ort schon vor\n"
+	.string "Jahrzehnten verschlungen. Nur die\l"
+	.string "älteren Menschen erinnern sich noch an\l"
+	.string "die Zeit, als man ohne Teleporter\l"
+	.string "herkam.\p"
+	.string "Die anderen kennen es nicht anders.$"
 
 
 GimnasioAnciana_Text_AncianaIntro:
-	.string "A contender! The last time I said that,\n"
-	.string "man hadn't even reached the Moon yet!$"
+	.string "Ein Herausforderer! Das letzte Mal, als\n"
+	.string "ich diese Worte ausgesprochen habe,\l"
+	.string "war die Mondlandung noch\l"
+	.string "Zukunftsmusik!$"
 
 
 GimnasioAnciana_Text_AncianaDefeated:
-	.string "What a contender!$"
+	.string "Ein wahrer Herausforderer!$"
 
 
 GimnasioAnciana_Text_AncianaPostBattle:
-	.string "Despite those 30 years without any\n"
-	.string "contender, some of us still maintain\l"
-	.string "that competitive flame. POKÉMON battle\l"
-	.string "has no age, and our LEADER is the\l"
-	.string "greatest proof of that.$"
+	.string "Auch nach 30 Jahren ohne\n"
+	.string "Herausforderer, brennen einige von uns\l"
+	.string "immer noch für POKéMON-Kämpfe. Bei\l"
+	.string "Kämpfen spielt das Alter keine Rolle\l"
+	.string "und unsere ARENALEITERIN ist der\l"
+	.string "lebende Beweis dafür.$"
 
 
 GimnasioAnciana_Text_Anciano2Intro:
-	.string "Some say the new generations are in\n"
-	.string "decline. What about you?$"
+	.string "Manche meinen, die neuen Generationen\n"
+	.string "seien auf dem absteigenden Ast.\p"
+	.string "Was denkst du?$"
 
 
 GimnasioAnciana_Text_Anciano2Defeated:
-	.string "Hmm... I don't see that decline...$"
+	.string "Hmm … Ich für meinen Teil sehe diesen\n"
+	.string "Verfall nicht.$"
 
 
 GimnasioAnciana_Text_Anciano2PostBattle:
-	.string "Many have a tendency to romanticize\n"
-	.string "the past, thereby missing the\l"
-	.string "countless possibilities of the present,\l"
-	.string "which they'll also romanticize in the\l"
-	.string "future.$"
+	.string "Viele neigen dazu, die Vergangenheit zu\n"
+	.string "glorifizieren und übersehen dabei all\l"
+	.string "die Möglichkeiten, die es heutzutage\l"
+	.string "gibt. Und in der Zukunft, wenn die\l"
+	.string "jetzige Gegenwart Vergangenheit sein\l"
+	.string "wird, wird auch diese glorifiziert\l"
+	.string "werden.$"
 
 
 GimnasioAnciana_Text_Anciano3Intro:
-	.string "Some of our POKÉMON can no longer be\n"
-	.string "caught anywhere, did you know that?$"
+	.string "Wusstest du, dass man einige unserer\n"
+	.string "POKéMON hier mittlerweile nirgendwo\l"
+	.string "mehr fangen kann?$"
 
 
 GimnasioAnciana_Text_Anciano3Defeated:
-	.string "Where did you catch those POKÉMON?$"
+	.string "Wo hast du diese POKéMON gefangen?$"
 
 
 GimnasioAnciana_Text_Anciano3PostBattle:
-	.string "SEVII ISLANDS are formidable, although\n"
-	.string "the best spots are still kept secret.$"
+	.string "Die SEVII EILANDE haben viel zu bieten\n"
+	.string "und doch sind uns ihre großartigsten\l"
+	.string "Orte noch immer ein Geheimnis.$"
 
 
 GoldenrodUnderground_Text_Maton2Intro:
@@ -15347,24 +15361,26 @@ MisionIrisLab_Text_LadronPostBattle:
 
 
 CuevaTesoro1_Text_PoliciaIntro:
-	.string "No one has entered here in hundreds of\n"
-	.string "years. Is this a joke?$"
+	.string "Willst du mich verarschen?! Hier war\n"
+	.string "seit Jahrhunderten niemand mehr!$"
 
 
 CuevaTesoro1_Text_PoliciaDefeated:
-	.string "Where are you from?$"
+	.string "Wie hast du von dem Ort erfahren?$"
 
 
 CuevaTesoro1_Text_PoliciaPostBattle:
-	.string "Now I understand, you heard the\n"
-	.string "location of this place while\l"
-	.string "eavesdropping on us. Right, scoundrel?$"
+	.string "Jetzt verstehe ich! Du hast uns\n"
+	.string "heimlich belauscht und so von dem Ort\l"
+	.string "hier erfahren.\p"
+	.string "Ist doch so, oder du Wicht?!$"
 
 
 CuevaTesoro1_Text_Policia2Intro:
-	.string "I was only supposed to stay here just\n"
-	.string "in case. You didn't come to spoil the\l"
-	.string "party, did you?$"
+	.string "Ich sollte hier nur Wache schieben - für\n"
+	.string "den Fall, dass was passiert.\p"
+	.string "Du bist doch nicht hier, um uns\n"
+	.string "den Spaß zu verderben, oder?$"
 
 
 CuevaTesoro1_Text_Policia2Defeated:
@@ -15373,200 +15389,216 @@ CuevaTesoro1_Text_Policia2Defeated:
 
 
 CuevaTesoro1_Text_Policia2PostBattle:
- 	.string "You're not aware of the scale of our\n"
-	.string "organization.$"
+	.string "Du hast keine Ahnung, mit wem du dich\n"
+	.string "hier anlegst!$"
 
 
 CuevaTesoro1_Text_Policia3Intro:
-	.string "Look at this biodiversity! Isn't it\n"
-	.string "magnificent? Wait! Who are you?$"
+	.string "Schau dir doch nur die Artenvielfalt an,\n"
+	.string "die es hier gibt.\p"
+	.string "Ist es nicht großartig hier?$"
 
 
 CuevaTesoro1_Text_Policia3Defeated:
-	.string "This wasn't part of the plan!$"
+	.string "Das war nicht Teil des Plans!$"
 
 
 CuevaTesoro1_Text_Policia3PostBattle:
-	.string "For thousands of years, this cave has\n"
-	.string "remained isolated from external\l"
-	.string "contact. This has allowed it to maintain\l"
-	.string "a unique variety of species.$"
+	.string "Diese Höhle war für Jahrtausende von\n"
+	.string "der Außenwelt abgeschnitten.\p"
+	.string "Dadurch konnte sie ihre einzigartige\n"
+	.string "Artenvielfalt bewahren.$"
 
 
 CuevaTesoro1_Text_Policia4Intro:
-	.string "Are you one of those mercenaries\n"
-	.string "looking to seize the treasure?$"
+	.string "Bist du etwa ein Schatzjäger?$"
 
 
 CuevaTesoro1_Text_Policia4Defeated:
-.string "Hmm... Don't seem so.$"
+.string "Hmm … Scheinst mir keiner zu sein.$"
 
 
 CuevaTesoro1_Text_Policia4PostBattle:
-	.string "Your POKÉMON are trained with too much\n"
-	.string "care to be from a mercenary. What I\l"
-	.string "don't know is who you are.$"
+	.string "Du behandelst deine POKéMON zu gut, um\n"
+	.string "ein skrupelloser Schatzjäger zu sein.\p"
+	.string "Nun stellt sich die Frage, wer du\n"
+	.string "wirklich bist …$"
 
 
 CuevaTesoro2_Text_PoliciaIntro:
-.string "So, you're the exception that proves\n"
-	.string "the rule, aren't you?$"
+	.string "Also bist du die Ausnahme, die die Regel\n"
+	.string "bestätigt.$"
 
 
 CuevaTesoro2_Text_PoliciaDefeated:
-	.string "That's it.$"
+	.string "Da hatte ich wohl recht.$"
 
 
 CuevaTesoro2_Text_PoliciaPostBattle:
-	.string "Based on my calculations, there are\n"
-	.string "over 10 distinct POKÉMON species in\l"
-	.string "this underwater cavern.$"
+	.string "Meinen Berechnungen zufolge gibt es\n"
+	.string "mehr als 10 verschiedene\l"
+	.string "POKéMON-Arten in dieser Höhle.$"
 
 
 CuevaTesoro3_Text_PoliciaIntro:
-	.string "We were already warned from the upper\n"
-	.string "floors. You can't defeat all of us!$"
+	.string "Die von oben haben uns schon\n"
+	.string "vorgewarnt. Du kannst es nicht mit uns\l"
+	.string "allen aufnehmen!$"
 
 
 CuevaTesoro3_Text_PoliciaDefeated:
-	.string "I'm just another one.$"
+	.string "Ich bin also nur ein weiteres\n"
+	.string "Bauernopfer.$"
 
 
 CuevaTesoro3_Text_PoliciaPostBattle:
-	.string "It's in your best interest not to upset\n"
-	.string "the higher-ups; our top trainers would\l"
-	.string "turn you into debris.$"
+	.string "Leg dich besser nicht mit meinen\n"
+	.string "Vorgesetzten an. Unsere Top-Trainer\l"
+	.string "werden dich in Stücke zerreißen.$"
 
 
 
 CuevaTesoro3_Text_CientificoIntro:
-	.string "Do you know what the true treasure of\n"
-	.string "this place is?$"
+	.string "Weißt du, was der wahre Schatz dieses\n"
+	.string "Ortes ist?$"
 
 
 CuevaTesoro3_Text_CientificoDefeated:
-	.string "I'll tell you.$"
+	.string "Ich sag es dir.$"
 
 
 CuevaTesoro3_Text_CientificoPostBattle:
-	.string "I'll tell you: the real treasure of this\n"
-	.string "cave is an extraordinary POKÉMON.\l"
-	.string "That's why we came here, to catch and\l"
-	.string "study it.$"
+	.string "Ich sag es dir: Der wahre Schatz dieser\n"
+	.string "Höhle ist ein außergewöhnliches\l"
+	.string "POKéMON. Deshalb sind wir hier - um\l"
+	.string "es zu fangen und zu erforschen.$"
 
 
 CuevaTesoro3_Text_Policia2Intro:
-	.string "You've already gone too far, don't you\n"
-	.string "think?$"
+	.string "Meinst du nicht, dass du die Grenze\n"
+	.string "bereits überschritten hast?$"
 
 
 CuevaTesoro3_Text_Policia2Defeated:
-	.string "Continue... continue...$"
+	.string "Geh ruhig weiter …$"
 
 
 CuevaTesoro3_Text_Policia2PostBattle:
-	.string "I understand, you're not the type to\n"
-	.string "quit halfway. The problem is, if you\l"
-	.string "reach the end, we'll have to finish you\l"
-	.string "off.$"
+	.string "Ich versteh schon. Du bist nicht von\n"
+	.string "der Sorte, die auf halbem Weg umkehrt.\p"
+	.string "Das Problem ist nur, dass wir dich\n"
+	.string "eliminieren müssen, wenn du bis ans Ende\l"
+	.string "kommst.$"
 
 
 CuevaTesoro4_Text_PoliciaIntro:
-	.string "It's said that security in the nearby\n"
-	.string "regions is pathetic. Is it true?$"
+	.string "Es heißt, dass die Sicherheit in den\n"
+	.string "Nachbarregionen echt mies sein soll.\p"
+	.string "Stimmt das?$"
 
 
 CuevaTesoro4_Text_PoliciaDefeated:
-	.string "You wouldn't be in the POLICE...$"
+	.string "Du bist definitiv kein POLIZIST …$"
 
 
 CuevaTesoro4_Text_PoliciaPostBattle:
-	.string "In DEVON, it's inconceivable for a\n"
-	.string "10-year-old to sneak into our\l"
-	.string "HEADQUARTERS. First and foremost, our\l"
-	.string "real HEADQUARTERS is not accessible to\l"
-	.string "the public.$"
+	.string "Bei uns, der DEVON CORPORATION, wäre es\n"
+	.string "undenkbar, dass ein zehnjähriger Knirps\l"
+	.string "erfolgreich in unseren HAUPTSITZ\l"
+	.string "eindringt.\p"
+	.string "Unser wahrer HAUPTSITZ ist nicht\n"
+	.string "mal der Öffentlichkeit zugänglich.$"
 
 
 CuevaTesoro4_Text_Policia2Intro:
-	.string "Your efforts are futile. DEVON becomes\n"
-	.string "stronger the more it is attacked; you're\l"
-	.string "only helping us grow!$"
+	.string "Deine Mühen sind vergebens! Die DEVON\n"
+	.string "CORPORATION wird mit jedem Angriff auf\l"
+	.string "sie nur stärker! Du hilfst uns also\l"
+	.string "lediglich, stärker zu werden!$"
 
 
 CuevaTesoro4_Text_Policia2Defeated:
-	.string "Come on! Keep fighting!$"
+	.string "Na los! Mach weiter so!$"
 
 
 CuevaTesoro4_Text_Policia2PostBattle:
-	.string "Our PRESIDENT gave us an extensive\n"
-	.string "lecture on the principle of\l"
-	.string "antifragility. He also gave each of us a\l"
-	.string "book about it; it had around 600 pages...$"
+	.string "Unser PRÄSIDENT hat einen langen\n"
+	.string "Vortrag über das Thema -Antifragilität-\l"
+	.string "gehalten. Darüber hinaus hat er uns ein\l"
+	.string "Buch darüber gegeben, das ungefähr 600\l"
+	.string "Seiten hat …$"
 
 
 CuevaTesoro4_Text_CientificoIntro:
-	.string "If your goal is to reach our superior, I\n"
-	.string "regret to inform you that it won't be\l"
-	.string "achievable. We're currently on a mission\l"
-	.string "to catch a POKÉMON with very special\l"
-	.string "skills.$"
+	.string "Wenn du zu unserem Vorgesetzten willst\n"
+	.string "und ihn besiegen willst, habe ich\l"
+	.string "schlechte Nachrichten für dich: Es wird\l"
+	.string "dir nicht gelingen! Wir sind nämlich\l"
+	.string "gerade dabei, ein außergewöhnliches\l"
+	.string "POKéMON zu fangen - und das erfordert\l"
+	.string "einen fähigen Vorgesetzten.$"
 
 
 CuevaTesoro4_Text_CientificoDefeated:
-	.string "So be it.$"
+	.string "So sei es.$"
 
 
 CuevaTesoro4_Text_CientificoPostBattle:
-	.string "Our superior's POKÉMON are formidable.$"
+	.string "Die POKéMON unseres Vorgesetzten sind\n"
+	.string "furchterregend.$"
 
 
 CuevaTesoro4_Text_Cientifico2Intro:
-	.string "Here are species you won't see for\n"
-	.string "thousands of kilometers around. But\l"
-	.string "that's not the main reason we're here.$"
+	.string "Hier gibt es Arten, die man im Umkreis\n"
+	.string "von tausenden Kilometern nirgend wo\l"
+	.string "findet. Aber das ist nicht der\l"
+	.string "eigentliche Grund, warum wir hier sind.$"
 
 
 CuevaTesoro4_Text_Cientifico2Defeated:
-	.string "You have some very curious species on\n"
-	.string "your team as well...$"
+	.string "Du hast ebenfalls einige\n"
+	.string "außergewöhnliche Arten in\l"
+	.string "deinem Team …$"
 
 
 CuevaTesoro4_Text_Cientifico2PostBattle:
-	.string "How about you? What brought you here?$"
+	.string "Und wie ist es bei dir?\n"
+	.string "Was hat dich hierhergeführt?$"
 
 
 CuevaTesoro4_Text_Cientifico3Intro:
-	.string "No outsider will get in the way of our\n"
-	.string "superior and the mission. You're merely\l"
-	.string "another chance obstacle, and\l"
-	.string "consequently, we'll eliminate you!$"
+	.string "Kein Außenstehender wird sich zwischen\n"
+	.string "unserem Vorgesetzten und der Mission\l"
+	.string "stellen!\p"
+	.string "Du bist nur ein weiteres Hindernis,\n"
+	.string "das wir aus dem Weg räumen werden!$"
 
 
 CuevaTesoro4_Text_Cientifico3Defeated:
-	.string "Perhaps you're not as casual.$"
+	.string "Vielleicht habe ich dich unterschätzt.$"
 
 
 CuevaTesoro4_Text_Cientifico3PostBattle:
-	.string "We're here as a result of extensive\n"
-	.string "prior research. Someone like you, unable\l"
-	.string "to comprehend the power contained\l"
-	.string "here, doesn't deserve to progress\l"
-	.string "further.$"
+	.string "Unsere Anwesenheit hier basiert auf\n"
+	.string "gründlichen Recherchen. Wer wie du die\l"
+	.string "wahre Bedeutung dieses Ortes nicht\l"
+	.string "kennt - geschweige denn versteht, hat\l"
+	.string "kein Recht, weiterzugehen!$"
 
 
 SilphS2_Text_Cientifico4Intro:
-	.string "You defeated LANCE, huh? Show me how\n"
-	.string "you pulled it off!$"
+	.string "Du hast SIEGFRIED besiegt, nicht wahr?\n"
+	.string "Zeig mir, wie du es angestellt hast!$"
 
 
 SilphS2_Text_Cientifico4Defeated:
-	.string "Impressive.$"
+	.string "Beeindruckend!$"
 
 
 SilphS2_Text_Cientifico4PostBattle:
-	.string "No one could break the legendary team\n"
-	.string "that LANCE assembled until you arrived.$"
+	.string "Niemand konnte es mit dem legendären\n"
+	.string "Team von SIEGFRIED aufnehmen, bis du\l"
+	.string "aufgetaucht bist.$"
 
 
 AzaleaCarbonS1_Text_ObreroIntro:
@@ -15880,34 +15912,37 @@ VictoryRoad3F_Text_Pareja2PostBattle:
 
 
 KindleRoad_Text_Pareja1Intro:
-	.string "FER: There's nothing I fear when I'm\n"
-	.string "with PÍA!$"
+	.string "DIRK: An der Seite von HEIDI\n"
+	.string "habe ich vor nichts Angst!$"
 
 
 
 KindleRoad_Text_Pareja1Defeated:
-	.string "FER: Oh, you're too much!$"
+	.string "DIRK: Wow!\n"
+    .string "Das ist zu viel!$"
 
 
 
 KindleRoad_Text_Pareja1PostBattle:
-	.string "FER: How could our team fail?$"
+	.string "DIRK: Wie kann ich an der\n"
+    .string "Seite von Heide verlieren?$"
 
 
 KindleRoad_Text_Pareja2Intro:
-	.string "PÍA: My older brother and I make an\n"
-	.string "incredible team!$"
+	.string "HEIDI: Mein großer Bruder und ich\n"
+	.string "sind ein grandioses Gespann!$"
 
 
 
 KindleRoad_Text_Pareja2Defeated:
-	.string "PÍA: Unbelievable!$"
+	.string "HEIDI: Häh!?!\n"
+	.string "Ich kann das nicht glauben!$"
 
 
 
 KindleRoad_Text_Pareja2PostBattle:
-	.string "PÍA: How is there someone superior to\n"
-	.string "my brother?$"
+	.string "HEIDI: Wie kann jemand besser als mein\n"
+	.string "Bruder sein?$"
 
 
 
@@ -15977,137 +16012,151 @@ Route14_Text_Pareja2PostBattle:
 
 
 WaterPath_Text_Pareja1Intro:
-	.string "MARU: Beloved POKÉMON! Let's have some\n"
-	.string "fun!$"
+	.string "LEA: Hallo, POKéMON!\n"
+	.string "Zeit zum Spielen!$"
 
 
 
 WaterPath_Text_Pareja1Defeated:
-	.string "MARU: Nooooo! Mommmmm!$"
+	.string "LEA: Oh, nein!\n"
+	.string "Mamsi!$"
 
 
 
 WaterPath_Text_Pareja1PostBattle:
-	.string "MARU: Losing makes me really sad...$"
+	.string "LEA: Eine Niederlage erfüllt mich mit\n"
+	.string "Trauer…$"
 
 
 
 WaterPath_Text_Pareja2Intro:
-	.string "MÍA: Beloved POKÉMON! Let's have some\n"
-	.string "battle!$"
+	.string "MIA: Hallo, POKéMON!\n"
+	.string "Zeit zum Kämpfen!$"
 
 
 
 WaterPath_Text_Pareja2Defeated:
-	.string "MÍA: Look at you! It's not fair that you\n"
-	.string "win!$"
+	.string "MIA: Du bist fies!\n"
+	.string "Ein schlechter Gewinner!$"
 
 
 
 WaterPath_Text_Pareja2PostBattle:
-	.string "MÍA: Ooooh... Sorry, dear POKÉMON...$"
+	.string "MIA: Oh …\n"
+	.string "Es tut mir Leid, meine POKéMON…$"
 
 
 
 OutcastIsland_Text_Pareja1Intro:
-	.string "ALI: Let's battle, enjoying the sea\n"
-	.string "breeze!$"
+	.string "TINA: Lass uns einen Zwei-gegen-\n"
+	.string "Zwei Marinekampf beschreiten?$"
 
 
 
 OutcastIsland_Text_Pareja1Defeated:
-	.string "ALI: You're amazing! Plus, you don't\n"
-	.string "need anyone's help!$"
+	.string "TINA: Oh, du überraschst mich!\n"
+	.string "Noch besser, du bist allein!$"
 
 
 
 OutcastIsland_Text_Pareja1PostBattle:
-	.string "ALI: I prefer the sea a thousand times\n"
-	.string "over the pool.$"
+	.string "TINA: Ich bevorzuge das Meer\n"
+	.string "gegenüber jedem Pool!$"
 
 
 
 OutcastIsland_Text_Pareja2Intro:
-	.string "ROS: Little sister, help! Fight with me!$"
+	.string "TINO: Hilf mir, große Schwester!\n"
+	.string "Bitte kämpfe mit mir!$"
 
 
 
 OutcastIsland_Text_Pareja2Defeated:
-	.string "ROS: Little sis, he's so strong!$"
+	.string "TINO: Wow, große Schwester, diese\n"
+	.string "Person ist richtig gut!$"
 
 
 
 OutcastIsland_Text_Pareja2PostBattle:
-	.string "ROS: I hold onto my little sister\n"
-	.string "because I can't touch the ground.$"
+	.string "TINO: Ich bin auf meine Schwester\n"
+	.string "angewiesen, da ich den Boden\l"
+	.string "nicht berühren kann.$"
 
 
 
 CanyonEntrance_Text_Pareja1Intro:
-	.string "ELE: I join forces with RUS for combat.$"
+	.string "TIZIA: Ich bilde ein Team mit TILL\n"
+	.string "und wir kämpfen gemeinsam.$"
 
 
 
 CanyonEntrance_Text_Pareja1Defeated:
-	.string "ELE: Well, RUS and I lost, hehe.$"
+	.string "TIZIA: TILL und ich haben\n"
+	.string "verloren, Hehe!$"
 
 
 
 CanyonEntrance_Text_Pareja1PostBattle:
-	.string "ELE: I need to train more with RUS.$"
+	.string "TIZIA: Ich muss härter mit TILL\n"
+	.string "trainieren.$"
 
 
 
 CanyonEntrance_Text_Pareja2Intro:
-	.string "RUS: When I'm with ELE, I feel like I'll\n"
-	.string "never lose.$"
+	.string "TILL: Wenn ich an der Seite von\n"
+	.string "TIZIA bin, fühle ich, dass wir\l"
+	.string "nicht verlieren können…$"
 
 
 
 CanyonEntrance_Text_Pareja2Defeated:
-	.string "RUS: Being with ELE, I don't feel a\n"
-	.string "sense of loss.$"
+	.string "TILL: Wenn ich an der Seite von\n"
+	.string "TIZIA bin, fühle ich, dass wir\l"
+	.string "nicht verloren haben…$"
 
 
 
 CanyonEntrance_Text_Pareja2PostBattle:
-	.string "RUS: When I'm with ELE, I don't care if I\n"
-	.string "win or lose. It's an inexplicable\l"
-	.string "feeling!$"
+	.string "TILL: Wenn ich an der Seite von\n"
+	.string "TIZIA bin, ist mir schwindelig,\l"
+	.string "egal, ob ich gewinne oder verliere.$"
 
 
 
 SevaultCanyon_Text_Pareja1Intro:
-	.string "LINO: My beloved ABA, there's no one\n"
-	.string "who can beat us!$"
+	.string "OLE: GRIT, mein Schatz, zusammen\n"
+	.string "werden wir gewinnen!$"
 
 
 
 SevaultCanyon_Text_Pareja1Defeated:
-	.string "LINO: I think I let my guard down...$"
+    .string "OLE: Ich war anscheinend zu\n"
+	.string "sorglos…$"
 
 
 
 SevaultCanyon_Text_Pareja1PostBattle:
-	.string "LINO: I think it has been a good\n"
-	.string "experience for ABA. Thank you.$"
+	.string "OLE: Ich denke, es war eine gute\n"
+	.string "Erfahrung für GRIT.\l"
+	.string "Ich möchte dir danken!$"
 
 
 
 SevaultCanyon_Text_Pareja2Intro:
-	.string "ABA: I will put in a lot of effort to not\n"
-	.string "disappoint my teacher LINO.$"
+	.string "GRIT: Ich gebe mein Bestes, um\n"
+	.string "meinen Mentor nicht zu enttäuschen!$"
 
 
 
 SevaultCanyon_Text_Pareja2Defeated:
-	.string "ABA: Oooh... I'm sorry...$"
+    .string "GRIT: Oh, nein…\n"
+	.string "Es tut mir so Leid…$"
 
 
 
 SevaultCanyon_Text_Pareja2PostBattle:
-	.string "ABA: I think I'll need LINO to mentor\n"
-	.string "and guide me more... LINO, is that okay?$"
+	.string "GRIT: Ich denke, ich brauche noch\n"
+	.string "Weitere Lehrstunden unter Ole…$"
 
 
 
@@ -16204,233 +16253,258 @@ GoldenrodGym_Text_Chica3PostBattle:
 
 
 Magma2_Text_Magma_1Intro:
-	.string "Tell me a single KANTO POKÉMON that\n"
-	.string "surpasses GROUDON. Exactly! None!$"
+	.string "Nenne mir ein POKéMON, dass stärker als\n"
+	.string "GROUDON ist. Genau! Gar keins!$"
 
 Magma2_Text_Magma_1Defeated:
-	.string "Who cares about your team! GROUDON will\n"
-	.string "destroy you!$"
+	.string "Was interessiert mich dein Team?!\p"
+	.string "GROUDON wird dich dem Erdboden\n"
+	.string "gleichmachen.$"
 
 Magma2_Magma_1PostBattle:
- 	.string "RHYDON? GOLEM? Just wait to see\n"
-	.string "GROUDON's EARTHQUAKE! You'll regret\l"
-	.string "having come this far!$"
+	.string "RIZEROS? GEOWAZ? Warte nur ab, bis du\n"
+	.string "GROUDONs ERDBEBEN spürst! Dann wirst\l"
+	.string "du dir wünschen, dass du uns niemals in\l"
+	.string "die Quere gekommen wärst!$"
 
 Magma2_Text_Magma_2Intro:
-	.string "Your region is mediocre when it comes to\n"
-	.string "powerful POKÉMON... What? You don't\l"
-	.string "need them because you're going to\l"
-	.string "create them yourselves? Foolish!$"
+	.string "Deiner Region ist nicht gerade ein\n"
+	.string "Spitzenreiter, was mächtige POKéMON\l"
+	.string "angeht, nicht wahr? Was? Das spielt\l"
+	.string "keine Rolle, weil du sie einfach selbst\l"
+	.string "erschaffen wirst? Wie lächerlich!$"
 
 Magma2_Text_Magma_2Defeated:
-	.string "Did you create those POKÉMON?$"
+	.string "Hast du diese POKéMON etwa selbst\n"
+	.string "erschaffen?$"
 
 Magma2_Magma_2PostBattle:
-	.string "You think we rely excessively on nature\n"
-	.string "for the success of our plans...\l"
-	.string "interesting.$"
+	.string "Du denkst also, wir verlassen uns bei\n"
+	.string "unseren Plänen zu sehr auf die Natur …\l"
+	.string "Interessant.$"
 
 Magma2_Text_Magma_3Intro:
-	.string "We know everything about GROUDON;\n"
-	.string "perhaps if you knew the same, you would\l"
-	.string "reconsider your presence here.$"
+	.string "Wir wissen alles über GROUDON. Wenn du\n"
+	.string "auch nur die Hälfte von dem wüsstest,\l"
+	.string "was wir wissen, würdest du dich\l"
+	.string "schleunigst vom Acker machen!$"
 
 Magma2_Text_Magma_3Defeated:
-	.string "Wait! What?$"
+	.string "Moment mal! Was?$"
 
 Magma2_Magma_3PostBattle:
-	.string "Defeating GROUDON with just water\n"
-	.string "attacks won't work; the weather will\l"
-	.string "turn infernal as soon as it appears!$"
+	.string "Du kannst GROUDON nicht einfach mit\n"
+	.string "Wasser-Attacken besiegen! Sobald es\l"
+	.string "erscheint, wird das Wetter höllisch!$"
 
 Magma2_Text_Magma_4Intro:
-	.string "I expect to see GROUDON triggering its\n"
-	.string "ERUPTION on your beloved POKÉMON, with\l"
-	.string "the sun blazing at its maximum power.$"
+	.string "Ich würde mich freuen, wenn GROUDON\n"
+	.string "seine Attacke ERUPTION gegen dein\l"
+	.string "geliebtes Team ersetzt, während\l"
+	.string "gleißendes Sonnenlicht herrscht!$"
 
 Magma2_Text_Magma_4Defeated:
-	.string "Wow... maybe with those POKÉMON, you can\n"
-	.string "handle it.$"
+	.string "Wow! Vielleicht hast du mit diesen\n"
+	.string "POKéMON ja doch eine Chance!$"
 
 Magma2_Magma_4PostBattle:
-	.string "Actually, it would be better to use\n"
-	.string "EARTHQUAKE; GROUDON's physical ATTACK\l"
-	.string "is much better than its SPECIAL ATTACK.$"
+	.string "Wenn ich darüber nachdenke, werde\n"
+	.string "ERDBEBEN doch besser. GROUDONs\l"
+	.string "physischer ANGRIFF ist nämlich viel\l"
+	.string "höher als sein SPEZIAL-ANGRIFF.$"
 
 
 
 Magma2_Text_Magma_5Intro:
-	.string "What are you talking about? Why would\n"
-	.string "we desire more land? What's wrong with\l"
-	.string "you? Do you want to drown in the middle\l"
-	.string "of the sea? It's better to have too\l"
-	.string "much land than not enough!$"
+	.string "Was schwafelst du da für 'nen Unsinn?\n"
+	.string "Warum sollten wir nicht mehr Land haben\l"
+	.string "wollen? Was stimmt den nicht mir dir?\p"
+	.string "Willst du etwa mitten im Ozean\n"
+	.string "ertrinken?\p"
+	.string "Lieber zu viel Land als zu wenig!$"
 
 Magma2_Text_Magma_5Defeated:
-	.string "No! Forgive me GROUDON!$"
+	.string "NEIN! Vergebe mir, GROUDON!$"
 
 Magma2_Magma_5PostBattle:
-	.string "If we allow things to proceed\n"
-	.string "unchecked, those rogues from TEAM AQUA\l"
-	.string "will flood everything with water. Do you\l"
-	.string "grasp the importance of this?$"
+	.string "Wenn wir nicht handeln, dann werden\n"
+	.string "diese Dreckskerle von TEAM AQUA alles\l"
+	.string "überfluten! Willst du das etwa?$"
 
 
 Magma2_Text_Magma_6Intro:
-	.string "GROUDON boasts the world's best ratio\n"
-	.string "between HEALTH, ATTACK, and DEFENSE\l"
-	.string "among known POKÉMON. What do you have\l"
-	.string "against that?$"
+	.string "GROUDON besitzt von allen POKéMON den\n"
+	.string "besten Mix aus KP, ANGRIFF und\l"
+	.string "VERTEIDIGUNG!\p"
+	.string "Was hast du dem entgegenzusetzen?$"
 
 Magma2_Text_Magma_6Defeated:
-	.string "Quite talented, from what I can see.$"
+	.string "Du hast Talent.$"
 
 Magma2_Magma_6PostBattle:
-	.string "I must admit that RHYDON, and\n"
-	.string "especially RHYPERIOR, have an\l"
-	.string "extraordinary ratio between HEALTH,\l"
-	.string "ATTACK, and DEFENSE for non-legendary\l"
-	.string "POKÉMON. RHYPERIOR falls short by only\l"
-	.string "5 points in the sum of these three\l"
-	.string "compared to GROUDON. Although many\l"
-	.string "here may dismiss KANTO POKÉMON, none\l"
-	.string "from other regions come close to such\l"
-	.string "physical power, highly valued here.$"
+	.string "Ich muss zugeben, dass RIZEROS und vor\n"
+	.string "allem RIHORNIOR einen außergewöhnlich\l"
+	.string "Mix aus KP, ANGRIFF und VERTEIDIGUNG\l"
+	.string "besitzen - für nicht-legendäre POKéMON\l"
+	.string "versteht sich. RIHORNIOR liegt in\l"
+	.string "diesen Werten nur insgesamt fünf\l"
+	.string "Punkte hinter GROUDON. Die meisten\l"
+	.string "halten nicht viel von den POKéMON aus\l"
+	.string "KANTO, aber kein anderes aus den\l"
+	.string "anderen Regionen kommt an diese pure\l"
+	.string "physische Kraft heran, die so sehr\l"
+	.string "geschätzt wird.$"
 
 
 
 Aqua1_Text_Aqua_1Intro:
-	.string "Ignorant fool, ask your scientists\n"
-	.string "about the aquatic power of KYOGRE\l"
-	.string "under DRIZZLE. You would flee if you\l"
-	.string "knew the answer!$"
+	.string "Törichter Narr! Frag mal die\n"
+	.string "Wissenschaftler bei euch nach der\l"
+	.string "Kraft von KYOGREs Wasser-Attacken,\l"
+	.string "während NIESEL aktiv ist.$"
 
 Aqua1_Text_Aqua_1Defeated:
-	.string "Powerful!$"
+	.string "Was für eine Kraft!$"
 
 Aqua1_Aqua_1PostBattle:
-	.string "Neutralizing strength with speed and\n"
-	.string "strategy? Maybe...$"
+	.string "Vielleicht kann man ja einer\n"
+	.string "überwältigenden Kraft mit einer\l"
+	.string "Kombination aus Geschwindigkeit\l"
+	.string "und Strategie entgegenwirken …$"
 
 
 
 Aqua1_Text_Aqua_2Intro:
-	.string "GROUDON is terrible compared to KYOGRE;\n"
-	.string "it doesn't even make good use of its\l"
-	.string "DROUGHT. We are on the good side.$"
+	.string "Verglichen mit KYOGRE ist GROUDON ein\n"
+	.string "Schwächling! Es holt nicht mal das\l"
+	.string "Maximum aus seiner DÜRRE heraus!\p"
+	.string "Wir sind hier die Guten!$"
 
 Aqua1_Text_Aqua_2Defeated:
-	.string "Bah, you won just because there was\n"
-	.string "no rain on the field.$"
+	.string "Pah! Du hast nur gewonnen, weil es nicht\n"
+	.string "geregnet hat!$"
 
 
 Aqua1_Aqua_2PostBattle:
-	.string "And you? Which team do you support?$"
+	.string "Und? Auf welcher Seite bist du?$"
 
 
 
 Aqua1_Text_Aqua_3Intro:
-	.string "Could you believe there's a cavern\n"
-	.string "under these ruins?$"
+	.string "Wer hätte gedacht, dass sich unter\n"
+	.string "diesen Ruinen eine Höhle verbirgt?$"
 
 Aqua1_Text_Aqua_3Defeated:
-	.string "Could anyone have anticipated the\n"
-	.string "presence of trainers like you in this\l"
-	.string "area?$"
+	.string "Wer hätte gedacht, dass es hier Trainer\n"
+	.string "wie dich gibt?$"
 
 Aqua1_Aqua_3PostBattle:
-	.string "Could there be more places like this on\n"
-	.string "the other islands?$"
+	.string "Ob es wohl noch mehr Orte wie diesen\n"
+	.string "hier auf den anderen Inseln gibt?$"
 
 
 
 Aqua1_Text_Aqua_4Intro:
-	.string "TEAM ROCKET? ROCKET ADMIN? Weren't\n"
-	.string "you finished?$"
+	.string "TEAM ROCKET? ROCKET ADMINISTRATOR?\n"
+	.string "Ich dachte, euch gäbe es nicht mehr!$"
 
 Aqua1_Text_Aqua_4Defeated:
-	.string "Apparently not...$"
+	.string "Scheinbar gibt es euch doch noch …$"
 
 Aqua1_Aqua_4PostBattle:
-	.string "It's evident that you're not an\n"
-	.string "ordinary person; we also have ranks\l"
-	.string "here. Can you deal with our\l"
-	.string "ADMINISTRATOR?$"
+	.string "Du bist eindeutig kein gewöhnlicher\n"
+	.string "Trainer. Aber in unserer Organisation\l"
+	.string "gibt es auch Hierarchien.\p"
+	.string "Glaubst du, du kannst es mit unserem\n"
+	.string "ADMINISTRATOR aufnehmen?$"
 
 
 
 Aqua1_Text_Aqua_5Intro:
-	.string "Name a single POKÉMON with higher\n"
-	.string "SPECIAL ATTACK than KYOGRE in KANTO.\l"
-	.string "You can't! Your region is weak!$"
+	.string "Nenne mir ein POKéMON, dass einen\n"
+	.string "höheren Spezial-Angriff als KYOGRE\l"
+	.string "hat! Ach ja, das kannst du gar nicht,\l"
+	.string "weil deine Region nur schwache POKéMON\l"
+	.string "hat!$"
 
 Aqua1_Text_Aqua_5Defeated:
-	.string "How powerful!$"
+	.string "So viel Stärke …$"
 
 Aqua1_Aqua_5PostBattle:
-	.string "MEWTWO!? Don't invent POKÉMON; in\n"
-	.string "KANTO, only GENGAR and ALAKAZAM are\l"
-	.string "significant special attackers, far from\l"
-	.string "KYOGRE's BASE 150.$"
+	.string "MEWTU, sagst du? Jetzt fängst du schon\n"
+	.string "an, dir POKéMON auszudenken. Die\l"
+	.string "einzigen nennenswerten KANTO-POKéMON\l"
+	.string "mit dezentem Spezial-Angriff sind\l"
+	.string "GENGAR und SIMSALA - und selbst ihre\l"
+	.string "Werte sind weit von KYOGREs 150\l"
+	.string "entfernt.$"
 
 Aqua1_Text_Aqua_6Intro:
-	.string "From the sea, life emerged, and there we\n"
-	.string "will return!$"
+	.string "In den Meeren begann das Leben und\n"
+	.string "dorthin kehrt es auch zurück!$"
 
 Aqua1_Text_Aqua_6Defeated:
-	.string "You've brought me down!$"
+	.string "Du hast mich versenkt!$"
 
 Aqua1_Aqua_6PostBattle:
-	.string "GYARADOS is an amazing POKÉMON,\n"
-	.string "although many here say SHARPEDO is\l"
-	.string "better; I think they only say that\l"
-	.string "because it's from HOENN.$"
+	.string "GARADOS ist ein beeindruckendes\n"
+	.string "POKéMON - auch wenn viele sagen, dass\l"
+	.string "TOHAIDO besser ist.\p"
+	.string "Ich glaube, die denken das nur,\n"
+	.string "weil sie aus HOENN kommen.$"
 
 DottedHole_B4F_Text_Aqua_1Intro:
-	.string "How did you get here? We were only\n"
-	.string "supposed to be here just in case. Don't\l"
-	.string "come now to ruin all!$"
+	.string "Wie bist du hierhergekommen? Wir sollen\n"
+	.string "uns hier nur für den Fall bereithalten,\l"
+	.string "dass unten was schiefläuft. Komm uns\l"
+	.string "jetzt bloß nicht in die Quere!$"
 
 DottedHole_B4F_Text_Aqua_1Defeated:
-	.string "Oh! Come on!$"
+	.string "Ach, komm schon!$"
 
 DottedHole_B4F_Aqua_1PostBattle:
-	.string "I hope for your sake that you've just\n"
-	.string "gotten lost; don't even think about\l"
-	.string "going down the hole right behind you.$"
+	.string "Ich hoffe zu deinem Wohl, dass du dich\n"
+	.string "einfach nur zufällig hierher verirrt\l"
+	.string "hast! Denk gar nicht erst daran, in\l"
+	.string "das Loch hinter dir zu springen!$"
 
 DottedHole_B4F_Text_Aqua_2Intro:
-	.string "The Lord of the Seas was unjustly\n"
-	.string "confined in this place millennia ago;\l"
-	.string "when our LEADER releases him, nothing\l"
-	.string "will prevent him from reigning once\l"
-	.string "again as he deserves.$"
+	.string "Der Herr der Meere wurde vor\n"
+	.string "Jahrtausenden zu Unrecht an diesem Ort\l"
+	.string "eingesperrt! Sobald unser ANFÜHRER ihn\l"
+	.string "befreit, wird ihn nichts niemand mehr\l"
+	.string "davor abhalten, wieder zu herrschen -\l"
+	.string "so, wie es ihm zusteht!$"
 
 DottedHole_B4F_Text_Aqua_2Defeated:
-	.string "You won't get very far with that\n"
-	.string "attitude.$"
+	.string "Mit dieser Einstellung wirst du es nicht\n"
+	.string "weit bringen …$"
 
 DottedHole_B4F_Aqua_2PostBattle:
-	.string "I hope, for your sake, you don't make\n"
-	.string "the mistake of continuing; there's no\l"
-	.string "more devastating power than the\l"
-	.string "aquatic attacks of a KYOGRE under its\l"
-	.string "infernal storm.$"
+	.string "Ich hoffe, zu deinem eigenen Wohl, dass\n"
+	.string "du nicht weitergehst. Nichts ist\l"
+	.string "verheerender als die Kraft der\l"
+	.string "Wasser-Attacken KYOGREs - während\l"
+	.string "seines höllischen Sturms.$"
 
 
 DottedHole_B4F_Text_Aqua_3Intro:
-	.string "I trust our CAPTAIN and our LEADER,\n"
-	.string "ARCHIE; thanks to him, the sea will\l"
-	.string "finally have the expanse it deserves.$"
+	.string "Ich vertraue ADRIAN - unserem KAPITÄN\n"
+	.string "und ANFÜHRER. Dank ihm wird das Meer\l"
+	.string "endlich den Raum erhalten, den es\l"
+	.string "verdient!$"
 
 DottedHole_B4F_Text_Aqua_3Defeated:
-	.string "Forgive me, ARCHIE! I couldn't stop it!$"
+	.string "Vergebe mir ADRIAN!\n"
+	.string "Ich konnte ihn nicht aufhalten!$"
 
 DottedHole_B4F_Aqua_3PostBattle:
-	.string "Even if you reach my BOSS, there's no\n"
-	.string "turning back; they must be on the verge\l"
-	.string "of awakening KYOGRE, and once released,\l"
-	.string "its fury will be unstoppable.$"
+	.string "Selbst, wenn du es bis zu meinem BOSS\n"
+	.string "schaffst, wird es zu spät sein. Er muss\l"
+	.string "bereits kurz davor stehen, KYOGRE zu\l"
+	.string "erwecken und sobald es einmal\l"
+	.string "entfesselt ist, wird sein Zorn nicht\l"
+	.string "mehr zu bändigen sein.$"
 
 Olivine_Boat3_Text_CazabichosIntro:
 	.string "Nothing beats an impromptu battle as I\n"
@@ -16460,106 +16534,113 @@ NinjaBaseS3_Text_NinjaPostBattle:
 	.string "it always was, a true ninja hideout.$"
 
 TwoIsland_Text_BikerIntro:
-	.string "Where do you think you're going? This\n"
-	.string "land is private!$"
+	.string "Was hast du hier zu suchen?\n"
+	.string "Das ist Privateigentum!$"
 
 TwoIsland_Text_BikerDefeated:
-	.string "What power!$"
+	.string "Was für 'ne Power!$"
 
 TwoIsland_Text_BikerPostBattle:
-	.string "Where are you going? There's nothing in\n"
-	.string "that maze; it's empty.$"
+	.string "Wohin gehst du? In dem Gebäude ist\n"
+	.string "nichts! Es ist leer!$"
 
 TwoIsland_Text_Biker2Intro:
-	.string "But what's wrong with you, weren't you\n"
-	.string "from KANTO too? You're supposed to\l"
-	.string "support us!$"
+	.string "Was soll das? Kommst du nicht auch aus\n"
+	.string "KANTO? Du solltest auf unserer Seite\l"
+	.string "sein!$"
 
 TwoIsland_Text_Biker2Defeated:
-	.string "No way!$"
+	.string "Unmöglich!$"
 
 TwoIsland_Text_Biker2PostBattle:
-	.string "Up there, you might find something you\n"
-	.string "don't like.$"
+	.string "Da oben wirst du vielleicht was finden,\n"
+	.string "das dir nicht gefallen wird.$"
 
 TwoIsland_Torre_P2_Text_BikerIntro:
-	.string "The JOYFUL GAME CORNER around here\n"
-	.string "have always been pitiful. You wouldn't\l"
-	.string "want to leave them as they were, would\l"
-	.string "you?$"
+	.string "Die SPIELHALLE hier war schon immer 'ne\n"
+	.string "Lachnummer.\p"
+	.string "Du willst doch nicht wirklich,\n"
+	.string "dass alles beim Alten bleibt, oder?$"
 
 TwoIsland_Torre_P2_Text_BikerDefeated:
-	.string "Bah! I fought poorly!$"
+	.string "Pah! Ich habe echt mies gekämpft!$"
 
 TwoIsland_Torre_P2_Text_BikerPostBattle:
-	.string "This island will finally have proper\n"
-	.string "recreational facilities. You'll see!$"
+	.string "Die Insel wird endlich eine richtige\n"
+	.string "SPIELHALLE bekommen!\p"
+	.string "Wirst schon sehen!$"
 
 TwoIsland_Torre_P2_Text_CalvoIntro:
-	.string "The DODRIO'S BERRY PICKING is the\n"
-	.string "worst occurrence for this island. And\l"
-	.string "you want it to continue? You're\l"
-	.string "unforgivable!$"
+	.string "Das -BEERENERNTEN MIT DODORI-\n"
+	.string "Minispiel ist das Schlimmste, was dieser\l"
+	.string "Insel je passiert ist! Und du willst,\l"
+	.string "dass es weiterhin bestehen bleibt?!\p"
+	.string "Ist das dein Ernst?!$"
 
 TwoIsland_Torre_P2_Text_CalvoDefeated:
-	.string "What a disgusting battle.$"
+	.string "Was für 'n mieser Kampf.$"
 
 TwoIsland_Torre_P2_Text_CalvoPostBattle:
-	.string "I should have caught a KOFFING, that\n"
-	.string "way at least I would have taken down\l"
-	.string "one of your POKÉMON with EXPLOSION.$"
+	.string "Ich hätte 'n SMOGON fangen sollen. Dann\n"
+	.string "hätte ich wenigstens ein POKéMON von\l"
+	.string "dir mit EXPLOSION plattmachen können.$"
 
 TwoIsland_Torre_P3_Text_CalvoIntro:
-	.string "It's finished; I'm going to crush you\n"
-	.string "using raw force.$"
+	.string "Es reicht! Ich mach dich platt!$"
 
 TwoIsland_Torre_P3_Text_CalvoDefeated:
-	.string "URSARING! Keep fighting!$"
+	.string "URSARING! GIB NICHT AUF!$"
 
 TwoIsland_Torre_P3_Text_CalvoPostBattle:
-	.string "Do you believe you can come here and\n"
-	.string "act however you please?$"
+	.string "Denkst du, du kannst einfach hier\n"
+	.string "einbrechen und tun, was immer du willst?$"
 
 TwoIsland_Torre_P3_Text_RocketIntro:
-	.string "Not one step further, our executives\n"
-	.string "are having an important meeting.$"
+	.string "Keinen Schritt weiter! Unsere Chefs\n"
+	.string "sind gerade in 'ner wichtigen\l"
+	.string "Besprechung!$"
 
 
 TwoIsland_Torre_P3_Text_RocketDefeated:
-	.string "Wait! I've seen you before!$"
+	.string "Moment mal! Dich kenn ich doch von\n"
+	.string "irgendwoher!$"
 
 TwoIsland_Torre_P3_Text_RocketPostBattle:
-	.string "Are you a TEAM ROCKET ADMIN!? Well, you\n"
-	.string "must have risen quickly, when I was\l"
-	.string "around, I never heard of you.$"
+	.string "Bist du ein TEAM ROCKET\n"
+	.string "ADMINISTRATOR? Musst ja schnell\l"
+	.string "aufgestiegen sein. In meiner Zeit\l"
+	.string "dort habe ich nie von dir gehört.$"
 
 TwoIsland_Torre_P4_Text_RocketIntro:
-	.string "Who are you? Are you from TEAM ROCKET\n"
-	.string "too? You don't look familiar; we've\l"
-	.string "been planning this for months on these\l"
-	.string "islands, and I just know you won't stop\l"
-	.string "us.$"
+	.string "Wer bist du? Bist du auch von TEAM\n"
+	.string "ROCKET? Du kommst mir nicht bekannt\l"
+	.string "vor. Wir planen das hier schon seit\l"
+	.string "Monaten und du wirst uns nicht in die\l"
+	.string "Quere kommen!$"
 
 TwoIsland_Torre_P4_Text_RocketDefeated:
-	.string "You fight like a top ROCKET!$"
+	.string "Du kämpfst wie ein erstklassiger\n"
+	.string "ROCKET!$"
 
 TwoIsland_Torre_P4_Text_RocketPostBattle:
-	.string "ADMINISTRATOR? That's impossible; only\n"
-	.string "PETREL and ARCHER held that position,\l"
-	.string "and now our new BOSS does too.$"
+	.string "Ein ADMINISTRATOR? Du lügst! Nur\n"
+	.string "LAMBDA und ATLAS sind ADMINISTRATOREN\l"
+	.string "- und nun auch unser neuer BOSS!$"
 
 
 TwoIsland_Torre_P4_Text_Rocket2Intro:
-	.string "What kind of joke is this? And where's\n"
-	.string "the security?$"
+	.string "Soll das ein Witz sein?\n"
+	.string "Wo sind die Wachen?$"
 
 TwoIsland_Torre_P4_Text_Rocket2Defeated:
-	.string "I see...$"
+	.string "Verstehe …$"
 
 TwoIsland_Torre_P4_Text_Rocket2PostBattle:
-	.string "You seem important; our BOSS is known\n"
-	.string "for having a short fuse, so if you have\l"
-	.string "something to say to him, say it clearly.$"
+	.string "Du scheinst jemand Wichtiges zu sein.\p"
+	.string "Unser BOSS hat eine ziemlich kurze\n"
+	.string "Zündschnur. Wenn du ihm also etwas zu\l"
+	.string "sagen hast, dann rede nicht lange um\l"
+	.string "den heißen Brei herum.$"
 
 NeoLavanda_Ruta_Oeste_Text_Motorista_1Intro:
 	.string "We represent the KANTO POKÉMON\n"
@@ -16945,18 +17026,17 @@ UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
 	.string "interest.$"
 
 Ruinas_Text_MontaneroIntro:
-	.string "Nobody around here seems to have\n"
-	.string "discovered the true mystery behind\l"
-	.string "these ruins!$"
+	.string "Niemand hier in der Gegend scheint das\n"
+	.string "wahre Geheimnis dieser Ruinen gelüftet\l"
+	.string "zu haben!$"
 
 Ruinas_Text_MontaneroDefeated:
-	.string "What a beating!$"
+	.string "Was für eine vernichtende Niederlage …$"
 
 Ruinas_Text_MontaneroPostBattle:
-	.string "The real mystery of these ruins is...\n"
-	.string "XATU! These ruins are teeming with\l"
-	.string "NATU, they must have something to do\l"
-	.string "with it!$"
+	.string "Das wahre Geheimnis dieser Ruinen ist …\n"
+	.string "XATU! Hier wimmelt es nur so von NATU!\p"
+	.string "Das muss eine Bedeutung haben!$"
 
 ViasSur_Text_ObreroIntro:
 	.string "Are you the one sent here? You don't\n"

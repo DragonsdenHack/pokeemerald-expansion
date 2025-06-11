@@ -781,32 +781,39 @@ release
 end
 
 EventScript_Axew_Texto_1:
-.string "Are you sure you want AXEW?\n"
-	.string "It'll cost ¥140,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "MILZA kaufen möchtest?\p"
+	.string "Das macht 140.000¥.$"
 
 EventScript_Spiritomb_Texto_1:
-.string "Are you sure you want SPIRITOMB?\n"
-	.string "It'll cost ¥108,108.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "KRYPPUK kaufen möchtest?\p"
+	.string "Das macht 108.108¥.$"
 
 EventScript_Turtwig_Texto_1:
-.string "Are you sure you want TURTWIG?\n"
-	.string "It'll cost ¥75,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "CHELAST kaufen möchtest?\p"
+	.string "Das macht 75.000¥.$"
 
 EventScript_Pawniard_Texto_1:
-.string "Are you sure you want PAWNIARD?\n"
-	.string "It'll cost ¥65,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "GLADIANTRI kaufen möchtest?\p"
+	.string "Das macht 65.000¥.$"
 
 EventScript_Pincurchin_Texto_1:
-.string "Are you sure you want PINCURCHIN?\n"
-	.string "It'll cost ¥52.000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "BRITZIGEL kaufen möchtest?\p"
+	.string "Das macht 52.000¥.$"
 
 EventScript_Mudbray_Texto_1:
-.string "Are you sure you want MUDBRAY?\n"
-	.string "It'll cost ¥32,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "PAMPULI kaufen möchtest?\p"
+	.string "Das macht 32.000¥.$"
 
 EventScript_Fletching_Texto_1:
-.string "Are you sure you want FLETCHLING?\n"
-	.string "It'll cost ¥18,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "DARTIRI kaufen möchtest?\p"
+	.string "Das macht 18.000¥.$"
 
 BaseRocketJohto_Tienda_Pokemon::
 lock

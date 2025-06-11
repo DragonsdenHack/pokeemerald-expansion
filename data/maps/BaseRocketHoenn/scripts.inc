@@ -2337,40 +2337,49 @@ release
 end
 
 EventScript_Jangmo_Texto_1:
-.string "Are you sure you want JANGMO-O?\n"
-	.string "It will cost ¥168,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "MINIRAS kaufen möchtest?\p"
+	.string "Das macht 168.000¥.$"
 
 EventScript_Poplio_Texto_1:
-.string "Are you sure you want POPLIO?\n"
-	.string "It will cost ¥76,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "ROBBALL kaufen möchtest?\p"
+	.string "Das macht 76.000¥.$"
 
 EventScript_Chimchar_Texto_1:
-.string "Are you sure you want CHIMCHAR?\n"
-	.string "It will cost ¥82,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "PANFLAM kaufen möchtest?\p"
+	.string "Das macht 82.000¥.$"
 
 EventScript_Oshawott_Texto_1:
-.string "Are you sure you want OSHAWOTT?\n"
-	.string "It will cost ¥68,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "OTTARO kaufen möchtest?\p"
+	.string "Das macht 68.000¥.$"
 
 EventScript_Bouffalant_Texto_1:
-.string "Are you sure you want BOUFFALANT?\n"
-	.string "It will cost ¥60,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "BISOFANK kaufen möchtest?\p"
+	.string "Das macht 60.000¥.$"
 
 EventScript_Frosmoth_Texto_1:
-.string "Are you sure you want FROSMOTH?\n"
-	.string "It will cost ¥48,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "MOTTINEVA kaufen möchtest?\p"
+	.string "Das macht 48.000¥.$"
 
 EventScript_Timburr_Texto_1:
-.string "Are you sure you want TIMBURR?\n"
-	.string "It will cost ¥30,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "PRAKTIBALK kaufen möchtest?\p"
+	.string "Das macht 30.000¥.$"
 
 EventScript_Drilbur_Texto_1:
-.string "Are you sure you want DRILBUR?\n"
-	.string "It will cost ¥22,500.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "ROTOMURF kaufen möchtest?\p"
+	.string "Das macht 22.500¥.$"
 
 EventScript_Rockruff_Texto_1:
-.string "Are you sure you want ROCKRUFF?\n"
-	.string "It will cost ¥15,000.$"
+	.string "Bist du sicher, dass du ein\n"
+	.string "WUFFELS kaufen möchtest?\p"
+	.string "Das macht 15.000¥.$"
 
 BaseRocketHoenn_Potencial_Sinohh::
 lock

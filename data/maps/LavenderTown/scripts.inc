@@ -167,7 +167,7 @@ release
 end
 
 VermilionCity_Barco_Zarpa_Texto_1:
-.string "The ship sailed.$"
+.string "Das Schiff segelte.$"
 
 
 LavenderTown_Barrera_Sur::
