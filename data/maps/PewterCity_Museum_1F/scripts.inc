@@ -273,17 +273,17 @@ PewterCity_Museum_1F_Miguel_Texto_1:
 	.string "gibt es wirklich einen ALTBERNSTEIN.$"
 
 PewterCity_Museum_1F_Miguel_Texto_2:
-.string "WISSENSCHAFTLER MIGUEL: DU!$"
+.string "FORSCHER MIGUEL: DU!$"
 
 PewterCity_Museum_1F_Miguel_Texto_3:
 	.string "LAMBDA: Das ist also der\n"
-	.string "Wissenschaftler, der uns am MONDBERG\l"
+	.string "FORSCHER, der uns am MONDBERG\l"
 	.string "einen Strich durch die Rechnung\l"
 	.string "gemacht hat. Ich dachte, du hattest ihm\l"
 	.string "im FELSTUNNEL eine Lektion erteilt.$"
 
 PewterCity_Museum_1F_Miguel_Texto_4:
-	.string "WISSENSCHAFTLER MIGUEL: So war es\n"
+	.string "FORSCHER MIGUEL: So war es\n"
 	.string "auch. Ihr habt euer Bestes getan, dass\l"
 	.string "ich euch nie wieder in die Quere komme,\l"
 	.string "indem ihr mir meine POKéMON\l"
@@ -322,11 +322,12 @@ PewterCity_Museum_1F_Miguel_Texto_6:
 	.string "POKÉMANIACs würden mich beneiden!$"
 
 PewterCity_Museum_1F_Miguel_Texto_7:
-	.string "Du bist eine Schande für die\n"
-	.string "wissenschaftliche Gemeinschaft!$"
+	.string "MUSEUMs-FORSCHER: Du bist eine\n"
+	.string "Schande für die wissenschaftliche\l"
+	.string "Gemeinschaft!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8:
-	.string "WISSENSCHAFTLER MIGUEL: Was soll ich\n"
+	.string "FORSCHER MIGUEL: Was soll ich\n"
 	.string "denn deiner Meinung nach machen?\p"
 	.string "Einfach tatenlos dabei zusehen, wie die\n"
 	.string "Region in Mittelmäßigkeit versinkt?$"
@@ -364,7 +365,7 @@ PewterCity_Museum_1F_Miguel_Texto_9:
 	.string "diesem FOSSIL hin!$"
 
 PewterCity_Museum_1F_Miguel_Texto_10:
-	.string "WISSENSCHAFTLER MIGUEL: Du\n"
+	.string "FORSCHER MIGUEL: Du\n"
 	.string "interessierst mich nicht, LAMBDA.\p"
 	.string "Ich habe eine Rechnung mit {PLAYER} zu\n"
 	.string "begleichen. Ich habe ihm versprochen,\l"
@@ -380,28 +381,28 @@ PewterCity_Museum_1F_Miguel_Texto_11:
 	.string "POKéMON jetzt noch stärker sind!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
-	.string "WISSENSCHAFTLER MIGUEL: Grrrr… Es ist\n"
-	.string "also immer noch nicht genug. Ihr werdet\l"
-	.string "mich nicht noch einmal in die Finger\l"
-	.string "kriegen!$"
+	.string "FORSCHER MIGUEL: Grrrr… Es ist\n"
+	.string "also immer noch nicht genug.\p"
+	.string "Ihr werdet mich nicht noch\n"
+	.string "einmal in die Finger kriegen!$"
 
 PewterCity_Museum_1F_Miguel_Texto_13:
 	.string "LAMBDA: Nimm ihm seine POKéMON weg!$"
 
 PewterCity_Museum_1F_Miguel_Texto_14:
-	.string "WISSENSCHAFTLER MIGUEL HAT\n"
+	.string "FORSCHER MIGUEL HAT\n"
 	.string "FLUCHTSEIL EINGESETZT!$"
 
 PewterCity_Museum_1F_Miguel_Texto_15:
-	.string "LAMBDA: Verdammter Wissenschaftler!\n"
-	.string "Das nächste Mal werden wir ihm nicht nur\l"
+	.string "LAMBDA: Verdammter Forscher!\p"
+	.string "Das nächste Mal werden wir ihm nicht nur\n"
 	.string "seine POKéMON wegnehmen! Wir werfen\l"
 	.string "ihn direkt in eine Zelle und lassen ihn\l"
 	.string "dort verrotten, damit er uns nie wieder\l"
 	.string "ein Dorn im Auge ist!$"
 
 PewterCity_Museum_1F_Miguel_Texto_16:
-	.string "MUSEUMs WISSENSCHAFTLER: Er war drauf\n"
+	.string "MUSEUMs FORSCHER: Er war drauf\n"
 	.string "und dran mit dem ALTBERNSTEIN\l"
 	.string "abzuhauen. Wärst du nicht gewesen,\l"
 	.string "hätte er Erfolg gehabt. Nimm das als\l"
@@ -416,10 +417,10 @@ PewterCity_Museum_1F_Miguel_Texto_18:
 	.string "direkt unter GIOVANNI arbeitest.\p"
 	.string "Selbst ein ADMINISTRATOR wie ich\n"
 	.string "hätte sich mit dem Team dieses\l"
-	.string "Wissenschaftlers schwergetan.$"
+	.string "Forschers schwergetan.$"
 
 PewterCity_Museum_1F_Miguel_Texto_19:
-	.string "MUSEUMs WISSENSCHAFTLER: Nach all dem\n"
+	.string "MUSEUMs FORSCHER: Nach all dem\n"
 	.string "hier stehen wir in eurer Schuld. Wenn\l"
 	.string "ihr für eine Weile Tests an dem FOSSIL\l"
 	.string "durchführen wollt, geht das für uns in\l"
@@ -445,7 +446,7 @@ PewterCity_Museum_1F_Miguel_Texto_22:
 
 PewterCity_Museum_1F_Miguel_Texto_23:
 	.string "Bis später, {PLAYER} und\n"
-	.string "Wissenschaftler {PAUSE 5}…{PAUSE 5}$"
+	.string "Forscher {PAUSE 5}…{PAUSE 5}$"
 
 PewterCity_Museum_1F_Miguel_Move_1:
 walk_up
@@ -558,7 +559,7 @@ end
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_1.1:
 	.string "Du erhältst ein WAHLBAND vom\n"
-	.string "WISSENSCHAFTLER!$"
+	.string "FORSCHER!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
 	.string "Ich will ehrlich sein. GEOWURF ist eine\n"

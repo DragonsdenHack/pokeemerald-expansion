@@ -635,7 +635,7 @@ Silph_11F_Bill_Presidente_Texto_21:
 	.string "meinem Haus angerichtet hat!$"
 
 Silph_11F_Bill_Presidente_Texto_22:
-	.string "WISSENSCHAFTLER MIGUEL: Wie Sie\n"
+	.string "FORSCHER MIGUEL: Wie Sie\n"
 	.string "befehlen, Sir BILL.$"
 
 Silph_11F_Bill_Presidente_Texto_23:
@@ -668,9 +668,9 @@ Silph_11F_Bill_Presidente_Texto_25.1:
 
 Silph_11F_Bill_Presidente_Texto_26:
 	.string "Ha! Diese FOSSILIEN können es nicht mit\n"
-	.string "meinem TEAM aufnehmen,\l"
-	.string "Wissenschaftler! Das schließt die ein,\l"
-	.string "die dir BILL gegeben hat!$"
+	.string "meinem TEAM aufnehmen, Forscher!\p"
+	.string "Das schließt die ein, die\n"
+	.string "dir BILL gegeben hat!$"
 
 Silph_11F_Bill_Presidente_Texto_27:
 	.string "BILL: Das kann nicht sein … Ich habe\n"
@@ -681,9 +681,9 @@ Silph_11F_Bill_Presidente_Texto_27:
 	.string "POKéMON der Region!$"
 
 Silph_11F_Bill_Presidente_Texto_28:
-	.string "WISSENSCHAFTLER MIGUEL: BILL, Sir! Wir\n"
-	.string "sollten besser verschwinden, bevor der\l"
-	.string "Rest der ROCKETs unsere Niederlage\l"
+	.string "FORSCHER MIGUEL: BILL, Sir!\p"
+	.string "Wir sollten besser verschwinden, bevor\n"
+	.string "der Rest der ROCKETs unsere Niederlage\l"
 	.string "mitbekommt. Es wäre zu riskant, hier zu\l"
 	.string "bleiben. Sie wissen doch, wie sehr einige\l"
 	.string "ROCKETs Sie hassen.$"

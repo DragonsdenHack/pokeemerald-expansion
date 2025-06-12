@@ -405,7 +405,7 @@ PewterCity_Petrel_Texto_5:
 	.string "liebe die Doppelmoral dieser Region.$"
 
 PewterCity_Petrel_Texto_6:
-	.string "Wenn ein Wissenschaftler ein FOSSIL\n"
+	.string "Wenn ein Forscher ein FOSSIL\n"
 	.string "vom MONDBERG mitnimmt, ist das kein\l"
 	.string "Problem, denn es dient ja nur\l"
 	.string "seiner Forschung.$"
