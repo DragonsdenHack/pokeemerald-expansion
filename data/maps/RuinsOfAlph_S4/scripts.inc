@@ -350,7 +350,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_10:
 	.string "will shall be enacted unabated through\l"
 	.string "this POKÉMON's omnipotence. The only\l"
 	.string "thing that shall exist. The will of the\l"
-	.string "gods-as it should always have been.$"
+	.string "gods as it should always have been.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_11:
 	.string "The first offering is you, {PLAYER}.\n"

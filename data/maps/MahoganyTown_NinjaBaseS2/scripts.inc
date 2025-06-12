@@ -195,7 +195,7 @@ NinjaBaseS2_Charizardita_X_Texto_1:
 	.string "CHARIZARD. Here's its MEGA STONE.$"
 
 NinjaBaseS2_Charizardita_X_Texto_3:
-	.string "CHARIZARDITE-X realizes the dream of\n"
+	.string "CHARIZARDITE-X fullfills the dream of\n"
 	.string "many: to see CHARIZARD transformed\l"
 	.string "into a dragon. There's no limit to what\l"
 	.string "TEAM ROCKET's scientists can\l"

@@ -199,10 +199,9 @@ CultoS8_Llamada_Giovanni_Texto_2:
 	.string "BASE in JOHTO?$"
 
 CultoS8_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: Did you found\n"
-	.string "something, {PLAYER}?\p"
+.string "GIOVANNI: Have you found anything? {PAUSE 15}…{PAUSE 15}\p"
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\p"
-	.string "RUINS OF ALPH?\p"
+	.string "RUINS OF ALPH? {PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\p"
 	.string "Well, just as we suspected; if a NATU\n"
 	.string "sneezes in its tall grass, we'll be aware.\l"
 	.string "{PAUSE 15}…{PAUSE 15} {PAUSE 15}…{PAUSE 15}\p"

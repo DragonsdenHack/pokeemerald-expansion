@@ -368,7 +368,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_19:
 	.string "or {PLAYER}, to do that? Do you really\l"
 	.string "think I need to nerf your teams to\l"
 	.string "defeat both of you? I could crush you\l"
-	.string "two, with your teams at its prime\l"
+	.string "two, with your teams at their prime\l"
 	.string "without batting an eye.\p"
 	.string "You want a little proof?\p"
 	.string "You'll get it.$"
@@ -391,7 +391,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_21:
 Ecruteak_TinTowerRoof_Zeus_Texto_22:
 .string "ZEUS: This…\n"
 	.string "My team, however fragmented it may be,\l"
-	.string "ought to have rent any TRAINER\l"
+	.string "ought to have torn any TRAINER\l"
 	.string "asunder. I don't understand…$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_23:

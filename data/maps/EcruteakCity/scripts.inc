@@ -568,7 +568,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_3:
 Ecruteak_Conversacion_Agatha_Oak_Texto_4:
 	.string "AGATHA: Just like you, always working\n"
 	.string "behind the scenes and only showing up\l"
-	.string "when the results speak for itselves,\l"
+	.string "when the results speak for themselves,\l"
 	.string "huh? Deep down, I knew someone as\l"
 	.string "savvy as you wouldn't lose hope.$"
 
@@ -590,7 +590,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_6:
 Ecruteak_Conversacion_Agatha_Oak_Texto_7:
 	.string "AGATHA: Take a look at the landscape…\n"
 	.string "It's like reliving those days, my senses\l"
-	.string "experien the same sensations as\l"
+	.string "experience the same sensations as\l"
 	.string "before, its freshness akin.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_8:
