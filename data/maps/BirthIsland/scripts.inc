@@ -182,8 +182,8 @@ BirthIsland_Blaine_Texto_5:
 	.string "POKÉMON with LEGENDARY and\l"
 	.string "PSEUDOLEGENDARY properties at the\l"
 	.string "same time, could this strange object\l"
-	.string "contain the POKÉMON? Which POKÉMON\l"
-	.string "would it be?$"
+	.string "contain the POKÉMON?\p"
+	.string "Which POKÉMON would it be?$"
 
 BirthIsland_Blaine_Texto_6:
 	.string "????: That POKÉMON is DEOXYS, girl, a\n"

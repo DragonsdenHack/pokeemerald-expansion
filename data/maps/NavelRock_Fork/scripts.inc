@@ -139,9 +139,9 @@ NavelRock_Fork_Giovanni_Texto_1:
 NavelRock_Fork_Giovanni_Texto_2:
 	.string "From this point, the path divides into\n"
 	.string "two: one towards the sky, the other\l"
-	.string "towards the abyss. It seems clear which\l"
-	.string "POKÉMON each corresponds to, don't you\l"
-	.string "think?$"
+	.string "towards the abyss.\p"
+	.string "It seems clear which POKÉMON each\n"
+	.string "corresponds to, don't you think?$"
 
 NavelRock_Fork_Giovanni_Texto_3:
     .string "It's odd, but this seems this place was\n"
@@ -183,7 +183,7 @@ NavelRock_Fork_Giovanni_Texto_6.3:
 
 NavelRock_Fork_Giovanni_Texto_6.4:
 	.string "But{PAUSE 15}…{PAUSE 15} you aren't\n"
-	.string "the KANTO CHAMPION by accident.\l"
+	.string "the KANTO CHAMPION by accident.\p"
 	.string "I'm sure you'll find a solution.$"
 
 NavelRock_Fork_Giovanni_Texto_7:

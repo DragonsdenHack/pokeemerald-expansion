@@ -257,7 +257,8 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_14:
 	.string "disappear, and you can proceed. If you\l"
 	.string "leave the GYM, you'll have to start\l"
 	.string "again, as the doors will reappear\l"
-	.string "automatically. Easy, right?$"
+	.string "automatically.\p"
+	.string "Easy, right?$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_15:
 	.string "Oh! And one more thing. You should know\n"
@@ -378,8 +379,8 @@ Gimnasio_CuevaHypno_Segunda_Pregunta_Texto_2:
 	.string "Are you talking about me? No, I\n"
 	.string "abandoned arbitrary titles that have\l"
 	.string "nothing to do with your performance in\l"
-	.string "combat, a long time ago. Incorrect\l"
-	.string "response.$"
+	.string "combat, a long time ago.\p"
+	.string "Incorrect response.$"
 
 Gimnasio_CuevaHypno_Segunda_Pregunta_No::
 delay 20
@@ -490,7 +491,7 @@ Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_1:
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_2:
 	.string "Incorrect answer…{PAUSE 20} Are you saying that\n"
 	.string "there are only 2? One in VIOLET CITY\l"
-	.string "and the other in ECRUTEAK CITY? …\l"
+	.string "and the other in ECRUTEAK CITY? …\p"
 	.string "Incorrect answer.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No::
@@ -521,8 +522,8 @@ end
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No_Texto_1:
 	.string "Correct answer. Although I wonder if\n"
 	.string "you have truly been aware of the\l"
-	.string "implications it holds for what you think\l"
-	.string "JOHTO is.$"
+	.string "implications it holds for what you\l"
+	.string "think JOHTO is.$"
 
 
 

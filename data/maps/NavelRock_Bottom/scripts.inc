@@ -341,7 +341,7 @@ NavelRock_Bottom_Combate_Lugia_Texto_10:
 
 NavelRock_Bottom_Combate_Lugia_Texto_11:
 .string "Go with ANDRA, {PLAYER}.\n"
-	.string "I'll check out what happened in JOHTO.\l"
+	.string "I'll check out what happened in JOHTO.\p"
 	.string "We need to figure this out.$"
 
 NavelRock_Bottom_Combate_Lugia_Move_1:

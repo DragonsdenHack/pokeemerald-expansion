@@ -31,19 +31,19 @@ SilphS3_Text_4:
 	.string "gods and, finally, ended up as pitiful\l"
 	.string "failed experiments. To what extent is it\l"
 	.string "viable to boost performance at all\l"
-	.string "costs, sacrificing everything else?\l"
-	.string "Perhaps something so extraordinarily\l"
+	.string "costs, sacrificing everything else?\p"
+	.string "Perhaps something so extraordinarily\n"
 	.string "superhuman ceases to be inspiring\l"
 	.string "precisely because of that, being so\l"
 	.string "bursting with everything that it\l"
 	.string "cannot serve as inspiration and\l"
-	.string "example to anyone. Likewise, how would\l"
-	.string "we view a POKÉMON with 150 in every\l"
-	.string "stat? Perhaps, far from being\l"
-	.string "admirable, it's so beyond our\l"
-	.string "parameters and possibilities that we\l"
-	.string "lose interest in it knowing that we can\l"
-	.string "never replicate it.$"
+	.string "example to anyone.\p"
+	.string "Likewise, how would we view a POKÉMON\n"
+	.string "with 150 in every stat? Perhaps, far\l"
+	.string "from being admirable, it's so beyond\l"
+	.string "our parameters and possibilities that\l"
+	.string "we lose interest in it knowing that\l"
+	.string "we can never replicate it.$"
 
 
 
@@ -75,8 +75,8 @@ SilphS3Documento_Text_100:
 	.string "between the original GENESECT and the\l"
 	.string "modified version lies in that 60-80\l"
 	.string "increase in SPECIAL ATTACK, giving\l"
-	.string "GENESECT a total of 600 BASE STATs.\l"
-	.string "Further research is needed to explore a\l"
+	.string "GENESECT a total of 600 BASE STATs.\p"
+	.string "Further research is needed to explore a\n"
 	.string "possible relationship with KABUTOPS.$"
 
 
@@ -151,9 +151,9 @@ SilphS3Documento_Text_103:
 	.string "SPEED: 30\l"
 	.string "TOTAL: 620\p"
 	.string "Known as 'The Beast of the Sea' and\n"
-	.string "feared even by Gyarados. One Wishiwashi\l"
+	.string "feared even by GYARADOS. One WISHIWASHI\l"
 	.string "by itself is even weaker than a common\l"
-	.string "Magikarp, but it is capable of uniting\l"
+	.string "MAGIKARP, but it is capable of uniting\l"
 	.string "many of its kind to form a new form\l"
 	.string "-school form-, which acts as a single\l"
 	.string "individual POKÉMON, surpassing the\l"
@@ -309,7 +309,8 @@ SilphS3_Miguel_Batalla_Texto_8:
 	.string "should acknowledge the role you've\l"
 	.string "played. Facing someone of your skill\l"
 	.string "level has pushed me further than I\l"
-	.string "expected. Nonetheless, my research is\l"
+	.string "expected.\p"
+	.string "Nonetheless, my research is\n"
 	.string "still ongoing.$"
 
 SilphS3_Miguel_Batalla_Texto_9:
@@ -608,11 +609,13 @@ SilphS3_Bill_Batalla_Texto_12:
 .string "Hang on, {PLAYER}! Not too fast!$"
 
 SilphS3_Bill_Batalla_Texto_13:
-	.string "Hey! I just told you I'm working on new\n"
-	.string "PORYGON prototypes, and you don't even\l"
-	.string "care to ask about it. Do you really hate\l"
-	.string "me that much? I mean, yeah, we've had\l"
-	.string "our differences, but deep down, I\l"
+	.string "Hey!\p"
+	.string "I just told you I'm working on new\n"
+	.string "PORYGON prototypes, and you don't\l"
+	.string "even care to ask about it!\p"
+	.string "Do you really hate me that much?\p"
+	.string "I mean, yeah, we've had our\n"
+	.string "differences, but deep down, I\l"
 	.string "appreciate top TRAINERS like you.$"
 
 SilphS3_Bill_Batalla_Texto_13.1:
@@ -661,7 +664,8 @@ SilphS3_Bill_Batalla_Texto_17:
 	.string "craziest dreams. It's{PAUSE 20}…{PAUSE 20} almost perfect,\l"
 	.string "with its type combination giving it\l"
 	.string "three immunities, insane offense, and\l"
-	.string "wicked SPEED. If only its physical\l"
+	.string "wicked SPEED.\p"
+	.string "If only its physical\n"
 	.string "DEFENSE didn't suck…$"
 
 SilphS3_Bill_Batalla_Texto_18:

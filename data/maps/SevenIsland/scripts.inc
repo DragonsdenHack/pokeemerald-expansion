@@ -92,8 +92,8 @@ SevenIsland_Entrenador_Especial_Texto_1:
 	.string "a faster opposing POKÉMON arrives and\l"
 	.string "weakens you before you can move. You\l"
 	.string "seem to have experienced many\l"
-	.string "adventures despite your young age. If\l"
-	.string "you can defeat me, I'll give you\l"
+	.string "adventures despite your young age.\p"
+	.string "If you can defeat me, I'll give you\n"
 	.string "something very useful.$"
 
 SevenIsland_Entrenador_Especial_Texto_2:
@@ -109,8 +109,8 @@ SevenIsland_Entrenador_Especial_Texto_3:
 	.string "impressive SPEED levels.$"
 
 SevenIsland_Entrenador_Especial_Texto_4:
-	.string "I expected nothing less from you. Let's\n"
-	.string "go!$"
+	.string "I expected nothing less from you.\p"
+	.string "Let's go!$"
 
 SevenIsland_Entrenador_Especial_Texto_5:
 	.string "You've broken down all my defenses!$"

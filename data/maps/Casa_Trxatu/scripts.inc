@@ -185,8 +185,8 @@ CasaTrxatu_Combate_Texto_8:
 CasaTrxatu_Combate_Texto_9:
 	.string "My belief is that making comparisons is\n"
 	.string "unpleasant, and we should focus on\l"
-	.string "competing against ourselves.\l"
-	.string "The reasoning behind this is that the\l"
+	.string "competing against ourselves.\p"
+	.string "The reasoning behind this is that the\n"
 	.string "only individual with precisely the\l"
 	.string "same circumstances as you is, indeed,\l"
 	.string "yourself.$"

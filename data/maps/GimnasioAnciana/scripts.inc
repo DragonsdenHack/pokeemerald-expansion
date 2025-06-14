@@ -127,8 +127,8 @@ GimnasioAnciana_Combate_Gimnasio_Texto_8:
 	.string "It's been almost four decades since\n"
 	.string "this POKÉMON has been seen around\l"
 	.string "these islands. I've just given you one\l"
-	.string "born from an egg of my ZOROARK. I hope\l"
-	.string "you take good care of it.$"
+	.string "born from an egg of my ZOROARK.\p"
+	.string "I hope you take good care of it.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_9:
 	.string "Each mystery we solve only reveals\n"
@@ -165,9 +165,10 @@ GimnasioAnciana_Anciano_Texto_2:
 	.string "Our LEADER was and still is a specialist\n"
 	.string "in NORMAL TYPE. If you engage her in\l"
 	.string "close combat without using FIGHTING\l"
-	.string "TYPE moves, you'll have a tough time. All\l"
-	.string "of her POKÉMON are very solid and hard\l"
-	.string "to beat. Good luck!$"
+	.string "TYPE moves, you'll have a tough time.\p"
+	.string "All of her POKÉMON are very solid\n"
+	.string "and hard to beat.\p"
+	.string "Good luck!$"
 
 
 GimnasioAnciana_Anciano_Texto_1:

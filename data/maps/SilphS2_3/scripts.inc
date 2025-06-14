@@ -292,14 +292,14 @@ SilphS2_3_Presidente_Texto_19:
 
 SilphS2_3_Presidente_Texto_20:
 	.string "With this, you'll be able to explore\n"
-	.string "further in the library. But bear in mind\l"
-	.string "that many things were lost over the\l"
-	.string "years.$"
+	.string "further in the library.\p"
+	.string "But bear in mind that many things\n"
+	.string "were lost over the years.$"
 
 SilphS2_3_Presidente_Texto_21:
 	.string "You may find what you seek down there.{PAUSE 25}\n"
-	.string "Though it may be impossible to show now.\l"
-	.string "History weathers without fail, eroding\l"
+	.string "Though it may be impossible to show now.\p"
+	.string "History weathers without fail, eroding\n"
 	.string "even the things that were once\l"
 	.string "everyday occurrences.$"
 
@@ -378,8 +378,8 @@ SilphS2_3_Carta_Texto_5:
 
 SilphS2_3_Carta_Texto_6:
 	.string "However, the methods for obtaining\n"
-	.string "these results aren't conclusive at all.\l"
-	.string "They have never appeared to be either\l"
+	.string "these results aren't conclusive at all.\p"
+	.string "They have never appeared to be either\n"
 	.string "clear or standardized.$"
 
 SilphS2_3_Carta_Texto_7:
@@ -410,10 +410,10 @@ SilphS2_3_Carta_Texto_12:
 	.string "is approaching.$"
 
 SilphS2_3_Carta_Texto_13:
-	.string "The LINK STONE is merely the beginning.\n"
-	.string "The first of many advancements that\l"
-	.string "will forever shape our understanding of\l"
-	.string "the art of battle.$"
+	.string "The LINK STONE is merely the beginning.\p"
+	.string "The first of many advancements that\n"
+	.string "will forever shape our understanding\l"
+	.string "of the art of battle.$"
 
 SilphS2_3_Carta_Texto_14:
     .string "With appreciation:\p"

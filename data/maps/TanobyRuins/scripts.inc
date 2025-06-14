@@ -13,8 +13,8 @@ release
 end
 
 TanobyRuins_Text_2:
-	.string "Who built these ruins and why? What\n"
-	.string "do you think?$"
+	.string "Who built these ruins and why?\n"
+	.string "What do you think?$"
 
 
 

@@ -143,9 +143,9 @@ SixIsland_Laboratorio_Acromo_Texto_5:
 
 SixIsland_Laboratorio_Acromo_Texto_6:
 	.string "It looks like you're an uneasy soul as\n"
-	.string "well, aren't you? In fact, you may have\l"
-	.string "found something that could help my\l"
-	.string "investigations.$"
+	.string "well, aren't you?\p"
+	.string "In fact, you may have found something\n"
+	.string "that could help my investigations.$"
 
 SixIsland_Laboratorio_Acromo_Texto_7:
 .string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}$"
@@ -156,8 +156,8 @@ SixIsland_Laboratorio_Acromo_Texto_8:
 SixIsland_Laboratorio_Acromo_Texto_9:
 	.string "If you ever find something that you\n"
 	.string "think may help my work here, come to\l"
-	.string "visit me. I shall reward you with a very\l"
-	.string "special POKÉMON.$"
+	.string "visit me. I shall reward you with a\l"
+	.string "very special POKÉMON.$"
 
 SixIsland_Laboratorio_Acromo_Texto_10:
 	.string "Did you find anything?$"

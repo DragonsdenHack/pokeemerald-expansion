@@ -316,8 +316,8 @@ delay_8
 step_end
 
 SevaultCanyon_Combate_Andra_Texto_1:
-	.string "ANDRA: {PLAYER}, you here too? This\n"
-	.string "place is like a paradise, huh?$"
+	.string "ANDRA: {PLAYER}, you here too?\p"
+	.string "This place is like a paradise, huh?$"
 
 SevaultCanyon_Combate_Andra_Texto_2:
 	.string "GIOVANNI also threw me into this place,\n"

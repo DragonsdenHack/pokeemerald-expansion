@@ -211,7 +211,7 @@ release
 end
 
 CultoS3_Text_14:
-           .string "Everything flows and ebbs, everything\n"
+    .string "Everything flows and ebbs, everything\n"
 	.string "has its periods of advancement and\l"
 	.string "regression, everything ascends and\l"
 	.string "descends, everything moves like a\l"
@@ -290,9 +290,9 @@ CultoS3_Text_19:
 	.string "Why do we honor and lift some souls\n"
 	.string "above others, like this funeral\l"
 	.string "monument? We believe our actions in\l"
-	.string "life echo in eternity. It's not about\l"
-	.string "devaluing other souls, but recognizing\l"
-	.string "those who excelled.$"
+	.string "life echo in eternity.\p"
+	.string "It's not about devaluing other souls,\n"
+	.string "but recognizing those who excelled.$"
 
 
 
@@ -497,8 +497,8 @@ end
 
 CultoS3_Text_35:
 	.string "Considering the vastness of the\n"
-	.string "universe, how do a 3-day-old baby and a\l"
-	.string "95-year-old elder differ?$"
+	.string "universe, how do a 3-day-old baby\l"
+	.string "and a 95-year-old elder differ?$"
 
 
 
@@ -542,10 +542,10 @@ release
 end
 
 CultoS3_Text_38:
-	.string "Be serene to accept what's out of our\n"
-	.string "control. Be brave to change what we\l"
-	.string "can. Have wisdom to notice the\l"
-	.string "difference.$"
+	.string "Be serene to accept what's\n"
+	.string "out of our control.\p"
+	.string "Be brave to change what we can.\p"
+	.string "Have wisdom to notice the difference.$"
 
 
 
@@ -809,8 +809,8 @@ Culto_S3_Batalla_Texto_6:
 	.string "You are not part of this cult. Only a few\n"
 	.string "individuals have discovered this place,\l"
 	.string "and none of them has ever returned to\l"
-	.string "the outside. Do you know what that\l"
-	.string "means?$"
+	.string "the outside.\p"
+	.string "Do you know what that means?$"
 
 Culto_S3_Batalla_Texto_7:
 	.string "We can't let you go. The world can't know\n"
@@ -834,10 +834,10 @@ Culto_S3_Batalla_Texto_10:
 	.string "POKÉMON doesn't make sense in your\l"
 	.string "framework. Do you think it's a POKÉMON\l"
 	.string "that can be found? That can be caught\l"
-	.string "and added in a full 6 POKÉMON team? Do\l"
-	.string "you and your group really think you can\l"
-	.string "measure its power in base of the other\l"
-	.string "POKÉMON?$"
+	.string "and added in a full 6 POKÉMON team?\p"
+	.string "Do you and your group really think\n"
+	.string "you can measure its power in base\l"
+	.string "of the other POKÉMON?$"
 
 Culto_S3_Batalla_Texto_11:
 	.string "You might have beaten LANCE, but you're\n"
@@ -971,9 +971,9 @@ Culto_S3_Batalla_Texto_26:
 	.string "I don't have anything else to say. When\n"
 	.string "you feel ready to come back here, you'll\l"
 	.string "know it. In the meantime, you still have\l"
-	.string "a long journey ahead of you. I hope you\l"
-	.string "enjoy that process because, in the end,\l"
-	.string "it's only thing you have.$"
+	.string "a long journey ahead of you.\p"
+	.string "I hope you enjoy that process because,\n"
+	.string "in the end, it's only thing you have.$"
 
 Culto_S3_Batalla_Move_1:
 walk_in_place_up

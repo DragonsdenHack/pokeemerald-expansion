@@ -219,8 +219,8 @@ CinnabarMansionS2Documento_Text_106:
 	.string "already vast power. On the other hand,\l"
 	.string "MEW is a different story, it possesses\l"
 	.string "the best genetic base, both in terms of\l"
-	.string "malleability and possible combinations.\l"
-	.string "This leads us to believe that with\l"
+	.string "malleability and possible combinations.\p"
+	.string "This leads us to believe that with\n"
 	.string "MEWTWO we only achieved a favorable\l"
 	.string "genetic combination compared to MEW,\l"
 	.string "but it wasn't the most favorable\l"
@@ -285,8 +285,8 @@ CinnabarMansionS2Documento_Text_107Yes:
 	.string "happens, 2 pseudo-legendaries sharing\l"
 	.string "territory. Some say this coincidence\l"
 	.string "occurs because of the enormous variety\l"
-	.string "of fauna and flora present in HOENN.\l"
-	.string "However, the biology of the\l"
+	.string "of fauna and flora present in HOENN.\p"
+	.string "However, the biology of the\n"
 	.string "evolutionary line of METAGROSS has\l"
 	.string "almost nothing to do with this fauna\l"
 	.string "and flora, and our latest research\l"
@@ -987,8 +987,8 @@ CinnabarMansionS2_Oak_Texto_22:
 
 CinnabarMansionS2_Oak_Texto_23:
 	.string "Do whatever you want with this lab,\n"
-	.string "ROCKET. Maybe you'll find something\l"
-	.string "we missed.$"
+	.string "ROCKET.\p"
+	.string "Maybe you'll find something we missed.$"
 
 CinnabarMansionS2_Oak_Texto_24:
 	.string "I'm aware about the entire TEAM ROCKET\n"
@@ -1194,26 +1194,26 @@ CinnabarMansion_S2_Escena_7_Texto_5:
 
 CinnabarMansion_S2_Escena_7_Texto_6:
 	.string "BLAINE: I don't understand, why don't\n"
-    	.string "we do something and take back KANTO?\l"
-    	.string "Maybe GIOVANNI will even forgive you if\l"
+    	.string "we do something and take back KANTO?\p"
+    	.string "Maybe GIOVANNI will even forgive you if\n"
     	.string "you manage to overthrow LANCE…{PAUSE 25} in your\l"
     	.string "own way.$"
 
 CinnabarMansion_S2_Escena_7_Texto_7:
-    .string "OAK: Our position is stable, BLAINE.\n"
-    .string "Right now, we can focus on reducing the\l"
+    .string "OAK: Our position is stable, BLAINE.\p"
+    .string "Right now, we can focus on reducing the\n"
     .string "level of uncertainty even further in\l"
-    .string "case of action. Here, we can\l"
-    .string "concentrate on gaining even more\l"
-    .string "power.$"
+    .string "case of action.\p"
+    .string "Here, we can concentrate on\n"
+    .string "gaining even more power.$"
 
 CinnabarMansion_S2_Escena_7_Texto_8:
 .string "Also…$"
 
 CinnabarMansion_S2_Escena_7_Texto_9:
     .string "Now it won't be necessary to use\n"
-    .string "MEWTWO, we can win even without it…\l"
-    .string "especially without it.$"
+    .string "MEWTWO, we can win even without it{PAUSE 20}…{PAUSE 20}\l"
+    .string "{PAUSE 20}…{PAUSE 20}especially without it.$"
 
 CinnabarMansion_S2_Escena_7_Texto_10:
 	.string "We'll quietly and cleverly take control\n"

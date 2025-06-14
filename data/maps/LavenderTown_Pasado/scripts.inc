@@ -516,8 +516,8 @@ LavenderTown_Pasado_Lider_Texto_1:
 	.string "being a LEADER?$"
 
 LavenderTown_Pasado_Lider_Texto_2:
-	.string "That's true, MORPHEUS. My wife and I are\n"
-	.string "moving next year.$"
+	.string "That's true, MORPHEUS.\n"
+	.string "My wife and I are moving next year.$"
 
 LavenderTown_Pasado_Lider_Texto_3:
 	.string "MORPHEUS: I've learnt a lot with you.\n"

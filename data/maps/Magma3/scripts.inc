@@ -279,8 +279,8 @@ step_end
 Magma3_Combate_Magno_Texto_1:
 	.string "MAXIE: We have waited for this for\n"
 	.string "too long. But finally, I present myself\l"
-	.string "as a humble servant of your cause.\l"
-	.string "Thanks to the RED ORB, I can control\l"
+	.string "as a humble servant of your cause.\p"
+	.string "Thanks to the RED ORB, I can control\n"
 	.string "you, but fear not, I will do nothing but\l"
 	.string "fulfill your will to expand the land.$"
 

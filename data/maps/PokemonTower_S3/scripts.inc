@@ -273,9 +273,9 @@ PokemonTower_S3_Tumba_Texto_9:
 
 PokemonTower_S3_Tumba_Texto_10:
 	.string "{PAUSE 15}…{PAUSE 15} every single thing about his\n"
-	.string "legendary life remains here. His\l"
-	.string "contemporaries were forgotten with the\l"
-	.string "slow and steady course of time{PAUSE 15}…{PAUSE 15}$"
+	.string "legendary life remains here.\p"
+	.string "His contemporaries were forgotten with\n"
+	.string "the slow and steady course of time{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_S3_Tumba_Texto_11:
 	.string "{PAUSE 15}…{PAUSE 25} After all, that memory of him may be\n"

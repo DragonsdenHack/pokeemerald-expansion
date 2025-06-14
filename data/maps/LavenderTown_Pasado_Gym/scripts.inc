@@ -715,7 +715,7 @@ LavenderTown_Pasado_Gym_Texto_27:
 	.string "OAK: And that truth is supposed to be…$"
 
 LavenderTown_Pasado_Gym_Texto_28:
-	.string "C. FRIDA: … That great TRAINERS can\n"
+	.string "C. FRIDA: {PAUSE 25} …{PAUSE 25} That great TRAINERS can\n"
 	.string "come from anywhere.$"
 
 LavenderTown_Pasado_Gym_Texto_29:
@@ -775,9 +775,10 @@ LavenderTown_Pasado_Gym_Texto_42:
 
 LavenderTown_Pasado_Gym_Texto_43:
 	.string "Thanks to my abilities, I managed to\n"
-	.string "withstand them. But the last of his\l"
-	.string "dragons… That power was… beyond any\l"
-	.string "control.$"
+	.string "withstand them.\p"
+	.string "But the last of his dragons{PAUSE 15}…{PAUSE 15}\p"
+	.string "That power was{PAUSE 15}…{PAUSE 15}\p"
+	.string "Beyond any control.$"
 
 LavenderTown_Pasado_Gym_Texto_44:
 	.string "Once a breach was opened in our\n"
@@ -793,8 +794,8 @@ LavenderTown_Pasado_Gym_Texto_46:
 	.string "were there{PAUSE 15}…{PAUSE 15} suddenly… manifested.$"
 
 LavenderTown_Pasado_Gym_Texto_47:
-	.string "Now, you could see it, smell it, feel it:\n"
-	.string "that GHOST TYPE that was always within\l"
+	.string "Now, you could see it, smell it, feel it:\p"
+	.string "that GHOST TYPE that was always within\n"
 	.string "that VULPIX became reality!$"
 
 LavenderTown_Pasado_Gym_Texto_48:
@@ -812,8 +813,8 @@ LavenderTown_Pasado_Gym_Texto_50:
 	.string "then.$"
 
 LavenderTown_Pasado_Gym_Texto_51:
-	.string "His fur turned hard as pure steel. There\n"
-	.string "was no way to penetrate it.$"
+	.string "His fur turned hard as pure steel.\p"
+	.string "There was no way to penetrate it.$"
 
 LavenderTown_Pasado_Gym_Texto_52:
 	.string "His mental powers also got enhanced,\n"
@@ -849,10 +850,10 @@ LavenderTown_Pasado_Gym_Texto_59:
 	.string "MORPHEUS: OAK…$"
 
 LavenderTown_Pasado_Gym_Texto_60:
-	.string "OAK: I'll train one too until it evolves.\n"
-	.string "With that fine addition to my\l"
-	.string "collection, my team will be stronger and\l"
-	.string "more equilibrated.$"
+	.string "OAK: I'll train one too until it evolves.\p"
+	.string "With that fine addition to my\n"
+	.string "collection, my team will be stronger\l"
+	.string "and more equilibrated.$"
 
 LavenderTown_Pasado_Gym_Texto_61:
 	.string "Tell me, CHAMPION. What level is your\n"
@@ -868,8 +869,8 @@ LavenderTown_Pasado_Gym_Texto_63:
 LavenderTown_Pasado_Gym_Texto_64:
 	.string "AGATHA: Haven't you listened to\n"
 	.string "anything she said? Her NINETALES\l"
-	.string "evolved because they were connected:\l"
-	.string "a special and unique bond made it\l"
+	.string "evolved because they were connected:\p"
+	.string "A special and unique bond made it\n"
 	.string "possible.$"
 
 LavenderTown_Pasado_Gym_Texto_65:

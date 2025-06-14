@@ -160,8 +160,8 @@ FourIsland_Encuentro_Zeus_Texto_2:
 	.string "everything.$"
 
 FourIsland_Encuentro_Zeus_Texto_3:
-	.string "I'm pursuing two dangerous criminals;\n"
-	.string "someone very wise trapped two ANCIENT\l"
+	.string "I'm pursuing two dangerous criminals;\p"
+	.string "someone very wise trapped two ANCIENT\n"
 	.string "POKÉMON on these islands, centuries\l"
 	.string "ago. Two POKÉMON with powers capable\l"
 	.string "of shaking the world and altering its\l"

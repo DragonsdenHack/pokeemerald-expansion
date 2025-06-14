@@ -55,9 +55,9 @@ release
 end
 
 CultoS1_NPC_5_Texto_1:
-	.string "Not even FUJI is aware of the existence\n"
-	.string "of this place. How were you able to find\l"
-	.string "us?$"
+	.string "Not even FUJI is aware of the\n"
+	.string "existence of this place.\p"
+	.string "How were you able to find us?$"
 
 
 CultoS1_NPC_6::

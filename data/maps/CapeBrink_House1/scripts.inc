@@ -43,8 +43,8 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_1:
 	.string "they've received some rare or powerful\l"
 	.string "POKÉMON without having put in any\l"
 	.string "effort to earn it. But it doesn't seem\l"
-	.string "like that's the case with you. I'd like\l"
-	.string "to confirm it, though.$"
+	.string "like that's the case with you.\p"
+	.string "I'd like to confirm it, though.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_2:
 	.string "So you accept the challenge?$"
@@ -63,7 +63,7 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_5:
 CapeBrinkHouse1_Entrenador_Especial_Texto_6:
 	.string "It appears that you are very\n"
 	.string "meticulous with your team. You have\l"
-	.string "reignited my desire to battle others.\l"
+	.string "reignited my desire to battle others.\p"
 	.string "This is for you.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_1.1:

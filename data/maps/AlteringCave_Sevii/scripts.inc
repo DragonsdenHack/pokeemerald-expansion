@@ -269,8 +269,8 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_13.1:
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_13.2:
 	.string "They have become accomplished\n"
-	.string "specialists in sea/earth POKÉMON.\l"
-	.string "Their eagerness to go beyond led them\l"
+	.string "specialists in sea/earth POKÉMON.\p"
+	.string "Their eagerness to go beyond led them\n"
 	.string "to learn everything about the legend of\l"
 	.string "the SUPER-ANCIENT POKÉMON.$"
 

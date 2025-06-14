@@ -23,8 +23,8 @@ end
 TwoIsland_Torre_P3_Cientifico_Texto_1:
 	.string "The few scientists you'll find on this\n"
 	.string "island are here for archaeological\l"
-	.string "purposes. This building is an exception;\l"
-	.string "From this place, it looks as if we were\l"
+	.string "purposes. This building is an exception;\p"
+	.string "From this place, it looks as if we were\n"
 	.string "in KANTO. Maybe we can import a bit\l"
 	.string "of that region to this island.$"
 

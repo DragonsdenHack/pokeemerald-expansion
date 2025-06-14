@@ -373,8 +373,8 @@ Lavender_Secta_Pasadizo_Lider_Texto_1:
 	.string "????: May I?$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_2:
-	.string "C. FRIDA: Certainly. You're still the\n"
-	.string "LEADER in this GYM.$"
+	.string "C. FRIDA: Certainly.\n"
+	.string "You're still the LEADER here.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_3:
 	.string "????: Yeah, about that{PAUSE 15}…{PAUSE 15}$"
@@ -415,8 +415,8 @@ Lavender_Secta_Pasadizo_Lider_Texto_13:
 Lavender_Secta_Pasadizo_Lider_Texto_14:
 	.string "That new enterprise, SILPH. They're\n"
 	.string "building their HQ there. They say the\l"
-	.string "building will be taller than the POKÉMON\l"
-	.string "TOWER itself.$"
+	.string "building will be taller than the\l"
+	.string "POKÉMON TOWER itself.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_15:
 	.string "And besides that, a new GYM may open\n"
@@ -456,8 +456,8 @@ Lavender_Secta_Pasadizo_Lider_Texto_24:
 
 Lavender_Secta_Pasadizo_Lider_Texto_25:
 	.string "????: The NAME RATER will be in charge\n"
-	.string "of it. But these tombs are quite old.\l"
-	.string "Sooner or later, this place will be\l"
+	.string "of it. But these tombs are quite old.\p"
+	.string "Sooner or later, this place will be\n"
 	.string "forgotten.$"
 
 Lavender_Secta_Pasadizo_Lider_Texto_26:

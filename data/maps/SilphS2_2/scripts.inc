@@ -30,9 +30,9 @@ SilphS2_2_Cientifico_2_Texto_1:
 
 SilphS2_2_Cientifico_2_Texto_2:
 	.string "I think GIOVANNI would forgive him in\n"
-	.string "respect to their old rivalry. But OAK's\l"
-	.string "pride may lead him to reject that\l"
-	.string "forgiveness.$"
+	.string "respect to their old rivalry.\p"
+	.string "But OAK's pride may lead him to\n"
+	.string "reject that forgiveness.$"
 
 SilphS2_2_Lorelei_Move_1:
 walk_down
@@ -238,9 +238,9 @@ SilphS2_2_Lorelei_Texto_5:
 	.string "so the position will remain open.$"
 
 SilphS2_2_Lorelei_Texto_6:
-	.string "I'm retiring to FOUR ISLAND. Those\n"
-	.string "passionate days of battling are\l"
-	.string "dwindling for me nowadays.$"
+	.string "I'm retiring to FOUR ISLAND.\p"
+	.string "Those passionate days of battling\n"
+	.string "are dwindling for me nowadays.$"
 
 SilphS2_2_Lorelei_Texto_7:
 	.string "I was certain ICE POKÉMON would see me\n"
@@ -266,9 +266,9 @@ SilphS2_2_Lorelei_Texto_11:
 	.string "potential.$"
 
 SilphS2_2_Lorelei_Texto_12:
-	.string "But that's how the cookie crumbles: RED\n"
-	.string "defeated BLUE and won the title of\l"
-	.string "CHAMPION.$"
+	.string "But that's how the cookie crumbles:\p"
+	.string "RED defeated BLUE and won the\n"
+	.string "title of CHAMPION.$"
 
 SilphS2_2_Lorelei_Texto_13:
 	.string "What a waste, that RED. Holing up like a\n"
@@ -277,16 +277,17 @@ SilphS2_2_Lorelei_Texto_13:
 
 SilphS2_2_Lorelei_Texto_14:
 	.string "There were some old glories there in the\n"
-	.string "past, certainly. But now? He'll just\l"
-	.string "waste away.$"
+	.string "past, certainly.\p"
+	.string "But now?\p"
+	.string "He'll just waste away.$"
 
 SilphS2_2_Lorelei_Texto_15:
 	.string "You though{PAUSE 15}…{PAUSE 15}I see you can move forward.$"
 
 SilphS2_2_Lorelei_Texto_16:
 	.string "Very few have the privilege to walk\n"
-	.string "through these halls. I'm sure you're\l"
-	.string "here for a reason.$"
+	.string "through these halls.\p"
+	.string "I'm sure you're here for a reason.$"
 
 SilphS2_2_Lorelei_Texto_17:
 	.string "But this is no longer my business. Now, I\n"

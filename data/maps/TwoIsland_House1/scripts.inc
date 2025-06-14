@@ -42,9 +42,9 @@ unlock_facing_direction
 step_end
 
 TwoIslandHouse1_Texto_1:
-	.string "What is wrong with you? Don't you see we\n"
-	.string "are building? Come back when we\l"
-	.string "officially open!$"
+	.string "What is wrong with you?\n"
+	.string "Don't you see we are building?\p"
+	.string "Come back when we officially open!$"
 
 TwoIslandHouse1_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"

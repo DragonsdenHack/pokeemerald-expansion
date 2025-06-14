@@ -255,8 +255,8 @@ TwoIsland_Torre_P4_Evento_Final_Texto_3:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_4:
 	.string "FRANK: That's right, {PLAYER}. You\n"
-	.string "didn't expect to see me here, did you?\l"
-	.string "Maybe you started to have suspicions\l"
+	.string "didn't expect to see me here, did you?\p"
+	.string "Maybe you started to have suspicions\n"
 	.string "when you saw former members of TEAM\l"
 	.string "ROCKET, but who cares.$"
 
@@ -364,8 +364,8 @@ TwoIsland_Torre_P4_Evento_Final_Texto_20:
 	.string "regardless of the method.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_21:
-	.string "You're not going anywhere, {PLAYER}.\n"
-	.string "There's no turning back; we are two\l"
+	.string "You're not going anywhere, {PLAYER}.\p"
+	.string "There's no turning back; we are two\n"
 	.string "former EXECUTIVEs and a former ROCKET\l"
 	.string "ADMINISTRATOR. No matter how skilled\l"
 	.string "you are, you have no chance.$"
@@ -406,8 +406,8 @@ TwoIsland_Torre_P4_Evento_Final_Texto_30:
 	.string "Grrrrrr…{PAUSE 20} You were not supposed to win!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_31:
-	.string "FRANK: No! You shouldn't be that\n"
-	.string "strong!$"
+	.string "FRANK: No!\p"
+	.string "You shouldn't be that strong!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_32:
 	.string "You've only won due to your talent for\n"

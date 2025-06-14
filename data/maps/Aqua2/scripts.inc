@@ -143,8 +143,8 @@ Aqua2_Combate_Admin_Texto_1.1:
 	.string "the deepest part of this place.$"
 
 Aqua2_Combate_Admin_Texto_2:
-	.string "You have no idea who we are, ROCKET.\n"
-	.string "Unlike those fake captains, like the\l"
+	.string "You have no idea who we are, ROCKET.\p"
+	.string "Unlike those fake captains, like the\n"
 	.string "one on the SS ANNE or CAPT.STERN, we've\l"
 	.string "sailed the seven seas without obeying\l"
 	.string "anything other than our will and\l"

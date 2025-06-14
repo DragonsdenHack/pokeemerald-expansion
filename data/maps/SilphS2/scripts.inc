@@ -62,8 +62,8 @@ SilphS2_Text_3:
 	.string "Many folks overlook the nuances of\n"
 	.string "probabilities, handling a\l"
 	.string "one-in-a-thousand scenario almost\l"
-	.string "identically to a one-in-a-million.\l"
-	.string "That's the charm of games like the\l"
+	.string "identically to a one-in-a-million.\p"
+	.string "That's the charm of games like the\n"
 	.string "lottery, but it doesn't quite cut it for\l"
 	.string "a SILPH scientist!$"
 
@@ -107,9 +107,9 @@ SilphS2_Text_5:
 	.string "achievements have been reached after\l"
 	.string "going through moments of uncertainty,\l"
 	.string "disorder, and rowing without knowing\l"
-	.string "for sure where it will end. These periods\l"
-	.string "are also necessary to reach other\l"
-	.string "'control' phases.$"
+	.string "for sure where it will end.\p"
+	.string "These periods are also necessary to\n"
+	.string "reach other 'control' phases.$"
 
 
 
@@ -154,8 +154,8 @@ SilphS2_Text_7:
 	.string "heard there's a project to connect\l"
 	.string "SAFFRON with GOLDENROD in JOHTO. Also,\l"
 	.string "they're planning to expand the port of\l"
-	.string "VERMILION to include more\l"
-	.string "destinations. Time flies, my friend, and\l"
+	.string "VERMILION to include more destinations.\p"
+	.string "Time flies, my friend, and\n"
 	.string "it waits for no one!$"
 
 
@@ -172,11 +172,11 @@ SilphS2_Text_8:
 	.string "The freedom of capacity gives rise to\n"
 	.string "even more constraints than the\l"
 	.string "disciplined duty that issues mandates\l"
-	.string "and prohibitions. Duty has its bounds.\l"
-	.string "On the contrary, capacity has none; it\l"
-	.string "remains open-ended. This is why the\l"
-	.string "coercion arising from capacity is\l"
-	.string "unlimited.$"
+	.string "and prohibitions. Duty has its bounds.\p"
+	.string "On the contrary, capacity has none; it\n"
+	.string "remains open-ended.\p"
+	.string "This is why the coercion arising from\n"
+	.string "capacity is unlimited.$"
 
 
 
@@ -280,8 +280,8 @@ end
 SilphS2_Text_14:
 	.string "The human inclination towards rules\n"
 	.string "stems from the necessity to simplify\l"
-	.string "information for cognitive ease.\l"
-	.string "Increased randomness complicates\l"
+	.string "information for cognitive ease.\p"
+	.string "Increased randomness complicates\n"
 	.string "summarization, and as information is\l"
 	.string "condensed, order prevails, making the\l"
 	.string "world seem less random than it is in\l"
@@ -321,9 +321,9 @@ end
 
 SilphS2_Text_16:
 	.string "Now that SILPH and TEAM ROCKET are\n"
-	.string "working together, great things are on\l"
-	.string "the horizon for KANTO! The future is\l"
-	.string "ours!$"
+	.string "working together, great things are\l"
+	.string "on the horizon for KANTO!\p"
+	.string "The future is ours!$"
 
 
 
@@ -339,9 +339,9 @@ SilphS2_Text_17:
 	.string "Your move at the POKÉMON LEAGUE made a\n"
 	.string "huge difference for us. We're free from\l"
 	.string "LANCE's control, and now, we can keep\l"
-	.string "our secrets in this place. SILPH is\l"
-	.string "like a second home for you and your\l"
-	.string "gang, ROCKET.$"
+	.string "our secrets in this place.\p"
+	.string "SILPH is like a second home for you\n"
+	.string "and your gang, ROCKET.$"
 
 
 
@@ -385,7 +385,8 @@ end
 SilphS2_Text_20:
 	.string "You reckon I'm plotting some evil\n"
 	.string "scheme? Or creating a kick-ass POKÉMON\l"
-	.string "on my computer?{PAUSE 20}…{PAUSE 20} Spot on!$"
+	.string "on my computer?{PAUSE 20}…{PAUSE 20} {PAUSE 20}…{PAUSE 20}\p"
+	.string "Spot on!$"
 
 SilphS2_Text_20_EventScript_TM132::
 	lock
@@ -576,8 +577,8 @@ SilphS2_Text_31:
 	.string "That RED was skilled, but clearly, he was\n"
 	.string "completely confined by the reality\l"
 	.string "imposed by OAK. He wasn't free, unable\l"
-	.string "to lift a finger without OAK's consent.\l"
-	.string "That's why someone like RED could never\l"
+	.string "to lift a finger without OAK's consent.\p"
+	.string "That's why someone like RED could never\n"
 	.string "be in a place like this. This room\l"
 	.string "doesn't exist for him. In fact, this is a\l"
 	.string "place 99% of KANTO's population would\l"
@@ -663,8 +664,8 @@ end
 SilphS2_Text_36:
 	.string "Outside these walls, it's inconceivable\n"
 	.string "that SILPH and TEAM ROCKET are, in\l"
-	.string "fact, allies at the end of the day. For\l"
-	.string "now, that's how it must remain.$"
+	.string "fact, allies at the end of the day.\p"
+	.string "For now, that's how it must remain.$"
 
 
 
@@ -743,10 +744,10 @@ end
 
 SilphS2_Text_42:
 	.string "LAVENDER TOWN's naive believers and\n"
-	.string "their ESSENCE POKÉMON! The true\l"
-	.string "essence resides here, within the halls\l"
-	.string "of SILPH CO, where we surpass\l"
-	.string "ourselves daily!$"
+	.string "their ESSENCE POKÉMON!\p"
+	.string "The true essence resides here,\n"
+	.string "within the halls of SILPH CO, where\l"
+	.string "we surpass ourselves daily!$"
 
 
 
@@ -825,8 +826,8 @@ SilphS2_Text_48:
 SilphS2_Text_48.1:
 	.string "Nobody cares if a mere stumble led to an\n"
 	.string "unjust loss at the final moment; in the\l"
-	.string "end, nobody remembers second place. In\l"
-	.string "the Olympic medal tally, it matters\l"
+	.string "end, nobody remembers second place.\p"
+	.string "In the Olympic medal tally, it matters\n"
 	.string "little if you have 50 silver medals; if\l"
 	.string "your competitor has just one more gold,\l"
 	.string "they'll surpass you in the overall ranking.$"
@@ -858,10 +859,10 @@ SilphS2_Text_50:
 	.string "significant potential. We're aware of\l"
 	.string "the existence of MAGNEZONE; however,\l"
 	.string "we believe that's not the true pinnacle\l"
-	.string "of this POKÉMON. Its physiology\l"
-	.string "theoretically enables it to generate\l"
-	.string "electrical discharges that would put\l"
-	.string "ZAPDOS's to shame.$"
+	.string "of this POKÉMON.\p"
+	.string "Its physiology theoretically enables\n"
+	.string "it to generate electrical discharges\l"
+	.string "that would put ZAPDOS's to shame.$"
 
 
 
@@ -893,8 +894,8 @@ SilphS2_Text_53:
 	.string "The confidentiality of this place is\n"
 	.string "sacred; were its existence made public,\l"
 	.string "it would forfeit its enchantment, its\l"
-	.string "essence. I trust you comprehend the\l"
-	.string "significance.$"
+	.string "essence.\p"
+	.string "I trust you comprehend the significance.$"
 
 
 
@@ -981,12 +982,12 @@ SilphS2Documento_Text_102:
 	.string "TOTAL: 540\p"
 	.string "The workhorse camel of HOENN,\n"
 	.string "showcasing a non-existent\l"
-	.string "ATTACK-DEFENSE ratio in KANTO. Paying\l"
-	.string "this with an extremely low speed of\l"
-	.string "merely 10 points. Thought to be\l"
-	.string "influenced by the tremendous force of\l"
-	.string "its EARTQUAKE and EARTH POWER during\l"
-	.string "the HOENN emergence.$"
+	.string "ATTACK-DEFENSE ratio in KANTO.\p"
+	.string "Paying this with an extremely low\n"
+	.string "speed of merely 10 points. Thought to\l"
+	.string "be influenced by the tremendous force\l"
+	.string "of its EARTQUAKE and EARTH POWER\l"
+	.string "during the HOENN emergence.$"
 
 
 

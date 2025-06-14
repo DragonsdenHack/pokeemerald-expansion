@@ -13,10 +13,10 @@ gText_Birch_Pokemon::
 
 gText_Birch_MainSpeech::
 	.string "…is a real POKÉMON and what\n"
-	.string "you should aspire to.\p"
+	.string "you should aspire to control.\p"
 	.string "Well… {PAUSE 60}I hope you're not\n"
 	.string "one of these mediocre grunts who\l"
-	.string "have enough with EKANS or RATTATA.\p"
+	.string "are satisfied with EKANS or RATTATA.\p"
 	.string "Insubordination and poor attitude are\n"
 	.string "taken very seriously here…\l"
 	.string "Keep this in mind.\p"
@@ -71,28 +71,28 @@ gText_Birch_WhatsYourName::
 	.string "which will be your identity here.$"
 
 gText_Birch_SoItsPlayer::
-	.string "Well… {PAUSE 60} So you are\n{PLAYER}{KUN}?$"
+	.string "So… {PAUSE 60} you are\n{PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "{PAUSE 50}This is our LEADER, GIOVANNI.\p"
-	.string "You will not find a better and wiser\n"
-	.string "trainer along the entire KANTO…\p"
+	.string "You will not find a better or wiser\n"
+	.string "trainer in the entire KANTO region…\p"
 	.string "Only top ROCKETS have access\n"
 	.string "to him.\p"
-	.string "If you really want to climb in this\n"
-	.string "organization, you must make merits\l"
-	.string "with each mission that is entrusted to\l"
-	.string "you, without shortcuts or favoritism.\p"
-	.string "Only then you may one day be able to\n"
+	.string "If you really want to rise in this\n"
+	.string "organization, you must perform well\l"
+	.string "on each mission that is entrusted to\l"
+	.string "you, without shortcuts or cheating.\p"
+	.string "Only then may you one day be able to\n"
 	.string "meet our LEADER in person.\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
 	.string "{PLAYER}!\p"
 	.string "You are summoned for the presentation\n"
-	.string "and delivery of initials on CHRONO\l"
-	.string "ISLAND WAREHOUSE, at 5:00 pm.\p"
-	.string "A world of corruption, fraud and\n"
+	.string "and delivery of initial POKÉMON on\l"
+	.string "CHRONO ISLAND WAREHOUSE, at 5:00 pm.\p"
+	.string "A world of corruption, fraud, and\n"
 	.string "hypocrisy awaits you.\p"
 	.string "Get ready to see your beloved\n"
 	.string "KANTO from a different perspective.\p"

@@ -131,18 +131,19 @@ Lavender_Secta_Pasadizo_2_Esencia_Texto_4:
 	.string "its borders.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_5:
-	.string "That's it. The beating heart of KANTO is\n"
-	.string "neither SILPH's offices nor the INDIGO\l"
-	.string "HQ.$"
+	.string "That's it.\p"
+	.string "The beating heart of KANTO is\n"
+	.string "neither SILPH's offices nor the\l"
+	.string "INDIGO HQ.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_6:
 	.string "Here and only here you shall be judged\n"
-	.string "by the GODS of this world. Not in the\l"
-	.string "LEAGUE, nor as a CHAMPION.$"
+	.string "by the GODS of this world.\p"
+	.string "Not in the LEAGUE, nor as a CHAMPION.$"
 
 Lavender_Secta_Pasadizo_2_Esencia_Texto_7:
-	.string "Come on, {PLAYER}. Make them blush!\n"
-	.string "Show them how you bend to your\l"
+	.string "Come on, {PLAYER}. Make them blush!\p"
+	.string "Show them how you bend to your\n"
 	.string "advantage those same rules they\l"
 	.string "created!$"
 

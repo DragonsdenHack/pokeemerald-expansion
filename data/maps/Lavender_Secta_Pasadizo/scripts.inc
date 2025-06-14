@@ -584,8 +584,9 @@ Lavender_Secta_Pasadizo_Oak_Texto_47:
 Lavender_Secta_Pasadizo_Oak_Texto_48:
 	.string "And when I become the one with the most\n"
 	.string "trophies, I'll have proven I am the best\l"
-	.string "TRAINER ever. You can say whatever you\l"
-	.string "want, but numbers never lie.$"
+	.string "TRAINER ever.\p"
+	.string "You can say whatever you want,\n"
+	.string "but numbers never lie.$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_49:
 	.string "C. FRIDA: I see.$"
@@ -609,8 +610,8 @@ Lavender_Secta_Pasadizo_Oak_Texto_53:
 
 Lavender_Secta_Pasadizo_Oak_Texto_54:
 	.string "You'll live, but you'll never get to\n"
-	.string "witness what awaits on the other side.\l"
-	.string "Time waits for no one, do you\l"
+	.string "witness what awaits on the other side.\p"
+	.string "Time waits for no one, do you\n"
 	.string "understand?$"
 
 Lavender_Secta_Pasadizo_Oak_Texto_55:
