@@ -2007,7 +2007,7 @@ static const u8 sRockIncenseDesc[] = _(
    	"ataques tipo ROCA.");
 
 static const u8 sFullIncenseDesc[] = _(
-    "Al llevarlo,el\n"
+    "Al llevarlo, el\n"
    	"POKÉMON se vuelve\n"
    	"más lento.");
 

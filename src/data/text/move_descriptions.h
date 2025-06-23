@@ -2,8 +2,8 @@ static const u8 sNullDescription[] = _(
     "");
 
 static const u8 sPoundDescription[] = _(
-    "Golpea con las patas\n"
-    "o la cola.");
+    "Pounds the foe with\n"
+    "forelegs or tail.");
 
 static const u8 sKarateChopDescription[] = _(
     "Da un golpe cortante.\n"
@@ -245,8 +245,8 @@ static const u8 sBubbleBeamDescription[] = _(
     "puede bajar la Velocidad.");
 
 static const u8 sAuroraBeamDescription[] = _(
-    "Rayo multicolor que\n"
-    "puede reducir el Ataque.");
+    "Rayo multicolor, puede\n"
+    "(10%) reducir el Ataque.");
 
 static const u8 sHyperBeamDescription[] = _(
     "Es eficaz, pero deja inmóvil\n"
@@ -324,8 +324,8 @@ static const u8 sStringShotDescription[] = _(
     "del enemigo.");
 
 static const u8 sDragonRageDescription[] = _(
-    "Daña al rival usando\n"
-    "su fuerza bruta.");
+    "Launches shock waves that\n"
+    "always inflict 40 HP damage.");
 
 static const u8 sFireSpinDescription[] = _(
     "Un aro de fuego que\n"
