@@ -4,7 +4,7 @@ WaterPath_House2_MapScripts::
 WaterPathHouse2_1::
 lock     
 faceplayer     
-msgbox WaterPath_House2_Text_1, MSGBOX_DEFAULT
+msgbox , MSGBOX_DEFAULT
 release     
 end
 

@@ -12,7 +12,7 @@ Ecruteak_House2_Text_1:
 	.string "It happened when I was younger. The\n"
 	.string "sky suddenly darkened. A huge POKÉMON\l"
 	.string "was blocking the sun. I wonder what\l"
-	.string "that POKÉMON would be-that mixture\l"
+	.string "that POKÉMON would be that mixture\l"
 	.string "between bird and dragon.$"
 
 

@@ -9,11 +9,11 @@ end
 RadioTowerP1_2::
 lock     
 faceplayer     
-msgbox Goldenrod_RadioTowerP1_Text_2, MSGBOX_DEFAULT
+msgbox , MSGBOX_DEFAULT
 release     
 end
 
-Goldenrod_RadioTowerP1_Text_2:
+:
 	.string "Lullabies on the radio may make POKÉMON\n"
 	.string "sleep. And some others can wake them\l"
 	.string "up!$"
